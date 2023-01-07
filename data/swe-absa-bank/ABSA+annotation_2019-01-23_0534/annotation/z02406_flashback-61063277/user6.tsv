@@ -1,0 +1,131 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[1]	_	false[1]	2[1]	
+2-2	10-11	T	_	_[1]	_	false[1]	2[1]	
+2-3	12-15	IMM	_	_[1]	_	false[1]	2[1]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=KD: orimliga kostnader för sanering i Stockholm pga tiggare från Rumänien/Bulgarien.
+3-1	18-20	KD	*[4]|*[5]	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	
+3-3	22-30	orimliga	_	Target;Source	3-4[6];3-1[4]	false	2	
+3-4	31-40	kostnader	*[6]	_	_	_	_	
+3-5	41-44	för	*[6]	_	_	_	_	
+3-6	45-53	sanering	*[6]	Target;Source	3-10[7];3-1[5]	false	2	
+3-7	54-55	i	*[6]	_	_	_	_	
+3-8	56-65	Stockholm	*[6]	_	_	_	_	
+3-9	66-69	pga	_	_	_	_	_	
+3-10	70-77	tiggare	*[7]	_	_	_	_	
+3-11	78-82	från	*[7]	_	_	_	_	
+3-12	83-91	Rumänien	*[7]	_	_	_	_	
+3-13	91-92	/	*[7]	_	_	_	_	
+3-14	92-101	Bulgarien	*[7]	_	_	_	_	
+3-15	101-102	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	104-105	#	_	_	_	_	_	
+4-2	105-106	P	_	_	_	_	_	
+4-3	107-110	IMM	_	_	_	_	_	
+4-4	110-111	.	_	_	_	_	_	
+
+#Text=KD i Stockholms stad påstår att tiggare från Rumänien och Bulgarien skräpar och smutsar ner för mångmiljonbelopp årligen enbart i Stockholm.
+5-1	113-115	KD	_	_	_	_	_	
+5-2	116-117	i	_	_	_	_	_	
+5-3	118-128	Stockholms	_	_	_	_	_	
+5-4	129-133	stad	_	_	_	_	_	
+5-5	134-140	påstår	_	_	_	_	_	
+5-6	141-144	att	_	_	_	_	_	
+5-7	145-152	tiggare	_	_	_	_	_	
+5-8	153-157	från	_	_	_	_	_	
+5-9	158-166	Rumänien	_	_	_	_	_	
+5-10	167-170	och	_	_	_	_	_	
+5-11	171-180	Bulgarien	_	_	_	_	_	
+5-12	181-188	skräpar	_	_	_	_	_	
+5-13	189-192	och	_	_	_	_	_	
+5-14	193-200	smutsar	_	_	_	_	_	
+5-15	201-204	ner	_	_	_	_	_	
+5-16	205-208	för	_	_	_	_	_	
+5-17	209-225	mångmiljonbelopp	_	_	_	_	_	
+5-18	226-233	årligen	_	_	_	_	_	
+5-19	234-240	enbart	_	_	_	_	_	
+5-20	241-242	i	_	_	_	_	_	
+5-21	243-252	Stockholm	_	_	_	_	_	
+5-22	252-253	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	255-256	#	_	_	_	_	_	
+6-2	256-257	P	_	_	_	_	_	
+6-3	258-261	IMM	_	_	_	_	_	
+6-4	261-262	.	_	_	_	_	_	
+
+#Text=Vad säger ni här?
+7-1	264-267	Vad	_	_	_	_	_	
+7-2	268-273	säger	_	_	_	_	_	
+7-3	274-276	ni	_	_	_	_	_	
+7-4	277-280	här	_	_	_	_	_	
+7-5	280-281	?	_	_	_	_	_	
+
+#Text=Har KD rätt?
+8-1	282-285	Har	_	_	_	_	_	
+8-2	286-288	KD	_	_	_	_	_	
+8-3	289-293	rätt	_	_	_	_	_	
+8-4	293-294	?	_	_	_	_	_	
+
+#Text=Är detta rimligt?
+9-1	295-297	Är	_	_	_	_	_	
+9-2	298-303	detta	_	_	_	_	_	
+9-3	304-311	rimligt	_	_	_	_	_	
+9-4	311-312	?	_	_	_	_	_	
+
+#Text=Vem kan man beskylla för att problemet uppstått och vad är lösningen?.
+10-1	313-316	Vem	*	_	_	_	_	
+10-2	317-320	kan	_	_	_	_	_	
+10-3	321-324	man	_	_	_	_	_	
+10-4	325-333	beskylla	_	Target	10-1	false	2	
+10-5	334-337	för	_	_	_	_	_	
+10-6	338-341	att	_	_	_	_	_	
+10-7	342-351	problemet	_	_	_	_	_	
+10-8	352-360	uppstått	_	_	_	_	_	
+10-9	361-364	och	_	_	_	_	_	
+10-10	365-368	vad	*	_	_	_	_	
+10-11	369-371	är	_	Target[2]	10-10	false[2]	4[2]	
+10-12	372-381	lösningen	_	Target[2]	10-10	false[2]	4[2]	
+10-13	381-382	?	_	_	_	_	_	
+10-14	382-383	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	385-386	#	_	_[3]	_	false[3]	2[3]	
+11-2	386-387	P	_	_[3]	_	false[3]	2[3]	
+11-3	388-391	IMM	_	_[3]	_	false[3]	2[3]	
+11-4	391-392	.	_	_	_	_	_	
+
+#Text=Är inte kd ett av de partier som hyllat insläppet av tiggare år efter år på riksplanet?.
+12-1	394-396	Är	_	_	_	_	_	
+12-2	397-401	inte	_	_	_	_	_	
+12-3	402-404	kd	*	_	_	_	_	
+12-4	405-408	ett	_	_	_	_	_	
+12-5	409-411	av	_	_	_	_	_	
+12-6	412-414	de	_	_	_	_	_	
+12-7	415-422	partier	_	_	_	_	_	
+12-8	423-426	som	_	_	_	_	_	
+12-9	427-433	hyllat	_	Source;Target	12-3;12-10[8]	false	5	
+12-10	434-443	insläppet	*[8]	_	_	_	_	
+12-11	444-446	av	*[8]	_	_	_	_	
+12-12	447-454	tiggare	*[8]	_	_	_	_	
+12-13	455-457	år	*[8]	_	_	_	_	
+12-14	458-463	efter	*[8]	_	_	_	_	
+12-15	464-466	år	*[8]	_	_	_	_	
+12-16	467-469	på	*[8]	_	_	_	_	
+12-17	470-480	riksplanet	*[8]	_	_	_	_	
+12-18	480-481	?	_	_	_	_	_	
+12-19	481-482	.	_	_	_	_	_	

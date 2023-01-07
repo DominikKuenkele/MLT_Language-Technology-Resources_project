@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+#Text=
+#Text=161004 Rån med gummibatong.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+2-5	18-24	161004	_	_	_	_	_	
+2-6	25-28	Rån	_	_	_	_	_	
+2-7	29-32	med	_	_	_	_	_	
+2-8	33-44	gummibatong	_	_	_	_	_	
+2-9	44-45	.	_	_	_	_	_	
+
+#Text=Årsta, Stockholm.
+3-1	46-51	Årsta	_	_	_	_	_	
+3-2	51-52	,	_	_	_	_	_	
+3-3	53-62	Stockholm	_	_	_	_	_	
+3-4	62-63	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	
+4-2	66-67	P	_	_[1]	_	false[1]	2[1]	
+4-3	68-71	IMM	_	_[1]	_	false[1]	2[1]	
+4-4	71-72	.	_	_	_	_	_	
+
+#Text=Vad vet vi?
+5-1	74-77	Vad	_	_	_	_	_	
+5-2	78-81	vet	_	_	_	_	_	
+5-3	82-84	vi	_	_	_	_	_	
+5-4	84-85	?	_	_	_	_	_	
+
+#Text=Årsta börjar blomstra.
+6-1	86-91	Årsta	*	_	_	_	_	
+6-2	92-98	börjar	_	Target[2]	6-1	true[2]	4[2]	
+6-3	99-107	blomstra	_	Target[2]	6-1	true[2]	4[2]	
+6-4	107-108	.	_	_	_	_	_	
+
+#Text=Var exakt i Årsta har det skett?
+7-1	109-112	Var	_	_	_	_	_	
+7-2	113-118	exakt	_	_	_	_	_	
+7-3	119-120	i	_	_	_	_	_	
+7-4	121-126	Årsta	_	_	_	_	_	
+7-5	127-130	har	_	_	_	_	_	
+7-6	131-134	det	_	_	_	_	_	
+7-7	135-140	skett	_	_	_	_	_	
+7-8	140-141	?	_	_	_	_	_	
+
+#Text=Ensamkommande barn som leker?.
+8-1	142-155	Ensamkommande	_	_	_	_	_	
+8-2	156-160	barn	_	_	_	_	_	
+8-3	161-164	som	_	_	_	_	_	
+8-4	165-170	leker	_	_	_	_	_	
+8-5	170-171	?	_	_	_	_	_	
+8-6	171-172	.	_	_	_	_	_	

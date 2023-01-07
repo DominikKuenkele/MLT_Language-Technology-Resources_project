@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Angående så kallad "öppen svenskhet" hos SD.
+3-1	18-26	Angående	_	_	_	_	_	_	
+3-2	27-29	så	_	_	_	_	_	_	
+3-3	30-36	kallad	_	_	_	_	_	_	
+3-4	37-38	"	_	_	_	_	_	_	
+3-5	38-43	öppen	_	_	_	_	_	_	
+3-6	44-53	svenskhet	_	_	_	_	_	_	
+3-7	53-54	"	_	_	_	_	_	_	
+3-8	55-58	hos	_	_	_	_	_	_	
+3-9	59-61	SD	_	_	_	_	_	_	
+3-10	61-62	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	false	2	_	
+4-4	70-71	.	_	_	_	_	_	_	
+
+#Text=SD är anhängare av så kallad "öppen svenskhet" där vem som helst kan bli svensk, enligt partiet, oavsett etnisk, kulturell och religiös bakgrund.
+5-1	73-75	SD	*	_	_	_	_	_	
+5-2	76-78	är	_	Source;Target[1]	5-1;5-5[4]	false[1]	4[1]	_	
+5-3	79-88	anhängare	_	Source;Target[1]	5-1;5-5[4]	false[1]	4[1]	_	
+5-4	89-91	av	_	Source;Target[1]	5-1;5-5[4]	false[1]	4[1]	_	
+5-5	92-94	så	*[4]	_	_	_	_	_	
+5-6	95-101	kallad	*[4]	_	_	_	_	_	
+5-7	102-103	"	*[4]	_	_	_	_	_	
+5-8	103-108	öppen	*[4]	_	_	_	_	_	
+5-9	109-118	svenskhet	*[4]	_	_	_	_	_	
+5-10	118-119	"	*[4]	_	_	_	_	_	
+5-11	120-123	där	*[4]	_	_	_	_	_	
+5-12	124-127	vem	*[4]	_	_	_	_	_	
+5-13	128-131	som	*[4]	_	_	_	_	_	
+5-14	132-137	helst	*[4]	_	_	_	_	_	
+5-15	138-141	kan	*[4]	_	_	_	_	_	
+5-16	142-145	bli	*[4]	_	_	_	_	_	
+5-17	146-152	svensk	*[4]	_	_	_	_	_	
+5-18	152-153	,	_	_	_	_	_	_	
+5-19	154-160	enligt	_	_	_	_	_	_	
+5-20	161-168	partiet	_	_	_	_	_	_	
+5-21	168-169	,	_	_	_	_	_	_	
+5-22	170-177	oavsett	_	_	_	_	_	_	
+5-23	178-184	etnisk	_	_	_	_	_	_	
+5-24	184-185	,	_	_	_	_	_	_	
+5-25	186-195	kulturell	_	_	_	_	_	_	
+5-26	196-199	och	_	_	_	_	_	_	
+5-27	200-208	religiös	_	_	_	_	_	_	
+5-28	209-217	bakgrund	_	_	_	_	_	_	
+5-29	217-218	.	_	_	_	_	_	_	
+
+#Text=Detta tar jag bestämt avstånd från.
+6-1	219-224	Detta	*	_	_	_	_	_	
+6-2	225-228	tar	_	_	_	false	2	_	
+6-3	229-232	jag	*	_	_	_	_	_	
+6-4	233-240	bestämt	_	Source;Target[2]	6-3;6-1	false[2]	2[2]	6-2[0_2]	
+6-5	241-248	avstånd	_	Source;Target[2]	6-3;6-1	false[2]	2[2]	_	
+6-6	249-253	från	_	Source;Target[2]	6-3;6-1	false[2]	2[2]	_	
+6-7	253-254	.	_	_	_	_	_	_	
+
+#Text=Om jag till exempel hade emigrerat till Kenya och beviljats kenyanskt medborgarskap så hade jag inte blivit kenyan.
+7-1	255-257	Om	_	_	_	_	_	_	
+7-2	258-261	jag	_	_	_	_	_	_	
+7-3	262-266	till	_	_	_	_	_	_	
+7-4	267-274	exempel	_	_	_	_	_	_	
+7-5	275-279	hade	_	_	_	_	_	_	
+7-6	280-289	emigrerat	_	_	_	_	_	_	
+7-7	290-294	till	_	_	_	_	_	_	
+7-8	295-300	Kenya	_	_	_	_	_	_	
+7-9	301-304	och	_	_	_	_	_	_	
+7-10	305-314	beviljats	_	_	_	_	_	_	
+7-11	315-324	kenyanskt	_	_	_	_	_	_	
+7-12	325-338	medborgarskap	_	_	_	_	_	_	
+7-13	339-341	så	_	_	_	_	_	_	
+7-14	342-346	hade	_	_	_	_	_	_	
+7-15	347-350	jag	_	_	_	_	_	_	
+7-16	351-355	inte	_	_	_	_	_	_	
+7-17	356-362	blivit	_	_	_	_	_	_	
+7-18	363-369	kenyan	_	_	_	_	_	_	
+7-19	369-370	.	_	_	_	_	_	_	
+
+#Text=Det är en omöjlighet därför att jag har inte kenyansk bakgrund.
+8-1	371-374	Det	_	_	_	_	_	_	
+8-2	375-377	är	_	_	_	_	_	_	
+8-3	378-380	en	_	_	_	_	_	_	
+8-4	381-391	omöjlighet	_	_	_	_	_	_	
+8-5	392-398	därför	_	_	_	_	_	_	
+8-6	399-402	att	_	_	_	_	_	_	
+8-7	403-406	jag	_	_	_	_	_	_	
+8-8	407-410	har	_	_	_	_	_	_	
+8-9	411-415	inte	_	_	_	_	_	_	
+8-10	416-424	kenyansk	_	_	_	_	_	_	
+8-11	425-433	bakgrund	_	_	_	_	_	_	
+8-12	433-434	.	_	_	_	_	_	_	
+
+#Text=Jag hade förblivit svensk livet ut.
+9-1	435-438	Jag	_	_	_	_	_	_	
+9-2	439-443	hade	_	_	_	_	_	_	
+9-3	444-453	förblivit	_	_	_	_	_	_	
+9-4	454-460	svensk	_	_	_	_	_	_	
+9-5	461-466	livet	_	_	_	_	_	_	
+9-6	467-469	ut	_	_	_	_	_	_	
+9-7	469-470	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	472-473	#	_	_	_	_	_	_	
+10-2	473-474	P	_	_	_	_	_	_	
+10-3	475-478	IMM	_	_	_	false	2	_	
+10-4	478-479	.	_	_	_	_	_	_	
+
+#Text=Här följer en länk med ett exempel på "öppen svenskhet" hos SD med en svart person som är med i partiet, bredvid SD:s vice partiordförande Julia Kronlid.
+11-1	481-484	Här	_	_	_	_	_	_	
+11-2	485-491	följer	_	_	_	_	_	_	
+11-3	492-494	en	_	_	_	_	_	_	
+11-4	495-499	länk	_	_	_	_	_	_	
+11-5	500-503	med	_	_	_	_	_	_	
+11-6	504-507	ett	_	_	_	_	_	_	
+11-7	508-515	exempel	_	_	_	_	_	_	
+11-8	516-518	på	_	_	_	_	_	_	
+11-9	519-520	"	_	_	_	_	_	_	
+11-10	520-525	öppen	_	_	_	_	_	_	
+11-11	526-535	svenskhet	_	_	_	_	_	_	
+11-12	535-536	"	_	_	_	_	_	_	
+11-13	537-540	hos	_	_	_	_	_	_	
+11-14	541-543	SD	_	_	_	_	_	_	
+11-15	544-547	med	_	_	_	_	_	_	
+11-16	548-550	en	_	_	_	_	_	_	
+11-17	551-556	svart	_	_	_	_	_	_	
+11-18	557-563	person	_	_	_	_	_	_	
+11-19	564-567	som	_	_	_	_	_	_	
+11-20	568-570	är	_	_	_	_	_	_	
+11-21	571-574	med	_	_	_	_	_	_	
+11-22	575-576	i	_	_	_	_	_	_	
+11-23	577-584	partiet	_	_	_	_	_	_	
+11-24	584-585	,	_	_	_	_	_	_	
+11-25	586-593	bredvid	_	_	_	_	_	_	
+11-26	594-596	SD	_	_	_	_	_	_	
+11-27	596-597	:	_	_	_	_	_	_	
+11-28	597-598	s	_	_	_	_	_	_	
+11-29	599-603	vice	_	_	_	_	_	_	
+11-30	604-619	partiordförande	_	_	_	_	_	_	
+11-31	620-625	Julia	_	_	_	_	_	_	
+11-32	626-633	Kronlid	_	_	_	_	_	_	
+11-33	633-634	.	_	_	_	_	_	_	
+
+#Text=Jag vet inte vad han heter och om han har förtroendeuppdrag i partiet, men han ser inte svensk ut, men enligt SD:s prat om "öppen svenskhet" så är han det och därför välkommen till partiet.
+12-1	635-638	Jag	_	_	_	_	_	_	
+12-2	639-642	vet	_	_	_	_	_	_	
+12-3	643-647	inte	_	_	_	_	_	_	
+12-4	648-651	vad	_	_	_	_	_	_	
+12-5	652-655	han	_	_	_	_	_	_	
+12-6	656-661	heter	_	_	_	_	_	_	
+12-7	662-665	och	_	_	_	_	_	_	
+12-8	666-668	om	_	_	_	_	_	_	
+12-9	669-672	han	_	_	_	_	_	_	
+12-10	673-676	har	_	_	_	_	_	_	
+12-11	677-694	förtroendeuppdrag	_	_	_	_	_	_	
+12-12	695-696	i	_	_	_	_	_	_	
+12-13	697-704	partiet	_	_	_	_	_	_	
+12-14	704-705	,	_	_	_	_	_	_	
+12-15	706-709	men	_	_	_	_	_	_	
+12-16	710-713	han	_	_	_	_	_	_	
+12-17	714-717	ser	_	_	_	_	_	_	
+12-18	718-722	inte	_	_	_	_	_	_	
+12-19	723-729	svensk	_	_	_	_	_	_	
+12-20	730-732	ut	_	_	_	_	_	_	
+12-21	732-733	,	_	_	_	_	_	_	
+12-22	734-737	men	_	_	_	_	_	_	
+12-23	738-744	enligt	_	_	_	_	_	_	
+12-24	745-747	SD	_	_	_	_	_	_	
+12-25	747-748	:	_	_	_	_	_	_	
+12-26	748-749	s	_	_	_	_	_	_	
+12-27	750-754	prat	_	_	_	_	_	_	
+12-28	755-757	om	_	_	_	_	_	_	
+12-29	758-759	"	_	_	_	_	_	_	
+12-30	759-764	öppen	_	_	_	_	_	_	
+12-31	765-774	svenskhet	_	_	_	_	_	_	
+12-32	774-775	"	_	_	_	_	_	_	
+12-33	776-778	så	_	_	_	_	_	_	
+12-34	779-781	är	_	_	_	_	_	_	
+12-35	782-785	han	*	_	_	_	_	_	
+12-36	786-789	det	_	_	_	_	_	_	
+12-37	790-793	och	_	_	_	_	_	_	
+12-38	794-800	därför	_	_	_	_	_	_	
+12-39	801-810	välkommen	_	Target;Source[3]	12-35;12-41	false[3]	4[3]	_	
+12-40	811-815	till	_	Target;Source[3]	12-35;12-41	false[3]	4[3]	_	
+12-41	816-823	partiet	*	_	_	_	_	_	
+12-42	823-824	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	826-827	#	_	_	_	_	_	_	
+13-2	827-828	P	_	_	_	_	_	_	
+13-3	829-832	IMM	_	_	_	false	2	_	
+13-4	832-833	.	_	_	_	_	_	_	
+
+#Text=SD verkar inte bekymra sig över den dramatiska befolkningsförändringen i Sverige där svenskarna riskerar att bli en minoritet i sitt eget land om massinvandringen inte stoppas och om inte en omfattande återvandring påbörjas.
+14-1	835-837	SD	_	_	_	_	_	_	
+14-2	838-844	verkar	_	_	_	_	_	_	
+14-3	845-849	inte	_	_	_	_	_	_	
+14-4	850-857	bekymra	_	_	_	_	_	_	
+14-5	858-861	sig	_	_	_	_	_	_	
+14-6	862-866	över	_	_	_	_	_	_	
+14-7	867-870	den	_	_	_	_	_	_	
+14-8	871-881	dramatiska	_	_	_	_	_	_	
+14-9	882-905	befolkningsförändringen	_	_	_	_	_	_	
+14-10	906-907	i	_	_	_	_	_	_	
+14-11	908-915	Sverige	_	_	_	_	_	_	
+14-12	916-919	där	_	_	_	_	_	_	
+14-13	920-930	svenskarna	_	_	_	_	_	_	
+14-14	931-939	riskerar	_	Target	14-15[5]	false	2	_	
+14-15	940-943	att	*[5]	_	_	_	_	_	
+14-16	944-947	bli	*[5]	_	_	_	_	_	
+14-17	948-950	en	*[5]	_	_	_	_	_	
+14-18	951-960	minoritet	*[5]	_	_	_	_	_	
+14-19	961-962	i	*[5]	_	_	_	_	_	
+14-20	963-967	sitt	*[5]	_	_	_	_	_	
+14-21	968-972	eget	*[5]	_	_	_	_	_	
+14-22	973-977	land	*[5]	_	_	_	_	_	
+14-23	978-980	om	_	_	_	_	_	_	
+14-24	981-997	massinvandringen	_	_	_	_	_	_	
+14-25	998-1002	inte	_	_	_	_	_	_	
+14-26	1003-1010	stoppas	_	_	_	_	_	_	
+14-27	1011-1014	och	_	_	_	_	_	_	
+14-28	1015-1017	om	_	_	_	_	_	_	
+14-29	1018-1022	inte	_	_	_	_	_	_	
+14-30	1023-1025	en	_	_	_	_	_	_	
+14-31	1026-1036	omfattande	_	_	_	_	_	_	
+14-32	1037-1049	återvandring	_	_	_	_	_	_	
+14-33	1050-1058	påbörjas	_	_	_	_	_	_	
+14-34	1058-1059	.	_	_	_	_	_	_	
+
+#Text=Här följer länkar till två bra artiklar av socionomen och journalisten Gunnar Sandelin om folkutbytet:.
+15-1	1060-1063	Här	_	_	_	_	_	_	
+15-2	1064-1070	följer	_	_	_	_	_	_	
+15-3	1071-1077	länkar	_	_	_	_	_	_	
+15-4	1078-1082	till	_	_	_	_	_	_	
+15-5	1083-1086	två	_	_	_	_	_	_	
+15-6	1087-1090	bra	_	_	_	_	_	_	
+15-7	1091-1099	artiklar	_	_	_	_	_	_	
+15-8	1100-1102	av	_	_	_	_	_	_	
+15-9	1103-1113	socionomen	_	_	_	_	_	_	
+15-10	1114-1117	och	_	_	_	_	_	_	
+15-11	1118-1130	journalisten	_	_	_	_	_	_	
+15-12	1131-1137	Gunnar	_	_	_	_	_	_	
+15-13	1138-1146	Sandelin	_	_	_	_	_	_	
+15-14	1147-1149	om	_	_	_	_	_	_	
+15-15	1150-1161	folkutbytet	_	_	_	_	_	_	
+15-16	1161-1162	:	_	_	_	_	_	_	
+15-17	1162-1163	.	_	_	_	_	_	_	

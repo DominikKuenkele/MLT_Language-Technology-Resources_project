@@ -1,0 +1,936 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Svenska värderingar slutar i rent hyckleri.
+3-1	18-25	Svenska	*[17]	_	_	_	_	_	
+3-2	26-37	värderingar	*[17]	_	_	_	_	_	
+3-3	38-44	slutar	_	Target[1]	3-1[17]	false[1]	2[1]	_	
+3-4	45-46	i	_	Target[1]	3-1[17]	false[1]	2[1]	_	
+3-5	47-51	rent	_	Target[1]	3-1[17]	false[1]	2[1]	_	
+3-6	52-60	hyckleri	_	Target[1]	3-1[17]	false[1]	2[1]	_	
+3-7	60-61	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	
+
+#Text=Nu för tiden är de flesta för svenska värderingar.
+5-1	72-74	Nu	_	_	_	_	_	_	
+5-2	75-78	för	_	_	_	_	_	_	
+5-3	79-84	tiden	_	_	_	_	_	_	
+5-4	85-87	är	_	_	_	_	_	_	
+5-5	88-90	de	*[18]	_	_	_	_	_	
+5-6	91-97	flesta	*[18]	_	_	_	_	_	
+5-7	98-101	för	_	Target;Source	5-8[19];5-5[18]	false	4	_	
+5-8	102-109	svenska	*[19]	_	_	_	_	_	
+5-9	110-121	värderingar	*[19]	_	_	_	_	_	
+5-10	121-122	.	_	_	_	_	_	_	
+
+#Text=Jämställdhet, tolerans, yttrandefrihet och alla likas värde betonas.
+6-1	123-135	Jämställdhet	*[20]	_	_	_	_	_	
+6-2	135-136	,	*[20]	_	_	_	_	_	
+6-3	137-145	tolerans	*[20]	_	_	_	_	_	
+6-4	145-146	,	*[20]	_	_	_	_	_	
+6-5	147-161	yttrandefrihet	*[20]	_	_	_	_	_	
+6-6	162-165	och	*[20]	_	_	_	_	_	
+6-7	166-170	alla	*[20]	_	_	_	_	_	
+6-8	171-176	likas	*[20]	_	_	_	_	_	
+6-9	177-182	värde	*[20]	_	_	_	_	_	
+6-10	183-190	betonas	_	Target	6-1[20]	false	4	_	
+6-11	190-191	.	_	_	_	_	_	_	
+
+#Text=Liksom att skaka hand.
+7-1	192-198	Liksom	_	_	_	_	_	_	
+7-2	199-202	att	_	_	_	_	_	_	
+7-3	203-208	skaka	_	_	_	_	_	_	
+7-4	209-213	hand	_	_	_	_	_	_	
+7-5	213-214	.	_	_	_	_	_	_	
+
+#Text=Udden är uppenbarligen mot de som har ”osvenska” värderingar.
+8-1	215-220	Udden	_	Target;Source[2]	8-5[21];8-12	false[2]	2[2]	_	
+8-2	221-223	är	_	Target;Source[2]	8-5[21];8-12	false[2]	2[2]	_	
+8-3	224-237	uppenbarligen	_	_	_	_	_	_	
+8-4	238-241	mot	_	_	_	false	2	8-1[2_0]	
+8-5	242-244	de	*[21]	_	_	_	_	_	
+8-6	245-248	som	*[21]	_	_	_	_	_	
+8-7	249-252	har	*[21]	_	_	_	_	_	
+8-8	253-254	”	*[21]	_	_	_	_	_	
+8-9	254-262	osvenska	*[21]	_	_	_	_	_	
+8-10	262-263	”	*[21]	_	_	_	_	_	
+8-11	264-275	värderingar	*[21]	_	_	_	_	_	
+8-12	275-276	.	*	_	_	_	_	_	
+
+#Text=Värdegrundsvurmande mobiliseras mot ett samhälle i upplösning, ungefär som predikan mot synden förr i tiden.
+9-1	277-296	Värdegrundsvurmande	_	_	_	_	_	_	
+9-2	297-308	mobiliseras	_	_	_	_	_	_	
+9-3	309-312	mot	_	_	_	_	_	_	
+9-4	313-316	ett	_	_	_	_	_	_	
+9-5	317-325	samhälle	_	_	_	_	_	_	
+9-6	326-327	i	_	_	_	_	_	_	
+9-7	328-338	upplösning	_	_	_	_	_	_	
+9-8	338-339	,	_	_	_	_	_	_	
+9-9	340-347	ungefär	_	_	_	_	_	_	
+9-10	348-351	som	_	_	_	_	_	_	
+9-11	352-360	predikan	_	_	_	_	_	_	
+9-12	361-364	mot	_	_	_	_	_	_	
+9-13	365-371	synden	_	_	_	_	_	_	
+9-14	372-376	förr	_	_	_	_	_	_	
+9-15	377-378	i	_	_	_	_	_	_	
+9-16	379-384	tiden	_	_	_	_	_	_	
+9-17	384-385	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	387-388	#	_	_	_	_	_	_	
+10-2	388-389	P	_	_	_	_	_	_	
+10-3	390-393	IMM	_	_	_	_	_	_	
+10-4	393-394	.	_	_	_	_	_	_	
+
+#Text=Men det används också som en undanflykt för att ta tag i reella problem.
+11-1	396-399	Men	_	_	_	_	_	_	
+11-2	400-403	det	*	_	_	_	_	_	
+11-3	404-411	används	_	_	_	false	2	_	
+11-4	412-417	också	_	_	_	_	_	_	
+11-5	418-421	som	_	Target[3]	11-2	false[3]	2[3]	11-3[0_3]	
+11-6	422-424	en	_	Target[3]	11-2	false[3]	2[3]	_	
+11-7	425-435	undanflykt	_	Target[3]	11-2	false[3]	2[3]	_	
+11-8	436-439	för	_	_	_	_	_	_	
+11-9	440-443	att	_	_	_	_	_	_	
+11-10	444-446	ta	_	_	_	_	_	_	
+11-11	447-450	tag	_	_	_	_	_	_	
+11-12	451-452	i	_	_	_	_	_	_	
+11-13	453-459	reella	_	_	_	_	_	_	
+11-14	460-467	problem	_	_	_	_	_	_	
+11-15	467-468	.	_	_	_	_	_	_	
+
+#Text=Jobba med värdegrunden blir lätt naiva övningar kring vaga honnörsord: lallande positivitet.
+12-1	469-474	Jobba	_	_	_	_	_	_	
+12-2	475-478	med	_	_	_	_	_	_	
+12-3	479-491	värdegrunden	_	_	_	_	_	_	
+12-4	492-496	blir	_	_	_	_	_	_	
+12-5	497-501	lätt	_	_	_	_	_	_	
+12-6	502-507	naiva	_	_	_	_	_	_	
+12-7	508-516	övningar	_	_	_	_	_	_	
+12-8	517-522	kring	_	_	_	_	_	_	
+12-9	523-527	vaga	_	_	_	_	_	_	
+12-10	528-538	honnörsord	_	_	_	_	_	_	
+12-11	538-539	:	_	_	_	_	_	_	
+12-12	540-548	lallande	_	_	_	_	_	_	
+12-13	549-560	positivitet	_	_	_	_	_	_	
+12-14	560-561	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	563-564	#	_	_	_	_	_	_	
+13-2	564-565	P	_	_	_	_	_	_	
+13-3	566-569	IMM	_	_	_	_	_	_	
+13-4	569-570	.	_	_	_	_	_	_	
+
+#Text=Vad som uttalas skiljer sig ofta från vad som praktiseras.
+14-1	572-575	Vad	_	_	_	_	_	_	
+14-2	576-579	som	_	_	_	_	_	_	
+14-3	580-587	uttalas	_	_	_	_	_	_	
+14-4	588-595	skiljer	_	_	_	_	_	_	
+14-5	596-599	sig	_	_	_	_	_	_	
+14-6	600-604	ofta	_	_	_	_	_	_	
+14-7	605-609	från	_	_	_	_	_	_	
+14-8	610-613	vad	_	_	_	_	_	_	
+14-9	614-617	som	_	_	_	_	_	_	
+14-10	618-629	praktiseras	_	_	_	_	_	_	
+14-11	629-630	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	632-633	#	_	_	_	_	_	_	
+15-2	633-634	P	_	_	_	_	_	_	
+15-3	635-638	IMM	_	_	_	_	_	_	
+15-4	638-639	.	_	_	_	_	_	_	
+
+#Text=Ett välfungerande samhälle kan inte bara skryta över goda svenska värderingar utan måste kritiskt granska sådana.
+16-1	641-644	Ett	_	_	_	_	_	_	
+16-2	645-658	välfungerande	_	_	_	_	_	_	
+16-3	659-667	samhälle	_	_	_	_	_	_	
+16-4	668-671	kan	_	_	_	_	_	_	
+16-5	672-676	inte	_	_	_	_	_	_	
+16-6	677-681	bara	_	_	_	_	_	_	
+16-7	682-688	skryta	_	_	_	_	_	_	
+16-8	689-693	över	_	_	_	_	_	_	
+16-9	694-698	goda	_	_	_	_	_	_	
+16-10	699-706	svenska	_	_	_	_	_	_	
+16-11	707-718	värderingar	_	_	_	_	_	_	
+16-12	719-723	utan	_	_	_	_	_	_	
+16-13	724-729	måste	_	_	_	_	_	_	
+16-14	730-738	kritiskt	_	_	_	_	_	_	
+16-15	739-746	granska	_	_	_	_	_	_	
+16-16	747-753	sådana	_	_	_	_	_	_	
+16-17	753-754	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	756-757	#	_	_	_	_	_	_	
+17-2	757-758	P	_	_	_	_	_	_	
+17-3	759-762	IMM	_	_	_	_	_	_	
+17-4	762-763	.	_	_	_	_	_	_	
+
+#Text=Jämfört med många andra samhällen präglas det svenska inte minst av försiktighet, följsamhet, feghet och – som en följd av detta – förljugenhet.
+18-1	765-772	Jämfört	_	_	_	_	_	_	
+18-2	773-776	med	_	_	_	_	_	_	
+18-3	777-782	många	_	_	_	_	_	_	
+18-4	783-788	andra	_	_	_	_	_	_	
+18-5	789-798	samhällen	_	_	_	_	_	_	
+18-6	799-806	präglas	_	_	_	false	2	_	
+18-7	807-810	det	*[22]	_	_	_	_	_	
+18-8	811-818	svenska	*[22]	_	_	_	_	_	
+18-9	819-823	inte	_	_	_	_	_	_	
+18-10	824-829	minst	_	_	_	_	_	_	
+18-11	830-832	av	_	Target[4]	18-7[22]	false[4]	2[4]	18-6[0_4]	
+18-12	833-845	försiktighet	_	Target[4]	18-7[22]	false[4]	2[4]	_	
+18-13	845-846	,	_	Target[4]	18-7[22]	false[4]	2[4]	_	
+18-14	847-857	följsamhet	_	Target[4]	18-7[22]	false[4]	2[4]	_	
+18-15	857-858	,	_	Target[4]	18-7[22]	false[4]	2[4]	_	
+18-16	859-865	feghet	_	Target[4]	18-7[22]	false[4]	2[4]	_	
+18-17	866-869	och	_	_	_	_	_	_	
+18-18	870-871	–	_	_	_	_	_	_	
+18-19	872-875	som	_	_	_	_	_	_	
+18-20	876-878	en	_	_	_	_	_	_	
+18-21	879-884	följd	_	_	_	_	_	_	
+18-22	885-887	av	_	_	_	_	_	_	
+18-23	888-893	detta	_	_	_	_	_	_	
+18-24	894-895	–	_	_	_	_	_	_	
+18-25	896-908	förljugenhet	_	_	_	_	_	_	
+18-26	908-909	.	_	_	_	_	_	_	
+
+#Text=Dessa Fyra F är centrala i offentlig verksamhet och samhällsliv.
+19-1	910-915	Dessa	_	_	_	_	_	_	
+19-2	916-920	Fyra	_	_	_	_	_	_	
+19-3	921-922	F	_	_	_	_	_	_	
+19-4	923-925	är	_	_	_	_	_	_	
+19-5	926-934	centrala	_	_	_	_	_	_	
+19-6	935-936	i	_	_	_	_	_	_	
+19-7	937-946	offentlig	_	_	_	_	_	_	
+19-8	947-957	verksamhet	_	_	_	_	_	_	
+19-9	958-961	och	_	_	_	_	_	_	
+19-10	962-973	samhällsliv	_	_	_	_	_	_	
+19-11	973-974	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	976-977	#	_	_	_	_	_	_	
+20-2	977-978	P	_	_	_	_	_	_	
+20-3	979-982	IMM	_	_	_	_	_	_	
+20-4	982-983	.	_	_	_	_	_	_	
+
+#Text=Jag föreläser ofta för chefer inom offentlig förvaltning.
+21-1	985-988	Jag	_	_	_	_	_	_	
+21-2	989-998	föreläser	_	_	_	_	_	_	
+21-3	999-1003	ofta	_	_	_	_	_	_	
+21-4	1004-1007	för	_	_	_	_	_	_	
+21-5	1008-1014	chefer	_	_	_	_	_	_	
+21-6	1015-1019	inom	_	_	_	_	_	_	
+21-7	1020-1029	offentlig	_	_	_	_	_	_	
+21-8	1030-1041	förvaltning	_	_	_	_	_	_	
+21-9	1041-1042	.	_	_	_	_	_	_	
+
+#Text=Och framhåller då vikten av att fokusera på praktik och resultat – vad gör och åstadkommer man?
+22-1	1043-1046	Och	_	_	_	_	_	_	
+22-2	1047-1057	framhåller	_	Target	22-4[23]	false	4	_	
+22-3	1058-1060	då	_	_	_	_	_	_	
+22-4	1061-1067	vikten	*[23]	_	_	_	_	_	
+22-5	1068-1070	av	*[23]	_	_	_	_	_	
+22-6	1071-1074	att	*[23]	_	_	_	_	_	
+22-7	1075-1083	fokusera	*[23]	_	_	_	_	_	
+22-8	1084-1086	på	*[23]	_	_	_	_	_	
+22-9	1087-1094	praktik	*[23]	_	_	_	_	_	
+22-10	1095-1098	och	*[23]	_	_	_	_	_	
+22-11	1099-1107	resultat	*[23]	_	_	_	_	_	
+22-12	1108-1109	–	_	_	_	_	_	_	
+22-13	1110-1113	vad	_	_	_	_	_	_	
+22-14	1114-1117	gör	_	_	_	_	_	_	
+22-15	1118-1121	och	_	_	_	_	_	_	
+22-16	1122-1133	åstadkommer	_	_	_	_	_	_	
+22-17	1134-1137	man	_	_	_	_	_	_	
+22-18	1137-1138	?	_	_	_	_	_	_	
+
+#Text=Men i centrum står i stället policyer, planer, visioner och värdegrundsövningar.
+23-1	1139-1142	Men	_	_	_	_	_	_	
+23-2	1143-1144	i	_	_	_	_	_	_	
+23-3	1145-1152	centrum	_	_	_	_	_	_	
+23-4	1153-1157	står	_	_	_	_	_	_	
+23-5	1158-1159	i	_	Target[5]	23-7[24]	false[5]	2[5]	_	
+23-6	1160-1167	stället	_	Target[5]	23-7[24]	false[5]	2[5]	_	
+23-7	1168-1176	policyer	*[24]	_	_	_	_	_	
+23-8	1176-1177	,	*[24]	_	_	_	_	_	
+23-9	1178-1184	planer	*[24]	_	_	_	_	_	
+23-10	1184-1185	,	*[24]	_	_	_	_	_	
+23-11	1186-1194	visioner	*[24]	_	_	_	_	_	
+23-12	1195-1198	och	*[24]	_	_	_	_	_	
+23-13	1199-1218	värdegrundsövningar	*[24]	_	_	_	_	_	
+23-14	1218-1219	.	_	_	_	_	_	_	
+
+#Text=Man följer nitiskt regelverk och gör allt formellt rätt.
+24-1	1220-1223	Man	_	_	_	_	_	_	
+24-2	1224-1230	följer	_	_	_	_	_	_	
+24-3	1231-1238	nitiskt	_	_	_	_	_	_	
+24-4	1239-1248	regelverk	_	_	_	_	_	_	
+24-5	1249-1252	och	_	_	_	_	_	_	
+24-6	1253-1256	gör	_	_	_	_	_	_	
+24-7	1257-1261	allt	_	_	_	_	_	_	
+24-8	1262-1270	formellt	_	_	_	_	_	_	
+24-9	1271-1275	rätt	_	_	_	_	_	_	
+24-10	1275-1276	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1278-1279	#	_	_	_	_	_	_	
+25-2	1279-1280	P	_	_	_	_	_	_	
+25-3	1281-1284	IMM	_	_	_	_	_	_	
+25-4	1284-1285	.	_	_	_	_	_	_	
+
+#Text=Man följer nitiskt regelverk och gör allt formellt rätt.
+26-1	1287-1290	Man	_	_	_	_	_	_	
+26-2	1291-1297	följer	_	_	_	_	_	_	
+26-3	1298-1305	nitiskt	_	_	_	_	_	_	
+26-4	1306-1315	regelverk	_	_	_	_	_	_	
+26-5	1316-1319	och	_	_	_	_	_	_	
+26-6	1320-1323	gör	_	_	_	_	_	_	
+26-7	1324-1328	allt	_	_	_	_	_	_	
+26-8	1329-1337	formellt	_	_	_	_	_	_	
+26-9	1338-1342	rätt	_	_	_	_	_	_	
+26-10	1342-1343	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1345-1346	#	_	_	_	_	_	_	
+27-2	1346-1347	P	_	_	_	_	_	_	
+27-3	1348-1351	IMM	_	_	_	_	_	_	
+27-4	1351-1352	.	_	_	_	_	_	_	
+
+#Text=De flesta håller med om vikten av en omdirigering från policyer, planer och prat mot att fokusera praktik och reella prestationer (i motsats till exempelvis glädjebetyg i skolan och pinnräkning inom polis och sjukvård).
+28-1	1354-1356	De	*[25]	_	_	_	_	_	
+28-2	1357-1363	flesta	*[25]	_	_	_	_	_	
+28-3	1364-1370	håller	_	Target;Source[6]	28-6[26];28-1[25]	false[6]	2[6]	_	
+28-4	1371-1374	med	_	Target;Source[6]	28-6[26];28-1[25]	false[6]	2[6]	_	
+28-5	1375-1377	om	_	Target;Source[6]	28-6[26];28-1[25]	false[6]	2[6]	_	
+28-6	1378-1384	vikten	*[26]	Target[7]	28-8[27]	false[7]	2[7]	_	
+28-7	1385-1387	av	*[26]	Target[7]	28-8[27]	false[7]	2[7]	_	
+28-8	1388-1390	en	*[26]|*[27]	_	_	_	_	_	
+28-9	1391-1403	omdirigering	*[26]|*[27]	_	_	_	_	_	
+28-10	1404-1408	från	*[26]|*[27]	_	_	_	_	_	
+28-11	1409-1417	policyer	*[26]|*[27]	_	_	_	_	_	
+28-12	1417-1418	,	*[26]|*[27]	_	_	_	_	_	
+28-13	1419-1425	planer	*[26]|*[27]	_	_	_	_	_	
+28-14	1426-1429	och	*[26]|*[27]	_	_	_	_	_	
+28-15	1430-1434	prat	*[26]|*[27]	_	_	_	_	_	
+28-16	1435-1438	mot	*[26]|*[27]	_	_	_	_	_	
+28-17	1439-1442	att	*[26]|*[27]	_	_	_	_	_	
+28-18	1443-1451	fokusera	*[26]|*[27]	_	_	_	_	_	
+28-19	1452-1459	praktik	*[26]|*[27]	_	_	_	_	_	
+28-20	1460-1463	och	*[26]|*[27]	_	_	_	_	_	
+28-21	1464-1470	reella	*[26]|*[27]	_	_	_	_	_	
+28-22	1471-1483	prestationer	*[26]|*[27]	_	_	_	_	_	
+28-23	1484-1485	(	_	_	_	_	_	_	
+28-24	1485-1486	i	_	_	_	_	_	_	
+28-25	1487-1494	motsats	_	_	_	_	_	_	
+28-26	1495-1499	till	_	_	_	_	_	_	
+28-27	1500-1510	exempelvis	_	_	_	_	_	_	
+28-28	1511-1522	glädjebetyg	_	_	_	_	_	_	
+28-29	1523-1524	i	_	_	_	_	_	_	
+28-30	1525-1531	skolan	_	_	_	_	_	_	
+28-31	1532-1535	och	_	_	_	_	_	_	
+28-32	1536-1547	pinnräkning	_	_	_	_	_	_	
+28-33	1548-1552	inom	_	_	_	_	_	_	
+28-34	1553-1558	polis	_	_	_	_	_	_	
+28-35	1559-1562	och	_	_	_	_	_	_	
+28-36	1563-1571	sjukvård	_	_	_	_	_	_	
+28-37	1571-1572	)	_	_	_	_	_	_	
+28-38	1572-1573	.	_	_	_	_	_	_	
+
+#Text=För mycket resurser går i dag till att allt ska se bra ut och undvikande av prickningar av tillsynsmyndigheter eller massmedia.
+29-1	1574-1577	För	_	_	_	_	_	_	
+29-2	1578-1584	mycket	_	_	_	_	_	_	
+29-3	1585-1593	resurser	_	_	_	_	_	_	
+29-4	1594-1597	går	_	_	_	_	_	_	
+29-5	1598-1599	i	_	_	_	_	_	_	
+29-6	1600-1603	dag	_	_	_	_	_	_	
+29-7	1604-1608	till	_	_	_	_	_	_	
+29-8	1609-1612	att	_	_	_	_	_	_	
+29-9	1613-1617	allt	_	_	_	_	_	_	
+29-10	1618-1621	ska	_	_	_	_	_	_	
+29-11	1622-1624	se	_	_	_	_	_	_	
+29-12	1625-1628	bra	_	_	_	_	_	_	
+29-13	1629-1631	ut	_	_	_	_	_	_	
+29-14	1632-1635	och	_	_	_	_	_	_	
+29-15	1636-1646	undvikande	_	_	_	_	_	_	
+29-16	1647-1649	av	_	_	_	_	_	_	
+29-17	1650-1661	prickningar	_	_	_	_	_	_	
+29-18	1662-1664	av	_	_	_	_	_	_	
+29-19	1665-1684	tillsynsmyndigheter	_	_	_	_	_	_	
+29-20	1685-1690	eller	_	_	_	_	_	_	
+29-21	1691-1700	massmedia	_	_	_	_	_	_	
+29-22	1700-1701	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1703-1704	#	_	_	_	_	_	_	
+30-2	1704-1705	P	_	_	_	_	_	_	
+30-3	1706-1709	IMM	_	_	_	_	_	_	
+30-4	1709-1710	.	_	_	_	_	_	_	
+
+#Text=Man gör som alla andra.
+31-1	1712-1715	Man	_	_	_	_	_	_	
+31-2	1716-1719	gör	_	_	_	_	_	_	
+31-3	1720-1723	som	_	_	_	_	_	_	
+31-4	1724-1728	alla	_	_	_	_	_	_	
+31-5	1729-1734	andra	_	_	_	_	_	_	
+31-6	1734-1735	.	_	_	_	_	_	_	
+
+#Text=Att ta reellt ansvar för att skola, sjukvård, polis, socialtjänst och så vidare fungerar väl blir mindre viktigt.
+32-1	1736-1739	Att	_	_	_	_	_	_	
+32-2	1740-1742	ta	_	_	_	_	_	_	
+32-3	1743-1749	reellt	_	_	_	_	_	_	
+32-4	1750-1756	ansvar	_	_	_	_	_	_	
+32-5	1757-1760	för	_	_	_	_	_	_	
+32-6	1761-1764	att	_	_	_	_	_	_	
+32-7	1765-1770	skola	_	_	_	_	_	_	
+32-8	1770-1771	,	_	_	_	_	_	_	
+32-9	1772-1780	sjukvård	_	_	_	_	_	_	
+32-10	1780-1781	,	_	_	_	_	_	_	
+32-11	1782-1787	polis	_	_	_	_	_	_	
+32-12	1787-1788	,	_	_	_	_	_	_	
+32-13	1789-1801	socialtjänst	_	_	_	_	_	_	
+32-14	1802-1805	och	_	_	_	_	_	_	
+32-15	1806-1808	så	_	_	_	_	_	_	
+32-16	1809-1815	vidare	_	_	_	_	_	_	
+32-17	1816-1824	fungerar	_	_	_	_	_	_	
+32-18	1825-1828	väl	_	_	_	_	_	_	
+32-19	1829-1833	blir	_	_	_	_	_	_	
+32-20	1834-1840	mindre	_	_	_	_	_	_	
+32-21	1841-1848	viktigt	_	_	_	_	_	_	
+32-22	1848-1849	.	_	_	_	_	_	_	
+
+#Text=Viktigare för varje organisationsledning är att följa de fyra F:en.
+33-1	1850-1859	Viktigare	_	Target;Source	33-6[29];33-3[28]	false	4	_	
+33-2	1860-1863	för	_	_	_	_	_	_	
+33-3	1864-1869	varje	*[28]	_	_	_	_	_	
+33-4	1870-1890	organisationsledning	*[28]	_	_	_	_	_	
+33-5	1891-1893	är	_	_	_	_	_	_	
+33-6	1894-1897	att	*[29]	_	_	_	_	_	
+33-7	1898-1903	följa	*[29]	_	_	_	_	_	
+33-8	1904-1906	de	*[29]	_	_	_	_	_	
+33-9	1907-1911	fyra	*[29]	_	_	_	_	_	
+33-10	1912-1913	F	*[29]	_	_	_	_	_	
+33-11	1913-1914	:	*[29]	_	_	_	_	_	
+33-12	1914-1916	en	*[29]	_	_	_	_	_	
+33-13	1916-1917	.	_	_	_	_	_	_	
+
+#Text=Att visa integritet och tala klarspråk är riskabelt.
+34-1	1918-1921	Att	_	_	_	_	_	_	
+34-2	1922-1926	visa	_	_	_	_	_	_	
+34-3	1927-1937	integritet	_	_	_	_	_	_	
+34-4	1938-1941	och	_	_	_	_	_	_	
+34-5	1942-1946	tala	_	_	_	_	_	_	
+34-6	1947-1956	klarspråk	_	_	_	_	_	_	
+34-7	1957-1959	är	_	_	_	_	_	_	
+34-8	1960-1969	riskabelt	_	_	_	_	_	_	
+34-9	1969-1970	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	1972-1973	#	_	_	_	_	_	_	
+35-2	1973-1974	P	_	_	_	_	_	_	
+35-3	1975-1978	IMM	_	_	_	false	3	_	
+35-4	1978-1979	.	_	_	_	_	_	_	
+
+#Text=Enklast kanske följsamhet och förljugenhet påvisas genom 180 graders-svängningen inom flykting- och invandrarområdet.
+36-1	1981-1988	Enklast	_	_	_	_	_	_	
+36-2	1989-1995	kanske	_	_	_	_	_	_	
+36-3	1996-2006	följsamhet	_	_	_	_	_	_	
+36-4	2007-2010	och	_	_	_	_	_	_	
+36-5	2011-2023	förljugenhet	_	_	_	_	_	_	
+36-6	2024-2031	påvisas	_	_	_	_	_	_	
+36-7	2032-2037	genom	_	_	_	_	_	_	
+36-8	2038-2041	180	_	_	_	_	_	_	
+36-9	2042-2061	graders-svängningen	_	_	_	_	_	_	
+36-10	2062-2066	inom	_	_	_	_	_	_	
+36-11	2067-2075	flykting	_	_	_	_	_	_	
+36-12	2075-2076	-	_	_	_	_	_	_	
+36-13	2077-2080	och	_	_	_	_	_	_	
+36-14	2081-2097	invandrarområdet	_	_	_	_	_	_	
+36-15	2097-2098	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2100-2101	#	_	_	_	_	_	_	
+37-2	2101-2102	P	_	_	_	_	_	_	
+37-3	2103-2106	IMM	_	_	_	_	_	_	
+37-4	2106-2107	.	_	_	_	_	_	_	
+
+#Text=Under lång tid förnekades eller bagatelliserades problem med (utomeuropeisk) invandring: från trakasserier av kvinnor till hedersmord, gängbildningar, förorter som präglas av kriminalitet och utanförskap, låg sysselsättning och högt bidragsberoende, utryckningsfordon som slås sönder, hård belastning på skola och socialtjänst.
+38-1	2109-2114	Under	_	_	_	_	_	_	
+38-2	2115-2119	lång	_	_	_	_	_	_	
+38-3	2120-2123	tid	_	_	_	_	_	_	
+38-4	2124-2134	förnekades	_	_	_	_	_	_	
+38-5	2135-2140	eller	_	_	_	_	_	_	
+38-6	2141-2157	bagatelliserades	_	_[8]	_	false[8]	3[8]	_	
+38-7	2158-2165	problem	_	_[8]	_	false[8]	3[8]	_	
+38-8	2166-2169	med	_	_[8]	_	false[8]	3[8]	_	
+38-9	2170-2171	(	_	_[8]	_	false[8]	3[8]	_	
+38-10	2171-2184	utomeuropeisk	_	_[8]	_	false[8]	3[8]	_	
+38-11	2184-2185	)	_	_[8]	_	false[8]	3[8]	_	
+38-12	2186-2196	invandring	_	_[8]	_	false[8]	3[8]	_	
+38-13	2196-2197	:	_	_	_	_	_	_	
+38-14	2198-2202	från	_	_	_	_	_	_	
+38-15	2203-2215	trakasserier	_	_	_	_	_	_	
+38-16	2216-2218	av	_	_	_	_	_	_	
+38-17	2219-2226	kvinnor	_	_	_	_	_	_	
+38-18	2227-2231	till	_	_	_	_	_	_	
+38-19	2232-2242	hedersmord	_	_	_	_	_	_	
+38-20	2242-2243	,	_	_	_	_	_	_	
+38-21	2244-2258	gängbildningar	_	_	_	_	_	_	
+38-22	2258-2259	,	_	_	_	_	_	_	
+38-23	2260-2268	förorter	_	_	_	_	_	_	
+38-24	2269-2272	som	_	_	_	_	_	_	
+38-25	2273-2280	präglas	_	_	_	_	_	_	
+38-26	2281-2283	av	_	_	_	_	_	_	
+38-27	2284-2296	kriminalitet	_	_	_	_	_	_	
+38-28	2297-2300	och	_	_	_	_	_	_	
+38-29	2301-2312	utanförskap	_	_	_	_	_	_	
+38-30	2312-2313	,	_	_	_	_	_	_	
+38-31	2314-2317	låg	_	_	_	_	_	_	
+38-32	2318-2332	sysselsättning	_	_	_	_	_	_	
+38-33	2333-2336	och	_	_	_	_	_	_	
+38-34	2337-2341	högt	_	_	_	_	_	_	
+38-35	2342-2357	bidragsberoende	_	_	_	_	_	_	
+38-36	2357-2358	,	_	_	_	_	_	_	
+38-37	2359-2376	utryckningsfordon	_	_	_	_	_	_	
+38-38	2377-2380	som	_	_	_	_	_	_	
+38-39	2381-2385	slås	_	_	_	_	_	_	
+38-40	2386-2392	sönder	_	_	_	_	_	_	
+38-41	2392-2393	,	_	_	_	_	_	_	
+38-42	2394-2398	hård	_	_	_	_	_	_	
+38-43	2399-2409	belastning	_	_	_	_	_	_	
+38-44	2410-2412	på	_	_	_	_	_	_	
+38-45	2413-2418	skola	_	_	_	_	_	_	
+38-46	2419-2422	och	_	_	_	_	_	_	
+38-47	2423-2435	socialtjänst	_	_	_	_	_	_	
+38-48	2435-2436	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2438-2439	#	_	_	_	_	_	_	
+39-2	2439-2440	P	_	_	_	_	_	_	
+39-3	2441-2444	IMM	_	_	_	false	3	_	
+39-4	2444-2445	.	_	_	_	_	_	_	
+
+#Text=Man ”löste” länge problem genom slogans som ”mångfald är positivt” och ”bekämpa rasism!”
+40-1	2447-2450	Man	_	_	_	_	_	_	
+40-2	2451-2452	”	_	_	_	_	_	_	
+40-3	2452-2457	löste	_	_	_	_	_	_	
+40-4	2457-2458	”	_	_	_	_	_	_	
+40-5	2459-2464	länge	_	_	_	_	_	_	
+40-6	2465-2472	problem	_	_	_	_	_	_	
+40-7	2473-2478	genom	_	_	_	_	_	_	
+40-8	2479-2486	slogans	_	_	_	_	_	_	
+40-9	2487-2490	som	_	_	_	_	_	_	
+40-10	2491-2492	”	_	_	_	_	_	_	
+40-11	2492-2500	mångfald	_	_	_	_	_	_	
+40-12	2501-2503	är	_	_	_	_	_	_	
+40-13	2504-2512	positivt	_	_	_	_	_	_	
+40-14	2512-2513	”	_	_	_	_	_	_	
+40-15	2514-2517	och	_	_	_	_	_	_	
+40-16	2518-2519	”	_	_	_	_	_	_	
+40-17	2519-2526	bekämpa	_	_	_	_	_	_	
+40-18	2527-2533	rasism	_	_	_	_	_	_	
+40-19	2533-2534	!	_	_	_	_	_	_	
+40-20	2534-2535	”	_	_	_	_	_	_	
+
+#Text=eller helt enkelt genom att hata Sverigedemokraterna och ta avstånd från allt och alla som kunde uppfattas gynna dem.
+41-1	2536-2541	eller	_	_	_	_	_	_	
+41-2	2542-2546	helt	_	_	_	_	_	_	
+41-3	2547-2553	enkelt	_	_	_	_	_	_	
+41-4	2554-2559	genom	_	_	_	_	_	_	
+41-5	2560-2563	att	_	_	_	_	_	_	
+41-6	2564-2568	hata	_	_	_	_	_	_	
+41-7	2569-2588	Sverigedemokraterna	_	_	_	_	_	_	
+41-8	2589-2592	och	_	_	_	_	_	_	
+41-9	2593-2595	ta	_	_	_	_	_	_	
+41-10	2596-2603	avstånd	_	_	_	_	_	_	
+41-11	2604-2608	från	_	_	_	_	_	_	
+41-12	2609-2613	allt	_	_	_	_	_	_	
+41-13	2614-2617	och	_	_	_	_	_	_	
+41-14	2618-2622	alla	_	_	_	_	_	_	
+41-15	2623-2626	som	_	_	_	_	_	_	
+41-16	2627-2632	kunde	_	_	_	_	_	_	
+41-17	2633-2642	uppfattas	_	_	_	_	_	_	
+41-18	2643-2648	gynna	_	_	_	_	_	_	
+41-19	2649-2652	dem	_	_	_	_	_	_	
+41-20	2652-2653	.	_	_	_	_	_	_	
+
+#Text=Strutspolitik, krampaktig godhet och främlingsfientlighet-fientlighet var ett praktexempel på Fyra F-svenska värderingar.
+42-1	2654-2667	Strutspolitik	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-2	2667-2668	,	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-3	2669-2679	krampaktig	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-4	2680-2686	godhet	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-5	2687-2690	och	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-6	2691-2723	främlingsfientlighet-fientlighet	_	Target[9]	42-11[30]	false[9]	2[9]	_	
+42-7	2724-2727	var	_	_	_	_	_	_	
+42-8	2728-2731	ett	_	_	_	_	_	_	
+42-9	2732-2744	praktexempel	_	_	_	_	_	_	
+42-10	2745-2747	på	_	_	_	_	_	_	
+42-11	2748-2752	Fyra	*[30]	_	_	_	_	_	
+42-12	2753-2762	F-svenska	*[30]	_	_	_	_	_	
+42-13	2763-2774	värderingar	*[30]	_	_	_	_	_	
+42-14	2774-2775	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2777-2778	#	_	_	_	_	_	_	
+43-2	2778-2779	P	_	_	_	_	_	_	
+43-3	2780-2783	IMM	_	_	_	_	_	_	
+43-4	2783-2784	.	_	_	_	_	_	_	
+
+#Text=Nu bejakar de flesta i stort sett samma ”svenskhets”-dyrkande ståndpunkter och restriktiva asylpolitik som SD och kör med hyckleri i toppklass: man tar avstånd från och bedriver SD-liknande politik.
+44-1	2786-2788	Nu	_	_	_	_	_	_	
+44-2	2789-2796	bejakar	_	Source;Target	44-3[31];44-8[32]	false	4	_	
+44-3	2797-2799	de	*[31]	_	_	_	_	_	
+44-4	2800-2806	flesta	*[31]	_	_	_	_	_	
+44-5	2807-2808	i	_	_	_	_	_	_	
+44-6	2809-2814	stort	_	_	_	_	_	_	
+44-7	2815-2819	sett	_	_	_	_	_	_	
+44-8	2820-2825	samma	*[32]	_	_	_	_	_	
+44-9	2826-2827	”	*[32]	_	_	_	_	_	
+44-10	2827-2837	svenskhets	*[32]	_	_	_	_	_	
+44-11	2837-2838	”	*[32]	_	_	_	_	_	
+44-12	2838-2839	-	*[32]	_	_	_	_	_	
+44-13	2839-2847	dyrkande	*[32]	_	_	_	_	_	
+44-14	2848-2860	ståndpunkter	*[32]	_	_	_	_	_	
+44-15	2861-2864	och	_	_	_	_	_	_	
+44-16	2865-2876	restriktiva	_	_	_	_	_	_	
+44-17	2877-2888	asylpolitik	_	_	_	_	_	_	
+44-18	2889-2892	som	_	_	_	_	_	_	
+44-19	2893-2895	SD	_	_	_	_	_	_	
+44-20	2896-2899	och	_	_	_	_	_	_	
+44-21	2900-2903	kör	_	Target[10]	44-3[31]	false[10]	2[10]	_	
+44-22	2904-2907	med	_	Target[10]	44-3[31]	false[10]	2[10]	_	
+44-23	2908-2916	hyckleri	_	Target[10]	44-3[31]	false[10]	2[10]	_	
+44-24	2917-2918	i	_	Target[10]	44-3[31]	false[10]	2[10]	_	
+44-25	2919-2928	toppklass	_	Target[10]	44-3[31]	false[10]	2[10]	_	
+44-26	2928-2929	:	_	_	_	_	_	_	
+44-27	2930-2933	man	_	_	_	_	_	_	
+44-28	2934-2937	tar	_	_	_	_	_	_	
+44-29	2938-2945	avstånd	_	_	_	_	_	_	
+44-30	2946-2950	från	_	_	_	_	_	_	
+44-31	2951-2954	och	_	_	_	_	_	_	
+44-32	2955-2963	bedriver	_	_	_	_	_	_	
+44-33	2964-2975	SD-liknande	_	_	_	_	_	_	
+44-34	2976-2983	politik	_	_	_	_	_	_	
+44-35	2983-2984	.	_	_	_	_	_	_	
+
+#Text=Och betonar svenska värderingar, vilka tidigare förknippades med unken nationalism.
+45-1	2985-2988	Och	_	_	_	_	_	_	
+45-2	2989-2996	betonar	_	_	_	_	_	_	
+45-3	2997-3004	svenska	_	_	_	_	_	_	
+45-4	3005-3016	värderingar	_	_	_	_	_	_	
+45-5	3016-3017	,	_	_	_	_	_	_	
+45-6	3018-3023	vilka	_	_	_	_	_	_	
+45-7	3024-3032	tidigare	_	_	_	_	_	_	
+45-8	3033-3045	förknippades	_	_	_	_	_	_	
+45-9	3046-3049	med	_	_	_	_	_	_	
+45-10	3050-3055	unken	_	_	_	_	_	_	
+45-11	3056-3067	nationalism	_	_	_	_	_	_	
+45-12	3067-3068	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3070-3071	#	_	_	_	_	_	_	
+46-2	3071-3072	P	_	_	_	_	_	_	
+46-3	3073-3076	IMM	_	_	_	_	_	_	
+46-4	3076-3077	.	_	_	_	_	_	_	
+
+#Text=Borta är mångfalds-bejakande som statsideologi och man blir upprörd över muslimska politiker som inte vill skaka hand med kvinnor eller påstås döma enligt sharia-lagar.
+47-1	3079-3084	Borta	_	_	_	_	_	_	
+47-2	3085-3087	är	_	_	_	_	_	_	
+47-3	3088-3107	mångfalds-bejakande	_	_	_	_	_	_	
+47-4	3108-3111	som	_	_	_	_	_	_	
+47-5	3112-3125	statsideologi	_	_	_	_	_	_	
+47-6	3126-3129	och	_	_	_	_	_	_	
+47-7	3130-3133	man	*	_	_	_	_	_	
+47-8	3134-3138	blir	_	Target;Source[11]	47-11[33];47-7	false[11]	2[11]	_	
+47-9	3139-3146	upprörd	_	Target;Source[11]	47-11[33];47-7	false[11]	2[11]	_	
+47-10	3147-3151	över	_	Target;Source[11]	47-11[33];47-7	false[11]	2[11]	_	
+47-11	3152-3161	muslimska	*[33]	_	_	_	_	_	
+47-12	3162-3171	politiker	*[33]	_	_	_	_	_	
+47-13	3172-3175	som	*[33]	_	_	_	_	_	
+47-14	3176-3180	inte	*[33]	_	_	_	_	_	
+47-15	3181-3185	vill	*[33]	_	_	_	_	_	
+47-16	3186-3191	skaka	*[33]	_	_	_	_	_	
+47-17	3192-3196	hand	*[33]	_	_	_	_	_	
+47-18	3197-3200	med	*[33]	_	_	_	_	_	
+47-19	3201-3208	kvinnor	*[33]	_	_	_	_	_	
+47-20	3209-3214	eller	*[33]	_	_	_	_	_	
+47-21	3215-3221	påstås	*[33]	_	_	_	_	_	
+47-22	3222-3226	döma	*[33]	_	_	_	_	_	
+47-23	3227-3233	enligt	*[33]	_	_	_	_	_	
+47-24	3234-3246	sharia-lagar	*[33]	_	_	_	_	_	
+47-25	3246-3247	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3249-3250	#	_	_	_	_	_	_	
+48-2	3250-3251	P	_	_	_	_	_	_	
+48-3	3252-3255	IMM	_	_	_	_	_	_	
+48-4	3255-3256	.	_	_	_	_	_	_	
+
+#Text=Sverige är inte unikt i fråga om följsamhet och försiktighet men odlar starkt en form av vad vi kallar för funktionell dumhet: man gör allt riktigt enligt föreskrifter och PK-formler, är sensitiv för vad andra tycker (eller säger att de tycker) och avstår från eget tänkande.
+49-1	3258-3265	Sverige	*	_	_	_	_	_	
+49-2	3266-3268	är	_	_	_	_	_	_	
+49-3	3269-3273	inte	_	_	_	_	_	_	
+49-4	3274-3279	unikt	_	_	_	_	_	_	
+49-5	3280-3281	i	_	_	_	_	_	_	
+49-6	3282-3287	fråga	_	_	_	_	_	_	
+49-7	3288-3290	om	_	_	_	_	_	_	
+49-8	3291-3301	följsamhet	_	_	_	_	_	_	
+49-9	3302-3305	och	_	_	_	_	_	_	
+49-10	3306-3318	försiktighet	_	_	_	_	_	_	
+49-11	3319-3322	men	_	_	_	_	_	_	
+49-12	3323-3328	odlar	_	_	_	false	2	_	
+49-13	3329-3335	starkt	_	_	_	_	_	_	
+49-14	3336-3338	en	_	_	_	_	_	_	
+49-15	3339-3343	form	_	_	_	_	_	_	
+49-16	3344-3346	av	_	_	_	_	_	_	
+49-17	3347-3350	vad	_	_	_	_	_	_	
+49-18	3351-3353	vi	_	_	_	_	_	_	
+49-19	3354-3360	kallar	_	_	_	_	_	_	
+49-20	3361-3364	för	_	_	_	_	_	_	
+49-21	3365-3376	funktionell	_	Target[12]	49-1	false[12]	2[12]	49-12[0_12]	
+49-22	3377-3383	dumhet	_	Target[12]	49-1	false[12]	2[12]	_	
+49-23	3383-3384	:	_	_	_	_	_	_	
+49-24	3385-3388	man	_	_	_	_	_	_	
+49-25	3389-3392	gör	_	_[13]	_	false[13]	2[13]	_	
+49-26	3393-3397	allt	_	_[13]	_	false[13]	2[13]	_	
+49-27	3398-3405	riktigt	_	_[13]	_	false[13]	2[13]	_	
+49-28	3406-3412	enligt	_	_[13]	_	false[13]	2[13]	_	
+49-29	3413-3425	föreskrifter	_	_	_	_	_	_	
+49-30	3426-3429	och	_	_	_	_	_	_	
+49-31	3430-3440	PK-formler	_	Target	49-1	false	2	49-25[13_0]	
+49-32	3440-3441	,	_	_	_	_	_	_	
+49-33	3442-3444	är	_	_	_	_	_	_	
+49-34	3445-3453	sensitiv	_	_	_	_	_	_	
+49-35	3454-3457	för	_	_	_	_	_	_	
+49-36	3458-3461	vad	_	_	_	_	_	_	
+49-37	3462-3467	andra	_	_	_	_	_	_	
+49-38	3468-3474	tycker	_	_	_	_	_	_	
+49-39	3475-3476	(	_	_	_	_	_	_	
+49-40	3476-3481	eller	_	_	_	_	_	_	
+49-41	3482-3487	säger	_	_	_	_	_	_	
+49-42	3488-3491	att	_	_	_	_	_	_	
+49-43	3492-3494	de	_	_	_	_	_	_	
+49-44	3495-3501	tycker	_	_	_	_	_	_	
+49-45	3501-3502	)	_	_	_	_	_	_	
+49-46	3503-3506	och	_	_	_	_	_	_	
+49-47	3507-3513	avstår	_	Target[14]	49-1	false[14]	2[14]	_	
+49-48	3514-3518	från	_	Target[14]	49-1	false[14]	2[14]	_	
+49-49	3519-3523	eget	_	Target[14]	49-1	false[14]	2[14]	_	
+49-50	3524-3532	tänkande	_	Target[14]	49-1	false[14]	2[14]	_	
+49-51	3532-3533	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3535-3536	#	_	_	_	_	_	_	
+50-2	3536-3537	P	_	_	_	_	_	_	
+50-3	3538-3541	IMM	_	_	_	_	_	_	
+50-4	3541-3542	.	_	_	_	_	_	_	
+
+#Text=Man är följsam mot olika lättkränkta grupper och undviker att ta strid mot kontraproduktiva påfund – typ modenycker och luftslottsambitioner – som ser bra ut på ytan men som bidragit till elände i bland annat polisen, pisaskolan och pisahögskolan, migrationspolitiken, delar av socialtjänsten och sjukvården.
+51-1	3544-3547	Man	_	_	_	_	_	_	
+51-2	3548-3550	är	_	_	_	_	_	_	
+51-3	3551-3558	följsam	_	_	_	_	_	_	
+51-4	3559-3562	mot	_	_	_	_	_	_	
+51-5	3563-3568	olika	_	_	_	_	_	_	
+51-6	3569-3580	lättkränkta	_	Target	51-7	false	2	_	
+51-7	3581-3588	grupper	*	_	_	_	_	_	
+51-8	3589-3592	och	_	_	_	_	_	_	
+51-9	3593-3601	undviker	_	_	_	_	_	_	
+51-10	3602-3605	att	_	_	_	_	_	_	
+51-11	3606-3608	ta	_	_	_	_	_	_	
+51-12	3609-3614	strid	_	_	_	_	_	_	
+51-13	3615-3618	mot	_	_	_	_	_	_	
+51-14	3619-3635	kontraproduktiva	*[34]	_	_	_	_	_	
+51-15	3636-3642	påfund	*[34]	_	_	_	_	_	
+51-16	3643-3644	–	_	_	_	_	_	_	
+51-17	3645-3648	typ	_	_	_	_	_	_	
+51-18	3649-3659	modenycker	_	_	_	_	_	_	
+51-19	3660-3663	och	_	_	_	_	_	_	
+51-20	3664-3684	luftslottsambitioner	_	_	_	_	_	_	
+51-21	3685-3686	–	_	_	_	_	_	_	
+51-22	3687-3690	som	_	_	_	_	_	_	
+51-23	3691-3694	ser	_	_	_	_	_	_	
+51-24	3695-3698	bra	_	_	_	_	_	_	
+51-25	3699-3701	ut	_	_	_	_	_	_	
+51-26	3702-3704	på	_	_	_	_	_	_	
+51-27	3705-3709	ytan	_	_	_	_	_	_	
+51-28	3710-3713	men	_	_	_	_	_	_	
+51-29	3714-3717	som	_	_	_	_	_	_	
+51-30	3718-3726	bidragit	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-31	3727-3731	till	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-32	3732-3738	elände	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-33	3739-3740	i	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-34	3741-3746	bland	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-35	3747-3752	annat	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-36	3753-3760	polisen	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-37	3760-3761	,	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-38	3762-3772	pisaskolan	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-39	3773-3776	och	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-40	3777-3790	pisahögskolan	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-41	3790-3791	,	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-42	3792-3811	migrationspolitiken	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-43	3811-3812	,	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-44	3813-3818	delar	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-45	3819-3821	av	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-46	3822-3836	socialtjänsten	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-47	3837-3840	och	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-48	3841-3851	sjukvården	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+51-49	3851-3852	.	_	Target[15]	51-14[34]	false[15]	2[15]	_	
+
+#Text=#P IMM.
+52-1	3854-3855	#	_	_	_	_	_	_	
+52-2	3855-3856	P	_	_	_	_	_	_	
+52-3	3857-3860	IMM	_	_	_	_	_	_	
+52-4	3860-3861	.	_	_	_	_	_	_	
+
+#Text=Att tänka självständigt och visa integritet gynnas knappast i dagens samhällskultur och arbetsliv, särskilt inte i offentlig sektor.
+53-1	3863-3866	Att	_	_	_	_	_	_	
+53-2	3867-3872	tänka	_	_	_	_	_	_	
+53-3	3873-3886	självständigt	_	_	_	_	_	_	
+53-4	3887-3890	och	_	_	_	_	_	_	
+53-5	3891-3895	visa	_	_	_	_	_	_	
+53-6	3896-3906	integritet	_	_	_	_	_	_	
+53-7	3907-3913	gynnas	_	_	_	_	_	_	
+53-8	3914-3922	knappast	_	_	_	_	_	_	
+53-9	3923-3924	i	_	_	_	_	_	_	
+53-10	3925-3931	dagens	_	_	_	_	_	_	
+53-11	3932-3946	samhällskultur	_	_	_	_	_	_	
+53-12	3947-3950	och	_	_	_	_	_	_	
+53-13	3951-3960	arbetsliv	_	_	_	_	_	_	
+53-14	3960-3961	,	_	_	_	_	_	_	
+53-15	3962-3970	särskilt	_	_	_	_	_	_	
+53-16	3971-3975	inte	_	_	_	_	_	_	
+53-17	3976-3977	i	_	_	_	_	_	_	
+53-18	3978-3987	offentlig	_	_	_	_	_	_	
+53-19	3988-3994	sektor	_	_	_	_	_	_	
+53-20	3994-3995	.	_	_	_	_	_	_	
+
+#Text=Karriären riskeras.
+54-1	3996-4005	Karriären	_	_	_	_	_	_	
+54-2	4006-4014	riskeras	_	_	_	_	_	_	
+54-3	4014-4015	.	_	_	_	_	_	_	
+
+#Text=Här gäller försiktighet, följsamhet och feghet – och en talang för förljugenhet, där man inte ser avståndet mellan det uttalade och det praktiserade.
+55-1	4016-4019	Här	*	_	_	_	_	_	
+55-2	4020-4026	gäller	_	_	_	false	2	_	
+55-3	4027-4039	försiktighet	_	_	_	_	_	_	
+55-4	4039-4040	,	_	_	_	_	_	_	
+55-5	4041-4051	följsamhet	_	_	_	_	_	_	
+55-6	4052-4055	och	_	_	_	_	_	_	
+55-7	4056-4062	feghet	_	_	_	_	_	_	
+55-8	4063-4064	–	_	_	_	_	_	_	
+55-9	4065-4068	och	_	_	_	_	_	_	
+55-10	4069-4071	en	_	Target[16]	55-1	false[16]	2[16]	55-2[0_16]	
+55-11	4072-4078	talang	_	Target[16]	55-1	false[16]	2[16]	_	
+55-12	4079-4082	för	_	Target[16]	55-1	false[16]	2[16]	_	
+55-13	4083-4095	förljugenhet	_	Target[16]	55-1	false[16]	2[16]	_	
+55-14	4095-4096	,	_	_	_	_	_	_	
+55-15	4097-4100	där	_	_	_	_	_	_	
+55-16	4101-4104	man	_	_	_	_	_	_	
+55-17	4105-4109	inte	_	_	_	_	_	_	
+55-18	4110-4113	ser	_	_	_	_	_	_	
+55-19	4114-4123	avståndet	_	_	_	_	_	_	
+55-20	4124-4130	mellan	_	_	_	_	_	_	
+55-21	4131-4134	det	_	_	_	_	_	_	
+55-22	4135-4143	uttalade	_	_	_	_	_	_	
+55-23	4144-4147	och	_	_	_	_	_	_	
+55-24	4148-4151	det	_	_	_	_	_	_	
+55-25	4152-4164	praktiserade	_	_	_	_	_	_	
+55-26	4164-4165	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4167-4168	#	_	_	_	_	_	_	
+56-2	4168-4169	P	_	_	_	_	_	_	
+56-3	4170-4173	IMM	_	_	_	_	_	_	
+56-4	4173-4174	.	_	_	_	_	_	_	
+
+#Text=Ska man ägna sig åt svenska värderingar och värdegrundsarbete kan man rimligen börja med de fyra F:en.
+57-1	4176-4179	Ska	_	_	_	_	_	_	
+57-2	4180-4183	man	_	_	_	_	_	_	
+57-3	4184-4188	ägna	_	_	_	_	_	_	
+57-4	4189-4192	sig	_	_	_	_	_	_	
+57-5	4193-4195	åt	_	_	_	_	_	_	
+57-6	4196-4203	svenska	_	_	_	_	_	_	
+57-7	4204-4215	värderingar	_	_	_	_	_	_	
+57-8	4216-4219	och	_	_	_	_	_	_	
+57-9	4220-4237	värdegrundsarbete	_	_	_	_	_	_	
+57-10	4238-4241	kan	_	_	_	_	_	_	
+57-11	4242-4245	man	_	_	_	_	_	_	
+57-12	4246-4254	rimligen	_	_	_	_	_	_	
+57-13	4255-4260	börja	_	_	_	_	_	_	
+57-14	4261-4264	med	_	_	_	_	_	_	
+57-15	4265-4267	de	_	_	_	_	_	_	
+57-16	4268-4272	fyra	_	_	_	_	_	_	
+57-17	4273-4274	F	_	_	_	_	_	_	
+57-18	4274-4275	:	_	_	_	_	_	_	
+57-19	4275-4277	en	_	_	_	_	_	_	
+57-20	4277-4278	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4280-4281	#	_	_	_	_	_	_	
+58-2	4281-4282	P	_	_	_	_	_	_	
+58-3	4283-4286	IMM	_	_	_	_	_	_	
+58-4	4286-4287	.	_	_	_	_	_	_	
+
+#Text=Mats Alvesson.
+59-1	4289-4293	Mats	_	_	_	_	_	_	
+59-2	4294-4302	Alvesson	_	_	_	_	_	_	
+59-3	4302-4303	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4305-4306	#	_	_	_	_	_	_	
+60-2	4306-4307	P	_	_	_	_	_	_	
+60-3	4308-4311	IMM	_	_	_	_	_	_	
+60-4	4311-4312	.	_	_	_	_	_	_	
+
+#Text=REN.
+61-1	4314-4317	REN	_	_	_	_	_	_	
+61-2	4317-4318	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4320-4321	#	_	_	_	_	_	_	
+62-2	4321-4322	P	_	_	_	_	_	_	
+62-3	4323-4326	IMM	_	_	_	_	_	_	
+62-4	4326-4327	.	_	_	_	_	_	_	
+
+#Text=N.
+63-1	4329-4330	N	_	_	_	_	_	_	
+63-2	4330-4331	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4333-4334	#	_	_	_	_	_	_	
+64-2	4334-4335	P	_	_	_	_	_	_	
+64-3	4336-4339	IMM	_	_	_	_	_	_	
+64-4	4339-4340	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – gilla  Debatt på Facebook.
+65-1	4342-4346	Häng	_	_	_	_	_	_	
+65-2	4347-4350	med	_	_	_	_	_	_	
+65-3	4351-4352	i	_	_	_	_	_	_	
+65-4	4353-4361	debatten	_	_	_	_	_	_	
+65-5	4362-4365	och	_	_	_	_	_	_	
+65-6	4366-4376	kommentera	_	_	_	_	_	_	
+65-7	4377-4385	artikeln	_	_	_	_	_	_	
+65-8	4386-4387	–	_	_	_	_	_	_	
+65-9	4388-4393	gilla	_	_	_	_	_	_	
+65-10	4395-4401	Debatt	_	_	_	_	_	_	
+65-11	4402-4404	på	_	_	_	_	_	_	
+65-12	4405-4413	Facebook	_	_	_	_	_	_	
+65-13	4413-4414	.	_	_	_	_	_	_	

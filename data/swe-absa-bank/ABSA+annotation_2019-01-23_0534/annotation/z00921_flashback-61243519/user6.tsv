@@ -1,0 +1,199 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=SVT emotsätter sig att person med utvisningsbeslut ska utvisas, sakligt?
+3-1	18-21	SVT	*[8]|*[9]	_	_	_	_	
+3-2	22-32	emotsätter	*[8]	Source;Target[3]	3-1[9];3-4[10]	false[3]	2[3]	
+3-3	33-36	sig	*[8]	Source;Target[3]	3-1[9];3-4[10]	false[3]	2[3]	
+3-4	37-40	att	*[8]|*[10]	_	_	_	_	
+3-5	41-47	person	*[8]|*[10]	_	_	_	_	
+3-6	48-51	med	*[8]|*[10]	_	_	_	_	
+3-7	52-68	utvisningsbeslut	*[8]|*[10]	_	_	_	_	
+3-8	69-72	ska	*[8]|*[10]	_	_	_	_	
+3-9	73-80	utvisas	*[8]|*[10]	_	_	_	_	
+3-10	80-81	,	_	_	_	_	_	
+3-11	82-89	sakligt	_	Target	3-1[8]	false	2	
+3-12	89-90	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	92-93	#	_	_	_	_	_	
+4-2	93-94	P	_	_	_	_	_	
+4-3	95-98	IMM	_	_	_	_	_	
+4-4	98-99	.	_	_	_	_	_	
+
+#Text=SVT skriver:.
+5-1	101-104	SVT	_	_	_	_	_	
+5-2	105-112	skriver	_	_	_	_	_	
+5-3	112-113	:	_	_	_	_	_	
+5-4	113-114	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	116-117	#	_	_[4]	_	false[4]	2[4]	
+6-2	117-118	P	_	_[4]	_	false[4]	2[4]	
+6-3	119-122	IMM	_	_[4]	_	false[4]	2[4]	
+6-4	122-123	.	_	_	_	_	_	
+
+#Text=Det står inte rakt ut, men framgår av sammanhanget att Alireza fått ett utvisningsbeslut.
+7-1	125-128	Det	_	_	_	_	_	
+7-2	129-133	står	_	_	_	_	_	
+7-3	134-138	inte	_	_	_	_	_	
+7-4	139-143	rakt	_	_	_	_	_	
+7-5	144-146	ut	_	_	_	_	_	
+7-6	146-147	,	_	_	_	_	_	
+7-7	148-151	men	_	_	_	_	_	
+7-8	152-159	framgår	_	_	_	_	_	
+7-9	160-162	av	_	_	_	_	_	
+7-10	163-175	sammanhanget	_	_	_	_	_	
+7-11	176-179	att	_	_	_	_	_	
+7-12	180-187	Alireza	_	_	_	_	_	
+7-13	188-192	fått	_	_	_	_	_	
+7-14	193-196	ett	_	_	_	_	_	
+7-15	197-213	utvisningsbeslut	_	_	_	_	_	
+7-16	213-214	.	_	_	_	_	_	
+
+#Text=Eftersom det uppenbarligen av outgrundlig anledning anses svårt att utvisa till Afghanistan, ber Migrationsverket att Alireza själv ska hjälpa till att följa beslutet och bege sig till ambassaden och införskaffa resehandling.
+8-1	215-223	Eftersom	_	_	_	_	_	
+8-2	224-227	det	_	_	_	_	_	
+8-3	228-241	uppenbarligen	_	Target[5]	8-7[11]	false[5]	2[5]	
+8-4	242-244	av	_	Target[5]	8-7[11]	false[5]	2[5]	
+8-5	245-256	outgrundlig	_	Target[5]	8-7[11]	false[5]	2[5]	
+8-6	257-266	anledning	_	Target[5]	8-7[11]	false[5]	2[5]	
+8-7	267-272	anses	*[11]	_	_	_	_	
+8-8	273-278	svårt	*[11]	_	_	_	_	
+8-9	279-282	att	*[11]	_	_	_	_	
+8-10	283-289	utvisa	*[11]	_	_	_	_	
+8-11	290-294	till	*[11]	_	_	_	_	
+8-12	295-306	Afghanistan	*[11]	_	_	_	_	
+8-13	306-307	,	_	_	_	_	_	
+8-14	308-311	ber	_	_	_	_	_	
+8-15	312-328	Migrationsverket	_	_	_	_	_	
+8-16	329-332	att	_	_	_	_	_	
+8-17	333-340	Alireza	_	_	_	_	_	
+8-18	341-346	själv	_	_	_	_	_	
+8-19	347-350	ska	_	_	_	_	_	
+8-20	351-357	hjälpa	_	_	_	_	_	
+8-21	358-362	till	_	_	_	_	_	
+8-22	363-366	att	_	_	_	_	_	
+8-23	367-372	följa	_	_	_	_	_	
+8-24	373-381	beslutet	_	_	_	_	_	
+8-25	382-385	och	_	_	_	_	_	
+8-26	386-390	bege	_	_	_	_	_	
+8-27	391-394	sig	_	_	_	_	_	
+8-28	395-399	till	_	_	_	_	_	
+8-29	400-410	ambassaden	_	_	_	_	_	
+8-30	411-414	och	_	_	_	_	_	
+8-31	415-426	införskaffa	_	_	_	_	_	
+8-32	427-439	resehandling	_	_	_	_	_	
+8-33	439-440	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	442-443	#	_	_[6]	_	false[6]	2[6]	
+9-2	443-444	P	_	_[6]	_	false[6]	2[6]	
+9-3	445-448	IMM	_	_[6]	_	false[6]	2[6]	
+9-4	448-449	.	_	_	_	_	_	
+
+#Text=Det står inte rakt ut att Alireza fått utvisningsbeslut trots att det är enda tolkningen, borde det inte framgått att Alireza faktiskt fått utvisningsbeslut och att svensk lag ska följas?
+10-1	451-454	Det	_	_	_	_	_	
+10-2	455-459	står	_	_	_	_	_	
+10-3	460-464	inte	_	_	_	_	_	
+10-4	465-469	rakt	_	_	_	_	_	
+10-5	470-472	ut	_	_	_	_	_	
+10-6	473-476	att	_	_	_	_	_	
+10-7	477-484	Alireza	_	_	_	_	_	
+10-8	485-489	fått	_	_	_	_	_	
+10-9	490-506	utvisningsbeslut	_	_	_	_	_	
+10-10	507-512	trots	_	_	_	_	_	
+10-11	513-516	att	_	_	_	_	_	
+10-12	517-520	det	_	_	_	_	_	
+10-13	521-523	är	_	_	_	_	_	
+10-14	524-528	enda	_	_	_	_	_	
+10-15	529-539	tolkningen	_	_	_	_	_	
+10-16	539-540	,	_	_	_	_	_	
+10-17	541-546	borde	_	_	_	_	_	
+10-18	547-550	det	_	_	_	_	_	
+10-19	551-555	inte	_	_	_	_	_	
+10-20	556-564	framgått	_	_	_	_	_	
+10-21	565-568	att	_	_	_	_	_	
+10-22	569-576	Alireza	_	_	_	_	_	
+10-23	577-585	faktiskt	_	_	_	_	_	
+10-24	586-590	fått	_	_	_	_	_	
+10-25	591-607	utvisningsbeslut	_	_	_	_	_	
+10-26	608-611	och	_	_	_	_	_	
+10-27	612-615	att	_	_	_	_	_	
+10-28	616-622	svensk	_	_	_	_	_	
+10-29	623-626	lag	_	_	_	_	_	
+10-30	627-630	ska	_	_	_	_	_	
+10-31	631-637	följas	_	_	_	_	_	
+10-32	637-638	?	_	_	_	_	_	
+
+#Text=Är en såhär vinklad artikel i linje med SVTs tillstånd?.
+11-1	639-641	Är	_	_	_	_	_	
+11-2	642-644	en	_	_	_	_	_	
+11-3	645-650	såhär	_	_	_	_	_	
+11-4	651-658	vinklad	_	Target	11-5	false	2	
+11-5	659-666	artikel	*	_	_	_	_	
+11-6	667-668	i	_	_	_	_	_	
+11-7	669-674	linje	_	_	_	_	_	
+11-8	675-678	med	_	_	_	_	_	
+11-9	679-683	SVTs	_	_	_	_	_	
+11-10	684-693	tillstånd	_	_	_	_	_	
+11-11	693-694	?	_	_	_	_	_	
+11-12	694-695	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	697-698	#	_	_	_	_	_	
+12-2	698-699	P	_	_	_	_	_	
+12-3	700-703	IMM	_	_	_	_	_	
+12-4	703-704	.	_	_	_	_	_	
+
+#Text=SVT får licenspengar för tv, där informationen måste vara saklig, men de använder även pengarna till sin webbplats där det inte finns några krav på opartiskhet.
+13-1	706-709	SVT	_	_	_	_	_	
+13-2	710-713	får	_	_	_	_	_	
+13-3	714-726	licenspengar	_	_	_	_	_	
+13-4	727-730	för	_	_	_	_	_	
+13-5	731-733	tv	_	_	_	_	_	
+13-6	733-734	,	_	_	_	_	_	
+13-7	735-738	där	_	_	_	_	_	
+13-8	739-752	informationen	_	_	_	_	_	
+13-9	753-758	måste	_	_	_	_	_	
+13-10	759-763	vara	_	_	_	_	_	
+13-11	764-770	saklig	_	_	_	_	_	
+13-12	770-771	,	_	_	_	_	_	
+13-13	772-775	men	_	_	_	_	_	
+13-14	776-778	de	*[12]	_	_	_	_	
+13-15	779-787	använder	*[12]	_	_	_	_	
+13-16	788-792	även	*[12]	_	_	_	_	
+13-17	793-801	pengarna	*[12]	_	_	_	_	
+13-18	802-806	till	*[12]	_	_	_	_	
+13-19	807-810	sin	*[12]	_	_	_	_	
+13-20	811-820	webbplats	*[12]	_	_	_	_	
+13-21	821-824	där	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-22	825-828	det	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-23	829-833	inte	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-24	834-839	finns	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-25	840-845	några	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-26	846-850	krav	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-27	851-853	på	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-28	854-865	opartiskhet	_	Target[7]	13-14[12]	false[7]	2[7]	
+13-29	865-866	.	_	_	_	_	_	
+
+#Text=Är detta rimligt?.
+14-1	867-869	Är	_	_	_	_	_	
+14-2	870-875	detta	_	_	_	_	_	
+14-3	876-883	rimligt	_	_	_	_	_	
+14-4	883-884	?	_	_	_	_	_	
+14-5	884-885	.	_	_	_	false	2	

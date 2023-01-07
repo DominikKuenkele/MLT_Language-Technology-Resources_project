@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Är Sverige rasistiskt?
+3-1	18-20	Är	_	_	_	_	_	_	
+3-2	21-28	Sverige	*	_	_	_	_	_	
+3-3	29-39	rasistiskt	_	Source;Target	3-4;3-2	false	1	_	
+3-4	39-40	?	*	_	_	_	_	_	
+
+#Text=[Utbrutet].
+4-1	41-42	[	_	_	_	_	_	_	
+4-2	42-50	Utbrutet	_	_	_	_	_	_	
+4-3	50-51	]	_	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	54-55	#	_	_	_	_	_	_	
+5-2	55-56	P	_	_	_	_	_	_	
+5-3	57-60	IMM	_	_	_	_	_	_	
+5-4	60-61	.	_	_	_	_	_	_	
+
+#Text=Ingen vid sina sinnens fulla bruk kan väl hävda att Sverige.
+6-1	63-68	Ingen	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-2	69-72	vid	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-3	73-77	sina	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-4	78-85	sinnens	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-5	86-91	fulla	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-6	92-96	bruk	_	Target[1]	6-7[11]	false[1]	2[1]	_	
+6-7	97-100	kan	*[11]	_	_	_	_	_	
+6-8	101-104	väl	*[11]	_	_	_	_	_	
+6-9	105-110	hävda	*[11]	_	_	_	_	_	
+6-10	111-114	att	_	_	_	_	_	_	
+6-11	115-122	Sverige	*	_	_	_	_	_	
+6-12	122-123	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	125-126	#	_	_	_	_	_	_	
+7-2	126-127	P	_	_	_	_	_	_	
+7-3	128-131	IMM	_	_	_	_	_	_	
+7-4	131-132	.	_	_	_	_	_	_	
+
+#Text=är ett rasistiskt skitland nuförtiden.
+8-1	134-136	är	_	_	_	_	_	_	
+8-2	137-140	ett	_	_	_	_	_	_	
+8-3	141-151	rasistiskt	_	Target;Source[2]	6-11;8-6	false[2]	1[2]	_	
+8-4	152-160	skitland	_	Target;Source[2]	6-11;8-6	false[2]	1[2]	_	
+8-5	161-171	nuförtiden	_	_	_	_	_	_	
+8-6	171-172	.	*	_	_	_	_	_	
+
+#Text=Räcker ju att läsa på Flashback eller diverse Facebookgrupper så inser man att rasismen är fruktansvärt utbredd under ytan.
+9-1	173-179	Räcker	_	_	_	_	_	_	
+9-2	180-182	ju	_	_	_	_	_	_	
+9-3	183-186	att	_	_	_	_	_	_	
+9-4	187-191	läsa	_	_	_	_	_	_	
+9-5	192-194	på	_	_	_	_	_	_	
+9-6	195-204	Flashback	_	_	_	_	_	_	
+9-7	205-210	eller	_	_	_	_	_	_	
+9-8	211-218	diverse	_	_	_	_	_	_	
+9-9	219-234	Facebookgrupper	_	_	_	_	_	_	
+9-10	235-237	så	_	_	_	_	_	_	
+9-11	238-243	inser	_	_	_	_	_	_	
+9-12	244-247	man	_	_	_	_	_	_	
+9-13	248-251	att	_	_	_	_	_	_	
+9-14	252-260	rasismen	*	_	_	_	_	_	
+9-15	261-263	är	_	Target[3]	9-14	false[3]	1[3]	_	
+9-16	264-276	fruktansvärt	_	Target[3]	9-14	false[3]	1[3]	_	
+9-17	277-284	utbredd	_	Target[3]	9-14	false[3]	1[3]	_	
+9-18	285-290	under	_	Target[3]	9-14	false[3]	1[3]	_	
+9-19	291-295	ytan	_	Target[3]	9-14	false[3]	1[3]	_	
+9-20	295-296	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	298-299	#	_	_	_	_	_	_	
+10-2	299-300	P	_	_[4]	_	false[4]	3[4]	_	
+10-3	301-304	IMM	_	_[4]	_	false[4]	3[4]	_	
+10-4	304-305	.	_	_	_	_	_	_	
+
+#Text=Sen är rapporten rätt överdriven får man ju säga, riktigt så illa är det inte, men det går ju åt det hållet.
+11-1	307-310	Sen	_	_	_	_	_	_	
+11-2	311-313	är	_	_	_	_	_	_	
+11-3	314-323	rapporten	*	_	_	_	_	_	
+11-4	324-328	rätt	_	Target[5]	11-3	false[5]	2[5]	_	
+11-5	329-339	överdriven	_	Target[5]	11-3	false[5]	2[5]	_	
+11-6	340-343	får	_	_	_	_	_	_	
+11-7	344-347	man	_	_	_	_	_	_	
+11-8	348-350	ju	_	_	_	_	_	_	
+11-9	351-355	säga	_	_	_	_	_	_	
+11-10	355-356	,	_	_	_	_	_	_	
+11-11	357-364	riktigt	_	Target[6]	11-3	false[6]	3[6]	_	
+11-12	365-367	så	_	Target[6]	11-3	false[6]	3[6]	_	
+11-13	368-372	illa	_	Target[6]	11-3	false[6]	3[6]	_	
+11-14	373-375	är	_	Target[6]	11-3	false[6]	3[6]	_	
+11-15	376-379	det	_	Target[6]	11-3	false[6]	3[6]	_	
+11-16	380-384	inte	_	Target[6]	11-3	false[6]	3[6]	_	
+11-17	384-385	,	_	_	_	_	_	_	
+11-18	386-389	men	_	_	_	_	_	_	
+11-19	390-393	det	_	_	_	_	_	_	
+11-20	394-397	går	_	_	_	_	_	_	
+11-21	398-400	ju	_	_	_	_	_	_	
+11-22	401-403	åt	_	_	_	_	_	_	
+11-23	404-407	det	_	_	_	_	_	_	
+11-24	408-414	hållet	_	_	_	_	_	_	
+11-25	414-415	.	_	_	_	_	_	_	
+
+#Text=Vi har trots allt ett riksdagsparti som tycker att det ska bli brottsligt att inte tjalla på sina utländska grannar och vi har ett parti som närmar sig riksdagen som till utvisa folk retroaktivt och kasta ut människor som kom hit på 80-talet.
+12-1	416-418	Vi	_	_	_	_	_	_	
+12-2	419-422	har	_	_	_	_	_	_	
+12-3	423-428	trots	_	_	_	_	_	_	
+12-4	429-433	allt	_	_	_	_	_	_	
+12-5	434-437	ett	_	_	_	_	_	_	
+12-6	438-451	riksdagsparti	*[12]|*[13]	_	_	_	_	_	
+12-7	452-455	som	_	_	_	_	_	_	
+12-8	456-462	tycker	_	Source;Target	12-6[12];12-10[14]	false	4	_	
+12-9	463-466	att	_	_	_	_	_	_	
+12-10	467-470	det	*[14]	_	_	_	_	_	
+12-11	471-474	ska	*[14]	_	_	_	_	_	
+12-12	475-478	bli	*[14]	_	_	_	_	_	
+12-13	479-489	brottsligt	*[14]	_	_	_	_	_	
+12-14	490-493	att	*[14]	_	_	_	_	_	
+12-15	494-498	inte	*[14]	_	_	_	_	_	
+12-16	499-505	tjalla	*[14]	_	_	_	_	_	
+12-17	506-508	på	*[14]	_	_	_	_	_	
+12-18	509-513	sina	*[14]	_	_	_	_	_	
+12-19	514-523	utländska	*[14]	_	_	_	_	_	
+12-20	524-531	grannar	*[14]	_	_	_	_	_	
+12-21	532-535	och	_	_	_	_	_	_	
+12-22	536-538	vi	_	_	_	_	_	_	
+12-23	539-542	har	_	_	_	_	_	_	
+12-24	543-546	ett	_	_	_	_	_	_	
+12-25	547-552	parti	*	_	_	_	_	_	
+12-26	553-556	som	_	_	_	_	_	_	
+12-27	557-563	närmar	_	_	_	_	_	_	
+12-28	564-567	sig	_	_	_	_	_	_	
+12-29	568-577	riksdagen	_	_	_	_	_	_	
+12-30	578-581	som	_	_	_	_	_	_	
+12-31	582-586	till	_	_	_	_	_	_	
+12-32	587-593	utvisa	_	Source[7]	12-25	false[7]	2[7]	_	
+12-33	594-598	folk	_	Source[7]	12-25	false[7]	2[7]	_	
+12-34	599-610	retroaktivt	_	Source[7]	12-25	false[7]	2[7]	_	
+12-35	611-614	och	_	_	_	_	_	_	
+12-36	615-620	kasta	_	Source[8]	12-25	false[8]	2[8]	_	
+12-37	621-623	ut	_	Source[8]	12-25	false[8]	2[8]	_	
+12-38	624-633	människor	_	Source[8]	12-25	false[8]	2[8]	_	
+12-39	634-637	som	_	_	_	_	_	_	
+12-40	638-641	kom	_	_	_	_	_	_	
+12-41	642-645	hit	_	_	_	_	_	_	
+12-42	646-648	på	_	_	_	_	_	_	
+12-43	649-651	80	_	_	_	_	_	_	
+12-44	651-652	-	_	_	_	_	_	_	
+12-45	652-657	talet	_	_	_	_	_	_	
+12-46	657-658	.	_	Target	12-6[13]	false	2	_	
+
+#Text=#P IMM.
+13-1	660-661	#	_	_	_	_	_	_	
+13-2	661-662	P	_	_	_	_	_	_	
+13-3	663-666	IMM	_	_	_	_	_	_	
+13-4	666-667	.	_	_	_	_	_	_	
+
+#Text=Vi är ju även en humanitär stormakt samtidigt som gör mycket för flyktingar och omvärlden men det är knappast rasisternas förtjänst.
+14-1	669-671	Vi	*	_	_	_	_	_	
+14-2	672-674	är	_	_	_	_	_	_	
+14-3	675-677	ju	_	_	_	_	_	_	
+14-4	678-682	även	_	_	_	_	_	_	
+14-5	683-685	en	_	_	_	_	_	_	
+14-6	686-695	humanitär	_	Target[9]	14-1	false[9]	4[9]	_	
+14-7	696-704	stormakt	_	Target[9]	14-1	false[9]	4[9]	_	
+14-8	705-714	samtidigt	_	_	_	_	_	_	
+14-9	715-718	som	_	_	_	_	_	_	
+14-10	719-722	gör	_	_	_	_	_	_	
+14-11	723-729	mycket	_	_	_	_	_	_	
+14-12	730-733	för	_	_	_	_	_	_	
+14-13	734-744	flyktingar	_	_	_	_	_	_	
+14-14	745-748	och	_	_	_	_	_	_	
+14-15	749-758	omvärlden	_	_	_	_	_	_	
+14-16	759-762	men	_	_	_	_	_	_	
+14-17	763-766	det	_	_	_	_	_	_	
+14-18	767-769	är	_	_[10]	_	false[10]	2[10]	_	
+14-19	770-778	knappast	_	_[10]	_	false[10]	2[10]	_	
+14-20	779-790	rasisternas	*	_	_	_	_	_	
+14-21	791-800	förtjänst	_	Target	14-20	false	2	14-18[10_0]	
+14-22	800-801	.	_	_	_	_	_	_	

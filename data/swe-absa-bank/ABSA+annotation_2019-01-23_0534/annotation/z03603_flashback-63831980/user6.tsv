@@ -1,0 +1,179 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	_	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=GLÄDJEBESKED: Delar av S - riv upp åtstramningarna i migrationspolitiken.
+3-1	18-30	GLÄDJEBESKED	_	Target	3-3[11]	true	5	_	_	
+3-2	30-31	:	_	_	_	_	_	_	_	
+3-3	32-37	Delar	*[11]	_	_	_	_	_	_	
+3-4	38-40	av	*[11]	_	_	_	_	_	_	
+3-5	41-42	S	*[11]	_	_	_	_	_	_	
+3-6	43-44	-	*[11]	_	_	_	_	_	_	
+3-7	45-48	riv	*[11]	_	_	_	_	_	_	
+3-8	49-52	upp	*[11]	_	_	_	_	_	_	
+3-9	53-68	åtstramningarna	*[11]	_	_	_	_	_	_	
+3-10	69-70	i	*[11]	_	_	_	_	_	_	
+3-11	71-90	migrationspolitiken	*[11]	_	_	_	_	_	_	
+3-12	90-91	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	93-94	#	_	_	_	_	_	_	_	
+4-2	94-95	P	_	_	_	_	_	_	_	
+4-3	96-99	IMM	_	_	_	_	_	_	_	
+4-4	99-100	.	_	_	_	_	_	_	_	
+
+#Text=Isak From, mannen som hatar vita medelålders män så mycket att de ska beskattas extra på rasistiska grunder ska nu tillsammans med alldeles för många S-ledamöter från Västerbotten driva på för att Socialdemokraterna ska bli som samarbetspartiet Miljöpartiet.
+5-1	102-106	Isak	*[12]	_	_	_	_	_	_	
+5-2	107-111	From	*[12]	_	_	_	_	_	_	
+5-3	111-112	,	_	_	_	_	_	_	_	
+5-4	113-119	mannen	_	_	_	_	_	_	_	
+5-5	120-123	som	_	_	_	_	_	_	_	
+5-6	124-129	hatar	_	Source;Target	5-1[12];5-7[13]	false	1	_	_	
+5-7	130-134	vita	*[13]	_	_	_	_	_	_	
+5-8	135-146	medelålders	*[13]	_	_	_	_	_	_	
+5-9	147-150	män	*[13]	_	_	_	_	_	_	
+5-10	151-153	så	_	_[3]	_	false[3]	1[3]	5-6[0_3]	_	
+5-11	154-160	mycket	_	_[3]	_	false[3]	1[3]	_	_	
+5-12	161-164	att	_	_[3]	_	false[3]	1[3]	_	_	
+5-13	165-167	de	_	_[3]	_	false[3]	1[3]	_	_	
+5-14	168-171	ska	_	_[3]	_	false[3]	1[3]	_	_	
+5-15	172-181	beskattas	_	_[3]	_	false[3]	1[3]	_	_	
+5-16	182-187	extra	_	_[3]	_	false[3]	1[3]	_	_	
+5-17	188-190	på	_	_[3]	_	false[3]	1[3]	_	_	
+5-18	191-201	rasistiska	_	_[3]|Target[4]	_|5-19	false[3]|false[4]	1[3]|1[4]	_	_	
+5-19	202-209	grunder	*	_[3]	_	false[3]	1[3]	_	_	
+5-20	210-213	ska	_	_	_	_	_	_	_	
+5-21	214-216	nu	_	_	_	_	_	_	_	
+5-22	217-228	tillsammans	_	_	_	_	_	_	_	
+5-23	229-232	med	_	_	_	_	_	_	_	
+5-24	233-241	alldeles	_	Target[5]	5-27[14]	false[5]	2[5]	_	_	
+5-25	242-245	för	_	Target[5]	5-27[14]	false[5]	2[5]	_	_	
+5-26	246-251	många	_	Target[5]	5-27[14]	false[5]	2[5]	_	_	
+5-27	252-263	S-ledamöter	*[14]	_	_	_	_	_	_	
+5-28	264-268	från	*[14]	_	_	_	_	_	_	
+5-29	269-281	Västerbotten	*[14]	_	_	_	_	_	_	
+5-30	282-287	driva	_	_	_	_	_	_	_	
+5-31	288-290	på	_	_	_	_	_	_	_	
+5-32	291-294	för	_	_	_	_	_	_	_	
+5-33	295-298	att	_	_	_	_	_	_	_	
+5-34	299-317	Socialdemokraterna	_	_	_	_	_	_	_	
+5-35	318-321	ska	_	_	_	_	_	_	_	
+5-36	322-325	bli	_	_	_	_	_	_	_	
+5-37	326-329	som	_	_	_	_	_	_	_	
+5-38	330-346	samarbetspartiet	_	_	_	_	_	_	_	
+5-39	347-359	Miljöpartiet	_	_	_	_	_	_	_	
+5-40	359-360	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	362-363	#	_	_[6]	_	false[6]	2[6]	_	_	
+6-2	363-364	P	_	_[6]	_	false[6]	2[6]	_	_	
+6-3	365-368	IMM	_	_[6]	_	false[6]	2[6]	_	_	
+6-4	368-369	.	_	_	_	_	_	_	_	
+
+#Text=Sverige kan nu, tack vare S i Västerbotten, vända den negativa utvecklingen och åter igen sträva efter att bli en humanitär stormakt.
+7-1	371-378	Sverige	_	_	_	_	_	_	_	
+7-2	379-382	kan	_	_	_	_	_	_	_	
+7-3	383-385	nu	_	_	_	_	_	_	_	
+7-4	385-386	,	_	_	_	_	_	_	_	
+7-5	387-391	tack	_	Target[7]	7-7[15]	true[7]	4[7]	_	_	
+7-6	392-396	vare	_	Target[7]	7-7[15]	true[7]	4[7]	_	_	
+7-7	397-398	S	*[15]	_	_	_	_	_	_	
+7-8	399-400	i	*[15]	_	_	_	_	_	_	
+7-9	401-413	Västerbotten	*[15]	_	_	_	_	_	_	
+7-10	413-414	,	_	_	_	_	_	_	_	
+7-11	415-420	vända	_	_	_	_	_	_	_	
+7-12	421-424	den	_	_	_	_	_	_	_	
+7-13	425-433	negativa	_	Target	7-14	true	2	_	_	
+7-14	434-446	utvecklingen	*	_	_	_	_	_	_	
+7-15	447-450	och	_	_	_	_	_	_	_	
+7-16	451-455	åter	_	_	_	_	_	_	_	
+7-17	456-460	igen	_	_	_	_	_	_	_	
+7-18	461-467	sträva	_	_	_	_	_	_	_	
+7-19	468-473	efter	_	_	_	_	_	_	_	
+7-20	474-477	att	_	_	_	_	_	_	_	
+7-21	478-481	bli	_	_	_	_	_	_	_	
+7-22	482-484	en	_	_	_	_	_	_	_	
+7-23	485-494	humanitär	_	_	_	_	_	_	_	
+7-24	495-503	stormakt	_	_	_	_	_	_	_	
+7-25	503-504	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	506-507	#	_	_[8]	_	false[8]	2[8]	_	_	
+8-2	507-508	P	_	_[8]	_	false[8]	2[8]	_	_	
+8-3	509-512	IMM	_	_[8]	_	false[8]	2[8]	_	_	
+8-4	512-513	.	_	_	_	_	_	_	_	
+
+#Text=Finns det någon människa med hjärta i kroppen som inte älskar detta?.
+9-1	515-520	Finns	_	_	_	_	_	_	_	
+9-2	521-524	det	_	_	_	_	_	_	_	
+9-3	525-530	någon	_	_	_	_	_	_	_	
+9-4	531-539	människa	_	_	_	_	_	_	_	
+9-5	540-543	med	_	_	_	_	_	_	_	
+9-6	544-550	hjärta	_	_	_	_	_	_	_	
+9-7	551-552	i	_	_	_	_	_	_	_	
+9-8	553-560	kroppen	_	_	_	_	_	_	_	
+9-9	561-564	som	_	_	_	_	_	_	_	
+9-10	565-569	inte	_	_	_	_	_	_	_	
+9-11	570-576	älskar	_	_	_	_	_	_	_	
+9-12	577-582	detta	_	_	_	_	_	_	_	
+9-13	582-583	?	_	_	_	_	_	_	_	
+9-14	583-584	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+10-1	586-587	#	_	_[9]	_	false[9]	2[9]	_	_	
+10-2	587-588	P	_	_[9]	_	false[9]	2[9]	_	_	
+10-3	589-592	IMM	_	_[9]	_	false[9]	2[9]	_	_	
+10-4	592-593	.	_	_	_	_	_	_	_	
+
+#Text=Min uppfattning är att den som motsätter sig detta sannolikt är rasist.
+11-1	595-598	Min	_	_	_	_	_	_	_	
+11-2	599-610	uppfattning	_	_	_	_	_	_	_	
+11-3	611-613	är	_	_	_	_	_	_	_	
+11-4	614-617	att	_	_	_	_	_	_	_	
+11-5	618-621	den	*[16]	_	_	_	_	_	_	
+11-6	622-625	som	*[16]	_	_	_	_	_	_	
+11-7	626-635	motsätter	*[16]	_	_	_	_	_	_	
+11-8	636-639	sig	*[16]	_	_	_	_	_	_	
+11-9	640-645	detta	*[16]	_	_	_	_	_	_	
+11-10	646-655	sannolikt	_	_	_	_	_	_	_	
+11-11	656-658	är	_	Target[10]	11-5[16]	false[10]	1[10]	_	_	
+11-12	659-665	rasist	_	Target[10]	11-5[16]	false[10]	1[10]	_	_	
+11-13	665-666	.	_	_	_	false	2	_	_	
+
+#Text=Även migranter behöver trygghet och med trygghet kan de också få ut sin fulla potential och fortsätta berika Sveriges ekonomi.
+12-1	667-671	Även	_	_	_	_	_	_	_	
+12-2	672-681	migranter	*	_	_	_	_	_	12-9	
+12-3	682-689	behöver	_	_	_	_	_	_	_	
+12-4	690-698	trygghet	_	_	_	_	_	_	_	
+12-5	699-702	och	_	_	_	_	_	_	_	
+12-6	703-706	med	_	_	_	_	_	_	_	
+12-7	707-715	trygghet	_	_	_	_	_	_	_	
+12-8	716-719	kan	_	_	_	_	_	_	_	
+12-9	720-722	de	*	_	_	_	_	_	_	
+12-10	723-728	också	_	_	_	_	_	_	_	
+12-11	729-731	få	_	_	_	_	_	_	_	
+12-12	732-734	ut	_	_	_	_	_	_	_	
+12-13	735-738	sin	_	_	_	_	_	_	_	
+12-14	739-744	fulla	_	_	_	_	_	_	_	
+12-15	745-754	potential	_	_	_	_	_	_	_	
+12-16	755-758	och	_	_	_	_	_	_	_	
+12-17	759-768	fortsätta	_	_	_	_	_	_	_	
+12-18	769-775	berika	_	Target	12-9	true	4	_	_	
+12-19	776-784	Sveriges	_	_	_	_	_	_	_	
+12-20	785-792	ekonomi	_	_	_	_	_	_	_	
+12-21	792-793	.	_	_	_	_	_	_	_	

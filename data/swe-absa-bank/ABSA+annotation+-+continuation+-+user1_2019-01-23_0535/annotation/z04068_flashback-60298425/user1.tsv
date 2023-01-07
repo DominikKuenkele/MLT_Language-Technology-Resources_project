@@ -1,0 +1,144 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=DN med lugnande bevis: Inget samband flyktingmottagande/brottslighet i kommunerna.
+3-1	18-20	DN	_	Target[1]	3-6[3]	true[1]	4[1]	
+3-2	21-24	med	_	Target[1]	3-6[3]	true[1]	4[1]	
+3-3	25-33	lugnande	_	Target[1]	3-6[3]	true[1]	4[1]	
+3-4	34-39	bevis	_	Target[1]	3-6[3]	true[1]	4[1]	
+3-5	39-40	:	_	_	_	_	_	
+3-6	41-46	Inget	*[3]	_	_	_	_	
+3-7	47-54	samband	*[3]	_	_	_	_	
+3-8	55-73	flyktingmottagande	*[3]	_	_	_	_	
+3-9	73-74	/	*[3]	_	_	_	_	
+3-10	74-86	brottslighet	*[3]	_	_	_	_	
+3-11	87-88	i	*[3]	_	_	_	_	
+3-12	89-99	kommunerna	*[3]	_	_	_	_	
+3-13	99-100	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	102-103	#	_	_	_	_	_	
+4-2	103-104	P	_	_	_	_	_	
+4-3	105-108	IMM	_	_	_	_	_	
+4-4	108-109	.	_	_	_	_	_	
+
+#Text=Där kom det som vi alla väntat och hoppats på.
+5-1	111-114	Där	_	_	_	_	_	
+5-2	115-118	kom	_	_	_	_	_	
+5-3	119-122	det	*	_	_	_	_	
+5-4	123-126	som	_	Target[2]	5-3	true[2]	4[2]	
+5-5	127-129	vi	_	Target[2]	5-3	true[2]	4[2]	
+5-6	130-134	alla	_	Target[2]	5-3	true[2]	4[2]	
+5-7	135-141	väntat	_	Target[2]	5-3	true[2]	4[2]	
+5-8	142-145	och	_	Target[2]	5-3	true[2]	4[2]	
+5-9	146-153	hoppats	_	Target[2]	5-3	true[2]	4[2]	
+5-10	154-156	på	_	Target[2]	5-3	true[2]	4[2]	
+5-11	156-157	.	_	_	_	_	_	
+
+#Text=Beviset om att allt är frid och fröjd inom den påstådda flyktingkriminaliteten.
+6-1	158-165	Beviset	_	_	_	_	_	
+6-2	166-168	om	_	_	_	_	_	
+6-3	169-172	att	_	_	_	_	_	
+6-4	173-177	allt	_	_	_	_	_	
+6-5	178-180	är	_	_	_	_	_	
+6-6	181-185	frid	_	_	_	_	_	
+6-7	186-189	och	_	_	_	_	_	
+6-8	190-195	fröjd	_	_	_	_	_	
+6-9	196-200	inom	_	_	_	_	_	
+6-10	201-204	den	_	_	_	_	_	
+6-11	205-213	påstådda	_	_	_	_	_	
+6-12	214-236	flyktingkriminaliteten	_	_	_	_	_	
+6-13	236-237	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	239-240	#	_	_	_	_	_	
+7-2	240-241	P	_	_	_	_	_	
+7-3	242-245	IMM	_	_	_	false	2	
+7-4	245-246	.	_	_	_	_	_	
+
+#Text=Eftersom denna utmaning visade sig inte ens vara en utmaning-vilken utmaning blir den viktigaste att ta sig an för att snabbast möjligt lösa integrationen.
+8-1	248-256	Eftersom	_	_	_	_	_	
+8-2	257-262	denna	_	_	_	_	_	
+8-3	263-271	utmaning	_	_	_	_	_	
+8-4	272-278	visade	_	_	_	_	_	
+8-5	279-282	sig	_	_	_	_	_	
+8-6	283-287	inte	_	_	_	_	_	
+8-7	288-291	ens	_	_	_	_	_	
+8-8	292-296	vara	_	_	_	_	_	
+8-9	297-299	en	_	_	_	_	_	
+8-10	300-315	utmaning-vilken	_	_	_	_	_	
+8-11	316-324	utmaning	_	_	_	_	_	
+8-12	325-329	blir	_	_	_	_	_	
+8-13	330-333	den	_	_	_	_	_	
+8-14	334-344	viktigaste	_	_	_	_	_	
+8-15	345-348	att	_	_	_	_	_	
+8-16	349-351	ta	_	_	_	_	_	
+8-17	352-355	sig	_	_	_	_	_	
+8-18	356-358	an	_	_	_	_	_	
+8-19	359-362	för	_	_	_	_	_	
+8-20	363-366	att	_	_	_	_	_	
+8-21	367-375	snabbast	_	_	_	_	_	
+8-22	376-383	möjligt	_	_	_	_	_	
+8-23	384-388	lösa	_	_	_	_	_	
+8-24	389-402	integrationen	_	_	_	_	_	
+8-25	402-403	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	405-406	#	_	_	_	_	_	
+9-2	406-407	P	_	_	_	_	_	
+9-3	408-411	IMM	_	_	_	_	_	
+9-4	411-412	.	_	_	_	_	_	
+
+#Text=Bostadsfrågan, anhöriginvandringen eller slopade gränskontroller?.
+10-1	414-427	Bostadsfrågan	_	_	_	_	_	
+10-2	427-428	,	_	_	_	_	_	
+10-3	429-448	anhöriginvandringen	_	_	_	_	_	
+10-4	449-454	eller	_	_	_	_	_	
+10-5	455-462	slopade	_	_	_	_	_	
+10-6	463-478	gränskontroller	_	_	_	_	_	
+10-7	478-479	?	_	_	_	_	_	
+10-8	479-480	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	482-483	#	_	_	_	_	_	
+11-2	483-484	P	_	_	_	_	_	
+11-3	485-488	IMM	_	_	_	_	_	
+11-4	488-489	.	_	_	_	_	_	
+
+#Text=Vilka övriga slutsatser kan man dra av den faktaspäckade artikeln?.
+12-1	491-496	Vilka	_	_	_	_	_	
+12-2	497-503	övriga	_	_	_	_	_	
+12-3	504-514	slutsatser	_	_	_	_	_	
+12-4	515-518	kan	_	_	_	_	_	
+12-5	519-522	man	_	_	_	_	_	
+12-6	523-526	dra	_	_	_	_	_	
+12-7	527-529	av	_	_	_	_	_	
+12-8	530-533	den	_	_	_	_	_	
+12-9	534-547	faktaspäckade	_	_	_	_	_	
+12-10	548-556	artikeln	_	_	_	_	_	
+12-11	556-557	?	_	_	_	_	_	
+12-12	557-558	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	560-561	#	_	_	_	_	_	
+13-2	561-562	P	_	_	_	_	_	
+13-3	563-566	IMM	_	_	_	_	_	
+13-4	566-567	.	_	_	_	_	_	
+
+#Text=e.
+14-1	569-570	e	_	_	_	_	_	
+14-2	570-571	.	_	_	_	_	_	

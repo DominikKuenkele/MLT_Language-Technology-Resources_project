@@ -1,0 +1,1157 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Det sliter i hjärtat när ni tar våra ungdomar.
+3-1	18-21	Det	_	Target[1]	3-6[18]	false[1]	2[1]	_	
+3-2	22-28	sliter	_	Target[1]	3-6[18]	false[1]	2[1]	_	
+3-3	29-30	i	_	Target[1]	3-6[18]	false[1]	2[1]	_	
+3-4	31-38	hjärtat	_	Target[1]	3-6[18]	false[1]	2[1]	_	
+3-5	39-42	när	_	Target[1]	3-6[18]	false[1]	2[1]	_	
+3-6	43-45	ni	*[18]	_	_	_	_	_	
+3-7	46-49	tar	*[18]	_	_	_	_	_	
+3-8	50-54	våra	*[18]	_	_	_	_	_	
+3-9	55-63	ungdomar	*[18]	_	_	_	_	_	
+3-10	63-64	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=I vår skola har vi många ensamkommande elever.
+5-1	75-76	I	_	_	_	_	_	_	
+5-2	77-80	vår	_	_	_	_	_	_	
+5-3	81-86	skola	_	_	_	_	_	_	
+5-4	87-90	har	_	_	_	_	_	_	
+5-5	91-93	vi	_	_	_	_	_	_	
+5-6	94-99	många	_	_	_	_	_	_	
+5-7	100-113	ensamkommande	_	_	_	_	_	_	
+5-8	114-120	elever	_	_	_	_	_	_	
+5-9	120-121	.	_	_	_	_	_	_	
+
+#Text=De integreras snabbt till skolmiljön.
+6-1	122-124	De	_	_	_	_	_	_	
+6-2	125-135	integreras	_	_	_	_	_	_	
+6-3	136-142	snabbt	_	_	_	_	_	_	
+6-4	143-147	till	_	_	_	_	_	_	
+6-5	148-158	skolmiljön	_	_	_	_	_	_	
+6-6	158-159	.	_	_	_	_	_	_	
+
+#Text=Generellt är dessa elever motiverade och positiva med en stor önskan att passa in och göra rätt för sig.
+7-1	160-169	Generellt	_	_	_	_	_	_	
+7-2	170-172	är	_	_	_	false	4	_	
+7-3	173-178	dessa	*[19]	_	_	_	_	_	
+7-4	179-185	elever	*[19]	_	_	_	_	_	
+7-5	186-196	motiverade	_	Target[2]	7-3[19]	false[2]	4[2]	7-2[0_2]	
+7-6	197-200	och	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-7	201-209	positiva	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-8	210-213	med	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-9	214-216	en	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-10	217-221	stor	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-11	222-228	önskan	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-12	229-232	att	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-13	233-238	passa	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-14	239-241	in	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-15	242-245	och	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-16	246-250	göra	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-17	251-255	rätt	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-18	256-259	för	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-19	260-263	sig	_	Target[2]	7-3[19]	false[2]	4[2]	_	
+7-20	263-264	.	_	_	_	_	_	_	
+
+#Text=Deras bakgrund är mångfacetterad.
+8-1	265-270	Deras	*[20]	_	_	_	_	_	
+8-2	271-279	bakgrund	*[20]	_	_	_	_	_	
+8-3	280-282	är	_	Target[3]	8-1[20]	false[3]	4[3]	_	
+8-4	283-297	mångfacetterad	_	Target[3]	8-1[20]	false[3]	4[3]	_	
+8-5	297-298	.	_	_	_	_	_	_	
+
+#Text=Vissa har lång skolbakgrund och kan snabbt slussas in i den svenska gymnasieskolan medan andra knappt har någon skolgång alls från sitt hemland.
+9-1	299-304	Vissa	_	_	_	_	_	_	
+9-2	305-308	har	_	_	_	_	_	_	
+9-3	309-313	lång	_	_	_	_	_	_	
+9-4	314-326	skolbakgrund	_	_	_	_	_	_	
+9-5	327-330	och	_	_	_	_	_	_	
+9-6	331-334	kan	_	_	_	_	_	_	
+9-7	335-341	snabbt	_	_	_	_	_	_	
+9-8	342-349	slussas	_	_	_	_	_	_	
+9-9	350-352	in	_	_	_	_	_	_	
+9-10	353-354	i	_	_	_	_	_	_	
+9-11	355-358	den	_	_	_	_	_	_	
+9-12	359-366	svenska	_	_	_	_	_	_	
+9-13	367-381	gymnasieskolan	_	_	_	_	_	_	
+9-14	382-387	medan	_	_	_	_	_	_	
+9-15	388-393	andra	_	_	_	_	_	_	
+9-16	394-400	knappt	_	_	_	_	_	_	
+9-17	401-404	har	_	_	_	_	_	_	
+9-18	405-410	någon	_	_	_	_	_	_	
+9-19	411-419	skolgång	_	_	_	_	_	_	
+9-20	420-424	alls	_	_	_	_	_	_	
+9-21	425-429	från	_	_	_	_	_	_	
+9-22	430-434	sitt	_	_	_	_	_	_	
+9-23	435-442	hemland	_	_	_	_	_	_	
+9-24	442-443	.	_	_	_	_	_	_	
+
+#Text=Som lärare har vi fått vara med på fantastiska resor, där elever som inte ens kunnat skriva sitt namn när de kom till Sverige, inom loppet av något år klarar av grundskolan med fina betyg.
+10-1	444-447	Som	_	_	_	_	_	_	
+10-2	448-454	lärare	_	_	_	_	_	_	
+10-3	455-458	har	_	_	_	_	_	_	
+10-4	459-461	vi	_	_	_	_	_	_	
+10-5	462-466	fått	_	_	_	_	_	_	
+10-6	467-471	vara	_	_	_	_	_	_	
+10-7	472-475	med	_	_	_	_	_	_	
+10-8	476-478	på	_	_	_	_	_	_	
+10-9	479-490	fantastiska	_	_	_	_	_	_	
+10-10	491-496	resor	_	_	_	_	_	_	
+10-11	496-497	,	_	_	_	_	_	_	
+10-12	498-501	där	_	_	_	_	_	_	
+10-13	502-508	elever	_	_	_	_	_	_	
+10-14	509-512	som	_	_	_	_	_	_	
+10-15	513-517	inte	_	_	_	_	_	_	
+10-16	518-521	ens	_	_	_	_	_	_	
+10-17	522-528	kunnat	_	_	_	_	_	_	
+10-18	529-535	skriva	_	_	_	_	_	_	
+10-19	536-540	sitt	_	_	_	_	_	_	
+10-20	541-545	namn	_	_	_	_	_	_	
+10-21	546-549	när	_	_	_	_	_	_	
+10-22	550-552	de	_	_	_	_	_	_	
+10-23	553-556	kom	_	_	_	_	_	_	
+10-24	557-561	till	_	_	_	_	_	_	
+10-25	562-569	Sverige	_	_	_	_	_	_	
+10-26	569-570	,	_	_	_	_	_	_	
+10-27	571-575	inom	_	_	_	_	_	_	
+10-28	576-582	loppet	_	_	_	_	_	_	
+10-29	583-585	av	_	_	_	_	_	_	
+10-30	586-591	något	_	_	_	_	_	_	
+10-31	592-594	år	_	_	_	_	_	_	
+10-32	595-601	klarar	_	_	_	_	_	_	
+10-33	602-604	av	_	_	_	_	_	_	
+10-34	605-616	grundskolan	_	_	_	_	_	_	
+10-35	617-620	med	_	_	_	_	_	_	
+10-36	621-625	fina	_	_	_	_	_	_	
+10-37	626-631	betyg	_	_	_	_	_	_	
+10-38	631-632	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	634-635	#	_	_	_	_	_	_	
+11-2	635-636	P	_	_	_	_	_	_	
+11-3	637-640	IMM	_	_	_	_	_	_	
+11-4	640-641	.	_	_	_	_	_	_	
+
+#Text=Vi har ett fantastiskt givande arbete där vi bland annat lägger stor kraft på att skapa starka relationer till våra elever.
+12-1	643-645	Vi	_	_	_	_	_	_	
+12-2	646-649	har	_	_	_	_	_	_	
+12-3	650-653	ett	_	_	_	_	_	_	
+12-4	654-665	fantastiskt	_	_	_	_	_	_	
+12-5	666-673	givande	_	_	_	_	_	_	
+12-6	674-680	arbete	_	_	_	_	_	_	
+12-7	681-684	där	_	_	_	_	_	_	
+12-8	685-687	vi	_	_	_	_	_	_	
+12-9	688-693	bland	_	_	_	_	_	_	
+12-10	694-699	annat	_	_	_	_	_	_	
+12-11	700-706	lägger	_	Target[4]	12-15[21]	false[4]	4[4]	_	
+12-12	707-711	stor	_	Target[4]	12-15[21]	false[4]	4[4]	_	
+12-13	712-717	kraft	_	Target[4]	12-15[21]	false[4]	4[4]	_	
+12-14	718-720	på	_	Target[4]	12-15[21]	false[4]	4[4]	_	
+12-15	721-724	att	*[21]	_	_	_	_	_	
+12-16	725-730	skapa	*[21]	_	_	_	_	_	
+12-17	731-737	starka	*[21]	_	_	_	_	_	
+12-18	738-748	relationer	*[21]	_	_	_	_	_	
+12-19	749-753	till	*[21]	_	_	_	_	_	
+12-20	754-758	våra	*[21]	_	_	_	_	_	
+12-21	759-765	elever	*[21]	_	_	_	_	_	
+12-22	765-766	.	_	_	_	_	_	_	
+
+#Text=Vår arbetsmiljö påverkas oerhört om våra elever mår dåligt.
+13-1	767-770	Vår	_	_	_	_	_	_	
+13-2	771-782	arbetsmiljö	_	_	_	_	_	_	
+13-3	783-791	påverkas	_	_	_	_	_	_	
+13-4	792-799	oerhört	_	_	_	_	_	_	
+13-5	800-802	om	_	_	_	_	_	_	
+13-6	803-807	våra	_	_	_	_	_	_	
+13-7	808-814	elever	_	_	_	_	_	_	
+13-8	815-818	mår	_	_	_	_	_	_	
+13-9	819-825	dåligt	_	_	_	_	_	_	
+13-10	825-826	.	_	_	_	_	_	_	
+
+#Text=Elever som är indragna i långa och komplicerade asylprocesser mår oftast väldigt dåligt.
+14-1	827-833	Elever	_	_	_	_	_	_	
+14-2	834-837	som	_	_	_	_	_	_	
+14-3	838-840	är	_	_	_	_	_	_	
+14-4	841-849	indragna	_	_	_	_	_	_	
+14-5	850-851	i	_	_	_	_	_	_	
+14-6	852-857	långa	_	_	_	_	_	_	
+14-7	858-861	och	_	_	_	_	_	_	
+14-8	862-874	komplicerade	_	_	_	_	_	_	
+14-9	875-888	asylprocesser	_	_	_	_	_	_	
+14-10	889-892	mår	_	_	_	_	_	_	
+14-11	893-899	oftast	_	_	_	_	_	_	
+14-12	900-907	väldigt	_	_	_	_	_	_	
+14-13	908-914	dåligt	_	_	_	_	_	_	
+14-14	914-915	.	_	_	_	_	_	_	
+
+#Text=De får svårt att sköta skolan och missar dessutom viktig undervisningstid på grund av möten med advokater och Migrationsverket.
+15-1	916-918	De	_	_	_	_	_	_	
+15-2	919-922	får	_	_	_	_	_	_	
+15-3	923-928	svårt	_	_	_	_	_	_	
+15-4	929-932	att	_	_	_	_	_	_	
+15-5	933-938	sköta	_	_	_	_	_	_	
+15-6	939-945	skolan	_	_	_	_	_	_	
+15-7	946-949	och	_	_	_	_	_	_	
+15-8	950-956	missar	_	_	_	_	_	_	
+15-9	957-965	dessutom	_	_	_	_	_	_	
+15-10	966-972	viktig	_	_	_	_	_	_	
+15-11	973-989	undervisningstid	_	_	_	_	_	_	
+15-12	990-992	på	_	_	_	_	_	_	
+15-13	993-998	grund	_	_	_	_	_	_	
+15-14	999-1001	av	_	_	_	_	_	_	
+15-15	1002-1007	möten	_	_	_	_	_	_	
+15-16	1008-1011	med	_	_	_	_	_	_	
+15-17	1012-1021	advokater	_	_	_	_	_	_	
+15-18	1022-1025	och	_	_	_	_	_	_	
+15-19	1026-1042	Migrationsverket	_	_	_	_	_	_	
+15-20	1042-1043	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1045-1046	#	_	_	_	_	_	_	
+16-2	1046-1047	P	_	_	_	_	_	_	
+16-3	1048-1051	IMM	_	_	_	_	_	_	
+16-4	1051-1052	.	_	_	_	_	_	_	
+
+#Text=Även deras klasskompisar påverkas väldigt negativt när oro över vad som ska hända med kamrater som befinner sig i asylprocessen tar upp mycket skoltid.
+17-1	1054-1058	Även	_	_	_	_	_	_	
+17-2	1059-1064	deras	_	_	_	_	_	_	
+17-3	1065-1078	klasskompisar	_	_	_	_	_	_	
+17-4	1079-1087	påverkas	_	_	_	_	_	_	
+17-5	1088-1095	väldigt	_	_	_	_	_	_	
+17-6	1096-1104	negativt	_	_	_	_	_	_	
+17-7	1105-1108	när	_	_	_	_	_	_	
+17-8	1109-1112	oro	_	_	_	_	_	_	
+17-9	1113-1117	över	_	_	_	_	_	_	
+17-10	1118-1121	vad	_	_	_	_	_	_	
+17-11	1122-1125	som	_	_	_	_	_	_	
+17-12	1126-1129	ska	_	_	_	_	_	_	
+17-13	1130-1135	hända	_	_	_	_	_	_	
+17-14	1136-1139	med	_	_	_	_	_	_	
+17-15	1140-1148	kamrater	_	_	_	_	_	_	
+17-16	1149-1152	som	_	_	_	_	_	_	
+17-17	1153-1161	befinner	_	_	_	_	_	_	
+17-18	1162-1165	sig	_	_	_	_	_	_	
+17-19	1166-1167	i	_	_	_	_	_	_	
+17-20	1168-1181	asylprocessen	_	_	_	_	_	_	
+17-21	1182-1185	tar	_	_	_	_	_	_	
+17-22	1186-1189	upp	_	_	_	_	_	_	
+17-23	1190-1196	mycket	_	_	_	_	_	_	
+17-24	1197-1204	skoltid	_	_	_	_	_	_	
+17-25	1204-1205	.	_	_	_	_	_	_	
+
+#Text=Både vi vuxna och våra elever blir förkrossade varje gång någon rycks från oss.
+18-1	1206-1210	Både	_	_	_	_	_	_	
+18-2	1211-1213	vi	_	_	_	_	_	_	
+18-3	1214-1219	vuxna	_	_	_	_	_	_	
+18-4	1220-1223	och	_	_	_	_	_	_	
+18-5	1224-1228	våra	_	_	_	_	_	_	
+18-6	1229-1235	elever	_	_	_	_	_	_	
+18-7	1236-1240	blir	_	_	_	_	_	_	
+18-8	1241-1252	förkrossade	_	_	_	_	_	_	
+18-9	1253-1258	varje	_	_	_	_	_	_	
+18-10	1259-1263	gång	_	_	_	_	_	_	
+18-11	1264-1269	någon	_	_	_	_	_	_	
+18-12	1270-1275	rycks	_	_	_	_	_	_	
+18-13	1276-1280	från	_	_	_	_	_	_	
+18-14	1281-1284	oss	_	_	_	_	_	_	
+18-15	1284-1285	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1287-1288	#	_	_	_	_	_	_	
+19-2	1288-1289	P	_	_	_	_	_	_	
+19-3	1290-1293	IMM	_	_	_	_	_	_	
+19-4	1293-1294	.	_	_	_	_	_	_	
+
+#Text=Asylprocessen är en arbetsam väntan.
+20-1	1296-1309	Asylprocessen	*	_	_	_	_	_	
+20-2	1310-1312	är	_	_	_	_	_	_	
+20-3	1313-1315	en	_	_	_	_	_	_	
+20-4	1316-1324	arbetsam	_	_	_	_	_	_	
+20-5	1325-1331	väntan	_	_	_	_	_	_	
+20-6	1331-1332	.	_	_	_	_	_	_	
+
+#Text=Den tar mycket kraft från våra elever.
+21-1	1333-1336	Den	_	Target[5]	20-1	false[5]	2[5]	_	
+21-2	1337-1340	tar	_	Target[5]	20-1	false[5]	2[5]	_	
+21-3	1341-1347	mycket	_	Target[5]	20-1	false[5]	2[5]	_	
+21-4	1348-1353	kraft	_	Target[5]	20-1	false[5]	2[5]	_	
+21-5	1354-1358	från	_	Target[5]	20-1	false[5]	2[5]	_	
+21-6	1359-1363	våra	_	Target[5]	20-1	false[5]	2[5]	_	
+21-7	1364-1370	elever	_	Target[5]	20-1	false[5]	2[5]	_	
+21-8	1370-1371	.	_	_	_	_	_	_	
+
+#Text=Och den tar mycket kraft från oss vuxna.
+22-1	1372-1375	Och	_	_	_	_	_	_	
+22-2	1376-1379	den	_	_	_	_	_	_	
+22-3	1380-1383	tar	_	Target[6]	20-1	false[6]	2[6]	_	
+22-4	1384-1390	mycket	_	Target[6]	20-1	false[6]	2[6]	_	
+22-5	1391-1396	kraft	_	Target[6]	20-1	false[6]	2[6]	_	
+22-6	1397-1401	från	_	Target[6]	20-1	false[6]	2[6]	_	
+22-7	1402-1405	oss	_	Target[6]	20-1	false[6]	2[6]	_	
+22-8	1406-1411	vuxna	_	Target[6]	20-1	false[6]	2[6]	_	
+22-9	1411-1412	.	_	_	_	_	_	_	
+
+#Text=Den psykiska ohälsan bland våra elever är hög.
+23-1	1413-1416	Den	_	_	_	_	_	_	
+23-2	1417-1425	psykiska	_	_	_	_	_	_	
+23-3	1426-1433	ohälsan	_	_	_	_	_	_	
+23-4	1434-1439	bland	_	_	_	_	_	_	
+23-5	1440-1444	våra	_	_	_	_	_	_	
+23-6	1445-1451	elever	_	_	_	_	_	_	
+23-7	1452-1454	är	_	_	_	_	_	_	
+23-8	1455-1458	hög	_	_	_	_	_	_	
+23-9	1458-1459	.	_	_	_	_	_	_	
+
+#Text=Det är inte alla som orkar vänta.
+24-1	1460-1463	Det	_	_	_	_	_	_	
+24-2	1464-1466	är	_	_	_	_	_	_	
+24-3	1467-1471	inte	_	_	_	_	_	_	
+24-4	1472-1476	alla	_	_	_	_	_	_	
+24-5	1477-1480	som	_	_	_	_	_	_	
+24-6	1481-1486	orkar	_	_	_	_	_	_	
+24-7	1487-1492	vänta	_	_	_	_	_	_	
+24-8	1492-1493	.	_	_	_	_	_	_	
+
+#Text=Vi har elever som har valt att lämna Sverige när pressen och väntan blir för svår.
+25-1	1494-1496	Vi	_	_	_	_	_	_	
+25-2	1497-1500	har	_	_	_	_	_	_	
+25-3	1501-1507	elever	_	_	_	_	_	_	
+25-4	1508-1511	som	_	_	_	_	_	_	
+25-5	1512-1515	har	_	_	_	_	_	_	
+25-6	1516-1520	valt	_	_	_	_	_	_	
+25-7	1521-1524	att	_	_	_	_	_	_	
+25-8	1525-1530	lämna	_	_	_	_	_	_	
+25-9	1531-1538	Sverige	_	_	_	_	_	_	
+25-10	1539-1542	när	_	_	_	_	_	_	
+25-11	1543-1550	pressen	_	_	_	_	_	_	
+25-12	1551-1554	och	_	_	_	_	_	_	
+25-13	1555-1561	väntan	_	_	_	_	_	_	
+25-14	1562-1566	blir	_	_	_	_	_	_	
+25-15	1567-1570	för	_	_	_	_	_	_	
+25-16	1571-1575	svår	_	_	_	_	_	_	
+25-17	1575-1576	.	_	_	_	_	_	_	
+
+#Text=Vi har elever i Frankrike och i Tyskland.
+26-1	1577-1579	Vi	_	_	_	_	_	_	
+26-2	1580-1583	har	_	_	_	_	_	_	
+26-3	1584-1590	elever	_	_	_	_	_	_	
+26-4	1591-1592	i	_	_	_	_	_	_	
+26-5	1593-1602	Frankrike	_	_	_	_	_	_	
+26-6	1603-1606	och	_	_	_	_	_	_	
+26-7	1607-1608	i	_	_	_	_	_	_	
+26-8	1609-1617	Tyskland	_	_	_	_	_	_	
+26-9	1617-1618	.	_	_	_	_	_	_	
+
+#Text=Vi ber er att inte tvinga våra elever att fortsätta fly.
+27-1	1619-1621	Vi	_	_	_	_	_	_	
+27-2	1622-1625	ber	_	Target[7]	27-4[22]	false[7]	4[7]	_	
+27-3	1626-1628	er	_	Target[7]	27-4[22]	false[7]	4[7]	_	
+27-4	1629-1632	att	*[22]	_	_	_	_	_	
+27-5	1633-1637	inte	*[22]	_	_	_	_	_	
+27-6	1638-1644	tvinga	*[22]	_	_	_	_	_	
+27-7	1645-1649	våra	*[22]	_	_	_	_	_	
+27-8	1650-1656	elever	*[22]	_	_	_	_	_	
+27-9	1657-1660	att	*[22]	_	_	_	_	_	
+27-10	1661-1670	fortsätta	*[22]	_	_	_	_	_	
+27-11	1671-1674	fly	*[22]	_	_	_	_	_	
+27-12	1674-1675	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1677-1678	#	_	_	_	_	_	_	
+28-2	1678-1679	P	_	_	_	_	_	_	
+28-3	1680-1683	IMM	_	_	_	_	_	_	
+28-4	1683-1684	.	_	_	_	_	_	_	
+
+#Text=Då en ensamkommande elev fyller 18 år tar Migrationsverket över ansvaret från kommunen.
+29-1	1686-1688	Då	_	_	_	_	_	_	
+29-2	1689-1691	en	_	_	_	_	_	_	
+29-3	1692-1705	ensamkommande	_	_	_	_	_	_	
+29-4	1706-1710	elev	_	_	_	_	_	_	
+29-5	1711-1717	fyller	_	_	_	_	_	_	
+29-6	1718-1720	18	_	_	_	_	_	_	
+29-7	1721-1723	år	_	_	_	_	_	_	
+29-8	1724-1727	tar	_	_	_	_	_	_	
+29-9	1728-1744	Migrationsverket	_	_	_	_	_	_	
+29-10	1745-1749	över	_	_	_	_	_	_	
+29-11	1750-1758	ansvaret	_	_	_	_	_	_	
+29-12	1759-1763	från	_	_	_	_	_	_	
+29-13	1764-1772	kommunen	_	_	_	_	_	_	
+29-14	1772-1773	.	_	_	_	_	_	_	
+
+#Text=Eleven blir då hänvisad till ett av Migrationsverkets boenden.
+30-1	1774-1780	Eleven	_	_	_	_	_	_	
+30-2	1781-1785	blir	_	_	_	_	_	_	
+30-3	1786-1788	då	_	_	_	_	_	_	
+30-4	1789-1797	hänvisad	_	_	_	_	_	_	
+30-5	1798-1802	till	_	_	_	_	_	_	
+30-6	1803-1806	ett	_	_	_	_	_	_	
+30-7	1807-1809	av	_	_	_	_	_	_	
+30-8	1810-1827	Migrationsverkets	_	_	_	_	_	_	
+30-9	1828-1835	boenden	_	_	_	_	_	_	
+30-10	1835-1836	.	_	_	_	_	_	_	
+
+#Text=I vår närhet finns inga sådana boenden.
+31-1	1837-1838	I	_	_	_	_	_	_	
+31-2	1839-1842	vår	_	_	_	_	_	_	
+31-3	1843-1849	närhet	_	_	_	_	_	_	
+31-4	1850-1855	finns	_	_	_	_	_	_	
+31-5	1856-1860	inga	_	_	_	_	_	_	
+31-6	1861-1867	sådana	_	_	_	_	_	_	
+31-7	1868-1875	boenden	_	_	_	_	_	_	
+31-8	1875-1876	.	_	_	_	_	_	_	
+
+#Text=Nyligen flyttade en av våra elever till ett vuxenboende i en annan kommun.
+32-1	1877-1884	Nyligen	_	_	_	_	_	_	
+32-2	1885-1893	flyttade	_	_	_	_	_	_	
+32-3	1894-1896	en	_	_	_	_	_	_	
+32-4	1897-1899	av	_	_	_	_	_	_	
+32-5	1900-1904	våra	_	_	_	_	_	_	
+32-6	1905-1911	elever	_	_	_	_	_	_	
+32-7	1912-1916	till	_	_	_	_	_	_	
+32-8	1917-1920	ett	_	_	_	_	_	_	
+32-9	1921-1932	vuxenboende	_	_	_	_	_	_	
+32-10	1933-1934	i	_	_	_	_	_	_	
+32-11	1935-1937	en	_	_	_	_	_	_	
+32-12	1938-1943	annan	_	_	_	_	_	_	
+32-13	1944-1950	kommun	_	_	_	_	_	_	
+32-14	1950-1951	.	_	_	_	_	_	_	
+
+#Text=Vi hjälpte eleven att få kontakt med en skola i sin nya kommun där de erbjöd Språkintroduktion.
+33-1	1952-1954	Vi	_	_	_	_	_	_	
+33-2	1955-1962	hjälpte	_	_	_	_	_	_	
+33-3	1963-1969	eleven	_	_	_	_	_	_	
+33-4	1970-1973	att	_	_	_	_	_	_	
+33-5	1974-1976	få	_	_	_	_	_	_	
+33-6	1977-1984	kontakt	_	_	_	_	_	_	
+33-7	1985-1988	med	_	_	_	_	_	_	
+33-8	1989-1991	en	_	_	_	_	_	_	
+33-9	1992-1997	skola	_	_	_	_	_	_	
+33-10	1998-1999	i	_	_	_	_	_	_	
+33-11	2000-2003	sin	_	_	_	_	_	_	
+33-12	2004-2007	nya	_	_	_	_	_	_	
+33-13	2008-2014	kommun	_	_	_	_	_	_	
+33-14	2015-2018	där	_	_	_	_	_	_	
+33-15	2019-2021	de	_	_	_	_	_	_	
+33-16	2022-2028	erbjöd	_	_	_	_	_	_	
+33-17	2029-2046	Språkintroduktion	_	_	_	_	_	_	
+33-18	2046-2047	.	_	_	_	_	_	_	
+
+#Text=Eleven cyklade dit men väl där fick eleven besked om att det inte fanns någon skolplats till honom.
+34-1	2048-2054	Eleven	_	_	_	_	_	_	
+34-2	2055-2062	cyklade	_	_	_	_	_	_	
+34-3	2063-2066	dit	_	_	_	_	_	_	
+34-4	2067-2070	men	_	_	_	_	_	_	
+34-5	2071-2074	väl	_	_	_	_	_	_	
+34-6	2075-2078	där	_	_	_	_	_	_	
+34-7	2079-2083	fick	_	_	_	_	_	_	
+34-8	2084-2090	eleven	_	_	_	_	_	_	
+34-9	2091-2097	besked	_	_	_	_	_	_	
+34-10	2098-2100	om	_	_	_	_	_	_	
+34-11	2101-2104	att	_	_	_	_	_	_	
+34-12	2105-2108	det	_	_	_	_	_	_	
+34-13	2109-2113	inte	_	_	_	_	_	_	
+34-14	2114-2119	fanns	_	_	_	_	_	_	
+34-15	2120-2125	någon	_	_	_	_	_	_	
+34-16	2126-2135	skolplats	_	_	_	_	_	_	
+34-17	2136-2140	till	_	_	_	_	_	_	
+34-18	2141-2146	honom	_	_	_	_	_	_	
+34-19	2146-2147	.	_	_	_	_	_	_	
+
+#Text=Det var fullt.
+35-1	2148-2151	Det	_	_	_	_	_	_	
+35-2	2152-2155	var	_	_	_	_	_	_	
+35-3	2156-2161	fullt	_	_	_	_	_	_	
+35-4	2161-2162	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2164-2165	#	_	_	_	_	_	_	
+36-2	2165-2166	P	_	_	_	_	_	_	
+36-3	2167-2170	IMM	_	_	_	_	_	_	
+36-4	2170-2171	.	_	_	_	_	_	_	
+
+#Text=Efter fem veckor har eleven ännu inte fått någon skolplats.
+37-1	2173-2178	Efter	_	_	_	_	_	_	
+37-2	2179-2182	fem	_	_	_	_	_	_	
+37-3	2183-2189	veckor	_	_	_	_	_	_	
+37-4	2190-2193	har	_	_	_	_	_	_	
+37-5	2194-2200	eleven	_	_	_	_	_	_	
+37-6	2201-2205	ännu	_	_	_	_	_	_	
+37-7	2206-2210	inte	_	_	_	_	_	_	
+37-8	2211-2215	fått	_	_	_	_	_	_	
+37-9	2216-2221	någon	_	_	_	_	_	_	
+37-10	2222-2231	skolplats	_	_	_	_	_	_	
+37-11	2231-2232	.	_	_	_	_	_	_	
+
+#Text=Hos oss var planen att eleven skulle klara minst 8 betyg till sommaren och därmed vara behörig för studier på ett nationellt gymnasieprogram efter sommaren 2018.
+38-1	2233-2236	Hos	_	_	_	_	_	_	
+38-2	2237-2240	oss	_	_	_	_	_	_	
+38-3	2241-2244	var	_	_	_	_	_	_	
+38-4	2245-2251	planen	_	_	_	_	_	_	
+38-5	2252-2255	att	_	_	_	_	_	_	
+38-6	2256-2262	eleven	_	_	_	_	_	_	
+38-7	2263-2269	skulle	_	_	_	_	_	_	
+38-8	2270-2275	klara	_	_	_	_	_	_	
+38-9	2276-2281	minst	_	_	_	_	_	_	
+38-10	2282-2283	8	_	_	_	_	_	_	
+38-11	2284-2289	betyg	_	_	_	_	_	_	
+38-12	2290-2294	till	_	_	_	_	_	_	
+38-13	2295-2303	sommaren	_	_	_	_	_	_	
+38-14	2304-2307	och	_	_	_	_	_	_	
+38-15	2308-2314	därmed	_	_	_	_	_	_	
+38-16	2315-2319	vara	_	_	_	_	_	_	
+38-17	2320-2327	behörig	_	_	_	_	_	_	
+38-18	2328-2331	för	_	_	_	_	_	_	
+38-19	2332-2339	studier	_	_	_	_	_	_	
+38-20	2340-2342	på	_	_	_	_	_	_	
+38-21	2343-2346	ett	_	_	_	_	_	_	
+38-22	2347-2357	nationellt	_	_	_	_	_	_	
+38-23	2358-2373	gymnasieprogram	_	_	_	_	_	_	
+38-24	2374-2379	efter	_	_	_	_	_	_	
+38-25	2380-2388	sommaren	_	_	_	_	_	_	
+38-26	2389-2393	2018	_	_	_	_	_	_	
+38-27	2393-2394	.	_	_	_	_	_	_	
+
+#Text=Hans skolgång har nu avbrutits.
+39-1	2395-2399	Hans	_	_	_	_	_	_	
+39-2	2400-2408	skolgång	_	_	_	_	_	_	
+39-3	2409-2412	har	_	_	_	_	_	_	
+39-4	2413-2415	nu	_	_	_	_	_	_	
+39-5	2416-2425	avbrutits	_	_	_	_	_	_	
+39-6	2425-2426	.	_	_	_	_	_	_	
+
+#Text=Han har tvingats flytta från kompisar, lärare och andra vuxna som han har lärt känna.
+40-1	2427-2430	Han	_	_	_	_	_	_	
+40-2	2431-2434	har	_	Target[8]	40-4[23]	false[8]	2[8]	_	
+40-3	2435-2443	tvingats	_	Target[8]	40-4[23]	false[8]	2[8]	_	
+40-4	2444-2450	flytta	*[23]	_	_	_	_	_	
+40-5	2451-2455	från	*[23]	_	_	_	_	_	
+40-6	2456-2464	kompisar	*[23]	_	_	_	_	_	
+40-7	2464-2465	,	*[23]	_	_	_	_	_	
+40-8	2466-2472	lärare	*[23]	_	_	_	_	_	
+40-9	2473-2476	och	*[23]	_	_	_	_	_	
+40-10	2477-2482	andra	*[23]	_	_	_	_	_	
+40-11	2483-2488	vuxna	*[23]	_	_	_	_	_	
+40-12	2489-2492	som	*[23]	_	_	_	_	_	
+40-13	2493-2496	han	*[23]	_	_	_	_	_	
+40-14	2497-2500	har	*[23]	_	_	_	_	_	
+40-15	2501-2505	lärt	*[23]	_	_	_	_	_	
+40-16	2506-2511	känna	*[23]	_	_	_	_	_	
+40-17	2511-2512	.	_	_	_	_	_	_	
+
+#Text=Vi vädjar till er!
+41-1	2513-2515	Vi	_	_	_	_	_	_	
+41-2	2516-2522	vädjar	_	_	_	_	_	_	
+41-3	2523-2527	till	_	_	_	_	_	_	
+41-4	2528-2530	er	_	_	_	_	_	_	
+41-5	2530-2531	!	_	_	_	_	_	_	
+
+#Text=Ta inte våra ungdomar ifrån oss!.
+42-1	2532-2534	Ta	_	_	_	_	_	_	
+42-2	2535-2539	inte	_	_	_	_	_	_	
+42-3	2540-2544	våra	_	_	_	_	_	_	
+42-4	2545-2553	ungdomar	_	_	_	_	_	_	
+42-5	2554-2559	ifrån	_	_	_	_	_	_	
+42-6	2560-2563	oss	_	_	_	_	_	_	
+42-7	2563-2564	!	_	_	_	_	_	_	
+42-8	2564-2565	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2567-2568	#	_	_	_	_	_	_	
+43-2	2568-2569	P	_	_	_	_	_	_	
+43-3	2570-2573	IMM	_	_	_	_	_	_	
+43-4	2573-2574	.	_	_	_	_	_	_	
+
+#Text=De flesta av våra elever gör vad som helst för att stanna kvar i närområdet och därmed ha möjlighet att gå kvar i sin skola.
+44-1	2576-2578	De	*[24]	_	_	_	_	_	
+44-2	2579-2585	flesta	*[24]	_	_	_	_	_	
+44-3	2586-2588	av	*[24]	_	_	_	_	_	
+44-4	2589-2593	våra	*[24]	_	_	_	_	_	
+44-5	2594-2600	elever	*[24]	_	_	_	_	_	
+44-6	2601-2604	gör	_	Source;Target[9]	44-1[24];44-11[25]	false[9]	4[9]	_	
+44-7	2605-2608	vad	_	Source;Target[9]	44-1[24];44-11[25]	false[9]	4[9]	_	
+44-8	2609-2612	som	_	Source;Target[9]	44-1[24];44-11[25]	false[9]	4[9]	_	
+44-9	2613-2618	helst	_	Source;Target[9]	44-1[24];44-11[25]	false[9]	4[9]	_	
+44-10	2619-2622	för	_	Source;Target[9]	44-1[24];44-11[25]	false[9]	4[9]	_	
+44-11	2623-2626	att	*[25]	_	_	_	_	_	
+44-12	2627-2633	stanna	*[25]	_	_	_	_	_	
+44-13	2634-2638	kvar	*[25]	_	_	_	_	_	
+44-14	2639-2640	i	*[25]	_	_	_	_	_	
+44-15	2641-2651	närområdet	*[25]	_	_	_	_	_	
+44-16	2652-2655	och	*[25]	_	_	_	_	_	
+44-17	2656-2662	därmed	*[25]	_	_	_	_	_	
+44-18	2663-2665	ha	*[25]	_	_	_	_	_	
+44-19	2666-2675	möjlighet	*[25]	_	_	_	_	_	
+44-20	2676-2679	att	*[25]	_	_	_	_	_	
+44-21	2680-2682	gå	*[25]	_	_	_	_	_	
+44-22	2683-2687	kvar	*[25]	_	_	_	_	_	
+44-23	2688-2689	i	*[25]	_	_	_	_	_	
+44-24	2690-2693	sin	*[25]	_	_	_	_	_	
+44-25	2694-2699	skola	*[25]	_	_	_	_	_	
+44-26	2699-2700	.	_	_	_	_	_	_	
+
+#Text=Vi har elever som inte har någon fast bostad.
+45-1	2701-2703	Vi	_	_	_	_	_	_	
+45-2	2704-2707	har	_	_	_	_	_	_	
+45-3	2708-2714	elever	_	_	_	_	_	_	
+45-4	2715-2718	som	_	_	_	_	_	_	
+45-5	2719-2723	inte	_	_	_	_	_	_	
+45-6	2724-2727	har	_	_	_	_	_	_	
+45-7	2728-2733	någon	_	_	_	_	_	_	
+45-8	2734-2738	fast	_	_	_	_	_	_	
+45-9	2739-2745	bostad	_	_	_	_	_	_	
+45-10	2745-2746	.	_	_	_	_	_	_	
+
+#Text=De sover hos vänner eller där de blir insläppta.
+46-1	2747-2749	De	_	_	_	_	_	_	
+46-2	2750-2755	sover	_	_	_	_	_	_	
+46-3	2756-2759	hos	_	_	_	_	_	_	
+46-4	2760-2766	vänner	_	_	_	_	_	_	
+46-5	2767-2772	eller	_	_	_	_	_	_	
+46-6	2773-2776	där	_	_	_	_	_	_	
+46-7	2777-2779	de	_	_	_	_	_	_	
+46-8	2780-2784	blir	_	_	_	_	_	_	
+46-9	2785-2794	insläppta	_	_	_	_	_	_	
+46-10	2794-2795	.	_	_	_	_	_	_	
+
+#Text=De har svårt att sköta sömn, kost och hygien.
+47-1	2796-2798	De	_	_	_	_	_	_	
+47-2	2799-2802	har	_	_	_	_	_	_	
+47-3	2803-2808	svårt	_	_	_	_	_	_	
+47-4	2809-2812	att	_	_	_	_	_	_	
+47-5	2813-2818	sköta	_	_	_	_	_	_	
+47-6	2819-2823	sömn	_	_	_	_	_	_	
+47-7	2823-2824	,	_	_	_	_	_	_	
+47-8	2825-2829	kost	_	_	_	_	_	_	
+47-9	2830-2833	och	_	_	_	_	_	_	
+47-10	2834-2840	hygien	_	_	_	_	_	_	
+47-11	2840-2841	.	_	_	_	_	_	_	
+
+#Text=Men de kommer till skolan!
+48-1	2842-2845	Men	_	_	_	_	_	_	
+48-2	2846-2848	de	_	_	_	_	_	_	
+48-3	2849-2855	kommer	_	_	_	_	_	_	
+48-4	2856-2860	till	_	_	_	_	_	_	
+48-5	2861-2867	skolan	_	_	_	_	_	_	
+48-6	2867-2868	!	_	_	_	_	_	_	
+
+#Text=Vi är våra elevers trygghet när de inte längre har tillgång till gode män eller socialtjänst.
+49-1	2869-2871	Vi	_	_	_	_	_	_	
+49-2	2872-2874	är	_	_	_	_	_	_	
+49-3	2875-2879	våra	_	_	_	_	_	_	
+49-4	2880-2887	elevers	_	_	_	_	_	_	
+49-5	2888-2896	trygghet	_	_	_	_	_	_	
+49-6	2897-2900	när	_	_	_	_	_	_	
+49-7	2901-2903	de	_	_	_	_	_	_	
+49-8	2904-2908	inte	_	_	_	_	_	_	
+49-9	2909-2915	längre	_	_	_	_	_	_	
+49-10	2916-2919	har	_	_	_	_	_	_	
+49-11	2920-2928	tillgång	_	_	_	_	_	_	
+49-12	2929-2933	till	_	_	_	_	_	_	
+49-13	2934-2938	gode	_	_	_	_	_	_	
+49-14	2939-2942	män	_	_	_	_	_	_	
+49-15	2943-2948	eller	_	_	_	_	_	_	
+49-16	2949-2961	socialtjänst	_	_	_	_	_	_	
+49-17	2961-2962	.	_	_	_	_	_	_	
+
+#Text=Vi och våra elever tvingas till desperata handlingar.
+50-1	2963-2965	Vi	_	_	_	_	_	_	
+50-2	2966-2969	och	_	_	_	_	_	_	
+50-3	2970-2974	våra	_	_	_	_	_	_	
+50-4	2975-2981	elever	_	_	_	_	_	_	
+50-5	2982-2989	tvingas	_	Target[10]	50-7[26]	false[10]	2[10]	_	
+50-6	2990-2994	till	_	Target[10]	50-7[26]	false[10]	2[10]	_	
+50-7	2995-3004	desperata	*[26]	_	_	_	_	_	
+50-8	3005-3015	handlingar	*[26]	_	_	_	_	_	
+50-9	3015-3016	.	_	_	_	_	_	_	
+
+#Text=Hur länge ska vi och våra elever orka?.
+51-1	3017-3020	Hur	_	_	_	_	_	_	
+51-2	3021-3026	länge	_	_	_	_	_	_	
+51-3	3027-3030	ska	_	_	_	_	_	_	
+51-4	3031-3033	vi	_	_	_	_	_	_	
+51-5	3034-3037	och	_	_	_	_	_	_	
+51-6	3038-3042	våra	_	_	_	_	_	_	
+51-7	3043-3049	elever	_	_	_	_	_	_	
+51-8	3050-3054	orka	_	_	_	_	_	_	
+51-9	3054-3055	?	_	_	_	_	_	_	
+51-10	3055-3056	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3058-3059	#	_	_	_	_	_	_	
+52-2	3059-3060	P	_	_	_	_	_	_	
+52-3	3061-3064	IMM	_	_	_	_	_	_	
+52-4	3064-3065	.	_	_	_	_	_	_	
+
+#Text=Vi är naturligtvis glada över att regeringen kommit överens om att lägga fram ett lagförslag som kommer att stötta en del av våra elever.
+53-1	3067-3069	Vi	*	_	_	_	_	_	
+53-2	3070-3072	är	_	Source;Target[11]	53-1;53-6[27]	false[11]	4[11]	_	
+53-3	3073-3085	naturligtvis	_	Source;Target[11]	53-1;53-6[27]	false[11]	4[11]	_	
+53-4	3086-3091	glada	_	Source;Target[11]	53-1;53-6[27]	false[11]	4[11]	_	
+53-5	3092-3096	över	_	Source;Target[11]	53-1;53-6[27]	false[11]	4[11]	_	
+53-6	3097-3100	att	*[27]	_	_	_	_	_	
+53-7	3101-3111	regeringen	*[27]	_	_	_	_	_	
+53-8	3112-3118	kommit	*[27]	_	_	_	_	_	
+53-9	3119-3126	överens	*[27]	_	_	_	_	_	
+53-10	3127-3129	om	*[27]	_	_	_	_	_	
+53-11	3130-3133	att	*[27]	_	_	_	_	_	
+53-12	3134-3139	lägga	*[27]	_	_	_	_	_	
+53-13	3140-3144	fram	*[27]	_	_	_	_	_	
+53-14	3145-3148	ett	*[27]	_	_	_	_	_	
+53-15	3149-3159	lagförslag	*[27]	_	_	_	_	_	
+53-16	3160-3163	som	*[27]	_	_	_	_	_	
+53-17	3164-3170	kommer	*[27]	_	_	_	_	_	
+53-18	3171-3174	att	*[27]	_	_	_	_	_	
+53-19	3175-3181	stötta	*[27]	_	_	_	_	_	
+53-20	3182-3184	en	*[27]	_	_	_	_	_	
+53-21	3185-3188	del	*[27]	_	_	_	_	_	
+53-22	3189-3191	av	*[27]	_	_	_	_	_	
+53-23	3192-3196	våra	*[27]	_	_	_	_	_	
+53-24	3197-3203	elever	*[27]	_	_	_	_	_	
+53-25	3203-3204	.	_	_	_	_	_	_	
+
+#Text=Ni kan lita på att vi, som alltid, kommer att göra vårt yttersta för att ta hand om dem som tack vare förslaget kommer att få möjlighet att studera vidare på gymnasienivå.
+54-1	3205-3207	Ni	_	_	_	_	_	_	
+54-2	3208-3211	kan	_	_	_	_	_	_	
+54-3	3212-3216	lita	_	_	_	_	_	_	
+54-4	3217-3219	på	_	_	_	_	_	_	
+54-5	3220-3223	att	_	_	_	_	_	_	
+54-6	3224-3226	vi	_	_	_	_	_	_	
+54-7	3226-3227	,	_	_	_	_	_	_	
+54-8	3228-3231	som	_	_	_	_	_	_	
+54-9	3232-3238	alltid	_	_	_	_	_	_	
+54-10	3238-3239	,	_	_	_	_	_	_	
+54-11	3240-3246	kommer	_	_	_	_	_	_	
+54-12	3247-3250	att	_	_	_	_	_	_	
+54-13	3251-3255	göra	_	_	_	_	_	_	
+54-14	3256-3260	vårt	_	_	_	_	_	_	
+54-15	3261-3269	yttersta	_	_	_	_	_	_	
+54-16	3270-3273	för	_	_	_	_	_	_	
+54-17	3274-3277	att	_	_	_	_	_	_	
+54-18	3278-3280	ta	_	_	_	_	_	_	
+54-19	3281-3285	hand	_	_	_	_	_	_	
+54-20	3286-3288	om	_	_	_	_	_	_	
+54-21	3289-3292	dem	_	_	_	_	_	_	
+54-22	3293-3296	som	_	_	_	_	_	_	
+54-23	3297-3301	tack	_	_	_	_	_	_	
+54-24	3302-3306	vare	_	_	_	_	_	_	
+54-25	3307-3316	förslaget	_	_	_	_	_	_	
+54-26	3317-3323	kommer	_	_	_	_	_	_	
+54-27	3324-3327	att	_	_	_	_	_	_	
+54-28	3328-3330	få	_	_	_	_	_	_	
+54-29	3331-3340	möjlighet	_	_	_	_	_	_	
+54-30	3341-3344	att	_	_	_	_	_	_	
+54-31	3345-3352	studera	_	_	_	_	_	_	
+54-32	3353-3359	vidare	_	_	_	_	_	_	
+54-33	3360-3362	på	_	_	_	_	_	_	
+54-34	3363-3375	gymnasienivå	_	_	_	_	_	_	
+54-35	3375-3376	.	_	_	_	_	_	_	
+
+#Text=Från vårt perspektiv innehåller förslaget dock en hel del som kommer att påverka arbetsmiljön negativt för personal och elever.
+55-1	3377-3381	Från	_	_	_	_	_	_	
+55-2	3382-3386	vårt	_	_	_	_	_	_	
+55-3	3387-3397	perspektiv	_	_	_	_	_	_	
+55-4	3398-3408	innehåller	_	_	_	false	2	_	
+55-5	3409-3418	förslaget	*	_	_	_	_	_	
+55-6	3419-3423	dock	_	_	_	_	_	_	
+55-7	3424-3426	en	_	Target[12]	55-5	false[12]	2[12]	55-4[0_12]	
+55-8	3427-3430	hel	_	Target[12]	55-5	false[12]	2[12]	_	
+55-9	3431-3434	del	_	Target[12]	55-5	false[12]	2[12]	_	
+55-10	3435-3438	som	_	Target[12]	55-5	false[12]	2[12]	_	
+55-11	3439-3445	kommer	_	Target[12]	55-5	false[12]	2[12]	_	
+55-12	3446-3449	att	_	Target[12]	55-5	false[12]	2[12]	_	
+55-13	3450-3457	påverka	_	Target[12]	55-5	false[12]	2[12]	_	
+55-14	3458-3470	arbetsmiljön	_	Target[12]	55-5	false[12]	2[12]	_	
+55-15	3471-3479	negativt	_	Target[12]	55-5	false[12]	2[12]	_	
+55-16	3480-3483	för	_	Target[12]	55-5	false[12]	2[12]	_	
+55-17	3484-3492	personal	_	Target[12]	55-5	false[12]	2[12]	_	
+55-18	3493-3496	och	_	Target[12]	55-5	false[12]	2[12]	_	
+55-19	3497-3503	elever	_	Target[12]	55-5	false[12]	2[12]	_	
+55-20	3503-3504	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3506-3507	#	_	_	_	_	_	_	
+56-2	3507-3508	P	_	_	_	_	_	_	
+56-3	3509-3512	IMM	_	_	_	false	4	_	
+56-4	3512-3513	.	_	_	_	_	_	_	
+
+#Text=Vi förstår inte varför rätten att stanna i vårt land ska kopplas till skolgång.
+57-1	3515-3517	Vi	*	_	_	_	_	_	
+57-2	3518-3525	förstår	_	Source;Target[13]	57-1;57-5[28]	false[13]	2[13]	_	
+57-3	3526-3530	inte	_	Source;Target[13]	57-1;57-5[28]	false[13]	2[13]	_	
+57-4	3531-3537	varför	_	Source;Target[13]	57-1;57-5[28]	false[13]	2[13]	_	
+57-5	3538-3544	rätten	*[28]	_	_	_	_	_	
+57-6	3545-3548	att	*[28]	_	_	_	_	_	
+57-7	3549-3555	stanna	*[28]	_	_	_	_	_	
+57-8	3556-3557	i	*[28]	_	_	_	_	_	
+57-9	3558-3562	vårt	*[28]	_	_	_	_	_	
+57-10	3563-3567	land	*[28]	_	_	_	_	_	
+57-11	3568-3571	ska	*[28]	_	_	_	_	_	
+57-12	3572-3579	kopplas	*[28]	_	_	_	_	_	
+57-13	3580-3584	till	*[28]	_	_	_	_	_	
+57-14	3585-3593	skolgång	*[28]	_	_	_	_	_	
+57-15	3593-3594	.	_	_	_	_	_	_	
+
+#Text=Vi förstår inte varför ett rikt land som Sverige inte kan säga att vi både har råd och ork att ta hand om dessa ungdomar villkorslöst.
+58-1	3595-3597	Vi	*	_	_	_	_	_	
+58-2	3598-3605	förstår	_	Source;Target[14]	58-1;58-5[29]	false[14]	2[14]	_	
+58-3	3606-3610	inte	_	Source;Target[14]	58-1;58-5[29]	false[14]	2[14]	_	
+58-4	3611-3617	varför	_	Source;Target[14]	58-1;58-5[29]	false[14]	2[14]	_	
+58-5	3618-3621	ett	*[29]	_	_	_	_	_	
+58-6	3622-3626	rikt	*[29]	_	_	_	_	_	
+58-7	3627-3631	land	*[29]	_	_	_	_	_	
+58-8	3632-3635	som	*[29]	_	_	_	_	_	
+58-9	3636-3643	Sverige	*[29]	_	_	_	_	_	
+58-10	3644-3648	inte	*[29]	_	_	_	_	_	
+58-11	3649-3652	kan	*[29]	_	_	_	_	_	
+58-12	3653-3657	säga	*[29]	_	_	_	_	_	
+58-13	3658-3661	att	*[29]	_	_	_	_	_	
+58-14	3662-3664	vi	*[29]	_	_	_	_	_	
+58-15	3665-3669	både	*[29]	_	_	_	_	_	
+58-16	3670-3673	har	*[29]	_	_	_	_	_	
+58-17	3674-3677	råd	*[29]	_	_	_	_	_	
+58-18	3678-3681	och	*[29]	_	_	_	_	_	
+58-19	3682-3685	ork	*[29]	_	_	_	_	_	
+58-20	3686-3689	att	*[29]	_	_	_	_	_	
+58-21	3690-3692	ta	*[29]	_	_	_	_	_	
+58-22	3693-3697	hand	*[29]	_	_	_	_	_	
+58-23	3698-3700	om	*[29]	_	_	_	_	_	
+58-24	3701-3706	dessa	*[29]	_	_	_	_	_	
+58-25	3707-3715	ungdomar	*[29]	_	_	_	_	_	
+58-26	3716-3728	villkorslöst	*[29]	_	_	_	_	_	
+58-27	3728-3729	.	_	_	_	_	_	_	
+
+#Text=Än så länge orkar vi på vår skola, men vi har svårt att acceptera att ni tar dessa ungdomar från oss.
+59-1	3730-3732	Än	_	_	_	_	_	_	
+59-2	3733-3735	så	_	_	_	_	_	_	
+59-3	3736-3741	länge	_	_	_	_	_	_	
+59-4	3742-3747	orkar	_	_	_	_	_	_	
+59-5	3748-3750	vi	_	_	_	_	_	_	
+59-6	3751-3753	på	_	_	_	_	_	_	
+59-7	3754-3757	vår	_	_	_	_	_	_	
+59-8	3758-3763	skola	_	_	_	_	_	_	
+59-9	3763-3764	,	_	_	_	_	_	_	
+59-10	3765-3768	men	_	_	_	_	_	_	
+59-11	3769-3771	vi	_	_	_	_	_	_	
+59-12	3772-3775	har	_	Target[15]	59-17[30]	false[15]	2[15]	_	
+59-13	3776-3781	svårt	_	Target[15]	59-17[30]	false[15]	2[15]	_	
+59-14	3782-3785	att	_	Target[15]	59-17[30]	false[15]	2[15]	_	
+59-15	3786-3795	acceptera	_	Target[15]	59-17[30]	false[15]	2[15]	_	
+59-16	3796-3799	att	_	Target[15]	59-17[30]	false[15]	2[15]	_	
+59-17	3800-3802	ni	*[30]	_	_	_	_	_	
+59-18	3803-3806	tar	*[30]	_	_	_	_	_	
+59-19	3807-3812	dessa	*[30]	_	_	_	_	_	
+59-20	3813-3821	ungdomar	*[30]	_	_	_	_	_	
+59-21	3822-3826	från	*[30]	_	_	_	_	_	
+59-22	3827-3830	oss	*[30]	_	_	_	_	_	
+59-23	3830-3831	.	_	_	_	_	_	_	
+
+#Text=Låt oss göra vårt jobb utan att oroa oss för åldersuppskrivningar, omflyttningar och utvisningar.
+60-1	3832-3835	Låt	_	Target[16]	60-3[31]	false[16]	4[16]	_	
+60-2	3836-3839	oss	_	Target[16]	60-3[31]	false[16]	4[16]	_	
+60-3	3840-3844	göra	*[31]	_	_	_	_	_	
+60-4	3845-3849	vårt	*[31]	_	_	_	_	_	
+60-5	3850-3854	jobb	*[31]	_	_	_	_	_	
+60-6	3855-3859	utan	*[31]	_	_	_	_	_	
+60-7	3860-3863	att	*[31]	_	_	_	_	_	
+60-8	3864-3868	oroa	*[31]	_	_	_	_	_	
+60-9	3869-3872	oss	*[31]	_	_	_	_	_	
+60-10	3873-3876	för	*[31]	_	_	_	_	_	
+60-11	3877-3897	åldersuppskrivningar	*[31]	_	_	_	_	_	
+60-12	3897-3898	,	*[31]	_	_	_	_	_	
+60-13	3899-3912	omflyttningar	*[31]	_	_	_	_	_	
+60-14	3913-3916	och	*[31]	_	_	_	_	_	
+60-15	3917-3928	utvisningar	*[31]	_	_	_	_	_	
+60-16	3928-3929	.	_	_	_	_	_	_	
+
+#Text=Ta inte våra ungdomar från oss!.
+61-1	3930-3932	Ta	_	_	_	_	_	_	
+61-2	3933-3937	inte	_	_	_	_	_	_	
+61-3	3938-3942	våra	_	_	_	_	_	_	
+61-4	3943-3951	ungdomar	_	_	_	_	_	_	
+61-5	3952-3956	från	_	_	_	_	_	_	
+61-6	3957-3960	oss	_	_	_	_	_	_	
+61-7	3960-3961	!	_	_	_	_	_	_	
+61-8	3961-3962	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	3964-3965	#	_	_	_	_	_	_	
+62-2	3965-3966	P	_	_	_	_	_	_	
+62-3	3967-3970	IMM	_	_	_	_	_	_	
+62-4	3970-3971	.	_	_	_	_	_	_	
+
+#Text=Ni har skapat en situation där vi som skolpersonal har hamnat i en mycket svår situation.
+63-1	3973-3975	Ni	*	_	_	_	_	_	
+63-2	3976-3979	har	_	Target[17]	63-1	false[17]	2[17]	_	
+63-3	3980-3986	skapat	_	Target[17]	63-1	false[17]	2[17]	_	
+63-4	3987-3989	en	_	Target[17]	63-1	false[17]	2[17]	_	
+63-5	3990-3999	situation	_	Target[17]	63-1	false[17]	2[17]	_	
+63-6	4000-4003	där	_	Target[17]	63-1	false[17]	2[17]	_	
+63-7	4004-4006	vi	_	Target[17]	63-1	false[17]	2[17]	_	
+63-8	4007-4010	som	_	Target[17]	63-1	false[17]	2[17]	_	
+63-9	4011-4023	skolpersonal	_	Target[17]	63-1	false[17]	2[17]	_	
+63-10	4024-4027	har	_	Target[17]	63-1	false[17]	2[17]	_	
+63-11	4028-4034	hamnat	_	Target[17]	63-1	false[17]	2[17]	_	
+63-12	4035-4036	i	_	Target[17]	63-1	false[17]	2[17]	_	
+63-13	4037-4039	en	_	Target[17]	63-1	false[17]	2[17]	_	
+63-14	4040-4046	mycket	_	Target[17]	63-1	false[17]	2[17]	_	
+63-15	4047-4051	svår	_	Target[17]	63-1	false[17]	2[17]	_	
+63-16	4052-4061	situation	_	Target[17]	63-1	false[17]	2[17]	_	
+63-17	4061-4062	.	_	_	_	_	_	_	
+
+#Text=Det finns enkla sätt för regering och riksdag att lösa detta arbetsmiljöproblem:.
+64-1	4063-4066	Det	_	_	_	_	_	_	
+64-2	4067-4072	finns	_	_	_	_	_	_	
+64-3	4073-4078	enkla	_	_	_	_	_	_	
+64-4	4079-4083	sätt	_	_	_	_	_	_	
+64-5	4084-4087	för	_	_	_	_	_	_	
+64-6	4088-4096	regering	_	_	_	_	_	_	
+64-7	4097-4100	och	_	_	_	_	_	_	
+64-8	4101-4108	riksdag	_	_	_	_	_	_	
+64-9	4109-4112	att	_	_	_	_	_	_	
+64-10	4113-4117	lösa	_	_	_	_	_	_	
+64-11	4118-4123	detta	_	_	_	_	_	_	
+64-12	4124-4142	arbetsmiljöproblem	_	_	_	_	_	_	
+64-13	4142-4143	:	_	_	_	_	_	_	
+64-14	4143-4144	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4146-4147	#	_	_	_	_	_	_	
+65-2	4147-4148	P	_	_	_	_	_	_	
+65-3	4149-4152	IMM	_	_	_	_	_	_	
+65-4	4152-4153	.	_	_	_	_	_	_	
+
+#Text=Cecilia Dufva, lärare i svenska som andraspråkCecilia Norgren, lärare historia och samhällskunskapBjörn Eriksson, lärare svenska och svenska som andraspråkSam Saidi, lärare i samhällskunskap och filosofiPierre Erlandsson, yrkeslärare Ingrid Kilen Edvardsson, yrkeslärareKristin Hobert, yrkeslärare i vård- och omsorgAnna Asp, lärare i svenska och religionskunskapMaria Hjertzell, mentor för språkintroduktionsprogrammetJohanna L Brandstedt, lärare elevstödOlena Ieromenko, elevassistentJohan Karlsson, studie- och yrkesvägledareCarina Gädda, lärare i samhällskunskap och historiaElin Gawell, lärare i matematikHanna Bergendal, lärare i svenska som andraspråkAnna Hultman, gymnasielärare matematik och fysikNathasha Berg, studiehandledareFrida Levin, lärare i svenska som andraspråkCarina Borggren, lärare i matematik och naturkunskapAnna Karin Nilsson, lärare i bildMarianne Häger, lärare i svenska som andraspråkMariann Miko, lärare i engelskaSofie Lorichs, elevassistentIsabella Qvarnström, lärare i svenska som andraspråkMargareta Engström Inborr, mentor för språkintroduktionsprogrammetAnna Andersson, mentor för introduktionsprogrammet och hantverksprogrammetCecilia Sandman, lärare i bildDaniel Eyob, studiehandledareGun Kieser, lärare i matematikRosita Christensen, lärare i vård och omsorgPia Minati, lärare i svenska och svenska som andraspråkIgor Kourinnoi, idrottslärareHelén Ripås, yrkeslärareOla Sundberg Lax, kuratorKenneth Strandberg, lärare idrott och hälsaAnna-Karin Linusson, mentorPamilla Carlén, yrkeslärareSara Inborr, skolsköterskaPål Eklund, elevassistent.
+66-1	4155-4162	Cecilia	_	_	_	_	_	_	
+66-2	4163-4168	Dufva	_	_	_	_	_	_	
+66-3	4168-4169	,	_	_	_	_	_	_	
+66-4	4170-4176	lärare	_	_	_	_	_	_	
+66-5	4177-4178	i	_	_	_	_	_	_	
+66-6	4179-4186	svenska	_	_	_	_	_	_	
+66-7	4187-4190	som	_	_	_	_	_	_	
+66-8	4191-4208	andraspråkCecilia	_	_	_	_	_	_	
+66-9	4209-4216	Norgren	_	_	_	_	_	_	
+66-10	4216-4217	,	_	_	_	_	_	_	
+66-11	4218-4224	lärare	_	_	_	_	_	_	
+66-12	4225-4233	historia	_	_	_	_	_	_	
+66-13	4234-4237	och	_	_	_	_	_	_	
+66-14	4238-4258	samhällskunskapBjörn	_	_	_	_	_	_	
+66-15	4259-4267	Eriksson	_	_	_	_	_	_	
+66-16	4267-4268	,	_	_	_	_	_	_	
+66-17	4269-4275	lärare	_	_	_	_	_	_	
+66-18	4276-4283	svenska	_	_	_	_	_	_	
+66-19	4284-4287	och	_	_	_	_	_	_	
+66-20	4288-4295	svenska	_	_	_	_	_	_	
+66-21	4296-4299	som	_	_	_	_	_	_	
+66-22	4300-4313	andraspråkSam	_	_	_	_	_	_	
+66-23	4314-4319	Saidi	_	_	_	_	_	_	
+66-24	4319-4320	,	_	_	_	_	_	_	
+66-25	4321-4327	lärare	_	_	_	_	_	_	
+66-26	4328-4329	i	_	_	_	_	_	_	
+66-27	4330-4345	samhällskunskap	_	_	_	_	_	_	
+66-28	4346-4349	och	_	_	_	_	_	_	
+66-29	4350-4364	filosofiPierre	_	_	_	_	_	_	
+66-30	4365-4375	Erlandsson	_	_	_	_	_	_	
+66-31	4375-4376	,	_	_	_	_	_	_	
+66-32	4377-4388	yrkeslärare	_	_	_	_	_	_	
+66-33	4389-4395	Ingrid	_	_	_	_	_	_	
+66-34	4396-4401	Kilen	_	_	_	_	_	_	
+66-35	4402-4412	Edvardsson	_	_	_	_	_	_	
+66-36	4412-4413	,	_	_	_	_	_	_	
+66-37	4414-4432	yrkeslärareKristin	_	_	_	_	_	_	
+66-38	4433-4439	Hobert	_	_	_	_	_	_	
+66-39	4439-4440	,	_	_	_	_	_	_	
+66-40	4441-4452	yrkeslärare	_	_	_	_	_	_	
+66-41	4453-4454	i	_	_	_	_	_	_	
+66-42	4455-4459	vård	_	_	_	_	_	_	
+66-43	4459-4460	-	_	_	_	_	_	_	
+66-44	4461-4464	och	_	_	_	_	_	_	
+66-45	4465-4475	omsorgAnna	_	_	_	_	_	_	
+66-46	4476-4479	Asp	_	_	_	_	_	_	
+66-47	4479-4480	,	_	_	_	_	_	_	
+66-48	4481-4487	lärare	_	_	_	_	_	_	
+66-49	4488-4489	i	_	_	_	_	_	_	
+66-50	4490-4497	svenska	_	_	_	_	_	_	
+66-51	4498-4501	och	_	_	_	_	_	_	
+66-52	4502-4523	religionskunskapMaria	_	_	_	_	_	_	
+66-53	4524-4533	Hjertzell	_	_	_	_	_	_	
+66-54	4533-4534	,	_	_	_	_	_	_	
+66-55	4535-4541	mentor	_	_	_	_	_	_	
+66-56	4542-4545	för	_	_	_	_	_	_	
+66-57	4546-4581	språkintroduktionsprogrammetJohanna	_	_	_	_	_	_	
+66-58	4582-4583	L	_	_	_	_	_	_	
+66-59	4584-4594	Brandstedt	_	_	_	_	_	_	
+66-60	4594-4595	,	_	_	_	_	_	_	
+66-61	4596-4602	lärare	_	_	_	_	_	_	
+66-62	4603-4616	elevstödOlena	_	_	_	_	_	_	
+66-63	4617-4626	Ieromenko	_	_	_	_	_	_	
+66-64	4626-4627	,	_	_	_	_	_	_	
+66-65	4628-4646	elevassistentJohan	_	_	_	_	_	_	
+66-66	4647-4655	Karlsson	_	_	_	_	_	_	
+66-67	4655-4656	,	_	_	_	_	_	_	
+66-68	4657-4663	studie	_	_	_	_	_	_	
+66-69	4663-4664	-	_	_	_	_	_	_	
+66-70	4665-4668	och	_	_	_	_	_	_	
+66-71	4669-4689	yrkesvägledareCarina	_	_	_	_	_	_	
+66-72	4690-4695	Gädda	_	_	_	_	_	_	
+66-73	4695-4696	,	_	_	_	_	_	_	
+66-74	4697-4703	lärare	_	_	_	_	_	_	
+66-75	4704-4705	i	_	_	_	_	_	_	
+66-76	4706-4721	samhällskunskap	_	_	_	_	_	_	
+66-77	4722-4725	och	_	_	_	_	_	_	
+66-78	4726-4738	historiaElin	_	_	_	_	_	_	
+66-79	4739-4745	Gawell	_	_	_	_	_	_	
+66-80	4745-4746	,	_	_	_	_	_	_	
+66-81	4747-4753	lärare	_	_	_	_	_	_	
+66-82	4754-4755	i	_	_	_	_	_	_	
+66-83	4756-4770	matematikHanna	_	_	_	_	_	_	
+66-84	4771-4780	Bergendal	_	_	_	_	_	_	
+66-85	4780-4781	,	_	_	_	_	_	_	
+66-86	4782-4788	lärare	_	_	_	_	_	_	
+66-87	4789-4790	i	_	_	_	_	_	_	
+66-88	4791-4798	svenska	_	_	_	_	_	_	
+66-89	4799-4802	som	_	_	_	_	_	_	
+66-90	4803-4817	andraspråkAnna	_	_	_	_	_	_	
+66-91	4818-4825	Hultman	_	_	_	_	_	_	
+66-92	4825-4826	,	_	_	_	_	_	_	
+66-93	4827-4841	gymnasielärare	_	_	_	_	_	_	
+66-94	4842-4851	matematik	_	_	_	_	_	_	
+66-95	4852-4855	och	_	_	_	_	_	_	
+66-96	4856-4869	fysikNathasha	_	_	_	_	_	_	
+66-97	4870-4874	Berg	_	_	_	_	_	_	
+66-98	4874-4875	,	_	_	_	_	_	_	
+66-99	4876-4897	studiehandledareFrida	_	_	_	_	_	_	
+66-100	4898-4903	Levin	_	_	_	_	_	_	
+66-101	4903-4904	,	_	_	_	_	_	_	
+66-102	4905-4911	lärare	_	_	_	_	_	_	
+66-103	4912-4913	i	_	_	_	_	_	_	
+66-104	4914-4921	svenska	_	_	_	_	_	_	
+66-105	4922-4925	som	_	_	_	_	_	_	
+66-106	4926-4942	andraspråkCarina	_	_	_	_	_	_	
+66-107	4943-4951	Borggren	_	_	_	_	_	_	
+66-108	4951-4952	,	_	_	_	_	_	_	
+66-109	4953-4959	lärare	_	_	_	_	_	_	
+66-110	4960-4961	i	_	_	_	_	_	_	
+66-111	4962-4971	matematik	_	_	_	_	_	_	
+66-112	4972-4975	och	_	_	_	_	_	_	
+66-113	4976-4992	naturkunskapAnna	_	_	_	_	_	_	
+66-114	4993-4998	Karin	_	_	_	_	_	_	
+66-115	4999-5006	Nilsson	_	_	_	_	_	_	
+66-116	5006-5007	,	_	_	_	_	_	_	
+66-117	5008-5014	lärare	_	_	_	_	_	_	
+66-118	5015-5016	i	_	_	_	_	_	_	
+66-119	5017-5029	bildMarianne	_	_	_	_	_	_	
+66-120	5030-5035	Häger	_	_	_	_	_	_	
+66-121	5035-5036	,	_	_	_	_	_	_	
+66-122	5037-5043	lärare	_	_	_	_	_	_	
+66-123	5044-5045	i	_	_	_	_	_	_	
+66-124	5046-5053	svenska	_	_	_	_	_	_	
+66-125	5054-5057	som	_	_	_	_	_	_	
+66-126	5058-5075	andraspråkMariann	_	_	_	_	_	_	
+66-127	5076-5080	Miko	_	_	_	_	_	_	
+66-128	5080-5081	,	_	_	_	_	_	_	
+66-129	5082-5088	lärare	_	_	_	_	_	_	
+66-130	5089-5090	i	_	_	_	_	_	_	
+66-131	5091-5104	engelskaSofie	_	_	_	_	_	_	
+66-132	5105-5112	Lorichs	_	_	_	_	_	_	
+66-133	5112-5113	,	_	_	_	_	_	_	
+66-134	5114-5135	elevassistentIsabella	_	_	_	_	_	_	
+66-135	5136-5146	Qvarnström	_	_	_	_	_	_	
+66-136	5146-5147	,	_	_	_	_	_	_	
+66-137	5148-5154	lärare	_	_	_	_	_	_	
+66-138	5155-5156	i	_	_	_	_	_	_	
+66-139	5157-5164	svenska	_	_	_	_	_	_	
+66-140	5165-5168	som	_	_	_	_	_	_	
+66-141	5169-5188	andraspråkMargareta	_	_	_	_	_	_	
+66-142	5189-5197	Engström	_	_	_	_	_	_	
+66-143	5198-5204	Inborr	_	_	_	_	_	_	
+66-144	5204-5205	,	_	_	_	_	_	_	
+66-145	5206-5212	mentor	_	_	_	_	_	_	
+66-146	5213-5216	för	_	_	_	_	_	_	
+66-147	5217-5249	språkintroduktionsprogrammetAnna	_	_	_	_	_	_	
+66-148	5250-5259	Andersson	_	_	_	_	_	_	
+66-149	5259-5260	,	_	_	_	_	_	_	
+66-150	5261-5267	mentor	_	_	_	_	_	_	
+66-151	5268-5271	för	_	_	_	_	_	_	
+66-152	5272-5295	introduktionsprogrammet	_	_	_	_	_	_	
+66-153	5296-5299	och	_	_	_	_	_	_	
+66-154	5300-5326	hantverksprogrammetCecilia	_	_	_	_	_	_	
+66-155	5327-5334	Sandman	_	_	_	_	_	_	
+66-156	5334-5335	,	_	_	_	_	_	_	
+66-157	5336-5342	lärare	_	_	_	_	_	_	
+66-158	5343-5344	i	_	_	_	_	_	_	
+66-159	5345-5355	bildDaniel	_	_	_	_	_	_	
+66-160	5356-5360	Eyob	_	_	_	_	_	_	
+66-161	5360-5361	,	_	_	_	_	_	_	
+66-162	5362-5381	studiehandledareGun	_	_	_	_	_	_	
+66-163	5382-5388	Kieser	_	_	_	_	_	_	
+66-164	5388-5389	,	_	_	_	_	_	_	
+66-165	5390-5396	lärare	_	_	_	_	_	_	
+66-166	5397-5398	i	_	_	_	_	_	_	
+66-167	5399-5414	matematikRosita	_	_	_	_	_	_	
+66-168	5415-5426	Christensen	_	_	_	_	_	_	
+66-169	5426-5427	,	_	_	_	_	_	_	
+66-170	5428-5434	lärare	_	_	_	_	_	_	
+66-171	5435-5436	i	_	_	_	_	_	_	
+66-172	5437-5441	vård	_	_	_	_	_	_	
+66-173	5442-5445	och	_	_	_	_	_	_	
+66-174	5446-5455	omsorgPia	_	_	_	_	_	_	
+66-175	5456-5462	Minati	_	_	_	_	_	_	
+66-176	5462-5463	,	_	_	_	_	_	_	
+66-177	5464-5470	lärare	_	_	_	_	_	_	
+66-178	5471-5472	i	_	_	_	_	_	_	
+66-179	5473-5480	svenska	_	_	_	_	_	_	
+66-180	5481-5484	och	_	_	_	_	_	_	
+66-181	5485-5492	svenska	_	_	_	_	_	_	
+66-182	5493-5496	som	_	_	_	_	_	_	
+66-183	5497-5511	andraspråkIgor	_	_	_	_	_	_	
+66-184	5512-5521	Kourinnoi	_	_	_	_	_	_	
+66-185	5521-5522	,	_	_	_	_	_	_	
+66-186	5523-5541	idrottslärareHelén	_	_	_	_	_	_	
+66-187	5542-5547	Ripås	_	_	_	_	_	_	
+66-188	5547-5548	,	_	_	_	_	_	_	
+66-189	5549-5563	yrkeslärareOla	_	_	_	_	_	_	
+66-190	5564-5572	Sundberg	_	_	_	_	_	_	
+66-191	5573-5576	Lax	_	_	_	_	_	_	
+66-192	5576-5577	,	_	_	_	_	_	_	
+66-193	5578-5592	kuratorKenneth	_	_	_	_	_	_	
+66-194	5593-5603	Strandberg	_	_	_	_	_	_	
+66-195	5603-5604	,	_	_	_	_	_	_	
+66-196	5605-5611	lärare	_	_	_	_	_	_	
+66-197	5612-5618	idrott	_	_	_	_	_	_	
+66-198	5619-5622	och	_	_	_	_	_	_	
+66-199	5623-5638	hälsaAnna-Karin	_	_	_	_	_	_	
+66-200	5639-5647	Linusson	_	_	_	_	_	_	
+66-201	5647-5648	,	_	_	_	_	_	_	
+66-202	5649-5662	mentorPamilla	_	_	_	_	_	_	
+66-203	5663-5669	Carlén	_	_	_	_	_	_	
+66-204	5669-5670	,	_	_	_	_	_	_	
+66-205	5671-5686	yrkeslärareSara	_	_	_	_	_	_	
+66-206	5687-5693	Inborr	_	_	_	_	_	_	
+66-207	5693-5694	,	_	_	_	_	_	_	
+66-208	5695-5711	skolsköterskaPål	_	_	_	_	_	_	
+66-209	5712-5718	Eklund	_	_	_	_	_	_	
+66-210	5718-5719	,	_	_	_	_	_	_	
+66-211	5720-5733	elevassistent	_	_	_	_	_	_	
+66-212	5733-5734	.	_	_	_	_	_	_	

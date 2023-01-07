@@ -1,0 +1,778 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	4	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Rätt jobb viktigare än ett jobb för nyanlända.
+3-1	18-22	Rätt	*[11]	_	_	_	_	_	_	
+3-2	23-27	jobb	*[11]	_	_	_	_	_	_	
+3-3	28-37	viktigare	_	Target[1]	3-1[11]	false[1]	4[1]	_	_	
+3-4	38-40	än	_	Target[1]	3-1[11]	false[1]	4[1]	_	_	
+3-5	41-44	ett	_	_	_	_	_	_	_	
+3-6	45-49	jobb	_	_	_	_	_	_	_	
+3-7	50-53	för	_	_	_	_	_	_	_	
+3-8	54-63	nyanlända	_	_	_	_	_	_	_	
+3-9	63-64	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	false	4	_	_	
+4-4	72-73	.	_	_	_	_	_	_	_	
+
+#Text=I dag inleds regeringens trepartssamtal med arbetsmarknadens parter om snabbspår för etablering av nyanlända.
+5-1	75-76	I	*[12]	_	_	_	_	_	6-1[0_12]	
+5-2	77-80	dag	*[12]	_	_	_	_	_	_	
+5-3	81-87	inleds	*[12]	_	_	_	_	_	_	
+5-4	88-99	regeringens	*[12]	_	_	_	_	_	_	
+5-5	100-114	trepartssamtal	*[12]	_	_	_	_	_	_	
+5-6	115-118	med	*[12]	_	_	_	_	_	_	
+5-7	119-135	arbetsmarknadens	*[12]	_	_	_	_	_	_	
+5-8	136-142	parter	*[12]	_	_	_	_	_	_	
+5-9	143-145	om	*[12]	_	_	_	_	_	_	
+5-10	146-155	snabbspår	*[12]	_	_	_	_	_	_	
+5-11	156-159	för	*[12]	_	_	_	_	_	_	
+5-12	160-170	etablering	*[12]	_	_	_	_	_	_	
+5-13	171-173	av	*[12]	_	_	_	_	_	_	
+5-14	174-183	nyanlända	*[12]	_	_	_	_	_	_	
+5-15	183-184	.	_	_	_	_	_	_	_	
+
+#Text=TCO välkomnar detta.
+6-1	185-188	TCO	*	_	_	_	_	_	_	
+6-2	189-198	välkomnar	_	Source;Target	6-1;6-3	false	4	_	_	
+6-3	199-204	detta	*	_	_	_	_	_	_	
+6-4	204-205	.	_	_	_	_	_	_	_	
+
+#Text=Sverige ska vara en fristad för människor som flyr undan krig och förtryck.
+7-1	206-213	Sverige	_	_	_	_	_	_	_	
+7-2	214-217	ska	_	_	_	_	_	_	_	
+7-3	218-222	vara	_	_	_	_	_	_	_	
+7-4	223-225	en	_	_	_	_	_	_	_	
+7-5	226-233	fristad	*	Target	7-5	false	4	_	_	
+7-6	234-237	för	_	_	_	_	_	_	_	
+7-7	238-247	människor	_	_	_	_	_	_	_	
+7-8	248-251	som	_	_	_	_	_	_	_	
+7-9	252-256	flyr	_	_	_	_	_	_	_	
+7-10	257-262	undan	_	_	_	_	_	_	_	
+7-11	263-267	krig	_	_	_	_	_	_	_	
+7-12	268-271	och	_	_	_	_	_	_	_	
+7-13	272-280	förtryck	_	_	_	_	_	_	_	
+7-14	280-281	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste alla hjälpas åt att se till att de som kommer till vårt land får goda möjligheter att forma ett nytt liv här.
+8-1	282-284	Vi	_	_	_	_	_	_	_	
+8-2	285-290	måste	_	_	_	_	_	_	_	
+8-3	291-295	alla	_	_	_	_	_	_	_	
+8-4	296-303	hjälpas	_	_	_	_	_	_	_	
+8-5	304-306	åt	_	_	_	_	_	_	_	
+8-6	307-310	att	_	_	_	_	_	_	_	
+8-7	311-313	se	_	_	_	_	_	_	_	
+8-8	314-318	till	_	_	_	_	_	_	_	
+8-9	319-322	att	_	_	_	_	_	_	_	
+8-10	323-325	de	_	_	_	_	_	_	_	
+8-11	326-329	som	_	_	_	_	_	_	_	
+8-12	330-336	kommer	_	_	_	_	_	_	_	
+8-13	337-341	till	_	_	_	_	_	_	_	
+8-14	342-346	vårt	_	_	_	_	_	_	_	
+8-15	347-351	land	_	_	_	_	_	_	_	
+8-16	352-355	får	_	_	_	_	_	_	_	
+8-17	356-360	goda	_	_	_	_	_	_	_	
+8-18	361-372	möjligheter	_	_	_	_	_	_	_	
+8-19	373-376	att	_	_	_	_	_	_	_	
+8-20	377-382	forma	_	_	_	_	_	_	_	
+8-21	383-386	ett	_	_	_	_	_	_	_	
+8-22	387-391	nytt	_	_	_	_	_	_	_	
+8-23	392-395	liv	_	_	_	_	_	_	_	
+8-24	396-399	här	_	_	_	_	_	_	_	
+8-25	399-400	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	402-403	#	_	_	_	_	_	_	_	
+9-2	403-404	P	_	_	_	_	_	_	_	
+9-3	405-408	IMM	_	_	_	false	4	_	_	
+9-4	408-409	.	_	_	_	_	_	_	_	
+
+#Text=Arbetsgivare och fackförbund har en viktig roll att spela för att underlätta etableringen på arbetsmarknaden.
+10-1	411-423	Arbetsgivare	_	_	_	_	_	_	_	
+10-2	424-427	och	_	_	_	_	_	_	_	
+10-3	428-439	fackförbund	_	_	_	_	_	_	_	
+10-4	440-443	har	_	_	_	_	_	_	_	
+10-5	444-446	en	_	_	_	_	_	_	_	
+10-6	447-453	viktig	_	_	_	_	_	_	_	
+10-7	454-458	roll	_	_	_	_	_	_	_	
+10-8	459-462	att	_	_	_	_	_	_	_	
+10-9	463-468	spela	_	_	_	_	_	_	_	
+10-10	469-472	för	_	_	_	_	_	_	_	
+10-11	473-476	att	_	_	_	_	_	_	_	
+10-12	477-487	underlätta	_	_	_	_	_	_	_	
+10-13	488-500	etableringen	_	_	_	_	_	_	_	
+10-14	501-503	på	_	_	_	_	_	_	_	
+10-15	504-519	arbetsmarknaden	_	_	_	_	_	_	_	
+10-16	519-520	.	_	_	_	_	_	_	_	
+
+#Text=Att kompetensen tas till vara hos de som kommer hit och att tiden från att man kommer till Sverige och får möjlighet att komma ut på arbetsmarknaden kortas är viktigt för alla.
+11-1	521-524	Att	*[13]	_	_	_	_	_	_	
+11-2	525-536	kompetensen	*[13]	_	_	_	_	_	_	
+11-3	537-540	tas	*[13]	_	_	_	_	_	_	
+11-4	541-545	till	*[13]	_	_	_	_	_	_	
+11-5	546-550	vara	*[13]	_	_	_	_	_	_	
+11-6	551-554	hos	*[13]	_	_	_	_	_	_	
+11-7	555-557	de	*[13]	_	_	_	_	_	_	
+11-8	558-561	som	*[13]	_	_	_	_	_	_	
+11-9	562-568	kommer	*[13]	_	_	_	_	_	_	
+11-10	569-572	hit	*[13]	_	_	_	_	_	_	
+11-11	573-576	och	*[13]	_	_	_	_	_	_	
+11-12	577-580	att	*[13]	_	_	_	_	_	_	
+11-13	581-586	tiden	*[13]	_	_	_	_	_	_	
+11-14	587-591	från	*[13]	_	_	_	_	_	_	
+11-15	592-595	att	*[13]	_	_	_	_	_	_	
+11-16	596-599	man	*[13]	_	_	_	_	_	_	
+11-17	600-606	kommer	*[13]	_	_	_	_	_	_	
+11-18	607-611	till	*[13]	_	_	_	_	_	_	
+11-19	612-619	Sverige	*[13]	_	_	_	_	_	_	
+11-20	620-623	och	*[13]	_	_	_	_	_	_	
+11-21	624-627	får	*[13]	_	_	_	_	_	_	
+11-22	628-637	möjlighet	*[13]	_	_	_	_	_	_	
+11-23	638-641	att	*[13]	_	_	_	_	_	_	
+11-24	642-647	komma	*[13]	_	_	_	_	_	_	
+11-25	648-650	ut	*[13]	_	_	_	_	_	_	
+11-26	651-653	på	*[13]	_	_	_	_	_	_	
+11-27	654-669	arbetsmarknaden	*[13]	_	_	_	_	_	_	
+11-28	670-676	kortas	*[13]	_	_	_	_	_	_	
+11-29	677-679	är	_	Target[2]	11-1[13]	false[2]	4[2]	_	_	
+11-30	680-687	viktigt	_	Target[2]	11-1[13]	false[2]	4[2]	_	_	
+11-31	688-691	för	_	Target[2]	11-1[13]	false[2]	4[2]	_	_	
+11-32	692-696	alla	_	Target[2]	11-1[13]	false[2]	4[2]	_	_	
+11-33	696-697	.	_	_	_	_	_	_	_	
+
+#Text=Allt annat är ett resursslöseri.
+12-1	698-702	Allt	*[14]	_	_	_	_	_	_	
+12-2	703-708	annat	*[14]	_	_	_	_	_	_	
+12-3	709-711	är	_	Target[3]	12-1[14]	false[3]	2[3]	_	_	
+12-4	712-715	ett	_	Target[3]	12-1[14]	false[3]	2[3]	_	_	
+12-5	716-729	resursslöseri	_	Target[3]	12-1[14]	false[3]	2[3]	_	_	
+12-6	729-730	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	732-733	#	_	_	_	_	_	_	_	
+13-2	733-734	P	_	_	_	_	_	_	_	
+13-3	735-738	IMM	_	_	_	false	4	_	_	
+13-4	738-739	.	_	_	_	_	_	_	_	
+
+#Text=En studie som TCO låtit genomföra visar att en förutsättning för att ta tillvara kompetens hos nyanlända är att insatser redan från början inriktas på att de ska få jobb i linje med sin utbildning och erfarenhet, snarare än vilket jobb som helst.
+14-1	741-743	En	_	_	_	_	_	_	_	
+14-2	744-750	studie	_	_	_	_	_	_	_	
+14-3	751-754	som	_	_	_	_	_	_	_	
+14-4	755-758	TCO	_	_	_	_	_	_	_	
+14-5	759-764	låtit	_	_	_	_	_	_	_	
+14-6	765-774	genomföra	_	_	_	_	_	_	_	
+14-7	775-780	visar	_	_	_	_	_	_	_	
+14-8	781-784	att	_	_	_	_	_	_	_	
+14-9	785-787	en	_	_	_	_	_	_	_	
+14-10	788-801	förutsättning	_	_	_	_	_	_	_	
+14-11	802-805	för	_	_	_	_	_	_	_	
+14-12	806-809	att	_	_	_	_	_	_	_	
+14-13	810-812	ta	_	_	_	_	_	_	_	
+14-14	813-821	tillvara	_	_	_	_	_	_	_	
+14-15	822-831	kompetens	_	_	_	_	_	_	_	
+14-16	832-835	hos	_	_	_	_	_	_	_	
+14-17	836-845	nyanlända	_	_	_	_	_	_	_	
+14-18	846-848	är	_	_	_	_	_	_	_	
+14-19	849-852	att	_	_	_	_	_	_	_	
+14-20	853-861	insatser	_	_	_	_	_	_	_	
+14-21	862-867	redan	_	_	_	_	_	_	_	
+14-22	868-872	från	_	_	_	_	_	_	_	
+14-23	873-879	början	_	_	_	_	_	_	_	
+14-24	880-888	inriktas	_	_	_	_	_	_	_	
+14-25	889-891	på	_	_	_	_	_	_	_	
+14-26	892-895	att	_	_	_	_	_	_	_	
+14-27	896-898	de	_	_	_	_	_	_	_	
+14-28	899-902	ska	_	_	_	_	_	_	_	
+14-29	903-905	få	_	_	_	_	_	_	_	
+14-30	906-910	jobb	_	_	_	_	_	_	_	
+14-31	911-912	i	_	_	_	_	_	_	_	
+14-32	913-918	linje	_	_	_	_	_	_	_	
+14-33	919-922	med	_	_	_	_	_	_	_	
+14-34	923-926	sin	_	_	_	_	_	_	_	
+14-35	927-937	utbildning	_	_	_	_	_	_	_	
+14-36	938-941	och	_	_	_	_	_	_	_	
+14-37	942-952	erfarenhet	_	_	_	_	_	_	_	
+14-38	952-953	,	_	_	_	_	_	_	_	
+14-39	954-961	snarare	_	_	_	_	_	_	_	
+14-40	962-964	än	_	_	_	_	_	_	_	
+14-41	965-971	vilket	_	_	_	_	_	_	_	
+14-42	972-976	jobb	_	_	_	_	_	_	_	
+14-43	977-980	som	_	_	_	_	_	_	_	
+14-44	981-986	helst	_	_	_	_	_	_	_	
+14-45	986-987	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	989-990	#	_	_	_	_	_	_	_	
+15-2	990-991	P	_	_	_	_	_	_	_	
+15-3	992-995	IMM	_	_	_	_	_	_	_	
+15-4	995-996	.	_	_	_	_	_	_	_	
+
+#Text=Vår studie visar att de som startat med ett okvalificerat arbete inte ökade sina chanser att åtta år senare ha fått ett kvalificerat arbete i enlighet med sin kompetens, jämfört med att ha varit arbetslös.
+16-1	998-1001	Vår	_	_	_	_	_	_	_	
+16-2	1002-1008	studie	_	_	_	_	_	_	_	
+16-3	1009-1014	visar	_	_	_	_	_	_	_	
+16-4	1015-1018	att	_	_	_	_	_	_	_	
+16-5	1019-1021	de	_	_	_	_	_	_	_	
+16-6	1022-1025	som	_	_	_	_	_	_	_	
+16-7	1026-1033	startat	_	_	_	_	_	_	_	
+16-8	1034-1037	med	_	_	_	_	_	_	_	
+16-9	1038-1041	ett	_	_	_	_	_	_	_	
+16-10	1042-1055	okvalificerat	_	_	_	_	_	_	_	
+16-11	1056-1062	arbete	_	_	_	_	_	_	_	
+16-12	1063-1067	inte	_	_	_	_	_	_	_	
+16-13	1068-1073	ökade	_	_	_	_	_	_	_	
+16-14	1074-1078	sina	_	_	_	_	_	_	_	
+16-15	1079-1086	chanser	_	_	_	_	_	_	_	
+16-16	1087-1090	att	_	_	_	_	_	_	_	
+16-17	1091-1095	åtta	_	_	_	_	_	_	_	
+16-18	1096-1098	år	_	_	_	_	_	_	_	
+16-19	1099-1105	senare	_	_	_	_	_	_	_	
+16-20	1106-1108	ha	_	_	_	_	_	_	_	
+16-21	1109-1113	fått	_	_	_	_	_	_	_	
+16-22	1114-1117	ett	_	_	_	_	_	_	_	
+16-23	1118-1130	kvalificerat	_	_	_	_	_	_	_	
+16-24	1131-1137	arbete	_	_	_	_	_	_	_	
+16-25	1138-1139	i	_	_	_	_	_	_	_	
+16-26	1140-1148	enlighet	_	_	_	_	_	_	_	
+16-27	1149-1152	med	_	_	_	_	_	_	_	
+16-28	1153-1156	sin	_	_	_	_	_	_	_	
+16-29	1157-1166	kompetens	_	_	_	_	_	_	_	
+16-30	1166-1167	,	_	_	_	_	_	_	_	
+16-31	1168-1175	jämfört	_	_	_	_	_	_	_	
+16-32	1176-1179	med	_	_	_	_	_	_	_	
+16-33	1180-1183	att	_	_	_	_	_	_	_	
+16-34	1184-1186	ha	_	_	_	_	_	_	_	
+16-35	1187-1192	varit	_	_	_	_	_	_	_	
+16-36	1193-1202	arbetslös	_	_	_	_	_	_	_	
+16-37	1202-1203	.	_	_	_	_	_	_	_	
+
+#Text=Rätt jobb istället för ett jobb bör därför vara en vägledande princip.
+17-1	1204-1208	Rätt	_	_	_	_	_	_	_	
+17-2	1209-1213	jobb	_	_	_	_	_	_	_	
+17-3	1214-1222	istället	_	_	_	_	_	_	_	
+17-4	1223-1226	för	_	_	_	_	_	_	_	
+17-5	1227-1230	ett	_	_	_	_	_	_	_	
+17-6	1231-1235	jobb	_	_	_	_	_	_	_	
+17-7	1236-1239	bör	_	_	_	_	_	_	_	
+17-8	1240-1246	därför	_	_	_	_	_	_	_	
+17-9	1247-1251	vara	_	_	_	_	_	_	_	
+17-10	1252-1254	en	_	_	_	_	_	_	_	
+17-11	1255-1265	vägledande	_	_	_	_	_	_	_	
+17-12	1266-1273	princip	_	_	_	_	_	_	_	
+17-13	1273-1274	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1276-1277	#	_	_	_	_	_	_	_	
+18-2	1277-1278	P	_	_	_	_	_	_	_	
+18-3	1279-1282	IMM	_	_	_	false	3	_	_	
+18-4	1282-1283	.	_	_	_	_	_	_	_	
+
+#Text=Lösningarna kommer sannolikt att se olika ut i olika branscher.
+19-1	1285-1296	Lösningarna	_	_	_	_	_	_	_	
+19-2	1297-1303	kommer	_	_	_	_	_	_	_	
+19-3	1304-1313	sannolikt	_	_	_	_	_	_	_	
+19-4	1314-1317	att	_	_	_	_	_	_	_	
+19-5	1318-1320	se	_	_	_	_	_	_	_	
+19-6	1321-1326	olika	_	_	_	_	_	_	_	
+19-7	1327-1329	ut	_	_	_	_	_	_	_	
+19-8	1330-1331	i	_	_	_	_	_	_	_	
+19-9	1332-1337	olika	_	_	_	_	_	_	_	
+19-10	1338-1347	branscher	_	_	_	_	_	_	_	
+19-11	1347-1348	.	_	_	_	_	_	_	_	
+
+#Text=Samtalen på branschnivå är därför av avgörande betydelse.
+20-1	1349-1357	Samtalen	*[15]	_	_	_	_	_	_	
+20-2	1358-1360	på	*[15]	_	_	_	_	_	_	
+20-3	1361-1372	branschnivå	*[15]	_	_	_	_	_	_	
+20-4	1373-1375	är	_	Target[4]	20-1[15]	false[4]	4[4]	_	_	
+20-5	1376-1382	därför	_	Target[4]	20-1[15]	false[4]	4[4]	_	_	
+20-6	1383-1385	av	_	Target[4]	20-1[15]	false[4]	4[4]	_	_	
+20-7	1386-1395	avgörande	_	Target[4]	20-1[15]	false[4]	4[4]	_	_	
+20-8	1396-1405	betydelse	_	Target[4]	20-1[15]	false[4]	4[4]	_	_	
+20-9	1405-1406	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt måste den gemensamma infrastrukturen för vägledning, validering, utbildning och matchning förbättras.
+21-1	1407-1416	Samtidigt	_	_	_	_	_	_	_	
+21-2	1417-1422	måste	_	Target	21-3[16]	false	2	21-14	_	
+21-3	1423-1426	den	*[16]	_	_	_	_	_	_	
+21-4	1427-1437	gemensamma	*[16]	_	_	_	_	_	_	
+21-5	1438-1453	infrastrukturen	*[16]	_	_	_	_	_	_	
+21-6	1454-1457	för	*[16]	_	_	_	_	_	_	
+21-7	1458-1468	vägledning	*[16]	_	_	_	_	_	_	
+21-8	1468-1469	,	*[16]	_	_	_	_	_	_	
+21-9	1470-1480	validering	*[16]	_	_	_	_	_	_	
+21-10	1480-1481	,	*[16]	_	_	_	_	_	_	
+21-11	1482-1492	utbildning	*[16]	_	_	_	_	_	_	
+21-12	1493-1496	och	*[16]	_	_	_	_	_	_	
+21-13	1497-1506	matchning	*[16]	_	_	_	_	_	_	
+21-14	1507-1517	förbättras	_	_	_	false	2	_	_	
+21-15	1517-1518	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1520-1521	#	_	_	_	_	_	_	_	
+22-2	1521-1522	P	_	_	_	_	_	_	_	
+22-3	1523-1526	IMM	_	_	_	_	_	_	_	
+22-4	1526-1527	.	_	_	_	_	_	_	_	
+
+#Text=I samband med att trepartssamtalen inleds föreslår TCO därför bland annat följande:.
+23-1	1529-1530	I	_	_	_	_	_	_	_	
+23-2	1531-1538	samband	_	_	_	_	_	_	_	
+23-3	1539-1542	med	_	_	_	_	_	_	_	
+23-4	1543-1546	att	_	_	_	_	_	_	_	
+23-5	1547-1563	trepartssamtalen	_	_	_	_	_	_	_	
+23-6	1564-1570	inleds	_	_	_	_	_	_	_	
+23-7	1571-1579	föreslår	_	_	_	_	_	_	_	
+23-8	1580-1583	TCO	_	_	_	_	_	_	_	
+23-9	1584-1590	därför	_	_	_	_	_	_	_	
+23-10	1591-1596	bland	_	_	_	_	_	_	_	
+23-11	1597-1602	annat	_	_	_	_	_	_	_	
+23-12	1603-1611	följande	_	_	_	_	_	_	_	
+23-13	1611-1612	:	_	_	_	_	_	_	_	
+23-14	1612-1613	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1615-1616	#	_	_	_	_	_	_	_	
+24-2	1616-1617	P	_	_	_	_	_	_	_	
+24-3	1618-1621	IMM	_	_	_	_	_	_	_	
+24-4	1621-1622	.	_	_	_	_	_	_	_	
+
+#Text=Parallella insatser.
+25-1	1624-1634	Parallella	_	_	_	_	_	_	_	
+25-2	1635-1643	insatser	_	_	_	_	_	_	_	
+25-3	1643-1644	.	_	_	_	_	_	_	_	
+
+#Text=För de som kan bör möjligheterna att parallellt läsa svenska/yrkessvenska, praktisera och få utbildning och erfarenhet validerad och bedömd öka.
+26-1	1645-1648	För	_	_	_	_	_	_	_	
+26-2	1649-1651	de	_	_	_	_	_	_	_	
+26-3	1652-1655	som	_	_	_	_	_	_	_	
+26-4	1656-1659	kan	_	_	_	_	_	_	_	
+26-5	1660-1663	bör	_	_	_	_	_	_	_	
+26-6	1664-1677	möjligheterna	_	_	_	_	_	_	_	
+26-7	1678-1681	att	_	_	_	_	_	_	_	
+26-8	1682-1692	parallellt	_	_	_	_	_	_	_	
+26-9	1693-1697	läsa	_	_	_	_	_	_	_	
+26-10	1698-1705	svenska	_	_	_	_	_	_	_	
+26-11	1705-1706	/	_	_	_	_	_	_	_	
+26-12	1706-1718	yrkessvenska	_	_	_	_	_	_	_	
+26-13	1718-1719	,	_	_	_	_	_	_	_	
+26-14	1720-1730	praktisera	_	_	_	_	_	_	_	
+26-15	1731-1734	och	_	_	_	_	_	_	_	
+26-16	1735-1737	få	_	_	_	_	_	_	_	
+26-17	1738-1748	utbildning	_	_	_	_	_	_	_	
+26-18	1749-1752	och	_	_	_	_	_	_	_	
+26-19	1753-1763	erfarenhet	_	_	_	_	_	_	_	
+26-20	1764-1773	validerad	_	_	_	_	_	_	_	
+26-21	1774-1777	och	_	_	_	_	_	_	_	
+26-22	1778-1784	bedömd	_	_	_	_	_	_	_	
+26-23	1785-1788	öka	_	_	_	_	_	_	_	
+26-24	1788-1789	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1791-1792	#	_	_	_	_	_	_	_	
+27-2	1792-1793	P	_	_	_	_	_	_	_	
+27-3	1794-1797	IMM	_	_	_	false	3	_	_	
+27-4	1797-1798	.	_	_	_	_	_	_	_	
+
+#Text=Snabbare legitimation.
+28-1	1800-1808	Snabbare	_	_	_	_	_	_	_	
+28-2	1809-1821	legitimation	_	_	_	_	_	_	_	
+28-3	1821-1822	.	_	_	_	_	_	_	_	
+
+#Text=Handläggningstiderna för att få sin utländska yrkeslegitimation omvandlad till en svensk är oacceptabelt långa.
+29-1	1823-1843	Handläggningstiderna	*[17]	_	_	_	_	_	_	
+29-2	1844-1847	för	*[17]	_	_	_	_	_	_	
+29-3	1848-1851	att	*[17]	_	_	_	_	_	_	
+29-4	1852-1854	få	*[17]	_	_	_	_	_	_	
+29-5	1855-1858	sin	*[17]	_	_	_	_	_	_	
+29-6	1859-1868	utländska	*[17]	_	_	_	_	_	_	
+29-7	1869-1886	yrkeslegitimation	*[17]	_	_	_	_	_	_	
+29-8	1887-1896	omvandlad	*[17]	_	_	_	_	_	_	
+29-9	1897-1901	till	*[17]	_	_	_	_	_	_	
+29-10	1902-1904	en	*[17]	_	_	_	_	_	_	
+29-11	1905-1911	svensk	*[17]	_	_	_	_	_	_	
+29-12	1912-1914	är	_	Target[5]	29-1[17]	false[5]	2[5]	_	_	
+29-13	1915-1927	oacceptabelt	_	Target[5]	29-1[17]	false[5]	2[5]	_	_	
+29-14	1928-1933	långa	_	Target[5]	29-1[17]	false[5]	2[5]	_	_	
+29-15	1933-1934	.	_	_	_	_	_	_	_	
+
+#Text=De skiljer sig mellan yrken men bara att få sin utbildning bedömd hos Socialstyrelsen tar minst åtta månader.
+30-1	1935-1937	De	_	_	_	_	_	_	_	
+30-2	1938-1945	skiljer	_	_	_	_	_	_	_	
+30-3	1946-1949	sig	_	_	_	_	_	_	_	
+30-4	1950-1956	mellan	_	_	_	_	_	_	_	
+30-5	1957-1962	yrken	_	_	_	_	_	_	_	
+30-6	1963-1966	men	_	_	_	_	_	_	_	
+30-7	1967-1971	bara	_	_	_	_	_	_	_	
+30-8	1972-1975	att	_	_	_	_	_	_	_	
+30-9	1976-1978	få	_	_	_	_	_	_	_	
+30-10	1979-1982	sin	_	_	_	_	_	_	_	
+30-11	1983-1993	utbildning	_	_	_	_	_	_	_	
+30-12	1994-2000	bedömd	_	_	_	_	_	_	_	
+30-13	2001-2004	hos	_	_	_	_	_	_	_	
+30-14	2005-2020	Socialstyrelsen	_	_	_	_	_	_	_	
+30-15	2021-2024	tar	_	_	_	_	_	_	_	
+30-16	2025-2030	minst	_	_	_	_	_	_	_	
+30-17	2031-2035	åtta	_	_	_	_	_	_	_	
+30-18	2036-2043	månader	_	_	_	_	_	_	_	
+30-19	2043-2044	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har aviserat ökade anslag till ansvariga myndigheter, men även själva processen behöver ses över, till exempel vad gäller reglerna för praktiktjänstgöring.
+31-1	2045-2055	Regeringen	_	_	_	_	_	_	_	
+31-2	2056-2059	har	_	_	_	_	_	_	_	
+31-3	2060-2068	aviserat	_	_	_	_	_	_	_	
+31-4	2069-2074	ökade	_	_	_	_	_	_	_	
+31-5	2075-2081	anslag	_	_	_	_	_	_	_	
+31-6	2082-2086	till	_	_	_	_	_	_	_	
+31-7	2087-2096	ansvariga	_	_	_	_	_	_	_	
+31-8	2097-2108	myndigheter	_	_	_	_	_	_	_	
+31-9	2108-2109	,	_	_	_	_	_	_	_	
+31-10	2110-2113	men	_	_	_	_	_	_	_	
+31-11	2114-2118	även	_	_	_	_	_	_	_	
+31-12	2119-2125	själva	_	_	_	_	_	_	_	
+31-13	2126-2135	processen	_	_	_	_	_	_	_	
+31-14	2136-2143	behöver	_	_	_	_	_	_	_	
+31-15	2144-2147	ses	_	_	_	_	_	_	_	
+31-16	2148-2152	över	_	_	_	_	_	_	_	
+31-17	2152-2153	,	_	_	_	_	_	_	_	
+31-18	2154-2158	till	_	_	_	_	_	_	_	
+31-19	2159-2166	exempel	_	_	_	_	_	_	_	
+31-20	2167-2170	vad	_	_	_	_	_	_	_	
+31-21	2171-2177	gäller	_	_	_	_	_	_	_	
+31-22	2178-2186	reglerna	_	_	_	_	_	_	_	
+31-23	2187-2190	för	_	_	_	_	_	_	_	
+31-24	2191-2210	praktiktjänstgöring	_	_	_	_	_	_	_	
+31-25	2210-2211	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2213-2214	#	_	_	_	_	_	_	_	
+32-2	2214-2215	P	_	_	_	_	_	_	_	
+32-3	2216-2219	IMM	_	_	_	false	3	_	_	
+32-4	2219-2220	.	_	_	_	_	_	_	_	
+
+#Text=Yrkeskompetensbedömning på riktiga arbetsplatser.
+33-1	2222-2245	Yrkeskompetensbedömning	_	_	_	_	_	_	_	
+33-2	2246-2248	på	_	_	_	_	_	_	_	
+33-3	2249-2256	riktiga	_	_	_	_	_	_	_	
+33-4	2257-2270	arbetsplatser	_	_	_	_	_	_	_	
+33-5	2270-2271	.	_	_	_	_	_	_	_	
+
+#Text=Nyanländas kompetens bör vara inriktad på yrkeskompetensbedömning där nyanlända under praktik på en arbetsplats får sin kompetens bedömd av en riktig arbetsgivare och eventuella kompletteringsbehov identifieras.
+34-1	2272-2282	Nyanländas	_	_	_	_	_	_	_	
+34-2	2283-2292	kompetens	_	_	_	_	_	_	_	
+34-3	2293-2296	bör	_	_	_	_	_	_	_	
+34-4	2297-2301	vara	_	_	_	_	_	_	_	
+34-5	2302-2310	inriktad	_	_	_	_	_	_	_	
+34-6	2311-2313	på	_	_	_	_	_	_	_	
+34-7	2314-2337	yrkeskompetensbedömning	_	_	_	_	_	_	_	
+34-8	2338-2341	där	_	_	_	_	_	_	_	
+34-9	2342-2351	nyanlända	_	_	_	_	_	_	_	
+34-10	2352-2357	under	_	_	_	_	_	_	_	
+34-11	2358-2365	praktik	_	_	_	_	_	_	_	
+34-12	2366-2368	på	_	_	_	_	_	_	_	
+34-13	2369-2371	en	_	_	_	_	_	_	_	
+34-14	2372-2383	arbetsplats	_	_	_	_	_	_	_	
+34-15	2384-2387	får	_	_	_	_	_	_	_	
+34-16	2388-2391	sin	_	_	_	_	_	_	_	
+34-17	2392-2401	kompetens	_	_	_	_	_	_	_	
+34-18	2402-2408	bedömd	_	_	_	_	_	_	_	
+34-19	2409-2411	av	_	_	_	_	_	_	_	
+34-20	2412-2414	en	_	_	_	_	_	_	_	
+34-21	2415-2421	riktig	_	_	_	_	_	_	_	
+34-22	2422-2434	arbetsgivare	_	_	_	_	_	_	_	
+34-23	2435-2438	och	_	_	_	_	_	_	_	
+34-24	2439-2449	eventuella	_	_	_	_	_	_	_	
+34-25	2450-2469	kompletteringsbehov	_	_	_	_	_	_	_	
+34-26	2470-2482	identifieras	_	_	_	_	_	_	_	
+34-27	2482-2483	.	_	_	_	_	_	_	_	
+
+#Text=Denna modell, som skapats just för nyanlända, har visat sig mycket mer effektiv än andra former av validering av yrkeskompetens.
+35-1	2484-2489	Denna	*[18]	_	_	_	_	_	_	
+35-2	2490-2496	modell	*[18]	_	_	_	_	_	_	
+35-3	2496-2497	,	*[18]	_	_	_	_	_	_	
+35-4	2498-2501	som	*[18]	_	_	_	_	_	_	
+35-5	2502-2509	skapats	*[18]	_	_	_	_	_	_	
+35-6	2510-2514	just	*[18]	_	_	_	_	_	_	
+35-7	2515-2518	för	*[18]	_	_	_	_	_	_	
+35-8	2519-2528	nyanlända	*[18]	_	_	_	_	_	_	
+35-9	2528-2529	,	_	_	_	_	_	_	_	
+35-10	2530-2533	har	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-11	2534-2539	visat	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-12	2540-2543	sig	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-13	2544-2550	mycket	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-14	2551-2554	mer	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-15	2555-2563	effektiv	_	Target[6]	35-1[18]	false[6]	4[6]	_	_	
+35-16	2564-2566	än	_	_	_	_	_	_	_	
+35-17	2567-2572	andra	_	_	_	_	_	_	_	
+35-18	2573-2579	former	_	_	_	_	_	_	_	
+35-19	2580-2582	av	_	_	_	_	_	_	_	
+35-20	2583-2593	validering	_	_	_	_	_	_	_	
+35-21	2594-2596	av	_	_	_	_	_	_	_	
+35-22	2597-2611	yrkeskompetens	_	_	_	_	_	_	_	
+35-23	2611-2612	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2614-2615	#	_	_	_	_	_	_	_	
+36-2	2615-2616	P	_	_	_	_	_	_	_	
+36-3	2617-2620	IMM	_	_	_	false	3	_	_	
+36-4	2620-2621	.	_	_	_	_	_	_	_	
+
+#Text=Arbetsförmedlingen anskaffar eller upphandlar utbildning.
+37-1	2623-2641	Arbetsförmedlingen	_	_	_	_	_	_	_	
+37-2	2642-2651	anskaffar	_	_	_	_	_	_	_	
+37-3	2652-2657	eller	_	_	_	_	_	_	_	
+37-4	2658-2668	upphandlar	_	_	_	_	_	_	_	
+37-5	2669-2679	utbildning	_	_	_	_	_	_	_	
+37-6	2679-2680	.	_	_	_	_	_	_	_	
+
+#Text=För att se till så att utbudet av utbildning är anpassat till målgruppen bör AF få möjlighet att anskaffa eller upphandla såväl yrkessvenska som kompletterande utbildningar från högskolor och andra utbildningsanordnare.
+38-1	2681-2684	För	_	_	_	_	_	_	_	
+38-2	2685-2688	att	_	_	_	_	_	_	_	
+38-3	2689-2691	se	_	_	_	_	_	_	_	
+38-4	2692-2696	till	_	_	_	_	_	_	_	
+38-5	2697-2699	så	_	_	_	_	_	_	_	
+38-6	2700-2703	att	_	_	_	_	_	_	_	
+38-7	2704-2711	utbudet	_	_	_	_	_	_	_	
+38-8	2712-2714	av	_	_	_	_	_	_	_	
+38-9	2715-2725	utbildning	_	_	_	_	_	_	_	
+38-10	2726-2728	är	_	_	_	_	_	_	_	
+38-11	2729-2737	anpassat	_	_	_	_	_	_	_	
+38-12	2738-2742	till	_	_	_	_	_	_	_	
+38-13	2743-2753	målgruppen	_	_	_	_	_	_	_	
+38-14	2754-2757	bör	_	_	_	_	_	_	_	
+38-15	2758-2760	AF	_	_	_	_	_	_	_	
+38-16	2761-2763	få	_	_	_	_	_	_	_	
+38-17	2764-2773	möjlighet	_	_	_	_	_	_	_	
+38-18	2774-2777	att	_	_	_	_	_	_	_	
+38-19	2778-2786	anskaffa	_	_	_	_	_	_	_	
+38-20	2787-2792	eller	_	_	_	_	_	_	_	
+38-21	2793-2802	upphandla	_	_	_	_	_	_	_	
+38-22	2803-2808	såväl	_	_	_	_	_	_	_	
+38-23	2809-2821	yrkessvenska	_	_	_	_	_	_	_	
+38-24	2822-2825	som	_	_	_	_	_	_	_	
+38-25	2826-2840	kompletterande	_	_	_	_	_	_	_	
+38-26	2841-2853	utbildningar	_	_	_	_	_	_	_	
+38-27	2854-2858	från	_	_	_	_	_	_	_	
+38-28	2859-2868	högskolor	_	_	_	_	_	_	_	
+38-29	2869-2872	och	_	_	_	_	_	_	_	
+38-30	2873-2878	andra	_	_	_	_	_	_	_	
+38-31	2879-2899	utbildningsanordnare	_	_	_	_	_	_	_	
+38-32	2899-2900	.	_	_	_	_	_	_	_	
+
+#Text=Idag styrs utbudet av utbildningsanordnarna.
+39-1	2901-2905	Idag	_	_	_	_	_	_	_	
+39-2	2906-2911	styrs	_	_	_	_	_	_	_	
+39-3	2912-2919	utbudet	_	_	_	_	_	_	_	
+39-4	2920-2922	av	_	_	_	_	_	_	_	
+39-5	2923-2944	utbildningsanordnarna	_	_	_	_	_	_	_	
+39-6	2944-2945	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2947-2948	#	_	_	_	_	_	_	_	
+40-2	2948-2949	P	_	_	_	_	_	_	_	
+40-3	2950-2953	IMM	_	_	_	false	3	_	_	
+40-4	2953-2954	.	_	_	_	_	_	_	_	
+
+#Text=Specialiserade arbetsförmedlare.
+41-1	2956-2970	Specialiserade	_	_	_	_	_	_	_	
+41-2	2971-2987	arbetsförmedlare	_	_	_	_	_	_	_	
+41-3	2987-2988	.	_	_	_	_	_	_	_	
+
+#Text=Ansvaret för nyanlända bör ligga på specialiserade arbetsförmedlare som anskaffar yrkeskompetensbedömningsplatser, matchar och samordnar kompletterande insatser.
+42-1	2989-2997	Ansvaret	_	_	_	_	_	_	_	
+42-2	2998-3001	för	_	_	_	_	_	_	_	
+42-3	3002-3011	nyanlända	_	_	_	_	_	_	_	
+42-4	3012-3015	bör	_	_	_	_	_	_	_	
+42-5	3016-3021	ligga	_	_	_	_	_	_	_	
+42-6	3022-3024	på	_	_	_	_	_	_	_	
+42-7	3025-3039	specialiserade	_	_	_	_	_	_	_	
+42-8	3040-3056	arbetsförmedlare	_	_	_	_	_	_	_	
+42-9	3057-3060	som	_	_	_	_	_	_	_	
+42-10	3061-3070	anskaffar	_	_	_	_	_	_	_	
+42-11	3071-3102	yrkeskompetensbedömningsplatser	_	_	_	_	_	_	_	
+42-12	3102-3103	,	_	_	_	_	_	_	_	
+42-13	3104-3111	matchar	_	_	_	_	_	_	_	
+42-14	3112-3115	och	_	_	_	_	_	_	_	
+42-15	3116-3125	samordnar	_	_	_	_	_	_	_	
+42-16	3126-3140	kompletterande	_	_	_	_	_	_	_	
+42-17	3141-3149	insatser	_	_	_	_	_	_	_	
+42-18	3149-3150	.	_	_	_	_	_	_	_	
+
+#Text=Projekt där Arbetsförmedlingen har arbetat på det viset har varit framgångsrika.
+43-1	3151-3158	Projekt	*[19]	_	_	_	_	_	_	
+43-2	3159-3162	där	*[19]	_	_	_	_	_	_	
+43-3	3163-3181	Arbetsförmedlingen	*[19]	_	_	_	_	_	_	
+43-4	3182-3185	har	*[19]	_	_	_	_	_	_	
+43-5	3186-3193	arbetat	*[19]	_	_	_	_	_	_	
+43-6	3194-3196	på	*[19]	_	_	_	_	_	_	
+43-7	3197-3200	det	*[19]	_	_	_	_	_	_	
+43-8	3201-3206	viset	*[19]	_	_	_	_	_	_	
+43-9	3207-3210	har	_	Target[7]	43-1[19]	false[7]	4[7]	_	_	
+43-10	3211-3216	varit	_	Target[7]	43-1[19]	false[7]	4[7]	_	_	
+43-11	3217-3230	framgångsrika	_	Target[7]	43-1[19]	false[7]	4[7]	_	_	
+43-12	3230-3231	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3233-3234	#	_	_	_	_	_	_	_	
+44-2	3234-3235	P	_	_	_	_	_	_	_	
+44-3	3236-3239	IMM	_	_	_	false	4	_	_	
+44-4	3239-3240	.	_	_	_	_	_	_	_	
+
+#Text=TCO ser fram emot samtalen mellan regeringen och arbetsmarknadens parter.
+45-1	3242-3245	TCO	*	_	_	_	_	_	_	
+45-2	3246-3249	ser	_	Target;Source[8]	45-5[20];45-1	false[8]	4[8]	_	_	
+45-3	3250-3254	fram	_	Target;Source[8]	45-5[20];45-1	false[8]	4[8]	_	_	
+45-4	3255-3259	emot	_	Target;Source[8]	45-5[20];45-1	false[8]	4[8]	_	_	
+45-5	3260-3268	samtalen	*[20]	_	_	_	_	_	_	
+45-6	3269-3275	mellan	*[20]	_	_	_	_	_	_	
+45-7	3276-3286	regeringen	*[20]	_	_	_	_	_	_	
+45-8	3287-3290	och	*[20]	_	_	_	_	_	_	
+45-9	3291-3307	arbetsmarknadens	*[20]	_	_	_	_	_	_	
+45-10	3308-3314	parter	*[20]	_	_	_	_	_	_	
+45-11	3314-3315	.	_	_	_	_	_	_	_	
+
+#Text=Vi kommer att bidra med konstruktiva och konkreta förslag för att lösa de utmaningar Sverige står inför och vi är måna om att lyfta de positiva möjligheter som det medför att människor söker sig till vårt land.
+46-1	3316-3318	Vi	_	_	_	_	_	_	_	
+46-2	3319-3325	kommer	_	_	_	_	_	_	_	
+46-3	3326-3329	att	_	_	_	_	_	_	_	
+46-4	3330-3335	bidra	_	_	_	_	_	_	_	
+46-5	3336-3339	med	_	_	_	_	_	_	_	
+46-6	3340-3352	konstruktiva	_	Target	46-9	false	4	_	_	
+46-7	3353-3356	och	_	_	_	_	_	_	_	
+46-8	3357-3365	konkreta	_	_	_	_	_	_	_	
+46-9	3366-3373	förslag	*	_	_	_	_	_	_	
+46-10	3374-3377	för	_	_	_	_	_	_	_	
+46-11	3378-3381	att	_	_	_	_	_	_	_	
+46-12	3382-3386	lösa	_	_	_	_	_	_	_	
+46-13	3387-3389	de	_	_	_	_	_	_	_	
+46-14	3390-3400	utmaningar	_	_	_	_	_	_	_	
+46-15	3401-3408	Sverige	_	_	_	_	_	_	_	
+46-16	3409-3413	står	_	_	_	_	_	_	_	
+46-17	3414-3419	inför	_	_	_	_	_	_	_	
+46-18	3420-3423	och	_	_	_	_	_	_	_	
+46-19	3424-3426	vi	_	_	_	_	_	_	_	
+46-20	3427-3429	är	_	_	_	_	_	_	_	
+46-21	3430-3434	måna	_	_	_	_	_	_	_	
+46-22	3435-3437	om	_	_	_	_	_	_	_	
+46-23	3438-3441	att	_	_	_	_	_	_	_	
+46-24	3442-3447	lyfta	_	_	_	_	_	_	_	
+46-25	3448-3450	de	_	Target[9]	46-31[21]	false[9]	4[9]	_	_	
+46-26	3451-3459	positiva	_	Target[9]|Target[10]	46-31[21]|46-27	false[9]|false[10]	4[9]|4[10]	_	_	
+46-27	3460-3471	möjligheter	*	Target[9]	46-31[21]	false[9]	4[9]	_	_	
+46-28	3472-3475	som	_	Target[9]	46-31[21]	false[9]	4[9]	_	_	
+46-29	3476-3479	det	_	Target[9]	46-31[21]	false[9]	4[9]	_	_	
+46-30	3480-3486	medför	_	Target[9]	46-31[21]	false[9]	4[9]	_	_	
+46-31	3487-3490	att	*[21]	_	_	_	_	_	_	
+46-32	3491-3500	människor	*[21]	_	_	_	_	_	_	
+46-33	3501-3506	söker	*[21]	_	_	_	_	_	_	
+46-34	3507-3510	sig	*[21]	_	_	_	_	_	_	
+46-35	3511-3515	till	*[21]	_	_	_	_	_	_	
+46-36	3516-3520	vårt	*[21]	_	_	_	_	_	_	
+46-37	3521-3525	land	*[21]	_	_	_	_	_	_	
+46-38	3525-3526	.	_	_	_	_	_	_	_	
+
+#Text=Ytterst handlar det om att tillvarata alla individers unika förutsättningar och kunskaper.
+47-1	3527-3534	Ytterst	_	_	_	_	_	_	_	
+47-2	3535-3542	handlar	_	_	_	_	_	_	_	
+47-3	3543-3546	det	_	_	_	_	_	_	_	
+47-4	3547-3549	om	_	_	_	_	_	_	_	
+47-5	3550-3553	att	_	_	_	_	_	_	_	
+47-6	3554-3564	tillvarata	_	_	_	_	_	_	_	
+47-7	3565-3569	alla	_	_	_	_	_	_	_	
+47-8	3570-3580	individers	_	_	_	_	_	_	_	
+47-9	3581-3586	unika	_	_	_	_	_	_	_	
+47-10	3587-3602	förutsättningar	_	_	_	_	_	_	_	
+47-11	3603-3606	och	_	_	_	_	_	_	_	
+47-12	3607-3616	kunskaper	_	_	_	_	_	_	_	
+47-13	3616-3617	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3619-3620	#	_	_	_	_	_	_	_	
+48-2	3620-3621	P	_	_	_	_	_	_	_	
+48-3	3622-3625	IMM	_	_	_	_	_	_	_	
+48-4	3625-3626	.	_	_	_	_	_	_	_	
+
+#Text=Eva Nordmark.
+49-1	3628-3631	Eva	_	_	_	_	_	_	_	
+49-2	3632-3640	Nordmark	_	_	_	_	_	_	_	
+49-3	3640-3641	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3643-3644	#	_	_	_	_	_	_	_	
+50-2	3644-3645	P	_	_	_	_	_	_	_	
+50-3	3646-3649	IMM	_	_	_	_	_	_	_	
+50-4	3649-3650	.	_	_	_	_	_	_	_	
+
+#Text=Ordförande TCO.
+51-1	3652-3662	Ordförande	_	_	_	_	_	_	_	
+51-2	3663-3666	TCO	_	_	_	_	_	_	_	
+51-3	3666-3667	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3669-3670	#	_	_	_	_	_	_	_	
+52-2	3670-3671	P	_	_	_	_	_	_	_	
+52-3	3672-3675	IMM	_	_	_	_	_	_	_	
+52-4	3675-3676	.	_	_	_	_	_	_	_	
+
+#Text=Streck i debatten.
+53-1	3678-3684	Streck	_	_	_	_	_	_	_	
+53-2	3685-3686	i	_	_	_	_	_	_	_	
+53-3	3687-3695	debatten	_	_	_	_	_	_	_	
+53-4	3695-3696	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3698-3699	#	_	_	_	_	_	_	_	
+54-2	3699-3700	P	_	_	_	_	_	_	_	
+54-3	3701-3704	IMM	_	_	_	_	_	_	_	
+54-4	3704-3705	.	_	_	_	_	_	_	_	
+
+#Text=Det här kommentarsfältet har vi stängt.
+55-1	3707-3710	Det	_	_	_	_	_	_	_	
+55-2	3711-3714	här	_	_	_	_	_	_	_	
+55-3	3715-3731	kommentarsfältet	_	_	_	_	_	_	_	
+55-4	3732-3735	har	_	_	_	_	_	_	_	
+55-5	3736-3738	vi	_	_	_	_	_	_	_	
+55-6	3739-3745	stängt	_	_	_	_	_	_	_	
+55-7	3745-3746	.	_	_	_	_	_	_	_	
+
+#Text=Tyvärr kan man inte läsa tidigare gjorda inlägg, en teknisk brist vi är medvetna om.
+56-1	3747-3753	Tyvärr	_	_	_	_	_	_	_	
+56-2	3754-3757	kan	_	_	_	_	_	_	_	
+56-3	3758-3761	man	_	_	_	_	_	_	_	
+56-4	3762-3766	inte	_	_	_	_	_	_	_	
+56-5	3767-3771	läsa	_	_	_	_	_	_	_	
+56-6	3772-3780	tidigare	_	_	_	_	_	_	_	
+56-7	3781-3787	gjorda	_	_	_	_	_	_	_	
+56-8	3788-3794	inlägg	_	_	_	_	_	_	_	
+56-9	3794-3795	,	_	_	_	_	_	_	_	
+56-10	3796-3798	en	_	_	_	_	_	_	_	
+56-11	3799-3806	teknisk	_	_	_	_	_	_	_	
+56-12	3807-3812	brist	_	_	_	_	_	_	_	
+56-13	3813-3815	vi	_	_	_	_	_	_	_	
+56-14	3816-3818	är	_	_	_	_	_	_	_	
+56-15	3819-3827	medvetna	_	_	_	_	_	_	_	
+56-16	3828-3830	om	_	_	_	_	_	_	_	
+56-17	3830-3831	.	_	_	_	_	_	_	_	
+
+#Text=/Debattredaktionen.
+57-1	3832-3833	/	_	_	_	_	_	_	_	
+57-2	3833-3850	Debattredaktionen	_	_	_	_	_	_	_	
+57-3	3850-3851	.	_	_	_	_	_	_	_	

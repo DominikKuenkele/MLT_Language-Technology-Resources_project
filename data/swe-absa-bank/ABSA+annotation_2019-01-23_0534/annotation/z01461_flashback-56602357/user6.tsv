@@ -1,0 +1,97 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Nu är det faställt Polis får ej mörka om etnisk härkomst vid brott.
+3-1	18-20	Nu	_	_	_	_	_	
+3-2	21-23	är	_	_	_	_	_	
+3-3	24-27	det	_	_	_	_	_	
+3-4	28-36	faställt	_	_	_	_	_	
+3-5	37-42	Polis	_	_	_	_	_	
+3-6	43-46	får	_	_	_	_	_	
+3-7	47-49	ej	_	_	_	_	_	
+3-8	50-55	mörka	*	Target	3-8	false	2	
+3-9	56-58	om	_	_	_	_	_	
+3-10	59-65	etnisk	_	_	_	_	_	
+3-11	66-74	härkomst	_	_	_	_	_	
+3-12	75-78	vid	_	_	_	_	_	
+3-13	79-84	brott	_	_	_	_	_	
+3-14	84-85	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	87-88	#	_	_	_	_	_	
+4-2	88-89	P	_	_	_	_	_	
+4-3	90-93	IMM	_	_	_	_	_	
+4-4	93-94	.	_	_	_	_	_	
+
+#Text=Som sagt nu kan polisen inte mörka mera när man går ut med signalementet på efterlysta brottslingar.
+5-1	96-99	Som	_	_	_	_	_	
+5-2	100-104	sagt	_	_	_	_	_	
+5-3	105-107	nu	_	_	_	_	_	
+5-4	108-111	kan	_	_	_	_	_	
+5-5	112-119	polisen	_	_	_	_	_	
+5-6	120-124	inte	_	_	_	_	_	
+5-7	125-130	mörka	*	Target	5-7	false	2	
+5-8	131-135	mera	_	_	_	_	_	
+5-9	136-139	när	_	_	_	_	_	
+5-10	140-143	man	_	_	_	_	_	
+5-11	144-147	går	_	_	_	_	_	
+5-12	148-150	ut	_	_	_	_	_	
+5-13	151-154	med	_	_	_	_	_	
+5-14	155-168	signalementet	_	_	_	_	_	
+5-15	169-171	på	_	_	_	_	_	
+5-16	172-182	efterlysta	_	_	_	_	_	
+5-17	183-195	brottslingar	_	_	_	_	_	
+5-18	195-196	.	_	_	_	_	_	
+
+#Text=Vad anser ni om detta?
+6-1	197-200	Vad	_	_	_	_	_	
+6-2	201-206	anser	_	_	_	_	_	
+6-3	207-209	ni	_	_	_	_	_	
+6-4	210-212	om	_	_	_	_	_	
+6-5	213-218	detta	_	_	_	_	_	
+6-6	218-219	?	_	_	_	_	_	
+
+#Text=enligt vissa så kommer det att främja främlingsfientligheten men jag tror inte det.
+7-1	220-226	enligt	*[1]	_	_	_	_	
+7-2	227-232	vissa	*[1]	_	_	_	_	
+7-3	233-235	så	_	_	_	_	_	
+7-4	236-242	kommer	_	_	_	_	_	
+7-5	243-246	det	_	_	_	_	_	
+7-6	247-250	att	_	_	_	_	_	
+7-7	251-257	främja	_	Source;Target	7-1[1];7-8[2]	false	4	
+7-8	258-280	främlingsfientligheten	*[2]|*[3]	Target	7-8[3]	false	2	
+7-9	281-284	men	_	_	_	_	_	
+7-10	285-288	jag	_	_	_	_	_	
+7-11	289-293	tror	_	_	_	_	_	
+7-12	294-298	inte	_	_	_	_	_	
+7-13	299-302	det	_	_	_	_	_	
+7-14	302-303	.	_	_	_	_	_	
+
+#Text=Tror ni att rasismen kommer att öka på grund av detta?.
+8-1	304-308	Tror	_	_	_	_	_	
+8-2	309-311	ni	_	_	_	_	_	
+8-3	312-315	att	_	_	_	_	_	
+8-4	316-324	rasismen	_	_	_	_	_	
+8-5	325-331	kommer	_	_	_	_	_	
+8-6	332-335	att	_	_	_	_	_	
+8-7	336-339	öka	_	_	_	_	_	
+8-8	340-342	på	_	_	_	_	_	
+8-9	343-348	grund	_	_	_	_	_	
+8-10	349-351	av	_	_	_	_	_	
+8-11	352-357	detta	_	_	_	_	_	
+8-12	357-358	?	_	_	_	_	_	
+8-13	358-359	.	_	_	_	_	_	

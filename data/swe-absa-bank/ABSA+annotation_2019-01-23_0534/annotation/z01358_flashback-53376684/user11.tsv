@@ -1,0 +1,153 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Blir invandrare arga och nedstämda över att läsa/höra att de bl a är en belastning?
+3-1	18-22	Blir	_	_	_	_	_	
+3-2	23-33	invandrare	*	_	_	_	_	
+3-3	34-38	arga	_	Target;Source[3]	3-8[12];3-2	false[3]	2[3]	
+3-4	39-42	och	_	Target;Source[3]	3-8[12];3-2	false[3]	2[3]	
+3-5	43-52	nedstämda	_	Target;Source[3]	3-8[12];3-2	false[3]	2[3]	
+3-6	53-57	över	_	_	_	_	_	
+3-7	58-61	att	_	_	_	_	_	
+3-8	62-66	läsa	*[12]	_	_	_	_	
+3-9	66-67	/	*[12]	_	_	_	_	
+3-10	67-71	höra	*[12]	_	_	_	_	
+3-11	72-75	att	*[12]	_	_	_	_	
+3-12	76-78	de	*[12]	_	_	_	_	
+3-13	79-81	bl	*[12]	_	_	_	_	
+3-14	82-83	a	*[12]	_	_	_	_	
+3-15	84-86	är	*[12]	Source;Target[4]	3-18;3-2	false[4]	2[4]	
+3-16	87-89	en	*[12]	Source;Target[4]	3-18;3-2	false[4]	2[4]	
+3-17	90-100	belastning	*[12]	Source;Target[4]	3-18;3-2	false[4]	2[4]	
+3-18	100-101	?	*	_	_	_	_	
+
+#Text=#P IMM.
+4-1	103-104	#	_	_	_	_	_	
+4-2	104-105	P	_	_[5]	_	false[5]	3[5]	
+4-3	106-109	IMM	_	_[5]	_	false[5]	3[5]	
+4-4	109-110	.	_	_	_	_	_	
+
+#Text=Folk blir ju även mer medgörliga om man behandlar dem med respekt, så hur reagerar invandrare på den bristande respekt eller fakta (eller vad ni vill kalla "det") som de ibland snappar upp direkt (glåpord?)
+5-1	112-116	Folk	*	_	_	_	_	
+5-2	117-121	blir	_	_	_	_	_	
+5-3	122-124	ju	_	_	_	_	_	
+5-4	125-129	även	_	_	_	_	_	
+5-5	130-133	mer	_	Target[6]	5-1	false[6]	4[6]	
+5-6	134-144	medgörliga	_	Target[6]	5-1	false[6]	4[6]	
+5-7	145-147	om	_	_	_	_	_	
+5-8	148-151	man	_	_	_	_	_	
+5-9	152-161	behandlar	_	Target[7]	5-1	false[7]	4[7]	
+5-10	162-165	dem	_	Target[7]	5-1	false[7]	4[7]	
+5-11	166-169	med	_	Target[7]	5-1	false[7]	4[7]	
+5-12	170-177	respekt	_	Target[7]	5-1	false[7]	4[7]	
+5-13	177-178	,	_	_	_	_	_	
+5-14	179-181	så	_	_	_	_	_	
+5-15	182-185	hur	_	_	_	_	_	
+5-16	186-194	reagerar	_	_	_	_	_	
+5-17	195-205	invandrare	*	_	_	_	_	
+5-18	206-208	på	_	_	_	_	_	
+5-19	209-212	den	_	_	_	_	_	
+5-20	213-222	bristande	_	Source;Target[8]	5-43;5-17	false[8]	2[8]	
+5-21	223-230	respekt	_	Source;Target[8]	5-43;5-17	false[8]	2[8]	
+5-22	231-236	eller	_	_	_	_	_	
+5-23	237-242	fakta	_	_	_	_	_	
+5-24	243-244	(	_	_	_	_	_	
+5-25	244-249	eller	_	_	_	_	_	
+5-26	250-253	vad	_	_	_	_	_	
+5-27	254-256	ni	_	_	_	_	_	
+5-28	257-261	vill	_	_	_	_	_	
+5-29	262-267	kalla	_	_	_	_	_	
+5-30	268-269	"	_	_	_	_	_	
+5-31	269-272	det	_	_	_	_	_	
+5-32	272-273	"	_	_	_	_	_	
+5-33	273-274	)	_	_	_	_	_	
+5-34	275-278	som	_	_	_	_	_	
+5-35	279-281	de	_	_	_	_	_	
+5-36	282-288	ibland	_	_	_	_	_	
+5-37	289-296	snappar	_	_	_	_	_	
+5-38	297-300	upp	_	_	_	_	_	
+5-39	301-307	direkt	_	_	_	_	_	
+5-40	308-309	(	_	_	_	_	_	
+5-41	309-316	glåpord	_	_	_	_	_	
+5-42	316-317	?	_	_	_	_	_	
+5-43	317-318	)	*	_	_	_	_	
+
+#Text=eller indirekt (att läsa på Flashback eller höra vänners oro och tankar om migration/invandring/assimilering i dagens Sverige och/eller världen i stort)?.
+6-1	319-324	eller	_	_	_	_	_	
+6-2	325-333	indirekt	_	_	_	_	_	
+6-3	334-335	(	_	_	_	_	_	
+6-4	335-338	att	_	_	_	_	_	
+6-5	339-343	läsa	_	_	_	_	_	
+6-6	344-346	på	_	_	_	_	_	
+6-7	347-356	Flashback	_	_	_	_	_	
+6-8	357-362	eller	_	_	_	_	_	
+6-9	363-367	höra	_	_	_	_	_	
+6-10	368-375	vänners	*	_	_	_	_	
+6-11	376-379	oro	_	Target;Source	6-15[13];6-10	false	2	
+6-12	380-383	och	_	_	_	_	_	
+6-13	384-390	tankar	_	_	_	_	_	
+6-14	391-393	om	_	_	_	_	_	
+6-15	394-403	migration	*[13]	_	_	_	_	
+6-16	403-404	/	*[13]	_	_	_	_	
+6-17	404-414	invandring	*[13]	_	_	_	_	
+6-18	414-415	/	*[13]	_	_	_	_	
+6-19	415-427	assimilering	*[13]	_	_	_	_	
+6-20	428-429	i	*[13]	_	_	_	_	
+6-21	430-436	dagens	*[13]	_	_	_	_	
+6-22	437-444	Sverige	*[13]	_	_	_	_	
+6-23	445-448	och	_	_	_	_	_	
+6-24	448-449	/	_	_	_	_	_	
+6-25	449-454	eller	_	_	_	_	_	
+6-26	455-462	världen	_	_	_	_	_	
+6-27	463-464	i	_	_	_	_	_	
+6-28	465-470	stort	_	_	_	_	_	
+6-29	470-471	)	_	_	_	_	_	
+6-30	471-472	?	_	_	_	_	_	
+6-31	472-473	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	475-476	#	_	_	_	_	_	
+7-2	476-477	P	_	_[9]	_	false[9]	3[9]	
+7-3	478-481	IMM	_	_[9]	_	false[9]	3[9]	
+7-4	481-482	.	_	_	_	_	_	
+
+#Text=Vi mår ju alla bäst av vänskap och förståelse och respekt, även fast det är uppenbart nästintill omöjligt i vissa fall/hänseenden.
+8-1	484-486	Vi	*	_	_	_	_	
+8-2	487-490	mår	_	Target;Source[10]	8-7[14];8-1	false[10]	5[10]	
+8-3	491-493	ju	_	Target;Source[10]	8-7[14];8-1	false[10]	5[10]	
+8-4	494-498	alla	_	Target;Source[10]	8-7[14];8-1	false[10]	5[10]	
+8-5	499-503	bäst	_	Target;Source[10]	8-7[14];8-1	false[10]	5[10]	
+8-6	504-506	av	_	_	_	_	_	
+8-7	507-514	vänskap	*[14]	_	_	_	_	
+8-8	515-518	och	*[14]	_	_	_	_	
+8-9	519-529	förståelse	*[14]	_	_	_	_	
+8-10	530-533	och	*[14]	_	_	_	_	
+8-11	534-541	respekt	*[14]	_	_	_	_	
+8-12	541-542	,	_	_	_	_	_	
+8-13	543-547	även	_	_	_	_	_	
+8-14	548-552	fast	_	_	_	_	_	
+8-15	553-556	det	_	_	_	_	_	
+8-16	557-559	är	_	_	_	_	_	
+8-17	560-569	uppenbart	_	Target[11]	8-7[14]	false[11]	2[11]	
+8-18	570-580	nästintill	_	Target[11]	8-7[14]	false[11]	2[11]	
+8-19	581-589	omöjligt	_	Target[11]	8-7[14]	false[11]	2[11]	
+8-20	590-591	i	_	_	_	_	_	
+8-21	592-597	vissa	_	_	_	_	_	
+8-22	598-602	fall	_	_	_	_	_	
+8-23	602-603	/	_	_	_	_	_	
+8-24	603-613	hänseenden	_	_	_	_	_	
+8-25	613-614	.	_	_	_	_	_	

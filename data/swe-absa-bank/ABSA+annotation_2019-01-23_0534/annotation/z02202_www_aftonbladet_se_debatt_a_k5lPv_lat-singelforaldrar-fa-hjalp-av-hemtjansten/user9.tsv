@@ -1,0 +1,728 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Låt singelföräldrar få hjälp av hemtjänsten.
+3-1	18-21	Låt	_	_	_	_	_	_	
+3-2	22-37	singelföräldrar	_	_	_	_	_	_	
+3-3	38-40	få	_	_	_	_	_	_	
+3-4	41-46	hjälp	_	_	_	_	_	_	
+3-5	47-49	av	_	_	_	_	_	_	
+3-6	50-61	hemtjänsten	_	_	_	_	_	_	
+3-7	61-62	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	
+
+#Text=Ensamstående föräldrar drabbas hårt av klasskillnaderna i samhället.
+5-1	73-85	Ensamstående	_	_	_	_	_	_	
+5-2	86-95	föräldrar	_	_	_	_	_	_	
+5-3	96-103	drabbas	_	Target[1]	5-6[10]	false[1]	2[1]	_	
+5-4	104-108	hårt	_	Target[1]	5-6[10]	false[1]	2[1]	_	
+5-5	109-111	av	_	Target[1]	5-6[10]	false[1]	2[1]	_	
+5-6	112-128	klasskillnaderna	*[10]	_	_	_	_	_	
+5-7	129-130	i	*[10]	_	_	_	_	_	
+5-8	131-140	samhället	*[10]	_	_	_	_	_	
+5-9	140-141	.	_	_	_	_	_	_	
+
+#Text=Singelföräldrarnas ekonomiska utsatthet och vardagsstress måste motverkas.
+6-1	142-160	Singelföräldrarnas	*[11]	_	_	_	_	_	
+6-2	161-171	ekonomiska	*[11]	_	_	_	_	_	
+6-3	172-181	utsatthet	*[11]	_	_	_	_	_	
+6-4	182-185	och	*[11]	_	_	_	_	_	
+6-5	186-199	vardagsstress	*[11]	_	_	_	_	_	
+6-6	200-205	måste	_	Target[2]	6-1[11]	false[2]	2[2]	_	
+6-7	206-215	motverkas	_	Target[2]	6-1[11]	false[2]	2[2]	_	
+6-8	215-216	.	_	_	_	_	_	_	
+
+#Text=Det kräver en modern familjepolitik som är inkluderande och tar hänsyn till fler konstellationer än kärnfamiljen.
+7-1	217-220	Det	_	_	_	_	_	_	
+7-2	221-227	kräver	_	_	_	_	_	_	
+7-3	228-230	en	_	_	_	_	_	_	
+7-4	231-237	modern	_	_	_	_	_	_	
+7-5	238-252	familjepolitik	_	_	_	_	_	_	
+7-6	253-256	som	_	_	_	_	_	_	
+7-7	257-259	är	_	_	_	_	_	_	
+7-8	260-272	inkluderande	_	_	_	_	_	_	
+7-9	273-276	och	_	_	_	_	_	_	
+7-10	277-280	tar	_	_	_	_	_	_	
+7-11	281-287	hänsyn	_	_	_	_	_	_	
+7-12	288-292	till	_	_	_	_	_	_	
+7-13	293-297	fler	_	_	_	_	_	_	
+7-14	298-313	konstellationer	_	_	_	_	_	_	
+7-15	314-316	än	_	_	_	_	_	_	
+7-16	317-329	kärnfamiljen	_	_	_	_	_	_	
+7-17	329-330	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	332-333	#	_	_	_	_	_	_	
+8-2	333-334	P	_	_	_	_	_	_	
+8-3	335-338	IMM	_	_	_	_	_	_	
+8-4	338-339	.	_	_	_	_	_	_	
+
+#Text=Vi föreslår därför en särskild hemtjänstinsats för ensamstående föräldrar.
+9-1	341-343	Vi	_	_	_	_	_	_	
+9-2	344-352	föreslår	_	_	_	_	_	_	
+9-3	353-359	därför	_	_	_	_	_	_	
+9-4	360-362	en	_	_	_	_	_	_	
+9-5	363-371	särskild	_	_	_	_	_	_	
+9-6	372-387	hemtjänstinsats	_	_	_	_	_	_	
+9-7	388-391	för	_	_	_	_	_	_	
+9-8	392-404	ensamstående	_	_	_	_	_	_	
+9-9	405-414	föräldrar	_	_	_	_	_	_	
+9-10	414-415	.	_	_	_	_	_	_	
+
+#Text=En sådan reform skulle sannolikt öka jämlikheten, främja jämställdheten och minska barnfattigdomen.
+10-1	416-418	En	_	_	_	_	_	_	
+10-2	419-424	sådan	_	_	_	_	_	_	
+10-3	425-431	reform	_	_	_	_	_	_	
+10-4	432-438	skulle	_	_	_	_	_	_	
+10-5	439-448	sannolikt	_	_	_	_	_	_	
+10-6	449-452	öka	_	_	_	_	_	_	
+10-7	453-464	jämlikheten	_	_	_	_	_	_	
+10-8	464-465	,	_	_	_	_	_	_	
+10-9	466-472	främja	_	_	_	_	_	_	
+10-10	473-487	jämställdheten	_	_	_	_	_	_	
+10-11	488-491	och	_	_	_	_	_	_	
+10-12	492-498	minska	_	_	_	_	_	_	
+10-13	499-514	barnfattigdomen	_	_	_	_	_	_	
+10-14	514-515	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	517-518	#	_	_	_	_	_	_	
+11-2	518-519	P	_	_	_	_	_	_	
+11-3	520-523	IMM	_	_	_	_	_	_	
+11-4	523-524	.	_	_	_	_	_	_	
+
+#Text=Klyftorna ökar i Sverige.
+12-1	526-535	Klyftorna	_	_	_	_	_	_	
+12-2	536-540	ökar	_	_	_	_	_	_	
+12-3	541-542	i	_	_	_	_	_	_	
+12-4	543-550	Sverige	_	_	_	_	_	_	
+12-5	550-551	.	_	_	_	_	_	_	
+
+#Text=Enligt OECD:s Sverigebevakare, Jon Kristian Pareliussen, är ensamstående föräldrar en av de grupper som halkar efter i utvecklingen.
+13-1	552-558	Enligt	_	_	_	_	_	_	
+13-2	559-563	OECD	_	_	_	_	_	_	
+13-3	563-564	:	_	_	_	_	_	_	
+13-4	564-565	s	_	_	_	_	_	_	
+13-5	566-581	Sverigebevakare	_	_	_	_	_	_	
+13-6	581-582	,	_	_	_	_	_	_	
+13-7	583-586	Jon	_	_	_	_	_	_	
+13-8	587-595	Kristian	_	_	_	_	_	_	
+13-9	596-607	Pareliussen	_	_	_	_	_	_	
+13-10	607-608	,	_	_	_	_	_	_	
+13-11	609-611	är	_	_	_	_	_	_	
+13-12	612-624	ensamstående	_	_	_	_	_	_	
+13-13	625-634	föräldrar	_	_	_	_	_	_	
+13-14	635-637	en	_	_	_	_	_	_	
+13-15	638-640	av	_	_	_	_	_	_	
+13-16	641-643	de	_	_	_	_	_	_	
+13-17	644-651	grupper	_	_	_	_	_	_	
+13-18	652-655	som	_	_	_	_	_	_	
+13-19	656-662	halkar	_	_	_	_	_	_	
+13-20	663-668	efter	_	_	_	_	_	_	
+13-21	669-670	i	_	_	_	_	_	_	
+13-22	671-683	utvecklingen	_	_	_	_	_	_	
+13-23	683-684	.	_	_	_	_	_	_	
+
+#Text=Pareliussen är inte ensam om den uppfattningen – Försäkringskassan bedömer att 38 procent av de ensamstående föräldrarna i Sverige har en låg ekonomisk standard.
+14-1	685-696	Pareliussen	_	_	_	_	_	_	
+14-2	697-699	är	_	_	_	_	_	_	
+14-3	700-704	inte	_	_	_	_	_	_	
+14-4	705-710	ensam	_	_	_	_	_	_	
+14-5	711-713	om	_	_	_	_	_	_	
+14-6	714-717	den	_	_	_	_	_	_	
+14-7	718-731	uppfattningen	_	_	_	_	_	_	
+14-8	732-733	–	_	_	_	_	_	_	
+14-9	734-751	Försäkringskassan	*[12]	_	_	_	_	16-1[0_12]	
+14-10	752-759	bedömer	*[12]	_	_	_	_	_	
+14-11	760-763	att	*[12]	_	_	_	_	_	
+14-12	764-766	38	*[12]	_	_	_	_	_	
+14-13	767-774	procent	*[12]	_	_	_	_	_	
+14-14	775-777	av	*[12]	_	_	_	_	_	
+14-15	778-780	de	*[12]	_	_	_	_	_	
+14-16	781-793	ensamstående	*[12]	_	_	_	_	_	
+14-17	794-805	föräldrarna	*[12]	_	_	_	_	_	
+14-18	806-807	i	*[12]	_	_	_	_	_	
+14-19	808-815	Sverige	*[12]	_	_	_	_	_	
+14-20	816-819	har	*[12]	_	_	_	_	_	
+14-21	820-822	en	*[12]	_	_	_	_	_	
+14-22	823-826	låg	*[12]	_	_	_	_	_	
+14-23	827-836	ekonomisk	*[12]	_	_	_	_	_	
+14-24	837-845	standard	*[12]	_	_	_	_	_	
+14-25	845-846	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	848-849	#	_	_	_	_	_	_	
+15-2	849-850	P	_	_	_	_	_	_	
+15-3	851-854	IMM	_	_	_	_	_	_	
+15-4	854-855	.	_	_	_	_	_	_	
+
+#Text=Detta är bekymrande med tanke på att familjeformen är så pass vanlig.
+16-1	857-862	Detta	*	_	_	_	_	_	
+16-2	863-865	är	_	Target[3]	16-1	false[3]	2[3]	_	
+16-3	866-876	bekymrande	_	Target[3]	16-1	false[3]	2[3]	_	
+16-4	877-880	med	_	_	_	_	_	_	
+16-5	881-886	tanke	_	_	_	_	_	_	
+16-6	887-889	på	_	_	_	_	_	_	
+16-7	890-893	att	_	_	_	_	_	_	
+16-8	894-907	familjeformen	_	_	_	_	_	_	
+16-9	908-910	är	_	_	_	_	_	_	
+16-10	911-913	så	_	_	_	_	_	_	
+16-11	914-918	pass	_	_	_	_	_	_	
+16-12	919-925	vanlig	_	_	_	_	_	_	
+16-13	925-926	.	_	_	_	_	_	_	
+
+#Text=Det finns omkring 700 000 ensamstående föräldrar i Sverige, och den siffran väntas stiga.
+17-1	927-930	Det	_	_	_	_	_	_	
+17-2	931-936	finns	_	_	_	_	_	_	
+17-3	937-944	omkring	_	_	_	_	_	_	
+17-4	945-948	700	_	_	_	_	_	_	
+17-5	949-952	000	_	_	_	_	_	_	
+17-6	953-965	ensamstående	_	_	_	_	_	_	
+17-7	966-975	föräldrar	_	_	_	_	_	_	
+17-8	976-977	i	_	_	_	_	_	_	
+17-9	978-985	Sverige	_	_	_	_	_	_	
+17-10	985-986	,	_	_	_	_	_	_	
+17-11	987-990	och	_	_	_	_	_	_	
+17-12	991-994	den	_	_	_	_	_	_	
+17-13	995-1002	siffran	_	_	_	_	_	_	
+17-14	1003-1009	väntas	_	_	_	_	_	_	
+17-15	1010-1015	stiga	_	_	_	_	_	_	
+17-16	1015-1016	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1018-1019	#	_	_	_	_	_	_	
+18-2	1019-1020	P	_	_	_	_	_	_	
+18-3	1021-1024	IMM	_	_	_	_	_	_	
+18-4	1024-1025	.	_	_	_	_	_	_	
+
+#Text=Ytterligare en aspekt är att fattigdomen slår oproportionerligt hårt mot kvinnor, som är klart överrepresenterade i kategorin ensamstående föräldrar.
+19-1	1027-1038	Ytterligare	_	_	_	_	_	_	
+19-2	1039-1041	en	_	_	_	_	_	_	
+19-3	1042-1048	aspekt	_	_	_	_	_	_	
+19-4	1049-1051	är	_	_	_	_	_	_	
+19-5	1052-1055	att	_	_	_	_	_	_	
+19-6	1056-1067	fattigdomen	_	_	_	_	_	_	
+19-7	1068-1072	slår	_	_	_	_	_	_	
+19-8	1073-1090	oproportionerligt	_	_	_	_	_	_	
+19-9	1091-1095	hårt	_	_	_	_	_	_	
+19-10	1096-1099	mot	_	_	_	_	_	_	
+19-11	1100-1107	kvinnor	_	_	_	_	_	_	
+19-12	1107-1108	,	_	_	_	_	_	_	
+19-13	1109-1112	som	_	_	_	_	_	_	
+19-14	1113-1115	är	_	_	_	_	_	_	
+19-15	1116-1121	klart	_	_	_	_	_	_	
+19-16	1122-1140	överrepresenterade	_	_	_	_	_	_	
+19-17	1141-1142	i	_	_	_	_	_	_	
+19-18	1143-1152	kategorin	_	_	_	_	_	_	
+19-19	1153-1165	ensamstående	_	_	_	_	_	_	
+19-20	1166-1175	föräldrar	_	_	_	_	_	_	
+19-21	1175-1176	.	_	_	_	_	_	_	
+
+#Text=Antalet singelmammor uppgår till ungefär 510 000.
+20-1	1177-1184	Antalet	_	_	_	_	_	_	
+20-2	1185-1197	singelmammor	_	_	_	_	_	_	
+20-3	1198-1204	uppgår	_	_	_	_	_	_	
+20-4	1205-1209	till	_	_	_	_	_	_	
+20-5	1210-1217	ungefär	_	_	_	_	_	_	
+20-6	1218-1221	510	_	_	_	_	_	_	
+20-7	1222-1225	000	_	_	_	_	_	_	
+20-8	1225-1226	.	_	_	_	_	_	_	
+
+#Text=Trygghet för ensamstående föräldrar är därför både en jämställdhetsfråga och en jämlikhetsfråga.
+21-1	1227-1235	Trygghet	_	_	_	_	_	_	
+21-2	1236-1239	för	_	_	_	_	_	_	
+21-3	1240-1252	ensamstående	_	_	_	_	_	_	
+21-4	1253-1262	föräldrar	_	_	_	_	_	_	
+21-5	1263-1265	är	_	_	_	_	_	_	
+21-6	1266-1272	därför	_	_	_	_	_	_	
+21-7	1273-1277	både	_	_	_	_	_	_	
+21-8	1278-1280	en	_	_	_	_	_	_	
+21-9	1281-1299	jämställdhetsfråga	_	_	_	_	_	_	
+21-10	1300-1303	och	_	_	_	_	_	_	
+21-11	1304-1306	en	_	_	_	_	_	_	
+21-12	1307-1322	jämlikhetsfråga	_	_	_	_	_	_	
+21-13	1322-1323	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1325-1326	#	_	_	_	_	_	_	
+22-2	1326-1327	P	_	_	_	_	_	_	
+22-3	1328-1331	IMM	_	_	_	_	_	_	
+22-4	1331-1332	.	_	_	_	_	_	_	
+
+#Text=Utöver brist på pengar har ensamstående föräldrar brist på tid.
+23-1	1334-1340	Utöver	_	_	_	_	_	_	
+23-2	1341-1346	brist	_	_	_	_	_	_	
+23-3	1347-1349	på	_	_	_	_	_	_	
+23-4	1350-1356	pengar	_	_	_	_	_	_	
+23-5	1357-1360	har	_	_	_	_	_	_	
+23-6	1361-1373	ensamstående	_	_	_	_	_	_	
+23-7	1374-1383	föräldrar	_	_	_	_	_	_	
+23-8	1384-1389	brist	_	_	_	_	_	_	
+23-9	1390-1392	på	_	_	_	_	_	_	
+23-10	1393-1396	tid	_	_	_	_	_	_	
+23-11	1396-1397	.	_	_	_	_	_	_	
+
+#Text=I SCB:s tidsanvändningsundersökning från 2010 konstateras att ensamstående mödrar till småbarn i genomsnitt lägger ner 280 minuter per dag på hushållsarbete och barnomsorg.
+24-1	1398-1399	I	_	_	_	_	_	_	
+24-2	1400-1403	SCB	_	_	_	_	_	_	
+24-3	1403-1404	:	_	_	_	_	_	_	
+24-4	1404-1405	s	_	_	_	_	_	_	
+24-5	1406-1433	tidsanvändningsundersökning	_	_	_	_	_	_	
+24-6	1434-1438	från	_	_	_	_	_	_	
+24-7	1439-1443	2010	_	_	_	_	_	_	
+24-8	1444-1455	konstateras	_	_	_	_	_	_	
+24-9	1456-1459	att	_	_	_	_	_	_	
+24-10	1460-1472	ensamstående	_	_	_	_	_	_	
+24-11	1473-1479	mödrar	_	_	_	_	_	_	
+24-12	1480-1484	till	_	_	_	_	_	_	
+24-13	1485-1492	småbarn	_	_	_	_	_	_	
+24-14	1493-1494	i	_	_	_	_	_	_	
+24-15	1495-1505	genomsnitt	_	_	_	_	_	_	
+24-16	1506-1512	lägger	_	_	_	_	_	_	
+24-17	1513-1516	ner	_	_	_	_	_	_	
+24-18	1517-1520	280	_	_	_	_	_	_	
+24-19	1521-1528	minuter	_	_	_	_	_	_	
+24-20	1529-1532	per	_	_	_	_	_	_	
+24-21	1533-1536	dag	_	_	_	_	_	_	
+24-22	1537-1539	på	_	_	_	_	_	_	
+24-23	1540-1554	hushållsarbete	_	_	_	_	_	_	
+24-24	1555-1558	och	_	_	_	_	_	_	
+24-25	1559-1569	barnomsorg	_	_	_	_	_	_	
+24-26	1569-1570	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1572-1573	#	_	_	_	_	_	_	
+25-2	1573-1574	P	_	_	_	_	_	_	
+25-3	1575-1578	IMM	_	_	_	_	_	_	
+25-4	1578-1579	.	_	_	_	_	_	_	
+
+#Text=Motsvarande siffra för pappor i sammanboende förhållande är 162 minuter, vilket ger en skillnad på nära 2 timmar.
+26-1	1581-1592	Motsvarande	_	_	_	_	_	_	
+26-2	1593-1599	siffra	_	_	_	_	_	_	
+26-3	1600-1603	för	_	_	_	_	_	_	
+26-4	1604-1610	pappor	_	_	_	_	_	_	
+26-5	1611-1612	i	_	_	_	_	_	_	
+26-6	1613-1625	sammanboende	_	_	_	_	_	_	
+26-7	1626-1637	förhållande	_	_	_	_	_	_	
+26-8	1638-1640	är	_	_	_	_	_	_	
+26-9	1641-1644	162	_	_	_	_	_	_	
+26-10	1645-1652	minuter	_	_	_	_	_	_	
+26-11	1652-1653	,	_	_	_	_	_	_	
+26-12	1654-1660	vilket	_	_	_	_	_	_	
+26-13	1661-1664	ger	_	_	_	_	_	_	
+26-14	1665-1667	en	_	_	_	_	_	_	
+26-15	1668-1676	skillnad	_	_	_	_	_	_	
+26-16	1677-1679	på	_	_	_	_	_	_	
+26-17	1680-1684	nära	_	_	_	_	_	_	
+26-18	1685-1686	2	_	_	_	_	_	_	
+26-19	1687-1693	timmar	_	_	_	_	_	_	
+26-20	1693-1694	.	_	_	_	_	_	_	
+
+#Text=Att inte ha tillräckligt med tid sätter press på ensamstående föräldrar och deras psykiska välmående.
+27-1	1695-1698	Att	*[13]	_	_	_	_	29-3[0_13]	
+27-2	1699-1703	inte	*[13]	_	_	_	_	_	
+27-3	1704-1706	ha	*[13]	_	_	_	_	_	
+27-4	1707-1719	tillräckligt	*[13]	_	_	_	_	_	
+27-5	1720-1723	med	*[13]	_	_	_	_	_	
+27-6	1724-1727	tid	*[13]	_	_	_	_	_	
+27-7	1728-1734	sätter	*[13]	_	_	_	_	_	
+27-8	1735-1740	press	*[13]	_	_	_	_	_	
+27-9	1741-1743	på	*[13]	_	_	_	_	_	
+27-10	1744-1756	ensamstående	*[13]	_	_	_	_	_	
+27-11	1757-1766	föräldrar	*[13]	_	_	_	_	_	
+27-12	1767-1770	och	*[13]	_	_	_	_	_	
+27-13	1771-1776	deras	*[13]	_	_	_	_	_	
+27-14	1777-1785	psykiska	*[13]	_	_	_	_	_	
+27-15	1786-1795	välmående	*[13]	_	_	_	_	_	
+27-16	1795-1796	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1798-1799	#	_	_	_	_	_	_	
+28-2	1799-1800	P	_	_	_	_	_	_	
+28-3	1801-1804	IMM	_	_	_	_	_	_	
+28-4	1804-1805	.	_	_	_	_	_	_	
+
+#Text=Trots att problemet tilltar så saknas konkreta förslag för att förbättra situationen.
+29-1	1807-1812	Trots	_	_	_	_	_	_	
+29-2	1813-1816	att	_	_	_	_	_	_	
+29-3	1817-1826	problemet	*	Target	29-3	false	2	_	
+29-4	1827-1834	tilltar	_	_	_	_	_	_	
+29-5	1835-1837	så	_	_	_	_	_	_	
+29-6	1838-1844	saknas	_	_	_	_	_	_	
+29-7	1845-1853	konkreta	_	_	_	_	_	_	
+29-8	1854-1861	förslag	_	_	_	_	_	_	
+29-9	1862-1865	för	_	_	_	_	_	_	
+29-10	1866-1869	att	_	_	_	_	_	_	
+29-11	1870-1879	förbättra	_	_	_	_	_	_	
+29-12	1880-1891	situationen	_	_	_	_	_	_	
+29-13	1891-1892	.	_	_	_	_	_	_	
+
+#Text=Ekonomisk hjälp är en viktig del och ersättningsnivåerna bör på många områden skrivas upp.
+30-1	1893-1902	Ekonomisk	*[14]	_	_	_	_	_	
+30-2	1903-1908	hjälp	*[14]	_	_	_	_	_	
+30-3	1909-1911	är	_	Target[4]	30-1[14]	false[4]	4[4]	_	
+30-4	1912-1914	en	_	Target[4]	30-1[14]	false[4]	4[4]	_	
+30-5	1915-1921	viktig	_	Target[4]|Target[5]	30-1[14]|30-6	false[4]|false[5]	4[4]|4[5]	_	
+30-6	1922-1925	del	*	Target[4]	30-1[14]	false[4]	4[4]	_	
+30-7	1926-1929	och	_	_	_	_	_	_	
+30-8	1930-1949	ersättningsnivåerna	_	_	_	_	_	_	
+30-9	1950-1953	bör	_	_	_	_	_	_	
+30-10	1954-1956	på	_	_	_	_	_	_	
+30-11	1957-1962	många	_	_	_	_	_	_	
+30-12	1963-1970	områden	_	_	_	_	_	_	
+30-13	1971-1978	skrivas	_	_	_	_	_	_	
+30-14	1979-1982	upp	_	_	_	_	_	_	
+30-15	1982-1983	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1985-1986	#	_	_	_	_	_	_	
+31-2	1986-1987	P	_	_	_	_	_	_	
+31-3	1988-1991	IMM	_	_	_	_	_	_	
+31-4	1991-1992	.	_	_	_	_	_	_	
+
+#Text=Därutöver behövs specifika åtgärder som löser de särskilda problem som många singelföräldrar upplever.
+32-1	1994-2003	Därutöver	_	_	_	_	_	_	
+32-2	2004-2010	behövs	_	_	_	_	_	_	
+32-3	2011-2020	specifika	_	_	_	_	_	_	
+32-4	2021-2029	åtgärder	_	_	_	_	_	_	
+32-5	2030-2033	som	_	_	_	_	_	_	
+32-6	2034-2039	löser	_	_	_	_	_	_	
+32-7	2040-2042	de	*[15]	_	_	_	_	_	
+32-8	2043-2052	särskilda	*[15]	_	_	_	_	_	
+32-9	2053-2060	problem	*[15]	Target	32-7[15]	false	2	_	
+32-10	2061-2064	som	*[15]	_	_	_	_	_	
+32-11	2065-2070	många	*[15]	_	_	_	_	_	
+32-12	2071-2086	singelföräldrar	*[15]	_	_	_	_	_	
+32-13	2087-2095	upplever	*[15]	_	_	_	_	_	
+32-14	2095-2096	.	_	_	_	_	_	_	
+
+#Text=Vårt förslag är att bygga vidare på en insats som redan finns ute i landets kommuner, nämligen: Hemtjänst för ensamstående föräldrar.
+33-1	2097-2101	Vårt	_	_	_	_	_	_	
+33-2	2102-2109	förslag	_	_	_	_	_	_	
+33-3	2110-2112	är	_	_	_	_	_	_	
+33-4	2113-2116	att	_	_	_	_	_	_	
+33-5	2117-2122	bygga	_	_	_	_	_	_	
+33-6	2123-2129	vidare	_	_	_	_	_	_	
+33-7	2130-2132	på	_	_	_	_	_	_	
+33-8	2133-2135	en	_	_	_	_	_	_	
+33-9	2136-2142	insats	_	_	_	_	_	_	
+33-10	2143-2146	som	_	_	_	_	_	_	
+33-11	2147-2152	redan	_	_	_	_	_	_	
+33-12	2153-2158	finns	_	_	_	_	_	_	
+33-13	2159-2162	ute	_	_	_	_	_	_	
+33-14	2163-2164	i	_	_	_	_	_	_	
+33-15	2165-2172	landets	_	_	_	_	_	_	
+33-16	2173-2181	kommuner	_	_	_	_	_	_	
+33-17	2181-2182	,	_	_	_	_	_	_	
+33-18	2183-2191	nämligen	_	_	_	_	_	_	
+33-19	2191-2192	:	_	_	_	_	_	_	
+33-20	2193-2202	Hemtjänst	_	_	_	_	_	_	
+33-21	2203-2206	för	_	_	_	_	_	_	
+33-22	2207-2219	ensamstående	_	_	_	_	_	_	
+33-23	2220-2229	föräldrar	_	_	_	_	_	_	
+33-24	2229-2230	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2232-2233	#	_	_	_	_	_	_	
+34-2	2233-2234	P	_	_	_	_	_	_	
+34-3	2235-2238	IMM	_	_	_	_	_	_	
+34-4	2238-2239	.	_	_	_	_	_	_	
+
+#Text=Till skillnad från rut-avdraget som gynnar de som redan är resursstarka samt befäster strukturer av klass, kön och föreställningar om ras, kommer en offentligt finansierad välfärdstjänst riktad till ensamstående föräldrar att vara till nytta för de med störst behov.
+35-1	2241-2245	Till	_	_	_	_	_	_	
+35-2	2246-2254	skillnad	_	_	_	_	_	_	
+35-3	2255-2259	från	_	_	_	_	_	_	
+35-4	2260-2272	rut-avdraget	_	_	_	_	_	_	
+35-5	2273-2276	som	_	_	_	_	_	_	
+35-6	2277-2283	gynnar	_	_	_	_	_	_	
+35-7	2284-2286	de	_	_	_	_	_	_	
+35-8	2287-2290	som	_	_	_	_	_	_	
+35-9	2291-2296	redan	_	_	_	_	_	_	
+35-10	2297-2299	är	_	_	_	_	_	_	
+35-11	2300-2312	resursstarka	_	_	_	_	_	_	
+35-12	2313-2317	samt	_	_	_	_	_	_	
+35-13	2318-2326	befäster	_	_	_	_	_	_	
+35-14	2327-2337	strukturer	_	_	_	_	_	_	
+35-15	2338-2340	av	_	_	_	_	_	_	
+35-16	2341-2346	klass	_	_	_	_	_	_	
+35-17	2346-2347	,	_	_	_	_	_	_	
+35-18	2348-2351	kön	_	_	_	_	_	_	
+35-19	2352-2355	och	_	_	_	_	_	_	
+35-20	2356-2371	föreställningar	_	_	_	_	_	_	
+35-21	2372-2374	om	_	_	_	_	_	_	
+35-22	2375-2378	ras	_	_	_	_	_	_	
+35-23	2378-2379	,	_	_	_	_	_	_	
+35-24	2380-2386	kommer	_	_	_	_	_	_	
+35-25	2387-2389	en	_	_	_	_	_	_	
+35-26	2390-2400	offentligt	_	_	_	_	_	_	
+35-27	2401-2412	finansierad	_	_	_	_	_	_	
+35-28	2413-2427	välfärdstjänst	_	_	_	_	_	_	
+35-29	2428-2434	riktad	_	_	_	_	_	_	
+35-30	2435-2439	till	_	_	_	_	_	_	
+35-31	2440-2452	ensamstående	_	_	_	_	_	_	
+35-32	2453-2462	föräldrar	_	_	_	_	_	_	
+35-33	2463-2466	att	_	_	_	_	_	_	
+35-34	2467-2471	vara	_	_	_	_	_	_	
+35-35	2472-2476	till	_	_	_	_	_	_	
+35-36	2477-2482	nytta	_	_	_	_	_	_	
+35-37	2483-2486	för	_	_	_	_	_	_	
+35-38	2487-2489	de	_	_	_	_	_	_	
+35-39	2490-2493	med	_	_	_	_	_	_	
+35-40	2494-2500	störst	_	_	_	_	_	_	
+35-41	2501-2506	behov	_	_	_	_	_	_	
+35-42	2506-2507	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2509-2510	#	_	_	_	_	_	_	
+36-2	2510-2511	P	_	_	_	_	_	_	
+36-3	2512-2515	IMM	_	_	_	_	_	_	
+36-4	2515-2516	.	_	_	_	_	_	_	
+
+#Text=En hjälpande hand i vardagen innebär en ovärderlig avlastning.
+37-1	2518-2520	En	*[16]	_	_	_	_	_	
+37-2	2521-2530	hjälpande	*[16]	_	_	_	_	_	
+37-3	2531-2535	hand	*[16]	_	_	_	_	_	
+37-4	2536-2537	i	*[16]	_	_	_	_	_	
+37-5	2538-2546	vardagen	*[16]	_	_	_	_	_	
+37-6	2547-2554	innebär	_	Target[6]	37-1[16]	false[6]	4[6]	_	
+37-7	2555-2557	en	_	Target[6]	37-1[16]	false[6]	4[6]	_	
+37-8	2558-2568	ovärderlig	_	Target[6]|Target[7]	37-1[16]|37-9	false[6]|false[7]	4[6]|4[7]	_	
+37-9	2569-2579	avlastning	*	Target[6]	37-1[16]	false[6]	4[6]	_	
+37-10	2579-2580	.	_	_	_	_	_	_	
+
+#Text=Att någon annan hämtar barnen på förskolan ger tid över för den ensamstående att gå från deltid till heltid.
+38-1	2581-2584	Att	_	_	_	_	_	_	
+38-2	2585-2590	någon	_	_	_	_	_	_	
+38-3	2591-2596	annan	_	_	_	_	_	_	
+38-4	2597-2603	hämtar	_	_	_	_	_	_	
+38-5	2604-2610	barnen	_	_	_	_	_	_	
+38-6	2611-2613	på	_	_	_	_	_	_	
+38-7	2614-2623	förskolan	_	_	_	_	_	_	
+38-8	2624-2627	ger	_	_	_	_	_	_	
+38-9	2628-2631	tid	_	_	_	_	_	_	
+38-10	2632-2636	över	_	_	_	_	_	_	
+38-11	2637-2640	för	_	_	_	_	_	_	
+38-12	2641-2644	den	_	_	_	_	_	_	
+38-13	2645-2657	ensamstående	_	_	_	_	_	_	
+38-14	2658-2661	att	_	_	_	_	_	_	
+38-15	2662-2664	gå	_	_	_	_	_	_	
+38-16	2665-2669	från	_	_	_	_	_	_	
+38-17	2670-2676	deltid	_	_	_	_	_	_	
+38-18	2677-2681	till	_	_	_	_	_	_	
+38-19	2682-2688	heltid	_	_	_	_	_	_	
+38-20	2688-2689	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2691-2692	#	_	_	_	_	_	_	
+39-2	2692-2693	P	_	_	_	_	_	_	
+39-3	2694-2697	IMM	_	_	_	_	_	_	
+39-4	2697-2698	.	_	_	_	_	_	_	
+
+#Text=Att någon annan hjälper till med att laga middagen ger föräldrar möjlighet att i lugn och ro läsa läxorna ihop med barnen.
+40-1	2700-2703	Att	_	_	_	_	_	_	
+40-2	2704-2709	någon	_	_	_	_	_	_	
+40-3	2710-2715	annan	_	_	_	_	_	_	
+40-4	2716-2723	hjälper	_	_	_	_	_	_	
+40-5	2724-2728	till	_	_	_	_	_	_	
+40-6	2729-2732	med	_	_	_	_	_	_	
+40-7	2733-2736	att	_	_	_	_	_	_	
+40-8	2737-2741	laga	_	_	_	_	_	_	
+40-9	2742-2750	middagen	_	_	_	_	_	_	
+40-10	2751-2754	ger	_	_	_	_	_	_	
+40-11	2755-2764	föräldrar	_	_	_	_	_	_	
+40-12	2765-2774	möjlighet	_	_	_	_	_	_	
+40-13	2775-2778	att	_	_	_	_	_	_	
+40-14	2779-2780	i	_	_	_	_	_	_	
+40-15	2781-2785	lugn	_	_	_	_	_	_	
+40-16	2786-2789	och	_	_	_	_	_	_	
+40-17	2790-2792	ro	_	_	_	_	_	_	
+40-18	2793-2797	läsa	_	_	_	_	_	_	
+40-19	2798-2805	läxorna	_	_	_	_	_	_	
+40-20	2806-2810	ihop	_	_	_	_	_	_	
+40-21	2811-2814	med	_	_	_	_	_	_	
+40-22	2815-2821	barnen	_	_	_	_	_	_	
+40-23	2821-2822	.	_	_	_	_	_	_	
+
+#Text=Att någon annan finns där när den ensamstående är för sjuk för att ta sig ur sängen ger lugn till såväl barnen som föräldern.
+41-1	2823-2826	Att	_	_	_	_	_	_	
+41-2	2827-2832	någon	_	_	_	_	_	_	
+41-3	2833-2838	annan	_	_	_	_	_	_	
+41-4	2839-2844	finns	_	_	_	_	_	_	
+41-5	2845-2848	där	_	_	_	_	_	_	
+41-6	2849-2852	när	_	_	_	_	_	_	
+41-7	2853-2856	den	_	_	_	_	_	_	
+41-8	2857-2869	ensamstående	_	_	_	_	_	_	
+41-9	2870-2872	är	_	_	_	_	_	_	
+41-10	2873-2876	för	_	_	_	_	_	_	
+41-11	2877-2881	sjuk	_	_	_	_	_	_	
+41-12	2882-2885	för	_	_	_	_	_	_	
+41-13	2886-2889	att	_	_	_	_	_	_	
+41-14	2890-2892	ta	_	_	_	_	_	_	
+41-15	2893-2896	sig	_	_	_	_	_	_	
+41-16	2897-2899	ur	_	_	_	_	_	_	
+41-17	2900-2906	sängen	_	_	_	_	_	_	
+41-18	2907-2910	ger	_	_	_	_	_	_	
+41-19	2911-2915	lugn	_	_	_	_	_	_	
+41-20	2916-2920	till	_	_	_	_	_	_	
+41-21	2921-2926	såväl	_	_	_	_	_	_	
+41-22	2927-2933	barnen	_	_	_	_	_	_	
+41-23	2934-2937	som	_	_	_	_	_	_	
+41-24	2938-2947	föräldern	_	_	_	_	_	_	
+41-25	2947-2948	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	2950-2951	#	_	_	_	_	_	_	
+42-2	2951-2952	P	_	_	_	_	_	_	
+42-3	2953-2956	IMM	_	_	_	_	_	_	
+42-4	2956-2957	.	_	_	_	_	_	_	
+
+#Text=Normen för familjebildning är att två föräldrar tar hand om barnen, men verkligheten är långt ifrån en konservativ föreställning om kärnfamiljen.
+43-1	2959-2965	Normen	_	_	_	_	_	_	
+43-2	2966-2969	för	_	_	_	_	_	_	
+43-3	2970-2985	familjebildning	_	_	_	_	_	_	
+43-4	2986-2988	är	_	_	_	_	_	_	
+43-5	2989-2992	att	_	_	_	_	_	_	
+43-6	2993-2996	två	_	_	_	_	_	_	
+43-7	2997-3006	föräldrar	_	_	_	_	_	_	
+43-8	3007-3010	tar	_	_	_	_	_	_	
+43-9	3011-3015	hand	_	_	_	_	_	_	
+43-10	3016-3018	om	_	_	_	_	_	_	
+43-11	3019-3025	barnen	_	_	_	_	_	_	
+43-12	3025-3026	,	_	_	_	_	_	_	
+43-13	3027-3030	men	_	_	_	_	_	_	
+43-14	3031-3043	verkligheten	_	_	_	_	_	_	
+43-15	3044-3046	är	_	_	_	_	_	_	
+43-16	3047-3052	långt	_	_	_	_	_	_	
+43-17	3053-3058	ifrån	_	_	_	_	_	_	
+43-18	3059-3061	en	_	_	_	_	_	_	
+43-19	3062-3073	konservativ	_	_	_	_	_	_	
+43-20	3074-3087	föreställning	_	_	_	_	_	_	
+43-21	3088-3090	om	_	_	_	_	_	_	
+43-22	3091-3103	kärnfamiljen	_	_	_	_	_	_	
+43-23	3103-3104	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3106-3107	#	_	_	_	_	_	_	
+44-2	3107-3108	P	_	_	_	_	_	_	
+44-3	3109-3112	IMM	_	_	_	_	_	_	
+44-4	3112-3113	.	_	_	_	_	_	_	
+
+#Text=De ensamstående föräldrarna är många och de alla gör stordåd för att få vardagen att gå ihop.
+45-1	3115-3117	De	*[17]	_	_	_	_	45-7[18_17]	
+45-2	3118-3130	ensamstående	*[17]	_	_	_	_	_	
+45-3	3131-3142	föräldrarna	*[17]	_	_	_	_	_	
+45-4	3143-3145	är	_	_	_	_	_	_	
+45-5	3146-3151	många	_	_	_	_	_	_	
+45-6	3152-3155	och	_	_	_	_	_	_	
+45-7	3156-3158	de	*[18]	_	_	_	_	_	
+45-8	3159-3163	alla	*[18]	_	_	_	_	_	
+45-9	3164-3167	gör	_	Target[8]	45-7[18]	false[8]	4[8]	_	
+45-10	3168-3175	stordåd	_	Target[8]	45-7[18]	false[8]	4[8]	_	
+45-11	3176-3179	för	_	_	_	_	_	_	
+45-12	3180-3183	att	_	_	_	_	_	_	
+45-13	3184-3186	få	_	_	_	_	_	_	
+45-14	3187-3195	vardagen	_	_	_	_	_	_	
+45-15	3196-3199	att	_	_	_	_	_	_	
+45-16	3200-3202	gå	_	_	_	_	_	_	
+45-17	3203-3207	ihop	_	_	_	_	_	_	
+45-18	3207-3208	.	_	_	_	_	_	_	
+
+#Text=Det är hög tid att samhället ger denna grupp draghjälp.
+46-1	3209-3212	Det	_	Target[9]	46-5[19]	false[9]	4[9]	_	
+46-2	3213-3215	är	_	Target[9]	46-5[19]	false[9]	4[9]	_	
+46-3	3216-3219	hög	_	Target[9]	46-5[19]	false[9]	4[9]	_	
+46-4	3220-3223	tid	_	Target[9]	46-5[19]	false[9]	4[9]	_	
+46-5	3224-3227	att	*[19]	_	_	_	_	_	
+46-6	3228-3237	samhället	*[19]	_	_	_	_	_	
+46-7	3238-3241	ger	*[19]	_	_	_	_	_	
+46-8	3242-3247	denna	*[19]	_	_	_	_	_	
+46-9	3248-3253	grupp	*[19]	_	_	_	_	_	
+46-10	3254-3263	draghjälp	*[19]	_	_	_	_	_	
+46-11	3263-3264	.	_	_	_	_	_	_	
+
+#Text=Därigenom kan vi öka jämlikheten, främja jämställdheten och minska barnfattigdomen.
+47-1	3265-3274	Därigenom	_	_	_	_	_	_	
+47-2	3275-3278	kan	_	_	_	_	_	_	
+47-3	3279-3281	vi	_	_	_	_	_	_	
+47-4	3282-3285	öka	_	_	_	_	_	_	
+47-5	3286-3297	jämlikheten	_	_	_	_	_	_	
+47-6	3297-3298	,	_	_	_	_	_	_	
+47-7	3299-3305	främja	_	_	_	_	_	_	
+47-8	3306-3320	jämställdheten	_	_	_	_	_	_	
+47-9	3321-3324	och	_	_	_	_	_	_	
+47-10	3325-3331	minska	_	_	_	_	_	_	
+47-11	3332-3347	barnfattigdomen	_	_	_	_	_	_	
+47-12	3347-3348	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3350-3351	#	_	_	_	_	_	_	
+48-2	3351-3352	P	_	_	_	_	_	_	
+48-3	3353-3356	IMM	_	_	_	_	_	_	
+48-4	3356-3357	.	_	_	_	_	_	_	
+
+#Text=Lisa PalmConrad Palmcrantz.
+49-1	3359-3363	Lisa	_	_	_	_	_	_	
+49-2	3364-3374	PalmConrad	_	_	_	_	_	_	
+49-3	3375-3385	Palmcrantz	_	_	_	_	_	_	
+49-4	3385-3386	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3388-3389	#	_	_	_	_	_	_	
+50-2	3389-3390	P	_	_	_	_	_	_	
+50-3	3391-3394	IMM	_	_	_	_	_	_	
+50-4	3394-3395	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+51-1	3397-3401	Häng	_	_	_	_	_	_	
+51-2	3402-3405	med	_	_	_	_	_	_	
+51-3	3406-3407	i	_	_	_	_	_	_	
+51-4	3408-3416	debatten	_	_	_	_	_	_	
+51-5	3417-3420	och	_	_	_	_	_	_	
+51-6	3421-3431	kommentera	_	_	_	_	_	_	
+51-7	3432-3440	artikeln	_	_	_	_	_	_	
+51-8	3441-3442	–	_	_	_	_	_	_	
+51-9	3443-3447	följ	_	_	_	_	_	_	
+51-10	3449-3455	Debatt	_	_	_	_	_	_	
+51-11	3456-3458	på	_	_	_	_	_	_	
+51-12	3459-3467	Facebook	_	_	_	_	_	_	
+51-13	3467-3468	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3470-3471	#	_	_	_	_	_	_	
+52-2	3471-3472	P	_	_	_	_	_	_	
+52-3	3473-3476	IMM	_	_	_	_	_	_	
+52-4	3476-3477	.	_	_	_	_	_	_	
+
+#Text=RERNA.
+53-1	3479-3484	RERNA	_	_	_	_	_	_	
+53-2	3484-3485	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3487-3488	#	_	_	_	_	_	_	
+54-2	3488-3489	P	_	_	_	_	_	_	
+54-3	3490-3493	IMM	_	_	_	_	_	_	
+54-4	3493-3494	.	_	_	_	_	_	_	
+
+#Text=N.
+55-1	3496-3497	N	_	_	_	_	_	_	
+55-2	3497-3498	.	_	_	_	_	_	_	

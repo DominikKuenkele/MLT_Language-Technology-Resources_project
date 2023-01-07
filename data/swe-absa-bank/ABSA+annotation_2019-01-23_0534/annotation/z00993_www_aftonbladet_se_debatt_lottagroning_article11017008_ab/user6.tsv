@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Bra med muller mellan direktörer.
+3-1	18-21	Bra	_	Target	3-3[10]	false	4	_	
+3-2	22-25	med	_	_	_	_	_	_	
+3-3	26-32	muller	*[10]	_	_	_	_	_	
+3-4	33-39	mellan	*[10]	_	_	_	_	_	
+3-5	40-50	direktörer	*[10]	_	_	_	_	_	
+3-6	50-51	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	_	_	_	
+4-4	59-60	.	_	_	_	_	_	_	
+
+#Text=Michael Treschow, ordförande för Svenskt Näringsliv är tondöv.
+5-1	62-69	Michael	*[11]	_	_	_	_	_	
+5-2	70-78	Treschow	*[11]	_	_	_	_	_	
+5-3	78-79	,	*[11]	_	_	_	_	_	
+5-4	80-90	ordförande	*[11]	_	_	_	_	_	
+5-5	91-94	för	*[11]	_	_	_	_	_	
+5-6	95-102	Svenskt	*[11]	_	_	_	_	_	
+5-7	103-113	Näringsliv	*[11]	_	_	_	_	_	
+5-8	114-116	är	_	Target;Source[1]	5-1[11];6-6[12]	false[1]	2[1]	_	
+5-9	117-123	tondöv	_	Target;Source[1]	5-1[11];6-6[12]	false[1]	2[1]	_	
+5-10	123-124	.	_	_	_	_	_	_	
+
+#Text=Det hävdar i alla fall Olof Stenhammar, ordförande i OMX och riskkapitalbolaget Ratos.
+6-1	125-128	Det	_	_	_	_	_	_	
+6-2	129-135	hävdar	_	_	_	_	_	_	
+6-3	136-137	i	_	_	_	_	_	_	
+6-4	138-142	alla	_	_	_	_	_	_	
+6-5	143-147	fall	_	_	_	_	_	_	
+6-6	148-152	Olof	*[12]|*[13]	_	_	_	_	7-1[0_13]	
+6-7	153-163	Stenhammar	*[12]|*[13]	_	_	_	_	_	
+6-8	163-164	,	*[12]|*[13]	_	_	_	_	_	
+6-9	165-175	ordförande	*[12]|*[13]	_	_	_	_	_	
+6-10	176-177	i	*[12]|*[13]	_	_	_	_	_	
+6-11	178-181	OMX	*[12]|*[13]	_	_	_	_	_	
+6-12	182-185	och	*[12]|*[13]	_	_	_	_	_	
+6-13	186-204	riskkapitalbolaget	*[12]|*[13]	_	_	_	_	_	
+6-14	205-210	Ratos	*[12]|*[13]	_	_	_	_	_	
+6-15	210-211	.	_	_	_	_	_	_	
+
+#Text=Han blev störtförbannad över Michael Treschows krav på högre löner för direktörerna.
+7-1	212-215	Han	*	_	_	_	_	_	
+7-2	216-220	blev	_	Source;Target[2]	7-1;7-4[14]	false[2]	2[2]	_	
+7-3	221-235	störtförbannad	_	Source;Target[2]	7-1;7-4[14]	false[2]	2[2]	_	
+7-4	236-240	över	*[14]	_	_	_	_	_	
+7-5	241-248	Michael	*[14]	_	_	_	_	_	
+7-6	249-258	Treschows	*[14]	_	_	_	_	_	
+7-7	259-263	krav	*[14]	_	_	_	_	_	
+7-8	264-266	på	*[14]	_	_	_	_	_	
+7-9	267-272	högre	*[14]	_	_	_	_	_	
+7-10	273-278	löner	*[14]	_	_	_	_	_	
+7-11	279-282	för	*[14]	_	_	_	_	_	
+7-12	283-295	direktörerna	*[14]	_	_	_	_	_	
+7-13	295-296	.	_	_	_	_	_	_	
+
+#Text=Höjda styrelsearvoden kommer automatiskt att höja fackens lönekrav, hävdar han.
+8-1	297-302	Höjda	_	_	_	_	_	_	
+8-2	303-318	styrelsearvoden	_	_	_	_	_	_	
+8-3	319-325	kommer	_	_	_	_	_	_	
+8-4	326-337	automatiskt	_	_	_	_	_	_	
+8-5	338-341	att	_	_	_	_	_	_	
+8-6	342-346	höja	_	_	_	_	_	_	
+8-7	347-354	fackens	_	_	_	_	_	_	
+8-8	355-363	lönekrav	_	_	_	_	_	_	
+8-9	363-364	,	_	_	_	_	_	_	
+8-10	365-371	hävdar	_	_	_	_	_	_	
+8-11	372-375	han	_	_	_	_	_	_	
+8-12	375-376	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+9-1	378-379	#	_	_	_	_	_	_	
+9-2	379-380	P	_	_	_	_	_	_	
+9-3	381-384	IMM	_	_	_	_	_	_	
+9-4	384-385	.	_	_	_	_	_	_	
+
+#Text=Olof Stenhammar är inte ensam i sin ilska.
+10-1	387-391	Olof	_	_	_	_	_	_	
+10-2	392-402	Stenhammar	_	_	_	_	_	_	
+10-3	403-405	är	_	_	_	_	_	_	
+10-4	406-410	inte	_	_	_	_	_	_	
+10-5	411-416	ensam	_	_	_	_	_	_	
+10-6	417-418	i	_	_	_	_	_	_	
+10-7	419-422	sin	_	_	_	_	_	_	
+10-8	423-428	ilska	_	_	_	_	_	_	
+10-9	428-429	.	_	_	_	_	_	_	
+
+#Text=Han får också stöd av förre vd:n för Svenskt Näringsliv Olof Ljunggren.
+11-1	430-433	Han	_	_	_	_	_	_	
+11-2	434-437	får	_	_	_	_	_	_	
+11-3	438-443	också	_	_	_	_	_	_	
+11-4	444-448	stöd	_	_	_	_	_	_	
+11-5	449-451	av	_	_	_	_	_	_	
+11-6	452-457	förre	*[15]|*[16]|*[17]	_	_	_	_	13-31[21_15]|13-31[22_17]|12-1[0_15]	
+11-7	458-460	vd	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-8	460-461	:	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-9	461-462	n	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-10	463-466	för	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-11	467-474	Svenskt	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-12	475-485	Näringsliv	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-13	486-490	Olof	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-14	491-500	Ljunggren	*[15]|*[16]|*[17]	_	_	_	_	_	
+11-15	500-501	.	_	_	_	_	_	_	
+
+#Text=Han är lite klarare i tanken än sin efterträdare.
+12-1	502-505	Han	*	_	_	_	_	_	
+12-2	506-508	är	_	Target[3]	12-1	false[3]	4[3]	_	
+12-3	509-513	lite	_	Target[3]	12-1	false[3]	4[3]	_	
+12-4	514-521	klarare	_	Target[3]	12-1	false[3]	4[3]	_	
+12-5	522-523	i	_	Target[3]	12-1	false[3]	4[3]	_	
+12-6	524-530	tanken	_	Target[3]	12-1	false[3]	4[3]	_	
+12-7	531-533	än	_	_	_	_	_	_	
+12-8	534-537	sin	_	_	_	_	_	_	
+12-9	538-550	efterträdare	_	_	_	_	_	_	
+12-10	550-551	.	_	_	_	_	_	_	
+
+#Text=Har man svårt att rekrytera kompetenta styrelseordföranden från andra länder på grund av låga arvoden, då bör det räcka med att höja arvodet för den man rekryterar, säger han.
+13-1	552-555	Har	*[18]	_	_	_	_	15-1[0_18]	
+13-2	556-559	man	*[18]	_	_	_	_	_	
+13-3	560-565	svårt	*[18]	Source;Target	13-31[22];13-4[19]	false	2	_	
+13-4	566-569	att	*[18]|*[19]	_	_	_	_	_	
+13-5	570-579	rekrytera	*[18]|*[19]	_	_	_	_	_	
+13-6	580-590	kompetenta	*[18]|*[19]	_	_	_	_	_	
+13-7	591-610	styrelseordföranden	*[18]|*[19]	_	_	_	_	_	
+13-8	611-615	från	*[18]|*[19]	_	_	_	_	_	
+13-9	616-621	andra	*[18]|*[19]	_	_	_	_	_	
+13-10	622-628	länder	*[18]|*[19]	_	_	_	_	_	
+13-11	629-631	på	*[18]|*[19]	_	_	_	_	_	
+13-12	632-637	grund	*[18]|*[19]	_	_	_	_	_	
+13-13	638-640	av	*[18]|*[19]	_	_	_	_	_	
+13-14	641-645	låga	*[18]|*[19]	_	_	_	_	_	
+13-15	646-653	arvoden	*[18]|*[19]	_	_	_	_	_	
+13-16	653-654	,	*[18]	_	_	_	_	_	
+13-17	655-657	då	*[18]	_	_	_	_	_	
+13-18	658-661	bör	*[18]	Source;Target[4]	13-31[21];13-22[20]	false[4]	4[4]	_	
+13-19	662-665	det	*[18]	Source;Target[4]	13-31[21];13-22[20]	false[4]	4[4]	_	
+13-20	666-671	räcka	*[18]	Source;Target[4]	13-31[21];13-22[20]	false[4]	4[4]	_	
+13-21	672-675	med	*[18]	Source;Target[4]	13-31[21];13-22[20]	false[4]	4[4]	_	
+13-22	676-679	att	*[18]|*[20]	_	_	_	_	_	
+13-23	680-684	höja	*[18]|*[20]	_	_	_	_	_	
+13-24	685-692	arvodet	*[18]|*[20]	_	_	_	_	_	
+13-25	693-696	för	*[18]|*[20]	_	_	_	_	_	
+13-26	697-700	den	*[18]|*[20]	_	_	_	_	_	
+13-27	701-704	man	*[18]|*[20]	_	_	_	_	_	
+13-28	705-715	rekryterar	*[18]|*[20]	_	_	_	_	_	
+13-29	715-716	,	_	_	_	_	_	_	
+13-30	717-722	säger	_	_	_	_	_	_	
+13-31	723-726	han	*[21]|*[22]	_	_	_	_	_	
+13-32	726-727	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	729-730	#	_	_	_	_	_	_	
+14-2	730-731	P	_	_	_	_	_	_	
+14-3	732-735	IMM	_	_	_	_	_	_	
+14-4	735-736	.	_	_	_	_	_	_	
+
+#Text=Det är ju fiffigt tänkt.
+15-1	738-741	Det	*	_	_	_	_	_	
+15-2	742-744	är	_	Target[5]	15-1	true[5]	4[5]	_	
+15-3	745-747	ju	_	Target[5]	15-1	true[5]	4[5]	_	
+15-4	748-755	fiffigt	_	Target[5]	15-1	true[5]	4[5]	_	
+15-5	756-761	tänkt	_	Target[5]	15-1	true[5]	4[5]	_	
+15-6	761-762	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	764-765	#	_	_	_	_	_	_	
+16-2	765-766	P	_	_	_	_	_	_	
+16-3	767-770	IMM	_	_	_	_	_	_	
+16-4	770-771	.	_	_	_	_	_	_	
+
+#Text=Uppfriskande är det i alla fall att direktörerna nu mullrar på varandra.
+17-1	773-785	Uppfriskande	_	Target[6]	17-7[23]	false[6]	4[6]	_	
+17-2	786-788	är	_	Target[6]	17-7[23]	false[6]	4[6]	_	
+17-3	789-792	det	_	_	_	_	_	_	
+17-4	793-794	i	_	_	_	_	_	_	
+17-5	795-799	alla	_	_	_	_	_	_	
+17-6	800-804	fall	_	_	_	_	_	_	
+17-7	805-808	att	*[23]	_	_	_	_	_	
+17-8	809-821	direktörerna	*[23]|*[24]	_	_	_	_	19-1[0_24]	
+17-9	822-824	nu	*[23]	_	_	_	_	_	
+17-10	825-832	mullrar	*[23]	_	_	_	_	_	
+17-11	833-835	på	*[23]	_	_	_	_	_	
+17-12	836-844	varandra	*[23]	_	_	_	_	_	
+17-13	844-845	.	_	_	_	_	_	_	
+
+#Text=Det är inte en dag försent.
+18-1	846-849	Det	_	_	_	_	_	_	
+18-2	850-852	är	_	_	_	_	_	_	
+18-3	853-857	inte	_	_	_	_	_	_	
+18-4	858-860	en	_	_	_	_	_	_	
+18-5	861-864	dag	_	_	_	_	_	_	
+18-6	865-872	försent	_	_	_	_	_	_	
+18-7	872-873	.	_	_	_	false	4	_	
+
+#Text=De brukar uppträda som en packe sardiner och i trupp skälla på andra.
+19-1	874-876	De	*	_	_	_	_	_	
+19-2	877-883	brukar	_	Target[7]	19-1	false[7]	2[7]	_	
+19-3	884-892	uppträda	_	Target[7]	19-1	false[7]	2[7]	_	
+19-4	893-896	som	_	Target[7]	19-1	false[7]	2[7]	_	
+19-5	897-899	en	_	Target[7]	19-1	false[7]	2[7]	_	
+19-6	900-905	packe	_	Target[7]	19-1	false[7]	2[7]	_	
+19-7	906-914	sardiner	_	Target[7]	19-1	false[7]	2[7]	_	
+19-8	915-918	och	_	_	_	_	_	_	
+19-9	919-920	i	_	_	_	_	_	_	
+19-10	921-926	trupp	_	_	_	_	_	_	
+19-11	927-933	skälla	_	_	_	_	_	_	
+19-12	934-936	på	_	_	_	_	_	_	
+19-13	937-942	andra	_	_	_	_	_	_	
+19-14	942-943	.	_	_	_	_	_	_	
+
+#Text=Nu blottas sprickorna.
+20-1	944-946	Nu	_	_	_	_	_	_	
+20-2	947-954	blottas	_	Target	20-3	false	2	_	
+20-3	955-965	sprickorna	*	_	_	_	_	_	
+20-4	965-966	.	_	_	_	false	4	_	
+
+#Text=Kanske tycker också Ljunggren och Stenhammar att det blir oskäligt att svenska direktörer ska få en omotiverad löneförhöjning bara för att locka hit internationella toppkrafter.
+21-1	967-973	Kanske	_	_	_	_	_	_	
+21-2	974-980	tycker	_	_	_	_	_	_	
+21-3	981-986	också	_	_	_	_	_	_	
+21-4	987-996	Ljunggren	_	_	_	_	_	_	
+21-5	997-1000	och	_	_	_	_	_	_	
+21-6	1001-1011	Stenhammar	_	_	_	_	_	_	
+21-7	1012-1015	att	_	_	_	_	_	_	
+21-8	1016-1019	det	_	_	_	_	_	_	
+21-9	1020-1024	blir	_	Target[8]	21-11[25]	false[8]	2[8]	_	
+21-10	1025-1033	oskäligt	_	Target[8]	21-11[25]	false[8]	2[8]	_	
+21-11	1034-1037	att	*[25]	_	_	_	_	_	
+21-12	1038-1045	svenska	*[25]	_	_	_	_	_	
+21-13	1046-1056	direktörer	*[25]	_	_	_	_	_	
+21-14	1057-1060	ska	*[25]	_	_	_	_	_	
+21-15	1061-1063	få	*[25]	_	_	_	_	_	
+21-16	1064-1066	en	*[25]	_	_	_	_	_	
+21-17	1067-1077	omotiverad	*[25]	_	_	_	_	_	
+21-18	1078-1092	löneförhöjning	*[25]	_	_	_	_	_	
+21-19	1093-1097	bara	*[25]	_	_	_	_	_	
+21-20	1098-1101	för	*[25]	_	_	_	_	_	
+21-21	1102-1105	att	*[25]	_	_	_	_	_	
+21-22	1106-1111	locka	*[25]	Target[9]	21-24[26]	false[9]	4[9]	_	
+21-23	1112-1115	hit	*[25]	Target[9]	21-24[26]	false[9]	4[9]	_	
+21-24	1116-1131	internationella	*[25]|*[26]	_	_	_	_	_	
+21-25	1132-1143	toppkrafter	*[25]|*[26]	_	_	_	_	_	
+21-26	1143-1144	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1146-1147	#	_	_	_	_	_	_	
+22-2	1147-1148	P	_	_	_	_	_	_	
+22-3	1149-1152	IMM	_	_	_	_	_	_	
+22-4	1152-1153	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+23-1	1155-1160	Lotta	_	_	_	_	_	_	
+23-2	1161-1168	Gröning	_	_	_	_	_	_	
+23-3	1168-1169	.	_	_	_	_	_	_	

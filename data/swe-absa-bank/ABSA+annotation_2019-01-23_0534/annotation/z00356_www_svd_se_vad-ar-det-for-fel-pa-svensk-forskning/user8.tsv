@@ -1,0 +1,1470 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vad är det för fel på svensk forskning?.
+3-1	18-21	Vad	_	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	_	
+3-3	25-28	det	_	_	_	_	_	_	_	
+3-4	29-32	för	_	_	_	_	_	_	_	
+3-5	33-36	fel	_	Target;Source	3-7[22];3-9	false	2	_	_	
+3-6	37-39	på	_	_	_	_	_	_	_	
+3-7	40-46	svensk	*[22]	_	_	_	_	_	_	
+3-8	47-56	forskning	*[22]	_	_	_	_	_	_	
+3-9	56-57	?	*	_	_	_	_	_	_	
+3-10	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	false	2	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text="Sverige vet inte vad invandringen kostar", skrev jag på SvD Brännpunkt 23/9.
+5-1	69-70	"	_	_	_	_	_	_	_	
+5-2	70-77	Sverige	_	_	_	_	_	_	_	
+5-3	78-81	vet	_	_	_	_	_	_	_	
+5-4	82-86	inte	_	_	_	_	_	_	_	
+5-5	87-90	vad	_	_	_	_	_	_	_	
+5-6	91-103	invandringen	_	_	_	_	_	_	_	
+5-7	104-110	kostar	_	_	_	_	_	_	_	
+5-8	110-111	"	_	_	_	_	_	_	_	
+5-9	111-112	,	_	_	_	_	_	_	_	
+5-10	113-118	skrev	_	_	_	_	_	_	_	
+5-11	119-122	jag	_	_	_	_	_	_	_	
+5-12	123-125	på	_	_	_	_	_	_	_	
+5-13	126-129	SvD	_	_	_	_	_	_	_	
+5-14	130-140	Brännpunkt	_	_	_	_	_	_	_	
+5-15	141-143	23	_	_	_	_	_	_	_	
+5-16	143-144	/	_	_	_	_	_	_	_	
+5-17	144-145	9	_	_	_	_	_	_	_	
+5-18	145-146	.	_	_	_	_	_	_	_	
+
+#Text=Sedan dess har jag erfarit att sanningen är värre.
+6-1	147-152	Sedan	_	_	_	_	_	_	_	
+6-2	153-157	dess	_	_	_	_	_	_	_	
+6-3	158-161	har	_	_	_	_	_	_	_	
+6-4	162-165	jag	*	_	_	_	_	_	_	
+6-5	166-173	erfarit	_	_	_	_	_	_	_	
+6-6	174-177	att	_	_	_	_	_	_	_	
+6-7	178-187	sanningen	*	_	_	_	_	_	_	
+6-8	188-190	är	_	Source;Target[1]	6-4;6-7	false[1]	2[1]	_	_	
+6-9	191-196	värre	_	Source;Target[1]	6-4;6-7	false[1]	2[1]	_	_	
+6-10	196-197	.	_	_	_	_	_	_	_	
+
+#Text=Svenska forskare saknar inte statistik men de saknar integritet och mod.
+7-1	198-205	Svenska	*[23]	_	_	_	_	_	_	
+7-2	206-214	forskare	*[23]	_	_	_	_	_	_	
+7-3	215-221	saknar	_	_	_	_	_	_	_	
+7-4	222-226	inte	_	_	_	_	_	_	_	
+7-5	227-236	statistik	_	_	_	_	_	_	_	
+7-6	237-240	men	_	_	_	_	_	_	_	
+7-7	241-243	de	_	_	_	_	_	_	_	
+7-8	244-250	saknar	_	Target[2]	7-1[23]	false[2]	2[2]	_	_	
+7-9	251-261	integritet	_	Target[2]	7-1[23]	false[2]	2[2]	_	_	
+7-10	262-265	och	_	Target[2]	7-1[23]	false[2]	2[2]	_	_	
+7-11	266-269	mod	_	Target[2]	7-1[23]	false[2]	2[2]	_	_	
+7-12	269-270	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	272-273	#	_	_	_	_	_	_	_	
+8-2	273-274	P	_	_	_	_	_	_	_	
+8-3	275-278	IMM	_	_	_	_	_	_	_	
+8-4	278-279	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	281-284	Det	_	_	_	_	_	_	_	
+9-2	285-288	här	_	_	_	_	_	_	_	
+9-3	289-291	är	_	_	_	_	_	_	_	
+9-4	292-294	en	_	_	_	_	_	_	_	
+9-5	295-309	argumenterande	_	_	_	_	_	_	_	
+9-6	310-314	text	_	_	_	_	_	_	_	
+9-7	315-318	med	_	_	_	_	_	_	_	
+9-8	319-324	syfte	_	_	_	_	_	_	_	
+9-9	325-328	att	_	_	_	_	_	_	_	
+9-10	329-336	påverka	_	_	_	_	_	_	_	
+9-11	336-337	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	338-347	Åsikterna	_	_	_	_	_	_	_	
+10-2	348-351	som	_	_	_	_	_	_	_	
+10-3	352-360	uttrycks	_	_	_	_	_	_	_	
+10-4	361-363	är	_	_	_	_	_	_	_	
+10-5	364-375	skribentens	_	_	_	_	_	_	_	
+10-6	376-380	egna	_	_	_	_	_	_	_	
+10-7	380-381	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	383-384	#	_	_	_	_	_	_	_	
+11-2	384-385	P	_	_	_	_	_	_	_	
+11-3	386-389	IMM	_	_	_	false	3	_	_	
+11-4	389-390	.	_	_	_	_	_	_	_	
+
+#Text=Martin Hällsten, Stockholms universitet, har rätt på en punkt: Jag tog fel på att Sverige inte har tillräckligt bra registerstatistik.
+12-1	392-398	Martin	*[24]	_	_	_	_	_	_	
+12-2	399-407	Hällsten	*[24]	_	_	_	_	_	_	
+12-3	407-408	,	*[24]	_	_	_	_	_	_	
+12-4	409-419	Stockholms	*[24]	_	_	_	_	_	_	
+12-5	420-431	universitet	*[24]	_	_	_	_	_	_	
+12-6	431-432	,	_	_	_	_	_	_	_	
+12-7	433-436	har	_	Target[3]	12-1[24]	false[3]	4[3]	_	_	
+12-8	437-441	rätt	_	Target[3]	12-1[24]	false[3]	4[3]	_	_	
+12-9	442-444	på	_	Target[3]	12-1[24]	false[3]	4[3]	_	_	
+12-10	445-447	en	_	Target[3]	12-1[24]	false[3]	4[3]	_	_	
+12-11	448-453	punkt	_	Target[3]	12-1[24]	false[3]	4[3]	_	_	
+12-12	453-454	:	_	_	_	_	_	_	_	
+12-13	455-458	Jag	*	_	_	_	_	_	_	
+12-14	459-462	tog	_	Target[4]	12-13	false[4]	2[4]	_	_	
+12-15	463-466	fel	_	Target[4]	12-13	false[4]	2[4]	_	_	
+12-16	467-469	på	_	_	_	_	_	_	_	
+12-17	470-473	att	_	_	_	_	_	_	_	
+12-18	474-481	Sverige	*[25]|*[26]	_	_	_	_	_	_	
+12-19	482-486	inte	*[25]|*[26]	Target	12-18[25]	false	2	_	_	
+12-20	487-490	har	*[25]|*[26]	_	_	_	_	_	_	
+12-21	491-503	tillräckligt	*[25]|*[26]	Target[5]	12-18[26]	false[5]	2[5]	12-19[0_5]	_	
+12-22	504-507	bra	*[25]|*[26]	Target[5]	12-18[26]	false[5]	2[5]	_	_	
+12-23	508-525	registerstatistik	*[25]|*[26]	_	_	_	_	_	_	
+12-24	525-526	.	_	_	_	_	_	_	_	
+
+#Text=Det har varit svårt för mig att inhämta information om hur det går för olika invandrargrupper.
+13-1	527-530	Det	_	_	_	_	_	_	_	
+13-2	531-534	har	_	_	_	_	_	_	_	
+13-3	535-540	varit	_	_	_	_	_	_	_	
+13-4	541-546	svårt	_	_	_	_	_	_	_	
+13-5	547-550	för	_	_	_	_	_	_	_	
+13-6	551-554	mig	_	_	_	_	_	_	_	
+13-7	555-558	att	_	_	_	_	_	_	_	
+13-8	559-566	inhämta	_	_	_	_	_	_	_	
+13-9	567-578	information	_	_	_	_	_	_	_	
+13-10	579-581	om	_	_	_	_	_	_	_	
+13-11	582-585	hur	_	_	_	_	_	_	_	
+13-12	586-589	det	_	_	_	_	_	_	_	
+13-13	590-593	går	_	_	_	_	_	_	_	
+13-14	594-597	för	_	_	_	_	_	_	_	
+13-15	598-603	olika	_	_	_	_	_	_	_	
+13-16	604-620	invandrargrupper	_	_	_	_	_	_	_	
+13-17	620-621	.	_	_	_	_	_	_	_	
+
+#Text=Som outsider antog jag att detta beror på avsaknad av data.
+14-1	622-625	Som	_	_	_	_	_	_	_	
+14-2	626-634	outsider	_	_	_	_	_	_	_	
+14-3	635-640	antog	_	_	_	_	_	_	_	
+14-4	641-644	jag	_	_	_	_	_	_	_	
+14-5	645-648	att	_	_	_	_	_	_	_	
+14-6	649-654	detta	_	_	_	_	_	_	_	
+14-7	655-660	beror	_	_	_	_	_	_	_	
+14-8	661-663	på	_	_	_	_	_	_	_	
+14-9	664-672	avsaknad	_	_	_	_	_	_	_	
+14-10	673-675	av	_	_	_	_	_	_	_	
+14-11	676-680	data	_	_	_	_	_	_	_	
+14-12	680-681	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	683-684	#	_	_	_	_	_	_	_	
+15-2	684-685	P	_	_	_	_	_	_	_	
+15-3	686-689	IMM	_	_	_	false	2	_	_	
+15-4	689-690	.	_	_	_	_	_	_	_	
+
+#Text=**Jag förstår nu att de **som är insatta i dessa frågor har tillgång till data som visar hur svår situationen kan bli i Sverige, men de har nästan helt undanhållit detta från allmänheten.
+16-1	692-693	*	_	_	_	_	_	_	_	
+16-2	693-694	*	_	_	_	_	_	_	_	
+16-3	694-697	Jag	_	_	_	_	_	_	_	
+16-4	698-705	förstår	_	_	_	_	_	_	_	
+16-5	706-708	nu	_	_	_	_	_	_	_	
+16-6	709-712	att	_	_	_	_	_	_	_	
+16-7	713-715	de	*[27]	_	_	_	_	_	16-31[0_27]	
+16-8	716-717	*	*[27]	_	_	_	_	_	_	
+16-9	717-718	*	*[27]	_	_	_	_	_	_	
+16-10	718-721	som	*[27]	_	_	_	_	_	_	
+16-11	722-724	är	*[27]	_	_	_	_	_	_	
+16-12	725-732	insatta	*[27]	_	_	_	_	_	_	
+16-13	733-734	i	*[27]	_	_	_	_	_	_	
+16-14	735-740	dessa	*[27]	_	_	_	_	_	_	
+16-15	741-747	frågor	*[27]	_	_	_	_	_	_	
+16-16	748-751	har	_	_	_	_	_	_	_	
+16-17	752-760	tillgång	_	_	_	_	_	_	_	
+16-18	761-765	till	_	_	_	_	_	_	_	
+16-19	766-770	data	_	_	_	_	_	_	_	
+16-20	771-774	som	_	_	_	_	_	_	_	
+16-21	775-780	visar	_	_	_	_	_	_	_	
+16-22	781-784	hur	_	_	_	_	_	_	_	
+16-23	785-789	svår	_	Target;Target	16-24[28];16-27[30]	false	2	16-25[6_0]	_	
+16-24	790-801	situationen	*[28]|*[29]	_	_	_	_	_	_	
+16-25	802-805	kan	_	Target;Target[6]	16-27[31];16-24[29]	false[6]	2[6]	_	_	
+16-26	806-809	bli	_	Target;Target[6]	16-27[31];16-24[29]	false[6]	2[6]	_	_	
+16-27	810-811	i	*[30]|*[31]	_	_	_	_	_	_	
+16-28	812-819	Sverige	*[30]|*[31]	_	_	_	_	_	_	
+16-29	819-820	,	_	_	_	_	_	_	_	
+16-30	821-824	men	_	_	_	_	_	_	_	
+16-31	825-827	de	*	_	_	_	_	_	_	
+16-32	828-831	har	_	_	_	_	_	_	_	
+16-33	832-838	nästan	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-34	839-843	helt	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-35	844-855	undanhållit	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-36	856-861	detta	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-37	862-866	från	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-38	867-878	allmänheten	_	Target[7]	16-31	false[7]	2[7]	_	_	
+16-39	878-879	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	881-882	#	_	_	_	_	_	_	_	
+17-2	882-883	P	_	_	_	_	_	_	_	
+17-3	884-887	IMM	_	_	_	false	3	_	_	
+17-4	887-888	.	_	_	_	_	_	_	_	
+
+#Text=Det svar jag fick av Li Jansson – arbetsmarknadsekonom på Almega – är ett bra exempel.
+18-1	890-893	Det	_	_	_	_	_	_	_	
+18-2	894-898	svar	_	_	_	_	_	_	_	
+18-3	899-902	jag	_	_	_	_	_	_	_	
+18-4	903-907	fick	_	_	_	_	_	_	_	
+18-5	908-910	av	_	_	_	_	_	_	_	
+18-6	911-913	Li	_	_	_	_	_	_	_	
+18-7	914-921	Jansson	_	_	_	_	_	_	_	
+18-8	922-923	–	_	_	_	_	_	_	_	
+18-9	924-944	arbetsmarknadsekonom	_	_	_	_	_	_	_	
+18-10	945-947	på	_	_	_	_	_	_	_	
+18-11	948-954	Almega	_	_	_	_	_	_	_	
+18-12	955-956	–	_	_	_	_	_	_	_	
+18-13	957-959	är	_	_	_	_	_	_	_	
+18-14	960-963	ett	_	_	_	_	_	_	_	
+18-15	964-967	bra	_	Target	18-16	false	4	_	_	
+18-16	968-975	exempel	*	_	_	_	_	_	_	
+18-17	975-976	.	_	_	_	_	_	_	_	
+
+#Text=Hon skriver angående SCB-statistiken: "Denna databas visar att sysselsättningen bland utomeuropeiskt födda höjts från 51,7 procent år 2006 till 54,3 procent år 2012."
+19-1	977-980	Hon	_	_	_	_	_	_	_	
+19-2	981-988	skriver	_	_	_	_	_	_	_	
+19-3	989-997	angående	_	_	_	_	_	_	_	
+19-4	998-1013	SCB-statistiken	_	_	_	_	_	_	_	
+19-5	1013-1014	:	_	_	_	_	_	_	_	
+19-6	1015-1016	"	_	_	_	_	_	_	_	
+19-7	1016-1021	Denna	_	_	_	_	_	_	_	
+19-8	1022-1029	databas	_	_	_	_	_	_	_	
+19-9	1030-1035	visar	_	_	_	_	_	_	_	
+19-10	1036-1039	att	_	_	_	_	_	_	_	
+19-11	1040-1056	sysselsättningen	_	_	_	_	_	_	_	
+19-12	1057-1062	bland	_	_	_	_	_	_	_	
+19-13	1063-1077	utomeuropeiskt	_	_	_	_	_	_	_	
+19-14	1078-1083	födda	_	_	_	_	_	_	_	
+19-15	1084-1089	höjts	_	_	_	_	_	_	_	
+19-16	1090-1094	från	_	_	_	_	_	_	_	
+19-17	1095-1099	51,7	_	_	_	_	_	_	_	
+19-18	1100-1107	procent	_	_	_	_	_	_	_	
+19-19	1108-1110	år	_	_	_	_	_	_	_	
+19-20	1111-1115	2006	_	_	_	_	_	_	_	
+19-21	1116-1120	till	_	_	_	_	_	_	_	
+19-22	1121-1125	54,3	_	_	_	_	_	_	_	
+19-23	1126-1133	procent	_	_	_	_	_	_	_	
+19-24	1134-1136	år	_	_	_	_	_	_	_	
+19-25	1137-1141	2012	_	_	_	_	_	_	_	
+19-26	1141-1142	.	_	_	_	_	_	_	_	
+19-27	1142-1143	"	_	_	_	_	_	_	_	
+
+#Text=Li Jansson nämner aldrig att förvärvsfrekvens bland de med svenskt ursprung i samma åldrar är cirka 85 procent.
+20-1	1144-1146	Li	_	_	_	_	_	_	_	
+20-2	1147-1154	Jansson	_	_	_	_	_	_	_	
+20-3	1155-1161	nämner	_	_	_	_	_	_	_	
+20-4	1162-1168	aldrig	_	_	_	_	_	_	_	
+20-5	1169-1172	att	_	_	_	_	_	_	_	
+20-6	1173-1189	förvärvsfrekvens	_	_	_	_	_	_	_	
+20-7	1190-1195	bland	_	_	_	_	_	_	_	
+20-8	1196-1198	de	_	_	_	_	_	_	_	
+20-9	1199-1202	med	_	_	_	_	_	_	_	
+20-10	1203-1210	svenskt	_	_	_	_	_	_	_	
+20-11	1211-1219	ursprung	_	_	_	_	_	_	_	
+20-12	1220-1221	i	_	_	_	_	_	_	_	
+20-13	1222-1227	samma	_	_	_	_	_	_	_	
+20-14	1228-1234	åldrar	_	_	_	_	_	_	_	
+20-15	1235-1237	är	_	_	_	_	_	_	_	
+20-16	1238-1243	cirka	_	_	_	_	_	_	_	
+20-17	1244-1246	85	_	_	_	_	_	_	_	
+20-18	1247-1254	procent	_	_	_	_	_	_	_	
+20-19	1254-1255	.	_	_	_	_	_	_	_	
+
+#Text=Sysselsättningssituationen bland utomeuropeiska invandrare är med andra ord katastrofal i Sverige.
+21-1	1256-1282	Sysselsättningssituationen	*[32]	_	_	_	_	_	_	
+21-2	1283-1288	bland	*[32]	_	_	_	_	_	_	
+21-3	1289-1303	utomeuropeiska	*[32]	_	_	_	_	_	_	
+21-4	1304-1314	invandrare	*[32]	_	_	_	_	_	_	
+21-5	1315-1317	är	_	_	_	_	_	_	_	
+21-6	1318-1321	med	_	_	_	_	_	_	_	
+21-7	1322-1327	andra	_	_	_	_	_	_	_	
+21-8	1328-1331	ord	_	_	_	_	_	_	_	
+21-9	1332-1343	katastrofal	_	Target;Target	21-1[32];21-10[33]	false	1	_	_	
+21-10	1344-1345	i	*[33]	_	_	_	_	_	_	
+21-11	1346-1353	Sverige	*[33]	_	_	_	_	_	_	
+21-12	1353-1354	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1356-1357	#	*[34]	_	_	_	_	_	26-1[0_34]	
+22-2	1357-1358	P	*[34]	_	_	_	_	_	_	
+22-3	1359-1362	IMM	_	_	_	false	2	_	_	
+22-4	1362-1363	.	_	_	_	_	_	_	_	
+
+#Text=Ändå framställer hon och Almega, hennes arbetsgivare, invandring som en vinst.
+23-1	1365-1369	Ändå	_	_	_	_	_	_	_	
+23-2	1370-1381	framställer	_	_	_	_	_	_	_	
+23-3	1382-1385	hon	_	_	_	_	_	_	_	
+23-4	1386-1389	och	_	_	_	_	_	_	_	
+23-5	1390-1396	Almega	_	_	_	_	_	_	_	
+23-6	1396-1397	,	_	_	_	_	_	_	_	
+23-7	1398-1404	hennes	_	_	_	_	_	_	_	
+23-8	1405-1417	arbetsgivare	_	_	_	_	_	_	_	
+23-9	1417-1418	,	_	_	_	_	_	_	_	
+23-10	1419-1429	invandring	_	_	_	_	_	_	_	
+23-11	1430-1433	som	_	_	_	_	_	_	_	
+23-12	1434-1436	en	_	_	_	_	_	_	_	
+23-13	1437-1442	vinst	_	_	_	_	_	_	_	
+23-14	1442-1443	.	_	_	_	_	_	_	_	
+
+#Text=Hon skriver också: "Almega har specialstuderat utlandsfödda i arbetsför ålder, 25 till 64 år.
+24-1	1444-1447	Hon	_	_	_	_	_	_	_	
+24-2	1448-1455	skriver	_	_	_	_	_	_	_	
+24-3	1456-1461	också	_	_	_	_	_	_	_	
+24-4	1461-1462	:	_	_	_	_	_	_	_	
+24-5	1463-1464	"	_	_	_	_	_	_	_	
+24-6	1464-1470	Almega	_	_	_	_	_	_	_	
+24-7	1471-1474	har	_	_	_	_	_	_	_	
+24-8	1475-1490	specialstuderat	_	_	_	_	_	_	_	
+24-9	1491-1503	utlandsfödda	_	_	_	_	_	_	_	
+24-10	1504-1505	i	_	_	_	_	_	_	_	
+24-11	1506-1515	arbetsför	_	_	_	_	_	_	_	
+24-12	1516-1521	ålder	_	_	_	_	_	_	_	
+24-13	1521-1522	,	_	_	_	_	_	_	_	
+24-14	1523-1525	25	_	_	_	_	_	_	_	
+24-15	1526-1530	till	_	_	_	_	_	_	_	
+24-16	1531-1533	64	_	_	_	_	_	_	_	
+24-17	1534-1536	år	_	_	_	_	_	_	_	
+24-18	1536-1537	.	_	_	_	_	_	_	_	
+
+#Text=Bland dem har sysselsättningen ökat med 177 000 personer sedan 2007."
+25-1	1538-1543	Bland	_	_	_	_	_	_	_	
+25-2	1544-1547	dem	_	_	_	_	_	_	_	
+25-3	1548-1551	har	_	_	_	_	_	_	_	
+25-4	1552-1568	sysselsättningen	_	_	_	_	_	_	_	
+25-5	1569-1573	ökat	_	_	_	_	_	_	_	
+25-6	1574-1577	med	_	_	_	_	_	_	_	
+25-7	1578-1581	177	_	_	_	_	_	_	_	
+25-8	1582-1585	000	_	_	_	_	_	_	_	
+25-9	1586-1594	personer	_	_	_	_	_	_	_	
+25-10	1595-1600	sedan	_	_	_	_	_	_	_	
+25-11	1601-1605	2007	_	_	_	_	_	_	_	
+25-12	1605-1606	.	_	_	_	_	_	_	_	
+25-13	1606-1607	"	_	_	_	_	_	_	_	
+
+#Text=Detta är ju rent svammel.
+26-1	1608-1613	Detta	*	_	_	_	_	_	_	
+26-2	1614-1616	är	_	Target[8]	26-1	false[8]	1[8]	_	_	
+26-3	1617-1619	ju	_	Target[8]	26-1	false[8]	1[8]	_	_	
+26-4	1620-1624	rent	_	Target[8]	26-1	false[8]	1[8]	_	_	
+26-5	1625-1632	svammel	_	Target[8]	26-1	false[8]	1[8]	_	_	
+26-6	1632-1633	.	_	_	_	_	_	_	_	
+
+#Text=Sysselsättningen har ökat för att befolkningen har växt, inte på grund av att en signifikant högre andel arbetar.
+27-1	1634-1650	Sysselsättningen	_	_	_	_	_	_	_	
+27-2	1651-1654	har	_	_	_	_	_	_	_	
+27-3	1655-1659	ökat	_	_	_	_	_	_	_	
+27-4	1660-1663	för	_	_	_	_	_	_	_	
+27-5	1664-1667	att	_	_	_	_	_	_	_	
+27-6	1668-1680	befolkningen	_	_	_	_	_	_	_	
+27-7	1681-1684	har	_	_	_	_	_	_	_	
+27-8	1685-1689	växt	_	_	_	_	_	_	_	
+27-9	1689-1690	,	_	_	_	_	_	_	_	
+27-10	1691-1695	inte	_	_	_	_	_	_	_	
+27-11	1696-1698	på	_	_	_	_	_	_	_	
+27-12	1699-1704	grund	_	_	_	_	_	_	_	
+27-13	1705-1707	av	_	_	_	_	_	_	_	
+27-14	1708-1711	att	_	_	_	_	_	_	_	
+27-15	1712-1714	en	_	_	_	_	_	_	_	
+27-16	1715-1726	signifikant	_	_	_	_	_	_	_	
+27-17	1727-1732	högre	_	_	_	_	_	_	_	
+27-18	1733-1738	andel	_	_	_	_	_	_	_	
+27-19	1739-1746	arbetar	_	_	_	_	_	_	_	
+27-20	1746-1747	.	_	_	_	_	_	_	_	
+
+#Text=Ekonomer mäter inte sysselsättningsgrad i antal sysselsatta utan i procent.
+28-1	1748-1756	Ekonomer	_	_	_	_	_	_	_	
+28-2	1757-1762	mäter	_	_	_	_	_	_	_	
+28-3	1763-1767	inte	_	_	_	_	_	_	_	
+28-4	1768-1787	sysselsättningsgrad	_	_	_	_	_	_	_	
+28-5	1788-1789	i	_	_	_	_	_	_	_	
+28-6	1790-1795	antal	_	_	_	_	_	_	_	
+28-7	1796-1807	sysselsatta	_	_	_	_	_	_	_	
+28-8	1808-1812	utan	_	_	_	_	_	_	_	
+28-9	1813-1814	i	_	_	_	_	_	_	_	
+28-10	1815-1822	procent	_	_	_	_	_	_	_	
+28-11	1822-1823	.	_	_	_	_	_	_	_	
+
+#Text=Li Jansson framställer en befolkningsökning som en förbättring av integrationen.
+29-1	1824-1826	Li	_	_	_	_	_	_	_	
+29-2	1827-1834	Jansson	_	_	_	_	_	_	_	
+29-3	1835-1846	framställer	_	_	_	_	_	_	_	
+29-4	1847-1849	en	_	_	_	_	_	_	_	
+29-5	1850-1867	befolkningsökning	_	_	_	_	_	_	_	
+29-6	1868-1871	som	_	_	_	_	_	_	_	
+29-7	1872-1874	en	_	_	_	_	_	_	_	
+29-8	1875-1886	förbättring	*	Target	29-8	false	4	_	_	
+29-9	1887-1889	av	_	_	_	_	_	_	_	
+29-10	1890-1903	integrationen	_	_	_	_	_	_	_	
+29-11	1903-1904	.	_	_	_	_	_	_	_	
+
+#Text=Är det en ärlig forskningsredovisning?.
+30-1	1905-1907	Är	_	_	_	_	_	_	_	
+30-2	1908-1911	det	_	_	_	_	_	_	_	
+30-3	1912-1914	en	_	_	_	_	_	_	_	
+30-4	1915-1920	ärlig	_	Target;Source	30-5;30-6	false	4	_	_	
+30-5	1921-1942	forskningsredovisning	*	_	_	_	_	_	_	
+30-6	1942-1943	?	*	_	_	_	_	_	_	
+30-7	1943-1944	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1946-1947	#	_	_	_	_	_	_	_	
+31-2	1947-1948	P	_	_	_	_	_	_	_	
+31-3	1949-1952	IMM	_	_	_	false	3	_	_	
+31-4	1952-1953	.	_	_	_	_	_	_	_	
+
+#Text=Anders Bergström vid tankesmedjan Fores skriver att alla forskare redan vet att invandringen till Sverige inte är lönsam och kostar mellan 50 och 80 miljarder kronor.
+32-1	1955-1961	Anders	_	_	_	_	_	_	_	
+32-2	1962-1971	Bergström	_	_	_	_	_	_	_	
+32-3	1972-1975	vid	_	_	_	_	_	_	_	
+32-4	1976-1988	tankesmedjan	_	_	_	_	_	_	_	
+32-5	1989-1994	Fores	_	_	_	_	_	_	_	
+32-6	1995-2002	skriver	_	_	_	_	_	_	_	
+32-7	2003-2006	att	_	_	_	_	_	_	_	
+32-8	2007-2011	alla	_	_	_	_	_	_	_	
+32-9	2012-2020	forskare	_	_	_	_	_	_	_	
+32-10	2021-2026	redan	_	_	_	_	_	_	_	
+32-11	2027-2030	vet	_	_	_	_	_	_	_	
+32-12	2031-2034	att	_	_	_	_	_	_	_	
+32-13	2035-2047	invandringen	_	_	_	_	_	_	_	
+32-14	2048-2052	till	_	_	_	_	_	_	_	
+32-15	2053-2060	Sverige	_	_	_	_	_	_	_	
+32-16	2061-2065	inte	_	_	_	_	_	_	_	
+32-17	2066-2068	är	_	_	_	_	_	_	_	
+32-18	2069-2075	lönsam	_	_	_	_	_	_	_	
+32-19	2076-2079	och	_	_	_	_	_	_	_	
+32-20	2080-2086	kostar	_	_	_	_	_	_	_	
+32-21	2087-2093	mellan	_	_	_	_	_	_	_	
+32-22	2094-2096	50	_	_	_	_	_	_	_	
+32-23	2097-2100	och	_	_	_	_	_	_	_	
+32-24	2101-2103	80	_	_	_	_	_	_	_	
+32-25	2104-2113	miljarder	_	_	_	_	_	_	_	
+32-26	2114-2120	kronor	_	_	_	_	_	_	_	
+32-27	2120-2121	.	_	_	_	_	_	_	_	
+
+#Text=Några månader tidigare skrev Fores på betald annonsplats i Dagens Nyheter: "I Sverige bidrar invandrarna mer till stat och kommun än de får tillbaka".
+33-1	2122-2127	Några	_	_	_	_	_	_	_	
+33-2	2128-2135	månader	_	_	_	_	_	_	_	
+33-3	2136-2144	tidigare	_	_	_	_	_	_	_	
+33-4	2145-2150	skrev	_	_	_	_	_	_	_	
+33-5	2151-2156	Fores	_	_	_	_	_	_	_	
+33-6	2157-2159	på	_	_	_	_	_	_	_	
+33-7	2160-2166	betald	_	_	_	_	_	_	_	
+33-8	2167-2178	annonsplats	_	_	_	_	_	_	_	
+33-9	2179-2180	i	_	_	_	_	_	_	_	
+33-10	2181-2187	Dagens	_	_	_	_	_	_	_	
+33-11	2188-2195	Nyheter	_	_	_	_	_	_	_	
+33-12	2195-2196	:	_	_	_	_	_	_	_	
+33-13	2197-2198	"	_	_	_	_	_	_	_	
+33-14	2198-2199	I	_	_	_	_	_	_	_	
+33-15	2200-2207	Sverige	_	_	_	_	_	_	_	
+33-16	2208-2214	bidrar	_	_	_	_	_	_	_	
+33-17	2215-2226	invandrarna	_	_	_	_	_	_	_	
+33-18	2227-2230	mer	_	_	_	_	_	_	_	
+33-19	2231-2235	till	_	_	_	_	_	_	_	
+33-20	2236-2240	stat	_	_	_	_	_	_	_	
+33-21	2241-2244	och	_	_	_	_	_	_	_	
+33-22	2245-2251	kommun	_	_	_	_	_	_	_	
+33-23	2252-2254	än	_	_	_	_	_	_	_	
+33-24	2255-2257	de	_	_	_	_	_	_	_	
+33-25	2258-2261	får	_	_	_	_	_	_	_	
+33-26	2262-2270	tillbaka	_	_	_	_	_	_	_	
+33-27	2270-2271	"	_	_	_	_	_	_	_	
+33-28	2271-2272	.	_	_	_	_	_	_	_	
+
+#Text=Att komma med så motstridiga uppgifter förtjänar inte något ytterligare svar från min sida.
+34-1	2273-2276	Att	*[35]	_	_	_	_	_	_	
+34-2	2277-2282	komma	*[35]	_	_	_	_	_	_	
+34-3	2283-2286	med	*[35]	_	_	_	_	_	_	
+34-4	2287-2289	så	*[35]	_	_	_	_	_	_	
+34-5	2290-2301	motstridiga	*[35]	_	_	_	_	_	_	
+34-6	2302-2311	uppgifter	*[35]	_	_	_	_	_	_	
+34-7	2312-2321	förtjänar	_	Target[9]	34-1[35]	false[9]	2[9]	_	_	
+34-8	2322-2326	inte	_	Target[9]	34-1[35]	false[9]	2[9]	_	_	
+34-9	2327-2332	något	_	Target[9]	34-1[35]	false[9]	2[9]	_	_	
+34-10	2333-2344	ytterligare	_	Target[9]	34-1[35]	false[9]	2[9]	_	_	
+34-11	2345-2349	svar	_	Target[9]	34-1[35]	false[9]	2[9]	_	_	
+34-12	2350-2354	från	_	_	_	_	_	_	_	
+34-13	2355-2358	min	_	_	_	_	_	_	_	
+34-14	2359-2363	sida	_	_	_	_	_	_	_	
+34-15	2363-2364	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2366-2367	#	_	_	_	_	_	_	_	
+35-2	2367-2368	P	_	_	_	_	_	_	_	
+35-3	2369-2372	IMM	_	_	_	_	_	_	_	
+35-4	2372-2373	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+36-1	2375-2388	Skräddarsydda	_	_	_	_	_	_	_	
+36-2	2389-2395	kurser	_	_	_	_	_	_	_	
+36-3	2396-2397	i	_	_	_	_	_	_	_	
+36-4	2398-2403	ämnen	_	_	_	_	_	_	_	
+36-5	2404-2407	som	_	_	_	_	_	_	_	
+36-6	2408-2419	intresserar	_	_	_	_	_	_	_	
+36-7	2420-2423	och	_	_	_	_	_	_	_	
+36-8	2424-2433	engagerar	_	_	_	_	_	_	_	
+36-9	2434-2438	både	_	_	_	_	_	_	_	
+36-10	2439-2444	kropp	_	_	_	_	_	_	_	
+36-11	2445-2448	och	_	_	_	_	_	_	_	
+36-12	2449-2453	själ	_	_	_	_	_	_	_	
+36-13	2453-2454	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2456-2457	#	_	_	_	_	_	_	_	
+37-2	2457-2458	P	_	_	_	_	_	_	_	
+37-3	2459-2462	IMM	_	_	_	_	_	_	_	
+37-4	2462-2463	.	_	_	_	_	_	_	_	
+
+#Text=**Norska forskare har **skickat mig e-post med bra svensk forskning, för att komma sina svenska kollegor till undsättning.
+38-1	2465-2466	*	_	_	_	_	_	_	_	
+38-2	2466-2467	*	_	_	_	_	_	_	_	
+38-3	2467-2473	Norska	_	_	_	_	_	_	_	
+38-4	2474-2482	forskare	_	_	_	_	_	_	_	
+38-5	2483-2486	har	_	_	_	_	_	_	_	
+38-6	2487-2488	*	_	_	_	_	_	_	_	
+38-7	2488-2489	*	_	_	_	_	_	_	_	
+38-8	2489-2496	skickat	_	_	_	_	_	_	_	
+38-9	2497-2500	mig	_	_	_	_	_	_	_	
+38-10	2501-2507	e-post	_	_	_	_	_	_	_	
+38-11	2508-2511	med	_	_	_	_	_	_	_	
+38-12	2512-2515	bra	*[36]	Target	38-12[36]	false	4	_	_	
+38-13	2516-2522	svensk	*[36]	_	_	_	_	_	_	
+38-14	2523-2532	forskning	*[36]	_	_	_	_	_	_	
+38-15	2532-2533	,	_	_	_	_	_	_	_	
+38-16	2534-2537	för	_	_	_	_	_	_	_	
+38-17	2538-2541	att	_	_	_	_	_	_	_	
+38-18	2542-2547	komma	_	_	_	_	_	_	_	
+38-19	2548-2552	sina	_	_	_	_	_	_	_	
+38-20	2553-2560	svenska	_	_	_	_	_	_	_	
+38-21	2561-2569	kollegor	_	_	_	_	_	_	_	
+38-22	2570-2574	till	_	_	_	_	_	_	_	
+38-23	2575-2586	undsättning	_	_	_	_	_	_	_	
+38-24	2586-2587	.	_	_	_	_	_	_	_	
+
+#Text=Men den är bara publicerad i smala akademiska tidskrifter och på engelska.
+39-1	2588-2591	Men	_	_	_	_	_	_	_	
+39-2	2592-2595	den	_	_	_	_	_	_	_	
+39-3	2596-2598	är	_	_	_	_	_	_	_	
+39-4	2599-2603	bara	_	_	_	_	_	_	_	
+39-5	2604-2614	publicerad	_	_	_	_	_	_	_	
+39-6	2615-2616	i	_	_	_	_	_	_	_	
+39-7	2617-2622	smala	_	_	_	_	_	_	_	
+39-8	2623-2633	akademiska	_	_	_	_	_	_	_	
+39-9	2634-2645	tidskrifter	_	_	_	_	_	_	_	
+39-10	2646-2649	och	_	_	_	_	_	_	_	
+39-11	2650-2652	på	_	_	_	_	_	_	_	
+39-12	2653-2661	engelska	_	_	_	_	_	_	_	
+39-13	2661-2662	.	_	_	_	_	_	_	_	
+
+#Text=Sådant ger forskaren internationell akademisk status, men når inte fram till den allmänhet som faktiskt avlönar forskaren genom sin skattsedel.
+40-1	2663-2669	Sådant	_	_	_	_	_	_	_	
+40-2	2670-2673	ger	_	_	_	_	_	_	_	
+40-3	2674-2683	forskaren	_	_	_	_	_	_	_	
+40-4	2684-2698	internationell	_	_	_	_	_	_	_	
+40-5	2699-2708	akademisk	_	_	_	_	_	_	_	
+40-6	2709-2715	status	_	_	_	_	_	_	_	
+40-7	2715-2716	,	_	_	_	_	_	_	_	
+40-8	2717-2720	men	_	_	_	_	_	_	_	
+40-9	2721-2724	når	_	_	_	_	_	_	_	
+40-10	2725-2729	inte	_	_	_	_	_	_	_	
+40-11	2730-2734	fram	_	_	_	_	_	_	_	
+40-12	2735-2739	till	_	_	_	_	_	_	_	
+40-13	2740-2743	den	_	_	_	_	_	_	_	
+40-14	2744-2753	allmänhet	_	_	_	_	_	_	_	
+40-15	2754-2757	som	_	_	_	_	_	_	_	
+40-16	2758-2766	faktiskt	_	_	_	_	_	_	_	
+40-17	2767-2774	avlönar	_	_	_	_	_	_	_	
+40-18	2775-2784	forskaren	_	_	_	_	_	_	_	
+40-19	2785-2790	genom	_	_	_	_	_	_	_	
+40-20	2791-2794	sin	_	_	_	_	_	_	_	
+40-21	2795-2805	skattsedel	_	_	_	_	_	_	_	
+40-22	2805-2806	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2808-2809	#	_	_	_	_	_	_	_	
+41-2	2809-2810	P	_	_	_	_	_	_	_	
+41-3	2811-2814	IMM	_	_	_	false	3	_	_	
+41-4	2814-2815	.	_	_	_	_	_	_	_	
+
+#Text=Jag hade med andra ord fel om svenska registeruppgifter.
+42-1	2817-2820	Jag	*[37]|*[38]	_	_	_	_	_	_	
+42-2	2821-2825	hade	_	Target	42-1[37]	false	2	42-6	_	
+42-3	2826-2829	med	_	_	_	_	_	_	_	
+42-4	2830-2835	andra	_	_	_	_	_	_	_	
+42-5	2836-2839	ord	_	_	_	_	_	_	_	
+42-6	2840-2843	fel	_	Target	42-1[38]	false	2	_	_	
+42-7	2844-2846	om	_	_	_	_	_	_	_	
+42-8	2847-2854	svenska	_	_	_	_	_	_	_	
+42-9	2855-2872	registeruppgifter	_	_	_	_	_	_	_	
+42-10	2872-2873	.	_	_	_	_	_	_	_	
+
+#Text=Även Sverige har tillräckligt bra data för att räkna ut vad olika grupper av invandrare ekonomiskt bidrar med eller kostar.
+43-1	2874-2878	Även	_	_	_	_	_	_	_	
+43-2	2879-2886	Sverige	*[39]	_	_	_	_	_	_	
+43-3	2887-2890	har	*[39]	_	_	_	_	_	_	
+43-4	2891-2903	tillräckligt	*[39]	Target[10]	43-2[39]	false[10]	4[10]	_	_	
+43-5	2904-2907	bra	*[39]	Target[10]	43-2[39]	false[10]	4[10]	_	_	
+43-6	2908-2912	data	*[39]	_	_	_	_	_	_	
+43-7	2913-2916	för	_	_	_	_	_	_	_	
+43-8	2917-2920	att	_	_	_	_	_	_	_	
+43-9	2921-2926	räkna	_	_	_	_	_	_	_	
+43-10	2927-2929	ut	_	_	_	_	_	_	_	
+43-11	2930-2933	vad	_	_	_	_	_	_	_	
+43-12	2934-2939	olika	_	_	_	_	_	_	_	
+43-13	2940-2947	grupper	_	_	_	_	_	_	_	
+43-14	2948-2950	av	_	_	_	_	_	_	_	
+43-15	2951-2961	invandrare	_	_	_	_	_	_	_	
+43-16	2962-2972	ekonomiskt	_	_	_	_	_	_	_	
+43-17	2973-2979	bidrar	_	_	_	_	_	_	_	
+43-18	2980-2983	med	_	_	_	_	_	_	_	
+43-19	2984-2989	eller	_	_	_	_	_	_	_	
+43-20	2990-2996	kostar	_	_	_	_	_	_	_	
+43-21	2996-2997	.	_	_	_	_	_	_	_	
+
+#Text=Skillnaden är att i Norge har sådana detaljerade beräkningar genomförts och redovisats för allmänheten.
+44-1	2998-3008	Skillnaden	_	_	_	_	_	_	_	
+44-2	3009-3011	är	_	_	_	_	_	_	_	
+44-3	3012-3015	att	_	_	_	_	_	_	_	
+44-4	3016-3017	i	_	_	_	_	_	_	_	
+44-5	3018-3023	Norge	_	_	_	_	_	_	_	
+44-6	3024-3027	har	_	_	_	_	_	_	_	
+44-7	3028-3034	sådana	_	_	_	_	_	_	_	
+44-8	3035-3046	detaljerade	_	_	_	_	_	_	_	
+44-9	3047-3058	beräkningar	_	_	_	_	_	_	_	
+44-10	3059-3069	genomförts	_	_	_	_	_	_	_	
+44-11	3070-3073	och	_	_	_	_	_	_	_	
+44-12	3074-3084	redovisats	_	_	_	_	_	_	_	
+44-13	3085-3088	för	_	_	_	_	_	_	_	
+44-14	3089-3100	allmänheten	_	_	_	_	_	_	_	
+44-15	3100-3101	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3103-3104	#	_	_	_	_	_	_	_	
+45-2	3104-3105	P	_	_	_	_	_	_	_	
+45-3	3106-3109	IMM	_	_	_	false	3	_	_	
+45-4	3109-3110	.	_	_	_	_	_	_	_	
+
+#Text=I Sverige har dessa data inte utnyttjats.
+46-1	3112-3113	I	_	_	_	_	_	_	_	
+46-2	3114-3121	Sverige	_	_	_	_	_	_	_	
+46-3	3122-3125	har	_	_	_	_	_	_	_	
+46-4	3126-3131	dessa	_	_	_	_	_	_	_	
+46-5	3132-3136	data	_	_	_	_	_	_	_	
+46-6	3137-3141	inte	_	_	_	_	_	_	_	
+46-7	3142-3152	utnyttjats	_	_	_	_	_	_	_	
+46-8	3152-3153	.	_	_	_	_	_	_	_	
+
+#Text=Ingen forskare har någonsin räknat ut vad utomeuropeisk invandring kostar i ett längre tidsperspektiv, trots att det bör kunna genomföras.
+47-1	3154-3159	Ingen	_	_	_	_	_	_	_	
+47-2	3160-3168	forskare	_	_	_	_	_	_	_	
+47-3	3169-3172	har	_	_	_	_	_	_	_	
+47-4	3173-3181	någonsin	_	_	_	_	_	_	_	
+47-5	3182-3188	räknat	_	_	_	_	_	_	_	
+47-6	3189-3191	ut	_	_	_	_	_	_	_	
+47-7	3192-3195	vad	_	_	_	_	_	_	_	
+47-8	3196-3209	utomeuropeisk	_	_	_	_	_	_	_	
+47-9	3210-3220	invandring	_	_	_	_	_	_	_	
+47-10	3221-3227	kostar	_	_	_	_	_	_	_	
+47-11	3228-3229	i	_	_	_	_	_	_	_	
+47-12	3230-3233	ett	_	_	_	_	_	_	_	
+47-13	3234-3240	längre	_	_	_	_	_	_	_	
+47-14	3241-3255	tidsperspektiv	_	_	_	_	_	_	_	
+47-15	3255-3256	,	_	_	_	_	_	_	_	
+47-16	3257-3262	trots	_	_	_	_	_	_	_	
+47-17	3263-3266	att	_	_	_	_	_	_	_	
+47-18	3267-3270	det	_	_	_	_	_	_	_	
+47-19	3271-3274	bör	_	_	_	_	_	_	_	
+47-20	3275-3280	kunna	_	_	_	_	_	_	_	
+47-21	3281-3291	genomföras	_	_	_	_	_	_	_	
+47-22	3291-3292	.	_	_	_	_	_	_	_	
+
+#Text=Ingen har räknat separat på flykting- och anhöriginvandring samt arbetskraftsinvandring.
+48-1	3293-3298	Ingen	_	_	_	_	_	_	_	
+48-2	3299-3302	har	_	_	_	_	_	_	_	
+48-3	3303-3309	räknat	_	_	_	_	_	_	_	
+48-4	3310-3317	separat	_	_	_	_	_	_	_	
+48-5	3318-3320	på	_	_	_	_	_	_	_	
+48-6	3321-3329	flykting	_	_	_	_	_	_	_	
+48-7	3329-3330	-	_	_	_	_	_	_	_	
+48-8	3331-3334	och	_	_	_	_	_	_	_	
+48-9	3335-3352	anhöriginvandring	_	_	_	_	_	_	_	
+48-10	3353-3357	samt	_	_	_	_	_	_	_	
+48-11	3358-3380	arbetskraftsinvandring	_	_	_	_	_	_	_	
+48-12	3380-3381	.	_	_	_	_	_	_	_	
+
+#Text=Det går, ändå har det inte gjorts.
+49-1	3382-3385	Det	_	_	_	_	_	_	_	
+49-2	3386-3389	går	_	_	_	_	_	_	_	
+49-3	3389-3390	,	_	_	_	_	_	_	_	
+49-4	3391-3395	ändå	_	_	_	_	_	_	_	
+49-5	3396-3399	har	_	_	_	_	_	_	_	
+49-6	3400-3403	det	_	_	_	_	_	_	_	
+49-7	3404-3408	inte	_	_	_	_	_	_	_	
+49-8	3409-3415	gjorts	_	_	_	_	_	_	_	
+49-9	3415-3416	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3418-3419	#	_	_	_	_	_	_	_	
+50-2	3419-3420	P	_	_	_	_	_	_	_	
+50-3	3421-3424	IMM	_	_	_	false	3	_	_	
+50-4	3424-3425	.	_	_	_	_	_	_	_	
+
+#Text=Av debatten har jag också lärt mig att den senast genomförda beräkningen av invandringens kostnader gjord av en svensk nationalekonom skedde utifrån 2006 års förhållanden, det vill säga baserat på åtta år gamla siffror.
+51-1	3427-3429	Av	_	_	_	_	_	_	_	
+51-2	3430-3438	debatten	_	_	_	_	_	_	_	
+51-3	3439-3442	har	_	_	_	_	_	_	_	
+51-4	3443-3446	jag	_	_	_	_	_	_	_	
+51-5	3447-3452	också	_	_	_	_	_	_	_	
+51-6	3453-3457	lärt	_	_	_	_	_	_	_	
+51-7	3458-3461	mig	_	_	_	_	_	_	_	
+51-8	3462-3465	att	_	_	_	_	_	_	_	
+51-9	3466-3469	den	_	_	_	_	_	_	_	
+51-10	3470-3476	senast	_	_	_	_	_	_	_	
+51-11	3477-3487	genomförda	_	_	_	_	_	_	_	
+51-12	3488-3499	beräkningen	_	_	_	_	_	_	_	
+51-13	3500-3502	av	_	_	_	_	_	_	_	
+51-14	3503-3516	invandringens	_	_	_	_	_	_	_	
+51-15	3517-3526	kostnader	_	_	_	_	_	_	_	
+51-16	3527-3532	gjord	_	_	_	_	_	_	_	
+51-17	3533-3535	av	_	_	_	_	_	_	_	
+51-18	3536-3538	en	_	_	_	_	_	_	_	
+51-19	3539-3545	svensk	_	_	_	_	_	_	_	
+51-20	3546-3560	nationalekonom	_	_	_	_	_	_	_	
+51-21	3561-3567	skedde	_	_	_	_	_	_	_	
+51-22	3568-3575	utifrån	_	_	_	_	_	_	_	
+51-23	3576-3580	2006	_	_	_	_	_	_	_	
+51-24	3581-3584	års	_	_	_	_	_	_	_	
+51-25	3585-3597	förhållanden	_	_	_	_	_	_	_	
+51-26	3597-3598	,	_	_	_	_	_	_	_	
+51-27	3599-3602	det	_	_	_	_	_	_	_	
+51-28	3603-3607	vill	_	_	_	_	_	_	_	
+51-29	3608-3612	säga	_	_	_	_	_	_	_	
+51-30	3613-3620	baserat	_	_	_	_	_	_	_	
+51-31	3621-3623	på	_	_	_	_	_	_	_	
+51-32	3624-3628	åtta	_	_	_	_	_	_	_	
+51-33	3629-3631	år	_	_	_	_	_	_	_	
+51-34	3632-3637	gamla	_	_	_	_	_	_	_	
+51-35	3638-3645	siffror	_	_	_	_	_	_	_	
+51-36	3645-3646	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3648-3649	#	_	_	_	_	_	_	_	
+52-2	3649-3650	P	_	_	_	_	_	_	_	
+52-3	3651-3654	IMM	_	_	_	false	2	_	_	
+52-4	3654-3655	.	_	_	_	_	_	_	_	
+
+#Text=Sedan dess har antalet utrikes födda ökat med en halv miljon, och frågan har blivit viktigare.
+53-1	3657-3662	Sedan	_	_	_	_	_	_	_	
+53-2	3663-3667	dess	_	_	_	_	_	_	_	
+53-3	3668-3671	har	_	_	_	_	_	_	_	
+53-4	3672-3679	antalet	_	_	_	_	_	_	_	
+53-5	3680-3687	utrikes	_	_	_	_	_	_	_	
+53-6	3688-3693	födda	_	_	_	_	_	_	_	
+53-7	3694-3698	ökat	_	_	_	_	_	_	_	
+53-8	3699-3702	med	_	_	_	_	_	_	_	
+53-9	3703-3705	en	_	_	_	_	_	_	_	
+53-10	3706-3710	halv	_	_	_	_	_	_	_	
+53-11	3711-3717	miljon	_	_	_	_	_	_	_	
+53-12	3717-3718	,	_	_	_	_	_	_	_	
+53-13	3719-3722	och	_	_	_	_	_	_	_	
+53-14	3723-3729	frågan	*	_	_	_	_	_	_	
+53-15	3730-3733	har	_	Target[11]	53-14	false[11]	4[11]	_	_	
+53-16	3734-3740	blivit	_	Target[11]	53-14	false[11]	4[11]	_	_	
+53-17	3741-3750	viktigare	_	Target[11]	53-14	false[11]	4[11]	_	_	
+53-18	3750-3751	.	_	_	_	_	_	_	_	
+
+#Text=Ändå är det snarast svårare att hitta aktuell data.
+54-1	3752-3756	Ändå	_	_	_	_	_	_	_	
+54-2	3757-3759	är	_	_	_	_	_	_	_	
+54-3	3760-3763	det	_	_	_	_	_	_	_	
+54-4	3764-3771	snarast	_	Target[12]	54-6[40]	false[12]	2[12]	_	_	
+54-5	3772-3779	svårare	_	Target[12]	54-6[40]	false[12]	2[12]	_	_	
+54-6	3780-3783	att	*[40]	_	_	_	_	_	_	
+54-7	3784-3789	hitta	*[40]	_	_	_	_	_	_	
+54-8	3790-3797	aktuell	*[40]	_	_	_	_	_	_	
+54-9	3798-3802	data	*[40]	_	_	_	_	_	_	
+54-10	3802-3803	.	_	_	_	_	_	_	_	
+
+#Text=Senaste tillfället svenska myndigheter redovisade invandrares överrepresentation i brottslighet var 2005.
+55-1	3804-3811	Senaste	_	_	_	_	_	_	_	
+55-2	3812-3822	tillfället	_	_	_	_	_	_	_	
+55-3	3823-3830	svenska	_	_	_	_	_	_	_	
+55-4	3831-3842	myndigheter	_	_	_	_	_	_	_	
+55-5	3843-3853	redovisade	_	_	_	_	_	_	_	
+55-6	3854-3865	invandrares	*	_	_	_	_	_	_	
+55-7	3866-3884	överrepresentation	_	Target[13]	55-6	false[13]	2[13]	_	_	
+55-8	3885-3886	i	_	Target[13]	55-6	false[13]	2[13]	_	_	
+55-9	3887-3899	brottslighet	_	Target[13]	55-6	false[13]	2[13]	_	_	
+55-10	3900-3903	var	_	_	_	_	_	_	_	
+55-11	3904-3908	2005	_	_	_	_	_	_	_	
+55-12	3908-3909	.	_	_	_	_	_	_	_	
+
+#Text=Svenska myndigheter har inte rätt att samla in data på födelseland för de som sitter i fängelse.
+56-1	3910-3917	Svenska	_	_	_	_	_	_	_	
+56-2	3918-3929	myndigheter	_	_	_	_	_	_	_	
+56-3	3930-3933	har	_	_	_	_	_	_	_	
+56-4	3934-3938	inte	_	_	_	_	_	_	_	
+56-5	3939-3943	rätt	_	_	_	_	_	_	_	
+56-6	3944-3947	att	_	_	_	_	_	_	_	
+56-7	3948-3953	samla	_	_	_	_	_	_	_	
+56-8	3954-3956	in	_	_	_	_	_	_	_	
+56-9	3957-3961	data	_	_	_	_	_	_	_	
+56-10	3962-3964	på	_	_	_	_	_	_	_	
+56-11	3965-3976	födelseland	_	_	_	_	_	_	_	
+56-12	3977-3980	för	_	_	_	_	_	_	_	
+56-13	3981-3983	de	_	_	_	_	_	_	_	
+56-14	3984-3987	som	_	_	_	_	_	_	_	
+56-15	3988-3994	sitter	_	_	_	_	_	_	_	
+56-16	3995-3996	i	_	_	_	_	_	_	_	
+56-17	3997-4005	fängelse	_	_	_	_	_	_	_	
+56-18	4005-4006	.	_	_	_	_	_	_	_	
+
+#Text=Vad försöker svenska politiker dölja?.
+57-1	4007-4010	Vad	_	_	_	_	_	_	_	
+57-2	4011-4019	försöker	_	_	_	_	_	_	_	
+57-3	4020-4027	svenska	_	_	_	_	_	_	_	
+57-4	4028-4037	politiker	_	_	_	_	_	_	_	
+57-5	4038-4043	dölja	_	_	_	_	_	_	_	
+57-6	4043-4044	?	_	_	_	_	_	_	_	
+57-7	4044-4045	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4047-4048	#	_	_	_	_	_	_	_	
+58-2	4048-4049	P	_	_	_	_	_	_	_	
+58-3	4050-4053	IMM	_	_	_	false	2	_	_	
+58-4	4053-4054	.	_	_	_	_	_	_	_	
+
+#Text=Jag hade med andra ord fel om registerstatistik.
+59-1	4056-4059	Jag	*[41]|*[42]	_	_	_	_	_	_	
+59-2	4060-4064	hade	_	Target	59-1[41]	false	2	59-6	_	
+59-3	4065-4068	med	_	_	_	_	_	_	_	
+59-4	4069-4074	andra	_	_	_	_	_	_	_	
+59-5	4075-4078	ord	_	_	_	_	_	_	_	
+59-6	4079-4082	fel	_	Target	59-1[42]	false	2	_	_	
+59-7	4083-4085	om	_	_	_	_	_	_	_	
+59-8	4086-4103	registerstatistik	_	_	_	_	_	_	_	
+59-9	4103-4104	.	_	_	_	_	_	_	_	
+
+#Text=Mina motståndares svar förstärker dock bilden av ett land där integrationsproblematikens kostnader aktivt döljs för allmänheten.
+60-1	4105-4109	Mina	_	_	_	_	_	_	_	
+60-2	4110-4122	motståndares	_	_	_	_	_	_	_	
+60-3	4123-4127	svar	_	_	_	_	_	_	_	
+60-4	4128-4138	förstärker	_	_	_	_	_	_	_	
+60-5	4139-4143	dock	_	_	_	_	_	_	_	
+60-6	4144-4150	bilden	_	_	_	_	_	_	_	
+60-7	4151-4153	av	_	_	_	_	_	_	_	
+60-8	4154-4157	ett	*[43]	_	_	_	_	_	60-10[0_43]	
+60-9	4158-4162	land	*[43]	_	_	_	_	_	_	
+60-10	4163-4166	där	*	_	_	_	_	_	_	
+60-11	4167-4193	integrationsproblematikens	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-12	4194-4203	kostnader	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-13	4204-4210	aktivt	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-14	4211-4216	döljs	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-15	4217-4220	för	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-16	4221-4232	allmänheten	_	Target[14]	60-10	false[14]	2[14]	_	_	
+60-17	4232-4233	.	_	_	_	_	_	_	_	
+
+#Text=De som svarade mig medgav att invandring kostar "50-80 miljarder" per år enligt forskningen och att bara 54 procent av utomeuropeiska invandrare arbetar.
+61-1	4234-4236	De	_	_	_	_	_	_	_	
+61-2	4237-4240	som	_	_	_	_	_	_	_	
+61-3	4241-4248	svarade	_	_	_	_	_	_	_	
+61-4	4249-4252	mig	_	_	_	_	_	_	_	
+61-5	4253-4259	medgav	_	_	_	_	_	_	_	
+61-6	4260-4263	att	_	_	_	_	_	_	_	
+61-7	4264-4274	invandring	_	_	_	_	_	_	_	
+61-8	4275-4281	kostar	_	_	_	_	_	_	_	
+61-9	4282-4283	"	_	_	_	_	_	_	_	
+61-10	4283-4285	50	_	_	_	_	_	_	_	
+61-11	4285-4286	-	_	_	_	_	_	_	_	
+61-12	4286-4288	80	_	_	_	_	_	_	_	
+61-13	4289-4298	miljarder	_	_	_	_	_	_	_	
+61-14	4298-4299	"	_	_	_	_	_	_	_	
+61-15	4300-4303	per	_	_	_	_	_	_	_	
+61-16	4304-4306	år	_	_	_	_	_	_	_	
+61-17	4307-4313	enligt	_	_	_	_	_	_	_	
+61-18	4314-4325	forskningen	_	_	_	_	_	_	_	
+61-19	4326-4329	och	_	_	_	_	_	_	_	
+61-20	4330-4333	att	_	_	_	_	_	_	_	
+61-21	4334-4338	bara	_	_	_	_	_	_	_	
+61-22	4339-4341	54	_	_	_	_	_	_	_	
+61-23	4342-4349	procent	_	_	_	_	_	_	_	
+61-24	4350-4352	av	_	_	_	_	_	_	_	
+61-25	4353-4367	utomeuropeiska	_	_	_	_	_	_	_	
+61-26	4368-4378	invandrare	_	_	_	_	_	_	_	
+61-27	4379-4386	arbetar	_	_	_	_	_	_	_	
+61-28	4386-4387	.	_	_	_	_	_	_	_	
+
+#Text=Varför är detta inte allmänt känt?
+62-1	4388-4394	Varför	_	_	_	_	_	_	_	
+62-2	4395-4397	är	_	_	_	_	_	_	_	
+62-3	4398-4403	detta	_	_	_	_	_	_	_	
+62-4	4404-4408	inte	_	_	_	_	_	_	_	
+62-5	4409-4416	allmänt	_	_	_	_	_	_	_	
+62-6	4417-4421	känt	_	_	_	_	_	_	_	
+62-7	4421-4422	?	_	_	_	_	_	_	_	
+
+#Text=Är det för att invandring inte är en viktig politiskt fråga i Sverige som allmänheten inte är nyfiken på?
+63-1	4423-4425	Är	_	_	_	_	_	_	_	
+63-2	4426-4429	det	_	_	_	_	_	_	_	
+63-3	4430-4433	för	_	_	_	_	_	_	_	
+63-4	4434-4437	att	_	_	_	_	_	_	_	
+63-5	4438-4448	invandring	*	_	_	_	_	_	_	
+63-6	4449-4453	inte	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-7	4454-4456	är	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-8	4457-4459	en	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-9	4460-4466	viktig	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-10	4467-4476	politiskt	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-11	4477-4482	fråga	_	Source;Target[15]	63-20;63-5	false[15]	3[15]	_	_	
+63-12	4483-4484	i	_	_	_	_	_	_	_	
+63-13	4485-4492	Sverige	_	_	_	_	_	_	_	
+63-14	4493-4496	som	_	_	_	_	_	_	_	
+63-15	4497-4508	allmänheten	_	_	_	_	_	_	_	
+63-16	4509-4513	inte	_	_	_	_	_	_	_	
+63-17	4514-4516	är	_	_	_	_	_	_	_	
+63-18	4517-4524	nyfiken	_	_	_	_	_	_	_	
+63-19	4525-4527	på	_	_	_	_	_	_	_	
+63-20	4527-4528	?	*	_	_	_	_	_	_	
+
+#Text=Det tvivlar jag på.
+64-1	4529-4532	Det	_	_	_	_	_	_	_	
+64-2	4533-4540	tvivlar	_	_	_	_	_	_	_	
+64-3	4541-4544	jag	_	_	_	_	_	_	_	
+64-4	4545-4547	på	_	_	_	_	_	_	_	
+64-5	4547-4548	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4550-4551	#	_	_	_	_	_	_	_	
+65-2	4551-4552	P	_	_	_	_	_	_	_	
+65-3	4553-4556	IMM	_	_	_	_	_	_	_	
+65-4	4556-4557	.	_	_	_	_	_	_	_	
+
+#Text=På sin blogg 26 september skriver nationalekonomen Tino Sanandaji att "Problemet är inte att svensk forskning är korrumperad, utan att media och politikerna har varit korrupta i sin rapportering av forskningsläget.
+66-1	4559-4561	På	_	_	_	_	_	_	_	
+66-2	4562-4565	sin	_	_	_	_	_	_	_	
+66-3	4566-4571	blogg	_	_	_	_	_	_	_	
+66-4	4572-4574	26	_	_	_	_	_	_	_	
+66-5	4575-4584	september	_	_	_	_	_	_	_	
+66-6	4585-4592	skriver	_	_	_	_	_	_	_	
+66-7	4593-4609	nationalekonomen	*[44]	_	_	_	_	_	_	
+66-8	4610-4614	Tino	*[44]	_	_	_	_	_	_	
+66-9	4615-4624	Sanandaji	*[44]	_	_	_	_	_	_	
+66-10	4625-4628	att	_	_	_	_	_	_	_	
+66-11	4629-4630	"	_	_	_	_	_	_	_	
+66-12	4630-4639	Problemet	_	_	_	_	_	_	_	
+66-13	4640-4642	är	_	_	_	_	_	_	_	
+66-14	4643-4647	inte	_	_	_	_	_	_	_	
+66-15	4648-4651	att	_	_	_	_	_	_	_	
+66-16	4652-4658	svensk	_	_	_	_	_	_	_	
+66-17	4659-4668	forskning	_	_	_	_	_	_	_	
+66-18	4669-4671	är	_	_	_	_	_	_	_	
+66-19	4672-4683	korrumperad	_	_	_	_	_	_	_	
+66-20	4683-4684	,	_	_	_	_	_	_	_	
+66-21	4685-4689	utan	_	_	_	_	_	_	_	
+66-22	4690-4693	att	_	_	_	_	_	_	_	
+66-23	4694-4699	media	*[45]	_	_	_	_	_	_	
+66-24	4700-4703	och	*[45]	_	_	_	_	_	_	
+66-25	4704-4715	politikerna	*[45]	_	_	_	_	_	_	
+66-26	4716-4719	har	_	Source;Target;Target[16]	66-7[44];66-29[46];66-23[45]	false[16]	1[16]	_	_	
+66-27	4720-4725	varit	_	Source;Target;Target[16]	66-7[44];66-29[46];66-23[45]	false[16]	1[16]	_	_	
+66-28	4726-4734	korrupta	_	Source;Target;Target[16]	66-7[44];66-29[46];66-23[45]	false[16]	1[16]	_	_	
+66-29	4735-4736	i	*[46]	_	_	_	_	_	_	
+66-30	4737-4740	sin	*[46]	_	_	_	_	_	_	
+66-31	4741-4753	rapportering	*[46]	_	_	_	_	_	_	
+66-32	4754-4756	av	*[46]	_	_	_	_	_	_	
+66-33	4757-4772	forskningsläget	*[46]	_	_	_	_	_	_	
+66-34	4772-4773	.	_	_	_	_	_	_	_	
+
+#Text=Akademins svek har bestått i att vara tysta och låta osanningar dominera mot bättre vetande.".
+67-1	4774-4783	Akademins	*	_	_	_	_	_	_	
+67-2	4784-4788	svek	_	Target	67-1	false	1	_	_	
+67-3	4789-4792	har	_	_	_	_	_	_	_	
+67-4	4793-4800	bestått	_	_	_	_	_	_	_	
+67-5	4801-4802	i	_	_	_	_	_	_	_	
+67-6	4803-4806	att	_	_	_	_	_	_	_	
+67-7	4807-4811	vara	_	_	_	_	_	_	_	
+67-8	4812-4817	tysta	_	_	_	_	_	_	_	
+67-9	4818-4821	och	_	_	_	_	_	_	_	
+67-10	4822-4826	låta	_	_	_	_	_	_	_	
+67-11	4827-4837	osanningar	_	_	_	_	_	_	_	
+67-12	4838-4846	dominera	_	_	_	_	_	_	_	
+67-13	4847-4850	mot	_	_	_	_	_	_	_	
+67-14	4851-4857	bättre	_	_	_	_	_	_	_	
+67-15	4858-4865	vetande	_	_	_	_	_	_	_	
+67-16	4865-4866	.	_	_	_	_	_	_	_	
+67-17	4866-4867	"	_	_	_	_	_	_	_	
+67-18	4867-4868	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4870-4871	#	_	_	_	_	_	_	_	
+68-2	4871-4872	P	_	_	_	_	_	_	_	
+68-3	4873-4876	IMM	_	_	_	false	2	_	_	
+68-4	4876-4877	.	_	_	_	_	_	_	_	
+
+#Text=Våra nordiska välfärdssamhällen bygger på en förutsättning av en hög andel förvärvsarbetande.
+69-1	4879-4883	Våra	_	_	_	_	_	_	_	
+69-2	4884-4892	nordiska	_	_	_	_	_	_	_	
+69-3	4893-4910	välfärdssamhällen	_	_	_	_	_	_	_	
+69-4	4911-4917	bygger	_	_	_	_	_	_	_	
+69-5	4918-4920	på	_	_	_	_	_	_	_	
+69-6	4921-4923	en	_	_	_	_	_	_	_	
+69-7	4924-4937	förutsättning	_	_	_	_	_	_	_	
+69-8	4938-4940	av	_	_	_	_	_	_	_	
+69-9	4941-4943	en	_	_	_	_	_	_	_	
+69-10	4944-4947	hög	_	_	_	_	_	_	_	
+69-11	4948-4953	andel	_	_	_	_	_	_	_	
+69-12	4954-4971	förvärvsarbetande	_	_	_	_	_	_	_	
+69-13	4971-4972	.	_	_	_	_	_	_	_	
+
+#Text=De som inte blir integrerade på arbetsmarknaden faller utanför, socialt och ekonomiskt.
+70-1	4973-4975	De	_	_	_	_	_	_	_	
+70-2	4976-4979	som	_	_	_	_	_	_	_	
+70-3	4980-4984	inte	_	_	_	_	_	_	_	
+70-4	4985-4989	blir	_	_	_	_	_	_	_	
+70-5	4990-5001	integrerade	_	_	_	_	_	_	_	
+70-6	5002-5004	på	_	_	_	_	_	_	_	
+70-7	5005-5020	arbetsmarknaden	_	_	_	_	_	_	_	
+70-8	5021-5027	faller	_	_	_	_	_	_	_	
+70-9	5028-5035	utanför	_	_	_	_	_	_	_	
+70-10	5035-5036	,	_	_	_	_	_	_	_	
+70-11	5037-5044	socialt	_	_	_	_	_	_	_	
+70-12	5045-5048	och	_	_	_	_	_	_	_	
+70-13	5049-5059	ekonomiskt	_	_	_	_	_	_	_	
+70-14	5059-5060	.	_	_	_	_	_	_	_	
+
+#Text=Vi önskar ett samhälle med största möjliga jämlikhet, inte ett samhälle med en stor, fattig underklass, vilket invandringen verkar skapa.
+71-1	5061-5063	Vi	*[47]|*[48]|*[49]	_	_	_	_	_	_	
+71-2	5064-5070	önskar	_	Source;Target[17]|Source;Target[18]	71-1[47];71-3[50]|71-1[48];71-11[51]	false[17]|false[18]	4[17]|2[18]	71-10[0_18]	_	
+71-3	5071-5074	ett	*[50]	_	_	_	_	_	_	
+71-4	5075-5083	samhälle	*[50]	_	_	_	_	_	_	
+71-5	5084-5087	med	*[50]	_	_	_	_	_	_	
+71-6	5088-5095	största	*[50]	_	_	_	_	_	_	
+71-7	5096-5103	möjliga	*[50]	_	_	_	_	_	_	
+71-8	5104-5113	jämlikhet	*[50]	_	_	_	_	_	_	
+71-9	5113-5114	,	_	_	_	_	_	_	_	
+71-10	5115-5119	inte	_	Target;Source	71-11[52];71-1[49]	false	2	_	_	
+71-11	5120-5123	ett	*[51]|*[52]	_	_	_	_	_	_	
+71-12	5124-5132	samhälle	*[51]|*[52]	_	_	_	_	_	_	
+71-13	5133-5136	med	*[51]|*[52]	_	_	_	_	_	_	
+71-14	5137-5139	en	*[51]|*[52]	_	_	_	_	_	_	
+71-15	5140-5144	stor	*[51]|*[52]	_	_	_	_	_	_	
+71-16	5144-5145	,	*[51]|*[52]	_	_	_	_	_	_	
+71-17	5146-5152	fattig	*[51]|*[52]	_	_	_	_	_	_	
+71-18	5153-5163	underklass	*[51]|*[52]	_	_	_	_	_	_	
+71-19	5163-5164	,	*[51]|*[52]	_	_	_	_	_	_	
+71-20	5165-5171	vilket	*[51]|*[52]	_	_	_	_	_	_	
+71-21	5172-5184	invandringen	*[51]|*[52]	_	_	_	_	_	_	
+71-22	5185-5191	verkar	*[51]|*[52]	_	_	_	_	_	_	
+71-23	5192-5197	skapa	*[51]|*[52]	_	_	_	_	_	_	
+71-24	5197-5198	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5200-5201	#	_	_	_	_	_	_	_	
+72-2	5201-5202	P	_	_	_	_	_	_	_	
+72-3	5203-5206	IMM	_	_	_	_	_	_	_	
+72-4	5206-5207	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen Stoltenberg från Arbeiderpartiet (Norges "sossar") såg till att fakta kom på bordet i och med Brochmann-rapporten.
+73-1	5209-5219	Regeringen	_	_	_	_	_	_	_	
+73-2	5220-5231	Stoltenberg	_	_	_	_	_	_	_	
+73-3	5232-5236	från	_	_	_	_	_	_	_	
+73-4	5237-5252	Arbeiderpartiet	_	_	_	_	_	_	_	
+73-5	5253-5254	(	_	_	_	_	_	_	_	
+73-6	5254-5260	Norges	_	_	_	_	_	_	_	
+73-7	5261-5262	"	_	_	_	_	_	_	_	
+73-8	5262-5268	sossar	_	_	_	_	_	_	_	
+73-9	5268-5269	"	_	_	_	_	_	_	_	
+73-10	5269-5270	)	_	_	_	_	_	_	_	
+73-11	5271-5274	såg	_	_	_	_	_	_	_	
+73-12	5275-5279	till	_	_	_	_	_	_	_	
+73-13	5280-5283	att	_	_	_	_	_	_	_	
+73-14	5284-5289	fakta	_	_	_	_	_	_	_	
+73-15	5290-5293	kom	_	_	_	_	_	_	_	
+73-16	5294-5296	på	_	_	_	_	_	_	_	
+73-17	5297-5303	bordet	_	_	_	_	_	_	_	
+73-18	5304-5305	i	_	_	_	_	_	_	_	
+73-19	5306-5309	och	_	_	_	_	_	_	_	
+73-20	5310-5313	med	_	_	_	_	_	_	_	
+73-21	5314-5333	Brochmann-rapporten	_	_	_	_	_	_	_	
+73-22	5333-5334	.	_	_	_	_	_	_	_	
+
+#Text=Det var en mycket uttömmande och noggrann forskningsrapport.
+74-1	5335-5338	Det	_	_	_	_	_	_	_	
+74-2	5339-5342	var	_	_	_	_	_	_	_	
+74-3	5343-5345	en	_	_	_	_	_	_	_	
+74-4	5346-5352	mycket	_	Target[19]	74-8	false[19]	5[19]	_	_	
+74-5	5353-5363	uttömmande	_	Target[19]	74-8	false[19]	5[19]	_	_	
+74-6	5364-5367	och	_	Target[19]	74-8	false[19]	5[19]	_	_	
+74-7	5368-5376	noggrann	_	Target[19]	74-8	false[19]	5[19]	_	_	
+74-8	5377-5394	forskningsrapport	*	_	_	_	_	_	_	
+74-9	5394-5395	.	_	_	_	_	_	_	_	
+
+#Text=Kan vi förvänta oss att Sveriges nya regering ber om något motsvarande – och i så fall offentliggör resultaten oavsett vad de visar?.
+75-1	5396-5399	Kan	_	_	_	_	_	_	_	
+75-2	5400-5402	vi	_	_	_	_	_	_	_	
+75-3	5403-5411	förvänta	_	_	_	_	_	_	_	
+75-4	5412-5415	oss	_	_	_	_	_	_	_	
+75-5	5416-5419	att	_	_	_	_	_	_	_	
+75-6	5420-5428	Sveriges	_	_	_	_	_	_	_	
+75-7	5429-5432	nya	_	_	_	_	_	_	_	
+75-8	5433-5441	regering	_	_	_	_	_	_	_	
+75-9	5442-5445	ber	_	_	_	_	_	_	_	
+75-10	5446-5448	om	_	_	_	_	_	_	_	
+75-11	5449-5454	något	_	_	_	_	_	_	_	
+75-12	5455-5466	motsvarande	_	_	_	_	_	_	_	
+75-13	5467-5468	–	_	_	_	_	_	_	_	
+75-14	5469-5472	och	_	_	_	_	_	_	_	
+75-15	5473-5474	i	_	_	_	_	_	_	_	
+75-16	5475-5477	så	_	_	_	_	_	_	_	
+75-17	5478-5482	fall	_	_	_	_	_	_	_	
+75-18	5483-5495	offentliggör	_	_	_	_	_	_	_	
+75-19	5496-5506	resultaten	_	_	_	_	_	_	_	
+75-20	5507-5514	oavsett	_	_	_	_	_	_	_	
+75-21	5515-5518	vad	_	_	_	_	_	_	_	
+75-22	5519-5521	de	_	_	_	_	_	_	_	
+75-23	5522-5527	visar	_	_	_	_	_	_	_	
+75-24	5527-5528	?	_	_	_	_	_	_	_	
+75-25	5528-5529	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+76-1	5531-5532	#	_	_	_	_	_	_	_	
+76-2	5532-5533	P	_	_	_	_	_	_	_	
+76-3	5534-5537	IMM	_	_	_	false	3	_	_	
+76-4	5537-5538	.	_	_	_	_	_	_	_	
+
+#Text=Efter Brochmann-rapporten, som fick stor uppmärksamhet i norsk press, kan politikerna inte längre servera skrönan om "lönsam invandring".
+77-1	5540-5545	Efter	_	_	_	_	_	_	_	
+77-2	5546-5565	Brochmann-rapporten	_	_	_	_	_	_	_	
+77-3	5565-5566	,	_	_	_	_	_	_	_	
+77-4	5567-5570	som	_	_	_	_	_	_	_	
+77-5	5571-5575	fick	_	_	_	_	_	_	_	
+77-6	5576-5580	stor	_	_	_	_	_	_	_	
+77-7	5581-5594	uppmärksamhet	_	_	_	_	_	_	_	
+77-8	5595-5596	i	_	_	_	_	_	_	_	
+77-9	5597-5602	norsk	_	_	_	_	_	_	_	
+77-10	5603-5608	press	_	_	_	_	_	_	_	
+77-11	5608-5609	,	_	_	_	_	_	_	_	
+77-12	5610-5613	kan	_	_	_	_	_	_	_	
+77-13	5614-5625	politikerna	_	_	_	_	_	_	_	
+77-14	5626-5630	inte	_	_	_	_	_	_	_	
+77-15	5631-5637	längre	_	_	_	_	_	_	_	
+77-16	5638-5645	servera	_	_	_	_	_	_	_	
+77-17	5646-5653	skrönan	_	Target	77-19[53]	false	1	_	_	
+77-18	5654-5656	om	_	_	_	_	_	_	_	
+77-19	5657-5658	"	*[53]	_	_	_	_	_	_	
+77-20	5658-5664	lönsam	*[53]	_	_	_	_	_	_	
+77-21	5665-5675	invandring	*[53]	_	_	_	_	_	_	
+77-22	5675-5676	"	*[53]	_	_	_	_	_	_	
+77-23	5676-5677	.	_	_	_	_	_	_	_	
+
+#Text=Men väljarna kräver inte heller det, eftersom invandring kan ha många andra skäl än lönsamhet.
+78-1	5678-5681	Men	_	_	_	_	_	_	_	
+78-2	5682-5690	väljarna	_	_	_	_	_	_	_	
+78-3	5691-5697	kräver	_	_	_	_	_	_	_	
+78-4	5698-5702	inte	_	_	_	_	_	_	_	
+78-5	5703-5709	heller	_	_	_	_	_	_	_	
+78-6	5710-5713	det	_	_	_	_	_	_	_	
+78-7	5713-5714	,	_	_	_	_	_	_	_	
+78-8	5715-5723	eftersom	_	_	_	_	_	_	_	
+78-9	5724-5734	invandring	_	_	_	_	_	_	_	
+78-10	5735-5738	kan	_	_	_	_	_	_	_	
+78-11	5739-5741	ha	_	_	_	_	_	_	_	
+78-12	5742-5747	många	_	_	_	_	_	_	_	
+78-13	5748-5753	andra	_	_	_	_	_	_	_	
+78-14	5754-5758	skäl	_	_	_	_	_	_	_	
+78-15	5759-5761	än	_	_	_	_	_	_	_	
+78-16	5762-5771	lönsamhet	_	_	_	_	_	_	_	
+78-17	5771-5772	.	_	_	_	_	_	_	_	
+
+#Text=Den stora norska och svenska majoriteten vill nämligen nuvarande och kommande invandrare väl på grund av rent humanitära skäl.
+79-1	5773-5776	Den	*[54]|*[55]	_	_	_	_	_	_	
+79-2	5777-5782	stora	*[54]|*[55]	_	_	_	_	_	_	
+79-3	5783-5789	norska	*[54]|*[55]	_	_	_	_	_	_	
+79-4	5790-5793	och	*[54]|*[55]	_	_	_	_	_	_	
+79-5	5794-5801	svenska	*[54]|*[55]	_	_	_	_	_	_	
+79-6	5802-5813	majoriteten	*[54]|*[55]	_	_	_	_	_	_	
+79-7	5814-5818	vill	_	Source;Target	79-1[54];79-9[56]	false	4	79-13[20_0]	_	
+79-8	5819-5827	nämligen	_	_	_	_	_	_	_	
+79-9	5828-5837	nuvarande	*[56]|*[57]	_	_	_	_	_	_	
+79-10	5838-5841	och	*[56]|*[57]	_	_	_	_	_	_	
+79-11	5842-5850	kommande	*[56]|*[57]	_	_	_	_	_	_	
+79-12	5851-5861	invandrare	*[56]|*[57]	_	_	_	_	_	_	
+79-13	5862-5865	väl	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-14	5866-5868	på	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-15	5869-5874	grund	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-16	5875-5877	av	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-17	5878-5882	rent	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-18	5883-5893	humanitära	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-19	5894-5898	skäl	_	Source;Target[20]	79-1[55];79-9[57]	false[20]	4[20]	_	_	
+79-20	5898-5899	.	_	_	_	_	_	_	_	
+
+#Text=Att manipulera fakta fördärvar bara.
+80-1	5900-5903	Att	*[58]	Target[21]	80-1[58]	false[21]	1[21]	_	_	
+80-2	5904-5914	manipulera	*[58]	Target[21]	80-1[58]	false[21]	1[21]	_	_	
+80-3	5915-5920	fakta	*[58]	Target[21]	80-1[58]	false[21]	1[21]	_	_	
+80-4	5921-5930	fördärvar	_	Target[21]	80-1[58]	false[21]	1[21]	_	_	
+80-5	5931-5935	bara	_	Target[21]	80-1[58]	false[21]	1[21]	_	_	
+80-6	5935-5936	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	5938-5939	#	_	_	_	_	_	_	_	
+81-2	5939-5940	P	_	_	_	_	_	_	_	
+81-3	5941-5944	IMM	_	_	_	false	3	_	_	
+81-4	5944-5945	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges invandringspolitik väcker stort intresse och bekymmer i Norge.
+82-1	5947-5955	Sveriges	*[59]	_	_	_	_	_	_	
+82-2	5956-5974	invandringspolitik	*[59]	_	_	_	_	_	_	
+82-3	5975-5981	väcker	_	_	_	_	_	_	_	
+82-4	5982-5987	stort	_	_	_	_	_	_	_	
+82-5	5988-5996	intresse	_	_	_	_	_	_	_	
+82-6	5997-6000	och	_	_	_	_	_	_	_	
+82-7	6001-6009	bekymmer	_	Target;Source	82-1[59];82-8[60]	false	2	_	_	
+82-8	6010-6011	i	*[60]	_	_	_	_	_	_	
+82-9	6012-6017	Norge	*[60]	_	_	_	_	_	_	
+82-10	6017-6018	.	_	_	_	_	_	_	_	
+
+#Text=Ledaren av Brochmann-utredningen, Grete Brochmann skrev i Morgenbladet 26 september: "Olikheterna i Sverige har växt starkare än i något annat OECD-land de senaste 15 åren.
+83-1	6019-6026	Ledaren	_	_	_	_	_	_	_	
+83-2	6027-6029	av	_	_	_	_	_	_	_	
+83-3	6030-6051	Brochmann-utredningen	_	_	_	_	_	_	_	
+83-4	6051-6052	,	_	_	_	_	_	_	_	
+83-5	6053-6058	Grete	_	_	_	_	_	_	_	
+83-6	6059-6068	Brochmann	_	_	_	_	_	_	_	
+83-7	6069-6074	skrev	_	_	_	_	_	_	_	
+83-8	6075-6076	i	_	_	_	_	_	_	_	
+83-9	6077-6089	Morgenbladet	_	_	_	_	_	_	_	
+83-10	6090-6092	26	_	_	_	_	_	_	_	
+83-11	6093-6102	september	_	_	_	_	_	_	_	
+83-12	6102-6103	:	_	_	_	_	_	_	_	
+83-13	6104-6105	"	_	_	_	_	_	_	_	
+83-14	6105-6116	Olikheterna	_	_	_	_	_	_	_	
+83-15	6117-6118	i	_	_	_	_	_	_	_	
+83-16	6119-6126	Sverige	_	_	_	_	_	_	_	
+83-17	6127-6130	har	_	_	_	_	_	_	_	
+83-18	6131-6135	växt	_	_	_	_	_	_	_	
+83-19	6136-6144	starkare	_	_	_	_	_	_	_	
+83-20	6145-6147	än	_	_	_	_	_	_	_	
+83-21	6148-6149	i	_	_	_	_	_	_	_	
+83-22	6150-6155	något	_	_	_	_	_	_	_	
+83-23	6156-6161	annat	_	_	_	_	_	_	_	
+83-24	6162-6171	OECD-land	_	_	_	_	_	_	_	
+83-25	6172-6174	de	_	_	_	_	_	_	_	
+83-26	6175-6182	senaste	_	_	_	_	_	_	_	
+83-27	6183-6185	15	_	_	_	_	_	_	_	
+83-28	6186-6190	åren	_	_	_	_	_	_	_	
+83-29	6190-6191	.	_	_	_	_	_	_	_	
+
+#Text=I europeiska komparativa studier om invandrares integration får Sverige oftast bäst resultat när det gäller tilldelning av rättigheter och antidiskrimineringsåtgärder men låga resultat avseende sysselsättning – integration på arbetsmarknaden.".
+84-1	6192-6193	I	_	_	_	_	_	_	_	
+84-2	6194-6204	europeiska	_	_	_	_	_	_	_	
+84-3	6205-6216	komparativa	_	_	_	_	_	_	_	
+84-4	6217-6224	studier	_	_	_	_	_	_	_	
+84-5	6225-6227	om	_	_	_	_	_	_	_	
+84-6	6228-6239	invandrares	_	_	_	_	_	_	_	
+84-7	6240-6251	integration	_	_	_	_	_	_	_	
+84-8	6252-6255	får	_	_	_	_	_	_	_	
+84-9	6256-6263	Sverige	_	_	_	_	_	_	_	
+84-10	6264-6270	oftast	_	_	_	_	_	_	_	
+84-11	6271-6275	bäst	_	_	_	_	_	_	_	
+84-12	6276-6284	resultat	_	_	_	_	_	_	_	
+84-13	6285-6288	när	_	_	_	_	_	_	_	
+84-14	6289-6292	det	_	_	_	_	_	_	_	
+84-15	6293-6299	gäller	_	_	_	_	_	_	_	
+84-16	6300-6311	tilldelning	_	_	_	_	_	_	_	
+84-17	6312-6314	av	_	_	_	_	_	_	_	
+84-18	6315-6326	rättigheter	_	_	_	_	_	_	_	
+84-19	6327-6330	och	_	_	_	_	_	_	_	
+84-20	6331-6358	antidiskrimineringsåtgärder	_	_	_	_	_	_	_	
+84-21	6359-6362	men	_	_	_	_	_	_	_	
+84-22	6363-6367	låga	_	_	_	_	_	_	_	
+84-23	6368-6376	resultat	_	_	_	_	_	_	_	
+84-24	6377-6385	avseende	_	_	_	_	_	_	_	
+84-25	6386-6400	sysselsättning	_	_	_	_	_	_	_	
+84-26	6401-6402	–	_	_	_	_	_	_	_	
+84-27	6403-6414	integration	_	_	_	_	_	_	_	
+84-28	6415-6417	på	_	_	_	_	_	_	_	
+84-29	6418-6433	arbetsmarknaden	_	_	_	_	_	_	_	
+84-30	6433-6434	.	_	_	_	_	_	_	_	
+84-31	6434-6435	"	_	_	_	_	_	_	_	
+84-32	6435-6436	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	6438-6439	#	_	_	_	_	_	_	_	
+85-2	6439-6440	P	_	_	_	_	_	_	_	
+85-3	6441-6444	IMM	_	_	_	_	_	_	_	
+85-4	6444-6445	.	_	_	_	_	_	_	_	
+
+#Text=Jag kan bara upprepa min huvudpoäng: Demokrati vilar på förutsättningen om en upplyst allmänhet.
+86-1	6447-6450	Jag	_	_	_	_	_	_	_	
+86-2	6451-6454	kan	_	_	_	_	_	_	_	
+86-3	6455-6459	bara	_	_	_	_	_	_	_	
+86-4	6460-6467	upprepa	_	_	_	_	_	_	_	
+86-5	6468-6471	min	_	_	_	_	_	_	_	
+86-6	6472-6482	huvudpoäng	_	_	_	_	_	_	_	
+86-7	6482-6483	:	_	_	_	_	_	_	_	
+86-8	6484-6493	Demokrati	_	_	_	_	_	_	_	
+86-9	6494-6499	vilar	_	_	_	_	_	_	_	
+86-10	6500-6502	på	_	_	_	_	_	_	_	
+86-11	6503-6518	förutsättningen	_	_	_	_	_	_	_	
+86-12	6519-6521	om	_	_	_	_	_	_	_	
+86-13	6522-6524	en	_	_	_	_	_	_	_	
+86-14	6525-6532	upplyst	_	_	_	_	_	_	_	
+86-15	6533-6542	allmänhet	_	_	_	_	_	_	_	
+86-16	6542-6543	.	_	_	_	_	_	_	_	
+
+#Text=När fakta saknas kommer de folkvalda att basera sin politik på ideologi, inte på realiteter.
+87-1	6544-6547	När	_	_	_	_	_	_	_	
+87-2	6548-6553	fakta	_	_	_	_	_	_	_	
+87-3	6554-6560	saknas	_	_	_	_	_	_	_	
+87-4	6561-6567	kommer	_	_	_	_	_	_	_	
+87-5	6568-6570	de	_	_	_	_	_	_	_	
+87-6	6571-6580	folkvalda	_	_	_	_	_	_	_	
+87-7	6581-6584	att	_	_	_	_	_	_	_	
+87-8	6585-6591	basera	_	_	_	_	_	_	_	
+87-9	6592-6595	sin	_	_	_	_	_	_	_	
+87-10	6596-6603	politik	_	_	_	_	_	_	_	
+87-11	6604-6606	på	_	_	_	_	_	_	_	
+87-12	6607-6615	ideologi	_	_	_	_	_	_	_	
+87-13	6615-6616	,	_	_	_	_	_	_	_	
+87-14	6617-6621	inte	_	_	_	_	_	_	_	
+87-15	6622-6624	på	_	_	_	_	_	_	_	
+87-16	6625-6635	realiteter	_	_	_	_	_	_	_	
+87-17	6635-6636	.	_	_	_	_	_	_	_	
+
+#Text=Svenska forskare måste nu bevisa att de faktiskt önskar att dela sin kompetens och sina resultat med den svenska allmänheten – oavsett om resultaten är politiskt bekväma eller inte.
+88-1	6637-6644	Svenska	_	_	_	_	_	_	_	
+88-2	6645-6653	forskare	_	_	_	_	_	_	_	
+88-3	6654-6659	måste	_	_	_	_	_	_	_	
+88-4	6660-6662	nu	_	_	_	_	_	_	_	
+88-5	6663-6669	bevisa	_	_	_	_	_	_	_	
+88-6	6670-6673	att	_	_	_	_	_	_	_	
+88-7	6674-6676	de	_	_	_	_	_	_	_	
+88-8	6677-6685	faktiskt	_	_	_	_	_	_	_	
+88-9	6686-6692	önskar	_	_	_	_	_	_	_	
+88-10	6693-6696	att	_	_	_	_	_	_	_	
+88-11	6697-6701	dela	_	_	_	_	_	_	_	
+88-12	6702-6705	sin	_	_	_	_	_	_	_	
+88-13	6706-6715	kompetens	_	_	_	_	_	_	_	
+88-14	6716-6719	och	_	_	_	_	_	_	_	
+88-15	6720-6724	sina	_	_	_	_	_	_	_	
+88-16	6725-6733	resultat	_	_	_	_	_	_	_	
+88-17	6734-6737	med	_	_	_	_	_	_	_	
+88-18	6738-6741	den	_	_	_	_	_	_	_	
+88-19	6742-6749	svenska	_	_	_	_	_	_	_	
+88-20	6750-6761	allmänheten	_	_	_	_	_	_	_	
+88-21	6762-6763	–	_	_	_	_	_	_	_	
+88-22	6764-6771	oavsett	_	_	_	_	_	_	_	
+88-23	6772-6774	om	_	_	_	_	_	_	_	
+88-24	6775-6785	resultaten	_	_	_	_	_	_	_	
+88-25	6786-6788	är	_	_	_	_	_	_	_	
+88-26	6789-6798	politiskt	_	_	_	_	_	_	_	
+88-27	6799-6806	bekväma	_	_	_	_	_	_	_	
+88-28	6807-6812	eller	_	_	_	_	_	_	_	
+88-29	6813-6817	inte	_	_	_	_	_	_	_	
+88-30	6817-6818	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	6820-6821	#	_	_	_	_	_	_	_	
+89-2	6821-6822	P	_	_	_	_	_	_	_	
+89-3	6823-6826	IMM	_	_	_	_	_	_	_	
+89-4	6826-6827	.	_	_	_	_	_	_	_	
+
+#Text=ELIN ØRJASÆTER.
+90-1	6829-6833	ELIN	_	_	_	_	_	_	_	
+90-2	6834-6843	ØRJASÆTER	_	_	_	_	_	_	_	
+90-3	6843-6844	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	6846-6847	#	_	_	_	_	_	_	_	
+91-2	6847-6848	P	_	_	_	_	_	_	_	
+91-3	6849-6852	IMM	_	_	_	_	_	_	_	
+91-4	6852-6853	.	_	_	_	_	_	_	_	
+
+#Text=författare, skribent och förstelektor vid Markedshøyskolen.
+92-1	6855-6865	författare	_	_	_	_	_	_	_	
+92-2	6865-6866	,	_	_	_	_	_	_	_	
+92-3	6867-6875	skribent	_	_	_	_	_	_	_	
+92-4	6876-6879	och	_	_	_	_	_	_	_	
+92-5	6880-6892	förstelektor	_	_	_	_	_	_	_	
+92-6	6893-6896	vid	_	_	_	_	_	_	_	
+92-7	6897-6913	Markedshøyskolen	_	_	_	_	_	_	_	
+92-8	6913-6914	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+93-1	6916-6917	#	_	_	_	_	_	_	_	
+93-2	6917-6918	P	_	_	_	_	_	_	_	
+93-3	6919-6922	IMM	_	_	_	_	_	_	_	
+93-4	6922-6923	.	_	_	_	_	_	_	_	
+
+#Text=Hemsida: orjas.no.
+94-1	6925-6932	Hemsida	_	_	_	_	_	_	_	
+94-2	6932-6933	:	_	_	_	_	_	_	_	
+94-3	6934-6942	orjas.no	_	_	_	_	_	_	_	
+94-4	6942-6943	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+95-1	6945-6946	#	_	_	_	_	_	_	_	
+95-2	6946-6947	P	_	_	_	_	_	_	_	
+95-3	6948-6951	IMM	_	_	_	_	_	_	_	
+95-4	6951-6952	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+96-1	6954-6962	Redaktör	_	_	_	_	_	_	_	
+96-2	6962-6963	:	_	_	_	_	_	_	_	
+96-3	6964-6970	Carina	_	_	_	_	_	_	_	
+96-4	6971-6979	Stensson	_	_	_	_	_	_	_	
+96-5	6979-6980	,	_	_	_	_	_	_	_	
+96-6	6981-6991	Biträdande	_	_	_	_	_	_	_	
+96-7	6992-7000	redaktör	_	_	_	_	_	_	_	
+96-8	7000-7001	:	_	_	_	_	_	_	_	
+96-9	7002-7007	Björn	_	_	_	_	_	_	_	
+96-10	7008-7014	Jorner	_	_	_	_	_	_	_	
+96-11	7014-7015	,	_	_	_	_	_	_	_	
+96-12	7016-7020	Mejl	_	_	_	_	_	_	_	
+96-13	7020-7021	:	_	_	_	_	_	_	_	
+96-14	7022-7028	debatt	_	_	_	_	_	_	_	
+96-15	7028-7029	@	_	_	_	_	_	_	_	
+96-16	7029-7035	svd.se	_	_	_	_	_	_	_	
+96-17	7035-7036	,	_	_	_	_	_	_	_	
+96-18	7037-7050	Telefonnummer	_	_	_	_	_	_	_	
+96-19	7050-7051	:	_	_	_	_	_	_	_	
+96-20	7052-7054	08	_	_	_	_	_	_	_	
+96-21	7054-7055	-	_	_	_	_	_	_	_	
+96-22	7055-7061	135149	_	_	_	_	_	_	_	
+96-23	7061-7062	,	_	_	_	_	_	_	_	
+96-24	7063-7070	Twitter	_	_	_	_	_	_	_	
+96-25	7070-7071	:	_	_	_	_	_	_	_	
+96-26	7072-7073	@	_	_	_	_	_	_	_	
+96-27	7073-7082	SvDDebatt	_	_	_	_	_	_	_	
+96-28	7082-7083	,	_	_	_	_	_	_	_	
+96-29	7084-7092	Facebook	_	_	_	_	_	_	_	
+96-30	7092-7093	:	_	_	_	_	_	_	_	
+96-31	7094-7097	SvD	_	_	_	_	_	_	_	
+96-32	7098-7104	Debatt	_	_	_	_	_	_	_	
+96-33	7104-7105	.	_	_	_	_	_	_	_	

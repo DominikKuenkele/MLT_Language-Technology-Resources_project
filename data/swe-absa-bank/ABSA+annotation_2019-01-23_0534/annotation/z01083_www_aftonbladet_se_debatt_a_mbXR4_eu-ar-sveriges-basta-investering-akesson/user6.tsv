@@ -1,0 +1,577 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=EU är Sveriges bästa investering, Åkesson.
+3-1	18-20	EU	*	_	_	_	_	
+3-2	21-23	är	_	Target[1]	3-1	false[1]	5[1]	
+3-3	24-32	Sveriges	_	Target[1]	3-1	false[1]	5[1]	
+3-4	33-38	bästa	_	Target[1]|Target[2]	3-1|3-5	false[1]|false[2]	5[1]|5[2]	
+3-5	39-50	investering	*	Target[1]	3-1	false[1]	5[1]	
+3-6	50-51	,	_	_	_	_	_	
+3-7	52-59	Åkesson	_	_	_	_	_	
+3-8	59-60	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	
+
+#Text=REPLIK.
+5-1	71-77	REPLIK	_	_	_	_	_	
+5-2	77-78	.	_	_	_	_	_	
+
+#Text=EU grundades på ruinerna från världen av i går.
+6-1	79-81	EU	_	_	_	_	_	
+6-2	82-91	grundades	_	_	_	_	_	
+6-3	92-94	på	_	_	_	_	_	
+6-4	95-103	ruinerna	_	Target[3]	6-6[18]	false[3]	2[3]	
+6-5	104-108	från	_	Target[3]	6-6[18]	false[3]	2[3]	
+6-6	109-116	världen	*[18]	_	_	_	_	
+6-7	117-119	av	*[18]	_	_	_	_	
+6-8	120-121	i	*[18]	_	_	_	_	
+6-9	122-125	går	*[18]	_	_	_	_	
+6-10	125-126	.	_	_	_	_	_	
+
+#Text=Efter årtionden – århundraden – av krig och elände kunde arvfiender enas om att fred skulle råda på den europeiska kontinenten.
+7-1	127-132	Efter	_	_	_	_	_	
+7-2	133-142	årtionden	_	_	_	_	_	
+7-3	143-144	–	_	_	_	_	_	
+7-4	145-156	århundraden	_	_	_	_	_	
+7-5	157-158	–	_	_	_	_	_	
+7-6	159-161	av	_	_	_	_	_	
+7-7	162-166	krig	_	_	_	_	_	
+7-8	167-170	och	_	_	_	_	_	
+7-9	171-177	elände	_	_	_	_	_	
+7-10	178-183	kunde	_	_	_	_	_	
+7-11	184-194	arvfiender	_	_	_	_	_	
+7-12	195-199	enas	_	_	_	_	_	
+7-13	200-202	om	_	_	_	_	_	
+7-14	203-206	att	_	_	_	_	_	
+7-15	207-211	fred	_	_	_	_	_	
+7-16	212-218	skulle	_	_	_	_	_	
+7-17	219-223	råda	_	_	_	_	_	
+7-18	224-226	på	_	_	_	_	_	
+7-19	227-230	den	_	_	_	_	_	
+7-20	231-241	europeiska	_	_	_	_	_	
+7-21	242-253	kontinenten	_	_	_	_	_	
+7-22	253-254	.	_	_	_	_	_	
+
+#Text=EU är en seger för demokrati, frihet och öppenhet.
+8-1	255-257	EU	*	_	_	_	_	
+8-2	258-260	är	_	Target[4]	8-1	false[4]	5[4]	
+8-3	261-263	en	_	Target[4]	8-1	false[4]	5[4]	
+8-4	264-269	seger	_	Target[4]	8-1	false[4]	5[4]	
+8-5	270-273	för	_	_	_	_	_	
+8-6	274-283	demokrati	_	_	_	_	_	
+8-7	283-284	,	_	_	_	_	_	
+8-8	285-291	frihet	_	_	_	_	_	
+8-9	292-295	och	_	_	_	_	_	
+8-10	296-304	öppenhet	_	_	_	_	_	
+8-11	304-305	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	307-308	#	_	_	_	_	_	
+9-2	308-309	P	_	_	_	_	_	
+9-3	310-313	IMM	_	_	_	_	_	
+9-4	313-314	.	_	_	_	_	_	
+
+#Text=Det är samma värden som lagt grunden för det svenska välståndet.
+10-1	316-319	Det	_	_	_	_	_	
+10-2	320-322	är	_	_	_	_	_	
+10-3	323-328	samma	_	_	_	_	_	
+10-4	329-335	värden	_	_	_	_	_	
+10-5	336-339	som	_	_	_	_	_	
+10-6	340-344	lagt	_	_	_	_	_	
+10-7	345-352	grunden	_	_	_	_	_	
+10-8	353-356	för	_	_	_	_	_	
+10-9	357-360	det	_	_	_	_	_	
+10-10	361-368	svenska	_	_	_	_	_	
+10-11	369-379	välståndet	_	_	_	_	_	
+10-12	379-380	.	_	_	_	_	_	
+
+#Text=Frihandel och nyfikenhet har lett till bättre hushållning med resurser och snabbare teknikspridning.
+11-1	381-390	Frihandel	*[19]	_	_	_	_	
+11-2	391-394	och	*[19]	_	_	_	_	
+11-3	395-405	nyfikenhet	*[19]	_	_	_	_	
+11-4	406-409	har	_	_	_	_	_	
+11-5	410-414	lett	_	_	_	_	_	
+11-6	415-419	till	_	_	_	_	_	
+11-7	420-426	bättre	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-8	427-438	hushållning	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-9	439-442	med	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-10	443-451	resurser	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-11	452-455	och	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-12	456-464	snabbare	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-13	465-480	teknikspridning	_	Target[5]	11-1[19]	false[5]	4[5]	
+11-14	480-481	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	483-484	#	_	_	_	_	_	
+12-2	484-485	P	_	_	_	_	_	
+12-3	486-489	IMM	_	_	_	_	_	
+12-4	489-490	.	_	_	_	_	_	
+
+#Text=Jimmy Åkesson har rätt i att världen inte ser likadan ut i dag som när vi gick med.
+13-1	492-497	Jimmy	_	_	_	_	_	
+13-2	498-505	Åkesson	_	_	_	_	_	
+13-3	506-509	har	_	Target[6]	13-6[20]	false[6]	4[6]	
+13-4	510-514	rätt	_	Target[6]	13-6[20]	false[6]	4[6]	
+13-5	515-516	i	_	Target[6]	13-6[20]	false[6]	4[6]	
+13-6	517-520	att	*[20]	_	_	_	_	
+13-7	521-528	världen	*[20]	_	_	_	_	
+13-8	529-533	inte	*[20]	_	_	_	_	
+13-9	534-537	ser	*[20]	_	_	_	_	
+13-10	538-545	likadan	*[20]	_	_	_	_	
+13-11	546-548	ut	*[20]	_	_	_	_	
+13-12	549-550	i	*[20]	_	_	_	_	
+13-13	551-554	dag	*[20]	_	_	_	_	
+13-14	555-558	som	*[20]	_	_	_	_	
+13-15	559-562	när	*[20]	_	_	_	_	
+13-16	563-565	vi	*[20]	_	_	_	_	
+13-17	566-570	gick	*[20]	_	_	_	_	
+13-18	571-574	med	*[20]	_	_	_	_	
+13-19	574-575	.	_	_	_	_	_	
+
+#Text=Sverige är inte samma land som före EU-medlemskapet.
+14-1	576-583	Sverige	_	_	_	_	_	
+14-2	584-586	är	_	_	_	_	_	
+14-3	587-591	inte	_	_	_	_	_	
+14-4	592-597	samma	_	_	_	_	_	
+14-5	598-602	land	_	_	_	_	_	
+14-6	603-606	som	_	_	_	_	_	
+14-7	607-611	före	_	_	_	_	_	
+14-8	612-627	EU-medlemskapet	_	_	_	_	_	
+14-9	627-628	.	_	_	_	_	_	
+
+#Text=Människors valfrihet har ökat kolossalt.
+15-1	629-639	Människors	*[21]	_	_	_	_	
+15-2	640-649	valfrihet	*[21]	_	_	_	_	
+15-3	650-653	har	_	Target[7]	15-1[21]	false[7]	5[7]	
+15-4	654-658	ökat	_	Target[7]	15-1[21]	false[7]	5[7]	
+15-5	659-668	kolossalt	_	Target[7]	15-1[21]	false[7]	5[7]	
+15-6	668-669	.	_	_	_	_	_	
+
+#Text=Vi tar det för givet att utan krångel kunna studera och arbeta i ett annat europeiskt land.
+16-1	670-672	Vi	_	_	_	_	_	
+16-2	673-676	tar	_	_	_	_	_	
+16-3	677-680	det	_	_	_	_	_	
+16-4	681-684	för	_	_	_	_	_	
+16-5	685-690	givet	_	_	_	_	_	
+16-6	691-694	att	_	_	_	_	_	
+16-7	695-699	utan	_	Target[8]	16-9[22]	false[8]	4[8]	
+16-8	700-707	krångel	_	Target[8]	16-9[22]	false[8]	4[8]	
+16-9	708-713	kunna	*[22]	_	_	_	_	
+16-10	714-721	studera	*[22]	_	_	_	_	
+16-11	722-725	och	*[22]	_	_	_	_	
+16-12	726-732	arbeta	*[22]	_	_	_	_	
+16-13	733-734	i	*[22]	_	_	_	_	
+16-14	735-738	ett	*[22]	_	_	_	_	
+16-15	739-744	annat	*[22]	_	_	_	_	
+16-16	745-755	europeiskt	*[22]	_	_	_	_	
+16-17	756-760	land	*[22]	_	_	_	_	
+16-18	760-761	.	_	_	_	_	_	
+
+#Text=Alla känner vi någon som hittat kärleken på kontinenten, men för den sakens skull inte tvingats byta medborgarskap.
+17-1	762-766	Alla	_	_	_	_	_	
+17-2	767-773	känner	_	_	_	_	_	
+17-3	774-776	vi	_	_	_	_	_	
+17-4	777-782	någon	_	_	_	_	_	
+17-5	783-786	som	_	_	_	_	_	
+17-6	787-793	hittat	_	_	_	_	_	
+17-7	794-802	kärleken	_	_	_	_	_	
+17-8	803-805	på	_	_	_	_	_	
+17-9	806-817	kontinenten	_	_	_	_	_	
+17-10	817-818	,	_	_	_	_	_	
+17-11	819-822	men	_	_	_	_	_	
+17-12	823-826	för	_	_	_	_	_	
+17-13	827-830	den	_	_	_	_	_	
+17-14	831-837	sakens	_	_	_	_	_	
+17-15	838-843	skull	_	_	_	_	_	
+17-16	844-848	inte	_	_	_	_	_	
+17-17	849-857	tvingats	_	_	_	_	_	
+17-18	858-862	byta	_	_	_	_	_	
+17-19	863-876	medborgarskap	_	_	_	_	_	
+17-20	876-877	.	_	_	_	_	_	
+
+#Text=Detta är allt tack vare den europeiska unionen.
+18-1	878-883	Detta	_	_	_	_	_	
+18-2	884-886	är	_	_	_	_	_	
+18-3	887-891	allt	_	_	_	_	_	
+18-4	892-896	tack	_	Target[9]	18-6[23]	false[9]	4[9]	
+18-5	897-901	vare	_	Target[9]	18-6[23]	false[9]	4[9]	
+18-6	902-905	den	*[23]	_	_	_	_	
+18-7	906-916	europeiska	*[23]	_	_	_	_	
+18-8	917-924	unionen	*[23]	_	_	_	_	
+18-9	924-925	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	927-928	#	_	_	_	_	_	
+19-2	928-929	P	_	_	_	_	_	
+19-3	930-933	IMM	_	_	_	_	_	
+19-4	933-934	.	_	_	_	_	_	
+
+#Text=Efter inträdet i EU växte Sveriges handel snabbare än någon kunde förutspå eller ens ana.
+20-1	936-941	Efter	_	_	_	_	_	
+20-2	942-950	inträdet	_	_	_	_	_	
+20-3	951-952	i	_	_	_	_	_	
+20-4	953-955	EU	_	_	_	_	_	
+20-5	956-961	växte	_	_	_	_	_	
+20-6	962-970	Sveriges	_	_	_	_	_	
+20-7	971-977	handel	_	_	_	_	_	
+20-8	978-986	snabbare	_	_	_	_	_	
+20-9	987-989	än	_	_	_	_	_	
+20-10	990-995	någon	_	_	_	_	_	
+20-11	996-1001	kunde	_	_	_	_	_	
+20-12	1002-1010	förutspå	_	_	_	_	_	
+20-13	1011-1016	eller	_	_	_	_	_	
+20-14	1017-1020	ens	_	_	_	_	_	
+20-15	1021-1024	ana	_	_	_	_	_	
+20-16	1024-1025	.	_	_	_	_	_	
+
+#Text=Den har sedan dess specialiserats, vilket innebär att vi gör det vi är bra på, i stället för att göra mycket men halvdant.
+21-1	1026-1029	Den	_	_	_	_	_	
+21-2	1030-1033	har	_	_	_	_	_	
+21-3	1034-1039	sedan	_	_	_	_	_	
+21-4	1040-1044	dess	_	_	_	_	_	
+21-5	1045-1059	specialiserats	_	Target	21-7[24]	false	4	
+21-6	1059-1060	,	_	_	_	_	_	
+21-7	1061-1067	vilket	*[24]	_	_	_	_	
+21-8	1068-1075	innebär	*[24]	_	_	_	_	
+21-9	1076-1079	att	*[24]	_	_	_	_	
+21-10	1080-1082	vi	*[24]	_	_	_	_	
+21-11	1083-1086	gör	*[24]	_	_	_	_	
+21-12	1087-1090	det	*[24]	_	_	_	_	
+21-13	1091-1093	vi	*[24]	_	_	_	_	
+21-14	1094-1096	är	*[24]	_	_	_	_	
+21-15	1097-1100	bra	*[24]	_	_	_	_	
+21-16	1101-1103	på	*[24]	_	_	_	_	
+21-17	1103-1104	,	*[24]	_	_	_	_	
+21-18	1105-1106	i	*[24]	_	_	_	_	
+21-19	1107-1114	stället	*[24]	_	_	_	_	
+21-20	1115-1118	för	*[24]	_	_	_	_	
+21-21	1119-1122	att	*[24]	_	_	_	_	
+21-22	1123-1127	göra	*[24]	_	_	_	_	
+21-23	1128-1134	mycket	*[24]	_	_	_	_	
+21-24	1135-1138	men	*[24]	_	_	_	_	
+21-25	1139-1147	halvdant	*[24]	_	_	false	2	
+21-26	1147-1148	.	_	_	_	_	_	
+
+#Text=Svensk jordbrukspolitik har blivit mer öppen och avreglerats.
+22-1	1149-1155	Svensk	*[25]	_	_	_	_	
+22-2	1156-1172	jordbrukspolitik	*[25]	_	_	_	_	
+22-3	1173-1176	har	_	_	_	_	_	
+22-4	1177-1183	blivit	_	_	_	_	_	
+22-5	1184-1187	mer	_	Target[10]	22-1[25]	false[10]	4[10]	
+22-6	1188-1193	öppen	_	Target[10]	22-1[25]	false[10]	4[10]	
+22-7	1194-1197	och	_	Target[10]	22-1[25]	false[10]	4[10]	
+22-8	1198-1209	avreglerats	_	Target[10]	22-1[25]	false[10]	4[10]	
+22-9	1209-1210	.	_	_	_	_	_	
+
+#Text=Konkurrensen har sporrat livsmedelsindustrin till att bli vassare.
+23-1	1211-1223	Konkurrensen	_	_	_	_	_	
+23-2	1224-1227	har	_	_	_	_	_	
+23-3	1228-1235	sporrat	_	Target	23-4[26]	false	4	
+23-4	1236-1255	livsmedelsindustrin	*[26]	_	_	_	_	
+23-5	1256-1260	till	*[26]	_	_	_	_	
+23-6	1261-1264	att	*[26]	_	_	_	_	
+23-7	1265-1268	bli	*[26]	_	_	_	_	
+23-8	1269-1276	vassare	*[26]	_	_	_	_	
+23-9	1276-1277	.	_	_	_	_	_	
+
+#Text=Våra företag kan på samma villkor sälja sina produkter till över 500 miljoner européer, att jämföra med 9 miljoner svenskar.
+24-1	1278-1282	Våra	_	_	_	_	_	
+24-2	1283-1290	företag	_	_	_	_	_	
+24-3	1291-1294	kan	_	_	_	_	_	
+24-4	1295-1297	på	_	_	_	_	_	
+24-5	1298-1303	samma	_	_	_	_	_	
+24-6	1304-1311	villkor	_	_	_	_	_	
+24-7	1312-1317	sälja	_	_	_	_	_	
+24-8	1318-1322	sina	_	_	_	_	_	
+24-9	1323-1332	produkter	_	_	_	_	_	
+24-10	1333-1337	till	_	_	_	_	_	
+24-11	1338-1342	över	_	_	_	_	_	
+24-12	1343-1346	500	_	_	_	_	_	
+24-13	1347-1355	miljoner	_	_	_	_	_	
+24-14	1356-1364	européer	_	_	_	_	_	
+24-15	1364-1365	,	_	_	_	_	_	
+24-16	1366-1369	att	_	_	_	_	_	
+24-17	1370-1377	jämföra	_	_	_	_	_	
+24-18	1378-1381	med	_	_	_	_	_	
+24-19	1382-1383	9	_	_	_	_	_	
+24-20	1384-1392	miljoner	_	_	_	_	_	
+24-21	1393-1401	svenskar	_	_	_	_	_	
+24-22	1401-1402	.	_	_	_	_	_	
+
+#Text=På samma sätt har människor i dag fler arbetsgivare att välja bland.
+25-1	1403-1405	På	_	_	_	_	_	
+25-2	1406-1411	samma	_	_	_	_	_	
+25-3	1412-1416	sätt	_	_	_	_	_	
+25-4	1417-1420	har	_	_	_	_	_	
+25-5	1421-1430	människor	_	_	_	_	_	
+25-6	1431-1432	i	_	_	_	_	_	
+25-7	1433-1436	dag	_	_	_	_	_	
+25-8	1437-1441	fler	_	_	_	_	_	
+25-9	1442-1454	arbetsgivare	_	_	_	_	_	
+25-10	1455-1458	att	_	_	_	_	_	
+25-11	1459-1464	välja	_	_	_	_	_	
+25-12	1465-1470	bland	_	_	_	_	_	
+25-13	1470-1471	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1473-1474	#	_	_	_	_	_	
+26-2	1474-1475	P	_	_	_	_	_	
+26-3	1476-1479	IMM	_	_	_	_	_	
+26-4	1479-1480	.	_	_	_	_	_	
+
+#Text=Under de senaste 22 åren har svenskar fått betydligt högre löner.
+27-1	1482-1487	Under	_	_	_	_	_	
+27-2	1488-1490	de	_	_	_	_	_	
+27-3	1491-1498	senaste	_	_	_	_	_	
+27-4	1499-1501	22	_	_	_	_	_	
+27-5	1502-1506	åren	_	_	_	_	_	
+27-6	1507-1510	har	_	_	_	_	_	
+27-7	1511-1519	svenskar	_	_	_	_	_	
+27-8	1520-1524	fått	_	_	_	_	_	
+27-9	1525-1534	betydligt	_	_	_	_	_	
+27-10	1535-1540	högre	_	_	_	_	_	
+27-11	1541-1546	löner	_	_	_	_	_	
+27-12	1546-1547	.	_	_	_	_	_	
+
+#Text=Det innebär, tillsammans med det faktum att livsmedelspriserna har sjunkit med 20 procent efter att ha anpassats till de andra medlemsstaternas, att svenskarnas ekonomiska frihet förändrats i grunden.
+28-1	1548-1551	Det	_	_	_	_	_	
+28-2	1552-1559	innebär	_	_	_	_	_	
+28-3	1559-1560	,	_	_	_	_	_	
+28-4	1561-1572	tillsammans	_	_	_	_	_	
+28-5	1573-1576	med	_	_	_	_	_	
+28-6	1577-1580	det	_	Target[11]	28-8[27]	false[11]	4[11]	
+28-7	1581-1587	faktum	_	Target[11]	28-8[27]	false[11]	4[11]	
+28-8	1588-1591	att	*[27]	_	_	_	_	
+28-9	1592-1610	livsmedelspriserna	*[27]	_	_	_	_	
+28-10	1611-1614	har	*[27]	_	_	_	_	
+28-11	1615-1622	sjunkit	*[27]	_	_	_	_	
+28-12	1623-1626	med	_	_	_	_	_	
+28-13	1627-1629	20	_	_	_	_	_	
+28-14	1630-1637	procent	_	_	_	_	_	
+28-15	1638-1643	efter	_	_	_	_	_	
+28-16	1644-1647	att	_	_	_	_	_	
+28-17	1648-1650	ha	_	_	_	_	_	
+28-18	1651-1660	anpassats	_	_	_	_	_	
+28-19	1661-1665	till	_	_	_	_	_	
+28-20	1666-1668	de	_	_	_	_	_	
+28-21	1669-1674	andra	_	_	_	_	_	
+28-22	1675-1691	medlemsstaternas	_	_	_	_	_	
+28-23	1691-1692	,	_	_	_	_	_	
+28-24	1693-1696	att	_	_	_	_	_	
+28-25	1697-1708	svenskarnas	*[28]	_	_	_	_	
+28-26	1709-1719	ekonomiska	*[28]	_	_	_	_	
+28-27	1720-1726	frihet	*[28]	_	_	_	_	
+28-28	1727-1737	förändrats	_	Target[12]	28-25[28]	false[12]	4[12]	
+28-29	1738-1739	i	_	Target[12]	28-25[28]	false[12]	4[12]	
+28-30	1740-1747	grunden	_	Target[12]	28-25[28]	false[12]	4[12]	
+28-31	1747-1748	.	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1750-1751	#	_	_	_	_	_	
+29-2	1751-1752	P	_	_	_	_	_	
+29-3	1753-1756	IMM	_	_	_	_	_	
+29-4	1756-1757	.	_	_	_	_	_	
+
+#Text=Av Åkessons artikel att döma är detta något Sverigedemokraterna inte unnar svenskarna.
+30-1	1759-1761	Av	_	_	_	_	_	
+30-2	1762-1770	Åkessons	_	_	_	_	_	
+30-3	1771-1778	artikel	_	_	_	_	_	
+30-4	1779-1782	att	_	_	_	_	_	
+30-5	1783-1787	döma	_	_	_	_	_	
+30-6	1788-1790	är	_	_	_	_	_	
+30-7	1791-1796	detta	_	_	_	_	_	
+30-8	1797-1802	något	_	_	_	_	_	
+30-9	1803-1822	Sverigedemokraterna	*	_	_	_	_	
+30-10	1823-1827	inte	_	Target[13]	30-9	false[13]	2[13]	
+30-11	1828-1833	unnar	_	Target[13]	30-9	false[13]	2[13]	
+30-12	1834-1844	svenskarna	_	_	_	_	_	
+30-13	1844-1845	.	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1847-1848	#	_	_	_	_	_	
+31-2	1848-1849	P	_	_	_	_	_	
+31-3	1850-1853	IMM	_	_	_	_	_	
+31-4	1853-1854	.	_	_	_	_	_	
+
+#Text=Europas framgång bygger på den fria rörligheten för varor, tjänster, kapital och människor.
+32-1	1856-1863	Europas	_	_	_	_	_	
+32-2	1864-1872	framgång	_	_	_	_	_	
+32-3	1873-1879	bygger	_	_	_	_	_	
+32-4	1880-1882	på	_	_	_	_	_	
+32-5	1883-1886	den	_	_	_	_	_	
+32-6	1887-1891	fria	_	_	_	_	_	
+32-7	1892-1903	rörligheten	_	_	_	_	_	
+32-8	1904-1907	för	_	_	_	_	_	
+32-9	1908-1913	varor	_	_	_	_	_	
+32-10	1913-1914	,	_	_	_	_	_	
+32-11	1915-1923	tjänster	_	_	_	_	_	
+32-12	1923-1924	,	_	_	_	_	_	
+32-13	1925-1932	kapital	_	_	_	_	_	
+32-14	1933-1936	och	_	_	_	_	_	
+32-15	1937-1946	människor	_	_	_	_	_	
+32-16	1946-1947	.	_	_	_	_	_	
+
+#Text=Det är de fyra friheterna som är grunden i EU.
+33-1	1948-1951	Det	_	_	_	_	_	
+33-2	1952-1954	är	_	_	_	_	_	
+33-3	1955-1957	de	_	_	_	_	_	
+33-4	1958-1962	fyra	_	_	_	_	_	
+33-5	1963-1973	friheterna	_	_	_	_	_	
+33-6	1974-1977	som	_	_	_	_	_	
+33-7	1978-1980	är	_	_	_	_	_	
+33-8	1981-1988	grunden	_	_	_	_	_	
+33-9	1989-1990	i	_	_	_	_	_	
+33-10	1991-1993	EU	_	_	_	_	_	
+33-11	1993-1994	.	_	_	_	_	_	
+
+#Text=Före Sveriges inträde i den europeiska unionen möttes svenskar av identitetskontroller och gränsbevakning också på resor genom Europa.
+34-1	1995-1999	Före	_	_	_	_	_	
+34-2	2000-2008	Sveriges	_	_	_	_	_	
+34-3	2009-2016	inträde	_	_	_	_	_	
+34-4	2017-2018	i	_	_	_	_	_	
+34-5	2019-2022	den	_	_	_	_	_	
+34-6	2023-2033	europeiska	_	_	_	_	_	
+34-7	2034-2041	unionen	_	_	_	_	_	
+34-8	2042-2048	möttes	_	_	_	_	_	
+34-9	2049-2057	svenskar	_	_	_	_	_	
+34-10	2058-2060	av	_	_	_	_	_	
+34-11	2061-2081	identitetskontroller	_	_	_	_	_	
+34-12	2082-2085	och	_	_	_	_	_	
+34-13	2086-2100	gränsbevakning	_	_	_	_	_	
+34-14	2101-2106	också	_	_	_	_	_	
+34-15	2107-2109	på	_	_	_	_	_	
+34-16	2110-2115	resor	_	_	_	_	_	
+34-17	2116-2121	genom	_	_	_	_	_	
+34-18	2122-2128	Europa	_	_	_	_	_	
+34-19	2128-2129	.	_	_	_	_	_	
+
+#Text=Men de som växt upp på 90-talet ser oförstående på ID-kontrollerna vid Öresundsbron – de är ett absurt inslag för en generation som ofta sluppit stöta på ord som gränshinder och visumansökan.
+35-1	2130-2133	Men	_	_	_	_	_	
+35-2	2134-2136	de	_	_	_	_	_	
+35-3	2137-2140	som	_	_	_	_	_	
+35-4	2141-2145	växt	_	_	_	_	_	
+35-5	2146-2149	upp	_	_	_	_	_	
+35-6	2150-2152	på	_	_	_	_	_	
+35-7	2153-2155	90	_	_	_	_	_	
+35-8	2155-2156	-	_	_	_	_	_	
+35-9	2156-2161	talet	_	_	_	_	_	
+35-10	2162-2165	ser	_	_	_	_	_	
+35-11	2166-2177	oförstående	_	_	_	_	_	
+35-12	2178-2180	på	_	_	_	_	_	
+35-13	2181-2196	ID-kontrollerna	*[29]	_	_	_	_	
+35-14	2197-2200	vid	*[29]	_	_	_	_	
+35-15	2201-2213	Öresundsbron	*[29]	_	_	_	_	
+35-16	2214-2215	–	_	_	_	_	_	
+35-17	2216-2218	de	_	_	_	_	_	
+35-18	2219-2221	är	_	Target;Source[14]	35-13[29];35-23[30]	false[14]	1[14]	
+35-19	2222-2225	ett	_	Target;Source[14]	35-13[29];35-23[30]	false[14]	1[14]	
+35-20	2226-2232	absurt	_	Target;Source[14]	35-13[29];35-23[30]	false[14]	1[14]	
+35-21	2233-2239	inslag	_	Target;Source[14]	35-13[29];35-23[30]	false[14]	1[14]	
+35-22	2240-2243	för	_	_	_	_	_	
+35-23	2244-2246	en	*[30]	_	_	_	_	
+35-24	2247-2257	generation	*[30]	_	_	_	_	
+35-25	2258-2261	som	*[30]	_	_	_	_	
+35-26	2262-2266	ofta	*[30]	_	_	_	_	
+35-27	2267-2274	sluppit	*[30]	Target	35-28[31]	false	2	
+35-28	2275-2280	stöta	*[30]|*[31]	_	_	_	_	
+35-29	2281-2283	på	*[30]|*[31]	_	_	_	_	
+35-30	2284-2287	ord	*[30]|*[31]	_	_	_	_	
+35-31	2288-2291	som	*[30]|*[31]	_	_	_	_	
+35-32	2292-2303	gränshinder	*[30]|*[31]	_	_	_	_	
+35-33	2304-2307	och	*[30]|*[31]	_	_	_	_	
+35-34	2308-2320	visumansökan	*[30]|*[31]	_	_	_	_	
+35-35	2320-2321	.	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2323-2324	#	_	_	_	_	_	
+36-2	2324-2325	P	_	_	_	_	_	
+36-3	2326-2329	IMM	_	_	_	_	_	
+36-4	2329-2330	.	_	_	_	_	_	
+
+#Text=Sverige utan EU var ett fattigare Sverige, ett mer inskränkt Sverige, och ett slutnare Sverige.
+37-1	2332-2339	Sverige	*[32]|*[33]|*[34]	_	_	_	_	
+37-2	2340-2344	utan	*[32]|*[33]|*[34]	_	_	_	_	
+37-3	2345-2347	EU	*[32]|*[33]|*[34]	_	_	_	_	
+37-4	2348-2351	var	_	_	_	_	_	
+37-5	2352-2355	ett	_	Target[15]	37-1[32]	false[15]	2[15]	
+37-6	2356-2365	fattigare	_	Target[15]	37-1[32]	false[15]	2[15]	
+37-7	2366-2373	Sverige	_	Target[15]	37-1[32]	false[15]	2[15]	
+37-8	2373-2374	,	_	_	_	_	_	
+37-9	2375-2378	ett	_	Target[16]	37-1[33]	false[16]	2[16]	
+37-10	2379-2382	mer	_	Target[16]	37-1[33]	false[16]	2[16]	
+37-11	2383-2392	inskränkt	_	Target[16]	37-1[33]	false[16]	2[16]	
+37-12	2393-2400	Sverige	_	Target[16]	37-1[33]	false[16]	2[16]	
+37-13	2400-2401	,	_	_	_	_	_	
+37-14	2402-2405	och	_	_	_	_	_	
+37-15	2406-2409	ett	_	Target[17]	37-1[34]	false[17]	2[17]	
+37-16	2410-2418	slutnare	_	Target[17]	37-1[34]	false[17]	2[17]	
+37-17	2419-2426	Sverige	_	Target[17]	37-1[34]	false[17]	2[17]	
+37-18	2426-2427	.	_	_	_	_	_	
+
+#Text=Det Sverige Jimmy Åkesson vurmar för kommer aldrig tillbaka.
+38-1	2428-2431	Det	_	_	_	_	_	
+38-2	2432-2439	Sverige	_	_	_	_	_	
+38-3	2440-2445	Jimmy	_	_	_	_	_	
+38-4	2446-2453	Åkesson	_	_	_	_	_	
+38-5	2454-2460	vurmar	_	_	_	_	_	
+38-6	2461-2464	för	_	_	_	_	_	
+38-7	2465-2471	kommer	_	_	_	_	_	
+38-8	2472-2478	aldrig	_	_	_	_	_	
+38-9	2479-2487	tillbaka	_	_	_	_	_	
+38-10	2487-2488	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2490-2491	#	_	_	_	_	_	
+39-2	2491-2492	P	_	_	_	_	_	
+39-3	2493-2496	IMM	_	_	_	_	_	
+39-4	2496-2497	.	_	_	_	_	_	
+
+#Text=Birgitta Ohlsson, utrikespolitisk talesperson och riksdagsledamot (L).
+40-1	2499-2507	Birgitta	_	_	_	_	_	
+40-2	2508-2515	Ohlsson	_	_	_	_	_	
+40-3	2515-2516	,	_	_	_	_	_	
+40-4	2517-2532	utrikespolitisk	_	_	_	_	_	
+40-5	2533-2544	talesperson	_	_	_	_	_	
+40-6	2545-2548	och	_	_	_	_	_	
+40-7	2549-2564	riksdagsledamot	_	_	_	_	_	
+40-8	2565-2566	(	_	_	_	_	_	
+40-9	2566-2567	L	_	_	_	_	_	
+40-10	2567-2568	)	_	_	_	_	_	
+40-11	2568-2569	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2571-2572	#	_	_	_	_	_	
+41-2	2572-2573	P	_	_	_	_	_	
+41-3	2574-2577	IMM	_	_	_	_	_	
+41-4	2577-2578	.	_	_	_	_	_	
+
+#Text=Häng med i debatten – följ  Debatt på Facebook.
+42-1	2580-2584	Häng	_	_	_	_	_	
+42-2	2585-2588	med	_	_	_	_	_	
+42-3	2589-2590	i	_	_	_	_	_	
+42-4	2591-2599	debatten	_	_	_	_	_	
+42-5	2600-2601	–	_	_	_	_	_	
+42-6	2602-2606	följ	_	_	_	_	_	
+42-7	2608-2614	Debatt	_	_	_	_	_	
+42-8	2615-2617	på	_	_	_	_	_	
+42-9	2618-2626	Facebook	_	_	_	_	_	
+42-10	2626-2627	.	_	_	_	_	_	

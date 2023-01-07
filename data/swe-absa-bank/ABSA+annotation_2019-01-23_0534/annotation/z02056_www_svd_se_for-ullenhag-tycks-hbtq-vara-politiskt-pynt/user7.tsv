@@ -1,0 +1,720 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=För Ullenhag tycks   
+#Text=hbtq vara politiskt pynt.
+3-1	18-21	För	_	_	_	_	_	_	_	
+3-2	22-30	Ullenhag	_	_	_	_	_	_	_	
+3-3	31-36	tycks	_	_	_	_	_	_	_	
+3-4	40-44	hbtq	_	_	_	_	_	_	_	
+3-5	45-49	vara	_	_	_	_	_	_	_	
+3-6	50-59	politiskt	_	_	_	_	_	_	_	
+3-7	60-64	pynt	_	_	_	_	_	_	_	
+3-8	64-65	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	67-68	#	_	_	_	_	_	_	_	
+4-2	68-69	P	_	_	_	_	_	_	_	
+4-3	70-73	IMM	_	_	_	_	_	_	_	
+4-4	73-74	.	_	_	_	_	_	_	_	
+
+#Text=Medan politiker slagit sig själv på bröstet för en icke fungerande lag har en hel generation samkönade par gått miste om möjligheten att utöka sin familj.Anna Troberg.
+5-1	76-81	Medan	_	_	_	_	_	_	_	
+5-2	82-91	politiker	*	_	_	_	_	_	_	
+5-3	92-98	slagit	_	Target[1]	5-2	false[1]	2[1]	_	_	
+5-4	99-102	sig	_	Target[1]	5-2	false[1]	2[1]	_	_	
+5-5	103-108	själv	_	Target[1]	5-2	false[1]	2[1]	_	_	
+5-6	109-111	på	_	Target[1]	5-2	false[1]	2[1]	_	_	
+5-7	112-119	bröstet	_	Target[1]	5-2	false[1]	2[1]	_	_	
+5-8	120-123	för	_	_	_	_	_	_	_	
+5-9	124-126	en	_	_	_	_	_	_	_	
+5-10	127-131	icke	_	Target[2]	5-12	false[2]	2[2]	_	_	
+5-11	132-142	fungerande	_	Target[2]	5-12	false[2]	2[2]	_	_	
+5-12	143-146	lag	*	_	_	_	_	_	_	
+5-13	147-150	har	_	_	_	_	_	_	_	
+5-14	151-153	en	_	_	_	_	_	_	_	
+5-15	154-157	hel	_	_	_	_	_	_	_	
+5-16	158-168	generation	_	_	_	_	_	_	_	
+5-17	169-178	samkönade	_	_	_	_	_	_	_	
+5-18	179-182	par	_	_	_	_	_	_	_	
+5-19	183-187	gått	_	_	_	_	_	_	_	
+5-20	188-193	miste	_	_	_	_	_	_	_	
+5-21	194-196	om	_	_	_	_	_	_	_	
+5-22	197-208	möjligheten	_	_	_	_	_	_	_	
+5-23	209-212	att	_	_	_	_	_	_	_	
+5-24	213-218	utöka	_	_	_	_	_	_	_	
+5-25	219-222	sin	_	_	_	_	_	_	_	
+5-26	223-234	familj.Anna	_	_	_	_	_	_	_	
+5-27	235-242	Troberg	_	_	_	_	_	_	_	
+5-28	242-243	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	245-246	#	_	_	_	_	_	_	_	
+6-2	246-247	P	_	_	_	_	_	_	_	
+6-3	248-251	IMM	_	_	_	_	_	_	_	
+6-4	251-252	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	254-257	Det	_	_	_	_	_	_	_	
+7-2	258-261	här	_	_	_	_	_	_	_	
+7-3	262-264	är	_	_	_	_	_	_	_	
+7-4	265-267	en	_	_	_	_	_	_	_	
+7-5	268-282	argumenterande	_	_	_	_	_	_	_	
+7-6	283-287	text	_	_	_	_	_	_	_	
+7-7	288-291	med	_	_	_	_	_	_	_	
+7-8	292-297	syfte	_	_	_	_	_	_	_	
+7-9	298-301	att	_	_	_	_	_	_	_	
+7-10	302-309	påverka	_	_	_	_	_	_	_	
+7-11	309-310	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	311-320	Åsikterna	_	_	_	_	_	_	_	
+8-2	321-324	som	_	_	_	_	_	_	_	
+8-3	325-333	uttrycks	_	_	_	_	_	_	_	
+8-4	334-336	är	_	_	_	_	_	_	_	
+8-5	337-348	skribentens	_	_	_	_	_	_	_	
+8-6	349-353	egna	_	_	_	_	_	_	_	
+8-7	353-354	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	356-357	#	_	_	_	_	_	_	_	
+9-2	357-358	P	_	_	_	_	_	_	_	
+9-3	359-362	IMM	_	_	_	_	_	_	_	
+9-4	362-363	.	_	_	_	_	_	_	_	
+
+#Text=**Erik Ullenhag skriver att **Sverige ska bli världens bästa land för hbtq-personer att leva i, men hans tid som regeringens ansvarige för dessa frågor har präglats av en inaktivitet som bara brutits för symboliska uttalanden i samband med Pride och strategiska inspel inför stundande val (Brännpunkt 24/4).
+10-1	365-366	*	_	_	_	_	_	_	_	
+10-2	366-367	*	_	_	_	_	_	_	_	
+10-3	367-371	Erik	*[17]	_	_	_	_	_	_	
+10-4	372-380	Ullenhag	*[17]	_	_	_	_	_	_	
+10-5	381-388	skriver	_	_	_	_	_	_	_	
+10-6	389-392	att	_	_	_	_	_	_	_	
+10-7	393-394	*	_	_	_	_	_	_	_	
+10-8	394-395	*	_	_	_	_	_	_	_	
+10-9	395-402	Sverige	*	_	_	_	_	_	_	
+10-10	403-406	ska	_	Source;Target[3]	10-3[17];10-9	false[3]	5[3]	_	_	
+10-11	407-410	bli	_	Source;Target[3]	10-3[17];10-9	false[3]	5[3]	_	_	
+10-12	411-419	världens	_	Source;Target[3]	10-3[17];10-9	false[3]	5[3]	_	_	
+10-13	420-425	bästa	_	Source;Target[3]	10-3[17];10-9	false[3]	5[3]	_	_	
+10-14	426-430	land	_	Source;Target[3]	10-3[17];10-9	false[3]	5[3]	_	_	
+10-15	431-434	för	_	_	_	_	_	_	_	
+10-16	435-448	hbtq-personer	_	_	_	_	_	_	_	
+10-17	449-452	att	_	_	_	_	_	_	_	
+10-18	453-457	leva	_	_	_	_	_	_	_	
+10-19	458-459	i	_	_	_	_	_	_	_	
+10-20	459-460	,	_	_	_	_	_	_	_	
+10-21	461-464	men	_	_	_	_	_	_	_	
+10-22	465-469	hans	*[18]	_	_	_	_	_	_	
+10-23	470-473	tid	*[18]	_	_	_	_	_	_	
+10-24	474-477	som	*[18]	_	_	_	_	_	_	
+10-25	478-489	regeringens	*[18]	_	_	_	_	_	_	
+10-26	490-499	ansvarige	*[18]	_	_	_	_	_	_	
+10-27	500-503	för	*[18]	_	_	_	_	_	_	
+10-28	504-509	dessa	*[18]	_	_	_	_	_	_	
+10-29	510-516	frågor	*[18]	_	_	_	_	_	_	
+10-30	517-520	har	_	_	_	_	_	_	_	
+10-31	521-529	präglats	_	_	_	_	_	_	_	
+10-32	530-532	av	_	_	_	_	_	_	_	
+10-33	533-535	en	_	_	_	_	_	_	_	
+10-34	536-547	inaktivitet	_	_	_	_	_	_	_	
+10-35	548-551	som	_	_	_	_	_	_	_	
+10-36	552-556	bara	_	_	_	_	_	_	_	
+10-37	557-564	brutits	_	_	_	_	_	_	_	
+10-38	565-568	för	_	_	_	_	_	_	_	
+10-39	569-579	symboliska	_	_	_	_	_	_	_	
+10-40	580-590	uttalanden	_	_	_	_	_	_	_	
+10-41	591-592	i	_	_	_	_	_	_	_	
+10-42	593-600	samband	_	_	_	_	_	_	_	
+10-43	601-604	med	_	_	_	_	_	_	_	
+10-44	605-610	Pride	_	_	_	_	_	_	_	
+10-45	611-614	och	_	_	_	_	_	_	_	
+10-46	615-626	strategiska	_	_	_	_	_	_	_	
+10-47	627-633	inspel	_	_	_	_	_	_	_	
+10-48	634-639	inför	_	_	_	_	_	_	_	
+10-49	640-649	stundande	_	_	_	_	_	_	_	
+10-50	650-653	val	_	_	_	_	_	_	_	
+10-51	654-655	(	_	_	_	_	_	_	_	
+10-52	655-665	Brännpunkt	_	_	_	_	_	_	_	
+10-53	666-668	24	_	_	_	_	_	_	_	
+10-54	668-669	/	_	_	_	_	_	_	_	
+10-55	669-670	4	_	_	_	_	_	_	_	
+10-56	670-671	)	_	_	_	_	_	_	_	
+10-57	671-672	.	_	Source;Target	10-22[18];10-3[17]	false	2	_	_	
+
+#Text=#P IMM.
+11-1	674-675	#	_	_	_	_	_	_	_	
+11-2	675-676	P	_	_	_	_	_	_	_	
+11-3	677-680	IMM	_	_	_	_	_	_	_	
+11-4	680-681	.	_	_	_	_	_	_	_	
+
+#Text=Nu nalkas det EU-val och då är det dags för fler symboliska gester.
+12-1	683-685	Nu	_	_	_	_	_	_	_	
+12-2	686-692	nalkas	_	_	_	_	_	_	_	
+12-3	693-696	det	_	_	_	_	_	_	_	
+12-4	697-703	EU-val	_	_	_	_	_	_	_	
+12-5	704-707	och	_	_	_	_	_	_	_	
+12-6	708-710	då	_	_	_	_	_	_	_	
+12-7	711-713	är	_	_	_	_	_	_	_	
+12-8	714-717	det	_	_	_	_	_	_	_	
+12-9	718-722	dags	_	_	_	_	_	_	_	
+12-10	723-726	för	_	_	_	_	_	_	_	
+12-11	727-731	fler	_	_	_	_	_	_	_	
+12-12	732-742	symboliska	_	_	_	_	_	_	_	
+12-13	743-749	gester	_	_	_	_	_	_	_	
+12-14	749-750	.	_	_	_	_	_	_	_	
+
+#Text=Ullenhag har bjudit in myndighetschefer för att diskutera regeringens hbtq-strategi.
+13-1	751-759	Ullenhag	_	_	_	_	_	_	_	
+13-2	760-763	har	_	_	_	_	_	_	_	
+13-3	764-770	bjudit	_	_	_	_	_	_	_	
+13-4	771-773	in	_	_	_	_	_	_	_	
+13-5	774-790	myndighetschefer	_	_	_	_	_	_	_	
+13-6	791-794	för	_	_	_	_	_	_	_	
+13-7	795-798	att	_	_	_	_	_	_	_	
+13-8	799-808	diskutera	_	_	_	_	_	_	_	
+13-9	809-820	regeringens	_	_	_	_	_	_	_	
+13-10	821-834	hbtq-strategi	_	_	_	_	_	_	_	
+13-11	834-835	.	_	_	_	_	_	_	_	
+
+#Text=Det är intressant eftersom regeringens hbtq-strategi mest verkar handla om att polera sin egen hbtq-gloria och sopa högst reella problem under mattan.
+14-1	836-839	Det	_	_	_	_	_	_	_	
+14-2	840-842	är	_	_	_	_	_	_	_	
+14-3	843-853	intressant	_	_	_	_	_	_	_	
+14-4	854-862	eftersom	_	_	_	_	_	_	_	
+14-5	863-874	regeringens	*[19]	_	_	_	_	_	_	
+14-6	875-888	hbtq-strategi	*[19]	_	_	_	_	_	_	
+14-7	889-893	mest	_	_	_	_	_	_	_	
+14-8	894-900	verkar	_	_	_	_	_	_	_	
+14-9	901-907	handla	_	_	_	_	_	_	_	
+14-10	908-910	om	_	_	_	_	_	_	_	
+14-11	911-914	att	_	_	_	_	_	_	_	
+14-12	915-921	polera	_	_	_	_	_	_	_	
+14-13	922-925	sin	_	_	_	_	_	_	_	
+14-14	926-930	egen	_	_	_	_	_	_	_	
+14-15	931-942	hbtq-gloria	_	_	_	_	_	_	_	
+14-16	943-946	och	_	_	_	_	_	_	_	
+14-17	947-951	sopa	_	_	_	_	_	_	_	
+14-18	952-957	högst	_	_	_	_	_	_	_	
+14-19	958-964	reella	_	_	_	_	_	_	_	
+14-20	965-972	problem	_	_	_	_	_	_	_	
+14-21	973-978	under	_	_	_	_	_	_	_	
+14-22	979-985	mattan	_	_	_	_	_	_	_	
+14-23	985-986	.	_	Target	14-5[19]	false	2	_	_	
+
+#Text=#P IMM.
+15-1	988-989	#	_	_	_	_	_	_	_	
+15-2	989-990	P	_	_	_	_	_	_	_	
+15-3	991-994	IMM	_	_	_	_	_	_	_	
+15-4	994-995	.	_	_	_	_	_	_	_	
+
+#Text=Ullenhag tycker att äktenskap mellan samkönade par är bra.
+16-1	997-1005	Ullenhag	*[20]|*[21]	_	_	_	_	_	17-1[0_20]	
+16-2	1006-1012	tycker	*[20]	_	_	_	_	_	_	
+16-3	1013-1016	att	*[20]	_	_	_	_	_	_	
+16-4	1017-1026	äktenskap	*[20]|*[22]	_	_	_	_	_	_	
+16-5	1027-1033	mellan	*[20]|*[22]	_	_	_	_	_	_	
+16-6	1034-1043	samkönade	*[20]|*[22]	_	_	_	_	_	_	
+16-7	1044-1047	par	*[20]|*[22]	_	_	_	_	_	_	
+16-8	1048-1050	är	*[20]	Source;Target[4]	16-1[21];16-4[22]	false[4]	4[4]	_	_	
+16-9	1051-1054	bra	*[20]	Source;Target[4]	16-1[21];16-4[22]	false[4]	4[4]	_	_	
+16-10	1054-1055	.	_	_	_	_	_	_	_	
+
+#Text=Det räcker inte.
+17-1	1056-1059	Det	*	_	_	_	_	_	_	
+17-2	1060-1066	räcker	_	Target[5]	17-1	false[5]	2[5]	_	_	
+17-3	1067-1071	inte	_	Target[5]	17-1	false[5]	2[5]	_	_	
+17-4	1071-1072	.	_	_	_	_	_	_	_	
+
+#Text=Jag och min blivande fru och andra samkönade par som fått lära oss den hårda vägen att det finns vigselförrättare som inte vill eller får viga oss vill ha mer.
+18-1	1073-1076	Jag	*	_	_	_	_	_	_	
+18-2	1077-1080	och	_	_	_	_	_	_	_	
+18-3	1081-1084	min	_	_	_	_	_	_	_	
+18-4	1085-1093	blivande	_	_	_	_	_	_	_	
+18-5	1094-1097	fru	_	_	_	_	_	_	_	
+18-6	1098-1101	och	_	_	_	_	_	_	_	
+18-7	1102-1107	andra	_	_	_	_	_	_	_	
+18-8	1108-1117	samkönade	_	_	_	_	_	_	_	
+18-9	1118-1121	par	_	_	_	_	_	_	_	
+18-10	1122-1125	som	_	_	_	_	_	_	_	
+18-11	1126-1130	fått	_	_	_	_	_	_	_	
+18-12	1131-1135	lära	_	_	_	_	_	_	_	
+18-13	1136-1139	oss	_	_	_	_	_	_	_	
+18-14	1140-1143	den	_	_	_	_	_	_	_	
+18-15	1144-1149	hårda	_	Target;Source	18-16;18-1	false	2	_	_	
+18-16	1150-1155	vägen	*	_	_	_	_	_	_	
+18-17	1156-1159	att	_	_	_	_	_	_	_	
+18-18	1160-1163	det	_	_	_	_	_	_	_	
+18-19	1164-1169	finns	_	_	_	_	_	_	_	
+18-20	1170-1186	vigselförrättare	*[23]	_	_	_	_	_	_	
+18-21	1187-1190	som	*[23]	_	_	_	_	_	_	
+18-22	1191-1195	inte	_	Target;Source[6]	18-26[24];18-20[23]	false[6]	2[6]	_	_	
+18-23	1196-1200	vill	_	Target;Source[6]	18-26[24];18-20[23]	false[6]	2[6]	_	_	
+18-24	1201-1206	eller	_	_	_	_	_	_	_	
+18-25	1207-1210	får	_	_	_	_	_	_	_	
+18-26	1211-1215	viga	*[24]	_	_	_	_	_	_	
+18-27	1216-1219	oss	*[24]	_	_	_	_	_	_	
+18-28	1220-1224	vill	_	_	_	_	_	_	_	
+18-29	1225-1227	ha	_	_	_	_	_	_	_	
+18-30	1228-1231	mer	_	_	_	_	_	_	_	
+18-31	1231-1232	.	_	_	_	_	_	_	_	
+
+#Text=Vad tänker Ullenhag göra åt att vi tvingas sitta längst bak i äktenskapsbussen?.
+19-1	1233-1236	Vad	_	_	_	_	_	_	_	
+19-2	1237-1243	tänker	_	_	_	_	_	_	_	
+19-3	1244-1252	Ullenhag	*	_	_	_	_	_	_	
+19-4	1253-1257	göra	_	_	_	_	_	_	_	
+19-5	1258-1260	åt	_	_	_	_	_	_	_	
+19-6	1261-1264	att	_	_	_	_	_	_	_	
+19-7	1265-1267	vi	_	_	_	_	_	_	_	
+19-8	1268-1275	tvingas	_	_	_	_	_	_	_	
+19-9	1276-1281	sitta	_	_	_	_	_	_	_	
+19-10	1282-1288	längst	_	_	_	_	_	_	_	
+19-11	1289-1292	bak	_	_	_	_	_	_	_	
+19-12	1293-1294	i	_	_	_	_	_	_	_	
+19-13	1295-1311	äktenskapsbussen	_	_	_	_	_	_	_	
+19-14	1311-1312	?	_	_	_	_	_	_	_	
+19-15	1312-1313	.	_	Target	19-3	false	2	_	_	
+
+#Text=#P IMM.
+20-1	1315-1316	#	_	_	_	_	_	_	_	
+20-2	1316-1317	P	_	_	_	_	_	_	_	
+20-3	1318-1321	IMM	_	_	_	_	_	_	_	
+20-4	1321-1322	.	_	_	_	_	_	_	_	
+
+#Text=Ullenhag tycker det är bra att samkönade par får adoptera barn.
+21-1	1324-1332	Ullenhag	*	_	_	_	_	_	_	
+21-2	1333-1339	tycker	_	_	_	_	_	_	_	
+21-3	1340-1343	det	_	_	_	_	_	_	_	
+21-4	1344-1346	är	_	Target;Source[7]	21-6[25];21-1	false[7]	4[7]	_	_	
+21-5	1347-1350	bra	_	Target;Source[7]	21-6[25];21-1	false[7]	4[7]	_	_	
+21-6	1351-1354	att	*[25]	_	_	_	_	_	_	
+21-7	1355-1364	samkönade	*[25]	_	_	_	_	_	_	
+21-8	1365-1368	par	*[25]	_	_	_	_	_	_	
+21-9	1369-1372	får	*[25]	_	_	_	_	_	_	
+21-10	1373-1381	adoptera	*[25]	_	_	_	_	_	_	
+21-11	1382-1386	barn	*[25]	_	_	_	_	_	_	
+21-12	1386-1387	.	_	_	_	_	_	_	_	
+
+#Text=Sedan lagen infördes 2003 har bara en handfull samkönade par fått adoptera.
+22-1	1388-1393	Sedan	_	_	_	_	_	_	_	
+22-2	1394-1399	lagen	_	_	_	_	_	_	_	
+22-3	1400-1408	infördes	_	_	_	_	_	_	_	
+22-4	1409-1413	2003	_	_	_	_	_	_	_	
+22-5	1414-1417	har	_	_	_	_	_	_	_	
+22-6	1418-1422	bara	_	_	_	_	_	_	_	
+22-7	1423-1425	en	_	_	_	_	_	_	_	
+22-8	1426-1434	handfull	_	_	_	_	_	_	_	
+22-9	1435-1444	samkönade	_	_	_	_	_	_	_	
+22-10	1445-1448	par	_	_	_	_	_	_	_	
+22-11	1449-1453	fått	_	_	_	_	_	_	_	
+22-12	1454-1462	adoptera	_	_	_	_	_	_	_	
+22-13	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Medan politiker slagit sig själv på bröstet för en icke fungerande lag har en hel generation samkönade par gått miste om möjligheten att utöka sin familj, även jag och min blivande fru.
+23-1	1464-1469	Medan	_	_	_	_	_	_	_	
+23-2	1470-1479	politiker	*	_	_	_	_	_	_	
+23-3	1480-1486	slagit	_	Target[8]	23-2	false[8]	2[8]	_	_	
+23-4	1487-1490	sig	_	Target[8]	23-2	false[8]	2[8]	_	_	
+23-5	1491-1496	själv	_	Target[8]	23-2	false[8]	2[8]	_	_	
+23-6	1497-1499	på	_	Target[8]	23-2	false[8]	2[8]	_	_	
+23-7	1500-1507	bröstet	_	Target[8]	23-2	false[8]	2[8]	_	_	
+23-8	1508-1511	för	_	_	_	_	_	_	_	
+23-9	1512-1514	en	_	_	_	_	_	_	_	
+23-10	1515-1519	icke	_	Target[9]	23-12	false[9]	2[9]	_	_	
+23-11	1520-1530	fungerande	_	Target[9]	23-12	false[9]	2[9]	_	_	
+23-12	1531-1534	lag	*	_	_	_	_	_	_	
+23-13	1535-1538	har	_	_	_	_	_	_	_	
+23-14	1539-1541	en	_	_	_	_	_	_	_	
+23-15	1542-1545	hel	_	_	_	_	_	_	_	
+23-16	1546-1556	generation	_	_	_	_	_	_	_	
+23-17	1557-1566	samkönade	_	_	_	_	_	_	_	
+23-18	1567-1570	par	_	_	_	_	_	_	_	
+23-19	1571-1575	gått	_	_	_	_	_	_	_	
+23-20	1576-1581	miste	_	_	_	_	_	_	_	
+23-21	1582-1584	om	_	_	_	_	_	_	_	
+23-22	1585-1596	möjligheten	_	_	_	_	_	_	_	
+23-23	1597-1600	att	_	_	_	_	_	_	_	
+23-24	1601-1606	utöka	_	_	_	_	_	_	_	
+23-25	1607-1610	sin	_	_	_	_	_	_	_	
+23-26	1611-1617	familj	_	_	_	_	_	_	_	
+23-27	1617-1618	,	_	_	_	_	_	_	_	
+23-28	1619-1623	även	_	_	_	_	_	_	_	
+23-29	1624-1627	jag	_	_	_	_	_	_	_	
+23-30	1628-1631	och	_	_	_	_	_	_	_	
+23-31	1632-1635	min	_	_	_	_	_	_	_	
+23-32	1636-1644	blivande	_	_	_	_	_	_	_	
+23-33	1645-1648	fru	_	_	_	_	_	_	_	
+23-34	1648-1649	.	_	_	_	_	_	_	_	
+
+#Text=Vad tänker Ullenhag göra för att se till att lagen fungerar i praktiken?.
+24-1	1650-1653	Vad	_	_	_	_	_	_	_	
+24-2	1654-1660	tänker	_	_	_	_	_	_	_	
+24-3	1661-1669	Ullenhag	*	_	_	_	_	_	_	
+24-4	1670-1674	göra	_	_	_	_	_	_	_	
+24-5	1675-1678	för	_	_	_	_	_	_	_	
+24-6	1679-1682	att	_	_	_	_	_	_	_	
+24-7	1683-1685	se	_	_	_	_	_	_	_	
+24-8	1686-1690	till	_	_	_	_	_	_	_	
+24-9	1691-1694	att	_	_	_	_	_	_	_	
+24-10	1695-1700	lagen	_	_	_	_	_	_	_	
+24-11	1701-1709	fungerar	_	_	_	_	_	_	_	
+24-12	1710-1711	i	_	_	_	_	_	_	_	
+24-13	1712-1721	praktiken	_	_	_	_	_	_	_	
+24-14	1721-1722	?	_	_	_	_	_	_	_	
+24-15	1722-1723	.	_	Target	24-3	false	2	_	_	
+
+#Text=#P IMM.
+25-1	1725-1726	#	_	_	_	_	_	_	_	
+25-2	1726-1727	P	_	_	_	_	_	_	_	
+25-3	1728-1731	IMM	_	_	_	_	_	_	_	
+25-4	1731-1732	.	_	_	_	_	_	_	_	
+
+#Text=Ullenhag tycker det är bra att man avskaffat tvångssteriliseringar av transsexuella.
+26-1	1734-1742	Ullenhag	*	_	_	_	_	_	29-14	
+26-2	1743-1749	tycker	_	_	_	_	_	_	_	
+26-3	1750-1753	det	_	_	_	_	_	_	_	
+26-4	1754-1756	är	_	Source;Target[10]	26-1;26-6[26]	false[10]	4[10]	_	_	
+26-5	1757-1760	bra	_	Source;Target[10]	26-1;26-6[26]	false[10]	4[10]	_	_	
+26-6	1761-1764	att	*[26]	_	_	_	_	_	_	
+26-7	1765-1768	man	*[26]	_	_	_	_	_	_	
+26-8	1769-1778	avskaffat	*[26]	_	_	_	_	_	_	
+26-9	1779-1800	tvångssteriliseringar	*[26]	_	_	_	_	_	_	
+26-10	1801-1803	av	*[26]	_	_	_	_	_	_	
+26-11	1804-1817	transsexuella	*[26]	_	_	_	_	_	_	
+26-12	1817-1818	.	_	_	_	_	_	_	_	
+
+#Text=Det är det, men det kan inte Ullenhags regering ta åt sig äran för.
+27-1	1819-1822	Det	_	_	_	_	_	_	_	
+27-2	1823-1825	är	_	_	_	_	_	_	_	
+27-3	1826-1829	det	_	_	_	_	_	_	_	
+27-4	1829-1830	,	_	_	_	_	_	_	_	
+27-5	1831-1834	men	_	_	_	_	_	_	_	
+27-6	1835-1838	det	_	_	_	_	_	_	_	
+27-7	1839-1842	kan	_	_[11]	_	false[11]	2[11]	_	_	
+27-8	1843-1847	inte	_	_[11]	_	false[11]	2[11]	_	_	
+27-9	1848-1857	Ullenhags	*[27]	_	_	_	_	_	_	
+27-10	1858-1866	regering	*[27]	_	_	_	_	_	_	
+27-11	1867-1869	ta	_	Target[12]	27-9[27]	false[12]	2[12]	27-7[11_12]	_	
+27-12	1870-1872	åt	_	Target[12]	27-9[27]	false[12]	2[12]	_	_	
+27-13	1873-1876	sig	_	Target[12]	27-9[27]	false[12]	2[12]	_	_	
+27-14	1877-1881	äran	_	Target[12]	27-9[27]	false[12]	2[12]	_	_	
+27-15	1882-1885	för	_	_	_	_	_	_	_	
+27-16	1885-1886	.	_	_	_	_	_	_	_	
+
+#Text=Man lät sig av strategiska skäl hunsas av Kristdemokraterna och under tiden fortgick tvångssteriliseringarna.
+28-1	1887-1890	Man	_	_	_	_	_	_	_	
+28-2	1891-1894	lät	_	_	_	_	_	_	_	
+28-3	1895-1898	sig	_	_	_	_	_	_	_	
+28-4	1899-1901	av	_	_	_	_	_	_	_	
+28-5	1902-1913	strategiska	_	_	_	_	_	_	_	
+28-6	1914-1918	skäl	_	_	_	_	_	_	_	
+28-7	1919-1925	hunsas	_	_	_	_	_	_	_	
+28-8	1926-1928	av	_	_	_	_	_	_	_	
+28-9	1929-1946	Kristdemokraterna	_	_	_	_	_	_	_	
+28-10	1947-1950	och	_	_	_	_	_	_	_	
+28-11	1951-1956	under	_	_	_	_	_	_	_	
+28-12	1957-1962	tiden	_	_	_	_	_	_	_	
+28-13	1963-1971	fortgick	_	_	_	_	_	_	_	
+28-14	1972-1995	tvångssteriliseringarna	_	_	_	_	_	_	_	
+28-15	1995-1996	.	_	_	_	_	_	_	_	
+
+#Text=Man kan anta att det bidrog till den psykiska ohälsa bland transsexuella som ministern säger sig vara bekymrad över.
+29-1	1997-2000	Man	_	_	_	_	_	_	_	
+29-2	2001-2004	kan	_	_	_	_	_	_	_	
+29-3	2005-2009	anta	_	_	_	_	_	_	_	
+29-4	2010-2013	att	_	_	_	_	_	_	_	
+29-5	2014-2017	det	_	_	_	_	_	_	_	
+29-6	2018-2024	bidrog	_	_	_	_	_	_	_	
+29-7	2025-2029	till	_	_	_	_	_	_	_	
+29-8	2030-2033	den	*[28]	_	_	_	_	_	_	
+29-9	2034-2042	psykiska	*[28]	_	_	_	_	_	_	
+29-10	2043-2049	ohälsa	*[28]	_	_	_	_	_	_	
+29-11	2050-2055	bland	*[28]	_	_	_	_	_	_	
+29-12	2056-2069	transsexuella	*[28]	_	_	_	_	_	_	
+29-13	2070-2073	som	_	_	_	_	_	_	_	
+29-14	2074-2083	ministern	*	_	_	_	_	_	_	
+29-15	2084-2089	säger	_	_	_	_	_	_	_	
+29-16	2090-2093	sig	_	_	_	_	_	_	_	
+29-17	2094-2098	vara	_	_	_	_	_	_	_	
+29-18	2099-2107	bekymrad	_	Target;Source[13]	29-8[28];29-14	false[13]	2[13]	_	_	
+29-19	2108-2112	över	_	Target;Source[13]	29-8[28];29-14	false[13]	2[13]	_	_	
+29-20	2112-2113	.	_	_	_	_	_	_	_	
+
+#Text=Hur rättfärdigar Ullenhag detta politiska trixande för de som vägrats möjligheten att bilda familj?.
+30-1	2114-2117	Hur	_	_	_	_	_	_	_	
+30-2	2118-2130	rättfärdigar	_	_	_	_	_	_	_	
+30-3	2131-2139	Ullenhag	*	_	_	_	_	_	_	
+30-4	2140-2145	detta	_	_	_	_	_	_	_	
+30-5	2146-2155	politiska	_	_	_	_	_	_	_	
+30-6	2156-2164	trixande	_	_	_	_	_	_	_	
+30-7	2165-2168	för	_	_	_	_	_	_	_	
+30-8	2169-2171	de	_	_	_	_	_	_	_	
+30-9	2172-2175	som	_	_	_	_	_	_	_	
+30-10	2176-2183	vägrats	_	_	_	_	_	_	_	
+30-11	2184-2195	möjligheten	_	_	_	_	_	_	_	
+30-12	2196-2199	att	_	_	_	_	_	_	_	
+30-13	2200-2205	bilda	_	_	_	_	_	_	_	
+30-14	2206-2212	familj	_	_	_	_	_	_	_	
+30-15	2212-2213	?	_	_	_	_	_	_	_	
+30-16	2213-2214	.	_	Target	30-3	false	2	_	_	
+
+#Text=#P IMM.
+31-1	2216-2217	#	_	_	_	_	_	_	_	
+31-2	2217-2218	P	_	_	_	_	_	_	_	
+31-3	2219-2222	IMM	_	_	_	_	_	_	_	
+31-4	2222-2223	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+32-1	2225-2238	Skräddarsydda	_	_	_	_	_	_	_	
+32-2	2239-2245	kurser	_	_	_	_	_	_	_	
+32-3	2246-2247	i	_	_	_	_	_	_	_	
+32-4	2248-2253	ämnen	*[29]	_	_	_	_	_	_	
+32-5	2254-2257	som	*[29]	_	_	_	_	_	_	
+32-6	2258-2269	intresserar	_	Source;Target[14]	32-13;32-4[29]	false[14]	4[14]	_	_	
+32-7	2270-2273	och	_	Source;Target[14]	32-13;32-4[29]	false[14]	4[14]	_	_	
+32-8	2274-2283	engagerar	_	Source;Target[14]	32-13;32-4[29]	false[14]	4[14]	_	_	
+32-9	2284-2288	både	_	_	_	_	_	_	_	
+32-10	2289-2294	kropp	_	_	_	_	_	_	_	
+32-11	2295-2298	och	_	_	_	_	_	_	_	
+32-12	2299-2303	själ	_	_	_	_	_	_	_	
+32-13	2303-2304	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2306-2307	#	_	_	_	_	_	_	_	
+33-2	2307-2308	P	_	_	_	_	_	_	_	
+33-3	2309-2312	IMM	_	_	_	false	4	_	_	
+33-4	2312-2313	.	_	_	_	_	_	_	_	
+
+#Text=Sedan har vi allt Ullenhag inte säger.
+34-1	2315-2320	Sedan	_	_	_	_	_	_	_	
+34-2	2321-2324	har	_	_	_	_	_	_	_	
+34-3	2325-2327	vi	_	_	_	_	_	_	_	
+34-4	2328-2332	allt	_	_	_	_	_	_	_	
+34-5	2333-2341	Ullenhag	_	_	_	_	_	_	_	
+34-6	2342-2346	inte	_	_	_	_	_	_	_	
+34-7	2347-2352	säger	_	_	_	_	_	_	_	
+34-8	2352-2353	.	_	_	_	_	_	_	_	
+
+#Text=Han säger inget om att FRA har en specialversion av Personuppgiftslagen (PUL) som ger dem rätt att registrera människors sexuella läggning.
+35-1	2354-2357	Han	_	_	_	_	_	_	_	
+35-2	2358-2363	säger	_	_	_	_	_	_	_	
+35-3	2364-2369	inget	_	_	_	_	_	_	_	
+35-4	2370-2372	om	_	_	_	_	_	_	_	
+35-5	2373-2376	att	_	_	_	_	_	_	_	
+35-6	2377-2380	FRA	_	_	_	_	_	_	_	
+35-7	2381-2384	har	_	_	_	_	_	_	_	
+35-8	2385-2387	en	_	_	_	_	_	_	_	
+35-9	2388-2402	specialversion	_	_	_	_	_	_	_	
+35-10	2403-2405	av	_	_	_	_	_	_	_	
+35-11	2406-2425	Personuppgiftslagen	_	_	_	_	_	_	_	
+35-12	2426-2427	(	_	_	_	_	_	_	_	
+35-13	2427-2430	PUL	_	_	_	_	_	_	_	
+35-14	2430-2431	)	_	_	_	_	_	_	_	
+35-15	2432-2435	som	_	_	_	_	_	_	_	
+35-16	2436-2439	ger	_	_	_	_	_	_	_	
+35-17	2440-2443	dem	_	_	_	_	_	_	_	
+35-18	2444-2448	rätt	_	_	_	_	_	_	_	
+35-19	2449-2452	att	_	_	_	_	_	_	_	
+35-20	2453-2463	registrera	_	_	_	_	_	_	_	
+35-21	2464-2474	människors	_	_	_	_	_	_	_	
+35-22	2475-2483	sexuella	_	_	_	_	_	_	_	
+35-23	2484-2492	läggning	_	_	_	_	_	_	_	
+35-24	2492-2493	.	_	_	_	_	_	_	_	
+
+#Text=Han säger inte heller något om att Sverige systematiskt skickar tillbaka hbtq-flyktingar till länder där de riskerar förföljelse, våld och död.
+36-1	2494-2497	Han	_	_	_	_	_	_	_	
+36-2	2498-2503	säger	_	_	_	_	_	_	_	
+36-3	2504-2508	inte	_	_	_	_	_	_	_	
+36-4	2509-2515	heller	_	_	_	_	_	_	_	
+36-5	2516-2521	något	_	_	_	_	_	_	_	
+36-6	2522-2524	om	_	_	_	_	_	_	_	
+36-7	2525-2528	att	_	_	_	_	_	_	_	
+36-8	2529-2536	Sverige	_	_	_	_	_	_	_	
+36-9	2537-2549	systematiskt	_	_	_	_	_	_	_	
+36-10	2550-2557	skickar	_	_	_	_	_	_	_	
+36-11	2558-2566	tillbaka	_	_	_	_	_	_	_	
+36-12	2567-2582	hbtq-flyktingar	_	_	_	_	_	_	_	
+36-13	2583-2587	till	_	_	_	_	_	_	_	
+36-14	2588-2594	länder	_	_	_	_	_	_	_	
+36-15	2595-2598	där	_	_	_	_	_	_	_	
+36-16	2599-2601	de	_	_	_	_	_	_	_	
+36-17	2602-2610	riskerar	_	_	_	_	_	_	_	
+36-18	2611-2622	förföljelse	_	_	_	_	_	_	_	
+36-19	2622-2623	,	_	_	_	_	_	_	_	
+36-20	2624-2628	våld	_	_	_	_	_	_	_	
+36-21	2629-2632	och	_	_	_	_	_	_	_	
+36-22	2633-2636	död	_	_	_	_	_	_	_	
+36-23	2636-2637	.	_	_	_	_	_	_	_	
+
+#Text=Tycker Ullenhag att registrering och avhysning av hbtq-personer rimmar väl med visionen att göra Sverige till ett föregångsland i hbtq-frågor?.
+37-1	2638-2644	Tycker	_	_	_	_	_	_	_	
+37-2	2645-2653	Ullenhag	_	_	_	_	_	_	_	
+37-3	2654-2657	att	_	_	_	_	_	_	_	
+37-4	2658-2670	registrering	_	_	_	_	_	_	_	
+37-5	2671-2674	och	_	_	_	_	_	_	_	
+37-6	2675-2684	avhysning	_	_	_	_	_	_	_	
+37-7	2685-2687	av	_	_	_	_	_	_	_	
+37-8	2688-2701	hbtq-personer	_	_	_	_	_	_	_	
+37-9	2702-2708	rimmar	_	_	_	_	_	_	_	
+37-10	2709-2712	väl	_	_	_	_	_	_	_	
+37-11	2713-2716	med	_	_	_	_	_	_	_	
+37-12	2717-2725	visionen	_	_	_	_	_	_	_	
+37-13	2726-2729	att	_	_	_	_	_	_	_	
+37-14	2730-2734	göra	_	_	_	_	_	_	_	
+37-15	2735-2742	Sverige	_	_	_	_	_	_	_	
+37-16	2743-2747	till	_	_	_	_	_	_	_	
+37-17	2748-2751	ett	_	_	_	_	_	_	_	
+37-18	2752-2765	föregångsland	_	_	_	_	_	_	_	
+37-19	2766-2767	i	_	_	_	_	_	_	_	
+37-20	2768-2779	hbtq-frågor	_	_	_	_	_	_	_	
+37-21	2779-2780	?	_	_	_	_	_	_	_	
+37-22	2780-2781	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2783-2784	#	_	_	_	_	_	_	_	
+38-2	2784-2785	P	_	_	_	_	_	_	_	
+38-3	2786-2789	IMM	_	_	_	false	4	_	_	
+38-4	2789-2790	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen och Ullenhag betraktar hbtq-politik som politiskt pynt.
+39-1	2792-2802	Regeringen	*[30]	_	_	_	_	_	_	
+39-2	2803-2806	och	*[30]	_	_	_	_	_	_	
+39-3	2807-2815	Ullenhag	*[30]	_	_	_	_	_	_	
+39-4	2816-2825	betraktar	_	_	_	_	_	_	_	
+39-5	2826-2838	hbtq-politik	_	_	_	_	_	_	_	
+39-6	2839-2842	som	_	_	_	_	_	_	_	
+39-7	2843-2852	politiskt	_	_	_	_	_	_	_	
+39-8	2853-2857	pynt	_	_	_	_	_	_	_	
+39-9	2857-2858	.	_	Target	39-1[30]	false	2	_	_	
+
+#Text=För mig är hbtq-politik en fråga om mitt liv.
+40-1	2859-2862	För	_	_	_	_	_	_	_	
+40-2	2863-2866	mig	_	_	_	_	_	_	_	
+40-3	2867-2869	är	_	_	_	_	_	_	_	
+40-4	2870-2882	hbtq-politik	_	_	_	_	_	_	_	
+40-5	2883-2885	en	_	_	_	_	_	_	_	
+40-6	2886-2891	fråga	_	_	_	_	_	_	_	
+40-7	2892-2894	om	_	_	_	_	_	_	_	
+40-8	2895-2899	mitt	_	_	_	_	_	_	_	
+40-9	2900-2903	liv	_	_	_	_	_	_	_	
+40-10	2903-2904	.	_	_	_	_	_	_	_	
+
+#Text=För de flyktingar som söker skydd i Sverige är hbtq-politik en fråga om liv eller död.
+41-1	2905-2908	För	_	_	_	_	_	_	_	
+41-2	2909-2911	de	_	_	_	_	_	_	_	
+41-3	2912-2922	flyktingar	_	_	_	_	_	_	_	
+41-4	2923-2926	som	_	_	_	_	_	_	_	
+41-5	2927-2932	söker	_	_	_	_	_	_	_	
+41-6	2933-2938	skydd	_	_	_	_	_	_	_	
+41-7	2939-2940	i	_	_	_	_	_	_	_	
+41-8	2941-2948	Sverige	_	_	_	_	_	_	_	
+41-9	2949-2951	är	_	_	_	_	_	_	_	
+41-10	2952-2964	hbtq-politik	_	_	_	_	_	_	_	
+41-11	2965-2967	en	_	_	_	_	_	_	_	
+41-12	2968-2973	fråga	_	_	_	_	_	_	_	
+41-13	2974-2976	om	_	_	_	_	_	_	_	
+41-14	2977-2980	liv	_	_	_	_	_	_	_	
+41-15	2981-2986	eller	_	_	_	_	_	_	_	
+41-16	2987-2990	död	_	_	_	_	_	_	_	
+41-17	2990-2991	.	_	_	_	_	_	_	_	
+
+#Text=Piratpartiet bryr sig inte om politiskt pynt.
+42-1	2992-3004	Piratpartiet	*	_	_	_	_	_	_	
+42-2	3005-3009	bryr	_	Source;Target[15]	42-1;42-6[31]	false[15]	2[15]	_	_	
+42-3	3010-3013	sig	_	Source;Target[15]	42-1;42-6[31]	false[15]	2[15]	_	_	
+42-4	3014-3018	inte	_	Source;Target[15]	42-1;42-6[31]	false[15]	2[15]	_	_	
+42-5	3019-3021	om	_	Source;Target[15]	42-1;42-6[31]	false[15]	2[15]	_	_	
+42-6	3022-3031	politiskt	*[31]	_	_	_	_	_	_	
+42-7	3032-3036	pynt	*[31]	_	_	_	_	_	_	
+42-8	3036-3037	.	_	_	_	_	_	_	_	
+
+#Text=Vi bryr oss om människors liv och agerar därefter.
+43-1	3038-3040	Vi	*	_	_	_	_	_	_	
+43-2	3041-3045	bryr	_	Source;Target[16]	43-1;43-5[32]	false[16]	4[16]	_	_	
+43-3	3046-3049	oss	_	Source;Target[16]	43-1;43-5[32]	false[16]	4[16]	_	_	
+43-4	3050-3052	om	_	Source;Target[16]	43-1;43-5[32]	false[16]	4[16]	_	_	
+43-5	3053-3063	människors	*[32]	_	_	_	_	_	_	
+43-6	3064-3067	liv	*[32]	_	_	_	_	_	_	
+43-7	3068-3071	och	_	_	_	_	_	_	_	
+43-8	3072-3078	agerar	_	_	_	_	_	_	_	
+43-9	3079-3087	därefter	_	_	_	_	_	_	_	
+43-10	3087-3088	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3090-3091	#	_	_	_	_	_	_	_	
+44-2	3091-3092	P	_	_	_	_	_	_	_	
+44-3	3093-3096	IMM	_	_	_	_	_	_	_	
+44-4	3096-3097	.	_	_	_	_	_	_	_	
+
+#Text=ANNA TROBERG.
+45-1	3099-3103	ANNA	_	_	_	_	_	_	_	
+45-2	3104-3111	TROBERG	_	_	_	_	_	_	_	
+45-3	3111-3112	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3114-3115	#	_	_	_	_	_	_	_	
+46-2	3115-3116	P	_	_	_	_	_	_	_	
+46-3	3117-3120	IMM	_	_	_	_	_	_	_	
+46-4	3120-3121	.	_	_	_	_	_	_	_	
+
+#Text=partiledare Piratpartiet.
+47-1	3123-3134	partiledare	_	_	_	_	_	_	_	
+47-2	3135-3147	Piratpartiet	_	_	_	_	_	_	_	
+47-3	3147-3148	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3150-3151	#	_	_	_	_	_	_	_	
+48-2	3151-3152	P	_	_	_	_	_	_	_	
+48-3	3153-3156	IMM	_	_	_	_	_	_	_	
+48-4	3156-3157	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+49-1	3159-3167	Redaktör	_	_	_	_	_	_	_	
+49-2	3167-3168	:	_	_	_	_	_	_	_	
+49-3	3169-3175	Carina	_	_	_	_	_	_	_	
+49-4	3176-3184	Stensson	_	_	_	_	_	_	_	
+49-5	3184-3185	,	_	_	_	_	_	_	_	
+49-6	3186-3196	Biträdande	_	_	_	_	_	_	_	
+49-7	3197-3205	redaktör	_	_	_	_	_	_	_	
+49-8	3205-3206	:	_	_	_	_	_	_	_	
+49-9	3207-3212	Björn	_	_	_	_	_	_	_	
+49-10	3213-3219	Jorner	_	_	_	_	_	_	_	
+49-11	3219-3220	,	_	_	_	_	_	_	_	
+49-12	3221-3225	Mejl	_	_	_	_	_	_	_	
+49-13	3225-3226	:	_	_	_	_	_	_	_	
+49-14	3227-3233	debatt	_	_	_	_	_	_	_	
+49-15	3233-3234	@	_	_	_	_	_	_	_	
+49-16	3234-3240	svd.se	_	_	_	_	_	_	_	
+49-17	3240-3241	,	_	_	_	_	_	_	_	
+49-18	3242-3255	Telefonnummer	_	_	_	_	_	_	_	
+49-19	3255-3256	:	_	_	_	_	_	_	_	
+49-20	3257-3259	08	_	_	_	_	_	_	_	
+49-21	3259-3260	-	_	_	_	_	_	_	_	
+49-22	3260-3266	135149	_	_	_	_	_	_	_	
+49-23	3266-3267	,	_	_	_	_	_	_	_	
+49-24	3268-3275	Twitter	_	_	_	_	_	_	_	
+49-25	3275-3276	:	_	_	_	_	_	_	_	
+49-26	3277-3278	@	_	_	_	_	_	_	_	
+49-27	3278-3287	SvDDebatt	_	_	_	_	_	_	_	
+49-28	3287-3288	,	_	_	_	_	_	_	_	
+49-29	3289-3297	Facebook	_	_	_	_	_	_	_	
+49-30	3297-3298	:	_	_	_	_	_	_	_	
+49-31	3299-3302	SvD	_	_	_	_	_	_	_	
+49-32	3303-3309	Debatt	_	_	_	_	_	_	_	
+49-33	3309-3310	.	_	_	_	_	_	_	_	

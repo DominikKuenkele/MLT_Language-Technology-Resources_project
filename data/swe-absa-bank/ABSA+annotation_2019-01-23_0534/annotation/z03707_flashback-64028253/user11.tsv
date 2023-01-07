@@ -1,0 +1,150 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Ni invandrare som kom runt 70-80 talet.
+3-1	18-20	Ni	_	_	_	_	_	
+3-2	21-31	invandrare	_	_	_	_	_	
+3-3	32-35	som	_	_	_	_	_	
+3-4	36-39	kom	_	_	_	_	_	
+3-5	40-44	runt	_	_	_	_	_	
+3-6	45-47	70	_	_	_	_	_	
+3-7	47-48	-	_	_	_	_	_	
+3-8	48-50	80	_	_	_	_	_	
+3-9	51-56	talet	_	_	_	_	_	
+3-10	56-57	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	
+4-2	60-61	P	_	_[3]	_	false[3]	2[3]	
+4-3	62-65	IMM	_	_[3]	_	false[3]	2[3]	
+4-4	65-66	.	_	_	_	_	_	
+
+#Text=Ni invandrare som kom till Sverige runt 70 och 80 talet, borde inte ni rösta på SD?
+5-1	68-70	Ni	_	_	_	_	_	
+5-2	71-81	invandrare	_	_	_	_	_	
+5-3	82-85	som	_	_	_	_	_	
+5-4	86-89	kom	_	_	_	_	_	
+5-5	90-94	till	_	_	_	_	_	
+5-6	95-102	Sverige	_	_	_	_	_	
+5-7	103-107	runt	_	_	_	_	_	
+5-8	108-110	70	_	_	_	_	_	
+5-9	111-114	och	_	_	_	_	_	
+5-10	115-117	80	_	_	_	_	_	
+5-11	118-123	talet	_	_	_	_	_	
+5-12	123-124	,	_	_	_	_	_	
+5-13	125-130	borde	_	_	_	_	_	
+5-14	131-135	inte	_	_	_	_	_	
+5-15	136-138	ni	_	_	_	_	_	
+5-16	139-144	rösta	_	_	_	_	_	
+5-17	145-147	på	_	_	_	_	_	
+5-18	148-150	SD	_	_	_	_	_	
+5-19	150-151	?	_	_	_	_	_	
+
+#Text=Jag menar ni som inte gör det, jag förutsätter att ni som har varit invandrare i Sverige ända sedan 70 - 80 talet har sett den sjuka förändringen år efter år, så ert enda rätta val är SD.
+6-1	152-155	Jag	_	_	_	_	_	
+6-2	156-161	menar	_	_	_	_	_	
+6-3	162-164	ni	_	_	_	_	_	
+6-4	165-168	som	_	_	_	_	_	
+6-5	169-173	inte	_	_	_	_	_	
+6-6	174-177	gör	_	_	_	_	_	
+6-7	178-181	det	_	_	_	_	_	
+6-8	181-182	,	_	_	_	_	_	
+6-9	183-186	jag	*	_	_	_	_	
+6-10	187-198	förutsätter	_	Target;Source	6-12[8];6-9	false	4	
+6-11	199-202	att	_	_	_	_	_	
+6-12	203-205	ni	*[8]	_	_	_	_	
+6-13	206-209	som	*[8]	_	_	_	_	
+6-14	210-213	har	*[8]	_	_	_	_	
+6-15	214-219	varit	*[8]	_	_	_	_	
+6-16	220-230	invandrare	*[8]	_	_	_	_	
+6-17	231-232	i	*[8]	_	_	_	_	
+6-18	233-240	Sverige	*[8]	_	_	_	_	
+6-19	241-245	ända	*[8]	_	_	_	_	
+6-20	246-251	sedan	*[8]	_	_	_	_	
+6-21	252-254	70	*[8]	_	_	_	_	
+6-22	255-256	-	*[8]	_	_	_	_	
+6-23	257-259	80	*[8]	_	_	_	_	
+6-24	260-265	talet	*[8]	_	_	_	_	
+6-25	266-269	har	*[8]	_	_	_	_	
+6-26	270-274	sett	*[8]	_	_	_	_	
+6-27	275-278	den	*[8]	_	_	_	_	
+6-28	279-284	sjuka	*[8]	Target	6-29[9]	false	2	
+6-29	285-297	förändringen	*[8]|*[9]	_	_	_	_	
+6-30	298-300	år	*[8]	_	_	_	_	
+6-31	301-306	efter	*[8]	_	_	_	_	
+6-32	307-309	år	*[8]	_	_	_	_	
+6-33	309-310	,	_	_	_	_	_	
+6-34	311-313	så	_	_	_	_	_	
+6-35	314-317	ert	_	Target[4]	6-40	false[4]	4[4]	
+6-36	318-322	enda	_	Target[4]	6-40	false[4]	4[4]	
+6-37	323-328	rätta	_	Target[4]	6-40	false[4]	4[4]	
+6-38	329-332	val	_	Target[4]	6-40	false[4]	4[4]	
+6-39	333-335	är	_	_	_	_	_	
+6-40	336-338	SD	*	_	_	_	_	
+6-41	338-339	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	341-342	#	_	_	_	_	_	
+7-2	342-343	P	_	_[5]	_	false[5]	2[5]	
+7-3	344-347	IMM	_	_[5]	_	false[5]	2[5]	
+7-4	347-348	.	_	_	_	_	_	
+
+#Text=Ta som ett exempel en iransk pojke som kom hit på 80-talet, hade flest svenska kompisar, han var som vilken svensk som helst i sättet, inte fan tro jag att han vill ha Sverige som det är idag.
+8-1	350-352	Ta	_	_	_	_	_	
+8-2	353-356	som	_	_	_	_	_	
+8-3	357-360	ett	_	_	_	_	_	
+8-4	361-368	exempel	_	_	_	_	_	
+8-5	369-371	en	_	_	_	_	_	
+8-6	372-378	iransk	_	_	_	_	_	
+8-7	379-384	pojke	_	_	_	_	_	
+8-8	385-388	som	_	_	_	_	_	
+8-9	389-392	kom	_	_	_	_	_	
+8-10	393-396	hit	_	_	_	_	_	
+8-11	397-399	på	_	_	_	_	_	
+8-12	400-402	80	_	_	_	_	_	
+8-13	402-403	-	_	_	_	_	_	
+8-14	403-408	talet	_	_	_	_	_	
+8-15	408-409	,	_	_	_	_	_	
+8-16	410-414	hade	_	_	_	_	_	
+8-17	415-420	flest	_	_	_	_	_	
+8-18	421-428	svenska	_	_	_	_	_	
+8-19	429-437	kompisar	_	_	_	_	_	
+8-20	437-438	,	_	_	_	_	_	
+8-21	439-442	han	*	_	_	_	_	
+8-22	443-446	var	_	Target[6]	8-21	false[6]	4[6]	
+8-23	447-450	som	_	Target[6]	8-21	false[6]	4[6]	
+8-24	451-457	vilken	_	Target[6]	8-21	false[6]	4[6]	
+8-25	458-464	svensk	_	Target[6]	8-21	false[6]	4[6]	
+8-26	465-468	som	_	Target[6]	8-21	false[6]	4[6]	
+8-27	469-474	helst	_	Target[6]	8-21	false[6]	4[6]	
+8-28	475-476	i	_	Target[6]	8-21	false[6]	4[6]	
+8-29	477-483	sättet	_	Target[6]	8-21	false[6]	4[6]	
+8-30	483-484	,	_	_	_	_	_	
+8-31	485-489	inte	_	Target;Source[7]	8-36[10];8-34	false[7]	2[7]	
+8-32	490-493	fan	_	Target;Source[7]	8-36[10];8-34	false[7]	2[7]	
+8-33	494-497	tro	_	Target;Source[7]	8-36[10];8-34	false[7]	2[7]	
+8-34	498-501	jag	*	_	_	_	_	
+8-35	502-505	att	_	_	_	_	_	
+8-36	506-509	han	*[10]	_	_	_	_	
+8-37	510-514	vill	*[10]	_	_	_	_	
+8-38	515-517	ha	*[10]	_	_	_	_	
+8-39	518-525	Sverige	*[10]	_	_	_	_	
+8-40	526-529	som	*[10]	_	_	_	_	
+8-41	530-533	det	*[10]	_	_	_	_	
+8-42	534-536	är	*[10]	_	_	_	_	
+8-43	537-541	idag	*[10]	_	_	_	_	
+8-44	541-542	.	_	_	_	_	_	

@@ -1,0 +1,598 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Min forskning beskriver sambandet.
+3-1	18-21	Min	_	_	_	_	_	_	
+3-2	22-31	forskning	_	_	_	_	_	_	
+3-3	32-41	beskriver	_	_	_	_	_	_	
+3-4	42-51	sambandet	_	_	_	_	_	_	
+3-5	51-52	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	54-55	#	_	_	_	_	_	_	
+4-2	55-56	P	_	_	_	_	_	_	
+4-3	57-60	IMM	_	_	_	_	_	_	
+4-4	60-61	.	_	_	_	_	_	_	
+
+#Text=För den som anklagar forskning för att vara luddig borde det vara väsentligt att läsa forskningsrapporten som kritiseras.
+5-1	63-66	För	_	_	_	_	_	_	
+5-2	67-70	den	_	_	_	_	_	_	
+5-3	71-74	som	_	_	_	_	_	_	
+5-4	75-83	anklagar	_	_	_	_	_	_	
+5-5	84-93	forskning	_	_	_	_	_	_	
+5-6	94-97	för	_	_	_	_	_	_	
+5-7	98-101	att	_	_	_	_	_	_	
+5-8	102-106	vara	_	_	_	_	_	_	
+5-9	107-113	luddig	_	_	_	_	_	_	
+5-10	114-119	borde	_	_	_	false	4	_	
+5-11	120-123	det	_	_	_	_	_	_	
+5-12	124-128	vara	_	Target[1]	5-14[2]	false[1]	4[1]	5-10[0_1]	
+5-13	129-139	väsentligt	_	Target[1]	5-14[2]	false[1]	4[1]	_	
+5-14	140-143	att	*[2]	_	_	_	_	_	
+5-15	144-148	läsa	*[2]	_	_	_	_	_	
+5-16	149-168	forskningsrapporten	*[2]	_	_	_	_	_	
+5-17	169-172	som	*[2]	_	_	_	_	_	
+5-18	173-183	kritiseras	*[2]	_	_	_	_	_	
+5-19	183-184	.	_	_	_	_	_	_	
+
+#Text=Tyvärr finns inget i Henrik Bergdahls inlägg på Brännpunkt (28/10) som visar att han tagit del av den 28-sidiga forskningsrapporten som ingår i boken Avstamp från Surveyinstitutet på Linnéuniversitet.
+6-1	185-191	Tyvärr	_	Target	6-2[3]	false	2	_	
+6-2	192-197	finns	*[3]	_	_	_	_	_	
+6-3	198-203	inget	*[3]	_	_	_	_	_	
+6-4	204-205	i	*[3]	_	_	_	_	_	
+6-5	206-212	Henrik	*[3]	_	_	_	_	_	
+6-6	213-222	Bergdahls	*[3]	_	_	_	_	_	
+6-7	223-229	inlägg	*[3]	_	_	_	_	_	
+6-8	230-232	på	*[3]	_	_	_	_	_	
+6-9	233-243	Brännpunkt	*[3]	_	_	_	_	_	
+6-10	244-245	(	*[3]	_	_	_	_	_	
+6-11	245-247	28	*[3]	_	_	_	_	_	
+6-12	247-248	/	*[3]	_	_	_	_	_	
+6-13	248-250	10	*[3]	_	_	_	_	_	
+6-14	250-251	)	*[3]	_	_	_	_	_	
+6-15	252-255	som	*[3]	_	_	_	_	_	
+6-16	256-261	visar	*[3]	_	_	_	_	_	
+6-17	262-265	att	*[3]	_	_	_	_	_	
+6-18	266-269	han	*[3]	_	_	_	_	_	
+6-19	270-275	tagit	*[3]	_	_	_	_	_	
+6-20	276-279	del	*[3]	_	_	_	_	_	
+6-21	280-282	av	*[3]	_	_	_	_	_	
+6-22	283-286	den	*[3]	_	_	_	_	_	
+6-23	287-289	28	*[3]	_	_	_	_	_	
+6-24	289-290	-	*[3]	_	_	_	_	_	
+6-25	290-296	sidiga	*[3]	_	_	_	_	_	
+6-26	297-316	forskningsrapporten	*[3]	_	_	_	_	_	
+6-27	317-320	som	*[3]	_	_	_	_	_	
+6-28	321-326	ingår	*[3]	_	_	_	_	_	
+6-29	327-328	i	*[3]	_	_	_	_	_	
+6-30	329-334	boken	*[3]	_	_	_	_	_	
+6-31	335-342	Avstamp	*[3]	_	_	_	_	_	
+6-32	343-347	från	*[3]	_	_	_	_	_	
+6-33	348-364	Surveyinstitutet	*[3]	_	_	_	_	_	
+6-34	365-367	på	*[3]	_	_	_	_	_	
+6-35	368-384	Linnéuniversitet	*[3]	_	_	_	_	_	
+6-36	384-385	.	_	_	_	_	_	_	
+
+#Text=Kan det vara att Bergdahl blott läst min debattartikel på Brännpunkt (27/10) och den där presenterade tabellen (något olyckligt rubricerade SvD länken till tabellen med "Här är undersökningen")?.
+7-1	386-389	Kan	_	_	_	_	_	_	
+7-2	390-393	det	_	_	_	_	_	_	
+7-3	394-398	vara	_	_	_	_	_	_	
+7-4	399-402	att	*[4]	_	_	_	_	_	
+7-5	403-411	Bergdahl	*[4]	_	_	_	_	_	
+7-6	412-417	blott	*[4]	Target	7-4[4]	false	2	_	
+7-7	418-422	läst	*[4]	_	_	_	_	_	
+7-8	423-426	min	*[4]	_	_	_	_	_	
+7-9	427-440	debattartikel	*[4]	_	_	_	_	_	
+7-10	441-443	på	*[4]	_	_	_	_	_	
+7-11	444-454	Brännpunkt	*[4]	_	_	_	_	_	
+7-12	455-456	(	*[4]	_	_	_	_	_	
+7-13	456-458	27	*[4]	_	_	_	_	_	
+7-14	458-459	/	*[4]	_	_	_	_	_	
+7-15	459-461	10	*[4]	_	_	_	_	_	
+7-16	461-462	)	*[4]	_	_	_	_	_	
+7-17	463-466	och	*[4]	_	_	_	_	_	
+7-18	467-470	den	*[4]	_	_	_	_	_	
+7-19	471-474	där	*[4]	_	_	_	_	_	
+7-20	475-487	presenterade	*[4]	_	_	_	_	_	
+7-21	488-496	tabellen	*[4]	_	_	_	_	_	
+7-22	497-498	(	_	_	_	_	_	_	
+7-23	498-503	något	_	_	_	_	_	_	
+7-24	504-513	olyckligt	_	Target	7-25[5]	false	2	_	
+7-25	514-525	rubricerade	*[5]	_	_	_	_	_	
+7-26	526-529	SvD	*[5]	_	_	_	_	_	
+7-27	530-536	länken	*[5]	_	_	_	_	_	
+7-28	537-541	till	*[5]	_	_	_	_	_	
+7-29	542-550	tabellen	*[5]	_	_	_	_	_	
+7-30	551-554	med	*[5]	_	_	_	_	_	
+7-31	555-556	"	*[5]	_	_	_	_	_	
+7-32	556-559	Här	*[5]	_	_	_	_	_	
+7-33	560-562	är	*[5]	_	_	_	_	_	
+7-34	563-577	undersökningen	*[5]	_	_	_	_	_	
+7-35	577-578	"	*[5]	_	_	_	_	_	
+7-36	578-579	)	_	_	_	_	_	_	
+7-37	579-580	?	_	_	_	_	_	_	
+7-38	580-581	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	583-584	#	_	_	_	_	_	_	
+8-2	584-585	P	_	_	_	_	_	_	
+8-3	586-589	IMM	_	_	_	_	_	_	
+8-4	589-590	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	592-595	Det	_	_	_	_	_	_	
+9-2	596-599	här	_	_	_	_	_	_	
+9-3	600-602	är	_	_	_	_	_	_	
+9-4	603-605	en	_	_	_	_	_	_	
+9-5	606-620	argumenterande	_	_	_	_	_	_	
+9-6	621-625	text	_	_	_	_	_	_	
+9-7	626-629	med	_	_	_	_	_	_	
+9-8	630-635	syfte	_	_	_	_	_	_	
+9-9	636-639	att	_	_	_	_	_	_	
+9-10	640-647	påverka	_	_	_	_	_	_	
+9-11	647-648	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	649-658	Åsikterna	_	_	_	_	_	_	
+10-2	659-662	som	_	_	_	_	_	_	
+10-3	663-671	uttrycks	_	_	_	_	_	_	
+10-4	672-674	är	_	_	_	_	_	_	
+10-5	675-686	skribentens	_	_	_	_	_	_	
+10-6	687-691	egna	_	_	_	_	_	_	
+10-7	691-692	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	694-695	#	_	_	_	_	_	_	
+11-2	695-696	P	_	_	_	_	_	_	
+11-3	697-700	IMM	_	_	_	_	_	_	
+11-4	700-701	.	_	_	_	_	_	_	
+
+#Text=Tvärtemot vad Bergdahl gör gällande är det inte bara den stora andelen xenofobiska religionskritiker som ligger till grund för mina slutsatser.
+12-1	703-712	Tvärtemot	_	_	_	_	_	_	
+12-2	713-716	vad	_	_	_	_	_	_	
+12-3	717-725	Bergdahl	_	_	_	_	_	_	
+12-4	726-729	gör	_	_	_	_	_	_	
+12-5	730-738	gällande	_	_	_	_	_	_	
+12-6	739-741	är	_	_	_	_	_	_	
+12-7	742-745	det	_	_	_	_	_	_	
+12-8	746-750	inte	_	_	_	_	_	_	
+12-9	751-755	bara	_	_	_	_	_	_	
+12-10	756-759	den	_	_	_	_	_	_	
+12-11	760-765	stora	_	_	_	_	_	_	
+12-12	766-773	andelen	_	_	_	_	_	_	
+12-13	774-785	xenofobiska	_	_	_	_	_	_	
+12-14	786-803	religionskritiker	_	_	_	_	_	_	
+12-15	804-807	som	_	_	_	_	_	_	
+12-16	808-814	ligger	_	_	_	_	_	_	
+12-17	815-819	till	_	_	_	_	_	_	
+12-18	820-825	grund	_	_	_	_	_	_	
+12-19	826-829	för	_	_	_	_	_	_	
+12-20	830-834	mina	_	_	_	_	_	_	
+12-21	835-845	slutsatser	_	_	_	_	_	_	
+12-22	845-846	.	_	_	_	_	_	_	
+
+#Text=Istället är det så – som jag skriver i min föregående artikel på Brännpunkt – att de religionskritiska ställningstagandena i Survey 2009 jämförs med svarspersonernas attityd i frågor som berör främlingsfientlighet: begränsat byggande av moskéer, minskad flyktingmottagning, satsningar på ett mångkulturellt samhälle och arbetskraftsinvandring.
+13-1	847-855	Istället	_	_	_	_	_	_	
+13-2	856-858	är	_	_	_	_	_	_	
+13-3	859-862	det	_	_	_	_	_	_	
+13-4	863-865	så	_	_	_	_	_	_	
+13-5	866-867	–	_	_	_	_	_	_	
+13-6	868-871	som	_	_	_	_	_	_	
+13-7	872-875	jag	_	_	_	_	_	_	
+13-8	876-883	skriver	_	_	_	_	_	_	
+13-9	884-885	i	_	_	_	_	_	_	
+13-10	886-889	min	_	_	_	_	_	_	
+13-11	890-900	föregående	_	_	_	_	_	_	
+13-12	901-908	artikel	_	_	_	_	_	_	
+13-13	909-911	på	_	_	_	_	_	_	
+13-14	912-922	Brännpunkt	_	_	_	_	_	_	
+13-15	923-924	–	_	_	_	_	_	_	
+13-16	925-928	att	_	_	_	_	_	_	
+13-17	929-931	de	_	_	_	_	_	_	
+13-18	932-949	religionskritiska	_	_	_	_	_	_	
+13-19	950-969	ställningstagandena	_	_	_	_	_	_	
+13-20	970-971	i	_	_	_	_	_	_	
+13-21	972-978	Survey	_	_	_	_	_	_	
+13-22	979-983	2009	_	_	_	_	_	_	
+13-23	984-991	jämförs	_	_	_	_	_	_	
+13-24	992-995	med	_	_	_	_	_	_	
+13-25	996-1012	svarspersonernas	_	_	_	_	_	_	
+13-26	1013-1020	attityd	_	_	_	_	_	_	
+13-27	1021-1022	i	_	_	_	_	_	_	
+13-28	1023-1029	frågor	_	_	_	_	_	_	
+13-29	1030-1033	som	_	_	_	_	_	_	
+13-30	1034-1039	berör	_	_	_	_	_	_	
+13-31	1040-1060	främlingsfientlighet	_	_	_	_	_	_	
+13-32	1060-1061	:	_	_	_	_	_	_	
+13-33	1062-1071	begränsat	_	_	_	_	_	_	
+13-34	1072-1080	byggande	_	_	_	_	_	_	
+13-35	1081-1083	av	_	_	_	_	_	_	
+13-36	1084-1091	moskéer	_	_	_	_	_	_	
+13-37	1091-1092	,	_	_	_	_	_	_	
+13-38	1093-1100	minskad	_	_	_	_	_	_	
+13-39	1101-1119	flyktingmottagning	_	_	_	_	_	_	
+13-40	1119-1120	,	_	_	_	_	_	_	
+13-41	1121-1131	satsningar	_	_	_	_	_	_	
+13-42	1132-1134	på	_	_	_	_	_	_	
+13-43	1135-1138	ett	_	_	_	_	_	_	
+13-44	1139-1153	mångkulturellt	_	_	_	_	_	_	
+13-45	1154-1162	samhälle	_	_	_	_	_	_	
+13-46	1163-1166	och	_	_	_	_	_	_	
+13-47	1167-1189	arbetskraftsinvandring	_	_	_	_	_	_	
+13-48	1189-1190	.	_	_	_	_	_	_	
+
+#Text=Då tenderar religionskritiker – såväl xenofobiska religionskritiker som andra typer av religionskritiker – att inta attityder som är avvisande till invandring och invandrare.
+14-1	1191-1193	Då	_	_	_	_	_	_	
+14-2	1194-1202	tenderar	_	_	_	_	_	_	
+14-3	1203-1220	religionskritiker	_	_	_	_	_	_	
+14-4	1221-1222	–	_	_	_	_	_	_	
+14-5	1223-1228	såväl	_	_	_	_	_	_	
+14-6	1229-1240	xenofobiska	_	_	_	_	_	_	
+14-7	1241-1258	religionskritiker	_	_	_	_	_	_	
+14-8	1259-1262	som	_	_	_	_	_	_	
+14-9	1263-1268	andra	_	_	_	_	_	_	
+14-10	1269-1274	typer	_	_	_	_	_	_	
+14-11	1275-1277	av	_	_	_	_	_	_	
+14-12	1278-1295	religionskritiker	_	_	_	_	_	_	
+14-13	1296-1297	–	_	_	_	_	_	_	
+14-14	1298-1301	att	_	_	_	_	_	_	
+14-15	1302-1306	inta	_	_	_	_	_	_	
+14-16	1307-1316	attityder	_	_	_	_	_	_	
+14-17	1317-1320	som	_	_	_	_	_	_	
+14-18	1321-1323	är	_	_	_	_	_	_	
+14-19	1324-1333	avvisande	_	_	_	_	_	_	
+14-20	1334-1338	till	_	_	_	_	_	_	
+14-21	1339-1349	invandring	_	_	_	_	_	_	
+14-22	1350-1353	och	_	_	_	_	_	_	
+14-23	1354-1364	invandrare	_	_	_	_	_	_	
+14-24	1364-1365	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1367-1368	#	_	_	_	_	_	_	
+15-2	1368-1369	P	_	_	_	_	_	_	
+15-3	1370-1373	IMM	_	_	_	_	_	_	
+15-4	1373-1374	.	_	_	_	_	_	_	
+
+#Text=Den som vill kritisera vetenskaplighet bör också känna till skillnaden mellan samband och orsak, en distinktion som Bergdahl inte gör.
+16-1	1376-1379	Den	_	_	_	_	_	_	
+16-2	1380-1383	som	_	_	_	_	_	_	
+16-3	1384-1388	vill	_	_	_	_	_	_	
+16-4	1389-1398	kritisera	_	_	_	_	_	_	
+16-5	1399-1414	vetenskaplighet	_	_	_	_	_	_	
+16-6	1415-1418	bör	_	_	_	_	_	_	
+16-7	1419-1424	också	_	_	_	_	_	_	
+16-8	1425-1430	känna	_	_	_	_	_	_	
+16-9	1431-1435	till	_	_	_	_	_	_	
+16-10	1436-1446	skillnaden	_	_	_	_	_	_	
+16-11	1447-1453	mellan	_	_	_	_	_	_	
+16-12	1454-1461	samband	_	_	_	_	_	_	
+16-13	1462-1465	och	_	_	_	_	_	_	
+16-14	1466-1471	orsak	_	_	_	_	_	_	
+16-15	1471-1472	,	_	_	_	_	_	_	
+16-16	1473-1475	en	_	_	_	_	_	_	
+16-17	1476-1487	distinktion	_	_	_	_	_	_	
+16-18	1488-1491	som	_	_	_	_	_	_	
+16-19	1492-1500	Bergdahl	_	_	_	_	_	_	
+16-20	1501-1505	inte	_	_	_	_	_	_	
+16-21	1506-1509	gör	_	_	_	_	_	_	
+16-22	1509-1510	.	_	_	_	false	2	_	
+
+#Text=När jag beskriver sambandet mellan religionskritik och främlingsfientlighet benämner jag detta just samband, inte orsak.
+17-1	1511-1514	När	_	_	_	_	_	_	
+17-2	1515-1518	jag	_	_	_	_	_	_	
+17-3	1519-1528	beskriver	_	_	_	_	_	_	
+17-4	1529-1538	sambandet	_	_	_	_	_	_	
+17-5	1539-1545	mellan	_	_	_	_	_	_	
+17-6	1546-1561	religionskritik	_	_	_	_	_	_	
+17-7	1562-1565	och	_	_	_	_	_	_	
+17-8	1566-1586	främlingsfientlighet	_	_	_	_	_	_	
+17-9	1587-1595	benämner	_	_	_	_	_	_	
+17-10	1596-1599	jag	_	_	_	_	_	_	
+17-11	1600-1605	detta	_	_	_	_	_	_	
+17-12	1606-1610	just	_	_	_	_	_	_	
+17-13	1611-1618	samband	_	_	_	_	_	_	
+17-14	1618-1619	,	_	_	_	_	_	_	
+17-15	1620-1624	inte	_	_	_	_	_	_	
+17-16	1625-1630	orsak	_	_	_	_	_	_	
+17-17	1630-1631	.	_	_	_	_	_	_	
+
+#Text=Vid samband noteras en samvariation, men det finns inte något antagande om vad som är orsak och verkan.
+18-1	1632-1635	Vid	_	_	_	_	_	_	
+18-2	1636-1643	samband	_	_	_	_	_	_	
+18-3	1644-1651	noteras	_	_	_	_	_	_	
+18-4	1652-1654	en	_	_	_	_	_	_	
+18-5	1655-1667	samvariation	_	_	_	_	_	_	
+18-6	1667-1668	,	_	_	_	_	_	_	
+18-7	1669-1672	men	_	_	_	_	_	_	
+18-8	1673-1676	det	_	_	_	_	_	_	
+18-9	1677-1682	finns	_	_	_	_	_	_	
+18-10	1683-1687	inte	_	_	_	_	_	_	
+18-11	1688-1693	något	_	_	_	_	_	_	
+18-12	1694-1703	antagande	_	_	_	_	_	_	
+18-13	1704-1706	om	_	_	_	_	_	_	
+18-14	1707-1710	vad	_	_	_	_	_	_	
+18-15	1711-1714	som	_	_	_	_	_	_	
+18-16	1715-1717	är	_	_	_	_	_	_	
+18-17	1718-1723	orsak	_	_	_	_	_	_	
+18-18	1724-1727	och	_	_	_	_	_	_	
+18-19	1728-1734	verkan	_	_	_	_	_	_	
+18-20	1734-1735	.	_	_	_	_	_	_	
+
+#Text=Den som däremot talar om orsakssamband – vilket Bergdahl gör, men inte jag – bör tala om hur detta kan komma sig.
+19-1	1736-1739	Den	_	_	_	_	_	_	
+19-2	1740-1743	som	_	_	_	_	_	_	
+19-3	1744-1751	däremot	_	_	_	_	_	_	
+19-4	1752-1757	talar	_	_	_	_	_	_	
+19-5	1758-1760	om	_	_	_	_	_	_	
+19-6	1761-1774	orsakssamband	_	_	_	_	_	_	
+19-7	1775-1776	–	_	_	_	_	_	_	
+19-8	1777-1783	vilket	_	_	_	_	_	_	
+19-9	1784-1792	Bergdahl	_	_	_	_	_	_	
+19-10	1793-1796	gör	_	_	_	_	_	_	
+19-11	1796-1797	,	_	_	_	_	_	_	
+19-12	1798-1801	men	_	_	_	_	_	_	
+19-13	1802-1806	inte	_	_	_	_	_	_	
+19-14	1807-1810	jag	_	_	_	_	_	_	
+19-15	1811-1812	–	_	_	_	_	_	_	
+19-16	1813-1816	bör	_	_	_	_	_	_	
+19-17	1817-1821	tala	_	_	_	_	_	_	
+19-18	1822-1824	om	_	_	_	_	_	_	
+19-19	1825-1828	hur	_	_	_	_	_	_	
+19-20	1829-1834	detta	_	_	_	_	_	_	
+19-21	1835-1838	kan	_	_	_	_	_	_	
+19-22	1839-1844	komma	_	_	_	_	_	_	
+19-23	1845-1848	sig	_	_	_	_	_	_	
+19-24	1848-1849	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+20-1	1851-1852	#	_	_	_	_	_	_	
+20-2	1852-1853	P	_	_	_	_	_	_	
+20-3	1854-1857	IMM	_	_	_	_	_	_	
+20-4	1857-1858	.	_	_	_	_	_	_	
+
+#Text=Bergdahl ifrågasätter även min referens till förbundet Humanisterna.
+21-1	1860-1868	Bergdahl	*	_	_	_	_	_	
+21-2	1869-1881	ifrågasätter	_	Target;Source	21-4[6];21-1	false	2	_	
+21-3	1882-1886	även	_	_	_	_	_	_	
+21-4	1887-1890	min	*[6]	_	_	_	_	_	
+21-5	1891-1899	referens	*[6]	_	_	_	_	_	
+21-6	1900-1904	till	*[6]	_	_	_	_	_	
+21-7	1905-1914	förbundet	*[6]	_	_	_	_	_	
+21-8	1915-1927	Humanisterna	*[6]	_	_	_	_	_	
+21-9	1927-1928	.	_	_	_	_	_	_	
+
+#Text=Liksom många andra samhällsaktörer bedriver förbundet Humanisterna opinionsbildning.
+22-1	1929-1935	Liksom	_	_	_	_	_	_	
+22-2	1936-1941	många	_	_	_	_	_	_	
+22-3	1942-1947	andra	_	_	_	_	_	_	
+22-4	1948-1963	samhällsaktörer	_	_	_	_	_	_	
+22-5	1964-1972	bedriver	_	_	_	_	_	_	
+22-6	1973-1982	förbundet	_	_	_	_	_	_	
+22-7	1983-1995	Humanisterna	_	_	_	_	_	_	
+22-8	1996-2012	opinionsbildning	_	_	_	_	_	_	
+22-9	2012-2013	.	_	_	_	_	_	_	
+
+#Text=Det är min åsikt att förbundet bör beakta hur sådan opinionsbildning kan tas emot av dem som nås av den och vilka åsikter denna opinionsbildning kan förstärka.
+23-1	2014-2017	Det	_	_	_	_	_	_	
+23-2	2018-2020	är	_	_	_	_	_	_	
+23-3	2021-2024	min	_	_	_	_	_	_	
+23-4	2025-2030	åsikt	_	_	_	_	_	_	
+23-5	2031-2034	att	_	_	_	_	_	_	
+23-6	2035-2044	förbundet	_	_	_	_	_	_	
+23-7	2045-2048	bör	_	_	_	_	_	_	
+23-8	2049-2055	beakta	_	_	_	_	_	_	
+23-9	2056-2059	hur	_	_	_	_	_	_	
+23-10	2060-2065	sådan	_	_	_	_	_	_	
+23-11	2066-2082	opinionsbildning	_	_	_	_	_	_	
+23-12	2083-2086	kan	_	_	_	_	_	_	
+23-13	2087-2090	tas	_	_	_	_	_	_	
+23-14	2091-2095	emot	_	_	_	_	_	_	
+23-15	2096-2098	av	_	_	_	_	_	_	
+23-16	2099-2102	dem	_	_	_	_	_	_	
+23-17	2103-2106	som	_	_	_	_	_	_	
+23-18	2107-2110	nås	_	_	_	_	_	_	
+23-19	2111-2113	av	_	_	_	_	_	_	
+23-20	2114-2117	den	_	_	_	_	_	_	
+23-21	2118-2121	och	_	_	_	_	_	_	
+23-22	2122-2127	vilka	_	_	_	_	_	_	
+23-23	2128-2135	åsikter	_	_	_	_	_	_	
+23-24	2136-2141	denna	_	_	_	_	_	_	
+23-25	2142-2158	opinionsbildning	_	_	_	_	_	_	
+23-26	2159-2162	kan	_	_	_	_	_	_	
+23-27	2163-2172	förstärka	_	_	_	_	_	_	
+23-28	2172-2173	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	2175-2176	#	_	_	_	_	_	_	
+24-2	2176-2177	P	_	_	_	_	_	_	
+24-3	2178-2181	IMM	_	_	_	_	_	_	
+24-4	2181-2182	.	_	_	_	_	_	_	
+
+#Text=En debatt kan ta sig olika former.
+25-1	2184-2186	En	_	_	_	_	_	_	
+25-2	2187-2193	debatt	_	_	_	_	_	_	
+25-3	2194-2197	kan	_	_	_	_	_	_	
+25-4	2198-2200	ta	_	_	_	_	_	_	
+25-5	2201-2204	sig	_	_	_	_	_	_	
+25-6	2205-2210	olika	_	_	_	_	_	_	
+25-7	2211-2217	former	_	_	_	_	_	_	
+25-8	2217-2218	.	_	_	_	_	_	_	
+
+#Text=Ett val står mellan att föra en intellektuell diskussion eller en auktoritär dito.
+26-1	2219-2222	Ett	_	_	_	_	_	_	
+26-2	2223-2226	val	_	_	_	_	_	_	
+26-3	2227-2231	står	_	_	_	_	_	_	
+26-4	2232-2238	mellan	_	_	_	_	_	_	
+26-5	2239-2242	att	_	_	_	_	_	_	
+26-6	2243-2247	föra	_	_	_	_	_	_	
+26-7	2248-2250	en	_	_	_	_	_	_	
+26-8	2251-2264	intellektuell	_	_	_	_	_	_	
+26-9	2265-2275	diskussion	_	_	_	_	_	_	
+26-10	2276-2281	eller	_	_	_	_	_	_	
+26-11	2282-2284	en	_	_	_	_	_	_	
+26-12	2285-2295	auktoritär	_	_	_	_	_	_	
+26-13	2296-2300	dito	_	_	_	_	_	_	
+26-14	2300-2301	.	_	_	_	_	_	_	
+
+#Text=En intellektuell diskussion förs mellan olika argument och fokuserar på sakfrågan som diskuteras, vilket Bergdahl gör.
+27-1	2302-2304	En	_	_	_	_	_	_	
+27-2	2305-2318	intellektuell	_	_	_	_	_	_	
+27-3	2319-2329	diskussion	_	_	_	_	_	_	
+27-4	2330-2334	förs	_	_	_	_	_	_	
+27-5	2335-2341	mellan	_	_	_	_	_	_	
+27-6	2342-2347	olika	_	_	_	_	_	_	
+27-7	2348-2356	argument	_	_	_	_	_	_	
+27-8	2357-2360	och	_	_	_	_	_	_	
+27-9	2361-2370	fokuserar	_	_	_	_	_	_	
+27-10	2371-2373	på	_	_	_	_	_	_	
+27-11	2374-2383	sakfrågan	_	_	_	_	_	_	
+27-12	2384-2387	som	_	_	_	_	_	_	
+27-13	2388-2398	diskuteras	_	_	_	_	_	_	
+27-14	2398-2399	,	_	_	_	_	_	_	
+27-15	2400-2406	vilket	_	_	_	_	_	_	
+27-16	2407-2415	Bergdahl	_	_	_	_	_	_	
+27-17	2416-2419	gör	_	_	_	_	_	_	
+27-18	2419-2420	.	_	_	_	_	_	_	
+
+#Text=Andra har valt en auktoritär diskussion.
+28-1	2421-2426	Andra	_	_	_	_	_	_	
+28-2	2427-2430	har	_	_	_	_	_	_	
+28-3	2431-2435	valt	_	_	_	_	_	_	
+28-4	2436-2438	en	_	_	_	_	_	_	
+28-5	2439-2449	auktoritär	_	_	_	_	_	_	
+28-6	2450-2460	diskussion	_	_	_	_	_	_	
+28-7	2460-2461	.	_	_	_	_	_	_	
+
+#Text=I en sådan diskussion är inte innehållet i vad som sägs centralt, utan vem som säger det.
+29-1	2462-2463	I	_	_	_	_	_	_	
+29-2	2464-2466	en	_	_	_	_	_	_	
+29-3	2467-2472	sådan	_	_	_	_	_	_	
+29-4	2473-2483	diskussion	_	_	_	_	_	_	
+29-5	2484-2486	är	_	_	_	_	_	_	
+29-6	2487-2491	inte	_	_	_	_	_	_	
+29-7	2492-2502	innehållet	_	_	_	_	_	_	
+29-8	2503-2504	i	_	_	_	_	_	_	
+29-9	2505-2508	vad	_	_	_	_	_	_	
+29-10	2509-2512	som	_	_	_	_	_	_	
+29-11	2513-2517	sägs	_	_	_	_	_	_	
+29-12	2518-2526	centralt	_	_	_	_	_	_	
+29-13	2526-2527	,	_	_	_	_	_	_	
+29-14	2528-2532	utan	_	_	_	_	_	_	
+29-15	2533-2536	vem	_	_	_	_	_	_	
+29-16	2537-2540	som	_	_	_	_	_	_	
+29-17	2541-2546	säger	_	_	_	_	_	_	
+29-18	2547-2550	det	_	_	_	_	_	_	
+29-19	2550-2551	.	_	_	_	_	_	_	
+
+#Text=Egenskaper hos budbäraren kritiseras eller hyllas: religionstillhörighet, bostadsort och liknande personliga egenskaper.
+30-1	2552-2562	Egenskaper	_	_	_	_	_	_	
+30-2	2563-2566	hos	_	_	_	_	_	_	
+30-3	2567-2577	budbäraren	_	_	_	_	_	_	
+30-4	2578-2588	kritiseras	_	_	_	_	_	_	
+30-5	2589-2594	eller	_	_	_	_	_	_	
+30-6	2595-2601	hyllas	_	_	_	_	_	_	
+30-7	2601-2602	:	_	_	_	_	_	_	
+30-8	2603-2624	religionstillhörighet	_	_	_	_	_	_	
+30-9	2624-2625	,	_	_	_	_	_	_	
+30-10	2626-2636	bostadsort	_	_	_	_	_	_	
+30-11	2637-2640	och	_	_	_	_	_	_	
+30-12	2641-2649	liknande	_	_	_	_	_	_	
+30-13	2650-2660	personliga	_	_	_	_	_	_	
+30-14	2661-2671	egenskaper	_	_	_	_	_	_	
+30-15	2671-2672	.	_	_	_	_	_	_	
+
+#Text=Denna typ av diskussion väljer jag dock bort.
+31-1	2673-2678	Denna	*[7]	_	_	_	_	_	
+31-2	2679-2682	typ	*[7]	_	_	_	_	_	
+31-3	2683-2685	av	*[7]	_	_	_	_	_	
+31-4	2686-2696	diskussion	*[7]	_	_	_	_	_	
+31-5	2697-2703	väljer	_	_	_	false	2	_	
+31-6	2704-2707	jag	_	_	_	_	_	_	
+31-7	2708-2712	dock	_	_	_	_	_	_	
+31-8	2713-2717	bort	_	Target	31-1[7]	false	2	31-5	
+31-9	2717-2718	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2720-2721	#	_	_	_	_	_	_	
+32-2	2721-2722	P	_	_	_	_	_	_	
+32-3	2723-2726	IMM	_	_	_	_	_	_	
+32-4	2726-2727	.	_	_	_	_	_	_	
+
+#Text=MAGNUS HAGEVI.
+33-1	2729-2735	MAGNUS	_	_	_	_	_	_	
+33-2	2736-2742	HAGEVI	_	_	_	_	_	_	
+33-3	2742-2743	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2745-2746	#	_	_	_	_	_	_	
+34-2	2746-2747	P	_	_	_	_	_	_	
+34-3	2748-2751	IMM	_	_	_	_	_	_	
+34-4	2751-2752	.	_	_	_	_	_	_	
+
+#Text=docent i statsvetenskap och ledare för Sureyinstitutet på Linnéuniversitetet.
+35-1	2754-2760	docent	_	_	_	_	_	_	
+35-2	2761-2762	i	_	_	_	_	_	_	
+35-3	2763-2777	statsvetenskap	_	_	_	_	_	_	
+35-4	2778-2781	och	_	_	_	_	_	_	
+35-5	2782-2788	ledare	_	_	_	_	_	_	
+35-6	2789-2792	för	_	_	_	_	_	_	
+35-7	2793-2808	Sureyinstitutet	_	_	_	_	_	_	
+35-8	2809-2811	på	_	_	_	_	_	_	
+35-9	2812-2830	Linnéuniversitetet	_	_	_	_	_	_	
+35-10	2830-2831	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2833-2834	#	_	_	_	_	_	_	
+36-2	2834-2835	P	_	_	_	_	_	_	
+36-3	2836-2839	IMM	_	_	_	_	_	_	
+36-4	2839-2840	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+37-1	2842-2850	Redaktör	_	_	_	_	_	_	
+37-2	2850-2851	:	_	_	_	_	_	_	
+37-3	2852-2858	Carina	_	_	_	_	_	_	
+37-4	2859-2867	Stensson	_	_	_	_	_	_	
+37-5	2867-2868	,	_	_	_	_	_	_	
+37-6	2869-2879	Biträdande	_	_	_	_	_	_	
+37-7	2880-2888	redaktör	_	_	_	_	_	_	
+37-8	2888-2889	:	_	_	_	_	_	_	
+37-9	2890-2895	Björn	_	_	_	_	_	_	
+37-10	2896-2902	Jorner	_	_	_	_	_	_	
+37-11	2902-2903	,	_	_	_	_	_	_	
+37-12	2904-2908	Mejl	_	_	_	_	_	_	
+37-13	2908-2909	:	_	_	_	_	_	_	
+37-14	2910-2916	debatt	_	_	_	_	_	_	
+37-15	2916-2917	@	_	_	_	_	_	_	
+37-16	2917-2923	svd.se	_	_	_	_	_	_	
+37-17	2923-2924	,	_	_	_	_	_	_	
+37-18	2925-2938	Telefonnummer	_	_	_	_	_	_	
+37-19	2938-2939	:	_	_	_	_	_	_	
+37-20	2940-2942	08	_	_	_	_	_	_	
+37-21	2942-2943	-	_	_	_	_	_	_	
+37-22	2943-2949	135149	_	_	_	_	_	_	
+37-23	2949-2950	,	_	_	_	_	_	_	
+37-24	2951-2958	Twitter	_	_	_	_	_	_	
+37-25	2958-2959	:	_	_	_	_	_	_	
+37-26	2960-2961	@	_	_	_	_	_	_	
+37-27	2961-2970	SvDDebatt	_	_	_	_	_	_	
+37-28	2970-2971	,	_	_	_	_	_	_	
+37-29	2972-2980	Facebook	_	_	_	_	_	_	
+37-30	2980-2981	:	_	_	_	_	_	_	
+37-31	2982-2985	SvD	_	_	_	_	_	_	
+37-32	2986-2992	Debatt	_	_	_	_	_	_	
+37-33	2992-2993	.	_	_	_	_	_	_	

@@ -1,0 +1,215 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text="ensamkommande barn" praktiserar på förskolan!
+3-1	18-19	"	_	_[3]	_	true[3]	2[3]	_	
+3-2	19-32	ensamkommande	_	_[3]	_	true[3]	2[3]	_	
+3-3	33-37	barn	_	_[3]	_	true[3]	2[3]	_	
+3-4	37-38	"	_	_[3]	_	true[3]	2[3]	_	
+3-5	39-50	praktiserar	_	_	_	_	_	_	
+3-6	51-53	på	_	_	_	_	_	_	
+3-7	54-63	förskolan	_	_	_	_	_	_	
+3-8	63-64	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_[4]	_	false[4]	2[4]	_	
+4-3	69-72	IMM	_	_[4]	_	false[4]	2[4]	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=Helt plötsligt så har en av alla dessa "barn" börjat praktisera på dotterns förskola, ser ut som en vuxen liten man, stora sociala svårigheter och allmänt mängder av dåliga vibbar runt honom!.
+5-1	75-79	Helt	_	_	_	_	_	_	
+5-2	80-89	plötsligt	_	_	_	_	_	_	
+5-3	90-92	så	_	_	_	_	_	_	
+5-4	93-96	har	_	_	_	_	_	_	
+5-5	97-99	en	_	_	_	_	_	_	
+5-6	100-102	av	_	_	_	_	_	_	
+5-7	103-107	alla	_	_	_	_	_	_	
+5-8	108-113	dessa	_	_	_	_	_	_	
+5-9	114-115	"	_	_[5]	_	true[5]	2[5]	_	
+5-10	115-119	barn	_	_[5]	_	true[5]	2[5]	_	
+5-11	119-120	"	_	_[5]	_	true[5]	2[5]	_	
+5-12	121-127	börjat	_	_	_	_	_	_	
+5-13	128-138	praktisera	_	_	_	_	_	_	
+5-14	139-141	på	_	_	_	_	_	_	
+5-15	142-150	dotterns	_	_	_	_	_	_	
+5-16	151-159	förskola	_	_	_	_	_	_	
+5-17	159-160	,	_	_	_	_	_	_	
+5-18	161-164	ser	_	_	_	_	_	_	
+5-19	165-167	ut	_	_	_	_	_	_	
+5-20	168-171	som	_	_	_	_	_	_	
+5-21	172-174	en	_	_	_	_	_	_	
+5-22	175-180	vuxen	_	_	_	_	_	_	
+5-23	181-186	liten	_	_	_	_	_	_	
+5-24	187-190	man	*	_	_	_	_	_	
+5-25	190-191	,	_	_	_	_	_	_	
+5-26	192-197	stora	_	Target[6]	5-24	false[6]	2[6]	_	
+5-27	198-205	sociala	_	Target[6]	5-24	false[6]	2[6]	_	
+5-28	206-217	svårigheter	_	Target[6]	5-24	false[6]	2[6]	_	
+5-29	218-221	och	_	_	_	_	_	_	
+5-30	222-229	allmänt	_	_	_	_	_	_	
+5-31	230-237	mängder	_	_	_	_	_	_	
+5-32	238-240	av	_	_	_	_	_	_	
+5-33	241-247	dåliga	_	Target[7]	5-35[11]	false[7]	2[7]	_	
+5-34	248-254	vibbar	_	Target[7]	5-35[11]	false[7]	2[7]	_	
+5-35	255-259	runt	*[11]	_	_	_	_	_	
+5-36	260-265	honom	*[11]	_	_	_	_	_	
+5-37	265-266	!	_	_	_	_	_	_	
+5-38	266-267	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	269-270	#	_	_	_	_	_	_	
+6-2	270-271	P	_	_	_	_	_	_	
+6-3	272-275	IMM	_	_	_	_	_	_	
+6-4	275-276	.	_	_	_	_	_	_	
+
+#Text=Merparten av förskolepedagogerna är mer eller mindre "batikhäxor" och sådär naiva som bara sådana kan vara!.
+7-1	278-287	Merparten	_	_	_	_	_	_	
+7-2	288-290	av	_	_	_	_	_	_	
+7-3	291-310	förskolepedagogerna	*	_	_	_	_	_	
+7-4	311-313	är	_	_	_	_	_	_	
+7-5	314-317	mer	_	_	_	_	_	_	
+7-6	318-323	eller	_	_	_	_	_	_	
+7-7	324-330	mindre	_	_	_	_	_	_	
+7-8	331-332	"	_	_	_	_	_	_	
+7-9	332-342	batikhäxor	_	Target	7-3	false	1	_	
+7-10	342-343	"	_	_	_	_	_	_	
+7-11	344-347	och	_	_	_	_	_	_	
+7-12	348-353	sådär	_	_	_	_	_	_	
+7-13	354-359	naiva	_	Target	7-3	false	2	_	
+7-14	360-363	som	_	_	_	_	_	_	
+7-15	364-368	bara	_	_	_	_	_	_	
+7-16	369-375	sådana	_	_	_	_	_	_	
+7-17	376-379	kan	_	_	_	_	_	_	
+7-18	380-384	vara	_	_	_	_	_	_	
+7-19	384-385	!	_	_	_	_	_	_	
+7-20	385-386	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	388-389	#	_	_	_	_	_	_	
+8-2	389-390	P	_	_[8]	_	false[8]	2[8]	_	
+8-3	391-394	IMM	_	_[8]	_	false[8]	2[8]	_	
+8-4	394-395	.	_	_	_	_	_	_	
+
+#Text=Så nu undrar jag om jag på något sätt kan kräva mer info gällande placeringen utav denna praktikant, info om brottsregisterutrdrag har gjorts etc.
+9-1	397-399	Så	_	_	_	_	_	_	
+9-2	400-402	nu	_	_	_	_	_	_	
+9-3	403-409	undrar	_	_	_	_	_	_	
+9-4	410-413	jag	_	_	_	_	_	_	
+9-5	414-416	om	_	_	_	_	_	_	
+9-6	417-420	jag	_	_	_	_	_	_	
+9-7	421-423	på	_	_	_	_	_	_	
+9-8	424-429	något	_	_	_	_	_	_	
+9-9	430-434	sätt	_	_	_	_	_	_	
+9-10	435-438	kan	_	_	_	_	_	_	
+9-11	439-444	kräva	_	_	_	_	_	_	
+9-12	445-448	mer	_	_	_	_	_	_	
+9-13	449-453	info	_	_	_	_	_	_	
+9-14	454-462	gällande	_	_	_	_	_	_	
+9-15	463-474	placeringen	_	_	_	_	_	_	
+9-16	475-479	utav	_	_	_	_	_	_	
+9-17	480-485	denna	_	_	_	_	_	_	
+9-18	486-496	praktikant	_	_	_	_	_	_	
+9-19	496-497	,	_	_	_	_	_	_	
+9-20	498-502	info	_	_	_	_	_	_	
+9-21	503-505	om	_	_	_	_	_	_	
+9-22	506-527	brottsregisterutrdrag	_	_	_	_	_	_	
+9-23	528-531	har	_	_	_	_	_	_	
+9-24	532-538	gjorts	_	_	_	_	_	_	
+9-25	539-542	etc	_	_	_	_	_	_	
+9-26	542-543	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	545-546	#	_	_	_	_	_	_	
+10-2	546-547	P	_	_[9]	_	false[9]	2[9]	_	
+10-3	548-551	IMM	_	_[9]	_	false[9]	2[9]	_	
+10-4	551-552	.	_	_	_	_	_	_	
+
+#Text=Försöker att inte vara fördomsfull gällande honom, men det är svårt och det är min dotters säkerhet/trygghet som ev. står på spel!.
+11-1	554-562	Försöker	_	_	_	_	_	_	
+11-2	563-566	att	_	_	_	_	_	_	
+11-3	567-571	inte	*[12]	_	_	_	_	_	
+11-4	572-576	vara	*[12]	_	_	_	_	_	
+11-5	577-588	fördomsfull	*[12]	Target	11-7[13]	false	2	_	
+11-6	589-597	gällande	*[12]	_	_	_	_	_	
+11-7	598-603	honom	*[12]|*[13]	_	_	_	_	_	
+11-8	603-604	,	_	_	_	_	_	_	
+11-9	605-608	men	_	_	_	_	_	_	
+11-10	609-612	det	_	_	_	_	_	_	
+11-11	613-615	är	_	Target[10]	11-3[12]	false[10]	2[10]	_	
+11-12	616-621	svårt	_	Target[10]	11-3[12]	false[10]	2[10]	_	
+11-13	622-625	och	_	_	_	_	_	_	
+11-14	626-629	det	_	_	_	_	_	_	
+11-15	630-632	är	_	_	_	_	_	_	
+11-16	633-636	min	_	_	_	_	_	_	
+11-17	637-644	dotters	_	_	_	_	_	_	
+11-18	645-653	säkerhet	_	_	_	_	_	_	
+11-19	653-654	/	_	_	_	_	_	_	
+11-20	654-662	trygghet	_	_	_	_	_	_	
+11-21	663-666	som	_	_	_	_	_	_	
+11-22	667-669	ev	_	_	_	_	_	_	
+11-23	669-670	.	_	_	_	_	_	_	
+11-24	671-675	står	_	_	_	_	_	_	
+11-25	676-678	på	_	_	_	_	_	_	
+11-26	679-683	spel	_	_	_	_	_	_	
+11-27	683-684	!	_	_	_	_	_	_	
+11-28	684-685	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	687-688	#	_	_	_	_	_	_	
+12-2	688-689	P	_	_	_	_	_	_	
+12-3	690-693	IMM	_	_	_	_	_	_	
+12-4	693-694	.	_	_	_	_	_	_	
+
+#Text=Så, hur tusan ska jag gå tillväga med detta?.
+13-1	696-698	Så	_	_	_	_	_	_	
+13-2	698-699	,	_	_	_	_	_	_	
+13-3	700-703	hur	_	_	_	_	_	_	
+13-4	704-709	tusan	_	_	_	_	_	_	
+13-5	710-713	ska	_	_	_	_	_	_	
+13-6	714-717	jag	_	_	_	_	_	_	
+13-7	718-720	gå	_	_	_	_	_	_	
+13-8	721-729	tillväga	_	_	_	_	_	_	
+13-9	730-733	med	_	_	_	_	_	_	
+13-10	734-739	detta	_	_	_	_	_	_	
+13-11	739-740	?	_	_	_	_	_	_	
+13-12	740-741	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	743-744	#	_	_	_	_	_	_	
+14-2	744-745	P	_	_	_	_	_	_	
+14-3	746-749	IMM	_	_	_	_	_	_	
+14-4	749-750	.	_	_	_	_	_	_	
+
+#Text=Kalla mig gärna rasist, skiter jag fullständigt i när det handlar om dottern!.
+15-1	752-757	Kalla	*[14]	_	_	_	_	_	
+15-2	758-761	mig	*[14]	_	_	_	_	_	
+15-3	762-767	gärna	*[14]	_	_	_	_	_	
+15-4	768-774	rasist	*[14]|*[15]	Target	15-4[15]	false	1	_	
+15-5	774-775	,	_	_	_	_	_	_	
+15-6	776-782	skiter	_	Target	15-1[14]	false	1	_	
+15-7	783-786	jag	_	_	_	_	_	_	
+15-8	787-799	fullständigt	_	_	_	false	1	15-6	
+15-9	800-801	i	_	_	_	_	_	_	
+15-10	802-805	när	_	_	_	_	_	_	
+15-11	806-809	det	_	_	_	_	_	_	
+15-12	810-817	handlar	_	_	_	_	_	_	
+15-13	818-820	om	_	_	_	_	_	_	
+15-14	821-828	dottern	_	_	_	_	_	_	
+15-15	828-829	!	_	_	_	_	_	_	
+15-16	829-830	.	_	_	_	_	_	_	

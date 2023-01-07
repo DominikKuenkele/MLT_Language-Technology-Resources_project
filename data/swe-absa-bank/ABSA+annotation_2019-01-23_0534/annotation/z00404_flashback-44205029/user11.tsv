@@ -1,0 +1,94 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Att bli kallad rasist av nån är ju lika kränkande som att bete sig rasistiskt?
+3-1	18-21	Att	_	_	_	_	_	_	
+3-2	22-25	bli	_	Source[1]	3-16	false[1]	1[1]	_	
+3-3	26-32	kallad	_	Source[1]	3-16	false[1]	1[1]	_	
+3-4	33-39	rasist	_	Source[1]	3-16	false[1]	1[1]	_	
+3-5	40-42	av	_	_	_	_	_	_	
+3-6	43-46	nån	_	_	_	_	_	_	
+3-7	47-49	är	_	_	_	false	2	_	
+3-8	50-52	ju	_	_	_	_	_	_	
+3-9	53-57	lika	_	Target[2]	3-13[4]	false[2]	2[2]	3-7[0_2]	
+3-10	58-67	kränkande	_	Target[2]	3-13[4]	false[2]	2[2]	_	
+3-11	68-71	som	_	_	_	_	_	_	
+3-12	72-75	att	_	_	_	_	_	_	
+3-13	76-80	bete	*[4]	_	_	_	_	_	
+3-14	81-84	sig	*[4]	_	_	_	_	_	
+3-15	85-95	rasistiskt	*[4]	_	_	_	_	_	
+3-16	95-96	?	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	98-99	#	_	_	_	_	_	_	
+4-2	99-100	P	_	_	_	_	_	_	
+4-3	101-104	IMM	_	_	_	_	_	_	
+4-4	104-105	.	_	_	_	_	_	_	
+
+#Text=Är det inte så då egentligen?
+5-1	107-109	Är	_	_	_	_	_	_	
+5-2	110-113	det	_	_	_	_	_	_	
+5-3	114-118	inte	_	_	_	_	_	_	
+5-4	119-121	så	_	_	_	_	_	_	
+5-5	122-124	då	_	_	_	_	_	_	
+5-6	125-135	egentligen	_	_	_	_	_	_	
+5-7	135-136	?	_	_	_	_	_	_	
+
+#Text=Men folk verkar tro att det är okej att kalla andra för rasister fram o tillbaka.
+6-1	137-140	Men	_	_	_	_	_	_	
+6-2	141-145	folk	*	_	_	_	_	_	
+6-3	146-152	verkar	_	_	_	_	_	_	
+6-4	153-156	tro	_	_	_	false	4	_	
+6-5	157-160	att	_	_	_	_	_	_	
+6-6	161-164	det	_	_	_	_	_	_	
+6-7	165-167	är	_	Source;Target[3]	6-2;6-10[5]	false[3]	4[3]	6-4[0_3]	
+6-8	168-172	okej	_	Source;Target[3]	6-2;6-10[5]	false[3]	4[3]	_	
+6-9	173-176	att	_	_	_	_	_	_	
+6-10	177-182	kalla	*[5]	_	_	_	_	_	
+6-11	183-188	andra	*[5]	_	_	_	_	_	
+6-12	189-192	för	*[5]	_	_	_	_	_	
+6-13	193-201	rasister	*[5]	_	_	_	_	_	
+6-14	202-206	fram	_	_	_	_	_	_	
+6-15	207-208	o	_	_	_	_	_	_	
+6-16	209-217	tillbaka	_	_	_	_	_	_	
+6-17	217-218	.	_	_	_	_	_	_	
+
+#Text=Är jag den enda som känner denna ilska när man blir kallad det?
+7-1	219-221	Är	_	_	_	_	_	_	
+7-2	222-225	jag	*	_	_	_	_	_	
+7-3	226-229	den	_	_	_	_	_	_	
+7-4	230-234	enda	_	_	_	_	_	_	
+7-5	235-238	som	_	_	_	_	_	_	
+7-6	239-245	känner	_	_	_	false	1	_	
+7-7	246-251	denna	_	_	_	_	_	_	
+7-8	252-257	ilska	_	Source;Target	7-2;7-9[6]	false	1	7-6	
+7-9	258-261	när	*[6]	_	_	_	_	_	
+7-10	262-265	man	*[6]	_	_	_	_	_	
+7-11	266-270	blir	*[6]	_	_	_	_	_	
+7-12	271-277	kallad	*[6]	_	_	_	_	_	
+7-13	278-281	det	*[6]	_	_	_	_	_	
+7-14	281-282	?	_	_	_	_	_	_	
+
+#Text=Har man rätt till det?.
+8-1	283-286	Har	_	_	_	_	_	_	
+8-2	287-290	man	_	_	_	_	_	_	
+8-3	291-295	rätt	_	_	_	_	_	_	
+8-4	296-300	till	_	_	_	_	_	_	
+8-5	301-304	det	_	_	_	_	_	_	
+8-6	304-305	?	_	_	_	_	_	_	
+8-7	305-306	.	_	_	_	_	_	_	

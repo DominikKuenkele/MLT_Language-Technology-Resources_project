@@ -1,0 +1,1690 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Fördomsfullt och   
+#Text=okunnigt om ridsport.
+3-1	18-30	Fördomsfullt	_	_	_	_	_	_	_	
+3-2	31-34	och	_	_	_	_	_	_	_	
+3-3	38-46	okunnigt	_	_	_	_	_	_	_	
+3-4	47-49	om	_	_	_	_	_	_	_	
+3-5	50-58	ridsport	_	_	_	_	_	_	_	
+3-6	58-59	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_	_	_	_	_	_	
+4-2	62-63	P	_	_	_	_	_	_	_	
+4-3	64-67	IMM	_	_	_	_	_	_	_	
+4-4	67-68	.	_	_	_	_	_	_	_	
+
+#Text=Synen på ridsport i Sverige bygger ofta på okunskap, fördomar och stereotypa föreställningar om både djur, idrott och kön.
+5-1	70-75	Synen	*[20]	_	_	_	_	_	_	
+5-2	76-78	på	*[20]	_	_	_	_	_	_	
+5-3	79-87	ridsport	*[20]	_	_	_	_	_	_	
+5-4	88-89	i	*[20]	_	_	_	_	_	_	
+5-5	90-97	Sverige	*[20]	_	_	_	_	_	_	
+5-6	98-104	bygger	_	_	_	false	2	_	_	
+5-7	105-109	ofta	_	_	_	_	_	_	_	
+5-8	110-112	på	_	Target[1]	5-1[20]	false[1]	2[1]	5-6[0_1]	_	
+5-9	113-121	okunskap	_	Target[1]	5-1[20]	false[1]	2[1]	_	_	
+5-10	121-122	,	_	Target[1]	5-1[20]	false[1]	2[1]	_	_	
+5-11	123-131	fördomar	_	Target[1]	5-1[20]	false[1]	2[1]	_	_	
+5-12	132-135	och	_	Target[1]	5-1[20]	false[1]	2[1]	_	_	
+5-13	136-146	stereotypa	_	Target[1]|Target[2]	5-1[20]|5-14[21]	false[1]|false[2]	2[1]|2[2]	_	_	
+5-14	147-162	föreställningar	*[21]	Target[1]	5-1[20]	false[1]	2[1]	_	_	
+5-15	163-165	om	*[21]	_	_	_	_	_	_	
+5-16	166-170	både	*[21]	_	_	_	_	_	_	
+5-17	171-175	djur	*[21]	_	_	_	_	_	_	
+5-18	175-176	,	*[21]	_	_	_	_	_	_	
+5-19	177-183	idrott	*[21]	_	_	_	_	_	_	
+5-20	184-187	och	*[21]	_	_	_	_	_	_	
+5-21	188-191	kön	*[21]	_	_	_	_	_	_	
+5-22	191-192	.	_	_	_	_	_	_	_	
+
+#Text=Tvärtom vad många tror spelar hästen en allt viktigare roll i vårt samhälle.
+6-1	193-200	Tvärtom	_	_	_	_	_	_	_	
+6-2	201-204	vad	_	_	_	_	_	_	_	
+6-3	205-210	många	_	_	_	_	_	_	_	
+6-4	211-215	tror	_	_	_	_	_	_	_	
+6-5	216-222	spelar	_	_	_	false	4	_	_	
+6-6	223-229	hästen	*	_	_	_	_	_	_	
+6-7	230-232	en	_	Target[3]	6-6	false[3]	4[3]	6-5[0_3]	_	
+6-8	233-237	allt	_	Target[3]	6-6	false[3]	4[3]	_	_	
+6-9	238-247	viktigare	_	Target[3]	6-6	false[3]	4[3]	_	_	
+6-10	248-252	roll	_	Target[3]	6-6	false[3]	4[3]	_	_	
+6-11	253-254	i	_	_	_	_	_	_	_	
+6-12	255-259	vårt	_	_	_	_	_	_	_	
+6-13	260-268	samhälle	_	_	_	_	_	_	_	
+6-14	268-269	.	_	_	_	_	_	_	_	
+
+#Text=Därför är behovet av hästforskning stort, skriver 21 forskare.
+7-1	270-276	Därför	_	_	_	_	_	_	_	
+7-2	277-279	är	_	Target;Source[4]	7-5;7-9[22]	false[4]	4[4]	7-6[0_4]	_	
+7-3	280-287	behovet	_	Target;Source[4]	7-5;7-9[22]	false[4]	4[4]	_	_	
+7-4	288-290	av	_	Target;Source[4]	7-5;7-9[22]	false[4]	4[4]	_	_	
+7-5	291-304	hästforskning	*	_	_	_	_	_	_	
+7-6	305-310	stort	_	_	_	false	4	_	_	
+7-7	310-311	,	_	_	_	_	_	_	_	
+7-8	312-319	skriver	_	_	_	_	_	_	_	
+7-9	320-322	21	*[22]	_	_	_	_	_	_	
+7-10	323-331	forskare	*[22]	_	_	_	_	_	_	
+7-11	331-332	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	334-335	#	_	_	_	_	_	_	_	
+8-2	335-336	P	_	_	_	_	_	_	_	
+8-3	337-340	IMM	_	_	_	_	_	_	_	
+8-4	340-341	.	_	_	_	_	_	_	_	
+
+#Text=Om Sverige vill fortsätta att ligga i framkant både då det gäller tävlingsframgångar, brett tillgänglig hobbyridning, djurskydd samt de nya hästbaserade verksamhetsområden som är under framväxt, behöver vi kvalificerad forskning för att bättre förstå den positiva roll hästen spelar.21 forskare.
+9-1	343-345	Om	_	_	_	_	_	_	_	
+9-2	346-353	Sverige	_	_	_	_	_	_	_	
+9-3	354-358	vill	_	_	_	_	_	_	_	
+9-4	359-368	fortsätta	_	_	_	_	_	_	_	
+9-5	369-372	att	_	_	_	_	_	_	_	
+9-6	373-378	ligga	_	_	_	_	_	_	_	
+9-7	379-380	i	_	_	_	_	_	_	_	
+9-8	381-389	framkant	_	_	_	_	_	_	_	
+9-9	390-394	både	_	_	_	_	_	_	_	
+9-10	395-397	då	_	_	_	_	_	_	_	
+9-11	398-401	det	_	_	_	_	_	_	_	
+9-12	402-408	gäller	_	_	_	_	_	_	_	
+9-13	409-427	tävlingsframgångar	_	_	_	_	_	_	_	
+9-14	427-428	,	_	_	_	_	_	_	_	
+9-15	429-434	brett	_	Target	9-16[23]	false	4	_	_	
+9-16	435-446	tillgänglig	*[23]	_	_	_	_	_	_	
+9-17	447-459	hobbyridning	*[23]	_	_	_	_	_	_	
+9-18	459-460	,	_	_	_	_	_	_	_	
+9-19	461-470	djurskydd	_	_	_	_	_	_	_	
+9-20	471-475	samt	_	_	_	_	_	_	_	
+9-21	476-478	de	_	_	_	_	_	_	_	
+9-22	479-482	nya	_	_	_	_	_	_	_	
+9-23	483-495	hästbaserade	_	_	_	_	_	_	_	
+9-24	496-514	verksamhetsområden	_	_	_	_	_	_	_	
+9-25	515-518	som	_	_	_	_	_	_	_	
+9-26	519-521	är	_	_	_	_	_	_	_	
+9-27	522-527	under	_	_	_	_	_	_	_	
+9-28	528-536	framväxt	_	_	_	_	_	_	_	
+9-29	536-537	,	_	_	_	_	_	_	_	
+9-30	538-545	behöver	_	_	_	_	_	_	_	
+9-31	546-548	vi	_	_	_	_	_	_	_	
+9-32	549-561	kvalificerad	_	Target	9-33	false	4	_	_	
+9-33	562-571	forskning	*	_	_	_	_	_	_	
+9-34	572-575	för	_	_	_	_	_	_	_	
+9-35	576-579	att	_	_	_	_	_	_	_	
+9-36	580-586	bättre	_	_	_	_	_	_	_	
+9-37	587-593	förstå	_	_	_	_	_	_	_	
+9-38	594-597	den	_	_	_	_	_	_	_	
+9-39	598-606	positiva	_	_	_	_	_	_	_	
+9-40	607-611	roll	_	_	_	_	_	_	_	
+9-41	612-618	hästen	_	_	_	_	_	_	_	
+9-42	619-625	spelar	_	_	_	_	_	_	_	
+9-43	625-628	.21	_	_	_	_	_	_	_	
+9-44	629-637	forskare	_	_	_	_	_	_	_	
+9-45	637-638	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	640-641	#	_	_	_	_	_	_	_	
+10-2	641-642	P	_	_	_	_	_	_	_	
+10-3	643-646	IMM	_	_	_	_	_	_	_	
+10-4	646-647	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	649-652	Det	_	_	_	_	_	_	_	
+11-2	653-656	här	_	_	_	_	_	_	_	
+11-3	657-659	är	_	_	_	_	_	_	_	
+11-4	660-662	en	_	_	_	_	_	_	_	
+11-5	663-677	argumenterande	_	_	_	_	_	_	_	
+11-6	678-682	text	_	_	_	_	_	_	_	
+11-7	683-686	med	_	_	_	_	_	_	_	
+11-8	687-692	syfte	_	_	_	_	_	_	_	
+11-9	693-696	att	_	_	_	_	_	_	_	
+11-10	697-704	påverka	_	_	_	_	_	_	_	
+11-11	704-705	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	706-715	Åsikterna	_	_	_	_	_	_	_	
+12-2	716-719	som	_	_	_	_	_	_	_	
+12-3	720-728	uttrycks	_	_	_	_	_	_	_	
+12-4	729-731	är	_	_	_	_	_	_	_	
+12-5	732-743	skribentens	_	_	_	_	_	_	_	
+12-6	744-748	egna	_	_	_	_	_	_	_	
+12-7	748-749	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	751-752	#	_	_	_	_	_	_	_	
+13-2	752-753	P	_	_	_	_	_	_	_	
+13-3	754-757	IMM	_	_	_	_	_	_	_	
+13-4	757-758	.	_	_	_	_	_	_	_	
+
+#Text=Ryttaren Rolf-Göran Bengtsson – rankad världsetta i hoppning - fick i dagarna Jerringpriset.
+14-1	760-768	Ryttaren	_	_	_	_	_	_	_	
+14-2	769-779	Rolf-Göran	_	_	_	_	_	_	_	
+14-3	780-789	Bengtsson	_	_	_	_	_	_	_	
+14-4	790-791	–	_	_	_	_	_	_	_	
+14-5	792-798	rankad	_	_	_	_	_	_	_	
+14-6	799-809	världsetta	_	_	_	_	_	_	_	
+14-7	810-811	i	_	_	_	_	_	_	_	
+14-8	812-820	hoppning	_	_	_	_	_	_	_	
+14-9	821-822	-	_	_	_	_	_	_	_	
+14-10	823-827	fick	_	_	_	_	_	_	_	
+14-11	828-829	i	_	_	_	_	_	_	_	
+14-12	830-837	dagarna	_	_	_	_	_	_	_	
+14-13	838-851	Jerringpriset	_	_	_	_	_	_	_	
+14-14	851-852	.	_	_	_	_	_	_	_	
+
+#Text=Genast tog en intensiv debatt om priset fart.
+15-1	853-859	Genast	_	_	_	_	_	_	_	
+15-2	860-863	tog	_	_	_	_	_	_	_	
+15-3	864-866	en	_	_	_	_	_	_	_	
+15-4	867-875	intensiv	_	_	_	_	_	_	_	
+15-5	876-882	debatt	_	_	_	_	_	_	_	
+15-6	883-885	om	_	_	_	_	_	_	_	
+15-7	886-892	priset	_	_	_	_	_	_	_	
+15-8	893-897	fart	_	_	_	_	_	_	_	
+15-9	897-898	.	_	_	_	_	_	_	_	
+
+#Text=En debatt där ridsporten påstås inte vara någon "riktig sport" eftersom det ändå är "hästen som gör jobbet".
+16-1	899-901	En	_	_	_	_	_	_	_	
+16-2	902-908	debatt	_	_	_	_	_	_	_	
+16-3	909-912	där	_	_	_	_	_	_	_	
+16-4	913-923	ridsporten	*	_	_	_	_	_	_	
+16-5	924-930	påstås	_	_	_	_	_	_	_	
+16-6	931-935	inte	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-7	936-940	vara	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-8	941-946	någon	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-9	947-948	"	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-10	948-954	riktig	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-11	955-960	sport	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-12	960-961	"	_	Source;Target[5]	16-23;16-4	false[5]	2[5]	_	_	
+16-13	962-970	eftersom	_	_	_	_	_	_	_	
+16-14	971-974	det	_	_	_	_	_	_	_	
+16-15	975-979	ändå	_	_	_	_	_	_	_	
+16-16	980-982	är	_	_	_	_	_	_	_	
+16-17	983-984	"	_	_	_	_	_	_	_	
+16-18	984-990	hästen	_	_	_	_	_	_	_	
+16-19	991-994	som	_	_	_	_	_	_	_	
+16-20	995-998	gör	_	_	_	_	_	_	_	
+16-21	999-1005	jobbet	_	_	_	_	_	_	_	
+16-22	1005-1006	"	_	_	_	_	_	_	_	
+16-23	1006-1007	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1009-1010	#	_	_	_	_	_	_	_	
+17-2	1010-1011	P	_	_	_	_	_	_	_	
+17-3	1012-1015	IMM	_	_	_	_	_	_	_	
+17-4	1015-1016	.	_	_	_	_	_	_	_	
+
+#Text=Debatten har tydliggjort att synen på ridsport i Sverige inte sällan bygger på okunskap, fördomar och stereotypa föreställningar om både djur, idrott och kön.
+18-1	1018-1026	Debatten	_	_	_	_	_	_	_	
+18-2	1027-1030	har	_	_	_	_	_	_	_	
+18-3	1031-1042	tydliggjort	_	_	_	_	_	_	_	
+18-4	1043-1046	att	_	_	_	_	_	_	_	
+18-5	1047-1052	synen	*[24]	_	_	_	_	_	_	
+18-6	1053-1055	på	*[24]	_	_	_	_	_	_	
+18-7	1056-1064	ridsport	*[24]	_	_	_	_	_	_	
+18-8	1065-1066	i	*[24]	_	_	_	_	_	_	
+18-9	1067-1074	Sverige	*[24]	_	_	_	_	_	_	
+18-10	1075-1079	inte	_	_	_	_	_	_	_	
+18-11	1080-1086	sällan	_	_	_	_	_	_	_	
+18-12	1087-1093	bygger	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-13	1094-1096	på	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-14	1097-1105	okunskap	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-15	1105-1106	,	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-16	1107-1115	fördomar	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-17	1116-1119	och	_	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-18	1120-1130	stereotypa	_	Target[6]|Target[7]	18-5[24]|18-19[25]	false[6]|false[7]	2[6]|2[7]	_	_	
+18-19	1131-1146	föreställningar	*[25]	Target[6]	18-5[24]	false[6]	2[6]	_	_	
+18-20	1147-1149	om	*[25]	_	_	_	_	_	_	
+18-21	1150-1154	både	*[25]	_	_	_	_	_	_	
+18-22	1155-1159	djur	*[25]	_	_	_	_	_	_	
+18-23	1159-1160	,	*[25]	_	_	_	_	_	_	
+18-24	1161-1167	idrott	*[25]	_	_	_	_	_	_	
+18-25	1168-1171	och	*[25]	_	_	_	_	_	_	
+18-26	1172-1175	kön	*[25]	_	_	_	_	_	_	
+18-27	1175-1176	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1178-1179	#	_	_	_	_	_	_	_	
+19-2	1179-1180	P	_	_	_	_	_	_	_	
+19-3	1181-1184	IMM	_	_	_	_	_	_	_	
+19-4	1184-1185	.	_	_	_	_	_	_	_	
+
+#Text=Ridsport och prestationer på tävlingsbanan utgör dock bara en liten del av de många verksamheter där häst och människa interagerar.
+20-1	1187-1195	Ridsport	_	_	_	_	_	_	_	
+20-2	1196-1199	och	_	_	_	_	_	_	_	
+20-3	1200-1212	prestationer	_	_	_	_	_	_	_	
+20-4	1213-1215	på	_	_	_	_	_	_	_	
+20-5	1216-1229	tävlingsbanan	_	_	_	_	_	_	_	
+20-6	1230-1235	utgör	_	_	_	_	_	_	_	
+20-7	1236-1240	dock	_	_	_	_	_	_	_	
+20-8	1241-1245	bara	_	_	_	_	_	_	_	
+20-9	1246-1248	en	_	_	_	_	_	_	_	
+20-10	1249-1254	liten	_	_	_	_	_	_	_	
+20-11	1255-1258	del	_	_	_	_	_	_	_	
+20-12	1259-1261	av	_	_	_	_	_	_	_	
+20-13	1262-1264	de	_	_	_	_	_	_	_	
+20-14	1265-1270	många	_	_	_	_	_	_	_	
+20-15	1271-1283	verksamheter	_	_	_	_	_	_	_	
+20-16	1284-1287	där	_	_	_	_	_	_	_	
+20-17	1288-1292	häst	_	_	_	_	_	_	_	
+20-18	1293-1296	och	_	_	_	_	_	_	_	
+20-19	1297-1305	människa	_	_	_	_	_	_	_	
+20-20	1306-1317	interagerar	_	_	_	_	_	_	_	
+20-21	1317-1318	.	_	_	_	_	_	_	_	
+
+#Text=Ända sedan 1950-talet har hästen använts inom fysioterapi och rehabilitering.
+21-1	1319-1323	Ända	_	_	_	_	_	_	_	
+21-2	1324-1329	sedan	_	_	_	_	_	_	_	
+21-3	1330-1334	1950	_	_	_	_	_	_	_	
+21-4	1334-1335	-	_	_	_	_	_	_	_	
+21-5	1335-1340	talet	_	_	_	_	_	_	_	
+21-6	1341-1344	har	_	_	_	_	_	_	_	
+21-7	1345-1351	hästen	_	_	_	_	_	_	_	
+21-8	1352-1359	använts	_	_	_	_	_	_	_	
+21-9	1360-1364	inom	_	_	_	_	_	_	_	
+21-10	1365-1376	fysioterapi	_	_	_	_	_	_	_	
+21-11	1377-1380	och	_	_	_	_	_	_	_	
+21-12	1381-1395	rehabilitering	_	_	_	_	_	_	_	
+21-13	1395-1396	.	_	_	_	false	4	_	_	
+
+#Text=I dag är en mängd professionella arenor under utveckling, där hästen agerar som medhjälpare och katalysator: inom socialt arbete, psykoterapi, ledarskaps- och coachutbildningar.
+22-1	1397-1398	I	_	_	_	_	_	_	_	
+22-2	1399-1402	dag	_	_	_	_	_	_	_	
+22-3	1403-1405	är	_	_	_	_	_	_	_	
+22-4	1406-1408	en	_	_	_	_	_	_	_	
+22-5	1409-1414	mängd	_	_	_	_	_	_	_	
+22-6	1415-1429	professionella	_	_	_	_	_	_	_	
+22-7	1430-1436	arenor	_	_	_	_	_	_	_	
+22-8	1437-1442	under	_	_	_	_	_	_	_	
+22-9	1443-1453	utveckling	_	_	_	_	_	_	_	
+22-10	1453-1454	,	_	_	_	_	_	_	_	
+22-11	1455-1458	där	_	_	_	_	_	_	_	
+22-12	1459-1465	hästen	_	_	_	_	_	_	_	
+22-13	1466-1472	agerar	_	_	_	_	_	_	_	
+22-14	1473-1476	som	_	_	_	_	_	_	_	
+22-15	1477-1488	medhjälpare	_	_	_	_	_	_	_	
+22-16	1489-1492	och	_	_	_	_	_	_	_	
+22-17	1493-1504	katalysator	_	_	_	_	_	_	_	
+22-18	1504-1505	:	_	_	_	_	_	_	_	
+22-19	1506-1510	inom	_	_	_	_	_	_	_	
+22-20	1511-1518	socialt	_	_	_	_	_	_	_	
+22-21	1519-1525	arbete	_	_	_	_	_	_	_	
+22-22	1525-1526	,	_	_	_	_	_	_	_	
+22-23	1527-1538	psykoterapi	_	_	_	_	_	_	_	
+22-24	1538-1539	,	_	_	_	_	_	_	_	
+22-25	1540-1550	ledarskaps	_	_	_	_	_	_	_	
+22-26	1550-1551	-	_	_	_	_	_	_	_	
+22-27	1552-1555	och	_	_	_	_	_	_	_	
+22-28	1556-1573	coachutbildningar	_	_	_	_	_	_	_	
+22-29	1573-1574	.	_	_	_	_	_	_	_	
+
+#Text=Inom såväl vården som friskvården spelar hästen alltså en viktig och alltmer komplex roll.
+23-1	1575-1579	Inom	_	_	_	_	_	_	_	
+23-2	1580-1585	såväl	_	_	_	_	_	_	_	
+23-3	1586-1592	vården	_	_	_	_	_	_	_	
+23-4	1593-1596	som	_	_	_	_	_	_	_	
+23-5	1597-1608	friskvården	_	_	_	_	_	_	_	
+23-6	1609-1615	spelar	_	_	_	false	4	_	_	
+23-7	1616-1622	hästen	*	_	_	_	_	_	_	
+23-8	1623-1629	alltså	_	_	_	_	_	_	_	
+23-9	1630-1632	en	_	Target[8]	23-7	false[8]	4[8]	23-6[0_8]	_	
+23-10	1633-1639	viktig	_	Target[8]	23-7	false[8]	4[8]	_	_	
+23-11	1640-1643	och	_	Target[8]	23-7	false[8]	4[8]	_	_	
+23-12	1644-1651	alltmer	_	Target[8]	23-7	false[8]	4[8]	_	_	
+23-13	1652-1659	komplex	_	Target[8]	23-7	false[8]	4[8]	_	_	
+23-14	1660-1664	roll	_	Target[8]	23-7	false[8]	4[8]	_	_	
+23-15	1664-1665	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser idag framväxten av en akademisk kunskap om hästens mångfacetterade funktion i samtiden.
+24-1	1666-1668	Vi	_	_	_	_	_	_	_	
+24-2	1669-1672	ser	_	_	_	_	_	_	_	
+24-3	1673-1677	idag	_	_	_	_	_	_	_	
+24-4	1678-1688	framväxten	_	_	_	_	_	_	_	
+24-5	1689-1691	av	_	_	_	_	_	_	_	
+24-6	1692-1694	en	_	_	_	_	_	_	_	
+24-7	1695-1704	akademisk	_	_	_	_	_	_	_	
+24-8	1705-1712	kunskap	_	_	_	_	_	_	_	
+24-9	1713-1715	om	_	_	_	_	_	_	_	
+24-10	1716-1723	hästens	_	_	_	_	_	_	_	
+24-11	1724-1739	mångfacetterade	_	_	_	_	_	_	_	
+24-12	1740-1748	funktion	_	_	_	_	_	_	_	
+24-13	1749-1750	i	_	_	_	_	_	_	_	
+24-14	1751-1759	samtiden	_	_	_	_	_	_	_	
+24-15	1759-1760	.	_	_	_	_	_	_	_	
+
+#Text=Samhälls- och humanioraforskare i Svenskt Nätverk för forskning om Människa och Häst, arbetar för att öka kunnigheten om hästen, dess betydelse för människan och dess roll i samhället.
+25-1	1761-1769	Samhälls	*[26]	_	_	_	_	_	_	
+25-2	1769-1770	-	*[26]	_	_	_	_	_	_	
+25-3	1771-1774	och	*[26]	_	_	_	_	_	_	
+25-4	1775-1792	humanioraforskare	*[26]	_	_	_	_	_	_	
+25-5	1793-1794	i	*[26]	_	_	_	_	_	_	
+25-6	1795-1802	Svenskt	*[26]	_	_	_	_	_	_	
+25-7	1803-1810	Nätverk	*[26]	_	_	_	_	_	_	
+25-8	1811-1814	för	*[26]	_	_	_	_	_	_	
+25-9	1815-1824	forskning	*[26]	_	_	_	_	_	_	
+25-10	1825-1827	om	*[26]	_	_	_	_	_	_	
+25-11	1828-1836	Människa	*[26]	_	_	_	_	_	_	
+25-12	1837-1840	och	*[26]	_	_	_	_	_	_	
+25-13	1841-1845	Häst	*[26]	_	_	_	_	_	_	
+25-14	1845-1846	,	_	_	_	_	_	_	_	
+25-15	1847-1854	arbetar	_	Target;Source[9]	25-17[27];25-1[26]	false[9]	4[9]	_	_	
+25-16	1855-1858	för	_	Target;Source[9]	25-17[27];25-1[26]	false[9]	4[9]	_	_	
+25-17	1859-1862	att	*[27]	_	_	_	_	_	_	
+25-18	1863-1866	öka	*[27]	_	_	_	_	_	_	
+25-19	1867-1878	kunnigheten	*[27]	_	_	_	_	_	_	
+25-20	1879-1881	om	*[27]	_	_	_	_	_	_	
+25-21	1882-1888	hästen	*[27]	_	_	_	_	_	_	
+25-22	1888-1889	,	*[27]	_	_	_	_	_	_	
+25-23	1890-1894	dess	*[27]	_	_	_	_	_	_	
+25-24	1895-1904	betydelse	*[27]	_	_	_	_	_	_	
+25-25	1905-1908	för	*[27]	_	_	_	_	_	_	
+25-26	1909-1918	människan	*[27]	_	_	_	_	_	_	
+25-27	1919-1922	och	*[27]	_	_	_	_	_	_	
+25-28	1923-1927	dess	*[27]	_	_	_	_	_	_	
+25-29	1928-1932	roll	*[27]	_	_	_	_	_	_	
+25-30	1933-1934	i	*[27]	_	_	_	_	_	_	
+25-31	1935-1944	samhället	*[27]	_	_	_	_	_	_	
+25-32	1944-1945	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1947-1948	#	_	_	_	_	_	_	_	
+26-2	1948-1949	P	_	_	_	_	_	_	_	
+26-3	1950-1953	IMM	_	_	_	_	_	_	_	
+26-4	1953-1954	.	_	_	_	_	_	_	_	
+
+#Text=Vi vet att barn och ungdomar mår bra av att umgås med hästar, att hästnäringen är landsbygdens snabbast expanderande näring, att antalet hästar i landet på ganska kort tid ökat så att de idag är lika många eller fler än de var vid 1800-talets slut.
+27-1	1956-1958	Vi	_	_	_	_	_	_	_	
+27-2	1959-1962	vet	_	_	_	_	_	_	_	
+27-3	1963-1966	att	_	_	_	_	_	_	_	
+27-4	1967-1971	barn	_	_	_	_	_	_	_	
+27-5	1972-1975	och	_	_	_	_	_	_	_	
+27-6	1976-1984	ungdomar	_	_	_	_	_	_	_	
+27-7	1985-1988	mår	_	_	_	_	_	_	_	
+27-8	1989-1992	bra	_	_	_	_	_	_	_	
+27-9	1993-1995	av	_	_	_	_	_	_	_	
+27-10	1996-1999	att	_	_	_	_	_	_	_	
+27-11	2000-2005	umgås	_	_	_	_	_	_	_	
+27-12	2006-2009	med	_	_	_	_	_	_	_	
+27-13	2010-2016	hästar	_	_	_	_	_	_	_	
+27-14	2016-2017	,	_	_	_	_	_	_	_	
+27-15	2018-2021	att	_	_	_	_	_	_	_	
+27-16	2022-2034	hästnäringen	_	_	_	_	_	_	_	
+27-17	2035-2037	är	_	_	_	_	_	_	_	
+27-18	2038-2050	landsbygdens	_	_	_	_	_	_	_	
+27-19	2051-2059	snabbast	_	_	_	_	_	_	_	
+27-20	2060-2072	expanderande	_	_	_	_	_	_	_	
+27-21	2073-2079	näring	_	_	_	_	_	_	_	
+27-22	2079-2080	,	_	_	_	_	_	_	_	
+27-23	2081-2084	att	_	_	_	_	_	_	_	
+27-24	2085-2092	antalet	_	_	_	_	_	_	_	
+27-25	2093-2099	hästar	_	_	_	_	_	_	_	
+27-26	2100-2101	i	_	_	_	_	_	_	_	
+27-27	2102-2108	landet	_	_	_	_	_	_	_	
+27-28	2109-2111	på	_	_	_	_	_	_	_	
+27-29	2112-2118	ganska	_	_	_	_	_	_	_	
+27-30	2119-2123	kort	_	_	_	_	_	_	_	
+27-31	2124-2127	tid	_	_	_	_	_	_	_	
+27-32	2128-2132	ökat	_	_	_	_	_	_	_	
+27-33	2133-2135	så	_	_	_	_	_	_	_	
+27-34	2136-2139	att	_	_	_	_	_	_	_	
+27-35	2140-2142	de	_	_	_	_	_	_	_	
+27-36	2143-2147	idag	_	_	_	_	_	_	_	
+27-37	2148-2150	är	_	_	_	_	_	_	_	
+27-38	2151-2155	lika	_	_	_	_	_	_	_	
+27-39	2156-2161	många	_	_	_	_	_	_	_	
+27-40	2162-2167	eller	_	_	_	_	_	_	_	
+27-41	2168-2172	fler	_	_	_	_	_	_	_	
+27-42	2173-2175	än	_	_	_	_	_	_	_	
+27-43	2176-2178	de	_	_	_	_	_	_	_	
+27-44	2179-2182	var	_	_	_	_	_	_	_	
+27-45	2183-2186	vid	_	_	_	_	_	_	_	
+27-46	2187-2191	1800	_	_	_	_	_	_	_	
+27-47	2191-2192	-	_	_	_	_	_	_	_	
+27-48	2192-2198	talets	_	_	_	_	_	_	_	
+27-49	2199-2203	slut	_	_	_	_	_	_	_	
+27-50	2203-2204	.	_	_	_	_	_	_	_	
+
+#Text=Moderniteten har länge förknippats med avhästning.
+28-1	2205-2217	Moderniteten	_	_	_	_	_	_	_	
+28-2	2218-2221	har	_	_	_	_	_	_	_	
+28-3	2222-2227	länge	_	_	_	_	_	_	_	
+28-4	2228-2239	förknippats	_	_	_	_	_	_	_	
+28-5	2240-2243	med	_	_	_	_	_	_	_	
+28-6	2244-2254	avhästning	*	Target	28-6	false	2	_	_	
+28-7	2254-2255	.	_	_	_	_	_	_	_	
+
+#Text=Den bilden stämmer helt enkelt inte längre.
+29-1	2256-2259	Den	_	_	_	_	_	_	_	
+29-2	2260-2266	bilden	_	_	_	_	_	_	_	
+29-3	2267-2274	stämmer	_	_	_	_	_	_	_	
+29-4	2275-2279	helt	_	_	_	_	_	_	_	
+29-5	2280-2286	enkelt	_	_	_	_	_	_	_	
+29-6	2287-2291	inte	_	_	_	_	_	_	_	
+29-7	2292-2298	längre	_	_	_	_	_	_	_	
+29-8	2298-2299	.	_	_	_	false	4	_	_	
+
+#Text=Idag spelar hästen en allt viktigare roll i vårt samhälle.
+30-1	2300-2304	Idag	_	_	_	_	_	_	_	
+30-2	2305-2311	spelar	_	_	_	false	4	_	_	
+30-3	2312-2318	hästen	*	_	_	_	_	_	_	
+30-4	2319-2321	en	_	Target[10]	30-3	false[10]	4[10]	30-2[0_10]	_	
+30-5	2322-2326	allt	_	Target[10]	30-3	false[10]	4[10]	_	_	
+30-6	2327-2336	viktigare	_	Target[10]	30-3	false[10]	4[10]	_	_	
+30-7	2337-2341	roll	_	Target[10]	30-3	false[10]	4[10]	_	_	
+30-8	2342-2343	i	_	_	_	_	_	_	_	
+30-9	2344-2348	vårt	_	_	_	_	_	_	_	
+30-10	2349-2357	samhälle	_	_	_	_	_	_	_	
+30-11	2357-2358	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2360-2361	#	_	_	_	_	_	_	_	
+31-2	2361-2362	P	_	_	_	_	_	_	_	
+31-3	2363-2366	IMM	_	_	_	_	_	_	_	
+31-4	2366-2367	.	_	_	_	_	_	_	_	
+
+#Text=Varje dag går tusentals barn i Sverige till ridskolan för att ta sin ridlektion eller för att umgås med djur och vänner.
+32-1	2369-2374	Varje	*[28]	_	_	_	_	_	_	
+32-2	2375-2378	dag	*[28]	_	_	_	_	_	_	
+32-3	2379-2382	går	*[28]	_	_	_	_	_	_	
+32-4	2383-2392	tusentals	*[28]	Target	32-1[28]	false	4	_	_	
+32-5	2393-2397	barn	*[28]	_	_	_	_	_	_	
+32-6	2398-2399	i	*[28]	_	_	_	_	_	_	
+32-7	2400-2407	Sverige	*[28]	_	_	_	_	_	_	
+32-8	2408-2412	till	*[28]	_	_	_	_	_	_	
+32-9	2413-2422	ridskolan	*[28]	_	_	_	_	_	_	
+32-10	2423-2426	för	_	_	_	_	_	_	_	
+32-11	2427-2430	att	_	_	_	_	_	_	_	
+32-12	2431-2433	ta	_	_	_	_	_	_	_	
+32-13	2434-2437	sin	_	_	_	_	_	_	_	
+32-14	2438-2448	ridlektion	_	_	_	_	_	_	_	
+32-15	2449-2454	eller	_	_	_	_	_	_	_	
+32-16	2455-2458	för	_	_	_	_	_	_	_	
+32-17	2459-2462	att	_	_	_	_	_	_	_	
+32-18	2463-2468	umgås	_	_	_	_	_	_	_	
+32-19	2469-2472	med	_	_	_	_	_	_	_	
+32-20	2473-2477	djur	_	_	_	_	_	_	_	
+32-21	2478-2481	och	_	_	_	_	_	_	_	
+32-22	2482-2488	vänner	_	_	_	_	_	_	_	
+32-23	2488-2489	.	_	_	_	_	_	_	_	
+
+#Text=På ridskolan finns hästarna, också när man inte har förmånen att få rida.
+33-1	2490-2492	På	_	_	_	_	_	_	_	
+33-2	2493-2502	ridskolan	_	_	_	_	_	_	_	
+33-3	2503-2508	finns	_	_	_	_	_	_	_	
+33-4	2509-2517	hästarna	_	_	_	_	_	_	_	
+33-5	2517-2518	,	_	_	_	_	_	_	_	
+33-6	2519-2524	också	_	_	_	_	_	_	_	
+33-7	2525-2528	när	_	_	_	_	_	_	_	
+33-8	2529-2532	man	_	_	_	_	_	_	_	
+33-9	2533-2537	inte	_	_	_	_	_	_	_	
+33-10	2538-2541	har	_	_	_	_	_	_	_	
+33-11	2542-2550	förmånen	_	_	_	_	_	_	_	
+33-12	2551-2554	att	_	_	_	_	_	_	_	
+33-13	2555-2557	få	_	_	_	_	_	_	_	
+33-14	2558-2562	rida	_	_	_	_	_	_	_	
+33-15	2562-2563	.	_	_	_	_	_	_	_	
+
+#Text=I stallet lär sig barn och ungdomar att ta ansvar och att vara lyhörda för andras behov.
+34-1	2564-2565	I	_	_	_	_	_	_	_	
+34-2	2566-2573	stallet	_	_	_	_	_	_	_	
+34-3	2574-2577	lär	_	_	_	_	_	_	_	
+34-4	2578-2581	sig	_	_	_	_	_	_	_	
+34-5	2582-2586	barn	_	_	_	_	_	_	_	
+34-6	2587-2590	och	_	_	_	_	_	_	_	
+34-7	2591-2599	ungdomar	_	_	_	_	_	_	_	
+34-8	2600-2603	att	_	_	_	_	_	_	_	
+34-9	2604-2606	ta	_	_	_	_	_	_	_	
+34-10	2607-2613	ansvar	_	_	_	_	_	_	_	
+34-11	2614-2617	och	_	_	_	_	_	_	_	
+34-12	2618-2621	att	_	_	_	_	_	_	_	
+34-13	2622-2626	vara	_	Target[11]	34-16[29]	false[11]	4[11]	_	_	
+34-14	2627-2634	lyhörda	_	Target[11]	34-16[29]	false[11]	4[11]	_	_	
+34-15	2635-2638	för	_	Target[11]	34-16[29]	false[11]	4[11]	_	_	
+34-16	2639-2645	andras	*[29]	_	_	_	_	_	_	
+34-17	2646-2651	behov	*[29]	_	_	_	_	_	_	
+34-18	2651-2652	.	_	_	_	_	_	_	_	
+
+#Text=I samvaron med en häst går det inte att fuska, ge upp eller vara slarvig.
+35-1	2653-2654	I	_	_	_	_	_	_	_	
+35-2	2655-2663	samvaron	_	_	_	_	_	_	_	
+35-3	2664-2667	med	_	_	_	_	_	_	_	
+35-4	2668-2670	en	_	_	_	_	_	_	_	
+35-5	2671-2675	häst	_	_	_	_	_	_	_	
+35-6	2676-2679	går	_	_	_	_	_	_	_	
+35-7	2680-2683	det	_	_	_	_	_	_	_	
+35-8	2684-2688	inte	_	_	_	_	_	_	_	
+35-9	2689-2692	att	_	_	_	_	_	_	_	
+35-10	2693-2698	fuska	_	_	_	_	_	_	_	
+35-11	2698-2699	,	_	_	_	_	_	_	_	
+35-12	2700-2702	ge	_	_	_	_	_	_	_	
+35-13	2703-2706	upp	_	_	_	_	_	_	_	
+35-14	2707-2712	eller	_	_	_	_	_	_	_	
+35-15	2713-2717	vara	_	_	_	_	_	_	_	
+35-16	2718-2725	slarvig	_	_	_	_	_	_	_	
+35-17	2725-2726	.	_	_	_	false	4	_	_	
+
+#Text=Hästen är – i egenskap av att vara just häst - en mycket god fostrare av moral, karaktär, närvaro och personlig styrka vilket forskning visat på.
+36-1	2727-2733	Hästen	*	_	_	_	_	_	_	
+36-2	2734-2736	är	_	_	_	false	5	_	_	
+36-3	2737-2738	–	_	_	_	_	_	_	_	
+36-4	2739-2740	i	_	_	_	_	_	_	_	
+36-5	2741-2749	egenskap	_	_	_	_	_	_	_	
+36-6	2750-2752	av	_	_	_	_	_	_	_	
+36-7	2753-2756	att	_	_	_	_	_	_	_	
+36-8	2757-2761	vara	_	_	_	_	_	_	_	
+36-9	2762-2766	just	_	_	_	_	_	_	_	
+36-10	2767-2771	häst	_	_	_	_	_	_	_	
+36-11	2772-2773	-	_	_	_	_	_	_	_	
+36-12	2774-2776	en	_	Target[12]	36-1	false[12]	5[12]	36-2[0_12]	_	
+36-13	2777-2783	mycket	_	Target[12]|Target[13]	36-1|36-15	false[12]|false[13]	5[12]|4[13]	_	_	
+36-14	2784-2787	god	_	Target[12]|Target[13]	36-1|36-15	false[12]|false[13]	5[12]|4[13]	_	_	
+36-15	2788-2796	fostrare	*	Target[12]|Target[14]	36-1|36-17[30]	false[12]|false[14]	5[12]|4[14]	_	_	
+36-16	2797-2799	av	_	Target[12]|Target[14]	36-1|36-17[30]	false[12]|false[14]	5[12]|4[14]	_	_	
+36-17	2800-2805	moral	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-18	2805-2806	,	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-19	2807-2815	karaktär	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-20	2815-2816	,	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-21	2817-2824	närvaro	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-22	2825-2828	och	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-23	2829-2838	personlig	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-24	2839-2845	styrka	*[30]	Target[12]	36-1	false[12]	5[12]	_	_	
+36-25	2846-2852	vilket	_	_	_	_	_	_	_	
+36-26	2853-2862	forskning	_	_	_	_	_	_	_	
+36-27	2863-2868	visat	_	_	_	_	_	_	_	
+36-28	2869-2871	på	_	_	_	_	_	_	_	
+36-29	2871-2872	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2874-2875	#	_	_	_	_	_	_	_	
+37-2	2875-2876	P	_	_	_	_	_	_	_	
+37-3	2877-2880	IMM	_	_	_	_	_	_	_	
+37-4	2880-2881	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2883-2896	Skräddarsydda	_	_	_	_	_	_	_	
+38-2	2897-2903	kurser	_	_	_	_	_	_	_	
+38-3	2904-2905	i	_	_	_	_	_	_	_	
+38-4	2906-2911	ämnen	_	_	_	_	_	_	_	
+38-5	2912-2915	som	_	_	_	_	_	_	_	
+38-6	2916-2927	intresserar	_	_	_	_	_	_	_	
+38-7	2928-2931	och	_	_	_	_	_	_	_	
+38-8	2932-2941	engagerar	_	_	_	_	_	_	_	
+38-9	2942-2946	både	_	_	_	_	_	_	_	
+38-10	2947-2952	kropp	_	_	_	_	_	_	_	
+38-11	2953-2956	och	_	_	_	_	_	_	_	
+38-12	2957-2961	själ	_	_	_	_	_	_	_	
+38-13	2961-2962	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2964-2965	#	_	_	_	_	_	_	_	
+39-2	2965-2966	P	_	_	_	_	_	_	_	
+39-3	2967-2970	IMM	_	_	_	_	_	_	_	
+39-4	2970-2971	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är känt för god ridning, god hästhållning och gott djurskydd.
+40-1	2973-2980	Sverige	_	_	_	_	_	_	_	
+40-2	2981-2983	är	_	_	_	_	_	_	_	
+40-3	2984-2988	känt	_	_	_	_	_	_	_	
+40-4	2989-2992	för	_	_	_	_	_	_	_	
+40-5	2993-2996	god	_	Target	40-6	false	5	_	_	
+40-6	2997-3004	ridning	*	_	_	_	_	_	_	
+40-7	3004-3005	,	_	_	_	_	_	_	_	
+40-8	3006-3009	god	_	Target	40-9	false	5	_	_	
+40-9	3010-3022	hästhållning	*	_	_	_	_	_	_	
+40-10	3023-3026	och	_	_	_	_	_	_	_	
+40-11	3027-3031	gott	_	Target	40-12	false	5	_	_	
+40-12	3032-3041	djurskydd	*	_	_	_	_	_	_	
+40-13	3041-3042	.	_	_	_	_	_	_	_	
+
+#Text=Om Sverige vill fortsätta att ligga i framkant både då det gäller tävlingsframgångar, brett tillgänglig hobbyridning, djurskydd samt de nya hästbaserade verksamhetsområden som är under framväxt, behöver vi kvalificerad forskning för att bättre förstå den positiva roll hästen spelar.
+41-1	3043-3045	Om	_	_	_	_	_	_	_	
+41-2	3046-3053	Sverige	_	_	_	_	_	_	_	
+41-3	3054-3058	vill	_	_	_	_	_	_	_	
+41-4	3059-3068	fortsätta	_	_	_	_	_	_	_	
+41-5	3069-3072	att	_	_	_	_	_	_	_	
+41-6	3073-3078	ligga	_	_	_	_	_	_	_	
+41-7	3079-3080	i	_	_	_	_	_	_	_	
+41-8	3081-3089	framkant	_	_	_	_	_	_	_	
+41-9	3090-3094	både	_	_	_	_	_	_	_	
+41-10	3095-3097	då	_	_	_	_	_	_	_	
+41-11	3098-3101	det	_	_	_	_	_	_	_	
+41-12	3102-3108	gäller	_	_	_	_	_	_	_	
+41-13	3109-3127	tävlingsframgångar	_	_	_	_	_	_	_	
+41-14	3127-3128	,	_	_	_	_	_	_	_	
+41-15	3129-3134	brett	_	Target	41-16[31]	false	4	_	_	
+41-16	3135-3146	tillgänglig	*[31]	_	_	_	_	_	_	
+41-17	3147-3159	hobbyridning	*[31]	_	_	_	_	_	_	
+41-18	3159-3160	,	_	_	_	_	_	_	_	
+41-19	3161-3170	djurskydd	_	_	_	_	_	_	_	
+41-20	3171-3175	samt	_	_	_	_	_	_	_	
+41-21	3176-3178	de	_	_	_	_	_	_	_	
+41-22	3179-3182	nya	_	_	_	_	_	_	_	
+41-23	3183-3195	hästbaserade	_	_	_	_	_	_	_	
+41-24	3196-3214	verksamhetsområden	_	_	_	_	_	_	_	
+41-25	3215-3218	som	_	_	_	_	_	_	_	
+41-26	3219-3221	är	_	_	_	_	_	_	_	
+41-27	3222-3227	under	_	_	_	_	_	_	_	
+41-28	3228-3236	framväxt	_	_	_	_	_	_	_	
+41-29	3236-3237	,	_	_	_	_	_	_	_	
+41-30	3238-3245	behöver	_	_	_	_	_	_	_	
+41-31	3246-3248	vi	_	_	_	_	_	_	_	
+41-32	3249-3261	kvalificerad	_	Target	41-33	false	4	_	_	
+41-33	3262-3271	forskning	*	_	_	_	_	_	_	
+41-34	3272-3275	för	_	_	_	_	_	_	_	
+41-35	3276-3279	att	_	_	_	_	_	_	_	
+41-36	3280-3286	bättre	_	_	_	_	_	_	_	
+41-37	3287-3293	förstå	_	_	_	_	_	_	_	
+41-38	3294-3297	den	_	_	_	_	_	_	_	
+41-39	3298-3306	positiva	_	_	_	_	_	_	_	
+41-40	3307-3311	roll	_	_	_	_	_	_	_	
+41-41	3312-3318	hästen	_	_	_	_	_	_	_	
+41-42	3319-3325	spelar	_	_	_	_	_	_	_	
+41-43	3325-3326	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3328-3329	#	_	_	_	_	_	_	_	
+42-2	3329-3330	P	_	_	_	_	_	_	_	
+42-3	3331-3334	IMM	_	_	_	_	_	_	_	
+42-4	3334-3335	.	_	_	_	_	_	_	_	
+
+#Text=Forskning om interaktionen mellan häst och människa utifrån beprövad erfarenhet och nya teorier kan ytterligare utveckla nyttan av detta fantastiska djur som varit människans följeslagare och arbetsvän i tusentals år.
+43-1	3337-3346	Forskning	_	_	_	_	_	_	_	
+43-2	3347-3349	om	_	_	_	_	_	_	_	
+43-3	3350-3363	interaktionen	_	_	_	_	_	_	_	
+43-4	3364-3370	mellan	_	_	_	_	_	_	_	
+43-5	3371-3375	häst	_	_	_	_	_	_	_	
+43-6	3376-3379	och	_	_	_	_	_	_	_	
+43-7	3380-3388	människa	_	_	_	_	_	_	_	
+43-8	3389-3396	utifrån	_	_	_	_	_	_	_	
+43-9	3397-3405	beprövad	_	_	_	_	_	_	_	
+43-10	3406-3416	erfarenhet	_	_	_	_	_	_	_	
+43-11	3417-3420	och	_	_	_	_	_	_	_	
+43-12	3421-3424	nya	_	_	_	_	_	_	_	
+43-13	3425-3432	teorier	_	_	_	_	_	_	_	
+43-14	3433-3436	kan	_	_	_	_	_	_	_	
+43-15	3437-3448	ytterligare	_	_	_	_	_	_	_	
+43-16	3449-3457	utveckla	_	_	_	_	_	_	_	
+43-17	3458-3464	nyttan	_	Target[15]	43-19[32]	false[15]	4[15]	_	_	
+43-18	3465-3467	av	_	Target[15]	43-19[32]	false[15]	4[15]	_	_	
+43-19	3468-3473	detta	*[32]	_	_	_	_	_	_	
+43-20	3474-3485	fantastiska	*[32]	Target	43-21[33]	false	5	_	_	
+43-21	3486-3490	djur	*[32]|*[33]	_	_	_	_	_	_	
+43-22	3491-3494	som	*[32]	_	_	_	_	_	_	
+43-23	3495-3500	varit	*[32]	_	_	_	_	_	_	
+43-24	3501-3511	människans	*[32]	_	_	_	_	_	_	
+43-25	3512-3524	följeslagare	*[32]	_	_	_	_	_	_	
+43-26	3525-3528	och	*[32]	_	_	_	_	_	_	
+43-27	3529-3538	arbetsvän	*[32]	_	_	_	_	_	_	
+43-28	3539-3540	i	*[32]	_	_	_	_	_	_	
+43-29	3541-3550	tusentals	*[32]	_	_	_	_	_	_	
+43-30	3551-3553	år	*[32]	_	_	_	_	_	_	
+43-31	3553-3554	.	_	_	_	_	_	_	_	
+
+#Text=Det är också angeläget med förmedling av de nya praktiker och kunskaper kring hästen som etableras och växer i nya i kulturella, pedagogiska, idrottsliga och hälsopolitiskt viktiga sammanhang.
+44-1	3555-3558	Det	_	_	_	_	_	_	_	
+44-2	3559-3561	är	_	_	_	false	4	_	_	
+44-3	3562-3567	också	_	_	_	_	_	_	_	
+44-4	3568-3577	angeläget	_	Target[16]	44-6[34]	false[16]	4[16]	44-2[0_16]	_	
+44-5	3578-3581	med	_	Target[16]	44-6[34]	false[16]	4[16]	_	_	
+44-6	3582-3592	förmedling	*[34]	_	_	_	_	_	_	
+44-7	3593-3595	av	*[34]	_	_	_	_	_	_	
+44-8	3596-3598	de	*[34]	_	_	_	_	_	_	
+44-9	3599-3602	nya	*[34]	_	_	_	_	_	_	
+44-10	3603-3612	praktiker	*[34]	_	_	_	_	_	_	
+44-11	3613-3616	och	*[34]	_	_	_	_	_	_	
+44-12	3617-3626	kunskaper	*[34]	_	_	_	_	_	_	
+44-13	3627-3632	kring	*[34]	_	_	_	_	_	_	
+44-14	3633-3639	hästen	*[34]	_	_	_	_	_	_	
+44-15	3640-3643	som	*[34]	_	_	_	_	_	_	
+44-16	3644-3653	etableras	*[34]	_	_	_	_	_	_	
+44-17	3654-3657	och	*[34]	_	_	_	_	_	_	
+44-18	3658-3663	växer	*[34]	_	_	_	_	_	_	
+44-19	3664-3665	i	*[34]	_	_	_	_	_	_	
+44-20	3666-3669	nya	*[34]	_	_	_	_	_	_	
+44-21	3670-3671	i	*[34]	_	_	_	_	_	_	
+44-22	3672-3682	kulturella	*[34]	_	_	_	_	_	_	
+44-23	3682-3683	,	*[34]	_	_	_	_	_	_	
+44-24	3684-3695	pedagogiska	*[34]	_	_	_	_	_	_	
+44-25	3695-3696	,	*[34]	_	_	_	_	_	_	
+44-26	3697-3708	idrottsliga	*[34]	_	_	_	_	_	_	
+44-27	3709-3712	och	*[34]	_	_	_	_	_	_	
+44-28	3713-3727	hälsopolitiskt	*[34]	_	_	_	_	_	_	
+44-29	3728-3735	viktiga	*[34]	_	_	_	_	_	_	
+44-30	3736-3746	sammanhang	*[34]	_	_	_	_	_	_	
+44-31	3746-3747	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3749-3750	#	_	_	_	_	_	_	_	
+45-2	3750-3751	P	_	_	_	_	_	_	_	
+45-3	3752-3755	IMM	_	_	_	_	_	_	_	
+45-4	3755-3756	.	_	_	_	_	_	_	_	
+
+#Text=Därför är det uppseendeväckande att det statliga stödet till forskningsfinansiären Stiftelsen Hästforskning dragits in.
+46-1	3758-3764	Därför	_	_	_	_	_	_	_	
+46-2	3765-3767	är	_	_	_	false	2	_	_	
+46-3	3768-3771	det	_	_	_	_	_	_	_	
+46-4	3772-3789	uppseendeväckande	_	Target	46-5[35]	false	2	46-2	_	
+46-5	3790-3793	att	*[35]	_	_	_	_	_	_	
+46-6	3794-3797	det	*[35]	_	_	_	_	_	_	
+46-7	3798-3806	statliga	*[35]	_	_	_	_	_	_	
+46-8	3807-3813	stödet	*[35]	_	_	_	_	_	_	
+46-9	3814-3818	till	*[35]	_	_	_	_	_	_	
+46-10	3819-3840	forskningsfinansiären	*[35]	_	_	_	_	_	_	
+46-11	3841-3851	Stiftelsen	*[35]	_	_	_	_	_	_	
+46-12	3852-3865	Hästforskning	*[35]	_	_	_	_	_	_	
+46-13	3866-3873	dragits	*[35]	_	_	_	_	_	_	
+46-14	3874-3876	in	*[35]	_	_	_	_	_	_	
+46-15	3876-3877	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett beslut som går på tvärs mot utvecklingen inom hästnäringen och som skickar fel signaler till densamma.
+47-1	3878-3881	Det	_	_	_	_	_	_	_	
+47-2	3882-3884	är	_	_	_	_	_	_	_	
+47-3	3885-3888	ett	*[36]	_	_	_	_	_	47-14[0_36]	
+47-4	3889-3895	beslut	*[36]	_	_	_	_	_	_	
+47-5	3896-3899	som	*[36]	_	_	_	_	_	_	
+47-6	3900-3903	går	*[36]	_	_	_	_	_	_	
+47-7	3904-3906	på	*[36]	_	_	_	_	_	_	
+47-8	3907-3912	tvärs	*[36]	_	_	_	_	_	_	
+47-9	3913-3916	mot	*[36]	_	_	_	_	_	_	
+47-10	3917-3929	utvecklingen	*[36]	_	_	_	_	_	_	
+47-11	3930-3934	inom	*[36]	_	_	_	_	_	_	
+47-12	3935-3947	hästnäringen	*[36]	_	_	_	_	_	_	
+47-13	3948-3951	och	_	_	_	_	_	_	_	
+47-14	3952-3955	som	*	_	_	_	_	_	_	
+47-15	3956-3963	skickar	_	Target[17]	47-14	false[17]	2[17]	_	_	
+47-16	3964-3967	fel	_	Target[17]	47-14	false[17]	2[17]	_	_	
+47-17	3968-3976	signaler	_	Target[17]	47-14	false[17]	2[17]	_	_	
+47-18	3977-3981	till	_	_	_	_	_	_	_	
+47-19	3982-3990	densamma	_	_	_	_	_	_	_	
+47-20	3990-3991	.	_	_	_	_	_	_	_	
+
+#Text=Vi tolkar även detta som okunskap hos de politiker och tjänstemän som har makt att påverka förutsättningarna för både hästnäringen och den hästrelaterade forskningen.
+48-1	3992-3994	Vi	_	_	_	_	_	_	_	
+48-2	3995-4001	tolkar	_	_	_	_	_	_	_	
+48-3	4002-4006	även	_	_	_	_	_	_	_	
+48-4	4007-4012	detta	_	_	_	_	_	_	_	
+48-5	4013-4016	som	_	_	_	_	_	_	_	
+48-6	4017-4025	okunskap	_	_	_	_	_	_	_	
+48-7	4026-4029	hos	_	_	_	_	_	_	_	
+48-8	4030-4032	de	_	_	_	_	_	_	_	
+48-9	4033-4042	politiker	_	_	_	_	_	_	_	
+48-10	4043-4046	och	_	_	_	_	_	_	_	
+48-11	4047-4057	tjänstemän	_	_	_	_	_	_	_	
+48-12	4058-4061	som	_	_	_	_	_	_	_	
+48-13	4062-4065	har	_	_	_	_	_	_	_	
+48-14	4066-4070	makt	_	_	_	_	_	_	_	
+48-15	4071-4074	att	_	_	_	_	_	_	_	
+48-16	4075-4082	påverka	_	_	_	_	_	_	_	
+48-17	4083-4100	förutsättningarna	_	_	_	_	_	_	_	
+48-18	4101-4104	för	_	_	_	_	_	_	_	
+48-19	4105-4109	både	_	_	_	_	_	_	_	
+48-20	4110-4122	hästnäringen	_	_	_	_	_	_	_	
+48-21	4123-4126	och	_	_	_	_	_	_	_	
+48-22	4127-4130	den	_	_	_	_	_	_	_	
+48-23	4131-4145	hästrelaterade	_	_	_	_	_	_	_	
+48-24	4146-4157	forskningen	_	_	_	_	_	_	_	
+48-25	4157-4158	.	_	_	_	false	2	_	_	
+
+#Text=Djurets roll i förhållande till människan är under omförhandling och omvärdering.
+49-1	4159-4166	Djurets	_	_	_	_	_	_	_	
+49-2	4167-4171	roll	_	_	_	_	_	_	_	
+49-3	4172-4173	i	_	_	_	_	_	_	_	
+49-4	4174-4185	förhållande	_	_	_	_	_	_	_	
+49-5	4186-4190	till	_	_	_	_	_	_	_	
+49-6	4191-4200	människan	_	_	_	_	_	_	_	
+49-7	4201-4203	är	_	_	_	_	_	_	_	
+49-8	4204-4209	under	_	_	_	_	_	_	_	
+49-9	4210-4223	omförhandling	_	_	_	_	_	_	_	
+49-10	4224-4227	och	_	_	_	_	_	_	_	
+49-11	4228-4239	omvärdering	_	_	_	_	_	_	_	
+49-12	4239-4240	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4242-4243	#	_	_	_	_	_	_	_	
+50-2	4243-4244	P	_	_	_	_	_	_	_	
+50-3	4245-4248	IMM	_	_	_	_	_	_	_	
+50-4	4248-4249	.	_	_	_	_	_	_	_	
+
+#Text=Nu måste politiker och andra beslutsfattare hänga med.
+51-1	4251-4253	Nu	_	_	_	_	_	_	_	
+51-2	4254-4259	måste	_	_	_	_	_	_	_	
+51-3	4260-4269	politiker	_	_	_	_	_	_	_	
+51-4	4270-4273	och	_	_	_	_	_	_	_	
+51-5	4274-4279	andra	_	_	_	_	_	_	_	
+51-6	4280-4294	beslutsfattare	_	_	_	_	_	_	_	
+51-7	4295-4300	hänga	_	_	_	_	_	_	_	
+51-8	4301-4304	med	_	_	_	_	_	_	_	
+51-9	4304-4305	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill se ett slut på den systematiska undervärdering av ridsporten och den trivialisering av flickors och kvinnors (och mäns!)
+52-1	4306-4308	Vi	_	_	_	_	_	_	_	
+52-2	4309-4313	vill	_	Target[18]	52-7[37]	false[18]	1[18]	_	_	
+52-3	4314-4316	se	_	Target[18]	52-7[37]	false[18]	1[18]	_	_	
+52-4	4317-4320	ett	_	Target[18]	52-7[37]	false[18]	1[18]	_	_	
+52-5	4321-4325	slut	_	Target[18]	52-7[37]	false[18]	1[18]	_	_	
+52-6	4326-4328	på	_	Target[18]	52-7[37]	false[18]	1[18]	_	_	
+52-7	4329-4332	den	*[37]	_	_	_	_	_	_	
+52-8	4333-4345	systematiska	*[37]	_	_	_	_	_	_	
+52-9	4346-4360	undervärdering	*[37]	_	_	_	_	_	_	
+52-10	4361-4363	av	*[37]	_	_	_	_	_	_	
+52-11	4364-4374	ridsporten	*[37]	_	_	_	_	_	_	
+52-12	4375-4378	och	_	_	_	_	_	_	_	
+52-13	4379-4382	den	_	_	_	_	_	_	_	
+52-14	4383-4397	trivialisering	_	Target;Source[19]	52-16[38];53-20	false[19]	2[19]	_	_	
+52-15	4398-4400	av	_	Target;Source[19]	52-16[38];53-20	false[19]	2[19]	_	_	
+52-16	4401-4409	flickors	*[38]	_	_	_	_	_	_	
+52-17	4410-4413	och	*[38]	_	_	_	_	_	_	
+52-18	4414-4422	kvinnors	*[38]	_	_	_	_	_	_	
+52-19	4423-4424	(	*[38]	_	_	_	_	_	_	
+52-20	4424-4427	och	*[38]	_	_	_	_	_	_	
+52-21	4428-4432	mäns	*[38]	_	_	_	_	_	_	
+52-22	4432-4433	!	*[38]	_	_	_	_	_	_	
+52-23	4433-4434	)	*[38]	_	_	_	_	_	_	
+
+#Text=val att kommunicera och interagera med hästen, som råder när det handlar om att fördela möjligheter och pengar.
+53-1	4435-4438	val	_	_	_	_	_	_	_	
+53-2	4439-4442	att	_	_	_	_	_	_	_	
+53-3	4443-4454	kommunicera	_	_	_	_	_	_	_	
+53-4	4455-4458	och	_	_	_	_	_	_	_	
+53-5	4459-4469	interagera	_	_	_	_	_	_	_	
+53-6	4470-4473	med	_	_	_	_	_	_	_	
+53-7	4474-4480	hästen	_	_	_	_	_	_	_	
+53-8	4480-4481	,	_	_	_	_	_	_	_	
+53-9	4482-4485	som	_	_	_	_	_	_	_	
+53-10	4486-4491	råder	_	_	_	_	_	_	_	
+53-11	4492-4495	när	_	_	_	_	_	_	_	
+53-12	4496-4499	det	_	_	_	_	_	_	_	
+53-13	4500-4507	handlar	_	_	_	_	_	_	_	
+53-14	4508-4510	om	_	_	_	_	_	_	_	
+53-15	4511-4514	att	_	_	_	_	_	_	_	
+53-16	4515-4522	fördela	_	_	_	_	_	_	_	
+53-17	4523-4534	möjligheter	_	_	_	_	_	_	_	
+53-18	4535-4538	och	_	_	_	_	_	_	_	
+53-19	4539-4545	pengar	_	_	_	_	_	_	_	
+53-20	4545-4546	.	*	_	_	_	_	_	_	
+
+#Text=Låt oss öka kunskapen om förskjutningen i relationen mellan hästen och människan och dess betydelse för ett friskare och mer välmående samhälle för såväl djur som människor.
+54-1	4547-4550	Låt	_	_	_	_	_	_	_	
+54-2	4551-4554	oss	_	_	_	_	_	_	_	
+54-3	4555-4558	öka	_	_	_	_	_	_	_	
+54-4	4559-4568	kunskapen	_	_	_	_	_	_	_	
+54-5	4569-4571	om	_	_	_	_	_	_	_	
+54-6	4572-4586	förskjutningen	_	_	_	_	_	_	_	
+54-7	4587-4588	i	_	_	_	_	_	_	_	
+54-8	4589-4599	relationen	_	_	_	_	_	_	_	
+54-9	4600-4606	mellan	_	_	_	_	_	_	_	
+54-10	4607-4613	hästen	_	_	_	_	_	_	_	
+54-11	4614-4617	och	_	_	_	_	_	_	_	
+54-12	4618-4627	människan	_	_	_	_	_	_	_	
+54-13	4628-4631	och	_	_	_	_	_	_	_	
+54-14	4632-4636	dess	_	_	_	_	_	_	_	
+54-15	4637-4646	betydelse	_	_	_	_	_	_	_	
+54-16	4647-4650	för	_	_	_	_	_	_	_	
+54-17	4651-4654	ett	_	_	_	_	_	_	_	
+54-18	4655-4663	friskare	_	_	_	_	_	_	_	
+54-19	4664-4667	och	_	_	_	_	_	_	_	
+54-20	4668-4671	mer	_	_	_	_	_	_	_	
+54-21	4672-4681	välmående	_	_	_	_	_	_	_	
+54-22	4682-4690	samhälle	_	_	_	_	_	_	_	
+54-23	4691-4694	för	_	_	_	_	_	_	_	
+54-24	4695-4700	såväl	_	_	_	_	_	_	_	
+54-25	4701-4705	djur	_	_	_	_	_	_	_	
+54-26	4706-4709	som	_	_	_	_	_	_	_	
+54-27	4710-4719	människor	_	_	_	_	_	_	_	
+54-28	4719-4720	.	_	_	_	false	4	_	_	
+
+#Text=Återinför det statliga stödet till hästforskningen.
+55-1	4721-4730	Återinför	_	Target	55-2[39]	false	4	_	_	
+55-2	4731-4734	det	*[39]	_	_	_	_	_	_	
+55-3	4735-4743	statliga	*[39]	_	_	_	_	_	_	
+55-4	4744-4750	stödet	*[39]	_	_	_	_	_	_	
+55-5	4751-4755	till	*[39]	_	_	_	_	_	_	
+55-6	4756-4771	hästforskningen	*[39]	_	_	_	_	_	_	
+55-7	4771-4772	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4774-4775	#	_	_	_	_	_	_	_	
+56-2	4775-4776	P	_	_	_	_	_	_	_	
+56-3	4777-4780	IMM	_	_	_	_	_	_	_	
+56-4	4780-4781	.	_	_	_	_	_	_	_	
+
+#Text=PETRA ANDERSSON.
+57-1	4783-4788	PETRA	_	_	_	_	_	_	_	
+57-2	4789-4798	ANDERSSON	_	_	_	_	_	_	_	
+57-3	4798-4799	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4801-4802	#	_	_	_	_	_	_	_	
+58-2	4802-4803	P	_	_	_	_	_	_	_	
+58-3	4804-4807	IMM	_	_	_	_	_	_	_	
+58-4	4807-4808	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, praktisk filosofi, Göteborgs universitet.
+59-1	4810-4813	fil	_	_	_	_	_	_	_	
+59-2	4814-4816	dr	_	_	_	_	_	_	_	
+59-3	4816-4817	,	_	_	_	_	_	_	_	
+59-4	4818-4826	praktisk	_	_	_	_	_	_	_	
+59-5	4827-4835	filosofi	_	_	_	_	_	_	_	
+59-6	4835-4836	,	_	_	_	_	_	_	_	
+59-7	4837-4846	Göteborgs	_	_	_	_	_	_	_	
+59-8	4847-4858	universitet	_	_	_	_	_	_	_	
+59-9	4858-4859	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4861-4862	#	_	_	_	_	_	_	_	
+60-2	4862-4863	P	_	_	_	_	_	_	_	
+60-3	4864-4867	IMM	_	_	_	_	_	_	_	
+60-4	4867-4868	.	_	_	_	_	_	_	_	
+
+#Text=ULLA EKSTRÖM VION ESSEN.
+61-1	4870-4874	ULLA	_	_	_	_	_	_	_	
+61-2	4875-4882	EKSTRÖM	_	_	_	_	_	_	_	
+61-3	4883-4887	VION	_	_	_	_	_	_	_	
+61-4	4888-4893	ESSEN	_	_	_	_	_	_	_	
+61-5	4893-4894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4896-4897	#	_	_	_	_	_	_	_	
+62-2	4897-4898	P	_	_	_	_	_	_	_	
+62-3	4899-4902	IMM	_	_	_	_	_	_	_	
+62-4	4902-4903	.	_	_	_	_	_	_	_	
+
+#Text=docent, idéhistoria, Centrum för praktisk kunskap, Södertörns högskola.
+63-1	4905-4911	docent	_	_	_	_	_	_	_	
+63-2	4911-4912	,	_	_	_	_	_	_	_	
+63-3	4913-4924	idéhistoria	_	_	_	_	_	_	_	
+63-4	4924-4925	,	_	_	_	_	_	_	_	
+63-5	4926-4933	Centrum	_	_	_	_	_	_	_	
+63-6	4934-4937	för	_	_	_	_	_	_	_	
+63-7	4938-4946	praktisk	_	_	_	_	_	_	_	
+63-8	4947-4954	kunskap	_	_	_	_	_	_	_	
+63-9	4954-4955	,	_	_	_	_	_	_	_	
+63-10	4956-4966	Södertörns	_	_	_	_	_	_	_	
+63-11	4967-4975	högskola	_	_	_	_	_	_	_	
+63-12	4975-4976	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4978-4979	#	_	_	_	_	_	_	_	
+64-2	4979-4980	P	_	_	_	_	_	_	_	
+64-3	4981-4984	IMM	_	_	_	_	_	_	_	
+64-4	4984-4985	.	_	_	_	_	_	_	_	
+
+#Text=Undertecknare för Svenskt Nätverk för Forskning om Människa och Häst:.
+65-1	4987-5000	Undertecknare	_	_	_	_	_	_	_	
+65-2	5001-5004	för	_	_	_	_	_	_	_	
+65-3	5005-5012	Svenskt	_	_	_	_	_	_	_	
+65-4	5013-5020	Nätverk	_	_	_	_	_	_	_	
+65-5	5021-5024	för	_	_	_	_	_	_	_	
+65-6	5025-5034	Forskning	_	_	_	_	_	_	_	
+65-7	5035-5037	om	_	_	_	_	_	_	_	
+65-8	5038-5046	Människa	_	_	_	_	_	_	_	
+65-9	5047-5050	och	_	_	_	_	_	_	_	
+65-10	5051-5055	Häst	_	_	_	_	_	_	_	
+65-11	5055-5056	:	_	_	_	_	_	_	_	
+65-12	5056-5057	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	5059-5060	#	_	_	_	_	_	_	_	
+66-2	5060-5061	P	_	_	_	_	_	_	_	
+66-3	5062-5065	IMM	_	_	_	_	_	_	_	
+66-4	5065-5066	.	_	_	_	_	_	_	_	
+
+#Text=GUNILLA SILFVERBERG.
+67-1	5068-5075	GUNILLA	_	_	_	_	_	_	_	
+67-2	5076-5087	SILFVERBERG	_	_	_	_	_	_	_	
+67-3	5087-5088	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	5090-5091	#	_	_	_	_	_	_	_	
+68-2	5091-5092	P	_	_	_	_	_	_	_	
+68-3	5093-5096	IMM	_	_	_	_	_	_	_	
+68-4	5096-5097	.	_	_	_	_	_	_	_	
+
+#Text=professor i vårdetik, Ersta Sköndal högskola.
+69-1	5099-5108	professor	_	_	_	_	_	_	_	
+69-2	5109-5110	i	_	_	_	_	_	_	_	
+69-3	5111-5119	vårdetik	_	_	_	_	_	_	_	
+69-4	5119-5120	,	_	_	_	_	_	_	_	
+69-5	5121-5126	Ersta	_	_	_	_	_	_	_	
+69-6	5127-5134	Sköndal	_	_	_	_	_	_	_	
+69-7	5135-5143	högskola	_	_	_	_	_	_	_	
+69-8	5143-5144	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	5146-5147	#	_	_	_	_	_	_	_	
+70-2	5147-5148	P	_	_	_	_	_	_	_	
+70-3	5149-5152	IMM	_	_	_	_	_	_	_	
+70-4	5152-5153	.	_	_	_	_	_	_	_	
+
+#Text=SUSANNA HEDENBORG.
+71-1	5155-5162	SUSANNA	_	_	_	_	_	_	_	
+71-2	5163-5172	HEDENBORG	_	_	_	_	_	_	_	
+71-3	5172-5173	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5175-5176	#	_	_	_	_	_	_	_	
+72-2	5176-5177	P	_	_	_	_	_	_	_	
+72-3	5178-5181	IMM	_	_	_	_	_	_	_	
+72-4	5181-5182	.	_	_	_	_	_	_	_	
+
+#Text=professor i idrottsvetenskap och docent i ekonomisk historia, Malmö högskola.
+73-1	5184-5193	professor	_	_	_	_	_	_	_	
+73-2	5194-5195	i	_	_	_	_	_	_	_	
+73-3	5196-5212	idrottsvetenskap	_	_	_	_	_	_	_	
+73-4	5213-5216	och	_	_	_	_	_	_	_	
+73-5	5217-5223	docent	_	_	_	_	_	_	_	
+73-6	5224-5225	i	_	_	_	_	_	_	_	
+73-7	5226-5235	ekonomisk	_	_	_	_	_	_	_	
+73-8	5236-5244	historia	_	_	_	_	_	_	_	
+73-9	5244-5245	,	_	_	_	_	_	_	_	
+73-10	5246-5251	Malmö	_	_	_	_	_	_	_	
+73-11	5252-5260	högskola	_	_	_	_	_	_	_	
+73-12	5260-5261	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+74-1	5263-5264	#	_	_	_	_	_	_	_	
+74-2	5264-5265	P	_	_	_	_	_	_	_	
+74-3	5266-5269	IMM	_	_	_	_	_	_	_	
+74-4	5269-5270	.	_	_	_	_	_	_	_	
+
+#Text=NINA NIKKU.
+75-1	5272-5276	NINA	_	_	_	_	_	_	_	
+75-2	5277-5282	NIKKU	_	_	_	_	_	_	_	
+75-3	5282-5283	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+76-1	5285-5286	#	_	_	_	_	_	_	_	
+76-2	5286-5287	P	_	_	_	_	_	_	_	
+76-3	5288-5291	IMM	_	_	_	_	_	_	_	
+76-4	5291-5292	.	_	_	_	_	_	_	_	
+
+#Text=docent, sociologi, Linköpings universitet.
+77-1	5294-5300	docent	_	_	_	_	_	_	_	
+77-2	5300-5301	,	_	_	_	_	_	_	_	
+77-3	5302-5311	sociologi	_	_	_	_	_	_	_	
+77-4	5311-5312	,	_	_	_	_	_	_	_	
+77-5	5313-5323	Linköpings	_	_	_	_	_	_	_	
+77-6	5324-5335	universitet	_	_	_	_	_	_	_	
+77-7	5335-5336	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+78-1	5338-5339	#	_	_	_	_	_	_	_	
+78-2	5339-5340	P	_	_	_	_	_	_	_	
+78-3	5341-5344	IMM	_	_	_	_	_	_	_	
+78-4	5344-5345	.	_	_	_	_	_	_	_	
+
+#Text=JONNA BORNEMARK.
+79-1	5347-5352	JONNA	_	_	_	_	_	_	_	
+79-2	5353-5362	BORNEMARK	_	_	_	_	_	_	_	
+79-3	5362-5363	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+80-1	5365-5366	#	_	_	_	_	_	_	_	
+80-2	5366-5367	P	_	_	_	_	_	_	_	
+80-3	5368-5371	IMM	_	_	_	_	_	_	_	
+80-4	5371-5372	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, filosofi, föreståndare för Centrum för praktisk kunskap, Södertörns högskola.
+81-1	5374-5377	fil	_	_	_	_	_	_	_	
+81-2	5378-5380	dr	_	_	_	_	_	_	_	
+81-3	5380-5381	,	_	_	_	_	_	_	_	
+81-4	5382-5390	filosofi	_	_	_	_	_	_	_	
+81-5	5390-5391	,	_	_	_	_	_	_	_	
+81-6	5392-5404	föreståndare	_	_	_	_	_	_	_	
+81-7	5405-5408	för	_	_	_	_	_	_	_	
+81-8	5409-5416	Centrum	_	_	_	_	_	_	_	
+81-9	5417-5420	för	_	_	_	_	_	_	_	
+81-10	5421-5429	praktisk	_	_	_	_	_	_	_	
+81-11	5430-5437	kunskap	_	_	_	_	_	_	_	
+81-12	5437-5438	,	_	_	_	_	_	_	_	
+81-13	5439-5449	Södertörns	_	_	_	_	_	_	_	
+81-14	5450-5458	högskola	_	_	_	_	_	_	_	
+81-15	5458-5459	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+82-1	5461-5462	#	_	_	_	_	_	_	_	
+82-2	5462-5463	P	_	_	_	_	_	_	_	
+82-3	5464-5467	IMM	_	_	_	_	_	_	_	
+82-4	5467-5468	.	_	_	_	_	_	_	_	
+
+#Text=CAROLINA LUNDE.
+83-1	5470-5478	CAROLINA	_	_	_	_	_	_	_	
+83-2	5479-5484	LUNDE	_	_	_	_	_	_	_	
+83-3	5484-5485	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+84-1	5487-5488	#	_	_	_	_	_	_	_	
+84-2	5488-5489	P	_	_	_	_	_	_	_	
+84-3	5490-5493	IMM	_	_	_	_	_	_	_	
+84-4	5493-5494	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, psykologi, Göteborgs universitet.
+85-1	5496-5499	fil	_	_	_	_	_	_	_	
+85-2	5500-5502	dr	_	_	_	_	_	_	_	
+85-3	5502-5503	,	_	_	_	_	_	_	_	
+85-4	5504-5513	psykologi	_	_	_	_	_	_	_	
+85-5	5513-5514	,	_	_	_	_	_	_	_	
+85-6	5515-5524	Göteborgs	_	_	_	_	_	_	_	
+85-7	5525-5536	universitet	_	_	_	_	_	_	_	
+85-8	5536-5537	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+86-1	5539-5540	#	_	_	_	_	_	_	_	
+86-2	5540-5541	P	_	_	_	_	_	_	_	
+86-3	5542-5545	IMM	_	_	_	_	_	_	_	
+86-4	5545-5546	.	_	_	_	_	_	_	_	
+
+#Text=CHARLOTTE LUNDGREN.
+87-1	5548-5557	CHARLOTTE	_	_	_	_	_	_	_	
+87-2	5558-5566	LUNDGREN	_	_	_	_	_	_	_	
+87-3	5566-5567	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+88-1	5569-5570	#	_	_	_	_	_	_	_	
+88-2	5570-5571	P	_	_	_	_	_	_	_	
+88-3	5572-5575	IMM	_	_	_	_	_	_	_	
+88-4	5575-5576	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, kultur och kommunikation, Linköpings universitet.
+89-1	5578-5581	fil	_	_	_	_	_	_	_	
+89-2	5582-5584	dr	_	_	_	_	_	_	_	
+89-3	5584-5585	,	_	_	_	_	_	_	_	
+89-4	5586-5592	kultur	_	_	_	_	_	_	_	
+89-5	5593-5596	och	_	_	_	_	_	_	_	
+89-6	5597-5610	kommunikation	_	_	_	_	_	_	_	
+89-7	5610-5611	,	_	_	_	_	_	_	_	
+89-8	5612-5622	Linköpings	_	_	_	_	_	_	_	
+89-9	5623-5634	universitet	_	_	_	_	_	_	_	
+89-10	5634-5635	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+90-1	5637-5638	#	_	_	_	_	_	_	_	
+90-2	5638-5639	P	_	_	_	_	_	_	_	
+90-3	5640-5643	IMM	_	_	_	_	_	_	_	
+90-4	5643-5644	.	_	_	_	_	_	_	_	
+
+#Text=ULRIKA ALM BERGVALL.
+91-1	5646-5652	ULRIKA	_	_	_	_	_	_	_	
+91-2	5653-5656	ALM	_	_	_	_	_	_	_	
+91-3	5657-5665	BERGVALL	_	_	_	_	_	_	_	
+91-4	5665-5666	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+92-1	5668-5669	#	_	_	_	_	_	_	_	
+92-2	5669-5670	P	_	_	_	_	_	_	_	
+92-3	5671-5674	IMM	_	_	_	_	_	_	_	
+92-4	5674-5675	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, etologi, SLU.
+93-1	5677-5680	fil	_	_	_	_	_	_	_	
+93-2	5681-5683	dr	_	_	_	_	_	_	_	
+93-3	5683-5684	,	_	_	_	_	_	_	_	
+93-4	5685-5692	etologi	_	_	_	_	_	_	_	
+93-5	5692-5693	,	_	_	_	_	_	_	_	
+93-6	5694-5697	SLU	_	_	_	_	_	_	_	
+93-7	5697-5698	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+94-1	5700-5701	#	_	_	_	_	_	_	_	
+94-2	5701-5702	P	_	_	_	_	_	_	_	
+94-3	5703-5706	IMM	_	_	_	_	_	_	_	
+94-4	5706-5707	.	_	_	_	_	_	_	_	
+
+#Text=ERIKA ANDERSSON CEDERHOLM.
+95-1	5709-5714	ERIKA	_	_	_	_	_	_	_	
+95-2	5715-5724	ANDERSSON	_	_	_	_	_	_	_	
+95-3	5725-5734	CEDERHOLM	_	_	_	_	_	_	_	
+95-4	5734-5735	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+96-1	5737-5738	#	_	_	_	_	_	_	_	
+96-2	5738-5739	P	_	_	_	_	_	_	_	
+96-3	5740-5743	IMM	_	_	_	_	_	_	_	
+96-4	5743-5744	.	_	_	_	_	_	_	_	
+
+#Text=fil dr, sociologi, Lunds universitet.
+97-1	5746-5749	fil	_	_	_	_	_	_	_	
+97-2	5750-5752	dr	_	_	_	_	_	_	_	
+97-3	5752-5753	,	_	_	_	_	_	_	_	
+97-4	5754-5763	sociologi	_	_	_	_	_	_	_	
+97-5	5763-5764	,	_	_	_	_	_	_	_	
+97-6	5765-5770	Lunds	_	_	_	_	_	_	_	
+97-7	5771-5782	universitet	_	_	_	_	_	_	_	
+97-8	5782-5783	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+98-1	5785-5786	#	_	_	_	_	_	_	_	
+98-2	5786-5787	P	_	_	_	_	_	_	_	
+98-3	5788-5791	IMM	_	_	_	_	_	_	_	
+98-4	5791-5792	.	_	_	_	_	_	_	_	
+
+#Text=SUSANNE LUNDESJÖ.
+99-1	5794-5801	SUSANNE	_	_	_	_	_	_	_	
+99-2	5802-5810	LUNDESJÖ	_	_	_	_	_	_	_	
+99-3	5810-5811	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+100-1	5813-5814	#	_	_	_	_	_	_	_	
+100-2	5814-5815	P	_	_	_	_	_	_	_	
+100-3	5816-5819	IMM	_	_	_	_	_	_	_	
+100-4	5819-5820	.	_	_	_	_	_	_	_	
+
+#Text=fil mag, adjunkt på Hippologenheten, SLU Uppsala.
+101-1	5822-5825	fil	_	_	_	_	_	_	_	
+101-2	5826-5829	mag	_	_	_	_	_	_	_	
+101-3	5829-5830	,	_	_	_	_	_	_	_	
+101-4	5831-5838	adjunkt	_	_	_	_	_	_	_	
+101-5	5839-5841	på	_	_	_	_	_	_	_	
+101-6	5842-5857	Hippologenheten	_	_	_	_	_	_	_	
+101-7	5857-5858	,	_	_	_	_	_	_	_	
+101-8	5859-5862	SLU	_	_	_	_	_	_	_	
+101-9	5863-5870	Uppsala	_	_	_	_	_	_	_	
+101-10	5870-5871	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+102-1	5873-5874	#	_	_	_	_	_	_	_	
+102-2	5874-5875	P	_	_	_	_	_	_	_	
+102-3	5876-5879	IMM	_	_	_	_	_	_	_	
+102-4	5879-5880	.	_	_	_	_	_	_	_	
+
+#Text=MARGARETA HÅKANSOM.
+103-1	5882-5891	MARGARETA	_	_	_	_	_	_	_	
+103-2	5892-5900	HÅKANSOM	_	_	_	_	_	_	_	
+103-3	5900-5901	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+104-1	5903-5904	#	_	_	_	_	_	_	_	
+104-2	5904-5905	P	_	_	_	_	_	_	_	
+104-3	5906-5909	IMM	_	_	_	_	_	_	_	
+104-4	5909-5910	.	_	_	_	_	_	_	_	
+
+#Text=med lic, leg sjukgymnast, Tillämpad IT, Göteborgs universitet.
+105-1	5912-5915	med	_	_	_	_	_	_	_	
+105-2	5916-5919	lic	_	_	_	_	_	_	_	
+105-3	5919-5920	,	_	_	_	_	_	_	_	
+105-4	5921-5924	leg	_	_	_	_	_	_	_	
+105-5	5925-5936	sjukgymnast	_	_	_	_	_	_	_	
+105-6	5936-5937	,	_	_	_	_	_	_	_	
+105-7	5938-5947	Tillämpad	_	_	_	_	_	_	_	
+105-8	5948-5950	IT	_	_	_	_	_	_	_	
+105-9	5950-5951	,	_	_	_	_	_	_	_	
+105-10	5952-5961	Göteborgs	_	_	_	_	_	_	_	
+105-11	5962-5973	universitet	_	_	_	_	_	_	_	
+105-12	5973-5974	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+106-1	5976-5977	#	_	_	_	_	_	_	_	
+106-2	5977-5978	P	_	_	_	_	_	_	_	
+106-3	5979-5982	IMM	_	_	_	_	_	_	_	
+106-4	5982-5983	.	_	_	_	_	_	_	_	
+
+#Text=PIA TILLBERG.
+107-1	5985-5988	PIA	_	_	_	_	_	_	_	
+107-2	5989-5997	TILLBERG	_	_	_	_	_	_	_	
+107-3	5997-5998	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+108-1	6000-6001	#	_	_	_	_	_	_	_	
+108-2	6001-6002	P	_	_	_	_	_	_	_	
+108-3	6003-6006	IMM	_	_	_	_	_	_	_	
+108-4	6006-6007	.	_	_	_	_	_	_	_	
+
+#Text=leg.sjukgymnast, IRT-Certifierad ridterapeut, Stiftelsen Hippocampus.
+109-1	6009-6024	leg.sjukgymnast	_	_	_	_	_	_	_	
+109-2	6024-6025	,	_	_	_	_	_	_	_	
+109-3	6026-6041	IRT-Certifierad	_	_	_	_	_	_	_	
+109-4	6042-6053	ridterapeut	_	_	_	_	_	_	_	
+109-5	6053-6054	,	_	_	_	_	_	_	_	
+109-6	6055-6065	Stiftelsen	_	_	_	_	_	_	_	
+109-7	6066-6077	Hippocampus	_	_	_	_	_	_	_	
+109-8	6077-6078	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+110-1	6080-6081	#	_	_	_	_	_	_	_	
+110-2	6081-6082	P	_	_	_	_	_	_	_	
+110-3	6083-6086	IMM	_	_	_	_	_	_	_	
+110-4	6086-6087	.	_	_	_	_	_	_	_	
+
+#Text=GABRIELLA THORELL.
+111-1	6089-6098	GABRIELLA	_	_	_	_	_	_	_	
+111-2	6099-6106	THORELL	_	_	_	_	_	_	_	
+111-3	6106-6107	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+112-1	6109-6110	#	_	_	_	_	_	_	_	
+112-2	6110-6111	P	_	_	_	_	_	_	_	
+112-3	6112-6115	IMM	_	_	_	_	_	_	_	
+112-4	6115-6116	.	_	_	_	_	_	_	_	
+
+#Text=huvudlärare i pedagogik, doktorand vid Nationella forskarskolan i Idrottsvetenskap, Ridskolan Strömsholm.
+113-1	6118-6129	huvudlärare	_	_	_	_	_	_	_	
+113-2	6130-6131	i	_	_	_	_	_	_	_	
+113-3	6132-6141	pedagogik	_	_	_	_	_	_	_	
+113-4	6141-6142	,	_	_	_	_	_	_	_	
+113-5	6143-6152	doktorand	_	_	_	_	_	_	_	
+113-6	6153-6156	vid	_	_	_	_	_	_	_	
+113-7	6157-6167	Nationella	_	_	_	_	_	_	_	
+113-8	6168-6181	forskarskolan	_	_	_	_	_	_	_	
+113-9	6182-6183	i	_	_	_	_	_	_	_	
+113-10	6184-6200	Idrottsvetenskap	_	_	_	_	_	_	_	
+113-11	6200-6201	,	_	_	_	_	_	_	_	
+113-12	6202-6211	Ridskolan	_	_	_	_	_	_	_	
+113-13	6212-6222	Strömsholm	_	_	_	_	_	_	_	
+113-14	6222-6223	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+114-1	6225-6226	#	_	_	_	_	_	_	_	
+114-2	6226-6227	P	_	_	_	_	_	_	_	
+114-3	6228-6231	IMM	_	_	_	_	_	_	_	
+114-4	6231-6232	.	_	_	_	_	_	_	_	
+
+#Text=CAROLINE SANTÉN.
+115-1	6234-6242	CAROLINE	_	_	_	_	_	_	_	
+115-2	6243-6249	SANTÉN	_	_	_	_	_	_	_	
+115-3	6249-6250	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+116-1	6252-6253	#	_	_	_	_	_	_	_	
+116-2	6253-6254	P	_	_	_	_	_	_	_	
+116-3	6255-6258	IMM	_	_	_	_	_	_	_	
+116-4	6258-6259	.	_	_	_	_	_	_	_	
+
+#Text=programansvarig Hippologprogrammet, Flyinge AB.
+117-1	6261-6276	programansvarig	_	_	_	_	_	_	_	
+117-2	6277-6295	Hippologprogrammet	_	_	_	_	_	_	_	
+117-3	6295-6296	,	_	_	_	_	_	_	_	
+117-4	6297-6304	Flyinge	_	_	_	_	_	_	_	
+117-5	6305-6307	AB	_	_	_	_	_	_	_	
+117-6	6307-6308	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+118-1	6310-6311	#	_	_	_	_	_	_	_	
+118-2	6311-6312	P	_	_	_	_	_	_	_	
+118-3	6313-6316	IMM	_	_	_	_	_	_	_	
+118-4	6316-6317	.	_	_	_	_	_	_	_	
+
+#Text=MATILDA ALRIKSSON.
+119-1	6319-6326	MATILDA	_	_	_	_	_	_	_	
+119-2	6327-6336	ALRIKSSON	_	_	_	_	_	_	_	
+119-3	6336-6337	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+120-1	6339-6340	#	_	_	_	_	_	_	_	
+120-2	6340-6341	P	_	_	_	_	_	_	_	
+120-3	6342-6345	IMM	_	_	_	_	_	_	_	
+120-4	6345-6346	.	_	_	_	_	_	_	_	
+
+#Text=studierektor hippologprogrammet, Wången Travsportens riksanläggning.
+121-1	6348-6360	studierektor	_	_	_	_	_	_	_	
+121-2	6361-6379	hippologprogrammet	_	_	_	_	_	_	_	
+121-3	6379-6380	,	_	_	_	_	_	_	_	
+121-4	6381-6387	Wången	_	_	_	_	_	_	_	
+121-5	6388-6400	Travsportens	_	_	_	_	_	_	_	
+121-6	6401-6415	riksanläggning	_	_	_	_	_	_	_	
+121-7	6415-6416	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+122-1	6418-6419	#	_	_	_	_	_	_	_	
+122-2	6419-6420	P	_	_	_	_	_	_	_	
+122-3	6421-6424	IMM	_	_	_	_	_	_	_	
+122-4	6424-6425	.	_	_	_	_	_	_	_	
+
+#Text=ULRIKA BACKAN.
+123-1	6427-6433	ULRIKA	_	_	_	_	_	_	_	
+123-2	6434-6440	BACKAN	_	_	_	_	_	_	_	
+123-3	6440-6441	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+124-1	6443-6444	#	_	_	_	_	_	_	_	
+124-2	6444-6445	P	_	_	_	_	_	_	_	
+124-3	6446-6449	IMM	_	_	_	_	_	_	_	
+124-4	6449-6450	.	_	_	_	_	_	_	_	
+
+#Text=lärare vid hipplogutbildningen, profil Islandshäst, Wången.
+125-1	6452-6458	lärare	_	_	_	_	_	_	_	
+125-2	6459-6462	vid	_	_	_	_	_	_	_	
+125-3	6463-6482	hipplogutbildningen	_	_	_	_	_	_	_	
+125-4	6482-6483	,	_	_	_	_	_	_	_	
+125-5	6484-6490	profil	_	_	_	_	_	_	_	
+125-6	6491-6502	Islandshäst	_	_	_	_	_	_	_	
+125-7	6502-6503	,	_	_	_	_	_	_	_	
+125-8	6504-6510	Wången	_	_	_	_	_	_	_	
+125-9	6510-6511	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+126-1	6513-6514	#	_	_	_	_	_	_	_	
+126-2	6514-6515	P	_	_	_	_	_	_	_	
+126-3	6516-6519	IMM	_	_	_	_	_	_	_	
+126-4	6519-6520	.	_	_	_	_	_	_	_	
+
+#Text=MONA FALKENSSON.
+127-1	6522-6526	MONA	_	_	_	_	_	_	_	
+127-2	6527-6537	FALKENSSON	_	_	_	_	_	_	_	
+127-3	6537-6538	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+128-1	6540-6541	#	_	_	_	_	_	_	_	
+128-2	6541-6542	P	_	_	_	_	_	_	_	
+128-3	6543-6546	IMM	_	_	_	_	_	_	_	
+128-4	6546-6547	.	_	_	_	_	_	_	_	
+
+#Text=fil mag i pedagogik, hippolog, gymnasielärare på Sveriges Ridgymnasium i Svedala.
+129-1	6549-6552	fil	_	_	_	_	_	_	_	
+129-2	6553-6556	mag	_	_	_	_	_	_	_	
+129-3	6557-6558	i	_	_	_	_	_	_	_	
+129-4	6559-6568	pedagogik	_	_	_	_	_	_	_	
+129-5	6568-6569	,	_	_	_	_	_	_	_	
+129-6	6570-6578	hippolog	_	_	_	_	_	_	_	
+129-7	6578-6579	,	_	_	_	_	_	_	_	
+129-8	6580-6594	gymnasielärare	_	_	_	_	_	_	_	
+129-9	6595-6597	på	_	_	_	_	_	_	_	
+129-10	6598-6606	Sveriges	_	_	_	_	_	_	_	
+129-11	6607-6619	Ridgymnasium	_	_	_	_	_	_	_	
+129-12	6620-6621	i	_	_	_	_	_	_	_	
+129-13	6622-6629	Svedala	_	_	_	_	_	_	_	
+129-14	6629-6630	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+130-1	6632-6633	#	_	_	_	_	_	_	_	
+130-2	6633-6634	P	_	_	_	_	_	_	_	
+130-3	6635-6638	IMM	_	_	_	_	_	_	_	
+130-4	6638-6639	.	_	_	_	_	_	_	_	
+
+#Text=BIRGITTA NORDLUND.
+131-1	6641-6649	BIRGITTA	_	_	_	_	_	_	_	
+131-2	6650-6658	NORDLUND	_	_	_	_	_	_	_	
+131-3	6658-6659	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+132-1	6661-6662	#	_	_	_	_	_	_	_	
+132-2	6662-6663	P	_	_	_	_	_	_	_	
+132-3	6664-6667	IMM	_	_	_	_	_	_	_	
+132-4	6667-6668	.	_	_	_	_	_	_	_	
+
+#Text=fil kand, pedagogik, Ridskolan Strömsholm.
+133-1	6670-6673	fil	_	_	_	_	_	_	_	
+133-2	6674-6678	kand	_	_	_	_	_	_	_	
+133-3	6678-6679	,	_	_	_	_	_	_	_	
+133-4	6680-6689	pedagogik	_	_	_	_	_	_	_	
+133-5	6689-6690	,	_	_	_	_	_	_	_	
+133-6	6691-6700	Ridskolan	_	_	_	_	_	_	_	
+133-7	6701-6711	Strömsholm	_	_	_	_	_	_	_	
+133-8	6711-6712	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+134-1	6714-6715	#	_	_	_	_	_	_	_	
+134-2	6715-6716	P	_	_	_	_	_	_	_	
+134-3	6717-6720	IMM	_	_	_	_	_	_	_	
+134-4	6720-6721	.	_	_	_	_	_	_	_	
+
+#Text=MARI ZETTERQVIST BLOKHUIS.
+135-1	6723-6727	MARI	_	_	_	_	_	_	_	
+135-2	6728-6739	ZETTERQVIST	_	_	_	_	_	_	_	
+135-3	6740-6748	BLOKHUIS	_	_	_	_	_	_	_	
+135-4	6748-6749	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+136-1	6751-6752	#	_	_	_	_	_	_	_	
+136-2	6752-6753	P	_	_	_	_	_	_	_	
+136-3	6754-6757	IMM	_	_	_	_	_	_	_	
+136-4	6757-6758	.	_	_	_	_	_	_	_	
+
+#Text=fil kand. pedagogik, ridlärare, forskare på samspelet mellan ryttare och häst.
+137-1	6760-6763	fil	_	_	_	_	_	_	_	
+137-2	6764-6768	kand	_	_	_	_	_	_	_	
+137-3	6768-6769	.	_	_	_	_	_	_	_	
+137-4	6770-6779	pedagogik	_	_	_	_	_	_	_	
+137-5	6779-6780	,	_	_	_	_	_	_	_	
+137-6	6781-6790	ridlärare	_	_	_	_	_	_	_	
+137-7	6790-6791	,	_	_	_	_	_	_	_	
+137-8	6792-6800	forskare	_	_	_	_	_	_	_	
+137-9	6801-6803	på	_	_	_	_	_	_	_	
+137-10	6804-6813	samspelet	_	_	_	_	_	_	_	
+137-11	6814-6820	mellan	_	_	_	_	_	_	_	
+137-12	6821-6828	ryttare	_	_	_	_	_	_	_	
+137-13	6829-6832	och	_	_	_	_	_	_	_	
+137-14	6833-6837	häst	_	_	_	_	_	_	_	
+137-15	6837-6838	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+138-1	6840-6841	#	_	_	_	_	_	_	_	
+138-2	6841-6842	P	_	_	_	_	_	_	_	
+138-3	6843-6846	IMM	_	_	_	_	_	_	_	
+138-4	6846-6847	.	_	_	_	_	_	_	_	
+
+#Text=LENA DANIUS.
+139-1	6849-6853	LENA	_	_	_	_	_	_	_	
+139-2	6854-6860	DANIUS	_	_	_	_	_	_	_	
+139-3	6860-6861	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+140-1	6863-6864	#	_	_	_	_	_	_	_	
+140-2	6864-6865	P	_	_	_	_	_	_	_	
+140-3	6866-6869	IMM	_	_	_	_	_	_	_	
+140-4	6869-6870	.	_	_	_	_	_	_	_	
+
+#Text=fil lic och egen företagare inom hästnäringen.
+141-1	6872-6875	fil	_	_	_	_	_	_	_	
+141-2	6876-6879	lic	_	_	_	_	_	_	_	
+141-3	6880-6883	och	_	_	_	_	_	_	_	
+141-4	6884-6888	egen	_	_	_	_	_	_	_	
+141-5	6889-6899	företagare	_	_	_	_	_	_	_	
+141-6	6900-6904	inom	_	_	_	_	_	_	_	
+141-7	6905-6917	hästnäringen	_	_	_	_	_	_	_	
+141-8	6917-6918	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+142-1	6920-6921	#	_	_	_	_	_	_	_	
+142-2	6921-6922	P	_	_	_	_	_	_	_	
+142-3	6923-6926	IMM	_	_	_	_	_	_	_	
+142-4	6926-6927	.	_	_	_	_	_	_	_	
+
+#Text=Samtliga är medlemmar i "Svenskt Nätverk för Forskning om Människa och Häst", som är en plattform där samhälls- och humanioraforskare från olika lärosäten gemensamt verkar för att de möjligheter som hästen erbjuder ska bli beforskade, förstärkta på vetenskaplig bas och kända i det omgivande samhället.
+143-1	6929-6937	Samtliga	_	_	_	_	_	_	_	
+143-2	6938-6940	är	_	_	_	_	_	_	_	
+143-3	6941-6950	medlemmar	_	_	_	_	_	_	_	
+143-4	6951-6952	i	_	_	_	_	_	_	_	
+143-5	6953-6954	"	_	_	_	_	_	_	_	
+143-6	6954-6961	Svenskt	_	_	_	_	_	_	_	
+143-7	6962-6969	Nätverk	_	_	_	_	_	_	_	
+143-8	6970-6973	för	_	_	_	_	_	_	_	
+143-9	6974-6983	Forskning	_	_	_	_	_	_	_	
+143-10	6984-6986	om	_	_	_	_	_	_	_	
+143-11	6987-6995	Människa	_	_	_	_	_	_	_	
+143-12	6996-6999	och	_	_	_	_	_	_	_	
+143-13	7000-7004	Häst	_	_	_	_	_	_	_	
+143-14	7004-7005	"	_	_	_	_	_	_	_	
+143-15	7005-7006	,	_	_	_	_	_	_	_	
+143-16	7007-7010	som	_	_	_	_	_	_	_	
+143-17	7011-7013	är	_	_	_	_	_	_	_	
+143-18	7014-7016	en	_	_	_	_	_	_	_	
+143-19	7017-7026	plattform	_	_	_	_	_	_	_	
+143-20	7027-7030	där	_	_	_	_	_	_	_	
+143-21	7031-7039	samhälls	_	_	_	_	_	_	_	
+143-22	7039-7040	-	_	_	_	_	_	_	_	
+143-23	7041-7044	och	_	_	_	_	_	_	_	
+143-24	7045-7062	humanioraforskare	_	_	_	_	_	_	_	
+143-25	7063-7067	från	_	_	_	_	_	_	_	
+143-26	7068-7073	olika	_	_	_	_	_	_	_	
+143-27	7074-7083	lärosäten	_	_	_	_	_	_	_	
+143-28	7084-7093	gemensamt	_	_	_	_	_	_	_	
+143-29	7094-7100	verkar	_	_	_	_	_	_	_	
+143-30	7101-7104	för	_	_	_	_	_	_	_	
+143-31	7105-7108	att	_	_	_	_	_	_	_	
+143-32	7109-7111	de	_	_	_	_	_	_	_	
+143-33	7112-7123	möjligheter	_	_	_	_	_	_	_	
+143-34	7124-7127	som	_	_	_	_	_	_	_	
+143-35	7128-7134	hästen	_	_	_	_	_	_	_	
+143-36	7135-7143	erbjuder	_	_	_	_	_	_	_	
+143-37	7144-7147	ska	_	_	_	_	_	_	_	
+143-38	7148-7151	bli	_	_	_	_	_	_	_	
+143-39	7152-7162	beforskade	_	_	_	_	_	_	_	
+143-40	7162-7163	,	_	_	_	_	_	_	_	
+143-41	7164-7174	förstärkta	_	_	_	_	_	_	_	
+143-42	7175-7177	på	_	_	_	_	_	_	_	
+143-43	7178-7190	vetenskaplig	_	_	_	_	_	_	_	
+143-44	7191-7194	bas	_	_	_	_	_	_	_	
+143-45	7195-7198	och	_	_	_	_	_	_	_	
+143-46	7199-7204	kända	_	_	_	_	_	_	_	
+143-47	7205-7206	i	_	_	_	_	_	_	_	
+143-48	7207-7210	det	_	_	_	_	_	_	_	
+143-49	7211-7220	omgivande	_	_	_	_	_	_	_	
+143-50	7221-7230	samhället	_	_	_	_	_	_	_	
+143-51	7230-7231	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+144-1	7233-7234	#	_	_	_	_	_	_	_	
+144-2	7234-7235	P	_	_	_	_	_	_	_	
+144-3	7236-7239	IMM	_	_	_	_	_	_	_	
+144-4	7239-7240	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+145-1	7242-7250	Redaktör	_	_	_	_	_	_	_	
+145-2	7250-7251	:	_	_	_	_	_	_	_	
+145-3	7252-7258	Carina	_	_	_	_	_	_	_	
+145-4	7259-7267	Stensson	_	_	_	_	_	_	_	
+145-5	7267-7268	,	_	_	_	_	_	_	_	
+145-6	7269-7279	Biträdande	_	_	_	_	_	_	_	
+145-7	7280-7288	redaktör	_	_	_	_	_	_	_	
+145-8	7288-7289	:	_	_	_	_	_	_	_	
+145-9	7290-7295	Björn	_	_	_	_	_	_	_	
+145-10	7296-7302	Jorner	_	_	_	_	_	_	_	
+145-11	7302-7303	,	_	_	_	_	_	_	_	
+145-12	7304-7308	Mejl	_	_	_	_	_	_	_	
+145-13	7308-7309	:	_	_	_	_	_	_	_	
+145-14	7310-7316	debatt	_	_	_	_	_	_	_	
+145-15	7316-7317	@	_	_	_	_	_	_	_	
+145-16	7317-7323	svd.se	_	_	_	_	_	_	_	
+145-17	7323-7324	,	_	_	_	_	_	_	_	
+145-18	7325-7338	Telefonnummer	_	_	_	_	_	_	_	
+145-19	7338-7339	:	_	_	_	_	_	_	_	
+145-20	7340-7342	08	_	_	_	_	_	_	_	
+145-21	7342-7343	-	_	_	_	_	_	_	_	
+145-22	7343-7349	135149	_	_	_	_	_	_	_	
+145-23	7349-7350	,	_	_	_	_	_	_	_	
+145-24	7351-7358	Twitter	_	_	_	_	_	_	_	
+145-25	7358-7359	:	_	_	_	_	_	_	_	
+145-26	7360-7361	@	_	_	_	_	_	_	_	
+145-27	7361-7370	SvDDebatt	_	_	_	_	_	_	_	
+145-28	7370-7371	,	_	_	_	_	_	_	_	
+145-29	7372-7380	Facebook	_	_	_	_	_	_	_	
+145-30	7380-7381	:	_	_	_	_	_	_	_	
+145-31	7382-7385	SvD	_	_	_	_	_	_	_	
+145-32	7386-7392	Debatt	_	_	_	_	_	_	_	
+145-33	7392-7393	.	_	_	_	_	_	_	_	

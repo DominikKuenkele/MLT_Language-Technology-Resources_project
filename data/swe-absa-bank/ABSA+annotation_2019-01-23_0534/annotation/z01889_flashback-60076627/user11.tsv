@@ -1,0 +1,142 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Är USA föregångslandet eller mardrömmen vad gäller integration?
+3-1	18-20	Är	_	_	_	_	_	
+3-2	21-24	USA	*	_	_	_	_	
+3-3	25-40	föregångslandet	_	Target;Source	3-2;3-9	false	4	
+3-4	41-46	eller	_	_	_	_	_	
+3-5	47-57	mardrömmen	_	Target;Source	3-2;3-9	false	1	
+3-6	58-61	vad	_	_	_	_	_	
+3-7	62-68	gäller	_	_	_	_	_	
+3-8	69-80	integration	_	_	_	_	_	
+3-9	80-81	?	*	_	_	_	_	
+
+#Text=#P IMM.
+4-1	83-84	#	_	_	_	_	_	
+4-2	84-85	P	_	_[3]	_	false[3]	3[3]	
+4-3	86-89	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	89-90	.	_	_	_	_	_	
+
+#Text=Jag har hört på vissa ställen hur USA är både föregångslandet och mardrömmen vad gäller integration, och jag vill veta vad ni förbipasserande tycker.
+5-1	92-95	Jag	_	_	_	_	_	
+5-2	96-99	har	_	_	_	_	_	
+5-3	100-104	hört	_	_	_	_	_	
+5-4	105-107	på	_	_	_	_	_	
+5-5	108-113	vissa	_	_	_	_	_	
+5-6	114-121	ställen	_	_	_	_	_	
+5-7	122-125	hur	_	_	_	_	_	
+5-8	126-129	USA	*	_	_	_	_	
+5-9	130-132	är	_	_	_	_	_	
+5-10	133-137	både	_	_	_	_	_	
+5-11	138-153	föregångslandet	_	Source;Target	5-26;5-8	false	4	
+5-12	154-157	och	_	_	_	_	_	
+5-13	158-168	mardrömmen	_	Source;Target	5-26;5-8	false	1	
+5-14	169-172	vad	_	_	_	_	_	
+5-15	173-179	gäller	_	_	_	_	_	
+5-16	180-191	integration	_	_	_	_	_	
+5-17	191-192	,	_	_	_	_	_	
+5-18	193-196	och	_	_	_	_	_	
+5-19	197-200	jag	_	_	_	_	_	
+5-20	201-205	vill	_	_	_	_	_	
+5-21	206-210	veta	_	_	_	_	_	
+5-22	211-214	vad	_	_	_	_	_	
+5-23	215-217	ni	_	_	_	_	_	
+5-24	218-233	förbipasserande	_	_	_	_	_	
+5-25	234-240	tycker	_	_	_	_	_	
+5-26	240-241	.	*	_	_	_	_	
+
+#Text=#P IMM.
+6-1	243-244	#	_	_	_	_	_	
+6-2	244-245	P	_	_[4]	_	false[4]	3[4]	
+6-3	246-249	IMM	_	_[4]	_	false[4]	3[4]	
+6-4	249-250	.	_	_	_	_	_	
+
+#Text=Jag var nyligen i Florida och det är en av de mer mångkulturella staterna har jag fått höra, och integrationen är på en helt annan nivå än i Sverige på instämmer jag i.
+7-1	252-255	Jag	_	_	_	_	_	
+7-2	256-259	var	_	_	_	_	_	
+7-3	260-267	nyligen	_	_	_	_	_	
+7-4	268-269	i	_	_	_	_	_	
+7-5	270-277	Florida	_	_	_	_	_	
+7-6	278-281	och	_	_	_	_	_	
+7-7	282-285	det	_	_	_	_	_	
+7-8	286-288	är	_	_	_	_	_	
+7-9	289-291	en	_	_	_	_	_	
+7-10	292-294	av	_	_	_	_	_	
+7-11	295-297	de	_	_	_	_	_	
+7-12	298-301	mer	_	_	_	_	_	
+7-13	302-316	mångkulturella	_	_	_	_	_	
+7-14	317-325	staterna	_	_	_	_	_	
+7-15	326-329	har	_	_	_	_	_	
+7-16	330-333	jag	_	_	_	_	_	
+7-17	334-338	fått	_	_	_	_	_	
+7-18	339-343	höra	_	_	_	_	_	
+7-19	343-344	,	_	_	_	_	_	
+7-20	345-348	och	_	_	_	_	_	
+7-21	349-362	integrationen	*[6]	_	_	_	_	
+7-22	363-365	är	*[6]	_	_	_	_	
+7-23	366-368	på	*[6]	_	_	_	_	
+7-24	369-371	en	*[6]	_	_	_	_	
+7-25	372-376	helt	*[6]	_	_	_	_	
+7-26	377-382	annan	*[6]	_	_	_	_	
+7-27	383-387	nivå	*[6]	_	_	_	_	
+7-28	388-390	än	*[6]	_	_	_	_	
+7-29	391-392	i	*[6]	_	_	_	_	
+7-30	393-400	Sverige	*[6]	_	_	_	_	
+7-31	401-403	på	_	_	_	_	_	
+7-32	404-413	instämmer	_	Source;Target	7-33;7-21[6]	false	4	
+7-33	414-417	jag	*	_	_	_	_	
+7-34	418-419	i	_	_	_	_	_	
+7-35	419-420	.	_	_	_	_	_	
+
+#Text=Man kan där ha bott i generationer med spanska som första språk.
+8-1	421-424	Man	_	_	_	_	_	
+8-2	425-428	kan	_	_	_	_	_	
+8-3	429-432	där	_	_	_	_	_	
+8-4	433-435	ha	_	_	_	_	_	
+8-5	436-440	bott	_	_	_	_	_	
+8-6	441-442	i	_	_	_	_	_	
+8-7	443-455	generationer	_	_	_	_	_	
+8-8	456-459	med	_	_	_	_	_	
+8-9	460-467	spanska	_	_	_	_	_	
+8-10	468-471	som	_	_	_	_	_	
+8-11	472-478	första	_	_	_	_	_	
+8-12	479-484	språk	_	_	_	_	_	
+8-13	484-485	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	487-488	#	_	_	_	_	_	
+9-2	488-489	P	_	_[5]	_	false[5]	3[5]	
+9-3	490-493	IMM	_	_[5]	_	false[5]	3[5]	
+9-4	493-494	.	_	_	_	_	_	
+
+#Text=Vad har ni för erfarenheter av USA:s integration?
+10-1	496-499	Vad	_	_	_	_	_	
+10-2	500-503	har	_	_	_	_	_	
+10-3	504-506	ni	_	_	_	_	_	
+10-4	507-510	för	_	_	_	_	_	
+10-5	511-523	erfarenheter	_	_	_	_	_	
+10-6	524-526	av	_	_	_	_	_	
+10-7	527-530	USA	_	_	_	_	_	
+10-8	530-531	:	_	_	_	_	_	
+10-9	531-532	s	_	_	_	_	_	
+10-10	533-544	integration	_	_	_	_	_	
+10-11	544-545	?	_	_	_	_	_	
+
+#Text=dela.
+11-1	546-550	dela	_	_	_	_	_	
+11-2	550-551	.	_	_	_	_	_	

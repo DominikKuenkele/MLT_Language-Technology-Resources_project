@@ -1,0 +1,945 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Det krävs politiska   
+#Text=initiativ för ny antibiotika.
+3-1	18-21	Det	_	_	_	_	_	_	_	
+3-2	22-27	krävs	_	_	_	_	_	_	_	
+3-3	28-37	politiska	_	_	_	_	_	_	_	
+3-4	41-50	initiativ	_	_	_	_	_	_	_	
+3-5	51-54	för	_	_	_	_	_	_	_	
+3-6	55-57	ny	_	_	_	_	_	_	_	
+3-7	58-69	antibiotika	_	_	_	_	_	_	_	
+3-8	69-70	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	_	_	_	_	
+4-4	78-79	.	_	_	_	_	_	_	_	
+
+#Text=En massiv global överanvändning av antibiotika har lett till att bakterier utvecklat motståndskraft.
+5-1	81-83	En	_	_	_	_	_	_	_	
+5-2	84-90	massiv	_	_	_	_	_	_	_	
+5-3	91-97	global	_	_	_	_	_	_	_	
+5-4	98-112	överanvändning	*	Target	5-4	false	1	_	_	
+5-5	113-115	av	_	_	_	_	_	_	_	
+5-6	116-127	antibiotika	_	_	_	_	_	_	_	
+5-7	128-131	har	_	_	_	_	_	_	_	
+5-8	132-136	lett	_	_	_	_	_	_	_	
+5-9	137-141	till	_	_	_	_	_	_	_	
+5-10	142-145	att	_	_	_	_	_	_	_	
+5-11	146-155	bakterier	_	_	_	_	_	_	_	
+5-12	156-165	utvecklat	_	_	_	_	_	_	_	
+5-13	166-180	motståndskraft	_	_	_	_	_	_	_	
+5-14	180-181	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt har utvecklingen av nya antibiotika i stort sett upphört, skriver professor Otto Cars som efterlyser ett globalt politiskt initiativ.
+6-1	182-191	Samtidigt	_	_	_	_	_	_	_	
+6-2	192-195	har	_	_	_	_	_	_	_	
+6-3	196-208	utvecklingen	_	_	_	_	_	_	_	
+6-4	209-211	av	_	_	_	_	_	_	_	
+6-5	212-215	nya	_	_	_	_	_	_	_	
+6-6	216-227	antibiotika	_	_	_	_	_	_	_	
+6-7	228-229	i	_	_	_	_	_	_	_	
+6-8	230-235	stort	_	_	_	_	_	_	_	
+6-9	236-240	sett	_	_	_	_	_	_	_	
+6-10	241-248	upphört	_	_	_	_	_	_	_	
+6-11	248-249	,	_	_	_	_	_	_	_	
+6-12	250-257	skriver	_	_	_	_	_	_	_	
+6-13	258-267	professor	_	_	_	_	_	_	_	
+6-14	268-272	Otto	_	_	_	_	_	_	_	
+6-15	273-277	Cars	_	_	_	_	_	_	_	
+6-16	278-281	som	_	_	_	_	_	_	_	
+6-17	282-292	efterlyser	_	_	_	_	_	_	_	
+6-18	293-296	ett	_	_	_	_	_	_	_	
+6-19	297-304	globalt	_	_	_	_	_	_	_	
+6-20	305-314	politiskt	_	_	_	_	_	_	_	
+6-21	315-324	initiativ	_	_	_	_	_	_	_	
+6-22	324-325	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	327-328	#	_	_	_	_	_	_	_	
+7-2	328-329	P	_	_	_	_	_	_	_	
+7-3	330-333	IMM	_	_	_	_	_	_	_	
+7-4	333-334	.	_	_	_	_	_	_	_	
+
+#Text=Den bistra sanningen är att inga antibiotika med nya verkningsmekanismer har upptäckts sedan 1987.Otto Cars.
+8-1	336-339	Den	_	Target[1]	8-5[15]	false[1]	1[1]	_	_	
+8-2	340-346	bistra	_	Target[1]	8-5[15]	false[1]	1[1]	_	_	
+8-3	347-356	sanningen	_	Target[1]	8-5[15]	false[1]	1[1]	_	_	
+8-4	357-359	är	_	Target[1]	8-5[15]	false[1]	1[1]	_	_	
+8-5	360-363	att	*[15]	_	_	_	_	_	_	
+8-6	364-368	inga	*[15]	_	_	_	_	_	_	
+8-7	369-380	antibiotika	*[15]	_	_	_	_	_	_	
+8-8	381-384	med	*[15]	_	_	_	_	_	_	
+8-9	385-388	nya	*[15]	_	_	_	_	_	_	
+8-10	389-408	verkningsmekanismer	*[15]	_	_	_	_	_	_	
+8-11	409-412	har	*[15]	_	_	_	_	_	_	
+8-12	413-422	upptäckts	*[15]	_	_	_	_	_	_	
+8-13	423-428	sedan	_	_	_	_	_	_	_	
+8-14	429-433	1987	_	_	_	_	_	_	_	
+8-15	433-434	.	_	_	_	_	_	_	_	
+8-16	434-438	Otto	_	_	_	_	_	_	_	
+8-17	439-443	Cars	_	_	_	_	_	_	_	
+8-18	443-444	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	446-447	#	_	_	_	_	_	_	_	
+9-2	447-448	P	_	_	_	_	_	_	_	
+9-3	449-452	IMM	_	_	_	_	_	_	_	
+9-4	452-453	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	455-458	Det	_	_	_	_	_	_	_	
+10-2	459-462	här	_	_	_	_	_	_	_	
+10-3	463-465	är	_	_	_	_	_	_	_	
+10-4	466-468	en	_	_	_	_	_	_	_	
+10-5	469-483	argumenterande	_	_	_	_	_	_	_	
+10-6	484-488	text	_	_	_	_	_	_	_	
+10-7	489-492	med	_	_	_	_	_	_	_	
+10-8	493-498	syfte	_	_	_	_	_	_	_	
+10-9	499-502	att	_	_	_	_	_	_	_	
+10-10	503-510	påverka	_	_	_	_	_	_	_	
+10-11	510-511	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	512-521	Åsikterna	_	_	_	_	_	_	_	
+11-2	522-525	som	_	_	_	_	_	_	_	
+11-3	526-534	uttrycks	_	_	_	_	_	_	_	
+11-4	535-537	är	_	_	_	_	_	_	_	
+11-5	538-549	skribentens	_	_	_	_	_	_	_	
+11-6	550-554	egna	_	_	_	_	_	_	_	
+11-7	554-555	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	557-558	#	_	_	_	_	_	_	_	
+12-2	558-559	P	_	_	_	_	_	_	_	
+12-3	560-563	IMM	_	_	_	_	_	_	_	
+12-4	563-564	.	_	_	_	_	_	_	_	
+
+#Text=I dag tar World Economic Forum i Davos upp det globala problemet med bakterier som är motståndskraftiga (resistenta) mot antibiotika.
+13-1	566-567	I	_	_	_	_	_	_	_	
+13-2	568-571	dag	_	_	_	_	_	_	_	
+13-3	572-575	tar	_	_	_	_	_	_	_	
+13-4	576-581	World	_	_	_	_	_	_	_	
+13-5	582-590	Economic	_	_	_	_	_	_	_	
+13-6	591-596	Forum	_	_	_	_	_	_	_	
+13-7	597-598	i	_	_	_	_	_	_	_	
+13-8	599-604	Davos	_	_	_	_	_	_	_	
+13-9	605-608	upp	_	_	_	_	_	_	_	
+13-10	609-612	det	_	Target[2]	13-14[16]	false[2]	1[2]	_	_	
+13-11	613-620	globala	_	Target[2]	13-14[16]	false[2]	1[2]	_	_	
+13-12	621-630	problemet	_	Target[2]	13-14[16]	false[2]	1[2]	_	_	
+13-13	631-634	med	_	Target[2]	13-14[16]	false[2]	1[2]	_	_	
+13-14	635-644	bakterier	*[16]	_	_	_	_	_	_	
+13-15	645-648	som	*[16]	_	_	_	_	_	_	
+13-16	649-651	är	*[16]	_	_	_	_	_	_	
+13-17	652-669	motståndskraftiga	*[16]	_	_	_	_	_	_	
+13-18	670-671	(	_	_	_	_	_	_	_	
+13-19	671-681	resistenta	_	_	_	_	_	_	_	
+13-20	681-682	)	_	_	_	_	_	_	_	
+13-21	683-686	mot	_	_	_	_	_	_	_	
+13-22	687-698	antibiotika	_	_	_	_	_	_	_	
+13-23	698-699	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte en dag för tidigt.
+14-1	700-703	Det	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-2	704-706	är	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-3	707-711	inte	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-4	712-714	en	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-5	715-718	dag	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-6	719-722	för	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-7	723-729	tidigt	*[17]	Target[3]	14-1[17]	false[3]	3[3]	_	_	
+14-8	729-730	.	_	_	_	_	_	_	_	
+
+#Text=Mycket talar för att vi är på väg mot en värld utan effektiva antibiotika vilket kan få enorma konsekvenser för världsekonomin.
+15-1	731-737	Mycket	_	_	_	_	_	_	_	
+15-2	738-743	talar	_	_	_	_	_	_	_	
+15-3	744-747	för	_	_	_	_	_	_	_	
+15-4	748-751	att	_	_	_	_	_	_	_	
+15-5	752-754	vi	_	_	_	_	_	_	_	
+15-6	755-757	är	_	_	_	_	_	_	_	
+15-7	758-760	på	_	_	_	_	_	_	_	
+15-8	761-764	väg	_	_	_	_	_	_	_	
+15-9	765-768	mot	_	_	_	_	_	_	_	
+15-10	769-771	en	_	_	_	_	_	_	_	
+15-11	772-777	värld	_	_	_	_	_	_	_	
+15-12	778-782	utan	_	_	_	_	_	_	_	
+15-13	783-792	effektiva	_	_	_	_	_	_	_	
+15-14	793-804	antibiotika	_	_	_	_	_	_	_	
+15-15	805-811	vilket	_	_	_	_	_	_	_	
+15-16	812-815	kan	_	_	_	_	_	_	_	
+15-17	816-818	få	_	_	_	_	_	_	_	
+15-18	819-825	enorma	_	_	_	_	_	_	_	
+15-19	826-838	konsekvenser	_	_	_	_	_	_	_	
+15-20	839-842	för	_	_	_	_	_	_	_	
+15-21	843-857	världsekonomin	_	_	_	_	_	_	_	
+15-22	857-858	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	860-861	#	_	_	_	_	_	_	_	
+16-2	861-862	P	_	_	_	_	_	_	_	
+16-3	863-866	IMM	_	_	_	_	_	_	_	
+16-4	866-867	.	_	_	_	_	_	_	_	
+
+#Text=En massiv global överanvändning av antibiotika har lett till att bakterier utvecklat motståndskraft.
+17-1	869-871	En	_	_	_	_	_	_	_	
+17-2	872-878	massiv	_	_	_	_	_	_	_	
+17-3	879-885	global	_	_	_	_	_	_	_	
+17-4	886-900	överanvändning	*	Target	17-4	false	1	_	_	
+17-5	901-903	av	_	_	_	_	_	_	_	
+17-6	904-915	antibiotika	_	_	_	_	_	_	_	
+17-7	916-919	har	_	_	_	_	_	_	_	
+17-8	920-924	lett	_	_	_	_	_	_	_	
+17-9	925-929	till	_	_	_	_	_	_	_	
+17-10	930-933	att	_	_	_	_	_	_	_	
+17-11	934-943	bakterier	_	_	_	_	_	_	_	
+17-12	944-953	utvecklat	_	_	_	_	_	_	_	
+17-13	954-968	motståndskraft	_	_	_	_	_	_	_	
+17-14	968-969	.	_	_	_	_	_	_	_	
+
+#Text=I dag dör nyfödda barn med blodförgiftning i hela världen på grund av brist på effektiva antibiotika.
+18-1	970-971	I	_	_	_	_	_	_	_	
+18-2	972-975	dag	_	_	_	_	_	_	_	
+18-3	976-979	dör	_	_	_	_	_	_	_	
+18-4	980-987	nyfödda	_	_	_	_	_	_	_	
+18-5	988-992	barn	_	_	_	_	_	_	_	
+18-6	993-996	med	_	_	_	_	_	_	_	
+18-7	997-1012	blodförgiftning	_	_	_	_	_	_	_	
+18-8	1013-1014	i	_	_	_	_	_	_	_	
+18-9	1015-1019	hela	_	_	_	_	_	_	_	
+18-10	1020-1027	världen	_	_	_	_	_	_	_	
+18-11	1028-1030	på	_	_	_	_	_	_	_	
+18-12	1031-1036	grund	_	_	_	_	_	_	_	
+18-13	1037-1039	av	_	_	_	_	_	_	_	
+18-14	1040-1045	brist	_	_	_	_	_	_	_	
+18-15	1046-1048	på	_	_	_	_	_	_	_	
+18-16	1049-1058	effektiva	_	_	_	_	_	_	_	
+18-17	1059-1070	antibiotika	_	_	_	_	_	_	_	
+18-18	1070-1071	.	_	_	_	_	_	_	_	
+
+#Text=En transplantationsavdelning i Tyskland rapporterar om spridning av den allvarligaste formen av multiresistens där fem patienter infekterades och samtliga avled.
+19-1	1072-1074	En	_	_	_	_	_	_	_	
+19-2	1075-1100	transplantationsavdelning	_	_	_	_	_	_	_	
+19-3	1101-1102	i	_	_	_	_	_	_	_	
+19-4	1103-1111	Tyskland	_	_	_	_	_	_	_	
+19-5	1112-1123	rapporterar	_	_	_	_	_	_	_	
+19-6	1124-1126	om	_	_	_	_	_	_	_	
+19-7	1127-1136	spridning	_	_	_	_	_	_	_	
+19-8	1137-1139	av	_	_	_	_	_	_	_	
+19-9	1140-1143	den	_	_	_	_	_	_	_	
+19-10	1144-1157	allvarligaste	_	_	_	_	_	_	_	
+19-11	1158-1164	formen	_	_	_	_	_	_	_	
+19-12	1165-1167	av	_	_	_	_	_	_	_	
+19-13	1168-1182	multiresistens	_	_	_	_	_	_	_	
+19-14	1183-1186	där	_	_	_	_	_	_	_	
+19-15	1187-1190	fem	_	_	_	_	_	_	_	
+19-16	1191-1200	patienter	_	_	_	_	_	_	_	
+19-17	1201-1213	infekterades	_	_	_	_	_	_	_	
+19-18	1214-1217	och	_	_	_	_	_	_	_	
+19-19	1218-1226	samtliga	_	_	_	_	_	_	_	
+19-20	1227-1232	avled	_	_	_	_	_	_	_	
+19-21	1232-1233	.	_	_	_	_	_	_	_	
+
+#Text=I Sverige har vi hittills påvisat ett 50-tal fall av denna resistenstyp, men vi vet inte om de har orsakat några dödsfall – ingen skyldighet finns att anmäla detta till myndigheterna.
+20-1	1234-1235	I	_	_	_	_	_	_	_	
+20-2	1236-1243	Sverige	_	_	_	_	_	_	_	
+20-3	1244-1247	har	_	_	_	_	_	_	_	
+20-4	1248-1250	vi	_	_	_	_	_	_	_	
+20-5	1251-1259	hittills	_	_	_	_	_	_	_	
+20-6	1260-1267	påvisat	_	_	_	_	_	_	_	
+20-7	1268-1271	ett	_	_	_	_	_	_	_	
+20-8	1272-1274	50	_	_	_	_	_	_	_	
+20-9	1274-1275	-	_	_	_	_	_	_	_	
+20-10	1275-1278	tal	_	_	_	_	_	_	_	
+20-11	1279-1283	fall	_	_	_	_	_	_	_	
+20-12	1284-1286	av	_	_	_	_	_	_	_	
+20-13	1287-1292	denna	_	_	_	_	_	_	_	
+20-14	1293-1305	resistenstyp	_	_	_	_	_	_	_	
+20-15	1305-1306	,	_	_	_	_	_	_	_	
+20-16	1307-1310	men	_	_	_	_	_	_	_	
+20-17	1311-1313	vi	_	_	_	_	_	_	_	
+20-18	1314-1317	vet	_	_	_	_	_	_	_	
+20-19	1318-1322	inte	_	_	_	_	_	_	_	
+20-20	1323-1325	om	_	_	_	_	_	_	_	
+20-21	1326-1328	de	_	_	_	_	_	_	_	
+20-22	1329-1332	har	_	_	_	_	_	_	_	
+20-23	1333-1340	orsakat	_	_	_	_	_	_	_	
+20-24	1341-1346	några	_	_	_	_	_	_	_	
+20-25	1347-1355	dödsfall	_	_	_	_	_	_	_	
+20-26	1356-1357	–	_	_	_	_	_	_	_	
+20-27	1358-1363	ingen	_	_	_	_	_	_	_	
+20-28	1364-1374	skyldighet	_	_	_	_	_	_	_	
+20-29	1375-1380	finns	_	_	_	_	_	_	_	
+20-30	1381-1384	att	_	_	_	_	_	_	_	
+20-31	1385-1391	anmäla	_	_	_	_	_	_	_	
+20-32	1392-1397	detta	_	_	_	_	_	_	_	
+20-33	1398-1402	till	_	_	_	_	_	_	_	
+20-34	1403-1416	myndigheterna	_	_	_	_	_	_	_	
+20-35	1416-1417	.	_	_	_	_	_	_	_	
+
+#Text=De ekonomiska konsekvenserna av antibiotikaresistens är enorma.
+21-1	1418-1420	De	_	_	_	_	_	_	_	
+21-2	1421-1431	ekonomiska	_	_	_	_	_	_	_	
+21-3	1432-1446	konsekvenserna	_	_	_	_	_	_	_	
+21-4	1447-1449	av	_	_	_	_	_	_	_	
+21-5	1450-1470	antibiotikaresistens	_	_	_	_	_	_	_	
+21-6	1471-1473	är	_	_	_	_	_	_	_	
+21-7	1474-1480	enorma	_	_	_	_	_	_	_	
+21-8	1480-1481	.	_	_	_	_	_	_	_	
+
+#Text=Ett enda fall av infektion med resistenta stafylokocker (MRSA) i ett vårdboende i Sverige har kostnadsberäknats till nära en miljon kronor.
+22-1	1482-1485	Ett	_	_	_	_	_	_	_	
+22-2	1486-1490	enda	_	_	_	_	_	_	_	
+22-3	1491-1495	fall	_	_	_	_	_	_	_	
+22-4	1496-1498	av	_	_	_	_	_	_	_	
+22-5	1499-1508	infektion	_	_	_	_	_	_	_	
+22-6	1509-1512	med	_	_	_	_	_	_	_	
+22-7	1513-1523	resistenta	_	_	_	_	_	_	_	
+22-8	1524-1537	stafylokocker	_	_	_	_	_	_	_	
+22-9	1538-1539	(	_	_	_	_	_	_	_	
+22-10	1539-1543	MRSA	_	_	_	_	_	_	_	
+22-11	1543-1544	)	_	_	_	_	_	_	_	
+22-12	1545-1546	i	_	_	_	_	_	_	_	
+22-13	1547-1550	ett	_	_	_	_	_	_	_	
+22-14	1551-1561	vårdboende	_	_	_	_	_	_	_	
+22-15	1562-1563	i	_	_	_	_	_	_	_	
+22-16	1564-1571	Sverige	_	_	_	_	_	_	_	
+22-17	1572-1575	har	_	_	_	_	_	_	_	
+22-18	1576-1593	kostnadsberäknats	_	_	_	_	_	_	_	
+22-19	1594-1598	till	_	_	_	_	_	_	_	
+22-20	1599-1603	nära	_	_	_	_	_	_	_	
+22-21	1604-1606	en	_	_	_	_	_	_	_	
+22-22	1607-1613	miljon	_	_	_	_	_	_	_	
+22-23	1614-1620	kronor	_	_	_	_	_	_	_	
+22-24	1620-1621	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1623-1624	#	_	_	_	_	_	_	_	
+23-2	1624-1625	P	_	_	_	_	_	_	_	
+23-3	1626-1629	IMM	_	_	_	_	_	_	_	
+23-4	1629-1630	.	_	_	_	_	_	_	_	
+
+#Text=Dagens kritiska läge beror på en rad olyckliga felbedömningar.
+24-1	1632-1638	Dagens	_	Target[4]	24-6[18]	false[4]	1[4]	_	_	
+24-2	1639-1647	kritiska	_	Target[4]	24-6[18]	false[4]	1[4]	_	_	
+24-3	1648-1652	läge	_	Target[4]	24-6[18]	false[4]	1[4]	_	_	
+24-4	1653-1658	beror	_	Target[4]	24-6[18]	false[4]	1[4]	_	_	
+24-5	1659-1661	på	_	Target[4]	24-6[18]	false[4]	1[4]	_	_	
+24-6	1662-1664	en	*[18]	_	_	_	_	_	_	
+24-7	1665-1668	rad	*[18]	_	_	_	_	_	_	
+24-8	1669-1678	olyckliga	*[18]	_	_	_	_	_	_	
+24-9	1679-1693	felbedömningar	*[18]	_	_	_	_	_	_	
+24-10	1693-1694	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1696-1697	#	_	_	_	_	_	_	_	
+25-2	1697-1698	P	_	_	_	_	_	_	_	
+25-3	1699-1702	IMM	_	_	_	_	_	_	_	
+25-4	1702-1703	.	_	_	_	_	_	_	_	
+
+#Text=Genom att vi under decennier förlitat oss på att läkemedelsbolagen ska förse oss med nya antibiotika har det obehagliga resistensproblemet ständigt skyfflats under mattan.
+26-1	1705-1710	Genom	_	_	_	_	_	_	_	
+26-2	1711-1714	att	_	_	_	_	_	_	_	
+26-3	1715-1717	vi	_	_	_	_	_	_	_	
+26-4	1718-1723	under	_	_	_	_	_	_	_	
+26-5	1724-1733	decennier	_	_	_	_	_	_	_	
+26-6	1734-1742	förlitat	_	_	_	_	_	_	_	
+26-7	1743-1746	oss	_	_	_	_	_	_	_	
+26-8	1747-1749	på	_	_	_	_	_	_	_	
+26-9	1750-1753	att	_	_	_	_	_	_	_	
+26-10	1754-1771	läkemedelsbolagen	_	_	_	_	_	_	_	
+26-11	1772-1775	ska	_	_	_	_	_	_	_	
+26-12	1776-1781	förse	_	_	_	_	_	_	_	
+26-13	1782-1785	oss	_	_	_	_	_	_	_	
+26-14	1786-1789	med	_	_	_	_	_	_	_	
+26-15	1790-1793	nya	_	_	_	_	_	_	_	
+26-16	1794-1805	antibiotika	_	_	_	_	_	_	_	
+26-17	1806-1809	har	_	_	_	_	_	_	_	
+26-18	1810-1813	det	*[19]	Target[5]	26-18[19]	false[5]	1[5]	_	_	
+26-19	1814-1824	obehagliga	*[19]	Target[5]	26-18[19]	false[5]	1[5]	_	_	
+26-20	1825-1843	resistensproblemet	*[19]	Target[5]	26-18[19]	false[5]	1[5]	_	_	
+26-21	1844-1852	ständigt	_	_	_	_	_	_	_	
+26-22	1853-1862	skyfflats	_	_	_	_	_	_	_	
+26-23	1863-1868	under	_	_	_	_	_	_	_	
+26-24	1869-1875	mattan	_	_	_	_	_	_	_	
+26-25	1875-1876	.	_	_	_	_	_	_	_	
+
+#Text=Vi har inte ens i tillräcklig utsträckning förmått satsa på enkla åtgärder som basal hygien och tillräckligt antal vårdplatser för att förebygga smittspridning.
+27-1	1877-1879	Vi	_	_	_	_	_	_	_	
+27-2	1880-1883	har	_	_	_	_	_	_	_	
+27-3	1884-1888	inte	_	_	_	_	_	_	_	
+27-4	1889-1892	ens	_	_	_	_	_	_	_	
+27-5	1893-1894	i	_	_	_	_	_	_	_	
+27-6	1895-1906	tillräcklig	_	_	_	_	_	_	_	
+27-7	1907-1919	utsträckning	_	_	_	_	_	_	_	
+27-8	1920-1927	förmått	_	_	_	_	_	_	_	
+27-9	1928-1933	satsa	_	_	_	_	_	_	_	
+27-10	1934-1936	på	_	_	_	_	_	_	_	
+27-11	1937-1942	enkla	_	_	_	_	_	_	_	
+27-12	1943-1951	åtgärder	_	_	_	_	_	_	_	
+27-13	1952-1955	som	_	_	_	_	_	_	_	
+27-14	1956-1961	basal	_	_	_	_	_	_	_	
+27-15	1962-1968	hygien	_	_	_	_	_	_	_	
+27-16	1969-1972	och	_	_	_	_	_	_	_	
+27-17	1973-1985	tillräckligt	_	_	_	_	_	_	_	
+27-18	1986-1991	antal	_	_	_	_	_	_	_	
+27-19	1992-2003	vårdplatser	_	_	_	_	_	_	_	
+27-20	2004-2007	för	_	_	_	_	_	_	_	
+27-21	2008-2011	att	_	_	_	_	_	_	_	
+27-22	2012-2021	förebygga	_	_	_	_	_	_	_	
+27-23	2022-2036	smittspridning	_	_	_	_	_	_	_	
+27-24	2036-2037	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2039-2040	#	_	_	_	_	_	_	_	
+28-2	2040-2041	P	_	_	_	_	_	_	_	
+28-3	2042-2045	IMM	_	_	_	_	_	_	_	
+28-4	2045-2046	.	_	_	_	_	_	_	_	
+
+#Text=Den bistra sanningen är att inga antibiotika med nya verkningsmekanismer har upptäckts sedan 1987.
+29-1	2048-2051	Den	_	Target[6]	29-5[20]	false[6]	1[6]	_	_	
+29-2	2052-2058	bistra	_	Target[6]	29-5[20]	false[6]	1[6]	_	_	
+29-3	2059-2068	sanningen	_	Target[6]	29-5[20]	false[6]	1[6]	_	_	
+29-4	2069-2071	är	_	Target[6]	29-5[20]	false[6]	1[6]	_	_	
+29-5	2072-2075	att	*[20]	_	_	_	_	_	_	
+29-6	2076-2080	inga	*[20]	_	_	_	_	_	_	
+29-7	2081-2092	antibiotika	*[20]	_	_	_	_	_	_	
+29-8	2093-2096	med	*[20]	_	_	_	_	_	_	
+29-9	2097-2100	nya	*[20]	_	_	_	_	_	_	
+29-10	2101-2120	verkningsmekanismer	*[20]	_	_	_	_	_	_	
+29-11	2121-2124	har	*[20]	_	_	_	_	_	_	
+29-12	2125-2134	upptäckts	*[20]	_	_	_	_	_	_	
+29-13	2135-2140	sedan	*[20]	_	_	_	_	_	_	
+29-14	2141-2145	1987	*[20]	_	_	_	_	_	_	
+29-15	2145-2146	.	_	_	_	_	_	_	_	
+
+#Text=Orsaken är betydande vetenskapliga svårigheter, men även att lönsamheten för antibiotika är osäker jämfört med andra typer av läkemedel.
+30-1	2147-2154	Orsaken	_	_	_	_	_	_	_	
+30-2	2155-2157	är	_	_	_	_	_	_	_	
+30-3	2158-2167	betydande	*[21]	Target[7]	30-3[21]	false[7]	1[7]	_	_	
+30-4	2168-2181	vetenskapliga	*[21]	Target[7]	30-3[21]	false[7]	1[7]	_	_	
+30-5	2182-2193	svårigheter	*[21]	Target[7]	30-3[21]	false[7]	1[7]	_	_	
+30-6	2193-2194	,	_	_	_	_	_	_	_	
+30-7	2195-2198	men	_	_	_	_	_	_	_	
+30-8	2199-2203	även	_	_	_	_	_	_	_	
+30-9	2204-2207	att	_	_	_	_	_	_	_	
+30-10	2208-2219	lönsamheten	_	_	_	_	_	_	_	
+30-11	2220-2223	för	_	_	_	_	_	_	_	
+30-12	2224-2235	antibiotika	_	_	_	_	_	_	_	
+30-13	2236-2238	är	_	_	_	_	_	_	_	
+30-14	2239-2245	osäker	_	_	_	_	_	_	_	
+30-15	2246-2253	jämfört	_	_	_	_	_	_	_	
+30-16	2254-2257	med	_	_	_	_	_	_	_	
+30-17	2258-2263	andra	_	_	_	_	_	_	_	
+30-18	2264-2269	typer	_	_	_	_	_	_	_	
+30-19	2270-2272	av	_	_	_	_	_	_	_	
+30-20	2273-2282	läkemedel	_	_	_	_	_	_	_	
+30-21	2282-2283	.	_	_	_	_	_	_	_	
+
+#Text=Livsviktiga forskningsprogram har lagts ner och i dag finns inga nya antibiotika på horisonten för behandling av flera viktiga och allvarliga bakteriesjukdomar.
+31-1	2284-2295	Livsviktiga	_	_	_	_	_	_	_	
+31-2	2296-2313	forskningsprogram	_	_	_	_	_	_	_	
+31-3	2314-2317	har	_	_	_	_	_	_	_	
+31-4	2318-2323	lagts	_	_	_	_	_	_	_	
+31-5	2324-2327	ner	_	_	_	_	_	_	_	
+31-6	2328-2331	och	_	_	_	_	_	_	_	
+31-7	2332-2333	i	_	_	_	_	_	_	_	
+31-8	2334-2337	dag	_	_	_	_	_	_	_	
+31-9	2338-2343	finns	_	_	_	_	_	_	_	
+31-10	2344-2348	inga	_	_	_	_	_	_	_	
+31-11	2349-2352	nya	_	_	_	_	_	_	_	
+31-12	2353-2364	antibiotika	_	_	_	_	_	_	_	
+31-13	2365-2367	på	_	_	_	_	_	_	_	
+31-14	2368-2378	horisonten	_	_	_	_	_	_	_	
+31-15	2379-2382	för	_	_	_	_	_	_	_	
+31-16	2383-2393	behandling	_	_	_	_	_	_	_	
+31-17	2394-2396	av	_	_	_	_	_	_	_	
+31-18	2397-2402	flera	_	_	_	_	_	_	_	
+31-19	2403-2410	viktiga	*[22]	Target[8]	31-19[22]	false[8]	1[8]	_	_	
+31-20	2411-2414	och	*[22]	Target[8]	31-19[22]	false[8]	1[8]	_	_	
+31-21	2415-2425	allvarliga	*[22]	Target[8]	31-19[22]	false[8]	1[8]	_	_	
+31-22	2426-2443	bakteriesjukdomar	_	_	_	_	_	_	_	
+31-23	2443-2444	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2446-2447	#	_	_	_	_	_	_	_	
+32-2	2447-2448	P	_	_	_	_	_	_	_	
+32-3	2449-2452	IMM	_	_	_	_	_	_	_	
+32-4	2452-2453	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+33-1	2455-2468	Skräddarsydda	_	_	_	_	_	_	_	
+33-2	2469-2475	kurser	_	_	_	_	_	_	_	
+33-3	2476-2477	i	_	_	_	_	_	_	_	
+33-4	2478-2483	ämnen	_	_	_	_	_	_	_	
+33-5	2484-2487	som	_	_	_	_	_	_	_	
+33-6	2488-2499	intresserar	_	_	_	_	_	_	_	
+33-7	2500-2503	och	_	_	_	_	_	_	_	
+33-8	2504-2513	engagerar	_	_	_	_	_	_	_	
+33-9	2514-2518	både	_	_	_	_	_	_	_	
+33-10	2519-2524	kropp	_	_	_	_	_	_	_	
+33-11	2525-2528	och	_	_	_	_	_	_	_	
+33-12	2529-2533	själ	_	_	_	_	_	_	_	
+33-13	2533-2534	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2536-2537	#	_	_	_	_	_	_	_	
+34-2	2537-2538	P	_	_	_	_	_	_	_	
+34-3	2539-2542	IMM	_	_	_	_	_	_	_	
+34-4	2542-2543	.	_	_	_	_	_	_	_	
+
+#Text=Bristen på fungerande antibiotika drabbar barns och mödrars hälsa och får enorma konsekvenser i låginkomstländer där bakteriesjukdomar skördar miljontals liv.
+35-1	2545-2552	Bristen	_	_	_	_	_	_	_	
+35-2	2553-2555	på	_	_	_	_	_	_	_	
+35-3	2556-2566	fungerande	_	_	_	_	_	_	_	
+35-4	2567-2578	antibiotika	_	_	_	_	_	_	_	
+35-5	2579-2586	drabbar	_	_	_	_	_	_	_	
+35-6	2587-2592	barns	_	_	_	_	_	_	_	
+35-7	2593-2596	och	_	_	_	_	_	_	_	
+35-8	2597-2604	mödrars	_	_	_	_	_	_	_	
+35-9	2605-2610	hälsa	_	_	_	_	_	_	_	
+35-10	2611-2614	och	_	_	_	_	_	_	_	
+35-11	2615-2618	får	_	_	_	_	_	_	_	
+35-12	2619-2625	enorma	_	_	_	_	_	_	_	
+35-13	2626-2638	konsekvenser	_	_	_	_	_	_	_	
+35-14	2639-2640	i	_	_	_	_	_	_	_	
+35-15	2641-2657	låginkomstländer	_	_	_	_	_	_	_	
+35-16	2658-2661	där	_	_	_	_	_	_	_	
+35-17	2662-2679	bakteriesjukdomar	_	_	_	_	_	_	_	
+35-18	2680-2687	skördar	*[23]	_	_	false	1	_	_	
+35-19	2688-2698	miljontals	*[23]	_	_	_	_	_	_	
+35-20	2699-2702	liv	*[23]	Target	35-18[23]	false	1	35-18	_	
+35-21	2702-2703	.	_	_	_	_	_	_	_	
+
+#Text=När äldre antibiotika inte längre fungerar krävs nyare och ofta minst tio gånger dyrare preparat (om de över huvud taget går att uppbringa), vilket slår hårt mot redan svaga hälsosystem.
+36-1	2704-2707	När	_	_	_	_	_	_	_	
+36-2	2708-2713	äldre	_	_	_	_	_	_	_	
+36-3	2714-2725	antibiotika	_	_	_	_	_	_	_	
+36-4	2726-2730	inte	_	_	_	_	_	_	_	
+36-5	2731-2737	längre	_	_	_	_	_	_	_	
+36-6	2738-2746	fungerar	_	_	_	_	_	_	_	
+36-7	2747-2752	krävs	_	_	_	_	_	_	_	
+36-8	2753-2758	nyare	_	_	_	_	_	_	_	
+36-9	2759-2762	och	_	_	_	_	_	_	_	
+36-10	2763-2767	ofta	_	_	_	_	_	_	_	
+36-11	2768-2773	minst	_	_	_	_	_	_	_	
+36-12	2774-2777	tio	_	_	_	_	_	_	_	
+36-13	2778-2784	gånger	_	_	_	_	_	_	_	
+36-14	2785-2791	dyrare	_	_	_	_	_	_	_	
+36-15	2792-2800	preparat	_	_	_	_	_	_	_	
+36-16	2801-2802	(	_	_	_	_	_	_	_	
+36-17	2802-2804	om	_	_	_	_	_	_	_	
+36-18	2805-2807	de	_	_	_	_	_	_	_	
+36-19	2808-2812	över	_	_	_	_	_	_	_	
+36-20	2813-2818	huvud	_	_	_	_	_	_	_	
+36-21	2819-2824	taget	_	_	_	_	_	_	_	
+36-22	2825-2828	går	_	_	_	_	_	_	_	
+36-23	2829-2832	att	_	_	_	_	_	_	_	
+36-24	2833-2842	uppbringa	_	_	_	_	_	_	_	
+36-25	2842-2843	)	_	_	_	_	_	_	_	
+36-26	2843-2844	,	_	_	_	_	_	_	_	
+36-27	2845-2851	vilket	_	_	_	_	_	_	_	
+36-28	2852-2856	slår	*[24]	Source;Target[9]	36-31[25];36-28[24]	false[9]	1[9]	_	_	
+36-29	2857-2861	hårt	*[24]	Source;Target[9]	36-31[25];36-28[24]	false[9]	1[9]	_	_	
+36-30	2862-2865	mot	*[24]	Source;Target[9]	36-31[25];36-28[24]	false[9]	1[9]	_	_	
+36-31	2866-2871	redan	*[25]	_	_	_	_	_	_	
+36-32	2872-2877	svaga	*[25]	_	_	_	_	_	_	
+36-33	2878-2889	hälsosystem	*[25]	_	_	_	_	_	_	
+36-34	2889-2890	.	_	_	_	_	_	_	_	
+
+#Text=För den vanligaste sexuellt överförda infektionen i välden – gonorré, med 106 miljoner nya fall årligen – har Världshälsoorganisationen, WHO, nyligen varnat att många inte längre går att behandla på grund av resistens.
+37-1	2891-2894	För	_	_	_	_	_	_	_	
+37-2	2895-2898	den	_	_	_	_	_	_	_	
+37-3	2899-2909	vanligaste	_	_	_	_	_	_	_	
+37-4	2910-2918	sexuellt	_	_	_	_	_	_	_	
+37-5	2919-2928	överförda	_	_	_	_	_	_	_	
+37-6	2929-2940	infektionen	_	_	_	_	_	_	_	
+37-7	2941-2942	i	_	_	_	_	_	_	_	
+37-8	2943-2949	välden	_	_	_	_	_	_	_	
+37-9	2950-2951	–	_	_	_	_	_	_	_	
+37-10	2952-2959	gonorré	_	_	_	_	_	_	_	
+37-11	2959-2960	,	_	_	_	_	_	_	_	
+37-12	2961-2964	med	_	_	_	_	_	_	_	
+37-13	2965-2968	106	_	_	_	_	_	_	_	
+37-14	2969-2977	miljoner	_	_	_	_	_	_	_	
+37-15	2978-2981	nya	_	_	_	_	_	_	_	
+37-16	2982-2986	fall	_	_	_	_	_	_	_	
+37-17	2987-2994	årligen	_	_	_	_	_	_	_	
+37-18	2995-2996	–	_	_	_	_	_	_	_	
+37-19	2997-3000	har	_	_	_	_	_	_	_	
+37-20	3001-3026	Världshälsoorganisationen	_	_	_	_	_	_	_	
+37-21	3026-3027	,	_	_	_	_	_	_	_	
+37-22	3028-3031	WHO	_	_	_	_	_	_	_	
+37-23	3031-3032	,	_	_	_	_	_	_	_	
+37-24	3033-3040	nyligen	_	_	_	_	_	_	_	
+37-25	3041-3047	varnat	_	_	_	_	_	_	_	
+37-26	3048-3051	att	_	_	_	_	_	_	_	
+37-27	3052-3057	många	_	_	_	_	_	_	_	
+37-28	3058-3062	inte	_	_	_	_	_	_	_	
+37-29	3063-3069	längre	_	_	_	_	_	_	_	
+37-30	3070-3073	går	_	_	_	_	_	_	_	
+37-31	3074-3077	att	_	_	_	_	_	_	_	
+37-32	3078-3086	behandla	_	_	_	_	_	_	_	
+37-33	3087-3089	på	_	_	_	_	_	_	_	
+37-34	3090-3095	grund	_	_	_	_	_	_	_	
+37-35	3096-3098	av	_	_	_	_	_	_	_	
+37-36	3099-3108	resistens	_	_	_	_	_	_	_	
+37-37	3108-3109	.	_	_	_	_	_	_	_	
+
+#Text=Tillgången till effektiv behandling mot bakteriella infektioner måste inkluderas i den pågående processen att formulera den nya globala utvecklingsagendan.
+38-1	3110-3120	Tillgången	_	_	_	_	_	_	_	
+38-2	3121-3125	till	_	_	_	_	_	_	_	
+38-3	3126-3134	effektiv	_	_	_	_	_	_	_	
+38-4	3135-3145	behandling	_	_	_	_	_	_	_	
+38-5	3146-3149	mot	_	_	_	_	_	_	_	
+38-6	3150-3161	bakteriella	_	_	_	_	_	_	_	
+38-7	3162-3173	infektioner	_	_	_	_	_	_	_	
+38-8	3174-3179	måste	_	_	_	_	_	_	_	
+38-9	3180-3190	inkluderas	_	_	_	_	_	_	_	
+38-10	3191-3192	i	_	_	_	_	_	_	_	
+38-11	3193-3196	den	_	_	_	_	_	_	_	
+38-12	3197-3205	pågående	_	_	_	_	_	_	_	
+38-13	3206-3215	processen	_	_	_	_	_	_	_	
+38-14	3216-3219	att	_	_	_	_	_	_	_	
+38-15	3220-3229	formulera	_	_	_	_	_	_	_	
+38-16	3230-3233	den	_	_	_	_	_	_	_	
+38-17	3234-3237	nya	_	_	_	_	_	_	_	
+38-18	3238-3245	globala	_	_	_	_	_	_	_	
+38-19	3246-3264	utvecklingsagendan	_	_	_	_	_	_	_	
+38-20	3264-3265	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3267-3268	#	_	_	_	_	_	_	_	
+39-2	3268-3269	P	_	_	_	_	_	_	_	
+39-3	3270-3273	IMM	_	_	_	_	_	_	_	
+39-4	3273-3274	.	_	_	_	_	_	_	_	
+
+#Text=Ett initiativ under det svenska ordförandeskapet i EU 2009, och flera uppföljningskonferenser genomförda av det internationella nätverket ReAct, har bidragit till att ett unikt samarbete etablerats mellan EU-kommissionen och de få läkemedelsföretag som fortfarande bedriver antibiotikaforskning.
+40-1	3276-3279	Ett	_	_	_	_	_	_	_	
+40-2	3280-3289	initiativ	_	_	_	_	_	_	_	
+40-3	3290-3295	under	_	_	_	_	_	_	_	
+40-4	3296-3299	det	_	_	_	_	_	_	_	
+40-5	3300-3307	svenska	_	_	_	_	_	_	_	
+40-6	3308-3324	ordförandeskapet	_	_	_	_	_	_	_	
+40-7	3325-3326	i	_	_	_	_	_	_	_	
+40-8	3327-3329	EU	_	_	_	_	_	_	_	
+40-9	3330-3334	2009	_	_	_	_	_	_	_	
+40-10	3334-3335	,	_	_	_	_	_	_	_	
+40-11	3336-3339	och	_	_	_	_	_	_	_	
+40-12	3340-3345	flera	_	_	_	_	_	_	_	
+40-13	3346-3369	uppföljningskonferenser	_	_	_	_	_	_	_	
+40-14	3370-3380	genomförda	_	_	_	_	_	_	_	
+40-15	3381-3383	av	_	_	_	_	_	_	_	
+40-16	3384-3387	det	_	_	_	_	_	_	_	
+40-17	3388-3403	internationella	_	_	_	_	_	_	_	
+40-18	3404-3413	nätverket	_	_	_	_	_	_	_	
+40-19	3414-3419	ReAct	_	_	_	_	_	_	_	
+40-20	3419-3420	,	_	_	_	_	_	_	_	
+40-21	3421-3424	har	_	_	_	_	_	_	_	
+40-22	3425-3433	bidragit	_	_	_	_	_	_	_	
+40-23	3434-3438	till	_	_	_	_	_	_	_	
+40-24	3439-3442	att	_	_	_	_	_	_	_	
+40-25	3443-3446	ett	*[26]	_	_	_	_	_	41-1[0_26]	
+40-26	3447-3452	unikt	*[26]	_	_	_	_	_	_	
+40-27	3453-3462	samarbete	*[26]	_	_	_	_	_	_	
+40-28	3463-3473	etablerats	*[26]	_	_	_	_	_	_	
+40-29	3474-3480	mellan	*[26]	_	_	_	_	_	_	
+40-30	3481-3496	EU-kommissionen	*[26]	_	_	_	_	_	_	
+40-31	3497-3500	och	*[26]	_	_	_	_	_	_	
+40-32	3501-3503	de	*[26]	_	_	_	_	_	_	
+40-33	3504-3506	få	*[26]	_	_	_	_	_	_	
+40-34	3507-3524	läkemedelsföretag	*[26]	_	_	_	_	_	_	
+40-35	3525-3528	som	*[26]	_	_	_	_	_	_	
+40-36	3529-3540	fortfarande	*[26]	_	_	_	_	_	_	
+40-37	3541-3549	bedriver	*[26]	_	_	_	_	_	_	
+40-38	3550-3570	antibiotikaforskning	*[26]	_	_	_	_	_	_	
+40-39	3570-3571	.	_	_	_	_	_	_	_	
+
+#Text=Detta är oerhört välkommet, men överenskommelser saknas om hur de nya antibiotika som utvecklas med stöd av offentlig finansiering ska användas på ett kontrollerat sätt.
+41-1	3572-3577	Detta	*	_	_	_	_	_	_	
+41-2	3578-3580	är	_	Target[10]	41-1	false[10]	5[10]	_	_	
+41-3	3581-3588	oerhört	_	Target[10]	41-1	false[10]	5[10]	_	_	
+41-4	3589-3598	välkommet	_	Target[10]	41-1	false[10]	5[10]	_	_	
+41-5	3598-3599	,	_	_	_	_	_	_	_	
+41-6	3600-3603	men	_	_	_	_	_	_	_	
+41-7	3604-3620	överenskommelser	_	_	_	_	_	_	_	
+41-8	3621-3627	saknas	_	_	_	_	_	_	_	
+41-9	3628-3630	om	_	_	_	_	_	_	_	
+41-10	3631-3634	hur	_	_	_	_	_	_	_	
+41-11	3635-3637	de	_	_	_	_	_	_	_	
+41-12	3638-3641	nya	_	_	_	_	_	_	_	
+41-13	3642-3653	antibiotika	_	_	_	_	_	_	_	
+41-14	3654-3657	som	_	_	_	_	_	_	_	
+41-15	3658-3667	utvecklas	_	_	_	_	_	_	_	
+41-16	3668-3671	med	_	_	_	_	_	_	_	
+41-17	3672-3676	stöd	_	_	_	_	_	_	_	
+41-18	3677-3679	av	_	_	_	_	_	_	_	
+41-19	3680-3689	offentlig	_	_	_	_	_	_	_	
+41-20	3690-3702	finansiering	_	_	_	_	_	_	_	
+41-21	3703-3706	ska	_	_	_	_	_	_	_	
+41-22	3707-3715	användas	_	_	_	_	_	_	_	
+41-23	3716-3718	på	_	_	_	_	_	_	_	
+41-24	3719-3722	ett	_	_	_	_	_	_	_	
+41-25	3723-3735	kontrollerat	_	_	_	_	_	_	_	
+41-26	3736-3740	sätt	_	_	_	_	_	_	_	
+41-27	3740-3741	.	_	_	_	_	_	_	_	
+
+#Text=Ska dessa medel över huvud taget marknadsföras och säljas fritt, med risk för överanvändning och resistensutveckling?
+42-1	3742-3745	Ska	_	_	_	_	_	_	_	
+42-2	3746-3751	dessa	*[27]	_	_	_	_	_	_	
+42-3	3752-3757	medel	*[27]	_	_	_	_	_	_	
+42-4	3758-3762	över	_	_	_	_	_	_	_	
+42-5	3763-3768	huvud	_	_	_	_	_	_	_	
+42-6	3769-3774	taget	_	_	_	_	_	_	_	
+42-7	3775-3788	marknadsföras	_	_	_	_	_	_	_	
+42-8	3789-3792	och	_	_	_	_	_	_	_	
+42-9	3793-3799	säljas	_	_	_	_	_	_	_	
+42-10	3800-3805	fritt	_	_	_	_	_	_	_	
+42-11	3805-3806	,	_	_	_	_	_	_	_	
+42-12	3807-3810	med	_	Target[11]	42-2[27]	false[11]	1[11]	_	_	
+42-13	3811-3815	risk	_	Target[11]	42-2[27]	false[11]	1[11]	_	_	
+42-14	3816-3819	för	_	Target[11]	42-2[27]	false[11]	1[11]	_	_	
+42-15	3820-3834	överanvändning	_	Target[11]	42-2[27]	false[11]	1[11]	_	_	
+42-16	3835-3838	och	_	_	_	_	_	_	_	
+42-17	3839-3858	resistensutveckling	_	_	_	_	_	_	_	
+42-18	3858-3859	?	_	_	_	_	_	_	_	
+
+#Text=Andra incitament måste utvecklas för att forskare och företag ska få tillbaka sina investeringar, till exempel en förköpsmodell som redan har tillämpats på vaccinområdet genom Gavi-alliansen.
+43-1	3860-3865	Andra	_	_	_	_	_	_	_	
+43-2	3866-3876	incitament	*	Target	43-2	false	4	_	_	
+43-3	3877-3882	måste	_	_	_	_	_	_	_	
+43-4	3883-3892	utvecklas	_	_	_	_	_	_	_	
+43-5	3893-3896	för	_	_	_	_	_	_	_	
+43-6	3897-3900	att	_	_	_	_	_	_	_	
+43-7	3901-3909	forskare	_	_	_	_	_	_	_	
+43-8	3910-3913	och	_	_	_	_	_	_	_	
+43-9	3914-3921	företag	_	_	_	_	_	_	_	
+43-10	3922-3925	ska	_	_	_	_	_	_	_	
+43-11	3926-3928	få	_	_	_	_	_	_	_	
+43-12	3929-3937	tillbaka	_	_	_	_	_	_	_	
+43-13	3938-3942	sina	_	_	_	_	_	_	_	
+43-14	3943-3956	investeringar	_	_	_	_	_	_	_	
+43-15	3956-3957	,	_	_	_	_	_	_	_	
+43-16	3958-3962	till	_	_	_	_	_	_	_	
+43-17	3963-3970	exempel	_	_	_	_	_	_	_	
+43-18	3971-3973	en	_	_	_	_	_	_	_	
+43-19	3974-3987	förköpsmodell	_	_	_	_	_	_	_	
+43-20	3988-3991	som	_	_	_	_	_	_	_	
+43-21	3992-3997	redan	_	_	_	_	_	_	_	
+43-22	3998-4001	har	_	_	_	_	_	_	_	
+43-23	4002-4012	tillämpats	_	_	_	_	_	_	_	
+43-24	4013-4015	på	_	_	_	_	_	_	_	
+43-25	4016-4029	vaccinområdet	_	_	_	_	_	_	_	
+43-26	4030-4035	genom	_	_	_	_	_	_	_	
+43-27	4036-4050	Gavi-alliansen	_	_	_	_	_	_	_	
+43-28	4050-4051	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	4053-4054	#	_	_	_	_	_	_	_	
+44-2	4054-4055	P	_	_	_	_	_	_	_	
+44-3	4056-4059	IMM	_	_	_	_	_	_	_	
+44-4	4059-4060	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste också snabbt lära oss hur vi bättre använder och därmed förlänger livslängden av de antibiotika vi fortfarande har tillgång till.
+45-1	4062-4064	Vi	_	_	_	_	_	_	_	
+45-2	4065-4070	måste	_	_	_	_	_	_	_	
+45-3	4071-4076	också	_	_	_	_	_	_	_	
+45-4	4077-4083	snabbt	_	_	_	_	_	_	_	
+45-5	4084-4088	lära	_	_	_	_	_	_	_	
+45-6	4089-4092	oss	_	_	_	_	_	_	_	
+45-7	4093-4096	hur	_	_	_	_	_	_	_	
+45-8	4097-4099	vi	_	_	_	_	_	_	_	
+45-9	4100-4106	bättre	*	Target	45-9	false	4	_	_	
+45-10	4107-4115	använder	_	_	_	_	_	_	_	
+45-11	4116-4119	och	_	_	_	_	_	_	_	
+45-12	4120-4126	därmed	_	_	_	_	_	_	_	
+45-13	4127-4136	förlänger	_	_	_	_	_	_	_	
+45-14	4137-4148	livslängden	_	_	_	_	_	_	_	
+45-15	4149-4151	av	_	_	_	_	_	_	_	
+45-16	4152-4154	de	_	_	_	_	_	_	_	
+45-17	4155-4166	antibiotika	_	_	_	_	_	_	_	
+45-18	4167-4169	vi	_	_	_	_	_	_	_	
+45-19	4170-4181	fortfarande	_	_	_	_	_	_	_	
+45-20	4182-4185	har	_	_	_	_	_	_	_	
+45-21	4186-4194	tillgång	_	_	_	_	_	_	_	
+45-22	4195-4199	till	_	_	_	_	_	_	_	
+45-23	4199-4200	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4202-4203	#	_	_	_	_	_	_	_	
+46-2	4203-4204	P	_	_	_	_	_	_	_	
+46-3	4205-4208	IMM	_	_	_	_	_	_	_	
+46-4	4208-4209	.	_	_	_	_	_	_	_	
+
+#Text=Världen behöver ett nytt politiskt initiativ, till exempel en global kommission med medverkan från regeringar, bidragsgivare och ideella organisationer.
+47-1	4211-4218	Världen	_	_	_	_	_	_	_	
+47-2	4219-4226	behöver	_	_	_	_	_	_	_	
+47-3	4227-4230	ett	_	_	_	_	_	_	_	
+47-4	4231-4235	nytt	_	_	_	_	_	_	_	
+47-5	4236-4245	politiskt	_	_	_	_	_	_	_	
+47-6	4246-4255	initiativ	_	_	_	_	_	_	_	
+47-7	4255-4256	,	_	_	_	_	_	_	_	
+47-8	4257-4261	till	_	_	_	_	_	_	_	
+47-9	4262-4269	exempel	_	_	_	_	_	_	_	
+47-10	4270-4272	en	_	_	_	_	_	_	_	
+47-11	4273-4279	global	_	_	_	_	_	_	_	
+47-12	4280-4290	kommission	_	_	_	_	_	_	_	
+47-13	4291-4294	med	_	_	_	_	_	_	_	
+47-14	4295-4304	medverkan	_	_	_	_	_	_	_	
+47-15	4305-4309	från	_	_	_	_	_	_	_	
+47-16	4310-4320	regeringar	_	_	_	_	_	_	_	
+47-17	4320-4321	,	_	_	_	_	_	_	_	
+47-18	4322-4335	bidragsgivare	_	_	_	_	_	_	_	
+47-19	4336-4339	och	_	_	_	_	_	_	_	
+47-20	4340-4347	ideella	_	_	_	_	_	_	_	
+47-21	4348-4362	organisationer	_	_	_	_	_	_	_	
+47-22	4362-4363	.	_	_	_	_	_	_	_	
+
+#Text=Kommer Davosmötet att bli vändpunkten för att uppnå det starka globala ledarskap som är nödvändigt för att undvika att antibiotikaresistens blir den sista knuffen över stupet för redan överbelastade sjukvårdssystem?
+48-1	4364-4370	Kommer	_	_	_	_	_	_	_	
+48-2	4371-4381	Davosmötet	_	_	_	_	_	_	_	
+48-3	4382-4385	att	_	_	_	_	_	_	_	
+48-4	4386-4389	bli	_	_	_	_	_	_	_	
+48-5	4390-4401	vändpunkten	_	_	_	_	_	_	_	
+48-6	4402-4405	för	_	_	_	_	_	_	_	
+48-7	4406-4409	att	_	_	_	_	_	_	_	
+48-8	4410-4415	uppnå	_	_	_	_	_	_	_	
+48-9	4416-4419	det	_	_	_	_	_	_	_	
+48-10	4420-4426	starka	_	_	_	_	_	_	_	
+48-11	4427-4434	globala	_	_	_	_	_	_	_	
+48-12	4435-4444	ledarskap	_	_	_	_	_	_	_	
+48-13	4445-4448	som	_	_	_	_	_	_	_	
+48-14	4449-4451	är	_	_	_	_	_	_	_	
+48-15	4452-4462	nödvändigt	_	_	_	_	_	_	_	
+48-16	4463-4466	för	_	_	_	_	_	_	_	
+48-17	4467-4470	att	_	_	_	_	_	_	_	
+48-18	4471-4478	undvika	_	Target	48-20	false	2	_	_	
+48-19	4479-4482	att	_	_	_	_	_	_	_	
+48-20	4483-4503	antibiotikaresistens	*	_	_	_	_	_	_	
+48-21	4504-4508	blir	_	_	_	_	_	_	_	
+48-22	4509-4512	den	_	_	_	_	_	_	_	
+48-23	4513-4518	sista	_	_	_	_	_	_	_	
+48-24	4519-4526	knuffen	_	_	_	_	_	_	_	
+48-25	4527-4531	över	_	_	_	_	_	_	_	
+48-26	4532-4538	stupet	_	_	_	_	_	_	_	
+48-27	4539-4542	för	_	_	_	_	_	_	_	
+48-28	4543-4548	redan	*[28]	Target[12]	48-28[28]	false[12]	1[12]	_	_	
+48-29	4549-4562	överbelastade	*[28]	Target[12]	48-28[28]	false[12]	1[12]	_	_	
+48-30	4563-4578	sjukvårdssystem	*[28]	Target[12]	48-28[28]	false[12]	1[12]	_	_	
+48-31	4578-4579	?	_	_	_	_	_	_	_	
+
+#Text=Eller kommer man fortsätta att stoppa huvudet i sanden och lämna problemet till nästkommande generationer?.
+49-1	4580-4585	Eller	_	_	_	_	_	_	_	
+49-2	4586-4592	kommer	_	_	_	_	_	_	_	
+49-3	4593-4596	man	*	_	_	_	_	_	_	
+49-4	4597-4606	fortsätta	_	_	_	_	_	_	_	
+49-5	4607-4610	att	_	_	_	_	_	_	_	
+49-6	4611-4617	stoppa	_	Target[13]	49-3	false[13]	1[13]	_	_	
+49-7	4618-4625	huvudet	_	Target[13]	49-3	false[13]	1[13]	_	_	
+49-8	4626-4627	i	_	Target[13]	49-3	false[13]	1[13]	_	_	
+49-9	4628-4634	sanden	_	Target[13]	49-3	false[13]	1[13]	_	_	
+49-10	4635-4638	och	_	_	_	_	_	_	_	
+49-11	4639-4644	lämna	_	Target[14]	49-3	false[14]	1[14]	_	_	
+49-12	4645-4654	problemet	_	Target[14]	49-3	false[14]	1[14]	_	_	
+49-13	4655-4659	till	_	Target[14]	49-3	false[14]	1[14]	_	_	
+49-14	4660-4672	nästkommande	_	Target[14]	49-3	false[14]	1[14]	_	_	
+49-15	4673-4685	generationer	_	Target[14]	49-3	false[14]	1[14]	_	_	
+49-16	4685-4686	?	_	_	_	_	_	_	_	
+49-17	4686-4687	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4689-4690	#	_	_	_	_	_	_	_	
+50-2	4690-4691	P	_	_	_	_	_	_	_	
+50-3	4692-4695	IMM	_	_	_	_	_	_	_	
+50-4	4695-4696	.	_	_	_	_	_	_	_	
+
+#Text=OTTO CARS.
+51-1	4698-4702	OTTO	_	_	_	_	_	_	_	
+51-2	4703-4707	CARS	_	_	_	_	_	_	_	
+51-3	4707-4708	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4710-4711	#	_	_	_	_	_	_	_	
+52-2	4711-4712	P	_	_	_	_	_	_	_	
+52-3	4713-4716	IMM	_	_	_	_	_	_	_	
+52-4	4716-4717	.	_	_	_	_	_	_	_	
+
+#Text=professor i infektionssjukdomar, Uppsala Universitet, chef för det internationella nätverket ReAct – Action on Antibiotic Resistance.
+53-1	4719-4728	professor	_	_	_	_	_	_	_	
+53-2	4729-4730	i	_	_	_	_	_	_	_	
+53-3	4731-4750	infektionssjukdomar	_	_	_	_	_	_	_	
+53-4	4750-4751	,	_	_	_	_	_	_	_	
+53-5	4752-4759	Uppsala	_	_	_	_	_	_	_	
+53-6	4760-4771	Universitet	_	_	_	_	_	_	_	
+53-7	4771-4772	,	_	_	_	_	_	_	_	
+53-8	4773-4777	chef	_	_	_	_	_	_	_	
+53-9	4778-4781	för	_	_	_	_	_	_	_	
+53-10	4782-4785	det	_	_	_	_	_	_	_	
+53-11	4786-4801	internationella	_	_	_	_	_	_	_	
+53-12	4802-4811	nätverket	_	_	_	_	_	_	_	
+53-13	4812-4817	ReAct	_	_	_	_	_	_	_	
+53-14	4818-4819	–	_	_	_	_	_	_	_	
+53-15	4820-4826	Action	_	_	_	_	_	_	_	
+53-16	4827-4829	on	_	_	_	_	_	_	_	
+53-17	4830-4840	Antibiotic	_	_	_	_	_	_	_	
+53-18	4841-4851	Resistance	_	_	_	_	_	_	_	
+53-19	4851-4852	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4854-4855	#	_	_	_	_	_	_	_	
+54-2	4855-4856	P	_	_	_	_	_	_	_	
+54-3	4857-4860	IMM	_	_	_	_	_	_	_	
+54-4	4860-4861	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+55-1	4863-4871	Redaktör	_	_	_	_	_	_	_	
+55-2	4871-4872	:	_	_	_	_	_	_	_	
+55-3	4873-4879	Carina	_	_	_	_	_	_	_	
+55-4	4880-4888	Stensson	_	_	_	_	_	_	_	
+55-5	4888-4889	,	_	_	_	_	_	_	_	
+55-6	4890-4900	Biträdande	_	_	_	_	_	_	_	
+55-7	4901-4909	redaktör	_	_	_	_	_	_	_	
+55-8	4909-4910	:	_	_	_	_	_	_	_	
+55-9	4911-4916	Björn	_	_	_	_	_	_	_	
+55-10	4917-4923	Jorner	_	_	_	_	_	_	_	
+55-11	4923-4924	,	_	_	_	_	_	_	_	
+55-12	4925-4929	Mejl	_	_	_	_	_	_	_	
+55-13	4929-4930	:	_	_	_	_	_	_	_	
+55-14	4931-4937	debatt	_	_	_	_	_	_	_	
+55-15	4937-4938	@	_	_	_	_	_	_	_	
+55-16	4938-4944	svd.se	_	_	_	_	_	_	_	
+55-17	4944-4945	,	_	_	_	_	_	_	_	
+55-18	4946-4959	Telefonnummer	_	_	_	_	_	_	_	
+55-19	4959-4960	:	_	_	_	_	_	_	_	
+55-20	4961-4963	08	_	_	_	_	_	_	_	
+55-21	4963-4964	-	_	_	_	_	_	_	_	
+55-22	4964-4970	135149	_	_	_	_	_	_	_	
+55-23	4970-4971	,	_	_	_	_	_	_	_	
+55-24	4972-4979	Twitter	_	_	_	_	_	_	_	
+55-25	4979-4980	:	_	_	_	_	_	_	_	
+55-26	4981-4982	@	_	_	_	_	_	_	_	
+55-27	4982-4991	SvDDebatt	_	_	_	_	_	_	_	
+55-28	4991-4992	,	_	_	_	_	_	_	_	
+55-29	4993-5001	Facebook	_	_	_	_	_	_	_	
+55-30	5001-5002	:	_	_	_	_	_	_	_	
+55-31	5003-5006	SvD	_	_	_	_	_	_	_	
+55-32	5007-5013	Debatt	_	_	_	_	_	_	_	
+55-33	5013-5014	.	_	_	_	_	_	_	_	

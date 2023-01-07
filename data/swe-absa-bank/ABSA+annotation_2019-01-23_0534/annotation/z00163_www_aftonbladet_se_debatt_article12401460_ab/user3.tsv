@@ -1,0 +1,537 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=A-kasseavgifterna måste bli rättvisa.
+3-1	18-35	A-kasseavgifterna	*	_	_	_	_	_	
+3-2	36-41	måste	_	_	_	_	_	_	
+3-3	42-45	bli	_	Target[1]	3-1	false[1]	4[1]	_	
+3-4	46-54	rättvisa	_	Target[1]	3-1	false[1]	4[1]	_	
+3-5	54-55	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	
+
+#Text=Vi betalar över 400 kronor i månaden till a-kassan och det är de högsta avgifterna på hela arbetsmarknaden, bestämda av regering och riksdag.
+5-1	66-68	Vi	_	_	_	_	_	_	
+5-2	69-76	betalar	_	_	_	_	_	_	
+5-3	77-81	över	_	_	_	_	_	_	
+5-4	82-85	400	_	_	_	_	_	_	
+5-5	86-92	kronor	_	_	_	_	_	_	
+5-6	93-94	i	_	_	_	_	_	_	
+5-7	95-102	månaden	_	_	_	_	_	_	
+5-8	103-107	till	_	_	_	_	_	_	
+5-9	108-116	a-kassan	_	_	_	_	_	_	
+5-10	117-120	och	_	_	_	_	_	_	
+5-11	121-124	det	_	_	_	_	_	_	
+5-12	125-127	är	_	_	_	_	_	_	
+5-13	128-130	de	_	_	_	_	_	_	
+5-14	131-137	högsta	_	_	_	_	_	_	
+5-15	138-148	avgifterna	_	_	_	_	_	_	
+5-16	149-151	på	_	_	_	_	_	_	
+5-17	152-156	hela	_	_	_	_	_	_	
+5-18	157-172	arbetsmarknaden	_	_	_	_	_	_	
+5-19	172-173	,	_	_	_	_	_	_	
+5-20	174-182	bestämda	_	_	_	_	_	_	
+5-21	183-185	av	_	_	_	_	_	_	
+5-22	186-194	regering	_	_	_	_	_	_	
+5-23	195-198	och	_	_	_	_	_	_	
+5-24	199-206	riksdag	_	_	_	_	_	_	
+5-25	206-207	.	_	_	_	_	_	_	
+
+#Text=En läkare eller en civilingenjör betalar 90 kronor i månaden för sin a-kassa.
+6-1	208-210	En	_	_	_	_	_	_	
+6-2	211-217	läkare	_	_	_	_	_	_	
+6-3	218-223	eller	_	_	_	_	_	_	
+6-4	224-226	en	_	_	_	_	_	_	
+6-5	227-240	civilingenjör	_	_	_	_	_	_	
+6-6	241-248	betalar	_	_	_	_	_	_	
+6-7	249-251	90	_	_	_	_	_	_	
+6-8	252-258	kronor	_	_	_	_	_	_	
+6-9	259-260	i	_	_	_	_	_	_	
+6-10	261-268	månaden	_	_	_	_	_	_	
+6-11	269-272	för	_	_	_	_	_	_	
+6-12	273-276	sin	_	_	_	_	_	_	
+6-13	277-284	a-kassa	_	_	_	_	_	_	
+6-14	284-285	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	287-288	#	_	_	_	_	_	_	
+7-2	288-289	P	_	_	_	_	_	_	
+7-3	290-293	IMM	_	_	_	_	_	_	
+7-4	293-294	.	_	_	_	_	_	_	
+
+#Text=En läkare eller en civilingenjör tjänar rejält mycket mer än vi men behöver inte ens betala en hundralapp i månaden för sin a-kassa.
+8-1	296-298	En	_	_	_	_	_	_	
+8-2	299-305	läkare	*[7]	_	_	_	_	_	
+8-3	306-311	eller	*[7]	_	_	_	_	_	
+8-4	312-314	en	*[7]	_	_	_	_	_	
+8-5	315-328	civilingenjör	*[7]	_	_	_	_	_	
+8-6	329-335	tjänar	_	_	_	_	_	_	
+8-7	336-342	rejält	_	_	_	_	_	_	
+8-8	343-349	mycket	_	_	_	_	_	_	
+8-9	350-353	mer	_	_	_	_	_	_	
+8-10	354-356	än	_	_	_	_	_	_	
+8-11	357-359	vi	_	_	_	_	_	_	
+8-12	360-363	men	_	_	_	_	_	_	
+8-13	364-371	behöver	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-14	372-376	inte	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-15	377-380	ens	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-16	381-387	betala	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-17	388-390	en	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-18	391-401	hundralapp	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-19	402-403	i	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-20	404-411	månaden	_	Target[2]	8-2[7]	false[2]	2[2]	_	
+8-21	412-415	för	_	_	_	_	_	_	
+8-22	416-419	sin	_	_	_	_	_	_	
+8-23	420-427	a-kassa	_	_	_	_	_	_	
+8-24	427-428	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	430-431	#	_	_	_	_	_	_	
+9-2	431-432	P	_	_	_	_	_	_	
+9-3	433-436	IMM	_	_	_	_	_	_	
+9-4	436-437	.	_	_	_	_	_	_	
+
+#Text=Den här uppenbara orättvisan har regeringen motiverat med att vi som jobbar inom tillverkningsindustrin och i kultursektorn oftare blir arbetslösa.
+10-1	439-442	Den	_	_	_	_	_	_	
+10-2	443-446	här	_	_	_	_	_	_	
+10-3	447-456	uppenbara	_	_	_	_	_	_	
+10-4	457-467	orättvisan	_	_	_	_	_	_	
+10-5	468-471	har	_	_	_	_	_	_	
+10-6	472-482	regeringen	_	_	_	_	_	_	
+10-7	483-492	motiverat	_	_	_	_	_	_	
+10-8	493-496	med	_	_	_	_	_	_	
+10-9	497-500	att	_	_	_	_	_	_	
+10-10	501-503	vi	_	_	_	_	_	_	
+10-11	504-507	som	_	_	_	_	_	_	
+10-12	508-514	jobbar	_	_	_	_	_	_	
+10-13	515-519	inom	_	_	_	_	_	_	
+10-14	520-542	tillverkningsindustrin	_	_	_	_	_	_	
+10-15	543-546	och	_	_	_	_	_	_	
+10-16	547-548	i	_	_	_	_	_	_	
+10-17	549-562	kultursektorn	_	_	_	_	_	_	
+10-18	563-569	oftare	_	_	_	_	_	_	
+10-19	570-574	blir	_	_	_	_	_	_	
+10-20	575-585	arbetslösa	_	_	_	_	_	_	
+10-21	585-586	.	_	_	_	_	_	_	
+
+#Text=Ungefär lika höga avgifter till a-kassan har också de som arbetar på byggen, i restaurangbranschen och inom musiken som också har hög arbetslöshetsrisk.
+11-1	587-594	Ungefär	_	_	_	_	_	_	
+11-2	595-599	lika	_	_	_	_	_	_	
+11-3	600-604	höga	_	_	_	_	_	_	
+11-4	605-613	avgifter	_	_	_	_	_	_	
+11-5	614-618	till	_	_	_	_	_	_	
+11-6	619-627	a-kassan	_	_	_	_	_	_	
+11-7	628-631	har	_	_	_	_	_	_	
+11-8	632-637	också	_	_	_	_	_	_	
+11-9	638-640	de	_	_	_	_	_	_	
+11-10	641-644	som	_	_	_	_	_	_	
+11-11	645-652	arbetar	_	_	_	_	_	_	
+11-12	653-655	på	_	_	_	_	_	_	
+11-13	656-662	byggen	_	_	_	_	_	_	
+11-14	662-663	,	_	_	_	_	_	_	
+11-15	664-665	i	_	_	_	_	_	_	
+11-16	666-685	restaurangbranschen	_	_	_	_	_	_	
+11-17	686-689	och	_	_	_	_	_	_	
+11-18	690-694	inom	_	_	_	_	_	_	
+11-19	695-702	musiken	_	_	_	_	_	_	
+11-20	703-706	som	_	_	_	_	_	_	
+11-21	707-712	också	_	_	_	_	_	_	
+11-22	713-716	har	_	_	_	_	_	_	
+11-23	717-720	hög	_	_	_	_	_	_	
+11-24	721-738	arbetslöshetsrisk	_	_	_	_	_	_	
+11-25	738-739	.	_	_	_	_	_	_	
+
+#Text=För oss borde vår arbetslöshetsrisk vara ett motiv för att vi skulle skyddas bättre.
+12-1	740-743	För	_	_	_	_	_	_	
+12-2	744-747	oss	_	_	_	_	_	_	
+12-3	748-753	borde	_	_	_	_	_	_	
+12-4	754-757	vår	_	_	_	_	_	_	
+12-5	758-775	arbetslöshetsrisk	*	_	_	_	_	_	
+12-6	776-780	vara	_	_	_	_	_	_	
+12-7	781-784	ett	_	_	_	_	_	_	
+12-8	785-790	motiv	_	_	_	_	_	_	
+12-9	791-794	för	_	_	_	_	_	_	
+12-10	795-798	att	_	_	_	_	_	_	
+12-11	799-801	vi	_	_	_	_	_	_	
+12-12	802-808	skulle	_	Target[3]	12-5	false[3]	4[3]	_	
+12-13	809-816	skyddas	_	Target[3]	12-5	false[3]	4[3]	_	
+12-14	817-823	bättre	_	Target[3]	12-5	false[3]	4[3]	_	
+12-15	823-824	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	826-827	#	_	_	_	_	_	_	
+13-2	827-828	P	_	_	_	_	_	_	
+13-3	829-832	IMM	_	_	_	_	_	_	
+13-4	832-833	.	_	_	_	_	_	_	
+
+#Text=Den bakomliggande tanken är att vi inte ska begära för mycket lön för vårt jobb för då kommer våra branscher att drabbas av ännu högre arbetslöshet.
+14-1	835-838	Den	_	_	_	_	_	_	
+14-2	839-852	bakomliggande	_	_	_	_	_	_	
+14-3	853-859	tanken	_	_	_	_	_	_	
+14-4	860-862	är	_	_	_	_	_	_	
+14-5	863-866	att	_	_	_	_	_	_	
+14-6	867-869	vi	_	_	_	_	_	_	
+14-7	870-874	inte	_	_	_	_	_	_	
+14-8	875-878	ska	_	_	_	_	_	_	
+14-9	879-885	begära	_	_	_	_	_	_	
+14-10	886-889	för	_	_	_	_	_	_	
+14-11	890-896	mycket	_	_	_	_	_	_	
+14-12	897-900	lön	_	_	_	_	_	_	
+14-13	901-904	för	_	_	_	_	_	_	
+14-14	905-909	vårt	_	_	_	_	_	_	
+14-15	910-914	jobb	_	_	_	_	_	_	
+14-16	915-918	för	_	_	_	_	_	_	
+14-17	919-921	då	_	_	_	_	_	_	
+14-18	922-928	kommer	_	_	_	_	_	_	
+14-19	929-933	våra	_	_	_	_	_	_	
+14-20	934-943	branscher	_	_	_	_	_	_	
+14-21	944-947	att	_	_	_	_	_	_	
+14-22	948-955	drabbas	_	_	_	_	_	_	
+14-23	956-958	av	_	_	_	_	_	_	
+14-24	959-963	ännu	_	_	_	_	_	_	
+14-25	964-969	högre	_	_	_	_	_	_	
+14-26	970-982	arbetslöshet	_	_	_	_	_	_	
+14-27	982-983	.	_	_	_	_	_	_	
+
+#Text=Vi förstår inte dessa argument överhuvudtaget.
+15-1	984-986	Vi	_	_	_	_	_	_	
+15-2	987-994	förstår	_	_	_	_	_	_	
+15-3	995-999	inte	_	_	_	_	_	_	
+15-4	1000-1005	dessa	_	_	_	_	_	_	
+15-5	1006-1014	argument	_	_	_	_	_	_	
+15-6	1015-1029	överhuvudtaget	_	_	_	_	_	_	
+15-7	1029-1030	.	_	_	_	_	_	_	
+
+#Text=Vi utgår från att svenska folket behöver industrin, behöver hus, behöver restauranganställda och kulturarbetare lika väl som vi behöver läkare och civilingenjörer.
+16-1	1031-1033	Vi	*	_	_	_	_	_	
+16-2	1034-1039	utgår	_	_	_	_	_	_	
+16-3	1040-1044	från	_	_	_	_	_	_	
+16-4	1045-1048	att	_	_	_	_	_	_	
+16-5	1049-1056	svenska	*[8]	_	_	_	_	_	
+16-6	1057-1063	folket	*[8]	_	_	_	_	_	
+16-7	1064-1071	behöver	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-8	1072-1081	industrin	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-9	1081-1082	,	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-10	1083-1090	behöver	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-11	1091-1094	hus	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-12	1094-1095	,	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-13	1096-1103	behöver	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-14	1104-1123	restauranganställda	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-15	1124-1127	och	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-16	1128-1142	kulturarbetare	_	Target;Source[4]	16-5[8];16-1	false[4]	4[4]	_	
+16-17	1143-1147	lika	_	_	_	_	_	_	
+16-18	1148-1151	väl	_	_	_	_	_	_	
+16-19	1152-1155	som	_	_	_	_	_	_	
+16-20	1156-1158	vi	_	_	_	_	_	_	
+16-21	1159-1166	behöver	_	_	_	_	_	_	
+16-22	1167-1173	läkare	_	_	_	_	_	_	
+16-23	1174-1177	och	_	_	_	_	_	_	
+16-24	1178-1193	civilingenjörer	_	_	_	_	_	_	
+16-25	1193-1194	.	_	_	_	_	_	_	
+
+#Text=Varför ska vi straffas för våra yrkesval?.
+17-1	1195-1201	Varför	_	_	_	_	_	_	
+17-2	1202-1205	ska	_	_	_	false	2	_	
+17-3	1206-1208	vi	*	_	_	_	_	_	
+17-4	1209-1217	straffas	_	Target	17-3	false	2	17-2	
+17-5	1218-1221	för	_	_	_	_	_	_	
+17-6	1222-1226	våra	_	_	_	_	_	_	
+17-7	1227-1235	yrkesval	_	_	_	_	_	_	
+17-8	1235-1236	?	_	_	_	_	_	_	
+17-9	1236-1237	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1239-1240	#	_	_	_	_	_	_	
+18-2	1240-1241	P	_	_	_	_	_	_	
+18-3	1242-1245	IMM	_	_	_	_	_	_	
+18-4	1245-1246	.	_	_	_	_	_	_	
+
+#Text=Statministern har sagt att a-kasseavgifterna också fortsättningsvis ska vara olika för olika yrkesgrupper och att han gärna ser kompletterande inkomstförsäkringar.
+19-1	1248-1261	Statministern	_	_	_	_	_	_	
+19-2	1262-1265	har	_	_	_	_	_	_	
+19-3	1266-1270	sagt	_	_	_	_	_	_	
+19-4	1271-1274	att	_	_	_	_	_	_	
+19-5	1275-1292	a-kasseavgifterna	_	_	_	_	_	_	
+19-6	1293-1298	också	_	_	_	_	_	_	
+19-7	1299-1315	fortsättningsvis	_	_	_	_	_	_	
+19-8	1316-1319	ska	_	_	_	_	_	_	
+19-9	1320-1324	vara	_	_	_	_	_	_	
+19-10	1325-1330	olika	_	_	_	_	_	_	
+19-11	1331-1334	för	_	_	_	_	_	_	
+19-12	1335-1340	olika	_	_	_	_	_	_	
+19-13	1341-1353	yrkesgrupper	_	_	_	_	_	_	
+19-14	1354-1357	och	_	_	_	_	_	_	
+19-15	1358-1361	att	_	_	_	_	_	_	
+19-16	1362-1365	han	_	_	_	_	_	_	
+19-17	1366-1371	gärna	_	_	_	_	_	_	
+19-18	1372-1375	ser	_	_	_	_	_	_	
+19-19	1376-1390	kompletterande	_	_	_	_	_	_	
+19-20	1391-1410	inkomstförsäkringar	_	_	_	_	_	_	
+19-21	1410-1411	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1413-1414	#	_	_	_	_	_	_	
+20-2	1414-1415	P	_	_	_	_	_	_	
+20-3	1416-1419	IMM	_	_	_	_	_	_	
+20-4	1419-1420	.	_	_	_	_	_	_	
+
+#Text=De fackliga inkomstförsäkringarna har tillkommit som ett svar på att a-kassan urholkats till att bli en grundförsäkring på låg nivå.
+21-1	1422-1424	De	_	_	_	_	_	_	
+21-2	1425-1433	fackliga	_	_	_	_	_	_	
+21-3	1434-1455	inkomstförsäkringarna	_	_	_	_	_	_	
+21-4	1456-1459	har	_	_	_	_	_	_	
+21-5	1460-1470	tillkommit	_	_	_	_	_	_	
+21-6	1471-1474	som	_	_	_	_	_	_	
+21-7	1475-1478	ett	_	_	_	_	_	_	
+21-8	1479-1483	svar	_	_	_	_	_	_	
+21-9	1484-1486	på	_	_	_	_	_	_	
+21-10	1487-1490	att	_	_	_	_	_	_	
+21-11	1491-1499	a-kassan	*	_	_	_	_	_	
+21-12	1500-1509	urholkats	_	Target	21-11	false	2	_	
+21-13	1510-1514	till	_	_	_	_	_	_	
+21-14	1515-1518	att	_	_	_	_	_	_	
+21-15	1519-1522	bli	_	_	_	_	_	_	
+21-16	1523-1525	en	_	_	_	_	_	_	
+21-17	1526-1541	grundförsäkring	_	_	_	_	_	_	
+21-18	1542-1544	på	_	_	_	_	_	_	
+21-19	1545-1548	låg	_	_	_	_	_	_	
+21-20	1549-1553	nivå	_	_	_	_	_	_	
+21-21	1553-1554	.	_	_	_	_	_	_	
+
+#Text=Men för oss så innebär det att vi skulle få betala dubbelt för att vi arbetar i branscher som är starkt konjunkturberoende och där arbetsgivarna ställer stora krav på flexibilitet.
+22-1	1555-1558	Men	_	_	_	_	_	_	
+22-2	1559-1562	för	_	_	_	_	_	_	
+22-3	1563-1566	oss	_	_	_	_	_	_	
+22-4	1567-1569	så	_	_	_	_	_	_	
+22-5	1570-1577	innebär	_	_	_	_	_	_	
+22-6	1578-1581	det	_	_	_	_	_	_	
+22-7	1582-1585	att	_	_	_	_	_	_	
+22-8	1586-1588	vi	_	_	_	_	_	_	
+22-9	1589-1595	skulle	_	_	_	_	_	_	
+22-10	1596-1598	få	_	_	_	_	_	_	
+22-11	1599-1605	betala	_	_	_	_	_	_	
+22-12	1606-1613	dubbelt	_	_	_	_	_	_	
+22-13	1614-1617	för	_	_	_	_	_	_	
+22-14	1618-1621	att	_	_	_	_	_	_	
+22-15	1622-1624	vi	_	_	_	_	_	_	
+22-16	1625-1632	arbetar	_	_	_	_	_	_	
+22-17	1633-1634	i	_	_	_	_	_	_	
+22-18	1635-1644	branscher	_	_	_	_	_	_	
+22-19	1645-1648	som	_	_	_	_	_	_	
+22-20	1649-1651	är	_	_	_	_	_	_	
+22-21	1652-1658	starkt	_	_	_	_	_	_	
+22-22	1659-1677	konjunkturberoende	_	_	_	_	_	_	
+22-23	1678-1681	och	_	_	_	_	_	_	
+22-24	1682-1685	där	_	_	_	_	_	_	
+22-25	1686-1699	arbetsgivarna	_	_	_	_	_	_	
+22-26	1700-1707	ställer	_	_	_	_	_	_	
+22-27	1708-1713	stora	_	_	_	_	_	_	
+22-28	1714-1718	krav	_	_	_	_	_	_	
+22-29	1719-1721	på	_	_	_	_	_	_	
+22-30	1722-1734	flexibilitet	_	_	_	_	_	_	
+22-31	1734-1735	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1737-1738	#	_	_	_	_	_	_	
+23-2	1738-1739	P	_	_	_	_	_	_	
+23-3	1740-1743	IMM	_	_	_	_	_	_	
+23-4	1743-1744	.	_	_	_	_	_	_	
+
+#Text=Förutom att avgifterna i a-kassan är olika så varierar också premierna för inkomstförsäkringarna efter arbetslöshetsrisken.
+24-1	1746-1753	Förutom	_	_	_	_	_	_	
+24-2	1754-1757	att	_	_	_	_	_	_	
+24-3	1758-1768	avgifterna	_	_	_	_	_	_	
+24-4	1769-1770	i	_	_	_	_	_	_	
+24-5	1771-1779	a-kassan	_	_	_	_	_	_	
+24-6	1780-1782	är	_	_	_	_	_	_	
+24-7	1783-1788	olika	_	_	_	_	_	_	
+24-8	1789-1791	så	_	_	_	_	_	_	
+24-9	1792-1800	varierar	_	_	_	_	_	_	
+24-10	1801-1806	också	_	_	_	_	_	_	
+24-11	1807-1816	premierna	_	_	_	_	_	_	
+24-12	1817-1820	för	_	_	_	_	_	_	
+24-13	1821-1842	inkomstförsäkringarna	_	_	_	_	_	_	
+24-14	1843-1848	efter	_	_	_	_	_	_	
+24-15	1849-1868	arbetslöshetsrisken	_	_	_	_	_	_	
+24-16	1868-1869	.	_	_	_	_	_	_	
+
+#Text=Därför finns inga inkomstförsäkringar för våra yrken.
+25-1	1870-1876	Därför	_	_	_	_	_	_	
+25-2	1877-1882	finns	_	_	_	_	_	_	
+25-3	1883-1887	inga	_	_	_	_	_	_	
+25-4	1888-1907	inkomstförsäkringar	_	_	_	_	_	_	
+25-5	1908-1911	för	_	_	_	_	_	_	
+25-6	1912-1916	våra	_	_	_	_	_	_	
+25-7	1917-1922	yrken	_	_	_	_	_	_	
+25-8	1922-1923	.	_	_	_	_	_	_	
+
+#Text=Ingen i försäkringsbranschen vill försäkra oss till rimliga premier eftersom vår risk för arbetslöshet gör det för dyrt.
+26-1	1924-1929	Ingen	_	_	_	_	_	_	
+26-2	1930-1931	i	_	_	_	_	_	_	
+26-3	1932-1952	försäkringsbranschen	_	_	_	_	_	_	
+26-4	1953-1957	vill	_	_	_	_	_	_	
+26-5	1958-1966	försäkra	_	_	_	_	_	_	
+26-6	1967-1970	oss	_	_	_	_	_	_	
+26-7	1971-1975	till	_	_	_	_	_	_	
+26-8	1976-1983	rimliga	*[9]	Target[5]	26-8[9]	false[5]	4[5]	_	
+26-9	1984-1991	premier	*[9]	Target[5]	26-8[9]	false[5]	4[5]	_	
+26-10	1992-2000	eftersom	_	_	_	_	_	_	
+26-11	2001-2004	vår	_	_	_	_	_	_	
+26-12	2005-2009	risk	_	_	_	_	_	_	
+26-13	2010-2013	för	_	_	_	_	_	_	
+26-14	2014-2026	arbetslöshet	_	_	_	_	_	_	
+26-15	2027-2030	gör	_	_	_	_	_	_	
+26-16	2031-2034	det	_	_	_	_	_	_	
+26-17	2035-2038	för	_	_	_	_	_	_	
+26-18	2039-2043	dyrt	_	_	_	_	_	_	
+26-19	2043-2044	.	_	_	_	_	_	_	
+
+#Text=I praktiken blir vi därför hänvisade till den allmänna arbetslöshetsförsäkringen om vi förlorar jobbet.
+27-1	2045-2046	I	_	_	_	_	_	_	
+27-2	2047-2056	praktiken	_	_	_	_	_	_	
+27-3	2057-2061	blir	_	_	_	_	_	_	
+27-4	2062-2064	vi	_	_	_	_	_	_	
+27-5	2065-2071	därför	_	_	_	_	_	_	
+27-6	2072-2081	hänvisade	_	_	_	_	_	_	
+27-7	2082-2086	till	_	_	_	_	_	_	
+27-8	2087-2090	den	_	_	_	_	_	_	
+27-9	2091-2099	allmänna	_	_	_	_	_	_	
+27-10	2100-2125	arbetslöshetsförsäkringen	_	_	_	_	_	_	
+27-11	2126-2128	om	_	_	_	_	_	_	
+27-12	2129-2131	vi	_	_	_	_	_	_	
+27-13	2132-2140	förlorar	_	_	_	_	_	_	
+27-14	2141-2147	jobbet	_	_	_	_	_	_	
+27-15	2147-2148	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2150-2151	#	_	_	_	_	_	_	
+28-2	2151-2152	P	_	_	_	_	_	_	
+28-3	2153-2156	IMM	_	_	_	_	_	_	
+28-4	2156-2157	.	_	_	_	_	_	_	
+
+#Text=Vi vill ha besked innan valet.
+29-1	2159-2161	Vi	_	_	_	_	_	_	
+29-2	2162-2166	vill	_	_	_	_	_	_	
+29-3	2167-2169	ha	_	_	_	_	_	_	
+29-4	2170-2176	besked	_	_	_	_	_	_	
+29-5	2177-2182	innan	_	_	_	_	_	_	
+29-6	2183-2188	valet	_	_	_	_	_	_	
+29-7	2188-2189	.	_	_	_	_	_	_	
+
+#Text=Ska vi som jobbar i industrin, i restaurangbranschen, på byggen och i kultursektorn också efter valet betala extra för att vi jobbar i de yrken vi har?.
+30-1	2190-2193	Ska	_	_	_	_	_	_	
+30-2	2194-2196	vi	_	_	_	_	_	_	
+30-3	2197-2200	som	_	_	_	_	_	_	
+30-4	2201-2207	jobbar	_	_	_	_	_	_	
+30-5	2208-2209	i	_	_	_	_	_	_	
+30-6	2210-2219	industrin	_	_	_	_	_	_	
+30-7	2219-2220	,	_	_	_	_	_	_	
+30-8	2221-2222	i	_	_	_	_	_	_	
+30-9	2223-2242	restaurangbranschen	_	_	_	_	_	_	
+30-10	2242-2243	,	_	_	_	_	_	_	
+30-11	2244-2246	på	_	_	_	_	_	_	
+30-12	2247-2253	byggen	_	_	_	_	_	_	
+30-13	2254-2257	och	_	_	_	_	_	_	
+30-14	2258-2259	i	_	_	_	_	_	_	
+30-15	2260-2273	kultursektorn	_	_	_	_	_	_	
+30-16	2274-2279	också	_	_	_	_	_	_	
+30-17	2280-2285	efter	_	_	_	_	_	_	
+30-18	2286-2291	valet	_	_	_	_	_	_	
+30-19	2292-2298	betala	_	_	_	_	_	_	
+30-20	2299-2304	extra	_	_	_	_	_	_	
+30-21	2305-2308	för	_	_	_	_	_	_	
+30-22	2309-2312	att	_	_	_	_	_	_	
+30-23	2313-2315	vi	_	_	_	_	_	_	
+30-24	2316-2322	jobbar	_	_	_	_	_	_	
+30-25	2323-2324	i	_	_	_	_	_	_	
+30-26	2325-2327	de	_	_	_	_	_	_	
+30-27	2328-2333	yrken	_	_	_	_	_	_	
+30-28	2334-2336	vi	_	_	_	_	_	_	
+30-29	2337-2340	har	_	_	_	_	_	_	
+30-30	2340-2341	?	_	_	_	_	_	_	
+30-31	2341-2342	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2344-2345	#	_	_	_	_	_	_	
+31-2	2345-2346	P	_	_	_	_	_	_	
+31-3	2347-2350	IMM	_	_	_	_	_	_	
+31-4	2350-2351	.	_	_	_	_	_	_	
+
+#Text=Vi vill ha rättvisa a-kasseavgifter och en arbetslöshetsförsäkring som ger löntagare i normala inkomstlägen 80 procent av lönen när man förlorar jobbet.
+32-1	2353-2355	Vi	*	_	_	_	_	_	
+32-2	2356-2360	vill	_	Target[6]	32-1	false[6]	4[6]	_	
+32-3	2361-2363	ha	_	Target[6]	32-1	false[6]	4[6]	_	
+32-4	2364-2372	rättvisa	_	Target[6]	32-1	false[6]	4[6]	_	
+32-5	2373-2388	a-kasseavgifter	_	Target[6]	32-1	false[6]	4[6]	_	
+32-6	2389-2392	och	_	_	_	_	_	_	
+32-7	2393-2395	en	_	_	_	_	_	_	
+32-8	2396-2419	arbetslöshetsförsäkring	_	_	_	_	_	_	
+32-9	2420-2423	som	_	_	_	_	_	_	
+32-10	2424-2427	ger	_	_	_	_	_	_	
+32-11	2428-2437	löntagare	_	_	_	_	_	_	
+32-12	2438-2439	i	_	_	_	_	_	_	
+32-13	2440-2447	normala	_	_	_	_	_	_	
+32-14	2448-2460	inkomstlägen	_	_	_	_	_	_	
+32-15	2461-2463	80	_	_	_	_	_	_	
+32-16	2464-2471	procent	_	_	_	_	_	_	
+32-17	2472-2474	av	_	_	_	_	_	_	
+32-18	2475-2480	lönen	_	_	_	_	_	_	
+32-19	2481-2484	när	_	_	_	_	_	_	
+32-20	2485-2488	man	_	_	_	_	_	_	
+32-21	2489-2497	förlorar	_	_	_	_	_	_	
+32-22	2498-2504	jobbet	_	_	_	_	_	_	
+32-23	2504-2505	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2507-2508	#	_	_	_	_	_	_	
+33-2	2508-2509	P	_	_	_	_	_	_	
+33-3	2510-2513	IMM	_	_	_	_	_	_	
+33-4	2513-2514	.	_	_	_	_	_	_	
+
+#Text=Vi väntar på svar.
+34-1	2516-2518	Vi	_	_	_	_	_	_	
+34-2	2519-2525	väntar	_	_	_	_	_	_	
+34-3	2526-2528	på	_	_	_	_	_	_	
+34-4	2529-2533	svar	_	_	_	_	_	_	
+34-5	2533-2534	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2536-2537	#	_	_	_	_	_	_	
+35-2	2537-2538	P	_	_	_	_	_	_	
+35-3	2539-2542	IMM	_	_	_	_	_	_	
+35-4	2542-2543	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+36-1	2545-2550	FAKTA	_	_	_	_	_	_	
+36-2	2550-2551	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2553-2554	#	_	_	_	_	_	_	
+37-2	2554-2555	P	_	_	_	_	_	_	
+37-3	2556-2559	IMM	_	_	_	_	_	_	
+37-4	2559-2560	.	_	_	_	_	_	_	
+
+#Text=Minna KrookMikael Romell.
+38-1	2562-2567	Minna	_	_	_	_	_	_	
+38-2	2568-2579	KrookMikael	_	_	_	_	_	_	
+38-3	2580-2586	Romell	_	_	_	_	_	_	
+38-4	2586-2587	.	_	_	_	_	_	_	

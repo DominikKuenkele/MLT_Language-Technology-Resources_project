@@ -1,0 +1,731 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Polisen – visa vilka  normer som gäller.
+3-1	18-25	Polisen	_	_	_	_	_	_	_	
+3-2	26-27	–	_	_	_	_	_	_	_	
+3-3	28-32	visa	_	_	_	_	_	_	_	
+3-4	33-38	vilka	_	_	_	_	_	_	_	
+3-5	40-46	normer	_	_	_	_	_	_	_	
+3-6	47-50	som	_	_	_	_	_	_	_	
+3-7	51-57	gäller	_	_	_	_	_	_	_	
+3-8	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Polisens våldsmonopol utmanas av kriminella gäng, sharia-poliser och antidemokratisk islamistisk jihadism.
+5-1	69-77	Polisens	_	_	_	_	_	_	_	
+5-2	78-90	våldsmonopol	_	_	_	_	_	_	_	
+5-3	91-98	utmanas	_	_	_	_	_	_	_	
+5-4	99-101	av	_	_	_	_	_	_	_	
+5-5	102-112	kriminella	_	_	_	_	_	_	_	
+5-6	113-117	gäng	_	_	_	_	_	_	_	
+5-7	117-118	,	_	_	_	_	_	_	_	
+5-8	119-133	sharia-poliser	_	_	_	_	_	_	_	
+5-9	134-137	och	_	_	_	_	_	_	_	
+5-10	138-153	antidemokratisk	_	Target	5-11[16]	false	1	_	_	
+5-11	154-165	islamistisk	*[16]	_	_	_	_	_	_	
+5-12	166-174	jihadism	*[16]|*[17]	Target	5-12[17]	false	1	_	_	
+5-13	174-175	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt tilltar uttryck som pekar ut immigranter och framför allt muslimer som orsaken till allt ont och det stora nationella problemet.
+6-1	176-185	Samtidigt	_	_	_	_	_	_	_	
+6-2	186-193	tilltar	_	_	_	_	_	_	_	
+6-3	194-201	uttryck	_	_	_	_	_	_	_	
+6-4	202-205	som	_	_	_	_	_	_	_	
+6-5	206-211	pekar	_	_	_	_	_	_	_	
+6-6	212-214	ut	_	_	_	_	_	_	_	
+6-7	215-226	immigranter	_	_	_	_	_	_	_	
+6-8	227-230	och	_	_	_	_	_	_	_	
+6-9	231-238	framför	_	_	_	_	_	_	_	
+6-10	239-243	allt	_	_	_	_	_	_	_	
+6-11	244-252	muslimer	_	_	_	_	_	_	_	
+6-12	253-256	som	_	_	_	_	_	_	_	
+6-13	257-264	orsaken	_	_	_	_	_	_	_	
+6-14	265-269	till	_	_	_	_	_	_	_	
+6-15	270-274	allt	_	_	_	_	_	_	_	
+6-16	275-278	ont	_	_	_	_	_	_	_	
+6-17	279-282	och	_	_	_	_	_	_	_	
+6-18	283-286	det	_	_	_	_	_	_	_	
+6-19	287-292	stora	_	_	_	_	_	_	_	
+6-20	293-303	nationella	_	_	_	_	_	_	_	
+6-21	304-313	problemet	_	_	_	_	_	_	_	
+6-22	313-314	.	_	_	_	_	_	_	_	
+
+#Text=Under tiden slår en valhänt regering i luften med: ”kunskapshöjande aktiviteter för allmänheten och dialoger med utsatta grupper om rasism och liknande former av fientlighet på olika platser i landet.”.
+7-1	315-320	Under	_	_	_	_	_	_	_	
+7-2	321-326	tiden	_	_	_	_	_	_	_	
+7-3	327-331	slår	_	_	_	false	2	_	_	
+7-4	332-334	en	_	_	_	_	_	_	_	
+7-5	335-342	valhänt	_	_	_	false	2	7-3	_	
+7-6	343-351	regering	*	_	_	_	_	_	_	
+7-7	352-353	i	_	Target;Target[1]	7-6;7-12[18]	false[1]	2[1]	7-5[0_1]	_	
+7-8	354-360	luften	_	Target;Target[1]	7-6;7-12[18]	false[1]	2[1]	_	_	
+7-9	361-364	med	_	_	_	_	_	_	_	
+7-10	364-365	:	_	_	_	_	_	_	_	
+7-11	366-367	”	_	_	_	_	_	_	_	
+7-12	367-382	kunskapshöjande	*[18]	_	_	_	_	_	_	
+7-13	383-394	aktiviteter	*[18]	_	_	_	_	_	_	
+7-14	395-398	för	*[18]	_	_	_	_	_	_	
+7-15	399-410	allmänheten	*[18]	_	_	_	_	_	_	
+7-16	411-414	och	*[18]	_	_	_	_	_	_	
+7-17	415-423	dialoger	*[18]	_	_	_	_	_	_	
+7-18	424-427	med	*[18]	_	_	_	_	_	_	
+7-19	428-435	utsatta	*[18]	_	_	_	_	_	_	
+7-20	436-443	grupper	*[18]	_	_	_	_	_	_	
+7-21	444-446	om	*[18]	_	_	_	_	_	_	
+7-22	447-453	rasism	*[18]	_	_	_	_	_	_	
+7-23	454-457	och	*[18]	_	_	_	_	_	_	
+7-24	458-466	liknande	*[18]	_	_	_	_	_	_	
+7-25	467-473	former	*[18]	_	_	_	_	_	_	
+7-26	474-476	av	*[18]	_	_	_	_	_	_	
+7-27	477-488	fientlighet	*[18]	_	_	_	_	_	_	
+7-28	489-491	på	*[18]	_	_	_	_	_	_	
+7-29	492-497	olika	*[18]	_	_	_	_	_	_	
+7-30	498-505	platser	*[18]	_	_	_	_	_	_	
+7-31	506-507	i	*[18]	_	_	_	_	_	_	
+7-32	508-514	landet	*[18]	_	_	_	_	_	_	
+7-33	514-515	.	_	_	_	_	_	_	_	
+7-34	515-516	”	_	_	_	_	_	_	_	
+7-35	516-517	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	519-520	#	_	_	_	_	_	_	_	
+8-2	520-521	P	_	_	_	_	_	_	_	
+8-3	522-525	IMM	_	_	_	_	_	_	_	
+8-4	525-526	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen tycks inte förstå sambandet mellan otrygghet och rasistiska föreställningar.
+9-1	528-538	Regeringen	*	_	_	_	_	_	_	
+9-2	539-544	tycks	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-3	545-549	inte	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-4	550-556	förstå	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-5	557-566	sambandet	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-6	567-573	mellan	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-7	574-583	otrygghet	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-8	584-587	och	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-9	588-598	rasistiska	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-10	599-614	föreställningar	_	Target[2]	9-1	false[2]	2[2]	_	_	
+9-11	614-615	.	_	_	_	_	_	_	_	
+
+#Text=Brottsbekämpningen är nämligen inte bara en fråga om trygghet i vardagen utan också en fråga om huruvida just rasistiska föreställningar i samhället sprids och intensifieras.
+10-1	616-634	Brottsbekämpningen	_	_	_	_	_	_	_	
+10-2	635-637	är	_	_	_	_	_	_	_	
+10-3	638-646	nämligen	_	_	_	_	_	_	_	
+10-4	647-651	inte	_	_	_	_	_	_	_	
+10-5	652-656	bara	_	_	_	_	_	_	_	
+10-6	657-659	en	_	_	_	_	_	_	_	
+10-7	660-665	fråga	_	_	_	_	_	_	_	
+10-8	666-668	om	_	_	_	_	_	_	_	
+10-9	669-677	trygghet	_	_	_	_	_	_	_	
+10-10	678-679	i	_	_	_	_	_	_	_	
+10-11	680-688	vardagen	_	_	_	_	_	_	_	
+10-12	689-693	utan	_	_	_	_	_	_	_	
+10-13	694-699	också	_	_	_	_	_	_	_	
+10-14	700-702	en	_	_	_	_	_	_	_	
+10-15	703-708	fråga	_	_	_	_	_	_	_	
+10-16	709-711	om	_	_	_	_	_	_	_	
+10-17	712-720	huruvida	_	_	_	_	_	_	_	
+10-18	721-725	just	_	_	_	_	_	_	_	
+10-19	726-736	rasistiska	_	_	_	_	_	_	_	
+10-20	737-752	föreställningar	_	_	_	_	_	_	_	
+10-21	753-754	i	_	_	_	_	_	_	_	
+10-22	755-764	samhället	_	_	_	_	_	_	_	
+10-23	765-771	sprids	_	_	_	_	_	_	_	
+10-24	772-775	och	_	_	_	_	_	_	_	
+10-25	776-789	intensifieras	_	_	_	_	_	_	_	
+10-26	789-790	.	_	_	_	_	_	_	_	
+
+#Text=Om rädsla är en av faktorerna som leder till rasistiska föreställningar är sannolikt trygghet en av de faktorer som dämpar rasistiska föreställningar.
+11-1	791-793	Om	_	_	_	_	_	_	_	
+11-2	794-800	rädsla	*	_	_	_	_	_	_	
+11-3	801-803	är	_	_	_	_	_	_	_	
+11-4	804-806	en	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-5	807-809	av	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-6	810-820	faktorerna	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-7	821-824	som	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-8	825-830	leder	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-9	831-835	till	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-10	836-846	rasistiska	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-11	847-862	föreställningar	_	Target[3]	11-2	false[3]	2[3]	_	_	
+11-12	863-865	är	_	_[4]	_	false[4]	4[4]	_	_	
+11-13	866-875	sannolikt	_	_[4]	_	false[4]	4[4]	_	_	
+11-14	876-884	trygghet	*	_	_	_	_	_	_	
+11-15	885-887	en	_	Target[5]	11-14	false[5]	4[5]	11-12[4_5]	_	
+11-16	888-890	av	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-17	891-893	de	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-18	894-902	faktorer	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-19	903-906	som	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-20	907-913	dämpar	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-21	914-924	rasistiska	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-22	925-940	föreställningar	_	Target[5]	11-14	false[5]	4[5]	_	_	
+11-23	940-941	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	943-944	#	_	_	_	_	_	_	_	
+12-2	944-945	P	_	_	_	_	_	_	_	
+12-3	946-949	IMM	_	_	_	_	_	_	_	
+12-4	949-950	.	_	_	_	_	_	_	_	
+
+#Text=Våldsmonopolets vidmakthållande i det offentliga rummet sammanfaller således med nivån på rasism i landet.
+13-1	952-967	Våldsmonopolets	_	_	_	_	_	_	_	
+13-2	968-983	vidmakthållande	_	_	_	_	_	_	_	
+13-3	984-985	i	_	_	_	_	_	_	_	
+13-4	986-989	det	_	_	_	_	_	_	_	
+13-5	990-1000	offentliga	_	_	_	_	_	_	_	
+13-6	1001-1007	rummet	_	_	_	_	_	_	_	
+13-7	1008-1020	sammanfaller	_	_	_	_	_	_	_	
+13-8	1021-1028	således	_	_	_	_	_	_	_	
+13-9	1029-1032	med	_	_	_	_	_	_	_	
+13-10	1033-1038	nivån	_	_	_	_	_	_	_	
+13-11	1039-1041	på	_	_	_	_	_	_	_	
+13-12	1042-1048	rasism	_	_	_	_	_	_	_	
+13-13	1049-1050	i	_	_	_	_	_	_	_	
+13-14	1051-1057	landet	_	_	_	_	_	_	_	
+13-15	1057-1058	.	_	_	_	_	_	_	_	
+
+#Text=Ett polisiärt och institutionellt vakuum fylls naturligtvis genast ut av kriminella gäng, klanledare och självutnämnda moralpoliser.
+14-1	1059-1062	Ett	_	_	_	_	_	_	_	
+14-2	1063-1072	polisiärt	_	_	_	_	_	_	_	
+14-3	1073-1076	och	_	_	_	_	_	_	_	
+14-4	1077-1092	institutionellt	_	_	_	_	_	_	_	
+14-5	1093-1099	vakuum	_	_	_	_	_	_	_	
+14-6	1100-1105	fylls	_	_	_	_	_	_	_	
+14-7	1106-1118	naturligtvis	_	_	_	_	_	_	_	
+14-8	1119-1125	genast	_	_	_	_	_	_	_	
+14-9	1126-1128	ut	_	_	_	_	_	_	_	
+14-10	1129-1131	av	_	_	_	_	_	_	_	
+14-11	1132-1142	kriminella	_	_	_	_	_	_	_	
+14-12	1143-1147	gäng	_	_	_	_	_	_	_	
+14-13	1147-1148	,	_	_	_	_	_	_	_	
+14-14	1149-1159	klanledare	_	_	_	_	_	_	_	
+14-15	1160-1163	och	_	_	_	_	_	_	_	
+14-16	1164-1177	självutnämnda	_	_	_	_	_	_	_	
+14-17	1178-1190	moralpoliser	_	_	_	_	_	_	_	
+14-18	1190-1191	.	_	_	_	_	_	_	_	
+
+#Text=Mer behöver inte Sveriges rasister och muslimhatare för att få den bekräftelse de letar efter.
+15-1	1192-1195	Mer	_	_	_	_	_	_	_	
+15-2	1196-1203	behöver	_	_	_	_	_	_	_	
+15-3	1204-1208	inte	_	_	_	_	_	_	_	
+15-4	1209-1217	Sveriges	_	_	_	_	_	_	_	
+15-5	1218-1226	rasister	*	Target	15-5	false	1	_	_	
+15-6	1227-1230	och	_	_	_	_	_	_	_	
+15-7	1231-1243	muslimhatare	*	Target	15-7	false	1	_	_	
+15-8	1244-1247	för	_	_	_	_	_	_	_	
+15-9	1248-1251	att	_	_	_	_	_	_	_	
+15-10	1252-1254	få	_	_	_	_	_	_	_	
+15-11	1255-1258	den	_	_	_	_	_	_	_	
+15-12	1259-1270	bekräftelse	_	_	_	_	_	_	_	
+15-13	1271-1273	de	_	_	_	_	_	_	_	
+15-14	1274-1279	letar	_	_	_	_	_	_	_	
+15-15	1280-1285	efter	_	_	_	_	_	_	_	
+15-16	1285-1286	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens antirasistiska kursverksamhet blir därmed verkningslös.
+16-1	1287-1298	Regeringens	*[19]	_	_	_	_	_	_	
+16-2	1299-1313	antirasistiska	*[19]	_	_	_	_	_	_	
+16-3	1314-1328	kursverksamhet	*[19]	_	_	_	_	_	_	
+16-4	1329-1333	blir	_	_	_	false	1	_	_	
+16-5	1334-1340	därmed	_	_	_	_	_	_	_	
+16-6	1341-1353	verkningslös	_	Target	16-1[19]	false	1	16-4	_	
+16-7	1353-1354	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1356-1357	#	_	_	_	_	_	_	_	
+17-2	1357-1358	P	_	_	_	_	_	_	_	
+17-3	1359-1362	IMM	_	_	_	_	_	_	_	
+17-4	1362-1363	.	_	_	_	_	_	_	_	
+
+#Text=Om ytan Sverige ses som arenan för en pågående maktkamp mellan myndigheter och andra intressen som strider mot samhällets normerande värderingar, måste staten genom polisen dels tydliggöra vem det är som regerar på ytan.
+18-1	1365-1367	Om	_	_	_	_	_	_	_	
+18-2	1368-1372	ytan	_	_	_	_	_	_	_	
+18-3	1373-1380	Sverige	_	_	_	_	_	_	_	
+18-4	1381-1384	ses	_	_	_	_	_	_	_	
+18-5	1385-1388	som	_	_	_	_	_	_	_	
+18-6	1389-1395	arenan	_	_	_	_	_	_	_	
+18-7	1396-1399	för	_	_	_	_	_	_	_	
+18-8	1400-1402	en	_	_	_	_	_	_	_	
+18-9	1403-1411	pågående	_	_	_	_	_	_	_	
+18-10	1412-1420	maktkamp	_	_	_	_	_	_	_	
+18-11	1421-1427	mellan	_	_	_	_	_	_	_	
+18-12	1428-1439	myndigheter	_	_	_	_	_	_	_	
+18-13	1440-1443	och	_	_	_	_	_	_	_	
+18-14	1444-1449	andra	_	_	_	_	_	_	_	
+18-15	1450-1459	intressen	_	_	_	_	_	_	_	
+18-16	1460-1463	som	_	_	_	_	_	_	_	
+18-17	1464-1471	strider	_	_	_	_	_	_	_	
+18-18	1472-1475	mot	_	_	_	_	_	_	_	
+18-19	1476-1486	samhällets	_	_	_	_	_	_	_	
+18-20	1487-1497	normerande	_	_	_	_	_	_	_	
+18-21	1498-1509	värderingar	_	_	_	_	_	_	_	
+18-22	1509-1510	,	_	_	_	_	_	_	_	
+18-23	1511-1516	måste	_	_	_	_	_	_	_	
+18-24	1517-1523	staten	_	_	_	_	_	_	_	
+18-25	1524-1529	genom	_	_	_	_	_	_	_	
+18-26	1530-1537	polisen	_	_	_	_	_	_	_	
+18-27	1538-1542	dels	_	_	_	_	_	_	_	
+18-28	1543-1553	tydliggöra	_	_	_	_	_	_	_	
+18-29	1554-1557	vem	_	_	_	_	_	_	_	
+18-30	1558-1561	det	_	_	_	_	_	_	_	
+18-31	1562-1564	är	_	_	_	_	_	_	_	
+18-32	1565-1568	som	_	_	_	_	_	_	_	
+18-33	1569-1576	regerar	_	_	_	_	_	_	_	
+18-34	1577-1579	på	_	_	_	_	_	_	_	
+18-35	1580-1584	ytan	_	_	_	_	_	_	_	
+18-36	1584-1585	.	_	_	_	_	_	_	_	
+
+#Text=Dels klargöra att försök till att utmana det får ödesdigra konsekvenser för förövarna.
+19-1	1586-1590	Dels	_	_	_	_	_	_	_	
+19-2	1591-1599	klargöra	_	_	_	_	_	_	_	
+19-3	1600-1603	att	_	_	_	_	_	_	_	
+19-4	1604-1610	försök	_	_	_	_	_	_	_	
+19-5	1611-1615	till	_	_	_	_	_	_	_	
+19-6	1616-1619	att	_	_	_	_	_	_	_	
+19-7	1620-1626	utmana	_	_	_	_	_	_	_	
+19-8	1627-1630	det	_	_	_	_	_	_	_	
+19-9	1631-1634	får	_	_	_	_	_	_	_	
+19-10	1635-1644	ödesdigra	_	_	_	_	_	_	_	
+19-11	1645-1657	konsekvenser	_	_	_	_	_	_	_	
+19-12	1658-1661	för	_	_	_	_	_	_	_	
+19-13	1662-1671	förövarna	_	_	_	_	_	_	_	
+19-14	1671-1672	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1674-1675	#	_	_	_	_	_	_	_	
+20-2	1675-1676	P	_	_	_	_	_	_	_	
+20-3	1677-1680	IMM	_	_	_	_	_	_	_	
+20-4	1680-1681	.	_	_	_	_	_	_	_	
+
+#Text=Det stämmer att polisen inte kan ändra människors värderingar eller gå in i människors hem för att kontrollera hur de lever sina liv och ännu mindre styra upp alla uppfattningar och beteenden som inte överensstämmer med svenska normer.
+21-1	1683-1686	Det	_	_	_	_	_	_	_	
+21-2	1687-1694	stämmer	_	Target;Target	21-27[21];21-3[20]	false	4	_	_	
+21-3	1695-1698	att	*[20]	_	_	_	_	_	_	
+21-4	1699-1706	polisen	*[20]	_	_	_	_	_	_	
+21-5	1707-1711	inte	*[20]	_	_	_	_	_	_	
+21-6	1712-1715	kan	*[20]	_	_	_	_	_	_	
+21-7	1716-1721	ändra	*[20]	_	_	_	_	_	_	
+21-8	1722-1732	människors	*[20]	_	_	_	_	_	_	
+21-9	1733-1744	värderingar	*[20]	_	_	_	_	_	_	
+21-10	1745-1750	eller	*[20]	_	_	_	_	_	_	
+21-11	1751-1753	gå	*[20]	_	_	_	_	_	_	
+21-12	1754-1756	in	*[20]	_	_	_	_	_	_	
+21-13	1757-1758	i	*[20]	_	_	_	_	_	_	
+21-14	1759-1769	människors	*[20]	_	_	_	_	_	_	
+21-15	1770-1773	hem	*[20]	_	_	_	_	_	_	
+21-16	1774-1777	för	*[20]	_	_	_	_	_	_	
+21-17	1778-1781	att	*[20]	_	_	_	_	_	_	
+21-18	1782-1793	kontrollera	*[20]	_	_	_	_	_	_	
+21-19	1794-1797	hur	*[20]	_	_	_	_	_	_	
+21-20	1798-1800	de	*[20]	_	_	_	_	_	_	
+21-21	1801-1806	lever	*[20]	_	_	_	_	_	_	
+21-22	1807-1811	sina	*[20]	_	_	_	_	_	_	
+21-23	1812-1815	liv	*[20]	_	_	_	_	_	_	
+21-24	1816-1819	och	_	_	_	_	_	_	_	
+21-25	1820-1824	ännu	_	_	_	_	_	_	_	
+21-26	1825-1831	mindre	_	_	_	_	_	_	_	
+21-27	1832-1837	styra	*[21]	_	_	_	_	_	_	
+21-28	1838-1841	upp	*[21]	_	_	_	_	_	_	
+21-29	1842-1846	alla	*[21]	_	_	_	_	_	_	
+21-30	1847-1860	uppfattningar	*[21]	_	_	_	_	_	_	
+21-31	1861-1864	och	*[21]	_	_	_	_	_	_	
+21-32	1865-1874	beteenden	*[21]	_	_	_	_	_	_	
+21-33	1875-1878	som	*[21]	_	_	_	_	_	_	
+21-34	1879-1883	inte	*[21]	_	_	_	_	_	_	
+21-35	1884-1898	överensstämmer	*[21]	_	_	_	_	_	_	
+21-36	1899-1902	med	*[21]	_	_	_	_	_	_	
+21-37	1903-1910	svenska	*[21]	_	_	_	_	_	_	
+21-38	1911-1917	normer	*[21]	_	_	_	_	_	_	
+21-39	1917-1918	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1920-1921	#	_	_	_	_	_	_	_	
+22-2	1921-1922	P	_	_	_	_	_	_	_	
+22-3	1923-1926	IMM	_	_	_	_	_	_	_	
+22-4	1926-1927	.	_	_	_	_	_	_	_	
+
+#Text=Men regeringen signalerar genom polisens närvaro vem som kontrollerar ytan och vilka värderingar det är som gäller i hela Sverige.
+23-1	1929-1932	Men	_	_	_	_	_	_	_	
+23-2	1933-1943	regeringen	_	_	_	_	_	_	_	
+23-3	1944-1954	signalerar	_	_	_	_	_	_	_	
+23-4	1955-1960	genom	_	_	_	_	_	_	_	
+23-5	1961-1969	polisens	*[22]|*[23]	_	_	_	_	_	25-1[0_23]|24-1[0_22]	
+23-6	1970-1977	närvaro	*[22]|*[23]	_	_	_	_	_	_	
+23-7	1978-1981	vem	_	_	_	_	_	_	_	
+23-8	1982-1985	som	_	_	_	_	_	_	_	
+23-9	1986-1998	kontrollerar	_	_	_	_	_	_	_	
+23-10	1999-2003	ytan	_	_	_	_	_	_	_	
+23-11	2004-2007	och	_	_	_	_	_	_	_	
+23-12	2008-2013	vilka	_	_	_	_	_	_	_	
+23-13	2014-2025	värderingar	_	_	_	_	_	_	_	
+23-14	2026-2029	det	_	_	_	_	_	_	_	
+23-15	2030-2032	är	_	_	_	_	_	_	_	
+23-16	2033-2036	som	_	_	_	_	_	_	_	
+23-17	2037-2043	gäller	_	_	_	_	_	_	_	
+23-18	2044-2045	i	_	_	_	_	_	_	_	
+23-19	2046-2050	hela	_	_	_	_	_	_	_	
+23-20	2051-2058	Sverige	_	_	_	_	_	_	_	
+23-21	2058-2059	.	_	_	_	_	_	_	_	
+
+#Text=Den minskar sharia-polisers och kriminella gängs självsäkerhet.
+24-1	2060-2063	Den	*	_	_	_	_	_	_	
+24-2	2064-2071	minskar	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-3	2072-2087	sharia-polisers	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-4	2088-2091	och	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-5	2092-2102	kriminella	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-6	2103-2108	gängs	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-7	2109-2122	självsäkerhet	_	Target[6]	24-1	false[6]	4[6]	_	_	
+24-8	2122-2123	.	_	_	_	_	_	_	_	
+
+#Text=Den manifesterar att Sverige är ett kontraktssamhälle som skyddar alla medborgare i samma utsträckning oavsett varifrån de kommer eller var i Sverige de bor.
+25-1	2124-2127	Den	*	_	_	_	_	_	_	
+25-2	2128-2140	manifesterar	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-3	2141-2144	att	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-4	2145-2152	Sverige	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-5	2153-2155	är	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-6	2156-2159	ett	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-7	2160-2177	kontraktssamhälle	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-8	2178-2181	som	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-9	2182-2189	skyddar	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-10	2190-2194	alla	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-11	2195-2205	medborgare	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-12	2206-2207	i	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-13	2208-2213	samma	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-14	2214-2226	utsträckning	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-15	2227-2234	oavsett	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-16	2235-2243	varifrån	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-17	2244-2246	de	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-18	2247-2253	kommer	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-19	2254-2259	eller	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-20	2260-2263	var	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-21	2264-2265	i	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-22	2266-2273	Sverige	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-23	2274-2276	de	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-24	2277-2280	bor	*[24]	Target[7]	25-1	false[7]	4[7]	_	_	
+25-25	2280-2281	.	_	Target[7]	25-1	false[7]	4[7]	_	_	
+
+#Text=Det i sin tur minskar uttryck som ger främlingsfientliga och rasistiska föreställningar bekräftelse.
+26-1	2282-2285	Det	_	_	_	_	_	_	_	
+26-2	2286-2287	i	_	_	_	_	_	_	_	
+26-3	2288-2291	sin	_	_	_	_	_	_	_	
+26-4	2292-2295	tur	_	_	_	_	_	_	_	
+26-5	2296-2303	minskar	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-6	2304-2311	uttryck	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-7	2312-2315	som	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-8	2316-2319	ger	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-9	2320-2338	främlingsfientliga	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-10	2339-2342	och	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-11	2343-2353	rasistiska	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-12	2354-2369	föreställningar	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-13	2370-2381	bekräftelse	_	Target[8]	25-2[24]	false[8]	4[8]	_	_	
+26-14	2381-2382	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2384-2385	#	_	_	_	_	_	_	_	
+27-2	2385-2386	P	_	_	_	_	_	_	_	
+27-3	2387-2390	IMM	_	_	_	_	_	_	_	
+27-4	2390-2391	.	_	_	_	_	_	_	_	
+
+#Text=Naturligtvis krävs även andra åtgärder.
+28-1	2393-2405	Naturligtvis	_	Target[9]	28-4[25]	false[9]	4[9]	_	_	
+28-2	2406-2411	krävs	_	Target[9]	28-4[25]	false[9]	4[9]	_	_	
+28-3	2412-2416	även	_	Target[9]	28-4[25]	false[9]	4[9]	_	_	
+28-4	2417-2422	andra	*[25]	_	_	_	_	_	_	
+28-5	2423-2431	åtgärder	*[25]	_	_	_	_	_	_	
+28-6	2431-2432	.	_	_	_	_	_	_	_	
+
+#Text=Polisens arbete måste följas upp med fungerande skolor och myndigheter.
+29-1	2433-2441	Polisens	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-2	2442-2448	arbete	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-3	2449-2454	måste	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-4	2455-2461	följas	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-5	2462-2465	upp	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-6	2466-2469	med	_	Target[10]	29-7[26]	false[10]	4[10]	_	_	
+29-7	2470-2480	fungerande	*[26]	_	_	_	_	_	_	
+29-8	2481-2487	skolor	*[26]	_	_	_	_	_	_	
+29-9	2488-2491	och	*[26]	_	_	_	_	_	_	
+29-10	2492-2503	myndigheter	*[26]	_	_	_	_	_	_	
+29-11	2503-2504	.	_	_	_	_	_	_	_	
+
+#Text=Men på sikt visar våldsmonopolets upprätthållande att det finns tillförlitliga alternativ till klanledare, vissa religiösa aktivister eller brottslingar.
+30-1	2505-2508	Men	_	_	_	_	_	_	_	
+30-2	2509-2511	på	_	_	_	_	_	_	_	
+30-3	2512-2516	sikt	_	_	_	_	_	_	_	
+30-4	2517-2522	visar	_	_	_	_	_	_	_	
+30-5	2523-2538	våldsmonopolets	_	_	_	_	_	_	_	
+30-6	2539-2554	upprätthållande	_	_	_	_	_	_	_	
+30-7	2555-2558	att	*[27]	_	_	_	_	_	31-1[0_27]	
+30-8	2559-2562	det	*[27]	_	_	_	_	_	_	
+30-9	2563-2568	finns	*[27]	_	_	_	_	_	_	
+30-10	2569-2583	tillförlitliga	*[27]	_	_	_	_	_	_	
+30-11	2584-2594	alternativ	*[27]	_	_	_	_	_	_	
+30-12	2595-2599	till	*[27]	_	_	_	_	_	_	
+30-13	2600-2610	klanledare	*[27]	_	_	_	_	_	_	
+30-14	2610-2611	,	*[27]	_	_	_	_	_	_	
+30-15	2612-2617	vissa	*[27]	_	_	_	_	_	_	
+30-16	2618-2627	religiösa	*[27]	_	_	_	_	_	_	
+30-17	2628-2638	aktivister	*[27]	_	_	_	_	_	_	
+30-18	2639-2644	eller	*[27]	_	_	_	_	_	_	
+30-19	2645-2657	brottslingar	*[27]	_	_	_	_	_	_	
+30-20	2657-2658	.	_	_	_	_	_	_	_	
+
+#Text=Det leder till att en stabil trygghetsfaktor etableras kring vilken tillit kan byggas.
+31-1	2659-2662	Det	*	_	_	_	_	_	_	
+31-2	2663-2668	leder	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-3	2669-2673	till	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-4	2674-2677	att	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-5	2678-2680	en	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-6	2681-2687	stabil	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-7	2688-2703	trygghetsfaktor	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-8	2704-2713	etableras	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-9	2714-2719	kring	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-10	2720-2726	vilken	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-11	2727-2733	tillit	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-12	2734-2737	kan	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-13	2738-2744	byggas	_	Target[11]	31-1	false[11]	4[11]	_	_	
+31-14	2744-2745	.	_	_	_	_	_	_	_	
+
+#Text=I sin tur får det konsekvenser för hur exempelvis hederskultur utövas i olika områden.
+32-1	2746-2747	I	_	_	_	_	_	_	_	
+32-2	2748-2751	sin	_	_	_	_	_	_	_	
+32-3	2752-2755	tur	_	_	_	_	_	_	_	
+32-4	2756-2759	får	_	_	_	_	_	_	_	
+32-5	2760-2763	det	_	_	_	_	_	_	_	
+32-6	2764-2776	konsekvenser	_	_	_	_	_	_	_	
+32-7	2777-2780	för	_	_	_	_	_	_	_	
+32-8	2781-2784	hur	_	_	_	_	_	_	_	
+32-9	2785-2795	exempelvis	_	_	_	_	_	_	_	
+32-10	2796-2808	hederskultur	_	_	_	_	_	_	_	
+32-11	2809-2815	utövas	_	_	_	_	_	_	_	
+32-12	2816-2817	i	_	_	_	_	_	_	_	
+32-13	2818-2823	olika	_	_	_	_	_	_	_	
+32-14	2824-2831	områden	_	_	_	_	_	_	_	
+32-15	2831-2832	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2834-2835	#	_	_	_	_	_	_	_	
+33-2	2835-2836	P	_	_	_	_	_	_	_	
+33-3	2837-2840	IMM	_	_	_	_	_	_	_	
+33-4	2840-2841	.	_	_	_	_	_	_	_	
+
+#Text=En regering oförmögen att ge polisen mandatet den behöver för att skydda landets alla medborgare och förankra det i avskräckande strafflagstiftning, kan varken göra anspråk på att bedriva feministisk eller antirasistisk politik.
+34-1	2843-2845	En	*[28]	_	_	_	_	_	_	
+34-2	2846-2854	regering	*[28]	_	_	_	_	_	_	
+34-3	2855-2864	oförmögen	*[28]	_	_	_	_	_	_	
+34-4	2865-2868	att	*[28]	_	_	_	_	_	_	
+34-5	2869-2871	ge	*[28]	_	_	_	_	_	_	
+34-6	2872-2879	polisen	*[28]	_	_	_	_	_	_	
+34-7	2880-2888	mandatet	*[28]	_	_	_	_	_	_	
+34-8	2889-2892	den	*[28]	_	_	_	_	_	_	
+34-9	2893-2900	behöver	*[28]	_	_	_	_	_	_	
+34-10	2901-2904	för	*[28]	_	_	_	_	_	_	
+34-11	2905-2908	att	*[28]	_	_	_	_	_	_	
+34-12	2909-2915	skydda	*[28]	_	_	_	_	_	_	
+34-13	2916-2923	landets	*[28]	_	_	_	_	_	_	
+34-14	2924-2928	alla	*[28]	_	_	_	_	_	_	
+34-15	2929-2939	medborgare	*[28]	_	_	_	_	_	_	
+34-16	2940-2943	och	*[28]	_	_	_	_	_	_	
+34-17	2944-2952	förankra	*[28]	_	_	_	_	_	_	
+34-18	2953-2956	det	*[28]	_	_	_	_	_	_	
+34-19	2957-2958	i	*[28]	_	_	_	_	_	_	
+34-20	2959-2971	avskräckande	*[28]	_	_	_	_	_	_	
+34-21	2972-2990	strafflagstiftning	*[28]	_	_	_	_	_	_	
+34-22	2990-2991	,	_	_	_	_	_	_	_	
+34-23	2992-2995	kan	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-24	2996-3002	varken	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-25	3003-3007	göra	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-26	3008-3015	anspråk	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-27	3016-3018	på	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-28	3019-3022	att	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-29	3023-3030	bedriva	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-30	3031-3042	feministisk	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-31	3043-3048	eller	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-32	3049-3062	antirasistisk	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-33	3063-3070	politik	_	Target[12]	34-1[28]	false[12]	2[12]	_	_	
+34-34	3070-3071	.	_	_	_	_	_	_	_	
+
+#Text=Ty när områden i Sverige överlåts åt kriminella gäng och de mest radikala samhällsfientliga uttrycken för islam, gynnas snarare patriarkala klanstrukturer, främlingsfientliga och muslimfientliga krafter.
+35-1	3072-3074	Ty	_	_	_	_	_	_	_	
+35-2	3075-3078	när	*[29]	_	_	_	_	_	_	
+35-3	3079-3086	områden	*[29]	_	_	_	_	_	_	
+35-4	3087-3088	i	*[29]	_	_	_	_	_	_	
+35-5	3089-3096	Sverige	*[29]	_	_	_	_	_	_	
+35-6	3097-3105	överlåts	*[29]	_	_	_	_	_	_	
+35-7	3106-3108	åt	*[29]	_	_	_	_	_	_	
+35-8	3109-3119	kriminella	*[29]	_	_	_	_	_	_	
+35-9	3120-3124	gäng	*[29]	_	_	_	_	_	_	
+35-10	3125-3128	och	*[29]	_	_	_	_	_	_	
+35-11	3129-3131	de	*[29]	_	_	_	_	_	_	
+35-12	3132-3136	mest	*[29]	_	_	_	_	_	_	
+35-13	3137-3145	radikala	*[29]	_	_	_	_	_	_	
+35-14	3146-3163	samhällsfientliga	*[29]	_	_	_	_	_	_	
+35-15	3164-3173	uttrycken	*[29]	_	_	_	_	_	_	
+35-16	3174-3177	för	*[29]	_	_	_	_	_	_	
+35-17	3178-3183	islam	*[29]	_	_	_	_	_	_	
+35-18	3183-3184	,	_	_	_	_	_	_	_	
+35-19	3185-3191	gynnas	_	Target	35-2[29]	false	2	35-21[13_0]	_	
+35-20	3192-3199	snarare	_	_	_	_	_	_	_	
+35-21	3200-3211	patriarkala	_	_[13]	_	false[13]	2[13]	_	_	
+35-22	3212-3226	klanstrukturer	_	_[13]	_	false[13]	2[13]	_	_	
+35-23	3226-3227	,	_	_[13]	_	false[13]	2[13]	_	_	
+35-24	3228-3246	främlingsfientliga	_	_[13]	_	false[13]	2[13]	_	_	
+35-25	3247-3250	och	_	_[13]	_	false[13]	2[13]	_	_	
+35-26	3251-3266	muslimfientliga	_	_[13]	_	false[13]	2[13]	_	_	
+35-27	3267-3274	krafter	_	_[13]	_	false[13]	2[13]	_	_	
+35-28	3274-3275	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3277-3278	#	_	_	_	_	_	_	_	
+36-2	3278-3279	P	_	_	_	_	_	_	_	
+36-3	3280-3283	IMM	_	_	_	_	_	_	_	
+36-4	3283-3284	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är inte en högervänsterfråga.
+37-1	3286-3295	Problemet	_	_	_	_	_	_	_	
+37-2	3296-3298	är	_	_	_	_	_	_	_	
+37-3	3299-3303	inte	_	_	_	_	_	_	_	
+37-4	3304-3306	en	_	_	_	_	_	_	_	
+37-5	3307-3324	högervänsterfråga	_	_	_	_	_	_	_	
+37-6	3324-3325	.	_	_	_	_	_	_	_	
+
+#Text=Det är en fråga om sunt förnuft.
+38-1	3326-3329	Det	_	_	_	_	_	_	_	
+38-2	3330-3332	är	_	_	_	_	_	_	_	
+38-3	3333-3335	en	_	_	_	_	_	_	_	
+38-4	3336-3341	fråga	_	_	_	_	_	_	_	
+38-5	3342-3344	om	_	_	_	_	_	_	_	
+38-6	3345-3349	sunt	_	_	_	_	_	_	_	
+38-7	3350-3357	förnuft	_	_	_	_	_	_	_	
+38-8	3357-3358	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen måste inse att informationsarbete om religion, rasism och muslimfientlighet blir verkningslöst om inte våldsmonopolet upprätthålls och odemokratiska samhällsfientliga krafter bekämpas.
+39-1	3359-3369	Regeringen	_	_	_	_	_	_	_	
+39-2	3370-3375	måste	_	_	_	_	_	_	_	
+39-3	3376-3380	inse	_	_	_	_	_	_	_	
+39-4	3381-3384	att	_	_	_	_	_	_	_	
+39-5	3385-3403	informationsarbete	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-6	3404-3406	om	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-7	3407-3415	religion	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-8	3415-3416	,	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-9	3417-3423	rasism	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-10	3424-3427	och	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-11	3428-3445	muslimfientlighet	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-12	3446-3450	blir	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-13	3451-3464	verkningslöst	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-14	3465-3467	om	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-15	3468-3472	inte	_	Target[14]	39-16[30]	false[14]	4[14]	_	_	
+39-16	3473-3487	våldsmonopolet	*[30]	_	_	_	_	_	_	
+39-17	3488-3500	upprätthålls	*[30]	_	_	_	_	_	_	
+39-18	3501-3504	och	*[30]	_	_	_	_	_	_	
+39-19	3505-3518	odemokratiska	*[30]	_	_	_	_	_	_	
+39-20	3519-3536	samhällsfientliga	*[30]	_	_	_	_	_	_	
+39-21	3537-3544	krafter	*[30]	_	_	_	_	_	_	
+39-22	3545-3553	bekämpas	*[30]	_	_	_	_	_	_	
+39-23	3553-3554	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3556-3557	#	_	_	_	_	_	_	_	
+40-2	3557-3558	P	_	_	_	_	_	_	_	
+40-3	3559-3562	IMM	_	_	_	_	_	_	_	
+40-4	3562-3563	.	_	_	_	_	_	_	_	
+
+#Text=Om våld krävs för att uppnå målet är det mycket olyckligt men det är ingen katastrof.
+41-1	3565-3567	Om	*[31]	_	_	_	_	_	_	
+41-2	3568-3572	våld	*[31]	_	_	_	_	_	_	
+41-3	3573-3578	krävs	*[31]	_	_	_	_	_	_	
+41-4	3579-3582	för	*[31]	_	_	_	_	_	_	
+41-5	3583-3586	att	*[31]	_	_	_	_	_	_	
+41-6	3587-3592	uppnå	*[31]	_	_	_	_	_	_	
+41-7	3593-3598	målet	*[31]	_	_	_	_	_	_	
+41-8	3599-3601	är	_	Target	41-1[31]	false	2	_	_	
+41-9	3602-3605	det	_	_	_	_	_	_	_	
+41-10	3606-3612	mycket	_	_[15]	_	false[15]	2[15]	41-8[0_15]	_	
+41-11	3613-3622	olyckligt	_	_[15]	_	false[15]	2[15]	_	_	
+41-12	3623-3626	men	_	_[15]	_	false[15]	2[15]	_	_	
+41-13	3627-3630	det	_	_[15]	_	false[15]	2[15]	_	_	
+41-14	3631-3633	är	_	_[15]	_	false[15]	2[15]	_	_	
+41-15	3634-3639	ingen	_	_[15]	_	false[15]	2[15]	_	_	
+41-16	3640-3649	katastrof	_	_[15]	_	false[15]	2[15]	_	_	
+41-17	3649-3650	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3652-3653	#	_	_	_	_	_	_	_	
+42-2	3653-3654	P	_	_	_	_	_	_	_	
+42-3	3655-3658	IMM	_	_	_	_	_	_	_	
+42-4	3658-3659	.	_	_	_	_	_	_	_	
+
+#Text=Eli Göndör.
+43-1	3661-3664	Eli	_	_	_	_	_	_	_	
+43-2	3665-3671	Göndör	_	_	_	_	_	_	_	
+43-3	3671-3672	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3674-3675	#	_	_	_	_	_	_	_	
+44-2	3675-3676	P	_	_	_	_	_	_	_	
+44-3	3677-3680	IMM	_	_	_	_	_	_	_	
+44-4	3680-3681	.	_	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+45-1	3683-3687	Häng	_	_	_	_	_	_	_	
+45-2	3688-3691	med	_	_	_	_	_	_	_	
+45-3	3692-3693	i	_	_	_	_	_	_	_	
+45-4	3694-3702	debatten	_	_	_	_	_	_	_	
+45-5	3703-3706	och	_	_	_	_	_	_	_	
+45-6	3707-3717	kommentera	_	_	_	_	_	_	_	
+45-7	3718-3726	artikeln	_	_	_	_	_	_	_	
+45-8	3727-3728	–	_	_	_	_	_	_	_	
+45-9	3729-3733	följ	_	_	_	_	_	_	_	
+45-10	3735-3741	Debatt	_	_	_	_	_	_	_	
+45-11	3742-3744	på	_	_	_	_	_	_	_	
+45-12	3745-3753	Facebook	_	_	_	_	_	_	_	
+45-13	3753-3754	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3756-3757	#	_	_	_	_	_	_	_	
+46-2	3757-3758	P	_	_	_	_	_	_	_	
+46-3	3759-3762	IMM	_	_	_	_	_	_	_	
+46-4	3762-3763	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+47-1	3765-3770	FAKTA	_	_	_	_	_	_	_	
+47-2	3770-3771	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3773-3774	#	_	_	_	_	_	_	_	
+48-2	3774-3775	P	_	_	_	_	_	_	_	
+48-3	3776-3779	IMM	_	_	_	_	_	_	_	
+48-4	3779-3780	.	_	_	_	_	_	_	_	
+
+#Text=REN.
+49-1	3782-3785	REN	_	_	_	_	_	_	_	
+49-2	3785-3786	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3788-3789	#	_	_	_	_	_	_	_	
+50-2	3789-3790	P	_	_	_	_	_	_	_	
+50-3	3791-3794	IMM	_	_	_	_	_	_	_	
+50-4	3794-3795	.	_	_	_	_	_	_	_	
+
+#Text=N.
+51-1	3797-3798	N	_	_	_	_	_	_	_	
+51-2	3798-3799	.	_	_	_	_	_	_	_	

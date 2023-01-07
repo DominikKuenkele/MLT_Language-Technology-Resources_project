@@ -1,0 +1,798 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Inrätta ett råd för innovationspolitik.
+3-1	18-25	Inrätta	_	_	_	_	_	_	_	
+3-2	26-29	ett	_	_	_	_	_	_	_	
+3-3	30-33	råd	_	_	_	_	_	_	_	
+3-4	34-37	för	_	_	_	_	_	_	_	
+3-5	38-56	innovationspolitik	_	_	_	_	_	_	_	
+3-6	56-57	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	_	
+
+#Text=Näringspolitik (och industripolitik) förknippas ofta med stöd till gamla och döende sektorer.
+5-1	68-82	Näringspolitik	*[14]	_	_	_	_	_	_	
+5-2	83-84	(	*[14]	_	_	_	_	_	_	
+5-3	84-87	och	*[14]	_	_	_	_	_	_	
+5-4	88-103	industripolitik	*[14]	_	_	_	_	_	_	
+5-5	103-104	)	*[14]	_	_	_	_	_	_	
+5-6	105-115	förknippas	_	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-7	116-120	ofta	_	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-8	121-124	med	_	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-9	125-129	stöd	_	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-10	130-134	till	_	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-11	135-140	gamla	_	Target[1]|Target[2]	5-1[14]|5-14	false[1]|false[2]	2[1]|1[2]	_	_	
+5-12	141-144	och	_	Target[1]|Target[2]	5-1[14]|5-14	false[1]|false[2]	2[1]|1[2]	_	_	
+5-13	145-151	döende	_	Target[1]|Target[2]	5-1[14]|5-14	false[1]|false[2]	2[1]|1[2]	_	_	
+5-14	152-160	sektorer	*	Target[1]	5-1[14]	false[1]	2[1]	_	_	
+5-15	160-161	.	_	_	_	_	_	_	_	
+
+#Text=Men vi vet att innovationer i tidiga stadier är förbundna med så stora risker och så stor osäkerhet att de privata aktörerna ofta skyggar – både i USA och i Sverige.
+6-1	162-165	Men	_	_	_	_	_	_	_	
+6-2	166-168	vi	_	_	_	_	_	_	_	
+6-3	169-172	vet	_	_	_	_	_	_	_	
+6-4	173-176	att	_	_	_	_	_	_	_	
+6-5	177-189	innovationer	*[15]	_	_	_	_	_	_	
+6-6	190-191	i	*[15]	_	_	_	_	_	_	
+6-7	192-198	tidiga	*[15]	_	_	_	_	_	_	
+6-8	199-206	stadier	*[15]	_	_	_	_	_	_	
+6-9	207-209	är	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-10	210-219	förbundna	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-11	220-223	med	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-12	224-226	så	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-13	227-232	stora	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-14	233-239	risker	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-15	240-243	och	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-16	244-246	så	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-17	247-251	stor	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-18	252-261	osäkerhet	_	Target[3]	6-5[15]	false[3]	2[3]	_	_	
+6-19	262-265	att	_	_	_	_	_	_	_	
+6-20	266-268	de	_	_	_	_	_	_	_	
+6-21	269-276	privata	_	_	_	_	_	_	_	
+6-22	277-286	aktörerna	_	_	_	_	_	_	_	
+6-23	287-291	ofta	_	_	_	_	_	_	_	
+6-24	292-299	skyggar	_	_	_	_	_	_	_	
+6-25	300-301	–	_	_	_	_	_	_	_	
+6-26	302-306	både	_	_	_	_	_	_	_	
+6-27	307-308	i	_	_	_	_	_	_	_	
+6-28	309-312	USA	_	_	_	_	_	_	_	
+6-29	313-316	och	_	_	_	_	_	_	_	
+6-30	317-318	i	_	_	_	_	_	_	_	
+6-31	319-326	Sverige	_	_	_	_	_	_	_	
+6-32	326-327	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	329-330	#	_	_	_	_	_	_	_	
+7-2	330-331	P	_	_	_	_	_	_	_	
+7-3	332-335	IMM	_	_	_	_	_	_	_	
+7-4	335-336	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+8-1	338-341	Det	_	_	_	_	_	_	_	
+8-2	342-345	här	_	_	_	_	_	_	_	
+8-3	346-348	är	_	_	_	_	_	_	_	
+8-4	349-351	en	_	_	_	_	_	_	_	
+8-5	352-366	argumenterande	_	_	_	_	_	_	_	
+8-6	367-371	text	_	_	_	_	_	_	_	
+8-7	372-375	med	_	_	_	_	_	_	_	
+8-8	376-381	syfte	_	_	_	_	_	_	_	
+8-9	382-385	att	_	_	_	_	_	_	_	
+8-10	386-393	påverka	_	_	_	_	_	_	_	
+8-11	393-394	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+9-1	395-404	Åsikterna	_	_	_	_	_	_	_	
+9-2	405-408	som	_	_	_	_	_	_	_	
+9-3	409-417	uttrycks	_	_	_	_	_	_	_	
+9-4	418-420	är	_	_	_	_	_	_	_	
+9-5	421-432	skribentens	_	_	_	_	_	_	_	
+9-6	433-437	egna	_	_	_	_	_	_	_	
+9-7	437-438	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	440-441	#	_	_	_	_	_	_	_	
+10-2	441-442	P	_	_	_	_	_	_	_	
+10-3	443-446	IMM	_	_	_	_	_	_	_	
+10-4	446-447	.	_	_	_	_	_	_	_	
+
+#Text=På 1970-talet talades det om "näringspolitisk offensiv" och nu har vi ett näringsdepartement.
+11-1	449-451	På	_	_	_	_	_	_	_	
+11-2	452-456	1970	_	_	_	_	_	_	_	
+11-3	456-457	-	_	_	_	_	_	_	_	
+11-4	457-462	talet	_	_	_	_	_	_	_	
+11-5	463-470	talades	_	_	_	_	_	_	_	
+11-6	471-474	det	_	_	_	_	_	_	_	
+11-7	475-477	om	_	_	_	_	_	_	_	
+11-8	478-479	"	_	_	_	_	_	_	_	
+11-9	479-494	näringspolitisk	_	_	_	_	_	_	_	
+11-10	495-503	offensiv	_	_	_	_	_	_	_	
+11-11	503-504	"	_	_	_	_	_	_	_	
+11-12	505-508	och	_	_	_	_	_	_	_	
+11-13	509-511	nu	_	_	_	_	_	_	_	
+11-14	512-515	har	_	_	_	_	_	_	_	
+11-15	516-518	vi	_	_	_	_	_	_	_	
+11-16	519-522	ett	_	_	_	_	_	_	_	
+11-17	523-541	näringsdepartement	_	_	_	_	_	_	_	
+11-18	541-542	.	_	_	_	_	_	_	_	
+
+#Text=Men gamla branscher och etablerade verksamheter ska inte behöva stöd av offentliga insatser.
+12-1	543-546	Men	_	_	_	_	_	_	_	
+12-2	547-552	gamla	_	_	_	_	_	_	_	
+12-3	553-562	branscher	_	_	_	_	_	_	_	
+12-4	563-566	och	_	_	_	_	_	_	_	
+12-5	567-577	etablerade	_	_	_	_	_	_	_	
+12-6	578-590	verksamheter	_	_	_	_	_	_	_	
+12-7	591-594	ska	_	_	_	_	_	_	_	
+12-8	595-599	inte	_	_	_	_	_	_	_	
+12-9	600-606	behöva	_	_	_	_	_	_	_	
+12-10	607-611	stöd	_	_	_	_	_	_	_	
+12-11	612-614	av	_	_	_	_	_	_	_	
+12-12	615-625	offentliga	_	_	_	_	_	_	_	
+12-13	626-634	insatser	_	_	_	_	_	_	_	
+12-14	634-635	.	_	_	_	_	_	_	_	
+
+#Text=Politiken ska inriktas på att hjälpa fram det nya – innovationer.
+13-1	636-645	Politiken	_	_	_	_	_	_	_	
+13-2	646-649	ska	_	_	_	_	_	_	_	
+13-3	650-658	inriktas	_	_	_	_	_	_	_	
+13-4	659-661	på	_	_	_	_	_	_	_	
+13-5	662-665	att	_	_	_	_	_	_	_	
+13-6	666-672	hjälpa	_	_	_	_	_	_	_	
+13-7	673-677	fram	_	_	_	_	_	_	_	
+13-8	678-681	det	_	_	_	_	_	_	_	
+13-9	682-685	nya	_	_	_	_	_	_	_	
+13-10	686-687	–	_	_	_	_	_	_	_	
+13-11	688-700	innovationer	_	_	_	_	_	_	_	
+13-12	700-701	.	_	_	_	_	_	_	_	
+
+#Text=Låt oss därför huvudsakligen tala om innovationspolitik i stället för näringspolitik.
+14-1	702-705	Låt	*[16]	_	_	_	_	_	15-1[0_16]	
+14-2	706-709	oss	*[16]	_	_	_	_	_	_	
+14-3	710-716	därför	*[16]	_	_	_	_	_	_	
+14-4	717-730	huvudsakligen	*[16]	_	_	_	_	_	_	
+14-5	731-735	tala	*[16]	_	_	_	_	_	_	
+14-6	736-738	om	*[16]	_	_	_	_	_	_	
+14-7	739-757	innovationspolitik	*[16]	_	_	_	_	_	_	
+14-8	758-759	i	*[16]	_	_	_	_	_	_	
+14-9	760-767	stället	*[16]	_	_	_	_	_	_	
+14-10	768-771	för	*[16]	_	_	_	_	_	_	
+14-11	772-786	näringspolitik	*[16]	_	_	_	_	_	_	
+14-12	786-787	.	_	_	_	_	_	_	_	
+
+#Text=Det måste vara vägen framåt för Sverige.
+15-1	788-791	Det	*	_	_	_	_	_	_	
+15-2	792-797	måste	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-3	798-802	vara	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-4	803-808	vägen	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-5	809-815	framåt	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-6	816-819	för	_	_	_	_	_	_	_	
+15-7	820-827	Sverige	_	_	_	_	_	_	_	
+15-8	827-828	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	830-831	#	_	_	_	_	_	_	_	
+16-2	831-832	P	_	_	_	_	_	_	_	
+16-3	833-836	IMM	_	_	_	_	_	_	_	
+16-4	836-837	.	_	_	_	_	_	_	_	
+
+#Text=Politiken behövs förvisso, men den får inte ersätta eller dubblera vad privata aktörer kan göra.
+17-1	839-848	Politiken	_	_	_	_	_	_	_	
+17-2	849-855	behövs	_	_	_	_	_	_	_	
+17-3	856-864	förvisso	_	_	_	_	_	_	_	
+17-4	864-865	,	_	_	_	_	_	_	_	
+17-5	866-869	men	_	_	_	_	_	_	_	
+17-6	870-873	den	_	_	_	_	_	_	_	
+17-7	874-877	får	_	_	_	_	_	_	_	
+17-8	878-882	inte	_	_	_	_	_	_	_	
+17-9	883-890	ersätta	_	_	_	_	_	_	_	
+17-10	891-896	eller	_	_	_	_	_	_	_	
+17-11	897-905	dubblera	_	_	_	_	_	_	_	
+17-12	906-909	vad	_	_	_	_	_	_	_	
+17-13	910-917	privata	_	_	_	_	_	_	_	
+17-14	918-925	aktörer	_	_	_	_	_	_	_	
+17-15	926-929	kan	_	_	_	_	_	_	_	
+17-16	930-934	göra	_	_	_	_	_	_	_	
+17-17	934-935	.	_	_	_	_	_	_	_	
+
+#Text=Offentliga insatser ska bidra till att lösaproblem som marknadens aktörer inte klarar.
+18-1	936-946	Offentliga	_	_	_	_	_	_	_	
+18-2	947-955	insatser	_	_	_	_	_	_	_	
+18-3	956-959	ska	_	_	_	_	_	_	_	
+18-4	960-965	bidra	_	_	_	_	_	_	_	
+18-5	966-970	till	_	_	_	_	_	_	_	
+18-6	971-974	att	_	_	_	_	_	_	_	
+18-7	975-986	lösaproblem	_	_	_	_	_	_	_	
+18-8	987-990	som	_	_	_	_	_	_	_	
+18-9	991-1001	marknadens	_	_	_	_	_	_	_	
+18-10	1002-1009	aktörer	_	_	_	_	_	_	_	
+18-11	1010-1014	inte	_	_	_	_	_	_	_	
+18-12	1015-1021	klarar	_	_	_	_	_	_	_	
+18-13	1021-1022	.	_	_	_	_	_	_	_	
+
+#Text=Att producera och vidareutveckla gamla produkter är de etablerade företagens uppgift.
+19-1	1023-1026	Att	_	_	_	_	_	_	_	
+19-2	1027-1036	producera	_	_	_	_	_	_	_	
+19-3	1037-1040	och	_	_	_	_	_	_	_	
+19-4	1041-1055	vidareutveckla	_	_	_	_	_	_	_	
+19-5	1056-1061	gamla	_	_	_	_	_	_	_	
+19-6	1062-1071	produkter	_	_	_	_	_	_	_	
+19-7	1072-1074	är	_	_	_	_	_	_	_	
+19-8	1075-1077	de	_	_	_	_	_	_	_	
+19-9	1078-1088	etablerade	_	_	_	_	_	_	_	
+19-10	1089-1099	företagens	_	_	_	_	_	_	_	
+19-11	1100-1107	uppgift	_	_	_	_	_	_	_	
+19-12	1107-1108	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1110-1111	#	_	_	_	_	_	_	_	
+20-2	1111-1112	P	_	_	_	_	_	_	_	
+20-3	1113-1116	IMM	_	_	_	_	_	_	_	
+20-4	1116-1117	.	_	_	_	_	_	_	_	
+
+#Text=Näringspolitik (och industripolitik) förknippas ofta med stöd till gamla och döende sektorer.
+21-1	1119-1133	Näringspolitik	*[17]	_	_	_	_	_	_	
+21-2	1134-1135	(	*[17]	_	_	_	_	_	_	
+21-3	1135-1138	och	*[17]	_	_	_	_	_	_	
+21-4	1139-1154	industripolitik	*[17]	_	_	_	_	_	_	
+21-5	1154-1155	)	*[17]	_	_	_	_	_	_	
+21-6	1156-1166	förknippas	_	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-7	1167-1171	ofta	_	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-8	1172-1175	med	_	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-9	1176-1180	stöd	_	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-10	1181-1185	till	_	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-11	1186-1191	gamla	_	Target[5]|Target[6]	21-1[17]|21-14	false[5]|false[6]	2[5]|2[6]	_	_	
+21-12	1192-1195	och	_	Target[5]|Target[6]	21-1[17]|21-14	false[5]|false[6]	2[5]|2[6]	_	_	
+21-13	1196-1202	döende	_	Target[5]|Target[6]	21-1[17]|21-14	false[5]|false[6]	2[5]|2[6]	_	_	
+21-14	1203-1211	sektorer	*	Target[5]	21-1[17]	false[5]	2[5]	_	_	
+21-15	1211-1212	.	_	_	_	_	_	_	_	
+
+#Text=Men vi vet att innovationer i tidiga stadier är förbundna med så stora risker och så stor osäkerhet att de privata aktörerna ofta skyggar – både i USA och i Sverige.
+22-1	1213-1216	Men	_	_	_	_	_	_	_	
+22-2	1217-1219	vi	_	_	_	_	_	_	_	
+22-3	1220-1223	vet	_	_	_	_	_	_	_	
+22-4	1224-1227	att	_	_	_	_	_	_	_	
+22-5	1228-1240	innovationer	*[18]	_	_	_	_	_	_	
+22-6	1241-1242	i	*[18]	_	_	_	_	_	_	
+22-7	1243-1249	tidiga	*[18]	_	_	_	_	_	_	
+22-8	1250-1257	stadier	*[18]	_	_	_	_	_	_	
+22-9	1258-1260	är	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-10	1261-1270	förbundna	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-11	1271-1274	med	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-12	1275-1277	så	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-13	1278-1283	stora	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-14	1284-1290	risker	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-15	1291-1294	och	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-16	1295-1297	så	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-17	1298-1302	stor	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-18	1303-1312	osäkerhet	_	Target[7]	22-5[18]	false[7]	2[7]	_	_	
+22-19	1313-1316	att	_	_	_	_	_	_	_	
+22-20	1317-1319	de	_	_	_	_	_	_	_	
+22-21	1320-1327	privata	_	_	_	_	_	_	_	
+22-22	1328-1337	aktörerna	_	_	_	_	_	_	_	
+22-23	1338-1342	ofta	_	_	_	_	_	_	_	
+22-24	1343-1350	skyggar	_	_	_	_	_	_	_	
+22-25	1351-1352	–	_	_	_	_	_	_	_	
+22-26	1353-1357	både	_	_	_	_	_	_	_	
+22-27	1358-1359	i	_	_	_	_	_	_	_	
+22-28	1360-1363	USA	_	_	_	_	_	_	_	
+22-29	1364-1367	och	_	_	_	_	_	_	_	
+22-30	1368-1369	i	_	_	_	_	_	_	_	
+22-31	1370-1377	Sverige	_	_	_	_	_	_	_	
+22-32	1377-1378	.	_	_	_	_	_	_	_	
+
+#Text=Där finns alltså ettproblem som inte löses av privata aktörer – och då behövs offentliga insatser, till exempel riskfinansiering i tidiga stadier.
+23-1	1379-1382	Där	_	_	_	_	_	_	_	
+23-2	1383-1388	finns	_	_	_	_	_	_	_	
+23-3	1389-1395	alltså	_	_	_	_	_	_	_	
+23-4	1396-1406	ettproblem	_	_	_	_	_	_	_	
+23-5	1407-1410	som	_	_	_	_	_	_	_	
+23-6	1411-1415	inte	_	_	_	_	_	_	_	
+23-7	1416-1421	löses	_	_	_	_	_	_	_	
+23-8	1422-1424	av	_	_	_	_	_	_	_	
+23-9	1425-1432	privata	_	_	_	_	_	_	_	
+23-10	1433-1440	aktörer	_	_	_	_	_	_	_	
+23-11	1441-1442	–	_	_	_	_	_	_	_	
+23-12	1443-1446	och	_	_	_	_	_	_	_	
+23-13	1447-1449	då	_	_	_	_	_	_	_	
+23-14	1450-1456	behövs	_	_	_	_	_	_	_	
+23-15	1457-1467	offentliga	_	_	_	_	_	_	_	
+23-16	1468-1476	insatser	_	_	_	_	_	_	_	
+23-17	1476-1477	,	_	_	_	_	_	_	_	
+23-18	1478-1482	till	_	_	_	_	_	_	_	
+23-19	1483-1490	exempel	_	_	_	_	_	_	_	
+23-20	1491-1507	riskfinansiering	_	_	_	_	_	_	_	
+23-21	1508-1509	i	_	_	_	_	_	_	_	
+23-22	1510-1516	tidiga	_	_	_	_	_	_	_	
+23-23	1517-1524	stadier	_	_	_	_	_	_	_	
+23-24	1524-1525	.	_	_	_	_	_	_	_	
+
+#Text=Låt oss alltså tala ominnovationspolitik – med uppgift att befordra nyskapelser.
+24-1	1526-1529	Låt	_	_	_	_	_	_	_	
+24-2	1530-1533	oss	_	_	_	_	_	_	_	
+24-3	1534-1540	alltså	_	_	_	_	_	_	_	
+24-4	1541-1545	tala	_	_	_	_	_	_	_	
+24-5	1546-1566	ominnovationspolitik	_	_	_	_	_	_	_	
+24-6	1567-1568	–	_	_	_	_	_	_	_	
+24-7	1569-1572	med	_	_	_	_	_	_	_	
+24-8	1573-1580	uppgift	_	_	_	_	_	_	_	
+24-9	1581-1584	att	_	_	_	_	_	_	_	
+24-10	1585-1593	befordra	_	_	_	_	_	_	_	
+24-11	1594-1605	nyskapelser	_	_	_	_	_	_	_	
+24-12	1605-1606	.	_	_	_	_	_	_	_	
+
+#Text=En framtidsorienterad innovationspolitik bedrivs i ökande grad i våra konkurrentländer i exempelvis Asien, på ett väldigt medvetet sätt.
+25-1	1607-1609	En	_	_	_	_	_	_	_	
+25-2	1610-1628	framtidsorienterad	_	Target	25-3	false	4	_	_	
+25-3	1629-1647	innovationspolitik	*	_	_	_	_	_	_	
+25-4	1648-1655	bedrivs	_	_	_	_	_	_	_	
+25-5	1656-1657	i	_	_	_	_	_	_	_	
+25-6	1658-1664	ökande	_	_	_	_	_	_	_	
+25-7	1665-1669	grad	_	_	_	_	_	_	_	
+25-8	1670-1671	i	_	_	_	_	_	_	_	
+25-9	1672-1676	våra	_	_	_	_	_	_	_	
+25-10	1677-1693	konkurrentländer	_	_	_	_	_	_	_	
+25-11	1694-1695	i	_	_	_	_	_	_	_	
+25-12	1696-1706	exempelvis	_	_	_	_	_	_	_	
+25-13	1707-1712	Asien	_	_	_	_	_	_	_	
+25-14	1712-1713	,	_	_	_	_	_	_	_	
+25-15	1714-1716	på	_	_	_	_	_	_	_	
+25-16	1717-1720	ett	_	_	_	_	_	_	_	
+25-17	1721-1728	väldigt	_	_	_	_	_	_	_	
+25-18	1729-1737	medvetet	_	_	_	_	_	_	_	
+25-19	1738-1742	sätt	_	_	_	_	_	_	_	
+25-20	1742-1743	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1745-1746	#	_	_	_	_	_	_	_	
+26-2	1746-1747	P	_	_	_	_	_	_	_	
+26-3	1748-1751	IMM	_	_	_	_	_	_	_	
+26-4	1751-1752	.	_	_	_	_	_	_	_	
+
+#Text=Innovationspolitik är alla de politikområden som påverkar innovationsprocesser, det vill säga forskningspolitik, utbildningspolitik, regionalpolitik, försvarspolitik, innovationsupphandling och så vidare.
+27-1	1754-1772	Innovationspolitik	_	_	_	_	_	_	_	
+27-2	1773-1775	är	_	_	_	_	_	_	_	
+27-3	1776-1780	alla	_	_	_	_	_	_	_	
+27-4	1781-1783	de	_	_	_	_	_	_	_	
+27-5	1784-1798	politikområden	_	_	_	_	_	_	_	
+27-6	1799-1802	som	_	_	_	_	_	_	_	
+27-7	1803-1811	påverkar	_	_	_	_	_	_	_	
+27-8	1812-1832	innovationsprocesser	_	_	_	_	_	_	_	
+27-9	1832-1833	,	_	_	_	_	_	_	_	
+27-10	1834-1837	det	_	_	_	_	_	_	_	
+27-11	1838-1842	vill	_	_	_	_	_	_	_	
+27-12	1843-1847	säga	_	_	_	_	_	_	_	
+27-13	1848-1865	forskningspolitik	_	_	_	_	_	_	_	
+27-14	1865-1866	,	_	_	_	_	_	_	_	
+27-15	1867-1885	utbildningspolitik	_	_	_	_	_	_	_	
+27-16	1885-1886	,	_	_	_	_	_	_	_	
+27-17	1887-1902	regionalpolitik	_	_	_	_	_	_	_	
+27-18	1902-1903	,	_	_	_	_	_	_	_	
+27-19	1904-1919	försvarspolitik	_	_	_	_	_	_	_	
+27-20	1919-1920	,	_	_	_	_	_	_	_	
+27-21	1921-1943	innovationsupphandling	_	_	_	_	_	_	_	
+27-22	1944-1947	och	_	_	_	_	_	_	_	
+27-23	1948-1950	så	_	_	_	_	_	_	_	
+27-24	1951-1957	vidare	_	_	_	_	_	_	_	
+27-25	1957-1958	.	_	_	_	_	_	_	_	
+
+#Text=(Men penningpolitiken och finanspolitiken är för närvarande i stort sett oanvändbara – när räntan är nästan noll och statsbudgeten är bunden av överskottsmålet.).
+28-1	1959-1960	(	_	_	_	_	_	_	_	
+28-2	1960-1963	Men	_	_	_	_	_	_	_	
+28-3	1964-1980	penningpolitiken	*[19]	_	_	_	_	_	_	
+28-4	1981-1984	och	*[19]	_	_	_	_	_	_	
+28-5	1985-2000	finanspolitiken	*[19]	_	_	_	_	_	_	
+28-6	2001-2003	är	_	_	_	false	2	_	_	
+28-7	2004-2007	för	_	_	_	_	_	_	_	
+28-8	2008-2018	närvarande	_	_	_	_	_	_	_	
+28-9	2019-2020	i	_	_	_	_	_	_	_	
+28-10	2021-2026	stort	_	_	_	_	_	_	_	
+28-11	2027-2031	sett	_	_	_	_	_	_	_	
+28-12	2032-2043	oanvändbara	_	Target	28-3[19]	false	2	28-6	_	
+28-13	2044-2045	–	_	_	_	_	_	_	_	
+28-14	2046-2049	när	_	_	_	_	_	_	_	
+28-15	2050-2056	räntan	_	_	_	_	_	_	_	
+28-16	2057-2059	är	_	_	_	_	_	_	_	
+28-17	2060-2066	nästan	_	_	_	_	_	_	_	
+28-18	2067-2071	noll	_	_	_	_	_	_	_	
+28-19	2072-2075	och	_	_	_	_	_	_	_	
+28-20	2076-2089	statsbudgeten	_	_	_	_	_	_	_	
+28-21	2090-2092	är	_	_	_	_	_	_	_	
+28-22	2093-2099	bunden	_	_	_	_	_	_	_	
+28-23	2100-2102	av	_	_	_	_	_	_	_	
+28-24	2103-2118	överskottsmålet	_	_	_	_	_	_	_	
+28-25	2118-2119	.	_	_	_	_	_	_	_	
+28-26	2119-2120	)	_	_	_	_	_	_	_	
+28-27	2120-2121	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2123-2124	#	_	_	_	_	_	_	_	
+29-2	2124-2125	P	_	_	_	_	_	_	_	
+29-3	2126-2129	IMM	_	_	_	_	_	_	_	
+29-4	2129-2130	.	_	_	_	_	_	_	_	
+
+#Text=Nu behandlas innovationsfrågorna som ett bihang i ett näringsdepartement där de har mycket låg prioritet.
+30-1	2132-2134	Nu	_	_	_	_	_	_	_	
+30-2	2135-2144	behandlas	_	_	_	false	2	_	_	
+30-3	2145-2164	innovationsfrågorna	*	_	_	_	_	_	_	
+30-4	2165-2168	som	_	Target;Source[8]	30-3;30-16	false[8]	2[8]	30-2[0_8]	_	
+30-5	2169-2172	ett	_	Target;Source[8]	30-3;30-16	false[8]	2[8]	_	_	
+30-6	2173-2179	bihang	_	Target;Source[8]	30-3;30-16	false[8]	2[8]	_	_	
+30-7	2180-2181	i	_	_	_	_	_	_	_	
+30-8	2182-2185	ett	_	_	_	_	_	_	_	
+30-9	2186-2204	näringsdepartement	_	_	_	_	_	_	_	
+30-10	2205-2208	där	_	_	_	_	_	_	_	
+30-11	2209-2211	de	_	_	_	_	_	_	_	
+30-12	2212-2215	har	_	_	_	_	_	_	_	
+30-13	2216-2222	mycket	_	_	_	_	_	_	_	
+30-14	2223-2226	låg	_	_	_	_	_	_	_	
+30-15	2227-2236	prioritet	_	_	_	_	_	_	_	
+30-16	2236-2237	.	*	_	_	_	_	_	_	
+
+#Text=Det fungerar helt enkelt inte.
+31-1	2238-2241	Det	_	_	_	_	_	_	_	
+31-2	2242-2250	fungerar	_	_	_	_	_	_	_	
+31-3	2251-2255	helt	_	_	_	_	_	_	_	
+31-4	2256-2262	enkelt	_	_	_	_	_	_	_	
+31-5	2263-2267	inte	_	_	_	_	_	_	_	
+31-6	2267-2268	.	_	_	_	false	2	_	_	
+
+#Text=Låt oss därför skilja ut de politikområden som påverkar innovationer, både vad gäller industri- och tjänsteproduktion – och prioritera dem.
+32-1	2269-2272	Låt	_	_	_	_	_	_	_	
+32-2	2273-2276	oss	_	_	_	_	_	_	_	
+32-3	2277-2283	därför	_	_	_	_	_	_	_	
+32-4	2284-2290	skilja	_	_	_	_	_	_	_	
+32-5	2291-2293	ut	_	_	_	_	_	_	_	
+32-6	2294-2296	de	*[20]	_	_	_	_	_	_	
+32-7	2297-2311	politikområden	*[20]	_	_	_	_	_	_	
+32-8	2312-2315	som	*[20]	_	_	_	_	_	_	
+32-9	2316-2324	påverkar	*[20]	_	_	_	_	_	_	
+32-10	2325-2337	innovationer	*[20]	_	_	_	_	_	_	
+32-11	2337-2338	,	_	_	_	_	_	_	_	
+32-12	2339-2343	både	_	_	_	_	_	_	_	
+32-13	2344-2347	vad	_	_	_	_	_	_	_	
+32-14	2348-2354	gäller	_	_	_	_	_	_	_	
+32-15	2355-2363	industri	_	_	_	_	_	_	_	
+32-16	2363-2364	-	_	_	_	_	_	_	_	
+32-17	2365-2368	och	_	_	_	_	_	_	_	
+32-18	2369-2386	tjänsteproduktion	_	_	_	_	_	_	_	
+32-19	2387-2388	–	_	_	_	_	_	_	_	
+32-20	2389-2392	och	_	_	_	_	_	_	_	
+32-21	2393-2403	prioritera	_	Target	32-6[20]	false	4	_	_	
+32-22	2404-2407	dem	_	_	_	_	_	_	_	
+32-23	2407-2408	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2410-2411	#	_	_	_	_	_	_	_	
+33-2	2411-2412	P	_	_	_	_	_	_	_	
+33-3	2413-2416	IMM	_	_	_	_	_	_	_	
+33-4	2416-2417	.	_	_	_	_	_	_	_	
+
+#Text=En möjlighet är att skilja ut innovationspolitiken från näringspolitiken, och ha en egen innovationsminister – som i Frankrike.
+34-1	2419-2421	En	_	_	_	_	_	_	_	
+34-2	2422-2431	möjlighet	_	_	_	_	_	_	_	
+34-3	2432-2434	är	_	_	_	_	_	_	_	
+34-4	2435-2438	att	_	_	_	_	_	_	_	
+34-5	2439-2445	skilja	_	_	_	_	_	_	_	
+34-6	2446-2448	ut	_	_	_	_	_	_	_	
+34-7	2449-2469	innovationspolitiken	_	_	_	_	_	_	_	
+34-8	2470-2474	från	_	_	_	_	_	_	_	
+34-9	2475-2491	näringspolitiken	_	_	_	_	_	_	_	
+34-10	2491-2492	,	_	_	_	_	_	_	_	
+34-11	2493-2496	och	_	_	_	_	_	_	_	
+34-12	2497-2499	ha	_	_	_	_	_	_	_	
+34-13	2500-2502	en	_	_	_	_	_	_	_	
+34-14	2503-2507	egen	_	_	_	_	_	_	_	
+34-15	2508-2527	innovationsminister	_	_	_	_	_	_	_	
+34-16	2528-2529	–	_	_	_	_	_	_	_	
+34-17	2530-2533	som	_	_	_	_	_	_	_	
+34-18	2534-2535	i	_	_	_	_	_	_	_	
+34-19	2536-2545	Frankrike	_	_	_	_	_	_	_	
+34-20	2545-2546	.	_	_	_	_	_	_	_	
+
+#Text=(Näringsdepartementet kan då fortsätta ta hand om regelverk, infrastruktur, statligt ägande, etc.)
+35-1	2547-2548	(	_	_	_	_	_	_	_	
+35-2	2548-2568	Näringsdepartementet	_	_	_	_	_	_	_	
+35-3	2569-2572	kan	_	_	_	_	_	_	_	
+35-4	2573-2575	då	_	_	_	_	_	_	_	
+35-5	2576-2585	fortsätta	_	_	_	_	_	_	_	
+35-6	2586-2588	ta	_	_	_	_	_	_	_	
+35-7	2589-2593	hand	_	_	_	_	_	_	_	
+35-8	2594-2596	om	_	_	_	_	_	_	_	
+35-9	2597-2606	regelverk	_	_	_	_	_	_	_	
+35-10	2606-2607	,	_	_	_	_	_	_	_	
+35-11	2608-2621	infrastruktur	_	_	_	_	_	_	_	
+35-12	2621-2622	,	_	_	_	_	_	_	_	
+35-13	2623-2631	statligt	_	_	_	_	_	_	_	
+35-14	2632-2638	ägande	_	_	_	_	_	_	_	
+35-15	2638-2639	,	_	_	_	_	_	_	_	
+35-16	2640-2643	etc	_	_	_	_	_	_	_	
+35-17	2643-2644	.	_	_	_	_	_	_	_	
+35-18	2644-2645	)	_	_	_	_	_	_	_	
+
+#Text=Men än bättre vore att inrätta ett innovationspolitiskt råd med statsministern som ordförande (som i Finland och Japan).
+36-1	2646-2649	Men	_	_	_	_	_	_	_	
+36-2	2650-2652	än	_	_	_	_	_	_	_	
+36-3	2653-2659	bättre	_	Target[9]	36-5[22]	false[9]	4[9]	_	_	
+36-4	2660-2664	vore	_	Target[9]	36-5[22]	false[9]	4[9]	_	_	
+36-5	2665-2668	att	*[21]|*[22]	_	_	_	_	_	_	
+36-6	2669-2676	inrätta	*[21]|*[22]	_	_	_	_	_	_	
+36-7	2677-2680	ett	*[21]|*[22]	_	_	_	_	_	_	
+36-8	2681-2701	innovationspolitiskt	*[21]|*[22]	_	_	_	_	_	_	
+36-9	2702-2705	råd	*[21]|*[22]	_	_	_	_	_	_	
+36-10	2706-2709	med	*[21]|*[22]	_	_	_	_	_	_	
+36-11	2710-2724	statsministern	*[21]|*[22]	_	_	_	_	_	_	
+36-12	2725-2728	som	*[21]|*[22]	_	_	_	_	_	_	
+36-13	2729-2739	ordförande	*[21]|*[22]	_	_	_	_	_	_	
+36-14	2740-2741	(	_	_	_	_	_	_	_	
+36-15	2741-2744	som	_	_	_	_	_	_	_	
+36-16	2745-2746	i	_	_	_	_	_	_	_	
+36-17	2747-2754	Finland	_	_	_	_	_	_	_	
+36-18	2755-2758	och	_	_	_	_	_	_	_	
+36-19	2759-2764	Japan	_	_	_	_	_	_	_	
+36-20	2764-2765	)	_	_	_	_	_	_	_	
+36-21	2765-2766	.	_	_	_	_	_	_	_	
+
+#Text=Endast då kan innovationsfrågorna få den prioritet som krävs för att Sverige ska kunna utveckla en helhetlig innovationspolitik, och för att den ska kunna samordnas inom regeringskansliet.
+37-1	2767-2773	Endast	_	Target[10]	36-5[21]	false[10]	4[10]	_	_	
+37-2	2774-2776	då	_	Target[10]	36-5[21]	false[10]	4[10]	_	_	
+37-3	2777-2780	kan	_	_	_	_	_	_	_	
+37-4	2781-2800	innovationsfrågorna	_	_	_	_	_	_	_	
+37-5	2801-2803	få	_	_	_	_	_	_	_	
+37-6	2804-2807	den	_	_	_	_	_	_	_	
+37-7	2808-2817	prioritet	_	_	_	_	_	_	_	
+37-8	2818-2821	som	_	_	_	_	_	_	_	
+37-9	2822-2827	krävs	_	_	_	_	_	_	_	
+37-10	2828-2831	för	_	_	_	_	_	_	_	
+37-11	2832-2835	att	_	_	_	_	_	_	_	
+37-12	2836-2843	Sverige	_	_	_	_	_	_	_	
+37-13	2844-2847	ska	_	_	_	_	_	_	_	
+37-14	2848-2853	kunna	_	_	_	_	_	_	_	
+37-15	2854-2862	utveckla	_	_	_	_	_	_	_	
+37-16	2863-2865	en	_	_	_	_	_	_	_	
+37-17	2866-2875	helhetlig	_	Target	37-18	false	4	_	_	
+37-18	2876-2894	innovationspolitik	*	_	_	_	_	_	_	
+37-19	2894-2895	,	_	_	_	_	_	_	_	
+37-20	2896-2899	och	_	_	_	_	_	_	_	
+37-21	2900-2903	för	_	_	_	_	_	_	_	
+37-22	2904-2907	att	_	_	_	_	_	_	_	
+37-23	2908-2911	den	_	_	_	_	_	_	_	
+37-24	2912-2915	ska	_	_	_	_	_	_	_	
+37-25	2916-2921	kunna	_	_	_	_	_	_	_	
+37-26	2922-2931	samordnas	_	_	_	_	_	_	_	
+37-27	2932-2936	inom	_	_	_	_	_	_	_	
+37-28	2937-2954	regeringskansliet	_	_	_	_	_	_	_	
+37-29	2954-2955	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett sätt att ta ansvar för tillväxten, jobben och miljön!.
+38-1	2956-2959	Det	_	_	_	_	_	_	_	
+38-2	2960-2962	är	_	_	_	_	_	_	_	
+38-3	2963-2966	ett	_	_	_	_	_	_	_	
+38-4	2967-2971	sätt	_	_	_	_	_	_	_	
+38-5	2972-2975	att	_	_	_	_	_	_	_	
+38-6	2976-2978	ta	_	_	_	_	_	_	_	
+38-7	2979-2985	ansvar	_	_	_	_	_	_	_	
+38-8	2986-2989	för	_	_	_	_	_	_	_	
+38-9	2990-3000	tillväxten	_	_	_	_	_	_	_	
+38-10	3000-3001	,	_	_	_	_	_	_	_	
+38-11	3002-3008	jobben	_	_	_	_	_	_	_	
+38-12	3009-3012	och	_	_	_	_	_	_	_	
+38-13	3013-3019	miljön	_	_	_	_	_	_	_	
+38-14	3019-3020	!	_	_	_	_	_	_	_	
+38-15	3020-3021	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3023-3024	#	_	_	_	_	_	_	_	
+39-2	3024-3025	P	_	_	_	_	_	_	_	
+39-3	3026-3029	IMM	_	_	_	_	_	_	_	
+39-4	3029-3030	.	_	_	_	_	_	_	_	
+
+#Text=Då ställs frågan hur ett sådant råd ska se ut och vilken roll det ska spela?
+40-1	3032-3034	Då	_	_	_	_	_	_	_	
+40-2	3035-3041	ställs	_	_	_	_	_	_	_	
+40-3	3042-3048	frågan	_	_	_	_	_	_	_	
+40-4	3049-3052	hur	_	_	_	_	_	_	_	
+40-5	3053-3056	ett	_	_	_	_	_	_	_	
+40-6	3057-3063	sådant	_	_	_	_	_	_	_	
+40-7	3064-3067	råd	_	_	_	_	_	_	_	
+40-8	3068-3071	ska	_	_	_	_	_	_	_	
+40-9	3072-3074	se	_	_	_	_	_	_	_	
+40-10	3075-3077	ut	_	_	_	_	_	_	_	
+40-11	3078-3081	och	_	_	_	_	_	_	_	
+40-12	3082-3088	vilken	_	_	_	_	_	_	_	
+40-13	3089-3093	roll	_	_	_	_	_	_	_	
+40-14	3094-3097	det	_	_	_	_	_	_	_	
+40-15	3098-3101	ska	_	_	_	_	_	_	_	
+40-16	3102-3107	spela	_	_	_	_	_	_	_	
+40-17	3107-3108	?	_	_	_	_	_	_	_	
+
+#Text=Det får inte bli en spelplan för lobbyister.
+41-1	3109-3112	Det	_	_	_	_	_	_	_	
+41-2	3113-3116	får	_	Target[11]	41-5[23]	false[11]	1[11]	_	_	
+41-3	3117-3121	inte	_	Target[11]	41-5[23]	false[11]	1[11]	_	_	
+41-4	3122-3125	bli	_	Target[11]	41-5[23]	false[11]	1[11]	_	_	
+41-5	3126-3128	en	*[23]	_	_	_	_	_	_	
+41-6	3129-3137	spelplan	*[23]	_	_	_	_	_	_	
+41-7	3138-3141	för	*[23]	_	_	_	_	_	_	
+41-8	3142-3152	lobbyister	*[23]	_	_	_	_	_	_	
+41-9	3152-3153	.	_	_	_	_	_	_	_	
+
+#Text=Det bör heller inte bli som det finanspolitiska rådet, som granskar (finans)politiken i efterhand.
+42-1	3154-3157	Det	_	_	_	_	_	_	_	
+42-2	3158-3161	bör	_	Target[12]	42-7[24]	false[12]	2[12]	_	_	
+42-3	3162-3168	heller	_	Target[12]	42-7[24]	false[12]	2[12]	_	_	
+42-4	3169-3173	inte	_	Target[12]	42-7[24]	false[12]	2[12]	_	_	
+42-5	3174-3177	bli	_	Target[12]	42-7[24]	false[12]	2[12]	_	_	
+42-6	3178-3181	som	_	_	_	_	_	_	_	
+42-7	3182-3185	det	*[24]	_	_	_	_	_	_	
+42-8	3186-3201	finanspolitiska	*[24]	_	_	_	_	_	_	
+42-9	3202-3207	rådet	*[24]	_	_	_	_	_	_	
+42-10	3207-3208	,	*[24]	_	_	_	_	_	_	
+42-11	3209-3212	som	*[24]	_	_	_	_	_	_	
+42-12	3213-3221	granskar	*[24]	_	_	_	_	_	_	
+42-13	3222-3223	(	*[24]	_	_	_	_	_	_	
+42-14	3223-3229	finans	*[24]	_	_	_	_	_	_	
+42-15	3229-3230	)	*[24]	_	_	_	_	_	_	
+42-16	3230-3239	politiken	*[24]	_	_	_	_	_	_	
+42-17	3240-3241	i	*[24]	_	_	_	_	_	_	
+42-18	3242-3251	efterhand	*[24]	_	_	_	_	_	_	
+42-19	3251-3252	.	_	_	_	_	_	_	_	
+
+#Text=Vad som behövs är ett råd som kan analysera de innovationspolitiska problemen och skapa en innovationspolitik.
+43-1	3253-3256	Vad	_	Target[13]	43-5[25]	false[13]	4[13]	_	_	
+43-2	3257-3260	som	_	Target[13]	43-5[25]	false[13]	4[13]	_	_	
+43-3	3261-3267	behövs	_	Target[13]	43-5[25]	false[13]	4[13]	_	_	
+43-4	3268-3270	är	_	Target[13]	43-5[25]	false[13]	4[13]	_	_	
+43-5	3271-3274	ett	*[25]	_	_	_	_	_	_	
+43-6	3275-3278	råd	*[25]	_	_	_	_	_	_	
+43-7	3279-3282	som	*[25]	_	_	_	_	_	_	
+43-8	3283-3286	kan	*[25]	_	_	_	_	_	_	
+43-9	3287-3296	analysera	*[25]	_	_	_	_	_	_	
+43-10	3297-3299	de	*[25]	_	_	_	_	_	_	
+43-11	3300-3320	innovationspolitiska	*[25]	_	_	_	_	_	_	
+43-12	3321-3330	problemen	*[25]	_	_	_	_	_	_	
+43-13	3331-3334	och	*[25]	_	_	_	_	_	_	
+43-14	3335-3340	skapa	*[25]	_	_	_	_	_	_	
+43-15	3341-3343	en	*[25]	_	_	_	_	_	_	
+43-16	3344-3362	innovationspolitik	*[25]	_	_	_	_	_	_	
+43-17	3362-3363	.	_	_	_	_	_	_	_	
+
+#Text=Innovationspolitiken måste vara konkret och bygga på en korrekt uppfattning av hur situationen faktiskt ser ut för Sverige.
+44-1	3364-3384	Innovationspolitiken	_	_	_	_	_	_	_	
+44-2	3385-3390	måste	_	_	_	_	_	_	_	
+44-3	3391-3395	vara	_	_	_	_	_	_	_	
+44-4	3396-3403	konkret	_	_	_	_	_	_	_	
+44-5	3404-3407	och	_	_	_	_	_	_	_	
+44-6	3408-3413	bygga	_	_	_	_	_	_	_	
+44-7	3414-3416	på	_	_	_	_	_	_	_	
+44-8	3417-3419	en	_	_	_	_	_	_	_	
+44-9	3420-3427	korrekt	_	_	_	_	_	_	_	
+44-10	3428-3439	uppfattning	_	_	_	_	_	_	_	
+44-11	3440-3442	av	_	_	_	_	_	_	_	
+44-12	3443-3446	hur	_	_	_	_	_	_	_	
+44-13	3447-3458	situationen	_	_	_	_	_	_	_	
+44-14	3459-3467	faktiskt	_	_	_	_	_	_	_	
+44-15	3468-3471	ser	_	_	_	_	_	_	_	
+44-16	3472-3474	ut	_	_	_	_	_	_	_	
+44-17	3475-3478	för	_	_	_	_	_	_	_	
+44-18	3479-3486	Sverige	_	_	_	_	_	_	_	
+44-19	3486-3487	.	_	_	_	_	_	_	_	
+
+#Text=Den måste ha klara mål och peka ut specifika medel för att uppnå dessa.
+45-1	3488-3491	Den	_	_	_	_	_	_	_	
+45-2	3492-3497	måste	_	_	_	_	_	_	_	
+45-3	3498-3500	ha	_	_	_	_	_	_	_	
+45-4	3501-3506	klara	_	_	_	_	_	_	_	
+45-5	3507-3510	mål	_	_	_	_	_	_	_	
+45-6	3511-3514	och	_	_	_	_	_	_	_	
+45-7	3515-3519	peka	_	_	_	_	_	_	_	
+45-8	3520-3522	ut	_	_	_	_	_	_	_	
+45-9	3523-3532	specifika	_	_	_	_	_	_	_	
+45-10	3533-3538	medel	_	_	_	_	_	_	_	
+45-11	3539-3542	för	_	_	_	_	_	_	_	
+45-12	3543-3546	att	_	_	_	_	_	_	_	
+45-13	3547-3552	uppnå	_	_	_	_	_	_	_	
+45-14	3553-3558	dessa	_	_	_	_	_	_	_	
+45-15	3558-3559	.	_	_	_	_	_	_	_	
+
+#Text=Detta är en analytiskt svår uppgift och kräver ett kansli.
+46-1	3560-3565	Detta	_	_	_	_	_	_	_	
+46-2	3566-3568	är	_	_	_	_	_	_	_	
+46-3	3569-3571	en	_	_	_	_	_	_	_	
+46-4	3572-3582	analytiskt	_	_	_	_	_	_	_	
+46-5	3583-3587	svår	_	_	_	_	_	_	_	
+46-6	3588-3595	uppgift	_	_	_	_	_	_	_	
+46-7	3596-3599	och	_	_	_	_	_	_	_	
+46-8	3600-3606	kräver	_	_	_	_	_	_	_	
+46-9	3607-3610	ett	_	_	_	_	_	_	_	
+46-10	3611-3617	kansli	_	_	_	_	_	_	_	
+46-11	3617-3618	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3620-3621	#	_	_	_	_	_	_	_	
+47-2	3621-3622	P	_	_	_	_	_	_	_	
+47-3	3623-3626	IMM	_	_	_	_	_	_	_	
+47-4	3626-3627	.	_	_	_	_	_	_	_	
+
+#Text=CHARLES EDQUIST.
+48-1	3629-3636	CHARLES	_	_	_	_	_	_	_	
+48-2	3637-3644	EDQUIST	_	_	_	_	_	_	_	
+48-3	3644-3645	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3647-3648	#	_	_	_	_	_	_	_	
+49-2	3648-3649	P	_	_	_	_	_	_	_	
+49-3	3650-3653	IMM	_	_	_	_	_	_	_	
+49-4	3653-3654	.	_	_	_	_	_	_	_	
+
+#Text=professor i innovation, Circle, Lunds universitet.
+50-1	3656-3665	professor	_	_	_	_	_	_	_	
+50-2	3666-3667	i	_	_	_	_	_	_	_	
+50-3	3668-3678	innovation	_	_	_	_	_	_	_	
+50-4	3678-3679	,	_	_	_	_	_	_	_	
+50-5	3680-3686	Circle	_	_	_	_	_	_	_	
+50-6	3686-3687	,	_	_	_	_	_	_	_	
+50-7	3688-3693	Lunds	_	_	_	_	_	_	_	
+50-8	3694-3705	universitet	_	_	_	_	_	_	_	
+50-9	3705-3706	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3708-3709	#	_	_	_	_	_	_	_	
+51-2	3709-3710	P	_	_	_	_	_	_	_	
+51-3	3711-3714	IMM	_	_	_	_	_	_	_	
+51-4	3714-3715	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+52-1	3717-3725	Redaktör	_	_	_	_	_	_	_	
+52-2	3725-3726	:	_	_	_	_	_	_	_	
+52-3	3727-3733	Carina	_	_	_	_	_	_	_	
+52-4	3734-3742	Stensson	_	_	_	_	_	_	_	
+52-5	3742-3743	,	_	_	_	_	_	_	_	
+52-6	3744-3754	Biträdande	_	_	_	_	_	_	_	
+52-7	3755-3763	redaktör	_	_	_	_	_	_	_	
+52-8	3763-3764	:	_	_	_	_	_	_	_	
+52-9	3765-3770	Björn	_	_	_	_	_	_	_	
+52-10	3771-3777	Jorner	_	_	_	_	_	_	_	
+52-11	3777-3778	,	_	_	_	_	_	_	_	
+52-12	3779-3783	Mejl	_	_	_	_	_	_	_	
+52-13	3783-3784	:	_	_	_	_	_	_	_	
+52-14	3785-3791	debatt	_	_	_	_	_	_	_	
+52-15	3791-3792	@	_	_	_	_	_	_	_	
+52-16	3792-3798	svd.se	_	_	_	_	_	_	_	
+52-17	3798-3799	,	_	_	_	_	_	_	_	
+52-18	3800-3813	Telefonnummer	_	_	_	_	_	_	_	
+52-19	3813-3814	:	_	_	_	_	_	_	_	
+52-20	3815-3817	08	_	_	_	_	_	_	_	
+52-21	3817-3818	-	_	_	_	_	_	_	_	
+52-22	3818-3824	135149	_	_	_	_	_	_	_	
+52-23	3824-3825	,	_	_	_	_	_	_	_	
+52-24	3826-3833	Twitter	_	_	_	_	_	_	_	
+52-25	3833-3834	:	_	_	_	_	_	_	_	
+52-26	3835-3836	@	_	_	_	_	_	_	_	
+52-27	3836-3845	SvDDebatt	_	_	_	_	_	_	_	
+52-28	3845-3846	,	_	_	_	_	_	_	_	
+52-29	3847-3855	Facebook	_	_	_	_	_	_	_	
+52-30	3855-3856	:	_	_	_	_	_	_	_	
+52-31	3857-3860	SvD	_	_	_	_	_	_	_	
+52-32	3861-3867	Debatt	_	_	_	_	_	_	_	
+52-33	3867-3868	.	_	_	_	_	_	_	_	

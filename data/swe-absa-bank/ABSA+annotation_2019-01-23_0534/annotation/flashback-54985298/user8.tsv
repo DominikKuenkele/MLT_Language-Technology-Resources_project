@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Tyskland införde gränskontroller, ändå ökar flyktingströmmen till Sverige.
+3-1	18-26	Tyskland	_	_	_	_	_	_	
+3-2	27-34	införde	_	_	_	_	_	_	
+3-3	35-50	gränskontroller	_	_	_	_	_	_	
+3-4	50-51	,	_	_	_	_	_	_	
+3-5	52-56	ändå	_	_	_	_	_	_	
+3-6	57-61	ökar	_	_	_	_	_	_	
+3-7	62-78	flyktingströmmen	_	_	_	_	_	_	
+3-8	79-83	till	_	_	_	_	_	_	
+3-9	84-91	Sverige	_	_	_	_	_	_	
+3-10	91-92	.	_	_	_	_	_	_	
+
+#Text=Varför?
+4-1	93-99	Varför	_	_	_	_	_	_	
+4-2	99-100	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	102-103	#	_	_	_	_	_	_	
+5-2	103-104	P	_	_	_	_	_	_	
+5-3	105-108	IMM	_	_	_	false	3	_	
+5-4	108-109	.	_	_	_	_	_	_	
+
+#Text=Just nu ropar många på "inre gränskontroller" vid Sveriges gränser, att tillfälligt lämna schengen.
+6-1	111-115	Just	_	_	_	_	_	_	
+6-2	116-118	nu	_	_	_	_	_	_	
+6-3	119-124	ropar	_	Source;Target	6-4[2];6-6[4]	false	4	_	
+6-4	125-130	många	*[2]|*[3]	_	_	_	_	_	
+6-5	131-133	på	_	Target;Source	6-6[5];6-4[3]	false	4	6-3	
+6-6	134-135	"	*[4]|*[5]	_	_	_	_	_	
+6-7	135-139	inre	*[4]|*[5]	_	_	_	_	_	
+6-8	140-155	gränskontroller	*[4]|*[5]	_	_	_	_	_	
+6-9	155-156	"	*[4]|*[5]	_	_	_	_	_	
+6-10	157-160	vid	*[4]|*[5]	_	_	_	_	_	
+6-11	161-169	Sveriges	*[4]|*[5]	_	_	_	_	_	
+6-12	170-177	gränser	*[4]|*[5]	_	_	_	_	_	
+6-13	177-178	,	_	_	_	_	_	_	
+6-14	179-182	att	_	_	_	_	_	_	
+6-15	183-194	tillfälligt	_	_	_	_	_	_	
+6-16	195-200	lämna	_	_	_	_	_	_	
+6-17	201-209	schengen	_	_	_	_	_	_	
+6-18	209-210	.	_	_	_	_	_	_	
+
+#Text=Tyskland gjorde det den 13 september.
+7-1	211-219	Tyskland	_	_	_	_	_	_	
+7-2	220-226	gjorde	_	_	_	_	_	_	
+7-3	227-230	det	_	_	_	_	_	_	
+7-4	231-234	den	_	_	_	_	_	_	
+7-5	235-237	13	_	_	_	_	_	_	
+7-6	238-247	september	_	_	_	_	_	_	
+7-7	247-248	.	_	_	_	_	_	_	
+
+#Text=Det innebär inte att man förhindrar flyktingar att ta sig in till landet, så kan man inte göra enligt EU-stadgan, men däremot registreras de och tas till mottagningscenter.
+8-1	249-252	Det	_	_	_	_	_	_	
+8-2	253-260	innebär	_	_	_	_	_	_	
+8-3	261-265	inte	_	_	_	_	_	_	
+8-4	266-269	att	_	_	_	_	_	_	
+8-5	270-273	man	_	_	_	_	_	_	
+8-6	274-284	förhindrar	_	_	_	_	_	_	
+8-7	285-295	flyktingar	_	_	_	_	_	_	
+8-8	296-299	att	_	_	_	_	_	_	
+8-9	300-302	ta	_	_	_	_	_	_	
+8-10	303-306	sig	_	_	_	_	_	_	
+8-11	307-309	in	_	_	_	_	_	_	
+8-12	310-314	till	_	_	_	_	_	_	
+8-13	315-321	landet	_	_	_	_	_	_	
+8-14	321-322	,	_	_	_	_	_	_	
+8-15	323-325	så	_	_	_	_	_	_	
+8-16	326-329	kan	_	_	_	_	_	_	
+8-17	330-333	man	_	_	_	_	_	_	
+8-18	334-338	inte	_	_	_	_	_	_	
+8-19	339-343	göra	_	_	_	_	_	_	
+8-20	344-350	enligt	_	_	_	_	_	_	
+8-21	351-361	EU-stadgan	_	_	_	_	_	_	
+8-22	361-362	,	_	_	_	_	_	_	
+8-23	363-366	men	_	_	_	_	_	_	
+8-24	367-374	däremot	_	_	_	_	_	_	
+8-25	375-386	registreras	_	_	_	_	_	_	
+8-26	387-389	de	_	_	_	_	_	_	
+8-27	390-393	och	_	_	_	_	_	_	
+8-28	394-397	tas	_	_	_	_	_	_	
+8-29	398-402	till	_	_	_	_	_	_	
+8-30	403-420	mottagningscenter	_	_	_	_	_	_	
+8-31	420-421	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	423-424	#	_	_	_	_	_	_	
+9-2	424-425	P	_	_	_	_	_	_	
+9-3	426-429	IMM	_	_	_	false	3	_	
+9-4	429-430	.	_	_	_	_	_	_	
+
+#Text=Nästan alla flyktingar som tar sig till Sverige i nuvarande flyktingvåg har åkt genom Tyskland.
+10-1	432-438	Nästan	_	_	_	_	_	_	
+10-2	439-443	alla	_	_	_	_	_	_	
+10-3	444-454	flyktingar	_	_	_	_	_	_	
+10-4	455-458	som	_	_	_	_	_	_	
+10-5	459-462	tar	_	_	_	_	_	_	
+10-6	463-466	sig	_	_	_	_	_	_	
+10-7	467-471	till	_	_	_	_	_	_	
+10-8	472-479	Sverige	_	_	_	_	_	_	
+10-9	480-481	i	_	_	_	_	_	_	
+10-10	482-491	nuvarande	_	_	_	_	_	_	
+10-11	492-503	flyktingvåg	_	_	_	_	_	_	
+10-12	504-507	har	_	_	_	_	_	_	
+10-13	508-511	åkt	_	_	_	_	_	_	
+10-14	512-517	genom	_	_	_	_	_	_	
+10-15	518-526	Tyskland	_	_	_	_	_	_	
+10-16	526-527	.	_	_	_	_	_	_	
+
+#Text=Den senaste månaden har inte flyktingströmmen till Sverige minskat utan tvärtom ökat.
+11-1	528-531	Den	_	_	_	_	_	_	
+11-2	532-539	senaste	_	_	_	_	_	_	
+11-3	540-547	månaden	_	_	_	_	_	_	
+11-4	548-551	har	_	_	_	_	_	_	
+11-5	552-556	inte	_	_	_	_	_	_	
+11-6	557-573	flyktingströmmen	_	_	_	_	_	_	
+11-7	574-578	till	_	_	_	_	_	_	
+11-8	579-586	Sverige	_	_	_	_	_	_	
+11-9	587-594	minskat	_	_	_	_	_	_	
+11-10	595-599	utan	_	_	_	_	_	_	
+11-11	600-607	tvärtom	_	_	_	_	_	_	
+11-12	608-612	ökat	_	_	_	_	_	_	
+11-13	612-613	.	_	_	_	_	_	_	
+
+#Text=De som kommer nu bör alltså ha registrerats i Tyskland och enligt Dublinförordning vara lätta att skicka tillbaka dit.
+12-1	614-616	De	_	_	_	_	_	_	
+12-2	617-620	som	_	_	_	_	_	_	
+12-3	621-627	kommer	_	_	_	_	_	_	
+12-4	628-630	nu	_	_	_	_	_	_	
+12-5	631-634	bör	_	_	_	_	_	_	
+12-6	635-641	alltså	_	_	_	_	_	_	
+12-7	642-644	ha	_	_	_	_	_	_	
+12-8	645-657	registrerats	_	_	_	_	_	_	
+12-9	658-659	i	_	_	_	_	_	_	
+12-10	660-668	Tyskland	_	_	_	_	_	_	
+12-11	669-672	och	_	_	_	_	_	_	
+12-12	673-679	enligt	_	_	_	_	_	_	
+12-13	680-696	Dublinförordning	_	_	_	_	_	_	
+12-14	697-701	vara	_	_	_	_	_	_	
+12-15	702-707	lätta	_	_	_	_	_	_	
+12-16	708-711	att	_	_	_	_	_	_	
+12-17	712-718	skicka	_	_	_	_	_	_	
+12-18	719-727	tillbaka	_	_	_	_	_	_	
+12-19	728-731	dit	_	_	_	_	_	_	
+12-20	731-732	.	_	_	_	_	_	_	
+
+#Text=Men i praktiken har ju Dublinförordningen upphört att gälla.
+13-1	733-736	Men	_	_	_	_	_	_	
+13-2	737-738	i	_	_	_	_	_	_	
+13-3	739-748	praktiken	_	_	_	_	_	_	
+13-4	749-752	har	_	_	_	_	_	_	
+13-5	753-755	ju	_	_	_	_	_	_	
+13-6	756-774	Dublinförordningen	_	_	_	_	_	_	
+13-7	775-782	upphört	_	_	_	_	_	_	
+13-8	783-786	att	_	_	_	_	_	_	
+13-9	787-792	gälla	_	_	_	_	_	_	
+13-10	792-793	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	795-796	#	_	_	_	_	_	_	
+14-2	796-797	P	_	_	_	_	_	_	
+14-3	798-801	IMM	_	_	_	false	3	_	
+14-4	801-802	.	_	_	_	_	_	_	
+
+#Text=Fråga: vad hoppas folk som ropar på att återinföra de gamla gränskontrollerna på?
+15-1	804-809	Fråga	_	_	_	_	_	_	
+15-2	809-810	:	_	_	_	_	_	_	
+15-3	811-814	vad	*[6]|*[7]	_	_	_	_	_	
+15-4	815-821	hoppas	_	Target;Source	15-3[6];15-5[8]	false	4	_	
+15-5	822-826	folk	*[8]|*[9]|*[10]	_	_	_	_	_	
+15-6	827-830	som	*[8]|*[9]	_	_	_	_	_	
+15-7	831-836	ropar	*[8]|*[9]	Source;Target[1]	15-5[10];15-9[11]	false[1]	4[1]	_	
+15-8	837-839	på	*[8]|*[9]	Source;Target[1]	15-5[10];15-9[11]	false[1]	4[1]	_	
+15-9	840-843	att	*[8]|*[9]|*[11]	_	_	_	_	_	
+15-10	844-854	återinföra	*[8]|*[9]|*[11]	_	_	_	_	_	
+15-11	855-857	de	*[8]|*[9]|*[11]	_	_	_	_	_	
+15-12	858-863	gamla	*[8]|*[9]|*[11]	_	_	_	_	_	
+15-13	864-881	gränskontrollerna	*[8]|*[9]|*[11]	_	_	_	_	_	
+15-14	882-884	på	_	Source;Target	15-5[9];15-3[7]	false	4	15-4	
+15-15	884-885	?	_	_	_	_	_	_	
+
+#Text=Vad ska uppnås?.
+16-1	886-889	Vad	*	_	_	_	_	_	
+16-2	890-893	ska	_	_	_	_	_	_	
+16-3	894-900	uppnås	_	Target	16-1	false	4	_	
+16-4	900-901	?	_	_	_	_	_	_	
+16-5	901-902	.	_	_	_	_	_	_	

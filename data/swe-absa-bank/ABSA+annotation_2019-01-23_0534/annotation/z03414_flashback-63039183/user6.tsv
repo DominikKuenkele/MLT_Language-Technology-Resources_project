@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Ni under 30 år, kunde ni se detta komma?
+3-1	18-20	Ni	_	_	_	_	_	_	
+3-2	21-26	under	_	_	_	_	_	_	
+3-3	27-29	30	_	_	_	_	_	_	
+3-4	30-32	år	_	_	_	_	_	_	
+3-5	32-33	,	_	_	_	_	_	_	
+3-6	34-39	kunde	_	_	_	_	_	_	
+3-7	40-42	ni	_	_	_	_	_	_	
+3-8	43-45	se	_	_	_	_	_	_	
+3-9	46-51	detta	_	_	_	_	_	_	
+3-10	52-57	komma	_	_	_	_	_	_	
+3-11	57-58	?	_	_	_	false	2	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_[2]	_	false[2]	2[2]	_	
+4-2	61-62	P	_	_[2]	_	false[2]	2[2]	_	
+4-3	63-66	IMM	_	_[2]	_	false[2]	2[2]	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Jag är född 1993 och jag bodde i invandrartäta områden under uppväxten och kan säga så här att jag inte är ett dugg förvånad över den negativa utvecklingen som vi fått i Sverige när det gäller invandringen.
+5-1	69-72	Jag	_	_	_	_	_	_	
+5-2	73-75	är	_	_	_	_	_	_	
+5-3	76-80	född	_	_	_	_	_	_	
+5-4	81-85	1993	_	_	_	_	_	_	
+5-5	86-89	och	_	_	_	_	_	_	
+5-6	90-93	jag	_	_	_	_	_	_	
+5-7	94-99	bodde	_	_	_	_	_	_	
+5-8	100-101	i	_	_	_	_	_	_	
+5-9	102-115	invandrartäta	_	_	_	_	_	_	
+5-10	116-123	områden	_	_	_	_	_	_	
+5-11	124-129	under	_	_	_	_	_	_	
+5-12	130-139	uppväxten	_	_	_	_	_	_	
+5-13	140-143	och	_	_	_	_	_	_	
+5-14	144-147	kan	_	_	_	_	_	_	
+5-15	148-152	säga	_	_	_	_	_	_	
+5-16	153-155	så	_	_	_	_	_	_	
+5-17	156-159	här	_	_	_	_	_	_	
+5-18	160-163	att	_	_	_	_	_	_	
+5-19	164-167	jag	_	_	_	_	_	_	
+5-20	168-172	inte	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-21	173-175	är	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-22	176-179	ett	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-23	180-184	dugg	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-24	185-193	förvånad	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-25	194-198	över	_	Target[3]	5-26[10]	false[3]	2[3]	_	
+5-26	199-202	den	*[10]	_	_	_	_	_	
+5-27	203-211	negativa	*[10]	Target	5-28[11]	false	2	_	
+5-28	212-224	utvecklingen	*[10]|*[11]	_	_	_	_	_	
+5-29	225-228	som	*[10]|*[11]	_	_	_	_	_	
+5-30	229-231	vi	*[10]|*[11]	_	_	_	_	_	
+5-31	232-236	fått	*[10]|*[11]	_	_	_	_	_	
+5-32	237-238	i	*[10]|*[11]	_	_	_	_	_	
+5-33	239-246	Sverige	*[10]|*[11]	_	_	_	_	_	
+5-34	247-250	när	*[10]|*[11]	_	_	_	_	_	
+5-35	251-254	det	*[10]|*[11]	_	_	_	_	_	
+5-36	255-261	gäller	*[10]|*[11]	_	_	_	_	_	
+5-37	262-274	invandringen	*[10]|*[11]	_	_	_	_	_	
+5-38	274-275	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	277-278	#	_	_[4]	_	false[4]	2[4]	_	
+6-2	278-279	P	_	_[4]	_	false[4]	2[4]	_	
+6-3	280-283	IMM	_	_[4]	_	false[4]	2[4]	_	
+6-4	283-284	.	_	_	_	_	_	_	
+
+#Text=Kunde aldrig se hur kaozblattarna under min uppväxt för 10-15 år sedan skulle bli produktiva medlemmar av vårt samhälle.
+7-1	286-291	Kunde	_	_	_	_	_	_	
+7-2	292-298	aldrig	_	_	_	_	_	_	
+7-3	299-301	se	_	_	_	_	_	_	
+7-4	302-305	hur	_	_	_	_	_	_	
+7-5	306-319	kaozblattarna	*	Target	7-5	false	2	_	
+7-6	320-325	under	_	_	_	_	_	_	
+7-7	326-329	min	_	_	_	_	_	_	
+7-8	330-337	uppväxt	_	_	_	_	_	_	
+7-9	338-341	för	_	_	_	_	_	_	
+7-10	342-344	10	_	_	_	_	_	_	
+7-11	344-345	-	_	_	_	_	_	_	
+7-12	345-347	15	_	_	_	_	_	_	
+7-13	348-350	år	_	_	_	_	_	_	
+7-14	351-356	sedan	_	_	_	_	_	_	
+7-15	357-363	skulle	_	_	_	_	_	_	
+7-16	364-367	bli	_	_	_	_	_	_	
+7-17	368-378	produktiva	_	_	_	_	_	_	
+7-18	379-388	medlemmar	_	_	_	_	_	_	
+7-19	389-391	av	_	_	_	_	_	_	
+7-20	392-396	vårt	_	_	_	_	_	_	
+7-21	397-405	samhälle	_	_	_	_	_	_	
+7-22	405-406	.	_	_	_	false	2	_	
+
+#Text=Redan då såg jag hur invandrare blev kriminella i tidig ålder och allmänt var stökiga i skolan.
+8-1	407-412	Redan	_	_	_	_	_	_	
+8-2	413-415	då	_	_	_	_	_	_	
+8-3	416-419	såg	_	_	_	_	_	_	
+8-4	420-423	jag	_	_	_	_	_	_	
+8-5	424-427	hur	_	_	_	_	_	_	
+8-6	428-438	invandrare	*	_	_	_	_	_	
+8-7	439-443	blev	_	_	_	_	_	_	
+8-8	444-454	kriminella	_	_	_	_	_	_	
+8-9	455-456	i	_	_	_	_	_	_	
+8-10	457-462	tidig	_	_	_	_	_	_	
+8-11	463-468	ålder	_	_	_	_	_	_	
+8-12	469-472	och	_	_	_	_	_	_	
+8-13	473-480	allmänt	_	Target[5]	8-6	false[5]	2[5]	_	
+8-14	481-484	var	_	Target[5]	8-6	false[5]	2[5]	_	
+8-15	485-492	stökiga	_	Target[5]	8-6	false[5]	2[5]	_	
+8-16	493-494	i	_	_	_	_	_	_	
+8-17	495-501	skolan	_	_	_	_	_	_	
+8-18	501-502	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	504-505	#	_	_[6]	_	false[6]	2[6]	_	
+9-2	505-506	P	_	_[6]	_	false[6]	2[6]	_	
+9-3	507-510	IMM	_	_[6]	_	false[6]	2[6]	_	
+9-4	510-511	.	_	_	_	_	_	_	
+
+#Text=Tillskillnad från äldre så har vi alltid upplevt kaosblattar i skolan och aldrig riktigt sett det där trygga Sverige som äldre snackar om.
+10-1	513-525	Tillskillnad	_	_	_	_	_	_	
+10-2	526-530	från	_	_	_	_	_	_	
+10-3	531-536	äldre	_	_	_	_	_	_	
+10-4	537-539	så	_	_	_	_	_	_	
+10-5	540-543	har	_	_	_	_	_	_	
+10-6	544-546	vi	_	_	_	_	_	_	
+10-7	547-553	alltid	_	_	_	_	_	_	
+10-8	554-561	upplevt	_	_	_	_	_	_	
+10-9	562-573	kaosblattar	*	Target	10-9	false	2	_	
+10-10	574-575	i	_	_	_	_	_	_	
+10-11	576-582	skolan	_	_	_	_	_	_	
+10-12	583-586	och	_	_	_	_	_	_	
+10-13	587-593	aldrig	_	_	_	_	_	_	
+10-14	594-601	riktigt	_	_	_	_	_	_	
+10-15	602-606	sett	_	_	_	_	_	_	
+10-16	607-610	det	_	_	_	_	_	_	
+10-17	611-614	där	_	_	_	_	_	_	
+10-18	615-621	trygga	_	Target	10-19[12]	false	4	_	
+10-19	622-629	Sverige	*[12]	_	_	_	_	_	
+10-20	630-633	som	*[12]	_	_	_	_	_	
+10-21	634-639	äldre	*[12]	_	_	_	_	_	
+10-22	640-647	snackar	*[12]	_	_	_	_	_	
+10-23	648-650	om	*[12]	_	_	_	_	_	
+10-24	650-651	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	653-654	#	_	_[7]	_	false[7]	3[7]	_	
+11-2	654-655	P	_	_[7]	_	false[7]	3[7]	_	
+11-3	656-659	IMM	_	_[7]	_	false[7]	3[7]	_	
+11-4	659-660	.	_	_	_	_	_	_	
+
+#Text=Vi är uppväxta under hela förändringen av Sveriges samhälle, vi fick se lite granna av det homogena samhället när vi var jätteunga och nu när vi är i vuxen ålder har Sverige blivit mycket mer multikulturellt.
+12-1	662-664	Vi	_	_	_	_	_	_	
+12-2	665-667	är	_	_	_	_	_	_	
+12-3	668-676	uppväxta	_	_	_	_	_	_	
+12-4	677-682	under	_	_	_	_	_	_	
+12-5	683-687	hela	_	_	_	_	_	_	
+12-6	688-700	förändringen	_	_	_	_	_	_	
+12-7	701-703	av	_	_	_	_	_	_	
+12-8	704-712	Sveriges	_	_	_	_	_	_	
+12-9	713-721	samhälle	_	_	_	_	_	_	
+12-10	721-722	,	_	_	_	_	_	_	
+12-11	723-725	vi	_	_	_	_	_	_	
+12-12	726-730	fick	_	_	_	_	_	_	
+12-13	731-733	se	_	_	_	_	_	_	
+12-14	734-738	lite	_	_	_	_	_	_	
+12-15	739-745	granna	_	_	_	_	_	_	
+12-16	746-748	av	_	_	_	_	_	_	
+12-17	749-752	det	_	_	_	_	_	_	
+12-18	753-761	homogena	_	_	_	_	_	_	
+12-19	762-771	samhället	_	_	_	_	_	_	
+12-20	772-775	när	_	_	_	_	_	_	
+12-21	776-778	vi	_	_	_	_	_	_	
+12-22	779-782	var	_	_	_	_	_	_	
+12-23	783-792	jätteunga	_	_	_	_	_	_	
+12-24	793-796	och	_	_	_	_	_	_	
+12-25	797-799	nu	_	_	_	_	_	_	
+12-26	800-803	när	_	_	_	_	_	_	
+12-27	804-806	vi	_	_	_	_	_	_	
+12-28	807-809	är	_	_	_	_	_	_	
+12-29	810-811	i	_	_	_	_	_	_	
+12-30	812-817	vuxen	_	_	_	_	_	_	
+12-31	818-823	ålder	_	_	_	_	_	_	
+12-32	824-827	har	*[13]	_	_	_	_	14-21[0_13]	
+12-33	828-835	Sverige	*[13]	_	_	_	_	_	
+12-34	836-842	blivit	*[13]	_	_	_	_	_	
+12-35	843-849	mycket	*[13]	_	_	_	_	_	
+12-36	850-853	mer	*[13]	_	_	_	_	_	
+12-37	854-869	multikulturellt	*[13]	_	_	_	_	_	
+12-38	869-870	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	872-873	#	_	_[8]	_	false[8]	2[8]	_	
+13-2	873-874	P	_	_[8]	_	false[8]	2[8]	_	
+13-3	875-878	IMM	_	_[8]	_	false[8]	2[8]	_	
+13-4	878-879	.	_	_	_	_	_	_	
+
+#Text=Ni som är födda efter 1985 och gick i skolan på 90 till 00-talet, kunde ni se detta framtida kaos komma?
+14-1	881-883	Ni	_	_	_	_	_	_	
+14-2	884-887	som	_	_	_	_	_	_	
+14-3	888-890	är	_	_	_	_	_	_	
+14-4	891-896	födda	_	_	_	_	_	_	
+14-5	897-902	efter	_	_	_	_	_	_	
+14-6	903-907	1985	_	_	_	_	_	_	
+14-7	908-911	och	_	_	_	_	_	_	
+14-8	912-916	gick	_	_	_	_	_	_	
+14-9	917-918	i	_	_	_	_	_	_	
+14-10	919-925	skolan	_	_	_	_	_	_	
+14-11	926-928	på	_	_	_	_	_	_	
+14-12	929-931	90	_	_	_	_	_	_	
+14-13	932-936	till	_	_	_	_	_	_	
+14-14	937-939	00	_	_	_	_	_	_	
+14-15	939-940	-	_	_	_	_	_	_	
+14-16	940-945	talet	_	_	_	_	_	_	
+14-17	945-946	,	_	_	_	_	_	_	
+14-18	947-952	kunde	_	_	_	_	_	_	
+14-19	953-955	ni	_	_	_	_	_	_	
+14-20	956-958	se	_	_	_	_	_	_	
+14-21	959-964	detta	*	_	_	_	_	_	
+14-22	965-973	framtida	_	Target[9]	14-21	false[9]	2[9]	_	
+14-23	974-978	kaos	_	Target[9]	14-21	false[9]	2[9]	_	
+14-24	979-984	komma	_	_	_	_	_	_	
+14-25	984-985	?	_	_	_	_	_	_	
+
+#Text=Är ni förvånade över utvecklingen?.
+15-1	986-988	Är	_	_	_	_	_	_	
+15-2	989-991	ni	_	_	_	_	_	_	
+15-3	992-1001	förvånade	_	_	_	_	_	_	
+15-4	1002-1006	över	_	_	_	_	_	_	
+15-5	1007-1019	utvecklingen	_	_	_	_	_	_	
+15-6	1019-1020	?	_	_	_	_	_	_	
+15-7	1020-1021	.	_	_	_	false	2	_	

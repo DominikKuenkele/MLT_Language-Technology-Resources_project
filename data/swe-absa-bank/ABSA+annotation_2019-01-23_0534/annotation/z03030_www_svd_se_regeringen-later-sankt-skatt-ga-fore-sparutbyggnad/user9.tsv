@@ -1,0 +1,873 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Regeringen låter sänkt skatt gå före spårutbyggnad.
+3-1	18-28	Regeringen	*[17]|*[18]	_	_	_	_	_	
+3-2	29-34	låter	_	_[1]|_[2]	_|_	false[1]|false[2]	4[1]|2[2]	3-5[4_2]	
+3-3	35-40	sänkt	*[19]	_	_	_	_	_	
+3-4	41-46	skatt	*[19]	_	_	_	_	_	
+3-5	47-49	gå	_	Target;Source[3]|Target;Source[4]	3-3[19];3-1[17]|3-7;3-1[18]	false[3]|false[4]	4[3]|2[4]	3-2[1_3]	
+3-6	50-54	före	_	Target;Source[3]|Target;Source[4]	3-3[19];3-1[17]|3-7;3-1[18]	false[3]|false[4]	4[3]|2[4]	_	
+3-7	55-68	spårutbyggnad	*	_	_	_	_	_	
+3-8	68-69	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	
+
+#Text=Kaoset under de senaste dagarna är inte bara ett resultat av extrema väderförhållanden som den moderatledda regeringen försöker få det att framstå som.
+5-1	80-86	Kaoset	*[20]	Target	5-1[20]	false	1	_	
+5-2	87-92	under	*[20]	_	_	_	_	_	
+5-3	93-95	de	*[20]	_	_	_	_	_	
+5-4	96-103	senaste	*[20]	_	_	_	_	_	
+5-5	104-111	dagarna	*[20]	_	_	_	_	_	
+5-6	112-114	är	_	_	_	_	_	_	
+5-7	115-119	inte	_	_	_	_	_	_	
+5-8	120-124	bara	_	_	_	_	_	_	
+5-9	125-128	ett	_	_	_	_	_	_	
+5-10	129-137	resultat	_	_	_	_	_	_	
+5-11	138-140	av	_	_	_	_	_	_	
+5-12	141-148	extrema	_	_	_	_	_	_	
+5-13	149-166	väderförhållanden	_	_	_	_	_	_	
+5-14	167-170	som	_	_	_	_	_	_	
+5-15	171-174	den	_	_	_	_	_	_	
+5-16	175-187	moderatledda	_	_	_	_	_	_	
+5-17	188-198	regeringen	_	_	_	_	_	_	
+5-18	199-207	försöker	_	_	_	_	_	_	
+5-19	208-210	få	_	_	_	_	_	_	
+5-20	211-214	det	_	_	_	_	_	_	
+5-21	215-218	att	_	_	_	_	_	_	
+5-22	219-226	framstå	_	_	_	_	_	_	
+5-23	227-230	som	_	_	_	_	_	_	
+5-24	230-231	.	_	_	_	_	_	_	
+
+#Text=Trots att kapacitetsbristen är så tydlig försummar regeringen den långsiktiga utbyggnaden av järnvägens kapacitet, skriver Nalin Pekgul (S).
+6-1	232-237	Trots	_	_	_	_	_	_	
+6-2	238-241	att	_	_	_	_	_	_	
+6-3	242-259	kapacitetsbristen	*	Target	6-3	false	2	_	
+6-4	260-262	är	_	_	_	_	_	_	
+6-5	263-265	så	_	_	_	_	_	_	
+6-6	266-272	tydlig	_	_	_	_	_	_	
+6-7	273-282	försummar	_	Target	6-8	false	2	_	
+6-8	283-293	regeringen	*	_	_	_	_	_	
+6-9	294-297	den	_	_	_	_	_	_	
+6-10	298-309	långsiktiga	_	_	_	_	_	_	
+6-11	310-321	utbyggnaden	_	_	_	_	_	_	
+6-12	322-324	av	_	_	_	_	_	_	
+6-13	325-335	järnvägens	_	_	_	_	_	_	
+6-14	336-345	kapacitet	_	_	_	_	_	_	
+6-15	345-346	,	_	_	_	_	_	_	
+6-16	347-354	skriver	_	_	_	_	_	_	
+6-17	355-360	Nalin	_	_	_	_	_	_	
+6-18	361-367	Pekgul	_	_	_	_	_	_	
+6-19	368-369	(	_	_	_	_	_	_	
+6-20	369-370	S	_	_	_	_	_	_	
+6-21	370-371	)	_	_	_	_	_	_	
+6-22	371-372	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	374-375	#	_	_	_	_	_	_	
+7-2	375-376	P	_	_	_	_	_	_	
+7-3	377-380	IMM	_	_	_	_	_	_	
+7-4	380-381	.	_	_	_	_	_	_	
+
+#Text=De senaste dagarnas snöoväder har skapat kaos i tågtrafiken - såväl lokalt som regionalt.
+8-1	383-385	De	_	_	_	_	_	_	
+8-2	386-393	senaste	_	_	_	_	_	_	
+8-3	394-402	dagarnas	_	_	_	_	_	_	
+8-4	403-412	snöoväder	_	_	_	_	_	_	
+8-5	413-416	har	_	_	_	_	_	_	
+8-6	417-423	skapat	_	_	_	_	_	_	
+8-7	424-428	kaos	*[21]	Target	8-7[21]	false	1	_	
+8-8	429-430	i	*[21]	_	_	_	_	_	
+8-9	431-442	tågtrafiken	*[21]	_	_	_	_	_	
+8-10	443-444	-	_	_	_	_	_	_	
+8-11	445-450	såväl	_	_	_	_	_	_	
+8-12	451-457	lokalt	_	_	_	_	_	_	
+8-13	458-461	som	_	_	_	_	_	_	
+8-14	462-471	regionalt	_	_	_	_	_	_	
+8-15	471-472	.	_	_	_	_	_	_	
+
+#Text=Tusentals resenärer har drabbats, många har inte kunnat ta sig till jobben och blivit isolerade i sina hem.
+9-1	473-482	Tusentals	_	_	_	_	_	_	
+9-2	483-492	resenärer	_	_	_	_	_	_	
+9-3	493-496	har	_	_	_	_	_	_	
+9-4	497-505	drabbats	_	_	_	_	_	_	
+9-5	505-506	,	_	_	_	_	_	_	
+9-6	507-512	många	_	_	_	_	_	_	
+9-7	513-516	har	_	_	_	_	_	_	
+9-8	517-521	inte	_	_	_	_	_	_	
+9-9	522-528	kunnat	_	_	_	_	_	_	
+9-10	529-531	ta	_	_	_	_	_	_	
+9-11	532-535	sig	_	_	_	_	_	_	
+9-12	536-540	till	_	_	_	_	_	_	
+9-13	541-547	jobben	_	_	_	_	_	_	
+9-14	548-551	och	_	_	_	_	_	_	
+9-15	552-558	blivit	_	_	_	_	_	_	
+9-16	559-568	isolerade	_	_	_	_	_	_	
+9-17	569-570	i	_	_	_	_	_	_	
+9-18	571-575	sina	_	_	_	_	_	_	
+9-19	576-579	hem	_	_	_	_	_	_	
+9-20	579-580	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	582-583	#	_	_	_	_	_	_	
+10-2	583-584	P	_	_	_	_	_	_	
+10-3	585-588	IMM	_	_	_	_	_	_	
+10-4	588-589	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	591-594	Det	_	_	_	_	_	_	
+11-2	595-598	här	_	_	_	_	_	_	
+11-3	599-601	är	_	_	_	_	_	_	
+11-4	602-604	en	_	_	_	_	_	_	
+11-5	605-619	argumenterande	_	_	_	_	_	_	
+11-6	620-624	text	_	_	_	_	_	_	
+11-7	625-628	med	_	_	_	_	_	_	
+11-8	629-634	syfte	_	_	_	_	_	_	
+11-9	635-638	att	_	_	_	_	_	_	
+11-10	639-646	påverka	_	_	_	_	_	_	
+11-11	646-647	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	648-657	Åsikterna	_	_	_	_	_	_	
+12-2	658-661	som	_	_	_	_	_	_	
+12-3	662-670	uttrycks	_	_	_	_	_	_	
+12-4	671-673	är	_	_	_	_	_	_	
+12-5	674-685	skribentens	_	_	_	_	_	_	
+12-6	686-690	egna	_	_	_	_	_	_	
+12-7	690-691	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	693-694	#	_	_	_	_	_	_	
+13-2	694-695	P	_	_	_	_	_	_	
+13-3	696-699	IMM	_	_	_	_	_	_	
+13-4	699-700	.	_	_	_	_	_	_	
+
+#Text=Kaoset under de senaste dagarna är inte bara ett resultat av extrema väderförhållanden som den moderatledda regeringen försöker få det att framstå som.
+14-1	702-708	Kaoset	*[22]	Target	14-1[22]	false	1	_	
+14-2	709-714	under	*[22]	_	_	_	_	_	
+14-3	715-717	de	*[22]	_	_	_	_	_	
+14-4	718-725	senaste	*[22]	_	_	_	_	_	
+14-5	726-733	dagarna	_	_	_	_	_	_	
+14-6	734-736	är	_	_	_	_	_	_	
+14-7	737-741	inte	_	_	_	_	_	_	
+14-8	742-746	bara	_	_	_	_	_	_	
+14-9	747-750	ett	_	_	_	_	_	_	
+14-10	751-759	resultat	_	_	_	_	_	_	
+14-11	760-762	av	_	_	_	_	_	_	
+14-12	763-770	extrema	_	_	_	_	_	_	
+14-13	771-788	väderförhållanden	_	_	_	_	_	_	
+14-14	789-792	som	_	_	_	_	_	_	
+14-15	793-796	den	_	_	_	_	_	_	
+14-16	797-809	moderatledda	_	_	_	_	_	_	
+14-17	810-820	regeringen	_	_	_	_	_	_	
+14-18	821-829	försöker	_	_	_	_	_	_	
+14-19	830-832	få	_	_	_	_	_	_	
+14-20	833-836	det	_	_	_	_	_	_	
+14-21	837-840	att	_	_	_	_	_	_	
+14-22	841-848	framstå	_	_	_	_	_	_	
+14-23	849-852	som	_	_	_	_	_	_	
+14-24	852-853	.	_	_	_	_	_	_	
+
+#Text=Faktum är att redan innan snön och kylan var det många problem med tågtrafiken - en följd av bristande banunderhåll och skriande kapacitetsbrist på spåren.
+15-1	854-860	Faktum	_	_	_	_	_	_	
+15-2	861-863	är	_	_	_	_	_	_	
+15-3	864-867	att	_	_	_	_	_	_	
+15-4	868-873	redan	_	_	_	_	_	_	
+15-5	874-879	innan	_	_	_	_	_	_	
+15-6	880-884	snön	_	_	_	_	_	_	
+15-7	885-888	och	_	_	_	_	_	_	
+15-8	889-894	kylan	_	_	_	_	_	_	
+15-9	895-898	var	_	_	_	_	_	_	
+15-10	899-902	det	_	Target[5]	15-14	false[5]	2[5]	_	
+15-11	903-908	många	_	Target[5]	15-14	false[5]	2[5]	_	
+15-12	909-916	problem	_	Target[5]	15-14	false[5]	2[5]	_	
+15-13	917-920	med	_	Target[5]	15-14	false[5]	2[5]	_	
+15-14	921-932	tågtrafiken	*	_	_	_	_	_	
+15-15	933-934	-	_	_	_	_	_	_	
+15-16	935-937	en	_	_	_	_	_	_	
+15-17	938-943	följd	_	_	_	_	_	_	
+15-18	944-946	av	_	_	_	_	_	_	
+15-19	947-956	bristande	_	_	_	_	_	_	
+15-20	957-969	banunderhåll	_	_	_	_	_	_	
+15-21	970-973	och	_	_	_	_	_	_	
+15-22	974-982	skriande	_	_	_	_	_	_	
+15-23	983-998	kapacitetsbrist	_	_	_	_	_	_	
+15-24	999-1001	på	_	_	_	_	_	_	
+15-25	1002-1008	spåren	_	_	_	_	_	_	
+15-26	1008-1009	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1011-1012	#	_	_	_	_	_	_	
+16-2	1012-1013	P	_	_	_	_	_	_	
+16-3	1014-1017	IMM	_	_	_	_	_	_	
+16-4	1017-1018	.	_	_	_	_	_	_	
+
+#Text=Fler resenärer än någonsin använder tåget som transportmedel och järnvägarna utnyttjas till maxkapacitet vilket leder till att förseningar och andra problem oftast drabbar hela systemet.
+17-1	1020-1024	Fler	_	_	_	_	_	_	
+17-2	1025-1034	resenärer	_	_	_	_	_	_	
+17-3	1035-1037	än	_	_	_	_	_	_	
+17-4	1038-1046	någonsin	_	_	_	_	_	_	
+17-5	1047-1055	använder	_	_	_	_	_	_	
+17-6	1056-1061	tåget	_	_	_	_	_	_	
+17-7	1062-1065	som	_	_	_	_	_	_	
+17-8	1066-1080	transportmedel	_	_	_	_	_	_	
+17-9	1081-1084	och	_	_	_	_	_	_	
+17-10	1085-1096	järnvägarna	_	_	_	_	_	_	
+17-11	1097-1106	utnyttjas	_	_	_	_	_	_	
+17-12	1107-1111	till	_	_	_	_	_	_	
+17-13	1112-1124	maxkapacitet	_	_	_	_	_	_	
+17-14	1125-1131	vilket	_	_	_	_	_	_	
+17-15	1132-1137	leder	_	_	_	_	_	_	
+17-16	1138-1142	till	_	_	_	_	_	_	
+17-17	1143-1146	att	_	_	_	_	_	_	
+17-18	1147-1158	förseningar	*	_	_	_	_	_	
+17-19	1159-1162	och	_	Target[6]	17-18	false[6]	2[6]	_	
+17-20	1163-1168	andra	_	Target[6]	17-18	false[6]	2[6]	_	
+17-21	1169-1176	problem	_	Target[6]	17-18	false[6]	2[6]	_	
+17-22	1177-1183	oftast	_	_	_	_	_	_	
+17-23	1184-1191	drabbar	_	_	_	_	_	_	
+17-24	1192-1196	hela	_	_	_	_	_	_	
+17-25	1197-1205	systemet	_	_	_	_	_	_	
+17-26	1205-1206	.	_	_	_	_	_	_	
+
+#Text=Kylan och snön var bara droppen som fick bägaren och rinna över och nu är det mer uppenbart än någonsin: vi behöver lägga mer resurser på tågtrafiken!.
+18-1	1207-1212	Kylan	_	_	_	_	_	_	
+18-2	1213-1216	och	_	_	_	_	_	_	
+18-3	1217-1221	snön	_	_	_	_	_	_	
+18-4	1222-1225	var	_	_	_	_	_	_	
+18-5	1226-1230	bara	_	_	_	_	_	_	
+18-6	1231-1238	droppen	_	_	_	_	_	_	
+18-7	1239-1242	som	_	_	_	_	_	_	
+18-8	1243-1247	fick	_	_	_	_	_	_	
+18-9	1248-1255	bägaren	_	_	_	_	_	_	
+18-10	1256-1259	och	_	_	_	_	_	_	
+18-11	1260-1265	rinna	_	_	_	_	_	_	
+18-12	1266-1270	över	_	_	_	_	_	_	
+18-13	1271-1274	och	_	_	_	_	_	_	
+18-14	1275-1277	nu	_	_	_	_	_	_	
+18-15	1278-1280	är	_	_	_	_	_	_	
+18-16	1281-1284	det	_	_	_	_	_	_	
+18-17	1285-1288	mer	_	_	_	_	_	_	
+18-18	1289-1298	uppenbart	_	_	_	_	_	_	
+18-19	1299-1301	än	_	_	_	_	_	_	
+18-20	1302-1310	någonsin	_	_	_	_	_	_	
+18-21	1310-1311	:	_	_	_	_	_	_	
+18-22	1312-1314	vi	_	_	_	_	_	_	
+18-23	1315-1322	behöver	_	_	_	_	_	_	
+18-24	1323-1328	lägga	_	_	_	_	_	_	
+18-25	1329-1332	mer	_	_	_	_	_	_	
+18-26	1333-1341	resurser	_	_	_	_	_	_	
+18-27	1342-1344	på	_	_	_	_	_	_	
+18-28	1345-1356	tågtrafiken	_	_	_	_	_	_	
+18-29	1356-1357	!	_	_	_	_	_	_	
+18-30	1357-1358	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1360-1361	#	_	_	_	_	_	_	
+19-2	1361-1362	P	_	_	_	_	_	_	
+19-3	1363-1366	IMM	_	_	_	_	_	_	
+19-4	1366-1367	.	_	_	_	_	_	_	
+
+#Text=Trots att kapacitetsbristen är så tydlig försummar regeringen den långsiktiga utbyggnaden av järnvägens kapacitet.
+20-1	1369-1374	Trots	_	_	_	_	_	_	
+20-2	1375-1378	att	_	_	_	_	_	_	
+20-3	1379-1396	kapacitetsbristen	*	Target	20-3	false	2	_	
+20-4	1397-1399	är	_	_	_	_	_	_	
+20-5	1400-1402	så	_	_	_	_	_	_	
+20-6	1403-1409	tydlig	_	_	_	_	_	_	
+20-7	1410-1419	försummar	_	Target	20-8	false	2	_	
+20-8	1420-1430	regeringen	*	_	_	_	_	_	
+20-9	1431-1434	den	_	_	_	_	_	_	
+20-10	1435-1446	långsiktiga	_	_	_	_	_	_	
+20-11	1447-1458	utbyggnaden	_	_	_	_	_	_	
+20-12	1459-1461	av	_	_	_	_	_	_	
+20-13	1462-1472	järnvägens	_	_	_	_	_	_	
+20-14	1473-1482	kapacitet	_	_	_	_	_	_	
+20-15	1482-1483	.	_	_	_	_	_	_	
+
+#Text=I stället för att investera i tågtrafiken väljer regeringen att lägga pengarna på motorvägsbyggen och nya skattesänkningar.
+21-1	1484-1485	I	_	_	_	_	_	_	
+21-2	1486-1493	stället	_	_	_	_	_	_	
+21-3	1494-1497	för	_	_	_	_	_	_	
+21-4	1498-1501	att	_	_	_	_	_	_	
+21-5	1502-1511	investera	_	_	_	_	_	_	
+21-6	1512-1513	i	_	_	_	_	_	_	
+21-7	1514-1525	tågtrafiken	_	_	_	_	_	_	
+21-8	1526-1532	väljer	_	_	_	_	_	_	
+21-9	1533-1543	regeringen	_	_	_	_	_	_	
+21-10	1544-1547	att	_	_	_	_	_	_	
+21-11	1548-1553	lägga	_	_	_	_	_	_	
+21-12	1554-1562	pengarna	_	_	_	_	_	_	
+21-13	1563-1565	på	_	_	_	_	_	_	
+21-14	1566-1581	motorvägsbyggen	_	_	_	_	_	_	
+21-15	1582-1585	och	_	_	_	_	_	_	
+21-16	1586-1589	nya	_	_	_	_	_	_	
+21-17	1590-1606	skattesänkningar	_	_	_	_	_	_	
+21-18	1606-1607	.	_	_	_	_	_	_	
+
+#Text=Regeringen tycks tro att avregleringar och privatiseringar av järnvägstrafiken kommer att lösa alla problem.
+22-1	1608-1618	Regeringen	*	_	_	_	_	_	
+22-2	1619-1624	tycks	_	_	_	_	_	_	
+22-3	1625-1628	tro	_	_	_	_	_	_	
+22-4	1629-1632	att	_	_	_	_	_	_	
+22-5	1633-1646	avregleringar	*[23]	_	_	_	_	_	
+22-6	1647-1650	och	*[23]	_	_	_	_	_	
+22-7	1651-1666	privatiseringar	*[23]	_	_	_	_	_	
+22-8	1667-1669	av	*[23]	_	_	_	_	_	
+22-9	1670-1686	järnvägstrafiken	*[23]	_	_	_	_	_	
+22-10	1687-1693	kommer	_	Target;Source[7]	22-5[23];22-1	false[7]	4[7]	_	
+22-11	1694-1697	att	_	Target;Source[7]	22-5[23];22-1	false[7]	4[7]	_	
+22-12	1698-1702	lösa	_	Target;Source[7]	22-5[23];22-1	false[7]	4[7]	_	
+22-13	1703-1707	alla	_	Target;Source[7]	22-5[23];22-1	false[7]	4[7]	_	
+22-14	1708-1715	problem	_	Target;Source[7]	22-5[23];22-1	false[7]	4[7]	_	
+22-15	1715-1716	.	_	_	_	_	_	_	
+
+#Text=Men en avreglering av tågtrafiken leder bara till att belastningen på de mest trafikerade sträckorna ökar.
+23-1	1717-1720	Men	_	_	_	_	_	_	
+23-2	1721-1723	en	_	_	_	_	_	_	
+23-3	1724-1735	avreglering	_	_	_	_	_	_	
+23-4	1736-1738	av	_	_	_	_	_	_	
+23-5	1739-1750	tågtrafiken	_	_	_	_	_	_	
+23-6	1751-1756	leder	_	_	_	_	_	_	
+23-7	1757-1761	bara	_	_	_	_	_	_	
+23-8	1762-1766	till	_	_	_	_	_	_	
+23-9	1767-1770	att	_	_	_	_	_	_	
+23-10	1771-1783	belastningen	_	_	_	_	_	_	
+23-11	1784-1786	på	_	_	_	_	_	_	
+23-12	1787-1789	de	_	_	_	_	_	_	
+23-13	1790-1794	mest	_	_	_	_	_	_	
+23-14	1795-1806	trafikerade	_	_	_	_	_	_	
+23-15	1807-1817	sträckorna	_	_	_	_	_	_	
+23-16	1818-1822	ökar	_	_	_	_	_	_	
+23-17	1822-1823	.	_	_	_	_	_	_	
+
+#Text=De regionala pendeltågen kommer att trängas undan till förmån för den mer lönsamma fjärrtågstrafiken.
+24-1	1824-1826	De	_	_	_	_	_	_	
+24-2	1827-1836	regionala	_	_	_	_	_	_	
+24-3	1837-1848	pendeltågen	_	_	_	_	_	_	
+24-4	1849-1855	kommer	_	_	_	_	_	_	
+24-5	1856-1859	att	_	_	_	_	_	_	
+24-6	1860-1867	trängas	_	_	_	_	_	_	
+24-7	1868-1873	undan	_	_	_	_	_	_	
+24-8	1874-1878	till	_	_	_	_	_	_	
+24-9	1879-1885	förmån	_	_	_	_	_	_	
+24-10	1886-1889	för	_	_	_	_	_	_	
+24-11	1890-1893	den	_	_	_	_	_	_	
+24-12	1894-1897	mer	_	_	_	_	_	_	
+24-13	1898-1906	lönsamma	_	_	_	_	_	_	
+24-14	1907-1924	fjärrtågstrafiken	_	_	_	_	_	_	
+24-15	1924-1925	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1927-1928	#	_	_	_	_	_	_	
+25-2	1928-1929	P	_	_	_	_	_	_	
+25-3	1930-1933	IMM	_	_	_	_	_	_	
+25-4	1933-1934	.	_	_	_	_	_	_	
+
+#Text=Regeringen Reinfeldts argument för en privatisering av kollektivtrafiken är att ökad konkurrens leder till lägre priser och bättre service.
+26-1	1936-1946	Regeringen	*[24]	_	_	_	_	_	
+26-2	1947-1957	Reinfeldts	*[24]	_	_	_	_	_	
+26-3	1958-1966	argument	_	_	_	_	_	_	
+26-4	1967-1970	för	_	_	_	_	_	_	
+26-5	1971-1973	en	_	_	_	_	_	_	
+26-6	1974-1987	privatisering	_	_	_	_	_	_	
+26-7	1988-1990	av	_	_	_	_	_	_	
+26-8	1991-2008	kollektivtrafiken	_	_	_	_	_	_	
+26-9	2009-2011	är	_	_	_	_	_	_	
+26-10	2012-2015	att	_	_	_	_	_	_	
+26-11	2016-2020	ökad	*[25]	_	_	_	_	_	
+26-12	2021-2031	konkurrens	*[25]	_	_	_	_	_	
+26-13	2032-2037	leder	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-14	2038-2042	till	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-15	2043-2048	lägre	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-16	2049-2055	priser	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-17	2056-2059	och	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-18	2060-2066	bättre	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-19	2067-2074	service	_	Target;Source[8]	26-11[25];26-1[24]	false[8]	4[8]	_	
+26-20	2074-2075	.	_	_	_	_	_	_	
+
+#Text=Vad vi har kunnat se hittills är att verkligheten blivit en annan.
+27-1	2076-2079	Vad	_	_	_	_	_	_	
+27-2	2080-2082	vi	_	_	_	_	_	_	
+27-3	2083-2086	har	_	_	_	_	_	_	
+27-4	2087-2093	kunnat	_	_	_	_	_	_	
+27-5	2094-2096	se	_	_	_	_	_	_	
+27-6	2097-2105	hittills	_	_	_	_	_	_	
+27-7	2106-2108	är	_	_	_	_	_	_	
+27-8	2109-2112	att	_	_	_	_	_	_	
+27-9	2113-2125	verkligheten	_	_	_	_	_	_	
+27-10	2126-2132	blivit	_	_	_	_	_	_	
+27-11	2133-2135	en	_	_	_	_	_	_	
+27-12	2136-2141	annan	_	_	_	_	_	_	
+27-13	2141-2142	.	_	_	_	_	_	_	
+
+#Text=Tillgängligheten har blivit sämre och biljettpriserna har stigit.
+28-1	2143-2159	Tillgängligheten	_	_	_	_	_	_	
+28-2	2160-2163	har	_	_	_	_	_	_	
+28-3	2164-2170	blivit	_	_	_	_	_	_	
+28-4	2171-2176	sämre	_	_	_	_	_	_	
+28-5	2177-2180	och	_	_	_	_	_	_	
+28-6	2181-2196	biljettpriserna	_	_	_	_	_	_	
+28-7	2197-2200	har	_	_	_	_	_	_	
+28-8	2201-2207	stigit	_	_	_	_	_	_	
+28-9	2207-2208	.	_	_	_	_	_	_	
+
+#Text=Min väninna som bor på landet utanför Uppsala brukade alltid ta bussen in till sitt jobb i Uppsala eftersom hon ansåg det mer miljövänligt.
+29-1	2209-2212	Min	_	_	_	_	_	_	
+29-2	2213-2220	väninna	_	_	_	_	_	_	
+29-3	2221-2224	som	_	_	_	_	_	_	
+29-4	2225-2228	bor	_	_	_	_	_	_	
+29-5	2229-2231	på	_	_	_	_	_	_	
+29-6	2232-2238	landet	_	_	_	_	_	_	
+29-7	2239-2246	utanför	_	_	_	_	_	_	
+29-8	2247-2254	Uppsala	_	_	_	_	_	_	
+29-9	2255-2262	brukade	_	_	_	_	_	_	
+29-10	2263-2269	alltid	_	_	_	_	_	_	
+29-11	2270-2272	ta	_	_	_	_	_	_	
+29-12	2273-2279	bussen	_	_	_	_	_	_	
+29-13	2280-2282	in	_	_	_	_	_	_	
+29-14	2283-2287	till	_	_	_	_	_	_	
+29-15	2288-2292	sitt	_	_	_	_	_	_	
+29-16	2293-2297	jobb	_	_	_	_	_	_	
+29-17	2298-2299	i	_	_	_	_	_	_	
+29-18	2300-2307	Uppsala	_	_	_	_	_	_	
+29-19	2308-2316	eftersom	_	_	_	_	_	_	
+29-20	2317-2320	hon	_	_	_	_	_	_	
+29-21	2321-2326	ansåg	_	_	_	_	_	_	
+29-22	2327-2330	det	_	_	_	_	_	_	
+29-23	2331-2334	mer	_	_	_	_	_	_	
+29-24	2335-2347	miljövänligt	_	_	_	_	_	_	
+29-25	2347-2348	.	_	_	_	_	_	_	
+
+#Text=Men sedan några år tillbaka har hon slutat med detta.
+30-1	2349-2352	Men	_	_	_	_	_	_	
+30-2	2353-2358	sedan	_	_	_	_	_	_	
+30-3	2359-2364	några	_	_	_	_	_	_	
+30-4	2365-2367	år	_	_	_	_	_	_	
+30-5	2368-2376	tillbaka	_	_	_	_	_	_	
+30-6	2377-2380	har	_	_	_	_	_	_	
+30-7	2381-2384	hon	_	_	_	_	_	_	
+30-8	2385-2391	slutat	_	_	_	_	_	_	
+30-9	2392-2395	med	_	_	_	_	_	_	
+30-10	2396-2401	detta	_	_	_	_	_	_	
+30-11	2401-2402	.	_	_	_	_	_	_	
+
+#Text=Priset för att åka buss har nämligen dubblerats samtidigt som bussförbindelserna nästan halverats!
+31-1	2403-2409	Priset	_	_	_	_	_	_	
+31-2	2410-2413	för	_	_	_	_	_	_	
+31-3	2414-2417	att	_	_	_	_	_	_	
+31-4	2418-2421	åka	_	_	_	_	_	_	
+31-5	2422-2426	buss	_	_	_	_	_	_	
+31-6	2427-2430	har	_	_	_	_	_	_	
+31-7	2431-2439	nämligen	_	_	_	_	_	_	
+31-8	2440-2450	dubblerats	_	_	_	_	_	_	
+31-9	2451-2460	samtidigt	_	_	_	_	_	_	
+31-10	2461-2464	som	_	_	_	_	_	_	
+31-11	2465-2483	bussförbindelserna	_	_	_	_	_	_	
+31-12	2484-2490	nästan	_	_	_	_	_	_	
+31-13	2491-2500	halverats	_	_	_	_	_	_	
+31-14	2500-2501	!	_	_	_	_	_	_	
+
+#Text=Trots att hon egentligen skulle vilja ta bussen gör hon inte det längre av tidsmässiga och ekonomiska skäl.
+32-1	2502-2507	Trots	_	_	_	_	_	_	
+32-2	2508-2511	att	_	_	_	_	_	_	
+32-3	2512-2515	hon	_	_	_	_	_	_	
+32-4	2516-2526	egentligen	_	_	_	_	_	_	
+32-5	2527-2533	skulle	_	_	_	_	_	_	
+32-6	2534-2539	vilja	_	_	_	_	_	_	
+32-7	2540-2542	ta	_	_	_	_	_	_	
+32-8	2543-2549	bussen	_	_	_	_	_	_	
+32-9	2550-2553	gör	_	_	_	_	_	_	
+32-10	2554-2557	hon	_	_	_	_	_	_	
+32-11	2558-2562	inte	_	_	_	_	_	_	
+32-12	2563-2566	det	_	_	_	_	_	_	
+32-13	2567-2573	längre	_	_	_	_	_	_	
+32-14	2574-2576	av	_	_	_	_	_	_	
+32-15	2577-2588	tidsmässiga	_	_	_	_	_	_	
+32-16	2589-2592	och	_	_	_	_	_	_	
+32-17	2593-2603	ekonomiska	_	_	_	_	_	_	
+32-18	2604-2608	skäl	_	_	_	_	_	_	
+32-19	2608-2609	.	_	_	_	_	_	_	
+
+#Text=Jag tror inte min väninna är ensam om denna erfarenhet.
+33-1	2610-2613	Jag	_	_	_	_	_	_	
+33-2	2614-2618	tror	_	_	_	_	_	_	
+33-3	2619-2623	inte	_	_	_	_	_	_	
+33-4	2624-2627	min	_	_	_	_	_	_	
+33-5	2628-2635	väninna	_	_	_	_	_	_	
+33-6	2636-2638	är	_	_	_	_	_	_	
+33-7	2639-2644	ensam	_	_	_	_	_	_	
+33-8	2645-2647	om	_	_	_	_	_	_	
+33-9	2648-2653	denna	_	_	_	_	_	_	
+33-10	2654-2664	erfarenhet	_	_	_	_	_	_	
+33-11	2664-2665	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2667-2668	#	_	_	_	_	_	_	
+34-2	2668-2669	P	_	_	_	_	_	_	
+34-3	2670-2673	IMM	_	_	_	_	_	_	
+34-4	2673-2674	.	_	_	_	_	_	_	
+
+#Text=Även i Stockholm har biljettpriserna i kollektivtrafiken stigit de senaste åren trots att staden genom trängselskatten borde ha fått ökade medel att finansiera kollektivtrafiken.
+35-1	2676-2680	Även	_	_	_	_	_	_	
+35-2	2681-2682	i	_	_	_	_	_	_	
+35-3	2683-2692	Stockholm	_	_	_	_	_	_	
+35-4	2693-2696	har	_	_	_	_	_	_	
+35-5	2697-2712	biljettpriserna	_	_	_	_	_	_	
+35-6	2713-2714	i	_	_	_	_	_	_	
+35-7	2715-2732	kollektivtrafiken	_	_	_	_	_	_	
+35-8	2733-2739	stigit	_	_	_	_	_	_	
+35-9	2740-2742	de	_	_	_	_	_	_	
+35-10	2743-2750	senaste	_	_	_	_	_	_	
+35-11	2751-2755	åren	_	_	_	_	_	_	
+35-12	2756-2761	trots	_	_	_	_	_	_	
+35-13	2762-2765	att	_	_	_	_	_	_	
+35-14	2766-2772	staden	_	_	_	_	_	_	
+35-15	2773-2778	genom	_	_	_	_	_	_	
+35-16	2779-2794	trängselskatten	_	_	_	_	_	_	
+35-17	2795-2800	borde	_	_	_	_	_	_	
+35-18	2801-2803	ha	_	_	_	_	_	_	
+35-19	2804-2808	fått	_	_	_	_	_	_	
+35-20	2809-2814	ökade	_	_	_	_	_	_	
+35-21	2815-2820	medel	_	_	_	_	_	_	
+35-22	2821-2824	att	_	_	_	_	_	_	
+35-23	2825-2835	finansiera	_	_	_	_	_	_	
+35-24	2836-2853	kollektivtrafiken	_	_	_	_	_	_	
+35-25	2853-2854	.	_	_	_	_	_	_	
+
+#Text=Men de pengarna har i stället bara gått till vägbyggen.
+36-1	2855-2858	Men	_	_	_	_	_	_	
+36-2	2859-2861	de	_	_	_	_	_	_	
+36-3	2862-2870	pengarna	_	_	_	_	_	_	
+36-4	2871-2874	har	_	_	_	_	_	_	
+36-5	2875-2876	i	_	_	_	_	_	_	
+36-6	2877-2884	stället	_	_	_	_	_	_	
+36-7	2885-2889	bara	_	_	_	_	_	_	
+36-8	2890-2894	gått	_	_	_	_	_	_	
+36-9	2895-2899	till	_	_	_	_	_	_	
+36-10	2900-2909	vägbyggen	_	_	_	_	_	_	
+36-11	2909-2910	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2912-2913	#	_	_	_	_	_	_	
+37-2	2913-2914	P	_	_	_	_	_	_	
+37-3	2915-2918	IMM	_	_	_	_	_	_	
+37-4	2918-2919	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2921-2934	Skräddarsydda	_	_	_	_	_	_	
+38-2	2935-2941	kurser	_	_	_	_	_	_	
+38-3	2942-2943	i	_	_	_	_	_	_	
+38-4	2944-2949	ämnen	_	_	_	_	_	_	
+38-5	2950-2953	som	_	_	_	_	_	_	
+38-6	2954-2965	intresserar	_	_	_	_	_	_	
+38-7	2966-2969	och	_	_	_	_	_	_	
+38-8	2970-2979	engagerar	_	_	_	_	_	_	
+38-9	2980-2984	både	_	_	_	_	_	_	
+38-10	2985-2990	kropp	_	_	_	_	_	_	
+38-11	2991-2994	och	_	_	_	_	_	_	
+38-12	2995-2999	själ	_	_	_	_	_	_	
+38-13	2999-3000	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3002-3003	#	_	_	_	_	_	_	
+39-2	3003-3004	P	_	_	_	_	_	_	
+39-3	3005-3008	IMM	_	_	_	_	_	_	
+39-4	3008-3009	.	_	_	_	_	_	_	
+
+#Text=Klimatfrågorna är inte något som kan vänta.
+40-1	3011-3025	Klimatfrågorna	_	_	_	_	_	_	
+40-2	3026-3028	är	_	_	_	_	_	_	
+40-3	3029-3033	inte	_	_	_	_	_	_	
+40-4	3034-3039	något	_	_	_	_	_	_	
+40-5	3040-3043	som	_	_	_	_	_	_	
+40-6	3044-3047	kan	_	_	_	_	_	_	
+40-7	3048-3053	vänta	_	_	_	_	_	_	
+40-8	3053-3054	.	_	_	_	_	_	_	
+
+#Text=Det krävs en aktiv och framåtblickande politik- här och nu - för att minska användningen av fossila bränslen.
+41-1	3055-3058	Det	_	Target[9]	41-3[26]	false[9]	4[9]	_	
+41-2	3059-3064	krävs	_	Target[9]	41-3[26]	false[9]	4[9]	_	
+41-3	3065-3067	en	*[26]	_	_	_	_	_	
+41-4	3068-3073	aktiv	*[26]	_	_	_	_	_	
+41-5	3074-3077	och	*[26]	_	_	_	_	_	
+41-6	3078-3093	framåtblickande	*[26]	_	_	_	_	_	
+41-7	3094-3101	politik	*[26]	_	_	_	_	_	
+41-8	3101-3102	-	*[26]	_	_	_	_	_	
+41-9	3103-3106	här	*[26]	_	_	_	_	_	
+41-10	3107-3110	och	*[26]	_	_	_	_	_	
+41-11	3111-3113	nu	*[26]	_	_	_	_	_	
+41-12	3114-3115	-	*[26]	_	_	_	_	_	
+41-13	3116-3119	för	*[26]	_	_	_	_	_	
+41-14	3120-3123	att	*[26]	_	_	_	_	_	
+41-15	3124-3130	minska	*[26]	_	_	_	_	_	
+41-16	3131-3143	användningen	*[26]	_	_	_	_	_	
+41-17	3144-3146	av	*[26]	_	_	_	_	_	
+41-18	3147-3154	fossila	*[26]	_	_	_	_	_	
+41-19	3155-3163	bränslen	*[26]	_	_	_	_	_	
+41-20	3163-3164	.	_	_	_	_	_	_	
+
+#Text=Att resa med tåg är det överlägset mest klimatvänliga alternativet och därför är regeringens ovilja att satsa på järnvägar och kollektivtrafik mycket olycklig.
+42-1	3165-3168	Att	_	_	_	_	_	_	
+42-2	3169-3173	resa	_	_	_	_	_	_	
+42-3	3174-3177	med	_	_	_	_	_	_	
+42-4	3178-3181	tåg	_	_	_	_	_	_	
+42-5	3182-3184	är	_	_	_	_	_	_	
+42-6	3185-3188	det	_	_	_	_	_	_	
+42-7	3189-3199	överlägset	_	_	_	_	_	_	
+42-8	3200-3204	mest	_	_	_	_	_	_	
+42-9	3205-3218	klimatvänliga	_	_	_	_	_	_	
+42-10	3219-3231	alternativet	_	_	_	_	_	_	
+42-11	3232-3235	och	_	_	_	_	_	_	
+42-12	3236-3242	därför	_	_	_	_	_	_	
+42-13	3243-3245	är	_	Target	42-14[27]	false	2	42-22[10_0]	
+42-14	3246-3257	regeringens	*[27]	_	_	_	_	_	
+42-15	3258-3264	ovilja	*[27]	_	_	_	_	_	
+42-16	3265-3268	att	*[27]	_	_	_	_	_	
+42-17	3269-3274	satsa	*[27]	_	_	_	_	_	
+42-18	3275-3277	på	*[27]	_	_	_	_	_	
+42-19	3278-3287	järnvägar	*[27]	_	_	_	_	_	
+42-20	3288-3291	och	*[27]	_	_	_	_	_	
+42-21	3292-3307	kollektivtrafik	*[27]	_	_	_	_	_	
+42-22	3308-3314	mycket	_	_[10]	_	false[10]	2[10]	_	
+42-23	3315-3323	olycklig	_	_[10]	_	false[10]	2[10]	_	
+42-24	3323-3324	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3326-3327	#	_	_	_	_	_	_	
+43-2	3327-3328	P	_	_	_	_	_	_	
+43-3	3329-3332	IMM	_	_	_	_	_	_	
+43-4	3332-3333	.	_	_	_	_	_	_	
+
+#Text=Till skillnad från den borgerliga regeringen vill vi göra det lättare för resenärerna att välja de klimatvänliga alternativen.
+44-1	3335-3339	Till	_	_	_	_	_	_	
+44-2	3340-3348	skillnad	_	_	_	_	_	_	
+44-3	3349-3353	från	_	_	_	_	_	_	
+44-4	3354-3357	den	_	_	_	_	_	_	
+44-5	3358-3368	borgerliga	_	_	_	_	_	_	
+44-6	3369-3379	regeringen	_	_	_	_	_	_	
+44-7	3380-3384	vill	_	_	_	_	_	_	
+44-8	3385-3387	vi	_	_	_	_	_	_	
+44-9	3388-3392	göra	_	_	_	_	_	_	
+44-10	3393-3396	det	_	_	_	_	_	_	
+44-11	3397-3404	lättare	_	_	_	_	_	_	
+44-12	3405-3408	för	_	_	_	_	_	_	
+44-13	3409-3420	resenärerna	_	_	_	_	_	_	
+44-14	3421-3424	att	_	_	_	_	_	_	
+44-15	3425-3430	välja	_	_	_	_	_	_	
+44-16	3431-3433	de	_	_	_	_	_	_	
+44-17	3434-3447	klimatvänliga	_	_	_	_	_	_	
+44-18	3448-3460	alternativen	_	_	_	_	_	_	
+44-19	3460-3461	.	_	_	_	_	_	_	
+
+#Text=Vi vill investera i järnvägar och tåg och bygga ut kollektivtrafiken.
+45-1	3462-3464	Vi	_	_	_	_	_	_	
+45-2	3465-3469	vill	_	_	_	_	_	_	
+45-3	3470-3479	investera	_	_	_	_	_	_	
+45-4	3480-3481	i	_	_	_	_	_	_	
+45-5	3482-3491	järnvägar	_	_	_	_	_	_	
+45-6	3492-3495	och	_	_	_	_	_	_	
+45-7	3496-3499	tåg	_	_	_	_	_	_	
+45-8	3500-3503	och	_	_	_	_	_	_	
+45-9	3504-3509	bygga	_	_	_	_	_	_	
+45-10	3510-3512	ut	_	_	_	_	_	_	
+45-11	3513-3530	kollektivtrafiken	_	_	_	_	_	_	
+45-12	3530-3531	.	_	_	_	_	_	_	
+
+#Text=Vi tror inte att privatisering är ett bra alternativ och vill därför riva upp avregleringen av järnvägen.
+46-1	3532-3534	Vi	*[28]|*[29]	_	_	_	_	_	
+46-2	3535-3539	tror	_	_[11]	_	false[11]	2[11]	_	
+46-3	3540-3544	inte	_	_[11]	_	false[11]	2[11]	_	
+46-4	3545-3548	att	_	_[11]	_	false[11]	2[11]	_	
+46-5	3549-3562	privatisering	*	_	_	_	_	_	
+46-6	3563-3565	är	_	Source;Target[12]	46-1[28];46-5	false[12]	2[12]	46-2[11_12]	
+46-7	3566-3569	ett	_	Source;Target[12]	46-1[28];46-5	false[12]	2[12]	_	
+46-8	3570-3573	bra	_	Source;Target[12]	46-1[28];46-5	false[12]	2[12]	_	
+46-9	3574-3584	alternativ	_	Source;Target[12]	46-1[28];46-5	false[12]	2[12]	_	
+46-10	3585-3588	och	_	_	_	_	_	_	
+46-11	3589-3593	vill	_	_	_	false	2	_	
+46-12	3594-3600	därför	_	_	_	_	_	_	
+46-13	3601-3605	riva	_	Target;Source[13]	46-15[30];46-1[29]	false[13]	2[13]	46-11[0_13]	
+46-14	3606-3609	upp	_	Target;Source[13]	46-15[30];46-1[29]	false[13]	2[13]	_	
+46-15	3610-3623	avregleringen	*[30]	_	_	_	_	_	
+46-16	3624-3626	av	*[30]	_	_	_	_	_	
+46-17	3627-3636	järnvägen	*[30]	_	_	_	_	_	
+46-18	3636-3637	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3639-3640	#	_	_	_	_	_	_	
+47-2	3640-3641	P	_	_	_	_	_	_	
+47-3	3642-3645	IMM	_	_	_	_	_	_	
+47-4	3645-3646	.	_	_	_	_	_	_	
+
+#Text=Kollektivtrafiken handlar också i högsta grad om jämställdhet eftersom kvinnor reser mer kollektivt än män.
+48-1	3648-3665	Kollektivtrafiken	_	_	_	_	_	_	
+48-2	3666-3673	handlar	_	_	_	_	_	_	
+48-3	3674-3679	också	_	_	_	_	_	_	
+48-4	3680-3681	i	_	_	_	_	_	_	
+48-5	3682-3688	högsta	_	_	_	_	_	_	
+48-6	3689-3693	grad	_	_	_	_	_	_	
+48-7	3694-3696	om	_	_	_	_	_	_	
+48-8	3697-3709	jämställdhet	_	_	_	_	_	_	
+48-9	3710-3718	eftersom	_	_	_	_	_	_	
+48-10	3719-3726	kvinnor	_	_	_	_	_	_	
+48-11	3727-3732	reser	_	_	_	_	_	_	
+48-12	3733-3736	mer	_	_	_	_	_	_	
+48-13	3737-3747	kollektivt	_	_	_	_	_	_	
+48-14	3748-3750	än	_	_	_	_	_	_	
+48-15	3751-3754	män	_	_	_	_	_	_	
+48-16	3754-3755	.	_	_	_	_	_	_	
+
+#Text=Kvinnorna, som i genomsnitt redan har det sämre ekonomiskt ställt än männen, drabbas därför hårdast när regeringen försämrar kollektivtrafiken.
+49-1	3756-3765	Kvinnorna	_	_	_	_	_	_	
+49-2	3765-3766	,	_	_	_	_	_	_	
+49-3	3767-3770	som	_	_	_	_	_	_	
+49-4	3771-3772	i	_	_	_	_	_	_	
+49-5	3773-3783	genomsnitt	_	_	_	_	_	_	
+49-6	3784-3789	redan	_	_	_	_	_	_	
+49-7	3790-3793	har	_	_	_	_	_	_	
+49-8	3794-3797	det	_	_	_	_	_	_	
+49-9	3798-3803	sämre	_	_	_	_	_	_	
+49-10	3804-3814	ekonomiskt	_	_	_	_	_	_	
+49-11	3815-3821	ställt	_	_	_	_	_	_	
+49-12	3822-3824	än	_	_	_	_	_	_	
+49-13	3825-3831	männen	_	_	_	_	_	_	
+49-14	3831-3832	,	_	_	_	_	_	_	
+49-15	3833-3840	drabbas	_	Target[14]	49-18[31]	false[14]	2[14]	_	
+49-16	3841-3847	därför	_	Target[14]	49-18[31]	false[14]	2[14]	_	
+49-17	3848-3855	hårdast	_	Target[14]	49-18[31]	false[14]	2[14]	_	
+49-18	3856-3859	när	*[31]	_	_	_	_	_	
+49-19	3860-3870	regeringen	*[31]	_	_	_	_	_	
+49-20	3871-3880	försämrar	*[31]	_	_	_	_	_	
+49-21	3881-3898	kollektivtrafiken	*[31]	_	_	_	_	_	
+49-22	3898-3899	.	_	_	_	_	_	_	
+
+#Text=Men försämrad kollektivtrafik går förstås ut över alla som åker kollektivt, inte minst de grupper som ofta saknar tillgång till bil, såsom pensionärer, ungdomar och låginkomsttagare.
+50-1	3900-3903	Men	_	_	_	_	_	_	
+50-2	3904-3913	försämrad	*[32]	_	_	_	_	_	
+50-3	3914-3929	kollektivtrafik	*[32]	_	_	_	_	_	
+50-4	3930-3933	går	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-5	3934-3941	förstås	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-6	3942-3944	ut	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-7	3945-3949	över	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-8	3950-3954	alla	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-9	3955-3958	som	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-10	3959-3963	åker	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-11	3964-3974	kollektivt	_	Target[15]	50-2[32]	false[15]	2[15]	_	
+50-12	3974-3975	,	_	_	_	_	_	_	
+50-13	3976-3980	inte	_	_	_	_	_	_	
+50-14	3981-3986	minst	_	_	_	_	_	_	
+50-15	3987-3989	de	_	_	_	_	_	_	
+50-16	3990-3997	grupper	_	_	_	_	_	_	
+50-17	3998-4001	som	_	_	_	_	_	_	
+50-18	4002-4006	ofta	_	_	_	_	_	_	
+50-19	4007-4013	saknar	_	_	_	_	_	_	
+50-20	4014-4022	tillgång	_	_	_	_	_	_	
+50-21	4023-4027	till	_	_	_	_	_	_	
+50-22	4028-4031	bil	_	_	_	_	_	_	
+50-23	4031-4032	,	_	_	_	_	_	_	
+50-24	4033-4038	såsom	_	_	_	_	_	_	
+50-25	4039-4050	pensionärer	_	_	_	_	_	_	
+50-26	4050-4051	,	_	_	_	_	_	_	
+50-27	4052-4060	ungdomar	_	_	_	_	_	_	
+50-28	4061-4064	och	_	_	_	_	_	_	
+50-29	4065-4081	låginkomsttagare	_	_	_	_	_	_	
+50-30	4081-4082	.	_	_	_	_	_	_	
+
+#Text=Regeringens politik slår som vanligt hårdast mot dem som är mest utsatta.
+51-1	4083-4094	Regeringens	*[33]	_	_	_	_	_	
+51-2	4095-4102	politik	*[33]	_	_	_	_	_	
+51-3	4103-4107	slår	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-4	4108-4111	som	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-5	4112-4119	vanligt	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-6	4120-4127	hårdast	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-7	4128-4131	mot	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-8	4132-4135	dem	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-9	4136-4139	som	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-10	4140-4142	är	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-11	4143-4147	mest	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-12	4148-4155	utsatta	_	Target[16]	51-1[33]	false[16]	2[16]	_	
+51-13	4155-4156	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4158-4159	#	_	_	_	_	_	_	
+52-2	4159-4160	P	_	_	_	_	_	_	
+52-3	4161-4164	IMM	_	_	_	_	_	_	
+52-4	4164-4165	.	_	_	_	_	_	_	
+
+#Text=NALIN PEKGUL.
+53-1	4167-4172	NALIN	_	_	_	_	_	_	
+53-2	4173-4179	PEKGUL	_	_	_	_	_	_	
+53-3	4179-4180	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4182-4183	#	_	_	_	_	_	_	
+54-2	4183-4184	P	_	_	_	_	_	_	
+54-3	4185-4188	IMM	_	_	_	_	_	_	
+54-4	4188-4189	.	_	_	_	_	_	_	
+
+#Text=ordförande Socialdemokartiska kvinnoförbundet.
+55-1	4191-4201	ordförande	_	_	_	_	_	_	
+55-2	4202-4220	Socialdemokartiska	_	_	_	_	_	_	
+55-3	4221-4236	kvinnoförbundet	_	_	_	_	_	_	
+55-4	4236-4237	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4239-4240	#	_	_	_	_	_	_	
+56-2	4240-4241	P	_	_	_	_	_	_	
+56-3	4242-4245	IMM	_	_	_	_	_	_	
+56-4	4245-4246	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+57-1	4248-4256	Redaktör	_	_	_	_	_	_	
+57-2	4256-4257	:	_	_	_	_	_	_	
+57-3	4258-4264	Carina	_	_	_	_	_	_	
+57-4	4265-4273	Stensson	_	_	_	_	_	_	
+57-5	4273-4274	,	_	_	_	_	_	_	
+57-6	4275-4285	Biträdande	_	_	_	_	_	_	
+57-7	4286-4294	redaktör	_	_	_	_	_	_	
+57-8	4294-4295	:	_	_	_	_	_	_	
+57-9	4296-4301	Björn	_	_	_	_	_	_	
+57-10	4302-4308	Jorner	_	_	_	_	_	_	
+57-11	4308-4309	,	_	_	_	_	_	_	
+57-12	4310-4314	Mejl	_	_	_	_	_	_	
+57-13	4314-4315	:	_	_	_	_	_	_	
+57-14	4316-4322	debatt	_	_	_	_	_	_	
+57-15	4322-4323	@	_	_	_	_	_	_	
+57-16	4323-4329	svd.se	_	_	_	_	_	_	
+57-17	4329-4330	,	_	_	_	_	_	_	
+57-18	4331-4344	Telefonnummer	_	_	_	_	_	_	
+57-19	4344-4345	:	_	_	_	_	_	_	
+57-20	4346-4348	08	_	_	_	_	_	_	
+57-21	4348-4349	-	_	_	_	_	_	_	
+57-22	4349-4355	135149	_	_	_	_	_	_	
+57-23	4355-4356	,	_	_	_	_	_	_	
+57-24	4357-4364	Twitter	_	_	_	_	_	_	
+57-25	4364-4365	:	_	_	_	_	_	_	
+57-26	4366-4367	@	_	_	_	_	_	_	
+57-27	4367-4376	SvDDebatt	_	_	_	_	_	_	
+57-28	4376-4377	,	_	_	_	_	_	_	
+57-29	4378-4386	Facebook	_	_	_	_	_	_	
+57-30	4386-4387	:	_	_	_	_	_	_	
+57-31	4388-4391	SvD	_	_	_	_	_	_	
+57-32	4392-4398	Debatt	_	_	_	_	_	_	
+57-33	4398-4399	.	_	_	_	_	_	_	

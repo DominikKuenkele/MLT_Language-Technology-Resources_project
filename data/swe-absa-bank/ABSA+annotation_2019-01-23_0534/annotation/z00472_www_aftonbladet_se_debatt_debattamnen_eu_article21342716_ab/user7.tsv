@@ -1,0 +1,680 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Grisarna vinner på en sakligare debatt.
+3-1	18-26	Grisarna	_	_	_	_	_	_	_	
+3-2	27-33	vinner	_	_	_	_	_	_	_	
+3-3	34-36	på	_	_	_	_	_	_	_	
+3-4	37-39	en	_	_	_	_	_	_	_	
+3-5	40-49	sakligare	_	_	_	_	_	_	_	
+3-6	50-56	debatt	_	_	_	_	_	_	_	
+3-7	56-57	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	_	
+
+#Text=Grillkvällar hör sommaren till och vi svenskar lägger allt mer av inhemskt producerat kött på grillen.
+5-1	68-80	Grillkvällar	_	_	_	_	_	_	_	
+5-2	81-84	hör	_	_	_	_	_	_	_	
+5-3	85-93	sommaren	_	_	_	_	_	_	_	
+5-4	94-98	till	_	_	_	_	_	_	_	
+5-5	99-102	och	_	_	_	_	_	_	_	
+5-6	103-105	vi	_	_	_	_	_	_	_	
+5-7	106-114	svenskar	_	_	_	_	_	_	_	
+5-8	115-121	lägger	_	_	_	_	_	_	_	
+5-9	122-126	allt	_	_	_	_	_	_	_	
+5-10	127-130	mer	_	_	_	_	_	_	_	
+5-11	131-133	av	_	_	_	_	_	_	_	
+5-12	134-142	inhemskt	_	_	_	_	_	_	_	
+5-13	143-153	producerat	_	_	_	_	_	_	_	
+5-14	154-158	kött	_	_	_	_	_	_	_	
+5-15	159-161	på	_	_	_	_	_	_	_	
+5-16	162-169	grillen	_	_	_	_	_	_	_	
+5-17	169-170	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller särskilt för fläskprodukter – under första kvartalet i år minskade importen av griskött med nästan tolv procent.
+6-1	171-174	Det	_	_	_	_	_	_	_	
+6-2	175-181	gäller	_	_	_	_	_	_	_	
+6-3	182-190	särskilt	_	_	_	_	_	_	_	
+6-4	191-194	för	_	_	_	_	_	_	_	
+6-5	195-209	fläskprodukter	_	_	_	_	_	_	_	
+6-6	210-211	–	_	_	_	_	_	_	_	
+6-7	212-217	under	_	_	_	_	_	_	_	
+6-8	218-224	första	_	_	_	_	_	_	_	
+6-9	225-234	kvartalet	_	_	_	_	_	_	_	
+6-10	235-236	i	_	_	_	_	_	_	_	
+6-11	237-239	år	_	_	_	_	_	_	_	
+6-12	240-248	minskade	_	_	_	_	_	_	_	
+6-13	249-257	importen	_	_	_	_	_	_	_	
+6-14	258-260	av	_	_	_	_	_	_	_	
+6-15	261-269	griskött	_	_	_	_	_	_	_	
+6-16	270-273	med	_	_	_	_	_	_	_	
+6-17	274-280	nästan	_	_	_	_	_	_	_	
+6-18	281-285	tolv	_	_	_	_	_	_	_	
+6-19	286-293	procent	_	_	_	_	_	_	_	
+6-20	293-294	.	_	_	_	_	_	_	_	
+
+#Text=Det är bra att svenska konsumenter har högt förtroende för de svenska grisbönderna efter det senaste årets debatt om djurvälfärd.
+7-1	295-298	Det	_	_	_	_	_	_	_	
+7-2	299-301	är	_	Target[1]	7-4[16]	false[1]	4[1]	_	_	
+7-3	302-305	bra	_	Target[1]	7-4[16]	false[1]	4[1]	_	_	
+7-4	306-309	att	*[16]	_	_	_	_	_	_	
+7-5	310-317	svenska	*[16]|*[17]	_	_	_	_	_	_	
+7-6	318-329	konsumenter	*[16]|*[17]	_	_	_	_	_	_	
+7-7	330-333	har	*[16]	Source;Target[2]	7-5[17];7-11[18]	false[2]	5[2]	_	_	
+7-8	334-338	högt	*[16]	Source;Target[2]	7-5[17];7-11[18]	false[2]	5[2]	_	_	
+7-9	339-349	förtroende	*[16]	Source;Target[2]	7-5[17];7-11[18]	false[2]	5[2]	_	_	
+7-10	350-353	för	*[16]	Source;Target[2]	7-5[17];7-11[18]	false[2]	5[2]	_	_	
+7-11	354-356	de	*[16]|*[18]	_	_	_	_	_	_	
+7-12	357-364	svenska	*[16]|*[18]	_	_	_	_	_	_	
+7-13	365-377	grisbönderna	*[16]|*[18]	_	_	_	_	_	_	
+7-14	378-383	efter	*[16]	_	_	_	_	_	_	
+7-15	384-387	det	*[16]	_	_	_	_	_	_	
+7-16	388-395	senaste	*[16]	_	_	_	_	_	_	
+7-17	396-401	årets	*[16]	_	_	_	_	_	_	
+7-18	402-408	debatt	*[16]	_	_	_	_	_	_	
+7-19	409-411	om	*[16]	_	_	_	_	_	_	
+7-20	412-423	djurvälfärd	*[16]	_	_	_	_	_	_	
+7-21	423-424	.	_	_	_	_	_	_	_	
+
+#Text=Danmark har stått tydligast i skottgluggen i svensk medier och har närmast blivit symbolen för dålig djurvälfärd i den politiska debatten.
+8-1	425-432	Danmark	*	_	_	_	_	_	_	
+8-2	433-436	har	_	_	_	_	_	_	_	
+8-3	437-442	stått	_	_	_	_	_	_	_	
+8-4	443-452	tydligast	_	_	_	_	_	_	_	
+8-5	453-454	i	_	_	_	_	_	_	_	
+8-6	455-467	skottgluggen	_	_	_	_	_	_	_	
+8-7	468-469	i	_	_	_	_	_	_	_	
+8-8	470-476	svensk	_	_	_	_	_	_	_	
+8-9	477-483	medier	_	_	_	_	_	_	_	
+8-10	484-487	och	_	_	_	_	_	_	_	
+8-11	488-491	har	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-12	492-499	närmast	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-13	500-506	blivit	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-14	507-515	symbolen	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-15	516-519	för	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-16	520-525	dålig	_	Source;Target[3]|Target;Source[4]	8-22;8-1|8-17;8-22	false[3]|false[4]	2[3]|2[4]	_	_	
+8-17	526-537	djurvälfärd	*	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-18	538-539	i	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-19	540-543	den	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-20	544-553	politiska	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-21	554-562	debatten	_	Source;Target[3]	8-22;8-1	false[3]	2[3]	_	_	
+8-22	562-563	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	565-566	#	_	_	_	_	_	_	_	
+9-2	566-567	P	_	_	_	_	_	_	_	
+9-3	568-571	IMM	_	_	_	_	_	_	_	
+9-4	571-572	.	_	_	_	_	_	_	_	
+
+#Text=Men har grisarna verkligen fått det bättre av de senaste årens debatt och ändrade konsumtionsmönster?.
+10-1	574-577	Men	_	_	_	_	_	_	_	
+10-2	578-581	har	_	_	_	_	_	_	_	
+10-3	582-590	grisarna	*	_	_	_	_	_	_	
+10-4	591-600	verkligen	_	_	_	_	_	_	_	
+10-5	601-605	fått	_	_	_	_	_	_	_	
+10-6	606-609	det	_	_	_	_	_	_	_	
+10-7	610-616	bättre	_	_	_	_	_	_	_	
+10-8	617-619	av	_	_	_	_	_	_	_	
+10-9	620-622	de	_	_	_	_	_	_	_	
+10-10	623-630	senaste	_	_	_	_	_	_	_	
+10-11	631-636	årens	_	_	_	_	_	_	_	
+10-12	637-643	debatt	_	_	_	_	_	_	_	
+10-13	644-647	och	_	_	_	_	_	_	_	
+10-14	648-655	ändrade	_	_	_	_	_	_	_	
+10-15	656-674	konsumtionsmönster	_	_	_	_	_	_	_	
+10-16	674-675	?	_	_	_	_	_	_	_	
+10-17	675-676	.	_	Target	10-3	false	4	_	_	
+
+#Text=#P IMM.
+11-1	678-679	#	_	_	_	_	_	_	_	
+11-2	679-680	P	_	_	_	_	_	_	_	
+11-3	681-684	IMM	_	_	_	_	_	_	_	
+11-4	684-685	.	_	_	_	_	_	_	_	
+
+#Text=Trenden med minskad import från framför allt Danmark inleddes redan i fjol, efter rapporter om hög antibiotikaanvändning och bristande djurhållning bland Europas grisuppfödare.
+12-1	687-694	Trenden	_	_	_	_	_	_	_	
+12-2	695-698	med	_	_	_	_	_	_	_	
+12-3	699-706	minskad	_	_	_	_	_	_	_	
+12-4	707-713	import	_	_	_	_	_	_	_	
+12-5	714-718	från	_	_	_	_	_	_	_	
+12-6	719-726	framför	_	_	_	_	_	_	_	
+12-7	727-731	allt	_	_	_	_	_	_	_	
+12-8	732-739	Danmark	_	_	_	_	_	_	_	
+12-9	740-748	inleddes	_	_	_	_	_	_	_	
+12-10	749-754	redan	_	_	_	_	_	_	_	
+12-11	755-756	i	_	_	_	_	_	_	_	
+12-12	757-761	fjol	_	_	_	_	_	_	_	
+12-13	761-762	,	_	_	_	_	_	_	_	
+12-14	763-768	efter	_	_	_	_	_	_	_	
+12-15	769-778	rapporter	_	_	_	_	_	_	_	
+12-16	779-781	om	_	_	_	_	_	_	_	
+12-17	782-785	hög	_	_	_	_	_	_	_	
+12-18	786-807	antibiotikaanvändning	_	_	_	_	_	_	_	
+12-19	808-811	och	_	_	_	_	_	_	_	
+12-20	812-821	bristande	_	Target;Source	12-21;12-25	false	2	_	_	
+12-21	822-834	djurhållning	*	_	_	_	_	_	_	
+12-22	835-840	bland	_	_	_	_	_	_	_	
+12-23	841-848	Europas	_	_	_	_	_	_	_	
+12-24	849-862	grisuppfödare	_	_	_	_	_	_	_	
+12-25	862-863	.	*	_	_	_	_	_	_	
+
+#Text=Många minns säkert kampanjerna kring grisknorren i valet till Europaparlamentet.
+13-1	864-869	Många	_	_	_	_	_	_	_	
+13-2	870-875	minns	_	_	_	_	_	_	_	
+13-3	876-882	säkert	_	_	_	_	_	_	_	
+13-4	883-894	kampanjerna	_	_	_	_	_	_	_	
+13-5	895-900	kring	_	_	_	_	_	_	_	
+13-6	901-912	grisknorren	_	_	_	_	_	_	_	
+13-7	913-914	i	_	_	_	_	_	_	_	
+13-8	915-920	valet	_	_	_	_	_	_	_	
+13-9	921-925	till	_	_	_	_	_	_	_	
+13-10	926-943	Europaparlamentet	_	_	_	_	_	_	_	
+13-11	943-944	.	_	_	_	_	_	_	_	
+
+#Text=Importen av danskt griskött har fortsatt minska och föll med 30 procent under det första halvåret i år.
+14-1	945-953	Importen	_	_	_	_	_	_	_	
+14-2	954-956	av	_	_	_	_	_	_	_	
+14-3	957-963	danskt	_	_	_	_	_	_	_	
+14-4	964-972	griskött	_	_	_	_	_	_	_	
+14-5	973-976	har	_	_	_	_	_	_	_	
+14-6	977-985	fortsatt	_	_	_	_	_	_	_	
+14-7	986-992	minska	_	_	_	_	_	_	_	
+14-8	993-996	och	_	_	_	_	_	_	_	
+14-9	997-1001	föll	_	_	_	_	_	_	_	
+14-10	1002-1005	med	_	_	_	_	_	_	_	
+14-11	1006-1008	30	_	_	_	_	_	_	_	
+14-12	1009-1016	procent	_	_	_	_	_	_	_	
+14-13	1017-1022	under	_	_	_	_	_	_	_	
+14-14	1023-1026	det	_	_	_	_	_	_	_	
+14-15	1027-1033	första	_	_	_	_	_	_	_	
+14-16	1034-1042	halvåret	_	_	_	_	_	_	_	
+14-17	1043-1044	i	_	_	_	_	_	_	_	
+14-18	1045-1047	år	_	_	_	_	_	_	_	
+14-19	1047-1048	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1050-1051	#	_	_	_	_	_	_	_	
+15-2	1051-1052	P	_	_	_	_	_	_	_	
+15-3	1053-1056	IMM	_	_	_	_	_	_	_	
+15-4	1056-1057	.	_	_	_	_	_	_	_	
+
+#Text=Men det är faktiskt inte de svenska grisbönderna som främst gynnas av att affärer och konsumenter väljer bort danskt fläskkött.
+16-1	1059-1062	Men	_	_	_	_	_	_	_	
+16-2	1063-1066	det	_	_	_	_	_	_	_	
+16-3	1067-1069	är	_	_	_	_	_	_	_	
+16-4	1070-1078	faktiskt	_	_	_	_	_	_	_	
+16-5	1079-1083	inte	_	_	_	_	_	_	_	
+16-6	1084-1086	de	_	_	_	_	_	_	_	
+16-7	1087-1094	svenska	_	_	_	_	_	_	_	
+16-8	1095-1107	grisbönderna	_	_	_	_	_	_	_	
+16-9	1108-1111	som	_	_	_	_	_	_	_	
+16-10	1112-1118	främst	_	_	_	_	_	_	_	
+16-11	1119-1125	gynnas	_	_	_	_	_	_	_	
+16-12	1126-1128	av	_	_	_	_	_	_	_	
+16-13	1129-1132	att	_	_	_	_	_	_	_	
+16-14	1133-1140	affärer	*[19]	_	_	_	_	_	_	
+16-15	1141-1144	och	*[19]	_	_	_	_	_	_	
+16-16	1145-1156	konsumenter	*[19]	_	_	_	_	_	_	
+16-17	1157-1163	väljer	_	Target;Source[5]	16-19[20];16-14[19]	false[5]	2[5]	_	_	
+16-18	1164-1168	bort	_	Target;Source[5]	16-19[20];16-14[19]	false[5]	2[5]	_	_	
+16-19	1169-1175	danskt	*[20]	_	_	_	_	_	_	
+16-20	1176-1185	fläskkött	*[20]	_	_	_	_	_	_	
+16-21	1185-1186	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Sveriges Grisföretagare fortsätter antalet grisbönder att minska i Sverige – i dag finns bara kring 900 grisbönder kvar.
+17-1	1187-1193	Enligt	_	_	_	_	_	_	_	
+17-2	1194-1202	Sveriges	_	_	_	_	_	_	_	
+17-3	1203-1217	Grisföretagare	_	_	_	_	_	_	_	
+17-4	1218-1228	fortsätter	_	_	_	_	_	_	_	
+17-5	1229-1236	antalet	_	_	_	_	_	_	_	
+17-6	1237-1247	grisbönder	_	_	_	_	_	_	_	
+17-7	1248-1251	att	_	_	_	_	_	_	_	
+17-8	1252-1258	minska	_	_	_	_	_	_	_	
+17-9	1259-1260	i	_	_	_	_	_	_	_	
+17-10	1261-1268	Sverige	_	_	_	_	_	_	_	
+17-11	1269-1270	–	_	_	_	_	_	_	_	
+17-12	1271-1272	i	_	_	_	_	_	_	_	
+17-13	1273-1276	dag	_	_	_	_	_	_	_	
+17-14	1277-1282	finns	_	_	_	_	_	_	_	
+17-15	1283-1287	bara	_	_	_	_	_	_	_	
+17-16	1288-1293	kring	_	_	_	_	_	_	_	
+17-17	1294-1297	900	_	_	_	_	_	_	_	
+17-18	1298-1308	grisbönder	_	_	_	_	_	_	_	
+17-19	1309-1313	kvar	_	_	_	_	_	_	_	
+17-20	1313-1314	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1316-1317	#	_	_	_	_	_	_	_	
+18-2	1317-1318	P	_	_	_	_	_	_	_	
+18-3	1319-1322	IMM	_	_	_	_	_	_	_	
+18-4	1322-1323	.	_	_	_	_	_	_	_	
+
+#Text=Vid sidan av att Sverige har ett av världens mest strikta regelverk, drabbas grisbönder precis som andra lantbrukare av ett högt skattetryck, höjda skatter på drivmedel och höjda arbetsgivaravgifter.
+19-1	1325-1328	Vid	_	_	_	_	_	_	_	
+19-2	1329-1334	sidan	_	_	_	_	_	_	_	
+19-3	1335-1337	av	_	_	_	_	_	_	_	
+19-4	1338-1341	att	_	_	_	_	_	_	_	
+19-5	1342-1349	Sverige	_	_	_	_	_	_	_	
+19-6	1350-1353	har	_	_	_	_	_	_	_	
+19-7	1354-1357	ett	_	_	_	_	_	_	_	
+19-8	1358-1360	av	_	_	_	_	_	_	_	
+19-9	1361-1369	världens	_	_	_	_	_	_	_	
+19-10	1370-1374	mest	_	_	_	_	_	_	_	
+19-11	1375-1382	strikta	_	_	_	_	_	_	_	
+19-12	1383-1392	regelverk	_	_	_	_	_	_	_	
+19-13	1392-1393	,	_	_	_	_	_	_	_	
+19-14	1394-1401	drabbas	_	_	_	_	_	_	_	
+19-15	1402-1412	grisbönder	_	_	_	_	_	_	_	
+19-16	1413-1419	precis	_	_	_	_	_	_	_	
+19-17	1420-1423	som	_	_	_	_	_	_	_	
+19-18	1424-1429	andra	_	_	_	_	_	_	_	
+19-19	1430-1441	lantbrukare	_	_	_	_	_	_	_	
+19-20	1442-1444	av	_	_	_	_	_	_	_	
+19-21	1445-1448	ett	_	_	_	_	_	_	_	
+19-22	1449-1453	högt	_	_	_	_	_	_	_	
+19-23	1454-1465	skattetryck	_	_	_	_	_	_	_	
+19-24	1465-1466	,	_	_	_	_	_	_	_	
+19-25	1467-1472	höjda	_	_	_	_	_	_	_	
+19-26	1473-1480	skatter	_	_	_	_	_	_	_	
+19-27	1481-1483	på	_	_	_	_	_	_	_	
+19-28	1484-1493	drivmedel	_	_	_	_	_	_	_	
+19-29	1494-1497	och	_	_	_	_	_	_	_	
+19-30	1498-1503	höjda	_	_	_	_	_	_	_	
+19-31	1504-1523	arbetsgivaravgifter	_	_	_	_	_	_	_	
+19-32	1523-1524	.	_	_	_	_	_	_	_	
+
+#Text=Istället ökar importen från länder som Tyskland och Polen.
+20-1	1525-1533	Istället	_	_	_	_	_	_	_	
+20-2	1534-1538	ökar	_	_	_	_	_	_	_	
+20-3	1539-1547	importen	_	_	_	_	_	_	_	
+20-4	1548-1552	från	_	_	_	_	_	_	_	
+20-5	1553-1559	länder	_	_	_	_	_	_	_	
+20-6	1560-1563	som	_	_	_	_	_	_	_	
+20-7	1564-1572	Tyskland	_	_	_	_	_	_	_	
+20-8	1573-1576	och	_	_	_	_	_	_	_	
+20-9	1577-1582	Polen	_	_	_	_	_	_	_	
+20-10	1582-1583	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1585-1586	#	_	_	_	_	_	_	_	
+21-2	1586-1587	P	_	_	_	_	_	_	_	
+21-3	1588-1591	IMM	_	_	_	_	_	_	_	
+21-4	1591-1592	.	_	_	_	_	_	_	_	
+
+#Text=Tyskland och Polen använder mycket mer antibiotika i sin produktion än både Sverige och Danmark.
+22-1	1594-1602	Tyskland	_	_	_	_	_	_	_	
+22-2	1603-1606	och	_	_	_	_	_	_	_	
+22-3	1607-1612	Polen	_	_	_	_	_	_	_	
+22-4	1613-1621	använder	_	_	_	_	_	_	_	
+22-5	1622-1628	mycket	_	_	_	_	_	_	_	
+22-6	1629-1632	mer	_	_	_	_	_	_	_	
+22-7	1633-1644	antibiotika	_	_	_	_	_	_	_	
+22-8	1645-1646	i	_	_	_	_	_	_	_	
+22-9	1647-1650	sin	_	_	_	_	_	_	_	
+22-10	1651-1661	produktion	_	_	_	_	_	_	_	
+22-11	1662-1664	än	_	_	_	_	_	_	_	
+22-12	1665-1669	både	_	_	_	_	_	_	_	
+22-13	1670-1677	Sverige	_	_	_	_	_	_	_	
+22-14	1678-1681	och	_	_	_	_	_	_	_	
+22-15	1682-1689	Danmark	_	_	_	_	_	_	_	
+22-16	1689-1690	.	_	_	_	_	_	_	_	
+
+#Text=Sett till användning per kilo, ligger visserligen Danmark tre gånger högre än Sverige.
+23-1	1691-1695	Sett	_	_	_	_	_	_	_	
+23-2	1696-1700	till	_	_	_	_	_	_	_	
+23-3	1701-1711	användning	_	_	_	_	_	_	_	
+23-4	1712-1715	per	_	_	_	_	_	_	_	
+23-5	1716-1720	kilo	_	_	_	_	_	_	_	
+23-6	1720-1721	,	_	_	_	_	_	_	_	
+23-7	1722-1728	ligger	_	_	_	_	_	_	_	
+23-8	1729-1740	visserligen	_	_	_	_	_	_	_	
+23-9	1741-1748	Danmark	_	_	_	_	_	_	_	
+23-10	1749-1752	tre	_	_	_	_	_	_	_	
+23-11	1753-1759	gånger	_	_	_	_	_	_	_	
+23-12	1760-1765	högre	_	_	_	_	_	_	_	
+23-13	1766-1768	än	_	_	_	_	_	_	_	
+23-14	1769-1776	Sverige	_	_	_	_	_	_	_	
+23-15	1776-1777	.	_	_	_	_	_	_	_	
+
+#Text=Men i Polen använder man tre gånger så mycket antibiotika som i Danmark och i Tyskland är siffran mer än fem gånger så hög.
+24-1	1778-1781	Men	_	_	_	_	_	_	_	
+24-2	1782-1783	i	_	_	_	_	_	_	_	
+24-3	1784-1789	Polen	_	_	_	_	_	_	_	
+24-4	1790-1798	använder	_	_	_	_	_	_	_	
+24-5	1799-1802	man	_	_	_	_	_	_	_	
+24-6	1803-1806	tre	_	_	_	_	_	_	_	
+24-7	1807-1813	gånger	_	_	_	_	_	_	_	
+24-8	1814-1816	så	_	_	_	_	_	_	_	
+24-9	1817-1823	mycket	_	_	_	_	_	_	_	
+24-10	1824-1835	antibiotika	_	_	_	_	_	_	_	
+24-11	1836-1839	som	_	_	_	_	_	_	_	
+24-12	1840-1841	i	_	_	_	_	_	_	_	
+24-13	1842-1849	Danmark	_	_	_	_	_	_	_	
+24-14	1850-1853	och	_	_	_	_	_	_	_	
+24-15	1854-1855	i	_	_	_	_	_	_	_	
+24-16	1856-1864	Tyskland	_	_	_	_	_	_	_	
+24-17	1865-1867	är	_	_	_	_	_	_	_	
+24-18	1868-1875	siffran	_	_	_	_	_	_	_	
+24-19	1876-1879	mer	_	_	_	_	_	_	_	
+24-20	1880-1882	än	_	_	_	_	_	_	_	
+24-21	1883-1886	fem	_	_	_	_	_	_	_	
+24-22	1887-1893	gånger	_	_	_	_	_	_	_	
+24-23	1894-1896	så	_	_	_	_	_	_	_	
+24-24	1897-1900	hög	_	_	_	_	_	_	_	
+24-25	1900-1901	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1903-1904	#	_	_	_	_	_	_	_	
+25-2	1904-1905	P	_	_	_	_	_	_	_	
+25-3	1906-1909	IMM	_	_	_	_	_	_	_	
+25-4	1909-1910	.	_	_	_	_	_	_	_	
+
+#Text=Nästan oavsett vad det är man jämför – slakteriregler, transporter, salmonellakontroll, stallinredning – ligger Danmark långt före länder som Tyskland och Polen, som nu vinner marknadsandelar på den svenska marknaden.
+26-1	1912-1918	Nästan	_	_	_	_	_	_	_	
+26-2	1919-1926	oavsett	_	_	_	_	_	_	_	
+26-3	1927-1930	vad	_	_	_	_	_	_	_	
+26-4	1931-1934	det	_	_	_	_	_	_	_	
+26-5	1935-1937	är	_	_	_	_	_	_	_	
+26-6	1938-1941	man	_	_	_	_	_	_	_	
+26-7	1942-1948	jämför	_	_	_	_	_	_	_	
+26-8	1949-1950	–	_	_	_	_	_	_	_	
+26-9	1951-1965	slakteriregler	_	_	_	_	_	_	_	
+26-10	1965-1966	,	_	_	_	_	_	_	_	
+26-11	1967-1978	transporter	_	_	_	_	_	_	_	
+26-12	1978-1979	,	_	_	_	_	_	_	_	
+26-13	1980-1998	salmonellakontroll	_	_	_	_	_	_	_	
+26-14	1998-1999	,	_	_	_	_	_	_	_	
+26-15	2000-2014	stallinredning	_	_	_	_	_	_	_	
+26-16	2015-2016	–	_	_	_	_	_	_	_	
+26-17	2017-2023	ligger	_	_	_	_	_	_	_	
+26-18	2024-2031	Danmark	_	_	_	_	_	_	_	
+26-19	2032-2037	långt	_	_	_	_	_	_	_	
+26-20	2038-2042	före	_	_	_	_	_	_	_	
+26-21	2043-2049	länder	_	_	_	_	_	_	_	
+26-22	2050-2053	som	_	_	_	_	_	_	_	
+26-23	2054-2062	Tyskland	_	_	_	_	_	_	_	
+26-24	2063-2066	och	_	_	_	_	_	_	_	
+26-25	2067-2072	Polen	_	_	_	_	_	_	_	
+26-26	2072-2073	,	_	_	_	_	_	_	_	
+26-27	2074-2077	som	_	_	_	_	_	_	_	
+26-28	2078-2080	nu	_	_	_	_	_	_	_	
+26-29	2081-2087	vinner	_	_	_	_	_	_	_	
+26-30	2088-2103	marknadsandelar	_	_	_	_	_	_	_	
+26-31	2104-2106	på	_	_	_	_	_	_	_	
+26-32	2107-2110	den	_	_	_	_	_	_	_	
+26-33	2111-2118	svenska	_	_	_	_	_	_	_	
+26-34	2119-2128	marknaden	_	_	_	_	_	_	_	
+26-35	2128-2129	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2131-2132	#	_	_	_	_	_	_	_	
+27-2	2132-2133	P	_	_	_	_	_	_	_	
+27-3	2134-2137	IMM	_	_	_	_	_	_	_	
+27-4	2137-2138	.	_	_	_	_	_	_	_	
+
+#Text=De nya handelsmönstren visar på vilka skeva följder det blir när den politiska debatten inte är mer nyanserad än Europavalrörelsens grisknorrskampanjer.
+28-1	2140-2142	De	_	_	_	_	_	_	_	
+28-2	2143-2146	nya	_	_	_	_	_	_	_	
+28-3	2147-2162	handelsmönstren	_	_	_	_	_	_	_	
+28-4	2163-2168	visar	_	_	_	_	_	_	_	
+28-5	2169-2171	på	_	_	_	_	_	_	_	
+28-6	2172-2177	vilka	_	_	_	_	_	_	_	
+28-7	2178-2183	skeva	_	Target[6]	28-11[21]	false[6]	2[6]	_	_	
+28-8	2184-2191	följder	_	Target[6]	28-11[21]	false[6]	2[6]	_	_	
+28-9	2192-2195	det	_	Target[6]	28-11[21]	false[6]	2[6]	_	_	
+28-10	2196-2200	blir	_	Target[6]	28-11[21]	false[6]	2[6]	_	_	
+28-11	2201-2204	när	*[21]	_	_	_	_	_	_	
+28-12	2205-2208	den	*[21]	_	_	_	_	_	_	
+28-13	2209-2218	politiska	*[21]	_	_	_	_	_	_	
+28-14	2219-2227	debatten	*[21]	_	_	_	_	_	_	
+28-15	2228-2232	inte	*[21]	_	_	_	_	_	_	
+28-16	2233-2235	är	*[21]	_	_	_	_	_	_	
+28-17	2236-2239	mer	*[21]	_	_	_	_	_	_	
+28-18	2240-2249	nyanserad	*[21]	_	_	_	_	_	_	
+28-19	2250-2252	än	*[21]	_	_	_	_	_	_	
+28-20	2253-2271	Europavalrörelsens	*[21]|*[22]	_	_	_	_	_	29-9[0_22]	
+28-21	2272-2291	grisknorrskampanjer	*[21]|*[22]	_	_	_	_	_	_	
+28-22	2291-2292	.	_	_	_	_	_	_	_	
+
+#Text=För statistiken tyder i vilket fall på att den inte gynnat varken djurvälfärd eller svenska bönder.
+29-1	2293-2296	För	_	_	_	_	_	_	_	
+29-2	2297-2308	statistiken	_	_	_	_	_	_	_	
+29-3	2309-2314	tyder	_	_	_	_	_	_	_	
+29-4	2315-2316	i	_	_	_	_	_	_	_	
+29-5	2317-2323	vilket	_	_	_	_	_	_	_	
+29-6	2324-2328	fall	_	_	_	_	_	_	_	
+29-7	2329-2331	på	_	_	_	_	_	_	_	
+29-8	2332-2335	att	_	_	_	_	_	_	_	
+29-9	2336-2339	den	*	_	_	_	_	_	_	
+29-10	2340-2344	inte	_	Target[7]	29-9	false[7]	2[7]	_	_	
+29-11	2345-2351	gynnat	_	Target[7]	29-9	false[7]	2[7]	_	_	
+29-12	2352-2358	varken	_	_	_	_	_	_	_	
+29-13	2359-2370	djurvälfärd	_	_	_	_	_	_	_	
+29-14	2371-2376	eller	_	_	_	_	_	_	_	
+29-15	2377-2384	svenska	_	_	_	_	_	_	_	
+29-16	2385-2391	bönder	_	_	_	_	_	_	_	
+29-17	2391-2392	.	_	_	_	_	_	_	_	
+
+#Text=Däremot har det lett till att svenska köttdiskar fått mer fläskkött från länder som är sämre på att värna djurvälfärd.
+30-1	2393-2400	Däremot	_	_	_	_	_	_	_	
+30-2	2401-2404	har	_	_	_	_	_	_	_	
+30-3	2405-2408	det	_	_	_	_	_	_	_	
+30-4	2409-2413	lett	_	_	_	_	_	_	_	
+30-5	2414-2418	till	_	_	_	_	_	_	_	
+30-6	2419-2422	att	_	_	_	_	_	_	_	
+30-7	2423-2430	svenska	_	_	_	_	_	_	_	
+30-8	2431-2441	köttdiskar	_	_	_	_	_	_	_	
+30-9	2442-2446	fått	_	_	_	_	_	_	_	
+30-10	2447-2450	mer	_	_	_	_	_	_	_	
+30-11	2451-2460	fläskkött	_	_	_	_	_	_	_	
+30-12	2461-2465	från	_	_	_	_	_	_	_	
+30-13	2466-2472	länder	*[23]	_	_	_	_	_	_	
+30-14	2473-2476	som	*[23]	_	_	_	_	_	_	
+30-15	2477-2479	är	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-16	2480-2485	sämre	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-17	2486-2488	på	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-18	2489-2492	att	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-19	2493-2498	värna	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-20	2499-2510	djurvälfärd	_	Target[8]	30-13[23]	false[8]	2[8]	_	_	
+30-21	2510-2511	.	_	_	_	_	_	_	_	
+
+#Text=Och när länder som inte anstränger sig för att följa regelverken ökar sina marknadsandelar, blir det ännu svårare att få till stånd bättre regler kring mat och djuromsorg på EU-nivå.
+31-1	2512-2515	Och	_	_	_	_	_	_	_	
+31-2	2516-2519	när	_	_	_	_	_	_	_	
+31-3	2520-2526	länder	*[24]	_	_	_	_	_	_	
+31-4	2527-2530	som	*[24]	_	_	_	_	_	_	
+31-5	2531-2535	inte	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-6	2536-2546	anstränger	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-7	2547-2550	sig	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-8	2551-2554	för	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-9	2555-2558	att	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-10	2559-2564	följa	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-11	2565-2576	regelverken	_	Target[9]	31-3[24]	false[9]	2[9]	_	_	
+31-12	2577-2581	ökar	_	_	_	_	_	_	_	
+31-13	2582-2586	sina	_	_	_	_	_	_	_	
+31-14	2587-2602	marknadsandelar	_	_	_	_	_	_	_	
+31-15	2602-2603	,	_	_	_	_	_	_	_	
+31-16	2604-2608	blir	_	_	_	_	_	_	_	
+31-17	2609-2612	det	_	_	_	_	_	_	_	
+31-18	2613-2617	ännu	_	_	_	_	_	_	_	
+31-19	2618-2625	svårare	_	_	_	_	_	_	_	
+31-20	2626-2629	att	_	_	_	_	_	_	_	
+31-21	2630-2632	få	_	_	_	_	_	_	_	
+31-22	2633-2637	till	_	_	_	_	_	_	_	
+31-23	2638-2643	stånd	_	_	_	_	_	_	_	
+31-24	2644-2650	bättre	_	Target	31-25	false	4	_	_	
+31-25	2651-2657	regler	*	_	_	_	_	_	_	
+31-26	2658-2663	kring	_	_	_	_	_	_	_	
+31-27	2664-2667	mat	_	_	_	_	_	_	_	
+31-28	2668-2671	och	_	_	_	_	_	_	_	
+31-29	2672-2682	djuromsorg	_	_	_	_	_	_	_	
+31-30	2683-2685	på	_	_	_	_	_	_	_	
+31-31	2686-2693	EU-nivå	_	_	_	_	_	_	_	
+31-32	2693-2694	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2696-2697	#	_	_	_	_	_	_	_	
+32-2	2697-2698	P	_	_	_	_	_	_	_	
+32-3	2699-2702	IMM	_	_	_	_	_	_	_	
+32-4	2702-2703	.	_	_	_	_	_	_	_	
+
+#Text=Det är hög tid att lägga flaggorna åt sidan och ha en saklig diskussion om djurvälfärd och det svenska jordbrukets villkor.
+33-1	2705-2708	Det	_	Target[10]	33-5[25]	false[10]	4[10]	_	_	
+33-2	2709-2711	är	_	Target[10]	33-5[25]	false[10]	4[10]	_	_	
+33-3	2712-2715	hög	_	Target[10]	33-5[25]	false[10]	4[10]	_	_	
+33-4	2716-2719	tid	_	Target[10]	33-5[25]	false[10]	4[10]	_	_	
+33-5	2720-2723	att	*[25]	_	_	_	_	_	_	
+33-6	2724-2729	lägga	*[25]	_	_	_	_	_	_	
+33-7	2730-2739	flaggorna	*[25]	_	_	_	_	_	_	
+33-8	2740-2742	åt	*[25]	_	_	_	_	_	_	
+33-9	2743-2748	sidan	*[25]	_	_	_	_	_	_	
+33-10	2749-2752	och	_	_	_	_	_	_	_	
+33-11	2753-2755	ha	_	_	_	_	_	_	_	
+33-12	2756-2758	en	_	_	_	_	_	_	_	
+33-13	2759-2765	saklig	_	_	_	_	_	_	_	
+33-14	2766-2776	diskussion	_	_	_	_	_	_	_	
+33-15	2777-2779	om	_	_	_	_	_	_	_	
+33-16	2780-2791	djurvälfärd	_	_	_	_	_	_	_	
+33-17	2792-2795	och	_	_	_	_	_	_	_	
+33-18	2796-2799	det	_	_	_	_	_	_	_	
+33-19	2800-2807	svenska	_	_	_	_	_	_	_	
+33-20	2808-2819	jordbrukets	_	_	_	_	_	_	_	
+33-21	2820-2827	villkor	_	_	_	_	_	_	_	
+33-22	2827-2828	.	_	_	_	_	_	_	_	
+
+#Text=Det är bra att vi köper mer svenskt griskött, men så länge vi konsumerar mer kött än vad vi producerar är import helt nödvändig.
+34-1	2829-2832	Det	_	_	_	_	_	_	_	
+34-2	2833-2835	är	_	Target[11]	34-4[26]	false[11]	4[11]	_	_	
+34-3	2836-2839	bra	_	Target[11]	34-4[26]	false[11]	4[11]	_	_	
+34-4	2840-2843	att	*[26]	_	_	_	_	_	_	
+34-5	2844-2846	vi	*[26]	_	_	_	_	_	_	
+34-6	2847-2852	köper	*[26]	_	_	_	_	_	_	
+34-7	2853-2856	mer	*[26]	_	_	_	_	_	_	
+34-8	2857-2864	svenskt	*[26]	_	_	_	_	_	_	
+34-9	2865-2873	griskött	*[26]	_	_	_	_	_	_	
+34-10	2873-2874	,	_	_	_	_	_	_	_	
+34-11	2875-2878	men	_	_	_	_	_	_	_	
+34-12	2879-2881	så	_	_	_	_	_	_	_	
+34-13	2882-2887	länge	_	_	_	_	_	_	_	
+34-14	2888-2890	vi	_	_	_	_	_	_	_	
+34-15	2891-2901	konsumerar	_	_	_	_	_	_	_	
+34-16	2902-2905	mer	_	_	_	_	_	_	_	
+34-17	2906-2910	kött	_	_	_	_	_	_	_	
+34-18	2911-2913	än	_	_	_	_	_	_	_	
+34-19	2914-2917	vad	_	_	_	_	_	_	_	
+34-20	2918-2920	vi	_	_	_	_	_	_	_	
+34-21	2921-2931	producerar	_	_	_	_	_	_	_	
+34-22	2932-2934	är	_	_	_	false	4	_	_	
+34-23	2935-2941	import	*	_	_	_	_	_	_	
+34-24	2942-2946	helt	_	Target[12]	34-23	false[12]	4[12]	34-22[0_12]	_	
+34-25	2947-2956	nödvändig	_	Target[12]	34-23	false[12]	4[12]	_	_	
+34-26	2956-2957	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2959-2960	#	_	_	_	_	_	_	_	
+35-2	2960-2961	P	_	_	_	_	_	_	_	
+35-3	2962-2965	IMM	_	_	_	_	_	_	_	
+35-4	2965-2966	.	_	_	_	_	_	_	_	
+
+#Text=Lösningen kan inte vara att sluta köpa danskt fläskkött, utan att se över villkoren för det svenska lantbruket.
+36-1	2968-2977	Lösningen	_	Target[13]	36-5[27]	false[13]	2[13]	_	_	
+36-2	2978-2981	kan	_	Target[13]	36-5[27]	false[13]	2[13]	_	_	
+36-3	2982-2986	inte	_	Target[13]	36-5[27]	false[13]	2[13]	_	_	
+36-4	2987-2991	vara	_	Target[13]	36-5[27]	false[13]	2[13]	_	_	
+36-5	2992-2995	att	*[27]	_	_	_	_	_	_	
+36-6	2996-3001	sluta	*[27]	_	_	_	_	_	_	
+36-7	3002-3006	köpa	*[27]	_	_	_	_	_	_	
+36-8	3007-3013	danskt	*[27]	_	_	_	_	_	_	
+36-9	3014-3023	fläskkött	*[27]	_	_	_	_	_	_	
+36-10	3023-3024	,	_	_	_	_	_	_	_	
+36-11	3025-3029	utan	_	_	_	_	_	_	_	
+36-12	3030-3033	att	_	_	_	_	_	_	_	
+36-13	3034-3036	se	_	_	_	_	_	_	_	
+36-14	3037-3041	över	_	_	_	_	_	_	_	
+36-15	3042-3051	villkoren	_	_	_	_	_	_	_	
+36-16	3052-3055	för	_	_	_	_	_	_	_	
+36-17	3056-3059	det	_	_	_	_	_	_	_	
+36-18	3060-3067	svenska	_	_	_	_	_	_	_	
+36-19	3068-3078	lantbruket	_	_	_	_	_	_	_	
+36-20	3078-3079	.	_	_	_	_	_	_	_	
+
+#Text=Svartmålningen av danskt fläskkött har snarare lett till att importen av kött med lägre djurskyddskrav ökat.
+37-1	3080-3094	Svartmålningen	_	Target;Source[14]	37-3[28];37-17	false[14]	1[14]	_	_	
+37-2	3095-3097	av	_	Target;Source[14]	37-3[28];37-17	false[14]	1[14]	_	_	
+37-3	3098-3104	danskt	*[28]	_	_	_	_	_	_	
+37-4	3105-3114	fläskkött	*[28]	_	_	_	_	_	_	
+37-5	3115-3118	har	_	_	_	_	_	_	_	
+37-6	3119-3126	snarare	_	_	_	_	_	_	_	
+37-7	3127-3131	lett	_	_	_	_	_	_	_	
+37-8	3132-3136	till	_	_	_	_	_	_	_	
+37-9	3137-3140	att	_	_	_	_	_	_	_	
+37-10	3141-3149	importen	_	_	_	_	_	_	_	
+37-11	3150-3152	av	_	_	_	_	_	_	_	
+37-12	3153-3157	kött	_	_	_	_	_	_	_	
+37-13	3158-3161	med	_	_	_	_	_	_	_	
+37-14	3162-3167	lägre	_	_	_	_	_	_	_	
+37-15	3168-3182	djurskyddskrav	_	_	_	_	_	_	_	
+37-16	3183-3187	ökat	_	_	_	_	_	_	_	
+37-17	3187-3188	.	*	_	_	_	_	_	_	
+
+#Text=Om vi verkligen bryr oss om djurvälfärd är det därför hög tid att nyansera grisdebatten.
+38-1	3189-3191	Om	_	_	_	_	_	_	_	
+38-2	3192-3194	vi	_	_	_	_	_	_	_	
+38-3	3195-3204	verkligen	_	_	_	_	_	_	_	
+38-4	3205-3209	bryr	_	_	_	_	_	_	_	
+38-5	3210-3213	oss	_	_	_	_	_	_	_	
+38-6	3214-3216	om	_	_	_	_	_	_	_	
+38-7	3217-3228	djurvälfärd	_	_	_	_	_	_	_	
+38-8	3229-3231	är	_	Target[15]	38-13[29]	false[15]	4[15]	_	_	
+38-9	3232-3235	det	_	Target[15]	38-13[29]	false[15]	4[15]	_	_	
+38-10	3236-3242	därför	_	Target[15]	38-13[29]	false[15]	4[15]	_	_	
+38-11	3243-3246	hög	_	Target[15]	38-13[29]	false[15]	4[15]	_	_	
+38-12	3247-3250	tid	_	Target[15]	38-13[29]	false[15]	4[15]	_	_	
+38-13	3251-3254	att	*[29]	_	_	_	_	_	_	
+38-14	3255-3263	nyansera	*[29]	_	_	_	_	_	_	
+38-15	3264-3276	grisdebatten	*[29]	_	_	_	_	_	_	
+38-16	3276-3277	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3279-3280	#	_	_	_	_	_	_	_	
+39-2	3280-3281	P	_	_	_	_	_	_	_	
+39-3	3282-3285	IMM	_	_	_	_	_	_	_	
+39-4	3285-3286	.	_	_	_	_	_	_	_	
+
+#Text=Christofer Fjellner.
+40-1	3288-3298	Christofer	_	_	_	_	_	_	_	
+40-2	3299-3307	Fjellner	_	_	_	_	_	_	_	
+40-3	3307-3308	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3310-3311	#	_	_	_	_	_	_	_	
+41-2	3311-3312	P	_	_	_	_	_	_	_	
+41-3	3313-3316	IMM	_	_	_	_	_	_	_	
+41-4	3316-3317	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker (M).
+42-1	3319-3340	Europaparlamentariker	_	_	_	_	_	_	_	
+42-2	3341-3342	(	_	_	_	_	_	_	_	
+42-3	3342-3343	M	_	_	_	_	_	_	_	
+42-4	3343-3344	)	_	_	_	_	_	_	_	
+42-5	3344-3345	.	_	_	_	_	_	_	_	

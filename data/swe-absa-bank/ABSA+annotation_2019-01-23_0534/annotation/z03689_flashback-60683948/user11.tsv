@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	1[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	1[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=MENA människor förstör nu ekonomin.
+3-1	18-22	MENA	*[12]	_	_	_	_	
+3-2	23-32	människor	*[12]	_	_	_	_	
+3-3	33-40	förstör	_	Target[3]	3-1[12]	false[3]	2[3]	
+3-4	41-43	nu	_	Target[3]	3-1[12]	false[3]	2[3]	
+3-5	44-52	ekonomin	_	Target[3]	3-1[12]	false[3]	2[3]	
+3-6	52-53	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	55-56	#	_	_	_	_	_	
+4-2	56-57	P	_	_[4]	_	false[4]	1[4]	
+4-3	58-61	IMM	_	_[4]	_	false[4]	1[4]	
+4-4	61-62	.	_	_	_	_	_	
+
+#Text=I och med att fler och fler analfabeter och kriminella från tredje världen skrivs in på arbetsförmedlingen och lär stanna där tills helvete fryser så ökar nu pressen på staten att fundera ut vad man ska göra med alla dessa idioter och kriminella från MENA.
+5-1	64-65	I	_	_	_	_	_	
+5-2	66-69	och	_	_	_	_	_	
+5-3	70-73	med	_	_	_	_	_	
+5-4	74-77	att	_	_	_	_	_	
+5-5	78-82	fler	*[13]	_	_	_	_	
+5-6	83-86	och	*[13]	_	_	_	_	
+5-7	87-91	fler	*[13]	_	_	_	_	
+5-8	92-103	analfabeter	*[13]|*[14]	Target	5-8[14]	false	2	
+5-9	104-107	och	*[13]	_	_	_	_	
+5-10	108-118	kriminella	*[13]|*[15]	Target[5]	5-10[15]	false[5]	2[5]	
+5-11	119-123	från	*[13]|*[15]	Target[5]	5-10[15]	false[5]	2[5]	
+5-12	124-130	tredje	*[13]|*[15]	Target[5]	5-10[15]	false[5]	2[5]	
+5-13	131-138	världen	*[13]	Target[5]	5-10[15]	false[5]	2[5]	
+5-14	139-145	skrivs	_	_	_	_	_	
+5-15	146-148	in	_	_	_	_	_	
+5-16	149-151	på	_	_	_	_	_	
+5-17	152-170	arbetsförmedlingen	_	_	_	_	_	
+5-18	171-174	och	_	_	_	_	_	
+5-19	175-178	lär	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-20	179-185	stanna	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-21	186-189	där	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-22	190-195	tills	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-23	196-203	helvete	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-24	204-210	fryser	_	Target[6]	5-5[13]	false[6]	2[6]	
+5-25	211-213	så	_	_	_	_	_	
+5-26	214-218	ökar	_	_	_	_	_	
+5-27	219-221	nu	_	_	_	_	_	
+5-28	222-229	pressen	_	_	_	_	_	
+5-29	230-232	på	_	_	_	_	_	
+5-30	233-239	staten	_	_	_	_	_	
+5-31	240-243	att	_	_	_	_	_	
+5-32	244-251	fundera	_	_	_	_	_	
+5-33	252-254	ut	_	_	_	_	_	
+5-34	255-258	vad	_	_	_	_	_	
+5-35	259-262	man	_	_	_	_	_	
+5-36	263-266	ska	_	_	_	_	_	
+5-37	267-271	göra	_	_	_	_	_	
+5-38	272-275	med	_	_	_	_	_	
+5-39	276-280	alla	_	_	_	_	_	
+5-40	281-286	dessa	_	_	_	_	_	
+5-41	287-294	idioter	_	Target[7]	5-45	false[7]	1[7]	
+5-42	295-298	och	_	Target[7]	5-45	false[7]	1[7]	
+5-43	299-309	kriminella	_	Target[7]	5-45	false[7]	1[7]	
+5-44	310-314	från	_	_	_	_	_	
+5-45	315-319	MENA	*	_	_	false	1	
+5-46	319-320	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	322-323	#	_	_	_	_	_	
+6-2	323-324	P	_	_[8]	_	false[8]	3[8]	
+6-3	325-328	IMM	_	_[8]	_	false[8]	3[8]	
+6-4	328-329	.	_	_	_	_	_	
+
+#Text="En av de viktigaste förklaringarna till trendbrottet är att fler nyanlända fått sina uppehållstillstånd och ingår i Arbetsförmedlingens aktivitetsprogram.
+7-1	331-332	"	_	_	_	_	_	
+7-2	332-334	En	_	Target;Source[9]	7-11[16];7-21	false[9]	4[9]	
+7-3	335-337	av	_	Target;Source[9]	7-11[16];7-21	false[9]	4[9]	
+7-4	338-340	de	_	Target;Source[9]	7-11[16];7-21	false[9]	4[9]	
+7-5	341-351	viktigaste	_	Target;Source[9]	7-11[16];7-21	false[9]	4[9]	
+7-6	352-366	förklaringarna	_	Target;Source[9]	7-11[16];7-21	false[9]	4[9]	
+7-7	367-371	till	_	_	_	_	_	
+7-8	372-384	trendbrottet	_	_	_	_	_	
+7-9	385-387	är	_	_	_	_	_	
+7-10	388-391	att	_	_	_	_	_	
+7-11	392-396	fler	*[16]	_	_	_	_	
+7-12	397-406	nyanlända	*[16]	_	_	_	_	
+7-13	407-411	fått	*[16]	_	_	_	_	
+7-14	412-416	sina	*[16]	_	_	_	_	
+7-15	417-435	uppehållstillstånd	*[16]	_	_	_	_	
+7-16	436-439	och	*[16]	_	_	_	_	
+7-17	440-445	ingår	*[16]	_	_	_	_	
+7-18	446-447	i	*[16]	_	_	_	_	
+7-19	448-467	Arbetsförmedlingens	*[16]	_	_	_	_	
+7-20	468-485	aktivitetsprogram	*[16]	_	_	_	_	
+7-21	485-486	.	*	_	_	_	_	
+
+#Text=Det innebär att de räknas som arbetssökande.
+8-1	487-490	Det	_	_	_	_	_	
+8-2	491-498	innebär	_	_	_	_	_	
+8-3	499-502	att	_	_	_	_	_	
+8-4	503-505	de	_	_	_	_	_	
+8-5	506-512	räknas	_	_	_	_	_	
+8-6	513-516	som	_	_	_	_	_	
+8-7	517-530	arbetssökande	_	_	_	_	_	
+8-8	530-531	.	_	_	_	_	_	
+
+#Text=#P IMM
+9-1	533-534	#	_	_	_	_	_	
+9-2	534-535	P	_	_[10]	_	false[10]	3[10]	
+9-3	536-539	IMM	_	_[10]	_	false[10]	3[10]	
+
+#Text=.
+10-1	539-540	.	_	_	_	_	_	
+
+#Text=: Den ökning som vi nu ser av antalet arbetslösa är väntad.
+11-1	542-543	:	_	_	_	_	_	
+11-2	544-547	Den	_	_	_	_	_	
+11-3	548-554	ökning	_	_	_	_	_	
+11-4	555-558	som	_	_	_	_	_	
+11-5	559-561	vi	_	_	_	_	_	
+11-6	562-564	nu	_	_	_	_	_	
+11-7	565-568	ser	_	_	_	_	_	
+11-8	569-571	av	_	_	_	_	_	
+11-9	572-579	antalet	_	_	_	_	_	
+11-10	580-590	arbetslösa	_	_	_	_	_	
+11-11	591-593	är	_	_	_	_	_	
+11-12	594-600	väntad	_	_	_	_	_	
+11-13	600-601	.	_	_	_	_	_	
+
+#Text=Många av de flyktingar som kom till Sverige hösten 2015 har skrivits in i Arbetsförmedlingens ".
+12-1	602-607	Många	_	_	_	_	_	
+12-2	608-610	av	_	_	_	_	_	
+12-3	611-613	de	_	_	_	_	_	
+12-4	614-624	flyktingar	_	_	_	_	_	
+12-5	625-628	som	_	_	_	_	_	
+12-6	629-632	kom	_	_	_	_	_	
+12-7	633-637	till	_	_	_	_	_	
+12-8	638-645	Sverige	_	_	_	_	_	
+12-9	646-652	hösten	_	_	_	_	_	
+12-10	653-657	2015	_	_	_	_	_	
+12-11	658-661	har	_	_	_	_	_	
+12-12	662-670	skrivits	_	_	_	_	_	
+12-13	671-673	in	_	_	_	_	_	
+12-14	674-675	i	_	_	_	_	_	
+12-15	676-695	Arbetsförmedlingens	_	_	_	_	_	
+12-16	696-697	"	_	_	_	_	_	
+12-17	697-698	.	*	_	_	_	_	
+
+#Text=#P IMM.
+13-1	700-701	#	_	_	_	_	_	
+13-2	701-702	P	_	_[11]	_	false[11]	1[11]	
+13-3	703-706	IMM	_	_[11]	_	false[11]	1[11]	
+13-4	706-707	.	_	_	_	_	_	
+
+#Text=Vad bör man göra?
+14-1	709-712	Vad	_	_	_	_	_	
+14-2	713-716	bör	_	_	_	_	_	
+14-3	717-720	man	_	_	_	_	_	
+14-4	721-725	göra	_	_	_	_	_	
+14-5	725-726	?	_	_	_	_	_	
+
+#Text=Mitt förslag är att utvisa alla från MENA länder som någonsin har sökt asyl.
+15-1	727-731	Mitt	_	_	_	_	_	
+15-2	732-739	förslag	_	_	_	_	_	
+15-3	740-742	är	_	_	_	_	_	
+15-4	743-746	att	_	_	_	_	_	
+15-5	747-753	utvisa	_	_	_	_	_	
+15-6	754-758	alla	*[17]	_	_	_	_	
+15-7	759-763	från	*[17]	_	_	_	_	
+15-8	764-768	MENA	*[17]	_	_	_	_	
+15-9	769-775	länder	*[17]	_	_	_	_	
+15-10	776-779	som	_	_	_	_	_	
+15-11	780-788	någonsin	_	_	_	_	_	
+15-12	789-792	har	_	_	_	_	_	
+15-13	793-797	sökt	_	_	_	_	_	
+15-14	798-802	asyl	_	_	_	_	_	
+15-15	802-803	.	_	Target	15-6[17]	false	1	
+
+#Text=#P IMM.
+16-1	805-806	#	_	_	_	_	_	
+16-2	806-807	P	_	_	_	_	_	
+16-3	808-811	IMM	_	_	_	_	_	
+16-4	811-812	.	_	_	_	_	_	
+
+#Text=Vad är ert förslag?.
+17-1	814-817	Vad	_	_	_	_	_	
+17-2	818-820	är	_	_	_	_	_	
+17-3	821-824	ert	_	_	_	_	_	
+17-4	825-832	förslag	_	_	_	_	_	
+17-5	832-833	?	_	_	_	_	_	
+17-6	833-834	.	_	_	_	_	_	

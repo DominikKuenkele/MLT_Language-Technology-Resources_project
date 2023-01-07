@@ -1,0 +1,159 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Skvaller om advokaten Elisabeth Massi Fritz?
+3-1	18-26	Skvaller	_	_	_	_	_	
+3-2	27-29	om	_	_	_	_	_	
+3-3	30-39	advokaten	_	_	_	_	_	
+3-4	40-49	Elisabeth	_	_	_	_	_	
+3-5	50-55	Massi	_	_	_	_	_	
+3-6	56-61	Fritz	_	_	_	_	_	
+3-7	61-62	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	
+
+#Text=Är det bara jag som är lite småtänd på den våldtagna kvinnans advokat.
+5-1	73-75	Är	_	_	_	_	_	
+5-2	76-79	det	_	_	_	_	_	
+5-3	80-84	bara	_	_	_	_	_	
+5-4	85-88	jag	_	_	_	_	_	
+5-5	89-92	som	_	_	_	_	_	
+5-6	93-95	är	_	_	_	_	_	
+5-7	96-100	lite	_	_	_	_	_	
+5-8	101-108	småtänd	_	Target	5-11[4]	false	4	
+5-9	109-111	på	_	_	_	_	_	
+5-10	112-115	den	_	_	_	_	_	
+5-11	116-125	våldtagna	*[4]	_	_	_	_	
+5-12	126-134	kvinnans	*[4]	_	_	_	_	
+5-13	135-142	advokat	*[4]	_	_	_	_	
+5-14	142-143	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	145-146	#	_	_	_	_	_	
+6-2	146-147	P	_	_	_	_	_	
+6-3	148-151	IMM	_	_	_	_	_	
+6-4	151-152	.	_	_	_	_	_	
+
+#Text=Rätt snygg och sexig.
+7-1	154-158	Rätt	_	Target[1]	5-11[4]	false[1]	4[1]	
+7-2	159-164	snygg	_	Target[1]	5-11[4]	false[1]	4[1]	
+7-3	165-168	och	_	Target[1]	5-11[4]	false[1]	4[1]	
+7-4	169-174	sexig	_	Target[1]	5-11[4]	false[1]	4[1]	
+7-5	174-175	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	177-178	#	_	_	_	_	_	
+8-2	178-179	P	_	_	_	_	_	
+8-3	180-183	IMM	_	_	_	_	_	
+8-4	183-184	.	_	_	_	_	_	
+
+#Text=Medan de två supertöntiga advokaterna som företrädde stureplansprofilerna stod och stammade inför media så var advokat Fritz tillbaka på kontoret och jobbade (läste jag just).
+9-1	186-191	Medan	_	_	_	_	_	
+9-2	192-194	de	_	_	_	_	_	
+9-3	195-198	två	_	_	_	_	_	
+9-4	199-211	supertöntiga	_	Target	9-5	false	1	
+9-5	212-223	advokaterna	*	_	_	_	_	
+9-6	224-227	som	_	_	_	_	_	
+9-7	228-238	företrädde	_	_	_	_	_	
+9-8	239-259	stureplansprofilerna	_	_	_	_	_	
+9-9	260-264	stod	_	Target[2]	9-5	false[2]	2[2]	
+9-10	265-268	och	_	Target[2]	9-5	false[2]	2[2]	
+9-11	269-277	stammade	_	Target[2]	9-5	false[2]	2[2]	
+9-12	278-283	inför	_	_	_	_	_	
+9-13	284-289	media	_	_	_	_	_	
+9-14	290-292	så	_	_	_	_	_	
+9-15	293-296	var	_	_	_	_	_	
+9-16	297-304	advokat	_	_	_	_	_	
+9-17	305-310	Fritz	_	_	_	_	_	
+9-18	311-319	tillbaka	_	_	_	_	_	
+9-19	320-322	på	_	_	_	_	_	
+9-20	323-331	kontoret	_	_	_	_	_	
+9-21	332-335	och	_	_	_	_	_	
+9-22	336-343	jobbade	_	_	_	_	_	
+9-23	344-345	(	_	_	_	_	_	
+9-24	345-350	läste	_	_	_	_	_	
+9-25	351-354	jag	_	_	_	_	_	
+9-26	355-359	just	_	_	_	_	_	
+9-27	359-360	)	_	_	_	_	_	
+9-28	360-361	.	_	_	_	_	_	
+
+#Text=En cool kvinna som jag funderar på att dejta...
+10-1	362-364	En	_	_	_	_	_	
+10-2	365-369	cool	_	Target	10-3	false	4	
+10-3	370-376	kvinna	*	_	_	_	_	
+10-4	377-380	som	_	_	_	_	_	
+10-5	381-384	jag	_	_	_	_	_	
+10-6	385-393	funderar	_	_	_	_	_	
+10-7	394-396	på	_	_	_	_	_	
+10-8	397-400	att	_	_	_	_	_	
+10-9	401-406	dejta	_	_	_	_	_	
+10-10	406-407	.	_	_	_	_	_	
+10-11	407-408	.	_	_	_	_	_	
+10-12	408-409	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	411-412	#	_	_	_	_	_	
+11-2	412-413	P	_	_	_	_	_	
+11-3	414-417	IMM	_	_	_	_	_	
+11-4	417-418	.	_	_	_	_	_	
+
+#Text=Har ni några matnyttiga fakta innan jag ringer henne?.
+12-1	420-423	Har	_	_	_	_	_	
+12-2	424-426	ni	_	_	_	_	_	
+12-3	427-432	några	_	_	_	_	_	
+12-4	433-443	matnyttiga	_	_	_	_	_	
+12-5	444-449	fakta	_	_	_	_	_	
+12-6	450-455	innan	_	_	_	_	_	
+12-7	456-459	jag	_	_	_	_	_	
+12-8	460-466	ringer	_	_	_	_	_	
+12-9	467-472	henne	_	_	_	_	_	
+12-10	472-473	?	_	_	_	_	_	
+12-11	473-474	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	476-477	#	_	_	_	_	_	
+13-2	477-478	P	_	_	_	_	_	
+13-3	479-482	IMM	_	_	_	_	_	
+13-4	482-483	.	_	_	_	_	_	
+
+#Text=Postade detta i stureplanstråden men där drunknade inlägget i störtfloden av andra inlägg (eller också var frågan helt ointressant).
+14-1	485-492	Postade	_	_	_	_	_	
+14-2	493-498	detta	_	_	_	_	_	
+14-3	499-500	i	_	_	_	_	_	
+14-4	501-517	stureplanstråden	_	_	_	_	_	
+14-5	518-521	men	_	_	_	_	_	
+14-6	522-525	där	_	_	_	_	_	
+14-7	526-535	drunknade	_	Target[3]	14-12[5]	false[3]	2[3]	
+14-8	536-544	inlägget	_	Target[3]	14-12[5]	false[3]	2[3]	
+14-9	545-546	i	_	Target[3]	14-12[5]	false[3]	2[3]	
+14-10	547-558	störtfloden	_	Target[3]	14-12[5]	false[3]	2[3]	
+14-11	559-561	av	_	_	_	_	_	
+14-12	562-567	andra	*[5]	_	_	_	_	
+14-13	568-574	inlägg	*[5]	_	_	_	_	
+14-14	575-576	(	_	_	_	_	_	
+14-15	576-581	eller	_	_	_	_	_	
+14-16	582-587	också	_	_	_	_	_	
+14-17	588-591	var	_	_	_	_	_	
+14-18	592-598	frågan	*	_	_	_	_	
+14-19	599-603	helt	_	_	_	_	_	
+14-20	604-615	ointressant	_	Source;Target	14-22;14-18	false	2	
+14-21	615-616	)	_	_	_	_	_	
+14-22	616-617	.	*	_	_	_	_	

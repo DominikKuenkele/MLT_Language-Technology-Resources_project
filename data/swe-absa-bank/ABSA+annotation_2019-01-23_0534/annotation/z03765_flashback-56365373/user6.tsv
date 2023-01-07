@@ -1,0 +1,90 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Kvinnofriden är räddad-kurser startas av regeringen om jämlikhet för nyanlända.
+3-1	18-30	Kvinnofriden	*[6]	Target[3]	3-1[6]	true[3]	5[3]	
+3-2	31-33	är	*[6]	Target[3]	3-1[6]	true[3]	5[3]	
+3-3	34-47	räddad-kurser	*[6]	Target[3]	3-1[6]	true[3]	5[3]	
+3-4	48-55	startas	_	_	_	_	_	
+3-5	56-58	av	_	_	_	_	_	
+3-6	59-69	regeringen	_	_	_	_	_	
+3-7	70-72	om	_	_	_	_	_	
+3-8	73-82	jämlikhet	_	_	_	_	_	
+3-9	83-86	för	_	_	_	_	_	
+3-10	87-96	nyanlända	_	_	_	_	_	
+3-11	96-97	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	99-100	#	_	_[4]	_	false[4]	2[4]	
+4-2	100-101	P	_	_[4]	_	false[4]	2[4]	
+4-3	102-105	IMM	_	_[4]	_	false[4]	2[4]	
+4-4	105-106	.	_	_	_	_	_	
+
+#Text=Enligt TV4 ska regeringen starta ett nationellt program med syfte att lära nyanlända ensamkommande pojkar om jämlikhet och kvinnors rättigheter i Sverige.
+5-1	108-114	Enligt	_	_	_	_	_	
+5-2	115-118	TV4	_	_	_	_	_	
+5-3	119-122	ska	_	_	_	_	_	
+5-4	123-133	regeringen	_	_	_	_	_	
+5-5	134-140	starta	_	_	_	_	_	
+5-6	141-144	ett	_	_	_	_	_	
+5-7	145-155	nationellt	_	_	_	_	_	
+5-8	156-163	program	_	_	_	_	_	
+5-9	164-167	med	_	_	_	_	_	
+5-10	168-173	syfte	_	_	_	_	_	
+5-11	174-177	att	_	_	_	_	_	
+5-12	178-182	lära	_	_	_	_	_	
+5-13	183-192	nyanlända	_	_	_	_	_	
+5-14	193-206	ensamkommande	_	_	_	_	_	
+5-15	207-213	pojkar	_	_	_	_	_	
+5-16	214-216	om	_	_	_	_	_	
+5-17	217-226	jämlikhet	_	_	_	_	_	
+5-18	227-230	och	_	_	_	_	_	
+5-19	231-239	kvinnors	_	_	_	_	_	
+5-20	240-251	rättigheter	_	_	_	_	_	
+5-21	252-253	i	_	_	_	_	_	
+5-22	254-261	Sverige	_	_	_	_	_	
+5-23	261-262	.	_	_	_	_	_	
+
+#Text=Så blir den frivillig eller obligatorisk och är det inte lite väl optimistiskt att tro att en medfödd nedvärderande kvinnosyn går att förändra med lite värdegrundsinformation?.
+6-1	263-265	Så	_	_	_	_	_	
+6-2	266-270	blir	_	_	_	_	_	
+6-3	271-274	den	_	_	_	_	_	
+6-4	275-284	frivillig	_	_	_	_	_	
+6-5	285-290	eller	_	_	_	_	_	
+6-6	291-303	obligatorisk	_	_	_	_	_	
+6-7	304-307	och	_	_	_	_	_	
+6-8	308-310	är	_	_	_	_	_	
+6-9	311-314	det	_	_	_	_	_	
+6-10	315-319	inte	_	_	_	_	_	
+6-11	320-324	lite	_	Target[5]	6-14[7]	false[5]	2[5]	
+6-12	325-328	väl	_	Target[5]	6-14[7]	false[5]	2[5]	
+6-13	329-341	optimistiskt	_	Target[5]	6-14[7]	false[5]	2[5]	
+6-14	342-345	att	*[7]	_	_	_	_	
+6-15	346-349	tro	*[7]	_	_	_	_	
+6-16	350-353	att	*[7]	_	_	_	_	
+6-17	354-356	en	*[7]	_	_	_	_	
+6-18	357-364	medfödd	*[7]	_	_	_	_	
+6-19	365-378	nedvärderande	*[7]	Target	6-20[8]	false	2	
+6-20	379-388	kvinnosyn	*[7]|*[8]	_	_	_	_	
+6-21	389-392	går	*[7]	_	_	_	_	
+6-22	393-396	att	*[7]	_	_	_	_	
+6-23	397-405	förändra	*[7]	_	_	_	_	
+6-24	406-409	med	*[7]	_	_	_	_	
+6-25	410-414	lite	*[7]	_	_	_	_	
+6-26	415-437	värdegrundsinformation	*[7]	_	_	_	_	
+6-27	437-438	?	_	_	_	_	_	
+6-28	438-439	.	_	_	_	_	_	

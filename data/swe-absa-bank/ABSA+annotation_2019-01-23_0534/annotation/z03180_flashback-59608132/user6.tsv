@@ -1,0 +1,212 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Är SD det enda parti som tar ställning mot psuedovetenskap?
+3-1	18-20	Är	_	_	_	_	_	_	_	
+3-2	21-23	SD	*	_	_	_	_	_	_	
+3-3	24-27	det	_	_	_	_	_	_	_	
+3-4	28-32	enda	_	_	_	_	_	_	_	
+3-5	33-38	parti	_	_	_	_	_	_	_	
+3-6	39-42	som	_	_	_	_	_	_	_	
+3-7	43-46	tar	_	Source;Target[1]	3-2;3-10	false[1]	2[1]	_	_	
+3-8	47-56	ställning	_	Source;Target[1]	3-2;3-10	false[1]	2[1]	_	_	
+3-9	57-60	mot	_	Source;Target[1]	3-2;3-10	false[1]	2[1]	_	_	
+3-10	61-76	psuedovetenskap	*	_	_	_	_	_	_	
+3-11	76-77	?	_	_	_	_	_	_	_	
+
+#Text=[Rubr/Mod].
+4-1	78-79	[	_	_	_	_	_	_	_	
+4-2	79-83	Rubr	_	_	_	_	_	_	_	
+4-3	83-84	/	_	_	_	_	_	_	_	
+4-4	84-87	Mod	_	_	_	_	_	_	_	
+4-5	87-88	]	_	_	_	_	_	_	_	
+4-6	88-89	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	91-92	#	_	_	_	_	_	_	_	
+5-2	92-93	P	_	_	_	_	_	_	_	
+5-3	94-97	IMM	_	_	_	_	_	_	_	
+5-4	97-98	.	_	_	_	_	_	_	_	
+
+#Text=Jag har länge varit osäker kring SD, då det finns delar av deras politik jag inte håller med om.
+6-1	100-103	Jag	_	_	_	_	_	_	_	
+6-2	104-107	har	_	Target[2]	6-7[8]	false[2]	2[2]	_	_	
+6-3	108-113	länge	_	Target[2]	6-7[8]	false[2]	2[2]	_	_	
+6-4	114-119	varit	_	Target[2]	6-7[8]	false[2]	2[2]	_	_	
+6-5	120-126	osäker	_	Target[2]	6-7[8]	false[2]	2[2]	_	_	
+6-6	127-132	kring	_	Target[2]	6-7[8]	false[2]	2[2]	_	_	
+6-7	133-135	SD	*[8]|*[9]	_	_	_	_	_	7-3[0_9]	
+6-8	135-136	,	_	_	_	_	_	_	_	
+6-9	137-139	då	_	_	_	_	_	_	_	
+6-10	140-143	det	_	_	_	_	_	_	_	
+6-11	144-149	finns	_	_	_	_	_	_	_	
+6-12	150-155	delar	*[10]	_	_	_	_	_	_	
+6-13	156-158	av	*[10]	_	_	_	_	_	_	
+6-14	159-164	deras	*[10]	_	_	_	_	_	_	
+6-15	165-172	politik	*[10]	_	_	_	_	_	_	
+6-16	173-176	jag	_	_	_	_	_	_	_	
+6-17	177-181	inte	_	Target[3]	6-12[10]	false[3]	2[3]	_	_	
+6-18	182-188	håller	_	Target[3]	6-12[10]	false[3]	2[3]	_	_	
+6-19	189-192	med	_	Target[3]	6-12[10]	false[3]	2[3]	_	_	
+6-20	193-195	om	_	Target[3]	6-12[10]	false[3]	2[3]	_	_	
+6-21	195-196	.	_	_	_	_	_	_	_	
+
+#Text=Nu lyckades dom dock säkra min röst iom detta utspel:.
+7-1	197-199	Nu	_	_	_	_	_	_	_	
+7-2	200-208	lyckades	_	_	_	false	4	_	_	
+7-3	209-212	dom	*	_	_	_	_	_	_	
+7-4	213-217	dock	_	_	_	_	_	_	_	
+7-5	218-223	säkra	_	Target[4]	7-3	false[4]	4[4]	7-2[0_4]	_	
+7-6	224-227	min	_	Target[4]	7-3	false[4]	4[4]	_	_	
+7-7	228-232	röst	_	Target[4]	7-3	false[4]	4[4]	_	_	
+7-8	233-236	iom	_	_	_	_	_	_	_	
+7-9	237-242	detta	_	_	_	_	_	_	_	
+7-10	243-249	utspel	_	_	_	_	_	_	_	
+7-11	249-250	:	_	_	_	_	_	_	_	
+7-12	250-251	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	253-254	#	_	_	_	_	_	_	_	
+8-2	254-255	P	_	_	_	_	_	_	_	
+8-3	256-259	IMM	_	_	_	_	_	_	_	
+8-4	259-260	.	_	_	_	_	_	_	_	
+
+#Text=SD är alltså det ENDA parti i riksdagen som är emot ökad krigshets i europa och dessutom fattat att miljöavtalet i paris (skatt på co2) är ytterligare ett bedrägeri designat att skyffla skattepengar ner i fickorna på privata aktörer kopplade till beslutsfattarna.
+9-1	262-264	SD	*[11]|*[12]	_	_	_	_	_	11-4[0_11]|9-9[13_12]	
+9-2	265-267	är	*[11]|*[12]	_	_	_	_	_	_	
+9-3	268-274	alltså	*[11]|*[12]	_	_	_	_	_	_	
+9-4	275-278	det	*[11]|*[12]	_	_	_	_	_	_	
+9-5	279-283	ENDA	*[11]|*[12]	_	_	_	_	_	_	
+9-6	284-289	parti	*[11]|*[12]	_	_	_	_	_	_	
+9-7	290-291	i	*[11]|*[12]	_	_	_	_	_	_	
+9-8	292-301	riksdagen	*[11]|*[12]	_	_	_	_	_	_	
+9-9	302-305	som	*[11]|*[13]	_	_	_	_	_	_	
+9-10	306-308	är	*[11]	Target;Source[5]	9-12[14];9-9[13]	false[5]	2[5]	_	_	
+9-11	309-313	emot	*[11]	Target;Source[5]	9-12[14];9-9[13]	false[5]	2[5]	_	_	
+9-12	314-318	ökad	*[11]|*[14]	_	_	_	_	_	_	
+9-13	319-328	krigshets	*[11]|*[14]	_	_	_	_	_	_	
+9-14	329-330	i	*[11]|*[14]	_	_	_	_	_	_	
+9-15	331-337	europa	*[11]|*[14]	_	_	_	_	_	_	
+9-16	338-341	och	*[11]	_	_	_	_	_	_	
+9-17	342-350	dessutom	*[11]	Target[6]	9-19[15]	false[6]	4[6]	_	_	
+9-18	351-357	fattat	*[11]	Target[6]	9-19[15]	false[6]	4[6]	_	_	
+9-19	358-361	att	*[11]|*[15]	_	_	_	_	_	_	
+9-20	362-374	miljöavtalet	*[11]|*[15]	_	_	_	_	_	_	
+9-21	375-376	i	*[11]|*[15]	_	_	_	_	_	_	
+9-22	377-382	paris	*[11]|*[15]	_	_	_	_	_	_	
+9-23	383-384	(	*[11]|*[15]	_	_	_	_	_	_	
+9-24	384-389	skatt	*[11]|*[15]	_	_	_	_	_	_	
+9-25	390-392	på	*[11]|*[15]	_	_	_	_	_	_	
+9-26	393-396	co2	*[11]|*[15]	_	_	_	_	_	_	
+9-27	396-397	)	*[11]|*[15]	_	_	_	_	_	_	
+9-28	398-400	är	*[11]|*[15]	_	_	_	_	_	_	
+9-29	401-412	ytterligare	*[11]|*[15]	_	_	_	_	_	_	
+9-30	413-416	ett	*[11]|*[15]	_	_	_	_	_	_	
+9-31	417-426	bedrägeri	*[11]|*[15]	_	_	_	_	_	_	
+9-32	427-435	designat	*[11]|*[15]	_	_	_	_	_	_	
+9-33	436-439	att	*[11]|*[15]	_	_	_	_	_	_	
+9-34	440-447	skyffla	*[11]|*[15]	_	_	_	_	_	_	
+9-35	448-460	skattepengar	*[11]|*[15]	_	_	_	_	_	_	
+9-36	461-464	ner	*[11]|*[15]	_	_	_	_	_	_	
+9-37	465-466	i	*[11]|*[15]	_	_	_	_	_	_	
+9-38	467-475	fickorna	*[11]|*[15]	_	_	_	_	_	_	
+9-39	476-478	på	*[11]|*[15]	_	_	_	_	_	_	
+9-40	479-486	privata	*[11]|*[15]	_	_	_	_	_	_	
+9-41	487-494	aktörer	*[11]|*[15]	_	_	_	_	_	_	
+9-42	495-503	kopplade	*[11]|*[15]	_	_	_	_	_	_	
+9-43	504-508	till	*[11]|*[15]	_	_	_	_	_	_	
+9-44	509-524	beslutsfattarna	*[11]|*[15]	_	_	_	_	_	_	
+9-45	524-525	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	527-528	#	_	_	_	_	_	_	_	
+10-2	528-529	P	_	_	_	_	_	_	_	
+10-3	530-533	IMM	_	_	_	_	_	_	_	
+10-4	533-534	.	_	_	_	_	_	_	_	
+
+#Text=Jag tror att detta kommer visa sig mycket gynnsamt för SD, men jag har haft fel förr.
+11-1	536-539	Jag	_	_	_	_	_	_	_	
+11-2	540-544	tror	_	_	_	_	_	_	_	
+11-3	545-548	att	_	_	_	_	_	_	_	
+11-4	549-554	detta	*	_	_	_	_	_	_	
+11-5	555-561	kommer	_	_	_	_	_	_	_	
+11-6	562-566	visa	_	Target[7]	11-4	false[7]	4[7]	_	_	
+11-7	567-570	sig	_	Target[7]	11-4	false[7]	4[7]	_	_	
+11-8	571-577	mycket	_	Target[7]	11-4	false[7]	4[7]	_	_	
+11-9	578-586	gynnsamt	_	Target[7]	11-4	false[7]	4[7]	_	_	
+11-10	587-590	för	_	_	_	_	_	_	_	
+11-11	591-593	SD	_	_	_	_	_	_	_	
+11-12	593-594	,	_	_	_	_	_	_	_	
+11-13	595-598	men	_	_	_	_	_	_	_	
+11-14	599-602	jag	_	_	_	_	_	_	_	
+11-15	603-606	har	_	_	_	_	_	_	_	
+11-16	607-611	haft	_	_	_	_	_	_	_	
+11-17	612-615	fel	_	_	_	_	_	_	_	
+11-18	616-620	förr	_	_	_	_	_	_	_	
+11-19	620-621	.	_	_	_	_	_	_	_	
+
+#Text=Många av mina vänner och bekanta tror fortfarande på myten kring global uppvärmning trots mängderna av (riktiga) forskare som påtalat att bevisen (och faktiskt uppvärmningen i sig) uteblivit helt.
+12-1	622-627	Många	_	_	_	_	_	_	_	
+12-2	628-630	av	_	_	_	_	_	_	_	
+12-3	631-635	mina	_	_	_	_	_	_	_	
+12-4	636-642	vänner	_	_	_	_	_	_	_	
+12-5	643-646	och	_	_	_	_	_	_	_	
+12-6	647-654	bekanta	_	_	_	_	_	_	_	
+12-7	655-659	tror	_	_	_	_	_	_	_	
+12-8	660-671	fortfarande	_	_	_	_	_	_	_	
+12-9	672-674	på	_	_	_	_	_	_	_	
+12-10	675-680	myten	_	Target	12-12[16]	false	2	_	_	
+12-11	681-686	kring	_	_	_	_	_	_	_	
+12-12	687-693	global	*[16]	_	_	_	_	_	_	
+12-13	694-705	uppvärmning	*[16]	_	_	_	_	_	_	
+12-14	706-711	trots	_	_	_	_	_	_	_	
+12-15	712-721	mängderna	_	_	_	_	_	_	_	
+12-16	722-724	av	_	_	_	_	_	_	_	
+12-17	725-726	(	_	_	_	_	_	_	_	
+12-18	726-733	riktiga	_	Target	12-20[17]	false	4	_	_	
+12-19	733-734	)	_	_	_	_	_	_	_	
+12-20	735-743	forskare	*[17]	_	_	_	_	_	_	
+12-21	744-747	som	*[17]	_	_	_	_	_	_	
+12-22	748-755	påtalat	*[17]	_	_	_	_	_	_	
+12-23	756-759	att	*[17]	_	_	_	_	_	_	
+12-24	760-767	bevisen	*[17]	_	_	_	_	_	_	
+12-25	768-769	(	*[17]	_	_	_	_	_	_	
+12-26	769-772	och	*[17]	_	_	_	_	_	_	
+12-27	773-781	faktiskt	*[17]	_	_	_	_	_	_	
+12-28	782-795	uppvärmningen	*[17]	_	_	_	_	_	_	
+12-29	796-797	i	*[17]	_	_	_	_	_	_	
+12-30	798-801	sig	*[17]	_	_	_	_	_	_	
+12-31	801-802	)	*[17]	_	_	_	_	_	_	
+12-32	803-812	uteblivit	*[17]	_	_	_	_	_	_	
+12-33	813-817	helt	*[17]	_	_	_	_	_	_	
+12-34	817-818	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	820-821	#	_	_	_	_	_	_	_	
+13-2	821-822	P	_	_	_	_	_	_	_	
+13-3	823-826	IMM	_	_	_	_	_	_	_	
+13-4	826-827	.	_	_	_	_	_	_	_	
+
+#Text=Vad tror ni andra?.
+14-1	829-832	Vad	_	_	_	_	_	_	_	
+14-2	833-837	tror	_	_	_	_	_	_	_	
+14-3	838-840	ni	_	_	_	_	_	_	_	
+14-4	841-846	andra	_	_	_	_	_	_	_	
+14-5	846-847	?	_	_	_	_	_	_	_	
+14-6	847-848	.	_	_	_	_	_	_	_	

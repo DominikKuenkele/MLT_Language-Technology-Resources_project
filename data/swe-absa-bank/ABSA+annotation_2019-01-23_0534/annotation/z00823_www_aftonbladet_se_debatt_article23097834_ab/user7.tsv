@@ -1,0 +1,704 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Skolorna räcker inte – staten måste agera.
+3-1	18-26	Skolorna	*	_	_	_	_	_	_	
+3-2	27-33	räcker	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	34-38	inte	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	39-40	–	_	_	_	_	_	_	_	
+3-5	41-47	staten	_	_	_	_	_	_	_	
+3-6	48-53	måste	_	_	_	_	_	_	_	
+3-7	54-59	agera	_	_	_	_	_	_	_	
+3-8	59-60	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	_	
+
+#Text=En bra skola är en skola som ger alla elever likvärdiga möjligheter att lära och utvecklas och som lyfter varje enskild elev.
+5-1	71-73	En	_	_	_	_	_	_	_	
+5-2	74-77	bra	_	Target	5-3	false	4	_	_	
+5-3	78-83	skola	*	_	_	_	_	_	_	
+5-4	84-86	är	_	_	_	_	_	_	_	
+5-5	87-89	en	_	_	_	_	_	_	_	
+5-6	90-95	skola	_	_	_	_	_	_	_	
+5-7	96-99	som	_	_	_	_	_	_	_	
+5-8	100-103	ger	_	_	_	_	_	_	_	
+5-9	104-108	alla	_	_	_	_	_	_	_	
+5-10	109-115	elever	_	_	_	_	_	_	_	
+5-11	116-126	likvärdiga	_	_	_	_	_	_	_	
+5-12	127-138	möjligheter	_	_	_	_	_	_	_	
+5-13	139-142	att	_	_	_	_	_	_	_	
+5-14	143-147	lära	_	_	_	_	_	_	_	
+5-15	148-151	och	_	_	_	_	_	_	_	
+5-16	152-161	utvecklas	_	_	_	_	_	_	_	
+5-17	162-165	och	_	_	_	_	_	_	_	
+5-18	166-169	som	_	_	_	_	_	_	_	
+5-19	170-176	lyfter	_	_	_	_	_	_	_	
+5-20	177-182	varje	_	_	_	_	_	_	_	
+5-21	183-190	enskild	_	_	_	_	_	_	_	
+5-22	191-195	elev	_	_	_	_	_	_	_	
+5-23	195-196	.	_	_	_	_	_	_	_	
+
+#Text=Det är en skola där elevernas olika behov sätts i första rummet och där lärarna ges goda förutsättningar att arbeta professionellt för att varje barn ska få bästa möjliga förutsättningar att växa som människor.
+6-1	197-200	Det	_	_	_	_	_	_	_	
+6-2	201-203	är	_	_	_	_	_	_	_	
+6-3	204-206	en	_	_	_	_	_	_	_	
+6-4	207-212	skola	_	_	_	_	_	_	_	
+6-5	213-216	där	_	_	_	_	_	_	_	
+6-6	217-226	elevernas	*[11]	_	_	_	_	_	_	
+6-7	227-232	olika	*[11]	_	_	_	_	_	_	
+6-8	233-238	behov	*[11]	_	_	_	_	_	_	
+6-9	239-244	sätts	_	Source;Target[2]	6-35;6-6[11]	false[2]	4[2]	_	_	
+6-10	245-246	i	_	Source;Target[2]	6-35;6-6[11]	false[2]	4[2]	_	_	
+6-11	247-253	första	_	Source;Target[2]	6-35;6-6[11]	false[2]	4[2]	_	_	
+6-12	254-260	rummet	_	Source;Target[2]	6-35;6-6[11]	false[2]	4[2]	_	_	
+6-13	261-264	och	_	_	_	_	_	_	_	
+6-14	265-268	där	_	_	_	_	_	_	_	
+6-15	269-276	lärarna	_	_	_	_	_	_	_	
+6-16	277-280	ges	_	_	_	_	_	_	_	
+6-17	281-285	goda	_	Target	6-18	false	4	_	_	
+6-18	286-301	förutsättningar	*	_	_	_	_	_	_	
+6-19	302-305	att	_	_	_	_	_	_	_	
+6-20	306-312	arbeta	_	_	_	_	_	_	_	
+6-21	313-327	professionellt	_	_	_	_	_	_	_	
+6-22	328-331	för	_	_	_	_	_	_	_	
+6-23	332-335	att	_	_	_	_	_	_	_	
+6-24	336-341	varje	_	_	_	_	_	_	_	
+6-25	342-346	barn	_	_	_	_	_	_	_	
+6-26	347-350	ska	_	_	_	_	_	_	_	
+6-27	351-353	få	_	_	_	_	_	_	_	
+6-28	354-359	bästa	_	Target[3]	6-30	false[3]	5[3]	_	_	
+6-29	360-367	möjliga	_	Target[3]	6-30	false[3]	5[3]	_	_	
+6-30	368-383	förutsättningar	*	_	_	_	_	_	_	
+6-31	384-387	att	_	_	_	_	_	_	_	
+6-32	388-392	växa	_	_	_	_	_	_	_	
+6-33	393-396	som	_	_	_	_	_	_	_	
+6-34	397-406	människor	_	_	_	_	_	_	_	
+6-35	406-407	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	409-410	#	_	_	_	_	_	_	_	
+7-2	410-411	P	_	_	_	_	_	_	_	
+7-3	412-415	IMM	_	_	_	_	_	_	_	
+7-4	415-416	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har i flera år brottats med sjunkande kunskapsresultat och en ökad skolsegregation och regeringen har tillsatt en skolkommission som ska lägga fram förslag till åtgärder för att vända utvecklingen.
+8-1	418-425	Sverige	_	_	_	_	_	_	_	
+8-2	426-429	har	_	_	_	_	_	_	_	
+8-3	430-431	i	_	_	_	_	_	_	_	
+8-4	432-437	flera	_	_	_	_	_	_	_	
+8-5	438-440	år	_	_	_	_	_	_	_	
+8-6	441-449	brottats	_	_	_	_	_	_	_	
+8-7	450-453	med	_	_	_	_	_	_	_	
+8-8	454-463	sjunkande	_	_	_	_	_	_	_	
+8-9	464-480	kunskapsresultat	_	_	_	_	_	_	_	
+8-10	481-484	och	_	_	_	_	_	_	_	
+8-11	485-487	en	_	_	_	_	_	_	_	
+8-12	488-492	ökad	_	_	_	_	_	_	_	
+8-13	493-508	skolsegregation	*	Target	8-13	false	2	_	_	
+8-14	509-512	och	_	_	_	_	_	_	_	
+8-15	513-523	regeringen	_	_	_	_	_	_	_	
+8-16	524-527	har	_	_	_	_	_	_	_	
+8-17	528-536	tillsatt	_	_	_	_	_	_	_	
+8-18	537-539	en	_	_	_	_	_	_	_	
+8-19	540-554	skolkommission	_	_	_	_	_	_	_	
+8-20	555-558	som	_	_	_	_	_	_	_	
+8-21	559-562	ska	_	_	_	_	_	_	_	
+8-22	563-568	lägga	_	_	_	_	_	_	_	
+8-23	569-573	fram	_	_	_	_	_	_	_	
+8-24	574-581	förslag	_	_	_	_	_	_	_	
+8-25	582-586	till	_	_	_	_	_	_	_	
+8-26	587-595	åtgärder	_	_	_	_	_	_	_	
+8-27	596-599	för	_	_	_	_	_	_	_	
+8-28	600-603	att	_	_	_	_	_	_	_	
+8-29	604-609	vända	_	_	_	_	_	_	_	
+8-30	610-622	utvecklingen	_	_	_	_	_	_	_	
+8-31	622-623	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	625-626	#	_	_	_	_	_	_	_	
+9-2	626-627	P	_	_	_	_	_	_	_	
+9-3	628-631	IMM	_	_	_	false	3	_	_	
+9-4	631-632	.	_	_	_	_	_	_	_	
+
+#Text=Sedan kommissionen startade sitt arbete har Sverige dessutom tagit emot ett stort antal flyktingar, med väldigt olika utbildningsbakgrund, som snabbt måste slussas in i skolan och utbildningssystemet.
+10-1	634-639	Sedan	_	_	_	_	_	_	_	
+10-2	640-652	kommissionen	_	_	_	_	_	_	_	
+10-3	653-661	startade	_	_	_	_	_	_	_	
+10-4	662-666	sitt	_	_	_	_	_	_	_	
+10-5	667-673	arbete	_	_	_	_	_	_	_	
+10-6	674-677	har	_	_	_	_	_	_	_	
+10-7	678-685	Sverige	_	_	_	_	_	_	_	
+10-8	686-694	dessutom	_	_	_	_	_	_	_	
+10-9	695-700	tagit	_	_	_	_	_	_	_	
+10-10	701-705	emot	_	_	_	_	_	_	_	
+10-11	706-709	ett	_	_	_	_	_	_	_	
+10-12	710-715	stort	_	_	_	_	_	_	_	
+10-13	716-721	antal	_	_	_	_	_	_	_	
+10-14	722-732	flyktingar	_	_	_	_	_	_	_	
+10-15	732-733	,	_	_	_	_	_	_	_	
+10-16	734-737	med	_	_	_	_	_	_	_	
+10-17	738-745	väldigt	_	_	_	_	_	_	_	
+10-18	746-751	olika	_	_	_	_	_	_	_	
+10-19	752-771	utbildningsbakgrund	_	_	_	_	_	_	_	
+10-20	771-772	,	_	_	_	_	_	_	_	
+10-21	773-776	som	_	_	_	_	_	_	_	
+10-22	777-783	snabbt	_	_	_	_	_	_	_	
+10-23	784-789	måste	_	_	_	_	_	_	_	
+10-24	790-797	slussas	_	_	_	_	_	_	_	
+10-25	798-800	in	_	_	_	_	_	_	_	
+10-26	801-802	i	_	_	_	_	_	_	_	
+10-27	803-809	skolan	_	_	_	_	_	_	_	
+10-28	810-813	och	_	_	_	_	_	_	_	
+10-29	814-833	utbildningssystemet	_	_	_	_	_	_	_	
+10-30	833-834	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	836-837	#	_	_	_	_	_	_	_	
+11-2	837-838	P	_	_	_	_	_	_	_	
+11-3	839-842	IMM	_	_	_	_	_	_	_	
+11-4	842-843	.	_	_	_	_	_	_	_	
+
+#Text=De kommunala huvudmännen har ett viktigt uppdrag i att säkra att alla elever får tillgång till bra och likvärdig undervisning inom kommunen, och staten å sin sida måste säkerställa likvärdiga förutsättningar mellan landets olika kommuner.
+12-1	845-847	De	_	_	_	_	_	_	_	
+12-2	848-857	kommunala	_	_	_	_	_	_	_	
+12-3	858-869	huvudmännen	_	_	_	_	_	_	_	
+12-4	870-873	har	_	_	_	_	_	_	_	
+12-5	874-877	ett	_	_	_	_	_	_	_	
+12-6	878-885	viktigt	_	_	_	_	_	_	_	
+12-7	886-893	uppdrag	_	_	_	_	_	_	_	
+12-8	894-895	i	_	_	_	_	_	_	_	
+12-9	896-899	att	_	_	_	_	_	_	_	
+12-10	900-905	säkra	_	_	_	_	_	_	_	
+12-11	906-909	att	_	_	_	_	_	_	_	
+12-12	910-914	alla	_	_	_	_	_	_	_	
+12-13	915-921	elever	_	_	_	_	_	_	_	
+12-14	922-925	får	_	_	_	_	_	_	_	
+12-15	926-934	tillgång	_	_	_	_	_	_	_	
+12-16	935-939	till	_	_	_	_	_	_	_	
+12-17	940-943	bra	_	_	_	_	_	_	_	
+12-18	944-947	och	_	_	_	_	_	_	_	
+12-19	948-957	likvärdig	_	_	_	_	_	_	_	
+12-20	958-970	undervisning	_	_	_	_	_	_	_	
+12-21	971-975	inom	_	_	_	_	_	_	_	
+12-22	976-984	kommunen	_	_	_	_	_	_	_	
+12-23	984-985	,	_	_	_	_	_	_	_	
+12-24	986-989	och	_	_	_	_	_	_	_	
+12-25	990-996	staten	_	_	_	_	_	_	_	
+12-26	997-998	å	_	_	_	_	_	_	_	
+12-27	999-1002	sin	_	_	_	_	_	_	_	
+12-28	1003-1007	sida	_	_	_	_	_	_	_	
+12-29	1008-1013	måste	_	_	_	_	_	_	_	
+12-30	1014-1025	säkerställa	_	_	_	_	_	_	_	
+12-31	1026-1036	likvärdiga	_	_	_	_	_	_	_	
+12-32	1037-1052	förutsättningar	_	_	_	_	_	_	_	
+12-33	1053-1059	mellan	_	_	_	_	_	_	_	
+12-34	1060-1067	landets	_	_	_	_	_	_	_	
+12-35	1068-1073	olika	_	_	_	_	_	_	_	
+12-36	1074-1082	kommuner	_	_	_	_	_	_	_	
+12-37	1082-1083	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	1085-1086	#	_	_	_	_	_	_	_	
+13-2	1086-1087	P	_	_	_	_	_	_	_	
+13-3	1088-1091	IMM	_	_	_	false	3	_	_	
+13-4	1091-1092	.	_	_	_	_	_	_	_	
+
+#Text=I grunden är migrationspolitiken ett statligt ansvar och staten måste också säkerställa att mottagandet runt om i landet fungerar.
+14-1	1094-1095	I	_	_	_	_	_	_	_	
+14-2	1096-1103	grunden	_	_	_	_	_	_	_	
+14-3	1104-1106	är	_	_	_	_	_	_	_	
+14-4	1107-1126	migrationspolitiken	_	_	_	_	_	_	_	
+14-5	1127-1130	ett	_	_	_	_	_	_	_	
+14-6	1131-1139	statligt	_	_	_	_	_	_	_	
+14-7	1140-1146	ansvar	_	_	_	_	_	_	_	
+14-8	1147-1150	och	_	_	_	_	_	_	_	
+14-9	1151-1157	staten	_	_	_	_	_	_	_	
+14-10	1158-1163	måste	_	_	_	_	_	_	_	
+14-11	1164-1169	också	_	_	_	_	_	_	_	
+14-12	1170-1181	säkerställa	_	_	_	_	_	_	_	
+14-13	1182-1185	att	_	_	_	_	_	_	_	
+14-14	1186-1197	mottagandet	*[12]	_	_	_	_	_	_	
+14-15	1198-1202	runt	*[12]	_	_	_	_	_	_	
+14-16	1203-1205	om	*[12]	_	_	_	_	_	_	
+14-17	1206-1207	i	*[12]	_	_	_	_	_	_	
+14-18	1208-1214	landet	*[12]	_	_	_	_	_	_	
+14-19	1215-1223	fungerar	_	Source;Target	14-20;14-14[12]	false	4	_	_	
+14-20	1223-1224	.	*	_	_	_	_	_	_	
+
+#Text=Då duger det inte att det är som i dag, att fyra procent av landets skolor tar emot en tredjedel av alla nyanlända elever.
+15-1	1225-1227	Då	_	_	_	_	_	_	_	
+15-2	1228-1233	duger	_	Target	15-5[13]	false	2	15-4	_	
+15-3	1234-1237	det	_	_	_	_	_	_	_	
+15-4	1238-1242	inte	_	_	_	false	2	_	_	
+15-5	1243-1246	att	*[13]	_	_	_	_	_	_	
+15-6	1247-1250	det	*[13]	_	_	_	_	_	_	
+15-7	1251-1253	är	*[13]	_	_	_	_	_	_	
+15-8	1254-1257	som	*[13]	_	_	_	_	_	_	
+15-9	1258-1259	i	*[13]	_	_	_	_	_	_	
+15-10	1260-1263	dag	*[13]	_	_	_	_	_	_	
+15-11	1263-1264	,	*[13]	_	_	_	_	_	_	
+15-12	1265-1268	att	*[13]	_	_	_	_	_	_	
+15-13	1269-1273	fyra	*[13]	_	_	_	_	_	_	
+15-14	1274-1281	procent	*[13]	_	_	_	_	_	_	
+15-15	1282-1284	av	*[13]	_	_	_	_	_	_	
+15-16	1285-1292	landets	*[13]	_	_	_	_	_	_	
+15-17	1293-1299	skolor	*[13]	_	_	_	_	_	_	
+15-18	1300-1303	tar	*[13]	_	_	_	_	_	_	
+15-19	1304-1308	emot	*[13]	_	_	_	_	_	_	
+15-20	1309-1311	en	*[13]	_	_	_	_	_	_	
+15-21	1312-1321	tredjedel	*[13]	_	_	_	_	_	_	
+15-22	1322-1324	av	*[13]	_	_	_	_	_	_	
+15-23	1325-1329	alla	*[13]	_	_	_	_	_	_	
+15-24	1330-1339	nyanlända	*[13]	_	_	_	_	_	_	
+15-25	1340-1346	elever	*[13]	_	_	_	_	_	_	
+15-26	1346-1347	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1349-1350	#	_	_	_	_	_	_	_	
+16-2	1350-1351	P	_	_	_	_	_	_	_	
+16-3	1352-1355	IMM	_	_	_	false	3	_	_	
+16-4	1355-1356	.	_	_	_	_	_	_	_	
+
+#Text=Det svenska mottagningssystemet måste lägga mycket mer kraft vid en jämnare fördelning av elever, mellan kommuner och mellan skolor, så att förutsättningarna för integration och skolgång blir bättre än i dag.
+17-1	1358-1361	Det	_	_	_	_	_	_	_	
+17-2	1362-1369	svenska	_	_	_	_	_	_	_	
+17-3	1370-1389	mottagningssystemet	_	_	_	_	_	_	_	
+17-4	1390-1395	måste	_	_	_	_	_	_	_	
+17-5	1396-1401	lägga	_	_	_	_	_	_	_	
+17-6	1402-1408	mycket	_	_	_	_	_	_	_	
+17-7	1409-1412	mer	_	_	_	_	_	_	_	
+17-8	1413-1418	kraft	_	_	_	_	_	_	_	
+17-9	1419-1422	vid	_	_	_	_	_	_	_	
+17-10	1423-1425	en	_	_	_	_	_	_	_	
+17-11	1426-1433	jämnare	_	_	_	_	_	_	_	
+17-12	1434-1444	fördelning	_	_	_	_	_	_	_	
+17-13	1445-1447	av	_	_	_	_	_	_	_	
+17-14	1448-1454	elever	_	_	_	_	_	_	_	
+17-15	1454-1455	,	_	_	_	_	_	_	_	
+17-16	1456-1462	mellan	_	_	_	_	_	_	_	
+17-17	1463-1471	kommuner	_	_	_	_	_	_	_	
+17-18	1472-1475	och	_	_	_	_	_	_	_	
+17-19	1476-1482	mellan	_	_	_	_	_	_	_	
+17-20	1483-1489	skolor	_	_	_	_	_	_	_	
+17-21	1489-1490	,	_	_	_	_	_	_	_	
+17-22	1491-1493	så	_	_	_	_	_	_	_	
+17-23	1494-1497	att	_	_	_	_	_	_	_	
+17-24	1498-1515	förutsättningarna	*[14]	_	_	_	_	_	_	
+17-25	1516-1519	för	*[14]	_	_	_	_	_	_	
+17-26	1520-1531	integration	*[14]	_	_	_	_	_	_	
+17-27	1532-1535	och	*[14]	_	_	_	_	_	_	
+17-28	1536-1544	skolgång	*[14]	_	_	_	_	_	_	
+17-29	1545-1549	blir	_	Target[4]	17-24[14]	false[4]	4[4]	_	_	
+17-30	1550-1556	bättre	_	Target[4]	17-24[14]	false[4]	4[4]	_	_	
+17-31	1557-1559	än	_	_	_	_	_	_	_	
+17-32	1560-1561	i	_	_	_	_	_	_	_	
+17-33	1562-1565	dag	_	_	_	_	_	_	_	
+17-34	1565-1566	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1568-1569	#	_	_	_	_	_	_	_	
+18-2	1569-1570	P	_	_	_	_	_	_	_	
+18-3	1571-1574	IMM	_	_	_	false	3	_	_	
+18-4	1574-1575	.	_	_	_	_	_	_	_	
+
+#Text=Resurserna som läggs på undervisningen måste också säkras.
+19-1	1577-1587	Resurserna	*[15]	_	_	_	_	_	_	
+19-2	1588-1591	som	*[15]	_	_	_	_	_	_	
+19-3	1592-1597	läggs	*[15]	_	_	_	_	_	_	
+19-4	1598-1600	på	*[15]	_	_	_	_	_	_	
+19-5	1601-1615	undervisningen	*[15]	_	_	_	_	_	_	
+19-6	1616-1621	måste	_	_	_	false	4	_	_	
+19-7	1622-1627	också	_	_	_	_	_	_	_	
+19-8	1628-1634	säkras	_	Target	19-1[15]	false	4	19-6	_	
+19-9	1634-1635	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens tio miljarder till kommunerna och landstingen är välkomna och nödvändiga för att möta befolkningsökningen och säkra välfärden.
+20-1	1636-1647	Regeringens	*[16]	_	_	_	_	_	_	
+20-2	1648-1651	tio	*[16]	_	_	_	_	_	_	
+20-3	1652-1661	miljarder	*[16]	_	_	_	_	_	_	
+20-4	1662-1666	till	*[16]	_	_	_	_	_	_	
+20-5	1667-1677	kommunerna	*[16]	_	_	_	_	_	_	
+20-6	1678-1681	och	*[16]	_	_	_	_	_	_	
+20-7	1682-1693	landstingen	*[16]	_	_	_	_	_	_	
+20-8	1694-1696	är	_	Target[5]	20-1[16]	false[5]	4[5]	_	_	
+20-9	1697-1705	välkomna	_	Target[5]	20-1[16]	false[5]	4[5]	_	_	
+20-10	1706-1709	och	_	Target[5]	20-1[16]	false[5]	4[5]	_	_	
+20-11	1710-1720	nödvändiga	_	Target[5]	20-1[16]	false[5]	4[5]	_	_	
+20-12	1721-1724	för	_	_	_	_	_	_	_	
+20-13	1725-1728	att	_	_	_	_	_	_	_	
+20-14	1729-1733	möta	_	_	_	_	_	_	_	
+20-15	1734-1753	befolkningsökningen	_	_	_	_	_	_	_	
+20-16	1754-1757	och	_	_	_	_	_	_	_	
+20-17	1758-1763	säkra	_	_	_	_	_	_	_	
+20-18	1764-1773	välfärden	_	_	_	_	_	_	_	
+20-19	1773-1774	.	_	_	_	_	_	_	_	
+
+#Text=Men vi ser trots det att stora och kostsamma investeringar i nya skolbyggnader riskerar att urholka skolpengen i de kommuner som växer allra kraftigast.
+21-1	1775-1778	Men	_	_	_	_	_	_	_	
+21-2	1779-1781	vi	_	_	_	_	_	_	_	
+21-3	1782-1785	ser	_	_	_	_	_	_	_	
+21-4	1786-1791	trots	_	_	_	_	_	_	_	
+21-5	1792-1795	det	_	_	_	_	_	_	_	
+21-6	1796-1799	att	_	_	_	_	_	_	_	
+21-7	1800-1805	stora	*[17]	_	_	_	_	_	_	
+21-8	1806-1809	och	*[17]	_	_	_	_	_	_	
+21-9	1810-1819	kostsamma	*[17]	_	_	_	_	_	_	
+21-10	1820-1833	investeringar	*[17]	_	_	_	_	_	_	
+21-11	1834-1835	i	*[17]	_	_	_	_	_	_	
+21-12	1836-1839	nya	*[17]	_	_	_	_	_	_	
+21-13	1840-1853	skolbyggnader	*[17]	_	_	_	_	_	_	
+21-14	1854-1862	riskerar	_	Target[6]	21-7[17]	false[6]	2[6]	_	_	
+21-15	1863-1866	att	_	Target[6]	21-7[17]	false[6]	2[6]	_	_	
+21-16	1867-1874	urholka	_	Target[6]	21-7[17]	false[6]	2[6]	_	_	
+21-17	1875-1885	skolpengen	_	_	_	_	_	_	_	
+21-18	1886-1887	i	_	_	_	_	_	_	_	
+21-19	1888-1890	de	_	_	_	_	_	_	_	
+21-20	1891-1899	kommuner	_	_	_	_	_	_	_	
+21-21	1900-1903	som	_	_	_	_	_	_	_	
+21-22	1904-1909	växer	_	_	_	_	_	_	_	
+21-23	1910-1915	allra	_	_	_	_	_	_	_	
+21-24	1916-1926	kraftigast	_	_	_	_	_	_	_	
+21-25	1926-1927	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1929-1930	#	_	_	_	_	_	_	_	
+22-2	1930-1931	P	_	_	_	_	_	_	_	
+22-3	1932-1935	IMM	_	_	_	false	3	_	_	
+22-4	1935-1936	.	_	_	_	_	_	_	_	
+
+#Text=I vissa kommuner klarar man befolkningsökningen genom att nyttja redan befintliga skolor, som tidigare kanske varit nedläggningshotade på grund av för få elever.
+23-1	1938-1939	I	*[18]	_	_	_	_	_	23-5[0_18]	
+23-2	1940-1945	vissa	*[18]	_	_	_	_	_	_	
+23-3	1946-1954	kommuner	*[18]	_	_	_	_	_	_	
+23-4	1955-1961	klarar	_	Target	23-5	false	4	_	_	
+23-5	1962-1965	man	*	_	_	_	_	_	_	
+23-6	1966-1985	befolkningsökningen	_	_	_	_	_	_	_	
+23-7	1986-1991	genom	_	_	_	_	_	_	_	
+23-8	1992-1995	att	_	_	_	_	_	_	_	
+23-9	1996-2002	nyttja	_	_	_	_	_	_	_	
+23-10	2003-2008	redan	_	_	_	_	_	_	_	
+23-11	2009-2019	befintliga	_	_	_	_	_	_	_	
+23-12	2020-2026	skolor	_	_	_	_	_	_	_	
+23-13	2026-2027	,	_	_	_	_	_	_	_	
+23-14	2028-2031	som	_	_	_	_	_	_	_	
+23-15	2032-2040	tidigare	_	_	_	_	_	_	_	
+23-16	2041-2047	kanske	_	_	_	_	_	_	_	
+23-17	2048-2053	varit	_	_	_	_	_	_	_	
+23-18	2054-2072	nedläggningshotade	_	_	_	_	_	_	_	
+23-19	2073-2075	på	_	_	_	_	_	_	_	
+23-20	2076-2081	grund	_	_	_	_	_	_	_	
+23-21	2082-2084	av	_	_	_	_	_	_	_	
+23-22	2085-2088	för	_	_	_	_	_	_	_	
+23-23	2089-2091	få	_	_	_	_	_	_	_	
+23-24	2092-2098	elever	_	_	_	_	_	_	_	
+23-25	2098-2099	.	_	_	_	_	_	_	_	
+
+#Text=I andra kommuner, som vuxit mycket under en längre tid, finns inte det utrymmet och varje ny elev innebär väsentligt högre kostnader, som en följd av tunga investeringar i nya skolbyggnader.
+24-1	2100-2101	I	_	_	_	_	_	_	_	
+24-2	2102-2107	andra	_	_	_	_	_	_	_	
+24-3	2108-2116	kommuner	_	_	_	_	_	_	_	
+24-4	2116-2117	,	_	_	_	_	_	_	_	
+24-5	2118-2121	som	_	_	_	_	_	_	_	
+24-6	2122-2127	vuxit	_	_	_	_	_	_	_	
+24-7	2128-2134	mycket	_	_	_	_	_	_	_	
+24-8	2135-2140	under	_	_	_	_	_	_	_	
+24-9	2141-2143	en	_	_	_	_	_	_	_	
+24-10	2144-2150	längre	_	_	_	_	_	_	_	
+24-11	2151-2154	tid	_	_	_	_	_	_	_	
+24-12	2154-2155	,	_	_	_	_	_	_	_	
+24-13	2156-2161	finns	_	_	_	_	_	_	_	
+24-14	2162-2166	inte	_	_	_	_	_	_	_	
+24-15	2167-2170	det	_	_	_	_	_	_	_	
+24-16	2171-2179	utrymmet	_	_	_	_	_	_	_	
+24-17	2180-2183	och	_	_	_	_	_	_	_	
+24-18	2184-2189	varje	_	_	_	_	_	_	_	
+24-19	2190-2192	ny	_	_	_	_	_	_	_	
+24-20	2193-2197	elev	_	_	_	_	_	_	_	
+24-21	2198-2205	innebär	_	_	_	_	_	_	_	
+24-22	2206-2216	väsentligt	_	_	_	_	_	_	_	
+24-23	2217-2222	högre	_	_	_	_	_	_	_	
+24-24	2223-2232	kostnader	_	_	_	_	_	_	_	
+24-25	2232-2233	,	_	_	_	_	_	_	_	
+24-26	2234-2237	som	_	_	_	_	_	_	_	
+24-27	2238-2240	en	_	_	_	_	_	_	_	
+24-28	2241-2246	följd	_	_	_	_	_	_	_	
+24-29	2247-2249	av	_	_	_	_	_	_	_	
+24-30	2250-2255	tunga	_	Source;Target	24-35;24-31	false	2	_	_	
+24-31	2256-2269	investeringar	*	_	_	_	_	_	_	
+24-32	2270-2271	i	_	_	_	_	_	_	_	
+24-33	2272-2275	nya	_	_	_	_	_	_	_	
+24-34	2276-2289	skolbyggnader	_	_	_	_	_	_	_	
+24-35	2289-2290	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2292-2293	#	_	_	_	_	_	_	_	
+25-2	2293-2294	P	_	_	_	_	_	_	_	
+25-3	2295-2298	IMM	_	_	_	false	3	_	_	
+25-4	2298-2299	.	_	_	_	_	_	_	_	
+
+#Text=Malmö är ett exempel bland flera på en sådan snabbväxande kommun.
+26-1	2301-2306	Malmö	_	_	_	_	_	_	_	
+26-2	2307-2309	är	_	_	_	_	_	_	_	
+26-3	2310-2313	ett	_	_	_	_	_	_	_	
+26-4	2314-2321	exempel	_	_	_	_	_	_	_	
+26-5	2322-2327	bland	_	_	_	_	_	_	_	
+26-6	2328-2333	flera	_	_	_	_	_	_	_	
+26-7	2334-2336	på	_	_	_	_	_	_	_	
+26-8	2337-2339	en	_	_	_	_	_	_	_	
+26-9	2340-2345	sådan	_	_	_	_	_	_	_	
+26-10	2346-2358	snabbväxande	_	_	_	_	_	_	_	
+26-11	2359-2365	kommun	_	_	_	_	_	_	_	
+26-12	2365-2366	.	_	_	_	_	_	_	_	
+
+#Text=Under de närmaste fyra åren beräknas investeringarna enbart för nya grundskolelokaler att uppgå till 2,6 miljarder kronor i Malmö.
+27-1	2367-2372	Under	_	_	_	_	_	_	_	
+27-2	2373-2375	de	_	_	_	_	_	_	_	
+27-3	2376-2384	närmaste	_	_	_	_	_	_	_	
+27-4	2385-2389	fyra	_	_	_	_	_	_	_	
+27-5	2390-2394	åren	_	_	_	_	_	_	_	
+27-6	2395-2403	beräknas	_	_	_	_	_	_	_	
+27-7	2404-2419	investeringarna	_	_	_	_	_	_	_	
+27-8	2420-2426	enbart	_	_	_	_	_	_	_	
+27-9	2427-2430	för	_	_	_	_	_	_	_	
+27-10	2431-2434	nya	_	_	_	_	_	_	_	
+27-11	2435-2452	grundskolelokaler	_	_	_	_	_	_	_	
+27-12	2453-2456	att	_	_	_	_	_	_	_	
+27-13	2457-2462	uppgå	_	_	_	_	_	_	_	
+27-14	2463-2467	till	_	_	_	_	_	_	_	
+27-15	2468-2471	2,6	_	_	_	_	_	_	_	
+27-16	2472-2481	miljarder	_	_	_	_	_	_	_	
+27-17	2482-2488	kronor	_	_	_	_	_	_	_	
+27-18	2489-2490	i	_	_	_	_	_	_	_	
+27-19	2491-2496	Malmö	_	_	_	_	_	_	_	
+27-20	2496-2497	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2499-2500	#	_	_	_	_	_	_	_	
+28-2	2500-2501	P	_	_	_	_	_	_	_	
+28-3	2502-2505	IMM	_	_	_	_	_	_	_	
+28-4	2505-2506	.	_	_	_	_	_	_	_	
+
+#Text=Motsvarande investeringskostnad mellan åren 2005 och 2015 uppgick till 1,9 miljarder kronor.
+29-1	2508-2519	Motsvarande	_	_	_	_	_	_	_	
+29-2	2520-2539	investeringskostnad	_	_	_	_	_	_	_	
+29-3	2540-2546	mellan	_	_	_	_	_	_	_	
+29-4	2547-2551	åren	_	_	_	_	_	_	_	
+29-5	2552-2556	2005	_	_	_	_	_	_	_	
+29-6	2557-2560	och	_	_	_	_	_	_	_	
+29-7	2561-2565	2015	_	_	_	_	_	_	_	
+29-8	2566-2573	uppgick	_	_	_	_	_	_	_	
+29-9	2574-2578	till	_	_	_	_	_	_	_	
+29-10	2579-2582	1,9	_	_	_	_	_	_	_	
+29-11	2583-2592	miljarder	_	_	_	_	_	_	_	
+29-12	2593-2599	kronor	_	_	_	_	_	_	_	
+29-13	2599-2600	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2602-2603	#	_	_	_	_	_	_	_	
+30-2	2603-2604	P	_	_	_	_	_	_	_	
+30-3	2605-2608	IMM	_	_	_	_	_	_	_	
+30-4	2608-2609	.	_	_	_	_	_	_	_	
+
+#Text=Lägg därtill stora investeringsbehov i förskoleutbyggnaden.
+31-1	2611-2615	Lägg	_	_	_	_	_	_	_	
+31-2	2616-2623	därtill	_	_	_	_	_	_	_	
+31-3	2624-2629	stora	_	_	_	_	_	_	_	
+31-4	2630-2647	investeringsbehov	_	_	_	_	_	_	_	
+31-5	2648-2649	i	_	_	_	_	_	_	_	
+31-6	2650-2669	förskoleutbyggnaden	_	_	_	_	_	_	_	
+31-7	2669-2670	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2672-2673	#	_	_	_	_	_	_	_	
+32-2	2673-2674	P	_	_	_	_	_	_	_	
+32-3	2675-2678	IMM	_	_	_	_	_	_	_	
+32-4	2678-2679	.	_	_	_	_	_	_	_	
+
+#Text=Det är ohållbart att nödvändiga skolinvesteringar i snabbväxande kommuner ska ske på bekostnad av resurser till undervisningen.
+33-1	2681-2684	Det	_	_	_	_	_	_	_	
+33-2	2685-2687	är	_	Target[7]	33-4[19]	false[7]	2[7]	_	_	
+33-3	2688-2697	ohållbart	_	Target[7]	33-4[19]	false[7]	2[7]	_	_	
+33-4	2698-2701	att	*[19]	_	_	_	_	_	_	
+33-5	2702-2712	nödvändiga	*[19]	Target;Source	33-6[20];33-18	false	4	_	_	
+33-6	2713-2730	skolinvesteringar	*[19]|*[20]	_	_	_	_	_	_	
+33-7	2731-2732	i	*[19]	_	_	_	_	_	_	
+33-8	2733-2745	snabbväxande	*[19]	_	_	_	_	_	_	
+33-9	2746-2754	kommuner	*[19]	_	_	_	_	_	_	
+33-10	2755-2758	ska	*[19]	_	_	_	_	_	_	
+33-11	2759-2762	ske	*[19]	_	_	_	_	_	_	
+33-12	2763-2765	på	*[19]	_	_	_	_	_	_	
+33-13	2766-2775	bekostnad	*[19]	_	_	_	_	_	_	
+33-14	2776-2778	av	*[19]	_	_	_	_	_	_	
+33-15	2779-2787	resurser	*[19]	_	_	_	_	_	_	
+33-16	2788-2792	till	*[19]	_	_	_	_	_	_	
+33-17	2793-2807	undervisningen	*[19]	_	_	_	_	_	_	
+33-18	2807-2808	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2810-2811	#	_	_	_	_	_	_	_	
+34-2	2811-2812	P	_	_	_	_	_	_	_	
+34-3	2813-2816	IMM	_	_	_	false	3	_	_	
+34-4	2816-2817	.	_	_	_	_	_	_	_	
+
+#Text=Hanterar inte Sverige denna situation klokt, riskerar segregationen och klyftorna i landet att växa snabbt, och våra gemensamma ambitioner om förbättrade skolresultat och ökad likvärdighet i den svenska skolan går om intet.
+35-1	2819-2827	Hanterar	_	Target[8]	35-3	false[8]	2[8]	35-4[9_8]	_	
+35-2	2828-2832	inte	_	Target[8]	35-3	false[8]	2[8]	_	_	
+35-3	2833-2840	Sverige	*	_	_	_	_	_	_	
+35-4	2841-2846	denna	_	_[9]	_	false[9]	2[9]	_	_	
+35-5	2847-2856	situation	_	_[9]	_	false[9]	2[9]	_	_	
+35-6	2857-2862	klokt	_	_[9]	_	false[9]	2[9]	_	_	
+35-7	2862-2863	,	_	_	_	_	_	_	_	
+35-8	2864-2872	riskerar	_	_	_	_	_	_	_	
+35-9	2873-2886	segregationen	*	Target	35-9	false	2	_	_	
+35-10	2887-2890	och	_	_	_	_	_	_	_	
+35-11	2891-2900	klyftorna	*	Target	35-11	false	2	_	_	
+35-12	2901-2902	i	_	_	_	_	_	_	_	
+35-13	2903-2909	landet	_	_	_	_	_	_	_	
+35-14	2910-2913	att	_	_	_	_	_	_	_	
+35-15	2914-2918	växa	_	_	_	_	_	_	_	
+35-16	2919-2925	snabbt	_	_	_	_	_	_	_	
+35-17	2925-2926	,	_	_	_	_	_	_	_	
+35-18	2927-2930	och	_	_	_	_	_	_	_	
+35-19	2931-2935	våra	*	_	_	_	_	_	_	
+35-20	2936-2946	gemensamma	_	_	_	_	_	_	_	
+35-21	2947-2957	ambitioner	*[21]	Target;Source	35-23[22];35-19	false	4	_	_	
+35-22	2958-2960	om	*[21]	_	_	_	_	_	_	
+35-23	2961-2972	förbättrade	*[21]|*[22]	_	_	_	_	_	_	
+35-24	2973-2985	skolresultat	*[21]|*[22]	_	_	_	_	_	_	
+35-25	2986-2989	och	*[21]|*[22]	_	_	_	_	_	_	
+35-26	2990-2994	ökad	*[21]|*[22]	_	_	_	_	_	_	
+35-27	2995-3007	likvärdighet	*[21]|*[22]	_	_	_	_	_	_	
+35-28	3008-3009	i	*[21]|*[22]	_	_	_	_	_	_	
+35-29	3010-3013	den	*[21]|*[22]	_	_	_	_	_	_	
+35-30	3014-3021	svenska	*[21]|*[22]	_	_	_	_	_	_	
+35-31	3022-3028	skolan	*[21]|*[22]	_	_	_	_	_	_	
+35-32	3029-3032	går	_	Target[10]	35-21[21]	false[10]	2[10]	_	_	
+35-33	3033-3035	om	_	Target[10]	35-21[21]	false[10]	2[10]	_	_	
+35-34	3036-3041	intet	_	Target[10]	35-21[21]	false[10]	2[10]	_	_	
+35-35	3041-3042	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3044-3045	#	_	_	_	_	_	_	_	
+36-2	3045-3046	P	_	_	_	_	_	_	_	
+36-3	3047-3050	IMM	_	_	_	_	_	_	_	
+36-4	3050-3051	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar om att inte äventyra arbetet med att stärka likvärdigheten och höja resultaten i den svenska skolan.
+37-1	3053-3056	Det	_	_	_	_	_	_	_	
+37-2	3057-3064	handlar	_	_	_	_	_	_	_	
+37-3	3065-3067	om	_	_	_	_	_	_	_	
+37-4	3068-3071	att	_	_	_	_	_	_	_	
+37-5	3072-3076	inte	_	_	_	_	_	_	_	
+37-6	3077-3085	äventyra	_	_	_	_	_	_	_	
+37-7	3086-3093	arbetet	_	_	_	_	_	_	_	
+37-8	3094-3097	med	_	_	_	_	_	_	_	
+37-9	3098-3101	att	_	_	_	_	_	_	_	
+37-10	3102-3108	stärka	_	_	_	_	_	_	_	
+37-11	3109-3123	likvärdigheten	_	_	_	_	_	_	_	
+37-12	3124-3127	och	_	_	_	_	_	_	_	
+37-13	3128-3132	höja	_	_	_	_	_	_	_	
+37-14	3133-3143	resultaten	_	_	_	_	_	_	_	
+37-15	3144-3145	i	_	_	_	_	_	_	_	
+37-16	3146-3149	den	_	_	_	_	_	_	_	
+37-17	3150-3157	svenska	_	_	_	_	_	_	_	
+37-18	3158-3164	skolan	_	_	_	_	_	_	_	
+37-19	3164-3165	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar helt enkelt om Sveriges framtid!.
+38-1	3166-3169	Det	_	_	_	_	_	_	_	
+38-2	3170-3177	handlar	_	_	_	_	_	_	_	
+38-3	3178-3182	helt	_	_	_	_	_	_	_	
+38-4	3183-3189	enkelt	_	_	_	_	_	_	_	
+38-5	3190-3192	om	_	_	_	_	_	_	_	
+38-6	3193-3201	Sveriges	_	_	_	_	_	_	_	
+38-7	3202-3209	framtid	_	_	_	_	_	_	_	
+38-8	3209-3210	!	_	_	_	_	_	_	_	
+38-9	3210-3211	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3213-3214	#	_	_	_	_	_	_	_	
+39-2	3214-3215	P	_	_	_	_	_	_	_	
+39-3	3216-3219	IMM	_	_	_	_	_	_	_	
+39-4	3219-3220	.	_	_	_	_	_	_	_	
+
+#Text=Katrin Stjernfeldt Jammeh, kommunstyrelsens ordförande i Malmö.
+40-1	3222-3228	Katrin	_	_	_	_	_	_	_	
+40-2	3229-3240	Stjernfeldt	_	_	_	_	_	_	_	
+40-3	3241-3247	Jammeh	_	_	_	_	_	_	_	
+40-4	3247-3248	,	_	_	_	_	_	_	_	
+40-5	3249-3265	kommunstyrelsens	_	_	_	_	_	_	_	
+40-6	3266-3276	ordförande	_	_	_	_	_	_	_	
+40-7	3277-3278	i	_	_	_	_	_	_	_	
+40-8	3279-3284	Malmö	_	_	_	_	_	_	_	
+40-9	3284-3285	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3287-3288	#	_	_	_	_	_	_	_	
+41-2	3288-3289	P	_	_	_	_	_	_	_	
+41-3	3290-3293	IMM	_	_	_	_	_	_	_	
+41-4	3293-3294	.	_	_	_	_	_	_	_	
+
+#Text=Johanna Jaara Åstrand, förbundsordförande Lärarförbundet.
+42-1	3296-3303	Johanna	_	_	_	_	_	_	_	
+42-2	3304-3309	Jaara	_	_	_	_	_	_	_	
+42-3	3310-3317	Åstrand	_	_	_	_	_	_	_	
+42-4	3317-3318	,	_	_	_	_	_	_	_	
+42-5	3319-3337	förbundsordförande	_	_	_	_	_	_	_	
+42-6	3338-3352	Lärarförbundet	_	_	_	_	_	_	_	
+42-7	3352-3353	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3355-3356	#	_	_	_	_	_	_	_	
+43-2	3356-3357	P	_	_	_	_	_	_	_	
+43-3	3358-3361	IMM	_	_	_	_	_	_	_	
+43-4	3361-3362	.	_	_	_	_	_	_	_	
+
+#Text=Åsa Fahlén, förbundsordförande Lärarnas Riksförbund.
+44-1	3364-3367	Åsa	_	_	_	_	_	_	_	
+44-2	3368-3374	Fahlén	_	_	_	_	_	_	_	
+44-3	3374-3375	,	_	_	_	_	_	_	_	
+44-4	3376-3394	förbundsordförande	_	_	_	_	_	_	_	
+44-5	3395-3403	Lärarnas	_	_	_	_	_	_	_	
+44-6	3404-3415	Riksförbund	_	_	_	_	_	_	_	
+44-7	3415-3416	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3418-3419	#	_	_	_	_	_	_	_	
+45-2	3419-3420	P	_	_	_	_	_	_	_	
+45-3	3421-3424	IMM	_	_	_	_	_	_	_	
+45-4	3424-3425	.	_	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+46-1	3427-3431	Häng	_	_	_	_	_	_	_	
+46-2	3432-3435	med	_	_	_	_	_	_	_	
+46-3	3436-3437	i	_	_	_	_	_	_	_	
+46-4	3438-3446	debatten	_	_	_	_	_	_	_	
+46-5	3447-3450	och	_	_	_	_	_	_	_	
+46-6	3451-3461	kommentera	_	_	_	_	_	_	_	
+46-7	3462-3470	artikeln	_	_	_	_	_	_	_	
+46-8	3471-3472	–	_	_	_	_	_	_	_	
+46-9	3473-3477	följ	_	_	_	_	_	_	_	
+46-10	3479-3485	Debatt	_	_	_	_	_	_	_	
+46-11	3486-3488	på	_	_	_	_	_	_	_	
+46-12	3489-3497	Facebook	_	_	_	_	_	_	_	
+46-13	3497-3498	.	_	_	_	_	_	_	_	

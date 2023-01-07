@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Har invandrare lägre IQ än Svensken?
+3-1	18-21	Har	_	_	_	_	_	_	
+3-2	22-32	invandrare	_	_	_	_	_	_	
+3-3	33-38	lägre	_	_	_	_	_	_	
+3-4	39-41	IQ	_	_	_	_	_	_	
+3-5	42-44	än	_	_	_	_	_	_	
+3-6	45-53	Svensken	_	_	_	_	_	_	
+3-7	53-54	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	false	1	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Sitter och läser på en av Sverigedemokraternas gilla-sida på Facebook. 99/100 invandrare verkar inte kunna komma med något mer än; fitta, hora, svennejävel, knulla dig i arslet, din mamma, bögjävel etc till de som skriver att de vill minska invandringen.
+5-1	65-71	Sitter	_	_	_	_	_	_	
+5-2	72-75	och	_	_	_	_	_	_	
+5-3	76-81	läser	_	_	_	_	_	_	
+5-4	82-84	på	_	_	_	_	_	_	
+5-5	85-87	en	_	_	_	_	_	_	
+5-6	88-90	av	_	_	_	_	_	_	
+5-7	91-111	Sverigedemokraternas	_	_	_	_	_	_	
+5-8	112-122	gilla-sida	_	_	_	_	_	_	
+5-9	123-125	på	_	_	_	_	_	_	
+5-10	126-134	Facebook	_	_	_	_	_	_	
+5-11	134-135	.	_	_	_	_	_	_	
+5-12	136-138	99	*[3]	_	_	_	_	_	
+5-13	138-139	/	*[3]	_	_	_	_	_	
+5-14	139-142	100	*[3]	_	_	_	_	_	
+5-15	143-153	invandrare	*[3]|*[4]	_	_	_	_	7-1[0_4]	
+5-16	154-160	verkar	_	_	_	_	_	_	
+5-17	161-165	inte	_	_	_	_	_	_	
+5-18	166-171	kunna	_	_	_	_	_	_	
+5-19	172-177	komma	_	_	_	_	_	_	
+5-20	178-181	med	_	_	_	_	_	_	
+5-21	182-187	något	_	_	_	_	_	_	
+5-22	188-191	mer	_	_	_	_	_	_	
+5-23	192-194	än	_	_	_	_	_	_	
+5-24	194-195	;	_	_	_	_	_	_	
+5-25	196-201	fitta	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-26	201-202	,	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-27	203-207	hora	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-28	207-208	,	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-29	209-220	svennejävel	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-30	220-221	,	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-31	222-228	knulla	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-32	229-232	dig	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-33	233-234	i	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-34	235-241	arslet	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-35	241-242	,	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-36	243-246	din	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-37	247-252	mamma	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-38	252-253	,	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-39	254-262	bögjävel	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-40	263-266	etc	_	Source;Target[1]	5-12[3];5-42[5]	false[1]	1[1]	_	
+5-41	267-271	till	_	_	_	_	_	_	
+5-42	272-274	de	*[5]	_	_	_	_	_	
+5-43	275-278	som	*[5]	_	_	_	_	_	
+5-44	279-286	skriver	*[5]	_	_	_	_	_	
+5-45	287-290	att	*[5]	_	_	_	_	_	
+5-46	291-293	de	*[5]	_	_	_	_	_	
+5-47	294-298	vill	*[5]	_	_	_	_	_	
+5-48	299-305	minska	*[5]	_	_	_	_	_	
+5-49	306-318	invandringen	*[5]	_	_	_	_	_	
+5-50	318-319	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	321-322	#	_	_	_	_	_	_	
+6-2	322-323	P	_	_	_	_	_	_	
+6-3	324-327	IMM	_	_	_	_	_	_	
+6-4	327-328	.	_	_	_	_	_	_	
+
+#Text=De verkar absolut inte ha någon som helst förankring till verkligheten.
+7-1	330-332	De	*	_	_	_	_	_	
+7-2	333-339	verkar	_	Target[2]	7-1	false[2]	2[2]	_	
+7-3	340-347	absolut	_	Target[2]	7-1	false[2]	2[2]	_	
+7-4	348-352	inte	_	Target[2]	7-1	false[2]	2[2]	_	
+7-5	353-355	ha	_	Target[2]	7-1	false[2]	2[2]	_	
+7-6	356-361	någon	_	Target[2]	7-1	false[2]	2[2]	_	
+7-7	362-365	som	_	Target[2]	7-1	false[2]	2[2]	_	
+7-8	366-371	helst	_	Target[2]	7-1	false[2]	2[2]	_	
+7-9	372-382	förankring	_	Target[2]	7-1	false[2]	2[2]	_	
+7-10	383-387	till	_	Target[2]	7-1	false[2]	2[2]	_	
+7-11	388-400	verkligheten	_	Target[2]	7-1	false[2]	2[2]	_	
+7-12	400-401	.	_	_	_	_	_	_	
+
+#Text=En kille med utländskt namn skrev..
+8-1	402-404	En	_	_	_	_	_	_	
+8-2	405-410	kille	_	_	_	_	_	_	
+8-3	411-414	med	_	_	_	_	_	_	
+8-4	415-424	utländskt	_	_	_	_	_	_	
+8-5	425-429	namn	_	_	_	_	_	_	
+8-6	430-435	skrev	_	_	_	_	_	_	
+8-7	435-436	.	_	_	_	_	_	_	
+8-8	436-437	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	439-440	#	_	_	_	_	_	_	
+9-2	440-441	P	_	_	_	_	_	_	
+9-3	442-445	IMM	_	_	_	false	1	_	
+9-4	445-446	.	_	_	_	_	_	_	
+
+#Text=Är deras intelligens lägre än vår?
+10-1	448-450	Är	_	_	_	_	_	_	
+10-2	451-456	deras	_	_	_	_	_	_	
+10-3	457-468	intelligens	_	_	_	_	_	_	
+10-4	469-474	lägre	_	_	_	_	_	_	
+10-5	475-477	än	_	_	_	_	_	_	
+10-6	478-481	vår	_	_	_	_	_	_	
+10-7	481-482	?	_	_	_	_	_	_	
+
+#Text=jag börjar tro det.
+11-1	483-486	jag	_	_	_	_	_	_	
+11-2	487-493	börjar	_	_	_	_	_	_	
+11-3	494-497	tro	_	_	_	_	_	_	
+11-4	498-501	det	_	_	_	_	_	_	
+11-5	501-502	.	_	_	_	_	_	_	

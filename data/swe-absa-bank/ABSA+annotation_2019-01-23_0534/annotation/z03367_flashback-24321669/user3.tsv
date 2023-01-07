@@ -1,0 +1,359 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Therese Borg - Hon är inte bara Sverigedemokrat, utan Islamofob, Rasist och mamma!
+3-1	18-25	Therese	*[8]	_	_	_	_	_	
+3-2	26-30	Borg	*[8]	_	_	_	_	_	
+3-3	31-32	-	_	_	_	_	_	_	
+3-4	33-36	Hon	_	_	_	_	_	_	
+3-5	37-39	är	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-6	40-44	inte	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-7	45-49	bara	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-8	50-65	Sverigedemokrat	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-9	65-66	,	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-10	67-71	utan	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-11	72-81	Islamofob	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-12	81-82	,	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-13	83-89	Rasist	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-14	90-93	och	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-15	94-99	mamma	_	Target[1]	3-1[8]	false[1]	2[1]	_	
+3-16	99-100	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	102-103	#	_	_	_	_	_	_	
+4-2	103-104	P	_	_	_	_	_	_	
+4-3	105-108	IMM	_	_	_	_	_	_	
+4-4	108-109	.	_	_	_	_	_	_	
+
+#Text=Här har vi en Sverigedemokrat vilket siktar på kommunfullmäktige i Eskilstuna med sin Islamofobism och generaliseringar i detta val.
+5-1	111-114	Här	_	_	_	_	_	_	
+5-2	115-118	har	_	_	_	_	_	_	
+5-3	119-121	vi	_	_	_	_	_	_	
+5-4	122-124	en	*[9]	_	_	_	_	_	
+5-5	125-140	Sverigedemokrat	*[9]	_	_	_	_	_	
+5-6	141-147	vilket	_	_	_	_	_	_	
+5-7	148-154	siktar	_	_	_	_	_	_	
+5-8	155-157	på	_	_	_	_	_	_	
+5-9	158-175	kommunfullmäktige	_	_	_	_	_	_	
+5-10	176-177	i	_	_	_	_	_	_	
+5-11	178-188	Eskilstuna	_	_	_	_	_	_	
+5-12	189-192	med	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-13	193-196	sin	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-14	197-209	Islamofobism	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-15	210-213	och	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-16	214-230	generaliseringar	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-17	231-232	i	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-18	233-238	detta	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-19	239-242	val	_	Target[2]	5-4[9]	false[2]	2[2]	_	
+5-20	242-243	.	_	_	_	_	_	_	
+
+#Text=Men vänta, hon är mamma också och förbannad över att sin 3-åriga dotter har fått utländsk brytning och dialekt pga. att det är 90% invandrare på dagis.
+6-1	244-247	Men	_	_	_	_	_	_	
+6-2	248-253	vänta	_	_	_	_	_	_	
+6-3	253-254	,	_	_	_	_	_	_	
+6-4	255-258	hon	*	_	_	_	_	_	
+6-5	259-261	är	_	_	_	_	_	_	
+6-6	262-267	mamma	_	_	_	_	_	_	
+6-7	268-273	också	_	_	_	_	_	_	
+6-8	274-277	och	_	_	_	_	_	_	
+6-9	278-287	förbannad	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-10	288-292	över	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-11	293-296	att	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-12	297-300	sin	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-13	301-302	3	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-14	302-303	-	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-15	303-308	åriga	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-16	309-315	dotter	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-17	316-319	har	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-18	320-324	fått	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-19	325-333	utländsk	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-20	334-342	brytning	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-21	343-346	och	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-22	347-354	dialekt	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-23	355-358	pga	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-24	358-359	.	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-25	360-363	att	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-26	364-367	det	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-27	368-370	är	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-28	371-374	90%	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-29	375-385	invandrare	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-30	386-388	på	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-31	389-394	dagis	_	Target;Source[3]	6-32;6-4	false[3]	2[3]	_	
+6-32	394-395	.	*	_	_	_	_	_	
+
+#Text=I övrigt blev hon Sverigedemokrat den dagen när hon mot sin förfäran var ensam på en buss och inte förstod något när alla invandrare satt där - det var dagen hon bestämde sig för att vi alla ska rensas från detta onda som speciellt religionen Islam medför - nämligen hotet mot Sveriges demokrati och kultur.
+7-1	396-397	I	_	_	_	_	_	_	
+7-2	398-404	övrigt	_	_	_	_	_	_	
+7-3	405-409	blev	_	_	_	_	_	_	
+7-4	410-413	hon	_	_	_	_	_	_	
+7-5	414-429	Sverigedemokrat	_	_	_	_	_	_	
+7-6	430-433	den	_	_	_	_	_	_	
+7-7	434-439	dagen	_	_	_	_	_	_	
+7-8	440-443	när	_	_	_	_	_	_	
+7-9	444-447	hon	*	_	_	_	_	_	
+7-10	448-451	mot	_	Target;Source[4]	7-56;7-9	false[4]	2[4]	_	
+7-11	452-455	sin	_	Target;Source[4]	7-56;7-9	false[4]	2[4]	_	
+7-12	456-464	förfäran	_	Target;Source[4]	7-56;7-9	false[4]	2[4]	_	
+7-13	465-468	var	_	_	_	_	_	_	
+7-14	469-474	ensam	_	_	_	_	_	_	
+7-15	475-477	på	_	_	_	_	_	_	
+7-16	478-480	en	_	_	_	_	_	_	
+7-17	481-485	buss	_	_	_	_	_	_	
+7-18	486-489	och	_	_	_	_	_	_	
+7-19	490-494	inte	_	_	_	_	_	_	
+7-20	495-502	förstod	_	_	_	_	_	_	
+7-21	503-508	något	_	_	_	_	_	_	
+7-22	509-512	när	_	_	_	_	_	_	
+7-23	513-517	alla	_	_	_	_	_	_	
+7-24	518-528	invandrare	_	_	_	_	_	_	
+7-25	529-533	satt	_	_	_	_	_	_	
+7-26	534-537	där	_	_	_	_	_	_	
+7-27	538-539	-	_	_	_	_	_	_	
+7-28	540-543	det	_	_	_	_	_	_	
+7-29	544-547	var	_	_	_	_	_	_	
+7-30	548-553	dagen	_	_	_	_	_	_	
+7-31	554-557	hon	*[10]|*[11]	_	_	_	_	_	
+7-32	558-566	bestämde	_	_	_	_	_	_	
+7-33	567-570	sig	_	_	_	_	_	_	
+7-34	571-574	för	_	_	_	_	_	_	
+7-35	575-578	att	_	_	_	_	_	_	
+7-36	579-581	vi	_	_	_	_	_	_	
+7-37	582-586	alla	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-38	587-590	ska	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-39	591-597	rensas	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-40	598-602	från	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-41	603-608	detta	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-42	609-613	onda	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-43	614-617	som	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-44	618-627	speciellt	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-45	628-638	religionen	*[12]	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-46	639-644	Islam	*[12]	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-47	645-651	medför	_	Target[5]	7-31[10]	true[5]	2[5]	_	
+7-48	652-653	-	_	_	_	_	_	_	
+7-49	654-662	nämligen	_	_	_	_	_	_	
+7-50	663-668	hotet	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-51	669-672	mot	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-52	673-681	Sveriges	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-53	682-691	demokrati	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-54	692-695	och	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-55	696-702	kultur	_	Target;Source[6]	7-45[12];7-31[11]	false[6]	2[6]	_	
+7-56	702-703	.	*	_	_	_	_	_	
+
+#Text=Och så avskyr hon åsiktsfrihet, speciellt när hon själv blir ifrågasatt och vad som är till grund till hennes missuppfattningar, enfaldighet (ja ni vet hur Sverigedemokrater är...).
+8-1	704-707	Och	_	_[7]	_	false[7]	2[7]	_	
+8-2	708-710	så	_	_[7]	_	false[7]	2[7]	_	
+8-3	711-717	avskyr	_	_[7]	_	false[7]	2[7]	_	
+8-4	718-721	hon	*	_	_	_	_	_	
+8-5	722-734	åsiktsfrihet	_	Target	8-4	false	2	8-1[7_0]	
+8-6	734-735	,	_	_	_	_	_	_	
+8-7	736-745	speciellt	_	_	_	_	_	_	
+8-8	746-749	när	_	_	_	_	_	_	
+8-9	750-753	hon	_	_	_	_	_	_	
+8-10	754-759	själv	_	_	_	_	_	_	
+8-11	760-764	blir	_	_	_	_	_	_	
+8-12	765-775	ifrågasatt	_	_	_	_	_	_	
+8-13	776-779	och	_	_	_	_	_	_	
+8-14	780-783	vad	_	_	_	_	_	_	
+8-15	784-787	som	_	_	_	_	_	_	
+8-16	788-790	är	_	_	_	_	_	_	
+8-17	791-795	till	_	_	_	_	_	_	
+8-18	796-801	grund	_	_	_	_	_	_	
+8-19	802-806	till	_	_	_	_	_	_	
+8-20	807-813	hennes	_	_	_	_	_	_	
+8-21	814-831	missuppfattningar	_	_	_	_	_	_	
+8-22	831-832	,	_	_	_	_	_	_	
+8-23	833-844	enfaldighet	_	_	_	_	_	_	
+8-24	845-846	(	_	_	_	_	_	_	
+8-25	846-848	ja	_	_	_	_	_	_	
+8-26	849-851	ni	_	_	_	_	_	_	
+8-27	852-855	vet	_	_	_	_	_	_	
+8-28	856-859	hur	_	_	_	_	_	_	
+8-29	860-877	Sverigedemokrater	_	_	_	_	_	_	
+8-30	878-880	är	_	_	_	_	_	_	
+8-31	880-881	.	_	_	_	_	_	_	
+8-32	881-882	.	_	_	_	_	_	_	
+8-33	882-883	.	_	_	_	_	_	_	
+8-34	883-884	)	_	_	_	_	_	_	
+8-35	884-885	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	887-888	#	_	_	_	_	_	_	
+9-2	888-889	P	_	_	_	_	_	_	
+9-3	890-893	IMM	_	_	_	_	_	_	
+9-4	893-894	.	_	_	_	_	_	_	
+
+#Text=Om hon bara kunde förklara vad svensk kultur är (kalles kaviar?)
+10-1	896-898	Om	_	_	_	_	_	_	
+10-2	899-902	hon	_	_	_	_	_	_	
+10-3	903-907	bara	_	_	_	_	_	_	
+10-4	908-913	kunde	_	_	_	_	_	_	
+10-5	914-922	förklara	_	_	_	_	_	_	
+10-6	923-926	vad	_	_	_	_	_	_	
+10-7	927-933	svensk	_	_	_	_	_	_	
+10-8	934-940	kultur	_	_	_	_	_	_	
+10-9	941-943	är	_	_	_	_	_	_	
+10-10	944-945	(	_	_	_	_	_	_	
+10-11	945-951	kalles	_	_	_	_	_	_	
+10-12	952-958	kaviar	_	_	_	_	_	_	
+10-13	958-959	?	_	_	_	_	_	_	
+10-14	959-960	)	_	_	_	_	_	_	
+
+#Text=...
+11-1	961-962	.	_	_	_	_	_	_	
+11-2	962-963	.	_	_	_	_	_	_	
+11-3	963-964	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	966-967	#	_	_	_	_	_	_	
+12-2	967-968	P	_	_	_	_	_	_	
+12-3	969-972	IMM	_	_	_	_	_	_	
+12-4	972-973	.	_	_	_	_	_	_	
+
+#Text=Och detta var den korta versionen av människans bedrifter på kort tid.
+13-1	975-978	Och	_	_	_	_	_	_	
+13-2	979-984	detta	_	_	_	_	_	_	
+13-3	985-988	var	_	_	_	_	_	_	
+13-4	989-992	den	_	_	_	_	_	_	
+13-5	993-998	korta	_	_	_	_	_	_	
+13-6	999-1008	versionen	_	_	_	_	_	_	
+13-7	1009-1011	av	_	_	_	_	_	_	
+13-8	1012-1022	människans	_	_	_	_	_	_	
+13-9	1023-1032	bedrifter	_	_	_	_	_	_	
+13-10	1033-1035	på	_	_	_	_	_	_	
+13-11	1036-1040	kort	_	_	_	_	_	_	
+13-12	1041-1044	tid	_	_	_	_	_	_	
+13-13	1044-1045	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1047-1048	#	_	_	_	_	_	_	
+14-2	1048-1049	P	_	_	_	_	_	_	
+14-3	1050-1053	IMM	_	_	_	_	_	_	
+14-4	1053-1054	.	_	_	_	_	_	_	
+
+#Text=Hon har en relativt ny blogg på:.
+15-1	1056-1059	Hon	_	_	_	_	_	_	
+15-2	1060-1063	har	_	_	_	_	_	_	
+15-3	1064-1066	en	_	_	_	_	_	_	
+15-4	1067-1075	relativt	_	_	_	_	_	_	
+15-5	1076-1078	ny	_	_	_	_	_	_	
+15-6	1079-1084	blogg	_	_	_	_	_	_	
+15-7	1085-1087	på	_	_	_	_	_	_	
+15-8	1087-1088	:	_	_	_	_	_	_	
+15-9	1088-1089	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1091-1092	#	_	_	_	_	_	_	
+16-2	1092-1093	P	_	_	_	_	_	_	
+16-3	1094-1097	IMM	_	_	_	_	_	_	
+16-4	1097-1098	.	_	_	_	_	_	_	
+
+#Text=Fick själv nys om bloggen efter ett tips om mothugget hon får i kommentarerna på:.
+17-1	1100-1104	Fick	_	_	_	_	_	_	
+17-2	1105-1110	själv	_	_	_	_	_	_	
+17-3	1111-1114	nys	_	_	_	_	_	_	
+17-4	1115-1117	om	_	_	_	_	_	_	
+17-5	1118-1125	bloggen	_	_	_	_	_	_	
+17-6	1126-1131	efter	_	_	_	_	_	_	
+17-7	1132-1135	ett	_	_	_	_	_	_	
+17-8	1136-1140	tips	_	_	_	_	_	_	
+17-9	1141-1143	om	_	_	_	_	_	_	
+17-10	1144-1153	mothugget	_	_	_	_	_	_	
+17-11	1154-1157	hon	_	_	_	_	_	_	
+17-12	1158-1161	får	_	_	_	_	_	_	
+17-13	1162-1163	i	_	_	_	_	_	_	
+17-14	1164-1177	kommentarerna	_	_	_	_	_	_	
+17-15	1178-1180	på	_	_	_	_	_	_	
+17-16	1180-1181	:	_	_	_	_	_	_	
+17-17	1181-1182	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1184-1185	#	_	_	_	_	_	_	
+18-2	1185-1186	P	_	_	_	_	_	_	
+18-3	1187-1190	IMM	_	_	_	_	_	_	
+18-4	1190-1191	.	_	_	_	_	_	_	
+
+#Text=Det ligger en sorts bortförklaring över den här människan hela tiden där hon motsäger sig själv hela tiden.
+19-1	1193-1196	Det	_	_	_	_	_	_	
+19-2	1197-1203	ligger	_	_	_	_	_	_	
+19-3	1204-1206	en	_	_	_	_	_	_	
+19-4	1207-1212	sorts	_	_	_	_	_	_	
+19-5	1213-1227	bortförklaring	_	_	_	_	_	_	
+19-6	1228-1232	över	_	_	_	_	_	_	
+19-7	1233-1236	den	_	_	_	_	_	_	
+19-8	1237-1240	här	_	_	_	_	_	_	
+19-9	1241-1250	människan	_	_	_	_	_	_	
+19-10	1251-1255	hela	_	_	_	_	_	_	
+19-11	1256-1261	tiden	_	_	_	_	_	_	
+19-12	1262-1265	där	_	_	_	_	_	_	
+19-13	1266-1269	hon	_	_	_	_	_	_	
+19-14	1270-1278	motsäger	_	_	_	_	_	_	
+19-15	1279-1282	sig	_	_	_	_	_	_	
+19-16	1283-1288	själv	_	_	_	_	_	_	
+19-17	1289-1293	hela	_	_	_	_	_	_	
+19-18	1294-1299	tiden	_	_	_	_	_	_	
+19-19	1299-1300	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1302-1303	#	_	_	_	_	_	_	
+20-2	1303-1304	P	_	_	_	_	_	_	
+20-3	1305-1308	IMM	_	_	_	_	_	_	
+20-4	1308-1309	.	_	_	_	_	_	_	
+
+#Text=Bör man bli förvånad om denna har kopplingar till nazistiska, rasistiska organisationer som NSF, ND?.
+21-1	1311-1314	Bör	_	_	_	_	_	_	
+21-2	1315-1318	man	_	_	_	_	_	_	
+21-3	1319-1322	bli	_	_	_	_	_	_	
+21-4	1323-1331	förvånad	_	_	_	_	_	_	
+21-5	1332-1334	om	_	_	_	_	_	_	
+21-6	1335-1340	denna	_	_	_	_	_	_	
+21-7	1341-1344	har	_	_	_	_	_	_	
+21-8	1345-1355	kopplingar	_	_	_	_	_	_	
+21-9	1356-1360	till	_	_	_	_	_	_	
+21-10	1361-1371	nazistiska	_	_	_	_	_	_	
+21-11	1371-1372	,	_	_	_	_	_	_	
+21-12	1373-1383	rasistiska	_	_	_	_	_	_	
+21-13	1384-1398	organisationer	_	_	_	_	_	_	
+21-14	1399-1402	som	_	_	_	_	_	_	
+21-15	1403-1406	NSF	_	_	_	_	_	_	
+21-16	1406-1407	,	_	_	_	_	_	_	
+21-17	1408-1410	ND	_	_	_	_	_	_	
+21-18	1410-1411	?	_	_	_	_	_	_	
+21-19	1411-1412	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1414-1415	#	_	_	_	_	_	_	
+22-2	1415-1416	P	_	_	_	_	_	_	
+22-3	1417-1420	IMM	_	_	_	_	_	_	
+22-4	1420-1421	.	_	_	_	_	_	_	
+
+#Text=Någon som har något eller gräva fram något intressant om den här diktatoristen?.
+23-1	1423-1428	Någon	_	_	_	_	_	_	
+23-2	1429-1432	som	_	_	_	_	_	_	
+23-3	1433-1436	har	_	_	_	_	_	_	
+23-4	1437-1442	något	_	_	_	_	_	_	
+23-5	1443-1448	eller	_	_	_	_	_	_	
+23-6	1449-1454	gräva	_	_	_	_	_	_	
+23-7	1455-1459	fram	_	_	_	_	_	_	
+23-8	1460-1465	något	_	_	_	_	_	_	
+23-9	1466-1476	intressant	_	_	_	_	_	_	
+23-10	1477-1479	om	_	_	_	_	_	_	
+23-11	1480-1483	den	_	_	_	_	_	_	
+23-12	1484-1487	här	_	_	_	_	_	_	
+23-13	1488-1501	diktatoristen	_	_	_	_	_	_	
+23-14	1501-1502	?	_	_	_	_	_	_	
+23-15	1502-1503	.	_	_	_	_	_	_	

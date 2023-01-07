@@ -1,0 +1,481 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=S och LO till storms mot problem som inte finns.
+3-1	18-19	S	*[20]	_	_	_	_	_	_	
+3-2	20-23	och	*[20]	_	_	_	_	_	_	
+3-3	24-26	LO	*[20]	_	_	_	_	_	_	
+3-4	27-31	till	_	Target[1]|Target;Source[2]	3-1[20]|3-7;3-1[20]	false[1]|false[2]	2[1]|2[2]	_	_	
+3-5	32-38	storms	_	Target[1]|Target;Source[2]	3-1[20]|3-7;3-1[20]	false[1]|false[2]	2[1]|2[2]	_	_	
+3-6	39-42	mot	_	Target[1]|Target;Source[2]	3-1[20]|3-7;3-1[20]	false[1]|false[2]	2[1]|2[2]	_	_	
+3-7	43-50	problem	*	Target[1]|Target;Source[2]	3-1[20]|3-7;3-1[20]	false[1]|false[2]	2[1]|2[2]	_	_	
+3-8	51-54	som	_	Target[1]	3-1[20]	false[1]	2[1]	_	_	
+3-9	55-59	inte	_	Target[1]	3-1[20]	false[1]	2[1]	_	_	
+3-10	60-65	finns	_	Target[1]	3-1[20]	false[1]	2[1]	_	_	
+3-11	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_	_	_	_	_	_	
+4-2	69-70	P	_	_	_	_	_	_	_	
+4-3	71-74	IMM	_	_	_	_	_	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=Antingen talar debattörerna Karl-Petter Thorwaldsson., Marita Ulvskog och Torbjörn Johansson mot bättre vetande eller så är man aningslösa i sin debattartikel.
+5-1	77-85	Antingen	_	_	_	_	_	_	_	
+5-2	86-91	talar	_	Source;Target	5-24;5-3[21]	false	2	_	_	
+5-3	92-104	debattörerna	*[21]	_	_	_	_	_	5-19[0_21]	
+5-4	105-116	Karl-Petter	*[21]	_	_	_	_	_	_	
+5-5	117-129	Thorwaldsson	*[21]	_	_	_	_	_	_	
+5-6	129-130	.	*[21]	_	_	_	_	_	_	
+5-7	130-131	,	*[21]	_	_	_	_	_	_	
+5-8	132-138	Marita	*[21]	_	_	_	_	_	_	
+5-9	139-146	Ulvskog	*[21]	_	_	_	_	_	_	
+5-10	147-150	och	*[21]	_	_	_	_	_	_	
+5-11	151-159	Torbjörn	*[21]	_	_	_	_	_	_	
+5-12	160-169	Johansson	*[21]	_	_	_	_	_	_	
+5-13	170-173	mot	_	Source;Target[3]	5-24;5-3[21]	false[3]	2[3]	5-2[0_3]	_	
+5-14	174-180	bättre	_	Source;Target[3]	5-24;5-3[21]	false[3]	2[3]	_	_	
+5-15	181-188	vetande	_	Source;Target[3]	5-24;5-3[21]	false[3]	2[3]	_	_	
+5-16	189-194	eller	_	_	_	_	_	_	_	
+5-17	195-197	så	_	_	_	_	_	_	_	
+5-18	198-200	är	_	_	_	_	_	_	_	
+5-19	201-204	man	*	_	_	_	_	_	_	
+5-20	205-215	aningslösa	_	Source;Target	5-24;5-19	false	2	_	_	
+5-21	216-217	i	_	_	_	_	_	_	_	
+5-22	218-221	sin	_	_	_	_	_	_	_	
+5-23	222-235	debattartikel	_	_	_	_	_	_	_	
+5-24	235-236	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	238-239	#	_	_	_	_	_	_	_	
+6-2	239-240	P	_	_	_	_	_	_	_	
+6-3	241-244	IMM	_	_	_	_	_	_	_	
+6-4	244-245	.	_	_	_	_	_	_	_	
+
+#Text=Dels har LO:s egna experter klart och tydligt deklarerat att det inte förekommer någon lönedumpning sedan systemet för arbetskraftsinvandring infördes.
+7-1	247-251	Dels	_	_	_	_	_	_	_	
+7-2	252-255	har	_	_	_	_	_	_	_	
+7-3	256-258	LO	_	_	_	_	_	_	_	
+7-4	258-259	:	_	_	_	_	_	_	_	
+7-5	259-260	s	_	_	_	_	_	_	_	
+7-6	261-265	egna	_	_	_	_	_	_	_	
+7-7	266-274	experter	_	_	_	_	_	_	_	
+7-8	275-280	klart	_	_	_	_	_	_	_	
+7-9	281-284	och	_	_	_	_	_	_	_	
+7-10	285-292	tydligt	_	_	_	_	_	_	_	
+7-11	293-303	deklarerat	_	_	_	_	_	_	_	
+7-12	304-307	att	_	_	_	_	_	_	_	
+7-13	308-311	det	_	_	_	_	_	_	_	
+7-14	312-316	inte	_	_	_	_	_	_	_	
+7-15	317-327	förekommer	_	_	_	_	_	_	_	
+7-16	328-333	någon	_	_	_	_	_	_	_	
+7-17	334-346	lönedumpning	_	_	_	_	_	_	_	
+7-18	347-352	sedan	_	_	_	_	_	_	_	
+7-19	353-361	systemet	_	_	_	_	_	_	_	
+7-20	362-365	för	_	_	_	_	_	_	_	
+7-21	366-388	arbetskraftsinvandring	_	_	_	_	_	_	_	
+7-22	389-397	infördes	_	_	_	_	_	_	_	
+7-23	397-398	.	_	_	_	_	_	_	_	
+
+#Text=Dels går det inte heller att se att någon lönedumpning kommer sig av EU:s fria rörlighet, där unionsmedborgare kan röra sig fritt över gränserna för att arbeta.
+8-1	399-403	Dels	_	_	_	_	_	_	_	
+8-2	404-407	går	_	_	_	_	_	_	_	
+8-3	408-411	det	_	_	_	_	_	_	_	
+8-4	412-416	inte	_	_	_	_	_	_	_	
+8-5	417-423	heller	_	_	_	_	_	_	_	
+8-6	424-427	att	_	_	_	_	_	_	_	
+8-7	428-430	se	_	_	_	_	_	_	_	
+8-8	431-434	att	_	_	_	_	_	_	_	
+8-9	435-440	någon	_	_	_	_	_	_	_	
+8-10	441-453	lönedumpning	_	_	_	_	_	_	_	
+8-11	454-460	kommer	_	_	_	_	_	_	_	
+8-12	461-464	sig	_	_	_	_	_	_	_	
+8-13	465-467	av	_	_	_	_	_	_	_	
+8-14	468-470	EU	_	_	_	_	_	_	_	
+8-15	470-471	:	_	_	_	_	_	_	_	
+8-16	471-472	s	_	_	_	_	_	_	_	
+8-17	473-477	fria	_	_	_	_	_	_	_	
+8-18	478-487	rörlighet	_	_	_	_	_	_	_	
+8-19	487-488	,	_	_	_	_	_	_	_	
+8-20	489-492	där	_	_	_	_	_	_	_	
+8-21	493-509	unionsmedborgare	_	_	_	_	_	_	_	
+8-22	510-513	kan	_	_	_	_	_	_	_	
+8-23	514-518	röra	_	_	_	_	_	_	_	
+8-24	519-522	sig	_	_	_	_	_	_	_	
+8-25	523-528	fritt	_	_	_	_	_	_	_	
+8-26	529-533	över	_	_	_	_	_	_	_	
+8-27	534-543	gränserna	_	_	_	_	_	_	_	
+8-28	544-547	för	_	_	_	_	_	_	_	
+8-29	548-551	att	_	_	_	_	_	_	_	
+8-30	552-558	arbeta	_	_	_	_	_	_	_	
+8-31	558-559	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	561-562	#	_	_	_	_	_	_	_	
+9-2	562-563	P	_	_	_	_	_	_	_	
+9-3	564-567	IMM	_	_	_	false	3	_	_	
+9-4	567-568	.	_	_	_	_	_	_	_	
+
+#Text=För bara ett par veckor sedan skrev LO:s vice förbundsordförande Ingela Edlund under en debattartikel i DN var syfte var att få bort mytbildning kring migrationen.
+10-1	570-573	För	_	_	_	_	_	_	_	
+10-2	574-578	bara	_	_	_	_	_	_	_	
+10-3	579-582	ett	_	_	_	_	_	_	_	
+10-4	583-586	par	_	_	_	_	_	_	_	
+10-5	587-593	veckor	_	_	_	_	_	_	_	
+10-6	594-599	sedan	_	_	_	_	_	_	_	
+10-7	600-605	skrev	_	_	_	_	_	_	_	
+10-8	606-608	LO	*[22]	_	_	_	_	_	_	
+10-9	608-609	:	*[22]	_	_	_	_	_	_	
+10-10	609-610	s	*[22]	_	_	_	_	_	_	
+10-11	611-615	vice	*[22]	_	_	_	_	_	_	
+10-12	616-634	förbundsordförande	*[22]	_	_	_	_	_	_	
+10-13	635-641	Ingela	*[22]	_	_	_	_	_	_	
+10-14	642-648	Edlund	*[22]	_	_	_	_	_	_	
+10-15	649-654	under	_	_	_	_	_	_	_	
+10-16	655-657	en	_	_	_	_	_	_	_	
+10-17	658-671	debattartikel	_	_	_	_	_	_	_	
+10-18	672-673	i	_	_	_	_	_	_	_	
+10-19	674-676	DN	_	_	_	_	_	_	_	
+10-20	677-680	var	_	_	_	_	_	_	_	
+10-21	681-686	syfte	_	_	_	_	_	_	_	
+10-22	687-690	var	_	_	_	_	_	_	_	
+10-23	691-694	att	_	_	_	_	_	_	_	
+10-24	695-697	få	_	Target;Source[4]	10-26[23];10-8[22]	false[4]	2[4]	_	_	
+10-25	698-702	bort	_	Target;Source[4]	10-26[23];10-8[22]	false[4]	2[4]	_	_	
+10-26	703-714	mytbildning	*[23]	Target;Source[4]	10-26[23];10-8[22]	false[4]	2[4]	_	_	
+10-27	715-720	kring	*[23]	_	_	_	_	_	_	
+10-28	721-732	migrationen	*[23]	_	_	_	_	_	_	
+10-29	732-733	.	_	_	_	_	_	_	_	
+
+#Text=En av punkterna berörde hotet om lönedumpning som artikeln beskrev som obefintligt.
+11-1	734-736	En	_	_	_	_	_	_	_	
+11-2	737-739	av	_	_	_	_	_	_	_	
+11-3	740-749	punkterna	_	_	_	_	_	_	_	
+11-4	750-757	berörde	_	_	_	_	_	_	_	
+11-5	758-763	hotet	_	Source;Target[5]	11-13;11-7	false[5]	2[5]	_	_	
+11-6	764-766	om	_	Source;Target[5]	11-13;11-7	false[5]	2[5]	_	_	
+11-7	767-779	lönedumpning	*	_	_	_	_	_	_	
+11-8	780-783	som	_	_	_	_	_	_	_	
+11-9	784-792	artikeln	_	_	_	_	_	_	_	
+11-10	793-800	beskrev	_	_	_	_	_	_	_	
+11-11	801-804	som	_	_	_	_	_	_	_	
+11-12	805-816	obefintligt	_	_	_	_	_	_	_	
+11-13	816-817	.	*	_	_	_	_	_	_	
+
+#Text=Trots att LO:s egna experter och vice förbundsordförande säger att hotet inte finns, lyfter S och LO nu gemensamt vapnen för att bekämpa något som inte förekommer.
+12-1	818-823	Trots	_	_	_	_	_	_	_	
+12-2	824-827	att	_	_	_	_	_	_	_	
+12-3	828-830	LO	*[24]	_	_	_	_	_	_	
+12-4	830-831	:	*[24]	_	_	_	_	_	_	
+12-5	831-832	s	*[24]	_	_	_	_	_	_	
+12-6	833-837	egna	*[24]	_	_	_	_	_	_	
+12-7	838-846	experter	*[24]	_	_	_	_	_	_	
+12-8	847-850	och	*[24]	_	_	_	_	_	_	
+12-9	851-855	vice	*[24]	_	_	_	_	_	_	
+12-10	856-874	förbundsordförande	*[24]	_	_	_	_	_	_	
+12-11	875-880	säger	_	_	_	_	_	_	_	
+12-12	881-884	att	_	_	_	_	_	_	_	
+12-13	885-890	hotet	*	Target;Source[6]	12-13;12-3[24]	false[6]	3[6]	_	_	
+12-14	891-895	inte	_	Target;Source[6]	12-13;12-3[24]	false[6]	3[6]	_	_	
+12-15	896-901	finns	_	Target;Source[6]	12-13;12-3[24]	false[6]	3[6]	_	_	
+12-16	901-902	,	_	_	_	_	_	_	_	
+12-17	903-909	lyfter	_	Source;Target	12-18[25];12-27	false	2	_	_	
+12-18	910-911	S	*[25]	_	_	_	_	_	_	
+12-19	912-915	och	*[25]	_	_	_	_	_	_	
+12-20	916-918	LO	*[25]	_	_	_	_	_	_	
+12-21	919-921	nu	_	_	_	_	_	_	_	
+12-22	922-931	gemensamt	_	Source;Target[7]	12-18[25];12-27	false[7]	2[7]	12-17[0_7]	_	
+12-23	932-938	vapnen	_	Source;Target[7]	12-18[25];12-27	false[7]	2[7]	_	_	
+12-24	939-942	för	_	Source;Target[7]	12-18[25];12-27	false[7]	2[7]	_	_	
+12-25	943-946	att	_	Source;Target[7]	12-18[25];12-27	false[7]	2[7]	_	_	
+12-26	947-954	bekämpa	_	Source;Target[7]	12-18[25];12-27	false[7]	2[7]	_	_	
+12-27	955-960	något	*	_	_	_	_	_	_	
+12-28	961-964	som	_	_	_	_	_	_	_	
+12-29	965-969	inte	_	_	_	_	_	_	_	
+12-30	970-980	förekommer	_	_	_	_	_	_	_	
+12-31	980-981	.	_	_	_	_	_	_	_	
+
+#Text=Det enda resultatet blir att den fria rörligheten och den inre marknaden blir lidande.
+13-1	982-985	Det	*[26]	_	_	_	_	_	_	
+13-2	986-990	enda	*[26]	_	_	_	_	_	_	
+13-3	991-1001	resultatet	*[26]	_	_	_	_	_	_	
+13-4	1002-1006	blir	*[26]	_	_	_	_	_	_	
+13-5	1007-1010	att	*[26]	_	_	_	_	_	_	
+13-6	1011-1014	den	*[26]	_	_	_	_	_	_	
+13-7	1015-1019	fria	*[26]	_	_	_	_	_	_	
+13-8	1020-1031	rörligheten	*[26]	_	_	_	_	_	_	
+13-9	1032-1035	och	*[26]	_	_	_	_	_	_	
+13-10	1036-1039	den	*[26]	_	_	_	_	_	_	
+13-11	1040-1044	inre	*[26]	_	_	_	_	_	_	
+13-12	1045-1054	marknaden	*[26]	_	_	_	_	_	_	
+13-13	1055-1059	blir	*[26]	Target[8]	13-1[26]	false[8]	2[8]	_	_	
+13-14	1060-1067	lidande	*[26]	Target[8]	13-1[26]	false[8]	2[8]	_	_	
+13-15	1067-1068	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1070-1071	#	_	_	_	_	_	_	_	
+14-2	1071-1072	P	_	_	_	_	_	_	_	
+14-3	1073-1076	IMM	_	_	_	_	_	_	_	
+14-4	1076-1077	.	_	_	_	_	_	_	_	
+
+#Text=Aningslösheten visar sig i idén om ett socialt protokoll på EU-nivå.
+15-1	1079-1093	Aningslösheten	*	Target	15-1	false	2	_	_	
+15-2	1094-1099	visar	_	_	_	_	_	_	_	
+15-3	1100-1103	sig	_	_	_	_	_	_	_	
+15-4	1104-1105	i	_	_	_	_	_	_	_	
+15-5	1106-1110	idén	_	_	_	_	_	_	_	
+15-6	1111-1113	om	_	_	_	_	_	_	_	
+15-7	1114-1117	ett	_	_	_	_	_	_	_	
+15-8	1118-1125	socialt	_	_	_	_	_	_	_	
+15-9	1126-1135	protokoll	_	_	_	_	_	_	_	
+15-10	1136-1138	på	_	_	_	_	_	_	_	
+15-11	1139-1146	EU-nivå	_	_	_	_	_	_	_	
+15-12	1146-1147	.	_	_	_	_	_	_	_	
+
+#Text=Det skulle komma att riskera både den svenska avtalsmodellen och den svenska välfärden om den diskussionen tar fart på EU-nivå.
+16-1	1148-1151	Det	*[27]	Target[9]	16-1[27]	false[9]	2[9]	_	_	
+16-2	1152-1158	skulle	*[27]	Target[9]	16-1[27]	false[9]	2[9]	_	_	
+16-3	1159-1164	komma	*[27]	Target[9]	16-1[27]	false[9]	2[9]	_	_	
+16-4	1165-1168	att	*[27]	Target[9]	16-1[27]	false[9]	2[9]	_	_	
+16-5	1169-1176	riskera	*[27]	Target[9]	16-1[27]	false[9]	2[9]	_	_	
+16-6	1177-1181	både	*[27]	_	_	_	_	_	_	
+16-7	1182-1185	den	*[27]	_	_	_	_	_	_	
+16-8	1186-1193	svenska	*[27]	_	_	_	_	_	_	
+16-9	1194-1208	avtalsmodellen	*[27]	_	_	_	_	_	_	
+16-10	1209-1212	och	*[27]	_	_	_	_	_	_	
+16-11	1213-1216	den	*[27]	_	_	_	_	_	_	
+16-12	1217-1224	svenska	*[27]	_	_	_	_	_	_	
+16-13	1225-1234	välfärden	*[27]	_	_	_	_	_	_	
+16-14	1235-1237	om	*[27]	_	_	_	_	_	_	
+16-15	1238-1241	den	*[27]	_	_	_	_	_	_	
+16-16	1242-1254	diskussionen	*[27]	_	_	_	_	_	_	
+16-17	1255-1258	tar	*[27]	_	_	_	_	_	_	
+16-18	1259-1263	fart	*[27]	_	_	_	_	_	_	
+16-19	1264-1266	på	*[27]	_	_	_	_	_	_	
+16-20	1267-1274	EU-nivå	*[27]	_	_	_	_	_	_	
+16-21	1274-1275	.	_	_	_	_	_	_	_	
+
+#Text=I våra inhemska debatter kan vi väldigt långt nå samförstånd.
+17-1	1276-1277	I	_	_	_	_	_	_	_	
+17-2	1278-1282	våra	_	_	_	_	_	_	_	
+17-3	1283-1291	inhemska	_	_	_	_	_	_	_	
+17-4	1292-1300	debatter	_	_	_	_	_	_	_	
+17-5	1301-1304	kan	_	_	_	_	_	_	_	
+17-6	1305-1307	vi	_	_	_	_	_	_	_	
+17-7	1308-1315	väldigt	_	_	_	_	_	_	_	
+17-8	1316-1321	långt	_	_	_	_	_	_	_	
+17-9	1322-1324	nå	_	Target;Source[10]	17-10;17-11	false[10]	4[10]	_	_	
+17-10	1325-1336	samförstånd	*	Target;Source[10]	17-10;17-11	false[10]	4[10]	_	_	
+17-11	1336-1337	.	*	_	_	_	_	_	_	
+
+#Text=Men vad händer när vi lyfter de frågorna till EU-nivå?.
+18-1	1338-1341	Men	_	_	_	_	_	_	_	
+18-2	1342-1345	vad	_	_	_	_	_	_	_	
+18-3	1346-1352	händer	_	_	_	_	_	_	_	
+18-4	1353-1356	när	_	_	_	_	_	_	_	
+18-5	1357-1359	vi	_	_	_	_	_	_	_	
+18-6	1360-1366	lyfter	_	_	_	_	_	_	_	
+18-7	1367-1369	de	_	_	_	_	_	_	_	
+18-8	1370-1378	frågorna	_	_	_	_	_	_	_	
+18-9	1379-1383	till	_	_	_	_	_	_	_	
+18-10	1384-1391	EU-nivå	_	_	_	_	_	_	_	
+18-11	1391-1392	?	_	_	_	_	_	_	_	
+18-12	1392-1393	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1395-1396	#	_	_	_	_	_	_	_	
+19-2	1396-1397	P	_	_	_	_	_	_	_	
+19-3	1398-1401	IMM	_	_	_	_	_	_	_	
+19-4	1401-1402	.	_	_	_	_	_	_	_	
+
+#Text=Utöver att det skulle innebära att överföra mer makt på EU-nivå kring frågor som vi i dag har att besluta om på hemmaplan så skulle med all sannolikhet andra länder ha ordentliga invändningar mot den svenska modellen.
+20-1	1404-1410	Utöver	_	_	_	_	_	_	_	
+20-2	1411-1414	att	_	_	_	_	_	_	_	
+20-3	1415-1418	det	_	_	_	_	_	_	_	
+20-4	1419-1425	skulle	_	_	_	_	_	_	_	
+20-5	1426-1434	innebära	_	_	_	_	_	_	_	
+20-6	1435-1438	att	_	_	_	_	_	_	_	
+20-7	1439-1447	överföra	_	_	_	_	_	_	_	
+20-8	1448-1451	mer	_	_	_	_	_	_	_	
+20-9	1452-1456	makt	_	_	_	_	_	_	_	
+20-10	1457-1459	på	_	_	_	_	_	_	_	
+20-11	1460-1467	EU-nivå	_	_	_	_	_	_	_	
+20-12	1468-1473	kring	_	_	_	_	_	_	_	
+20-13	1474-1480	frågor	_	_	_	_	_	_	_	
+20-14	1481-1484	som	_	_	_	_	_	_	_	
+20-15	1485-1487	vi	_	_	_	_	_	_	_	
+20-16	1488-1489	i	_	_	_	_	_	_	_	
+20-17	1490-1493	dag	_	_	_	_	_	_	_	
+20-18	1494-1497	har	_	_	_	_	_	_	_	
+20-19	1498-1501	att	_	_	_	_	_	_	_	
+20-20	1502-1509	besluta	_	_	_	_	_	_	_	
+20-21	1510-1512	om	_	_	_	_	_	_	_	
+20-22	1513-1515	på	_	_	_	_	_	_	_	
+20-23	1516-1525	hemmaplan	_	_	_	_	_	_	_	
+20-24	1526-1528	så	_	_	_	_	_	_	_	
+20-25	1529-1535	skulle	_	Source;Target[11]	20-29[28];20-35[29]	false[11]	2[11]	_	_	
+20-26	1536-1539	med	_	Source;Target[11]	20-29[28];20-35[29]	false[11]	2[11]	_	_	
+20-27	1540-1543	all	_	Source;Target[11]	20-29[28];20-35[29]	false[11]	2[11]	_	_	
+20-28	1544-1555	sannolikhet	_	Source;Target[11]	20-29[28];20-35[29]	false[11]	2[11]	_	_	
+20-29	1556-1561	andra	*[28]	_	_	_	_	_	_	
+20-30	1562-1568	länder	*[28]	_	_	_	_	_	_	
+20-31	1569-1571	ha	_	Source;Target[12]	20-29[28];20-35[29]	false[12]	2[12]	20-25[11_12]	_	
+20-32	1572-1582	ordentliga	_	Source;Target[12]	20-29[28];20-35[29]	false[12]	2[12]	_	_	
+20-33	1583-1595	invändningar	_	Source;Target[12]	20-29[28];20-35[29]	false[12]	2[12]	_	_	
+20-34	1596-1599	mot	_	Source;Target[12]	20-29[28];20-35[29]	false[12]	2[12]	_	_	
+20-35	1600-1603	den	*[29]	_	_	_	_	_	_	
+20-36	1604-1611	svenska	*[29]	_	_	_	_	_	_	
+20-37	1612-1620	modellen	*[29]	_	_	_	_	_	_	
+20-38	1620-1621	.	_	_	_	_	_	_	_	
+
+#Text=För att Sverige och det svenska perspektivet i debatten skulle komma att nå framgång krävs inte mindre än rena mirakel.
+21-1	1622-1625	För	*[30]	_	_	_	_	_	_	
+21-2	1626-1629	att	*[30]	_	_	_	_	_	_	
+21-3	1630-1637	Sverige	*[30]	_	_	_	_	_	_	
+21-4	1638-1641	och	*[30]	_	_	_	_	_	_	
+21-5	1642-1645	det	*[30]	_	_	_	_	_	_	
+21-6	1646-1653	svenska	*[30]	_	_	_	_	_	_	
+21-7	1654-1666	perspektivet	*[30]	_	_	_	_	_	_	
+21-8	1667-1668	i	*[30]	_	_	_	_	_	_	
+21-9	1669-1677	debatten	*[30]	_	_	_	_	_	_	
+21-10	1678-1684	skulle	*[30]	Target[13]	21-1[30]	false[13]	4[13]	_	_	
+21-11	1685-1690	komma	*[30]	Target[13]	21-1[30]	false[13]	4[13]	_	_	
+21-12	1691-1694	att	*[30]	Target[13]	21-1[30]	false[13]	4[13]	_	_	
+21-13	1695-1697	nå	*[30]	Target[13]	21-1[30]	false[13]	4[13]	_	_	
+21-14	1698-1706	framgång	*[30]	Target[13]	21-1[30]	false[13]	4[13]	_	_	
+21-15	1707-1712	krävs	*[30]	_	_	_	_	_	_	
+21-16	1713-1717	inte	*[30]	_	_	_	_	_	_	
+21-17	1718-1724	mindre	*[30]	_	_	_	_	_	_	
+21-18	1725-1727	än	*[30]	_	_	_	_	_	_	
+21-19	1728-1732	rena	*[30]	_	_	_	_	_	_	
+21-20	1733-1740	mirakel	*[30]	_	_	_	_	_	_	
+21-21	1740-1741	.	_	_	_	_	_	_	_	
+
+#Text=Att öppna för diskussionen om ett socialt protokoll på EU-nivå med långtgående regleringar skulle hota den svenska modellen.
+22-1	1742-1745	Att	*[31]	_	_	_	_	_	_	
+22-2	1746-1751	öppna	*[31]	_	_	_	_	_	_	
+22-3	1752-1755	för	*[31]	_	_	_	_	_	_	
+22-4	1756-1768	diskussionen	*[31]	_	_	_	_	_	_	
+22-5	1769-1771	om	*[31]	_	_	_	_	_	_	
+22-6	1772-1775	ett	*[31]	_	_	_	_	_	_	
+22-7	1776-1783	socialt	*[31]	_	_	_	_	_	_	
+22-8	1784-1793	protokoll	*[31]	_	_	_	_	_	_	
+22-9	1794-1796	på	*[31]	_	_	_	_	_	_	
+22-10	1797-1804	EU-nivå	*[31]	_	_	_	_	_	_	
+22-11	1805-1808	med	*[31]	_	_	_	_	_	_	
+22-12	1809-1820	långtgående	*[31]	_	_	_	_	_	_	
+22-13	1821-1832	regleringar	*[31]	_	_	_	_	_	_	
+22-14	1833-1839	skulle	*[31]	Target[14]	22-1[31]	false[14]	2[14]	_	_	
+22-15	1840-1844	hota	*[31]	Target[14]	22-1[31]	false[14]	2[14]	_	_	
+22-16	1845-1848	den	*[31]	_	_	_	_	_	_	
+22-17	1849-1856	svenska	*[31]	_	_	_	_	_	_	
+22-18	1857-1865	modellen	*[31]	_	_	_	_	_	_	
+22-19	1865-1866	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1868-1869	#	_	_	_	_	_	_	_	
+23-2	1869-1870	P	_	_	_	_	_	_	_	
+23-3	1871-1874	IMM	_	_	_	_	_	_	_	
+23-4	1874-1875	.	_	_	_	_	_	_	_	
+
+#Text=Att LO och S går i en riktning som liknar det brittiska sättet att vara emot fri rörlighet på arbetsmarknaden är djupt oroande.
+24-1	1877-1880	Att	*[32]	_	_	_	_	_	_	
+24-2	1881-1883	LO	*[32]	_	_	_	_	_	_	
+24-3	1884-1887	och	*[32]	_	_	_	_	_	_	
+24-4	1888-1889	S	*[32]	_	_	_	_	_	_	
+24-5	1890-1893	går	*[32]	_	_	_	_	_	_	
+24-6	1894-1895	i	*[32]	_	_	_	_	_	_	
+24-7	1896-1898	en	*[32]	_	_	_	_	_	_	
+24-8	1899-1907	riktning	*[32]	_	_	_	_	_	_	
+24-9	1908-1911	som	*[32]	_	_	_	_	_	_	
+24-10	1912-1918	liknar	*[32]	_	_	_	_	_	_	
+24-11	1919-1922	det	*[32]|*[33]	_	_	_	_	_	_	
+24-12	1923-1932	brittiska	*[32]|*[33]	_	_	_	_	_	_	
+24-13	1933-1939	sättet	*[32]|*[33]	_	_	_	_	_	_	
+24-14	1940-1943	att	*[32]	_	_	_	_	_	_	
+24-15	1944-1948	vara	*[32]	Target;Source[15]	24-17[34];24-11[33]	false[15]	2[15]	_	_	
+24-16	1949-1953	emot	*[32]	Target;Source[15]	24-17[34];24-11[33]	false[15]	2[15]	_	_	
+24-17	1954-1957	fri	*[32]|*[34]	_	_	_	_	_	_	
+24-18	1958-1967	rörlighet	*[32]|*[34]	_	_	_	_	_	_	
+24-19	1968-1970	på	*[32]|*[34]	_	_	_	_	_	_	
+24-20	1971-1986	arbetsmarknaden	*[32]|*[34]	_	_	_	_	_	_	
+24-21	1987-1989	är	_	Target[16]	24-1[32]	false[16]	1[16]	_	_	
+24-22	1990-1995	djupt	_	Target[16]	24-1[32]	false[16]	1[16]	_	_	
+24-23	1996-2003	oroande	_	Target[16]	24-1[32]	false[16]	1[16]	_	_	
+24-24	2003-2004	.	_	_	_	_	_	_	_	
+
+#Text=Ordning och reda vill vi ha – men mer makt till EU på detta område, eller ett misstänkliggörande av arbetskraft som rör sig över gränser, kan vi dock inte acceptera.
+25-1	2005-2012	Ordning	*[35]	Target;Source[17]	25-1[35];25-5	false[17]	4[17]	25-6[0_17]	_	
+25-2	2013-2016	och	*[35]	Target;Source[17]	25-1[35];25-5	false[17]	4[17]	_	_	
+25-3	2017-2021	reda	*[35]	Target;Source[17]	25-1[35];25-5	false[17]	4[17]	_	_	
+25-4	2022-2026	vill	_	Target;Source[17]	25-1[35];25-5	false[17]	4[17]	_	_	
+25-5	2027-2029	vi	*	_	_	_	_	_	_	
+25-6	2030-2032	ha	_	Target;Source	25-1[35];25-5	false	4	_	_	
+25-7	2033-2034	–	_	_	_	_	_	_	_	
+25-8	2035-2038	men	_	_	_	_	_	_	_	
+25-9	2039-2042	mer	*[36]	_	_	_	_	_	_	
+25-10	2043-2047	makt	*[36]	_	_	_	_	_	_	
+25-11	2048-2052	till	*[36]	_	_	_	_	_	_	
+25-12	2053-2055	EU	*[36]	_	_	_	_	_	_	
+25-13	2056-2058	på	*[36]	_	_	_	_	_	_	
+25-14	2059-2064	detta	*[36]	_	_	_	_	_	_	
+25-15	2065-2071	område	*[36]	_	_	_	_	_	_	
+25-16	2071-2072	,	*[36]	_	_	_	_	_	_	
+25-17	2073-2078	eller	*[36]	_	_	_	_	_	_	
+25-18	2079-2082	ett	*[36]	_	_	_	_	_	_	
+25-19	2083-2101	misstänkliggörande	*[36]	Source;Target[18]	25-33;25-21[37]	false[18]	2[18]	_	_	
+25-20	2102-2104	av	*[36]	Source;Target[18]	25-33;25-21[37]	false[18]	2[18]	_	_	
+25-21	2105-2116	arbetskraft	*[36]|*[37]	_	_	_	_	_	_	
+25-22	2117-2120	som	*[36]|*[37]	_	_	_	_	_	_	
+25-23	2121-2124	rör	*[36]|*[37]	_	_	_	_	_	_	
+25-24	2125-2128	sig	*[36]|*[37]	_	_	_	_	_	_	
+25-25	2129-2133	över	*[36]|*[37]	_	_	_	_	_	_	
+25-26	2134-2141	gränser	*[36]|*[37]	_	_	_	_	_	_	
+25-27	2141-2142	,	_	_	_	_	_	_	_	
+25-28	2143-2146	kan	_	Target;Source	25-9[36];25-29	false	2	_	_	
+25-29	2147-2149	vi	*	_	_	_	_	_	_	
+25-30	2150-2154	dock	_	_	_	_	_	_	_	
+25-31	2155-2159	inte	_	Target;Source[19]	25-9[36];25-29	false[19]	2[19]	25-28[0_19]	_	
+25-32	2160-2169	acceptera	_	Target;Source[19]	25-9[36];25-29	false[19]	2[19]	_	_	
+25-33	2169-2170	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2172-2173	#	_	_	_	_	_	_	_	
+26-2	2173-2174	P	_	_	_	_	_	_	_	
+26-3	2175-2178	IMM	_	_	_	_	_	_	_	
+26-4	2178-2179	.	_	_	_	_	_	_	_	
+
+#Text=Fredrick Federley.
+27-1	2181-2189	Fredrick	_	_	_	_	_	_	_	
+27-2	2190-2198	Federley	_	_	_	_	_	_	_	
+27-3	2198-2199	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2201-2202	#	_	_	_	_	_	_	_	
+28-2	2202-2203	P	_	_	_	_	_	_	_	
+28-3	2204-2207	IMM	_	_	_	_	_	_	_	
+28-4	2207-2208	.	_	_	_	_	_	_	_	
+
+#Text=Kandidat till Europaparlamentet, C.
+29-1	2210-2218	Kandidat	_	_	_	_	_	_	_	
+29-2	2219-2223	till	_	_	_	_	_	_	_	
+29-3	2224-2241	Europaparlamentet	_	_	_	_	_	_	_	
+29-4	2241-2242	,	_	_	_	_	_	_	_	
+29-5	2243-2244	C	_	_	_	_	_	_	_	
+29-6	2244-2245	.	_	_	_	_	_	_	_	

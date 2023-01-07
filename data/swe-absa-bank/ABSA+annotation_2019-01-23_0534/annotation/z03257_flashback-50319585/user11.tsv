@@ -1,0 +1,396 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Skillnad mellan invandrare och invandrare.
+3-1	18-26	Skillnad	_	_	_	_	_	_	
+3-2	27-33	mellan	_	_	_	_	_	_	
+3-3	34-44	invandrare	_	_	_	_	_	_	
+3-4	45-48	och	_	_	_	_	_	_	
+3-5	49-59	invandrare	_	_	_	_	_	_	
+3-6	59-60	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	
+4-2	63-64	P	_	_[3]	_	false[3]	3[3]	_	
+4-3	65-68	IMM	_	_[3]	_	false[3]	3[3]	_	
+4-4	68-69	.	_	_	_	_	_	_	
+
+#Text=Man får ofta höra, då man säger att man vill sänka invandring eller dylikt, "skulle du sagt samma sak om det var vita personer från t.ex Norge som invandrade?
+5-1	71-74	Man	_	_	_	_	_	_	
+5-2	75-78	får	_	_	_	_	_	_	
+5-3	79-83	ofta	_	_	_	_	_	_	
+5-4	84-88	höra	_	_	_	_	_	_	
+5-5	88-89	,	_	_	_	_	_	_	
+5-6	90-92	då	_	_	_	_	_	_	
+5-7	93-96	man	_	_	_	_	_	_	
+5-8	97-102	säger	_	_	_	_	_	_	
+5-9	103-106	att	_	_	_	_	_	_	
+5-10	107-110	man	*	_	_	_	_	_	
+5-11	111-115	vill	_	Source;Target[4]	5-10;5-13	false[4]	2[4]	_	
+5-12	116-121	sänka	_	Source;Target[4]	5-10;5-13	false[4]	2[4]	_	
+5-13	122-132	invandring	*	_	_	_	_	_	
+5-14	133-138	eller	_	_	_	_	_	_	
+5-15	139-145	dylikt	_	_	_	_	_	_	
+5-16	145-146	,	_	_	_	_	_	_	
+5-17	147-148	"	_	_	_	_	_	_	
+5-18	148-154	skulle	_	_	_	_	_	_	
+5-19	155-157	du	_	_	_	_	_	_	
+5-20	158-162	sagt	_	_	_	_	_	_	
+5-21	163-168	samma	_	_	_	_	_	_	
+5-22	169-172	sak	_	_	_	_	_	_	
+5-23	173-175	om	_	_	_	_	_	_	
+5-24	176-179	det	_	_	_	_	_	_	
+5-25	180-183	var	_	_	_	_	_	_	
+5-26	184-188	vita	_	_	_	_	_	_	
+5-27	189-197	personer	_	_	_	_	_	_	
+5-28	198-202	från	_	_	_	_	_	_	
+5-29	203-207	t.ex	_	_	_	_	_	_	
+5-30	208-213	Norge	_	_	_	_	_	_	
+5-31	214-217	som	_	_	_	_	_	_	
+5-32	218-228	invandrade	_	_	_	_	_	_	
+5-33	228-229	?	_	_	_	_	_	_	
+
+#Text=Annars är du ju bara rasist".
+6-1	230-236	Annars	_	_	_	_	_	_	
+6-2	237-239	är	_	Target;Source	6-3;6-8	false	1	_	
+6-3	240-242	du	*	_	_	_	_	_	
+6-4	243-245	ju	_	_[5]	_	false[5]	1[5]	6-2[0_5]	
+6-5	246-250	bara	_	_[5]	_	false[5]	1[5]	_	
+6-6	251-257	rasist	_	_[5]	_	false[5]	1[5]	_	
+6-7	257-258	"	_	_	_	_	_	_	
+6-8	258-259	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	261-262	#	_	_	_	_	_	_	
+7-2	262-263	P	_	_[6]	_	false[6]	2[6]	_	
+7-3	264-267	IMM	_	_[6]	_	false[6]	2[6]	_	
+7-4	267-268	.	_	_	_	_	_	_	
+
+#Text=Men jag måste säga att det är skollnad på invandrare och invandrare.
+8-1	270-273	Men	_	_	_	_	_	_	
+8-2	274-277	jag	_	_	_	_	_	_	
+8-3	278-283	måste	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-4	284-288	säga	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-5	289-292	att	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-6	293-296	det	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-7	297-299	är	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-8	300-308	skollnad	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-9	309-311	på	_	Target[7]	8-10[24]	false[7]	3[7]	_	
+8-10	312-322	invandrare	*[24]	_	_	_	_	_	
+8-11	323-326	och	*[24]	_	_	_	_	_	
+8-12	327-337	invandrare	*[24]	_	_	_	_	_	
+8-13	337-338	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	340-341	#	_	_	_	_	_	_	
+9-2	341-342	P	_	_	_	_	_	_	
+9-3	343-346	IMM	_	_	_	_	_	_	
+9-4	346-347	.	_	_	_	_	_	_	
+
+#Text=Norge och Sverige och de flesta andra västerländska länder delar kultur, religion och synsätt på hur ett samhälle skall vara.
+10-1	349-354	Norge	_	_	_	_	_	_	
+10-2	355-358	och	_	_	_	_	_	_	
+10-3	359-366	Sverige	_	_	_	_	_	_	
+10-4	367-370	och	_	_	_	_	_	_	
+10-5	371-373	de	_	_	_	_	_	_	
+10-6	374-380	flesta	_	_	_	_	_	_	
+10-7	381-386	andra	_	_	_	_	_	_	
+10-8	387-400	västerländska	_	_	_	_	_	_	
+10-9	401-407	länder	_	_	_	_	_	_	
+10-10	408-413	delar	_	_	_	_	_	_	
+10-11	414-420	kultur	_	_	_	_	_	_	
+10-12	420-421	,	_	_	_	_	_	_	
+10-13	422-430	religion	_	_	_	_	_	_	
+10-14	431-434	och	_	_	_	_	_	_	
+10-15	435-442	synsätt	_	_	_	_	_	_	
+10-16	443-445	på	_	_	_	_	_	_	
+10-17	446-449	hur	_	_	_	_	_	_	
+10-18	450-453	ett	_	_	_	_	_	_	
+10-19	454-462	samhälle	_	_	_	_	_	_	
+10-20	463-468	skall	_	_	_	_	_	_	
+10-21	469-473	vara	_	_	_	_	_	_	
+10-22	473-474	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	476-477	#	_	_	_	_	_	_	
+11-2	477-478	P	_	_[8]	_	false[8]	2[8]	_	
+11-3	479-482	IMM	_	_[8]	_	false[8]	2[8]	_	
+11-4	482-483	.	_	_	_	_	_	_	
+
+#Text=Däremot gör inte muslimska länder detta och därför blir det svårt att få det att passa.
+12-1	485-492	Däremot	_	_	_	_	_	_	
+12-2	493-496	gör	_	_	_	_	_	_	
+12-3	497-501	inte	_	_	_	_	_	_	
+12-4	502-511	muslimska	*[25]	_	_	_	_	_	
+12-5	512-518	länder	*[25]	_	_	_	_	_	
+12-6	519-524	detta	_	_	_	_	_	_	
+12-7	525-528	och	_	_	_	_	_	_	
+12-8	529-535	därför	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-9	536-540	blir	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-10	541-544	det	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-11	545-550	svårt	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-12	551-554	att	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-13	555-557	få	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-14	558-561	det	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-15	562-565	att	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-16	566-571	passa	_	Target[9]	12-4[25]	false[9]	2[9]	_	
+12-17	571-572	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	574-575	#	_	_	_	_	_	_	
+13-2	575-576	P	_	_[10]	_	false[10]	1[10]	_	
+13-3	577-580	IMM	_	_[10]	_	false[10]	1[10]	_	
+13-4	580-581	.	_	_	_	_	_	_	
+
+#Text=De präglas oerhört hårt av religion och det är ju därför det är kränkande att ha skolavslutning i kyrkan i Sverige idag då muslimer skulle ta väldigt illa upp.
+14-1	583-585	De	*	_	_	_	_	_	
+14-2	586-593	präglas	_	Target[11]	14-1	false[11]	2[11]	_	
+14-3	594-601	oerhört	_	Target[11]	14-1	false[11]	2[11]	_	
+14-4	602-606	hårt	_	Target[11]	14-1	false[11]	2[11]	_	
+14-5	607-609	av	_	Target[11]	14-1	false[11]	2[11]	_	
+14-6	610-618	religion	_	Target[11]	14-1	false[11]	2[11]	_	
+14-7	619-622	och	_	_	_	_	_	_	
+14-8	623-626	det	_	_	_	_	_	_	
+14-9	627-629	är	_	_	_	_	_	_	
+14-10	630-632	ju	_	_	_	_	_	_	
+14-11	633-639	därför	_	_	_	_	_	_	
+14-12	640-643	det	_	_	_	_	_	_	
+14-13	644-646	är	_	Source;Target[12]	14-24;14-16[26]	false[12]	2[12]	_	
+14-14	647-656	kränkande	_	Source;Target[12]	14-24;14-16[26]	false[12]	2[12]	_	
+14-15	657-660	att	_	_	_	_	_	_	
+14-16	661-663	ha	*[26]	_	_	_	_	_	
+14-17	664-678	skolavslutning	*[26]	_	_	_	_	_	
+14-18	679-680	i	*[26]	_	_	_	_	_	
+14-19	681-687	kyrkan	*[26]	_	_	_	_	_	
+14-20	688-689	i	*[26]	_	_	_	_	_	
+14-21	690-697	Sverige	*[26]	_	_	_	_	_	
+14-22	698-702	idag	_	_	_	_	_	_	
+14-23	703-705	då	_	_	_	_	_	_	
+14-24	706-714	muslimer	*	_	_	_	_	_	
+14-25	715-721	skulle	_	_	_	_	_	_	
+14-26	722-724	ta	_	Source[13]	14-24	false[13]	1[13]	_	
+14-27	725-732	väldigt	_	Source[13]	14-24	false[13]	1[13]	_	
+14-28	733-737	illa	_	Source[13]	14-24	false[13]	1[13]	_	
+14-29	738-741	upp	_	Source[13]	14-24	false[13]	1[13]	_	
+14-30	741-742	.	_	_	_	_	_	_	
+
+#Text=Men borde man inte anpassa sig till det land man kommer?
+15-1	743-746	Men	_	_	_	_	_	_	
+15-2	747-752	borde	_	Target[14]	15-5[27]	false[14]	4[14]	_	
+15-3	753-756	man	_	Target[14]	15-5[27]	false[14]	4[14]	_	
+15-4	757-761	inte	_	Target[14]	15-5[27]	false[14]	4[14]	_	
+15-5	762-769	anpassa	*[27]	_	_	_	_	_	
+15-6	770-773	sig	*[27]	_	_	_	_	_	
+15-7	774-778	till	*[27]	_	_	_	_	_	
+15-8	779-782	det	*[27]	_	_	_	_	_	
+15-9	783-787	land	*[27]	_	_	_	_	_	
+15-10	788-791	man	*[27]	_	_	_	_	_	
+15-11	792-798	kommer	*[27]	_	_	_	_	_	
+15-12	798-799	?	_	_	_	_	_	_	
+
+#Text=Ska vi verkligen behöva ändra allt som är västerländskt, kristet och svenskt för att en grupp muslimer inte ska gå till DO och gnälla och skrika ut ordet rasist åt alla håll?.
+16-1	800-803	Ska	_	_	_	_	_	_	
+16-2	804-806	vi	_	_	_	_	_	_	
+16-3	807-816	verkligen	_	_	_	_	_	_	
+16-4	817-823	behöva	_	_	_	_	_	_	
+16-5	824-829	ändra	_	_	_	_	_	_	
+16-6	830-834	allt	_	_	_	_	_	_	
+16-7	835-838	som	_	_	_	_	_	_	
+16-8	839-841	är	_	_	_	_	_	_	
+16-9	842-855	västerländskt	_	_	_	_	_	_	
+16-10	855-856	,	_	_	_	_	_	_	
+16-11	857-864	kristet	_	_	_	_	_	_	
+16-12	865-868	och	_	_	_	_	_	_	
+16-13	869-876	svenskt	_	_	_	_	_	_	
+16-14	877-880	för	_	_	_	_	_	_	
+16-15	881-884	att	_	_	_	_	_	_	
+16-16	885-887	en	*[28]	_	_	_	_	_	
+16-17	888-893	grupp	*[28]	_	_	_	_	_	
+16-18	894-902	muslimer	*[28]	_	_	_	_	_	
+16-19	903-907	inte	_	_	_	_	_	_	
+16-20	908-911	ska	_	_	_	_	_	_	
+16-21	912-914	gå	_	_	_	_	_	_	
+16-22	915-919	till	_	_	_	_	_	_	
+16-23	920-922	DO	_	_	_	_	_	_	
+16-24	923-926	och	_	_	_	_	_	_	
+16-25	927-933	gnälla	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-26	934-937	och	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-27	938-944	skrika	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-28	945-947	ut	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-29	948-953	ordet	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-30	954-960	rasist	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-31	961-963	åt	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-32	964-968	alla	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-33	969-973	håll	_	Target[15]	16-16[28]	false[15]	2[15]	_	
+16-34	973-974	?	_	_	_	_	_	_	
+16-35	974-975	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	977-978	#	_	_	_	_	_	_	
+17-2	978-979	P	_	_[16]	_	false[16]	1[16]	_	
+17-3	980-983	IMM	_	_[16]	_	false[16]	1[16]	_	
+17-4	983-984	.	_	_	_	_	_	_	
+
+#Text=Så när jag, och vad jag antar, många andra klagar på invandrare från muslimska länder är det på grund av att västerlädnsk kultur och muslimsk kultur inte passar ihop på något sätt.
+18-1	986-988	Så	_	_	_	_	_	_	
+18-2	989-992	när	_	_	_	_	_	_	
+18-3	993-996	jag	*	_	_	_	_	_	
+18-4	996-997	,	_	_	_	_	_	_	
+18-5	998-1001	och	_	_	_	_	_	_	
+18-6	1002-1005	vad	_	_	_	_	_	_	
+18-7	1006-1009	jag	_	_	_	_	_	_	
+18-8	1010-1015	antar	_	_	_	_	_	_	
+18-9	1015-1016	,	_	_	_	_	_	_	
+18-10	1017-1022	många	_	_	_	_	_	_	
+18-11	1023-1028	andra	_	_	_	_	_	_	
+18-12	1029-1035	klagar	_	Target;Source[17]	18-14[29];18-3	false[17]	2[17]	_	
+18-13	1036-1038	på	_	Target;Source[17]	18-14[29];18-3	false[17]	2[17]	_	
+18-14	1039-1049	invandrare	*[29]	_	_	_	_	_	
+18-15	1050-1054	från	*[29]	_	_	_	_	_	
+18-16	1055-1064	muslimska	*[29]	_	_	_	_	_	
+18-17	1065-1071	länder	*[29]	_	_	_	_	_	
+18-18	1072-1074	är	_	_	_	_	_	_	
+18-19	1075-1078	det	_	_	_	_	_	_	
+18-20	1079-1081	på	_	_	_	_	_	_	
+18-21	1082-1087	grund	_	_	_	_	_	_	
+18-22	1088-1090	av	_	_	_	_	_	_	
+18-23	1091-1094	att	_	_	_	_	_	_	
+18-24	1095-1107	västerlädnsk	*[30]	_	_	_	_	_	
+18-25	1108-1114	kultur	*[30]	_	_	_	_	_	
+18-26	1115-1118	och	*[30]	_	_	_	_	_	
+18-27	1119-1127	muslimsk	*[30]	_	_	_	_	_	
+18-28	1128-1134	kultur	*[30]	_	_	_	_	_	
+18-29	1135-1139	inte	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-30	1140-1146	passar	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-31	1147-1151	ihop	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-32	1152-1154	på	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-33	1155-1160	något	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-34	1161-1165	sätt	_	Target[18]	18-24[30]	false[18]	2[18]	_	
+18-35	1165-1166	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1168-1169	#	_	_	_	_	_	_	
+19-2	1169-1170	P	_	_[19]	_	false[19]	2[19]	_	
+19-3	1171-1174	IMM	_	_[19]	_	false[19]	2[19]	_	
+19-4	1174-1175	.	_	_	_	_	_	_	
+
+#Text=Det är ungefär som när man försöker trycka ihop två magneter och dom bara trycks isär igen.
+20-1	1177-1180	Det	_	_	_	_	_	_	
+20-2	1181-1183	är	_	_	_	_	_	_	
+20-3	1184-1191	ungefär	_	_	_	_	_	_	
+20-4	1192-1195	som	_	_	_	_	_	_	
+20-5	1196-1199	när	_	_	_	_	_	_	
+20-6	1200-1203	man	_	_	_	_	_	_	
+20-7	1204-1212	försöker	_	_	_	_	_	_	
+20-8	1213-1219	trycka	_	_	_	_	_	_	
+20-9	1220-1224	ihop	_	_	_	_	_	_	
+20-10	1225-1228	två	_	_	_	_	_	_	
+20-11	1229-1237	magneter	_	_	_	_	_	_	
+20-12	1238-1241	och	_	_	_	_	_	_	
+20-13	1242-1245	dom	_	_	_	_	_	_	
+20-14	1246-1250	bara	_	_	_	_	_	_	
+20-15	1251-1257	trycks	_	_	_	_	_	_	
+20-16	1258-1262	isär	_	_	_	_	_	_	
+20-17	1263-1267	igen	_	_	_	_	_	_	
+20-18	1267-1268	.	_	_	_	_	_	_	
+
+#Text=Men ändå så har vi totala idioter till politiker och journalister i detta land som istället trycker ihop dessa motsatta magneter och ropar hejvilt att "jo kolla det går ju så bra bara vi vill".
+21-1	1269-1272	Men	_	_	_	_	_	_	
+21-2	1273-1277	ändå	_	_	_	_	_	_	
+21-3	1278-1280	så	_	_	_	_	_	_	
+21-4	1281-1284	har	_	_	_	_	_	_	
+21-5	1285-1287	vi	_	_	_	_	_	_	
+21-6	1288-1294	totala	_	Target[20]	21-9[31]	false[20]	1[20]	_	
+21-7	1295-1302	idioter	_	Target[20]	21-9[31]	false[20]	1[20]	_	
+21-8	1303-1307	till	_	_	_	_	_	_	
+21-9	1308-1317	politiker	*[31]	_	_	_	_	_	
+21-10	1318-1321	och	*[31]	_	_	_	_	_	
+21-11	1322-1334	journalister	*[31]	_	_	_	_	_	
+21-12	1335-1336	i	*[31]	_	_	_	_	_	
+21-13	1337-1342	detta	*[31]	_	_	_	_	_	
+21-14	1343-1347	land	*[31]	_	_	_	_	_	
+21-15	1348-1351	som	_	_	_	_	_	_	
+21-16	1352-1360	istället	_	_	_	_	_	_	
+21-17	1361-1368	trycker	_	_	_	_	_	_	
+21-18	1369-1373	ihop	_	_	_	_	_	_	
+21-19	1374-1379	dessa	_	_	_	_	_	_	
+21-20	1380-1388	motsatta	_	_	_	_	_	_	
+21-21	1389-1397	magneter	_	_	_	_	_	_	
+21-22	1398-1401	och	_	_	_	_	_	_	
+21-23	1402-1407	ropar	_	_	_	_	_	_	
+21-24	1408-1415	hejvilt	_	_	_	_	_	_	
+21-25	1416-1419	att	_	_	_	_	_	_	
+21-26	1420-1421	"	_	_	_	_	_	_	
+21-27	1421-1423	jo	_	_	_	_	_	_	
+21-28	1424-1429	kolla	_	_	_	_	_	_	
+21-29	1430-1433	det	_	_	_	_	_	_	
+21-30	1434-1437	går	_	_	_	_	_	_	
+21-31	1438-1440	ju	_	_	_	_	_	_	
+21-32	1441-1443	så	_	_	_	_	_	_	
+21-33	1444-1447	bra	_	_	_	_	_	_	
+21-34	1448-1452	bara	_	_	_	_	_	_	
+21-35	1453-1455	vi	_	_	_	_	_	_	
+21-36	1456-1460	vill	_	_	_	_	_	_	
+21-37	1460-1461	"	_	_	_	_	_	_	
+21-38	1461-1462	.	*	_	_	_	_	_	
+
+#Text=Bullshit.
+22-1	1463-1471	Bullshit	_	Target	21-38	false	1	_	
+22-2	1471-1472	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1474-1475	#	_	_	_	_	_	_	
+23-2	1475-1476	P	_	_[21]	_	false[21]	2[21]	_	
+23-3	1477-1480	IMM	_	_[21]	_	false[21]	2[21]	_	
+23-4	1480-1481	.	_	_	_	_	_	_	
+
+#Text=Det är skillnad på invandrare och invandrare och man är inte rasist för att man tycker att två helt olika kulturer inte fungerar bra ihop.
+24-1	1483-1486	Det	_	Target[22]	24-5[32]	false[22]	3[22]	_	
+24-2	1487-1489	är	_	Target[22]	24-5[32]	false[22]	3[22]	_	
+24-3	1490-1498	skillnad	_	Target[22]	24-5[32]	false[22]	3[22]	_	
+24-4	1499-1501	på	_	Target[22]	24-5[32]	false[22]	3[22]	_	
+24-5	1502-1512	invandrare	*[32]	_	_	_	_	_	
+24-6	1513-1516	och	*[32]	_	_	_	_	_	
+24-7	1517-1527	invandrare	*[32]	_	_	_	_	_	
+24-8	1528-1531	och	_	_	_	_	_	_	
+24-9	1532-1535	man	_	Target[23]	24-15[33]	false[23]	4[23]	_	
+24-10	1536-1538	är	_	Target[23]	24-15[33]	false[23]	4[23]	_	
+24-11	1539-1543	inte	_	Target[23]	24-15[33]	false[23]	4[23]	_	
+24-12	1544-1550	rasist	_	Target[23]	24-15[33]	false[23]	4[23]	_	
+24-13	1551-1554	för	_	_	_	_	_	_	
+24-14	1555-1558	att	_	_	_	_	_	_	
+24-15	1559-1562	man	*[33]	_	_	_	_	_	
+24-16	1563-1569	tycker	*[33]	_	_	_	_	_	
+24-17	1570-1573	att	*[33]	_	_	_	_	_	
+24-18	1574-1577	två	*[33]	_	_	_	_	_	
+24-19	1578-1582	helt	*[33]	_	_	_	_	_	
+24-20	1583-1588	olika	*[33]	_	_	_	_	_	
+24-21	1589-1597	kulturer	*[33]	_	_	_	_	_	
+24-22	1598-1602	inte	*[33]	_	_	_	_	_	
+24-23	1603-1611	fungerar	*[33]	_	_	_	_	_	
+24-24	1612-1615	bra	*[33]	_	_	_	_	_	
+24-25	1616-1620	ihop	*[33]	_	_	_	_	_	
+24-26	1620-1621	.	_	_	_	_	_	_	
+
+#Text=Då är man bara realist.
+25-1	1622-1624	Då	_	_	_	_	_	_	
+25-2	1625-1627	är	_	_	_	_	_	_	
+25-3	1628-1631	man	*	_	_	_	_	_	
+25-4	1632-1636	bara	_	_	_	_	_	_	
+25-5	1637-1644	realist	_	Target	25-3	false	4	_	
+25-6	1644-1645	.	_	_	_	_	_	_	

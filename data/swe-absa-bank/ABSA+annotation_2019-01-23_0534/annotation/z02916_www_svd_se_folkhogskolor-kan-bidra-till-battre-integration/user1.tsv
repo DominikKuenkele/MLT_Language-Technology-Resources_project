@@ -1,0 +1,935 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Folkhögskolor kan bidra   
+#Text=till bättre integration.
+3-1	18-31	Folkhögskolor	*	_	_	_	_	_	_	
+3-2	32-35	kan	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-3	36-41	bidra	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-4	45-49	till	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-5	50-56	bättre	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-6	57-68	integration	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-7	68-69	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen ger i kommande budgetproposition Arbetsförmedlingen möjlighet att finansiera kurser på folkhögskolor särskilt för nyanlända.
+5-1	80-90	Regeringen	_	_	_	_	_	_	_	
+5-2	91-94	ger	_	_	_	_	_	_	_	
+5-3	95-96	i	_	_	_	_	_	_	_	
+5-4	97-105	kommande	_	_	_	_	_	_	_	
+5-5	106-123	budgetproposition	_	_	_	_	_	_	_	
+5-6	124-142	Arbetsförmedlingen	_	_	_	_	_	_	_	
+5-7	143-152	möjlighet	_	_	_	_	_	_	_	
+5-8	153-156	att	_	_	_	_	_	_	_	
+5-9	157-167	finansiera	_	_	_	_	_	_	_	
+5-10	168-174	kurser	_	_	_	_	_	_	_	
+5-11	175-177	på	_	_	_	_	_	_	_	
+5-12	178-191	folkhögskolor	_	_	_	_	_	_	_	
+5-13	192-200	särskilt	_	_	_	_	_	_	_	
+5-14	201-204	för	_	_	_	_	_	_	_	
+5-15	205-214	nyanlända	_	_	_	_	_	_	_	
+5-16	214-215	.	_	_	_	_	_	_	_	
+
+#Text=Folkhögskolorna har med sin karaktär och särskilda pedagogik tydliga möjligheter att stötta dem som behöver stöd in i samhället eller stöd mot fortsatta studier, skriver ministrarna Erik Ullenhag (FP) och Maria Arnholm (FP).
+6-1	216-231	Folkhögskolorna	*	_	_	_	_	_	_	
+6-2	232-235	har	_	_	_	false	4	_	_	
+6-3	236-239	med	_	_	_	_	_	_	_	
+6-4	240-243	sin	_	_	_	_	_	_	_	
+6-5	244-252	karaktär	_	_	_	_	_	_	_	
+6-6	253-256	och	_	_	_	_	_	_	_	
+6-7	257-266	särskilda	_	_	_	_	_	_	_	
+6-8	267-276	pedagogik	_	_	_	_	_	_	_	
+6-9	277-284	tydliga	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	6-2[0_2]	_	
+6-10	285-296	möjligheter	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-11	297-300	att	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-12	301-307	stötta	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-13	308-311	dem	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-14	312-315	som	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-15	316-323	behöver	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-16	324-328	stöd	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-17	329-331	in	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-18	332-333	i	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-19	334-343	samhället	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-20	344-349	eller	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-21	350-354	stöd	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-22	355-358	mot	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-23	359-368	fortsatta	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-24	369-376	studier	_	Source;Target[2]	6-27[13];6-1	false[2]	4[2]	_	_	
+6-25	376-377	,	_	_	_	_	_	_	_	
+6-26	378-385	skriver	_	_	_	_	_	_	_	
+6-27	386-397	ministrarna	*[13]	_	_	_	_	_	_	
+6-28	398-402	Erik	*[13]	_	_	_	_	_	_	
+6-29	403-411	Ullenhag	*[13]	_	_	_	_	_	_	
+6-30	412-413	(	*[13]	_	_	_	_	_	_	
+6-31	413-415	FP	*[13]	_	_	_	_	_	_	
+6-32	415-416	)	*[13]	_	_	_	_	_	_	
+6-33	417-420	och	*[13]	_	_	_	_	_	_	
+6-34	421-426	Maria	*[13]	_	_	_	_	_	_	
+6-35	427-434	Arnholm	*[13]	_	_	_	_	_	_	
+6-36	435-436	(	*[13]	_	_	_	_	_	_	
+6-37	436-438	FP	*[13]	_	_	_	_	_	_	
+6-38	438-439	)	_	_	_	_	_	_	_	
+6-39	439-440	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	442-443	#	_	_	_	_	_	_	_	
+7-2	443-444	P	_	_	_	_	_	_	_	
+7-3	445-448	IMM	_	_	_	_	_	_	_	
+7-4	448-449	.	_	_	_	_	_	_	_	
+
+#Text=Arbetsförmedlingen får sammanlagt använda 260 miljoner kronor under åren 2014–2017 för att av folkhögskolorna upphandla särskilt anpassade utbildningar för nyanlända.Erik Ullenhag och Maria Arnholm.
+8-1	451-469	Arbetsförmedlingen	_	_	_	_	_	_	_	
+8-2	470-473	får	_	_	_	_	_	_	_	
+8-3	474-484	sammanlagt	_	_	_	_	_	_	_	
+8-4	485-492	använda	_	_	_	_	_	_	_	
+8-5	493-496	260	_	_	_	_	_	_	_	
+8-6	497-505	miljoner	_	_	_	_	_	_	_	
+8-7	506-512	kronor	_	_	_	_	_	_	_	
+8-8	513-518	under	_	_	_	_	_	_	_	
+8-9	519-523	åren	_	_	_	_	_	_	_	
+8-10	524-528	2014	_	_	_	_	_	_	_	
+8-11	528-529	–	_	_	_	_	_	_	_	
+8-12	529-533	2017	_	_	_	_	_	_	_	
+8-13	534-537	för	_	_	_	_	_	_	_	
+8-14	538-541	att	_	_	_	_	_	_	_	
+8-15	542-544	av	_	_	_	_	_	_	_	
+8-16	545-560	folkhögskolorna	_	_	_	_	_	_	_	
+8-17	561-570	upphandla	_	_	_	_	_	_	_	
+8-18	571-579	särskilt	_	_	_	_	_	_	_	
+8-19	580-589	anpassade	_	_	_	_	_	_	_	
+8-20	590-602	utbildningar	_	_	_	_	_	_	_	
+8-21	603-606	för	_	_	_	_	_	_	_	
+8-22	607-621	nyanlända.Erik	_	_	_	_	_	_	_	
+8-23	622-630	Ullenhag	_	_	_	_	_	_	_	
+8-24	631-634	och	_	_	_	_	_	_	_	
+8-25	635-640	Maria	_	_	_	_	_	_	_	
+8-26	641-648	Arnholm	_	_	_	_	_	_	_	
+8-27	648-649	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	651-652	#	_	_	_	_	_	_	_	
+9-2	652-653	P	_	_	_	_	_	_	_	
+9-3	654-657	IMM	_	_	_	_	_	_	_	
+9-4	657-658	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	660-663	Det	_	_	_	_	_	_	_	
+10-2	664-667	här	_	_	_	_	_	_	_	
+10-3	668-670	är	_	_	_	_	_	_	_	
+10-4	671-673	en	_	_	_	_	_	_	_	
+10-5	674-688	argumenterande	_	_	_	_	_	_	_	
+10-6	689-693	text	_	_	_	_	_	_	_	
+10-7	694-697	med	_	_	_	_	_	_	_	
+10-8	698-703	syfte	_	_	_	_	_	_	_	
+10-9	704-707	att	_	_	_	_	_	_	_	
+10-10	708-715	påverka	_	_	_	_	_	_	_	
+10-11	715-716	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	717-726	Åsikterna	_	_	_	_	_	_	_	
+11-2	727-730	som	_	_	_	_	_	_	_	
+11-3	731-739	uttrycks	_	_	_	_	_	_	_	
+11-4	740-742	är	_	_	_	_	_	_	_	
+11-5	743-754	skribentens	_	_	_	_	_	_	_	
+11-6	755-759	egna	_	_	_	_	_	_	_	
+11-7	759-760	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	762-763	#	_	_	_	_	_	_	_	
+12-2	763-764	P	_	_	_	_	_	_	_	
+12-3	765-768	IMM	_	_	_	_	_	_	_	
+12-4	768-769	.	_	_	_	_	_	_	_	
+
+#Text=Nyanlända invandrare som kommer till Sverige ska erbjudas goda möjligheter att lära sig svenska, få ett jobb och komma in i samhället.
+13-1	771-780	Nyanlända	_	_	_	_	_	_	_	
+13-2	781-791	invandrare	_	_	_	_	_	_	_	
+13-3	792-795	som	_	_	_	_	_	_	_	
+13-4	796-802	kommer	_	_	_	_	_	_	_	
+13-5	803-807	till	_	_	_	_	_	_	_	
+13-6	808-815	Sverige	_	_	_	_	_	_	_	
+13-7	816-819	ska	_	_	_	_	_	_	_	
+13-8	820-828	erbjudas	_	_	_	_	_	_	_	
+13-9	829-833	goda	_	_	_	_	_	_	_	
+13-10	834-845	möjligheter	_	_	_	_	_	_	_	
+13-11	846-849	att	_	_	_	_	_	_	_	
+13-12	850-854	lära	_	_	_	_	_	_	_	
+13-13	855-858	sig	_	_	_	_	_	_	_	
+13-14	859-866	svenska	_	_	_	_	_	_	_	
+13-15	866-867	,	_	_	_	_	_	_	_	
+13-16	868-870	få	_	_	_	_	_	_	_	
+13-17	871-874	ett	_	_	_	_	_	_	_	
+13-18	875-879	jobb	_	_	_	_	_	_	_	
+13-19	880-883	och	_	_	_	_	_	_	_	
+13-20	884-889	komma	_	_	_	_	_	_	_	
+13-21	890-892	in	_	_	_	_	_	_	_	
+13-22	893-894	i	_	_	_	_	_	_	_	
+13-23	895-904	samhället	_	_	_	_	_	_	_	
+13-24	904-905	.	_	_	_	_	_	_	_	
+
+#Text=Den demografiska utmaning Sverige och övriga Europa står inför understryker bara att vi behöver fler människor som arbetar för att hålla uppe den gemensamma välfärden.
+14-1	906-909	Den	_	_	_	_	_	_	_	
+14-2	910-922	demografiska	_	_	_	_	_	_	_	
+14-3	923-931	utmaning	_	_	_	_	_	_	_	
+14-4	932-939	Sverige	_	_	_	_	_	_	_	
+14-5	940-943	och	_	_	_	_	_	_	_	
+14-6	944-950	övriga	_	_	_	_	_	_	_	
+14-7	951-957	Europa	_	_	_	_	_	_	_	
+14-8	958-962	står	_	_	_	_	_	_	_	
+14-9	963-968	inför	_	_	_	_	_	_	_	
+14-10	969-981	understryker	_	_	_	_	_	_	_	
+14-11	982-986	bara	_	_	_	_	_	_	_	
+14-12	987-990	att	_	_	_	_	_	_	_	
+14-13	991-993	vi	_	_	_	_	_	_	_	
+14-14	994-1001	behöver	_	Target	14-15[14]	false	4	_	_	
+14-15	1002-1006	fler	*[14]	_	_	_	_	_	_	
+14-16	1007-1016	människor	*[14]	_	_	_	_	_	_	
+14-17	1017-1020	som	*[14]	_	_	_	_	_	_	
+14-18	1021-1028	arbetar	*[14]	_	_	_	_	_	_	
+14-19	1029-1032	för	*[14]	_	_	_	_	_	_	
+14-20	1033-1036	att	*[14]	_	_	_	_	_	_	
+14-21	1037-1042	hålla	*[14]	_	_	_	_	_	_	
+14-22	1043-1047	uppe	*[14]	_	_	_	_	_	_	
+14-23	1048-1051	den	*[14]	_	_	_	_	_	_	
+14-24	1052-1062	gemensamma	*[14]	_	_	_	_	_	_	
+14-25	1063-1072	välfärden	*[14]	_	_	_	_	_	_	
+14-26	1072-1073	.	*[14]	_	_	_	_	_	_	
+
+#Text=Många invandrare kommer till Sverige med utbildning, kunskaper och med en vilja att arbeta och skapa sig en bättre framtid i vårt land.
+15-1	1074-1079	Många	_	_	_	_	_	_	_	
+15-2	1080-1090	invandrare	_	_	_	_	_	_	_	
+15-3	1091-1097	kommer	_	_	_	_	_	_	_	
+15-4	1098-1102	till	_	_	_	_	_	_	_	
+15-5	1103-1110	Sverige	_	_	_	_	_	_	_	
+15-6	1111-1114	med	_	_	_	_	_	_	_	
+15-7	1115-1125	utbildning	_	_	_	_	_	_	_	
+15-8	1125-1126	,	_	_	_	_	_	_	_	
+15-9	1127-1136	kunskaper	_	_	_	_	_	_	_	
+15-10	1137-1140	och	_	_	_	_	_	_	_	
+15-11	1141-1144	med	_	_	_	_	_	_	_	
+15-12	1145-1147	en	_	_	_	_	_	_	_	
+15-13	1148-1153	vilja	_	_	_	_	_	_	_	
+15-14	1154-1157	att	_	_	_	_	_	_	_	
+15-15	1158-1164	arbeta	_	_	_	_	_	_	_	
+15-16	1165-1168	och	_	_	_	_	_	_	_	
+15-17	1169-1174	skapa	_	_	_	_	_	_	_	
+15-18	1175-1178	sig	_	_	_	_	_	_	_	
+15-19	1179-1181	en	_	_	_	_	_	_	_	
+15-20	1182-1188	bättre	_	_	_	_	_	_	_	
+15-21	1189-1196	framtid	_	_	_	_	_	_	_	
+15-22	1197-1198	i	_	_	_	_	_	_	_	
+15-23	1199-1203	vårt	_	_	_	_	_	_	_	
+15-24	1204-1208	land	_	_	_	_	_	_	_	
+15-25	1208-1209	.	_	_	_	_	_	_	_	
+
+#Text=Den kompetensen måste vi bli bättre på att ta till vara.
+16-1	1210-1213	Den	_	_	_	_	_	_	_	
+16-2	1214-1225	kompetensen	_	_	_	_	_	_	_	
+16-3	1226-1231	måste	_	_	_	_	_	_	_	
+16-4	1232-1234	vi	_	_	_	_	_	_	_	
+16-5	1235-1238	bli	_	_	_	_	_	_	_	
+16-6	1239-1245	bättre	_	_	_	_	_	_	_	
+16-7	1246-1248	på	_	_	_	_	_	_	_	
+16-8	1249-1252	att	_	_	_	_	_	_	_	
+16-9	1253-1255	ta	_	_	_	_	_	_	_	
+16-10	1256-1260	till	_	_	_	_	_	_	_	
+16-11	1261-1265	vara	_	_	_	_	_	_	_	
+16-12	1265-1266	.	_	_	_	_	_	_	_	
+
+#Text=Lyckas vi med det kommer vi att stå starka i en allt mer globaliserad värld.
+17-1	1267-1273	Lyckas	*[15]	_	_	_	_	_	_	
+17-2	1274-1276	vi	*[15]	_	_	_	_	_	_	
+17-3	1277-1280	med	*[15]	_	_	_	_	_	_	
+17-4	1281-1284	det	*[15]	_	_	_	_	_	_	
+17-5	1285-1291	kommer	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-6	1292-1294	vi	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-7	1295-1298	att	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-8	1299-1302	stå	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-9	1303-1309	starka	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-10	1310-1311	i	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-11	1312-1314	en	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-12	1315-1319	allt	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-13	1320-1323	mer	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-14	1324-1336	globaliserad	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-15	1337-1342	värld	_	Target[3]	17-1[15]	false[3]	4[3]	_	_	
+17-16	1342-1343	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1345-1346	#	_	_	_	_	_	_	_	
+18-2	1346-1347	P	_	_	_	_	_	_	_	
+18-3	1348-1351	IMM	_	_	_	_	_	_	_	
+18-4	1351-1352	.	_	_	_	_	_	_	_	
+
+#Text=Vår stora utmaning är att det har tagit för lång tid för nyanlända att komma i arbete.
+19-1	1354-1357	Vår	_	Target[4]	19-5[16]	false[4]	2[4]	_	_	
+19-2	1358-1363	stora	_	Target[4]	19-5[16]	false[4]	2[4]	_	_	
+19-3	1364-1372	utmaning	_	Target[4]	19-5[16]	false[4]	2[4]	_	_	
+19-4	1373-1375	är	_	Target[4]	19-5[16]	false[4]	2[4]	_	_	
+19-5	1376-1379	att	*[16]	_	_	_	_	_	_	
+19-6	1380-1383	det	*[16]	_	_	_	_	_	_	
+19-7	1384-1387	har	*[16]	_	_	_	_	_	_	
+19-8	1388-1393	tagit	*[16]	_	_	_	_	_	_	
+19-9	1394-1397	för	*[16]	_	_	_	_	_	_	
+19-10	1398-1402	lång	*[16]	_	_	_	_	_	_	
+19-11	1403-1406	tid	*[16]	_	_	_	_	_	_	
+19-12	1407-1410	för	*[16]	_	_	_	_	_	_	
+19-13	1411-1420	nyanlända	*[16]	_	_	_	_	_	_	
+19-14	1421-1424	att	*[16]	_	_	_	_	_	_	
+19-15	1425-1430	komma	*[16]	_	_	_	_	_	_	
+19-16	1431-1432	i	*[16]	_	_	_	_	_	_	
+19-17	1433-1439	arbete	*[16]	_	_	_	_	_	_	
+19-18	1439-1440	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har därför fokuserat på att lägga om integrationspolitiken för att den som kommer till Sverige snabbt ska få ta del av rätt insatser och hitta sin väg in på arbetsmarknaden.
+20-1	1441-1451	Regeringen	_	_	_	_	_	_	_	
+20-2	1452-1455	har	_	_	_	_	_	_	_	
+20-3	1456-1462	därför	_	_	_	_	_	_	_	
+20-4	1463-1472	fokuserat	_	_	_	_	_	_	_	
+20-5	1473-1475	på	_	_	_	_	_	_	_	
+20-6	1476-1479	att	_	_	_	_	_	_	_	
+20-7	1480-1485	lägga	_	_	_	_	_	_	_	
+20-8	1486-1488	om	_	_	_	_	_	_	_	
+20-9	1489-1510	integrationspolitiken	_	_	_	_	_	_	_	
+20-10	1511-1514	för	_	_	_	_	_	_	_	
+20-11	1515-1518	att	_	_	_	_	_	_	_	
+20-12	1519-1522	den	_	_	_	_	_	_	_	
+20-13	1523-1526	som	_	_	_	_	_	_	_	
+20-14	1527-1533	kommer	_	_	_	_	_	_	_	
+20-15	1534-1538	till	_	_	_	_	_	_	_	
+20-16	1539-1546	Sverige	_	_	_	_	_	_	_	
+20-17	1547-1553	snabbt	_	_	_	_	_	_	_	
+20-18	1554-1557	ska	_	_	_	_	_	_	_	
+20-19	1558-1560	få	_	_	_	_	_	_	_	
+20-20	1561-1563	ta	_	_	_	_	_	_	_	
+20-21	1564-1567	del	_	_	_	_	_	_	_	
+20-22	1568-1570	av	_	_	_	_	_	_	_	
+20-23	1571-1575	rätt	_	_	_	_	_	_	_	
+20-24	1576-1584	insatser	_	_	_	_	_	_	_	
+20-25	1585-1588	och	_	_	_	_	_	_	_	
+20-26	1589-1594	hitta	_	_	_	_	_	_	_	
+20-27	1595-1598	sin	_	_	_	_	_	_	_	
+20-28	1599-1602	väg	_	_	_	_	_	_	_	
+20-29	1603-1605	in	_	_	_	_	_	_	_	
+20-30	1606-1608	på	_	_	_	_	_	_	_	
+20-31	1609-1624	arbetsmarknaden	_	_	_	_	_	_	_	
+20-32	1624-1625	.	_	_	_	_	_	_	_	
+
+#Text=Jobblinjen gäller numer från första dagen i Sverige.
+21-1	1626-1636	Jobblinjen	_	_	_	_	_	_	_	
+21-2	1637-1643	gäller	_	_	_	_	_	_	_	
+21-3	1644-1649	numer	_	_	_	_	_	_	_	
+21-4	1650-1654	från	_	_	_	_	_	_	_	
+21-5	1655-1661	första	_	_	_	_	_	_	_	
+21-6	1662-1667	dagen	_	_	_	_	_	_	_	
+21-7	1668-1669	i	_	_	_	_	_	_	_	
+21-8	1670-1677	Sverige	_	_	_	_	_	_	_	
+21-9	1677-1678	.	_	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att möjligheten att snabbt komma i arbete är grundläggande för en fortsatt lyckad integration.
+22-1	1679-1681	Vi	_	_	_	_	_	_	_	
+22-2	1682-1684	är	_	Target[5]	22-5[17]	false[5]	4[5]	_	_	
+22-3	1685-1695	övertygade	_	Target[5]	22-5[17]	false[5]	4[5]	_	_	
+22-4	1696-1698	om	_	Target[5]	22-5[17]	false[5]	4[5]	_	_	
+22-5	1699-1702	att	*[17]|*[18]	_	_	_	_	_	_	
+22-6	1703-1714	möjligheten	*[17]|*[18]	_	_	_	_	_	_	
+22-7	1715-1718	att	*[17]|*[18]	_	_	_	_	_	_	
+22-8	1719-1725	snabbt	*[17]|*[18]	_	_	_	_	_	_	
+22-9	1726-1731	komma	*[17]|*[18]	_	_	_	_	_	_	
+22-10	1732-1733	i	*[17]|*[18]	_	_	_	_	_	_	
+22-11	1734-1740	arbete	*[17]|*[18]	_	_	_	_	_	_	
+22-12	1741-1743	är	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-13	1744-1757	grundläggande	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-14	1758-1761	för	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-15	1762-1764	en	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-16	1765-1773	fortsatt	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-17	1774-1780	lyckad	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-18	1781-1792	integration	*[17]	Target[6]	22-5[18]	false[6]	4[6]	_	_	
+22-19	1792-1793	.	_	_	_	_	_	_	_	
+
+#Text=Därför lade vi om politiken så att Arbetsförmedlingen numera är den som ansvarar för den första tiden för nyanlända invandrare.
+23-1	1794-1800	Därför	_	_	_	_	_	_	_	
+23-2	1801-1805	lade	_	_	_	_	_	_	_	
+23-3	1806-1808	vi	_	_	_	_	_	_	_	
+23-4	1809-1811	om	_	_	_	_	_	_	_	
+23-5	1812-1821	politiken	_	_	_	_	_	_	_	
+23-6	1822-1824	så	_	_	_	_	_	_	_	
+23-7	1825-1828	att	_	_	_	_	_	_	_	
+23-8	1829-1847	Arbetsförmedlingen	_	_	_	_	_	_	_	
+23-9	1848-1854	numera	_	_	_	_	_	_	_	
+23-10	1855-1857	är	_	_	_	_	_	_	_	
+23-11	1858-1861	den	_	_	_	_	_	_	_	
+23-12	1862-1865	som	_	_	_	_	_	_	_	
+23-13	1866-1874	ansvarar	_	_	_	_	_	_	_	
+23-14	1875-1878	för	_	_	_	_	_	_	_	
+23-15	1879-1882	den	_	_	_	_	_	_	_	
+23-16	1883-1889	första	_	_	_	_	_	_	_	
+23-17	1890-1895	tiden	_	_	_	_	_	_	_	
+23-18	1896-1899	för	_	_	_	_	_	_	_	
+23-19	1900-1909	nyanlända	_	_	_	_	_	_	_	
+23-20	1910-1920	invandrare	_	_	_	_	_	_	_	
+23-21	1920-1921	.	_	_	_	_	_	_	_	
+
+#Text=Fokus ska ligga på individuella arbetsförberedande insatser, undervisning i svenska och samhällsorientering.
+24-1	1922-1927	Fokus	_	_	_	_	_	_	_	
+24-2	1928-1931	ska	_	_	_	_	_	_	_	
+24-3	1932-1937	ligga	_	_	_	_	_	_	_	
+24-4	1938-1940	på	_	_	_	_	_	_	_	
+24-5	1941-1953	individuella	_	_	_	_	_	_	_	
+24-6	1954-1972	arbetsförberedande	_	_	_	_	_	_	_	
+24-7	1973-1981	insatser	_	_	_	_	_	_	_	
+24-8	1981-1982	,	_	_	_	_	_	_	_	
+24-9	1983-1995	undervisning	_	_	_	_	_	_	_	
+24-10	1996-1997	i	_	_	_	_	_	_	_	
+24-11	1998-2005	svenska	_	_	_	_	_	_	_	
+24-12	2006-2009	och	_	_	_	_	_	_	_	
+24-13	2010-2029	samhällsorientering	_	_	_	_	_	_	_	
+24-14	2029-2030	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2032-2033	#	_	_	_	_	_	_	_	
+25-2	2033-2034	P	_	_	_	_	_	_	_	
+25-3	2035-2038	IMM	_	_	_	_	_	_	_	
+25-4	2038-2039	.	_	_	_	_	_	_	_	
+
+#Text=I takt med att Arbetsförmedlingens ansvar för nyanlända växer finns behov för myndigheten att hitta nya samarbetspartners som vill ta ett ansvar för en bättre integration.
+26-1	2041-2042	I	_	_	_	_	_	_	_	
+26-2	2043-2047	takt	_	_	_	_	_	_	_	
+26-3	2048-2051	med	_	_	_	_	_	_	_	
+26-4	2052-2055	att	_	_	_	_	_	_	_	
+26-5	2056-2075	Arbetsförmedlingens	_	_	_	_	_	_	_	
+26-6	2076-2082	ansvar	_	_	_	_	_	_	_	
+26-7	2083-2086	för	_	_	_	_	_	_	_	
+26-8	2087-2096	nyanlända	_	_	_	_	_	_	_	
+26-9	2097-2102	växer	_	_	_	_	_	_	_	
+26-10	2103-2108	finns	_	Target[7]	26-13[19]	false[7]	4[7]	_	_	
+26-11	2109-2114	behov	_	Target[7]	26-13[19]	false[7]	4[7]	_	_	
+26-12	2115-2118	för	_	Target[7]	26-13[19]	false[7]	4[7]	_	_	
+26-13	2119-2130	myndigheten	*[19]	_	_	_	_	_	_	
+26-14	2131-2134	att	*[19]	_	_	_	_	_	_	
+26-15	2135-2140	hitta	*[19]	_	_	_	_	_	_	
+26-16	2141-2144	nya	*[19]	_	_	_	_	_	_	
+26-17	2145-2162	samarbetspartners	*[19]	_	_	_	_	_	_	
+26-18	2163-2166	som	*[19]	_	_	_	_	_	_	
+26-19	2167-2171	vill	*[19]	_	_	_	_	_	_	
+26-20	2172-2174	ta	*[19]	_	_	_	_	_	_	
+26-21	2175-2178	ett	*[19]	_	_	_	_	_	_	
+26-22	2179-2185	ansvar	*[19]	_	_	_	_	_	_	
+26-23	2186-2189	för	*[19]	_	_	_	_	_	_	
+26-24	2190-2192	en	*[19]	_	_	_	_	_	_	
+26-25	2193-2199	bättre	*[19]	_	_	_	_	_	_	
+26-26	2200-2211	integration	*[19]	_	_	_	_	_	_	
+26-27	2211-2212	.	*[19]	_	_	_	_	_	_	
+
+#Text=Arbetsförmedlingen kan i dag finansiera motivationshöjande utbildningar på folkhögskolor för personer som är under 25 år och saknar fullständiga betyg från grund- eller gymnasieskolan och för personer som deltar i jobb- och utvecklingsgarantin.
+27-1	2213-2231	Arbetsförmedlingen	_	_	_	_	_	_	_	
+27-2	2232-2235	kan	_	_	_	_	_	_	_	
+27-3	2236-2237	i	_	_	_	_	_	_	_	
+27-4	2238-2241	dag	_	_	_	_	_	_	_	
+27-5	2242-2252	finansiera	_	_	_	_	_	_	_	
+27-6	2253-2271	motivationshöjande	_	_	_	_	_	_	_	
+27-7	2272-2284	utbildningar	_	_	_	_	_	_	_	
+27-8	2285-2287	på	_	_	_	_	_	_	_	
+27-9	2288-2301	folkhögskolor	_	_	_	_	_	_	_	
+27-10	2302-2305	för	_	_	_	_	_	_	_	
+27-11	2306-2314	personer	_	_	_	_	_	_	_	
+27-12	2315-2318	som	_	_	_	_	_	_	_	
+27-13	2319-2321	är	_	_	_	_	_	_	_	
+27-14	2322-2327	under	_	_	_	_	_	_	_	
+27-15	2328-2330	25	_	_	_	_	_	_	_	
+27-16	2331-2333	år	_	_	_	_	_	_	_	
+27-17	2334-2337	och	_	_	_	_	_	_	_	
+27-18	2338-2344	saknar	_	_	_	_	_	_	_	
+27-19	2345-2357	fullständiga	_	_	_	_	_	_	_	
+27-20	2358-2363	betyg	_	_	_	_	_	_	_	
+27-21	2364-2368	från	_	_	_	_	_	_	_	
+27-22	2369-2374	grund	_	_	_	_	_	_	_	
+27-23	2374-2375	-	_	_	_	_	_	_	_	
+27-24	2376-2381	eller	_	_	_	_	_	_	_	
+27-25	2382-2396	gymnasieskolan	_	_	_	_	_	_	_	
+27-26	2397-2400	och	_	_	_	_	_	_	_	
+27-27	2401-2404	för	_	_	_	_	_	_	_	
+27-28	2405-2413	personer	_	_	_	_	_	_	_	
+27-29	2414-2417	som	_	_	_	_	_	_	_	
+27-30	2418-2424	deltar	_	_	_	_	_	_	_	
+27-31	2425-2426	i	_	_	_	_	_	_	_	
+27-32	2427-2431	jobb	_	_	_	_	_	_	_	
+27-33	2431-2432	-	_	_	_	_	_	_	_	
+27-34	2433-2436	och	_	_	_	_	_	_	_	
+27-35	2437-2456	utvecklingsgarantin	_	_	_	_	_	_	_	
+27-36	2456-2457	.	_	_	_	_	_	_	_	
+
+#Text=De som omfattas av etableringsuppdraget kan även delta i befintliga kurser på folkhögskolor.
+28-1	2458-2460	De	*[20]	_	_	_	_	_	29-1[0_20]	
+28-2	2461-2464	som	*[20]	_	_	_	_	_	_	
+28-3	2465-2473	omfattas	*[20]	_	_	_	_	_	_	
+28-4	2474-2476	av	*[20]	_	_	_	_	_	_	
+28-5	2477-2497	etableringsuppdraget	*[20]	_	_	_	_	_	_	
+28-6	2498-2501	kan	*[20]	_	_	_	_	_	_	
+28-7	2502-2506	även	*[20]	_	_	_	_	_	_	
+28-8	2507-2512	delta	*[20]	_	_	_	_	_	_	
+28-9	2513-2514	i	*[20]	_	_	_	_	_	_	
+28-10	2515-2525	befintliga	*[20]	_	_	_	_	_	_	
+28-11	2526-2532	kurser	*[20]	_	_	_	_	_	_	
+28-12	2533-2535	på	*[20]	_	_	_	_	_	_	
+28-13	2536-2549	folkhögskolor	*[20]	_	_	_	_	_	_	
+28-14	2549-2550	.	_	_	_	_	_	_	_	
+
+#Text=Detta har visat sig vara framgångsrikt partnerskap som för unga och nyanlända vidare mot, studier, arbetsmarknad och etablering.
+29-1	2551-2556	Detta	*	_	_	_	_	_	_	
+29-2	2557-2560	har	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-3	2561-2566	visat	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-4	2567-2570	sig	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-5	2571-2575	vara	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-6	2576-2589	framgångsrikt	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-7	2590-2601	partnerskap	_	Target[8]	29-1	false[8]	4[8]	_	_	
+29-8	2602-2605	som	_	_	_	_	_	_	_	
+29-9	2606-2609	för	_	_	_	_	_	_	_	
+29-10	2610-2614	unga	_	_	_	_	_	_	_	
+29-11	2615-2618	och	_	_	_	_	_	_	_	
+29-12	2619-2628	nyanlända	_	_	_	_	_	_	_	
+29-13	2629-2635	vidare	_	_	_	_	_	_	_	
+29-14	2636-2639	mot	_	_	_	_	_	_	_	
+29-15	2639-2640	,	_	_	_	_	_	_	_	
+29-16	2641-2648	studier	_	_	_	_	_	_	_	
+29-17	2648-2649	,	_	_	_	_	_	_	_	
+29-18	2650-2663	arbetsmarknad	_	_	_	_	_	_	_	
+29-19	2664-2667	och	_	_	_	_	_	_	_	
+29-20	2668-2678	etablering	_	_	_	_	_	_	_	
+29-21	2678-2679	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2681-2682	#	_	_	_	_	_	_	_	
+30-2	2682-2683	P	_	_	_	_	_	_	_	
+30-3	2684-2687	IMM	_	_	_	_	_	_	_	
+30-4	2687-2688	.	_	_	_	_	_	_	_	
+
+#Text=Folkhögskolorna har med sin karaktär och särskilda pedagogik tydliga möjligheter att stötta dem som behöver stöd in i samhället eller stöd mot fortsatta studier.
+31-1	2690-2705	Folkhögskolorna	*	_	_	_	_	_	_	
+31-2	2706-2709	har	_	_	_	false	4	_	_	
+31-3	2710-2713	med	_	_	_	_	_	_	_	
+31-4	2714-2717	sin	_	_	_	_	_	_	_	
+31-5	2718-2726	karaktär	_	_	_	_	_	_	_	
+31-6	2727-2730	och	_	_	_	_	_	_	_	
+31-7	2731-2740	särskilda	_	_	_	_	_	_	_	
+31-8	2741-2750	pedagogik	_	_	_	_	_	_	_	
+31-9	2751-2758	tydliga	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-10	2759-2770	möjligheter	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-11	2771-2774	att	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-12	2775-2781	stötta	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-13	2782-2785	dem	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-14	2786-2789	som	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-15	2790-2797	behöver	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-16	2798-2802	stöd	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-17	2803-2805	in	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-18	2806-2807	i	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-19	2808-2817	samhället	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-20	2818-2823	eller	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-21	2824-2828	stöd	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-22	2829-2832	mot	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-23	2833-2842	fortsatta	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-24	2843-2850	studier	_	Target[9]	31-1	false[9]	4[9]	_	_	
+31-25	2850-2851	.	_	Target[9]	31-1	false[9]	4[9]	_	_	
+
+#Text=Det är ett ansvar som våra folkhögskolor har tagit sedan 1868.
+32-1	2852-2855	Det	_	_	_	_	_	_	_	
+32-2	2856-2858	är	_	_	_	_	_	_	_	
+32-3	2859-2862	ett	_	_	_	_	_	_	_	
+32-4	2863-2869	ansvar	_	_	_	_	_	_	_	
+32-5	2870-2873	som	_	_	_	_	_	_	_	
+32-6	2874-2878	våra	_	_	_	_	_	_	_	
+32-7	2879-2892	folkhögskolor	_	_	_	_	_	_	_	
+32-8	2893-2896	har	_	_	_	_	_	_	_	
+32-9	2897-2902	tagit	_	_	_	_	_	_	_	
+32-10	2903-2908	sedan	_	_	_	_	_	_	_	
+32-11	2909-2913	1868	_	_	_	_	_	_	_	
+32-12	2913-2914	.	_	_	_	_	_	_	_	
+
+#Text=Bara i år fördelas över 25 000 årsplatser bland de 150 folkhögskolor som tillsammans med studieförbunden utgör den fristående folkbildningen.
+33-1	2915-2919	Bara	_	_	_	_	_	_	_	
+33-2	2920-2921	i	_	_	_	_	_	_	_	
+33-3	2922-2924	år	_	_	_	_	_	_	_	
+33-4	2925-2933	fördelas	_	_	_	_	_	_	_	
+33-5	2934-2938	över	_	_	_	_	_	_	_	
+33-6	2939-2941	25	_	_	_	_	_	_	_	
+33-7	2942-2945	000	_	_	_	_	_	_	_	
+33-8	2946-2956	årsplatser	_	_	_	_	_	_	_	
+33-9	2957-2962	bland	_	_	_	_	_	_	_	
+33-10	2963-2965	de	_	_	_	_	_	_	_	
+33-11	2966-2969	150	_	_	_	_	_	_	_	
+33-12	2970-2983	folkhögskolor	_	_	_	_	_	_	_	
+33-13	2984-2987	som	_	_	_	_	_	_	_	
+33-14	2988-2999	tillsammans	_	_	_	_	_	_	_	
+33-15	3000-3003	med	_	_	_	_	_	_	_	
+33-16	3004-3019	studieförbunden	_	_	_	_	_	_	_	
+33-17	3020-3025	utgör	_	_	_	_	_	_	_	
+33-18	3026-3029	den	_	_	_	_	_	_	_	
+33-19	3030-3040	fristående	_	_	_	_	_	_	_	
+33-20	3041-3055	folkbildningen	_	_	_	_	_	_	_	
+33-21	3055-3056	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill nu ge folkhögskolorna möjlighet att vidga deras historiskt förankrade uppdrag ytterligare.
+34-1	3057-3059	Vi	_	_	_	_	_	_	_	
+34-2	3060-3064	vill	_	Target	34-3[21]	false	4	_	_	
+34-3	3065-3067	nu	*[21]	_	_	_	_	_	_	
+34-4	3068-3070	ge	*[21]	_	_	_	_	_	_	
+34-5	3071-3086	folkhögskolorna	*[21]	_	_	_	_	_	_	
+34-6	3087-3096	möjlighet	*[21]	_	_	_	_	_	_	
+34-7	3097-3100	att	*[21]	_	_	_	_	_	_	
+34-8	3101-3106	vidga	*[21]	_	_	_	_	_	_	
+34-9	3107-3112	deras	*[21]	_	_	_	_	_	_	
+34-10	3113-3123	historiskt	*[21]	_	_	_	_	_	_	
+34-11	3124-3134	förankrade	*[21]	_	_	_	_	_	_	
+34-12	3135-3142	uppdrag	*[21]	_	_	_	_	_	_	
+34-13	3143-3154	ytterligare	*[21]	_	_	_	_	_	_	
+34-14	3154-3155	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	3157-3158	#	_	_	_	_	_	_	_	
+35-2	3158-3159	P	_	_	_	_	_	_	_	
+35-3	3160-3163	IMM	_	_	_	_	_	_	_	
+35-4	3163-3164	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser ett behov av att Arbetsförmedlingen ska kunna ersätta folkhögskolor för att tillhandahålla kurser som är särskilt utformade för nyanlända, och vi ser ett behov av att kunna erbjuda fler målgruppsanpassade insatser till personer inom etableringsuppdraget.
+36-1	3166-3168	Vi	_	_	_	_	_	_	_	
+36-2	3169-3172	ser	_	Target[10]	36-6[22]	false[10]	4[10]	_	_	
+36-3	3173-3176	ett	_	Target[10]	36-6[22]	false[10]	4[10]	_	_	
+36-4	3177-3182	behov	_	Target[10]	36-6[22]	false[10]	4[10]	_	_	
+36-5	3183-3185	av	_	Target[10]	36-6[22]	false[10]	4[10]	_	_	
+36-6	3186-3189	att	*[22]	_	_	_	_	_	_	
+36-7	3190-3208	Arbetsförmedlingen	*[22]	_	_	_	_	_	_	
+36-8	3209-3212	ska	*[22]	_	_	_	_	_	_	
+36-9	3213-3218	kunna	*[22]	_	_	_	_	_	_	
+36-10	3219-3226	ersätta	*[22]	_	_	_	_	_	_	
+36-11	3227-3240	folkhögskolor	*[22]	_	_	_	_	_	_	
+36-12	3241-3244	för	*[22]	_	_	_	_	_	_	
+36-13	3245-3248	att	*[22]	_	_	_	_	_	_	
+36-14	3249-3263	tillhandahålla	*[22]	_	_	_	_	_	_	
+36-15	3264-3270	kurser	*[22]	_	_	_	_	_	_	
+36-16	3271-3274	som	*[22]	_	_	_	_	_	_	
+36-17	3275-3277	är	*[22]	_	_	_	_	_	_	
+36-18	3278-3286	särskilt	*[22]	_	_	_	_	_	_	
+36-19	3287-3296	utformade	*[22]	_	_	_	_	_	_	
+36-20	3297-3300	för	*[22]	_	_	_	_	_	_	
+36-21	3301-3310	nyanlända	*[22]	_	_	_	_	_	_	
+36-22	3310-3311	,	_	_	_	_	_	_	_	
+36-23	3312-3315	och	_	_	_	_	_	_	_	
+36-24	3316-3318	vi	_	_	_	_	_	_	_	
+36-25	3319-3322	ser	_	Target[11]	36-30[23]	false[11]	4[11]	_	_	
+36-26	3323-3326	ett	_	Target[11]	36-30[23]	false[11]	4[11]	_	_	
+36-27	3327-3332	behov	_	Target[11]	36-30[23]	false[11]	4[11]	_	_	
+36-28	3333-3335	av	_	Target[11]	36-30[23]	false[11]	4[11]	_	_	
+36-29	3336-3339	att	_	Target[11]	36-30[23]	false[11]	4[11]	_	_	
+36-30	3340-3345	kunna	*[23]	_	_	_	_	_	_	
+36-31	3346-3353	erbjuda	*[23]	_	_	_	_	_	_	
+36-32	3354-3358	fler	*[23]	_	_	_	_	_	_	
+36-33	3359-3377	målgruppsanpassade	*[23]	_	_	_	_	_	_	
+36-34	3378-3386	insatser	*[23]	_	_	_	_	_	_	
+36-35	3387-3391	till	*[23]	_	_	_	_	_	_	
+36-36	3392-3400	personer	*[23]	_	_	_	_	_	_	
+36-37	3401-3405	inom	*[23]	_	_	_	_	_	_	
+36-38	3406-3426	etableringsuppdraget	*[23]	_	_	_	_	_	_	
+36-39	3426-3427	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3429-3430	#	_	_	_	_	_	_	_	
+37-2	3430-3431	P	_	_	_	_	_	_	_	
+37-3	3432-3435	IMM	_	_	_	_	_	_	_	
+37-4	3435-3436	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	3438-3451	Skräddarsydda	_	_	_	_	_	_	_	
+38-2	3452-3458	kurser	_	_	_	_	_	_	_	
+38-3	3459-3460	i	_	_	_	_	_	_	_	
+38-4	3461-3466	ämnen	_	_	_	_	_	_	_	
+38-5	3467-3470	som	_	_	_	_	_	_	_	
+38-6	3471-3482	intresserar	_	_	_	_	_	_	_	
+38-7	3483-3486	och	_	_	_	_	_	_	_	
+38-8	3487-3496	engagerar	_	_	_	_	_	_	_	
+38-9	3497-3501	både	_	_	_	_	_	_	_	
+38-10	3502-3507	kropp	_	_	_	_	_	_	_	
+38-11	3508-3511	och	_	_	_	_	_	_	_	
+38-12	3512-3516	själ	_	_	_	_	_	_	_	
+38-13	3516-3517	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3519-3520	#	_	_	_	_	_	_	_	
+39-2	3520-3521	P	_	_	_	_	_	_	_	
+39-3	3522-3525	IMM	_	_	_	_	_	_	_	
+39-4	3525-3526	.	_	_	_	_	_	_	_	
+
+#Text=Därför ger regeringen i den kommande budgetpropositionen Arbetsförmedlingen möjlighet att från och med 2014 finansiera kurser på folkhögskolor som utformas särskilt utifrån de nyanländas behov och förutsättningar.
+40-1	3528-3534	Därför	_	_	_	_	_	_	_	
+40-2	3535-3538	ger	_	_	_	_	_	_	_	
+40-3	3539-3549	regeringen	_	_	_	_	_	_	_	
+40-4	3550-3551	i	_	_	_	_	_	_	_	
+40-5	3552-3555	den	_	_	_	_	_	_	_	
+40-6	3556-3564	kommande	_	_	_	_	_	_	_	
+40-7	3565-3584	budgetpropositionen	_	_	_	_	_	_	_	
+40-8	3585-3603	Arbetsförmedlingen	_	_	_	_	_	_	_	
+40-9	3604-3613	möjlighet	_	_	_	_	_	_	_	
+40-10	3614-3617	att	_	_	_	_	_	_	_	
+40-11	3618-3622	från	_	_	_	_	_	_	_	
+40-12	3623-3626	och	_	_	_	_	_	_	_	
+40-13	3627-3630	med	_	_	_	_	_	_	_	
+40-14	3631-3635	2014	_	_	_	_	_	_	_	
+40-15	3636-3646	finansiera	_	_	_	_	_	_	_	
+40-16	3647-3653	kurser	_	_	_	_	_	_	_	
+40-17	3654-3656	på	_	_	_	_	_	_	_	
+40-18	3657-3670	folkhögskolor	_	_	_	_	_	_	_	
+40-19	3671-3674	som	_	_	_	_	_	_	_	
+40-20	3675-3683	utformas	_	_	_	_	_	_	_	
+40-21	3684-3692	särskilt	_	_	_	_	_	_	_	
+40-22	3693-3700	utifrån	_	_	_	_	_	_	_	
+40-23	3701-3703	de	_	_	_	_	_	_	_	
+40-24	3704-3714	nyanländas	_	_	_	_	_	_	_	
+40-25	3715-3720	behov	_	_	_	_	_	_	_	
+40-26	3721-3724	och	_	_	_	_	_	_	_	
+40-27	3725-3740	förutsättningar	_	_	_	_	_	_	_	
+40-28	3740-3741	.	_	_	_	_	_	_	_	
+
+#Text=Det kan dels handla om målgruppsanpassning av de nuvarande motivationshöjande utbildningarna, dels om särskilt utformade sammanhållna utbildningar för korttidsutbildade nyanlända vilka omfattar såväl svenska språket, baskunskaper som orienterande och arbetsförberedande insatser.
+41-1	3742-3745	Det	_	_	_	_	_	_	_	
+41-2	3746-3749	kan	_	_	_	_	_	_	_	
+41-3	3750-3754	dels	_	_	_	_	_	_	_	
+41-4	3755-3761	handla	_	_	_	_	_	_	_	
+41-5	3762-3764	om	_	_	_	_	_	_	_	
+41-6	3765-3784	målgruppsanpassning	_	_	_	_	_	_	_	
+41-7	3785-3787	av	_	_	_	_	_	_	_	
+41-8	3788-3790	de	_	_	_	_	_	_	_	
+41-9	3791-3800	nuvarande	_	_	_	_	_	_	_	
+41-10	3801-3819	motivationshöjande	_	_	_	_	_	_	_	
+41-11	3820-3834	utbildningarna	_	_	_	_	_	_	_	
+41-12	3834-3835	,	_	_	_	_	_	_	_	
+41-13	3836-3840	dels	_	_	_	_	_	_	_	
+41-14	3841-3843	om	_	_	_	_	_	_	_	
+41-15	3844-3852	särskilt	_	_	_	_	_	_	_	
+41-16	3853-3862	utformade	_	_	_	_	_	_	_	
+41-17	3863-3875	sammanhållna	_	_	_	_	_	_	_	
+41-18	3876-3888	utbildningar	_	_	_	_	_	_	_	
+41-19	3889-3892	för	_	_	_	_	_	_	_	
+41-20	3893-3910	korttidsutbildade	_	_	_	_	_	_	_	
+41-21	3911-3920	nyanlända	_	_	_	_	_	_	_	
+41-22	3921-3926	vilka	_	_	_	_	_	_	_	
+41-23	3927-3935	omfattar	_	_	_	_	_	_	_	
+41-24	3936-3941	såväl	_	_	_	_	_	_	_	
+41-25	3942-3949	svenska	_	_	_	_	_	_	_	
+41-26	3950-3957	språket	_	_	_	_	_	_	_	
+41-27	3957-3958	,	_	_	_	_	_	_	_	
+41-28	3959-3971	baskunskaper	_	_	_	_	_	_	_	
+41-29	3972-3975	som	_	_	_	_	_	_	_	
+41-30	3976-3988	orienterande	_	_	_	_	_	_	_	
+41-31	3989-3992	och	_	_	_	_	_	_	_	
+41-32	3993-4011	arbetsförberedande	_	_	_	_	_	_	_	
+41-33	4012-4020	insatser	_	_	_	_	_	_	_	
+41-34	4020-4021	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	4023-4024	#	_	_	_	_	_	_	_	
+42-2	4024-4025	P	_	_	_	_	_	_	_	
+42-3	4026-4029	IMM	_	_	_	_	_	_	_	
+42-4	4029-4030	.	_	_	_	_	_	_	_	
+
+#Text=Arbetsförmedlingen får sammanlagt använda 260 miljoner kronor under åren 2014–2017 för att av folkhögskolorna upphandla särskilt anpassade utbildningar för nyanlända som omfattas av etableringsuppdraget.
+43-1	4032-4050	Arbetsförmedlingen	_	_	_	_	_	_	_	
+43-2	4051-4054	får	_	_	_	_	_	_	_	
+43-3	4055-4065	sammanlagt	_	_	_	_	_	_	_	
+43-4	4066-4073	använda	_	_	_	_	_	_	_	
+43-5	4074-4077	260	_	_	_	_	_	_	_	
+43-6	4078-4086	miljoner	_	_	_	_	_	_	_	
+43-7	4087-4093	kronor	_	_	_	_	_	_	_	
+43-8	4094-4099	under	_	_	_	_	_	_	_	
+43-9	4100-4104	åren	_	_	_	_	_	_	_	
+43-10	4105-4109	2014	_	_	_	_	_	_	_	
+43-11	4109-4110	–	_	_	_	_	_	_	_	
+43-12	4110-4114	2017	_	_	_	_	_	_	_	
+43-13	4115-4118	för	_	_	_	_	_	_	_	
+43-14	4119-4122	att	_	_	_	_	_	_	_	
+43-15	4123-4125	av	_	_	_	_	_	_	_	
+43-16	4126-4141	folkhögskolorna	_	_	_	_	_	_	_	
+43-17	4142-4151	upphandla	_	_	_	_	_	_	_	
+43-18	4152-4160	särskilt	_	_	_	_	_	_	_	
+43-19	4161-4170	anpassade	_	_	_	_	_	_	_	
+43-20	4171-4183	utbildningar	_	_	_	_	_	_	_	
+43-21	4184-4187	för	_	_	_	_	_	_	_	
+43-22	4188-4197	nyanlända	_	_	_	_	_	_	_	
+43-23	4198-4201	som	_	_	_	_	_	_	_	
+43-24	4202-4210	omfattas	_	_	_	_	_	_	_	
+43-25	4211-4213	av	_	_	_	_	_	_	_	
+43-26	4214-4234	etableringsuppdraget	_	_	_	_	_	_	_	
+43-27	4234-4235	.	_	_	_	_	_	_	_	
+
+#Text=Baserat på kostnaden för allmän kurs skulle det handla om cirka 4 000 årsplatser över fyra år.
+44-1	4236-4243	Baserat	_	_	_	_	_	_	_	
+44-2	4244-4246	på	_	_	_	_	_	_	_	
+44-3	4247-4256	kostnaden	_	_	_	_	_	_	_	
+44-4	4257-4260	för	_	_	_	_	_	_	_	
+44-5	4261-4267	allmän	_	_	_	_	_	_	_	
+44-6	4268-4272	kurs	_	_	_	_	_	_	_	
+44-7	4273-4279	skulle	_	_	_	_	_	_	_	
+44-8	4280-4283	det	_	_	_	_	_	_	_	
+44-9	4284-4290	handla	_	_	_	_	_	_	_	
+44-10	4291-4293	om	_	_	_	_	_	_	_	
+44-11	4294-4299	cirka	_	_	_	_	_	_	_	
+44-12	4300-4301	4	_	_	_	_	_	_	_	
+44-13	4302-4305	000	_	_	_	_	_	_	_	
+44-14	4306-4316	årsplatser	_	_	_	_	_	_	_	
+44-15	4317-4321	över	_	_	_	_	_	_	_	
+44-16	4322-4326	fyra	_	_	_	_	_	_	_	
+44-17	4327-4329	år	_	_	_	_	_	_	_	
+44-18	4329-4330	.	_	_	_	_	_	_	_	
+
+#Text=Så kan vi låta den svenska historien av en stark folkbildning än bättre möta dagens samhällsutmaningar.
+45-1	4331-4333	Så	_	_	_	_	_	_	_	
+45-2	4334-4337	kan	_	_	_	_	_	_	_	
+45-3	4338-4340	vi	_	_	_	_	_	_	_	
+45-4	4341-4345	låta	_	_	_	_	_	_	_	
+45-5	4346-4349	den	_	_	_	_	_	_	_	
+45-6	4350-4357	svenska	_	_	_	_	_	_	_	
+45-7	4358-4367	historien	_	_	_	_	_	_	_	
+45-8	4368-4370	av	_	_	_	_	_	_	_	
+45-9	4371-4373	en	_	_	_	_	_	_	_	
+45-10	4374-4379	stark	_	_	_	_	_	_	_	
+45-11	4380-4392	folkbildning	_	_	_	_	_	_	_	
+45-12	4393-4395	än	_	_	_	_	_	_	_	
+45-13	4396-4402	bättre	_	_	_	_	_	_	_	
+45-14	4403-4407	möta	_	_	_	_	_	_	_	
+45-15	4408-4414	dagens	_	_	_	_	_	_	_	
+45-16	4415-4433	samhällsutmaningar	_	_	_	_	_	_	_	
+45-17	4433-4434	.	_	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att folkhögskolorna med sin kunskap kan och vill bidra till att nyanländas etablering i samhället blir bättre.
+46-1	4435-4437	Vi	_	_	_	_	_	_	_	
+46-2	4438-4440	är	_	Target[12]	46-5[24]	false[12]	4[12]	_	_	
+46-3	4441-4451	övertygade	_	Target[12]	46-5[24]	false[12]	4[12]	_	_	
+46-4	4452-4454	om	_	Target[12]	46-5[24]	false[12]	4[12]	_	_	
+46-5	4455-4458	att	*[24]	_	_	_	_	_	_	
+46-6	4459-4474	folkhögskolorna	*[24]	_	_	_	_	_	_	
+46-7	4475-4478	med	*[24]	_	_	_	_	_	_	
+46-8	4479-4482	sin	*[24]	_	_	_	_	_	_	
+46-9	4483-4490	kunskap	*[24]	_	_	_	_	_	_	
+46-10	4491-4494	kan	*[24]	_	_	_	_	_	_	
+46-11	4495-4498	och	*[24]	_	_	_	_	_	_	
+46-12	4499-4503	vill	*[24]	_	_	_	_	_	_	
+46-13	4504-4509	bidra	*[24]	_	_	_	_	_	_	
+46-14	4510-4514	till	*[24]	_	_	_	_	_	_	
+46-15	4515-4518	att	*[24]	_	_	_	_	_	_	
+46-16	4519-4529	nyanländas	*[24]	_	_	_	_	_	_	
+46-17	4530-4540	etablering	*[24]	_	_	_	_	_	_	
+46-18	4541-4542	i	*[24]	_	_	_	_	_	_	
+46-19	4543-4552	samhället	*[24]	_	_	_	_	_	_	
+46-20	4553-4557	blir	*[24]	_	_	_	_	_	_	
+46-21	4558-4564	bättre	*[24]	_	_	_	_	_	_	
+46-22	4564-4565	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	4567-4568	#	_	_	_	_	_	_	_	
+47-2	4568-4569	P	_	_	_	_	_	_	_	
+47-3	4570-4573	IMM	_	_	_	_	_	_	_	
+47-4	4573-4574	.	_	_	_	_	_	_	_	
+
+#Text=ERIK ULLENHAG (FP).
+48-1	4576-4580	ERIK	_	_	_	_	_	_	_	
+48-2	4581-4589	ULLENHAG	_	_	_	_	_	_	_	
+48-3	4590-4591	(	_	_	_	_	_	_	_	
+48-4	4591-4593	FP	_	_	_	_	_	_	_	
+48-5	4593-4594	)	_	_	_	_	_	_	_	
+48-6	4594-4595	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4597-4598	#	_	_	_	_	_	_	_	
+49-2	4598-4599	P	_	_	_	_	_	_	_	
+49-3	4600-4603	IMM	_	_	_	_	_	_	_	
+49-4	4603-4604	.	_	_	_	_	_	_	_	
+
+#Text=integrationsminister.
+50-1	4606-4626	integrationsminister	_	_	_	_	_	_	_	
+50-2	4626-4627	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4629-4630	#	_	_	_	_	_	_	_	
+51-2	4630-4631	P	_	_	_	_	_	_	_	
+51-3	4632-4635	IMM	_	_	_	_	_	_	_	
+51-4	4635-4636	.	_	_	_	_	_	_	_	
+
+#Text=MARIA ARNHOLM (FP).
+52-1	4638-4643	MARIA	_	_	_	_	_	_	_	
+52-2	4644-4651	ARNHOLM	_	_	_	_	_	_	_	
+52-3	4652-4653	(	_	_	_	_	_	_	_	
+52-4	4653-4655	FP	_	_	_	_	_	_	_	
+52-5	4655-4656	)	_	_	_	_	_	_	_	
+52-6	4656-4657	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4659-4660	#	_	_	_	_	_	_	_	
+53-2	4660-4661	P	_	_	_	_	_	_	_	
+53-3	4662-4665	IMM	_	_	_	_	_	_	_	
+53-4	4665-4666	.	_	_	_	_	_	_	_	
+
+#Text=jämställdhets- och biträdande utbildningsminister.
+54-1	4668-4681	jämställdhets	_	_	_	_	_	_	_	
+54-2	4681-4682	-	_	_	_	_	_	_	_	
+54-3	4683-4686	och	_	_	_	_	_	_	_	
+54-4	4687-4697	biträdande	_	_	_	_	_	_	_	
+54-5	4698-4717	utbildningsminister	_	_	_	_	_	_	_	
+54-6	4717-4718	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4720-4721	#	_	_	_	_	_	_	_	
+55-2	4721-4722	P	_	_	_	_	_	_	_	
+55-3	4723-4726	IMM	_	_	_	_	_	_	_	
+55-4	4726-4727	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+56-1	4729-4737	Redaktör	_	_	_	_	_	_	_	
+56-2	4737-4738	:	_	_	_	_	_	_	_	
+56-3	4739-4745	Carina	_	_	_	_	_	_	_	
+56-4	4746-4754	Stensson	_	_	_	_	_	_	_	
+56-5	4754-4755	,	_	_	_	_	_	_	_	
+56-6	4756-4766	Biträdande	_	_	_	_	_	_	_	
+56-7	4767-4775	redaktör	_	_	_	_	_	_	_	
+56-8	4775-4776	:	_	_	_	_	_	_	_	
+56-9	4777-4782	Björn	_	_	_	_	_	_	_	
+56-10	4783-4789	Jorner	_	_	_	_	_	_	_	
+56-11	4789-4790	,	_	_	_	_	_	_	_	
+56-12	4791-4795	Mejl	_	_	_	_	_	_	_	
+56-13	4795-4796	:	_	_	_	_	_	_	_	
+56-14	4797-4803	debatt	_	_	_	_	_	_	_	
+56-15	4803-4804	@	_	_	_	_	_	_	_	
+56-16	4804-4810	svd.se	_	_	_	_	_	_	_	
+56-17	4810-4811	,	_	_	_	_	_	_	_	
+56-18	4812-4825	Telefonnummer	_	_	_	_	_	_	_	
+56-19	4825-4826	:	_	_	_	_	_	_	_	
+56-20	4827-4829	08	_	_	_	_	_	_	_	
+56-21	4829-4830	-	_	_	_	_	_	_	_	
+56-22	4830-4836	135149	_	_	_	_	_	_	_	
+56-23	4836-4837	,	_	_	_	_	_	_	_	
+56-24	4838-4845	Twitter	_	_	_	_	_	_	_	
+56-25	4845-4846	:	_	_	_	_	_	_	_	
+56-26	4847-4848	@	_	_	_	_	_	_	_	
+56-27	4848-4857	SvDDebatt	_	_	_	_	_	_	_	
+56-28	4857-4858	,	_	_	_	_	_	_	_	
+56-29	4859-4867	Facebook	_	_	_	_	_	_	_	
+56-30	4867-4868	:	_	_	_	_	_	_	_	
+56-31	4869-4872	SvD	_	_	_	_	_	_	_	
+56-32	4873-4879	Debatt	_	_	_	_	_	_	_	
+56-33	4879-4880	.	_	_	_	_	_	_	_	

@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Följ folkomröstningens beslut.
+3-1	18-22	Följ	_	_	_	_	_	_	
+3-2	23-40	folkomröstningens	_	_	_	_	_	_	
+3-3	41-47	beslut	_	_	_	_	_	_	
+3-4	47-48	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	50-51	#	_	_	_	_	_	_	
+4-2	51-52	P	_	_	_	_	_	_	
+4-3	53-56	IMM	_	_	_	_	_	_	
+4-4	56-57	.	_	_	_	_	_	_	
+
+#Text=Trängselskatteförsöket vi provade under 2006 var bra för miljön.
+5-1	59-81	Trängselskatteförsöket	*[6]	_	_	_	_	_	
+5-2	82-84	vi	*[6]	_	_	_	_	_	
+5-3	85-92	provade	*[6]	_	_	_	_	_	
+5-4	93-98	under	*[6]	_	_	_	_	_	
+5-5	99-103	2006	*[6]	_	_	_	_	_	
+5-6	104-107	var	_	Target[1]	5-1[6]	false[1]	4[1]	_	
+5-7	108-111	bra	_	Target[1]	5-1[6]	false[1]	4[1]	_	
+5-8	112-115	för	_	Target[1]	5-1[6]	false[1]	4[1]	_	
+5-9	116-122	miljön	_	Target[1]	5-1[6]	false[1]	4[1]	_	
+5-10	122-123	.	_	_	_	_	_	_	
+
+#Text=Så blir det inte med de borgerliga partiernas variant.
+6-1	124-126	Så	_	_	_	_	_	_	
+6-2	127-131	blir	_	_	_	_	_	_	
+6-3	132-135	det	_	_	_	_	_	_	
+6-4	136-140	inte	_	_	_	_	_	_	
+6-5	141-144	med	_	_	_	_	_	_	
+6-6	145-147	de	_	_	_	_	_	_	
+6-7	148-158	borgerliga	_	_	_	_	_	_	
+6-8	159-169	partiernas	_	_	_	_	_	_	
+6-9	170-177	variant	_	_	_	_	_	_	
+6-10	177-178	.	_	_	_	_	_	_	
+
+#Text=För ett par år sedan var skatten helt fel enligt moderaterna.
+7-1	179-182	För	_	_	_	_	_	_	
+7-2	183-186	ett	_	_	_	_	_	_	
+7-3	187-190	par	_	_	_	_	_	_	
+7-4	191-193	år	_	_	_	_	_	_	
+7-5	194-199	sedan	_	_	_	_	_	_	
+7-6	200-203	var	_	_	_	false	1	_	
+7-7	204-211	skatten	*	_	_	_	_	_	
+7-8	212-216	helt	_	Target;Source[2]	7-7;7-11	false[2]	1[2]	7-6[0_2]	
+7-9	217-220	fel	_	Target;Source[2]	7-7;7-11	false[2]	1[2]	_	
+7-10	221-227	enligt	_	_	_	_	_	_	
+7-11	228-239	moderaterna	*	_	_	_	_	_	
+7-12	239-240	.	_	_	_	_	_	_	
+
+#Text=Skatteutskottets nuvarande ordförande Lennart Hedqvist sa då till exempel att ”regeringen har beskattat sönder tillväxten ... trängselskatt leder till minskad sysselsättning och turism i Stockholm”.
+8-1	241-257	Skatteutskottets	_	_	_	_	_	_	
+8-2	258-267	nuvarande	_	_	_	_	_	_	
+8-3	268-278	ordförande	_	_	_	_	_	_	
+8-4	279-286	Lennart	*[7]	_	_	_	_	_	
+8-5	287-295	Hedqvist	*[7]	_	_	_	_	_	
+8-6	296-298	sa	_	_	_	_	_	_	
+8-7	299-301	då	_	_	_	_	_	_	
+8-8	302-306	till	_	_	_	_	_	_	
+8-9	307-314	exempel	_	_	_	_	_	_	
+8-10	315-318	att	_	_	_	_	_	_	
+8-11	319-320	”	_	_	_	_	_	_	
+8-12	320-330	regeringen	*	_	_	_	_	_	
+8-13	331-334	har	_	Source;Target[3]	8-4[7];8-12	false[3]	1[3]	_	
+8-14	335-344	beskattat	_	Source;Target[3]	8-4[7];8-12	false[3]	1[3]	_	
+8-15	345-351	sönder	_	Source;Target[3]	8-4[7];8-12	false[3]	1[3]	_	
+8-16	352-362	tillväxten	_	Source;Target[3]	8-4[7];8-12	false[3]	1[3]	_	
+8-17	363-364	.	_	_	_	_	_	_	
+8-18	364-365	.	_	_	_	_	_	_	
+8-19	365-366	.	_	_	_	_	_	_	
+8-20	367-380	trängselskatt	*	_	_	_	_	_	
+8-21	381-386	leder	_	Target[4]	8-20	false[4]	2[4]	_	
+8-22	387-391	till	_	Target[4]	8-20	false[4]	2[4]	_	
+8-23	392-399	minskad	_	Target[4]	8-20	false[4]	2[4]	_	
+8-24	400-414	sysselsättning	_	Target[4]	8-20	false[4]	2[4]	_	
+8-25	415-418	och	_	Target[4]	8-20	false[4]	2[4]	_	
+8-26	419-425	turism	_	Target[4]	8-20	false[4]	2[4]	_	
+8-27	426-427	i	_	Target[4]	8-20	false[4]	2[4]	_	
+8-28	428-437	Stockholm	_	Target[4]	8-20	false[4]	2[4]	_	
+8-29	437-438	”	_	_	_	_	_	_	
+8-30	438-439	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	441-442	#	_	_	_	_	_	_	
+9-2	442-443	P	_	_	_	_	_	_	
+9-3	444-447	IMM	_	_	_	_	_	_	
+9-4	447-448	.	_	_	_	_	_	_	
+
+#Text=Stockholms stad har utvärderat försöket.
+10-1	450-460	Stockholms	_	_	_	_	_	_	
+10-2	461-465	stad	_	_	_	_	_	_	
+10-3	466-469	har	_	_	_	_	_	_	
+10-4	470-480	utvärderat	_	_	_	_	_	_	
+10-5	481-489	försöket	_	_	_	_	_	_	
+10-6	489-490	.	_	_	_	_	_	_	
+
+#Text=Biltrafiken minskade över förväntan.
+11-1	491-502	Biltrafiken	_	_	_	_	_	_	
+11-2	503-511	minskade	_	_	_	_	_	_	
+11-3	512-516	över	_	_	_	_	_	_	
+11-4	517-526	förväntan	_	_	_	_	_	_	
+11-5	526-527	.	_	_	_	_	_	_	
+
+#Text=Det blev ingen kollaps på Essingeleden.
+12-1	528-531	Det	_	_	_	_	_	_	
+12-2	532-536	blev	_	_	_	_	_	_	
+12-3	537-542	ingen	_	_	_	_	_	_	
+12-4	543-550	kollaps	_	_	_	_	_	_	
+12-5	551-553	på	_	_	_	_	_	_	
+12-6	554-566	Essingeleden	_	_	_	_	_	_	
+12-7	566-567	.	_	_	_	_	_	_	
+
+#Text=Framkomligheten blev bättre och restiderna minskade.
+13-1	568-583	Framkomligheten	_	_	_	_	_	_	
+13-2	584-588	blev	_	_	_	_	_	_	
+13-3	589-595	bättre	_	_	_	_	_	_	
+13-4	596-599	och	_	_	_	_	_	_	
+13-5	600-610	restiderna	_	_	_	_	_	_	
+13-6	611-619	minskade	_	_	_	_	_	_	
+13-7	619-620	.	_	_	_	_	_	_	
+
+#Text=Miljön och luften vi andas blev renare.
+14-1	621-627	Miljön	_	_	_	_	_	_	
+14-2	628-631	och	_	_	_	_	_	_	
+14-3	632-638	luften	_	_	_	_	_	_	
+14-4	639-641	vi	_	_	_	_	_	_	
+14-5	642-647	andas	_	_	_	_	_	_	
+14-6	648-652	blev	_	_	_	_	_	_	
+14-7	653-659	renare	_	_	_	_	_	_	
+14-8	659-660	.	_	_	_	_	_	_	
+
+#Text=Utsläppen av koldioxid och partiklar minskade, likaså bullret.
+15-1	661-670	Utsläppen	_	_	_	_	_	_	
+15-2	671-673	av	_	_	_	_	_	_	
+15-3	674-683	koldioxid	_	_	_	_	_	_	
+15-4	684-687	och	_	_	_	_	_	_	
+15-5	688-697	partiklar	_	_	_	_	_	_	
+15-6	698-706	minskade	_	_	_	_	_	_	
+15-7	706-707	,	_	_	_	_	_	_	
+15-8	708-714	likaså	_	_	_	_	_	_	
+15-9	715-722	bullret	_	_	_	_	_	_	
+15-10	722-723	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	725-726	#	_	_	_	_	_	_	
+16-2	726-727	P	_	_	_	_	_	_	
+16-3	728-731	IMM	_	_	_	_	_	_	
+16-4	731-732	.	_	_	_	_	_	_	
+
+#Text=Satsningar på kollektivtrafiken var en viktig del av försöket, som infartsparkeringar och utökad buss- och spårtrafik.
+17-1	734-744	Satsningar	*[8]	_	_	_	_	_	
+17-2	745-747	på	*[8]	_	_	_	_	_	
+17-3	748-765	kollektivtrafiken	*[8]	_	_	_	_	_	
+17-4	766-769	var	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-5	770-772	en	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-6	773-779	viktig	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-7	780-783	del	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-8	784-786	av	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-9	787-795	försöket	_	Target[5]	17-1[8]	false[5]	4[5]	_	
+17-10	795-796	,	_	_	_	_	_	_	
+17-11	797-800	som	_	_	_	_	_	_	
+17-12	801-819	infartsparkeringar	_	_	_	_	_	_	
+17-13	820-823	och	_	_	_	_	_	_	
+17-14	824-830	utökad	_	_	_	_	_	_	
+17-15	831-835	buss	_	_	_	_	_	_	
+17-16	835-836	-	_	_	_	_	_	_	
+17-17	837-840	och	_	_	_	_	_	_	
+17-18	841-851	spårtrafik	_	_	_	_	_	_	
+17-19	851-852	.	_	_	_	_	_	_	
+
+#Text=Trafiksäkerheten blev bättre och antalet personskadeolyckor minskade.
+18-1	853-869	Trafiksäkerheten	_	_	_	_	_	_	
+18-2	870-874	blev	_	_	_	_	_	_	
+18-3	875-881	bättre	_	_	_	_	_	_	
+18-4	882-885	och	_	_	_	_	_	_	
+18-5	886-893	antalet	_	_	_	_	_	_	
+18-6	894-912	personskadeolyckor	_	_	_	_	_	_	
+18-7	913-921	minskade	_	_	_	_	_	_	
+18-8	921-922	.	_	_	_	_	_	_	
+
+#Text=Det gynnade inte minst cyklister och fotgängare.
+19-1	923-926	Det	_	_	_	_	_	_	
+19-2	927-934	gynnade	_	_	_	_	_	_	
+19-3	935-939	inte	_	_	_	_	_	_	
+19-4	940-945	minst	_	_	_	_	_	_	
+19-5	946-955	cyklister	_	_	_	_	_	_	
+19-6	956-959	och	_	_	_	_	_	_	
+19-7	960-970	fotgängare	_	_	_	_	_	_	
+19-8	970-971	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	973-974	#	_	_	_	_	_	_	
+20-2	974-975	P	_	_	_	_	_	_	
+20-3	976-979	IMM	_	_	_	_	_	_	
+20-4	979-980	.	_	_	_	_	_	_	
+
+#Text=Vid folkomröstningen i Stockholm röstade 51,3 procent ja till trängselskatt.
+21-1	982-985	Vid	_	_	_	_	_	_	
+21-2	986-1002	folkomröstningen	_	_	_	_	_	_	
+21-3	1003-1004	i	_	_	_	_	_	_	
+21-4	1005-1014	Stockholm	_	_	_	_	_	_	
+21-5	1015-1022	röstade	_	_	_	_	_	_	
+21-6	1023-1027	51,3	_	_	_	_	_	_	
+21-7	1028-1035	procent	_	_	_	_	_	_	
+21-8	1036-1038	ja	_	_	_	_	_	_	
+21-9	1039-1043	till	_	_	_	_	_	_	
+21-10	1044-1057	trängselskatt	_	_	_	_	_	_	
+21-11	1057-1058	.	_	_	_	_	_	_	
+
+#Text=Enligt ja-valsedeln skulle intäkterna gå till regionen för satsningar på både kollektivtrafik och vägar.
+22-1	1059-1065	Enligt	_	_	_	_	_	_	
+22-2	1066-1078	ja-valsedeln	_	_	_	_	_	_	
+22-3	1079-1085	skulle	_	_	_	_	_	_	
+22-4	1086-1096	intäkterna	_	_	_	_	_	_	
+22-5	1097-1099	gå	_	_	_	_	_	_	
+22-6	1100-1104	till	_	_	_	_	_	_	
+22-7	1105-1113	regionen	_	_	_	_	_	_	
+22-8	1114-1117	för	_	_	_	_	_	_	
+22-9	1118-1128	satsningar	_	_	_	_	_	_	
+22-10	1129-1131	på	_	_	_	_	_	_	
+22-11	1132-1136	både	_	_	_	_	_	_	
+22-12	1137-1152	kollektivtrafik	_	_	_	_	_	_	
+22-13	1153-1156	och	_	_	_	_	_	_	
+22-14	1157-1162	vägar	_	_	_	_	_	_	
+22-15	1162-1163	.	_	_	_	_	_	_	
+
+#Text=Regeringens förslag innebär något annat, nämligen att nästan bara bilismen får pengar till förbättringar.
+23-1	1164-1175	Regeringens	_	_	_	_	_	_	
+23-2	1176-1183	förslag	_	_	_	_	_	_	
+23-3	1184-1191	innebär	_	_	_	_	_	_	
+23-4	1192-1197	något	_	_	_	_	_	_	
+23-5	1198-1203	annat	_	_	_	_	_	_	
+23-6	1203-1204	,	_	_	_	_	_	_	
+23-7	1205-1213	nämligen	_	_	_	_	_	_	
+23-8	1214-1217	att	_	_	_	_	_	_	
+23-9	1218-1224	nästan	_	_	_	_	_	_	
+23-10	1225-1229	bara	_	_	_	_	_	_	
+23-11	1230-1238	bilismen	_	_	_	_	_	_	
+23-12	1239-1242	får	_	_	_	_	_	_	
+23-13	1243-1249	pengar	_	_	_	_	_	_	
+23-14	1250-1254	till	_	_	_	_	_	_	
+23-15	1255-1268	förbättringar	_	_	_	_	_	_	
+23-16	1268-1269	.	_	_	_	_	_	_	
+
+#Text=Vi socialdemokrater kräver att väljarna respekteras.
+24-1	1270-1272	Vi	*[9]	_	_	_	_	_	
+24-2	1273-1289	socialdemokrater	*[9]	_	_	_	_	_	
+24-3	1290-1296	kräver	_	Target;Source	24-4[10];24-1[9]	false	4	_	
+24-4	1297-1300	att	*[10]	_	_	_	_	_	
+24-5	1301-1309	väljarna	*[10]	_	_	_	_	_	
+24-6	1310-1321	respekteras	*[10]	_	_	_	_	_	
+24-7	1321-1322	.	_	_	_	_	_	_	
+
+#Text=Vi anser att folkomröstningens beslut ska följas i stället för att manipuleras.
+25-1	1323-1325	Vi	*	_	_	_	_	_	
+25-2	1326-1331	anser	_	Target;Source	25-3[11];25-1	false	4	_	
+25-3	1332-1335	att	*[11]	_	_	_	_	_	
+25-4	1336-1353	folkomröstningens	*[11]	_	_	_	_	_	
+25-5	1354-1360	beslut	*[11]	_	_	_	_	_	
+25-6	1361-1364	ska	*[11]	_	_	_	_	_	
+25-7	1365-1371	följas	*[11]	_	_	_	_	_	
+25-8	1372-1373	i	*[11]	_	_	_	_	_	
+25-9	1374-1381	stället	*[11]	_	_	_	_	_	
+25-10	1382-1385	för	*[11]	_	_	_	_	_	
+25-11	1386-1389	att	*[11]	_	_	_	_	_	
+25-12	1390-1401	manipuleras	*[11]	_	_	_	_	_	
+25-13	1401-1402	.	_	_	_	_	_	_	

@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	1[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	1[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Kaos i tyska staden Cottbus, flyktingstopp - början på inbördeskrig?
+3-1	18-22	Kaos	*	Target	3-1	false	1	
+3-2	23-24	i	_	_	_	_	_	
+3-3	25-30	tyska	_	_	_	_	_	
+3-4	31-37	staden	_	_	_	_	_	
+3-5	38-45	Cottbus	_	_	_	_	_	
+3-6	45-46	,	_	_	_	_	_	
+3-7	47-60	flyktingstopp	_	_	_	_	_	
+3-8	61-62	-	_	_	_	_	_	
+3-9	63-69	början	_	_	_	_	_	
+3-10	70-72	på	_	_	_	_	_	
+3-11	73-85	inbördeskrig	_	_	_	_	_	
+3-12	85-86	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	88-89	#	_	_	_	_	_	
+4-2	89-90	P	_	_[3]	_	false[3]	1[3]	
+4-3	91-94	IMM	_	_[3]	_	false[3]	1[3]	
+4-4	94-95	.	_	_	_	_	_	
+
+#Text=Vanliga tyskar och nazister protesterar tillsammans mot mångkulturen, nazister delar ut tårgas på stan, "flyktingar" attackerar nazister/tyskar och viseversa, var fjärde person röstar på AfD.
+5-1	97-104	Vanliga	*[4]	_	_	_	_	
+5-2	105-111	tyskar	*[4]	_	_	_	_	
+5-3	112-115	och	*[4]	_	_	_	_	
+5-4	116-124	nazister	*[4]	_	_	_	_	
+5-5	125-136	protesterar	_	Target;Source	5-8;5-1[4]	false	1	
+5-6	137-148	tillsammans	_	_	_	_	_	
+5-7	149-152	mot	_	_	_	_	_	
+5-8	153-165	mångkulturen	*	_	_	_	_	
+5-9	165-166	,	_	_	_	_	_	
+5-10	167-175	nazister	_	_	_	_	_	
+5-11	176-181	delar	_	_	_	_	_	
+5-12	182-184	ut	_	_	_	_	_	
+5-13	185-191	tårgas	_	_	_	_	_	
+5-14	192-194	på	_	_	_	_	_	
+5-15	195-199	stan	_	_	_	_	_	
+5-16	199-200	,	_	_	_	_	_	
+5-17	201-202	"	_	_	_	_	_	
+5-18	202-212	flyktingar	*	_	_	_	_	
+5-19	212-213	"	_	_	_	_	_	
+5-20	214-224	attackerar	_	Target	5-18	false	1	
+5-21	225-233	nazister	_	_	_	_	_	
+5-22	233-234	/	_	_	_	_	_	
+5-23	234-240	tyskar	_	_	_	_	_	
+5-24	241-244	och	_	_	_	_	_	
+5-25	245-254	viseversa	_	_	_	_	_	
+5-26	254-255	,	_	_	_	_	_	
+5-27	256-259	var	_	_	_	_	_	
+5-28	260-266	fjärde	_	_	_	_	_	
+5-29	267-273	person	_	_	_	_	_	
+5-30	274-280	röstar	_	_	_	_	_	
+5-31	281-283	på	_	_	_	_	_	
+5-32	284-287	AfD	_	_	_	_	_	
+5-33	287-288	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	290-291	#	_	_	_	_	_	
+6-2	291-292	P	_	_	_	_	_	
+6-3	293-296	IMM	_	_	_	_	_	
+6-4	296-297	.	_	_	_	_	_	
+
+#Text=Någon som vet mer om vad som pågår i staden Cottbus?.
+7-1	299-304	Någon	_	_	_	_	_	
+7-2	305-308	som	_	_	_	_	_	
+7-3	309-312	vet	_	_	_	_	_	
+7-4	313-316	mer	_	_	_	_	_	
+7-5	317-319	om	_	_	_	_	_	
+7-6	320-323	vad	_	_	_	_	_	
+7-7	324-327	som	_	_	_	_	_	
+7-8	328-333	pågår	_	_	_	_	_	
+7-9	334-335	i	_	_	_	_	_	
+7-10	336-342	staden	_	_	_	_	_	
+7-11	343-350	Cottbus	_	_	_	_	_	
+7-12	350-351	?	_	_	_	_	_	
+7-13	351-352	.	_	_	_	_	_	

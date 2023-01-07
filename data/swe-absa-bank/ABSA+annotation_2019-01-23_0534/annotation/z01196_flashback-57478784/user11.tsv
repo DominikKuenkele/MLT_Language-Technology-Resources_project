@@ -1,0 +1,322 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Studenten Shamm Salihs kritik - sanning eller total ignorans av fakta?
+3-1	18-27	Studenten	_	_	_	_	_	_	
+3-2	28-33	Shamm	*[10]|*[11]	_	_	_	_	_	
+3-3	34-40	Salihs	*[10]|*[11]	_	_	_	_	_	
+3-4	41-47	kritik	*[10]	Source	3-2[11]	false	2	_	
+3-5	48-49	-	_	_	_	_	_	_	
+3-6	50-57	sanning	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-7	58-63	eller	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-8	64-69	total	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-9	70-78	ignorans	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-10	79-81	av	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-11	82-87	fakta	_	Target[1]	3-2[10]	false[1]	3[1]	_	
+3-12	87-88	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	90-91	#	_	_	_	_	_	_	
+4-2	91-92	P	_	_	_	_	_	_	
+4-3	93-96	IMM	_	_	_	_	_	_	
+4-4	96-97	.	_	_	_	_	_	_	
+
+#Text=Studenten Shamm Salih delar på SVT opinion sin kärlek till förorten, samt ger en uppmaning att "sluta svartmåla förorterna" och antyder att hon inte känner sig som en del av samhället.
+5-1	99-108	Studenten	_	_	_	_	_	_	
+5-2	109-114	Shamm	*[12]	_	_	_	_	_	
+5-3	115-120	Salih	*[12]	_	_	_	_	_	
+5-4	121-126	delar	_	_	_	_	_	_	
+5-5	127-129	på	_	_	_	_	_	_	
+5-6	130-133	SVT	_	_	_	_	_	_	
+5-7	134-141	opinion	_	_	_	_	_	_	
+5-8	142-145	sin	_	_	_	_	_	_	
+5-9	146-152	kärlek	_	Source;Target	5-2[12];5-11	false	5	_	
+5-10	153-157	till	_	_	_	_	_	_	
+5-11	158-166	förorten	*	_	_	_	_	_	
+5-12	166-167	,	_	_	_	_	_	_	
+5-13	168-172	samt	_	_	_	_	_	_	
+5-14	173-176	ger	_	_	_	_	_	_	
+5-15	177-179	en	_	_	_	_	_	_	
+5-16	180-189	uppmaning	_	_	_	_	_	_	
+5-17	190-193	att	_	_	_	_	_	_	
+5-18	194-195	"	_	_	_	_	_	_	
+5-19	195-200	sluta	_	Source;Target[2]	5-2[12];5-21	false[2]	2[2]	_	
+5-20	201-210	svartmåla	_	Source;Target[2]	5-2[12];5-21	false[2]	2[2]	_	
+5-21	211-221	förorterna	*	_	_	_	_	_	
+5-22	221-222	"	_	_	_	_	_	_	
+5-23	223-226	och	_	_	_	_	_	_	
+5-24	227-234	antyder	_	Target	5-2[12]	false	2	_	
+5-25	235-238	att	_	_	_	_	_	_	
+5-26	239-242	hon	_	_	_	_	_	_	
+5-27	243-247	inte	_	Source;Target[3]	5-2[12];5-30[13]	false[3]	2[3]	_	
+5-28	248-254	känner	_	Source;Target[3]	5-2[12];5-30[13]	false[3]	2[3]	_	
+5-29	255-258	sig	_	Source;Target[3]	5-2[12];5-30[13]	false[3]	2[3]	_	
+5-30	259-262	som	*[13]	_	_	_	_	_	
+5-31	263-265	en	*[13]	_	_	_	_	_	
+5-32	266-269	del	*[13]	_	_	_	_	_	
+5-33	270-272	av	*[13]	_	_	_	_	_	
+5-34	273-282	samhället	*[13]	_	_	_	_	_	
+5-35	282-283	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	285-286	#	_	_	_	_	_	_	
+6-2	286-287	P	_	_	_	_	_	_	
+6-3	288-291	IMM	_	_	_	_	_	_	
+6-4	291-292	.	_	_	_	_	_	_	
+
+#Text=Länk:.
+7-1	294-298	Länk	_	_	_	_	_	_	
+7-2	298-299	:	_	_	_	_	_	_	
+7-3	299-300	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	302-303	#	_	_	_	_	_	_	
+8-2	303-304	P	_	_	_	_	_	_	
+8-3	305-308	IMM	_	_	_	_	_	_	
+8-4	308-309	.	_	_	_	_	_	_	
+
+#Text=Till statsministern riktar hon orden: ".
+9-1	311-315	Till	_	_	_	_	_	_	
+9-2	316-330	statsministern	_	_	_	_	_	_	
+9-3	331-337	riktar	_	_	_	_	_	_	
+9-4	338-341	hon	_	_	_	_	_	_	
+9-5	342-347	orden	_	_	_	_	_	_	
+9-6	347-348	:	_	_	_	_	_	_	
+9-7	349-350	"	_	_	_	_	_	_	
+9-8	350-351	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	353-354	#	_	_	_	_	_	_	
+10-2	354-355	P	_	_	_	_	_	_	
+10-3	356-359	IMM	_	_	_	_	_	_	
+10-4	359-360	.	_	_	_	_	_	_	
+
+#Text=Orden ".
+11-1	362-367	Orden	_	_	_	_	_	_	
+11-2	368-369	"	_	_	_	_	_	_	
+11-3	369-370	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+12-1	372-373	#	_	_	_	_	_	_	
+12-2	373-374	P	_	_	_	_	_	_	
+12-3	375-378	IMM	_	_	_	_	_	_	
+
+#Text=.
+13-1	378-379	.	_	_	_	_	_	_	
+
+#Text=" kan tolkas som att boende i förorter inte har möjlighet till utbildning och arbete.
+14-1	381-382	"	_	_	_	_	_	_	
+14-2	383-386	kan	_	Target[4]	14-6[14]	false[4]	2[4]	_	
+14-3	387-393	tolkas	_	Target[4]	14-6[14]	false[4]	2[4]	_	
+14-4	394-397	som	_	_	_	_	_	_	
+14-5	398-401	att	_	_	_	_	_	_	
+14-6	402-408	boende	*[14]	_	_	_	_	_	
+14-7	409-410	i	*[14]	_	_	_	_	_	
+14-8	411-419	förorter	*[14]	_	_	_	_	_	
+14-9	420-424	inte	*[14]	_	_	_	_	_	
+14-10	425-428	har	*[14]	_	_	_	_	_	
+14-11	429-438	möjlighet	*[14]	_	_	_	_	_	
+14-12	439-443	till	*[14]	_	_	_	_	_	
+14-13	444-454	utbildning	*[14]	_	_	_	_	_	
+14-14	455-458	och	*[14]	_	_	_	_	_	
+14-15	459-465	arbete	*[14]	_	_	_	_	_	
+14-16	465-466	.	_	_	_	_	_	_	
+
+#Text=Finns det alternativa tolkningar av orden?.
+15-1	467-472	Finns	_	_	_	_	_	_	
+15-2	473-476	det	_	_	_	_	_	_	
+15-3	477-488	alternativa	_	_	_	_	_	_	
+15-4	489-499	tolkningar	_	_	_	_	_	_	
+15-5	500-502	av	_	_	_	_	_	_	
+15-6	503-508	orden	_	_	_	_	_	_	
+15-7	508-509	?	_	_	_	_	_	_	
+15-8	509-510	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	512-513	#	_	_	_	_	_	_	
+16-2	513-514	P	_	_	_	_	_	_	
+16-3	515-518	IMM	_	_	_	_	_	_	
+16-4	518-519	.	_	_	_	_	_	_	
+
+#Text=är, enligt bland annat Benjamin Dousa (.
+17-1	521-523	är	_	_	_	_	_	_	
+17-2	523-524	,	_	_	_	_	_	_	
+17-3	525-531	enligt	_	_	_	_	_	_	
+17-4	532-537	bland	_	_	_	_	_	_	
+17-5	538-543	annat	_	_	_	_	_	_	
+17-6	544-552	Benjamin	_	_	_	_	_	_	
+17-7	553-558	Dousa	_	_	_	_	_	_	
+17-8	559-560	(	_	_	_	_	_	_	
+17-9	560-561	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=) att skolor i.
+18-1	563-564	#	_	_	_	_	_	_	
+18-2	564-565	P	_	_	_	_	_	_	
+18-3	566-569	IMM	_	_	_	_	_	_	
+18-4	569-570	.	_	_	_	_	_	_	
+18-5	572-573	)	_	_	_	_	_	_	
+18-6	574-577	att	_	_	_	_	_	_	
+18-7	578-584	skolor	_	_	_	_	_	_	
+18-8	585-586	i	_	_	_	_	_	_	
+18-9	586-587	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	589-590	#	_	_	_	_	_	_	
+19-2	590-591	P	_	_	_	_	_	_	
+19-3	592-595	IMM	_	_	_	_	_	_	
+19-4	595-596	.	_	_	_	_	_	_	
+
+#Text=Utöver detta finns högre kostnader för skadegörelse, väktare på bibliotek, polisiära resurser och socialtjänst.
+20-1	598-604	Utöver	_	_	_	_	_	_	
+20-2	605-610	detta	_	_	_	_	_	_	
+20-3	611-616	finns	_	_	_	_	_	_	
+20-4	617-622	högre	_	_	_	_	_	_	
+20-5	623-632	kostnader	_	_	_	_	_	_	
+20-6	633-636	för	_	_	_	_	_	_	
+20-7	637-649	skadegörelse	_	_	_	_	_	_	
+20-8	649-650	,	_	_	_	_	_	_	
+20-9	651-658	väktare	_	_	_	_	_	_	
+20-10	659-661	på	_	_	_	_	_	_	
+20-11	662-671	bibliotek	_	_	_	_	_	_	
+20-12	671-672	,	_	_	_	_	_	_	
+20-13	673-682	polisiära	_	_	_	_	_	_	
+20-14	683-691	resurser	_	_	_	_	_	_	
+20-15	692-695	och	_	_	_	_	_	_	
+20-16	696-708	socialtjänst	_	_	_	_	_	_	
+20-17	708-709	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	711-712	#	_	_	_	_	_	_	
+21-2	712-713	P	_	_	_	_	_	_	
+21-3	714-717	IMM	_	_	_	_	_	_	
+21-4	717-718	.	_	_	_	_	_	_	
+
+#Text=Här diskuterar vi om Salih har fog för kritiken.
+22-1	720-723	Här	_	_	_	_	_	_	
+22-2	724-734	diskuterar	_	_	_	false	2	_	
+22-3	735-737	vi	_	_	_	_	_	_	
+22-4	738-740	om	_	_	_	false	2	22-2	
+22-5	741-746	Salih	*	_	_	_	_	_	
+22-6	747-750	har	_	Target[5]	22-5	false[5]	2[5]	22-4[0_5]	
+22-7	751-754	fog	_	Target[5]	22-5	false[5]	2[5]	_	
+22-8	755-758	för	_	Target[5]	22-5	false[5]	2[5]	_	
+22-9	759-767	kritiken	_	Target[5]	22-5	false[5]	2[5]	_	
+22-10	767-768	.	_	_	_	_	_	_	
+
+#Text=Har hon det?.
+23-1	769-772	Har	_	_	_	_	_	_	
+23-2	773-776	hon	_	_	_	_	_	_	
+23-3	777-780	det	_	_	_	_	_	_	
+23-4	780-781	?	_	_	_	_	_	_	
+23-5	781-782	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	784-785	#	_	_	_	_	_	_	
+24-2	785-786	P	_	_	_	_	_	_	
+24-3	787-790	IMM	_	_	_	_	_	_	
+24-4	790-791	.	_	_	_	_	_	_	
+
+#Text=Är hon ens medveten om att det skickas avsevärt större ekonomiska resurser till förorterna?.
+25-1	793-795	Är	_	_	_	_	_	_	
+25-2	796-799	hon	_	_	_	_	_	_	
+25-3	800-803	ens	_	_	_	_	_	_	
+25-4	804-812	medveten	_	_	_	_	_	_	
+25-5	813-815	om	_	_	_	_	_	_	
+25-6	816-819	att	_	_	_	_	_	_	
+25-7	820-823	det	_	_	_	_	_	_	
+25-8	824-831	skickas	_	_	_	_	_	_	
+25-9	832-840	avsevärt	_	_	_	_	_	_	
+25-10	841-847	större	_	_	_	_	_	_	
+25-11	848-858	ekonomiska	_	_	_	_	_	_	
+25-12	859-867	resurser	_	_	_	_	_	_	
+25-13	868-872	till	_	_	_	_	_	_	
+25-14	873-883	förorterna	_	_	_	_	_	_	
+25-15	883-884	?	_	_	_	_	_	_	
+25-16	884-885	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	887-888	#	_	_	_	_	_	_	
+26-2	888-889	P	_	_	_	_	_	_	
+26-3	890-893	IMM	_	_	_	_	_	_	
+26-4	893-894	.	_	_	_	_	_	_	
+
+#Text=Vad, konkret, menar Salih när hon antyder att unga från förorten inte ges samma möjligheter?
+27-1	896-899	Vad	_	_	_	_	_	_	
+27-2	899-900	,	_	_	_	_	_	_	
+27-3	901-908	konkret	_	_	_	_	_	_	
+27-4	908-909	,	_	_	_	_	_	_	
+27-5	910-915	menar	_	_	_	_	_	_	
+27-6	916-921	Salih	*	_	_	_	_	_	
+27-7	922-925	när	_	_	_	_	_	_	
+27-8	926-929	hon	_	_	_	_	_	_	
+27-9	930-937	antyder	_	Target	27-6	false	2	_	
+27-10	938-941	att	_	_	_	_	_	_	
+27-11	942-946	unga	*[15]	_	_	_	_	_	
+27-12	947-951	från	*[15]	_	_	_	_	_	
+27-13	952-960	förorten	*[15]	_	_	_	_	_	
+27-14	961-965	inte	_	Target;Source[6]	27-11[15];27-6	false[6]	2[6]	_	
+27-15	966-969	ges	_	Target;Source[6]	27-11[15];27-6	false[6]	2[6]	_	
+27-16	970-975	samma	_	Target;Source[6]	27-11[15];27-6	false[6]	2[6]	_	
+27-17	976-987	möjligheter	_	Target;Source[6]	27-11[15];27-6	false[6]	2[6]	_	
+27-18	987-988	?	_	_	_	_	_	_	
+
+#Text=Är det någon som förhindrar dem att slita med skolböcker hemma på kvällarna?
+28-1	989-991	Är	_	_	_	_	_	_	
+28-2	992-995	det	_	_	_	_	_	_	
+28-3	996-1001	någon	_	_	_	_	_	_	
+28-4	1002-1005	som	_	_	_	_	_	_	
+28-5	1006-1016	förhindrar	_	Target[7]	28-8[16]	false[7]	2[7]	_	
+28-6	1017-1020	dem	_	Target[7]	28-8[16]	false[7]	2[7]	_	
+28-7	1021-1024	att	_	_	_	_	_	_	
+28-8	1025-1030	slita	*[16]	_	_	_	_	_	
+28-9	1031-1034	med	*[16]	_	_	_	_	_	
+28-10	1035-1045	skolböcker	*[16]	_	_	_	_	_	
+28-11	1046-1051	hemma	*[16]	_	_	_	_	_	
+28-12	1052-1054	på	*[16]	_	_	_	_	_	
+28-13	1055-1064	kvällarna	*[16]	_	_	_	_	_	
+28-14	1064-1065	?	_	_	_	_	_	_	
+
+#Text=Är det någon som förhindrar dem att vara aktiva i skolundervisning?
+29-1	1066-1068	Är	_	_	_	_	_	_	
+29-2	1069-1072	det	_	_	_	_	_	_	
+29-3	1073-1078	någon	_	_	_	_	_	_	
+29-4	1079-1082	som	_	_	_	_	_	_	
+29-5	1083-1093	förhindrar	_	Target[8]	29-8[17]	false[8]	2[8]	_	
+29-6	1094-1097	dem	_	Target[8]	29-8[17]	false[8]	2[8]	_	
+29-7	1098-1101	att	_	_	_	_	_	_	
+29-8	1102-1106	vara	*[17]	_	_	_	_	_	
+29-9	1107-1113	aktiva	*[17]	_	_	_	_	_	
+29-10	1114-1115	i	*[17]	_	_	_	_	_	
+29-11	1116-1132	skolundervisning	*[17]	_	_	_	_	_	
+29-12	1132-1133	?	_	_	_	_	_	_	
+
+#Text=Är det någon som förhindrar dem att söka högre utbildningar?.
+30-1	1134-1136	Är	_	_	_	_	_	_	
+30-2	1137-1140	det	_	_	_	_	_	_	
+30-3	1141-1146	någon	_	_	_	_	_	_	
+30-4	1147-1150	som	_	_	_	_	_	_	
+30-5	1151-1161	förhindrar	_	Target[9]	30-8[18]	false[9]	2[9]	_	
+30-6	1162-1165	dem	_	Target[9]	30-8[18]	false[9]	2[9]	_	
+30-7	1166-1169	att	_	_	_	_	_	_	
+30-8	1170-1174	söka	*[18]	_	_	_	_	_	
+30-9	1175-1180	högre	*[18]	_	_	_	_	_	
+30-10	1181-1193	utbildningar	*[18]	_	_	_	_	_	
+30-11	1193-1194	?	_	_	_	_	_	_	
+30-12	1194-1195	.	_	_	_	_	_	_	

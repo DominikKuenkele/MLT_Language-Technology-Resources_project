@@ -1,0 +1,197 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	true	5	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=I örnsköldsvik äter flyktingar o svenskar tillsammans perfekt integration.
+3-1	18-19	I	_	_	_	_	_	_	_	
+3-2	20-32	örnsköldsvik	_	_	_	_	_	_	_	
+3-3	33-37	äter	_	_	_	_	_	_	_	
+3-4	38-48	flyktingar	_	_	_	_	_	_	_	
+3-5	49-50	o	_	_	_	_	_	_	_	
+3-6	51-59	svenskar	_	_	_	_	_	_	_	
+3-7	60-71	tillsammans	_	_	_	_	_	_	_	
+3-8	72-79	perfekt	_	Target	3-9	true	5	_	_	
+3-9	80-91	integration	*	_	_	_	_	_	_	
+3-10	91-92	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	94-95	#	_	_	_	_	_	_	_	
+4-2	95-96	P	_	_	_	_	_	_	_	
+4-3	97-100	IMM	_	_	_	false	5	_	_	
+4-4	100-101	.	_	_	_	_	_	_	_	
+
+#Text=Ja i örnsköldsvik träffas flyktingar och goda svenskar tillsammans.
+5-1	103-105	Ja	_	_	_	_	_	_	_	
+5-2	106-107	i	_	_	_	_	_	_	_	
+5-3	108-120	örnsköldsvik	_	_	_	_	_	_	_	
+5-4	121-128	träffas	_	_	_	_	_	_	_	
+5-5	129-139	flyktingar	_	_	_	_	_	_	_	
+5-6	140-143	och	_	_	_	_	_	_	_	
+5-7	144-148	goda	_	Target	5-8	false	4	_	_	
+5-8	149-157	svenskar	*	_	_	_	_	_	_	
+5-9	158-169	tillsammans	_	_	_	_	_	_	_	
+5-10	169-170	.	_	_	_	_	_	_	_	
+
+#Text=Man umgas och lagar mat tillsammans.
+6-1	171-174	Man	_	_	_	_	_	_	_	
+6-2	175-180	umgas	_	_	_	_	_	_	_	
+6-3	181-184	och	_	_	_	_	_	_	_	
+6-4	185-190	lagar	_	_	_	_	_	_	_	
+6-5	191-194	mat	_	_	_	_	_	_	_	
+6-6	195-206	tillsammans	_	_	_	_	_	_	_	
+6-7	206-207	.	_	_	_	_	_	_	_	
+
+#Text=De godhjärtade svenskarna hyr en hemkunskapslokal och handlar in ravaror bla.
+7-1	208-210	De	_	Target[1]	7-3	true[1]	5[1]	_	_	
+7-2	211-222	godhjärtade	_	Target[1]	7-3	true[1]	5[1]	_	_	
+7-3	223-233	svenskarna	*	_	_	_	_	_	_	
+7-4	234-237	hyr	_	_	_	_	_	_	_	
+7-5	238-240	en	_	_	_	_	_	_	_	
+7-6	241-257	hemkunskapslokal	_	_	_	_	_	_	_	
+7-7	258-261	och	_	_	_	_	_	_	_	
+7-8	262-269	handlar	_	_	_	_	_	_	_	
+7-9	270-272	in	_	_	_	_	_	_	_	
+7-10	273-280	ravaror	_	_	_	_	_	_	_	
+7-11	281-284	bla	_	_	_	_	_	_	_	
+7-12	284-285	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	287-288	#	_	_	_	_	_	_	_	
+8-2	288-289	P	_	_	_	_	_	_	_	
+8-3	290-293	IMM	_	_	_	false	5	_	_	
+8-4	293-294	.	_	_	_	_	_	_	_	
+
+#Text=Eva Jilkén entreprenör och godhjärtad säger.
+9-1	296-299	Eva	*[4]|*[5]	_	_	_	_	_	15-15[0_5]	
+9-2	300-306	Jilkén	*[4]|*[5]	_	_	_	_	_	_	
+9-3	307-318	entreprenör	_	_	_	_	_	_	_	
+9-4	319-322	och	_	_	_	_	_	_	_	
+9-5	323-333	godhjärtad	_	Target	9-1[4]	true	5	_	_	
+9-6	334-339	säger	_	_	_	_	_	_	_	
+9-7	339-340	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+10-1	342-343	#	_	_	_	_	_	_	_	
+10-2	343-344	P	_	_	_	_	_	_	_	
+10-3	345-348	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+11-1	348-349	.	_	_	_	_	_	_	_	
+
+#Text=: Genom matlagning får man ett naturligt möte som sällan sker annars.
+12-1	351-352	:	_	_	_	_	_	_	_	
+12-2	353-358	Genom	_	_	_	_	_	_	_	
+12-3	359-369	matlagning	_	_	_	_	_	_	_	
+12-4	370-373	får	_	_	_	_	_	_	_	
+12-5	374-377	man	_	_	_	_	_	_	_	
+12-6	378-381	ett	_	_	_	_	_	_	_	
+12-7	382-391	naturligt	_	_	_	_	_	_	_	
+12-8	392-396	möte	_	_	_	_	_	_	_	
+12-9	397-400	som	_	_	_	_	_	_	_	
+12-10	401-407	sällan	_	_	_	_	_	_	_	
+12-11	408-412	sker	_	_	_	_	_	_	_	
+12-12	413-419	annars	_	_	_	_	_	_	_	
+12-13	419-420	.	_	_	_	_	_	_	_	
+
+#Text=Man lär känna varandra och börjar prata samtidigt som man gör något aktivt.
+13-1	421-424	Man	_	_	_	_	_	_	_	
+13-2	425-428	lär	_	_	_	_	_	_	_	
+13-3	429-434	känna	_	_	_	_	_	_	_	
+13-4	435-443	varandra	_	_	_	_	_	_	_	
+13-5	444-447	och	_	_	_	_	_	_	_	
+13-6	448-454	börjar	_	_	_	_	_	_	_	
+13-7	455-460	prata	_	_	_	_	_	_	_	
+13-8	461-470	samtidigt	_	_	_	_	_	_	_	
+13-9	471-474	som	_	_	_	_	_	_	_	
+13-10	475-478	man	_	_	_	_	_	_	_	
+13-11	479-482	gör	_	_	_	_	_	_	_	
+13-12	483-488	något	_	_	_	_	_	_	_	
+13-13	489-495	aktivt	_	_	_	_	_	_	_	
+13-14	495-496	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	498-499	#	_	_	_	_	_	_	_	
+14-2	499-500	P	_	_	_	_	_	_	_	
+14-3	501-504	IMM	_	_	_	true	5	_	_	
+14-4	504-505	.	_	_	_	_	_	_	_	
+
+#Text=Givetvis betalar Örnsköldsviks kommun   lokalhyra och råvaror sa att varken flyktingars eller den godhjärtade entreprenörens privatekonomi belastas sa att de likt i danmark tvingas betala för sin mat med egna pengar.
+15-1	507-515	Givetvis	_	_	_	_	_	_	_	
+15-2	516-523	betalar	_	_	_	_	_	_	_	
+15-3	524-537	Örnsköldsviks	_	_	_	_	_	_	_	
+15-4	538-544	kommun	_	_	_	_	_	_	_	
+15-5	547-556	lokalhyra	_	_	_	_	_	_	_	
+15-6	557-560	och	_	_	_	_	_	_	_	
+15-7	561-568	råvaror	_	_	_	_	_	_	_	
+15-8	569-571	sa	_	_	_	_	_	_	_	
+15-9	572-575	att	_	_	_	_	_	_	_	
+15-10	576-582	varken	_	_	_	_	_	_	_	
+15-11	583-594	flyktingars	_	_	_	_	_	_	_	
+15-12	595-600	eller	_	_	_	_	_	_	_	
+15-13	601-604	den	_	Target[2]	15-15	true[2]	5[2]	_	_	
+15-14	605-616	godhjärtade	_	Target[2]	15-15	true[2]	5[2]	_	_	
+15-15	617-631	entreprenörens	*	_	_	_	_	_	_	
+15-16	632-645	privatekonomi	_	_	_	_	_	_	_	
+15-17	646-654	belastas	*	Target	15-17	false	2	_	_	
+15-18	655-657	sa	_	_	_	_	_	_	_	
+15-19	658-661	att	_	_	_	_	_	_	_	
+15-20	662-664	de	_	_	_	_	_	_	_	
+15-21	665-669	likt	_	_	_	_	_	_	_	
+15-22	670-671	i	_	_	_	_	_	_	_	
+15-23	672-679	danmark	_	_	_	_	_	_	_	
+15-24	680-687	tvingas	_	_	_	_	_	_	_	
+15-25	688-694	betala	_	_	_	_	_	_	_	
+15-26	695-698	för	_	_	_	_	_	_	_	
+15-27	699-702	sin	_	_	_	_	_	_	_	
+15-28	703-706	mat	_	_	_	_	_	_	_	
+15-29	707-710	med	_	_	_	_	_	_	_	
+15-30	711-715	egna	_	_	_	_	_	_	_	
+15-31	716-722	pengar	_	_	_	_	_	_	_	
+15-32	722-723	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	725-726	#	_	_	_	_	_	_	_	
+16-2	726-727	P	_	_	_	_	_	_	_	
+16-3	728-731	IMM	_	_	_	true	5	_	_	
+16-4	731-732	.	_	_	_	_	_	_	_	
+
+#Text=Ja vad tycker ni är inte detta beviset pa hur bra integrationen fungerar och att vi trotts allt tjänar pa invandringen??.
+17-1	734-736	Ja	_	_	_	_	_	_	_	
+17-2	737-740	vad	_	_	_	_	_	_	_	
+17-3	741-747	tycker	_	_	_	_	_	_	_	
+17-4	748-750	ni	_	_	_	_	_	_	_	
+17-5	751-753	är	_	_	_	_	_	_	_	
+17-6	754-758	inte	_	_	_	_	_	_	_	
+17-7	759-764	detta	_	_	_	_	_	_	_	
+17-8	765-772	beviset	_	Target[3]	17-12	true[3]	4[3]	_	_	
+17-9	773-775	pa	_	Target[3]	17-12	true[3]	4[3]	_	_	
+17-10	776-779	hur	_	Target[3]	17-12	true[3]	4[3]	_	_	
+17-11	780-783	bra	_	Target[3]	17-12	true[3]	4[3]	_	_	
+17-12	784-797	integrationen	*	_	_	_	_	_	_	
+17-13	798-806	fungerar	_	_	_	false	4	17-8[3_0]	_	
+17-14	807-810	och	_	_	_	_	_	_	_	
+17-15	811-814	att	_	_	_	_	_	_	_	
+17-16	815-817	vi	_	_	_	_	_	_	_	
+17-17	818-824	trotts	_	_	_	_	_	_	_	
+17-18	825-829	allt	_	_	_	_	_	_	_	
+17-19	830-836	tjänar	_	_	_	_	_	_	_	
+17-20	837-839	pa	_	_	_	_	_	_	_	
+17-21	840-852	invandringen	_	_	_	_	_	_	_	
+17-22	852-853	?	_	_	_	_	_	_	_	
+17-23	853-854	?	_	_	_	_	_	_	_	
+17-24	854-855	.	_	_	_	_	_	_	_	

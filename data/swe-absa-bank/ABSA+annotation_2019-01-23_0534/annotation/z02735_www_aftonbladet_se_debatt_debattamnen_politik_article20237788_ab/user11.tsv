@@ -1,0 +1,461 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vi vill inte alls splittra familjer.
+3-1	18-20	Vi	*	_	_	_	_	_	
+3-2	21-25	vill	_	Target;Source[2]	3-5[17];3-1	false[2]	2[2]	_	
+3-3	26-30	inte	_	Target;Source[2]	3-5[17];3-1	false[2]	2[2]	_	
+3-4	31-35	alls	_	Target;Source[2]	3-5[17];3-1	false[2]	2[2]	_	
+3-5	36-44	splittra	*[17]	_	_	_	_	_	
+3-6	45-53	familjer	*[17]	_	_	_	_	_	
+3-7	53-54	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_[3]	_	false[3]	4[3]	_	
+4-3	59-62	IMM	_	_[3]	_	false[3]	4[3]	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Det är en tillgång för Sverige att människor väljer att bygga sin framtid här.
+5-1	65-68	Det	_	_	_	_	_	_	
+5-2	69-71	är	_	Target[4]	5-8[18]	false[4]	4[4]	_	
+5-3	72-74	en	_	Target[4]	5-8[18]	false[4]	4[4]	_	
+5-4	75-83	tillgång	_	Target[4]	5-8[18]	false[4]	4[4]	_	
+5-5	84-87	för	_	Target[4]	5-8[18]	false[4]	4[4]	_	
+5-6	88-95	Sverige	_	Target[4]	5-8[18]	false[4]	4[4]	_	
+5-7	96-99	att	_	_	_	_	_	_	
+5-8	100-109	människor	*[18]	_	_	_	_	_	
+5-9	110-116	väljer	*[18]	_	_	_	_	_	
+5-10	117-120	att	*[18]	_	_	_	_	_	
+5-11	121-126	bygga	*[18]	_	_	_	_	_	
+5-12	127-130	sin	*[18]	_	_	_	_	_	
+5-13	131-138	framtid	*[18]	_	_	_	_	_	
+5-14	139-142	här	*[18]	_	_	_	_	_	
+5-15	142-143	.	_	_	_	_	_	_	
+
+#Text=Men det är ett problem att det tar för lång tid för nyanlända att få ett arbete.
+6-1	144-147	Men	_	_	_	_	_	_	
+6-2	148-151	det	_	_	_	_	_	_	
+6-3	152-154	är	_	_	_	_	_	_	
+6-4	155-158	ett	_	_	_	_	_	_	
+6-5	159-166	problem	_	Target	6-7[19]	false	2	_	
+6-6	167-170	att	_	_	_	_	_	_	
+6-7	171-174	det	*[19]	_	_	_	_	_	
+6-8	175-178	tar	*[19]	_	_	_	_	_	
+6-9	179-182	för	*[19]	_	_	_	_	_	
+6-10	183-187	lång	*[19]	_	_	_	_	_	
+6-11	188-191	tid	*[19]	_	_	_	_	_	
+6-12	192-195	för	*[19]	_	_	_	_	_	
+6-13	196-205	nyanlända	*[19]	_	_	_	_	_	
+6-14	206-209	att	*[19]	_	_	_	_	_	
+6-15	210-212	få	*[19]	_	_	_	_	_	
+6-16	213-216	ett	*[19]	_	_	_	_	_	
+6-17	217-223	arbete	*[19]	_	_	_	_	_	
+6-18	223-224	.	_	_	_	_	_	_	
+
+#Text=Reformer som rut-avdrag och sänkt restaurangmoms har bidragit till att 200 000 fler utrikes födda har ett jobb i dag än 2006.
+7-1	225-233	Reformer	_	_	_	_	_	_	
+7-2	234-237	som	_	_	_	_	_	_	
+7-3	238-248	rut-avdrag	_	_	_	_	_	_	
+7-4	249-252	och	_	_	_	_	_	_	
+7-5	253-258	sänkt	_	_	_	_	_	_	
+7-6	259-273	restaurangmoms	_	_	_	_	_	_	
+7-7	274-277	har	_	_	_	_	_	_	
+7-8	278-286	bidragit	_	_	_	_	_	_	
+7-9	287-291	till	_	_	_	_	_	_	
+7-10	292-295	att	_	_	_	_	_	_	
+7-11	296-299	200	_	_	_	_	_	_	
+7-12	300-303	000	_	_	_	_	_	_	
+7-13	304-308	fler	_	_	_	_	_	_	
+7-14	309-316	utrikes	_	_	_	_	_	_	
+7-15	317-322	födda	_	_	_	_	_	_	
+7-16	323-326	har	_	_	_	_	_	_	
+7-17	327-330	ett	_	_	_	_	_	_	
+7-18	331-335	jobb	_	_	_	_	_	_	
+7-19	336-337	i	_	_	_	_	_	_	
+7-20	338-341	dag	_	_	_	_	_	_	
+7-21	342-344	än	_	_	_	_	_	_	
+7-22	345-349	2006	_	_	_	_	_	_	
+7-23	349-350	.	_	_	_	_	_	_	
+
+#Text=Men vi behöver göra mer.
+8-1	351-354	Men	_	_	_	_	_	_	
+8-2	355-357	vi	_	_	_	_	_	_	
+8-3	358-365	behöver	_	_	_	_	_	_	
+8-4	366-370	göra	_	_	_	_	_	_	
+8-5	371-374	mer	_	_	_	_	_	_	
+8-6	374-375	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	377-378	#	_	_	_	_	_	_	
+9-2	378-379	P	_	_[5]	_	false[5]	4[5]	_	
+9-3	380-383	IMM	_	_[5]	_	false[5]	4[5]	_	
+9-4	383-384	.	_	_	_	_	_	_	
+
+#Text=Människor ska ha rätt till en rättssäker och individuell prövning av sitt asylskäl.
+10-1	386-395	Människor	_	_	_	_	_	_	
+10-2	396-399	ska	_	_	_	_	_	_	
+10-3	400-402	ha	_	_	_	_	_	_	
+10-4	403-407	rätt	_	_	_	_	_	_	
+10-5	408-412	till	_	_	_	_	_	_	
+10-6	413-415	en	_	_	_	_	_	_	
+10-7	416-426	rättssäker	_	_	_	_	_	_	
+10-8	427-430	och	_	_	_	_	_	_	
+10-9	431-442	individuell	_	_	_	_	_	_	
+10-10	443-451	prövning	_	_	_	_	_	_	
+10-11	452-454	av	_	_	_	_	_	_	
+10-12	455-459	sitt	_	_	_	_	_	_	
+10-13	460-468	asylskäl	_	_	_	_	_	_	
+10-14	468-469	.	_	_	_	_	_	_	
+
+#Text=Samhället ska ha höga förväntningar på att människor hittar arbete och lär sig svenska.
+11-1	470-479	Samhället	_	_	_	_	_	_	
+11-2	480-483	ska	_	Target[6]	11-8[20]	false[6]	4[6]	_	
+11-3	484-486	ha	_	Target[6]	11-8[20]	false[6]	4[6]	_	
+11-4	487-491	höga	_	Target[6]	11-8[20]	false[6]	4[6]	_	
+11-5	492-505	förväntningar	_	Target[6]	11-8[20]	false[6]	4[6]	_	
+11-6	506-508	på	_	Target[6]	11-8[20]	false[6]	4[6]	_	
+11-7	509-512	att	_	_	_	_	_	_	
+11-8	513-522	människor	*[20]	_	_	_	_	_	
+11-9	523-529	hittar	*[20]	_	_	_	_	_	
+11-10	530-536	arbete	*[20]	_	_	_	_	_	
+11-11	537-540	och	*[20]	_	_	_	_	_	
+11-12	541-544	lär	*[20]	_	_	_	_	_	
+11-13	545-548	sig	*[20]	_	_	_	_	_	
+11-14	549-556	svenska	*[20]	_	_	_	_	_	
+11-15	556-557	.	_	_	_	_	_	_	
+
+#Text=Arbetsmarknaden behöver reformeras med fler och enklare vägar in och där enkla jobb som inte kräver formella kunskaper och färdigheter kan bli fler.
+12-1	558-573	Arbetsmarknaden	*	_	_	_	_	_	
+12-2	574-581	behöver	_	Target[7]	12-1	false[7]	4[7]	_	
+12-3	582-592	reformeras	_	Target[7]	12-1	false[7]	4[7]	_	
+12-4	593-596	med	_	_	_	_	_	_	
+12-5	597-601	fler	_	_	_	_	_	_	
+12-6	602-605	och	_	_	_	_	_	_	
+12-7	606-613	enklare	_	_	_	_	_	_	
+12-8	614-619	vägar	_	_	_	_	_	_	
+12-9	620-622	in	_	_	_	_	_	_	
+12-10	623-626	och	_	_	_	_	_	_	
+12-11	627-630	där	_	_	_	_	_	_	
+12-12	631-636	enkla	_	_	_	_	_	_	
+12-13	637-641	jobb	_	_	_	_	_	_	
+12-14	642-645	som	_	_	_	_	_	_	
+12-15	646-650	inte	_	_	_	_	_	_	
+12-16	651-657	kräver	_	_	_	_	_	_	
+12-17	658-666	formella	_	_	_	_	_	_	
+12-18	667-676	kunskaper	_	_	_	_	_	_	
+12-19	677-680	och	_	_	_	_	_	_	
+12-20	681-692	färdigheter	_	_	_	_	_	_	
+12-21	693-696	kan	_	_	_	_	_	_	
+12-22	697-700	bli	_	_	_	_	_	_	
+12-23	701-705	fler	_	_	_	_	_	_	
+12-24	705-706	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	708-709	#	_	_	_	_	_	_	
+13-2	709-710	P	_	_[8]	_	false[8]	3[8]	_	
+13-3	711-714	IMM	_	_[8]	_	false[8]	3[8]	_	
+13-4	714-715	.	_	_	_	_	_	_	
+
+#Text=Magda Rasmusson (MP) och Hanna Wagenius (C) misstolkar – medvetet eller omedvetet – våra integrationsförslag och påstår att det kommer att leda till att familjer splittras.
+14-1	717-722	Magda	*[21]	_	_	_	_	_	
+14-2	723-732	Rasmusson	*[21]	_	_	_	_	_	
+14-3	733-734	(	*[21]	_	_	_	_	_	
+14-4	734-736	MP	*[21]	_	_	_	_	_	
+14-5	736-737	)	*[21]	_	_	_	_	_	
+14-6	738-741	och	*[21]	_	_	_	_	_	
+14-7	742-747	Hanna	*[21]	_	_	_	_	_	
+14-8	748-756	Wagenius	*[21]	_	_	_	_	_	
+14-9	757-758	(	_	_	_	_	_	_	
+14-10	758-759	C	_	_	_	_	_	_	
+14-11	759-760	)	_	_	_	_	_	_	
+14-12	761-771	misstolkar	_	Target	14-1[21]	false	2	_	
+14-13	772-773	–	_	_	_	_	_	_	
+14-14	774-782	medvetet	_	_	_	_	_	_	
+14-15	783-788	eller	_	_	_	_	_	_	
+14-16	789-798	omedvetet	_	_	_	_	_	_	
+14-17	799-800	–	_	_	_	_	_	_	
+14-18	801-805	våra	*[22]	_	_	_	_	_	
+14-19	806-825	integrationsförslag	*[22]	_	_	_	_	_	
+14-20	826-829	och	_	_	_	_	_	_	
+14-21	830-836	påstår	_	_	_	_	_	_	
+14-22	837-840	att	_	_	_	_	_	_	
+14-23	841-844	det	_	_	_	_	_	_	
+14-24	845-851	kommer	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-25	852-855	att	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-26	856-860	leda	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-27	861-865	till	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-28	866-869	att	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-29	870-878	familjer	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-30	879-888	splittras	*[23]	Target;Source[9]	14-18[22];14-1[21]	false[9]	2[9]	_	
+14-31	888-889	.	_	_	_	_	_	_	
+
+#Text=Ingenting kunde vara mer felaktigt.
+15-1	890-899	Ingenting	_	Target[10]	14-24[23]	false[10]	2[10]	_	
+15-2	900-905	kunde	_	Target[10]	14-24[23]	false[10]	2[10]	_	
+15-3	906-910	vara	_	Target[10]	14-24[23]	false[10]	2[10]	_	
+15-4	911-914	mer	_	Target[10]	14-24[23]	false[10]	2[10]	_	
+15-5	915-924	felaktigt	_	Target[10]	14-24[23]	false[10]	2[10]	_	
+15-6	924-925	.	_	_	_	_	_	_	
+
+#Text=Vårt förslag handlar om att införa ett försörjningskrav vid anhöriginvandring för nyetablerade relationer, alltså när man vill ha hit en person som man inte var sambo eller gift med innan man kom till Sverige, en grupp som motsvarar hälften av alla anhöriginvandrare.
+16-1	926-930	Vårt	_	_	_	_	_	_	
+16-2	931-938	förslag	_	_	_	_	_	_	
+16-3	939-946	handlar	_	_	_	_	_	_	
+16-4	947-949	om	_	_	_	_	_	_	
+16-5	950-953	att	_	_	_	_	_	_	
+16-6	954-960	införa	_	_	_	_	_	_	
+16-7	961-964	ett	_	_	_	_	_	_	
+16-8	965-981	försörjningskrav	_	_	_	_	_	_	
+16-9	982-985	vid	_	_	_	_	_	_	
+16-10	986-1003	anhöriginvandring	_	_	_	_	_	_	
+16-11	1004-1007	för	_	_	_	_	_	_	
+16-12	1008-1020	nyetablerade	_	_	_	_	_	_	
+16-13	1021-1031	relationer	_	_	_	_	_	_	
+16-14	1031-1032	,	_	_	_	_	_	_	
+16-15	1033-1039	alltså	_	_	_	_	_	_	
+16-16	1040-1043	när	_	_	_	_	_	_	
+16-17	1044-1047	man	_	_	_	_	_	_	
+16-18	1048-1052	vill	_	_	_	_	_	_	
+16-19	1053-1055	ha	_	_	_	_	_	_	
+16-20	1056-1059	hit	_	_	_	_	_	_	
+16-21	1060-1062	en	_	_	_	_	_	_	
+16-22	1063-1069	person	_	_	_	_	_	_	
+16-23	1070-1073	som	_	_	_	_	_	_	
+16-24	1074-1077	man	_	_	_	_	_	_	
+16-25	1078-1082	inte	_	_	_	_	_	_	
+16-26	1083-1086	var	_	_	_	_	_	_	
+16-27	1087-1092	sambo	_	_	_	_	_	_	
+16-28	1093-1098	eller	_	_	_	_	_	_	
+16-29	1099-1103	gift	_	_	_	_	_	_	
+16-30	1104-1107	med	_	_	_	_	_	_	
+16-31	1108-1113	innan	_	_	_	_	_	_	
+16-32	1114-1117	man	_	_	_	_	_	_	
+16-33	1118-1121	kom	_	_	_	_	_	_	
+16-34	1122-1126	till	_	_	_	_	_	_	
+16-35	1127-1134	Sverige	_	_	_	_	_	_	
+16-36	1134-1135	,	_	_	_	_	_	_	
+16-37	1136-1138	en	_	_	_	_	_	_	
+16-38	1139-1144	grupp	_	_	_	_	_	_	
+16-39	1145-1148	som	_	_	_	_	_	_	
+16-40	1149-1158	motsvarar	_	_	_	_	_	_	
+16-41	1159-1166	hälften	_	_	_	_	_	_	
+16-42	1167-1169	av	_	_	_	_	_	_	
+16-43	1170-1174	alla	_	_	_	_	_	_	
+16-44	1175-1192	anhöriginvandrare	_	_	_	_	_	_	
+16-45	1192-1193	.	_	_	_	_	_	_	
+
+#Text=Påståendet att ”familjer splittras” är därför taget ur luften.
+17-1	1194-1204	Påståendet	*[24]	_	_	_	_	_	
+17-2	1205-1208	att	*[24]	_	_	_	_	_	
+17-3	1209-1210	”	*[24]	_	_	_	_	_	
+17-4	1210-1218	familjer	*[24]	_	_	_	_	_	
+17-5	1219-1228	splittras	*[24]	_	_	_	_	_	
+17-6	1228-1229	”	_	_	_	_	_	_	
+17-7	1230-1232	är	_	Target[11]	17-1[24]	false[11]	2[11]	_	
+17-8	1233-1239	därför	_	Target[11]	17-1[24]	false[11]	2[11]	_	
+17-9	1240-1245	taget	_	Target[11]	17-1[24]	false[11]	2[11]	_	
+17-10	1246-1248	ur	_	Target[11]	17-1[24]	false[11]	2[11]	_	
+17-11	1249-1255	luften	_	Target[11]	17-1[24]	false[11]	2[11]	_	
+17-12	1255-1256	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1258-1259	#	_	_	_	_	_	_	
+18-2	1259-1260	P	_	_[12]	_	false[12]	3[12]	_	
+18-3	1261-1264	IMM	_	_[12]	_	false[12]	3[12]	_	
+18-4	1264-1265	.	_	_	_	_	_	_	
+
+#Text=Vårt förslag innebär att anhöriginvandring blir möjligt först när den person som bor i Sverige uppfyller försörjningskravet i form av regelbunden inkomst och en bostad.
+19-1	1267-1271	Vårt	_	_	_	_	_	_	
+19-2	1272-1279	förslag	_	_	_	_	_	_	
+19-3	1280-1287	innebär	_	_	_	_	_	_	
+19-4	1288-1291	att	_	_	_	_	_	_	
+19-5	1292-1309	anhöriginvandring	_	_	_	_	_	_	
+19-6	1310-1314	blir	_	_	_	_	_	_	
+19-7	1315-1322	möjligt	_	_	_	_	_	_	
+19-8	1323-1328	först	_	_	_	_	_	_	
+19-9	1329-1332	när	_	_	_	_	_	_	
+19-10	1333-1336	den	_	_	_	_	_	_	
+19-11	1337-1343	person	_	_	_	_	_	_	
+19-12	1344-1347	som	_	_	_	_	_	_	
+19-13	1348-1351	bor	_	_	_	_	_	_	
+19-14	1352-1353	i	_	_	_	_	_	_	
+19-15	1354-1361	Sverige	_	_	_	_	_	_	
+19-16	1362-1371	uppfyller	_	_	_	_	_	_	
+19-17	1372-1390	försörjningskravet	_	_	_	_	_	_	
+19-18	1391-1392	i	_	_	_	_	_	_	
+19-19	1393-1397	form	_	_	_	_	_	_	
+19-20	1398-1400	av	_	_	_	_	_	_	
+19-21	1401-1412	regelbunden	_	_	_	_	_	_	
+19-22	1413-1420	inkomst	_	_	_	_	_	_	
+19-23	1421-1424	och	_	_	_	_	_	_	
+19-24	1425-1427	en	_	_	_	_	_	_	
+19-25	1428-1434	bostad	_	_	_	_	_	_	
+19-26	1434-1435	.	_	_	_	_	_	_	
+
+#Text=Det ökar drivkraften att snabbt skaffa sig ett jobb för den som vill ta hit sin nya anhörige och innebär att den anhörige kommer till Sverige först när arbete och boende är ordnat.
+20-1	1436-1439	Det	_	_	_	_	_	_	
+20-2	1440-1444	ökar	_	_	_	_	_	_	
+20-3	1445-1456	drivkraften	_	_	_	_	_	_	
+20-4	1457-1460	att	_	_	_	_	_	_	
+20-5	1461-1467	snabbt	_	_	_	_	_	_	
+20-6	1468-1474	skaffa	_	_	_	_	_	_	
+20-7	1475-1478	sig	_	_	_	_	_	_	
+20-8	1479-1482	ett	_	_	_	_	_	_	
+20-9	1483-1487	jobb	_	_	_	_	_	_	
+20-10	1488-1491	för	_	_	_	_	_	_	
+20-11	1492-1495	den	_	_	_	_	_	_	
+20-12	1496-1499	som	_	_	_	_	_	_	
+20-13	1500-1504	vill	_	_	_	_	_	_	
+20-14	1505-1507	ta	_	_	_	_	_	_	
+20-15	1508-1511	hit	_	_	_	_	_	_	
+20-16	1512-1515	sin	_	_	_	_	_	_	
+20-17	1516-1519	nya	_	_	_	_	_	_	
+20-18	1520-1528	anhörige	_	_	_	_	_	_	
+20-19	1529-1532	och	_	_	_	_	_	_	
+20-20	1533-1540	innebär	_	_	_	_	_	_	
+20-21	1541-1544	att	_	_	_	_	_	_	
+20-22	1545-1548	den	_	_	_	_	_	_	
+20-23	1549-1557	anhörige	_	_	_	_	_	_	
+20-24	1558-1564	kommer	_	_	_	_	_	_	
+20-25	1565-1569	till	_	_	_	_	_	_	
+20-26	1570-1577	Sverige	_	_	_	_	_	_	
+20-27	1578-1583	först	_	_	_	_	_	_	
+20-28	1584-1587	när	_	_	_	_	_	_	
+20-29	1588-1594	arbete	_	_	_	_	_	_	
+20-30	1595-1598	och	_	_	_	_	_	_	
+20-31	1599-1605	boende	_	_	_	_	_	_	
+20-32	1606-1608	är	_	_	_	_	_	_	
+20-33	1609-1615	ordnat	_	_	_	_	_	_	
+20-34	1615-1616	.	_	_	_	_	_	_	
+
+#Text=Det underlättar vägen in i det svenska samhället.
+21-1	1617-1620	Det	_	_	_	_	_	_	
+21-2	1621-1632	underlättar	_	_	_	_	_	_	
+21-3	1633-1638	vägen	_	_	_	_	_	_	
+21-4	1639-1641	in	_	_	_	_	_	_	
+21-5	1642-1643	i	_	_	_	_	_	_	
+21-6	1644-1647	det	_	_	_	_	_	_	
+21-7	1648-1655	svenska	_	_	_	_	_	_	
+21-8	1656-1665	samhället	_	_	_	_	_	_	
+21-9	1665-1666	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1668-1669	#	_	_	_	_	_	_	
+22-2	1669-1670	P	_	_[13]	_	false[13]	3[13]	_	
+22-3	1671-1674	IMM	_	_[13]	_	false[13]	3[13]	_	
+22-4	1674-1675	.	_	_	_	_	_	_	
+
+#Text=Tyvärr präglas debatten om invandring och integration av ängslighet, där debattörer är snabba med att sätta etiketter på varandra.
+23-1	1677-1683	Tyvärr	_	Target[14]	23-3[25]	false[14]	2[14]	_	
+23-2	1684-1691	präglas	_	Target[14]	23-3[25]	false[14]	2[14]	_	
+23-3	1692-1700	debatten	*[25]	_	_	_	_	_	
+23-4	1701-1703	om	*[25]	_	_	_	_	_	
+23-5	1704-1714	invandring	*[25]	_	_	_	_	_	
+23-6	1715-1718	och	*[25]	_	_	_	_	_	
+23-7	1719-1730	integration	*[25]	_	_	_	_	_	
+23-8	1731-1733	av	_	_	_	_	_	_	
+23-9	1734-1744	ängslighet	_	_	_	false	2	23-1[14_0]	
+23-10	1744-1745	,	_	_	_	_	_	_	
+23-11	1746-1749	där	_	_	_	_	_	_	
+23-12	1750-1760	debattörer	*[26]	_	_	_	_	_	
+23-13	1761-1763	är	*[26]	_	_	_	_	_	
+23-14	1764-1770	snabba	*[26]	_	_	_	_	_	
+23-15	1771-1774	med	*[26]	_	_	_	_	_	
+23-16	1775-1778	att	*[26]	_	_	_	_	_	
+23-17	1779-1784	sätta	*[26]	_	_	_	_	_	
+23-18	1785-1794	etiketter	*[26]	_	_	_	_	_	
+23-19	1795-1797	på	*[26]	_	_	_	_	_	
+23-20	1798-1806	varandra	*[26]	_	_	_	_	_	
+23-21	1806-1807	.	_	_	_	_	_	_	
+
+#Text=Det löser inga problem.
+24-1	1808-1811	Det	_	_	_	_	_	_	
+24-2	1812-1817	löser	_	Target[15]	23-12[26]	false[15]	2[15]	_	
+24-3	1818-1822	inga	_	Target[15]	23-12[26]	false[15]	2[15]	_	
+24-4	1823-1830	problem	_	Target[15]	23-12[26]	false[15]	2[15]	_	
+24-5	1830-1831	.	_	_	_	_	_	_	
+
+#Text=Vi kommer att fortsätta fördjupa integrationspolitiken, utvärdera om den förda politiken har nått önskvärd effekt och presentera förslag utan att ängsligt snegla på vad andra tycker.
+25-1	1832-1834	Vi	_	_	_	_	_	_	
+25-2	1835-1841	kommer	_	_	_	_	_	_	
+25-3	1842-1845	att	_	_	_	_	_	_	
+25-4	1846-1855	fortsätta	_	_	_	_	_	_	
+25-5	1856-1864	fördjupa	_	_	_	_	_	_	
+25-6	1865-1886	integrationspolitiken	_	_	_	_	_	_	
+25-7	1886-1887	,	_	_	_	_	_	_	
+25-8	1888-1897	utvärdera	_	_	_	_	_	_	
+25-9	1898-1900	om	_	_	_	_	_	_	
+25-10	1901-1904	den	_	_	_	_	_	_	
+25-11	1905-1910	förda	_	_	_	_	_	_	
+25-12	1911-1920	politiken	_	_	_	_	_	_	
+25-13	1921-1924	har	_	_	_	_	_	_	
+25-14	1925-1929	nått	_	_	_	_	_	_	
+25-15	1930-1938	önskvärd	_	Target	25-16	false	4	_	
+25-16	1939-1945	effekt	*	_	_	_	_	_	
+25-17	1946-1949	och	_	_	_	_	_	_	
+25-18	1950-1960	presentera	_	_	_	_	_	_	
+25-19	1961-1968	förslag	_	_	_	_	_	_	
+25-20	1969-1973	utan	_	_	_	_	_	_	
+25-21	1974-1977	att	_	_	_	_	_	_	
+25-22	1978-1986	ängsligt	*[27]	Target[16]	25-22[27]	false[16]	2[16]	_	
+25-23	1987-1993	snegla	*[27]	Target[16]	25-22[27]	false[16]	2[16]	_	
+25-24	1994-1996	på	_	_	_	_	_	_	
+25-25	1997-2000	vad	_	_	_	_	_	_	
+25-26	2001-2006	andra	_	_	_	_	_	_	
+25-27	2007-2013	tycker	_	_	_	_	_	_	
+25-28	2013-2014	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2016-2017	#	_	_	_	_	_	_	
+26-2	2017-2018	P	_	_	_	_	_	_	
+26-3	2019-2022	IMM	_	_	_	_	_	_	
+26-4	2022-2023	.	_	_	_	_	_	_	
+
+#Text=Mats Persson, FP.
+27-1	2025-2029	Mats	_	_	_	_	_	_	
+27-2	2030-2037	Persson	_	_	_	_	_	_	
+27-3	2037-2038	,	_	_	_	_	_	_	
+27-4	2039-2041	FP	_	_	_	_	_	_	
+27-5	2041-2042	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2044-2045	#	_	_	_	_	_	_	
+28-2	2045-2046	P	_	_	_	_	_	_	
+28-3	2047-2050	IMM	_	_	_	_	_	_	
+28-4	2050-2051	.	_	_	_	_	_	_	
+
+#Text=Robert Hannah, FP.
+29-1	2053-2059	Robert	_	_	_	_	_	_	
+29-2	2060-2066	Hannah	_	_	_	_	_	_	
+29-3	2066-2067	,	_	_	_	_	_	_	
+29-4	2068-2070	FP	_	_	_	_	_	_	
+29-5	2070-2071	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2073-2074	#	_	_	_	_	_	_	
+30-2	2074-2075	P	_	_	_	_	_	_	
+30-3	2076-2079	IMM	_	_	_	_	_	_	
+30-4	2079-2080	.	_	_	_	_	_	_	
+
+#Text=Gulan Avci, FP.
+31-1	2082-2087	Gulan	_	_	_	_	_	_	
+31-2	2088-2092	Avci	_	_	_	_	_	_	
+31-3	2092-2093	,	_	_	_	_	_	_	
+31-4	2094-2096	FP	_	_	_	_	_	_	
+31-5	2096-2097	.	_	_	_	_	_	_	

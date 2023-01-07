@@ -1,0 +1,1132 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=M vill öka bilberoendet och skapa mer utsläpp.
+3-1	18-19	M	*	_	_	_	_	_	
+3-2	20-24	vill	_	Target[1]	3-1	false[1]	2[1]	_	
+3-3	25-28	öka	_	Target[1]	3-1	false[1]	2[1]	_	
+3-4	29-41	bilberoendet	_	Target[1]	3-1	false[1]	2[1]	_	
+3-5	42-45	och	_	_	_	_	_	_	
+3-6	46-51	skapa	_	_	_	_	_	_	
+3-7	52-55	mer	_	_	_	_	_	_	
+3-8	56-63	utsläpp	_	_	_	_	_	_	
+3-9	63-64	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=Vi miljöpartister ser goda möjligheter att skapa ett effektivt transportsystem på Södertörn, utan Tvärförbindelse Södertörn och svikna klimatåtaganden.
+5-1	75-77	Vi	*[9]	_	_	_	_	_	
+5-2	78-92	miljöpartister	*[9]|*[10]	_	_	_	_	_	
+5-3	93-96	ser	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-4	97-101	goda	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-5	102-113	möjligheter	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-6	114-117	att	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-7	118-123	skapa	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-8	124-127	ett	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-9	128-137	effektivt	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-10	138-153	transportsystem	_	Source;Target[2]	5-1[9];5-2[10]	false[2]	4[2]	_	
+5-11	154-156	på	_	_	_	_	_	_	
+5-12	157-166	Södertörn	_	_	_	_	_	_	
+5-13	166-167	,	_	_	_	_	_	_	
+5-14	168-172	utan	_	_	_	_	_	_	
+5-15	173-188	Tvärförbindelse	_	_	_	_	_	_	
+5-16	189-198	Södertörn	_	_	_	_	_	_	
+5-17	199-202	och	_	_	_	_	_	_	
+5-18	203-209	svikna	_	Target	5-20	false	2	_	
+5-19	210-225	klimatåtaganden	_	_	_	_	_	_	
+5-20	225-226	.	*	_	_	_	_	_	
+
+#Text=Men ni moderater vill till varje pris fortsätta bygga omodern infrastruktur, skriver fyra MP-politiker från Södertörn i en slutreplik.
+6-1	227-230	Men	_	_	_	_	_	_	
+6-2	231-233	ni	*[11]	_	_	_	_	_	
+6-3	234-243	moderater	*[11]	_	_	_	_	_	
+6-4	244-248	vill	_	_	_	_	_	_	
+6-5	249-253	till	_	_	_	_	_	_	
+6-6	254-259	varje	_	_	_	_	_	_	
+6-7	260-264	pris	_	_	_	_	_	_	
+6-8	265-274	fortsätta	_	Source;Target[3]	6-13[12];6-2[11]	false[3]	2[3]	_	
+6-9	275-280	bygga	_	Source;Target[3]	6-13[12];6-2[11]	false[3]	2[3]	_	
+6-10	281-288	omodern	_	Source;Target[3]	6-13[12];6-2[11]	false[3]	2[3]	_	
+6-11	289-302	infrastruktur	_	Source;Target[3]	6-13[12];6-2[11]	false[3]	2[3]	_	
+6-12	302-303	,	_	_	_	_	_	_	
+6-13	304-311	skriver	*[12]	_	_	_	_	_	
+6-14	312-316	fyra	*[12]	_	_	_	_	_	
+6-15	317-329	MP-politiker	*[12]	_	_	_	_	_	
+6-16	330-334	från	*[12]	_	_	_	_	_	
+6-17	335-344	Södertörn	*[12]	_	_	_	_	_	
+6-18	345-346	i	*[12]	_	_	_	_	_	
+6-19	347-349	en	*[12]	_	_	_	_	_	
+6-20	350-360	slutreplik	*[12]	_	_	_	_	_	
+6-21	360-361	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	363-364	#	_	_	_	_	_	_	
+7-2	364-365	P	_	_	_	_	_	_	
+7-3	366-369	IMM	_	_	_	_	_	_	
+7-4	369-370	.	_	_	_	_	_	_	
+
+#Text=Moderaterna Martina Mossberg och Sven Gustafsson, i Haninge, kallar motståndet mot Tvärförbindelse Södertörn ett svek mot över 400 000 invånare och alla kommuner på Södertörn.
+8-1	372-383	Moderaterna	*[13]	_	_	_	_	_	
+8-2	384-391	Martina	*[13]	_	_	_	_	_	
+8-3	392-400	Mossberg	*[13]	_	_	_	_	_	
+8-4	401-404	och	*[13]	_	_	_	_	_	
+8-5	405-409	Sven	*[13]	_	_	_	_	_	
+8-6	410-420	Gustafsson	*[13]	_	_	_	_	_	
+8-7	420-421	,	_	_	_	_	_	_	
+8-8	422-423	i	_	_	_	_	_	_	
+8-9	424-431	Haninge	_	_	_	_	_	_	
+8-10	431-432	,	_	_	_	_	_	_	
+8-11	433-439	kallar	_	_	_	_	_	_	
+8-12	440-450	motståndet	*[14]	_	_	_	_	_	
+8-13	451-454	mot	*[14]	_	_	_	_	_	
+8-14	455-470	Tvärförbindelse	*[14]	_	_	_	_	_	
+8-15	471-480	Södertörn	_	_	_	_	_	_	
+8-16	481-484	ett	_	_	_	_	_	_	
+8-17	485-489	svek	_	Source;Target	8-1[13];8-12[14]	false	2	_	
+8-18	490-493	mot	_	_	_	_	_	_	
+8-19	494-498	över	_	_	_	_	_	_	
+8-20	499-502	400	_	_	_	_	_	_	
+8-21	503-506	000	_	_	_	_	_	_	
+8-22	507-515	invånare	_	_	_	_	_	_	
+8-23	516-519	och	_	_	_	_	_	_	
+8-24	520-524	alla	_	_	_	_	_	_	
+8-25	525-533	kommuner	_	_	_	_	_	_	
+8-26	534-536	på	_	_	_	_	_	_	
+8-27	537-546	Södertörn	_	_	_	_	_	_	
+8-28	546-547	.	_	_	_	_	_	_	
+
+#Text=De anser att S och M ska respekteras i stora och avgörande frågor för Stockholmsregionens utveckling, vilket för dem innebär att tvinga fram Tvärförbindelse Södertörn.
+9-1	548-550	De	_	_	_	_	_	_	
+9-2	551-556	anser	_	_	_	_	_	_	
+9-3	557-560	att	_	_	_	_	_	_	
+9-4	561-562	S	_	_	_	_	_	_	
+9-5	563-566	och	_	_	_	_	_	_	
+9-6	567-568	M	_	_	_	_	_	_	
+9-7	569-572	ska	_	_	_	_	_	_	
+9-8	573-584	respekteras	_	_	_	_	_	_	
+9-9	585-586	i	_	_	_	_	_	_	
+9-10	587-592	stora	_	_	_	_	_	_	
+9-11	593-596	och	_	_	_	_	_	_	
+9-12	597-606	avgörande	_	_	_	_	_	_	
+9-13	607-613	frågor	_	_	_	_	_	_	
+9-14	614-617	för	_	_	_	_	_	_	
+9-15	618-637	Stockholmsregionens	_	_	_	_	_	_	
+9-16	638-648	utveckling	_	_	_	_	_	_	
+9-17	648-649	,	_	_	_	_	_	_	
+9-18	650-656	vilket	_	_	_	_	_	_	
+9-19	657-660	för	_	_	_	_	_	_	
+9-20	661-664	dem	_	_	_	_	_	_	
+9-21	665-672	innebär	_	_	_	_	_	_	
+9-22	673-676	att	_	_	_	_	_	_	
+9-23	677-683	tvinga	_	_	_	_	_	_	
+9-24	684-688	fram	_	_	_	_	_	_	
+9-25	689-704	Tvärförbindelse	_	_	_	_	_	_	
+9-26	705-714	Södertörn	_	_	_	_	_	_	
+9-27	714-715	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	717-718	#	_	_	_	_	_	_	
+10-2	718-719	P	_	_	_	_	_	_	
+10-3	720-723	IMM	_	_	_	_	_	_	
+10-4	723-724	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	726-729	Det	_	_	_	_	_	_	
+11-2	730-733	här	_	_	_	_	_	_	
+11-3	734-736	är	_	_	_	_	_	_	
+11-4	737-739	en	_	_	_	_	_	_	
+11-5	740-754	argumenterande	_	_	_	_	_	_	
+11-6	755-759	text	_	_	_	_	_	_	
+11-7	760-763	med	_	_	_	_	_	_	
+11-8	764-769	syfte	_	_	_	_	_	_	
+11-9	770-773	att	_	_	_	_	_	_	
+11-10	774-781	påverka	_	_	_	_	_	_	
+11-11	781-782	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	783-792	Åsikterna	_	_	_	_	_	_	
+12-2	793-796	som	_	_	_	_	_	_	
+12-3	797-805	uttrycks	_	_	_	_	_	_	
+12-4	806-808	är	_	_	_	_	_	_	
+12-5	809-820	skribentens	_	_	_	_	_	_	
+12-6	821-825	egna	_	_	_	_	_	_	
+12-7	825-826	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	828-829	#	_	_	_	_	_	_	
+13-2	829-830	P	_	_	_	_	_	_	
+13-3	831-834	IMM	_	_	_	_	_	_	
+13-4	834-835	.	_	_	_	_	_	_	
+
+#Text=Vi, å andra sidan, tycker att vi måste lägga partipolitiken åt sidan i de stora och avgörande frågorna, vilket för oss handlar om den klimatutmaning som vi har framför oss.
+14-1	837-839	Vi	_	_	_	_	_	_	
+14-2	839-840	,	_	_	_	_	_	_	
+14-3	841-842	å	_	_	_	_	_	_	
+14-4	843-848	andra	_	_	_	_	_	_	
+14-5	849-854	sidan	_	_	_	_	_	_	
+14-6	854-855	,	_	_	_	_	_	_	
+14-7	856-862	tycker	_	_	_	_	_	_	
+14-8	863-866	att	_	_	_	_	_	_	
+14-9	867-869	vi	_	_	_	_	_	_	
+14-10	870-875	måste	_	_	_	_	_	_	
+14-11	876-881	lägga	_	_	_	_	_	_	
+14-12	882-896	partipolitiken	_	_	_	_	_	_	
+14-13	897-899	åt	_	_	_	_	_	_	
+14-14	900-905	sidan	_	_	_	_	_	_	
+14-15	906-907	i	_	_	_	_	_	_	
+14-16	908-910	de	_	_	_	_	_	_	
+14-17	911-916	stora	_	_	_	_	_	_	
+14-18	917-920	och	_	_	_	_	_	_	
+14-19	921-930	avgörande	_	_	_	_	_	_	
+14-20	931-939	frågorna	_	_	_	_	_	_	
+14-21	939-940	,	_	_	_	_	_	_	
+14-22	941-947	vilket	_	_	_	_	_	_	
+14-23	948-951	för	_	_	_	_	_	_	
+14-24	952-955	oss	_	_	_	_	_	_	
+14-25	956-963	handlar	_	_	_	_	_	_	
+14-26	964-966	om	_	_	_	_	_	_	
+14-27	967-970	den	_	_	_	_	_	_	
+14-28	971-985	klimatutmaning	_	_	_	_	_	_	
+14-29	986-989	som	_	_	_	_	_	_	
+14-30	990-992	vi	_	_	_	_	_	_	
+14-31	993-996	har	_	_	_	_	_	_	
+14-32	997-1004	framför	_	_	_	_	_	_	
+14-33	1005-1008	oss	_	_	_	_	_	_	
+14-34	1008-1009	.	_	_	_	_	_	_	
+
+#Text=Att minska utsläppen från transporterna är ett måste!
+15-1	1010-1013	Att	_	_	_	_	_	_	
+15-2	1014-1020	minska	_	_	_	_	_	_	
+15-3	1021-1030	utsläppen	_	_	_	_	_	_	
+15-4	1031-1035	från	_	_	_	_	_	_	
+15-5	1036-1049	transporterna	_	_	_	_	_	_	
+15-6	1050-1052	är	_	_	_	_	_	_	
+15-7	1053-1056	ett	_	_	_	_	_	_	
+15-8	1057-1062	måste	_	_	_	_	_	_	
+15-9	1062-1063	!	_	_	_	_	_	_	
+
+#Text=Trafikverket och Naturvårdsverket är eniga: Ny teknik räcker inte – det kommer krävas en avsevärd minskning av motortrafiken och de största utsläppsminskningarna måste ske i storstadsregionerna!
+16-1	1064-1076	Trafikverket	_	_	_	_	_	_	
+16-2	1077-1080	och	_	_	_	_	_	_	
+16-3	1081-1097	Naturvårdsverket	_	_	_	_	_	_	
+16-4	1098-1100	är	_	_	_	_	_	_	
+16-5	1101-1106	eniga	_	_	_	_	_	_	
+16-6	1106-1107	:	_	_	_	_	_	_	
+16-7	1108-1110	Ny	_	_	_	_	_	_	
+16-8	1111-1117	teknik	_	_	_	_	_	_	
+16-9	1118-1124	räcker	_	_	_	_	_	_	
+16-10	1125-1129	inte	_	_	_	_	_	_	
+16-11	1130-1131	–	_	_	_	_	_	_	
+16-12	1132-1135	det	_	_	_	_	_	_	
+16-13	1136-1142	kommer	_	_	_	_	_	_	
+16-14	1143-1149	krävas	_	_	_	_	_	_	
+16-15	1150-1152	en	_	_	_	_	_	_	
+16-16	1153-1161	avsevärd	_	_	_	_	_	_	
+16-17	1162-1171	minskning	_	_	_	_	_	_	
+16-18	1172-1174	av	_	_	_	_	_	_	
+16-19	1175-1188	motortrafiken	_	_	_	_	_	_	
+16-20	1189-1192	och	_	_	_	_	_	_	
+16-21	1193-1195	de	_	_	_	_	_	_	
+16-22	1196-1203	största	_	_	_	_	_	_	
+16-23	1204-1225	utsläppsminskningarna	_	_	_	_	_	_	
+16-24	1226-1231	måste	_	_	_	_	_	_	
+16-25	1232-1235	ske	_	_	_	_	_	_	
+16-26	1236-1237	i	_	_	_	_	_	_	
+16-27	1238-1257	storstadsregionerna	_	_	_	_	_	_	
+16-28	1257-1258	!	_	_	_	_	_	_	
+
+#Text=Detta kräver i sin tur en omställning av hela vår planering av transportsystemet.
+17-1	1259-1264	Detta	_	_	_	_	_	_	
+17-2	1265-1271	kräver	_	_	_	_	_	_	
+17-3	1272-1273	i	_	_	_	_	_	_	
+17-4	1274-1277	sin	_	_	_	_	_	_	
+17-5	1278-1281	tur	_	_	_	_	_	_	
+17-6	1282-1284	en	_	_	_	_	_	_	
+17-7	1285-1296	omställning	_	_	_	_	_	_	
+17-8	1297-1299	av	_	_	_	_	_	_	
+17-9	1300-1304	hela	_	_	_	_	_	_	
+17-10	1305-1308	vår	_	_	_	_	_	_	
+17-11	1309-1318	planering	_	_	_	_	_	_	
+17-12	1319-1321	av	_	_	_	_	_	_	
+17-13	1322-1339	transportsystemet	_	_	_	_	_	_	
+17-14	1339-1340	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1342-1343	#	_	_	_	_	_	_	
+18-2	1343-1344	P	_	_	_	_	_	_	
+18-3	1345-1348	IMM	_	_	_	_	_	_	
+18-4	1348-1349	.	_	_	_	_	_	_	
+
+#Text=I juni i år antog riksdagen det klimatpolitiska ramverket, vilket träder i kraft den 1 januari 2018.
+19-1	1351-1352	I	_	_	_	_	_	_	
+19-2	1353-1357	juni	_	_	_	_	_	_	
+19-3	1358-1359	i	_	_	_	_	_	_	
+19-4	1360-1362	år	_	_	_	_	_	_	
+19-5	1363-1368	antog	_	_	_	_	_	_	
+19-6	1369-1378	riksdagen	_	_	_	_	_	_	
+19-7	1379-1382	det	_	_	_	_	_	_	
+19-8	1383-1398	klimatpolitiska	_	_	_	_	_	_	
+19-9	1399-1408	ramverket	_	_	_	_	_	_	
+19-10	1408-1409	,	_	_	_	_	_	_	
+19-11	1410-1416	vilket	_	_	_	_	_	_	
+19-12	1417-1423	träder	_	_	_	_	_	_	
+19-13	1424-1425	i	_	_	_	_	_	_	
+19-14	1426-1431	kraft	_	_	_	_	_	_	
+19-15	1432-1435	den	_	_	_	_	_	_	
+19-16	1436-1437	1	_	_	_	_	_	_	
+19-17	1438-1445	januari	_	_	_	_	_	_	
+19-18	1446-1450	2018	_	_	_	_	_	_	
+19-19	1450-1451	.	_	_	_	_	_	_	
+
+#Text=Klimatlagen ska ge Sverige en långsiktig och stabil klimatpolitik.
+20-1	1452-1463	Klimatlagen	*	_	_	_	_	_	
+20-2	1464-1467	ska	_	Target[4]	20-1	false[4]	4[4]	_	
+20-3	1468-1470	ge	_	Target[4]	20-1	false[4]	4[4]	_	
+20-4	1471-1478	Sverige	_	Target[4]	20-1	false[4]	4[4]	_	
+20-5	1479-1481	en	_	Target[4]	20-1	false[4]	4[4]	_	
+20-6	1482-1492	långsiktig	_	Target[4]	20-1	false[4]	4[4]	_	
+20-7	1493-1496	och	_	Target[4]	20-1	false[4]	4[4]	_	
+20-8	1497-1503	stabil	_	Target[4]	20-1	false[4]	4[4]	_	
+20-9	1504-1517	klimatpolitik	_	Target[4]	20-1	false[4]	4[4]	_	
+20-10	1517-1518	.	_	_	_	_	_	_	
+
+#Text=Bakom överenskommelsen står förutom Miljöpartiet, Moderaterna, Socialdemokraterna, Liberalerna, Centerpartiet och Kristdemokraterna, samt i vissa delar även Vänsterpartiet.
+21-1	1519-1524	Bakom	_	_	_	_	_	_	
+21-2	1525-1541	överenskommelsen	_	_	_	_	_	_	
+21-3	1542-1546	står	_	_	_	_	_	_	
+21-4	1547-1554	förutom	_	_	_	_	_	_	
+21-5	1555-1567	Miljöpartiet	_	_	_	_	_	_	
+21-6	1567-1568	,	_	_	_	_	_	_	
+21-7	1569-1580	Moderaterna	_	_	_	_	_	_	
+21-8	1580-1581	,	_	_	_	_	_	_	
+21-9	1582-1600	Socialdemokraterna	_	_	_	_	_	_	
+21-10	1600-1601	,	_	_	_	_	_	_	
+21-11	1602-1613	Liberalerna	_	_	_	_	_	_	
+21-12	1613-1614	,	_	_	_	_	_	_	
+21-13	1615-1628	Centerpartiet	_	_	_	_	_	_	
+21-14	1629-1632	och	_	_	_	_	_	_	
+21-15	1633-1650	Kristdemokraterna	_	_	_	_	_	_	
+21-16	1650-1651	,	_	_	_	_	_	_	
+21-17	1652-1656	samt	_	_	_	_	_	_	
+21-18	1657-1658	i	_	_	_	_	_	_	
+21-19	1659-1664	vissa	_	_	_	_	_	_	
+21-20	1665-1670	delar	_	_	_	_	_	_	
+21-21	1671-1675	även	_	_	_	_	_	_	
+21-22	1676-1690	Vänsterpartiet	_	_	_	_	_	_	
+21-23	1690-1691	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1693-1694	#	_	_	_	_	_	_	
+22-2	1694-1695	P	_	_	_	_	_	_	
+22-3	1696-1699	IMM	_	_	_	_	_	_	
+22-4	1699-1700	.	_	_	_	_	_	_	
+
+#Text=Transportsektorn står för cirka en tredjedel av Sveriges utsläpp och i Stockholms län drygt hälften.
+23-1	1702-1718	Transportsektorn	_	_	_	_	_	_	
+23-2	1719-1723	står	_	_	_	_	_	_	
+23-3	1724-1727	för	_	_	_	_	_	_	
+23-4	1728-1733	cirka	_	_	_	_	_	_	
+23-5	1734-1736	en	_	_	_	_	_	_	
+23-6	1737-1746	tredjedel	_	_	_	_	_	_	
+23-7	1747-1749	av	_	_	_	_	_	_	
+23-8	1750-1758	Sveriges	_	_	_	_	_	_	
+23-9	1759-1766	utsläpp	_	_	_	_	_	_	
+23-10	1767-1770	och	_	_	_	_	_	_	
+23-11	1771-1772	i	_	_	_	_	_	_	
+23-12	1773-1783	Stockholms	_	_	_	_	_	_	
+23-13	1784-1787	län	_	_	_	_	_	_	
+23-14	1788-1793	drygt	_	_	_	_	_	_	
+23-15	1794-1801	hälften	_	_	_	_	_	_	
+23-16	1801-1802	.	_	_	_	_	_	_	
+
+#Text=Sverige har förbundit sig att minska transportsektorns utsläpp med 70 procent till 2030.
+24-1	1803-1810	Sverige	_	_	_	_	_	_	
+24-2	1811-1814	har	_	_	_	_	_	_	
+24-3	1815-1824	förbundit	_	_	_	_	_	_	
+24-4	1825-1828	sig	_	_	_	_	_	_	
+24-5	1829-1832	att	_	_	_	_	_	_	
+24-6	1833-1839	minska	_	_	_	_	_	_	
+24-7	1840-1857	transportsektorns	_	_	_	_	_	_	
+24-8	1858-1865	utsläpp	_	_	_	_	_	_	
+24-9	1866-1869	med	_	_	_	_	_	_	
+24-10	1870-1872	70	_	_	_	_	_	_	
+24-11	1873-1880	procent	_	_	_	_	_	_	
+24-12	1881-1885	till	_	_	_	_	_	_	
+24-13	1886-1890	2030	_	_	_	_	_	_	
+24-14	1890-1891	.	_	_	_	_	_	_	
+
+#Text=Och i det perspektivet är inte Tvärförbindelse Södertörn en förutsättning för Södertörns och Stockholmsregionens utveckling.
+25-1	1892-1895	Och	_	_	_	_	_	_	
+25-2	1896-1897	i	_	_	_	_	_	_	
+25-3	1898-1901	det	_	_	_	_	_	_	
+25-4	1902-1914	perspektivet	_	_	_	_	_	_	
+25-5	1915-1917	är	_	_	_	_	_	_	
+25-6	1918-1922	inte	_	_	_	_	_	_	
+25-7	1923-1938	Tvärförbindelse	_	_	_	_	_	_	
+25-8	1939-1948	Södertörn	_	_	_	_	_	_	
+25-9	1949-1951	en	_	_	_	_	_	_	
+25-10	1952-1965	förutsättning	_	_	_	_	_	_	
+25-11	1966-1969	för	_	_	_	_	_	_	
+25-12	1970-1980	Södertörns	_	_	_	_	_	_	
+25-13	1981-1984	och	_	_	_	_	_	_	
+25-14	1985-2004	Stockholmsregionens	_	_	_	_	_	_	
+25-15	2005-2015	utveckling	_	_	_	_	_	_	
+25-16	2015-2016	.	_	_	_	_	_	_	
+
+#Text=Tvärtom!.
+26-1	2017-2024	Tvärtom	_	_	_	_	_	_	
+26-2	2024-2025	!	_	_	_	_	_	_	
+26-3	2025-2026	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2028-2029	#	_	_	_	_	_	_	
+27-2	2029-2030	P	_	_	_	_	_	_	
+27-3	2031-2034	IMM	_	_	_	_	_	_	
+27-4	2034-2035	.	_	_	_	_	_	_	
+
+#Text=Det håller inte att tvinga fram en ofinansierad motorväg, oavsett om den går över eller under mark!
+28-1	2037-2040	Det	_	_	_	_	_	_	
+28-2	2041-2047	håller	_	_	_	_	_	_	
+28-3	2048-2052	inte	_	_	_	_	_	_	
+28-4	2053-2056	att	_	_	_	_	_	_	
+28-5	2057-2063	tvinga	_	_	_	_	_	_	
+28-6	2064-2068	fram	_	_	_	_	_	_	
+28-7	2069-2071	en	_	_	_	_	_	_	
+28-8	2072-2084	ofinansierad	_	_	_	_	_	_	
+28-9	2085-2093	motorväg	_	_	_	_	_	_	
+28-10	2093-2094	,	_	_	_	_	_	_	
+28-11	2095-2102	oavsett	_	_	_	_	_	_	
+28-12	2103-2105	om	_	_	_	_	_	_	
+28-13	2106-2109	den	_	_	_	_	_	_	
+28-14	2110-2113	går	_	_	_	_	_	_	
+28-15	2114-2118	över	_	_	_	_	_	_	
+28-16	2119-2124	eller	_	_	_	_	_	_	
+28-17	2125-2130	under	_	_	_	_	_	_	
+28-18	2131-2135	mark	_	_	_	_	_	_	
+28-19	2135-2136	!	_	_	_	_	_	_	
+
+#Text=I en modern storstadsregion bygger vi transportsystem för tillgänglighet och mobilitet, utan de lokala och globala miljöproblem som ökad biltrafik medför.
+29-1	2137-2138	I	_	_	_	_	_	_	
+29-2	2139-2141	en	_	_	_	_	_	_	
+29-3	2142-2148	modern	_	_	_	_	_	_	
+29-4	2149-2164	storstadsregion	_	_	_	_	_	_	
+29-5	2165-2171	bygger	_	_	_	_	_	_	
+29-6	2172-2174	vi	_	_	_	_	_	_	
+29-7	2175-2190	transportsystem	_	_	_	_	_	_	
+29-8	2191-2194	för	_	_	_	_	_	_	
+29-9	2195-2209	tillgänglighet	_	_	_	_	_	_	
+29-10	2210-2213	och	_	_	_	_	_	_	
+29-11	2214-2223	mobilitet	_	_	_	_	_	_	
+29-12	2223-2224	,	_	_	_	_	_	_	
+29-13	2225-2229	utan	_	_	_	_	_	_	
+29-14	2230-2232	de	_	_	_	_	_	_	
+29-15	2233-2239	lokala	_	_	_	_	_	_	
+29-16	2240-2243	och	_	_	_	_	_	_	
+29-17	2244-2251	globala	_	_	_	_	_	_	
+29-18	2252-2264	miljöproblem	_	_	_	_	_	_	
+29-19	2265-2268	som	_	_	_	_	_	_	
+29-20	2269-2273	ökad	_	_	_	_	_	_	
+29-21	2274-2283	biltrafik	_	_	_	_	_	_	
+29-22	2284-2290	medför	_	_	_	_	_	_	
+29-23	2290-2291	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2293-2294	#	_	_	_	_	_	_	
+30-2	2294-2295	P	_	_	_	_	_	_	
+30-3	2296-2299	IMM	_	_	_	_	_	_	
+30-4	2299-2300	.	_	_	_	_	_	_	
+
+#Text=Så frågan är hur moderaterna ska sänka utsläppen?!
+31-1	2302-2304	Så	_	_	_	_	_	_	
+31-2	2305-2311	frågan	_	_	_	_	_	_	
+31-3	2312-2314	är	_	_	_	_	_	_	
+31-4	2315-2318	hur	_	_	_	_	_	_	
+31-5	2319-2330	moderaterna	*	_	_	_	_	32-1	
+31-6	2331-2334	ska	_	_	_	_	_	_	
+31-7	2335-2340	sänka	_	_	_	_	_	_	
+31-8	2341-2350	utsläppen	_	_	_	_	_	_	
+31-9	2350-2351	?	_	_	_	_	_	_	
+31-10	2351-2352	!	_	_	_	_	_	_	
+
+#Text=Ni undergräver kommunernas och regionens klimatåtaganden, ni bortser helt från Naturvårdsverkets mycket allvarliga kritik och sist men inte minst, ni lägger uppenbarligen inte särskilt stor vikt vid Sveriges klimatramverk som ni varit med och undertecknat.
+32-1	2353-2355	Ni	*	_	_	_	_	_	
+32-2	2356-2367	undergräver	_	Target[5]	32-1	false[5]	2[5]	_	
+32-3	2368-2379	kommunernas	_	Target[5]	32-1	false[5]	2[5]	_	
+32-4	2380-2383	och	_	Target[5]	32-1	false[5]	2[5]	_	
+32-5	2384-2393	regionens	_	Target[5]	32-1	false[5]	2[5]	_	
+32-6	2394-2409	klimatåtaganden	_	Target[5]	32-1	false[5]	2[5]	_	
+32-7	2409-2410	,	_	_	_	_	_	_	
+32-8	2411-2413	ni	_	_	_	_	_	_	
+32-9	2414-2421	bortser	_	_	_	_	_	_	
+32-10	2422-2426	helt	_	_	_	_	_	_	
+32-11	2427-2431	från	_	_	_	_	_	_	
+32-12	2432-2449	Naturvårdsverkets	_	_	_	_	_	_	
+32-13	2450-2456	mycket	_	_	_	_	_	_	
+32-14	2457-2467	allvarliga	_	_	_	_	_	_	
+32-15	2468-2474	kritik	_	_	_	_	_	_	
+32-16	2475-2478	och	_	_	_	_	_	_	
+32-17	2479-2483	sist	_	_	_	_	_	_	
+32-18	2484-2487	men	_	_	_	_	_	_	
+32-19	2488-2492	inte	_	_	_	_	_	_	
+32-20	2493-2498	minst	_	_	_	_	_	_	
+32-21	2498-2499	,	_	_	_	_	_	_	
+32-22	2500-2502	ni	_	_	_	_	_	_	
+32-23	2503-2509	lägger	_	_	_	_	_	_	
+32-24	2510-2523	uppenbarligen	_	_	_	_	_	_	
+32-25	2524-2528	inte	_	_	_	_	_	_	
+32-26	2529-2537	särskilt	_	_	_	_	_	_	
+32-27	2538-2542	stor	_	_	_	_	_	_	
+32-28	2543-2547	vikt	_	_	_	_	_	_	
+32-29	2548-2551	vid	_	_	_	_	_	_	
+32-30	2552-2560	Sveriges	_	_	_	_	_	_	
+32-31	2561-2574	klimatramverk	_	_	_	_	_	_	
+32-32	2575-2578	som	_	_	_	_	_	_	
+32-33	2579-2581	ni	_	_	_	_	_	_	
+32-34	2582-2587	varit	_	_	_	_	_	_	
+32-35	2588-2591	med	_	_	_	_	_	_	
+32-36	2592-2595	och	_	_	_	_	_	_	
+32-37	2596-2608	undertecknat	_	_	_	_	_	_	
+32-38	2608-2609	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2611-2612	#	_	_	_	_	_	_	
+33-2	2612-2613	P	_	_	_	_	_	_	
+33-3	2614-2617	IMM	_	_	_	_	_	_	
+33-4	2617-2618	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+34-1	2620-2633	Skräddarsydda	_	_	_	_	_	_	
+34-2	2634-2640	kurser	_	_	_	_	_	_	
+34-3	2641-2642	i	_	_	_	_	_	_	
+34-4	2643-2648	ämnen	_	_	_	_	_	_	
+34-5	2649-2652	som	_	_	_	_	_	_	
+34-6	2653-2664	intresserar	_	_	_	_	_	_	
+34-7	2665-2668	och	_	_	_	_	_	_	
+34-8	2669-2678	engagerar	_	_	_	_	_	_	
+34-9	2679-2683	både	_	_	_	_	_	_	
+34-10	2684-2689	kropp	_	_	_	_	_	_	
+34-11	2690-2693	och	_	_	_	_	_	_	
+34-12	2694-2698	själ	_	_	_	_	_	_	
+34-13	2698-2699	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2701-2702	#	_	_	_	_	_	_	
+35-2	2702-2703	P	_	_	_	_	_	_	
+35-3	2704-2707	IMM	_	_	_	_	_	_	
+35-4	2707-2708	.	_	_	_	_	_	_	
+
+#Text=Varför ska vi tvinga fram en infrastruktur med ökade utsläpp och som driver upp bilberoendet i Stockholm?
+36-1	2710-2716	Varför	_	_	_	_	_	_	
+36-2	2717-2720	ska	_	_	_	_	_	_	
+36-3	2721-2723	vi	_	_	_	_	_	_	
+36-4	2724-2730	tvinga	_	_	_	_	_	_	
+36-5	2731-2735	fram	_	_	_	_	_	_	
+36-6	2736-2738	en	_	_	_	_	_	_	
+36-7	2739-2752	infrastruktur	_	_	_	_	_	_	
+36-8	2753-2756	med	_	_	_	_	_	_	
+36-9	2757-2762	ökade	_	_	_	_	_	_	
+36-10	2763-2770	utsläpp	_	_	_	_	_	_	
+36-11	2771-2774	och	_	_	_	_	_	_	
+36-12	2775-2778	som	_	_	_	_	_	_	
+36-13	2779-2785	driver	_	_	_	_	_	_	
+36-14	2786-2789	upp	_	_	_	_	_	_	
+36-15	2790-2802	bilberoendet	_	_	_	_	_	_	
+36-16	2803-2804	i	_	_	_	_	_	_	
+36-17	2805-2814	Stockholm	_	_	_	_	_	_	
+36-18	2814-2815	?	_	_	_	_	_	_	
+
+#Text=Därtill, varför skulle vi medverka till att något annat mer samhällsekonomiskt lönsamt infrastrukturprojekt i landet skulle få stryka på foten?
+37-1	2816-2823	Därtill	_	_	_	_	_	_	
+37-2	2823-2824	,	_	_	_	_	_	_	
+37-3	2825-2831	varför	_	_	_	_	_	_	
+37-4	2832-2838	skulle	_	_	_	_	_	_	
+37-5	2839-2841	vi	_	_	_	_	_	_	
+37-6	2842-2850	medverka	_	_	_	_	_	_	
+37-7	2851-2855	till	_	_	_	_	_	_	
+37-8	2856-2859	att	_	_	_	_	_	_	
+37-9	2860-2865	något	_	_	_	_	_	_	
+37-10	2866-2871	annat	_	_	_	_	_	_	
+37-11	2872-2875	mer	_	_	_	_	_	_	
+37-12	2876-2894	samhällsekonomiskt	_	_	_	_	_	_	
+37-13	2895-2902	lönsamt	_	_	_	_	_	_	
+37-14	2903-2923	infrastrukturprojekt	_	_	_	_	_	_	
+37-15	2924-2925	i	_	_	_	_	_	_	
+37-16	2926-2932	landet	_	_	_	_	_	_	
+37-17	2933-2939	skulle	_	_	_	_	_	_	
+37-18	2940-2942	få	_	_	_	_	_	_	
+37-19	2943-2949	stryka	_	_	_	_	_	_	
+37-20	2950-2952	på	_	_	_	_	_	_	
+37-21	2953-2958	foten	_	_	_	_	_	_	
+37-22	2958-2959	?	_	_	_	_	_	_	
+
+#Text=Det saknas ju trots allt 5,6 miljarder kronor till Tvärförbindelse Södertörn.
+38-1	2960-2963	Det	_	_	_	_	_	_	
+38-2	2964-2970	saknas	_	_	_	_	_	_	
+38-3	2971-2973	ju	_	_	_	_	_	_	
+38-4	2974-2979	trots	_	_	_	_	_	_	
+38-5	2980-2984	allt	_	_	_	_	_	_	
+38-6	2985-2988	5,6	_	_	_	_	_	_	
+38-7	2989-2998	miljarder	_	_	_	_	_	_	
+38-8	2999-3005	kronor	_	_	_	_	_	_	
+38-9	3006-3010	till	_	_	_	_	_	_	
+38-10	3011-3026	Tvärförbindelse	_	_	_	_	_	_	
+38-11	3027-3036	Södertörn	_	_	_	_	_	_	
+38-12	3036-3037	.	_	_	_	_	_	_	
+
+#Text=Vi kan inte se att denna motorväg skulle vara mer angelägen än något annat projekt i den nationella planen.
+39-1	3038-3040	Vi	_	_	_	_	_	_	
+39-2	3041-3044	kan	_	_	_	_	_	_	
+39-3	3045-3049	inte	_	_	_	_	_	_	
+39-4	3050-3052	se	_	_	_	_	_	_	
+39-5	3053-3056	att	_	_	_	_	_	_	
+39-6	3057-3062	denna	_	_	_	_	_	_	
+39-7	3063-3071	motorväg	_	_	_	_	_	_	
+39-8	3072-3078	skulle	_	_	_	_	_	_	
+39-9	3079-3083	vara	_	_	_	_	_	_	
+39-10	3084-3087	mer	_	_	_	_	_	_	
+39-11	3088-3097	angelägen	_	_	_	_	_	_	
+39-12	3098-3100	än	_	_	_	_	_	_	
+39-13	3101-3106	något	_	_	_	_	_	_	
+39-14	3107-3112	annat	_	_	_	_	_	_	
+39-15	3113-3120	projekt	_	_	_	_	_	_	
+39-16	3121-3122	i	_	_	_	_	_	_	
+39-17	3123-3126	den	_	_	_	_	_	_	
+39-18	3127-3137	nationella	_	_	_	_	_	_	
+39-19	3138-3144	planen	_	_	_	_	_	_	
+39-20	3144-3145	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3147-3148	#	_	_	_	_	_	_	
+40-2	3148-3149	P	_	_	_	_	_	_	
+40-3	3150-3153	IMM	_	_	_	_	_	_	
+40-4	3153-3154	.	_	_	_	_	_	_	
+
+#Text=Slutligen – ert påstående att Tvärförbindelse Södertörn kommer att generera 25 000 nya bostäder i Huddinge och Haninge är taget ur luften!
+41-1	3156-3165	Slutligen	_	_	_	_	_	_	
+41-2	3166-3167	–	_	_	_	_	_	_	
+41-3	3168-3171	ert	_	_	_	_	_	_	
+41-4	3172-3181	påstående	_	_	_	_	_	_	
+41-5	3182-3185	att	_	_	_	_	_	_	
+41-6	3186-3201	Tvärförbindelse	_	_	_	_	_	_	
+41-7	3202-3211	Södertörn	_	_	_	_	_	_	
+41-8	3212-3218	kommer	_	_	_	_	_	_	
+41-9	3219-3222	att	_	_	_	_	_	_	
+41-10	3223-3231	generera	_	_	_	_	_	_	
+41-11	3232-3234	25	_	_	_	_	_	_	
+41-12	3235-3238	000	_	_	_	_	_	_	
+41-13	3239-3242	nya	_	_	_	_	_	_	
+41-14	3243-3251	bostäder	_	_	_	_	_	_	
+41-15	3252-3253	i	_	_	_	_	_	_	
+41-16	3254-3262	Huddinge	_	_	_	_	_	_	
+41-17	3263-3266	och	_	_	_	_	_	_	
+41-18	3267-3274	Haninge	_	_	_	_	_	_	
+41-19	3275-3277	är	_	Target[6]	41-23	false[6]	2[6]	_	
+41-20	3278-3283	taget	_	Target[6]	41-23	false[6]	2[6]	_	
+41-21	3284-3286	ur	_	Target[6]	41-23	false[6]	2[6]	_	
+41-22	3287-3293	luften	_	Target[6]	41-23	false[6]	2[6]	_	
+41-23	3293-3294	!	*	_	_	_	_	_	
+
+#Text=Utgångspunkten vid bostadsplaneringen är att bostäder ska byggas i kollektivtrafiknära lägen, ej utmed motorvägar.
+42-1	3295-3309	Utgångspunkten	_	_	_	_	_	_	
+42-2	3310-3313	vid	_	_	_	_	_	_	
+42-3	3314-3332	bostadsplaneringen	_	_	_	_	_	_	
+42-4	3333-3335	är	_	_	_	_	_	_	
+42-5	3336-3339	att	_	_	_	_	_	_	
+42-6	3340-3348	bostäder	_	_	_	_	_	_	
+42-7	3349-3352	ska	_	_	_	_	_	_	
+42-8	3353-3359	byggas	_	_	_	_	_	_	
+42-9	3360-3361	i	_	_	_	_	_	_	
+42-10	3362-3381	kollektivtrafiknära	_	_	_	_	_	_	
+42-11	3382-3387	lägen	_	_	_	_	_	_	
+42-12	3387-3388	,	_	_	_	_	_	_	
+42-13	3389-3391	ej	_	_	_	_	_	_	
+42-14	3392-3397	utmed	_	_	_	_	_	_	
+42-15	3398-3408	motorvägar	_	_	_	_	_	_	
+42-16	3408-3409	.	_	_	_	_	_	_	
+
+#Text=Det är Spårväg syd som är nyckeln till bostadsbyggandet och där det finns ett åtagande.
+43-1	3410-3413	Det	_	_	_	_	_	_	
+43-2	3414-3416	är	_	_	_	_	_	_	
+43-3	3417-3424	Spårväg	_	_	_	_	_	_	
+43-4	3425-3428	syd	_	_	_	_	_	_	
+43-5	3429-3432	som	_	_	_	_	_	_	
+43-6	3433-3435	är	_	_	_	_	_	_	
+43-7	3436-3443	nyckeln	_	_	_	_	_	_	
+43-8	3444-3448	till	_	_	_	_	_	_	
+43-9	3449-3465	bostadsbyggandet	_	_	_	_	_	_	
+43-10	3466-3469	och	_	_	_	_	_	_	
+43-11	3470-3473	där	_	_	_	_	_	_	
+43-12	3474-3477	det	_	_	_	_	_	_	
+43-13	3478-3483	finns	_	_	_	_	_	_	
+43-14	3484-3487	ett	_	_	_	_	_	_	
+43-15	3488-3496	åtagande	_	_	_	_	_	_	
+43-16	3496-3497	.	_	_	_	_	_	_	
+
+#Text=Tvärförbindelse Södertörn motverkar tvärtom bostadsbyggandet!.
+44-1	3498-3513	Tvärförbindelse	_	_	_	_	_	_	
+44-2	3514-3523	Södertörn	_	_	_	_	_	_	
+44-3	3524-3533	motverkar	_	_	_	_	_	_	
+44-4	3534-3541	tvärtom	_	_	_	_	_	_	
+44-5	3542-3558	bostadsbyggandet	_	_	_	_	_	_	
+44-6	3558-3559	!	_	_	_	_	_	_	
+44-7	3559-3560	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3562-3563	#	_	_	_	_	_	_	
+45-2	3563-3564	P	_	_	_	_	_	_	
+45-3	3565-3568	IMM	_	_	_	_	_	_	
+45-4	3568-3569	.	_	_	_	_	_	_	
+
+#Text=Miljöpartiet ser goda möjligheter att skapa ett effektivt transportsystem på Södertörn, utan Tvärförbindelse Södertörn och svikna klimatåtaganden:.
+46-1	3571-3583	Miljöpartiet	*	_	_	_	_	_	
+46-2	3584-3587	ser	_	_	_	_	_	_	
+46-3	3588-3592	goda	_	_	_	_	_	_	
+46-4	3593-3604	möjligheter	_	_	_	_	_	_	
+46-5	3605-3608	att	_	_	_	_	_	_	
+46-6	3609-3614	skapa	_	_	_	_	_	_	
+46-7	3615-3618	ett	_	_	_	_	_	_	
+46-8	3619-3628	effektivt	_	_	_	_	_	_	
+46-9	3629-3644	transportsystem	_	_	_	_	_	_	
+46-10	3645-3647	på	_	_	_	_	_	_	
+46-11	3648-3657	Södertörn	_	_	_	_	_	_	
+46-12	3657-3658	,	_	_	_	_	_	_	
+46-13	3659-3663	utan	_	_	_	_	_	_	
+46-14	3664-3679	Tvärförbindelse	_	_	_	_	_	_	
+46-15	3680-3689	Södertörn	_	_	_	_	_	_	
+46-16	3690-3693	och	_	_	_	_	_	_	
+46-17	3694-3700	svikna	*[15]	Source;Target[7]	46-1;46-17[15]	false[7]	2[7]	_	
+46-18	3701-3716	klimatåtaganden	*[15]	Source;Target[7]	46-1;46-17[15]	false[7]	2[7]	_	
+46-19	3716-3717	:	_	_	_	_	_	_	
+46-20	3717-3718	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+47-1	3720-3721	#	_	_	_	_	_	_	
+47-2	3721-3722	P	_	_	_	_	_	_	
+47-3	3723-3726	IMM	_	_	_	_	_	_	
+
+#Text=.
+48-1	3726-3727	.	_	_	_	_	_	_	
+
+#Text=• Godstransporter från den nya containerhamnen i Norvik till Mälardalen kan ske genom dubbelspår till Nynäshamn och/eller spårtrafik för gods från Norvik till Södertälje.
+49-1	3729-3730	•	_	_	_	_	_	_	
+49-2	3731-3746	Godstransporter	_	_	_	_	_	_	
+49-3	3747-3751	från	_	_	_	_	_	_	
+49-4	3752-3755	den	_	_	_	_	_	_	
+49-5	3756-3759	nya	_	_	_	_	_	_	
+49-6	3760-3775	containerhamnen	_	_	_	_	_	_	
+49-7	3776-3777	i	_	_	_	_	_	_	
+49-8	3778-3784	Norvik	_	_	_	_	_	_	
+49-9	3785-3789	till	_	_	_	_	_	_	
+49-10	3790-3800	Mälardalen	_	_	_	_	_	_	
+49-11	3801-3804	kan	_	_	_	_	_	_	
+49-12	3805-3808	ske	_	_	_	_	_	_	
+49-13	3809-3814	genom	_	_	_	_	_	_	
+49-14	3815-3825	dubbelspår	_	_	_	_	_	_	
+49-15	3826-3830	till	_	_	_	_	_	_	
+49-16	3831-3840	Nynäshamn	_	_	_	_	_	_	
+49-17	3841-3844	och	_	_	_	_	_	_	
+49-18	3844-3845	/	_	_	_	_	_	_	
+49-19	3845-3850	eller	_	_	_	_	_	_	
+49-20	3851-3861	spårtrafik	_	_	_	_	_	_	
+49-21	3862-3865	för	_	_	_	_	_	_	
+49-22	3866-3870	gods	_	_	_	_	_	_	
+49-23	3871-3875	från	_	_	_	_	_	_	
+49-24	3876-3882	Norvik	_	_	_	_	_	_	
+49-25	3883-3887	till	_	_	_	_	_	_	
+49-26	3888-3898	Södertälje	_	_	_	_	_	_	
+49-27	3898-3899	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+50-1	3901-3902	#	_	_	_	_	_	_	
+50-2	3902-3903	P	_	_	_	_	_	_	
+50-3	3904-3907	IMM	_	_	_	_	_	_	
+
+#Text=.
+51-1	3907-3908	.	_	_	_	_	_	_	
+
+#Text=• Jordbros verksamhetsområden med spår ansluter till kombiterminalen för omlastning mellan väg och järnväg i Årsta/Västberga.
+52-1	3910-3911	•	_	_	_	_	_	_	
+52-2	3912-3920	Jordbros	_	_	_	_	_	_	
+52-3	3921-3939	verksamhetsområden	_	_	_	_	_	_	
+52-4	3940-3943	med	_	_	_	_	_	_	
+52-5	3944-3948	spår	_	_	_	_	_	_	
+52-6	3949-3957	ansluter	_	_	_	_	_	_	
+52-7	3958-3962	till	_	_	_	_	_	_	
+52-8	3963-3978	kombiterminalen	_	_	_	_	_	_	
+52-9	3979-3982	för	_	_	_	_	_	_	
+52-10	3983-3993	omlastning	_	_	_	_	_	_	
+52-11	3994-4000	mellan	_	_	_	_	_	_	
+52-12	4001-4004	väg	_	_	_	_	_	_	
+52-13	4005-4008	och	_	_	_	_	_	_	
+52-14	4009-4016	järnväg	_	_	_	_	_	_	
+52-15	4017-4018	i	_	_	_	_	_	_	
+52-16	4019-4024	Årsta	_	_	_	_	_	_	
+52-17	4024-4025	/	_	_	_	_	_	_	
+52-18	4025-4034	Västberga	_	_	_	_	_	_	
+52-19	4034-4035	.	_	_	_	_	_	_	
+
+#Text=I Södertälje finns logistikcentra med omlastningsmöjlighet från såväl båt som tåg.
+53-1	4036-4037	I	_	_	_	_	_	_	
+53-2	4038-4048	Södertälje	_	_	_	_	_	_	
+53-3	4049-4054	finns	_	_	_	_	_	_	
+53-4	4055-4069	logistikcentra	_	_	_	_	_	_	
+53-5	4070-4073	med	_	_	_	_	_	_	
+53-6	4074-4094	omlastningsmöjlighet	_	_	_	_	_	_	
+53-7	4095-4099	från	_	_	_	_	_	_	
+53-8	4100-4105	såväl	_	_	_	_	_	_	
+53-9	4106-4109	båt	_	_	_	_	_	_	
+53-10	4110-4113	som	_	_	_	_	_	_	
+53-11	4114-4117	tåg	_	_	_	_	_	_	
+53-12	4117-4118	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+54-1	4120-4121	#	_	_	_	_	_	_	
+54-2	4121-4122	P	_	_	_	_	_	_	
+54-3	4123-4126	IMM	_	_	_	_	_	_	
+
+#Text=.
+55-1	4126-4127	.	_	_	_	_	_	_	
+
+#Text=• Räta ut och bredda väg 225, som är den kortaste vägen mellan Nynäshamn, Botkyrka och Södertälje.
+56-1	4129-4130	•	_	_	_	_	_	_	
+56-2	4131-4135	Räta	_	_	_	_	_	_	
+56-3	4136-4138	ut	_	_	_	_	_	_	
+56-4	4139-4142	och	_	_	_	_	_	_	
+56-5	4143-4149	bredda	_	_	_	_	_	_	
+56-6	4150-4153	väg	_	_	_	_	_	_	
+56-7	4154-4157	225	_	_	_	_	_	_	
+56-8	4157-4158	,	_	_	_	_	_	_	
+56-9	4159-4162	som	_	_	_	_	_	_	
+56-10	4163-4165	är	_	_	_	_	_	_	
+56-11	4166-4169	den	_	_	_	_	_	_	
+56-12	4170-4178	kortaste	_	_	_	_	_	_	
+56-13	4179-4184	vägen	_	_	_	_	_	_	
+56-14	4185-4191	mellan	_	_	_	_	_	_	
+56-15	4192-4201	Nynäshamn	_	_	_	_	_	_	
+56-16	4201-4202	,	_	_	_	_	_	_	
+56-17	4203-4211	Botkyrka	_	_	_	_	_	_	
+56-18	4212-4215	och	_	_	_	_	_	_	
+56-19	4216-4226	Södertälje	_	_	_	_	_	_	
+56-20	4226-4227	.	_	_	_	_	_	_	
+
+#Text=Här behövs även cykelväg och trafiksäkherhetshöjande åtgärder.
+57-1	4228-4231	Här	_	_	_	_	_	_	
+57-2	4232-4238	behövs	_	_	_	_	_	_	
+57-3	4239-4243	även	_	_	_	_	_	_	
+57-4	4244-4252	cykelväg	_	_	_	_	_	_	
+57-5	4253-4256	och	_	_	_	_	_	_	
+57-6	4257-4280	trafiksäkherhetshöjande	_	_	_	_	_	_	
+57-7	4281-4289	åtgärder	_	_	_	_	_	_	
+57-8	4289-4290	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+58-1	4292-4293	#	_	_	_	_	_	_	
+58-2	4293-4294	P	_	_	_	_	_	_	
+58-3	4295-4298	IMM	_	_	_	_	_	_	
+
+#Text=.
+59-1	4298-4299	.	_	_	_	_	_	_	
+
+#Text=• Glömstavägen och Storängsleden behöver förstärkningar med breddning och kollektivkörfält, samt trafiksäkerhetshöjdande åtgärder.
+60-1	4301-4302	•	_	_	_	_	_	_	
+60-2	4303-4315	Glömstavägen	_	_	_	_	_	_	
+60-3	4316-4319	och	_	_	_	_	_	_	
+60-4	4320-4333	Storängsleden	_	_	_	_	_	_	
+60-5	4334-4341	behöver	_	_	_	_	_	_	
+60-6	4342-4356	förstärkningar	_	_	_	_	_	_	
+60-7	4357-4360	med	_	_	_	_	_	_	
+60-8	4361-4370	breddning	_	_	_	_	_	_	
+60-9	4371-4374	och	_	_	_	_	_	_	
+60-10	4375-4391	kollektivkörfält	_	_	_	_	_	_	
+60-11	4391-4392	,	_	_	_	_	_	_	
+60-12	4393-4397	samt	_	_	_	_	_	_	
+60-13	4398-4421	trafiksäkerhetshöjdande	_	_	_	_	_	_	
+60-14	4422-4430	åtgärder	_	_	_	_	_	_	
+60-15	4430-4431	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+61-1	4433-4434	#	_	_	_	_	_	_	
+61-2	4434-4435	P	_	_	_	_	_	_	
+61-3	4436-4439	IMM	_	_	_	_	_	_	
+
+#Text=.
+62-1	4439-4440	.	_	_	_	_	_	_	
+
+#Text=• Spårväg syd, som redan är beslutad, kommer att ge en kapacitetsstark kollektivtrafik till hela södra länshalvan.
+63-1	4442-4443	•	_	_	_	_	_	_	
+63-2	4444-4451	Spårväg	_	_	_	_	_	_	
+63-3	4452-4455	syd	_	_	_	_	_	_	
+63-4	4455-4456	,	_	_	_	_	_	_	
+63-5	4457-4460	som	_	_	_	_	_	_	
+63-6	4461-4466	redan	_	_	_	_	_	_	
+63-7	4467-4469	är	_	_	_	_	_	_	
+63-8	4470-4478	beslutad	_	_	_	_	_	_	
+63-9	4478-4479	,	_	_	_	_	_	_	
+63-10	4480-4486	kommer	_	_	_	_	_	_	
+63-11	4487-4490	att	_	_	_	_	_	_	
+63-12	4491-4493	ge	_	_	_	_	_	_	
+63-13	4494-4496	en	_	_	_	_	_	_	
+63-14	4497-4512	kapacitetsstark	_	_	_	_	_	_	
+63-15	4513-4528	kollektivtrafik	_	_	_	_	_	_	
+63-16	4529-4533	till	_	_	_	_	_	_	
+63-17	4534-4538	hela	_	_	_	_	_	_	
+63-18	4539-4544	södra	_	_	_	_	_	_	
+63-19	4545-4555	länshalvan	_	_	_	_	_	_	
+63-20	4555-4556	.	_	_	_	_	_	_	
+
+#Text=Vi ser även ett behov av att förlänga spårvägen till Haninge och Tyresö.
+64-1	4557-4559	Vi	_	_	_	_	_	_	
+64-2	4560-4563	ser	_	_	_	_	_	_	
+64-3	4564-4568	även	_	_	_	_	_	_	
+64-4	4569-4572	ett	_	_	_	_	_	_	
+64-5	4573-4578	behov	_	_	_	_	_	_	
+64-6	4579-4581	av	_	_	_	_	_	_	
+64-7	4582-4585	att	_	_	_	_	_	_	
+64-8	4586-4594	förlänga	_	_	_	_	_	_	
+64-9	4595-4604	spårvägen	_	_	_	_	_	_	
+64-10	4605-4609	till	_	_	_	_	_	_	
+64-11	4610-4617	Haninge	_	_	_	_	_	_	
+64-12	4618-4621	och	_	_	_	_	_	_	
+64-13	4622-4628	Tyresö	_	_	_	_	_	_	
+64-14	4628-4629	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+65-1	4631-4632	#	_	_	_	_	_	_	
+65-2	4632-4633	P	_	_	_	_	_	_	
+65-3	4634-4637	IMM	_	_	_	_	_	_	
+
+#Text=.
+66-1	4637-4638	.	_	_	_	_	_	_	
+
+#Text=• En kraftig förstärkning av stombussnätet och dubbelspår till Nynäshamn ger också ökad kapacitet för passagerare.
+67-1	4640-4641	•	_	_	_	_	_	_	
+67-2	4642-4644	En	_	_	_	_	_	_	
+67-3	4645-4652	kraftig	_	_	_	_	_	_	
+67-4	4653-4665	förstärkning	_	_	_	_	_	_	
+67-5	4666-4668	av	_	_	_	_	_	_	
+67-6	4669-4682	stombussnätet	_	_	_	_	_	_	
+67-7	4683-4686	och	_	_	_	_	_	_	
+67-8	4687-4697	dubbelspår	_	_	_	_	_	_	
+67-9	4698-4702	till	_	_	_	_	_	_	
+67-10	4703-4712	Nynäshamn	_	_	_	_	_	_	
+67-11	4713-4716	ger	_	_	_	_	_	_	
+67-12	4717-4722	också	_	_	_	_	_	_	
+67-13	4723-4727	ökad	_	_	_	_	_	_	
+67-14	4728-4737	kapacitet	_	_	_	_	_	_	
+67-15	4738-4741	för	_	_	_	_	_	_	
+67-16	4742-4753	passagerare	_	_	_	_	_	_	
+67-17	4753-4754	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4756-4757	#	_	_	_	_	_	_	
+68-2	4757-4758	P	_	_	_	_	_	_	
+68-3	4759-4762	IMM	_	_	_	_	_	_	
+68-4	4762-4763	.	_	_	_	_	_	_	
+
+#Text=Vi är fler kommunalråd och gruppledare från Södertörns kommuner som vågar trotsa Tvärförbindelse Södertörn.
+69-1	4765-4767	Vi	_	_	_	_	_	_	
+69-2	4768-4770	är	_	_	_	_	_	_	
+69-3	4771-4775	fler	_	_	_	_	_	_	
+69-4	4776-4787	kommunalråd	_	_	_	_	_	_	
+69-5	4788-4791	och	_	_	_	_	_	_	
+69-6	4792-4803	gruppledare	_	_	_	_	_	_	
+69-7	4804-4808	från	_	_	_	_	_	_	
+69-8	4809-4819	Södertörns	_	_	_	_	_	_	
+69-9	4820-4828	kommuner	_	_	_	_	_	_	
+69-10	4829-4832	som	_	_	_	_	_	_	
+69-11	4833-4838	vågar	_	_	_	_	_	_	
+69-12	4839-4845	trotsa	_	_	_	_	_	_	
+69-13	4846-4861	Tvärförbindelse	_	_	_	_	_	_	
+69-14	4862-4871	Södertörn	_	_	_	_	_	_	
+69-15	4871-4872	.	_	_	_	_	_	_	
+
+#Text=Vi tar klimatutmaningen på stort allvar, medan ni moderater till varje pris vill fortsätta bygga omodern infrastruktur.
+70-1	4873-4875	Vi	_	_	_	_	_	_	
+70-2	4876-4879	tar	_	_	_	_	_	_	
+70-3	4880-4896	klimatutmaningen	_	_	_	_	_	_	
+70-4	4897-4899	på	_	_	_	_	_	_	
+70-5	4900-4905	stort	_	_	_	_	_	_	
+70-6	4906-4912	allvar	_	_	_	_	_	_	
+70-7	4912-4913	,	_	_	_	_	_	_	
+70-8	4914-4919	medan	_	_	_	_	_	_	
+70-9	4920-4922	ni	_	_	_	_	_	_	
+70-10	4923-4932	moderater	_	_	_	_	_	_	
+70-11	4933-4937	till	_	_	_	_	_	_	
+70-12	4938-4943	varje	_	_	_	_	_	_	
+70-13	4944-4948	pris	_	_	_	_	_	_	
+70-14	4949-4953	vill	_	_	_	_	_	_	
+70-15	4954-4963	fortsätta	_	_	_	_	_	_	
+70-16	4964-4969	bygga	_	_	_	_	_	_	
+70-17	4970-4977	omodern	_	_	_	_	_	_	
+70-18	4978-4991	infrastruktur	_	_	_	_	_	_	
+70-19	4991-4992	.	_	_	_	_	_	_	
+
+#Text=Det är inte vi som sviker!.
+71-1	4993-4996	Det	_	_	_	_	_	_	
+71-2	4997-4999	är	_	Target[8]	71-8	false[8]	1[8]	_	
+71-3	5000-5004	inte	_	Target[8]	71-8	false[8]	1[8]	_	
+71-4	5005-5007	vi	_	Target[8]	71-8	false[8]	1[8]	_	
+71-5	5008-5011	som	_	Target[8]	71-8	false[8]	1[8]	_	
+71-6	5012-5018	sviker	_	Target[8]	71-8	false[8]	1[8]	_	
+71-7	5018-5019	!	_	_	_	_	_	_	
+71-8	5019-5020	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5022-5023	#	_	_	_	_	_	_	
+72-2	5023-5024	P	_	_	_	_	_	_	
+72-3	5025-5028	IMM	_	_	_	_	_	_	
+72-4	5028-5029	.	_	_	_	_	_	_	
+
+#Text=Johan Svensk (MP).
+73-1	5031-5036	Johan	_	_	_	_	_	_	
+73-2	5037-5043	Svensk	_	_	_	_	_	_	
+73-3	5044-5045	(	_	_	_	_	_	_	
+73-4	5045-5047	MP	_	_	_	_	_	_	
+73-5	5047-5048	)	_	_	_	_	_	_	
+73-6	5048-5049	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+74-1	5051-5052	#	_	_	_	_	_	_	
+74-2	5052-5053	P	_	_	_	_	_	_	
+74-3	5054-5057	IMM	_	_	_	_	_	_	
+74-4	5057-5058	.	_	_	_	_	_	_	
+
+#Text=kommunalråd Haninge.
+75-1	5060-5071	kommunalråd	_	_	_	_	_	_	
+75-2	5072-5079	Haninge	_	_	_	_	_	_	
+75-3	5079-5080	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+76-1	5082-5083	#	_	_	_	_	_	_	
+76-2	5083-5084	P	_	_	_	_	_	_	
+76-3	5085-5088	IMM	_	_	_	_	_	_	
+76-4	5088-5089	.	_	_	_	_	_	_	
+
+#Text=Marica Lindblad (MP).
+77-1	5091-5097	Marica	_	_	_	_	_	_	
+77-2	5098-5106	Lindblad	_	_	_	_	_	_	
+77-3	5107-5108	(	_	_	_	_	_	_	
+77-4	5108-5110	MP	_	_	_	_	_	_	
+77-5	5110-5111	)	_	_	_	_	_	_	
+77-6	5111-5112	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+78-1	5114-5115	#	_	_	_	_	_	_	
+78-2	5115-5116	P	_	_	_	_	_	_	
+78-3	5117-5120	IMM	_	_	_	_	_	_	
+78-4	5120-5121	.	_	_	_	_	_	_	
+
+#Text=kommunalråd Huddinge.
+79-1	5123-5134	kommunalråd	_	_	_	_	_	_	
+79-2	5135-5143	Huddinge	_	_	_	_	_	_	
+79-3	5143-5144	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+80-1	5146-5147	#	_	_	_	_	_	_	
+80-2	5147-5148	P	_	_	_	_	_	_	
+80-3	5149-5152	IMM	_	_	_	_	_	_	
+80-4	5152-5153	.	_	_	_	_	_	_	
+
+#Text=Marie Åkesdotter (MP).
+81-1	5155-5160	Marie	_	_	_	_	_	_	
+81-2	5161-5171	Åkesdotter	_	_	_	_	_	_	
+81-3	5172-5173	(	_	_	_	_	_	_	
+81-4	5173-5175	MP	_	_	_	_	_	_	
+81-5	5175-5176	)	_	_	_	_	_	_	
+81-6	5176-5177	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+82-1	5179-5180	#	_	_	_	_	_	_	
+82-2	5180-5181	P	_	_	_	_	_	_	
+82-3	5182-5185	IMM	_	_	_	_	_	_	
+82-4	5185-5186	.	_	_	_	_	_	_	
+
+#Text=gruppledare Tyresö.
+83-1	5188-5199	gruppledare	_	_	_	_	_	_	
+83-2	5200-5206	Tyresö	_	_	_	_	_	_	
+83-3	5206-5207	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+84-1	5209-5210	#	_	_	_	_	_	_	
+84-2	5210-5211	P	_	_	_	_	_	_	
+84-3	5212-5215	IMM	_	_	_	_	_	_	
+84-4	5215-5216	.	_	_	_	_	_	_	
+
+#Text=Kristian Ek (MP).
+85-1	5218-5226	Kristian	_	_	_	_	_	_	
+85-2	5227-5229	Ek	_	_	_	_	_	_	
+85-3	5230-5231	(	_	_	_	_	_	_	
+85-4	5231-5233	MP	_	_	_	_	_	_	
+85-5	5233-5234	)	_	_	_	_	_	_	
+85-6	5234-5235	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+86-1	5237-5238	#	_	_	_	_	_	_	
+86-2	5238-5239	P	_	_	_	_	_	_	
+86-3	5240-5243	IMM	_	_	_	_	_	_	
+86-4	5243-5244	.	_	_	_	_	_	_	
+
+#Text=gruppledare Nynäshamn.
+87-1	5246-5257	gruppledare	_	_	_	_	_	_	
+87-2	5258-5267	Nynäshamn	_	_	_	_	_	_	
+87-3	5267-5268	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+88-1	5270-5271	#	_	_	_	_	_	_	
+88-2	5271-5272	P	_	_	_	_	_	_	
+88-3	5273-5276	IMM	_	_	_	_	_	_	
+88-4	5276-5277	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+89-1	5279-5287	Redaktör	_	_	_	_	_	_	
+89-2	5287-5288	:	_	_	_	_	_	_	
+89-3	5289-5295	Carina	_	_	_	_	_	_	
+89-4	5296-5304	Stensson	_	_	_	_	_	_	
+89-5	5304-5305	,	_	_	_	_	_	_	
+89-6	5306-5316	Biträdande	_	_	_	_	_	_	
+89-7	5317-5325	redaktör	_	_	_	_	_	_	
+89-8	5325-5326	:	_	_	_	_	_	_	
+89-9	5327-5332	Björn	_	_	_	_	_	_	
+89-10	5333-5339	Jorner	_	_	_	_	_	_	
+89-11	5339-5340	,	_	_	_	_	_	_	
+89-12	5341-5345	Mejl	_	_	_	_	_	_	
+89-13	5345-5346	:	_	_	_	_	_	_	
+89-14	5347-5353	debatt	_	_	_	_	_	_	
+89-15	5353-5354	@	_	_	_	_	_	_	
+89-16	5354-5360	svd.se	_	_	_	_	_	_	
+89-17	5360-5361	,	_	_	_	_	_	_	
+89-18	5362-5375	Telefonnummer	_	_	_	_	_	_	
+89-19	5375-5376	:	_	_	_	_	_	_	
+89-20	5377-5379	08	_	_	_	_	_	_	
+89-21	5379-5380	-	_	_	_	_	_	_	
+89-22	5380-5386	135149	_	_	_	_	_	_	
+89-23	5386-5387	,	_	_	_	_	_	_	
+89-24	5388-5395	Twitter	_	_	_	_	_	_	
+89-25	5395-5396	:	_	_	_	_	_	_	
+89-26	5397-5398	@	_	_	_	_	_	_	
+89-27	5398-5407	SvDDebatt	_	_	_	_	_	_	
+89-28	5407-5408	,	_	_	_	_	_	_	
+89-29	5409-5417	Facebook	_	_	_	_	_	_	
+89-30	5417-5418	:	_	_	_	_	_	_	
+89-31	5419-5422	SvD	_	_	_	_	_	_	
+89-32	5423-5429	Debatt	_	_	_	_	_	_	
+89-33	5429-5430	.	_	_	_	_	_	_	

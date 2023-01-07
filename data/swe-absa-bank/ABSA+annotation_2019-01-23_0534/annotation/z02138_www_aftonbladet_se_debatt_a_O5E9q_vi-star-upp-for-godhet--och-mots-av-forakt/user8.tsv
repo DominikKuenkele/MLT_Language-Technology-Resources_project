@@ -1,0 +1,892 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	4	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vi står upp för godhet – och möts av förakt.
+3-1	18-20	Vi	*	_	_	_	_	_	_	
+3-2	21-25	står	_	Source;Target[1]	3-1;3-1	false[1]	4[1]	_	_	
+3-3	26-29	upp	_	Source;Target[1]	3-1;3-1	false[1]	4[1]	_	_	
+3-4	30-33	för	_	Source;Target[1]	3-1;3-1	false[1]	4[1]	_	_	
+3-5	34-40	godhet	_	Source;Target[1]	3-1;3-1	false[1]	4[1]	_	_	
+3-6	41-42	–	_	_	_	_	_	_	_	
+3-7	43-46	och	_	_	_	_	_	_	_	
+3-8	47-51	möts	_	_[2]	_	false[2]	1[2]	_	_	
+3-9	52-54	av	_	_[2]	_	false[2]	1[2]	_	_	
+3-10	55-61	förakt	_	_[2]	_	false[2]	1[2]	_	_	
+3-11	61-62	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	false	4	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Kritiken mot Juluppropet har stundtals varit kraftig och vissa har kallat oss ”naiva godhetsapostlar”.
+5-1	73-81	Kritiken	_	Target[3]	5-3	false[3]	2[3]	5-4[4_3]	_	
+5-2	82-85	mot	_	Target[3]	5-3	false[3]	2[3]	_	_	
+5-3	86-97	Juluppropet	*	_	_	_	_	_	_	
+5-4	98-101	har	_	Target[4]	5-3	false[4]	2[4]	_	_	
+5-5	102-111	stundtals	_	Target[4]	5-3	false[4]	2[4]	_	_	
+5-6	112-117	varit	_	Target[4]	5-3	false[4]	2[4]	_	_	
+5-7	118-125	kraftig	_	Target[4]	5-3	false[4]	2[4]	_	_	
+5-8	126-129	och	_	_	_	_	_	_	_	
+5-9	130-135	vissa	*	_	_	_	_	_	_	
+5-10	136-139	har	_	_	_	_	_	_	_	
+5-11	140-146	kallat	_	_	_	_	_	_	_	
+5-12	147-150	oss	*	_	_	_	_	_	_	
+5-13	151-152	”	_	Target;Source[5]	5-12;5-9	false[5]	2[5]	_	_	
+5-14	152-157	naiva	_	Target;Source[5]	5-12;5-9	false[5]	2[5]	_	_	
+5-15	158-173	godhetsapostlar	_	Target;Source[5]	5-12;5-9	false[5]	2[5]	_	_	
+5-16	173-174	”	_	Target;Source[5]	5-12;5-9	false[5]	2[5]	_	_	
+5-17	174-175	.	_	_	_	_	_	_	_	
+
+#Text=För andra har uppropet väckt nytt hopp och skapat handlingskraft.
+6-1	176-179	För	_	_	_	_	_	_	_	
+6-2	180-185	andra	*	_	_	_	_	_	_	
+6-3	186-189	har	_	Target;Source	6-4;6-2	false	4	_	_	
+6-4	190-198	uppropet	*	_	_	_	_	_	_	
+6-5	199-204	väckt	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	6-3[0_6]	_	
+6-6	205-209	nytt	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	_	_	
+6-7	210-214	hopp	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	_	_	
+6-8	215-218	och	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	_	_	
+6-9	219-225	skapat	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	_	_	
+6-10	226-240	handlingskraft	_	Target;Source[6]	6-4;6-2	false[6]	4[6]	_	_	
+6-11	240-241	.	_	_	_	_	_	_	_	
+
+#Text=I början av februari kommer regeringen att ta emot tiotusentals namnunderskrifter för en human migrationspolitik.
+7-1	242-243	I	_	_	_	_	_	_	_	
+7-2	244-250	början	_	_	_	_	_	_	_	
+7-3	251-253	av	_	_	_	_	_	_	_	
+7-4	254-262	februari	_	_	_	_	_	_	_	
+7-5	263-269	kommer	_	_	_	_	_	_	_	
+7-6	270-280	regeringen	_	_	_	_	_	_	_	
+7-7	281-284	att	_	_	_	_	_	_	_	
+7-8	285-287	ta	_	_	_	_	_	_	_	
+7-9	288-292	emot	_	_	_	_	_	_	_	
+7-10	293-305	tiotusentals	*[32]	_	_	_	_	_	_	
+7-11	306-323	namnunderskrifter	*[32]	Target;Source[7]	7-13[33];7-10[32]	false[7]	4[7]	_	_	
+7-12	324-327	för	_	Target;Source[7]	7-13[33];7-10[32]	false[7]	4[7]	_	_	
+7-13	328-330	en	*[33]	Target;Source[7]	7-13[33];7-10[32]	false[7]	4[7]	_	_	
+7-14	331-336	human	*[33]	Target;Source[7]	7-13[33];7-10[32]	false[7]	4[7]	_	_	
+7-15	337-354	migrationspolitik	*[33]	_	_	_	_	_	_	
+7-16	354-355	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Jag möter hans förtvivlade ansikte när han berättar om flykten från krigets Syrien och den farliga resan över land och hav.
+8-1	357-358	#	_	_	_	_	_	_	_	
+8-2	358-359	P	_	_	_	_	_	_	_	
+8-3	360-363	IMM	_	_	_	false	4	_	_	
+8-4	363-364	.	_	_	_	_	_	_	_	
+8-5	366-367	”	_	_	_	_	_	_	_	
+8-6	367-370	Jag	_	_	_	_	_	_	_	
+8-7	371-376	möter	_	_	_	_	_	_	_	
+8-8	377-381	hans	_	_	_	_	_	_	_	
+8-9	382-393	förtvivlade	_	Source	8-27	false	1	_	_	
+8-10	394-401	ansikte	_	_	_	_	_	_	_	
+8-11	402-405	när	_	_	_	_	_	_	_	
+8-12	406-409	han	_	_	_	_	_	_	_	
+8-13	410-418	berättar	_	_	_	_	_	_	_	
+8-14	419-421	om	_	_	_	_	_	_	_	
+8-15	422-429	flykten	_	Target[8]	8-17[34]	false[8]	2[8]	_	_	
+8-16	430-434	från	_	Target[8]	8-17[34]	false[8]	2[8]	_	_	
+8-17	435-442	krigets	*[34]	Target[8]	8-17[34]	false[8]	2[8]	_	_	
+8-18	443-449	Syrien	*[34]	Target[8]	8-17[34]	false[8]	2[8]	_	_	
+8-19	450-453	och	_	_	_	_	_	_	_	
+8-20	454-457	den	*[35]	_	_	_	_	_	_	
+8-21	458-465	farliga	*[35]	Source;Target	8-27;8-20[35]	false	2	_	_	
+8-22	466-471	resan	*[35]	_	_	_	_	_	_	
+8-23	472-476	över	*[35]	_	_	_	_	_	_	
+8-24	477-481	land	*[35]	_	_	_	_	_	_	
+8-25	482-485	och	*[35]	_	_	_	_	_	_	
+8-26	486-489	hav	*[35]	_	_	_	_	_	_	
+8-27	489-490	.	*	_	_	_	_	_	_	
+
+#Text=Det var hans livs svåraste beslut.
+9-1	491-494	Det	_	_	_	_	_	_	_	
+9-2	495-498	var	_	_	_	_	_	_	_	
+9-3	499-503	hans	_	_	_	_	_	_	_	
+9-4	504-508	livs	_	_	_	_	_	_	_	
+9-5	509-517	svåraste	_	_	_	_	_	_	_	
+9-6	518-524	beslut	_	_	_	_	_	_	_	
+9-7	524-525	.	_	_	_	_	_	_	_	
+
+#Text=Han lämnade kvar sin dotter och gravida fru då flykten skulle bli farlig.
+10-1	526-529	Han	_	_	_	_	_	_	_	
+10-2	530-537	lämnade	_	_	_	_	_	_	_	
+10-3	538-542	kvar	_	_	_	_	_	_	_	
+10-4	543-546	sin	_	_	_	_	_	_	_	
+10-5	547-553	dotter	_	_	_	_	_	_	_	
+10-6	554-557	och	_	_	_	_	_	_	_	
+10-7	558-565	gravida	_	_	_	_	_	_	_	
+10-8	566-569	fru	_	_	_	_	_	_	_	
+10-9	570-572	då	_	_	_	_	_	_	_	
+10-10	573-580	flykten	*	Target;Source[9]	10-10;10-14	false[9]	2[9]	_	_	
+10-11	581-587	skulle	_	Target;Source[9]	10-10;10-14	false[9]	2[9]	_	_	
+10-12	588-591	bli	_	Target;Source[9]	10-10;10-14	false[9]	2[9]	_	_	
+10-13	592-598	farlig	_	Target;Source[9]	10-10;10-14	false[9]	2[9]	_	_	
+10-14	598-599	.	*	_	_	_	_	_	_	
+
+#Text=Han lyckades.
+11-1	600-603	Han	_	_	_	_	_	_	_	
+11-2	604-612	lyckades	_	Source	11-3	false	4	_	_	
+11-3	612-613	.	*	_	_	_	_	_	_	
+
+#Text=Men över en natt förändrades allt när den tillfälliga asyllagen trädde i kraft 20 juli 2016.
+12-1	614-617	Men	_	_	_	_	_	_	_	
+12-2	618-622	över	_	_	_	_	_	_	_	
+12-3	623-625	en	_	_	_	_	_	_	_	
+12-4	626-630	natt	_	_	_	_	_	_	_	
+12-5	631-642	förändrades	_	_	_	_	_	_	_	
+12-6	643-647	allt	_	_	_	_	_	_	_	
+12-7	648-651	när	_	_	_	_	_	_	_	
+12-8	652-655	den	_	_	_	_	_	_	_	
+12-9	656-667	tillfälliga	_	_	_	_	_	_	_	
+12-10	668-677	asyllagen	_	_	_	_	_	_	_	
+12-11	678-684	trädde	_	_	_	_	_	_	_	
+12-12	685-686	i	_	_	_	_	_	_	_	
+12-13	687-692	kraft	_	_	_	_	_	_	_	
+12-14	693-695	20	_	_	_	_	_	_	_	
+12-15	696-700	juli	_	_	_	_	_	_	_	
+12-16	701-705	2016	_	_	_	_	_	_	_	
+12-17	705-706	.	_	_	_	_	_	_	_	
+
+#Text=Den omkullkastade hans dröm att återförenas med sin familj och bygga upp ett nytt liv i fred och trygghet”.
+13-1	707-710	Den	*	_	_	_	_	_	_	
+13-2	711-724	omkullkastade	_	Target[10]	13-1	false[10]	2[10]	_	_	
+13-3	725-729	hans	*	Target[10]	13-1	false[10]	2[10]	_	_	
+13-4	730-734	dröm	_	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-5	735-738	att	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-6	739-750	återförenas	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-7	751-754	med	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-8	755-758	sin	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-9	759-765	familj	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-10	766-769	och	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-11	770-775	bygga	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-12	776-779	upp	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-13	780-783	ett	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-14	784-788	nytt	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-15	789-792	liv	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-16	793-794	i	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-17	795-799	fred	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-18	800-803	och	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-19	804-812	trygghet	*[36]	Target[10]|Source;Target[11]	13-1|13-3;13-5[36]	false[10]|false[11]	2[10]|5[11]	_	_	
+13-20	812-813	”	_	_	_	_	_	_	_	
+13-21	813-814	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	816-817	#	_	_	_	_	_	_	_	
+14-2	817-818	P	_	_	_	_	_	_	_	
+14-3	819-822	IMM	_	_	_	false	4	_	_	
+14-4	822-823	.	_	_	_	_	_	_	_	
+
+#Text=Detta skriver en diakon i Piteå, en av många i våra kyrkor som dagligen möter barn och unga som drabbats av den nya asyllagstiftningen.
+15-1	825-830	Detta	_	_	_	_	_	_	_	
+15-2	831-838	skriver	_	_	_	_	_	_	_	
+15-3	839-841	en	_	_	_	_	_	_	_	
+15-4	842-848	diakon	_	_	_	_	_	_	_	
+15-5	849-850	i	_	_	_	_	_	_	_	
+15-6	851-856	Piteå	_	_	_	_	_	_	_	
+15-7	856-857	,	_	_	_	_	_	_	_	
+15-8	858-860	en	_	_	_	_	_	_	_	
+15-9	861-863	av	_	_	_	_	_	_	_	
+15-10	864-869	många	_	_	_	_	_	_	_	
+15-11	870-871	i	_	_	_	_	_	_	_	
+15-12	872-876	våra	_	_	_	_	_	_	_	
+15-13	877-883	kyrkor	_	_	_	_	_	_	_	
+15-14	884-887	som	_	_	_	_	_	_	_	
+15-15	888-896	dagligen	_	_	_	_	_	_	_	
+15-16	897-902	möter	_	_	_	_	_	_	_	
+15-17	903-907	barn	_	_	_	_	_	_	_	
+15-18	908-911	och	_	_	_	_	_	_	_	
+15-19	912-916	unga	_	_	_	_	_	_	_	
+15-20	917-920	som	_	_	_	_	_	_	_	
+15-21	921-929	drabbats	_	Target	15-23[37]	false	2	_	_	
+15-22	930-932	av	_	_	_	_	_	_	_	
+15-23	933-936	den	*[37]	_	_	_	_	_	_	
+15-24	937-940	nya	*[37]	_	_	_	_	_	_	
+15-25	941-959	asyllagstiftningen	*[37]	_	_	_	_	_	_	
+15-26	959-960	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	962-963	#	_	_	_	_	_	_	_	
+16-2	963-964	P	_	_	_	_	_	_	_	
+16-3	965-968	IMM	_	_	_	false	4	_	_	
+16-4	968-969	.	_	_	_	_	_	_	_	
+
+#Text=Kyrkorna har tills i dag mobiliserat mer än 47 000 personer som skrivit under Juluppropet för en human migrationspolitik.
+17-1	971-979	Kyrkorna	_	_	_	_	_	_	_	
+17-2	980-983	har	_	_	_	_	_	_	_	
+17-3	984-989	tills	_	_	_	_	_	_	_	
+17-4	990-991	i	_	_	_	_	_	_	_	
+17-5	992-995	dag	_	_	_	_	_	_	_	
+17-6	996-1007	mobiliserat	_	_	_	_	_	_	_	
+17-7	1008-1011	mer	*[38]	_	_	_	_	_	18-1[40_38]	
+17-8	1012-1014	än	*[38]	_	_	_	_	_	_	
+17-9	1015-1017	47	*[38]	_	_	_	_	_	_	
+17-10	1018-1021	000	*[38]	_	_	_	_	_	_	
+17-11	1022-1030	personer	*[38]	_	_	_	_	_	_	
+17-12	1031-1034	som	_	_	_	_	_	_	_	
+17-13	1035-1042	skrivit	_	Source;Target[12]	17-7[38];17-15[39]	false[12]	4[12]	_	_	
+17-14	1043-1048	under	_	Source;Target[12]	17-7[38];17-15[39]	false[12]	4[12]	_	_	
+17-15	1049-1060	Juluppropet	*[39]	_	_	_	_	_	_	
+17-16	1061-1064	för	*[39]	_	_	_	_	_	_	
+17-17	1065-1067	en	*[39]	_	_	_	_	_	_	
+17-18	1068-1073	human	*[39]	_	_	_	_	_	_	
+17-19	1074-1091	migrationspolitik	*[39]	_	_	_	_	_	_	
+17-20	1091-1092	.	_	_	_	_	_	_	_	
+
+#Text=Alla dessa uppmanar regeringen att ge barn och unga rätt till trygghet och framtidstro, ge alla som beviljas asyl i Sverige rätt till familjeliv och undanröja praktiska hinder mot familjeåterförening.
+18-1	1093-1097	Alla	*[40]	_	_	_	_	_	_	
+18-2	1098-1103	dessa	*[40]	_	_	_	_	_	_	
+18-3	1104-1112	uppmanar	_	Source;Target	18-1[40];18-4[41]	false	4	_	_	
+18-4	1113-1123	regeringen	*[41]	_	_	_	_	_	_	
+18-5	1124-1127	att	*[41]	_	_	_	_	_	_	
+18-6	1128-1130	ge	*[41]	_	_	_	_	_	_	
+18-7	1131-1135	barn	*[41]	_	_	_	_	_	_	
+18-8	1136-1139	och	*[41]	_	_	_	_	_	_	
+18-9	1140-1144	unga	*[41]	_	_	_	_	_	_	
+18-10	1145-1149	rätt	*[41]	_	_	_	_	_	_	
+18-11	1150-1154	till	*[41]	_	_	_	_	_	_	
+18-12	1155-1163	trygghet	*[41]	_	_	_	_	_	_	
+18-13	1164-1167	och	*[41]	_	_	_	_	_	_	
+18-14	1168-1179	framtidstro	*[41]	_	_	_	_	_	_	
+18-15	1179-1180	,	*[41]	_	_	_	_	_	_	
+18-16	1181-1183	ge	*[41]	_	_	_	_	_	_	
+18-17	1184-1188	alla	*[41]	_	_	_	_	_	_	
+18-18	1189-1192	som	*[41]	_	_	_	_	_	_	
+18-19	1193-1201	beviljas	*[41]	_	_	_	_	_	_	
+18-20	1202-1206	asyl	*[41]	_	_	_	_	_	_	
+18-21	1207-1208	i	*[41]	_	_	_	_	_	_	
+18-22	1209-1216	Sverige	*[41]	_	_	_	_	_	_	
+18-23	1217-1221	rätt	*[41]	_	_	_	_	_	_	
+18-24	1222-1226	till	*[41]	_	_	_	_	_	_	
+18-25	1227-1237	familjeliv	*[41]	_	_	_	_	_	_	
+18-26	1238-1241	och	*[41]	_	_	_	_	_	_	
+18-27	1242-1251	undanröja	*[41]	_	_	_	_	_	_	
+18-28	1252-1261	praktiska	*[41]	_	_	_	_	_	_	
+18-29	1262-1268	hinder	*[41]	_	_	_	_	_	_	
+18-30	1269-1272	mot	*[41]	_	_	_	_	_	_	
+18-31	1273-1292	familjeåterförening	*[41]	_	_	_	_	_	_	
+18-32	1292-1293	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1295-1296	#	_	_	_	_	_	_	_	
+19-2	1296-1297	P	_	_	_	_	_	_	_	
+19-3	1298-1301	IMM	_	_	_	false	4	_	_	
+19-4	1301-1302	.	_	_	_	_	_	_	_	
+
+#Text=Detta engagemang är ett uttryck för något centralt i kristen tro: Att se människan, värna varandras liv, se Kristus i vår nästa.
+20-1	1304-1309	Detta	_	_	_	_	_	_	_	
+20-2	1310-1320	engagemang	_	_	_	_	_	_	_	
+20-3	1321-1323	är	_	_	_	_	_	_	_	
+20-4	1324-1327	ett	_	_	_	_	_	_	_	
+20-5	1328-1335	uttryck	_	_	_	_	_	_	_	
+20-6	1336-1339	för	_	_	_	_	_	_	_	
+20-7	1340-1345	något	_	_	_	_	_	_	_	
+20-8	1346-1354	centralt	_	_	_	_	_	_	_	
+20-9	1355-1356	i	_	_	_	_	_	_	_	
+20-10	1357-1364	kristen	_	_	_	_	_	_	_	
+20-11	1365-1368	tro	_	_	_	_	_	_	_	
+20-12	1368-1369	:	_	_	_	_	_	_	_	
+20-13	1370-1373	Att	_	_	_	_	_	_	_	
+20-14	1374-1376	se	_	_	_	_	_	_	_	
+20-15	1377-1386	människan	_	_	_	_	_	_	_	
+20-16	1386-1387	,	_	_	_	_	_	_	_	
+20-17	1388-1393	värna	_	Target[13]	20-18[42]	false[13]	4[13]	_	_	
+20-18	1394-1403	varandras	*[42]	Target[13]	20-18[42]	false[13]	4[13]	_	_	
+20-19	1404-1407	liv	*[42]	Target[13]	20-18[42]	false[13]	4[13]	_	_	
+20-20	1407-1408	,	_	_	_	_	_	_	_	
+20-21	1409-1411	se	_	_	_	_	_	_	_	
+20-22	1412-1419	Kristus	_	_	_	_	_	_	_	
+20-23	1420-1421	i	_	_	_	_	_	_	_	
+20-24	1422-1425	vår	_	_	_	_	_	_	_	
+20-25	1426-1431	nästa	_	_	_	_	_	_	_	
+20-26	1431-1432	.	_	_	_	_	_	_	_	
+
+#Text=Även i den som flytt från krig och skiljts från sin familj.
+21-1	1433-1437	Även	_	_	_	_	_	_	_	
+21-2	1438-1439	i	_	_	_	_	_	_	_	
+21-3	1440-1443	den	_	_	_	_	_	_	_	
+21-4	1444-1447	som	_	_	_	_	_	_	_	
+21-5	1448-1453	flytt	_	_	_	_	_	_	_	
+21-6	1454-1458	från	_	_	_	_	_	_	_	
+21-7	1459-1463	krig	_	_	_	_	_	_	_	
+21-8	1464-1467	och	_	_	_	_	_	_	_	
+21-9	1468-1475	skiljts	_	_	_	_	_	_	_	
+21-10	1476-1480	från	_	_	_	_	_	_	_	
+21-11	1481-1484	sin	_	_	_	_	_	_	_	
+21-12	1485-1491	familj	_	_	_	_	_	_	_	
+21-13	1491-1492	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1494-1495	#	_	_	_	_	_	_	_	
+22-2	1495-1496	P	_	_	_	_	_	_	_	
+22-3	1497-1500	IMM	_	_	_	false	4	_	_	
+22-4	1500-1501	.	_	_	_	_	_	_	_	
+
+#Text=Juluppropet har väckt hopp och förlöst handlingskraft.
+23-1	1503-1514	Juluppropet	*	_	_	_	_	_	_	
+23-2	1515-1518	har	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-3	1519-1524	väckt	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-4	1525-1529	hopp	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-5	1530-1533	och	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-6	1534-1541	förlöst	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-7	1542-1556	handlingskraft	_	Target[14]	23-1	false[14]	4[14]	_	_	
+23-8	1556-1557	.	_	_	_	_	_	_	_	
+
+#Text=Stöd har kommit från oväntat håll och nya samarbeten har uppstått.
+24-1	1558-1562	Stöd	_	Source[15]	24-4[43]	false[15]	4[15]	_	_	
+24-2	1563-1566	har	_	Source[15]	24-4[43]	false[15]	4[15]	_	_	
+24-3	1567-1573	kommit	_	Source[15]	24-4[43]	false[15]	4[15]	_	_	
+24-4	1574-1578	från	*[43]	_	_	_	_	_	_	
+24-5	1579-1586	oväntat	*[43]	_	_	_	_	_	_	
+24-6	1587-1591	håll	*[43]	_	_	_	_	_	_	
+24-7	1592-1595	och	_	_	_	_	_	_	_	
+24-8	1596-1599	nya	_	_	_	_	_	_	_	
+24-9	1600-1610	samarbeten	_	_	_	_	_	_	_	
+24-10	1611-1614	har	_	_	_	_	_	_	_	
+24-11	1615-1623	uppstått	_	_	_	_	_	_	_	
+24-12	1623-1624	.	_	_	_	_	_	_	_	
+
+#Text=Men det har också visat sig att många inte känner till den nya tillfälliga lagstiftningen som med tidsbegränsade uppehållstillstånd och mycket begränsade möjligheter till familjeåterförening slår hårt mot barn och unga.
+25-1	1625-1628	Men	_	_	_	_	_	_	_	
+25-2	1629-1632	det	_	_	_	_	_	_	_	
+25-3	1633-1636	har	_	_	_	_	_	_	_	
+25-4	1637-1642	också	_	_	_	_	_	_	_	
+25-5	1643-1648	visat	_	_	_	_	_	_	_	
+25-6	1649-1652	sig	_	_	_	_	_	_	_	
+25-7	1653-1656	att	_	_	_	_	_	_	_	
+25-8	1657-1662	många	_	_	_	_	_	_	_	
+25-9	1663-1667	inte	_	_	_	_	_	_	_	
+25-10	1668-1674	känner	_	_	_	_	_	_	_	
+25-11	1675-1679	till	_	_	_	_	_	_	_	
+25-12	1680-1683	den	*[44]	_	_	_	_	_	_	
+25-13	1684-1687	nya	*[44]	_	_	_	_	_	_	
+25-14	1688-1699	tillfälliga	*[44]	_	_	_	_	_	_	
+25-15	1700-1714	lagstiftningen	*[44]	_	_	_	_	_	_	
+25-16	1715-1718	som	*[44]	_	_	_	_	_	_	
+25-17	1719-1722	med	*[44]	_	_	_	_	_	_	
+25-18	1723-1737	tidsbegränsade	*[44]	_	_	_	_	_	_	
+25-19	1738-1756	uppehållstillstånd	*[44]	_	_	_	_	_	_	
+25-20	1757-1760	och	*[44]	_	_	_	_	_	_	
+25-21	1761-1767	mycket	*[44]	_	_	_	_	_	_	
+25-22	1768-1778	begränsade	*[44]	_	_	_	_	_	_	
+25-23	1779-1790	möjligheter	*[44]	_	_	_	_	_	_	
+25-24	1791-1795	till	*[44]	_	_	_	_	_	_	
+25-25	1796-1815	familjeåterförening	*[44]	_	_	_	_	_	_	
+25-26	1816-1820	slår	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-27	1821-1825	hårt	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-28	1826-1829	mot	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-29	1830-1834	barn	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-30	1835-1838	och	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-31	1839-1843	unga	_	Target[16]	25-12[44]	false[16]	2[16]	_	_	
+25-32	1843-1844	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1846-1847	#	_	_	_	_	_	_	_	
+26-2	1847-1848	P	_	_	_	_	_	_	_	
+26-3	1849-1852	IMM	_	_	_	_	_	_	_	
+26-4	1852-1853	.	_	_	_	_	_	_	_	
+
+#Text=Det är också uppenbart att uppropet landat i en tid då rimliga önskemål som att familjer ska få leva tillsammans tolkas som närmast orealistiska krav.
+27-1	1855-1858	Det	_	_	_	_	_	_	_	
+27-2	1859-1861	är	_	_	_	_	_	_	_	
+27-3	1862-1867	också	_	_	_	_	_	_	_	
+27-4	1868-1877	uppenbart	_	_	_	_	_	_	_	
+27-5	1878-1881	att	_	_	_	_	_	_	_	
+27-6	1882-1890	uppropet	_	_	_	_	_	_	_	
+27-7	1891-1897	landat	_	_	_	_	_	_	_	
+27-8	1898-1899	i	_	_	_	_	_	_	_	
+27-9	1900-1902	en	_	_	_	_	_	_	_	
+27-10	1903-1906	tid	_	_	_	_	_	_	_	
+27-11	1907-1909	då	_	_	_	_	_	_	_	
+27-12	1910-1917	rimliga	_	_	_	_	_	_	_	
+27-13	1918-1926	önskemål	_	_	_	_	_	_	_	
+27-14	1927-1930	som	_	_	_	_	_	_	_	
+27-15	1931-1934	att	_	_	_	_	_	_	_	
+27-16	1935-1943	familjer	_	_	_	_	_	_	_	
+27-17	1944-1947	ska	_	_	_	_	_	_	_	
+27-18	1948-1950	få	_	_	_	_	_	_	_	
+27-19	1951-1955	leva	_	_	_	_	_	_	_	
+27-20	1956-1967	tillsammans	_	_	_	_	_	_	_	
+27-21	1968-1974	tolkas	_	_	_	_	_	_	_	
+27-22	1975-1978	som	_	_	_	_	_	_	_	
+27-23	1979-1986	närmast	_	_	_	_	_	_	_	
+27-24	1987-1999	orealistiska	_	_	_	_	_	_	_	
+27-25	2000-2004	krav	_	_	_	_	_	_	_	
+27-26	2004-2005	.	_	_	_	_	_	_	_	
+
+#Text=Humanitära aspekter och tankar på grundläggande rättigheter ses som något orimligt.
+28-1	2006-2016	Humanitära	_	_	_	_	_	_	_	
+28-2	2017-2025	aspekter	_	_	_	_	_	_	_	
+28-3	2026-2029	och	_	_	_	_	_	_	_	
+28-4	2030-2036	tankar	_	_	_	_	_	_	_	
+28-5	2037-2039	på	_	_	_	_	_	_	_	
+28-6	2040-2053	grundläggande	_	_	_	_	_	_	_	
+28-7	2054-2065	rättigheter	_	_	_	_	_	_	_	
+28-8	2066-2069	ses	_	_	_	_	_	_	_	
+28-9	2070-2073	som	_	_	_	_	_	_	_	
+28-10	2074-2079	något	_	_	_	_	_	_	_	
+28-11	2080-2088	orimligt	_	_	_	_	_	_	_	
+28-12	2088-2089	.	_	_	_	_	_	_	_	
+
+#Text=Åsiktsklimatet hårdnar.
+29-1	2090-2104	Åsiktsklimatet	_	_	_	_	_	_	_	
+29-2	2105-2112	hårdnar	_	_	_	_	_	_	_	
+29-3	2112-2113	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2115-2116	#	_	_	_	_	_	_	_	
+30-2	2116-2117	P	_	_	_	_	_	_	_	
+30-3	2118-2121	IMM	_	_	_	_	_	_	_	
+30-4	2121-2122	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill lyfta och kommentera tre tendenser i reaktionerna på Juluppropet:.
+31-1	2124-2126	Vi	_	_	_	_	_	_	_	
+31-2	2127-2131	vill	_	_	_	_	_	_	_	
+31-3	2132-2137	lyfta	_	_	_	_	_	_	_	
+31-4	2138-2141	och	_	_	_	_	_	_	_	
+31-5	2142-2152	kommentera	_	_	_	_	_	_	_	
+31-6	2153-2156	tre	_	_	_	_	_	_	_	
+31-7	2157-2166	tendenser	_	_	_	_	_	_	_	
+31-8	2167-2168	i	_	_	_	_	_	_	_	
+31-9	2169-2181	reaktionerna	_	_	_	_	_	_	_	
+31-10	2182-2184	på	_	_	_	_	_	_	_	
+31-11	2185-2196	Juluppropet	_	_	_	_	_	_	_	
+31-12	2196-2197	:	_	_	_	_	_	_	_	
+31-13	2197-2198	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2200-2201	#	_	_	_	_	_	_	_	
+32-2	2201-2202	P	_	_	_	_	_	_	_	
+32-3	2203-2206	IMM	_	_	_	false	4	_	_	
+32-4	2206-2207	.	_	_	_	_	_	_	_	
+
+#Text=Välfärden.
+33-1	2209-2218	Välfärden	_	_	_	_	_	_	_	
+33-2	2218-2219	.	_	_	_	_	_	_	_	
+
+#Text=En del menar att Sverige har gjort tillräckligt för människor på flykt: ”Nu är det dags att rå om oss själva”.
+34-1	2220-2222	En	*[45]	_	_	_	_	_	_	
+34-2	2223-2226	del	*[45]	_	_	_	_	_	_	
+34-3	2227-2232	menar	_	_	_	_	_	_	_	
+34-4	2233-2236	att	_	_	_	_	_	_	_	
+34-5	2237-2244	Sverige	_	_	_	_	_	_	_	
+34-6	2245-2248	har	_	_	_	_	_	_	_	
+34-7	2249-2254	gjort	_	_	_	_	_	_	_	
+34-8	2255-2267	tillräckligt	_	_	_	_	_	_	_	
+34-9	2268-2271	för	_	_	_	_	_	_	_	
+34-10	2272-2281	människor	_	_	_	_	_	_	_	
+34-11	2282-2284	på	_	_	_	_	_	_	_	
+34-12	2285-2290	flykt	_	_	_	_	_	_	_	
+34-13	2290-2291	:	_	_	_	_	_	_	_	
+34-14	2292-2293	”	_	_	_	_	_	_	_	
+34-15	2293-2295	Nu	_	Target;Source[17]	34-19[46];34-1[45]	false[17]	4[17]	_	_	
+34-16	2296-2298	är	_	Target;Source[17]	34-19[46];34-1[45]	false[17]	4[17]	_	_	
+34-17	2299-2302	det	_	Target;Source[17]	34-19[46];34-1[45]	false[17]	4[17]	_	_	
+34-18	2303-2307	dags	_	Target;Source[17]	34-19[46];34-1[45]	false[17]	4[17]	_	_	
+34-19	2308-2311	att	*[46]	_	_	_	_	_	_	
+34-20	2312-2314	rå	*[46]	_	_	_	_	_	_	
+34-21	2315-2317	om	*[46]	_	_	_	_	_	_	
+34-22	2318-2321	oss	*[46]	_	_	_	_	_	_	
+34-23	2322-2328	själva	*[46]	_	_	_	_	_	_	
+34-24	2328-2329	”	_	_	_	_	_	_	_	
+34-25	2329-2330	.	_	_	_	_	_	_	_	
+
+#Text=Man menar att bostäder, skolor och sjukvård inte räcker till och att Sverige helt enkelt inte har råd.
+35-1	2331-2334	Man	_	_	_	_	_	_	_	
+35-2	2335-2340	menar	_	_	_	_	_	_	_	
+35-3	2341-2344	att	_	_	_	_	_	_	_	
+35-4	2345-2353	bostäder	_	_	_	_	_	_	_	
+35-5	2353-2354	,	_	_	_	_	_	_	_	
+35-6	2355-2361	skolor	_	_	_	_	_	_	_	
+35-7	2362-2365	och	_	_	_	_	_	_	_	
+35-8	2366-2374	sjukvård	_	_	_	_	_	_	_	
+35-9	2375-2379	inte	_	_	_	_	_	_	_	
+35-10	2380-2386	räcker	_	_	_	_	_	_	_	
+35-11	2387-2391	till	_	_	_	_	_	_	_	
+35-12	2392-2395	och	_	_	_	_	_	_	_	
+35-13	2396-2399	att	_	_	_	_	_	_	_	
+35-14	2400-2407	Sverige	_	_	_	_	_	_	_	
+35-15	2408-2412	helt	_	_	_	_	_	_	_	
+35-16	2413-2419	enkelt	_	_	_	_	_	_	_	
+35-17	2420-2424	inte	_	_	_	_	_	_	_	
+35-18	2425-2428	har	_	_	_	_	_	_	_	
+35-19	2429-2432	råd	_	_	_	_	_	_	_	
+35-20	2432-2433	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2435-2436	#	_	_	_	_	_	_	_	
+36-2	2436-2437	P	_	_	_	_	_	_	_	
+36-3	2438-2441	IMM	_	_	_	false	4	_	_	
+36-4	2441-2442	.	_	_	_	_	_	_	_	
+
+#Text=Juluppropet handlar om de människor som redan finns här.
+37-1	2444-2455	Juluppropet	_	_	_	_	_	_	_	
+37-2	2456-2463	handlar	_	_	_	_	_	_	_	
+37-3	2464-2466	om	_	_	_	_	_	_	_	
+37-4	2467-2469	de	_	_	_	_	_	_	_	
+37-5	2470-2479	människor	_	_	_	_	_	_	_	
+37-6	2480-2483	som	_	_	_	_	_	_	_	
+37-7	2484-2489	redan	_	_	_	_	_	_	_	
+37-8	2490-2495	finns	_	_	_	_	_	_	_	
+37-9	2496-2499	här	_	_	_	_	_	_	_	
+37-10	2499-2500	.	_	_	_	_	_	_	_	
+
+#Text=Många av dem blir våra nya framtida medborgare som kommer att bära landet framåt.
+38-1	2501-2506	Många	*[47]	_	_	_	_	_	_	
+38-2	2507-2509	av	*[47]	_	_	_	_	_	_	
+38-3	2510-2513	dem	*[47]	_	_	_	_	_	_	
+38-4	2514-2518	blir	_	_	_	_	_	_	_	
+38-5	2519-2523	våra	_	_	_	_	_	_	_	
+38-6	2524-2527	nya	_	_	_	_	_	_	_	
+38-7	2528-2536	framtida	_	_	_	_	_	_	_	
+38-8	2537-2547	medborgare	_	_	_	_	_	_	_	
+38-9	2548-2551	som	_	_	_	_	_	_	_	
+38-10	2552-2558	kommer	_	Target[18]	38-1[47]	false[18]	4[18]	_	_	
+38-11	2559-2562	att	_	Target[18]	38-1[47]	false[18]	4[18]	_	_	
+38-12	2563-2567	bära	_	Target[18]	38-1[47]	false[18]	4[18]	_	_	
+38-13	2568-2574	landet	_	Target[18]	38-1[47]	false[18]	4[18]	_	_	
+38-14	2575-2581	framåt	_	Target[18]	38-1[47]	false[18]	4[18]	_	_	
+38-15	2581-2582	.	_	_	_	_	_	_	_	
+
+#Text=Kyrkornas engagemang för dessa människor rymmer angelägna samhällsperspektiv.
+39-1	2583-2592	Kyrkornas	*	_	_	_	_	_	_	
+39-2	2593-2603	engagemang	_	Target;Source[19]	39-4[48];39-1	false[19]	4[19]	_	_	
+39-3	2604-2607	för	_	Target;Source[19]	39-4[48];39-1	false[19]	4[19]	_	_	
+39-4	2608-2613	dessa	*[48]	_	_	_	_	_	_	
+39-5	2614-2623	människor	*[48]	_	_	_	_	_	_	
+39-6	2624-2630	rymmer	_	_	_	_	_	_	_	
+39-7	2631-2640	angelägna	_	_	_	_	_	_	_	
+39-8	2641-2659	samhällsperspektiv	_	_	_	_	_	_	_	
+39-9	2659-2660	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2662-2663	#	_	_	_	_	_	_	_	
+40-2	2663-2664	P	_	_	_	_	_	_	_	
+40-3	2665-2668	IMM	_	_	_	false	3	_	_	
+40-4	2668-2669	.	_	_	_	_	_	_	_	
+
+#Text=Desinformation.
+41-1	2671-2685	Desinformation	_	_	_	_	_	_	_	
+41-2	2685-2686	.	_	_	_	_	_	_	_	
+
+#Text=Vår önskan om att barn ska få vara med sina familjer har av vissa medvetet misstolkats som uppmaning till oreglerad invandring.
+42-1	2687-2690	Vår	*	_	_	_	_	_	_	
+42-2	2691-2697	önskan	_	Source;Target[20]	42-1;42-4[49]	false[20]	4[20]	_	_	
+42-3	2698-2700	om	_	Source;Target[20]	42-1;42-4[49]	false[20]	4[20]	_	_	
+42-4	2701-2704	att	*[49]	_	_	_	_	_	_	
+42-5	2705-2709	barn	*[49]	_	_	_	_	_	_	
+42-6	2710-2713	ska	*[49]	_	_	_	_	_	_	
+42-7	2714-2716	få	*[49]	_	_	_	_	_	_	
+42-8	2717-2721	vara	*[49]	_	_	_	_	_	_	
+42-9	2722-2725	med	*[49]	_	_	_	_	_	_	
+42-10	2726-2730	sina	*[49]	_	_	_	_	_	_	
+42-11	2731-2739	familjer	*[49]	_	_	_	_	_	_	
+42-12	2740-2743	har	_	_	_	_	_	_	_	
+42-13	2744-2746	av	_	_	_	_	_	_	_	
+42-14	2747-2752	vissa	*	_	_	_	_	_	_	
+42-15	2753-2761	medvetet	_	Target[21]	42-14	false[21]	2[21]	_	_	
+42-16	2762-2773	misstolkats	_	Target[21]	42-14	false[21]	2[21]	_	_	
+42-17	2774-2777	som	_	_	_	_	_	_	_	
+42-18	2778-2787	uppmaning	_	Source;Target[22]	42-22;42-20[50]	false[22]	4[22]	_	_	
+42-19	2788-2792	till	_	Source;Target[22]	42-22;42-20[50]	false[22]	4[22]	_	_	
+42-20	2793-2802	oreglerad	*[50]	_	_	_	_	_	_	
+42-21	2803-2813	invandring	*[50]	_	_	_	_	_	_	
+42-22	2813-2814	.	*	_	_	_	_	_	_	
+
+#Text=Juluppropet handlar inte om att återgå till situationen som rådde hösten 2015 utan till det regelverk vi hade då.
+43-1	2815-2826	Juluppropet	_	_	_	_	_	_	_	
+43-2	2827-2834	handlar	_	_	_	_	_	_	_	
+43-3	2835-2839	inte	_	_	_	_	_	_	_	
+43-4	2840-2842	om	_	_	_	_	_	_	_	
+43-5	2843-2846	att	_	_	_	_	_	_	_	
+43-6	2847-2853	återgå	_	_	_	_	_	_	_	
+43-7	2854-2858	till	_	_	_	_	_	_	_	
+43-8	2859-2870	situationen	_	_	_	_	_	_	_	
+43-9	2871-2874	som	_	_	_	_	_	_	_	
+43-10	2875-2880	rådde	_	_	_	_	_	_	_	
+43-11	2881-2887	hösten	_	_	_	_	_	_	_	
+43-12	2888-2892	2015	_	_	_	_	_	_	_	
+43-13	2893-2897	utan	_	_	_	_	_	_	_	
+43-14	2898-2902	till	_	_	_	_	_	_	_	
+43-15	2903-2906	det	_	_	_	_	_	_	_	
+43-16	2907-2916	regelverk	_	_	_	_	_	_	_	
+43-17	2917-2919	vi	_	_	_	_	_	_	_	
+43-18	2920-2924	hade	_	_	_	_	_	_	_	
+43-19	2925-2927	då	_	_	_	_	_	_	_	
+43-20	2927-2928	.	_	_	_	_	_	_	_	
+
+#Text=Det är stor skillnad.
+44-1	2929-2932	Det	_	_	_	_	_	_	_	
+44-2	2933-2935	är	_	_	_	_	_	_	_	
+44-3	2936-2940	stor	_	_	_	_	_	_	_	
+44-4	2941-2949	skillnad	_	_	_	_	_	_	_	
+44-5	2949-2950	.	_	_	_	_	_	_	_	
+
+#Text=Vi räds inte debatten men en anständig diskussion tillskriver inte någon åsikter som den inte har.
+45-1	2951-2953	Vi	*	_	_	_	_	_	_	
+45-2	2954-2958	räds	_	Source;Target[23]	45-1;45-4	false[23]	3[23]	_	_	
+45-3	2959-2963	inte	_	Source;Target[23]	45-1;45-4	false[23]	3[23]	_	_	
+45-4	2964-2972	debatten	*	_	_	_	_	_	_	
+45-5	2973-2976	men	_	_	_	_	_	_	_	
+45-6	2977-2979	en	*[51]	_	_	_	_	_	_	
+45-7	2980-2989	anständig	*[51]	Target	45-6[51]	false	4	_	_	
+45-8	2990-3000	diskussion	*[51]	_	_	_	_	_	_	
+45-9	3001-3012	tillskriver	_	_	_	_	_	_	_	
+45-10	3013-3017	inte	_	_	_	_	_	_	_	
+45-11	3018-3023	någon	_	_	_	_	_	_	_	
+45-12	3024-3031	åsikter	_	_	_	_	_	_	_	
+45-13	3032-3035	som	_	_	_	_	_	_	_	
+45-14	3036-3039	den	_	_	_	_	_	_	_	
+45-15	3040-3044	inte	_	_	_	_	_	_	_	
+45-16	3045-3048	har	_	_	_	_	_	_	_	
+45-17	3048-3049	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3051-3052	#	_	_	_	_	_	_	_	
+46-2	3052-3053	P	_	_	_	_	_	_	_	
+46-3	3054-3057	IMM	_	_	_	_	_	_	_	
+46-4	3057-3058	.	_	_	_	_	_	_	_	
+
+#Text=Förakt mot godhet.
+47-1	3060-3066	Förakt	_	Source;Target[24]	47-4;47-3	false[24]	1[24]	_	_	
+47-2	3067-3070	mot	_	Source;Target[24]	47-4;47-3	false[24]	1[24]	_	_	
+47-3	3071-3077	godhet	*	_	_	_	_	_	_	
+47-4	3077-3078	.	*	_	_	_	_	_	_	
+
+#Text=Kyrkorna har hånfullt kallats naiva godhetsapostlar.
+48-1	3079-3087	Kyrkorna	*[52]|*[53]	_	_	_	_	_	_	
+48-2	3088-3091	har	*[52]	_	_	_	_	_	_	
+48-3	3092-3100	hånfullt	*[52]	Target	48-1[52]	false	1	_	_	
+48-4	3101-3108	kallats	*[52]	_	_	_	_	_	_	
+48-5	3109-3114	naiva	*[52]	Source;Target[25]	48-7;48-1[53]	false[25]	2[25]	_	_	
+48-6	3115-3130	godhetsapostlar	*[52]	Source;Target[25]	48-7;48-1[53]	false[25]	2[25]	_	_	
+48-7	3130-3131	.	*	_	_	_	_	_	_	
+
+#Text=I samhället och i kyrkorna kan vi självklart vara oense om mål och medel.
+49-1	3132-3133	I	_	_	_	_	_	_	_	
+49-2	3134-3143	samhället	_	_	_	_	_	_	_	
+49-3	3144-3147	och	_	_	_	_	_	_	_	
+49-4	3148-3149	i	_	_	_	_	_	_	_	
+49-5	3150-3158	kyrkorna	_	_	_	_	_	_	_	
+49-6	3159-3162	kan	_	_	_	_	_	_	_	
+49-7	3163-3165	vi	_	_	_	_	_	_	_	
+49-8	3166-3176	självklart	_	_	_	_	_	_	_	
+49-9	3177-3181	vara	_	_	_	_	_	_	_	
+49-10	3182-3187	oense	_	_	_	_	_	_	_	
+49-11	3188-3190	om	_	_	_	_	_	_	_	
+49-12	3191-3194	mål	_	_	_	_	_	_	_	
+49-13	3195-3198	och	_	_	_	_	_	_	_	
+49-14	3199-3204	medel	_	_	_	_	_	_	_	
+49-15	3204-3205	.	_	_	_	_	_	_	_	
+
+#Text=Men det är allvarligt att engagemang för barn och unga hånas och att grupper spelas ut mot varandra.
+50-1	3206-3209	Men	_	_	_	_	_	_	_	
+50-2	3210-3213	det	_	Target[26]	50-5[54]	false[26]	2[26]	_	_	
+50-3	3214-3216	är	_	Target[26]	50-5[54]	false[26]	2[26]	_	_	
+50-4	3217-3227	allvarligt	_	Target[26]	50-5[54]	false[26]	2[26]	_	_	
+50-5	3228-3231	att	*[54]	_	_	_	_	_	_	
+50-6	3232-3242	engagemang	*[54]|*[55]	Source;Target[27]	50-19;50-8[56]	false[27]	4[27]	_	_	
+50-7	3243-3246	för	*[54]|*[55]	Source;Target[27]	50-19;50-8[56]	false[27]	4[27]	_	_	
+50-8	3247-3251	barn	*[54]|*[55]|*[56]	_	_	_	_	_	_	
+50-9	3252-3255	och	*[54]|*[55]|*[56]	_	_	_	_	_	_	
+50-10	3256-3260	unga	*[54]|*[55]|*[56]	_	_	_	_	_	_	
+50-11	3261-3266	hånas	*[54]	Target;Source	50-6[55];50-19	false	1	_	_	
+50-12	3267-3270	och	*[54]	_	_	_	_	_	_	
+50-13	3271-3274	att	*[54]	_	_	_	_	_	_	
+50-14	3275-3282	grupper	*[54]	_	_	_	_	_	_	
+50-15	3283-3289	spelas	*[54]	_	_	_	_	_	_	
+50-16	3290-3292	ut	*[54]	_	_	_	_	_	_	
+50-17	3293-3296	mot	*[54]	_	_	_	_	_	_	
+50-18	3297-3305	varandra	*[54]	_	_	_	_	_	_	
+50-19	3305-3306	.	*	_	_	_	_	_	_	
+
+#Text=Förakt mot generositet och välvilja kan få katastrofala följder.
+51-1	3307-3313	Förakt	*[57]	Target;Source[28]	51-3[58];51-10	false[28]	1[28]	_	_	
+51-2	3314-3317	mot	*[57]	Target;Source[28]	51-3[58];51-10	false[28]	1[28]	_	_	
+51-3	3318-3329	generositet	*[57]|*[58]	_	_	_	_	_	_	
+51-4	3330-3333	och	*[57]|*[58]	_	_	_	_	_	_	
+51-5	3334-3342	välvilja	*[57]|*[58]	_	_	_	_	_	_	
+51-6	3343-3346	kan	_	Target[29]	51-1[57]	false[29]	1[29]	_	_	
+51-7	3347-3349	få	_	Target[29]	51-1[57]	false[29]	1[29]	_	_	
+51-8	3350-3362	katastrofala	_	Target[29]	51-1[57]	false[29]	1[29]	_	_	
+51-9	3363-3370	följder	_	Target[29]	51-1[57]	false[29]	1[29]	_	_	
+51-10	3370-3371	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3373-3374	#	_	_	_	_	_	_	_	
+52-2	3374-3375	P	_	_	_	_	_	_	_	
+52-3	3376-3379	IMM	_	_	_	_	_	_	_	
+52-4	3379-3380	.	_	_	_	_	_	_	_	
+
+#Text=Namninsamlingen för Juluppropet är ännu öppen fram till den 31 januari.
+53-1	3382-3397	Namninsamlingen	_	_	_	_	_	_	_	
+53-2	3398-3401	för	_	_	_	_	_	_	_	
+53-3	3402-3413	Juluppropet	_	_	_	_	_	_	_	
+53-4	3414-3416	är	_	_	_	_	_	_	_	
+53-5	3417-3421	ännu	_	_	_	_	_	_	_	
+53-6	3422-3427	öppen	_	_	_	_	_	_	_	
+53-7	3428-3432	fram	_	_	_	_	_	_	_	
+53-8	3433-3437	till	_	_	_	_	_	_	_	
+53-9	3438-3441	den	_	_	_	_	_	_	_	
+53-10	3442-3444	31	_	_	_	_	_	_	_	
+53-11	3445-3452	januari	_	_	_	_	_	_	_	
+53-12	3452-3453	.	_	_	_	_	_	_	_	
+
+#Text=Därefter kommer vi att överlämna alla dessa tusentals namn till regeringen i den fasta övertygelsen att barn och unga har rätt till familjeliv och framtidstro.
+54-1	3454-3462	Därefter	_	_	_	_	_	_	_	
+54-2	3463-3469	kommer	_	_	_	_	_	_	_	
+54-3	3470-3472	vi	_	_	_	_	_	_	_	
+54-4	3473-3476	att	_	_	_	_	_	_	_	
+54-5	3477-3486	överlämna	_	_	_	_	_	_	_	
+54-6	3487-3491	alla	_	_	_	_	_	_	_	
+54-7	3492-3497	dessa	_	_	_	_	_	_	_	
+54-8	3498-3507	tusentals	_	_	_	_	_	_	_	
+54-9	3508-3512	namn	_	_	_	_	_	_	_	
+54-10	3513-3517	till	_	_	_	_	_	_	_	
+54-11	3518-3528	regeringen	_	_	_	_	_	_	_	
+54-12	3529-3530	i	_	_	_	_	_	_	_	
+54-13	3531-3534	den	_	_	_	_	_	_	_	
+54-14	3535-3540	fasta	_	_	_	_	_	_	_	
+54-15	3541-3553	övertygelsen	_	_	_	_	_	_	_	
+54-16	3554-3557	att	_	_	_	_	_	_	_	
+54-17	3558-3562	barn	_	_	_	_	_	_	_	
+54-18	3563-3566	och	_	_	_	_	_	_	_	
+54-19	3567-3571	unga	_	_	_	_	_	_	_	
+54-20	3572-3575	har	_	_	_	_	_	_	_	
+54-21	3576-3580	rätt	_	_	_	_	_	_	_	
+54-22	3581-3585	till	_	_	_	_	_	_	_	
+54-23	3586-3596	familjeliv	_	_	_	_	_	_	_	
+54-24	3597-3600	och	_	_	_	_	_	_	_	
+54-25	3601-3612	framtidstro	_	_	_	_	_	_	_	
+54-26	3612-3613	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3615-3616	#	_	_	_	_	_	_	_	
+55-2	3616-3617	P	_	_	_	_	_	_	_	
+55-3	3618-3621	IMM	_	_	_	_	_	_	_	
+55-4	3621-3622	.	_	_	_	_	_	_	_	
+
+#Text=Engagemanget för barn och unga kommer inte att upphöra.
+56-1	3624-3636	Engagemanget	_	Target[30]	56-3[59]	false[30]	4[30]	_	_	
+56-2	3637-3640	för	_	Target[30]	56-3[59]	false[30]	4[30]	_	_	
+56-3	3641-3645	barn	*[59]	_	_	_	_	_	_	
+56-4	3646-3649	och	*[59]	_	_	_	_	_	_	
+56-5	3650-3654	unga	*[59]	_	_	_	_	_	_	
+56-6	3655-3661	kommer	_	_	_	_	_	_	_	
+56-7	3662-3666	inte	_	_	_	_	_	_	_	
+56-8	3667-3670	att	_	_	_	_	_	_	_	
+56-9	3671-3678	upphöra	_	_	_	_	_	_	_	
+56-10	3678-3679	.	_	_	_	_	_	_	_	
+
+#Text=Vi människor hör samman och har ansvar för varandra, över hela världen.
+57-1	3680-3682	Vi	*[60]	_	_	_	_	_	_	
+57-2	3683-3692	människor	*[60]	_	_	_	_	_	_	
+57-3	3693-3696	hör	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-4	3697-3703	samman	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-5	3704-3707	och	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-6	3708-3711	har	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-7	3712-3718	ansvar	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-8	3719-3722	för	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-9	3723-3731	varandra	_	Target[31]	57-1[60]	false[31]	4[31]	_	_	
+57-10	3731-3732	,	_	_	_	_	_	_	_	
+57-11	3733-3737	över	_	_	_	_	_	_	_	
+57-12	3738-3742	hela	_	_	_	_	_	_	_	
+57-13	3743-3750	världen	_	_	_	_	_	_	_	
+57-14	3750-3751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3753-3754	#	_	_	_	_	_	_	_	
+58-2	3754-3755	P	_	_	_	_	_	_	_	
+58-3	3756-3759	IMM	_	_	_	_	_	_	_	
+58-4	3759-3760	.	_	_	_	_	_	_	_	
+
+#Text=Daniel AlmAnders ArboreliusDioscoros Benyamin AtasTorbjörn FreijIeva GraufeldeGöran HansenStefan HolmströmAntje JackelénJohnny KlemanKjell LarssonAnne-Christine LindvallJean MansourBernth-Åke OttossonLasse SvenssonKarin Wiborn.
+59-1	3762-3768	Daniel	_	_	_	_	_	_	_	
+59-2	3769-3778	AlmAnders	_	_	_	_	_	_	_	
+59-3	3779-3798	ArboreliusDioscoros	_	_	_	_	_	_	_	
+59-4	3799-3807	Benyamin	_	_	_	_	_	_	_	
+59-5	3808-3820	AtasTorbjörn	_	_	_	_	_	_	_	
+59-6	3821-3830	FreijIeva	_	_	_	_	_	_	_	
+59-7	3831-3845	GraufeldeGöran	_	_	_	_	_	_	_	
+59-8	3846-3858	HansenStefan	_	_	_	_	_	_	_	
+59-9	3859-3873	HolmströmAntje	_	_	_	_	_	_	_	
+59-10	3874-3888	JackelénJohnny	_	_	_	_	_	_	_	
+59-11	3889-3900	KlemanKjell	_	_	_	_	_	_	_	
+59-12	3901-3922	LarssonAnne-Christine	_	_	_	_	_	_	_	
+59-13	3923-3935	LindvallJean	_	_	_	_	_	_	_	
+59-14	3936-3953	MansourBernth-Åke	_	_	_	_	_	_	_	
+59-15	3954-3967	OttossonLasse	_	_	_	_	_	_	_	
+59-16	3968-3981	SvenssonKarin	_	_	_	_	_	_	_	
+59-17	3982-3988	Wiborn	_	_	_	_	_	_	_	
+59-18	3988-3989	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3991-3992	#	_	_	_	_	_	_	_	
+60-2	3992-3993	P	_	_	_	_	_	_	_	
+60-3	3994-3997	IMM	_	_	_	_	_	_	_	
+60-4	3997-3998	.	_	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+61-1	4000-4004	Häng	_	_	_	_	_	_	_	
+61-2	4005-4008	med	_	_	_	_	_	_	_	
+61-3	4009-4010	i	_	_	_	_	_	_	_	
+61-4	4011-4019	debatten	_	_	_	_	_	_	_	
+61-5	4020-4023	och	_	_	_	_	_	_	_	
+61-6	4024-4034	kommentera	_	_	_	_	_	_	_	
+61-7	4035-4043	artikeln	_	_	_	_	_	_	_	
+61-8	4044-4045	–	_	_	_	_	_	_	_	
+61-9	4046-4050	följ	_	_	_	_	_	_	_	
+61-10	4052-4058	Debatt	_	_	_	_	_	_	_	
+61-11	4059-4061	på	_	_	_	_	_	_	_	
+61-12	4062-4070	Facebook	_	_	_	_	_	_	_	
+61-13	4070-4071	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4073-4074	#	_	_	_	_	_	_	_	
+62-2	4074-4075	P	_	_	_	_	_	_	_	
+62-3	4076-4079	IMM	_	_	_	_	_	_	_	
+62-4	4079-4080	.	_	_	_	_	_	_	_	
+
+#Text=RERNA.
+63-1	4082-4087	RERNA	_	_	_	_	_	_	_	
+63-2	4087-4088	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4090-4091	#	_	_	_	_	_	_	_	
+64-2	4091-4092	P	_	_	_	_	_	_	_	
+64-3	4093-4096	IMM	_	_	_	_	_	_	_	
+64-4	4096-4097	.	_	_	_	_	_	_	_	
+
+#Text=Juluppropet.
+65-1	4099-4110	Juluppropet	_	_	_	_	_	_	_	
+65-2	4110-4111	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4113-4114	#	_	_	_	_	_	_	_	
+66-2	4114-4115	P	_	_	_	_	_	_	_	
+66-3	4116-4119	IMM	_	_	_	_	_	_	_	
+66-4	4119-4120	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges kristna råd.
+67-1	4122-4130	Sveriges	_	_	_	_	_	_	_	
+67-2	4131-4138	kristna	_	_	_	_	_	_	_	
+67-3	4139-4142	råd	_	_	_	_	_	_	_	
+67-4	4142-4143	.	_	_	_	_	_	_	_	

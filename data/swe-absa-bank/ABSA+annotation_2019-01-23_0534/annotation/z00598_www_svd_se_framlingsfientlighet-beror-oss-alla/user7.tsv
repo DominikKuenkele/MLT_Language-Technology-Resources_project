@@ -1,0 +1,679 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Främlingsfientlighet berör oss alla.
+3-1	18-38	Främlingsfientlighet	*	Target	3-1	false	1	
+3-2	39-44	berör	_	_	_	_	_	
+3-3	45-48	oss	_	_	_	_	_	
+3-4	49-53	alla	_	_	_	_	_	
+3-5	53-54	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	
+
+#Text=Vi förfäras hur de muslimska och romska minoriteterna behandlas i Europa.
+5-1	65-67	Vi	*	_	_	_	_	
+5-2	68-76	förfäras	_	Target;Source	5-3[6];5-1	false	1	
+5-3	77-80	hur	*[6]	_	_	_	_	
+5-4	81-83	de	*[6]	_	_	_	_	
+5-5	84-93	muslimska	*[6]	_	_	_	_	
+5-6	94-97	och	*[6]	_	_	_	_	
+5-7	98-104	romska	*[6]	_	_	_	_	
+5-8	105-118	minoriteterna	*[6]	_	_	_	_	
+5-9	119-128	behandlas	*[6]	_	_	_	_	
+5-10	129-130	i	*[6]	_	_	_	_	
+5-11	131-137	Europa	*[6]	_	_	_	_	
+5-12	137-138	.	_	_	_	_	_	
+
+#Text=Det skriver ordförandena för judiska församlingarna i Stockholm, Göteborg och Malmö samt ordföranden i Judiska Centralrådet.
+6-1	139-142	Det	_	_	_	_	_	
+6-2	143-150	skriver	_	_	_	_	_	
+6-3	151-163	ordförandena	_	_	_	_	_	
+6-4	164-167	för	_	_	_	_	_	
+6-5	168-175	judiska	_	_	_	_	_	
+6-6	176-190	församlingarna	_	_	_	_	_	
+6-7	191-192	i	_	_	_	_	_	
+6-8	193-202	Stockholm	_	_	_	_	_	
+6-9	202-203	,	_	_	_	_	_	
+6-10	204-212	Göteborg	_	_	_	_	_	
+6-11	213-216	och	_	_	_	_	_	
+6-12	217-222	Malmö	_	_	_	_	_	
+6-13	223-227	samt	_	_	_	_	_	
+6-14	228-239	ordföranden	_	_	_	_	_	
+6-15	240-241	i	_	_	_	_	_	
+6-16	242-249	Judiska	_	_	_	_	_	
+6-17	250-262	Centralrådet	_	_	_	_	_	
+6-18	262-263	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	265-266	#	_	_	_	_	_	
+7-2	266-267	P	_	_	_	_	_	
+7-3	268-271	IMM	_	_	_	_	_	
+7-4	271-272	.	_	_	_	_	_	
+
+#Text=Vi från de judiska församlingarna i Sverige ser med förfäran hur de muslimska och romska minoriteterna behandlas i Europa.
+8-1	274-276	Vi	*[7]	_	_	_	_	
+8-2	277-281	från	*[7]	_	_	_	_	
+8-3	282-284	de	*[7]	_	_	_	_	
+8-4	285-292	judiska	*[7]	_	_	_	_	
+8-5	293-307	församlingarna	*[7]	_	_	_	_	
+8-6	308-309	i	*[7]	_	_	_	_	
+8-7	310-317	Sverige	*[7]	_	_	_	_	
+8-8	318-321	ser	_	Source;Target[1]	8-1[7];8-11[8]	false[1]	1[1]	
+8-9	322-325	med	_	Source;Target[1]	8-1[7];8-11[8]	false[1]	1[1]	
+8-10	326-334	förfäran	_	Source;Target[1]	8-1[7];8-11[8]	false[1]	1[1]	
+8-11	335-338	hur	*[8]	_	_	_	_	
+8-12	339-341	de	*[8]	_	_	_	_	
+8-13	342-351	muslimska	*[8]	_	_	_	_	
+8-14	352-355	och	*[8]	_	_	_	_	
+8-15	356-362	romska	*[8]	_	_	_	_	
+8-16	363-376	minoriteterna	*[8]	_	_	_	_	
+8-17	377-386	behandlas	*[8]	_	_	_	_	
+8-18	387-388	i	*[8]	_	_	_	_	
+8-19	389-395	Europa	*[8]	_	_	_	_	
+8-20	395-396	.	_	_	_	_	_	
+
+#Text=Våra föräldrar eller mor- och farföräldrar som sattes i ghetton av nazisterna lever fortfarande när man i Europa bygger fysiska murar kring områden där romer lever i fattigdom.
+9-1	397-401	Våra	_	_	_	_	_	
+9-2	402-411	föräldrar	_	_	_	_	_	
+9-3	412-417	eller	_	_	_	_	_	
+9-4	418-421	mor	_	_	_	_	_	
+9-5	421-422	-	_	_	_	_	_	
+9-6	423-426	och	_	_	_	_	_	
+9-7	427-439	farföräldrar	_	_	_	_	_	
+9-8	440-443	som	_	_	_	_	_	
+9-9	444-450	sattes	_	_	_	_	_	
+9-10	451-452	i	_	_	_	_	_	
+9-11	453-460	ghetton	_	_	_	_	_	
+9-12	461-463	av	_	_	_	_	_	
+9-13	464-474	nazisterna	_	_	_	_	_	
+9-14	475-480	lever	_	_	_	_	_	
+9-15	481-492	fortfarande	_	_	_	_	_	
+9-16	493-496	när	_	_	_	_	_	
+9-17	497-500	man	_	_	_	_	_	
+9-18	501-502	i	_	_	_	_	_	
+9-19	503-509	Europa	_	_	_	_	_	
+9-20	510-516	bygger	_	_	_	_	_	
+9-21	517-524	fysiska	_	_	_	_	_	
+9-22	525-530	murar	_	_	_	_	_	
+9-23	531-536	kring	_	_	_	_	_	
+9-24	537-544	områden	_	_	_	_	_	
+9-25	545-548	där	_	_	_	_	_	
+9-26	549-554	romer	_	_	_	_	_	
+9-27	555-560	lever	_	_	_	_	_	
+9-28	561-562	i	_	_	_	_	_	
+9-29	563-572	fattigdom	_	_	_	_	_	
+9-30	572-573	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	575-576	#	_	_	_	_	_	
+10-2	576-577	P	_	_	_	_	_	
+10-3	578-581	IMM	_	_	_	_	_	
+10-4	581-582	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	584-587	Det	_	_	_	_	_	
+11-2	588-591	här	_	_	_	_	_	
+11-3	592-594	är	_	_	_	_	_	
+11-4	595-597	en	_	_	_	_	_	
+11-5	598-612	argumenterande	_	_	_	_	_	
+11-6	613-617	text	_	_	_	_	_	
+11-7	618-621	med	_	_	_	_	_	
+11-8	622-627	syfte	_	_	_	_	_	
+11-9	628-631	att	_	_	_	_	_	
+11-10	632-639	påverka	_	_	_	_	_	
+11-11	639-640	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	641-650	Åsikterna	_	_	_	_	_	
+12-2	651-654	som	_	_	_	_	_	
+12-3	655-663	uttrycks	_	_	_	_	_	
+12-4	664-666	är	_	_	_	_	_	
+12-5	667-678	skribentens	_	_	_	_	_	
+12-6	679-683	egna	_	_	_	_	_	
+12-7	683-684	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	686-687	#	_	_	_	_	_	
+13-2	687-688	P	_	_	_	_	_	
+13-3	689-692	IMM	_	_	_	_	_	
+13-4	692-693	.	_	_	_	_	_	
+
+#Text=Den erfarenhet av förföljelse vi har ärvt erinrar oss att ta ställning närhelst vi ser hur en grupp diskrimineras.
+14-1	695-698	Den	_	_	_	_	_	
+14-2	699-709	erfarenhet	_	_	_	_	_	
+14-3	710-712	av	_	_	_	_	_	
+14-4	713-724	förföljelse	*	Target	14-4	false	1	
+14-5	725-727	vi	_	_	_	_	_	
+14-6	728-731	har	_	_	_	_	_	
+14-7	732-736	ärvt	_	_	_	_	_	
+14-8	737-744	erinrar	_	_	_	_	_	
+14-9	745-748	oss	_	_	_	_	_	
+14-10	749-752	att	_	_	_	_	_	
+14-11	753-755	ta	_	_	_	_	_	
+14-12	756-765	ställning	_	_	_	_	_	
+14-13	766-774	närhelst	_	_	_	_	_	
+14-14	775-777	vi	_	_	_	_	_	
+14-15	778-781	ser	_	_	_	_	_	
+14-16	782-785	hur	_	_	_	_	_	
+14-17	786-788	en	*[9]	_	_	_	_	
+14-18	789-794	grupp	*[9]	_	_	_	_	
+14-19	795-808	diskrimineras	_	Source;Target	14-20;14-17[9]	false	1	
+14-20	808-809	.	*	_	_	_	_	
+
+#Text=Alla människors lika värde och alla människors rätt att bli bemötta som individer gäller just alla – muslimer, judar, romer, homosexuella eller vilken religion, sexuell läggning eller ursprung man än har.
+15-1	810-814	Alla	_	_	_	_	_	
+15-2	815-825	människors	_	_	_	_	_	
+15-3	826-830	lika	_	_	_	_	_	
+15-4	831-836	värde	_	_	_	_	_	
+15-5	837-840	och	_	_	_	_	_	
+15-6	841-845	alla	_	_	_	_	_	
+15-7	846-856	människors	_	_	_	_	_	
+15-8	857-861	rätt	_	_	_	_	_	
+15-9	862-865	att	_	_	_	_	_	
+15-10	866-869	bli	_	_	_	_	_	
+15-11	870-877	bemötta	_	_	_	_	_	
+15-12	878-881	som	_	_	_	_	_	
+15-13	882-891	individer	_	_	_	_	_	
+15-14	892-898	gäller	_	_	_	_	_	
+15-15	899-903	just	_	_	_	_	_	
+15-16	904-908	alla	_	_	_	_	_	
+15-17	909-910	–	_	_	_	_	_	
+15-18	911-919	muslimer	_	_	_	_	_	
+15-19	919-920	,	_	_	_	_	_	
+15-20	921-926	judar	_	_	_	_	_	
+15-21	926-927	,	_	_	_	_	_	
+15-22	928-933	romer	_	_	_	_	_	
+15-23	933-934	,	_	_	_	_	_	
+15-24	935-947	homosexuella	_	_	_	_	_	
+15-25	948-953	eller	_	_	_	_	_	
+15-26	954-960	vilken	_	_	_	_	_	
+15-27	961-969	religion	_	_	_	_	_	
+15-28	969-970	,	_	_	_	_	_	
+15-29	971-978	sexuell	_	_	_	_	_	
+15-30	979-987	läggning	_	_	_	_	_	
+15-31	988-993	eller	_	_	_	_	_	
+15-32	994-1002	ursprung	_	_	_	_	_	
+15-33	1003-1006	man	_	_	_	_	_	
+15-34	1007-1009	än	_	_	_	_	_	
+15-35	1010-1013	har	_	_	_	_	_	
+15-36	1013-1014	.	_	_	_	_	_	
+
+#Text=Det är lätt att säga detta och att säga "aldrig igen."
+16-1	1015-1018	Det	_	_	_	_	_	
+16-2	1019-1021	är	_	_	_	_	_	
+16-3	1022-1026	lätt	_	_	_	_	_	
+16-4	1027-1030	att	_	_	_	_	_	
+16-5	1031-1035	säga	_	_	_	_	_	
+16-6	1036-1041	detta	_	_	_	_	_	
+16-7	1042-1045	och	_	_	_	_	_	
+16-8	1046-1049	att	_	_	_	_	_	
+16-9	1050-1054	säga	_	_	_	_	_	
+16-10	1055-1056	"	_	_	_	_	_	
+16-11	1056-1062	aldrig	_	_	_	_	_	
+16-12	1063-1067	igen	_	_	_	_	_	
+16-13	1067-1068	.	_	_	_	_	_	
+16-14	1068-1069	"	_	_	_	_	_	
+
+#Text=Men det är betydligt svårare att höja sin röst när man ser hetsjakten riktas mot andra grupper än dem man själv tillhör.
+17-1	1070-1073	Men	_	_	_	_	_	
+17-2	1074-1077	det	_	_	_	_	_	
+17-3	1078-1080	är	_	_	_	_	_	
+17-4	1081-1090	betydligt	_	_	_	_	_	
+17-5	1091-1098	svårare	_	_	_	_	_	
+17-6	1099-1102	att	_	_	_	_	_	
+17-7	1103-1107	höja	_	_	_	_	_	
+17-8	1108-1111	sin	_	_	_	_	_	
+17-9	1112-1116	röst	_	_	_	_	_	
+17-10	1117-1120	när	_	_	_	_	_	
+17-11	1121-1124	man	_	_	_	_	_	
+17-12	1125-1128	ser	_	_	_	_	_	
+17-13	1129-1139	hetsjakten	*	Target	17-13	false	1	
+17-14	1140-1146	riktas	_	_	_	_	_	
+17-15	1147-1150	mot	_	_	_	_	_	
+17-16	1151-1156	andra	_	_	_	_	_	
+17-17	1157-1164	grupper	_	_	_	_	_	
+17-18	1165-1167	än	_	_	_	_	_	
+17-19	1168-1171	dem	_	_	_	_	_	
+17-20	1172-1175	man	_	_	_	_	_	
+17-21	1176-1181	själv	_	_	_	_	_	
+17-22	1182-1189	tillhör	_	_	_	_	_	
+17-23	1189-1190	.	_	_	_	_	_	
+
+#Text=Kanske är det, medvetet eller omedvetet, lätt att tänka att det är skönt att det inte är mig de är ute efter.
+18-1	1191-1197	Kanske	_	_	_	_	_	
+18-2	1198-1200	är	_	_	_	_	_	
+18-3	1201-1204	det	_	_	_	_	_	
+18-4	1204-1205	,	_	_	_	_	_	
+18-5	1206-1214	medvetet	_	_	_	_	_	
+18-6	1215-1220	eller	_	_	_	_	_	
+18-7	1221-1230	omedvetet	_	_	_	_	_	
+18-8	1230-1231	,	_	_	_	_	_	
+18-9	1232-1236	lätt	_	_	_	_	_	
+18-10	1237-1240	att	_	_	_	_	_	
+18-11	1241-1246	tänka	_	_	_	_	_	
+18-12	1247-1250	att	_	_	_	_	_	
+18-13	1251-1254	det	_	_	_	_	_	
+18-14	1255-1257	är	_	Target[2]	18-16[10]	false[2]	4[2]	
+18-15	1258-1263	skönt	_	Target[2]	18-16[10]	false[2]	4[2]	
+18-16	1264-1267	att	*[10]	_	_	_	_	
+18-17	1268-1271	det	*[10]	_	_	_	_	
+18-18	1272-1276	inte	*[10]	_	_	_	_	
+18-19	1277-1279	är	*[10]	_	_	_	_	
+18-20	1280-1283	mig	*[10]	_	_	_	_	
+18-21	1284-1286	de	*[10]	_	_	_	_	
+18-22	1287-1289	är	*[10]	_	_	_	_	
+18-23	1290-1293	ute	*[10]	_	_	_	_	
+18-24	1294-1299	efter	*[10]	_	_	_	_	
+18-25	1299-1300	.	_	_	_	_	_	
+
+#Text=Men detta tankesätt invaggar oss i en falsk och kortsiktig trygghet.
+19-1	1301-1304	Men	_	_	_	_	_	
+19-2	1305-1310	detta	_	_	_	_	_	
+19-3	1311-1320	tankesätt	_	_	_	_	_	
+19-4	1321-1329	invaggar	_	_	_	_	_	
+19-5	1330-1333	oss	_	_	_	_	_	
+19-6	1334-1335	i	_	_	_	_	_	
+19-7	1336-1338	en	_	_	_	_	_	
+19-8	1339-1344	falsk	_	Target	19-11	false	2	
+19-9	1345-1348	och	_	_	_	_	_	
+19-10	1349-1359	kortsiktig	_	_	_	_	_	
+19-11	1360-1368	trygghet	*	_	_	_	_	
+19-12	1368-1369	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1371-1372	#	_	_	_	_	_	
+20-2	1372-1373	P	_	_	_	_	_	
+20-3	1374-1377	IMM	_	_	_	false	4	
+20-4	1377-1378	.	_	_	_	_	_	
+
+#Text=Muslimer i Europa utmålas som ett hot emot hela vår civilisation.
+21-1	1380-1388	Muslimer	*[11]	_	_	_	_	
+21-2	1389-1390	i	*[11]	_	_	_	_	
+21-3	1391-1397	Europa	*[11]	_	_	_	_	
+21-4	1398-1405	utmålas	_	Source;Target[3]	21-12;21-1[11]	false[3]	2[3]	
+21-5	1406-1409	som	_	Source;Target[3]	21-12;21-1[11]	false[3]	2[3]	
+21-6	1410-1413	ett	_	Source;Target[3]	21-12;21-1[11]	false[3]	2[3]	
+21-7	1414-1417	hot	_	Source;Target[3]	21-12;21-1[11]	false[3]	2[3]	
+21-8	1418-1422	emot	_	_	_	_	_	
+21-9	1423-1427	hela	_	_	_	_	_	
+21-10	1428-1431	vår	_	_	_	_	_	
+21-11	1432-1444	civilisation	_	_	_	_	_	
+21-12	1444-1445	.	*	_	_	_	_	
+
+#Text=Schweiz lagstiftar mot minareter och varhelst en moské ska byggas protesteras det.
+22-1	1446-1453	Schweiz	_	_	_	_	_	
+22-2	1454-1464	lagstiftar	_	_	_	_	_	
+22-3	1465-1468	mot	_	_	_	_	_	
+22-4	1469-1478	minareter	_	_	_	_	_	
+22-5	1479-1482	och	_	_	_	_	_	
+22-6	1483-1491	varhelst	_	_	_	_	_	
+22-7	1492-1494	en	_	_	_	_	_	
+22-8	1495-1500	moské	*	_	_	_	_	
+22-9	1501-1504	ska	_	_	_	_	_	
+22-10	1505-1511	byggas	*	_	_	_	_	
+22-11	1512-1523	protesteras	_	Target;Source;Target	22-8;22-13;22-10	false	2	
+22-12	1524-1527	det	_	_	_	_	_	
+22-13	1527-1528	.	*	_	_	_	_	
+
+#Text=Även i Sverige har diskussioner kring invandring på ett obehagligt sätt kommit att fixeras vid den muslimska minoriteten.
+23-1	1529-1533	Även	_	_	_	_	_	
+23-2	1534-1535	i	_	_	_	_	_	
+23-3	1536-1543	Sverige	_	_	_	_	_	
+23-4	1544-1547	har	_	_	_	_	_	
+23-5	1548-1560	diskussioner	_	_	_	_	_	
+23-6	1561-1566	kring	_	_	_	_	_	
+23-7	1567-1577	invandring	_	_	_	_	_	
+23-8	1578-1580	på	_	_	_	_	_	
+23-9	1581-1584	ett	_	_	_	_	_	
+23-10	1585-1595	obehagligt	_	Target	23-11	false	2	
+23-11	1596-1600	sätt	*	_	_	_	_	
+23-12	1601-1607	kommit	_	_	_	_	_	
+23-13	1608-1611	att	_	_	_	_	_	
+23-14	1612-1619	fixeras	_	_	_	_	_	
+23-15	1620-1623	vid	_	_	_	_	_	
+23-16	1624-1627	den	_	_	_	_	_	
+23-17	1628-1637	muslimska	_	_	_	_	_	
+23-18	1638-1649	minoriteten	_	_	_	_	_	
+23-19	1649-1650	.	_	_	_	_	_	
+
+#Text=Om alla de "aldrig igen" som ständigt upprepas är uppriktigt menade måste vi nu se rasismen för vad den är och stå upp emot den.
+24-1	1651-1653	Om	_	_	_	_	_	
+24-2	1654-1658	alla	_	_	_	_	_	
+24-3	1659-1661	de	_	_	_	_	_	
+24-4	1662-1663	"	_	_	_	_	_	
+24-5	1663-1669	aldrig	_	_	_	_	_	
+24-6	1670-1674	igen	_	_	_	_	_	
+24-7	1674-1675	"	_	_	_	_	_	
+24-8	1676-1679	som	_	_	_	_	_	
+24-9	1680-1688	ständigt	_	_	_	_	_	
+24-10	1689-1697	upprepas	_	_	_	_	_	
+24-11	1698-1700	är	_	_	_	_	_	
+24-12	1701-1711	uppriktigt	_	_	_	_	_	
+24-13	1712-1718	menade	_	_	_	_	_	
+24-14	1719-1724	måste	_	_	_	_	_	
+24-15	1725-1727	vi	_	_	_	_	_	
+24-16	1728-1730	nu	_	_	_	_	_	
+24-17	1731-1733	se	_	_	_	_	_	
+24-18	1734-1742	rasismen	*	Target	24-18	false	1	
+24-19	1743-1746	för	_	_	_	_	_	
+24-20	1747-1750	vad	_	_	_	_	_	
+24-21	1751-1754	den	_	_	_	_	_	
+24-22	1755-1757	är	_	_	_	_	_	
+24-23	1758-1761	och	_	_	_	_	_	
+24-24	1762-1765	stå	_	_	_	_	_	
+24-25	1766-1769	upp	_	_	_	_	_	
+24-26	1770-1774	emot	_	_	_	_	_	
+24-27	1775-1778	den	_	_	_	_	_	
+24-28	1778-1779	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1781-1782	#	_	_	_	_	_	
+25-2	1782-1783	P	_	_	_	_	_	
+25-3	1784-1787	IMM	_	_	_	_	_	
+25-4	1787-1788	.	_	_	_	_	_	
+
+#Text=En hel del har gjorts i Sverige för att vi ska lära av förtrycket och mördandet av det judiska folket.
+26-1	1790-1792	En	_	_	_	_	_	
+26-2	1793-1796	hel	_	_	_	_	_	
+26-3	1797-1800	del	_	_	_	_	_	
+26-4	1801-1804	har	_	_	_	_	_	
+26-5	1805-1811	gjorts	_	_	_	_	_	
+26-6	1812-1813	i	_	_	_	_	_	
+26-7	1814-1821	Sverige	_	_	_	_	_	
+26-8	1822-1825	för	_	_	_	_	_	
+26-9	1826-1829	att	_	_	_	_	_	
+26-10	1830-1832	vi	_	_	_	_	_	
+26-11	1833-1836	ska	_	_	_	_	_	
+26-12	1837-1841	lära	_	_	_	_	_	
+26-13	1842-1844	av	_	_	_	_	_	
+26-14	1845-1855	förtrycket	*	Target	26-14	false	1	
+26-15	1856-1859	och	_	_	_	_	_	
+26-16	1860-1869	mördandet	_	_	_	_	_	
+26-17	1870-1872	av	_	_	_	_	_	
+26-18	1873-1876	det	_	_	_	_	_	
+26-19	1877-1884	judiska	_	_	_	_	_	
+26-20	1885-1891	folket	_	_	_	_	_	
+26-21	1891-1892	.	_	_	_	_	_	
+
+#Text=Men hur ska vi som judisk minoritet kunna känna oss trygga när vi ser att det tilltagande diskrimineringen av muslimer i Sverige och Europa och förföljelserna av romer möts av i bästa fall lama protester?
+27-1	1893-1896	Men	_	_	_	_	_	
+27-2	1897-1900	hur	_	_	_	_	_	
+27-3	1901-1904	ska	_	_	_	_	_	
+27-4	1905-1907	vi	_	_	_	_	_	
+27-5	1908-1911	som	_	_	_	_	_	
+27-6	1912-1918	judisk	_	_	_	_	_	
+27-7	1919-1928	minoritet	_	_	_	_	_	
+27-8	1929-1934	kunna	_	_	_	_	_	
+27-9	1935-1940	känna	_	_	_	_	_	
+27-10	1941-1944	oss	_	_	_	_	_	
+27-11	1945-1951	trygga	_	_	_	_	_	
+27-12	1952-1955	när	_	_	_	_	_	
+27-13	1956-1958	vi	_	_	_	_	_	
+27-14	1959-1962	ser	_	_	_	_	_	
+27-15	1963-1966	att	_	_	_	_	_	
+27-16	1967-1970	det	_	_	_	_	_	
+27-17	1971-1982	tilltagande	_	_	_	_	_	
+27-18	1983-1999	diskrimineringen	*	Target	27-18	false	1	
+27-19	2000-2002	av	_	_	_	_	_	
+27-20	2003-2011	muslimer	_	_	_	_	_	
+27-21	2012-2013	i	_	_	_	_	_	
+27-22	2014-2021	Sverige	_	_	_	_	_	
+27-23	2022-2025	och	_	_	_	_	_	
+27-24	2026-2032	Europa	_	_	_	_	_	
+27-25	2033-2036	och	_	_	_	_	_	
+27-26	2037-2051	förföljelserna	*	Target	27-26	false	1	
+27-27	2052-2054	av	_	_	_	_	_	
+27-28	2055-2060	romer	_	_	_	_	_	
+27-29	2061-2065	möts	_	_	_	_	_	
+27-30	2066-2068	av	_	_	_	_	_	
+27-31	2069-2070	i	_	_	_	_	_	
+27-32	2071-2076	bästa	_	_	_	_	_	
+27-33	2077-2081	fall	_	_	_	_	_	
+27-34	2082-2086	lama	*	Target	27-34	false	2	
+27-35	2087-2096	protester	_	_	_	_	_	
+27-36	2096-2097	?	_	_	_	_	_	
+
+#Text=Förtryck berör oss alla, alltid, vem som än är utsatt för det.
+28-1	2098-2106	Förtryck	*	Target	28-1	false	1	
+28-2	2107-2112	berör	_	_	_	_	_	
+28-3	2113-2116	oss	_	_	_	_	_	
+28-4	2117-2121	alla	_	_	_	_	_	
+28-5	2121-2122	,	_	_	_	_	_	
+28-6	2123-2129	alltid	_	_	_	_	_	
+28-7	2129-2130	,	_	_	_	_	_	
+28-8	2131-2134	vem	_	_	_	_	_	
+28-9	2135-2138	som	_	_	_	_	_	
+28-10	2139-2141	än	_	_	_	_	_	
+28-11	2142-2144	är	_	_	_	_	_	
+28-12	2145-2151	utsatt	_	_	_	_	_	
+28-13	2152-2155	för	_	_	_	_	_	
+28-14	2156-2159	det	_	_	_	_	_	
+28-15	2159-2160	.	_	_	_	_	_	
+
+#Text=För om vi inte protesterar när andra grupper än vi själva förföljs, kan de sluta som i den berömda dikten av Pastor Martin Niemöller: "...När de sedan kom för att hämta mig, fanns ingen kvar som kunde protestera.".
+29-1	2161-2164	För	_	_	_	_	_	
+29-2	2165-2167	om	_	_	_	_	_	
+29-3	2168-2170	vi	*	_	_	_	_	
+29-4	2171-2175	inte	_	Source;Target[4]	29-3;29-7[12]	false[4]	3[4]	
+29-5	2176-2187	protesterar	_	Source;Target[4]	29-3;29-7[12]	false[4]	3[4]	
+29-6	2188-2191	när	_	_	_	_	_	
+29-7	2192-2197	andra	*[12]	_	_	_	_	
+29-8	2198-2205	grupper	*[12]	_	_	_	_	
+29-9	2206-2208	än	*[12]	_	_	_	_	
+29-10	2209-2211	vi	*[12]	_	_	_	_	
+29-11	2212-2218	själva	*[12]	_	_	_	_	
+29-12	2219-2227	förföljs	*[12]	_	_	_	_	
+29-13	2227-2228	,	_	_	_	_	_	
+29-14	2229-2232	kan	_	_	_	_	_	
+29-15	2233-2235	de	_	_	_	_	_	
+29-16	2236-2241	sluta	_	_	_	_	_	
+29-17	2242-2245	som	_	_	_	_	_	
+29-18	2246-2247	i	_	_	_	_	_	
+29-19	2248-2251	den	_	_	_	_	_	
+29-20	2252-2259	berömda	_	_	_	_	_	
+29-21	2260-2266	dikten	_	_	_	_	_	
+29-22	2267-2269	av	_	_	_	_	_	
+29-23	2270-2276	Pastor	_	_	_	_	_	
+29-24	2277-2283	Martin	_	_	_	_	_	
+29-25	2284-2293	Niemöller	_	_	_	_	_	
+29-26	2293-2294	:	_	_	_	_	_	
+29-27	2295-2296	"	_	_	_	_	_	
+29-28	2296-2297	.	_	_	_	_	_	
+29-29	2297-2298	.	_	_	_	_	_	
+29-30	2298-2299	.	_	_	_	_	_	
+29-31	2299-2302	När	_	_	_	_	_	
+29-32	2303-2305	de	_	_	_	_	_	
+29-33	2306-2311	sedan	_	_	_	_	_	
+29-34	2312-2315	kom	_	_	_	_	_	
+29-35	2316-2319	för	_	_	_	_	_	
+29-36	2320-2323	att	_	_	_	_	_	
+29-37	2324-2329	hämta	_	_	_	_	_	
+29-38	2330-2333	mig	_	_	_	_	_	
+29-39	2333-2334	,	_	_	_	_	_	
+29-40	2335-2340	fanns	_	_	_	_	_	
+29-41	2341-2346	ingen	_	_	_	_	_	
+29-42	2347-2351	kvar	_	_	_	_	_	
+29-43	2352-2355	som	_	_	_	_	_	
+29-44	2356-2361	kunde	_	_	_	_	_	
+29-45	2362-2372	protestera	_	_	_	_	_	
+29-46	2372-2373	.	_	_	_	_	_	
+29-47	2373-2374	"	_	_	_	_	_	
+29-48	2374-2375	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2377-2378	#	_	_	_	_	_	
+30-2	2378-2379	P	_	_	_	_	_	
+30-3	2380-2383	IMM	_	_	_	_	_	
+30-4	2383-2384	.	_	_	_	_	_	
+
+#Text=LENA-POSNER KÖRÖSI.
+31-1	2386-2397	LENA-POSNER	_	_	_	_	_	
+31-2	2398-2404	KÖRÖSI	_	_	_	_	_	
+31-3	2404-2405	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2407-2408	#	_	_	_	_	_	
+32-2	2408-2409	P	_	_	_	_	_	
+32-3	2410-2413	IMM	_	_	_	_	_	
+32-4	2413-2414	.	_	_	_	_	_	
+
+#Text=ordförande Judiska Centralrådet.
+33-1	2416-2426	ordförande	_	_	_	_	_	
+33-2	2427-2434	Judiska	_	_	_	_	_	
+33-3	2435-2447	Centralrådet	_	_	_	_	_	
+33-4	2447-2448	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2450-2451	#	_	_	_	_	_	
+34-2	2451-2452	P	_	_	_	_	_	
+34-3	2453-2456	IMM	_	_	_	_	_	
+34-4	2456-2457	.	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+35-1	2459-2472	Skräddarsydda	_	_	_	_	_	
+35-2	2473-2479	kurser	_	_	_	_	_	
+35-3	2480-2481	i	_	_	_	_	_	
+35-4	2482-2487	ämnen	*[13]	_	_	_	_	
+35-5	2488-2491	som	*[13]	_	_	_	_	
+35-6	2492-2503	intresserar	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-7	2504-2507	och	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-8	2508-2517	engagerar	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-9	2518-2522	både	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-10	2523-2528	kropp	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-11	2529-2532	och	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-12	2533-2537	själ	_	Target;Source[5]	35-4[13];35-13	false[5]	4[5]	
+35-13	2537-2538	.	*	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2540-2541	#	_	_	_	_	_	
+36-2	2541-2542	P	_	_	_	_	_	
+36-3	2543-2546	IMM	_	_	_	_	_	
+36-4	2546-2547	.	_	_	_	_	_	
+
+#Text=ALF LEVY.
+37-1	2549-2552	ALF	_	_	_	_	_	
+37-2	2553-2557	LEVY	_	_	_	_	_	
+37-3	2557-2558	.	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2560-2561	#	_	_	_	_	_	
+38-2	2561-2562	P	_	_	_	_	_	
+38-3	2563-2566	IMM	_	_	_	_	_	
+38-4	2566-2567	.	_	_	_	_	_	
+
+#Text=ordförande Judiska Församlingen i Stockholm.
+39-1	2569-2579	ordförande	_	_	_	_	_	
+39-2	2580-2587	Judiska	_	_	_	_	_	
+39-3	2588-2600	Församlingen	_	_	_	_	_	
+39-4	2601-2602	i	_	_	_	_	_	
+39-5	2603-2612	Stockholm	_	_	_	_	_	
+39-6	2612-2613	.	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2615-2616	#	_	_	_	_	_	
+40-2	2616-2617	P	_	_	_	_	_	
+40-3	2618-2621	IMM	_	_	_	_	_	
+40-4	2621-2622	.	_	_	_	_	_	
+
+#Text=GEORG BRAUN.
+41-1	2624-2629	GEORG	_	_	_	_	_	
+41-2	2630-2635	BRAUN	_	_	_	_	_	
+41-3	2635-2636	.	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	2638-2639	#	_	_	_	_	_	
+42-2	2639-2640	P	_	_	_	_	_	
+42-3	2641-2644	IMM	_	_	_	_	_	
+42-4	2644-2645	.	_	_	_	_	_	
+
+#Text=ordförande Judiska Församlingen i Göteborg.
+43-1	2647-2657	ordförande	_	_	_	_	_	
+43-2	2658-2665	Judiska	_	_	_	_	_	
+43-3	2666-2678	Församlingen	_	_	_	_	_	
+43-4	2679-2680	i	_	_	_	_	_	
+43-5	2681-2689	Göteborg	_	_	_	_	_	
+43-6	2689-2690	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	2692-2693	#	_	_	_	_	_	
+44-2	2693-2694	P	_	_	_	_	_	
+44-3	2695-2698	IMM	_	_	_	_	_	
+44-4	2698-2699	.	_	_	_	_	_	
+
+#Text=FRED KAHN.
+45-1	2701-2705	FRED	_	_	_	_	_	
+45-2	2706-2710	KAHN	_	_	_	_	_	
+45-3	2710-2711	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	2713-2714	#	_	_	_	_	_	
+46-2	2714-2715	P	_	_	_	_	_	
+46-3	2716-2719	IMM	_	_	_	_	_	
+46-4	2719-2720	.	_	_	_	_	_	
+
+#Text=ordförande Judiska Församlingen i Malmö.
+47-1	2722-2732	ordförande	_	_	_	_	_	
+47-2	2733-2740	Judiska	_	_	_	_	_	
+47-3	2741-2753	Församlingen	_	_	_	_	_	
+47-4	2754-2755	i	_	_	_	_	_	
+47-5	2756-2761	Malmö	_	_	_	_	_	
+47-6	2761-2762	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	2764-2765	#	_	_	_	_	_	
+48-2	2765-2766	P	_	_	_	_	_	
+48-3	2767-2770	IMM	_	_	_	_	_	
+48-4	2770-2771	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+49-1	2773-2781	Redaktör	_	_	_	_	_	
+49-2	2781-2782	:	_	_	_	_	_	
+49-3	2783-2789	Carina	_	_	_	_	_	
+49-4	2790-2798	Stensson	_	_	_	_	_	
+49-5	2798-2799	,	_	_	_	_	_	
+49-6	2800-2810	Biträdande	_	_	_	_	_	
+49-7	2811-2819	redaktör	_	_	_	_	_	
+49-8	2819-2820	:	_	_	_	_	_	
+49-9	2821-2826	Björn	_	_	_	_	_	
+49-10	2827-2833	Jorner	_	_	_	_	_	
+49-11	2833-2834	,	_	_	_	_	_	
+49-12	2835-2839	Mejl	_	_	_	_	_	
+49-13	2839-2840	:	_	_	_	_	_	
+49-14	2841-2847	debatt	_	_	_	_	_	
+49-15	2847-2848	@	_	_	_	_	_	
+49-16	2848-2854	svd.se	_	_	_	_	_	
+49-17	2854-2855	,	_	_	_	_	_	
+49-18	2856-2869	Telefonnummer	_	_	_	_	_	
+49-19	2869-2870	:	_	_	_	_	_	
+49-20	2871-2873	08	_	_	_	_	_	
+49-21	2873-2874	-	_	_	_	_	_	
+49-22	2874-2880	135149	_	_	_	_	_	
+49-23	2880-2881	,	_	_	_	_	_	
+49-24	2882-2889	Twitter	_	_	_	_	_	
+49-25	2889-2890	:	_	_	_	_	_	
+49-26	2891-2892	@	_	_	_	_	_	
+49-27	2892-2901	SvDDebatt	_	_	_	_	_	
+49-28	2901-2902	,	_	_	_	_	_	
+49-29	2903-2911	Facebook	_	_	_	_	_	
+49-30	2911-2912	:	_	_	_	_	_	
+49-31	2913-2916	SvD	_	_	_	_	_	
+49-32	2917-2923	Debatt	_	_	_	_	_	
+49-33	2923-2924	.	_	_	_	_	_	

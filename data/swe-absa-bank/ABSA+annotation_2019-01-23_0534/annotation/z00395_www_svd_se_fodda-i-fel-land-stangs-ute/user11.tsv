@@ -1,0 +1,1135 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	4[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	4[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	4[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	4[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Födda i fel land stängs ute.
+3-1	18-23	Födda	_	Source[3]	3-7	false[3]	2[3]	_	
+3-2	24-25	i	_	Source[3]	3-7	false[3]	2[3]	_	
+3-3	26-29	fel	_	Source[3]	3-7	false[3]	2[3]	_	
+3-4	30-34	land	_	Source[3]	3-7	false[3]	2[3]	_	
+3-5	35-41	stängs	_	_	_	_	_	_	
+3-6	42-45	ute	_	_	_	_	_	_	
+3-7	45-46	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	48-49	#	_	_	_	_	_	_	
+4-2	49-50	P	_	_[4]	_	false[4]	4[4]	_	
+4-3	51-54	IMM	_	_[4]	_	false[4]	4[4]	_	
+4-4	54-55	.	_	_	_	_	_	_	
+
+#Text=DISKRIMINERING.
+5-1	57-71	DISKRIMINERING	*	Target	5-1	false	1	_	
+5-2	71-72	.	_	_	_	_	_	_	
+
+#Text=Bestämmelserna i vallagen är en regelrätt och orättvis diskriminering.
+6-1	73-87	Bestämmelserna	*[33]	_	_	_	_	_	
+6-2	88-89	i	*[33]	_	_	_	_	_	
+6-3	90-98	vallagen	*[33]	_	_	_	_	_	
+6-4	99-101	är	_	_	_	_	_	_	
+6-5	102-104	en	_	_	_	_	_	_	
+6-6	105-114	regelrätt	_	_	_	_	_	_	
+6-7	115-118	och	_	_	_	_	_	_	
+6-8	119-127	orättvis	_	Target[5]	6-1[33]	false[5]	1[5]	_	
+6-9	128-142	diskriminering	_	Target[5]	6-1[33]	false[5]	1[5]	_	
+6-10	142-143	.	_	_	_	_	_	_	
+
+#Text=Omkring 100000 medborgare folkbokförda i Sverige stängs ute enbart för att de råkar vara födda i fel land, skriver en rad företrädare för organisationer mot diskriminering.
+7-1	144-151	Omkring	_	_	_	_	_	_	
+7-2	152-158	100000	_	_	_	_	_	_	
+7-3	159-169	medborgare	*[34]	_	_	_	_	_	
+7-4	170-182	folkbokförda	*[34]	_	_	_	_	_	
+7-5	183-184	i	*[34]	_	_	_	_	_	
+7-6	185-192	Sverige	*[34]	_	_	_	_	_	
+7-7	193-199	stängs	_	_	_	_	_	_	
+7-8	200-203	ute	_	_	_	_	_	_	
+7-9	204-210	enbart	_	_	_	_	_	_	
+7-10	211-214	för	_	_	_	_	_	_	
+7-11	215-218	att	_	_	_	_	_	_	
+7-12	219-221	de	_	_	_	_	_	_	
+7-13	222-227	råkar	_	_	_	_	_	_	
+7-14	228-232	vara	_	Source;Target[6]	7-28;7-3[34]	false[6]	2[6]	_	
+7-15	233-238	födda	_	Source;Target[6]	7-28;7-3[34]	false[6]	2[6]	_	
+7-16	239-240	i	_	Source;Target[6]	7-28;7-3[34]	false[6]	2[6]	_	
+7-17	241-244	fel	_	Source;Target[6]	7-28;7-3[34]	false[6]	2[6]	_	
+7-18	245-249	land	_	Source;Target[6]	7-28;7-3[34]	false[6]	2[6]	_	
+7-19	249-250	,	_	_	_	_	_	_	
+7-20	251-258	skriver	_	_	_	_	_	_	
+7-21	259-261	en	_	_	_	_	_	_	
+7-22	262-265	rad	_	_	_	_	_	_	
+7-23	266-277	företrädare	_	_	_	_	_	_	
+7-24	278-281	för	_	_	_	_	_	_	
+7-25	282-296	organisationer	_	_	_	_	_	_	
+7-26	297-300	mot	_	_	_	_	_	_	
+7-27	301-315	diskriminering	*	Target	7-27	false	1	_	
+7-28	315-316	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	318-319	#	_	_	_	_	_	_	
+8-2	319-320	P	_	_	_	_	_	_	
+8-3	321-324	IMM	_	_	_	_	_	_	
+8-4	324-325	.	_	_	_	_	_	_	
+
+#Text=Allmän och lika rösträtt infördes i Sverige efter en hundraårig demokratisk kamp och efter flera politiska strider.
+9-1	327-333	Allmän	_	_	_	_	_	_	
+9-2	334-337	och	_	_	_	_	_	_	
+9-3	338-342	lika	_	_	_	_	_	_	
+9-4	343-351	rösträtt	_	_	_	_	_	_	
+9-5	352-360	infördes	_	_	_	_	_	_	
+9-6	361-362	i	_	_	_	_	_	_	
+9-7	363-370	Sverige	_	_	_	_	_	_	
+9-8	371-376	efter	_	_	_	_	_	_	
+9-9	377-379	en	_	_	_	_	_	_	
+9-10	380-390	hundraårig	_	_	_	_	_	_	
+9-11	391-402	demokratisk	_	Target	9-12	false	4	_	
+9-12	403-407	kamp	*	_	_	_	_	_	
+9-13	408-411	och	_	_	_	_	_	_	
+9-14	412-417	efter	_	_	_	_	_	_	
+9-15	418-423	flera	_	_	_	_	_	_	
+9-16	424-433	politiska	_	_	_	_	_	_	
+9-17	434-441	strider	_	_	_	_	_	_	
+9-18	441-442	.	_	_	_	_	_	_	
+
+#Text=Kön, inkomst och förmögenhet var länge restriktioner för att få rösta och 1945 försvann den sista inskränkningen då även de som hade fattigvård fick rösträtt.
+10-1	443-446	Kön	_	_	_	_	_	_	
+10-2	446-447	,	_	_	_	_	_	_	
+10-3	448-455	inkomst	_	_	_	_	_	_	
+10-4	456-459	och	_	_	_	_	_	_	
+10-5	460-471	förmögenhet	_	_	_	_	_	_	
+10-6	472-475	var	_	_	_	_	_	_	
+10-7	476-481	länge	_	_	_	_	_	_	
+10-8	482-495	restriktioner	_	_	_	_	_	_	
+10-9	496-499	för	_	_	_	_	_	_	
+10-10	500-503	att	_	_	_	_	_	_	
+10-11	504-506	få	_	_	_	_	_	_	
+10-12	507-512	rösta	_	_	_	_	_	_	
+10-13	513-516	och	_	_	_	_	_	_	
+10-14	517-521	1945	_	_	_	_	_	_	
+10-15	522-530	försvann	_	Target	10-17[35]	false	4	_	
+10-16	531-534	den	_	_	_	_	_	_	
+10-17	535-540	sista	*[35]	_	_	_	_	_	
+10-18	541-555	inskränkningen	*[35]	_	_	_	_	_	
+10-19	556-558	då	_	_	_	_	_	_	
+10-20	559-563	även	_	_	_	_	_	_	
+10-21	564-566	de	_	_	_	_	_	_	
+10-22	567-570	som	_	_	_	_	_	_	
+10-23	571-575	hade	_	_	_	_	_	_	
+10-24	576-586	fattigvård	_	_	_	_	_	_	
+10-25	587-591	fick	_	_	_	_	_	_	
+10-26	592-600	rösträtt	_	_	_	_	_	_	
+10-27	600-601	.	_	_	_	_	_	_	
+
+#Text=Rösträtten anses som den viktigaste milstolpen i den representativa demokratin.
+11-1	602-612	Rösträtten	*	_	_	_	_	_	
+11-2	613-618	anses	_	_	_	false	4	_	
+11-3	619-622	som	_	_	_	_	_	_	
+11-4	623-626	den	_	Target;Source[7]	11-1;11-11	false[7]	4[7]	11-2[0_7]	
+11-5	627-637	viktigaste	_	Target;Source[7]	11-1;11-11	false[7]	4[7]	_	
+11-6	638-648	milstolpen	_	Target;Source[7]	11-1;11-11	false[7]	4[7]	_	
+11-7	649-650	i	_	_	_	_	_	_	
+11-8	651-654	den	_	_	_	_	_	_	
+11-9	655-669	representativa	_	_	_	_	_	_	
+11-10	670-680	demokratin	_	_	_	_	_	_	
+11-11	680-681	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	683-684	#	_	_	_	_	_	_	
+12-2	684-685	P	_	_	_	_	_	_	
+12-3	686-689	IMM	_	_	_	_	_	_	
+12-4	689-690	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+13-1	692-695	Det	_	_	_	_	_	_	
+13-2	696-699	här	_	_	_	_	_	_	
+13-3	700-702	är	_	_	_	_	_	_	
+13-4	703-705	en	_	_	_	_	_	_	
+13-5	706-720	argumenterande	_	_	_	_	_	_	
+13-6	721-725	text	_	_	_	_	_	_	
+13-7	726-729	med	_	_	_	_	_	_	
+13-8	730-735	syfte	_	_	_	_	_	_	
+13-9	736-739	att	_	_	_	_	_	_	
+13-10	740-747	påverka	_	_	_	_	_	_	
+13-11	747-748	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+14-1	749-758	Åsikterna	_	_	_	_	_	_	
+14-2	759-762	som	_	_	_	_	_	_	
+14-3	763-771	uttrycks	_	_	_	_	_	_	
+14-4	772-774	är	_	_	_	_	_	_	
+14-5	775-786	skribentens	_	_	_	_	_	_	
+14-6	787-791	egna	_	_	_	_	_	_	
+14-7	791-792	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	794-795	#	_	_	_	_	_	_	
+15-2	795-796	P	_	_[8]	_	false[8]	4[8]	_	
+15-3	797-800	IMM	_	_[8]	_	false[8]	4[8]	_	
+15-4	800-801	.	_	_	_	_	_	_	
+
+#Text=Men fortfarande gäller inte den allmänna rösträtten på lika villkor för alla som bor och verkar i Sverige.
+16-1	803-806	Men	_	_	_	_	_	_	
+16-2	807-818	fortfarande	_	_	_	_	_	_	
+16-3	819-825	gäller	_	_	_	_	_	_	
+16-4	826-830	inte	_	_	_	_	_	_	
+16-5	831-834	den	_	_	_	_	_	_	
+16-6	835-843	allmänna	_	_	_	_	_	_	
+16-7	844-854	rösträtten	_	_	_	_	_	_	
+16-8	855-857	på	_	_	_	_	_	_	
+16-9	858-862	lika	_	_	_	_	_	_	
+16-10	863-870	villkor	_	_	_	_	_	_	
+16-11	871-874	för	_	_	_	_	_	_	
+16-12	875-879	alla	_	_	_	_	_	_	
+16-13	880-883	som	_	_	_	_	_	_	
+16-14	884-887	bor	_	_	_	_	_	_	
+16-15	888-891	och	_	_	_	_	_	_	
+16-16	892-898	verkar	_	_	_	_	_	_	
+16-17	899-900	i	_	_	_	_	_	_	
+16-18	901-908	Sverige	_	_	_	_	_	_	
+16-19	908-909	.	_	_	_	_	_	_	
+
+#Text=Vallagen stänger ute människor från länder utanför EU.
+17-1	910-918	Vallagen	_	_	_	_	_	_	
+17-2	919-926	stänger	_	_	_	_	_	_	
+17-3	927-930	ute	_	_	_	_	_	_	
+17-4	931-940	människor	_	_	_	_	_	_	
+17-5	941-945	från	_	_	_	_	_	_	
+17-6	946-952	länder	_	_	_	_	_	_	
+17-7	953-960	utanför	_	_	_	_	_	_	
+17-8	961-963	EU	_	_	_	_	_	_	
+17-9	963-964	.	_	_	_	_	_	_	
+
+#Text=Rösträtten i Sverige är fortfarande varken allmän eller lika för alla.
+18-1	965-975	Rösträtten	*[36]	_	_	_	_	_	
+18-2	976-977	i	*[36]	_	_	_	_	_	
+18-3	978-985	Sverige	*[36]	_	_	_	_	_	
+18-4	986-988	är	_	Target	18-1[36]	false	2	18-6[9_0]	
+18-5	989-1000	fortfarande	_	_	_	_	_	_	
+18-6	1001-1007	varken	_	_[9]	_	false[9]	2[9]	18-9[10_9]	
+18-7	1008-1014	allmän	_	_[9]	_	false[9]	2[9]	_	
+18-8	1015-1020	eller	_	_	_	_	_	_	
+18-9	1021-1025	lika	_	_[10]	_	false[10]	2[10]	_	
+18-10	1026-1029	för	_	_[10]	_	false[10]	2[10]	_	
+18-11	1030-1034	alla	_	_[10]	_	false[10]	2[10]	_	
+18-12	1034-1035	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1037-1038	#	_	_	_	_	_	_	
+19-2	1038-1039	P	_	_	_	_	_	_	
+19-3	1040-1043	IMM	_	_	_	_	_	_	
+19-4	1043-1044	.	_	_	_	_	_	_	
+
+#Text=Svenska medborgare som fyllt 18 år senast på valdagen och som är folkbokförda inom landstinget respektive kommunen har rösträtt till landstings- och kommunfullmäktige.
+20-1	1046-1053	Svenska	_	_	_	_	_	_	
+20-2	1054-1064	medborgare	_	_	_	_	_	_	
+20-3	1065-1068	som	_	_	_	_	_	_	
+20-4	1069-1074	fyllt	_	_	_	_	_	_	
+20-5	1075-1077	18	_	_	_	_	_	_	
+20-6	1078-1080	år	_	_	_	_	_	_	
+20-7	1081-1087	senast	_	_	_	_	_	_	
+20-8	1088-1090	på	_	_	_	_	_	_	
+20-9	1091-1099	valdagen	_	_	_	_	_	_	
+20-10	1100-1103	och	_	_	_	_	_	_	
+20-11	1104-1107	som	_	_	_	_	_	_	
+20-12	1108-1110	är	_	_	_	_	_	_	
+20-13	1111-1123	folkbokförda	_	_	_	_	_	_	
+20-14	1124-1128	inom	_	_	_	_	_	_	
+20-15	1129-1140	landstinget	_	_	_	_	_	_	
+20-16	1141-1151	respektive	_	_	_	_	_	_	
+20-17	1152-1160	kommunen	_	_	_	_	_	_	
+20-18	1161-1164	har	_	_	_	_	_	_	
+20-19	1165-1173	rösträtt	_	_	_	_	_	_	
+20-20	1174-1178	till	_	_	_	_	_	_	
+20-21	1179-1189	landstings	_	_	_	_	_	_	
+20-22	1189-1190	-	_	_	_	_	_	_	
+20-23	1191-1194	och	_	_	_	_	_	_	
+20-24	1195-1212	kommunfullmäktige	_	_	_	_	_	_	
+20-25	1212-1213	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1215-1216	#	_	_	_	_	_	_	
+21-2	1216-1217	P	_	_[11]	_	false[11]	4[11]	_	
+21-3	1218-1221	IMM	_	_[11]	_	false[11]	4[11]	_	
+21-4	1221-1222	.	_	_	_	_	_	_	
+
+#Text=Samma villkor gäller också för dem som är invandrade från EU, Island och Norge.
+22-1	1224-1229	Samma	_	_	_	_	_	_	
+22-2	1230-1237	villkor	_	_	_	_	_	_	
+22-3	1238-1244	gäller	_	_	_	_	_	_	
+22-4	1245-1250	också	_	_	_	_	_	_	
+22-5	1251-1254	för	_	_	_	_	_	_	
+22-6	1255-1258	dem	_	_	_	_	_	_	
+22-7	1259-1262	som	_	_	_	_	_	_	
+22-8	1263-1265	är	_	_	_	_	_	_	
+22-9	1266-1276	invandrade	_	_	_	_	_	_	
+22-10	1277-1281	från	_	_	_	_	_	_	
+22-11	1282-1284	EU	_	_	_	_	_	_	
+22-12	1284-1285	,	_	_	_	_	_	_	
+22-13	1286-1292	Island	_	_	_	_	_	_	
+22-14	1293-1296	och	_	_	_	_	_	_	
+22-15	1297-1302	Norge	_	_	_	_	_	_	
+22-16	1302-1303	.	_	_	_	_	_	_	
+
+#Text=Övriga, personer som invandrat och som är folkbokförda här men som kommer från länder utanför EU, måste vänta i tre år innan de får rösträtt i kommunal- och landstingsval.
+23-1	1304-1310	Övriga	_	_	_	_	_	_	
+23-2	1310-1311	,	_	_	_	_	_	_	
+23-3	1312-1320	personer	_	_	_	_	_	_	
+23-4	1321-1324	som	_	_	_	_	_	_	
+23-5	1325-1334	invandrat	_	_	_	_	_	_	
+23-6	1335-1338	och	_	_	_	_	_	_	
+23-7	1339-1342	som	_	_	_	_	_	_	
+23-8	1343-1345	är	_	_	_	_	_	_	
+23-9	1346-1358	folkbokförda	_	_	_	_	_	_	
+23-10	1359-1362	här	_	_	_	_	_	_	
+23-11	1363-1366	men	_	_	_	_	_	_	
+23-12	1367-1370	som	_	_	_	_	_	_	
+23-13	1371-1377	kommer	_	_	_	_	_	_	
+23-14	1378-1382	från	_	_	_	_	_	_	
+23-15	1383-1389	länder	_	_	_	_	_	_	
+23-16	1390-1397	utanför	_	_	_	_	_	_	
+23-17	1398-1400	EU	_	_	_	_	_	_	
+23-18	1400-1401	,	_	_	_	_	_	_	
+23-19	1402-1407	måste	_	_	_	_	_	_	
+23-20	1408-1413	vänta	_	_	_	_	_	_	
+23-21	1414-1415	i	_	_	_	_	_	_	
+23-22	1416-1419	tre	_	_	_	_	_	_	
+23-23	1420-1422	år	_	_	_	_	_	_	
+23-24	1423-1428	innan	_	_	_	_	_	_	
+23-25	1429-1431	de	_	_	_	_	_	_	
+23-26	1432-1435	får	_	_	_	_	_	_	
+23-27	1436-1444	rösträtt	_	_	_	_	_	_	
+23-28	1445-1446	i	_	_	_	_	_	_	
+23-29	1447-1455	kommunal	_	_	_	_	_	_	
+23-30	1455-1456	-	_	_	_	_	_	_	
+23-31	1457-1460	och	_	_	_	_	_	_	
+23-32	1461-1474	landstingsval	_	_	_	_	_	_	
+23-33	1474-1475	.	_	_	_	_	_	_	
+
+#Text=De är därmed heller inte valbara till våra demokratiska församlingar och får inte väljas in i kommuner och landsting.
+24-1	1476-1478	De	_	_	_	_	_	_	
+24-2	1479-1481	är	_	_	_	_	_	_	
+24-3	1482-1488	därmed	_	_	_	_	_	_	
+24-4	1489-1495	heller	_	_	_	_	_	_	
+24-5	1496-1500	inte	_	_	_	_	_	_	
+24-6	1501-1508	valbara	_	_	_	_	_	_	
+24-7	1509-1513	till	_	_	_	_	_	_	
+24-8	1514-1518	våra	_	_	_	_	_	_	
+24-9	1519-1531	demokratiska	_	_	_	_	_	_	
+24-10	1532-1544	församlingar	_	_	_	_	_	_	
+24-11	1545-1548	och	_	_	_	_	_	_	
+24-12	1549-1552	får	_	_	_	_	_	_	
+24-13	1553-1557	inte	_	_	_	_	_	_	
+24-14	1558-1564	väljas	_	_	_	_	_	_	
+24-15	1565-1567	in	_	_	_	_	_	_	
+24-16	1568-1569	i	_	_	_	_	_	_	
+24-17	1570-1578	kommuner	_	_	_	_	_	_	
+24-18	1579-1582	och	_	_	_	_	_	_	
+24-19	1583-1592	landsting	_	_	_	_	_	_	
+24-20	1592-1593	.	_	_	_	_	_	_	
+
+#Text=Det handlar om uppemot 100000 i Sverige folkbokförda som stängs ute enbart för att de råkar vara födda i fel land.
+25-1	1594-1597	Det	_	_	_	_	_	_	
+25-2	1598-1605	handlar	_	_	_	_	_	_	
+25-3	1606-1608	om	_	_	_	_	_	_	
+25-4	1609-1616	uppemot	_	_	_	_	_	_	
+25-5	1617-1623	100000	*[37]	_	_	_	_	_	
+25-6	1624-1625	i	*[37]	_	_	_	_	_	
+25-7	1626-1633	Sverige	*[37]	_	_	_	_	_	
+25-8	1634-1646	folkbokförda	*[37]	_	_	_	_	_	
+25-9	1647-1650	som	_	_	_	_	_	_	
+25-10	1651-1657	stängs	_	_	_	_	_	_	
+25-11	1658-1661	ute	_	_	_	_	_	_	
+25-12	1662-1668	enbart	_	_	_	_	_	_	
+25-13	1669-1672	för	_	_	_	_	_	_	
+25-14	1673-1676	att	_	_	_	_	_	_	
+25-15	1677-1679	de	_	_	_	_	_	_	
+25-16	1680-1685	råkar	_	_	_	_	_	_	
+25-17	1686-1690	vara	_	Target;Source[12]	25-5[37];25-22	false[12]	2[12]	_	
+25-18	1691-1696	födda	_	Target;Source[12]	25-5[37];25-22	false[12]	2[12]	_	
+25-19	1697-1698	i	_	Target;Source[12]	25-5[37];25-22	false[12]	2[12]	_	
+25-20	1699-1702	fel	_	Target;Source[12]	25-5[37];25-22	false[12]	2[12]	_	
+25-21	1703-1707	land	_	Target;Source[12]	25-5[37];25-22	false[12]	2[12]	_	
+25-22	1707-1708	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1710-1711	#	_	_	_	_	_	_	
+26-2	1711-1712	P	_	_[13]	_	false[13]	3[13]	_	
+26-3	1713-1716	IMM	_	_[13]	_	false[13]	3[13]	_	
+26-4	1716-1717	.	_	_	_	_	_	_	
+
+#Text=Motsvarande princip återfinns även i medborgarskapslagen, där en person beroende på vilket land denne kommer ifrån, får vänta antingen tre eller åtta år på sitt svenska medborgarskap, som ger rösträtt till riksdagen.
+27-1	1719-1730	Motsvarande	_	_	_	_	_	_	
+27-2	1731-1738	princip	_	_	_	_	_	_	
+27-3	1739-1748	återfinns	_	_	_	_	_	_	
+27-4	1749-1753	även	_	_	_	_	_	_	
+27-5	1754-1755	i	_	_	_	_	_	_	
+27-6	1756-1775	medborgarskapslagen	_	_	_	_	_	_	
+27-7	1775-1776	,	_	_	_	_	_	_	
+27-8	1777-1780	där	_	_	_	_	_	_	
+27-9	1781-1783	en	_	_	_	_	_	_	
+27-10	1784-1790	person	_	_	_	_	_	_	
+27-11	1791-1799	beroende	_	_	_	_	_	_	
+27-12	1800-1802	på	_	_	_	_	_	_	
+27-13	1803-1809	vilket	_	_	_	_	_	_	
+27-14	1810-1814	land	_	_	_	_	_	_	
+27-15	1815-1820	denne	_	_	_	_	_	_	
+27-16	1821-1827	kommer	_	_	_	_	_	_	
+27-17	1828-1833	ifrån	_	_	_	_	_	_	
+27-18	1833-1834	,	_	_	_	_	_	_	
+27-19	1835-1838	får	_	_	_	_	_	_	
+27-20	1839-1844	vänta	_	_	_	_	_	_	
+27-21	1845-1853	antingen	_	_	_	_	_	_	
+27-22	1854-1857	tre	_	_	_	_	_	_	
+27-23	1858-1863	eller	_	_	_	_	_	_	
+27-24	1864-1868	åtta	_	_	_	_	_	_	
+27-25	1869-1871	år	_	_	_	_	_	_	
+27-26	1872-1874	på	_	_	_	_	_	_	
+27-27	1875-1879	sitt	_	_	_	_	_	_	
+27-28	1880-1887	svenska	_	_	_	_	_	_	
+27-29	1888-1901	medborgarskap	_	_	_	_	_	_	
+27-30	1901-1902	,	_	_	_	_	_	_	
+27-31	1903-1906	som	_	_	_	_	_	_	
+27-32	1907-1910	ger	_	_	_	_	_	_	
+27-33	1911-1919	rösträtt	_	_	_	_	_	_	
+27-34	1920-1924	till	_	_	_	_	_	_	
+27-35	1925-1934	riksdagen	_	_	_	_	_	_	
+27-36	1934-1935	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1937-1938	#	_	_	_	_	_	_	
+28-2	1938-1939	P	_	_[14]	_	false[14]	4[14]	_	
+28-3	1940-1943	IMM	_	_[14]	_	false[14]	4[14]	_	
+28-4	1943-1944	.	_	_	_	_	_	_	
+
+#Text=Bestämmelserna i vallagen är en regelrätt och orättvis diskriminering av människor som bor, verkar och är folkbokförda i Sverige.
+29-1	1946-1960	Bestämmelserna	*[38]	_	_	_	_	_	
+29-2	1961-1962	i	*[38]	_	_	_	_	_	
+29-3	1963-1971	vallagen	*[38]	_	_	_	_	_	
+29-4	1972-1974	är	_	_	_	_	_	_	
+29-5	1975-1977	en	_	_	_	_	_	_	
+29-6	1978-1987	regelrätt	_	_	_	_	_	_	
+29-7	1988-1991	och	_	_	_	_	_	_	
+29-8	1992-2000	orättvis	_	Target[15]	29-1[38]	false[15]	1[15]	_	
+29-9	2001-2015	diskriminering	_	Target[15]	29-1[38]	false[15]	1[15]	_	
+29-10	2016-2018	av	_	_	_	_	_	_	
+29-11	2019-2028	människor	_	_	_	_	_	_	
+29-12	2029-2032	som	_	_	_	_	_	_	
+29-13	2033-2036	bor	_	_	_	_	_	_	
+29-14	2036-2037	,	_	_	_	_	_	_	
+29-15	2038-2044	verkar	_	_	_	_	_	_	
+29-16	2045-2048	och	_	_	_	_	_	_	
+29-17	2049-2051	är	_	_	_	_	_	_	
+29-18	2052-2064	folkbokförda	_	_	_	_	_	_	
+29-19	2065-2066	i	_	_	_	_	_	_	
+29-20	2067-2074	Sverige	_	_	_	_	_	_	
+29-21	2074-2075	.	_	_	_	_	_	_	
+
+#Text=En polsk ekonom som är verksam i Sverige får rösträtt med omedelbar verkan medan en ekonom som kommer från Somalia eller USA måste vänta i tre år.
+30-1	2076-2078	En	_	_	_	_	_	_	
+30-2	2079-2084	polsk	_	_	_	_	_	_	
+30-3	2085-2091	ekonom	_	_	_	_	_	_	
+30-4	2092-2095	som	_	_	_	_	_	_	
+30-5	2096-2098	är	_	_	_	_	_	_	
+30-6	2099-2106	verksam	_	_	_	_	_	_	
+30-7	2107-2108	i	_	_	_	_	_	_	
+30-8	2109-2116	Sverige	_	_	_	_	_	_	
+30-9	2117-2120	får	_	_	_	_	_	_	
+30-10	2121-2129	rösträtt	_	_	_	_	_	_	
+30-11	2130-2133	med	_	_	_	_	_	_	
+30-12	2134-2143	omedelbar	_	_	_	_	_	_	
+30-13	2144-2150	verkan	_	_	_	_	_	_	
+30-14	2151-2156	medan	_	_	_	_	_	_	
+30-15	2157-2159	en	_	_	_	_	_	_	
+30-16	2160-2166	ekonom	_	_	_	_	_	_	
+30-17	2167-2170	som	_	_	_	_	_	_	
+30-18	2171-2177	kommer	_	_	_	_	_	_	
+30-19	2178-2182	från	_	_	_	_	_	_	
+30-20	2183-2190	Somalia	_	_	_	_	_	_	
+30-21	2191-2196	eller	_	_	_	_	_	_	
+30-22	2197-2200	USA	_	_	_	_	_	_	
+30-23	2201-2206	måste	_	_	_	_	_	_	
+30-24	2207-2212	vänta	_	_	_	_	_	_	
+30-25	2213-2214	i	_	_	_	_	_	_	
+30-26	2215-2218	tre	_	_	_	_	_	_	
+30-27	2219-2221	år	_	_	_	_	_	_	
+30-28	2221-2222	.	_	_	_	_	_	_	
+
+#Text=Vi har en vallag som är klart diskriminerande mot utomeuropéer.Här går det verkligen att tala om ett statligt sanktionerat utanförskap, ett demokratins utanförskap.
+31-1	2223-2225	Vi	_	_	_	_	_	_	
+31-2	2226-2229	har	_	_	_	_	_	_	
+31-3	2230-2232	en	_	_	_	_	_	_	
+31-4	2233-2239	vallag	*	_	_	_	_	_	
+31-5	2240-2243	som	_	_	_	_	_	_	
+31-6	2244-2246	är	_	_	_	_	_	_	
+31-7	2247-2252	klart	_	Target[16]	31-4	false[16]	1[16]	_	
+31-8	2253-2268	diskriminerande	_	Target[16]	31-4	false[16]	1[16]	_	
+31-9	2269-2272	mot	_	_	_	_	_	_	
+31-10	2273-2289	utomeuropéer.Här	_	_	_	_	_	_	
+31-11	2290-2293	går	_	_	_	_	_	_	
+31-12	2294-2297	det	_	_	_	_	_	_	
+31-13	2298-2307	verkligen	_	_	_	_	_	_	
+31-14	2308-2311	att	_	_	_	_	_	_	
+31-15	2312-2316	tala	_	_	_	_	_	_	
+31-16	2317-2319	om	_	_	_	_	_	_	
+31-17	2320-2323	ett	_	_	_	_	_	_	
+31-18	2324-2332	statligt	_	_	_	_	_	_	
+31-19	2333-2345	sanktionerat	_	_	_	_	_	_	
+31-20	2346-2357	utanförskap	*	Target	31-20	false	2	_	
+31-21	2357-2358	,	_	_	_	_	_	_	
+31-22	2359-2362	ett	_	_	_	_	_	_	
+31-23	2363-2374	demokratins	_	_	_	_	_	_	
+31-24	2375-2386	utanförskap	*	Target	31-24	false	2	_	
+31-25	2386-2387	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2389-2390	#	_	_	_	_	_	_	
+32-2	2390-2391	P	_	_	_	_	_	_	
+32-3	2392-2395	IMM	_	_	_	_	_	_	
+32-4	2395-2396	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+33-1	2398-2411	Skräddarsydda	_	_	_	_	_	_	
+33-2	2412-2418	kurser	_	_	_	_	_	_	
+33-3	2419-2420	i	_	_	_	_	_	_	
+33-4	2421-2426	ämnen	_	_	_	_	_	_	
+33-5	2427-2430	som	_	_	_	_	_	_	
+33-6	2431-2442	intresserar	_	_	_	_	_	_	
+33-7	2443-2446	och	_	_	_	_	_	_	
+33-8	2447-2456	engagerar	_	_	_	_	_	_	
+33-9	2457-2461	både	_	_	_	_	_	_	
+33-10	2462-2467	kropp	_	_	_	_	_	_	
+33-11	2468-2471	och	_	_	_	_	_	_	
+33-12	2472-2476	själ	_	_	_	_	_	_	
+33-13	2476-2477	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2479-2480	#	_	_	_	_	_	_	
+34-2	2480-2481	P	_	_[17]	_	false[17]	3[17]	_	
+34-3	2482-2485	IMM	_	_[17]	_	false[17]	3[17]	_	
+34-4	2485-2486	.	_	_	_	_	_	_	
+
+#Text=Flera offentliga utredningar har under årens lopp föreslagit att den här statliga diskrimineringen ska avskaffas, men frågan har alltid ignorerats av riksdagen.
+35-1	2488-2493	Flera	_	_	_	_	_	_	
+35-2	2494-2504	offentliga	_	_	_	_	_	_	
+35-3	2505-2516	utredningar	_	_	_	_	_	_	
+35-4	2517-2520	har	_	_	_	_	_	_	
+35-5	2521-2526	under	_	_	_	_	_	_	
+35-6	2527-2532	årens	_	_	_	_	_	_	
+35-7	2533-2537	lopp	_	_	_	_	_	_	
+35-8	2538-2548	föreslagit	_	_	_	_	_	_	
+35-9	2549-2552	att	_	_	_	_	_	_	
+35-10	2553-2556	den	_	_	_	_	_	_	
+35-11	2557-2560	här	_	_	_	_	_	_	
+35-12	2561-2569	statliga	_	_	_	_	_	_	
+35-13	2570-2586	diskrimineringen	*[39]|*[40]	Target	35-13[39]	false	1	_	
+35-14	2587-2590	ska	_	Source;Target[18]	35-24;35-13[40]	false[18]	2[18]	_	
+35-15	2591-2600	avskaffas	_	Source;Target[18]	35-24;35-13[40]	false[18]	2[18]	_	
+35-16	2600-2601	,	_	_	_	_	_	_	
+35-17	2602-2605	men	_	_	_	_	_	_	
+35-18	2606-2612	frågan	_	_	_	_	_	_	
+35-19	2613-2616	har	_	_	_	_	_	_	
+35-20	2617-2623	alltid	_	_	_	_	_	_	
+35-21	2624-2634	ignorerats	_	Target	35-23	false	2	_	
+35-22	2635-2637	av	_	_	_	_	_	_	
+35-23	2638-2647	riksdagen	*	_	_	_	_	_	
+35-24	2647-2648	.	*	_	_	_	_	_	
+
+#Text=Kommittén om medborgarskapskrav i svensk lagstiftning (SOU 2000:106) föreslog redan för drygt tio år sedan att treårsregeln skulle avskaffas.
+36-1	2649-2658	Kommittén	*[41]	_	_	_	_	_	
+36-2	2659-2661	om	*[41]	_	_	_	_	_	
+36-3	2662-2680	medborgarskapskrav	*[41]	_	_	_	_	_	
+36-4	2681-2682	i	_	_	_	_	_	_	
+36-5	2683-2689	svensk	_	_	_	_	_	_	
+36-6	2690-2702	lagstiftning	_	_	_	_	_	_	
+36-7	2703-2704	(	_	_	_	_	_	_	
+36-8	2704-2707	SOU	_	_	_	_	_	_	
+36-9	2708-2712	2000	_	_	_	_	_	_	
+36-10	2712-2713	:	_	_	_	_	_	_	
+36-11	2713-2716	106	_	_	_	_	_	_	
+36-12	2716-2717	)	_	_	_	_	_	_	
+36-13	2718-2726	föreslog	_	_	_	_	_	_	
+36-14	2727-2732	redan	_	_	_	_	_	_	
+36-15	2733-2736	för	_	_	_	_	_	_	
+36-16	2737-2742	drygt	_	_	_	_	_	_	
+36-17	2743-2746	tio	_	_	_	_	_	_	
+36-18	2747-2749	år	_	_	_	_	_	_	
+36-19	2750-2755	sedan	_	_	_	_	_	_	
+36-20	2756-2759	att	_	_	_	_	_	_	
+36-21	2760-2772	treårsregeln	*	_	_	_	_	_	
+36-22	2773-2779	skulle	_	Target;Source[19]	36-21;36-1[41]	false[19]	2[19]	_	
+36-23	2780-2789	avskaffas	_	Target;Source[19]	36-21;36-1[41]	false[19]	2[19]	_	
+36-24	2789-2790	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2792-2793	#	_	_	_	_	_	_	
+37-2	2793-2794	P	_	_[20]	_	false[20]	3[20]	_	
+37-3	2795-2798	IMM	_	_[20]	_	false[20]	3[20]	_	
+37-4	2798-2799	.	_	_	_	_	_	_	
+
+#Text=Även Kommundemokratikommittén (SOU 2001:48) ville ta bort treårsregeln.
+38-1	2801-2805	Även	_	_	_	_	_	_	
+38-2	2806-2830	Kommundemokratikommittén	*	_	_	_	_	_	
+38-3	2831-2832	(	_	_	_	_	_	_	
+38-4	2832-2835	SOU	_	_	_	_	_	_	
+38-5	2836-2840	2001	_	_	_	_	_	_	
+38-6	2840-2841	:	_	_	_	_	_	_	
+38-7	2841-2843	48	_	_	_	_	_	_	
+38-8	2843-2844	)	_	_	_	_	_	_	
+38-9	2845-2850	ville	_	Source;Target[21]	38-2;38-12[42]	false[21]	4[21]	_	
+38-10	2851-2853	ta	_	Source;Target[21]	38-2;38-12[42]	false[21]	4[21]	_	
+38-11	2854-2858	bort	_	Source;Target[21]	38-2;38-12[42]	false[21]	4[21]	_	
+38-12	2859-2871	treårsregeln	*[42]	_	_	_	_	_	
+38-13	2871-2872	.	*[42]	_	_	_	_	_	
+
+#Text=Samma uppfattning framfördes i SOU 2005:56, Det blågula glashuset – strukturell diskriminering i Sverige.
+39-1	2873-2878	Samma	_	_	_	_	_	_	
+39-2	2879-2890	uppfattning	_	_	_	_	_	_	
+39-3	2891-2901	framfördes	_	_	_	_	_	_	
+39-4	2902-2903	i	_	_	_	_	_	_	
+39-5	2904-2907	SOU	_	_	_	_	_	_	
+39-6	2908-2912	2005	_	_	_	_	_	_	
+39-7	2912-2913	:	_	_	_	_	_	_	
+39-8	2913-2915	56	_	_	_	_	_	_	
+39-9	2915-2916	,	_	_	_	_	_	_	
+39-10	2917-2920	Det	_	_	_	_	_	_	
+39-11	2921-2928	blågula	_	_	_	_	_	_	
+39-12	2929-2938	glashuset	_	_	_	_	_	_	
+39-13	2939-2940	–	_	_	_	_	_	_	
+39-14	2941-2952	strukturell	_	Target[22]	39-17	false[22]	2[22]	_	
+39-15	2953-2967	diskriminering	_	Target[22]	39-17	false[22]	2[22]	_	
+39-16	2968-2969	i	_	_	_	_	_	_	
+39-17	2970-2977	Sverige	*	_	_	_	_	_	
+39-18	2977-2978	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2980-2981	#	_	_	_	_	_	_	
+40-2	2981-2982	P	_	_[23]	_	false[23]	3[23]	_	
+40-3	2983-2986	IMM	_	_[23]	_	false[23]	3[23]	_	
+40-4	2986-2987	.	_	_	_	_	_	_	
+
+#Text=Utredningen ansåg att de omotiverade skillnaderna i rösträtt innebär ett officiellt godkännande av negativ särbehandling.
+41-1	2989-3000	Utredningen	*	_	_	_	_	_	
+41-2	3001-3006	ansåg	_	Source;Target	41-1;41-4[43]	false	2	_	
+41-3	3007-3010	att	_	_	_	_	_	_	
+41-4	3011-3013	de	*[43]	_	_	_	_	_	
+41-5	3014-3025	omotiverade	*[43]	_	_	_	_	_	
+41-6	3026-3038	skillnaderna	*[43]	_	_	_	_	_	
+41-7	3039-3040	i	*[43]	_	_	_	_	_	
+41-8	3041-3049	rösträtt	*[43]	_	_	_	_	_	
+41-9	3050-3057	innebär	*[43]	_	_	_	_	_	
+41-10	3058-3061	ett	*[43]	_	_	_	_	_	
+41-11	3062-3072	officiellt	*[43]	_	_	_	_	_	
+41-12	3073-3084	godkännande	*[43]	_	_	_	_	_	
+41-13	3085-3087	av	*[43]	_	_	_	_	_	
+41-14	3088-3095	negativ	*[43]	_	_	_	_	_	
+41-15	3096-3109	särbehandling	*[43]	_	_	_	_	_	
+41-16	3109-3110	.	_	_	_	_	_	_	
+
+#Text=Med andra ord en statligt sanktionerad diskriminering.
+42-1	3111-3114	Med	_	_	_	_	_	_	
+42-2	3115-3120	andra	_	_	_	_	_	_	
+42-3	3121-3124	ord	_	_	_	_	_	_	
+42-4	3125-3127	en	_	_	_	_	_	_	
+42-5	3128-3136	statligt	_	_	_	_	_	_	
+42-6	3137-3149	sanktionerad	_	_	_	_	_	_	
+42-7	3150-3164	diskriminering	*	Target	42-7	false	1	_	
+42-8	3164-3165	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3167-3168	#	_	_	_	_	_	_	
+43-2	3168-3169	P	_	_[24]	_	false[24]	4[24]	_	
+43-3	3170-3173	IMM	_	_[24]	_	false[24]	4[24]	_	
+43-4	3173-3174	.	_	_	_	_	_	_	
+
+#Text=Grundlagsutredningen (SOU 2008:125) konstaterade däremot att treårsregeln bör vara kvar för medborgare utanför EU.
+44-1	3176-3196	Grundlagsutredningen	_	_	_	_	_	_	
+44-2	3197-3198	(	_	_	_	_	_	_	
+44-3	3198-3201	SOU	_	_	_	_	_	_	
+44-4	3202-3206	2008	_	_	_	_	_	_	
+44-5	3206-3207	:	_	_	_	_	_	_	
+44-6	3207-3210	125	_	_	_	_	_	_	
+44-7	3210-3211	)	_	_	_	_	_	_	
+44-8	3212-3224	konstaterade	_	_	_	_	_	_	
+44-9	3225-3232	däremot	_	_	_	_	_	_	
+44-10	3233-3236	att	_	_	_	_	_	_	
+44-11	3237-3249	treårsregeln	_	_	_	_	_	_	
+44-12	3250-3253	bör	_	_	_	_	_	_	
+44-13	3254-3258	vara	_	_	_	_	_	_	
+44-14	3259-3263	kvar	_	_	_	_	_	_	
+44-15	3264-3267	för	_	_	_	_	_	_	
+44-16	3268-3278	medborgare	_	_	_	_	_	_	
+44-17	3279-3286	utanför	_	_	_	_	_	_	
+44-18	3287-3289	EU	_	_	_	_	_	_	
+44-19	3289-3290	.	_	_	_	_	_	_	
+
+#Text=Enligt utredningen ger treårsregeln rimliga garantier för att dessa väljare uppfyller de krav som bör ställas på väljare i demokratiska val.
+45-1	3291-3297	Enligt	_	_	_	_	_	_	
+45-2	3298-3309	utredningen	*	_	_	_	_	_	
+45-3	3310-3313	ger	_	_	_	false	4	_	
+45-4	3314-3326	treårsregeln	*	_	_	_	_	_	
+45-5	3327-3334	rimliga	_	Target;Source[25]	45-4;45-2	false[25]	4[25]	45-3[0_25]	
+45-6	3335-3344	garantier	_	Target;Source[25]	45-4;45-2	false[25]	4[25]	_	
+45-7	3345-3348	för	_	_	_	_	_	_	
+45-8	3349-3352	att	_	_	_	_	_	_	
+45-9	3353-3358	dessa	_	_	_	_	_	_	
+45-10	3359-3366	väljare	_	_	_	_	_	_	
+45-11	3367-3376	uppfyller	_	_	_	_	_	_	
+45-12	3377-3379	de	_	_	_	_	_	_	
+45-13	3380-3384	krav	_	_	_	_	_	_	
+45-14	3385-3388	som	_	_	_	_	_	_	
+45-15	3389-3392	bör	_	_	_	_	_	_	
+45-16	3393-3400	ställas	_	_	_	_	_	_	
+45-17	3401-3403	på	_	_	_	_	_	_	
+45-18	3404-3411	väljare	_	_	_	_	_	_	
+45-19	3412-3413	i	_	_	_	_	_	_	
+45-20	3414-3426	demokratiska	_	_	_	_	_	_	
+45-21	3427-3430	val	_	_	_	_	_	_	
+45-22	3430-3431	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3433-3434	#	_	_	_	_	_	_	
+46-2	3434-3435	P	_	_[26]	_	false[26]	4[26]	_	
+46-3	3436-3439	IMM	_	_[26]	_	false[26]	4[26]	_	
+46-4	3439-3440	.	_	_	_	_	_	_	
+
+#Text=I klartext innebär det att en EU-medborgare per definition alltid förutsätts ha bättre kunskaper för att delta i ett demokratiskt val än en medborgare utanför EU.
+47-1	3442-3443	I	_	_	_	_	_	_	
+47-2	3444-3452	klartext	_	_	_	_	_	_	
+47-3	3453-3460	innebär	_	_	_	_	_	_	
+47-4	3461-3464	det	_	_	_	_	_	_	
+47-5	3465-3468	att	_	_	_	_	_	_	
+47-6	3469-3471	en	_	_	_	_	_	_	
+47-7	3472-3485	EU-medborgare	*	_	_	_	_	_	
+47-8	3486-3489	per	_	_	_	_	_	_	
+47-9	3490-3500	definition	_	_	_	_	_	_	
+47-10	3501-3507	alltid	_	_	_	_	_	_	
+47-11	3508-3518	förutsätts	_	Target;Source[27]	47-7;47-27	false[27]	4[27]	_	
+47-12	3519-3521	ha	_	Target;Source[27]	47-7;47-27	false[27]	4[27]	_	
+47-13	3522-3528	bättre	_	Target;Source[27]	47-7;47-27	false[27]	4[27]	_	
+47-14	3529-3538	kunskaper	_	Target;Source[27]	47-7;47-27	false[27]	4[27]	_	
+47-15	3539-3542	för	_	_	_	_	_	_	
+47-16	3543-3546	att	_	_	_	_	_	_	
+47-17	3547-3552	delta	_	_	_	_	_	_	
+47-18	3553-3554	i	_	_	_	_	_	_	
+47-19	3555-3558	ett	_	_	_	_	_	_	
+47-20	3559-3571	demokratiskt	_	_	_	_	_	_	
+47-21	3572-3575	val	_	_	_	_	_	_	
+47-22	3576-3578	än	_	_	_	_	_	_	
+47-23	3579-3581	en	_	_	_	_	_	_	
+47-24	3582-3592	medborgare	_	_	_	_	_	_	
+47-25	3593-3600	utanför	_	_	_	_	_	_	
+47-26	3601-3603	EU	_	_	_	_	_	_	
+47-27	3603-3604	.	*	_	_	_	_	_	
+
+#Text=Någon individuell prövning sker inte.
+48-1	3605-3610	Någon	_	_	_	_	_	_	
+48-2	3611-3622	individuell	_	_	_	_	_	_	
+48-3	3623-3631	prövning	_	_	_	_	_	_	
+48-4	3632-3636	sker	_	_	_	_	_	_	
+48-5	3637-3641	inte	_	_	_	_	_	_	
+48-6	3641-3642	.	_	_	_	_	_	_	
+
+#Text=En högutbildad chilenare eller kanadensare ansesinte kunna ha lika goda kunskapersom en från Grekland eller Estland när de kommer till Sverige.
+49-1	3643-3645	En	_	_	_	_	_	_	
+49-2	3646-3657	högutbildad	_	_	_	_	_	_	
+49-3	3658-3667	chilenare	_	_	_	_	_	_	
+49-4	3668-3673	eller	_	_	_	_	_	_	
+49-5	3674-3685	kanadensare	_	_	_	_	_	_	
+49-6	3686-3695	ansesinte	_	_	_	_	_	_	
+49-7	3696-3701	kunna	_	_	_	_	_	_	
+49-8	3702-3704	ha	_	_	_	_	_	_	
+49-9	3705-3709	lika	_	_	_	_	_	_	
+49-10	3710-3714	goda	_	_	_	_	_	_	
+49-11	3715-3727	kunskapersom	_	_	_	_	_	_	
+49-12	3728-3730	en	_	_	_	_	_	_	
+49-13	3731-3735	från	_	_	_	_	_	_	
+49-14	3736-3744	Grekland	_	_	_	_	_	_	
+49-15	3745-3750	eller	_	_	_	_	_	_	
+49-16	3751-3758	Estland	_	_	_	_	_	_	
+49-17	3759-3762	när	_	_	_	_	_	_	
+49-18	3763-3765	de	_	_	_	_	_	_	
+49-19	3766-3772	kommer	_	_	_	_	_	_	
+49-20	3773-3777	till	_	_	_	_	_	_	
+49-21	3778-3785	Sverige	_	_	_	_	_	_	
+49-22	3785-3786	.	_	_	_	_	_	_	
+
+#Text=En diskriminering inbyggd i vallagen och beslutad av vårt högsta demokratiska organ, riksdagen.
+50-1	3787-3789	En	_	_	_	_	_	_	
+50-2	3790-3804	diskriminering	*	Target	50-2	false	1	_	
+50-3	3805-3812	inbyggd	_	_	_	_	_	_	
+50-4	3813-3814	i	_	_	_	_	_	_	
+50-5	3815-3823	vallagen	_	_	_	_	_	_	
+50-6	3824-3827	och	_	_	_	_	_	_	
+50-7	3828-3836	beslutad	_	_	_	_	_	_	
+50-8	3837-3839	av	_	_	_	_	_	_	
+50-9	3840-3844	vårt	_	_	_	_	_	_	
+50-10	3845-3851	högsta	_	_	_	_	_	_	
+50-11	3852-3864	demokratiska	_	_	_	_	_	_	
+50-12	3865-3870	organ	_	_	_	_	_	_	
+50-13	3870-3871	,	_	_	_	_	_	_	
+50-14	3872-3881	riksdagen	_	_	_	_	_	_	
+50-15	3881-3882	.	_	_	_	_	_	_	
+
+#Text=Det beror inte på EU-medlemskapet utan det är den svenska riksdagen som medvetet gett utomeuropeiska invandrare sämre rättigheter.
+51-1	3883-3886	Det	_	_	_	_	_	_	
+51-2	3887-3892	beror	_	_	_	_	_	_	
+51-3	3893-3897	inte	_	_	_	_	_	_	
+51-4	3898-3900	på	_	_	_	_	_	_	
+51-5	3901-3916	EU-medlemskapet	_	_	_	_	_	_	
+51-6	3917-3921	utan	_	_	_	_	_	_	
+51-7	3922-3925	det	_	_	_	_	_	_	
+51-8	3926-3928	är	_	_	_	_	_	_	
+51-9	3929-3932	den	_	_	_	_	_	_	
+51-10	3933-3940	svenska	*[44]	_	_	_	_	_	
+51-11	3941-3950	riksdagen	*[44]	_	_	_	_	_	
+51-12	3951-3954	som	_	_	_	_	_	_	
+51-13	3955-3963	medvetet	_	_	_	_	_	_	
+51-14	3964-3968	gett	_	_	_	false	2	_	
+51-15	3969-3983	utomeuropeiska	_	_	_	_	_	_	
+51-16	3984-3994	invandrare	_	_	_	_	_	_	
+51-17	3995-4000	sämre	_	Target[28]	51-10[44]	false[28]	2[28]	51-14[0_28]	
+51-18	4001-4012	rättigheter	_	Target[28]	51-10[44]	false[28]	2[28]	_	
+51-19	4012-4013	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4015-4016	#	_	_	_	_	_	_	
+52-2	4016-4017	P	_	_	_	_	_	_	
+52-3	4018-4021	IMM	_	_	_	_	_	_	
+52-4	4021-4022	.	_	_	_	_	_	_	
+
+#Text=Frågan har också behandlats i riksdagen i flera motioner, men alltid avslagits utan större debatt, Och i den nu pågående valrörelsen har den ingen plats alls.
+53-1	4024-4030	Frågan	_	_	_	_	_	_	
+53-2	4031-4034	har	_	_	_	_	_	_	
+53-3	4035-4040	också	_	_	_	_	_	_	
+53-4	4041-4051	behandlats	_	_	_	_	_	_	
+53-5	4052-4053	i	_	_	_	_	_	_	
+53-6	4054-4063	riksdagen	_	_	_	_	_	_	
+53-7	4064-4065	i	_	_	_	_	_	_	
+53-8	4066-4071	flera	_	_	_	_	_	_	
+53-9	4072-4080	motioner	_	_	_	_	_	_	
+53-10	4080-4081	,	_	_	_	_	_	_	
+53-11	4082-4085	men	_	_	_	_	_	_	
+53-12	4086-4092	alltid	_	_	_	_	_	_	
+53-13	4093-4102	avslagits	_	_	_	_	_	_	
+53-14	4103-4107	utan	_	_	_	_	_	_	
+53-15	4108-4114	större	_	_	_	_	_	_	
+53-16	4115-4121	debatt	_	_	_	_	_	_	
+53-17	4121-4122	,	_	_	_	_	_	_	
+53-18	4123-4126	Och	_	_	_	_	_	_	
+53-19	4127-4128	i	_	_	_	_	_	_	
+53-20	4129-4132	den	_	_	_	_	_	_	
+53-21	4133-4135	nu	_	_	_	_	_	_	
+53-22	4136-4144	pågående	_	_	_	_	_	_	
+53-23	4145-4156	valrörelsen	_	_	_	_	_	_	
+53-24	4157-4160	har	_	_	_	_	_	_	
+53-25	4161-4164	den	_	_	_	_	_	_	
+53-26	4165-4170	ingen	_	_	_	_	_	_	
+53-27	4171-4176	plats	_	_	_	_	_	_	
+53-28	4177-4181	alls	_	_	_	_	_	_	
+53-29	4181-4182	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4184-4185	#	_	_	_	_	_	_	
+54-2	4185-4186	P	_	_	_	_	_	_	
+54-3	4187-4190	IMM	_	_	_	_	_	_	
+54-4	4190-4191	.	_	_	_	_	_	_	
+
+#Text=Att en av de viktigaste demokratiska rättigheterna, allmän och lika rösträtt för alla ännu inte genomförts i Sverige år 2010 är en allvarlig inskränkning av lika mänskliga rättigheter för alla.
+55-1	4193-4196	Att	_	_	_	_	_	_	
+55-2	4197-4199	en	_	_	_	_	_	_	
+55-3	4200-4202	av	_	_	_	_	_	_	
+55-4	4203-4205	de	_	_	_	_	_	_	
+55-5	4206-4216	viktigaste	*[45]	Target[29]	55-9[46]	false[29]	5[29]	_	
+55-6	4217-4229	demokratiska	*[45]	Target[29]	55-9[46]	false[29]	5[29]	_	
+55-7	4230-4243	rättigheterna	*[45]	Target[29]	55-9[46]	false[29]	5[29]	_	
+55-8	4243-4244	,	*[45]	_	_	_	_	_	
+55-9	4245-4251	allmän	*[45]|*[46]	_	_	_	_	_	
+55-10	4252-4255	och	*[45]|*[46]	_	_	_	_	_	
+55-11	4256-4260	lika	*[45]|*[46]	_	_	_	_	_	
+55-12	4261-4269	rösträtt	*[45]|*[46]	_	_	_	_	_	
+55-13	4270-4273	för	*[45]|*[46]	_	_	_	_	_	
+55-14	4274-4278	alla	*[45]|*[46]	_	_	_	_	_	
+55-15	4279-4283	ännu	*[45]|*[46]	_	_	_	_	_	
+55-16	4284-4288	inte	*[45]	_	_	_	_	_	
+55-17	4289-4299	genomförts	*[45]	_	_	_	_	_	
+55-18	4300-4301	i	*[45]	_	_	_	_	_	
+55-19	4302-4309	Sverige	*[45]	_	_	_	_	_	
+55-20	4310-4312	år	*[45]	_	_	_	_	_	
+55-21	4313-4317	2010	*[45]	_	_	_	_	_	
+55-22	4318-4320	är	_	_	_	_	_	_	
+55-23	4321-4323	en	_	_	_	_	_	_	
+55-24	4324-4333	allvarlig	_	Target[30]	55-5[45]	false[30]	1[30]	_	
+55-25	4334-4346	inskränkning	_	Target[30]	55-5[45]	false[30]	1[30]	_	
+55-26	4347-4349	av	_	_	_	_	_	_	
+55-27	4350-4354	lika	_	_	_	_	_	_	
+55-28	4355-4364	mänskliga	_	_	_	_	_	_	
+55-29	4365-4376	rättigheter	_	_	_	_	_	_	
+55-30	4377-4380	för	_	_	_	_	_	_	
+55-31	4381-4385	alla	_	_	_	_	_	_	
+55-32	4385-4386	.	_	_	_	_	_	_	
+
+#Text=Detta får inte behandlas som en icke-fråga och partierna måste agera så att den politiska demokratin fungerar utan diskriminering.
+56-1	4387-4392	Detta	_	_	_	_	_	_	
+56-2	4393-4396	får	_	_	_	_	_	_	
+56-3	4397-4401	inte	_	_	_	_	_	_	
+56-4	4402-4411	behandlas	_	_	_	_	_	_	
+56-5	4412-4415	som	_	_	_	_	_	_	
+56-6	4416-4418	en	_	_	_	_	_	_	
+56-7	4419-4429	icke-fråga	_	_	_	_	_	_	
+56-8	4430-4433	och	_	_	_	_	_	_	
+56-9	4434-4443	partierna	_	_	_	_	_	_	
+56-10	4444-4449	måste	_	_	_	_	_	_	
+56-11	4450-4455	agera	_	_	_	_	_	_	
+56-12	4456-4458	så	_	_	_	_	_	_	
+56-13	4459-4462	att	_	_	_	_	_	_	
+56-14	4463-4466	den	_	_	_	_	_	_	
+56-15	4467-4476	politiska	_	_	_	_	_	_	
+56-16	4477-4487	demokratin	_	_	_	_	_	_	
+56-17	4488-4496	fungerar	_	_	_	_	_	_	
+56-18	4497-4501	utan	_	_	_	_	_	_	
+56-19	4502-4516	diskriminering	*	Target	56-19	false	1	_	
+56-20	4516-4517	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4519-4520	#	_	_	_	_	_	_	
+57-2	4520-4521	P	_	_[31]	_	false[31]	4[31]	_	
+57-3	4522-4525	IMM	_	_[31]	_	false[31]	4[31]	_	
+57-4	4525-4526	.	_	_	_	_	_	_	
+
+#Text=Vi vill se alla partier driva på en förändring av vallagen och medborgarskapslagen och vi kommer att fortsätta driva kravet om allmän och lika rösträtt – oavsett vem som vinner den åtråvärda regeringsmakten den 19 september.
+58-1	4528-4530	Vi	*	_	_	_	_	_	
+58-2	4531-4535	vill	_	Source;Target[32]	58-1;58-4[47]	false[32]	4[32]	_	
+58-3	4536-4538	se	_	Source;Target[32]	58-1;58-4[47]	false[32]	4[32]	_	
+58-4	4539-4543	alla	*[47]	_	_	_	_	_	
+58-5	4544-4551	partier	*[47]	_	_	_	_	_	
+58-6	4552-4557	driva	*[47]	_	_	_	_	_	
+58-7	4558-4560	på	*[47]	_	_	_	_	_	
+58-8	4561-4563	en	*[47]	_	_	_	_	_	
+58-9	4564-4574	förändring	*[47]	_	_	_	_	_	
+58-10	4575-4577	av	*[47]	_	_	_	_	_	
+58-11	4578-4586	vallagen	*[47]	_	_	_	_	_	
+58-12	4587-4590	och	_	_	_	_	_	_	
+58-13	4591-4610	medborgarskapslagen	_	_	_	_	_	_	
+58-14	4611-4614	och	_	_	_	_	_	_	
+58-15	4615-4617	vi	_	_	_	_	_	_	
+58-16	4618-4624	kommer	_	_	_	_	_	_	
+58-17	4625-4628	att	_	_	_	_	_	_	
+58-18	4629-4638	fortsätta	_	_	_	_	_	_	
+58-19	4639-4644	driva	_	_	_	_	_	_	
+58-20	4645-4651	kravet	_	_	_	_	_	_	
+58-21	4652-4654	om	_	_	_	_	_	_	
+58-22	4655-4661	allmän	_	_	_	_	_	_	
+58-23	4662-4665	och	_	_	_	_	_	_	
+58-24	4666-4670	lika	_	_	_	_	_	_	
+58-25	4671-4679	rösträtt	_	_	_	_	_	_	
+58-26	4680-4681	–	_	_	_	_	_	_	
+58-27	4682-4689	oavsett	_	_	_	_	_	_	
+58-28	4690-4693	vem	_	_	_	_	_	_	
+58-29	4694-4697	som	_	_	_	_	_	_	
+58-30	4698-4704	vinner	_	_	_	_	_	_	
+58-31	4705-4708	den	_	_	_	_	_	_	
+58-32	4709-4718	åtråvärda	_	Target	58-33	false	4	_	
+58-33	4719-4734	regeringsmakten	*	_	_	_	_	_	
+58-34	4735-4738	den	_	_	_	_	_	_	
+58-35	4739-4741	19	_	_	_	_	_	_	
+58-36	4742-4751	september	_	_	_	_	_	_	
+58-37	4751-4752	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4754-4755	#	_	_	_	_	_	_	
+59-2	4755-4756	P	_	_	_	_	_	_	
+59-3	4757-4760	IMM	_	_	_	_	_	_	
+59-4	4760-4761	.	_	_	_	_	_	_	
+
+#Text=MARIAM OSMAN SHERIFAY.
+60-1	4763-4769	MARIAM	_	_	_	_	_	_	
+60-2	4770-4775	OSMAN	_	_	_	_	_	_	
+60-3	4776-4784	SHERIFAY	_	_	_	_	_	_	
+60-4	4784-4785	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4787-4788	#	_	_	_	_	_	_	
+61-2	4788-4789	P	_	_	_	_	_	_	
+61-3	4790-4793	IMM	_	_	_	_	_	_	
+61-4	4793-4794	.	_	_	_	_	_	_	
+
+#Text=ordförande Centrum mot rasism.
+62-1	4796-4806	ordförande	_	_	_	_	_	_	
+62-2	4807-4814	Centrum	_	_	_	_	_	_	
+62-3	4815-4818	mot	_	_	_	_	_	_	
+62-4	4819-4825	rasism	_	_	_	_	_	_	
+62-5	4825-4826	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4828-4829	#	_	_	_	_	_	_	
+63-2	4829-4830	P	_	_	_	_	_	_	
+63-3	4831-4834	IMM	_	_	_	_	_	_	
+63-4	4834-4835	.	_	_	_	_	_	_	
+
+#Text=OLA KARLMAN.
+64-1	4837-4840	OLA	_	_	_	_	_	_	
+64-2	4841-4848	KARLMAN	_	_	_	_	_	_	
+64-3	4848-4849	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4851-4852	#	_	_	_	_	_	_	
+65-2	4852-4853	P	_	_	_	_	_	_	
+65-3	4854-4857	IMM	_	_	_	_	_	_	
+65-4	4857-4858	.	_	_	_	_	_	_	
+
+#Text=ordförande Ungdom mot rasism.
+66-1	4860-4870	ordförande	_	_	_	_	_	_	
+66-2	4871-4877	Ungdom	_	_	_	_	_	_	
+66-3	4878-4881	mot	_	_	_	_	_	_	
+66-4	4882-4888	rasism	_	_	_	_	_	_	
+66-5	4888-4889	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	4891-4892	#	_	_	_	_	_	_	
+67-2	4892-4893	P	_	_	_	_	_	_	
+67-3	4894-4897	IMM	_	_	_	_	_	_	
+67-4	4897-4898	.	_	_	_	_	_	_	
+
+#Text=VIDA PARIDAD.
+68-1	4900-4904	VIDA	_	_	_	_	_	_	
+68-2	4905-4912	PARIDAD	_	_	_	_	_	_	
+68-3	4912-4913	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	4915-4916	#	_	_	_	_	_	_	
+69-2	4916-4917	P	_	_	_	_	_	_	
+69-3	4918-4921	IMM	_	_	_	_	_	_	
+69-4	4921-4922	.	_	_	_	_	_	_	
+
+#Text=Sveriges antidiskrimineringsbyråer.
+70-1	4924-4932	Sveriges	_	_	_	_	_	_	
+70-2	4933-4958	antidiskrimineringsbyråer	_	_	_	_	_	_	
+70-3	4958-4959	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	4961-4962	#	_	_	_	_	_	_	
+71-2	4962-4963	P	_	_	_	_	_	_	
+71-3	4964-4967	IMM	_	_	_	_	_	_	
+71-4	4967-4968	.	_	_	_	_	_	_	
+
+#Text=PAUL LAPPALAINEN.
+72-1	4970-4974	PAUL	_	_	_	_	_	_	
+72-2	4975-4986	LAPPALAINEN	_	_	_	_	_	_	
+72-3	4986-4987	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	4989-4990	#	_	_	_	_	_	_	
+73-2	4990-4991	P	_	_	_	_	_	_	
+73-3	4992-4995	IMM	_	_	_	_	_	_	
+73-4	4995-4996	.	_	_	_	_	_	_	
+
+#Text=statlig utredare.
+74-1	4998-5005	statlig	_	_	_	_	_	_	
+74-2	5006-5014	utredare	_	_	_	_	_	_	
+74-3	5014-5015	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	5017-5018	#	_	_	_	_	_	_	
+75-2	5018-5019	P	_	_	_	_	_	_	
+75-3	5020-5023	IMM	_	_	_	_	_	_	
+75-4	5023-5024	.	_	_	_	_	_	_	
+
+#Text=LINA GIDLUND.
+76-1	5026-5030	LINA	_	_	_	_	_	_	
+76-2	5031-5038	GIDLUND	_	_	_	_	_	_	
+76-3	5038-5039	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+77-1	5041-5042	#	_	_	_	_	_	_	
+77-2	5042-5043	P	_	_	_	_	_	_	
+77-3	5044-5047	IMM	_	_	_	_	_	_	
+77-4	5047-5048	.	_	_	_	_	_	_	
+
+#Text=projektledare, AGERA – utan att diskriminera.
+78-1	5050-5063	projektledare	_	_	_	_	_	_	
+78-2	5063-5064	,	_	_	_	_	_	_	
+78-3	5065-5070	AGERA	_	_	_	_	_	_	
+78-4	5071-5072	–	_	_	_	_	_	_	
+78-5	5073-5077	utan	_	_	_	_	_	_	
+78-6	5078-5081	att	_	_	_	_	_	_	
+78-7	5082-5094	diskriminera	_	_	_	_	_	_	
+78-8	5094-5095	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	5097-5098	#	_	_	_	_	_	_	
+79-2	5098-5099	P	_	_	_	_	_	_	
+79-3	5100-5103	IMM	_	_	_	_	_	_	
+79-4	5103-5104	.	_	_	_	_	_	_	
+
+#Text=MARCO HELLES.
+80-1	5106-5111	MARCO	_	_	_	_	_	_	
+80-2	5112-5118	HELLES	_	_	_	_	_	_	
+80-3	5118-5119	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	5121-5122	#	_	_	_	_	_	_	
+81-2	5122-5123	P	_	_	_	_	_	_	
+81-3	5124-5127	IMM	_	_	_	_	_	_	
+81-4	5127-5128	.	_	_	_	_	_	_	
+
+#Text=utbildare inom mångfald och mänskliga rättigheter.
+82-1	5130-5139	utbildare	_	_	_	_	_	_	
+82-2	5140-5144	inom	_	_	_	_	_	_	
+82-3	5145-5153	mångfald	_	_	_	_	_	_	
+82-4	5154-5157	och	_	_	_	_	_	_	
+82-5	5158-5167	mänskliga	_	_	_	_	_	_	
+82-6	5168-5179	rättigheter	_	_	_	_	_	_	
+82-7	5179-5180	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	5182-5183	#	_	_	_	_	_	_	
+83-2	5183-5184	P	_	_	_	_	_	_	
+83-3	5185-5188	IMM	_	_	_	_	_	_	
+83-4	5188-5189	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+84-1	5191-5199	Redaktör	_	_	_	_	_	_	
+84-2	5199-5200	:	_	_	_	_	_	_	
+84-3	5201-5207	Carina	_	_	_	_	_	_	
+84-4	5208-5216	Stensson	_	_	_	_	_	_	
+84-5	5216-5217	,	_	_	_	_	_	_	
+84-6	5218-5228	Biträdande	_	_	_	_	_	_	
+84-7	5229-5237	redaktör	_	_	_	_	_	_	
+84-8	5237-5238	:	_	_	_	_	_	_	
+84-9	5239-5244	Björn	_	_	_	_	_	_	
+84-10	5245-5251	Jorner	_	_	_	_	_	_	
+84-11	5251-5252	,	_	_	_	_	_	_	
+84-12	5253-5257	Mejl	_	_	_	_	_	_	
+84-13	5257-5258	:	_	_	_	_	_	_	
+84-14	5259-5265	debatt	_	_	_	_	_	_	
+84-15	5265-5266	@	_	_	_	_	_	_	
+84-16	5266-5272	svd.se	_	_	_	_	_	_	
+84-17	5272-5273	,	_	_	_	_	_	_	
+84-18	5274-5287	Telefonnummer	_	_	_	_	_	_	
+84-19	5287-5288	:	_	_	_	_	_	_	
+84-20	5289-5291	08	_	_	_	_	_	_	
+84-21	5291-5292	-	_	_	_	_	_	_	
+84-22	5292-5298	135149	_	_	_	_	_	_	
+84-23	5298-5299	,	_	_	_	_	_	_	
+84-24	5300-5307	Twitter	_	_	_	_	_	_	
+84-25	5307-5308	:	_	_	_	_	_	_	
+84-26	5309-5310	@	_	_	_	_	_	_	
+84-27	5310-5319	SvDDebatt	_	_	_	_	_	_	
+84-28	5319-5320	,	_	_	_	_	_	_	
+84-29	5321-5329	Facebook	_	_	_	_	_	_	
+84-30	5329-5330	:	_	_	_	_	_	_	
+84-31	5331-5334	SvD	_	_	_	_	_	_	
+84-32	5335-5341	Debatt	_	_	_	_	_	_	
+84-33	5341-5342	.	_	_	_	_	_	_	

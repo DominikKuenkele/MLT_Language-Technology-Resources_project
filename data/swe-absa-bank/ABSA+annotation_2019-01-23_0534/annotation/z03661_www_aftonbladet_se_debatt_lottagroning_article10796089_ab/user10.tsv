@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Människor hamnar i kläm i det politiska trolleriet.
+3-1	18-27	Människor	*[10]	Target[1]	3-1[10]	false[1]	2[1]	_	_	
+3-2	28-34	hamnar	*[10]	Target[1]	3-1[10]	false[1]	2[1]	_	_	
+3-3	35-36	i	*[10]	Target[1]	3-1[10]	false[1]	2[1]	_	_	
+3-4	37-41	kläm	*[10]	Target[1]	3-1[10]	false[1]	2[1]	_	_	
+3-5	42-43	i	_	_	_	_	_	_	_	
+3-6	44-47	det	*[11]	Target[2]	3-6[11]	false[2]	2[2]	_	_	
+3-7	48-57	politiska	*[11]	Target[2]	3-6[11]	false[2]	2[2]	_	_	
+3-8	58-68	trolleriet	*[11]	Target[2]	3-6[11]	false[2]	2[2]	_	_	
+3-9	68-69	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	_	
+
+#Text=Det är nog en och annan förtidspensionär och en hel del socialbidragstagare som blir stötta av regeringens budskap om att färre sjukskrivningar leder till nya reformer.
+5-1	80-83	Det	_	_	_	_	_	_	_	
+5-2	84-86	är	_	_	_	_	_	_	_	
+5-3	87-90	nog	_	_	_	_	_	_	_	
+5-4	91-93	en	*[12]	_	_	_	_	_	_	
+5-5	94-97	och	*[12]	_	_	_	_	_	_	
+5-6	98-103	annan	*[12]	_	_	_	_	_	_	
+5-7	104-120	förtidspensionär	*[12]	_	_	_	_	_	_	
+5-8	121-124	och	_	_	_	_	_	_	_	
+5-9	125-127	en	*[13]	_	_	_	_	_	_	
+5-10	128-131	hel	*[13]	_	_	_	_	_	_	
+5-11	132-135	del	*[13]	_	_	_	_	_	_	
+5-12	136-155	socialbidragstagare	*[13]	_	_	_	_	_	_	
+5-13	156-159	som	_	_	_	_	_	_	_	
+5-14	160-164	blir	_	Target;Source;Source[3]	5-17[14];5-4[12];5-9[13]	false[3]	1[3]	_	_	
+5-15	165-171	stötta	_	Target;Source;Source[3]	5-17[14];5-4[12];5-9[13]	false[3]	1[3]	_	_	
+5-16	172-174	av	_	Target;Source;Source[3]	5-17[14];5-4[12];5-9[13]	false[3]	1[3]	_	_	
+5-17	175-186	regeringens	*[14]	_	_	_	_	_	_	
+5-18	187-194	budskap	*[14]	_	_	_	_	_	_	
+5-19	195-197	om	*[14]	_	_	_	_	_	_	
+5-20	198-201	att	*[14]	_	_	_	_	_	_	
+5-21	202-207	färre	*[14]	_	_	_	_	_	_	
+5-22	208-223	sjukskrivningar	*[14]	_	_	_	_	_	_	
+5-23	224-229	leder	*[14]	_	_	_	_	_	_	
+5-24	230-234	till	*[14]	_	_	_	_	_	_	
+5-25	235-238	nya	*[14]	_	_	_	_	_	_	
+5-26	239-247	reformer	*[14]	_	_	_	_	_	_	
+5-27	247-248	.	_	_	_	_	_	_	_	
+
+#Text=Vi förstår av nödropen till debattsidan att det finns vissa trix för att minska sjukskrivningarna.
+6-1	249-251	Vi	_	_	_	_	_	_	_	
+6-2	252-259	förstår	_	_	_	_	_	_	_	
+6-3	260-262	av	_	_	_	_	_	_	_	
+6-4	263-271	nödropen	_	_	_	_	_	_	_	
+6-5	272-276	till	_	_	_	_	_	_	_	
+6-6	277-288	debattsidan	_	_	_	_	_	_	_	
+6-7	289-292	att	_	_	_	_	_	_	_	
+6-8	293-296	det	_	_	_	_	_	_	_	
+6-9	297-302	finns	_	_	_	_	_	_	_	
+6-10	303-308	vissa	_	_	_	_	_	_	_	
+6-11	309-313	trix	_	_	_	_	_	_	_	
+6-12	314-317	för	_	_	_	_	_	_	_	
+6-13	318-321	att	_	_	_	_	_	_	_	
+6-14	322-328	minska	_	_	_	_	_	_	_	
+6-15	329-346	sjukskrivningarna	_	_	_	_	_	_	_	
+6-16	346-347	.	_	_	_	_	_	_	_	
+
+#Text=Tvinga folk att leva på kommunala socialbidragspengar är bara ett sätt.
+7-1	348-354	Tvinga	_	_	_	_	_	_	_	
+7-2	355-359	folk	_	_	_	_	_	_	_	
+7-3	360-363	att	_	_	_	_	_	_	_	
+7-4	364-368	leva	_	_	_	_	_	_	_	
+7-5	369-371	på	_	_	_	_	_	_	_	
+7-6	372-381	kommunala	_	_	_	_	_	_	_	
+7-7	382-401	socialbidragspengar	_	_	_	_	_	_	_	
+7-8	402-404	är	_	_	_	_	_	_	_	
+7-9	405-409	bara	_	_	_	_	_	_	_	
+7-10	410-413	ett	_	_	_	_	_	_	_	
+7-11	414-418	sätt	_	_	_	_	_	_	_	
+7-12	418-419	.	_	_	_	_	_	_	_	
+
+#Text=Pär Nuder kallar omflyttningen av pengar i budgeten för ett trolleritrick.
+8-1	420-423	Pär	_	_	_	_	_	_	_	
+8-2	424-429	Nuder	_	_	_	_	_	_	_	
+8-3	430-436	kallar	_	_	_	_	_	_	_	
+8-4	437-450	omflyttningen	_	_	_	_	_	_	_	
+8-5	451-453	av	_	_	_	_	_	_	_	
+8-6	454-460	pengar	_	_	_	_	_	_	_	
+8-7	461-462	i	_	_	_	_	_	_	_	
+8-8	463-471	budgeten	_	_	_	_	_	_	_	
+8-9	472-475	för	_	_	_	_	_	_	_	
+8-10	476-479	ett	_	_	_	_	_	_	_	
+8-11	480-493	trolleritrick	_	_	_	_	_	_	_	
+8-12	493-494	.	_	_	_	_	_	_	_	
+
+#Text=Visst kan även vi understyrka att politikerna är goda förvandlingskonstnärer.
+9-1	495-500	Visst	_	_	_	_	_	_	_	
+9-2	501-504	kan	_	_	_	_	_	_	_	
+9-3	505-509	även	_	_	_	_	_	_	_	
+9-4	510-512	vi	_	_	_	_	_	_	_	
+9-5	513-524	understyrka	_	_	_	_	_	_	_	
+9-6	525-528	att	_	_	_	_	_	_	_	
+9-7	529-540	politikerna	*	_	_	_	_	_	_	
+9-8	541-543	är	_	_	_	_	_	_	_	
+9-9	544-548	goda	_	Target[4]	9-7	true[4]	4[4]	_	_	
+9-10	549-571	förvandlingskonstnärer	_	Target[4]	9-7	true[4]	4[4]	_	_	
+9-11	571-572	.	_	_	_	_	_	_	_	
+
+#Text=Så goda att Joe Labero Kan få konkurrens i Las Vegas!.
+10-1	573-575	Så	_	_	_	_	_	_	_	
+10-2	576-580	goda	_	_	_	_	_	_	_	
+10-3	581-584	att	_	_	_	_	_	_	_	
+10-4	585-588	Joe	_	_	_	_	_	_	_	
+10-5	589-595	Labero	_	_	_	_	_	_	_	
+10-6	596-599	Kan	_	_	_	_	_	_	_	
+10-7	600-602	få	_	_	_	_	_	_	_	
+10-8	603-613	konkurrens	_	_	_	_	_	_	_	
+10-9	614-615	i	_	_	_	_	_	_	_	
+10-10	616-619	Las	_	_	_	_	_	_	_	
+10-11	620-625	Vegas	_	_	_	_	_	_	_	
+10-12	625-626	!	_	_	_	_	_	_	_	
+10-13	626-627	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	629-630	#	_	_	_	_	_	_	_	
+11-2	630-631	P	_	_	_	_	_	_	_	
+11-3	632-635	IMM	_	_	_	_	_	_	_	
+11-4	635-636	.	_	_	_	_	_	_	_	
+
+#Text=Problemet med det politiska trolleriet är att männsikor hamnar i kläm, de blir försvarslösa och rättslösa och i händerna på tjänstemän som har ett regelverk att följa.
+12-1	638-647	Problemet	_	Target[5]	12-3[15]	false[5]	2[5]	_	_	
+12-2	648-651	med	_	Target[5]	12-3[15]	false[5]	2[5]	_	_	
+12-3	652-655	det	*[15]	_	_	_	_	_	_	
+12-4	656-665	politiska	*[15]	_	_	_	_	_	_	
+12-5	666-676	trolleriet	*[15]	_	_	_	_	_	_	
+12-6	677-679	är	_	_[6]	_	false[6]	2[6]	12-1[5_6]	_	
+12-7	680-683	att	_	_[6]	_	false[6]	2[6]	_	_	
+12-8	684-693	männsikor	_	_[6]	_	false[6]	2[6]	_	_	
+12-9	694-700	hamnar	_	_[6]	_	false[6]	2[6]	_	_	
+12-10	701-702	i	_	_[6]	_	false[6]	2[6]	_	_	
+12-11	703-707	kläm	_	_[6]	_	false[6]	2[6]	_	_	
+12-12	707-708	,	_	_	_	_	_	_	_	
+12-13	709-711	de	_	_	_	_	_	_	_	
+12-14	712-716	blir	_	_	_	_	_	_	_	
+12-15	717-729	försvarslösa	_	_	_	_	_	_	_	
+12-16	730-733	och	_	_	_	_	_	_	_	
+12-17	734-743	rättslösa	_	_	_	_	_	_	_	
+12-18	744-747	och	_	_	_	_	_	_	_	
+12-19	748-749	i	_	_	_	_	_	_	_	
+12-20	750-758	händerna	_	_	_	_	_	_	_	
+12-21	759-761	på	_	_	_	_	_	_	_	
+12-22	762-772	tjänstemän	_	_	_	_	_	_	_	
+12-23	773-776	som	_	_	_	_	_	_	_	
+12-24	777-780	har	_	_	_	_	_	_	_	
+12-25	781-784	ett	_	_	_	_	_	_	_	
+12-26	785-794	regelverk	_	_	_	_	_	_	_	
+12-27	795-798	att	_	_	_	_	_	_	_	
+12-28	799-804	följa	_	_	_	_	_	_	_	
+12-29	804-805	.	_	_	_	_	_	_	_	
+
+#Text=Handläggarna får högre lön för att de följer reglerna och inte tar hänsyn till rent mänskliga aspekter.
+13-1	806-818	Handläggarna	*	_	_	_	_	_	_	
+13-2	819-822	får	_	_	_	_	_	_	_	
+13-3	823-828	högre	_	_	_	_	_	_	_	
+13-4	829-832	lön	_	_	_	_	_	_	_	
+13-5	833-836	för	_	_	_	_	_	_	_	
+13-6	837-840	att	_	_	_	_	_	_	_	
+13-7	841-843	de	_	_	_	_	_	_	_	
+13-8	844-850	följer	_	_	_	_	_	_	_	
+13-9	851-859	reglerna	_	_	_	_	_	_	_	
+13-10	860-863	och	_	_	_	_	_	_	_	
+13-11	864-868	inte	_	Target;Source[7]	13-15[16];13-1	false[7]	2[7]	_	_	
+13-12	869-872	tar	_	Target;Source[7]	13-15[16];13-1	false[7]	2[7]	_	_	
+13-13	873-879	hänsyn	_	Target;Source[7]	13-15[16];13-1	false[7]	2[7]	_	_	
+13-14	880-884	till	_	Target;Source[7]	13-15[16];13-1	false[7]	2[7]	_	_	
+13-15	885-889	rent	*[16]	_	_	_	_	_	_	
+13-16	890-899	mänskliga	*[16]	_	_	_	_	_	_	
+13-17	900-908	aspekter	*[16]	_	_	_	_	_	_	
+13-18	908-909	.	_	_	_	_	_	_	_	
+
+#Text=Chefen vet nämligen alltid bäst i statliga organisationer.
+14-1	910-916	Chefen	*	_	_	_	_	_	14-6[17_0]	
+14-2	917-920	vet	_	_	_	false	3	_	_	
+14-3	921-929	nämligen	_	_	_	_	_	_	_	
+14-4	930-936	alltid	_	Target[8]	14-1	true[8]	5[8]	14-2[0_8]	_	
+14-5	937-941	bäst	_	Target[8]	14-1	true[8]	5[8]	_	_	
+14-6	942-943	i	*[17]	_	_	_	_	_	_	
+14-7	944-952	statliga	*[17]	_	_	_	_	_	_	
+14-8	953-967	organisationer	*[17]	_	_	_	_	_	_	
+14-9	967-968	.	_	_	_	_	_	_	_	
+
+#Text=En socialsekreterare, Eva Hillén Ahlström, skriver om problematiken på debattsidan idag.
+15-1	969-971	En	_	_	_	_	_	_	_	
+15-2	972-989	socialsekreterare	_	_	_	_	_	_	_	
+15-3	989-990	,	_	_	_	_	_	_	_	
+15-4	991-994	Eva	_	_	_	_	_	_	_	
+15-5	995-1001	Hillén	_	_	_	_	_	_	_	
+15-6	1002-1010	Ahlström	_	_	_	_	_	_	_	
+15-7	1010-1011	,	_	_	_	_	_	_	_	
+15-8	1012-1019	skriver	_	_	_	_	_	_	_	
+15-9	1020-1022	om	_	_	_	_	_	_	_	
+15-10	1023-1036	problematiken	_	_	_	_	_	_	_	
+15-11	1037-1039	på	_	_	_	_	_	_	_	
+15-12	1040-1051	debattsidan	_	_	_	_	_	_	_	
+15-13	1052-1056	idag	_	_	_	_	_	_	_	
+15-14	1056-1057	.	_	_	_	_	_	_	_	
+
+#Text=Hokus, pokus filiokus så blir sjukskrivna socialbidragstagare och kommunens ansvar - och staten slipper bry sig.
+16-1	1058-1063	Hokus	_	_	_	_	_	_	_	
+16-2	1063-1064	,	_	_	_	_	_	_	_	
+16-3	1065-1070	pokus	_	_	_	_	_	_	_	
+16-4	1071-1079	filiokus	_	_	_	_	_	_	_	
+16-5	1080-1082	så	_	_	_	_	_	_	_	
+16-6	1083-1087	blir	_	_	_	_	_	_	_	
+16-7	1088-1099	sjukskrivna	_	_	_	_	_	_	_	
+16-8	1100-1119	socialbidragstagare	_	_	_	_	_	_	_	
+16-9	1120-1123	och	_	_	_	_	_	_	_	
+16-10	1124-1133	kommunens	_	_	_	_	_	_	_	
+16-11	1134-1140	ansvar	_	_	_	_	_	_	_	
+16-12	1141-1142	-	_	_	_	_	_	_	_	
+16-13	1143-1146	och	_	_	_	_	_	_	_	
+16-14	1147-1153	staten	*	_	_	_	_	_	_	
+16-15	1154-1161	slipper	_	Target[9]	16-14	false[9]	4[9]	_	_	
+16-16	1162-1165	bry	_	Target[9]	16-14	false[9]	4[9]	_	_	
+16-17	1166-1169	sig	_	Target[9]	16-14	false[9]	4[9]	_	_	
+16-18	1169-1170	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1172-1173	#	_	_	_	_	_	_	_	
+17-2	1173-1174	P	_	_	_	_	_	_	_	
+17-3	1175-1178	IMM	_	_	_	_	_	_	_	
+17-4	1178-1179	.	_	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+18-1	1181-1186	Lotta	_	_	_	_	_	_	_	
+18-2	1187-1194	Gröning	_	_	_	_	_	_	_	
+18-3	1194-1195	.	_	_	_	_	_	_	_	

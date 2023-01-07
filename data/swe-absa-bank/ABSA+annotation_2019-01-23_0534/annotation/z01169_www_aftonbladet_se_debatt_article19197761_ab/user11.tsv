@@ -1,0 +1,383 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vissa åsikter får inte finnas i offentligheten.
+3-1	18-23	Vissa	*[10]	_	_	_	_	_	
+3-2	24-31	åsikter	*[10]	_	_	_	_	_	
+3-3	32-35	får	_	Target[1]	3-1[10]	false[1]	2[1]	_	
+3-4	36-40	inte	_	Target[1]	3-1[10]	false[1]	2[1]	_	
+3-5	41-47	finnas	_	Target[1]	3-1[10]	false[1]	2[1]	_	
+3-6	48-49	i	_	Target[1]	3-1[10]	false[1]	2[1]	_	
+3-7	50-64	offentligheten	_	Target[1]	3-1[10]	false[1]	2[1]	_	
+3-8	64-65	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	67-68	#	_	_	_	_	_	_	
+4-2	68-69	P	_	_	_	_	_	_	
+4-3	70-73	IMM	_	_	_	_	_	_	
+4-4	73-74	.	_	_	_	_	_	_	
+
+#Text=Ibland är det svårt att replikera, i synnerhet när den som har skrivit i stort verkar hålla med en.
+5-1	76-82	Ibland	_	_	_	_	_	_	
+5-2	83-85	är	_	_	_	_	_	_	
+5-3	86-89	det	_	_	_	_	_	_	
+5-4	90-95	svårt	_	Target	5-6	false	2	_	
+5-5	96-99	att	_	_	_	_	_	_	
+5-6	100-109	replikera	*	_	_	_	_	_	
+5-7	109-110	,	_	_	_	_	_	_	
+5-8	111-112	i	_	_	_	_	_	_	
+5-9	113-122	synnerhet	_	_	_	_	_	_	
+5-10	123-126	när	_	_	_	_	_	_	
+5-11	127-130	den	*[11]	_	_	_	_	_	
+5-12	131-134	som	*[11]	_	_	_	_	_	
+5-13	135-138	har	*[11]	_	_	_	_	_	
+5-14	139-146	skrivit	*[11]	_	_	_	_	_	
+5-15	147-148	i	_	_	_	_	_	_	
+5-16	149-154	stort	_	_	_	_	_	_	
+5-17	155-161	verkar	_	Target[2]	5-11[11]	false[2]	4[2]	_	
+5-18	162-167	hålla	_	Target[2]	5-11[11]	false[2]	4[2]	_	
+5-19	168-171	med	_	Target[2]	5-11[11]	false[2]	4[2]	_	
+5-20	172-174	en	_	Target[2]	5-11[11]	false[2]	4[2]	_	
+5-21	174-175	.	_	_	_	_	_	_	
+
+#Text=Lisa Magnusson inleder sin debattartikel här i  med att kritisera min användning av ordet åsiktskorridor, men avslutar med en apell om att vara mer accepterande mot det som avviker från just åsiktskorridoren.
+6-1	176-180	Lisa	*[12]	_	_	_	_	_	
+6-2	181-190	Magnusson	*[12]	_	_	_	_	_	
+6-3	191-198	inleder	_	_	_	_	_	_	
+6-4	199-202	sin	_	_	_	_	_	_	
+6-5	203-216	debattartikel	_	_	_	_	_	_	
+6-6	217-220	här	_	_	_	_	_	_	
+6-7	221-222	i	_	_	_	_	_	_	
+6-8	224-227	med	_	_	_	_	_	_	
+6-9	228-231	att	_	_	_	_	_	_	
+6-10	232-241	kritisera	_	Source;Target	6-1[12];6-11[13]	false	2	_	
+6-11	242-245	min	*[13]	_	_	_	_	_	
+6-12	246-256	användning	*[13]	_	_	_	_	_	
+6-13	257-259	av	*[13]	_	_	_	_	_	
+6-14	260-265	ordet	*[13]	_	_	_	_	_	
+6-15	266-280	åsiktskorridor	*[13]	_	_	_	_	_	
+6-16	280-281	,	_	_	_	_	_	_	
+6-17	282-285	men	_	_	_	_	_	_	
+6-18	286-294	avslutar	_	_	_	_	_	_	
+6-19	295-298	med	_	_	_	_	_	_	
+6-20	299-301	en	_	_	_	_	_	_	
+6-21	302-307	apell	_	_	_	_	_	_	
+6-22	308-310	om	_	_	_	_	_	_	
+6-23	311-314	att	_	_	_	_	_	_	
+6-24	315-319	vara	_	Source;Target[3]	6-1[12];6-27[14]	false[3]	4[3]	_	
+6-25	320-323	mer	_	Source;Target[3]	6-1[12];6-27[14]	false[3]	4[3]	_	
+6-26	324-336	accepterande	_	Source;Target[3]	6-1[12];6-27[14]	false[3]	4[3]	_	
+6-27	337-340	mot	*[14]	_	_	_	_	_	
+6-28	341-344	det	*[14]	_	_	_	_	_	
+6-29	345-348	som	*[14]	_	_	_	_	_	
+6-30	349-356	avviker	*[14]	_	_	_	_	_	
+6-31	357-361	från	*[14]	_	_	_	_	_	
+6-32	362-366	just	*[14]	_	_	_	_	_	
+6-33	367-383	åsiktskorridoren	*[14]	_	_	_	_	_	
+6-34	383-384	.	_	_	_	_	_	_	
+
+#Text=Jag är varken först eller ensam om att skriva om att det finns en åsiktskorridor.
+7-1	385-388	Jag	_	_	_	_	_	_	
+7-2	389-391	är	_	_	_	_	_	_	
+7-3	392-398	varken	_	_	_	_	_	_	
+7-4	399-404	först	_	_	_	_	_	_	
+7-5	405-410	eller	_	_	_	_	_	_	
+7-6	411-416	ensam	_	_	_	_	_	_	
+7-7	417-419	om	_	_	_	_	_	_	
+7-8	420-423	att	_	_	_	_	_	_	
+7-9	424-430	skriva	_	_	_	_	_	_	
+7-10	431-433	om	_	_	_	_	_	_	
+7-11	434-437	att	_	_	_	_	_	_	
+7-12	438-441	det	_	_	_	_	_	_	
+7-13	442-447	finns	_	_	_	_	_	_	
+7-14	448-450	en	_	_	_	_	_	_	
+7-15	451-465	åsiktskorridor	_	_	_	_	_	_	
+7-16	465-466	.	_	_	_	_	_	_	
+
+#Text=Henric Oscarsson, professor i statsvetenskap vid Göteborgs universitet, myntade begreppet i vintras som ett sätt att illustrera att utbredda åsikter sällan förekom i offentligheten.
+8-1	467-473	Henric	_	_	_	_	_	_	
+8-2	474-483	Oscarsson	_	_	_	_	_	_	
+8-3	483-484	,	_	_	_	_	_	_	
+8-4	485-494	professor	_	_	_	_	_	_	
+8-5	495-496	i	_	_	_	_	_	_	
+8-6	497-511	statsvetenskap	_	_	_	_	_	_	
+8-7	512-515	vid	_	_	_	_	_	_	
+8-8	516-525	Göteborgs	_	_	_	_	_	_	
+8-9	526-537	universitet	_	_	_	_	_	_	
+8-10	537-538	,	_	_	_	_	_	_	
+8-11	539-546	myntade	_	_	_	_	_	_	
+8-12	547-556	begreppet	_	_	_	_	_	_	
+8-13	557-558	i	_	_	_	_	_	_	
+8-14	559-566	vintras	_	_	_	_	_	_	
+8-15	567-570	som	_	_	_	_	_	_	
+8-16	571-574	ett	_	_	_	_	_	_	
+8-17	575-579	sätt	_	_	_	_	_	_	
+8-18	580-583	att	_	_	_	_	_	_	
+8-19	584-594	illustrera	_	_	_	_	_	_	
+8-20	595-598	att	_	_	_	_	_	_	
+8-21	599-607	utbredda	_	_	_	_	_	_	
+8-22	608-615	åsikter	_	_	_	_	_	_	
+8-23	616-622	sällan	_	_	_	_	_	_	
+8-24	623-630	förekom	_	_	_	_	_	_	
+8-25	631-632	i	_	_	_	_	_	_	
+8-26	633-647	offentligheten	_	_	_	_	_	_	
+8-27	647-648	.	_	_	_	_	_	_	
+
+#Text=Faktum är att det offentliga samtalet förs på ett sådant sätt att man får intrycket att vissa åsikter över huvud taget inte finns i Sverige.
+9-1	649-655	Faktum	_	_	_	_	_	_	
+9-2	656-658	är	_	_	_	_	_	_	
+9-3	659-662	att	_	_	_	_	_	_	
+9-4	663-666	det	_	_	_	_	_	_	
+9-5	667-677	offentliga	_	_	_	_	_	_	
+9-6	678-686	samtalet	_	_	_	_	_	_	
+9-7	687-691	förs	_	_	_	_	_	_	
+9-8	692-694	på	_	_	_	_	_	_	
+9-9	695-698	ett	_	_	_	_	_	_	
+9-10	699-705	sådant	_	_	_	_	_	_	
+9-11	706-710	sätt	_	_	_	_	_	_	
+9-12	711-714	att	_	_	_	_	_	_	
+9-13	715-718	man	_	_	_	_	_	_	
+9-14	719-722	får	_	Target[4]	9-17[15]	false[4]	3[4]	_	
+9-15	723-732	intrycket	_	Target[4]	9-17[15]	false[4]	3[4]	_	
+9-16	733-736	att	_	_	_	_	_	_	
+9-17	737-742	vissa	*[15]	_	_	_	_	_	
+9-18	743-750	åsikter	*[15]	_	_	_	_	_	
+9-19	751-755	över	*[15]	_	_	_	_	_	
+9-20	756-761	huvud	*[15]	_	_	_	_	_	
+9-21	762-767	taget	*[15]	_	_	_	_	_	
+9-22	768-772	inte	*[15]	_	_	_	_	_	
+9-23	773-778	finns	*[15]	_	_	_	_	_	
+9-24	779-780	i	*[15]	_	_	_	_	_	
+9-25	781-788	Sverige	*[15]	_	_	_	_	_	
+9-26	788-789	.	_	_	_	_	_	_	
+
+#Text=Och att vissa åsikter – ofta åsikter som inte rimmar med vad som anses progressivt av välutbildade storstadsbor – bemöts på ett nedlåtande sätt i offentligheten.
+10-1	790-793	Och	_	_	_	_	_	_	
+10-2	794-797	att	_	_	_	_	_	_	
+10-3	798-803	vissa	_	_	_	_	_	_	
+10-4	804-811	åsikter	_	_	_	_	_	_	
+10-5	812-813	–	_	_	_	_	_	_	
+10-6	814-818	ofta	_	_	_	_	_	_	
+10-7	819-826	åsikter	_	_	_	_	_	_	
+10-8	827-830	som	_	_	_	_	_	_	
+10-9	831-835	inte	_	_	_	_	_	_	
+10-10	836-842	rimmar	_	_	_	_	_	_	
+10-11	843-846	med	_	_	_	_	_	_	
+10-12	847-850	vad	*[16]|*[17]	_	_	_	_	_	
+10-13	851-854	som	*[16]	_	_	_	_	_	
+10-14	855-860	anses	*[16]	Target;Source[5]	10-12[17];10-17[18]	false[5]	4[5]	_	
+10-15	861-872	progressivt	*[16]	Target;Source[5]	10-12[17];10-17[18]	false[5]	4[5]	_	
+10-16	873-875	av	*[16]	_	_	_	_	_	
+10-17	876-888	välutbildade	*[16]|*[18]	_	_	_	_	_	
+10-18	889-901	storstadsbor	*[16]|*[18]	_	_	_	_	_	
+10-19	902-903	–	_	_	_	_	_	_	
+10-20	904-910	bemöts	_	Target	10-12[16]	false	2	10-23[6_0]	
+10-21	911-913	på	_	_	_	_	_	_	
+10-22	914-917	ett	_	_	_	_	_	_	
+10-23	918-928	nedlåtande	_	_[6]	_	false[6]	2[6]	_	
+10-24	929-933	sätt	_	_[6]	_	false[6]	2[6]	_	
+10-25	934-935	i	_	_	_	_	_	_	
+10-26	936-950	offentligheten	_	_	_	_	_	_	
+10-27	950-951	.	_	_	_	_	_	_	
+
+#Text=Det finns åsiktskonflikter i samhället som därför inte skildras tillräckligt väl.
+11-1	952-955	Det	_	_	_	_	_	_	
+11-2	956-961	finns	_	_	_	_	_	_	
+11-3	962-978	åsiktskonflikter	*	_	_	_	_	_	
+11-4	979-980	i	_	_	_	_	_	_	
+11-5	981-990	samhället	_	_	_	_	_	_	
+11-6	991-994	som	_	_	_	_	_	_	
+11-7	995-1001	därför	_	_	_	_	_	_	
+11-8	1002-1006	inte	_	Target[7]	11-3	false[7]	2[7]	_	
+11-9	1007-1015	skildras	_	Target[7]	11-3	false[7]	2[7]	_	
+11-10	1016-1028	tillräckligt	_	Target[7]	11-3	false[7]	2[7]	_	
+11-11	1029-1032	väl	_	Target[7]	11-3	false[7]	2[7]	_	
+11-12	1032-1033	.	_	_	_	_	_	_	
+
+#Text=Den tolerans jag förespråkar handlar inte om att man ska låta åsikter stå oemotsagda eller att man bör vara undfallande mot rasism och sexism.
+12-1	1034-1037	Den	_	_	_	_	_	_	
+12-2	1038-1046	tolerans	*	_	_	_	_	_	
+12-3	1047-1050	jag	*	_	_	_	_	_	
+12-4	1051-1062	förespråkar	_	Source;Target	12-3;12-2	false	4	_	
+12-5	1063-1070	handlar	_	_	_	_	_	_	
+12-6	1071-1075	inte	_	_	_	_	_	_	
+12-7	1076-1078	om	_	_	_	_	_	_	
+12-8	1079-1082	att	_	_	_	_	_	_	
+12-9	1083-1086	man	_	_	_	_	_	_	
+12-10	1087-1090	ska	_	_	_	_	_	_	
+12-11	1091-1095	låta	_	_	_	_	_	_	
+12-12	1096-1103	åsikter	_	_	_	_	_	_	
+12-13	1104-1107	stå	_	_	_	_	_	_	
+12-14	1108-1118	oemotsagda	_	_	_	_	_	_	
+12-15	1119-1124	eller	_	_	_	_	_	_	
+12-16	1125-1128	att	_	_	_	_	_	_	
+12-17	1129-1132	man	_	_	_	_	_	_	
+12-18	1133-1136	bör	_	Target[8]	12-22[19]	false[8]	2[8]	_	
+12-19	1137-1141	vara	_	Target[8]	12-22[19]	false[8]	2[8]	_	
+12-20	1142-1153	undfallande	_	Target[8]	12-22[19]	false[8]	2[8]	_	
+12-21	1154-1157	mot	_	_	_	_	_	_	
+12-22	1158-1164	rasism	*[19]	_	_	_	_	_	
+12-23	1165-1168	och	*[19]	_	_	_	_	_	
+12-24	1169-1175	sexism	*[19]	_	_	_	_	_	
+12-25	1175-1176	.	_	_	_	_	_	_	
+
+#Text=Tvärtom.
+13-1	1177-1184	Tvärtom	_	_	_	_	_	_	
+13-2	1184-1185	.	_	_	_	_	_	_	
+
+#Text=Alla måste vara beredda på mothugg.
+14-1	1186-1190	Alla	_	_	_	_	_	_	
+14-2	1191-1196	måste	_	Target[9]	14-6	false[9]	4[9]	_	
+14-3	1197-1201	vara	_	Target[9]	14-6	false[9]	4[9]	_	
+14-4	1202-1209	beredda	_	Target[9]	14-6	false[9]	4[9]	_	
+14-5	1210-1212	på	_	_	_	_	_	_	
+14-6	1213-1220	mothugg	*	_	_	_	_	_	
+14-7	1220-1221	.	_	_	_	_	_	_	
+
+#Text=Det är, precis som Lisa Magnusson skriver, det som är diskussion.
+15-1	1222-1225	Det	_	_	_	_	_	_	
+15-2	1226-1228	är	_	_	_	_	_	_	
+15-3	1228-1229	,	_	_	_	_	_	_	
+15-4	1230-1236	precis	_	_	_	_	_	_	
+15-5	1237-1240	som	_	_	_	_	_	_	
+15-6	1241-1245	Lisa	_	_	_	_	_	_	
+15-7	1246-1255	Magnusson	_	_	_	_	_	_	
+15-8	1256-1263	skriver	_	_	_	_	_	_	
+15-9	1263-1264	,	_	_	_	_	_	_	
+15-10	1265-1268	det	_	_	_	_	_	_	
+15-11	1269-1272	som	_	_	_	_	_	_	
+15-12	1273-1275	är	_	_	_	_	_	_	
+15-13	1276-1286	diskussion	_	_	_	_	_	_	
+15-14	1286-1287	.	_	_	_	_	_	_	
+
+#Text=Begrepp som ”politisk korrekthet”, ”åsiktskorridor” och ”verklighetens folk”, eller för den delen metaforer som ”frukostbordet” och ”lunchrummet”, handlar alla om att det finns en relativt stor skara som känner att deras åsikter hamnat i marginalen.
+16-1	1288-1295	Begrepp	_	_	_	_	_	_	
+16-2	1296-1299	som	_	_	_	_	_	_	
+16-3	1300-1301	”	_	_	_	_	_	_	
+16-4	1301-1309	politisk	_	_	_	_	_	_	
+16-5	1310-1320	korrekthet	_	_	_	_	_	_	
+16-6	1320-1321	”	_	_	_	_	_	_	
+16-7	1321-1322	,	_	_	_	_	_	_	
+16-8	1323-1324	”	_	_	_	_	_	_	
+16-9	1324-1338	åsiktskorridor	_	_	_	_	_	_	
+16-10	1338-1339	”	_	_	_	_	_	_	
+16-11	1340-1343	och	_	_	_	_	_	_	
+16-12	1344-1345	”	_	_	_	_	_	_	
+16-13	1345-1358	verklighetens	_	_	_	_	_	_	
+16-14	1359-1363	folk	_	_	_	_	_	_	
+16-15	1363-1364	”	_	_	_	_	_	_	
+16-16	1364-1365	,	_	_	_	_	_	_	
+16-17	1366-1371	eller	_	_	_	_	_	_	
+16-18	1372-1375	för	_	_	_	_	_	_	
+16-19	1376-1379	den	_	_	_	_	_	_	
+16-20	1380-1385	delen	_	_	_	_	_	_	
+16-21	1386-1395	metaforer	_	_	_	_	_	_	
+16-22	1396-1399	som	_	_	_	_	_	_	
+16-23	1400-1401	”	_	_	_	_	_	_	
+16-24	1401-1414	frukostbordet	_	_	_	_	_	_	
+16-25	1414-1415	”	_	_	_	_	_	_	
+16-26	1416-1419	och	_	_	_	_	_	_	
+16-27	1420-1421	”	_	_	_	_	_	_	
+16-28	1421-1432	lunchrummet	_	_	_	_	_	_	
+16-29	1432-1433	”	_	_	_	_	_	_	
+16-30	1433-1434	,	_	_	_	_	_	_	
+16-31	1435-1442	handlar	_	_	_	_	_	_	
+16-32	1443-1447	alla	_	_	_	_	_	_	
+16-33	1448-1450	om	_	_	_	_	_	_	
+16-34	1451-1454	att	_	_	_	_	_	_	
+16-35	1455-1458	det	_	_	_	_	_	_	
+16-36	1459-1464	finns	_	_	_	_	_	_	
+16-37	1465-1467	en	_	_	_	_	_	_	
+16-38	1468-1476	relativt	_	_	_	_	_	_	
+16-39	1477-1481	stor	*[20]	_	_	_	_	_	
+16-40	1482-1487	skara	*[20]	_	_	_	_	_	
+16-41	1488-1491	som	_	_	_	_	_	_	
+16-42	1492-1498	känner	_	Source;Target	16-39[20];16-44[21]	false	2	_	
+16-43	1499-1502	att	_	_	_	_	_	_	
+16-44	1503-1508	deras	*[21]	_	_	_	_	_	
+16-45	1509-1516	åsikter	*[21]	_	_	_	_	_	
+16-46	1517-1523	hamnat	*[21]	_	_	_	_	_	
+16-47	1524-1525	i	*[21]	_	_	_	_	_	
+16-48	1526-1536	marginalen	*[21]	_	_	_	_	_	
+16-49	1536-1537	.	_	_	_	_	_	_	
+
+#Text=Det är ett problem att ta på allvar, oavsett vad vi tycker om orden.
+17-1	1538-1541	Det	*	_	_	_	_	_	
+17-2	1542-1544	är	_	_	_	_	_	_	
+17-3	1545-1548	ett	_	_	_	_	_	_	
+17-4	1549-1556	problem	_	Target	17-1	false	2	_	
+17-5	1557-1560	att	_	_	_	_	_	_	
+17-6	1561-1563	ta	_	_	_	_	_	_	
+17-7	1564-1566	på	_	_	_	_	_	_	
+17-8	1567-1573	allvar	_	_	_	_	_	_	
+17-9	1573-1574	,	_	_	_	_	_	_	
+17-10	1575-1582	oavsett	_	_	_	_	_	_	
+17-11	1583-1586	vad	_	_	_	_	_	_	
+17-12	1587-1589	vi	_	_	_	_	_	_	
+17-13	1590-1596	tycker	_	_	_	_	_	_	
+17-14	1597-1599	om	_	_	_	_	_	_	
+17-15	1600-1605	orden	_	_	_	_	_	_	
+17-16	1605-1606	.	_	_	_	_	_	_	
+
+#Text=Den som hörs mest är nämligen inte alltid den som är mest representativ.
+18-1	1607-1610	Den	_	_	_	_	_	_	
+18-2	1611-1614	som	_	_	_	_	_	_	
+18-3	1615-1619	hörs	_	_	_	_	_	_	
+18-4	1620-1624	mest	_	_	_	_	_	_	
+18-5	1625-1627	är	_	_	_	_	_	_	
+18-6	1628-1636	nämligen	_	_	_	_	_	_	
+18-7	1637-1641	inte	_	_	_	_	_	_	
+18-8	1642-1648	alltid	_	_	_	_	_	_	
+18-9	1649-1652	den	_	_	_	_	_	_	
+18-10	1653-1656	som	_	_	_	_	_	_	
+18-11	1657-1659	är	_	_	_	_	_	_	
+18-12	1660-1664	mest	_	_	_	_	_	_	
+18-13	1665-1678	representativ	_	_	_	_	_	_	
+18-14	1678-1679	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1681-1682	#	_	_	_	_	_	_	
+19-2	1682-1683	P	_	_	_	_	_	_	
+19-3	1684-1687	IMM	_	_	_	_	_	_	
+19-4	1687-1688	.	_	_	_	_	_	_	
+
+#Text=Ivar Arpi.
+20-1	1690-1694	Ivar	_	_	_	_	_	_	
+20-2	1695-1699	Arpi	_	_	_	_	_	_	
+20-3	1699-1700	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1702-1703	#	_	_	_	_	_	_	
+21-2	1703-1704	P	_	_	_	_	_	_	
+21-3	1705-1708	IMM	_	_	_	_	_	_	
+21-4	1708-1709	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+22-1	1711-1716	FAKTA	_	_	_	_	_	_	
+22-2	1716-1717	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1719-1720	#	_	_	_	_	_	_	
+23-2	1720-1721	P	_	_	_	_	_	_	
+23-3	1722-1725	IMM	_	_	_	_	_	_	
+23-4	1725-1726	.	_	_	_	_	_	_	
+
+#Text=REN:.
+24-1	1728-1731	REN	_	_	_	_	_	_	
+24-2	1731-1732	:	_	_	_	_	_	_	
+24-3	1732-1733	.	_	_	_	_	_	_	

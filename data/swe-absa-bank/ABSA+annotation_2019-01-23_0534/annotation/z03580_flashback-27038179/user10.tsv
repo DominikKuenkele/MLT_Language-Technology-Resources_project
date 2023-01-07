@@ -1,0 +1,251 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Turkar är sveriges bästa invandrare!
+3-1	18-24	Turkar	*	_	_	_	_	_	
+3-2	25-27	är	_	_	_	_	_	_	
+3-3	28-36	sveriges	_	Target[1]	3-1	false[1]	5[1]	_	
+3-4	37-42	bästa	_	Target[1]	3-1	false[1]	5[1]	_	
+3-5	43-53	invandrare	_	Target[1]	3-1	false[1]	5[1]	_	
+3-6	53-54	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Jag har märkt att turkar är ett riktigt bra folkslag i sverige. varför hatar ni dom så mkt?.
+5-1	65-68	Jag	_	_	_	_	_	_	
+5-2	69-72	har	_	_	_	_	_	_	
+5-3	73-78	märkt	_	_	_	_	_	_	
+5-4	79-82	att	_	_	_	_	_	_	
+5-5	83-89	turkar	*[6]|*[7]	_	_	_	_	5-17[0_6]	
+5-6	90-92	är	_	_	_	_	_	_	
+5-7	93-96	ett	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-8	97-104	riktigt	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-9	105-108	bra	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-10	109-117	folkslag	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-11	118-119	i	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-12	120-127	sverige	_	Target[2]	5-5[6]	false[2]	5[2]	_	
+5-13	127-128	.	_	_	_	_	_	_	
+5-14	129-135	varför	_	_	_	_	_	_	
+5-15	136-141	hatar	_	Target;Source	5-17;5-16	false	1	_	
+5-16	142-144	ni	*	_	_	_	_	_	
+5-17	145-148	dom	*	_	_	_	_	_	
+5-18	149-151	så	_	_	_	_	_	_	
+5-19	152-155	mkt	_	_	_	_	_	_	
+5-20	155-156	?	_	_	_	_	_	_	
+5-21	156-157	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	159-160	#	_	_	_	_	_	_	
+6-2	160-161	P	_	_	_	_	_	_	
+6-3	162-165	IMM	_	_	_	_	_	_	
+6-4	165-166	.	_	_	_	_	_	_	
+
+#Text=Alla idioter som laserturken, skogsturken osv, dom är inte turkar.
+7-1	168-172	Alla	_	_	_	_	_	_	
+7-2	173-180	idioter	_	Target;Target	7-4;7-6	false	1	_	
+7-3	181-184	som	_	_	_	_	_	_	
+7-4	185-196	laserturken	*	_	_	_	_	_	
+7-5	196-197	,	_	_	_	_	_	_	
+7-6	198-209	skogsturken	*	_	_	_	_	_	
+7-7	210-213	osv	_	_	_	_	_	_	
+7-8	213-214	,	_	_	_	_	_	_	
+7-9	215-218	dom	_	_	_	_	_	_	
+7-10	219-221	är	_	_	_	_	_	_	
+7-11	222-226	inte	_	_	_	_	_	_	
+7-12	227-233	turkar	_	_	_	_	_	_	
+7-13	233-234	.	_	_	_	_	_	_	
+
+#Text=Turkar är lugna och sköna trevliga generösa.
+8-1	235-241	Turkar	*	_	_	_	_	_	
+8-2	242-244	är	_	_	_	_	_	_	
+8-3	245-250	lugna	_	Target[3]	8-1	false[3]	5[3]	_	
+8-4	251-254	och	_	Target[3]	8-1	false[3]	5[3]	_	
+8-5	255-260	sköna	_	Target[3]	8-1	false[3]	5[3]	_	
+8-6	261-269	trevliga	_	Target[3]	8-1	false[3]	5[3]	_	
+8-7	270-278	generösa	_	Target[3]	8-1	false[3]	5[3]	_	
+8-8	278-279	.	_	_	_	_	_	_	
+
+#Text=Turkarna är så trevliga att det inte är sant.
+9-1	280-288	Turkarna	*	_	_	_	_	_	
+9-2	289-291	är	_	_	_	_	_	_	
+9-3	292-294	så	_	Target[4]	9-1	false[4]	5[4]	_	
+9-4	295-303	trevliga	_	Target[4]	9-1	false[4]	5[4]	_	
+9-5	304-307	att	_	Target[4]	9-1	false[4]	5[4]	_	
+9-6	308-311	det	_	Target[4]	9-1	false[4]	5[4]	_	
+9-7	312-316	inte	_	Target[4]	9-1	false[4]	5[4]	_	
+9-8	317-319	är	_	Target[4]	9-1	false[4]	5[4]	_	
+9-9	320-324	sant	_	Target[4]	9-1	false[4]	5[4]	_	
+9-10	324-325	.	_	_	_	_	_	_	
+
+#Text=Det är irakierna araberna iranier som förstår turkars rykte genom att var vildingsdjur.
+10-1	326-329	Det	_	_	_	_	_	_	
+10-2	330-332	är	_	_	_	_	_	_	
+10-3	333-342	irakierna	*	_	_	_	_	_	
+10-4	343-351	araberna	*	_	_	_	_	_	
+10-5	352-359	iranier	*	_	_	_	_	_	
+10-6	360-363	som	_	_	_	_	_	_	
+10-7	364-371	förstår	_	_	_	_	_	_	
+10-8	372-379	turkars	_	_	_	_	_	_	
+10-9	380-385	rykte	_	_	_	_	_	_	
+10-10	386-391	genom	_	_	_	_	_	_	
+10-11	392-395	att	_	_	_	_	_	_	
+10-12	396-399	var	_	_	_	_	_	_	
+10-13	400-412	vildingsdjur	_	Target;Target;Target	10-4;10-5;10-3	false	1	_	
+10-14	412-413	.	_	_	_	_	_	_	
+
+#Text=Det är negrarna somalierna nordafrikansk apporna och andra idioter som våldtar med dom svenska flickorna och bränner gör brott osv.
+11-1	414-417	Det	_	_	_	_	_	_	
+11-2	418-420	är	_	_	_	_	_	_	
+11-3	421-429	negrarna	*[8]|*[9]	Target	11-3[8]	false	1	_	
+11-4	430-440	somalierna	*	_	_	_	_	_	
+11-5	441-454	nordafrikansk	*[10]	_	_	_	_	_	
+11-6	455-462	apporna	*[10]	_	_	_	_	_	
+11-7	463-466	och	_	_	_	_	_	_	
+11-8	467-472	andra	_	_	_	_	_	_	
+11-9	473-480	idioter	_	Target;Target;Target	11-4;11-5[10];11-3[9]	false	1	_	
+11-10	481-484	som	_	_	_	_	_	_	
+11-11	485-492	våldtar	_	_	_	_	_	_	
+11-12	493-496	med	_	_	_	_	_	_	
+11-13	497-500	dom	_	_	_	_	_	_	
+11-14	501-508	svenska	_	_	_	_	_	_	
+11-15	509-518	flickorna	_	_	_	_	_	_	
+11-16	519-522	och	_	_	_	_	_	_	
+11-17	523-530	bränner	_	_	_	_	_	_	
+11-18	531-534	gör	_	_	_	_	_	_	
+11-19	535-540	brott	_	_	_	_	_	_	
+11-20	541-544	osv	_	_	_	_	_	_	
+11-21	544-545	.	_	_	_	_	_	_	
+
+#Text=Speciellt kurderna har jag märkt, de gör allt för att förstöra för de guld turkarnas rykte.
+12-1	546-555	Speciellt	_	_	_	_	_	_	
+12-2	556-564	kurderna	_	_	_	_	_	_	
+12-3	565-568	har	_	_	_	_	_	_	
+12-4	569-572	jag	_	_	_	_	_	_	
+12-5	573-578	märkt	_	_	_	_	_	_	
+12-6	578-579	,	_	_	_	_	_	_	
+12-7	580-582	de	_	_	_	_	_	_	
+12-8	583-586	gör	_	_	_	_	_	_	
+12-9	587-591	allt	_	_	_	_	_	_	
+12-10	592-595	för	_	_	_	_	_	_	
+12-11	596-599	att	_	_	_	_	_	_	
+12-12	600-608	förstöra	_	_	_	_	_	_	
+12-13	609-612	för	_	_	_	_	_	_	
+12-14	613-615	de	_	_	_	_	_	_	
+12-15	616-620	guld	_	_	_	_	_	_	
+12-16	621-630	turkarnas	_	_	_	_	_	_	
+12-17	631-636	rykte	_	_	_	_	_	_	
+12-18	636-637	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	639-640	#	_	_	_	_	_	_	
+13-2	640-641	P	_	_	_	_	_	_	
+13-3	642-645	IMM	_	_	_	_	_	_	
+13-4	645-646	.	_	_	_	_	_	_	
+
+#Text=Min fråga: Håller ni med mig.
+14-1	648-651	Min	_	_	_	_	_	_	
+14-2	652-657	fråga	_	_	_	_	_	_	
+14-3	657-658	:	_	_	_	_	_	_	
+14-4	659-665	Håller	_	_	_	_	_	_	
+14-5	666-668	ni	_	_	_	_	_	_	
+14-6	669-672	med	_	_	_	_	_	_	
+14-7	673-676	mig	_	_	_	_	_	_	
+14-8	676-677	.	_	_	_	_	_	_	
+
+#Text=(tänk ordentligt efter innan ni svarar) och varför tror ni turkar fått ett så dåligt rykte.
+15-1	678-679	(	_	_	_	_	_	_	
+15-2	679-683	tänk	_	_	_	_	_	_	
+15-3	684-694	ordentligt	_	_	_	_	_	_	
+15-4	695-700	efter	_	_	_	_	_	_	
+15-5	701-706	innan	_	_	_	_	_	_	
+15-6	707-709	ni	_	_	_	_	_	_	
+15-7	710-716	svarar	_	_	_	_	_	_	
+15-8	716-717	)	_	_	_	_	_	_	
+15-9	718-721	och	_	_	_	_	_	_	
+15-10	722-728	varför	_	_	_	_	_	_	
+15-11	729-733	tror	_	_	_	_	_	_	
+15-12	734-736	ni	_	_	_	_	_	_	
+15-13	737-743	turkar	*	_	_	_	_	_	
+15-14	744-748	fått	_	Target;Source[5]	15-13;15-19	false[5]	1[5]	_	
+15-15	749-752	ett	_	Target;Source[5]	15-13;15-19	false[5]	1[5]	_	
+15-16	753-755	så	_	Target;Source[5]	15-13;15-19	false[5]	1[5]	_	
+15-17	756-762	dåligt	_	Target;Source[5]	15-13;15-19	false[5]	1[5]	_	
+15-18	763-768	rykte	_	Target;Source[5]	15-13;15-19	false[5]	1[5]	_	
+15-19	768-769	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	771-772	#	_	_	_	_	_	_	
+16-2	772-773	P	_	_	_	_	_	_	
+16-3	774-777	IMM	_	_	_	_	_	_	
+16-4	777-778	.	_	_	_	_	_	_	
+
+#Text=Innan ni säger något så har jag redan en medhållare:.
+17-1	780-785	Innan	_	_	_	_	_	_	
+17-2	786-788	ni	_	_	_	_	_	_	
+17-3	789-794	säger	_	_	_	_	_	_	
+17-4	795-800	något	_	_	_	_	_	_	
+17-5	801-803	så	_	_	_	_	_	_	
+17-6	804-807	har	_	_	_	_	_	_	
+17-7	808-811	jag	_	_	_	_	_	_	
+17-8	812-817	redan	_	_	_	_	_	_	
+17-9	818-820	en	_	_	_	_	_	_	
+17-10	821-831	medhållare	_	_	_	_	_	_	
+17-11	831-832	:	_	_	_	_	_	_	
+17-12	832-833	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	835-836	#	_	_	_	_	_	_	
+18-2	836-837	P	_	_	_	_	_	_	
+18-3	838-841	IMM	_	_	_	_	_	_	
+18-4	841-842	.	_	_	_	_	_	_	
+
+#Text=Jag menar turkar som kommer från turkiet, inte kurder från turkiet, inte syrier/assyirer från turkiet, inte de med något annat som typ jugoslaver ursprung.
+19-1	844-847	Jag	_	_	_	_	_	_	
+19-2	848-853	menar	_	_	_	_	_	_	
+19-3	854-860	turkar	_	_	_	_	_	_	
+19-4	861-864	som	_	_	_	_	_	_	
+19-5	865-871	kommer	_	_	_	_	_	_	
+19-6	872-876	från	_	_	_	_	_	_	
+19-7	877-884	turkiet	_	_	_	_	_	_	
+19-8	884-885	,	_	_	_	_	_	_	
+19-9	886-890	inte	_	_	_	_	_	_	
+19-10	891-897	kurder	_	_	_	_	_	_	
+19-11	898-902	från	_	_	_	_	_	_	
+19-12	903-910	turkiet	_	_	_	_	_	_	
+19-13	910-911	,	_	_	_	_	_	_	
+19-14	912-916	inte	_	_	_	_	_	_	
+19-15	917-923	syrier	_	_	_	_	_	_	
+19-16	923-924	/	_	_	_	_	_	_	
+19-17	924-932	assyirer	_	_	_	_	_	_	
+19-18	933-937	från	_	_	_	_	_	_	
+19-19	938-945	turkiet	_	_	_	_	_	_	
+19-20	945-946	,	_	_	_	_	_	_	
+19-21	947-951	inte	_	_	_	_	_	_	
+19-22	952-954	de	_	_	_	_	_	_	
+19-23	955-958	med	_	_	_	_	_	_	
+19-24	959-964	något	_	_	_	_	_	_	
+19-25	965-970	annat	_	_	_	_	_	_	
+19-26	971-974	som	_	_	_	_	_	_	
+19-27	975-978	typ	_	_	_	_	_	_	
+19-28	979-989	jugoslaver	_	_	_	_	_	_	
+19-29	990-998	ursprung	_	_	_	_	_	_	
+19-30	998-999	.	_	_	_	_	_	_	

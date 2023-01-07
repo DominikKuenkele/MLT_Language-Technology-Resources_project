@@ -1,0 +1,768 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hökmark: C och L sviker sitt demokratiska uppdrag.
+3-1	18-25	Hökmark	*	_	_	_	_	_	_	
+3-2	25-26	:	_	_	_	_	_	_	_	
+3-3	27-28	C	*	_	_	_	_	_	_	
+3-4	29-32	och	_	_	_	_	_	_	_	
+3-5	33-34	L	*	_	_	_	_	_	_	
+3-6	35-41	sviker	_	Target;Target;Source[1]	3-3;3-5;3-1	false[1]	2[1]	_	_	
+3-7	42-46	sitt	_	Target;Target;Source[1]	3-3;3-5;3-1	false[1]	2[1]	_	_	
+3-8	47-59	demokratiska	_	Target;Target;Source[1]	3-3;3-5;3-1	false[1]	2[1]	_	_	
+3-9	60-67	uppdrag	_	Target;Target;Source[1]	3-3;3-5;3-1	false[1]	2[1]	_	_	
+3-10	67-68	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	70-71	#	_	_	_	_	_	_	_	
+4-2	71-72	P	_	_	_	_	_	_	_	
+4-3	73-76	IMM	_	_	_	_	_	_	_	
+4-4	76-77	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har under Transportstyrelsens fatala it-skandal visat på en oförmåga att hantera en för Sverige svår säkerhetskris.
+5-1	79-89	Regeringen	_	_	_	_	_	_	_	
+5-2	90-93	har	_	_	_	_	_	_	_	
+5-3	94-99	under	_	_	_	_	_	_	_	
+5-4	100-119	Transportstyrelsens	*	_	_	_	_	_	_	
+5-5	120-126	fatala	_	Target[2]	5-4	false[2]	1[2]	_	_	
+5-6	127-137	it-skandal	_	Target[2]	5-4	false[2]	1[2]	_	_	
+5-7	138-143	visat	_	_	_	_	_	_	_	
+5-8	144-146	på	_	_	_	_	_	_	_	
+5-9	147-149	en	_	_	_	_	_	_	_	
+5-10	150-158	oförmåga	*	Target	5-10	false	2	_	_	
+5-11	159-162	att	_	_	_	_	_	_	_	
+5-12	163-170	hantera	_	_	_	_	_	_	_	
+5-13	171-173	en	_	_	_	_	_	_	_	
+5-14	174-177	för	_	_	_	_	_	_	_	
+5-15	178-185	Sverige	_	_	_	_	_	_	_	
+5-16	186-190	svår	*[18]	Target[3]	5-16[18]	false[3]	1[3]	_	_	
+5-17	191-204	säkerhetskris	*[18]	Target[3]	5-16[18]	false[3]	1[3]	_	_	
+5-18	204-205	.	_	_	_	_	_	_	_	
+
+#Text=Nu behöver Centerpartiet och Liberalerna bära sitt ansvar och rösta bort denna skadliga regeringspolitik.
+6-1	206-208	Nu	_	_	_	_	_	_	_	
+6-2	209-216	behöver	_	_	_	_	_	_	_	
+6-3	217-230	Centerpartiet	_	_	_	_	_	_	_	
+6-4	231-234	och	_	_	_	_	_	_	_	
+6-5	235-246	Liberalerna	_	_	_	_	_	_	_	
+6-6	247-251	bära	_	_	_	_	_	_	_	
+6-7	252-256	sitt	_	_	_	_	_	_	_	
+6-8	257-263	ansvar	_	_	_	_	_	_	_	
+6-9	264-267	och	_	_	_	_	_	_	_	
+6-10	268-273	rösta	_	_	_	_	_	_	_	
+6-11	274-278	bort	_	_	_	_	_	_	_	
+6-12	279-284	denna	_	Target[4]	6-14	false[4]	1[4]	_	_	
+6-13	285-293	skadliga	_	Target[4]	6-14	false[4]	1[4]	_	_	
+6-14	294-310	regeringspolitik	*	_	_	_	_	_	_	
+6-15	310-311	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver Gunnar Hökmark (M).
+7-1	312-315	Det	_	_	_	_	_	_	_	
+7-2	316-323	skriver	_	_	_	_	_	_	_	
+7-3	324-330	Gunnar	_	_	_	_	_	_	_	
+7-4	331-338	Hökmark	_	_	_	_	_	_	_	
+7-5	339-340	(	_	_	_	_	_	_	_	
+7-6	340-341	M	_	_	_	_	_	_	_	
+7-7	341-342	)	_	_	_	_	_	_	_	
+7-8	342-343	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	345-346	#	_	_	_	_	_	_	_	
+8-2	346-347	P	_	_	_	_	_	_	_	
+8-3	348-351	IMM	_	_	_	_	_	_	_	
+8-4	351-352	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens oförmåga att hantera situationen efter it-skandalen är lika allvarlig som haveriet i sig.
+9-1	354-365	Regeringens	*[19]	_	_	_	_	_	_	
+9-2	366-374	oförmåga	*[19]	_	_	_	_	_	_	
+9-3	375-378	att	*[19]	_	_	_	_	_	_	
+9-4	379-386	hantera	*[19]	_	_	_	_	_	_	
+9-5	387-398	situationen	*[19]	_	_	_	_	_	_	
+9-6	399-404	efter	*[19]	_	_	_	_	_	_	
+9-7	405-417	it-skandalen	*[19]	_	_	_	_	_	_	
+9-8	418-420	är	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-9	421-425	lika	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-10	426-435	allvarlig	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-11	436-439	som	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-12	440-448	haveriet	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-13	449-450	i	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-14	451-454	sig	_	Target[5]	9-1[19]	false[5]	1[5]	_	_	
+9-15	454-455	.	_	_	_	_	_	_	_	
+
+#Text=Trots att Säpo redan hösten 2015 varnade myndigheten för att den begick brott mot svensk säkerhet hände inget.
+10-1	456-461	Trots	_	_	_	_	_	_	_	
+10-2	462-465	att	_	_	_	_	_	_	_	
+10-3	466-470	Säpo	_	_	_	_	_	_	_	
+10-4	471-476	redan	_	_	_	_	_	_	_	
+10-5	477-483	hösten	_	_	_	_	_	_	_	
+10-6	484-488	2015	_	_	_	_	_	_	_	
+10-7	489-496	varnade	_	_	_	_	_	_	_	
+10-8	497-508	myndigheten	_	_	_	_	_	_	_	
+10-9	509-512	för	_	_	_	_	_	_	_	
+10-10	513-516	att	_	_	_	_	_	_	_	
+10-11	517-520	den	_	_	_	_	_	_	_	
+10-12	521-527	begick	_	_	_	_	_	_	_	
+10-13	528-533	brott	_	_	_	_	_	_	_	
+10-14	534-537	mot	_	_	_	_	_	_	_	
+10-15	538-544	svensk	_	_	_	_	_	_	_	
+10-16	545-553	säkerhet	_	_	_	_	_	_	_	
+10-17	554-559	hände	_	_	_	_	_	_	_	
+10-18	560-565	inget	_	_	_	_	_	_	_	
+10-19	565-566	.	_	_	_	_	_	_	_	
+
+#Text=Det kan inte bortförklaras med en persons bristande ansvarstagande utan är en del av ett mönster av senfärdighet, passivitet, och handfallenhet.
+11-1	567-570	Det	_	_	_	_	_	_	_	
+11-2	571-574	kan	_	_	_	_	_	_	_	
+11-3	575-579	inte	_	_	_	_	_	_	_	
+11-4	580-593	bortförklaras	*	Target	11-4	false	2	_	_	
+11-5	594-597	med	_	_	_	_	_	_	_	
+11-6	598-600	en	_	_	_	_	_	_	_	
+11-7	601-608	persons	_	_	_	_	_	_	_	
+11-8	609-618	bristande	_	_	_	_	_	_	_	
+11-9	619-633	ansvarstagande	_	_	_	_	_	_	_	
+11-10	634-638	utan	_	_	_	_	_	_	_	
+11-11	639-641	är	_	_	_	_	_	_	_	
+11-12	642-644	en	_	_	_	_	_	_	_	
+11-13	645-648	del	_	_	_	_	_	_	_	
+11-14	649-651	av	_	_	_	_	_	_	_	
+11-15	652-655	ett	_	_	_	_	_	_	_	
+11-16	656-663	mönster	_	_	_	_	_	_	_	
+11-17	664-666	av	_	_	_	_	_	_	_	
+11-18	667-679	senfärdighet	*	Target	11-18	false	2	_	_	
+11-19	679-680	,	_	_	_	_	_	_	_	
+11-20	681-691	passivitet	_	_	_	_	_	_	_	
+11-21	691-692	,	_	_	_	_	_	_	_	
+11-22	693-696	och	_	_	_	_	_	_	_	
+11-23	697-710	handfallenhet	*	Target	11-23	false	2	_	_	
+11-24	710-711	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	713-714	#	_	_	_	_	_	_	_	
+12-2	714-715	P	_	_	_	_	_	_	_	
+12-3	716-719	IMM	_	_	_	_	_	_	_	
+12-4	719-720	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+13-1	722-725	Det	_	_	_	_	_	_	_	
+13-2	726-729	här	_	_	_	_	_	_	_	
+13-3	730-732	är	_	_	_	_	_	_	_	
+13-4	733-735	en	_	_	_	_	_	_	_	
+13-5	736-750	argumenterande	_	_	_	_	_	_	_	
+13-6	751-755	text	_	_	_	_	_	_	_	
+13-7	756-759	med	_	_	_	_	_	_	_	
+13-8	760-765	syfte	_	_	_	_	_	_	_	
+13-9	766-769	att	_	_	_	_	_	_	_	
+13-10	770-777	påverka	_	_	_	_	_	_	_	
+13-11	777-778	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+14-1	779-788	Åsikterna	_	_	_	_	_	_	_	
+14-2	789-792	som	_	_	_	_	_	_	_	
+14-3	793-801	uttrycks	_	_	_	_	_	_	_	
+14-4	802-804	är	_	_	_	_	_	_	_	
+14-5	805-816	skribentens	_	_	_	_	_	_	_	
+14-6	817-821	egna	_	_	_	_	_	_	_	
+14-7	821-822	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	824-825	#	_	_	_	_	_	_	_	
+15-2	825-826	P	_	_	_	_	_	_	_	
+15-3	827-830	IMM	_	_	_	false	3	_	_	
+15-4	830-831	.	_	_	_	_	_	_	_	
+
+#Text=Under den stora flykting- och invandrarvågen 2015 agerade regeringen utifrån helt andra prognoser för flyktinginvandringen än vad ansvariga myndigheter hade gett.
+16-1	833-838	Under	_	_	_	_	_	_	_	
+16-2	839-842	den	_	_	_	_	_	_	_	
+16-3	843-848	stora	_	_	_	_	_	_	_	
+16-4	849-857	flykting	_	_	_	_	_	_	_	
+16-5	857-858	-	_	_	_	_	_	_	_	
+16-6	859-862	och	_	_	_	_	_	_	_	
+16-7	863-877	invandrarvågen	_	_	_	_	_	_	_	
+16-8	878-882	2015	_	_	_	_	_	_	_	
+16-9	883-890	agerade	_	_	_	_	_	_	_	
+16-10	891-901	regeringen	_	_	_	_	_	_	_	
+16-11	902-909	utifrån	_	_	_	_	_	_	_	
+16-12	910-914	helt	_	_	_	_	_	_	_	
+16-13	915-920	andra	_	_	_	_	_	_	_	
+16-14	921-930	prognoser	_	_	_	_	_	_	_	
+16-15	931-934	för	_	_	_	_	_	_	_	
+16-16	935-955	flyktinginvandringen	_	_	_	_	_	_	_	
+16-17	956-958	än	_	_	_	_	_	_	_	
+16-18	959-962	vad	_	_	_	_	_	_	_	
+16-19	963-972	ansvariga	_	_	_	_	_	_	_	
+16-20	973-984	myndigheter	_	_	_	_	_	_	_	
+16-21	985-989	hade	_	_	_	_	_	_	_	
+16-22	990-994	gett	_	_	_	_	_	_	_	
+16-23	994-995	.	_	_	_	_	_	_	_	
+
+#Text=In i det sista talade statsministern – mot befintlig information i regeringskansliet – om att det inte fanns några begränsningar för svenskt flyktingmottagande.
+17-1	996-998	In	_	_	_	_	_	_	_	
+17-2	999-1000	i	_	_	_	_	_	_	_	
+17-3	1001-1004	det	_	_	_	_	_	_	_	
+17-4	1005-1010	sista	_	_	_	_	_	_	_	
+17-5	1011-1017	talade	_	_	_	_	_	_	_	
+17-6	1018-1032	statsministern	_	_	_	_	_	_	_	
+17-7	1033-1034	–	_	_	_	_	_	_	_	
+17-8	1035-1038	mot	_	_	_	_	_	_	_	
+17-9	1039-1048	befintlig	_	_	_	_	_	_	_	
+17-10	1049-1060	information	_	_	_	_	_	_	_	
+17-11	1061-1062	i	_	_	_	_	_	_	_	
+17-12	1063-1080	regeringskansliet	_	_	_	_	_	_	_	
+17-13	1081-1082	–	_	_	_	_	_	_	_	
+17-14	1083-1085	om	_	_	_	_	_	_	_	
+17-15	1086-1089	att	_	_	_	_	_	_	_	
+17-16	1090-1093	det	_	_	_	_	_	_	_	
+17-17	1094-1098	inte	_	_	_	_	_	_	_	
+17-18	1099-1104	fanns	_	_	_	_	_	_	_	
+17-19	1105-1110	några	_	_	_	_	_	_	_	
+17-20	1111-1124	begränsningar	_	_	_	_	_	_	_	
+17-21	1125-1128	för	_	_	_	_	_	_	_	
+17-22	1129-1136	svenskt	_	_	_	_	_	_	_	
+17-23	1137-1155	flyktingmottagande	_	_	_	_	_	_	_	
+17-24	1155-1156	.	_	_	_	_	_	_	_	
+
+#Text=Först när situationen blev ohållbar (med allvarliga konsekvenser för svenskt flyktingmottagande och integration) panikbromsade regeringen.
+18-1	1157-1162	Först	_	_	_	_	_	_	_	
+18-2	1163-1166	när	_	_	_	_	_	_	_	
+18-3	1167-1178	situationen	*[20]	Target[6]	18-3[20]	false[6]	1[6]	_	_	
+18-4	1179-1183	blev	*[20]	Target[6]	18-3[20]	false[6]	1[6]	_	_	
+18-5	1184-1192	ohållbar	*[20]	Target[6]	18-3[20]	false[6]	1[6]	_	_	
+18-6	1193-1194	(	_	_	_	_	_	_	_	
+18-7	1194-1197	med	_	_	_	_	_	_	_	
+18-8	1198-1208	allvarliga	*[21]	Target[7]	18-8[21]	false[7]	1[7]	_	_	
+18-9	1209-1221	konsekvenser	*[21]	Target[7]	18-8[21]	false[7]	1[7]	_	_	
+18-10	1222-1225	för	_	_	_	_	_	_	_	
+18-11	1226-1233	svenskt	_	_	_	_	_	_	_	
+18-12	1234-1252	flyktingmottagande	_	_	_	_	_	_	_	
+18-13	1253-1256	och	_	_	_	_	_	_	_	
+18-14	1257-1268	integration	_	_	_	_	_	_	_	
+18-15	1268-1269	)	_	_	_	_	_	_	_	
+18-16	1270-1283	panikbromsade	*	Target	18-16	false	2	_	_	
+18-17	1284-1294	regeringen	_	_	_	_	_	_	_	
+18-18	1294-1295	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1297-1298	#	_	_	_	_	_	_	_	
+19-2	1298-1299	P	_	_	_	_	_	_	_	
+19-3	1300-1303	IMM	_	_	_	_	_	_	_	
+19-4	1303-1304	.	_	_	_	_	_	_	_	
+
+#Text=Framväxten av kriminalitet och utanförskapsområden dit den svenska rättsstaten inte når är också  en del i detta.
+20-1	1306-1316	Framväxten	*[22]	_	_	_	_	_	21-1[0_22]	
+20-2	1317-1319	av	*[22]	_	_	_	_	_	_	
+20-3	1320-1332	kriminalitet	*[22]	_	_	_	_	_	_	
+20-4	1333-1336	och	*[22]	_	_	_	_	_	_	
+20-5	1337-1356	utanförskapsområden	*[22]|*[23]	Target	20-5[23]	false	2	_	_	
+20-6	1357-1360	dit	_	_	_	_	_	_	_	
+20-7	1361-1364	den	_	_	_	_	_	_	_	
+20-8	1365-1372	svenska	_	_	_	_	_	_	_	
+20-9	1373-1384	rättsstaten	_	_	_	_	_	_	_	
+20-10	1385-1389	inte	_	_	_	_	_	_	_	
+20-11	1390-1393	når	_	_	_	_	_	_	_	
+20-12	1394-1396	är	_	_	_	_	_	_	_	
+20-13	1397-1402	också	_	_	_	_	_	_	_	
+20-14	1404-1406	en	_	_	_	_	_	_	_	
+20-15	1407-1410	del	_	_	_	_	_	_	_	
+20-16	1411-1412	i	_	_	_	_	_	_	_	
+20-17	1413-1418	detta	_	_	_	_	_	_	_	
+20-18	1418-1419	.	_	_	_	_	_	_	_	
+
+#Text=Det drabbat människor som flytt från våld och förtryck och utgör ett hot mot hela vårt samhälles trygghet och stabilitet.
+21-1	1420-1423	Det	*	_	_	_	_	_	_	
+21-2	1424-1431	drabbat	_	Source;Target	21-3[24];21-1	false	2	_	_	
+21-3	1432-1441	människor	*[24]	_	_	_	_	_	_	
+21-4	1442-1445	som	*[24]	_	_	_	_	_	_	
+21-5	1446-1451	flytt	*[24]	_	_	_	_	_	_	
+21-6	1452-1456	från	*[24]	_	_	_	_	_	_	
+21-7	1457-1461	våld	*[24]	_	_	_	_	_	_	
+21-8	1462-1465	och	*[24]	_	_	_	_	_	_	
+21-9	1466-1474	förtryck	*[24]	_	_	_	_	_	_	
+21-10	1475-1478	och	_	_	_	_	_	_	_	
+21-11	1479-1484	utgör	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-12	1485-1488	ett	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-13	1489-1492	hot	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-14	1493-1496	mot	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-15	1497-1501	hela	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-16	1502-1506	vårt	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-17	1507-1516	samhälles	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-18	1517-1525	trygghet	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-19	1526-1529	och	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-20	1530-1540	stabilitet	_	Target[8]	21-1	false[8]	1[8]	_	_	
+21-21	1540-1541	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen  accepterar likväl att polisen runt om i det svenska samhället saknar ledning, resurser, organisation och stöd för att med kraft bekämpa denna kriminalitet.
+22-1	1542-1552	Regeringen	*	_	_	_	_	_	_	
+22-2	1554-1564	accepterar	_	Target;Source	22-4[25];22-1	false	3	_	_	
+22-3	1565-1571	likväl	_	_	_	_	_	_	_	
+22-4	1572-1575	att	*[25]	_	_	_	_	_	_	
+22-5	1576-1583	polisen	*[25]	_	_	_	_	_	_	
+22-6	1584-1588	runt	*[25]	_	_	_	_	_	_	
+22-7	1589-1591	om	*[25]	_	_	_	_	_	_	
+22-8	1592-1593	i	*[25]	_	_	_	_	_	_	
+22-9	1594-1597	det	*[25]	_	_	_	_	_	_	
+22-10	1598-1605	svenska	*[25]	_	_	_	_	_	_	
+22-11	1606-1615	samhället	*[25]	_	_	_	_	_	_	
+22-12	1616-1622	saknar	*[25]	_	_	_	_	_	_	
+22-13	1623-1630	ledning	*[25]	_	_	_	_	_	_	
+22-14	1630-1631	,	*[25]	_	_	_	_	_	_	
+22-15	1632-1640	resurser	*[25]	_	_	_	_	_	_	
+22-16	1640-1641	,	*[25]	_	_	_	_	_	_	
+22-17	1642-1654	organisation	*[25]	_	_	_	_	_	_	
+22-18	1655-1658	och	*[25]	_	_	_	_	_	_	
+22-19	1659-1663	stöd	*[25]	_	_	_	_	_	_	
+22-20	1664-1667	för	*[25]	_	_	_	_	_	_	
+22-21	1668-1671	att	*[25]	_	_	_	_	_	_	
+22-22	1672-1675	med	*[25]	_	_	_	_	_	_	
+22-23	1676-1681	kraft	*[25]	_	_	_	_	_	_	
+22-24	1682-1689	bekämpa	*[25]	_	_	_	_	_	_	
+22-25	1690-1695	denna	*[25]	_	_	_	_	_	_	
+22-26	1696-1708	kriminalitet	*[25]	_	_	_	_	_	_	
+22-27	1708-1709	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1711-1712	#	_	_	_	_	_	_	_	
+23-2	1712-1713	P	_	_	_	_	_	_	_	
+23-3	1714-1717	IMM	_	_	_	_	_	_	_	
+23-4	1717-1718	.	_	_	_	_	_	_	_	
+
+#Text=Samma oförmåga präglar arbetet mot våldsbejakande extremism.
+24-1	1720-1725	Samma	_	_	_	_	_	_	_	
+24-2	1726-1734	oförmåga	_	Target	22-1	false	2	_	_	
+24-3	1735-1742	präglar	_	_	_	_	_	_	_	
+24-4	1743-1750	arbetet	*[26]	_	_	_	_	_	25-1[0_26]	
+24-5	1751-1754	mot	*[26]	_	_	_	_	_	_	
+24-6	1755-1769	våldsbejakande	*[26]|*[27]	Target[9]	24-6[27]	false[9]	1[9]	_	_	
+24-7	1770-1779	extremism	*[26]|*[27]	Target[9]	24-6[27]	false[9]	1[9]	_	_	
+24-8	1779-1780	.	_	_	_	_	_	_	_	
+
+#Text=Verksamheten är icke-fungerande och ingen trovärdig väg framåt har stakats ut.
+25-1	1781-1793	Verksamheten	*	_	_	_	_	_	_	
+25-2	1794-1796	är	_	_	_	_	_	_	_	
+25-3	1797-1812	icke-fungerande	_	Target	25-1	false	2	_	_	
+25-4	1813-1816	och	_	_	_	_	_	_	_	
+25-5	1817-1822	ingen	*[28]	Target[10]	25-5[28]	false[10]	2[10]	_	_	
+25-6	1823-1832	trovärdig	*[28]	Target[10]	25-5[28]	false[10]	2[10]	_	_	
+25-7	1833-1836	väg	*[28]	Target[10]	25-5[28]	false[10]	2[10]	_	_	
+25-8	1837-1843	framåt	*[28]	Target[10]	25-5[28]	false[10]	2[10]	_	_	
+25-9	1844-1847	har	_	_	_	_	_	_	_	
+25-10	1848-1855	stakats	_	_	_	_	_	_	_	
+25-11	1856-1858	ut	_	_	_	_	_	_	_	
+25-12	1858-1859	.	_	_	_	_	_	_	_	
+
+#Text=Det saknas kompetens och relevanta insatser för att bekämpa extremismen.
+26-1	1860-1863	Det	_	_	_	_	_	_	_	
+26-2	1864-1870	saknas	_	_	_	_	_	_	_	
+26-3	1871-1880	kompetens	_	_	_	_	_	_	_	
+26-4	1881-1884	och	_	_	_	_	_	_	_	
+26-5	1885-1894	relevanta	_	_	_	_	_	_	_	
+26-6	1895-1903	insatser	_	_	_	_	_	_	_	
+26-7	1904-1907	för	_	_	_	_	_	_	_	
+26-8	1908-1911	att	_	_	_	_	_	_	_	
+26-9	1912-1919	bekämpa	_	_	_	_	_	_	_	
+26-10	1920-1931	extremismen	_	_	_	_	_	_	_	
+26-11	1931-1932	.	_	_	_	_	_	_	_	
+
+#Text=Oförmågan leder till en valhänthet i att hantera utresande och hemvändande jihadister.
+27-1	1933-1942	Oförmågan	*	Target	27-1	false	2	_	_	
+27-2	1943-1948	leder	_	_	_	_	_	_	_	
+27-3	1949-1953	till	_	_	_	_	_	_	_	
+27-4	1954-1956	en	_	_	_	_	_	_	_	
+27-5	1957-1967	valhänthet	*	Target	27-5	false	2	_	_	
+27-6	1968-1969	i	_	_	_	_	_	_	_	
+27-7	1970-1973	att	_	_	_	_	_	_	_	
+27-8	1974-1981	hantera	_	_	_	_	_	_	_	
+27-9	1982-1991	utresande	_	_	_	_	_	_	_	
+27-10	1992-1995	och	_	_	_	_	_	_	_	
+27-11	1996-2007	hemvändande	_	_	_	_	_	_	_	
+27-12	2008-2018	jihadister	_	_	_	_	_	_	_	
+27-13	2018-2019	.	_	_	_	_	_	_	_	
+
+#Text=De som har deltagit i IS/Daesh krigföring deltar i ett krig också mot det svenska samhället och bör behandlas därefter.
+28-1	2020-2022	De	_	_	_	_	_	_	_	
+28-2	2023-2026	som	_	_	_	_	_	_	_	
+28-3	2027-2030	har	_	_	_	_	_	_	_	
+28-4	2031-2039	deltagit	_	_	_	_	_	_	_	
+28-5	2040-2041	i	_	_	_	_	_	_	_	
+28-6	2042-2044	IS	_	_	_	_	_	_	_	
+28-7	2044-2045	/	_	_	_	_	_	_	_	
+28-8	2045-2050	Daesh	_	_	_	_	_	_	_	
+28-9	2051-2061	krigföring	_	_	_	_	_	_	_	
+28-10	2062-2068	deltar	_	_	_	_	_	_	_	
+28-11	2069-2070	i	_	_	_	_	_	_	_	
+28-12	2071-2074	ett	_	_	_	_	_	_	_	
+28-13	2075-2079	krig	_	_	_	_	_	_	_	
+28-14	2080-2085	också	_	_	_	_	_	_	_	
+28-15	2086-2089	mot	_	_	_	_	_	_	_	
+28-16	2090-2093	det	_	_	_	_	_	_	_	
+28-17	2094-2101	svenska	_	_	_	_	_	_	_	
+28-18	2102-2111	samhället	_	_	_	_	_	_	_	
+28-19	2112-2115	och	_	_	_	_	_	_	_	
+28-20	2116-2119	bör	_	_	_	_	_	_	_	
+28-21	2120-2129	behandlas	_	_	_	_	_	_	_	
+28-22	2130-2138	därefter	_	_	_	_	_	_	_	
+28-23	2138-2139	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller straff, rätten till pass och återvändande.
+29-1	2140-2143	Det	_	_	_	_	_	_	_	
+29-2	2144-2150	gäller	_	_	_	_	_	_	_	
+29-3	2151-2157	straff	_	_	_	_	_	_	_	
+29-4	2157-2158	,	_	_	_	_	_	_	_	
+29-5	2159-2165	rätten	_	_	_	_	_	_	_	
+29-6	2166-2170	till	_	_	_	_	_	_	_	
+29-7	2171-2175	pass	_	_	_	_	_	_	_	
+29-8	2176-2179	och	_	_	_	_	_	_	_	
+29-9	2180-2192	återvändande	_	_	_	_	_	_	_	
+29-10	2192-2193	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2195-2196	#	_	_	_	_	_	_	_	
+30-2	2196-2197	P	_	_	_	_	_	_	_	
+30-3	2198-2201	IMM	_	_	_	_	_	_	_	
+30-4	2201-2202	.	_	_	_	_	_	_	_	
+
+#Text=Oförmågan att hantera kriser och ta ansvar för säkerheten i det svenska samhället har sina mest uppenbara konsekvenser i försvars- och säkerhetspolitiken.
+31-1	2204-2213	Oförmågan	*[29]	Target[11]	31-1[29]	false[11]	2[11]	_	_	
+31-2	2214-2217	att	*[29]	Target[11]	31-1[29]	false[11]	2[11]	_	_	
+31-3	2218-2225	hantera	*[29]	Target[11]	31-1[29]	false[11]	2[11]	_	_	
+31-4	2226-2232	kriser	*[29]	Target[11]	31-1[29]	false[11]	2[11]	_	_	
+31-5	2233-2236	och	_	_	_	_	_	_	_	
+31-6	2237-2239	ta	_	_	_	_	_	_	_	
+31-7	2240-2246	ansvar	_	_	_	_	_	_	_	
+31-8	2247-2250	för	_	_	_	_	_	_	_	
+31-9	2251-2261	säkerheten	_	_	_	_	_	_	_	
+31-10	2262-2263	i	_	_	_	_	_	_	_	
+31-11	2264-2267	det	_	_	_	_	_	_	_	
+31-12	2268-2275	svenska	_	_	_	_	_	_	_	
+31-13	2276-2285	samhället	_	_	_	_	_	_	_	
+31-14	2286-2289	har	_	_	_	_	_	_	_	
+31-15	2290-2294	sina	_	_	_	_	_	_	_	
+31-16	2295-2299	mest	_	_	_	_	_	_	_	
+31-17	2300-2309	uppenbara	_	_	_	_	_	_	_	
+31-18	2310-2322	konsekvenser	_	_	_	_	_	_	_	
+31-19	2323-2324	i	_	_	_	_	_	_	_	
+31-20	2325-2333	försvars	_	_	_	_	_	_	_	
+31-21	2333-2334	-	_	_	_	_	_	_	_	
+31-22	2335-2338	och	_	_	_	_	_	_	_	
+31-23	2339-2357	säkerhetspolitiken	_	_	_	_	_	_	_	
+31-24	2357-2358	.	_	_	_	_	_	_	_	
+
+#Text=Verkligheten når inte fram till regeringen.
+32-1	2359-2371	Verkligheten	_	_	_	_	_	_	_	
+32-2	2372-2375	når	_	_	_	_	_	_	_	
+32-3	2376-2380	inte	_	_	_	_	_	_	_	
+32-4	2381-2385	fram	_	_	_	_	_	_	_	
+32-5	2386-2390	till	_	_	_	_	_	_	_	
+32-6	2391-2401	regeringen	_	_	_	_	_	_	_	
+32-7	2401-2402	.	_	_	_	_	_	_	_	
+
+#Text=Sedan 2004 har Sverige på felaktiga grunder nedrustat medan Ryssland har upprustat och utvecklat en allt mer aggressiv säkerhets- och utrikespolitik.
+33-1	2403-2408	Sedan	_	_	_	_	_	_	_	
+33-2	2409-2413	2004	_	_	_	_	_	_	_	
+33-3	2414-2417	har	_	_	_	_	_	_	_	
+33-4	2418-2425	Sverige	_	_	_	_	_	_	_	
+33-5	2426-2428	på	_	_	_	_	_	_	_	
+33-6	2429-2438	felaktiga	_	_	_	_	_	_	_	
+33-7	2439-2446	grunder	_	_	_	_	_	_	_	
+33-8	2447-2456	nedrustat	_	_	_	_	_	_	_	
+33-9	2457-2462	medan	_	_	_	_	_	_	_	
+33-10	2463-2471	Ryssland	*	_	_	_	_	_	_	
+33-11	2472-2475	har	_	_	_	_	_	_	_	
+33-12	2476-2485	upprustat	_	_	_	_	_	_	_	
+33-13	2486-2489	och	_	_	_	_	_	_	_	
+33-14	2490-2499	utvecklat	_	_	_	_	_	_	_	
+33-15	2500-2502	en	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-16	2503-2507	allt	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-17	2508-2511	mer	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-18	2512-2521	aggressiv	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-19	2522-2531	säkerhets	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-20	2531-2532	-	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-21	2533-2536	och	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-22	2537-2551	utrikespolitik	_	Target[12]	33-10	false[12]	1[12]	_	_	
+33-23	2551-2552	.	_	_	_	_	_	_	_	
+
+#Text=Invasionen av Georgien och av Ukraina är ett uttryck för detta liksom pågående desinformations- och cyberkrigföring mot den Europeiska unionen, europeiska länder inklusive Sverige liksom USA.
+34-1	2553-2563	Invasionen	_	_	_	_	_	_	_	
+34-2	2564-2566	av	_	_	_	_	_	_	_	
+34-3	2567-2575	Georgien	_	_	_	_	_	_	_	
+34-4	2576-2579	och	_	_	_	_	_	_	_	
+34-5	2580-2582	av	_	_	_	_	_	_	_	
+34-6	2583-2590	Ukraina	_	_	_	_	_	_	_	
+34-7	2591-2593	är	_	_	_	_	_	_	_	
+34-8	2594-2597	ett	_	_	_	_	_	_	_	
+34-9	2598-2605	uttryck	_	_	_	_	_	_	_	
+34-10	2606-2609	för	_	_	_	_	_	_	_	
+34-11	2610-2615	detta	_	_	_	_	_	_	_	
+34-12	2616-2622	liksom	_	_	_	_	_	_	_	
+34-13	2623-2631	pågående	_	_	_	_	_	_	_	
+34-14	2632-2647	desinformations	_	_	_	_	_	_	_	
+34-15	2647-2648	-	_	_	_	_	_	_	_	
+34-16	2649-2652	och	_	_	_	_	_	_	_	
+34-17	2653-2668	cyberkrigföring	_	_	_	_	_	_	_	
+34-18	2669-2672	mot	_	_	_	_	_	_	_	
+34-19	2673-2676	den	_	_	_	_	_	_	_	
+34-20	2677-2687	Europeiska	_	_	_	_	_	_	_	
+34-21	2688-2695	unionen	_	_	_	_	_	_	_	
+34-22	2695-2696	,	_	_	_	_	_	_	_	
+34-23	2697-2707	europeiska	_	_	_	_	_	_	_	
+34-24	2708-2714	länder	_	_	_	_	_	_	_	
+34-25	2715-2724	inklusive	_	_	_	_	_	_	_	
+34-26	2725-2732	Sverige	_	_	_	_	_	_	_	
+34-27	2733-2739	liksom	_	_	_	_	_	_	_	
+34-28	2740-2743	USA	_	_	_	_	_	_	_	
+34-29	2743-2744	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2746-2747	#	_	_	_	_	_	_	_	
+35-2	2747-2748	P	_	_	_	_	_	_	_	
+35-3	2749-2752	IMM	_	_	_	_	_	_	_	
+35-4	2752-2753	.	_	_	_	_	_	_	_	
+
+#Text=Likväl fortsätter regeringen minska försvarets förmåga.
+36-1	2755-2761	Likväl	_	_	_	_	_	_	_	
+36-2	2762-2772	fortsätter	_	_	_	_	_	_	_	
+36-3	2773-2783	regeringen	_	_	_	_	_	_	_	
+36-4	2784-2790	minska	_	_	_	_	_	_	_	
+36-5	2791-2801	försvarets	_	_	_	_	_	_	_	
+36-6	2802-2809	förmåga	_	_	_	_	_	_	_	
+36-7	2809-2810	.	_	_	_	_	_	_	_	
+
+#Text=Innevarande försvarsbeslut innebär i sig en dramatisk försvagning och är dessutom underfinansierat.
+37-1	2811-2822	Innevarande	*[30]	_	_	_	_	_	_	
+37-2	2823-2837	försvarsbeslut	*[30]	_	_	_	_	_	_	
+37-3	2838-2845	innebär	_	_	_	_	_	_	_	
+37-4	2846-2847	i	_	_	_	_	_	_	_	
+37-5	2848-2851	sig	_	_	_	_	_	_	_	
+37-6	2852-2854	en	_	Target[13]	37-1[30]	false[13]	1[13]	_	_	
+37-7	2855-2864	dramatisk	_	Target[13]	37-1[30]	false[13]	1[13]	_	_	
+37-8	2865-2876	försvagning	_	Target[13]	37-1[30]	false[13]	1[13]	_	_	
+37-9	2877-2880	och	_	_	_	_	_	_	_	
+37-10	2881-2883	är	_	_	_	_	_	_	_	
+37-11	2884-2892	dessutom	_	_	_	_	_	_	_	
+37-12	2893-2909	underfinansierat	_	_	_	_	_	_	_	
+37-13	2909-2910	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens linje inför detta är att invänta Försvarsberedningen till 2020 för att därefter ta ett eventuellt beslut, som om ingen verklighet fanns utanför regeringskansliets beredningsprocesser.
+38-1	2911-2922	Regeringens	_	_	_	_	_	_	_	
+38-2	2923-2928	linje	_	_	_	_	_	_	_	
+38-3	2929-2934	inför	_	_	_	_	_	_	_	
+38-4	2935-2940	detta	_	_	_	_	_	_	_	
+38-5	2941-2943	är	_	_	_	_	_	_	_	
+38-6	2944-2947	att	_	_	_	_	_	_	_	
+38-7	2948-2955	invänta	_	_	_	_	_	_	_	
+38-8	2956-2975	Försvarsberedningen	_	_	_	_	_	_	_	
+38-9	2976-2980	till	_	_	_	_	_	_	_	
+38-10	2981-2985	2020	_	_	_	_	_	_	_	
+38-11	2986-2989	för	_	_	_	_	_	_	_	
+38-12	2990-2993	att	_	_	_	_	_	_	_	
+38-13	2994-3002	därefter	_	_	_	_	_	_	_	
+38-14	3003-3005	ta	_	_	_	_	_	_	_	
+38-15	3006-3009	ett	_	_	_	_	_	_	_	
+38-16	3010-3020	eventuellt	_	_	_	_	_	_	_	
+38-17	3021-3027	beslut	_	_	_	_	_	_	_	
+38-18	3027-3028	,	_	_	_	_	_	_	_	
+38-19	3029-3032	som	_	_	_	_	_	_	_	
+38-20	3033-3035	om	_	_	_	_	_	_	_	
+38-21	3036-3041	ingen	_	_	_	_	_	_	_	
+38-22	3042-3052	verklighet	_	_	_	_	_	_	_	
+38-23	3053-3058	fanns	_	_	_	_	_	_	_	
+38-24	3059-3066	utanför	_	_	_	_	_	_	_	
+38-25	3067-3085	regeringskansliets	_	_	_	_	_	_	_	
+38-26	3086-3105	beredningsprocesser	_	_	_	_	_	_	_	
+38-27	3105-3106	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3108-3109	#	_	_	_	_	_	_	_	
+39-2	3109-3110	P	_	_	_	_	_	_	_	
+39-3	3111-3114	IMM	_	_	_	_	_	_	_	
+39-4	3114-3115	.	_	_	_	_	_	_	_	
+
+#Text=SvD:s NYHETSBREV VALET 2018 – veckans viktigaste fördjupningar och granskningar.
+40-1	3117-3120	SvD	_	_	_	_	_	_	_	
+40-2	3120-3121	:	_	_	_	_	_	_	_	
+40-3	3121-3122	s	_	_	_	_	_	_	_	
+40-4	3123-3133	NYHETSBREV	_	_	_	_	_	_	_	
+40-5	3134-3139	VALET	_	_	_	_	_	_	_	
+40-6	3140-3144	2018	_	_	_	_	_	_	_	
+40-7	3145-3146	–	_	_	_	_	_	_	_	
+40-8	3147-3154	veckans	_	_	_	_	_	_	_	
+40-9	3155-3165	viktigaste	_	_	_	_	_	_	_	
+40-10	3166-3179	fördjupningar	_	_	_	_	_	_	_	
+40-11	3180-3183	och	_	_	_	_	_	_	_	
+40-12	3184-3196	granskningar	_	_	_	_	_	_	_	
+40-13	3196-3197	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3199-3200	#	_	_	_	_	_	_	_	
+41-2	3200-3201	P	_	_	_	_	_	_	_	
+41-3	3202-3205	IMM	_	_	_	_	_	_	_	
+41-4	3205-3206	.	_	_	_	_	_	_	_	
+
+#Text=Möjligheten att få en bättre politik genom en alliansbudget borde vara viktigare än att hålla regeringen Löfven under armarna.
+42-1	3208-3219	Möjligheten	_	_	_	_	_	_	_	
+42-2	3220-3223	att	_	_	_	_	_	_	_	
+42-3	3224-3226	få	_	_	_	_	_	_	_	
+42-4	3227-3229	en	_	_	_	_	_	_	_	
+42-5	3230-3236	bättre	_	_	_	_	_	_	_	
+42-6	3237-3244	politik	_	_	_	_	_	_	_	
+42-7	3245-3250	genom	_	_	_	_	_	_	_	
+42-8	3251-3253	en	_	_	_	_	_	_	_	
+42-9	3254-3267	alliansbudget	_	_	_	_	_	_	_	
+42-10	3268-3273	borde	_	_	_	_	_	_	_	
+42-11	3274-3278	vara	_	_	_	_	_	_	_	
+42-12	3279-3288	viktigare	_	_	_	_	_	_	_	
+42-13	3289-3291	än	_	_	_	_	_	_	_	
+42-14	3292-3295	att	_	_	_	_	_	_	_	
+42-15	3296-3301	hålla	_	Target	42-16[31]	true	4	_	_	
+42-16	3302-3312	regeringen	*[31]	_	_	_	_	_	_	
+42-17	3313-3319	Löfven	*[31]	_	_	_	_	_	_	
+42-18	3320-3325	under	_	_[14]	_	false[14]	4[14]	42-15[0_14]	_	
+42-19	3326-3333	armarna	_	_[14]	_	false[14]	4[14]	_	_	
+42-20	3333-3334	.	_	_[14]	_	false[14]	4[14]	_	_	
+
+#Text=Men framförallt: Centerpartiets och Liberalernas rädsla för att Sverigedemokraterna med sina röster skulle ge stöd för en alliansbudget är inte ett acceptabelt motiv för att låta en dysfunktionell regering ha ansvaret för svensk säkerhet.
+43-1	3335-3338	Men	_	_	_	_	_	_	_	
+43-2	3339-3350	framförallt	_	_	_	_	_	_	_	
+43-3	3350-3351	:	_	_	_	_	_	_	_	
+43-4	3352-3366	Centerpartiets	*[32]|*[33]|*[34]	_	_	_	_	_	44-1[0_33]	
+43-5	3367-3370	och	*[32]|*[33]	_	_	_	_	_	_	
+43-6	3371-3383	Liberalernas	*[32]|*[33]|*[35]	_	_	_	_	_	_	
+43-7	3384-3390	rädsla	*[32]|*[33]	Source;Source;Target[15]	43-4[34];43-6[35];43-9[36]	false[15]	2[15]	_	_	
+43-8	3391-3394	för	*[32]|*[33]	Source;Source;Target[15]	43-4[34];43-6[35];43-9[36]	false[15]	2[15]	_	_	
+43-9	3395-3398	att	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-10	3399-3418	Sverigedemokraterna	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-11	3419-3422	med	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-12	3423-3427	sina	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-13	3428-3434	röster	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-14	3435-3441	skulle	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-15	3442-3444	ge	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-16	3445-3449	stöd	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-17	3450-3453	för	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-18	3454-3456	en	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-19	3457-3470	alliansbudget	*[32]|*[33]|*[36]	_	_	_	_	_	_	
+43-20	3471-3473	är	_	_	_	_	_	_	_	
+43-21	3474-3478	inte	_	Target[16]	43-4[32]	false[16]	2[16]	_	_	
+43-22	3479-3482	ett	_	Target[16]	43-4[32]	false[16]	2[16]	_	_	
+43-23	3483-3494	acceptabelt	_	Target[16]	43-4[32]	false[16]	2[16]	_	_	
+43-24	3495-3500	motiv	_	Target[16]	43-4[32]	false[16]	2[16]	_	_	
+43-25	3501-3504	för	_	_	_	_	_	_	_	
+43-26	3505-3508	att	_	_	_	_	_	_	_	
+43-27	3509-3513	låta	_	_	_	_	_	_	_	
+43-28	3514-3516	en	_	Target[17]	43-30	false[17]	1[17]	_	_	
+43-29	3517-3531	dysfunktionell	_	Target[17]	43-30	false[17]	1[17]	_	_	
+43-30	3532-3540	regering	*	_	_	_	_	_	_	
+43-31	3541-3543	ha	_	_	_	_	_	_	_	
+43-32	3544-3552	ansvaret	_	_	_	_	_	_	_	
+43-33	3553-3556	för	_	_	_	_	_	_	_	
+43-34	3557-3563	svensk	_	_	_	_	_	_	_	
+43-35	3564-3572	säkerhet	_	_	_	_	_	_	_	
+43-36	3572-3573	.	_	_	_	_	_	_	_	
+
+#Text=Det gynnar inte bara Sverigedemokraterna utan innebär att man gör Sveriges säkerhet underordnad partitaktiska överväganden.
+44-1	3574-3577	Det	*	_	_	_	_	_	_	
+44-2	3578-3584	gynnar	_	Target;Source	44-1;44-5	false	4	_	_	
+44-3	3585-3589	inte	_	_	_	_	_	_	_	
+44-4	3590-3594	bara	_	_	_	_	_	_	_	
+44-5	3595-3614	Sverigedemokraterna	*	_	_	_	_	_	_	
+44-6	3615-3619	utan	_	_	_	_	_	_	_	
+44-7	3620-3627	innebär	_	_	_	_	_	_	_	
+44-8	3628-3631	att	_	_	_	_	_	_	_	
+44-9	3632-3635	man	_	_	_	_	_	_	_	
+44-10	3636-3639	gör	_	_	_	_	_	_	_	
+44-11	3640-3648	Sveriges	_	_	_	_	_	_	_	
+44-12	3649-3657	säkerhet	_	_	_	_	_	_	_	
+44-13	3658-3669	underordnad	_	_	_	_	_	_	_	
+44-14	3670-3683	partitaktiska	_	_	_	_	_	_	_	
+44-15	3684-3696	överväganden	_	_	_	_	_	_	_	
+44-16	3696-3697	.	_	_	_	_	_	_	_	
+
+#Text=Det är att svika ett grundläggande demokratiskt ansvar.
+45-1	3698-3701	Det	_	_	_	_	_	_	_	
+45-2	3702-3704	är	_	_	_	_	_	_	_	
+45-3	3705-3708	att	_	_	_	_	_	_	_	
+45-4	3709-3714	svika	_	_	_	_	_	_	_	
+45-5	3715-3718	ett	_	_	_	_	_	_	_	
+45-6	3719-3732	grundläggande	_	_	_	_	_	_	_	
+45-7	3733-3745	demokratiskt	_	_	_	_	_	_	_	
+45-8	3746-3752	ansvar	_	_	_	_	_	_	_	
+45-9	3752-3753	.	_	_	_	false	1	_	_	
+
+#Text=#P IMM.
+46-1	3755-3756	#	_	_	_	_	_	_	_	
+46-2	3756-3757	P	_	_	_	_	_	_	_	
+46-3	3758-3761	IMM	_	_	_	_	_	_	_	
+46-4	3761-3762	.	_	_	_	_	_	_	_	
+
+#Text=Gunnar Hökmark (M).
+47-1	3764-3770	Gunnar	_	_	_	_	_	_	_	
+47-2	3771-3778	Hökmark	_	_	_	_	_	_	_	
+47-3	3779-3780	(	_	_	_	_	_	_	_	
+47-4	3780-3781	M	_	_	_	_	_	_	_	
+47-5	3781-3782	)	_	_	_	_	_	_	_	
+47-6	3782-3783	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3785-3786	#	_	_	_	_	_	_	_	
+48-2	3786-3787	P	_	_	_	_	_	_	_	
+48-3	3788-3791	IMM	_	_	_	_	_	_	_	
+48-4	3791-3792	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker.
+49-1	3794-3815	Europaparlamentariker	_	_	_	_	_	_	_	
+49-2	3815-3816	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3818-3819	#	_	_	_	_	_	_	_	
+50-2	3819-3820	P	_	_	_	_	_	_	_	
+50-3	3821-3824	IMM	_	_	_	_	_	_	_	
+50-4	3824-3825	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+51-1	3827-3835	Redaktör	_	_	_	_	_	_	_	
+51-2	3835-3836	:	_	_	_	_	_	_	_	
+51-3	3837-3843	Carina	_	_	_	_	_	_	_	
+51-4	3844-3852	Stensson	_	_	_	_	_	_	_	
+51-5	3852-3853	,	_	_	_	_	_	_	_	
+51-6	3854-3864	Biträdande	_	_	_	_	_	_	_	
+51-7	3865-3873	redaktör	_	_	_	_	_	_	_	
+51-8	3873-3874	:	_	_	_	_	_	_	_	
+51-9	3875-3880	Björn	_	_	_	_	_	_	_	
+51-10	3881-3887	Jorner	_	_	_	_	_	_	_	
+51-11	3887-3888	,	_	_	_	_	_	_	_	
+51-12	3889-3893	Mejl	_	_	_	_	_	_	_	
+51-13	3893-3894	:	_	_	_	_	_	_	_	
+51-14	3895-3901	debatt	_	_	_	_	_	_	_	
+51-15	3901-3902	@	_	_	_	_	_	_	_	
+51-16	3902-3908	svd.se	_	_	_	_	_	_	_	
+51-17	3908-3909	,	_	_	_	_	_	_	_	
+51-18	3910-3923	Telefonnummer	_	_	_	_	_	_	_	
+51-19	3923-3924	:	_	_	_	_	_	_	_	
+51-20	3925-3927	08	_	_	_	_	_	_	_	
+51-21	3927-3928	-	_	_	_	_	_	_	_	
+51-22	3928-3934	135149	_	_	_	_	_	_	_	
+51-23	3934-3935	,	_	_	_	_	_	_	_	
+51-24	3936-3943	Twitter	_	_	_	_	_	_	_	
+51-25	3943-3944	:	_	_	_	_	_	_	_	
+51-26	3945-3946	@	_	_	_	_	_	_	_	
+51-27	3946-3955	SvDDebatt	_	_	_	_	_	_	_	
+51-28	3955-3956	,	_	_	_	_	_	_	_	
+51-29	3957-3965	Facebook	_	_	_	_	_	_	_	
+51-30	3965-3966	:	_	_	_	_	_	_	_	
+51-31	3967-3970	SvD	_	_	_	_	_	_	_	
+51-32	3971-3977	Debatt	_	_	_	_	_	_	_	
+51-33	3977-3978	.	_	_	_	_	_	_	_	

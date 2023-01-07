@@ -1,0 +1,965 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Det ska vara billigare att ta tåget än flyget.
+3-1	18-21	Det	_	_	_	_	_	
+3-2	22-25	ska	_	_	_	_	_	
+3-3	26-30	vara	_	_	_	_	_	
+3-4	31-40	billigare	_	Target	3-5[17]	false	2	
+3-5	41-44	att	*[17]	_	_	_	_	
+3-6	45-47	ta	*[17]	_	_	_	_	
+3-7	48-53	tåget	*[17]	_	_	_	_	
+3-8	54-56	än	*[17]	_	_	_	_	
+3-9	57-63	flyget	*[17]	_	_	_	_	
+3-10	63-64	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	
+
+#Text=I stort sett varenda människa som bor och lever i Sverige har en relation till SJ.
+5-1	75-76	I	_	_	_	_	_	
+5-2	77-82	stort	_	_	_	_	_	
+5-3	83-87	sett	_	_	_	_	_	
+5-4	88-95	varenda	_	_	_	_	_	
+5-5	96-104	människa	_	_	_	_	_	
+5-6	105-108	som	_	_	_	_	_	
+5-7	109-112	bor	_	_	_	_	_	
+5-8	113-116	och	_	_	_	_	_	
+5-9	117-122	lever	_	_	_	_	_	
+5-10	123-124	i	_	_	_	_	_	
+5-11	125-132	Sverige	_	_	_	_	_	
+5-12	133-136	har	_	_	_	_	_	
+5-13	137-139	en	_	_	_	_	_	
+5-14	140-148	relation	_	_	_	_	_	
+5-15	149-153	till	_	_	_	_	_	
+5-16	154-156	SJ	*	_	_	_	_	
+5-17	156-157	.	_	_	_	_	_	
+
+#Text=Genom att titta ut genom ett tågfönster, eller att vänta på en station någonstans i Sverige.
+6-1	158-163	Genom	_	_	_	_	_	
+6-2	164-167	att	_	_	_	_	_	
+6-3	168-173	titta	_	_	_	_	_	
+6-4	174-176	ut	_	_	_	_	_	
+6-5	177-182	genom	_	_	_	_	_	
+6-6	183-186	ett	_	_	_	_	_	
+6-7	187-197	tågfönster	_	_	_	_	_	
+6-8	197-198	,	_	_	_	_	_	
+6-9	199-204	eller	_	_	_	_	_	
+6-10	205-208	att	_	_	_	_	_	
+6-11	209-214	vänta	_	_	_	_	_	
+6-12	215-217	på	_	_	_	_	_	
+6-13	218-220	en	_	_	_	_	_	
+6-14	221-228	station	_	_	_	_	_	
+6-15	229-239	någonstans	_	_	_	_	_	
+6-16	240-241	i	_	_	_	_	_	
+6-17	242-249	Sverige	_	_	_	_	_	
+6-18	249-250	.	_	_	_	_	_	
+
+#Text=Eller genom att ivrigt titta på klockan undrande hur stor förseningen denna gång ska bli.
+7-1	251-256	Eller	_	_	_	_	_	
+7-2	257-262	genom	_	_	_	_	_	
+7-3	263-266	att	_	_	_	_	_	
+7-4	267-273	ivrigt	_	Target[1]	5-16	false[1]	2[1]	
+7-5	274-279	titta	_	Target[1]	5-16	false[1]	2[1]	
+7-6	280-282	på	_	Target[1]	5-16	false[1]	2[1]	
+7-7	283-290	klockan	_	Target[1]	5-16	false[1]	2[1]	
+7-8	291-299	undrande	_	Target[1]	5-16	false[1]	2[1]	
+7-9	300-303	hur	_	Target[1]	5-16	false[1]	2[1]	
+7-10	304-308	stor	_	Target[1]	5-16	false[1]	2[1]	
+7-11	309-320	förseningen	_	Target[1]	5-16	false[1]	2[1]	
+7-12	321-326	denna	_	Target[1]	5-16	false[1]	2[1]	
+7-13	327-331	gång	_	Target[1]	5-16	false[1]	2[1]	
+7-14	332-335	ska	_	Target[1]	5-16	false[1]	2[1]	
+7-15	336-339	bli	_	Target[1]	5-16	false[1]	2[1]	
+7-16	339-340	.	_	_	_	_	_	
+
+#Text=Alla dessa upplevelser påverkar ifall den som ska resa väljer tåget eller flyget.
+8-1	341-345	Alla	_	_	_	_	_	
+8-2	346-351	dessa	_	_	_	_	_	
+8-3	352-363	upplevelser	_	_	_	_	_	
+8-4	364-372	påverkar	_	_	_	_	_	
+8-5	373-378	ifall	_	_	_	_	_	
+8-6	379-382	den	_	_	_	_	_	
+8-7	383-386	som	_	_	_	_	_	
+8-8	387-390	ska	_	_	_	_	_	
+8-9	391-395	resa	_	_	_	_	_	
+8-10	396-402	väljer	_	_	_	_	_	
+8-11	403-408	tåget	_	_	_	_	_	
+8-12	409-414	eller	_	_	_	_	_	
+8-13	415-421	flyget	_	_	_	_	_	
+8-14	421-422	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	424-425	#	_	_	_	_	_	
+9-2	425-426	P	_	_	_	_	_	
+9-3	427-430	IMM	_	_	_	_	_	
+9-4	430-431	.	_	_	_	_	_	
+
+#Text=I dag invigs Botniabanan, en järnvägssatsning som kommer att halvera restiden mellan Umeå och Stockholm.
+10-1	433-434	I	_	_	_	_	_	
+10-2	435-438	dag	_	_	_	_	_	
+10-3	439-445	invigs	_	_	_	_	_	
+10-4	446-457	Botniabanan	_	_	_	_	_	
+10-5	457-458	,	_	_	_	_	_	
+10-6	459-461	en	_	_	_	_	_	
+10-7	462-478	järnvägssatsning	_	_	_	_	_	
+10-8	479-482	som	_	_	_	_	_	
+10-9	483-489	kommer	_	_	_	_	_	
+10-10	490-493	att	_	_	_	_	_	
+10-11	494-501	halvera	_	_	_	_	_	
+10-12	502-510	restiden	_	_	_	_	_	
+10-13	511-517	mellan	_	_	_	_	_	
+10-14	518-522	Umeå	_	_	_	_	_	
+10-15	523-526	och	_	_	_	_	_	
+10-16	527-536	Stockholm	_	_	_	_	_	
+10-17	536-537	.	_	_	_	_	_	
+
+#Text=Det är en långsiktig och framsynt investering som togs av de rödgröna partierna i slutet av nittiotalet.
+11-1	538-541	Det	_	_	_	_	_	
+11-2	542-544	är	_	_	_	_	_	
+11-3	545-547	en	_	_	_	_	_	
+11-4	548-558	långsiktig	_	Target[2]	11-7	false[2]	4[2]	
+11-5	559-562	och	_	Target[2]	11-7	false[2]	4[2]	
+11-6	563-571	framsynt	_	Target[2]	11-7	false[2]	4[2]	
+11-7	572-583	investering	*	_	_	_	_	
+11-8	584-587	som	_	_	_	_	_	
+11-9	588-592	togs	_	_	_	_	_	
+11-10	593-595	av	_	_	_	_	_	
+11-11	596-598	de	_	_	_	_	_	
+11-12	599-607	rödgröna	_	_	_	_	_	
+11-13	608-617	partierna	_	_	_	_	_	
+11-14	618-619	i	_	_	_	_	_	
+11-15	620-626	slutet	_	_	_	_	_	
+11-16	627-629	av	_	_	_	_	_	
+11-17	630-641	nittiotalet	_	_	_	_	_	
+11-18	641-642	.	_	_	_	_	_	
+
+#Text=I dag vill regeringen gärna ta åt sig äran, trots att Moderaterna på riksplan var kritiska till utbyggnaden då beslutet togs.
+12-1	643-644	I	_	_	_	_	_	
+12-2	645-648	dag	_	_	_	_	_	
+12-3	649-653	vill	_	_	_	_	_	
+12-4	654-664	regeringen	_	_	_	_	_	
+12-5	665-670	gärna	_	_	_	_	_	
+12-6	671-673	ta	_	_	_	_	_	
+12-7	674-676	åt	_	_	_	_	_	
+12-8	677-680	sig	_	_	_	_	_	
+12-9	681-685	äran	_	_	_	_	_	
+12-10	685-686	,	_	_	_	_	_	
+12-11	687-692	trots	_	_	_	_	_	
+12-12	693-696	att	_	_	_	_	_	
+12-13	697-708	Moderaterna	*[18]	_	_	_	_	
+12-14	709-711	på	*[18]	_	_	_	_	
+12-15	712-720	riksplan	*[18]	_	_	_	_	
+12-16	721-724	var	_	_	_	_	_	
+12-17	725-733	kritiska	_	Target;Source	12-19;12-13[18]	false	2	
+12-18	734-738	till	_	_	_	_	_	
+12-19	739-750	utbyggnaden	*	_	_	_	_	
+12-20	751-753	då	_	_	_	_	_	
+12-21	754-762	beslutet	_	_	_	_	_	
+12-22	763-767	togs	_	_	_	_	_	
+12-23	767-768	.	_	_	_	_	_	
+
+#Text=Vad som krävs nu är politiska beslut som gör att Botniabanans potential kan komma till sin rätt.
+13-1	769-772	Vad	_	_	_	_	_	
+13-2	773-776	som	_	_	_	_	_	
+13-3	777-782	krävs	_	_	_	_	_	
+13-4	783-785	nu	_	_	_	_	_	
+13-5	786-788	är	_	_	_	_	_	
+13-6	789-798	politiska	_	_	_	_	_	
+13-7	799-805	beslut	_	_	_	_	_	
+13-8	806-809	som	_	_	_	_	_	
+13-9	810-813	gör	_	_	_	_	_	
+13-10	814-817	att	_	_	_	_	_	
+13-11	818-830	Botniabanans	_	_	_	_	_	
+13-12	831-840	potential	_	_	_	_	_	
+13-13	841-844	kan	_	_	_	_	_	
+13-14	845-850	komma	_	_	_	_	_	
+13-15	851-855	till	_	_	_	_	_	
+13-16	856-859	sin	_	_	_	_	_	
+13-17	860-864	rätt	_	_	_	_	_	
+13-18	864-865	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	867-868	#	_	_	_	_	_	
+14-2	868-869	P	_	_	_	_	_	
+14-3	870-873	IMM	_	_	_	_	_	
+14-4	873-874	.	_	_	_	_	_	
+
+#Text=Därför föreslår vi rödgröna närmare fjorton miljarder kronor till att snabbare och bättre tågförbindelser längs hela Norrlandskusten, bland annat genom att bygga första etappen av Norrbotniabanan.
+15-1	876-882	Därför	_	_	_	_	_	
+15-2	883-891	föreslår	_	_	_	_	_	
+15-3	892-894	vi	_	_	_	_	_	
+15-4	895-903	rödgröna	_	_	_	_	_	
+15-5	904-911	närmare	_	_	_	_	_	
+15-6	912-919	fjorton	_	_	_	_	_	
+15-7	920-929	miljarder	_	_	_	_	_	
+15-8	930-936	kronor	_	_	_	_	_	
+15-9	937-941	till	_	_	_	_	_	
+15-10	942-945	att	_	_	_	_	_	
+15-11	946-954	snabbare	_	Target[3]	15-14	false[3]	4[3]	
+15-12	955-958	och	_	Target[3]	15-14	false[3]	4[3]	
+15-13	959-965	bättre	_	Target[3]	15-14	false[3]	4[3]	
+15-14	966-981	tågförbindelser	*	_	_	_	_	
+15-15	982-987	längs	_	_	_	_	_	
+15-16	988-992	hela	_	_	_	_	_	
+15-17	993-1008	Norrlandskusten	_	_	_	_	_	
+15-18	1008-1009	,	_	_	_	_	_	
+15-19	1010-1015	bland	_	_	_	_	_	
+15-20	1016-1021	annat	_	_	_	_	_	
+15-21	1022-1027	genom	_	_	_	_	_	
+15-22	1028-1031	att	_	_	_	_	_	
+15-23	1032-1037	bygga	_	_	_	_	_	
+15-24	1038-1044	första	_	_	_	_	_	
+15-25	1045-1052	etappen	_	_	_	_	_	
+15-26	1053-1055	av	_	_	_	_	_	
+15-27	1056-1071	Norrbotniabanan	_	_	_	_	_	
+15-28	1071-1072	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1074-1075	#	_	_	_	_	_	
+16-2	1075-1076	P	_	_	_	_	_	
+16-3	1077-1080	IMM	_	_	_	_	_	
+16-4	1080-1081	.	_	_	_	_	_	
+
+#Text=Vi som politiker behöver göra det lättare att välja klimatsmarta resor.
+17-1	1083-1085	Vi	_	_	_	_	_	
+17-2	1086-1089	som	_	_	_	_	_	
+17-3	1090-1099	politiker	_	_	_	_	_	
+17-4	1100-1107	behöver	_	_	_	_	_	
+17-5	1108-1112	göra	_	_	_	_	_	
+17-6	1113-1116	det	_	_	_	_	_	
+17-7	1117-1124	lättare	_	Target	17-8[19]	false	4	
+17-8	1125-1128	att	*[19]	_	_	_	_	
+17-9	1129-1134	välja	*[19]	_	_	_	_	
+17-10	1135-1147	klimatsmarta	*[19]	_	_	_	_	
+17-11	1148-1153	resor	*[19]	_	_	_	_	
+17-12	1153-1154	.	_	_	_	_	_	
+
+#Text=Att spårburen trafik kan fungera och hålla tidtabellerna finns det flera utländska exempel på.
+18-1	1155-1158	Att	_	_	_	_	_	
+18-2	1159-1168	spårburen	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-3	1169-1175	trafik	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-4	1176-1179	kan	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-5	1180-1187	fungera	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-6	1188-1191	och	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-7	1192-1197	hålla	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-8	1198-1211	tidtabellerna	_	Target[4]	18-11[20]	false[4]	4[4]	
+18-9	1212-1217	finns	_	_	_	_	_	
+18-10	1218-1221	det	_	_	_	_	_	
+18-11	1222-1227	flera	*[20]	_	_	_	_	
+18-12	1228-1237	utländska	*[20]	_	_	_	_	
+18-13	1238-1245	exempel	*[20]	_	_	_	_	
+18-14	1246-1248	på	_	_	_	_	_	
+18-15	1248-1249	.	_	_	_	_	_	
+
+#Text=I Hongkong kommer 99,7 procent av all trafik i tid.
+19-1	1250-1251	I	_	_	_	_	_	
+19-2	1252-1260	Hongkong	_	_	_	_	_	
+19-3	1261-1267	kommer	_	_	_	_	_	
+19-4	1268-1272	99,7	_	_	_	_	_	
+19-5	1273-1280	procent	_	_	_	_	_	
+19-6	1281-1283	av	_	_	_	_	_	
+19-7	1284-1287	all	_	_	_	_	_	
+19-8	1288-1294	trafik	_	_	_	_	_	
+19-9	1295-1296	i	_	_	_	_	_	
+19-10	1297-1300	tid	_	_	_	_	_	
+19-11	1300-1301	.	_	_	_	_	_	
+
+#Text=Förklaringen är ett totalintegrerat system där stora resurser läggs på förebyggande underhåll och reinvesteringar.
+20-1	1302-1314	Förklaringen	_	_	_	_	_	
+20-2	1315-1317	är	_	_	_	_	_	
+20-3	1318-1321	ett	_	_	_	_	_	
+20-4	1322-1337	totalintegrerat	_	_	_	_	_	
+20-5	1338-1344	system	_	_	_	_	_	
+20-6	1345-1348	där	_	_	_	_	_	
+20-7	1349-1354	stora	_	Target	20-8	false	4	
+20-8	1355-1363	resurser	*	_	_	_	_	
+20-9	1364-1369	läggs	_	_	_	_	_	
+20-10	1370-1372	på	_	_	_	_	_	
+20-11	1373-1385	förebyggande	_	_	_	_	_	
+20-12	1386-1395	underhåll	_	_	_	_	_	
+20-13	1396-1399	och	_	_	_	_	_	
+20-14	1400-1415	reinvesteringar	_	_	_	_	_	
+20-15	1415-1416	.	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1418-1419	#	_	_	_	_	_	
+21-2	1419-1420	P	_	_	_	_	_	
+21-3	1421-1424	IMM	_	_	_	_	_	
+21-4	1424-1425	.	_	_	_	_	_	
+
+#Text=I Schweiz satsas det tre gånger så mycket på järnväg och tågtrafik per invånare i statliga anslag jämfört med Sverige.
+22-1	1427-1428	I	_	_	_	_	_	
+22-2	1429-1436	Schweiz	_	_	_	_	_	
+22-3	1437-1443	satsas	_	_	_	_	_	
+22-4	1444-1447	det	_	_	_	_	_	
+22-5	1448-1451	tre	_	_	_	_	_	
+22-6	1452-1458	gånger	_	_	_	_	_	
+22-7	1459-1461	så	_	_	_	_	_	
+22-8	1462-1468	mycket	_	_	_	_	_	
+22-9	1469-1471	på	_	_	_	_	_	
+22-10	1472-1479	järnväg	_	_	_	_	_	
+22-11	1480-1483	och	_	_	_	_	_	
+22-12	1484-1493	tågtrafik	_	_	_	_	_	
+22-13	1494-1497	per	_	_	_	_	_	
+22-14	1498-1506	invånare	_	_	_	_	_	
+22-15	1507-1508	i	_	_	_	_	_	
+22-16	1509-1517	statliga	_	_	_	_	_	
+22-17	1518-1524	anslag	_	_	_	_	_	
+22-18	1525-1532	jämfört	_	_	_	_	_	
+22-19	1533-1536	med	_	_	_	_	_	
+22-20	1537-1544	Sverige	_	_	_	_	_	
+22-21	1544-1545	.	_	_	_	_	_	
+
+#Text=Den kilometerskatt för lastbilar som infördes 2001, vägavgifter och koldioxidskatt på bensin täcker cirka hälften av de offentliga utgifterna för järnvägen.
+23-1	1546-1549	Den	_	_	_	_	_	
+23-2	1550-1564	kilometerskatt	_	_	_	_	_	
+23-3	1565-1568	för	_	_	_	_	_	
+23-4	1569-1578	lastbilar	_	_	_	_	_	
+23-5	1579-1582	som	_	_	_	_	_	
+23-6	1583-1591	infördes	_	_	_	_	_	
+23-7	1592-1596	2001	_	_	_	_	_	
+23-8	1596-1597	,	_	_	_	_	_	
+23-9	1598-1609	vägavgifter	_	_	_	_	_	
+23-10	1610-1613	och	_	_	_	_	_	
+23-11	1614-1628	koldioxidskatt	_	_	_	_	_	
+23-12	1629-1631	på	_	_	_	_	_	
+23-13	1632-1638	bensin	_	_	_	_	_	
+23-14	1639-1645	täcker	_	_	_	_	_	
+23-15	1646-1651	cirka	_	_	_	_	_	
+23-16	1652-1659	hälften	_	_	_	_	_	
+23-17	1660-1662	av	_	_	_	_	_	
+23-18	1663-1665	de	_	_	_	_	_	
+23-19	1666-1676	offentliga	_	_	_	_	_	
+23-20	1677-1687	utgifterna	_	_	_	_	_	
+23-21	1688-1691	för	_	_	_	_	_	
+23-22	1692-1701	järnvägen	_	_	_	_	_	
+23-23	1701-1702	.	_	_	_	_	_	
+
+#Text=Det är inte tal om att den tågtrafiken ska lämna vinst till statskassan så som SJ tvingas göra i Sverige, kollektivtrafiken betraktas som en grundläggande service som samhället har ansvar för.
+24-1	1703-1706	Det	_	_	_	_	_	
+24-2	1707-1709	är	_	_	_	_	_	
+24-3	1710-1714	inte	_	_	_	_	_	
+24-4	1715-1718	tal	_	_	_	_	_	
+24-5	1719-1721	om	_	_	_	_	_	
+24-6	1722-1725	att	_	_	_	_	_	
+24-7	1726-1729	den	_	_	_	_	_	
+24-8	1730-1741	tågtrafiken	_	_	_	_	_	
+24-9	1742-1745	ska	_	_	_	_	_	
+24-10	1746-1751	lämna	_	_	_	_	_	
+24-11	1752-1757	vinst	_	_	_	_	_	
+24-12	1758-1762	till	_	_	_	_	_	
+24-13	1763-1774	statskassan	_	_	_	_	_	
+24-14	1775-1777	så	_	_	_	_	_	
+24-15	1778-1781	som	_	_	_	_	_	
+24-16	1782-1784	SJ	_	_	_	_	_	
+24-17	1785-1792	tvingas	_	_	_	_	_	
+24-18	1793-1797	göra	_	_	_	_	_	
+24-19	1798-1799	i	_	_	_	_	_	
+24-20	1800-1807	Sverige	_	_	_	_	_	
+24-21	1807-1808	,	_	_	_	_	_	
+24-22	1809-1826	kollektivtrafiken	_	_	_	_	_	
+24-23	1827-1836	betraktas	_	_	_	_	_	
+24-24	1837-1840	som	_	_	_	_	_	
+24-25	1841-1843	en	_	_	_	_	_	
+24-26	1844-1857	grundläggande	_	_	_	_	_	
+24-27	1858-1865	service	_	_	_	_	_	
+24-28	1866-1869	som	_	_	_	_	_	
+24-29	1870-1879	samhället	_	_	_	_	_	
+24-30	1880-1883	har	_	_	_	_	_	
+24-31	1884-1890	ansvar	_	_	_	_	_	
+24-32	1891-1894	för	_	_	_	_	_	
+24-33	1894-1895	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1897-1898	#	_	_	_	_	_	
+25-2	1898-1899	P	_	_	_	_	_	
+25-3	1900-1903	IMM	_	_	_	_	_	
+25-4	1903-1904	.	_	_	_	_	_	
+
+#Text=I den debatt som förts i kölvattnet av vinterns tågkaos framstår det ofta som att det är en enda aktörs fel när trafiken inte funkar.
+26-1	1906-1907	I	_	_	_	_	_	
+26-2	1908-1911	den	_	_	_	_	_	
+26-3	1912-1918	debatt	_	_	_	_	_	
+26-4	1919-1922	som	_	_	_	_	_	
+26-5	1923-1928	förts	_	_	_	_	_	
+26-6	1929-1930	i	_	_	_	_	_	
+26-7	1931-1941	kölvattnet	_	_	_	_	_	
+26-8	1942-1944	av	_	_	_	_	_	
+26-9	1945-1953	vinterns	_	_	_	_	_	
+26-10	1954-1961	tågkaos	_	_	_	_	_	
+26-11	1962-1970	framstår	_	_	_	_	_	
+26-12	1971-1974	det	_	_	_	_	_	
+26-13	1975-1979	ofta	_	_	_	_	_	
+26-14	1980-1983	som	_	_	_	_	_	
+26-15	1984-1987	att	_	_	_	_	_	
+26-16	1988-1991	det	_	_	_	_	_	
+26-17	1992-1994	är	_	_	_	_	_	
+26-18	1995-1997	en	_	_	_	_	_	
+26-19	1998-2002	enda	_	_	_	_	_	
+26-20	2003-2009	aktörs	_	_	_	_	_	
+26-21	2010-2013	fel	_	_	_	_	_	
+26-22	2014-2017	när	_	_	_	_	_	
+26-23	2018-2026	trafiken	_	_	_	_	_	
+26-24	2027-2031	inte	_	_	_	_	_	
+26-25	2032-2038	funkar	_	_	_	_	_	
+26-26	2038-2039	.	_	_	_	_	_	
+
+#Text=Antingen är det SJ, Trafikverket eller den som underhåller och reparerar tågen.
+27-1	2040-2048	Antingen	_	_	_	_	_	
+27-2	2049-2051	är	_	_	_	_	_	
+27-3	2052-2055	det	_	_	_	_	_	
+27-4	2056-2058	SJ	_	_	_	_	_	
+27-5	2058-2059	,	_	_	_	_	_	
+27-6	2060-2072	Trafikverket	_	_	_	_	_	
+27-7	2073-2078	eller	_	_	_	_	_	
+27-8	2079-2082	den	_	_	_	_	_	
+27-9	2083-2086	som	_	_	_	_	_	
+27-10	2087-2098	underhåller	_	_	_	_	_	
+27-11	2099-2102	och	_	_	_	_	_	
+27-12	2103-2112	reparerar	_	_	_	_	_	
+27-13	2113-2118	tågen	_	_	_	_	_	
+27-14	2118-2119	.	_	_	_	_	_	
+
+#Text=Alla skyller på alla.
+28-1	2120-2124	Alla	_	_	_	_	_	
+28-2	2125-2132	skyller	_	_	_	_	_	
+28-3	2133-2135	på	_	_	_	_	_	
+28-4	2136-2140	alla	_	_	_	_	_	
+28-5	2140-2141	.	_	_	_	_	_	
+
+#Text=Och alla aktörer har givetvis ett ansvar.
+29-1	2142-2145	Och	_	_	_	_	_	
+29-2	2146-2150	alla	_	_	_	_	_	
+29-3	2151-2158	aktörer	_	_	_	_	_	
+29-4	2159-2162	har	_	_	_	_	_	
+29-5	2163-2171	givetvis	_	_	_	_	_	
+29-6	2172-2175	ett	_	_	_	_	_	
+29-7	2176-2182	ansvar	_	_	_	_	_	
+29-8	2182-2183	.	_	_	_	_	_	
+
+#Text=Inte minst SJ, som har en skyldighet att se till att tågen kommer i tid och att det är bekvämt och enkelt att åka tåg.
+30-1	2184-2188	Inte	_	_	_	_	_	
+30-2	2189-2194	minst	_	_	_	_	_	
+30-3	2195-2197	SJ	_	_	_	_	_	
+30-4	2197-2198	,	_	_	_	_	_	
+30-5	2199-2202	som	_	_	_	_	_	
+30-6	2203-2206	har	_	_	_	_	_	
+30-7	2207-2209	en	_	_	_	_	_	
+30-8	2210-2220	skyldighet	_	_	_	_	_	
+30-9	2221-2224	att	_	_	_	_	_	
+30-10	2225-2227	se	_	_	_	_	_	
+30-11	2228-2232	till	_	_	_	_	_	
+30-12	2233-2236	att	_	_	_	_	_	
+30-13	2237-2242	tågen	_	_	_	_	_	
+30-14	2243-2249	kommer	_	_	_	_	_	
+30-15	2250-2251	i	_	_	_	_	_	
+30-16	2252-2255	tid	_	_	_	_	_	
+30-17	2256-2259	och	_	_	_	_	_	
+30-18	2260-2263	att	_	_	_	_	_	
+30-19	2264-2267	det	_	_	_	_	_	
+30-20	2268-2270	är	_	_	_	_	_	
+30-21	2271-2278	bekvämt	_	Target[5]	30-24[21]	false[5]	4[5]	
+30-22	2279-2282	och	_	Target[5]	30-24[21]	false[5]	4[5]	
+30-23	2283-2289	enkelt	_	Target[5]	30-24[21]	false[5]	4[5]	
+30-24	2290-2293	att	*[21]	_	_	_	_	
+30-25	2294-2297	åka	*[21]	_	_	_	_	
+30-26	2298-2301	tåg	*[21]	_	_	_	_	
+30-27	2301-2302	.	_	_	_	_	_	
+
+#Text=De gånger förseningar ändå uppstår har de ett ansvar att ordna smidiga, alternativa förbindelser samt ordna ekonomisk ersättning för resenärerna.
+31-1	2303-2305	De	_	_	_	_	_	
+31-2	2306-2312	gånger	_	_	_	_	_	
+31-3	2313-2324	förseningar	_	_	_	_	_	
+31-4	2325-2329	ändå	_	_	_	_	_	
+31-5	2330-2337	uppstår	_	_	_	_	_	
+31-6	2338-2341	har	_	_	_	_	_	
+31-7	2342-2344	de	_	_	_	_	_	
+31-8	2345-2348	ett	_	_	_	_	_	
+31-9	2349-2355	ansvar	_	_	_	_	_	
+31-10	2356-2359	att	_	_	_	_	_	
+31-11	2360-2365	ordna	_	_	_	_	_	
+31-12	2366-2373	smidiga	_	Target[6]	31-15	false[6]	4[6]	
+31-13	2373-2374	,	_	Target[6]	31-15	false[6]	4[6]	
+31-14	2375-2386	alternativa	_	Target[6]	31-15	false[6]	4[6]	
+31-15	2387-2399	förbindelser	*	_	_	_	_	
+31-16	2400-2404	samt	_	_	_	_	_	
+31-17	2405-2410	ordna	_	_	_	_	_	
+31-18	2411-2420	ekonomisk	_	_	_	_	_	
+31-19	2421-2431	ersättning	_	_	_	_	_	
+31-20	2432-2435	för	_	_	_	_	_	
+31-21	2436-2447	resenärerna	_	_	_	_	_	
+31-22	2447-2448	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2450-2451	#	_	_	_	_	_	
+32-2	2451-2452	P	_	_	_	_	_	
+32-3	2453-2456	IMM	_	_	_	_	_	
+32-4	2456-2457	.	_	_	_	_	_	
+
+#Text=Men det största ansvaret ligger hos oss politiker.
+33-1	2459-2462	Men	_	_	_	_	_	
+33-2	2463-2466	det	_	_	_	_	_	
+33-3	2467-2474	största	_	_	_	_	_	
+33-4	2475-2483	ansvaret	_	_	_	_	_	
+33-5	2484-2490	ligger	_	_	_	_	_	
+33-6	2491-2494	hos	_	_	_	_	_	
+33-7	2495-2498	oss	_	_	_	_	_	
+33-8	2499-2508	politiker	_	_	_	_	_	
+33-9	2508-2509	.	_	_	_	_	_	
+
+#Text=Det är upp till oss att ta beslut om att höja investeringarna i järnvägen så att tågen kan komma fram utan att bli försenade.
+34-1	2510-2513	Det	_	_	_	_	_	
+34-2	2514-2516	är	_	_	_	_	_	
+34-3	2517-2520	upp	_	_	_	_	_	
+34-4	2521-2525	till	_	_	_	_	_	
+34-5	2526-2529	oss	_	_	_	_	_	
+34-6	2530-2533	att	_	_	_	_	_	
+34-7	2534-2536	ta	_	_	_	_	_	
+34-8	2537-2543	beslut	_	_	_	_	_	
+34-9	2544-2546	om	_	_	_	_	_	
+34-10	2547-2550	att	_	_	_	_	_	
+34-11	2551-2555	höja	_	_	_	_	_	
+34-12	2556-2571	investeringarna	_	_	_	_	_	
+34-13	2572-2573	i	_	_	_	_	_	
+34-14	2574-2583	järnvägen	_	_	_	_	_	
+34-15	2584-2586	så	_	_	_	_	_	
+34-16	2587-2590	att	_	_	_	_	_	
+34-17	2591-2596	tågen	_	_	_	_	_	
+34-18	2597-2600	kan	_	_	_	_	_	
+34-19	2601-2606	komma	_	_	_	_	_	
+34-20	2607-2611	fram	_	_	_	_	_	
+34-21	2612-2616	utan	_	_	_	_	_	
+34-22	2617-2620	att	_	_	_	_	_	
+34-23	2621-2624	bli	_	_	_	_	_	
+34-24	2625-2634	försenade	_	_	_	_	_	
+34-25	2634-2635	.	_	_	_	_	_	
+
+#Text=Nya banor och mer spår är en nödvändighet för att få fler tåg.
+35-1	2636-2639	Nya	*[22]	_	_	_	_	
+35-2	2640-2645	banor	*[22]	_	_	_	_	
+35-3	2646-2649	och	*[22]	_	_	_	_	
+35-4	2650-2653	mer	*[22]	_	_	_	_	
+35-5	2654-2658	spår	*[22]	_	_	_	_	
+35-6	2659-2661	är	_	_	_	_	_	
+35-7	2662-2664	en	_	Target[7]	35-1[22]	false[7]	4[7]	
+35-8	2665-2677	nödvändighet	_	Target[7]	35-1[22]	false[7]	4[7]	
+35-9	2678-2681	för	_	_	_	_	_	
+35-10	2682-2685	att	_	_	_	_	_	
+35-11	2686-2688	få	_	_	_	_	_	
+35-12	2689-2693	fler	_	_	_	_	_	
+35-13	2694-2697	tåg	_	_	_	_	_	
+35-14	2697-2698	.	_	_	_	_	_	
+
+#Text=Vi har ansvar för att SJ har långsiktiga villkor att agera utifrån, som gör det möjligt för dem att planera och köpa in nya moderna vagnar.
+36-1	2699-2701	Vi	_	_	_	_	_	
+36-2	2702-2705	har	_	_	_	_	_	
+36-3	2706-2712	ansvar	_	_	_	_	_	
+36-4	2713-2716	för	_	_	_	_	_	
+36-5	2717-2720	att	_	_	_	_	_	
+36-6	2721-2723	SJ	_	_	_	_	_	
+36-7	2724-2727	har	_	_	_	_	_	
+36-8	2728-2739	långsiktiga	_	_	_	_	_	
+36-9	2740-2747	villkor	_	_	_	_	_	
+36-10	2748-2751	att	_	_	_	_	_	
+36-11	2752-2757	agera	_	_	_	_	_	
+36-12	2758-2765	utifrån	_	_	_	_	_	
+36-13	2765-2766	,	_	_	_	_	_	
+36-14	2767-2770	som	_	_	_	_	_	
+36-15	2771-2774	gör	_	_	_	_	_	
+36-16	2775-2778	det	_	_	_	_	_	
+36-17	2779-2786	möjligt	_	_	_	_	_	
+36-18	2787-2790	för	_	_	_	_	_	
+36-19	2791-2794	dem	_	_	_	_	_	
+36-20	2795-2798	att	_	_	_	_	_	
+36-21	2799-2806	planera	_	_	_	_	_	
+36-22	2807-2810	och	_	_	_	_	_	
+36-23	2811-2815	köpa	_	_	_	_	_	
+36-24	2816-2818	in	_	_	_	_	_	
+36-25	2819-2822	nya	_	_	_	_	_	
+36-26	2823-2830	moderna	_	Target	36-27	false	4	
+36-27	2831-2837	vagnar	*	_	_	_	_	
+36-28	2837-2838	.	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2840-2841	#	_	_	_	_	_	
+37-2	2841-2842	P	_	_	_	_	_	
+37-3	2843-2846	IMM	_	_	_	_	_	
+37-4	2846-2847	.	_	_	_	_	_	
+
+#Text=Vi behöver se till att SJ har som främsta uppgift att öka tågresandet, i?
+38-1	2849-2851	Vi	_	_	_	_	_	
+38-2	2852-2859	behöver	_	_	_	_	_	
+38-3	2860-2862	se	_	_	_	_	_	
+38-4	2863-2867	till	_	_	_	_	_	
+38-5	2868-2871	att	_	_	_	_	_	
+38-6	2872-2874	SJ	_	_	_	_	_	
+38-7	2875-2878	har	_	_	_	_	_	
+38-8	2879-2882	som	_	_	_	_	_	
+38-9	2883-2890	främsta	_	Target[8]	38-11[23]	false[8]	4[8]	
+38-10	2891-2898	uppgift	_	Target[8]	38-11[23]	false[8]	4[8]	
+38-11	2899-2902	att	*[23]	_	_	_	_	
+38-12	2903-2906	öka	*[23]	_	_	_	_	
+38-13	2907-2918	tågresandet	*[23]	_	_	_	_	
+38-14	2918-2919	,	_	_	_	_	_	
+38-15	2920-2921	i	_	_	_	_	_	
+38-16	2921-2922	?	_	_	_	_	_	
+
+#Text=stället för att ha som enda uppgift att leverera vinst till staten.
+39-1	2923-2930	stället	_	_	_	_	_	
+39-2	2931-2934	för	_	_	_	_	_	
+39-3	2935-2938	att	_	_	_	_	_	
+39-4	2939-2941	ha	_	_	_	_	_	
+39-5	2942-2945	som	_	_	_	_	_	
+39-6	2946-2950	enda	_	Target[9]	39-8[24]	false[9]	2[9]	
+39-7	2951-2958	uppgift	_	Target[9]	39-8[24]	false[9]	2[9]	
+39-8	2959-2962	att	*[24]	_	_	_	_	
+39-9	2963-2971	leverera	*[24]	_	_	_	_	
+39-10	2972-2977	vinst	*[24]	_	_	_	_	
+39-11	2978-2982	till	*[24]	_	_	_	_	
+39-12	2983-2989	staten	*[24]	_	_	_	_	
+39-13	2989-2990	.	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2992-2993	#	_	_	_	_	_	
+40-2	2993-2994	P	_	_	_	_	_	
+40-3	2995-2998	IMM	_	_	_	_	_	
+40-4	2998-2999	.	_	_	_	_	_	
+
+#Text=Vem som helst kan förstå att för att få till stånd en effektiv och välfungerande tågtrafik krävs samordning och helhetssyn.
+41-1	3001-3004	Vem	_	_	_	_	_	
+41-2	3005-3008	som	_	_	_	_	_	
+41-3	3009-3014	helst	_	_	_	_	_	
+41-4	3015-3018	kan	_	_	_	_	_	
+41-5	3019-3025	förstå	_	_	_	_	_	
+41-6	3026-3029	att	_	_	_	_	_	
+41-7	3030-3033	för	_	_	_	_	_	
+41-8	3034-3037	att	_	_	_	_	_	
+41-9	3038-3040	få	_	_	_	_	_	
+41-10	3041-3045	till	_	_	_	_	_	
+41-11	3046-3051	stånd	_	_	_	_	_	
+41-12	3052-3054	en	_	_	_	_	_	
+41-13	3055-3063	effektiv	_	_	_	_	_	
+41-14	3064-3067	och	_	_	_	_	_	
+41-15	3068-3081	välfungerande	_	_	_	_	_	
+41-16	3082-3091	tågtrafik	_	_	_	_	_	
+41-17	3092-3097	krävs	_	_	_	_	_	
+41-18	3098-3108	samordning	_	_	_	_	_	
+41-19	3109-3112	och	_	_	_	_	_	
+41-20	3113-3123	helhetssyn	_	_	_	_	_	
+41-21	3123-3124	.	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3126-3127	#	_	_	_	_	_	
+42-2	3127-3128	P	_	_	_	_	_	
+42-3	3129-3132	IMM	_	_	_	_	_	
+42-4	3132-3133	.	_	_	_	_	_	
+
+#Text=Miljöpartiet anser att de politiska uppdragen till SJ behöver förtydligas, så att bolaget blir en drivande faktor för att nå ett effektivt och klimatsmart transportsystem.
+43-1	3135-3147	Miljöpartiet	_	_	_	_	_	
+43-2	3148-3153	anser	_	_	_	_	_	
+43-3	3154-3157	att	_	_	_	_	_	
+43-4	3158-3160	de	*[25]	_	_	_	_	
+43-5	3161-3170	politiska	*[25]	_	_	_	_	
+43-6	3171-3180	uppdragen	*[25]	_	_	_	_	
+43-7	3181-3185	till	*[25]	_	_	_	_	
+43-8	3186-3188	SJ	*[25]	_	_	_	_	
+43-9	3189-3196	behöver	_	Target[10]	43-4[25]	false[10]	2[10]	
+43-10	3197-3208	förtydligas	_	Target[10]	43-4[25]	false[10]	2[10]	
+43-11	3208-3209	,	_	_	_	_	_	
+43-12	3210-3212	så	_	_	_	_	_	
+43-13	3213-3216	att	_	_	_	_	_	
+43-14	3217-3224	bolaget	_	_	_	_	_	
+43-15	3225-3229	blir	_	_	_	_	_	
+43-16	3230-3232	en	_	_	_	_	_	
+43-17	3233-3241	drivande	_	Target	43-18	false	4	
+43-18	3242-3248	faktor	*	_	_	_	_	
+43-19	3249-3252	för	_	_	_	_	_	
+43-20	3253-3256	att	_	_	_	_	_	
+43-21	3257-3259	nå	_	_	_	_	_	
+43-22	3260-3263	ett	_	_	_	_	_	
+43-23	3264-3273	effektivt	_	_	_	_	_	
+43-24	3274-3277	och	_	_	_	_	_	
+43-25	3278-3289	klimatsmart	_	_	_	_	_	
+43-26	3290-3305	transportsystem	_	_	_	_	_	
+43-27	3305-3306	.	_	_	_	_	_	
+
+#Text=SJ har en nyckelroll att spela i denna omställning.
+44-1	3307-3309	SJ	*	_	_	_	_	
+44-2	3310-3313	har	_	_	_	_	_	
+44-3	3314-3316	en	_	_	_	_	_	
+44-4	3317-3327	nyckelroll	_	Target	44-1	false	4	
+44-5	3328-3331	att	_	_	_	_	_	
+44-6	3332-3337	spela	_	_	_	_	_	
+44-7	3338-3339	i	_	_	_	_	_	
+44-8	3340-3345	denna	_	_	_	_	_	
+44-9	3346-3357	omställning	_	_	_	_	_	
+44-10	3357-3358	.	_	_	_	_	_	
+
+#Text=SJ:s uppdrag ska vara att bidra till en fördubbling av andelen resande med kollektivtrafik.
+45-1	3359-3361	SJ	_	_	_	_	_	
+45-2	3361-3362	:	_	_	_	_	_	
+45-3	3362-3363	s	_	_	_	_	_	
+45-4	3364-3371	uppdrag	_	_	_	_	_	
+45-5	3372-3375	ska	_	_	_	_	_	
+45-6	3376-3380	vara	_	_	_	_	_	
+45-7	3381-3384	att	_	_	_	_	_	
+45-8	3385-3390	bidra	_	_	_	_	_	
+45-9	3391-3395	till	_	_	_	_	_	
+45-10	3396-3398	en	_	_	_	_	_	
+45-11	3399-3410	fördubbling	_	_	_	_	_	
+45-12	3411-3413	av	_	_	_	_	_	
+45-13	3414-3421	andelen	_	_	_	_	_	
+45-14	3422-3429	resande	_	_	_	_	_	
+45-15	3430-3433	med	_	_	_	_	_	
+45-16	3434-3449	kollektivtrafik	_	_	_	_	_	
+45-17	3449-3450	.	_	_	_	_	_	
+
+#Text=SJ ska också verka för att de transportpolitiska målen och klimatmålen nås, samt att tågtrafiken upprätthålls och utvecklas.
+46-1	3451-3453	SJ	_	_	_	_	_	
+46-2	3454-3457	ska	_	_	_	_	_	
+46-3	3458-3463	också	_	_	_	_	_	
+46-4	3464-3469	verka	_	_	_	_	_	
+46-5	3470-3473	för	_	_	_	_	_	
+46-6	3474-3477	att	_	_	_	_	_	
+46-7	3478-3480	de	_	_	_	_	_	
+46-8	3481-3499	transportpolitiska	_	_	_	_	_	
+46-9	3500-3505	målen	_	_	_	_	_	
+46-10	3506-3509	och	_	_	_	_	_	
+46-11	3510-3521	klimatmålen	_	_	_	_	_	
+46-12	3522-3525	nås	_	_	_	_	_	
+46-13	3525-3526	,	_	_	_	_	_	
+46-14	3527-3531	samt	_	_	_	_	_	
+46-15	3532-3535	att	_	_	_	_	_	
+46-16	3536-3547	tågtrafiken	_	_	_	_	_	
+46-17	3548-3560	upprätthålls	_	_	_	_	_	
+46-18	3561-3564	och	_	_	_	_	_	
+46-19	3565-3574	utvecklas	_	_	_	_	_	
+46-20	3574-3575	.	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3577-3578	#	_	_	_	_	_	
+47-2	3578-3579	P	_	_	_	_	_	
+47-3	3580-3583	IMM	_	_	_	_	_	
+47-4	3583-3584	.	_	_	_	_	_	
+
+#Text=I dagsläget är det ofta billigare att flyga än att ta tåget.
+48-1	3586-3587	I	_	_	_	_	_	
+48-2	3588-3597	dagsläget	_	_	_	_	_	
+48-3	3598-3600	är	_	_	_	_	_	
+48-4	3601-3604	det	_	_	_	_	_	
+48-5	3605-3609	ofta	_	_	_	_	_	
+48-6	3610-3619	billigare	_	Target	48-8[26]	false	4	
+48-7	3620-3623	att	_	_	_	_	_	
+48-8	3624-3629	flyga	*[26]	_	_	_	_	
+48-9	3630-3632	än	*[26]	_	_	_	_	
+48-10	3633-3636	att	*[26]|*[27]	_	_	_	_	
+48-11	3637-3639	ta	*[26]|*[27]	_	_	_	_	
+48-12	3640-3645	tåget	*[26]|*[27]	_	_	_	_	
+48-13	3645-3646	.	_	_	_	_	_	
+
+#Text=Den som vill ta ett miljömässigt hållbart beslut får helt felaktiga signaler.
+49-1	3647-3650	Den	_	_	_	_	_	
+49-2	3651-3654	som	_	_	_	_	_	
+49-3	3655-3659	vill	_	_	_	_	_	
+49-4	3660-3662	ta	_	_	_	_	_	
+49-5	3663-3666	ett	_	_	_	_	_	
+49-6	3667-3679	miljömässigt	_	Target[11]	49-8	false[11]	4[11]	
+49-7	3680-3688	hållbart	_	Target[11]	49-8	false[11]	4[11]	
+49-8	3689-3695	beslut	*	_	_	_	_	
+49-9	3696-3699	får	_	_	_	_	_	
+49-10	3700-3704	helt	_	Target[12]	49-12	false[12]	2[12]	
+49-11	3705-3714	felaktiga	_	Target[12]	49-12	false[12]	2[12]	
+49-12	3715-3723	signaler	*	_	_	_	_	
+49-13	3723-3724	.	_	_	_	_	_	
+
+#Text=Flyget är helt befriat från koldioxidskatt, vilket innebär en kontinuerlig subvention av ett miljöförstörande alternativ.
+50-1	3725-3731	Flyget	_	_	_	_	_	
+50-2	3732-3734	är	_	_	_	_	_	
+50-3	3735-3739	helt	_	_	_	_	_	
+50-4	3740-3747	befriat	_	_	_	_	_	
+50-5	3748-3752	från	_	_	_	_	_	
+50-6	3753-3767	koldioxidskatt	_	_	_	_	_	
+50-7	3767-3768	,	_	_	_	_	_	
+50-8	3769-3775	vilket	_	_	_	_	_	
+50-9	3776-3783	innebär	_	_	_	_	_	
+50-10	3784-3786	en	_	_	_	_	_	
+50-11	3787-3799	kontinuerlig	_	_	_	_	_	
+50-12	3800-3810	subvention	_	_	_	_	_	
+50-13	3811-3813	av	_	_	_	_	_	
+50-14	3814-3817	ett	_	_	_	_	_	
+50-15	3818-3834	miljöförstörande	_	Target	50-16	false	2	
+50-16	3835-3845	alternativ	*	_	_	_	_	
+50-17	3845-3846	.	_	_	_	_	_	
+
+#Text=Regeringens ensidiga höjning av banavgifterna blir i det läget bara ytterligare ett sätt att ge både väg- och flygtrafik nya fördelar jämte det miljömässigt bästa alternativet.
+51-1	3847-3858	Regeringens	_	_	_	_	_	
+51-2	3859-3867	ensidiga	_	Target	51-3	false	2	
+51-3	3868-3875	höjning	*	_	_	_	_	
+51-4	3876-3878	av	_	_	_	_	_	
+51-5	3879-3892	banavgifterna	_	_	_	_	_	
+51-6	3893-3897	blir	_	_	_	_	_	
+51-7	3898-3899	i	_	_	_	_	_	
+51-8	3900-3903	det	_	_	_	_	_	
+51-9	3904-3909	läget	_	_	_	_	_	
+51-10	3910-3914	bara	_	_	_	_	_	
+51-11	3915-3926	ytterligare	_	_	_	_	_	
+51-12	3927-3930	ett	_	_	_	_	_	
+51-13	3931-3935	sätt	_	_	_	_	_	
+51-14	3936-3939	att	_	_	_	_	_	
+51-15	3940-3942	ge	_	_	_	_	_	
+51-16	3943-3947	både	_	_	_	_	_	
+51-17	3948-3951	väg	_	_	_	_	_	
+51-18	3951-3952	-	_	_	_	_	_	
+51-19	3953-3956	och	_	_	_	_	_	
+51-20	3957-3967	flygtrafik	_	_	_	_	_	
+51-21	3968-3971	nya	_	_	_	_	_	
+51-22	3972-3980	fördelar	_	_	_	_	_	
+51-23	3981-3986	jämte	_	_	_	_	_	
+51-24	3987-3990	det	_	_	_	_	_	
+51-25	3991-4003	miljömässigt	_	Target[13]|Target[14]	48-10[27]|51-27	false[13]|false[14]	4[13]|4[14]	
+51-26	4004-4009	bästa	_	Target[13]|Target[14]	48-10[27]|51-27	false[13]|false[14]	4[13]|4[14]	
+51-27	4010-4022	alternativet	*	Target[13]	48-10[27]	false[13]	4[13]	
+51-28	4022-4023	.	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4025-4026	#	_	_	_	_	_	
+52-2	4026-4027	P	_	_	_	_	_	
+52-3	4028-4031	IMM	_	_	_	_	_	
+52-4	4031-4032	.	_	_	_	_	_	
+
+#Text=Vi vill slopa kraven på vinstutdelning till staten från SJ.
+53-1	4034-4036	Vi	_	_	_	_	_	
+53-2	4037-4041	vill	_	_	_	_	_	
+53-3	4042-4047	slopa	_	_	_	_	_	
+53-4	4048-4054	kraven	_	Target	53-6[28]	false	2	
+53-5	4055-4057	på	_	_	_	_	_	
+53-6	4058-4072	vinstutdelning	*[28]	_	_	_	_	
+53-7	4073-4077	till	*[28]	_	_	_	_	
+53-8	4078-4084	staten	*[28]	_	_	_	_	
+53-9	4085-4089	från	*[28]	_	_	_	_	
+53-10	4090-4092	SJ	*[28]	_	_	_	_	
+53-11	4092-4093	.	_	_	_	_	_	
+
+#Text=Det är bättre att överskottet används till investeringar och underhåll för en bättre service och att vi successivt får en bättre balans mellan priset på tåg- och flygbiljetter.
+54-1	4094-4097	Det	_	_	_	_	_	
+54-2	4098-4100	är	_	Target[15]	54-4[29]	false[15]	4[15]	
+54-3	4101-4107	bättre	_	Target[15]	54-4[29]	false[15]	4[15]	
+54-4	4108-4111	att	*[29]	_	_	_	_	
+54-5	4112-4123	överskottet	*[29]	_	_	_	_	
+54-6	4124-4131	används	*[29]	_	_	_	_	
+54-7	4132-4136	till	*[29]	_	_	_	_	
+54-8	4137-4150	investeringar	*[29]	_	_	_	_	
+54-9	4151-4154	och	*[29]	_	_	_	_	
+54-10	4155-4164	underhåll	*[29]	_	_	_	_	
+54-11	4165-4168	för	*[29]	_	_	_	_	
+54-12	4169-4171	en	*[29]	_	_	_	_	
+54-13	4172-4178	bättre	*[29]	Target	54-14[30]	false	4	
+54-14	4179-4186	service	*[29]|*[30]	_	_	_	_	
+54-15	4187-4190	och	_	_	_	_	_	
+54-16	4191-4194	att	_	_	_	_	_	
+54-17	4195-4197	vi	_	_	_	_	_	
+54-18	4198-4208	successivt	_	_	_	_	_	
+54-19	4209-4212	får	_	_	_	_	_	
+54-20	4213-4215	en	_	_	_	_	_	
+54-21	4216-4222	bättre	_	Target	54-22[31]	false	4	
+54-22	4223-4229	balans	*[31]	_	_	_	_	
+54-23	4230-4236	mellan	*[31]	_	_	_	_	
+54-24	4237-4243	priset	*[31]	_	_	_	_	
+54-25	4244-4246	på	*[31]	_	_	_	_	
+54-26	4247-4250	tåg	*[31]	_	_	_	_	
+54-27	4250-4251	-	*[31]	_	_	_	_	
+54-28	4252-4255	och	*[31]	_	_	_	_	
+54-29	4256-4269	flygbiljetter	*[31]	_	_	_	_	
+54-30	4269-4270	.	_	_	_	_	_	
+
+#Text=Det ska vara billigare att åka tåg än att flyga.
+55-1	4271-4274	Det	_	_	_	_	_	
+55-2	4275-4278	ska	_	_	_	_	_	
+55-3	4279-4283	vara	_	_	_	_	_	
+55-4	4284-4293	billigare	_	Target	55-5[32]	false	4	
+55-5	4294-4297	att	*[32]	_	_	_	_	
+55-6	4298-4301	åka	*[32]	_	_	_	_	
+55-7	4302-4305	tåg	*[32]	_	_	_	_	
+55-8	4306-4308	än	*[32]	_	_	_	_	
+55-9	4309-4312	att	*[32]	_	_	_	_	
+55-10	4313-4318	flyga	*[32]	_	_	_	_	
+55-11	4318-4319	.	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4321-4322	#	_	_	_	_	_	
+56-2	4322-4323	P	_	_	_	_	_	
+56-3	4324-4327	IMM	_	_	_	_	_	
+56-4	4327-4328	.	_	_	_	_	_	
+
+#Text=Miljöpartiets förslag att stärka och utveckla tågtrafiken kommer innebära att den enskilda människans relation till tågtrafiken präglas av reslust och bekvämlighet, i stället för trötthet inför ständiga förseningar.
+57-1	4330-4343	Miljöpartiets	*[33]	_	_	_	_	
+57-2	4344-4351	förslag	*[33]	_	_	_	_	
+57-3	4352-4355	att	*[33]	_	_	_	_	
+57-4	4356-4362	stärka	*[33]	_	_	_	_	
+57-5	4363-4366	och	*[33]	_	_	_	_	
+57-6	4367-4375	utveckla	*[33]	_	_	_	_	
+57-7	4376-4387	tågtrafiken	*[33]	_	_	_	_	
+57-8	4388-4394	kommer	_	_	_	_	_	
+57-9	4395-4403	innebära	_	_	_	_	_	
+57-10	4404-4407	att	_	_	_	_	_	
+57-11	4408-4411	den	_	_	_	_	_	
+57-12	4412-4420	enskilda	_	_	_	_	_	
+57-13	4421-4431	människans	_	_	_	_	_	
+57-14	4432-4440	relation	_	_	_	_	_	
+57-15	4441-4445	till	_	_	_	_	_	
+57-16	4446-4457	tågtrafiken	_	_	_	_	_	
+57-17	4458-4465	präglas	_	_	_	_	_	
+57-18	4466-4468	av	_	_	_	_	_	
+57-19	4469-4476	reslust	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-20	4477-4480	och	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-21	4481-4493	bekvämlighet	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-22	4493-4494	,	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-23	4495-4496	i	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-24	4497-4504	stället	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-25	4505-4508	för	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-26	4509-4517	trötthet	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-27	4518-4523	inför	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-28	4524-4532	ständiga	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-29	4533-4544	förseningar	_	Target[16]	57-1[33]	false[16]	5[16]	
+57-30	4544-4545	.	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4547-4548	#	_	_	_	_	_	
+58-2	4548-4549	P	_	_	_	_	_	
+58-3	4550-4553	IMM	_	_	_	_	_	
+58-4	4553-4554	.	_	_	_	_	_	
+
+#Text=FAKTA.
+59-1	4556-4561	FAKTA	_	_	_	_	_	
+59-2	4561-4562	.	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4564-4565	#	_	_	_	_	_	
+60-2	4565-4566	P	_	_	_	_	_	
+60-3	4567-4570	IMM	_	_	_	_	_	
+60-4	4570-4571	.	_	_	_	_	_	
+
+#Text=Peter ErikssonKarin Svensson Smith.
+61-1	4573-4578	Peter	_	_	_	_	_	
+61-2	4579-4592	ErikssonKarin	_	_	_	_	_	
+61-3	4593-4601	Svensson	_	_	_	_	_	
+61-4	4602-4607	Smith	_	_	_	_	_	
+61-5	4607-4608	.	_	_	_	_	_	

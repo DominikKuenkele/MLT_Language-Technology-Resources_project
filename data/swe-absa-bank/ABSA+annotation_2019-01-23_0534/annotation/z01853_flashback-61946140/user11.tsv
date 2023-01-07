@@ -1,0 +1,724 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vilken invandringspolitik vill ni flyktingvänner ha i framtiden?
+3-1	18-24	Vilken	_	_	_	_	_	_	
+3-2	25-43	invandringspolitik	_	_	_	_	_	_	
+3-3	44-48	vill	_	_	_	_	_	_	
+3-4	49-51	ni	*[31]	Target[3]	3-4[31]	false[3]	2[3]	_	
+3-5	52-66	flyktingvänner	*[31]	Target[3]	3-4[31]	false[3]	2[3]	_	
+3-6	67-69	ha	_	_	_	_	_	_	
+3-7	70-71	i	_	_	_	_	_	_	
+3-8	72-81	framtiden	_	_	_	_	_	_	
+3-9	81-82	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	84-85	#	_	_	_	_	_	_	
+4-2	85-86	P	_	_[4]	_	false[4]	3[4]	_	
+4-3	87-90	IMM	_	_[4]	_	false[4]	3[4]	_	
+4-4	90-91	.	_	_	_	_	_	_	
+
+#Text=De flesta som skriver här på Flashback är tydligt invandringskritiska, men några verkar vara starkt engagerade i att hjälpa flyktingar att få stanna i Sverige.
+5-1	93-95	De	*[32]	_	_	_	_	_	
+5-2	96-102	flesta	*[32]	_	_	_	_	_	
+5-3	103-106	som	*[32]	_	_	_	_	_	
+5-4	107-114	skriver	*[32]	_	_	_	_	_	
+5-5	115-118	här	*[32]	_	_	_	_	_	
+5-6	119-121	på	*[32]	_	_	_	_	_	
+5-7	122-131	Flashback	*[32]	_	_	_	_	_	
+5-8	132-134	är	_	_	_	_	_	_	
+5-9	135-142	tydligt	_	Source[5]	5-1[32]	false[5]	2[5]	_	
+5-10	143-162	invandringskritiska	_	Source[5]	5-1[32]	false[5]	2[5]	_	
+5-11	162-163	,	_	_	_	_	_	_	
+5-12	164-167	men	_	_	_	_	_	_	
+5-13	168-173	några	*	_	_	_	_	_	
+5-14	174-180	verkar	_	_	_	_	_	_	
+5-15	181-185	vara	_	_	_	_	_	_	
+5-16	186-192	starkt	_	Target[6]	5-20[33]	false[6]	4[6]	_	
+5-17	193-203	engagerade	_	Target[6]	5-20[33]	false[6]	4[6]	_	
+5-18	204-205	i	_	_	_	_	_	_	
+5-19	206-209	att	_	_	_	_	_	_	
+5-20	210-216	hjälpa	*[33]	_	_	_	_	_	
+5-21	217-227	flyktingar	*[33]	_	_	_	_	_	
+5-22	228-231	att	*[33]	_	_	_	_	_	
+5-23	232-234	få	*[33]	_	_	_	_	_	
+5-24	235-241	stanna	*[33]	_	_	_	_	_	
+5-25	242-243	i	*[33]	_	_	_	_	_	
+5-26	244-251	Sverige	*[33]	_	_	_	_	_	
+5-27	251-252	.	_	_	_	_	_	_	
+
+#Text=Flyktingvännerna tycks också anse att svensk migrationspolitik borde vara mer generös än den är idag, så att fler kan få komma hit och stanna här.
+6-1	253-269	Flyktingvännerna	*	Target;Source	6-1;5-13	false	2	_	
+6-2	270-275	tycks	_	_	_	_	_	_	
+6-3	276-281	också	_	_	_	_	_	_	
+6-4	282-286	anse	_	_	_	false	4	_	
+6-5	287-290	att	_	_	_	_	_	_	
+6-6	291-297	svensk	*[34]	_	_	_	_	_	
+6-7	298-315	migrationspolitik	*[34]	_	_	_	_	_	
+6-8	316-321	borde	_	Source;Target[7]	6-1;6-6[34]	false[7]	4[7]	6-4[0_7]	
+6-9	322-326	vara	_	Source;Target[7]	6-1;6-6[34]	false[7]	4[7]	_	
+6-10	327-330	mer	_	Source;Target[7]	6-1;6-6[34]	false[7]	4[7]	_	
+6-11	331-338	generös	_	Source;Target[7]	6-1;6-6[34]	false[7]	4[7]	_	
+6-12	339-341	än	_	_	_	_	_	_	
+6-13	342-345	den	_	_	_	_	_	_	
+6-14	346-348	är	_	_	_	_	_	_	
+6-15	349-353	idag	_	_	_	_	_	_	
+6-16	353-354	,	_	_	_	_	_	_	
+6-17	355-357	så	_	_	_	_	_	_	
+6-18	358-361	att	_	_	_	_	_	_	
+6-19	362-366	fler	_	_	_	_	_	_	
+6-20	367-370	kan	_	_	_	_	_	_	
+6-21	371-373	få	_	_	_	_	_	_	
+6-22	374-379	komma	_	_	_	_	_	_	
+6-23	380-383	hit	_	_	_	_	_	_	
+6-24	384-387	och	_	_	_	_	_	_	
+6-25	388-394	stanna	_	_	_	_	_	_	
+6-26	395-398	här	_	_	_	_	_	_	
+6-27	398-399	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	401-402	#	_	_	_	_	_	_	
+7-2	402-403	P	_	_[8]	_	false[8]	2[8]	_	
+7-3	404-407	IMM	_	_[8]	_	false[8]	2[8]	_	
+7-4	407-408	.	_	_	_	_	_	_	
+
+#Text=Själv kan jag sympatisera med medlidandet med enskilda flyktingar, men som Malmöbo är jag djupt bekymrad över vilken inverkan en stor invandring kan få på ett helt samhälle.
+8-1	410-415	Själv	_	_	_	_	_	_	
+8-2	416-419	kan	_	_	_	_	_	_	
+8-3	420-423	jag	*	_	_	_	_	_	
+8-4	424-435	sympatisera	_	Target;Source[9]	8-6[35];8-3	false[9]	4[9]	_	
+8-5	436-439	med	_	Target;Source[9]	8-6[35];8-3	false[9]	4[9]	_	
+8-6	440-451	medlidandet	*[35]	_	_	_	_	_	
+8-7	452-455	med	*[35]	_	_	_	_	_	
+8-8	456-464	enskilda	*[35]	_	_	_	_	_	
+8-9	465-475	flyktingar	*[35]	_	_	_	_	_	
+8-10	475-476	,	_	_	_	_	_	_	
+8-11	477-480	men	_	_	_	_	_	_	
+8-12	481-484	som	_	_	_	_	_	_	
+8-13	485-492	Malmöbo	_	_	_	_	_	_	
+8-14	493-495	är	_	_	_	_	_	_	
+8-15	496-499	jag	*	_	_	_	_	_	
+8-16	500-505	djupt	_	Source;Target[10]	8-15;8-19[36]	false[10]	1[10]	_	
+8-17	506-514	bekymrad	_	Source;Target[10]	8-15;8-19[36]	false[10]	1[10]	_	
+8-18	515-519	över	_	Source;Target[10]	8-15;8-19[36]	false[10]	1[10]	_	
+8-19	520-526	vilken	*[36]	_	_	_	_	_	
+8-20	527-535	inverkan	*[36]	_	_	_	_	_	
+8-21	536-538	en	*[36]	_	_	_	_	_	
+8-22	539-543	stor	*[36]	_	_	_	_	_	
+8-23	544-554	invandring	*[36]	_	_	_	_	_	
+8-24	555-558	kan	*[36]	_	_	_	_	_	
+8-25	559-561	få	*[36]	_	_	_	_	_	
+8-26	562-564	på	*[36]	_	_	_	_	_	
+8-27	565-568	ett	*[36]	_	_	_	_	_	
+8-28	569-573	helt	*[36]	_	_	_	_	_	
+8-29	574-582	samhälle	*[36]	_	_	_	_	_	
+8-30	582-583	.	_	_	_	_	_	_	
+
+#Text=Den oron verkar ni flyktingvänner inte dela.
+9-1	584-587	Den	_	_	_	_	_	_	
+9-2	588-592	oron	_	_	_	false	2	_	
+9-3	593-599	verkar	_	_	_	_	_	_	
+9-4	600-602	ni	_	_	_	_	_	_	
+9-5	603-617	flyktingvänner	_	_	_	_	_	_	
+9-6	618-622	inte	_	_	_	_	_	_	
+9-7	623-627	dela	_	_	_	_	_	_	
+9-8	627-628	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	630-631	#	_	_	_	_	_	_	
+10-2	631-632	P	_	_[11]	_	false[11]	3[11]	_	
+10-3	633-636	IMM	_	_[11]	_	false[11]	3[11]	_	
+10-4	636-637	.	_	_	_	_	_	_	
+
+#Text=Jag vänder mig nu till er flyktingvänner för att få reda på hur ni ser på invandring som en samhällsförändrande kraft.
+11-1	639-642	Jag	_	_	_	_	_	_	
+11-2	643-649	vänder	_	_	_	_	_	_	
+11-3	650-653	mig	_	_	_	_	_	_	
+11-4	654-656	nu	_	_	_	_	_	_	
+11-5	657-661	till	_	_	_	_	_	_	
+11-6	662-664	er	_	_	_	_	_	_	
+11-7	665-679	flyktingvänner	_	_	_	_	_	_	
+11-8	680-683	för	_	_	_	_	_	_	
+11-9	684-687	att	_	_	_	_	_	_	
+11-10	688-690	få	_	_	_	_	_	_	
+11-11	691-695	reda	_	_	_	_	_	_	
+11-12	696-698	på	_	_	_	_	_	_	
+11-13	699-702	hur	_	_	_	_	_	_	
+11-14	703-705	ni	_	_	_	_	_	_	
+11-15	706-709	ser	_	_	_	_	_	_	
+11-16	710-712	på	_	_	_	_	_	_	
+11-17	713-723	invandring	_	_	_	_	_	_	
+11-18	724-727	som	_	_	_	_	_	_	
+11-19	728-730	en	_	_	_	_	_	_	
+11-20	731-750	samhällsförändrande	_	_	_	_	_	_	
+11-21	751-756	kraft	_	_	_	_	_	_	
+11-22	756-757	.	_	_	_	_	_	_	
+
+#Text=Det här är de frågor jag vill ställa på er:.
+12-1	758-761	Det	_	_	_	_	_	_	
+12-2	762-765	här	_	_	_	_	_	_	
+12-3	766-768	är	_	_	_	_	_	_	
+12-4	769-771	de	_	_	_	_	_	_	
+12-5	772-778	frågor	_	_	_	_	_	_	
+12-6	779-782	jag	_	_	_	_	_	_	
+12-7	783-787	vill	_	_	_	_	_	_	
+12-8	788-794	ställa	_	_	_	_	_	_	
+12-9	795-797	på	_	_	_	_	_	_	
+12-10	798-800	er	_	_	_	_	_	_	
+12-11	800-801	:	_	_	_	_	_	_	
+12-12	801-802	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=1) Ungefär hur många flyktingar anser ni att Sverige.
+13-1	804-805	#	_	_	_	_	_	_	
+13-2	805-806	P	_	_	_	_	_	_	
+13-3	807-810	IMM	_	_	_	_	_	_	
+13-4	810-811	.	_	_	_	_	_	_	
+13-5	813-814	1	_	_	_	_	_	_	
+13-6	814-815	)	_	_	_	_	_	_	
+13-7	816-823	Ungefär	_	_	_	_	_	_	
+13-8	824-827	hur	_	_	_	_	_	_	
+13-9	828-833	många	_	_	_	_	_	_	
+13-10	834-844	flyktingar	_	_	_	_	_	_	
+13-11	845-850	anser	_	_	_	_	_	_	
+13-12	851-853	ni	_	_	_	_	_	_	
+13-13	854-857	att	_	_	_	_	_	_	
+13-14	858-865	Sverige	_	_	_	_	_	_	
+13-15	865-866	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	868-869	#	_	_	_	_	_	_	
+14-2	869-870	P	_	_	_	_	_	_	
+14-3	871-874	IMM	_	_	_	_	_	_	
+14-4	874-875	.	_	_	_	_	_	_	
+
+#Text=ta emot per år?
+15-1	877-879	ta	_	_	_	_	_	_	
+15-2	880-884	emot	_	_	_	_	_	_	
+15-3	885-888	per	_	_	_	_	_	_	
+15-4	889-891	år	_	_	_	_	_	_	
+15-5	891-892	?	_	_	_	_	_	_	
+
+#Text=Den nuvarande siffran ligger väl kring 30 000.
+16-1	893-896	Den	_	_	_	_	_	_	
+16-2	897-906	nuvarande	_	_	_	_	_	_	
+16-3	907-914	siffran	_	_	_	_	_	_	
+16-4	915-921	ligger	_	_	_	_	_	_	
+16-5	922-925	väl	_	_	_	_	_	_	
+16-6	926-931	kring	_	_	_	_	_	_	
+16-7	932-934	30	_	_	_	_	_	_	
+16-8	935-938	000	_	_	_	_	_	_	
+16-9	938-939	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=2) Ungefär hur många flyktingar anser ni att Sverige.
+17-1	941-942	#	_	_	_	_	_	_	
+17-2	942-943	P	_	_	_	_	_	_	
+17-3	944-947	IMM	_	_	_	_	_	_	
+17-4	947-948	.	_	_	_	_	_	_	
+17-5	950-951	2	_	_	_	_	_	_	
+17-6	951-952	)	_	_	_	_	_	_	
+17-7	953-960	Ungefär	_	_	_	_	_	_	
+17-8	961-964	hur	_	_	_	_	_	_	
+17-9	965-970	många	_	_	_	_	_	_	
+17-10	971-981	flyktingar	_	_	_	_	_	_	
+17-11	982-987	anser	_	_	_	_	_	_	
+17-12	988-990	ni	_	_	_	_	_	_	
+17-13	991-994	att	_	_	_	_	_	_	
+17-14	995-1002	Sverige	_	_	_	_	_	_	
+17-15	1002-1003	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1005-1006	#	_	_	_	_	_	_	
+18-2	1006-1007	P	_	_[12]	_	false[12]	2[12]	_	
+18-3	1008-1011	IMM	_	_[12]	_	false[12]	2[12]	_	
+18-4	1011-1012	.	_	_	_	_	_	_	
+
+#Text=ta emot per år, utan att samhällsfunktionerna skadas?
+19-1	1014-1016	ta	_	_	_	_	_	_	
+19-2	1017-1021	emot	_	_	_	_	_	_	
+19-3	1022-1025	per	_	_	_	_	_	_	
+19-4	1026-1028	år	_	_	_	_	_	_	
+19-5	1028-1029	,	_	_	_	_	_	_	
+19-6	1030-1034	utan	_	_	_	_	_	_	
+19-7	1035-1038	att	_	_	_	_	_	_	
+19-8	1039-1059	samhällsfunktionerna	*	_	_	_	_	_	
+19-9	1060-1066	skadas	_	Target	19-8	false	2	_	
+19-10	1066-1067	?	_	_	_	_	_	_	
+
+#Text=Med samhällsfunktioner menar jag t.ex. bostäder, flyktingboenden, skola, sjukvård, tandvård, psykiatri, försörjningsstöd, sjukpensionering och andra delar av välfärden.
+20-1	1068-1071	Med	_	_	_	_	_	_	
+20-2	1072-1090	samhällsfunktioner	_	_	_	_	_	_	
+20-3	1091-1096	menar	_	_	_	_	_	_	
+20-4	1097-1100	jag	_	_	_	_	_	_	
+20-5	1101-1105	t.ex	_	_	_	_	_	_	
+20-6	1105-1106	.	_	_	_	_	_	_	
+20-7	1107-1115	bostäder	_	_	_	_	_	_	
+20-8	1115-1116	,	_	_	_	_	_	_	
+20-9	1117-1132	flyktingboenden	_	_	_	_	_	_	
+20-10	1132-1133	,	_	_	_	_	_	_	
+20-11	1134-1139	skola	_	_	_	_	_	_	
+20-12	1139-1140	,	_	_	_	_	_	_	
+20-13	1141-1149	sjukvård	_	_	_	_	_	_	
+20-14	1149-1150	,	_	_	_	_	_	_	
+20-15	1151-1159	tandvård	_	_	_	_	_	_	
+20-16	1159-1160	,	_	_	_	_	_	_	
+20-17	1161-1170	psykiatri	_	_	_	_	_	_	
+20-18	1170-1171	,	_	_	_	_	_	_	
+20-19	1172-1188	försörjningsstöd	_	_	_	_	_	_	
+20-20	1188-1189	,	_	_	_	_	_	_	
+20-21	1190-1206	sjukpensionering	_	_	_	_	_	_	
+20-22	1207-1210	och	_	_	_	_	_	_	
+20-23	1211-1216	andra	_	_	_	_	_	_	
+20-24	1217-1222	delar	_	_	_	_	_	_	
+20-25	1223-1225	av	_	_	_	_	_	_	
+20-26	1226-1235	välfärden	_	_	_	_	_	_	
+20-27	1235-1236	.	_	_	_	_	_	_	
+
+#Text=År 2015 tog Sverige emot betydligt fler än 100 000.
+21-1	1237-1239	År	_	_	_	_	_	_	
+21-2	1240-1244	2015	_	_	_	_	_	_	
+21-3	1245-1248	tog	_	_	_	_	_	_	
+21-4	1249-1256	Sverige	_	_	_	_	_	_	
+21-5	1257-1261	emot	_	_	_	_	_	_	
+21-6	1262-1271	betydligt	_	_	_	_	_	_	
+21-7	1272-1276	fler	_	_	_	_	_	_	
+21-8	1277-1279	än	_	_	_	_	_	_	
+21-9	1280-1283	100	_	_	_	_	_	_	
+21-10	1284-1287	000	_	_	_	_	_	_	
+21-11	1287-1288	.	_	_	_	_	_	_	
+
+#Text=Kan välfärden upprätthållas ifall 100 000 asylsökande tar sig in i Sverige varje år?.
+22-1	1289-1292	Kan	_	_	_	_	_	_	
+22-2	1293-1302	välfärden	_	_	_	_	_	_	
+22-3	1303-1316	upprätthållas	_	_	_	_	_	_	
+22-4	1317-1322	ifall	_	_	_	_	_	_	
+22-5	1323-1326	100	_	_	_	_	_	_	
+22-6	1327-1330	000	_	_	_	_	_	_	
+22-7	1331-1342	asylsökande	_	_	_	_	_	_	
+22-8	1343-1346	tar	_	_	_	_	_	_	
+22-9	1347-1350	sig	_	_	_	_	_	_	
+22-10	1351-1353	in	_	_	_	_	_	_	
+22-11	1354-1355	i	_	_	_	_	_	_	
+22-12	1356-1363	Sverige	_	_	_	_	_	_	
+22-13	1364-1369	varje	_	_	_	_	_	_	
+22-14	1370-1372	år	_	_	_	_	_	_	
+22-15	1372-1373	?	_	_	_	_	_	_	
+22-16	1373-1374	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=3) Det är sannolikt att de flesta flyktingar kommer att kosta Sverige mycket pengar innan de kan klara av att försörja sig själva.
+23-1	1376-1377	#	_	_	_	_	_	_	
+23-2	1377-1378	P	_	_[13]	_	false[13]	2[13]	_	
+23-3	1379-1382	IMM	_	_[13]	_	false[13]	2[13]	_	
+23-4	1382-1383	.	_	_	_	_	_	_	
+23-5	1385-1386	3	_	_	_	_	_	_	
+23-6	1386-1387	)	_	_	_	_	_	_	
+23-7	1388-1391	Det	_	_	_	_	_	_	
+23-8	1392-1394	är	_	Target[14]	23-11[37]	false[14]	3[14]	_	
+23-9	1395-1404	sannolikt	_	Target[14]	23-11[37]	false[14]	3[14]	_	
+23-10	1405-1408	att	_	_	_	_	_	_	
+23-11	1409-1411	de	*[37]	_	_	_	_	_	
+23-12	1412-1418	flesta	*[37]	_	_	_	_	_	
+23-13	1419-1429	flyktingar	*[37]	_	_	_	_	_	
+23-14	1430-1436	kommer	*[37]	_	_	_	_	_	
+23-15	1437-1440	att	*[37]	_	_	_	_	_	
+23-16	1441-1446	kosta	*[37]	_	_	_	_	_	
+23-17	1447-1454	Sverige	*[37]	_	_	_	_	_	
+23-18	1455-1461	mycket	*[37]	_	_	_	_	_	
+23-19	1462-1468	pengar	*[37]	_	_	_	_	_	
+23-20	1469-1474	innan	_	_	_	_	_	_	
+23-21	1475-1477	de	_	_	_	_	_	_	
+23-22	1478-1481	kan	_	_	_	_	_	_	
+23-23	1482-1487	klara	_	_	_	_	_	_	
+23-24	1488-1490	av	_	_	_	_	_	_	
+23-25	1491-1494	att	_	_	_	_	_	_	
+23-26	1495-1503	försörja	_	_	_	_	_	_	
+23-27	1504-1507	sig	_	_	_	_	_	_	
+23-28	1508-1514	själva	_	_	_	_	_	_	
+23-29	1514-1515	.	_	_	_	_	_	_	
+
+#Text=Hur ska Sverige ha råd att betala kostnaderna för flyktingarnas uppehälle?.
+24-1	1516-1519	Hur	_	_	_	_	_	_	
+24-2	1520-1523	ska	_	_	_	_	_	_	
+24-3	1524-1531	Sverige	_	_	_	_	_	_	
+24-4	1532-1534	ha	_	_	_	_	_	_	
+24-5	1535-1538	råd	_	_	_	_	_	_	
+24-6	1539-1542	att	_	_	_	_	_	_	
+24-7	1543-1549	betala	_	_	_	_	_	_	
+24-8	1550-1561	kostnaderna	_	_	_	_	_	_	
+24-9	1562-1565	för	_	_	_	_	_	_	
+24-10	1566-1579	flyktingarnas	_	_	_	_	_	_	
+24-11	1580-1589	uppehälle	_	_	_	_	_	_	
+24-12	1589-1590	?	_	_	_	_	_	_	
+24-13	1590-1591	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=4) Anser ni att de allra flesta som har tagit sig in i Sverige och registrerat sig som asylsökande bör beviljas uppehållstillstånd och sedan medborgarskap?.
+25-1	1593-1594	#	_	_	_	_	_	_	
+25-2	1594-1595	P	_	_[15]	_	false[15]	3[15]	_	
+25-3	1596-1599	IMM	_	_[15]	_	false[15]	3[15]	_	
+25-4	1599-1600	.	_	_	_	_	_	_	
+25-5	1602-1603	4	_	_	_	_	_	_	
+25-6	1603-1604	)	_	_	_	_	_	_	
+25-7	1605-1610	Anser	_	_	_	_	_	_	
+25-8	1611-1613	ni	*	_	_	_	_	_	
+25-9	1614-1617	att	_	_	_	_	_	_	
+25-10	1618-1620	de	_	_	_	_	_	_	
+25-11	1621-1626	allra	_	_	_	_	_	_	
+25-12	1627-1633	flesta	_	_	_	_	_	_	
+25-13	1634-1637	som	_	_	_	_	_	_	
+25-14	1638-1641	har	_	_	_	_	_	_	
+25-15	1642-1647	tagit	_	_	_	_	_	_	
+25-16	1648-1651	sig	_	_	_	_	_	_	
+25-17	1652-1654	in	_	_	_	_	_	_	
+25-18	1655-1656	i	_	_	_	_	_	_	
+25-19	1657-1664	Sverige	_	_	_	_	_	_	
+25-20	1665-1668	och	_	_	_	_	_	_	
+25-21	1669-1680	registrerat	_	_	_	_	_	_	
+25-22	1681-1684	sig	_	_	_	_	_	_	
+25-23	1685-1688	som	_	_	_	_	_	_	
+25-24	1689-1700	asylsökande	_	_	_	_	_	_	
+25-25	1701-1704	bör	_	Source;Target[16]	25-8;25-27	false[16]	4[16]	_	
+25-26	1705-1713	beviljas	_	Source;Target[16]	25-8;25-27	false[16]	4[16]	_	
+25-27	1714-1732	uppehållstillstånd	*	_	_	_	_	_	
+25-28	1733-1736	och	_	_	_	_	_	_	
+25-29	1737-1742	sedan	_	_	_	_	_	_	
+25-30	1743-1756	medborgarskap	_	_	_	_	_	_	
+25-31	1756-1757	?	_	_	_	_	_	_	
+25-32	1757-1758	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=5) Vilken sorts flyktingar bör enligt er mening nekas uppehållstillstånd och medborgarskap?.
+26-1	1760-1761	#	_	_	_	_	_	_	
+26-2	1761-1762	P	_	_[17]	_	false[17]	3[17]	_	
+26-3	1763-1766	IMM	_	_[17]	_	false[17]	3[17]	_	
+26-4	1766-1767	.	_	_	_	_	_	_	
+26-5	1769-1770	5	_	_	_	_	_	_	
+26-6	1770-1771	)	_	_	_	_	_	_	
+26-7	1772-1778	Vilken	*[38]	_	_	_	_	_	
+26-8	1779-1784	sorts	*[38]	_	_	_	_	_	
+26-9	1785-1795	flyktingar	*[38]	_	_	_	_	_	
+26-10	1796-1799	bör	_	Source;Target	26-19;26-7[38]	false	4	_	
+26-11	1800-1806	enligt	_	_	_	_	_	_	
+26-12	1807-1809	er	_	_	_	_	_	_	
+26-13	1810-1816	mening	_	_	_	_	_	_	
+26-14	1817-1822	nekas	_	_[18]	_	false[18]	4[18]	26-10[0_18]	
+26-15	1823-1841	uppehållstillstånd	_	_[18]	_	false[18]	4[18]	_	
+26-16	1842-1845	och	_	_	_	_	_	_	
+26-17	1846-1859	medborgarskap	_	_	_	_	_	_	
+26-18	1859-1860	?	_	_	_	_	_	_	
+26-19	1860-1861	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=6) I Sverige upplever vi många kulturkrockar bland människor med olika etnisk bakgrund.
+27-1	1863-1864	#	_	_	_	_	_	_	
+27-2	1864-1865	P	_	_[19]	_	false[19]	2[19]	_	
+27-3	1866-1869	IMM	_	_[19]	_	false[19]	2[19]	_	
+27-4	1869-1870	.	_	_	_	_	_	_	
+27-5	1872-1873	6	_	_	_	_	_	_	
+27-6	1873-1874	)	_	_	_	_	_	_	
+27-7	1875-1876	I	_	_	_	_	_	_	
+27-8	1877-1884	Sverige	_	_	_	_	_	_	
+27-9	1885-1893	upplever	_	Target	27-11[39]	false	2	_	
+27-10	1894-1896	vi	_	_	_	_	_	_	
+27-11	1897-1902	många	*[39]	_	_	_	_	_	
+27-12	1903-1916	kulturkrockar	*[39]	_	_	_	_	_	
+27-13	1917-1922	bland	_	_	_	_	_	_	
+27-14	1923-1932	människor	_	_	_	_	_	_	
+27-15	1933-1936	med	_	_	_	_	_	_	
+27-16	1937-1942	olika	_	_	_	_	_	_	
+27-17	1943-1949	etnisk	_	_	_	_	_	_	
+27-18	1950-1958	bakgrund	_	_	_	_	_	_	
+27-19	1958-1959	.	_	_	_	_	_	_	
+
+#Text=En mycket stor del av de flyktingar som har kommit till Sverige har rötterna i Mellanöstern och Afrika, och många är muslimer.
+28-1	1960-1962	En	_	_	_	_	_	_	
+28-2	1963-1969	mycket	_	_	_	_	_	_	
+28-3	1970-1974	stor	_	_	_	_	_	_	
+28-4	1975-1978	del	_	_	_	_	_	_	
+28-5	1979-1981	av	_	_	_	_	_	_	
+28-6	1982-1984	de	_	_	_	_	_	_	
+28-7	1985-1995	flyktingar	_	_	_	_	_	_	
+28-8	1996-1999	som	_	_	_	_	_	_	
+28-9	2000-2003	har	_	_	_	_	_	_	
+28-10	2004-2010	kommit	_	_	_	_	_	_	
+28-11	2011-2015	till	_	_	_	_	_	_	
+28-12	2016-2023	Sverige	_	_	_	_	_	_	
+28-13	2024-2027	har	_	_	_	_	_	_	
+28-14	2028-2036	rötterna	_	_	_	_	_	_	
+28-15	2037-2038	i	_	_	_	_	_	_	
+28-16	2039-2051	Mellanöstern	_	_	_	_	_	_	
+28-17	2052-2055	och	_	_	_	_	_	_	
+28-18	2056-2062	Afrika	_	_	_	_	_	_	
+28-19	2062-2063	,	_	_	_	_	_	_	
+28-20	2064-2067	och	_	_	_	_	_	_	
+28-21	2068-2073	många	_	_	_	_	_	_	
+28-22	2074-2076	är	_	_	_	_	_	_	
+28-23	2077-2085	muslimer	_	_	_	_	_	_	
+28-24	2085-2086	.	_	_	_	_	_	_	
+
+#Text=Anser ni att människor från Mellanöstern och Afrika bör ha en särskild rätt att få svenskt medborgarskap, kanske alldeles speciellt ifall de är muslimer?.
+29-1	2087-2092	Anser	_	_	_	_	_	_	
+29-2	2093-2095	ni	*	_	_	_	_	_	
+29-3	2096-2099	att	_	_	_	_	_	_	
+29-4	2100-2109	människor	_	_	_	_	_	_	
+29-5	2110-2114	från	_	_	_	_	_	_	
+29-6	2115-2127	Mellanöstern	_	_	_	_	_	_	
+29-7	2128-2131	och	_	_	_	_	_	_	
+29-8	2132-2138	Afrika	_	_	_	_	_	_	
+29-9	2139-2142	bör	_	Source;Target[20]	29-2;29-12[40]	false[20]	4[20]	_	
+29-10	2143-2145	ha	_	Source;Target[20]	29-2;29-12[40]	false[20]	4[20]	_	
+29-11	2146-2148	en	_	_	_	_	_	_	
+29-12	2149-2157	särskild	*[40]	_	_	_	_	_	
+29-13	2158-2162	rätt	*[40]	_	_	_	_	_	
+29-14	2163-2166	att	*[40]	_	_	_	_	_	
+29-15	2167-2169	få	*[40]	_	_	_	_	_	
+29-16	2170-2177	svenskt	*[40]	_	_	_	_	_	
+29-17	2178-2191	medborgarskap	*[40]	_	_	_	_	_	
+29-18	2191-2192	,	_	_	_	_	_	_	
+29-19	2193-2199	kanske	_	_	_	_	_	_	
+29-20	2200-2208	alldeles	_	_	_	_	_	_	
+29-21	2209-2218	speciellt	_	_	_	_	_	_	
+29-22	2219-2224	ifall	_	_	_	_	_	_	
+29-23	2225-2227	de	_	_	_	_	_	_	
+29-24	2228-2230	är	_	_	_	_	_	_	
+29-25	2231-2239	muslimer	_	_	_	_	_	_	
+29-26	2239-2240	?	_	_	_	_	_	_	
+29-27	2240-2241	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=7) Under vilka omständigheter anser ni att en utländsk medborgare som har begått ett brott i Sverige ska kunna dömas till utvisning?.
+30-1	2243-2244	#	_	_	_	_	_	_	
+30-2	2244-2245	P	_	_[21]	_	false[21]	3[21]	_	
+30-3	2246-2249	IMM	_	_[21]	_	false[21]	3[21]	_	
+30-4	2249-2250	.	_	_	_	_	_	_	
+30-5	2252-2253	7	_	_	_	_	_	_	
+30-6	2253-2254	)	_	_	_	_	_	_	
+30-7	2255-2260	Under	_	_	_	_	_	_	
+30-8	2261-2266	vilka	_	_	_	_	_	_	
+30-9	2267-2281	omständigheter	_	_	_	_	_	_	
+30-10	2282-2287	anser	_	_	_	_	_	_	
+30-11	2288-2290	ni	*	_	_	_	_	_	
+30-12	2291-2294	att	_	_	_	_	_	_	
+30-13	2295-2297	en	_	_	_	_	_	_	
+30-14	2298-2306	utländsk	*[41]	_	_	_	_	_	
+30-15	2307-2317	medborgare	*[41]	_	_	_	_	_	
+30-16	2318-2321	som	*[41]	_	_	_	_	_	
+30-17	2322-2325	har	*[41]	_	_	_	_	_	
+30-18	2326-2332	begått	*[41]	_	_	_	_	_	
+30-19	2333-2336	ett	*[41]	_	_	_	_	_	
+30-20	2337-2342	brott	*[41]	_	_	_	_	_	
+30-21	2343-2344	i	*[41]	_	_	_	_	_	
+30-22	2345-2352	Sverige	*[41]	_	_	_	_	_	
+30-23	2353-2356	ska	_	Source;Target[22]	30-11;30-14[41]	false[22]	4[22]	_	
+30-24	2357-2362	kunna	_	Source;Target[22]	30-11;30-14[41]	false[22]	4[22]	_	
+30-25	2363-2368	dömas	_	Source;Target[22]	30-11;30-14[41]	false[22]	4[22]	_	
+30-26	2369-2373	till	_	Source;Target[22]	30-11;30-14[41]	false[22]	4[22]	_	
+30-27	2374-2383	utvisning	_	Source;Target[22]	30-11;30-14[41]	false[22]	4[22]	_	
+30-28	2383-2384	?	_	_	_	_	_	_	
+30-29	2384-2385	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=8) Som Malmöbo kan jag se att många av de grövsta brotten i min stad begås av andra generationens invandrare.
+31-1	2387-2388	#	_	_	_	_	_	_	
+31-2	2388-2389	P	_	_[23]	_	false[23]	1[23]	_	
+31-3	2390-2393	IMM	_	_[23]	_	false[23]	1[23]	_	
+31-4	2393-2394	.	_	_	_	_	_	_	
+31-5	2396-2397	8	_	_	_	_	_	_	
+31-6	2397-2398	)	_	_	_	_	_	_	
+31-7	2399-2402	Som	_	_	_	_	_	_	
+31-8	2403-2410	Malmöbo	_	_	_	_	_	_	
+31-9	2411-2414	kan	_	_	_	_	_	_	
+31-10	2415-2418	jag	_	_	_	_	_	_	
+31-11	2419-2421	se	_	_	_	_	_	_	
+31-12	2422-2425	att	_	_	_	_	_	_	
+31-13	2426-2431	många	_	_	_	_	_	_	
+31-14	2432-2434	av	_	_	_	_	_	_	
+31-15	2435-2437	de	_	_	_	_	_	_	
+31-16	2438-2445	grövsta	_	_	_	_	_	_	
+31-17	2446-2453	brotten	_	_	_	_	_	_	
+31-18	2454-2455	i	_	_	_	_	_	_	
+31-19	2456-2459	min	_	_	_	_	_	_	
+31-20	2460-2464	stad	_	_	_	_	_	_	
+31-21	2465-2470	begås	_	_	_	_	_	_	
+31-22	2471-2473	av	_	_	_	_	_	_	
+31-23	2474-2479	andra	_	_[24]	_	false[24]	2[24]	_	
+31-24	2480-2493	generationens	_	_[24]	_	false[24]	2[24]	_	
+31-25	2494-2504	invandrare	_	_[24]	_	false[24]	2[24]	_	
+31-26	2504-2505	.	_	_	_	false	2	_	
+
+#Text=Hur vill ni flyktingvänner motverka uppkomsten av grov brottslighet bland andra generationens invandrare?.
+32-1	2506-2509	Hur	_	_	_	_	_	_	
+32-2	2510-2514	vill	_	_	_	false	4	_	
+32-3	2515-2517	ni	*[42]	_	_	_	_	_	
+32-4	2518-2532	flyktingvänner	*[42]	_	_	_	_	_	
+32-5	2533-2541	motverka	_	Target;Source	32-6[43];32-3[42]	false	4	32-2	
+32-6	2542-2552	uppkomsten	*[43]	_	_	_	_	_	
+32-7	2553-2555	av	*[43]	_	_	_	_	_	
+32-8	2556-2560	grov	*[43]	_	_	_	_	_	
+32-9	2561-2573	brottslighet	*[43]	_	_	_	_	_	
+32-10	2574-2579	bland	*[43]	_	_	_	_	_	
+32-11	2580-2585	andra	*[43]	_	_	_	_	_	
+32-12	2586-2599	generationens	*[43]	_	_	_	_	_	
+32-13	2600-2610	invandrare	*[43]	_	_	_	_	_	
+32-14	2610-2611	?	_	_	_	_	_	_	
+32-15	2611-2612	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=9) I Sverige finns för närvarande 61 utanförskapsområden, präglade av arbetslöshet, otrygghet och kriminalitet.
+33-1	2614-2615	#	_	_	_	_	_	_	
+33-2	2615-2616	P	_	_[25]	_	false[25]	2[25]	_	
+33-3	2617-2620	IMM	_	_[25]	_	false[25]	2[25]	_	
+33-4	2620-2621	.	_	_	_	_	_	_	
+33-5	2623-2624	9	_	_	_	_	_	_	
+33-6	2624-2625	)	_	_	_	_	_	_	
+33-7	2626-2627	I	_	_	_	_	_	_	
+33-8	2628-2635	Sverige	_	_	_	_	_	_	
+33-9	2636-2641	finns	_	_	_	_	_	_	
+33-10	2642-2645	för	_	_	_	_	_	_	
+33-11	2646-2656	närvarande	_	_	_	_	_	_	
+33-12	2657-2659	61	*[44]	_	_	_	_	_	
+33-13	2660-2679	utanförskapsområden	*[44]	_	_	_	_	_	
+33-14	2679-2680	,	_	_	_	_	_	_	
+33-15	2681-2689	präglade	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-16	2690-2692	av	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-17	2693-2705	arbetslöshet	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-18	2705-2706	,	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-19	2707-2716	otrygghet	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-20	2717-2720	och	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-21	2721-2733	kriminalitet	_	Target[26]	33-12[44]	false[26]	2[26]	_	
+33-22	2733-2734	.	_	_	_	_	_	_	
+
+#Text=Dessa utanförskapsområden är nästan alltid dominerade av invandrare.
+34-1	2735-2740	Dessa	_	_	_	_	_	_	
+34-2	2741-2760	utanförskapsområden	_	_	_	_	_	_	
+34-3	2761-2763	är	_	_	_	_	_	_	
+34-4	2764-2770	nästan	_	_	_	_	_	_	
+34-5	2771-2777	alltid	_	_	_	_	_	_	
+34-6	2778-2788	dominerade	_	_	_	_	_	_	
+34-7	2789-2791	av	_	_	_	_	_	_	
+34-8	2792-2802	invandrare	_	_	_	_	_	_	
+34-9	2802-2803	.	_	_	_	_	_	_	
+
+#Text=Hur vill ni flyktingvänner bryta utanförskapet i de nuvarande utanförskapsområdena och förhindra uppkomsten av nya?.
+35-1	2804-2807	Hur	_	_	_	_	_	_	
+35-2	2808-2812	vill	_	_	_	false	4	_	
+35-3	2813-2815	ni	*[45]	_	_	_	_	_	
+35-4	2816-2830	flyktingvänner	*[45]	_	_	_	_	_	
+35-5	2831-2836	bryta	_	Target;Source	35-6;35-3[45]	false	4	35-2	
+35-6	2837-2850	utanförskapet	*	_	_	_	_	_	
+35-7	2851-2852	i	_	_	_	_	_	_	
+35-8	2853-2855	de	_	_	_	_	_	_	
+35-9	2856-2865	nuvarande	_	_	_	_	_	_	
+35-10	2866-2886	utanförskapsområdena	_	_	_	_	_	_	
+35-11	2887-2890	och	_	_	_	_	_	_	
+35-12	2891-2900	förhindra	_	_	_	_	_	_	
+35-13	2901-2911	uppkomsten	_	_	_	_	_	_	
+35-14	2912-2914	av	_	_	_	_	_	_	
+35-15	2915-2918	nya	_	_	_	_	_	_	
+35-16	2918-2919	?	_	_	_	_	_	_	
+35-17	2919-2920	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=10) Hur ser ni flyktingvänner på den hederskultur som frodas bland många invandrargrupper, där enskilda individer blir släktens egendom att användas av släkten som pjäser i ett schackspel?.
+36-1	2922-2923	#	_	_	_	_	_	_	
+36-2	2923-2924	P	_	_[27]	_	false[27]	1[27]	_	
+36-3	2925-2928	IMM	_	_[27]	_	false[27]	1[27]	_	
+36-4	2928-2929	.	_	_	_	_	_	_	
+36-5	2931-2933	10	_	_	_	_	_	_	
+36-6	2933-2934	)	_	_	_	_	_	_	
+36-7	2935-2938	Hur	_	_	_	_	_	_	
+36-8	2939-2942	ser	_	_	_	_	_	_	
+36-9	2943-2945	ni	_	_	_	_	_	_	
+36-10	2946-2960	flyktingvänner	_	_	_	_	_	_	
+36-11	2961-2963	på	_	_	_	_	_	_	
+36-12	2964-2967	den	_	_	_	_	_	_	
+36-13	2968-2980	hederskultur	*	_	_	_	_	_	
+36-14	2981-2984	som	_	_	_	_	_	_	
+36-15	2985-2991	frodas	_	Target[28]	36-13	false[28]	2[28]	_	
+36-16	2992-2997	bland	_	Target[28]	36-13	false[28]	2[28]	_	
+36-17	2998-3003	många	_	Target[28]	36-13	false[28]	2[28]	_	
+36-18	3004-3020	invandrargrupper	_	Target[28]	36-13	false[28]	2[28]	_	
+36-19	3020-3021	,	_	_	_	_	_	_	
+36-20	3022-3025	där	_	_	_	_	_	_	
+36-21	3026-3034	enskilda	_	_	_	_	_	_	
+36-22	3035-3044	individer	_	_	_	_	_	_	
+36-23	3045-3049	blir	_	_	_	_	_	_	
+36-24	3050-3058	släktens	_	_	_	_	_	_	
+36-25	3059-3066	egendom	_	_	_	_	_	_	
+36-26	3067-3070	att	_	_	_	_	_	_	
+36-27	3071-3079	användas	_	_	_	_	_	_	
+36-28	3080-3082	av	_	_	_	_	_	_	
+36-29	3083-3090	släkten	_	_	_	_	_	_	
+36-30	3091-3094	som	_	_	_	_	_	_	
+36-31	3095-3101	pjäser	_	_	_	_	_	_	
+36-32	3102-3103	i	_	_	_	_	_	_	
+36-33	3104-3107	ett	_	_	_	_	_	_	
+36-34	3108-3118	schackspel	_	_	_	_	_	_	
+36-35	3118-3119	?	_	_	_	_	_	_	
+36-36	3119-3120	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3122-3123	#	_	_	_	_	_	_	
+37-2	3123-3124	P	_	_[29]	_	false[29]	2[29]	_	
+37-3	3125-3128	IMM	_	_[29]	_	false[29]	2[29]	_	
+37-4	3128-3129	.	_	_	_	_	_	_	
+
+#Text=Det vore mycket intressant att få höra hur ni flyktingvänner ser på de här frågorna.
+38-1	3131-3134	Det	_	_	_	_	_	_	
+38-2	3135-3139	vore	_	_	_	_	_	_	
+38-3	3140-3146	mycket	_	Target[30]	38-6[46]	false[30]	4[30]	_	
+38-4	3147-3157	intressant	_	Target[30]	38-6[46]	false[30]	4[30]	_	
+38-5	3158-3161	att	_	_	_	_	_	_	
+38-6	3162-3164	få	*[46]	_	_	_	_	_	
+38-7	3165-3169	höra	*[46]	_	_	_	_	_	
+38-8	3170-3173	hur	*[46]	_	_	_	_	_	
+38-9	3174-3176	ni	*[46]	_	_	_	_	_	
+38-10	3177-3191	flyktingvänner	*[46]	_	_	_	_	_	
+38-11	3192-3195	ser	*[46]	_	_	_	_	_	
+38-12	3196-3198	på	*[46]	_	_	_	_	_	
+38-13	3199-3201	de	*[46]	_	_	_	_	_	
+38-14	3202-3205	här	*[46]	_	_	_	_	_	
+38-15	3206-3214	frågorna	*[46]	_	_	_	_	_	
+38-16	3214-3215	.	_	_	_	_	_	_	
+
+#Text=Men personer som i stället är invandringskritiker måste förstås också få kommentera.
+39-1	3216-3219	Men	_	_	_	_	_	_	
+39-2	3220-3228	personer	*	_	_	_	_	_	
+39-3	3229-3232	som	_	_	_	_	_	_	
+39-4	3233-3234	i	_	_	_	_	_	_	
+39-5	3235-3242	stället	_	_	_	_	_	_	
+39-6	3243-3245	är	_	_	_	_	_	_	
+39-7	3246-3265	invandringskritiker	_	Source	39-2	false	2	_	
+39-8	3266-3271	måste	_	_	_	_	_	_	
+39-9	3272-3279	förstås	_	_	_	_	_	_	
+39-10	3280-3285	också	_	_	_	_	_	_	
+39-11	3286-3288	få	_	_	_	_	_	_	
+39-12	3289-3299	kommentera	_	_	_	_	_	_	
+39-13	3299-3300	.	_	_	_	_	_	_	

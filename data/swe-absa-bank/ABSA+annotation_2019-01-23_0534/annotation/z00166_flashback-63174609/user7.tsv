@@ -1,0 +1,101 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Moderaternas SD-inspirerade politik - Samlingstråd [Sammanf/Mod].
+3-1	18-30	Moderaternas	_	_	_	_	_	_	
+3-2	31-45	SD-inspirerade	_	_	_	_	_	_	
+3-3	46-53	politik	_	_	_	_	_	_	
+3-4	54-55	-	_	_	_	_	_	_	
+3-5	56-68	Samlingstråd	_	_	_	_	_	_	
+3-6	69-70	[	_	_	_	_	_	_	
+3-7	70-77	Sammanf	_	_	_	_	_	_	
+3-8	77-78	/	_	_	_	_	_	_	
+3-9	78-81	Mod	_	_	_	_	_	_	
+3-10	81-82	]	_	_	_	_	_	_	
+3-11	82-83	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	85-86	#	_	_	_	_	_	_	
+4-2	86-87	P	_	_	_	_	_	_	
+4-3	88-91	IMM	_	_	_	false	3	_	
+4-4	91-92	.	_	_	_	_	_	_	
+
+#Text=Moderaterna går från klarhet till klarhet.
+5-1	94-105	Moderaterna	*	_	_	_	_	_	
+5-2	106-109	går	_	Target[1]	5-1	false[1]	5[1]	_	
+5-3	110-114	från	_	Target[1]	5-1	false[1]	5[1]	_	
+5-4	115-122	klarhet	_	Target[1]	5-1	false[1]	5[1]	_	
+5-5	123-127	till	_	Target[1]	5-1	false[1]	5[1]	_	
+5-6	128-135	klarhet	_	Target[1]	5-1	false[1]	5[1]	_	
+5-7	135-136	.	_	_	_	_	_	_	
+
+#Text=Nyligen sa de att de vill att sexualbrottslingars etnicitet ska kartläggas.
+6-1	137-144	Nyligen	_	_	_	_	_	_	
+6-2	145-147	sa	_	_	_	_	_	_	
+6-3	148-150	de	_	_	_	_	_	_	
+6-4	151-154	att	_	_	_	_	_	_	
+6-5	155-157	de	*	_	_	_	_	_	
+6-6	158-162	vill	_	Source;Target	6-5;6-7[3]	false	4	_	
+6-7	163-166	att	*[3]	_	_	_	_	_	
+6-8	167-186	sexualbrottslingars	*[3]	_	_	_	_	_	
+6-9	187-196	etnicitet	*[3]	_	_	_	_	_	
+6-10	197-200	ska	*[3]	_	_	_	_	_	
+6-11	201-211	kartläggas	*[3]	_	_	_	_	_	
+6-12	211-212	.	_	_	_	_	_	_	
+
+#Text=Idag säger man att invandringen har varit olönsam sedan 90-talet.
+7-1	213-217	Idag	_	_	_	_	_	_	
+7-2	218-223	säger	_	_	_	_	_	_	
+7-3	224-227	man	_	_	_	_	_	_	
+7-4	228-231	att	_	_	_	_	_	_	
+7-5	232-244	invandringen	_	_	_	_	_	_	
+7-6	245-248	har	_	_	_	_	_	_	
+7-7	249-254	varit	_	_	_	_	_	_	
+7-8	255-262	olönsam	_	_	_	_	_	_	
+7-9	263-268	sedan	_	_	_	_	_	_	
+7-10	269-271	90	_	_	_	_	_	_	
+7-11	271-272	-	_	_	_	_	_	_	
+7-12	272-277	talet	_	_	_	_	_	_	
+7-13	277-278	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	280-281	#	_	_	_	_	_	_	
+8-2	281-282	P	_	_	_	_	_	_	
+8-3	283-286	IMM	_	_	_	_	_	_	
+8-4	286-287	.	_	_	_	_	_	_	
+
+#Text=Är Moderaterna ett seriöst alternativ för en Sverigevän valet 2018?
+9-1	289-291	Är	_	_	_	false	4	_	
+9-2	292-303	Moderaterna	*	_	_	_	_	_	
+9-3	304-307	ett	_	Target[2]	9-2	false[2]	4[2]	9-1[0_2]	
+9-4	308-315	seriöst	_	Target[2]	9-2	false[2]	4[2]	_	
+9-5	316-326	alternativ	_	Target[2]	9-2	false[2]	4[2]	_	
+9-6	327-330	för	_	_	_	_	_	_	
+9-7	331-333	en	_	_	_	_	_	_	
+9-8	334-344	Sverigevän	_	_	_	_	_	_	
+9-9	345-350	valet	_	_	_	_	_	_	
+9-10	351-355	2018	_	_	_	_	_	_	
+9-11	355-356	?	_	_	_	_	_	_	
+
+#Text=Det börjar kännas som det.
+10-1	357-360	Det	_	_	_	_	_	_	
+10-2	361-367	börjar	_	_	_	_	_	_	
+10-3	368-374	kännas	_	_	_	_	_	_	
+10-4	375-378	som	_	_	_	_	_	_	
+10-5	379-382	det	_	_	_	_	_	_	
+10-6	382-383	.	_	_	_	_	_	_	

@@ -1,0 +1,361 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Expressenkrönikören Noa Bachner vill kvotera in invandrare i fotbollslandslaget.
+3-1	18-37	Expressenkrönikören	_	_	_	_	_	_	_	
+3-2	38-41	Noa	_	_	_	_	_	_	_	
+3-3	42-49	Bachner	_	_	_	_	_	_	_	
+3-4	50-54	vill	_	_	_	_	_	_	_	
+3-5	55-62	kvotera	_	_	_	_	_	_	_	
+3-6	63-65	in	_	_	_	_	_	_	_	
+3-7	66-76	invandrare	_	_	_	_	_	_	_	
+3-8	77-78	i	_	_	_	_	_	_	_	
+3-9	79-97	fotbollslandslaget	_	_	_	_	_	_	_	
+3-10	97-98	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	100-101	#	_	_	_	_	_	_	_	
+4-2	101-102	P	_	_	_	_	_	_	_	
+4-3	103-106	IMM	_	_	_	_	_	_	_	
+4-4	106-107	.	_	_	_	_	_	_	_	
+
+#Text=I en ytterst förvirrad krönika utgjuter sig Expressens Noa Bachner om bristen på mångfald i det svenska fotbollslandslaget.
+5-1	109-110	I	_	_	_	_	_	_	_	
+5-2	111-113	en	_	_	_	_	_	_	_	
+5-3	114-121	ytterst	_	Target[1]	5-5	false[1]	2[1]	_	_	
+5-4	122-131	förvirrad	_	Target[1]	5-5	false[1]	2[1]	_	_	
+5-5	132-139	krönika	*	_	_	_	_	_	_	
+5-6	140-148	utgjuter	_	_	_	_	_	_	_	
+5-7	149-152	sig	_	_	_	_	_	_	_	
+5-8	153-163	Expressens	_	_	_	_	_	_	_	
+5-9	164-167	Noa	_	_	_	_	_	_	_	
+5-10	168-175	Bachner	_	_	_	_	_	_	_	
+5-11	176-178	om	_	_	_	_	_	_	_	
+5-12	179-186	bristen	_	_	_	_	_	_	_	
+5-13	187-189	på	_	_	_	_	_	_	_	
+5-14	190-198	mångfald	_	_	_	_	_	_	_	
+5-15	199-200	i	_	_	_	_	_	_	_	
+5-16	201-204	det	_	_	_	_	_	_	_	
+5-17	205-212	svenska	_	_	_	_	_	_	_	
+5-18	213-231	fotbollslandslaget	_	_	_	_	_	_	_	
+5-19	231-232	.	_	_	_	_	_	_	_	
+
+#Text=Krönikan behandlar inledningsvis läget i det svenska fotbollslandslaget på ett okontroversiellt sätt men spårar sedan fullständigt ur och övergår till en mångkulturell pamflett med en rejäl dos av vita skuldkänslor.
+6-1	233-241	Krönikan	*	_	_	_	_	_	_	
+6-2	242-251	behandlar	_	_	_	_	_	_	_	
+6-3	252-265	inledningsvis	_	_	_	_	_	_	_	
+6-4	266-271	läget	_	_	_	_	_	_	_	
+6-5	272-273	i	_	_	_	_	_	_	_	
+6-6	274-277	det	_	_	_	_	_	_	_	
+6-7	278-285	svenska	_	_	_	_	_	_	_	
+6-8	286-304	fotbollslandslaget	_	_	_	_	_	_	_	
+6-9	305-307	på	_	_	_	_	_	_	_	
+6-10	308-311	ett	_	_	_	_	_	_	_	
+6-11	312-328	okontroversiellt	_	_	_	_	_	_	_	
+6-12	329-333	sätt	_	_	_	_	_	_	_	
+6-13	334-337	men	_	_	_	_	_	_	_	
+6-14	338-344	spårar	_	_	_	false	1	_	_	
+6-15	345-350	sedan	_	_	_	_	_	_	_	
+6-16	351-363	fullständigt	_	Target[2]	6-1	false[2]	1[2]	6-14[0_2]	_	
+6-17	364-366	ur	_	Target[2]	6-1	false[2]	1[2]	_	_	
+6-18	367-370	och	_	_	_	_	_	_	_	
+6-19	371-378	övergår	_	_	_	_	_	_	_	
+6-20	379-383	till	_	_	_	_	_	_	_	
+6-21	384-386	en	_	_	_	_	_	_	_	
+6-22	387-400	mångkulturell	_	_	_	_	_	_	_	
+6-23	401-409	pamflett	_	Target	6-1	false	2	_	_	
+6-24	410-413	med	_	_	_	_	_	_	_	
+6-25	414-416	en	_	_	_	_	_	_	_	
+6-26	417-422	rejäl	_	_	_	_	_	_	_	
+6-27	423-426	dos	_	_	_	_	_	_	_	
+6-28	427-429	av	_	_	_	_	_	_	_	
+6-29	430-434	vita	_	_	_	_	_	_	_	
+6-30	435-447	skuldkänslor	_	_	_	_	_	_	_	
+6-31	447-448	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	450-451	#	_	_	_	_	_	_	_	
+7-2	451-452	P	_	_	_	_	_	_	_	
+7-3	453-456	IMM	_	_	_	_	_	_	_	
+7-4	456-457	.	_	_	_	_	_	_	_	
+
+#Text=Bachner hävdar först att medelmåttan Carlos Strandberg (en svart spelare som tydligen tofflat in några mål i den kvalitetsmässigt tvivelaktiga serien Allsvenskan) bör tas med i truppen mot Frankrike.
+8-1	459-466	Bachner	_	_	_	_	_	_	_	
+8-2	467-473	hävdar	_	_	_	_	_	_	_	
+8-3	474-479	först	_	_	_	_	_	_	_	
+8-4	480-483	att	_	_	_	_	_	_	_	
+8-5	484-495	medelmåttan	_	Target	8-6[8]	false	3	_	_	
+8-6	496-502	Carlos	*[8]	_	_	_	_	_	_	
+8-7	503-513	Strandberg	*[8]	_	_	_	_	_	_	
+8-8	514-515	(	_	_	_	_	_	_	_	
+8-9	515-517	en	_	_	_	_	_	_	_	
+8-10	518-523	svart	_	_	_	_	_	_	_	
+8-11	524-531	spelare	_	_	_	_	_	_	_	
+8-12	532-535	som	_	_	_	_	_	_	_	
+8-13	536-544	tydligen	_	_	_	_	_	_	_	
+8-14	545-552	tofflat	_	_	_	_	_	_	_	
+8-15	553-555	in	_	_	_	_	_	_	_	
+8-16	556-561	några	_	_	_	_	_	_	_	
+8-17	562-565	mål	_	_	_	_	_	_	_	
+8-18	566-567	i	_	_	_	_	_	_	_	
+8-19	568-571	den	_	_	_	_	_	_	_	
+8-20	572-588	kvalitetsmässigt	_	Target[3]	8-22	false[3]	2[3]	_	_	
+8-21	589-601	tvivelaktiga	_	Target[3]	8-22	false[3]	2[3]	_	_	
+8-22	602-608	serien	*	_	_	_	_	_	_	
+8-23	609-620	Allsvenskan	*	_	_	_	_	_	8-22	
+8-24	620-621	)	_	_	_	_	_	_	_	
+8-25	622-625	bör	_	_	_	_	_	_	_	
+8-26	626-629	tas	_	_	_	_	_	_	_	
+8-27	630-633	med	_	_	_	_	_	_	_	
+8-28	634-635	i	_	_	_	_	_	_	_	
+8-29	636-643	truppen	_	_	_	_	_	_	_	
+8-30	644-647	mot	_	_	_	_	_	_	_	
+8-31	648-657	Frankrike	_	_	_	_	_	_	_	
+8-32	657-658	.	_	_	_	_	_	_	_	
+
+#Text=Varför man skulle vilja ta med en helt orutinerad spelare i A-landslaget som huserar i Allsvenskan ter sig märkligt.
+9-1	659-665	Varför	*[9]	_	_	_	_	_	_	
+9-2	666-669	man	*[9]	_	_	_	_	_	_	
+9-3	670-676	skulle	*[9]	_	_	_	_	_	_	
+9-4	677-682	vilja	*[9]	_	_	_	_	_	_	
+9-5	683-685	ta	*[9]	_	_	_	_	_	_	
+9-6	686-689	med	*[9]	_	_	_	_	_	_	
+9-7	690-692	en	*[9]	_	_	_	_	_	_	
+9-8	693-697	helt	*[9]	_	_	_	_	_	_	
+9-9	698-708	orutinerad	*[9]	_	_	_	_	_	_	
+9-10	709-716	spelare	*[9]	_	_	_	_	_	_	
+9-11	717-718	i	*[9]	_	_	_	_	_	_	
+9-12	719-731	A-landslaget	*[9]	_	_	_	_	_	_	
+9-13	732-735	som	*[9]	_	_	_	_	_	_	
+9-14	736-743	huserar	*[9]	_	_	_	_	_	_	
+9-15	744-745	i	*[9]	_	_	_	_	_	_	
+9-16	746-757	Allsvenskan	*[9]	_	_	_	_	_	_	
+9-17	758-761	ter	_	Target[4]	9-1[9]	false[4]	2[4]	_	_	
+9-18	762-765	sig	_	Target[4]	9-1[9]	false[4]	2[4]	_	_	
+9-19	766-774	märkligt	_	Target[4]	9-1[9]	false[4]	2[4]	_	_	
+9-20	774-775	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom har Bachner inga problem med Strandbergs ofta vidriga uppträdande som bland annat inkluderar ett strypgrepp (!)
+10-1	776-784	Dessutom	_	_	_	_	_	_	_	
+10-2	785-788	har	_	_	_	_	_	_	_	
+10-3	789-796	Bachner	_	_	_	_	_	_	_	
+10-4	797-801	inga	_	_	_	_	_	_	_	
+10-5	802-809	problem	_	_	_	_	_	_	_	
+10-6	810-813	med	_	_	_	_	_	_	_	
+10-7	814-825	Strandbergs	*	_	_	_	_	_	_	
+10-8	826-830	ofta	_	_	_	_	_	_	_	
+10-9	831-838	vidriga	_	Target[5]	10-7	false[5]	1[5]	_	_	
+10-10	839-850	uppträdande	_	Target[5]	10-7	false[5]	1[5]	_	_	
+10-11	851-854	som	_	_	_	_	_	_	_	
+10-12	855-860	bland	_	_	_	_	_	_	_	
+10-13	861-866	annat	_	_	_	_	_	_	_	
+10-14	867-877	inkluderar	_	_	_	_	_	_	_	
+10-15	878-881	ett	_	_	_	_	_	_	_	
+10-16	882-892	strypgrepp	_	_	_	_	_	_	_	
+10-17	893-894	(	_	_	_	_	_	_	_	
+10-18	894-895	!	_	_	_	_	_	_	_	
+10-19	895-896	)	_	_	_	_	_	_	_	
+
+#Text=på en medspelare i AIK.
+11-1	897-899	på	_	_	_	_	_	_	_	
+11-2	900-902	en	_	_	_	_	_	_	_	
+11-3	903-913	medspelare	_	_	_	_	_	_	_	
+11-4	914-915	i	_	_	_	_	_	_	_	
+11-5	916-919	AIK	_	_	_	_	_	_	_	
+11-6	919-920	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	922-923	#	_	_	_	_	_	_	_	
+12-2	923-924	P	_	_	_	_	_	_	_	
+12-3	925-928	IMM	_	_	_	_	_	_	_	
+12-4	928-929	.	_	_	_	_	_	_	_	
+
+#Text=Vidare skriver Bachner att:.
+13-1	931-937	Vidare	_	_	_	_	_	_	_	
+13-2	938-945	skriver	_	_	_	_	_	_	_	
+13-3	946-953	Bachner	_	_	_	_	_	_	_	
+13-4	954-957	att	_	_	_	_	_	_	_	
+13-5	957-958	:	_	_	_	_	_	_	_	
+13-6	958-959	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	961-962	#	_	_	_	_	_	_	_	
+14-2	962-963	P	_	_	_	_	_	_	_	
+14-3	964-967	IMM	_	_	_	_	_	_	_	
+14-4	967-968	.	_	_	_	_	_	_	_	
+
+#Text="En annan sak som framträder allt tydligare är bristen på mångfald i den här truppen.
+15-1	970-971	"	_	_	_	_	_	_	_	
+15-2	971-973	En	_	_	_	_	_	_	_	
+15-3	974-979	annan	_	_	_	_	_	_	_	
+15-4	980-983	sak	_	_	_	_	_	_	_	
+15-5	984-987	som	_	_	_	_	_	_	_	
+15-6	988-998	framträder	_	_	_	_	_	_	_	
+15-7	999-1003	allt	_	_	_	_	_	_	_	
+15-8	1004-1013	tydligare	_	_	_	_	_	_	_	
+15-9	1014-1016	är	_	_	_	_	_	_	_	
+15-10	1017-1024	bristen	*	Target	15-10	false	2	_	_	
+15-11	1025-1027	på	_	_	_	_	_	_	_	
+15-12	1028-1036	mångfald	_	_	_	_	_	_	_	
+15-13	1037-1038	i	_	_	_	_	_	_	_	
+15-14	1039-1042	den	_	_	_	_	_	_	_	
+15-15	1043-1046	här	_	_	_	_	_	_	_	
+15-16	1047-1054	truppen	_	_	_	_	_	_	_	
+15-17	1054-1055	.	_	_	_	_	_	_	_	
+
+#Text=Väldigt få procent av spelarna har utländsk bakgrund eller påbrå, något som inte är representativt för den pool av elitspelare som Sverige förfogar över, och något som borde oroa svenska fotbollsförbundet : problemsökningen är deras att göra.
+16-1	1056-1063	Väldigt	*[10]	_	_	_	_	_	16-28[11_10]	
+16-2	1064-1066	få	*[10]	_	_	_	_	_	_	
+16-3	1067-1074	procent	*[10]	_	_	_	_	_	_	
+16-4	1075-1077	av	*[10]	_	_	_	_	_	_	
+16-5	1078-1086	spelarna	*[10]	_	_	_	_	_	_	
+16-6	1087-1090	har	*[10]	_	_	_	_	_	_	
+16-7	1091-1099	utländsk	*[10]	_	_	_	_	_	_	
+16-8	1100-1108	bakgrund	*[10]	_	_	_	_	_	_	
+16-9	1109-1114	eller	*[10]	_	_	_	_	_	_	
+16-10	1115-1120	påbrå	*[10]	_	_	_	_	_	_	
+16-11	1120-1121	,	_	_	_	_	_	_	_	
+16-12	1122-1127	något	_	_	_	_	_	_	_	
+16-13	1128-1131	som	_	_	_	_	_	_	_	
+16-14	1132-1136	inte	_	_	_	_	_	_	_	
+16-15	1137-1139	är	_	_	_	_	_	_	_	
+16-16	1140-1154	representativt	_	_	_	_	_	_	_	
+16-17	1155-1158	för	_	_	_	_	_	_	_	
+16-18	1159-1162	den	_	_	_	_	_	_	_	
+16-19	1163-1167	pool	_	_	_	_	_	_	_	
+16-20	1168-1170	av	_	_	_	_	_	_	_	
+16-21	1171-1182	elitspelare	_	_	_	_	_	_	_	
+16-22	1183-1186	som	_	_	_	_	_	_	_	
+16-23	1187-1194	Sverige	_	_	_	_	_	_	_	
+16-24	1195-1203	förfogar	_	_	_	_	_	_	_	
+16-25	1204-1208	över	_	_	_	_	_	_	_	
+16-26	1208-1209	,	_	_	_	_	_	_	_	
+16-27	1210-1213	och	_	_	_	_	_	_	_	
+16-28	1214-1219	något	*[11]	_	_	_	_	_	_	
+16-29	1220-1223	som	*[11]	_	_	_	_	_	_	
+16-30	1224-1229	borde	_	Target[6]	16-28[11]	false[6]	2[6]	_	_	
+16-31	1230-1234	oroa	_	Target[6]	16-28[11]	false[6]	2[6]	_	_	
+16-32	1235-1242	svenska	_	_	_	_	_	_	_	
+16-33	1243-1260	fotbollsförbundet	_	_	_	_	_	_	_	
+16-34	1261-1262	:	_	_	_	_	_	_	_	
+16-35	1263-1279	problemsökningen	_	_	_	_	_	_	_	
+16-36	1280-1282	är	_	_	_	_	_	_	_	
+16-37	1283-1288	deras	_	_	_	_	_	_	_	
+16-38	1289-1292	att	_	_	_	_	_	_	_	
+16-39	1293-1297	göra	_	_	_	_	_	_	_	
+16-40	1297-1298	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1300-1301	#	_	_	_	_	_	_	_	
+17-2	1301-1302	P	_	_	_	_	_	_	_	
+17-3	1303-1306	IMM	_	_	_	_	_	_	_	
+17-4	1306-1307	.	_	_	_	_	_	_	_	
+
+#Text=Det är av yttersta vikt att det svenska landslaget går att identifiera sig med.
+18-1	1309-1312	Det	_	_	_	_	_	_	_	
+18-2	1313-1315	är	_	Target[7]	18-6[12]	false[7]	5[7]	_	_	
+18-3	1316-1318	av	_	Target[7]	18-6[12]	false[7]	5[7]	_	_	
+18-4	1319-1327	yttersta	_	Target[7]	18-6[12]	false[7]	5[7]	_	_	
+18-5	1328-1332	vikt	_	Target[7]	18-6[12]	false[7]	5[7]	_	_	
+18-6	1333-1336	att	*[12]	_	_	_	_	_	_	
+18-7	1337-1340	det	*[12]	_	_	_	_	_	_	
+18-8	1341-1348	svenska	*[12]	_	_	_	_	_	_	
+18-9	1349-1359	landslaget	*[12]	_	_	_	_	_	_	
+18-10	1360-1363	går	*[12]	_	_	_	_	_	_	
+18-11	1364-1367	att	*[12]	_	_	_	_	_	_	
+18-12	1368-1379	identifiera	*[12]	_	_	_	_	_	_	
+18-13	1380-1383	sig	*[12]	_	_	_	_	_	_	
+18-14	1384-1387	med	*[12]	_	_	_	_	_	_	
+18-15	1387-1388	.	_	_	_	_	_	_	_	
+
+#Text=Då måste det spegla det land det representerar.".
+19-1	1389-1391	Då	_	_	_	_	_	_	_	
+19-2	1392-1397	måste	_	_	_	_	_	_	_	
+19-3	1398-1401	det	_	_	_	_	_	_	_	
+19-4	1402-1408	spegla	_	_	_	_	_	_	_	
+19-5	1409-1412	det	_	_	_	_	_	_	_	
+19-6	1413-1417	land	_	_	_	_	_	_	_	
+19-7	1418-1421	det	_	_	_	_	_	_	_	
+19-8	1422-1435	representerar	_	_	_	_	_	_	_	
+19-9	1435-1436	.	_	_	_	_	_	_	_	
+19-10	1436-1437	"	_	_	_	_	_	_	_	
+19-11	1437-1438	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1440-1441	#	_	_	_	_	_	_	_	
+20-2	1441-1442	P	_	_	_	_	_	_	_	
+20-3	1443-1446	IMM	_	_	_	_	_	_	_	
+20-4	1446-1447	.	_	_	_	_	_	_	_	
+
+#Text=Vad exakt menar han med "att identifiera sig med"?
+21-1	1449-1452	Vad	_	_	_	_	_	_	_	
+21-2	1453-1458	exakt	_	_	_	_	_	_	_	
+21-3	1459-1464	menar	_	_	_	_	_	_	_	
+21-4	1465-1468	han	_	_	_	_	_	_	_	
+21-5	1469-1472	med	_	_	_	_	_	_	_	
+21-6	1473-1474	"	_	_	_	_	_	_	_	
+21-7	1474-1477	att	_	_	_	_	_	_	_	
+21-8	1478-1489	identifiera	_	_	_	_	_	_	_	
+21-9	1490-1493	sig	_	_	_	_	_	_	_	
+21-10	1494-1497	med	_	_	_	_	_	_	_	
+21-11	1497-1498	"	_	_	_	_	_	_	_	
+21-12	1498-1499	?	_	_	_	_	_	_	_	
+
+#Text=Och varför skulle det vara önskvärt med en viss procent utländska spelare?
+22-1	1500-1503	Och	_	_	_	_	_	_	_	
+22-2	1504-1510	varför	_	_	_	_	_	_	_	
+22-3	1511-1517	skulle	_	_	_	_	_	_	_	
+22-4	1518-1521	det	_	_	_	_	_	_	_	
+22-5	1522-1526	vara	_	_	_	_	_	_	_	
+22-6	1527-1535	önskvärt	_	_	_	_	_	_	_	
+22-7	1536-1539	med	_	_	_	_	_	_	_	
+22-8	1540-1542	en	_	_	_	_	_	_	_	
+22-9	1543-1547	viss	_	_	_	_	_	_	_	
+22-10	1548-1555	procent	_	_	_	_	_	_	_	
+22-11	1556-1565	utländska	_	_	_	_	_	_	_	
+22-12	1566-1573	spelare	_	_	_	_	_	_	_	
+22-13	1573-1574	?	_	_	_	_	_	_	_	
+
+#Text=Vad har detta att göra med kvaliteten på ett fotbollslag?
+23-1	1575-1578	Vad	_	_	_	_	_	_	_	
+23-2	1579-1582	har	_	_	_	_	_	_	_	
+23-3	1583-1588	detta	_	_	_	_	_	_	_	
+23-4	1589-1592	att	_	_	_	_	_	_	_	
+23-5	1593-1597	göra	_	_	_	_	_	_	_	
+23-6	1598-1601	med	_	_	_	_	_	_	_	
+23-7	1602-1612	kvaliteten	_	_	_	_	_	_	_	
+23-8	1613-1615	på	_	_	_	_	_	_	_	
+23-9	1616-1619	ett	_	_	_	_	_	_	_	
+23-10	1620-1631	fotbollslag	_	_	_	_	_	_	_	
+23-11	1631-1632	?	_	_	_	_	_	_	_	
+
+#Text=Borde vi alltså kvotera in spelare i landslaget baserat på hudfärg?.
+24-1	1633-1638	Borde	_	_	_	_	_	_	_	
+24-2	1639-1641	vi	_	_	_	_	_	_	_	
+24-3	1642-1648	alltså	_	_	_	_	_	_	_	
+24-4	1649-1656	kvotera	_	_	_	_	_	_	_	
+24-5	1657-1659	in	_	_	_	_	_	_	_	
+24-6	1660-1667	spelare	_	_	_	_	_	_	_	
+24-7	1668-1669	i	_	_	_	_	_	_	_	
+24-8	1670-1680	landslaget	_	_	_	_	_	_	_	
+24-9	1681-1688	baserat	_	_	_	_	_	_	_	
+24-10	1689-1691	på	_	_	_	_	_	_	_	
+24-11	1692-1699	hudfärg	_	_	_	_	_	_	_	
+24-12	1699-1700	?	_	_	_	_	_	_	_	
+24-13	1700-1701	.	_	_	_	_	_	_	_	

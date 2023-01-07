@@ -1,0 +1,828 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=En rättvis skattepolitik ger ett jämlikt Sverige.
+3-1	18-20	En	_	_	_	_	_	_	_	
+3-2	21-28	rättvis	_	Target	3-3	false	4	_	_	
+3-3	29-42	skattepolitik	*	_	_	_	_	_	_	
+3-4	43-46	ger	_	_	_	_	_	_	_	
+3-5	47-50	ett	_	_	_	_	_	_	_	
+3-6	51-58	jämlikt	_	Target	3-7	false	4	_	_	
+3-7	59-66	Sverige	*	_	_	_	_	_	_	
+3-8	66-67	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	69-70	#	_	_	_	_	_	_	_	
+4-2	70-71	P	_	_	_	_	_	_	_	
+4-3	72-75	IMM	_	_	_	_	_	_	_	
+4-4	75-76	.	_	_	_	_	_	_	_	
+
+#Text=Det pågår ett uppror mot sänkta skatter i Sverige.
+5-1	78-81	Det	_	_	_	_	_	_	_	
+5-2	82-87	pågår	_	Target;Source[1]	5-6[18];5-10	false[1]	2[1]	_	_	
+5-3	88-91	ett	_	Target;Source[1]	5-6[18];5-10	false[1]	2[1]	_	_	
+5-4	92-98	uppror	_	Target;Source[1]	5-6[18];5-10	false[1]	2[1]	_	_	
+5-5	99-102	mot	_	Target;Source[1]	5-6[18];5-10	false[1]	2[1]	_	_	
+5-6	103-109	sänkta	*[18]	_	_	_	_	_	_	
+5-7	110-117	skatter	*[18]	_	_	_	_	_	_	
+5-8	118-119	i	*[18]	_	_	_	_	_	_	
+5-9	120-127	Sverige	*[18]	_	_	_	_	_	_	
+5-10	127-128	.	*	_	_	_	_	_	_	
+
+#Text=När Anders Borg drar upp det femte jobbskatteavdraget ur trollerihatten är applåderna matta.
+6-1	129-132	När	*[19]	_	_	_	_	_	_	
+6-2	133-139	Anders	*[19]	_	_	_	_	_	_	
+6-3	140-144	Borg	*[19]	_	_	_	_	_	_	
+6-4	145-149	drar	*[19]	_[2]	_	false[2]	2[2]	_	_	
+6-5	150-153	upp	*[19]	_[2]	_	false[2]	2[2]	_	_	
+6-6	154-157	det	*[19]|*[20]	_	_	_	_	_	_	
+6-7	158-163	femte	*[19]|*[20]	_	_	_	_	_	_	
+6-8	164-182	jobbskatteavdraget	*[19]|*[20]	_	_	_	_	_	_	
+6-9	183-185	ur	*[19]	Target[3]	6-6[20]	false[3]	2[3]	6-4[2_3]	_	
+6-10	186-200	trollerihatten	*[19]	Target[3]	6-6[20]	false[3]	2[3]	_	_	
+6-11	201-203	är	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-12	204-214	applåderna	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-13	215-220	matta	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-14	220-221	.	_	_	_	_	_	_	_	
+
+#Text=Vi har sett det tricket förut och magin har knappast blivit större den här gången.
+7-1	222-224	Vi	_	_	_	_	_	_	_	
+7-2	225-228	har	_	Target[5]	7-5	false[5]	2[5]	_	_	
+7-3	229-233	sett	_	Target[5]	7-5	false[5]	2[5]	_	_	
+7-4	234-237	det	_	Target[5]	7-5	false[5]	2[5]	_	_	
+7-5	238-245	tricket	*	_	_	_	_	_	_	
+7-6	246-251	förut	_	_	_	false	2	7-2[5_0]	_	
+7-7	252-255	och	_	_	_	_	_	_	_	
+7-8	256-261	magin	*	_	_	_	_	_	_	
+7-9	262-265	har	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-10	266-274	knappast	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-11	275-281	blivit	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-12	282-288	större	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-13	289-292	den	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-14	293-296	här	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-15	297-303	gången	_	Target[6]	7-8	false[6]	2[6]	_	_	
+7-16	303-304	.	_	_	_	_	_	_	_	
+
+#Text=Svenskarna gillar jämlikhet och den urholkade välfärden har gjort att många fler nu ser igenom den borgerliga retoriken och skrämselpropagandan om de svenska skatterna.
+8-1	305-315	Svenskarna	*	_	_	_	_	_	_	
+8-2	316-322	gillar	_	Target;Source	8-3;8-1	false	4	_	_	
+8-3	323-332	jämlikhet	*	_	_	_	_	_	_	
+8-4	333-336	och	_	_	_	_	_	_	_	
+8-5	337-340	den	_	_	_	_	_	_	_	
+8-6	341-350	urholkade	_	Target	8-7	false	2	_	_	
+8-7	351-360	välfärden	*	_	_	_	_	_	_	
+8-8	361-364	har	_	_	_	_	_	_	_	
+8-9	365-370	gjort	_	_	_	_	_	_	_	
+8-10	371-374	att	_	_	_	_	_	_	_	
+8-11	375-380	många	_	_	_	_	_	_	_	
+8-12	381-385	fler	_	_	_	_	_	_	_	
+8-13	386-388	nu	_	_	_	_	_	_	_	
+8-14	389-392	ser	_	Target[7]	8-16[21]	false[7]	2[7]	_	_	
+8-15	393-399	igenom	_	Target[7]	8-16[21]	false[7]	2[7]	_	_	
+8-16	400-403	den	*[21]	_	_	_	_	_	_	
+8-17	404-414	borgerliga	*[21]	_	_	_	_	_	_	
+8-18	415-424	retoriken	*[21]	_	_	_	_	_	_	
+8-19	425-428	och	*[21]	_	_	_	_	_	_	
+8-20	429-448	skrämselpropagandan	*[21]|*[22]	Target	8-20[22]	false	2	_	_	
+8-21	449-451	om	*[21]	_	_	_	_	_	_	
+8-22	452-454	de	*[21]	_	_	_	_	_	_	
+8-23	455-462	svenska	*[21]	_	_	_	_	_	_	
+8-24	463-472	skatterna	*[21]	_	_	_	_	_	_	
+8-25	472-473	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	475-476	#	_	_	_	_	_	_	_	
+9-2	476-477	P	_	_	_	_	_	_	_	
+9-3	478-481	IMM	_	_	_	_	_	_	_	
+9-4	481-482	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte skatterna som bestjäl oss på ett anständigt liv.
+10-1	484-487	Det	_	_	_	_	_	_	_	
+10-2	488-490	är	_	_	_	_	_	_	_	
+10-3	491-495	inte	_	_	_	_	_	_	_	
+10-4	496-505	skatterna	_	_	_	_	_	_	_	
+10-5	506-509	som	_	_	_	_	_	_	_	
+10-6	510-517	bestjäl	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-7	518-521	oss	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-8	522-524	på	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-9	525-528	ett	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-10	529-539	anständigt	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-11	540-543	liv	_	Target[8]	11-1	false[8]	2[8]	_	_	
+10-12	543-544	.	_	_	_	_	_	_	_	
+
+#Text=Det är alliansregeringens skattesänkningspolitik.
+11-1	545-548	Det	*	_	_	_	_	_	_	
+11-2	549-551	är	_	_	_	_	_	_	_	
+11-3	552-570	alliansregeringens	*[23]	_	_	_	_	_	11-1[0_23]	
+11-4	571-593	skattesänkningspolitik	*[23]	_	_	_	_	_	_	
+11-5	593-594	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	596-597	#	_	_	_	_	_	_	_	
+12-2	597-598	P	_	_	_	_	_	_	_	
+12-3	599-602	IMM	_	_	_	_	_	_	_	
+12-4	602-603	.	_	_	_	_	_	_	_	
+
+#Text=Vill vi verkligen ha jämlikhet behövs också en skattepolitik för jämlikhet.
+13-1	605-609	Vill	_	_	_	_	_	_	_	
+13-2	610-612	vi	_	_	_	_	_	_	_	
+13-3	613-622	verkligen	_	_	_	_	_	_	_	
+13-4	623-625	ha	_	_	_	_	_	_	_	
+13-5	626-635	jämlikhet	_	_	_	_	_	_	_	
+13-6	636-642	behövs	_	_	_	_	_	_	_	
+13-7	643-648	också	_	_	_	_	_	_	_	
+13-8	649-651	en	_	_	_	_	_	_	_	
+13-9	652-665	skattepolitik	_	_	_	_	_	_	_	
+13-10	666-669	för	_	_	_	_	_	_	_	
+13-11	670-679	jämlikhet	_	_	_	_	_	_	_	
+13-12	679-680	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	682-683	#	_	_	_	_	_	_	_	
+14-2	683-684	P	_	_	_	_	_	_	_	
+14-3	685-688	IMM	_	_	_	_	_	_	_	
+14-4	688-689	.	_	_	_	_	_	_	_	
+
+#Text=Under sommaren har vi alla via medierna kunnat följa krisen i sjukvården och inför skolans terminsstart påmindes vi om att nästan 12 000 elever går ut högstadiet utan att vara behöriga till gymnasieskolan.
+15-1	691-696	Under	_	_	_	_	_	_	_	
+15-2	697-705	sommaren	_	_	_	_	_	_	_	
+15-3	706-709	har	_	_	_	_	_	_	_	
+15-4	710-712	vi	_	_	_	_	_	_	_	
+15-5	713-717	alla	_	_	_	_	_	_	_	
+15-6	718-721	via	_	_	_	_	_	_	_	
+15-7	722-730	medierna	_	_	_	_	_	_	_	
+15-8	731-737	kunnat	_	_	_	_	_	_	_	
+15-9	738-743	följa	_	_	_	_	_	_	_	
+15-10	744-750	krisen	_	_	_	_	_	_	_	
+15-11	751-752	i	_	_	_	_	_	_	_	
+15-12	753-763	sjukvården	_	_	_	_	_	_	_	
+15-13	764-767	och	_	_	_	_	_	_	_	
+15-14	768-773	inför	_	_	_	_	_	_	_	
+15-15	774-781	skolans	_	_	_	_	_	_	_	
+15-16	782-794	terminsstart	_	_	_	_	_	_	_	
+15-17	795-803	påmindes	_	_	_	_	_	_	_	
+15-18	804-806	vi	_	_	_	_	_	_	_	
+15-19	807-809	om	_	_	_	_	_	_	_	
+15-20	810-813	att	_	_	_	_	_	_	_	
+15-21	814-820	nästan	_	_	_	_	_	_	_	
+15-22	821-823	12	_	_	_	_	_	_	_	
+15-23	824-827	000	_	_	_	_	_	_	_	
+15-24	828-834	elever	_	_	_	_	_	_	_	
+15-25	835-838	går	_	_	_	_	_	_	_	
+15-26	839-841	ut	_	_	_	_	_	_	_	
+15-27	842-852	högstadiet	_	_	_	_	_	_	_	
+15-28	853-857	utan	_	_	_	_	_	_	_	
+15-29	858-861	att	_	_	_	_	_	_	_	
+15-30	862-866	vara	_	_	_	_	_	_	_	
+15-31	867-875	behöriga	_	_	_	_	_	_	_	
+15-32	876-880	till	_	_	_	_	_	_	_	
+15-33	881-895	gymnasieskolan	_	_	_	_	_	_	_	
+15-34	895-896	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	898-899	#	_	_	_	_	_	_	_	
+16-2	899-900	P	_	_	_	_	_	_	_	
+16-3	901-904	IMM	_	_	_	_	_	_	_	
+16-4	904-905	.	_	_	_	_	_	_	_	
+
+#Text=Att den verkligheten inte lyckats tränga fram till Skattebetalarnas förening, vars vd Joacim Olsson berömde skattesänkningarna (AB 6/9), är inte förvånande.
+17-1	907-910	Att	_	_	_	_	_	_	_	
+17-2	911-914	den	_	_	_	_	_	_	_	
+17-3	915-927	verkligheten	_	_	_	_	_	_	_	
+17-4	928-932	inte	_	_	_	_	_	_	_	
+17-5	933-940	lyckats	_	_	_	_	_	_	_	
+17-6	941-947	tränga	_	_	_	_	_	_	_	
+17-7	948-952	fram	_	_	_	_	_	_	_	
+17-8	953-957	till	_	_	_	_	_	_	_	
+17-9	958-974	Skattebetalarnas	_	_	_	_	_	_	_	
+17-10	975-983	förening	_	_	_	_	_	_	_	
+17-11	983-984	,	_	_	_	_	_	_	_	
+17-12	985-989	vars	_	_	_	_	_	_	_	
+17-13	990-992	vd	_	_	_	_	_	_	_	
+17-14	993-999	Joacim	_	_	_	_	_	_	_	
+17-15	1000-1006	Olsson	_	_	_	_	_	_	_	
+17-16	1007-1014	berömde	_	_	_	_	_	_	_	
+17-17	1015-1033	skattesänkningarna	_	_	_	_	_	_	_	
+17-18	1034-1035	(	_	_	_	_	_	_	_	
+17-19	1035-1037	AB	_	_	_	_	_	_	_	
+17-20	1038-1039	6	_	_	_	_	_	_	_	
+17-21	1039-1040	/	_	_	_	_	_	_	_	
+17-22	1040-1041	9	_	_	_	_	_	_	_	
+17-23	1041-1042	)	_	_	_	_	_	_	_	
+17-24	1042-1043	,	_	_	_	_	_	_	_	
+17-25	1044-1046	är	_	_	_	_	_	_	_	
+17-26	1047-1051	inte	_	_	_	_	_	_	_	
+17-27	1052-1062	förvånande	_	_	_	_	_	_	_	
+17-28	1062-1063	.	_	_	_	false	2	_	_	
+
+#Text=Olsson har uppenbarligen inte fött barn under sommaren.
+18-1	1064-1070	Olsson	_	_	_	_	_	_	_	
+18-2	1071-1074	har	_	_	_	_	_	_	_	
+18-3	1075-1088	uppenbarligen	_	_	_	_	_	_	_	
+18-4	1089-1093	inte	_	_	_	_	_	_	_	
+18-5	1094-1098	fött	_	_	_	_	_	_	_	
+18-6	1099-1103	barn	_	_	_	_	_	_	_	
+18-7	1104-1109	under	_	_	_	_	_	_	_	
+18-8	1110-1118	sommaren	_	_	_	_	_	_	_	
+18-9	1118-1119	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+19-1	1121-1122	#	_	_	_	_	_	_	_	
+19-2	1122-1123	P	_	_	_	_	_	_	_	
+19-3	1124-1127	IMM	_	_	_	_	_	_	_	
+19-4	1127-1128	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt växer läxhjälpsbolagen som säljer sina tjänster till dem som har råd.
+20-1	1130-1139	Samtidigt	_	_	_	_	_	_	_	
+20-2	1140-1145	växer	_	_	_	_	_	_	_	
+20-3	1146-1162	läxhjälpsbolagen	_	_	_	_	_	_	_	
+20-4	1163-1166	som	_	_	_	_	_	_	_	
+20-5	1167-1173	säljer	_	_	_	_	_	_	_	
+20-6	1174-1178	sina	_	_	_	_	_	_	_	
+20-7	1179-1187	tjänster	_	_	_	_	_	_	_	
+20-8	1188-1192	till	_	_	_	_	_	_	_	
+20-9	1193-1196	dem	_	_	_	_	_	_	_	
+20-10	1197-1200	som	_	_	_	_	_	_	_	
+20-11	1201-1204	har	_	_	_	_	_	_	_	
+20-12	1205-1208	råd	_	_	_	_	_	_	_	
+20-13	1208-1209	.	_	_	_	_	_	_	_	
+
+#Text=Och året om vet vi att många kvinnor går ner i arbetstid för att vårda sina närstående äldre när den offentliga äldreomsorgen inte räcker till.
+21-1	1210-1213	Och	_	_	_	_	_	_	_	
+21-2	1214-1218	året	_	_	_	_	_	_	_	
+21-3	1219-1221	om	_	_	_	_	_	_	_	
+21-4	1222-1225	vet	_	_	_	_	_	_	_	
+21-5	1226-1228	vi	_	_	_	_	_	_	_	
+21-6	1229-1232	att	_	_	_	_	_	_	_	
+21-7	1233-1238	många	_	_	_	_	_	_	_	
+21-8	1239-1246	kvinnor	_	_	_	_	_	_	_	
+21-9	1247-1250	går	_	_	_	_	_	_	_	
+21-10	1251-1254	ner	_	_	_	_	_	_	_	
+21-11	1255-1256	i	_	_	_	_	_	_	_	
+21-12	1257-1266	arbetstid	_	_	_	_	_	_	_	
+21-13	1267-1270	för	_	_	_	_	_	_	_	
+21-14	1271-1274	att	_	_	_	_	_	_	_	
+21-15	1275-1280	vårda	_	_	_	_	_	_	_	
+21-16	1281-1285	sina	_	_	_	_	_	_	_	
+21-17	1286-1296	närstående	_	_	_	_	_	_	_	
+21-18	1297-1302	äldre	_	_	_	_	_	_	_	
+21-19	1303-1306	när	_	_	_	_	_	_	_	
+21-20	1307-1310	den	*[24]	_	_	_	_	_	_	
+21-21	1311-1321	offentliga	*[24]	_	_	_	_	_	_	
+21-22	1322-1335	äldreomsorgen	*[24]	_	_	_	_	_	_	
+21-23	1336-1340	inte	_	Target[9]	21-20[24]	false[9]	2[9]	_	_	
+21-24	1341-1347	räcker	_	Target[9]	21-20[24]	false[9]	2[9]	_	_	
+21-25	1348-1352	till	_	Target[9]	21-20[24]	false[9]	2[9]	_	_	
+21-26	1352-1353	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1355-1356	#	_	_	_	_	_	_	_	
+22-2	1356-1357	P	_	_	_	_	_	_	_	
+22-3	1358-1361	IMM	_	_	_	_	_	_	_	
+22-4	1361-1362	.	_	_	_	_	_	_	_	
+
+#Text=Tecknen är många på att välfärden som vi känner den håller på att falla sönder.
+23-1	1364-1371	Tecknen	_	_	_	_	_	_	_	
+23-2	1372-1374	är	_	_	_	_	_	_	_	
+23-3	1375-1380	många	_	_	_	_	_	_	_	
+23-4	1381-1383	på	_	_	_	_	_	_	_	
+23-5	1384-1387	att	_	_	_	_	_	_	_	
+23-6	1388-1397	välfärden	*[25]	_	_	_	_	_	_	
+23-7	1398-1401	som	*[25]	_	_	_	_	_	_	
+23-8	1402-1404	vi	*[25]	_	_	_	_	_	_	
+23-9	1405-1411	känner	*[25]	_	_	_	_	_	_	
+23-10	1412-1415	den	*[25]	_	_	_	_	_	_	
+23-11	1416-1422	håller	_	Target[10]	23-6[25]	false[10]	2[10]	_	_	
+23-12	1423-1425	på	_	Target[10]	23-6[25]	false[10]	2[10]	_	_	
+23-13	1426-1429	att	_	Target[10]	23-6[25]	false[10]	2[10]	_	_	
+23-14	1430-1435	falla	_	Target[10]	23-6[25]	false[10]	2[10]	_	_	
+23-15	1436-1442	sönder	_	Target[10]	23-6[25]	false[10]	2[10]	_	_	
+23-16	1442-1443	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1445-1446	#	_	_	_	_	_	_	_	
+24-2	1446-1447	P	_	_	_	_	_	_	_	
+24-3	1448-1451	IMM	_	_	_	_	_	_	_	
+24-4	1451-1452	.	_	_	_	_	_	_	_	
+
+#Text=Även bilden av Sverige som ett land med väldigt små inkomstskillnader krackelerar.
+25-1	1454-1458	Även	_	_	_	_	_	_	_	
+25-2	1459-1465	bilden	*[26]	_	_	_	_	_	_	
+25-3	1466-1468	av	*[26]	_	_	_	_	_	_	
+25-4	1469-1476	Sverige	*[26]	_	_	_	_	_	_	
+25-5	1477-1480	som	_	_	_	_	_	_	_	
+25-6	1481-1484	ett	_	_	_	_	_	_	_	
+25-7	1485-1489	land	_	_	_	_	_	_	_	
+25-8	1490-1493	med	_	_	_	_	_	_	_	
+25-9	1494-1501	väldigt	_	_	_	_	_	_	_	
+25-10	1502-1505	små	_	_	_	_	_	_	_	
+25-11	1506-1523	inkomstskillnader	_	_	_	_	_	_	_	
+25-12	1524-1535	krackelerar	_	Target	25-2[26]	false	2	_	_	
+25-13	1535-1536	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är nu det land inom OECD där inkomstskillnaderna växer snabbast.
+26-1	1537-1544	Sverige	_	_	_	_	_	_	_	
+26-2	1545-1547	är	_	_	_	_	_	_	_	
+26-3	1548-1550	nu	_	_	_	_	_	_	_	
+26-4	1551-1554	det	_	_	_	_	_	_	_	
+26-5	1555-1559	land	_	_	_	_	_	_	_	
+26-6	1560-1564	inom	_	_	_	_	_	_	_	
+26-7	1565-1569	OECD	_	_	_	_	_	_	_	
+26-8	1570-1573	där	_	_	_	_	_	_	_	
+26-9	1574-1593	inkomstskillnaderna	_	_	_	_	_	_	_	
+26-10	1594-1599	växer	_	_	_	_	_	_	_	
+26-11	1600-1608	snabbast	_	_	_	_	_	_	_	
+26-12	1608-1609	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1611-1612	#	_	_	_	_	_	_	_	
+27-2	1612-1613	P	_	_	_	_	_	_	_	
+27-3	1614-1617	IMM	_	_	_	_	_	_	_	
+27-4	1617-1618	.	_	_	_	_	_	_	_	
+
+#Text=Vänsterpartiet tycker att det är nog nu.
+28-1	1620-1634	Vänsterpartiet	*	_	_	_	_	_	_	
+28-2	1635-1641	tycker	_	_	_	_	_	_	_	
+28-3	1642-1645	att	_	_	_	_	_	_	_	
+28-4	1646-1649	det	_	Source[11]	28-1	false[11]	2[11]	_	_	
+28-5	1650-1652	är	_	Source[11]	28-1	false[11]	2[11]	_	_	
+28-6	1653-1656	nog	_	Source[11]	28-1	false[11]	2[11]	_	_	
+28-7	1657-1659	nu	_	Source[11]	28-1	false[11]	2[11]	_	_	
+28-8	1659-1660	.	_	_	_	_	_	_	_	
+
+#Text=Vi menar att det behövs en skattepolitik som gör det möjligt att föra samhällsutvecklingen framåt och inte bakåt.
+29-1	1661-1663	Vi	_	_	_	_	_	_	_	
+29-2	1664-1669	menar	_	_	_	_	_	_	_	
+29-3	1670-1673	att	_	_	_	_	_	_	_	
+29-4	1674-1677	det	_	_	_	_	_	_	_	
+29-5	1678-1684	behövs	_	_	_	_	_	_	_	
+29-6	1685-1687	en	_	_	_	_	_	_	_	
+29-7	1688-1701	skattepolitik	_	_	_	_	_	_	_	
+29-8	1702-1705	som	_	_	_	_	_	_	_	
+29-9	1706-1709	gör	_	_	_	_	_	_	_	
+29-10	1710-1713	det	_	_	_	_	_	_	_	
+29-11	1714-1721	möjligt	_	_	_	_	_	_	_	
+29-12	1722-1725	att	_	_	_	_	_	_	_	
+29-13	1726-1730	föra	_	_	_	_	_	_	_	
+29-14	1731-1751	samhällsutvecklingen	_	_	_	_	_	_	_	
+29-15	1752-1758	framåt	_	_	_	_	_	_	_	
+29-16	1759-1762	och	_	_	_	_	_	_	_	
+29-17	1763-1767	inte	_	_	_	_	_	_	_	
+29-18	1768-1773	bakåt	_	_	_	_	_	_	_	
+29-19	1773-1774	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1776-1777	#	_	_	_	_	_	_	_	
+30-2	1777-1778	P	_	_	_	_	_	_	_	
+30-3	1779-1782	IMM	_	_	_	_	_	_	_	
+30-4	1782-1783	.	_	_	_	_	_	_	_	
+
+#Text=Den viktigaste målsättningen med Vänsterpartiets skattepolitik är att finansiera en väl utbyggd generell välfärd.
+31-1	1785-1788	Den	_	_	_	_	_	_	_	
+31-2	1789-1799	viktigaste	_	_	_	_	_	_	_	
+31-3	1800-1813	målsättningen	_	_	_	_	_	_	_	
+31-4	1814-1817	med	_	_	_	_	_	_	_	
+31-5	1818-1833	Vänsterpartiets	_	_	_	_	_	_	_	
+31-6	1834-1847	skattepolitik	_	_	_	_	_	_	_	
+31-7	1848-1850	är	_	_	_	_	_	_	_	
+31-8	1851-1854	att	_	_	_	_	_	_	_	
+31-9	1855-1865	finansiera	_	_	_	_	_	_	_	
+31-10	1866-1868	en	_	_	_	_	_	_	_	
+31-11	1869-1872	väl	_	Target	31-12	false	4	_	_	
+31-12	1873-1880	utbyggd	*	_	_	_	_	_	_	
+31-13	1881-1889	generell	_	_	_	_	_	_	_	
+31-14	1890-1897	välfärd	_	_	_	_	_	_	_	
+31-15	1897-1898	.	_	_	_	_	_	_	_	
+
+#Text=Att betala välfärden solidariskt via skatterna är effektivt, och dessutom är det ett kraftfullt verktyg för att utjämna skillnader mellan människor och därmed öka jämlikheten och rättvisan för den som har mindre - men också stabiliteten och tryggheten i samhället för den som har mera.
+32-1	1899-1902	Att	*[27]|*[28]	_	_	_	_	_	_	
+32-2	1903-1909	betala	*[27]|*[28]	_	_	_	_	_	_	
+32-3	1910-1919	välfärden	*[27]|*[28]	_	_	_	_	_	_	
+32-4	1920-1931	solidariskt	*[27]|*[28]	Target	32-5[29]	false	4	_	_	
+32-5	1932-1935	via	*[27]|*[28]|*[29]	_	_	_	_	_	_	
+32-6	1936-1945	skatterna	*[27]|*[28]|*[29]	_	_	_	_	_	_	
+32-7	1946-1948	är	_	Target[12]	32-1[27]	false[12]	4[12]	_	_	
+32-8	1949-1958	effektivt	_	Target[12]	32-1[27]	false[12]	4[12]	_	_	
+32-9	1958-1959	,	_	_	_	_	_	_	_	
+32-10	1960-1963	och	_	_	_	_	_	_	_	
+32-11	1964-1972	dessutom	_	_	_	_	_	_	_	
+32-12	1973-1975	är	_	_	_	false	4	_	_	
+32-13	1976-1979	det	_	_	_	_	_	_	_	
+32-14	1980-1983	ett	_	Target[13]	32-1[28]	false[13]	4[13]	32-12[0_13]	_	
+32-15	1984-1994	kraftfullt	_	Target[13]|Target[14]	32-1[28]|32-16	false[13]|false[14]	4[13]|4[14]	_	_	
+32-16	1995-2002	verktyg	*	Target[13]	32-1[28]	false[13]	4[13]	_	_	
+32-17	2003-2006	för	_	_	_	_	_	_	_	
+32-18	2007-2010	att	_	_	_	_	_	_	_	
+32-19	2011-2018	utjämna	_	_	_	_	_	_	_	
+32-20	2019-2029	skillnader	_	_	_	_	_	_	_	
+32-21	2030-2036	mellan	_	_	_	_	_	_	_	
+32-22	2037-2046	människor	_	_	_	_	_	_	_	
+32-23	2047-2050	och	_	_	_	_	_	_	_	
+32-24	2051-2057	därmed	_	_	_	_	_	_	_	
+32-25	2058-2061	öka	_	_	_	_	_	_	_	
+32-26	2062-2073	jämlikheten	_	_	_	_	_	_	_	
+32-27	2074-2077	och	_	_	_	_	_	_	_	
+32-28	2078-2087	rättvisan	_	_	_	_	_	_	_	
+32-29	2088-2091	för	_	_	_	_	_	_	_	
+32-30	2092-2095	den	_	_	_	_	_	_	_	
+32-31	2096-2099	som	_	_	_	_	_	_	_	
+32-32	2100-2103	har	_	_	_	_	_	_	_	
+32-33	2104-2110	mindre	_	_	_	_	_	_	_	
+32-34	2111-2112	-	_	_	_	_	_	_	_	
+32-35	2113-2116	men	_	_	_	_	_	_	_	
+32-36	2117-2122	också	_	_	_	_	_	_	_	
+32-37	2123-2135	stabiliteten	_	_	_	_	_	_	_	
+32-38	2136-2139	och	_	_	_	_	_	_	_	
+32-39	2140-2150	tryggheten	_	_	_	_	_	_	_	
+32-40	2151-2152	i	_	_	_	_	_	_	_	
+32-41	2153-2162	samhället	_	_	_	_	_	_	_	
+32-42	2163-2166	för	_	_	_	_	_	_	_	
+32-43	2167-2170	den	_	_	_	_	_	_	_	
+32-44	2171-2174	som	_	_	_	_	_	_	_	
+32-45	2175-2178	har	_	_	_	_	_	_	_	
+32-46	2179-2183	mera	_	_	_	_	_	_	_	
+32-47	2183-2184	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2186-2187	#	_	_	_	_	_	_	_	
+33-2	2187-2188	P	_	_	_	_	_	_	_	
+33-3	2189-2192	IMM	_	_	_	_	_	_	_	
+33-4	2192-2193	.	_	_	_	_	_	_	_	
+
+#Text=Men om vi ska klara detta måste vi våga vara ärliga med att skatteuttaget måste öka.
+34-1	2195-2198	Men	_	_	_	_	_	_	_	
+34-2	2199-2201	om	_	_	_	_	_	_	_	
+34-3	2202-2204	vi	_	_	_	_	_	_	_	
+34-4	2205-2208	ska	_	_	_	_	_	_	_	
+34-5	2209-2214	klara	_	_	_	_	_	_	_	
+34-6	2215-2220	detta	_	_	_	_	_	_	_	
+34-7	2221-2226	måste	_	_	_	_	_	_	_	
+34-8	2227-2229	vi	_	_	_	_	_	_	_	
+34-9	2230-2234	våga	_	_	_	_	_	_	_	
+34-10	2235-2239	vara	_	_	_	_	_	_	_	
+34-11	2240-2246	ärliga	_	_	_	_	_	_	_	
+34-12	2247-2250	med	_	_	_	_	_	_	_	
+34-13	2251-2254	att	_	_	_	_	_	_	_	
+34-14	2255-2268	skatteuttaget	_	_	_	_	_	_	_	
+34-15	2269-2274	måste	_	_	_	_	_	_	_	
+34-16	2275-2278	öka	_	_	_	_	_	_	_	
+34-17	2278-2279	.	_	_	_	_	_	_	_	
+
+#Text=Alternativet är att var och en av oss måste betala för den välfärd vi behöver, till exempel via privata försäkringar.
+35-1	2280-2292	Alternativet	_	_	_	_	_	_	_	
+35-2	2293-2295	är	_	_	_	_	_	_	_	
+35-3	2296-2299	att	_	_	_	_	_	_	_	
+35-4	2300-2303	var	_	_	_	_	_	_	_	
+35-5	2304-2307	och	_	_	_	_	_	_	_	
+35-6	2308-2310	en	_	_	_	_	_	_	_	
+35-7	2311-2313	av	_	_	_	_	_	_	_	
+35-8	2314-2317	oss	_	_	_	_	_	_	_	
+35-9	2318-2323	måste	_	_	_	_	_	_	_	
+35-10	2324-2330	betala	_	_	_	_	_	_	_	
+35-11	2331-2334	för	_	_	_	_	_	_	_	
+35-12	2335-2338	den	_	_	_	_	_	_	_	
+35-13	2339-2346	välfärd	_	_	_	_	_	_	_	
+35-14	2347-2349	vi	_	_	_	_	_	_	_	
+35-15	2350-2357	behöver	_	_	_	_	_	_	_	
+35-16	2357-2358	,	_	_	_	_	_	_	_	
+35-17	2359-2363	till	_	_	_	_	_	_	_	
+35-18	2364-2371	exempel	_	_	_	_	_	_	_	
+35-19	2372-2375	via	_	_	_	_	_	_	_	
+35-20	2376-2383	privata	_	_	_	_	_	_	_	
+35-21	2384-2396	försäkringar	_	_	_	_	_	_	_	
+35-22	2396-2397	.	_	_	_	_	_	_	_	
+
+#Text=Då är det inte längre dina behov utan plånbokens storlek som avgör vilken välfärd du får.
+36-1	2398-2400	Då	_	_	_	_	_	_	_	
+36-2	2401-2403	är	_	_	_	_	_	_	_	
+36-3	2404-2407	det	_	_	_	_	_	_	_	
+36-4	2408-2412	inte	_	_	_	_	_	_	_	
+36-5	2413-2419	längre	_	_	_	_	_	_	_	
+36-6	2420-2424	dina	_	_	_	_	_	_	_	
+36-7	2425-2430	behov	_	_	_	_	_	_	_	
+36-8	2431-2435	utan	_	_	_	_	_	_	_	
+36-9	2436-2446	plånbokens	_	_	_	_	_	_	_	
+36-10	2447-2454	storlek	_	_	_	_	_	_	_	
+36-11	2455-2458	som	_	_	_	_	_	_	_	
+36-12	2459-2464	avgör	_	_	_	_	_	_	_	
+36-13	2465-2471	vilken	_	_	_	_	_	_	_	
+36-14	2472-2479	välfärd	_	_	_	_	_	_	_	
+36-15	2480-2482	du	_	_	_	_	_	_	_	
+36-16	2483-2486	får	_	_	_	_	_	_	_	
+36-17	2486-2487	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2489-2490	#	_	_	_	_	_	_	_	
+37-2	2490-2491	P	_	_	_	_	_	_	_	
+37-3	2492-2495	IMM	_	_	_	_	_	_	_	
+37-4	2495-2496	.	_	_	_	_	_	_	_	
+
+#Text=Skattekvoten kan också ses som ett mått på hur stor andel av ekonomin som vi styr över tillsammans.
+38-1	2498-2510	Skattekvoten	_	_	_	_	_	_	_	
+38-2	2511-2514	kan	_	_	_	_	_	_	_	
+38-3	2515-2520	också	_	_	_	_	_	_	_	
+38-4	2521-2524	ses	_	_	_	_	_	_	_	
+38-5	2525-2528	som	_	_	_	_	_	_	_	
+38-6	2529-2532	ett	_	_	_	_	_	_	_	
+38-7	2533-2537	mått	_	_	_	_	_	_	_	
+38-8	2538-2540	på	_	_	_	_	_	_	_	
+38-9	2541-2544	hur	_	_	_	_	_	_	_	
+38-10	2545-2549	stor	_	_	_	_	_	_	_	
+38-11	2550-2555	andel	_	_	_	_	_	_	_	
+38-12	2556-2558	av	_	_	_	_	_	_	_	
+38-13	2559-2567	ekonomin	_	_	_	_	_	_	_	
+38-14	2568-2571	som	_	_	_	_	_	_	_	
+38-15	2572-2574	vi	_	_	_	_	_	_	_	
+38-16	2575-2579	styr	_	_	_	_	_	_	_	
+38-17	2580-2584	över	_	_	_	_	_	_	_	
+38-18	2585-2596	tillsammans	_	_	_	_	_	_	_	
+38-19	2596-2597	.	_	_	_	_	_	_	_	
+
+#Text=Med hjälp av skatter kan vi finansiera investeringar i bostäder, forskning och infrastruktur som bygger Sveriges styrka på sikt och skapar jobb i privat sektor.
+39-1	2598-2601	Med	_	_	_	_	_	_	_	
+39-2	2602-2607	hjälp	_	_	_	_	_	_	_	
+39-3	2608-2610	av	_	_	_	_	_	_	_	
+39-4	2611-2618	skatter	_	_	_	_	_	_	_	
+39-5	2619-2622	kan	_	_	_	_	_	_	_	
+39-6	2623-2625	vi	_	_	_	_	_	_	_	
+39-7	2626-2636	finansiera	_	_	_	_	_	_	_	
+39-8	2637-2650	investeringar	_	_	_	_	_	_	_	
+39-9	2651-2652	i	_	_	_	_	_	_	_	
+39-10	2653-2661	bostäder	_	_	_	_	_	_	_	
+39-11	2661-2662	,	_	_	_	_	_	_	_	
+39-12	2663-2672	forskning	_	_	_	_	_	_	_	
+39-13	2673-2676	och	_	_	_	_	_	_	_	
+39-14	2677-2690	infrastruktur	_	_	_	_	_	_	_	
+39-15	2691-2694	som	_	_	_	_	_	_	_	
+39-16	2695-2701	bygger	_	_	_	_	_	_	_	
+39-17	2702-2710	Sveriges	_	_	_	_	_	_	_	
+39-18	2711-2717	styrka	_	_	_	_	_	_	_	
+39-19	2718-2720	på	_	_	_	_	_	_	_	
+39-20	2721-2725	sikt	_	_	_	_	_	_	_	
+39-21	2726-2729	och	_	_	_	_	_	_	_	
+39-22	2730-2736	skapar	_	_	_	_	_	_	_	
+39-23	2737-2741	jobb	_	_	_	_	_	_	_	
+39-24	2742-2743	i	_	_	_	_	_	_	_	
+39-25	2744-2750	privat	_	_	_	_	_	_	_	
+39-26	2751-2757	sektor	_	_	_	_	_	_	_	
+39-27	2757-2758	.	_	_	_	_	_	_	_	
+
+#Text=Att skattekvoten har minskat från 48 procent av BNP 2006 till 44,3 procent i år börjar märkas i bostadsbristens och tågförseningarnas Sverige - och inte minst i välfärden.
+40-1	2759-2762	Att	_	_	_	_	_	_	_	
+40-2	2763-2775	skattekvoten	_	_	_	_	_	_	_	
+40-3	2776-2779	har	_	_	_	_	_	_	_	
+40-4	2780-2787	minskat	_	_	_	_	_	_	_	
+40-5	2788-2792	från	_	_	_	_	_	_	_	
+40-6	2793-2795	48	_	_	_	_	_	_	_	
+40-7	2796-2803	procent	_	_	_	_	_	_	_	
+40-8	2804-2806	av	_	_	_	_	_	_	_	
+40-9	2807-2810	BNP	_	_	_	_	_	_	_	
+40-10	2811-2815	2006	_	_	_	_	_	_	_	
+40-11	2816-2820	till	_	_	_	_	_	_	_	
+40-12	2821-2825	44,3	_	_	_	_	_	_	_	
+40-13	2826-2833	procent	_	_	_	_	_	_	_	
+40-14	2834-2835	i	_	_	_	_	_	_	_	
+40-15	2836-2838	år	_	_	_	_	_	_	_	
+40-16	2839-2845	börjar	_	_	_	_	_	_	_	
+40-17	2846-2852	märkas	_	_	_	_	_	_	_	
+40-18	2853-2854	i	_	_	_	_	_	_	_	
+40-19	2855-2870	bostadsbristens	*[30]	Target[15]	40-19[30]	false[15]	2[15]	_	_	
+40-20	2871-2874	och	*[30]	Target[15]	40-19[30]	false[15]	2[15]	_	_	
+40-21	2875-2892	tågförseningarnas	*[30]	Target[15]	40-19[30]	false[15]	2[15]	_	_	
+40-22	2893-2900	Sverige	*[30]	_	_	_	_	_	_	
+40-23	2901-2902	-	_	_	_	_	_	_	_	
+40-24	2903-2906	och	_	_	_	_	_	_	_	
+40-25	2907-2911	inte	_	_	_	_	_	_	_	
+40-26	2912-2917	minst	_	_	_	_	_	_	_	
+40-27	2918-2919	i	_	_	_	_	_	_	_	
+40-28	2920-2929	välfärden	_	_	_	_	_	_	_	
+40-29	2929-2930	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2932-2933	#	_	_	_	_	_	_	_	
+41-2	2933-2934	P	_	_	_	_	_	_	_	
+41-3	2935-2938	IMM	_	_	_	_	_	_	_	
+41-4	2938-2939	.	_	_	_	_	_	_	_	
+
+#Text=Vänsterpartiets skattepolitik vill så långt det är möjligt värna låg- och medelinkomsttagare och vi vill bygga ett skattesystem där man betalar lika mycket i skatt vid lika inkomst.
+42-1	2941-2956	Vänsterpartiets	_	_	_	_	_	_	_	
+42-2	2957-2970	skattepolitik	_	_	_	_	_	_	_	
+42-3	2971-2975	vill	_	_	_	false	4	_	_	
+42-4	2976-2978	så	_	_	_	_	_	_	_	
+42-5	2979-2984	långt	_	_	_	_	_	_	_	
+42-6	2985-2988	det	_	_	_	_	_	_	_	
+42-7	2989-2991	är	_	_	_	_	_	_	_	
+42-8	2992-2999	möjligt	_	_	_	_	_	_	_	
+42-9	3000-3005	värna	_	Target	42-10[31]	false	4	42-3	_	
+42-10	3006-3009	låg	*[31]	_	_	_	_	_	_	
+42-11	3009-3010	-	*[31]	_	_	_	_	_	_	
+42-12	3011-3014	och	*[31]	_	_	_	_	_	_	
+42-13	3015-3033	medelinkomsttagare	*[31]	_	_	_	_	_	_	
+42-14	3034-3037	och	_	_	_	_	_	_	_	
+42-15	3038-3040	vi	_	_	_	_	_	_	_	
+42-16	3041-3045	vill	_	_	_	_	_	_	_	
+42-17	3046-3051	bygga	_	_	_	_	_	_	_	
+42-18	3052-3055	ett	_	_	_	_	_	_	_	
+42-19	3056-3068	skattesystem	_	_	_	_	_	_	_	
+42-20	3069-3072	där	_	_	_	_	_	_	_	
+42-21	3073-3076	man	_	_	_	_	_	_	_	
+42-22	3077-3084	betalar	_	_	_	_	_	_	_	
+42-23	3085-3089	lika	_	_	_	_	_	_	_	
+42-24	3090-3096	mycket	_	_	_	_	_	_	_	
+42-25	3097-3098	i	_	_	_	_	_	_	_	
+42-26	3099-3104	skatt	_	_	_	_	_	_	_	
+42-27	3105-3108	vid	_	_	_	_	_	_	_	
+42-28	3109-3113	lika	_	_	_	_	_	_	_	
+42-29	3114-3121	inkomst	_	_	_	_	_	_	_	
+42-30	3121-3122	.	_	_	_	_	_	_	_	
+
+#Text=Tvärt-emot vad många säkert tror så får alla som tjänar upp till 30 000 kronor i månaden oförändrad inkomstskatt med vår politik.
+43-1	3123-3133	Tvärt-emot	_	_	_	_	_	_	_	
+43-2	3134-3137	vad	_	_	_	_	_	_	_	
+43-3	3138-3143	många	_	_	_	_	_	_	_	
+43-4	3144-3150	säkert	_	_	_	_	_	_	_	
+43-5	3151-3155	tror	_	_	_	_	_	_	_	
+43-6	3156-3158	så	_	_	_	_	_	_	_	
+43-7	3159-3162	får	_	_	_	_	_	_	_	
+43-8	3163-3167	alla	_	_	_	_	_	_	_	
+43-9	3168-3171	som	_	_	_	_	_	_	_	
+43-10	3172-3178	tjänar	_	_	_	_	_	_	_	
+43-11	3179-3182	upp	_	_	_	_	_	_	_	
+43-12	3183-3187	till	_	_	_	_	_	_	_	
+43-13	3188-3190	30	_	_	_	_	_	_	_	
+43-14	3191-3194	000	_	_	_	_	_	_	_	
+43-15	3195-3201	kronor	_	_	_	_	_	_	_	
+43-16	3202-3203	i	_	_	_	_	_	_	_	
+43-17	3204-3211	månaden	_	_	_	_	_	_	_	
+43-18	3212-3222	oförändrad	_	_	_	_	_	_	_	
+43-19	3223-3235	inkomstskatt	_	_	_	_	_	_	_	
+43-20	3236-3239	med	_	_	_	_	_	_	_	
+43-21	3240-3243	vår	_	_	_	_	_	_	_	
+43-22	3244-3251	politik	_	_	_	_	_	_	_	
+43-23	3251-3252	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3254-3255	#	_	_	_	_	_	_	_	
+44-2	3255-3256	P	_	_	_	_	_	_	_	
+44-3	3257-3260	IMM	_	_	_	_	_	_	_	
+44-4	3260-3261	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt menar vi att kapitalbeskattningen bör öka.
+45-1	3263-3272	Samtidigt	_	_	_	_	_	_	_	
+45-2	3273-3278	menar	_	_	_	_	_	_	_	
+45-3	3279-3281	vi	_	_	_	_	_	_	_	
+45-4	3282-3285	att	_	_	_	_	_	_	_	
+45-5	3286-3306	kapitalbeskattningen	*	_	_	_	_	_	_	
+45-6	3307-3310	bör	_	Target[16]	45-5	false[16]	4[16]	_	_	
+45-7	3311-3314	öka	_	Target[16]	45-5	false[16]	4[16]	_	_	
+45-8	3314-3315	.	_	_	_	_	_	_	_	
+
+#Text=Finanssektorn är exempelvis underbeskattad i dag, och ökad beskattning kan vara ett sätt att begränsa spekulationsekonomin.
+46-1	3316-3329	Finanssektorn	_	_	_	_	_	_	_	
+46-2	3330-3332	är	_	_	_	_	_	_	_	
+46-3	3333-3343	exempelvis	_	_	_	_	_	_	_	
+46-4	3344-3358	underbeskattad	_	_	_	_	_	_	_	
+46-5	3359-3360	i	_	_	_	_	_	_	_	
+46-6	3361-3364	dag	_	_	_	_	_	_	_	
+46-7	3364-3365	,	_	_	_	_	_	_	_	
+46-8	3366-3369	och	_	_	_	_	_	_	_	
+46-9	3370-3374	ökad	_	_	_	_	_	_	_	
+46-10	3375-3386	beskattning	_	_	_	_	_	_	_	
+46-11	3387-3390	kan	_	_	_	_	_	_	_	
+46-12	3391-3395	vara	_	_	_	_	_	_	_	
+46-13	3396-3399	ett	_	_	_	_	_	_	_	
+46-14	3400-3404	sätt	_	_	_	_	_	_	_	
+46-15	3405-3408	att	_	_	_	_	_	_	_	
+46-16	3409-3417	begränsa	_	Target	46-17[33]	false	2	_	_	
+46-17	3418-3438	spekulationsekonomin	*[32]|*[33]	Target	46-17[32]	false	2	_	_	
+46-18	3438-3439	.	_	_	_	_	_	_	_	
+
+#Text=Även bolagsskatten ska ta in en rimlig del av vinsterna till samhälleliga investeringar och utgifter och bör höjas.
+47-1	3440-3444	Även	_	_	_	_	_	_	_	
+47-2	3445-3458	bolagsskatten	_	_	_	_	_	_	_	
+47-3	3459-3462	ska	_	_	_	_	_	_	_	
+47-4	3463-3465	ta	_	_	_	_	_	_	_	
+47-5	3466-3468	in	_	_	_	_	_	_	_	
+47-6	3469-3471	en	_	_	_	_	_	_	_	
+47-7	3472-3478	rimlig	_	Target	47-8[34]	false	4	_	_	
+47-8	3479-3482	del	*[34]	_	_	_	_	_	_	
+47-9	3483-3485	av	*[34]	_	_	_	_	_	_	
+47-10	3486-3495	vinsterna	*[34]	_	_	_	_	_	_	
+47-11	3496-3500	till	_	_	_	_	_	_	_	
+47-12	3501-3513	samhälleliga	_	_	_	_	_	_	_	
+47-13	3514-3527	investeringar	_	_	_	_	_	_	_	
+47-14	3528-3531	och	_	_	_	_	_	_	_	
+47-15	3532-3540	utgifter	_	_	_	_	_	_	_	
+47-16	3541-3544	och	_	_	_	_	_	_	_	
+47-17	3545-3548	bör	_	_	_	_	_	_	_	
+47-18	3549-3554	höjas	_	_	_	_	_	_	_	
+47-19	3554-3555	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3557-3558	#	_	_	_	_	_	_	_	
+48-2	3558-3559	P	_	_	_	_	_	_	_	
+48-3	3560-3563	IMM	_	_	_	_	_	_	_	
+48-4	3563-3564	.	_	_	_	_	_	_	_	
+
+#Text=Vänsterpartiet är tydligt med vilken väg vi väljer.
+49-1	3566-3580	Vänsterpartiet	_	_	_	_	_	_	_	
+49-2	3581-3583	är	_	_	_	_	_	_	_	
+49-3	3584-3591	tydligt	_	_	_	_	_	_	_	
+49-4	3592-3595	med	_	_	_	_	_	_	_	
+49-5	3596-3602	vilken	_	_	_	_	_	_	_	
+49-6	3603-3606	väg	_	_	_	_	_	_	_	
+49-7	3607-3609	vi	_	_	_	_	_	_	_	
+49-8	3610-3616	väljer	_	_	_	_	_	_	_	
+49-9	3616-3617	.	_	_	_	_	_	_	_	
+
+#Text=Vi står upp för våra gemensamma framtida åtaganden, och för välfärd av hög kvalitet för alla.
+50-1	3618-3620	Vi	_	_	_	_	_	_	_	
+50-2	3621-3625	står	_	Target[17]	50-5[35]	false[17]	4[17]	_	_	
+50-3	3626-3629	upp	_	Target[17]	50-5[35]	false[17]	4[17]	_	_	
+50-4	3630-3633	för	_	Target[17]	50-5[35]	false[17]	4[17]	_	_	
+50-5	3634-3638	våra	*[35]	_	_	_	_	_	_	
+50-6	3639-3649	gemensamma	*[35]	_	_	_	_	_	_	
+50-7	3650-3658	framtida	*[35]	_	_	_	_	_	_	
+50-8	3659-3668	åtaganden	*[35]	_	_	_	_	_	_	
+50-9	3668-3669	,	*[35]	_	_	_	_	_	_	
+50-10	3670-3673	och	*[35]	_	_	_	_	_	_	
+50-11	3674-3677	för	*[35]	_	_	_	_	_	_	
+50-12	3678-3685	välfärd	*[35]	_	_	_	_	_	_	
+50-13	3686-3688	av	*[35]	_	_	_	_	_	_	
+50-14	3689-3692	hög	*[35]	_	_	_	_	_	_	
+50-15	3693-3701	kvalitet	*[35]	_	_	_	_	_	_	
+50-16	3702-3705	för	*[35]	_	_	_	_	_	_	
+50-17	3706-3710	alla	*[35]	_	_	_	_	_	_	
+50-18	3710-3711	.	_	_	_	_	_	_	_	
+
+#Text=En rättvis skattepolitik minskar inkomstskillnader och jämnar vägen för ett jämlikare samhälle.
+51-1	3712-3714	En	_	_	_	_	_	_	_	
+51-2	3715-3722	rättvis	_	Target	51-3	false	4	_	_	
+51-3	3723-3736	skattepolitik	*	_	_	_	_	_	_	
+51-4	3737-3744	minskar	_	_	_	_	_	_	_	
+51-5	3745-3762	inkomstskillnader	_	_	_	_	_	_	_	
+51-6	3763-3766	och	_	_	_	_	_	_	_	
+51-7	3767-3773	jämnar	_	_	_	_	_	_	_	
+51-8	3774-3779	vägen	_	_	_	_	_	_	_	
+51-9	3780-3783	för	_	_	_	_	_	_	_	
+51-10	3784-3787	ett	_	_	_	_	_	_	_	
+51-11	3788-3797	jämlikare	_	Target	51-12	false	4	_	_	
+51-12	3798-3806	samhälle	*	_	_	_	_	_	_	
+51-13	3806-3807	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3809-3810	#	_	_	_	_	_	_	_	
+52-2	3810-3811	P	_	_	_	_	_	_	_	
+52-3	3812-3815	IMM	_	_	_	_	_	_	_	
+52-4	3815-3816	.	_	_	_	_	_	_	_	
+
+#Text=Ulla Andersson.
+53-1	3818-3822	Ulla	_	_	_	_	_	_	_	
+53-2	3823-3832	Andersson	_	_	_	_	_	_	_	
+53-3	3832-3833	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3835-3836	#	_	_	_	_	_	_	_	
+54-2	3836-3837	P	_	_	_	_	_	_	_	
+54-3	3838-3841	IMM	_	_	_	_	_	_	_	
+54-4	3841-3842	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+55-1	3844-3849	FAKTA	_	_	_	_	_	_	_	
+55-2	3849-3850	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3852-3853	#	_	_	_	_	_	_	_	
+56-2	3853-3854	P	_	_	_	_	_	_	_	
+56-3	3855-3858	IMM	_	_	_	_	_	_	_	
+56-4	3858-3859	.	_	_	_	_	_	_	_	
+
+#Text=REN.
+57-1	3861-3864	REN	_	_	_	_	_	_	_	
+57-2	3864-3865	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3867-3868	#	_	_	_	_	_	_	_	
+58-2	3868-3869	P	_	_	_	_	_	_	_	
+58-3	3870-3873	IMM	_	_	_	_	_	_	_	
+58-4	3873-3874	.	_	_	_	_	_	_	_	
+
+#Text=N.
+59-1	3876-3877	N	_	_	_	_	_	_	_	
+59-2	3877-3878	.	_	_	_	_	_	_	_	

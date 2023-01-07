@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[1]	_	false[1]	3[1]	
+2-3	12-15	IMM	_	_[1]	_	false[1]	3[1]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vita feministers rasism gör att få invandrarkvinnor blir feminister.
+3-1	18-22	Vita	*[8]	_	_	_	_	
+3-2	23-34	feministers	*[8]	_	_	_	_	
+3-3	35-41	rasism	_	Source	3-1[8]	false	1	
+3-4	42-45	gör	_	_	_	_	_	
+3-5	46-49	att	_	_	_	_	_	
+3-6	50-52	få	_	_	_	_	_	
+3-7	53-69	invandrarkvinnor	_	_	_	_	_	
+3-8	70-74	blir	_	_	_	_	_	
+3-9	75-85	feminister	_	_	_	_	_	
+3-10	85-86	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	88-89	#	_	_	_	_	_	
+4-2	89-90	P	_	_	_	_	_	
+4-3	91-94	IMM	_	_	_	_	_	
+4-4	94-95	.	_	_	_	_	_	
+
+#Text=Intresssant artikel som behandlar vita feministers rasism finns här.
+5-1	97-108	Intresssant	_	Target	5-2	false	4	
+5-2	109-116	artikel	*	_	_	_	_	
+5-3	117-120	som	_	_	_	_	_	
+5-4	121-130	behandlar	_	_	_	_	_	
+5-5	131-135	vita	*[9]	_	_	_	_	
+5-6	136-147	feministers	*[9]	_	_	_	_	
+5-7	148-154	rasism	_	Source	5-5[9]	false	1	
+5-8	155-160	finns	_	_	_	_	_	
+5-9	161-164	här	_	_	_	_	_	
+5-10	164-165	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	167-168	#	_	_	_	_	_	
+6-2	168-169	P	_	_	_	_	_	
+6-3	170-173	IMM	_	_	_	_	_	
+6-4	173-174	.	_	_	_	_	_	
+
+#Text=A schism in the sisterhood - racism and feminism.
+7-1	176-177	A	_	_	_	_	_	
+7-2	178-184	schism	_	Target	7-5	false	2	
+7-3	185-187	in	_	_	_	_	_	
+7-4	188-191	the	_	_	_	_	_	
+7-5	192-202	sisterhood	*	_	_	_	_	
+7-6	203-204	-	_	_	_	_	_	
+7-7	205-211	racism	_	_	_	_	_	
+7-8	212-215	and	_	_	_	_	_	
+7-9	216-224	feminism	_	_	_	_	_	
+7-10	224-225	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	227-228	#	_	_	_	_	_	
+8-2	228-229	P	_	_[2]	_	false[2]	3[2]	
+8-3	230-233	IMM	_	_[2]	_	false[2]	3[2]	
+8-4	233-234	.	_	_	_	_	_	
+
+#Text=och det är denna rasism bland vita feminister som lett till att andelen feminister bland invandrarkvinnor och minoritetskvinnor är avsevärt mycket lägre än bland svenska kvinnor i Sverige och bland kvinnor som tillhör det vita majoritetssamhället i länder som USA och Kanada.
+9-1	236-239	och	_	_	_	_	_	
+9-2	240-243	det	_	_	_	_	_	
+9-3	244-246	är	_	_	_	_	_	
+9-4	247-252	denna	_	_	_	_	_	
+9-5	253-259	rasism	_	Source	9-7[10]	false	1	
+9-6	260-265	bland	_	_	_	_	_	
+9-7	266-270	vita	*[10]	_	_	_	_	
+9-8	271-281	feminister	*[10]	_	_	_	_	
+9-9	282-285	som	_	_	_	_	_	
+9-10	286-290	lett	_	_	_	_	_	
+9-11	291-295	till	_	_	_	_	_	
+9-12	296-299	att	_	_	_	_	_	
+9-13	300-307	andelen	*[11]	_	_	_	_	
+9-14	308-318	feminister	*[11]	_	_	_	_	
+9-15	319-324	bland	*[11]	_	_	_	_	
+9-16	325-341	invandrarkvinnor	*[11]	_	_	_	_	
+9-17	342-345	och	*[11]	_	_	_	_	
+9-18	346-363	minoritetskvinnor	*[11]	_	_	_	_	
+9-19	364-366	är	_	Target[3]	9-13[11]	false[3]	2[3]	
+9-20	367-375	avsevärt	_	Target[3]	9-13[11]	false[3]	2[3]	
+9-21	376-382	mycket	_	Target[3]	9-13[11]	false[3]	2[3]	
+9-22	383-388	lägre	_	Target[3]	9-13[11]	false[3]	2[3]	
+9-23	389-391	än	_	_	_	_	_	
+9-24	392-397	bland	_	_	_	_	_	
+9-25	398-405	svenska	_	_	_	_	_	
+9-26	406-413	kvinnor	_	_	_	_	_	
+9-27	414-415	i	_	_	_	_	_	
+9-28	416-423	Sverige	_	_	_	_	_	
+9-29	424-427	och	_	_	_	_	_	
+9-30	428-433	bland	_	_	_	_	_	
+9-31	434-441	kvinnor	_	_	_	_	_	
+9-32	442-445	som	_	_	_	_	_	
+9-33	446-453	tillhör	_	_	_	_	_	
+9-34	454-457	det	_	_	_	_	_	
+9-35	458-462	vita	_	_	_	_	_	
+9-36	463-482	majoritetssamhället	_	_	_	_	_	
+9-37	483-484	i	_	_	_	_	_	
+9-38	485-491	länder	_	_	_	_	_	
+9-39	492-495	som	_	_	_	_	_	
+9-40	496-499	USA	_	_	_	_	_	
+9-41	500-503	och	_	_	_	_	_	
+9-42	504-510	Kanada	_	_	_	_	_	
+9-43	510-511	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	513-514	#	_	_	_	_	_	
+10-2	514-515	P	_	_[4]	_	false[4]	3[4]	
+10-3	516-519	IMM	_	_[4]	_	false[4]	3[4]	
+10-4	519-520	.	_	_	_	_	_	
+
+#Text=Enligt artikeln är den låga andelen feminister bland invandrare och minoritetsgrupper inte beroende av att dessa kvinnor är mindre politiskt engagerade än vita kvinor, då en stor andel av invandrar och minoritetskvinnorna är engagerade i nätverk och rörelser mot rasism och främlingsfientlighet.
+11-1	522-528	Enligt	_	_	_	_	_	
+11-2	529-537	artikeln	_	_	_	_	_	
+11-3	538-540	är	_	_	_	_	_	
+11-4	541-544	den	_	_	_	_	_	
+11-5	545-549	låga	_	_	_	_	_	
+11-6	550-557	andelen	_	_	_	_	_	
+11-7	558-568	feminister	_	_	_	_	_	
+11-8	569-574	bland	_	_	_	_	_	
+11-9	575-585	invandrare	_	_	_	_	_	
+11-10	586-589	och	_	_	_	_	_	
+11-11	590-607	minoritetsgrupper	_	_	_	_	_	
+11-12	608-612	inte	_	_	_	_	_	
+11-13	613-621	beroende	_	_	_	_	_	
+11-14	622-624	av	_	_	_	_	_	
+11-15	625-628	att	_	_	_	_	_	
+11-16	629-634	dessa	_	_	_	_	_	
+11-17	635-642	kvinnor	_	_	_	_	_	
+11-18	643-645	är	_	_	_	_	_	
+11-19	646-652	mindre	_	_	_	_	_	
+11-20	653-662	politiskt	_	_	_	_	_	
+11-21	663-673	engagerade	_	_	_	_	_	
+11-22	674-676	än	_	_	_	_	_	
+11-23	677-681	vita	_	_	_	_	_	
+11-24	682-688	kvinor	_	_	_	_	_	
+11-25	688-689	,	_	_	_	_	_	
+11-26	690-692	då	_	_	_	_	_	
+11-27	693-695	en	_	_	_	_	_	
+11-28	696-700	stor	_	_	_	_	_	
+11-29	701-706	andel	_	_	_	_	_	
+11-30	707-709	av	_	_	_	_	_	
+11-31	710-719	invandrar	*[12]	_	_	_	_	
+11-32	720-723	och	*[12]	_	_	_	_	
+11-33	724-743	minoritetskvinnorna	*[12]	_	_	_	_	
+11-34	744-746	är	_	_	_	_	_	
+11-35	747-757	engagerade	_	Source;Target	11-31[12];11-37[13]	false	4	
+11-36	758-759	i	_	_	_	_	_	
+11-37	760-767	nätverk	*[13]	_	_	_	_	
+11-38	768-771	och	*[13]	_	_	_	_	
+11-39	772-780	rörelser	*[13]	_	_	_	_	
+11-40	781-784	mot	*[13]	_	_	_	_	
+11-41	785-791	rasism	*[13]	_	_	_	_	
+11-42	792-795	och	*[13]	_	_	_	_	
+11-43	796-816	främlingsfientlighet	*[13]	_	_	_	_	
+11-44	816-817	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	819-820	#	_	_	_	_	_	
+12-2	820-821	P	_	_[5]	_	false[5]	3[5]	
+12-3	822-825	IMM	_	_[5]	_	false[5]	3[5]	
+12-4	825-826	.	_	_	_	_	_	
+
+#Text=Lidija Praisovich har skrivit ett inlägg på DN Debatt, Feministeliten utestänger oss andra, där hon argumenterar att en liten grupp av etniska svenska feminister har monopoliserat debatten i Sverige och aktivt arbetar för att utestänga invandrarkvinnornas åsikter.
+13-1	828-834	Lidija	*[14]	_	_	_	_	
+13-2	835-845	Praisovich	*[14]	_	_	_	_	
+13-3	846-849	har	_	_	_	_	_	
+13-4	850-857	skrivit	_	_	_	_	_	
+13-5	858-861	ett	_	_	_	_	_	
+13-6	862-868	inlägg	_	_	_	_	_	
+13-7	869-871	på	_	_	_	_	_	
+13-8	872-874	DN	_	_	_	_	_	
+13-9	875-881	Debatt	_	_	_	_	_	
+13-10	881-882	,	_	_	_	_	_	
+13-11	883-897	Feministeliten	*	Source;Target	13-1[14];13-11	false	2	
+13-12	898-908	utestänger	_	_	_	_	_	
+13-13	909-912	oss	_	_	_	_	_	
+13-14	913-918	andra	_	_	_	_	_	
+13-15	918-919	,	_	_	_	_	_	
+13-16	920-923	där	_	_	_	_	_	
+13-17	924-927	hon	_	_	_	_	_	
+13-18	928-940	argumenterar	_	_	_	_	_	
+13-19	941-944	att	_	_	_	_	_	
+13-20	945-947	en	_	_	_	_	_	
+13-21	948-953	liten	_	_	_	_	_	
+13-22	954-959	grupp	_	_	_	_	_	
+13-23	960-962	av	_	_	_	_	_	
+13-24	963-970	etniska	*[15]	_	_	_	_	
+13-25	971-978	svenska	*[15]	_	_	_	_	
+13-26	979-989	feminister	*[15]	_	_	_	_	
+13-27	990-993	har	_	_	_	_	_	
+13-28	994-1007	monopoliserat	_	_	_	_	_	
+13-29	1008-1016	debatten	_	_	_	_	_	
+13-30	1017-1018	i	_	_	_	_	_	
+13-31	1019-1026	Sverige	_	_	_	_	_	
+13-32	1027-1030	och	_	_	_	_	_	
+13-33	1031-1037	aktivt	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-34	1038-1045	arbetar	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-35	1046-1049	för	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-36	1050-1053	att	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-37	1054-1063	utestänga	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-38	1064-1083	invandrarkvinnornas	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-39	1084-1091	åsikter	_	Source;Target[6]	13-1[14];13-24[15]	false[6]	2[6]	
+13-40	1091-1092	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1094-1095	#	_	_	_	_	_	
+14-2	1095-1096	P	_	_	_	_	_	
+14-3	1097-1100	IMM	_	_	_	_	_	
+14-4	1100-1101	.	_	_	_	_	_	
+
+#Text=Huffington Post har utarbetat en checklista som vita feminister kan använda för att avslöja sin egen rasism.
+15-1	1103-1113	Huffington	_	_	_	_	_	
+15-2	1114-1118	Post	_	_	_	_	_	
+15-3	1119-1122	har	_	_	_	_	_	
+15-4	1123-1132	utarbetat	_	_	_	_	_	
+15-5	1133-1135	en	_	_	_	_	_	
+15-6	1136-1146	checklista	_	_	_	_	_	
+15-7	1147-1150	som	_	_	_	_	_	
+15-8	1151-1155	vita	*[16]	_	_	_	_	
+15-9	1156-1166	feminister	*[16]	_	_	_	_	
+15-10	1167-1170	kan	_	_	_	_	_	
+15-11	1171-1178	använda	_	_	_	_	_	
+15-12	1179-1182	för	_	_	_	_	_	
+15-13	1183-1186	att	_	_	_	_	_	
+15-14	1187-1194	avslöja	_	Target[7]	15-8[16]	false[7]	2[7]	
+15-15	1195-1198	sin	_	Target[7]	15-8[16]	false[7]	2[7]	
+15-16	1199-1203	egen	_	Target[7]	15-8[16]	false[7]	2[7]	
+15-17	1204-1210	rasism	_	Target[7]	15-8[16]	false[7]	2[7]	
+15-18	1210-1211	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=5 ways white feminists can address our own racism.
+16-1	1213-1214	#	_	_	_	_	_	
+16-2	1214-1215	P	_	_	_	_	_	
+16-3	1216-1219	IMM	_	_	_	_	_	
+16-4	1219-1220	.	_	_	_	_	_	
+16-5	1222-1223	5	_	_	_	_	_	
+16-6	1224-1228	ways	_	_	_	_	_	
+16-7	1229-1234	white	_	_	_	_	_	
+16-8	1235-1244	feminists	_	_	_	_	_	
+16-9	1245-1248	can	_	_	_	_	_	
+16-10	1249-1256	address	_	_	_	_	_	
+16-11	1257-1260	our	_	_	_	_	_	
+16-12	1261-1264	own	_	_	_	_	_	
+16-13	1265-1271	racism	_	_	_	_	_	
+16-14	1271-1272	.	_	_	_	_	_	

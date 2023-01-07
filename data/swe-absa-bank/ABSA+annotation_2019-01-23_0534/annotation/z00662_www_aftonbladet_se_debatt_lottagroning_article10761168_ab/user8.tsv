@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Det traditionella bråket har startat.
+3-1	18-21	Det	*[4]	_	_	_	_	_	
+3-2	22-35	traditionella	*[4]	_	_	_	_	_	
+3-3	36-42	bråket	*[4]	Target	3-1[4]	false	2	_	
+3-4	43-46	har	_	_	_	_	_	_	
+3-5	47-54	startat	_	_	_	_	_	_	
+3-6	54-55	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	
+
+#Text=Det traditionella bråket i alla valrörelser, mellan direktörer inom näringslivet och den socialdemokratiska regeringen har nu utbrutit.
+5-1	66-69	Det	*[5]	_	_	_	_	_	
+5-2	70-83	traditionella	*[5]	_	_	_	_	_	
+5-3	84-90	bråket	*[5]	Target	5-1[5]	false	2	_	
+5-4	91-92	i	*[5]	_	_	_	_	_	
+5-5	93-97	alla	*[5]	_	_	_	_	_	
+5-6	98-109	valrörelser	*[5]	_	_	_	_	_	
+5-7	109-110	,	*[5]	_	_	_	_	_	
+5-8	111-117	mellan	*[5]	_	_	_	_	_	
+5-9	118-128	direktörer	*[5]	_	_	_	_	_	
+5-10	129-133	inom	*[5]	_	_	_	_	_	
+5-11	134-146	näringslivet	*[5]	_	_	_	_	_	
+5-12	147-150	och	*[5]	_	_	_	_	_	
+5-13	151-154	den	*[5]	_	_	_	_	_	
+5-14	155-173	socialdemokratiska	*[5]	_	_	_	_	_	
+5-15	174-184	regeringen	*[5]	_	_	_	_	_	
+5-16	185-188	har	_	_	_	_	_	_	
+5-17	189-191	nu	_	_	_	_	_	_	
+5-18	192-200	utbrutit	_	_	_	_	_	_	
+5-19	200-201	.	_	_	_	_	_	_	
+
+#Text=Det började med Ericssons vd Carl-Henric Svanberg som hävdade att det skulle vara uppfriskande med en ny regering.
+6-1	202-205	Det	_	_	_	_	_	_	
+6-2	206-213	började	_	_	_	_	_	_	
+6-3	214-217	med	_	_	_	_	_	_	
+6-4	218-227	Ericssons	*[6]	_	_	_	_	_	
+6-5	228-230	vd	*[6]	_	_	_	_	_	
+6-6	231-242	Carl-Henric	*[6]	_	_	_	_	_	
+6-7	243-251	Svanberg	*[6]	_	_	_	_	_	
+6-8	252-255	som	_	_	_	_	_	_	
+6-9	256-263	hävdade	_	_	_	_	_	_	
+6-10	264-267	att	_	_	_	_	_	_	
+6-11	268-271	det	_	_	_	_	_	_	
+6-12	272-278	skulle	_	Target;Source[1]	6-16[7];6-4[6]	false[1]	4[1]	_	
+6-13	279-283	vara	_	Target;Source[1]	6-16[7];6-4[6]	false[1]	4[1]	_	
+6-14	284-296	uppfriskande	_	Target;Source[1]	6-16[7];6-4[6]	false[1]	4[1]	_	
+6-15	297-300	med	_	_	_	_	_	_	
+6-16	301-303	en	*[7]	_	_	_	_	_	
+6-17	304-306	ny	*[7]	_	_	_	_	_	
+6-18	307-315	regering	*[7]	_	_	_	_	_	
+6-19	315-316	.	_	_	_	_	_	_	
+
+#Text=Göran Persson svarade något luddigt om ägandeförhållanden inom näringslivet, vilket fick Jacob Wallenberg att hävda att statsministern hotar näringslivet.
+7-1	317-322	Göran	_	_	_	_	_	_	
+7-2	323-330	Persson	_	_	_	_	_	_	
+7-3	331-338	svarade	_	_	_	_	_	_	
+7-4	339-344	något	_	_	_	_	_	_	
+7-5	345-352	luddigt	_	_	_	_	_	_	
+7-6	353-355	om	_	_	_	_	_	_	
+7-7	356-374	ägandeförhållanden	_	_	_	_	_	_	
+7-8	375-379	inom	_	_	_	_	_	_	
+7-9	380-392	näringslivet	_	_	_	_	_	_	
+7-10	392-393	,	_	_	_	_	_	_	
+7-11	394-400	vilket	_	_	_	_	_	_	
+7-12	401-405	fick	_	_	_	_	_	_	
+7-13	406-411	Jacob	*[8]	_	_	_	_	_	
+7-14	412-422	Wallenberg	*[8]	_	_	_	_	_	
+7-15	423-426	att	_	_	_	_	_	_	
+7-16	427-432	hävda	_	_	_	_	_	_	
+7-17	433-436	att	_	_	_	_	_	_	
+7-18	437-451	statsministern	*	_	_	_	_	_	
+7-19	452-457	hotar	_	Source;Target[2]	7-13[8];7-18	false[2]	2[2]	_	
+7-20	458-470	näringslivet	_	Source;Target[2]	7-13[8];7-18	false[2]	2[2]	_	
+7-21	470-471	.	_	_	_	_	_	_	
+
+#Text=Nu rullar det på.
+8-1	472-474	Nu	_	_	_	_	_	_	
+8-2	475-481	rullar	_	_	_	_	_	_	
+8-3	482-485	det	_	_	_	_	_	_	
+8-4	486-488	på	_	_	_	_	_	_	
+8-5	488-489	.	_	_	_	_	_	_	
+
+#Text=Vill de ha en fight ska de få det, sa den annars mycket osynlige arbetslivsministern Hans Karlsson.
+9-1	490-494	Vill	_	_	_	_	_	_	
+9-2	495-497	de	_	_	_	_	_	_	
+9-3	498-500	ha	_	_	_	_	_	_	
+9-4	501-503	en	_	_	_	_	_	_	
+9-5	504-509	fight	_	_	_	_	_	_	
+9-6	510-513	ska	_	_	_	_	_	_	
+9-7	514-516	de	_	_	_	_	_	_	
+9-8	517-519	få	_	_	_	_	_	_	
+9-9	520-523	det	_	_	_	_	_	_	
+9-10	523-524	,	_	_	_	_	_	_	
+9-11	525-527	sa	_	_	_	_	_	_	
+9-12	528-531	den	_	_	_	_	_	_	
+9-13	532-538	annars	_	_	_	_	_	_	
+9-14	539-545	mycket	_	_	_	_	_	_	
+9-15	546-554	osynlige	_	_	_	_	_	_	
+9-16	555-574	arbetslivsministern	_	_	_	_	_	_	
+9-17	575-579	Hans	_	_	_	_	_	_	
+9-18	580-588	Karlsson	_	_	_	_	_	_	
+9-19	588-589	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	591-592	#	_	_	_	_	_	_	
+10-2	592-593	P	_	_	_	_	_	_	
+10-3	594-597	IMM	_	_	_	_	_	_	
+10-4	597-598	.	_	_	_	_	_	_	
+
+#Text=Håhåjaja, visst blir man lite trött?
+11-1	600-608	Håhåjaja	_	_	_	_	_	_	
+11-2	608-609	,	_	_	_	_	_	_	
+11-3	610-615	visst	_	_	_	_	_	_	
+11-4	616-620	blir	_	_	_	_	_	_	
+11-5	621-624	man	_	_	_	_	_	_	
+11-6	625-629	lite	_	_	_	_	_	_	
+11-7	630-635	trött	_	_	_	_	_	_	
+11-8	635-636	?	_	_	_	false	2	_	
+
+#Text=Jag är mest förvånad över att det är storindustrins magnater som går till angrepp.
+12-1	637-640	Jag	_	_	_	_	_	_	
+12-2	641-643	är	_	_	_	_	_	_	
+12-3	644-648	mest	_	_	_	_	_	_	
+12-4	649-657	förvånad	_	_	_	_	_	_	
+12-5	658-662	över	_	_	_	_	_	_	
+12-6	663-666	att	_	_	_	_	_	_	
+12-7	667-670	det	_	_	_	_	_	_	
+12-8	671-673	är	_	_	_	_	_	_	
+12-9	674-688	storindustrins	*[9]	_	_	_	_	15-3[0_9]	
+12-10	689-697	magnater	*[9]	_	_	_	_	_	
+12-11	698-701	som	_	_	_	_	_	_	
+12-12	702-705	går	_	_	_	_	_	_	
+12-13	706-710	till	_	_	_	_	_	_	
+12-14	711-718	angrepp	_	_	_	_	_	_	
+12-15	718-719	.	_	_	_	_	_	_	
+
+#Text=Allt Ericsson, Volvo, Investor och Saab andas om blir ju genomfört.
+13-1	720-724	Allt	_	_	_	_	_	_	
+13-2	725-733	Ericsson	_	_	_	_	_	_	
+13-3	733-734	,	_	_	_	_	_	_	
+13-4	735-740	Volvo	_	_	_	_	_	_	
+13-5	740-741	,	_	_	_	_	_	_	
+13-6	742-750	Investor	_	_	_	_	_	_	
+13-7	751-754	och	_	_	_	_	_	_	
+13-8	755-759	Saab	_	_	_	_	_	_	
+13-9	760-765	andas	_	_	_	_	_	_	
+13-10	766-768	om	_	_	_	_	_	_	
+13-11	769-773	blir	_	_	_	_	_	_	
+13-12	774-776	ju	_	_	_	_	_	_	
+13-13	777-786	genomfört	_	_	_	_	_	_	
+13-14	786-787	.	_	_	_	_	_	_	
+
+#Text=Alla viktiga samtal om närningslivets förutsättningar, framtid tas alltid med dessa representanter.
+14-1	788-792	Alla	_	_	_	_	_	_	
+14-2	793-800	viktiga	_	_	_	_	_	_	
+14-3	801-807	samtal	_	_	_	_	_	_	
+14-4	808-810	om	_	_	_	_	_	_	
+14-5	811-825	närningslivets	_	_	_	_	_	_	
+14-6	826-841	förutsättningar	_	_	_	_	_	_	
+14-7	841-842	,	_	_	_	_	_	_	
+14-8	843-850	framtid	_	_	_	_	_	_	
+14-9	851-854	tas	_	_	_	_	_	_	
+14-10	855-861	alltid	_	_	_	_	_	_	
+14-11	862-865	med	_	_	_	_	_	_	
+14-12	866-871	dessa	_	_	_	_	_	_	
+14-13	872-886	representanter	_	_	_	_	_	_	
+14-14	886-887	.	_	_	_	_	_	_	
+
+#Text=Vad gnäller de för?.
+15-1	888-891	Vad	_	_	_	_	_	_	
+15-2	892-899	gnäller	_	Target	15-3	false	2	_	
+15-3	900-902	de	*	_	_	_	_	_	
+15-4	903-906	för	_	_	_	_	_	_	
+15-5	906-907	?	_	_	_	_	_	_	
+15-6	907-908	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	910-911	#	_	_	_	_	_	_	
+16-2	911-912	P	_	_	_	_	_	_	
+16-3	913-916	IMM	_	_	_	_	_	_	
+16-4	916-917	.	_	_	_	_	_	_	
+
+#Text=Är det några som har rätt att vara förbannade däremot så är det småföretagarna.
+17-1	919-921	Är	_	_	_	_	_	_	
+17-2	922-925	det	_	_	_	_	_	_	
+17-3	926-931	några	_	_	_	_	_	_	
+17-4	932-935	som	_	_	_	_	_	_	
+17-5	936-939	har	_	_	_	_	_	_	
+17-6	940-944	rätt	_	_	_	_	_	_	
+17-7	945-948	att	_	_	_	_	_	_	
+17-8	949-953	vara	_	_	_	_	_	_	
+17-9	954-964	förbannade	_	_	_	_	_	_	
+17-10	965-972	däremot	_	_	_	_	_	_	
+17-11	973-975	så	_	_	_	_	_	_	
+17-12	976-978	är	_	_	_	_	_	_	
+17-13	979-982	det	_	_	_	_	_	_	
+17-14	983-997	småföretagarna	_	_	_	_	_	_	
+17-15	997-998	.	_	_	_	_	_	_	
+
+#Text=De ses alltid över axeln och får på sin höjd en klapp på huvudet med orden skapa nu mera jobb.
+18-1	999-1001	De	_	_	_	_	_	_	
+18-2	1002-1005	ses	_	_[3]	_	false[3]	2[3]	_	
+18-3	1006-1012	alltid	_	_[3]	_	false[3]	2[3]	_	
+18-4	1013-1017	över	_	_[3]	_	false[3]	2[3]	_	
+18-5	1018-1023	axeln	_	_[3]	_	false[3]	2[3]	_	
+18-6	1024-1027	och	_	_[3]	_	false[3]	2[3]	_	
+18-7	1028-1031	får	_	_[3]	_	false[3]	2[3]	_	
+18-8	1032-1034	på	_	_[3]	_	false[3]	2[3]	_	
+18-9	1035-1038	sin	_	_[3]	_	false[3]	2[3]	_	
+18-10	1039-1043	höjd	_	_[3]	_	false[3]	2[3]	_	
+18-11	1044-1046	en	_	_[3]	_	false[3]	2[3]	_	
+18-12	1047-1052	klapp	_	_[3]	_	false[3]	2[3]	_	
+18-13	1053-1055	på	_	_[3]	_	false[3]	2[3]	_	
+18-14	1056-1063	huvudet	_	_[3]	_	false[3]	2[3]	_	
+18-15	1064-1067	med	_	_	_	_	_	_	
+18-16	1068-1073	orden	_	_	_	_	_	_	
+18-17	1074-1079	skapa	_	_	_	_	_	_	
+18-18	1080-1082	nu	_	_	_	_	_	_	
+18-19	1083-1087	mera	_	_	_	_	_	_	
+18-20	1088-1092	jobb	_	_	_	_	_	_	
+18-21	1092-1093	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1095-1096	#	_	_	_	_	_	_	
+19-2	1096-1097	P	_	_	_	_	_	_	
+19-3	1098-1101	IMM	_	_	_	_	_	_	
+19-4	1101-1102	.	_	_	_	_	_	_	
+
+#Text=Vad tycker ni?
+20-1	1104-1107	Vad	_	_	_	_	_	_	
+20-2	1108-1114	tycker	_	_	_	_	_	_	
+20-3	1115-1117	ni	_	_	_	_	_	_	
+20-4	1117-1118	?	_	_	_	_	_	_	
+
+#Text=Mejla oss på [email protected] .se.
+21-1	1119-1124	Mejla	_	_	_	_	_	_	
+21-2	1125-1128	oss	_	_	_	_	_	_	
+21-3	1129-1131	på	_	_	_	_	_	_	
+21-4	1132-1133	[	_	_	_	_	_	_	
+21-5	1133-1138	email	_	_	_	_	_	_	
+21-6	1139-1148	protected	_	_	_	_	_	_	
+21-7	1148-1149	]	_	_	_	_	_	_	
+21-8	1150-1151	.	_	_	_	_	_	_	
+21-9	1151-1153	se	_	_	_	_	_	_	
+21-10	1153-1154	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1156-1157	#	_	_	_	_	_	_	
+22-2	1157-1158	P	_	_	_	_	_	_	
+22-3	1159-1162	IMM	_	_	_	_	_	_	
+22-4	1162-1163	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+23-1	1165-1170	Lotta	_	_	_	_	_	_	
+23-2	1171-1178	Gröning	_	_	_	_	_	_	
+23-3	1178-1179	.	_	_	_	_	_	_	

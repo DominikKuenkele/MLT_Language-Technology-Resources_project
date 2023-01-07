@@ -1,0 +1,192 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Rasistchock i illustrerad vetenskap!
+3-1	18-29	Rasistchock	*	Target	3-1	false	1	
+3-2	30-31	i	_	_	_	_	_	
+3-3	32-43	illustrerad	_	_	_	_	_	
+3-4	44-53	vetenskap	_	_	_	_	_	
+3-5	53-54	!	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	
+
+#Text=Schysst rubrikval, vad?.
+5-1	65-72	Schysst	_	_	_	_	_	
+5-2	73-82	rubrikval	_	_	_	_	_	
+5-3	82-83	,	_	_	_	_	_	
+5-4	84-87	vad	_	_	_	_	_	
+5-5	87-88	?	_	_	_	_	_	
+5-6	88-89	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	91-92	#	_	_	_	_	_	
+6-2	92-93	P	_	_	_	_	_	
+6-3	94-97	IMM	_	_	_	_	_	
+6-4	97-98	.	_	_	_	_	_	
+
+#Text=Nu är det säkert sant det som skrivs och det skulle förklara en hel del, t.ex. mordsiffrorna som är ganska höga ur ett nordiskt perspektiv.
+7-1	100-102	Nu	_	_	_	_	_	
+7-2	103-105	är	_	_	_	_	_	
+7-3	106-109	det	_	_	_	_	_	
+7-4	110-116	säkert	_	Target[1]	7-6[5]	false[1]	4[1]	
+7-5	117-121	sant	_	Target[1]	7-6[5]	false[1]	4[1]	
+7-6	122-125	det	*[5]	_	_	_	_	
+7-7	126-129	som	*[5]	_	_	_	_	
+7-8	130-136	skrivs	*[5]	_	_	_	_	
+7-9	137-140	och	_	_	_	_	_	
+7-10	141-144	det	_	_	_	_	_	
+7-11	145-151	skulle	_	_	_	_	_	
+7-12	152-160	förklara	_	_	_	_	_	
+7-13	161-163	en	_	_	_	_	_	
+7-14	164-167	hel	_	_	_	_	_	
+7-15	168-171	del	_	_	_	_	_	
+7-16	171-172	,	_	_	_	_	_	
+7-17	173-177	t.ex	_	_	_	_	_	
+7-18	177-178	.	_	_	_	_	_	
+7-19	179-192	mordsiffrorna	_	_	_	_	_	
+7-20	193-196	som	_	_	_	_	_	
+7-21	197-199	är	_	_	_	_	_	
+7-22	200-206	ganska	_	_	_	_	_	
+7-23	207-211	höga	_	_	_	_	_	
+7-24	212-214	ur	_	_	_	_	_	
+7-25	215-218	ett	_	_	_	_	_	
+7-26	219-227	nordiskt	_	_	_	_	_	
+7-27	228-238	perspektiv	_	_	_	_	_	
+7-28	238-239	.	_	_	_	_	_	
+
+#Text=Dessutom har ju finnarna haft stora fördelar av dessa aggressiva finnar under krig och svåra förhållanden.
+8-1	240-248	Dessutom	_	_	_	_	_	
+8-2	249-252	har	_	_	_	_	_	
+8-3	253-255	ju	_	_	_	_	_	
+8-4	256-264	finnarna	*	_	_	_	_	
+8-5	265-269	haft	_	Target;Source[2]	8-9[6];8-4	false[2]	4[2]	
+8-6	270-275	stora	_	Target;Source[2]	8-9[6];8-4	false[2]	4[2]	
+8-7	276-284	fördelar	_	Target;Source[2]	8-9[6];8-4	false[2]	4[2]	
+8-8	285-287	av	_	_	_	_	_	
+8-9	288-293	dessa	*[6]	_	_	_	_	
+8-10	294-304	aggressiva	*[6]	Target	8-11[7]	false	2	
+8-11	305-311	finnar	*[6]|*[7]	_	_	_	_	
+8-12	312-317	under	_	_	_	_	_	
+8-13	318-322	krig	_	_	_	_	_	
+8-14	323-326	och	_	_	_	_	_	
+8-15	327-332	svåra	_	_	_	_	_	
+8-16	333-345	förhållanden	_	_	_	_	_	
+8-17	345-346	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	348-349	#	_	_	_	_	_	
+9-2	349-350	P	_	_	_	_	_	
+9-3	351-354	IMM	_	_	_	_	_	
+9-4	354-355	.	_	_	_	_	_	
+
+#Text=Men det är inte genetik som ska diskuteras här, utan den mediala aspekten.
+10-1	357-360	Men	_	_	_	_	_	
+10-2	361-364	det	_	_	_	_	_	
+10-3	365-367	är	_	_	_	_	_	
+10-4	368-372	inte	_	_	_	_	_	
+10-5	373-380	genetik	_	_	_	_	_	
+10-6	381-384	som	_	_	_	_	_	
+10-7	385-388	ska	_	_	_	_	_	
+10-8	389-399	diskuteras	_	_	_	_	_	
+10-9	400-403	här	_	_	_	_	_	
+10-10	403-404	,	_	_	_	_	_	
+10-11	405-409	utan	_	_	_	_	_	
+10-12	410-413	den	_	_	_	_	_	
+10-13	414-421	mediala	_	_	_	_	_	
+10-14	422-430	aspekten	_	_	_	_	_	
+10-15	430-431	.	_	_	_	_	_	
+
+#Text=Det skulle knappast vara möjligt att skriva detta om någon annan grupp i samhället (500 000 finnar i Sverige, minst).
+11-1	432-435	Det	_	_	_	_	_	
+11-2	436-442	skulle	_	_	_	_	_	
+11-3	443-451	knappast	_	Target[3]	11-7[8]	false[3]	2[3]	
+11-4	452-456	vara	_	Target[3]	11-7[8]	false[3]	2[3]	
+11-5	457-464	möjligt	_	Target[3]	11-7[8]	false[3]	2[3]	
+11-6	465-468	att	_	_	_	_	_	
+11-7	469-475	skriva	*[8]	_	_	_	_	
+11-8	476-481	detta	*[8]	_	_	_	_	
+11-9	482-484	om	*[8]	_	_	_	_	
+11-10	485-490	någon	*[8]	_	_	_	_	
+11-11	491-496	annan	*[8]	_	_	_	_	
+11-12	497-502	grupp	*[8]	_	_	_	_	
+11-13	503-504	i	*[8]	_	_	_	_	
+11-14	505-514	samhället	*[8]	_	_	_	_	
+11-15	515-516	(	_	_	_	_	_	
+11-16	516-519	500	_	_	_	_	_	
+11-17	520-523	000	_	_	_	_	_	
+11-18	524-530	finnar	_	_	_	_	_	
+11-19	531-532	i	_	_	_	_	_	
+11-20	533-540	Sverige	_	_	_	_	_	
+11-21	540-541	,	_	_	_	_	_	
+11-22	542-547	minst	_	_	_	_	_	
+11-23	547-548	)	_	_	_	_	_	
+11-24	548-549	.	_	_	_	_	_	
+
+#Text=Kan detta betraktas som hets mot folkgrupp, eller är finnar för vita för att kunna drabbas av hets?.
+12-1	550-553	Kan	_	_	_	_	_	
+12-2	554-559	detta	_	_	_	_	_	
+12-3	560-569	betraktas	_	Target;Source	12-5[9];12-21	false	2	
+12-4	570-573	som	_	_	_	_	_	
+12-5	574-578	hets	*[9]	_	_	_	_	
+12-6	579-582	mot	*[9]	_	_	_	_	
+12-7	583-592	folkgrupp	*[9]	_	_	_	_	
+12-8	592-593	,	_	_	_	_	_	
+12-9	594-599	eller	_	_	_	_	_	
+12-10	600-602	är	_	_	_	_	_	
+12-11	603-609	finnar	_	_	_	_	_	
+12-12	610-613	för	_	_	_	_	_	
+12-13	614-618	vita	_	_	_	_	_	
+12-14	619-622	för	_	_	_	_	_	
+12-15	623-626	att	_	_	_	_	_	
+12-16	627-632	kunna	_	_	_	_	_	
+12-17	633-640	drabbas	_	_	_	_	_	
+12-18	641-643	av	_	_	_	_	_	
+12-19	644-648	hets	_	_	_	_	_	
+12-20	648-649	?	_	_	_	_	_	
+12-21	649-650	.	*	_	_	_	_	
+
+#Text=#P IMM.
+13-1	652-653	#	_	_	_	_	_	
+13-2	653-654	P	_	_	_	_	_	
+13-3	655-658	IMM	_	_	_	_	_	
+13-4	658-659	.	_	_	_	_	_	
+
+#Text=Borde journalisten anpassa sitt språkbruk efter tidsandan, eller är det en fyndig och trevlig stil han har?.
+14-1	661-666	Borde	_	_	_	_	_	
+14-2	667-679	journalisten	_	_	_	_	_	
+14-3	680-687	anpassa	_	_	_	_	_	
+14-4	688-692	sitt	_	_	_	_	_	
+14-5	693-702	språkbruk	_	_	_	_	_	
+14-6	703-708	efter	_	_	_	_	_	
+14-7	709-718	tidsandan	_	_	_	_	_	
+14-8	718-719	,	_	_	_	_	_	
+14-9	720-725	eller	_	_	_	_	_	
+14-10	726-728	är	_	_	_	_	_	
+14-11	729-732	det	_	_	_	_	_	
+14-12	733-735	en	_	_	_	_	_	
+14-13	736-742	fyndig	_	Target[4]	14-16	false[4]	4[4]	
+14-14	743-746	och	_	Target[4]	14-16	false[4]	4[4]	
+14-15	747-754	trevlig	_	Target[4]	14-16	false[4]	4[4]	
+14-16	755-759	stil	*	_	_	_	_	
+14-17	760-763	han	_	_	_	_	_	
+14-18	764-767	har	_	_	_	_	_	
+14-19	767-768	?	_	_	_	_	_	
+14-20	768-769	.	_	_	_	_	_	

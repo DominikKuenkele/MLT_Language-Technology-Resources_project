@@ -1,0 +1,118 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Okända män knuffar folk i vattnet vid hamnen i Malmö.
+3-1	18-24	Okända	*[3]	_	_	_	_	
+3-2	25-28	män	*[3]	_	_	_	_	
+3-3	29-36	knuffar	*[3]	_	_	_	_	
+3-4	37-41	folk	*[3]	_	_	_	_	
+3-5	42-43	i	*[3]	_	_	_	_	
+3-6	44-51	vattnet	*[3]	_	_	_	_	
+3-7	52-55	vid	_	_	_	_	_	
+3-8	56-62	hamnen	_	_	_	_	_	
+3-9	63-64	i	_	_	_	_	_	
+3-10	65-70	Malmö	_	_	_	_	_	
+3-11	70-71	.	_	_	_	_	_	
+
+#Text=Taskigt tidsfördriv.
+4-1	72-79	Taskigt	_	Target	4-2	false	2	
+4-2	80-91	tidsfördriv	*	_	_	_	_	
+4-3	91-92	.	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	94-95	#	_	_	_	_	_	
+5-2	95-96	P	_	_	_	_	_	
+5-3	97-100	IMM	_	_	_	_	_	
+5-4	100-101	.	_	_	_	_	_	
+
+#Text=Vad är nu det här för stollerier?
+6-1	103-106	Vad	_	_	_	_	_	
+6-2	107-109	är	_	_	_	_	_	
+6-3	110-112	nu	_	_	_	_	_	
+6-4	113-116	det	_	_	_	_	_	
+6-5	117-120	här	_	_	_	_	_	
+6-6	121-124	för	_	_	_	_	_	
+6-7	125-135	stollerier	*	Target	6-7	false	2	
+6-8	135-136	?	_	_	_	_	_	
+
+#Text=Alla kan ju inte simma så det kan går illa, drunkning eller annat på köpet.
+7-1	137-141	Alla	_	_	_	_	_	
+7-2	142-145	kan	_	_	_	_	_	
+7-3	146-148	ju	_	_	_	_	_	
+7-4	149-153	inte	_	_	_	_	_	
+7-5	154-159	simma	_	_	_	_	_	
+7-6	160-162	så	_	_	_	_	_	
+7-7	163-166	det	_	_	_	_	_	
+7-8	167-170	kan	_	Target[1]	3-1[3]	false[1]	2[1]	
+7-9	171-174	går	_	Target[1]	3-1[3]	false[1]	2[1]	
+7-10	175-179	illa	_	Target[1]	3-1[3]	false[1]	2[1]	
+7-11	179-180	,	_	_	_	_	_	
+7-12	181-190	drunkning	_	_	_	_	_	
+7-13	191-196	eller	_	_	_	_	_	
+7-14	197-202	annat	_	_	_	_	_	
+7-15	203-205	på	_	_	_	_	_	
+7-16	206-211	köpet	_	_	_	_	_	
+7-17	211-212	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	214-215	#	_	_	_	_	_	
+8-2	215-216	P	_	_	_	_	_	
+8-3	217-220	IMM	_	_	_	_	_	
+8-4	220-221	.	_	_	_	_	_	
+
+#Text=Mordförsök kanske?.
+9-1	223-233	Mordförsök	_	_	_	_	_	
+9-2	234-240	kanske	_	_	_	_	_	
+9-3	240-241	?	_	_	_	_	_	
+9-4	241-242	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	244-245	#	_	_	_	_	_	
+10-2	245-246	P	_	_	_	_	_	
+10-3	247-250	IMM	_	_	_	_	_	
+10-4	250-251	.	_	_	_	_	_	
+
+#Text=Det har hänt flera gånger.
+11-1	253-256	Det	_	_	_	_	_	
+11-2	257-260	har	_	_	_	_	_	
+11-3	261-265	hänt	_	_	_	_	_	
+11-4	266-271	flera	_	_	_	_	_	
+11-5	272-278	gånger	_	_	_	_	_	
+11-6	278-279	.	_	_	_	_	_	
+
+#Text=Fy fan för detta Malmö.
+12-1	280-282	Fy	_	Target[2]	12-5	false[2]	2[2]	
+12-2	283-286	fan	_	Target[2]	12-5	false[2]	2[2]	
+12-3	287-290	för	_	Target[2]	12-5	false[2]	2[2]	
+12-4	291-296	detta	_	Target[2]	12-5	false[2]	2[2]	
+12-5	297-302	Malmö	*	_	_	_	_	
+12-6	302-303	.	_	_	_	_	_	
+
+#Text=Men är det berikare?
+13-1	304-307	Men	_	_	_	_	_	
+13-2	308-310	är	_	_	_	_	_	
+13-3	311-314	det	_	_	_	_	_	
+13-4	315-323	berikare	_	_	_	_	_	
+13-5	323-324	?	_	_	_	_	_	
+
+#Text=Såna kan ju inte simma.
+14-1	325-329	Såna	_	_	_	_	_	
+14-2	330-333	kan	_	_	_	_	_	
+14-3	334-336	ju	_	_	_	_	_	
+14-4	337-341	inte	_	_	_	_	_	
+14-5	342-347	simma	_	_	_	_	_	
+14-6	347-348	.	_	_	_	_	_	

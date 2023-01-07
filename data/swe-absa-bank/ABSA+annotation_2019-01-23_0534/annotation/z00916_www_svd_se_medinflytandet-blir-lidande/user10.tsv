@@ -1,0 +1,1203 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Medinflytandet blir lidande.
+3-1	18-32	Medinflytandet	*	_	_	_	_	_	_	
+3-2	33-37	blir	*[27]	Source;Target[1]	3-1;3-2[27]	false[1]	1[1]	_	_	
+3-3	38-45	lidande	*[27]	Source;Target[1]	3-1;3-2[27]	false[1]	1[1]	_	_	
+3-4	45-46	.	_	Source;Target[1]	3-1;3-2[27]	false[1]	1[1]	_	_	
+
+#Text=#P IMM.
+4-1	48-49	#	_	_	_	_	_	_	_	
+4-2	49-50	P	_	_	_	_	_	_	_	
+4-3	51-54	IMM	_	_	_	_	_	_	_	
+4-4	54-55	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens utredare har i sin iver att få en snabbare planprocess för nya byggen inte förstått att medinflytandet är en viktig förutsättning för att få beslut av så hög kvalitet som möjligt.
+5-1	57-68	Regeringens	*[28]	_	_	_	_	_	_	
+5-2	69-77	utredare	*[28]	_	_	_	_	_	_	
+5-3	78-81	har	_	_	_	_	_	_	_	
+5-4	82-83	i	_	Target;Source[2]	5-8[29];5-1[28]	false[2]	5[2]	_	_	
+5-5	84-87	sin	_	Target;Source[2]	5-8[29];5-1[28]	false[2]	5[2]	_	_	
+5-6	88-92	iver	_	Target;Source[2]	5-8[29];5-1[28]	false[2]	5[2]	_	_	
+5-7	93-96	att	_	Target;Source[2]	5-8[29];5-1[28]	false[2]	5[2]	_	_	
+5-8	97-99	få	*[29]	_	_	_	_	_	_	
+5-9	100-102	en	*[29]	_	_	_	_	_	_	
+5-10	103-111	snabbare	*[29]	_	_	_	_	_	_	
+5-11	112-123	planprocess	*[29]	_	_	_	_	_	_	
+5-12	124-127	för	*[29]	_	_	_	_	_	_	
+5-13	128-131	nya	*[29]	_	_	_	_	_	_	
+5-14	132-138	byggen	*[29]	_	_	_	_	_	_	
+5-15	139-143	inte	_	_	_	_	_	_	_	
+5-16	144-152	förstått	_	_	_	_	_	_	_	
+5-17	153-156	att	_	_	_	_	_	_	_	
+5-18	157-171	medinflytandet	*	_	_	_	_	_	_	
+5-19	172-174	är	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-20	175-177	en	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-21	178-184	viktig	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-22	185-198	förutsättning	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-23	199-202	för	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-24	203-206	att	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-25	207-209	få	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-26	210-216	beslut	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-27	217-219	av	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-28	220-222	så	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-29	223-226	hög	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-30	227-235	kvalitet	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-31	236-239	som	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-32	240-247	möjligt	_	Target[3]	5-18	false[3]	5[3]	_	_	
+5-33	247-248	.	_	_	_	_	_	_	_	
+
+#Text=Rättssäkerheten äventyras och ett sämre skydd för stadsmiljöns kvalitet blir följden.
+6-1	249-264	Rättssäkerheten	*[30]	Target[4]	6-1[30]	false[4]	1[4]	_	_	
+6-2	265-274	äventyras	*[30]	Target[4]	6-1[30]	false[4]	1[4]	_	_	
+6-3	275-278	och	_	_	_	_	_	_	_	
+6-4	279-282	ett	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-5	283-288	sämre	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-6	289-294	skydd	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-7	295-298	för	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-8	299-311	stadsmiljöns	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-9	312-320	kvalitet	*[31]	Target[5]	6-4[31]	false[5]	2[5]	_	_	
+6-10	321-325	blir	_	_	_	_	_	_	_	
+6-11	326-333	följden	_	_	_	_	_	_	_	
+6-12	333-334	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver arkitekt Kristina Berglund och jurist Ulla Björkman.
+7-1	335-338	Det	_	_	_	_	_	_	_	
+7-2	339-346	skriver	_	_	_	_	_	_	_	
+7-3	347-355	arkitekt	_	_	_	_	_	_	_	
+7-4	356-364	Kristina	_	_	_	_	_	_	_	
+7-5	365-373	Berglund	_	_	_	_	_	_	_	
+7-6	374-377	och	_	_	_	_	_	_	_	
+7-7	378-384	jurist	_	_	_	_	_	_	_	
+7-8	385-389	Ulla	_	_	_	_	_	_	_	
+7-9	390-398	Björkman	_	_	_	_	_	_	_	
+7-10	398-399	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	401-402	#	_	_	_	_	_	_	_	
+8-2	402-403	P	_	_	_	_	_	_	_	
+8-3	404-407	IMM	_	_	_	_	_	_	_	
+8-4	407-408	.	_	_	_	_	_	_	_	
+
+#Text=I föraktfulla ordalag avfärdas de som deltar i samråd om bebyggelsepolitiken i kommunen.Kristina Berglund och Ulla Björkman.
+9-1	410-411	I	_	Target;Source[6]	9-5[32];9-18	false[6]	1[6]	_	_	
+9-2	412-423	föraktfulla	_	Target;Source[6]	9-5[32];9-18	false[6]	1[6]	_	_	
+9-3	424-431	ordalag	_	Target;Source[6]	9-5[32];9-18	false[6]	1[6]	_	_	
+9-4	432-440	avfärdas	_	Target;Source[6]	9-5[32];9-18	false[6]	1[6]	_	_	
+9-5	441-443	de	*[32]	_	_	_	_	_	_	
+9-6	444-447	som	*[32]	_	_	_	_	_	_	
+9-7	448-454	deltar	*[32]	_	_	_	_	_	_	
+9-8	455-456	i	*[32]	_	_	_	_	_	_	
+9-9	457-463	samråd	*[32]	_	_	_	_	_	_	
+9-10	464-466	om	*[32]	_	_	_	_	_	_	
+9-11	467-486	bebyggelsepolitiken	*[32]	_	_	_	_	_	_	
+9-12	487-488	i	_	_	_	_	_	_	_	
+9-13	489-506	kommunen.Kristina	_	_	_	_	_	_	_	
+9-14	507-515	Berglund	_	_	_	_	_	_	_	
+9-15	516-519	och	_	_	_	_	_	_	_	
+9-16	520-524	Ulla	_	_	_	_	_	_	_	
+9-17	525-533	Björkman	_	_	_	_	_	_	_	
+9-18	533-534	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	536-537	#	_	_	_	_	_	_	_	
+10-2	537-538	P	_	_	_	_	_	_	_	
+10-3	539-542	IMM	_	_	_	_	_	_	_	
+10-4	542-543	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	545-548	Det	_	_	_	_	_	_	_	
+11-2	549-552	här	_	_	_	_	_	_	_	
+11-3	553-555	är	_	_	_	_	_	_	_	
+11-4	556-558	en	_	_	_	_	_	_	_	
+11-5	559-573	argumenterande	_	_	_	_	_	_	_	
+11-6	574-578	text	_	_	_	_	_	_	_	
+11-7	579-582	med	_	_	_	_	_	_	_	
+11-8	583-588	syfte	_	_	_	_	_	_	_	
+11-9	589-592	att	_	_	_	_	_	_	_	
+11-10	593-600	påverka	_	_	_	_	_	_	_	
+11-11	600-601	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	602-611	Åsikterna	_	_	_	_	_	_	_	
+12-2	612-615	som	_	_	_	_	_	_	_	
+12-3	616-624	uttrycks	_	_	_	_	_	_	_	
+12-4	625-627	är	_	_	_	_	_	_	_	
+12-5	628-639	skribentens	_	_	_	_	_	_	_	
+12-6	640-644	egna	_	_	_	_	_	_	_	
+12-7	644-645	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	647-648	#	_	_	_	_	_	_	_	
+13-2	648-649	P	_	_	_	_	_	_	_	
+13-3	650-653	IMM	_	_	_	_	_	_	_	
+13-4	653-654	.	_	_	_	_	_	_	_	
+
+#Text=Ett av hindren för ett snabbt bostadsbyggande anses av många vara att planprocessen är för lång.
+14-1	656-659	Ett	_	_	_	_	_	_	_	
+14-2	660-662	av	_	_	_	_	_	_	_	
+14-3	663-670	hindren	_	_	_	_	_	_	_	
+14-4	671-674	för	_	_	_	_	_	_	_	
+14-5	675-678	ett	_	_	_	_	_	_	_	
+14-6	679-685	snabbt	_	_	_	_	_	_	_	
+14-7	686-701	bostadsbyggande	_	_	_	_	_	_	_	
+14-8	702-707	anses	_	_	_	_	_	_	_	
+14-9	708-710	av	_	_	_	_	_	_	_	
+14-10	711-716	många	*	_	_	_	_	_	_	
+14-11	717-721	vara	_	_	_	_	_	_	_	
+14-12	722-725	att	_	_	_	_	_	_	_	
+14-13	726-739	planprocessen	*	_	_	_	_	_	_	
+14-14	740-742	är	_	Target;Source[7]	14-13;14-10	false[7]	1[7]	_	_	
+14-15	743-746	för	_	Target;Source[7]	14-13;14-10	false[7]	1[7]	_	_	
+14-16	747-751	lång	_	Target;Source[7]	14-13;14-10	false[7]	1[7]	_	_	
+14-17	751-752	.	_	_	_	_	_	_	_	
+
+#Text=Därför har regeringen tillsatt en särskild utredare som nu lagt fram förslaget "En effektivare plan- och bygglovsprocess" (SOU 2013:34).
+15-1	753-759	Därför	_	_	_	_	_	_	_	
+15-2	760-763	har	_	_	_	_	_	_	_	
+15-3	764-774	regeringen	_	_	_	_	_	_	_	
+15-4	775-783	tillsatt	_	_	_	_	_	_	_	
+15-5	784-786	en	_	_	_	_	_	_	_	
+15-6	787-795	särskild	_	_	_	_	_	_	_	
+15-7	796-804	utredare	_	_	_	_	_	_	_	
+15-8	805-808	som	_	_	_	_	_	_	_	
+15-9	809-811	nu	_	_	_	_	_	_	_	
+15-10	812-816	lagt	_	_	_	_	_	_	_	
+15-11	817-821	fram	_	_	_	_	_	_	_	
+15-12	822-831	förslaget	_	_	_	_	_	_	_	
+15-13	832-833	"	_	_	_	_	_	_	_	
+15-14	833-835	En	_	_	_	_	_	_	_	
+15-15	836-847	effektivare	_	_	_	_	_	_	_	
+15-16	848-852	plan	_	_	_	_	_	_	_	
+15-17	852-853	-	_	_	_	_	_	_	_	
+15-18	854-857	och	_	_	_	_	_	_	_	
+15-19	858-873	bygglovsprocess	_	_	_	_	_	_	_	
+15-20	873-874	"	_	_	_	_	_	_	_	
+15-21	875-876	(	_	_	_	_	_	_	_	
+15-22	876-879	SOU	_	_	_	_	_	_	_	
+15-23	880-884	2013	_	_	_	_	_	_	_	
+15-24	884-885	:	_	_	_	_	_	_	_	
+15-25	885-887	34	_	_	_	_	_	_	_	
+15-26	887-888	)	_	_	_	_	_	_	_	
+15-27	888-889	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	891-892	#	_	_	_	_	_	_	_	
+16-2	892-893	P	_	_	_	_	_	_	_	
+16-3	894-897	IMM	_	_	_	_	_	_	_	
+16-4	897-898	.	_	_	_	_	_	_	_	
+
+#Text=Utredaren föreslår radikala ändringar i plan- och bygglagen (PBL) för att förkorta tiden från projektstart till dess spaden sätts i jorden.
+17-1	900-909	Utredaren	_	_	_	_	_	_	_	
+17-2	910-918	föreslår	_	_	_	_	_	_	_	
+17-3	919-927	radikala	*[33]	Target[8]	17-3[33]	false[8]	3[8]	_	_	
+17-4	928-937	ändringar	*[33]	Target[8]	17-3[33]	false[8]	3[8]	_	_	
+17-5	938-939	i	_	_	_	_	_	_	_	
+17-6	940-944	plan	_	_	_	_	_	_	_	
+17-7	944-945	-	_	_	_	_	_	_	_	
+17-8	946-949	och	_	_	_	_	_	_	_	
+17-9	950-959	bygglagen	_	_	_	_	_	_	_	
+17-10	960-961	(	_	_	_	_	_	_	_	
+17-11	961-964	PBL	_	_	_	_	_	_	_	
+17-12	964-965	)	_	_	_	_	_	_	_	
+17-13	966-969	för	_	_	_	_	_	_	_	
+17-14	970-973	att	_	_	_	_	_	_	_	
+17-15	974-982	förkorta	_	_	_	_	_	_	_	
+17-16	983-988	tiden	_	_	_	_	_	_	_	
+17-17	989-993	från	_	_	_	_	_	_	_	
+17-18	994-1006	projektstart	_	_	_	_	_	_	_	
+17-19	1007-1011	till	_	_	_	_	_	_	_	
+17-20	1012-1016	dess	_	_	_	_	_	_	_	
+17-21	1017-1023	spaden	_	_	_	_	_	_	_	
+17-22	1024-1029	sätts	_	_	_	_	_	_	_	
+17-23	1030-1031	i	_	_	_	_	_	_	_	
+17-24	1032-1038	jorden	_	_	_	_	_	_	_	
+17-25	1038-1039	.	_	_	_	_	_	_	_	
+
+#Text=Syftet är lovvärt men förslaget har stora brister bland annat när det gäller medborgarnas möjlighet till påverkan av den egna livsmiljön.
+18-1	1040-1046	Syftet	*	_	_	_	_	_	_	
+18-2	1047-1049	är	_	Target[9]	18-1	false[9]	5[9]	_	_	
+18-3	1050-1057	lovvärt	_	Target[9]	18-1	false[9]	5[9]	_	_	
+18-4	1058-1061	men	_	_	_	_	_	_	_	
+18-5	1062-1071	förslaget	*	_	_	_	_	_	_	
+18-6	1072-1075	har	_	Target[10]	18-5	false[10]	1[10]	_	_	
+18-7	1076-1081	stora	_	Target[10]	18-5	false[10]	1[10]	_	_	
+18-8	1082-1089	brister	_	Target[10]	18-5	false[10]	1[10]	_	_	
+18-9	1090-1095	bland	_	_	_	_	_	_	_	
+18-10	1096-1101	annat	_	_	_	_	_	_	_	
+18-11	1102-1105	när	_	_	_	_	_	_	_	
+18-12	1106-1109	det	_	_	_	_	_	_	_	
+18-13	1110-1116	gäller	_	_	_	_	_	_	_	
+18-14	1117-1129	medborgarnas	_	_	_	_	_	_	_	
+18-15	1130-1139	möjlighet	_	_	_	_	_	_	_	
+18-16	1140-1144	till	_	_	_	_	_	_	_	
+18-17	1145-1153	påverkan	_	_	_	_	_	_	_	
+18-18	1154-1156	av	_	_	_	_	_	_	_	
+18-19	1157-1160	den	_	_	_	_	_	_	_	
+18-20	1161-1165	egna	_	_	_	_	_	_	_	
+18-21	1166-1176	livsmiljön	_	_	_	_	_	_	_	
+18-22	1176-1177	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1179-1180	#	_	_	_	_	_	_	_	
+19-2	1180-1181	P	_	_	_	_	_	_	_	
+19-3	1182-1185	IMM	_	_	_	_	_	_	_	
+19-4	1185-1186	.	_	_	_	_	_	_	_	
+
+#Text=På senare år har det blivit allt vanligare att regeringen utser en särskild utredare att med hjälp av enbart experter behandla viktiga, principiella frågor av det slag som förr ansågs kräva en parlamentarisk utredning; nyligen kommunallagen, nu PBL – båda omfattande lagverk inom politiska kärnområden.
+20-1	1188-1190	På	_	_	_	_	_	_	_	
+20-2	1191-1197	senare	_	_	_	_	_	_	_	
+20-3	1198-1200	år	_	_	_	_	_	_	_	
+20-4	1201-1204	har	_	_	_	_	_	_	_	
+20-5	1205-1208	det	_	_	_	_	_	_	_	
+20-6	1209-1215	blivit	_	_	_	_	_	_	_	
+20-7	1216-1220	allt	_	_	_	_	_	_	_	
+20-8	1221-1230	vanligare	_	_	_	_	_	_	_	
+20-9	1231-1234	att	_	_	_	_	_	_	_	
+20-10	1235-1245	regeringen	_	_	_	_	_	_	_	
+20-11	1246-1251	utser	_	_	_	_	_	_	_	
+20-12	1252-1254	en	_	_	_	_	_	_	_	
+20-13	1255-1263	särskild	_	_	_	_	_	_	_	
+20-14	1264-1272	utredare	_	_	_	_	_	_	_	
+20-15	1273-1276	att	_	_	_	_	_	_	_	
+20-16	1277-1280	med	_	_	_	_	_	_	_	
+20-17	1281-1286	hjälp	_	_	_	_	_	_	_	
+20-18	1287-1289	av	_	_	_	_	_	_	_	
+20-19	1290-1296	enbart	_	_	_	_	_	_	_	
+20-20	1297-1305	experter	_	_	_	_	_	_	_	
+20-21	1306-1314	behandla	_	_	_	_	_	_	_	
+20-22	1315-1322	viktiga	_	_	_	_	_	_	_	
+20-23	1322-1323	,	_	_	_	_	_	_	_	
+20-24	1324-1336	principiella	_	_	_	_	_	_	_	
+20-25	1337-1343	frågor	_	_	_	_	_	_	_	
+20-26	1344-1346	av	_	_	_	_	_	_	_	
+20-27	1347-1350	det	_	_	_	_	_	_	_	
+20-28	1351-1355	slag	_	_	_	_	_	_	_	
+20-29	1356-1359	som	_	_	_	_	_	_	_	
+20-30	1360-1364	förr	_	_	_	_	_	_	_	
+20-31	1365-1371	ansågs	_	_	_	_	_	_	_	
+20-32	1372-1377	kräva	_	_	_	_	_	_	_	
+20-33	1378-1380	en	_	_	_	_	_	_	_	
+20-34	1381-1395	parlamentarisk	_	_	_	_	_	_	_	
+20-35	1396-1405	utredning	_	_	_	_	_	_	_	
+20-36	1405-1406	;	_	_	_	_	_	_	_	
+20-37	1407-1414	nyligen	_	_	_	_	_	_	_	
+20-38	1415-1428	kommunallagen	_	_	_	_	_	_	_	
+20-39	1428-1429	,	_	_	_	_	_	_	_	
+20-40	1430-1432	nu	_	_	_	_	_	_	_	
+20-41	1433-1436	PBL	_	_	_	_	_	_	_	
+20-42	1437-1438	–	_	_	_	_	_	_	_	
+20-43	1439-1443	båda	_	_	_	_	_	_	_	
+20-44	1444-1454	omfattande	_	_	_	_	_	_	_	
+20-45	1455-1462	lagverk	_	_	_	_	_	_	_	
+20-46	1463-1467	inom	_	_	_	_	_	_	_	
+20-47	1468-1477	politiska	_	_	_	_	_	_	_	
+20-48	1478-1489	kärnområden	_	_	_	_	_	_	_	
+20-49	1489-1490	.	_	_	_	_	_	_	_	
+
+#Text=I båda fallen presteras på kort tid imponerande textmassor, men med innehåll som saknar den insikt som erfarna politiker kunnat bidra med.
+21-1	1491-1492	I	_	_	_	_	_	_	_	
+21-2	1493-1497	båda	_	_	_	_	_	_	_	
+21-3	1498-1504	fallen	_	_	_	_	_	_	_	
+21-4	1505-1514	presteras	_	_	_	_	_	_	_	
+21-5	1515-1517	på	_	_	_	_	_	_	_	
+21-6	1518-1522	kort	_	_	_	_	_	_	_	
+21-7	1523-1526	tid	_	_	_	_	_	_	_	
+21-8	1527-1538	imponerande	_	Target	21-9	true	5	_	_	
+21-9	1539-1549	textmassor	*	_	_	_	_	_	_	
+21-10	1549-1550	,	_	_	_	_	_	_	_	
+21-11	1551-1554	men	_	_	_	_	_	_	_	
+21-12	1555-1558	med	_	_	_	_	_	_	_	
+21-13	1559-1567	innehåll	_	_	_	_	_	_	_	
+21-14	1568-1571	som	_	_	_	_	_	_	_	
+21-15	1572-1578	saknar	_	_	_	_	_	_	_	
+21-16	1579-1582	den	_	_	_	_	_	_	_	
+21-17	1583-1589	insikt	_	_	_	_	_	_	_	
+21-18	1590-1593	som	_	_	_	_	_	_	_	
+21-19	1594-1601	erfarna	_	_	_	_	_	_	_	
+21-20	1602-1611	politiker	_	_	_	_	_	_	_	
+21-21	1612-1618	kunnat	_	_	_	_	_	_	_	
+21-22	1619-1624	bidra	_	_	_	_	_	_	_	
+21-23	1625-1628	med	_	_	_	_	_	_	_	
+21-24	1628-1629	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1631-1632	#	_	_	_	_	_	_	_	
+22-2	1632-1633	P	_	_	_	_	_	_	_	
+22-3	1634-1637	IMM	_	_	_	_	_	_	_	
+22-4	1637-1638	.	_	_	_	_	_	_	_	
+
+#Text=PBL-utredaren föreslår en ny plankonstruktion som innebär att den nuvarande detaljplanen i stort sett utmönstras till förmån för en ny planform, områdesplanen, som en fördjupningsdel inom översiktsplanen.
+23-1	1640-1653	PBL-utredaren	_	_	_	_	_	_	_	
+23-2	1654-1662	föreslår	_	_	_	_	_	_	_	
+23-3	1663-1665	en	_	_	_	_	_	_	_	
+23-4	1666-1668	ny	_	_	_	_	_	_	_	
+23-5	1669-1685	plankonstruktion	_	_	_	_	_	_	_	
+23-6	1686-1689	som	_	_	_	_	_	_	_	
+23-7	1690-1697	innebär	_	_	_	_	_	_	_	
+23-8	1698-1701	att	_	_	_	_	_	_	_	
+23-9	1702-1705	den	_	_	_	_	_	_	_	
+23-10	1706-1715	nuvarande	_	_	_	_	_	_	_	
+23-11	1716-1728	detaljplanen	_	_	_	_	_	_	_	
+23-12	1729-1730	i	_	_	_	_	_	_	_	
+23-13	1731-1736	stort	_	_	_	_	_	_	_	
+23-14	1737-1741	sett	_	_	_	_	_	_	_	
+23-15	1742-1752	utmönstras	_	_	_	_	_	_	_	
+23-16	1753-1757	till	_	Target[11]	23-19[34]	false[11]	4[11]	_	_	
+23-17	1758-1764	förmån	_	Target[11]	23-19[34]	false[11]	4[11]	_	_	
+23-18	1765-1768	för	_	Target[11]	23-19[34]	false[11]	4[11]	_	_	
+23-19	1769-1771	en	*[34]	_	_	_	_	_	_	
+23-20	1772-1774	ny	*[34]	_	_	_	_	_	_	
+23-21	1775-1783	planform	*[34]	_	_	_	_	_	_	
+23-22	1783-1784	,	*[34]	_	_	_	_	_	_	
+23-23	1785-1798	områdesplanen	*[34]	_	_	_	_	_	_	
+23-24	1798-1799	,	_	_	_	_	_	_	_	
+23-25	1800-1803	som	_	_	_	_	_	_	_	
+23-26	1804-1806	en	_	_	_	_	_	_	_	
+23-27	1807-1822	fördjupningsdel	_	_	_	_	_	_	_	
+23-28	1823-1827	inom	_	_	_	_	_	_	_	
+23-29	1828-1843	översiktsplanen	_	_	_	_	_	_	_	
+23-30	1843-1844	.	_	_	_	_	_	_	_	
+
+#Text=Områdesplanen ska enligt utredaren vara den viktiga arenan för dialogen med medborgarna.
+24-1	1845-1858	Områdesplanen	*	_	_	_	_	_	_	
+24-2	1859-1862	ska	_	_	_	false	4	_	_	
+24-3	1863-1869	enligt	_	_	_	_	_	_	_	
+24-4	1870-1879	utredaren	*	_	_	_	_	_	_	
+24-5	1880-1884	vara	_	Target;Source[12]	24-1;24-4	false[12]	4[12]	24-2[0_12]	_	
+24-6	1885-1888	den	_	Target;Source[12]	24-1;24-4	false[12]	4[12]	_	_	
+24-7	1889-1896	viktiga	_	Target;Source[12]	24-1;24-4	false[12]	4[12]	_	_	
+24-8	1897-1903	arenan	_	Target;Source[12]	24-1;24-4	false[12]	4[12]	_	_	
+24-9	1904-1907	för	_	_	_	_	_	_	_	
+24-10	1908-1916	dialogen	_	_	_	_	_	_	_	
+24-11	1917-1920	med	_	_	_	_	_	_	_	
+24-12	1921-1932	medborgarna	_	_	_	_	_	_	_	
+24-13	1932-1933	.	_	_	_	_	_	_	_	
+
+#Text=Även hänsynstagande till statliga intressen ska klaras ut i samråd med länsstyrelsen på denna nivå, till exempel avvägningen mot riksintressen.
+25-1	1934-1938	Även	_	_	_	_	_	_	_	
+25-2	1939-1953	hänsynstagande	_	_	_	_	_	_	_	
+25-3	1954-1958	till	_	_	_	_	_	_	_	
+25-4	1959-1967	statliga	_	_	_	_	_	_	_	
+25-5	1968-1977	intressen	_	_	_	_	_	_	_	
+25-6	1978-1981	ska	_	_	_	_	_	_	_	
+25-7	1982-1988	klaras	_	_	_	_	_	_	_	
+25-8	1989-1991	ut	_	_	_	_	_	_	_	
+25-9	1992-1993	i	_	_	_	_	_	_	_	
+25-10	1994-2000	samråd	_	_	_	_	_	_	_	
+25-11	2001-2004	med	_	_	_	_	_	_	_	
+25-12	2005-2018	länsstyrelsen	_	_	_	_	_	_	_	
+25-13	2019-2021	på	_	_	_	_	_	_	_	
+25-14	2022-2027	denna	_	_	_	_	_	_	_	
+25-15	2028-2032	nivå	_	_	_	_	_	_	_	
+25-16	2032-2033	,	_	_	_	_	_	_	_	
+25-17	2034-2038	till	_	_	_	_	_	_	_	
+25-18	2039-2046	exempel	_	_	_	_	_	_	_	
+25-19	2047-2058	avvägningen	_	_	_	_	_	_	_	
+25-20	2059-2062	mot	_	_	_	_	_	_	_	
+25-21	2063-2076	riksintressen	_	_	_	_	_	_	_	
+25-22	2076-2077	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2079-2080	#	_	_	_	_	_	_	_	
+26-2	2080-2081	P	_	_	_	_	_	_	_	
+26-3	2082-2085	IMM	_	_	_	_	_	_	_	
+26-4	2085-2086	.	_	_	_	_	_	_	_	
+
+#Text=Att lyfta upp fokus i planeringen till områdes-/stadsdelsnivå är också enligt vår mening en bra tanke.
+27-1	2088-2091	Att	*[35]	_	_	_	_	_	_	
+27-2	2092-2097	lyfta	*[35]	_	_	_	_	_	_	
+27-3	2098-2101	upp	*[35]	_	_	_	_	_	_	
+27-4	2102-2107	fokus	*[35]	_	_	_	_	_	_	
+27-5	2108-2109	i	*[35]	_	_	_	_	_	_	
+27-6	2110-2121	planeringen	*[35]	_	_	_	_	_	_	
+27-7	2122-2126	till	*[35]	_	_	_	_	_	_	
+27-8	2127-2134	områdes	*[35]	_	_	_	_	_	_	
+27-9	2134-2135	-	*[35]	_	_	_	_	_	_	
+27-10	2135-2136	/	*[35]	_	_	_	_	_	_	
+27-11	2136-2149	stadsdelsnivå	*[35]	_	_	_	_	_	_	
+27-12	2150-2152	är	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-13	2153-2158	också	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-14	2159-2165	enligt	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-15	2166-2169	vår	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-16	2170-2176	mening	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-17	2177-2179	en	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-18	2180-2183	bra	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-19	2184-2189	tanke	_	Target[13]	27-1[35]	false[13]	4[13]	_	_	
+27-20	2189-2190	.	_	_	_	_	_	_	_	
+
+#Text=Däremot avses områdesplanen inte vara juridiskt bindande och möjlig att överklaga annat än genom så kallat kommunalbesvär över översiktsplanen.
+28-1	2191-2198	Däremot	_	_	_	_	_	_	_	
+28-2	2199-2204	avses	_	_	_	_	_	_	_	
+28-3	2205-2218	områdesplanen	_	_	_	_	_	_	_	
+28-4	2219-2223	inte	_	_	_	_	_	_	_	
+28-5	2224-2228	vara	_	_	_	_	_	_	_	
+28-6	2229-2238	juridiskt	_	_	_	_	_	_	_	
+28-7	2239-2247	bindande	_	_	_	_	_	_	_	
+28-8	2248-2251	och	_	_	_	_	_	_	_	
+28-9	2252-2258	möjlig	_	_	_	_	_	_	_	
+28-10	2259-2262	att	_	_	_	_	_	_	_	
+28-11	2263-2272	överklaga	_	_	_	_	_	_	_	
+28-12	2273-2278	annat	_	_	_	_	_	_	_	
+28-13	2279-2281	än	_	_	_	_	_	_	_	
+28-14	2282-2287	genom	_	_	_	_	_	_	_	
+28-15	2288-2290	så	_	_	_	_	_	_	_	
+28-16	2291-2297	kallat	_	_	_	_	_	_	_	
+28-17	2298-2312	kommunalbesvär	_	_	_	_	_	_	_	
+28-18	2313-2317	över	_	_	_	_	_	_	_	
+28-19	2318-2333	översiktsplanen	_	_	_	_	_	_	_	
+28-20	2333-2334	.	_	_	_	_	_	_	_	
+
+#Text=Medinflytande för allmänheten står inte högt i kurs hos utredaren.
+29-1	2335-2348	Medinflytande	*[36]	_	_	_	_	_	_	
+29-2	2349-2352	för	*[36]	_	_	_	_	_	_	
+29-3	2353-2364	allmänheten	*[36]	_	_	_	_	_	_	
+29-4	2365-2369	står	_	Source;Target[14]	29-10;29-1[36]	false[14]	1[14]	_	_	
+29-5	2370-2374	inte	_	Source;Target[14]	29-10;29-1[36]	false[14]	1[14]	_	_	
+29-6	2375-2379	högt	_	Source;Target[14]	29-10;29-1[36]	false[14]	1[14]	_	_	
+29-7	2380-2381	i	_	Source;Target[14]	29-10;29-1[36]	false[14]	1[14]	_	_	
+29-8	2382-2386	kurs	_	Source;Target[14]	29-10;29-1[36]	false[14]	1[14]	_	_	
+29-9	2387-2390	hos	_	_	_	_	_	_	_	
+29-10	2391-2400	utredaren	*	_	_	_	_	_	_	
+29-11	2400-2401	.	_	_	_	_	_	_	_	
+
+#Text=I föraktfulla ordalag avfärdas tvärtom de som deltar i samråd om bebyggelsepolitiken i kommunen: "manligt kön, 55+ och grundmurat etnisk svensk", "Nimby" (not in my back yard – inte på min bakgård).
+30-1	2402-2403	I	_	Source;Target[15]	29-10;30-6[37]	false[15]	1[15]	_	_	
+30-2	2404-2415	föraktfulla	_	Source;Target[15]	29-10;30-6[37]	false[15]	1[15]	_	_	
+30-3	2416-2423	ordalag	_	Source;Target[15]	29-10;30-6[37]	false[15]	1[15]	_	_	
+30-4	2424-2432	avfärdas	_	Source;Target[15]	29-10;30-6[37]	false[15]	1[15]	_	_	
+30-5	2433-2440	tvärtom	_	_	_	_	_	_	_	
+30-6	2441-2443	de	*[37]	_	_	_	_	_	_	
+30-7	2444-2447	som	*[37]	_	_	_	_	_	_	
+30-8	2448-2454	deltar	*[37]	_	_	_	_	_	_	
+30-9	2455-2456	i	*[37]	_	_	_	_	_	_	
+30-10	2457-2463	samråd	*[37]	_	_	_	_	_	_	
+30-11	2464-2466	om	*[37]	_	_	_	_	_	_	
+30-12	2467-2486	bebyggelsepolitiken	*[37]	_	_	_	_	_	_	
+30-13	2487-2488	i	*[37]	_	_	_	_	_	_	
+30-14	2489-2497	kommunen	*[37]	_	_	_	_	_	_	
+30-15	2497-2498	:	_	_	_	_	_	_	_	
+30-16	2499-2500	"	_	_	_	_	_	_	_	
+30-17	2500-2507	manligt	_	_	_	_	_	_	_	
+30-18	2508-2511	kön	_	_	_	_	_	_	_	
+30-19	2511-2512	,	_	_	_	_	_	_	_	
+30-20	2513-2515	55	_	_	_	_	_	_	_	
+30-21	2515-2516	+	_	_	_	_	_	_	_	
+30-22	2517-2520	och	_	_	_	_	_	_	_	
+30-23	2521-2531	grundmurat	_	Source;Target	29-10;30-24[38]	false	4	_	_	
+30-24	2532-2538	etnisk	*[38]	_	_	_	_	_	_	
+30-25	2539-2545	svensk	*[38]	_	_	_	_	_	_	
+30-26	2545-2546	"	_	_	_	_	_	_	_	
+30-27	2546-2547	,	_	_	_	_	_	_	_	
+30-28	2548-2549	"	_	_	_	_	_	_	_	
+30-29	2549-2554	Nimby	*	Target	30-29	false	1	_	_	
+30-30	2554-2555	"	_	_	_	_	_	_	_	
+30-31	2556-2557	(	_	_	_	_	_	_	_	
+30-32	2557-2560	not	_	_	_	_	_	_	_	
+30-33	2561-2563	in	_	_	_	_	_	_	_	
+30-34	2564-2566	my	_	_	_	_	_	_	_	
+30-35	2567-2571	back	_	_	_	_	_	_	_	
+30-36	2572-2576	yard	_	_	_	_	_	_	_	
+30-37	2577-2578	–	_	_	_	_	_	_	_	
+30-38	2579-2583	inte	_	_	_	_	_	_	_	
+30-39	2584-2586	på	_	_	_	_	_	_	_	
+30-40	2587-2590	min	_	_	_	_	_	_	_	
+30-41	2591-2598	bakgård	_	_	_	_	_	_	_	
+30-42	2598-2599	)	_	_	_	_	_	_	_	
+30-43	2599-2600	.	_	_	_	_	_	_	_	
+
+#Text=Även möjligheten att överklaga bygglov begränsas.
+31-1	2601-2605	Även	_	_	_	_	_	_	_	
+31-2	2606-2617	möjligheten	_	_	_	_	_	_	_	
+31-3	2618-2621	att	_	_	_	_	_	_	_	
+31-4	2622-2631	överklaga	_	_	_	_	_	_	_	
+31-5	2632-2639	bygglov	_	_	_	_	_	_	_	
+31-6	2640-2649	begränsas	_	_	_	_	_	_	_	
+31-7	2649-2650	.	_	_	_	_	_	_	_	
+
+#Text=Att samma konstruktion också avväpnar de miljöorganisationer som, till följd av den EU-rättsliga Århuskonventionen, tillerkänts klagorätt ifråga om detaljplaner enligt PBL, besvärar inte utredaren.
+32-1	2651-2654	Att	_	_	_	_	_	_	_	
+32-2	2655-2660	samma	_	_	_	_	_	_	_	
+32-3	2661-2673	konstruktion	_	_	_	_	_	_	_	
+32-4	2674-2679	också	_	_	_	_	_	_	_	
+32-5	2680-2688	avväpnar	_	_	_	_	_	_	_	
+32-6	2689-2691	de	_	_	_	_	_	_	_	
+32-7	2692-2711	miljöorganisationer	_	_	_	_	_	_	_	
+32-8	2712-2715	som	_	_	_	_	_	_	_	
+32-9	2715-2716	,	_	_	_	_	_	_	_	
+32-10	2717-2721	till	_	_	_	_	_	_	_	
+32-11	2722-2727	följd	_	_	_	_	_	_	_	
+32-12	2728-2730	av	_	_	_	_	_	_	_	
+32-13	2731-2734	den	_	_	_	_	_	_	_	
+32-14	2735-2747	EU-rättsliga	_	_	_	_	_	_	_	
+32-15	2748-2765	Århuskonventionen	_	_	_	_	_	_	_	
+32-16	2765-2766	,	_	_	_	_	_	_	_	
+32-17	2767-2778	tillerkänts	_	_	_	_	_	_	_	
+32-18	2779-2788	klagorätt	_	_	_	_	_	_	_	
+32-19	2789-2795	ifråga	_	_	_	_	_	_	_	
+32-20	2796-2798	om	_	_	_	_	_	_	_	
+32-21	2799-2811	detaljplaner	_	_	_	_	_	_	_	
+32-22	2812-2818	enligt	_	_	_	_	_	_	_	
+32-23	2819-2822	PBL	_	_	_	_	_	_	_	
+32-24	2822-2823	,	_	_	_	_	_	_	_	
+32-25	2824-2832	besvärar	_	_	_	_	_	_	_	
+32-26	2833-2837	inte	_	_	_	_	_	_	_	
+32-27	2838-2847	utredaren	_	_	_	_	_	_	_	
+32-28	2847-2848	.	_	_	_	_	_	_	_	
+
+#Text=Samråds- och utställningsförfaranden före planbeslut bantas också kraftigt.
+33-1	2849-2856	Samråds	_	_	_	_	_	_	_	
+33-2	2856-2857	-	_	_	_	_	_	_	_	
+33-3	2858-2861	och	_	_	_	_	_	_	_	
+33-4	2862-2885	utställningsförfaranden	_	_	_	_	_	_	_	
+33-5	2886-2890	före	_	_	_	_	_	_	_	
+33-6	2891-2901	planbeslut	_	_	_	_	_	_	_	
+33-7	2902-2908	bantas	_	_	_	_	_	_	_	
+33-8	2909-2914	också	_	_	_	_	_	_	_	
+33-9	2915-2923	kraftigt	_	_	_	_	_	_	_	
+33-10	2923-2924	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2926-2927	#	_	_	_	_	_	_	_	
+34-2	2927-2928	P	_	_	_	_	_	_	_	
+34-3	2929-2932	IMM	_	_	_	_	_	_	_	
+34-4	2932-2933	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+35-1	2935-2948	Skräddarsydda	_	_	_	_	_	_	_	
+35-2	2949-2955	kurser	_	_	_	_	_	_	_	
+35-3	2956-2957	i	_	_	_	_	_	_	_	
+35-4	2958-2963	ämnen	_	_	_	_	_	_	_	
+35-5	2964-2967	som	_	_	_	_	_	_	_	
+35-6	2968-2979	intresserar	_	_	_	_	_	_	_	
+35-7	2980-2983	och	_	_	_	_	_	_	_	
+35-8	2984-2993	engagerar	_	_	_	_	_	_	_	
+35-9	2994-2998	både	_	_	_	_	_	_	_	
+35-10	2999-3004	kropp	_	_	_	_	_	_	_	
+35-11	3005-3008	och	_	_	_	_	_	_	_	
+35-12	3009-3013	själ	_	_	_	_	_	_	_	
+35-13	3013-3014	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3016-3017	#	_	_	_	_	_	_	_	
+36-2	3017-3018	P	_	_	_	_	_	_	_	
+36-3	3019-3022	IMM	_	_	_	_	_	_	_	
+36-4	3022-3023	.	_	_	_	_	_	_	_	
+
+#Text=Ett av medlen för att förkorta planprocessen är således att minska medinflytandet och ta bort möjligheten till överprövning av beslut.
+37-1	3025-3028	Ett	_	_	_	_	_	_	_	
+37-2	3029-3031	av	_	_	_	_	_	_	_	
+37-3	3032-3038	medlen	_	_	_	_	_	_	_	
+37-4	3039-3042	för	_	_	_	_	_	_	_	
+37-5	3043-3046	att	_	_	_	_	_	_	_	
+37-6	3047-3055	förkorta	_	_	_	_	_	_	_	
+37-7	3056-3069	planprocessen	_	_	_	_	_	_	_	
+37-8	3070-3072	är	_	_	_	_	_	_	_	
+37-9	3073-3080	således	_	_	_	_	_	_	_	
+37-10	3081-3084	att	_	_	_	_	_	_	_	
+37-11	3085-3091	minska	_	_	_	_	_	_	_	
+37-12	3092-3106	medinflytandet	_	_	_	_	_	_	_	
+37-13	3107-3110	och	_	_	_	_	_	_	_	
+37-14	3111-3113	ta	_	_	_	_	_	_	_	
+37-15	3114-3118	bort	_	_	_	_	_	_	_	
+37-16	3119-3130	möjligheten	_	_	_	_	_	_	_	
+37-17	3131-3135	till	_	_	_	_	_	_	_	
+37-18	3136-3148	överprövning	_	_	_	_	_	_	_	
+37-19	3149-3151	av	_	_	_	_	_	_	_	
+37-20	3152-3158	beslut	_	_	_	_	_	_	_	
+37-21	3158-3159	.	_	_	_	_	_	_	_	
+
+#Text=Utredaren har i sin iver att få en snabbare planprocess inte förstått att medinflytandet är en viktig förutsättning för att få beslut av så hög kvalitet som möjligt.
+38-1	3160-3169	Utredaren	_	_	_	_	_	_	_	
+38-2	3170-3173	har	_	_	_	_	_	_	_	
+38-3	3174-3175	i	_	_	_	_	_	_	_	
+38-4	3176-3179	sin	_	_	_	_	_	_	_	
+38-5	3180-3184	iver	_	_	_	_	_	_	_	
+38-6	3185-3188	att	_	_	_	_	_	_	_	
+38-7	3189-3191	få	_	_	_	_	_	_	_	
+38-8	3192-3194	en	_	_	_	_	_	_	_	
+38-9	3195-3203	snabbare	_	_	_	_	_	_	_	
+38-10	3204-3215	planprocess	_	_	_	_	_	_	_	
+38-11	3216-3220	inte	_	_	_	_	_	_	_	
+38-12	3221-3229	förstått	_	_	_	_	_	_	_	
+38-13	3230-3233	att	_	_	_	_	_	_	_	
+38-14	3234-3248	medinflytandet	*	_	_	_	_	_	_	
+38-15	3249-3251	är	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-16	3252-3254	en	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-17	3255-3261	viktig	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-18	3262-3275	förutsättning	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-19	3276-3279	för	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-20	3280-3283	att	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-21	3284-3286	få	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-22	3287-3293	beslut	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-23	3294-3296	av	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-24	3297-3299	så	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-25	3300-3303	hög	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-26	3304-3312	kvalitet	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-27	3313-3316	som	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-28	3317-3324	möjligt	_	Target[16]	38-14	false[16]	5[16]	_	_	
+38-29	3324-3325	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3327-3328	#	_	_	_	_	_	_	_	
+39-2	3328-3329	P	_	_	_	_	_	_	_	
+39-3	3330-3333	IMM	_	_	_	_	_	_	_	
+39-4	3333-3334	.	_	_	_	_	_	_	_	
+
+#Text=Många frågor kan ställas i övrigt: Vad säger att områdesplanen skulle få en starkare styrande effekt för efterföljande beslut jämfört med dagens översiktsplan där mycket stora avsteg inte är ovanliga?
+40-1	3336-3341	Många	_	_	_	_	_	_	_	
+40-2	3342-3348	frågor	_	_	_	_	_	_	_	
+40-3	3349-3352	kan	_	_	_	_	_	_	_	
+40-4	3353-3360	ställas	_	_	_	_	_	_	_	
+40-5	3361-3362	i	_	_	_	_	_	_	_	
+40-6	3363-3369	övrigt	_	_	_	_	_	_	_	
+40-7	3369-3370	:	_	_	_	_	_	_	_	
+40-8	3371-3374	Vad	_	_	_	_	_	_	_	
+40-9	3375-3380	säger	_	_	_	_	_	_	_	
+40-10	3381-3384	att	_	_	_	_	_	_	_	
+40-11	3385-3398	områdesplanen	_	_	_	_	_	_	_	
+40-12	3399-3405	skulle	_	_	_	_	_	_	_	
+40-13	3406-3408	få	_	_	_	_	_	_	_	
+40-14	3409-3411	en	_	_	_	_	_	_	_	
+40-15	3412-3420	starkare	_	_	_	_	_	_	_	
+40-16	3421-3429	styrande	_	_	_	_	_	_	_	
+40-17	3430-3436	effekt	_	_	_	_	_	_	_	
+40-18	3437-3440	för	_	_	_	_	_	_	_	
+40-19	3441-3454	efterföljande	_	_	_	_	_	_	_	
+40-20	3455-3461	beslut	_	_	_	_	_	_	_	
+40-21	3462-3469	jämfört	_	_	_	_	_	_	_	
+40-22	3470-3473	med	_	_	_	_	_	_	_	
+40-23	3474-3480	dagens	_	_	_	_	_	_	_	
+40-24	3481-3494	översiktsplan	_	_	_	_	_	_	_	
+40-25	3495-3498	där	_	_	_	_	_	_	_	
+40-26	3499-3505	mycket	_	_	_	_	_	_	_	
+40-27	3506-3511	stora	_	_	_	_	_	_	_	
+40-28	3512-3518	avsteg	_	_	_	_	_	_	_	
+40-29	3519-3523	inte	_	_	_	_	_	_	_	
+40-30	3524-3526	är	_	_	_	_	_	_	_	
+40-31	3527-3535	ovanliga	_	_	_	_	_	_	_	
+40-32	3535-3536	?	_	_	_	_	_	_	_	
+
+#Text=Kommer byggnadsnämnderna att ha någon möjlighet att styra bebyggelsens utformning när tvingande krav kan ställas först i sista skedet, vid bygglovsprövningen?
+41-1	3537-3543	Kommer	_	_	_	_	_	_	_	
+41-2	3544-3561	byggnadsnämnderna	_	_	_	_	_	_	_	
+41-3	3562-3565	att	_	_	_	_	_	_	_	
+41-4	3566-3568	ha	_	_	_	_	_	_	_	
+41-5	3569-3574	någon	_	_	_	_	_	_	_	
+41-6	3575-3584	möjlighet	_	_	_	_	_	_	_	
+41-7	3585-3588	att	_	_	_	_	_	_	_	
+41-8	3589-3594	styra	_	_	_	_	_	_	_	
+41-9	3595-3607	bebyggelsens	_	_	_	_	_	_	_	
+41-10	3608-3618	utformning	_	_	_	_	_	_	_	
+41-11	3619-3622	när	_	_	_	_	_	_	_	
+41-12	3623-3632	tvingande	_	_	_	_	_	_	_	
+41-13	3633-3637	krav	_	_	_	_	_	_	_	
+41-14	3638-3641	kan	_	_	_	_	_	_	_	
+41-15	3642-3649	ställas	_	_	_	_	_	_	_	
+41-16	3650-3655	först	_	_	_	_	_	_	_	
+41-17	3656-3657	i	_	_	_	_	_	_	_	
+41-18	3658-3663	sista	_	_	_	_	_	_	_	
+41-19	3664-3670	skedet	_	_	_	_	_	_	_	
+41-20	3670-3671	,	_	_	_	_	_	_	_	
+41-21	3672-3675	vid	_	_	_	_	_	_	_	
+41-22	3676-3694	bygglovsprövningen	_	_	_	_	_	_	_	
+41-23	3694-3695	?	_	_	_	_	_	_	_	
+
+#Text=Hur hanteras det faktum att även länsstyrelsernas avvägning mot statliga intressen ibland kan ifrågasättas, om möjlighet att överklaga till högre nivå saknas?.
+42-1	3696-3699	Hur	_	_	_	_	_	_	_	
+42-2	3700-3708	hanteras	_	_	_	_	_	_	_	
+42-3	3709-3712	det	_	_	_	_	_	_	_	
+42-4	3713-3719	faktum	_	_	_	_	_	_	_	
+42-5	3720-3723	att	_	_	_	_	_	_	_	
+42-6	3724-3728	även	_	_	_	_	_	_	_	
+42-7	3729-3745	länsstyrelsernas	*[39]	_	_	_	_	_	_	
+42-8	3746-3755	avvägning	*[39]	_	_	_	_	_	_	
+42-9	3756-3759	mot	*[39]	_	_	_	_	_	_	
+42-10	3760-3768	statliga	*[39]	_	_	_	_	_	_	
+42-11	3769-3778	intressen	*[39]	_	_	_	_	_	_	
+42-12	3779-3785	ibland	_	Source;Target[17]	42-25;42-7[39]	false[17]	3[17]	_	_	
+42-13	3786-3789	kan	_	Source;Target[17]	42-25;42-7[39]	false[17]	3[17]	_	_	
+42-14	3790-3802	ifrågasättas	_	Source;Target[17]	42-25;42-7[39]	false[17]	3[17]	_	_	
+42-15	3802-3803	,	_	_	_	_	_	_	_	
+42-16	3804-3806	om	_	_	_	_	_	_	_	
+42-17	3807-3816	möjlighet	_	_	_	_	_	_	_	
+42-18	3817-3820	att	_	_	_	_	_	_	_	
+42-19	3821-3830	överklaga	_	_	_	_	_	_	_	
+42-20	3831-3835	till	_	_	_	_	_	_	_	
+42-21	3836-3841	högre	_	_	_	_	_	_	_	
+42-22	3842-3846	nivå	_	_	_	_	_	_	_	
+42-23	3847-3853	saknas	_	_	_	_	_	_	_	
+42-24	3853-3854	?	_	_	_	_	_	_	_	
+42-25	3854-3855	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3857-3858	#	_	_	_	_	_	_	_	
+43-2	3858-3859	P	_	_	_	_	_	_	_	
+43-3	3860-3863	IMM	_	_	_	_	_	_	_	
+43-4	3863-3864	.	_	_	_	_	_	_	_	
+
+#Text=I utredningen föreslås vidare att kommunen ska få avgöra hur samråd ska ske i stället för dagens lagstyrda demokratiska förfarande.
+44-1	3866-3867	I	_	_	_	_	_	_	_	
+44-2	3868-3879	utredningen	_	_	_	_	_	_	_	
+44-3	3880-3888	föreslås	_	_	_	_	_	_	_	
+44-4	3889-3895	vidare	_	_	_	_	_	_	_	
+44-5	3896-3899	att	_	_	_	_	_	_	_	
+44-6	3900-3908	kommunen	_	_	_	_	_	_	_	
+44-7	3909-3912	ska	_	_	_	_	_	_	_	
+44-8	3913-3915	få	_	_	_	_	_	_	_	
+44-9	3916-3922	avgöra	_	_	_	_	_	_	_	
+44-10	3923-3926	hur	_	_	_	_	_	_	_	
+44-11	3927-3933	samråd	_	_	_	_	_	_	_	
+44-12	3934-3937	ska	_	_	_	_	_	_	_	
+44-13	3938-3941	ske	_	_	_	_	_	_	_	
+44-14	3942-3943	i	_	_	_	_	_	_	_	
+44-15	3944-3951	stället	_	_	_	_	_	_	_	
+44-16	3952-3955	för	_	_	_	_	_	_	_	
+44-17	3956-3962	dagens	_	_	_	_	_	_	_	
+44-18	3963-3972	lagstyrda	_	_	_	_	_	_	_	
+44-19	3973-3985	demokratiska	_	_	_	_	_	_	_	
+44-20	3986-3996	förfarande	_	_	_	_	_	_	_	
+44-21	3996-3997	.	_	_	_	_	_	_	_	
+
+#Text=Kommunens slutliga planbeslut ska i de flesta fall inte behöva föras upp till kommunfullmäktiges offentliga möten utan i stället avgöras i nämnders slutna rum.
+45-1	3998-4007	Kommunens	_	_	_	_	_	_	_	
+45-2	4008-4016	slutliga	_	_	_	_	_	_	_	
+45-3	4017-4027	planbeslut	_	_	_	_	_	_	_	
+45-4	4028-4031	ska	_	_	_	_	_	_	_	
+45-5	4032-4033	i	_	_	_	_	_	_	_	
+45-6	4034-4036	de	_	_	_	_	_	_	_	
+45-7	4037-4043	flesta	_	_	_	_	_	_	_	
+45-8	4044-4048	fall	_	_	_	_	_	_	_	
+45-9	4049-4053	inte	_	_	_	_	_	_	_	
+45-10	4054-4060	behöva	_	_	_	_	_	_	_	
+45-11	4061-4066	föras	_	_	_	_	_	_	_	
+45-12	4067-4070	upp	_	_	_	_	_	_	_	
+45-13	4071-4075	till	_	_	_	_	_	_	_	
+45-14	4076-4094	kommunfullmäktiges	_	_	_	_	_	_	_	
+45-15	4095-4105	offentliga	_	_	_	_	_	_	_	
+45-16	4106-4111	möten	_	_	_	_	_	_	_	
+45-17	4112-4116	utan	_	_	_	_	_	_	_	
+45-18	4117-4118	i	_	_	_	_	_	_	_	
+45-19	4119-4126	stället	_	_	_	_	_	_	_	
+45-20	4127-4134	avgöras	_	_	_	_	_	_	_	
+45-21	4135-4136	i	_	_	_	_	_	_	_	
+45-22	4137-4145	nämnders	_	_	_	_	_	_	_	
+45-23	4146-4152	slutna	_	_	_	_	_	_	_	
+45-24	4153-4156	rum	_	_	_	_	_	_	_	
+45-25	4156-4157	.	_	_	_	_	_	_	_	
+
+#Text=Efter den så kallade genomförandetidens slut, 5–15 år, föreslås planerna tömmas på alla bestämmelser utom de yttre gränserna; bygglov ska prövas på grundval av en allmän lagbestämmelse.
+46-1	4158-4163	Efter	_	_	_	_	_	_	_	
+46-2	4164-4167	den	_	_	_	_	_	_	_	
+46-3	4168-4170	så	_	_	_	_	_	_	_	
+46-4	4171-4178	kallade	_	_	_	_	_	_	_	
+46-5	4179-4197	genomförandetidens	_	_	_	_	_	_	_	
+46-6	4198-4202	slut	_	_	_	_	_	_	_	
+46-7	4202-4203	,	_	_	_	_	_	_	_	
+46-8	4204-4205	5	_	_	_	_	_	_	_	
+46-9	4205-4206	–	_	_	_	_	_	_	_	
+46-10	4206-4208	15	_	_	_	_	_	_	_	
+46-11	4209-4211	år	_	_	_	_	_	_	_	
+46-12	4211-4212	,	_	_	_	_	_	_	_	
+46-13	4213-4221	föreslås	_	_	_	_	_	_	_	
+46-14	4222-4230	planerna	_	_	_	_	_	_	_	
+46-15	4231-4237	tömmas	_	_	_	_	_	_	_	
+46-16	4238-4240	på	_	_	_	_	_	_	_	
+46-17	4241-4245	alla	_	_	_	_	_	_	_	
+46-18	4246-4258	bestämmelser	_	_	_	_	_	_	_	
+46-19	4259-4263	utom	_	_	_	_	_	_	_	
+46-20	4264-4266	de	_	_	_	_	_	_	_	
+46-21	4267-4272	yttre	_	_	_	_	_	_	_	
+46-22	4273-4282	gränserna	_	_	_	_	_	_	_	
+46-23	4282-4283	;	_	_	_	_	_	_	_	
+46-24	4284-4291	bygglov	_	_	_	_	_	_	_	
+46-25	4292-4295	ska	_	_	_	_	_	_	_	
+46-26	4296-4302	prövas	_	_	_	_	_	_	_	
+46-27	4303-4305	på	_	_	_	_	_	_	_	
+46-28	4306-4314	grundval	_	_	_	_	_	_	_	
+46-29	4315-4317	av	_	_	_	_	_	_	_	
+46-30	4318-4320	en	_	_	_	_	_	_	_	
+46-31	4321-4327	allmän	_	_	_	_	_	_	_	
+46-32	4328-4342	lagbestämmelse	_	_	_	_	_	_	_	
+46-33	4342-4343	.	_	_	_	_	_	_	_	
+
+#Text=Antalet bygglovbefriade åtgärder föreslås öka.
+47-1	4344-4351	Antalet	_	_	_	_	_	_	_	
+47-2	4352-4367	bygglovbefriade	_	_	_	_	_	_	_	
+47-3	4368-4376	åtgärder	_	_	_	_	_	_	_	
+47-4	4377-4385	föreslås	_	_	_	_	_	_	_	
+47-5	4386-4389	öka	_	_	_	_	_	_	_	
+47-6	4389-4390	.	_	_	_	_	_	_	_	
+
+#Text=Områdesbestämmelser som planinstitut föreslås tas bort; dessa används i dag bland annat för att öka bygglovsplikten i särskilt värdefulla miljöer.
+48-1	4391-4410	Områdesbestämmelser	_	_	_	_	_	_	_	
+48-2	4411-4414	som	_	_	_	_	_	_	_	
+48-3	4415-4427	planinstitut	_	_	_	_	_	_	_	
+48-4	4428-4436	föreslås	_	_	_	_	_	_	_	
+48-5	4437-4440	tas	_	_	_	_	_	_	_	
+48-6	4441-4445	bort	_	_	_	_	_	_	_	
+48-7	4445-4446	;	_	_	_	_	_	_	_	
+48-8	4447-4452	dessa	_	_	_	_	_	_	_	
+48-9	4453-4460	används	_	_	_	_	_	_	_	
+48-10	4461-4462	i	_	_	_	_	_	_	_	
+48-11	4463-4466	dag	_	_	_	_	_	_	_	
+48-12	4467-4472	bland	_	_	_	_	_	_	_	
+48-13	4473-4478	annat	_	_	_	_	_	_	_	
+48-14	4479-4482	för	_	_	_	_	_	_	_	
+48-15	4483-4486	att	_	_	_	_	_	_	_	
+48-16	4487-4490	öka	_	_	_	_	_	_	_	
+48-17	4491-4506	bygglovsplikten	_	_	_	_	_	_	_	
+48-18	4507-4508	i	_	_	_	_	_	_	_	
+48-19	4509-4517	särskilt	*[40]	Target[18]	48-19[40]	false[18]	3[18]	_	_	
+48-20	4518-4528	värdefulla	*[40]	Target[18]	48-19[40]	false[18]	3[18]	_	_	
+48-21	4529-4536	miljöer	*[40]	Target[18]	48-19[40]	false[18]	3[18]	_	_	
+48-22	4536-4537	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4539-4540	#	_	_	_	_	_	_	_	
+49-2	4540-4541	P	_	_	_	_	_	_	_	
+49-3	4542-4545	IMM	_	_	_	_	_	_	_	
+49-4	4545-4546	.	_	_	_	_	_	_	_	
+
+#Text=Samtliga dessa förslag innebär att rättssäkerheten äventyras till följd av minskat medinflytande och ett sämre skydd för stadsmiljöns kvalitet, inte minst i värdefulla miljöer.
+50-1	4548-4556	Samtliga	*[41]	_	_	_	_	_	_	
+50-2	4557-4562	dessa	*[41]	_	_	_	_	_	_	
+50-3	4563-4570	förslag	*[41]	_	_	_	_	_	_	
+50-4	4571-4578	innebär	_	Target[19]	50-1[41]	false[19]	1[19]	_	_	
+50-5	4579-4582	att	_	Target[19]	50-1[41]	false[19]	1[19]	_	_	
+50-6	4583-4598	rättssäkerheten	_	Target[19]	50-1[41]	false[19]	1[19]	_	_	
+50-7	4599-4608	äventyras	_	Target[19]	50-1[41]	false[19]	1[19]	_	_	
+50-8	4609-4613	till	_	_	_	_	_	_	_	
+50-9	4614-4619	följd	_	_	_	_	_	_	_	
+50-10	4620-4622	av	_	_	_	_	_	_	_	
+50-11	4623-4630	minskat	_	_	_	_	_	_	_	
+50-12	4631-4644	medinflytande	_	_	_	_	_	_	_	
+50-13	4645-4648	och	_	_	_	_	_	_	_	
+50-14	4649-4652	ett	_	_	_	_	_	_	_	
+50-15	4653-4658	sämre	*[42]	Target[20]	50-15[42]	false[20]	1[20]	_	_	
+50-16	4659-4664	skydd	*[42]	Target[20]	50-15[42]	false[20]	1[20]	_	_	
+50-17	4665-4668	för	*[42]	Target[20]	50-15[42]	false[20]	1[20]	_	_	
+50-18	4669-4681	stadsmiljöns	*[42]	Target[20]	50-15[42]	false[20]	1[20]	_	_	
+50-19	4682-4690	kvalitet	*[42]	Target[20]	50-15[42]	false[20]	1[20]	_	_	
+50-20	4690-4691	,	_	_	_	_	_	_	_	
+50-21	4692-4696	inte	_	_	_	_	_	_	_	
+50-22	4697-4702	minst	_	_	_	_	_	_	_	
+50-23	4703-4704	i	_	_	_	_	_	_	_	
+50-24	4705-4715	värdefulla	*[43]	Target[21]	50-24[43]	false[21]	4[21]	_	_	
+50-25	4716-4723	miljöer	*[43]	Target[21]	50-24[43]	false[21]	4[21]	_	_	
+50-26	4723-4724	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4726-4727	#	_	_	_	_	_	_	_	
+51-2	4727-4728	P	_	_	_	_	_	_	_	
+51-3	4729-4732	IMM	_	_	_	_	_	_	_	
+51-4	4732-4733	.	_	_	_	_	_	_	_	
+
+#Text=Hur skulle då plansystemet kunna förändras så att man uppnår en snabbare process med konstruktivt medinflytande, rättssäkerhet och en god stadsmiljö?
+52-1	4735-4738	Hur	_	_	_	_	_	_	_	
+52-2	4739-4745	skulle	_	_	_	_	_	_	_	
+52-3	4746-4748	då	_	_	_	_	_	_	_	
+52-4	4749-4761	plansystemet	_	_	_	_	_	_	_	
+52-5	4762-4767	kunna	_	_	_	_	_	_	_	
+52-6	4768-4777	förändras	_	_	_	_	_	_	_	
+52-7	4778-4780	så	_	_	_	_	_	_	_	
+52-8	4781-4784	att	_	_	_	_	_	_	_	
+52-9	4785-4788	man	_	_	_	_	_	_	_	
+52-10	4789-4795	uppnår	_	_	_	_	_	_	_	
+52-11	4796-4798	en	_	_	_	_	_	_	_	
+52-12	4799-4807	snabbare	_	_	_	_	_	_	_	
+52-13	4808-4815	process	_	_	_	_	_	_	_	
+52-14	4816-4819	med	_	_	_	_	_	_	_	
+52-15	4820-4832	konstruktivt	*[44]	Target[22]	52-15[44]	false[22]	4[22]	_	_	
+52-16	4833-4846	medinflytande	*[44]	Target[22]	52-15[44]	false[22]	4[22]	_	_	
+52-17	4846-4847	,	_	_	_	_	_	_	_	
+52-18	4848-4861	rättssäkerhet	_	_	_	_	_	_	_	
+52-19	4862-4865	och	_	_	_	_	_	_	_	
+52-20	4866-4868	en	*[45]	Target[23]	52-20[45]	false[23]	5[23]	_	_	
+52-21	4869-4872	god	*[45]	Target[23]	52-20[45]	false[23]	5[23]	_	_	
+52-22	4873-4883	stadsmiljö	*[45]	Target[23]	52-20[45]	false[23]	5[23]	_	_	
+52-23	4883-4884	?	_	_	_	_	_	_	_	
+
+#Text=Den föreslagna områdesplanen är, det anser vi också, rätt nivå för att i planeringen i dialog med alla berörda få en bred belysning av alla intressen och för att få till stånd ett genomtänkt förslag för en framtida stadsmiljö av hög kvalitet.
+53-1	4885-4888	Den	*[46]	_	_	_	_	_	_	
+53-2	4889-4899	föreslagna	*[46]	_	_	_	_	_	_	
+53-3	4900-4913	områdesplanen	*[46]	_	_	_	_	_	_	
+53-4	4914-4916	är	_	_	_	false	5	_	_	
+53-5	4916-4917	,	_	_	_	_	_	_	_	
+53-6	4918-4921	det	_	_	_	_	_	_	_	
+53-7	4922-4927	anser	_	_	_	_	_	_	_	
+53-8	4928-4930	vi	_	_	_	_	_	_	_	
+53-9	4931-4936	också	_	_	_	_	_	_	_	
+53-10	4936-4937	,	_	_	_	_	_	_	_	
+53-11	4938-4942	rätt	_	_	_	_	_	_	_	
+53-12	4943-4947	nivå	_	_	_	_	_	_	_	
+53-13	4948-4951	för	_	_	_	_	_	_	_	
+53-14	4952-4955	att	_	_	_	_	_	_	_	
+53-15	4956-4957	i	_	_	_	_	_	_	_	
+53-16	4958-4969	planeringen	_	_	_	_	_	_	_	
+53-17	4970-4971	i	_	_	_	_	_	_	_	
+53-18	4972-4978	dialog	_	_	_	_	_	_	_	
+53-19	4979-4982	med	_	_	_	_	_	_	_	
+53-20	4983-4987	alla	_	_	_	_	_	_	_	
+53-21	4988-4995	berörda	_	_	_	_	_	_	_	
+53-22	4996-4998	få	_	_	_	_	_	_	_	
+53-23	4999-5001	en	_	_	_	_	_	_	_	
+53-24	5002-5006	bred	_	_	_	_	_	_	_	
+53-25	5007-5016	belysning	_	_	_	_	_	_	_	
+53-26	5017-5019	av	_	_	_	_	_	_	_	
+53-27	5020-5024	alla	_	_	_	_	_	_	_	
+53-28	5025-5034	intressen	_	_	_	_	_	_	_	
+53-29	5035-5038	och	_	_	_	_	_	_	_	
+53-30	5039-5042	för	_	_	_	_	_	_	_	
+53-31	5043-5046	att	_	_	_	_	_	_	_	
+53-32	5047-5049	få	_	_	_	_	_	_	_	
+53-33	5050-5054	till	_	_	_	_	_	_	_	
+53-34	5055-5060	stånd	_	_	_	_	_	_	_	
+53-35	5061-5064	ett	_	Target[24]	53-1[46]	false[24]	5[24]	53-4[0_24]	_	
+53-36	5065-5075	genomtänkt	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-37	5076-5083	förslag	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-38	5084-5087	för	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-39	5088-5090	en	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-40	5091-5099	framtida	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-41	5100-5110	stadsmiljö	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-42	5111-5113	av	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-43	5114-5117	hög	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-44	5118-5126	kvalitet	_	Target[24]	53-1[46]	false[24]	5[24]	_	_	
+53-45	5126-5127	.	_	_	_	_	_	_	_	
+
+#Text=Man uppnår en god planberedskap som ger klara besked till kommuninvånare, byggföretag och andra intressenter om vad som är kommunens avsikt med utvecklingen i olika distrikt.
+54-1	5128-5131	Man	_	_	_	_	_	_	_	
+54-2	5132-5138	uppnår	_	_	_	_	_	_	_	
+54-3	5139-5141	en	*[47]	Target[25]	54-3[47]	false[25]	5[25]	_	_	
+54-4	5142-5145	god	*[47]	Target[25]	54-3[47]	false[25]	5[25]	_	_	
+54-5	5146-5159	planberedskap	*[47]	Target[25]	54-3[47]	false[25]	5[25]	_	_	
+54-6	5160-5163	som	_	_	_	_	_	_	_	
+54-7	5164-5167	ger	_	_	_	_	_	_	_	
+54-8	5168-5173	klara	_	_	_	_	_	_	_	
+54-9	5174-5180	besked	_	_	_	_	_	_	_	
+54-10	5181-5185	till	_	_	_	_	_	_	_	
+54-11	5186-5200	kommuninvånare	_	_	_	_	_	_	_	
+54-12	5200-5201	,	_	_	_	_	_	_	_	
+54-13	5202-5213	byggföretag	_	_	_	_	_	_	_	
+54-14	5214-5217	och	_	_	_	_	_	_	_	
+54-15	5218-5223	andra	_	_	_	_	_	_	_	
+54-16	5224-5236	intressenter	_	_	_	_	_	_	_	
+54-17	5237-5239	om	_	_	_	_	_	_	_	
+54-18	5240-5243	vad	_	_	_	_	_	_	_	
+54-19	5244-5247	som	_	_	_	_	_	_	_	
+54-20	5248-5250	är	_	_	_	_	_	_	_	
+54-21	5251-5260	kommunens	_	_	_	_	_	_	_	
+54-22	5261-5267	avsikt	_	_	_	_	_	_	_	
+54-23	5268-5271	med	_	_	_	_	_	_	_	
+54-24	5272-5284	utvecklingen	_	_	_	_	_	_	_	
+54-25	5285-5286	i	_	_	_	_	_	_	_	
+54-26	5287-5292	olika	_	_	_	_	_	_	_	
+54-27	5293-5301	distrikt	_	_	_	_	_	_	_	
+54-28	5301-5302	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	5304-5305	#	_	_	_	_	_	_	_	
+55-2	5305-5306	P	_	_	_	_	_	_	_	
+55-3	5307-5310	IMM	_	_	_	_	_	_	_	
+55-4	5310-5311	.	_	_	_	_	_	_	_	
+
+#Text=En förutsättning är dock att områdesplanen är juridiskt bindande för efterföljande planering och bygglov.
+56-1	5313-5315	En	_	_	_	_	_	_	_	
+56-2	5316-5329	förutsättning	_	_	_	_	_	_	_	
+56-3	5330-5332	är	_	_	_	_	_	_	_	
+56-4	5333-5337	dock	_	_	_	_	_	_	_	
+56-5	5338-5341	att	_	_	_	_	_	_	_	
+56-6	5342-5355	områdesplanen	_	_	_	_	_	_	_	
+56-7	5356-5358	är	_	_	_	_	_	_	_	
+56-8	5359-5368	juridiskt	_	_	_	_	_	_	_	
+56-9	5369-5377	bindande	_	_	_	_	_	_	_	
+56-10	5378-5381	för	_	_	_	_	_	_	_	
+56-11	5382-5395	efterföljande	_	_	_	_	_	_	_	
+56-12	5396-5405	planering	_	_	_	_	_	_	_	
+56-13	5406-5409	och	_	_	_	_	_	_	_	
+56-14	5410-5417	bygglov	_	_	_	_	_	_	_	
+56-15	5417-5418	.	_	_	_	_	_	_	_	
+
+#Text=Enligt vår uppfattning bör detta inte vara omöjligt, i själva verket finns redanområdesbestämmelser i PBL och det borde ha undersökts närmare, hur denna plantyp kan utvecklas snarare än avskaffas.
+57-1	5419-5425	Enligt	_	_	_	_	_	_	_	
+57-2	5426-5429	vår	_	_	_	_	_	_	_	
+57-3	5430-5441	uppfattning	_	_	_	_	_	_	_	
+57-4	5442-5445	bör	_	_	_	_	_	_	_	
+57-5	5446-5451	detta	_	_	_	_	_	_	_	
+57-6	5452-5456	inte	_	_	_	_	_	_	_	
+57-7	5457-5461	vara	_	_	_	_	_	_	_	
+57-8	5462-5470	omöjligt	_	_	_	_	_	_	_	
+57-9	5470-5471	,	_	_	_	_	_	_	_	
+57-10	5472-5473	i	_	_	_	_	_	_	_	
+57-11	5474-5480	själva	_	_	_	_	_	_	_	
+57-12	5481-5487	verket	_	_	_	_	_	_	_	
+57-13	5488-5493	finns	_	_	_	_	_	_	_	
+57-14	5494-5518	redanområdesbestämmelser	*	_	_	_	_	_	57-24[48_0]	
+57-15	5519-5520	i	_	_	_	_	_	_	_	
+57-16	5521-5524	PBL	_	_	_	_	_	_	_	
+57-17	5525-5528	och	_	_	_	_	_	_	_	
+57-18	5529-5532	det	_	_	_	_	_	_	_	
+57-19	5533-5538	borde	_	Target[26]	57-24[48]	false[26]	3[26]	_	_	
+57-20	5539-5541	ha	_	Target[26]	57-24[48]	false[26]	3[26]	_	_	
+57-21	5542-5552	undersökts	_	Target[26]	57-24[48]	false[26]	3[26]	_	_	
+57-22	5553-5560	närmare	_	Target[26]	57-24[48]	false[26]	3[26]	_	_	
+57-23	5560-5561	,	_	_	_	_	_	_	_	
+57-24	5562-5565	hur	*[48]	_	_	_	_	_	_	
+57-25	5566-5571	denna	*[48]	_	_	_	_	_	_	
+57-26	5572-5579	plantyp	*[48]	_	_	_	_	_	_	
+57-27	5580-5583	kan	*[48]	_	_	_	_	_	_	
+57-28	5584-5593	utvecklas	*[48]	_	_	_	_	_	_	
+57-29	5594-5601	snarare	*[48]	_	_	_	_	_	_	
+57-30	5602-5604	än	*[48]	_	_	_	_	_	_	
+57-31	5605-5614	avskaffas	*[48]	_	_	_	_	_	_	
+57-32	5614-5615	.	_	_	_	_	_	_	_	
+
+#Text=Den efterföljande prövningen skulle därigenom kunna få en mera direkt bygglovsförberedande karaktär och kunna ske enklare, i huvudsak motsvarande dagens system med så kallat enkelt planförfarande, vilket skulle förkorta detaljplaneprocessen avsevärt.
+58-1	5616-5619	Den	_	_	_	_	_	_	_	
+58-2	5620-5633	efterföljande	_	_	_	_	_	_	_	
+58-3	5634-5644	prövningen	_	_	_	_	_	_	_	
+58-4	5645-5651	skulle	_	_	_	_	_	_	_	
+58-5	5652-5661	därigenom	_	_	_	_	_	_	_	
+58-6	5662-5667	kunna	_	_	_	_	_	_	_	
+58-7	5668-5670	få	_	_	_	_	_	_	_	
+58-8	5671-5673	en	_	_	_	_	_	_	_	
+58-9	5674-5678	mera	_	_	_	_	_	_	_	
+58-10	5679-5685	direkt	_	_	_	_	_	_	_	
+58-11	5686-5706	bygglovsförberedande	_	_	_	_	_	_	_	
+58-12	5707-5715	karaktär	_	_	_	_	_	_	_	
+58-13	5716-5719	och	_	_	_	_	_	_	_	
+58-14	5720-5725	kunna	_	_	_	_	_	_	_	
+58-15	5726-5729	ske	_	_	_	_	_	_	_	
+58-16	5730-5737	enklare	_	_	_	_	_	_	_	
+58-17	5737-5738	,	_	_	_	_	_	_	_	
+58-18	5739-5740	i	_	_	_	_	_	_	_	
+58-19	5741-5749	huvudsak	_	_	_	_	_	_	_	
+58-20	5750-5761	motsvarande	_	_	_	_	_	_	_	
+58-21	5762-5768	dagens	_	_	_	_	_	_	_	
+58-22	5769-5775	system	_	_	_	_	_	_	_	
+58-23	5776-5779	med	_	_	_	_	_	_	_	
+58-24	5780-5782	så	_	_	_	_	_	_	_	
+58-25	5783-5789	kallat	_	_	_	_	_	_	_	
+58-26	5790-5796	enkelt	_	_	_	_	_	_	_	
+58-27	5797-5811	planförfarande	_	_	_	_	_	_	_	
+58-28	5811-5812	,	_	_	_	_	_	_	_	
+58-29	5813-5819	vilket	_	_	_	_	_	_	_	
+58-30	5820-5826	skulle	_	_	_	_	_	_	_	
+58-31	5827-5835	förkorta	_	_	_	_	_	_	_	
+58-32	5836-5856	detaljplaneprocessen	_	_	_	_	_	_	_	
+58-33	5857-5865	avsevärt	*	Target	58-33	false	3	_	_	
+58-34	5865-5866	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	5868-5869	#	_	_	_	_	_	_	_	
+59-2	5869-5870	P	_	_	_	_	_	_	_	
+59-3	5871-5874	IMM	_	_	_	_	_	_	_	
+59-4	5874-5875	.	_	_	_	_	_	_	_	
+
+#Text=KRISTINA BERGLUND.
+60-1	5877-5885	KRISTINA	_	_	_	_	_	_	_	
+60-2	5886-5894	BERGLUND	_	_	_	_	_	_	_	
+60-3	5894-5895	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	5897-5898	#	_	_	_	_	_	_	_	
+61-2	5898-5899	P	_	_	_	_	_	_	_	
+61-3	5900-5903	IMM	_	_	_	_	_	_	_	
+61-4	5903-5904	.	_	_	_	_	_	_	_	
+
+#Text=arkitekt SAR/MSA, f d stadsarkitekt.
+62-1	5906-5914	arkitekt	_	_	_	_	_	_	_	
+62-2	5915-5918	SAR	_	_	_	_	_	_	_	
+62-3	5918-5919	/	_	_	_	_	_	_	_	
+62-4	5919-5922	MSA	_	_	_	_	_	_	_	
+62-5	5922-5923	,	_	_	_	_	_	_	_	
+62-6	5924-5925	f	_	_	_	_	_	_	_	
+62-7	5926-5927	d	_	_	_	_	_	_	_	
+62-8	5928-5941	stadsarkitekt	_	_	_	_	_	_	_	
+62-9	5941-5942	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	5944-5945	#	_	_	_	_	_	_	_	
+63-2	5945-5946	P	_	_	_	_	_	_	_	
+63-3	5947-5950	IMM	_	_	_	_	_	_	_	
+63-4	5950-5951	.	_	_	_	_	_	_	_	
+
+#Text=ULLA BJÖRKMAN.
+64-1	5953-5957	ULLA	_	_	_	_	_	_	_	
+64-2	5958-5966	BJÖRKMAN	_	_	_	_	_	_	_	
+64-3	5966-5967	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5969-5970	#	_	_	_	_	_	_	_	
+65-2	5970-5971	P	_	_	_	_	_	_	_	
+65-3	5972-5975	IMM	_	_	_	_	_	_	_	
+65-4	5975-5976	.	_	_	_	_	_	_	_	
+
+#Text=jurist, f d universitetslektor i offentlig rätt.
+66-1	5978-5984	jurist	_	_	_	_	_	_	_	
+66-2	5984-5985	,	_	_	_	_	_	_	_	
+66-3	5986-5987	f	_	_	_	_	_	_	_	
+66-4	5988-5989	d	_	_	_	_	_	_	_	
+66-5	5990-6008	universitetslektor	_	_	_	_	_	_	_	
+66-6	6009-6010	i	_	_	_	_	_	_	_	
+66-7	6011-6020	offentlig	_	_	_	_	_	_	_	
+66-8	6021-6025	rätt	_	_	_	_	_	_	_	
+66-9	6025-6026	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	6028-6029	#	_	_	_	_	_	_	_	
+67-2	6029-6030	P	_	_	_	_	_	_	_	
+67-3	6031-6034	IMM	_	_	_	_	_	_	_	
+67-4	6034-6035	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+68-1	6037-6045	Redaktör	_	_	_	_	_	_	_	
+68-2	6045-6046	:	_	_	_	_	_	_	_	
+68-3	6047-6053	Carina	_	_	_	_	_	_	_	
+68-4	6054-6062	Stensson	_	_	_	_	_	_	_	
+68-5	6062-6063	,	_	_	_	_	_	_	_	
+68-6	6064-6074	Biträdande	_	_	_	_	_	_	_	
+68-7	6075-6083	redaktör	_	_	_	_	_	_	_	
+68-8	6083-6084	:	_	_	_	_	_	_	_	
+68-9	6085-6090	Björn	_	_	_	_	_	_	_	
+68-10	6091-6097	Jorner	_	_	_	_	_	_	_	
+68-11	6097-6098	,	_	_	_	_	_	_	_	
+68-12	6099-6103	Mejl	_	_	_	_	_	_	_	
+68-13	6103-6104	:	_	_	_	_	_	_	_	
+68-14	6105-6111	debatt	_	_	_	_	_	_	_	
+68-15	6111-6112	@	_	_	_	_	_	_	_	
+68-16	6112-6118	svd.se	_	_	_	_	_	_	_	
+68-17	6118-6119	,	_	_	_	_	_	_	_	
+68-18	6120-6133	Telefonnummer	_	_	_	_	_	_	_	
+68-19	6133-6134	:	_	_	_	_	_	_	_	
+68-20	6135-6137	08	_	_	_	_	_	_	_	
+68-21	6137-6138	-	_	_	_	_	_	_	_	
+68-22	6138-6144	135149	_	_	_	_	_	_	_	
+68-23	6144-6145	,	_	_	_	_	_	_	_	
+68-24	6146-6153	Twitter	_	_	_	_	_	_	_	
+68-25	6153-6154	:	_	_	_	_	_	_	_	
+68-26	6155-6156	@	_	_	_	_	_	_	_	
+68-27	6156-6165	SvDDebatt	_	_	_	_	_	_	_	
+68-28	6165-6166	,	_	_	_	_	_	_	_	
+68-29	6167-6175	Facebook	_	_	_	_	_	_	_	
+68-30	6175-6176	:	_	_	_	_	_	_	_	
+68-31	6177-6180	SvD	_	_	_	_	_	_	_	
+68-32	6181-6187	Debatt	_	_	_	_	_	_	_	
+68-33	6187-6188	.	_	_	_	_	_	_	_	

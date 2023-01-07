@@ -1,0 +1,662 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Kräv billigare och bättre krogbesök.
+3-1	18-22	Kräv	_	_	_	_	_	_	_	
+3-2	23-32	billigare	_	_	_	_	_	_	_	
+3-3	33-36	och	_	_	_	_	_	_	_	
+3-4	37-43	bättre	*	Target	3-4	false	4	_	_	
+3-5	44-53	krogbesök	_	_	_	_	_	_	_	
+3-6	53-54	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	_	
+
+#Text=Sänkt moms på dagens rätt vid restaurangbesök är ett av flera förslag från alliansregeringen som ger bättre förutsättningar för unga att snabbare komma in på arbetsmarknaden.
+5-1	65-70	Sänkt	*[17]	_	_	_	_	_	_	
+5-2	71-75	moms	*[17]	_	_	_	_	_	_	
+5-3	76-78	på	*[17]	_	_	_	_	_	_	
+5-4	79-85	dagens	*[17]	_	_	_	_	_	_	
+5-5	86-90	rätt	*[17]	_	_	_	_	_	_	
+5-6	91-94	vid	*[17]	_	_	_	_	_	_	
+5-7	95-110	restaurangbesök	*[17]	_	_	_	_	_	_	
+5-8	111-113	är	_	_	_	_	_	_	_	
+5-9	114-117	ett	_	_	_	_	_	_	_	
+5-10	118-120	av	_	_	_	_	_	_	_	
+5-11	121-126	flera	_	_	_	_	_	_	_	
+5-12	127-134	förslag	_	_	_	_	_	_	_	
+5-13	135-139	från	_	_	_	_	_	_	_	
+5-14	140-157	alliansregeringen	_	_	_	_	_	_	_	
+5-15	158-161	som	_	_	_	_	_	_	_	
+5-16	162-165	ger	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-17	166-172	bättre	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-18	173-188	förutsättningar	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-19	189-192	för	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-20	193-197	unga	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-21	198-201	att	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-22	202-210	snabbare	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-23	211-216	komma	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-24	217-219	in	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-25	220-222	på	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-26	223-238	arbetsmarknaden	_	Target[1]	5-1[17]	false[1]	4[1]	_	_	
+5-27	238-239	.	_	_	_	_	_	_	_	
+
+#Text=Till syftet hör att skapa fler jobb i den ungdomstäta restaurangbranschen, främja företagande och stärka konkurrensen i Sverige.
+6-1	240-244	Till	_	_	_	_	_	_	_	
+6-2	245-251	syftet	_	_	_	_	_	_	_	
+6-3	252-255	hör	_	_	_	_	_	_	_	
+6-4	256-259	att	_	_	_	_	_	_	_	
+6-5	260-265	skapa	_	_	_	_	_	_	_	
+6-6	266-270	fler	_	_	_	_	_	_	_	
+6-7	271-275	jobb	_	_	_	_	_	_	_	
+6-8	276-277	i	_	_	_	_	_	_	_	
+6-9	278-281	den	_	_	_	_	_	_	_	
+6-10	282-293	ungdomstäta	_	_	_	_	_	_	_	
+6-11	294-313	restaurangbranschen	_	_	_	_	_	_	_	
+6-12	313-314	,	_	_	_	_	_	_	_	
+6-13	315-321	främja	_	_	_	_	_	_	_	
+6-14	322-333	företagande	_	_	_	_	_	_	_	
+6-15	334-337	och	_	_	_	_	_	_	_	
+6-16	338-344	stärka	_	_	_	_	_	_	_	
+6-17	345-357	konkurrensen	_	_	_	_	_	_	_	
+6-18	358-359	i	_	_	_	_	_	_	_	
+6-19	360-367	Sverige	_	_	_	_	_	_	_	
+6-20	367-368	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt ger det också tillfälle för oss konsumenter att stå på oss och ställa krav på att restaurangerna sänker priserna på dagens lunch.
+7-1	369-378	Samtidigt	_	_	_	_	_	_	_	
+7-2	379-382	ger	_	_	_	_	_	_	_	
+7-3	383-386	det	_	_	_	_	_	_	_	
+7-4	387-392	också	_	_	_	_	_	_	_	
+7-5	393-402	tillfälle	_	_	_	_	_	_	_	
+7-6	403-406	för	_	_	_	_	_	_	_	
+7-7	407-410	oss	_	_	_	_	_	_	_	
+7-8	411-422	konsumenter	_	_	_	_	_	_	_	
+7-9	423-426	att	_	_	_	_	_	_	_	
+7-10	427-430	stå	_	_	_	_	_	_	_	
+7-11	431-433	på	_	_	_	_	_	_	_	
+7-12	434-437	oss	_	_	_	_	_	_	_	
+7-13	438-441	och	_	_	_	_	_	_	_	
+7-14	442-448	ställa	_	_	_	_	_	_	_	
+7-15	449-453	krav	_	_	_	_	_	_	_	
+7-16	454-456	på	_	_	_	_	_	_	_	
+7-17	457-460	att	_	_	_	_	_	_	_	
+7-18	461-475	restaurangerna	_	_	_	_	_	_	_	
+7-19	476-482	sänker	_	_	_	_	_	_	_	
+7-20	483-491	priserna	_	_	_	_	_	_	_	
+7-21	492-494	på	_	_	_	_	_	_	_	
+7-22	495-501	dagens	_	_	_	_	_	_	_	
+7-23	502-507	lunch	_	_	_	_	_	_	_	
+7-24	507-508	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	510-511	#	_	_	_	_	_	_	_	
+8-2	511-512	P	_	_	_	_	_	_	_	
+8-3	513-516	IMM	_	_	_	_	_	_	_	
+8-4	516-517	.	_	_	_	_	_	_	_	
+
+#Text=Men räkna inte med att det går utan motstånd.
+9-1	519-522	Men	_	_	_	_	_	_	_	
+9-2	523-528	räkna	_	_	_	_	_	_	_	
+9-3	529-533	inte	_	_	_	_	_	_	_	
+9-4	534-537	med	_	_	_	_	_	_	_	
+9-5	538-541	att	_	_	_	_	_	_	_	
+9-6	542-545	det	_	_	_	_	_	_	_	
+9-7	546-549	går	_	_	_	_	_	_	_	
+9-8	550-554	utan	_	_	_	_	_	_	_	
+9-9	555-563	motstånd	_	_	_	_	_	_	_	
+9-10	563-564	.	_	_	_	false	2	_	_	
+
+#Text=Vi måste alla utöva vår makt som konsumenter och kräva både billigare och bättre måltider. ”Vi skulle prioritera anställningar snarare än prissänkningar”, säger till exempel stockholmskrögaren Anna Lallerstedt i Svenska Dagbladet (13/4).
+10-1	565-567	Vi	_	_	_	_	_	_	_	
+10-2	568-573	måste	_	_	_	_	_	_	_	
+10-3	574-578	alla	_	_	_	_	_	_	_	
+10-4	579-584	utöva	_	_	_	_	_	_	_	
+10-5	585-588	vår	_	_	_	_	_	_	_	
+10-6	589-593	makt	_	_	_	_	_	_	_	
+10-7	594-597	som	_	_	_	_	_	_	_	
+10-8	598-609	konsumenter	_	_	_	_	_	_	_	
+10-9	610-613	och	_	_	_	_	_	_	_	
+10-10	614-619	kräva	_	_	_	_	_	_	_	
+10-11	620-624	både	_	_	_	_	_	_	_	
+10-12	625-634	billigare	_	_	_	_	_	_	_	
+10-13	635-638	och	_	_	_	_	_	_	_	
+10-14	639-645	bättre	_	_	_	_	_	_	_	
+10-15	646-654	måltider	_	_	_	_	_	_	_	
+10-16	654-655	.	_	_	_	_	_	_	_	
+10-17	656-657	”	*[18]	_	_	_	_	_	_	
+10-18	657-659	Vi	*[18]	_	_	_	_	_	_	
+10-19	660-666	skulle	_	Source;Target[2]	10-17[18];10-21	false[2]	4[2]	_	_	
+10-20	667-677	prioritera	_	Source;Target[2]	10-17[18];10-21	false[2]	4[2]	_	_	
+10-21	678-691	anställningar	*	_	_	_	_	_	_	
+10-22	692-699	snarare	_	_	_	_	_	_	_	
+10-23	700-702	än	_	_	_	_	_	_	_	
+10-24	703-717	prissänkningar	_	_	_	_	_	_	_	
+10-25	717-718	”	_	_	_	_	_	_	_	
+10-26	718-719	,	_	_	_	_	_	_	_	
+10-27	720-725	säger	_	_	_	_	_	_	_	
+10-28	726-730	till	_	_	_	_	_	_	_	
+10-29	731-738	exempel	_	_	_	_	_	_	_	
+10-30	739-757	stockholmskrögaren	*[19]	_	_	_	_	_	10-17[18_19]	
+10-31	758-762	Anna	*[19]	_	_	_	_	_	_	
+10-32	763-774	Lallerstedt	*[19]	_	_	_	_	_	_	
+10-33	775-776	i	_	_	_	_	_	_	_	
+10-34	777-784	Svenska	_	_	_	_	_	_	_	
+10-35	785-794	Dagbladet	_	_	_	_	_	_	_	
+10-36	795-796	(	_	_	_	_	_	_	_	
+10-37	796-798	13	_	_	_	_	_	_	_	
+10-38	798-799	/	_	_	_	_	_	_	_	
+10-39	799-800	4	_	_	_	_	_	_	_	
+10-40	800-801	)	_	_	_	_	_	_	_	
+10-41	801-802	.	_	_	_	_	_	_	_	
+
+#Text=Varför utesluter det ena det andra?.
+11-1	803-809	Varför	_	_	_	_	_	_	_	
+11-2	810-819	utesluter	_	_	_	_	_	_	_	
+11-3	820-823	det	_	_	_	_	_	_	_	
+11-4	824-827	ena	_	_	_	_	_	_	_	
+11-5	828-831	det	_	_	_	_	_	_	_	
+11-6	832-837	andra	_	_	_	_	_	_	_	
+11-7	837-838	?	_	_	_	_	_	_	_	
+11-8	838-839	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	841-842	#	_	_	_	_	_	_	_	
+12-2	842-843	P	_	_	_	_	_	_	_	
+12-3	844-847	IMM	_	_	_	_	_	_	_	
+12-4	847-848	.	_	_	_	_	_	_	_	
+
+#Text=Jag – och många restaurangägare jag talat med – tror just tvärtom.
+13-1	850-853	Jag	_	_	_	_	_	_	_	
+13-2	854-855	–	_	_	_	_	_	_	_	
+13-3	856-859	och	_	_	_	_	_	_	_	
+13-4	860-865	många	_	_	_	_	_	_	_	
+13-5	866-881	restaurangägare	_	_	_	_	_	_	_	
+13-6	882-885	jag	_	_	_	_	_	_	_	
+13-7	886-891	talat	_	_	_	_	_	_	_	
+13-8	892-895	med	_	_	_	_	_	_	_	
+13-9	896-897	–	_	_	_	_	_	_	_	
+13-10	898-902	tror	_	_	_	_	_	_	_	
+13-11	903-907	just	_	_	_	_	_	_	_	
+13-12	908-915	tvärtom	_	_	_	_	_	_	_	
+13-13	915-916	.	_	_	_	_	_	_	_	
+
+#Text=Lägre priser på måltiderna ger ju fler möjlighet till mer luncher på restauranger.
+14-1	917-922	Lägre	*[20]	_	_	_	_	_	15-1[0_20]	
+14-2	923-929	priser	*[20]	_	_	_	_	_	_	
+14-3	930-932	på	*[20]	_	_	_	_	_	_	
+14-4	933-943	måltiderna	*[20]	_	_	_	_	_	_	
+14-5	944-947	ger	_	_	_	_	_	_	_	
+14-6	948-950	ju	_	_	_	_	_	_	_	
+14-7	951-955	fler	_	_	_	_	_	_	_	
+14-8	956-965	möjlighet	*	Target	14-8	false	4	_	_	
+14-9	966-970	till	_	_	_	_	_	_	_	
+14-10	971-974	mer	_	_	_	_	_	_	_	
+14-11	975-982	luncher	_	_	_	_	_	_	_	
+14-12	983-985	på	_	_	_	_	_	_	_	
+14-13	986-998	restauranger	_	_	_	_	_	_	_	
+14-14	998-999	.	_	_	_	_	_	_	_	
+
+#Text=Det skapar bättre drag i den arbetsintensiva restaurangbranschen och ett växande behov av fler anställningar, ofta för unga människor.
+15-1	1000-1003	Det	*	_	_	_	_	_	_	
+15-2	1004-1010	skapar	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-3	1011-1017	bättre	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-4	1018-1022	drag	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-5	1023-1024	i	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-6	1025-1028	den	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-7	1029-1044	arbetsintensiva	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-8	1045-1064	restaurangbranschen	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-9	1065-1068	och	_	_	_	_	_	_	_	
+15-10	1069-1072	ett	_	_	_	_	_	_	_	
+15-11	1073-1080	växande	_	_	_	_	_	_	_	
+15-12	1081-1086	behov	_	_	_	_	_	_	_	
+15-13	1087-1089	av	_	_	_	_	_	_	_	
+15-14	1090-1094	fler	_	_	_	_	_	_	_	
+15-15	1095-1108	anställningar	_	_	_	_	_	_	_	
+15-16	1108-1109	,	_	_	_	_	_	_	_	
+15-17	1110-1114	ofta	_	_	_	_	_	_	_	
+15-18	1115-1118	för	_	_	_	_	_	_	_	
+15-19	1119-1123	unga	_	_	_	_	_	_	_	
+15-20	1124-1133	människor	_	_	_	_	_	_	_	
+15-21	1133-1134	.	_	_	_	_	_	_	_	
+
+#Text=Det finns inget automatiskt motsatsförhållande mellan lägre priser och fler anställda – tvärtom.
+16-1	1135-1138	Det	_	_	_	_	_	_	_	
+16-2	1139-1144	finns	_	_	_	_	_	_	_	
+16-3	1145-1150	inget	_	_	_	_	_	_	_	
+16-4	1151-1162	automatiskt	_	_	_	_	_	_	_	
+16-5	1163-1181	motsatsförhållande	_	_	_	_	_	_	_	
+16-6	1182-1188	mellan	_	_	_	_	_	_	_	
+16-7	1189-1194	lägre	_	_	_	_	_	_	_	
+16-8	1195-1201	priser	_	_	_	_	_	_	_	
+16-9	1202-1205	och	_	_	_	_	_	_	_	
+16-10	1206-1210	fler	_	_	_	_	_	_	_	
+16-11	1211-1220	anställda	_	_	_	_	_	_	_	
+16-12	1221-1222	–	_	_	_	_	_	_	_	
+16-13	1223-1230	tvärtom	_	_	_	_	_	_	_	
+16-14	1230-1231	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1233-1234	#	_	_	_	_	_	_	_	
+17-2	1234-1235	P	_	_	_	_	_	_	_	
+17-3	1236-1239	IMM	_	_	_	_	_	_	_	
+17-4	1239-1240	.	_	_	_	_	_	_	_	
+
+#Text=Just att momslättnader för restaurang och cateringtjänster ger nya jobb är ett avgörande motiv för skattereformen.
+18-1	1242-1246	Just	_	_	_	_	_	_	_	
+18-2	1247-1250	att	*[21]	_	_	_	_	_	_	
+18-3	1251-1264	momslättnader	*[21]	_	_	_	_	_	_	
+18-4	1265-1268	för	*[21]	_	_	_	_	_	_	
+18-5	1269-1279	restaurang	*[21]	_	_	_	_	_	_	
+18-6	1280-1283	och	*[21]	_	_	_	_	_	_	
+18-7	1284-1300	cateringtjänster	*[21]	_	_	_	_	_	_	
+18-8	1301-1304	ger	*[21]	_	_	_	_	_	_	
+18-9	1305-1308	nya	*[21]	_	_	_	_	_	_	
+18-10	1309-1313	jobb	*[21]	_	_	_	_	_	_	
+18-11	1314-1316	är	_	_	_	_	_	_	_	
+18-12	1317-1320	ett	_	Target[4]	18-2[21]	false[4]	3[4]	_	_	
+18-13	1321-1330	avgörande	_	Target[4]	18-2[21]	false[4]	3[4]	_	_	
+18-14	1331-1336	motiv	_	Target[4]	18-2[21]	false[4]	3[4]	_	_	
+18-15	1337-1340	för	_	_	_	_	_	_	_	
+18-16	1341-1355	skattereformen	_	_	_	_	_	_	_	
+18-17	1355-1356	.	_	_	_	_	_	_	_	
+
+#Text=När det går bra för Sverige och vår ekonomi växer starkt är det många branscher och intressen som önskar sig skattesänkningar.
+19-1	1357-1360	När	_	_	_	_	_	_	_	
+19-2	1361-1364	det	*[22]	Target[5]	19-2[22]	false[5]	5[5]	_	_	
+19-3	1365-1368	går	*[22]	Target[5]	19-2[22]	false[5]	5[5]	_	_	
+19-4	1369-1372	bra	*[22]	Target[5]	19-2[22]	false[5]	5[5]	_	_	
+19-5	1373-1376	för	*[22]	Target[5]	19-2[22]	false[5]	5[5]	_	_	
+19-6	1377-1384	Sverige	*[22]	Target[5]	19-2[22]	false[5]	5[5]	_	_	
+19-7	1385-1388	och	_	_	_	_	_	_	_	
+19-8	1389-1392	vår	_	_	_	_	_	_	_	
+19-9	1393-1400	ekonomi	_	_	_	_	_	_	_	
+19-10	1401-1406	växer	_	_	_	_	_	_	_	
+19-11	1407-1413	starkt	_	_	_	_	_	_	_	
+19-12	1414-1416	är	_	_[6]	_	false[6]	5[6]	_	_	
+19-13	1417-1420	det	_	_[6]	_	false[6]	5[6]	_	_	
+19-14	1421-1426	många	*[23]	_	_	_	_	_	_	
+19-15	1427-1436	branscher	*[23]	_	_	_	_	_	_	
+19-16	1437-1440	och	*[23]	_	_	_	_	_	_	
+19-17	1441-1450	intressen	*[23]	_	_	_	_	_	_	
+19-18	1451-1454	som	_	Target;Source[7]	19-21;19-14[23]	false[7]	5[7]	19-12[6_7]	_	
+19-19	1455-1461	önskar	_	Target;Source[7]	19-21;19-14[23]	false[7]	5[7]	_	_	
+19-20	1462-1465	sig	_	Target;Source[7]	19-21;19-14[23]	false[7]	5[7]	_	_	
+19-21	1466-1482	skattesänkningar	*	_	_	_	_	_	_	
+19-22	1482-1483	.	_	_	_	_	_	_	_	
+
+#Text=I riksdagens skatteutskott vill vi prioritera skattereformer som ger jobb och som ökar människors egenmakt.
+20-1	1484-1485	I	_	_	_	_	_	_	_	
+20-2	1486-1496	riksdagens	_	_	_	_	_	_	_	
+20-3	1497-1510	skatteutskott	_	_	_	_	_	_	_	
+20-4	1511-1515	vill	_	_	_	false	4	_	_	
+20-5	1516-1518	vi	*	_	_	_	_	_	_	
+20-6	1519-1529	prioritera	_	Source;Target	20-5;20-7[24]	false	4	20-4	_	
+20-7	1530-1544	skattereformer	*[24]	_	_	_	_	_	_	
+20-8	1545-1548	som	*[24]	_	_	_	_	_	_	
+20-9	1549-1552	ger	*[24]	_	_	_	_	_	_	
+20-10	1553-1557	jobb	*[24]	_	_	_	_	_	_	
+20-11	1558-1561	och	*[24]	_	_	_	_	_	_	
+20-12	1562-1565	som	*[24]	_	_	_	_	_	_	
+20-13	1566-1570	ökar	*[24]	_	_	_	_	_	_	
+20-14	1571-1581	människors	*[24]	_	_	_	_	_	_	
+20-15	1582-1590	egenmakt	*[24]	_	_	_	_	_	_	
+20-16	1590-1591	.	_	_	_	_	_	_	_	
+
+#Text=När allt fler söker sig till arbetsmarknaden till följd av att det lönar sig bättre att arbeta är det viktigt att det finns företag som startar och växer runt om i vårt land så att det finns fler jobb att söka och att arbetsmarknaden fungerar bättre.
+21-1	1592-1595	När	_	_	_	_	_	_	_	
+21-2	1596-1600	allt	_	_	_	_	_	_	_	
+21-3	1601-1605	fler	_	_	_	_	_	_	_	
+21-4	1606-1611	söker	_	_	_	_	_	_	_	
+21-5	1612-1615	sig	_	_	_	_	_	_	_	
+21-6	1616-1620	till	_	_	_	_	_	_	_	
+21-7	1621-1636	arbetsmarknaden	_	_	_	_	_	_	_	
+21-8	1637-1641	till	_	_	_	_	_	_	_	
+21-9	1642-1647	följd	_	_	_	_	_	_	_	
+21-10	1648-1650	av	_	_	_	_	_	_	_	
+21-11	1651-1654	att	_	_	_	_	_	_	_	
+21-12	1655-1658	det	_	Target[8]	21-17	false[8]	4[8]	_	_	
+21-13	1659-1664	lönar	_	Target[8]	21-17	false[8]	4[8]	_	_	
+21-14	1665-1668	sig	_	Target[8]	21-17	false[8]	4[8]	_	_	
+21-15	1669-1675	bättre	_	Target[8]	21-17	false[8]	4[8]	_	_	
+21-16	1676-1679	att	_	Target[8]	21-17	false[8]	4[8]	_	_	
+21-17	1680-1686	arbeta	*	_	_	_	_	_	_	
+21-18	1687-1689	är	_	_	_	_	_	_	_	
+21-19	1690-1693	det	_	_	_	_	_	_	_	
+21-20	1694-1701	viktigt	_	Target	21-21[25]	false	3	_	_	
+21-21	1702-1705	att	*[25]	_	_	_	_	_	_	
+21-22	1706-1709	det	*[25]	_	_	_	_	_	_	
+21-23	1710-1715	finns	*[25]	_	_	_	_	_	_	
+21-24	1716-1723	företag	*[25]	_	_	_	_	_	_	
+21-25	1724-1727	som	*[25]	_	_	_	_	_	_	
+21-26	1728-1735	startar	*[25]	_	_	_	_	_	_	
+21-27	1736-1739	och	*[25]	_	_	_	_	_	_	
+21-28	1740-1745	växer	*[25]	_	_	_	_	_	_	
+21-29	1746-1750	runt	_	_	_	_	_	_	_	
+21-30	1751-1753	om	_	_	_	_	_	_	_	
+21-31	1754-1755	i	_	_	_	_	_	_	_	
+21-32	1756-1760	vårt	_	_	_	_	_	_	_	
+21-33	1761-1765	land	_	_	_	_	_	_	_	
+21-34	1766-1768	så	_	_	_	_	_	_	_	
+21-35	1769-1772	att	_	_	_	_	_	_	_	
+21-36	1773-1776	det	_	_	_	_	_	_	_	
+21-37	1777-1782	finns	_	_	_	_	_	_	_	
+21-38	1783-1787	fler	_	_	_	_	_	_	_	
+21-39	1788-1792	jobb	_	_	_	_	_	_	_	
+21-40	1793-1796	att	_	_	_	_	_	_	_	
+21-41	1797-1801	söka	_	_	_	_	_	_	_	
+21-42	1802-1805	och	_	_	_	_	_	_	_	
+21-43	1806-1809	att	_	_	_	_	_	_	_	
+21-44	1810-1825	arbetsmarknaden	_	_	_	_	_	_	_	
+21-45	1826-1834	fungerar	*[26]	Target[9]	21-45[26]	false[9]	4[9]	_	_	
+21-46	1835-1841	bättre	*[26]	Target[9]	21-45[26]	false[9]	4[9]	_	_	
+21-47	1841-1842	.	_	_	_	_	_	_	_	
+
+#Text=Här har företagen inom tjänstesektorn stor potential.
+22-1	1843-1846	Här	_	_	_	_	_	_	_	
+22-2	1847-1850	har	_	_	_	_	_	_	_	
+22-3	1851-1860	företagen	*[27]	_	_	_	_	_	_	
+22-4	1861-1865	inom	*[27]	_	_	_	_	_	_	
+22-5	1866-1880	tjänstesektorn	*[27]	_	_	_	_	_	_	
+22-6	1881-1885	stor	_	Target[10]	22-3[27]	false[10]	5[10]	_	_	
+22-7	1886-1895	potential	_	Target[10]	22-3[27]	false[10]	5[10]	_	_	
+22-8	1895-1896	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1898-1899	#	_	_	_	_	_	_	_	
+23-2	1899-1900	P	_	_	_	_	_	_	_	
+23-3	1901-1904	IMM	_	_	_	_	_	_	_	
+23-4	1904-1905	.	_	_	_	_	_	_	_	
+
+#Text=Sänkt moms för det som är särskilt arbetsintensiva tjänster bidrar till fler jobb, minskar arbetslösheten och ökar sysselsättningen.
+24-1	1907-1912	Sänkt	_	_	_	_	_	_	_	
+24-2	1913-1917	moms	_	_	_	_	_	_	_	
+24-3	1918-1921	för	_	_	_	_	_	_	_	
+24-4	1922-1925	det	_	_	_	_	_	_	_	
+24-5	1926-1929	som	_	_	_	_	_	_	_	
+24-6	1930-1932	är	_	_	_	_	_	_	_	
+24-7	1933-1941	särskilt	_	_	_	_	_	_	_	
+24-8	1942-1957	arbetsintensiva	_	_	_	_	_	_	_	
+24-9	1958-1966	tjänster	_	_	_	_	_	_	_	
+24-10	1967-1973	bidrar	_	_	_	_	_	_	_	
+24-11	1974-1978	till	_	_	_	_	_	_	_	
+24-12	1979-1983	fler	_	_	_	_	_	_	_	
+24-13	1984-1988	jobb	_	_	_	_	_	_	_	
+24-14	1988-1989	,	_	_	_	_	_	_	_	
+24-15	1990-1997	minskar	_	_	_	_	_	_	_	
+24-16	1998-2012	arbetslösheten	_	_	_	_	_	_	_	
+24-17	2013-2016	och	_	_	_	_	_	_	_	
+24-18	2017-2021	ökar	_	_	_	_	_	_	_	
+24-19	2022-2038	sysselsättningen	_	_	_	_	_	_	_	
+24-20	2038-2039	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller särskilt för restauranger, där en momssänkning kan väntas skapa många nya jobb.
+25-1	2040-2043	Det	_	_	_	_	_	_	_	
+25-2	2044-2050	gäller	_	_	_	_	_	_	_	
+25-3	2051-2059	särskilt	_	_	_	_	_	_	_	
+25-4	2060-2063	för	_	_	_	_	_	_	_	
+25-5	2064-2076	restauranger	_	_	_	_	_	_	_	
+25-6	2076-2077	,	_	_	_	_	_	_	_	
+25-7	2078-2081	där	_	_	_	_	_	_	_	
+25-8	2082-2084	en	_	_	_	_	_	_	_	
+25-9	2085-2097	momssänkning	_	_	_	_	_	_	_	
+25-10	2098-2101	kan	_	_	_	_	_	_	_	
+25-11	2102-2108	väntas	_	_	_	_	_	_	_	
+25-12	2109-2114	skapa	_	_	_	_	_	_	_	
+25-13	2115-2120	många	_	_	_	_	_	_	_	
+25-14	2121-2124	nya	_	_	_	_	_	_	_	
+25-15	2125-2129	jobb	_	_	_	_	_	_	_	
+25-16	2129-2130	.	_	_	_	_	_	_	_	
+
+#Text=För det är när priserna sänks som fler får möjlighet att oftare besöka vanliga restauranger och det är då som det verkliga lyftet för jobb och sysselsättning i restaurangnäringen kommer.
+26-1	2131-2134	För	_	_	_	_	_	_	_	
+26-2	2135-2138	det	_	_	_	_	_	_	_	
+26-3	2139-2141	är	_	_	_	_	_	_	_	
+26-4	2142-2145	när	_	_	_	_	_	_	_	
+26-5	2146-2154	priserna	_	_	_	_	_	_	_	
+26-6	2155-2160	sänks	_	_	_	_	_	_	_	
+26-7	2161-2164	som	_	_	_	_	_	_	_	
+26-8	2165-2169	fler	*	_	_	_	_	_	_	
+26-9	2170-2173	får	_	Target;Source[11]	26-11[28];26-8	false[11]	4[11]	_	_	
+26-10	2174-2183	möjlighet	_	Target;Source[11]	26-11[28];26-8	false[11]	4[11]	_	_	
+26-11	2184-2187	att	*[28]	_	_	_	_	_	_	
+26-12	2188-2194	oftare	*[28]	_	_	_	_	_	_	
+26-13	2195-2201	besöka	*[28]	_	_	_	_	_	_	
+26-14	2202-2209	vanliga	*[28]	_	_	_	_	_	_	
+26-15	2210-2222	restauranger	*[28]	_	_	_	_	_	_	
+26-16	2223-2226	och	_	_	_	_	_	_	_	
+26-17	2227-2230	det	_	_	_	_	_	_	_	
+26-18	2231-2233	är	_	_	_	_	_	_	_	
+26-19	2234-2236	då	_	_	_	_	_	_	_	
+26-20	2237-2240	som	_	_	_	_	_	_	_	
+26-21	2241-2244	det	*[29]	Target[12]	26-21[29]	false[12]	5[12]	_	_	
+26-22	2245-2253	verkliga	*[29]	Target[12]	26-21[29]	false[12]	5[12]	_	_	
+26-23	2254-2260	lyftet	*[29]	Target[12]	26-21[29]	false[12]	5[12]	_	_	
+26-24	2261-2264	för	_	_	_	_	_	_	_	
+26-25	2265-2269	jobb	_	_	_	_	_	_	_	
+26-26	2270-2273	och	_	_	_	_	_	_	_	
+26-27	2274-2288	sysselsättning	_	_	_	_	_	_	_	
+26-28	2289-2290	i	_	_	_	_	_	_	_	
+26-29	2291-2309	restaurangnäringen	_	_	_	_	_	_	_	
+26-30	2310-2316	kommer	_	_	_	_	_	_	_	
+26-31	2316-2317	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2319-2320	#	_	_	_	_	_	_	_	
+27-2	2320-2321	P	_	_	_	_	_	_	_	
+27-3	2322-2325	IMM	_	_	_	_	_	_	_	
+27-4	2325-2326	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt ger också reformen inte minst mindre restauranger möjligheten till fler gäster och att det ges bättre förutsättningar att starta nya restauranger.
+28-1	2328-2337	Samtidigt	_	_	_	_	_	_	_	
+28-2	2338-2341	ger	_	_	_	false	4	_	_	
+28-3	2342-2347	också	_	_	_	_	_	_	_	
+28-4	2348-2356	reformen	*	_	_	_	_	_	_	
+28-5	2357-2361	inte	_	_	_	_	_	_	_	
+28-6	2362-2367	minst	_	_	_	_	_	_	_	
+28-7	2368-2374	mindre	_	_	_	_	_	_	_	
+28-8	2375-2387	restauranger	_	_	_	_	_	_	_	
+28-9	2388-2399	möjligheten	_	Target[13]	28-4	false[13]	4[13]	28-2[0_13]	_	
+28-10	2400-2404	till	_	Target[13]	28-4	false[13]	4[13]	_	_	
+28-11	2405-2409	fler	_	Target[13]	28-4	false[13]	4[13]	_	_	
+28-12	2410-2416	gäster	_	Target[13]	28-4	false[13]	4[13]	_	_	
+28-13	2417-2420	och	_	_	_	_	_	_	_	
+28-14	2421-2424	att	_	_	_	_	_	_	_	
+28-15	2425-2428	det	_	_	_	_	_	_	_	
+28-16	2429-2432	ges	_	_	_	_	_	_	_	
+28-17	2433-2439	bättre	*[30]	Target[14]	28-17[30]	false[14]	4[14]	_	_	
+28-18	2440-2455	förutsättningar	*[30]	Target[14]	28-17[30]	false[14]	4[14]	_	_	
+28-19	2456-2459	att	_	_	_	_	_	_	_	
+28-20	2460-2466	starta	_	_	_	_	_	_	_	
+28-21	2467-2470	nya	_	_	_	_	_	_	_	
+28-22	2471-2483	restauranger	_	_	_	_	_	_	_	
+28-23	2483-2484	.	_	_	_	_	_	_	_	
+
+#Text=Det är viktigt också för konkurrensen och för utbudet av olika restauranger.
+29-1	2485-2488	Det	_	_	_	_	_	_	_	
+29-2	2489-2491	är	_	_	_	_	_	_	_	
+29-3	2492-2499	viktigt	*	Target	29-3	false	3	_	_	
+29-4	2500-2505	också	_	_	_	_	_	_	_	
+29-5	2506-2509	för	_	_	_	_	_	_	_	
+29-6	2510-2522	konkurrensen	_	_	_	_	_	_	_	
+29-7	2523-2526	och	_	_	_	_	_	_	_	
+29-8	2527-2530	för	_	_	_	_	_	_	_	
+29-9	2531-2538	utbudet	_	_	_	_	_	_	_	
+29-10	2539-2541	av	_	_	_	_	_	_	_	
+29-11	2542-2547	olika	_	_	_	_	_	_	_	
+29-12	2548-2560	restauranger	_	_	_	_	_	_	_	
+29-13	2560-2561	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2563-2564	#	_	_	_	_	_	_	_	
+30-2	2564-2565	P	_	_	_	_	_	_	_	
+30-3	2566-2569	IMM	_	_	_	_	_	_	_	
+30-4	2569-2570	.	_	_	_	_	_	_	_	
+
+#Text=Vi får nu alla större möjlighet att använda oss av restauranger som väljer att utnyttja momssänkningen till att sänka priset på restaurangnotan.
+31-1	2572-2574	Vi	_	_	_	_	_	_	_	
+31-2	2575-2578	får	_	_	_	_	_	_	_	
+31-3	2579-2581	nu	_	_	_	_	_	_	_	
+31-4	2582-2586	alla	_	_	_	_	_	_	_	
+31-5	2587-2593	större	_	_	_	_	_	_	_	
+31-6	2594-2603	möjlighet	_	_	_	_	_	_	_	
+31-7	2604-2607	att	_	_	_	_	_	_	_	
+31-8	2608-2615	använda	_	_	_	_	_	_	_	
+31-9	2616-2619	oss	_	_	_	_	_	_	_	
+31-10	2620-2622	av	_	_	_	_	_	_	_	
+31-11	2623-2635	restauranger	_	_	_	_	_	_	_	
+31-12	2636-2639	som	_	_	_	_	_	_	_	
+31-13	2640-2646	väljer	_	_	_	_	_	_	_	
+31-14	2647-2650	att	_	_	_	_	_	_	_	
+31-15	2651-2659	utnyttja	_	_	_	_	_	_	_	
+31-16	2660-2674	momssänkningen	_	_	_	_	_	_	_	
+31-17	2675-2679	till	_	_	_	_	_	_	_	
+31-18	2680-2683	att	_	_	_	_	_	_	_	
+31-19	2684-2689	sänka	_	_	_	_	_	_	_	
+31-20	2690-2696	priset	_	_	_	_	_	_	_	
+31-21	2697-2699	på	_	_	_	_	_	_	_	
+31-22	2700-2715	restaurangnotan	_	_	_	_	_	_	_	
+31-23	2715-2716	.	_	_	_	_	_	_	_	
+
+#Text=Med ökad konsumentmakt blir det också möjligt att förena kostnadsmedvetenhet med ökad kostmedvetenhet.
+32-1	2717-2720	Med	_	_	_	_	_	_	_	
+32-2	2721-2725	ökad	_	_	_	_	_	_	_	
+32-3	2726-2739	konsumentmakt	_	_	_	_	_	_	_	
+32-4	2740-2744	blir	_	_	_	_	_	_	_	
+32-5	2745-2748	det	_	_	_	_	_	_	_	
+32-6	2749-2754	också	_	_	_	_	_	_	_	
+32-7	2755-2762	möjligt	_	_	_	_	_	_	_	
+32-8	2763-2766	att	_	_	_	_	_	_	_	
+32-9	2767-2773	förena	_	_	_	_	_	_	_	
+32-10	2774-2793	kostnadsmedvetenhet	_	_	_	_	_	_	_	
+32-11	2794-2797	med	_	_	_	_	_	_	_	
+32-12	2798-2802	ökad	_	_	_	_	_	_	_	
+32-13	2803-2818	kostmedvetenhet	_	_	_	_	_	_	_	
+32-14	2818-2819	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2821-2822	#	_	_	_	_	_	_	_	
+33-2	2822-2823	P	_	_	_	_	_	_	_	
+33-3	2824-2827	IMM	_	_	_	_	_	_	_	
+33-4	2827-2828	.	_	_	_	_	_	_	_	
+
+#Text=Mindre restauranger – till exempel med fokus på sunda, goda, ekologiska och närproducerade råvaror – får nu möjligheten att bygga en bredare kundbas.
+34-1	2830-2836	Mindre	_	_	_	_	_	_	_	
+34-2	2837-2849	restauranger	_	_	_	_	_	_	_	
+34-3	2850-2851	–	_	_	_	_	_	_	_	
+34-4	2852-2856	till	_	_	_	_	_	_	_	
+34-5	2857-2864	exempel	_	_	_	_	_	_	_	
+34-6	2865-2868	med	_	_	_	_	_	_	_	
+34-7	2869-2874	fokus	_	_	_	_	_	_	_	
+34-8	2875-2877	på	_	_	_	_	_	_	_	
+34-9	2878-2883	sunda	_	_	_	_	_	_	_	
+34-10	2883-2884	,	_	_	_	_	_	_	_	
+34-11	2885-2889	goda	_	_	_	_	_	_	_	
+34-12	2889-2890	,	_	_	_	_	_	_	_	
+34-13	2891-2901	ekologiska	_	_	_	_	_	_	_	
+34-14	2902-2905	och	_	_	_	_	_	_	_	
+34-15	2906-2920	närproducerade	_	_	_	_	_	_	_	
+34-16	2921-2928	råvaror	_	_	_	_	_	_	_	
+34-17	2929-2930	–	_	_	_	_	_	_	_	
+34-18	2931-2934	får	_	_	_	_	_	_	_	
+34-19	2935-2937	nu	_	_	_	_	_	_	_	
+34-20	2938-2949	möjligheten	_	_	_	_	_	_	_	
+34-21	2950-2953	att	_	_	_	_	_	_	_	
+34-22	2954-2959	bygga	_	_	_	_	_	_	_	
+34-23	2960-2962	en	_	_	_	_	_	_	_	
+34-24	2963-2970	bredare	_	_	_	_	_	_	_	
+34-25	2971-2978	kundbas	_	_	_	_	_	_	_	
+34-26	2978-2979	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2981-2982	#	_	_	_	_	_	_	_	
+35-2	2982-2983	P	_	_	_	_	_	_	_	
+35-3	2984-2987	IMM	_	_	_	_	_	_	_	
+35-4	2987-2988	.	_	_	_	_	_	_	_	
+
+#Text=Det är utmärkt om vi alla – var och en – använder regeringens reformer till att hävda vår konsumentmakt på ett både kostnadsmedvetet och kostmedvetet sätt.
+36-1	2990-2993	Det	_	Target[15]	36-5[31]	false[15]	5[15]	_	_	
+36-2	2994-2996	är	_	Target[15]	36-5[31]	false[15]	5[15]	_	_	
+36-3	2997-3004	utmärkt	_	Target[15]	36-5[31]	false[15]	5[15]	_	_	
+36-4	3005-3007	om	_	Target[15]	36-5[31]	false[15]	5[15]	_	_	
+36-5	3008-3010	vi	*[31]|*[32]	_	_	_	_	_	37-1[0_31]	
+36-6	3011-3015	alla	*[31]|*[32]	_	_	_	_	_	_	
+36-7	3016-3017	–	*[31]|*[32]	_	_	_	_	_	_	
+36-8	3018-3021	var	*[31]|*[32]	_	_	_	_	_	_	
+36-9	3022-3025	och	*[31]|*[32]	_	_	_	_	_	_	
+36-10	3026-3028	en	*[31]|*[32]	_	_	_	_	_	_	
+36-11	3029-3030	–	*[31]|*[32]	_	_	_	_	_	_	
+36-12	3031-3039	använder	*[31]|*[32]	_	_	_	_	_	_	
+36-13	3040-3051	regeringens	*[31]|*[32]	_	_	_	_	_	_	
+36-14	3052-3060	reformer	*[31]|*[32]	_	_	_	_	_	_	
+36-15	3061-3065	till	*[31]|*[32]	_	_	_	_	_	_	
+36-16	3066-3069	att	*[31]|*[32]	_	_	_	_	_	_	
+36-17	3070-3075	hävda	*[31]|*[32]	_	_	_	_	_	_	
+36-18	3076-3079	vår	*[31]|*[32]	_	_	_	_	_	_	
+36-19	3080-3093	konsumentmakt	*[31]|*[32]	_	_	_	_	_	_	
+36-20	3094-3096	på	_	_	_	_	_	_	_	
+36-21	3097-3100	ett	_	_	_	_	_	_	_	
+36-22	3101-3105	både	_	_	_	_	_	_	_	
+36-23	3106-3122	kostnadsmedvetet	_	_	_	_	_	_	_	
+36-24	3123-3126	och	_	_	_	_	_	_	_	
+36-25	3127-3139	kostmedvetet	_	_	_	_	_	_	_	
+36-26	3140-3144	sätt	_	_	_	_	_	_	_	
+36-27	3144-3145	.	_	_	_	_	_	_	_	
+
+#Text=Det mår vi alla mycket bättre av.
+37-1	3146-3149	Det	*	_	_	_	_	_	_	
+37-2	3150-3153	mår	_	_	_	false	5	_	_	
+37-3	3154-3156	vi	*[33]	_	_	_	_	_	_	
+37-4	3157-3161	alla	*[33]	_	_	_	_	_	_	
+37-5	3162-3168	mycket	_	Source;Target[16]	37-3[33];37-1	false[16]	5[16]	37-2[0_16]	_	
+37-6	3169-3175	bättre	_	Source;Target[16]	37-3[33];37-1	false[16]	5[16]	_	_	
+37-7	3176-3178	av	_	Source;Target[16]	37-3[33];37-1	false[16]	5[16]	_	_	
+37-8	3178-3179	.	_	_	_	_	_	_	_	
+
+#Text=Det vore dagens rätt.
+38-1	3180-3183	Det	_	_	_	_	_	_	_	
+38-2	3184-3188	vore	_	_	_	_	_	_	_	
+38-3	3189-3195	dagens	_	_	_	_	_	_	_	
+38-4	3196-3200	rätt	_	_	_	_	_	_	_	
+38-5	3200-3201	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3203-3204	#	_	_	_	_	_	_	_	
+39-2	3204-3205	P	_	_	_	_	_	_	_	
+39-3	3206-3209	IMM	_	_	_	_	_	_	_	
+39-4	3209-3210	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+40-1	3212-3217	FAKTA	_	_	_	_	_	_	_	
+40-2	3217-3218	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3220-3221	#	_	_	_	_	_	_	_	
+41-2	3221-3222	P	_	_	_	_	_	_	_	
+41-3	3223-3226	IMM	_	_	_	_	_	_	_	
+41-4	3226-3227	.	_	_	_	_	_	_	_	
+
+#Text=Henrik von Sydow.
+42-1	3229-3235	Henrik	_	_	_	_	_	_	_	
+42-2	3236-3239	von	_	_	_	_	_	_	_	
+42-3	3240-3245	Sydow	_	_	_	_	_	_	_	
+42-4	3245-3246	.	_	_	_	_	_	_	_	

@@ -1,0 +1,377 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Att peka på det som går bra duger inte.
+3-1	18-21	Att	*[20]	_	_	_	_	_	_	
+3-2	22-26	peka	*[20]	_	_	_	_	_	_	
+3-3	27-29	på	*[20]	_	_	_	_	_	_	
+3-4	30-33	det	*[20]|*[21]	_	_	_	_	_	_	
+3-5	34-37	som	*[20]|*[21]	_	_	_	_	_	_	
+3-6	38-41	går	*[20]|*[21]	Source;Target[1]	3-10;3-4[21]	false[1]	4[1]	_	_	
+3-7	42-45	bra	*[20]|*[21]	Source;Target[1]	3-10;3-4[21]	false[1]	4[1]	_	_	
+3-8	46-51	duger	_	Target[2]	3-1[20]	false[2]	2[2]	_	_	
+3-9	52-56	inte	_	Target[2]	3-1[20]	false[2]	2[2]	_	_	
+3-10	56-57	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	false	3	_	_	
+4-4	65-66	.	_	_	_	_	_	_	_	
+
+#Text=SLUTREPLIK.
+5-1	68-78	SLUTREPLIK	_	_	_	_	_	_	_	
+5-2	78-79	.	_	_	_	_	_	_	_	
+
+#Text=Det är anmärkningsvärt att Ylva Johansson (S) är så påtagligt nöjd med utvecklingen på arbetsmarknaden.
+6-1	80-83	Det	_	_	_	_	_	_	_	
+6-2	84-86	är	_	_	_	_	_	_	_	
+6-3	87-102	anmärkningsvärt	_	_	_	_	_	_	_	
+6-4	103-106	att	_	_	_	_	_	_	_	
+6-5	107-111	Ylva	*[22]	_	_	_	_	_	_	
+6-6	112-121	Johansson	*[22]	_	_	_	_	_	_	
+6-7	122-123	(	*[22]	_	_	_	_	_	_	
+6-8	123-124	S	*[22]	_	_	_	_	_	_	
+6-9	124-125	)	*[22]	_	_	_	_	_	_	
+6-10	126-128	är	_	_	_	_	_	_	_	
+6-11	129-131	så	_	_	_	_	_	_	_	
+6-12	132-141	påtagligt	_	_	_	_	_	_	_	
+6-13	142-146	nöjd	_	Target;Source[3]	6-15[23];6-5[22]	false[3]	4[3]	_	_	
+6-14	147-150	med	_	Target;Source[3]	6-15[23];6-5[22]	false[3]	4[3]	_	_	
+6-15	151-163	utvecklingen	*[23]	_	_	_	_	_	_	
+6-16	164-166	på	*[23]	_	_	_	_	_	_	
+6-17	167-182	arbetsmarknaden	*[23]	_	_	_	_	_	_	
+6-18	182-183	.	*	_	_	_	_	_	10-1	
+
+#Text=Trots att utrikes födda och långtidsarbetslösa på Arbetsförmedlingen ökar.
+7-1	184-189	Trots	_	_	_	_	_	_	_	
+7-2	190-193	att	_	_	_	_	_	_	_	
+7-3	194-201	utrikes	_	_	_	_	_	_	_	
+7-4	202-207	födda	_	_	_	_	_	_	_	
+7-5	208-211	och	_	_	_	_	_	_	_	
+7-6	212-230	långtidsarbetslösa	_	_	_	_	_	_	_	
+7-7	231-233	på	_	_	_	_	_	_	_	
+7-8	234-252	Arbetsförmedlingen	_	_	_	_	_	_	_	
+7-9	253-257	ökar	_	_	_	_	_	_	_	
+7-10	257-258	.	_	_	_	_	_	_	_	
+
+#Text=Trots att matchningen försämras.
+8-1	259-264	Trots	_	_	_	_	_	_	_	
+8-2	265-268	att	_	_	_	_	_	_	_	
+8-3	269-280	matchningen	*	_	_	_	_	_	_	
+8-4	281-290	försämras	_	Target	8-3	false	2	_	_	
+8-5	290-291	.	_	_	_	_	_	_	_	
+
+#Text=Och trots att utanförskapet väntas öka till närmare en miljon under kommande år.
+9-1	292-295	Och	_	_	_	_	_	_	_	
+9-2	296-301	trots	_	_	_	_	_	_	_	
+9-3	302-305	att	_	_	_	_	_	_	_	
+9-4	306-319	utanförskapet	_	_[4]	_	false[4]	1[4]	_	_	
+9-5	320-326	väntas	_	_[4]	_	false[4]	1[4]	_	_	
+9-6	327-330	öka	_	_[4]	_	false[4]	1[4]	_	_	
+9-7	331-335	till	_	_	_	_	_	_	_	
+9-8	336-343	närmare	_	_	_	_	_	_	_	
+9-9	344-346	en	_	_	_	_	_	_	_	
+9-10	347-353	miljon	_	_	_	_	_	_	_	
+9-11	354-359	under	_	_	_	_	_	_	_	
+9-12	360-368	kommande	_	_	_	_	_	_	_	
+9-13	369-371	år	_	_	_	_	_	_	_	
+9-14	371-372	.	_	_	_	_	_	_	_	
+
+#Text=Det är att svika dem som har det allra svårast.
+10-1	373-376	Det	*	_	_	_	_	_	_	
+10-2	377-379	är	_	_	_	_	_	_	_	
+10-3	380-383	att	_	_	_	_	_	_	_	
+10-4	384-389	svika	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-5	390-393	dem	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-6	394-397	som	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-7	398-401	har	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-8	402-405	det	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-9	406-411	allra	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-10	412-419	svårast	_	Target[5]	10-1	false[5]	1[5]	_	_	
+10-11	419-420	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	422-423	#	_	_	_	_	_	_	_	
+11-2	423-424	P	_	_	_	_	_	_	_	
+11-3	425-428	IMM	_	_	_	_	_	_	_	
+11-4	428-429	.	_	_	_	_	_	_	_	
+
+#Text=Naturligtvis kan man glädjas åt att många som står nära arbetsmarknaden nu får jobb – allt annat vore märkligt med tanke på den goda konjunkturen.
+12-1	431-443	Naturligtvis	_	Target[6]	12-6[24]	false[6]	4[6]	_	_	
+12-2	444-447	kan	_	Target[6]	12-6[24]	false[6]	4[6]	_	_	
+12-3	448-451	man	_	Target[6]	12-6[24]	false[6]	4[6]	_	_	
+12-4	452-459	glädjas	_	Target[6]	12-6[24]	false[6]	4[6]	_	_	
+12-5	460-462	åt	_	Target[6]	12-6[24]	false[6]	4[6]	_	_	
+12-6	463-466	att	*[24]	_	_	_	_	_	_	
+12-7	467-472	många	*[24]	_	_	_	_	_	_	
+12-8	473-476	som	*[24]	_	_	_	_	_	_	
+12-9	477-481	står	*[24]	_	_	_	_	_	_	
+12-10	482-486	nära	*[24]	_	_	_	_	_	_	
+12-11	487-502	arbetsmarknaden	*[24]	_	_	_	_	_	_	
+12-12	503-505	nu	*[24]	_	_	_	_	_	_	
+12-13	506-509	får	*[24]	_	_	_	_	_	_	
+12-14	510-514	jobb	*[24]	_	_	_	_	_	_	
+12-15	515-516	–	_	_	_	_	_	_	_	
+12-16	517-521	allt	_	_	_	_	_	_	_	
+12-17	522-527	annat	_	_	_	_	_	_	_	
+12-18	528-532	vore	_	_	_	_	_	_	_	
+12-19	533-541	märkligt	_	_	_	_	_	_	_	
+12-20	542-545	med	_	_	_	_	_	_	_	
+12-21	546-551	tanke	_	_	_	_	_	_	_	
+12-22	552-554	på	_	_	_	_	_	_	_	
+12-23	555-558	den	_	_	_	_	_	_	_	
+12-24	559-563	goda	_	Target	12-25	false	4	_	_	
+12-25	564-576	konjunkturen	*	_	_	_	_	_	_	
+12-26	576-577	.	_	_	_	_	_	_	_	
+
+#Text=Men det är inte regeringens förtjänst.
+13-1	578-581	Men	_	_	_	_	_	_	_	
+13-2	582-585	det	_	_	_	_	_	_	_	
+13-3	586-588	är	_	_	_	_	_	_	_	
+13-4	589-593	inte	_	_	_	_	_	_	_	
+13-5	594-605	regeringens	_	_	_	_	_	_	_	
+13-6	606-615	förtjänst	_	_	_	false	4	_	_	
+13-7	615-616	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	618-619	#	_	_	_	_	_	_	_	
+14-2	619-620	P	_	_	_	_	_	_	_	
+14-3	621-624	IMM	_	_	_	_	_	_	_	
+14-4	624-625	.	_	_	_	_	_	_	_	
+
+#Text=Tvärtom menar oberoende bedömare som Konjunkturinstitutet att regeringens politik leder till färre jobb.
+15-1	627-634	Tvärtom	_	_	_	_	_	_	_	
+15-2	635-640	menar	_	_	_	_	_	_	_	
+15-3	641-650	oberoende	*[25]	_	_	_	_	_	_	
+15-4	651-659	bedömare	*[25]	_	_	_	_	_	_	
+15-5	660-663	som	*[25]	_	_	_	_	_	_	
+15-6	664-684	Konjunkturinstitutet	*[25]	_	_	_	_	_	_	
+15-7	685-688	att	_	_	_	_	_	_	_	
+15-8	689-700	regeringens	*[26]	_	_	_	_	_	_	
+15-9	701-708	politik	*[26]	_	_	_	_	_	_	
+15-10	709-714	leder	_	Source;Target[7]	15-3[25];15-8[26]	false[7]	2[7]	_	_	
+15-11	715-719	till	_	Source;Target[7]	15-3[25];15-8[26]	false[7]	2[7]	_	_	
+15-12	720-725	färre	_	Source;Target[7]	15-3[25];15-8[26]	false[7]	2[7]	_	_	
+15-13	726-730	jobb	_	Source;Target[7]	15-3[25];15-8[26]	false[7]	2[7]	_	_	
+15-14	730-731	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom har det knappt blivit en tumme av de främsta vallöftena, trainee- och extratjänsterna.
+16-1	732-740	Dessutom	_	_	_	_	_	_	_	
+16-2	741-744	har	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-3	745-748	det	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-4	749-755	knappt	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-5	756-762	blivit	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-6	763-765	en	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-7	766-771	tumme	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-8	772-774	av	_	Target[8]	16-9[27]	false[8]	2[8]	_	_	
+16-9	775-777	de	*[27]	_	_	_	_	_	_	
+16-10	778-785	främsta	*[27]	_	_	_	_	_	_	
+16-11	786-796	vallöftena	*[27]	_	_	_	_	_	_	
+16-12	796-797	,	*[27]	_	_	_	_	_	_	
+16-13	798-805	trainee	*[27]	_	_	_	_	_	_	
+16-14	805-806	-	*[27]	_	_	_	_	_	_	
+16-15	807-810	och	*[27]	_	_	_	_	_	_	
+16-16	811-826	extratjänsterna	*[27]	_	_	_	_	_	_	
+16-17	826-827	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	829-830	#	_	_	_	_	_	_	_	
+17-2	830-831	P	_	_	_	_	_	_	_	
+17-3	832-835	IMM	_	_	_	false	3	_	_	
+17-4	835-836	.	_	_	_	_	_	_	_	
+
+#Text=Ylva Johansson framhåller att regeringen satsar på utbildning – gott så.
+18-1	838-842	Ylva	_	_	_	_	_	_	_	
+18-2	843-852	Johansson	_	_	_	_	_	_	_	
+18-3	853-863	framhåller	_	_	_	_	_	_	_	
+18-4	864-867	att	_	_	_	_	_	_	_	
+18-5	868-878	regeringen	*[28]|*[29]	_	_	_	_	_	20-2[0_28]	
+18-6	879-885	satsar	*[28]	Source;Target[9]	18-5[29];18-8[30]	false[9]	4[9]	_	_	
+18-7	886-888	på	*[28]	Source;Target[9]	18-5[29];18-8[30]	false[9]	4[9]	_	_	
+18-8	889-899	utbildning	*[28]|*[30]	_	_	_	_	_	_	
+18-9	900-901	–	_	_	_	_	_	_	_	
+18-10	902-906	gott	_	Target[10]	18-5[28]	false[10]	4[10]	_	_	
+18-11	907-909	så	_	Target[10]	18-5[28]	false[10]	4[10]	_	_	
+18-12	909-910	.	_	_	_	_	_	_	_	
+
+#Text=Det gör även Moderaterna.
+19-1	911-914	Det	_	_	_	_	_	_	_	
+19-2	915-918	gör	_	_	_	_	_	_	_	
+19-3	919-923	även	_	_	_	_	_	_	_	
+19-4	924-935	Moderaterna	_	_	_	_	_	_	_	
+19-5	935-936	.	_	_	_	_	_	_	_	
+
+#Text=Men det räcker inte.
+20-1	937-940	Men	_	_	_	_	_	_	_	
+20-2	941-944	det	*	_	_	_	_	_	_	
+20-3	945-951	räcker	_	Target[11]	20-2	false[11]	2[11]	_	_	
+20-4	952-956	inte	_	Target[11]	20-2	false[11]	2[11]	_	_	
+20-5	956-957	.	_	_	_	_	_	_	_	
+
+#Text=Vi har en plan för ett starkare Sverige med kraftfulla jobbreformer.
+21-1	958-960	Vi	*	_	_	_	_	_	_	
+21-2	961-964	har	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-3	965-967	en	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-4	968-972	plan	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-5	973-976	för	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-6	977-980	ett	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-7	981-989	starkare	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-8	990-997	Sverige	_	Target[12]	21-1	false[12]	4[12]	_	_	
+21-9	998-1001	med	_	_	_	_	_	_	_	
+21-10	1002-1012	kraftfulla	_	_	_	_	_	_	_	
+21-11	1013-1025	jobbreformer	_	_	_	_	_	_	_	
+21-12	1025-1026	.	_	_	_	_	_	_	_	
+
+#Text=Bland annat har vi lagt fram flera förslag för att det ska löna sig bättre att gå från bidrag till arbete, för att fler ska kunna lära sig jobbet på jobbet och ha råd att karriärväxla mitt i livet, men också för att korta tiden till arbete för nyanlända.
+22-1	1028-1033	Bland	_	_	_	_	_	_	_	
+22-2	1034-1039	annat	_	_	_	_	_	_	_	
+22-3	1040-1043	har	_	_	_	_	_	_	_	
+22-4	1044-1046	vi	_	_	_	_	_	_	_	
+22-5	1047-1051	lagt	_	_	_	_	_	_	_	
+22-6	1052-1056	fram	_	_	_	_	_	_	_	
+22-7	1057-1062	flera	_	_	_	_	_	_	_	
+22-8	1063-1070	förslag	_	_	_	_	_	_	_	
+22-9	1071-1074	för	_	_	_	_	_	_	_	
+22-10	1075-1078	att	_	_	_	_	_	_	_	
+22-11	1079-1082	det	_	_	_	_	_	_	_	
+22-12	1083-1086	ska	_	Target[13]	22-16[31]	false[13]	4[13]	_	_	
+22-13	1087-1091	löna	_	Target[13]	22-16[31]	false[13]	4[13]	_	_	
+22-14	1092-1095	sig	_	Target[13]	22-16[31]	false[13]	4[13]	_	_	
+22-15	1096-1102	bättre	_	Target[13]	22-16[31]	false[13]	4[13]	_	_	
+22-16	1103-1106	att	*[31]	_	_	_	_	_	_	
+22-17	1107-1109	gå	*[31]	_	_	_	_	_	_	
+22-18	1110-1114	från	*[31]	_	_	_	_	_	_	
+22-19	1115-1121	bidrag	*[31]	_	_	_	_	_	_	
+22-20	1122-1126	till	*[31]	_	_	_	_	_	_	
+22-21	1127-1133	arbete	*[31]	_	_	_	_	_	_	
+22-22	1133-1134	,	_	_	_	_	_	_	_	
+22-23	1135-1138	för	_	_	_	_	_	_	_	
+22-24	1139-1142	att	_	_	_	_	_	_	_	
+22-25	1143-1147	fler	_	_	_	_	_	_	_	
+22-26	1148-1151	ska	_	_	_	_	_	_	_	
+22-27	1152-1157	kunna	_	_	_	_	_	_	_	
+22-28	1158-1162	lära	_	_	_	_	_	_	_	
+22-29	1163-1166	sig	_	_	_	_	_	_	_	
+22-30	1167-1173	jobbet	_	_	_	_	_	_	_	
+22-31	1174-1176	på	_	_	_	_	_	_	_	
+22-32	1177-1183	jobbet	_	_	_	_	_	_	_	
+22-33	1184-1187	och	_	_	_	_	_	_	_	
+22-34	1188-1190	ha	_	_	_	_	_	_	_	
+22-35	1191-1194	råd	_	_	_	_	_	_	_	
+22-36	1195-1198	att	_	_	_	_	_	_	_	
+22-37	1199-1211	karriärväxla	_	_	_	_	_	_	_	
+22-38	1212-1216	mitt	_	_	_	_	_	_	_	
+22-39	1217-1218	i	_	_	_	_	_	_	_	
+22-40	1219-1224	livet	_	_	_	_	_	_	_	
+22-41	1224-1225	,	_	_	_	_	_	_	_	
+22-42	1226-1229	men	_	_	_	_	_	_	_	
+22-43	1230-1235	också	_	_	_	_	_	_	_	
+22-44	1236-1239	för	_	_	_	_	_	_	_	
+22-45	1240-1243	att	_	_	_	_	_	_	_	
+22-46	1244-1249	korta	_	_	_	_	_	_	_	
+22-47	1250-1255	tiden	_	_	_	_	_	_	_	
+22-48	1256-1260	till	_	_	_	_	_	_	_	
+22-49	1261-1267	arbete	_	_	_	_	_	_	_	
+22-50	1268-1271	för	_	_	_	_	_	_	_	
+22-51	1272-1281	nyanlända	_	_	_	_	_	_	_	
+22-52	1281-1282	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1284-1285	#	_	_	_	_	_	_	_	
+23-2	1285-1286	P	_	_	_	_	_	_	_	
+23-3	1287-1290	IMM	_	_	_	_	_	_	_	
+23-4	1290-1291	.	_	_	_	_	_	_	_	
+
+#Text=Att regeringen inte lyckats prestera något mer gediget halvvägs in i mandatperioden är oroväckande.
+24-1	1293-1296	Att	*[32]	_	_	_	_	_	_	
+24-2	1297-1307	regeringen	*[32]|*[33]	_	_	_	_	_	_	
+24-3	1308-1312	inte	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-4	1313-1320	lyckats	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-5	1321-1329	prestera	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-6	1330-1335	något	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-7	1336-1339	mer	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-8	1340-1347	gediget	*[32]	Target[14]	24-2[33]	false[14]	2[14]	_	_	
+24-9	1348-1356	halvvägs	*[32]	_	_	_	_	_	_	
+24-10	1357-1359	in	*[32]	_	_	_	_	_	_	
+24-11	1360-1361	i	*[32]	_	_	_	_	_	_	
+24-12	1362-1376	mandatperioden	*[32]	_	_	_	_	_	_	
+24-13	1377-1379	är	_	Target[15]	24-1[32]	false[15]	2[15]	_	_	
+24-14	1380-1391	oroväckande	_	Target[15]	24-1[32]	false[15]	2[15]	_	_	
+24-15	1391-1392	.	_	_	_	_	_	_	_	
+
+#Text=När utmaningarna hopar sig duger det inte att peka på det som går bra.
+25-1	1393-1396	När	_	_	_	_	_	_	_	
+25-2	1397-1409	utmaningarna	_	_	_	_	_	_	_	
+25-3	1410-1415	hopar	_	_	_	_	_	_	_	
+25-4	1416-1419	sig	_	_	_	_	_	_	_	
+25-5	1420-1425	duger	_	Target[16]	25-8[34]	false[16]	2[16]	_	_	
+25-6	1426-1429	det	_	Target[16]	25-8[34]	false[16]	2[16]	_	_	
+25-7	1430-1434	inte	_	Target[16]	25-8[34]	false[16]	2[16]	_	_	
+25-8	1435-1438	att	*[34]	_	_	_	_	_	_	
+25-9	1439-1443	peka	*[34]	_	_	_	_	_	_	
+25-10	1444-1446	på	*[34]	_	_	_	_	_	_	
+25-11	1447-1450	det	*[34]|*[35]	_	_	_	_	_	_	
+25-12	1451-1454	som	*[34]|*[35]	_	_	_	_	_	_	
+25-13	1455-1458	går	*[34]|*[35]	Target[17]	25-11[35]	false[17]	4[17]	_	_	
+25-14	1459-1462	bra	*[34]|*[35]	Target[17]	25-11[35]	false[17]	4[17]	_	_	
+25-15	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Om inte utanförskapet bekämpas riskerar vi få ett Sverige som slits isär och blir svagt.
+26-1	1464-1466	Om	*[36]	_	_	_	_	_	_	
+26-2	1467-1471	inte	*[36]	_	_	_	_	_	_	
+26-3	1472-1485	utanförskapet	*[36]	_	_	false	2	_	_	
+26-4	1486-1494	bekämpas	*[36]	_	_	_	_	_	_	
+26-5	1495-1503	riskerar	_	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-6	1504-1506	vi	_	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-7	1507-1509	få	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	27-1[39_37]|27-1[38_37]	
+26-8	1510-1513	ett	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-9	1514-1521	Sverige	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-10	1522-1525	som	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-11	1526-1531	slits	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-12	1532-1536	isär	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-13	1537-1540	och	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-14	1541-1545	blir	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-15	1546-1551	svagt	*[37]	Target[18]	26-1[36]	false[18]	1[18]	_	_	
+26-16	1551-1552	.	_	_	_	_	_	_	_	
+
+#Text=Det kan vi aldrig acceptera.
+27-1	1553-1556	Det	*[38]|*[39]	_	_	_	_	_	_	
+27-2	1557-1560	kan	_	Source;Target	27-3[40];27-1[38]	false	1	27-4[19_0]	_	
+27-3	1561-1563	vi	*[40]|*[41]	_	_	_	_	_	_	
+27-4	1564-1570	aldrig	_	Source;Target[19]	27-3[41];27-1[39]	false[19]	1[19]	_	_	
+27-5	1571-1580	acceptera	_	Source;Target[19]	27-3[41];27-1[39]	false[19]	1[19]	_	_	
+27-6	1580-1581	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1583-1584	#	_	_	_	_	_	_	_	
+28-2	1584-1585	P	_	_	_	_	_	_	_	
+28-3	1586-1589	IMM	_	_	_	_	_	_	_	
+28-4	1589-1590	.	_	_	_	_	_	_	_	
+
+#Text=Elisabeth Svantesson, arbetsmarknadspolitisk talesperson (M).
+29-1	1592-1601	Elisabeth	_	_	_	_	_	_	_	
+29-2	1602-1612	Svantesson	_	_	_	_	_	_	_	
+29-3	1612-1613	,	_	_	_	_	_	_	_	
+29-4	1614-1636	arbetsmarknadspolitisk	_	_	_	_	_	_	_	
+29-5	1637-1648	talesperson	_	_	_	_	_	_	_	
+29-6	1649-1650	(	_	_	_	_	_	_	_	
+29-7	1650-1651	M	_	_	_	_	_	_	_	
+29-8	1651-1652	)	_	_	_	_	_	_	_	
+29-9	1652-1653	.	_	_	_	_	_	_	_	

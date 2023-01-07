@@ -1,0 +1,1068 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=V: Inte en flyktingkris – en moralisk kris.
+3-1	18-19	V	_	_	_	_	_	_	_	
+3-2	19-20	:	_	_	_	_	_	_	_	
+3-3	21-25	Inte	_	_	_	_	_	_	_	
+3-4	26-28	en	_	_	_	_	_	_	_	
+3-5	29-41	flyktingkris	*	Target	3-5	false	1	_	_	
+3-6	42-43	–	_	_	_	_	_	_	_	
+3-7	44-46	en	_	_	_	_	_	_	_	
+3-8	47-55	moralisk	*[28]	Target[1]	3-8[28]	false[1]	1[1]	_	_	
+3-9	56-60	kris	*[28]	Target[1]	3-8[28]	false[1]	1[1]	_	_	
+3-10	60-61	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	_	
+
+#Text=Att en svensk, socialdemokratisk regering stödjer EU:s folkrättsvidriga flyktingavtal med Turkiet och samtidigt lägger fram en exceptionellt restriktiv migrationspolitik är skrämmande.
+5-1	72-75	Att	*[29]	_	_	_	_	_	_	
+5-2	76-78	en	*[29]	_	_	_	_	_	_	
+5-3	79-85	svensk	*[29]	_	_	_	_	_	_	
+5-4	85-86	,	*[29]	_	_	_	_	_	_	
+5-5	87-104	socialdemokratisk	*[29]	_	_	_	_	_	_	
+5-6	105-113	regering	*[29]	_	_	_	_	_	_	
+5-7	114-121	stödjer	*[29]	_	_	_	_	_	_	
+5-8	122-124	EU	*[29]	_	_	_	_	_	_	
+5-9	124-125	:	*[29]	_	_	_	_	_	_	
+5-10	125-126	s	*[29]	_	_	_	_	_	_	
+5-11	127-143	folkrättsvidriga	*[29]	Target	5-12[30]	false	1	_	_	
+5-12	144-157	flyktingavtal	*[29]|*[30]	_	_	_	_	_	_	
+5-13	158-161	med	*[29]|*[30]	_	_	_	_	_	_	
+5-14	162-169	Turkiet	*[29]|*[30]	_	_	_	_	_	_	
+5-15	170-173	och	*[29]	_	_	_	_	_	_	
+5-16	174-183	samtidigt	*[29]	_	_	_	_	_	_	
+5-17	184-190	lägger	*[29]	_	_	_	_	_	_	
+5-18	191-195	fram	*[29]	_	_	_	_	_	_	
+5-19	196-198	en	*[29]	_	_	_	_	_	_	
+5-20	199-212	exceptionellt	*[29]	_	_	_	_	_	_	
+5-21	213-223	restriktiv	*[29]	_	_	_	_	_	_	
+5-22	224-241	migrationspolitik	*[29]	_	_	_	_	_	_	
+5-23	242-244	är	_	Target[2]	5-1[29]	false[2]	1[2]	_	_	
+5-24	245-255	skrämmande	_	Target[2]	5-1[29]	false[2]	1[2]	_	_	
+5-25	255-256	.	_	_	_	_	_	_	_	
+
+#Text=Det är också häpnadsväckande att Vänsterpartiet tycks vara det enda partiet i riksdagen som fortfarande står upp för människor på flykt, skriver Malin Björk (V).
+6-1	257-260	Det	_	_	_	_	_	_	_	
+6-2	261-263	är	_	_	_	_	_	_	_	
+6-3	264-269	också	_	_	_	_	_	_	_	
+6-4	270-285	häpnadsväckande	_	Target	6-5[31]	false	3	_	_	
+6-5	286-289	att	*[31]	_	_	_	_	_	_	
+6-6	290-304	Vänsterpartiet	*[31]|*[32]	_	_	_	_	_	_	
+6-7	305-310	tycks	*[31]	_	_	_	_	_	_	
+6-8	311-315	vara	*[31]	_	_	_	_	_	_	
+6-9	316-319	det	*[31]	_	_	_	_	_	_	
+6-10	320-324	enda	*[31]	_	_	_	_	_	_	
+6-11	325-332	partiet	*[31]	_	_	_	_	_	_	
+6-12	333-334	i	*[31]	_	_	_	_	_	_	
+6-13	335-344	riksdagen	*[31]	_	_	_	_	_	_	
+6-14	345-348	som	*[31]	_	_	_	_	_	_	
+6-15	349-360	fortfarande	*[31]	_	_	_	_	_	_	
+6-16	361-365	står	*[31]	Source;Target[3]	6-6[32];6-19[33]	false[3]	5[3]	_	_	
+6-17	366-369	upp	*[31]	Source;Target[3]	6-6[32];6-19[33]	false[3]	5[3]	_	_	
+6-18	370-373	för	*[31]	Source;Target[3]	6-6[32];6-19[33]	false[3]	5[3]	_	_	
+6-19	374-383	människor	*[31]|*[33]	_	_	_	_	_	_	
+6-20	384-386	på	*[31]|*[33]	_	_	_	_	_	_	
+6-21	387-392	flykt	*[31]|*[33]	_	_	_	_	_	_	
+6-22	392-393	,	_	_	_	_	_	_	_	
+6-23	394-401	skriver	_	_	_	_	_	_	_	
+6-24	402-407	Malin	_	_	_	_	_	_	_	
+6-25	408-413	Björk	_	_	_	_	_	_	_	
+6-26	414-415	(	_	_	_	_	_	_	_	
+6-27	415-416	V	_	_	_	_	_	_	_	
+6-28	416-417	)	_	_	_	_	_	_	_	
+6-29	417-418	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	420-421	#	_	_	_	_	_	_	_	
+7-2	421-422	P	_	_	_	_	_	_	_	
+7-3	423-426	IMM	_	_	_	_	_	_	_	
+7-4	426-427	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker Malin Björk (V).
+8-1	429-450	Europaparlamentariker	_	_	_	_	_	_	_	
+8-2	451-456	Malin	_	_	_	_	_	_	_	
+8-3	457-462	Björk	_	_	_	_	_	_	_	
+8-4	463-464	(	_	_	_	_	_	_	_	
+8-5	464-465	V	_	_	_	_	_	_	_	
+8-6	465-466	)	_	_	_	_	_	_	_	
+8-7	466-467	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	469-470	#	_	_	_	_	_	_	_	
+9-2	470-471	P	_	_	_	_	_	_	_	
+9-3	472-475	IMM	_	_	_	_	_	_	_	
+9-4	475-476	.	_	_	_	_	_	_	_	
+
+#Text=Turkiets premiärminister Ahmet Davutoglu.
+10-1	478-486	Turkiets	_	_	_	_	_	_	_	
+10-2	487-502	premiärminister	_	_	_	_	_	_	_	
+10-3	503-508	Ahmet	_	_	_	_	_	_	_	
+10-4	509-518	Davutoglu	_	_	_	_	_	_	_	
+10-5	518-519	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	521-522	#	_	_	_	_	_	_	_	
+11-2	522-523	P	_	_	_	_	_	_	_	
+11-3	524-527	IMM	_	_	_	_	_	_	_	
+11-4	527-528	.	_	_	_	_	_	_	_	
+
+#Text=Flyktingkris har länder som Syrien, Irak, Afghanistan, Eritrea och Somalia.
+12-1	530-542	Flyktingkris	*	Target	12-1	false	1	_	_	
+12-2	543-546	har	_	_	_	_	_	_	_	
+12-3	547-553	länder	_	_	_	_	_	_	_	
+12-4	554-557	som	_	_	_	_	_	_	_	
+12-5	558-564	Syrien	_	_	_	_	_	_	_	
+12-6	564-565	,	_	_	_	_	_	_	_	
+12-7	566-570	Irak	_	_	_	_	_	_	_	
+12-8	570-571	,	_	_	_	_	_	_	_	
+12-9	572-583	Afghanistan	_	_	_	_	_	_	_	
+12-10	583-584	,	_	_	_	_	_	_	_	
+12-11	585-592	Eritrea	_	_	_	_	_	_	_	
+12-12	593-596	och	_	_	_	_	_	_	_	
+12-13	597-604	Somalia	_	_	_	_	_	_	_	
+12-14	604-605	.	_	_	_	_	_	_	_	
+
+#Text=Europa, däremot, har en moralisk kris.
+13-1	606-612	Europa	_	_	_	_	_	_	_	
+13-2	612-613	,	_	_	_	_	_	_	_	
+13-3	614-621	däremot	_	_	_	_	_	_	_	
+13-4	621-622	,	_	_	_	_	_	_	_	
+13-5	623-626	har	_	_	_	_	_	_	_	
+13-6	627-629	en	_	_	_	_	_	_	_	
+13-7	630-638	moralisk	*[34]	Target[4]	13-7[34]	false[4]	1[4]	_	_	
+13-8	639-643	kris	*[34]	Target[4]	13-7[34]	false[4]	1[4]	_	_	
+13-9	643-644	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	646-647	#	_	_	_	_	_	_	_	
+14-2	647-648	P	_	_	_	_	_	_	_	
+14-3	649-652	IMM	_	_	_	_	_	_	_	
+14-4	652-653	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+15-1	655-658	Det	_	_	_	_	_	_	_	
+15-2	659-662	här	_	_	_	_	_	_	_	
+15-3	663-665	är	_	_	_	_	_	_	_	
+15-4	666-668	en	_	_	_	_	_	_	_	
+15-5	669-683	argumenterande	_	_	_	_	_	_	_	
+15-6	684-688	text	_	_	_	_	_	_	_	
+15-7	689-692	med	_	_	_	_	_	_	_	
+15-8	693-698	syfte	_	_	_	_	_	_	_	
+15-9	699-702	att	_	_	_	_	_	_	_	
+15-10	703-710	påverka	_	_	_	_	_	_	_	
+15-11	710-711	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+16-1	712-721	Åsikterna	_	_	_	_	_	_	_	
+16-2	722-725	som	_	_	_	_	_	_	_	
+16-3	726-734	uttrycks	_	_	_	_	_	_	_	
+16-4	735-737	är	_	_	_	_	_	_	_	
+16-5	738-749	skribentens	_	_	_	_	_	_	_	
+16-6	750-754	egna	_	_	_	_	_	_	_	
+16-7	754-755	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	757-758	#	_	_	_	_	_	_	_	
+17-2	758-759	P	_	_	_	_	_	_	_	
+17-3	760-763	IMM	_	_	_	_	_	_	_	
+17-4	763-764	.	_	_	_	_	_	_	_	
+
+#Text=Aldrig förr har så många människor runtom i världen varit på flykt som i dag.
+18-1	766-772	Aldrig	_	_	_	_	_	_	_	
+18-2	773-777	förr	_	_	_	_	_	_	_	
+18-3	778-781	har	_	_	_	_	_	_	_	
+18-4	782-784	så	_	_	_	_	_	_	_	
+18-5	785-790	många	_	_	_	_	_	_	_	
+18-6	791-800	människor	_	_	_	_	_	_	_	
+18-7	801-807	runtom	_	_	_	_	_	_	_	
+18-8	808-809	i	_	_	_	_	_	_	_	
+18-9	810-817	världen	_	_	_	_	_	_	_	
+18-10	818-823	varit	_	_	_	_	_	_	_	
+18-11	824-826	på	_	_	_	_	_	_	_	
+18-12	827-832	flykt	_	_	_	_	_	_	_	
+18-13	833-836	som	_	_	_	_	_	_	_	
+18-14	837-838	i	_	_	_	_	_	_	_	
+18-15	839-842	dag	_	_	_	_	_	_	_	
+18-16	842-843	.	_	_	_	_	_	_	_	
+
+#Text=Av dessa mer än 60 miljoner personer söker sig högst ett par miljoner till Europa, en av världens rikaste kontinenter med cirka 500 miljoner invånare.
+19-1	844-846	Av	_	_	_	_	_	_	_	
+19-2	847-852	dessa	_	_	_	_	_	_	_	
+19-3	853-856	mer	_	_	_	_	_	_	_	
+19-4	857-859	än	_	_	_	_	_	_	_	
+19-5	860-862	60	_	_	_	_	_	_	_	
+19-6	863-871	miljoner	_	_	_	_	_	_	_	
+19-7	872-880	personer	_	_	_	_	_	_	_	
+19-8	881-886	söker	_	_	_	_	_	_	_	
+19-9	887-890	sig	_	_	_	_	_	_	_	
+19-10	891-896	högst	_	_	_	_	_	_	_	
+19-11	897-900	ett	_	_	_	_	_	_	_	
+19-12	901-904	par	_	_	_	_	_	_	_	
+19-13	905-913	miljoner	_	_	_	_	_	_	_	
+19-14	914-918	till	_	_	_	_	_	_	_	
+19-15	919-925	Europa	_	_	_	_	_	_	_	
+19-16	925-926	,	_	_	_	_	_	_	_	
+19-17	927-929	en	_	_	_	_	_	_	_	
+19-18	930-932	av	_	_	_	_	_	_	_	
+19-19	933-941	världens	_	_	_	_	_	_	_	
+19-20	942-949	rikaste	_	_	_	_	_	_	_	
+19-21	950-961	kontinenter	_	_	_	_	_	_	_	
+19-22	962-965	med	_	_	_	_	_	_	_	
+19-23	966-971	cirka	_	_	_	_	_	_	_	
+19-24	972-975	500	_	_	_	_	_	_	_	
+19-25	976-984	miljoner	_	_	_	_	_	_	_	
+19-26	985-993	invånare	_	_	_	_	_	_	_	
+19-27	993-994	.	_	_	_	_	_	_	_	
+
+#Text=Människor som lämnar sina hem och allt de äger bakom sig gör det för att de är desperata efter en trygg plats.
+20-1	995-1004	Människor	_	_	_	_	_	_	_	
+20-2	1005-1008	som	_	_	_	_	_	_	_	
+20-3	1009-1015	lämnar	_	_	_	_	_	_	_	
+20-4	1016-1020	sina	_	_	_	_	_	_	_	
+20-5	1021-1024	hem	_	_	_	_	_	_	_	
+20-6	1025-1028	och	_	_	_	_	_	_	_	
+20-7	1029-1033	allt	_	_	_	_	_	_	_	
+20-8	1034-1036	de	_	_	_	_	_	_	_	
+20-9	1037-1041	äger	_	_	_	_	_	_	_	
+20-10	1042-1047	bakom	_	_	_	_	_	_	_	
+20-11	1048-1051	sig	_	_	_	_	_	_	_	
+20-12	1052-1055	gör	_	_	_	_	_	_	_	
+20-13	1056-1059	det	_	_	_	_	_	_	_	
+20-14	1060-1063	för	_	_	_	_	_	_	_	
+20-15	1064-1067	att	_	_	_	_	_	_	_	
+20-16	1068-1070	de	_	_	_	_	_	_	_	
+20-17	1071-1073	är	_	_	_	_	_	_	_	
+20-18	1074-1083	desperata	_	_	_	_	_	_	_	
+20-19	1084-1089	efter	_	_	_	_	_	_	_	
+20-20	1090-1092	en	_	_	_	_	_	_	_	
+20-21	1093-1098	trygg	_	_	_	_	_	_	_	
+20-22	1099-1104	plats	_	_	_	_	_	_	_	
+20-23	1104-1105	.	_	_	_	_	_	_	_	
+
+#Text=Ändå beter sig EU som om dessa människor utgör ett militärt och ekonomiskt hot som ska motas bort med militära medel och kohandel.
+21-1	1106-1110	Ändå	_	_	_	_	_	_	_	
+21-2	1111-1116	beter	_	_	_	_	_	_	_	
+21-3	1117-1120	sig	_	_	_	_	_	_	_	
+21-4	1121-1123	EU	*	_	_	_	_	_	_	
+21-5	1124-1127	som	_	_	_	_	_	_	_	
+21-6	1128-1130	om	_	_	_	_	_	_	_	
+21-7	1131-1136	dessa	*[35]	_	_	_	_	_	_	
+21-8	1137-1146	människor	*[35]	_	_	_	_	_	_	
+21-9	1147-1152	utgör	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-10	1153-1156	ett	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-11	1157-1165	militärt	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-12	1166-1169	och	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-13	1170-1180	ekonomiskt	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-14	1181-1184	hot	_	Target;Source[5]	21-7[35];21-4	false[5]	1[5]	_	_	
+21-15	1185-1188	som	_	_	_	_	_	_	_	
+21-16	1189-1192	ska	_	_	_	_	_	_	_	
+21-17	1193-1198	motas	_	_	_	_	_	_	_	
+21-18	1199-1203	bort	_	_	_	_	_	_	_	
+21-19	1204-1207	med	_	_	_	_	_	_	_	
+21-20	1208-1216	militära	_	_	_	_	_	_	_	
+21-21	1217-1222	medel	_	_	_	_	_	_	_	
+21-22	1223-1226	och	_	_	_	_	_	_	_	
+21-23	1227-1235	kohandel	*	Target	21-23	false	2	_	_	
+21-24	1235-1236	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1238-1239	#	_	_	_	_	_	_	_	
+22-2	1239-1240	P	_	_	_	_	_	_	_	
+22-3	1241-1244	IMM	_	_	_	_	_	_	_	
+22-4	1244-1245	.	_	_	_	_	_	_	_	
+
+#Text=**På torsdag och fredag **träffas representanter för EU och Turkiet återigen för att diskutera EU-kommissionens förslag till ett flyktingavtal med Turkiet.
+23-1	1247-1248	*	_	_	_	_	_	_	_	
+23-2	1248-1249	*	_	_	_	_	_	_	_	
+23-3	1249-1251	På	_	_	_	_	_	_	_	
+23-4	1252-1259	torsdag	_	_	_	_	_	_	_	
+23-5	1260-1263	och	_	_	_	_	_	_	_	
+23-6	1264-1270	fredag	_	_	_	_	_	_	_	
+23-7	1271-1272	*	_	_	_	_	_	_	_	
+23-8	1272-1273	*	_	_	_	_	_	_	_	
+23-9	1273-1280	träffas	_	_	_	_	_	_	_	
+23-10	1281-1295	representanter	_	_	_	_	_	_	_	
+23-11	1296-1299	för	_	_	_	_	_	_	_	
+23-12	1300-1302	EU	_	_	_	_	_	_	_	
+23-13	1303-1306	och	_	_	_	_	_	_	_	
+23-14	1307-1314	Turkiet	_	_	_	_	_	_	_	
+23-15	1315-1323	återigen	_	_	_	_	_	_	_	
+23-16	1324-1327	för	_	_	_	_	_	_	_	
+23-17	1328-1331	att	_	_	_	_	_	_	_	
+23-18	1332-1341	diskutera	_	_	_	_	_	_	_	
+23-19	1342-1358	EU-kommissionens	*[36]	_	_	_	_	_	26-1[0_36]	
+23-20	1359-1366	förslag	*[36]	_	_	_	_	_	_	
+23-21	1367-1371	till	*[36]	_	_	_	_	_	_	
+23-22	1372-1375	ett	*[36]	_	_	_	_	_	_	
+23-23	1376-1389	flyktingavtal	*[36]	_	_	_	_	_	_	
+23-24	1390-1393	med	*[36]	_	_	_	_	_	_	
+23-25	1394-1401	Turkiet	*[36]	_	_	_	_	_	_	
+23-26	1401-1402	.	_	_	_	_	_	_	_	
+
+#Text=Avtalet innebär bland annat att alla flyktingar som tar sig från Turkiet till Grekland skickas tillbaka till Turkiet, inte minst med hjälp av Natos och Frontex militärfartyg.
+24-1	1403-1410	Avtalet	_	_	_	_	_	_	_	
+24-2	1411-1418	innebär	_	_	_	_	_	_	_	
+24-3	1419-1424	bland	_	_	_	_	_	_	_	
+24-4	1425-1430	annat	_	_	_	_	_	_	_	
+24-5	1431-1434	att	_	_	_	_	_	_	_	
+24-6	1435-1439	alla	_	_	_	_	_	_	_	
+24-7	1440-1450	flyktingar	_	_	_	_	_	_	_	
+24-8	1451-1454	som	_	_	_	_	_	_	_	
+24-9	1455-1458	tar	_	_	_	_	_	_	_	
+24-10	1459-1462	sig	_	_	_	_	_	_	_	
+24-11	1463-1467	från	_	_	_	_	_	_	_	
+24-12	1468-1475	Turkiet	_	_	_	_	_	_	_	
+24-13	1476-1480	till	_	_	_	_	_	_	_	
+24-14	1481-1489	Grekland	_	_	_	_	_	_	_	
+24-15	1490-1497	skickas	_	_	_	_	_	_	_	
+24-16	1498-1506	tillbaka	_	_	_	_	_	_	_	
+24-17	1507-1511	till	_	_	_	_	_	_	_	
+24-18	1512-1519	Turkiet	_	_	_	_	_	_	_	
+24-19	1519-1520	,	_	_	_	_	_	_	_	
+24-20	1521-1525	inte	_	_	_	_	_	_	_	
+24-21	1526-1531	minst	_	_	_	_	_	_	_	
+24-22	1532-1535	med	_	_	_	_	_	_	_	
+24-23	1536-1541	hjälp	_	_	_	_	_	_	_	
+24-24	1542-1544	av	_	_	_	_	_	_	_	
+24-25	1545-1550	Natos	_	_	_	_	_	_	_	
+24-26	1551-1554	och	_	_	_	_	_	_	_	
+24-27	1555-1562	Frontex	_	_	_	_	_	_	_	
+24-28	1563-1576	militärfartyg	_	_	_	_	_	_	_	
+24-29	1576-1577	.	_	_	_	_	_	_	_	
+
+#Text=För varje person som skickas tillbaka ska en syrier som befinner sig i Turkiet omplaceras till ett europeiskt land.
+25-1	1578-1581	För	_	_	_	_	_	_	_	
+25-2	1582-1587	varje	_	_	_	_	_	_	_	
+25-3	1588-1594	person	_	_	_	_	_	_	_	
+25-4	1595-1598	som	_	_	_	_	_	_	_	
+25-5	1599-1606	skickas	_	_	_	_	_	_	_	
+25-6	1607-1615	tillbaka	_	_	_	_	_	_	_	
+25-7	1616-1619	ska	_	_	_	_	_	_	_	
+25-8	1620-1622	en	_	_	_	_	_	_	_	
+25-9	1623-1629	syrier	_	_	_	_	_	_	_	
+25-10	1630-1633	som	_	_	_	_	_	_	_	
+25-11	1634-1642	befinner	_	_	_	_	_	_	_	
+25-12	1643-1646	sig	_	_	_	_	_	_	_	
+25-13	1647-1648	i	_	_	_	_	_	_	_	
+25-14	1649-1656	Turkiet	_	_	_	_	_	_	_	
+25-15	1657-1667	omplaceras	_	_	_	_	_	_	_	
+25-16	1668-1672	till	_	_	_	_	_	_	_	
+25-17	1673-1676	ett	_	_	_	_	_	_	_	
+25-18	1677-1687	europeiskt	_	_	_	_	_	_	_	
+25-19	1688-1692	land	_	_	_	_	_	_	_	
+25-20	1692-1693	.	_	_	_	_	_	_	_	
+
+#Text=Det åsidosätter den individuella asylrätten och negligerar totalt alla flyktingar som inte råkar vara från Syrien.
+26-1	1694-1697	Det	*	_	_	_	_	_	_	
+26-2	1698-1709	åsidosätter	_	_	_	_	_	_	_	
+26-3	1710-1713	den	_	_	_	_	_	_	_	
+26-4	1714-1726	individuella	_	_	_	_	_	_	_	
+26-5	1727-1737	asylrätten	_	_	_	_	_	_	_	
+26-6	1738-1741	och	_	_	_	_	_	_	_	
+26-7	1742-1752	negligerar	_	Source;Target[6]	26-1;26-9[37]	false[6]	1[6]	_	_	
+26-8	1753-1759	totalt	_	Source;Target[6]	26-1;26-9[37]	false[6]	1[6]	_	_	
+26-9	1760-1764	alla	*[37]	_	_	_	_	_	_	
+26-10	1765-1775	flyktingar	*[37]	_	_	_	_	_	_	
+26-11	1776-1779	som	*[37]	_	_	_	_	_	_	
+26-12	1780-1784	inte	*[37]	_	_	_	_	_	_	
+26-13	1785-1790	råkar	*[37]	_	_	_	_	_	_	
+26-14	1791-1795	vara	*[37]	_	_	_	_	_	_	
+26-15	1796-1800	från	*[37]	_	_	_	_	_	_	
+26-16	1801-1807	Syrien	*[37]	_	_	_	_	_	_	
+26-17	1807-1808	.	_	_	_	_	_	_	_	
+
+#Text=Att EU, med hjälp av cirka 30 miljarder kronor, lastar över ansvaret för flyktingarna på ett land som Turkiet är upprörande.
+27-1	1809-1812	Att	*[38]	_	_	_	_	_	_	
+27-2	1813-1815	EU	*[38]	_	_	_	_	_	_	
+27-3	1815-1816	,	*[38]	_	_	_	_	_	_	
+27-4	1817-1820	med	*[38]	_	_	_	_	_	_	
+27-5	1821-1826	hjälp	*[38]	_	_	_	_	_	_	
+27-6	1827-1829	av	*[38]	_	_	_	_	_	_	
+27-7	1830-1835	cirka	*[38]	_	_	_	_	_	_	
+27-8	1836-1838	30	*[38]	_	_	_	_	_	_	
+27-9	1839-1848	miljarder	*[38]	_	_	_	_	_	_	
+27-10	1849-1855	kronor	*[38]	_	_	_	_	_	_	
+27-11	1855-1856	,	*[38]	_	_	_	_	_	_	
+27-12	1857-1863	lastar	*[38]	_	_	_	_	_	_	
+27-13	1864-1868	över	*[38]	_	_	_	_	_	_	
+27-14	1869-1877	ansvaret	*[38]	_	_	_	_	_	_	
+27-15	1878-1881	för	*[38]	_	_	_	_	_	_	
+27-16	1882-1894	flyktingarna	*[38]	_	_	_	_	_	_	
+27-17	1895-1897	på	*[38]	_	_	_	_	_	_	
+27-18	1898-1901	ett	*[38]	_	_	_	_	_	_	
+27-19	1902-1906	land	*[38]	_	_	_	_	_	_	
+27-20	1907-1910	som	*[38]	_	_	_	_	_	_	
+27-21	1911-1918	Turkiet	*[38]	_	_	_	_	_	_	
+27-22	1919-1921	är	_	_	_	_	_	_	_	
+27-23	1922-1932	upprörande	_	Target	27-1[38]	false	1	_	_	
+27-24	1932-1933	.	_	_	_	_	_	_	_	
+
+#Text=Turkiets alltmer auktoritära regim begår konstanta brott mot de mänskliga rättigheterna när det gäller behandlingen av kurderna och regimkritiker.
+28-1	1934-1942	Turkiets	*[39]	_	_	_	_	_	_	
+28-2	1943-1950	alltmer	*[39]	_	_	_	_	_	_	
+28-3	1951-1962	auktoritära	*[39]|*[40]	Target[7]	28-3[40]	false[7]	1[7]	_	_	
+28-4	1963-1968	regim	*[39]|*[40]	Target[7]	28-3[40]	false[7]	1[7]	_	_	
+28-5	1969-1974	begår	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-6	1975-1984	konstanta	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-7	1985-1990	brott	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-8	1991-1994	mot	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-9	1995-1997	de	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-10	1998-2007	mänskliga	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-11	2008-2021	rättigheterna	_	Target[8]	28-1[39]	false[8]	1[8]	_	_	
+28-12	2022-2025	när	_	_	_	_	_	_	_	
+28-13	2026-2029	det	_	_	_	_	_	_	_	
+28-14	2030-2036	gäller	_	_	_	_	_	_	_	
+28-15	2037-2049	behandlingen	_	_	_	_	_	_	_	
+28-16	2050-2052	av	_	_	_	_	_	_	_	
+28-17	2053-2061	kurderna	_	_	_	_	_	_	_	
+28-18	2062-2065	och	_	_	_	_	_	_	_	
+28-19	2066-2079	regimkritiker	_	_	_	_	_	_	_	
+28-20	2079-2080	.	_	_	_	_	_	_	_	
+
+#Text=Yttrandefriheten och pressfriheten är satt ur spel.
+29-1	2081-2097	Yttrandefriheten	_	_	_	_	_	_	_	
+29-2	2098-2101	och	_	_	_	_	_	_	_	
+29-3	2102-2115	pressfriheten	_	_	_	_	_	_	_	
+29-4	2116-2118	är	_	_	_	_	_	_	_	
+29-5	2119-2123	satt	_	_	_	_	_	_	_	
+29-6	2124-2126	ur	_	_	_	_	_	_	_	
+29-7	2127-2131	spel	_	_	_	_	_	_	_	
+29-8	2131-2132	.	_	_	_	_	_	_	_	
+
+#Text=Ändå anses landet nu alltså vara lämpligare än Europa att ta hand om flyktingar.
+30-1	2133-2137	Ändå	_	_	_	_	_	_	_	
+30-2	2138-2143	anses	_	_	_	_	_	_	_	
+30-3	2144-2150	landet	*	_	_	_	_	_	_	
+30-4	2151-2153	nu	_	_	_	_	_	_	_	
+30-5	2154-2160	alltså	_	_	_	_	_	_	_	
+30-6	2161-2165	vara	_	_	_	_	_	_	_	
+30-7	2166-2176	lämpligare	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-8	2177-2179	än	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-9	2180-2186	Europa	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-10	2187-2190	att	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-11	2191-2193	ta	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-12	2194-2198	hand	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-13	2199-2201	om	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-14	2202-2212	flyktingar	_	Target[9]	30-3	false[9]	3[9]	_	_	
+30-15	2212-2213	.	_	_	_	_	_	_	_	
+
+#Text=Turkiet som dessutom redan tagit emot tre miljoner människor på flykt.
+31-1	2214-2221	Turkiet	_	_	_	_	_	_	_	
+31-2	2222-2225	som	_	_	_	_	_	_	_	
+31-3	2226-2234	dessutom	_	_	_	_	_	_	_	
+31-4	2235-2240	redan	_	_	_	_	_	_	_	
+31-5	2241-2246	tagit	_	_	_	_	_	_	_	
+31-6	2247-2251	emot	_	_	_	_	_	_	_	
+31-7	2252-2255	tre	_	_	_	_	_	_	_	
+31-8	2256-2264	miljoner	_	_	_	_	_	_	_	
+31-9	2265-2274	människor	_	_	_	_	_	_	_	
+31-10	2275-2277	på	_	_	_	_	_	_	_	
+31-11	2278-2283	flykt	_	_	_	_	_	_	_	
+31-12	2283-2284	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2286-2287	#	_	_	_	_	_	_	_	
+32-2	2287-2288	P	_	_	_	_	_	_	_	
+32-3	2289-2292	IMM	_	_	_	_	_	_	_	
+32-4	2292-2293	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt stänger land efter land i Europa sina gränser och Sverige håller på att införa Europas mest restriktiva flyktingpolitik.
+33-1	2295-2304	Samtidigt	_	_	_	_	_	_	_	
+33-2	2305-2312	stänger	_	_	_	_	_	_	_	
+33-3	2313-2317	land	_	_	_	_	_	_	_	
+33-4	2318-2323	efter	_	_	_	_	_	_	_	
+33-5	2324-2328	land	_	_	_	_	_	_	_	
+33-6	2329-2330	i	_	_	_	_	_	_	_	
+33-7	2331-2337	Europa	_	_	_	_	_	_	_	
+33-8	2338-2342	sina	_	_	_	_	_	_	_	
+33-9	2343-2350	gränser	_	_	_	_	_	_	_	
+33-10	2351-2354	och	_	_	_	_	_	_	_	
+33-11	2355-2362	Sverige	_	_	_	_	_	_	_	
+33-12	2363-2369	håller	_	_	_	_	_	_	_	
+33-13	2370-2372	på	_	_	_	_	_	_	_	
+33-14	2373-2376	att	_	_	_	_	_	_	_	
+33-15	2377-2383	införa	_	_	_	_	_	_	_	
+33-16	2384-2391	Europas	_	_	_	_	_	_	_	
+33-17	2392-2396	mest	_	_	_	_	_	_	_	
+33-18	2397-2408	restriktiva	_	_	_	_	_	_	_	
+33-19	2409-2424	flyktingpolitik	_	_	_	_	_	_	_	
+33-20	2424-2425	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens förslag till ny migrationspolitik har sågats i alla de 22 remissinstanser som hittills svarat, eftersom förslaget innehåller ineffektiva och inhumana åtgärder som tillfälliga uppehållstillstånd och kraftigt minskade möjligheter till familjeåterförening, åtgärder som dessutom entydigt försvårar integrationen.
+34-1	2426-2437	Regeringens	*[41]|*[42]	_	_	_	_	_	34-18[0_41]	
+34-2	2438-2445	förslag	*[41]|*[42]	_	_	_	_	_	_	
+34-3	2446-2450	till	*[41]|*[42]	_	_	_	_	_	_	
+34-4	2451-2453	ny	*[41]|*[42]	_	_	_	_	_	_	
+34-5	2454-2471	migrationspolitik	*[41]|*[42]	_	_	_	_	_	_	
+34-6	2472-2475	har	_	Source;Target[10]	34-9[43];34-1[41]	false[10]	1[10]	_	_	
+34-7	2476-2482	sågats	_	Source;Target[10]	34-9[43];34-1[41]	false[10]	1[10]	_	_	
+34-8	2483-2484	i	_	_	_	_	_	_	_	
+34-9	2485-2489	alla	*[43]	_	_	_	_	_	_	
+34-10	2490-2492	de	*[43]	_	_	_	_	_	_	
+34-11	2493-2495	22	*[43]	_	_	_	_	_	_	
+34-12	2496-2511	remissinstanser	*[43]	_	_	_	_	_	_	
+34-13	2512-2515	som	*[43]	_	_	_	_	_	_	
+34-14	2516-2524	hittills	*[43]	_	_	_	_	_	_	
+34-15	2525-2531	svarat	*[43]	_	_	_	_	_	_	
+34-16	2531-2532	,	_	_	_	_	_	_	_	
+34-17	2533-2541	eftersom	_	_	_	_	_	_	_	
+34-18	2542-2551	förslaget	*	_	_	_	_	_	_	
+34-19	2552-2562	innehåller	_	Target[11]	34-18	false[11]	2[11]	_	_	
+34-20	2563-2574	ineffektiva	_	Target[11]	34-18	false[11]	2[11]	_	_	
+34-21	2575-2578	och	_	Target[11]	34-18	false[11]	2[11]	_	_	
+34-22	2579-2587	inhumana	_	Target[11]	34-18	false[11]	2[11]	_	_	
+34-23	2588-2596	åtgärder	_	Target[11]	34-18	false[11]	2[11]	_	_	
+34-24	2597-2600	som	_	_	_	_	_	_	_	
+34-25	2601-2612	tillfälliga	_	_	_	_	_	_	_	
+34-26	2613-2631	uppehållstillstånd	_	_	_	_	_	_	_	
+34-27	2632-2635	och	_	_	_	_	_	_	_	
+34-28	2636-2644	kraftigt	*[44]	Target[12]	34-28[44]	false[12]	2[12]	_	_	
+34-29	2645-2653	minskade	*[44]	Target[12]	34-28[44]	false[12]	2[12]	_	_	
+34-30	2654-2665	möjligheter	*[44]	Target[12]	34-28[44]	false[12]	2[12]	_	_	
+34-31	2666-2670	till	_	_	_	_	_	_	_	
+34-32	2671-2690	familjeåterförening	_	_	_	_	_	_	_	
+34-33	2690-2691	,	_	_	_	_	_	_	_	
+34-34	2692-2700	åtgärder	_	_	_	_	_	_	_	
+34-35	2701-2704	som	_	_	_	_	_	_	_	
+34-36	2705-2713	dessutom	_	_	_	_	_	_	_	
+34-37	2714-2722	entydigt	_	_	_	_	_	_	_	
+34-38	2723-2732	försvårar	*	Target	34-38	false	1	_	_	
+34-39	2733-2746	integrationen	_	_	_	_	_	_	_	
+34-40	2746-2747	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2749-2750	#	_	_	_	_	_	_	_	
+35-2	2750-2751	P	_	_	_	_	_	_	_	
+35-3	2752-2755	IMM	_	_	_	_	_	_	_	
+35-4	2755-2756	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte värdigt ett land som Sverige att stödja den här sortens migrationspolitik.
+36-1	2758-2761	Det	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-2	2762-2764	är	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-3	2765-2769	inte	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-4	2770-2777	värdigt	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-5	2778-2781	ett	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-6	2782-2786	land	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-7	2787-2790	som	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-8	2791-2798	Sverige	_	Target[13]	36-9[45]	false[13]	1[13]	_	_	
+36-9	2799-2802	att	*[45]	_	_	_	_	_	_	
+36-10	2803-2809	stödja	*[45]	_	_	_	_	_	_	
+36-11	2810-2813	den	*[45]	_	_	_	_	_	_	
+36-12	2814-2817	här	*[45]	_	_	_	_	_	_	
+36-13	2818-2825	sortens	*[45]	_	_	_	_	_	_	
+36-14	2826-2843	migrationspolitik	*[45]	_	_	_	_	_	_	
+36-15	2843-2844	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2846-2847	#	_	_	_	_	_	_	_	
+37-2	2847-2848	P	_	_	_	_	_	_	_	
+37-3	2849-2852	IMM	_	_	_	_	_	_	_	
+37-4	2852-2853	.	_	_	_	_	_	_	_	
+
+#Text=**Att andra länder **i Europa sviker sitt folkrättsliga ansvar att ta emot och juridiskt pröva flyende människors individuella rätt till asyl räcker inte som ursäkt.
+38-1	2855-2856	*	_	_	_	_	_	_	_	
+38-2	2856-2857	*	_	_	_	_	_	_	_	
+38-3	2857-2860	Att	*[46]|*[47]	_	_	_	_	_	_	
+38-4	2861-2866	andra	*[46]|*[47]	_	_	_	_	_	_	
+38-5	2867-2873	länder	*[46]|*[47]	_	_	_	_	_	_	
+38-6	2874-2875	*	*[46]|*[47]	_	_	_	_	_	_	
+38-7	2875-2876	*	*[46]|*[47]	_	_	_	_	_	_	
+38-8	2876-2877	i	*[46]|*[47]	_	_	_	_	_	_	
+38-9	2878-2884	Europa	*[46]|*[47]	_	_	_	_	_	_	
+38-10	2885-2891	sviker	*[46]	Target;Source	38-11[48];38-3[47]	false	2	_	_	
+38-11	2892-2896	sitt	*[46]|*[48]	_	_	_	_	_	_	
+38-12	2897-2910	folkrättsliga	*[46]|*[48]	_	_	_	_	_	_	
+38-13	2911-2917	ansvar	*[46]|*[48]	_	_	_	_	_	_	
+38-14	2918-2921	att	*[46]	_	_	_	_	_	_	
+38-15	2922-2924	ta	*[46]	_	_	_	_	_	_	
+38-16	2925-2929	emot	*[46]	_	_	_	_	_	_	
+38-17	2930-2933	och	*[46]	_	_	_	_	_	_	
+38-18	2934-2943	juridiskt	*[46]	_	_	_	_	_	_	
+38-19	2944-2949	pröva	*[46]	_	_	_	_	_	_	
+38-20	2950-2957	flyende	*[46]	_	_	_	_	_	_	
+38-21	2958-2968	människors	*[46]	_	_	_	_	_	_	
+38-22	2969-2981	individuella	*[46]	_	_	_	_	_	_	
+38-23	2982-2986	rätt	*[46]	_	_	_	_	_	_	
+38-24	2987-2991	till	*[46]	_	_	_	_	_	_	
+38-25	2992-2996	asyl	*[46]	_	_	_	_	_	_	
+38-26	2997-3003	räcker	_	Target[14]	38-3[46]	false[14]	2[14]	_	_	
+38-27	3004-3008	inte	_	Target[14]	38-3[46]	false[14]	2[14]	_	_	
+38-28	3009-3012	som	_	Target[14]	38-3[46]	false[14]	2[14]	_	_	
+38-29	3013-3019	ursäkt	_	Target[14]	38-3[46]	false[14]	2[14]	_	_	
+38-30	3019-3020	.	_	_	_	_	_	_	_	
+
+#Text=Det enda sättet att hantera denna fråga, som handlar om människor liv och död, är att samarbeta.
+39-1	3021-3024	Det	_	_	_	_	_	_	_	
+39-2	3025-3029	enda	_	_	_	_	_	_	_	
+39-3	3030-3036	sättet	_	_	_	_	_	_	_	
+39-4	3037-3040	att	_	_	_	_	_	_	_	
+39-5	3041-3048	hantera	_	_	_	_	_	_	_	
+39-6	3049-3054	denna	_	_	_	_	_	_	_	
+39-7	3055-3060	fråga	_	_	_	_	_	_	_	
+39-8	3060-3061	,	_	_	_	_	_	_	_	
+39-9	3062-3065	som	_	_	_	_	_	_	_	
+39-10	3066-3073	handlar	_	_	_	_	_	_	_	
+39-11	3074-3076	om	_	_	_	_	_	_	_	
+39-12	3077-3086	människor	_	_	_	_	_	_	_	
+39-13	3087-3090	liv	_	_	_	_	_	_	_	
+39-14	3091-3094	och	_	_	_	_	_	_	_	
+39-15	3095-3098	död	_	_	_	_	_	_	_	
+39-16	3098-3099	,	_	_	_	_	_	_	_	
+39-17	3100-3102	är	_	_	_	_	_	_	_	
+39-18	3103-3106	att	_	_	_	_	_	_	_	
+39-19	3107-3116	samarbeta	_	_	_	_	_	_	_	
+39-20	3116-3117	.	_	_	_	_	_	_	_	
+
+#Text=Ett ökat europeiskt mottagande är den enda acceptabla möjligheten att återupprätta Schengen.
+40-1	3118-3121	Ett	*[49]	_	_	_	_	_	_	
+40-2	3122-3126	ökat	*[49]	_	_	_	_	_	_	
+40-3	3127-3137	europeiskt	*[49]	_	_	_	_	_	_	
+40-4	3138-3148	mottagande	*[49]	_	_	_	_	_	_	
+40-5	3149-3151	är	_	Target[15]	40-1[49]	false[15]	5[15]	_	_	
+40-6	3152-3155	den	_	Target[15]	40-1[49]	false[15]	5[15]	_	_	
+40-7	3156-3160	enda	_	Target[15]	40-1[49]	false[15]	5[15]	_	_	
+40-8	3161-3171	acceptabla	_	Target[15]	40-1[49]	false[15]	5[15]	_	_	
+40-9	3172-3183	möjligheten	_	Target[15]	40-1[49]	false[15]	5[15]	_	_	
+40-10	3184-3187	att	_	_	_	_	_	_	_	
+40-11	3188-3200	återupprätta	_	_	_	_	_	_	_	
+40-12	3201-3209	Schengen	_	_	_	_	_	_	_	
+40-13	3209-3210	.	_	_	_	_	_	_	_	
+
+#Text=Ett fördjupat samarbete mellan villiga EU-länder är den enda realistiska möjligheten att genomföra detta.
+41-1	3211-3214	Ett	_	_	_	_	_	_	_	
+41-2	3215-3224	fördjupat	_	_	_	_	_	_	_	
+41-3	3225-3234	samarbete	_	_	_	_	_	_	_	
+41-4	3235-3241	mellan	_	_	_	_	_	_	_	
+41-5	3242-3249	villiga	_	_	_	_	_	_	_	
+41-6	3250-3259	EU-länder	_	_	_	_	_	_	_	
+41-7	3260-3262	är	_	_	_	_	_	_	_	
+41-8	3263-3266	den	_	_	_	_	_	_	_	
+41-9	3267-3271	enda	_	_	_	_	_	_	_	
+41-10	3272-3283	realistiska	_	_	_	_	_	_	_	
+41-11	3284-3295	möjligheten	_	_	_	_	_	_	_	
+41-12	3296-3299	att	_	_	_	_	_	_	_	
+41-13	3300-3309	genomföra	_	_	_	_	_	_	_	
+41-14	3310-3315	detta	_	_	_	_	_	_	_	
+41-15	3315-3316	.	_	_	_	_	_	_	_	
+
+#Text=Om vi nu inte får med oss alla EU:s 28 medlemsstater, så får vi börja med en koalition av villiga länder.
+42-1	3317-3319	Om	_	_	_	_	_	_	_	
+42-2	3320-3322	vi	_	_	_	_	_	_	_	
+42-3	3323-3325	nu	_	_	_	_	_	_	_	
+42-4	3326-3330	inte	_	_	_	_	_	_	_	
+42-5	3331-3334	får	_	_	_	_	_	_	_	
+42-6	3335-3338	med	_	_	_	_	_	_	_	
+42-7	3339-3342	oss	_	_	_	_	_	_	_	
+42-8	3343-3347	alla	_	_	_	_	_	_	_	
+42-9	3348-3350	EU	_	_	_	_	_	_	_	
+42-10	3350-3351	:	_	_	_	_	_	_	_	
+42-11	3351-3352	s	_	_	_	_	_	_	_	
+42-12	3353-3355	28	_	_	_	_	_	_	_	
+42-13	3356-3369	medlemsstater	_	_	_	_	_	_	_	
+42-14	3369-3370	,	_	_	_	_	_	_	_	
+42-15	3371-3373	så	_	_	_	_	_	_	_	
+42-16	3374-3377	får	_	_	_	_	_	_	_	
+42-17	3378-3380	vi	_	_	_	_	_	_	_	
+42-18	3381-3386	börja	_	_	_	_	_	_	_	
+42-19	3387-3390	med	_	_	_	_	_	_	_	
+42-20	3391-3393	en	_	_	_	_	_	_	_	
+42-21	3394-3403	koalition	_	_	_	_	_	_	_	
+42-22	3404-3406	av	_	_	_	_	_	_	_	
+42-23	3407-3414	villiga	_	_	_	_	_	_	_	
+42-24	3415-3421	länder	_	_	_	_	_	_	_	
+42-25	3421-3422	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3424-3425	#	_	_	_	_	_	_	_	
+43-2	3425-3426	P	_	_	_	_	_	_	_	
+43-3	3427-3430	IMM	_	_	_	_	_	_	_	
+43-4	3430-3431	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+44-1	3433-3446	Skräddarsydda	_	_	_	_	_	_	_	
+44-2	3447-3453	kurser	_	_	_	_	_	_	_	
+44-3	3454-3455	i	_	_	_	_	_	_	_	
+44-4	3456-3461	ämnen	_	_	_	_	_	_	_	
+44-5	3462-3465	som	_	_	_	_	_	_	_	
+44-6	3466-3477	intresserar	_	_	_	_	_	_	_	
+44-7	3478-3481	och	_	_	_	_	_	_	_	
+44-8	3482-3491	engagerar	_	_	_	_	_	_	_	
+44-9	3492-3496	både	_	_	_	_	_	_	_	
+44-10	3497-3502	kropp	_	_	_	_	_	_	_	
+44-11	3503-3506	och	_	_	_	_	_	_	_	
+44-12	3507-3511	själ	_	_	_	_	_	_	_	
+44-13	3511-3512	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3514-3515	#	_	_	_	_	_	_	_	
+45-2	3515-3516	P	_	_	_	_	_	_	_	
+45-3	3517-3520	IMM	_	_	_	_	_	_	_	
+45-4	3520-3521	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste gå före och visa att det går att ta emot människor på flykt på ett värdigt sätt.
+46-1	3523-3525	Vi	_	_	_	_	_	_	_	
+46-2	3526-3531	måste	_	_	_	_	_	_	_	
+46-3	3532-3534	gå	_	_	_	_	_	_	_	
+46-4	3535-3539	före	_	_	_	_	_	_	_	
+46-5	3540-3543	och	_	_	_	_	_	_	_	
+46-6	3544-3548	visa	_	_	_	_	_	_	_	
+46-7	3549-3552	att	_	_	_	_	_	_	_	
+46-8	3553-3556	det	_	_	_	_	_	_	_	
+46-9	3557-3560	går	_	_	_	_	_	_	_	
+46-10	3561-3564	att	_	_	_	_	_	_	_	
+46-11	3565-3567	ta	_	_	_	_	_	_	_	
+46-12	3568-3572	emot	_	_	_	_	_	_	_	
+46-13	3573-3582	människor	_	_	_	_	_	_	_	
+46-14	3583-3585	på	_	_	_	_	_	_	_	
+46-15	3586-3591	flykt	_	_	_	_	_	_	_	
+46-16	3592-3594	på	*[50]	Target[16]	46-16[50]	false[16]	4[16]	_	_	
+46-17	3595-3598	ett	*[50]	Target[16]	46-16[50]	false[16]	4[16]	_	_	
+46-18	3599-3606	värdigt	*[50]	Target[16]	46-16[50]	false[16]	4[16]	_	_	
+46-19	3607-3611	sätt	*[50]	Target[16]	46-16[50]	false[16]	4[16]	_	_	
+46-20	3611-3612	.	_	_	_	_	_	_	_	
+
+#Text=Länder som ställer upp bör få ekonomiskt stöd, samtidigt som de EU-länder som inte ställer upp bör straffas ekonomiskt i form av indragna EU-stöd.
+47-1	3613-3619	Länder	*[51]|*[52]	_	_	_	_	_	_	
+47-2	3620-3623	som	*[51]	_	_	_	_	_	_	
+47-3	3624-3631	ställer	*[51]|*[53]	Target;Source[17]	47-3[53];47-1[52]	false[17]	4[17]	_	_	
+47-4	3632-3635	upp	*[51]|*[53]	Target;Source[17]	47-3[53];47-1[52]	false[17]	4[17]	_	_	
+47-5	3636-3639	bör	_	Target[18]	47-1[51]	false[18]	4[18]	_	_	
+47-6	3640-3642	få	_	Target[18]	47-1[51]	false[18]	4[18]	_	_	
+47-7	3643-3653	ekonomiskt	_	Target[18]	47-1[51]	false[18]	4[18]	_	_	
+47-8	3654-3658	stöd	_	Target[18]	47-1[51]	false[18]	4[18]	_	_	
+47-9	3658-3659	,	_	_	_	_	_	_	_	
+47-10	3660-3669	samtidigt	_	_	_	_	_	_	_	
+47-11	3670-3673	som	_	_	_	_	_	_	_	
+47-12	3674-3676	de	*[54]	_	_	_	_	_	_	
+47-13	3677-3686	EU-länder	*[54]|*[55]	_	_	_	_	_	_	
+47-14	3687-3690	som	*[54]	_	_	_	_	_	_	
+47-15	3691-3695	inte	*[54]|*[56]	Source;Target[19]	47-13[55];47-15[56]	false[19]	2[19]	_	_	
+47-16	3696-3703	ställer	*[54]|*[56]	Source;Target[19]	47-13[55];47-15[56]	false[19]	2[19]	_	_	
+47-17	3704-3707	upp	*[54]|*[56]	Source;Target[19]	47-13[55];47-15[56]	false[19]	2[19]	_	_	
+47-18	3708-3711	bör	_	Target[20]	47-12[54]	false[20]	2[20]	_	_	
+47-19	3712-3720	straffas	_	Target[20]	47-12[54]	false[20]	2[20]	_	_	
+47-20	3721-3731	ekonomiskt	_	Target[20]	47-12[54]	false[20]	2[20]	_	_	
+47-21	3732-3733	i	_	_	_	_	_	_	_	
+47-22	3734-3738	form	_	_	_	_	_	_	_	
+47-23	3739-3741	av	_	_	_	_	_	_	_	
+47-24	3742-3750	indragna	_	_	_	_	_	_	_	
+47-25	3751-3758	EU-stöd	_	_	_	_	_	_	_	
+47-26	3758-3759	.	_	_	_	_	_	_	_	
+
+#Text=För sanningen är att Europa inte har någon flyktingkris.
+48-1	3760-3763	För	_	_	_	_	_	_	_	
+48-2	3764-3773	sanningen	_	_	_	_	_	_	_	
+48-3	3774-3776	är	_	_	_	_	_	_	_	
+48-4	3777-3780	att	_	_	_	_	_	_	_	
+48-5	3781-3787	Europa	_	_	_	_	_	_	_	
+48-6	3788-3792	inte	_	_	_	_	_	_	_	
+48-7	3793-3796	har	_	_	_	_	_	_	_	
+48-8	3797-3802	någon	_	_	_	_	_	_	_	
+48-9	3803-3815	flyktingkris	*	Target	48-9	false	1	_	_	
+48-10	3815-3816	.	_	_	_	_	_	_	_	
+
+#Text=Flyktingkris har länder som Syrien, Irak, Afghanistan, Eritrea och Somalia.
+49-1	3817-3829	Flyktingkris	*	Target	49-1	false	1	_	_	
+49-2	3830-3833	har	_	_	_	_	_	_	_	
+49-3	3834-3840	länder	_	_	_	_	_	_	_	
+49-4	3841-3844	som	_	_	_	_	_	_	_	
+49-5	3845-3851	Syrien	_	_	_	_	_	_	_	
+49-6	3851-3852	,	_	_	_	_	_	_	_	
+49-7	3853-3857	Irak	_	_	_	_	_	_	_	
+49-8	3857-3858	,	_	_	_	_	_	_	_	
+49-9	3859-3870	Afghanistan	_	_	_	_	_	_	_	
+49-10	3870-3871	,	_	_	_	_	_	_	_	
+49-11	3872-3879	Eritrea	_	_	_	_	_	_	_	
+49-12	3880-3883	och	_	_	_	_	_	_	_	
+49-13	3884-3891	Somalia	_	_	_	_	_	_	_	
+49-14	3891-3892	.	_	_	_	_	_	_	_	
+
+#Text=Europa, däremot, har en moralisk kris.
+50-1	3893-3899	Europa	_	_	_	_	_	_	_	
+50-2	3899-3900	,	_	_	_	_	_	_	_	
+50-3	3901-3908	däremot	_	_	_	_	_	_	_	
+50-4	3908-3909	,	_	_	_	_	_	_	_	
+50-5	3910-3913	har	_	_	_	_	_	_	_	
+50-6	3914-3916	en	_	_	_	_	_	_	_	
+50-7	3917-3925	moralisk	*[57]	Target[21]	50-7[57]	false[21]	1[21]	_	_	
+50-8	3926-3930	kris	*[57]	Target[21]	50-7[57]	false[21]	1[21]	_	_	
+50-9	3930-3931	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3933-3934	#	_	_	_	_	_	_	_	
+51-2	3934-3935	P	_	_	_	_	_	_	_	
+51-3	3936-3939	IMM	_	_	_	_	_	_	_	
+51-4	3939-3940	.	_	_	_	_	_	_	_	
+
+#Text=I Europaparlamentet hörs kritik mot EU:s uppgörelse med Turkiet inte bara från vänstergruppen, utan även från den socialdemokratiska, gröna, och liberala gruppen.
+52-1	3942-3943	I	_	_	_	_	_	_	_	
+52-2	3944-3961	Europaparlamentet	*	_	_	_	_	_	_	
+52-3	3962-3966	hörs	_	_	_	_	_	_	_	
+52-4	3967-3973	kritik	_	Target;Source[22]	52-6[58];52-2	false[22]	1[22]	_	_	
+52-5	3974-3977	mot	_	Target;Source[22]	52-6[58];52-2	false[22]	1[22]	_	_	
+52-6	3978-3980	EU	*[58]	_	_	_	_	_	_	
+52-7	3980-3981	:	*[58]	_	_	_	_	_	_	
+52-8	3981-3982	s	*[58]	_	_	_	_	_	_	
+52-9	3983-3993	uppgörelse	*[58]	_	_	_	_	_	_	
+52-10	3994-3997	med	*[58]	_	_	_	_	_	_	
+52-11	3998-4005	Turkiet	*[58]	_	_	_	_	_	_	
+52-12	4006-4010	inte	_	_	_	_	_	_	_	
+52-13	4011-4015	bara	_	_	_	_	_	_	_	
+52-14	4016-4020	från	_	_	_	_	_	_	_	
+52-15	4021-4035	vänstergruppen	_	_	_	_	_	_	_	
+52-16	4035-4036	,	_	_	_	_	_	_	_	
+52-17	4037-4041	utan	_	_	_	_	_	_	_	
+52-18	4042-4046	även	_	_	_	_	_	_	_	
+52-19	4047-4051	från	_	_	_	_	_	_	_	
+52-20	4052-4055	den	_	_	_	_	_	_	_	
+52-21	4056-4074	socialdemokratiska	_	_	_	_	_	_	_	
+52-22	4074-4075	,	_	_	_	_	_	_	_	
+52-23	4076-4081	gröna	_	_	_	_	_	_	_	
+52-24	4081-4082	,	_	_	_	_	_	_	_	
+52-25	4083-4086	och	_	_	_	_	_	_	_	
+52-26	4087-4095	liberala	_	_	_	_	_	_	_	
+52-27	4096-4103	gruppen	_	_	_	_	_	_	_	
+52-28	4103-4104	.	_	_	_	_	_	_	_	
+
+#Text=I den svenska riksdagen ekar det däremot oacceptabelt tyst om den rättsvidriga svenska och europeiska asylpolitiken.
+53-1	4105-4106	I	*[59]	_	_	_	_	_	_	
+53-2	4107-4110	den	*[59]	_	_	_	_	_	_	
+53-3	4111-4118	svenska	*[59]	_	_	_	_	_	_	
+53-4	4119-4128	riksdagen	*[59]	_	_	_	_	_	_	
+53-5	4129-4133	ekar	_	Target[23]	53-1[59]	false[23]	1[23]	_	_	
+53-6	4134-4137	det	_	Target[23]	53-1[59]	false[23]	1[23]	_	_	
+53-7	4138-4145	däremot	_	Target[23]	53-1[59]	false[23]	1[23]	_	_	
+53-8	4146-4158	oacceptabelt	_	Target[23]	53-1[59]	false[23]	1[23]	_	_	
+53-9	4159-4163	tyst	_	Target[23]	53-1[59]	false[23]	1[23]	_	_	
+53-10	4164-4166	om	_	_	_	_	_	_	_	
+53-11	4167-4170	den	_	_	_	_	_	_	_	
+53-12	4171-4183	rättsvidriga	_	Target	53-13[60]	false	1	_	_	
+53-13	4184-4191	svenska	*[60]	_	_	_	_	_	_	
+53-14	4192-4195	och	*[60]	_	_	_	_	_	_	
+53-15	4196-4206	europeiska	*[60]	_	_	_	_	_	_	
+53-16	4207-4220	asylpolitiken	*[60]	_	_	_	_	_	_	
+53-17	4220-4221	.	_	_	_	_	_	_	_	
+
+#Text=Det måste bli en ändring.
+54-1	4222-4225	Det	_	_	_	_	_	_	_	
+54-2	4226-4231	måste	_	_	_	_	_	_	_	
+54-3	4232-4235	bli	_	_	_	_	_	_	_	
+54-4	4236-4238	en	_	_	_	_	_	_	_	
+54-5	4239-4246	ändring	_	_	_	_	_	_	_	
+54-6	4246-4247	.	_	_	_	_	_	_	_	
+
+#Text=Första steget är att riksdagens EU-nämnd ger rött ljus till den skamliga överenskommelsen med Turkiet, och sedan ger regeringen i uppdrag att gå på offensiven för en koalition av villiga EU-länder.
+55-1	4248-4254	Första	_	_	_	_	_	_	_	
+55-2	4255-4261	steget	_	_	_	_	_	_	_	
+55-3	4262-4264	är	_	_	_	_	_	_	_	
+55-4	4265-4268	att	_	_	_	_	_	_	_	
+55-5	4269-4279	riksdagens	_	_	_	_	_	_	_	
+55-6	4280-4288	EU-nämnd	*	_	_	_	_	_	_	
+55-7	4289-4292	ger	_	Target;Source[24]	55-11[61];55-6	false[24]	1[24]	_	_	
+55-8	4293-4297	rött	_	Target;Source[24]	55-11[61];55-6	false[24]	1[24]	_	_	
+55-9	4298-4302	ljus	_	Target;Source[24]	55-11[61];55-6	false[24]	1[24]	_	_	
+55-10	4303-4307	till	_	Target;Source[24]	55-11[61];55-6	false[24]	1[24]	_	_	
+55-11	4308-4311	den	*[61]	Target;Source[24]	55-11[61];55-6	false[24]	1[24]	_	_	
+55-12	4312-4320	skamliga	*[61]	Target;Source	55-13[62];55-6	false	1	_	_	
+55-13	4321-4337	överenskommelsen	*[61]|*[62]	_	_	_	_	_	_	
+55-14	4338-4341	med	*[61]|*[62]	_	_	_	_	_	_	
+55-15	4342-4349	Turkiet	*[61]|*[62]	_	_	_	_	_	_	
+55-16	4349-4350	,	_	_	_	_	_	_	_	
+55-17	4351-4354	och	_	_	_	_	_	_	_	
+55-18	4355-4360	sedan	_	_	_	_	_	_	_	
+55-19	4361-4364	ger	_	_	_	_	_	_	_	
+55-20	4365-4375	regeringen	_	_	_	_	_	_	_	
+55-21	4376-4377	i	_	_	_	_	_	_	_	
+55-22	4378-4385	uppdrag	_	_	_	_	_	_	_	
+55-23	4386-4389	att	_	_	_	_	_	_	_	
+55-24	4390-4392	gå	_	_	_	_	_	_	_	
+55-25	4393-4395	på	_	_	_	_	_	_	_	
+55-26	4396-4406	offensiven	_	_	_	_	_	_	_	
+55-27	4407-4410	för	_	_	_	_	_	_	_	
+55-28	4411-4413	en	_	_	_	_	_	_	_	
+55-29	4414-4423	koalition	_	_	_	_	_	_	_	
+55-30	4424-4426	av	_	_	_	_	_	_	_	
+55-31	4427-4434	villiga	_	_	_	_	_	_	_	
+55-32	4435-4444	EU-länder	_	_	_	_	_	_	_	
+55-33	4444-4445	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4447-4448	#	_	_	_	_	_	_	_	
+56-2	4448-4449	P	_	_	_	_	_	_	_	
+56-3	4450-4453	IMM	_	_	_	_	_	_	_	
+56-4	4453-4454	.	_	_	_	_	_	_	_	
+
+#Text=Om utvecklingen inte vänds kommer den svenska regeringen och EU:s institutioner att fortsätta spela de repressiva och rasistiska krafterna i händerna både här hemma och i EU.
+57-1	4456-4458	Om	*[63]	_	_	_	_	_	58-1[0_63]	
+57-2	4459-4471	utvecklingen	*[63]	_	_	_	_	_	_	
+57-3	4472-4476	inte	*[63]	_	_	_	_	_	_	
+57-4	4477-4482	vänds	*[63]	_	_	_	_	_	_	
+57-5	4483-4489	kommer	*[63]	_	_	_	_	_	_	
+57-6	4490-4493	den	*[63]|*[64]	_	_	_	_	_	_	
+57-7	4494-4501	svenska	*[63]|*[64]	_	_	_	_	_	_	
+57-8	4502-4512	regeringen	*[63]|*[64]	_	_	_	_	_	_	
+57-9	4513-4516	och	*[63]	_	_	_	_	_	_	
+57-10	4517-4519	EU	*[63]|*[65]	_	_	_	_	_	_	
+57-11	4519-4520	:	*[63]|*[65]	_	_	_	_	_	_	
+57-12	4520-4521	s	*[63]|*[65]	_	_	_	_	_	_	
+57-13	4522-4535	institutioner	*[63]|*[65]	_	_	_	_	_	_	
+57-14	4536-4539	att	*[63]	_	_	_	_	_	_	
+57-15	4540-4549	fortsätta	*[63]	_	_	_	_	_	_	
+57-16	4550-4555	spela	*[63]	_	_	false	4	_	_	
+57-17	4556-4558	de	*[63]|*[66]	_	_	_	_	_	_	
+57-18	4559-4569	repressiva	*[63]|*[66]	_	_	_	_	_	_	
+57-19	4570-4573	och	*[63]|*[66]	_	_	_	_	_	_	
+57-20	4574-4584	rasistiska	*[63]|*[66]	_	_	_	_	_	_	
+57-21	4585-4594	krafterna	*[63]|*[66]	_	_	_	_	_	_	
+57-22	4595-4596	i	*[63]	Source;Source;Target[25]	57-10[65];57-6[64];57-17[66]	false[25]	4[25]	57-16[0_25]	_	
+57-23	4597-4605	händerna	*[63]	Source;Source;Target[25]	57-10[65];57-6[64];57-17[66]	false[25]	4[25]	_	_	
+57-24	4606-4610	både	*[63]	_	_	_	_	_	_	
+57-25	4611-4614	här	*[63]	_	_	_	_	_	_	
+57-26	4615-4620	hemma	*[63]	_	_	_	_	_	_	
+57-27	4621-4624	och	*[63]	_	_	_	_	_	_	
+57-28	4625-4626	i	*[63]	_	_	_	_	_	_	
+57-29	4627-4629	EU	*[63]	_	_	_	_	_	_	
+57-30	4629-4630	.	*[63]	_	_	_	_	_	_	
+
+#Text=Det i sin tur skapar ett grymt, rått Sverige och Europa jag inte tror att någon vill ha.
+58-1	4631-4634	Det	*	_	_	_	_	_	_	
+58-2	4635-4636	i	_	_	_	_	_	_	_	
+58-3	4637-4640	sin	_	_	_	_	_	_	_	
+58-4	4641-4644	tur	_	_	_	_	_	_	_	
+58-5	4645-4651	skapar	_	Target[26]	58-1	false[26]	1[26]	_	_	
+58-6	4652-4655	ett	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-7	4656-4661	grymt	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-8	4661-4662	,	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-9	4663-4667	rått	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-10	4668-4675	Sverige	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-11	4676-4679	och	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-12	4680-4686	Europa	*[67]	Target[26]	58-1	false[26]	1[26]	_	_	
+58-13	4687-4690	jag	_	_	_	_	_	_	_	
+58-14	4691-4695	inte	_	_	_	false	1	_	_	
+58-15	4696-4700	tror	_	_	_	_	_	_	_	
+58-16	4701-4704	att	_	_	_	_	_	_	_	
+58-17	4705-4710	någon	_	Target;Source[27]	58-6[67];58-20	false[27]	1[27]	58-14[0_27]	_	
+58-18	4711-4715	vill	_	Target;Source[27]	58-6[67];58-20	false[27]	1[27]	_	_	
+58-19	4716-4718	ha	_	Target;Source[27]	58-6[67];58-20	false[27]	1[27]	_	_	
+58-20	4718-4719	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4721-4722	#	_	_	_	_	_	_	_	
+59-2	4722-4723	P	_	_	_	_	_	_	_	
+59-3	4724-4727	IMM	_	_	_	_	_	_	_	
+59-4	4727-4728	.	_	_	_	_	_	_	_	
+
+#Text=**Malin Björk (V) **.
+60-1	4730-4731	*	_	_	_	_	_	_	_	
+60-2	4731-4732	*	_	_	_	_	_	_	_	
+60-3	4732-4737	Malin	_	_	_	_	_	_	_	
+60-4	4738-4743	Björk	_	_	_	_	_	_	_	
+60-5	4744-4745	(	_	_	_	_	_	_	_	
+60-6	4745-4746	V	_	_	_	_	_	_	_	
+60-7	4746-4747	)	_	_	_	_	_	_	_	
+60-8	4748-4749	*	_	_	_	_	_	_	_	
+60-9	4749-4750	*	_	_	_	_	_	_	_	
+60-10	4750-4751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4753-4754	#	_	_	_	_	_	_	_	
+61-2	4754-4755	P	_	_	_	_	_	_	_	
+61-3	4756-4759	IMM	_	_	_	_	_	_	_	
+61-4	4759-4760	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker.
+62-1	4762-4783	Europaparlamentariker	_	_	_	_	_	_	_	
+62-2	4783-4784	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4786-4787	#	_	_	_	_	_	_	_	
+63-2	4787-4788	P	_	_	_	_	_	_	_	
+63-3	4789-4792	IMM	_	_	_	_	_	_	_	
+63-4	4792-4793	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+64-1	4795-4803	Redaktör	_	_	_	_	_	_	_	
+64-2	4803-4804	:	_	_	_	_	_	_	_	
+64-3	4805-4811	Carina	_	_	_	_	_	_	_	
+64-4	4812-4830	StenssonBiträdande	_	_	_	_	_	_	_	
+64-5	4831-4839	redaktör	_	_	_	_	_	_	_	
+64-6	4839-4840	:	_	_	_	_	_	_	_	
+64-7	4841-4851	Carl-Johan	_	_	_	_	_	_	_	
+64-8	4852-4866	BilkenrothMejl	_	_	_	_	_	_	_	
+64-9	4866-4867	:	_	_	_	_	_	_	_	
+64-10	4868-4874	debatt	_	_	_	_	_	_	_	
+64-11	4874-4875	@	_	_	_	_	_	_	_	
+64-12	4875-4894	svd.seTelefonnummer	_	_	_	_	_	_	_	
+64-13	4894-4895	:	_	_	_	_	_	_	_	
+64-14	4896-4898	08	_	_	_	_	_	_	_	
+64-15	4898-4899	-	_	_	_	_	_	_	_	
+64-16	4899-4912	135149Twitter	_	_	_	_	_	_	_	
+64-17	4912-4913	:	_	_	_	_	_	_	_	
+64-18	4914-4915	@	_	_	_	_	_	_	_	
+64-19	4915-4932	SvDDebattFacebook	_	_	_	_	_	_	_	
+64-20	4932-4933	:	_	_	_	_	_	_	_	
+64-21	4934-4937	SvD	_	_	_	_	_	_	_	
+64-22	4938-4944	Debatt	_	_	_	_	_	_	_	
+64-23	4944-4945	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4947-4948	#	_	_	_	_	_	_	_	
+65-2	4948-4949	P	_	_	_	_	_	_	_	
+65-3	4950-4953	IMM	_	_	_	_	_	_	_	
+65-4	4953-4954	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+66-1	4956-4964	Redaktör	_	_	_	_	_	_	_	
+66-2	4964-4965	:	_	_	_	_	_	_	_	
+66-3	4966-4972	Carina	_	_	_	_	_	_	_	
+66-4	4973-4981	Stensson	_	_	_	_	_	_	_	
+66-5	4981-4982	,	_	_	_	_	_	_	_	
+66-6	4983-4993	Biträdande	_	_	_	_	_	_	_	
+66-7	4994-5002	redaktör	_	_	_	_	_	_	_	
+66-8	5002-5003	:	_	_	_	_	_	_	_	
+66-9	5004-5009	Björn	_	_	_	_	_	_	_	
+66-10	5010-5016	Jorner	_	_	_	_	_	_	_	
+66-11	5016-5017	,	_	_	_	_	_	_	_	
+66-12	5018-5022	Mejl	_	_	_	_	_	_	_	
+66-13	5022-5023	:	_	_	_	_	_	_	_	
+66-14	5024-5030	debatt	_	_	_	_	_	_	_	
+66-15	5030-5031	@	_	_	_	_	_	_	_	
+66-16	5031-5037	svd.se	_	_	_	_	_	_	_	
+66-17	5037-5038	,	_	_	_	_	_	_	_	
+66-18	5039-5052	Telefonnummer	_	_	_	_	_	_	_	
+66-19	5052-5053	:	_	_	_	_	_	_	_	
+66-20	5054-5056	08	_	_	_	_	_	_	_	
+66-21	5056-5057	-	_	_	_	_	_	_	_	
+66-22	5057-5063	135149	_	_	_	_	_	_	_	
+66-23	5063-5064	,	_	_	_	_	_	_	_	
+66-24	5065-5072	Twitter	_	_	_	_	_	_	_	
+66-25	5072-5073	:	_	_	_	_	_	_	_	
+66-26	5074-5075	@	_	_	_	_	_	_	_	
+66-27	5075-5084	SvDDebatt	_	_	_	_	_	_	_	
+66-28	5084-5085	,	_	_	_	_	_	_	_	
+66-29	5086-5094	Facebook	_	_	_	_	_	_	_	
+66-30	5094-5095	:	_	_	_	_	_	_	_	
+66-31	5096-5099	SvD	_	_	_	_	_	_	_	
+66-32	5100-5106	Debatt	_	_	_	_	_	_	_	
+66-33	5106-5107	.	_	_	_	_	_	_	_	

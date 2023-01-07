@@ -1,0 +1,338 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Nya tider stundar  för direktörerna.
+3-1	18-21	Nya	_	_	_	_	_	_	
+3-2	22-27	tider	_	_	_	_	_	_	
+3-3	28-35	stundar	_	_	_	_	_	_	
+3-4	37-40	för	_	_	_	_	_	_	
+3-5	41-53	direktörerna	_	_	_	_	_	_	
+3-6	53-54	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Det har startats en motståndsrörelse i protest mot direktörers bonusar.
+5-1	65-68	Det	_	_	_	_	_	_	
+5-2	69-72	har	_	_	_	_	_	_	
+5-3	73-81	startats	_	_	_	_	_	_	
+5-4	82-84	en	_	_	_	_	_	_	
+5-5	85-101	motståndsrörelse	_	_	_	_	_	_	
+5-6	102-103	i	_	Target;Source[1]	5-9[16];5-11	false[1]	1[1]	_	
+5-7	104-111	protest	_	Target;Source[1]	5-9[16];5-11	false[1]	1[1]	_	
+5-8	112-115	mot	_	Target;Source[1]	5-9[16];5-11	false[1]	1[1]	_	
+5-9	116-127	direktörers	*[16]	_	_	_	_	_	
+5-10	128-135	bonusar	*[16]	_	_	_	_	_	
+5-11	135-136	.	*	_	_	_	_	_	
+
+#Text=Det är företagare i Schweiz som tagit initiativet och de har nu lyckats samla in över 100 000 namn mot oskäliga löner och bonussystem.
+6-1	137-140	Det	_	_	_	_	_	_	
+6-2	141-143	är	_	_	_	_	_	_	
+6-3	144-154	företagare	_	_	_	_	_	_	
+6-4	155-156	i	_	_	_	_	_	_	
+6-5	157-164	Schweiz	_	_	_	_	_	_	
+6-6	165-168	som	_	_	_	_	_	_	
+6-7	169-174	tagit	_	_	_	_	_	_	
+6-8	175-186	initiativet	_	_	_	_	_	_	
+6-9	187-190	och	_	_	_	_	_	_	
+6-10	191-193	de	_	_	_	_	_	_	
+6-11	194-197	har	_	_	_	_	_	_	
+6-12	198-200	nu	_	_	_	_	_	_	
+6-13	201-208	lyckats	*	Target	6-13	false	5	_	
+6-14	209-214	samla	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-15	215-217	in	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-16	218-222	över	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-17	223-226	100	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-18	227-230	000	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-19	231-235	namn	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-20	236-239	mot	_	Target;Target;Source[2]	6-21[17];6-24;6-25	false[2]	1[2]	_	
+6-21	240-248	oskäliga	*[17]	_	_	_	_	_	
+6-22	249-254	löner	*[17]	_	_	_	_	_	
+6-23	255-258	och	_	_	_	_	_	_	
+6-24	259-270	bonussystem	*	_	_	_	_	_	
+6-25	270-271	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	273-274	#	_	_	_	_	_	_	
+7-2	274-275	P	_	_	_	_	_	_	
+7-3	276-279	IMM	_	_	_	_	_	_	
+7-4	279-280	.	_	_	_	_	_	_	
+
+#Text=Det är befriande att veta att ilskan mot direktörers gräddfiler också finns i andra länder.
+8-1	282-285	Det	_	Target[3]	8-4[18]	false[3]	5[3]	_	
+8-2	286-288	är	_	Target[3]	8-4[18]	false[3]	5[3]	_	
+8-3	289-298	befriande	_	Target[3]	8-4[18]	false[3]	5[3]	_	
+8-4	299-302	att	*[18]	_	_	_	_	_	
+8-5	303-307	veta	*[18]	_	_	_	_	_	
+8-6	308-311	att	*[18]	_	_	_	_	_	
+8-7	312-318	ilskan	*[18]	Source;Target[4]	8-14[20];8-9[19]	false[4]	1[4]	_	
+8-8	319-322	mot	*[18]	Source;Target[4]	8-14[20];8-9[19]	false[4]	1[4]	_	
+8-9	323-334	direktörers	*[18]|*[19]	_	_	_	_	_	
+8-10	335-345	gräddfiler	*[18]|*[19]	_	_	_	_	_	
+8-11	346-351	också	*[18]	_	_	_	_	_	
+8-12	352-357	finns	*[18]	_	_	_	_	_	
+8-13	358-359	i	*[18]	_	_	_	_	_	
+8-14	360-365	andra	*[18]|*[20]	_	_	_	_	_	
+8-15	366-372	länder	*[18]|*[20]	_	_	_	_	_	
+8-16	372-373	.	_	_	_	_	_	_	
+
+#Text=I USA har till och med president George Bush sagt att det har gått för långt med direktörslönerna.
+9-1	374-375	I	_	_	_	_	_	_	
+9-2	376-379	USA	_	_	_	_	_	_	
+9-3	380-383	har	_	_	_	_	_	_	
+9-4	384-388	till	_	_	_	_	_	_	
+9-5	389-392	och	_	_	_	_	_	_	
+9-6	393-396	med	_	_	_	_	_	_	
+9-7	397-406	president	*[21]	_	_	_	_	_	
+9-8	407-413	George	*[21]	_	_	_	_	_	
+9-9	414-418	Bush	*[21]	_	_	_	_	_	
+9-10	419-423	sagt	_	_	_	_	_	_	
+9-11	424-427	att	_	_	_	_	_	_	
+9-12	428-431	det	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-13	432-435	har	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-14	436-440	gått	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-15	441-444	för	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-16	445-450	långt	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-17	451-454	med	_	Source;Target[5]	9-7[21];9-18	false[5]	1[5]	_	
+9-18	455-471	direktörslönerna	*	_	_	_	_	_	
+9-19	471-472	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	474-475	#	_	_	_	_	_	_	
+10-2	475-476	P	_	_	_	_	_	_	
+10-3	477-480	IMM	_	_	_	_	_	_	
+10-4	480-481	.	_	_	_	_	_	_	
+
+#Text=Det innebär att vi svenskar inte ensidigt kan anklagas för att vara avundsjuka och inte unna andra att tjäna pengar, som många på högerkanten brukar muttra om.
+11-1	483-486	Det	_	_	_	_	_	_	
+11-2	487-494	innebär	_	_	_	_	_	_	
+11-3	495-498	att	_	_	_	_	_	_	
+11-4	499-501	vi	*[22]	_	_	_	_	_	
+11-5	502-510	svenskar	*[22]	_	_	_	_	_	
+11-6	511-515	inte	_	_	_	_	_	_	
+11-7	516-524	ensidigt	_	_	_	_	_	_	
+11-8	525-528	kan	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-9	529-537	anklagas	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-10	538-541	för	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-11	542-545	att	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-12	546-550	vara	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-13	551-561	avundsjuka	_	Source;Target[6]	11-23[23];11-4[22]	false[6]	1[6]	_	
+11-14	562-565	och	_	_	_	_	_	_	
+11-15	566-570	inte	_	_[7]	_	false[7]	1[7]	_	
+11-16	571-575	unna	_	_[7]	_	false[7]	1[7]	_	
+11-17	576-581	andra	*	_	_	_	_	_	
+11-18	582-585	att	_	Source;Target[8]	11-4[22];11-17	false[8]	1[8]	11-15[7_8]	
+11-19	586-591	tjäna	_	Source;Target[8]	11-4[22];11-17	false[8]	1[8]	_	
+11-20	592-598	pengar	_	Source;Target[8]	11-4[22];11-17	false[8]	1[8]	_	
+11-21	598-599	,	_	_	_	_	_	_	
+11-22	600-603	som	_	_	_	_	_	_	
+11-23	604-609	många	*[23]	_	_	_	_	_	
+11-24	610-612	på	*[23]	_	_	_	_	_	
+11-25	613-624	högerkanten	*[23]	_	_	_	_	_	
+11-26	625-631	brukar	_	_	_	_	_	_	
+11-27	632-638	muttra	_	_	_	_	_	_	
+11-28	639-641	om	_	_	_	_	_	_	
+11-29	641-642	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	644-645	#	_	_	_	_	_	_	
+12-2	645-646	P	_	_	_	_	_	_	
+12-3	647-650	IMM	_	_	_	_	_	_	
+12-4	650-651	.	_	_	_	_	_	_	
+
+#Text=Samma dumma argument för bonussystemet som vi så ofta hört från näringslivshåll här i landet framförs också i Schweiz.
+13-1	653-658	Samma	_	_	_	_	_	_	
+13-2	659-664	dumma	_	Target;Source[9]	13-5;13-20	false[9]	1[9]	_	
+13-3	665-673	argument	_	Target;Source[9]	13-5;13-20	false[9]	1[9]	_	
+13-4	674-677	för	_	Target;Source[9]	13-5;13-20	false[9]	1[9]	_	
+13-5	678-691	bonussystemet	*	_	_	_	_	_	
+13-6	692-695	som	_	_	_	_	_	_	
+13-7	696-698	vi	_	_	_	_	_	_	
+13-8	699-701	så	_	_	_	_	_	_	
+13-9	702-706	ofta	_	_	_	_	_	_	
+13-10	707-711	hört	_	_	_	_	_	_	
+13-11	712-716	från	_	_	_	_	_	_	
+13-12	717-732	näringslivshåll	_	_	_	_	_	_	
+13-13	733-736	här	_	_	_	_	_	_	
+13-14	737-738	i	_	_	_	_	_	_	
+13-15	739-745	landet	_	_	_	_	_	_	
+13-16	746-754	framförs	_	_	_	_	_	_	
+13-17	755-760	också	_	_	_	_	_	_	
+13-18	761-762	i	_	_	_	_	_	_	
+13-19	763-770	Schweiz	_	_	_	_	_	_	
+13-20	770-771	.	*	_	_	_	_	_	
+
+#Text=Nämligen att lönerna måste vara stora och bonusarna höga för att kunna rekrytera kompetent folk.
+14-1	772-780	Nämligen	_	_	_	_	_	_	
+14-2	781-784	att	_	_	_	_	_	_	
+14-3	785-792	lönerna	*[24]	Source;Target[10]	14-16;14-3[24]	false[10]	3[10]	_	
+14-4	793-798	måste	*[24]	Source;Target[10]	14-16;14-3[24]	false[10]	3[10]	_	
+14-5	799-803	vara	*[24]	Source;Target[10]	14-16;14-3[24]	false[10]	3[10]	_	
+14-6	804-809	stora	*[24]	Source;Target[10]	14-16;14-3[24]	false[10]	3[10]	_	
+14-7	810-813	och	_	_	_	_	_	_	
+14-8	814-823	bonusarna	_	_	_	_	_	_	
+14-9	824-828	höga	_	_	_	_	_	_	
+14-10	829-832	för	_	_	_	_	_	_	
+14-11	833-836	att	_	_	_	_	_	_	
+14-12	837-842	kunna	_	_	_	_	_	_	
+14-13	843-852	rekrytera	_	_	_	_	_	_	
+14-14	853-862	kompetent	*[25]	Target[11]	14-14[25]	false[11]	5[11]	_	
+14-15	863-867	folk	*[25]	Target[11]	14-14[25]	false[11]	5[11]	_	
+14-16	867-868	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	870-871	#	_	_	_	_	_	_	
+15-2	871-872	P	_	_	_	_	_	_	
+15-3	873-876	IMM	_	_	_	_	_	_	
+15-4	876-877	.	_	_	_	_	_	_	
+
+#Text=Tillåt mig gapskratta.
+16-1	879-885	Tillåt	_	_	_	_	_	_	
+16-2	886-889	mig	_	_	_	_	_	_	
+16-3	890-900	gapskratta	_	_	_	_	_	_	
+16-4	900-901	.	_	_	_	false	1	_	
+
+#Text=Vi har inte direkt någon massflykt av svenska direktörer som får toppjobb utomlands.
+17-1	902-904	Vi	_	_	_	_	_	_	
+17-2	905-908	har	_	_	_	_	_	_	
+17-3	909-913	inte	_	_	_	_	_	_	
+17-4	914-920	direkt	_	_	_	_	_	_	
+17-5	921-926	någon	_	_	_	_	_	_	
+17-6	927-936	massflykt	_	_	_	_	_	_	
+17-7	937-939	av	_	_	_	_	_	_	
+17-8	940-947	svenska	_	_	_	_	_	_	
+17-9	948-958	direktörer	_	_	_	_	_	_	
+17-10	959-962	som	_	_	_	_	_	_	
+17-11	963-966	får	_	_	_	_	_	_	
+17-12	967-975	toppjobb	_	_	_	_	_	_	
+17-13	976-985	utomlands	_	_	_	_	_	_	
+17-14	985-986	.	_	_	_	_	_	_	
+
+#Text=Inte heller vimlar det av svenskägda företag som har direktörer rekryterade från utlandet.
+18-1	987-991	Inte	_	_	_	_	_	_	
+18-2	992-998	heller	_	_	_	_	_	_	
+18-3	999-1005	vimlar	_	_	_	_	_	_	
+18-4	1006-1009	det	_	_	_	_	_	_	
+18-5	1010-1012	av	_	_	_	_	_	_	
+18-6	1013-1023	svenskägda	_	_	_	_	_	_	
+18-7	1024-1031	företag	_	_	_	_	_	_	
+18-8	1032-1035	som	_	_	_	_	_	_	
+18-9	1036-1039	har	_	_	_	_	_	_	
+18-10	1040-1050	direktörer	_	_	_	_	_	_	
+18-11	1051-1062	rekryterade	_	_	_	_	_	_	
+18-12	1063-1067	från	_	_	_	_	_	_	
+18-13	1068-1076	utlandet	_	_	_	_	_	_	
+18-14	1076-1077	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1079-1080	#	_	_	_	_	_	_	
+19-2	1080-1081	P	_	_	_	_	_	_	
+19-3	1082-1085	IMM	_	_	_	_	_	_	
+19-4	1085-1086	.	_	_	_	_	_	_	
+
+#Text=Detta trots att den socialdemokratiska regeringen till och med införde skattelättnader för direktörer från andra länder som valde att komma hit och jobba.
+20-1	1088-1093	Detta	_	_	_	_	_	_	
+20-2	1094-1099	trots	_	_	_	_	_	_	
+20-3	1100-1103	att	_	_	_	_	_	_	
+20-4	1104-1107	den	_	_	_	_	_	_	
+20-5	1108-1126	socialdemokratiska	_	_	_	_	_	_	
+20-6	1127-1137	regeringen	_	_	_	_	_	_	
+20-7	1138-1142	till	_	_	_	_	_	_	
+20-8	1143-1146	och	_	_	_	_	_	_	
+20-9	1147-1150	med	_	_	_	_	_	_	
+20-10	1151-1158	införde	_	_	_	_	_	_	
+20-11	1159-1174	skattelättnader	_	_	_	_	_	_	
+20-12	1175-1178	för	_	_	_	_	_	_	
+20-13	1179-1189	direktörer	*[26]|*[27]	_	_	_	_	_	
+20-14	1190-1194	från	*[26]|*[27]	_	_	_	_	_	
+20-15	1195-1200	andra	*[26]|*[27]	_	_	_	_	_	
+20-16	1201-1207	länder	*[26]|*[27]	_	_	_	_	_	
+20-17	1208-1211	som	_	_	_	_	_	_	
+20-18	1212-1217	valde	_	_	_	_	_	_	
+20-19	1218-1221	att	_	_	_	_	_	_	
+20-20	1222-1227	komma	_	_	_	_	_	_	
+20-21	1228-1231	hit	_	_	_	_	_	_	
+20-22	1232-1235	och	_	_	_	_	_	_	
+20-23	1236-1241	jobba	_	_	_	_	_	_	
+20-24	1241-1242	.	_	_	_	_	_	_	
+
+#Text=De stackarna skulle inte skrämmas av det höga skattetrycket.
+21-1	1243-1245	De	_	Target[12]|_[13]	20-13[26]|_	true[12]|false[13]	4[12]|4[13]	_	
+21-2	1246-1255	stackarna	_	Target[12]|_[13]	20-13[26]|_	true[12]|false[13]	4[12]|4[13]	_	
+21-3	1256-1262	skulle	_	Target[14]	21-7[28]	false[14]	4[14]	_	
+21-4	1263-1267	inte	_	Target[14]	21-7[28]	false[14]	4[14]	_	
+21-5	1268-1276	skrämmas	_	Target[14]	21-7[28]	false[14]	4[14]	_	
+21-6	1277-1279	av	_	Target[14]	21-7[28]	false[14]	4[14]	_	
+21-7	1280-1283	det	*[28]	_	_	_	_	_	
+21-8	1284-1288	höga	*[28]	_	_	_	_	_	
+21-9	1289-1302	skattetrycket	*[28]	_	_	_	_	_	
+21-10	1302-1303	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=100 000 namnpåskrifter i Schweiz innebär att det kommer att bli en folkomröstning i frågan.
+22-1	1305-1306	#	_	_	_	_	_	_	
+22-2	1306-1307	P	_	_	_	_	_	_	
+22-3	1308-1311	IMM	_	_	_	_	_	_	
+22-4	1311-1312	.	_	_	_	_	_	_	
+22-5	1314-1317	100	_	_	_	_	_	_	
+22-6	1318-1321	000	_	_	_	_	_	_	
+22-7	1322-1336	namnpåskrifter	_	_	_	_	_	_	
+22-8	1337-1338	i	_	_	_	_	_	_	
+22-9	1339-1346	Schweiz	_	_	_	_	_	_	
+22-10	1347-1354	innebär	_	_	_	_	_	_	
+22-11	1355-1358	att	_	_	_	_	_	_	
+22-12	1359-1362	det	_	_	_	_	_	_	
+22-13	1363-1369	kommer	_	_	_	_	_	_	
+22-14	1370-1373	att	_	_	_	_	_	_	
+22-15	1374-1377	bli	_	_	_	_	_	_	
+22-16	1378-1380	en	_	_	_	_	_	_	
+22-17	1381-1395	folkomröstning	_	_	_	_	_	_	
+22-18	1396-1397	i	_	_	_	_	_	_	
+22-19	1398-1404	frågan	_	_	_	_	_	_	
+22-20	1404-1405	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1407-1408	#	_	_	_	_	_	_	
+23-2	1408-1409	P	_	_	_	_	_	_	
+23-3	1410-1413	IMM	_	_	_	_	_	_	
+23-4	1413-1414	.	_	_	_	_	_	_	
+
+#Text=Det fria kapitalet börjar få lite motstånd.
+24-1	1416-1419	Det	*[29]	_	_	_	_	_	
+24-2	1420-1424	fria	*[29]	_	_	_	_	_	
+24-3	1425-1434	kapitalet	*[29]	_	_	_	_	_	
+24-4	1435-1441	börjar	_	Source;Target[15]	24-8;24-1[29]	false[15]	2[15]	_	
+24-5	1442-1444	få	_	Source;Target[15]	24-8;24-1[29]	false[15]	2[15]	_	
+24-6	1445-1449	lite	_	Source;Target[15]	24-8;24-1[29]	false[15]	2[15]	_	
+24-7	1450-1458	motstånd	_	Source;Target[15]	24-8;24-1[29]	false[15]	2[15]	_	
+24-8	1458-1459	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1461-1462	#	_	_	_	_	_	_	
+25-2	1462-1463	P	_	_	_	_	_	_	
+25-3	1464-1467	IMM	_	_	_	_	_	_	
+25-4	1467-1468	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+26-1	1470-1475	Lotta	_	_	_	_	_	_	
+26-2	1476-1483	Gröning	_	_	_	_	_	_	
+26-3	1483-1484	.	_	_	_	_	_	_	

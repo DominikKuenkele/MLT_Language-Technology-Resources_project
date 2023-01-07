@@ -1,0 +1,889 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=SD: Läkare bör göra åldersbedömningar.
+3-1	18-20	SD	*	_	_	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	_	_	
+3-3	22-28	Läkare	*[10]	_	_	_	_	_	_	
+3-4	29-32	bör	*[10]	Source;Target	3-1;3-3[10]	false	4	_	_	
+3-5	33-37	göra	*[10]	_	_	_	_	_	_	
+3-6	38-55	åldersbedömningar	*[10]	_	_	_	_	_	_	
+3-7	55-56	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	false	3	_	_	
+4-4	64-65	.	_	_	_	_	_	_	_	
+
+#Text=Idag kan vuxna män ta platser i familjehem från barn som flyr från krig.
+5-1	67-71	Idag	_	_	_	_	_	_	_	
+5-2	72-75	kan	_	_	_	_	_	_	_	
+5-3	76-81	vuxna	_	_	_	_	_	_	_	
+5-4	82-85	män	_	_	_	_	_	_	_	
+5-5	86-88	ta	_	_	_	_	_	_	_	
+5-6	89-96	platser	_	_	_	_	_	_	_	
+5-7	97-98	i	_	_	_	_	_	_	_	
+5-8	99-109	familjehem	_	_	_	_	_	_	_	
+5-9	110-114	från	_	_	_	_	_	_	_	
+5-10	115-119	barn	_	_	_	_	_	_	_	
+5-11	120-123	som	_	_	_	_	_	_	_	
+5-12	124-128	flyr	_	Target[1]	5-14	false[1]	1[1]	_	_	
+5-13	129-133	från	_	Target[1]	5-14	false[1]	1[1]	_	_	
+5-14	134-138	krig	*	Target[1]	5-14	false[1]	1[1]	_	_	
+5-15	138-139	.	_	_	_	_	_	_	_	
+
+#Text=För att kunna garantera en rättssäker prövning av minderåriga bör Sverige följa våra grannländers exempel och lagstadga ett krav på obligatorisk medicinsk åldersbedömning som utförs av läkare.
+6-1	140-143	För	_	_	_	_	_	_	_	
+6-2	144-147	att	_	_	_	_	_	_	_	
+6-3	148-153	kunna	_	_	_	_	_	_	_	
+6-4	154-163	garantera	_	_[2]	_	false[2]	4[2]	_	_	
+6-5	164-166	en	_	_[2]	_	false[2]	4[2]	_	_	
+6-6	167-177	rättssäker	_	_[2]	_	false[2]	4[2]	_	_	
+6-7	178-186	prövning	_	_[2]	_	false[2]	4[2]	_	_	
+6-8	187-189	av	_	_	_	_	_	_	_	
+6-9	190-201	minderåriga	_	_	_	_	_	_	_	
+6-10	202-205	bör	_	Target;Source	6-11[11];7-3[12]	false	4	_	_	
+6-11	206-213	Sverige	*[11]	_	_	_	_	_	_	
+6-12	214-219	följa	*[11]	_	_	_	_	_	_	
+6-13	220-224	våra	*[11]	_	_	_	_	_	_	
+6-14	225-237	grannländers	*[11]	_	_	_	_	_	_	
+6-15	238-245	exempel	*[11]	_	_	_	_	_	_	
+6-16	246-249	och	*[11]	_	_	_	_	_	_	
+6-17	250-259	lagstadga	*[11]	_	_	_	_	_	_	
+6-18	260-263	ett	*[11]	_	_	_	_	_	_	
+6-19	264-268	krav	*[11]	_	_	_	_	_	_	
+6-20	269-271	på	*[11]	_	_	_	_	_	_	
+6-21	272-284	obligatorisk	*[11]	_	_	_	_	_	_	
+6-22	285-294	medicinsk	*[11]	_	_	_	_	_	_	
+6-23	295-310	åldersbedömning	*[11]	_	_	_	_	_	_	
+6-24	311-314	som	*[11]	_	_	_	_	_	_	
+6-25	315-321	utförs	*[11]	_	_	_	_	_	_	
+6-26	322-324	av	*[11]	_	_	_	_	_	_	
+6-27	325-331	läkare	*[11]	_	_	_	_	_	_	
+6-28	331-332	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver Adam Marttinen (SD), riksdagsledamot och rättspolitisk talesperson.
+7-1	333-336	Det	_	_	_	_	_	_	_	
+7-2	337-344	skriver	_	_	_	_	_	_	_	
+7-3	345-349	Adam	*[12]	_	_	_	_	_	_	
+7-4	350-359	Marttinen	*[12]	_	_	_	_	_	_	
+7-5	360-361	(	*[12]	_	_	_	_	_	_	
+7-6	361-363	SD	*[12]	_	_	_	_	_	_	
+7-7	363-364	)	*[12]	_	_	_	_	_	_	
+7-8	364-365	,	_	_	_	_	_	_	_	
+7-9	366-381	riksdagsledamot	_	_	_	_	_	_	_	
+7-10	382-385	och	_	_	_	_	_	_	_	
+7-11	386-399	rättspolitisk	_	_	_	_	_	_	_	
+7-12	400-411	talesperson	_	_	_	_	_	_	_	
+7-13	411-412	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	414-415	#	_	_	_	_	_	_	_	
+8-2	415-416	P	_	_	_	_	_	_	_	
+8-3	417-420	IMM	_	_	_	false	3	_	_	
+8-4	420-421	.	_	_	_	_	_	_	_	
+
+#Text=I fredags lade Migrationsverket ansvaret på asylsökande att bevisa sin ålder, de ska även informeras om möjligheten att, om de vill, få genomgå en medicinsk åldersbedömning av läkare.
+9-1	423-424	I	_	_	_	_	_	_	_	
+9-2	425-432	fredags	_	_	_	_	_	_	_	
+9-3	433-437	lade	_	_	_	_	_	_	_	
+9-4	438-454	Migrationsverket	_	_	_	_	_	_	_	
+9-5	455-463	ansvaret	_	_	_	_	_	_	_	
+9-6	464-466	på	_	_	_	_	_	_	_	
+9-7	467-478	asylsökande	_	_	_	_	_	_	_	
+9-8	479-482	att	_	_	_	_	_	_	_	
+9-9	483-489	bevisa	_	_	_	_	_	_	_	
+9-10	490-493	sin	_	_	_	_	_	_	_	
+9-11	494-499	ålder	_	_	_	_	_	_	_	
+9-12	499-500	,	_	_	_	_	_	_	_	
+9-13	501-503	de	_	_	_	_	_	_	_	
+9-14	504-507	ska	_	_	_	_	_	_	_	
+9-15	508-512	även	_	_	_	_	_	_	_	
+9-16	513-523	informeras	_	_	_	_	_	_	_	
+9-17	524-526	om	_	_	_	_	_	_	_	
+9-18	527-538	möjligheten	_	_	_	_	_	_	_	
+9-19	539-542	att	_	_	_	_	_	_	_	
+9-20	542-543	,	_	_	_	_	_	_	_	
+9-21	544-546	om	_	_	_	_	_	_	_	
+9-22	547-549	de	_	_	_	_	_	_	_	
+9-23	550-554	vill	_	_	_	_	_	_	_	
+9-24	554-555	,	_	_	_	_	_	_	_	
+9-25	556-558	få	_	_	_	_	_	_	_	
+9-26	559-566	genomgå	_	_	_	_	_	_	_	
+9-27	567-569	en	_	_	_	_	_	_	_	
+9-28	570-579	medicinsk	_	_	_	_	_	_	_	
+9-29	580-595	åldersbedömning	_	_	_	_	_	_	_	
+9-30	596-598	av	_	_	_	_	_	_	_	
+9-31	599-605	läkare	_	_	_	_	_	_	_	
+9-32	605-606	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	608-609	#	_	_	_	_	_	_	_	
+10-2	609-610	P	_	_	_	_	_	_	_	
+10-3	611-614	IMM	_	_	_	_	_	_	_	
+10-4	614-615	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	617-620	Det	_	_	_	_	_	_	_	
+11-2	621-624	här	_	_	_	_	_	_	_	
+11-3	625-627	är	_	_	_	_	_	_	_	
+11-4	628-630	en	_	_	_	_	_	_	_	
+11-5	631-645	argumenterande	_	_	_	_	_	_	_	
+11-6	646-650	text	_	_	_	_	_	_	_	
+11-7	651-654	med	_	_	_	_	_	_	_	
+11-8	655-660	syfte	_	_	_	_	_	_	_	
+11-9	661-664	att	_	_	_	_	_	_	_	
+11-10	665-672	påverka	_	_	_	_	_	_	_	
+11-11	672-673	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	674-683	Åsikterna	_	_	_	_	_	_	_	
+12-2	684-687	som	_	_	_	_	_	_	_	
+12-3	688-696	uttrycks	_	_	_	_	_	_	_	
+12-4	697-699	är	_	_	_	_	_	_	_	
+12-5	700-711	skribentens	_	_	_	_	_	_	_	
+12-6	712-716	egna	_	_	_	_	_	_	_	
+12-7	716-717	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	719-720	#	_	_	_	_	_	_	_	
+13-2	720-721	P	_	_	_	_	_	_	_	
+13-3	722-725	IMM	_	_	_	false	3	_	_	
+13-4	725-726	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverkets rättschef Fredrik Beijer framhåller att de kommer att "tänka fritt" kring bevisningen, och till exempel låta närstående personer styrka den asylsökandes ålder.Då de som uppger sig vara ensamkommande flyktingbarn i regel kommer just ensamma till Sverige, eller tillsammans med en grupp andra barn i samma situation, har vi svårt att förstå det resonemanget.
+14-1	728-745	Migrationsverkets	_	_	_	_	_	_	_	
+14-2	746-755	rättschef	_	_	_	_	_	_	_	
+14-3	756-763	Fredrik	_	_	_	_	_	_	_	
+14-4	764-770	Beijer	_	_	_	_	_	_	_	
+14-5	771-781	framhåller	_	_	_	_	_	_	_	
+14-6	782-785	att	_	_	_	_	_	_	_	
+14-7	786-788	de	_	_	_	_	_	_	_	
+14-8	789-795	kommer	_	_	_	_	_	_	_	
+14-9	796-799	att	_	_	_	_	_	_	_	
+14-10	800-801	"	_	_	_	_	_	_	_	
+14-11	801-806	tänka	_	_	_	_	_	_	_	
+14-12	807-812	fritt	_	_	_	_	_	_	_	
+14-13	812-813	"	_	_	_	_	_	_	_	
+14-14	814-819	kring	_	_	_	_	_	_	_	
+14-15	820-831	bevisningen	_	_	_	_	_	_	_	
+14-16	831-832	,	_	_	_	_	_	_	_	
+14-17	833-836	och	_	_	_	_	_	_	_	
+14-18	837-841	till	_	_	_	_	_	_	_	
+14-19	842-849	exempel	_	_	_	_	_	_	_	
+14-20	850-854	låta	_	_	_	_	_	_	_	
+14-21	855-865	närstående	_	_	_	_	_	_	_	
+14-22	866-874	personer	_	_	_	_	_	_	_	
+14-23	875-881	styrka	_	_	_	_	_	_	_	
+14-24	882-885	den	_	_	_	_	_	_	_	
+14-25	886-898	asylsökandes	_	_	_	_	_	_	_	
+14-26	899-907	ålder.Då	_	_	_	_	_	_	_	
+14-27	908-910	de	_	_	_	_	_	_	_	
+14-28	911-914	som	_	_	_	_	_	_	_	
+14-29	915-921	uppger	_	_	_	_	_	_	_	
+14-30	922-925	sig	_	_	_	_	_	_	_	
+14-31	926-930	vara	_	_	_	_	_	_	_	
+14-32	931-944	ensamkommande	_	_	_	_	_	_	_	
+14-33	945-957	flyktingbarn	_	_	_	_	_	_	_	
+14-34	958-959	i	_	_	_	_	_	_	_	
+14-35	960-965	regel	_	_	_	_	_	_	_	
+14-36	966-972	kommer	_	_	_	_	_	_	_	
+14-37	973-977	just	_	_	_	_	_	_	_	
+14-38	978-985	ensamma	_	_	_	_	_	_	_	
+14-39	986-990	till	_	_	_	_	_	_	_	
+14-40	991-998	Sverige	_	_	_	_	_	_	_	
+14-41	998-999	,	_	_	_	_	_	_	_	
+14-42	1000-1005	eller	_	_	_	_	_	_	_	
+14-43	1006-1017	tillsammans	_	_	_	_	_	_	_	
+14-44	1018-1021	med	_	_	_	_	_	_	_	
+14-45	1022-1024	en	_	_	_	_	_	_	_	
+14-46	1025-1030	grupp	_	_	_	_	_	_	_	
+14-47	1031-1036	andra	_	_	_	_	_	_	_	
+14-48	1037-1041	barn	_	_	_	_	_	_	_	
+14-49	1042-1043	i	_	_	_	_	_	_	_	
+14-50	1044-1049	samma	_	_	_	_	_	_	_	
+14-51	1050-1059	situation	_	_	_	_	_	_	_	
+14-52	1059-1060	,	_	_	_	_	_	_	_	
+14-53	1061-1064	har	_	_	_	_	_	_	_	
+14-54	1065-1067	vi	_	_	_	_	_	_	_	
+14-55	1068-1073	svårt	_	_	_	_	_	_	_	
+14-56	1074-1077	att	_	_	_	_	_	_	_	
+14-57	1078-1084	förstå	_	_	_	_	_	_	_	
+14-58	1085-1088	det	_	_	_	_	_	_	_	
+14-59	1089-1101	resonemanget	_	_	_	_	_	_	_	
+14-60	1101-1102	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1104-1105	#	_	_	_	_	_	_	_	
+15-2	1105-1106	P	_	_	_	_	_	_	_	
+15-3	1107-1110	IMM	_	_	_	false	3	_	_	
+15-4	1110-1111	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket ser det nya beslutet som en del av lösningen på de långa handläggningsprocesserna.
+16-1	1113-1129	Migrationsverket	_	_	_	_	_	_	_	
+16-2	1130-1133	ser	_	_	_	_	_	_	_	
+16-3	1134-1137	det	_	_	_	_	_	_	_	
+16-4	1138-1141	nya	_	_	_	_	_	_	_	
+16-5	1142-1150	beslutet	_	_	_	_	_	_	_	
+16-6	1151-1154	som	_	_	_	_	_	_	_	
+16-7	1155-1157	en	_	_	_	_	_	_	_	
+16-8	1158-1161	del	_	_	_	_	_	_	_	
+16-9	1162-1164	av	_	_	_	_	_	_	_	
+16-10	1165-1174	lösningen	_	_	_	_	_	_	_	
+16-11	1175-1177	på	_	_	_	_	_	_	_	
+16-12	1178-1180	de	_	_	_	_	_	_	_	
+16-13	1181-1186	långa	_	_	_	_	_	_	_	
+16-14	1187-1211	handläggningsprocesserna	_	_	_	_	_	_	_	
+16-15	1211-1212	.	_	_	_	_	_	_	_	
+
+#Text=Vi delar Migrationsverkets analys i att handläggningstiderna måste kortas. 55 procent av alla ärenden som Migrationsverket hanterar tar längre tid än åtta månader och det är uppenbart att systemet inte är anpassat för det stora antal asylsökningar Sverige tar emot.
+17-1	1213-1215	Vi	_	_	_	_	_	_	_	
+17-2	1216-1221	delar	_	_	_	_	_	_	_	
+17-3	1222-1239	Migrationsverkets	_	_	_	_	_	_	_	
+17-4	1240-1246	analys	_	_	_	_	_	_	_	
+17-5	1247-1248	i	_	_	_	_	_	_	_	
+17-6	1249-1252	att	_	_	_	_	_	_	_	
+17-7	1253-1273	handläggningstiderna	_	_	_	_	_	_	_	
+17-8	1274-1279	måste	_	_	_	_	_	_	_	
+17-9	1280-1286	kortas	_	_	_	_	_	_	_	
+17-10	1286-1287	.	_	_	_	_	_	_	_	
+17-11	1288-1290	55	_	_	_	_	_	_	_	
+17-12	1291-1298	procent	_	_	_	_	_	_	_	
+17-13	1299-1301	av	_	_	_	_	_	_	_	
+17-14	1302-1306	alla	_	_	_	_	_	_	_	
+17-15	1307-1314	ärenden	_	_	_	_	_	_	_	
+17-16	1315-1318	som	_	_	_	_	_	_	_	
+17-17	1319-1335	Migrationsverket	_	_	_	_	_	_	_	
+17-18	1336-1344	hanterar	_	_	_	_	_	_	_	
+17-19	1345-1348	tar	_	_	_	_	_	_	_	
+17-20	1349-1355	längre	_	_	_	_	_	_	_	
+17-21	1356-1359	tid	_	_	_	_	_	_	_	
+17-22	1360-1362	än	_	_	_	_	_	_	_	
+17-23	1363-1367	åtta	_	_	_	_	_	_	_	
+17-24	1368-1375	månader	_	_	_	_	_	_	_	
+17-25	1376-1379	och	_	_	_	_	_	_	_	
+17-26	1380-1383	det	_	_	_	_	_	_	_	
+17-27	1384-1386	är	_	_	_	_	_	_	_	
+17-28	1387-1396	uppenbart	_	_	_	_	_	_	_	
+17-29	1397-1400	att	_	_	_	_	_	_	_	
+17-30	1401-1409	systemet	_	_	_	_	_	_	_	
+17-31	1410-1414	inte	_	_	_	_	_	_	_	
+17-32	1415-1417	är	_	_	_	_	_	_	_	
+17-33	1418-1426	anpassat	_	_	_	_	_	_	_	
+17-34	1427-1430	för	_	_	_	_	_	_	_	
+17-35	1431-1434	det	_	_	_	_	_	_	_	
+17-36	1435-1440	stora	_	_	_	_	_	_	_	
+17-37	1441-1446	antal	_	_	_	_	_	_	_	
+17-38	1447-1460	asylsökningar	_	_	_	_	_	_	_	
+17-39	1461-1468	Sverige	_	_	_	_	_	_	_	
+17-40	1469-1472	tar	_	_	_	_	_	_	_	
+17-41	1473-1477	emot	_	_	_	_	_	_	_	
+17-42	1477-1478	.	_	_	_	_	_	_	_	
+
+#Text=Men lösningen på denna flaskhals ligger inte i att avsäga sig ansvaret för åldersbevisning och istället lägga det på barnen.
+18-1	1479-1482	Men	_	_	_	_	_	_	_	
+18-2	1483-1492	lösningen	_	Target	18-9[14]	false	3	18-6[3_0]	_	
+18-3	1493-1495	på	_	_	_	_	_	_	_	
+18-4	1496-1501	denna	*[13]	_	_	_	_	_	_	
+18-5	1502-1511	flaskhals	*[13]	Target	18-4[13]	false	2	_	_	
+18-6	1512-1518	ligger	_	Target[3]	18-9[15]	false[3]	3[3]	_	_	
+18-7	1519-1523	inte	_	Target[3]	18-9[15]	false[3]	3[3]	_	_	
+18-8	1524-1525	i	_	Target[3]	18-9[15]	false[3]	3[3]	_	_	
+18-9	1526-1529	att	*[14]|*[15]	_	_	_	_	_	_	
+18-10	1530-1536	avsäga	*[14]|*[15]	_	_	_	_	_	_	
+18-11	1537-1540	sig	*[14]|*[15]	_	_	_	_	_	_	
+18-12	1541-1549	ansvaret	*[14]|*[15]	_	_	_	_	_	_	
+18-13	1550-1553	för	*[14]|*[15]	_	_	_	_	_	_	
+18-14	1554-1569	åldersbevisning	*[14]|*[15]	_	_	_	_	_	_	
+18-15	1570-1573	och	*[14]|*[15]	_	_	_	_	_	_	
+18-16	1574-1582	istället	*[14]|*[15]	_	_	_	_	_	_	
+18-17	1583-1588	lägga	*[14]|*[15]	_	_	_	_	_	_	
+18-18	1589-1592	det	*[14]|*[15]	_	_	_	_	_	_	
+18-19	1593-1595	på	*[14]|*[15]	_	_	_	_	_	_	
+18-20	1596-1602	barnen	*[14]|*[15]	_	_	_	_	_	_	
+18-21	1602-1603	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1605-1606	#	_	_	_	_	_	_	_	
+19-2	1606-1607	P	_	_	_	_	_	_	_	
+19-3	1608-1611	IMM	_	_	_	false	2	_	_	
+19-4	1611-1612	.	_	_	_	_	_	_	_	
+
+#Text=Den största orsaken till Migrationsverkets långa handläggningstider är den överbelastning som ett allt högre asyltryck innebär.
+20-1	1614-1617	Den	*[16]	_	_	_	_	_	_	
+20-2	1618-1625	största	*[16]	_	_	_	_	_	_	
+20-3	1626-1633	orsaken	*[16]	_	_	_	_	_	_	
+20-4	1634-1638	till	*[16]	_	_	_	_	_	_	
+20-5	1639-1656	Migrationsverkets	*[16]	_	_	_	_	_	_	
+20-6	1657-1662	långa	*[16]	_	_	_	_	_	_	
+20-7	1663-1681	handläggningstider	*[16]	_	_	_	_	_	_	
+20-8	1682-1684	är	*[16]	_	_	_	_	_	_	
+20-9	1685-1688	den	*[16]	_	_	_	_	_	_	
+20-10	1689-1703	överbelastning	*[16]	Target	20-1[16]	false	2	_	_	
+20-11	1704-1707	som	*[16]	_	_	_	_	_	_	
+20-12	1708-1711	ett	*[16]	_	_	_	_	_	_	
+20-13	1712-1716	allt	*[16]	_	_	_	_	_	_	
+20-14	1717-1722	högre	*[16]	_	_	_	_	_	_	
+20-15	1723-1732	asyltryck	*[16]	_	_	_	_	_	_	
+20-16	1733-1740	innebär	*[16]	_	_	_	_	_	_	
+20-17	1740-1741	.	*	_	_	_	_	_	24-8[18_0]	
+
+#Text=För knappt tio år sedan skapades ett system i Sverige för att ta emot ensamkommande flyktingbarn.
+21-1	1742-1745	För	_	_	_	_	_	_	_	
+21-2	1746-1752	knappt	_	_	_	_	_	_	_	
+21-3	1753-1756	tio	_	_	_	_	_	_	_	
+21-4	1757-1759	år	_	_	_	_	_	_	_	
+21-5	1760-1765	sedan	_	_	_	_	_	_	_	
+21-6	1766-1774	skapades	_	_	_	_	_	_	_	
+21-7	1775-1778	ett	_	_	_	_	_	_	_	
+21-8	1779-1785	system	_	_	_	_	_	_	_	
+21-9	1786-1787	i	_	_	_	_	_	_	_	
+21-10	1788-1795	Sverige	_	_	_	_	_	_	_	
+21-11	1796-1799	för	_	_	_	_	_	_	_	
+21-12	1800-1803	att	_	_	_	_	_	_	_	
+21-13	1804-1806	ta	_	_	_	_	_	_	_	
+21-14	1807-1811	emot	_	_	_	_	_	_	_	
+21-15	1812-1825	ensamkommande	_	_	_	_	_	_	_	
+21-16	1826-1838	flyktingbarn	_	_	_	_	_	_	_	
+21-17	1838-1839	.	_	_	_	_	_	_	_	
+
+#Text=Då låg nivåerna på kring 400 barn per år.
+22-1	1840-1842	Då	_	_	_	_	_	_	_	
+22-2	1843-1846	låg	_	_	_	_	_	_	_	
+22-3	1847-1855	nivåerna	_	_	_	_	_	_	_	
+22-4	1856-1858	på	_	_	_	_	_	_	_	
+22-5	1859-1864	kring	_	_	_	_	_	_	_	
+22-6	1865-1868	400	_	_	_	_	_	_	_	
+22-7	1869-1873	barn	_	_	_	_	_	_	_	
+22-8	1874-1877	per	_	_	_	_	_	_	_	
+22-9	1878-1880	år	_	_	_	_	_	_	_	
+22-10	1880-1881	.	_	_	_	_	_	_	_	
+
+#Text=Idag är siffran uppe i runt 12 000 barn per år och upp till 600 i veckan, med samma system som grund.
+23-1	1882-1886	Idag	_	_	_	_	_	_	_	
+23-2	1887-1889	är	_	_	_	_	_	_	_	
+23-3	1890-1897	siffran	_	_	_	_	_	_	_	
+23-4	1898-1902	uppe	_	_	_	_	_	_	_	
+23-5	1903-1904	i	_	_	_	_	_	_	_	
+23-6	1905-1909	runt	_	_	_	_	_	_	_	
+23-7	1910-1912	12	_	_	_	_	_	_	_	
+23-8	1913-1916	000	_	_	_	_	_	_	_	
+23-9	1917-1921	barn	_	_	_	_	_	_	_	
+23-10	1922-1925	per	_	_	_	_	_	_	_	
+23-11	1926-1928	år	_	_	_	_	_	_	_	
+23-12	1929-1932	och	_	_	_	_	_	_	_	
+23-13	1933-1936	upp	_	_	_	_	_	_	_	
+23-14	1937-1941	till	_	_	_	_	_	_	_	
+23-15	1942-1945	600	_	_	_	_	_	_	_	
+23-16	1946-1947	i	_	_	_	_	_	_	_	
+23-17	1948-1954	veckan	_	_	_	_	_	_	_	
+23-18	1954-1955	,	_	_	_	_	_	_	_	
+23-19	1956-1959	med	_	_	_	_	_	_	_	
+23-20	1960-1965	samma	_	_	_	_	_	_	_	
+23-21	1966-1972	system	_	_	_	_	_	_	_	
+23-22	1973-1976	som	_	_	_	_	_	_	_	
+23-23	1977-1982	grund	_	_	_	_	_	_	_	
+23-24	1982-1983	.	_	_	_	_	_	_	_	
+
+#Text=Att Migrationsverket inte väljer att inse att det är vad som ligger till grund för problematiken tycker vi i Sverigedemokraterna är bekymmersamt.
+24-1	1984-1987	Att	*[17]	_	_	_	_	_	_	
+24-2	1988-2004	Migrationsverket	*[17]	_	_	_	_	_	_	
+24-3	2005-2009	inte	*[17]	_	_	_	_	_	_	
+24-4	2010-2016	väljer	*[17]	_	_	_	_	_	_	
+24-5	2017-2020	att	*[17]	_	_	_	_	_	_	
+24-6	2021-2025	inse	*[17]	_	_	_	_	_	_	
+24-7	2026-2029	att	*[17]	_	_	_	_	_	_	
+24-8	2030-2033	det	*[17]|*[18]	_	_	_	_	_	_	
+24-9	2034-2036	är	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-10	2037-2040	vad	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-11	2041-2044	som	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-12	2045-2051	ligger	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-13	2052-2056	till	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-14	2057-2062	grund	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-15	2063-2066	för	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-16	2067-2080	problematiken	*[17]	Target[4]	24-8[18]	false[4]	2[4]	_	_	
+24-17	2081-2087	tycker	_	_	_	_	_	_	_	
+24-18	2088-2090	vi	*[19]	_	_	_	_	_	_	
+24-19	2091-2092	i	*[19]	_	_	_	_	_	_	
+24-20	2093-2112	Sverigedemokraterna	*[19]	_	_	_	_	_	_	
+24-21	2113-2115	är	_	Target;Source[5]	24-1[17];24-18[19]	false[5]	2[5]	_	_	
+24-22	2116-2128	bekymmersamt	_	Target;Source[5]	24-1[17];24-18[19]	false[5]	2[5]	_	_	
+24-23	2128-2129	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2131-2132	#	_	_	_	_	_	_	_	
+25-2	2132-2133	P	_	_	_	_	_	_	_	
+25-3	2134-2137	IMM	_	_	_	false	3	_	_	
+25-4	2137-2138	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket bör i sin handläggning följa ett system där barn från särskilt krisdrabbade länder prioriteras.
+26-1	2140-2156	Migrationsverket	_	_	_	_	_	_	_	
+26-2	2157-2160	bör	_	_	_	_	_	_	_	
+26-3	2161-2162	i	_	_	_	_	_	_	_	
+26-4	2163-2166	sin	_	_	_	_	_	_	_	
+26-5	2167-2179	handläggning	_	_	_	_	_	_	_	
+26-6	2180-2185	följa	_	_	_	_	_	_	_	
+26-7	2186-2189	ett	_	_	_	_	_	_	_	
+26-8	2190-2196	system	_	_	_	_	_	_	_	
+26-9	2197-2200	där	_	_	_	_	_	_	_	
+26-10	2201-2205	barn	_	_	_	_	_	_	_	
+26-11	2206-2210	från	_	_	_	_	_	_	_	
+26-12	2211-2219	särskilt	_	_	_	_	_	_	_	
+26-13	2220-2232	krisdrabbade	_	_	_	_	_	_	_	
+26-14	2233-2239	länder	_	_	_	_	_	_	_	
+26-15	2240-2251	prioriteras	_	_	_	_	_	_	_	
+26-16	2251-2252	.	_	_	_	_	_	_	_	
+
+#Text=Detta skulle innebära kortare handläggningstid för de som söker ifrån länder som redan klassas som säkra.
+27-1	2253-2258	Detta	_	_	_	_	_	_	_	
+27-2	2259-2265	skulle	_	_	_	_	_	_	_	
+27-3	2266-2274	innebära	_	_	_	_	_	_	_	
+27-4	2275-2282	kortare	_	_	_	_	_	_	_	
+27-5	2283-2299	handläggningstid	_	_	_	_	_	_	_	
+27-6	2300-2303	för	_	_	_	_	_	_	_	
+27-7	2304-2306	de	_	_	_	_	_	_	_	
+27-8	2307-2310	som	_	_	_	_	_	_	_	
+27-9	2311-2316	söker	_	_	_	_	_	_	_	
+27-10	2317-2322	ifrån	_	_	_	_	_	_	_	
+27-11	2323-2329	länder	_	_	_	_	_	_	_	
+27-12	2330-2333	som	_	_	_	_	_	_	_	
+27-13	2334-2339	redan	_	_	_	_	_	_	_	
+27-14	2340-2347	klassas	_	_	_	_	_	_	_	
+27-15	2348-2351	som	_	_	_	_	_	_	_	
+27-16	2352-2357	säkra	_	_	_	_	_	_	_	
+27-17	2357-2358	.	_	_	_	_	_	_	_	
+
+#Text=Om det uppenbarligen rör sig om ett småbarn som söker kan undantag göras vid processen för åldersbestämning inklusive annan administration som hör till.
+28-1	2359-2361	Om	_	_	_	_	_	_	_	
+28-2	2362-2365	det	_	_	_	_	_	_	_	
+28-3	2366-2379	uppenbarligen	_	_	_	_	_	_	_	
+28-4	2380-2383	rör	_	_	_	_	_	_	_	
+28-5	2384-2387	sig	_	_	_	_	_	_	_	
+28-6	2388-2390	om	_	_	_	_	_	_	_	
+28-7	2391-2394	ett	_	_	_	_	_	_	_	
+28-8	2395-2402	småbarn	_	_	_	_	_	_	_	
+28-9	2403-2406	som	_	_	_	_	_	_	_	
+28-10	2407-2412	söker	_	_	_	_	_	_	_	
+28-11	2413-2416	kan	_	_	_	_	_	_	_	
+28-12	2417-2425	undantag	_	_	_	_	_	_	_	
+28-13	2426-2431	göras	_	_	_	_	_	_	_	
+28-14	2432-2435	vid	_	_	_	_	_	_	_	
+28-15	2436-2445	processen	_	_	_	_	_	_	_	
+28-16	2446-2449	för	_	_	_	_	_	_	_	
+28-17	2450-2466	åldersbestämning	_	_	_	_	_	_	_	
+28-18	2467-2476	inklusive	_	_	_	_	_	_	_	
+28-19	2477-2482	annan	_	_	_	_	_	_	_	
+28-20	2483-2497	administration	_	_	_	_	_	_	_	
+28-21	2498-2501	som	_	_	_	_	_	_	_	
+28-22	2502-2505	hör	_	_	_	_	_	_	_	
+28-23	2506-2510	till	_	_	_	_	_	_	_	
+28-24	2510-2511	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2513-2514	#	_	_	_	_	_	_	_	
+29-2	2514-2515	P	_	_	_	_	_	_	_	
+29-3	2516-2519	IMM	_	_	_	false	2	_	_	
+29-4	2519-2520	.	_	_	_	_	_	_	_	
+
+#Text=Beslutet som Migrationsverket istället fattade om att överlåta sitt ansvar av åldersbevisning till minderåriga missar inte bara problemet, det äventyrar även rättssäkerheten.I både Danmark, Norge och Finland är det obligatoriskt med medicinsk åldersbedömning, där läkare får avgöra åldern hos papperslösa asylsökande.
+30-1	2522-2530	Beslutet	_	_	_	_	_	_	_	
+30-2	2531-2534	som	_	_	_	_	_	_	_	
+30-3	2535-2551	Migrationsverket	_	_	_	_	_	_	_	
+30-4	2552-2560	istället	_	_	_	_	_	_	_	
+30-5	2561-2568	fattade	_	_	_	_	_	_	_	
+30-6	2569-2571	om	_	_	_	_	_	_	_	
+30-7	2572-2575	att	_	_	_	_	_	_	_	
+30-8	2576-2584	överlåta	_	_	_	_	_	_	_	
+30-9	2585-2589	sitt	_	_	_	_	_	_	_	
+30-10	2590-2596	ansvar	_	_	_	_	_	_	_	
+30-11	2597-2599	av	_	_	_	_	_	_	_	
+30-12	2600-2615	åldersbevisning	_	_	_	_	_	_	_	
+30-13	2616-2620	till	_	_	_	_	_	_	_	
+30-14	2621-2632	minderåriga	_	_	_	_	_	_	_	
+30-15	2633-2639	missar	_	_	_	_	_	_	_	
+30-16	2640-2644	inte	_	_	_	_	_	_	_	
+30-17	2645-2649	bara	_	_	_	_	_	_	_	
+30-18	2650-2659	problemet	_	_	_	_	_	_	_	
+30-19	2659-2660	,	_	_	_	_	_	_	_	
+30-20	2661-2664	det	_	_	_	_	_	_	_	
+30-21	2665-2674	äventyrar	_	_	_	_	_	_	_	
+30-22	2675-2679	även	_	_	_	_	_	_	_	
+30-23	2680-2697	rättssäkerheten.I	_	_	_	_	_	_	_	
+30-24	2698-2702	både	_	_	_	_	_	_	_	
+30-25	2703-2710	Danmark	_	_	_	_	_	_	_	
+30-26	2710-2711	,	_	_	_	_	_	_	_	
+30-27	2712-2717	Norge	_	_	_	_	_	_	_	
+30-28	2718-2721	och	_	_	_	_	_	_	_	
+30-29	2722-2729	Finland	_	_	_	_	_	_	_	
+30-30	2730-2732	är	_	_	_	_	_	_	_	
+30-31	2733-2736	det	_	_	_	_	_	_	_	
+30-32	2737-2750	obligatoriskt	_	_	_	_	_	_	_	
+30-33	2751-2754	med	_	_	_	_	_	_	_	
+30-34	2755-2764	medicinsk	_	_	_	_	_	_	_	
+30-35	2765-2780	åldersbedömning	_	_	_	_	_	_	_	
+30-36	2780-2781	,	_	_	_	_	_	_	_	
+30-37	2782-2785	där	_	_	_	_	_	_	_	
+30-38	2786-2792	läkare	_	_	_	_	_	_	_	
+30-39	2793-2796	får	_	_	_	_	_	_	_	
+30-40	2797-2803	avgöra	_	_	_	_	_	_	_	
+30-41	2804-2810	åldern	_	_	_	_	_	_	_	
+30-42	2811-2814	hos	_	_	_	_	_	_	_	
+30-43	2815-2826	papperslösa	_	_	_	_	_	_	_	
+30-44	2827-2838	asylsökande	_	_	_	_	_	_	_	
+30-45	2838-2839	.	_	_	_	_	_	_	_	
+
+#Text=Förra året kom uppgifter från danska justitieministeriet om att de som påstått sig vara barn i över hälften av fallen visat sig vara vuxna.
+31-1	2840-2845	Förra	_	_	_	_	_	_	_	
+31-2	2846-2850	året	_	_	_	_	_	_	_	
+31-3	2851-2854	kom	_	_	_	_	_	_	_	
+31-4	2855-2864	uppgifter	_	_	_	_	_	_	_	
+31-5	2865-2869	från	_	_	_	_	_	_	_	
+31-6	2870-2876	danska	_	_	_	_	_	_	_	
+31-7	2877-2896	justitieministeriet	_	_	_	_	_	_	_	
+31-8	2897-2899	om	_	_	_	_	_	_	_	
+31-9	2900-2903	att	_	_	_	_	_	_	_	
+31-10	2904-2906	de	_	_	_	_	_	_	_	
+31-11	2907-2910	som	_	_	_	_	_	_	_	
+31-12	2911-2918	påstått	_	_	_	_	_	_	_	
+31-13	2919-2922	sig	_	_	_	_	_	_	_	
+31-14	2923-2927	vara	_	_	_	_	_	_	_	
+31-15	2928-2932	barn	_	_	_	_	_	_	_	
+31-16	2933-2934	i	_	_	_	_	_	_	_	
+31-17	2935-2939	över	_	_	_	_	_	_	_	
+31-18	2940-2947	hälften	_	_	_	_	_	_	_	
+31-19	2948-2950	av	_	_	_	_	_	_	_	
+31-20	2951-2957	fallen	_	_	_	_	_	_	_	
+31-21	2958-2963	visat	_	_	_	_	_	_	_	
+31-22	2964-2967	sig	_	_	_	_	_	_	_	
+31-23	2968-2972	vara	_	_	_	_	_	_	_	
+31-24	2973-2978	vuxna	_	_	_	_	_	_	_	
+31-25	2978-2979	.	_	_	_	_	_	_	_	
+
+#Text=Siffror från Norge och Finland visar att 66 procent av de som påstått sig vara minderåriga enligt medicinska bedömningar, egentligen var vuxna.
+32-1	2980-2987	Siffror	_	_	_	_	_	_	_	
+32-2	2988-2992	från	_	_	_	_	_	_	_	
+32-3	2993-2998	Norge	_	_	_	_	_	_	_	
+32-4	2999-3002	och	_	_	_	_	_	_	_	
+32-5	3003-3010	Finland	_	_	_	_	_	_	_	
+32-6	3011-3016	visar	_	_	_	_	_	_	_	
+32-7	3017-3020	att	_	_	_	_	_	_	_	
+32-8	3021-3023	66	_	_	_	_	_	_	_	
+32-9	3024-3031	procent	_	_	_	_	_	_	_	
+32-10	3032-3034	av	_	_	_	_	_	_	_	
+32-11	3035-3037	de	_	_	_	_	_	_	_	
+32-12	3038-3041	som	_	_	_	_	_	_	_	
+32-13	3042-3049	påstått	_	_	_	_	_	_	_	
+32-14	3050-3053	sig	_	_	_	_	_	_	_	
+32-15	3054-3058	vara	_	_	_	_	_	_	_	
+32-16	3059-3070	minderåriga	_	_	_	_	_	_	_	
+32-17	3071-3077	enligt	_	_	_	_	_	_	_	
+32-18	3078-3088	medicinska	_	_	_	_	_	_	_	
+32-19	3089-3100	bedömningar	_	_	_	_	_	_	_	
+32-20	3100-3101	,	_	_	_	_	_	_	_	
+32-21	3102-3112	egentligen	_	_	_	_	_	_	_	
+32-22	3113-3116	var	_	_	_	_	_	_	_	
+32-23	3117-3122	vuxna	_	_	_	_	_	_	_	
+32-24	3122-3123	.	_	_	_	_	_	_	_	
+
+#Text=I Finland och Norge har det vid åldersbedömningar av yngre asylsökande framkommit – även när bedömningarna gjorts "generöst" – att cirka 66 procent bedömts vara vuxna.
+33-1	3124-3125	I	_	_	_	_	_	_	_	
+33-2	3126-3133	Finland	_	_	_	_	_	_	_	
+33-3	3134-3137	och	_	_	_	_	_	_	_	
+33-4	3138-3143	Norge	_	_	_	_	_	_	_	
+33-5	3144-3147	har	_	_	_	_	_	_	_	
+33-6	3148-3151	det	_	_	_	_	_	_	_	
+33-7	3152-3155	vid	_	_	_	_	_	_	_	
+33-8	3156-3173	åldersbedömningar	_	_	_	_	_	_	_	
+33-9	3174-3176	av	_	_	_	_	_	_	_	
+33-10	3177-3182	yngre	_	_	_	_	_	_	_	
+33-11	3183-3194	asylsökande	_	_	_	_	_	_	_	
+33-12	3195-3205	framkommit	_	_	_	_	_	_	_	
+33-13	3206-3207	–	_	_	_	_	_	_	_	
+33-14	3208-3212	även	_	_	_	_	_	_	_	
+33-15	3213-3216	när	_	_	_	_	_	_	_	
+33-16	3217-3230	bedömningarna	_	_	_	_	_	_	_	
+33-17	3231-3237	gjorts	_	_	_	_	_	_	_	
+33-18	3238-3239	"	_	_	_	_	_	_	_	
+33-19	3239-3247	generöst	_	_	_	_	_	_	_	
+33-20	3247-3248	"	_	_	_	_	_	_	_	
+33-21	3249-3250	–	_	_	_	_	_	_	_	
+33-22	3251-3254	att	_	_	_	_	_	_	_	
+33-23	3255-3260	cirka	_	_	_	_	_	_	_	
+33-24	3261-3263	66	_	_	_	_	_	_	_	
+33-25	3264-3271	procent	_	_	_	_	_	_	_	
+33-26	3272-3279	bedömts	_	_	_	_	_	_	_	
+33-27	3280-3284	vara	_	_	_	_	_	_	_	
+33-28	3285-3290	vuxna	_	_	_	_	_	_	_	
+33-29	3290-3291	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3293-3294	#	_	_	_	_	_	_	_	
+34-2	3294-3295	P	_	_	_	_	_	_	_	
+34-3	3296-3299	IMM	_	_	_	_	_	_	_	
+34-4	3299-3300	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+35-1	3302-3315	Skräddarsydda	_	_	_	_	_	_	_	
+35-2	3316-3322	kurser	_	_	_	_	_	_	_	
+35-3	3323-3324	i	_	_	_	_	_	_	_	
+35-4	3325-3330	ämnen	_	_	_	_	_	_	_	
+35-5	3331-3334	som	_	_	_	_	_	_	_	
+35-6	3335-3346	intresserar	_	_	_	_	_	_	_	
+35-7	3347-3350	och	_	_	_	_	_	_	_	
+35-8	3351-3360	engagerar	_	_	_	_	_	_	_	
+35-9	3361-3365	både	_	_	_	_	_	_	_	
+35-10	3366-3371	kropp	_	_	_	_	_	_	_	
+35-11	3372-3375	och	_	_	_	_	_	_	_	
+35-12	3376-3380	själ	_	_	_	_	_	_	_	
+35-13	3380-3381	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3383-3384	#	_	_	_	_	_	_	_	
+36-2	3384-3385	P	_	_	_	_	_	_	_	
+36-3	3386-3389	IMM	_	_	_	false	2	_	_	
+36-4	3389-3390	.	_	_	_	_	_	_	_	
+
+#Text=Enligt svensk lag är det inte tillåtet att avvisa någon under 18 år om de saknar ID-handlingar eller om det inte finns någon i hemlandet som tar emot dem.
+37-1	3392-3398	Enligt	_	_	_	_	_	_	_	
+37-2	3399-3405	svensk	_	_	_	_	_	_	_	
+37-3	3406-3409	lag	_	_	_	_	_	_	_	
+37-4	3410-3412	är	_	_	_	_	_	_	_	
+37-5	3413-3416	det	_	_	_	_	_	_	_	
+37-6	3417-3421	inte	_	_	_	_	_	_	_	
+37-7	3422-3430	tillåtet	_	_	_	_	_	_	_	
+37-8	3431-3434	att	_	_	_	_	_	_	_	
+37-9	3435-3441	avvisa	_	_	_	_	_	_	_	
+37-10	3442-3447	någon	_	_	_	_	_	_	_	
+37-11	3448-3453	under	_	_	_	_	_	_	_	
+37-12	3454-3456	18	_	_	_	_	_	_	_	
+37-13	3457-3459	år	_	_	_	_	_	_	_	
+37-14	3460-3462	om	_	_	_	_	_	_	_	
+37-15	3463-3465	de	_	_	_	_	_	_	_	
+37-16	3466-3472	saknar	_	_	_	_	_	_	_	
+37-17	3473-3486	ID-handlingar	_	_	_	_	_	_	_	
+37-18	3487-3492	eller	_	_	_	_	_	_	_	
+37-19	3493-3495	om	_	_	_	_	_	_	_	
+37-20	3496-3499	det	_	_	_	_	_	_	_	
+37-21	3500-3504	inte	_	_	_	_	_	_	_	
+37-22	3505-3510	finns	_	_	_	_	_	_	_	
+37-23	3511-3516	någon	_	_	_	_	_	_	_	
+37-24	3517-3518	i	_	_	_	_	_	_	_	
+37-25	3519-3528	hemlandet	_	_	_	_	_	_	_	
+37-26	3529-3532	som	_	_	_	_	_	_	_	
+37-27	3533-3536	tar	_	_	_	_	_	_	_	
+37-28	3537-3541	emot	_	_	_	_	_	_	_	
+37-29	3542-3545	dem	_	_	_	_	_	_	_	
+37-30	3545-3546	.	_	_	_	_	_	_	_	
+
+#Text=De har också rätt till fri vård, boende och mat.
+38-1	3547-3549	De	_	_	_	_	_	_	_	
+38-2	3550-3553	har	_	_	_	_	_	_	_	
+38-3	3554-3559	också	_	_	_	_	_	_	_	
+38-4	3560-3564	rätt	_	_	_	_	_	_	_	
+38-5	3565-3569	till	_	_	_	_	_	_	_	
+38-6	3570-3573	fri	_	_	_	_	_	_	_	
+38-7	3574-3578	vård	_	_	_	_	_	_	_	
+38-8	3578-3579	,	_	_	_	_	_	_	_	
+38-9	3580-3586	boende	_	_	_	_	_	_	_	
+38-10	3587-3590	och	_	_	_	_	_	_	_	
+38-11	3591-3594	mat	_	_	_	_	_	_	_	
+38-12	3594-3595	.	_	_	_	_	_	_	_	
+
+#Text=Många har därför som huvudsakligt mål att få uppehållstillstånd just i Sverige, till skillnad ifrån de som endast i första hand flyr från krig.
+39-1	3596-3601	Många	*[20]|*[21]	_	_	_	_	_	_	
+39-2	3602-3605	har	_	Target;Source	39-7[22];39-1[20]	false	4	_	_	
+39-3	3606-3612	därför	_	_	_	_	_	_	_	
+39-4	3613-3616	som	_	Target;Source[6]	39-7[23];39-1[21]	false[6]	4[6]	39-2[0_6]	_	
+39-5	3617-3629	huvudsakligt	_	Target;Source[6]	39-7[23];39-1[21]	false[6]	4[6]	_	_	
+39-6	3630-3633	mål	_	Target;Source[6]	39-7[23];39-1[21]	false[6]	4[6]	_	_	
+39-7	3634-3637	att	*[22]|*[23]	_	_	_	_	_	_	
+39-8	3638-3640	få	*[22]|*[23]	_	_	_	_	_	_	
+39-9	3641-3659	uppehållstillstånd	*[22]|*[23]	_	_	_	_	_	_	
+39-10	3660-3664	just	*[22]|*[23]	_	_	_	_	_	_	
+39-11	3665-3666	i	*[22]|*[23]	_	_	_	_	_	_	
+39-12	3667-3674	Sverige	*[22]|*[23]	_	_	_	_	_	_	
+39-13	3674-3675	,	_	_	_	_	_	_	_	
+39-14	3676-3680	till	_	_	_	_	_	_	_	
+39-15	3681-3689	skillnad	_	_	_	_	_	_	_	
+39-16	3690-3695	ifrån	_	_	_	_	_	_	_	
+39-17	3696-3698	de	_	_	_	_	_	_	_	
+39-18	3699-3702	som	_	_	_	_	_	_	_	
+39-19	3703-3709	endast	_	_	_	_	_	_	_	
+39-20	3710-3711	i	_	_	_	_	_	_	_	
+39-21	3712-3718	första	_	_	_	_	_	_	_	
+39-22	3719-3723	hand	_	_	_	_	_	_	_	
+39-23	3724-3728	flyr	_	Target[7]	39-25	false[7]	1[7]	_	_	
+39-24	3729-3733	från	_	Target[7]	39-25	false[7]	1[7]	_	_	
+39-25	3734-3738	krig	*	Target[7]	39-25	false[7]	1[7]	_	_	
+39-26	3738-3739	.	_	_	_	_	_	_	_	
+
+#Text=På grund av starka incitament hos den sökande finns det skäl att den medicinska åldersbedömningen inte lämnas frivillig.
+40-1	3740-3742	På	_	_	_	_	_	_	_	
+40-2	3743-3748	grund	_	_	_	_	_	_	_	
+40-3	3749-3751	av	_	_	_	_	_	_	_	
+40-4	3752-3758	starka	_	_	_	_	_	_	_	
+40-5	3759-3769	incitament	_	_	_	_	_	_	_	
+40-6	3770-3773	hos	_	_	_	_	_	_	_	
+40-7	3774-3777	den	_	_	_	_	_	_	_	
+40-8	3778-3785	sökande	_	_	_	_	_	_	_	
+40-9	3786-3791	finns	_	_	_	_	_	_	_	
+40-10	3792-3795	det	_	_	_	_	_	_	_	
+40-11	3796-3800	skäl	_	_	_	_	_	_	_	
+40-12	3801-3804	att	_	_	_	_	_	_	_	
+40-13	3805-3808	den	_	_	_	_	_	_	_	
+40-14	3809-3819	medicinska	_	_	_	_	_	_	_	
+40-15	3820-3837	åldersbedömningen	_	_	_	_	_	_	_	
+40-16	3838-3842	inte	_	_	_	_	_	_	_	
+40-17	3843-3849	lämnas	_	_	_	_	_	_	_	
+40-18	3850-3859	frivillig	_	_	_	_	_	_	_	
+40-19	3859-3860	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3862-3863	#	_	_	_	_	_	_	_	
+41-2	3863-3864	P	_	_	_	_	_	_	_	
+41-3	3865-3868	IMM	_	_	_	false	3	_	_	
+41-4	3868-3869	.	_	_	_	_	_	_	_	
+
+#Text=För att säkerställa att asylsökande barn verkligen är barn krävs en obligatorisk medicinsk åldersbedömning.
+42-1	3871-3874	För	_	_	_	_	_	_	_	
+42-2	3875-3878	att	_	_	_	_	_	_	_	
+42-3	3879-3890	säkerställa	_	_	_	_	_	_	_	
+42-4	3891-3894	att	_	_	_	_	_	_	_	
+42-5	3895-3906	asylsökande	_	_	_	_	_	_	_	
+42-6	3907-3911	barn	_	_	_	_	_	_	_	
+42-7	3912-3921	verkligen	_	_	_	_	_	_	_	
+42-8	3922-3924	är	_	_	_	_	_	_	_	
+42-9	3925-3929	barn	_	_	_	_	_	_	_	
+42-10	3930-3935	krävs	_	_	_	_	_	_	_	
+42-11	3936-3938	en	_	_	_	_	_	_	_	
+42-12	3939-3951	obligatorisk	_	_	_	_	_	_	_	
+42-13	3952-3961	medicinsk	_	_	_	_	_	_	_	
+42-14	3962-3977	åldersbedömning	_	_	_	_	_	_	_	
+42-15	3977-3978	.	_	_	_	_	_	_	_	
+
+#Text=Sverige måste kunna erbjuda ett humant och rättssäkert asylmottagande med väl fungerande handläggning, för varje vuxen som placeras i familjehem förblir en minderårig utan.
+43-1	3979-3986	Sverige	*	_	_	_	_	_	_	
+43-2	3987-3992	måste	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-3	3993-3998	kunna	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-4	3999-4006	erbjuda	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-5	4007-4010	ett	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-6	4011-4017	humant	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-7	4018-4021	och	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-8	4022-4033	rättssäkert	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-9	4034-4048	asylmottagande	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-10	4049-4052	med	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-11	4053-4056	väl	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-12	4057-4067	fungerande	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-13	4068-4080	handläggning	_	Target[8]	43-1	false[8]	4[8]	_	_	
+43-14	4080-4081	,	_	_	_	_	_	_	_	
+43-15	4082-4085	för	_	_	_	_	_	_	_	
+43-16	4086-4091	varje	_	_	_	_	_	_	_	
+43-17	4092-4097	vuxen	_	_	_	_	_	_	_	
+43-18	4098-4101	som	_	_	_	_	_	_	_	
+43-19	4102-4110	placeras	_	_	_	_	_	_	_	
+43-20	4111-4112	i	_	_	_	_	_	_	_	
+43-21	4113-4123	familjehem	_	_	_	_	_	_	_	
+43-22	4124-4131	förblir	_	_	_	_	_	_	_	
+43-23	4132-4134	en	_	_	_	_	_	_	_	
+43-24	4135-4145	minderårig	_	_	_	_	_	_	_	
+43-25	4146-4150	utan	_	_	_	_	_	_	_	
+43-26	4150-4151	.	_	_	_	_	_	_	_	
+
+#Text=Ansvaret bör ligga på Migrationsverket, inte utsatta barn på flykt.
+44-1	4152-4160	Ansvaret	_	_	_	_	_	_	_	
+44-2	4161-4164	bör	_	_	_	_	_	_	_	
+44-3	4165-4170	ligga	_	_	_	_	_	_	_	
+44-4	4171-4173	på	_	_	_	_	_	_	_	
+44-5	4174-4190	Migrationsverket	_	_	_	_	_	_	_	
+44-6	4190-4191	,	_	_	_	_	_	_	_	
+44-7	4192-4196	inte	_	_	_	_	_	_	_	
+44-8	4197-4204	utsatta	_	_[9]	_	false[9]	2[9]	_	_	
+44-9	4205-4209	barn	_	_[9]	_	false[9]	2[9]	_	_	
+44-10	4210-4212	på	_	_[9]	_	false[9]	2[9]	_	_	
+44-11	4213-4218	flykt	_	_[9]	_	false[9]	2[9]	_	_	
+44-12	4218-4219	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	4221-4222	#	_	_	_	_	_	_	_	
+45-2	4222-4223	P	_	_	_	_	_	_	_	
+45-3	4224-4227	IMM	_	_	_	_	_	_	_	
+45-4	4227-4228	.	_	_	_	_	_	_	_	
+
+#Text=Adam Marttinen (SD).
+46-1	4230-4234	Adam	_	_	_	_	_	_	_	
+46-2	4235-4244	Marttinen	_	_	_	_	_	_	_	
+46-3	4245-4246	(	_	_	_	_	_	_	_	
+46-4	4246-4248	SD	_	_	_	_	_	_	_	
+46-5	4248-4249	)	_	_	_	_	_	_	_	
+46-6	4249-4250	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	4252-4253	#	_	_	_	_	_	_	_	
+47-2	4253-4254	P	_	_	_	_	_	_	_	
+47-3	4255-4258	IMM	_	_	_	_	_	_	_	
+47-4	4258-4259	.	_	_	_	_	_	_	_	
+
+#Text=riksdagsledamot och rättspolitisk talesperson.
+48-1	4261-4276	riksdagsledamot	_	_	_	_	_	_	_	
+48-2	4277-4280	och	_	_	_	_	_	_	_	
+48-3	4281-4294	rättspolitisk	_	_	_	_	_	_	_	
+48-4	4295-4306	talesperson	_	_	_	_	_	_	_	
+48-5	4306-4307	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4309-4310	#	_	_	_	_	_	_	_	
+49-2	4310-4311	P	_	_	_	_	_	_	_	
+49-3	4312-4315	IMM	_	_	_	_	_	_	_	
+49-4	4315-4316	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+50-1	4318-4326	Redaktör	_	_	_	_	_	_	_	
+50-2	4326-4327	:	_	_	_	_	_	_	_	
+50-3	4328-4334	Carina	_	_	_	_	_	_	_	
+50-4	4335-4343	Stensson	_	_	_	_	_	_	_	
+50-5	4343-4344	,	_	_	_	_	_	_	_	
+50-6	4345-4355	Biträdande	_	_	_	_	_	_	_	
+50-7	4356-4364	redaktör	_	_	_	_	_	_	_	
+50-8	4364-4365	:	_	_	_	_	_	_	_	
+50-9	4366-4371	Björn	_	_	_	_	_	_	_	
+50-10	4372-4378	Jorner	_	_	_	_	_	_	_	
+50-11	4378-4379	,	_	_	_	_	_	_	_	
+50-12	4380-4384	Mejl	_	_	_	_	_	_	_	
+50-13	4384-4385	:	_	_	_	_	_	_	_	
+50-14	4386-4392	debatt	_	_	_	_	_	_	_	
+50-15	4392-4393	@	_	_	_	_	_	_	_	
+50-16	4393-4399	svd.se	_	_	_	_	_	_	_	
+50-17	4399-4400	,	_	_	_	_	_	_	_	
+50-18	4401-4414	Telefonnummer	_	_	_	_	_	_	_	
+50-19	4414-4415	:	_	_	_	_	_	_	_	
+50-20	4416-4418	08	_	_	_	_	_	_	_	
+50-21	4418-4419	-	_	_	_	_	_	_	_	
+50-22	4419-4425	135149	_	_	_	_	_	_	_	
+50-23	4425-4426	,	_	_	_	_	_	_	_	
+50-24	4427-4434	Twitter	_	_	_	_	_	_	_	
+50-25	4434-4435	:	_	_	_	_	_	_	_	
+50-26	4436-4437	@	_	_	_	_	_	_	_	
+50-27	4437-4446	SvDDebatt	_	_	_	_	_	_	_	
+50-28	4446-4447	,	_	_	_	_	_	_	_	
+50-29	4448-4456	Facebook	_	_	_	_	_	_	_	
+50-30	4456-4457	:	_	_	_	_	_	_	_	
+50-31	4458-4461	SvD	_	_	_	_	_	_	_	
+50-32	4462-4468	Debatt	_	_	_	_	_	_	_	
+50-33	4468-4469	.	_	_	_	_	_	_	_	

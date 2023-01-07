@@ -1,0 +1,794 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Svensk mat kan bli en storsäljare utomlands.
+3-1	18-24	Svensk	*[14]	_	_	_	_	_	_	
+3-2	25-28	mat	*[14]	_	_	_	_	_	_	
+3-3	29-32	kan	_	Target[1]	3-1[14]	false[1]	4[1]	_	_	
+3-4	33-36	bli	_	Target[1]	3-1[14]	false[1]	4[1]	_	_	
+3-5	37-39	en	_	Target[1]	3-1[14]	false[1]	4[1]	_	_	
+3-6	40-51	storsäljare	_	Target[1]	3-1[14]	false[1]	4[1]	_	_	
+3-7	52-61	utomlands	_	_	_	_	_	_	_	
+3-8	61-62	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Hittills har både myndigheter och handel ensidigt fokuserat på låga matpriser.
+5-1	73-81	Hittills	_	_	_	_	_	_	_	
+5-2	82-85	har	_	_	_	_	_	_	_	
+5-3	86-90	både	_	_	_	_	_	_	_	
+5-4	91-102	myndigheter	_	_	_	_	_	_	_	
+5-5	103-106	och	_	_	_	_	_	_	_	
+5-6	107-113	handel	_	_	_	_	_	_	_	
+5-7	114-122	ensidigt	_	_	_	_	_	_	_	
+5-8	123-132	fokuserat	_	_	_	_	_	_	_	
+5-9	133-135	på	_	_	_	_	_	_	_	
+5-10	136-140	låga	_	_	_	_	_	_	_	
+5-11	141-150	matpriser	_	_	_	_	_	_	_	
+5-12	150-151	.	_	_	_	_	_	_	_	
+
+#Text=Men prispressen leder också till sämre kvalitet och försämrar industrins och jordbrukets möjligheter att erbjuda bra arbetsmiljö, bra lön och trygga jobb.
+6-1	152-155	Men	_	_	_	_	_	_	_	
+6-2	156-167	prispressen	*[15]|*[16]	Target	6-2[15]	false	2	_	_	
+6-3	168-173	leder	_	_	_	false	2	_	_	
+6-4	174-179	också	_	_	_	_	_	_	_	
+6-5	180-184	till	_	_	_	_	_	_	_	
+6-6	185-190	sämre	_	Target[2]	6-2[16]	false[2]	2[2]	6-3[0_2]	_	
+6-7	191-199	kvalitet	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-8	200-203	och	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-9	204-213	försämrar	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-10	214-224	industrins	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-11	225-228	och	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-12	229-240	jordbrukets	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-13	241-252	möjligheter	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-14	253-256	att	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-15	257-264	erbjuda	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-16	265-268	bra	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-17	269-280	arbetsmiljö	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-18	280-281	,	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-19	282-285	bra	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-20	286-289	lön	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-21	290-293	och	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-22	294-300	trygga	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-23	301-305	jobb	_	Target[2]	6-2[16]	false[2]	2[2]	_	_	
+6-24	305-306	.	_	_	_	_	_	_	_	
+
+#Text=Livsmedelsproduktion flyttas till länder där mänskliga rättigheter inte respekteras och där man inte får vara med i facket.
+7-1	307-327	Livsmedelsproduktion	_	_	_	_	_	_	_	
+7-2	328-335	flyttas	_	_	_	_	_	_	_	
+7-3	336-340	till	_	_	_	_	_	_	_	
+7-4	341-347	länder	*	_	_	_	_	_	_	
+7-5	348-351	där	_	_	_	_	_	_	_	
+7-6	352-361	mänskliga	_	Target[3]	7-4	false[3]	2[3]	_	_	
+7-7	362-373	rättigheter	_	Target[3]	7-4	false[3]	2[3]	_	_	
+7-8	374-378	inte	_	Target[3]	7-4	false[3]	2[3]	_	_	
+7-9	379-390	respekteras	_	Target[3]	7-4	false[3]	2[3]	_	_	
+7-10	391-394	och	_	_	_	_	_	_	_	
+7-11	395-398	där	_	_	_	_	_	_	_	
+7-12	399-402	man	_	_	_	_	_	_	_	
+7-13	403-407	inte	_	_	_	_	_	_	_	
+7-14	408-411	får	_	_	_	_	_	_	_	
+7-15	412-416	vara	_	_	_	_	_	_	_	
+7-16	417-420	med	_	_	_	_	_	_	_	
+7-17	421-422	i	_	_	_	_	_	_	_	
+7-18	423-429	facket	_	_	_	_	_	_	_	
+7-19	429-430	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	432-433	#	_	_	_	_	_	_	_	
+8-2	433-434	P	_	_	_	_	_	_	_	
+8-3	435-438	IMM	_	_	_	_	_	_	_	
+8-4	438-439	.	_	_	_	_	_	_	_	
+
+#Text=Den nuvarande utvecklingen riskerar att göra svenska butiker till säljmaskiner och leda till att matglädjen försvinner, att livsmedelsarbetarnas yrkesstolthet utarmas och sist men inte minst att konsumenterna inte får valuta för matpengarna.
+9-1	441-444	Den	_	_	_	_	_	_	_	
+9-2	445-454	nuvarande	_	_	_	_	_	_	_	
+9-3	455-467	utvecklingen	_	_	_	_	_	_	_	
+9-4	468-476	riskerar	_	_	_	_	_	_	_	
+9-5	477-480	att	_	_	_	_	_	_	_	
+9-6	481-485	göra	_	_	_	_	_	_	_	
+9-7	486-493	svenska	*[17]	_	_	_	_	_	_	
+9-8	494-501	butiker	*[17]	_	_	_	_	_	_	
+9-9	502-506	till	_	_	_	_	_	_	_	
+9-10	507-519	säljmaskiner	_	Target	9-7[17]	false	2	_	_	
+9-11	520-523	och	_	_	_	_	_	_	_	
+9-12	524-528	leda	_	_	_	_	_	_	_	
+9-13	529-533	till	_	_	_	_	_	_	_	
+9-14	534-537	att	_	_	_	_	_	_	_	
+9-15	538-548	matglädjen	_	_	_	_	_	_	_	
+9-16	549-559	försvinner	_	_	_	_	_	_	_	
+9-17	559-560	,	_	_	_	_	_	_	_	
+9-18	561-564	att	_	_	_	_	_	_	_	
+9-19	565-585	livsmedelsarbetarnas	*	_	_	_	_	_	_	
+9-20	586-599	yrkesstolthet	_	Target[4]	9-19	false[4]	2[4]	_	_	
+9-21	600-607	utarmas	_	Target[4]	9-19	false[4]	2[4]	_	_	
+9-22	608-611	och	_	_	_	_	_	_	_	
+9-23	612-616	sist	_	_	_	_	_	_	_	
+9-24	617-620	men	_	_	_	_	_	_	_	
+9-25	621-625	inte	_	_	_	_	_	_	_	
+9-26	626-631	minst	_	_	_	_	_	_	_	
+9-27	632-635	att	_	_	_	_	_	_	_	
+9-28	636-649	konsumenterna	*	_	_	_	_	_	_	
+9-29	650-654	inte	_	Target[5]	9-28	false[5]	2[5]	_	_	
+9-30	655-658	får	_	Target[5]	9-28	false[5]	2[5]	_	_	
+9-31	659-665	valuta	_	Target[5]	9-28	false[5]	2[5]	_	_	
+9-32	666-669	för	_	Target[5]	9-28	false[5]	2[5]	_	_	
+9-33	670-681	matpengarna	_	Target[5]	9-28	false[5]	2[5]	_	_	
+9-34	681-682	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	684-685	#	_	_	_	_	_	_	_	
+10-2	685-686	P	_	_	_	_	_	_	_	
+10-3	687-690	IMM	_	_	_	_	_	_	_	
+10-4	690-691	.	_	_	_	_	_	_	_	
+
+#Text=En matindustri med ensidig inriktning mot lågpris är inte någon framgångsrik strategi för ett land som Sverige.
+11-1	693-695	En	_	_	_	_	_	_	_	
+11-2	696-707	matindustri	*	_	_	_	_	_	_	
+11-3	708-711	med	_	_	_	_	_	_	_	
+11-4	712-719	ensidig	_	Target[6]	11-2	false[6]	2[6]	_	_	
+11-5	720-730	inriktning	_	Target[6]	11-2	false[6]	2[6]	_	_	
+11-6	731-734	mot	_	Target[6]	11-2	false[6]	2[6]	_	_	
+11-7	735-742	lågpris	_	Target[6]	11-2	false[6]	2[6]	_	_	
+11-8	743-745	är	_	_	_	_	_	_	_	
+11-9	746-750	inte	_	_	_	_	_	_	_	
+11-10	751-756	någon	_	_	_	_	_	_	_	
+11-11	757-769	framgångsrik	_	_	_	_	_	_	_	
+11-12	770-778	strategi	_	_	_	_	_	_	_	
+11-13	779-782	för	_	_	_	_	_	_	_	
+11-14	783-786	ett	_	_	_	_	_	_	_	
+11-15	787-791	land	_	_	_	_	_	_	_	
+11-16	792-795	som	_	_	_	_	_	_	_	
+11-17	796-803	Sverige	_	_	_	_	_	_	_	
+11-18	803-804	.	_	_	_	_	_	_	_	
+
+#Text=Livsmedelsindustrin måste, likt annan arbetskraftsintensiv industri, koncentrera sig på produkter med högt kunskapsinnehåll och kvaliteter som kan motivera högre priser.
+12-1	805-824	Livsmedelsindustrin	_	_	_	_	_	_	_	
+12-2	825-830	måste	_	_	_	_	_	_	_	
+12-3	830-831	,	_	_	_	_	_	_	_	
+12-4	832-836	likt	_	_	_	_	_	_	_	
+12-5	837-842	annan	_	_	_	_	_	_	_	
+12-6	843-863	arbetskraftsintensiv	_	_	_	_	_	_	_	
+12-7	864-872	industri	_	_	_	_	_	_	_	
+12-8	872-873	,	_	_	_	_	_	_	_	
+12-9	874-885	koncentrera	_	_	_	_	_	_	_	
+12-10	886-889	sig	_	_	_	_	_	_	_	
+12-11	890-892	på	_	_	_	_	_	_	_	
+12-12	893-902	produkter	*	_	_	_	_	_	_	
+12-13	903-906	med	_	_	_	_	_	_	_	
+12-14	907-911	högt	_	Target[7]	12-12	false[7]	4[7]	_	_	
+12-15	912-928	kunskapsinnehåll	_	Target[7]	12-12	false[7]	4[7]	_	_	
+12-16	929-932	och	_	Target[7]	12-12	false[7]	4[7]	_	_	
+12-17	933-943	kvaliteter	_	Target[7]	12-12	false[7]	4[7]	_	_	
+12-18	944-947	som	_	_	_	_	_	_	_	
+12-19	948-951	kan	_	_	_	_	_	_	_	
+12-20	952-960	motivera	_	_	_	_	_	_	_	
+12-21	961-966	högre	_	_	_	_	_	_	_	
+12-22	967-973	priser	_	_	_	_	_	_	_	
+12-23	973-974	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	976-977	#	_	_	_	_	_	_	_	
+13-2	977-978	P	_	_	_	_	_	_	_	
+13-3	979-982	IMM	_	_	_	_	_	_	_	
+13-4	982-983	.	_	_	_	_	_	_	_	
+
+#Text=De företag som gjort sådana satsningar har ofta lyckats väl.
+14-1	985-987	De	_	_	_	_	_	_	_	
+14-2	988-995	företag	_	_	_	_	_	_	_	
+14-3	996-999	som	_	_	_	_	_	_	_	
+14-4	1000-1005	gjort	_	_	_	_	_	_	_	
+14-5	1006-1012	sådana	_	_	_	_	_	_	_	
+14-6	1013-1023	satsningar	_	_	_	_	_	_	_	
+14-7	1024-1027	har	_	_	_	_	_	_	_	
+14-8	1028-1032	ofta	_	_	_	_	_	_	_	
+14-9	1033-1040	lyckats	_	_	_	_	_	_	_	
+14-10	1041-1044	väl	_	_	_	_	_	_	_	
+14-11	1044-1045	.	_	_	_	_	_	_	_	
+
+#Text=Polarbröd, Annas Pepparkakor och Absolut vodka är några exempel.
+15-1	1046-1055	Polarbröd	_	_	_	_	_	_	_	
+15-2	1055-1056	,	_	_	_	_	_	_	_	
+15-3	1057-1062	Annas	_	_	_	_	_	_	_	
+15-4	1063-1074	Pepparkakor	_	_	_	_	_	_	_	
+15-5	1075-1078	och	_	_	_	_	_	_	_	
+15-6	1079-1086	Absolut	_	_	_	_	_	_	_	
+15-7	1087-1092	vodka	_	_	_	_	_	_	_	
+15-8	1093-1095	är	_	_	_	_	_	_	_	
+15-9	1096-1101	några	_	_	_	_	_	_	_	
+15-10	1102-1109	exempel	_	_	_	_	_	_	_	
+15-11	1109-1110	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1112-1113	#	_	_	_	_	_	_	_	
+16-2	1113-1114	P	_	_	_	_	_	_	_	
+16-3	1115-1118	IMM	_	_	_	_	_	_	_	
+16-4	1118-1119	.	_	_	_	_	_	_	_	
+
+#Text=Livsmedelsindustrin har goda möjligheter att ta större andelar på den globala livsmedelsmarknaden, samtidigt som man kanske måste släppa vissa delar av den nationella marknaden.
+17-1	1121-1140	Livsmedelsindustrin	*	_	_	_	_	_	_	
+17-2	1141-1144	har	_	Target[8]	17-1	false[8]	4[8]	_	_	
+17-3	1145-1149	goda	_	Target[8]	17-1	false[8]	4[8]	_	_	
+17-4	1150-1161	möjligheter	_	Target[8]	17-1	false[8]	4[8]	_	_	
+17-5	1162-1165	att	_	_	_	_	_	_	_	
+17-6	1166-1168	ta	_	_	_	_	_	_	_	
+17-7	1169-1175	större	_	_	_	_	_	_	_	
+17-8	1176-1183	andelar	_	_	_	_	_	_	_	
+17-9	1184-1186	på	_	_	_	_	_	_	_	
+17-10	1187-1190	den	_	_	_	_	_	_	_	
+17-11	1191-1198	globala	_	_	_	_	_	_	_	
+17-12	1199-1218	livsmedelsmarknaden	_	_	_	_	_	_	_	
+17-13	1218-1219	,	_	_	_	_	_	_	_	
+17-14	1220-1229	samtidigt	_	_	_	_	_	_	_	
+17-15	1230-1233	som	_	_	_	_	_	_	_	
+17-16	1234-1237	man	_	_	_	_	_	_	_	
+17-17	1238-1244	kanske	_	_	_	_	_	_	_	
+17-18	1245-1250	måste	_	_	_	_	_	_	_	
+17-19	1251-1257	släppa	_	_	_	_	_	_	_	
+17-20	1258-1263	vissa	_	_	_	_	_	_	_	
+17-21	1264-1269	delar	_	_	_	_	_	_	_	
+17-22	1270-1272	av	_	_	_	_	_	_	_	
+17-23	1273-1276	den	_	_	_	_	_	_	_	
+17-24	1277-1287	nationella	_	_	_	_	_	_	_	
+17-25	1288-1297	marknaden	_	_	_	_	_	_	_	
+17-26	1297-1298	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1300-1301	#	_	_	_	_	_	_	_	
+18-2	1301-1302	P	_	_	_	_	_	_	_	
+18-3	1303-1306	IMM	_	_	_	_	_	_	_	
+18-4	1306-1307	.	_	_	_	_	_	_	_	
+
+#Text=Den avgående socialdemokratiska regeringen har i dag, tillsammans med företag och fack initierat branschprogram för sex områden: skog, metallurgi, fordon, läkemedel, IT/telekom och bioteknik.
+19-1	1309-1312	Den	_	_	_	_	_	_	_	
+19-2	1313-1321	avgående	_	_	_	_	_	_	_	
+19-3	1322-1340	socialdemokratiska	_	_	_	_	_	_	_	
+19-4	1341-1351	regeringen	_	_	_	_	_	_	_	
+19-5	1352-1355	har	_	_	_	_	_	_	_	
+19-6	1356-1357	i	_	_	_	_	_	_	_	
+19-7	1358-1361	dag	_	_	_	_	_	_	_	
+19-8	1361-1362	,	_	_	_	_	_	_	_	
+19-9	1363-1374	tillsammans	_	_	_	_	_	_	_	
+19-10	1375-1378	med	_	_	_	_	_	_	_	
+19-11	1379-1386	företag	_	_	_	_	_	_	_	
+19-12	1387-1390	och	_	_	_	_	_	_	_	
+19-13	1391-1395	fack	_	_	_	_	_	_	_	
+19-14	1396-1405	initierat	_	_	_	_	_	_	_	
+19-15	1406-1420	branschprogram	_	_	_	_	_	_	_	
+19-16	1421-1424	för	_	_	_	_	_	_	_	
+19-17	1425-1428	sex	_	_	_	_	_	_	_	
+19-18	1429-1436	områden	_	_	_	_	_	_	_	
+19-19	1436-1437	:	_	_	_	_	_	_	_	
+19-20	1438-1442	skog	_	_	_	_	_	_	_	
+19-21	1442-1443	,	_	_	_	_	_	_	_	
+19-22	1444-1454	metallurgi	_	_	_	_	_	_	_	
+19-23	1454-1455	,	_	_	_	_	_	_	_	
+19-24	1456-1462	fordon	_	_	_	_	_	_	_	
+19-25	1462-1463	,	_	_	_	_	_	_	_	
+19-26	1464-1473	läkemedel	_	_	_	_	_	_	_	
+19-27	1473-1474	,	_	_	_	_	_	_	_	
+19-28	1475-1477	IT	_	_	_	_	_	_	_	
+19-29	1477-1478	/	_	_	_	_	_	_	_	
+19-30	1478-1485	telekom	_	_	_	_	_	_	_	
+19-31	1486-1489	och	_	_	_	_	_	_	_	
+19-32	1490-1499	bioteknik	_	_	_	_	_	_	_	
+19-33	1499-1500	.	_	_	_	_	_	_	_	
+
+#Text=Syftet är att ta fram strategiska utvecklingsprogram.
+20-1	1501-1507	Syftet	_	_	_	_	_	_	_	
+20-2	1508-1510	är	_	_	_	_	_	_	_	
+20-3	1511-1514	att	_	_	_	_	_	_	_	
+20-4	1515-1517	ta	*[18]	_	_	_	_	_	_	
+20-5	1518-1522	fram	*[18]	_	_	_	_	_	_	
+20-6	1523-1534	strategiska	*[18]	_	_	_	_	_	_	
+20-7	1535-1553	utvecklingsprogram	*[18]	_	_	_	_	_	_	
+20-8	1553-1554	.	_	_	_	_	_	_	_	
+
+#Text=Detta är alldeles utmärkt.
+21-1	1555-1560	Detta	*	_	_	_	_	_	20-4[18_0]	
+21-2	1561-1563	är	_	Target[9]	21-1	false[9]	4[9]	_	_	
+21-3	1564-1572	alldeles	_	Target[9]	21-1	false[9]	4[9]	_	_	
+21-4	1573-1580	utmärkt	_	Target[9]	21-1	false[9]	4[9]	_	_	
+21-5	1580-1581	.	_	_	_	_	_	_	_	
+
+#Text=Det är en typ av satsning som är minst lika angelägen för livsmedelsindustrin.
+22-1	1582-1585	Det	_	_	_	_	_	_	_	
+22-2	1586-1588	är	_	_	_	_	_	_	_	
+22-3	1589-1591	en	*[19]	_	_	_	_	_	_	
+22-4	1592-1595	typ	*[19]	_	_	_	_	_	_	
+22-5	1596-1598	av	*[19]	_	_	_	_	_	_	
+22-6	1599-1607	satsning	*[19]	_	_	_	_	_	_	
+22-7	1608-1611	som	_	_	_	_	_	_	_	
+22-8	1612-1614	är	_	Target[10]	22-3[19]	false[10]	4[10]	_	_	
+22-9	1615-1620	minst	_	Target[10]	22-3[19]	false[10]	4[10]	_	_	
+22-10	1621-1625	lika	_	Target[10]	22-3[19]	false[10]	4[10]	_	_	
+22-11	1626-1635	angelägen	_	Target[10]	22-3[19]	false[10]	4[10]	_	_	
+22-12	1636-1639	för	_	_	_	_	_	_	_	
+22-13	1640-1659	livsmedelsindustrin	_	_	_	_	_	_	_	
+22-14	1659-1660	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1662-1663	#	_	_	_	_	_	_	_	
+23-2	1663-1664	P	_	_	_	_	_	_	_	
+23-3	1665-1668	IMM	_	_	_	_	_	_	_	
+23-4	1668-1669	.	_	_	_	_	_	_	_	
+
+#Text=Livsmedelssektorn påverkas nu och i framtiden alltmer av:.
+24-1	1671-1688	Livsmedelssektorn	_	_	_	_	_	_	_	
+24-2	1689-1697	påverkas	_	_	_	_	_	_	_	
+24-3	1698-1700	nu	_	_	_	_	_	_	_	
+24-4	1701-1704	och	_	_	_	_	_	_	_	
+24-5	1705-1706	i	_	_	_	_	_	_	_	
+24-6	1707-1716	framtiden	_	_	_	_	_	_	_	
+24-7	1717-1724	alltmer	_	_	_	_	_	_	_	
+24-8	1725-1727	av	_	_	_	_	_	_	_	
+24-9	1727-1728	:	_	_	_	_	_	_	_	
+24-10	1728-1729	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1731-1732	#	_	_	_	_	_	_	_	
+25-2	1732-1733	P	_	_	_	_	_	_	_	
+25-3	1734-1737	IMM	_	_	_	_	_	_	_	
+25-4	1737-1738	.	_	_	_	_	_	_	_	
+
+#Text=Nya krav på hygien, kvalitet, smak, positiva hälsoeffekter och förändrade livsstilar.
+26-1	1740-1743	Nya	_	_	_	_	_	_	_	
+26-2	1744-1748	krav	_	_	_	_	_	_	_	
+26-3	1749-1751	på	_	_	_	_	_	_	_	
+26-4	1752-1758	hygien	_	_	_	_	_	_	_	
+26-5	1758-1759	,	_	_	_	_	_	_	_	
+26-6	1760-1768	kvalitet	_	_	_	_	_	_	_	
+26-7	1768-1769	,	_	_	_	_	_	_	_	
+26-8	1770-1774	smak	_	_	_	_	_	_	_	
+26-9	1774-1775	,	_	_	_	_	_	_	_	
+26-10	1776-1784	positiva	_	_	_	_	_	_	_	
+26-11	1785-1798	hälsoeffekter	_	_	_	_	_	_	_	
+26-12	1799-1802	och	_	_	_	_	_	_	_	
+26-13	1803-1813	förändrade	_	_	_	_	_	_	_	
+26-14	1814-1824	livsstilar	_	_	_	_	_	_	_	
+26-15	1824-1825	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1827-1828	#	_	_	_	_	_	_	_	
+27-2	1828-1829	P	_	_	_	_	_	_	_	
+27-3	1830-1833	IMM	_	_	_	_	_	_	_	
+27-4	1833-1834	.	_	_	_	_	_	_	_	
+
+#Text=Allt fler enpersonshushåll och äldre befolkning samt en mindre andel av måltiderna som äts i hemmet.
+28-1	1836-1840	Allt	_	_	_	_	_	_	_	
+28-2	1841-1845	fler	_	_	_	_	_	_	_	
+28-3	1846-1862	enpersonshushåll	_	_	_	_	_	_	_	
+28-4	1863-1866	och	_	_	_	_	_	_	_	
+28-5	1867-1872	äldre	_	_	_	_	_	_	_	
+28-6	1873-1883	befolkning	_	_	_	_	_	_	_	
+28-7	1884-1888	samt	_	_	_	_	_	_	_	
+28-8	1889-1891	en	_	_	_	_	_	_	_	
+28-9	1892-1898	mindre	_	_	_	_	_	_	_	
+28-10	1899-1904	andel	_	_	_	_	_	_	_	
+28-11	1905-1907	av	_	_	_	_	_	_	_	
+28-12	1908-1918	måltiderna	_	_	_	_	_	_	_	
+28-13	1919-1922	som	_	_	_	_	_	_	_	
+28-14	1923-1926	äts	_	_	_	_	_	_	_	
+28-15	1927-1928	i	_	_	_	_	_	_	_	
+28-16	1929-1935	hemmet	_	_	_	_	_	_	_	
+28-17	1935-1936	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1938-1939	#	_	_	_	_	_	_	_	
+29-2	1939-1940	P	_	_	_	_	_	_	_	
+29-3	1941-1944	IMM	_	_	_	_	_	_	_	
+29-4	1944-1945	.	_	_	_	_	_	_	_	
+
+#Text=Tekniska innovationer och förändringar i distribution och handel avseende struktur, ägande och makt.
+30-1	1947-1955	Tekniska	_	_	_	_	_	_	_	
+30-2	1956-1968	innovationer	_	_	_	_	_	_	_	
+30-3	1969-1972	och	_	_	_	_	_	_	_	
+30-4	1973-1985	förändringar	_	_	_	_	_	_	_	
+30-5	1986-1987	i	_	_	_	_	_	_	_	
+30-6	1988-2000	distribution	_	_	_	_	_	_	_	
+30-7	2001-2004	och	_	_	_	_	_	_	_	
+30-8	2005-2011	handel	_	_	_	_	_	_	_	
+30-9	2012-2020	avseende	_	_	_	_	_	_	_	
+30-10	2021-2029	struktur	_	_	_	_	_	_	_	
+30-11	2029-2030	,	_	_	_	_	_	_	_	
+30-12	2031-2037	ägande	_	_	_	_	_	_	_	
+30-13	2038-2041	och	_	_	_	_	_	_	_	
+30-14	2042-2046	makt	_	_	_	_	_	_	_	
+30-15	2046-2047	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2049-2050	#	_	_	_	_	_	_	_	
+31-2	2050-2051	P	_	_	_	_	_	_	_	
+31-3	2052-2055	IMM	_	_	_	_	_	_	_	
+31-4	2055-2056	.	_	_	_	_	_	_	_	
+
+#Text=Ett minskat antal, men större varumärken med genomslag samt naturligtvis växande internationell handel.
+32-1	2058-2061	Ett	_	_	_	_	_	_	_	
+32-2	2062-2069	minskat	_	_	_	_	_	_	_	
+32-3	2070-2075	antal	_	_	_	_	_	_	_	
+32-4	2075-2076	,	_	_	_	_	_	_	_	
+32-5	2077-2080	men	_	_	_	_	_	_	_	
+32-6	2081-2087	större	_	_	_	_	_	_	_	
+32-7	2088-2098	varumärken	_	_	_	_	_	_	_	
+32-8	2099-2102	med	_	_	_	_	_	_	_	
+32-9	2103-2112	genomslag	_	_	_	_	_	_	_	
+32-10	2113-2117	samt	_	_	_	_	_	_	_	
+32-11	2118-2130	naturligtvis	_	_	_	_	_	_	_	
+32-12	2131-2138	växande	_	_	_	_	_	_	_	
+32-13	2139-2153	internationell	_	_	_	_	_	_	_	
+32-14	2154-2160	handel	_	_	_	_	_	_	_	
+32-15	2160-2161	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2163-2164	#	_	_	_	_	_	_	_	
+33-2	2164-2165	P	_	_	_	_	_	_	_	
+33-3	2166-2169	IMM	_	_	_	_	_	_	_	
+33-4	2169-2170	.	_	_	_	_	_	_	_	
+
+#Text=En del av detta måste svenska tillverkare anpassa sig till.
+34-1	2172-2174	En	_	_	_	_	_	_	_	
+34-2	2175-2178	del	_	_	_	_	_	_	_	
+34-3	2179-2181	av	_	_	_	_	_	_	_	
+34-4	2182-2187	detta	_	_	_	_	_	_	_	
+34-5	2188-2193	måste	_	_	_	_	_	_	_	
+34-6	2194-2201	svenska	_	_	_	_	_	_	_	
+34-7	2202-2213	tillverkare	_	_	_	_	_	_	_	
+34-8	2214-2221	anpassa	_	_	_	_	_	_	_	
+34-9	2222-2225	sig	_	_	_	_	_	_	_	
+34-10	2226-2230	till	_	_	_	_	_	_	_	
+34-11	2230-2231	.	_	_	_	_	_	_	_	
+
+#Text=En del går att påverka, en del går att utnyttja och en del kan skapa problem.
+35-1	2232-2234	En	_	_	_	_	_	_	_	
+35-2	2235-2238	del	_	_	_	_	_	_	_	
+35-3	2239-2242	går	_	_	_	_	_	_	_	
+35-4	2243-2246	att	_	_	_	_	_	_	_	
+35-5	2247-2254	påverka	_	_	_	_	_	_	_	
+35-6	2254-2255	,	_	_	_	_	_	_	_	
+35-7	2256-2258	en	_	_	_	_	_	_	_	
+35-8	2259-2262	del	_	_	_	_	_	_	_	
+35-9	2263-2266	går	_	_	_	_	_	_	_	
+35-10	2267-2270	att	_	_	_	_	_	_	_	
+35-11	2271-2279	utnyttja	_	_	_	_	_	_	_	
+35-12	2280-2283	och	_	_	_	_	_	_	_	
+35-13	2284-2286	en	_	_	_	_	_	_	_	
+35-14	2287-2290	del	_	_	_	_	_	_	_	
+35-15	2291-2294	kan	_	_	_	_	_	_	_	
+35-16	2295-2300	skapa	_	_	_	_	_	_	_	
+35-17	2301-2308	problem	_	_	_	_	_	_	_	
+35-18	2308-2309	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2311-2312	#	_	_	_	_	_	_	_	
+36-2	2312-2313	P	_	_	_	_	_	_	_	
+36-3	2314-2317	IMM	_	_	_	_	_	_	_	
+36-4	2317-2318	.	_	_	_	_	_	_	_	
+
+#Text=Genom samverkan och utveckling av teknik, produkter, service och logistik kan vi bli vinnare.
+37-1	2320-2325	Genom	_	_	_	_	_	_	_	
+37-2	2326-2335	samverkan	_	_	_	_	_	_	_	
+37-3	2336-2339	och	_	_	_	_	_	_	_	
+37-4	2340-2350	utveckling	_	_	_	_	_	_	_	
+37-5	2351-2353	av	_	_	_	_	_	_	_	
+37-6	2354-2360	teknik	_	_	_	_	_	_	_	
+37-7	2360-2361	,	_	_	_	_	_	_	_	
+37-8	2362-2371	produkter	_	_	_	_	_	_	_	
+37-9	2371-2372	,	_	_	_	_	_	_	_	
+37-10	2373-2380	service	_	_	_	_	_	_	_	
+37-11	2381-2384	och	_	_	_	_	_	_	_	
+37-12	2385-2393	logistik	_	_	_	_	_	_	_	
+37-13	2394-2397	kan	_	_	_	false	4	_	_	
+37-14	2398-2400	vi	*	_	_	_	_	_	_	
+37-15	2401-2404	bli	_	Target[11]	37-14	false[11]	4[11]	37-13[0_11]	_	
+37-16	2405-2412	vinnare	_	Target[11]	37-14	false[11]	4[11]	_	_	
+37-17	2412-2413	.	_	_	_	_	_	_	_	
+
+#Text=Vi har tex sett hur Sverige blivit bas för produktion av etnisk mat, vi kan ana oss till att svenska ostar har en stor potential på den globala delikatessmarknaden.
+38-1	2414-2416	Vi	_	_	_	_	_	_	_	
+38-2	2417-2420	har	_	_	_	_	_	_	_	
+38-3	2421-2424	tex	_	_	_	_	_	_	_	
+38-4	2425-2429	sett	_	_	_	_	_	_	_	
+38-5	2430-2433	hur	_	_	_	_	_	_	_	
+38-6	2434-2441	Sverige	_	_	_	_	_	_	_	
+38-7	2442-2448	blivit	_	_	_	_	_	_	_	
+38-8	2449-2452	bas	_	_	_	_	_	_	_	
+38-9	2453-2456	för	_	_	_	_	_	_	_	
+38-10	2457-2467	produktion	_	_	_	_	_	_	_	
+38-11	2468-2470	av	_	_	_	_	_	_	_	
+38-12	2471-2477	etnisk	_	_	_	_	_	_	_	
+38-13	2478-2481	mat	_	_	_	_	_	_	_	
+38-14	2481-2482	,	_	_	_	_	_	_	_	
+38-15	2483-2485	vi	_	_	_	_	_	_	_	
+38-16	2486-2489	kan	_	_	_	_	_	_	_	
+38-17	2490-2493	ana	_	_	_	_	_	_	_	
+38-18	2494-2497	oss	_	_	_	_	_	_	_	
+38-19	2498-2502	till	_	_	_	_	_	_	_	
+38-20	2503-2506	att	_	_	_	_	_	_	_	
+38-21	2507-2514	svenska	_	_	_	_	_	_	_	
+38-22	2515-2520	ostar	_	_	_	_	_	_	_	
+38-23	2521-2524	har	_	_	_	_	_	_	_	
+38-24	2525-2527	en	_	_	_	_	_	_	_	
+38-25	2528-2532	stor	_	_	_	_	_	_	_	
+38-26	2533-2542	potential	_	_	_	_	_	_	_	
+38-27	2543-2545	på	_	_	_	_	_	_	_	
+38-28	2546-2549	den	_	_	_	_	_	_	_	
+38-29	2550-2557	globala	_	_	_	_	_	_	_	
+38-30	2558-2577	delikatessmarknaden	_	_	_	_	_	_	_	
+38-31	2577-2578	.	_	_	_	_	_	_	_	
+
+#Text=Vi vet att det också finns svenska charkuterier och drycker som har stor exportpotential.
+39-1	2579-2581	Vi	_	_	_	_	_	_	_	
+39-2	2582-2585	vet	_	_	_	_	_	_	_	
+39-3	2586-2589	att	_	_	_	_	_	_	_	
+39-4	2590-2593	det	_	_	_	_	_	_	_	
+39-5	2594-2599	också	_	_	_	_	_	_	_	
+39-6	2600-2605	finns	_	_	_	_	_	_	_	
+39-7	2606-2613	svenska	_	_	_	_	_	_	_	
+39-8	2614-2626	charkuterier	_	_	_	_	_	_	_	
+39-9	2627-2630	och	_	_	_	_	_	_	_	
+39-10	2631-2638	drycker	_	_	_	_	_	_	_	
+39-11	2639-2642	som	_	_	_	_	_	_	_	
+39-12	2643-2646	har	_	_	_	_	_	_	_	
+39-13	2647-2651	stor	_	_	_	_	_	_	_	
+39-14	2652-2667	exportpotential	_	_	_	_	_	_	_	
+39-15	2667-2668	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2670-2671	#	_	_	_	_	_	_	_	
+40-2	2671-2672	P	_	_	_	_	_	_	_	
+40-3	2673-2676	IMM	_	_	_	_	_	_	_	
+40-4	2676-2677	.	_	_	_	_	_	_	_	
+
+#Text=Men för att dessa möjligheter ska kunna utnyttjas fullt ut krävs samverkan mellan alla aktörer i livsmedelskedjan.
+41-1	2679-2682	Men	_	_	_	_	_	_	_	
+41-2	2683-2686	för	_	_	_	_	_	_	_	
+41-3	2687-2690	att	_	_	_	_	_	_	_	
+41-4	2691-2696	dessa	*[20]	_	_	_	_	_	_	
+41-5	2697-2708	möjligheter	*[20]	_	_	_	_	_	_	
+41-6	2709-2712	ska	_	Target[12]	41-4[20]	false[12]	4[12]	_	_	
+41-7	2713-2718	kunna	_	Target[12]	41-4[20]	false[12]	4[12]	_	_	
+41-8	2719-2728	utnyttjas	_	Target[12]	41-4[20]	false[12]	4[12]	_	_	
+41-9	2729-2734	fullt	_	Target[12]	41-4[20]	false[12]	4[12]	_	_	
+41-10	2735-2737	ut	_	Target[12]	41-4[20]	false[12]	4[12]	_	_	
+41-11	2738-2743	krävs	_	_	_	_	_	_	_	
+41-12	2744-2753	samverkan	_	_	_	_	_	_	_	
+41-13	2754-2760	mellan	_	_	_	_	_	_	_	
+41-14	2761-2765	alla	_	_	_	_	_	_	_	
+41-15	2766-2773	aktörer	_	_	_	_	_	_	_	
+41-16	2774-2775	i	_	_	_	_	_	_	_	
+41-17	2776-2792	livsmedelskedjan	_	_	_	_	_	_	_	
+41-18	2792-2793	.	_	_	_	_	_	_	_	
+
+#Text=Alla måste inse att spelplanen inte är lokal utan global.
+42-1	2794-2798	Alla	_	_	_	_	_	_	_	
+42-2	2799-2804	måste	_	_	_	_	_	_	_	
+42-3	2805-2809	inse	_	_	_	_	_	_	_	
+42-4	2810-2813	att	_	_	_	_	_	_	_	
+42-5	2814-2824	spelplanen	_	_	_	_	_	_	_	
+42-6	2825-2829	inte	_	_	_	_	_	_	_	
+42-7	2830-2832	är	_	_	_	_	_	_	_	
+42-8	2833-2838	lokal	_	_	_	_	_	_	_	
+42-9	2839-2843	utan	_	_	_	_	_	_	_	
+42-10	2844-2850	global	_	_	_	_	_	_	_	
+42-11	2850-2851	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2853-2854	#	_	_	_	_	_	_	_	
+43-2	2854-2855	P	_	_	_	_	_	_	_	
+43-3	2856-2859	IMM	_	_	_	_	_	_	_	
+43-4	2859-2860	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges tempererade klimat och rena miljö är en bas som vi kan utnyttja bättre med hjälp av den forskning som görs vid lantbruksuniversiteten.
+44-1	2862-2870	Sveriges	_	_	_	_	_	_	_	
+44-2	2871-2882	tempererade	_	_	_	_	_	_	_	
+44-3	2883-2889	klimat	_	_	_	_	_	_	_	
+44-4	2890-2893	och	_	_	_	_	_	_	_	
+44-5	2894-2898	rena	_	_	_	_	_	_	_	
+44-6	2899-2904	miljö	_	_	_	_	_	_	_	
+44-7	2905-2907	är	_	_	_	_	_	_	_	
+44-8	2908-2910	en	_	_	_	_	_	_	_	
+44-9	2911-2914	bas	_	_	_	_	_	_	_	
+44-10	2915-2918	som	_	_	_	_	_	_	_	
+44-11	2919-2921	vi	_	_	_	_	_	_	_	
+44-12	2922-2925	kan	_	_	_	_	_	_	_	
+44-13	2926-2934	utnyttja	_	_	_	_	_	_	_	
+44-14	2935-2941	bättre	_	_	_	_	_	_	_	
+44-15	2942-2945	med	_	_	_	_	_	_	_	
+44-16	2946-2951	hjälp	_	_	_	_	_	_	_	
+44-17	2952-2954	av	_	_	_	_	_	_	_	
+44-18	2955-2958	den	_	_	_	_	_	_	_	
+44-19	2959-2968	forskning	_	_	_	_	_	_	_	
+44-20	2969-2972	som	_	_	_	_	_	_	_	
+44-21	2973-2977	görs	_	_	_	_	_	_	_	
+44-22	2978-2981	vid	_	_	_	_	_	_	_	
+44-23	2982-3004	lantbruksuniversiteten	_	_	_	_	_	_	_	
+44-24	3004-3005	.	_	_	_	_	_	_	_	
+
+#Text=Vår omfattande produktion av regionala delikatesser kan utvecklas och vinna större marknadsandelar om vi hittar lämpliga former att sälja dem via de internationella livsmedelskedjorna.
+45-1	3006-3009	Vår	_	_	_	_	_	_	_	
+45-2	3010-3020	omfattande	_	_	_	_	_	_	_	
+45-3	3021-3031	produktion	_	_	_	_	_	_	_	
+45-4	3032-3034	av	_	_	_	_	_	_	_	
+45-5	3035-3044	regionala	_	_	_	_	_	_	_	
+45-6	3045-3057	delikatesser	_	_	_	_	_	_	_	
+45-7	3058-3061	kan	_	_	_	_	_	_	_	
+45-8	3062-3071	utvecklas	_	_	_	_	_	_	_	
+45-9	3072-3075	och	_	_	_	_	_	_	_	
+45-10	3076-3081	vinna	_	_	_	_	_	_	_	
+45-11	3082-3088	större	_	_	_	_	_	_	_	
+45-12	3089-3104	marknadsandelar	_	_	_	_	_	_	_	
+45-13	3105-3107	om	_	_	_	_	_	_	_	
+45-14	3108-3110	vi	_	_	_	_	_	_	_	
+45-15	3111-3117	hittar	_	_	_	_	_	_	_	
+45-16	3118-3126	lämpliga	_	_	_	_	_	_	_	
+45-17	3127-3133	former	_	_	_	_	_	_	_	
+45-18	3134-3137	att	_	_	_	_	_	_	_	
+45-19	3138-3143	sälja	_	_	_	_	_	_	_	
+45-20	3144-3147	dem	_	_	_	_	_	_	_	
+45-21	3148-3151	via	_	_	_	_	_	_	_	
+45-22	3152-3154	de	_	_	_	_	_	_	_	
+45-23	3155-3170	internationella	_	_	_	_	_	_	_	
+45-24	3171-3189	livsmedelskedjorna	_	_	_	_	_	_	_	
+45-25	3189-3190	.	_	_	_	_	_	_	_	
+
+#Text=Vi har effektiva butiker, som behöver kompletteras med koncept för upplevelser och försäljning av högkvalitativa specialiteter.
+46-1	3191-3193	Vi	_	_	_	_	_	_	_	
+46-2	3194-3197	har	_	_	_	_	_	_	_	
+46-3	3198-3207	effektiva	_	_	_	_	_	_	_	
+46-4	3208-3215	butiker	_	_	_	_	_	_	_	
+46-5	3215-3216	,	_	_	_	_	_	_	_	
+46-6	3217-3220	som	_	_	_	_	_	_	_	
+46-7	3221-3228	behöver	_	_	_	_	_	_	_	
+46-8	3229-3241	kompletteras	_	_	_	_	_	_	_	
+46-9	3242-3245	med	_	_	_	_	_	_	_	
+46-10	3246-3253	koncept	_	_	_	_	_	_	_	
+46-11	3254-3257	för	_	_	_	_	_	_	_	
+46-12	3258-3269	upplevelser	_	_	_	_	_	_	_	
+46-13	3270-3273	och	_	_	_	_	_	_	_	
+46-14	3274-3285	försäljning	_	_	_	_	_	_	_	
+46-15	3286-3288	av	_	_	_	_	_	_	_	
+46-16	3289-3303	högkvalitativa	_	_	_	_	_	_	_	
+46-17	3304-3317	specialiteter	_	_	_	_	_	_	_	
+46-18	3317-3318	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3320-3321	#	_	_	_	_	_	_	_	
+47-2	3321-3322	P	_	_	_	_	_	_	_	
+47-3	3323-3326	IMM	_	_	_	_	_	_	_	
+47-4	3326-3327	.	_	_	_	_	_	_	_	
+
+#Text=Livsmedelsindustrin är en av spjutspetsarna mot framtiden, mot upplevelsesamhället.
+48-1	3329-3348	Livsmedelsindustrin	*	_	_	_	_	_	_	
+48-2	3349-3351	är	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-3	3352-3354	en	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-4	3355-3357	av	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-5	3358-3372	spjutspetsarna	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-6	3373-3376	mot	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-7	3377-3386	framtiden	_	Target[13]	48-1	false[13]	4[13]	_	_	
+48-8	3386-3387	,	_	_	_	_	_	_	_	
+48-9	3388-3391	mot	_	_	_	_	_	_	_	
+48-10	3392-3411	upplevelsesamhället	_	_	_	_	_	_	_	
+48-11	3411-3412	.	_	_	_	_	_	_	_	
+
+#Text=Redan i dag är det vanligt att den som fyller år får en god middag i present istället för något materiellt.
+49-1	3413-3418	Redan	_	_	_	_	_	_	_	
+49-2	3419-3420	i	_	_	_	_	_	_	_	
+49-3	3421-3424	dag	_	_	_	_	_	_	_	
+49-4	3425-3427	är	_	_	_	_	_	_	_	
+49-5	3428-3431	det	_	_	_	_	_	_	_	
+49-6	3432-3439	vanligt	_	_	_	_	_	_	_	
+49-7	3440-3443	att	_	_	_	_	_	_	_	
+49-8	3444-3447	den	_	_	_	_	_	_	_	
+49-9	3448-3451	som	_	_	_	_	_	_	_	
+49-10	3452-3458	fyller	_	_	_	_	_	_	_	
+49-11	3459-3461	år	_	_	_	_	_	_	_	
+49-12	3462-3465	får	_	_	_	_	_	_	_	
+49-13	3466-3468	en	_	_	_	_	_	_	_	
+49-14	3469-3472	god	_	_	_	_	_	_	_	
+49-15	3473-3479	middag	_	_	_	_	_	_	_	
+49-16	3480-3481	i	_	_	_	_	_	_	_	
+49-17	3482-3489	present	_	_	_	_	_	_	_	
+49-18	3490-3498	istället	_	_	_	_	_	_	_	
+49-19	3499-3502	för	_	_	_	_	_	_	_	
+49-20	3503-3508	något	_	_	_	_	_	_	_	
+49-21	3509-3519	materiellt	_	_	_	_	_	_	_	
+49-22	3519-3520	.	_	_	_	_	_	_	_	
+
+#Text=Upplevelser har i det moderna samhället större värde än materiella prylar.
+50-1	3521-3532	Upplevelser	_	_	_	_	_	_	_	
+50-2	3533-3536	har	_	_	_	_	_	_	_	
+50-3	3537-3538	i	_	_	_	_	_	_	_	
+50-4	3539-3542	det	_	_	_	_	_	_	_	
+50-5	3543-3550	moderna	_	_	_	_	_	_	_	
+50-6	3551-3560	samhället	_	_	_	_	_	_	_	
+50-7	3561-3567	större	_	_	_	_	_	_	_	
+50-8	3568-3573	värde	_	_	_	_	_	_	_	
+50-9	3574-3576	än	_	_	_	_	_	_	_	
+50-10	3577-3587	materiella	_	_	_	_	_	_	_	
+50-11	3588-3594	prylar	_	_	_	_	_	_	_	
+50-12	3594-3595	.	_	_	_	_	_	_	_	
+
+#Text=Och bra mat är en upplevelse.
+51-1	3596-3599	Och	_	_	_	_	_	_	_	
+51-2	3600-3603	bra	_	_	_	_	_	_	_	
+51-3	3604-3607	mat	_	_	_	_	_	_	_	
+51-4	3608-3610	är	_	_	_	_	_	_	_	
+51-5	3611-3613	en	_	_	_	_	_	_	_	
+51-6	3614-3624	upplevelse	_	_	_	_	_	_	_	
+51-7	3624-3625	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3627-3628	#	_	_	_	_	_	_	_	
+52-2	3628-3629	P	_	_	_	_	_	_	_	
+52-3	3630-3633	IMM	_	_	_	_	_	_	_	
+52-4	3633-3634	.	_	_	_	_	_	_	_	
+
+#Text=Den borgerliga alliansregeringen kan nu omedelbart uppfylla vallöftet om att skapa fler jobb genom att ta initiativ till ett utvecklingsprogram för den svenska maten!.
+53-1	3636-3639	Den	_	_	_	_	_	_	_	
+53-2	3640-3650	borgerliga	_	_	_	_	_	_	_	
+53-3	3651-3668	alliansregeringen	_	_	_	_	_	_	_	
+53-4	3669-3672	kan	_	_	_	_	_	_	_	
+53-5	3673-3675	nu	_	_	_	_	_	_	_	
+53-6	3676-3686	omedelbart	_	_	_	_	_	_	_	
+53-7	3687-3695	uppfylla	_	_	_	_	_	_	_	
+53-8	3696-3705	vallöftet	_	_	_	_	_	_	_	
+53-9	3706-3708	om	_	_	_	_	_	_	_	
+53-10	3709-3712	att	_	_	_	_	_	_	_	
+53-11	3713-3718	skapa	_	_	_	_	_	_	_	
+53-12	3719-3723	fler	_	_	_	_	_	_	_	
+53-13	3724-3728	jobb	_	_	_	_	_	_	_	
+53-14	3729-3734	genom	_	_	_	_	_	_	_	
+53-15	3735-3738	att	_	_	_	_	_	_	_	
+53-16	3739-3741	ta	_	_	_	_	_	_	_	
+53-17	3742-3751	initiativ	_	_	_	_	_	_	_	
+53-18	3752-3756	till	_	_	_	_	_	_	_	
+53-19	3757-3760	ett	_	_	_	_	_	_	_	
+53-20	3761-3779	utvecklingsprogram	_	_	_	_	_	_	_	
+53-21	3780-3783	för	_	_	_	_	_	_	_	
+53-22	3784-3787	den	_	_	_	_	_	_	_	
+53-23	3788-3795	svenska	_	_	_	_	_	_	_	
+53-24	3796-3801	maten	_	_	_	_	_	_	_	
+53-25	3801-3802	!	_	_	_	_	_	_	_	
+53-26	3802-3803	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3805-3806	#	_	_	_	_	_	_	_	
+54-2	3806-3807	P	_	_	_	_	_	_	_	
+54-3	3808-3811	IMM	_	_	_	_	_	_	_	
+54-4	3811-3812	.	_	_	_	_	_	_	_	
+
+#Text=Dagens debattör.
+55-1	3814-3820	Dagens	_	_	_	_	_	_	_	
+55-2	3821-3829	debattör	_	_	_	_	_	_	_	
+55-3	3829-3830	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3832-3833	#	_	_	_	_	_	_	_	
+56-2	3833-3834	P	_	_	_	_	_	_	_	
+56-3	3835-3838	IMM	_	_	_	_	_	_	_	
+56-4	3838-3839	.	_	_	_	_	_	_	_	
+
+#Text=Hans-Olof Nilsson.
+57-1	3841-3850	Hans-Olof	_	_	_	_	_	_	_	
+57-2	3851-3858	Nilsson	_	_	_	_	_	_	_	
+57-3	3858-3859	.	_	_	_	_	_	_	_	

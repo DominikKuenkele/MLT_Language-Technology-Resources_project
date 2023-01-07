@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Norden, särskilt olämpligt för mångkultur/massinvandring?
+3-1	18-24	Norden	*	_	_	_	_	
+3-2	24-25	,	_	_	_	_	_	
+3-3	26-34	särskilt	_	Target[1]	3-1	false[1]	1[1]	
+3-4	35-44	olämpligt	_	Target[1]	3-1	false[1]	1[1]	
+3-5	45-48	för	_	Target[1]	3-1	false[1]	1[1]	
+3-6	49-59	mångkultur	_	Target[1]	3-1	false[1]	1[1]	
+3-7	59-60	/	_	Target[1]	3-1	false[1]	1[1]	
+3-8	60-74	massinvandring	_	Target[1]	3-1	false[1]	1[1]	
+3-9	74-75	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	77-78	#	_	_	_	_	_	
+4-2	78-79	P	_	_	_	_	_	
+4-3	80-83	IMM	_	_	_	_	_	
+4-4	83-84	.	_	_	_	_	_	
+
+#Text=I år har vi ju haft 200 år av fred, visst har de stormat ute i Europa runt omkring oss men vi har lyckats smita undan och inte lagt oss i vilket resulterat i att de inte hänt så speciellt mycket.
+5-1	86-87	I	_	_	_	_	_	
+5-2	88-90	år	_	_	_	_	_	
+5-3	91-94	har	_	_	_	_	_	
+5-4	95-97	vi	_	_	_	_	_	
+5-5	98-100	ju	_	_	_	_	_	
+5-6	101-105	haft	_	_	_	_	_	
+5-7	106-109	200	_	_	_	_	_	
+5-8	110-112	år	_	_	_	_	_	
+5-9	113-115	av	_	_	_	_	_	
+5-10	116-120	fred	*	Target	5-10	false	5	
+5-11	120-121	,	_	_	_	_	_	
+5-12	122-127	visst	_	_	_	_	_	
+5-13	128-131	har	_	_	_	_	_	
+5-14	132-134	de	_	_	_	_	_	
+5-15	135-142	stormat	_	_	_	_	_	
+5-16	143-146	ute	_	_	_	_	_	
+5-17	147-148	i	_	_	_	_	_	
+5-18	149-155	Europa	_	_	_	_	_	
+5-19	156-160	runt	_	_	_	_	_	
+5-20	161-168	omkring	_	_	_	_	_	
+5-21	169-172	oss	_	_	_	_	_	
+5-22	173-176	men	_	_	_	_	_	
+5-23	177-179	vi	_	_	_	_	_	
+5-24	180-183	har	_	_	_	_	_	
+5-25	184-191	lyckats	_	_	_	_	_	
+5-26	192-197	smita	_	_	_	_	_	
+5-27	198-203	undan	_	_	_	_	_	
+5-28	204-207	och	_	_	_	_	_	
+5-29	208-212	inte	_	_	_	_	_	
+5-30	213-217	lagt	_	_	_	_	_	
+5-31	218-221	oss	_	_	_	_	_	
+5-32	222-223	i	_	_	_	_	_	
+5-33	224-230	vilket	_	_	_	_	_	
+5-34	231-241	resulterat	_	_	_	_	_	
+5-35	242-243	i	_	_	_	_	_	
+5-36	244-247	att	_	_	_	_	_	
+5-37	248-250	de	_	_	_	_	_	
+5-38	251-255	inte	_	_	_	_	_	
+5-39	256-260	hänt	_	_	_	_	_	
+5-40	261-263	så	_	_	_	_	_	
+5-41	264-273	speciellt	_	_	_	_	_	
+5-42	274-280	mycket	_	_	_	_	_	
+5-43	280-281	.	_	_	_	_	_	
+
+#Text=Vi gillar att ha saker och ting som de alltid varit (För att det aldrig hänt något som tvingat oss att ändra på det?)
+6-1	282-284	Vi	*	_	_	_	_	
+6-2	285-291	gillar	_	Source;Target	6-1;6-3[3]	false	4	
+6-3	292-295	att	*[3]	_	_	_	_	
+6-4	296-298	ha	*[3]	_	_	_	_	
+6-5	299-304	saker	*[3]	_	_	_	_	
+6-6	305-308	och	*[3]	_	_	_	_	
+6-7	309-313	ting	*[3]	_	_	_	_	
+6-8	314-317	som	*[3]	_	_	_	_	
+6-9	318-320	de	*[3]	_	_	_	_	
+6-10	321-327	alltid	*[3]	_	_	_	_	
+6-11	328-333	varit	*[3]	_	_	_	_	
+6-12	334-335	(	_	_	_	_	_	
+6-13	335-338	För	_	_	_	_	_	
+6-14	339-342	att	_	_	_	_	_	
+6-15	343-346	det	_	_	_	_	_	
+6-16	347-353	aldrig	_	_	_	_	_	
+6-17	354-358	hänt	_	_	_	_	_	
+6-18	359-364	något	_	_	_	_	_	
+6-19	365-368	som	_	_	_	_	_	
+6-20	369-376	tvingat	_	_	_	_	_	
+6-21	377-380	oss	_	_	_	_	_	
+6-22	381-384	att	_	_	_	_	_	
+6-23	385-390	ändra	_	_	_	_	_	
+6-24	391-393	på	_	_	_	_	_	
+6-25	394-397	det	_	_	_	_	_	
+6-26	397-398	?	_	_	_	_	_	
+6-27	398-399	)	_	_	_	_	_	
+
+#Text=, Kalle varje jul, julbordet är sig likt man sjunger nationalsången i kyrkan vid skolavslutningarna e.t.c.
+7-1	399-400	,	_	_	_	_	_	
+7-2	401-406	Kalle	_	_	_	_	_	
+7-3	407-412	varje	_	_	_	_	_	
+7-4	413-416	jul	_	_	_	_	_	
+7-5	416-417	,	_	_	_	_	_	
+7-6	418-427	julbordet	_	_	_	_	_	
+7-7	428-430	är	_	_	_	_	_	
+7-8	431-434	sig	_	_	_	_	_	
+7-9	435-439	likt	_	_	_	_	_	
+7-10	440-443	man	_	_	_	_	_	
+7-11	444-451	sjunger	_	_	_	_	_	
+7-12	452-466	nationalsången	_	_	_	_	_	
+7-13	467-468	i	_	_	_	_	_	
+7-14	469-475	kyrkan	_	_	_	_	_	
+7-15	476-479	vid	_	_	_	_	_	
+7-16	480-498	skolavslutningarna	_	_	_	_	_	
+7-17	499-504	e.t.c	_	_	_	_	_	
+7-18	504-505	.	_	_	_	_	_	
+
+#Text=Det är väldigt mycket "Men så har de ju alltid varit" eller "Om det fungerar så varför ändra på det".
+8-1	506-509	Det	_	_	_	_	_	
+8-2	510-512	är	_	_	_	_	_	
+8-3	513-520	väldigt	_	_	_	_	_	
+8-4	521-527	mycket	_	_	_	_	_	
+8-5	528-529	"	_	_	_	_	_	
+8-6	529-532	Men	_	_	_	_	_	
+8-7	533-535	så	_	_	_	_	_	
+8-8	536-539	har	_	_	_	_	_	
+8-9	540-542	de	_	_	_	_	_	
+8-10	543-545	ju	_	_	_	_	_	
+8-11	546-552	alltid	_	_	_	_	_	
+8-12	553-558	varit	_	_	_	_	_	
+8-13	558-559	"	_	_	_	_	_	
+8-14	560-565	eller	_	_	_	_	_	
+8-15	566-567	"	_	_	_	_	_	
+8-16	567-569	Om	_	_	_	_	_	
+8-17	570-573	det	_	_	_	_	_	
+8-18	574-582	fungerar	_	_	_	_	_	
+8-19	583-585	så	_	_	_	_	_	
+8-20	586-592	varför	_	_	_	_	_	
+8-21	593-598	ändra	_	_	_	_	_	
+8-22	599-601	på	_	_	_	_	_	
+8-23	602-605	det	_	_	_	_	_	
+8-24	605-606	"	_	_	_	_	_	
+8-25	606-607	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	609-610	#	_	_	_	_	_	
+9-2	610-611	P	_	_	_	_	_	
+9-3	612-615	IMM	_	_	_	false	3	
+9-4	615-616	.	_	_	_	_	_	
+
+#Text=Många väljer ju att se USA som ett föregångsland, men det går ju inte ens att jämföra då USA blev ett "eget" land för bara några hundra år sedan, i princip alltid varit i konflikter och än idag på ett eller annat sätt är splittrat då många delstater är fortfarande väldigt olika varandra.
+10-1	618-623	Många	*	_	_	_	_	
+10-2	624-630	väljer	_	_	_	_	_	
+10-3	631-633	ju	_	_	_	_	_	
+10-4	634-637	att	_	_	_	_	_	
+10-5	638-640	se	_	_	_	_	_	
+10-6	641-644	USA	*	_	_	_	_	
+10-7	645-648	som	_	_	_	_	_	
+10-8	649-652	ett	_	Source;Target[2]	10-1;10-6	false[2]	4[2]	
+10-9	653-666	föregångsland	_	Source;Target[2]	10-1;10-6	false[2]	4[2]	
+10-10	666-667	,	_	_	_	_	_	
+10-11	668-671	men	_	_	_	_	_	
+10-12	672-675	det	_	_	_	_	_	
+10-13	676-679	går	_	_	_	_	_	
+10-14	680-682	ju	_	_	_	_	_	
+10-15	683-687	inte	_	_	_	_	_	
+10-16	688-691	ens	_	_	_	_	_	
+10-17	692-695	att	_	_	_	_	_	
+10-18	696-703	jämföra	_	_	_	_	_	
+10-19	704-706	då	_	_	_	_	_	
+10-20	707-710	USA	_	_	_	_	_	
+10-21	711-715	blev	_	_	_	_	_	
+10-22	716-719	ett	_	_	_	_	_	
+10-23	720-721	"	_	_	_	_	_	
+10-24	721-725	eget	_	_	_	_	_	
+10-25	725-726	"	_	_	_	_	_	
+10-26	727-731	land	_	_	_	_	_	
+10-27	732-735	för	_	_	_	_	_	
+10-28	736-740	bara	_	_	_	_	_	
+10-29	741-746	några	_	_	_	_	_	
+10-30	747-753	hundra	_	_	_	_	_	
+10-31	754-756	år	_	_	_	_	_	
+10-32	757-762	sedan	_	_	_	_	_	
+10-33	762-763	,	_	_	_	_	_	
+10-34	764-765	i	_	_	_	_	_	
+10-35	766-773	princip	_	_	_	_	_	
+10-36	774-780	alltid	_	_	_	_	_	
+10-37	781-786	varit	_	_	_	_	_	
+10-38	787-788	i	_	_	_	_	_	
+10-39	789-799	konflikter	*	Target	10-39	false	1	
+10-40	800-803	och	_	_	_	_	_	
+10-41	804-806	än	_	_	_	_	_	
+10-42	807-811	idag	_	_	_	_	_	
+10-43	812-814	på	_	_	_	_	_	
+10-44	815-818	ett	_	_	_	_	_	
+10-45	819-824	eller	_	_	_	_	_	
+10-46	825-830	annat	_	_	_	_	_	
+10-47	831-835	sätt	_	_	_	_	_	
+10-48	836-838	är	_	_	_	_	_	
+10-49	839-848	splittrat	_	_	_	_	_	
+10-50	849-851	då	_	_	_	_	_	
+10-51	852-857	många	_	_	_	_	_	
+10-52	858-867	delstater	_	_	_	_	_	
+10-53	868-870	är	_	_	_	_	_	
+10-54	871-882	fortfarande	_	_	_	_	_	
+10-55	883-890	väldigt	_	_	_	_	_	
+10-56	891-896	olika	_	_	_	_	_	
+10-57	897-905	varandra	_	_	_	_	_	
+10-58	905-906	.	_	_	_	_	_	
+
+#Text=Det är ju bra mycket enklare att lägga en grund för ett mångkulturellt samhälle i ett land som står i brand eller ligger i ruiner.
+11-1	907-910	Det	_	_	_	_	_	
+11-2	911-913	är	_	_	_	_	_	
+11-3	914-916	ju	_	_	_	_	_	
+11-4	917-920	bra	_	_	_	_	_	
+11-5	921-927	mycket	_	_	_	_	_	
+11-6	928-935	enklare	_	_	_	_	_	
+11-7	936-939	att	_	_	_	_	_	
+11-8	940-945	lägga	_	_	_	_	_	
+11-9	946-948	en	_	_	_	_	_	
+11-10	949-954	grund	_	_	_	_	_	
+11-11	955-958	för	_	_	_	_	_	
+11-12	959-962	ett	_	_	_	_	_	
+11-13	963-977	mångkulturellt	_	_	_	_	_	
+11-14	978-986	samhälle	_	_	_	_	_	
+11-15	987-988	i	_	_	_	_	_	
+11-16	989-992	ett	_	_	_	_	_	
+11-17	993-997	land	_	_	_	_	_	
+11-18	998-1001	som	_	_	_	_	_	
+11-19	1002-1006	står	_	_	_	_	_	
+11-20	1007-1008	i	_	_	_	_	_	
+11-21	1009-1014	brand	_	_	_	_	_	
+11-22	1015-1020	eller	_	_	_	_	_	
+11-23	1021-1027	ligger	_	_	_	_	_	
+11-24	1028-1029	i	_	_	_	_	_	
+11-25	1030-1036	ruiner	_	_	_	_	_	
+11-26	1036-1037	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	1039-1040	#	_	_	_	_	_	
+12-2	1040-1041	P	_	_	_	_	_	
+12-3	1042-1045	IMM	_	_	_	false	2	
+12-4	1045-1046	.	_	_	_	_	_	
+
+#Text=Varför är de ingen som tänker tanken på att det här kanske är en bidragande orsak till varför integrationen misslyckats och just speciellt i Norden?.
+13-1	1048-1054	Varför	_	_	_	_	_	
+13-2	1055-1057	är	_	_	_	_	_	
+13-3	1058-1060	de	_	_	_	_	_	
+13-4	1061-1066	ingen	_	_	_	_	_	
+13-5	1067-1070	som	_	_	_	_	_	
+13-6	1071-1077	tänker	_	_	_	_	_	
+13-7	1078-1084	tanken	_	_	_	_	_	
+13-8	1085-1087	på	_	_	_	_	_	
+13-9	1088-1091	att	_	_	_	_	_	
+13-10	1092-1095	det	_	_	_	_	_	
+13-11	1096-1099	här	_	_	_	_	_	
+13-12	1100-1106	kanske	_	_	_	_	_	
+13-13	1107-1109	är	_	_	_	_	_	
+13-14	1110-1112	en	_	_	_	_	_	
+13-15	1113-1123	bidragande	_	_	_	_	_	
+13-16	1124-1129	orsak	_	_	_	_	_	
+13-17	1130-1134	till	_	_	_	_	_	
+13-18	1135-1141	varför	_	_	_	_	_	
+13-19	1142-1155	integrationen	*	_	_	_	_	
+13-20	1156-1167	misslyckats	_	Target	13-19	false	1	
+13-21	1168-1171	och	_	_	_	_	_	
+13-22	1172-1176	just	_	_	_	_	_	
+13-23	1177-1186	speciellt	_	_	_	_	_	
+13-24	1187-1188	i	_	_	_	_	_	
+13-25	1189-1195	Norden	_	_	_	_	_	
+13-26	1195-1196	?	_	_	_	_	_	
+13-27	1196-1197	.	_	_	_	_	_	

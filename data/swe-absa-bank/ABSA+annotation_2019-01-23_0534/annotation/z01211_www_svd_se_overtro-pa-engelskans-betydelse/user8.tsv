@@ -1,0 +1,1178 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Övertro på engelskans betydelse.
+3-1	18-25	Övertro	*[16]	Target	3-1[16]	false	2	_	_	
+3-2	26-28	på	*[16]	_	_	_	_	_	_	
+3-3	29-39	engelskans	*[16]	_	_	_	_	_	_	
+3-4	40-49	betydelse	*[16]	_	_	_	_	_	_	
+3-5	49-50	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	_	_	
+
+#Text=SPRÅK Folkpartiets förslag om engelska i årskurs ett är illa underbyggt.
+5-1	61-66	SPRÅK	_	_	_	_	_	_	_	
+5-2	67-79	Folkpartiets	*[17]	_	_	_	_	_	_	
+5-3	80-87	förslag	*[17]	_	_	_	_	_	_	
+5-4	88-90	om	*[17]	_	_	_	_	_	_	
+5-5	91-99	engelska	*[17]	_	_	_	_	_	_	
+5-6	100-101	i	*[17]	_	_	_	_	_	_	
+5-7	102-109	årskurs	*[17]	_	_	_	_	_	_	
+5-8	110-113	ett	*[17]	_	_	_	_	_	_	
+5-9	114-116	är	_	Target[1]	5-2[17]	false[1]	2[1]	_	_	
+5-10	117-121	illa	_	Target[1]	5-2[17]	false[1]	2[1]	_	_	
+5-11	122-132	underbyggt	_	Target[1]	5-2[17]	false[1]	2[1]	_	_	
+5-12	132-133	.	_	_	_	_	_	_	_	
+
+#Text=Språkinlärning fungerar bäst om eleverna först behärskar modersmålet.
+6-1	134-148	Språkinlärning	*[18]	_	_	_	_	_	_	
+6-2	149-157	fungerar	*[18]	Target[2]	6-1[18]	false[2]	4[2]	_	_	
+6-3	158-162	bäst	*[18]	Target[2]	6-1[18]	false[2]	4[2]	_	_	
+6-4	163-165	om	*[18]	_	_	_	_	_	_	
+6-5	166-174	eleverna	*[18]	_	_	_	_	_	_	
+6-6	175-180	först	*[18]	_	_	_	_	_	_	
+6-7	181-190	behärskar	*[18]	_	_	_	_	_	_	
+6-8	191-202	modersmålet	*[18]	_	_	_	_	_	_	
+6-9	202-203	.	_	_	_	_	_	_	_	
+
+#Text=Engelskans status är för hög, skriver Horace Engdahl, Peter Englund, Olle Josephson med flera.
+7-1	204-214	Engelskans	*[19]	_	_	_	_	_	_	
+7-2	215-221	status	*[19]	_	_	_	_	_	_	
+7-3	222-224	är	*[19]	Target;Source[3]	7-1[19];7-8[20]	false[3]	2[3]	_	_	
+7-4	225-228	för	*[19]	Target;Source[3]	7-1[19];7-8[20]	false[3]	2[3]	_	_	
+7-5	229-232	hög	*[19]	_	_	_	_	_	_	
+7-6	232-233	,	_	_	_	_	_	_	_	
+7-7	234-241	skriver	_	_	_	_	_	_	_	
+7-8	242-248	Horace	*[20]	_	_	_	_	_	_	
+7-9	249-256	Engdahl	*[20]	_	_	_	_	_	_	
+7-10	256-257	,	*[20]	_	_	_	_	_	_	
+7-11	258-263	Peter	*[20]	_	_	_	_	_	_	
+7-12	264-271	Englund	*[20]	_	_	_	_	_	_	
+7-13	271-272	,	*[20]	_	_	_	_	_	_	
+7-14	273-277	Olle	*[20]	_	_	_	_	_	_	
+7-15	278-287	Josephson	*[20]	_	_	_	_	_	_	
+7-16	288-291	med	*[20]	_	_	_	_	_	_	
+7-17	292-297	flera	*[20]	_	_	_	_	_	_	
+7-18	297-298	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	300-301	#	_	_	_	_	_	_	_	
+8-2	301-302	P	_	_	_	_	_	_	_	
+8-3	303-306	IMM	_	_	_	_	_	_	_	
+8-4	306-307	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiets pågående landsmöte föreläggs ett förslag att engelska ska bli obligatoriskt från och med årskurs ett i grundskolan.
+9-1	309-321	Folkpartiets	_	_	_	_	_	_	_	
+9-2	322-330	pågående	_	_	_	_	_	_	_	
+9-3	331-340	landsmöte	_	_	_	_	_	_	_	
+9-4	341-350	föreläggs	_	_	_	_	_	_	_	
+9-5	351-354	ett	_	Source;Target[4]	10-5[22];9-7[21]	false[4]	4[4]	_	_	
+9-6	355-362	förslag	_	Source;Target[4]	10-5[22];9-7[21]	false[4]	4[4]	_	_	
+9-7	363-366	att	*[21]	_	_	_	_	_	_	
+9-8	367-375	engelska	*[21]	_	_	_	_	_	_	
+9-9	376-379	ska	*[21]	_	_	_	_	_	_	
+9-10	380-383	bli	*[21]	_	_	_	_	_	_	
+9-11	384-397	obligatoriskt	*[21]	_	_	_	_	_	_	
+9-12	398-402	från	*[21]	_	_	_	_	_	_	
+9-13	403-406	och	*[21]	_	_	_	_	_	_	
+9-14	407-410	med	*[21]	_	_	_	_	_	_	
+9-15	411-418	årskurs	*[21]	_	_	_	_	_	_	
+9-16	419-422	ett	*[21]	_	_	_	_	_	_	
+9-17	423-424	i	*[21]	_	_	_	_	_	_	
+9-18	425-436	grundskolan	*[21]	_	_	_	_	_	_	
+9-19	436-437	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget formulerades redan i Globaliseringsrådets slutrapport i våras.
+10-1	438-447	Förslaget	_	_	_	_	_	_	_	
+10-2	448-460	formulerades	_	_	_	_	_	_	_	
+10-3	461-466	redan	_	_	_	_	_	_	_	
+10-4	467-468	i	_	_	_	_	_	_	_	
+10-5	469-489	Globaliseringsrådets	*[22]	_	_	_	_	_	_	
+10-6	490-501	slutrapport	*[22]	_	_	_	_	_	_	
+10-7	502-503	i	*[22]	_	_	_	_	_	_	
+10-8	504-509	våras	*[22]	_	_	_	_	_	_	
+10-9	509-510	.	_	_	_	_	_	_	_	
+
+#Text=Rådets enda argument är attintresset för och kunskaper i främmande språk kan stimuleras genom själva tidigareläggningen.
+11-1	511-517	Rådets	_	_	_	_	_	_	_	
+11-2	518-522	enda	_	_	_	_	_	_	_	
+11-3	523-531	argument	_	_	_	_	_	_	_	
+11-4	532-534	är	_	_	_	_	_	_	_	
+11-5	535-547	attintresset	_	_	_	_	_	_	_	
+11-6	548-551	för	_	_	_	_	_	_	_	
+11-7	552-555	och	_	_	_	_	_	_	_	
+11-8	556-565	kunskaper	_	_	_	_	_	_	_	
+11-9	566-567	i	_	_	_	_	_	_	_	
+11-10	568-577	främmande	_	_	_	_	_	_	_	
+11-11	578-583	språk	_	_	_	_	_	_	_	
+11-12	584-587	kan	_	_	_	_	_	_	_	
+11-13	588-598	stimuleras	_	_	_	_	_	_	_	
+11-14	599-604	genom	_	_	_	_	_	_	_	
+11-15	605-611	själva	_	_	_	_	_	_	_	
+11-16	612-630	tidigareläggningen	_	_	_	_	_	_	_	
+11-17	630-631	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	633-634	#	_	_	_	_	_	_	_	
+12-2	634-635	P	_	_	_	_	_	_	_	
+12-3	636-639	IMM	_	_	_	_	_	_	_	
+12-4	639-640	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+13-1	642-645	Det	_	_	_	_	_	_	_	
+13-2	646-649	här	_	_	_	_	_	_	_	
+13-3	650-652	är	_	_	_	_	_	_	_	
+13-4	653-655	en	_	_	_	_	_	_	_	
+13-5	656-670	argumenterande	_	_	_	_	_	_	_	
+13-6	671-675	text	_	_	_	_	_	_	_	
+13-7	676-679	med	_	_	_	_	_	_	_	
+13-8	680-685	syfte	_	_	_	_	_	_	_	
+13-9	686-689	att	_	_	_	_	_	_	_	
+13-10	690-697	påverka	_	_	_	_	_	_	_	
+13-11	697-698	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+14-1	699-708	Åsikterna	_	_	_	_	_	_	_	
+14-2	709-712	som	_	_	_	_	_	_	_	
+14-3	713-721	uttrycks	_	_	_	_	_	_	_	
+14-4	722-724	är	_	_	_	_	_	_	_	
+14-5	725-736	skribentens	_	_	_	_	_	_	_	
+14-6	737-741	egna	_	_	_	_	_	_	_	
+14-7	741-742	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	744-745	#	_	_	_	_	_	_	_	
+15-2	745-746	P	_	_	_	_	_	_	_	
+15-3	747-750	IMM	_	_	_	_	_	_	_	
+15-4	750-751	.	_	_	_	_	_	_	_	
+
+#Text=Ingen forskning har hittills kunnat belägga att elever lär sig engelska bättre, om de lär sig språket redan i årskurs ett istället för i årskurs tre eller fyra.
+16-1	753-758	Ingen	_	_	_	_	_	_	_	
+16-2	759-768	forskning	_	_	_	_	_	_	_	
+16-3	769-772	har	_	_	_	_	_	_	_	
+16-4	773-781	hittills	_	_	_	_	_	_	_	
+16-5	782-788	kunnat	_	_	_	_	_	_	_	
+16-6	789-796	belägga	_	_	_	_	_	_	_	
+16-7	797-800	att	_	_	_	_	_	_	_	
+16-8	801-807	elever	_	_	_	_	_	_	_	
+16-9	808-811	lär	_	_	_	_	_	_	_	
+16-10	812-815	sig	_	_	_	_	_	_	_	
+16-11	816-824	engelska	_	_	_	_	_	_	_	
+16-12	825-831	bättre	_	_	_	_	_	_	_	
+16-13	831-832	,	_	_	_	_	_	_	_	
+16-14	833-835	om	_	_	_	_	_	_	_	
+16-15	836-838	de	_	_	_	_	_	_	_	
+16-16	839-842	lär	_	_	_	_	_	_	_	
+16-17	843-846	sig	_	_	_	_	_	_	_	
+16-18	847-854	språket	_	_	_	_	_	_	_	
+16-19	855-860	redan	_	_	_	_	_	_	_	
+16-20	861-862	i	_	_	_	_	_	_	_	
+16-21	863-870	årskurs	_	_	_	_	_	_	_	
+16-22	871-874	ett	_	_	_	_	_	_	_	
+16-23	875-883	istället	_	_	_	_	_	_	_	
+16-24	884-887	för	_	_	_	_	_	_	_	
+16-25	888-889	i	_	_	_	_	_	_	_	
+16-26	890-897	årskurs	_	_	_	_	_	_	_	
+16-27	898-901	tre	_	_	_	_	_	_	_	
+16-28	902-907	eller	_	_	_	_	_	_	_	
+16-29	908-912	fyra	_	_	_	_	_	_	_	
+16-30	912-913	.	_	_	_	_	_	_	_	
+
+#Text=Istället är ungdomarnas eget intresse och graden av användning av engelska på fritiden avgörande för deras kunskaper i språket – se Liss Kerstin Sylvéns avhandling från 2004.
+17-1	914-922	Istället	_	_	_	_	_	_	_	
+17-2	923-925	är	_	_	_	_	_	_	_	
+17-3	926-937	ungdomarnas	_	_	_	_	_	_	_	
+17-4	938-942	eget	_	_	_	_	_	_	_	
+17-5	943-951	intresse	_	_	_	_	_	_	_	
+17-6	952-955	och	_	_	_	_	_	_	_	
+17-7	956-962	graden	_	_	_	_	_	_	_	
+17-8	963-965	av	_	_	_	_	_	_	_	
+17-9	966-976	användning	_	_	_	_	_	_	_	
+17-10	977-979	av	_	_	_	_	_	_	_	
+17-11	980-988	engelska	_	_	_	_	_	_	_	
+17-12	989-991	på	_	_	_	_	_	_	_	
+17-13	992-1000	fritiden	_	_	_	_	_	_	_	
+17-14	1001-1010	avgörande	_	_	_	_	_	_	_	
+17-15	1011-1014	för	_	_	_	_	_	_	_	
+17-16	1015-1020	deras	_	_	_	_	_	_	_	
+17-17	1021-1030	kunskaper	_	_	_	_	_	_	_	
+17-18	1031-1032	i	_	_	_	_	_	_	_	
+17-19	1033-1040	språket	_	_	_	_	_	_	_	
+17-20	1041-1042	–	_	_	_	_	_	_	_	
+17-21	1043-1045	se	_	_	_	_	_	_	_	
+17-22	1046-1050	Liss	_	_	_	_	_	_	_	
+17-23	1051-1058	Kerstin	_	_	_	_	_	_	_	
+17-24	1059-1066	Sylvéns	_	_	_	_	_	_	_	
+17-25	1067-1077	avhandling	_	_	_	_	_	_	_	
+17-26	1078-1082	från	_	_	_	_	_	_	_	
+17-27	1083-1087	2004	_	_	_	_	_	_	_	
+17-28	1087-1088	.	_	_	_	_	_	_	_	
+
+#Text=Det finns heller inte någon signifikant skillnad i årskurs nio mellan elever som börjat läsa B-språk som franska, spanska eller tyska skolår sex jämfört med år sju.
+18-1	1089-1092	Det	_	_	_	_	_	_	_	
+18-2	1093-1098	finns	_	_	_	_	_	_	_	
+18-3	1099-1105	heller	_	_	_	_	_	_	_	
+18-4	1106-1110	inte	_	_	_	_	_	_	_	
+18-5	1111-1116	någon	_	_	_	_	_	_	_	
+18-6	1117-1128	signifikant	_	_	_	_	_	_	_	
+18-7	1129-1137	skillnad	_	_	_	_	_	_	_	
+18-8	1138-1139	i	_	_	_	_	_	_	_	
+18-9	1140-1147	årskurs	_	_	_	_	_	_	_	
+18-10	1148-1151	nio	_	_	_	_	_	_	_	
+18-11	1152-1158	mellan	_	_	_	_	_	_	_	
+18-12	1159-1165	elever	_	_	_	_	_	_	_	
+18-13	1166-1169	som	_	_	_	_	_	_	_	
+18-14	1170-1176	börjat	_	_	_	_	_	_	_	
+18-15	1177-1181	läsa	_	_	_	_	_	_	_	
+18-16	1182-1189	B-språk	_	_	_	_	_	_	_	
+18-17	1190-1193	som	_	_	_	_	_	_	_	
+18-18	1194-1201	franska	_	_	_	_	_	_	_	
+18-19	1201-1202	,	_	_	_	_	_	_	_	
+18-20	1203-1210	spanska	_	_	_	_	_	_	_	
+18-21	1211-1216	eller	_	_	_	_	_	_	_	
+18-22	1217-1222	tyska	_	_	_	_	_	_	_	
+18-23	1223-1229	skolår	_	_	_	_	_	_	_	
+18-24	1230-1233	sex	_	_	_	_	_	_	_	
+18-25	1234-1241	jämfört	_	_	_	_	_	_	_	
+18-26	1242-1245	med	_	_	_	_	_	_	_	
+18-27	1246-1248	år	_	_	_	_	_	_	_	
+18-28	1249-1252	sju	_	_	_	_	_	_	_	
+18-29	1252-1253	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1255-1256	#	_	_	_	_	_	_	_	
+19-2	1256-1257	P	_	_	_	_	_	_	_	
+19-3	1258-1261	IMM	_	_	_	false	3	_	_	
+19-4	1261-1262	.	_	_	_	_	_	_	_	
+
+#Text=Om tidig inlärning vore utslagsgivande, borde naturligtvis engelska göras obligatoriskt i förskolan.
+20-1	1264-1266	Om	_	_	_	_	_	_	_	
+20-2	1267-1272	tidig	_	_	_	_	_	_	_	
+20-3	1273-1282	inlärning	_	_	_	_	_	_	_	
+20-4	1283-1287	vore	_	_	_	_	_	_	_	
+20-5	1288-1302	utslagsgivande	_	_	_	_	_	_	_	
+20-6	1302-1303	,	_	_	_	_	_	_	_	
+20-7	1304-1309	borde	_	_	_	_	_	_	_	
+20-8	1310-1322	naturligtvis	_	_	_	_	_	_	_	
+20-9	1323-1331	engelska	_	_	_	_	_	_	_	
+20-10	1332-1337	göras	_	_	_	_	_	_	_	
+20-11	1338-1351	obligatoriskt	_	_	_	_	_	_	_	
+20-12	1352-1353	i	_	_	_	_	_	_	_	
+20-13	1354-1363	förskolan	_	_	_	_	_	_	_	
+20-14	1363-1364	.	_	_	_	_	_	_	_	
+
+#Text=Men inlärningen av ett främmande språk fungerar bäst, om den sker med grund i modersmålet (eller det starkaste språket).
+21-1	1365-1368	Men	_	_	_	_	_	_	_	
+21-2	1369-1380	inlärningen	*[23]	_	_	_	_	_	_	
+21-3	1381-1383	av	*[23]	_	_	_	_	_	_	
+21-4	1384-1387	ett	*[23]	_	_	_	_	_	_	
+21-5	1388-1397	främmande	*[23]	_	_	_	_	_	_	
+21-6	1398-1403	språk	*[23]	_	_	_	_	_	_	
+21-7	1404-1412	fungerar	*[23]	Target[5]	21-2[23]	false[5]	4[5]	_	_	
+21-8	1413-1417	bäst	*[23]	Target[5]	21-2[23]	false[5]	4[5]	_	_	
+21-9	1417-1418	,	*[23]	_	_	_	_	_	_	
+21-10	1419-1421	om	*[23]	_	_	_	_	_	_	
+21-11	1422-1425	den	*[23]	_	_	_	_	_	_	
+21-12	1426-1430	sker	*[23]	_	_	_	_	_	_	
+21-13	1431-1434	med	*[23]	_	_	_	_	_	_	
+21-14	1435-1440	grund	*[23]	_	_	_	_	_	_	
+21-15	1441-1442	i	*[23]	_	_	_	_	_	_	
+21-16	1443-1454	modersmålet	*[23]	_	_	_	_	_	_	
+21-17	1455-1456	(	*[23]	_	_	_	_	_	_	
+21-18	1456-1461	eller	*[23]	_	_	_	_	_	_	
+21-19	1462-1465	det	*[23]	_	_	_	_	_	_	
+21-20	1466-1475	starkaste	*[23]	_	_	_	_	_	_	
+21-21	1476-1483	språket	*[23]	_	_	_	_	_	_	
+21-22	1483-1484	)	*[23]	_	_	_	_	_	_	
+21-23	1484-1485	.	_	_	_	_	_	_	_	
+
+#Text=Låt eleverna lära sig läsa och skriva på det egna modersmålet först, om inte det andra språket finns naturligt i omgivningen.
+22-1	1486-1489	Låt	_	_	_	_	_	_	_	
+22-2	1490-1498	eleverna	_	_	_	_	_	_	_	
+22-3	1499-1503	lära	_	_	_	_	_	_	_	
+22-4	1504-1507	sig	_	_	_	_	_	_	_	
+22-5	1508-1512	läsa	_	_	_	_	_	_	_	
+22-6	1513-1516	och	_	_	_	_	_	_	_	
+22-7	1517-1523	skriva	_	_	_	_	_	_	_	
+22-8	1524-1526	på	_	_	_	_	_	_	_	
+22-9	1527-1530	det	_	_	_	_	_	_	_	
+22-10	1531-1535	egna	_	_	_	_	_	_	_	
+22-11	1536-1547	modersmålet	_	_	_	_	_	_	_	
+22-12	1548-1553	först	_	_	_	_	_	_	_	
+22-13	1553-1554	,	_	_	_	_	_	_	_	
+22-14	1555-1557	om	_	_	_	_	_	_	_	
+22-15	1558-1562	inte	_	_	_	_	_	_	_	
+22-16	1563-1566	det	_	_	_	_	_	_	_	
+22-17	1567-1572	andra	_	_	_	_	_	_	_	
+22-18	1573-1580	språket	_	_	_	_	_	_	_	
+22-19	1581-1586	finns	_	_	_	_	_	_	_	
+22-20	1587-1596	naturligt	_	_	_	_	_	_	_	
+22-21	1597-1598	i	_	_	_	_	_	_	_	
+22-22	1599-1610	omgivningen	_	_	_	_	_	_	_	
+22-23	1610-1611	.	_	_	_	_	_	_	_	
+
+#Text=En tidigareläggning av engelskan skapar också problem för många invandrarbarn i Sverige, som håller på att byta språk från föräldrarnas modersmål till svenska.
+23-1	1612-1614	En	*[24]|*[25]	_	_	_	_	_	_	
+23-2	1615-1631	tidigareläggning	*[24]|*[25]	_	_	_	_	_	_	
+23-3	1632-1634	av	*[24]|*[25]	_	_	_	_	_	_	
+23-4	1635-1644	engelskan	*[24]|*[25]	_	_	_	_	_	_	
+23-5	1645-1651	skapar	*[24]|*[25]	Target	23-1[24]	false	2	_	_	
+23-6	1652-1657	också	*[24]|*[25]	_	_	_	_	_	_	
+23-7	1658-1665	problem	*[24]|*[25]	Target	23-1[25]	false	2	23-5	_	
+23-8	1666-1669	för	*[24]|*[25]	_	_	_	_	_	_	
+23-9	1670-1675	många	*[24]|*[25]	_	_	_	_	_	_	
+23-10	1676-1689	invandrarbarn	*[24]|*[25]	_	_	_	_	_	_	
+23-11	1690-1691	i	*[24]|*[25]	_	_	_	_	_	_	
+23-12	1692-1699	Sverige	*[24]|*[25]	_	_	_	_	_	_	
+23-13	1699-1700	,	_	_	_	_	_	_	_	
+23-14	1701-1704	som	_	_	_	_	_	_	_	
+23-15	1705-1711	håller	_	_	_	_	_	_	_	
+23-16	1712-1714	på	_	_	_	_	_	_	_	
+23-17	1715-1718	att	_	_	_	_	_	_	_	
+23-18	1719-1723	byta	_	_	_	_	_	_	_	
+23-19	1724-1729	språk	_	_	_	_	_	_	_	
+23-20	1730-1734	från	_	_	_	_	_	_	_	
+23-21	1735-1747	föräldrarnas	_	_	_	_	_	_	_	
+23-22	1748-1757	modersmål	_	_	_	_	_	_	_	
+23-23	1758-1762	till	_	_	_	_	_	_	_	
+23-24	1763-1770	svenska	_	_	_	_	_	_	_	
+23-25	1770-1771	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1773-1774	#	_	_	_	_	_	_	_	
+24-2	1774-1775	P	_	_	_	_	_	_	_	
+24-3	1776-1779	IMM	_	_	_	_	_	_	_	
+24-4	1779-1780	.	_	_	_	_	_	_	_	
+
+#Text=Frågan är också om Folkpartiet tänker utöka skoltiden för första- och andraklassarna eller minska undervisningstiden i andra ämnen.
+25-1	1782-1788	Frågan	_	_	_	_	_	_	_	
+25-2	1789-1791	är	_	_	_	_	_	_	_	
+25-3	1792-1797	också	_	_	_	_	_	_	_	
+25-4	1798-1800	om	_	_	_	_	_	_	_	
+25-5	1801-1812	Folkpartiet	_	_	_	_	_	_	_	
+25-6	1813-1819	tänker	_	_	_	_	_	_	_	
+25-7	1820-1825	utöka	_	_	_	_	_	_	_	
+25-8	1826-1835	skoltiden	_	_	_	_	_	_	_	
+25-9	1836-1839	för	_	_	_	_	_	_	_	
+25-10	1840-1846	första	_	_	_	_	_	_	_	
+25-11	1846-1847	-	_	_	_	_	_	_	_	
+25-12	1848-1851	och	_	_	_	_	_	_	_	
+25-13	1852-1866	andraklassarna	_	_	_	_	_	_	_	
+25-14	1867-1872	eller	_	_	_	_	_	_	_	
+25-15	1873-1879	minska	_	_	_	_	_	_	_	
+25-16	1880-1898	undervisningstiden	_	_	_	_	_	_	_	
+25-17	1899-1900	i	_	_	_	_	_	_	_	
+25-18	1901-1906	andra	_	_	_	_	_	_	_	
+25-19	1907-1912	ämnen	_	_	_	_	_	_	_	
+25-20	1912-1913	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1915-1916	#	_	_	_	_	_	_	_	
+26-2	1916-1917	P	_	_	_	_	_	_	_	
+26-3	1918-1921	IMM	_	_	_	_	_	_	_	
+26-4	1921-1922	.	_	_	_	_	_	_	_	
+
+#Text=Teorin om tidigast möjliga främmandespråkinlärning förfäktas energiskt av vissa före detta kolonialmakter, inklusive delar av den afrikanska eliten, i Afrika.
+27-1	1924-1930	Teorin	*[26]	_	_	_	_	_	_	
+27-2	1931-1933	om	*[26]	_	_	_	_	_	_	
+27-3	1934-1942	tidigast	*[26]	_	_	_	_	_	_	
+27-4	1943-1950	möjliga	*[26]	_	_	_	_	_	_	
+27-5	1951-1974	främmandespråkinlärning	*[26]	_	_	_	_	_	_	
+27-6	1975-1984	förfäktas	_	Target;Source[6]	27-1[26];27-9[27]	false[6]	5[6]	_	_	
+27-7	1985-1994	energiskt	_	Target;Source[6]	27-1[26];27-9[27]	false[6]	5[6]	_	_	
+27-8	1995-1997	av	_	_	_	_	_	_	_	
+27-9	1998-2003	vissa	*[27]	_	_	_	_	_	_	
+27-10	2004-2008	före	*[27]	_	_	_	_	_	_	
+27-11	2009-2014	detta	*[27]	_	_	_	_	_	_	
+27-12	2015-2029	kolonialmakter	*[27]	_	_	_	_	_	_	
+27-13	2029-2030	,	*[27]	_	_	_	_	_	_	
+27-14	2031-2040	inklusive	*[27]	_	_	_	_	_	_	
+27-15	2041-2046	delar	*[27]	_	_	_	_	_	_	
+27-16	2047-2049	av	*[27]	_	_	_	_	_	_	
+27-17	2050-2053	den	*[27]	_	_	_	_	_	_	
+27-18	2054-2064	afrikanska	*[27]	_	_	_	_	_	_	
+27-19	2065-2071	eliten	*[27]	_	_	_	_	_	_	
+27-20	2071-2072	,	*[27]	_	_	_	_	_	_	
+27-21	2073-2074	i	*[27]	_	_	_	_	_	_	
+27-22	2075-2081	Afrika	*[27]	_	_	_	_	_	_	
+27-23	2081-2082	.	_	_	_	_	_	_	_	
+
+#Text=Kolonialspråket fungerar som exklusivt undervisningsspråk från årskurs ett i vissa afrikanska stater.
+28-1	2083-2098	Kolonialspråket	_	_	_	_	_	_	_	
+28-2	2099-2107	fungerar	_	_	_	_	_	_	_	
+28-3	2108-2111	som	_	_	_	_	_	_	_	
+28-4	2112-2121	exklusivt	_	_	_	_	_	_	_	
+28-5	2122-2140	undervisningsspråk	_	_	_	_	_	_	_	
+28-6	2141-2145	från	_	_	_	_	_	_	_	
+28-7	2146-2153	årskurs	_	_	_	_	_	_	_	
+28-8	2154-2157	ett	_	_	_	_	_	_	_	
+28-9	2158-2159	i	_	_	_	_	_	_	_	
+28-10	2160-2165	vissa	_	_	_	_	_	_	_	
+28-11	2166-2176	afrikanska	_	_	_	_	_	_	_	
+28-12	2177-2183	stater	_	_	_	_	_	_	_	
+28-13	2183-2184	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2186-2187	#	_	_	_	_	_	_	_	
+29-2	2187-2188	P	_	_	_	_	_	_	_	
+29-3	2189-2192	IMM	_	_	_	_	_	_	_	
+29-4	2192-2193	.	_	_	_	_	_	_	_	
+
+#Text=Likvärdiga tester visar dock att elever i länder, som undervisats på ett inhemskt språk, under åtminstone de tre första åren, uppnår bättre resultat i till exempel engelska i slutet av grund- skoletiden än elever från de förstnämnda länderna.
+30-1	2195-2205	Likvärdiga	*[28]	_	_	_	_	_	_	
+30-2	2206-2212	tester	*[28]	_	_	_	_	_	_	
+30-3	2213-2218	visar	_	_	_	_	_	_	_	
+30-4	2219-2223	dock	_	_	_	_	_	_	_	
+30-5	2224-2227	att	_	_	_	_	_	_	_	
+30-6	2228-2234	elever	*[29]	_	_	_	_	_	_	
+30-7	2235-2236	i	*[29]	_	_	_	_	_	_	
+30-8	2237-2243	länder	*[29]	_	_	_	_	_	_	
+30-9	2243-2244	,	*[29]	_	_	_	_	_	_	
+30-10	2245-2248	som	*[29]	_	_	_	_	_	_	
+30-11	2249-2260	undervisats	*[29]	_	_	_	_	_	_	
+30-12	2261-2263	på	*[29]	_	_	_	_	_	_	
+30-13	2264-2267	ett	*[29]	_	_	_	_	_	_	
+30-14	2268-2276	inhemskt	*[29]	_	_	_	_	_	_	
+30-15	2277-2282	språk	*[29]	_	_	_	_	_	_	
+30-16	2282-2283	,	*[29]	_	_	_	_	_	_	
+30-17	2284-2289	under	*[29]	_	_	_	_	_	_	
+30-18	2290-2300	åtminstone	*[29]	_	_	_	_	_	_	
+30-19	2301-2303	de	*[29]	_	_	_	_	_	_	
+30-20	2304-2307	tre	*[29]	_	_	_	_	_	_	
+30-21	2308-2314	första	*[29]	_	_	_	_	_	_	
+30-22	2315-2319	åren	*[29]	_	_	_	_	_	_	
+30-23	2319-2320	,	*[29]	_	_	_	_	_	_	
+30-24	2321-2327	uppnår	*[29]	Target;Source[7]	30-6[29];30-1[28]	false[7]	4[7]	_	_	
+30-25	2328-2334	bättre	*[29]	Target;Source[7]	30-6[29];30-1[28]	false[7]	4[7]	_	_	
+30-26	2335-2343	resultat	*[29]	Target;Source[7]	30-6[29];30-1[28]	false[7]	4[7]	_	_	
+30-27	2344-2345	i	*[29]	_	_	_	_	_	_	
+30-28	2346-2350	till	*[29]	_	_	_	_	_	_	
+30-29	2351-2358	exempel	*[29]	_	_	_	_	_	_	
+30-30	2359-2367	engelska	*[29]	_	_	_	_	_	_	
+30-31	2368-2369	i	*[29]	_	_	_	_	_	_	
+30-32	2370-2376	slutet	*[29]	_	_	_	_	_	_	
+30-33	2377-2379	av	*[29]	_	_	_	_	_	_	
+30-34	2380-2385	grund	*[29]	_	_	_	_	_	_	
+30-35	2385-2386	-	*[29]	_	_	_	_	_	_	
+30-36	2387-2397	skoletiden	*[29]	_	_	_	_	_	_	
+30-37	2398-2400	än	*[29]	_	_	_	_	_	_	
+30-38	2401-2407	elever	*[29]	_	_	_	_	_	_	
+30-39	2408-2412	från	*[29]	_	_	_	_	_	_	
+30-40	2413-2415	de	*[29]	_	_	_	_	_	_	
+30-41	2416-2427	förstnämnda	*[29]	_	_	_	_	_	_	
+30-42	2428-2436	länderna	*[29]	_	_	_	_	_	_	
+30-43	2436-2437	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2439-2440	#	_	_	_	_	_	_	_	
+31-2	2440-2441	P	_	_	_	_	_	_	_	
+31-3	2442-2445	IMM	_	_	_	_	_	_	_	
+31-4	2445-2446	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+32-1	2448-2461	Skräddarsydda	_	_	_	_	_	_	_	
+32-2	2462-2468	kurser	_	_	_	_	_	_	_	
+32-3	2469-2470	i	_	_	_	_	_	_	_	
+32-4	2471-2476	ämnen	_	_	_	_	_	_	_	
+32-5	2477-2480	som	_	_	_	_	_	_	_	
+32-6	2481-2492	intresserar	_	_	_	_	_	_	_	
+32-7	2493-2496	och	_	_	_	_	_	_	_	
+32-8	2497-2506	engagerar	_	_	_	_	_	_	_	
+32-9	2507-2511	både	_	_	_	_	_	_	_	
+32-10	2512-2517	kropp	_	_	_	_	_	_	_	
+32-11	2518-2521	och	_	_	_	_	_	_	_	
+32-12	2522-2526	själ	_	_	_	_	_	_	_	
+32-13	2526-2527	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2529-2530	#	_	_	_	_	_	_	_	
+33-2	2530-2531	P	_	_	_	_	_	_	_	
+33-3	2532-2535	IMM	_	_	_	_	_	_	_	
+33-4	2535-2536	.	_	_	_	_	_	_	_	
+
+#Text=Efter andra världskriget blev engelska obligatoriskt i folkskolan; tyska och franska tillkom i realskolan och gymnasiet.
+34-1	2538-2543	Efter	_	_	_	_	_	_	_	
+34-2	2544-2549	andra	_	_	_	_	_	_	_	
+34-3	2550-2562	världskriget	_	_	_	_	_	_	_	
+34-4	2563-2567	blev	_	_	_	_	_	_	_	
+34-5	2568-2576	engelska	_	_	_	_	_	_	_	
+34-6	2577-2590	obligatoriskt	_	_	_	_	_	_	_	
+34-7	2591-2592	i	_	_	_	_	_	_	_	
+34-8	2593-2603	folkskolan	_	_	_	_	_	_	_	
+34-9	2603-2604	;	_	_	_	_	_	_	_	
+34-10	2605-2610	tyska	_	_	_	_	_	_	_	
+34-11	2611-2614	och	_	_	_	_	_	_	_	
+34-12	2615-2622	franska	_	_	_	_	_	_	_	
+34-13	2623-2630	tillkom	_	_	_	_	_	_	_	
+34-14	2631-2632	i	_	_	_	_	_	_	_	
+34-15	2633-2643	realskolan	_	_	_	_	_	_	_	
+34-16	2644-2647	och	_	_	_	_	_	_	_	
+34-17	2648-2657	gymnasiet	_	_	_	_	_	_	_	
+34-18	2657-2658	.	_	_	_	_	_	_	_	
+
+#Text=Studenterna i högskolan förutsattes behärska engelska och tyska och i viss utsträckning franska.
+35-1	2659-2670	Studenterna	_	_	_	_	_	_	_	
+35-2	2671-2672	i	_	_	_	_	_	_	_	
+35-3	2673-2682	högskolan	_	_	_	_	_	_	_	
+35-4	2683-2694	förutsattes	_	_	_	_	_	_	_	
+35-5	2695-2703	behärska	_	_	_	_	_	_	_	
+35-6	2704-2712	engelska	_	_	_	_	_	_	_	
+35-7	2713-2716	och	_	_	_	_	_	_	_	
+35-8	2717-2722	tyska	_	_	_	_	_	_	_	
+35-9	2723-2726	och	_	_	_	_	_	_	_	
+35-10	2727-2728	i	_	_	_	_	_	_	_	
+35-11	2729-2733	viss	_	_	_	_	_	_	_	
+35-12	2734-2746	utsträckning	_	_	_	_	_	_	_	
+35-13	2747-2754	franska	_	_	_	_	_	_	_	
+35-14	2754-2755	.	_	_	_	_	_	_	_	
+
+#Text=Successivt har dock engelskans ställning på högskolan stärkts, eftersom denna tågordning har upphävts.
+36-1	2756-2766	Successivt	_	_	_	_	_	_	_	
+36-2	2767-2770	har	_	_	_	_	_	_	_	
+36-3	2771-2775	dock	_	_	_	_	_	_	_	
+36-4	2776-2786	engelskans	_	_	_	_	_	_	_	
+36-5	2787-2796	ställning	_	_	_	_	_	_	_	
+36-6	2797-2799	på	_	_	_	_	_	_	_	
+36-7	2800-2809	högskolan	_	_	_	_	_	_	_	
+36-8	2810-2817	stärkts	_	_	_	_	_	_	_	
+36-9	2817-2818	,	_	_	_	_	_	_	_	
+36-10	2819-2827	eftersom	_	_	_	_	_	_	_	
+36-11	2828-2833	denna	_	_	_	_	_	_	_	
+36-12	2834-2844	tågordning	_	_	_	_	_	_	_	
+36-13	2845-2848	har	_	_	_	_	_	_	_	
+36-14	2849-2857	upphävts	_	_	_	_	_	_	_	
+36-15	2857-2858	.	_	_	_	_	_	_	_	
+
+#Text=Numera kan högskolans kursanordnare inte vara säkra på vilket främmande språk studenterna behärskar utöver engelska, vilket leder till en låsning till kurslitteratur på svenska och engelska.
+37-1	2859-2865	Numera	_	_	_	_	_	_	_	
+37-2	2866-2869	kan	_	_	_	_	_	_	_	
+37-3	2870-2880	högskolans	_	_	_	_	_	_	_	
+37-4	2881-2894	kursanordnare	_	_	_	_	_	_	_	
+37-5	2895-2899	inte	_	_	_	_	_	_	_	
+37-6	2900-2904	vara	_	_	_	_	_	_	_	
+37-7	2905-2910	säkra	_	_	_	_	_	_	_	
+37-8	2911-2913	på	_	_	_	_	_	_	_	
+37-9	2914-2920	vilket	_	_	_	_	_	_	_	
+37-10	2921-2930	främmande	_	_	_	_	_	_	_	
+37-11	2931-2936	språk	_	_	_	_	_	_	_	
+37-12	2937-2948	studenterna	_	_	_	_	_	_	_	
+37-13	2949-2958	behärskar	_	_	_	_	_	_	_	
+37-14	2959-2965	utöver	_	_	_	_	_	_	_	
+37-15	2966-2974	engelska	_	_	_	_	_	_	_	
+37-16	2974-2975	,	_	_	_	_	_	_	_	
+37-17	2976-2982	vilket	_	_	_	_	_	_	_	
+37-18	2983-2988	leder	_	_	_	_	_	_	_	
+37-19	2989-2993	till	_	_	_	_	_	_	_	
+37-20	2994-2996	en	*[30]	_	_	_	_	_	_	
+37-21	2997-3004	låsning	*[30]	Target	37-20[30]	false	2	_	_	
+37-22	3005-3009	till	*[30]	_	_	_	_	_	_	
+37-23	3010-3024	kurslitteratur	*[30]	_	_	_	_	_	_	
+37-24	3025-3027	på	*[30]	_	_	_	_	_	_	
+37-25	3028-3035	svenska	*[30]	_	_	_	_	_	_	
+37-26	3036-3039	och	*[30]	_	_	_	_	_	_	
+37-27	3040-3048	engelska	*[30]	_	_	_	_	_	_	
+37-28	3048-3049	.	_	_	_	_	_	_	_	
+
+#Text=Engelskan har också stärkt sin betydelse i gymnasiet, eftersom kunskaper i engelska idag betygsmässigt är lika mycket värda som i svenska.
+38-1	3050-3059	Engelskan	_	_	_	_	_	_	_	
+38-2	3060-3063	har	_	_	_	_	_	_	_	
+38-3	3064-3069	också	_	_	_	_	_	_	_	
+38-4	3070-3076	stärkt	_	_	_	_	_	_	_	
+38-5	3077-3080	sin	_	_	_	_	_	_	_	
+38-6	3081-3090	betydelse	_	_	_	_	_	_	_	
+38-7	3091-3092	i	_	_	_	_	_	_	_	
+38-8	3093-3102	gymnasiet	_	_	_	_	_	_	_	
+38-9	3102-3103	,	_	_	_	_	_	_	_	
+38-10	3104-3112	eftersom	_	_	_	_	_	_	_	
+38-11	3113-3122	kunskaper	_	_	_	_	_	_	_	
+38-12	3123-3124	i	_	_	_	_	_	_	_	
+38-13	3125-3133	engelska	_	_	_	_	_	_	_	
+38-14	3134-3138	idag	_	_	_	_	_	_	_	
+38-15	3139-3152	betygsmässigt	_	_	_	_	_	_	_	
+38-16	3153-3155	är	_	_	_	_	_	_	_	
+38-17	3156-3160	lika	_	_	_	_	_	_	_	
+38-18	3161-3167	mycket	_	_	_	_	_	_	_	
+38-19	3168-3173	värda	_	_	_	_	_	_	_	
+38-20	3174-3177	som	_	_	_	_	_	_	_	
+38-21	3178-3179	i	_	_	_	_	_	_	_	
+38-22	3180-3187	svenska	_	_	_	_	_	_	_	
+38-23	3187-3188	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3190-3191	#	_	_	_	_	_	_	_	
+39-2	3191-3192	P	_	_	_	_	_	_	_	
+39-3	3193-3196	IMM	_	_	_	_	_	_	_	
+39-4	3196-3197	.	_	_	_	_	_	_	_	
+
+#Text=Svenska ungdomar utsätts idag för en enorm exponering från engelskan i massmedia; det må gälla tv, radio, film eller internet.
+40-1	3199-3206	Svenska	_	_	_	_	_	_	_	
+40-2	3207-3215	ungdomar	_	_	_	_	_	_	_	
+40-3	3216-3223	utsätts	_	_	_	_	_	_	_	
+40-4	3224-3228	idag	_	_	_	_	_	_	_	
+40-5	3229-3232	för	_	_	_	_	_	_	_	
+40-6	3233-3235	en	_	_	_	_	_	_	_	
+40-7	3236-3241	enorm	_	_	_	_	_	_	_	
+40-8	3242-3252	exponering	_	_	_	_	_	_	_	
+40-9	3253-3257	från	_	_	_	_	_	_	_	
+40-10	3258-3267	engelskan	_	_	_	_	_	_	_	
+40-11	3268-3269	i	_	_	_	_	_	_	_	
+40-12	3270-3279	massmedia	_	_	_	_	_	_	_	
+40-13	3279-3280	;	_	_	_	_	_	_	_	
+40-14	3281-3284	det	_	_	_	_	_	_	_	
+40-15	3285-3287	må	_	_	_	_	_	_	_	
+40-16	3288-3293	gälla	_	_	_	_	_	_	_	
+40-17	3294-3296	tv	_	_	_	_	_	_	_	
+40-18	3296-3297	,	_	_	_	_	_	_	_	
+40-19	3298-3303	radio	_	_	_	_	_	_	_	
+40-20	3303-3304	,	_	_	_	_	_	_	_	
+40-21	3305-3309	film	_	_	_	_	_	_	_	
+40-22	3310-3315	eller	_	_	_	_	_	_	_	
+40-23	3316-3324	internet	_	_	_	_	_	_	_	
+40-24	3324-3325	.	_	_	_	_	_	_	_	
+
+#Text=Resandet har ökat markant sedan andra världskriget och därmed möjligheten att använda engelska.
+41-1	3326-3334	Resandet	_	_	_	_	_	_	_	
+41-2	3335-3338	har	_	_	_	_	_	_	_	
+41-3	3339-3343	ökat	_	_	_	_	_	_	_	
+41-4	3344-3351	markant	_	_	_	_	_	_	_	
+41-5	3352-3357	sedan	_	_	_	_	_	_	_	
+41-6	3358-3363	andra	_	_	_	_	_	_	_	
+41-7	3364-3376	världskriget	_	_	_	_	_	_	_	
+41-8	3377-3380	och	_	_	_	_	_	_	_	
+41-9	3381-3387	därmed	_	_	_	_	_	_	_	
+41-10	3388-3399	möjligheten	_	_	_	_	_	_	_	
+41-11	3400-3403	att	_	_	_	_	_	_	_	
+41-12	3404-3411	använda	_	_	_	_	_	_	_	
+41-13	3412-3420	engelska	_	_	_	_	_	_	_	
+41-14	3420-3421	.	_	_	_	_	_	_	_	
+
+#Text=Detta leder till en övertro på engelskans betydelse.
+42-1	3422-3427	Detta	_	_	_	_	_	_	_	
+42-2	3428-3433	leder	_	_	_	_	_	_	_	
+42-3	3434-3438	till	_	_	_	_	_	_	_	
+42-4	3439-3441	en	_	_	_	_	_	_	_	
+42-5	3442-3449	övertro	*[31]	Target	42-5[31]	false	2	_	_	
+42-6	3450-3452	på	*[31]	_	_	_	_	_	_	
+42-7	3453-3463	engelskans	*[31]	_	_	_	_	_	_	
+42-8	3464-3473	betydelse	*[31]	_	_	_	_	_	_	
+42-9	3473-3474	.	_	_	_	_	_	_	_	
+
+#Text=Sant är att engelskan idag är det främsta andraspråket i världen, som en fjärdedel av världens befolkning sägs förstå liksom hälften av EU:s medborgare.
+43-1	3475-3479	Sant	_	_	_	_	_	_	_	
+43-2	3480-3482	är	_	_	_	_	_	_	_	
+43-3	3483-3486	att	_	_	_	_	_	_	_	
+43-4	3487-3496	engelskan	_	_	_	_	_	_	_	
+43-5	3497-3501	idag	_	_	_	_	_	_	_	
+43-6	3502-3504	är	_	_	_	_	_	_	_	
+43-7	3505-3508	det	_	_	_	_	_	_	_	
+43-8	3509-3516	främsta	_	_	_	_	_	_	_	
+43-9	3517-3529	andraspråket	_	_	_	_	_	_	_	
+43-10	3530-3531	i	_	_	_	_	_	_	_	
+43-11	3532-3539	världen	_	_	_	_	_	_	_	
+43-12	3539-3540	,	_	_	_	_	_	_	_	
+43-13	3541-3544	som	_	_	_	_	_	_	_	
+43-14	3545-3547	en	_	_	_	_	_	_	_	
+43-15	3548-3557	fjärdedel	_	_	_	_	_	_	_	
+43-16	3558-3560	av	_	_	_	_	_	_	_	
+43-17	3561-3569	världens	_	_	_	_	_	_	_	
+43-18	3570-3580	befolkning	_	_	_	_	_	_	_	
+43-19	3581-3585	sägs	_	_	_	_	_	_	_	
+43-20	3586-3592	förstå	_	_	_	_	_	_	_	
+43-21	3593-3599	liksom	_	_	_	_	_	_	_	
+43-22	3600-3607	hälften	_	_	_	_	_	_	_	
+43-23	3608-3610	av	_	_	_	_	_	_	_	
+43-24	3611-3613	EU	_	_	_	_	_	_	_	
+43-25	3613-3614	:	_	_	_	_	_	_	_	
+43-26	3614-3615	s	_	_	_	_	_	_	_	
+43-27	3616-3626	medborgare	_	_	_	_	_	_	_	
+43-28	3626-3627	.	_	_	_	_	_	_	_	
+
+#Text=Men engelska är inte gångbart överallt.
+44-1	3628-3631	Men	_	_	_	_	_	_	_	
+44-2	3632-3640	engelska	_	_	_	_	_	_	_	
+44-3	3641-3643	är	_	_	_	_	_	_	_	
+44-4	3644-3648	inte	_	_	_	_	_	_	_	
+44-5	3649-3657	gångbart	_	_	_	_	_	_	_	
+44-6	3658-3666	överallt	_	_	_	_	_	_	_	
+44-7	3666-3667	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3669-3670	#	_	_	_	_	_	_	_	
+45-2	3670-3671	P	_	_	_	_	_	_	_	
+45-3	3672-3675	IMM	_	_	_	_	_	_	_	
+45-4	3675-3676	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Eurobarometern är Sverige den enda medlemsstat i EU där majoriteten av de tillfrågade anser det tillräckligt att lära sig ett främmande språk (läs engelska) förutom modersmålet.
+46-1	3678-3684	Enligt	_	_	_	_	_	_	_	
+46-2	3685-3699	Eurobarometern	_	_	_	_	_	_	_	
+46-3	3700-3702	är	_	_	_	_	_	_	_	
+46-4	3703-3710	Sverige	_	_	_	_	_	_	_	
+46-5	3711-3714	den	_	_	_	_	_	_	_	
+46-6	3715-3719	enda	_	_	_	_	_	_	_	
+46-7	3720-3731	medlemsstat	_	_	_	_	_	_	_	
+46-8	3732-3733	i	_	_	_	_	_	_	_	
+46-9	3734-3736	EU	_	_	_	_	_	_	_	
+46-10	3737-3740	där	_	_	_	_	_	_	_	
+46-11	3741-3752	majoriteten	_	_	_	_	_	_	_	
+46-12	3753-3755	av	_	_	_	_	_	_	_	
+46-13	3756-3758	de	_	_	_	_	_	_	_	
+46-14	3759-3770	tillfrågade	_	_	_	_	_	_	_	
+46-15	3771-3776	anser	_	_	_	_	_	_	_	
+46-16	3777-3780	det	_	_	_	_	_	_	_	
+46-17	3781-3793	tillräckligt	_	_	_	_	_	_	_	
+46-18	3794-3797	att	_	_	_	_	_	_	_	
+46-19	3798-3802	lära	_	_	_	_	_	_	_	
+46-20	3803-3806	sig	_	_	_	_	_	_	_	
+46-21	3807-3810	ett	_	_	_	_	_	_	_	
+46-22	3811-3820	främmande	_	_	_	_	_	_	_	
+46-23	3821-3826	språk	_	_	_	_	_	_	_	
+46-24	3827-3828	(	_	_	_	_	_	_	_	
+46-25	3828-3831	läs	_	_	_	_	_	_	_	
+46-26	3832-3840	engelska	_	_	_	_	_	_	_	
+46-27	3840-3841	)	_	_	_	_	_	_	_	
+46-28	3842-3849	förutom	_	_	_	_	_	_	_	
+46-29	3850-3861	modersmålet	_	_	_	_	_	_	_	
+46-30	3861-3862	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt visade en rapport från EU-kommissionen ifjol att små och medelstora företag i Europa gör stora ekonomiska förluster beroende på bristande kompetens i andra främmande språk än engelska.
+47-1	3863-3872	Samtidigt	_	_	_	_	_	_	_	
+47-2	3873-3879	visade	_	_	_	_	_	_	_	
+47-3	3880-3882	en	*[32]	_	_	_	_	_	_	
+47-4	3883-3890	rapport	*[32]	_	_	_	_	_	_	
+47-5	3891-3895	från	*[32]	_	_	_	_	_	_	
+47-6	3896-3911	EU-kommissionen	*[32]	_	_	_	_	_	_	
+47-7	3912-3917	ifjol	*[32]	_	_	_	_	_	_	
+47-8	3918-3921	att	_	_	_	_	_	_	_	
+47-9	3922-3925	små	*[33]	_	_	_	_	_	_	
+47-10	3926-3929	och	*[33]	_	_	_	_	_	_	
+47-11	3930-3940	medelstora	*[33]	_	_	_	_	_	_	
+47-12	3941-3948	företag	*[33]	_	_	_	_	_	_	
+47-13	3949-3950	i	*[33]	_	_	_	_	_	_	
+47-14	3951-3957	Europa	*[33]	_	_	_	_	_	_	
+47-15	3958-3961	gör	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-16	3962-3967	stora	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-17	3968-3978	ekonomiska	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-18	3979-3988	förluster	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-19	3989-3997	beroende	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-20	3998-4000	på	_	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-21	4001-4010	bristande	*[34]	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-22	4011-4020	kompetens	*[34]	Target;Source;Target[8]	47-9[33];47-3[32];47-21[34]	false[8]	2[8]	_	_	
+47-23	4021-4022	i	*[34]	_	_	_	_	_	_	
+47-24	4023-4028	andra	*[34]	_	_	_	_	_	_	
+47-25	4029-4038	främmande	*[34]	_	_	_	_	_	_	
+47-26	4039-4044	språk	*[34]	_	_	_	_	_	_	
+47-27	4045-4047	än	*[34]	_	_	_	_	_	_	
+47-28	4048-4056	engelska	*[34]	_	_	_	_	_	_	
+47-29	4056-4057	.	_	_	_	_	_	_	_	
+
+#Text=Till och med amerikanska och brittiska regeringsföre- trädare klagar över de egna medborgarnas bristande kunskaper i andra språk än engelska.
+48-1	4058-4062	Till	_	_	_	_	_	_	_	
+48-2	4063-4066	och	_	_	_	_	_	_	_	
+48-3	4067-4070	med	_	_	_	_	_	_	_	
+48-4	4071-4082	amerikanska	*[35]|*[36]	_	_	_	_	_	_	
+48-5	4083-4086	och	*[35]|*[36]	_	_	_	_	_	_	
+48-6	4087-4096	brittiska	*[35]|*[36]	_	_	_	_	_	_	
+48-7	4097-4110	regeringsföre	*[35]|*[36]	_	_	_	_	_	_	
+48-8	4110-4111	-	*[35]|*[36]	_	_	_	_	_	_	
+48-9	4112-4119	trädare	*[35]|*[36]	_	_	_	_	_	_	
+48-10	4120-4126	klagar	_	Target;Source[9]	48-12[37];48-4[35]	false[9]	2[9]	48-15[10_9]	_	
+48-11	4127-4131	över	_	Target;Source[9]	48-12[37];48-4[35]	false[9]	2[9]	_	_	
+48-12	4132-4134	de	*[37]|*[38]	_	_	_	_	_	_	
+48-13	4135-4139	egna	*[37]|*[38]	_	_	_	_	_	_	
+48-14	4140-4152	medborgarnas	*[37]|*[38]	_	_	_	_	_	_	
+48-15	4153-4162	bristande	*[37]|*[38]	Source;Target[10]	48-4[36];48-12[38]	false[10]	2[10]	_	_	
+48-16	4163-4172	kunskaper	*[37]|*[38]	Source;Target[10]	48-4[36];48-12[38]	false[10]	2[10]	_	_	
+48-17	4173-4174	i	*[37]|*[38]	_	_	_	_	_	_	
+48-18	4175-4180	andra	*[37]|*[38]	_	_	_	_	_	_	
+48-19	4181-4186	språk	*[37]|*[38]	_	_	_	_	_	_	
+48-20	4187-4189	än	*[37]|*[38]	_	_	_	_	_	_	
+48-21	4190-4198	engelska	*[37]|*[38]	_	_	_	_	_	_	
+48-22	4198-4199	.	_	_	_	_	_	_	_	
+
+#Text=Man säljer nämligen bäst på mottagarlandets språk.
+49-1	4200-4203	Man	_	_	_	_	_	_	_	
+49-2	4204-4210	säljer	_	_	_	_	_	_	_	
+49-3	4211-4219	nämligen	_	_	_	_	_	_	_	
+49-4	4220-4224	bäst	_	_	_	_	_	_	_	
+49-5	4225-4227	på	_	_	_	_	_	_	_	
+49-6	4228-4243	mottagarlandets	_	_	_	_	_	_	_	
+49-7	4244-4249	språk	_	_	_	_	_	_	_	
+49-8	4249-4250	.	_	_	_	_	_	_	_	
+
+#Text=Istället irriterar sig många svenska företag på att handelspartnern i fråga inte kan – engelska!.
+50-1	4251-4259	Istället	_	_	_	_	_	_	_	
+50-2	4260-4269	irriterar	_	Source;Target[11]	50-4[39];50-8[41]	false[11]	2[11]	50-7[0_11]	_	
+50-3	4270-4273	sig	_	Source;Target[11]	50-4[39];50-8[41]	false[11]	2[11]	_	_	
+50-4	4274-4279	många	*[39]|*[40]	_	_	_	_	_	_	
+50-5	4280-4287	svenska	*[39]|*[40]	_	_	_	_	_	_	
+50-6	4288-4295	företag	*[39]|*[40]	_	_	_	_	_	_	
+50-7	4296-4298	på	_	Source;Target	50-4[40];50-8[42]	false	2	_	_	
+50-8	4299-4302	att	*[41]|*[42]	_	_	_	_	_	_	
+50-9	4303-4318	handelspartnern	*[41]|*[42]	_	_	_	_	_	_	
+50-10	4319-4320	i	*[41]|*[42]	_	_	_	_	_	_	
+50-11	4321-4326	fråga	*[41]|*[42]	_	_	_	_	_	_	
+50-12	4327-4331	inte	*[41]|*[42]	_	_	_	_	_	_	
+50-13	4332-4335	kan	*[41]|*[42]	_	_	_	_	_	_	
+50-14	4336-4337	–	*[41]|*[42]	_	_	_	_	_	_	
+50-15	4338-4346	engelska	*[41]|*[42]	_	_	_	_	_	_	
+50-16	4346-4347	!	_	_	_	_	_	_	_	
+50-17	4347-4348	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4350-4351	#	_	_	_	_	_	_	_	
+51-2	4351-4352	P	_	_	_	_	_	_	_	
+51-3	4353-4356	IMM	_	_	_	_	_	_	_	
+51-4	4356-4357	.	_	_	_	_	_	_	_	
+
+#Text=Engelskans relativa betydelse kommer också att minska i framtiden av ekonomiska skäl.
+52-1	4359-4369	Engelskans	_	_	_	_	_	_	_	
+52-2	4370-4378	relativa	_	_	_	_	_	_	_	
+52-3	4379-4388	betydelse	_	_	_	_	_	_	_	
+52-4	4389-4395	kommer	_	_	_	_	_	_	_	
+52-5	4396-4401	också	_	_	_	_	_	_	_	
+52-6	4402-4405	att	_	_	_	_	_	_	_	
+52-7	4406-4412	minska	_	_	_	_	_	_	_	
+52-8	4413-4414	i	_	_	_	_	_	_	_	
+52-9	4415-4424	framtiden	_	_	_	_	_	_	_	
+52-10	4425-4427	av	_	_	_	_	_	_	_	
+52-11	4428-4438	ekonomiska	_	_	_	_	_	_	_	
+52-12	4439-4443	skäl	_	_	_	_	_	_	_	
+52-13	4443-4444	.	_	_	_	_	_	_	_	
+
+#Text=Enligt amerikanska rapporter torde Kina uppnå samma BNP som USA runt 2035 eller tidigare.
+53-1	4445-4451	Enligt	_	_	_	_	_	_	_	
+53-2	4452-4463	amerikanska	_	_	_	_	_	_	_	
+53-3	4464-4473	rapporter	_	_	_	_	_	_	_	
+53-4	4474-4479	torde	_	_	_	_	_	_	_	
+53-5	4480-4484	Kina	_	_	_	_	_	_	_	
+53-6	4485-4490	uppnå	_	_	_	_	_	_	_	
+53-7	4491-4496	samma	_	_	_	_	_	_	_	
+53-8	4497-4500	BNP	_	_	_	_	_	_	_	
+53-9	4501-4504	som	_	_	_	_	_	_	_	
+53-10	4505-4508	USA	_	_	_	_	_	_	_	
+53-11	4509-4513	runt	_	_	_	_	_	_	_	
+53-12	4514-4518	2035	_	_	_	_	_	_	_	
+53-13	4519-4524	eller	_	_	_	_	_	_	_	
+53-14	4525-4533	tidigare	_	_	_	_	_	_	_	
+53-15	4533-4534	.	_	_	_	_	_	_	_	
+
+#Text=Indien, Brasilien och Ryssland, kommer också att växa i ekonomisk betydelse.
+54-1	4535-4541	Indien	_	_	_	_	_	_	_	
+54-2	4541-4542	,	_	_	_	_	_	_	_	
+54-3	4543-4552	Brasilien	_	_	_	_	_	_	_	
+54-4	4553-4556	och	_	_	_	_	_	_	_	
+54-5	4557-4565	Ryssland	_	_	_	_	_	_	_	
+54-6	4565-4566	,	_	_	_	_	_	_	_	
+54-7	4567-4573	kommer	_	_	_	_	_	_	_	
+54-8	4574-4579	också	_	_	_	_	_	_	_	
+54-9	4580-4583	att	_	_	_	_	_	_	_	
+54-10	4584-4588	växa	_	_	_	_	_	_	_	
+54-11	4589-4590	i	_	_	_	_	_	_	_	
+54-12	4591-4600	ekonomisk	_	_	_	_	_	_	_	
+54-13	4601-4610	betydelse	_	_	_	_	_	_	_	
+54-14	4610-4611	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4613-4614	#	_	_	_	_	_	_	_	
+55-2	4614-4615	P	_	_	_	_	_	_	_	
+55-3	4616-4619	IMM	_	_	_	_	_	_	_	
+55-4	4619-4620	.	_	_	_	_	_	_	_	
+
+#Text=Den ensidiga satsningen på engelskan snedvrider också de svenska studenternas val av universitetsstudier utomlands.
+56-1	4622-4625	Den	*[43]	_	_	_	_	_	_	
+56-2	4626-4634	ensidiga	*[43]	_	_	_	_	_	_	
+56-3	4635-4645	satsningen	*[43]	_	_	_	_	_	_	
+56-4	4646-4648	på	*[43]	_	_	_	_	_	_	
+56-5	4649-4658	engelskan	*[43]	_	_	_	_	_	_	
+56-6	4659-4669	snedvrider	*[43]	Target	56-1[43]	false	2	_	_	
+56-7	4670-4675	också	*[43]	_	_	_	_	_	_	
+56-8	4676-4678	de	*[43]	_	_	_	_	_	_	
+56-9	4679-4686	svenska	*[43]	_	_	_	_	_	_	
+56-10	4687-4699	studenternas	*[43]	_	_	_	_	_	_	
+56-11	4700-4703	val	*[43]	_	_	_	_	_	_	
+56-12	4704-4706	av	*[43]	_	_	_	_	_	_	
+56-13	4707-4726	universitetsstudier	*[43]	_	_	_	_	_	_	
+56-14	4727-4736	utomlands	*[43]	_	_	_	_	_	_	
+56-15	4736-4737	.	_	_	_	_	_	_	_	
+
+#Text=Mer än 45 procent av de svenska utlandsstudenterna studerade vid universitet i engelskspråkiga länder 2007/2008, för att inte tala om engelskspråkig undervisning vid universitet i andra länder.
+57-1	4738-4741	Mer	_	_	_	_	_	_	_	
+57-2	4742-4744	än	_	_	_	_	_	_	_	
+57-3	4745-4747	45	_	_	_	_	_	_	_	
+57-4	4748-4755	procent	_	_	_	_	_	_	_	
+57-5	4756-4758	av	_	_	_	_	_	_	_	
+57-6	4759-4761	de	_	_	_	_	_	_	_	
+57-7	4762-4769	svenska	_	_	_	_	_	_	_	
+57-8	4770-4788	utlandsstudenterna	_	_	_	_	_	_	_	
+57-9	4789-4798	studerade	_	_	_	_	_	_	_	
+57-10	4799-4802	vid	_	_	_	_	_	_	_	
+57-11	4803-4814	universitet	_	_	_	_	_	_	_	
+57-12	4815-4816	i	_	_	_	_	_	_	_	
+57-13	4817-4832	engelskspråkiga	_	_	_	_	_	_	_	
+57-14	4833-4839	länder	_	_	_	_	_	_	_	
+57-15	4840-4844	2007	_	_	_	_	_	_	_	
+57-16	4844-4845	/	_	_	_	_	_	_	_	
+57-17	4845-4849	2008	_	_	_	_	_	_	_	
+57-18	4849-4850	,	_	_	_	_	_	_	_	
+57-19	4851-4854	för	_	_	_	_	_	_	_	
+57-20	4855-4858	att	_	_	_	_	_	_	_	
+57-21	4859-4863	inte	_	_	_	_	_	_	_	
+57-22	4864-4868	tala	_	_	_	_	_	_	_	
+57-23	4869-4871	om	_	_	_	_	_	_	_	
+57-24	4872-4886	engelskspråkig	_	_	_	_	_	_	_	
+57-25	4887-4899	undervisning	_	_	_	_	_	_	_	
+57-26	4900-4903	vid	_	_	_	_	_	_	_	
+57-27	4904-4915	universitet	_	_	_	_	_	_	_	
+57-28	4916-4917	i	_	_	_	_	_	_	_	
+57-29	4918-4923	andra	_	_	_	_	_	_	_	
+57-30	4924-4930	länder	_	_	_	_	_	_	_	
+57-31	4930-4931	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4933-4934	#	_	_	_	_	_	_	_	
+58-2	4934-4935	P	_	_	_	_	_	_	_	
+58-3	4936-4939	IMM	_	_	_	_	_	_	_	
+58-4	4939-4940	.	_	_	_	_	_	_	_	
+
+#Text=Skolan måste fokusera på mångspråkighet.
+59-1	4942-4948	Skolan	*[44]	_	_	_	_	_	_	
+59-2	4949-4954	måste	*[44]	Target[12]	59-1[44]	false[12]	4[12]	_	_	
+59-3	4955-4963	fokusera	*[44]	Target[12]	59-1[44]	false[12]	4[12]	_	_	
+59-4	4964-4966	på	*[44]	Target[12]	59-1[44]	false[12]	4[12]	_	_	
+59-5	4967-4981	mångspråkighet	*[44]	_	_	_	_	_	_	
+59-6	4981-4982	.	_	_	_	_	_	_	_	
+
+#Text=Det betyder att studierna i andra främmande språk än engelska måste lyftas fram.
+60-1	4983-4986	Det	_	_	_	_	_	_	_	
+60-2	4987-4994	betyder	_	_	_	_	_	_	_	
+60-3	4995-4998	att	_	_	_	_	_	_	_	
+60-4	4999-5008	studierna	*[45]	_	_	_	_	_	_	
+60-5	5009-5010	i	*[45]	_	_	_	_	_	_	
+60-6	5011-5016	andra	*[45]	_	_	_	_	_	_	
+60-7	5017-5026	främmande	*[45]	_	_	_	_	_	_	
+60-8	5027-5032	språk	*[45]	_	_	_	_	_	_	
+60-9	5033-5035	än	*[45]	_	_	_	_	_	_	
+60-10	5036-5044	engelska	*[45]	_	_	_	_	_	_	
+60-11	5045-5050	måste	_	Target[13]	60-4[45]	false[13]	4[13]	_	_	
+60-12	5051-5057	lyftas	_	Target[13]	60-4[45]	false[13]	4[13]	_	_	
+60-13	5058-5062	fram	_	Target[13]	60-4[45]	false[13]	4[13]	_	_	
+60-14	5062-5063	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiets förslag om kinesiska på gymnasiet är därför ett steg i rätt riktning.
+61-1	5064-5076	Folkpartiets	*[46]|*[47]|*[48]	_	_	_	_	_	_	
+61-2	5077-5084	förslag	*[46]|*[47]	Source;Target	61-1[48];61-4[49]	false	4	_	_	
+61-3	5085-5087	om	*[46]|*[47]	_	_	_	_	_	_	
+61-4	5088-5097	kinesiska	*[46]|*[47]|*[49]	_	_	_	_	_	_	
+61-5	5098-5100	på	*[46]|*[47]|*[49]	_	_	_	_	_	_	
+61-6	5101-5110	gymnasiet	*[46]|*[47]|*[49]	_	_	_	_	_	_	
+61-7	5111-5113	är	_	Target	61-1[46]	false	4	61-9[14_0]	_	
+61-8	5114-5120	därför	_	_	_	_	_	_	_	
+61-9	5121-5124	ett	_	Target[14]	61-1[47]	false[14]	4[14]	_	_	
+61-10	5125-5129	steg	_	Target[14]	61-1[47]	false[14]	4[14]	_	_	
+61-11	5130-5131	i	_	Target[14]	61-1[47]	false[14]	4[14]	_	_	
+61-12	5132-5136	rätt	_	Target[14]	61-1[47]	false[14]	4[14]	_	_	
+61-13	5137-5145	riktning	_	Target[14]	61-1[47]	false[14]	4[14]	_	_	
+61-14	5145-5146	.	_	_	_	_	_	_	_	
+
+#Text=De flesta bilateralakontakter fungerar bäst utan omvägen över engelskan, i enlighet med EU:s språkpolitik.
+62-1	5147-5149	De	*[50]	_	_	_	_	_	_	
+62-2	5150-5156	flesta	*[50]	_	_	_	_	_	_	
+62-3	5157-5176	bilateralakontakter	*[50]	_	_	_	_	_	_	
+62-4	5177-5185	fungerar	*[50]	Target[15]	62-1[50]	false[15]	4[15]	_	_	
+62-5	5186-5190	bäst	*[50]	Target[15]	62-1[50]	false[15]	4[15]	_	_	
+62-6	5191-5195	utan	*[50]	_	_	_	_	_	_	
+62-7	5196-5203	omvägen	*[50]	_	_	_	_	_	_	
+62-8	5204-5208	över	*[50]	_	_	_	_	_	_	
+62-9	5209-5218	engelskan	*[50]	_	_	_	_	_	_	
+62-10	5218-5219	,	_	_	_	_	_	_	_	
+62-11	5220-5221	i	_	_	_	_	_	_	_	
+62-12	5222-5230	enlighet	_	_	_	_	_	_	_	
+62-13	5231-5234	med	_	_	_	_	_	_	_	
+62-14	5235-5237	EU	_	_	_	_	_	_	_	
+62-15	5237-5238	:	_	_	_	_	_	_	_	
+62-16	5238-5239	s	_	_	_	_	_	_	_	
+62-17	5240-5252	språkpolitik	_	_	_	_	_	_	_	
+62-18	5252-5253	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget om engelska från årskurs ett representerar däremot en förenklad syn på språkinlärning, en övertro på engelskans betydelse och ytterligare en onödig förstärkning av dess status i Sverige.
+63-1	5254-5263	Förslaget	_	Target;Source	63-3[51];63-30	false	4	_	_	
+63-2	5264-5266	om	_	_	_	_	_	_	_	
+63-3	5267-5275	engelska	*[51]	_	_	_	_	_	_	
+63-4	5276-5280	från	*[51]	_	_	_	_	_	_	
+63-5	5281-5288	årskurs	*[51]	_	_	_	_	_	_	
+63-6	5289-5292	ett	*[51]	_	_	_	_	_	_	
+63-7	5293-5306	representerar	_	_	_	_	_	_	_	
+63-8	5307-5314	däremot	_	_	_	_	_	_	_	
+63-9	5315-5317	en	_	_	_	_	_	_	_	
+63-10	5318-5327	förenklad	_	_	_	_	_	_	_	
+63-11	5328-5331	syn	_	_	_	_	_	_	_	
+63-12	5332-5334	på	_	_	_	_	_	_	_	
+63-13	5335-5349	språkinlärning	_	_	_	_	_	_	_	
+63-14	5349-5350	,	_	_	_	_	_	_	_	
+63-15	5351-5353	en	_	_	_	_	_	_	_	
+63-16	5354-5361	övertro	*[52]	Target	63-16[52]	false	2	_	_	
+63-17	5362-5364	på	*[52]	_	_	_	_	_	_	
+63-18	5365-5375	engelskans	*[52]|*[53]	_	_	_	_	_	63-26[55_53]	
+63-19	5376-5385	betydelse	*[52]	_	_	_	_	_	_	
+63-20	5386-5389	och	_	_	_	_	_	_	_	
+63-21	5390-5401	ytterligare	_	_	_	_	_	_	_	
+63-22	5402-5404	en	_	_	_	_	_	_	_	
+63-23	5405-5411	onödig	_	Target	63-24[54]	false	2	_	_	
+63-24	5412-5424	förstärkning	*[54]	_	_	_	_	_	_	
+63-25	5425-5427	av	*[54]	_	_	_	_	_	_	
+63-26	5428-5432	dess	*[54]|*[55]	_	_	_	_	_	_	
+63-27	5433-5439	status	*[54]	_	_	_	_	_	_	
+63-28	5440-5441	i	*[54]	_	_	_	_	_	_	
+63-29	5442-5449	Sverige	*[54]	_	_	_	_	_	_	
+63-30	5449-5450	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	5452-5453	#	_	_	_	_	_	_	_	
+64-2	5453-5454	P	_	_	_	_	_	_	_	
+64-3	5455-5458	IMM	_	_	_	_	_	_	_	
+64-4	5458-5459	.	_	_	_	_	_	_	_	
+
+#Text=HORACE ENGDAHL författare, ledamot av Svenska Akademien.
+65-1	5461-5467	HORACE	_	_	_	_	_	_	_	
+65-2	5468-5475	ENGDAHL	_	_	_	_	_	_	_	
+65-3	5476-5486	författare	_	_	_	_	_	_	_	
+65-4	5486-5487	,	_	_	_	_	_	_	_	
+65-5	5488-5495	ledamot	_	_	_	_	_	_	_	
+65-6	5496-5498	av	_	_	_	_	_	_	_	
+65-7	5499-5506	Svenska	_	_	_	_	_	_	_	
+65-8	5507-5516	Akademien	_	_	_	_	_	_	_	
+65-9	5516-5517	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	5519-5520	#	_	_	_	_	_	_	_	
+66-2	5520-5521	P	_	_	_	_	_	_	_	
+66-3	5522-5525	IMM	_	_	_	_	_	_	_	
+66-4	5525-5526	.	_	_	_	_	_	_	_	
+
+#Text=PETER ENGLUND Svenska Akademiens ständige sekreterare.
+67-1	5528-5533	PETER	_	_	_	_	_	_	_	
+67-2	5534-5541	ENGLUND	_	_	_	_	_	_	_	
+67-3	5542-5549	Svenska	_	_	_	_	_	_	_	
+67-4	5550-5560	Akademiens	_	_	_	_	_	_	_	
+67-5	5561-5569	ständige	_	_	_	_	_	_	_	
+67-6	5570-5581	sekreterare	_	_	_	_	_	_	_	
+67-7	5581-5582	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	5584-5585	#	_	_	_	_	_	_	_	
+68-2	5585-5586	P	_	_	_	_	_	_	_	
+68-3	5587-5590	IMM	_	_	_	_	_	_	_	
+68-4	5590-5591	.	_	_	_	_	_	_	_	
+
+#Text=OLLE JOSEPHSON docent i nordiska språk och f.d. chef för Språkrådet.
+69-1	5593-5597	OLLE	_	_	_	_	_	_	_	
+69-2	5598-5607	JOSEPHSON	_	_	_	_	_	_	_	
+69-3	5608-5614	docent	_	_	_	_	_	_	_	
+69-4	5615-5616	i	_	_	_	_	_	_	_	
+69-5	5617-5625	nordiska	_	_	_	_	_	_	_	
+69-6	5626-5631	språk	_	_	_	_	_	_	_	
+69-7	5632-5635	och	_	_	_	_	_	_	_	
+69-8	5636-5639	f.d	_	_	_	_	_	_	_	
+69-9	5639-5640	.	_	_	_	_	_	_	_	
+69-10	5641-5645	chef	_	_	_	_	_	_	_	
+69-11	5646-5649	för	_	_	_	_	_	_	_	
+69-12	5650-5660	Språkrådet	_	_	_	_	_	_	_	
+69-13	5660-5661	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	5663-5664	#	_	_	_	_	_	_	_	
+70-2	5664-5665	P	_	_	_	_	_	_	_	
+70-3	5666-5669	IMM	_	_	_	_	_	_	_	
+70-4	5669-5670	.	_	_	_	_	_	_	_	
+
+#Text=OLLE KÄLL gymnasielärare i svenska, tyska, engelska.
+71-1	5672-5676	OLLE	_	_	_	_	_	_	_	
+71-2	5677-5681	KÄLL	_	_	_	_	_	_	_	
+71-3	5682-5696	gymnasielärare	_	_	_	_	_	_	_	
+71-4	5697-5698	i	_	_	_	_	_	_	_	
+71-5	5699-5706	svenska	_	_	_	_	_	_	_	
+71-6	5706-5707	,	_	_	_	_	_	_	_	
+71-7	5708-5713	tyska	_	_	_	_	_	_	_	
+71-8	5713-5714	,	_	_	_	_	_	_	_	
+71-9	5715-5723	engelska	_	_	_	_	_	_	_	
+71-10	5723-5724	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5726-5727	#	_	_	_	_	_	_	_	
+72-2	5727-5728	P	_	_	_	_	_	_	_	
+72-3	5729-5732	IMM	_	_	_	_	_	_	_	
+72-4	5732-5733	.	_	_	_	_	_	_	_	
+
+#Text=PER-ÅKE LINDBLOM f.d. gymnasielärare, medlem i nätverket Språkförsvaret.
+73-1	5735-5742	PER-ÅKE	_	_	_	_	_	_	_	
+73-2	5743-5751	LINDBLOM	_	_	_	_	_	_	_	
+73-3	5752-5755	f.d	_	_	_	_	_	_	_	
+73-4	5755-5756	.	_	_	_	_	_	_	_	
+73-5	5757-5771	gymnasielärare	_	_	_	_	_	_	_	
+73-6	5771-5772	,	_	_	_	_	_	_	_	
+73-7	5773-5779	medlem	_	_	_	_	_	_	_	
+73-8	5780-5781	i	_	_	_	_	_	_	_	
+73-9	5782-5791	nätverket	_	_	_	_	_	_	_	
+73-10	5792-5806	Språkförsvaret	_	_	_	_	_	_	_	
+73-11	5806-5807	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+74-1	5809-5810	#	_	_	_	_	_	_	_	
+74-2	5810-5811	P	_	_	_	_	_	_	_	
+74-3	5812-5815	IMM	_	_	_	_	_	_	_	
+74-4	5815-5816	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+75-1	5818-5826	Redaktör	_	_	_	_	_	_	_	
+75-2	5826-5827	:	_	_	_	_	_	_	_	
+75-3	5828-5834	Carina	_	_	_	_	_	_	_	
+75-4	5835-5843	Stensson	_	_	_	_	_	_	_	
+75-5	5843-5844	,	_	_	_	_	_	_	_	
+75-6	5845-5855	Biträdande	_	_	_	_	_	_	_	
+75-7	5856-5864	redaktör	_	_	_	_	_	_	_	
+75-8	5864-5865	:	_	_	_	_	_	_	_	
+75-9	5866-5871	Björn	_	_	_	_	_	_	_	
+75-10	5872-5878	Jorner	_	_	_	_	_	_	_	
+75-11	5878-5879	,	_	_	_	_	_	_	_	
+75-12	5880-5884	Mejl	_	_	_	_	_	_	_	
+75-13	5884-5885	:	_	_	_	_	_	_	_	
+75-14	5886-5892	debatt	_	_	_	_	_	_	_	
+75-15	5892-5893	@	_	_	_	_	_	_	_	
+75-16	5893-5899	svd.se	_	_	_	_	_	_	_	
+75-17	5899-5900	,	_	_	_	_	_	_	_	
+75-18	5901-5914	Telefonnummer	_	_	_	_	_	_	_	
+75-19	5914-5915	:	_	_	_	_	_	_	_	
+75-20	5916-5918	08	_	_	_	_	_	_	_	
+75-21	5918-5919	-	_	_	_	_	_	_	_	
+75-22	5919-5925	135149	_	_	_	_	_	_	_	
+75-23	5925-5926	,	_	_	_	_	_	_	_	
+75-24	5927-5934	Twitter	_	_	_	_	_	_	_	
+75-25	5934-5935	:	_	_	_	_	_	_	_	
+75-26	5936-5937	@	_	_	_	_	_	_	_	
+75-27	5937-5946	SvDDebatt	_	_	_	_	_	_	_	
+75-28	5946-5947	,	_	_	_	_	_	_	_	
+75-29	5948-5956	Facebook	_	_	_	_	_	_	_	
+75-30	5956-5957	:	_	_	_	_	_	_	_	
+75-31	5958-5961	SvD	_	_	_	_	_	_	_	
+75-32	5962-5968	Debatt	_	_	_	_	_	_	_	
+75-33	5968-5969	.	_	_	_	_	_	_	_	

@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Rasism mot Asiater fortfarande okej....?
+3-1	18-24	Rasism	*[14]|*[15]	Target	3-1[15]	false	1	_	_	
+3-2	25-28	mot	*[14]	_	_	_	_	_	_	
+3-3	29-36	Asiater	*[14]	_	_	_	_	_	_	
+3-4	37-48	fortfarande	_	_	_	_	_	_	_	
+3-5	49-53	okej	_	Target;Source	3-1[14];3-10	false	3	_	_	
+3-6	53-54	.	_	_	_	_	_	_	_	
+3-7	54-55	.	_	_	_	_	_	_	_	
+3-8	55-56	.	_	_	_	_	_	_	_	
+3-9	56-57	.	_	_	_	_	_	_	_	
+3-10	57-58	?	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Detta har jag lagt märke till en längre tid nu.
+5-1	69-74	Detta	_	_	_	_	_	_	_	
+5-2	75-78	har	_	_	_	_	_	_	_	
+5-3	79-82	jag	_	_	_	_	_	_	_	
+5-4	83-87	lagt	_	_	_	_	_	_	_	
+5-5	88-93	märke	_	_	_	_	_	_	_	
+5-6	94-98	till	_	_	_	_	_	_	_	
+5-7	99-101	en	_	_	_	_	_	_	_	
+5-8	102-108	längre	_	_	_	_	_	_	_	
+5-9	109-112	tid	_	_	_	_	_	_	_	
+5-10	113-115	nu	_	_	_	_	_	_	_	
+5-11	115-116	.	_	_	_	_	_	_	_	
+
+#Text=Jobb,tv,radio whatever så är det fortfarande OK att göra sig lustig över Asiater, how come?.
+6-1	117-121	Jobb	*[16]	_	_	_	_	_	_	
+6-2	121-122	,	*[16]	_	_	_	_	_	_	
+6-3	122-124	tv	*[16]	_	_	_	_	_	_	
+6-4	124-125	,	*[16]	_	_	_	_	_	_	
+6-5	125-130	radio	*[16]	_	_	_	_	_	_	
+6-6	131-139	whatever	*[16]	_	_	_	_	_	_	
+6-7	140-142	så	_	_	_	_	_	_	_	
+6-8	143-145	är	_	_	_	_	_	_	_	
+6-9	146-149	det	_	_	_	_	_	_	_	
+6-10	150-161	fortfarande	_	_	_	_	_	_	_	
+6-11	162-164	OK	_	Target;Source	6-12[17];6-1[16]	false	3	_	_	
+6-12	165-168	att	*[17]|*[18]	_	_	_	_	_	12-3[29_18]	
+6-13	169-173	göra	*[17]|*[18]|*[19]	Target[1]	6-13[19]	false[1]	2[1]	_	12-3[28_19]	
+6-14	174-177	sig	*[17]|*[18]|*[19]	Target[1]	6-13[19]	false[1]	2[1]	_	_	
+6-15	178-184	lustig	*[17]|*[18]|*[19]	Target[1]	6-13[19]	false[1]	2[1]	_	_	
+6-16	185-189	över	*[17]|*[18]|*[19]	Target[1]	6-13[19]	false[1]	2[1]	_	_	
+6-17	190-197	Asiater	*[17]|*[18]|*[19]	_	_	_	_	_	_	
+6-18	197-198	,	_	_	_	_	_	_	_	
+6-19	199-202	how	_	_	_	_	_	_	_	
+6-20	203-207	come	_	_	_	_	_	_	_	
+6-21	207-208	?	_	_	_	_	_	_	_	
+6-22	208-209	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	211-212	#	_	_	_	_	_	_	_	
+7-2	212-213	P	_	_	_	_	_	_	_	
+7-3	214-217	IMM	_	_	_	_	_	_	_	
+7-4	217-218	.	_	_	_	_	_	_	_	
+
+#Text=Har framförallt observerat PK-maffian på jobbet som inte är sena att göra sig lustiga över Asiater.
+8-1	220-223	Har	_	_	_	_	_	_	_	
+8-2	224-235	framförallt	_	_	_	_	_	_	_	
+8-3	236-246	observerat	_	_	_	_	_	_	_	
+8-4	247-257	PK-maffian	*[20]|*[21]	Target	8-4[21]	false	1	_	_	
+8-5	258-260	på	*[20]|*[21]	_	_	_	_	_	_	
+8-6	261-267	jobbet	*[20]|*[21]	_	_	_	_	_	_	
+8-7	268-271	som	*[20]	_	_	_	_	_	_	
+8-8	272-276	inte	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-9	277-279	är	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-10	280-284	sena	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-11	285-288	att	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-12	289-293	göra	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-13	294-297	sig	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-14	298-305	lustiga	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-15	306-310	över	*[20]	Target[2]	8-4[20]	false[2]	2[2]	_	_	
+8-16	311-318	Asiater	*[20]	_	_	_	_	_	_	
+8-17	318-319	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	321-322	#	_	_	_	_	_	_	_	
+9-2	322-323	P	_	_	_	_	_	_	_	
+9-3	324-327	IMM	_	_	_	_	_	_	_	
+9-4	327-328	.	_	_	_	_	_	_	_	
+
+#Text=Likaså alla dessa tv profiler som vurmar för var och varannan svartskalle (jag är "svartskalle" själv) har inte heller särskilt långt till att göra sig lustiga över Asiater?
+10-1	330-336	Likaså	_	_	_	_	_	_	_	
+10-2	337-341	alla	*[22]|*[23]	_	_	_	_	_	_	
+10-3	342-347	dessa	*[22]|*[23]	_	_	_	_	_	_	
+10-4	348-350	tv	*[22]|*[23]	_	_	_	_	_	_	
+10-5	351-359	profiler	*[22]|*[23]	_	_	_	_	_	_	
+10-6	360-363	som	*[22]	_	_	_	_	_	_	
+10-7	364-370	vurmar	*[22]	Source;Target[3]	10-2[23];10-9[24]	false[3]	5[3]	_	_	
+10-8	371-374	för	*[22]	Source;Target[3]	10-2[23];10-9[24]	false[3]	5[3]	_	_	
+10-9	375-378	var	*[22]|*[24]	_	_	_	_	_	_	
+10-10	379-382	och	*[22]|*[24]	_	_	_	_	_	_	
+10-11	383-391	varannan	*[22]|*[24]	_	_	_	_	_	_	
+10-12	392-403	svartskalle	*[22]|*[24]|*[25]	Source;Target	10-33;10-12[25]	false	2	_	_	
+10-13	404-405	(	_	_	_	_	_	_	_	
+10-14	405-408	jag	_	_	_	_	_	_	_	
+10-15	409-411	är	_	_	_	_	_	_	_	
+10-16	412-413	"	*[26]	Target[4]	10-16[26]	true[4]	2[4]	_	_	
+10-17	413-424	svartskalle	*[26]	Target[4]	10-16[26]	true[4]	2[4]	_	_	
+10-18	424-425	"	*[26]	Target[4]	10-16[26]	true[4]	2[4]	_	_	
+10-19	426-431	själv	_	_	_	_	_	_	_	
+10-20	431-432	)	_	_	_	_	_	_	_	
+10-21	433-436	har	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-22	437-441	inte	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-23	442-448	heller	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-24	449-457	särskilt	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-25	458-463	långt	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-26	464-468	till	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-27	469-472	att	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-28	473-477	göra	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-29	478-481	sig	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-30	482-489	lustiga	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-31	490-494	över	*[27]	Target;Target[5]	10-2[22];10-21[27]	false[5]	2[5]	_	_	
+10-32	495-502	Asiater	*[27]	_	_	_	_	_	_	
+10-33	502-503	?	*	_	_	_	_	_	_	
+
+#Text=Vad beror detta fenomen på?
+11-1	504-507	Vad	_	_	_	_	_	_	_	
+11-2	508-513	beror	_	_	_	_	_	_	_	
+11-3	514-519	detta	_	_	_	_	_	_	_	
+11-4	520-527	fenomen	_	_	_	_	_	_	_	
+11-5	528-530	på	_	_	_	_	_	_	_	
+11-6	530-531	?	_	_	_	_	_	_	_	
+
+#Text=Varför är det okej men inte att göra sig lustig över andra folkgrupper längre?.
+12-1	532-538	Varför	_	_	_	_	_	_	_	
+12-2	539-541	är	_	Source;Target	12-16[31];12-3[28]	false	3	_	_	
+12-3	542-545	det	*[28]|*[29]	_	_	_	_	_	_	
+12-4	546-550	okej	_	Target;Source	12-3[29];12-16[32]	false	3	12-2	_	
+12-5	551-554	men	_	_	_	_	_	_	_	
+12-6	555-559	inte	_	_	_	_	_	_	_	
+12-7	560-563	att	*[30]	Target[6]	12-7[30]	false[6]	2[6]	_	_	
+12-8	564-568	göra	*[30]	Target[6]	12-7[30]	false[6]	2[6]	_	_	
+12-9	569-572	sig	*[30]	Target[6]	12-7[30]	false[6]	2[6]	_	_	
+12-10	573-579	lustig	*[30]	Target[6]	12-7[30]	false[6]	2[6]	_	_	
+12-11	580-584	över	*[30]	Target[6]	12-7[30]	false[6]	2[6]	_	_	
+12-12	585-590	andra	*[30]	_	_	_	_	_	_	
+12-13	591-602	folkgrupper	*[30]	_	_	_	_	_	_	
+12-14	603-609	längre	_	_	_	_	_	_	_	
+12-15	609-610	?	_	_	_	_	_	_	_	
+12-16	610-611	.	*[31]|*[32]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	613-614	#	_	_	_	_	_	_	_	
+13-2	614-615	P	_	_	_	_	_	_	_	
+13-3	616-619	IMM	_	_	_	_	_	_	_	
+13-4	619-620	.	_	_	_	_	_	_	_	
+
+#Text=Asiater och framförallt Japaner har jag haft mycket med att göra, och dom är jävligt badass faktiskt.
+14-1	622-629	Asiater	*[33]	_	_	_	_	_	_	
+14-2	630-633	och	*[33]	_	_	_	_	_	_	
+14-3	634-645	framförallt	*[33]	_	_	_	_	_	_	
+14-4	646-653	Japaner	*[33]	_	_	_	_	_	_	
+14-5	654-657	har	_	_	_	_	_	_	_	
+14-6	658-661	jag	_	_	_	_	_	_	_	
+14-7	662-666	haft	_	_	_	_	_	_	_	
+14-8	667-673	mycket	_	_	_	_	_	_	_	
+14-9	674-677	med	_	_	_	_	_	_	_	
+14-10	678-681	att	_	_	_	_	_	_	_	
+14-11	682-686	göra	_	_	_	_	_	_	_	
+14-12	686-687	,	_	_	_	_	_	_	_	
+14-13	688-691	och	_	_	_	_	_	_	_	
+14-14	692-695	dom	_	_	_	_	_	_	_	
+14-15	696-698	är	_	Target[7]	14-1[33]	false[7]	5[7]	_	_	
+14-16	699-706	jävligt	_	Target[7]	14-1[33]	false[7]	5[7]	_	_	
+14-17	707-713	badass	_	Target[7]	14-1[33]	false[7]	5[7]	_	_	
+14-18	714-722	faktiskt	_	_	_	_	_	_	_	
+14-19	722-723	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	725-726	#	_	_	_	_	_	_	_	
+15-2	726-727	P	_	_	_	_	_	_	_	
+15-3	728-731	IMM	_	_	_	_	_	_	_	
+15-4	731-732	.	_	_	_	_	_	_	_	
+
+#Text=Vi skulle behöva lite Bushido i det här jävla landet också istället för massa söndercurlade hipsters.
+16-1	734-736	Vi	_	_	_	_	_	_	_	
+16-2	737-743	skulle	_	Target[8]	16-4[34]	false[8]	4[8]	_	_	
+16-3	744-750	behöva	_	Target[8]	16-4[34]	false[8]	4[8]	_	_	
+16-4	751-755	lite	*[34]	_	_	_	_	_	_	
+16-5	756-763	Bushido	*[34]	_	_	_	_	_	_	
+16-6	764-765	i	_	_	_	_	_	_	_	
+16-7	766-769	det	*[35]	Target[9]	16-7[35]	false[9]	1[9]	_	_	
+16-8	770-773	här	*[35]	Target[9]	16-7[35]	false[9]	1[9]	_	_	
+16-9	774-779	jävla	*[35]	Target[9]	16-7[35]	false[9]	1[9]	_	_	
+16-10	780-786	landet	*[35]	_	_	_	_	_	_	
+16-11	787-792	också	_	_	_	_	_	_	_	
+16-12	793-801	istället	_	_	_	_	_	_	_	
+16-13	802-805	för	_	_	_	_	_	_	_	
+16-14	806-811	massa	_	_	_	_	_	_	_	
+16-15	812-825	söndercurlade	*[36]	Target[10]	16-15[36]	false[10]	1[10]	_	_	
+16-16	826-834	hipsters	*[36]	Target[10]	16-15[36]	false[10]	1[10]	_	_	
+16-17	834-835	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	837-838	#	_	_	_	_	_	_	_	
+17-2	838-839	P	_	_	_	_	_	_	_	
+17-3	840-843	IMM	_	_	_	_	_	_	_	
+17-4	843-844	.	_	_	_	_	_	_	_	
+
+#Text=Blev lite OT där, men som sagt.
+18-1	846-850	Blev	_	_[11]	_	false[11]	2[11]	_	_	
+18-2	851-855	lite	_	_[11]	_	false[11]	2[11]	_	_	
+18-3	856-858	OT	_	_[11]	_	false[11]	2[11]	_	_	
+18-4	859-862	där	_	_	_	_	_	_	_	
+18-5	862-863	,	_	_	_	_	_	_	_	
+18-6	864-867	men	_	_	_	_	_	_	_	
+18-7	868-871	som	_	_	_	_	_	_	_	
+18-8	872-876	sagt	_	_	_	_	_	_	_	
+18-9	876-877	.	_	_	_	_	_	_	_	
+
+#Text=Varför är det OK att göra sig lustig på asiaters bekostnad fortfarande?
+19-1	878-884	Varför	_	_	_	_	_	_	_	
+19-2	885-887	är	_	_	_	_	_	_	_	
+19-3	888-891	det	_	_	_	_	_	_	_	
+19-4	892-894	OK	_	Source;Target	19-13;19-5[37]	false	3	_	_	
+19-5	895-898	att	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-6	899-903	göra	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-7	904-907	sig	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-8	908-914	lustig	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-9	915-917	på	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-10	918-926	asiaters	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-11	927-936	bekostnad	*[37]|*[38]	Target[12]	19-5[38]	false[12]	2[12]	_	_	
+19-12	937-948	fortfarande	_	_	_	_	_	_	_	
+19-13	948-949	?	*	_	_	_	_	_	_	
+
+#Text=Bör jag DO anmäla mina kollegor bara för att?.
+20-1	950-953	Bör	_	Target;Source	20-5[39];20-10[41]	false	2	20-3[13_0]	_	
+20-2	954-957	jag	_	_	_	_	_	_	_	
+20-3	958-960	DO	_	Source;Target[13]	20-10[42];20-5[40]	false[13]	2[13]	_	_	
+20-4	961-967	anmäla	_	Source;Target[13]	20-10[42];20-5[40]	false[13]	2[13]	_	_	
+20-5	968-972	mina	*[39]|*[40]	_	_	_	_	_	_	
+20-6	973-981	kollegor	*[39]|*[40]	_	_	_	_	_	_	
+20-7	982-986	bara	_	_	_	_	_	_	_	
+20-8	987-990	för	_	_	_	_	_	_	_	
+20-9	991-994	att	_	_	_	_	_	_	_	
+20-10	994-995	?	*[41]|*[42]	_	_	_	_	_	_	
+20-11	995-996	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	998-999	#	_	_	_	_	_	_	_	
+21-2	999-1000	P	_	_	_	_	_	_	_	
+21-3	1001-1004	IMM	_	_	_	_	_	_	_	
+21-4	1004-1005	.	_	_	_	_	_	_	_	
+
+#Text=Med vänlig hälsning//Svampifittan.
+22-1	1007-1010	Med	*[43]	_	_	_	_	_	_	
+22-2	1011-1017	vänlig	*[43]	Target	22-1[43]	false	4	_	_	
+22-3	1018-1026	hälsning	*[43]	_	_	_	_	_	_	
+22-4	1026-1027	/	_	_	_	_	_	_	_	
+22-5	1027-1028	/	_	_	_	_	_	_	_	
+22-6	1028-1040	Svampifittan	_	_	_	_	_	_	_	
+22-7	1040-1041	.	_	_	_	_	_	_	_	

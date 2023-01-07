@@ -1,0 +1,133 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Tyskland: "Flykting"assistenter kartläggs och trakasseras.
+3-1	18-26	Tyskland	_	_	_	_	_	
+3-2	26-27	:	_	_	_	_	_	
+3-3	28-29	"	_	_	_	_	_	
+3-4	29-49	Flykting"assistenter	*	_	_	_	_	
+3-5	50-59	kartläggs	_	_	_	_	_	
+3-6	60-63	och	_	_	_	_	_	
+3-7	64-75	trakasseras	_	Target;Source	3-4;3-8	false	1	
+3-8	75-76	.	*	_	_	_	_	
+
+#Text=#P IMM.
+4-1	78-79	#	_	_	_	_	_	
+4-2	79-80	P	_	_	_	_	_	
+4-3	81-84	IMM	_	_	_	false	1	
+4-4	84-85	.	_	_	_	_	_	
+
+#Text=Assistenter, som arbetar med uppbyggnad av "flykting"förläggningar utsätts allt oftare för trakasserier av "högerpöbel".
+5-1	87-98	Assistenter	*[3]	_	_	_	_	
+5-2	98-99	,	*[3]	_	_	_	_	
+5-3	100-103	som	*[3]	_	_	_	_	
+5-4	104-111	arbetar	*[3]	_	_	_	_	
+5-5	112-115	med	*[3]	_	_	_	_	
+5-6	116-126	uppbyggnad	*[3]	_	_	_	_	
+5-7	127-129	av	*[3]	_	_	_	_	
+5-8	130-131	"	*[3]	_	_	_	_	
+5-9	131-153	flykting"förläggningar	*[3]	_	_	_	_	
+5-10	154-161	utsätts	_	Source;Target[1]	5-19;5-1[3]	false[1]	1[1]	
+5-11	162-166	allt	_	Source;Target[1]	5-19;5-1[3]	false[1]	1[1]	
+5-12	167-173	oftare	_	Source;Target[1]	5-19;5-1[3]	false[1]	1[1]	
+5-13	174-177	för	_	Source;Target[1]	5-19;5-1[3]	false[1]	1[1]	
+5-14	178-190	trakasserier	_	Source;Target[1]	5-19;5-1[3]	false[1]	1[1]	
+5-15	191-193	av	_	_	_	_	_	
+5-16	194-195	"	_	_	_	_	_	
+5-17	195-205	högerpöbel	*	Target	5-17	false	1	
+5-18	205-206	"	_	_	_	_	_	
+5-19	206-207	.	*	_	_	_	_	
+
+#Text=Det handlar om allt ifrån fotografering och kartläggning av assistenterna till olaga hot.
+6-1	208-211	Det	_	_	_	_	_	
+6-2	212-219	handlar	_	_	_	_	_	
+6-3	220-222	om	_	_	_	_	_	
+6-4	223-227	allt	_	_	_	_	_	
+6-5	228-233	ifrån	_	_	_	_	_	
+6-6	234-247	fotografering	_	_	_	_	_	
+6-7	248-251	och	_	_	_	_	_	
+6-8	252-264	kartläggning	_	_	_	_	_	
+6-9	265-267	av	_	_	_	_	_	
+6-10	268-281	assistenterna	_	_	_	_	_	
+6-11	282-286	till	_	_	_	_	_	
+6-12	287-292	olaga	_	_	_	_	_	
+6-13	293-296	hot	_	_	_	_	_	
+6-14	296-297	.	_	_	_	_	_	
+
+#Text=Allt enligt tyska die Welt.
+7-1	298-302	Allt	_	_	_	_	_	
+7-2	303-309	enligt	_	_	_	_	_	
+7-3	310-315	tyska	_	_	_	_	_	
+7-4	316-319	die	_	_	_	_	_	
+7-5	320-324	Welt	_	_	_	_	_	
+7-6	324-325	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	327-328	#	_	_	_	_	_	
+8-2	328-329	P	_	_	_	_	_	
+8-3	330-333	IMM	_	_	_	_	_	
+8-4	333-334	.	_	_	_	_	_	
+
+#Text=Nu föreslås, att dessa anställda ska ges polisskydd.
+9-1	336-338	Nu	_	_	_	_	_	
+9-2	339-347	föreslås	_	_	_	_	_	
+9-3	347-348	,	_	_	_	_	_	
+9-4	349-352	att	_	_	_	_	_	
+9-5	353-358	dessa	_	_	_	_	_	
+9-6	359-368	anställda	_	_	_	_	_	
+9-7	369-372	ska	_	_	_	_	_	
+9-8	373-376	ges	_	_	_	_	_	
+9-9	377-387	polisskydd	_	_	_	_	_	
+9-10	387-388	.	_	_	_	_	_	
+
+#Text=Om det är realistiskt, återstår att se.
+10-1	389-391	Om	_	_	_	_	_	
+10-2	392-395	det	_	_	_	_	_	
+10-3	396-398	är	_	_	_	_	_	
+10-4	399-410	realistiskt	_	_	_	_	_	
+10-5	410-411	,	_	_	_	_	_	
+10-6	412-420	återstår	_	_	_	_	_	
+10-7	421-424	att	_	_	_	_	_	
+10-8	425-427	se	_	_	_	_	_	
+10-9	427-428	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	430-431	#	_	_	_	_	_	
+11-2	431-432	P	_	_[2]	_	false[2]	1[2]	
+11-3	433-436	IMM	_	_[2]	_	false[2]	1[2]	
+11-4	436-437	.	_	_	_	_	_	
+
+#Text=Ju fler "flyktingar" som kommer, desto mer verkar motståndet eskalera.
+12-1	439-441	Ju	_	_	_	_	_	
+12-2	442-446	fler	_	_	_	_	_	
+12-3	447-448	"	_	_	_	_	_	
+12-4	448-458	flyktingar	_	_	_	_	_	
+12-5	458-459	"	_	_	_	_	_	
+12-6	460-463	som	_	_	_	_	_	
+12-7	464-470	kommer	_	_	_	_	_	
+12-8	470-471	,	_	_	_	_	_	
+12-9	472-477	desto	_	_	_	_	_	
+12-10	478-481	mer	_	_	_	_	_	
+12-11	482-488	verkar	_	_	_	_	_	
+12-12	489-499	motståndet	*	Target	12-12	false	1	
+12-13	500-508	eskalera	_	_	_	_	_	
+12-14	508-509	.	_	_	_	_	_	
+
+#Text=Synpunkter?.
+13-1	510-520	Synpunkter	_	_	_	_	_	
+13-2	520-521	?	_	_	_	_	_	
+13-3	521-522	.	_	_	_	_	_	

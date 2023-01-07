@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Äldreomsorgen accepterar främlingsfientlighet.
+3-1	18-31	Äldreomsorgen	*[12]|*[13]	_	_	_	_	_	
+3-2	32-42	accepterar	_	Target[1]|Source;Target[2]	3-1[12]|3-1[13];3-3	false[1]|false[2]	2[1]|3[2]	_	
+3-3	43-63	främlingsfientlighet	*	Target[1]|_[3]	3-1[12]|_	false[1]|false[3]	2[1]|1[3]	_	
+3-4	63-64	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=På Expressen.se finns en artikel som gör gällande att främlingsfientlighet accepteras inom äldereomsorgen, eller "rasism" som Expressen väljer att uttrycka det.
+5-1	75-77	På	_	_	_	_	_	_	
+5-2	78-90	Expressen.se	_	_	_	_	_	_	
+5-3	91-96	finns	_	_	_	_	_	_	
+5-4	97-99	en	_	_	_	_	_	_	
+5-5	100-107	artikel	_	_	_	_	_	_	
+5-6	108-111	som	_	_	_	_	_	_	
+5-7	112-115	gör	_	_	_	_	_	_	
+5-8	116-124	gällande	_	_	_	_	_	_	
+5-9	125-128	att	_	_	_	_	_	_	
+5-10	129-149	främlingsfientlighet	*	_	_	false	1	_	
+5-11	150-160	accepteras	_	Source;Target[4]|Source;Target[5]	5-20[17];5-12[14]|5-12[16];5-10	false[4]|false[5]	2[4]|3[5]	5-17[7_4]	
+5-12	161-165	inom	*[14]|*[15]|*[16]	_	_	_	_	_	
+5-13	166-180	äldereomsorgen	*[14]|*[15]|*[16]	_	_	_	_	_	
+5-14	180-181	,	_	_	_	_	_	_	
+5-15	182-187	eller	_	_	_	_	_	_	
+5-16	188-189	"	_	_	_	_	_	_	
+5-17	189-195	rasism	_	_[6]|Target;Source[7]	_|5-12[15];5-20[18]	false[6]|false[7]	1[6]|2[7]	_	
+5-18	195-196	"	_	_	_	_	_	_	
+5-19	197-200	som	_	_	_	_	_	_	
+5-20	201-210	Expressen	*[17]|*[18]	_	_	_	_	_	
+5-21	211-217	väljer	_	_	_	_	_	_	
+5-22	218-221	att	_	_	_	_	_	_	
+5-23	222-230	uttrycka	_	_	_	_	_	_	
+5-24	231-234	det	_	_	_	_	_	_	
+5-25	234-235	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	237-238	#	_	_	_	_	_	_	
+6-2	238-239	P	_	_	_	_	_	_	
+6-3	240-243	IMM	_	_	_	_	_	_	
+6-4	243-244	.	_	_	_	_	_	_	
+
+#Text=Radioprogrammet "Front ringde till 20 ålderdomshem och hemtjänstenheter och frågade om de accepterar sådana önskemål från patienterna.
+7-1	246-261	Radioprogrammet	_	_	_	_	_	_	
+7-2	262-263	"	_	_	_	_	_	_	
+7-3	263-268	Front	_	_	_	_	_	_	
+7-4	269-275	ringde	_	_	_	_	_	_	
+7-5	276-280	till	_	_	_	_	_	_	
+7-6	281-283	20	_	_	_	_	_	_	
+7-7	284-296	ålderdomshem	_	_	_	_	_	_	
+7-8	297-300	och	_	_	_	_	_	_	
+7-9	301-317	hemtjänstenheter	_	_	_	_	_	_	
+7-10	318-321	och	_	_	_	_	_	_	
+7-11	322-329	frågade	_	_	_	_	_	_	
+7-12	330-332	om	_	_	_	_	_	_	
+7-13	333-335	de	_	_	_	_	_	_	
+7-14	336-346	accepterar	_	_	_	_	_	_	
+7-15	347-353	sådana	_	_	_	_	_	_	
+7-16	354-362	önskemål	_	_	_	_	_	_	
+7-17	363-367	från	_	_	_	_	_	_	
+7-18	368-379	patienterna	_	_	_	_	_	_	
+7-19	379-380	.	_	_	_	_	_	_	
+
+#Text=Programmets reportrar uppgav sig vara anhöriga till släktingar som behövde äldreomsorg.
+8-1	381-392	Programmets	_	_	_	_	_	_	
+8-2	393-402	reportrar	_	_	_	_	_	_	
+8-3	403-409	uppgav	_	_	_	_	_	_	
+8-4	410-413	sig	_	_	_	_	_	_	
+8-5	414-418	vara	_	_	_	_	_	_	
+8-6	419-427	anhöriga	_	_	_	_	_	_	
+8-7	428-432	till	_	_	_	_	_	_	
+8-8	433-443	släktingar	_	_	_	_	_	_	
+8-9	444-447	som	_	_	_	_	_	_	
+8-10	448-455	behövde	_	_	_	_	_	_	
+8-11	456-467	äldreomsorg	_	_	_	_	_	_	
+8-12	467-468	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	470-471	#	_	_	_	_	_	_	
+9-2	471-472	P	_	_	_	_	_	_	
+9-3	473-476	IMM	_	_	_	_	_	_	
+9-4	476-477	.	_	_	_	_	_	_	
+
+#Text=Endast fyra av de tillfrågade vägrade gå med på önskemålet.
+10-1	479-485	Endast	_	_	_	_	_	_	
+10-2	486-490	fyra	_	_	_	_	_	_	
+10-3	491-493	av	_	_	_	_	_	_	
+10-4	494-496	de	_	_	_	_	_	_	
+10-5	497-508	tillfrågade	_	_	_	_	_	_	
+10-6	509-516	vägrade	_	_	_	_	_	_	
+10-7	517-519	gå	_	_	_	_	_	_	
+10-8	520-523	med	_	_	_	_	_	_	
+10-9	524-526	på	_	_	_	_	_	_	
+10-10	527-537	önskemålet	_	_	_	_	_	_	
+10-11	537-538	.	_	_	_	_	_	_	
+
+#Text=De övriga 16 svarade att det principiellt inte var något problem.".
+11-1	539-541	De	_	_	_	_	_	_	
+11-2	542-548	övriga	_	_	_	_	_	_	
+11-3	549-551	16	_	_	_	_	_	_	
+11-4	552-559	svarade	_	_	_	_	_	_	
+11-5	560-563	att	_	_	_	_	_	_	
+11-6	564-567	det	_	_	_	_	_	_	
+11-7	568-580	principiellt	_	_	_	_	_	_	
+11-8	581-585	inte	_	_	_	_	_	_	
+11-9	586-589	var	_	_	_	_	_	_	
+11-10	590-595	något	_	_	_	_	_	_	
+11-11	596-603	problem	_	_	_	_	_	_	
+11-12	603-604	.	_	_	_	_	_	_	
+11-13	604-605	"	_	_	_	_	_	_	
+11-14	605-606	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	608-609	#	_	_	_	_	_	_	
+12-2	609-610	P	_	_	_	_	_	_	
+12-3	611-614	IMM	_	_	_	false	3	_	
+12-4	614-615	.	_	_	_	_	_	_	
+
+#Text=En enhetschef säger att de är en slags kunder och då måste vi ta hänsyn till deras önskemål.
+13-1	617-619	En	_	_	_	_	_	_	
+13-2	620-630	enhetschef	_	_	_	_	_	_	
+13-3	631-636	säger	_	_	_	_	_	_	
+13-4	637-640	att	_	_	_	_	_	_	
+13-5	641-643	de	_	_	_	_	_	_	
+13-6	644-646	är	_	_	_	_	_	_	
+13-7	647-649	en	_	_	_	_	_	_	
+13-8	650-655	slags	_	_	_	_	_	_	
+13-9	656-662	kunder	_	_	_	_	_	_	
+13-10	663-666	och	_	_	_	_	_	_	
+13-11	667-669	då	_	_	_	_	_	_	
+13-12	670-675	måste	_	_	_	_	_	_	
+13-13	676-678	vi	_	_	_	_	_	_	
+13-14	679-681	ta	_	_	_	_	_	_	
+13-15	682-688	hänsyn	_	_	_	_	_	_	
+13-16	689-693	till	_	_	_	_	_	_	
+13-17	694-699	deras	_	_	_	_	_	_	
+13-18	700-708	önskemål	_	_	_	_	_	_	
+13-19	708-709	.	_	_	_	_	_	_	
+
+#Text=Själv har jag  en väninna som jobbar inom hemtjänsten, som tidigare berättat att några äldre inte vill att mörkhyade invandrare ska jobba med dem och att de försökt lösa detta på ett "smidigt" sätt.
+14-1	710-715	Själv	_	_	_	_	_	_	
+14-2	716-719	har	_	_	_	_	_	_	
+14-3	720-723	jag	_	_	_	_	_	_	
+14-4	725-727	en	_	_	_	_	_	_	
+14-5	728-735	väninna	_	_	_	_	_	_	
+14-6	736-739	som	_	_	_	_	_	_	
+14-7	740-746	jobbar	_	_	_	_	_	_	
+14-8	747-751	inom	_	_	_	_	_	_	
+14-9	752-763	hemtjänsten	_	_	_	_	_	_	
+14-10	763-764	,	_	_	_	_	_	_	
+14-11	765-768	som	_	_	_	_	_	_	
+14-12	769-777	tidigare	_	_	_	_	_	_	
+14-13	778-786	berättat	_	_	_	_	_	_	
+14-14	787-790	att	_	_	_	_	_	_	
+14-15	791-796	några	*[19]	_	_	_	_	_	
+14-16	797-802	äldre	*[19]	_	_	_	_	_	
+14-17	803-807	inte	_	Target;Source[8]	14-19[20];14-15[19]	false[8]	2[8]	_	
+14-18	808-812	vill	_	Target;Source[8]	14-19[20];14-15[19]	false[8]	2[8]	_	
+14-19	813-816	att	*[20]	_	_	_	_	_	
+14-20	817-826	mörkhyade	*[20]	_	_	_	_	_	
+14-21	827-837	invandrare	*[20]	_	_	_	_	_	
+14-22	838-841	ska	*[20]	_	_	_	_	_	
+14-23	842-847	jobba	*[20]	_	_	_	_	_	
+14-24	848-851	med	*[20]	_	_	_	_	_	
+14-25	852-855	dem	*[20]	_	_	_	_	_	
+14-26	856-859	och	_	_	_	_	_	_	
+14-27	860-863	att	_	_	_	_	_	_	
+14-28	864-866	de	*	_	_	_	_	_	
+14-29	867-874	försökt	_	Target[9]	14-28	true[9]	4[9]	_	
+14-30	875-879	lösa	_	Target[9]	14-28	true[9]	4[9]	_	
+14-31	880-885	detta	_	Target[9]	14-28	true[9]	4[9]	_	
+14-32	886-888	på	_	Target[9]	14-28	true[9]	4[9]	_	
+14-33	889-892	ett	_	Target[9]	14-28	true[9]	4[9]	_	
+14-34	893-894	"	_	Target[9]	14-28	true[9]	4[9]	_	
+14-35	894-901	smidigt	_	Target[9]	14-28	true[9]	4[9]	_	
+14-36	901-902	"	_	Target[9]	14-28	true[9]	4[9]	_	
+14-37	903-907	sätt	_	Target[9]	14-28	true[9]	4[9]	_	
+14-38	907-908	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+15-1	910-911	#	_	_	_	_	_	_	
+15-2	911-912	P	_	_	_	_	_	_	
+15-3	913-916	IMM	_	_	_	_	_	_	
+
+#Text=.
+16-1	916-917	.	_	_	_	_	_	_	
+
+#Text=- Är det rätt eller fel att man kan välja att inte bli vårdad av mörkhyade p.g.a. främlingsfientlighet?
+17-1	919-920	-	_	_	_	_	_	_	
+17-2	921-923	Är	_	_	_	_	_	_	
+17-3	924-927	det	_	_	_	_	_	_	
+17-4	928-932	rätt	_	Source;Target	17-20[23];17-7[21]	false	4	_	
+17-5	933-938	eller	_	_	_	_	_	_	
+17-6	939-942	fel	_	Source;Target	17-20[24];17-7[22]	false	2	_	
+17-7	943-946	att	*[21]|*[22]	_	_	_	_	_	
+17-8	947-950	man	*[21]|*[22]	_	_	_	_	_	
+17-9	951-954	kan	*[21]|*[22]	_	_	_	_	_	
+17-10	955-960	välja	*[21]|*[22]	_	_	_	_	_	
+17-11	961-964	att	*[21]|*[22]	_	_	_	_	_	
+17-12	965-969	inte	*[21]|*[22]	_	_	_	_	_	
+17-13	970-973	bli	*[21]|*[22]	_	_	_	_	_	
+17-14	974-980	vårdad	*[21]|*[22]	_	_	_	_	_	
+17-15	981-983	av	*[21]|*[22]	_	_	_	_	_	
+17-16	984-993	mörkhyade	*[21]|*[22]	_	_	_	_	_	
+17-17	994-999	p.g.a	*[21]|*[22]	_	_	_	_	_	
+17-18	999-1000	.	*[21]|*[22]	_	_	_	_	_	
+17-19	1001-1021	främlingsfientlighet	*[21]|*[22]	_	_	false	1	_	
+17-20	1021-1022	?	*[23]|*[24]	_	_	_	_	_	
+
+#Text=Å ena sidan kan det tyckas vara en rättighet att få välja bort dem som man inte vill ha, å andra sidan kostar detta troligen kommunen lite extrapengar när det måste trixas med scheman för att alla inte kan jobba med en viss omsorgstagare.
+18-1	1023-1024	Å	_	_	_	_	_	_	
+18-2	1025-1028	ena	_	_	_	_	_	_	
+18-3	1029-1034	sidan	_	_	_	_	_	_	
+18-4	1035-1038	kan	_	_	_	_	_	_	
+18-5	1039-1042	det	_	_	_	_	_	_	
+18-6	1043-1049	tyckas	_	_	_	_	_	_	
+18-7	1050-1054	vara	_	_	_	_	_	_	
+18-8	1055-1057	en	_	_	_	_	_	_	
+18-9	1058-1067	rättighet	_	_	_	_	_	_	
+18-10	1068-1071	att	_	_	_	_	_	_	
+18-11	1072-1074	få	_	_	_	_	_	_	
+18-12	1075-1080	välja	_	Source;Target[10]	18-16[27];18-14[25]	false[10]	2[10]	_	
+18-13	1081-1085	bort	_	Source;Target[10]	18-16[27];18-14[25]	false[10]	2[10]	_	
+18-14	1086-1089	dem	*[25]|*[26]	_	_	_	_	_	
+18-15	1090-1093	som	*[25]|*[26]	_	_	_	_	_	
+18-16	1094-1097	man	*[25]|*[26]|*[27]|*[28]	_	_	_	_	_	
+18-17	1098-1102	inte	*[25]|*[26]	Source;Target[11]	18-16[28];18-14[26]	false[11]	2[11]	_	
+18-18	1103-1107	vill	*[25]|*[26]	Source;Target[11]	18-16[28];18-14[26]	false[11]	2[11]	_	
+18-19	1108-1110	ha	*[25]|*[26]	Source;Target[11]	18-16[28];18-14[26]	false[11]	2[11]	_	
+18-20	1110-1111	,	_	_	_	_	_	_	
+18-21	1112-1113	å	_	_	_	_	_	_	
+18-22	1114-1119	andra	_	_	_	_	_	_	
+18-23	1120-1125	sidan	_	_	_	_	_	_	
+18-24	1126-1132	kostar	_	_	_	_	_	_	
+18-25	1133-1138	detta	_	_	_	_	_	_	
+18-26	1139-1147	troligen	_	_	_	_	_	_	
+18-27	1148-1156	kommunen	_	_	_	_	_	_	
+18-28	1157-1161	lite	_	_	_	_	_	_	
+18-29	1162-1173	extrapengar	_	_	_	_	_	_	
+18-30	1174-1177	när	_	_	_	_	_	_	
+18-31	1178-1181	det	_	_	_	_	_	_	
+18-32	1182-1187	måste	_	_	_	_	_	_	
+18-33	1188-1194	trixas	_	_	_	_	_	_	
+18-34	1195-1198	med	_	_	_	_	_	_	
+18-35	1199-1206	scheman	_	_	_	_	_	_	
+18-36	1207-1210	för	_	_	_	_	_	_	
+18-37	1211-1214	att	_	_	_	_	_	_	
+18-38	1215-1219	alla	_	_	_	_	_	_	
+18-39	1220-1224	inte	_	_	_	_	_	_	
+18-40	1225-1228	kan	_	_	_	_	_	_	
+18-41	1229-1234	jobba	_	_	_	_	_	_	
+18-42	1235-1238	med	_	_	_	_	_	_	
+18-43	1239-1241	en	_	_	_	_	_	_	
+18-44	1242-1246	viss	_	_	_	_	_	_	
+18-45	1247-1260	omsorgstagare	_	_	_	_	_	_	
+18-46	1260-1261	.	_	_	_	_	_	_	
+
+#Text=Ska vi acceptera detta?.
+19-1	1262-1265	Ska	_	_	_	_	_	_	
+19-2	1266-1268	vi	_	_	_	_	_	_	
+19-3	1269-1278	acceptera	_	_	_	_	_	_	
+19-4	1279-1284	detta	_	_	_	_	_	_	
+19-5	1284-1285	?	_	_	_	_	_	_	
+19-6	1285-1286	.	_	_	_	_	_	_	

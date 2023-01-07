@@ -1,0 +1,492 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=S – väck misstroende- förklaring mot Tolgfors.
+3-1	18-19	S	_	_	_	_	_	_	_	
+3-2	20-21	–	_	_	_	_	_	_	_	
+3-3	22-26	väck	_	Target[1]	3-8	false[1]	2[1]	_	_	
+3-4	27-38	misstroende	_	Target[1]	3-8	false[1]	2[1]	_	_	
+3-5	38-39	-	_	Target[1]	3-8	false[1]	2[1]	_	_	
+3-6	40-50	förklaring	_	Target[1]	3-8	false[1]	2[1]	_	_	
+3-7	51-54	mot	_	_	_	_	_	_	_	
+3-8	55-63	Tolgfors	*	_	_	_	_	_	_	
+3-9	63-64	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Ekots” avslöjande om Sveriges strategiska vapensamarbete med Saudiarabien väcker förvåning och förskräckelse.
+4-1	66-67	#	_	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	_	
+4-5	75-76	”	*[17]	_	_	_	_	_	_	
+4-6	76-81	Ekots	*[17]	_	_	_	_	_	_	
+4-7	81-82	”	*[17]	_	_	_	_	_	_	
+4-8	83-93	avslöjande	*[17]	_	_	_	_	_	_	
+4-9	94-96	om	*[17]	_	_	_	_	_	_	
+4-10	97-105	Sveriges	*[17]	_	_	_	_	_	_	
+4-11	106-117	strategiska	*[17]	_	_	_	_	_	_	
+4-12	118-132	vapensamarbete	*[17]	_	_	_	_	_	_	
+4-13	133-136	med	*[17]	_	_	_	_	_	_	
+4-14	137-149	Saudiarabien	*[17]|*[18]	_	_	_	_	_	_	
+4-15	150-156	väcker	_	Target[2]	4-5[17]	false[2]	1[2]	_	_	
+4-16	157-166	förvåning	_	Target[2]	4-5[17]	false[2]	1[2]	_	_	
+4-17	167-170	och	_	Target[2]	4-5[17]	false[2]	1[2]	_	_	
+4-18	171-184	förskräckelse	_	Target[2]	4-5[17]	false[2]	1[2]	_	_	
+4-19	184-185	.	_	_	_	_	_	_	_	
+
+#Text=Inte nog med att Sverige exporterar vapen till diktaturer i världen, nu har Sverige gått steget längre och överför strategisk kunskap genom hemliga operationer till en är världens hårdaste diktaturer.
+5-1	186-190	Inte	_	Target[3]	5-4[20]	false[3]	2[3]	_	_	
+5-2	191-194	nog	_	Target[3]	5-4[20]	false[3]	2[3]	_	_	
+5-3	195-198	med	_	Target[3]	5-4[20]	false[3]	2[3]	_	_	
+5-4	199-202	att	*[19]|*[20]	_	_	_	_	_	6-1[0_19]	
+5-5	203-210	Sverige	*[19]|*[20]	_	_	_	_	_	_	
+5-6	211-221	exporterar	*[19]|*[20]	_	_	_	_	_	_	
+5-7	222-227	vapen	*[19]|*[20]	_	_	_	_	_	_	
+5-8	228-232	till	*[19]|*[20]	_	_	_	_	_	_	
+5-9	233-243	diktaturer	*[19]|*[20]	_	_	_	_	_	_	
+5-10	244-245	i	*[19]|*[20]	_	_	_	_	_	_	
+5-11	246-253	världen	*[19]|*[20]	_	_	_	_	_	_	
+5-12	253-254	,	*[19]	_	_	_	_	_	_	
+5-13	255-257	nu	*[19]	_	_	_	_	_	_	
+5-14	258-261	har	*[19]	_	_	_	_	_	_	
+5-15	262-269	Sverige	*[19]	_	_	_	_	_	_	
+5-16	270-274	gått	*[19]	Target[4]	5-20[21]	false[4]	2[4]	_	_	
+5-17	275-281	steget	*[19]	Target[4]	5-20[21]	false[4]	2[4]	_	_	
+5-18	282-288	längre	*[19]	Target[4]	5-20[21]	false[4]	2[4]	_	_	
+5-19	289-292	och	*[19]	_	_	_	_	_	_	
+5-20	293-300	överför	*[19]|*[21]	_	_	_	_	_	_	
+5-21	301-311	strategisk	*[19]|*[21]	_	_	_	_	_	_	
+5-22	312-319	kunskap	*[19]|*[21]	_	_	_	_	_	_	
+5-23	320-325	genom	*[19]|*[21]	_	_	_	_	_	_	
+5-24	326-333	hemliga	*[19]|*[21]	_	_	_	_	_	_	
+5-25	334-345	operationer	*[19]|*[21]	_	_	_	_	_	_	
+5-26	346-350	till	*[19]|*[21]	_	_	_	_	_	_	
+5-27	351-353	en	*[19]|*[21]	_	_	_	_	_	_	
+5-28	354-356	är	*[19]|*[21]	_	_	_	_	_	_	
+5-29	357-365	världens	*[19]|*[21]	Target[5]	4-14[18]	false[5]	1[5]	_	_	
+5-30	366-374	hårdaste	*[19]|*[21]	Target[5]	4-14[18]	false[5]	1[5]	_	_	
+5-31	375-385	diktaturer	*[19]|*[21]	Target[5]	4-14[18]	false[5]	1[5]	_	_	
+5-32	385-386	.	_	_	_	_	_	_	_	
+
+#Text=Detta har skett bakom ryggen på svenska folket.
+6-1	387-392	Detta	*	_	_	_	_	_	_	
+6-2	393-396	har	_	_	_	_	_	_	_	
+6-3	397-402	skett	_	Target[6]	6-1	false[6]	2[6]	_	_	
+6-4	403-408	bakom	_	Target[6]	6-1	false[6]	2[6]	_	_	
+6-5	409-415	ryggen	_	Target[6]	6-1	false[6]	2[6]	_	_	
+6-6	416-418	på	_	_	_	_	_	_	_	
+6-7	419-426	svenska	_	_	_	_	_	_	_	
+6-8	427-433	folket	_	_	_	_	_	_	_	
+6-9	433-434	.	_	_	_	_	_	_	_	
+
+#Text=Ytterst ansvarig är regeringen och försvarsministern Sten Tolgfors.
+7-1	435-442	Ytterst	_	_	_	_	_	_	_	
+7-2	443-451	ansvarig	_	_	_	_	_	_	_	
+7-3	452-454	är	_	_	_	_	_	_	_	
+7-4	455-465	regeringen	_	_	_	_	_	_	_	
+7-5	466-469	och	_	_	_	_	_	_	_	
+7-6	470-487	försvarsministern	_	_	_	_	_	_	_	
+7-7	488-492	Sten	_	_	_	_	_	_	_	
+7-8	493-501	Tolgfors	_	_	_	_	_	_	_	
+7-9	501-502	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	504-505	#	_	_	_	_	_	_	_	
+8-2	505-506	P	_	_	_	_	_	_	_	
+8-3	507-510	IMM	_	_	_	_	_	_	_	
+8-4	510-511	.	_	_	_	_	_	_	_	
+
+#Text=Den arabiska våren i Nordafrika och Mellanöstern engagerade svenska folket.
+9-1	513-516	Den	*[22]	_	_	_	_	_	_	
+9-2	517-525	arabiska	*[22]	_	_	_	_	_	_	
+9-3	526-531	våren	*[22]	_	_	_	_	_	_	
+9-4	532-533	i	*[22]	_	_	_	_	_	_	
+9-5	534-544	Nordafrika	*[22]	_	_	_	_	_	_	
+9-6	545-548	och	*[22]	_	_	_	_	_	_	
+9-7	549-561	Mellanöstern	*[22]	_	_	_	_	_	_	
+9-8	562-572	engagerade	_	Target	9-1[22]	false	4	_	_	
+9-9	573-580	svenska	_	_	_	_	_	_	_	
+9-10	581-587	folket	_	_	_	_	_	_	_	
+9-11	587-588	.	_	_	_	_	_	_	_	
+
+#Text=Många svenskar följde protesterna aktivt och försökte ge stöd genom att föra demonstranternas budskap vidare.
+10-1	589-594	Många	_	_	_	_	_	_	_	
+10-2	595-603	svenskar	_	_	_	_	_	_	_	
+10-3	604-610	följde	_	_	_	_	_	_	_	
+10-4	611-622	protesterna	_	_	_	_	_	_	_	
+10-5	623-629	aktivt	_	_	_	_	_	_	_	
+10-6	630-633	och	_	_	_	_	_	_	_	
+10-7	634-642	försökte	_	_	_	_	_	_	_	
+10-8	643-645	ge	_	_	_	_	_	_	_	
+10-9	646-650	stöd	_	_	_	_	_	_	_	
+10-10	651-656	genom	_	_	_	_	_	_	_	
+10-11	657-660	att	_	_	_	_	_	_	_	
+10-12	661-665	föra	_	_	_	_	_	_	_	
+10-13	666-682	demonstranternas	_	_	_	_	_	_	_	
+10-14	683-690	budskap	_	_	_	_	_	_	_	
+10-15	691-697	vidare	_	_	_	_	_	_	_	
+10-16	697-698	.	_	_	_	_	_	_	_	
+
+#Text=Många är vi därför som med ilska sett hur Saudiarabien aktivt har använt sin militär och sina vapen för att kväsa omgivande länders gryende demokratiska krafter.
+11-1	699-704	Många	*	_	_	_	_	_	_	
+11-2	705-707	är	_	_	_	_	_	_	_	
+11-3	708-710	vi	_	_	_	_	_	_	_	
+11-4	711-717	därför	_	_	_	_	_	_	_	
+11-5	718-721	som	_	_	_	_	_	_	_	
+11-6	722-725	med	_	Source;Target[7]	11-1;11-9[23]	false[7]	1[7]	_	_	
+11-7	726-731	ilska	_	Source;Target[7]	11-1;11-9[23]	false[7]	1[7]	_	_	
+11-8	732-736	sett	_	Source;Target[7]	11-1;11-9[23]	false[7]	1[7]	_	_	
+11-9	737-740	hur	*[23]	_	_	_	_	_	_	
+11-10	741-753	Saudiarabien	*[23]|*[24]	_	_	_	_	_	_	
+11-11	754-760	aktivt	*[23]	_	_	_	_	_	_	
+11-12	761-764	har	*[23]	_	_	_	_	_	_	
+11-13	765-771	använt	*[23]	_	_	_	_	_	_	
+11-14	772-775	sin	*[23]	_	_	_	_	_	_	
+11-15	776-783	militär	*[23]	_	_	_	_	_	_	
+11-16	784-787	och	*[23]	_	_	_	_	_	_	
+11-17	788-792	sina	*[23]	_	_	_	_	_	_	
+11-18	793-798	vapen	*[23]	_	_	_	_	_	_	
+11-19	799-802	för	*[23]	_	_	_	_	_	_	
+11-20	803-806	att	*[23]	_	_	_	_	_	_	
+11-21	807-812	kväsa	*[23]	Target;Source	11-22[25];11-10[24]	false	2	_	_	
+11-22	813-822	omgivande	*[23]|*[25]	_	_	_	_	_	_	
+11-23	823-830	länders	*[23]|*[25]	_	_	_	_	_	_	
+11-24	831-838	gryende	*[23]|*[25]	_	_	_	_	_	_	
+11-25	839-851	demokratiska	*[23]|*[25]	Target	11-26[26]	false	4	_	_	
+11-26	852-859	krafter	*[23]|*[25]|*[26]	_	_	_	_	_	_	
+11-27	859-860	.	_	_	_	_	_	_	_	
+
+#Text=Vi har exempelvis alla kunnat ta del av blodiga bilder från Bahrain efter den saudiska militära invasionen år 2011.
+12-1	861-863	Vi	_	_	_	_	_	_	_	
+12-2	864-867	har	_	_	_	_	_	_	_	
+12-3	868-878	exempelvis	_	_	_	_	_	_	_	
+12-4	879-883	alla	_	_	_	_	_	_	_	
+12-5	884-890	kunnat	_	_	_	_	_	_	_	
+12-6	891-893	ta	_	_	_	_	_	_	_	
+12-7	894-897	del	_	_	_	_	_	_	_	
+12-8	898-900	av	_	_	_	_	_	_	_	
+12-9	901-908	blodiga	_	Target	12-10[27]	false	1	_	_	
+12-10	909-915	bilder	*[27]	_	_	_	_	_	_	
+12-11	916-920	från	*[27]	_	_	_	_	_	_	
+12-12	921-928	Bahrain	*[27]	_	_	_	_	_	_	
+12-13	929-934	efter	_	_	_	_	_	_	_	
+12-14	935-938	den	*[28]	_	_	_	_	_	13-1[0_28]	
+12-15	939-947	saudiska	*[28]	_	_	_	_	_	_	
+12-16	948-956	militära	*[28]	_	_	_	_	_	_	
+12-17	957-967	invasionen	*[28]	_	_	_	_	_	_	
+12-18	968-970	år	*[28]	_	_	_	_	_	_	
+12-19	971-975	2011	*[28]	_	_	_	_	_	_	
+12-20	975-976	.	_	_	_	_	_	_	_	
+
+#Text=Detta, blodiga angrepp mot civilbefolkningar som tröttnat på förtryck, är vad Saudiarabien använder sina vapen till.
+13-1	977-982	Detta	*	_	_	_	_	_	_	
+13-2	982-983	,	_	_	_	_	_	_	_	
+13-3	984-991	blodiga	_	Target[8]	13-1	false[8]	1[8]	_	_	
+13-4	992-999	angrepp	_	Target[8]	13-1	false[8]	1[8]	_	_	
+13-5	1000-1003	mot	_	_	_	_	_	_	_	
+13-6	1004-1021	civilbefolkningar	_	_	_	_	_	_	_	
+13-7	1022-1025	som	_	_	_	_	_	_	_	
+13-8	1026-1034	tröttnat	_	_	_	_	_	_	_	
+13-9	1035-1037	på	_	_	_	_	_	_	_	
+13-10	1038-1046	förtryck	_	_	_	_	_	_	_	
+13-11	1046-1047	,	_	_	_	_	_	_	_	
+13-12	1048-1050	är	_	_	_	_	_	_	_	
+13-13	1051-1054	vad	_	_	_	_	_	_	_	
+13-14	1055-1067	Saudiarabien	_	_	_	_	_	_	_	
+13-15	1068-1076	använder	_	_	_	_	_	_	_	
+13-16	1077-1081	sina	_	_	_	_	_	_	_	
+13-17	1082-1087	vapen	_	_	_	_	_	_	_	
+13-18	1088-1092	till	_	_	_	_	_	_	_	
+13-19	1092-1093	.	_	_	_	_	_	_	_	
+
+#Text=Sverige får blod på sina händer genom det militära stödet till Saudiarabien.
+14-1	1094-1101	Sverige	_	_	_	_	_	_	_	
+14-2	1102-1105	får	_	Target[9]	14-8[29]	false[9]	1[9]	_	_	
+14-3	1106-1110	blod	_	Target[9]	14-8[29]	false[9]	1[9]	_	_	
+14-4	1111-1113	på	_	Target[9]	14-8[29]	false[9]	1[9]	_	_	
+14-5	1114-1118	sina	_	Target[9]	14-8[29]	false[9]	1[9]	_	_	
+14-6	1119-1125	händer	_	Target[9]	14-8[29]	false[9]	1[9]	_	_	
+14-7	1126-1131	genom	_	_	_	_	_	_	_	
+14-8	1132-1135	det	*[29]	_	_	_	_	_	_	
+14-9	1136-1144	militära	*[29]	_	_	_	_	_	_	
+14-10	1145-1151	stödet	*[29]	_	_	_	_	_	_	
+14-11	1152-1156	till	*[29]	_	_	_	_	_	_	
+14-12	1157-1169	Saudiarabien	*[29]	_	_	_	_	_	_	
+14-13	1169-1170	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1172-1173	#	_	_	_	_	_	_	_	
+15-2	1173-1174	P	_	_	_	_	_	_	_	
+15-3	1175-1178	IMM	_	_	_	_	_	_	_	
+15-4	1178-1179	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Tolgfors ville regeringen samarbeta militärt med Saudiarabien för att kunna försvara mänskliga rättigheter i landet.
+16-1	1181-1187	Enligt	_	_	_	_	_	_	_	
+16-2	1188-1196	Tolgfors	_	_	_	_	_	_	_	
+16-3	1197-1202	ville	_	_	_	_	_	_	_	
+16-4	1203-1213	regeringen	_	_	_	_	_	_	_	
+16-5	1214-1223	samarbeta	_	_	_	_	_	_	_	
+16-6	1224-1232	militärt	_	_	_	_	_	_	_	
+16-7	1233-1236	med	_	_	_	_	_	_	_	
+16-8	1237-1249	Saudiarabien	_	_	_	_	_	_	_	
+16-9	1250-1253	för	_	_	_	_	_	_	_	
+16-10	1254-1257	att	_	_	_	_	_	_	_	
+16-11	1258-1263	kunna	_	_	_	_	_	_	_	
+16-12	1264-1272	försvara	_	_	_	_	_	_	_	
+16-13	1273-1282	mänskliga	_	_	_	_	_	_	_	
+16-14	1283-1294	rättigheter	_	_	_	_	_	_	_	
+16-15	1295-1296	i	_	_	_	_	_	_	_	
+16-16	1297-1303	landet	_	_	_	_	_	_	_	
+16-17	1303-1304	.	_	_	_	_	_	_	_	
+
+#Text=Med den här typen av kommentarer förolämpar den moderate försvarsministern det svenska folket och alla de som kämpar för mänskliga rättigheter i Mellanöstern.
+17-1	1305-1308	Med	_	_	_	_	_	_	_	
+17-2	1309-1312	den	*[30]	_	_	_	_	_	_	
+17-3	1313-1316	här	*[30]	_	_	_	_	_	_	
+17-4	1317-1322	typen	*[30]	_	_	_	_	_	_	
+17-5	1323-1325	av	*[30]	_	_	_	_	_	_	
+17-6	1326-1337	kommentarer	*[30]	_	_	_	_	_	_	
+17-7	1338-1348	förolämpar	_	Target;Target	17-2[30];17-8[31]	false	2	_	_	
+17-8	1349-1352	den	*[31]	_	_	_	_	_	_	
+17-9	1353-1361	moderate	*[31]	_	_	_	_	_	_	
+17-10	1362-1379	försvarsministern	*[31]	_	_	_	_	_	_	
+17-11	1380-1383	det	_	_	_	_	_	_	_	
+17-12	1384-1391	svenska	_	_	_	_	_	_	_	
+17-13	1392-1398	folket	_	_	_	_	_	_	_	
+17-14	1399-1402	och	_	_	_	_	_	_	_	
+17-15	1403-1407	alla	_	_	_	_	_	_	_	
+17-16	1408-1410	de	_	_	_	_	_	_	_	
+17-17	1411-1414	som	_	_	_	_	_	_	_	
+17-18	1415-1421	kämpar	_	_	_	_	_	_	_	
+17-19	1422-1425	för	_	_	_	_	_	_	_	
+17-20	1426-1435	mänskliga	_	_	_	_	_	_	_	
+17-21	1436-1447	rättigheter	_	_	_	_	_	_	_	
+17-22	1448-1449	i	_	_	_	_	_	_	_	
+17-23	1450-1462	Mellanöstern	_	_	_	_	_	_	_	
+17-24	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Skulle vi kanske bygga vapenfabriker i Nordkorea, Burma eller Iran för att hjälpa befolkningarna till demokrati?.
+18-1	1464-1470	Skulle	_	_	_	_	_	_	_	
+18-2	1471-1473	vi	_	_	_	_	_	_	_	
+18-3	1474-1480	kanske	_	_	_	_	_	_	_	
+18-4	1481-1486	bygga	_	_	_	_	_	_	_	
+18-5	1487-1500	vapenfabriker	_	_	_	_	_	_	_	
+18-6	1501-1502	i	_	_	_	_	_	_	_	
+18-7	1503-1512	Nordkorea	_	_	_	_	_	_	_	
+18-8	1512-1513	,	_	_	_	_	_	_	_	
+18-9	1514-1519	Burma	_	_	_	_	_	_	_	
+18-10	1520-1525	eller	_	_	_	_	_	_	_	
+18-11	1526-1530	Iran	_	_	_	_	_	_	_	
+18-12	1531-1534	för	_	_	_	_	_	_	_	
+18-13	1535-1538	att	_	_	_	_	_	_	_	
+18-14	1539-1545	hjälpa	_	_	_	_	_	_	_	
+18-15	1546-1560	befolkningarna	_	_	_	_	_	_	_	
+18-16	1561-1565	till	_	_	_	_	_	_	_	
+18-17	1566-1575	demokrati	_	_	_	_	_	_	_	
+18-18	1575-1576	?	_	_	_	_	_	_	_	
+18-19	1576-1577	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+19-1	1579-1580	#	_	_	_	_	_	_	_	
+19-2	1580-1581	P	_	_	_	_	_	_	_	
+19-3	1582-1585	IMM	_	_	_	_	_	_	_	
+19-4	1585-1586	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har en historia av att värna mänskliga rättigheter.
+20-1	1588-1595	Sverige	*	_	_	_	_	_	21-6	
+20-2	1596-1599	har	_	_	_	_	_	_	_	
+20-3	1600-1602	en	_	_	_	_	_	_	_	
+20-4	1603-1611	historia	_	_	_	_	_	_	_	
+20-5	1612-1614	av	_	_	_	_	_	_	_	
+20-6	1615-1618	att	_	_	_	_	_	_	_	
+20-7	1619-1624	värna	_	Target	20-8[32]	false	4	_	_	
+20-8	1625-1634	mänskliga	*[32]	_	_	_	_	_	_	
+20-9	1635-1646	rättigheter	*[32]	_	_	_	_	_	_	
+20-10	1646-1647	.	_	_	_	_	_	_	_	
+
+#Text=Under våra stoltaste år hade vi ett rykte som en humanitär stormakt.
+21-1	1648-1653	Under	_	_	_	_	_	_	_	
+21-2	1654-1658	våra	_	_	_	_	_	_	_	
+21-3	1659-1668	stoltaste	_	_	_	_	_	_	_	
+21-4	1669-1671	år	_	_	_	_	_	_	_	
+21-5	1672-1676	hade	_	_	_	_	_	_	_	
+21-6	1677-1679	vi	*	_	_	_	_	_	_	
+21-7	1680-1683	ett	_	_	_	_	_	_	_	
+21-8	1684-1689	rykte	_	_	_	_	_	_	_	
+21-9	1690-1693	som	_	_	_	_	_	_	_	
+21-10	1694-1696	en	_	_	_	_	_	_	_	
+21-11	1697-1706	humanitär	_	Target[10]|Target[11]	21-6|21-12	false[10]|false[11]	4[10]|4[11]	_	_	
+21-12	1707-1715	stormakt	*	Target[10]	21-6	false[10]	4[10]	_	_	
+21-13	1715-1716	.	_	_	_	_	_	_	_	
+
+#Text=Vårt ställningstagande för demokrati och frihet illustreras inte minst i vårt stöd till kampen mot apartheid i Sydafrika.
+22-1	1717-1721	Vårt	_	Target[12]	22-4[33]	false[12]	4[12]	_	_	
+22-2	1722-1739	ställningstagande	_	Target[12]	22-4[33]	false[12]	4[12]	_	_	
+22-3	1740-1743	för	_	Target[12]	22-4[33]	false[12]	4[12]	_	_	
+22-4	1744-1753	demokrati	*[33]	_	_	_	_	_	_	
+22-5	1754-1757	och	*[33]	_	_	_	_	_	_	
+22-6	1758-1764	frihet	*[33]	_	_	_	_	_	_	
+22-7	1765-1776	illustreras	_	Target[13]	22-11[34]	false[13]	4[13]	_	_	
+22-8	1777-1781	inte	_	Target[13]	22-11[34]	false[13]	4[13]	_	_	
+22-9	1782-1787	minst	_	Target[13]	22-11[34]	false[13]	4[13]	_	_	
+22-10	1788-1789	i	_	_	_	_	_	_	_	
+22-11	1790-1794	vårt	*[34]	_	_	_	_	_	_	
+22-12	1795-1799	stöd	*[34]	_	_	_	_	_	_	
+22-13	1800-1804	till	*[34]	_	_	_	_	_	_	
+22-14	1805-1811	kampen	*[34]	Target[14]	22-16[35]	false[14]	2[14]	_	_	
+22-15	1812-1815	mot	*[34]	Target[14]	22-16[35]	false[14]	2[14]	_	_	
+22-16	1816-1825	apartheid	*[34]|*[35]	_	_	_	_	_	_	
+22-17	1826-1827	i	*[34]|*[35]	_	_	_	_	_	_	
+22-18	1828-1837	Sydafrika	*[34]|*[35]	_	_	_	_	_	_	
+22-19	1837-1838	.	_	_	_	_	_	_	_	
+
+#Text=Många svenskar känner stolthet över att det arbetet stod fritt från egna ekonomiska intressen.
+23-1	1839-1844	Många	*[36]	_	_	_	_	_	_	
+23-2	1845-1853	svenskar	*[36]	_	_	_	_	_	_	
+23-3	1854-1860	känner	_	Source;Target[15]	23-1[36];23-6[37]	false[15]	5[15]	_	_	
+23-4	1861-1869	stolthet	_	Source;Target[15]	23-1[36];23-6[37]	false[15]	5[15]	_	_	
+23-5	1870-1874	över	_	Source;Target[15]	23-1[36];23-6[37]	false[15]	5[15]	_	_	
+23-6	1875-1878	att	*[37]	_	_	_	_	_	_	
+23-7	1879-1882	det	*[37]	_	_	_	_	_	_	
+23-8	1883-1890	arbetet	*[37]	_	_	_	_	_	_	
+23-9	1891-1895	stod	*[37]	_	_	_	_	_	_	
+23-10	1896-1901	fritt	*[37]	_	_	_	_	_	_	
+23-11	1902-1906	från	*[37]	_	_	_	_	_	_	
+23-12	1907-1911	egna	*[37]	_	_	_	_	_	_	
+23-13	1912-1922	ekonomiska	*[37]	_	_	_	_	_	_	
+23-14	1923-1932	intressen	*[37]	_	_	_	_	_	_	
+23-15	1932-1933	.	_	_	_	_	_	_	_	
+
+#Text=Nu solkas Sveriges rykte ner.
+24-1	1934-1936	Nu	_	_	_	_	_	_	_	
+24-2	1937-1943	solkas	_	Source;Target	24-6;24-3[38]	false	2	_	_	
+24-3	1944-1952	Sveriges	*[38]	_	_	_	_	_	_	
+24-4	1953-1958	rykte	*[38]	_	_	_	_	_	_	
+24-5	1959-1962	ner	_	_	_	false	2	24-2	_	
+24-6	1962-1963	.	*	_	_	_	_	_	_	
+
+#Text=Vi tvingas att skämmas över hur Sverige har agerat.
+25-1	1964-1966	Vi	_	_	_	_	_	_	_	
+25-2	1967-1974	tvingas	_	Target	25-3[39]	false	2	_	_	
+25-3	1975-1978	att	*[39]	_	_	_	_	_	_	
+25-4	1979-1986	skämmas	*[39]	Target	25-5[40]	false	2	_	_	
+25-5	1987-1991	över	*[39]|*[40]	_	_	_	_	_	_	
+25-6	1992-1995	hur	*[39]|*[40]	_	_	_	_	_	_	
+25-7	1996-2003	Sverige	*[39]|*[40]	_	_	_	_	_	_	
+25-8	2004-2007	har	*[39]|*[40]	_	_	_	_	_	_	
+25-9	2008-2014	agerat	*[39]|*[40]	_	_	_	_	_	_	
+25-10	2014-2015	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2017-2018	#	_	_	_	_	_	_	_	
+26-2	2018-2019	P	_	_	_	_	_	_	_	
+26-3	2020-2023	IMM	_	_	_	_	_	_	_	
+26-4	2023-2024	.	_	_	_	_	_	_	_	
+
+#Text=I detta läge måste Socialdemokraterna stå upp för mänskliga rättigheter och en progressiv utrikes- och säkerhetspolitik.
+27-1	2026-2027	I	_	_	_	_	_	_	_	
+27-2	2028-2033	detta	_	_	_	_	_	_	_	
+27-3	2034-2038	läge	_	_	_	_	_	_	_	
+27-4	2039-2044	måste	_	_	_	false	4	_	_	
+27-5	2045-2063	Socialdemokraterna	*[41]|*[42]	_	_	_	_	_	28-5[44_42]	
+27-6	2064-2067	stå	_	Source;Target[16]	27-5[41];27-9[43]	false[16]	4[16]	27-4[0_16]	_	
+27-7	2068-2071	upp	_	Source;Target[16]	27-5[41];27-9[43]	false[16]	4[16]	_	_	
+27-8	2072-2075	för	_	Source;Target[16]	27-5[41];27-9[43]	false[16]	4[16]	_	_	
+27-9	2076-2085	mänskliga	*[43]	_	_	_	_	_	_	
+27-10	2086-2097	rättigheter	*[43]	_	_	_	_	_	_	
+27-11	2098-2101	och	*[43]	_	_	_	_	_	_	
+27-12	2102-2104	en	*[43]	_	_	_	_	_	_	
+27-13	2105-2115	progressiv	*[43]	_	_	_	_	_	_	
+27-14	2116-2123	utrikes	*[43]	_	_	_	_	_	_	
+27-15	2123-2124	-	*[43]	_	_	_	_	_	_	
+27-16	2125-2128	och	*[43]	_	_	_	_	_	_	
+27-17	2129-2145	säkerhetspolitik	*[43]	_	_	_	_	_	_	
+27-18	2145-2146	.	_	_	_	_	_	_	_	
+
+#Text=Mot den bakgrunden bör vårt parti väcka misstroendeförklaring i riksdagen mot Sten Tolgfors.
+28-1	2147-2150	Mot	_	_	_	_	_	_	_	
+28-2	2151-2154	den	_	_	_	_	_	_	_	
+28-3	2155-2165	bakgrunden	_	_	_	_	_	_	_	
+28-4	2166-2169	bör	_	Source;Target	28-5[44];28-7[45]	false	4	_	_	
+28-5	2170-2174	vårt	*[44]	_	_	_	_	_	_	
+28-6	2175-2180	parti	*[44]	_	_	_	_	_	_	
+28-7	2181-2186	väcka	*[45]	_	_	_	_	_	_	
+28-8	2187-2208	misstroendeförklaring	*[45]	_	_	_	_	_	_	
+28-9	2209-2210	i	*[45]	_	_	_	_	_	_	
+28-10	2211-2220	riksdagen	*[45]	_	_	_	_	_	_	
+28-11	2221-2224	mot	*[45]	_	_	_	_	_	_	
+28-12	2225-2229	Sten	*[45]	_	_	_	_	_	_	
+28-13	2230-2238	Tolgfors	*[45]	_	_	_	_	_	_	
+28-14	2238-2239	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2241-2242	#	_	_	_	_	_	_	_	
+29-2	2242-2243	P	_	_	_	_	_	_	_	
+29-3	2244-2247	IMM	_	_	_	_	_	_	_	
+29-4	2247-2248	.	_	_	_	_	_	_	_	
+
+#Text=Jytte Guteland.
+30-1	2250-2255	Jytte	_	_	_	_	_	_	_	
+30-2	2256-2264	Guteland	_	_	_	_	_	_	_	
+30-3	2264-2265	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2267-2268	#	_	_	_	_	_	_	_	
+31-2	2268-2269	P	_	_	_	_	_	_	_	
+31-3	2270-2273	IMM	_	_	_	_	_	_	_	
+31-4	2273-2274	.	_	_	_	_	_	_	_	
+
+#Text=Tidigare ordförande i SSU.
+32-1	2276-2284	Tidigare	_	_	_	_	_	_	_	
+32-2	2285-2295	ordförande	_	_	_	_	_	_	_	
+32-3	2296-2297	i	_	_	_	_	_	_	_	
+32-4	2298-2301	SSU	_	_	_	_	_	_	_	
+32-5	2301-2302	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2304-2305	#	_	_	_	_	_	_	_	
+33-2	2305-2306	P	_	_	_	_	_	_	_	
+33-3	2307-2310	IMM	_	_	_	_	_	_	_	
+33-4	2310-2311	.	_	_	_	_	_	_	_	
+
+#Text=Ardalan Shekarabi.
+34-1	2313-2320	Ardalan	_	_	_	_	_	_	_	
+34-2	2321-2330	Shekarabi	_	_	_	_	_	_	_	
+34-3	2330-2331	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2333-2334	#	_	_	_	_	_	_	_	
+35-2	2334-2335	P	_	_	_	_	_	_	_	
+35-3	2336-2339	IMM	_	_	_	_	_	_	_	
+35-4	2339-2340	.	_	_	_	_	_	_	_	
+
+#Text=Ersättare i Europaparlamentet (S), tidigare ordförande i SSU.
+36-1	2342-2351	Ersättare	_	_	_	_	_	_	_	
+36-2	2352-2353	i	_	_	_	_	_	_	_	
+36-3	2354-2371	Europaparlamentet	_	_	_	_	_	_	_	
+36-4	2372-2373	(	_	_	_	_	_	_	_	
+36-5	2373-2374	S	_	_	_	_	_	_	_	
+36-6	2374-2375	)	_	_	_	_	_	_	_	
+36-7	2375-2376	,	_	_	_	_	_	_	_	
+36-8	2377-2385	tidigare	_	_	_	_	_	_	_	
+36-9	2386-2396	ordförande	_	_	_	_	_	_	_	
+36-10	2397-2398	i	_	_	_	_	_	_	_	
+36-11	2399-2402	SSU	_	_	_	_	_	_	_	
+36-12	2402-2403	.	_	_	_	_	_	_	_	

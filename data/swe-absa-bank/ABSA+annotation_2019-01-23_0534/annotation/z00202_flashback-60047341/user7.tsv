@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=EU vill att Sverige tar 80 000 migranter utan asylskäl i förvar.
+3-1	18-20	EU	*	_	_	_	_	
+3-2	21-25	vill	_	Target;Source	3-3[2];3-1	false	4	
+3-3	26-29	att	*[2]	_	_	_	_	
+3-4	30-37	Sverige	*[2]	_	_	_	_	
+3-5	38-41	tar	*[2]	_	_	_	_	
+3-6	42-44	80	*[2]	_	_	_	_	
+3-7	45-48	000	*[2]	_	_	_	_	
+3-8	49-58	migranter	*[2]	_	_	_	_	
+3-9	59-63	utan	*[2]	_	_	_	_	
+3-10	64-72	asylskäl	*[2]	_	_	_	_	
+3-11	73-74	i	*[2]	_	_	_	_	
+3-12	75-81	förvar	*[2]	_	_	_	_	
+3-13	81-82	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	84-85	#	_	_	_	_	_	
+4-2	85-86	P	_	_	_	_	_	
+4-3	87-90	IMM	_	_	_	false	3	
+4-4	90-91	.	_	_	_	_	_	
+
+#Text=Visst kommer det att ge arbetstillfällen men hur gör man rent praktiskt?.
+5-1	93-98	Visst	_	_	_	_	_	
+5-2	99-105	kommer	_	_	_	_	_	
+5-3	106-109	det	_	_	_	_	_	
+5-4	110-113	att	_	_	_	_	_	
+5-5	114-116	ge	_	_	_	_	_	
+5-6	117-133	arbetstillfällen	_	_	_	_	_	
+5-7	134-137	men	_	_	_	_	_	
+5-8	138-141	hur	_	_	_	_	_	
+5-9	142-145	gör	_	_	_	_	_	
+5-10	146-149	man	_	_	_	_	_	
+5-11	150-154	rent	_	_	_	_	_	
+5-12	155-164	praktiskt	_	_	_	_	_	
+5-13	164-165	?	_	_	_	_	_	
+5-14	165-166	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	168-169	#	_	_	_	_	_	
+6-2	169-170	P	_	_	_	_	_	
+6-3	171-174	IMM	_	_	_	false	2	
+6-4	174-175	.	_	_	_	_	_	
+
+#Text=Var ska man lämpligen placera Sveriges Guantanamo?.
+7-1	177-180	Var	_	_	_	_	_	
+7-2	181-184	ska	_	_	_	_	_	
+7-3	185-188	man	_	_	_	_	_	
+7-4	189-198	lämpligen	_	_	_	_	_	
+7-5	199-206	placera	_	_	_	_	_	
+7-6	207-215	Sveriges	*[3]	Target[1]	7-6[3]	false[1]	1[1]	
+7-7	216-226	Guantanamo	*[3]	Target[1]	7-6[3]	false[1]	1[1]	
+7-8	226-227	?	_	_	_	_	_	
+7-9	227-228	.	_	_	_	_	_	

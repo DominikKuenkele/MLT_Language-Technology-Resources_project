@@ -1,0 +1,538 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=I Iran är hijab ett tecken på förtryck.
+3-1	18-19	I	*[14]	_	_	_	_	_	
+3-2	20-24	Iran	*[14]	_	_	_	_	_	
+3-3	25-27	är	_	_	_	_	_	_	
+3-4	28-33	hijab	*	_	_	_	_	_	
+3-5	34-37	ett	_	Target;Target[1]	3-1[14];3-4	false[1]	2[1]	_	
+3-6	38-44	tecken	_	Target;Target[1]	3-1[14];3-4	false[1]	2[1]	_	
+3-7	45-47	på	_	Target;Target[1]	3-1[14];3-4	false[1]	2[1]	_	
+3-8	48-56	förtryck	_	Target;Target[1]	3-1[14];3-4	false[1]	2[1]	_	
+3-9	56-57	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=I en debattartikel i  öppnar Eli Göndör möjligheten för hijab att vara en symbol för motstånd mot förtryck.
+5-1	68-69	I	_	_	_	_	_	_	
+5-2	70-72	en	_	_	_	_	_	_	
+5-3	73-86	debattartikel	_	_	_	_	_	_	
+5-4	87-88	i	_	_	_	_	_	_	
+5-5	90-96	öppnar	_	_	_	_	_	_	
+5-6	97-100	Eli	*[15]	_	_	_	_	6-1[17_15]	
+5-7	101-107	Göndör	*[15]	_	_	_	_	_	
+5-8	108-119	möjligheten	_	_	_	_	_	_	
+5-9	120-123	för	_	_	_	_	_	_	
+5-10	124-129	hijab	*	_	_	_	_	_	
+5-11	130-133	att	_	_	_	_	_	_	
+5-12	134-138	vara	_	_	_	_	_	_	
+5-13	139-141	en	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-14	142-148	symbol	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-15	149-152	för	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-16	153-161	motstånd	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-17	162-165	mot	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-18	166-174	förtryck	_	Target;Source[2]	5-10;5-6[15]	false[2]	4[2]	_	
+5-19	174-175	.	_	_	_	_	_	_	
+
+#Text=Han nämner flera exempel från islamiska länder om hur hijab använts som en symbol mot förtryck.
+6-1	176-179	Han	*[16]|*[17]	_	_	_	_	_	
+6-2	180-186	nämner	*[16]	_	_	_	_	_	
+6-3	187-192	flera	*[16]	_	_	_	_	_	
+6-4	193-200	exempel	*[16]	_	_	_	_	_	
+6-5	201-205	från	*[16]	_	_	_	_	_	
+6-6	206-215	islamiska	*[16]	_	_	_	_	_	
+6-7	216-222	länder	*[16]	_	_	_	_	_	
+6-8	223-225	om	_	_	_	_	_	_	
+6-9	226-229	hur	_	_	_	_	_	_	
+6-10	230-235	hijab	*	_	_	_	_	_	
+6-11	236-243	använts	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-12	244-247	som	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-13	248-250	en	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-14	251-257	symbol	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-15	258-261	mot	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-16	262-270	förtryck	_	Source;Target[3]	6-1[16];6-10	false[3]	4[3]	_	
+6-17	270-271	.	_	_	_	_	_	_	
+
+#Text=Åtminstone i fallet Iran är det som Göndör skriver, en sanning med modifikation.
+7-1	272-282	Åtminstone	_	_	_	_	_	_	
+7-2	283-284	i	_	_	_	_	_	_	
+7-3	285-291	fallet	_	_	_	_	_	_	
+7-4	292-296	Iran	_	_	_	_	_	_	
+7-5	297-299	är	_	_	_	_	_	_	
+7-6	300-303	det	_	_	_	_	_	_	
+7-7	304-307	som	_	_	_	_	_	_	
+7-8	308-314	Göndör	_	_	_	_	_	_	
+7-9	315-322	skriver	_	_	_	_	_	_	
+7-10	322-323	,	_	_	_	_	_	_	
+7-11	324-326	en	_	_	_	_	_	_	
+7-12	327-334	sanning	_	_	_	_	_	_	
+7-13	335-338	med	_	_	_	_	_	_	
+7-14	339-351	modifikation	_	_	_	_	_	_	
+7-15	351-352	.	_	_	_	_	_	_	
+
+#Text=Faktum är att i dagens Mellanöstern lever mer än 100 miljoner människor under lagar där det är obligatoriskt för kvinnor att bära slöja.
+8-1	353-359	Faktum	_	_	_	_	_	_	
+8-2	360-362	är	_	_	_	_	_	_	
+8-3	363-366	att	_	_	_	_	_	_	
+8-4	367-368	i	_	_	_	_	_	_	
+8-5	369-375	dagens	_	_	_	_	_	_	
+8-6	376-388	Mellanöstern	_	_	_	_	_	_	
+8-7	389-394	lever	_	_	_	_	_	_	
+8-8	395-398	mer	_	_	_	_	_	_	
+8-9	399-401	än	_	_	_	_	_	_	
+8-10	402-405	100	_	_	_	_	_	_	
+8-11	406-414	miljoner	_	_	_	_	_	_	
+8-12	415-424	människor	_	_	_	_	_	_	
+8-13	425-430	under	_	_	_	_	_	_	
+8-14	431-436	lagar	_	_	_	_	_	_	
+8-15	437-440	där	_	_	_	_	_	_	
+8-16	441-444	det	_	_	_	_	_	_	
+8-17	445-447	är	_	_	_	_	_	_	
+8-18	448-461	obligatoriskt	_	_	_	_	_	_	
+8-19	462-465	för	_	_	_	_	_	_	
+8-20	466-473	kvinnor	_	_	_	_	_	_	
+8-21	474-477	att	_	_	_	_	_	_	
+8-22	478-482	bära	_	_	_	_	_	_	
+8-23	483-488	slöja	_	_	_	_	_	_	
+8-24	488-489	.	_	_	_	_	_	_	
+
+#Text=I Iran är straffet för att inte bära hijab eller att bära det på fel sätt, 70 piskrapp eller 60 dagar i fängelse.
+9-1	490-491	I	_	_	_	_	_	_	
+9-2	492-496	Iran	_	_	_	_	_	_	
+9-3	497-499	är	_	_	_	_	_	_	
+9-4	500-508	straffet	_	_	_	_	_	_	
+9-5	509-512	för	_	_	_	_	_	_	
+9-6	513-516	att	_	_	_	_	_	_	
+9-7	517-521	inte	_	_	_	_	_	_	
+9-8	522-526	bära	_	_	_	_	_	_	
+9-9	527-532	hijab	_	_	_	_	_	_	
+9-10	533-538	eller	_	_	_	_	_	_	
+9-11	539-542	att	_	_	_	_	_	_	
+9-12	543-547	bära	_	_	_	_	_	_	
+9-13	548-551	det	_	_	_	_	_	_	
+9-14	552-554	på	_	_	_	_	_	_	
+9-15	555-558	fel	*[18]	Target	9-15[18]	false	2	_	
+9-16	559-563	sätt	*[18]	_	_	_	_	_	
+9-17	563-564	,	_	_	_	_	_	_	
+9-18	565-567	70	_	_	_	_	_	_	
+9-19	568-576	piskrapp	_	_	_	_	_	_	
+9-20	577-582	eller	_	_	_	_	_	_	
+9-21	583-585	60	_	_	_	_	_	_	
+9-22	586-591	dagar	_	_	_	_	_	_	
+9-23	592-593	i	_	_	_	_	_	_	
+9-24	594-602	fängelse	_	_	_	_	_	_	
+9-25	602-603	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	605-606	#	_	_	_	_	_	_	
+10-2	606-607	P	_	_	_	_	_	_	
+10-3	608-611	IMM	_	_	_	_	_	_	
+10-4	611-612	.	_	_	_	_	_	_	
+
+#Text=I stora delar av den islamiska världen finns det ett strukturellt förtryck som tvingar kvinnor att bära hijab.
+11-1	614-615	I	_	_	_	_	_	_	
+11-2	616-621	stora	*[19]	_	_	_	_	_	
+11-3	622-627	delar	*[19]	_	_	_	_	_	
+11-4	628-630	av	*[19]	_	_	_	_	_	
+11-5	631-634	den	*[19]	_	_	_	_	_	
+11-6	635-644	islamiska	*[19]	_	_	_	_	_	
+11-7	645-652	världen	*[19]	_	_	_	_	_	
+11-8	653-658	finns	_	_	_	_	_	_	
+11-9	659-662	det	_	_	_	_	_	_	
+11-10	663-666	ett	_	_	_	_	_	_	
+11-11	667-679	strukturellt	_	Target[4]	11-2[19]	false[4]	1[4]	_	
+11-12	680-688	förtryck	_	Target[4]	11-2[19]	false[4]	1[4]	_	
+11-13	689-692	som	_	_	_	_	_	_	
+11-14	693-700	tvingar	_	_	_	_	_	_	
+11-15	701-708	kvinnor	_	_	_	_	_	_	
+11-16	709-712	att	_	_	_	_	_	_	
+11-17	713-717	bära	_	_	_	_	_	_	
+11-18	718-723	hijab	_	_	_	_	_	_	
+11-19	723-724	.	_	_	_	_	_	_	
+
+#Text=Reaktionen från organisationer som Femen som tar av sig kläderna helt och hållet är en reaktion mot just detta strukturella förtryck, som ofta manifesterar sig våldsamt.
+12-1	725-735	Reaktionen	_	_	_	_	_	_	
+12-2	736-740	från	_	_	_	_	_	_	
+12-3	741-755	organisationer	_	_	_	_	_	_	
+12-4	756-759	som	_	_	_	_	_	_	
+12-5	760-765	Femen	_	_	_	_	_	_	
+12-6	766-769	som	_	_	_	_	_	_	
+12-7	770-773	tar	_	_	_	_	_	_	
+12-8	774-776	av	_	_	_	_	_	_	
+12-9	777-780	sig	_	_	_	_	_	_	
+12-10	781-789	kläderna	_	_	_	_	_	_	
+12-11	790-794	helt	_	_	_	_	_	_	
+12-12	795-798	och	_	_	_	_	_	_	
+12-13	799-805	hållet	_	_	_	_	_	_	
+12-14	806-808	är	_	_	_	_	_	_	
+12-15	809-811	en	_	_	_	_	_	_	
+12-16	812-820	reaktion	_	_	_	_	_	_	
+12-17	821-824	mot	_	_	_	_	_	_	
+12-18	825-829	just	_	_	_	_	_	_	
+12-19	830-835	detta	_	_[5]	_	false[5]	1[5]	_	
+12-20	836-848	strukturella	_	_[5]	_	false[5]	1[5]	_	
+12-21	849-857	förtryck	_	_[5]	_	false[5]	1[5]	_	
+12-22	857-858	,	_	_[5]	_	false[5]	1[5]	_	
+12-23	859-862	som	_	_[5]	_	false[5]	1[5]	_	
+12-24	863-867	ofta	_	_[5]	_	false[5]	1[5]	_	
+12-25	868-880	manifesterar	_	_[5]	_	false[5]	1[5]	_	
+12-26	881-884	sig	_	_[5]	_	false[5]	1[5]	_	
+12-27	885-893	våldsamt	_	_[5]	_	false[5]	1[5]	_	
+12-28	893-894	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	896-897	#	_	_	_	_	_	_	
+13-2	897-898	P	_	_	_	_	_	_	
+13-3	899-902	IMM	_	_	_	_	_	_	
+13-4	902-903	.	_	_	_	_	_	_	
+
+#Text=Misshandeln av en kvinna med hijab i Farsta är högst beklagligt och visar kanske till och med på en farlig utveckling i Sverige.
+14-1	905-916	Misshandeln	*[20]	_	_	_	_	_	
+14-2	917-919	av	*[20]	_	_	_	_	_	
+14-3	920-922	en	*[20]	_	_	_	_	_	
+14-4	923-929	kvinna	*[20]	_	_	_	_	_	
+14-5	930-933	med	*[20]	_	_	_	_	_	
+14-6	934-939	hijab	*[20]	_	_	_	_	_	
+14-7	940-941	i	*[20]	_	_	_	_	_	
+14-8	942-948	Farsta	*[20]	_	_	_	_	_	
+14-9	949-951	är	_	_	_	_	_	_	
+14-10	952-957	högst	_	Target[6]	14-1[20]	false[6]	2[6]	_	
+14-11	958-968	beklagligt	_	Target[6]	14-1[20]	false[6]	2[6]	_	
+14-12	969-972	och	_	_	_	_	_	_	
+14-13	973-978	visar	_	_	_	_	_	_	
+14-14	979-985	kanske	_	_	_	_	_	_	
+14-15	986-990	till	_	_	_	_	_	_	
+14-16	991-994	och	_	_	_	_	_	_	
+14-17	995-998	med	_	_	_	_	_	_	
+14-18	999-1001	på	_	_	_	_	_	_	
+14-19	1002-1004	en	_	_	_	_	_	_	
+14-20	1005-1011	farlig	_	Target	14-21[21]	false	2	_	
+14-21	1012-1022	utveckling	*[21]	_	_	_	_	_	
+14-22	1023-1024	i	*[21]	_	_	_	_	_	
+14-23	1025-1032	Sverige	*[21]	_	_	_	_	_	
+14-24	1032-1033	.	_	_	_	_	_	_	
+
+#Text=Detta är dock först och främst en våldsam handling som ska fördömas å det starkaste.
+15-1	1034-1039	Detta	_	_	_	_	_	_	
+15-2	1040-1042	är	_	_	_	_	_	_	
+15-3	1043-1047	dock	_	_	_	_	_	_	
+15-4	1048-1053	först	_	_	_	_	_	_	
+15-5	1054-1057	och	_	_	_	_	_	_	
+15-6	1058-1064	främst	_	_	_	_	_	_	
+15-7	1065-1067	en	*[22]	_	_	_	_	_	
+15-8	1068-1075	våldsam	*[22]	_	_	_	_	_	
+15-9	1076-1084	handling	*[22]	_	_	_	_	_	
+15-10	1085-1088	som	_	_	_	_	_	_	
+15-11	1089-1092	ska	_	Target[7]	15-7[22]	false[7]	1[7]	_	
+15-12	1093-1101	fördömas	_	Target[7]	15-7[22]	false[7]	1[7]	_	
+15-13	1102-1103	å	_	Target[7]	15-7[22]	false[7]	1[7]	_	
+15-14	1104-1107	det	_	Target[7]	15-7[22]	false[7]	1[7]	_	
+15-15	1108-1117	starkaste	_	Target[7]	15-7[22]	false[7]	1[7]	_	
+15-16	1117-1118	.	_	_	_	_	_	_	
+
+#Text=Om polisen kommer fram till att hon misshandlades på grund av att hon bar slöja så är detta till och med en motbjudande, rasistisk handling.
+16-1	1119-1121	Om	_	_	_	_	_	_	
+16-2	1122-1129	polisen	_	_	_	_	_	_	
+16-3	1130-1136	kommer	_	_	_	_	_	_	
+16-4	1137-1141	fram	_	_	_	_	_	_	
+16-5	1142-1146	till	_	_	_	_	_	_	
+16-6	1147-1150	att	_	_	_	_	_	_	
+16-7	1151-1154	hon	_	_	_	_	_	_	
+16-8	1155-1168	misshandlades	_	_	_	_	_	_	
+16-9	1169-1171	på	_	_	_	_	_	_	
+16-10	1172-1177	grund	_	_	_	_	_	_	
+16-11	1178-1180	av	_	_	_	_	_	_	
+16-12	1181-1184	att	_	_	_	_	_	_	
+16-13	1185-1188	hon	_	_	_	_	_	_	
+16-14	1189-1192	bar	_	_	_	_	_	_	
+16-15	1193-1198	slöja	_	_	_	_	_	_	
+16-16	1199-1201	så	_	_	_	_	_	_	
+16-17	1202-1204	är	_	_	_	_	_	_	
+16-18	1205-1210	detta	_	_	_	_	_	_	
+16-19	1211-1215	till	_	_	_	_	_	_	
+16-20	1216-1219	och	_	_	_	_	_	_	
+16-21	1220-1223	med	_	_	_	_	_	_	
+16-22	1224-1226	en	_	_	_	_	_	_	
+16-23	1227-1238	motbjudande	*[23]	Target[8]	16-23[23]	false[8]	1[8]	_	
+16-24	1238-1239	,	*[23]	Target[8]	16-23[23]	false[8]	1[8]	_	
+16-25	1240-1249	rasistisk	*[23]	Target[8]	16-23[23]	false[8]	1[8]	_	
+16-26	1250-1258	handling	*[23]	_	_	_	_	_	
+16-27	1258-1259	.	_	_	_	_	_	_	
+
+#Text=Men att från detta och några historiska fall dra slutsatsen att hijab kan fungera som en symbol mot förtryck är långsökt, populistiskt och ett hån mot alla de kvinnor som med våld har tvingats på slöjan.
+17-1	1260-1263	Men	_	_	_	_	_	_	
+17-2	1264-1267	att	*[24]	_	_	_	_	_	
+17-3	1268-1272	från	*[24]	_	_	_	_	_	
+17-4	1273-1278	detta	*[24]	_	_	_	_	_	
+17-5	1279-1282	och	*[24]	_	_	_	_	_	
+17-6	1283-1288	några	*[24]	_	_	_	_	_	
+17-7	1289-1299	historiska	*[24]	_	_	_	_	_	
+17-8	1300-1304	fall	*[24]	_	_	_	_	_	
+17-9	1305-1308	dra	*[24]	_	_	_	_	_	
+17-10	1309-1319	slutsatsen	*[24]	_	_	_	_	_	
+17-11	1320-1323	att	*[24]	_	_	_	_	_	
+17-12	1324-1329	hijab	*[24]	_	_	_	_	_	
+17-13	1330-1333	kan	*[24]	_	_	_	_	_	
+17-14	1334-1341	fungera	*[24]	_	_	_	_	_	
+17-15	1342-1345	som	*[24]	_	_	_	_	_	
+17-16	1346-1348	en	*[24]	_	_	_	_	_	
+17-17	1349-1355	symbol	*[24]	_	_	_	_	_	
+17-18	1356-1359	mot	*[24]	_	_	_	_	_	
+17-19	1360-1368	förtryck	*[24]	_	_	_	_	_	
+17-20	1369-1371	är	_	_	_	_	_	_	
+17-21	1372-1380	långsökt	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-22	1380-1381	,	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-23	1382-1394	populistiskt	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-24	1395-1398	och	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-25	1399-1402	ett	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-26	1403-1406	hån	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-27	1407-1410	mot	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-28	1411-1415	alla	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-29	1416-1418	de	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-30	1419-1426	kvinnor	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-31	1427-1430	som	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-32	1431-1434	med	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-33	1435-1439	våld	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-34	1440-1443	har	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-35	1444-1452	tvingats	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-36	1453-1455	på	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-37	1456-1462	slöjan	_	Target[9]	17-2[24]	false[9]	1[9]	_	
+17-38	1462-1463	.	_	_	_	_	_	_	
+
+#Text=Faktum är att för många kvinnor i världen är det en frihetshandling att ta av sig slöjan.
+18-1	1464-1470	Faktum	_	_	_	_	_	_	
+18-2	1471-1473	är	_	_	_	_	_	_	
+18-3	1474-1477	att	_	_	_	_	_	_	
+18-4	1478-1481	för	_	_	_	_	_	_	
+18-5	1482-1487	många	*[25]	_	_	_	_	_	
+18-6	1488-1495	kvinnor	*[25]	_	_	_	_	_	
+18-7	1496-1497	i	*[25]	_	_	_	_	_	
+18-8	1498-1505	världen	*[25]	_	_	_	_	_	
+18-9	1506-1508	är	_	_	_	_	_	_	
+18-10	1509-1512	det	_	_	_	_	_	_	
+18-11	1513-1515	en	_	Target;Source[10]	18-13[26];18-5[25]	false[10]	5[10]	_	
+18-12	1516-1531	frihetshandling	_	Target;Source[10]	18-13[26];18-5[25]	false[10]	5[10]	_	
+18-13	1532-1535	att	*[26]	_	_	_	_	_	
+18-14	1536-1538	ta	*[26]	_	_	_	_	_	
+18-15	1539-1541	av	*[26]	_	_	_	_	_	
+18-16	1542-1545	sig	*[26]	_	_	_	_	_	
+18-17	1546-1552	slöjan	*[26]	_	_	_	_	_	
+18-18	1552-1553	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1555-1556	#	_	_	_	_	_	_	
+19-2	1556-1557	P	_	_	_	_	_	_	
+19-3	1558-1561	IMM	_	_	_	_	_	_	
+19-4	1561-1562	.	_	_	_	_	_	_	
+
+#Text=Islamiska aktörer som Hamas, Hezbollah och regimen i Iran vill att hijab ska bli en symbol för motstånd.
+20-1	1564-1573	Islamiska	_	_	_	_	_	_	
+20-2	1574-1581	aktörer	_	_	_	_	_	_	
+20-3	1582-1585	som	_	_	_	_	_	_	
+20-4	1586-1591	Hamas	_	_	_	_	_	_	
+20-5	1591-1592	,	_	_	_	_	_	_	
+20-6	1593-1602	Hezbollah	_	_	_	_	_	_	
+20-7	1603-1606	och	_	_	_	_	_	_	
+20-8	1607-1614	regimen	_	_	_	_	_	_	
+20-9	1615-1616	i	_	_	_	_	_	_	
+20-10	1617-1621	Iran	_	_	_	_	_	_	
+20-11	1622-1626	vill	_	_	_	_	_	_	
+20-12	1627-1630	att	_	_	_	_	_	_	
+20-13	1631-1636	hijab	_	_	_	_	_	_	
+20-14	1637-1640	ska	_	_	_	_	_	_	
+20-15	1641-1644	bli	_	_	_	_	_	_	
+20-16	1645-1647	en	_	_	_	_	_	_	
+20-17	1648-1654	symbol	_	_	_	_	_	_	
+20-18	1655-1658	för	_	_	_	_	_	_	
+20-19	1659-1667	motstånd	_	_	_	_	_	_	
+20-20	1667-1668	.	_	_	_	_	_	_	
+
+#Text=Men detta är inte en del av en feministisk eller frihetlig agenda, utan det är en del av en agenda där man vill popularisera islamiska samhällen.
+21-1	1669-1672	Men	_	_	_	_	_	_	
+21-2	1673-1678	detta	_	_	_	_	_	_	
+21-3	1679-1681	är	_	_	_	_	_	_	
+21-4	1682-1686	inte	_	_	_	_	_	_	
+21-5	1687-1689	en	_	_	_	_	_	_	
+21-6	1690-1693	del	_	_	_	_	_	_	
+21-7	1694-1696	av	_	_	_	_	_	_	
+21-8	1697-1699	en	_	_	_	_	_	_	
+21-9	1700-1711	feministisk	_	_	_	_	_	_	
+21-10	1712-1717	eller	_	_	_	_	_	_	
+21-11	1718-1727	frihetlig	*[27]	Target	21-11[27]	false	4	_	
+21-12	1728-1734	agenda	*[27]	_	_	_	_	_	
+21-13	1734-1735	,	_	_	_	_	_	_	
+21-14	1736-1740	utan	_	_	_	_	_	_	
+21-15	1741-1744	det	_	_	_	_	_	_	
+21-16	1745-1747	är	_	_	_	_	_	_	
+21-17	1748-1750	en	_	_	_	_	_	_	
+21-18	1751-1754	del	_	_	_	_	_	_	
+21-19	1755-1757	av	_	_	_	_	_	_	
+21-20	1758-1760	en	_	_	_	_	_	_	
+21-21	1761-1767	agenda	_	_	_	_	_	_	
+21-22	1768-1771	där	_	_	_	_	_	_	
+21-23	1772-1775	man	_	_	_	_	_	_	
+21-24	1776-1780	vill	_	_	_	_	_	_	
+21-25	1781-1793	popularisera	_	_	_	_	_	_	
+21-26	1794-1803	islamiska	_	_	_	_	_	_	
+21-27	1804-1813	samhällen	_	_	_	_	_	_	
+21-28	1813-1814	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1816-1817	#	_	_	_	_	_	_	
+22-2	1817-1818	P	_	_	_	_	_	_	
+22-3	1819-1822	IMM	_	_	_	_	_	_	
+22-4	1822-1823	.	_	_	_	_	_	_	
+
+#Text=I den värld vi lever i med all strukturell och statlig förtryck som tvingar kvinnor att bära hijab så kan inte hijab vara en symbol mot förtryck.
+23-1	1825-1826	I	_	_	_	_	_	_	
+23-2	1827-1830	den	_	_	_	_	_	_	
+23-3	1831-1836	värld	_	_	_	_	_	_	
+23-4	1837-1839	vi	_	_	_	_	_	_	
+23-5	1840-1845	lever	_	_	_	_	_	_	
+23-6	1846-1847	i	_	_	_	_	_	_	
+23-7	1848-1851	med	_	_	_	_	_	_	
+23-8	1852-1855	all	_	_	_	_	_	_	
+23-9	1856-1867	strukturell	*[28]	Target[11]	23-9[28]	false[11]	1[11]	_	
+23-10	1868-1871	och	*[28]	Target[11]	23-9[28]	false[11]	1[11]	_	
+23-11	1872-1879	statlig	*[28]	Target[11]	23-9[28]	false[11]	1[11]	_	
+23-12	1880-1888	förtryck	*[28]	Target[11]	23-9[28]	false[11]	1[11]	_	
+23-13	1889-1892	som	_	_	_	_	_	_	
+23-14	1893-1900	tvingar	_	_	_	_	_	_	
+23-15	1901-1908	kvinnor	_	_	_	_	_	_	
+23-16	1909-1912	att	_	_	_	_	_	_	
+23-17	1913-1917	bära	_	_	_	_	_	_	
+23-18	1918-1923	hijab	_	_	_	_	_	_	
+23-19	1924-1926	så	_	_	_	_	_	_	
+23-20	1927-1930	kan	_	_	_	_	_	_	
+23-21	1931-1935	inte	_	_	_	_	_	_	
+23-22	1936-1941	hijab	_	_	_	_	_	_	
+23-23	1942-1946	vara	_	_	_	_	_	_	
+23-24	1947-1949	en	_	_	_	_	_	_	
+23-25	1950-1956	symbol	_	_	_	_	_	_	
+23-26	1957-1960	mot	_	_	_	_	_	_	
+23-27	1961-1969	förtryck	_	_	_	_	_	_	
+23-28	1969-1970	.	_	_	_	_	_	_	
+
+#Text=Man ska kunna bära de kläder man vill bära men många kvinnor i världen kan inte göra detta på grund av att dem är tvungna att bära hijab.
+24-1	1971-1974	Man	_	_	_	_	_	_	
+24-2	1975-1978	ska	_	_	_	_	_	_	
+24-3	1979-1984	kunna	_	_	_	_	_	_	
+24-4	1985-1989	bära	_	_	_	_	_	_	
+24-5	1990-1992	de	_	_	_	_	_	_	
+24-6	1993-1999	kläder	_	_	_	_	_	_	
+24-7	2000-2003	man	_	_	_	_	_	_	
+24-8	2004-2008	vill	_	_	_	_	_	_	
+24-9	2009-2013	bära	_	_	_	_	_	_	
+24-10	2014-2017	men	_	_	_	_	_	_	
+24-11	2018-2023	många	_	_	_	_	_	_	
+24-12	2024-2031	kvinnor	_	_	_	_	_	_	
+24-13	2032-2033	i	_	_	_	_	_	_	
+24-14	2034-2041	världen	_	_	_	_	_	_	
+24-15	2042-2045	kan	_	_	_	_	_	_	
+24-16	2046-2050	inte	_	_	_	_	_	_	
+24-17	2051-2055	göra	_	_	_	_	_	_	
+24-18	2056-2061	detta	_	_	_	_	_	_	
+24-19	2062-2064	på	_	_	_	_	_	_	
+24-20	2065-2070	grund	_	_	_	_	_	_	
+24-21	2071-2073	av	_	_	_	_	_	_	
+24-22	2074-2077	att	_	_	_	_	_	_	
+24-23	2078-2081	dem	_	_	_	_	_	_	
+24-24	2082-2084	är	_	_	_	_	_	_	
+24-25	2085-2092	tvungna	_	_	_	_	_	_	
+24-26	2093-2096	att	_	_	_	_	_	_	
+24-27	2097-2101	bära	_	_	_	_	_	_	
+24-28	2102-2107	hijab	_	_	_	_	_	_	
+24-29	2107-2108	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Föreningen för Demokrati i Iran” accepterar inte rasism men vi accepterar heller inte osynliggörandet av de iranska kvinnor som tvingas bära hijab varje dag.
+25-1	2110-2111	#	_	_	_	_	_	_	
+25-2	2111-2112	P	_	_	_	_	_	_	
+25-3	2113-2116	IMM	_	_	_	_	_	_	
+25-4	2116-2117	.	_	_	_	_	_	_	
+25-5	2119-2120	”	*[29]	_	_	_	_	25-16[0_29]	
+25-6	2120-2130	Föreningen	*[29]	_	_	_	_	_	
+25-7	2131-2134	för	*[29]	_	_	_	_	_	
+25-8	2135-2144	Demokrati	*[29]	_	_	_	_	_	
+25-9	2145-2146	i	*[29]	_	_	_	_	_	
+25-10	2147-2151	Iran	*[29]	_	_	_	_	_	
+25-11	2151-2152	”	*[29]	_	_	_	_	_	
+25-12	2153-2163	accepterar	_	Target;Source[12]	25-14;25-5[29]	false[12]	2[12]	_	
+25-13	2164-2168	inte	_	Target;Source[12]	25-14;25-5[29]	false[12]	2[12]	_	
+25-14	2169-2175	rasism	*	_	_	_	_	_	
+25-15	2176-2179	men	_	_	_	_	_	_	
+25-16	2180-2182	vi	*	_	_	_	_	_	
+25-17	2183-2193	accepterar	_	Source;Target[13]	25-16;25-20[30]	false[13]	2[13]	_	
+25-18	2194-2200	heller	_	Source;Target[13]	25-16;25-20[30]	false[13]	2[13]	_	
+25-19	2201-2205	inte	_	Source;Target[13]	25-16;25-20[30]	false[13]	2[13]	_	
+25-20	2206-2221	osynliggörandet	*[30]	_	_	_	_	_	
+25-21	2222-2224	av	*[30]	_	_	_	_	_	
+25-22	2225-2227	de	*[30]	_	_	_	_	_	
+25-23	2228-2235	iranska	*[30]	_	_	_	_	_	
+25-24	2236-2243	kvinnor	*[30]	_	_	_	_	_	
+25-25	2244-2247	som	*[30]	_	_	_	_	_	
+25-26	2248-2255	tvingas	*[30]	_	_	_	_	_	
+25-27	2256-2260	bära	*[30]	_	_	_	_	_	
+25-28	2261-2266	hijab	*[30]	_	_	_	_	_	
+25-29	2267-2272	varje	*[30]	_	_	_	_	_	
+25-30	2273-2276	dag	*[30]	_	_	_	_	_	
+25-31	2276-2277	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2279-2280	#	_	_	_	_	_	_	
+26-2	2280-2281	P	_	_	_	_	_	_	
+26-3	2282-2285	IMM	_	_	_	_	_	_	
+26-4	2285-2286	.	_	_	_	_	_	_	
+
+#Text=Ardavan Khoshnood, Ordförande Föreningen för Demokrati i Iran.
+27-1	2288-2295	Ardavan	_	_	_	_	_	_	
+27-2	2296-2305	Khoshnood	_	_	_	_	_	_	
+27-3	2305-2306	,	_	_	_	_	_	_	
+27-4	2307-2317	Ordförande	_	_	_	_	_	_	
+27-5	2318-2328	Föreningen	_	_	_	_	_	_	
+27-6	2329-2332	för	_	_	_	_	_	_	
+27-7	2333-2342	Demokrati	_	_	_	_	_	_	
+27-8	2343-2344	i	_	_	_	_	_	_	
+27-9	2345-2349	Iran	_	_	_	_	_	_	
+27-10	2349-2350	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2352-2353	#	_	_	_	_	_	_	
+28-2	2353-2354	P	_	_	_	_	_	_	
+28-3	2355-2358	IMM	_	_	_	_	_	_	
+28-4	2358-2359	.	_	_	_	_	_	_	
+
+#Text=Nima Gholam Ali Pour, Generalsekreterare Föreningen för Demokrati i Iran.
+29-1	2361-2365	Nima	_	_	_	_	_	_	
+29-2	2366-2372	Gholam	_	_	_	_	_	_	
+29-3	2373-2376	Ali	_	_	_	_	_	_	
+29-4	2377-2381	Pour	_	_	_	_	_	_	
+29-5	2381-2382	,	_	_	_	_	_	_	
+29-6	2383-2401	Generalsekreterare	_	_	_	_	_	_	
+29-7	2402-2412	Föreningen	_	_	_	_	_	_	
+29-8	2413-2416	för	_	_	_	_	_	_	
+29-9	2417-2426	Demokrati	_	_	_	_	_	_	
+29-10	2427-2428	i	_	_	_	_	_	_	
+29-11	2429-2433	Iran	_	_	_	_	_	_	
+29-12	2433-2434	.	_	_	_	_	_	_	

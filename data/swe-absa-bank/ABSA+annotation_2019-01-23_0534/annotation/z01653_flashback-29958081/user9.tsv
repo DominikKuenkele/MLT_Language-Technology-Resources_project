@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Byt fiende!
+3-1	18-21	Byt	_	_	_	_	_	_	
+3-2	22-28	fiende	_	_	_	_	_	_	
+3-3	28-29	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	31-32	#	_	_	_	_	_	_	
+4-2	32-33	P	_	_	_	_	_	_	
+4-3	34-37	IMM	_	_	_	_	_	_	
+4-4	37-38	.	_	_	_	_	_	_	
+
+#Text=Vore det inte bättre att ge sig på topparna i samhället istället för att hålla på och tramsa med landets 500nationella?.
+5-1	40-44	Vore	_	Target[1]	5-5[8]	false[1]	4[1]	_	
+5-2	45-48	det	_	Target[1]	5-5[8]	false[1]	4[1]	_	
+5-3	49-53	inte	_	Target[1]	5-5[8]	false[1]	4[1]	_	
+5-4	54-60	bättre	_	Target[1]	5-5[8]	false[1]	4[1]	_	
+5-5	61-64	att	*[8]	_	_	_	_	_	
+5-6	65-67	ge	*[8]	_	_	_	_	_	
+5-7	68-71	sig	*[8]	_	_	_	_	_	
+5-8	72-74	på	*[8]	_	_	_	_	_	
+5-9	75-83	topparna	*[8]	_	_	_	_	_	
+5-10	84-85	i	*[8]	_	_	_	_	_	
+5-11	86-95	samhället	*[8]	_	_	_	_	_	
+5-12	96-104	istället	_	_	_	_	_	_	
+5-13	105-108	för	_	_	_	_	_	_	
+5-14	109-112	att	_	_	_	_	_	_	
+5-15	113-118	hålla	_	_[2]	_	false[2]	2[2]	_	
+5-16	119-121	på	_	_[2]	_	false[2]	2[2]	_	
+5-17	122-125	och	_	_[2]	_	false[2]	2[2]	_	
+5-18	126-132	tramsa	_	_[2]	_	false[2]	2[2]	_	
+5-19	133-136	med	_	_	_	_	_	_	
+5-20	137-144	landets	_	_	_	_	_	_	
+5-21	145-158	500nationella	_	_	_	_	_	_	
+5-22	158-159	?	_	_	_	_	_	_	
+5-23	159-160	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	162-163	#	_	_	_	_	_	_	
+6-2	163-164	P	_	_	_	_	_	_	
+6-3	165-168	IMM	_	_	_	_	_	_	
+6-4	168-169	.	_	_	_	_	_	_	
+
+#Text=Skulle det startas upp en organisation som gick till anfall på giriga direktörer som roffar åt sig fallskärmar och skor sig på vanligt folk skulle ni få fan så mycket bättre reklam för er sak.
+7-1	171-177	Skulle	_	_	_	_	_	_	
+7-2	178-181	det	_	_	_	_	_	_	
+7-3	182-189	startas	_	_	_	_	_	_	
+7-4	190-193	upp	_	_	_	_	_	_	
+7-5	194-196	en	_	_	_	_	_	_	
+7-6	197-209	organisation	_	_	_	_	_	_	
+7-7	210-213	som	_	_	_	_	_	_	
+7-8	214-218	gick	_	_	_	_	_	_	
+7-9	219-223	till	_	_	_	_	_	_	
+7-10	224-230	anfall	_	_	_	_	_	_	
+7-11	231-233	på	_	_	_	_	_	_	
+7-12	234-240	giriga	*[9]|*[10]	_	_	_	_	7-14[12_10]|7-14[11_9]	
+7-13	241-251	direktörer	*[9]|*[10]	_	_	_	_	_	
+7-14	252-255	som	*[11]|*[12]	_	_	_	_	_	
+7-15	256-262	roffar	_	Target[3]	7-14[11]	false[3]	2[3]	_	
+7-16	263-265	åt	_	Target[3]	7-14[11]	false[3]	2[3]	_	
+7-17	266-269	sig	_	Target[3]	7-14[11]	false[3]	2[3]	_	
+7-18	270-281	fallskärmar	_	_	_	_	_	_	
+7-19	282-285	och	_	_	_	_	_	_	
+7-20	286-290	skor	_	Target[4]	7-14[12]	false[4]	2[4]	_	
+7-21	291-294	sig	_	Target[4]	7-14[12]	false[4]	2[4]	_	
+7-22	295-297	på	_	Target[4]	7-14[12]	false[4]	2[4]	_	
+7-23	298-305	vanligt	_	Target[4]	7-14[12]	false[4]	2[4]	_	
+7-24	306-310	folk	_	Target[4]	7-14[12]	false[4]	2[4]	_	
+7-25	311-317	skulle	_	_	_	_	_	_	
+7-26	318-320	ni	_	_	_	_	_	_	
+7-27	321-323	få	_	_	_	_	_	_	
+7-28	324-327	fan	_	Target[5]	7-32	false[5]	4[5]	_	
+7-29	328-330	så	_	Target[5]	7-32	false[5]	4[5]	_	
+7-30	331-337	mycket	_	Target[5]	7-32	false[5]	4[5]	_	
+7-31	338-344	bättre	_	Target[5]	7-32	false[5]	4[5]	_	
+7-32	345-351	reklam	*	_	_	_	_	_	
+7-33	352-355	för	_	_	_	_	_	_	
+7-34	356-358	er	_	_	_	_	_	_	
+7-35	359-362	sak	_	_	_	_	_	_	
+7-36	362-363	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	365-366	#	_	_	_	_	_	_	
+8-2	366-367	P	_	_	_	_	_	_	
+8-3	368-371	IMM	_	_	_	_	_	_	
+8-4	371-372	.	_	_	_	_	_	_	
+
+#Text=Nu vet ju asen om att dom sitter säkert.Visst det blir lite jobbigt i pressen varje gång dom åker dit,men dom lämnar inte tillbaks en spänn och vet att svennson har glömt bort allt efter en vecka.
+9-1	374-376	Nu	_	_	_	_	_	_	
+9-2	377-380	vet	_	_	_	_	_	_	
+9-3	381-383	ju	_	_	_	_	_	_	
+9-4	384-388	asen	*	Target	9-4	false	1	_	
+9-5	389-391	om	_	_	_	_	_	_	
+9-6	392-395	att	_	_	_	_	_	_	
+9-7	396-399	dom	_	_	_	_	_	_	
+9-8	400-406	sitter	_	_	_	_	_	_	
+9-9	407-419	säkert.Visst	_	_	_	_	_	_	
+9-10	420-423	det	_	_	_	_	_	_	
+9-11	424-428	blir	_	_	_	_	_	_	
+9-12	429-433	lite	_	_	_	_	_	_	
+9-13	434-441	jobbigt	_	_	_	_	_	_	
+9-14	442-443	i	_	_	_	_	_	_	
+9-15	444-451	pressen	_	_	_	_	_	_	
+9-16	452-457	varje	_	_	_	_	_	_	
+9-17	458-462	gång	_	_	_	_	_	_	
+9-18	463-466	dom	_	_	_	_	_	_	
+9-19	467-471	åker	_	_	_	_	_	_	
+9-20	472-475	dit	_	_	_	_	_	_	
+9-21	475-476	,	_	_	_	_	_	_	
+9-22	476-479	men	_	_	_	_	_	_	
+9-23	480-483	dom	_	_	_	_	_	_	
+9-24	484-490	lämnar	_	_	_	_	_	_	
+9-25	491-495	inte	_	_	_	_	_	_	
+9-26	496-504	tillbaks	_	_	_	_	_	_	
+9-27	505-507	en	_	_	_	_	_	_	
+9-28	508-513	spänn	_	_	_	_	_	_	
+9-29	514-517	och	_	_	_	_	_	_	
+9-30	518-521	vet	_	_	_	_	_	_	
+9-31	522-525	att	_	_	_	_	_	_	
+9-32	526-534	svennson	_	_	_	_	_	_	
+9-33	535-538	har	_	_	_	_	_	_	
+9-34	539-544	glömt	_	_	_	_	_	_	
+9-35	545-549	bort	_	_	_	_	_	_	
+9-36	550-554	allt	_	_	_	_	_	_	
+9-37	555-560	efter	_	_	_	_	_	_	
+9-38	561-563	en	_	_	_	_	_	_	
+9-39	564-569	vecka	_	_	_	_	_	_	
+9-40	569-570	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	572-573	#	_	_	_	_	_	_	
+10-2	573-574	P	_	_	_	_	_	_	
+10-3	575-578	IMM	_	_	_	_	_	_	
+10-4	578-579	.	_	_	_	_	_	_	
+
+#Text=Skulle det däremot börja komma lite konkreta dödshot,en brevbomb,kanske en avslagen benpipa då kanske dom giriga parasiterna som är den verkliga fienden skulle tänka sig för lite nogrannare nästa gång dom ämnar stjäla folkets pengar!.
+11-1	581-587	Skulle	_	_	_	_	_	_	
+11-2	588-591	det	_	_	_	_	_	_	
+11-3	592-599	däremot	_	_	_	_	_	_	
+11-4	600-605	börja	_	_	_	_	_	_	
+11-5	606-611	komma	_	_	_	_	_	_	
+11-6	612-616	lite	_	_	_	_	_	_	
+11-7	617-625	konkreta	_	_	_	_	_	_	
+11-8	626-633	dödshot	_	_	_	_	_	_	
+11-9	633-634	,	_	_	_	_	_	_	
+11-10	634-636	en	_	_	_	_	_	_	
+11-11	637-645	brevbomb	_	_	_	_	_	_	
+11-12	645-646	,	_	_	_	_	_	_	
+11-13	646-652	kanske	_	_	_	_	_	_	
+11-14	653-655	en	_	_	_	_	_	_	
+11-15	656-664	avslagen	_	_	_	_	_	_	
+11-16	665-672	benpipa	_	_	_	_	_	_	
+11-17	673-675	då	_	_	_	_	_	_	
+11-18	676-682	kanske	_	_	_	_	_	_	
+11-19	683-686	dom	_	_	_	_	_	_	
+11-20	687-693	giriga	*[13]|*[14]	Target[6]	11-20[13]	false[6]	1[6]	11-22[0_14]	
+11-21	694-705	parasiterna	*[13]|*[14]	Target[6]	11-20[13]	false[6]	1[6]	_	
+11-22	706-709	som	*	_	_	_	_	_	
+11-23	710-712	är	_	Target[7]	11-22	false[7]	2[7]	_	
+11-24	713-716	den	_	Target[7]	11-22	false[7]	2[7]	_	
+11-25	717-725	verkliga	_	Target[7]	11-22	false[7]	2[7]	_	
+11-26	726-733	fienden	_	Target[7]	11-22	false[7]	2[7]	_	
+11-27	734-740	skulle	_	_	_	_	_	_	
+11-28	741-746	tänka	_	_	_	_	_	_	
+11-29	747-750	sig	_	_	_	_	_	_	
+11-30	751-754	för	_	_	_	_	_	_	
+11-31	755-759	lite	_	_	_	_	_	_	
+11-32	760-770	nogrannare	_	_	_	_	_	_	
+11-33	771-776	nästa	_	_	_	_	_	_	
+11-34	777-781	gång	_	_	_	_	_	_	
+11-35	782-785	dom	_	_	_	_	_	_	
+11-36	786-791	ämnar	_	_	_	_	_	_	
+11-37	792-798	stjäla	_	_	_	_	_	_	
+11-38	799-806	folkets	_	_	_	_	_	_	
+11-39	807-813	pengar	_	_	_	_	_	_	
+11-40	813-814	!	_	_	_	_	_	_	
+11-41	814-815	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	817-818	#	_	_	_	_	_	_	
+12-2	818-819	P	_	_	_	_	_	_	
+12-3	820-823	IMM	_	_	_	_	_	_	
+12-4	823-824	.	_	_	_	_	_	_	
+
+#Text=Makten vill att extremhögern och vänstern skall bekämpa varann så att dom kan sko sig i lugn och ro.
+13-1	826-832	Makten	_	_	_	_	_	_	
+13-2	833-837	vill	_	_	_	_	_	_	
+13-3	838-841	att	_	_	_	_	_	_	
+13-4	842-854	extremhögern	_	_	_	_	_	_	
+13-5	855-858	och	_	_	_	_	_	_	
+13-6	859-867	vänstern	_	_	_	_	_	_	
+13-7	868-873	skall	_	_	_	_	_	_	
+13-8	874-881	bekämpa	_	_	_	_	_	_	
+13-9	882-888	varann	_	_	_	_	_	_	
+13-10	889-891	så	_	_	_	_	_	_	
+13-11	892-895	att	_	_	_	_	_	_	
+13-12	896-899	dom	_	_	_	_	_	_	
+13-13	900-903	kan	_	_	_	_	_	_	
+13-14	904-907	sko	_	_	_	_	_	_	
+13-15	908-911	sig	_	_	_	_	_	_	
+13-16	912-913	i	_	_	_	_	_	_	
+13-17	914-918	lugn	_	_	_	_	_	_	
+13-18	919-922	och	_	_	_	_	_	_	
+13-19	923-925	ro	_	_	_	_	_	_	
+13-20	925-926	.	_	_	_	_	_	_	

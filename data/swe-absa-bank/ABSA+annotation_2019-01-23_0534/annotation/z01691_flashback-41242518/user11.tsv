@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Miljöpartiet erkänner kostnaderna och konsekvenserna för flyktingpolitiken!
+3-1	18-30	Miljöpartiet	_	_	_	_	_	
+3-2	31-39	erkänner	_	_	_	_	_	
+3-3	40-51	kostnaderna	_	_	_	_	_	
+3-4	52-55	och	_	_	_	_	_	
+3-5	56-70	konsekvenserna	_	_	_	_	_	
+3-6	71-74	för	_	_	_	_	_	
+3-7	75-92	flyktingpolitiken	_	_	_	_	_	
+3-8	92-93	!	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	95-96	#	_	_	_	_	_	
+4-2	96-97	P	_	_[3]	_	false[3]	3[3]	
+4-3	98-101	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	101-102	.	_	_	_	_	_	
+
+#Text=Det här är väl en mindre sensation.
+5-1	104-107	Det	*[14]	_	_	_	_	
+5-2	108-111	här	*[14]	_	_	_	_	
+5-3	112-114	är	_	_	_	_	_	
+5-4	115-118	väl	_	_	_	_	_	
+5-5	119-121	en	_	_	_	_	_	
+5-6	122-128	mindre	_	Target[4]	5-1[14]	false[4]	2[4]	
+5-7	129-138	sensation	_	Target[4]	5-1[14]	false[4]	2[4]	
+5-8	138-139	.	_	_	_	_	_	
+
+#Text=Mats Pertoft (Mp) säger i rapport idag (3/1) att satsningar på bland annat skola och och annan samhällsservice får stå undan på grund av kommunernas kostnader för invandrares försörjningsstöd.
+6-1	141-145	Mats	_	_	_	_	_	
+6-2	146-153	Pertoft	_	_	_	_	_	
+6-3	154-155	(	_	_	_	_	_	
+6-4	155-157	Mp	_	_	_	_	_	
+6-5	157-158	)	_	_	_	_	_	
+6-6	159-164	säger	_	_	_	_	_	
+6-7	165-166	i	_	_	_	_	_	
+6-8	167-174	rapport	_	_	_	_	_	
+6-9	175-179	idag	_	_	_	_	_	
+6-10	180-181	(	_	_	_	_	_	
+6-11	181-182	3	_	_	_	_	_	
+6-12	182-183	/	_	_	_	_	_	
+6-13	183-184	1	_	_	_	_	_	
+6-14	184-185	)	_	_	_	_	_	
+6-15	186-189	att	_	_	_	_	_	
+6-16	190-200	satsningar	_	_	_	_	_	
+6-17	201-203	på	_	_	_	_	_	
+6-18	204-209	bland	_	_	_	_	_	
+6-19	210-215	annat	_	_	_	_	_	
+6-20	216-221	skola	_	_	_	_	_	
+6-21	222-225	och	_	_	_	_	_	
+6-22	226-229	och	_	_	_	_	_	
+6-23	230-235	annan	_	_	_	_	_	
+6-24	236-251	samhällsservice	_	_	_	_	_	
+6-25	252-255	får	_	_	_	_	_	
+6-26	256-259	stå	_	_	_	_	_	
+6-27	260-265	undan	_	_	_	_	_	
+6-28	266-268	på	_	_	_	_	_	
+6-29	269-274	grund	_	_	_	_	_	
+6-30	275-277	av	_	_	_	_	_	
+6-31	278-289	kommunernas	_	_	_	_	_	
+6-32	290-299	kostnader	_	_	_	_	_	
+6-33	300-303	för	_	_	_	_	_	
+6-34	304-315	invandrares	_	_	_	_	_	
+6-35	316-332	försörjningsstöd	_	_	_	_	_	
+6-36	332-333	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	335-336	#	_	_	_	_	_	
+7-2	336-337	P	_	_[5]	_	false[5]	3[5]	
+7-3	338-341	IMM	_	_[5]	_	false[5]	3[5]	
+7-4	341-342	.	_	_	_	_	_	
+
+#Text=Miljöpartiet kräver därför att staten ska ta det fulla ekonomiska ansvaret för nyanlända invandrare/flyktingar.
+8-1	344-356	Miljöpartiet	_	_	_	_	_	
+8-2	357-363	kräver	_	Target	8-5[15]	false	2	
+8-3	364-370	därför	_	_	_	_	_	
+8-4	371-374	att	_	_	_	_	_	
+8-5	375-381	staten	*[15]	_	_	_	_	
+8-6	382-385	ska	*[15]	_	_	_	_	
+8-7	386-388	ta	*[15]	_	_	_	_	
+8-8	389-392	det	*[15]	_	_	_	_	
+8-9	393-398	fulla	*[15]	_	_	_	_	
+8-10	399-409	ekonomiska	*[15]	_	_	_	_	
+8-11	410-418	ansvaret	*[15]	_	_	_	_	
+8-12	419-422	för	*[15]	_	_	_	_	
+8-13	423-432	nyanlända	*[15]	_	_	_	_	
+8-14	433-443	invandrare	*[15]	_	_	_	_	
+8-15	443-444	/	*[15]	_	_	_	_	
+8-16	444-454	flyktingar	*[15]	_	_	_	_	
+8-17	454-455	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	457-458	#	_	_	_	_	_	
+9-2	458-459	P	_	_[6]	_	false[6]	2[6]	
+9-3	460-463	IMM	_	_[6]	_	false[6]	2[6]	
+9-4	463-464	.	_	_	_	_	_	
+
+#Text=Här erkänner alltså en företrädare för det mest flyktingkramande partiet att kostnaden för invandringspolitiken orsakar neddragningar inom andra sektorer!
+10-1	466-469	Här	_	_	_	_	_	
+10-2	470-478	erkänner	_	_	_	_	_	
+10-3	479-485	alltså	_	_	_	_	_	
+10-4	486-488	en	_	_	_	_	_	
+10-5	489-500	företrädare	_	_	_	_	_	
+10-6	501-504	för	_	_	_	_	_	
+10-7	505-508	det	_	_	_	_	_	
+10-8	509-513	mest	_	_	_	_	_	
+10-9	514-530	flyktingkramande	_	Target	10-10	false	2	
+10-10	531-538	partiet	*	_	_	_	_	
+10-11	539-542	att	_	_	_	_	_	
+10-12	543-552	kostnaden	_	_	_	_	_	
+10-13	553-556	för	_	_	_	_	_	
+10-14	557-577	invandringspolitiken	*	_	_	_	_	
+10-15	578-585	orsakar	_	Target[7]	10-14	false[7]	2[7]	
+10-16	586-599	neddragningar	_	Target[7]	10-14	false[7]	2[7]	
+10-17	600-604	inom	_	Target[7]	10-14	false[7]	2[7]	
+10-18	605-610	andra	_	Target[7]	10-14	false[7]	2[7]	
+10-19	611-619	sektorer	_	Target[7]	10-14	false[7]	2[7]	
+10-20	619-620	!	_	_	_	_	_	
+
+#Text=Hur länge får Mats Pertoft sitta kvar i mp tror ni?.
+11-1	621-624	Hur	_	_	_	_	_	
+11-2	625-630	länge	_	_	_	_	_	
+11-3	631-634	får	_	_	_	_	_	
+11-4	635-639	Mats	_	_	_	_	_	
+11-5	640-647	Pertoft	_	_	_	_	_	
+11-6	648-653	sitta	_	_	_	_	_	
+11-7	654-658	kvar	_	_	_	_	_	
+11-8	659-660	i	_	_	_	_	_	
+11-9	661-663	mp	_	_	_	_	_	
+11-10	664-668	tror	_	_	_	_	_	
+11-11	669-671	ni	_	_	_	_	_	
+11-12	671-672	?	_	_	_	_	_	
+11-13	672-673	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	675-676	#	_	_	_	_	_	
+12-2	676-677	P	_	_[8]	_	false[8]	2[8]	
+12-3	678-681	IMM	_	_[8]	_	false[8]	2[8]	
+12-4	681-682	.	_	_	_	_	_	
+
+#Text=Det skulle väl vara bra om kommuner slipper denna belastning men Mp fattar dock inte att statens pengar är skattebetalarnas pengar och att om då staten får ta det fulla ansvaret så är det något annat som får stryka på foten.
+13-1	684-687	Det	_	_	_	_	_	
+13-2	688-694	skulle	_	Target[9]	13-7[16]	false[9]	4[9]	
+13-3	695-698	väl	_	Target[9]	13-7[16]	false[9]	4[9]	
+13-4	699-703	vara	_	Target[9]	13-7[16]	false[9]	4[9]	
+13-5	704-707	bra	_	Target[9]	13-7[16]	false[9]	4[9]	
+13-6	708-710	om	_	_	_	_	_	
+13-7	711-719	kommuner	*[16]	_	_	_	_	
+13-8	720-727	slipper	*[16]	_	_	_	_	
+13-9	728-733	denna	*[16]	_	_	_	_	
+13-10	734-744	belastning	*[16]	_	_	_	_	
+13-11	745-748	men	_	_	_	_	_	
+13-12	749-751	Mp	*	_	_	_	_	
+13-13	752-758	fattar	_	Target[10]	13-12	false[10]	2[10]	
+13-14	759-763	dock	_	Target[10]	13-12	false[10]	2[10]	
+13-15	764-768	inte	_	Target[10]	13-12	false[10]	2[10]	
+13-16	769-772	att	_	_	_	_	_	
+13-17	773-780	statens	_	_	_	_	_	
+13-18	781-787	pengar	_	_	_	_	_	
+13-19	788-790	är	_	_	_	_	_	
+13-20	791-807	skattebetalarnas	_	_	_	_	_	
+13-21	808-814	pengar	_	_	_	_	_	
+13-22	815-818	och	_	_	_	_	_	
+13-23	819-822	att	_	_	_	_	_	
+13-24	823-825	om	*[17]	_	_	_	_	
+13-25	826-828	då	*[17]	_	_	_	_	
+13-26	829-835	staten	*[17]	_	_	_	_	
+13-27	836-839	får	*[17]	_	_	_	_	
+13-28	840-842	ta	*[17]	_	_	_	_	
+13-29	843-846	det	*[17]	_	_	_	_	
+13-30	847-852	fulla	*[17]	_	_	_	_	
+13-31	853-861	ansvaret	*[17]	_	_	_	_	
+13-32	862-864	så	_	_	_	_	_	
+13-33	865-867	är	_	_	_	_	_	
+13-34	868-871	det	_	_	_	_	_	
+13-35	872-877	något	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-36	878-883	annat	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-37	884-887	som	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-38	888-891	får	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-39	892-898	stryka	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-40	899-901	på	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-41	902-907	foten	_	Target[11]	13-24[17]	false[11]	2[11]	
+13-42	907-908	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	910-911	#	_	_	_	_	_	
+14-2	911-912	P	_	_[12]	_	false[12]	2[12]	
+14-3	913-916	IMM	_	_[12]	_	false[12]	2[12]	
+14-4	916-917	.	_	_	_	_	_	
+
+#Text=Det här är ju ett helt vidöppet mål för Sd.....
+15-1	919-922	Det	_	_	_	_	_	
+15-2	923-926	här	_	_	_	_	_	
+15-3	927-929	är	_	_	_	_	_	
+15-4	930-932	ju	_	_	_	_	_	
+15-5	933-936	ett	_	_	_	_	_	
+15-6	937-941	helt	_	Target[13]	15-10	false[13]	4[13]	
+15-7	942-950	vidöppet	_	Target[13]	15-10	false[13]	4[13]	
+15-8	951-954	mål	_	Target[13]	15-10	false[13]	4[13]	
+15-9	955-958	för	_	_	_	_	_	
+15-10	959-961	Sd	*	_	_	_	_	
+15-11	961-962	.	_	_	_	_	_	
+15-12	962-963	.	_	_	_	_	_	
+15-13	963-964	.	_	_	_	_	_	
+15-14	964-965	.	_	_	_	_	_	
+15-15	965-966	.	_	_	_	_	_	

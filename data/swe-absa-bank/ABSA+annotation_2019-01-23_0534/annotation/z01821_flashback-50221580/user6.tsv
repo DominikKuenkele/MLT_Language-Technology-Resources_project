@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Reinfeldt använder invandringen till att ta makten eller finns moraliska skäl.
+3-1	18-27	Reinfeldt	_	_	_	_	_	
+3-2	28-36	använder	_	_	_	_	_	
+3-3	37-49	invandringen	_	_	_	_	_	
+3-4	50-54	till	_	_	_	_	_	
+3-5	55-58	att	_	_	_	_	_	
+3-6	59-61	ta	_	_	_	_	_	
+3-7	62-68	makten	_	_	_	_	_	
+3-8	69-74	eller	_	_	_	_	_	
+3-9	75-80	finns	_	_	_	_	_	
+3-10	81-90	moraliska	_	_	_	_	_	
+3-11	91-95	skäl	_	_	_	_	_	
+3-12	95-96	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	98-99	#	_	_	_	_	_	
+4-2	99-100	P	_	_	_	_	_	
+4-3	101-104	IMM	_	_	_	_	_	
+4-4	104-105	.	_	_	_	_	_	
+
+#Text=Jag anser att Reinfeldt använder hög invandring till att ta makten i ett framtida fattigare Sverige.
+5-1	107-110	Jag	_	_	_	_	_	
+5-2	111-116	anser	_	_	_	_	_	
+5-3	117-120	att	_	_	_	_	_	
+5-4	121-130	Reinfeldt	_	_	_	_	_	
+5-5	131-139	använder	_	_	_	_	_	
+5-6	140-143	hög	_	Target	5-7	false	2	
+5-7	144-154	invandring	*	_	_	_	_	
+5-8	155-159	till	_	_	_	_	_	
+5-9	160-163	att	_	_	_	_	_	
+5-10	164-166	ta	_	_	_	_	_	
+5-11	167-173	makten	_	_	_	_	_	
+5-12	174-175	i	_	_	_	_	_	
+5-13	176-179	ett	_	_	_	_	_	
+5-14	180-188	framtida	_	_	_	_	_	
+5-15	189-198	fattigare	_	Target	5-16	false	2	
+5-16	199-206	Sverige	*	_	_	_	_	
+5-17	206-207	.	_	_	_	_	_	
+
+#Text=Tror ni Reinfeldt överhuvudtaget har några moraliska skäl till att ta emot invandrare?
+6-1	208-212	Tror	_	_	_	_	_	
+6-2	213-215	ni	_	_	_	_	_	
+6-3	216-225	Reinfeldt	*	_	_	_	_	
+6-4	226-240	överhuvudtaget	_	Target	6-3	false	2	
+6-5	241-244	har	_	_	_	_	_	
+6-6	245-250	några	_	_	_	_	_	
+6-7	251-260	moraliska	_	_	_	_	_	
+6-8	261-265	skäl	_	_	_	_	_	
+6-9	266-270	till	_	_	_	_	_	
+6-10	271-274	att	_	_	_	_	_	
+6-11	275-277	ta	_	_	_	_	_	
+6-12	278-282	emot	_	_	_	_	_	
+6-13	283-293	invandrare	_	_	_	_	_	
+6-14	293-294	?	_	_	_	_	_	
+
+#Text=Jag tänker på humanitära skäl, som att hjälpa människor på flykt, att ge människor i världen en bättre framtid?.
+7-1	295-298	Jag	_	_	_	_	_	
+7-2	299-305	tänker	_	_	_	_	_	
+7-3	306-308	på	_	_	_	_	_	
+7-4	309-319	humanitära	_	Target[1]|Target[2]	7-8[3]|7-5	false[1]|false[2]	4[1]|4[2]	
+7-5	320-324	skäl	*	Target[1]	7-8[3]	false[1]	4[1]	
+7-6	324-325	,	_	_	_	_	_	
+7-7	326-329	som	_	_	_	_	_	
+7-8	330-333	att	*[3]	_	_	_	_	
+7-9	334-340	hjälpa	*[3]	_	_	_	_	
+7-10	341-350	människor	*[3]	_	_	_	_	
+7-11	351-353	på	*[3]	_	_	_	_	
+7-12	354-359	flykt	*[3]	_	_	_	_	
+7-13	359-360	,	*[3]	_	_	_	_	
+7-14	361-364	att	*[3]	_	_	_	_	
+7-15	365-367	ge	*[3]	_	_	_	_	
+7-16	368-377	människor	*[3]	_	_	_	_	
+7-17	378-379	i	*[3]	_	_	_	_	
+7-18	380-387	världen	*[3]	_	_	_	_	
+7-19	388-390	en	*[3]	_	_	_	_	
+7-20	391-397	bättre	*[3]	_	_	_	_	
+7-21	398-405	framtid	*[3]	_	_	_	_	
+7-22	405-406	?	_	_	_	_	_	
+7-23	406-407	.	_	_	_	_	_	

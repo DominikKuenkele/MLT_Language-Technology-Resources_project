@@ -1,0 +1,977 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	_	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=SD: Ta bort möjlighet att söka asyl vid gränsen.
+3-1	18-20	SD	_	_	_	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	_	_	
+3-3	22-24	Ta	_	_	_	_	_	_	_	
+3-4	25-29	bort	_	_	_	_	_	_	_	
+3-5	30-39	möjlighet	_	Target	3-6[29]	false	4	_	_	
+3-6	40-43	att	*[29]	_	_	_	_	_	_	
+3-7	44-48	söka	*[29]	_	_	_	_	_	_	
+3-8	49-53	asyl	*[29]	_	_	_	_	_	_	
+3-9	54-57	vid	*[29]	_	_	_	_	_	_	
+3-10	58-65	gränsen	*[29]	_	_	_	_	_	_	
+3-11	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_[3]	_	false[3]	2[3]	_	_	
+4-2	69-70	P	_	_[3]	_	false[3]	2[3]	_	_	
+4-3	71-74	IMM	_	_[3]	_	false[3]	2[3]	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=Vi välkomnar regeringens senaste förslag om skärpt asylpolitik som Sverigedemokraterna efterfrågat under lång tid.
+5-1	77-79	Vi	_	_	_	_	_	_	_	
+5-2	80-89	välkomnar	_	_	_	_	_	_	_	
+5-3	90-101	regeringens	_	_	_	_	_	_	_	
+5-4	102-109	senaste	_	_	_	_	_	_	_	
+5-5	110-117	förslag	_	_	_	_	_	_	_	
+5-6	118-120	om	_	_	_	_	_	_	_	
+5-7	121-127	skärpt	_	_	_	_	_	_	_	
+5-8	128-139	asylpolitik	_	_	_	_	_	_	_	
+5-9	140-143	som	_	_	_	_	_	_	_	
+5-10	144-163	Sverigedemokraterna	_	_	_	_	_	_	_	
+5-11	164-175	efterfrågat	_	_	_	_	_	_	_	
+5-12	176-181	under	_	_	_	_	_	_	_	
+5-13	182-186	lång	_	_	_	_	_	_	_	
+5-14	187-190	tid	_	_	_	_	_	_	_	
+5-15	190-191	.	_	_	_	_	_	_	_	
+
+#Text=Läget är dock så akut att åtgärderna inte räcker utan Sverige måste gå bortom signalpolitik och ta tag i problemets kärna.
+6-1	192-197	Läget	*	_	_	_	_	_	_	
+6-2	198-200	är	_	_	_	_	_	_	_	
+6-3	201-205	dock	_	_	_	_	_	_	_	
+6-4	206-208	så	_	Target[4]	6-1	false[4]	2[4]	_	_	
+6-5	209-213	akut	_	Target[4]	6-1	false[4]	2[4]	_	_	
+6-6	214-217	att	_	_	_	_	_	_	_	
+6-7	218-228	åtgärderna	_	_	_	_	_	_	_	
+6-8	229-233	inte	_	_	_	_	_	_	_	
+6-9	234-240	räcker	_	_	_	_	_	_	_	
+6-10	241-245	utan	_	_	_	_	_	_	_	
+6-11	246-253	Sverige	_	_	_	_	_	_	_	
+6-12	254-259	måste	_	_	_	_	_	_	_	
+6-13	260-262	gå	_	_	_	_	_	_	_	
+6-14	263-269	bortom	_	_	_	_	_	_	_	
+6-15	270-283	signalpolitik	*	Target	6-15	false	2	_	_	
+6-16	284-287	och	_	_	_	_	_	_	_	
+6-17	288-290	ta	_	_	_	_	_	_	_	
+6-18	291-294	tag	_	_	_	_	_	_	_	
+6-19	295-296	i	_	_	_	_	_	_	_	
+6-20	297-307	problemets	_	_	_	_	_	_	_	
+6-21	308-313	kärna	_	_	_	_	_	_	_	
+6-22	313-314	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver företrädare för Sverigedemokraterna.
+7-1	315-318	Det	_	_	_	_	_	_	_	
+7-2	319-326	skriver	_	_	_	_	_	_	_	
+7-3	327-338	företrädare	_	_	_	_	_	_	_	
+7-4	339-342	för	_	_	_	_	_	_	_	
+7-5	343-362	Sverigedemokraterna	_	_	_	_	_	_	_	
+7-6	362-363	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	365-366	#	_	_[5]	_	false[5]	2[5]	_	_	
+8-2	366-367	P	_	_[5]	_	false[5]	2[5]	_	_	
+8-3	368-371	IMM	_	_[5]	_	false[5]	2[5]	_	_	
+8-4	371-372	.	_	_	_	_	_	_	_	
+
+#Text=Flera långdragna och brutala konflikter och tvingat miljontals människor på flykt men dagens asylsystem är inte anpassat för denna typ av utmaningar.
+9-1	374-379	Flera	_	_	_	_	_	_	_	
+9-2	380-390	långdragna	_	Target[6]	9-5	false[6]	1[6]	_	_	
+9-3	391-394	och	_	Target[6]	9-5	false[6]	1[6]	_	_	
+9-4	395-402	brutala	_	Target[6]	9-5	false[6]	1[6]	_	_	
+9-5	403-413	konflikter	*	_	_	_	_	_	_	
+9-6	414-417	och	_	_	_	_	_	_	_	
+9-7	418-425	tvingat	_	Target	9-11	false	2	_	_	
+9-8	426-436	miljontals	_	_	_	_	_	_	_	
+9-9	437-446	människor	_	_	_	_	_	_	_	
+9-10	447-449	på	_	_	_	_	_	_	_	
+9-11	450-455	flykt	*	_	_	_	_	_	_	
+9-12	456-459	men	_	_	_	_	_	_	_	
+9-13	460-466	dagens	_	_	_	_	_	_	_	
+9-14	467-477	asylsystem	_	_	_	_	_	_	_	
+9-15	478-480	är	_	_	_	_	_	_	_	
+9-16	481-485	inte	_	_	_	_	_	_	_	
+9-17	486-494	anpassat	_	_	_	_	_	_	_	
+9-18	495-498	för	_	_	_	_	_	_	_	
+9-19	499-504	denna	_	_	_	_	_	_	_	
+9-20	505-508	typ	_	_	_	_	_	_	_	
+9-21	509-511	av	_	_	_	_	_	_	_	
+9-22	512-522	utmaningar	_	_	_	_	_	_	_	
+9-23	522-523	.	_	_	_	_	_	_	_	
+
+#Text=Sverige står nu inför en fullbordad kris där sökande till och med hänvisats till gatan.
+10-1	524-531	Sverige	_	_	_	_	_	_	_	
+10-2	532-536	står	_	_	_	_	_	_	_	
+10-3	537-539	nu	_	_	_	_	_	_	_	
+10-4	540-545	inför	_	_	_	_	_	_	_	
+10-5	546-548	en	_	_	_	_	_	_	_	
+10-6	549-559	fullbordad	_	_[7]|Target[8]	_|10-7	false[7]|false[8]	1[7]|2[8]	_	_	
+10-7	560-564	kris	*	_[7]	_	false[7]	1[7]	_	_	
+10-8	565-568	där	_	_	_	_	_	_	_	
+10-9	569-576	sökande	_	_	_	_	_	_	_	
+10-10	577-581	till	_	Target[9]	10-13[30]	false[9]	2[9]	_	_	
+10-11	582-585	och	_	Target[9]	10-13[30]	false[9]	2[9]	_	_	
+10-12	586-589	med	_	Target[9]	10-13[30]	false[9]	2[9]	_	_	
+10-13	590-599	hänvisats	*[30]	_	_	_	_	_	_	
+10-14	600-604	till	*[30]	_	_	_	_	_	_	
+10-15	605-610	gatan	*[30]	_	_	_	_	_	_	
+10-16	610-611	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	613-614	#	_	_	_	_	_	_	_	
+11-2	614-615	P	_	_	_	_	_	_	_	
+11-3	616-619	IMM	_	_	_	_	_	_	_	
+11-4	619-620	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	622-625	Det	_	_	_	_	_	_	_	
+12-2	626-629	här	_	_	_	_	_	_	_	
+12-3	630-632	är	_	_	_	_	_	_	_	
+12-4	633-635	en	_	_	_	_	_	_	_	
+12-5	636-650	argumenterande	_	_	_	_	_	_	_	
+12-6	651-655	text	_	_	_	_	_	_	_	
+12-7	656-659	med	_	_	_	_	_	_	_	
+12-8	660-665	syfte	_	_	_	_	_	_	_	
+12-9	666-669	att	_	_	_	_	_	_	_	
+12-10	670-677	påverka	_	_	_	_	_	_	_	
+12-11	677-678	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	679-688	Åsikterna	_	_	_	_	_	_	_	
+13-2	689-692	som	_	_	_	_	_	_	_	
+13-3	693-701	uttrycks	_	_	_	_	_	_	_	
+13-4	702-704	är	_	_	_	_	_	_	_	
+13-5	705-716	skribentens	_	_	_	_	_	_	_	
+13-6	717-721	egna	_	_	_	_	_	_	_	
+13-7	721-722	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	724-725	#	_	_	_	_	_	_	_	
+14-2	725-726	P	_	_	_	_	_	_	_	
+14-3	727-730	IMM	_	_	_	_	_	_	_	
+14-4	730-731	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är bundet av det gemensamma europeiska asylsystemet, CEAS, som består av Dublinförordningen och ytterligare ett par direktiv.
+15-1	733-740	Sverige	_	_	_	_	_	_	_	
+15-2	741-743	är	_	_	_	_	_	_	_	
+15-3	744-750	bundet	_	_	_	_	_	_	_	
+15-4	751-753	av	_	_	_	_	_	_	_	
+15-5	754-757	det	_	_	_	_	_	_	_	
+15-6	758-768	gemensamma	_	_	_	_	_	_	_	
+15-7	769-779	europeiska	_	_	_	_	_	_	_	
+15-8	780-792	asylsystemet	_	_	_	_	_	_	_	
+15-9	792-793	,	_	_	_	_	_	_	_	
+15-10	794-798	CEAS	_	_	_	_	_	_	_	
+15-11	798-799	,	_	_	_	_	_	_	_	
+15-12	800-803	som	_	_	_	_	_	_	_	
+15-13	804-810	består	_	_	_	_	_	_	_	
+15-14	811-813	av	_	_	_	_	_	_	_	
+15-15	814-832	Dublinförordningen	_	_	_	_	_	_	_	
+15-16	833-836	och	_	_	_	_	_	_	_	
+15-17	837-848	ytterligare	_	_	_	_	_	_	_	
+15-18	849-852	ett	_	_	_	_	_	_	_	
+15-19	853-856	par	_	_	_	_	_	_	_	
+15-20	857-865	direktiv	_	_	_	_	_	_	_	
+15-21	865-866	.	_	_	_	_	_	_	_	
+
+#Text=Situationen blir dock ohållbar när alla parter inte håller sin del av avtalet.
+16-1	867-878	Situationen	*	_	_	_	_	_	_	
+16-2	879-883	blir	_	_	_	false	2	_	_	
+16-3	884-888	dock	_	_	_	_	_	_	_	
+16-4	889-897	ohållbar	_	Target	16-1	false	2	16-2	_	
+16-5	898-901	när	_	_	_	_	_	_	_	
+16-6	902-906	alla	_	_	_	_	_	_	_	
+16-7	907-913	parter	_	_	_	_	_	_	_	
+16-8	914-918	inte	_	_	_	_	_	_	_	
+16-9	919-925	håller	_	_	_	_	_	_	_	
+16-10	926-929	sin	_	_	_	_	_	_	_	
+16-11	930-933	del	_	_	_	_	_	_	_	
+16-12	934-936	av	_	_	_	_	_	_	_	
+16-13	937-944	avtalet	_	_	_	_	_	_	_	
+16-14	944-945	.	_	_	_	_	_	_	_	
+
+#Text=Vi har därför tagit fram en handlingsplan med ett antal konkreta förslag som vi också lämnat in i en motion till riksdagen med anledning av särskild händelse.
+17-1	946-948	Vi	_	_	_	_	_	_	_	
+17-2	949-952	har	_	_	_	_	_	_	_	
+17-3	953-959	därför	_	_	_	_	_	_	_	
+17-4	960-965	tagit	_	_	_	_	_	_	_	
+17-5	966-970	fram	_	_	_	_	_	_	_	
+17-6	971-973	en	_	_	_	_	_	_	_	
+17-7	974-987	handlingsplan	_	_	_	_	_	_	_	
+17-8	988-991	med	_	_	_	_	_	_	_	
+17-9	992-995	ett	_	_	_	_	_	_	_	
+17-10	996-1001	antal	_	_	_	_	_	_	_	
+17-11	1002-1010	konkreta	_	_	_	_	_	_	_	
+17-12	1011-1018	förslag	_	_	_	_	_	_	_	
+17-13	1019-1022	som	_	_	_	_	_	_	_	
+17-14	1023-1025	vi	_	_	_	_	_	_	_	
+17-15	1026-1031	också	_	_	_	_	_	_	_	
+17-16	1032-1038	lämnat	_	_	_	_	_	_	_	
+17-17	1039-1041	in	_	_	_	_	_	_	_	
+17-18	1042-1043	i	_	_	_	_	_	_	_	
+17-19	1044-1046	en	_	_	_	_	_	_	_	
+17-20	1047-1053	motion	_	_	_	_	_	_	_	
+17-21	1054-1058	till	_	_	_	_	_	_	_	
+17-22	1059-1068	riksdagen	_	_	_	_	_	_	_	
+17-23	1069-1072	med	_	_	_	_	_	_	_	
+17-24	1073-1082	anledning	_	_	_	_	_	_	_	
+17-25	1083-1085	av	_	_	_	_	_	_	_	
+17-26	1086-1094	särskild	_	_	_	_	_	_	_	
+17-27	1095-1103	händelse	_	_	_	_	_	_	_	
+17-28	1103-1104	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1106-1107	#	_	_[10]	_	false[10]	2[10]	_	_	
+18-2	1107-1108	P	_	_[10]	_	false[10]	2[10]	_	_	
+18-3	1109-1112	IMM	_	_[10]	_	false[10]	2[10]	_	_	
+18-4	1112-1113	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen bör lägga förslag på en skärpt asylprocess där den sökande måste förklara hur de tagit sig hit, för att underlätta återförandet av asylsökande till första EU-land enligt Dublinförordningen.
+19-1	1115-1125	Regeringen	_	_	_	_	_	_	_	
+19-2	1126-1129	bör	_	_	_	_	_	_	_	
+19-3	1130-1135	lägga	_	_	_	_	_	_	_	
+19-4	1136-1143	förslag	_	_	_	_	_	_	_	
+19-5	1144-1146	på	_	_	_	_	_	_	_	
+19-6	1147-1149	en	_	_	_	_	_	_	_	
+19-7	1150-1156	skärpt	_	_	_	_	_	_	_	
+19-8	1157-1168	asylprocess	_	_	_	_	_	_	_	
+19-9	1169-1172	där	_	_	_	_	_	_	_	
+19-10	1173-1176	den	_	_	_	_	_	_	_	
+19-11	1177-1184	sökande	_	_	_	_	_	_	_	
+19-12	1185-1190	måste	_	_	_	_	_	_	_	
+19-13	1191-1199	förklara	_	_	_	_	_	_	_	
+19-14	1200-1203	hur	_	_	_	_	_	_	_	
+19-15	1204-1206	de	_	_	_	_	_	_	_	
+19-16	1207-1212	tagit	_	_	_	_	_	_	_	
+19-17	1213-1216	sig	_	_	_	_	_	_	_	
+19-18	1217-1220	hit	_	_	_	_	_	_	_	
+19-19	1220-1221	,	_	_	_	_	_	_	_	
+19-20	1222-1225	för	_	_	_	_	_	_	_	
+19-21	1226-1229	att	_	_	_	_	_	_	_	
+19-22	1230-1240	underlätta	_	Target	19-23[31]	false	4	_	_	
+19-23	1241-1253	återförandet	*[31]	_	_	_	_	_	_	
+19-24	1254-1256	av	*[31]	_	_	_	_	_	_	
+19-25	1257-1268	asylsökande	*[31]	_	_	_	_	_	_	
+19-26	1269-1273	till	*[31]	_	_	_	_	_	_	
+19-27	1274-1280	första	*[31]	_	_	_	_	_	_	
+19-28	1281-1288	EU-land	*[31]	_	_	_	_	_	_	
+19-29	1289-1295	enligt	*[31]	_	_	_	_	_	_	
+19-30	1296-1314	Dublinförordningen	*[31]	_	_	_	_	_	_	
+19-31	1314-1315	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1317-1318	#	_	_[11]	_	false[11]	2[11]	_	_	
+20-2	1318-1319	P	_	_[11]	_	false[11]	2[11]	_	_	
+20-3	1320-1323	IMM	_	_[11]	_	false[11]	2[11]	_	_	
+20-4	1323-1324	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen bör offentligt be EU-kommissionen att Sverige ska få använda undantagsregeln i EU:s grundlag (Lissabonfördraget artikel 78.3).
+21-1	1326-1336	Regeringen	_	_	_	_	_	_	_	
+21-2	1337-1340	bör	_	_	_	_	_	_	_	
+21-3	1341-1351	offentligt	_	_	_	_	_	_	_	
+21-4	1352-1354	be	_	_	_	_	_	_	_	
+21-5	1355-1370	EU-kommissionen	_	_	_	_	_	_	_	
+21-6	1371-1374	att	_	_	_	_	_	_	_	
+21-7	1375-1382	Sverige	_	_	_	_	_	_	_	
+21-8	1383-1386	ska	_	_	_	_	_	_	_	
+21-9	1387-1389	få	_	_	_	_	_	_	_	
+21-10	1390-1397	använda	_	_	_	_	_	_	_	
+21-11	1398-1413	undantagsregeln	_	_	_	_	_	_	_	
+21-12	1414-1415	i	_	_	_	_	_	_	_	
+21-13	1416-1418	EU	_	_	_	_	_	_	_	
+21-14	1418-1419	:	_	_	_	_	_	_	_	
+21-15	1419-1420	s	_	_	_	_	_	_	_	
+21-16	1421-1429	grundlag	_	_	_	_	_	_	_	
+21-17	1430-1431	(	_	_	_	_	_	_	_	
+21-18	1431-1448	Lissabonfördraget	_	_	_	_	_	_	_	
+21-19	1449-1456	artikel	_	_	_	_	_	_	_	
+21-20	1457-1461	78.3	_	_	_	_	_	_	_	
+21-21	1461-1462	)	_	_	_	_	_	_	_	
+21-22	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Då kan Sverige ändra utlänningslagen och ta bort möjligheten att söka asyl vid gränsen.
+22-1	1464-1466	Då	_	_	_	_	_	_	_	
+22-2	1467-1470	kan	_	_	_	_	_	_	_	
+22-3	1471-1478	Sverige	_	_	_	_	_	_	_	
+22-4	1479-1484	ändra	_	_	_	_	_	_	_	
+22-5	1485-1500	utlänningslagen	_	_	_	_	_	_	_	
+22-6	1501-1504	och	_	_	_	_	_	_	_	
+22-7	1505-1507	ta	_	_	_	_	_	_	_	
+22-8	1508-1512	bort	_	_	_	_	_	_	_	
+22-9	1513-1524	möjligheten	_	Target	22-10[32]	false	4	_	_	
+22-10	1525-1528	att	*[32]	_	_	_	_	_	_	
+22-11	1529-1533	söka	*[32]	_	_	_	_	_	_	
+22-12	1534-1538	asyl	*[32]	_	_	_	_	_	_	
+22-13	1539-1542	vid	*[32]	_	_	_	_	_	_	
+22-14	1543-1550	gränsen	*[32]	_	_	_	_	_	_	
+22-15	1550-1551	.	_	_	_	_	_	_	_	
+
+#Text=Pausen skulle avlasta den akuta situationen och ge tid för omförhandling och modernisering av hela det internationella asylsystemet.
+23-1	1552-1558	Pausen	_	_	_	_	_	_	_	
+23-2	1559-1565	skulle	_	_	_	_	_	_	_	
+23-3	1566-1573	avlasta	_	Target	23-4[33]	false	2	_	_	
+23-4	1574-1577	den	*[33]	_	_	_	_	_	_	
+23-5	1578-1583	akuta	*[33]	_	_	_	_	_	_	
+23-6	1584-1595	situationen	*[33]	_	_	_	_	_	_	
+23-7	1596-1599	och	_	_	_	_	_	_	_	
+23-8	1600-1602	ge	_	_	_	_	_	_	_	
+23-9	1603-1606	tid	_	_	_	_	_	_	_	
+23-10	1607-1610	för	_	_	_	_	_	_	_	
+23-11	1611-1624	omförhandling	_	_	_	_	_	_	_	
+23-12	1625-1628	och	_	_	_	_	_	_	_	
+23-13	1629-1642	modernisering	_	Target	23-15[34]	false	2	_	_	
+23-14	1643-1645	av	_	_	_	_	_	_	_	
+23-15	1646-1650	hela	*[34]	_	_	_	_	_	_	
+23-16	1651-1654	det	*[34]	_	_	_	_	_	_	
+23-17	1655-1670	internationella	*[34]	_	_	_	_	_	_	
+23-18	1671-1683	asylsystemet	*[34]	_	_	_	_	_	_	
+23-19	1683-1684	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Mårten Kjaerum, expert på folkrätt skulle avvisningar till Danmark inte strida mot FN:s flyktingkonvention, eftersom konventionen bara utesluter avvisningar till länder där personen riskerar att förföljas.
+24-1	1685-1691	Enligt	_	_	_	_	_	_	_	
+24-2	1692-1698	Mårten	*[35]	_	_	_	_	_	_	
+24-3	1699-1706	Kjaerum	*[35]	_	_	_	_	_	_	
+24-4	1706-1707	,	_	_	_	_	_	_	_	
+24-5	1708-1714	expert	_	Target[12]	24-2[35]	false[12]	4[12]	_	_	
+24-6	1715-1717	på	_	Target[12]	24-2[35]	false[12]	4[12]	_	_	
+24-7	1718-1726	folkrätt	_	Target[12]	24-2[35]	false[12]	4[12]	_	_	
+24-8	1727-1733	skulle	_	_	_	_	_	_	_	
+24-9	1734-1745	avvisningar	_	_	_	_	_	_	_	
+24-10	1746-1750	till	_	_	_	_	_	_	_	
+24-11	1751-1758	Danmark	_	_	_	_	_	_	_	
+24-12	1759-1763	inte	_	_	_	_	_	_	_	
+24-13	1764-1770	strida	_	_	_	_	_	_	_	
+24-14	1771-1774	mot	_	_	_	_	_	_	_	
+24-15	1775-1777	FN	_	_	_	_	_	_	_	
+24-16	1777-1778	:	_	_	_	_	_	_	_	
+24-17	1778-1779	s	_	_	_	_	_	_	_	
+24-18	1780-1798	flyktingkonvention	_	_	_	_	_	_	_	
+24-19	1798-1799	,	_	_	_	_	_	_	_	
+24-20	1800-1808	eftersom	_	_	_	_	_	_	_	
+24-21	1809-1821	konventionen	_	_	_	_	_	_	_	
+24-22	1822-1826	bara	_	_	_	_	_	_	_	
+24-23	1827-1836	utesluter	_	_	_	_	_	_	_	
+24-24	1837-1848	avvisningar	_	_	_	_	_	_	_	
+24-25	1849-1853	till	_	_	_	_	_	_	_	
+24-26	1854-1860	länder	_	_	_	_	_	_	_	
+24-27	1861-1864	där	_	_	_	_	_	_	_	
+24-28	1865-1873	personen	_	_	_	_	_	_	_	
+24-29	1874-1882	riskerar	_	_	_	_	_	_	_	
+24-30	1883-1886	att	_	_	_	_	_	_	_	
+24-31	1887-1896	förföljas	_	_	_	_	_	_	_	
+24-32	1896-1897	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1899-1900	#	_	_[13]	_	false[13]	2[13]	_	_	
+25-2	1900-1901	P	_	_[13]	_	false[13]	2[13]	_	_	
+25-3	1902-1905	IMM	_	_[13]	_	false[13]	2[13]	_	_	
+25-4	1905-1906	.	_	_	_	_	_	_	_	
+
+#Text=EU-domstolen beslutade 2011 att inte tillåta överföringar till Grekland på grund av allvarliga brister i dess asylsystem.
+26-1	1908-1920	EU-domstolen	*	_	_	_	_	_	_	
+26-2	1921-1930	beslutade	_	_	_	_	_	_	_	
+26-3	1931-1935	2011	_	_	_	_	_	_	_	
+26-4	1936-1939	att	_	_	_	_	_	_	_	
+26-5	1940-1944	inte	_	_	_	_	_	_	_	
+26-6	1945-1952	tillåta	_	_	_	_	_	_	_	
+26-7	1953-1965	överföringar	*	Target	26-7	false	4	_	_	
+26-8	1966-1970	till	_	_	_	_	_	_	_	
+26-9	1971-1979	Grekland	_	_	_	_	_	_	_	
+26-10	1980-1982	på	_	_	_	_	_	_	_	
+26-11	1983-1988	grund	_	_	_	_	_	_	_	
+26-12	1989-1991	av	_	_	_	_	_	_	_	
+26-13	1992-2002	allvarliga	_	Source;Target[14]|Target[15]	26-1;26-16[36]|26-14	false[14]|false[15]	1[14]|1[15]	_	_	
+26-14	2003-2010	brister	*	Source;Target[14]	26-1;26-16[36]	false[14]	1[14]	_	_	
+26-15	2011-2012	i	_	_	_	_	_	_	_	
+26-16	2013-2017	dess	*[36]	_	_	_	_	_	_	
+26-17	2018-2028	asylsystem	*[36]	_	_	_	_	_	_	
+26-18	2028-2029	.	_	_	_	_	_	_	_	
+
+#Text=Nu har det skett vissa förbättringar.
+27-1	2030-2032	Nu	_	_	_	_	_	_	_	
+27-2	2033-2036	har	_	_	_	_	_	_	_	
+27-3	2037-2040	det	_	_	_	_	_	_	_	
+27-4	2041-2046	skett	_	_	_	_	_	_	_	
+27-5	2047-2052	vissa	_	_	_	_	_	_	_	
+27-6	2053-2066	förbättringar	_	_	_	_	_	_	_	
+27-7	2066-2067	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen bör därför få Greklands asylsystem prövat genom att migrationsverket begär att skicka tillbaka sökande till Grekland.
+28-1	2068-2078	Regeringen	_	_	_	_	_	_	_	
+28-2	2079-2082	bör	_	_	_	_	_	_	_	
+28-3	2083-2089	därför	_	_	_	_	_	_	_	
+28-4	2090-2092	få	_	_	_	_	_	_	_	
+28-5	2093-2102	Greklands	_	_	_	_	_	_	_	
+28-6	2103-2113	asylsystem	_	_	_	_	_	_	_	
+28-7	2114-2120	prövat	_	_	_	_	_	_	_	
+28-8	2121-2126	genom	_	_	_	_	_	_	_	
+28-9	2127-2130	att	_	_	_	_	_	_	_	
+28-10	2131-2147	migrationsverket	_	_	_	_	_	_	_	
+28-11	2148-2153	begär	_	_	_	_	_	_	_	
+28-12	2154-2157	att	_	_	_	_	_	_	_	
+28-13	2158-2164	skicka	_	_	_	_	_	_	_	
+28-14	2165-2173	tillbaka	_	_	_	_	_	_	_	
+28-15	2174-2181	sökande	_	_	_	_	_	_	_	
+28-16	2182-2186	till	_	_	_	_	_	_	_	
+28-17	2187-2195	Grekland	_	_	_	_	_	_	_	
+28-18	2195-2196	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2198-2199	#	_	_[16]	_	false[16]	2[16]	_	_	
+29-2	2199-2200	P	_	_[16]	_	false[16]	2[16]	_	_	
+29-3	2201-2204	IMM	_	_[16]	_	false[16]	2[16]	_	_	
+29-4	2204-2205	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Dublinförordningen är medlemsländerna skyldiga att ta emot asylansökningar men har rätten att få ansvaret överfört till sökandens första EU-land.
+30-1	2207-2213	Enligt	_	_	_	_	_	_	_	
+30-2	2214-2232	Dublinförordningen	_	_	_	_	_	_	_	
+30-3	2233-2235	är	_	_	_	_	_	_	_	
+30-4	2236-2251	medlemsländerna	_	_	_	_	_	_	_	
+30-5	2252-2260	skyldiga	_	_	_	_	_	_	_	
+30-6	2261-2264	att	_	_	_	_	_	_	_	
+30-7	2265-2267	ta	_	_	_	_	_	_	_	
+30-8	2268-2272	emot	_	_	_	_	_	_	_	
+30-9	2273-2288	asylansökningar	_	_	_	_	_	_	_	
+30-10	2289-2292	men	_	_	_	_	_	_	_	
+30-11	2293-2296	har	_	_	_	_	_	_	_	
+30-12	2297-2303	rätten	_	_	_	_	_	_	_	
+30-13	2304-2307	att	*[37]	_	_	_	_	_	_	
+30-14	2308-2310	få	*[37]	_	_	_	_	_	_	
+30-15	2311-2319	ansvaret	*[37]	_	_	_	_	_	_	
+30-16	2320-2328	överfört	*[37]	_	_	_	_	_	_	
+30-17	2329-2333	till	*[37]	_	_	_	_	_	_	
+30-18	2334-2343	sökandens	*[37]	_	_	_	_	_	_	
+30-19	2344-2350	första	*[37]	_	_	_	_	_	_	
+30-20	2351-2358	EU-land	*[37]	_	_	_	_	_	_	
+30-21	2358-2359	.	_	_	_	_	_	_	_	
+
+#Text=Denna rättighet är just nu kraftigt begränsad.
+31-1	2360-2365	Denna	_	_	_	_	_	_	_	
+31-2	2366-2375	rättighet	_	Target	30-13[37]	false	4	_	_	
+31-3	2376-2378	är	_	_	_	_	_	_	_	
+31-4	2379-2383	just	_	_	_	_	_	_	_	
+31-5	2384-2386	nu	_	_	_	_	_	_	_	
+31-6	2387-2395	kraftigt	_	Target	31-7	false	2	_	_	
+31-7	2396-2405	begränsad	*	_	_	_	_	_	_	
+31-8	2405-2406	.	_	_	_	_	_	_	_	
+
+#Text=Det är orimligt att Sverige ska hålla fast vid skyldigheten utan att kunna nyttja rättigheten.
+32-1	2407-2410	Det	_	_	_	_	_	_	_	
+32-2	2411-2413	är	_	Target[17]	32-4[38]	false[17]	2[17]	_	_	
+32-3	2414-2422	orimligt	_	Target[17]	32-4[38]	false[17]	2[17]	_	_	
+32-4	2423-2426	att	*[38]	_	_	_	_	_	_	
+32-5	2427-2434	Sverige	*[38]	_	_	_	_	_	_	
+32-6	2435-2438	ska	*[38]	_	_	_	_	_	_	
+32-7	2439-2444	hålla	*[38]	_	_	_	_	_	_	
+32-8	2445-2449	fast	*[38]	_	_	_	_	_	_	
+32-9	2450-2453	vid	*[38]	_	_	_	_	_	_	
+32-10	2454-2466	skyldigheten	*[38]	_	_	_	_	_	_	
+32-11	2467-2471	utan	*[38]	_	_	_	_	_	_	
+32-12	2472-2475	att	*[38]	_	_	_	_	_	_	
+32-13	2476-2481	kunna	*[38]	_	_	_	_	_	_	
+32-14	2482-2488	nyttja	*[38]	_	_	_	_	_	_	
+32-15	2489-2500	rättigheten	*[38]	_	_	_	_	_	_	
+32-16	2500-2501	.	_	_	_	_	_	_	_	
+
+#Text=Dublinförordningen kan därför anses fallit och regeringen borde på den grunden pröva att ta bort möjligheten att söka asyl vid gränsen.
+33-1	2502-2520	Dublinförordningen	*	_	_	_	_	_	_	
+33-2	2521-2524	kan	_	_	_	_	_	_	_	
+33-3	2525-2531	därför	_	_	_	_	_	_	_	
+33-4	2532-2537	anses	_	_	_	_	_	_	_	
+33-5	2538-2544	fallit	_	Target	33-1	false	2	_	_	
+33-6	2545-2548	och	_	_	_	_	_	_	_	
+33-7	2549-2559	regeringen	_	_	_	_	_	_	_	
+33-8	2560-2565	borde	_	_	_	_	_	_	_	
+33-9	2566-2568	på	_	_	_	_	_	_	_	
+33-10	2569-2572	den	_	_	_	_	_	_	_	
+33-11	2573-2580	grunden	_	_	_	_	_	_	_	
+33-12	2581-2586	pröva	_	_	_	_	_	_	_	
+33-13	2587-2590	att	_	_	_	_	_	_	_	
+33-14	2591-2593	ta	_	_	_	_	_	_	_	
+33-15	2594-2598	bort	_	_	_	_	_	_	_	
+33-16	2599-2610	möjligheten	_	Target	33-17[39]	false	4	_	_	
+33-17	2611-2614	att	*[39]	_	_	_	_	_	_	
+33-18	2615-2619	söka	*[39]	_	_	_	_	_	_	
+33-19	2620-2624	asyl	*[39]	_	_	_	_	_	_	
+33-20	2625-2628	vid	*[39]	_	_	_	_	_	_	
+33-21	2629-2636	gränsen	*[39]	_	_	_	_	_	_	
+33-22	2636-2637	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2639-2640	#	_	_	_	_	_	_	_	
+34-2	2640-2641	P	_	_	_	_	_	_	_	
+34-3	2642-2645	IMM	_	_	_	_	_	_	_	
+34-4	2645-2646	.	_	_	_	_	_	_	_	
+
+#Text=SvD:s NYHETSBREV VALET 2018 – veckans viktigaste fördjupningar och granskningar.
+35-1	2648-2651	SvD	*	_	_	_	_	_	_	
+35-2	2651-2652	:	_	_	_	_	_	_	_	
+35-3	2652-2653	s	_	_	_	_	_	_	_	
+35-4	2654-2664	NYHETSBREV	_	_	_	_	_	_	_	
+35-5	2665-2670	VALET	_	_	_	_	_	_	_	
+35-6	2671-2675	2018	_	_	_	_	_	_	_	
+35-7	2676-2677	–	_	_	_	_	_	_	_	
+35-8	2678-2685	veckans	_	_	_	_	_	_	_	
+35-9	2686-2696	viktigaste	_	Target;Source	35-10[40];35-1	false	4	_	_	
+35-10	2697-2710	fördjupningar	*[40]	_	_	_	_	_	_	
+35-11	2711-2714	och	*[40]	_	_	_	_	_	_	
+35-12	2715-2727	granskningar	*[40]	_	_	_	_	_	_	
+35-13	2727-2728	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2730-2731	#	_	_[18]	_	false[18]	1[18]	_	_	
+36-2	2731-2732	P	_	_[18]	_	false[18]	1[18]	_	_	
+36-3	2733-2736	IMM	_	_[18]	_	false[18]	1[18]	_	_	
+36-4	2736-2737	.	_	_	_	_	_	_	_	
+
+#Text=I det fall Greklands asylsystem permanent inte når upp till kraven i internationell rätt bör Sverige få prövat en tolkning där Grekland inte anses vara första EU-land enligt Dublinförordningen.
+37-1	2739-2740	I	_	_	_	_	_	_	_	
+37-2	2741-2744	det	_	_	_	_	_	_	_	
+37-3	2745-2749	fall	_	_	_	_	_	_	_	
+37-4	2750-2759	Greklands	*[41]	_	_	_	_	_	_	
+37-5	2760-2770	asylsystem	*[41]	_	_	_	_	_	_	
+37-6	2771-2780	permanent	_	_	_	_	_	_	_	
+37-7	2781-2785	inte	_	Target[19]	37-4[41]	false[19]	2[19]	_	_	
+37-8	2786-2789	når	_	Target[19]	37-4[41]	false[19]	2[19]	_	_	
+37-9	2790-2793	upp	_	Target[19]	37-4[41]	false[19]	2[19]	_	_	
+37-10	2794-2798	till	_	Target[19]	37-4[41]	false[19]	2[19]	_	_	
+37-11	2799-2805	kraven	_	_	_	_	_	_	_	
+37-12	2806-2807	i	_	_	_	_	_	_	_	
+37-13	2808-2822	internationell	_	_	_	_	_	_	_	
+37-14	2823-2827	rätt	_	_	_	_	_	_	_	
+37-15	2828-2831	bör	_	_	_	_	_	_	_	
+37-16	2832-2839	Sverige	_	_	_	_	_	_	_	
+37-17	2840-2842	få	_	_	_	_	_	_	_	
+37-18	2843-2849	prövat	_	_	_	_	_	_	_	
+37-19	2850-2852	en	_	_	_	_	_	_	_	
+37-20	2853-2861	tolkning	_	_	_	_	_	_	_	
+37-21	2862-2865	där	_	_	_	_	_	_	_	
+37-22	2866-2874	Grekland	_	_	_	_	_	_	_	
+37-23	2875-2879	inte	_	_	_	_	_	_	_	
+37-24	2880-2885	anses	_	_	_	_	_	_	_	
+37-25	2886-2890	vara	_	_	_	_	_	_	_	
+37-26	2891-2897	första	_	_	_	_	_	_	_	
+37-27	2898-2905	EU-land	_	_	_	_	_	_	_	
+37-28	2906-2912	enligt	_	_	_	_	_	_	_	
+37-29	2913-2931	Dublinförordningen	_	_	_	_	_	_	_	
+37-30	2931-2932	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket bör därför begära att asylsökande överförs till landet som den sökande passerat efter Grekland.
+38-1	2933-2949	Migrationsverket	_	_	_	_	_	_	_	
+38-2	2950-2953	bör	_	_	_	_	_	_	_	
+38-3	2954-2960	därför	_	_	_	_	_	_	_	
+38-4	2961-2967	begära	_	_	_	_	_	_	_	
+38-5	2968-2971	att	_	_	_	_	_	_	_	
+38-6	2972-2983	asylsökande	_	_	_	_	_	_	_	
+38-7	2984-2992	överförs	*	Target	38-7	false	4	_	_	
+38-8	2993-2997	till	_	_	_	_	_	_	_	
+38-9	2998-3004	landet	_	_	_	_	_	_	_	
+38-10	3005-3008	som	_	_	_	_	_	_	_	
+38-11	3009-3012	den	_	_	_	_	_	_	_	
+38-12	3013-3020	sökande	_	_	_	_	_	_	_	
+38-13	3021-3029	passerat	_	_	_	_	_	_	_	
+38-14	3030-3035	efter	_	_	_	_	_	_	_	
+38-15	3036-3044	Grekland	_	_	_	_	_	_	_	
+38-16	3044-3045	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3047-3048	#	_	_[20]	_	false[20]	2[20]	_	_	
+39-2	3048-3049	P	_	_[20]	_	false[20]	2[20]	_	_	
+39-3	3050-3053	IMM	_	_[20]	_	false[20]	2[20]	_	_	
+39-4	3053-3054	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen bör inleda ett fördragsbrottsförfarande mot Grekland och Italien eftersom de inte uppfyller Schengenavtalets förpliktelser om att säkra EU:s yttre gräns med gränskontroller.
+40-1	3056-3066	Regeringen	_	_	_	_	_	_	_	
+40-2	3067-3070	bör	_	_	_	_	_	_	_	
+40-3	3071-3077	inleda	_	_	_	_	_	_	_	
+40-4	3078-3081	ett	_	_	_	_	_	_	_	
+40-5	3082-3106	fördragsbrottsförfarande	_	_	_	_	_	_	_	
+40-6	3107-3110	mot	_	_	_	_	_	_	_	
+40-7	3111-3119	Grekland	_	_	_	_	_	_	_	
+40-8	3120-3123	och	_	_	_	_	_	_	_	
+40-9	3124-3131	Italien	_	_	_	_	_	_	_	
+40-10	3132-3140	eftersom	_	_	_	_	_	_	_	
+40-11	3141-3143	de	_	_	_	_	_	_	_	
+40-12	3144-3148	inte	_	_	_	_	_	_	_	
+40-13	3149-3158	uppfyller	_	_	_	_	_	_	_	
+40-14	3159-3175	Schengenavtalets	_	_	_	_	_	_	_	
+40-15	3176-3189	förpliktelser	_	_	_	_	_	_	_	
+40-16	3190-3192	om	_	_	_	_	_	_	_	
+40-17	3193-3196	att	_	_	_	_	_	_	_	
+40-18	3197-3202	säkra	_	_	_	_	_	_	_	
+40-19	3203-3205	EU	_	_	_	_	_	_	_	
+40-20	3205-3206	:	_	_	_	_	_	_	_	
+40-21	3206-3207	s	_	_	_	_	_	_	_	
+40-22	3208-3213	yttre	_	_	_	_	_	_	_	
+40-23	3214-3219	gräns	_	_	_	_	_	_	_	
+40-24	3220-3223	med	_	_	_	_	_	_	_	
+40-25	3224-3239	gränskontroller	_	_	_	_	_	_	_	
+40-26	3239-3240	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3242-3243	#	_	_[21]	_	false[21]	1[21]	_	_	
+41-2	3243-3244	P	_	_[21]	_	false[21]	1[21]	_	_	
+41-3	3245-3248	IMM	_	_[21]	_	false[21]	1[21]	_	_	
+41-4	3248-3249	.	_	_	_	_	_	_	_	
+
+#Text=Brist på exempelvis mat och möjlighet till skolgång kan göra att människor söker sig vidare även om de fått skydd i närområdet.
+42-1	3251-3256	Brist	*[42]	_	_	_	_	_	43-1[0_42]	
+42-2	3257-3259	på	*[42]	_	_	_	_	_	_	
+42-3	3260-3270	exempelvis	*[42]	_	_	_	_	_	_	
+42-4	3271-3274	mat	*[42]	_	_	_	_	_	_	
+42-5	3275-3278	och	*[42]	_	_	_	_	_	_	
+42-6	3279-3288	möjlighet	*[42]	_	_	_	_	_	_	
+42-7	3289-3293	till	*[42]	_	_	_	_	_	_	
+42-8	3294-3302	skolgång	*[42]	_	_	_	_	_	_	
+42-9	3303-3306	kan	*[42]	_	_	_	_	_	_	
+42-10	3307-3311	göra	*[42]	_	_	_	_	_	_	
+42-11	3312-3315	att	*[42]	_	_	_	_	_	_	
+42-12	3316-3325	människor	*[42]	_	_	_	_	_	_	
+42-13	3326-3331	söker	*[42]	_	_	_	_	_	_	
+42-14	3332-3335	sig	*[42]	_	_	_	_	_	_	
+42-15	3336-3342	vidare	*[42]	_	_	_	_	_	_	
+42-16	3343-3347	även	*[42]	_	_	_	_	_	_	
+42-17	3348-3350	om	*[42]	_	_	_	_	_	_	
+42-18	3351-3353	de	*[42]	_	_	_	_	_	_	
+42-19	3354-3358	fått	*[42]	_	_	_	_	_	_	
+42-20	3359-3364	skydd	*[42]	_	_	_	_	_	_	
+42-21	3365-3366	i	*[42]	_	_	_	_	_	_	
+42-22	3367-3377	närområdet	*[42]	_	_	_	_	_	_	
+42-23	3377-3378	.	_	_	_	_	_	_	_	
+
+#Text=Detta är en ohållbar situation.
+43-1	3379-3384	Detta	*	_	_	_	_	_	_	
+43-2	3385-3387	är	_	Target[22]	43-1	false[22]	2[22]	_	_	
+43-3	3388-3390	en	_	Target[22]	43-1	false[22]	2[22]	_	_	
+43-4	3391-3399	ohållbar	_	Target[22]|Target[23]	43-1|43-5	false[22]|false[23]	2[22]|2[23]	_	_	
+43-5	3400-3409	situation	*	Target[22]	43-1	false[22]	2[22]	_	_	
+43-6	3409-3410	.	_	_	_	_	_	_	_	
+
+#Text=Genom ovanstående förslag kan mottagandet i Sverige minska, och därmed avräkningarna på biståndet, vilket ger en möjlighet att bidra till flyktinghjälp i krisers närområde, både humanitärt och långsiktigt.
+44-1	3411-3416	Genom	_	_	_	_	_	_	_	
+44-2	3417-3428	ovanstående	*[43]	_	_	_	_	_	_	
+44-3	3429-3436	förslag	*[43]	_	_	_	_	_	_	
+44-4	3437-3440	kan	_	_	_	_	_	_	_	
+44-5	3441-3452	mottagandet	_	_	_	false	4	_	_	
+44-6	3453-3454	i	_	_	_	_	_	_	_	
+44-7	3455-3462	Sverige	_	_	_	_	_	_	_	
+44-8	3463-3469	minska	_	Target	44-2[43]	false	4	44-5	_	
+44-9	3469-3470	,	_	_	_	_	_	_	_	
+44-10	3471-3474	och	_	_	_	_	_	_	_	
+44-11	3475-3481	därmed	_	_	_	_	_	_	_	
+44-12	3482-3495	avräkningarna	_	_	_	_	_	_	_	
+44-13	3496-3498	på	_	_	_	_	_	_	_	
+44-14	3499-3508	biståndet	_	_	_	_	_	_	_	
+44-15	3508-3509	,	_	_	_	_	_	_	_	
+44-16	3510-3516	vilket	_	_	_	_	_	_	_	
+44-17	3517-3520	ger	_	_	_	_	_	_	_	
+44-18	3521-3523	en	_	_	_	_	_	_	_	
+44-19	3524-3533	möjlighet	_	Target	44-20[44]	false	4	_	_	
+44-20	3534-3537	att	*[44]|*[45]	_	_	_	_	_	_	
+44-21	3538-3543	bidra	*[44]|*[45]	_	_	_	_	_	_	
+44-22	3544-3548	till	*[44]|*[45]	_	_	_	_	_	_	
+44-23	3549-3562	flyktinghjälp	*[44]|*[45]	_	_	_	_	_	_	
+44-24	3563-3564	i	*[44]|*[45]	_	_	_	_	_	_	
+44-25	3565-3572	krisers	*[44]|*[45]	_	_	_	_	_	_	
+44-26	3573-3582	närområde	*[44]|*[45]	_	_	_	_	_	_	
+44-27	3582-3583	,	_	_	_	_	_	_	_	
+44-28	3584-3588	både	_	_	_	_	_	_	_	
+44-29	3589-3599	humanitärt	_	Target[24]	44-20[45]	false[24]	4[24]	_	_	
+44-30	3600-3603	och	_	Target[24]	44-20[45]	false[24]	4[24]	_	_	
+44-31	3604-3615	långsiktigt	_	Target[24]	44-20[45]	false[24]	4[24]	_	_	
+44-32	3615-3616	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3618-3619	#	_	_[25]	_	false[25]	1[25]	_	_	
+45-2	3619-3620	P	_	_[25]	_	false[25]	1[25]	_	_	
+45-3	3621-3624	IMM	_	_[25]	_	false[25]	1[25]	_	_	
+45-4	3624-3625	.	_	_	_	_	_	_	_	
+
+#Text=I sista hand, om inget av alternativen ger effekt, kommer Sverigedemokraterna att kräva att Sverige medvetet bryter mot Dublinförordningen och slutar ta emot asylansökningar vid gränsen.
+46-1	3627-3628	I	_	_	_	_	_	_	_	
+46-2	3629-3634	sista	_	_	_	_	_	_	_	
+46-3	3635-3639	hand	_	_	_	_	_	_	_	
+46-4	3639-3640	,	_	_	_	_	_	_	_	
+46-5	3641-3643	om	_	_	_	_	_	_	_	
+46-6	3644-3649	inget	_	_	_	_	_	_	_	
+46-7	3650-3652	av	_	_	_	_	_	_	_	
+46-8	3653-3665	alternativen	_	_	_	_	_	_	_	
+46-9	3666-3669	ger	_	_	_	_	_	_	_	
+46-10	3670-3676	effekt	_	_	_	_	_	_	_	
+46-11	3676-3677	,	_	_	_	_	_	_	_	
+46-12	3678-3684	kommer	_	_	_	_	_	_	_	
+46-13	3685-3704	Sverigedemokraterna	_	_	_	_	_	_	_	
+46-14	3705-3708	att	_	_	_	_	_	_	_	
+46-15	3709-3714	kräva	_	_	_	_	_	_	_	
+46-16	3715-3718	att	_	_	_	_	_	_	_	
+46-17	3719-3726	Sverige	_	_	_	_	_	_	_	
+46-18	3727-3735	medvetet	_	_	_	_	_	_	_	
+46-19	3736-3742	bryter	_	_	_	_	_	_	_	
+46-20	3743-3746	mot	_	_	_	_	_	_	_	
+46-21	3747-3765	Dublinförordningen	_	_	_	_	_	_	_	
+46-22	3766-3769	och	_	_	_	_	_	_	_	
+46-23	3770-3776	slutar	_	_	_	_	_	_	_	
+46-24	3777-3779	ta	_	_	_	_	_	_	_	
+46-25	3780-3784	emot	_	_	_	_	_	_	_	
+46-26	3785-3800	asylansökningar	_	_	_	_	_	_	_	
+46-27	3801-3804	vid	_	_	_	_	_	_	_	
+46-28	3805-3812	gränsen	_	_	_	_	_	_	_	
+46-29	3812-3813	.	_	_	_	_	_	_	_	
+
+#Text=Vi är ett parti som står upp för lag och rätt och principen om att avtal ska hållas, vi ser därför denna nödåtgärd som beklaglig men helt nödvändighet för undvika att landet drabbas av en fullständig systemkollaps.
+47-1	3814-3816	Vi	_	_	_	_	_	_	_	
+47-2	3817-3819	är	_	_	_	_	_	_	_	
+47-3	3820-3823	ett	_	_	_	_	_	_	_	
+47-4	3824-3829	parti	_	_	_	_	_	_	_	
+47-5	3830-3833	som	_	_	_	_	_	_	_	
+47-6	3834-3838	står	_	Target[26]	47-9[46]	false[26]	4[26]	_	_	
+47-7	3839-3842	upp	_	Target[26]	47-9[46]	false[26]	4[26]	_	_	
+47-8	3843-3846	för	_	Target[26]	47-9[46]	false[26]	4[26]	_	_	
+47-9	3847-3850	lag	*[46]	_	_	_	_	_	_	
+47-10	3851-3854	och	*[46]	_	_	_	_	_	_	
+47-11	3855-3859	rätt	*[46]	_	_	_	_	_	_	
+47-12	3860-3863	och	*[46]	_	_	_	_	_	_	
+47-13	3864-3873	principen	*[46]	_	_	_	_	_	_	
+47-14	3874-3876	om	*[46]	_	_	_	_	_	_	
+47-15	3877-3880	att	*[46]	_	_	_	_	_	_	
+47-16	3881-3886	avtal	*[46]	_	_	_	_	_	_	
+47-17	3887-3890	ska	*[46]	_	_	_	_	_	_	
+47-18	3891-3897	hållas	*[46]	_	_	_	_	_	_	
+47-19	3897-3898	,	_	_	_	_	_	_	_	
+47-20	3899-3901	vi	_	_	_	_	_	_	_	
+47-21	3902-3905	ser	_	_	_	_	_	_	_	
+47-22	3906-3912	därför	_	_	_	_	_	_	_	
+47-23	3913-3918	denna	*[47]	_	_	_	_	_	_	
+47-24	3919-3928	nödåtgärd	*[47]|*[48]	Target	47-24[48]	false	2	_	_	
+47-25	3929-3932	som	_	_	_	_	_	_	_	
+47-26	3933-3942	beklaglig	_	Target	47-23[47]	false	2	_	_	
+47-27	3943-3946	men	_	_	_	_	_	_	_	
+47-28	3947-3951	helt	_	_	_	_	_	_	_	
+47-29	3952-3964	nödvändighet	_	_	_	_	_	_	_	
+47-30	3965-3968	för	_	_	_	_	_	_	_	
+47-31	3969-3976	undvika	_	_[27]	_	false[27]	1[27]	_	_	
+47-32	3977-3980	att	_	_[27]	_	false[27]	1[27]	_	_	
+47-33	3981-3987	landet	_	_	_	_	_	_	_	
+47-34	3988-3995	drabbas	_	Target	47-36[49]	false	1	47-31[27_0]	_	
+47-35	3996-3998	av	_	_	_	_	_	_	_	
+47-36	3999-4001	en	*[49]	_	_	_	_	_	_	
+47-37	4002-4013	fullständig	*[49]	_[28]	_	false[28]	1[28]	_	_	
+47-38	4014-4027	systemkollaps	*[49]	_[28]	_	false[28]	1[28]	_	_	
+47-39	4027-4028	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4030-4031	#	_	_	_	_	_	_	_	
+48-2	4031-4032	P	_	_	_	_	_	_	_	
+48-3	4033-4036	IMM	_	_	_	_	_	_	_	
+48-4	4036-4037	.	_	_	_	_	_	_	_	
+
+#Text=Markus Wiechel (SD).
+49-1	4039-4045	Markus	_	_	_	_	_	_	_	
+49-2	4046-4053	Wiechel	_	_	_	_	_	_	_	
+49-3	4054-4055	(	_	_	_	_	_	_	_	
+49-4	4055-4057	SD	_	_	_	_	_	_	_	
+49-5	4057-4058	)	_	_	_	_	_	_	_	
+49-6	4058-4059	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4061-4062	#	_	_	_	_	_	_	_	
+50-2	4062-4063	P	_	_	_	_	_	_	_	
+50-3	4064-4067	IMM	_	_	_	_	_	_	_	
+50-4	4067-4068	.	_	_	_	_	_	_	_	
+
+#Text=migrationspolitisk talesperson.
+51-1	4070-4088	migrationspolitisk	_	_	_	_	_	_	_	
+51-2	4089-4100	talesperson	_	_	_	_	_	_	_	
+51-3	4100-4101	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4103-4104	#	_	_	_	_	_	_	_	
+52-2	4104-4105	P	_	_	_	_	_	_	_	
+52-3	4106-4109	IMM	_	_	_	_	_	_	_	
+52-4	4109-4110	.	_	_	_	_	_	_	_	
+
+#Text=Julia Kronlid (SD).
+53-1	4112-4117	Julia	_	_	_	_	_	_	_	
+53-2	4118-4125	Kronlid	_	_	_	_	_	_	_	
+53-3	4126-4127	(	_	_	_	_	_	_	_	
+53-4	4127-4129	SD	_	_	_	_	_	_	_	
+53-5	4129-4130	)	_	_	_	_	_	_	_	
+53-6	4130-4131	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4133-4134	#	_	_	_	_	_	_	_	
+54-2	4134-4135	P	_	_	_	_	_	_	_	
+54-3	4136-4139	IMM	_	_	_	_	_	_	_	
+54-4	4139-4140	.	_	_	_	_	_	_	_	
+
+#Text=utrikespolitisk talesperson.
+55-1	4142-4157	utrikespolitisk	_	_	_	_	_	_	_	
+55-2	4158-4169	talesperson	_	_	_	_	_	_	_	
+55-3	4169-4170	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4172-4173	#	_	_	_	_	_	_	_	
+56-2	4173-4174	P	_	_	_	_	_	_	_	
+56-3	4175-4178	IMM	_	_	_	_	_	_	_	
+56-4	4178-4179	.	_	_	_	_	_	_	_	
+
+#Text=Kent Ekeroth (SD).
+57-1	4181-4185	Kent	_	_	_	_	_	_	_	
+57-2	4186-4193	Ekeroth	_	_	_	_	_	_	_	
+57-3	4194-4195	(	_	_	_	_	_	_	_	
+57-4	4195-4197	SD	_	_	_	_	_	_	_	
+57-5	4197-4198	)	_	_	_	_	_	_	_	
+57-6	4198-4199	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4201-4202	#	_	_	_	_	_	_	_	
+58-2	4202-4203	P	_	_	_	_	_	_	_	
+58-3	4204-4207	IMM	_	_	_	_	_	_	_	
+58-4	4207-4208	.	_	_	_	_	_	_	_	
+
+#Text=rättspolitisk talesperson.
+59-1	4210-4223	rättspolitisk	_	_	_	_	_	_	_	
+59-2	4224-4235	talesperson	_	_	_	_	_	_	_	
+59-3	4235-4236	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4238-4239	#	_	_	_	_	_	_	_	
+60-2	4239-4240	P	_	_	_	_	_	_	_	
+60-3	4241-4244	IMM	_	_	_	_	_	_	_	
+60-4	4244-4245	.	_	_	_	_	_	_	_	
+
+#Text=Johnny Skalin (SD).
+61-1	4247-4253	Johnny	_	_	_	_	_	_	_	
+61-2	4254-4260	Skalin	_	_	_	_	_	_	_	
+61-3	4261-4262	(	_	_	_	_	_	_	_	
+61-4	4262-4264	SD	_	_	_	_	_	_	_	
+61-5	4264-4265	)	_	_	_	_	_	_	_	
+61-6	4265-4266	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4268-4269	#	_	_	_	_	_	_	_	
+62-2	4269-4270	P	_	_	_	_	_	_	_	
+62-3	4271-4274	IMM	_	_	_	_	_	_	_	
+62-4	4274-4275	.	_	_	_	_	_	_	_	
+
+#Text=EU-politisk talesperson.
+63-1	4277-4288	EU-politisk	_	_	_	_	_	_	_	
+63-2	4289-4300	talesperson	_	_	_	_	_	_	_	
+63-3	4300-4301	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4303-4304	#	_	_	_	_	_	_	_	
+64-2	4304-4305	P	_	_	_	_	_	_	_	
+64-3	4306-4309	IMM	_	_	_	_	_	_	_	
+64-4	4309-4310	.	_	_	_	_	_	_	_	
+
+#Text=Paula Bieler (SD).
+65-1	4312-4317	Paula	_	_	_	_	_	_	_	
+65-2	4318-4324	Bieler	_	_	_	_	_	_	_	
+65-3	4325-4326	(	_	_	_	_	_	_	_	
+65-4	4326-4328	SD	_	_	_	_	_	_	_	
+65-5	4328-4329	)	_	_	_	_	_	_	_	
+65-6	4329-4330	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4332-4333	#	_	_	_	_	_	_	_	
+66-2	4333-4334	P	_	_	_	_	_	_	_	
+66-3	4335-4338	IMM	_	_	_	_	_	_	_	
+66-4	4338-4339	.	_	_	_	_	_	_	_	
+
+#Text=arbetsgruppledare för en modern asylrätt.
+67-1	4341-4358	arbetsgruppledare	_	_	_	_	_	_	_	
+67-2	4359-4362	för	_	_	_	_	_	_	_	
+67-3	4363-4365	en	_	_	_	_	_	_	_	
+67-4	4366-4372	modern	_	Target	67-5	false	4	_	_	
+67-5	4373-4381	asylrätt	*	_	_	_	_	_	_	
+67-6	4381-4382	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4384-4385	#	_	_	_	_	_	_	_	
+68-2	4385-4386	P	_	_	_	_	_	_	_	
+68-3	4387-4390	IMM	_	_	_	_	_	_	_	
+68-4	4390-4391	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+69-1	4393-4401	Redaktör	_	_	_	_	_	_	_	
+69-2	4401-4402	:	_	_	_	_	_	_	_	
+69-3	4403-4409	Carina	_	_	_	_	_	_	_	
+69-4	4410-4428	StenssonBiträdande	_	_	_	_	_	_	_	
+69-5	4429-4437	redaktör	_	_	_	_	_	_	_	
+69-6	4437-4438	:	_	_	_	_	_	_	_	
+69-7	4439-4449	Carl-Johan	_	_	_	_	_	_	_	
+69-8	4450-4464	BilkenrothMejl	_	_	_	_	_	_	_	
+69-9	4464-4465	:	_	_	_	_	_	_	_	
+69-10	4466-4472	debatt	_	_	_	_	_	_	_	
+69-11	4472-4473	@	_	_	_	_	_	_	_	
+69-12	4473-4492	svd.seTelefonnummer	_	_	_	_	_	_	_	
+69-13	4492-4493	:	_	_	_	_	_	_	_	
+69-14	4494-4496	08	_	_	_	_	_	_	_	
+69-15	4496-4497	-	_	_	_	_	_	_	_	
+69-16	4497-4510	135149Twitter	_	_	_	_	_	_	_	
+69-17	4510-4511	:	_	_	_	_	_	_	_	
+69-18	4512-4513	@	_	_	_	_	_	_	_	
+69-19	4513-4530	SvDDebattFacebook	_	_	_	_	_	_	_	
+69-20	4530-4531	:	_	_	_	_	_	_	_	
+69-21	4532-4535	SvD	_	_	_	_	_	_	_	
+69-22	4536-4542	Debatt	_	_	_	_	_	_	_	
+69-23	4542-4543	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	4545-4546	#	_	_	_	_	_	_	_	
+70-2	4546-4547	P	_	_	_	_	_	_	_	
+70-3	4548-4551	IMM	_	_	_	_	_	_	_	
+70-4	4551-4552	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+71-1	4554-4562	Redaktör	_	_	_	_	_	_	_	
+71-2	4562-4563	:	_	_	_	_	_	_	_	
+71-3	4564-4570	Carina	_	_	_	_	_	_	_	
+71-4	4571-4579	Stensson	_	_	_	_	_	_	_	
+71-5	4579-4580	,	_	_	_	_	_	_	_	
+71-6	4581-4591	Biträdande	_	_	_	_	_	_	_	
+71-7	4592-4600	redaktör	_	_	_	_	_	_	_	
+71-8	4600-4601	:	_	_	_	_	_	_	_	
+71-9	4602-4607	Björn	_	_	_	_	_	_	_	
+71-10	4608-4614	Jorner	_	_	_	_	_	_	_	
+71-11	4614-4615	,	_	_	_	_	_	_	_	
+71-12	4616-4620	Mejl	_	_	_	_	_	_	_	
+71-13	4620-4621	:	_	_	_	_	_	_	_	
+71-14	4622-4628	debatt	_	_	_	_	_	_	_	
+71-15	4628-4629	@	_	_	_	_	_	_	_	
+71-16	4629-4635	svd.se	_	_	_	_	_	_	_	
+71-17	4635-4636	,	_	_	_	_	_	_	_	
+71-18	4637-4650	Telefonnummer	_	_	_	_	_	_	_	
+71-19	4650-4651	:	_	_	_	_	_	_	_	
+71-20	4652-4654	08	_	_	_	_	_	_	_	
+71-21	4654-4655	-	_	_	_	_	_	_	_	
+71-22	4655-4661	135149	_	_	_	_	_	_	_	
+71-23	4661-4662	,	_	_	_	_	_	_	_	
+71-24	4663-4670	Twitter	_	_	_	_	_	_	_	
+71-25	4670-4671	:	_	_	_	_	_	_	_	
+71-26	4672-4673	@	_	_	_	_	_	_	_	
+71-27	4673-4682	SvDDebatt	_	_	_	_	_	_	_	
+71-28	4682-4683	,	_	_	_	_	_	_	_	
+71-29	4684-4692	Facebook	_	_	_	_	_	_	_	
+71-30	4692-4693	:	_	_	_	_	_	_	_	
+71-31	4694-4697	SvD	_	_	_	_	_	_	_	
+71-32	4698-4704	Debatt	_	_	_	_	_	_	_	
+71-33	4704-4705	.	_	_	_	_	_	_	_	

@@ -1,0 +1,927 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har inte råd att   
+#Text=tappa värdefull vattenkraft.
+3-1	18-25	Sverige	*	_	_	_	_	_	_	
+3-2	26-29	har	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	30-34	inte	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	35-38	råd	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-5	39-42	att	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-6	46-51	tappa	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-7	52-61	värdefull	_	_	_	_	_	_	_	
+3-8	62-73	vattenkraft	_	_	_	_	_	_	_	
+3-9	73-74	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	76-77	#	_	_	_	_	_	_	_	
+4-2	77-78	P	_	_	_	_	_	_	_	
+4-3	79-82	IMM	_	_	_	_	_	_	_	
+4-4	82-83	.	_	_	_	_	_	_	_	
+
+#Text=Vattenverksamhetsutredningens förslag hotar satsningarna på ett fossilfritt energisystem och riskerar minska industrins konkurrenskraft genom ökade kostnader för el, skriver Jan Johansson, SCA, och Annika Lundius, Svenskt Näringsliv.
+5-1	85-114	Vattenverksamhetsutredningens	*[12]	_	_	_	_	_	7-1[13_12]	
+5-2	115-122	förslag	*[12]	_	_	_	_	_	_	
+5-3	123-128	hotar	_	Target	5-1[12]	false	2	_	_	
+5-4	129-141	satsningarna	_	_	_	_	_	_	_	
+5-5	142-144	på	_	_	_	_	_	_	_	
+5-6	145-148	ett	_	_	_	_	_	_	_	
+5-7	149-160	fossilfritt	_	_	_	_	_	_	_	
+5-8	161-173	energisystem	_	_	_	_	_	_	_	
+5-9	174-177	och	_	_	_	_	_	_	_	
+5-10	178-186	riskerar	_	Target	5-1[12]	false	2	_	_	
+5-11	187-193	minska	_	_	_	_	_	_	_	
+5-12	194-204	industrins	_	_	_	_	_	_	_	
+5-13	205-220	konkurrenskraft	_	_	_	_	_	_	_	
+5-14	221-226	genom	_	_	_	_	_	_	_	
+5-15	227-232	ökade	_	_	_	_	_	_	_	
+5-16	233-242	kostnader	_	_	_	_	_	_	_	
+5-17	243-246	för	_	_	_	_	_	_	_	
+5-18	247-249	el	_	_	_	_	_	_	_	
+5-19	249-250	,	_	_	_	_	_	_	_	
+5-20	251-258	skriver	_	_	_	_	_	_	_	
+5-21	259-262	Jan	_	_	_	_	_	_	_	
+5-22	263-272	Johansson	_	_	_	_	_	_	_	
+5-23	272-273	,	_	_	_	_	_	_	_	
+5-24	274-277	SCA	_	_	_	_	_	_	_	
+5-25	277-278	,	_	_	_	_	_	_	_	
+5-26	279-282	och	_	_	_	_	_	_	_	
+5-27	283-289	Annika	_	_	_	_	_	_	_	
+5-28	290-297	Lundius	_	_	_	_	_	_	_	
+5-29	297-298	,	_	_	_	_	_	_	_	
+5-30	299-306	Svenskt	_	_	_	_	_	_	_	
+5-31	307-317	Näringsliv	_	_	_	_	_	_	_	
+5-32	317-318	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	320-321	#	_	_	_	_	_	_	_	
+6-2	321-322	P	_	_	_	_	_	_	_	
+6-3	323-326	IMM	_	_	_	_	_	_	_	
+6-4	326-327	.	_	_	_	_	_	_	_	
+
+#Text=Förslagen som läggs river upp ett helt system och kommer att få stora konsekvenser.Jan Johansson, och Annika Lundius.
+7-1	329-338	Förslagen	*[13]	_	_	_	_	_	_	
+7-2	339-342	som	*[13]	_	_	_	_	_	_	
+7-3	343-348	läggs	*[13]	_	_	_	_	_	_	
+7-4	349-354	river	_	_	_	_	_	_	_	
+7-5	355-358	upp	_	_	_	_	_	_	_	
+7-6	359-362	ett	_	_	_	_	_	_	_	
+7-7	363-367	helt	_	_	_	_	_	_	_	
+7-8	368-374	system	_	_	_	_	_	_	_	
+7-9	375-378	och	_	_	_	_	_	_	_	
+7-10	379-385	kommer	_	Target[2]	7-1[13]	false[2]	2[2]	_	_	
+7-11	386-389	att	_	Target[2]	7-1[13]	false[2]	2[2]	_	_	
+7-12	390-392	få	_	Target[2]	7-1[13]	false[2]	2[2]	_	_	
+7-13	393-398	stora	_	Target[2]	7-1[13]	false[2]	2[2]	_	_	
+7-14	399-415	konsekvenser.Jan	_	Target[2]	7-1[13]	false[2]	2[2]	_	_	
+7-15	416-425	Johansson	_	_	_	_	_	_	_	
+7-16	425-426	,	_	_	_	_	_	_	_	
+7-17	427-430	och	_	_	_	_	_	_	_	
+7-18	431-437	Annika	_	_	_	_	_	_	_	
+7-19	438-445	Lundius	_	_	_	_	_	_	_	
+7-20	445-446	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	448-449	#	_	_	_	_	_	_	_	
+8-2	449-450	P	_	_	_	_	_	_	_	
+8-3	451-454	IMM	_	_	_	_	_	_	_	
+8-4	454-455	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	457-460	Det	_	_	_	_	_	_	_	
+9-2	461-464	här	_	_	_	_	_	_	_	
+9-3	465-467	är	_	_	_	_	_	_	_	
+9-4	468-470	en	_	_	_	_	_	_	_	
+9-5	471-485	argumenterande	_	_	_	_	_	_	_	
+9-6	486-490	text	_	_	_	_	_	_	_	
+9-7	491-494	med	_	_	_	_	_	_	_	
+9-8	495-500	syfte	_	_	_	_	_	_	_	
+9-9	501-504	att	_	_	_	_	_	_	_	
+9-10	505-512	påverka	_	_	_	_	_	_	_	
+9-11	512-513	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	514-523	Åsikterna	_	_	_	_	_	_	_	
+10-2	524-527	som	_	_	_	_	_	_	_	
+10-3	528-536	uttrycks	_	_	_	_	_	_	_	
+10-4	537-539	är	_	_	_	_	_	_	_	
+10-5	540-551	skribentens	_	_	_	_	_	_	_	
+10-6	552-556	egna	_	_	_	_	_	_	_	
+10-7	556-557	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	559-560	#	_	_	_	_	_	_	_	
+11-2	560-561	P	_	_	_	_	_	_	_	
+11-3	562-565	IMM	_	_	_	_	_	_	_	
+11-4	565-566	.	_	_	_	_	_	_	_	
+
+#Text=När Barack Obama var i Sverige för några veckor sedan, berömde han den svenska energipolitiken.
+12-1	568-571	När	_	_	_	_	_	_	_	
+12-2	572-578	Barack	*[14]	_	_	_	_	_	13-1[0_14]|12-13[0_14]	
+12-3	579-584	Obama	*[14]	_	_	_	_	_	_	
+12-4	585-588	var	_	_	_	_	_	_	_	
+12-5	589-590	i	_	_	_	_	_	_	_	
+12-6	591-598	Sverige	_	_	_	_	_	_	_	
+12-7	599-602	för	_	_	_	_	_	_	_	
+12-8	603-608	några	_	_	_	_	_	_	_	
+12-9	609-615	veckor	_	_	_	_	_	_	_	
+12-10	616-621	sedan	_	_	_	_	_	_	_	
+12-11	621-622	,	_	_	_	_	_	_	_	
+12-12	623-630	berömde	_	Source;Target	12-13;12-14[15]	false	4	_	_	
+12-13	631-634	han	*	_	_	_	_	_	_	
+12-14	635-638	den	*[15]	_	_	_	_	_	_	
+12-15	639-646	svenska	*[15]	_	_	_	_	_	_	
+12-16	647-662	energipolitiken	*[15]	_	_	_	_	_	_	
+12-17	662-663	.	_	_	_	_	_	_	_	
+
+#Text=Han konstaterade att vi har lyckats att bryta sambandet mellan tillväxt och ökande koldioxidutsläpp.
+13-1	664-667	Han	*	_	_	_	_	_	_	
+13-2	668-680	konstaterade	_	_[3]	_	false[3]	4[3]	_	_	
+13-3	681-684	att	_	_[3]	_	false[3]	4[3]	_	_	
+13-4	685-687	vi	*	_	_	_	_	_	_	
+13-5	688-691	har	_	Target;Source[4]	13-4;13-1	false[4]	4[4]	13-2[3_4]	_	
+13-6	692-699	lyckats	_	Target;Source[4]	13-4;13-1	false[4]	4[4]	_	_	
+13-7	700-703	att	_	_	_	_	_	_	_	
+13-8	704-709	bryta	_	_	_	_	_	_	_	
+13-9	710-719	sambandet	_	_	_	_	_	_	_	
+13-10	720-726	mellan	_	_	_	_	_	_	_	
+13-11	727-735	tillväxt	_	_	_	_	_	_	_	
+13-12	736-739	och	_	_	_	_	_	_	_	
+13-13	740-746	ökande	_	_	_	_	_	_	_	
+13-14	747-763	koldioxidutsläpp	_	_	_	_	_	_	_	
+13-15	763-764	.	_	_	_	_	_	_	_	
+
+#Text=Det är något vi ska vara stolta över.
+14-1	765-768	Det	_	_	_	_	_	_	_	
+14-2	769-771	är	_	_	_	_	_	_	_	
+14-3	772-777	något	_	_	_	_	_	_	_	
+14-4	778-780	vi	_	_	_	_	_	_	_	
+14-5	781-784	ska	_	_	_	_	_	_	_	
+14-6	785-789	vara	_	_	_	_	_	_	_	
+14-7	790-796	stolta	_	_	_	_	_	_	_	
+14-8	797-801	över	_	_	_	_	_	_	_	
+14-9	801-802	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har lyckats med detta tack vare vår kärnkraft och vår vattenkraft.
+15-1	803-810	Sverige	*	_	_	_	_	_	_	
+15-2	811-814	har	_	Target[5]	15-1	false[5]	4[5]	_	_	
+15-3	815-822	lyckats	_	Target[5]	15-1	false[5]	4[5]	_	_	
+15-4	823-826	med	_	_	_	_	_	_	_	
+15-5	827-832	detta	_	_	_	_	_	_	_	
+15-6	833-837	tack	_	_	_	_	_	_	_	
+15-7	838-842	vare	_	_	_	_	_	_	_	
+15-8	843-846	vår	_	_	_	_	_	_	_	
+15-9	847-856	kärnkraft	_	_	_	_	_	_	_	
+15-10	857-860	och	_	_	_	_	_	_	_	
+15-11	861-864	vår	_	_	_	_	_	_	_	
+15-12	865-876	vattenkraft	_	_	_	_	_	_	_	
+15-13	876-877	.	_	_	_	_	_	_	_	
+
+#Text=Vi har skapat ett elsystem där fossila bränslen i princip inte behövs: 97 procent av vår elproduktion sker utan koldioxidutsläpp.
+16-1	878-880	Vi	_	_	_	_	_	_	_	
+16-2	881-884	har	_	_	_	_	_	_	_	
+16-3	885-891	skapat	_	_	_	_	_	_	_	
+16-4	892-895	ett	_	_	_	_	_	_	_	
+16-5	896-904	elsystem	_	_	_	_	_	_	_	
+16-6	905-908	där	_	_	_	_	_	_	_	
+16-7	909-916	fossila	_	_	_	_	_	_	_	
+16-8	917-925	bränslen	_	_	_	_	_	_	_	
+16-9	926-927	i	_	_	_	_	_	_	_	
+16-10	928-935	princip	_	_	_	_	_	_	_	
+16-11	936-940	inte	_	_	_	_	_	_	_	
+16-12	941-947	behövs	_	_	_	_	_	_	_	
+16-13	947-948	:	_	_	_	_	_	_	_	
+16-14	949-951	97	_	_	_	_	_	_	_	
+16-15	952-959	procent	_	_	_	_	_	_	_	
+16-16	960-962	av	_	_	_	_	_	_	_	
+16-17	963-966	vår	_	_	_	_	_	_	_	
+16-18	967-979	elproduktion	_	_	_	_	_	_	_	
+16-19	980-984	sker	_	_	_	_	_	_	_	
+16-20	985-989	utan	_	_	_	_	_	_	_	
+16-21	990-1006	koldioxidutsläpp	_	_	_	_	_	_	_	
+16-22	1006-1007	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1009-1010	#	_	_	_	_	_	_	_	
+17-2	1010-1011	P	_	_	_	_	_	_	_	
+17-3	1012-1015	IMM	_	_	_	_	_	_	_	
+17-4	1015-1016	.	_	_	_	_	_	_	_	
+
+#Text=Satsningen på vattenkraft har handlat om att förse industrin med el, men vattenkraften har också bidragit till att ersätta fossila bränslen.
+18-1	1018-1028	Satsningen	_	_	_	_	_	_	_	
+18-2	1029-1031	på	_	_	_	_	_	_	_	
+18-3	1032-1043	vattenkraft	_	_	_	_	_	_	_	
+18-4	1044-1047	har	_	_	_	_	_	_	_	
+18-5	1048-1055	handlat	_	_	_	_	_	_	_	
+18-6	1056-1058	om	_	_	_	_	_	_	_	
+18-7	1059-1062	att	_	_	_	_	_	_	_	
+18-8	1063-1068	förse	_	_	_	_	_	_	_	
+18-9	1069-1078	industrin	_	_	_	_	_	_	_	
+18-10	1079-1082	med	_	_	_	_	_	_	_	
+18-11	1083-1085	el	_	_	_	_	_	_	_	
+18-12	1085-1086	,	_	_	_	_	_	_	_	
+18-13	1087-1090	men	_	_	_	_	_	_	_	
+18-14	1091-1104	vattenkraften	_	_	_	_	_	_	_	
+18-15	1105-1108	har	_	_	_	_	_	_	_	
+18-16	1109-1114	också	_	_	_	_	_	_	_	
+18-17	1115-1123	bidragit	_	_	_	_	_	_	_	
+18-18	1124-1128	till	_	_	_	_	_	_	_	
+18-19	1129-1132	att	_	_	_	_	_	_	_	
+18-20	1133-1140	ersätta	_	_	_	_	_	_	_	
+18-21	1141-1148	fossila	_	_	_	_	_	_	_	
+18-22	1149-1157	bränslen	_	_	_	_	_	_	_	
+18-23	1157-1158	.	_	_	_	_	_	_	_	
+
+#Text=Genom vattenkraften har vi fått en förnybar och billig energikälla.
+19-1	1159-1164	Genom	_	_	_	_	_	_	_	
+19-2	1165-1178	vattenkraften	*	_	_	_	_	_	21-1	
+19-3	1179-1182	har	_	_	_	_	_	_	_	
+19-4	1183-1185	vi	_	_	_	_	_	_	_	
+19-5	1186-1190	fått	_	_	_	_	_	_	_	
+19-6	1191-1193	en	_	_	_	_	_	_	_	
+19-7	1194-1202	förnybar	_	_	_	_	_	_	_	
+19-8	1203-1206	och	_	_	_	_	_	_	_	
+19-9	1207-1213	billig	_	_	_	_	_	_	_	
+19-10	1214-1225	energikälla	_	_	_	_	_	_	_	
+19-11	1225-1226	.	_	_	_	_	_	_	_	
+
+#Text=Vattenkraftens möjlighet att lagras i dammar och regleras gör att vi enkelt kan anpassa elproduktionen mot efterfrågan på el och variationen i annan elproduktion.
+20-1	1227-1241	Vattenkraftens	_	_	_	_	_	_	_	
+20-2	1242-1251	möjlighet	_	_	_	_	_	_	_	
+20-3	1252-1255	att	_	_	_	_	_	_	_	
+20-4	1256-1262	lagras	_	_	_	_	_	_	_	
+20-5	1263-1264	i	_	_	_	_	_	_	_	
+20-6	1265-1271	dammar	_	_	_	_	_	_	_	
+20-7	1272-1275	och	_	_	_	_	_	_	_	
+20-8	1276-1284	regleras	_	_	_	_	_	_	_	
+20-9	1285-1288	gör	_	_	_	_	_	_	_	
+20-10	1289-1292	att	_	_	_	_	_	_	_	
+20-11	1293-1295	vi	_	_	_	_	_	_	_	
+20-12	1296-1302	enkelt	_	_	_	_	_	_	_	
+20-13	1303-1306	kan	_	_	_	_	_	_	_	
+20-14	1307-1314	anpassa	_	_	_	_	_	_	_	
+20-15	1315-1329	elproduktionen	_	_	_	_	_	_	_	
+20-16	1330-1333	mot	_	_	_	_	_	_	_	
+20-17	1334-1345	efterfrågan	_	_	_	_	_	_	_	
+20-18	1346-1348	på	_	_	_	_	_	_	_	
+20-19	1349-1351	el	_	_	_	_	_	_	_	
+20-20	1352-1355	och	_	_	_	_	_	_	_	
+20-21	1356-1367	variationen	_	_	_	_	_	_	_	
+20-22	1368-1369	i	_	_	_	_	_	_	_	
+20-23	1370-1375	annan	_	_	_	_	_	_	_	
+20-24	1376-1388	elproduktion	_	_	_	_	_	_	_	
+20-25	1388-1389	.	_	_	_	_	_	_	_	
+
+#Text=Den är särskilt viktig i ett energisystem som får allt mer väderberoende kraft, som sol- och vindkraft.
+21-1	1390-1393	Den	*	_	_	_	_	_	_	
+21-2	1394-1396	är	_	Target[6]	21-1	false[6]	4[6]	_	_	
+21-3	1397-1405	särskilt	_	Target[6]	21-1	false[6]	4[6]	_	_	
+21-4	1406-1412	viktig	_	Target[6]	21-1	false[6]	4[6]	_	_	
+21-5	1413-1414	i	_	_	_	_	_	_	_	
+21-6	1415-1418	ett	_	_	_	_	_	_	_	
+21-7	1419-1431	energisystem	_	_	_	_	_	_	_	
+21-8	1432-1435	som	_	_	_	_	_	_	_	
+21-9	1436-1439	får	_	_	_	_	_	_	_	
+21-10	1440-1444	allt	_	_	_	_	_	_	_	
+21-11	1445-1448	mer	_	_	_	_	_	_	_	
+21-12	1449-1462	väderberoende	_	_	_	_	_	_	_	
+21-13	1463-1468	kraft	_	_	_	_	_	_	_	
+21-14	1468-1469	,	_	_	_	_	_	_	_	
+21-15	1470-1473	som	_	_	_	_	_	_	_	
+21-16	1474-1477	sol	_	_	_	_	_	_	_	
+21-17	1477-1478	-	_	_	_	_	_	_	_	
+21-18	1479-1482	och	_	_	_	_	_	_	_	
+21-19	1483-1492	vindkraft	_	_	_	_	_	_	_	
+21-20	1492-1493	.	_	_	_	_	_	_	_	
+
+#Text=Vattenkraften är därför ur ett energisystemperspektiv överlägsen alla andra kraftkällor.
+22-1	1494-1507	Vattenkraften	*	_	_	_	_	_	_	
+22-2	1508-1510	är	_	_	_	false	5	_	_	
+22-3	1511-1517	därför	_	_	_	_	_	_	_	
+22-4	1518-1520	ur	_	_	_	_	_	_	_	
+22-5	1521-1524	ett	_	_	_	_	_	_	_	
+22-6	1525-1547	energisystemperspektiv	_	_	_	_	_	_	_	
+22-7	1548-1558	överlägsen	_	Target	22-1	false	5	22-2	_	
+22-8	1559-1563	alla	_	_	_	_	_	_	_	
+22-9	1564-1569	andra	_	_	_	_	_	_	_	
+22-10	1570-1581	kraftkällor	_	_	_	_	_	_	_	
+22-11	1581-1582	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1584-1585	#	_	_	_	_	_	_	_	
+23-2	1585-1586	P	_	_	_	_	_	_	_	
+23-3	1587-1590	IMM	_	_	_	_	_	_	_	
+23-4	1590-1591	.	_	_	_	_	_	_	_	
+
+#Text=Den första oktober presenterade Vattenverksamhetsutredningen sitt delbetänkande "Ny tid ny prövning".
+24-1	1593-1596	Den	_	_	_	_	_	_	_	
+24-2	1597-1603	första	_	_	_	_	_	_	_	
+24-3	1604-1611	oktober	_	_	_	_	_	_	_	
+24-4	1612-1624	presenterade	*[16]	_	_	_	_	_	30-1[0_16]|25-1[18_16]	
+24-5	1625-1653	Vattenverksamhetsutredningen	*[16]|*[17]	_	_	_	_	_	_	
+24-6	1654-1658	sitt	*[16]	_	_	_	_	_	_	
+24-7	1659-1672	delbetänkande	*[16]	_	_	_	_	_	_	
+24-8	1673-1674	"	*[16]	_	_	_	_	_	_	
+24-9	1674-1676	Ny	*[16]	_	_	_	_	_	_	
+24-10	1677-1680	tid	*[16]	_	_	_	_	_	_	
+24-11	1681-1683	ny	*[16]	_	_	_	_	_	_	
+24-12	1684-1692	prövning	*[16]	_	_	_	_	_	_	
+24-13	1692-1693	"	*[16]	_	_	_	_	_	_	
+24-14	1693-1694	.	_	_	_	_	_	_	_	
+
+#Text=Utredningens förslag hotar satsningarna på ett fossilfritt energisystem och riskerar minska industrins konkurrenskraft genom ökade kostnader för el.
+25-1	1695-1707	Utredningens	*[18]	_	_	_	_	_	_	
+25-2	1708-1715	förslag	*[18]	_	_	_	_	_	_	
+25-3	1716-1721	hotar	_	Target	25-1[18]	false	2	_	_	
+25-4	1722-1734	satsningarna	_	_	_	_	_	_	_	
+25-5	1735-1737	på	_	_	_	_	_	_	_	
+25-6	1738-1741	ett	_	_	_	_	_	_	_	
+25-7	1742-1753	fossilfritt	_	_	_	_	_	_	_	
+25-8	1754-1766	energisystem	_	_	_	_	_	_	_	
+25-9	1767-1770	och	_	_	_	_	_	_	_	
+25-10	1771-1779	riskerar	_	Target	25-1[18]	false	2	_	_	
+25-11	1780-1786	minska	_	_	_	_	_	_	_	
+25-12	1787-1797	industrins	_	_	_	_	_	_	_	
+25-13	1798-1813	konkurrenskraft	_	_	_	_	_	_	_	
+25-14	1814-1819	genom	_	_	_	_	_	_	_	
+25-15	1820-1825	ökade	_	_	_	_	_	_	_	
+25-16	1826-1835	kostnader	_	_	_	_	_	_	_	
+25-17	1836-1839	för	_	_	_	_	_	_	_	
+25-18	1840-1842	el	_	_	_	_	_	_	_	
+25-19	1842-1843	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1845-1846	#	_	_	_	_	_	_	_	
+26-2	1846-1847	P	_	_	_	_	_	_	_	
+26-3	1848-1851	IMM	_	_	_	_	_	_	_	
+26-4	1851-1852	.	_	_	_	_	_	_	_	
+
+#Text=Utredningen föreslår att all vattenverksamhet som fått tillstånd före 1999 ska prövas som om den är ny verksamhet.
+27-1	1854-1865	Utredningen	_	_	_	_	_	_	_	
+27-2	1866-1874	föreslår	_	_	_	_	_	_	_	
+27-3	1875-1878	att	_	_	_	_	_	_	_	
+27-4	1879-1882	all	_	_	_	_	_	_	_	
+27-5	1883-1899	vattenverksamhet	_	_	_	_	_	_	_	
+27-6	1900-1903	som	_	_	_	_	_	_	_	
+27-7	1904-1908	fått	_	_	_	_	_	_	_	
+27-8	1909-1918	tillstånd	_	_	_	_	_	_	_	
+27-9	1919-1923	före	_	_	_	_	_	_	_	
+27-10	1924-1928	1999	_	_	_	_	_	_	_	
+27-11	1929-1932	ska	_	_	_	_	_	_	_	
+27-12	1933-1939	prövas	_	_	_	_	_	_	_	
+27-13	1940-1943	som	_	_	_	_	_	_	_	
+27-14	1944-1946	om	_	_	_	_	_	_	_	
+27-15	1947-1950	den	_	_	_	_	_	_	_	
+27-16	1951-1953	är	_	_	_	_	_	_	_	
+27-17	1954-1956	ny	_	_	_	_	_	_	_	
+27-18	1957-1967	verksamhet	_	_	_	_	_	_	_	
+27-19	1967-1968	.	_	_	_	_	_	_	_	
+
+#Text=Detta innebär exempelvis att existerande vattenkraftverk på grund av förhållanden som tillkommit efter att de uppfördes kan komma att förlora sitt tillstånd och måste rivas.
+28-1	1969-1974	Detta	_	_	_	_	_	_	_	
+28-2	1975-1982	innebär	_	_	_	_	_	_	_	
+28-3	1983-1993	exempelvis	_	_	_	_	_	_	_	
+28-4	1994-1997	att	_	_	_	_	_	_	_	
+28-5	1998-2009	existerande	_	_	_	_	_	_	_	
+28-6	2010-2025	vattenkraftverk	_	_	_	_	_	_	_	
+28-7	2026-2028	på	_	_	_	_	_	_	_	
+28-8	2029-2034	grund	_	_	_	_	_	_	_	
+28-9	2035-2037	av	_	_	_	_	_	_	_	
+28-10	2038-2050	förhållanden	_	_	_	_	_	_	_	
+28-11	2051-2054	som	_	_	_	_	_	_	_	
+28-12	2055-2065	tillkommit	_	_	_	_	_	_	_	
+28-13	2066-2071	efter	_	_	_	_	_	_	_	
+28-14	2072-2075	att	_	_	_	_	_	_	_	
+28-15	2076-2078	de	_	_	_	_	_	_	_	
+28-16	2079-2088	uppfördes	_	_	_	_	_	_	_	
+28-17	2089-2092	kan	_	_	_	_	_	_	_	
+28-18	2093-2098	komma	_	_	_	_	_	_	_	
+28-19	2099-2102	att	_	_	_	_	_	_	_	
+28-20	2103-2110	förlora	_	_	_	_	_	_	_	
+28-21	2111-2115	sitt	_	_	_	_	_	_	_	
+28-22	2116-2125	tillstånd	_	_	_	_	_	_	_	
+28-23	2126-2129	och	_	_	_	_	_	_	_	
+28-24	2130-2135	måste	_	_	_	_	_	_	_	
+28-25	2136-2141	rivas	_	_	_	_	_	_	_	
+28-26	2141-2142	.	_	_	_	_	_	_	_	
+
+#Text=Den som har en vattenverksamhet förlorar i praktiken sin rättstrygghet.
+29-1	2143-2146	Den	_	_	_	_	_	_	_	
+29-2	2147-2150	som	_	_	_	_	_	_	_	
+29-3	2151-2154	har	_	_	_	_	_	_	_	
+29-4	2155-2157	en	_	_	_	_	_	_	_	
+29-5	2158-2174	vattenverksamhet	_	_	_	_	_	_	_	
+29-6	2175-2183	förlorar	_	_	_	_	_	_	_	
+29-7	2184-2185	i	_	_	_	_	_	_	_	
+29-8	2186-2195	praktiken	_	_	_	_	_	_	_	
+29-9	2196-2199	sin	_	_	_	_	_	_	_	
+29-10	2200-2213	rättstrygghet	_	_	_	_	_	_	_	
+29-11	2213-2214	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget innebär ett mycket långtgående ingrepp som starkt kommer att påverka investeringsviljan i vattenkraft.
+30-1	2215-2224	Förslaget	*	_	_	_	_	_	35-2	
+30-2	2225-2232	innebär	_	_	_	_	_	_	_	
+30-3	2233-2236	ett	_	_	_	_	_	_	_	
+30-4	2237-2243	mycket	_	_	_	_	_	_	_	
+30-5	2244-2255	långtgående	_	_	_	_	_	_	_	
+30-6	2256-2263	ingrepp	_	_	_	_	_	_	_	
+30-7	2264-2267	som	_	_	_	_	_	_	_	
+30-8	2268-2274	starkt	_	_	_	_	_	_	_	
+30-9	2275-2281	kommer	_	_	_	_	_	_	_	
+30-10	2282-2285	att	_	_	_	_	_	_	_	
+30-11	2286-2293	påverka	_	_	_	_	_	_	_	
+30-12	2294-2312	investeringsviljan	_	_	_	_	_	_	_	
+30-13	2313-2314	i	_	_	_	_	_	_	_	
+30-14	2315-2326	vattenkraft	_	_	_	_	_	_	_	
+30-15	2326-2327	.	_	Target	30-1	false	2	_	_	
+
+#Text=Vattenkraftverk kan komma att läggas ner eftersom de blir olönsamma och att andra riskerar en minskad elproduktion, något som leder till ökade elpriser som ovillkorligen drabbar industrin.
+31-1	2328-2343	Vattenkraftverk	_	_	_	_	_	_	_	
+31-2	2344-2347	kan	_	_	_	_	_	_	_	
+31-3	2348-2353	komma	_	_	_	_	_	_	_	
+31-4	2354-2357	att	_	_	_	_	_	_	_	
+31-5	2358-2364	läggas	_	_	_	_	_	_	_	
+31-6	2365-2368	ner	_	_	_	_	_	_	_	
+31-7	2369-2377	eftersom	_	_	_	_	_	_	_	
+31-8	2378-2380	de	_	_	_	_	_	_	_	
+31-9	2381-2385	blir	_	_	_	_	_	_	_	
+31-10	2386-2395	olönsamma	_	_	_	_	_	_	_	
+31-11	2396-2399	och	_	_	_	_	_	_	_	
+31-12	2400-2403	att	_	_	_	_	_	_	_	
+31-13	2404-2409	andra	_	_	_	_	_	_	_	
+31-14	2410-2418	riskerar	_	_	_	_	_	_	_	
+31-15	2419-2421	en	_	_	_	_	_	_	_	
+31-16	2422-2429	minskad	_	_	_	_	_	_	_	
+31-17	2430-2442	elproduktion	_	_	_	_	_	_	_	
+31-18	2442-2443	,	_	_	_	_	_	_	_	
+31-19	2444-2449	något	_	_	_	_	_	_	_	
+31-20	2450-2453	som	_	_	_	_	_	_	_	
+31-21	2454-2459	leder	_	_	_	_	_	_	_	
+31-22	2460-2464	till	_	_	_	_	_	_	_	
+31-23	2465-2470	ökade	_	_	_	_	_	_	_	
+31-24	2471-2479	elpriser	_	_	_	_	_	_	_	
+31-25	2480-2483	som	_	_	_	_	_	_	_	
+31-26	2484-2497	ovillkorligen	_	_	_	_	_	_	_	
+31-27	2498-2505	drabbar	_	_	_	_	_	_	_	
+31-28	2506-2515	industrin	_	_	_	_	_	_	_	
+31-29	2515-2516	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2518-2519	#	_	_	_	_	_	_	_	
+32-2	2519-2520	P	_	_	_	_	_	_	_	
+32-3	2521-2524	IMM	_	_	_	_	_	_	_	
+32-4	2524-2525	.	_	_	_	_	_	_	_	
+
+#Text=Utredningens syfte är att anpassa och modernisera svensk lagstiftning för vattenkraftverk.
+33-1	2527-2539	Utredningens	*	_	_	_	_	_	34-1[20_0]	
+33-2	2540-2545	syfte	_	_	_	_	_	_	_	
+33-3	2546-2548	är	_	_	_	_	_	_	_	
+33-4	2549-2552	att	_	_	_	_	_	_	_	
+33-5	2553-2560	anpassa	_	_	_	_	_	_	_	
+33-6	2561-2564	och	_	_	_	_	_	_	_	
+33-7	2565-2576	modernisera	_	_	_	_	_	_	_	
+33-8	2577-2583	svensk	_	_	_	_	_	_	_	
+33-9	2584-2596	lagstiftning	_	_	_	_	_	_	_	
+33-10	2597-2600	för	_	_	_	_	_	_	_	
+33-11	2601-2616	vattenkraftverk	_	_	_	_	_	_	_	
+33-12	2616-2617	.	_	_	_	_	_	_	_	
+
+#Text=Den vill bland annat stärka den biologiska mångfalden, något som i och för sig är vällovligt.
+34-1	2618-2621	Den	*[19]|*[20]	_	_	_	_	_	_	
+34-2	2622-2626	vill	*[19]	_	_	false	4	_	_	
+34-3	2627-2632	bland	*[19]	_	_	_	_	_	_	
+34-4	2633-2638	annat	*[19]	_	_	_	_	_	_	
+34-5	2639-2645	stärka	*[19]	Source;Target	34-1[20];34-6[21]	false	4	34-2	_	
+34-6	2646-2649	den	*[19]|*[21]	_	_	_	_	_	_	
+34-7	2650-2660	biologiska	*[19]|*[21]	_	_	_	_	_	_	
+34-8	2661-2671	mångfalden	*[19]|*[21]	_	_	_	_	_	_	
+34-9	2671-2672	,	_	_	_	_	_	_	_	
+34-10	2673-2678	något	_	_	_	_	_	_	_	
+34-11	2679-2682	som	_	_	_	_	_	_	_	
+34-12	2683-2684	i	_	_	_	_	_	_	_	
+34-13	2685-2688	och	_	_	_	_	_	_	_	
+34-14	2689-2692	för	_	_	_	_	_	_	_	
+34-15	2693-2696	sig	_	_	_	_	_	_	_	
+34-16	2697-2699	är	_	Target[7]	34-1[19]	false[7]	4[7]	_	_	
+34-17	2700-2710	vällovligt	_	Target[7]	34-1[19]	false[7]	4[7]	_	_	
+34-18	2710-2711	.	_	_	_	_	_	_	_	
+
+#Text=Men förslaget saknar konsekvensanalys av vad det ökade skyddet skulle innebära, trots att detta är en del av uppdraget.
+35-1	2712-2715	Men	_	_	_	_	_	_	_	
+35-2	2716-2725	förslaget	*	_	_	_	_	_	_	
+35-3	2726-2732	saknar	_	Target[8]	35-2	false[8]	4[8]	_	_	
+35-4	2733-2749	konsekvensanalys	_	Target[8]	35-2	false[8]	4[8]	_	_	
+35-5	2750-2752	av	_	_	_	_	_	_	_	
+35-6	2753-2756	vad	_	_	_	_	_	_	_	
+35-7	2757-2760	det	_	_	_	_	_	_	_	
+35-8	2761-2766	ökade	_	_	_	_	_	_	_	
+35-9	2767-2774	skyddet	_	_	_	_	_	_	_	
+35-10	2775-2781	skulle	_	_	_	_	_	_	_	
+35-11	2782-2790	innebära	_	_	_	_	_	_	_	
+35-12	2790-2791	,	_	_	_	_	_	_	_	
+35-13	2792-2797	trots	_	_	_	_	_	_	_	
+35-14	2798-2801	att	_	_	_	_	_	_	_	
+35-15	2802-2807	detta	_	_	_	_	_	_	_	
+35-16	2808-2810	är	_	_	_	_	_	_	_	
+35-17	2811-2813	en	_	_	_	_	_	_	_	
+35-18	2814-2817	del	_	_	_	_	_	_	_	
+35-19	2818-2820	av	_	_	_	_	_	_	_	
+35-20	2821-2830	uppdraget	_	_	_	_	_	_	_	
+35-21	2830-2831	.	_	_	_	_	_	_	_	
+
+#Text=Det saknas svar på frågor om hur mycket vattenkraft som riskerar att gå förlorad.
+36-1	2832-2835	Det	_	_	_	_	_	_	_	
+36-2	2836-2842	saknas	_	_	_	_	_	_	_	
+36-3	2843-2847	svar	_	_	_	_	_	_	_	
+36-4	2848-2850	på	_	_	_	_	_	_	_	
+36-5	2851-2857	frågor	_	_	_	_	_	_	_	
+36-6	2858-2860	om	_	_	_	_	_	_	_	
+36-7	2861-2864	hur	_	_	_	_	_	_	_	
+36-8	2865-2871	mycket	_	_	_	_	_	_	_	
+36-9	2872-2883	vattenkraft	_	_	_	_	_	_	_	
+36-10	2884-2887	som	_	_	_	_	_	_	_	
+36-11	2888-2896	riskerar	_	_	_	_	_	_	_	
+36-12	2897-2900	att	_	_	_	_	_	_	_	
+36-13	2901-2903	gå	_	_	_	_	_	_	_	
+36-14	2904-2912	förlorad	_	_	_	_	_	_	_	
+36-15	2912-2913	.	_	_	_	_	_	_	_	
+
+#Text=Det saknas också en analys av hur detta påverkar vårt energisystem.
+37-1	2914-2917	Det	_	_	_	_	_	_	_	
+37-2	2918-2924	saknas	_	_	_	_	_	_	_	
+37-3	2925-2930	också	_	_	_	_	_	_	_	
+37-4	2931-2933	en	_	_	_	_	_	_	_	
+37-5	2934-2940	analys	_	_	_	_	_	_	_	
+37-6	2941-2943	av	_	_	_	_	_	_	_	
+37-7	2944-2947	hur	_	_	_	_	_	_	_	
+37-8	2948-2953	detta	_	_	_	_	_	_	_	
+37-9	2954-2962	påverkar	_	_	_	_	_	_	_	
+37-10	2963-2967	vårt	_	_	_	_	_	_	_	
+37-11	2968-2980	energisystem	_	_	_	_	_	_	_	
+37-12	2980-2981	.	_	_	_	_	_	_	_	
+
+#Text=Med ökande elproduktion från vindkraft kommer också ökande behov av att kunna reglera i vattenkraften.
+38-1	2982-2985	Med	_	_	_	_	_	_	_	
+38-2	2986-2992	ökande	_	_	_	_	_	_	_	
+38-3	2993-3005	elproduktion	_	_	_	_	_	_	_	
+38-4	3006-3010	från	_	_	_	_	_	_	_	
+38-5	3011-3020	vindkraft	_	_	_	_	_	_	_	
+38-6	3021-3027	kommer	_	_	_	_	_	_	_	
+38-7	3028-3033	också	_	_	_	_	_	_	_	
+38-8	3034-3040	ökande	_	_	_	_	_	_	_	
+38-9	3041-3046	behov	_	_	_	_	_	_	_	
+38-10	3047-3049	av	_	_	_	_	_	_	_	
+38-11	3050-3053	att	_	_	_	_	_	_	_	
+38-12	3054-3059	kunna	_	_	_	_	_	_	_	
+38-13	3060-3067	reglera	_	_	_	_	_	_	_	
+38-14	3068-3069	i	_	_	_	_	_	_	_	
+38-15	3070-3083	vattenkraften	_	_	_	_	_	_	_	
+38-16	3083-3084	.	_	_	_	_	_	_	_	
+
+#Text=Denna möjlighet till reglering kommer att minska med utredningens förslag och hur elsystemet ska kunna hantera den ökande mängd väderberoende kraft analyseras inte.
+39-1	3085-3090	Denna	_	_	_	_	_	_	_	
+39-2	3091-3100	möjlighet	_	_	_	_	_	_	_	
+39-3	3101-3105	till	_	_	_	_	_	_	_	
+39-4	3106-3115	reglering	_	_	_	_	_	_	_	
+39-5	3116-3122	kommer	_	_	_	_	_	_	_	
+39-6	3123-3126	att	_	_	_	_	_	_	_	
+39-7	3127-3133	minska	_	_	_	_	_	_	_	
+39-8	3134-3137	med	_	_	_	_	_	_	_	
+39-9	3138-3150	utredningens	_	_	_	_	_	_	_	
+39-10	3151-3158	förslag	_	_	_	_	_	_	_	
+39-11	3159-3162	och	_	_	_	_	_	_	_	
+39-12	3163-3166	hur	_	_	_	_	_	_	_	
+39-13	3167-3177	elsystemet	_	_	_	_	_	_	_	
+39-14	3178-3181	ska	_	_	_	_	_	_	_	
+39-15	3182-3187	kunna	_	_	_	_	_	_	_	
+39-16	3188-3195	hantera	_	_	_	_	_	_	_	
+39-17	3196-3199	den	_	_	_	_	_	_	_	
+39-18	3200-3206	ökande	_	_	_	_	_	_	_	
+39-19	3207-3212	mängd	_	_	_	_	_	_	_	
+39-20	3213-3226	väderberoende	_	_	_	_	_	_	_	
+39-21	3227-3232	kraft	_	_	_	_	_	_	_	
+39-22	3233-3243	analyseras	_	_	_	_	_	_	_	
+39-23	3244-3248	inte	_	_	_	_	_	_	_	
+39-24	3248-3249	.	_	_	_	_	_	_	_	
+
+#Text=Det saknas även en analys av vilken påverkan det får på elpriset, eller hur det i sin tur påverkar svenska företags konkurrenskraft och vår välfärd.
+40-1	3250-3253	Det	_	_	_	_	_	_	_	
+40-2	3254-3260	saknas	_	_	_	_	_	_	_	
+40-3	3261-3265	även	_	_	_	_	_	_	_	
+40-4	3266-3268	en	_	_	_	_	_	_	_	
+40-5	3269-3275	analys	_	_	_	_	_	_	_	
+40-6	3276-3278	av	_	_	_	_	_	_	_	
+40-7	3279-3285	vilken	_	_	_	_	_	_	_	
+40-8	3286-3294	påverkan	_	_	_	_	_	_	_	
+40-9	3295-3298	det	_	_	_	_	_	_	_	
+40-10	3299-3302	får	_	_	_	_	_	_	_	
+40-11	3303-3305	på	_	_	_	_	_	_	_	
+40-12	3306-3314	elpriset	_	_	_	_	_	_	_	
+40-13	3314-3315	,	_	_	_	_	_	_	_	
+40-14	3316-3321	eller	_	_	_	_	_	_	_	
+40-15	3322-3325	hur	_	_	_	_	_	_	_	
+40-16	3326-3329	det	_	_	_	_	_	_	_	
+40-17	3330-3331	i	_	_	_	_	_	_	_	
+40-18	3332-3335	sin	_	_	_	_	_	_	_	
+40-19	3336-3339	tur	_	_	_	_	_	_	_	
+40-20	3340-3348	påverkar	_	_	_	_	_	_	_	
+40-21	3349-3356	svenska	_	_	_	_	_	_	_	
+40-22	3357-3365	företags	_	_	_	_	_	_	_	
+40-23	3366-3381	konkurrenskraft	_	_	_	_	_	_	_	
+40-24	3382-3385	och	_	_	_	_	_	_	_	
+40-25	3386-3389	vår	_	_	_	_	_	_	_	
+40-26	3390-3397	välfärd	_	_	_	_	_	_	_	
+40-27	3397-3398	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3400-3401	#	_	_	_	_	_	_	_	
+41-2	3401-3402	P	_	_	_	_	_	_	_	
+41-3	3403-3406	IMM	_	_	_	_	_	_	_	
+41-4	3406-3407	.	_	_	_	_	_	_	_	
+
+#Text=Förslagen som läggs river upp ett helt system och kommer att få stora konsekvenser.
+42-1	3409-3418	Förslagen	*[22]	_	_	_	_	_	_	
+42-2	3419-3422	som	*[22]	_	_	_	_	_	_	
+42-3	3423-3428	läggs	*[22]	_	_	_	_	_	_	
+42-4	3429-3434	river	_	_	_	_	_	_	_	
+42-5	3435-3438	upp	_	_	_	_	_	_	_	
+42-6	3439-3442	ett	_	_	_	_	_	_	_	
+42-7	3443-3447	helt	_	_	_	_	_	_	_	
+42-8	3448-3454	system	_	_	_	_	_	_	_	
+42-9	3455-3458	och	_	_	_	_	_	_	_	
+42-10	3459-3465	kommer	_	Target[9]	42-1[22]	false[9]	4[9]	_	_	
+42-11	3466-3469	att	_	Target[9]	42-1[22]	false[9]	4[9]	_	_	
+42-12	3470-3472	få	_	Target[9]	42-1[22]	false[9]	4[9]	_	_	
+42-13	3473-3478	stora	_	Target[9]	42-1[22]	false[9]	4[9]	_	_	
+42-14	3479-3491	konsekvenser	_	Target[9]	42-1[22]	false[9]	4[9]	_	_	
+42-15	3491-3492	.	_	_	_	_	_	_	_	
+
+#Text=För att nå de mål utredningen har går det att med betydligt mindre ändringar genomföra behövliga åtgärder.
+43-1	3493-3496	För	_	_	_	_	_	_	_	
+43-2	3497-3500	att	_	_	_	_	_	_	_	
+43-3	3501-3503	nå	_	_	_	_	_	_	_	
+43-4	3504-3506	de	_	_	_	_	_	_	_	
+43-5	3507-3510	mål	_	_	_	_	_	_	_	
+43-6	3511-3522	utredningen	_	_	_	_	_	_	_	
+43-7	3523-3526	har	_	_	_	_	_	_	_	
+43-8	3527-3530	går	_	_	_	_	_	_	_	
+43-9	3531-3534	det	_	_	_	_	_	_	_	
+43-10	3535-3538	att	_	_	_	_	_	_	_	
+43-11	3539-3542	med	_	_	_	_	_	_	_	
+43-12	3543-3552	betydligt	_	_	_	_	_	_	_	
+43-13	3553-3559	mindre	_	_	_	_	_	_	_	
+43-14	3560-3569	ändringar	_	_	_	_	_	_	_	
+43-15	3570-3579	genomföra	_	_	_	_	_	_	_	
+43-16	3580-3589	behövliga	_	_	_	_	_	_	_	
+43-17	3590-3598	åtgärder	_	_	_	_	_	_	_	
+43-18	3598-3599	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett högt spel som Sverige spelar.
+44-1	3600-3603	Det	_	_	_	_	_	_	_	
+44-2	3604-3606	är	_	_	_	_	_	_	_	
+44-3	3607-3610	ett	_	Target[10]	44-7	false[10]	2[10]	44-8[0_10]	_	
+44-4	3611-3615	högt	_	Target[10]	44-7	false[10]	2[10]	_	_	
+44-5	3616-3620	spel	_	Target[10]	44-7	false[10]	2[10]	_	_	
+44-6	3621-3624	som	_	_	_	_	_	_	_	
+44-7	3625-3632	Sverige	*	_	_	_	_	_	_	
+44-8	3633-3639	spelar	_	_	_	false	2	_	_	
+44-9	3639-3640	.	_	_	_	_	_	_	_	
+
+#Text=För många andra länder, som med avund ser på Sveriges rena elproduktion, är det obegripligt.
+45-1	3641-3644	För	_	_	_	_	_	_	_	
+45-2	3645-3650	många	*[23]	_	_	_	_	_	_	
+45-3	3651-3656	andra	*[23]	_	_	_	_	_	_	
+45-4	3657-3663	länder	*[23]	_	_	_	_	_	_	
+45-5	3663-3664	,	_	_	_	_	_	_	_	
+45-6	3665-3668	som	_	_	_	_	_	_	_	
+45-7	3669-3672	med	_	Source;Target[11]	45-2[23];45-11[24]	false[11]	4[11]	_	_	
+45-8	3673-3678	avund	_	Source;Target[11]	45-2[23];45-11[24]	false[11]	4[11]	_	_	
+45-9	3679-3682	ser	_	Source;Target[11]	45-2[23];45-11[24]	false[11]	4[11]	_	_	
+45-10	3683-3685	på	_	Source;Target[11]	45-2[23];45-11[24]	false[11]	4[11]	_	_	
+45-11	3686-3694	Sveriges	*[24]	_	_	_	_	_	_	
+45-12	3695-3699	rena	*[24]	_	_	_	_	_	_	
+45-13	3700-3712	elproduktion	*[24]	_	_	_	_	_	_	
+45-14	3712-3713	,	_	_	_	_	_	_	_	
+45-15	3714-3716	är	_	_	_	_	_	_	_	
+45-16	3717-3720	det	_	_	_	_	_	_	_	
+45-17	3721-3732	obegripligt	_	_	_	_	_	_	_	
+45-18	3732-3733	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3735-3736	#	_	_	_	_	_	_	_	
+46-2	3736-3737	P	_	_	_	_	_	_	_	
+46-3	3738-3741	IMM	_	_	_	_	_	_	_	
+46-4	3741-3742	.	_	_	_	_	_	_	_	
+
+#Text=Det svenska näringslivet har länge varit engagerat i energi- och klimatfrågor.
+47-1	3744-3747	Det	_	_	_	_	_	_	_	
+47-2	3748-3755	svenska	_	_	_	_	_	_	_	
+47-3	3756-3768	näringslivet	_	_	_	_	_	_	_	
+47-4	3769-3772	har	_	_	_	_	_	_	_	
+47-5	3773-3778	länge	_	_	_	_	_	_	_	
+47-6	3779-3784	varit	_	_	_	_	_	_	_	
+47-7	3785-3794	engagerat	_	_	_	_	_	_	_	
+47-8	3795-3796	i	_	_	_	_	_	_	_	
+47-9	3797-3803	energi	_	_	_	_	_	_	_	
+47-10	3803-3804	-	_	_	_	_	_	_	_	
+47-11	3805-3808	och	_	_	_	_	_	_	_	
+47-12	3809-3821	klimatfrågor	_	_	_	_	_	_	_	
+47-13	3821-3822	.	_	_	_	_	_	_	_	
+
+#Text=Näringslivets direkta och indirekta koldioxidutsläpp har under lång tid minskat både i faktiska tal och i förhållande till produktion och förädlingsvärde.
+48-1	3823-3836	Näringslivets	_	_	_	_	_	_	_	
+48-2	3837-3844	direkta	_	_	_	_	_	_	_	
+48-3	3845-3848	och	_	_	_	_	_	_	_	
+48-4	3849-3858	indirekta	_	_	_	_	_	_	_	
+48-5	3859-3875	koldioxidutsläpp	_	_	_	_	_	_	_	
+48-6	3876-3879	har	_	_	_	_	_	_	_	
+48-7	3880-3885	under	_	_	_	_	_	_	_	
+48-8	3886-3890	lång	_	_	_	_	_	_	_	
+48-9	3891-3894	tid	_	_	_	_	_	_	_	
+48-10	3895-3902	minskat	_	_	_	_	_	_	_	
+48-11	3903-3907	både	_	_	_	_	_	_	_	
+48-12	3908-3909	i	_	_	_	_	_	_	_	
+48-13	3910-3918	faktiska	_	_	_	_	_	_	_	
+48-14	3919-3922	tal	_	_	_	_	_	_	_	
+48-15	3923-3926	och	_	_	_	_	_	_	_	
+48-16	3927-3928	i	_	_	_	_	_	_	_	
+48-17	3929-3940	förhållande	_	_	_	_	_	_	_	
+48-18	3941-3945	till	_	_	_	_	_	_	_	
+48-19	3946-3956	produktion	_	_	_	_	_	_	_	
+48-20	3957-3960	och	_	_	_	_	_	_	_	
+48-21	3961-3976	förädlingsvärde	_	_	_	_	_	_	_	
+48-22	3976-3977	.	_	_	_	_	_	_	_	
+
+#Text=Den svenska industrin exporterar produkter med globalt sett små koldioxidavtryck till en världsmarknad.
+49-1	3978-3981	Den	_	_	_	_	_	_	_	
+49-2	3982-3989	svenska	_	_	_	_	_	_	_	
+49-3	3990-3999	industrin	_	_	_	_	_	_	_	
+49-4	4000-4010	exporterar	_	_	_	_	_	_	_	
+49-5	4011-4020	produkter	_	_	_	_	_	_	_	
+49-6	4021-4024	med	_	_	_	_	_	_	_	
+49-7	4025-4032	globalt	_	_	_	_	_	_	_	
+49-8	4033-4037	sett	_	_	_	_	_	_	_	
+49-9	4038-4041	små	_	_	_	_	_	_	_	
+49-10	4042-4058	koldioxidavtryck	_	_	_	_	_	_	_	
+49-11	4059-4063	till	_	_	_	_	_	_	_	
+49-12	4064-4066	en	_	_	_	_	_	_	_	
+49-13	4067-4080	världsmarknad	_	_	_	_	_	_	_	
+49-14	4080-4081	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har en fantastisk utgångspunkt att fortsätta vara en nation med en betydande industri, med elpriser som gör att vi kan konkurrera och med produkter som gör global klimatnytta.
+50-1	4082-4089	Sverige	_	_	_	_	_	_	_	
+50-2	4090-4093	har	_	_	_	_	_	_	_	
+50-3	4094-4096	en	_	_	_	_	_	_	_	
+50-4	4097-4107	fantastisk	_	Target	50-5	false	5	_	_	
+50-5	4108-4120	utgångspunkt	*	_	_	_	_	_	_	
+50-6	4121-4124	att	_	_	_	_	_	_	_	
+50-7	4125-4134	fortsätta	_	_	_	_	_	_	_	
+50-8	4135-4139	vara	_	_	_	_	_	_	_	
+50-9	4140-4142	en	_	_	_	_	_	_	_	
+50-10	4143-4149	nation	_	_	_	_	_	_	_	
+50-11	4150-4153	med	_	_	_	_	_	_	_	
+50-12	4154-4156	en	_	_	_	_	_	_	_	
+50-13	4157-4166	betydande	_	_	_	_	_	_	_	
+50-14	4167-4175	industri	_	_	_	_	_	_	_	
+50-15	4175-4176	,	_	_	_	_	_	_	_	
+50-16	4177-4180	med	_	_	_	_	_	_	_	
+50-17	4181-4189	elpriser	_	_	_	_	_	_	_	
+50-18	4190-4193	som	_	_	_	_	_	_	_	
+50-19	4194-4197	gör	_	_	_	_	_	_	_	
+50-20	4198-4201	att	_	_	_	_	_	_	_	
+50-21	4202-4204	vi	_	_	_	_	_	_	_	
+50-22	4205-4208	kan	_	_	_	_	_	_	_	
+50-23	4209-4219	konkurrera	_	_	_	_	_	_	_	
+50-24	4220-4223	och	_	_	_	_	_	_	_	
+50-25	4224-4227	med	_	_	_	_	_	_	_	
+50-26	4228-4237	produkter	_	_	_	_	_	_	_	
+50-27	4238-4241	som	_	_	_	_	_	_	_	
+50-28	4242-4245	gör	_	_	_	_	_	_	_	
+50-29	4246-4252	global	_	_	_	_	_	_	_	
+50-30	4253-4264	klimatnytta	_	_	_	_	_	_	_	
+50-31	4264-4265	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4267-4268	#	_	_	_	_	_	_	_	
+51-2	4268-4269	P	_	_	_	_	_	_	_	
+51-3	4270-4273	IMM	_	_	_	_	_	_	_	
+51-4	4273-4274	.	_	_	_	_	_	_	_	
+
+#Text=Låt oss värna om den möjligheten.
+52-1	4276-4279	Låt	_	_	_	_	_	_	_	
+52-2	4280-4283	oss	_	_	_	_	_	_	_	
+52-3	4284-4289	värna	_	_	_	_	_	_	_	
+52-4	4290-4292	om	_	_	_	_	_	_	_	
+52-5	4293-4296	den	_	_	_	_	_	_	_	
+52-6	4297-4308	möjligheten	_	_	_	_	_	_	_	
+52-7	4308-4309	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4311-4312	#	_	_	_	_	_	_	_	
+53-2	4312-4313	P	_	_	_	_	_	_	_	
+53-3	4314-4317	IMM	_	_	_	_	_	_	_	
+53-4	4317-4318	.	_	_	_	_	_	_	_	
+
+#Text=JAN JOHANSSON.
+54-1	4320-4323	JAN	_	_	_	_	_	_	_	
+54-2	4324-4333	JOHANSSON	_	_	_	_	_	_	_	
+54-3	4333-4334	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4336-4337	#	_	_	_	_	_	_	_	
+55-2	4337-4338	P	_	_	_	_	_	_	_	
+55-3	4339-4342	IMM	_	_	_	_	_	_	_	
+55-4	4342-4343	.	_	_	_	_	_	_	_	
+
+#Text=vd SCA och ordförande i SKGS, basindustrins Energisamarbete.
+56-1	4345-4347	vd	_	_	_	_	_	_	_	
+56-2	4348-4351	SCA	_	_	_	_	_	_	_	
+56-3	4352-4355	och	_	_	_	_	_	_	_	
+56-4	4356-4366	ordförande	_	_	_	_	_	_	_	
+56-5	4367-4368	i	_	_	_	_	_	_	_	
+56-6	4369-4373	SKGS	_	_	_	_	_	_	_	
+56-7	4373-4374	,	_	_	_	_	_	_	_	
+56-8	4375-4388	basindustrins	_	_	_	_	_	_	_	
+56-9	4389-4404	Energisamarbete	_	_	_	_	_	_	_	
+56-10	4404-4405	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4407-4408	#	_	_	_	_	_	_	_	
+57-2	4408-4409	P	_	_	_	_	_	_	_	
+57-3	4410-4413	IMM	_	_	_	_	_	_	_	
+57-4	4413-4414	.	_	_	_	_	_	_	_	
+
+#Text=ANNIKA LUNDIUS.
+58-1	4416-4422	ANNIKA	_	_	_	_	_	_	_	
+58-2	4423-4430	LUNDIUS	_	_	_	_	_	_	_	
+58-3	4430-4431	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4433-4434	#	_	_	_	_	_	_	_	
+59-2	4434-4435	P	_	_	_	_	_	_	_	
+59-3	4436-4439	IMM	_	_	_	_	_	_	_	
+59-4	4439-4440	.	_	_	_	_	_	_	_	
+
+#Text=vice vd Svenskt Näringsliv.
+60-1	4442-4446	vice	_	_	_	_	_	_	_	
+60-2	4447-4449	vd	_	_	_	_	_	_	_	
+60-3	4450-4457	Svenskt	_	_	_	_	_	_	_	
+60-4	4458-4468	Näringsliv	_	_	_	_	_	_	_	
+60-5	4468-4469	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4471-4472	#	_	_	_	_	_	_	_	
+61-2	4472-4473	P	_	_	_	_	_	_	_	
+61-3	4474-4477	IMM	_	_	_	_	_	_	_	
+61-4	4477-4478	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+62-1	4480-4488	Redaktör	_	_	_	_	_	_	_	
+62-2	4488-4489	:	_	_	_	_	_	_	_	
+62-3	4490-4496	Carina	_	_	_	_	_	_	_	
+62-4	4497-4505	Stensson	_	_	_	_	_	_	_	
+62-5	4505-4506	,	_	_	_	_	_	_	_	
+62-6	4507-4517	Biträdande	_	_	_	_	_	_	_	
+62-7	4518-4526	redaktör	_	_	_	_	_	_	_	
+62-8	4526-4527	:	_	_	_	_	_	_	_	
+62-9	4528-4533	Björn	_	_	_	_	_	_	_	
+62-10	4534-4540	Jorner	_	_	_	_	_	_	_	
+62-11	4540-4541	,	_	_	_	_	_	_	_	
+62-12	4542-4546	Mejl	_	_	_	_	_	_	_	
+62-13	4546-4547	:	_	_	_	_	_	_	_	
+62-14	4548-4554	debatt	_	_	_	_	_	_	_	
+62-15	4554-4555	@	_	_	_	_	_	_	_	
+62-16	4555-4561	svd.se	_	_	_	_	_	_	_	
+62-17	4561-4562	,	_	_	_	_	_	_	_	
+62-18	4563-4576	Telefonnummer	_	_	_	_	_	_	_	
+62-19	4576-4577	:	_	_	_	_	_	_	_	
+62-20	4578-4580	08	_	_	_	_	_	_	_	
+62-21	4580-4581	-	_	_	_	_	_	_	_	
+62-22	4581-4587	135149	_	_	_	_	_	_	_	
+62-23	4587-4588	,	_	_	_	_	_	_	_	
+62-24	4589-4596	Twitter	_	_	_	_	_	_	_	
+62-25	4596-4597	:	_	_	_	_	_	_	_	
+62-26	4598-4599	@	_	_	_	_	_	_	_	
+62-27	4599-4608	SvDDebatt	_	_	_	_	_	_	_	
+62-28	4608-4609	,	_	_	_	_	_	_	_	
+62-29	4610-4618	Facebook	_	_	_	_	_	_	_	
+62-30	4618-4619	:	_	_	_	_	_	_	_	
+62-31	4620-4623	SvD	_	_	_	_	_	_	_	
+62-32	4624-4630	Debatt	_	_	_	_	_	_	_	
+62-33	4630-4631	.	_	_	_	_	_	_	_	

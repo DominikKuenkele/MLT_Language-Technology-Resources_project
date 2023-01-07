@@ -1,0 +1,855 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Inga nyanser i kritiken mot rättsväsendet.
+3-1	18-22	Inga	_	_	_	_	_	_	_	
+3-2	23-30	nyanser	_	_	_	_	_	_	_	
+3-3	31-32	i	_	_	_	_	_	_	_	
+3-4	33-41	kritiken	_	Target;Source[1]	3-6;3-7	false[1]	2[1]	_	_	
+3-5	42-45	mot	_	Target;Source[1]	3-6;3-7	false[1]	2[1]	_	_	
+3-6	46-59	rättsväsendet	*	_	_	_	_	_	_	
+3-7	59-60	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	_	
+
+#Text=Advokat Samuelson tecknar en deprimerande bild, men den är knappast rättvisande.Mårten Schultz.
+5-1	71-78	Advokat	_	_	_	_	_	_	_	
+5-2	79-88	Samuelson	_	_	_	_	_	_	_	
+5-3	89-96	tecknar	_	_	_	_	_	_	_	
+5-4	97-99	en	_	_	_	_	_	_	_	
+5-5	100-112	deprimerande	_	Target	5-6	false	2	_	_	
+5-6	113-117	bild	*	_	_	_	_	_	_	
+5-7	117-118	,	_	_	_	_	_	_	_	
+5-8	119-122	men	_	_	_	_	_	_	_	
+5-9	123-126	den	_	_	_	_	_	_	_	
+5-10	127-129	är	_	_	_	_	_	_	_	
+5-11	130-138	knappast	_	_	_	_	_	_	_	
+5-12	139-157	rättvisande.Mårten	_	_	_	_	_	_	_	
+5-13	158-165	Schultz	_	_	_	_	_	_	_	
+5-14	165-166	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	168-169	#	_	_	_	_	_	_	_	
+6-2	169-170	P	_	_	_	_	_	_	_	
+6-3	171-174	IMM	_	_	_	_	_	_	_	
+6-4	174-175	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	177-180	Det	_	_	_	_	_	_	_	
+7-2	181-184	här	_	_	_	_	_	_	_	
+7-3	185-187	är	_	_	_	_	_	_	_	
+7-4	188-190	en	_	_	_	_	_	_	_	
+7-5	191-205	argumenterande	_	_	_	_	_	_	_	
+7-6	206-210	text	_	_	_	_	_	_	_	
+7-7	211-214	med	_	_	_	_	_	_	_	
+7-8	215-220	syfte	_	_	_	_	_	_	_	
+7-9	221-224	att	_	_	_	_	_	_	_	
+7-10	225-232	påverka	_	_	_	_	_	_	_	
+7-11	232-233	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	234-243	Åsikterna	_	_	_	_	_	_	_	
+8-2	244-247	som	_	_	_	_	_	_	_	
+8-3	248-256	uttrycks	_	_	_	_	_	_	_	
+8-4	257-259	är	_	_	_	_	_	_	_	
+8-5	260-271	skribentens	_	_	_	_	_	_	_	
+8-6	272-276	egna	_	_	_	_	_	_	_	
+8-7	276-277	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	279-280	#	_	_	_	_	_	_	_	
+9-2	280-281	P	_	_	_	_	_	_	_	
+9-3	282-285	IMM	_	_	_	_	_	_	_	
+9-4	285-286	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är inte en rättsstat!
+10-1	288-295	Sverige	_	_	_	_	_	_	_	
+10-2	296-298	är	_	_	_	_	_	_	_	
+10-3	299-303	inte	_	_	_	_	_	_	_	
+10-4	304-306	en	_	_	_	_	_	_	_	
+10-5	307-316	rättsstat	_	_	_	_	_	_	_	
+10-6	316-317	!	_	_	_	_	_	_	_	
+
+#Text=Det kategoriska uttalandet – komplett med utropstecken – görs av Julian Assanges försvarsadvokat Per E Samuelson (Brännpunkt 8 juni).
+11-1	318-321	Det	*[24]	_	_	_	_	_	16-3[0_24]	
+11-2	322-333	kategoriska	*[24]	_	_	_	_	_	_	
+11-3	334-344	uttalandet	*[24]	_	_	_	_	_	_	
+11-4	345-346	–	*[24]	_	_	_	_	_	_	
+11-5	347-355	komplett	*[24]	_	_	_	_	_	_	
+11-6	356-359	med	*[24]	_	_	_	_	_	_	
+11-7	360-372	utropstecken	*[24]	_	_	_	_	_	_	
+11-8	373-374	–	*[24]	_	_	_	_	_	_	
+11-9	375-379	görs	*[24]	_	_	_	_	_	_	
+11-10	380-382	av	*[24]	_	_	_	_	_	_	
+11-11	383-389	Julian	*[24]	_	_	_	_	_	_	
+11-12	390-398	Assanges	*[24]	_	_	_	_	_	_	
+11-13	399-414	försvarsadvokat	*[24]	_	_	_	_	_	_	
+11-14	415-418	Per	*[24]	_	_	_	_	_	_	
+11-15	419-420	E	*[24]	_	_	_	_	_	_	
+11-16	421-430	Samuelson	*[24]	_	_	_	_	_	_	
+11-17	431-432	(	_	_	_	_	_	_	_	
+11-18	432-442	Brännpunkt	_	_	_	_	_	_	_	
+11-19	443-444	8	_	_	_	_	_	_	_	
+11-20	445-449	juni	_	_	_	_	_	_	_	
+11-21	449-450	)	_	_	_	_	_	_	_	
+11-22	450-451	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte förvånande.
+12-1	452-455	Det	_	_	_	_	_	_	_	
+12-2	456-458	är	_	_	_	_	_	_	_	
+12-3	459-463	inte	_	_	_	_	_	_	_	
+12-4	464-474	förvånande	_	_	_	_	_	_	_	
+12-5	474-475	.	_	_	_	_	_	_	_	
+
+#Text=Det är det Samuelson får betalt för, att ta fram de argument som kan tala till uppdragsgivarens fördel.
+13-1	476-479	Det	_	_	_	_	_	_	_	
+13-2	480-482	är	_	_	_	_	_	_	_	
+13-3	483-486	det	_	_	_	_	_	_	_	
+13-4	487-496	Samuelson	_	_	_	_	_	_	_	
+13-5	497-500	får	_	_	_	_	_	_	_	
+13-6	501-507	betalt	_	_	_	_	_	_	_	
+13-7	508-511	för	_	_	_	_	_	_	_	
+13-8	511-512	,	_	_	_	_	_	_	_	
+13-9	513-516	att	_	_	_	_	_	_	_	
+13-10	517-519	ta	_	_	_	_	_	_	_	
+13-11	520-524	fram	_	_	_	_	_	_	_	
+13-12	525-527	de	_	_	_	_	_	_	_	
+13-13	528-536	argument	_	_	_	_	_	_	_	
+13-14	537-540	som	_	_	_	_	_	_	_	
+13-15	541-544	kan	_	_	_	_	_	_	_	
+13-16	545-549	tala	_	_	_	_	_	_	_	
+13-17	550-554	till	_	_	_	_	_	_	_	
+13-18	555-571	uppdragsgivarens	_	_	_	_	_	_	_	
+13-19	572-578	fördel	_	_	_	_	_	_	_	
+13-20	578-579	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	581-582	#	_	_	_	_	_	_	_	
+14-2	582-583	P	_	_	_	_	_	_	_	
+14-3	584-587	IMM	_	_	_	_	_	_	_	
+14-4	587-588	.	_	_	_	_	_	_	_	
+
+#Text=Det Samuelson skriver är dessutom helt i linje med vad Assanges stora team av jurister och pr-konsulter hävdat länge.
+15-1	590-593	Det	_	_	_	_	_	_	_	
+15-2	594-603	Samuelson	_	_	_	_	_	_	_	
+15-3	604-611	skriver	_	_	_	_	_	_	_	
+15-4	612-614	är	_	_	_	_	_	_	_	
+15-5	615-623	dessutom	_	_	_	_	_	_	_	
+15-6	624-628	helt	_	_	_	_	_	_	_	
+15-7	629-630	i	_	_	_	_	_	_	_	
+15-8	631-636	linje	_	_	_	_	_	_	_	
+15-9	637-640	med	_	_	_	_	_	_	_	
+15-10	641-644	vad	_	_	_	_	_	_	_	
+15-11	645-653	Assanges	_	_	_	_	_	_	_	
+15-12	654-659	stora	_	_	_	_	_	_	_	
+15-13	660-664	team	_	_	_	_	_	_	_	
+15-14	665-667	av	_	_	_	_	_	_	_	
+15-15	668-676	jurister	_	_	_	_	_	_	_	
+15-16	677-680	och	_	_	_	_	_	_	_	
+15-17	681-693	pr-konsulter	_	_	_	_	_	_	_	
+15-18	694-700	hävdat	_	_	_	_	_	_	_	
+15-19	701-706	länge	_	_	_	_	_	_	_	
+15-20	706-707	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt är det deprimerande.
+16-1	708-717	Samtidigt	_	_	_	_	_	_	_	
+16-2	718-720	är	_	_	_	false	2	_	_	
+16-3	721-724	det	*	_	_	_	_	_	_	
+16-4	725-737	deprimerande	_	Target	16-3	false	2	16-2	_	
+16-5	737-738	.	_	_	_	_	_	_	_	
+
+#Text=Samuelson hävdar nämligen inte bara att det finns brister i svensk rätt.
+17-1	739-748	Samuelson	*	_	_	_	_	_	_	
+17-2	749-755	hävdar	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-3	756-764	nämligen	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-4	765-769	inte	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-5	770-774	bara	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-6	775-778	att	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-7	779-782	det	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-8	783-788	finns	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-9	789-796	brister	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-10	797-798	i	_	Source;Target[2]	17-1;17-11[25]	false[2]	2[2]	_	_	
+17-11	799-805	svensk	*[25]	_	_	_	_	_	_	
+17-12	806-810	rätt	*[25]	_	_	_	_	_	_	
+17-13	810-811	.	_	_	_	_	_	_	_	
+
+#Text=En sådan kritik kan ha relevans.
+18-1	812-814	En	*[26]	_	_	_	_	_	_	
+18-2	815-820	sådan	*[26]	_	_	_	_	_	_	
+18-3	821-827	kritik	*[26]	_	_	_	_	_	_	
+18-4	828-831	kan	_	Target[3]	18-1[26]	false[3]	4[3]	_	_	
+18-5	832-834	ha	_	Target[3]	18-1[26]	false[3]	4[3]	_	_	
+18-6	835-843	relevans	_	Target[3]	18-1[26]	false[3]	4[3]	_	_	
+18-7	843-844	.	_	_	_	_	_	_	_	
+
+#Text=För visst finns det brister.
+19-1	845-848	För	_	_	_	_	_	_	_	
+19-2	849-854	visst	_	_	_	_	_	_	_	
+19-3	855-860	finns	_	_[4]	_	false[4]	2[4]	_	_	
+19-4	861-864	det	_	_[4]	_	false[4]	2[4]	_	_	
+19-5	865-872	brister	_	_[4]	_	false[4]	2[4]	_	_	
+19-6	872-873	.	_	_	_	_	_	_	_	
+
+#Text=Jag ägnade själv sju kolumner i rad i Dagens Nyheter nyligen åt att framhålla sådana brister.
+20-1	874-877	Jag	*	_	_	_	_	_	_	
+20-2	878-884	ägnade	_	_	_	false	2	_	_	
+20-3	885-890	själv	_	_	_	_	_	_	_	
+20-4	891-894	sju	_	_	_	_	_	_	_	
+20-5	895-903	kolumner	_	_	_	_	_	_	_	
+20-6	904-905	i	_	_	_	_	_	_	_	
+20-7	906-909	rad	_	_	_	_	_	_	_	
+20-8	910-911	i	_	_	_	_	_	_	_	
+20-9	912-918	Dagens	_	_	_	_	_	_	_	
+20-10	919-926	Nyheter	_	_	_	_	_	_	_	
+20-11	927-934	nyligen	_	_	_	_	_	_	_	
+20-12	935-937	åt	_	Source[5]	20-1	false[5]	2[5]	20-2[0_5]	_	
+20-13	938-941	att	_	Source[5]	20-1	false[5]	2[5]	_	_	
+20-14	942-951	framhålla	_	Source[5]	20-1	false[5]	2[5]	_	_	
+20-15	952-958	sådana	_	Source[5]	20-1	false[5]	2[5]	_	_	
+20-16	959-966	brister	_	Source[5]	20-1	false[5]	2[5]	_	_	
+20-17	966-967	.	_	_	_	_	_	_	_	
+
+#Text=I denna diskussion, liksom de flesta samtal om rättsstatens principer, var Samuelson frånvarande.
+21-1	968-969	I	_	_	_	_	_	_	_	
+21-2	970-975	denna	_	_	_	_	_	_	_	
+21-3	976-986	diskussion	_	_	_	_	_	_	_	
+21-4	986-987	,	_	_	_	_	_	_	_	
+21-5	988-994	liksom	_	_	_	_	_	_	_	
+21-6	995-997	de	_	_	_	_	_	_	_	
+21-7	998-1004	flesta	_	_	_	_	_	_	_	
+21-8	1005-1011	samtal	_	_	_	_	_	_	_	
+21-9	1012-1014	om	_	_	_	_	_	_	_	
+21-10	1015-1027	rättsstatens	_	_	_	_	_	_	_	
+21-11	1028-1037	principer	_	_	_	_	_	_	_	
+21-12	1037-1038	,	_	_	_	_	_	_	_	
+21-13	1039-1042	var	_	_	_	_	_	_	_	
+21-14	1043-1052	Samuelson	_	_	_	_	_	_	_	
+21-15	1053-1064	frånvarande	_	_	_	_	_	_	_	
+21-16	1064-1065	.	_	_	_	_	_	_	_	
+
+#Text=Måhända är det principiella engagemanget begränsat till den enskilda klientens intresse.
+22-1	1066-1073	Måhända	_	_	_	_	_	_	_	
+22-2	1074-1076	är	_	_	_	_	_	_	_	
+22-3	1077-1080	det	_	_	_	_	_	_	_	
+22-4	1081-1093	principiella	_	_	_	_	_	_	_	
+22-5	1094-1106	engagemanget	_	_	_	_	_	_	_	
+22-6	1107-1116	begränsat	_	_	_	_	_	_	_	
+22-7	1117-1121	till	_	_	_	_	_	_	_	
+22-8	1122-1125	den	_	_	_	_	_	_	_	
+22-9	1126-1134	enskilda	_	_	_	_	_	_	_	
+22-10	1135-1144	klientens	_	_	_	_	_	_	_	
+22-11	1145-1153	intresse	_	_	_	_	_	_	_	
+22-12	1153-1154	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1156-1157	#	_	_	_	_	_	_	_	
+23-2	1157-1158	P	_	_	_	_	_	_	_	
+23-3	1159-1162	IMM	_	_	_	_	_	_	_	
+23-4	1162-1163	.	_	_	_	_	_	_	_	
+
+#Text=Samuelson går i vart fall längre än att framhålla problem i rättsstaten Sverige.
+24-1	1165-1174	Samuelson	*	_	_	_	_	_	_	
+24-2	1175-1178	går	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-3	1179-1180	i	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-4	1181-1185	vart	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-5	1186-1190	fall	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-6	1191-1197	längre	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-7	1198-1200	än	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-8	1201-1204	att	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-9	1205-1214	framhålla	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-10	1215-1222	problem	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-11	1223-1224	i	_	Source;Target[6]	24-1;24-12[27]	false[6]	2[6]	_	_	
+24-12	1225-1236	rättsstaten	*[27]	_	_	_	_	_	_	
+24-13	1237-1244	Sverige	*[27]	_	_	_	_	_	_	
+24-14	1244-1245	.	_	_	_	_	_	_	_	
+
+#Text=Han menar i stället, i likhet med sina anonyma meningsfränder på Flashback, att Sverige över huvud taget inte är en rättsstat.
+25-1	1246-1249	Han	_	_	_	_	_	_	_	
+25-2	1250-1255	menar	_	_	_	_	_	_	_	
+25-3	1256-1257	i	_	_	_	_	_	_	_	
+25-4	1258-1265	stället	_	_	_	_	_	_	_	
+25-5	1265-1266	,	_	_	_	_	_	_	_	
+25-6	1267-1268	i	_	_	_	_	_	_	_	
+25-7	1269-1275	likhet	_	_	_	_	_	_	_	
+25-8	1276-1279	med	_	_	_	_	_	_	_	
+25-9	1280-1284	sina	_	_	_	_	_	_	_	
+25-10	1285-1292	anonyma	_	_	_	_	_	_	_	
+25-11	1293-1307	meningsfränder	_	_	_	_	_	_	_	
+25-12	1308-1310	på	_	_	_	_	_	_	_	
+25-13	1311-1320	Flashback	_	_	_	_	_	_	_	
+25-14	1320-1321	,	_	_	_	_	_	_	_	
+25-15	1322-1325	att	_	_	_	_	_	_	_	
+25-16	1326-1333	Sverige	_	_	_	_	_	_	_	
+25-17	1334-1338	över	_	_	_	_	_	_	_	
+25-18	1339-1344	huvud	_	_	_	_	_	_	_	
+25-19	1345-1350	taget	_	_	_	_	_	_	_	
+25-20	1351-1355	inte	_	_	_	_	_	_	_	
+25-21	1356-1358	är	_	_	_	_	_	_	_	
+25-22	1359-1361	en	_	_	_	_	_	_	_	
+25-23	1362-1371	rättsstat	_	_	_	_	_	_	_	
+25-24	1371-1372	.	_	_	_	_	_	_	_	
+
+#Text=Enligt advokaten lever vi svenskar i en juridisk bananrepublik.
+26-1	1373-1379	Enligt	_	_	_	_	_	_	_	
+26-2	1380-1389	advokaten	*	_	_	_	_	_	_	
+26-3	1390-1395	lever	_	_	_	_	_	_	_	
+26-4	1396-1398	vi	_	_	_	_	_	_	_	
+26-5	1399-1407	svenskar	_	_	_	_	_	_	_	
+26-6	1408-1409	i	_	_	_	_	_	_	_	
+26-7	1410-1412	en	_	_	_	_	_	_	_	
+26-8	1413-1421	juridisk	*[28]	Target;Source[7]	26-8[28];26-2	false[7]	2[7]	_	_	
+26-9	1422-1435	bananrepublik	*[28]	Target;Source[7]	26-8[28];26-2	false[7]	2[7]	_	_	
+26-10	1435-1436	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1438-1439	#	_	_	_	_	_	_	_	
+27-2	1439-1440	P	_	_	_	_	_	_	_	
+27-3	1441-1444	IMM	_	_	_	_	_	_	_	
+27-4	1444-1445	.	_	_	_	_	_	_	_	
+
+#Text=De påstådda brister för systemet i stort som Samuelson fokuserar på i sin artikel, hur svensk rätt använder häktningsinstitutet, har i sak bemötts av Thomas Ahlstrand.
+28-1	1447-1449	De	_	_	_	_	_	_	_	
+28-2	1450-1458	påstådda	_	Source;Target[8]	28-9;28-5[29]	false[8]	2[8]	_	_	
+28-3	1459-1466	brister	_	Source;Target[8]	28-9;28-5[29]	false[8]	2[8]	_	_	
+28-4	1467-1470	för	_	Source;Target[8]	28-9;28-5[29]	false[8]	2[8]	_	_	
+28-5	1471-1479	systemet	*[29]	_	_	_	_	_	_	
+28-6	1480-1481	i	*[29]	_	_	_	_	_	_	
+28-7	1482-1487	stort	*[29]	_	_	_	_	_	_	
+28-8	1488-1491	som	_	_	_	_	_	_	_	
+28-9	1492-1501	Samuelson	*	_	_	_	_	_	_	
+28-10	1502-1511	fokuserar	_	_	_	_	_	_	_	
+28-11	1512-1514	på	_	_	_	_	_	_	_	
+28-12	1515-1516	i	_	_	_	_	_	_	_	
+28-13	1517-1520	sin	_	_	_	_	_	_	_	
+28-14	1521-1528	artikel	_	_	_	_	_	_	_	
+28-15	1528-1529	,	_	_	_	_	_	_	_	
+28-16	1530-1533	hur	_	_	_	_	_	_	_	
+28-17	1534-1540	svensk	_	_	_	_	_	_	_	
+28-18	1541-1545	rätt	_	_	_	_	_	_	_	
+28-19	1546-1554	använder	_	_	_	_	_	_	_	
+28-20	1555-1574	häktningsinstitutet	_	_	_	_	_	_	_	
+28-21	1574-1575	,	_	_	_	_	_	_	_	
+28-22	1576-1579	har	_	_	_	_	_	_	_	
+28-23	1580-1581	i	_	_	_	_	_	_	_	
+28-24	1582-1585	sak	_	_	_	_	_	_	_	
+28-25	1586-1593	bemötts	_	_	_	_	_	_	_	
+28-26	1594-1596	av	_	_	_	_	_	_	_	
+28-27	1597-1603	Thomas	_	_	_	_	_	_	_	
+28-28	1604-1613	Ahlstrand	_	_	_	_	_	_	_	
+28-29	1613-1614	.	_	_	_	_	_	_	_	
+
+#Text=När det gäller det enskilda fallet framstår dock kritiken som skäligen ointressant.
+29-1	1615-1618	När	_	_	_	_	_	_	_	
+29-2	1619-1622	det	_	_	_	_	_	_	_	
+29-3	1623-1629	gäller	_	_	_	_	_	_	_	
+29-4	1630-1633	det	_	_	_	_	_	_	_	
+29-5	1634-1642	enskilda	_	_	_	_	_	_	_	
+29-6	1643-1649	fallet	_	_	_	_	_	_	_	
+29-7	1650-1658	framstår	_	_	_	false	2	_	_	
+29-8	1659-1663	dock	_	_	_	_	_	_	_	
+29-9	1664-1672	kritiken	*	_	_	_	_	_	_	
+29-10	1673-1676	som	_	Target[9]	29-9	false[9]	2[9]	29-7[0_9]	_	
+29-11	1677-1685	skäligen	_	Target[9]	29-9	false[9]	2[9]	_	_	
+29-12	1686-1697	ointressant	_	Target[9]	29-9	false[9]	2[9]	_	_	
+29-13	1697-1698	.	_	_	_	_	_	_	_	
+
+#Text=Assange har ännu inte varit föremål för något långt frihetsberövande i Sverige.
+30-1	1699-1706	Assange	_	_	_	_	_	_	_	
+30-2	1707-1710	har	_	_	_	_	_	_	_	
+30-3	1711-1715	ännu	_	_	_	_	_	_	_	
+30-4	1716-1720	inte	_	_	_	_	_	_	_	
+30-5	1721-1726	varit	_	_	_	_	_	_	_	
+30-6	1727-1734	föremål	_	_	_	_	_	_	_	
+30-7	1735-1738	för	_	_	_	_	_	_	_	
+30-8	1739-1744	något	_	_	_	_	_	_	_	
+30-9	1745-1750	långt	_	_	_	_	_	_	_	
+30-10	1751-1767	frihetsberövande	_	_	_	_	_	_	_	
+30-11	1768-1769	i	_	_	_	_	_	_	_	
+30-12	1770-1777	Sverige	_	_	_	_	_	_	_	
+30-13	1777-1778	.	_	_	_	_	_	_	_	
+
+#Text=Han har ju inte varit här.
+31-1	1779-1782	Han	_	_	_	_	_	_	_	
+31-2	1783-1786	har	_	_	_	_	_	_	_	
+31-3	1787-1789	ju	_	_	_	_	_	_	_	
+31-4	1790-1794	inte	_	_	_	_	_	_	_	
+31-5	1795-1800	varit	_	_	_	_	_	_	_	
+31-6	1801-1804	här	_	_	_	_	_	_	_	
+31-7	1804-1805	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett märkligt fokus Samuelson anlägger och det har i vart fall ingen direkt kontakt med den artikel som jag skrivit och som han ger intryck av att vilja bemöta.
+32-1	1806-1809	Det	_	_	_	_	_	_	_	
+32-2	1810-1812	är	_	_	_	_	_	_	_	
+32-3	1813-1816	ett	_	_	_	_	_	_	_	
+32-4	1817-1825	märkligt	_	Target	32-5[30]	false	2	_	_	
+32-5	1826-1831	fokus	*[30]	_	_	_	_	_	_	
+32-6	1832-1841	Samuelson	*[30]	_	_	_	_	_	_	
+32-7	1842-1850	anlägger	*[30]	_	_	_	_	_	_	
+32-8	1851-1854	och	_	_	_	_	_	_	_	
+32-9	1855-1858	det	_	_	_	_	_	_	_	
+32-10	1859-1862	har	_	_	_	_	_	_	_	
+32-11	1863-1864	i	_	_	_	_	_	_	_	
+32-12	1865-1869	vart	_	_	_	_	_	_	_	
+32-13	1870-1874	fall	_	_	_	_	_	_	_	
+32-14	1875-1880	ingen	_	_	_	_	_	_	_	
+32-15	1881-1887	direkt	_	_	_	_	_	_	_	
+32-16	1888-1895	kontakt	_	_	_	_	_	_	_	
+32-17	1896-1899	med	_	_	_	_	_	_	_	
+32-18	1900-1903	den	_	_	_	_	_	_	_	
+32-19	1904-1911	artikel	_	_	_	_	_	_	_	
+32-20	1912-1915	som	_	_	_	_	_	_	_	
+32-21	1916-1919	jag	_	_	_	_	_	_	_	
+32-22	1920-1927	skrivit	_	_	_	_	_	_	_	
+32-23	1928-1931	och	_	_	_	_	_	_	_	
+32-24	1932-1935	som	_	_	_	_	_	_	_	
+32-25	1936-1939	han	_	_	_	_	_	_	_	
+32-26	1940-1943	ger	_	_	_	_	_	_	_	
+32-27	1944-1951	intryck	_	_	_	_	_	_	_	
+32-28	1952-1954	av	_	_	_	_	_	_	_	
+32-29	1955-1958	att	_	_	_	_	_	_	_	
+32-30	1959-1964	vilja	_	_	_	_	_	_	_	
+32-31	1965-1971	bemöta	_	_	_	_	_	_	_	
+32-32	1971-1972	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	1974-1975	#	_	_	_	_	_	_	_	
+33-2	1975-1976	P	_	_	_	_	_	_	_	
+33-3	1977-1980	IMM	_	_	_	_	_	_	_	
+33-4	1980-1981	.	_	_	_	_	_	_	_	
+
+#Text=De myter och fördomar om det svenska rättsväsendet som jag tog upp i min artikel rörde innebörden i den svenska sexualstraffrätten, den påstådda politiseringen och den ofta framförda tanken på att rättsordningen är en marionett styrd av USA.
+34-1	1983-1985	De	_	_	_	_	_	_	_	
+34-2	1986-1991	myter	*[31]	Target[10]	34-2[31]	false[10]	2[10]	_	_	
+34-3	1992-1995	och	*[31]	Target[10]	34-2[31]	false[10]	2[10]	_	_	
+34-4	1996-2004	fördomar	*[31]	Target[10]	34-2[31]	false[10]	2[10]	_	_	
+34-5	2005-2007	om	_	_	_	_	_	_	_	
+34-6	2008-2011	det	_	_	_	_	_	_	_	
+34-7	2012-2019	svenska	_	_	_	_	_	_	_	
+34-8	2020-2033	rättsväsendet	_	_	_	_	_	_	_	
+34-9	2034-2037	som	_	_	_	_	_	_	_	
+34-10	2038-2041	jag	_	_	_	_	_	_	_	
+34-11	2042-2045	tog	_	_	_	_	_	_	_	
+34-12	2046-2049	upp	_	_	_	_	_	_	_	
+34-13	2050-2051	i	_	_	_	_	_	_	_	
+34-14	2052-2055	min	_	_	_	_	_	_	_	
+34-15	2056-2063	artikel	_	_	_	_	_	_	_	
+34-16	2064-2069	rörde	_	_	_	_	_	_	_	
+34-17	2070-2080	innebörden	_	_	_	_	_	_	_	
+34-18	2081-2082	i	_	_	_	_	_	_	_	
+34-19	2083-2086	den	_	_	_	_	_	_	_	
+34-20	2087-2094	svenska	_	_	_	_	_	_	_	
+34-21	2095-2113	sexualstraffrätten	_	_	_	_	_	_	_	
+34-22	2113-2114	,	_	_	_	_	_	_	_	
+34-23	2115-2118	den	_	_	_	_	_	_	_	
+34-24	2119-2127	påstådda	_	_	_	_	_	_	_	
+34-25	2128-2142	politiseringen	_	_	_	_	_	_	_	
+34-26	2143-2146	och	_	_	_	_	_	_	_	
+34-27	2147-2150	den	_	_	_	_	_	_	_	
+34-28	2151-2155	ofta	_	_	_	_	_	_	_	
+34-29	2156-2165	framförda	_	_	_	_	_	_	_	
+34-30	2166-2172	tanken	_	_	_	_	_	_	_	
+34-31	2173-2175	på	_	_	_	_	_	_	_	
+34-32	2176-2179	att	_	_	_	_	_	_	_	
+34-33	2180-2194	rättsordningen	*	_	_	_	_	_	_	
+34-34	2195-2197	är	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-35	2198-2200	en	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-36	2201-2210	marionett	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-37	2211-2216	styrd	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-38	2217-2219	av	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-39	2220-2223	USA	_	Source;Target[11]	34-40;34-33	false[11]	2[11]	_	_	
+34-40	2223-2224	.	*	_	_	_	_	_	_	
+
+#Text=Foliehattarnas och konspirationsteoretikernas argument alltså.
+35-1	2225-2239	Foliehattarnas	*	Target[12]|Target[13]	35-4|35-1	false[12]|false[13]	2[12]|2[13]	_	_	
+35-2	2240-2243	och	_	Target[12]	35-4	false[12]	2[12]	_	_	
+35-3	2244-2270	konspirationsteoretikernas	_	Target[12]	35-4	false[12]	2[12]	_	_	
+35-4	2271-2279	argument	*	_	_	_	_	_	_	
+35-5	2280-2286	alltså	_	_	_	_	_	_	_	
+35-6	2286-2287	.	_	_	_	_	_	_	_	
+
+#Text=Förutom dessa argument kan mer seriösa läggas, till exempel kritiken mot politiker som domare eller långa handläggningstider.
+36-1	2288-2295	Förutom	_	_	_	_	_	_	_	
+36-2	2296-2301	dessa	_	_	_	_	_	_	_	
+36-3	2302-2310	argument	_	_	_	_	_	_	_	
+36-4	2311-2314	kan	_	_	_	_	_	_	_	
+36-5	2315-2318	mer	_	Target[14]	36-9[32]	false[14]	4[14]	_	_	
+36-6	2319-2326	seriösa	_	Target[14]	36-9[32]	false[14]	4[14]	_	_	
+36-7	2327-2333	läggas	_	_	_	_	_	_	_	
+36-8	2333-2334	,	_	_	_	_	_	_	_	
+36-9	2335-2339	till	*[32]	_	_	_	_	_	_	
+36-10	2340-2347	exempel	*[32]	_	_	_	_	_	_	
+36-11	2348-2356	kritiken	*[32]	_	_	_	_	_	_	
+36-12	2357-2360	mot	*[32]	_	_	_	_	_	_	
+36-13	2361-2370	politiker	*[32]	_	_	_	_	_	_	
+36-14	2371-2374	som	*[32]	_	_	_	_	_	_	
+36-15	2375-2381	domare	*[32]	_	_	_	_	_	_	
+36-16	2382-2387	eller	*[32]	_	_	_	_	_	_	
+36-17	2388-2393	långa	*[32]	_	_	_	_	_	_	
+36-18	2394-2412	handläggningstider	*[32]	_	_	_	_	_	_	
+36-19	2412-2413	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2415-2416	#	_	_	_	_	_	_	_	
+37-2	2416-2417	P	_	_	_	_	_	_	_	
+37-3	2418-2421	IMM	_	_	_	_	_	_	_	
+37-4	2421-2422	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2424-2437	Skräddarsydda	_	_	_	_	_	_	_	
+38-2	2438-2444	kurser	_	_	_	_	_	_	_	
+38-3	2445-2446	i	_	_	_	_	_	_	_	
+38-4	2447-2452	ämnen	_	_	_	_	_	_	_	
+38-5	2453-2456	som	_	_	_	_	_	_	_	
+38-6	2457-2468	intresserar	_	_	_	_	_	_	_	
+38-7	2469-2472	och	_	_	_	_	_	_	_	
+38-8	2473-2482	engagerar	_	_	_	_	_	_	_	
+38-9	2483-2487	både	_	_	_	_	_	_	_	
+38-10	2488-2493	kropp	_	_	_	_	_	_	_	
+38-11	2494-2497	och	_	_	_	_	_	_	_	
+38-12	2498-2502	själ	_	_	_	_	_	_	_	
+38-13	2502-2503	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2505-2506	#	_	_	_	_	_	_	_	
+39-2	2506-2507	P	_	_	_	_	_	_	_	
+39-3	2508-2511	IMM	_	_	_	_	_	_	_	
+39-4	2511-2512	.	_	_	_	_	_	_	_	
+
+#Text=Samuelson säger att jag inte vet vad jag pratar om.
+40-1	2514-2523	Samuelson	*	_	_	_	_	_	_	
+40-2	2524-2529	säger	_	_	_	_	_	_	_	
+40-3	2530-2533	att	_	_	_	_	_	_	_	
+40-4	2534-2537	jag	*	_	_	_	_	_	_	
+40-5	2538-2542	inte	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-6	2543-2546	vet	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-7	2547-2550	vad	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-8	2551-2554	jag	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-9	2555-2561	pratar	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-10	2562-2564	om	_	Source;Target[15]	40-1;40-4	false[15]	2[15]	_	_	
+40-11	2564-2565	.	_	_	_	_	_	_	_	
+
+#Text=Jag tror att jag gör det.
+41-1	2566-2569	Jag	_	_	_	_	_	_	_	
+41-2	2570-2574	tror	_	_	_	_	_	_	_	
+41-3	2575-2578	att	_	_	_	_	_	_	_	
+41-4	2579-2582	jag	_	_	_	_	_	_	_	
+41-5	2583-2586	gör	_	_	_	_	_	_	_	
+41-6	2587-2590	det	_	_	_	_	_	_	_	
+41-7	2590-2591	.	_	_	_	_	_	_	_	
+
+#Text=Jag har ägnat mer än tio års tid åt att offentligt försöka nysta upp den svenska rättsordningens brister och förtjänster, i rättssystemets alla kanter och vrår.
+42-1	2592-2595	Jag	_	_	_	_	_	_	_	
+42-2	2596-2599	har	_	_	_	_	_	_	_	
+42-3	2600-2605	ägnat	_	_	_	_	_	_	_	
+42-4	2606-2609	mer	_	_	_	_	_	_	_	
+42-5	2610-2612	än	_	_	_	_	_	_	_	
+42-6	2613-2616	tio	_	_	_	_	_	_	_	
+42-7	2617-2620	års	_	_	_	_	_	_	_	
+42-8	2621-2624	tid	_	_	_	_	_	_	_	
+42-9	2625-2627	åt	_	_	_	_	_	_	_	
+42-10	2628-2631	att	_	_	_	_	_	_	_	
+42-11	2632-2642	offentligt	_	_	_	_	_	_	_	
+42-12	2643-2650	försöka	_	_	_	_	_	_	_	
+42-13	2651-2656	nysta	_	_	_	_	_	_	_	
+42-14	2657-2660	upp	_	_	_	_	_	_	_	
+42-15	2661-2664	den	_	_	_	_	_	_	_	
+42-16	2665-2672	svenska	_	_	_	_	_	_	_	
+42-17	2673-2688	rättsordningens	_	_	_	_	_	_	_	
+42-18	2689-2696	brister	_	_	_	_	_	_	_	
+42-19	2697-2700	och	_	_	_	_	_	_	_	
+42-20	2701-2712	förtjänster	_	_	_	_	_	_	_	
+42-21	2712-2713	,	_	_	_	_	_	_	_	
+42-22	2714-2715	i	_	_	_	_	_	_	_	
+42-23	2716-2730	rättssystemets	_	_	_	_	_	_	_	
+42-24	2731-2735	alla	_	_	_	_	_	_	_	
+42-25	2736-2742	kanter	_	_	_	_	_	_	_	
+42-26	2743-2746	och	_	_	_	_	_	_	_	
+42-27	2747-2751	vrår	_	_	_	_	_	_	_	
+42-28	2751-2752	.	_	_	_	_	_	_	_	
+
+#Text=Den sammantagna bilden är enligt mig helt självklar: Den svenska rättsstaten har brister och producerar ibland direkt felaktiga resultat, men i det stora hela är den robust.
+43-1	2753-2756	Den	_	_	_	_	_	_	_	
+43-2	2757-2768	sammantagna	_	_	_	_	_	_	_	
+43-3	2769-2775	bilden	_	_	_	_	_	_	_	
+43-4	2776-2778	är	_	_	_	_	_	_	_	
+43-5	2779-2785	enligt	_	_	_	_	_	_	_	
+43-6	2786-2789	mig	_	_	_	_	_	_	_	
+43-7	2790-2794	helt	_	_	_	_	_	_	_	
+43-8	2795-2804	självklar	_	_	_	_	_	_	_	
+43-9	2804-2805	:	_	_	_	_	_	_	_	
+43-10	2806-2809	Den	*[33]|*[34]|*[35]	_	_	_	_	_	43-28[0_35]	
+43-11	2810-2817	svenska	*[33]|*[34]|*[35]	_	_	_	_	_	_	
+43-12	2818-2829	rättsstaten	*[33]|*[34]|*[35]	_	_	_	_	_	_	
+43-13	2830-2833	har	_	Target[16]	43-10[33]	false[16]	2[16]	_	_	
+43-14	2834-2841	brister	_	Target[16]	43-10[33]	false[16]	2[16]	_	_	
+43-15	2842-2845	och	_	_	_	_	_	_	_	
+43-16	2846-2856	producerar	_	Target[17]	43-10[34]	false[17]	2[17]	_	_	
+43-17	2857-2863	ibland	_	Target[17]	43-10[34]	false[17]	2[17]	_	_	
+43-18	2864-2870	direkt	_	Target[17]|Target[18]	43-10[34]|43-20	false[17]|false[18]	2[17]|2[18]	_	_	
+43-19	2871-2880	felaktiga	_	Target[17]|Target[18]	43-10[34]|43-20	false[17]|false[18]	2[17]|2[18]	_	_	
+43-20	2881-2889	resultat	*	Target[17]	43-10[34]	false[17]	2[17]	_	_	
+43-21	2889-2890	,	_	_	_	_	_	_	_	
+43-22	2891-2894	men	_	_	_	_	_	_	_	
+43-23	2895-2896	i	_	_[19]	_	false[19]	4[19]	_	_	
+43-24	2897-2900	det	_	_[19]	_	false[19]	4[19]	_	_	
+43-25	2901-2906	stora	_	_[19]	_	false[19]	4[19]	_	_	
+43-26	2907-2911	hela	_	_[19]	_	false[19]	4[19]	_	_	
+43-27	2912-2914	är	_	_[19]	_	false[19]	4[19]	_	_	
+43-28	2915-2918	den	*	_	_	_	_	_	_	
+43-29	2919-2925	robust	_	Target	43-28	false	4	43-23[19_0]	_	
+43-30	2925-2926	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	2928-2929	#	_	_	_	_	_	_	_	
+44-2	2929-2930	P	_	_	_	_	_	_	_	
+44-3	2931-2934	IMM	_	_	_	_	_	_	_	
+44-4	2934-2935	.	_	_	_	_	_	_	_	
+
+#Text=Samuelson kommer till motsatt slutsats.
+45-1	2937-2946	Samuelson	*	_	_	_	_	_	_	
+45-2	2947-2953	kommer	_	_	_	_	_	_	_	
+45-3	2954-2958	till	_	_	_	_	_	_	_	
+45-4	2959-2966	motsatt	_	_	_	_	_	_	_	
+45-5	2967-2975	slutsats	_	_	_	_	_	_	_	
+45-6	2975-2976	.	_	_	_	_	_	_	_	
+
+#Text=Rättsordningen är i hans värld i grunden korrupt.
+46-1	2977-2991	Rättsordningen	*	_	_	_	_	_	_	
+46-2	2992-2994	är	_	_	_	false	1	_	_	
+46-3	2995-2996	i	_	_	_	_	_	_	_	
+46-4	2997-3001	hans	_	_	_	_	_	_	_	
+46-5	3002-3007	värld	_	_	_	_	_	_	_	
+46-6	3008-3009	i	_	Target;Source[20]	46-1;45-1	false[20]	1[20]	46-2[0_20]	_	
+46-7	3010-3017	grunden	_	Target;Source[20]	46-1;45-1	false[20]	1[20]	_	_	
+46-8	3018-3025	korrupt	_	Target;Source[20]	46-1;45-1	false[20]	1[20]	_	_	
+46-9	3025-3026	.	_	_	_	_	_	_	_	
+
+#Text=Advokaten tecknar en deprimerande bild, men den är knappast rättvisande.
+47-1	3027-3036	Advokaten	_	_	_	_	_	_	_	
+47-2	3037-3044	tecknar	_	_	_	_	_	_	_	
+47-3	3045-3047	en	_	_	_	_	_	_	_	
+47-4	3048-3060	deprimerande	_	_	_	_	_	_	_	
+47-5	3061-3065	bild	_	_	_	_	_	_	_	
+47-6	3065-3066	,	_	_	_	_	_	_	_	
+47-7	3067-3070	men	_	_	_	_	_	_	_	
+47-8	3071-3074	den	_	_	_	_	_	_	_	
+47-9	3075-3077	är	_	_	_	_	_	_	_	
+47-10	3078-3086	knappast	_	_	_	_	_	_	_	
+47-11	3087-3098	rättvisande	_	_	_	_	_	_	_	
+47-12	3098-3099	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3101-3102	#	_	_	_	_	_	_	_	
+48-2	3102-3103	P	_	_	_	_	_	_	_	
+48-3	3104-3107	IMM	_	_	_	_	_	_	_	
+48-4	3107-3108	.	_	_	_	_	_	_	_	
+
+#Text=Det som skiljer konspirationsteorierna från seriös kritik av ett rättssystem är, förutom frekvensen av utropstecken, framför allt nyanserna.
+49-1	3110-3113	Det	_	_	_	_	_	_	_	
+49-2	3114-3117	som	_	_	_	_	_	_	_	
+49-3	3118-3125	skiljer	_	_	_	_	_	_	_	
+49-4	3126-3148	konspirationsteorierna	_	_	_	_	_	_	_	
+49-5	3149-3153	från	_	_	_	_	_	_	_	
+49-6	3154-3160	seriös	_	Target	49-7[36]	false	4	_	_	
+49-7	3161-3167	kritik	*[36]	_	_	_	_	_	_	
+49-8	3168-3170	av	*[36]	_	_	_	_	_	_	
+49-9	3171-3174	ett	*[36]	_	_	_	_	_	_	
+49-10	3175-3186	rättssystem	*[36]	_	_	_	_	_	_	
+49-11	3187-3189	är	_	_	_	_	_	_	_	
+49-12	3189-3190	,	_	_	_	_	_	_	_	
+49-13	3191-3198	förutom	_	_	_	_	_	_	_	
+49-14	3199-3209	frekvensen	_	_	_	_	_	_	_	
+49-15	3210-3212	av	_	_	_	_	_	_	_	
+49-16	3213-3225	utropstecken	_	_	_	_	_	_	_	
+49-17	3225-3226	,	_	_	_	_	_	_	_	
+49-18	3227-3234	framför	_	_	_	_	_	_	_	
+49-19	3235-3239	allt	_	_	_	_	_	_	_	
+49-20	3240-3249	nyanserna	_	_	_	_	_	_	_	
+49-21	3249-3250	.	_	_	_	_	_	_	_	
+
+#Text=Hos Samuelson finns inga nyanser.
+50-1	3251-3254	Hos	_	_	_	_	_	_	_	
+50-2	3255-3264	Samuelson	_	_	_	_	_	_	_	
+50-3	3265-3270	finns	_	_	_	_	_	_	_	
+50-4	3271-3275	inga	_	_	_	_	_	_	_	
+50-5	3276-3283	nyanser	_	_	_	_	_	_	_	
+50-6	3283-3284	.	_	_	_	_	_	_	_	
+
+#Text=Han har pekat på ett (1) problem, som saknar beröringspunkter med det inlägg han polemiserar emot, och utifrån detta enda problem skåpar han ut hela rättssystemet.
+51-1	3285-3288	Han	_	_	_	_	_	_	_	
+51-2	3289-3292	har	_	_	_	_	_	_	_	
+51-3	3293-3298	pekat	_	_	_	_	_	_	_	
+51-4	3299-3301	på	_	_	_	_	_	_	_	
+51-5	3302-3305	ett	_	_	_	_	_	_	_	
+51-6	3306-3307	(	_	_	_	_	_	_	_	
+51-7	3307-3308	1	_	_	_	_	_	_	_	
+51-8	3308-3309	)	_	_	_	_	_	_	_	
+51-9	3310-3317	problem	_	_	_	_	_	_	_	
+51-10	3317-3318	,	_	_	_	_	_	_	_	
+51-11	3319-3322	som	_	_	_	_	_	_	_	
+51-12	3323-3329	saknar	_	_	_	_	_	_	_	
+51-13	3330-3346	beröringspunkter	_	_	_	_	_	_	_	
+51-14	3347-3350	med	_	_	_	_	_	_	_	
+51-15	3351-3354	det	*[37]	_	_	_	_	_	_	
+51-16	3355-3361	inlägg	*[37]	_	_	_	_	_	_	
+51-17	3362-3365	han	*	_	_	_	_	_	_	
+51-18	3366-3377	polemiserar	_	Target;Source[21]	51-15[37];51-17	false[21]	2[21]	_	_	
+51-19	3378-3382	emot	_	Target;Source[21]	51-15[37];51-17	false[21]	2[21]	_	_	
+51-20	3382-3383	,	_	_	_	_	_	_	_	
+51-21	3384-3387	och	_	_	_	_	_	_	_	
+51-22	3388-3395	utifrån	_	_	_	_	_	_	_	
+51-23	3396-3401	detta	_	_	_	_	_	_	_	
+51-24	3402-3406	enda	_	_	_	_	_	_	_	
+51-25	3407-3414	problem	_	_	_	_	_	_	_	
+51-26	3415-3421	skåpar	_	_	_	_	_	_	_	
+51-27	3422-3425	han	_	_	_	_	_	_	_	
+51-28	3426-3428	ut	_	_	_	_	_	_	_	
+51-29	3429-3433	hela	_	_	_	_	_	_	_	
+51-30	3434-3447	rättssystemet	_	_	_	_	_	_	_	
+51-31	3447-3448	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3450-3451	#	_	_	_	_	_	_	_	
+52-2	3451-3452	P	_	_	_	_	_	_	_	
+52-3	3453-3456	IMM	_	_	_	_	_	_	_	
+52-4	3456-3457	.	_	_	_	_	_	_	_	
+
+#Text=I uppdelningen mellan det konspiratoriska och det seriösa hamnar Samuelson knappast på den seriösa sidan.
+53-1	3459-3460	I	_	_	_	_	_	_	_	
+53-2	3461-3473	uppdelningen	_	_	_	_	_	_	_	
+53-3	3474-3480	mellan	_	_	_	_	_	_	_	
+53-4	3481-3484	det	_	_	_	_	_	_	_	
+53-5	3485-3500	konspiratoriska	_	_	_	_	_	_	_	
+53-6	3501-3504	och	_	_	_	_	_	_	_	
+53-7	3505-3508	det	_	_	_	_	_	_	_	
+53-8	3509-3516	seriösa	_	_	_	_	_	_	_	
+53-9	3517-3523	hamnar	_	_	_	false	2	_	_	
+53-10	3524-3533	Samuelson	*[38]|*[39]	_	_	_	_	_	54-2[0_39]	
+53-11	3534-3542	knappast	_	Target[22]	53-10[38]	false[22]	2[22]	53-9[0_22]	_	
+53-12	3543-3545	på	_	Target[22]	53-10[38]	false[22]	2[22]	_	_	
+53-13	3546-3549	den	_	Target[22]	53-10[38]	false[22]	2[22]	_	_	
+53-14	3550-3557	seriösa	_	Target[22]	53-10[38]	false[22]	2[22]	_	_	
+53-15	3558-3563	sidan	_	Target[22]	53-10[38]	false[22]	2[22]	_	_	
+53-16	3563-3564	.	_	_	_	_	_	_	_	
+
+#Text=Men han blir säkert populär bland de anonyma kommentatorerna på Flashback.
+54-1	3565-3568	Men	_	_	_	_	_	_	_	
+54-2	3569-3572	han	*	_	_	_	_	_	_	
+54-3	3573-3577	blir	_	Source;Target[23]	54-7[40];54-2	false[23]	4[23]	_	_	
+54-4	3578-3584	säkert	_	Source;Target[23]	54-7[40];54-2	false[23]	4[23]	_	_	
+54-5	3585-3592	populär	_	Source;Target[23]	54-7[40];54-2	false[23]	4[23]	_	_	
+54-6	3593-3598	bland	_	Source;Target[23]	54-7[40];54-2	false[23]	4[23]	_	_	
+54-7	3599-3601	de	*[40]	_	_	_	_	_	_	
+54-8	3602-3609	anonyma	*[40]	_	_	_	_	_	_	
+54-9	3610-3625	kommentatorerna	*[40]	_	_	_	_	_	_	
+54-10	3626-3628	på	*[40]	_	_	_	_	_	_	
+54-11	3629-3638	Flashback	*[40]	_	_	_	_	_	_	
+54-12	3638-3639	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3641-3642	#	_	_	_	_	_	_	_	
+55-2	3642-3643	P	_	_	_	_	_	_	_	
+55-3	3644-3647	IMM	_	_	_	_	_	_	_	
+55-4	3647-3648	.	_	_	_	_	_	_	_	
+
+#Text=MÅRTEN SCHULTZ.
+56-1	3650-3656	MÅRTEN	_	_	_	_	_	_	_	
+56-2	3657-3664	SCHULTZ	_	_	_	_	_	_	_	
+56-3	3664-3665	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	3667-3668	#	_	_	_	_	_	_	_	
+57-2	3668-3669	P	_	_	_	_	_	_	_	
+57-3	3670-3673	IMM	_	_	_	_	_	_	_	
+57-4	3673-3674	.	_	_	_	_	_	_	_	
+
+#Text=professor i civilrätt, Stockholms universitet.
+58-1	3676-3685	professor	_	_	_	_	_	_	_	
+58-2	3686-3687	i	_	_	_	_	_	_	_	
+58-3	3688-3697	civilrätt	_	_	_	_	_	_	_	
+58-4	3697-3698	,	_	_	_	_	_	_	_	
+58-5	3699-3709	Stockholms	_	_	_	_	_	_	_	
+58-6	3710-3721	universitet	_	_	_	_	_	_	_	
+58-7	3721-3722	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	3724-3725	#	_	_	_	_	_	_	_	
+59-2	3725-3726	P	_	_	_	_	_	_	_	
+59-3	3727-3730	IMM	_	_	_	_	_	_	_	
+59-4	3730-3731	.	_	_	_	_	_	_	_	
+
+#Text=LÄS OCKSÅ:Thomas Ahlstrand: En vrångbild av det svenska rättsväsendet.
+60-1	3733-3736	LÄS	_	_	_	_	_	_	_	
+60-2	3737-3742	OCKSÅ	_	_	_	_	_	_	_	
+60-3	3742-3743	:	_	_	_	_	_	_	_	
+60-4	3743-3749	Thomas	_	_	_	_	_	_	_	
+60-5	3750-3759	Ahlstrand	_	_	_	_	_	_	_	
+60-6	3759-3760	:	_	_	_	_	_	_	_	
+60-7	3761-3763	En	_	_	_	_	_	_	_	
+60-8	3764-3773	vrångbild	_	_	_	_	_	_	_	
+60-9	3774-3776	av	_	_	_	_	_	_	_	
+60-10	3777-3780	det	_	_	_	_	_	_	_	
+60-11	3781-3788	svenska	_	_	_	_	_	_	_	
+60-12	3789-3802	rättsväsendet	_	_	_	_	_	_	_	
+60-13	3802-3803	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	3805-3806	#	_	_	_	_	_	_	_	
+61-2	3806-3807	P	_	_	_	_	_	_	_	
+61-3	3808-3811	IMM	_	_	_	_	_	_	_	
+61-4	3811-3812	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+62-1	3814-3822	Redaktör	_	_	_	_	_	_	_	
+62-2	3822-3823	:	_	_	_	_	_	_	_	
+62-3	3824-3830	Carina	_	_	_	_	_	_	_	
+62-4	3831-3839	Stensson	_	_	_	_	_	_	_	
+62-5	3839-3840	,	_	_	_	_	_	_	_	
+62-6	3841-3851	Biträdande	_	_	_	_	_	_	_	
+62-7	3852-3860	redaktör	_	_	_	_	_	_	_	
+62-8	3860-3861	:	_	_	_	_	_	_	_	
+62-9	3862-3867	Björn	_	_	_	_	_	_	_	
+62-10	3868-3874	Jorner	_	_	_	_	_	_	_	
+62-11	3874-3875	,	_	_	_	_	_	_	_	
+62-12	3876-3880	Mejl	_	_	_	_	_	_	_	
+62-13	3880-3881	:	_	_	_	_	_	_	_	
+62-14	3882-3888	debatt	_	_	_	_	_	_	_	
+62-15	3888-3889	@	_	_	_	_	_	_	_	
+62-16	3889-3895	svd.se	_	_	_	_	_	_	_	
+62-17	3895-3896	,	_	_	_	_	_	_	_	
+62-18	3897-3910	Telefonnummer	_	_	_	_	_	_	_	
+62-19	3910-3911	:	_	_	_	_	_	_	_	
+62-20	3912-3914	08	_	_	_	_	_	_	_	
+62-21	3914-3915	-	_	_	_	_	_	_	_	
+62-22	3915-3921	135149	_	_	_	_	_	_	_	
+62-23	3921-3922	,	_	_	_	_	_	_	_	
+62-24	3923-3930	Twitter	_	_	_	_	_	_	_	
+62-25	3930-3931	:	_	_	_	_	_	_	_	
+62-26	3932-3933	@	_	_	_	_	_	_	_	
+62-27	3933-3942	SvDDebatt	_	_	_	_	_	_	_	
+62-28	3942-3943	,	_	_	_	_	_	_	_	
+62-29	3944-3952	Facebook	_	_	_	_	_	_	_	
+62-30	3952-3953	:	_	_	_	_	_	_	_	
+62-31	3954-3957	SvD	_	_	_	_	_	_	_	
+62-32	3958-3964	Debatt	_	_	_	_	_	_	_	
+62-33	3964-3965	.	_	_	_	_	_	_	_	

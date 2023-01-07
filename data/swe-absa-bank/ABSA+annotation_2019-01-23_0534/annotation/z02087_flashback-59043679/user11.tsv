@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Invandrare utanför MENA.
+3-1	18-28	Invandrare	_	_	_	_	_	_	
+3-2	29-36	utanför	_	_	_	_	_	_	
+3-3	37-41	MENA	_	_	_	_	_	_	
+3-4	41-42	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	44-45	#	_	_	_	_	_	_	
+4-2	45-46	P	_	_[3]	_	false[3]	3[3]	_	
+4-3	47-50	IMM	_	_[3]	_	false[3]	3[3]	_	
+4-4	50-51	.	_	_	_	_	_	_	
+
+#Text=En fråga till er som är negativa mot invandrare:.
+5-1	53-55	En	_	_	_	_	_	_	
+5-2	56-61	fråga	_	_	_	_	_	_	
+5-3	62-66	till	_	_	_	_	_	_	
+5-4	67-69	er	*	_	_	_	_	_	
+5-5	70-73	som	_	_	_	_	_	_	
+5-6	74-76	är	_	Target;Source[4]	5-9;5-4	false[4]	2[4]	_	
+5-7	77-85	negativa	_	Target;Source[4]	5-9;5-4	false[4]	2[4]	_	
+5-8	86-89	mot	_	Target;Source[4]	5-9;5-4	false[4]	2[4]	_	
+5-9	90-100	invandrare	*	_	_	_	_	_	
+5-10	100-101	:	_	_	_	_	_	_	
+5-11	101-102	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	104-105	#	_	_	_	_	_	_	
+6-2	105-106	P	_	_[5]	_	false[5]	3[5]	_	
+6-3	107-110	IMM	_	_[5]	_	false[5]	3[5]	_	
+6-4	110-111	.	_	_[5]	_	false[5]	3[5]	_	
+
+#Text=Tycker ni illa även om de invandrare som Sverige t.ex. tagit emot från Sydamerika, Jugoslavien och Asien eller är det specifikt det ni så fint kallar "MENA" ni är kritiska till?
+7-1	113-119	Tycker	_	_	_	false	2	_	
+7-2	120-122	ni	*	_	_	_	_	_	
+7-3	123-127	illa	_	Source;Target	7-2;7-5[9]	false	2	7-1	
+7-4	128-132	även	_	_	_	_	_	_	
+7-5	133-135	om	*[9]	_	_	_	_	_	
+7-6	136-138	de	*[9]	_	_	_	_	_	
+7-7	139-149	invandrare	*[9]	_	_	_	_	_	
+7-8	150-153	som	*[9]	_	_	_	_	_	
+7-9	154-161	Sverige	*[9]	_	_	_	_	_	
+7-10	162-166	t.ex	*[9]	_	_	_	_	_	
+7-11	166-167	.	*[9]	_	_	_	_	_	
+7-12	168-173	tagit	*[9]	_	_	_	_	_	
+7-13	174-178	emot	*[9]	_	_	_	_	_	
+7-14	179-183	från	*[9]	_	_	_	_	_	
+7-15	184-194	Sydamerika	*[9]	_	_	_	_	_	
+7-16	194-195	,	*[9]	_	_	_	_	_	
+7-17	196-207	Jugoslavien	*[9]	_	_	_	_	_	
+7-18	208-211	och	*[9]	_	_	_	_	_	
+7-19	212-217	Asien	*[9]	_	_	_	_	_	
+7-20	218-223	eller	_	_	_	_	_	_	
+7-21	224-226	är	_	_	_	_	_	_	
+7-22	227-230	det	_	_	_	_	_	_	
+7-23	231-240	specifikt	_	_	_	_	_	_	
+7-24	241-244	det	_	_	_	_	_	_	
+7-25	245-247	ni	_	_	_	_	_	_	
+7-26	248-250	så	_	_	_	_	_	_	
+7-27	251-255	fint	_	_	_	_	_	_	
+7-28	256-262	kallar	_	_	_	_	_	_	
+7-29	263-264	"	_	_	_	_	_	_	
+7-30	264-268	MENA	*	_	_	_	_	_	
+7-31	268-269	"	_	_	_	_	_	_	
+7-32	270-272	ni	*	_	_	_	_	_	
+7-33	273-275	är	_	Source;Target[6]	7-32;7-30	false[6]	2[6]	_	
+7-34	276-284	kritiska	_	Source;Target[6]	7-32;7-30	false[6]	2[6]	_	
+7-35	285-289	till	_	Source;Target[6]	7-32;7-30	false[6]	2[6]	_	
+7-36	289-290	?	_	_	_	_	_	_	
+
+#Text=Generellt anses väl invandrare från ovanstående kulturer vara tämligen väl integrerade och brukar väl inte i särskilt stor omfattning ägna sig åt förortsligism, religiös fanatism och sexualbrott.
+8-1	291-300	Generellt	_	_	_	_	_	_	
+8-2	301-306	anses	_	Target	8-4[10]	false	4	_	
+8-3	307-310	väl	_	_	_	_	_	_	
+8-4	311-321	invandrare	*[10]	_	_	_	_	_	
+8-5	322-326	från	*[10]	_	_	_	_	_	
+8-6	327-338	ovanstående	*[10]	_	_	_	_	_	
+8-7	339-347	kulturer	*[10]	_	_	_	_	_	
+8-8	348-352	vara	_	_[7]	_	false[7]	4[7]	8-2[0_7]	
+8-9	353-361	tämligen	_	_[7]	_	false[7]	4[7]	_	
+8-10	362-365	väl	_	_[7]	_	false[7]	4[7]	_	
+8-11	366-377	integrerade	_	_[7]	_	false[7]	4[7]	_	
+8-12	378-381	och	_	_	_	_	_	_	
+8-13	382-388	brukar	_	_	_	_	_	_	
+8-14	389-392	väl	_	_	_	_	_	_	
+8-15	393-397	inte	_	_	_	_	_	_	
+8-16	398-399	i	_	_	_	_	_	_	
+8-17	400-408	särskilt	_	_	_	_	_	_	
+8-18	409-413	stor	_	_	_	_	_	_	
+8-19	414-424	omfattning	_	_	_	_	_	_	
+8-20	425-429	ägna	_	_	_	_	_	_	
+8-21	430-433	sig	_	_	_	_	_	_	
+8-22	434-436	åt	_	_	_	_	_	_	
+8-23	437-450	förortsligism	*	Target	8-23	false	1	_	
+8-24	450-451	,	_	_	_	_	_	_	
+8-25	452-460	religiös	*[11]	Target[8]	8-25[11]	false[8]	1[8]	_	
+8-26	461-469	fanatism	*[11]	Target[8]	8-25[11]	false[8]	1[8]	_	
+8-27	470-473	och	_	_	_	_	_	_	
+8-28	474-485	sexualbrott	*	Target	8-28	false	1	_	
+8-29	485-486	.	_	_	_	_	_	_	

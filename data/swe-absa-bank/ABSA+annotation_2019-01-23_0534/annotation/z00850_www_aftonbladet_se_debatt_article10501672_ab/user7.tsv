@@ -1,0 +1,624 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Kritik är ingen ursäkt för mord.
+3-1	18-24	Kritik	*	_	_	_	_	_	_	
+3-2	25-27	är	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-3	28-33	ingen	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-4	34-40	ursäkt	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-5	41-44	för	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-6	45-49	mord	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-7	49-50	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	_	_	
+
+#Text=I många nyhetsrapporter efter det fruktansvärt brutala mordet 2 november på Theo van Gogh beskrevs den holländske filmaren som ”kontroversiell”.
+5-1	61-62	I	_	_	_	_	_	_	_	
+5-2	63-68	många	_	_	_	_	_	_	_	
+5-3	69-84	nyhetsrapporter	_	_	_	_	_	_	_	
+5-4	85-90	efter	_	_	_	_	_	_	_	
+5-5	91-94	det	_	_	_	_	_	_	_	
+5-6	95-107	fruktansvärt	_	Target[2]	5-8	false[2]	1[2]	_	_	
+5-7	108-115	brutala	_	Target[2]	5-8	false[2]	1[2]	_	_	
+5-8	116-122	mordet	*	_	_	_	_	_	_	
+5-9	123-124	2	_	_	_	_	_	_	_	
+5-10	125-133	november	_	_	_	_	_	_	_	
+5-11	134-136	på	_	_	_	_	_	_	_	
+5-12	137-141	Theo	_	_	_	_	_	_	_	
+5-13	142-145	van	_	_	_	_	_	_	_	
+5-14	146-150	Gogh	_	_	_	_	_	_	_	
+5-15	151-159	beskrevs	_	_	_	_	_	_	_	
+5-16	160-163	den	_	_	_	_	_	_	_	
+5-17	164-174	holländske	_	_	_	_	_	_	_	
+5-18	175-183	filmaren	_	_	_	_	_	_	_	
+5-19	184-187	som	_	_	_	_	_	_	_	
+5-20	188-189	”	_	_	_	_	_	_	_	
+5-21	189-203	kontroversiell	_	_	_	_	_	_	_	
+5-22	203-204	”	_	_	_	_	_	_	_	
+5-23	204-205	.	_	_	_	_	_	_	_	
+
+#Text=När den holländske politikern Pim Fortuyn dödades av en djurrättsaktivist 2002 fick vi i media veta att han var ”utmanande”.
+6-1	206-209	När	_	_	_	_	_	_	_	
+6-2	210-213	den	_	_	_	_	_	_	_	
+6-3	214-224	holländske	_	_	_	_	_	_	_	
+6-4	225-235	politikern	_	_	_	_	_	_	_	
+6-5	236-239	Pim	_	_	_	_	_	_	_	
+6-6	240-247	Fortuyn	_	_	_	_	_	_	_	
+6-7	248-255	dödades	_	_	_	_	_	_	_	
+6-8	256-258	av	_	_	_	_	_	_	_	
+6-9	259-261	en	_	_	_	_	_	_	_	
+6-10	262-279	djurrättsaktivist	_	_	_	_	_	_	_	
+6-11	280-284	2002	_	_	_	_	_	_	_	
+6-12	285-289	fick	_	_	_	_	_	_	_	
+6-13	290-292	vi	_	_	_	_	_	_	_	
+6-14	293-294	i	_	_	_	_	_	_	_	
+6-15	295-300	media	_	_	_	_	_	_	_	
+6-16	301-305	veta	_	_	_	_	_	_	_	
+6-17	306-309	att	_	_	_	_	_	_	_	
+6-18	310-313	han	_	_	_	_	_	_	_	
+6-19	314-317	var	_	_	_	_	_	_	_	
+6-20	318-319	”	_	_	_	_	_	_	_	
+6-21	319-328	utmanande	_	_	_	_	_	_	_	
+6-22	328-329	”	_	_	_	_	_	_	_	
+6-23	329-330	.	_	_	_	_	_	_	_	
+
+#Text=Man skriver inte i klartext att offren hade sig själva att skylla för att de blev mördade.
+7-1	331-334	Man	_	_	_	_	_	_	_	
+7-2	335-342	skriver	_	_	_	_	_	_	_	
+7-3	343-347	inte	_	_	_	_	_	_	_	
+7-4	348-349	i	_	_	_	_	_	_	_	
+7-5	350-358	klartext	_	_	_	_	_	_	_	
+7-6	359-362	att	_	_	_	_	_	_	_	
+7-7	363-369	offren	*	_	_	_	_	_	_	
+7-8	370-374	hade	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-9	375-378	sig	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-10	379-385	själva	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-11	386-389	att	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-12	390-396	skylla	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-13	397-400	för	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-14	401-404	att	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-15	405-407	de	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-16	408-412	blev	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-17	413-420	mördade	_	Source;Target[3]	7-18;7-7	false[3]	1[3]	_	_	
+7-18	420-421	.	*	_	_	_	_	_	_	
+
+#Text=Men genom att kalla dem för ”provocerande” antyds att de i första hand sökte konfrontation och att de fick svar på tal.
+8-1	422-425	Men	_	_	_	_	_	_	_	
+8-2	426-431	genom	_	_	_	_	_	_	_	
+8-3	432-435	att	_	_	_	_	_	_	_	
+8-4	436-441	kalla	_	_	_	_	_	_	_	
+8-5	442-445	dem	_	_	_	_	_	_	_	
+8-6	446-449	för	_	_	_	_	_	_	_	
+8-7	450-451	”	_	_	_	_	_	_	_	
+8-8	451-463	provocerande	_	_	_	_	_	_	_	
+8-9	463-464	”	_	_	_	_	_	_	_	
+8-10	465-471	antyds	_	_	_	_	_	_	_	
+8-11	472-475	att	_	_	_	_	_	_	_	
+8-12	476-478	de	_	_	_	_	_	_	_	
+8-13	479-480	i	_	_	_	_	_	_	_	
+8-14	481-487	första	_	_	_	_	_	_	_	
+8-15	488-492	hand	_	_	_	_	_	_	_	
+8-16	493-498	sökte	_	_	_	_	_	_	_	
+8-17	499-512	konfrontation	_	_	_	_	_	_	_	
+8-18	513-516	och	_	_	_	_	_	_	_	
+8-19	517-520	att	_	_	_	_	_	_	_	
+8-20	521-523	de	_	_	_	_	_	_	_	
+8-21	524-528	fick	_	_	_	_	_	_	_	
+8-22	529-533	svar	_	_	_	_	_	_	_	
+8-23	534-536	på	_	_	_	_	_	_	_	
+8-24	537-540	tal	_	_	_	_	_	_	_	
+8-25	540-541	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	543-544	#	_	_	_	_	_	_	_	
+9-2	544-545	P	_	_	_	_	_	_	_	
+9-3	546-549	IMM	_	_	_	_	_	_	_	
+9-4	549-550	.	_	_	_	_	_	_	_	
+
+#Text=Men gjorde inte Theo van Gogh det vi alla borde göra?
+10-1	552-555	Men	_	_	_	_	_	_	_	
+10-2	556-562	gjorde	_	_	_	_	_	_	_	
+10-3	563-567	inte	_	_	_	_	_	_	_	
+10-4	568-572	Theo	_	_	_	_	_	_	_	
+10-5	573-576	van	_	_	_	_	_	_	_	
+10-6	577-581	Gogh	_	_	_	_	_	_	_	
+10-7	582-585	det	_	_	_	_	_	_	_	
+10-8	586-588	vi	_	_	_	_	_	_	_	
+10-9	589-593	alla	_	_	_	_	_	_	_	
+10-10	594-599	borde	_	_	_	_	_	_	_	
+10-11	600-604	göra	_	_	_	_	_	_	_	
+10-12	604-605	?	_	_	_	_	_	_	_	
+
+#Text=Han sökte upp orättvisorna och kränkningarna, och använde sig av det fria ordet för att försöka ändra på missförhållandena. ”Submission”, kortfilmen som blev hans dödsdom, handlade om hur kvinnor kan behandlas inom extrema delar av den islamska världen.
+11-1	606-609	Han	_	_	_	_	_	_	_	
+11-2	610-615	sökte	_	_	_	_	_	_	_	
+11-3	616-619	upp	_	_	_	_	_	_	_	
+11-4	620-632	orättvisorna	*	Target;Source	11-4;11-21	false	2	_	_	
+11-5	633-636	och	_	_	_	_	_	_	_	
+11-6	637-650	kränkningarna	*	Target;Source	11-6;11-21	false	2	_	_	
+11-7	650-651	,	_	_	_	_	_	_	_	
+11-8	652-655	och	_	_	_	_	_	_	_	
+11-9	656-663	använde	_	_	_	_	_	_	_	
+11-10	664-667	sig	_	_	_	_	_	_	_	
+11-11	668-670	av	_	_	_	_	_	_	_	
+11-12	671-674	det	_	_	_	_	_	_	_	
+11-13	675-679	fria	_	_	_	_	_	_	_	
+11-14	680-685	ordet	_	_	_	_	_	_	_	
+11-15	686-689	för	_	_	_	_	_	_	_	
+11-16	690-693	att	_	_	_	_	_	_	_	
+11-17	694-701	försöka	_	_	_	_	_	_	_	
+11-18	702-707	ändra	_	_	_	_	_	_	_	
+11-19	708-710	på	_	_	_	_	_	_	_	
+11-20	711-728	missförhållandena	*	Target;Source	11-20;11-21	false	2	_	_	
+11-21	728-729	.	*	_	_	_	_	_	_	
+11-22	730-731	”	_	_	_	_	_	_	_	
+11-23	731-741	Submission	_	_	_	_	_	_	_	
+11-24	741-742	”	_	_	_	_	_	_	_	
+11-25	742-743	,	_	_	_	_	_	_	_	
+11-26	744-754	kortfilmen	_	_	_	_	_	_	_	
+11-27	755-758	som	_	_	_	_	_	_	_	
+11-28	759-763	blev	_	_	_	_	_	_	_	
+11-29	764-768	hans	_	_	_	_	_	_	_	
+11-30	769-776	dödsdom	_	_	_	_	_	_	_	
+11-31	776-777	,	_	_	_	_	_	_	_	
+11-32	778-786	handlade	_	_	_	_	_	_	_	
+11-33	787-789	om	_	_	_	_	_	_	_	
+11-34	790-793	hur	_	_	_	_	_	_	_	
+11-35	794-801	kvinnor	_	_	_	_	_	_	_	
+11-36	802-805	kan	_	_	_	_	_	_	_	
+11-37	806-815	behandlas	_	_	_	_	_	_	_	
+11-38	816-820	inom	_	_	_	_	_	_	_	
+11-39	821-828	extrema	_	Target	11-40[6]	false	1	_	_	
+11-40	829-834	delar	*[6]	_	_	_	_	_	_	
+11-41	835-837	av	*[6]	_	_	_	_	_	_	
+11-42	838-841	den	*[6]	_	_	_	_	_	_	
+11-43	842-850	islamska	*[6]	_	_	_	_	_	_	
+11-44	851-858	världen	*[6]	_	_	_	_	_	_	
+11-45	858-859	.	_	_	_	_	_	_	_	
+
+#Text=Med ett starkt bildspråk tog den upp frågor som tvångsäktenskap, våldtäkt och incest, som hans samarbetspartner Ayaan Hirsi Ali, somalisk flykting, sett på nära håll.
+12-1	860-863	Med	_	_	_	_	_	_	_	
+12-2	864-867	ett	_	_	_	_	_	_	_	
+12-3	868-874	starkt	_	_	_	_	_	_	_	
+12-4	875-884	bildspråk	_	_	_	_	_	_	_	
+12-5	885-888	tog	_	_	_	_	_	_	_	
+12-6	889-892	den	_	_	_	_	_	_	_	
+12-7	893-896	upp	_	_	_	_	_	_	_	
+12-8	897-903	frågor	_	_	_	_	_	_	_	
+12-9	904-907	som	_	_	_	_	_	_	_	
+12-10	908-923	tvångsäktenskap	_	_	_	_	_	_	_	
+12-11	923-924	,	_	_	_	_	_	_	_	
+12-12	925-933	våldtäkt	_	_	_	_	_	_	_	
+12-13	934-937	och	_	_	_	_	_	_	_	
+12-14	938-944	incest	_	_	_	_	_	_	_	
+12-15	944-945	,	_	_	_	_	_	_	_	
+12-16	946-949	som	_	_	_	_	_	_	_	
+12-17	950-954	hans	_	_	_	_	_	_	_	
+12-18	955-971	samarbetspartner	_	_	_	_	_	_	_	
+12-19	972-977	Ayaan	_	_	_	_	_	_	_	
+12-20	978-983	Hirsi	_	_	_	_	_	_	_	
+12-21	984-987	Ali	_	_	_	_	_	_	_	
+12-22	987-988	,	_	_	_	_	_	_	_	
+12-23	989-997	somalisk	_	_	_	_	_	_	_	
+12-24	998-1006	flykting	_	_	_	_	_	_	_	
+12-25	1006-1007	,	_	_	_	_	_	_	_	
+12-26	1008-1012	sett	_	_	_	_	_	_	_	
+12-27	1013-1015	på	_	_	_	_	_	_	_	
+12-28	1016-1020	nära	_	_	_	_	_	_	_	
+12-29	1021-1025	håll	_	_	_	_	_	_	_	
+12-30	1025-1026	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	1028-1029	#	_	_	_	_	_	_	_	
+13-2	1029-1030	P	_	_	_	_	_	_	_	
+13-3	1031-1034	IMM	_	_	_	_	_	_	_	
+13-4	1034-1035	.	_	_	_	_	_	_	_	
+
+#Text=Holland har bland de liberalaste lagstiftningarna i Europa och har gett utrymme för sedvänjor som går stick i stäv med västerländsk lag som sätter individen främst.
+14-1	1037-1044	Holland	_	_	_	_	_	_	_	
+14-2	1045-1048	har	_	_	_	_	_	_	_	
+14-3	1049-1054	bland	_	_	_	_	_	_	_	
+14-4	1055-1057	de	_	_	_	_	_	_	_	
+14-5	1058-1069	liberalaste	_	_	_	_	_	_	_	
+14-6	1070-1086	lagstiftningarna	_	_	_	_	_	_	_	
+14-7	1087-1088	i	_	_	_	_	_	_	_	
+14-8	1089-1095	Europa	_	_	_	_	_	_	_	
+14-9	1096-1099	och	_	_	_	_	_	_	_	
+14-10	1100-1103	har	_	_	_	_	_	_	_	
+14-11	1104-1108	gett	_	_	_	_	_	_	_	
+14-12	1109-1116	utrymme	_	_	_	_	_	_	_	
+14-13	1117-1120	för	_	_	_	_	_	_	_	
+14-14	1121-1130	sedvänjor	_	_	_	_	_	_	_	
+14-15	1131-1134	som	_	_	_	_	_	_	_	
+14-16	1135-1138	går	_	_	_	_	_	_	_	
+14-17	1139-1144	stick	_	_	_	_	_	_	_	
+14-18	1145-1146	i	_	_	_	_	_	_	_	
+14-19	1147-1151	stäv	_	_	_	_	_	_	_	
+14-20	1152-1155	med	_	_	_	_	_	_	_	
+14-21	1156-1168	västerländsk	_	_	_	_	_	_	_	
+14-22	1169-1172	lag	_	_	_	_	_	_	_	
+14-23	1173-1176	som	_	_	_	_	_	_	_	
+14-24	1177-1183	sätter	_	_	_	_	_	_	_	
+14-25	1184-1193	individen	_	_	_	_	_	_	_	
+14-26	1194-1200	främst	_	_	_	_	_	_	_	
+14-27	1200-1201	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1203-1204	#	_	_	_	_	_	_	_	
+15-2	1204-1205	P	_	_	_	_	_	_	_	
+15-3	1206-1209	IMM	_	_	_	_	_	_	_	
+15-4	1209-1210	.	_	_	_	_	_	_	_	
+
+#Text=Debatten i dag handlar om att toleransen mot de intoleranta riskerar att leda till att den öppna samhällsdebatten och debattörerna tystas.
+16-1	1212-1220	Debatten	_	_	_	_	_	_	_	
+16-2	1221-1222	i	_	_	_	_	_	_	_	
+16-3	1223-1226	dag	_	_	_	_	_	_	_	
+16-4	1227-1234	handlar	_	_	_	_	_	_	_	
+16-5	1235-1237	om	_	_	_	_	_	_	_	
+16-6	1238-1241	att	_	_	_	_	_	_	_	
+16-7	1242-1252	toleransen	*[7]|*[8]	Target	16-7[8]	false	4	_	_	
+16-8	1253-1256	mot	*[7]	_	_	_	_	_	_	
+16-9	1257-1259	de	*[7]|*[9]	Target[4]	16-9[9]	false[4]	2[4]	_	_	
+16-10	1260-1271	intoleranta	*[7]|*[9]	Target[4]	16-9[9]	false[4]	2[4]	_	_	
+16-11	1272-1280	riskerar	_	Target;Source	16-7[7];16-22	false	2	_	_	
+16-12	1281-1284	att	_	_	_	_	_	_	_	
+16-13	1285-1289	leda	_	_	_	_	_	_	_	
+16-14	1290-1294	till	_	_	_	_	_	_	_	
+16-15	1295-1298	att	_	_	_	_	_	_	_	
+16-16	1299-1302	den	_	_	_	_	_	_	_	
+16-17	1303-1308	öppna	_	Target;Source	16-18;16-22	false	4	_	_	
+16-18	1309-1325	samhällsdebatten	*	_	_	_	_	_	_	
+16-19	1326-1329	och	_	_	_	_	_	_	_	
+16-20	1330-1342	debattörerna	_	_	_	_	_	_	_	
+16-21	1343-1349	tystas	_	_	_	_	_	_	_	
+16-22	1349-1350	.	*	_	_	_	_	_	_	
+
+#Text=Ayaan Hirsi Ali lever med polisskydd sedan filmen visades i holländsk tv i somras.
+17-1	1351-1356	Ayaan	_	_	_	_	_	_	_	
+17-2	1357-1362	Hirsi	_	_	_	_	_	_	_	
+17-3	1363-1366	Ali	_	_	_	_	_	_	_	
+17-4	1367-1372	lever	_	_	_	_	_	_	_	
+17-5	1373-1376	med	_	_	_	_	_	_	_	
+17-6	1377-1387	polisskydd	_	_	_	_	_	_	_	
+17-7	1388-1393	sedan	_	_	_	_	_	_	_	
+17-8	1394-1400	filmen	_	_	_	_	_	_	_	
+17-9	1401-1408	visades	_	_	_	_	_	_	_	
+17-10	1409-1410	i	_	_	_	_	_	_	_	
+17-11	1411-1420	holländsk	_	_	_	_	_	_	_	
+17-12	1421-1423	tv	_	_	_	_	_	_	_	
+17-13	1424-1425	i	_	_	_	_	_	_	_	
+17-14	1426-1432	somras	_	_	_	_	_	_	_	
+17-15	1432-1433	.	_	_	_	_	_	_	_	
+
+#Text=Själv avvisade van Gogh de dödshot som nådde honom.
+18-1	1434-1439	Själv	_	_	_	_	_	_	_	
+18-2	1440-1448	avvisade	_	_	_	_	_	_	_	
+18-3	1449-1452	van	_	_	_	_	_	_	_	
+18-4	1453-1457	Gogh	_	_	_	_	_	_	_	
+18-5	1458-1460	de	_	_	_	_	_	_	_	
+18-6	1461-1468	dödshot	_	_	_	_	_	_	_	
+18-7	1469-1472	som	_	_	_	_	_	_	_	
+18-8	1473-1478	nådde	_	_	_	_	_	_	_	
+18-9	1479-1484	honom	_	_	_	_	_	_	_	
+18-10	1484-1485	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1487-1488	#	_	_	_	_	_	_	_	
+19-2	1488-1489	P	_	_	_	_	_	_	_	
+19-3	1490-1493	IMM	_	_	_	_	_	_	_	
+19-4	1493-1494	.	_	_	_	_	_	_	_	
+
+#Text=Sen mördaren tömt sitt magasin i van Gogh kropp stack han en kniv i bröstet på honom med en lapp där han hotade andra som följde i van Goghs och Hirsi Alis fotspår.
+20-1	1496-1499	Sen	_	_	_	_	_	_	_	
+20-2	1500-1508	mördaren	*	_	_	_	_	_	20-22	
+20-3	1509-1513	tömt	_	_	_	_	_	_	_	
+20-4	1514-1518	sitt	_	_	_	_	_	_	_	
+20-5	1519-1526	magasin	_	_	_	_	_	_	_	
+20-6	1527-1528	i	_	_	_	_	_	_	_	
+20-7	1529-1532	van	_	_	_	_	_	_	_	
+20-8	1533-1537	Gogh	_	_	_	_	_	_	_	
+20-9	1538-1543	kropp	_	_	_	_	_	_	_	
+20-10	1544-1549	stack	_	_	_	_	_	_	_	
+20-11	1550-1553	han	_	_	_	_	_	_	_	
+20-12	1554-1556	en	_	_	_	_	_	_	_	
+20-13	1557-1561	kniv	_	_	_	_	_	_	_	
+20-14	1562-1563	i	_	_	_	_	_	_	_	
+20-15	1564-1571	bröstet	_	_	_	_	_	_	_	
+20-16	1572-1574	på	_	_	_	_	_	_	_	
+20-17	1575-1580	honom	_	_	_	_	_	_	_	
+20-18	1581-1584	med	_	_	_	_	_	_	_	
+20-19	1585-1587	en	_	_	_	_	_	_	_	
+20-20	1588-1592	lapp	_	_	_	_	_	_	_	
+20-21	1593-1596	där	_	_	_	_	_	_	_	
+20-22	1597-1600	han	*	_	_	_	_	_	_	
+20-23	1601-1607	hotade	_	Target;Source	20-24[10];20-22	false	1	_	_	
+20-24	1608-1613	andra	*[10]	_	_	_	_	_	_	
+20-25	1614-1617	som	*[10]	_	_	_	_	_	_	
+20-26	1618-1624	följde	*[10]	_	_	_	_	_	_	
+20-27	1625-1626	i	*[10]	_	_	_	_	_	_	
+20-28	1627-1630	van	*[10]	_	_	_	_	_	_	
+20-29	1631-1636	Goghs	*[10]	_	_	_	_	_	_	
+20-30	1637-1640	och	*[10]	_	_	_	_	_	_	
+20-31	1641-1646	Hirsi	*[10]	_	_	_	_	_	_	
+20-32	1647-1651	Alis	*[10]	_	_	_	_	_	_	
+20-33	1652-1659	fotspår	*[10]	_	_	_	_	_	_	
+20-34	1659-1660	.	_	_	_	_	_	_	_	
+
+#Text=Amsterdams borgmästare Cohen och andra i det liberala partiet namngavs.
+21-1	1661-1671	Amsterdams	_	_	_	_	_	_	_	
+21-2	1672-1683	borgmästare	_	_	_	_	_	_	_	
+21-3	1684-1689	Cohen	_	_	_	_	_	_	_	
+21-4	1690-1693	och	_	_	_	_	_	_	_	
+21-5	1694-1699	andra	_	_	_	_	_	_	_	
+21-6	1700-1701	i	_	_	_	_	_	_	_	
+21-7	1702-1705	det	_	_	_	_	_	_	_	
+21-8	1706-1714	liberala	_	_	_	_	_	_	_	
+21-9	1715-1722	partiet	_	_	_	_	_	_	_	
+21-10	1723-1731	namngavs	_	_	_	_	_	_	_	
+21-11	1731-1732	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1734-1735	#	_	_	_	_	_	_	_	
+22-2	1735-1736	P	_	_	_	_	_	_	_	
+22-3	1737-1740	IMM	_	_	_	_	_	_	_	
+22-4	1740-1741	.	_	_	_	_	_	_	_	
+
+#Text=Budskapet från alla dem som i dag går till våldsam och oreserverad motattack mot muslimer och islamiska organisationer är att det inte finns någon möjlighet för det västerländska samhället och islam att samexistera.
+23-1	1743-1752	Budskapet	_	_	_	_	_	_	_	
+23-2	1753-1757	från	_	_	_	_	_	_	_	
+23-3	1758-1762	alla	_	_	_	_	_	_	_	
+23-4	1763-1766	dem	_	_	_	_	_	_	_	
+23-5	1767-1770	som	_	_	_	_	_	_	_	
+23-6	1771-1772	i	_	_	_	_	_	_	_	
+23-7	1773-1776	dag	_	_	_	_	_	_	_	
+23-8	1777-1780	går	_	_	_	_	_	_	_	
+23-9	1781-1785	till	_	_	_	_	_	_	_	
+23-10	1786-1793	våldsam	_	_	_	_	_	_	_	
+23-11	1794-1797	och	_	_	_	_	_	_	_	
+23-12	1798-1809	oreserverad	_	_	_	_	_	_	_	
+23-13	1810-1819	motattack	_	_	_	_	_	_	_	
+23-14	1820-1823	mot	_	_	_	_	_	_	_	
+23-15	1824-1832	muslimer	_	_	_	_	_	_	_	
+23-16	1833-1836	och	_	_	_	_	_	_	_	
+23-17	1837-1846	islamiska	_	_	_	_	_	_	_	
+23-18	1847-1861	organisationer	_	_	_	_	_	_	_	
+23-19	1862-1864	är	_	_	_	_	_	_	_	
+23-20	1865-1868	att	_	_	_	_	_	_	_	
+23-21	1869-1872	det	_	_	_	_	_	_	_	
+23-22	1873-1877	inte	_	_	_	_	_	_	_	
+23-23	1878-1883	finns	_	_	_	_	_	_	_	
+23-24	1884-1889	någon	_	_	_	_	_	_	_	
+23-25	1890-1899	möjlighet	_	_	_	_	_	_	_	
+23-26	1900-1903	för	_	_	_	_	_	_	_	
+23-27	1904-1907	det	_	_	_	_	_	_	_	
+23-28	1908-1921	västerländska	_	_	_	_	_	_	_	
+23-29	1922-1931	samhället	_	_	_	_	_	_	_	
+23-30	1932-1935	och	_	_	_	_	_	_	_	
+23-31	1936-1941	islam	_	_	_	_	_	_	_	
+23-32	1942-1945	att	_	_	_	_	_	_	_	
+23-33	1946-1957	samexistera	_	_	_	_	_	_	_	
+23-34	1957-1958	.	_	_	_	_	_	_	_	
+
+#Text=I Holland har muslimska skolor och moskéer stuckits i brand och på internet gör sig extremhögern till van Goghs försvarare.
+24-1	1959-1960	I	_	_	_	_	_	_	_	
+24-2	1961-1968	Holland	_	_	_	_	_	_	_	
+24-3	1969-1972	har	_	_	_	_	_	_	_	
+24-4	1973-1982	muslimska	_	_	_	_	_	_	_	
+24-5	1983-1989	skolor	_	_	_	_	_	_	_	
+24-6	1990-1993	och	_	_	_	_	_	_	_	
+24-7	1994-2001	moskéer	_	_	_	_	_	_	_	
+24-8	2002-2010	stuckits	_	_	_	_	_	_	_	
+24-9	2011-2012	i	_	_	_	_	_	_	_	
+24-10	2013-2018	brand	_	_	_	_	_	_	_	
+24-11	2019-2022	och	_	_	_	_	_	_	_	
+24-12	2023-2025	på	_	_	_	_	_	_	_	
+24-13	2026-2034	internet	_	_	_	_	_	_	_	
+24-14	2035-2038	gör	_	_	_	_	_	_	_	
+24-15	2039-2042	sig	_	_	_	_	_	_	_	
+24-16	2043-2055	extremhögern	*	Target	24-16	false	2	_	_	
+24-17	2056-2060	till	_	_	_	_	_	_	_	
+24-18	2061-2064	van	_	_	_	_	_	_	_	
+24-19	2065-2070	Goghs	_	_	_	_	_	_	_	
+24-20	2071-2081	försvarare	_	_	_	_	_	_	_	
+24-21	2081-2082	.	_	_	_	_	_	_	_	
+
+#Text=En våg av konfrontation, hat och förslag om ”radikala lösningar” har följt efter mordet.
+25-1	2083-2085	En	_	_	_	_	_	_	_	
+25-2	2086-2089	våg	_	_	_	_	_	_	_	
+25-3	2090-2092	av	_	_	_	_	_	_	_	
+25-4	2093-2106	konfrontation	_	_	_	_	_	_	_	
+25-5	2106-2107	,	_	_	_	_	_	_	_	
+25-6	2108-2111	hat	*	Target	25-6	false	1	_	_	
+25-7	2112-2115	och	_	_	_	_	_	_	_	
+25-8	2116-2123	förslag	_	_	_	_	_	_	_	
+25-9	2124-2126	om	_	_	_	_	_	_	_	
+25-10	2127-2128	”	_	_	_	_	_	_	_	
+25-11	2128-2136	radikala	_	_	_	_	_	_	_	
+25-12	2137-2146	lösningar	_	_	_	_	_	_	_	
+25-13	2146-2147	”	_	_	_	_	_	_	_	
+25-14	2148-2151	har	_	_	_	_	_	_	_	
+25-15	2152-2157	följt	_	_	_	_	_	_	_	
+25-16	2158-2163	efter	_	_	_	_	_	_	_	
+25-17	2164-2170	mordet	_	_	_	_	_	_	_	
+25-18	2170-2171	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2173-2174	#	_	_	_	_	_	_	_	
+26-2	2174-2175	P	_	_	_	_	_	_	_	
+26-3	2176-2179	IMM	_	_	_	_	_	_	_	
+26-4	2179-2180	.	_	_	_	_	_	_	_	
+
+#Text=Men utgångspunkten måste vara att vi skall leva här tillsammans.
+27-1	2182-2185	Men	_	_	_	_	_	_	_	
+27-2	2186-2200	utgångspunkten	_	_	_	_	_	_	_	
+27-3	2201-2206	måste	_	_	_	_	_	_	_	
+27-4	2207-2211	vara	_	_	_	_	_	_	_	
+27-5	2212-2215	att	_	_	_	_	_	_	_	
+27-6	2216-2218	vi	_	_	_	_	_	_	_	
+27-7	2219-2224	skall	_	_	_	_	_	_	_	
+27-8	2225-2229	leva	_	_	_	_	_	_	_	
+27-9	2230-2233	här	_	_	_	_	_	_	_	
+27-10	2234-2245	tillsammans	_	_	_	_	_	_	_	
+27-11	2245-2246	.	_	_	_	_	_	_	_	
+
+#Text=Att våra barn kommer att växa upp i samma städer, gå i samma skolor och mötas på arbetsplatser.
+28-1	2247-2250	Att	_	_	_	_	_	_	_	
+28-2	2251-2255	våra	_	_	_	_	_	_	_	
+28-3	2256-2260	barn	_	_	_	_	_	_	_	
+28-4	2261-2267	kommer	_	_	_	_	_	_	_	
+28-5	2268-2271	att	_	_	_	_	_	_	_	
+28-6	2272-2276	växa	_	_	_	_	_	_	_	
+28-7	2277-2280	upp	_	_	_	_	_	_	_	
+28-8	2281-2282	i	_	_	_	_	_	_	_	
+28-9	2283-2288	samma	_	_	_	_	_	_	_	
+28-10	2289-2295	städer	_	_	_	_	_	_	_	
+28-11	2295-2296	,	_	_	_	_	_	_	_	
+28-12	2297-2299	gå	_	_	_	_	_	_	_	
+28-13	2300-2301	i	_	_	_	_	_	_	_	
+28-14	2302-2307	samma	_	_	_	_	_	_	_	
+28-15	2308-2314	skolor	_	_	_	_	_	_	_	
+28-16	2315-2318	och	_	_	_	_	_	_	_	
+28-17	2319-2324	mötas	_	_	_	_	_	_	_	
+28-18	2325-2327	på	_	_	_	_	_	_	_	
+28-19	2328-2341	arbetsplatser	_	_	_	_	_	_	_	
+28-20	2341-2342	.	_	_	_	_	_	_	_	
+
+#Text=Kanske till och med umgås med varandra.
+29-1	2343-2349	Kanske	_	_	_	_	_	_	_	
+29-2	2350-2354	till	_	_	_	_	_	_	_	
+29-3	2355-2358	och	_	_	_	_	_	_	_	
+29-4	2359-2362	med	_	_	_	_	_	_	_	
+29-5	2363-2368	umgås	_	_	_	_	_	_	_	
+29-6	2369-2372	med	_	_	_	_	_	_	_	
+29-7	2373-2381	varandra	_	_	_	_	_	_	_	
+29-8	2381-2382	.	_	_	_	_	_	_	_	
+
+#Text=Därför är konfrontation och tvång inte framkomliga vägar.
+30-1	2383-2389	Därför	_	_	_	_	_	_	_	
+30-2	2390-2392	är	_	_	_	false	2	_	_	
+30-3	2393-2406	konfrontation	*[11]	_	_	_	_	_	_	
+30-4	2407-2410	och	*[11]	_	_	_	_	_	_	
+30-5	2411-2416	tvång	*[11]|*[12]	Target	30-5[12]	false	1	_	_	
+30-6	2417-2421	inte	_	Target[5]	30-3[11]	false[5]	2[5]	30-2[0_5]	_	
+30-7	2422-2433	framkomliga	_	Target[5]	30-3[11]	false[5]	2[5]	_	_	
+30-8	2434-2439	vägar	_	Target[5]	30-3[11]	false[5]	2[5]	_	_	
+30-9	2439-2440	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2442-2443	#	_	_	_	_	_	_	_	
+31-2	2443-2444	P	_	_	_	_	_	_	_	
+31-3	2445-2448	IMM	_	_	_	_	_	_	_	
+31-4	2448-2449	.	_	_	_	_	_	_	_	
+
+#Text=Däremot lika rättigheter och förväntningar för alla.
+32-1	2451-2458	Däremot	_	_	_	_	_	_	_	
+32-2	2459-2463	lika	_	_	_	_	_	_	_	
+32-3	2464-2475	rättigheter	_	_	_	_	_	_	_	
+32-4	2476-2479	och	_	_	_	_	_	_	_	
+32-5	2480-2493	förväntningar	_	_	_	_	_	_	_	
+32-6	2494-2497	för	_	_	_	_	_	_	_	
+32-7	2498-2502	alla	_	_	_	_	_	_	_	
+32-8	2502-2503	.	_	_	_	_	_	_	_	
+
+#Text=Att alla skall bidra till samhället efter sin förmåga.
+33-1	2504-2507	Att	_	_	_	_	_	_	_	
+33-2	2508-2512	alla	_	_	_	_	_	_	_	
+33-3	2513-2518	skall	_	_	_	_	_	_	_	
+33-4	2519-2524	bidra	_	_	_	_	_	_	_	
+33-5	2525-2529	till	_	_	_	_	_	_	_	
+33-6	2530-2539	samhället	_	_	_	_	_	_	_	
+33-7	2540-2545	efter	_	_	_	_	_	_	_	
+33-8	2546-2549	sin	_	_	_	_	_	_	_	
+33-9	2550-2557	förmåga	_	_	_	_	_	_	_	
+33-10	2557-2558	.	_	_	_	_	_	_	_	
+
+#Text=Att det inte bara ska vara tillåtet att provocera, utan också nödvändigt för att debatten skall föras framåt.
+34-1	2559-2562	Att	_	_	_	_	_	_	_	
+34-2	2563-2566	det	_	_	_	_	_	_	_	
+34-3	2567-2571	inte	_	_	_	_	_	_	_	
+34-4	2572-2576	bara	_	_	_	_	_	_	_	
+34-5	2577-2580	ska	_	_	_	_	_	_	_	
+34-6	2581-2585	vara	_	_	_	_	_	_	_	
+34-7	2586-2594	tillåtet	_	_	_	_	_	_	_	
+34-8	2595-2598	att	_	_	_	_	_	_	_	
+34-9	2599-2608	provocera	_	_	_	_	_	_	_	
+34-10	2608-2609	,	_	_	_	_	_	_	_	
+34-11	2610-2614	utan	_	_	_	_	_	_	_	
+34-12	2615-2620	också	_	_	_	_	_	_	_	
+34-13	2621-2631	nödvändigt	_	_	_	_	_	_	_	
+34-14	2632-2635	för	_	_	_	_	_	_	_	
+34-15	2636-2639	att	_	_	_	_	_	_	_	
+34-16	2640-2648	debatten	_	_	_	_	_	_	_	
+34-17	2649-2654	skall	_	_	_	_	_	_	_	
+34-18	2655-2660	föras	_	_	_	_	_	_	_	
+34-19	2661-2667	framåt	_	_	_	_	_	_	_	
+34-20	2667-2668	.	_	_	_	_	_	_	_	
+
+#Text=Men där det aldrig, aldrig någonsin – är tillåtet att hota eller använda våld.
+35-1	2669-2672	Men	_	_	_	_	_	_	_	
+35-2	2673-2676	där	_	_	_	_	_	_	_	
+35-3	2677-2680	det	_	_	_	_	_	_	_	
+35-4	2681-2687	aldrig	_	_	_	_	_	_	_	
+35-5	2687-2688	,	_	_	_	_	_	_	_	
+35-6	2689-2695	aldrig	_	_	_	_	_	_	_	
+35-7	2696-2704	någonsin	_	_	_	_	_	_	_	
+35-8	2705-2706	–	_	_	_	_	_	_	_	
+35-9	2707-2709	är	_	_	_	_	_	_	_	
+35-10	2710-2718	tillåtet	_	_	_	_	_	_	_	
+35-11	2719-2722	att	_	_	_	_	_	_	_	
+35-12	2723-2727	hota	_	_	_	_	_	_	_	
+35-13	2728-2733	eller	_	_	_	_	_	_	_	
+35-14	2734-2741	använda	_	_	_	_	_	_	_	
+35-15	2742-2746	våld	_	_	_	_	_	_	_	
+35-16	2746-2747	.	_	_	_	_	_	_	_	
+
+#Text=Kalla det gärna liberalism, Europas bidrag till civilisationen.
+36-1	2748-2753	Kalla	_	_	_	_	_	_	_	
+36-2	2754-2757	det	_	_	_	_	_	_	_	
+36-3	2758-2763	gärna	_	_	_	_	_	_	_	
+36-4	2764-2774	liberalism	_	_	_	_	_	_	_	
+36-5	2774-2775	,	_	_	_	_	_	_	_	
+36-6	2776-2783	Europas	_	_	_	_	_	_	_	
+36-7	2784-2790	bidrag	_	_	_	_	_	_	_	
+36-8	2791-2795	till	_	_	_	_	_	_	_	
+36-9	2796-2810	civilisationen	_	_	_	_	_	_	_	
+36-10	2810-2811	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2813-2814	#	_	_	_	_	_	_	_	
+37-2	2814-2815	P	_	_	_	_	_	_	_	
+37-3	2816-2819	IMM	_	_	_	_	_	_	_	
+37-4	2819-2820	.	_	_	_	_	_	_	_	
+
+#Text=Anders Carlberg (Ordförande i Judiska församlingen i Göteborg).
+38-1	2822-2828	Anders	_	_	_	_	_	_	_	
+38-2	2829-2837	Carlberg	_	_	_	_	_	_	_	
+38-3	2838-2839	(	_	_	_	_	_	_	_	
+38-4	2839-2849	Ordförande	_	_	_	_	_	_	_	
+38-5	2850-2851	i	_	_	_	_	_	_	_	
+38-6	2852-2859	Judiska	_	_	_	_	_	_	_	
+38-7	2860-2872	församlingen	_	_	_	_	_	_	_	
+38-8	2873-2874	i	_	_	_	_	_	_	_	
+38-9	2875-2883	Göteborg	_	_	_	_	_	_	_	
+38-10	2883-2884	)	_	_	_	_	_	_	_	
+38-11	2884-2885	.	_	_	_	_	_	_	_	

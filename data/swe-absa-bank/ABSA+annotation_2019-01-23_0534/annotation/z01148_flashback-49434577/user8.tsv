@@ -1,0 +1,174 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	2	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Förekommer det personliga monetära intressen gällande invandringen?
+3-1	18-28	Förekommer	_	_	_	_	_	
+3-2	29-32	det	_	_	_	_	_	
+3-3	33-43	personliga	_	_	_	_	_	
+3-4	44-52	monetära	_	_	_	_	_	
+3-5	53-62	intressen	_	_	_	_	_	
+3-6	63-71	gällande	_	_	_	_	_	
+3-7	72-84	invandringen	_	_	_	_	_	
+3-8	84-85	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	87-88	#	_	_	_	_	_	
+4-2	88-89	P	_	_	_	_	_	
+4-3	90-93	IMM	_	_	_	false	2	
+4-4	93-94	.	_	_	_	_	_	
+
+#Text=Jag har reflekterat kring det här under en längre tid.
+5-1	96-99	Jag	_	_	_	_	_	
+5-2	100-103	har	_	_	_	_	_	
+5-3	104-115	reflekterat	_	_	_	_	_	
+5-4	116-121	kring	_	_	_	_	_	
+5-5	122-125	det	_	_	_	_	_	
+5-6	126-129	här	_	_	_	_	_	
+5-7	130-135	under	_	_	_	_	_	
+5-8	136-138	en	_	_	_	_	_	
+5-9	139-145	längre	_	_	_	_	_	
+5-10	146-149	tid	_	_	_	_	_	
+5-11	149-150	.	_	_	_	_	_	
+
+#Text=Den officiella anledningen till massinvandringen är ju för att täcka upp de enorma pensionsavgångar som man pratat om i sådär 20 år.
+6-1	151-154	Den	_	_	_	_	_	
+6-2	155-165	officiella	_	_	_	_	_	
+6-3	166-177	anledningen	_	_	_	_	_	
+6-4	178-182	till	_	_	_	_	_	
+6-5	183-199	massinvandringen	_	_	_	_	_	
+6-6	200-202	är	_	_	_	_	_	
+6-7	203-205	ju	_	_	_	_	_	
+6-8	206-209	för	_	_	_	_	_	
+6-9	210-213	att	_	_	_	_	_	
+6-10	214-219	täcka	_	_	_	_	_	
+6-11	220-223	upp	_	_	_	_	_	
+6-12	224-226	de	_	_	_	_	_	
+6-13	227-233	enorma	_	_	_	_	_	
+6-14	234-250	pensionsavgångar	_	_	_	_	_	
+6-15	251-254	som	_	_	_	_	_	
+6-16	255-258	man	_	_	_	_	_	
+6-17	259-265	pratat	_	_	_	_	_	
+6-18	266-268	om	_	_	_	_	_	
+6-19	269-270	i	_	_	_	_	_	
+6-20	271-276	sådär	_	_	_	_	_	
+6-21	277-279	20	_	_	_	_	_	
+6-22	280-282	år	_	_	_	_	_	
+6-23	282-283	.	_	_	_	_	_	
+
+#Text=Sen att unga svenskar flyttar till Norge på grund av arbetsbrist verkar inte särskilt intressant eller värt att diskutera.
+7-1	284-287	Sen	_	_	_	_	_	
+7-2	288-291	att	*[3]	_	_	_	_	
+7-3	292-296	unga	*[3]	_	_	_	_	
+7-4	297-305	svenskar	*[3]	_	_	_	_	
+7-5	306-313	flyttar	*[3]	_	_	_	_	
+7-6	314-318	till	*[3]	_	_	_	_	
+7-7	319-324	Norge	*[3]	_	_	_	_	
+7-8	325-327	på	*[3]	_	_	_	_	
+7-9	328-333	grund	*[3]	_	_	_	_	
+7-10	334-336	av	*[3]	_	_	_	_	
+7-11	337-348	arbetsbrist	*[3]|*[4]	Target	7-11[4]	false	2	
+7-12	349-355	verkar	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-13	356-360	inte	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-14	361-369	särskilt	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-15	370-380	intressant	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-16	381-386	eller	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-17	387-391	värt	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-18	392-395	att	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-19	396-405	diskutera	_	Source;Target[1]	7-20;7-2[3]	false[1]	2[1]	
+7-20	405-406	.	*	_	_	_	_	
+
+#Text=#P IMM.
+8-1	408-409	#	_	_	_	_	_	
+8-2	409-410	P	_	_	_	_	_	
+8-3	411-414	IMM	_	_	_	false	1	
+8-4	414-415	.	_	_	_	_	_	
+
+#Text=Därför har jag börjar misstänka att det ligger någon form av ekonomisk vinst/betalning/korruption bakom detta.
+9-1	417-423	Därför	_	_	_	_	_	
+9-2	424-427	har	_	_	_	_	_	
+9-3	428-431	jag	*	_	_	_	_	
+9-4	432-438	börjar	_	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-5	439-448	misstänka	_	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-6	449-452	att	_	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-7	453-456	det	_	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-8	457-463	ligger	_	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-9	464-469	någon	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-10	470-474	form	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-11	475-477	av	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-12	478-487	ekonomisk	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-13	488-493	vinst	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-14	493-494	/	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-15	494-503	betalning	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-16	503-504	/	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-17	504-514	korruption	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-18	515-520	bakom	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-19	521-526	detta	*[5]	Source;Target[2]	9-3;9-9[5]	false[2]	2[2]	
+9-20	526-527	.	_	_	_	_	_	
+
+#Text=Med andra ord att någon utifrån antingen betalar högt uppsatta människor i hierarkin, eller att Sverige som stat får enorma summor pengar av något annat land för att ta emot absurda mängder invandrar sett till landets invånare.
+10-1	528-531	Med	_	_	_	_	_	
+10-2	532-537	andra	_	_	_	_	_	
+10-3	538-541	ord	_	_	_	_	_	
+10-4	542-545	att	_	_	_	_	_	
+10-5	546-551	någon	_	_	_	_	_	
+10-6	552-559	utifrån	_	_	_	_	_	
+10-7	560-568	antingen	_	_	_	_	_	
+10-8	569-576	betalar	_	_	_	_	_	
+10-9	577-581	högt	_	_	_	_	_	
+10-10	582-590	uppsatta	_	_	_	_	_	
+10-11	591-600	människor	_	_	_	_	_	
+10-12	601-602	i	_	_	_	_	_	
+10-13	603-612	hierarkin	_	_	_	_	_	
+10-14	612-613	,	_	_	_	_	_	
+10-15	614-619	eller	_	_	_	_	_	
+10-16	620-623	att	_	_	_	_	_	
+10-17	624-631	Sverige	_	_	_	_	_	
+10-18	632-635	som	_	_	_	_	_	
+10-19	636-640	stat	_	_	_	_	_	
+10-20	641-644	får	_	_	_	_	_	
+10-21	645-651	enorma	_	_	_	_	_	
+10-22	652-658	summor	_	_	_	_	_	
+10-23	659-665	pengar	_	_	_	_	_	
+10-24	666-668	av	_	_	_	_	_	
+10-25	669-674	något	_	_	_	_	_	
+10-26	675-680	annat	_	_	_	_	_	
+10-27	681-685	land	_	_	_	_	_	
+10-28	686-689	för	_	_	_	_	_	
+10-29	690-693	att	_	_	_	_	_	
+10-30	694-696	ta	_	_	_	_	_	
+10-31	697-701	emot	_	_	_	_	_	
+10-32	702-709	absurda	_	Target	10-33[6]	false	1	
+10-33	710-717	mängder	*[6]	_	_	_	_	
+10-34	718-727	invandrar	*[6]	_	_	_	_	
+10-35	728-732	sett	*[6]	_	_	_	_	
+10-36	733-737	till	*[6]	_	_	_	_	
+10-37	738-745	landets	*[6]	_	_	_	_	
+10-38	746-754	invånare	*[6]	_	_	_	_	
+10-39	754-755	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	757-758	#	_	_	_	_	_	
+11-2	758-759	P	_	_	_	_	_	
+11-3	760-763	IMM	_	_	_	_	_	
+11-4	763-764	.	_	_	_	_	_	
+
+#Text=Vad tror vi?.
+12-1	766-769	Vad	_	_	_	_	_	
+12-2	770-774	tror	_	_	_	_	_	
+12-3	775-777	vi	_	_	_	_	_	
+12-4	777-778	?	_	_	_	_	_	
+12-5	778-779	.	_	_	_	_	_	

@@ -1,0 +1,91 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Skvaller om Soran Ismail?
+3-1	18-26	Skvaller	_	_	_	_	_	
+3-2	27-29	om	_	_	_	_	_	
+3-3	30-35	Soran	_	_	_	_	_	
+3-4	36-42	Ismail	_	_	_	_	_	
+3-5	42-43	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	45-46	#	_	_	_	_	_	
+4-2	46-47	P	_	_	_	_	_	
+4-3	48-51	IMM	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	
+
+#Text=Finns det något roligt skvaller om Soran?.
+5-1	54-59	Finns	_	_	_	_	_	
+5-2	60-63	det	_	_	_	_	_	
+5-3	64-69	något	_	_	_	_	_	
+5-4	70-76	roligt	_	_	_	_	_	
+5-5	77-85	skvaller	_	_	_	_	_	
+5-6	86-88	om	_	_	_	_	_	
+5-7	89-94	Soran	_	_	_	_	_	
+5-8	94-95	?	_	_	_	_	_	
+5-9	95-96	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	98-99	#	_	_	_	_	_	
+6-2	99-100	P	_	_	_	_	_	
+6-3	101-104	IMM	_	_	_	_	_	
+6-4	104-105	.	_	_	_	_	_	
+
+#Text=Och låt inte denna tråd spåra ut som Björn Gustavsson tråden, om ni vill diskutera huruvida Soran är rolig eller ej finns det en tråd om detta:.
+7-1	107-110	Och	_	_	_	_	_	
+7-2	111-114	låt	_	_	_	_	_	
+7-3	115-119	inte	_	_	_	_	_	
+7-4	120-125	denna	_	_	_	_	_	
+7-5	126-130	tråd	_	_	_	_	_	
+7-6	131-136	spåra	_	Target[1]	7-9[4]	false[1]	2[1]	
+7-7	137-139	ut	_	Target[1]	7-9[4]	false[1]	2[1]	
+7-8	140-143	som	_	_	_	_	_	
+7-9	144-149	Björn	*[4]	_	_	_	_	
+7-10	150-160	Gustavsson	*[4]	_	_	_	_	
+7-11	161-167	tråden	*[4]	_	_	_	_	
+7-12	167-168	,	_	_	_	_	_	
+7-13	169-171	om	_	_	_	_	_	
+7-14	172-174	ni	_	_	_	_	_	
+7-15	175-179	vill	_	_	_	_	_	
+7-16	180-189	diskutera	_	_	_	_	_	
+7-17	190-198	huruvida	_	_	_	_	_	
+7-18	199-204	Soran	*	_	_	_	_	
+7-19	205-207	är	_	Source;Target[2]	7-30;7-18	false[2]	3[2]	
+7-20	208-213	rolig	_	Source;Target[2]	7-30;7-18	false[2]	3[2]	
+7-21	214-219	eller	_	Source;Target[2]	7-30;7-18	false[2]	3[2]	
+7-22	220-222	ej	_	Source;Target[2]	7-30;7-18	false[2]	3[2]	
+7-23	223-228	finns	_	_	_	_	_	
+7-24	229-232	det	_	_	_	_	_	
+7-25	233-235	en	_	_	_	_	_	
+7-26	236-240	tråd	_	_	_	_	_	
+7-27	241-243	om	_	_	_	_	_	
+7-28	244-249	detta	_	_	_	_	_	
+7-29	249-250	:	_	_	_	_	_	
+7-30	250-251	.	*	_	_	_	_	
+
+#Text=#P IMM.
+8-1	253-254	#	_	_	_	_	_	
+8-2	254-255	P	_	_	_	_	_	
+8-3	256-259	IMM	_	_	_	_	_	
+8-4	259-260	.	_	_	_	_	_	
+
+#Text=Gossip vill jag ha.
+9-1	262-268	Gossip	*	_	_	_	_	
+9-2	269-273	vill	_	Target[3]	9-1	false[3]	3[3]	
+9-3	274-277	jag	_	Target[3]	9-1	false[3]	3[3]	
+9-4	278-280	ha	_	Target[3]	9-1	false[3]	3[3]	
+9-5	280-281	.	_	_	_	_	_	

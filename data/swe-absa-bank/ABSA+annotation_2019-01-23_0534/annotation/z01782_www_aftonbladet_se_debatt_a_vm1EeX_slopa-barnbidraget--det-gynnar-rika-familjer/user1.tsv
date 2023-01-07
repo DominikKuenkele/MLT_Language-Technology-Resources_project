@@ -1,0 +1,737 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Slopa barnbidraget – det gynnar rika familjer.
+3-1	18-23	Slopa	_	Target	3-2	false	2	_	
+3-2	24-36	barnbidraget	*	_	_	_	_	_	
+3-3	37-38	–	_	_	_	_	_	_	
+3-4	39-42	det	_	_	_	_	_	_	
+3-5	43-49	gynnar	_	_	_	_	_	_	
+3-6	50-54	rika	_	_	_	_	_	_	
+3-7	55-63	familjer	_	_	_	_	_	_	
+3-8	63-64	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=Barnbidraget går snarare till rika än fattiga familjer.
+5-1	75-87	Barnbidraget	_	_	_	_	_	_	
+5-2	88-91	går	_	_	_	_	_	_	
+5-3	92-99	snarare	_	_	_	_	_	_	
+5-4	100-104	till	_	_	_	_	_	_	
+5-5	105-109	rika	_	_	_	_	_	_	
+5-6	110-112	än	_	_	_	_	_	_	
+5-7	113-120	fattiga	_	_	_	_	_	_	
+5-8	121-129	familjer	_	_	_	_	_	_	
+5-9	129-130	.	_	_	_	_	_	_	
+
+#Text=Det bör därför avskaffas och ersättas med höjt bostadsbidrag för dem som behöver hjälp.
+6-1	131-134	Det	*	_	_	_	_	_	
+6-2	135-138	bör	_	_	_	false	2	_	
+6-3	139-145	därför	_	_	_	_	_	_	
+6-4	146-155	avskaffas	_	Target	6-1	false	2	6-2	
+6-5	156-159	och	_	Target[1]	6-8[10]	false[1]	4[1]	_	
+6-6	160-168	ersättas	_	Target[1]	6-8[10]	false[1]	4[1]	_	
+6-7	169-172	med	_	Target[1]	6-8[10]	false[1]	4[1]	_	
+6-8	173-177	höjt	*[10]	_	_	_	_	_	
+6-9	178-191	bostadsbidrag	*[10]	_	_	_	_	_	
+6-10	192-195	för	*[10]	_	_	_	_	_	
+6-11	196-199	dem	*[10]	_	_	_	_	_	
+6-12	200-203	som	*[10]	_	_	_	_	_	
+6-13	204-211	behöver	*[10]	_	_	_	_	_	
+6-14	212-217	hjälp	*[10]	_	_	_	_	_	
+6-15	217-218	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	220-221	#	_	_	_	_	_	_	
+7-2	221-222	P	_	_	_	_	_	_	
+7-3	223-226	IMM	_	_	_	_	_	_	
+7-4	226-227	.	_	_	_	_	_	_	
+
+#Text=Nyligen höjde regeringen barnbidraget, med motiveringen att hjälpa fattiga familjer.
+8-1	229-236	Nyligen	_	_	_	_	_	_	
+8-2	237-242	höjde	_	_	_	_	_	_	
+8-3	243-253	regeringen	_	_	_	_	_	_	
+8-4	254-266	barnbidraget	_	_	_	_	_	_	
+8-5	266-267	,	_	_	_	_	_	_	
+8-6	268-271	med	_	_	_	_	_	_	
+8-7	272-284	motiveringen	_	_	_	_	_	_	
+8-8	285-288	att	_	_	_	_	_	_	
+8-9	289-295	hjälpa	_	_	_	_	_	_	
+8-10	296-303	fattiga	_	_	_	_	_	_	
+8-11	304-312	familjer	_	_	_	_	_	_	
+8-12	312-313	.	_	_	_	_	_	_	
+
+#Text=Tre barn ger nu 53 760 kronor om året, skattefritt.
+9-1	314-317	Tre	_	_	_	_	_	_	
+9-2	318-322	barn	_	_	_	_	_	_	
+9-3	323-326	ger	_	_	_	_	_	_	
+9-4	327-329	nu	_	_	_	_	_	_	
+9-5	330-332	53	_	_	_	_	_	_	
+9-6	333-336	760	_	_	_	_	_	_	
+9-7	337-343	kronor	_	_	_	_	_	_	
+9-8	344-346	om	_	_	_	_	_	_	
+9-9	347-351	året	_	_	_	_	_	_	
+9-10	351-352	,	_	_	_	_	_	_	
+9-11	353-364	skattefritt	_	_	_	_	_	_	
+9-12	364-365	.	_	_	_	_	_	_	
+
+#Text=En familj med sex barn får 140 000 kronor om året.
+10-1	366-368	En	_	_	_	_	_	_	
+10-2	369-375	familj	_	_	_	_	_	_	
+10-3	376-379	med	_	_	_	_	_	_	
+10-4	380-383	sex	_	_	_	_	_	_	
+10-5	384-388	barn	_	_	_	_	_	_	
+10-6	389-392	får	_	_	_	_	_	_	
+10-7	393-396	140	_	_	_	_	_	_	
+10-8	397-400	000	_	_	_	_	_	_	
+10-9	401-407	kronor	_	_	_	_	_	_	
+10-10	408-410	om	_	_	_	_	_	_	
+10-11	411-415	året	_	_	_	_	_	_	
+10-12	415-416	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	418-419	#	_	_	_	_	_	_	
+11-2	419-420	P	_	_	_	_	_	_	
+11-3	421-424	IMM	_	_	_	_	_	_	
+11-4	424-425	.	_	_	_	_	_	_	
+
+#Text=De flesta familjer i Sverige har två barn, och även för dem är bidraget generöst.
+12-1	427-429	De	_	_	_	_	_	_	
+12-2	430-436	flesta	_	_	_	_	_	_	
+12-3	437-445	familjer	_	_	_	_	_	_	
+12-4	446-447	i	_	_	_	_	_	_	
+12-5	448-455	Sverige	_	_	_	_	_	_	
+12-6	456-459	har	_	_	_	_	_	_	
+12-7	460-463	två	_	_	_	_	_	_	
+12-8	464-468	barn	_	_	_	_	_	_	
+12-9	468-469	,	_	_	_	_	_	_	
+12-10	470-473	och	_	_	_	_	_	_	
+12-11	474-478	även	_	_	_	_	_	_	
+12-12	479-482	för	_	_	_	_	_	_	
+12-13	483-486	dem	_	_	_	_	_	_	
+12-14	487-489	är	_	_	_	_	_	_	
+12-15	490-498	bidraget	_	_	_	_	_	_	
+12-16	499-507	generöst	_	_	_	_	_	_	
+12-17	507-508	.	_	_	_	_	_	_	
+
+#Text=Som småbarnsmamman Lotta Lexén skrev i Expressen nyligen motsvarar det för hennes familj ett par utlandsresor om året, eller fem nya Iphones.
+13-1	509-512	Som	_	_	_	_	_	_	
+13-2	513-527	småbarnsmamman	_	_	_	_	_	_	
+13-3	528-533	Lotta	_	_	_	_	_	_	
+13-4	534-539	Lexén	_	_	_	_	_	_	
+13-5	540-545	skrev	_	_	_	_	_	_	
+13-6	546-547	i	_	_	_	_	_	_	
+13-7	548-557	Expressen	_	_	_	_	_	_	
+13-8	558-565	nyligen	_	_	_	_	_	_	
+13-9	566-575	motsvarar	_	_	_	_	_	_	
+13-10	576-579	det	_	_	_	_	_	_	
+13-11	580-583	för	_	_	_	_	_	_	
+13-12	584-590	hennes	_	_	_	_	_	_	
+13-13	591-597	familj	_	_	_	_	_	_	
+13-14	598-601	ett	_	_	_	_	_	_	
+13-15	602-605	par	_	_	_	_	_	_	
+13-16	606-618	utlandsresor	_	_	_	_	_	_	
+13-17	619-621	om	_	_	_	_	_	_	
+13-18	622-626	året	_	_	_	_	_	_	
+13-19	626-627	,	_	_	_	_	_	_	
+13-20	628-633	eller	_	_	_	_	_	_	
+13-21	634-637	fem	_	_	_	_	_	_	
+13-22	638-641	nya	_	_	_	_	_	_	
+13-23	642-649	Iphones	_	_	_	_	_	_	
+13-24	649-650	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	652-653	#	_	_	_	_	_	_	
+14-2	653-654	P	_	_	_	_	_	_	
+14-3	655-658	IMM	_	_	_	_	_	_	
+14-4	658-659	.	_	_	_	_	_	_	
+
+#Text=Barnbidraget är ovillkorat och betalas ut till alla föräldrar bosatta i Sverige.
+15-1	661-673	Barnbidraget	*	_	_	_	_	_	
+15-2	674-676	är	_	_	_	_	_	_	
+15-3	677-687	ovillkorat	_	_	_	_	_	_	
+15-4	688-691	och	_	_	_	_	_	_	
+15-5	692-699	betalas	_	_	_	_	_	_	
+15-6	700-702	ut	_	_	_	_	_	_	
+15-7	703-707	till	_	_	_	_	_	_	
+15-8	708-712	alla	_	_	_	_	_	_	
+15-9	713-722	föräldrar	_	_	_	_	_	_	
+15-10	723-730	bosatta	_	_	_	_	_	_	
+15-11	731-732	i	_	_	_	_	_	_	
+15-12	733-740	Sverige	_	_	_	_	_	_	
+15-13	740-741	.	_	_	_	_	_	_	
+
+#Text=Normalt sett ges det till och med det kvartal barnet fyller 16 år och de som sedan börjar på gymnasiet får samma belopp i studiehjälp.
+16-1	742-749	Normalt	_	_	_	_	_	_	
+16-2	750-754	sett	_	_	_	_	_	_	
+16-3	755-758	ges	_	_	_	_	_	_	
+16-4	759-762	det	_	_	_	_	_	_	
+16-5	763-767	till	_	_	_	_	_	_	
+16-6	768-771	och	_	_	_	_	_	_	
+16-7	772-775	med	_	_	_	_	_	_	
+16-8	776-779	det	_	_	_	_	_	_	
+16-9	780-787	kvartal	_	_	_	_	_	_	
+16-10	788-794	barnet	_	_	_	_	_	_	
+16-11	795-801	fyller	_	_	_	_	_	_	
+16-12	802-804	16	_	_	_	_	_	_	
+16-13	805-807	år	_	_	_	_	_	_	
+16-14	808-811	och	_	_	_	_	_	_	
+16-15	812-814	de	_	_	_	_	_	_	
+16-16	815-818	som	_	_	_	_	_	_	
+16-17	819-824	sedan	_	_	_	_	_	_	
+16-18	825-831	börjar	_	_	_	_	_	_	
+16-19	832-834	på	_	_	_	_	_	_	
+16-20	835-844	gymnasiet	_	_	_	_	_	_	
+16-21	845-848	får	_	_	_	_	_	_	
+16-22	849-854	samma	_	_	_	_	_	_	
+16-23	855-861	belopp	_	_	_	_	_	_	
+16-24	862-863	i	_	_	_	_	_	_	
+16-25	864-875	studiehjälp	_	_	_	_	_	_	
+16-26	875-876	.	_	_	_	_	_	_	
+
+#Text=För skattebetalarna är det väldigt dyrt: Nästa år beräknas kostnaden till hela 37 miljarder kronor, vilket är lika mycket som försörjningsstödet och a-kassan tillsammans.
+17-1	877-880	För	_	Target[2]	15-1	false[2]	2[2]	_	
+17-2	881-896	skattebetalarna	_	Target[2]	15-1	false[2]	2[2]	_	
+17-3	897-899	är	_	Target[2]	15-1	false[2]	2[2]	_	
+17-4	900-903	det	_	Target[2]	15-1	false[2]	2[2]	_	
+17-5	904-911	väldigt	_	Target[2]	15-1	false[2]	2[2]	_	
+17-6	912-916	dyrt	_	Target[2]	15-1	false[2]	2[2]	_	
+17-7	916-917	:	_	_	_	_	_	_	
+17-8	918-923	Nästa	_	_	_	_	_	_	
+17-9	924-926	år	_	_	_	_	_	_	
+17-10	927-935	beräknas	_	_	_	_	_	_	
+17-11	936-945	kostnaden	_	_	_	_	_	_	
+17-12	946-950	till	_	_	_	_	_	_	
+17-13	951-955	hela	_	_	_	_	_	_	
+17-14	956-958	37	_	_	_	_	_	_	
+17-15	959-968	miljarder	_	_	_	_	_	_	
+17-16	969-975	kronor	_	_	_	_	_	_	
+17-17	975-976	,	_	_	_	_	_	_	
+17-18	977-983	vilket	_	_	_	_	_	_	
+17-19	984-986	är	_	_	_	_	_	_	
+17-20	987-991	lika	_	_	_	_	_	_	
+17-21	992-998	mycket	_	_	_	_	_	_	
+17-22	999-1002	som	_	_	_	_	_	_	
+17-23	1003-1021	försörjningsstödet	_	_	_	_	_	_	
+17-24	1022-1025	och	_	_	_	_	_	_	
+17-25	1026-1034	a-kassan	_	_	_	_	_	_	
+17-26	1035-1046	tillsammans	_	_	_	_	_	_	
+17-27	1046-1047	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1049-1050	#	_	_	_	_	_	_	
+18-2	1050-1051	P	_	_	_	_	_	_	
+18-3	1052-1055	IMM	_	_	_	_	_	_	
+18-4	1055-1056	.	_	_	_	_	_	_	
+
+#Text=Det påstås ofta att barnbidraget gynnar de minst bemedlade familjerna, och att det omfördelar inkomst över livscykeln.
+19-1	1058-1061	Det	*[11]	_	_	_	_	_	
+19-2	1062-1068	påstås	*[11]	_	_	_	_	_	
+19-3	1069-1073	ofta	*[11]	_	_	_	_	_	
+19-4	1074-1077	att	*[11]	_	_	_	_	_	
+19-5	1078-1090	barnbidraget	*[11]	_	_	_	_	_	
+19-6	1091-1097	gynnar	*[11]	_	_	_	_	_	
+19-7	1098-1100	de	*[11]	_	_	_	_	_	
+19-8	1101-1106	minst	*[11]	_	_	_	_	_	
+19-9	1107-1116	bemedlade	*[11]	_	_	_	_	_	
+19-10	1117-1127	familjerna	*[11]	_	_	_	_	_	
+19-11	1127-1128	,	*[11]	_	_	_	_	_	
+19-12	1129-1132	och	*[11]	_	_	_	_	_	
+19-13	1133-1136	att	*[11]	_	_	_	_	_	
+19-14	1137-1140	det	*[11]	_	_	_	_	_	
+19-15	1141-1151	omfördelar	*[11]	_	_	_	_	_	
+19-16	1152-1159	inkomst	*[11]	_	_	_	_	_	
+19-17	1160-1164	över	*[11]	_	_	_	_	_	
+19-18	1165-1175	livscykeln	*[11]	_	_	_	_	_	
+19-19	1175-1176	.	_	_	_	_	_	_	
+
+#Text=Det är inte sant.
+20-1	1177-1180	Det	_	Target[3]	19-1[11]	false[3]	2[3]	_	
+20-2	1181-1183	är	_	Target[3]	19-1[11]	false[3]	2[3]	_	
+20-3	1184-1188	inte	_	Target[3]	19-1[11]	false[3]	2[3]	_	
+20-4	1189-1193	sant	_	Target[3]	19-1[11]	false[3]	2[3]	_	
+20-5	1193-1194	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1196-1197	#	_	_	_	_	_	_	
+21-2	1197-1198	P	_	_	_	_	_	_	
+21-3	1199-1202	IMM	_	_	_	_	_	_	
+21-4	1202-1203	.	_	_	_	_	_	_	
+
+#Text=För personer som aldrig får barn är systemet uppenbart en förlustaffär eftersom de aldrig får valuta för pengarna de betalar in i skatt för att finansiera bidraget.
+22-1	1205-1208	För	_	_	_	_	_	_	
+22-2	1209-1217	personer	_	_	_	_	_	_	
+22-3	1218-1221	som	_	_	_	_	_	_	
+22-4	1222-1228	aldrig	_	_	_	_	_	_	
+22-5	1229-1232	får	_	_	_	_	_	_	
+22-6	1233-1237	barn	_	_	_	_	_	_	
+22-7	1238-1240	är	_	_	_	_	_	_	
+22-8	1241-1249	systemet	_	_	_	_	_	_	
+22-9	1250-1259	uppenbart	_	_	_	_	_	_	
+22-10	1260-1262	en	_	_	_	_	_	_	
+22-11	1263-1275	förlustaffär	_	_	_	_	_	_	
+22-12	1276-1284	eftersom	_	_	_	_	_	_	
+22-13	1285-1287	de	_	_	_	_	_	_	
+22-14	1288-1294	aldrig	_	_	_	_	_	_	
+22-15	1295-1298	får	_	_	_	_	_	_	
+22-16	1299-1305	valuta	_	_	_	_	_	_	
+22-17	1306-1309	för	_	_	_	_	_	_	
+22-18	1310-1318	pengarna	_	_	_	_	_	_	
+22-19	1319-1321	de	_	_	_	_	_	_	
+22-20	1322-1329	betalar	_	_	_	_	_	_	
+22-21	1330-1332	in	_	_	_	_	_	_	
+22-22	1333-1334	i	_	_	_	_	_	_	
+22-23	1335-1340	skatt	_	_	_	_	_	_	
+22-24	1341-1344	för	_	_	_	_	_	_	
+22-25	1345-1348	att	_	_	_	_	_	_	
+22-26	1349-1359	finansiera	_	_	_	_	_	_	
+22-27	1360-1368	bidraget	_	_	_	_	_	_	
+22-28	1368-1369	.	_	_	_	_	_	_	
+
+#Text=Dessutom har familjer med barn relativt höga inkomster jämfört med barnlösa, vilket späder på orättvisan ytterligare.
+23-1	1370-1378	Dessutom	*[12]	_	_	_	_	_	
+23-2	1379-1382	har	*[12]	_	_	_	_	_	
+23-3	1383-1391	familjer	*[12]	_	_	_	_	_	
+23-4	1392-1395	med	*[12]	_	_	_	_	_	
+23-5	1396-1400	barn	*[12]	_	_	_	_	_	
+23-6	1401-1409	relativt	*[12]	_	_	_	_	_	
+23-7	1410-1414	höga	*[12]	_	_	_	_	_	
+23-8	1415-1424	inkomster	*[12]	_	_	_	_	_	
+23-9	1425-1432	jämfört	*[12]	_	_	_	_	_	
+23-10	1433-1436	med	*[12]	_	_	_	_	_	
+23-11	1437-1445	barnlösa	*[12]	_	_	_	_	_	
+23-12	1445-1446	,	_	_	_	_	_	_	
+23-13	1447-1453	vilket	_	_	_	_	_	_	
+23-14	1454-1460	späder	_	Target[4]	23-1[12]	false[4]	2[4]	_	
+23-15	1461-1463	på	_	Target[4]	23-1[12]	false[4]	2[4]	_	
+23-16	1464-1474	orättvisan	_	Target[4]	23-1[12]	false[4]	2[4]	_	
+23-17	1475-1486	ytterligare	_	Target[4]	23-1[12]	false[4]	2[4]	_	
+23-18	1486-1487	.	_	_	_	_	_	_	
+
+#Text=Det är också tydligt att familjers inkomst är högre ju fler barn de har.
+24-1	1488-1491	Det	_	_	_	_	_	_	
+24-2	1492-1494	är	_	_	_	_	_	_	
+24-3	1495-1500	också	_	_	_	_	_	_	
+24-4	1501-1508	tydligt	_	_	_	_	_	_	
+24-5	1509-1512	att	_	_	_	_	_	_	
+24-6	1513-1522	familjers	_	_	_	_	_	_	
+24-7	1523-1530	inkomst	_	_	_	_	_	_	
+24-8	1531-1533	är	_	_	_	_	_	_	
+24-9	1534-1539	högre	_	_	_	_	_	_	
+24-10	1540-1542	ju	_	_	_	_	_	_	
+24-11	1543-1547	fler	_	_	_	_	_	_	
+24-12	1548-1552	barn	_	_	_	_	_	_	
+24-13	1553-1555	de	_	_	_	_	_	_	
+24-14	1556-1559	har	_	_	_	_	_	_	
+24-15	1559-1560	.	_	_	_	_	_	_	
+
+#Text=Fattiga familjer och barnlösa betalar alltså för rikare familjers barnbidrag.
+25-1	1561-1568	Fattiga	_	_	_	_	_	_	
+25-2	1569-1577	familjer	_	_	_	_	_	_	
+25-3	1578-1581	och	_	_	_	_	_	_	
+25-4	1582-1590	barnlösa	_	_	_	_	_	_	
+25-5	1591-1598	betalar	_	_	_	_	_	_	
+25-6	1599-1605	alltså	_	_	_	_	_	_	
+25-7	1606-1609	för	_	_	_	_	_	_	
+25-8	1610-1616	rikare	_	_	_	_	_	_	
+25-9	1617-1626	familjers	_	_	_	_	_	_	
+25-10	1627-1637	barnbidrag	_	_	_	_	_	_	
+25-11	1637-1638	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1640-1641	#	_	_	_	_	_	_	
+26-2	1641-1642	P	_	_	_	_	_	_	
+26-3	1643-1646	IMM	_	_	_	_	_	_	
+26-4	1646-1647	.	_	_	_	_	_	_	
+
+#Text=Att pengar först ska betalas in i skatt och sedan återbetalas genom Försäkringskassan är också ett rent slöseri med skattepengar.
+27-1	1649-1652	Att	*[13]	_	_	_	_	_	
+27-2	1653-1659	pengar	*[13]	_	_	_	_	_	
+27-3	1660-1665	först	*[13]	_	_	_	_	_	
+27-4	1666-1669	ska	*[13]	_	_	_	_	_	
+27-5	1670-1677	betalas	*[13]	_	_	_	_	_	
+27-6	1678-1680	in	*[13]	_	_	_	_	_	
+27-7	1681-1682	i	*[13]	_	_	_	_	_	
+27-8	1683-1688	skatt	*[13]	_	_	_	_	_	
+27-9	1689-1692	och	*[13]	_	_	_	_	_	
+27-10	1693-1698	sedan	*[13]	_	_	_	_	_	
+27-11	1699-1710	återbetalas	*[13]	_	_	_	_	_	
+27-12	1711-1716	genom	*[13]	_	_	_	_	_	
+27-13	1717-1734	Försäkringskassan	*[13]	_	_	_	_	_	
+27-14	1735-1737	är	_	_	_	false	2	_	
+27-15	1738-1743	också	_	_	_	_	_	_	
+27-16	1744-1747	ett	_	Target[5]	27-1[13]	false[5]	2[5]	27-14[0_5]	
+27-17	1748-1752	rent	_	Target[5]	27-1[13]	false[5]	2[5]	_	
+27-18	1753-1760	slöseri	_	Target[5]	27-1[13]	false[5]	2[5]	_	
+27-19	1761-1764	med	_	Target[5]	27-1[13]	false[5]	2[5]	_	
+27-20	1765-1777	skattepengar	_	Target[5]	27-1[13]	false[5]	2[5]	_	
+27-21	1777-1778	.	_	_	_	_	_	_	
+
+#Text=Det skapar byråkrati och driver upp skadliga marginalskatter.
+28-1	1779-1782	Det	*	_	_	_	_	_	
+28-2	1783-1789	skapar	_	Target[6]	28-1	false[6]	2[6]	_	
+28-3	1790-1799	byråkrati	_	Target[6]	28-1	false[6]	2[6]	_	
+28-4	1800-1803	och	_	Target[6]	28-1	false[6]	2[6]	_	
+28-5	1804-1810	driver	_	Target[6]	28-1	false[6]	2[6]	_	
+28-6	1811-1814	upp	_	Target[6]	28-1	false[6]	2[6]	_	
+28-7	1815-1823	skadliga	_	Target[6]	28-1	false[6]	2[6]	_	
+28-8	1824-1839	marginalskatter	_	Target[6]	28-1	false[6]	2[6]	_	
+28-9	1839-1840	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1842-1843	#	_	_	_	_	_	_	
+29-2	1843-1844	P	_	_	_	_	_	_	
+29-3	1845-1848	IMM	_	_	_	_	_	_	
+29-4	1848-1849	.	_	_	_	_	_	_	
+
+#Text=I en ny rapport föreslår vi att barnbidraget och studiehjälpen avskaffas helt och att andra bidrag höjs med motsvarande belopp för familjer som har det svårt.
+30-1	1851-1852	I	_	_	_	_	_	_	
+30-2	1853-1855	en	_	_	_	_	_	_	
+30-3	1856-1858	ny	_	_	_	_	_	_	
+30-4	1859-1866	rapport	_	_	_	_	_	_	
+30-5	1867-1875	föreslår	_	_	_	_	_	_	
+30-6	1876-1878	vi	_	_	_	_	_	_	
+30-7	1879-1882	att	_	_	_	_	_	_	
+30-8	1883-1895	barnbidraget	_	_	_	_	_	_	
+30-9	1896-1899	och	_	_	_	_	_	_	
+30-10	1900-1913	studiehjälpen	_	_	_	_	_	_	
+30-11	1914-1923	avskaffas	_	_	_	_	_	_	
+30-12	1924-1928	helt	_	_	_	_	_	_	
+30-13	1929-1932	och	_	_	_	_	_	_	
+30-14	1933-1936	att	_	_	_	_	_	_	
+30-15	1937-1942	andra	_	_	_	_	_	_	
+30-16	1943-1949	bidrag	_	_	_	_	_	_	
+30-17	1950-1954	höjs	_	_	_	_	_	_	
+30-18	1955-1958	med	_	_	_	_	_	_	
+30-19	1959-1970	motsvarande	_	_	_	_	_	_	
+30-20	1971-1977	belopp	_	_	_	_	_	_	
+30-21	1978-1981	för	_	_	_	_	_	_	
+30-22	1982-1990	familjer	_	_	_	_	_	_	
+30-23	1991-1994	som	_	_	_	_	_	_	
+30-24	1995-1998	har	_	_	_	_	_	_	
+30-25	1999-2002	det	_	_	_	_	_	_	
+30-26	2003-2008	svårt	_	_	_	_	_	_	
+30-27	2008-2009	.	_	_	_	_	_	_	
+
+#Text=Redan i dag skulle försörjningsstödet automatiskt kompensera bortfallet i inkomst för de allra mest utsatta.
+31-1	2010-2015	Redan	_	_	_	_	_	_	
+31-2	2016-2017	i	_	_	_	_	_	_	
+31-3	2018-2021	dag	_	_	_	_	_	_	
+31-4	2022-2028	skulle	_	_	_	_	_	_	
+31-5	2029-2047	försörjningsstödet	_	_	_	_	_	_	
+31-6	2048-2059	automatiskt	_	_	_	_	_	_	
+31-7	2060-2070	kompensera	_	_	_	_	_	_	
+31-8	2071-2081	bortfallet	_	_	_	_	_	_	
+31-9	2082-2083	i	_	_	_	_	_	_	
+31-10	2084-2091	inkomst	_	_	_	_	_	_	
+31-11	2092-2095	för	_	_	_	_	_	_	
+31-12	2096-2098	de	_	_	_	_	_	_	
+31-13	2099-2104	allra	_	_	_	_	_	_	
+31-14	2105-2109	mest	_	_	_	_	_	_	
+31-15	2110-2117	utsatta	_	_	_	_	_	_	
+31-16	2117-2118	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2120-2121	#	_	_	_	_	_	_	
+32-2	2121-2122	P	_	_	_	_	_	_	
+32-3	2123-2126	IMM	_	_	_	_	_	_	
+32-4	2126-2127	.	_	_	_	_	_	_	
+
+#Text=För att ersätta de som lever på andra bidrag än försörjningsstödet, eller har en låg inkomst men barn att försörja, kan bostadsbidraget höjas genom att det särskilda bidraget för hemmavarande barn höjs med 1 250 kronor per barn för ett till tre barn och att avräkningen ökas från 20 till 25 procent.
+33-1	2129-2132	För	_	_	_	_	_	_	
+33-2	2133-2136	att	_	_	_	_	_	_	
+33-3	2137-2144	ersätta	_	_	_	_	_	_	
+33-4	2145-2147	de	_	_	_	_	_	_	
+33-5	2148-2151	som	_	_	_	_	_	_	
+33-6	2152-2157	lever	_	_	_	_	_	_	
+33-7	2158-2160	på	_	_	_	_	_	_	
+33-8	2161-2166	andra	_	_	_	_	_	_	
+33-9	2167-2173	bidrag	_	_	_	_	_	_	
+33-10	2174-2176	än	_	_	_	_	_	_	
+33-11	2177-2195	försörjningsstödet	_	_	_	_	_	_	
+33-12	2195-2196	,	_	_	_	_	_	_	
+33-13	2197-2202	eller	_	_	_	_	_	_	
+33-14	2203-2206	har	_	_	_	_	_	_	
+33-15	2207-2209	en	_	_	_	_	_	_	
+33-16	2210-2213	låg	_	_	_	_	_	_	
+33-17	2214-2221	inkomst	_	_	_	_	_	_	
+33-18	2222-2225	men	_	_	_	_	_	_	
+33-19	2226-2230	barn	_	_	_	_	_	_	
+33-20	2231-2234	att	_	_	_	_	_	_	
+33-21	2235-2243	försörja	_	_	_	_	_	_	
+33-22	2243-2244	,	_	_	_	_	_	_	
+33-23	2245-2248	kan	_	_	_	_	_	_	
+33-24	2249-2264	bostadsbidraget	_	_	_	_	_	_	
+33-25	2265-2270	höjas	_	_	_	_	_	_	
+33-26	2271-2276	genom	_	_	_	_	_	_	
+33-27	2277-2280	att	_	_	_	_	_	_	
+33-28	2281-2284	det	_	_	_	_	_	_	
+33-29	2285-2294	särskilda	_	_	_	_	_	_	
+33-30	2295-2303	bidraget	_	_	_	_	_	_	
+33-31	2304-2307	för	_	_	_	_	_	_	
+33-32	2308-2320	hemmavarande	_	_	_	_	_	_	
+33-33	2321-2325	barn	_	_	_	_	_	_	
+33-34	2326-2330	höjs	_	_	_	_	_	_	
+33-35	2331-2334	med	_	_	_	_	_	_	
+33-36	2335-2336	1	_	_	_	_	_	_	
+33-37	2337-2340	250	_	_	_	_	_	_	
+33-38	2341-2347	kronor	_	_	_	_	_	_	
+33-39	2348-2351	per	_	_	_	_	_	_	
+33-40	2352-2356	barn	_	_	_	_	_	_	
+33-41	2357-2360	för	_	_	_	_	_	_	
+33-42	2361-2364	ett	_	_	_	_	_	_	
+33-43	2365-2369	till	_	_	_	_	_	_	
+33-44	2370-2373	tre	_	_	_	_	_	_	
+33-45	2374-2378	barn	_	_	_	_	_	_	
+33-46	2379-2382	och	_	_	_	_	_	_	
+33-47	2383-2386	att	_	_	_	_	_	_	
+33-48	2387-2398	avräkningen	_	_	_	_	_	_	
+33-49	2399-2403	ökas	_	_	_	_	_	_	
+33-50	2404-2408	från	_	_	_	_	_	_	
+33-51	2409-2411	20	_	_	_	_	_	_	
+33-52	2412-2416	till	_	_	_	_	_	_	
+33-53	2417-2419	25	_	_	_	_	_	_	
+33-54	2420-2427	procent	_	_	_	_	_	_	
+33-55	2427-2428	.	_	_	_	_	_	_	
+
+#Text=Det skulle öka träffsäkerheten mot fattiga familjer avsevärt.
+34-1	2429-2432	Det	*	_	_	_	_	_	
+34-2	2433-2439	skulle	_	Target[7]	34-1	false[7]	4[7]	_	
+34-3	2440-2443	öka	_	Target[7]	34-1	false[7]	4[7]	_	
+34-4	2444-2459	träffsäkerheten	_	Target[7]	34-1	false[7]	4[7]	_	
+34-5	2460-2463	mot	_	Target[7]	34-1	false[7]	4[7]	_	
+34-6	2464-2471	fattiga	_	Target[7]	34-1	false[7]	4[7]	_	
+34-7	2472-2480	familjer	_	Target[7]	34-1	false[7]	4[7]	_	
+34-8	2481-2489	avsevärt	_	Target[7]	34-1	false[7]	4[7]	_	
+34-9	2489-2490	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2492-2493	#	_	_	_	_	_	_	
+35-2	2493-2494	P	_	_	_	_	_	_	
+35-3	2495-2498	IMM	_	_	_	_	_	_	
+35-4	2498-2499	.	_	_	_	_	_	_	
+
+#Text=Reformen skulle spara 32 miljarder skattekronor årligen.
+36-1	2501-2509	Reformen	*	_	_	_	_	_	
+36-2	2510-2516	skulle	_	Target[8]	36-1	false[8]	4[8]	_	
+36-3	2517-2522	spara	_	Target[8]	36-1	false[8]	4[8]	_	
+36-4	2523-2525	32	_	Target[8]	36-1	false[8]	4[8]	_	
+36-5	2526-2535	miljarder	_	Target[8]	36-1	false[8]	4[8]	_	
+36-6	2536-2548	skattekronor	_	Target[8]	36-1	false[8]	4[8]	_	
+36-7	2549-2556	årligen	_	Target[8]	36-1	false[8]	4[8]	_	
+36-8	2556-2557	.	_	_	_	_	_	_	
+
+#Text=För de pengarna skulle exempelvis kommunalskatten kunna sänkas med två procentenheter, vilket för en genomsnittlig heltidsarbetande motsvarar runt 5 700 kronor per år.
+37-1	2558-2561	För	_	_	_	_	_	_	
+37-2	2562-2564	de	_	_	_	_	_	_	
+37-3	2565-2573	pengarna	_	_	_	_	_	_	
+37-4	2574-2580	skulle	_	_	_	_	_	_	
+37-5	2581-2591	exempelvis	_	_	_	_	_	_	
+37-6	2592-2607	kommunalskatten	_	_	_	_	_	_	
+37-7	2608-2613	kunna	_	_	_	_	_	_	
+37-8	2614-2620	sänkas	_	_	_	_	_	_	
+37-9	2621-2624	med	_	_	_	_	_	_	
+37-10	2625-2628	två	_	_	_	_	_	_	
+37-11	2629-2643	procentenheter	_	_	_	_	_	_	
+37-12	2643-2644	,	_	_	_	_	_	_	
+37-13	2645-2651	vilket	_	_	_	_	_	_	
+37-14	2652-2655	för	_	_	_	_	_	_	
+37-15	2656-2658	en	_	_	_	_	_	_	
+37-16	2659-2672	genomsnittlig	_	_	_	_	_	_	
+37-17	2673-2689	heltidsarbetande	_	_	_	_	_	_	
+37-18	2690-2699	motsvarar	_	_	_	_	_	_	
+37-19	2700-2704	runt	_	_	_	_	_	_	
+37-20	2705-2706	5	_	_	_	_	_	_	
+37-21	2707-2710	700	_	_	_	_	_	_	
+37-22	2711-2717	kronor	_	_	_	_	_	_	
+37-23	2718-2721	per	_	_	_	_	_	_	
+37-24	2722-2724	år	_	_	_	_	_	_	
+37-25	2724-2725	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2727-2728	#	_	_	_	_	_	_	
+38-2	2728-2729	P	_	_	_	_	_	_	
+38-3	2730-2733	IMM	_	_	_	_	_	_	
+38-4	2733-2734	.	_	_	_	_	_	_	
+
+#Text=Sverige behöver fundera på hur kostnaderna för välfärden ska prioriteras och finansieras.
+39-1	2736-2743	Sverige	_	_	_	_	_	_	
+39-2	2744-2751	behöver	_	_	_	_	_	_	
+39-3	2752-2759	fundera	_	_	_	_	_	_	
+39-4	2760-2762	på	_	_	_	_	_	_	
+39-5	2763-2766	hur	_	_	_	_	_	_	
+39-6	2767-2778	kostnaderna	_	_	_	_	_	_	
+39-7	2779-2782	för	_	_	_	_	_	_	
+39-8	2783-2792	välfärden	_	_	_	_	_	_	
+39-9	2793-2796	ska	_	_	_	_	_	_	
+39-10	2797-2808	prioriteras	_	_	_	_	_	_	
+39-11	2809-2812	och	_	_	_	_	_	_	
+39-12	2813-2824	finansieras	_	_	_	_	_	_	
+39-13	2824-2825	.	_	_	_	_	_	_	
+
+#Text=Bidrag bör endast betalas ut till dem som verkligen behöver ekonomiskt hjälp för att klara sig.
+40-1	2826-2832	Bidrag	_	_	_	_	_	_	
+40-2	2833-2836	bör	_	_	_	_	_	_	
+40-3	2837-2843	endast	_	_	_	_	_	_	
+40-4	2844-2851	betalas	_	_	_	_	_	_	
+40-5	2852-2854	ut	_	_	_	_	_	_	
+40-6	2855-2859	till	_	_	_	_	_	_	
+40-7	2860-2863	dem	_	_	_	_	_	_	
+40-8	2864-2867	som	_	_	_	_	_	_	
+40-9	2868-2877	verkligen	_	_	_	_	_	_	
+40-10	2878-2885	behöver	_	_	_	_	_	_	
+40-11	2886-2896	ekonomiskt	_	_	_	_	_	_	
+40-12	2897-2902	hjälp	_	_	_	_	_	_	
+40-13	2903-2906	för	_	_	_	_	_	_	
+40-14	2907-2910	att	_	_	_	_	_	_	
+40-15	2911-2916	klara	_	_	_	_	_	_	
+40-16	2917-2920	sig	_	_	_	_	_	_	
+40-17	2920-2921	.	_	_	_	_	_	_	
+
+#Text=De ska inte vara ett sätt för staten att blidka privilegierade grupper i samhället, på bekostnad av de som har det svårt.
+41-1	2922-2924	De	_	_	_	_	_	_	
+41-2	2925-2928	ska	_	_	_	_	_	_	
+41-3	2929-2933	inte	_	_	_	_	_	_	
+41-4	2934-2938	vara	_	_	_	_	_	_	
+41-5	2939-2942	ett	_	_	_	_	_	_	
+41-6	2943-2947	sätt	_	_	_	_	_	_	
+41-7	2948-2951	för	_	_	_	_	_	_	
+41-8	2952-2958	staten	_	_	_	_	_	_	
+41-9	2959-2962	att	_	_	_	_	_	_	
+41-10	2963-2969	blidka	_	_	_	_	_	_	
+41-11	2970-2984	privilegierade	_	_	_	_	_	_	
+41-12	2985-2992	grupper	_	_	_	_	_	_	
+41-13	2993-2994	i	_	_	_	_	_	_	
+41-14	2995-3004	samhället	_	_	_	_	_	_	
+41-15	3004-3005	,	_	_	_	_	_	_	
+41-16	3006-3008	på	_	_	_	_	_	_	
+41-17	3009-3018	bekostnad	_	_	_	_	_	_	
+41-18	3019-3021	av	_	_	_	_	_	_	
+41-19	3022-3024	de	_	_	_	_	_	_	
+41-20	3025-3028	som	_	_	_	_	_	_	
+41-21	3029-3032	har	_	_	_	_	_	_	
+41-22	3033-3036	det	_	_	_	_	_	_	
+41-23	3037-3042	svårt	_	_	_	_	_	_	
+41-24	3042-3043	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3045-3046	#	_	_	_	_	_	_	
+42-2	3046-3047	P	_	_	_	_	_	_	
+42-3	3048-3051	IMM	_	_	_	_	_	_	
+42-4	3051-3052	.	_	_	_	_	_	_	
+
+#Text=Allianspartierna har tyvärr accepterat höjningen av barnbidraget i sina budgetmotioner, trots att de generellt kritiserar bidrag till dem som inte behöver.
+43-1	3054-3070	Allianspartierna	*	_	_	_	_	_	
+43-2	3071-3074	har	_	_	_	_	_	_	
+43-3	3075-3081	tyvärr	_	_	_	_	_	_	
+43-4	3082-3092	accepterat	_	_	_	_	_	_	
+43-5	3093-3102	höjningen	_	_	_	_	_	_	
+43-6	3103-3105	av	_	_	_	_	_	_	
+43-7	3106-3118	barnbidraget	_	_	_	_	_	_	
+43-8	3119-3120	i	_	_	_	_	_	_	
+43-9	3121-3125	sina	_	_	_	_	_	_	
+43-10	3126-3140	budgetmotioner	_	_	_	_	_	_	
+43-11	3140-3141	,	_	_	_	_	_	_	
+43-12	3142-3147	trots	_	_	_	_	_	_	
+43-13	3148-3151	att	_	_	_	_	_	_	
+43-14	3152-3154	de	_	_	_	_	_	_	
+43-15	3155-3164	generellt	_	_	_	_	_	_	
+43-16	3165-3175	kritiserar	_	Target;Source	43-17[14];43-1	false	2	_	
+43-17	3176-3182	bidrag	*[14]	_	_	_	_	_	
+43-18	3183-3187	till	*[14]	_	_	_	_	_	
+43-19	3188-3191	dem	*[14]	_	_	_	_	_	
+43-20	3192-3195	som	*[14]	_	_	_	_	_	
+43-21	3196-3200	inte	*[14]	_	_	_	_	_	
+43-22	3201-3208	behöver	*[14]	_	_	_	_	_	
+43-23	3208-3209	.	_	_	_	_	_	_	
+
+#Text=Det är inkonsekvent av de borgerliga partierna, som även borde motsätta sig allmänna lyxbidrag till välbärgade familjer.
+44-1	3210-3213	Det	_	_	_	_	_	_	
+44-2	3214-3216	är	_	Target[9]	44-5[15]	false[9]	2[9]	_	
+44-3	3217-3229	inkonsekvent	_	Target[9]	44-5[15]	false[9]	2[9]	_	
+44-4	3230-3232	av	_	_	_	_	_	_	
+44-5	3233-3235	de	*[15]	_	_	_	_	_	
+44-6	3236-3246	borgerliga	*[15]	_	_	_	_	_	
+44-7	3247-3256	partierna	*[15]	_	_	_	_	_	
+44-8	3256-3257	,	_	_	_	_	_	_	
+44-9	3258-3261	som	_	_	_	_	_	_	
+44-10	3262-3266	även	_	_	_	_	_	_	
+44-11	3267-3272	borde	_	_	_	_	_	_	
+44-12	3273-3281	motsätta	_	_	_	_	_	_	
+44-13	3282-3285	sig	_	_	_	_	_	_	
+44-14	3286-3294	allmänna	_	_	_	_	_	_	
+44-15	3295-3304	lyxbidrag	_	_	_	_	_	_	
+44-16	3305-3309	till	_	_	_	_	_	_	
+44-17	3310-3320	välbärgade	_	_	_	_	_	_	
+44-18	3321-3329	familjer	_	_	_	_	_	_	
+44-19	3329-3330	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3332-3333	#	_	_	_	_	_	_	
+45-2	3333-3334	P	_	_	_	_	_	_	
+45-3	3335-3338	IMM	_	_	_	_	_	_	
+45-4	3338-3339	.	_	_	_	_	_	_	
+
+#Text=Isak Kupersmidt, doktorand i nationalekonomi vid Handelshögskolan i Stockholm och författare till rapportenSiri Steijer, programansvarig för arbetsmarknadsfrågor på Timbro.
+46-1	3341-3345	Isak	_	_	_	_	_	_	
+46-2	3346-3356	Kupersmidt	_	_	_	_	_	_	
+46-3	3356-3357	,	_	_	_	_	_	_	
+46-4	3358-3367	doktorand	_	_	_	_	_	_	
+46-5	3368-3369	i	_	_	_	_	_	_	
+46-6	3370-3385	nationalekonomi	_	_	_	_	_	_	
+46-7	3386-3389	vid	_	_	_	_	_	_	
+46-8	3390-3406	Handelshögskolan	_	_	_	_	_	_	
+46-9	3407-3408	i	_	_	_	_	_	_	
+46-10	3409-3418	Stockholm	_	_	_	_	_	_	
+46-11	3419-3422	och	_	_	_	_	_	_	
+46-12	3423-3433	författare	_	_	_	_	_	_	
+46-13	3434-3438	till	_	_	_	_	_	_	
+46-14	3439-3452	rapportenSiri	_	_	_	_	_	_	
+46-15	3453-3460	Steijer	_	_	_	_	_	_	
+46-16	3460-3461	,	_	_	_	_	_	_	
+46-17	3462-3477	programansvarig	_	_	_	_	_	_	
+46-18	3478-3481	för	_	_	_	_	_	_	
+46-19	3482-3502	arbetsmarknadsfrågor	_	_	_	_	_	_	
+46-20	3503-3505	på	_	_	_	_	_	_	
+46-21	3506-3512	Timbro	_	_	_	_	_	_	
+46-22	3512-3513	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3515-3516	#	_	_	_	_	_	_	
+47-2	3516-3517	P	_	_	_	_	_	_	
+47-3	3518-3521	IMM	_	_	_	_	_	_	
+47-4	3521-3522	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – gilla  Debatt på Facebook.
+48-1	3524-3528	Häng	_	_	_	_	_	_	
+48-2	3529-3532	med	_	_	_	_	_	_	
+48-3	3533-3534	i	_	_	_	_	_	_	
+48-4	3535-3543	debatten	_	_	_	_	_	_	
+48-5	3544-3547	och	_	_	_	_	_	_	
+48-6	3548-3558	kommentera	_	_	_	_	_	_	
+48-7	3559-3567	artikeln	_	_	_	_	_	_	
+48-8	3568-3569	–	_	_	_	_	_	_	
+48-9	3570-3575	gilla	_	_	_	_	_	_	
+48-10	3577-3583	Debatt	_	_	_	_	_	_	
+48-11	3584-3586	på	_	_	_	_	_	_	
+48-12	3587-3595	Facebook	_	_	_	_	_	_	
+48-13	3595-3596	.	_	_	_	_	_	_	

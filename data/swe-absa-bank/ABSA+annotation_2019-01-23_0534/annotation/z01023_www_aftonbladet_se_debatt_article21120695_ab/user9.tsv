@@ -1,0 +1,773 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=C måste stå upp mot Björklunds skolpolitik.
+3-1	18-19	C	_	_	_	_	_	_	_	
+3-2	20-25	måste	_	_	_	_	_	_	_	
+3-3	26-29	stå	_	_	_	_	_	_	_	
+3-4	30-33	upp	_	_	_	_	_	_	_	
+3-5	34-37	mot	_	_	_	_	_	_	_	
+3-6	38-48	Björklunds	_	_	_	_	_	_	_	
+3-7	49-60	skolpolitik	_	_	_	_	_	_	_	
+3-8	60-61	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen genomförde alldeles för få och för dåliga reformer för skolan.
+5-1	72-81	Alliansen	*	_	_	_	_	_	_	
+5-2	82-92	genomförde	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-3	93-101	alldeles	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-4	102-105	för	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-5	106-108	få	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-6	109-112	och	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-7	113-116	för	_	Target[1]|Target[2]	5-1|5-9	false[1]|false[2]	2[1]|2[2]	_	_	
+5-8	117-123	dåliga	_	Target[1]|Target[2]	5-1|5-9	false[1]|false[2]	2[1]|2[2]	_	_	
+5-9	124-132	reformer	*	Target[1]	5-1	false[1]	2[1]	_	_	
+5-10	133-136	för	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-11	137-143	skolan	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-12	143-144	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet gav vika i en av framtidens viktigaste frågor och gav fritt utrymme för Folkpartiets konservativa och bakåtsträvande utbildningspolitik.
+6-1	145-158	Centerpartiet	_	_	_	_	_	_	_	
+6-2	159-162	gav	_	_	_	_	_	_	_	
+6-3	163-167	vika	_	_	_	_	_	_	_	
+6-4	168-169	i	_	_	_	_	_	_	_	
+6-5	170-172	en	_	_	_	_	_	_	_	
+6-6	173-175	av	_	_	_	_	_	_	_	
+6-7	176-186	framtidens	_	_	_	_	_	_	_	
+6-8	187-197	viktigaste	_	_	_	_	_	_	_	
+6-9	198-204	frågor	_	_	_	_	_	_	_	
+6-10	205-208	och	_	_	_	_	_	_	_	
+6-11	209-212	gav	_	_	_	_	_	_	_	
+6-12	213-218	fritt	_	_	_	_	_	_	_	
+6-13	219-226	utrymme	_	_	_	_	_	_	_	
+6-14	227-230	för	_	_	_	_	_	_	_	
+6-15	231-243	Folkpartiets	_	_	_	_	_	_	_	
+6-16	244-256	konservativa	_	_	_	_	_	_	_	
+6-17	257-260	och	_	_	_	_	_	_	_	
+6-18	261-275	bakåtsträvande	_	Target	6-19	false	2	_	_	
+6-19	276-294	utbildningspolitik	*	_	_	_	_	_	_	
+6-20	294-295	.	_	_	_	_	_	_	_	
+
+#Text=Nu krävs att Centerpartiet under höstens partistämma tar stora kliv mot en mer frihetlig och individanpassad skola.
+7-1	296-298	Nu	_	_	_	_	_	_	_	
+7-2	299-304	krävs	_	_	_	_	_	_	_	
+7-3	305-308	att	_	_	_	_	_	_	_	
+7-4	309-322	Centerpartiet	_	_	_	_	_	_	_	
+7-5	323-328	under	_	_	_	_	_	_	_	
+7-6	329-336	höstens	_	_	_	_	_	_	_	
+7-7	337-348	partistämma	_	_	_	_	_	_	_	
+7-8	349-352	tar	_	_	_	_	_	_	_	
+7-9	353-358	stora	_	_	_	_	_	_	_	
+7-10	359-363	kliv	_	_	_	_	_	_	_	
+7-11	364-367	mot	_	_	_	_	_	_	_	
+7-12	368-370	en	_	_	_	_	_	_	_	
+7-13	371-374	mer	_	_	_	_	_	_	_	
+7-14	375-384	frihetlig	_	Target	7-17	false	4	_	_	
+7-15	385-388	och	_	_	_	_	_	_	_	
+7-16	389-404	individanpassad	_	_	_	_	_	_	_	
+7-17	405-410	skola	*	_	_	_	_	_	_	
+7-18	410-411	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen och Sverige behöver att Centerpartiet ta striden mot Folkpartiet inom utbildningspolitiken.
+8-1	412-421	Alliansen	_	_	_	_	_	_	_	
+8-2	422-425	och	_	_	_	_	_	_	_	
+8-3	426-433	Sverige	_	_	_	_	_	_	_	
+8-4	434-441	behöver	_	_	_	_	_	_	_	
+8-5	442-445	att	_	_	_	_	_	_	_	
+8-6	446-459	Centerpartiet	_	_	_	_	_	_	_	
+8-7	460-462	ta	_	_	_	_	_	_	_	
+8-8	463-470	striden	_	_	_	_	_	_	_	
+8-9	471-474	mot	_	_	_	_	_	_	_	
+8-10	475-486	Folkpartiet	_	_	_	_	_	_	_	
+8-11	487-491	inom	_	_	_	_	_	_	_	
+8-12	492-512	utbildningspolitiken	_	_	_	_	_	_	_	
+8-13	512-513	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	515-516	#	_	_	_	_	_	_	_	
+9-2	516-517	P	_	_	_	_	_	_	_	
+9-3	518-521	IMM	_	_	_	_	_	_	_	
+9-4	521-522	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen genomförde en del nödvändiga reformer av svensk skola, men dessvärre innebar reformerna framförallt en kraftig begränsning av individens utrymme i skolan.
+10-1	524-533	Alliansen	_	_	_	_	_	_	_	
+10-2	534-544	genomförde	_	_	_	_	_	_	_	
+10-3	545-547	en	_	_	_	_	_	_	_	
+10-4	548-551	del	_	_	_	_	_	_	_	
+10-5	552-562	nödvändiga	_	_	_	_	_	_	_	
+10-6	563-571	reformer	_	_	_	_	_	_	_	
+10-7	572-574	av	_	_	_	_	_	_	_	
+10-8	575-581	svensk	_	_	_	_	_	_	_	
+10-9	582-587	skola	_	_	_	_	_	_	_	
+10-10	587-588	,	_	_	_	_	_	_	_	
+10-11	589-592	men	_	_	_	_	_	_	_	
+10-12	593-602	dessvärre	_	Target	10-13[17]	false	2	_	_	
+10-13	603-610	innebar	*[17]	_	_	_	_	_	_	
+10-14	611-621	reformerna	*[17]	_	_	_	_	_	_	
+10-15	622-633	framförallt	*[17]	_	_	_	_	_	_	
+10-16	634-636	en	*[17]	_	_	_	_	_	_	
+10-17	637-644	kraftig	*[17]	_	_	_	_	_	_	
+10-18	645-656	begränsning	*[17]	_	_	_	_	_	_	
+10-19	657-659	av	*[17]	_	_	_	_	_	_	
+10-20	660-670	individens	*[17]	_	_	_	_	_	_	
+10-21	671-678	utrymme	*[17]	_	_	_	_	_	_	
+10-22	679-680	i	*[17]	_	_	_	_	_	_	
+10-23	681-687	skolan	*[17]	_	_	_	_	_	_	
+10-24	687-688	.	_	_	_	_	_	_	_	
+
+#Text=En bra utbildning är grunden till framför allt arbete och trygghet.
+11-1	689-691	En	_	_	_	_	_	_	_	
+11-2	692-695	bra	_	_	_	_	_	_	_	
+11-3	696-706	utbildning	_	_	_	_	_	_	_	
+11-4	707-709	är	_	_	_	_	_	_	_	
+11-5	710-717	grunden	_	_	_	_	_	_	_	
+11-6	718-722	till	_	_	_	_	_	_	_	
+11-7	723-730	framför	_	_	_	_	_	_	_	
+11-8	731-735	allt	_	_	_	_	_	_	_	
+11-9	736-742	arbete	_	_	_	_	_	_	_	
+11-10	743-746	och	_	_	_	_	_	_	_	
+11-11	747-755	trygghet	_	_	_	_	_	_	_	
+11-12	755-756	.	_	_	_	_	_	_	_	
+
+#Text=En bra utbildning sker när skolan anpassar sig efter eleven och inte när eleven behöver anpassa sig efter skolan.
+12-1	757-759	En	_	Target[3]	12-5[18]	false[3]	4[3]	_	_	
+12-2	760-763	bra	_	Target[3]	12-5[18]	false[3]	4[3]	_	_	
+12-3	764-774	utbildning	_	Target[3]	12-5[18]	false[3]	4[3]	_	_	
+12-4	775-779	sker	_	Target[3]	12-5[18]	false[3]	4[3]	_	_	
+12-5	780-783	när	*[18]	_	_	_	_	_	_	
+12-6	784-790	skolan	*[18]	_	_	_	_	_	_	
+12-7	791-799	anpassar	*[18]	_	_	_	_	_	_	
+12-8	800-803	sig	*[18]	_	_	_	_	_	_	
+12-9	804-809	efter	*[18]	_	_	_	_	_	_	
+12-10	810-816	eleven	*[18]	_	_	_	_	_	_	
+12-11	817-820	och	_	_	_	_	_	_	_	
+12-12	821-825	inte	_	_	_	_	_	_	_	
+12-13	826-829	när	_	_	_	_	_	_	_	
+12-14	830-836	eleven	_	_	_	_	_	_	_	
+12-15	837-844	behöver	_	_	_	_	_	_	_	
+12-16	845-852	anpassa	_	_	_	_	_	_	_	
+12-17	853-856	sig	_	_	_	_	_	_	_	
+12-18	857-862	efter	_	_	_	_	_	_	_	
+12-19	863-869	skolan	_	_	_	_	_	_	_	
+12-20	869-870	.	_	_	_	_	_	_	_	
+
+#Text=Tyvärr innebar alliansreformerna stramare ramar och mindre individfokus.
+13-1	871-877	Tyvärr	_	Target	13-2[19]	false	2	_	_	
+13-2	878-885	innebar	*[19]	_	_	_	_	_	_	
+13-3	886-903	alliansreformerna	*[19]	_	_	_	_	_	_	
+13-4	904-912	stramare	*[19]	_	_	_	_	_	_	
+13-5	913-918	ramar	*[19]	_	_	_	_	_	_	
+13-6	919-922	och	*[19]	_	_	_	_	_	_	
+13-7	923-929	mindre	*[19]	_	_	_	_	_	_	
+13-8	930-942	individfokus	*[19]	_	_	_	_	_	_	
+13-9	942-943	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	945-946	#	_	_	_	_	_	_	_	
+14-2	946-947	P	_	_	_	_	_	_	_	
+14-3	948-951	IMM	_	_	_	_	_	_	_	
+14-4	951-952	.	_	_	_	_	_	_	_	
+
+#Text=De senaste veckorna har vi kunnat se att flera företrädare för alliansen hävdat att vi behöver rannsaka oss själva och att reformerna inom integration, migration och arbetsmarknad inte räckte till.
+15-1	954-956	De	_	_	_	_	_	_	_	
+15-2	957-964	senaste	_	_	_	_	_	_	_	
+15-3	965-973	veckorna	_	_	_	_	_	_	_	
+15-4	974-977	har	_	_	_	_	_	_	_	
+15-5	978-980	vi	_	_	_	_	_	_	_	
+15-6	981-987	kunnat	_	_	_	_	_	_	_	
+15-7	988-990	se	_	_	_	_	_	_	_	
+15-8	991-994	att	_	_	_	_	_	_	_	
+15-9	995-1000	flera	*[20]	_	_	_	_	_	_	
+15-10	1001-1012	företrädare	*[20]	_	_	_	_	_	_	
+15-11	1013-1016	för	*[20]	_	_	_	_	_	_	
+15-12	1017-1026	alliansen	*[20]	_	_	_	_	_	_	
+15-13	1027-1033	hävdat	_	_	_	_	_	_	_	
+15-14	1034-1037	att	_	_	_	_	_	_	_	
+15-15	1038-1040	vi	_	_	_	_	_	_	_	
+15-16	1041-1048	behöver	_	_	_	_	_	_	_	
+15-17	1049-1057	rannsaka	_	_	_	_	_	_	_	
+15-18	1058-1061	oss	_	_	_	_	_	_	_	
+15-19	1062-1068	själva	_	_	_	_	_	_	_	
+15-20	1069-1072	och	_	_	_	_	_	_	_	
+15-21	1073-1076	att	_	_	_	_	_	_	_	
+15-22	1077-1087	reformerna	*[21]	_	_	_	_	_	_	
+15-23	1088-1092	inom	*[21]	_	_	_	_	_	_	
+15-24	1093-1104	integration	*[21]	_	_	_	_	_	_	
+15-25	1104-1105	,	*[21]	_	_	_	_	_	_	
+15-26	1106-1115	migration	*[21]	_	_	_	_	_	_	
+15-27	1116-1119	och	*[21]	_	_	_	_	_	_	
+15-28	1120-1133	arbetsmarknad	*[21]	_	_	_	_	_	_	
+15-29	1134-1138	inte	_	Source;Target[4]	15-9[20];15-22[21]	false[4]	2[4]	_	_	
+15-30	1139-1145	räckte	_	Source;Target[4]	15-9[20];15-22[21]	false[4]	2[4]	_	_	
+15-31	1146-1150	till	_	Source;Target[4]	15-9[20];15-22[21]	false[4]	2[4]	_	_	
+15-32	1150-1151	.	_	_	_	_	_	_	_	
+
+#Text=Det håller vi med om, men tyvärr pratas det alldeles för lite om alliansens undermåliga utbildningspolitik.
+16-1	1152-1155	Det	_	_	_	_	_	_	_	
+16-2	1156-1162	håller	_	_	_	_	_	_	_	
+16-3	1163-1165	vi	_	_	_	_	_	_	_	
+16-4	1166-1169	med	_	_	_	_	_	_	_	
+16-5	1170-1172	om	_	_	_	_	_	_	_	
+16-6	1172-1173	,	_	_	_	_	_	_	_	
+16-7	1174-1177	men	_	_	_	_	_	_	_	
+16-8	1178-1184	tyvärr	_	Target	16-9[22]	false	2	_	_	
+16-9	1185-1191	pratas	*[22]	_	_	_	_	_	_	
+16-10	1192-1195	det	*[22]	_	_	_	_	_	_	
+16-11	1196-1204	alldeles	*[22]	_	_	_	_	_	_	
+16-12	1205-1208	för	*[22]	_	_	_	_	_	_	
+16-13	1209-1213	lite	*[22]	_	_	_	_	_	_	
+16-14	1214-1216	om	*[22]	_	_	_	_	_	_	
+16-15	1217-1227	alliansens	*[22]	_	_	_	_	_	_	
+16-16	1228-1239	undermåliga	*[22]	Target	16-17[23]	false	2	_	_	
+16-17	1240-1258	utbildningspolitik	*[22]|*[23]	_	_	_	_	_	_	
+16-18	1258-1259	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1261-1262	#	_	_	_	_	_	_	_	
+17-2	1262-1263	P	_	_	_	_	_	_	_	
+17-3	1264-1267	IMM	_	_	_	_	_	_	_	
+17-4	1267-1268	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen och inte minst Centerpartiet hade vare sig då, eller i dag, svaren på hur svensk skola ska gå ifrån underkänd till toppbetyg.
+18-1	1270-1279	Alliansen	_	_	_	_	_	_	_	
+18-2	1280-1283	och	_	_	_	_	_	_	_	
+18-3	1284-1288	inte	_	_	_	_	_	_	_	
+18-4	1289-1294	minst	_	_	_	_	_	_	_	
+18-5	1295-1308	Centerpartiet	_	_	_	_	_	_	_	
+18-6	1309-1313	hade	_	_	_	_	_	_	_	
+18-7	1314-1318	vare	_	_	_	_	_	_	_	
+18-8	1319-1322	sig	_	_	_	_	_	_	_	
+18-9	1323-1325	då	_	_	_	_	_	_	_	
+18-10	1325-1326	,	_	_	_	_	_	_	_	
+18-11	1327-1332	eller	_	_	_	_	_	_	_	
+18-12	1333-1334	i	_	_	_	_	_	_	_	
+18-13	1335-1338	dag	_	_	_	_	_	_	_	
+18-14	1338-1339	,	_	_	_	_	_	_	_	
+18-15	1340-1346	svaren	_	_	_	_	_	_	_	
+18-16	1347-1349	på	_	_	_	_	_	_	_	
+18-17	1350-1353	hur	_	_	_	_	_	_	_	
+18-18	1354-1360	svensk	_	_	_	_	_	_	_	
+18-19	1361-1366	skola	_	_	_	_	_	_	_	
+18-20	1367-1370	ska	_	_	_	_	_	_	_	
+18-21	1371-1373	gå	_	_	_	_	_	_	_	
+18-22	1374-1379	ifrån	_	_	_	_	_	_	_	
+18-23	1380-1389	underkänd	_	_	_	_	_	_	_	
+18-24	1390-1394	till	_	_	_	_	_	_	_	
+18-25	1395-1404	toppbetyg	_	_	_	_	_	_	_	
+18-26	1404-1405	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet tog alldeles för lite ansvar i arbetet med att förbättra skolan och tog inte kampen mot Jan Björklunds föråldrade och stelbenta utbildningspolitik.
+19-1	1406-1419	Centerpartiet	*	_	_	_	_	_	_	
+19-2	1420-1423	tog	_	Target[5]	19-1	false[5]	2[5]	_	_	
+19-3	1424-1432	alldeles	_	Target[5]	19-1	false[5]	2[5]	_	_	
+19-4	1433-1436	för	_	Target[5]	19-1	false[5]	2[5]	_	_	
+19-5	1437-1441	lite	_	Target[5]	19-1	false[5]	2[5]	_	_	
+19-6	1442-1448	ansvar	_	Target[5]	19-1	false[5]	2[5]	_	_	
+19-7	1449-1450	i	_	_	_	_	_	_	_	
+19-8	1451-1458	arbetet	_	_	_	_	_	_	_	
+19-9	1459-1462	med	_	_	_	_	_	_	_	
+19-10	1463-1466	att	_	_	_	_	_	_	_	
+19-11	1467-1476	förbättra	_	_	_	_	_	_	_	
+19-12	1477-1483	skolan	_	_	_	_	_	_	_	
+19-13	1484-1487	och	_	_	_	_	_	_	_	
+19-14	1488-1491	tog	_	_	_	_	_	_	_	
+19-15	1492-1496	inte	_	_	_	_	_	_	_	
+19-16	1497-1503	kampen	_	_	_	_	_	_	_	
+19-17	1504-1507	mot	_	_	_	_	_	_	_	
+19-18	1508-1511	Jan	_	_	_	_	_	_	_	
+19-19	1512-1522	Björklunds	_	_	_	_	_	_	_	
+19-20	1523-1533	föråldrade	_	Target[6]	19-23	false[6]	2[6]	_	_	
+19-21	1534-1537	och	_	Target[6]	19-23	false[6]	2[6]	_	_	
+19-22	1538-1547	stelbenta	_	Target[6]	19-23	false[6]	2[6]	_	_	
+19-23	1548-1566	utbildningspolitik	*	_	_	_	_	_	_	
+19-24	1566-1567	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1569-1570	#	_	_	_	_	_	_	_	
+20-2	1570-1571	P	_	_	_	_	_	_	_	
+20-3	1572-1575	IMM	_	_	_	_	_	_	_	
+20-4	1575-1576	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet bör på allvar våga diskutera en reformering av skolplikten.
+21-1	1578-1591	Centerpartiet	_	_	_	_	_	_	_	
+21-2	1592-1595	bör	_	_	_	_	_	_	_	
+21-3	1596-1598	på	_	_	_	_	_	_	_	
+21-4	1599-1605	allvar	_	_	_	_	_	_	_	
+21-5	1606-1610	våga	_	_	_	_	_	_	_	
+21-6	1611-1620	diskutera	_	_	_	_	_	_	_	
+21-7	1621-1623	en	_	_	_	_	_	_	_	
+21-8	1624-1635	reformering	_	_	_	_	_	_	_	
+21-9	1636-1638	av	_	_	_	_	_	_	_	
+21-10	1639-1650	skolplikten	_	_	_	_	_	_	_	
+21-11	1650-1651	.	_	_	_	_	_	_	_	
+
+#Text=Det är dags att diskutera frågan om hur vi kan individualisera skolan för att lyfta och se varje enskild elev.
+22-1	1652-1655	Det	_	_	_	_	_	_	_	
+22-2	1656-1658	är	_	_	_	_	_	_	_	
+22-3	1659-1663	dags	_	_	_	_	_	_	_	
+22-4	1664-1667	att	_	_	_	_	_	_	_	
+22-5	1668-1677	diskutera	_	_	_	_	_	_	_	
+22-6	1678-1684	frågan	_	_	_	_	_	_	_	
+22-7	1685-1687	om	_	_	_	_	_	_	_	
+22-8	1688-1691	hur	_	_	_	_	_	_	_	
+22-9	1692-1694	vi	_	_	_	_	_	_	_	
+22-10	1695-1698	kan	_	_	_	_	_	_	_	
+22-11	1699-1714	individualisera	_	_	_	_	_	_	_	
+22-12	1715-1721	skolan	_	_	_	_	_	_	_	
+22-13	1722-1725	för	_	_	_	_	_	_	_	
+22-14	1726-1729	att	_	_	_	_	_	_	_	
+22-15	1730-1735	lyfta	_	_	_	_	_	_	_	
+22-16	1736-1739	och	_	_	_	_	_	_	_	
+22-17	1740-1742	se	_	_	_	_	_	_	_	
+22-18	1743-1748	varje	_	_	_	_	_	_	_	
+22-19	1749-1756	enskild	_	_	_	_	_	_	_	
+22-20	1757-1761	elev	_	_	_	_	_	_	_	
+22-21	1761-1762	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1764-1765	#	_	_	_	_	_	_	_	
+23-2	1765-1766	P	_	_	_	_	_	_	_	
+23-3	1767-1770	IMM	_	_	_	_	_	_	_	
+23-4	1770-1771	.	_	_	_	_	_	_	_	
+
+#Text=I stället för att genomföra det ytterst tveksamma experimentet som försöket med betyg ifrån fjärde klass innebär, så bör Alliansen lyssna på den utbildningsvetenskapliga forskningen och lyfta en fullt legitim kritik mot idén om att lika gamla elever ska lära sig samma sak samtidigt.
+24-1	1773-1774	I	_	_	_	_	_	_	_	
+24-2	1775-1782	stället	_	_	_	_	_	_	_	
+24-3	1783-1786	för	_	_	_	_	_	_	_	
+24-4	1787-1790	att	_	_	_	_	_	_	_	
+24-5	1791-1800	genomföra	_	_	_	_	_	_	_	
+24-6	1801-1804	det	_	_	_	_	_	_	_	
+24-7	1805-1812	ytterst	_	Target[7]	24-9[24]	false[7]	2[7]	_	_	
+24-8	1813-1822	tveksamma	_	Target[7]	24-9[24]	false[7]	2[7]	_	_	
+24-9	1823-1835	experimentet	*[24]	_	_	_	_	_	_	
+24-10	1836-1839	som	*[24]	_	_	_	_	_	_	
+24-11	1840-1848	försöket	*[24]	_	_	_	_	_	_	
+24-12	1849-1852	med	*[24]	_	_	_	_	_	_	
+24-13	1853-1858	betyg	*[24]	_	_	_	_	_	_	
+24-14	1859-1864	ifrån	*[24]	_	_	_	_	_	_	
+24-15	1865-1871	fjärde	*[24]	_	_	_	_	_	_	
+24-16	1872-1877	klass	*[24]	_	_	_	_	_	_	
+24-17	1878-1885	innebär	*[24]	_	_	_	_	_	_	
+24-18	1885-1886	,	_	_	_	_	_	_	_	
+24-19	1887-1889	så	_	_	_	_	_	_	_	
+24-20	1890-1893	bör	_	_	_	_	_	_	_	
+24-21	1894-1903	Alliansen	_	_	_	_	_	_	_	
+24-22	1904-1910	lyssna	_	_	_	_	_	_	_	
+24-23	1911-1913	på	_	_	_	_	_	_	_	
+24-24	1914-1917	den	_	_	_	_	_	_	_	
+24-25	1918-1942	utbildningsvetenskapliga	_	_	_	_	_	_	_	
+24-26	1943-1954	forskningen	_	_	_	_	_	_	_	
+24-27	1955-1958	och	_	_	_	_	_	_	_	
+24-28	1959-1964	lyfta	_	_	_	_	_	_	_	
+24-29	1965-1967	en	_	_	_	_	_	_	_	
+24-30	1968-1973	fullt	_	Target[8]	24-32[25]	false[8]	4[8]	_	_	
+24-31	1974-1981	legitim	_	Target[8]	24-32[25]	false[8]	4[8]	_	_	
+24-32	1982-1988	kritik	*[25]	Target[9]	24-34[26]	false[9]	2[9]	_	_	
+24-33	1989-1992	mot	*[25]	Target[9]	24-34[26]	false[9]	2[9]	_	_	
+24-34	1993-1997	idén	*[25]|*[26]	_	_	_	_	_	_	
+24-35	1998-2000	om	*[25]|*[26]	_	_	_	_	_	_	
+24-36	2001-2004	att	*[25]|*[26]	_	_	_	_	_	_	
+24-37	2005-2009	lika	*[25]|*[26]	_	_	_	_	_	_	
+24-38	2010-2015	gamla	*[25]|*[26]	_	_	_	_	_	_	
+24-39	2016-2022	elever	*[25]|*[26]	_	_	_	_	_	_	
+24-40	2023-2026	ska	*[25]|*[26]	_	_	_	_	_	_	
+24-41	2027-2031	lära	*[25]|*[26]	_	_	_	_	_	_	
+24-42	2032-2035	sig	*[25]|*[26]	_	_	_	_	_	_	
+24-43	2036-2041	samma	*[25]|*[26]	_	_	_	_	_	_	
+24-44	2042-2045	sak	*[25]|*[26]	_	_	_	_	_	_	
+24-45	2046-2055	samtidigt	*[25]|*[26]	_	_	_	_	_	_	
+24-46	2055-2056	.	_	_	_	_	_	_	_	
+
+#Text=Skolplikten innebär att vi har ett system som är orättvist och närmast straffar elever som inte passar in i den generella mallen.
+25-1	2057-2068	Skolplikten	_	_	_	_	_	_	_	
+25-2	2069-2076	innebär	_	_	_	_	_	_	_	
+25-3	2077-2080	att	_	_	_	_	_	_	_	
+25-4	2081-2083	vi	_	_	_	_	_	_	_	
+25-5	2084-2087	har	_	_	_	_	_	_	_	
+25-6	2088-2091	ett	*[27]	_	_	_	_	_	25-8[0_27]	
+25-7	2092-2098	system	*[27]	_	_	_	_	_	_	
+25-8	2099-2102	som	*	_	_	_	_	_	_	
+25-9	2103-2105	är	_	Target[10]	25-8	false[10]	2[10]	_	_	
+25-10	2106-2115	orättvist	_	Target[10]	25-8	false[10]	2[10]	_	_	
+25-11	2116-2119	och	_	_	_	_	_	_	_	
+25-12	2120-2127	närmast	_	_	_	_	_	_	_	
+25-13	2128-2136	straffar	_	_	_	_	_	_	_	
+25-14	2137-2143	elever	_	_	_	_	_	_	_	
+25-15	2144-2147	som	_	_	_	_	_	_	_	
+25-16	2148-2152	inte	_	_	_	_	_	_	_	
+25-17	2153-2159	passar	_	_	_	_	_	_	_	
+25-18	2160-2162	in	_	_	_	_	_	_	_	
+25-19	2163-2164	i	_	_	_	_	_	_	_	
+25-20	2165-2168	den	_	_	_	_	_	_	_	
+25-21	2169-2178	generella	_	_	_	_	_	_	_	
+25-22	2179-2185	mallen	_	_	_	_	_	_	_	
+25-23	2185-2186	.	_	_	_	_	_	_	_	
+
+#Text=Under tiden som detta fortgår står Centerpartiet och alliansen vid sidan av och kämpar i stället för ytterligare en betygsreform som både är ett svek mot Sveriges elever, men också mot Centerpartiets egna politik om att betyg bör sättas tidigast i sjätte klass.
+26-1	2187-2192	Under	_	_	_	_	_	_	_	
+26-2	2193-2198	tiden	_	_	_	_	_	_	_	
+26-3	2199-2202	som	_	_	_	_	_	_	_	
+26-4	2203-2208	detta	_	_	_	_	_	_	_	
+26-5	2209-2216	fortgår	_	_	_	_	_	_	_	
+26-6	2217-2221	står	_	_	_	_	_	_	_	
+26-7	2222-2235	Centerpartiet	_	_	_	_	_	_	_	
+26-8	2236-2239	och	_	_	_	_	_	_	_	
+26-9	2240-2249	alliansen	_	_	_	_	_	_	_	
+26-10	2250-2253	vid	_	_	_	_	_	_	_	
+26-11	2254-2259	sidan	_	_	_	_	_	_	_	
+26-12	2260-2262	av	_	_	_	_	_	_	_	
+26-13	2263-2266	och	_	_	_	_	_	_	_	
+26-14	2267-2273	kämpar	_	_	_	_	_	_	_	
+26-15	2274-2275	i	_	_	_	_	_	_	_	
+26-16	2276-2283	stället	_	_	_	_	_	_	_	
+26-17	2284-2287	för	_	_	_	_	_	_	_	
+26-18	2288-2299	ytterligare	*[28]	_	_	_	_	_	26-21[0_28]	
+26-19	2300-2302	en	*[28]	_	_	_	_	_	_	
+26-20	2303-2315	betygsreform	*[28]	_	_	_	_	_	_	
+26-21	2316-2319	som	*	_	_	_	_	_	_	
+26-22	2320-2324	både	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-23	2325-2327	är	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-24	2328-2331	ett	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-25	2332-2336	svek	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-26	2337-2340	mot	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-27	2341-2349	Sveriges	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-28	2350-2356	elever	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-29	2356-2357	,	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-30	2358-2361	men	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-31	2362-2367	också	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-32	2368-2371	mot	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-33	2372-2386	Centerpartiets	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-34	2387-2391	egna	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-35	2392-2399	politik	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-36	2400-2402	om	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-37	2403-2406	att	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-38	2407-2412	betyg	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-39	2413-2416	bör	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-40	2417-2423	sättas	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-41	2424-2432	tidigast	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-42	2433-2434	i	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-43	2435-2441	sjätte	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-44	2442-2447	klass	_	Target[11]	26-21	false[11]	2[11]	_	_	
+26-45	2447-2448	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2450-2451	#	_	_	_	_	_	_	_	
+27-2	2451-2452	P	_	_	_	_	_	_	_	
+27-3	2453-2456	IMM	_	_	_	_	_	_	_	
+27-4	2456-2457	.	_	_	_	_	_	_	_	
+
+#Text=I stället för att stå upp för en friare skolpolitik och våra egna åsikter har Centerpartiet helt och hållet överlämnat en av våra viktigaste framtidsfrågor, utbildningspolitiken, till Folkpartiets Jan Björklund, vars skolpolitik präglas mer av hans tid i militären än av liberalism.
+28-1	2459-2460	I	_	_	_	_	_	_	_	
+28-2	2461-2468	stället	_	_	_	_	_	_	_	
+28-3	2469-2472	för	_	_	_	_	_	_	_	
+28-4	2473-2476	att	_	_	_	_	_	_	_	
+28-5	2477-2480	stå	_	_	_	_	_	_	_	
+28-6	2481-2484	upp	_	_	_	_	_	_	_	
+28-7	2485-2488	för	_	_	_	_	_	_	_	
+28-8	2489-2491	en	_	_	_	_	_	_	_	
+28-9	2492-2498	friare	_	_	_	_	_	_	_	
+28-10	2499-2510	skolpolitik	_	_	_	_	_	_	_	
+28-11	2511-2514	och	_	_	_	_	_	_	_	
+28-12	2515-2519	våra	_	_	_	_	_	_	_	
+28-13	2520-2524	egna	_	_	_	_	_	_	_	
+28-14	2525-2532	åsikter	_	_	_	_	_	_	_	
+28-15	2533-2536	har	_	_	_	_	_	_	_	
+28-16	2537-2550	Centerpartiet	_	_	_	_	_	_	_	
+28-17	2551-2555	helt	_	_	_	_	_	_	_	
+28-18	2556-2559	och	_	_	_	_	_	_	_	
+28-19	2560-2566	hållet	_	_	_	_	_	_	_	
+28-20	2567-2577	överlämnat	_	_	_	_	_	_	_	
+28-21	2578-2580	en	_	_	_	_	_	_	_	
+28-22	2581-2583	av	_	_	_	_	_	_	_	
+28-23	2584-2588	våra	_	_	_	_	_	_	_	
+28-24	2589-2599	viktigaste	_	_	_	_	_	_	_	
+28-25	2600-2614	framtidsfrågor	_	_	_	_	_	_	_	
+28-26	2614-2615	,	_	_	_	_	_	_	_	
+28-27	2616-2636	utbildningspolitiken	_	_	_	_	_	_	_	
+28-28	2636-2637	,	_	_	_	_	_	_	_	
+28-29	2638-2642	till	_	_	_	_	_	_	_	
+28-30	2643-2655	Folkpartiets	_	_	_	_	_	_	_	
+28-31	2656-2659	Jan	_	_	_	_	_	_	_	
+28-32	2660-2669	Björklund	_	_	_	_	_	_	_	
+28-33	2669-2670	,	_	_	_	_	_	_	_	
+28-34	2671-2675	vars	_	_	_	_	_	_	_	
+28-35	2676-2687	skolpolitik	_	_	_	_	_	_	_	
+28-36	2688-2695	präglas	_	_	_	_	_	_	_	
+28-37	2696-2699	mer	_	_	_	_	_	_	_	
+28-38	2700-2702	av	_	_	_	_	_	_	_	
+28-39	2703-2707	hans	_	_	_	_	_	_	_	
+28-40	2708-2711	tid	_	_	_	_	_	_	_	
+28-41	2712-2713	i	_	_	_	_	_	_	_	
+28-42	2714-2723	militären	_	_	_	_	_	_	_	
+28-43	2724-2726	än	_	_	_	_	_	_	_	
+28-44	2727-2729	av	_	_	_	_	_	_	_	
+28-45	2730-2740	liberalism	_	_	_	_	_	_	_	
+28-46	2740-2741	.	_	_	_	_	_	_	_	
+
+#Text=Man har tillåtit en alldeles för kraftig styrning via läroplanerna, som fått elever att uppleva skolan som en tung belastning, och som utsatt lärarna för ytterst svåra situationer där knappt de själva förstått betygskriteriernas innebörd och betydelse.
+29-1	2742-2745	Man	_	_	_	_	_	_	_	
+29-2	2746-2749	har	_	_	_	_	_	_	_	
+29-3	2750-2758	tillåtit	_	_	_	_	_	_	_	
+29-4	2759-2761	en	_	_	_	_	_	_	_	
+29-5	2762-2770	alldeles	_	Target[12]	29-8[29]	false[12]	2[12]	_	_	
+29-6	2771-2774	för	_	Target[12]	29-8[29]	false[12]	2[12]	_	_	
+29-7	2775-2782	kraftig	_	Target[12]	29-8[29]	false[12]	2[12]	_	_	
+29-8	2783-2791	styrning	*[29]	_	_	_	_	_	_	
+29-9	2792-2795	via	*[29]	_	_	_	_	_	_	
+29-10	2796-2808	läroplanerna	*[29]	_	_	_	_	_	_	
+29-11	2808-2809	,	_	_	_	_	_	_	_	
+29-12	2810-2813	som	_	_	_	_	_	_	_	
+29-13	2814-2818	fått	_	_	_	_	_	_	_	
+29-14	2819-2825	elever	*	_	_	_	_	_	_	
+29-15	2826-2829	att	_	_	_	_	_	_	_	
+29-16	2830-2837	uppleva	_	_	_	false	2	_	_	
+29-17	2838-2844	skolan	*	_	_	_	_	_	_	
+29-18	2845-2848	som	_	Source;Target[13]	29-14;29-17	false[13]	2[13]	29-16[0_13]	_	
+29-19	2849-2851	en	_	Source;Target[13]	29-14;29-17	false[13]	2[13]	_	_	
+29-20	2852-2856	tung	_	Source;Target[13]	29-14;29-17	false[13]	2[13]	_	_	
+29-21	2857-2867	belastning	_	Source;Target[13]	29-14;29-17	false[13]	2[13]	_	_	
+29-22	2867-2868	,	_	_	_	_	_	_	_	
+29-23	2869-2872	och	_	_	_	_	_	_	_	
+29-24	2873-2876	som	_	_	_	_	_	_	_	
+29-25	2877-2883	utsatt	_	_	_	_	_	_	_	
+29-26	2884-2891	lärarna	_	_	_	_	_	_	_	
+29-27	2892-2895	för	_	_	_	_	_	_	_	
+29-28	2896-2903	ytterst	_	_	_	_	_	_	_	
+29-29	2904-2909	svåra	_	_	_	_	_	_	_	
+29-30	2910-2921	situationer	_	_	_	_	_	_	_	
+29-31	2922-2925	där	_	_	_	_	_	_	_	
+29-32	2926-2932	knappt	_	_	_	_	_	_	_	
+29-33	2933-2935	de	_	_	_	_	_	_	_	
+29-34	2936-2942	själva	_	_	_	_	_	_	_	
+29-35	2943-2951	förstått	_	_	_	_	_	_	_	
+29-36	2952-2970	betygskriteriernas	_	_	_	_	_	_	_	
+29-37	2971-2979	innebörd	_	_	_	_	_	_	_	
+29-38	2980-2983	och	_	_	_	_	_	_	_	
+29-39	2984-2993	betydelse	_	_	_	_	_	_	_	
+29-40	2993-2994	.	_	_	_	_	_	_	_	
+
+#Text=Ansvaret för situationen ligger på hela alliansen.
+30-1	2995-3003	Ansvaret	_	_	_	_	_	_	_	
+30-2	3004-3007	för	_	_	_	_	_	_	_	
+30-3	3008-3019	situationen	_	_	_	_	_	_	_	
+30-4	3020-3026	ligger	_	_	_	_	_	_	_	
+30-5	3027-3029	på	_	_	_	_	_	_	_	
+30-6	3030-3034	hela	_	_	_	_	_	_	_	
+30-7	3035-3044	alliansen	_	_	_	_	_	_	_	
+30-8	3044-3045	.	_	_	_	_	_	_	_	
+
+#Text=Men det är beklämmande och anmärkningsvärt att Centerpartiet, som är ett tydligt liberalt parti, gått med på djupt konservativa skolreformer.
+31-1	3046-3049	Men	_	_	_	_	_	_	_	
+31-2	3050-3053	det	_	_	_	_	_	_	_	
+31-3	3054-3056	är	_	Target[14]	31-7[30]	false[14]	2[14]	_	_	
+31-4	3057-3068	beklämmande	_	Target[14]	31-7[30]	false[14]	2[14]	_	_	
+31-5	3069-3072	och	_	Target[14]	31-7[30]	false[14]	2[14]	_	_	
+31-6	3073-3088	anmärkningsvärt	_	Target[14]	31-7[30]	false[14]	2[14]	_	_	
+31-7	3089-3092	att	*[30]	_	_	_	_	_	_	
+31-8	3093-3106	Centerpartiet	*[30]	_	_	_	_	_	_	
+31-9	3106-3107	,	*[30]	_	_	_	_	_	_	
+31-10	3108-3111	som	*[30]	_	_	_	_	_	_	
+31-11	3112-3114	är	*[30]	_	_	_	_	_	_	
+31-12	3115-3118	ett	*[30]	_	_	_	_	_	_	
+31-13	3119-3126	tydligt	*[30]	_	_	_	_	_	_	
+31-14	3127-3135	liberalt	*[30]	_	_	_	_	_	_	
+31-15	3136-3141	parti	*[30]	_	_	_	_	_	_	
+31-16	3141-3142	,	*[30]	_	_	_	_	_	_	
+31-17	3143-3147	gått	*[30]	_	_	_	_	_	_	
+31-18	3148-3151	med	*[30]	_	_	_	_	_	_	
+31-19	3152-3154	på	*[30]	_	_	_	_	_	_	
+31-20	3155-3160	djupt	*[30]	_	_	_	_	_	_	
+31-21	3161-3173	konservativa	*[30]	_	_	_	_	_	_	
+31-22	3174-3186	skolreformer	*[30]	_	_	_	_	_	_	
+31-23	3186-3187	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	3189-3190	#	_	_	_	_	_	_	_	
+32-2	3190-3191	P	_	_	_	_	_	_	_	
+32-3	3192-3195	IMM	_	_	_	_	_	_	_	
+32-4	3195-3196	.	_	_	_	_	_	_	_	
+
+#Text=Debatten om svensk skola har varit alldeles för smal under lång tid.
+33-1	3198-3206	Debatten	*[31]	_	_	_	_	_	_	
+33-2	3207-3209	om	*[31]	_	_	_	_	_	_	
+33-3	3210-3216	svensk	*[31]	_	_	_	_	_	_	
+33-4	3217-3222	skola	*[31]	_	_	_	_	_	_	
+33-5	3223-3226	har	_	Target[15]	33-1[31]	false[15]	2[15]	_	_	
+33-6	3227-3232	varit	_	Target[15]	33-1[31]	false[15]	2[15]	_	_	
+33-7	3233-3241	alldeles	_	Target[15]	33-1[31]	false[15]	2[15]	_	_	
+33-8	3242-3245	för	_	Target[15]	33-1[31]	false[15]	2[15]	_	_	
+33-9	3246-3250	smal	_	Target[15]	33-1[31]	false[15]	2[15]	_	_	
+33-10	3251-3256	under	_	_	_	_	_	_	_	
+33-11	3257-3261	lång	_	_	_	_	_	_	_	
+33-12	3262-3265	tid	_	_	_	_	_	_	_	
+33-13	3265-3266	.	_	_	_	_	_	_	_	
+
+#Text=Den behöver breddas till att handla om hur varje elev ska kunna få vara med och utforma sin egen utbildning för att denne ska kunna nå sina mål och drömmar.
+34-1	3267-3270	Den	_	_	_	_	_	_	_	
+34-2	3271-3278	behöver	_	_	_	_	_	_	_	
+34-3	3279-3286	breddas	_	_	_	_	_	_	_	
+34-4	3287-3291	till	_	_	_	_	_	_	_	
+34-5	3292-3295	att	_	_	_	_	_	_	_	
+34-6	3296-3302	handla	_	_	_	_	_	_	_	
+34-7	3303-3305	om	_	_	_	_	_	_	_	
+34-8	3306-3309	hur	_	_	_	_	_	_	_	
+34-9	3310-3315	varje	_	_	_	_	_	_	_	
+34-10	3316-3320	elev	_	_	_	_	_	_	_	
+34-11	3321-3324	ska	_	_	_	_	_	_	_	
+34-12	3325-3330	kunna	_	_	_	_	_	_	_	
+34-13	3331-3333	få	_	_	_	_	_	_	_	
+34-14	3334-3338	vara	_	_	_	_	_	_	_	
+34-15	3339-3342	med	_	_	_	_	_	_	_	
+34-16	3343-3346	och	_	_	_	_	_	_	_	
+34-17	3347-3354	utforma	_	_	_	_	_	_	_	
+34-18	3355-3358	sin	_	_	_	_	_	_	_	
+34-19	3359-3363	egen	_	_	_	_	_	_	_	
+34-20	3364-3374	utbildning	_	_	_	_	_	_	_	
+34-21	3375-3378	för	_	_	_	_	_	_	_	
+34-22	3379-3382	att	_	_	_	_	_	_	_	
+34-23	3383-3388	denne	_	_	_	_	_	_	_	
+34-24	3389-3392	ska	_	_	_	_	_	_	_	
+34-25	3393-3398	kunna	_	_	_	_	_	_	_	
+34-26	3399-3401	nå	_	_	_	_	_	_	_	
+34-27	3402-3406	sina	_	_	_	_	_	_	_	
+34-28	3407-3410	mål	_	_	_	_	_	_	_	
+34-29	3411-3414	och	_	_	_	_	_	_	_	
+34-30	3415-3422	drömmar	_	_	_	_	_	_	_	
+34-31	3422-3423	.	_	_	_	_	_	_	_	
+
+#Text=Vi hoppas därför att Centerpartiet tar sitt förnuft till fånga och blir en tyngre och frihetligare aktör i skoldebatten.
+35-1	3424-3426	Vi	_	_	_	_	_	_	_	
+35-2	3427-3433	hoppas	_	_	_	_	_	_	_	
+35-3	3434-3440	därför	_	_	_	_	_	_	_	
+35-4	3441-3444	att	_	_	_	_	_	_	_	
+35-5	3445-3458	Centerpartiet	_	_	_	_	_	_	_	
+35-6	3459-3462	tar	_	_	_	_	_	_	_	
+35-7	3463-3467	sitt	_	_	_	_	_	_	_	
+35-8	3468-3475	förnuft	_	_	_	_	_	_	_	
+35-9	3476-3480	till	_	_	_	_	_	_	_	
+35-10	3481-3486	fånga	_	_	_	_	_	_	_	
+35-11	3487-3490	och	_	_	_	_	_	_	_	
+35-12	3491-3495	blir	_	_	_	_	_	_	_	
+35-13	3496-3498	en	_	_	_	_	_	_	_	
+35-14	3499-3505	tyngre	_	_	_	_	_	_	_	
+35-15	3506-3509	och	_	_	_	_	_	_	_	
+35-16	3510-3522	frihetligare	_	_	_	_	_	_	_	
+35-17	3523-3528	aktör	_	_	_	_	_	_	_	
+35-18	3529-3530	i	_	_	_	_	_	_	_	
+35-19	3531-3543	skoldebatten	_	_	_	_	_	_	_	
+35-20	3543-3544	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3546-3547	#	_	_	_	_	_	_	_	
+36-2	3547-3548	P	_	_	_	_	_	_	_	
+36-3	3549-3552	IMM	_	_	_	_	_	_	_	
+36-4	3552-3553	.	_	_	_	_	_	_	_	
+
+#Text=Vi tjänar ingenting på att ställa oss bakom en skolpolitik som bevisligen är misslyckad.
+37-1	3555-3557	Vi	_	_	_	_	_	_	_	
+37-2	3558-3564	tjänar	_	_	_	_	_	_	_	
+37-3	3565-3574	ingenting	_	_	_	_	_	_	_	
+37-4	3575-3577	på	_	_	_	_	_	_	_	
+37-5	3578-3581	att	_	_	_	_	_	_	_	
+37-6	3582-3588	ställa	_	_	_	_	_	_	_	
+37-7	3589-3592	oss	_	_	_	_	_	_	_	
+37-8	3593-3598	bakom	_	_	_	_	_	_	_	
+37-9	3599-3601	en	*[32]	_	_	_	_	_	37-11[0_32]	
+37-10	3602-3613	skolpolitik	*[32]	_	_	_	_	_	_	
+37-11	3614-3617	som	*	_	_	_	_	_	_	
+37-12	3618-3628	bevisligen	_	Target[16]	37-11	false[16]	2[16]	_	_	
+37-13	3629-3631	är	_	Target[16]	37-11	false[16]	2[16]	_	_	
+37-14	3632-3642	misslyckad	_	Target[16]	37-11	false[16]	2[16]	_	_	
+37-15	3642-3643	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet har i stället mer att tjäna på att ställa sig på elevernas sida i kampen för en bättre skola.
+38-1	3644-3657	Centerpartiet	_	_	_	_	_	_	_	
+38-2	3658-3661	har	_	_	_	_	_	_	_	
+38-3	3662-3663	i	_	_	_	_	_	_	_	
+38-4	3664-3671	stället	_	_	_	_	_	_	_	
+38-5	3672-3675	mer	_	_	_	_	_	_	_	
+38-6	3676-3679	att	_	_	_	_	_	_	_	
+38-7	3680-3685	tjäna	_	_	_	_	_	_	_	
+38-8	3686-3688	på	_	_	_	_	_	_	_	
+38-9	3689-3692	att	_	_	_	_	_	_	_	
+38-10	3693-3699	ställa	_	_	_	_	_	_	_	
+38-11	3700-3703	sig	_	_	_	_	_	_	_	
+38-12	3704-3706	på	_	_	_	_	_	_	_	
+38-13	3707-3716	elevernas	_	_	_	_	_	_	_	
+38-14	3717-3721	sida	_	_	_	_	_	_	_	
+38-15	3722-3723	i	_	_	_	_	_	_	_	
+38-16	3724-3730	kampen	_	_	_	_	_	_	_	
+38-17	3731-3734	för	_	_	_	_	_	_	_	
+38-18	3735-3737	en	_	_	_	_	_	_	_	
+38-19	3738-3744	bättre	_	_	_	_	_	_	_	
+38-20	3745-3750	skola	_	_	_	_	_	_	_	
+38-21	3750-3751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3753-3754	#	_	_	_	_	_	_	_	
+39-2	3754-3755	P	_	_	_	_	_	_	_	
+39-3	3756-3759	IMM	_	_	_	_	_	_	_	
+39-4	3759-3760	.	_	_	_	_	_	_	_	
+
+#Text=Jonny Cato Hansson.
+40-1	3762-3767	Jonny	_	_	_	_	_	_	_	
+40-2	3768-3772	Cato	_	_	_	_	_	_	_	
+40-3	3773-3780	Hansson	_	_	_	_	_	_	_	
+40-4	3780-3781	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3783-3784	#	_	_	_	_	_	_	_	
+41-2	3784-3785	P	_	_	_	_	_	_	_	
+41-3	3786-3789	IMM	_	_	_	_	_	_	_	
+41-4	3789-3790	.	_	_	_	_	_	_	_	
+
+#Text=Förste vice förbundsordförande CUF.
+42-1	3792-3798	Förste	_	_	_	_	_	_	_	
+42-2	3799-3803	vice	_	_	_	_	_	_	_	
+42-3	3804-3822	förbundsordförande	_	_	_	_	_	_	_	
+42-4	3823-3826	CUF	_	_	_	_	_	_	_	
+42-5	3826-3827	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3829-3830	#	_	_	_	_	_	_	_	
+43-2	3830-3831	P	_	_	_	_	_	_	_	
+43-3	3832-3835	IMM	_	_	_	_	_	_	_	
+43-4	3835-3836	.	_	_	_	_	_	_	_	
+
+#Text=Johan Vesterlund.
+44-1	3838-3843	Johan	_	_	_	_	_	_	_	
+44-2	3844-3854	Vesterlund	_	_	_	_	_	_	_	
+44-3	3854-3855	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3857-3858	#	_	_	_	_	_	_	_	
+45-2	3858-3859	P	_	_	_	_	_	_	_	
+45-3	3860-3863	IMM	_	_	_	_	_	_	_	
+45-4	3863-3864	.	_	_	_	_	_	_	_	
+
+#Text=Utbildningspolitisk talesperson CUF.
+46-1	3866-3885	Utbildningspolitisk	_	_	_	_	_	_	_	
+46-2	3886-3897	talesperson	_	_	_	_	_	_	_	
+46-3	3898-3901	CUF	_	_	_	_	_	_	_	
+46-4	3901-3902	.	_	_	_	_	_	_	_	

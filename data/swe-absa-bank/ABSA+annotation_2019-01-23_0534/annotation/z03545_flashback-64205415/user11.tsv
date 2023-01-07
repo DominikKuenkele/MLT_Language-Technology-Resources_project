@@ -1,0 +1,173 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Bidrag till kroniskt sjuk man som ska utvisas dras in av domstol.
+3-1	18-24	Bidrag	_	_	_	_	_	
+3-2	25-29	till	_	_	_	_	_	
+3-3	30-38	kroniskt	_	_	_	_	_	
+3-4	39-43	sjuk	_	_	_	_	_	
+3-5	44-47	man	_	_	_	_	_	
+3-6	48-51	som	_	_	_	_	_	
+3-7	52-55	ska	_	_	_	_	_	
+3-8	56-63	utvisas	_	_	_	_	_	
+3-9	64-68	dras	_	_	_	_	_	
+3-10	69-71	in	_	_	_	_	_	
+3-11	72-74	av	_	_	_	_	_	
+3-12	75-82	domstol	_	_	_	_	_	
+3-13	82-83	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	85-86	#	_	_	_	_	_	
+4-2	86-87	P	_	_[3]	_	false[3]	3[3]	
+4-3	88-91	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	91-92	.	_	_	_	_	_	
+
+#Text="Den kroniskt sjuke mannen ska utvisas från Sverige.
+5-1	94-95	"	_	_	_	_	_	
+5-2	95-98	Den	_	_	_	_	_	
+5-3	99-107	kroniskt	_	_	_	_	_	
+5-4	108-113	sjuke	_	_	_	_	_	
+5-5	114-120	mannen	_	_	_	_	_	
+5-6	121-124	ska	_	_	_	_	_	
+5-7	125-132	utvisas	_	_	_	_	_	
+5-8	133-137	från	_	_	_	_	_	
+5-9	138-145	Sverige	_	_	_	_	_	
+5-10	145-146	.	_	_	_	_	_	
+
+#Text=Migrationsverket ifrågasätter inte att han skulle dö om han inte får vård - men anser att han kan få det i sitt hemland.
+6-1	147-163	Migrationsverket	*	_	_	_	_	
+6-2	164-176	ifrågasätter	_	Source;Target[4]	6-1;6-5[7]	false[4]	3[4]	
+6-3	177-181	inte	_	Source;Target[4]	6-1;6-5[7]	false[4]	3[4]	
+6-4	182-185	att	_	_	_	_	_	
+6-5	186-189	han	*[7]	_	_	_	_	
+6-6	190-196	skulle	*[7]	_	_	_	_	
+6-7	197-199	dö	*[7]	_	_	_	_	
+6-8	200-202	om	*[7]	_	_	_	_	
+6-9	203-206	han	*[7]	_	_	_	_	
+6-10	207-211	inte	*[7]	_	_	_	_	
+6-11	212-215	får	*[7]	_	_	_	_	
+6-12	216-220	vård	*[7]	_	_	_	_	
+6-13	221-222	-	_	_	_	_	_	
+6-14	223-226	men	_	_	_	_	_	
+6-15	227-232	anser	_	Source;Target	6-1;6-17[8]	false	4	
+6-16	233-236	att	_	_	_	_	_	
+6-17	237-240	han	*[8]	_	_	_	_	
+6-18	241-244	kan	*[8]	_	_	_	_	
+6-19	245-247	få	*[8]	_	_	_	_	
+6-20	248-251	det	*[8]	_	_	_	_	
+6-21	252-253	i	*[8]	_	_	_	_	
+6-22	254-258	sitt	*[8]	_	_	_	_	
+6-23	259-266	hemland	*[8]	_	_	_	_	
+6-24	266-267	.	_	_	_	_	_	
+
+#Text=Mannen vill dock fortsätta att få bistånd till vård och mediciner.
+7-1	268-274	Mannen	*	_	_	_	_	
+7-2	275-279	vill	_	Source;Target	7-1;7-4[9]	false	4	
+7-3	280-284	dock	_	_	_	_	_	
+7-4	285-294	fortsätta	*[9]	_	_	_	_	
+7-5	295-298	att	*[9]	_	_	_	_	
+7-6	299-301	få	*[9]	_	_	_	_	
+7-7	302-309	bistånd	*[9]	_	_	_	_	
+7-8	310-314	till	*[9]	_	_	_	_	
+7-9	315-319	vård	*[9]	_	_	_	_	
+7-10	320-323	och	*[9]	_	_	_	_	
+7-11	324-333	mediciner	*[9]	_	_	_	_	
+7-12	333-334	.	_	_	_	_	_	
+
+#Text=Han fick rätt i förvaltningsrätten men nu har kammarrätten rivit upp den domen och går på Migrationsverkets linje.
+8-1	335-338	Han	_	_	_	_	_	
+8-2	339-343	fick	_	_	_	_	_	
+8-3	344-348	rätt	_	_	_	_	_	
+8-4	349-350	i	_	_	_	_	_	
+8-5	351-369	förvaltningsrätten	_	_	_	_	_	
+8-6	370-373	men	_	_	_	_	_	
+8-7	374-376	nu	_	_	_	_	_	
+8-8	377-380	har	_	_	_	_	_	
+8-9	381-393	kammarrätten	_	_	_	_	_	
+8-10	394-399	rivit	_	_	_	_	_	
+8-11	400-403	upp	_	_	_	_	_	
+8-12	404-407	den	_	_	_	_	_	
+8-13	408-413	domen	_	_	_	_	_	
+8-14	414-417	och	_	_	_	_	_	
+8-15	418-421	går	_	_	_	_	_	
+8-16	422-424	på	_	_	_	_	_	
+8-17	425-442	Migrationsverkets	_	_	_	_	_	
+8-18	443-448	linje	_	_	_	_	_	
+8-19	448-449	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	451-452	#	_	_	_	_	_	
+9-2	452-453	P	_	_[5]	_	false[5]	3[5]	
+9-3	454-457	IMM	_	_[5]	_	false[5]	3[5]	
+9-4	457-458	.	_	_	_	_	_	
+
+#Text=Migrationsverket avslog den 38-årige mannens rätt till fortsatt ekonomiskt bistånd med motiveringen att det fanns ett beslut om att han skulle utvisas från Sverige och att tidsfristen för att frivilligt lämna landet hade löpt ut.".
+10-1	460-476	Migrationsverket	_	_	_	_	_	
+10-2	477-483	avslog	_	_	_	_	_	
+10-3	484-487	den	_	_	_	_	_	
+10-4	488-490	38	_	_	_	_	_	
+10-5	490-491	-	_	_	_	_	_	
+10-6	491-496	årige	_	_	_	_	_	
+10-7	497-504	mannens	_	_	_	_	_	
+10-8	505-509	rätt	_	_	_	_	_	
+10-9	510-514	till	_	_	_	_	_	
+10-10	515-523	fortsatt	_	_	_	_	_	
+10-11	524-534	ekonomiskt	_	_	_	_	_	
+10-12	535-542	bistånd	_	_	_	_	_	
+10-13	543-546	med	_	_	_	_	_	
+10-14	547-559	motiveringen	_	_	_	_	_	
+10-15	560-563	att	_	_	_	_	_	
+10-16	564-567	det	_	_	_	_	_	
+10-17	568-573	fanns	_	_	_	_	_	
+10-18	574-577	ett	_	_	_	_	_	
+10-19	578-584	beslut	_	_	_	_	_	
+10-20	585-587	om	_	_	_	_	_	
+10-21	588-591	att	_	_	_	_	_	
+10-22	592-595	han	_	_	_	_	_	
+10-23	596-602	skulle	_	_	_	_	_	
+10-24	603-610	utvisas	_	_	_	_	_	
+10-25	611-615	från	_	_	_	_	_	
+10-26	616-623	Sverige	_	_	_	_	_	
+10-27	624-627	och	_	_	_	_	_	
+10-28	628-631	att	_	_	_	_	_	
+10-29	632-643	tidsfristen	_	_	_	_	_	
+10-30	644-647	för	_	_	_	_	_	
+10-31	648-651	att	_	_	_	_	_	
+10-32	652-662	frivilligt	_	Target;Source	10-33[10];10-40	false	4	
+10-33	663-668	lämna	*[10]	_	_	_	_	
+10-34	669-675	landet	*[10]	_	_	_	_	
+10-35	676-680	hade	_	_	_	_	_	
+10-36	681-685	löpt	_	_	_	_	_	
+10-37	686-688	ut	_	_	_	_	_	
+10-38	688-689	.	_	_	_	_	_	
+10-39	689-690	"	_	_	_	_	_	
+10-40	690-691	.	*	_	_	_	_	
+
+#Text=#P IMM.
+11-1	693-694	#	_	_	_	_	_	
+11-2	694-695	P	_	_[6]	_	false[6]	3[6]	
+11-3	696-699	IMM	_	_[6]	_	false[6]	3[6]	
+11-4	699-700	.	_	_	_	_	_	
+
+#Text=Vad får domen för konsekvenser?.
+12-1	702-705	Vad	_	_	_	_	_	
+12-2	706-709	får	_	_	_	_	_	
+12-3	710-715	domen	_	_	_	_	_	
+12-4	716-719	för	_	_	_	_	_	
+12-5	720-732	konsekvenser	_	_	_	_	_	
+12-6	732-733	?	_	_	_	_	_	
+12-7	733-734	.	_	_	_	_	_	

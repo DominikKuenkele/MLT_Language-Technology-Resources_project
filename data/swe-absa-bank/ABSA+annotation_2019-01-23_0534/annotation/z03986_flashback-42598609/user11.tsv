@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Alexander Goldmann (Musiker mot rasism) Vem är han?
+3-1	18-27	Alexander	_	_	_	_	_	
+3-2	28-36	Goldmann	_	_	_	_	_	
+3-3	37-38	(	_	_	_	_	_	
+3-4	38-45	Musiker	*	_	_	_	_	
+3-5	46-49	mot	_	Source[1]	3-4	false[1]	1[1]	
+3-6	50-56	rasism	_	Source[1]	3-4	false[1]	1[1]	
+3-7	56-57	)	_	_	_	_	_	
+3-8	58-61	Vem	_	_	_	_	_	
+3-9	62-64	är	_	_	_	_	_	
+3-10	65-68	han	_	_	_	_	_	
+3-11	68-69	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	
+
+#Text=Någon som sitter inne på vem denna figur är?
+5-1	80-85	Någon	_	_	_	_	_	
+5-2	86-89	som	_	_	_	_	_	
+5-3	90-96	sitter	_	_	_	_	_	
+5-4	97-101	inne	_	_	_	_	_	
+5-5	102-104	på	_	_	_	_	_	
+5-6	105-108	vem	_	_	_	_	_	
+5-7	109-114	denna	_	_	_	_	_	
+5-8	115-120	figur	_	_	_	_	_	
+5-9	121-123	är	_	_	_	_	_	
+5-10	123-124	?	_	_	_	_	_	
+
+#Text=Enligt facebook jobbar han som gitarrlärare i Uddevalla och verkar vara från Uppsala?
+6-1	125-131	Enligt	_	_	_	_	_	
+6-2	132-140	facebook	_	_	_	_	_	
+6-3	141-147	jobbar	_	_	_	_	_	
+6-4	148-151	han	_	_	_	_	_	
+6-5	152-155	som	_	_	_	_	_	
+6-6	156-168	gitarrlärare	_	_	_	_	_	
+6-7	169-170	i	_	_	_	_	_	
+6-8	171-180	Uddevalla	_	_	_	_	_	
+6-9	181-184	och	_	_	_	_	_	
+6-10	185-191	verkar	_	_	_	_	_	
+6-11	192-196	vara	_	_	_	_	_	
+6-12	197-201	från	_	_	_	_	_	
+6-13	202-209	Uppsala	_	_	_	_	_	
+6-14	209-210	?	_	_	_	_	_	
+
+#Text=Eventuellt Jude?.
+7-1	211-221	Eventuellt	*[4]	_	_	_	_	
+7-2	222-226	Jude	*[4]	_	_	_	_	
+7-3	226-227	?	_	_	_	_	_	
+7-4	227-228	.	_	Target	7-1[4]	false	2	
+
+#Text=#P IMM.
+8-1	230-231	#	_	_	_	_	_	
+8-2	231-232	P	_	_	_	_	_	
+8-3	233-236	IMM	_	_	_	_	_	
+8-4	236-237	.	_	_	_	_	_	
+
+#Text=Kom igen nu, Fram med information!.
+9-1	239-242	Kom	_	_	_	_	_	
+9-2	243-247	igen	_	_	_	_	_	
+9-3	248-250	nu	_	_	_	_	_	
+9-4	250-251	,	_	_	_	_	_	
+9-5	252-256	Fram	_	_	_	_	_	
+9-6	257-260	med	_	_	_	_	_	
+9-7	261-272	information	_	_	_	_	_	
+9-8	272-273	!	_	_	_	_	_	
+9-9	273-274	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	276-277	#	_	_	_	_	_	
+10-2	277-278	P	_	_	_	_	_	
+10-3	279-282	IMM	_	_	_	_	_	
+10-4	282-283	.	_	_	_	_	_	
+
+#Text=Mod får gärna flytta om den ligger fel.
+11-1	285-288	Mod	*	_	_	_	_	
+11-2	289-292	får	_	Target[2]	11-1	false[2]	4[2]	
+11-3	293-298	gärna	_	Target[2]	11-1	false[2]	4[2]	
+11-4	299-305	flytta	_	Target[2]	11-1	false[2]	4[2]	
+11-5	306-308	om	_	_	_	_	_	
+11-6	309-312	den	*	_	_	_	_	
+11-7	313-319	ligger	_	Source;Target[3]	11-1;11-6	false[3]	2[3]	
+11-8	320-323	fel	_	Source;Target[3]	11-1;11-6	false[3]	2[3]	
+11-9	323-324	.	_	_	_	_	_	

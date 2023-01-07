@@ -1,0 +1,407 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Politisk klimatdiskussion  nödvändig efter branden.
+3-1	18-26	Politisk	_	_	_	_	_	_	
+3-2	27-43	klimatdiskussion	_	_	_	_	_	_	
+3-3	45-54	nödvändig	_	_	_	_	_	_	
+3-4	55-60	efter	_	_	_	_	_	_	
+3-5	61-68	branden	_	_	_	_	_	_	
+3-6	68-69	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	
+
+#Text=Sverige plågas just nu av den allvarligaste skogsbranden i modern tid.
+5-1	80-87	Sverige	_	_	_	_	_	_	
+5-2	88-94	plågas	_	Target	5-5[7]	false	2	_	
+5-3	95-99	just	_	_	_	_	_	_	
+5-4	100-102	nu	_	_	_	_	_	_	
+5-5	103-105	av	*[7]	_	_	_	_	_	
+5-6	106-109	den	*[7]	_	_	_	_	_	
+5-7	110-123	allvarligaste	*[7]	_	_	_	_	_	
+5-8	124-136	skogsbranden	*[7]	_	_	_	_	_	
+5-9	137-138	i	*[7]	_	_	_	_	_	
+5-10	139-145	modern	*[7]	_	_	_	_	_	
+5-11	146-149	tid	*[7]	_	_	_	_	_	
+5-12	149-150	.	_	_	_	_	_	_	
+
+#Text=Våra tankar går till de drabbade och vi känner stor tacksamhet gentemot den räddningspersonal som just nu arbetar för att släcka branden.
+6-1	151-155	Våra	_	_	_	_	_	_	
+6-2	156-162	tankar	_	_	_	_	_	_	
+6-3	163-166	går	_	_	_	_	_	_	
+6-4	167-171	till	_	_	_	_	_	_	
+6-5	172-174	de	_	_	_	_	_	_	
+6-6	175-183	drabbade	_	_	_	_	_	_	
+6-7	184-187	och	_	_	_	_	_	_	
+6-8	188-190	vi	*	_	_	_	_	_	
+6-9	191-197	känner	_	Target;Source[1]	6-13[8];6-8	false[1]	4[1]	_	
+6-10	198-202	stor	_	Target;Source[1]	6-13[8];6-8	false[1]	4[1]	_	
+6-11	203-213	tacksamhet	_	Target;Source[1]	6-13[8];6-8	false[1]	4[1]	_	
+6-12	214-222	gentemot	_	Target;Source[1]	6-13[8];6-8	false[1]	4[1]	_	
+6-13	223-226	den	*[8]	_	_	_	_	_	
+6-14	227-244	räddningspersonal	*[8]	_	_	_	_	_	
+6-15	245-248	som	*[8]	_	_	_	_	_	
+6-16	249-253	just	*[8]	_	_	_	_	_	
+6-17	254-256	nu	*[8]	_	_	_	_	_	
+6-18	257-264	arbetar	*[8]	_	_	_	_	_	
+6-19	265-268	för	*[8]	_	_	_	_	_	
+6-20	269-272	att	*[8]	_	_	_	_	_	
+6-21	273-279	släcka	*[8]	_	_	_	_	_	
+6-22	280-287	branden	*[8]	_	_	_	_	_	
+6-23	287-288	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	290-291	#	_	_	_	_	_	_	
+7-2	291-292	P	_	_	_	_	_	_	
+7-3	293-296	IMM	_	_	_	_	_	_	
+7-4	296-297	.	_	_	_	_	_	_	
+
+#Text=Miljöpartiet har i många år varnat för effekterna av klimatförändringarna.
+8-1	299-311	Miljöpartiet	_	_	_	_	_	_	
+8-2	312-315	har	_	_	_	_	_	_	
+8-3	316-317	i	_	_	_	_	_	_	
+8-4	318-323	många	_	_	_	_	_	_	
+8-5	324-326	år	_	_	_	_	_	_	
+8-6	327-333	varnat	_	_	_	_	_	_	
+8-7	334-337	för	_	_	_	_	_	_	
+8-8	338-348	effekterna	_	_	_	_	_	_	
+8-9	349-351	av	_	_	_	_	_	_	
+8-10	352-372	klimatförändringarna	_	_	_	_	_	_	
+8-11	372-373	.	_	_	_	_	_	_	
+
+#Text=Forskningen är entydig att extrema väderfenomen som torka och oväder och effekter som översvämningar och bränder riskerar att bli fler och allvarligare i framtiden.
+9-1	374-385	Forskningen	_	_	_	_	_	_	
+9-2	386-388	är	_	_	_	_	_	_	
+9-3	389-396	entydig	_	_	_	_	_	_	
+9-4	397-400	att	_	_	_	_	_	_	
+9-5	401-408	extrema	_	_	_	_	_	_	
+9-6	409-421	väderfenomen	_	_	_	_	_	_	
+9-7	422-425	som	_	_	_	_	_	_	
+9-8	426-431	torka	_	_	_	_	_	_	
+9-9	432-435	och	_	_	_	_	_	_	
+9-10	436-442	oväder	_	_	_	_	_	_	
+9-11	443-446	och	_	_	_	_	_	_	
+9-12	447-455	effekter	_	_	_	_	_	_	
+9-13	456-459	som	_	_	_	_	_	_	
+9-14	460-474	översvämningar	_	_	_	_	_	_	
+9-15	475-478	och	_	_	_	_	_	_	
+9-16	479-486	bränder	_	_	_	_	_	_	
+9-17	487-495	riskerar	_	_	_	_	_	_	
+9-18	496-499	att	_	_	_	_	_	_	
+9-19	500-503	bli	_	_	_	_	_	_	
+9-20	504-508	fler	_	_	_	_	_	_	
+9-21	509-512	och	_	_	_	_	_	_	
+9-22	513-525	allvarligare	_	_	_	_	_	_	
+9-23	526-527	i	_	_	_	_	_	_	
+9-24	528-537	framtiden	_	_	_	_	_	_	
+9-25	537-538	.	_	_	_	_	_	_	
+
+#Text=Vi har i flera år krävt mer pengar till Myndigheten för Samhällsskydd och Beredskap, MSB, just för att bättre kunna minimera skadorna efter extrema väderhändelser.
+10-1	539-541	Vi	_	_	_	_	_	_	
+10-2	542-545	har	_	_	_	_	_	_	
+10-3	546-547	i	_	_	_	_	_	_	
+10-4	548-553	flera	_	_	_	_	_	_	
+10-5	554-556	år	_	_	_	_	_	_	
+10-6	557-562	krävt	_	_	_	_	_	_	
+10-7	563-566	mer	_	_	_	_	_	_	
+10-8	567-573	pengar	_	_	_	_	_	_	
+10-9	574-578	till	_	_	_	_	_	_	
+10-10	579-590	Myndigheten	_	_	_	_	_	_	
+10-11	591-594	för	_	_	_	_	_	_	
+10-12	595-608	Samhällsskydd	_	_	_	_	_	_	
+10-13	609-612	och	_	_	_	_	_	_	
+10-14	613-622	Beredskap	_	_	_	_	_	_	
+10-15	622-623	,	_	_	_	_	_	_	
+10-16	624-627	MSB	_	_	_	_	_	_	
+10-17	627-628	,	_	_	_	_	_	_	
+10-18	629-633	just	_	_	_	_	_	_	
+10-19	634-637	för	_	_	_	_	_	_	
+10-20	638-641	att	_	_	_	_	_	_	
+10-21	642-648	bättre	_	_	_	_	_	_	
+10-22	649-654	kunna	_	_	_	_	_	_	
+10-23	655-663	minimera	_	_	_	_	_	_	
+10-24	664-672	skadorna	_	_	_	_	_	_	
+10-25	673-678	efter	_	_	_	_	_	_	
+10-26	679-686	extrema	_	_	_	_	_	_	
+10-27	687-701	väderhändelser	_	_	_	_	_	_	
+10-28	701-702	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	704-705	#	_	_	_	_	_	_	
+11-2	705-706	P	_	_	_	_	_	_	
+11-3	707-710	IMM	_	_	_	_	_	_	
+11-4	710-711	.	_	_	_	_	_	_	
+
+#Text=Simon Nyman skriver på AB debatt att han är upprörd över att Miljöpartiet diskuterar politik i samband med branden i Västmanland.
+12-1	713-718	Simon	*[9]	_	_	_	_	12-8[0_9]	
+12-2	719-724	Nyman	*[9]	_	_	_	_	_	
+12-3	725-732	skriver	_	_	_	_	_	_	
+12-4	733-735	på	_	_	_	_	_	_	
+12-5	736-738	AB	_	_	_	_	_	_	
+12-6	739-745	debatt	_	_	_	_	_	_	
+12-7	746-749	att	_	_	_	_	_	_	
+12-8	750-753	han	*	_	_	_	_	_	
+12-9	754-756	är	_	Source;Target[2]	12-8;12-12[10]	false[2]	2[2]	_	
+12-10	757-764	upprörd	_	Source;Target[2]	12-8;12-12[10]	false[2]	2[2]	_	
+12-11	765-769	över	_	Source;Target[2]	12-8;12-12[10]	false[2]	2[2]	_	
+12-12	770-773	att	*[10]	_	_	_	_	_	
+12-13	774-786	Miljöpartiet	*[10]	_	_	_	_	_	
+12-14	787-797	diskuterar	*[10]	_	_	_	_	_	
+12-15	798-805	politik	*[10]	_	_	_	_	_	
+12-16	806-807	i	*[10]	_	_	_	_	_	
+12-17	808-815	samband	*[10]	_	_	_	_	_	
+12-18	816-819	med	*[10]	_	_	_	_	_	
+12-19	820-827	branden	*[10]	_	_	_	_	_	
+12-20	828-829	i	*[10]	_	_	_	_	_	
+12-21	830-841	Västmanland	*[10]	_	_	_	_	_	
+12-22	841-842	.	_	_	_	_	_	_	
+
+#Text=Centerpartiets ordförande Annie Lööf har samtidigt uttalat att det är ”osmakligt” av Miljöpartiet att föreslå åtgärder för ökad krisberedskap under en pågående kris.
+13-1	843-857	Centerpartiets	*[11]	_	_	_	_	_	
+13-2	858-868	ordförande	*[11]	_	_	_	_	_	
+13-3	869-874	Annie	*[11]	_	_	_	_	_	
+13-4	875-879	Lööf	*[11]	_	_	_	_	_	
+13-5	880-883	har	_	_	_	_	_	_	
+13-6	884-893	samtidigt	_	_	_	_	_	_	
+13-7	894-901	uttalat	_	_	_	_	_	_	
+13-8	902-905	att	_	_	_	_	_	_	
+13-9	906-909	det	_	_	_	_	_	_	
+13-10	910-912	är	_	Source;Target[3]	13-1[11];13-14[12]	false[3]	2[3]	_	
+13-11	913-914	”	_	Source;Target[3]	13-1[11];13-14[12]	false[3]	2[3]	_	
+13-12	914-923	osmakligt	_	Source;Target[3]	13-1[11];13-14[12]	false[3]	2[3]	_	
+13-13	923-924	”	_	_	_	_	_	_	
+13-14	925-927	av	*[12]	_	_	_	_	_	
+13-15	928-940	Miljöpartiet	*[12]	_	_	_	_	_	
+13-16	941-944	att	*[12]	_	_	_	_	_	
+13-17	945-952	föreslå	*[12]	_	_	_	_	_	
+13-18	953-961	åtgärder	*[12]	_	_	_	_	_	
+13-19	962-965	för	*[12]	_	_	_	_	_	
+13-20	966-970	ökad	*[12]	_	_	_	_	_	
+13-21	971-984	krisberedskap	*[12]	_	_	_	_	_	
+13-22	985-990	under	*[12]	_	_	_	_	_	
+13-23	991-993	en	*[12]	_	_	_	_	_	
+13-24	994-1002	pågående	*[12]	_	_	_	_	_	
+13-25	1003-1007	kris	*[12]	_	_	_	_	_	
+13-26	1007-1008	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1010-1011	#	_	_	_	_	_	_	
+14-2	1011-1012	P	_	_	_	_	_	_	
+14-3	1013-1016	IMM	_	_	_	_	_	_	
+14-4	1016-1017	.	_	_	_	_	_	_	
+
+#Text=Försvarsministern har gjort liknande kommentarer.
+15-1	1019-1036	Försvarsministern	_	_	_	_	_	_	
+15-2	1037-1040	har	_	_	_	_	_	_	
+15-3	1041-1046	gjort	_	_	_	_	_	_	
+15-4	1047-1055	liknande	_	_	_	_	_	_	
+15-5	1056-1067	kommentarer	_	_	_	_	_	_	
+15-6	1067-1068	.	_	_	_	_	_	_	
+
+#Text=Men att diskutera hur vi ska kunna rusta Sverige och förhindra att extrem torka, oväder och svåra stormar får lika stora eller större konsekvenser i framtiden kan aldrig vara osmakligt.
+16-1	1069-1072	Men	_	_	_	_	_	_	
+16-2	1073-1076	att	*[13]	_	_	_	_	_	
+16-3	1077-1086	diskutera	*[13]	_	_	_	_	_	
+16-4	1087-1090	hur	*[13]	_	_	_	_	_	
+16-5	1091-1093	vi	*[13]	_	_	_	_	_	
+16-6	1094-1097	ska	*[13]	_	_	_	_	_	
+16-7	1098-1103	kunna	*[13]	_	_	_	_	_	
+16-8	1104-1109	rusta	*[13]	_	_	_	_	_	
+16-9	1110-1117	Sverige	*[13]	_	_	_	_	_	
+16-10	1118-1121	och	*[13]	_	_	_	_	_	
+16-11	1122-1131	förhindra	*[13]	_	_	_	_	_	
+16-12	1132-1135	att	*[13]	_	_	_	_	_	
+16-13	1136-1142	extrem	*[13]	_	_	_	_	_	
+16-14	1143-1148	torka	*[13]	_	_	_	_	_	
+16-15	1148-1149	,	*[13]	_	_	_	_	_	
+16-16	1150-1156	oväder	*[13]	_	_	_	_	_	
+16-17	1157-1160	och	*[13]	_	_	_	_	_	
+16-18	1161-1166	svåra	*[13]	_	_	_	_	_	
+16-19	1167-1174	stormar	*[13]	_	_	_	_	_	
+16-20	1175-1178	får	*[13]	_	_	_	_	_	
+16-21	1179-1183	lika	*[13]	_	_	_	_	_	
+16-22	1184-1189	stora	*[13]	_	_	_	_	_	
+16-23	1190-1195	eller	*[13]	_	_	_	_	_	
+16-24	1196-1202	större	*[13]	_	_	_	_	_	
+16-25	1203-1215	konsekvenser	*[13]	_	_	_	_	_	
+16-26	1216-1217	i	*[13]	_	_	_	_	_	
+16-27	1218-1227	framtiden	*[13]	_	_	_	_	_	
+16-28	1228-1231	kan	_	Target[4]	16-2[13]	false[4]	4[4]	_	
+16-29	1232-1238	aldrig	_	Target[4]	16-2[13]	false[4]	4[4]	_	
+16-30	1239-1243	vara	_	Target[4]	16-2[13]	false[4]	4[4]	_	
+16-31	1244-1253	osmakligt	_	Target[4]	16-2[13]	false[4]	4[4]	_	
+16-32	1253-1254	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1256-1257	#	_	_	_	_	_	_	
+17-2	1257-1258	P	_	_	_	_	_	_	
+17-3	1259-1262	IMM	_	_	_	_	_	_	
+17-4	1262-1263	.	_	_	_	_	_	_	
+
+#Text=Det är frågor som är berättigade, och det är en diskussion som ingen borde vilja tysta.
+18-1	1265-1268	Det	_	_	_	_	_	_	
+18-2	1269-1271	är	_	_	_	_	_	_	
+18-3	1272-1278	frågor	*	_	_	_	_	18-4	
+18-4	1279-1282	som	*	_	_	_	_	_	
+18-5	1283-1285	är	_	Target[5]	18-4	false[5]	4[5]	_	
+18-6	1286-1297	berättigade	_	Target[5]	18-4	false[5]	4[5]	_	
+18-7	1297-1298	,	_	_	_	_	_	_	
+18-8	1299-1302	och	_	_	_	_	_	_	
+18-9	1303-1306	det	_	_	_	_	_	_	
+18-10	1307-1309	är	_	_	_	_	_	_	
+18-11	1310-1312	en	_	_	_	_	_	_	
+18-12	1313-1323	diskussion	_	_	_	_	_	_	
+18-13	1324-1327	som	_	_	_	_	_	_	
+18-14	1328-1333	ingen	_	_	_	_	_	_	
+18-15	1334-1339	borde	_	_	_	_	_	_	
+18-16	1340-1345	vilja	_	_	_	_	_	_	
+18-17	1346-1351	tysta	_	_	_	_	_	_	
+18-18	1351-1352	.	_	_	_	_	_	_	
+
+#Text=Och när ska de framtida hoten mot Sverige diskuteras om inte just när vi ser konsekvenserna, när vi nås av insikten om hur extrema väderhändelser hotar människors hälsa och stora samhällsvärden?
+19-1	1353-1356	Och	_	_	_	_	_	_	
+19-2	1357-1360	när	_	_	_	_	_	_	
+19-3	1361-1364	ska	_	_	_	_	_	_	
+19-4	1365-1367	de	_	_	_	_	_	_	
+19-5	1368-1376	framtida	_	_	_	_	_	_	
+19-6	1377-1382	hoten	_	_	_	_	_	_	
+19-7	1383-1386	mot	_	_	_	_	_	_	
+19-8	1387-1394	Sverige	_	_	_	_	_	_	
+19-9	1395-1405	diskuteras	_	_	_	_	_	_	
+19-10	1406-1408	om	_	_	_	_	_	_	
+19-11	1409-1413	inte	_	_	_	_	_	_	
+19-12	1414-1418	just	_	_	_	_	_	_	
+19-13	1419-1422	när	_	_	_	_	_	_	
+19-14	1423-1425	vi	_	_	_	_	_	_	
+19-15	1426-1429	ser	_	_	_	_	_	_	
+19-16	1430-1444	konsekvenserna	_	_	_	_	_	_	
+19-17	1444-1445	,	_	_	_	_	_	_	
+19-18	1446-1449	när	_	_	_	_	_	_	
+19-19	1450-1452	vi	_	_	_	_	_	_	
+19-20	1453-1456	nås	_	_	_	_	_	_	
+19-21	1457-1459	av	_	_	_	_	_	_	
+19-22	1460-1468	insikten	_	_	_	_	_	_	
+19-23	1469-1471	om	_	_	_	_	_	_	
+19-24	1472-1475	hur	_	_	_	_	_	_	
+19-25	1476-1483	extrema	_	_	_	_	_	_	
+19-26	1484-1498	väderhändelser	_	_	_	_	_	_	
+19-27	1499-1504	hotar	_	_	_	_	_	_	
+19-28	1505-1515	människors	_	_	_	_	_	_	
+19-29	1516-1521	hälsa	_	_	_	_	_	_	
+19-30	1522-1525	och	_	_	_	_	_	_	
+19-31	1526-1531	stora	_	_	_	_	_	_	
+19-32	1532-1546	samhällsvärden	_	_	_	_	_	_	
+19-33	1546-1547	?	_	_	_	_	_	_	
+
+#Text=Klimatförändringen påverkar oss och skapar lidande varje dag, innebär det att den aldrig får diskuteras?
+20-1	1548-1566	Klimatförändringen	_	_	_	_	_	_	
+20-2	1567-1575	påverkar	_	_	_	_	_	_	
+20-3	1576-1579	oss	_	_	_	_	_	_	
+20-4	1580-1583	och	_	_	_	_	_	_	
+20-5	1584-1590	skapar	_	_	_	_	_	_	
+20-6	1591-1598	lidande	_	_	_	_	_	_	
+20-7	1599-1604	varje	_	_	_	_	_	_	
+20-8	1605-1608	dag	_	_	_	_	_	_	
+20-9	1608-1609	,	_	_	_	_	_	_	
+20-10	1610-1617	innebär	*[14]	_	_	_	_	21-1[0_14]	
+20-11	1618-1621	det	*[14]	_	_	_	_	_	
+20-12	1622-1625	att	*[14]	_	_	_	_	_	
+20-13	1626-1629	den	*[14]	_	_	_	_	_	
+20-14	1630-1636	aldrig	*[14]	_	_	_	_	_	
+20-15	1637-1640	får	*[14]	_	_	_	_	_	
+20-16	1641-1651	diskuteras	*[14]	_	_	_	_	_	
+20-17	1651-1652	?	_	_	_	_	_	_	
+
+#Text=Det kan inte vara en rimlig slutsats.
+21-1	1653-1656	Det	*	_	_	_	_	_	
+21-2	1657-1660	kan	_	Target[6]	21-1	false[6]	2[6]	_	
+21-3	1661-1665	inte	_	Target[6]	21-1	false[6]	2[6]	_	
+21-4	1666-1670	vara	_	Target[6]	21-1	false[6]	2[6]	_	
+21-5	1671-1673	en	_	Target[6]	21-1	false[6]	2[6]	_	
+21-6	1674-1680	rimlig	_	Target[6]	21-1	false[6]	2[6]	_	
+21-7	1681-1689	slutsats	_	Target[6]	21-1	false[6]	2[6]	_	
+21-8	1689-1690	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1692-1693	#	_	_	_	_	_	_	
+22-2	1693-1694	P	_	_	_	_	_	_	
+22-3	1695-1698	IMM	_	_	_	_	_	_	
+22-4	1698-1699	.	_	_	_	_	_	_	
+
+#Text=Vi hoppas alla att branden i Västmanland snart ska kunna släckas.
+23-1	1701-1703	Vi	_	_	_	_	_	_	
+23-2	1704-1710	hoppas	_	_	_	_	_	_	
+23-3	1711-1715	alla	_	_	_	_	_	_	
+23-4	1716-1719	att	_	_	_	_	_	_	
+23-5	1720-1727	branden	_	_	_	_	_	_	
+23-6	1728-1729	i	_	_	_	_	_	_	
+23-7	1730-1741	Västmanland	_	_	_	_	_	_	
+23-8	1742-1747	snart	_	_	_	_	_	_	
+23-9	1748-1751	ska	_	_	_	_	_	_	
+23-10	1752-1757	kunna	_	_	_	_	_	_	
+23-11	1758-1765	släckas	_	_	_	_	_	_	
+23-12	1765-1766	.	_	_	_	_	_	_	
+
+#Text=Men vi måste också börja arbeta idag för att vi i framtiden ska stå bättre rustade för den typen av händelser.
+24-1	1767-1770	Men	_	_	_	_	_	_	
+24-2	1771-1773	vi	_	_	_	_	_	_	
+24-3	1774-1779	måste	_	_	_	_	_	_	
+24-4	1780-1785	också	_	_	_	_	_	_	
+24-5	1786-1791	börja	_	_	_	_	_	_	
+24-6	1792-1798	arbeta	_	_	_	_	_	_	
+24-7	1799-1803	idag	_	_	_	_	_	_	
+24-8	1804-1807	för	_	_	_	_	_	_	
+24-9	1808-1811	att	_	_	_	_	_	_	
+24-10	1812-1814	vi	_	_	_	_	_	_	
+24-11	1815-1816	i	_	_	_	_	_	_	
+24-12	1817-1826	framtiden	_	_	_	_	_	_	
+24-13	1827-1830	ska	_	_	_	_	_	_	
+24-14	1831-1834	stå	_	_	_	_	_	_	
+24-15	1835-1841	bättre	_	_	_	_	_	_	
+24-16	1842-1849	rustade	_	_	_	_	_	_	
+24-17	1850-1853	för	_	_	_	_	_	_	
+24-18	1854-1857	den	_	_	_	_	_	_	
+24-19	1858-1863	typen	_	_	_	_	_	_	
+24-20	1864-1866	av	_	_	_	_	_	_	
+24-21	1867-1876	händelser	_	_	_	_	_	_	
+24-22	1876-1877	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1879-1880	#	_	_	_	_	_	_	
+25-2	1880-1881	P	_	_	_	_	_	_	
+25-3	1882-1885	IMM	_	_	_	_	_	_	
+25-4	1885-1886	.	_	_	_	_	_	_	
+
+#Text=Per Bolund.
+26-1	1888-1891	Per	_	_	_	_	_	_	
+26-2	1892-1898	Bolund	_	_	_	_	_	_	
+26-3	1898-1899	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1901-1902	#	_	_	_	_	_	_	
+27-2	1902-1903	P	_	_	_	_	_	_	
+27-3	1904-1907	IMM	_	_	_	_	_	_	
+27-4	1907-1908	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+28-1	1910-1915	FAKTA	_	_	_	_	_	_	
+28-2	1915-1916	.	_	_	_	_	_	_	

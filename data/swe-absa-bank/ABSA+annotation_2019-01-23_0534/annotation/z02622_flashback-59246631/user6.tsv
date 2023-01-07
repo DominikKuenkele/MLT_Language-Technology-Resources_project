@@ -1,0 +1,152 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	3[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	3[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Anders Borg ångrar migrationsuppgörelsen!
+3-1	18-24	Anders	*[8]	_	_	_	_	
+3-2	25-29	Borg	*[8]	_	_	_	_	
+3-3	30-36	ångrar	_	Target;Source	3-4;3-1[8]	false	2	
+3-4	37-58	migrationsuppgörelsen	*	_	_	_	_	
+3-5	58-59	!	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_[3]	_	false[3]	3[3]	
+4-2	62-63	P	_	_[3]	_	false[3]	3[3]	
+4-3	64-67	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	67-68	.	_	_	_	_	_	
+
+#Text=Anders Borg ångrar nu alltså migrationsuppgörelsen!.
+5-1	70-76	Anders	*[9]|*[10]	_	_	_	_	
+5-2	77-81	Borg	*[9]|*[10]	_	_	_	_	
+5-3	82-88	ångrar	_	Target;Source	5-6;5-1[9]	false	2	
+5-4	89-91	nu	_	_	_	_	_	
+5-5	92-98	alltså	_	_	_	_	_	
+5-6	99-120	migrationsuppgörelsen	*	_	_	_	_	
+5-7	120-121	!	_	_	_	_	_	
+5-8	121-122	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	124-125	#	_	_	_	_	_	
+6-2	125-126	P	_	_	_	_	_	
+6-3	127-130	IMM	_	_	_	_	_	
+6-4	130-131	.	_	_	_	_	_	
+
+#Text=Genuint, taktiskt, eller bara naturlig "vända kappan efter vinden"- agerande?.
+7-1	133-140	Genuint	_	_	_	_	_	
+7-2	140-141	,	_	_	_	_	_	
+7-3	142-150	taktiskt	_	_	_	_	_	
+7-4	150-151	,	_	_	_	_	_	
+7-5	152-157	eller	_	_	_	_	_	
+7-6	158-162	bara	_	_	_	_	_	
+7-7	163-171	naturlig	_	Target	7-8[11]	false	3	
+7-8	172-173	"	*[11]	_	_	_	_	
+7-9	173-178	vända	*[11]	_	_	_	_	
+7-10	179-185	kappan	*[11]	_	_	_	_	
+7-11	186-191	efter	*[11]	_	_	_	_	
+7-12	192-198	vinden	*[11]	_	_	_	_	
+7-13	198-199	"	*[11]	_	_	_	_	
+7-14	199-200	-	*[11]	_	_	_	_	
+7-15	201-209	agerande	*[11]	_	_	_	_	
+7-16	209-210	?	_	_	_	_	_	
+7-17	210-211	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	213-214	#	_	_	_	_	_	
+8-2	214-215	P	_	_	_	_	_	
+8-3	216-219	IMM	_	_	_	_	_	
+8-4	219-220	.	_	_	_	_	_	
+
+#Text=Vad betyder det att en så pass tung spelare från Regeringen Reinfeld nu gör någon slags pudel!.
+9-1	222-225	Vad	_	_	_	_	_	
+9-2	226-233	betyder	_	_	_	_	_	
+9-3	234-237	det	_	_	_	_	_	
+9-4	238-241	att	_	_	_	_	_	
+9-5	242-244	en	_	_	_	_	_	
+9-6	245-247	så	_	_	_	_	_	
+9-7	248-252	pass	_	_	_	_	_	
+9-8	253-257	tung	_	Target[4]	5-1[10]	false[4]	4[4]	
+9-9	258-265	spelare	_	Target[4]	5-1[10]	false[4]	4[4]	
+9-10	266-270	från	_	Target[4]	5-1[10]	false[4]	4[4]	
+9-11	271-281	Regeringen	_	Target[4]	5-1[10]	false[4]	4[4]	
+9-12	282-290	Reinfeld	_	Target[4]	5-1[10]	false[4]	4[4]	
+9-13	291-293	nu	_	_	_	_	_	
+9-14	294-297	gör	_	_	_	_	_	
+9-15	298-303	någon	_	_	_	_	_	
+9-16	304-309	slags	_	_	_	_	_	
+9-17	310-315	pudel	_	_	_	_	_	
+9-18	315-316	!	_	_	_	_	_	
+9-19	316-317	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	319-320	#	_	_[5]	_	false[5]	3[5]	
+10-2	320-321	P	_	_[5]	_	false[5]	3[5]	
+10-3	322-325	IMM	_	_[5]	_	false[5]	3[5]	
+10-4	325-326	.	_	_	_	_	_	
+
+#Text=Att dagens moderater är kritiska mot partiets tidigare flyktingpolitik vet vi!.
+11-1	328-331	Att	_	_	_	_	_	
+11-2	332-338	dagens	*[12]	_	_	_	_	
+11-3	339-348	moderater	*[12]	_	_	_	_	
+11-4	349-351	är	_	Target;Source[6]	11-7[13];11-2[12]	false[6]	2[6]	
+11-5	352-360	kritiska	_	Target;Source[6]	11-7[13];11-2[12]	false[6]	2[6]	
+11-6	361-364	mot	_	Target;Source[6]	11-7[13];11-2[12]	false[6]	2[6]	
+11-7	365-373	partiets	*[13]	_	_	_	_	
+11-8	374-382	tidigare	*[13]	_	_	_	_	
+11-9	383-398	flyktingpolitik	*[13]	_	_	_	_	
+11-10	399-402	vet	_	_	_	_	_	
+11-11	403-405	vi	_	_	_	_	_	
+11-12	405-406	!	_	_	_	_	_	
+11-13	406-407	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	409-410	#	_	_	_	_	_	
+12-2	410-411	P	_	_	_	_	_	
+12-3	412-415	IMM	_	_	_	_	_	
+12-4	415-416	.	_	_	_	_	_	
+
+#Text=Kommer nu fler direkt ansvariga politiker göra avbön?.
+13-1	418-424	Kommer	_	_	_	_	_	
+13-2	425-427	nu	_	_	_	_	_	
+13-3	428-432	fler	_	_	_	_	_	
+13-4	433-439	direkt	_	_	_	_	_	
+13-5	440-449	ansvariga	_	_	_	_	_	
+13-6	450-459	politiker	_	_	_	_	_	
+13-7	460-464	göra	_	_	_	_	_	
+13-8	465-470	avbön	_	_	_	_	_	
+13-9	470-471	?	_	_	_	_	_	
+13-10	471-472	.	_	_	_	false	3	
+
+#Text=#P IMM.
+14-1	474-475	#	_	_	_	_	_	
+14-2	475-476	P	_	_	_	_	_	
+14-3	477-480	IMM	_	_	_	_	_	
+14-4	480-481	.	_	_	_	_	_	
+
+#Text=Och, kommer det vara oundvikligt för Reinfeld att göra samma sak?.
+15-1	483-486	Och	_	_	_	_	_	
+15-2	486-487	,	_	_	_	_	_	
+15-3	488-494	kommer	_	_	_	_	_	
+15-4	495-498	det	_	_	_	_	_	
+15-5	499-503	vara	_	Target[7]	15-7[14]	false[7]	3[7]	
+15-6	504-515	oundvikligt	_	Target[7]	15-7[14]	false[7]	3[7]	
+15-7	516-519	för	*[14]	_	_	_	_	
+15-8	520-528	Reinfeld	*[14]	_	_	_	_	
+15-9	529-532	att	*[14]	_	_	_	_	
+15-10	533-537	göra	*[14]	_	_	_	_	
+15-11	538-543	samma	*[14]	_	_	_	_	
+15-12	544-547	sak	*[14]	_	_	_	_	
+15-13	547-548	?	_	_	_	_	_	
+15-14	548-549	.	_	_	_	_	_	

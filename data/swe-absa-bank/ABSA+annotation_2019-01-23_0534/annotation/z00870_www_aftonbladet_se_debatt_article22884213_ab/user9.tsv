@@ -1,0 +1,825 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Gamla go'a Göteborg  tog GP till giljotinen.
+3-1	18-23	Gamla	_	_	_	_	_	_	_	
+3-2	24-28	go'a	_	Target	3-3	false	4	_	_	
+3-3	29-37	Göteborg	*	_	_	_	_	_	_	
+3-4	39-42	tog	_	_	_	_	_	_	_	
+3-5	43-45	GP	_	_	_	_	_	_	_	
+3-6	46-50	till	_	_	_	_	_	_	_	
+3-7	51-61	giljotinen	_	_	_	_	_	_	_	
+3-8	61-62	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Standardförklaring på Stampens nedgång och fall är enkel: genom att ge sig in i en storsatsning på pappersmedia när digitaliseringen redan slagit till dömde koncernen sig själv till döden.
+5-1	73-91	Standardförklaring	_	_	_	_	_	_	_	
+5-2	92-94	på	_	_	_	_	_	_	_	
+5-3	95-103	Stampens	_	_	_	_	_	_	_	
+5-4	104-111	nedgång	_	_	_	_	_	_	_	
+5-5	112-115	och	_	_	_	_	_	_	_	
+5-6	116-120	fall	_	_	_	_	_	_	_	
+5-7	121-123	är	_	_	_	_	_	_	_	
+5-8	124-129	enkel	_	_	_	_	_	_	_	
+5-9	129-130	:	_	_	_	_	_	_	_	
+5-10	131-136	genom	*[10]	_	_	_	_	_	_	
+5-11	137-140	att	*[10]	_	_	_	_	_	_	
+5-12	141-143	ge	*[10]	_	_	_	_	_	_	
+5-13	144-147	sig	*[10]	_	_	_	_	_	_	
+5-14	148-150	in	*[10]	_	_	_	_	_	_	
+5-15	151-152	i	*[10]	_	_	_	_	_	_	
+5-16	153-155	en	*[10]	_	_	_	_	_	_	
+5-17	156-168	storsatsning	*[10]	_	_	_	_	_	_	
+5-18	169-171	på	*[10]	_	_	_	_	_	_	
+5-19	172-184	pappersmedia	*[10]	_	_	_	_	_	_	
+5-20	185-188	när	*[10]	_	_	_	_	_	_	
+5-21	189-205	digitaliseringen	*[10]	_	_	_	_	_	_	
+5-22	206-211	redan	*[10]	_	_	_	_	_	_	
+5-23	212-218	slagit	*[10]	_	_	_	_	_	_	
+5-24	219-223	till	*[10]	_	_	_	_	_	_	
+5-25	224-229	dömde	_	_	_	false	2	_	_	
+5-26	230-239	koncernen	_	_	_	_	_	_	_	
+5-27	240-243	sig	_	Target[1]	5-10[10]	false[1]	2[1]	5-25[0_1]	_	
+5-28	244-249	själv	_	Target[1]	5-10[10]	false[1]	2[1]	_	_	
+5-29	250-254	till	_	Target[1]	5-10[10]	false[1]	2[1]	_	_	
+5-30	255-260	döden	_	Target[1]	5-10[10]	false[1]	2[1]	_	_	
+5-31	260-261	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	263-264	#	_	_	_	_	_	_	_	
+6-2	264-265	P	_	_	_	_	_	_	_	
+6-3	266-269	IMM	_	_	_	_	_	_	_	
+6-4	269-270	.	_	_	_	_	_	_	_	
+
+#Text=När utdelningar prioriterades i stället för konsolidering oljade ledningen dessutom in maskineriet på giljotinen.
+7-1	272-275	När	_	_	_	_	_	_	_	
+7-2	276-287	utdelningar	_	_	_	_	_	_	_	
+7-3	288-301	prioriterades	_	_	_	_	_	_	_	
+7-4	302-303	i	_	_	_	_	_	_	_	
+7-5	304-311	stället	_	_	_	_	_	_	_	
+7-6	312-315	för	_	_	_	_	_	_	_	
+7-7	316-329	konsolidering	_	_	_	_	_	_	_	
+7-8	330-336	oljade	_	_	_	_	_	_	_	
+7-9	337-346	ledningen	_	_	_	_	_	_	_	
+7-10	347-355	dessutom	_	_	_	_	_	_	_	
+7-11	356-358	in	_	_	_	_	_	_	_	
+7-12	359-370	maskineriet	_	_	_	_	_	_	_	
+7-13	371-373	på	_	_	_	_	_	_	_	
+7-14	374-384	giljotinen	_	_	_	_	_	_	_	
+7-15	384-385	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	387-388	#	_	_	_	_	_	_	_	
+8-2	388-389	P	_	_	_	_	_	_	_	
+8-3	390-393	IMM	_	_	_	_	_	_	_	
+8-4	393-394	.	_	_	_	_	_	_	_	
+
+#Text=Resonemanget rymmer mycket sanning, men den missar kärnan i den göteborgska diskussionen om det som hänt.
+9-1	396-408	Resonemanget	_	_	_	_	_	_	_	
+9-2	409-415	rymmer	_	_	_	_	_	_	_	
+9-3	416-422	mycket	_	_	_	_	_	_	_	
+9-4	423-430	sanning	_	_	_	_	_	_	_	
+9-5	430-431	,	_	_	_	_	_	_	_	
+9-6	432-435	men	_	_	_	_	_	_	_	
+9-7	436-439	den	_	_	_	_	_	_	_	
+9-8	440-446	missar	_	_	_	_	_	_	_	
+9-9	447-453	kärnan	_	_	_	_	_	_	_	
+9-10	454-455	i	_	_	_	_	_	_	_	
+9-11	456-459	den	_	_	_	_	_	_	_	
+9-12	460-471	göteborgska	_	_	_	_	_	_	_	
+9-13	472-484	diskussionen	_	_	_	_	_	_	_	
+9-14	485-487	om	_	_	_	_	_	_	_	
+9-15	488-491	det	_	_	_	_	_	_	_	
+9-16	492-495	som	_	_	_	_	_	_	_	
+9-17	496-500	hänt	_	_	_	_	_	_	_	
+9-18	500-501	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	503-504	#	_	_	_	_	_	_	_	
+10-2	504-505	P	_	_	_	_	_	_	_	
+10-3	506-509	IMM	_	_	_	_	_	_	_	
+10-4	509-510	.	_	_	_	_	_	_	_	
+
+#Text=När jag blev inbjuden att skriva den här artikeln var den viktigaste frågan just vad som sägs lokalt om katastrofen och vilka effekter den kan få.
+11-1	512-515	När	_	_	_	_	_	_	_	
+11-2	516-519	jag	_	_	_	_	_	_	_	
+11-3	520-524	blev	_	_	_	_	_	_	_	
+11-4	525-533	inbjuden	_	_	_	_	_	_	_	
+11-5	534-537	att	_	_	_	_	_	_	_	
+11-6	538-544	skriva	_	_	_	_	_	_	_	
+11-7	545-548	den	_	_	_	_	_	_	_	
+11-8	549-552	här	_	_	_	_	_	_	_	
+11-9	553-561	artikeln	_	_	_	_	_	_	_	
+11-10	562-565	var	_	_	_	_	_	_	_	
+11-11	566-569	den	_	_	_	_	_	_	_	
+11-12	570-580	viktigaste	_	_	_	_	_	_	_	
+11-13	581-587	frågan	_	_	_	_	_	_	_	
+11-14	588-592	just	_	_	_	_	_	_	_	
+11-15	593-596	vad	_	_	_	_	_	_	_	
+11-16	597-600	som	_	_	_	_	_	_	_	
+11-17	601-605	sägs	_	_	_	_	_	_	_	
+11-18	606-612	lokalt	_	_	_	_	_	_	_	
+11-19	613-615	om	_	_	_	_	_	_	_	
+11-20	616-627	katastrofen	_	_	_	_	_	_	_	
+11-21	628-631	och	_	_	_	_	_	_	_	
+11-22	632-637	vilka	_	_	_	_	_	_	_	
+11-23	638-646	effekter	_	_	_	_	_	_	_	
+11-24	647-650	den	_	_	_	_	_	_	_	
+11-25	651-654	kan	_	_	_	_	_	_	_	
+11-26	655-657	få	_	_	_	_	_	_	_	
+11-27	657-658	.	_	_	_	_	_	_	_	
+
+#Text=Försöker man få en översikt av de sociala flödena råder det på många håll en ren skadeglädje över att en tidning som för länge undvek att skriva om stadens viktigaste frågor till sist kollapsade.
+12-1	659-667	Försöker	_	_	_	_	_	_	_	
+12-2	668-671	man	_	_	_	_	_	_	_	
+12-3	672-674	få	_	_	_	_	_	_	_	
+12-4	675-677	en	_	_	_	_	_	_	_	
+12-5	678-686	översikt	_	_	_	_	_	_	_	
+12-6	687-689	av	_	_	_	_	_	_	_	
+12-7	690-692	de	_	_	_	_	_	_	_	
+12-8	693-700	sociala	_	_	_	_	_	_	_	
+12-9	701-708	flödena	_	_	_	_	_	_	_	
+12-10	709-714	råder	_	_	_	false	2	12-15[2_0]	_	
+12-11	715-718	det	_	_	_	_	_	_	_	
+12-12	719-721	på	*[11]	_	_	_	_	_	_	
+12-13	722-727	många	*[11]	_	_	_	_	_	_	
+12-14	728-732	håll	*[11]	_	_	_	_	_	_	
+12-15	733-735	en	_	Target;Source[2]	12-18[12];12-12[11]	false[2]	2[2]	_	_	
+12-16	736-739	ren	_	Target;Source[2]	12-18[12];12-12[11]	false[2]	2[2]	_	_	
+12-17	740-751	skadeglädje	_	Target;Source[2]	12-18[12];12-12[11]	false[2]	2[2]	_	_	
+12-18	752-756	över	*[12]	_	_	_	_	_	_	
+12-19	757-760	att	*[12]	_	_	_	_	_	_	
+12-20	761-763	en	*[12]	_	_	_	_	_	_	
+12-21	764-771	tidning	*[12]	_	_	_	_	_	_	
+12-22	772-775	som	*[12]	_	_	_	_	_	_	
+12-23	776-779	för	*[12]	_	_	_	_	_	_	
+12-24	780-785	länge	*[12]	_	_	_	_	_	_	
+12-25	786-792	undvek	*[12]	_	_	_	_	_	_	
+12-26	793-796	att	*[12]	_	_	_	_	_	_	
+12-27	797-803	skriva	*[12]	_	_	_	_	_	_	
+12-28	804-806	om	*[12]	_	_	_	_	_	_	
+12-29	807-814	stadens	*[12]	_	_	_	_	_	_	
+12-30	815-825	viktigaste	*[12]	_	_	_	_	_	_	
+12-31	826-832	frågor	*[12]	_	_	_	_	_	_	
+12-32	833-837	till	*[12]	_	_	_	_	_	_	
+12-33	838-842	sist	*[12]	_	_	_	_	_	_	
+12-34	843-853	kollapsade	*[12]	_	_	_	_	_	_	
+12-35	853-854	.	_	_	_	_	_	_	_	
+
+#Text=På andra håll ser man en oro över att informationsflödet kan förändras.
+13-1	855-857	På	*[13]	_	_	_	_	_	_	
+13-2	858-863	andra	*[13]	_	_	_	_	_	_	
+13-3	864-868	håll	*[13]	_	_	_	_	_	_	
+13-4	869-872	ser	_	_	_	_	_	_	_	
+13-5	873-876	man	_	_	_	_	_	_	_	
+13-6	877-879	en	_	Source;Target[3]	13-1[13];13-9[14]	false[3]	2[3]	_	_	
+13-7	880-883	oro	_	Source;Target[3]	13-1[13];13-9[14]	false[3]	2[3]	_	_	
+13-8	884-888	över	_	Source;Target[3]	13-1[13];13-9[14]	false[3]	2[3]	_	_	
+13-9	889-892	att	*[14]	_	_	_	_	_	_	
+13-10	893-911	informationsflödet	*[14]	_	_	_	_	_	_	
+13-11	912-915	kan	*[14]	_	_	_	_	_	_	
+13-12	916-925	förändras	*[14]	_	_	_	_	_	_	
+13-13	925-926	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	928-929	#	_	_	_	_	_	_	_	
+14-2	929-930	P	_	_	_	_	_	_	_	
+14-3	931-934	IMM	_	_	_	_	_	_	_	
+14-4	934-935	.	_	_	_	_	_	_	_	
+
+#Text=Men allt är tecken på att Göteborg befinner sig i förändring.
+15-1	937-940	Men	_	_	_	_	_	_	_	
+15-2	941-945	allt	_	_	_	_	_	_	_	
+15-3	946-948	är	_	_	_	_	_	_	_	
+15-4	949-955	tecken	_	_	_	_	_	_	_	
+15-5	956-958	på	_	_	_	_	_	_	_	
+15-6	959-962	att	_	_	_	_	_	_	_	
+15-7	963-971	Göteborg	_	_	_	_	_	_	_	
+15-8	972-980	befinner	_	_	_	_	_	_	_	
+15-9	981-984	sig	_	_	_	_	_	_	_	
+15-10	985-986	i	_	_	_	_	_	_	_	
+15-11	987-997	förändring	_	_	_	_	_	_	_	
+15-12	997-998	.	_	_	_	_	_	_	_	
+
+#Text=Det är stans traditionella samförstånds- och slutenhetskultur som faller sönder.
+16-1	999-1002	Det	_	_	_	_	_	_	_	
+16-2	1003-1005	är	_	_	_	_	_	_	_	
+16-3	1006-1011	stans	_	_	_	_	_	_	_	
+16-4	1012-1025	traditionella	_	_	_	_	_	_	_	
+16-5	1026-1038	samförstånds	_	_	_	_	_	_	_	
+16-6	1038-1039	-	_	_	_	_	_	_	_	
+16-7	1040-1043	och	_	_	_	_	_	_	_	
+16-8	1044-1060	slutenhetskultur	_	_	_	_	_	_	_	
+16-9	1061-1064	som	_	_	_	_	_	_	_	
+16-10	1065-1071	faller	_	_	_	_	_	_	_	
+16-11	1072-1078	sönder	_	_	_	_	_	_	_	
+16-12	1078-1079	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1081-1082	#	_	_	_	_	_	_	_	
+17-2	1082-1083	P	_	_	_	_	_	_	_	
+17-3	1084-1087	IMM	_	_	_	_	_	_	_	
+17-4	1087-1088	.	_	_	_	_	_	_	_	
+
+#Text=En gång i tiden var Harry Hjörnes koncept genialt.
+18-1	1090-1092	En	_	_	_	_	_	_	_	
+18-2	1093-1097	gång	_	_	_	_	_	_	_	
+18-3	1098-1099	i	_	_	_	_	_	_	_	
+18-4	1100-1105	tiden	_	_	_	_	_	_	_	
+18-5	1106-1109	var	_	_	_	false	4	_	_	
+18-6	1110-1115	Harry	*[15]	_	_	_	_	_	_	
+18-7	1116-1123	Hjörnes	*[15]	_	_	_	_	_	_	
+18-8	1124-1131	koncept	*[15]	_	_	_	_	_	_	
+18-9	1132-1139	genialt	_	Target	18-6[15]	false	4	18-5	_	
+18-10	1139-1140	.	_	_	_	_	_	_	_	
+
+#Text=Avpolitiserad journalistisk med mycket sport och känsla var en säker väg till framgång i rekordårens Sverige.
+19-1	1141-1154	Avpolitiserad	_	_	_	_	_	_	_	
+19-2	1155-1168	journalistisk	_	_	_	_	_	_	_	
+19-3	1169-1172	med	_	_	_	_	_	_	_	
+19-4	1173-1179	mycket	_	_	_	_	_	_	_	
+19-5	1180-1185	sport	_	_	_	_	_	_	_	
+19-6	1186-1189	och	_	_	_	_	_	_	_	
+19-7	1190-1196	känsla	_	_	_	_	_	_	_	
+19-8	1197-1200	var	_	_	_	_	_	_	_	
+19-9	1201-1203	en	_	_	_	_	_	_	_	
+19-10	1204-1209	säker	_	_	_	_	_	_	_	
+19-11	1210-1213	väg	_	_	_	_	_	_	_	
+19-12	1214-1218	till	_	_	_	_	_	_	_	
+19-13	1219-1227	framgång	_	_	_	_	_	_	_	
+19-14	1228-1229	i	_	_	_	_	_	_	_	
+19-15	1230-1241	rekordårens	_	_	_	_	_	_	_	
+19-16	1242-1249	Sverige	_	_	_	_	_	_	_	
+19-17	1249-1250	.	_	_	_	_	_	_	_	
+
+#Text=Samförståndet begränsade sig inte till tidningen, tvärtom var Hjörnes politiska position central när han och Torsten Henriksson drev igenom kommunens tillväxtstrategi under 1960-talet.
+20-1	1251-1264	Samförståndet	_	_	_	_	_	_	_	
+20-2	1265-1275	begränsade	_	_	_	_	_	_	_	
+20-3	1276-1279	sig	_	_	_	_	_	_	_	
+20-4	1280-1284	inte	_	_	_	_	_	_	_	
+20-5	1285-1289	till	_	_	_	_	_	_	_	
+20-6	1290-1299	tidningen	_	_	_	_	_	_	_	
+20-7	1299-1300	,	_	_	_	_	_	_	_	
+20-8	1301-1308	tvärtom	_	_	_	_	_	_	_	
+20-9	1309-1312	var	_	_	_	_	_	_	_	
+20-10	1313-1320	Hjörnes	_	_	_	_	_	_	_	
+20-11	1321-1330	politiska	_	_	_	_	_	_	_	
+20-12	1331-1339	position	_	_	_	_	_	_	_	
+20-13	1340-1347	central	_	_	_	_	_	_	_	
+20-14	1348-1351	när	_	_	_	_	_	_	_	
+20-15	1352-1355	han	_	_	_	_	_	_	_	
+20-16	1356-1359	och	_	_	_	_	_	_	_	
+20-17	1360-1367	Torsten	_	_	_	_	_	_	_	
+20-18	1368-1378	Henriksson	_	_	_	_	_	_	_	
+20-19	1379-1383	drev	_	_	_	_	_	_	_	
+20-20	1384-1390	igenom	_	_	_	_	_	_	_	
+20-21	1391-1400	kommunens	_	_	_	_	_	_	_	
+20-22	1401-1417	tillväxtstrategi	_	_	_	_	_	_	_	
+20-23	1418-1423	under	_	_	_	_	_	_	_	
+20-24	1424-1428	1960	_	_	_	_	_	_	_	
+20-25	1428-1429	-	_	_	_	_	_	_	_	
+20-26	1429-1434	talet	_	_	_	_	_	_	_	
+20-27	1434-1435	.	_	_	_	_	_	_	_	
+
+#Text=Men om samförståndet – Göteborgsandan – var effektiv under den expansiva tiden gjorde det också tidningens position allt känsligare på 2000-talet.
+21-1	1436-1439	Men	_	_	_	_	_	_	_	
+21-2	1440-1442	om	_	_	_	_	_	_	_	
+21-3	1443-1456	samförståndet	_	_	_	_	_	_	_	
+21-4	1457-1458	–	_	_	_	_	_	_	_	
+21-5	1459-1473	Göteborgsandan	_	_	_	_	_	_	_	
+21-6	1474-1475	–	_	_	_	_	_	_	_	
+21-7	1476-1479	var	_	_	_	_	_	_	_	
+21-8	1480-1488	effektiv	_	_	_	_	_	_	_	
+21-9	1489-1494	under	_	_	_	_	_	_	_	
+21-10	1495-1498	den	_	_	_	_	_	_	_	
+21-11	1499-1508	expansiva	_	_	_	_	_	_	_	
+21-12	1509-1514	tiden	_	_	_	_	_	_	_	
+21-13	1515-1521	gjorde	_	_	_	_	_	_	_	
+21-14	1522-1525	det	_	_	_	_	_	_	_	
+21-15	1526-1531	också	_	_	_	_	_	_	_	
+21-16	1532-1542	tidningens	_	_	_	_	_	_	_	
+21-17	1543-1551	position	_	_	_	_	_	_	_	
+21-18	1552-1556	allt	_	_	_	_	_	_	_	
+21-19	1557-1567	känsligare	_	_	_	_	_	_	_	
+21-20	1568-1570	på	_	_	_	_	_	_	_	
+21-21	1571-1575	2000	_	_	_	_	_	_	_	
+21-22	1575-1576	-	_	_	_	_	_	_	_	
+21-23	1576-1581	talet	_	_	_	_	_	_	_	
+21-24	1581-1582	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1584-1585	#	_	_	_	_	_	_	_	
+22-2	1585-1586	P	_	_	_	_	_	_	_	
+22-3	1587-1590	IMM	_	_	_	_	_	_	_	
+22-4	1590-1591	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är att Göteborgs situation blivit mer utsatt under de senaste decennierna.
+23-1	1593-1602	Problemet	_	Target[4]	23-3[16]	false[4]	2[4]	_	_	
+23-2	1603-1605	är	_	Target[4]	23-3[16]	false[4]	2[4]	_	_	
+23-3	1606-1609	att	*[16]	_	_	_	_	_	_	
+23-4	1610-1619	Göteborgs	*[16]	_	_	_	_	_	_	
+23-5	1620-1629	situation	*[16]	_	_	_	_	_	_	
+23-6	1630-1636	blivit	*[16]	_	_	_	_	_	_	
+23-7	1637-1640	mer	*[16]	_	_	_	_	_	_	
+23-8	1641-1647	utsatt	*[16]	_	_	_	_	_	_	
+23-9	1648-1653	under	*[16]	_	_	_	_	_	_	
+23-10	1654-1656	de	*[16]	_	_	_	_	_	_	
+23-11	1657-1664	senaste	*[16]	_	_	_	_	_	_	
+23-12	1665-1676	decennierna	*[16]	_	_	_	_	_	_	
+23-13	1676-1677	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1679-1680	#	_	_	_	_	_	_	_	
+24-2	1680-1681	P	_	_	_	_	_	_	_	
+24-3	1682-1685	IMM	_	_	_	_	_	_	_	
+24-4	1685-1686	.	_	_	_	_	_	_	_	
+
+#Text=Den snabba expansionen följdes av en medelklassutflyttning till kranskommunerna, vilket fick Göteborgs skattekraft att vika.
+25-1	1688-1691	Den	_	_	_	_	_	_	_	
+25-2	1692-1698	snabba	_	_	_	_	_	_	_	
+25-3	1699-1710	expansionen	_	_	_	_	_	_	_	
+25-4	1711-1718	följdes	_	_	_	_	_	_	_	
+25-5	1719-1721	av	_	_	_	_	_	_	_	
+25-6	1722-1724	en	_	_	_	_	_	_	_	
+25-7	1725-1746	medelklassutflyttning	_	_	_	_	_	_	_	
+25-8	1747-1751	till	_	_	_	_	_	_	_	
+25-9	1752-1767	kranskommunerna	_	_	_	_	_	_	_	
+25-10	1767-1768	,	_	_	_	_	_	_	_	
+25-11	1769-1775	vilket	_	_	_	_	_	_	_	
+25-12	1776-1780	fick	_	_	_	_	_	_	_	
+25-13	1781-1790	Göteborgs	_	_	_	_	_	_	_	
+25-14	1791-1802	skattekraft	_	_	_	_	_	_	_	
+25-15	1803-1806	att	_	_	_	_	_	_	_	
+25-16	1807-1811	vika	_	_	_	_	_	_	_	
+25-17	1811-1812	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1814-1815	#	_	_	_	_	_	_	_	
+26-2	1815-1816	P	_	_	_	_	_	_	_	
+26-3	1817-1820	IMM	_	_	_	_	_	_	_	
+26-4	1820-1821	.	_	_	_	_	_	_	_	
+
+#Text=Lite senare startade också den första flyktingvågen, vilket kraftigt ökade segregationen i staden.
+27-1	1823-1827	Lite	_	_	_	_	_	_	_	
+27-2	1828-1834	senare	_	_	_	_	_	_	_	
+27-3	1835-1843	startade	_	_	_	_	_	_	_	
+27-4	1844-1849	också	_	_	_	_	_	_	_	
+27-5	1850-1853	den	_	_	_	_	_	_	_	
+27-6	1854-1860	första	_	_	_	_	_	_	_	
+27-7	1861-1874	flyktingvågen	_	_	_	_	_	_	_	
+27-8	1874-1875	,	_	_	_	_	_	_	_	
+27-9	1876-1882	vilket	_	_	_	_	_	_	_	
+27-10	1883-1891	kraftigt	_	_	_	_	_	_	_	
+27-11	1892-1897	ökade	_	_	_	_	_	_	_	
+27-12	1898-1911	segregationen	_	_	_	_	_	_	_	
+27-13	1912-1913	i	_	_	_	_	_	_	_	
+27-14	1914-1920	staden	_	_	_	_	_	_	_	
+27-15	1920-1921	.	_	_	_	_	_	_	_	
+
+#Text=Efterhand som problemen växte ökade också komplexiteten och laddningen i dem.
+28-1	1922-1931	Efterhand	_	_	_	_	_	_	_	
+28-2	1932-1935	som	_	_	_	_	_	_	_	
+28-3	1936-1945	problemen	*	Target	28-3	false	2	_	_	
+28-4	1946-1951	växte	_	_	_	_	_	_	_	
+28-5	1952-1957	ökade	_	_	_	_	_	_	_	
+28-6	1958-1963	också	_	_	_	_	_	_	_	
+28-7	1964-1977	komplexiteten	_	_	_	_	_	_	_	
+28-8	1978-1981	och	_	_	_	_	_	_	_	
+28-9	1982-1992	laddningen	_	_	_	_	_	_	_	
+28-10	1993-1994	i	_	_	_	_	_	_	_	
+28-11	1995-1998	dem	_	_	_	_	_	_	_	
+28-12	1998-1999	.	_	_	_	_	_	_	_	
+
+#Text=Till det kom att kraven på de kommunala verksamheterna eskalerade, för i Göteborg valde politikerna att inte släppa taget om någonting.
+29-1	2000-2004	Till	_	_	_	_	_	_	_	
+29-2	2005-2008	det	_	_	_	_	_	_	_	
+29-3	2009-2012	kom	_	_	_	_	_	_	_	
+29-4	2013-2016	att	_	_	_	_	_	_	_	
+29-5	2017-2023	kraven	_	_	_	_	_	_	_	
+29-6	2024-2026	på	_	_	_	_	_	_	_	
+29-7	2027-2029	de	_	_	_	_	_	_	_	
+29-8	2030-2039	kommunala	_	_	_	_	_	_	_	
+29-9	2040-2054	verksamheterna	_	_	_	_	_	_	_	
+29-10	2055-2065	eskalerade	_	_	_	_	_	_	_	
+29-11	2065-2066	,	_	_	_	_	_	_	_	
+29-12	2067-2070	för	_	_	_	_	_	_	_	
+29-13	2071-2072	i	_	_	_	_	_	_	_	
+29-14	2073-2081	Göteborg	_	_	_	_	_	_	_	
+29-15	2082-2087	valde	_	_	_	_	_	_	_	
+29-16	2088-2099	politikerna	_	_	_	_	_	_	_	
+29-17	2100-2103	att	_	_	_	_	_	_	_	
+29-18	2104-2108	inte	_	_	_	_	_	_	_	
+29-19	2109-2115	släppa	_	_	_	_	_	_	_	
+29-20	2116-2121	taget	_	_	_	_	_	_	_	
+29-21	2122-2124	om	_	_	_	_	_	_	_	
+29-22	2125-2134	någonting	_	_	_	_	_	_	_	
+29-23	2134-2135	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2137-2138	#	_	_	_	_	_	_	_	
+30-2	2138-2139	P	_	_	_	_	_	_	_	
+30-3	2140-2143	IMM	_	_	_	_	_	_	_	
+30-4	2143-2144	.	_	_	_	_	_	_	_	
+
+#Text=Det gjorde också att utrymmet för misslyckade investeringar i bostäder, energi, arenor, spårvagnar med mera ökade.
+31-1	2146-2149	Det	_	_	_	_	_	_	_	
+31-2	2150-2156	gjorde	_	_	_	_	_	_	_	
+31-3	2157-2162	också	_	_	_	_	_	_	_	
+31-4	2163-2166	att	_	_	_	_	_	_	_	
+31-5	2167-2175	utrymmet	_	_	_	_	_	_	_	
+31-6	2176-2179	för	_	_	_	_	_	_	_	
+31-7	2180-2191	misslyckade	_	Target	31-8[17]	false	2	_	_	
+31-8	2192-2205	investeringar	*[17]	_	_	_	_	_	_	
+31-9	2206-2207	i	*[17]	_	_	_	_	_	_	
+31-10	2208-2216	bostäder	*[17]	_	_	_	_	_	_	
+31-11	2216-2217	,	*[17]	_	_	_	_	_	_	
+31-12	2218-2224	energi	*[17]	_	_	_	_	_	_	
+31-13	2224-2225	,	*[17]	_	_	_	_	_	_	
+31-14	2226-2232	arenor	*[17]	_	_	_	_	_	_	
+31-15	2232-2233	,	*[17]	_	_	_	_	_	_	
+31-16	2234-2244	spårvagnar	*[17]	_	_	_	_	_	_	
+31-17	2245-2248	med	*[17]	_	_	_	_	_	_	
+31-18	2249-2253	mera	*[17]	_	_	_	_	_	_	
+31-19	2254-2259	ökade	_	_	_	_	_	_	_	
+31-20	2259-2260	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom inledde den alltmer utsatta staden i början av 2000-talet en satsning på regionförstoring.
+32-1	2261-2269	Dessutom	_	_	_	_	_	_	_	
+32-2	2270-2277	inledde	_	_	_	_	_	_	_	
+32-3	2278-2281	den	_	_	_	_	_	_	_	
+32-4	2282-2289	alltmer	_	_	_	_	_	_	_	
+32-5	2290-2297	utsatta	_	_	_	_	_	_	_	
+32-6	2298-2304	staden	_	_	_	_	_	_	_	
+32-7	2305-2306	i	_	_	_	_	_	_	_	
+32-8	2307-2313	början	_	_	_	_	_	_	_	
+32-9	2314-2316	av	_	_	_	_	_	_	_	
+32-10	2317-2321	2000	_	_	_	_	_	_	_	
+32-11	2321-2322	-	_	_	_	_	_	_	_	
+32-12	2322-2327	talet	_	_	_	_	_	_	_	
+32-13	2328-2330	en	_	_	_	_	_	_	_	
+32-14	2331-2339	satsning	_	_	_	_	_	_	_	
+32-15	2340-2342	på	_	_	_	_	_	_	_	
+32-16	2343-2359	regionförstoring	_	_	_	_	_	_	_	
+32-17	2359-2360	.	_	_	_	_	_	_	_	
+
+#Text=Inom några år visade det sig att strategin var så misslyckad och impopulär att den lyckades väcka det Törnrosasovande politiska medvetandet i Göteborg.
+33-1	2361-2365	Inom	_	_	_	_	_	_	_	
+33-2	2366-2371	några	_	_	_	_	_	_	_	
+33-3	2372-2374	år	_	_	_	_	_	_	_	
+33-4	2375-2381	visade	_	_	_	_	_	_	_	
+33-5	2382-2385	det	_	_	_	_	_	_	_	
+33-6	2386-2389	sig	_	_	_	_	_	_	_	
+33-7	2390-2393	att	_	_	_	_	_	_	_	
+33-8	2394-2403	strategin	*	_	_	_	_	_	_	
+33-9	2404-2407	var	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-10	2408-2410	så	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-11	2411-2421	misslyckad	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-12	2422-2425	och	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-13	2426-2435	impopulär	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-14	2436-2439	att	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-15	2440-2443	den	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-16	2444-2452	lyckades	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-17	2453-2458	väcka	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-18	2459-2462	det	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-19	2463-2478	Törnrosasovande	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-20	2479-2488	politiska	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-21	2489-2500	medvetandet	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-22	2501-2502	i	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-23	2503-2511	Göteborg	_	Source;Target[5]	33-24;33-8	false[5]	2[5]	_	_	
+33-24	2511-2512	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2514-2515	#	_	_	_	_	_	_	_	
+34-2	2515-2516	P	_	_	_	_	_	_	_	
+34-3	2517-2520	IMM	_	_	_	_	_	_	_	
+34-4	2520-2521	.	_	_	_	_	_	_	_	
+
+#Text=Situationen ställde enorma krav på granskande journalistik och kritisk samhällsdebatt och GP:s nedärvda konsensuslinje var sällsamt olämplig för att klara den nya tiden.
+35-1	2523-2534	Situationen	_	_	_	_	_	_	_	
+35-2	2535-2542	ställde	_	_	_	_	_	_	_	
+35-3	2543-2549	enorma	_	_	_	_	_	_	_	
+35-4	2550-2554	krav	_	_	_	_	_	_	_	
+35-5	2555-2557	på	_	_	_	_	_	_	_	
+35-6	2558-2568	granskande	_	_	_	_	_	_	_	
+35-7	2569-2581	journalistik	_	_	_	_	_	_	_	
+35-8	2582-2585	och	_	_	_	_	_	_	_	
+35-9	2586-2593	kritisk	_	_	_	_	_	_	_	
+35-10	2594-2608	samhällsdebatt	_	_	_	_	_	_	_	
+35-11	2609-2612	och	_	_	_	_	_	_	_	
+35-12	2613-2615	GP	*[18]|*[19]	_	_	_	_	_	37-1[0_18]	
+35-13	2615-2616	:	*[18]|*[19]	_	_	_	_	_	_	
+35-14	2616-2617	s	*[18]|*[19]	_	_	_	_	_	_	
+35-15	2618-2626	nedärvda	*[18]|*[19]	_	_	_	_	_	_	
+35-16	2627-2641	konsensuslinje	*[18]|*[19]	_	_	_	_	_	_	
+35-17	2642-2645	var	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-18	2646-2654	sällsamt	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-19	2655-2663	olämplig	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-20	2664-2667	för	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-21	2668-2671	att	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-22	2672-2677	klara	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-23	2678-2681	den	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-24	2682-2685	nya	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-25	2686-2691	tiden	*[18]	Target[6]	35-12[19]	false[6]	2[6]	_	_	
+35-26	2691-2692	.	*[18]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2694-2695	#	_	_	_	_	_	_	_	
+36-2	2695-2696	P	_	_	_	_	_	_	_	
+36-3	2697-2700	IMM	_	_	_	_	_	_	_	
+36-4	2700-2701	.	_	_	_	_	_	_	_	
+
+#Text=Det skapade ett pyrande missnöje som fick upplagorna att falla samtidigt som utrymmet för konkurrenter ökade.
+37-1	2703-2706	Det	*	_	_	_	_	_	_	
+37-2	2707-2714	skapade	_	Target;Source[7]	37-1;37-17	false[7]	2[7]	_	_	
+37-3	2715-2718	ett	_	Target;Source[7]	37-1;37-17	false[7]	2[7]	_	_	
+37-4	2719-2726	pyrande	_	Target;Source[7]	37-1;37-17	false[7]	2[7]	_	_	
+37-5	2727-2735	missnöje	_	Target;Source[7]	37-1;37-17	false[7]	2[7]	_	_	
+37-6	2736-2739	som	_	_	_	_	_	_	_	
+37-7	2740-2744	fick	_	_	_	_	_	_	_	
+37-8	2745-2755	upplagorna	_	_	_	_	_	_	_	
+37-9	2756-2759	att	_	_	_	_	_	_	_	
+37-10	2760-2765	falla	_	_	_	_	_	_	_	
+37-11	2766-2775	samtidigt	_	_	_	_	_	_	_	
+37-12	2776-2779	som	_	_	_	_	_	_	_	
+37-13	2780-2788	utrymmet	_	_	_	_	_	_	_	
+37-14	2789-2792	för	_	_	_	_	_	_	_	
+37-15	2793-2805	konkurrenter	_	_	_	_	_	_	_	
+37-16	2806-2811	ökade	_	_	_	_	_	_	_	
+37-17	2811-2812	.	*	_	_	_	_	_	_	
+
+#Text=Ett stenhårt slag mot tidningens ledande ställning kom för tre år sedan.
+38-1	2813-2816	Ett	_	_	_	_	_	_	_	
+38-2	2817-2825	stenhårt	_	_	_	_	_	_	_	
+38-3	2826-2830	slag	_	_	_	_	_	_	_	
+38-4	2831-2834	mot	_	_	_	_	_	_	_	
+38-5	2835-2845	tidningens	_	_	_	_	_	_	_	
+38-6	2846-2853	ledande	_	_	_	_	_	_	_	
+38-7	2854-2863	ställning	_	_	_	_	_	_	_	
+38-8	2864-2867	kom	_	_	_	_	_	_	_	
+38-9	2868-2871	för	_	_	_	_	_	_	_	
+38-10	2872-2875	tre	_	_	_	_	_	_	_	
+38-11	2876-2878	år	_	_	_	_	_	_	_	
+38-12	2879-2884	sedan	_	_	_	_	_	_	_	
+38-13	2884-2885	.	_	_	_	_	_	_	_	
+
+#Text=GT hade länge betraktats som en lokal sportedition av Expressen, men i det enorma informationsvakuum som hade uppstått kunde den bortglömda tidningen bli opinionsledande genom att systematiskt driva frågan om trängselskatt och Västlänken.
+39-1	2886-2888	GT	_	_	_	_	_	_	_	
+39-2	2889-2893	hade	_	_	_	_	_	_	_	
+39-3	2894-2899	länge	_	_	_	_	_	_	_	
+39-4	2900-2910	betraktats	_	_	_	_	_	_	_	
+39-5	2911-2914	som	_	_	_	_	_	_	_	
+39-6	2915-2917	en	_	_	_	_	_	_	_	
+39-7	2918-2923	lokal	_	_	_	_	_	_	_	
+39-8	2924-2936	sportedition	_	_	_	_	_	_	_	
+39-9	2937-2939	av	_	_	_	_	_	_	_	
+39-10	2940-2949	Expressen	_	_	_	_	_	_	_	
+39-11	2949-2950	,	_	_	_	_	_	_	_	
+39-12	2951-2954	men	_	_	_	_	_	_	_	
+39-13	2955-2956	i	_	_	_	_	_	_	_	
+39-14	2957-2960	det	_	_	_	_	_	_	_	
+39-15	2961-2967	enorma	_	_	_	_	_	_	_	
+39-16	2968-2986	informationsvakuum	_	_	_	_	_	_	_	
+39-17	2987-2990	som	_	_	_	_	_	_	_	
+39-18	2991-2995	hade	_	_	_	_	_	_	_	
+39-19	2996-3004	uppstått	_	_	_	_	_	_	_	
+39-20	3005-3010	kunde	_	_	_	_	_	_	_	
+39-21	3011-3014	den	_	_	_	_	_	_	_	
+39-22	3015-3025	bortglömda	_	_	_	_	_	_	_	
+39-23	3026-3035	tidningen	_	_	_	_	_	_	_	
+39-24	3036-3039	bli	_	_	_	_	_	_	_	
+39-25	3040-3055	opinionsledande	_	_	_	_	_	_	_	
+39-26	3056-3061	genom	_	_	_	_	_	_	_	
+39-27	3062-3065	att	_	_	_	_	_	_	_	
+39-28	3066-3078	systematiskt	_	_	_	_	_	_	_	
+39-29	3079-3084	driva	_	_	_	_	_	_	_	
+39-30	3085-3091	frågan	_	_	_	_	_	_	_	
+39-31	3092-3094	om	_	_	_	_	_	_	_	
+39-32	3095-3108	trängselskatt	_	_	_	_	_	_	_	
+39-33	3109-3112	och	_	_	_	_	_	_	_	
+39-34	3113-3123	Västlänken	_	_	_	_	_	_	_	
+39-35	3123-3124	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3126-3127	#	_	_	_	_	_	_	_	
+40-2	3127-3128	P	_	_	_	_	_	_	_	
+40-3	3129-3132	IMM	_	_	_	_	_	_	_	
+40-4	3132-3133	.	_	_	_	_	_	_	_	
+
+#Text=Jag har bott i Göteborg i fyrtio år, men det som hänt efter folkomröstningen 2014 liknar ingenting jag sett tidigare.
+41-1	3135-3138	Jag	_	_	_	_	_	_	_	
+41-2	3139-3142	har	_	_	_	_	_	_	_	
+41-3	3143-3147	bott	_	_	_	_	_	_	_	
+41-4	3148-3149	i	_	_	_	_	_	_	_	
+41-5	3150-3158	Göteborg	_	_	_	_	_	_	_	
+41-6	3159-3160	i	_	_	_	_	_	_	_	
+41-7	3161-3167	fyrtio	_	_	_	_	_	_	_	
+41-8	3168-3170	år	_	_	_	_	_	_	_	
+41-9	3170-3171	,	_	_	_	_	_	_	_	
+41-10	3172-3175	men	_	_	_	_	_	_	_	
+41-11	3176-3179	det	_	_	_	_	_	_	_	
+41-12	3180-3183	som	_	_	_	_	_	_	_	
+41-13	3184-3188	hänt	_	_	_	_	_	_	_	
+41-14	3189-3194	efter	_	_	_	_	_	_	_	
+41-15	3195-3211	folkomröstningen	_	_	_	_	_	_	_	
+41-16	3212-3216	2014	_	_	_	_	_	_	_	
+41-17	3217-3223	liknar	_	_	_	_	_	_	_	
+41-18	3224-3233	ingenting	_	_	_	_	_	_	_	
+41-19	3234-3237	jag	_	_	_	_	_	_	_	
+41-20	3238-3242	sett	_	_	_	_	_	_	_	
+41-21	3243-3251	tidigare	_	_	_	_	_	_	_	
+41-22	3251-3252	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3254-3255	#	_	_	_	_	_	_	_	
+42-2	3255-3256	P	_	_	_	_	_	_	_	
+42-3	3257-3260	IMM	_	_	_	_	_	_	_	
+42-4	3260-3261	.	_	_	_	_	_	_	_	
+
+#Text=En ny anda av ifrågasättande har blandats med en förvirrad optimism, för det är uppenbart att delar av stan ser en tillväxt som inte skådats på länge.
+43-1	3263-3265	En	_	_	_	_	_	_	_	
+43-2	3266-3268	ny	_	_	_	_	_	_	_	
+43-3	3269-3273	anda	_	_	_	_	_	_	_	
+43-4	3274-3276	av	_	_	_	_	_	_	_	
+43-5	3277-3291	ifrågasättande	_	_	_	_	_	_	_	
+43-6	3292-3295	har	_	_	_	_	_	_	_	
+43-7	3296-3304	blandats	_	_	_	_	_	_	_	
+43-8	3305-3308	med	_	_	_	_	_	_	_	
+43-9	3309-3311	en	_	_	_	_	_	_	_	
+43-10	3312-3321	förvirrad	_	_	_	_	_	_	_	
+43-11	3322-3330	optimism	_	_	_	_	_	_	_	
+43-12	3330-3331	,	_	_	_	_	_	_	_	
+43-13	3332-3335	för	_	_	_	_	_	_	_	
+43-14	3336-3339	det	_	_	_	_	_	_	_	
+43-15	3340-3342	är	_	_	_	_	_	_	_	
+43-16	3343-3352	uppenbart	_	_	_	_	_	_	_	
+43-17	3353-3356	att	_	_	_	_	_	_	_	
+43-18	3357-3362	delar	_	_	_	_	_	_	_	
+43-19	3363-3365	av	_	_	_	_	_	_	_	
+43-20	3366-3370	stan	_	_	_	_	_	_	_	
+43-21	3371-3374	ser	_	_	_	_	_	_	_	
+43-22	3375-3377	en	_	_	_	_	_	_	_	
+43-23	3378-3386	tillväxt	_	_	_	_	_	_	_	
+43-24	3387-3390	som	_	_	_	_	_	_	_	
+43-25	3391-3395	inte	_	_	_	_	_	_	_	
+43-26	3396-3403	skådats	_	_	_	_	_	_	_	
+43-27	3404-3406	på	_	_	_	_	_	_	_	
+43-28	3407-3412	länge	_	_	_	_	_	_	_	
+43-29	3412-3413	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3415-3416	#	_	_	_	_	_	_	_	
+44-2	3416-3417	P	_	_	_	_	_	_	_	
+44-3	3418-3421	IMM	_	_	_	_	_	_	_	
+44-4	3421-3422	.	_	_	_	_	_	_	_	
+
+#Text=Stampens kris är en logisk del av det gamla systemets självprövning och den har redan lett till att GP vitaliserats, även om uppryckningen var för litet och för sent.
+45-1	3424-3432	Stampens	_	_	_	_	_	_	_	
+45-2	3433-3437	kris	*	Target	45-2	false	2	_	_	
+45-3	3438-3440	är	_	_	_	_	_	_	_	
+45-4	3441-3443	en	_	_	_	_	_	_	_	
+45-5	3444-3450	logisk	_	_	_	_	_	_	_	
+45-6	3451-3454	del	_	_	_	_	_	_	_	
+45-7	3455-3457	av	_	_	_	_	_	_	_	
+45-8	3458-3461	det	_	_	_	_	_	_	_	
+45-9	3462-3467	gamla	_	_	_	_	_	_	_	
+45-10	3468-3477	systemets	_	_	_	_	_	_	_	
+45-11	3478-3491	självprövning	_	_	_	_	_	_	_	
+45-12	3492-3495	och	_	_	_	_	_	_	_	
+45-13	3496-3499	den	_	_	_	_	_	_	_	
+45-14	3500-3503	har	_	_	_	_	_	_	_	
+45-15	3504-3509	redan	_	_	_	_	_	_	_	
+45-16	3510-3514	lett	_	_	_	_	_	_	_	
+45-17	3515-3519	till	_	_	_	_	_	_	_	
+45-18	3520-3523	att	_	_	_	_	_	_	_	
+45-19	3524-3526	GP	*	_	_	_	_	_	_	
+45-20	3527-3539	vitaliserats	_	Target	45-19	false	4	_	_	
+45-21	3539-3540	,	_	_	_	_	_	_	_	
+45-22	3541-3545	även	_	_	_	_	_	_	_	
+45-23	3546-3548	om	_	_	_	_	_	_	_	
+45-24	3549-3562	uppryckningen	*	_	_	_	_	_	_	
+45-25	3563-3566	var	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-26	3567-3570	för	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-27	3571-3576	litet	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-28	3577-3580	och	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-29	3581-3584	för	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-30	3585-3589	sent	_	Target[8]	45-24	false[8]	2[8]	_	_	
+45-31	3589-3590	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3592-3593	#	_	_	_	_	_	_	_	
+46-2	3593-3594	P	_	_	_	_	_	_	_	
+46-3	3595-3598	IMM	_	_	_	_	_	_	_	
+46-4	3598-3599	.	_	_	_	_	_	_	_	
+
+#Text=Den bedövande känslan av räddhågsenhet och liknöjdhet har släppt och kollapsen bekräftar egentligen bara att ingenting kommer att bli som förr igen – inte ens i Göteborg.
+47-1	3601-3604	Den	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-2	3605-3614	bedövande	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-3	3615-3622	känslan	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-4	3623-3625	av	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-5	3626-3639	räddhågsenhet	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-6	3640-3643	och	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-7	3644-3654	liknöjdhet	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-8	3655-3658	har	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-9	3659-3665	släppt	_	Source[9]	47-28	false[9]	3[9]	_	_	
+47-10	3666-3669	och	_	_	_	_	_	_	_	
+47-11	3670-3679	kollapsen	_	_	_	_	_	_	_	
+47-12	3680-3689	bekräftar	_	_	_	_	_	_	_	
+47-13	3690-3700	egentligen	_	_	_	_	_	_	_	
+47-14	3701-3705	bara	_	_	_	_	_	_	_	
+47-15	3706-3709	att	_	_	_	_	_	_	_	
+47-16	3710-3719	ingenting	_	_	_	_	_	_	_	
+47-17	3720-3726	kommer	_	_	_	_	_	_	_	
+47-18	3727-3730	att	_	_	_	_	_	_	_	
+47-19	3731-3734	bli	_	_	_	_	_	_	_	
+47-20	3735-3738	som	_	_	_	_	_	_	_	
+47-21	3739-3743	förr	_	_	_	_	_	_	_	
+47-22	3744-3748	igen	_	_	_	_	_	_	_	
+47-23	3749-3750	–	_	_	_	_	_	_	_	
+47-24	3751-3755	inte	_	_	_	_	_	_	_	
+47-25	3756-3759	ens	_	_	_	_	_	_	_	
+47-26	3760-3761	i	_	_	_	_	_	_	_	
+47-27	3762-3770	Göteborg	_	_	_	_	_	_	_	
+47-28	3770-3771	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3773-3774	#	_	_	_	_	_	_	_	
+48-2	3774-3775	P	_	_	_	_	_	_	_	
+48-3	3776-3779	IMM	_	_	_	_	_	_	_	
+48-4	3779-3780	.	_	_	_	_	_	_	_	
+
+#Text=Jan Jörnmark.
+49-1	3782-3785	Jan	_	_	_	_	_	_	_	
+49-2	3786-3794	Jörnmark	_	_	_	_	_	_	_	
+49-3	3794-3795	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3797-3798	#	_	_	_	_	_	_	_	
+50-2	3798-3799	P	_	_	_	_	_	_	_	
+50-3	3800-3803	IMM	_	_	_	_	_	_	_	
+50-4	3803-3804	.	_	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+51-1	3806-3810	Häng	_	_	_	_	_	_	_	
+51-2	3811-3814	med	_	_	_	_	_	_	_	
+51-3	3815-3816	i	_	_	_	_	_	_	_	
+51-4	3817-3825	debatten	_	_	_	_	_	_	_	
+51-5	3826-3829	och	_	_	_	_	_	_	_	
+51-6	3830-3840	kommentera	_	_	_	_	_	_	_	
+51-7	3841-3849	artikeln	_	_	_	_	_	_	_	
+51-8	3850-3851	–	_	_	_	_	_	_	_	
+51-9	3852-3856	följ	_	_	_	_	_	_	_	
+51-10	3858-3864	Debatt	_	_	_	_	_	_	_	
+51-11	3865-3867	på	_	_	_	_	_	_	_	
+51-12	3868-3876	Facebook	_	_	_	_	_	_	_	
+51-13	3876-3877	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3879-3880	#	_	_	_	_	_	_	_	
+52-2	3880-3881	P	_	_	_	_	_	_	_	
+52-3	3882-3885	IMM	_	_	_	_	_	_	_	
+52-4	3885-3886	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+53-1	3888-3893	FAKTA	_	_	_	_	_	_	_	
+53-2	3893-3894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3896-3897	#	_	_	_	_	_	_	_	
+54-2	3897-3898	P	_	_	_	_	_	_	_	
+54-3	3899-3902	IMM	_	_	_	_	_	_	_	
+54-4	3902-3903	.	_	_	_	_	_	_	_	
+
+#Text=N.
+55-1	3905-3906	N	_	_	_	_	_	_	_	
+55-2	3906-3907	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3909-3910	#	_	_	_	_	_	_	_	
+56-2	3910-3911	P	_	_	_	_	_	_	_	
+56-3	3912-3915	IMM	_	_	_	_	_	_	_	
+56-4	3915-3916	.	_	_	_	_	_	_	_	
+
+#Text=N.
+57-1	3918-3919	N	_	_	_	_	_	_	_	
+57-2	3919-3920	.	_	_	_	_	_	_	_	

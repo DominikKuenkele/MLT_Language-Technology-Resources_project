@@ -1,0 +1,983 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tröttsam mytbildning   
+#Text=om ett rasistiskt Sverige.
+3-1	18-26	Tröttsam	_	Target[2]	3-5[40]	false[2]	2[2]	_	_	
+3-2	27-38	mytbildning	_	Target[2]	3-5[40]	false[2]	2[2]	_	_	
+3-3	42-44	om	_	_	_	_	_	_	_	
+3-4	45-48	ett	_	_	_	_	_	_	_	
+3-5	49-59	rasistiskt	*[40]	_	_	_	_	_	_	
+3-6	60-67	Sverige	*[40]	_	_	_	_	_	_	
+3-7	67-68	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	70-71	#	_	_	_	_	_	_	_	
+4-2	71-72	P	_	_	_	_	_	_	_	
+4-3	73-76	IMM	_	_	_	_	_	_	_	
+4-4	76-77	.	_	_	_	_	_	_	_	
+
+#Text=Att ducka bakom diskriminering istället för att föreslå reella åtgärder kommer inte bryta utanförskapRola Brentlin och Fredrik Segerfeldt.
+5-1	79-82	Att	_	_	_	_	_	_	_	
+5-2	83-88	ducka	_	Target;Source[3]	5-11[41];5-14[42]	false[3]	2[3]	_	_	
+5-3	89-94	bakom	_	Target;Source[3]	5-11[41];5-14[42]	false[3]	2[3]	_	_	
+5-4	95-109	diskriminering	_	Target;Source[3]	5-11[41];5-14[42]	false[3]	2[3]	_	_	
+5-5	110-118	istället	_	_	_	_	_	_	_	
+5-6	119-122	för	_	_	_	_	_	_	_	
+5-7	123-126	att	_	_	_	_	_	_	_	
+5-8	127-134	föreslå	_	_	_	_	_	_	_	
+5-9	135-141	reella	_	_	_	_	_	_	_	
+5-10	142-150	åtgärder	_	_	_	_	_	_	_	
+5-11	151-157	kommer	*[41]	_	_	_	_	_	_	
+5-12	158-162	inte	*[41]	_	_	_	_	_	_	
+5-13	163-168	bryta	*[41]	_	_	_	_	_	_	
+5-14	169-184	utanförskapRola	*[41]|*[42]	_	_	_	_	_	_	
+5-15	185-193	Brentlin	*[42]	_	_	_	_	_	_	
+5-16	194-197	och	*[42]	_	_	_	_	_	_	
+5-17	198-205	Fredrik	*[42]	_	_	_	_	_	_	
+5-18	206-216	Segerfeldt	*[42]	_	_	_	_	_	_	
+5-19	216-217	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	219-220	#	_	_	_	_	_	_	_	
+6-2	220-221	P	_	_	_	_	_	_	_	
+6-3	222-225	IMM	_	_	_	_	_	_	_	
+6-4	225-226	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	228-231	Det	_	_	_	_	_	_	_	
+7-2	232-235	här	_	_	_	_	_	_	_	
+7-3	236-238	är	_	_	_	_	_	_	_	
+7-4	239-241	en	_	_	_	_	_	_	_	
+7-5	242-256	argumenterande	_	_	_	_	_	_	_	
+7-6	257-261	text	_	_	_	_	_	_	_	
+7-7	262-265	med	_	_	_	_	_	_	_	
+7-8	266-271	syfte	_	_	_	_	_	_	_	
+7-9	272-275	att	_	_	_	_	_	_	_	
+7-10	276-283	påverka	_	_	_	_	_	_	_	
+7-11	283-284	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	285-294	Åsikterna	_	_	_	_	_	_	_	
+8-2	295-298	som	_	_	_	_	_	_	_	
+8-3	299-307	uttrycks	_	_	_	_	_	_	_	
+8-4	308-310	är	_	_	_	_	_	_	_	
+8-5	311-322	skribentens	_	_	_	_	_	_	_	
+8-6	323-327	egna	_	_	_	_	_	_	_	
+8-7	327-328	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	330-331	#	_	_	_	_	_	_	_	
+9-2	331-332	P	_	_[4]	_	false[4]	3[4]	_	_	
+9-3	333-336	IMM	_	_[4]	_	false[4]	3[4]	_	_	
+9-4	336-337	.	_	_	_	_	_	_	_	
+
+#Text=**Sverige är mer **rasistiskt än någonsin.
+10-1	339-340	*	_	_	_	_	_	_	_	
+10-2	340-341	*	_	_	_	_	_	_	_	
+10-3	341-348	Sverige	*	_	_	_	_	_	_	
+10-4	349-351	är	_	_	_	_	_	_	_	
+10-5	352-355	mer	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-6	356-357	*	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-7	357-358	*	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-8	358-368	rasistiskt	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-9	369-371	än	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-10	372-380	någonsin	_	Target;Source[5]	10-3;10-11	false[5]	2[5]	_	_	
+10-11	380-381	.	*	_	_	_	_	_	_	
+
+#Text=Det är utvärderingen av valet som görs av socialdemokraten Ali Abozar (Brännpunkt 15/9).
+11-1	382-385	Det	_	_	_	_	_	_	_	
+11-2	386-388	är	_	_	_	_	_	_	_	
+11-3	389-402	utvärderingen	_	_	_	_	_	_	_	
+11-4	403-405	av	_	_	_	_	_	_	_	
+11-5	406-411	valet	_	_	_	_	_	_	_	
+11-6	412-415	som	_	_	_	_	_	_	_	
+11-7	416-420	görs	_	_	_	_	_	_	_	
+11-8	421-423	av	_	_	_	_	_	_	_	
+11-9	424-440	socialdemokraten	_	_	_	_	_	_	_	
+11-10	441-444	Ali	_	_	_	_	_	_	_	
+11-11	445-451	Abozar	_	_	_	_	_	_	_	
+11-12	452-453	(	_	_	_	_	_	_	_	
+11-13	453-463	Brännpunkt	_	_	_	_	_	_	_	
+11-14	464-466	15	_	_	_	_	_	_	_	
+11-15	466-467	/	_	_	_	_	_	_	_	
+11-16	467-468	9	_	_	_	_	_	_	_	
+11-17	468-469	)	_	_	_	_	_	_	_	
+11-18	469-470	.	_	_	_	_	_	_	_	
+
+#Text=Han menar att det är strukturell diskriminering som ligger bakom utanförskapet bland utrikesfödda och att kampen mot rasism är lösningen.
+12-1	471-474	Han	_	_	_	_	_	_	_	
+12-2	475-480	menar	_	_	_	_	_	_	_	
+12-3	481-484	att	_	_	_	_	_	_	_	
+12-4	485-488	det	_	_	_	_	_	_	_	
+12-5	489-491	är	_	_	_	_	_	_	_	
+12-6	492-503	strukturell	*[43]	_	_	_	_	_	_	
+12-7	504-518	diskriminering	*[43]	_	_	_	_	_	_	
+12-8	519-522	som	_	_	_	_	_	_	_	
+12-9	523-529	ligger	_	Target[6]	12-6[43]	false[6]	2[6]	_	_	
+12-10	530-535	bakom	_	Target[6]	12-6[43]	false[6]	2[6]	_	_	
+12-11	536-549	utanförskapet	_	Target[6]	12-6[43]	false[6]	2[6]	_	_	
+12-12	550-555	bland	_	Target[6]	12-6[43]	false[6]	2[6]	_	_	
+12-13	556-568	utrikesfödda	_	Target[6]	12-6[43]	false[6]	2[6]	_	_	
+12-14	569-572	och	_	_	_	_	_	_	_	
+12-15	573-576	att	_	_	_	_	_	_	_	
+12-16	577-583	kampen	*[44]	_	_	_	_	_	_	
+12-17	584-587	mot	*[44]	_	_	_	_	_	_	
+12-18	588-594	rasism	*[44]	_	_	_	_	_	_	
+12-19	595-597	är	_	Target[7]	12-16[44]	false[7]	4[7]	_	_	
+12-20	598-607	lösningen	_	Target[7]	12-16[44]	false[7]	4[7]	_	_	
+12-21	607-608	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	610-611	#	_	_	_	_	_	_	_	
+13-2	611-612	P	_	_[8]	_	false[8]	3[8]	_	_	
+13-3	613-616	IMM	_	_[8]	_	false[8]	3[8]	_	_	
+13-4	616-617	.	_	_	_	_	_	_	_	
+
+#Text=Detta är inte en ovanlig förklaring till problemen med integration.
+14-1	619-624	Detta	_	_	_	_	_	_	_	
+14-2	625-627	är	_	_	_	_	_	_	_	
+14-3	628-632	inte	_	_	_	_	_	_	_	
+14-4	633-635	en	_	_	_	_	_	_	_	
+14-5	636-643	ovanlig	_	_	_	_	_	_	_	
+14-6	644-654	förklaring	_	_	_	_	_	_	_	
+14-7	655-659	till	_	_	_	_	_	_	_	
+14-8	660-669	problemen	_	Target	14-10	false	2	_	_	
+14-9	670-673	med	_	_	_	_	_	_	_	
+14-10	674-685	integration	*	_	_	_	_	_	_	
+14-11	685-686	.	_	_	_	_	_	_	_	
+
+#Text=Många hävdar att hela eller det mesta av skillnaden i sysselsättningsgrad mellan inrikes och utrikes födda beror på strukturell rasism.
+15-1	687-692	Många	_	_	_	_	_	_	_	
+15-2	693-699	hävdar	_	_	_	_	_	_	_	
+15-3	700-703	att	_	_	_	_	_	_	_	
+15-4	704-708	hela	_	_	_	_	_	_	_	
+15-5	709-714	eller	_	_	_	_	_	_	_	
+15-6	715-718	det	_	_	_	_	_	_	_	
+15-7	719-724	mesta	_	_	_	_	_	_	_	
+15-8	725-727	av	_	_	_	_	_	_	_	
+15-9	728-738	skillnaden	_	_	_	_	_	_	_	
+15-10	739-740	i	_	_	_	_	_	_	_	
+15-11	741-760	sysselsättningsgrad	_	_	_	_	_	_	_	
+15-12	761-767	mellan	_	_	_	_	_	_	_	
+15-13	768-775	inrikes	_	_	_	_	_	_	_	
+15-14	776-779	och	_	_	_	_	_	_	_	
+15-15	780-787	utrikes	_	_	_	_	_	_	_	
+15-16	788-793	födda	_	_	_	_	_	_	_	
+15-17	794-799	beror	_	_	_	_	_	_	_	
+15-18	800-802	på	_	_	_	_	_	_	_	
+15-19	803-814	strukturell	*[45]	Target[9]	15-19[45]	false[9]	1[9]	_	_	
+15-20	815-821	rasism	*[45]	Target[9]	15-19[45]	false[9]	1[9]	_	_	
+15-21	821-822	.	_	_	_	_	_	_	_	
+
+#Text=Det är visserligen väl belagt att diskriminering förekommer.
+16-1	823-826	Det	_	_	_	_	_	_	_	
+16-2	827-829	är	_	_	_	_	_	_	_	
+16-3	830-841	visserligen	_	_	_	_	_	_	_	
+16-4	842-845	väl	_	_	_	_	_	_	_	
+16-5	846-852	belagt	_	_	_	_	_	_	_	
+16-6	853-856	att	_	_	_	_	_	_	_	
+16-7	857-871	diskriminering	_	_	_	_	_	_	_	
+16-8	872-882	förekommer	_	_	_	_	_	_	_	
+16-9	882-883	.	_	_	_	_	_	_	_	
+
+#Text=Det är dock inget belägg för att det skulle vara huvudförklaringen till den dåliga integrationen på arbetsmarknaden.
+17-1	884-887	Det	_	_	_	_	_	_	_	
+17-2	888-890	är	_	_	_	false	2	_	_	
+17-3	891-895	dock	_	_	_	_	_	_	_	
+17-4	896-901	inget	_	Target[10]	17-8[46]	false[10]	2[10]	17-2[0_10]	_	
+17-5	902-908	belägg	_	Target[10]	17-8[46]	false[10]	2[10]	_	_	
+17-6	909-912	för	_	_	_	_	_	_	_	
+17-7	913-916	att	_	_	_	_	_	_	_	
+17-8	917-920	det	*[46]	_	_	_	_	_	_	
+17-9	921-927	skulle	*[46]	_	_	_	_	_	_	
+17-10	928-932	vara	*[46]	_	_	_	_	_	_	
+17-11	933-950	huvudförklaringen	*[46]	_	_	_	_	_	_	
+17-12	951-955	till	*[46]	_	_	_	_	_	_	
+17-13	956-959	den	*[46]	_	_	_	_	_	_	
+17-14	960-966	dåliga	*[46]	_	_	_	_	_	_	
+17-15	967-980	integrationen	*[46]	_	_	_	_	_	_	
+17-16	981-983	på	*[46]	_	_	_	_	_	_	
+17-17	984-999	arbetsmarknaden	*[46]	_	_	_	_	_	_	
+17-18	999-1000	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1002-1003	#	_	_	_	_	_	_	_	
+18-2	1003-1004	P	_	_	_	_	_	_	_	
+18-3	1005-1008	IMM	_	_	_	_	_	_	_	
+18-4	1008-1009	.	_	_	_	_	_	_	_	
+
+#Text=**I den mest citerade **vetenskapliga studien av diskriminering på arbetsmarknaden (Carlsson och Rooth 2007), skriver forskarna: "I mediedebatten målas Sveriges arbetsmarknad ibland upp som alltigenom diskriminerande och rasistisk.
+19-1	1011-1012	*	_	_	_	_	_	_	_	
+19-2	1012-1013	*	_	_	_	_	_	_	_	
+19-3	1013-1014	I	_	_	_	_	_	_	_	
+19-4	1015-1018	den	_	_	_	_	_	_	_	
+19-5	1019-1023	mest	_	_	_	_	_	_	_	
+19-6	1024-1032	citerade	_	_	_	_	_	_	_	
+19-7	1033-1034	*	_	_	_	_	_	_	_	
+19-8	1034-1035	*	_	_	_	_	_	_	_	
+19-9	1035-1048	vetenskapliga	_	_	_	_	_	_	_	
+19-10	1049-1056	studien	_	_	_	_	_	_	_	
+19-11	1057-1059	av	_	_	_	_	_	_	_	
+19-12	1060-1074	diskriminering	_	_	_	_	_	_	_	
+19-13	1075-1077	på	_	_	_	_	_	_	_	
+19-14	1078-1093	arbetsmarknaden	_	_	_	_	_	_	_	
+19-15	1094-1095	(	_	_	_	_	_	_	_	
+19-16	1095-1103	Carlsson	*[47]	_	_	_	_	_	_	
+19-17	1104-1107	och	*[47]	_	_	_	_	_	_	
+19-18	1108-1113	Rooth	*[47]	_	_	_	_	_	_	
+19-19	1114-1118	2007	_	_	_	_	_	_	_	
+19-20	1118-1119	)	_	_	_	_	_	_	_	
+19-21	1119-1120	,	_	_	_	_	_	_	_	
+19-22	1121-1128	skriver	_	_	_	_	_	_	_	
+19-23	1129-1138	forskarna	_	_	_	_	_	_	_	
+19-24	1138-1139	:	_	_	_	_	_	_	_	
+19-25	1140-1141	"	_	_	_	_	_	_	_	
+19-26	1141-1142	I	_	_	_	_	_	_	_	
+19-27	1143-1156	mediedebatten	_	_	_	_	_	_	_	
+19-28	1157-1162	målas	_	_	_	false	2	_	_	
+19-29	1163-1171	Sveriges	*[48]	_	_	_	_	_	_	
+19-30	1172-1185	arbetsmarknad	*[48]	_	_	_	_	_	_	
+19-31	1186-1192	ibland	_	_	_	_	_	_	_	
+19-32	1193-1196	upp	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	19-28[0_11]	_	
+19-33	1197-1200	som	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	_	_	
+19-34	1201-1211	alltigenom	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	_	_	
+19-35	1212-1227	diskriminerande	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	_	_	
+19-36	1228-1231	och	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	_	_	
+19-37	1232-1241	rasistisk	_	Target;Source[11]	19-29[48];19-16[47]	false[11]	2[11]	_	_	
+19-38	1241-1242	.	_	_	_	_	_	_	_	
+
+#Text=Denna bild verkar, utifrån våra resultat, vara kraftigt överdriven.".
+20-1	1243-1248	Denna	*[49]	_	_	_	_	_	_	
+20-2	1249-1253	bild	*[49]	_	_	_	_	_	_	
+20-3	1254-1260	verkar	_	_	_	_	_	_	_	
+20-4	1260-1261	,	_	_	_	_	_	_	_	
+20-5	1262-1269	utifrån	_	_	_	_	_	_	_	
+20-6	1270-1274	våra	_	_	_	_	_	_	_	
+20-7	1275-1283	resultat	_	_	_	_	_	_	_	
+20-8	1283-1284	,	_	_	_	_	_	_	_	
+20-9	1285-1289	vara	_	_	_	_	_	_	_	
+20-10	1290-1298	kraftigt	_	Source;Target[12]	19-16[47];20-1[49]	false[12]	2[12]	_	_	
+20-11	1299-1309	överdriven	_	Source;Target[12]	19-16[47];20-1[49]	false[12]	2[12]	_	_	
+20-12	1309-1310	.	_	_	_	_	_	_	_	
+20-13	1310-1311	"	_	_	_	_	_	_	_	
+20-14	1311-1312	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1314-1315	#	_	_	_	_	_	_	_	
+21-2	1315-1316	P	_	_[13]	_	false[13]	3[13]	_	_	
+21-3	1317-1320	IMM	_	_[13]	_	false[13]	3[13]	_	_	
+21-4	1320-1321	.	_	_	_	_	_	_	_	
+
+#Text=Sysselsättningsgraden bland utrikes födda varierar starkt med vistelsetid i landet, mellan invandrargrupper och efter utbildningsnivå.
+22-1	1323-1344	Sysselsättningsgraden	_	_	_	_	_	_	_	
+22-2	1345-1350	bland	_	_	_	_	_	_	_	
+22-3	1351-1358	utrikes	_	_	_	_	_	_	_	
+22-4	1359-1364	födda	_	_	_	_	_	_	_	
+22-5	1365-1373	varierar	_	_	_	_	_	_	_	
+22-6	1374-1380	starkt	_	_	_	_	_	_	_	
+22-7	1381-1384	med	_	_	_	_	_	_	_	
+22-8	1385-1396	vistelsetid	_	_	_	_	_	_	_	
+22-9	1397-1398	i	_	_	_	_	_	_	_	
+22-10	1399-1405	landet	_	_	_	_	_	_	_	
+22-11	1405-1406	,	_	_	_	_	_	_	_	
+22-12	1407-1413	mellan	_	_	_	_	_	_	_	
+22-13	1414-1430	invandrargrupper	_	_	_	_	_	_	_	
+22-14	1431-1434	och	_	_	_	_	_	_	_	
+22-15	1435-1440	efter	_	_	_	_	_	_	_	
+22-16	1441-1456	utbildningsnivå	_	_	_	_	_	_	_	
+22-17	1456-1457	.	_	_	_	_	_	_	_	
+
+#Text=Skillnaden mellan dessa grupper är långt större än mellan inrikes och utrikes födda i allmänhet.
+23-1	1458-1468	Skillnaden	_	_	_	_	_	_	_	
+23-2	1469-1475	mellan	_	_	_	_	_	_	_	
+23-3	1476-1481	dessa	_	_	_	_	_	_	_	
+23-4	1482-1489	grupper	_	_	_	_	_	_	_	
+23-5	1490-1492	är	_	_	_	_	_	_	_	
+23-6	1493-1498	långt	_	_	_	_	_	_	_	
+23-7	1499-1505	större	_	_	_	_	_	_	_	
+23-8	1506-1508	än	_	_	_	_	_	_	_	
+23-9	1509-1515	mellan	_	_	_	_	_	_	_	
+23-10	1516-1523	inrikes	_	_	_	_	_	_	_	
+23-11	1524-1527	och	_	_	_	_	_	_	_	
+23-12	1528-1535	utrikes	_	_	_	_	_	_	_	
+23-13	1536-1541	födda	_	_	_	_	_	_	_	
+23-14	1542-1543	i	_	_	_	_	_	_	_	
+23-15	1544-1553	allmänhet	_	_	_	_	_	_	_	
+23-16	1553-1554	.	_	_	_	_	_	_	_	
+
+#Text=Om skillnaden i sysselsättningsgrad mellan inrikes och utrikes födda ska förklaras med enbart eller främst diskriminering borde skillnaden mellan invandrargrupperna förklaras av att de utsätts för diskriminering i motsvarande olika grad.
+24-1	1555-1557	Om	_	_	_	_	_	_	_	
+24-2	1558-1568	skillnaden	_	_	_	_	_	_	_	
+24-3	1569-1570	i	_	_	_	_	_	_	_	
+24-4	1571-1590	sysselsättningsgrad	_	_	_	_	_	_	_	
+24-5	1591-1597	mellan	_	_	_	_	_	_	_	
+24-6	1598-1605	inrikes	_	_	_	_	_	_	_	
+24-7	1606-1609	och	_	_	_	_	_	_	_	
+24-8	1610-1617	utrikes	_	_	_	_	_	_	_	
+24-9	1618-1623	födda	_	_	_	_	_	_	_	
+24-10	1624-1627	ska	_	_	_	_	_	_	_	
+24-11	1628-1637	förklaras	_	_	_	_	_	_	_	
+24-12	1638-1641	med	_	_	_	_	_	_	_	
+24-13	1642-1648	enbart	_	_	_	_	_	_	_	
+24-14	1649-1654	eller	_	_	_	_	_	_	_	
+24-15	1655-1661	främst	_	_	_	_	_	_	_	
+24-16	1662-1676	diskriminering	_	_	_	_	_	_	_	
+24-17	1677-1682	borde	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-18	1683-1693	skillnaden	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-19	1694-1700	mellan	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-20	1701-1719	invandrargrupperna	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-21	1720-1729	förklaras	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-22	1730-1732	av	_	Target[14]	24-24[50]	false[14]	2[14]	_	_	
+24-23	1733-1736	att	_	_	_	_	_	_	_	
+24-24	1737-1739	de	*[50]	_	_	_	_	_	_	
+24-25	1740-1747	utsätts	*[50]	_	_	_	_	_	_	
+24-26	1748-1751	för	*[50]	_	_	_	_	_	_	
+24-27	1752-1766	diskriminering	*[50]	_	_	_	_	_	_	
+24-28	1767-1768	i	*[50]	_	_	_	_	_	_	
+24-29	1769-1780	motsvarande	*[50]	_	_	_	_	_	_	
+24-30	1781-1786	olika	*[50]	_	_	_	_	_	_	
+24-31	1787-1791	grad	*[50]	_	_	_	_	_	_	
+24-32	1791-1792	.	_	_	_	_	_	_	_	
+
+#Text=I så fall skulle bosnier vara mycket mer utsatta för strukturell rasism än jugoslaver (åtta procentenheters skillnad i sysselsättning), utrikes födda som bott här i 1-4 år vara nästan dubbelt så mycket diskriminerade som de som varit här i 20 år eller mer, och lågutbildade skulle vara utsatt för nästan 50 procent mer strukturell rasism än högutbildade utrikes födda.
+25-1	1793-1794	I	_	_	_	_	_	_	_	
+25-2	1795-1797	så	_	_	_	_	_	_	_	
+25-3	1798-1802	fall	_	_	_	_	_	_	_	
+25-4	1803-1809	skulle	_	_	_	_	_	_	_	
+25-5	1810-1817	bosnier	*	_	_	_	_	_	_	
+25-6	1818-1822	vara	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-7	1823-1829	mycket	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-8	1830-1833	mer	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-9	1834-1841	utsatta	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-10	1842-1845	för	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-11	1846-1857	strukturell	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-12	1858-1864	rasism	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-13	1865-1867	än	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-14	1868-1878	jugoslaver	_	Target;Source[15]	25-5;25-66[52]	false[15]	2[15]	_	_	
+25-15	1879-1880	(	_	_	_	_	_	_	_	
+25-16	1880-1884	åtta	_	_	_	_	_	_	_	
+25-17	1885-1900	procentenheters	_	_	_	_	_	_	_	
+25-18	1901-1909	skillnad	_	_	_	_	_	_	_	
+25-19	1910-1911	i	_	_	_	_	_	_	_	
+25-20	1912-1926	sysselsättning	_	_	_	_	_	_	_	
+25-21	1926-1927	)	_	_	_	_	_	_	_	
+25-22	1927-1928	,	_	_	_	_	_	_	_	
+25-23	1929-1936	utrikes	*[51]	_	_	_	_	_	_	
+25-24	1937-1942	födda	*[51]	_	_	_	_	_	_	
+25-25	1943-1946	som	*[51]	_	_	_	_	_	_	
+25-26	1947-1951	bott	*[51]	_	_	_	_	_	_	
+25-27	1952-1955	här	*[51]	_	_	_	_	_	_	
+25-28	1956-1957	i	*[51]	_	_	_	_	_	_	
+25-29	1958-1959	1	*[51]	_	_	_	_	_	_	
+25-30	1959-1960	-	*[51]	_	_	_	_	_	_	
+25-31	1960-1961	4	*[51]	_	_	_	_	_	_	
+25-32	1962-1964	år	*[51]	_	_	_	_	_	_	
+25-33	1965-1969	vara	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-34	1970-1976	nästan	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-35	1977-1984	dubbelt	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-36	1985-1987	så	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-37	1988-1994	mycket	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-38	1995-2009	diskriminerade	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-39	2010-2013	som	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-40	2014-2016	de	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-41	2017-2020	som	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-42	2021-2026	varit	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-43	2027-2030	här	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-44	2031-2032	i	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-45	2033-2035	20	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-46	2036-2038	år	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-47	2039-2044	eller	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-48	2045-2048	mer	_	Target;Source[16]	25-23[51];25-66[52]	false[16]	2[16]	_	_	
+25-49	2048-2049	,	_	_	_	_	_	_	_	
+25-50	2050-2053	och	_	_	_	_	_	_	_	
+25-51	2054-2066	lågutbildade	*	_	_	_	_	_	_	
+25-52	2067-2073	skulle	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-53	2074-2078	vara	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-54	2079-2085	utsatt	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-55	2086-2089	för	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-56	2090-2096	nästan	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-57	2097-2099	50	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-58	2100-2107	procent	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-59	2108-2111	mer	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-60	2112-2123	strukturell	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-61	2124-2130	rasism	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-62	2131-2133	än	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-63	2134-2146	högutbildade	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-64	2147-2154	utrikes	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-65	2155-2160	födda	_	Source;Target[17]	25-66[52];25-51	false[17]	2[17]	_	_	
+25-66	2160-2161	.	*[52]|*[53]	_	_	_	_	_	26-1[0_53]	
+
+#Text=Det håller inte.
+26-1	2162-2165	Det	*	_	_	_	_	_	_	
+26-2	2166-2172	håller	_	Target[18]	26-1	false[18]	2[18]	_	_	
+26-3	2173-2177	inte	_	Target[18]	26-1	false[18]	2[18]	_	_	
+26-4	2177-2178	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2180-2181	#	_	_	_	_	_	_	_	
+27-2	2181-2182	P	_	_[19]	_	false[19]	3[19]	_	_	
+27-3	2183-2186	IMM	_	_[19]	_	false[19]	3[19]	_	_	
+27-4	2186-2187	.	_	_	_	_	_	_	_	
+
+#Text=Det finns fler studier som motbevisar iden att diskriminering och rasism är utbredd i Sverige.
+28-1	2189-2192	Det	_	_	_	_	_	_	_	
+28-2	2193-2198	finns	_	_	_	_	_	_	_	
+28-3	2199-2203	fler	_	_	_	_	_	_	_	
+28-4	2204-2211	studier	_	_	_	_	_	_	_	
+28-5	2212-2215	som	_	_	_	_	_	_	_	
+28-6	2216-2226	motbevisar	_	Target	28-9[54]	false	2	_	_	
+28-7	2227-2231	iden	_	_	_	_	_	_	_	
+28-8	2232-2235	att	_	_	_	_	_	_	_	
+28-9	2236-2250	diskriminering	*[54]	_	_	_	_	_	_	
+28-10	2251-2254	och	*[54]	_	_	_	_	_	_	
+28-11	2255-2261	rasism	*[54]	_	_	_	_	_	_	
+28-12	2262-2264	är	*[54]	_	_	_	_	_	_	
+28-13	2265-2272	utbredd	*[54]	_	_	_	_	_	_	
+28-14	2273-2274	i	*[54]	_	_	_	_	_	_	
+28-15	2275-2282	Sverige	*[54]	_	_	_	_	_	_	
+28-16	2282-2283	.	_	_	_	_	_	_	_	
+
+#Text=En EU-barometer från 2012 visar att svenskarna är allra mest positiva till arbetskraftsinvandring och vi är också det EU-land där flest anser att invandrare berikar samhället.
+29-1	2284-2286	En	_	_	_	_	_	_	_	
+29-2	2287-2299	EU-barometer	_	_	_	_	_	_	_	
+29-3	2300-2304	från	_	_	_	_	_	_	_	
+29-4	2305-2309	2012	_	_	_	_	_	_	_	
+29-5	2310-2315	visar	_	_	_	_	_	_	_	
+29-6	2316-2319	att	_	_	_	_	_	_	_	
+29-7	2320-2330	svenskarna	*	_	_	_	_	_	_	
+29-8	2331-2333	är	_	_	_	_	_	_	_	
+29-9	2334-2339	allra	_	Target;Source[20]	29-13;29-7	false[20]	4[20]	_	_	
+29-10	2340-2344	mest	_	Target;Source[20]	29-13;29-7	false[20]	4[20]	_	_	
+29-11	2345-2353	positiva	_	Target;Source[20]	29-13;29-7	false[20]	4[20]	_	_	
+29-12	2354-2358	till	_	_	_	_	_	_	_	
+29-13	2359-2381	arbetskraftsinvandring	*	_	_	_	_	_	_	
+29-14	2382-2385	och	_	_	_	_	_	_	_	
+29-15	2386-2388	vi	_	_	_	_	_	_	_	
+29-16	2389-2391	är	_	_	_	_	_	_	_	
+29-17	2392-2397	också	_	_	_	_	_	_	_	
+29-18	2398-2401	det	_	_	_	_	_	_	_	
+29-19	2402-2409	EU-land	_	_	_	_	_	_	_	
+29-20	2410-2413	där	_	_	_	_	_	_	_	
+29-21	2414-2419	flest	_	_	_	_	_	_	_	
+29-22	2420-2425	anser	_	Target;Source	29-24[55];29-7	false	4	_	_	
+29-23	2426-2429	att	_	_	_	_	_	_	_	
+29-24	2430-2440	invandrare	*[55]	_	_	_	_	_	_	
+29-25	2441-2448	berikar	*[55]	_	_	_	_	_	_	
+29-26	2449-2458	samhället	*[55]	_	_	_	_	_	_	
+29-27	2458-2459	.	_	_	_	_	_	_	_	
+
+#Text=Enligt "Migrant Integration Policy Index" bedriver Sverige bäst antidiskrimineringsarbete i hela EU.
+30-1	2460-2466	Enligt	_	_	_	_	_	_	_	
+30-2	2467-2468	"	_	_	_	_	_	_	_	
+30-3	2468-2475	Migrant	*[56]	_	_	_	_	_	_	
+30-4	2476-2487	Integration	*[56]	_	_	_	_	_	_	
+30-5	2488-2494	Policy	*[56]	_	_	_	_	_	_	
+30-6	2495-2500	Index	*[56]	_	_	_	_	_	_	
+30-7	2500-2501	"	_	_	_	_	_	_	_	
+30-8	2502-2510	bedriver	_	_	_	false	4	_	_	
+30-9	2511-2518	Sverige	*	_	_	_	_	_	_	
+30-10	2519-2523	bäst	_	Target;Source[21]	30-9;30-3[56]	false[21]	4[21]	30-8[0_21]	_	
+30-11	2524-2549	antidiskrimineringsarbete	_	Target;Source[21]	30-9;30-3[56]	false[21]	4[21]	_	_	
+30-12	2550-2551	i	_	_	_	_	_	_	_	
+30-13	2552-2556	hela	_	_	_	_	_	_	_	
+30-14	2557-2559	EU	_	_	_	_	_	_	_	
+30-15	2559-2560	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2562-2563	#	_	_	_	_	_	_	_	
+31-2	2563-2564	P	_	_	_	_	_	_	_	
+31-3	2565-2568	IMM	_	_	_	_	_	_	_	
+31-4	2568-2569	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+32-1	2571-2584	Skräddarsydda	_	_	_	_	_	_	_	
+32-2	2585-2591	kurser	_	_	_	_	_	_	_	
+32-3	2592-2593	i	_	_	_	_	_	_	_	
+32-4	2594-2599	ämnen	_	_	_	_	_	_	_	
+32-5	2600-2603	som	_	_	_	_	_	_	_	
+32-6	2604-2615	intresserar	_	_	_	_	_	_	_	
+32-7	2616-2619	och	_	_	_	_	_	_	_	
+32-8	2620-2629	engagerar	_	_	_	_	_	_	_	
+32-9	2630-2634	både	_	_	_	_	_	_	_	
+32-10	2635-2640	kropp	_	_	_	_	_	_	_	
+32-11	2641-2644	och	_	_	_	_	_	_	_	
+32-12	2645-2649	själ	_	_	_	_	_	_	_	
+32-13	2649-2650	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2652-2653	#	_	_	_	_	_	_	_	
+33-2	2653-2654	P	_	_[22]	_	false[22]	3[22]	_	_	
+33-3	2655-2658	IMM	_	_[22]	_	false[22]	3[22]	_	_	
+33-4	2658-2659	.	_	_	_	_	_	_	_	
+
+#Text=**Till saken hör att **svenskar i allmänhet blivit allt mer positivt inställda till invandring under de senaste 25 åren.
+34-1	2661-2662	*	_	_	_	_	_	_	_	
+34-2	2662-2663	*	_	_	_	_	_	_	_	
+34-3	2663-2667	Till	_	_	_	_	_	_	_	
+34-4	2668-2673	saken	_	_	_	_	_	_	_	
+34-5	2674-2677	hör	_	_	_	_	_	_	_	
+34-6	2678-2681	att	_	_	_	_	_	_	_	
+34-7	2682-2683	*	_	_	_	_	_	_	_	
+34-8	2683-2684	*	_	_	_	_	_	_	_	
+34-9	2684-2692	svenskar	*	_	_	_	_	_	_	
+34-10	2693-2694	i	_	_	_	_	_	_	_	
+34-11	2695-2704	allmänhet	_	_	_	_	_	_	_	
+34-12	2705-2711	blivit	_	Source;Target[23]	34-9;34-18	false[23]	4[23]	_	_	
+34-13	2712-2716	allt	_	Source;Target[23]	34-9;34-18	false[23]	4[23]	_	_	
+34-14	2717-2720	mer	_	Source;Target[23]	34-9;34-18	false[23]	4[23]	_	_	
+34-15	2721-2729	positivt	_	Source;Target[23]	34-9;34-18	false[23]	4[23]	_	_	
+34-16	2730-2739	inställda	_	Source;Target[23]	34-9;34-18	false[23]	4[23]	_	_	
+34-17	2740-2744	till	_	_	_	_	_	_	_	
+34-18	2745-2755	invandring	*	_	_	_	_	_	_	
+34-19	2756-2761	under	_	_	_	_	_	_	_	
+34-20	2762-2764	de	_	_	_	_	_	_	_	
+34-21	2765-2772	senaste	_	_	_	_	_	_	_	
+34-22	2773-2775	25	_	_	_	_	_	_	_	
+34-23	2776-2780	åren	_	_	_	_	_	_	_	
+34-24	2780-2781	.	_	_	_	_	_	_	_	
+
+#Text=År 1990 var det 61 procent som tyckte det var ett bra förslag att "[t]a emot färre flyktingar i Sverige", mot endast 45 procent år 2009.
+35-1	2782-2784	År	_	_	_	_	_	_	_	
+35-2	2785-2789	1990	_	_	_	_	_	_	_	
+35-3	2790-2793	var	_	_	_	_	_	_	_	
+35-4	2794-2797	det	_	_	_	_	_	_	_	
+35-5	2798-2800	61	_	_	_	_	_	_	_	
+35-6	2801-2808	procent	_	_	_	_	_	_	_	
+35-7	2809-2812	som	_	_	_	_	_	_	_	
+35-8	2813-2819	tyckte	_	_	_	_	_	_	_	
+35-9	2820-2823	det	_	_	_	_	_	_	_	
+35-10	2824-2827	var	_	_	_	_	_	_	_	
+35-11	2828-2831	ett	_	_	_	_	_	_	_	
+35-12	2832-2835	bra	_	Source;Target[24]	35-33;35-16[57]	false[24]	4[24]	_	_	
+35-13	2836-2843	förslag	_	Source;Target[24]	35-33;35-16[57]	false[24]	4[24]	_	_	
+35-14	2844-2847	att	_	_	_	_	_	_	_	
+35-15	2848-2849	"	_	_	_	_	_	_	_	
+35-16	2849-2850	[	*[57]	_	_	_	_	_	_	
+35-17	2850-2851	t	*[57]	_	_	_	_	_	_	
+35-18	2851-2852	]	*[57]	_	_	_	_	_	_	
+35-19	2852-2853	a	*[57]	_	_	_	_	_	_	
+35-20	2854-2858	emot	*[57]	_	_	_	_	_	_	
+35-21	2859-2864	färre	*[57]	_	_	_	_	_	_	
+35-22	2865-2875	flyktingar	*[57]	_	_	_	_	_	_	
+35-23	2876-2877	i	*[57]	_	_	_	_	_	_	
+35-24	2878-2885	Sverige	*[57]	_	_	_	_	_	_	
+35-25	2885-2886	"	_	_	_	_	_	_	_	
+35-26	2886-2887	,	_	_	_	_	_	_	_	
+35-27	2888-2891	mot	_	_	_	_	_	_	_	
+35-28	2892-2898	endast	_	_	_	_	_	_	_	
+35-29	2899-2901	45	_	_	_	_	_	_	_	
+35-30	2902-2909	procent	_	_	_	_	_	_	_	
+35-31	2910-2912	år	_	_	_	_	_	_	_	
+35-32	2913-2917	2009	_	_	_	_	_	_	_	
+35-33	2917-2918	.	*	_	_	_	_	_	_	
+
+#Text=På samma sätt var det 52 procent som år 1993 instämde i påståendet "[d]et finns för många utlänningar i Sverige", mot endast 36 procent år 2009.
+36-1	2919-2921	På	_	_	_	_	_	_	_	
+36-2	2922-2927	samma	_	_	_	_	_	_	_	
+36-3	2928-2932	sätt	_	_	_	_	_	_	_	
+36-4	2933-2936	var	_	_	_	_	_	_	_	
+36-5	2937-2940	det	_	_	_	_	_	_	_	
+36-6	2941-2943	52	_	_	_	_	_	_	_	
+36-7	2944-2951	procent	_	_	_	_	_	_	_	
+36-8	2952-2955	som	_	_	_	_	_	_	_	
+36-9	2956-2958	år	_	_	_	_	_	_	_	
+36-10	2959-2963	1993	_	_	_	_	_	_	_	
+36-11	2964-2972	instämde	_	Target;Source[25]	36-15[58];36-33	false[25]	4[25]	_	_	
+36-12	2973-2974	i	_	Target;Source[25]	36-15[58];36-33	false[25]	4[25]	_	_	
+36-13	2975-2985	påståendet	_	Target;Source[25]	36-15[58];36-33	false[25]	4[25]	_	_	
+36-14	2986-2987	"	_	_	_	_	_	_	_	
+36-15	2987-2988	[	*[58]	_	_	_	_	_	_	
+36-16	2988-2989	d	*[58]	_	_	_	_	_	_	
+36-17	2989-2990	]	*[58]	_	_	_	_	_	_	
+36-18	2990-2992	et	*[58]	_	_	_	_	_	_	
+36-19	2993-2998	finns	*[58]	_	_	_	_	_	_	
+36-20	2999-3002	för	*[58]	_	_	_	_	_	_	
+36-21	3003-3008	många	*[58]	_	_	_	_	_	_	
+36-22	3009-3020	utlänningar	*[58]	_	_	_	_	_	_	
+36-23	3021-3022	i	*[58]	_	_	_	_	_	_	
+36-24	3023-3030	Sverige	*[58]	_	_	_	_	_	_	
+36-25	3030-3031	"	_	_	_	_	_	_	_	
+36-26	3031-3032	,	_	_	_	_	_	_	_	
+36-27	3033-3036	mot	_	_	_	_	_	_	_	
+36-28	3037-3043	endast	_	_	_	_	_	_	_	
+36-29	3044-3046	36	_	_	_	_	_	_	_	
+36-30	3047-3054	procent	_	_	_	_	_	_	_	
+36-31	3055-3057	år	_	_	_	_	_	_	_	
+36-32	3058-3062	2009	_	_	_	_	_	_	_	
+36-33	3062-3063	.	*	_	_	_	_	_	_	
+
+#Text=Samhället i stort, inklusive arbetsgivare får man anta, verkar alltså bli mer positivt inställd till invandring över tid.
+37-1	3064-3073	Samhället	*[59]	_	_	_	_	_	_	
+37-2	3074-3075	i	*[59]	_	_	_	_	_	_	
+37-3	3076-3081	stort	*[59]	_	_	_	_	_	_	
+37-4	3081-3082	,	_	_	_	_	_	_	_	
+37-5	3083-3092	inklusive	_	_	_	_	_	_	_	
+37-6	3093-3105	arbetsgivare	_	_	_	_	_	_	_	
+37-7	3106-3109	får	_	_	_	_	_	_	_	
+37-8	3110-3113	man	_	_	_	_	_	_	_	
+37-9	3114-3118	anta	_	_	_	_	_	_	_	
+37-10	3118-3119	,	_	_	_	_	_	_	_	
+37-11	3120-3126	verkar	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-12	3127-3133	alltså	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-13	3134-3137	bli	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-14	3138-3141	mer	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-15	3142-3150	positivt	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-16	3151-3159	inställd	_	Target;Source[26]	37-18;37-1[59]	false[26]	4[26]	_	_	
+37-17	3160-3164	till	_	_	_	_	_	_	_	
+37-18	3165-3175	invandring	*	_	_	_	_	_	_	
+37-19	3176-3180	över	_	_	_	_	_	_	_	
+37-20	3181-3184	tid	_	_	_	_	_	_	_	
+37-21	3184-3185	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3187-3188	#	_	_	_	_	_	_	_	
+38-2	3188-3189	P	_	_	_	_	_	_	_	
+38-3	3190-3193	IMM	_	_	_	_	_	_	_	
+38-4	3193-3194	.	_	_	_	_	_	_	_	
+
+#Text=Vad Abozar, som även titulerar sig som statsvetare, har för grund när han skriver att "Sverige är ett land där rasismen, utanförskapet och diskrimineringen ökar exponentiellt" är alltså extremt oklart då påståendet inte kunde vara mer felaktigt.
+39-1	3196-3199	Vad	*[60]	_	_	_	_	_	_	
+39-2	3200-3206	Abozar	*[60]	_	_	_	_	_	_	
+39-3	3206-3207	,	*[60]	_	_	_	_	_	_	
+39-4	3208-3211	som	*[60]	_	_	_	_	_	_	
+39-5	3212-3216	även	*[60]	_	_	_	_	_	_	
+39-6	3217-3226	titulerar	*[60]	_	_	_	_	_	_	
+39-7	3227-3230	sig	*[60]	_	_	_	_	_	_	
+39-8	3231-3234	som	*[60]	_	_	_	_	_	_	
+39-9	3235-3246	statsvetare	*[60]	_	_	_	_	_	_	
+39-10	3246-3247	,	*[60]	_	_	_	_	_	_	
+39-11	3248-3251	har	*[60]	_	_	_	_	_	_	
+39-12	3252-3255	för	*[60]	_	_	_	_	_	_	
+39-13	3256-3261	grund	*[60]	_	_	_	_	_	_	
+39-14	3262-3265	när	*[60]	_	_	_	_	_	_	
+39-15	3266-3269	han	*[60]	_	_	_	_	_	_	
+39-16	3270-3277	skriver	*[60]	_	_	_	_	_	_	
+39-17	3278-3281	att	*[60]	_	_	_	_	_	_	
+39-18	3282-3283	"	*[60]	_	_	_	_	_	_	
+39-19	3283-3290	Sverige	*[60]	_	_	_	_	_	_	
+39-20	3291-3293	är	*[60]	_	_	_	_	_	_	
+39-21	3294-3297	ett	*[60]	_	_	_	_	_	_	
+39-22	3298-3302	land	*[60]	_	_	_	_	_	_	
+39-23	3303-3306	där	*[60]	_	_	_	_	_	_	
+39-24	3307-3315	rasismen	*[60]	_	_	_	_	_	_	
+39-25	3315-3316	,	*[60]	_	_	_	_	_	_	
+39-26	3317-3330	utanförskapet	*[60]	_	_	_	_	_	_	
+39-27	3331-3334	och	*[60]	_	_	_	_	_	_	
+39-28	3335-3351	diskrimineringen	*[60]	_	_	_	_	_	_	
+39-29	3352-3356	ökar	*[60]	_	_	_	_	_	_	
+39-30	3357-3370	exponentiellt	*[60]	_	_	_	_	_	_	
+39-31	3370-3371	"	_	_	_	_	_	_	_	
+39-32	3372-3374	är	_	_	_	_	_	_	_	
+39-33	3375-3381	alltså	_	_	_	_	_	_	_	
+39-34	3382-3389	extremt	_	Target[27]	39-1[60]	false[27]	2[27]	_	_	
+39-35	3390-3396	oklart	_	Target[27]	39-1[60]	false[27]	2[27]	_	_	
+39-36	3397-3399	då	_	_	_	_	_	_	_	
+39-37	3400-3410	påståendet	*	_	_	_	_	_	_	
+39-38	3411-3415	inte	_	Target[28]	39-37	false[28]	1[28]	_	_	
+39-39	3416-3421	kunde	_	Target[28]	39-37	false[28]	1[28]	_	_	
+39-40	3422-3426	vara	_	Target[28]	39-37	false[28]	1[28]	_	_	
+39-41	3427-3430	mer	_	Target[28]	39-37	false[28]	1[28]	_	_	
+39-42	3431-3440	felaktigt	_	Target[28]	39-37	false[28]	1[28]	_	_	
+39-43	3440-3441	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3443-3444	#	_	_	_	_	_	_	_	
+40-2	3444-3445	P	_	_[29]	_	false[29]	3[29]	_	_	
+40-3	3446-3449	IMM	_	_[29]	_	false[29]	3[29]	_	_	
+40-4	3449-3450	.	_	_	_	_	_	_	_	
+
+#Text=Under de senaste åren har fler utrikesfödda kommit i arbete, men gapet mellan utrikes- och inrikesfödda är fortsatt stort.
+41-1	3452-3457	Under	_	_	_	_	_	_	_	
+41-2	3458-3460	de	_	_	_	_	_	_	_	
+41-3	3461-3468	senaste	_	_	_	_	_	_	_	
+41-4	3469-3473	åren	_	_	_	_	_	_	_	
+41-5	3474-3477	har	_	_	_	_	_	_	_	
+41-6	3478-3482	fler	_	_	_	_	_	_	_	
+41-7	3483-3495	utrikesfödda	_	_	_	_	_	_	_	
+41-8	3496-3502	kommit	_	_	_	_	_	_	_	
+41-9	3503-3504	i	_	_	_	_	_	_	_	
+41-10	3505-3511	arbete	_	_	_	_	_	_	_	
+41-11	3511-3512	,	_	_	_	_	_	_	_	
+41-12	3513-3516	men	_	_	_	_	_	_	_	
+41-13	3517-3522	gapet	_	_	_	_	_	_	_	
+41-14	3523-3529	mellan	_	_	_	_	_	_	_	
+41-15	3530-3537	utrikes	_	_	_	_	_	_	_	
+41-16	3537-3538	-	_	_	_	_	_	_	_	
+41-17	3539-3542	och	_	_	_	_	_	_	_	
+41-18	3543-3555	inrikesfödda	_	_	_	_	_	_	_	
+41-19	3556-3558	är	_	_	_	_	_	_	_	
+41-20	3559-3567	fortsatt	_	_	_	_	_	_	_	
+41-21	3568-3573	stort	_	_	_	_	_	_	_	
+41-22	3573-3574	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3576-3577	#	_	_	_	_	_	_	_	
+42-2	3577-3578	P	_	_[30]	_	false[30]	3[30]	_	_	
+42-3	3579-3582	IMM	_	_[30]	_	false[30]	3[30]	_	_	
+42-4	3582-3583	.	_	_	_	_	_	_	_	
+
+#Text=**Vi vet att det finns **system inom Sverige som är starkt bidragande till att hålla människor utanför.
+43-1	3585-3586	*	_	_	_	_	_	_	_	
+43-2	3586-3587	*	_	_	_	_	_	_	_	
+43-3	3587-3589	Vi	_	_	_	_	_	_	_	
+43-4	3590-3593	vet	_	_	_	_	_	_	_	
+43-5	3594-3597	att	_	_	_	_	_	_	_	
+43-6	3598-3601	det	_	_	_	_	_	_	_	
+43-7	3602-3607	finns	_	_	_	_	_	_	_	
+43-8	3608-3609	*	_	_	_	_	_	_	_	
+43-9	3609-3610	*	_	_	_	_	_	_	_	
+43-10	3610-3616	system	*[61]	_	_	_	_	_	_	
+43-11	3617-3621	inom	*[61]	_	_	_	_	_	_	
+43-12	3622-3629	Sverige	*[61]	_	_	_	_	_	_	
+43-13	3630-3633	som	_	_	_	_	_	_	_	
+43-14	3634-3636	är	_	_	_	_	_	_	_	
+43-15	3637-3643	starkt	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-16	3644-3654	bidragande	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-17	3655-3659	till	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-18	3660-3663	att	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-19	3664-3669	hålla	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-20	3670-3679	människor	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-21	3680-3687	utanför	_	Target[31]	43-10[61]	false[31]	2[31]	_	_	
+43-22	3687-3688	.	_	_	_	_	_	_	_	
+
+#Text=En överreglerad arbetsmarkand är ett exempel.
+44-1	3689-3691	En	_	_	_	_	_	_	_	
+44-2	3692-3704	överreglerad	_	_	_	_	_	_	_	
+44-3	3705-3718	arbetsmarkand	_	_	_	_	_	_	_	
+44-4	3719-3721	är	_	_	_	_	_	_	_	
+44-5	3722-3725	ett	_	_	_	_	_	_	_	
+44-6	3726-3733	exempel	_	_	_	_	_	_	_	
+44-7	3733-3734	.	_	_	_	_	_	_	_	
+
+#Text=Nationalekonomen Andreas Bergh har exempelvis visat att länder med hög kollektivavtalstäckning har signifikant större segregation – genom att pressa upp lönerna har vi även pressat upp trösklarna till arbetsmarknaden, eller i många fall helt stängt dörren.
+45-1	3735-3751	Nationalekonomen	_	_	_	_	_	_	_	
+45-2	3752-3759	Andreas	*[62]	_	_	_	_	_	_	
+45-3	3760-3765	Bergh	*[62]	_	_	_	_	_	_	
+45-4	3766-3769	har	_	_	_	_	_	_	_	
+45-5	3770-3780	exempelvis	_	_	_	_	_	_	_	
+45-6	3781-3786	visat	_	_	_	_	_	_	_	
+45-7	3787-3790	att	_	_	_	_	_	_	_	
+45-8	3791-3797	länder	*[63]	_	_	_	_	_	_	
+45-9	3798-3801	med	*[63]	_	_	_	_	_	_	
+45-10	3802-3805	hög	*[63]	_	_	_	_	_	_	
+45-11	3806-3829	kollektivavtalstäckning	*[63]	_	_	_	_	_	_	
+45-12	3830-3833	har	_	Source;Target[32]	45-2[62];45-8[63]	false[32]	2[32]	_	_	
+45-13	3834-3845	signifikant	_	Source;Target[32]	45-2[62];45-8[63]	false[32]	2[32]	_	_	
+45-14	3846-3852	större	_	Source;Target[32]	45-2[62];45-8[63]	false[32]	2[32]	_	_	
+45-15	3853-3864	segregation	_	Source;Target[32]	45-2[62];45-8[63]	false[32]	2[32]	_	_	
+45-16	3865-3866	–	_	_	_	_	_	_	_	
+45-17	3867-3872	genom	*[64]	_	_	_	_	_	_	
+45-18	3873-3876	att	*[64]	_	_	_	_	_	_	
+45-19	3877-3883	pressa	*[64]	_	_	_	_	_	_	
+45-20	3884-3887	upp	*[64]	_	_	_	_	_	_	
+45-21	3888-3895	lönerna	*[64]	_	_	_	_	_	_	
+45-22	3896-3899	har	_	_	_	_	_	_	_	
+45-23	3900-3902	vi	_	_	_	_	_	_	_	
+45-24	3903-3907	även	_	_	_	_	_	_	_	
+45-25	3908-3915	pressat	_	Target[33]	45-17[64]	false[33]	2[33]	_	_	
+45-26	3916-3919	upp	_	Target[33]	45-17[64]	false[33]	2[33]	_	_	
+45-27	3920-3930	trösklarna	_	Target[33]	45-17[64]	false[33]	2[33]	_	_	
+45-28	3931-3935	till	_	Target[33]	45-17[64]	false[33]	2[33]	_	_	
+45-29	3936-3951	arbetsmarknaden	_	Target[33]	45-17[64]	false[33]	2[33]	_	_	
+45-30	3951-3952	,	_	_	_	_	_	_	_	
+45-31	3953-3958	eller	_	_	_	false	2	45-25[33_0]	_	
+45-32	3959-3960	i	_	_	_	_	_	_	_	
+45-33	3961-3966	många	_	_	_	_	_	_	_	
+45-34	3967-3971	fall	_	_	_	_	_	_	_	
+45-35	3972-3976	helt	_	_[34]	_	false[34]	2[34]	45-31[0_34]	_	
+45-36	3977-3983	stängt	_	_[34]	_	false[34]	2[34]	_	_	
+45-37	3984-3990	dörren	_	_[34]	_	false[34]	2[34]	_	_	
+45-38	3990-3991	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3993-3994	#	_	_	_	_	_	_	_	
+46-2	3994-3995	P	_	_	_	_	_	_	_	
+46-3	3996-3999	IMM	_	_	_	_	_	_	_	
+46-4	3999-4000	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen gjorde inte tillräckligt för att våga bryta dessa system och det är än mer osannolikt att en socialdemokratiskt ledd regering kommer göra det.
+47-1	4002-4011	Alliansen	*	_	_	_	_	_	_	
+47-2	4012-4018	gjorde	_	Target[35]	47-1	false[35]	2[35]	_	_	
+47-3	4019-4023	inte	_	Target[35]	47-1	false[35]	2[35]	_	_	
+47-4	4024-4036	tillräckligt	_	Target[35]	47-1	false[35]	2[35]	_	_	
+47-5	4037-4040	för	_	_	_	_	_	_	_	
+47-6	4041-4044	att	_	_	_	_	_	_	_	
+47-7	4045-4049	våga	_	_	_	_	_	_	_	
+47-8	4050-4055	bryta	_	_	_	_	_	_	_	
+47-9	4056-4061	dessa	_	_	_	_	_	_	_	
+47-10	4062-4068	system	_	_	_	_	_	_	_	
+47-11	4069-4072	och	_	_	_	_	_	_	_	
+47-12	4073-4076	det	_	_	_	_	_	_	_	
+47-13	4077-4079	är	_	_	_	_	_	_	_	
+47-14	4080-4082	än	_	Target[36]	47-18[65]	false[36]	2[36]	_	_	
+47-15	4083-4086	mer	_	Target[36]	47-18[65]	false[36]	2[36]	_	_	
+47-16	4087-4097	osannolikt	_	Target[36]	47-18[65]	false[36]	2[36]	_	_	
+47-17	4098-4101	att	_	_	_	_	_	_	_	
+47-18	4102-4104	en	*[65]	_	_	_	_	_	_	
+47-19	4105-4123	socialdemokratiskt	*[65]	_	_	_	_	_	_	
+47-20	4124-4128	ledd	*[65]	_	_	_	_	_	_	
+47-21	4129-4137	regering	*[65]	_	_	_	_	_	_	
+47-22	4138-4144	kommer	*[65]	_	_	_	_	_	_	
+47-23	4145-4149	göra	*[65]	_	_	_	_	_	_	
+47-24	4150-4153	det	*[65]	_	_	_	_	_	_	
+47-25	4153-4154	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4156-4157	#	_	_	_	_	_	_	_	
+48-2	4157-4158	P	_	_[37]	_	false[37]	3[37]	_	_	
+48-3	4159-4162	IMM	_	_[37]	_	false[37]	3[37]	_	_	
+48-4	4162-4163	.	_	_	_	_	_	_	_	
+
+#Text=**Att ducka bakom **diskriminering istället för att föreslå reella åtgärder kommer inte bryta utanförskap - oavsett hur många artiklar och kampanjer med tveksamma sanningar som skrivs om ett rasistiskt Sverige.
+49-1	4165-4166	*	_	_	_	_	_	_	_	
+49-2	4166-4167	*	_	_	_	_	_	_	_	
+49-3	4167-4170	Att	_	_	_	_	_	_	_	
+49-4	4171-4176	ducka	_	Target[38]	49-15[66]	false[38]	2[38]	_	_	
+49-5	4177-4182	bakom	_	Target[38]	49-15[66]	false[38]	2[38]	_	_	
+49-6	4183-4184	*	_	Target[38]	49-15[66]	false[38]	2[38]	_	_	
+49-7	4184-4185	*	_	Target[38]	49-15[66]	false[38]	2[38]	_	_	
+49-8	4185-4199	diskriminering	_	Target[38]	49-15[66]	false[38]	2[38]	_	_	
+49-9	4200-4208	istället	_	_	_	_	_	_	_	
+49-10	4209-4212	för	_	_	_	_	_	_	_	
+49-11	4213-4216	att	_	_	_	_	_	_	_	
+49-12	4217-4224	föreslå	_	_	_	_	_	_	_	
+49-13	4225-4231	reella	_	_	_	_	_	_	_	
+49-14	4232-4240	åtgärder	_	_	_	_	_	_	_	
+49-15	4241-4247	kommer	*[66]	_	_	_	_	_	_	
+49-16	4248-4252	inte	*[66]	_	_	_	_	_	_	
+49-17	4253-4258	bryta	*[66]	_	_	_	_	_	_	
+49-18	4259-4270	utanförskap	*[66]	_	_	_	_	_	_	
+49-19	4271-4272	-	_	_	_	_	_	_	_	
+49-20	4273-4280	oavsett	_	_	_	_	_	_	_	
+49-21	4281-4284	hur	_	_	_	_	_	_	_	
+49-22	4285-4290	många	_	_	_	_	_	_	_	
+49-23	4291-4299	artiklar	_	_	_	_	_	_	_	
+49-24	4300-4303	och	_	_	_	_	_	_	_	
+49-25	4304-4313	kampanjer	*	_	_	_	_	_	_	
+49-26	4314-4317	med	_	_	_	_	_	_	_	
+49-27	4318-4327	tveksamma	_	Target[39]	49-25	false[39]	2[39]	_	_	
+49-28	4328-4337	sanningar	_	Target[39]	49-25	false[39]	2[39]	_	_	
+49-29	4338-4341	som	_	_	_	_	_	_	_	
+49-30	4342-4348	skrivs	_	_	_	_	_	_	_	
+49-31	4349-4351	om	_	_	_	_	_	_	_	
+49-32	4352-4355	ett	_	_	_	_	_	_	_	
+49-33	4356-4366	rasistiskt	_	Target;Source	49-34;49-35	false	2	_	_	
+49-34	4367-4374	Sverige	*	_	_	_	_	_	_	
+49-35	4374-4375	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4377-4378	#	_	_	_	_	_	_	_	
+50-2	4378-4379	P	_	_	_	_	_	_	_	
+50-3	4380-4383	IMM	_	_	_	_	_	_	_	
+50-4	4383-4384	.	_	_	_	_	_	_	_	
+
+#Text=FREDRIK SEGERFELDT.
+51-1	4386-4393	FREDRIK	_	_	_	_	_	_	_	
+51-2	4394-4404	SEGERFELDT	_	_	_	_	_	_	_	
+51-3	4404-4405	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4407-4408	#	_	_	_	_	_	_	_	
+52-2	4408-4409	P	_	_	_	_	_	_	_	
+52-3	4410-4413	IMM	_	_	_	_	_	_	_	
+52-4	4413-4414	.	_	_	_	_	_	_	_	
+
+#Text=ROLA BRENTLIN.
+53-1	4416-4420	ROLA	_	_	_	_	_	_	_	
+53-2	4421-4429	BRENTLIN	_	_	_	_	_	_	_	
+53-3	4429-4430	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4432-4433	#	_	_	_	_	_	_	_	
+54-2	4433-4434	P	_	_	_	_	_	_	_	
+54-3	4435-4438	IMM	_	_	_	_	_	_	_	
+54-4	4438-4439	.	_	_	_	_	_	_	_	
+
+#Text=Stiftelsen Migro.
+55-1	4441-4451	Stiftelsen	_	_	_	_	_	_	_	
+55-2	4452-4457	Migro	_	_	_	_	_	_	_	
+55-3	4457-4458	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4460-4461	#	_	_	_	_	_	_	_	
+56-2	4461-4462	P	_	_	_	_	_	_	_	
+56-3	4463-4466	IMM	_	_	_	_	_	_	_	
+56-4	4466-4467	.	_	_	_	_	_	_	_	
+
+#Text=Läs mer i vår rapport "En arbetsmarknad för alla" (Segerfeldt, migro 2013).
+57-1	4469-4472	Läs	_	_	_	_	_	_	_	
+57-2	4473-4476	mer	_	_	_	_	_	_	_	
+57-3	4477-4478	i	_	_	_	_	_	_	_	
+57-4	4479-4482	vår	_	_	_	_	_	_	_	
+57-5	4483-4490	rapport	_	_	_	_	_	_	_	
+57-6	4491-4492	"	_	_	_	_	_	_	_	
+57-7	4492-4494	En	_	_	_	_	_	_	_	
+57-8	4495-4508	arbetsmarknad	_	_	_	_	_	_	_	
+57-9	4509-4512	för	_	_	_	_	_	_	_	
+57-10	4513-4517	alla	_	_	_	_	_	_	_	
+57-11	4517-4518	"	_	_	_	_	_	_	_	
+57-12	4519-4520	(	_	_	_	_	_	_	_	
+57-13	4520-4530	Segerfeldt	_	_	_	_	_	_	_	
+57-14	4530-4531	,	_	_	_	_	_	_	_	
+57-15	4532-4537	migro	_	_	_	_	_	_	_	
+57-16	4538-4542	2013	_	_	_	_	_	_	_	
+57-17	4542-4543	)	_	_	_	_	_	_	_	
+57-18	4543-4544	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4546-4547	#	_	_	_	_	_	_	_	
+58-2	4547-4548	P	_	_	_	_	_	_	_	
+58-3	4549-4552	IMM	_	_	_	_	_	_	_	
+58-4	4552-4553	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+59-1	4555-4563	Redaktör	_	_	_	_	_	_	_	
+59-2	4563-4564	:	_	_	_	_	_	_	_	
+59-3	4565-4571	Carina	_	_	_	_	_	_	_	
+59-4	4572-4580	Stensson	_	_	_	_	_	_	_	
+59-5	4580-4581	,	_	_	_	_	_	_	_	
+59-6	4582-4592	Biträdande	_	_	_	_	_	_	_	
+59-7	4593-4601	redaktör	_	_	_	_	_	_	_	
+59-8	4601-4602	:	_	_	_	_	_	_	_	
+59-9	4603-4608	Björn	_	_	_	_	_	_	_	
+59-10	4609-4615	Jorner	_	_	_	_	_	_	_	
+59-11	4615-4616	,	_	_	_	_	_	_	_	
+59-12	4617-4621	Mejl	_	_	_	_	_	_	_	
+59-13	4621-4622	:	_	_	_	_	_	_	_	
+59-14	4623-4629	debatt	_	_	_	_	_	_	_	
+59-15	4629-4630	@	_	_	_	_	_	_	_	
+59-16	4630-4636	svd.se	_	_	_	_	_	_	_	
+59-17	4636-4637	,	_	_	_	_	_	_	_	
+59-18	4638-4651	Telefonnummer	_	_	_	_	_	_	_	
+59-19	4651-4652	:	_	_	_	_	_	_	_	
+59-20	4653-4655	08	_	_	_	_	_	_	_	
+59-21	4655-4656	-	_	_	_	_	_	_	_	
+59-22	4656-4662	135149	_	_	_	_	_	_	_	
+59-23	4662-4663	,	_	_	_	_	_	_	_	
+59-24	4664-4671	Twitter	_	_	_	_	_	_	_	
+59-25	4671-4672	:	_	_	_	_	_	_	_	
+59-26	4673-4674	@	_	_	_	_	_	_	_	
+59-27	4674-4683	SvDDebatt	_	_	_	_	_	_	_	
+59-28	4683-4684	,	_	_	_	_	_	_	_	
+59-29	4685-4693	Facebook	_	_	_	_	_	_	_	
+59-30	4693-4694	:	_	_	_	_	_	_	_	
+59-31	4695-4698	SvD	_	_	_	_	_	_	_	
+59-32	4699-4705	Debatt	_	_	_	_	_	_	_	
+59-33	4705-4706	.	_	_	_	_	_	_	_	

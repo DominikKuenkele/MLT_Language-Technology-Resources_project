@@ -1,0 +1,773 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vår världsbild är styrd av högern.
+3-1	18-21	Vår	_	_	_	_	_	_	
+3-2	22-32	världsbild	_	_	_	_	_	_	
+3-3	33-35	är	_	_	_	_	_	_	
+3-4	36-41	styrd	_	_	_	_	_	_	
+3-5	42-44	av	_	_	_	_	_	_	
+3-6	45-51	högern	_	_	_	_	_	_	
+3-7	51-52	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	54-55	#	_	_	_	_	_	_	
+4-2	55-56	P	_	_	_	_	_	_	
+4-3	57-60	IMM	_	_	_	_	_	_	
+4-4	60-61	.	_	_	_	_	_	_	
+
+#Text=Eftersom alla dessa människor läser sin borgerliga ortstidning och Dagens Nyheter och ser SVT:s nyhetsprogram är de fast övertygade om att de arbetslösa inte vill arbeta, är lata och initiativlösa, att sjukskrivna människor simulerar sin sjukdom, att USA anfallit Irak för att där införa demokrati.
+5-1	63-71	Eftersom	_	_	_	_	_	_	
+5-2	72-76	alla	*[12]	_	_	_	_	_	
+5-3	77-82	dessa	*[12]	_	_	_	_	_	
+5-4	83-92	människor	*[12]	_	_	_	_	_	
+5-5	93-98	läser	_	_	_	_	_	_	
+5-6	99-102	sin	_	_	_	_	_	_	
+5-7	103-113	borgerliga	_	_	_	_	_	_	
+5-8	114-125	ortstidning	_	_	_	_	_	_	
+5-9	126-129	och	_	_	_	_	_	_	
+5-10	130-136	Dagens	_	_	_	_	_	_	
+5-11	137-144	Nyheter	_	_	_	_	_	_	
+5-12	145-148	och	_	_	_	_	_	_	
+5-13	149-152	ser	_	_	_	_	_	_	
+5-14	153-156	SVT	_	_	_	_	_	_	
+5-15	156-157	:	_	_	_	_	_	_	
+5-16	157-158	s	_	_	_	_	_	_	
+5-17	159-172	nyhetsprogram	_	_	_	_	_	_	
+5-18	173-175	är	_	_	_	_	_	_	
+5-19	176-178	de	_	_	_	_	_	_	
+5-20	179-183	fast	_	_[1]	_	false[1]	2[1]	_	
+5-21	184-194	övertygade	_	_[1]	_	false[1]	2[1]	_	
+5-22	195-197	om	_	_	_	_	_	_	
+5-23	198-201	att	_	_	_	_	_	_	
+5-24	202-204	de	_	_	_	_	_	_	
+5-25	205-215	arbetslösa	*	_	_	_	_	_	
+5-26	216-220	inte	_	Target;Source[2]	5-25;5-2[12]	false[2]	2[2]	5-20[1_2]	
+5-27	221-225	vill	_	Target;Source[2]	5-25;5-2[12]	false[2]	2[2]	_	
+5-28	226-232	arbeta	_	Target;Source[2]	5-25;5-2[12]	false[2]	2[2]	_	
+5-29	232-233	,	_	_	_	_	_	_	
+5-30	234-236	är	_	Target[3]	5-25	false[3]	2[3]	_	
+5-31	237-241	lata	_	Target[3]	5-25	false[3]	2[3]	_	
+5-32	242-245	och	_	Target[3]	5-25	false[3]	2[3]	_	
+5-33	246-259	initiativlösa	_	Target[3]	5-25	false[3]	2[3]	_	
+5-34	259-260	,	_	_	_	_	_	_	
+5-35	261-264	att	_	_	_	_	_	_	
+5-36	265-276	sjukskrivna	_	_	_	_	_	_	
+5-37	277-286	människor	_	_	_	_	_	_	
+5-38	287-296	simulerar	_	_	_	_	_	_	
+5-39	297-300	sin	_	_	_	_	_	_	
+5-40	301-308	sjukdom	_	_	_	_	_	_	
+5-41	308-309	,	_	_	_	_	_	_	
+5-42	310-313	att	_	_	_	_	_	_	
+5-43	314-317	USA	_	_	_	_	_	_	
+5-44	318-326	anfallit	_	_	_	_	_	_	
+5-45	327-331	Irak	_	_	_	_	_	_	
+5-46	332-335	för	_	_	_	_	_	_	
+5-47	336-339	att	_	_	_	_	_	_	
+5-48	340-343	där	_	_	_	_	_	_	
+5-49	344-350	införa	_	_	_	_	_	_	
+5-50	351-360	demokrati	_	_	_	_	_	_	
+5-51	360-361	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	363-364	#	_	_	_	_	_	_	
+6-2	364-365	P	_	_	_	_	_	_	
+6-3	366-369	IMM	_	_	_	_	_	_	
+6-4	369-370	.	_	_	_	_	_	_	
+
+#Text=En borgerlig världsbild genomsyrar alla de media mina vänner kommer i kontakt med.
+7-1	372-374	En	*[13]	_	_	_	_	_	
+7-2	375-384	borgerlig	*[13]	_	_	_	_	_	
+7-3	385-395	världsbild	*[13]	_	_	_	_	_	
+7-4	396-406	genomsyrar	_	Target	7-1[13]	false	2	_	
+7-5	407-411	alla	_	_	_	_	_	_	
+7-6	412-414	de	_	_	_	_	_	_	
+7-7	415-420	media	_	_	_	_	_	_	
+7-8	421-425	mina	_	_	_	_	_	_	
+7-9	426-432	vänner	_	_	_	_	_	_	
+7-10	433-439	kommer	_	_	_	_	_	_	
+7-11	440-441	i	_	_	_	_	_	_	
+7-12	442-449	kontakt	_	_	_	_	_	_	
+7-13	450-453	med	_	_	_	_	_	_	
+7-14	453-454	.	_	_	_	_	_	_	
+
+#Text=Och helt tror på.
+8-1	455-458	Och	_	_	_	_	_	_	
+8-2	459-463	helt	_	_	_	_	_	_	
+8-3	464-468	tror	_	_	_	_	_	_	
+8-4	469-471	på	_	_	_	_	_	_	
+8-5	471-472	.	_	_	_	_	_	_	
+
+#Text=Skulle någon med tillgång till annan information ta till orda i mina vänners grupp så blir där generat tyst eller någon blir alldeles hemskt arg.
+9-1	473-479	Skulle	_	_	_	_	_	_	
+9-2	480-485	någon	_	_	_	_	_	_	
+9-3	486-489	med	_	_	_	_	_	_	
+9-4	490-498	tillgång	_	_	_	_	_	_	
+9-5	499-503	till	_	_	_	_	_	_	
+9-6	504-509	annan	_	_	_	_	_	_	
+9-7	510-521	information	_	_	_	_	_	_	
+9-8	522-524	ta	_	_	_	_	_	_	
+9-9	525-529	till	_	_	_	_	_	_	
+9-10	530-534	orda	_	_	_	_	_	_	
+9-11	535-536	i	_	_	_	_	_	_	
+9-12	537-541	mina	_	_	_	_	_	_	
+9-13	542-549	vänners	_	_	_	_	_	_	
+9-14	550-555	grupp	_	_	_	_	_	_	
+9-15	556-558	så	_	_	_	_	_	_	
+9-16	559-563	blir	_	_	_	_	_	_	
+9-17	564-567	där	_	_	_	_	_	_	
+9-18	568-575	generat	_	Target	9-19	false	2	_	
+9-19	576-580	tyst	*	_	_	_	_	_	
+9-20	581-586	eller	_	_	_	_	_	_	
+9-21	587-592	någon	*	_	_	_	_	_	
+9-22	593-597	blir	_	_	_	_	_	_	
+9-23	598-606	alldeles	_	_	_	_	_	_	
+9-24	607-613	hemskt	_	Source[4]	9-21	false[4]	2[4]	_	
+9-25	614-617	arg	_	Source[4]	9-21	false[4]	2[4]	_	
+9-26	617-618	.	_	_	_	_	_	_	
+
+#Text=Och den avvikande personen får en hårdhänt placerad kommuniststämpel i pannan.
+10-1	619-622	Och	_	_	_	_	_	_	
+10-2	623-626	den	_	_	_	_	_	_	
+10-3	627-636	avvikande	*[14]	_	_	_	_	_	
+10-4	637-645	personen	*[14]	_	_	_	_	_	
+10-5	646-649	får	_	_	_	_	_	_	
+10-6	650-652	en	_	_	_	_	_	_	
+10-7	653-661	hårdhänt	_	Source;Target[5]	10-12;10-3[14]	false[5]	2[5]	_	
+10-8	662-670	placerad	_	Source;Target[5]	10-12;10-3[14]	false[5]	2[5]	_	
+10-9	671-687	kommuniststämpel	_	Source;Target[5]	10-12;10-3[14]	false[5]	2[5]	_	
+10-10	688-689	i	_	Source;Target[5]	10-12;10-3[14]	false[5]	2[5]	_	
+10-11	690-696	pannan	_	Source;Target[5]	10-12;10-3[14]	false[5]	2[5]	_	
+10-12	696-697	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	699-700	#	_	_	_	_	_	_	
+11-2	700-701	P	_	_	_	_	_	_	
+11-3	702-705	IMM	_	_	_	_	_	_	
+11-4	705-706	.	_	_	_	_	_	_	
+
+#Text=Vänsterns folk är ju väl medvetna om den borgerliga dominansen över media och all desinformation som går ut i samhället.
+12-1	708-717	Vänsterns	_	_	_	_	_	_	
+12-2	718-722	folk	_	_	_	_	_	_	
+12-3	723-725	är	_	_	_	_	_	_	
+12-4	726-728	ju	_	_	_	_	_	_	
+12-5	729-732	väl	_	_	_	_	_	_	
+12-6	733-741	medvetna	_	_	_	_	_	_	
+12-7	742-744	om	_	_	_	_	_	_	
+12-8	745-748	den	_	_	_	_	_	_	
+12-9	749-759	borgerliga	_	_	_	_	_	_	
+12-10	760-770	dominansen	_	_	_	_	_	_	
+12-11	771-775	över	_	_	_	_	_	_	
+12-12	776-781	media	_	_	_	_	_	_	
+12-13	782-785	och	_	_	_	_	_	_	
+12-14	786-789	all	_	_	_	_	_	_	
+12-15	790-804	desinformation	_	Target	12-16[15]	false	2	_	
+12-16	805-808	som	*[15]	_	_	_	_	_	
+12-17	809-812	går	*[15]	_	_	_	_	_	
+12-18	813-815	ut	*[15]	_	_	_	_	_	
+12-19	816-817	i	*[15]	_	_	_	_	_	
+12-20	818-827	samhället	*[15]	_	_	_	_	_	
+12-21	827-828	.	_	_	_	_	_	_	
+
+#Text=Vänstern diskuterar problemet.
+13-1	829-837	Vänstern	_	_	_	_	_	_	
+13-2	838-848	diskuterar	_	_	_	_	_	_	
+13-3	849-858	problemet	_	_	_	_	_	_	
+13-4	858-859	.	_	_	_	_	_	_	
+
+#Text=Men man har från den sidan inte förstått den totala genomslagskraften hos en slugt inbäddad propaganda.
+14-1	860-863	Men	_	_	_	_	_	_	
+14-2	864-867	man	_	_	_	_	_	_	
+14-3	868-871	har	_	_	_	_	_	_	
+14-4	872-876	från	_	_	_	_	_	_	
+14-5	877-880	den	_	_	_	_	_	_	
+14-6	881-886	sidan	_	_	_	_	_	_	
+14-7	887-891	inte	_	_	_	_	_	_	
+14-8	892-900	förstått	_	_	_	_	_	_	
+14-9	901-904	den	_	_	_	_	_	_	
+14-10	905-911	totala	_	_	_	_	_	_	
+14-11	912-929	genomslagskraften	_	_	_	_	_	_	
+14-12	930-933	hos	_	_	_	_	_	_	
+14-13	934-936	en	_	_	_	_	_	_	
+14-14	937-942	slugt	*[16]	Target[6]	14-14[16]	false[6]	2[6]	_	
+14-15	943-951	inbäddad	*[16]	Target[6]	14-14[16]	false[6]	2[6]	_	
+14-16	952-962	propaganda	*[16]	Target[6]	14-14[16]	false[6]	2[6]	_	
+14-17	962-963	.	_	_	_	_	_	_	
+
+#Text=Detta att ingen undgår att påverkas.
+15-1	964-969	Detta	_	_	_	_	_	_	
+15-2	970-973	att	_	_	_	_	_	_	
+15-3	974-979	ingen	_	_	_	_	_	_	
+15-4	980-986	undgår	_	_	_	_	_	_	
+15-5	987-990	att	_	_	_	_	_	_	
+15-6	991-999	påverkas	_	_	_	_	_	_	
+15-7	999-1000	.	_	_	_	_	_	_	
+
+#Text=En borgerlig ideologi genomsyrar dagsaktuell nyhetsinformation, förlagens böcker, skolans undervisning.
+16-1	1001-1003	En	_	_	_	_	_	_	
+16-2	1004-1013	borgerlig	*[17]	_	_	_	_	_	
+16-3	1014-1022	ideologi	*[17]	_	_	_	_	_	
+16-4	1023-1033	genomsyrar	_	Target	16-2[17]	false	2	_	
+16-5	1034-1045	dagsaktuell	_	_	_	_	_	_	
+16-6	1046-1063	nyhetsinformation	_	_	_	_	_	_	
+16-7	1063-1064	,	_	_	_	_	_	_	
+16-8	1065-1074	förlagens	_	_	_	_	_	_	
+16-9	1075-1081	böcker	_	_	_	_	_	_	
+16-10	1081-1082	,	_	_	_	_	_	_	
+16-11	1083-1090	skolans	_	_	_	_	_	_	
+16-12	1091-1103	undervisning	_	_	_	_	_	_	
+16-13	1103-1104	.	_	_	_	_	_	_	
+
+#Text=Allt och hela vägen.
+17-1	1105-1109	Allt	_	_	_	_	_	_	
+17-2	1110-1113	och	_	_	_	_	_	_	
+17-3	1114-1118	hela	_	_	_	_	_	_	
+17-4	1119-1124	vägen	_	_	_	_	_	_	
+17-5	1124-1125	.	_	_	_	_	_	_	
+
+#Text=Den rådande samhällsstrukturens absoluta självförsvar.
+18-1	1126-1129	Den	_	_	_	_	_	_	
+18-2	1130-1137	rådande	_	_	_	_	_	_	
+18-3	1138-1157	samhällsstrukturens	_	_	_	_	_	_	
+18-4	1158-1166	absoluta	_	_	_	_	_	_	
+18-5	1167-1179	självförsvar	_	_	_	_	_	_	
+18-6	1179-1180	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1182-1183	#	_	_	_	_	_	_	
+19-2	1183-1184	P	_	_	_	_	_	_	
+19-3	1185-1188	IMM	_	_	_	_	_	_	
+19-4	1188-1189	.	_	_	_	_	_	_	
+
+#Text=Vi får här även väga in nöjesindustrins grepp över över våra tankar.
+20-1	1191-1193	Vi	_	_	_	_	_	_	
+20-2	1194-1197	får	_	_	_	_	_	_	
+20-3	1198-1201	här	_	_	_	_	_	_	
+20-4	1202-1206	även	_	_	_	_	_	_	
+20-5	1207-1211	väga	_	_	_	_	_	_	
+20-6	1212-1214	in	_	_	_	_	_	_	
+20-7	1215-1230	nöjesindustrins	_	_	_	_	_	_	
+20-8	1231-1236	grepp	_	_	_	_	_	_	
+20-9	1237-1241	över	_	_	_	_	_	_	
+20-10	1242-1246	över	_	_	_	_	_	_	
+20-11	1247-1251	våra	_	_	_	_	_	_	
+20-12	1252-1258	tankar	_	_	_	_	_	_	
+20-13	1258-1259	.	_	_	_	_	_	_	
+
+#Text=Vi erbjuds underhållande teater och show.
+21-1	1260-1262	Vi	_	_	_	_	_	_	
+21-2	1263-1270	erbjuds	_	_	_	_	_	_	
+21-3	1271-1284	underhållande	_	_	_	_	_	_	
+21-4	1285-1291	teater	_	_	_	_	_	_	
+21-5	1292-1295	och	_	_	_	_	_	_	
+21-6	1296-1300	show	_	_	_	_	_	_	
+21-7	1300-1301	.	_	_	_	_	_	_	
+
+#Text=Uddlös underhållning.
+22-1	1302-1308	Uddlös	_	_	_	_	_	_	
+22-2	1309-1322	underhållning	_	_	_	_	_	_	
+22-3	1322-1323	.	_	_	_	_	_	_	
+
+#Text=Och dessa många filmer vars ”berättelser” är endast yta – även de som skildrar brott och död.
+23-1	1324-1327	Och	_	_	_	_	_	_	
+23-2	1328-1333	dessa	_	_	_	_	_	_	
+23-3	1334-1339	många	_	_	_	_	_	_	
+23-4	1340-1346	filmer	_	_	_	_	_	_	
+23-5	1347-1351	vars	_	_	_	_	_	_	
+23-6	1352-1353	”	_	_	_	_	_	_	
+23-7	1353-1364	berättelser	_	_	_	_	_	_	
+23-8	1364-1365	”	_	_	_	_	_	_	
+23-9	1366-1368	är	_	_	_	_	_	_	
+23-10	1369-1375	endast	_	_	_	_	_	_	
+23-11	1376-1379	yta	_	_	_	_	_	_	
+23-12	1380-1381	–	_	_	_	_	_	_	
+23-13	1382-1386	även	_	_	_	_	_	_	
+23-14	1387-1389	de	_	_	_	_	_	_	
+23-15	1390-1393	som	_	_	_	_	_	_	
+23-16	1394-1402	skildrar	_	_	_	_	_	_	
+23-17	1403-1408	brott	_	_	_	_	_	_	
+23-18	1409-1412	och	_	_	_	_	_	_	
+23-19	1413-1416	död	_	_	_	_	_	_	
+23-20	1416-1417	.	_	_	_	_	_	_	
+
+#Text=Även detta bekymrar vänstern.
+24-1	1418-1422	Även	_	_	_	_	_	_	
+24-2	1423-1428	detta	*	_	_	_	_	_	
+24-3	1429-1437	bekymrar	_	Target;Source	24-2;24-4	false	2	_	
+24-4	1438-1446	vänstern	*	_	_	_	_	_	
+24-5	1446-1447	.	_	_	_	_	_	_	
+
+#Text=Ibland.
+25-1	1448-1454	Ibland	_	_	_	_	_	_	
+25-2	1454-1455	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1457-1458	#	_	_	_	_	_	_	
+26-2	1458-1459	P	_	_	_	_	_	_	
+26-3	1460-1463	IMM	_	_	_	_	_	_	
+26-4	1463-1464	.	_	_	_	_	_	_	
+
+#Text=Att vänstergrupper ger ut små ambitiösa tidskrifter hjälper föga här.
+27-1	1466-1469	Att	_	_	_	_	_	_	
+27-2	1470-1484	vänstergrupper	*[18]	_	_	_	_	_	
+27-3	1485-1488	ger	*[18]	_	_	_	_	_	
+27-4	1489-1491	ut	*[18]	_	_	_	_	_	
+27-5	1492-1495	små	*[18]	_	_	_	_	_	
+27-6	1496-1505	ambitiösa	*[18]	_	_	_	_	_	
+27-7	1506-1517	tidskrifter	*[18]	_	_	_	_	_	
+27-8	1518-1525	hjälper	_	Target[7]	27-2[18]	false[7]	2[7]	_	
+27-9	1526-1530	föga	_	Target[7]	27-2[18]	false[7]	2[7]	_	
+27-10	1531-1534	här	_	_	_	_	_	_	
+27-11	1534-1535	.	_	_	_	_	_	_	
+
+#Text=Eller att vänsteraktivister ibland lyckas bli intervjuade i ett eller annat tv-program.
+28-1	1536-1541	Eller	_	_	_	_	_	_	
+28-2	1542-1545	att	_	_	_	_	_	_	
+28-3	1546-1563	vänsteraktivister	_	_	_	_	_	_	
+28-4	1564-1570	ibland	_	_	_	_	_	_	
+28-5	1571-1577	lyckas	_	_	_	_	_	_	
+28-6	1578-1581	bli	_	_	_	_	_	_	
+28-7	1582-1593	intervjuade	_	_	_	_	_	_	
+28-8	1594-1595	i	_	_	_	_	_	_	
+28-9	1596-1599	ett	_	_	_	_	_	_	
+28-10	1600-1605	eller	_	_	_	_	_	_	
+28-11	1606-1611	annat	_	_	_	_	_	_	
+28-12	1612-1622	tv-program	_	_	_	_	_	_	
+28-13	1622-1623	.	_	_	_	_	_	_	
+
+#Text=För att där få sin person och sina åsikter förhånade.
+29-1	1624-1627	För	_	_	_	_	_	_	
+29-2	1628-1631	att	_	_	_	_	_	_	
+29-3	1632-1635	där	_	_	_	_	_	_	
+29-4	1636-1638	få	_	_	_	_	_	_	
+29-5	1639-1642	sin	_	_	_	_	_	_	
+29-6	1643-1649	person	_	_	_	_	_	_	
+29-7	1650-1653	och	_	_	_	_	_	_	
+29-8	1654-1658	sina	*[19]	_	_	_	_	_	
+29-9	1659-1666	åsikter	*[19]	_	_	_	_	_	
+29-10	1667-1676	förhånade	_	Source;Target	29-11;29-8[19]	false	1	_	
+29-11	1676-1677	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1679-1680	#	_	_	_	_	_	_	
+30-2	1680-1681	P	_	_	_	_	_	_	
+30-3	1682-1685	IMM	_	_	_	_	_	_	
+30-4	1685-1686	.	_	_	_	_	_	_	
+
+#Text=Trots socialdemokratins politiska styrka äger partiet inte plattformar där det kan försvara sig mot det sanslösa skallet mot dess politik och politiker.
+31-1	1688-1693	Trots	_	_	_	_	_	_	
+31-2	1694-1711	socialdemokratins	_	_	_	_	_	_	
+31-3	1712-1721	politiska	_	_	_	_	_	_	
+31-4	1722-1728	styrka	_	_	_	_	_	_	
+31-5	1729-1733	äger	_	_	_	_	_	_	
+31-6	1734-1741	partiet	_	_	_	_	_	_	
+31-7	1742-1746	inte	_	_	_	_	_	_	
+31-8	1747-1758	plattformar	_	_	_	_	_	_	
+31-9	1759-1762	där	_	_	_	_	_	_	
+31-10	1763-1766	det	_	_	_	_	_	_	
+31-11	1767-1770	kan	_	_	_	_	_	_	
+31-12	1771-1779	försvara	_	_	_	_	_	_	
+31-13	1780-1783	sig	_	_	_	_	_	_	
+31-14	1784-1787	mot	_	_	_	_	_	_	
+31-15	1788-1791	det	_	_	_	_	_	_	
+31-16	1792-1800	sanslösa	_	_	_	_	_	_	
+31-17	1801-1808	skallet	_	_	_	_	_	_	
+31-18	1809-1812	mot	_	_	_	_	_	_	
+31-19	1813-1817	dess	_	_	_	_	_	_	
+31-20	1818-1825	politik	_	_	_	_	_	_	
+31-21	1826-1829	och	_	_	_	_	_	_	
+31-22	1830-1839	politiker	_	_	_	_	_	_	
+31-23	1839-1840	.	_	_	_	_	_	_	
+
+#Text=Där 90 procent av alla media deltar.
+32-1	1841-1844	Där	_	_	_	_	_	_	
+32-2	1845-1847	90	_	_	_	_	_	_	
+32-3	1848-1855	procent	_	_	_	_	_	_	
+32-4	1856-1858	av	_	_	_	_	_	_	
+32-5	1859-1863	alla	_	_	_	_	_	_	
+32-6	1864-1869	media	_	_	_	_	_	_	
+32-7	1870-1876	deltar	_	_	_	_	_	_	
+32-8	1876-1877	.	_	_	_	_	_	_	
+
+#Text=Hela fältet av blodhundar.
+33-1	1878-1882	Hela	_	_	_	_	_	_	
+33-2	1883-1889	fältet	_	_	_	_	_	_	
+33-3	1890-1892	av	_	_	_	_	_	_	
+33-4	1893-1903	blodhundar	_	_	_	_	_	_	
+33-5	1903-1904	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	1906-1907	#	_	_	_	_	_	_	
+34-2	1907-1908	P	_	_	_	_	_	_	
+34-3	1909-1912	IMM	_	_	_	_	_	_	
+34-4	1912-1913	.	_	_	_	_	_	_	
+
+#Text=Vi fick inte genom skolan lära oss ett kritiskt tänkande.
+35-1	1915-1917	Vi	_	_	_	_	_	_	
+35-2	1918-1922	fick	_	_	_	_	_	_	
+35-3	1923-1927	inte	_	_	_	_	_	_	
+35-4	1928-1933	genom	_	_	_	_	_	_	
+35-5	1934-1940	skolan	_	_	_	_	_	_	
+35-6	1941-1945	lära	_	_	_	_	_	_	
+35-7	1946-1949	oss	_	_	_	_	_	_	
+35-8	1950-1953	ett	_	_	_	_	_	_	
+35-9	1954-1962	kritiskt	_	_	_	_	_	_	
+35-10	1963-1971	tänkande	_	_	_	_	_	_	
+35-11	1971-1972	.	_	_	_	_	_	_	
+
+#Text=Gavs aldrig verklig insikt i samhällets verkliga strukturer.
+36-1	1973-1977	Gavs	_	_	_	_	_	_	
+36-2	1978-1984	aldrig	_	_	_	_	_	_	
+36-3	1985-1992	verklig	_	_	_	_	_	_	
+36-4	1993-1999	insikt	_	_	_	_	_	_	
+36-5	2000-2001	i	_	_	_	_	_	_	
+36-6	2002-2012	samhällets	_	_	_	_	_	_	
+36-7	2013-2021	verkliga	_	_	_	_	_	_	
+36-8	2022-2032	strukturer	_	_	_	_	_	_	
+36-9	2032-2033	.	_	_	_	_	_	_	
+
+#Text=Bara en sorts formella kunskaper som aldrig vidrörde något för oss väsentligt.
+37-1	2034-2038	Bara	_	_	_	_	_	_	
+37-2	2039-2041	en	_	_	_	_	_	_	
+37-3	2042-2047	sorts	_	_	_	_	_	_	
+37-4	2048-2056	formella	_	_	_	_	_	_	
+37-5	2057-2066	kunskaper	_	_	_	_	_	_	
+37-6	2067-2070	som	_	_	_	_	_	_	
+37-7	2071-2077	aldrig	_	_	_	_	_	_	
+37-8	2078-2086	vidrörde	_	_	_	_	_	_	
+37-9	2087-2092	något	_	_	_	_	_	_	
+37-10	2093-2096	för	_	_	_	_	_	_	
+37-11	2097-2100	oss	_	_	_	_	_	_	
+37-12	2101-2111	väsentligt	_	_	_	_	_	_	
+37-13	2111-2112	.	_	_	_	_	_	_	
+
+#Text=Hur läser ungdomarna historia i vår skola?
+38-1	2113-2116	Hur	_	_	_	_	_	_	
+38-2	2117-2122	läser	_	_	_	_	_	_	
+38-3	2123-2133	ungdomarna	_	_	_	_	_	_	
+38-4	2134-2142	historia	_	_	_	_	_	_	
+38-5	2143-2144	i	_	_	_	_	_	_	
+38-6	2145-2148	vår	_	_	_	_	_	_	
+38-7	2149-2154	skola	_	_	_	_	_	_	
+38-8	2154-2155	?	_	_	_	_	_	_	
+
+#Text=Vilka läroböcker informerar om klassmotsättningar i förfluten tid – och de nedärvda, annat än i förbigående?.
+39-1	2156-2161	Vilka	_	_	_	_	_	_	
+39-2	2162-2172	läroböcker	_	_	_	_	_	_	
+39-3	2173-2183	informerar	_	_	_	_	_	_	
+39-4	2184-2186	om	_	_	_	_	_	_	
+39-5	2187-2205	klassmotsättningar	_	_	_	_	_	_	
+39-6	2206-2207	i	_	_	_	_	_	_	
+39-7	2208-2217	förfluten	_	_	_	_	_	_	
+39-8	2218-2221	tid	_	_	_	_	_	_	
+39-9	2222-2223	–	_	_	_	_	_	_	
+39-10	2224-2227	och	_	_	_	_	_	_	
+39-11	2228-2230	de	_	_	_	_	_	_	
+39-12	2231-2239	nedärvda	_	_	_	_	_	_	
+39-13	2239-2240	,	_	_	_	_	_	_	
+39-14	2241-2246	annat	_	_	_	_	_	_	
+39-15	2247-2249	än	_	_	_	_	_	_	
+39-16	2250-2251	i	_	_	_	_	_	_	
+39-17	2252-2263	förbigående	_	_	_	_	_	_	
+39-18	2263-2264	?	_	_	_	_	_	_	
+39-19	2264-2265	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2267-2268	#	_	_	_	_	_	_	
+40-2	2268-2269	P	_	_	_	_	_	_	
+40-3	2270-2273	IMM	_	_	_	_	_	_	
+40-4	2273-2274	.	_	_	_	_	_	_	
+
+#Text=Jag känner en svart pessimism kring detta.
+41-1	2276-2279	Jag	*	_	_	_	_	_	
+41-2	2280-2286	känner	_	Target;Source[8]	41-6[20];41-1	false[8]	1[8]	_	
+41-3	2287-2289	en	_	Target;Source[8]	41-6[20];41-1	false[8]	1[8]	_	
+41-4	2290-2295	svart	_	Target;Source[8]	41-6[20];41-1	false[8]	1[8]	_	
+41-5	2296-2305	pessimism	_	Target;Source[8]	41-6[20];41-1	false[8]	1[8]	_	
+41-6	2306-2311	kring	*[20]	_	_	_	_	_	
+41-7	2312-2317	detta	*[20]	_	_	_	_	_	
+41-8	2317-2318	.	*[20]	_	_	_	_	_	
+
+#Text=Brett upplagd information kostar enorma summor.
+42-1	2319-2324	Brett	_	_	_	_	_	_	
+42-2	2325-2332	upplagd	_	_	_	_	_	_	
+42-3	2333-2344	information	_	_	_	_	_	_	
+42-4	2345-2351	kostar	_	_	_	_	_	_	
+42-5	2352-2358	enorma	_	_	_	_	_	_	
+42-6	2359-2365	summor	_	_	_	_	_	_	
+42-7	2365-2366	.	_	_	_	_	_	_	
+
+#Text=Visst har LO och socialdemokratin ekonomiska resurser att starta en helt egen dagstidning och även öppna andra informationskanaler.
+43-1	2367-2372	Visst	_	_	_	_	_	_	
+43-2	2373-2376	har	_	_	_	_	_	_	
+43-3	2377-2379	LO	_	_	_	_	_	_	
+43-4	2380-2383	och	_	_	_	_	_	_	
+43-5	2384-2400	socialdemokratin	_	_	_	_	_	_	
+43-6	2401-2411	ekonomiska	_	_	_	_	_	_	
+43-7	2412-2420	resurser	_	_	_	_	_	_	
+43-8	2421-2424	att	_	_	_	_	_	_	
+43-9	2425-2431	starta	_	_	_	_	_	_	
+43-10	2432-2434	en	_	_	_	_	_	_	
+43-11	2435-2439	helt	_	_	_	_	_	_	
+43-12	2440-2444	egen	_	_	_	_	_	_	
+43-13	2445-2456	dagstidning	_	_	_	_	_	_	
+43-14	2457-2460	och	_	_	_	_	_	_	
+43-15	2461-2465	även	_	_	_	_	_	_	
+43-16	2466-2471	öppna	_	_	_	_	_	_	
+43-17	2472-2477	andra	_	_	_	_	_	_	
+43-18	2478-2497	informationskanaler	_	_	_	_	_	_	
+43-19	2497-2498	.	_	_	_	_	_	_	
+
+#Text=Men även om de tänkte tanken skulle ju den biten media inte räcka långt.
+44-1	2499-2502	Men	_	_	_	_	_	_	
+44-2	2503-2507	även	_	_	_	_	_	_	
+44-3	2508-2510	om	_	_	_	_	_	_	
+44-4	2511-2513	de	_	_	_	_	_	_	
+44-5	2514-2520	tänkte	_	_	_	_	_	_	
+44-6	2521-2527	tanken	_	_	_	_	_	_	
+44-7	2528-2534	skulle	_	_	_	_	_	_	
+44-8	2535-2537	ju	_	_	_	_	_	_	
+44-9	2538-2541	den	*[21]	_	_	_	_	_	
+44-10	2542-2547	biten	*[21]	_	_	_	_	_	
+44-11	2548-2553	media	*[21]	_	_	_	_	_	
+44-12	2554-2558	inte	_	Target[9]	44-9[21]	false[9]	2[9]	_	
+44-13	2559-2564	räcka	_	Target[9]	44-9[21]	false[9]	2[9]	_	
+44-14	2565-2570	långt	_	Target[9]	44-9[21]	false[9]	2[9]	_	
+44-15	2570-2571	.	_	_	_	_	_	_	
+
+#Text=Vad med skolböckerna, vad med underhållningsindustrin?
+45-1	2572-2575	Vad	_	_	_	_	_	_	
+45-2	2576-2579	med	_	_	_	_	_	_	
+45-3	2580-2592	skolböckerna	_	_	_	_	_	_	
+45-4	2592-2593	,	_	_	_	_	_	_	
+45-5	2594-2597	vad	_	_	_	_	_	_	
+45-6	2598-2601	med	_	_	_	_	_	_	
+45-7	2602-2625	underhållningsindustrin	_	_	_	_	_	_	
+45-8	2625-2626	?	_	_	_	_	_	_	
+
+#Text=Vad med traditioner från det äldre samhället, garanterat konservativa även de.
+46-1	2627-2630	Vad	_	_	_	_	_	_	
+46-2	2631-2634	med	_	_	_	_	_	_	
+46-3	2635-2646	traditioner	_	_	_	_	_	_	
+46-4	2647-2651	från	_	_	_	_	_	_	
+46-5	2652-2655	det	_	_	_	_	_	_	
+46-6	2656-2661	äldre	_	_	_	_	_	_	
+46-7	2662-2671	samhället	_	_	_	_	_	_	
+46-8	2671-2672	,	_	_	_	_	_	_	
+46-9	2673-2683	garanterat	_	_	_	_	_	_	
+46-10	2684-2696	konservativa	_	_	_	_	_	_	
+46-11	2697-2701	även	_	_	_	_	_	_	
+46-12	2702-2704	de	_	_	_	_	_	_	
+46-13	2704-2705	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	2707-2708	#	_	_	_	_	_	_	
+47-2	2708-2709	P	_	_	_	_	_	_	
+47-3	2710-2713	IMM	_	_	_	_	_	_	
+47-4	2713-2714	.	_	_	_	_	_	_	
+
+#Text=Jag lever i en vardagsvärld, en vardagsmänniska bland alla andra.
+48-1	2716-2719	Jag	_	_	_	_	_	_	
+48-2	2720-2725	lever	_	_	_	_	_	_	
+48-3	2726-2727	i	_	_	_	_	_	_	
+48-4	2728-2730	en	_	_	_	_	_	_	
+48-5	2731-2743	vardagsvärld	_	_	_	_	_	_	
+48-6	2743-2744	,	_	_	_	_	_	_	
+48-7	2745-2747	en	_	_	_	_	_	_	
+48-8	2748-2763	vardagsmänniska	_	_	_	_	_	_	
+48-9	2764-2769	bland	_	_	_	_	_	_	
+48-10	2770-2774	alla	_	_	_	_	_	_	
+48-11	2775-2780	andra	_	_	_	_	_	_	
+48-12	2780-2781	.	_	_	_	_	_	_	
+
+#Text=Tillsammans är vi snärjda i ett ideologiskt grepp vi inte kan ta oss ur.
+49-1	2782-2793	Tillsammans	_	_	_	_	_	_	
+49-2	2794-2796	är	_	_	_	_	_	_	
+49-3	2797-2799	vi	_	_	_	_	_	_	
+49-4	2800-2807	snärjda	_	Target	49-5[22]	false	2	_	
+49-5	2808-2809	i	*[22]	_	_	_	_	_	
+49-6	2810-2813	ett	*[22]	_	_	_	_	_	
+49-7	2814-2825	ideologiskt	*[22]	_	_	_	_	_	
+49-8	2826-2831	grepp	*[22]	_	_	_	_	_	
+49-9	2832-2834	vi	_	_	_	_	_	_	
+49-10	2835-2839	inte	_	_	_	_	_	_	
+49-11	2840-2843	kan	_	_	_	_	_	_	
+49-12	2844-2846	ta	_	_	_	_	_	_	
+49-13	2847-2850	oss	_	_	_	_	_	_	
+49-14	2851-2853	ur	_	_	_	_	_	_	
+49-15	2853-2854	.	_	_	_	_	_	_	
+
+#Text=Femtio procent av oss tänker rösta på högerpartierna i nästa val.
+50-1	2855-2861	Femtio	_	_	_	_	_	_	
+50-2	2862-2869	procent	_	_	_	_	_	_	
+50-3	2870-2872	av	_	_	_	_	_	_	
+50-4	2873-2876	oss	_	_	_	_	_	_	
+50-5	2877-2883	tänker	_	_	_	_	_	_	
+50-6	2884-2889	rösta	_	_	_	_	_	_	
+50-7	2890-2892	på	_	_	_	_	_	_	
+50-8	2893-2907	högerpartierna	_	_	_	_	_	_	
+50-9	2908-2909	i	_	_	_	_	_	_	
+50-10	2910-2915	nästa	_	_	_	_	_	_	
+50-11	2916-2919	val	_	_	_	_	_	_	
+50-12	2919-2920	.	_	_	_	_	_	_	
+
+#Text=Egendomligt att ingen frågar sig hur en sådan absurditet kan uppstå.
+51-1	2921-2932	Egendomligt	_	Target	51-3[23]	false	2	_	
+51-2	2933-2936	att	_	_	_	_	_	_	
+51-3	2937-2942	ingen	*[23]	_	_	_	_	_	
+51-4	2943-2949	frågar	*[23]	_	_	_	_	_	
+51-5	2950-2953	sig	*[23]	_	_	_	_	_	
+51-6	2954-2957	hur	*[23]	_	_	_	_	_	
+51-7	2958-2960	en	*[23]	_	_	_	_	_	
+51-8	2961-2966	sådan	*[23]	_	_	_	_	_	
+51-9	2967-2977	absurditet	*[23]	_	_	_	_	_	
+51-10	2978-2981	kan	*[23]	_	_	_	_	_	
+51-11	2982-2988	uppstå	*[23]	_	_	_	_	_	
+51-12	2988-2989	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	2991-2992	#	_	_	_	_	_	_	
+52-2	2992-2993	P	_	_	_	_	_	_	
+52-3	2994-2997	IMM	_	_	_	_	_	_	
+52-4	2997-2998	.	_	_	_	_	_	_	
+
+#Text=Vi röstar på dem som tänker ge oss ordentligt med stryk, socialt och ekonomiskt.
+53-1	3000-3002	Vi	_	_	_	_	_	_	
+53-2	3003-3009	röstar	_	_	_	_	_	_	
+53-3	3010-3012	på	_	_	_	_	_	_	
+53-4	3013-3016	dem	*	_	_	_	_	_	
+53-5	3017-3020	som	_	_	_	_	_	_	
+53-6	3021-3027	tänker	_	Target[10]	53-4	false[10]	2[10]	_	
+53-7	3028-3030	ge	_	Target[10]	53-4	false[10]	2[10]	_	
+53-8	3031-3034	oss	_	Target[10]	53-4	false[10]	2[10]	_	
+53-9	3035-3045	ordentligt	_	Target[10]	53-4	false[10]	2[10]	_	
+53-10	3046-3049	med	_	Target[10]	53-4	false[10]	2[10]	_	
+53-11	3050-3055	stryk	_	Target[10]	53-4	false[10]	2[10]	_	
+53-12	3055-3056	,	_	_	_	_	_	_	
+53-13	3057-3064	socialt	_	_	_	_	_	_	
+53-14	3065-3068	och	_	_	_	_	_	_	
+53-15	3069-3079	ekonomiskt	_	_	_	_	_	_	
+53-16	3079-3080	.	_	_	_	_	_	_	
+
+#Text=Vem/vad har intalat oss att handla så?
+54-1	3081-3084	Vem	_	_	_	_	_	_	
+54-2	3084-3085	/	_	_	_	_	_	_	
+54-3	3085-3088	vad	_	_	_	_	_	_	
+54-4	3089-3092	har	_	_	_	_	_	_	
+54-5	3093-3100	intalat	_	_	_	_	_	_	
+54-6	3101-3104	oss	_	_	_	_	_	_	
+54-7	3105-3108	att	_	_	_	_	_	_	
+54-8	3109-3115	handla	_	_	_	_	_	_	
+54-9	3116-3118	så	_	_	_	_	_	_	
+54-10	3118-3119	?	_	_	_	_	_	_	
+
+#Text=En fråga att ställa!.
+55-1	3120-3122	En	_	_	_	_	_	_	
+55-2	3123-3128	fråga	_	_	_	_	_	_	
+55-3	3129-3132	att	_	_	_	_	_	_	
+55-4	3133-3139	ställa	_	_	_	_	_	_	
+55-5	3139-3140	!	_	_	_	_	_	_	
+55-6	3140-3141	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3143-3144	#	_	_	_	_	_	_	
+56-2	3144-3145	P	_	_	_	_	_	_	
+56-3	3146-3149	IMM	_	_	_	_	_	_	
+56-4	3149-3150	.	_	_	_	_	_	_	
+
+#Text=Är demokratin hel när samhällets media, läromedel och intellektuella utbud ligger i händerna på en ägande överklass?
+57-1	3152-3154	Är	_	_	_	_	_	_	
+57-2	3155-3165	demokratin	_	_	_	_	_	_	
+57-3	3166-3169	hel	_	_	_	_	_	_	
+57-4	3170-3173	när	_	_	_	_	_	_	
+57-5	3174-3184	samhällets	_	_	_	_	_	_	
+57-6	3185-3190	media	_	_	_	_	_	_	
+57-7	3190-3191	,	_	_	_	_	_	_	
+57-8	3192-3201	läromedel	_	_	_	_	_	_	
+57-9	3202-3205	och	_	_	_	_	_	_	
+57-10	3206-3220	intellektuella	_	_	_	_	_	_	
+57-11	3221-3226	utbud	_	_	_	_	_	_	
+57-12	3227-3233	ligger	_	_	_	_	_	_	
+57-13	3234-3235	i	_	_	_	_	_	_	
+57-14	3236-3244	händerna	_	_	_	_	_	_	
+57-15	3245-3247	på	_	_	_	_	_	_	
+57-16	3248-3250	en	_	_	_	_	_	_	
+57-17	3251-3257	ägande	_	_	_	_	_	_	
+57-18	3258-3267	överklass	_	_	_	_	_	_	
+57-19	3267-3268	?	_	_	_	_	_	_	
+
+#Text=En fråga att ställa.
+58-1	3269-3271	En	_	_	_	_	_	_	
+58-2	3272-3277	fråga	_	_	_	_	_	_	
+58-3	3278-3281	att	_	_	_	_	_	_	
+58-4	3282-3288	ställa	_	_	_	_	_	_	
+58-5	3288-3289	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	3291-3292	#	_	_	_	_	_	_	
+59-2	3292-3293	P	_	_	_	_	_	_	
+59-3	3294-3297	IMM	_	_	_	_	_	_	
+59-4	3297-3298	.	_	_	_	_	_	_	
+
+#Text=Tragedin är att vi i socialgrupp tre inte har kraft eller resurser att fördjupa vår samhällskunskap.
+60-1	3300-3308	Tragedin	_	_	_	_	_	_	
+60-2	3309-3311	är	_	_	_	_	_	_	
+60-3	3312-3315	att	_	_	_	_	_	_	
+60-4	3316-3318	vi	_	_	_	_	_	_	
+60-5	3319-3320	i	_	_	_	_	_	_	
+60-6	3321-3332	socialgrupp	_	_	_	_	_	_	
+60-7	3333-3336	tre	_	_	_	_	_	_	
+60-8	3337-3341	inte	_	Target[11]	60-14[24]	false[11]	2[11]	_	
+60-9	3342-3345	har	_	Target[11]	60-14[24]	false[11]	2[11]	_	
+60-10	3346-3351	kraft	_	Target[11]	60-14[24]	false[11]	2[11]	_	
+60-11	3352-3357	eller	_	Target[11]	60-14[24]	false[11]	2[11]	_	
+60-12	3358-3366	resurser	_	Target[11]	60-14[24]	false[11]	2[11]	_	
+60-13	3367-3370	att	_	_	_	_	_	_	
+60-14	3371-3379	fördjupa	*[24]	_	_	_	_	_	
+60-15	3380-3383	vår	*[24]	_	_	_	_	_	
+60-16	3384-3399	samhällskunskap	*[24]	_	_	_	_	_	
+60-17	3399-3400	.	_	_	_	_	_	_	
+
+#Text=Eller diskutera kring vad och vem som maskerat styr oss.
+61-1	3401-3406	Eller	_	_	_	_	_	_	
+61-2	3407-3416	diskutera	_	_	_	_	_	_	
+61-3	3417-3422	kring	_	_	_	_	_	_	
+61-4	3423-3426	vad	_	_	_	_	_	_	
+61-5	3427-3430	och	_	_	_	_	_	_	
+61-6	3431-3434	vem	_	_	_	_	_	_	
+61-7	3435-3438	som	_	_	_	_	_	_	
+61-8	3439-3447	maskerat	_	_	_	_	_	_	
+61-9	3448-3452	styr	_	_	_	_	_	_	
+61-10	3453-3456	oss	_	_	_	_	_	_	
+61-11	3456-3457	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	3459-3460	#	_	_	_	_	_	_	
+62-2	3460-3461	P	_	_	_	_	_	_	
+62-3	3462-3465	IMM	_	_	_	_	_	_	
+62-4	3465-3466	.	_	_	_	_	_	_	
+
+#Text=Ulla Johansson (pensionär Hisings Kärra).
+63-1	3468-3472	Ulla	_	_	_	_	_	_	
+63-2	3473-3482	Johansson	_	_	_	_	_	_	
+63-3	3483-3484	(	_	_	_	_	_	_	
+63-4	3484-3493	pensionär	_	_	_	_	_	_	
+63-5	3494-3501	Hisings	_	_	_	_	_	_	
+63-6	3502-3507	Kärra	_	_	_	_	_	_	
+63-7	3507-3508	)	_	_	_	_	_	_	
+63-8	3508-3509	.	_	_	_	_	_	_	

@@ -1,0 +1,617 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Är kritiken mot Hanne Kjöller ett effektivt sätt att undvika sakfrågan?
+3-1	18-20	Är	_	_	_	_	_	_	_	
+3-2	21-29	kritiken	_	Target;Source[1]	3-4[11];3-12	false[1]	2[1]	_	_	
+3-3	30-33	mot	_	Target;Source[1]	3-4[11];3-12	false[1]	2[1]	_	_	
+3-4	34-39	Hanne	*[11]	_	_	_	_	_	_	
+3-5	40-47	Kjöller	*[11]	_	_	_	_	_	_	
+3-6	48-51	ett	_	_	_	_	_	_	_	
+3-7	52-61	effektivt	_	_	_	_	_	_	_	
+3-8	62-66	sätt	_	_	_	_	_	_	_	
+3-9	67-70	att	_	_	_	_	_	_	_	
+3-10	71-78	undvika	_	_	_	_	_	_	_	
+3-11	79-88	sakfrågan	_	_	_	_	_	_	_	
+3-12	88-89	?	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	91-92	#	_	_	_	_	_	_	_	
+4-2	92-93	P	_	_	_	_	_	_	_	
+4-3	94-97	IMM	_	_	_	_	_	_	_	
+4-4	97-98	.	_	_	_	_	_	_	_	
+
+#Text=Jag har den senaste veckan tänkt starta en tråd om hur vi missar en viktig debatt om hur journalister medvetet för fram någon slags "offerjournalistik" där det viktiga inte är att leverera sanningen utan att föra fram "offer" för olika omständigheter och när sanningen inte alltid duger så levererar man halvsanningar.
+5-1	100-103	Jag	_	_	_	_	_	_	_	
+5-2	104-107	har	_	_	_	_	_	_	_	
+5-3	108-111	den	_	_	_	_	_	_	_	
+5-4	112-119	senaste	_	_	_	_	_	_	_	
+5-5	120-126	veckan	_	_	_	_	_	_	_	
+5-6	127-132	tänkt	_	_	_	_	_	_	_	
+5-7	133-139	starta	_	_	_	_	_	_	_	
+5-8	140-142	en	_	_	_	_	_	_	_	
+5-9	143-147	tråd	_	_	_	_	_	_	_	
+5-10	148-150	om	_	_	_	_	_	_	_	
+5-11	151-154	hur	_	_	_	_	_	_	_	
+5-12	155-157	vi	_	_	_	_	_	_	_	
+5-13	158-164	missar	_	_	_	_	_	_	_	
+5-14	165-167	en	_	_	_	_	_	_	_	
+5-15	168-174	viktig	_	_	_	_	_	_	_	
+5-16	175-181	debatt	_	_	_	_	_	_	_	
+5-17	182-184	om	_	_	_	_	_	_	_	
+5-18	185-188	hur	_	_	_	_	_	_	_	
+5-19	189-201	journalister	_	_	_	_	_	_	_	
+5-20	202-210	medvetet	_	_	_	_	_	_	_	
+5-21	211-214	för	_	_	_	_	_	_	_	
+5-22	215-219	fram	_	_	_	_	_	_	_	
+5-23	220-225	någon	_	_	_	_	_	_	_	
+5-24	226-231	slags	_	_	_	_	_	_	_	
+5-25	232-233	"	_	_	_	_	_	_	_	
+5-26	233-250	offerjournalistik	_	_	_	_	_	_	_	
+5-27	250-251	"	_	_	_	_	_	_	_	
+5-28	252-255	där	_	_	_	_	_	_	_	
+5-29	256-259	det	_	_	_	_	_	_	_	
+5-30	260-267	viktiga	_	_	_	_	_	_	_	
+5-31	268-272	inte	_	_	_	_	_	_	_	
+5-32	273-275	är	_	_	_	_	_	_	_	
+5-33	276-279	att	_	_	_	_	_	_	_	
+5-34	280-288	leverera	_	_	_	_	_	_	_	
+5-35	289-298	sanningen	_	_	_	_	_	_	_	
+5-36	299-303	utan	_	_	_	_	_	_	_	
+5-37	304-307	att	_	_	_	_	_	_	_	
+5-38	308-312	föra	_	_	_	_	_	_	_	
+5-39	313-317	fram	_	_	_	_	_	_	_	
+5-40	318-319	"	_	_	_	_	_	_	_	
+5-41	319-324	offer	_	_	_	_	_	_	_	
+5-42	324-325	"	_	_	_	_	_	_	_	
+5-43	326-329	för	_	_	_	_	_	_	_	
+5-44	330-335	olika	_	_	_	_	_	_	_	
+5-45	336-350	omständigheter	_	_	_	_	_	_	_	
+5-46	351-354	och	_	_	_	_	_	_	_	
+5-47	355-358	när	_	_	_	_	_	_	_	
+5-48	359-368	sanningen	_	_	_	_	_	_	_	
+5-49	369-373	inte	_	_	_	_	_	_	_	
+5-50	374-380	alltid	_	_	_	_	_	_	_	
+5-51	381-386	duger	_	_	_	_	_	_	_	
+5-52	387-389	så	_	_	_	_	_	_	_	
+5-53	390-399	levererar	_	_	_	_	_	_	_	
+5-54	400-403	man	_	_	_	_	_	_	_	
+5-55	404-417	halvsanningar	_	_	_	_	_	_	_	
+5-56	417-418	.	_	_	_	_	_	_	_	
+
+#Text=Jag tänker osökt på Hanne Kjöllers nya bok "Även en halv sanning är en lögn" och den massiva kritik hon utsatts för på grund av några faktafel.
+6-1	419-422	Jag	_	_	_	_	_	_	_	
+6-2	423-429	tänker	_	_	_	_	_	_	_	
+6-3	430-435	osökt	_	_	_	_	_	_	_	
+6-4	436-438	på	_	_	_	_	_	_	_	
+6-5	439-444	Hanne	_	_	_	_	_	_	_	
+6-6	445-453	Kjöllers	_	_	_	_	_	_	_	
+6-7	454-457	nya	_	_	_	_	_	_	_	
+6-8	458-461	bok	_	_	_	_	_	_	_	
+6-9	462-463	"	_	_	_	_	_	_	_	
+6-10	463-467	Även	_	_	_	_	_	_	_	
+6-11	468-470	en	_	_	_	_	_	_	_	
+6-12	471-475	halv	_	_	_	_	_	_	_	
+6-13	476-483	sanning	_	_	_	_	_	_	_	
+6-14	484-486	är	_	_	_	_	_	_	_	
+6-15	487-489	en	_	_	_	_	_	_	_	
+6-16	490-494	lögn	_	_	_	_	_	_	_	
+6-17	494-495	"	_	_	_	_	_	_	_	
+6-18	496-499	och	_	_	_	_	_	_	_	
+6-19	500-503	den	_	_[2]	_	false[2]	2[2]	_	_	
+6-20	504-511	massiva	_	_[2]	_	false[2]	2[2]	_	_	
+6-21	512-518	kritik	_	_[2]	_	false[2]	2[2]	_	_	
+6-22	519-522	hon	*	_	_	_	_	_	_	
+6-23	523-530	utsatts	_	Source;Target[3]	6-30;6-22	false[3]	2[3]	6-19[2_3]	_	
+6-24	531-534	för	_	Source;Target[3]	6-30;6-22	false[3]	2[3]	_	_	
+6-25	535-537	på	_	_	_	_	_	_	_	
+6-26	538-543	grund	_	_	_	_	_	_	_	
+6-27	544-546	av	_	_	_	_	_	_	_	
+6-28	547-552	några	_	_	_	_	_	_	_	
+6-29	553-561	faktafel	_	_	_	_	_	_	_	
+6-30	561-562	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	564-565	#	_	_	_	_	_	_	_	
+7-2	565-566	P	_	_	_	_	_	_	_	
+7-3	567-570	IMM	_	_	_	_	_	_	_	
+7-4	570-571	.	_	_	_	_	_	_	_	
+
+#Text=Kritiken mot henne gör att vi tyvärr inte får den nödvändiga debatten om hur journalister medvetet vinklar sina artiklar eller reportage eftersom fokus nu hamnat på Hanne Kjöller istället.
+8-1	573-581	Kritiken	_	Target;Source[4]	8-3;8-30	false[4]	2[4]	_	_	
+8-2	582-585	mot	_	Target;Source[4]	8-3;8-30	false[4]	2[4]	_	_	
+8-3	586-591	henne	*	_	_	_	_	_	_	
+8-4	592-595	gör	_	_	_	_	_	_	_	
+8-5	596-599	att	_	_	_	_	_	_	_	
+8-6	600-602	vi	_	_	_	_	_	_	_	
+8-7	603-609	tyvärr	_	_	_	_	_	_	_	
+8-8	610-614	inte	_	_	_	_	_	_	_	
+8-9	615-618	får	_	_	_	_	_	_	_	
+8-10	619-622	den	_	_	_	_	_	_	_	
+8-11	623-633	nödvändiga	_	_	_	_	_	_	_	
+8-12	634-642	debatten	_	_	_	_	_	_	_	
+8-13	643-645	om	_	_	_	_	_	_	_	
+8-14	646-649	hur	_	_	_	_	_	_	_	
+8-15	650-662	journalister	_	_	_	_	_	_	_	
+8-16	663-671	medvetet	_	_	_	_	_	_	_	
+8-17	672-679	vinklar	_	_	_	_	_	_	_	
+8-18	680-684	sina	_	_	_	_	_	_	_	
+8-19	685-693	artiklar	_	_	_	_	_	_	_	
+8-20	694-699	eller	_	_	_	_	_	_	_	
+8-21	700-709	reportage	_	_	_	_	_	_	_	
+8-22	710-718	eftersom	_	_	_	_	_	_	_	
+8-23	719-724	fokus	_	_	_	_	_	_	_	
+8-24	725-727	nu	_	_	_	_	_	_	_	
+8-25	728-734	hamnat	_	_	_	_	_	_	_	
+8-26	735-737	på	_	_	_	_	_	_	_	
+8-27	738-743	Hanne	_	_	_	_	_	_	_	
+8-28	744-751	Kjöller	_	_	_	_	_	_	_	
+8-29	752-760	istället	_	_	_	_	_	_	_	
+8-30	760-761	.	*	_	_	_	_	_	_	
+
+#Text=Vi kan nog alla vara överens om att journalister missar fakta ibland, men vad är värst.
+9-1	762-764	Vi	_	_	_	_	_	_	_	
+9-2	765-768	kan	_	_	_	_	_	_	_	
+9-3	769-772	nog	_	_	_	_	_	_	_	
+9-4	773-777	alla	_	_	_	_	_	_	_	
+9-5	778-782	vara	_	_	_	_	_	_	_	
+9-6	783-790	överens	_	_	_	_	_	_	_	
+9-7	791-793	om	_	_	_	_	_	_	_	
+9-8	794-797	att	_	_	_	_	_	_	_	
+9-9	798-810	journalister	_	_	_	_	_	_	_	
+9-10	811-817	missar	_	_	_	_	_	_	_	
+9-11	818-823	fakta	_	_	_	_	_	_	_	
+9-12	824-830	ibland	_	_	_	_	_	_	_	
+9-13	830-831	,	_	_	_	_	_	_	_	
+9-14	832-835	men	_	_	_	_	_	_	_	
+9-15	836-839	vad	*	_	_	_	_	_	_	
+9-16	840-842	är	_	Target[5]	9-15	false[5]	2[5]	_	_	
+9-17	843-848	värst	_	Target[5]	9-15	false[5]	2[5]	_	_	
+9-18	848-849	.	_	_	_	_	_	_	_	
+
+#Text=När man medvetet försöker föra folket bakom ljuset genom att leverera offerjournalistik om offer som egentligen inte finns och inte skulle vara några offer om hela sanningen fördes fram, eller om journalister någon gång då och då råkar föra fram felaktig fakta?.
+10-1	850-853	När	_	_	_	_	_	_	_	
+10-2	854-857	man	_	_	_	_	_	_	_	
+10-3	858-866	medvetet	_	_	_	_	_	_	_	
+10-4	867-875	försöker	_	_	_	_	_	_	_	
+10-5	876-880	föra	_	_	_	_	_	_	_	
+10-6	881-887	folket	_	_	_	_	_	_	_	
+10-7	888-893	bakom	_	_	_	_	_	_	_	
+10-8	894-900	ljuset	_	_	_	_	_	_	_	
+10-9	901-906	genom	_	_	_	_	_	_	_	
+10-10	907-910	att	_	_	_	_	_	_	_	
+10-11	911-919	leverera	_	_	_	_	_	_	_	
+10-12	920-937	offerjournalistik	_	_	_	_	_	_	_	
+10-13	938-940	om	_	_	_	_	_	_	_	
+10-14	941-946	offer	_	_	_	_	_	_	_	
+10-15	947-950	som	_	_	_	_	_	_	_	
+10-16	951-961	egentligen	_	_	_	_	_	_	_	
+10-17	962-966	inte	_	_	_	_	_	_	_	
+10-18	967-972	finns	_	_	_	_	_	_	_	
+10-19	973-976	och	_	_	_	_	_	_	_	
+10-20	977-981	inte	_	_	_	_	_	_	_	
+10-21	982-988	skulle	_	_	_	_	_	_	_	
+10-22	989-993	vara	_	_	_	_	_	_	_	
+10-23	994-999	några	_	_	_	_	_	_	_	
+10-24	1000-1005	offer	_	_	_	_	_	_	_	
+10-25	1006-1008	om	_	_	_	_	_	_	_	
+10-26	1009-1013	hela	_	_	_	_	_	_	_	
+10-27	1014-1023	sanningen	_	_	_	_	_	_	_	
+10-28	1024-1030	fördes	_	_	_	_	_	_	_	
+10-29	1031-1035	fram	_	_	_	_	_	_	_	
+10-30	1035-1036	,	_	_	_	_	_	_	_	
+10-31	1037-1042	eller	_	_	_	_	_	_	_	
+10-32	1043-1045	om	_	_	_	_	_	_	_	
+10-33	1046-1058	journalister	_	_	_	_	_	_	_	
+10-34	1059-1064	någon	_	_	_	_	_	_	_	
+10-35	1065-1069	gång	_	_	_	_	_	_	_	
+10-36	1070-1072	då	_	_	_	_	_	_	_	
+10-37	1073-1076	och	_	_	_	_	_	_	_	
+10-38	1077-1079	då	_	_	_	_	_	_	_	
+10-39	1080-1085	råkar	_	_	_	_	_	_	_	
+10-40	1086-1090	föra	_	_	_	_	_	_	_	
+10-41	1091-1095	fram	_	_	_	_	_	_	_	
+10-42	1096-1104	felaktig	_	_	_	_	_	_	_	
+10-43	1105-1110	fakta	_	_	_	_	_	_	_	
+10-44	1110-1111	?	_	_	_	_	_	_	_	
+10-45	1111-1112	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	1114-1115	#	_	_	_	_	_	_	_	
+11-2	1115-1116	P	_	_	_	_	_	_	_	
+11-3	1117-1120	IMM	_	_	_	_	_	_	_	
+11-4	1120-1121	.	_	_	_	_	_	_	_	
+
+#Text=Det började med att någon hittade ett faktafel i Kjöllers bok om en sjukskriven person som Kjöller skrev bodde i bostadsrätt men som visade sig vara hyresrätt.
+12-1	1123-1126	Det	_	_	_	_	_	_	_	
+12-2	1127-1134	började	_	_	_	_	_	_	_	
+12-3	1135-1138	med	_	_	_	_	_	_	_	
+12-4	1139-1142	att	_	_	_	_	_	_	_	
+12-5	1143-1148	någon	_	_	_	_	_	_	_	
+12-6	1149-1156	hittade	_	_	_	_	_	_	_	
+12-7	1157-1160	ett	_	_	_	_	_	_	_	
+12-8	1161-1169	faktafel	_	_	_	_	_	_	_	
+12-9	1170-1171	i	_	_	_	_	_	_	_	
+12-10	1172-1180	Kjöllers	_	_	_	_	_	_	_	
+12-11	1181-1184	bok	_	_	_	_	_	_	_	
+12-12	1185-1187	om	_	_	_	_	_	_	_	
+12-13	1188-1190	en	_	_	_	_	_	_	_	
+12-14	1191-1202	sjukskriven	_	_	_	_	_	_	_	
+12-15	1203-1209	person	_	_	_	_	_	_	_	
+12-16	1210-1213	som	_	_	_	_	_	_	_	
+12-17	1214-1221	Kjöller	_	_	_	_	_	_	_	
+12-18	1222-1227	skrev	_	_	_	_	_	_	_	
+12-19	1228-1233	bodde	_	_	_	_	_	_	_	
+12-20	1234-1235	i	_	_	_	_	_	_	_	
+12-21	1236-1247	bostadsrätt	_	_	_	_	_	_	_	
+12-22	1248-1251	men	_	_	_	_	_	_	_	
+12-23	1252-1255	som	_	_	_	_	_	_	_	
+12-24	1256-1262	visade	_	_	_	_	_	_	_	
+12-25	1263-1266	sig	_	_	_	_	_	_	_	
+12-26	1267-1271	vara	_	_	_	_	_	_	_	
+12-27	1272-1281	hyresrätt	_	_	_	_	_	_	_	
+12-28	1281-1282	.	_	_	_	_	_	_	_	
+
+#Text=Sedan lät s kultursidor journalisten Gellert Tamas "recensera" Kjöllers bok i ett enda långt personangrepp där han verkar gått igenom allt (förmodligen inte ensam) Kjöller skrivit de senaste tio åren och letat faktafel.
+13-1	1283-1288	Sedan	_	_	_	_	_	_	_	
+13-2	1289-1292	lät	_	_	_	_	_	_	_	
+13-3	1293-1294	s	_	_	_	_	_	_	_	
+13-4	1295-1306	kultursidor	_	_	_	_	_	_	_	
+13-5	1307-1319	journalisten	_	_	_	_	_	_	_	
+13-6	1320-1327	Gellert	_	_	_	_	_	_	_	
+13-7	1328-1333	Tamas	_	_	_	_	_	_	_	
+13-8	1334-1335	"	_	_	_	_	_	_	_	
+13-9	1335-1344	recensera	_	_	_	_	_	_	_	
+13-10	1344-1345	"	_	_	_	_	_	_	_	
+13-11	1346-1354	Kjöllers	_	_	_	_	_	_	_	
+13-12	1355-1358	bok	_	_	_	_	_	_	_	
+13-13	1359-1360	i	_	_	_	_	_	_	_	
+13-14	1361-1364	ett	_	_	_	_	_	_	_	
+13-15	1365-1369	enda	_	_	_	_	_	_	_	
+13-16	1370-1375	långt	_	_	_	_	_	_	_	
+13-17	1376-1389	personangrepp	_	_	_	_	_	_	_	
+13-18	1390-1393	där	_	_	_	_	_	_	_	
+13-19	1394-1397	han	_	_	_	_	_	_	_	
+13-20	1398-1404	verkar	_	_	_	_	_	_	_	
+13-21	1405-1409	gått	_	_	_	_	_	_	_	
+13-22	1410-1416	igenom	_	_	_	_	_	_	_	
+13-23	1417-1421	allt	_	_	_	_	_	_	_	
+13-24	1422-1423	(	_	_	_	_	_	_	_	
+13-25	1423-1434	förmodligen	_	_	_	_	_	_	_	
+13-26	1435-1439	inte	_	_	_	_	_	_	_	
+13-27	1440-1445	ensam	_	_	_	_	_	_	_	
+13-28	1445-1446	)	_	_	_	_	_	_	_	
+13-29	1447-1454	Kjöller	_	_	_	_	_	_	_	
+13-30	1455-1462	skrivit	_	_	_	_	_	_	_	
+13-31	1463-1465	de	_	_	_	_	_	_	_	
+13-32	1466-1473	senaste	_	_	_	_	_	_	_	
+13-33	1474-1477	tio	_	_	_	_	_	_	_	
+13-34	1478-1482	åren	_	_	_	_	_	_	_	
+13-35	1483-1486	och	_	_	_	_	_	_	_	
+13-36	1487-1492	letat	_	_	_	_	_	_	_	
+13-37	1493-1501	faktafel	_	_	_	_	_	_	_	
+13-38	1501-1502	.	_	_	_	_	_	_	_	
+
+#Text=Gellert Tamas fick för några år sedan svidande kritik av Kjöller i sitt sätt att okritiskt beskriva de så kallade apatiska flyktingbarnen.
+14-1	1503-1510	Gellert	*[12]	_	_	_	_	_	_	
+14-2	1511-1516	Tamas	*[12]	_	_	_	_	_	_	
+14-3	1517-1521	fick	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-4	1522-1525	för	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-5	1526-1531	några	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-6	1532-1534	år	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-7	1535-1540	sedan	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-8	1541-1549	svidande	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-9	1550-1556	kritik	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-10	1557-1559	av	_	Source;Target[6]	14-11;14-1[12]	false[6]	2[6]	_	_	
+14-11	1560-1567	Kjöller	*	_	_	_	_	_	_	
+14-12	1568-1569	i	_	_	_	_	_	_	_	
+14-13	1570-1574	sitt	_	_	_	_	_	_	_	
+14-14	1575-1579	sätt	_	_	_	_	_	_	_	
+14-15	1580-1583	att	_	_	_	_	_	_	_	
+14-16	1584-1593	okritiskt	_	_	_	_	_	_	_	
+14-17	1594-1602	beskriva	_	_	_	_	_	_	_	
+14-18	1603-1605	de	_	_	_	_	_	_	_	
+14-19	1606-1608	så	_	_	_	_	_	_	_	
+14-20	1609-1616	kallade	_	_	_	_	_	_	_	
+14-21	1617-1625	apatiska	_	_	_	_	_	_	_	
+14-22	1626-1640	flyktingbarnen	_	_	_	_	_	_	_	
+14-23	1640-1641	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1643-1644	#	_	_	_	_	_	_	_	
+15-2	1644-1645	P	_	_	_	_	_	_	_	
+15-3	1646-1649	IMM	_	_	_	_	_	_	_	
+15-4	1649-1650	.	_	_	_	_	_	_	_	
+
+#Text=Ni minns kanske de apatiska barnen som dök upp och blev helt plötsligt 400 stycken och numera finns inga apatiska flyktingbarn längre.
+16-1	1652-1654	Ni	_	_	_	_	_	_	_	
+16-2	1655-1660	minns	_	_	_	_	_	_	_	
+16-3	1661-1667	kanske	_	_	_	_	_	_	_	
+16-4	1668-1670	de	_	_	_	_	_	_	_	
+16-5	1671-1679	apatiska	_	_	_	_	_	_	_	
+16-6	1680-1686	barnen	_	_	_	_	_	_	_	
+16-7	1687-1690	som	_	_	_	_	_	_	_	
+16-8	1691-1694	dök	_	_	_	_	_	_	_	
+16-9	1695-1698	upp	_	_	_	_	_	_	_	
+16-10	1699-1702	och	_	_	_	_	_	_	_	
+16-11	1703-1707	blev	_	_	_	_	_	_	_	
+16-12	1708-1712	helt	_	_	_	_	_	_	_	
+16-13	1713-1722	plötsligt	_	_	_	_	_	_	_	
+16-14	1723-1726	400	_	_	_	_	_	_	_	
+16-15	1727-1734	stycken	_	_	_	_	_	_	_	
+16-16	1735-1738	och	_	_	_	_	_	_	_	
+16-17	1739-1745	numera	_	_	_	_	_	_	_	
+16-18	1746-1751	finns	_	_	_	_	_	_	_	
+16-19	1752-1756	inga	_	_	_	_	_	_	_	
+16-20	1757-1765	apatiska	_	_	_	_	_	_	_	
+16-21	1766-1778	flyktingbarn	_	_	_	_	_	_	_	
+16-22	1779-1785	längre	_	_	_	_	_	_	_	
+16-23	1785-1786	.	_	_	_	_	_	_	_	
+
+#Text=Det drabbade bara barn från östra Europa som sökte asyl i Sverige och enda sättet att få dem att tillfriskna var att ge dem asyl (det hjälpte verkligen) och allt var samhällets fel som så inhumant vägrade familjerna till apatiska flyktingbarn uppehållstillstånd.
+17-1	1787-1790	Det	_	_	_	_	_	_	_	
+17-2	1791-1799	drabbade	_	_	_	_	_	_	_	
+17-3	1800-1804	bara	_	_	_	_	_	_	_	
+17-4	1805-1809	barn	_	_	_	_	_	_	_	
+17-5	1810-1814	från	_	_	_	_	_	_	_	
+17-6	1815-1820	östra	_	_	_	_	_	_	_	
+17-7	1821-1827	Europa	_	_	_	_	_	_	_	
+17-8	1828-1831	som	_	_	_	_	_	_	_	
+17-9	1832-1837	sökte	_	_	_	_	_	_	_	
+17-10	1838-1842	asyl	_	_	_	_	_	_	_	
+17-11	1843-1844	i	_	_	_	_	_	_	_	
+17-12	1845-1852	Sverige	_	_	_	_	_	_	_	
+17-13	1853-1856	och	_	_	_	_	_	_	_	
+17-14	1857-1861	enda	_	_	_	_	_	_	_	
+17-15	1862-1868	sättet	_	_	_	_	_	_	_	
+17-16	1869-1872	att	_	_	_	_	_	_	_	
+17-17	1873-1875	få	_	_	_	_	_	_	_	
+17-18	1876-1879	dem	_	_	_	_	_	_	_	
+17-19	1880-1883	att	_	_	_	_	_	_	_	
+17-20	1884-1895	tillfriskna	_	_	_	_	_	_	_	
+17-21	1896-1899	var	_	_	_	_	_	_	_	
+17-22	1900-1903	att	_	_	_	_	_	_	_	
+17-23	1904-1906	ge	_	_	_	_	_	_	_	
+17-24	1907-1910	dem	_	_	_	_	_	_	_	
+17-25	1911-1915	asyl	_	_	_	_	_	_	_	
+17-26	1916-1917	(	_	_	_	_	_	_	_	
+17-27	1917-1920	det	_	_	_	_	_	_	_	
+17-28	1921-1928	hjälpte	_	_	_	_	_	_	_	
+17-29	1929-1938	verkligen	_	_	_	_	_	_	_	
+17-30	1938-1939	)	_	_	_	_	_	_	_	
+17-31	1940-1943	och	_	_	_	_	_	_	_	
+17-32	1944-1948	allt	_	_	_	_	_	_	_	
+17-33	1949-1952	var	_	_	_	_	_	_	_	
+17-34	1953-1963	samhällets	*	_	_	_	_	_	17-36	
+17-35	1964-1967	fel	_	_	_	_	_	_	_	
+17-36	1968-1971	som	*	_	_	_	_	_	_	
+17-37	1972-1974	så	_	Source;Target[7]	17-45;17-36	false[7]	2[7]	_	_	
+17-38	1975-1983	inhumant	_	Source;Target[7]	17-45;17-36	false[7]	2[7]	_	_	
+17-39	1984-1991	vägrade	_	Source;Target[7]	17-45;17-36	false[7]	2[7]	_	_	
+17-40	1992-2002	familjerna	_	_	_	_	_	_	_	
+17-41	2003-2007	till	_	_	_	_	_	_	_	
+17-42	2008-2016	apatiska	_	_	_	_	_	_	_	
+17-43	2017-2029	flyktingbarn	_	_	_	_	_	_	_	
+17-44	2030-2048	uppehållstillstånd	_	_	_	_	_	_	_	
+17-45	2048-2049	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	2051-2052	#	_	_	_	_	_	_	_	
+18-2	2052-2053	P	_	_	_	_	_	_	_	
+18-3	2054-2057	IMM	_	_	_	_	_	_	_	
+18-4	2057-2058	.	_	_	_	_	_	_	_	
+
+#Text=Ungefär så gick debatten och Gellert Tamas var en av dem.
+19-1	2060-2067	Ungefär	_	_	_	_	_	_	_	
+19-2	2068-2070	så	_	_	_	_	_	_	_	
+19-3	2071-2075	gick	_	_	_	_	_	_	_	
+19-4	2076-2084	debatten	_	_	_	_	_	_	_	
+19-5	2085-2088	och	_	_	_	_	_	_	_	
+19-6	2089-2096	Gellert	*[13]	_	_	_	_	_	20-5[0_13]	
+19-7	2097-2102	Tamas	*[13]	_	_	_	_	_	_	
+19-8	2103-2106	var	*[13]	_	_	_	_	_	_	
+19-9	2107-2109	en	*[13]	_	_	_	_	_	_	
+19-10	2110-2112	av	*[13]	_	_	_	_	_	_	
+19-11	2113-2116	dem	*[13]	_	_	_	_	_	_	
+19-12	2116-2117	.	_	_	_	_	_	_	_	
+
+#Text=Han fick kritik för det av Hanne Kjöller och nu var hämnden ljuv.
+20-1	2118-2121	Han	*	_	_	_	_	_	_	
+20-2	2122-2126	fick	_	Source;Target[8]|Target[9]	20-7[14];20-1|20-5	false[8]|false[9]	2[8]|2[9]	_	_	
+20-3	2127-2133	kritik	_	Source;Target[8]|Target[9]	20-7[14];20-1|20-5	false[8]|false[9]	2[8]|2[9]	_	_	
+20-4	2134-2137	för	_	Source;Target[8]|Target[9]	20-7[14];20-1|20-5	false[8]|false[9]	2[8]|2[9]	_	_	
+20-5	2138-2141	det	*	Source;Target[8]	20-7[14];20-1	false[8]	2[8]	_	_	
+20-6	2142-2144	av	_	_	_	_	_	_	_	
+20-7	2145-2150	Hanne	*[14]	_	_	_	_	_	_	
+20-8	2151-2158	Kjöller	*[14]	_	_	_	_	_	_	
+20-9	2159-2162	och	_	_	_	_	_	_	_	
+20-10	2163-2165	nu	_	_	_	_	_	_	_	
+20-11	2166-2169	var	_	_	_	_	_	_	_	
+20-12	2170-2177	hämnden	_	_	_	_	_	_	_	
+20-13	2178-2182	ljuv	_	_	_	_	_	_	_	
+20-14	2182-2183	.	_	_	_	_	_	_	_	
+
+#Text=Personangreppen haglar i den debattartikeln Tamas skriver om Kjöller och artikeln har numera flyttats in som Plus-artikel så att bara betalande kan ta del av den.
+21-1	2184-2199	Personangreppen	_	_	_	_	_	_	_	
+21-2	2200-2206	haglar	_	_	_	_	_	_	_	
+21-3	2207-2208	i	_	_	_	_	_	_	_	
+21-4	2209-2212	den	_	_	_	_	_	_	_	
+21-5	2213-2227	debattartikeln	_	_	_	_	_	_	_	
+21-6	2228-2233	Tamas	_	_	_	_	_	_	_	
+21-7	2234-2241	skriver	_	_	_	_	_	_	_	
+21-8	2242-2244	om	_	_	_	_	_	_	_	
+21-9	2245-2252	Kjöller	_	_	_	_	_	_	_	
+21-10	2253-2256	och	_	_	_	_	_	_	_	
+21-11	2257-2265	artikeln	_	_	_	_	_	_	_	
+21-12	2266-2269	har	_	_	_	_	_	_	_	
+21-13	2270-2276	numera	_	_	_	_	_	_	_	
+21-14	2277-2285	flyttats	_	_	_	_	_	_	_	
+21-15	2286-2288	in	_	_	_	_	_	_	_	
+21-16	2289-2292	som	_	_	_	_	_	_	_	
+21-17	2293-2305	Plus-artikel	_	_	_	_	_	_	_	
+21-18	2306-2308	så	_	_	_	_	_	_	_	
+21-19	2309-2312	att	_	_	_	_	_	_	_	
+21-20	2313-2317	bara	_	_	_	_	_	_	_	
+21-21	2318-2327	betalande	_	_	_	_	_	_	_	
+21-22	2328-2331	kan	_	_	_	_	_	_	_	
+21-23	2332-2334	ta	_	_	_	_	_	_	_	
+21-24	2335-2338	del	_	_	_	_	_	_	_	
+21-25	2339-2341	av	_	_	_	_	_	_	_	
+21-26	2342-2345	den	_	_	_	_	_	_	_	
+21-27	2345-2346	.	_	_	_	_	_	_	_	
+
+#Text=Tamas skriver dock.
+22-1	2347-2352	Tamas	_	_	_	_	_	_	_	
+22-2	2353-2360	skriver	_	_	_	_	_	_	_	
+22-3	2361-2365	dock	_	_	_	_	_	_	_	
+22-4	2365-2366	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	2368-2369	#	_	_	_	_	_	_	_	
+23-2	2369-2370	P	_	_	_	_	_	_	_	
+23-3	2371-2374	IMM	_	_	_	_	_	_	_	
+23-4	2374-2375	.	_	_	_	_	_	_	_	
+
+#Text=med anledning av att Kjöller ville belägga fakta om att Husby inte var särskilt omskrivet innan Husbykravallerna och gjorde en sökning på "Husby" i tidningsarkiven och fick med andra Husby som t.ex. en häst.
+24-1	2377-2380	med	_	_	_	_	_	_	_	
+24-2	2381-2390	anledning	_	_	_	_	_	_	_	
+24-3	2391-2393	av	_	_	_	_	_	_	_	
+24-4	2394-2397	att	_	_	_	_	_	_	_	
+24-5	2398-2405	Kjöller	_	_	_	_	_	_	_	
+24-6	2406-2411	ville	_	_	_	_	_	_	_	
+24-7	2412-2419	belägga	_	_	_	_	_	_	_	
+24-8	2420-2425	fakta	_	_	_	_	_	_	_	
+24-9	2426-2428	om	_	_	_	_	_	_	_	
+24-10	2429-2432	att	_	_	_	_	_	_	_	
+24-11	2433-2438	Husby	_	_	_	_	_	_	_	
+24-12	2439-2443	inte	_	_	_	_	_	_	_	
+24-13	2444-2447	var	_	_	_	_	_	_	_	
+24-14	2448-2456	särskilt	_	_	_	_	_	_	_	
+24-15	2457-2466	omskrivet	_	_	_	_	_	_	_	
+24-16	2467-2472	innan	_	_	_	_	_	_	_	
+24-17	2473-2489	Husbykravallerna	_	_	_	_	_	_	_	
+24-18	2490-2493	och	_	_	_	_	_	_	_	
+24-19	2494-2500	gjorde	_	_	_	_	_	_	_	
+24-20	2501-2503	en	_	_	_	_	_	_	_	
+24-21	2504-2511	sökning	_	_	_	_	_	_	_	
+24-22	2512-2514	på	_	_	_	_	_	_	_	
+24-23	2515-2516	"	_	_	_	_	_	_	_	
+24-24	2516-2521	Husby	_	_	_	_	_	_	_	
+24-25	2521-2522	"	_	_	_	_	_	_	_	
+24-26	2523-2524	i	_	_	_	_	_	_	_	
+24-27	2525-2540	tidningsarkiven	_	_	_	_	_	_	_	
+24-28	2541-2544	och	_	_	_	_	_	_	_	
+24-29	2545-2549	fick	_	_	_	_	_	_	_	
+24-30	2550-2553	med	_	_	_	_	_	_	_	
+24-31	2554-2559	andra	_	_	_	_	_	_	_	
+24-32	2560-2565	Husby	_	_	_	_	_	_	_	
+24-33	2566-2569	som	_	_	_	_	_	_	_	
+24-34	2570-2574	t.ex	_	_	_	_	_	_	_	
+24-35	2574-2575	.	_	_	_	_	_	_	_	
+24-36	2576-2578	en	_	_	_	_	_	_	_	
+24-37	2579-2583	häst	_	_	_	_	_	_	_	
+24-38	2583-2584	.	_	_	_	_	_	_	_	
+
+#Text=Att Husby ändå var omskrivet med 367 artiklar under tre år, vilket var det Kjöller ville bevisa låtsas inte Tamas om.
+25-1	2585-2588	Att	_	_	_	_	_	_	_	
+25-2	2589-2594	Husby	_	_	_	_	_	_	_	
+25-3	2595-2599	ändå	_	_	_	_	_	_	_	
+25-4	2600-2603	var	_	_	_	_	_	_	_	
+25-5	2604-2613	omskrivet	_	_	_	_	_	_	_	
+25-6	2614-2617	med	_	_	_	_	_	_	_	
+25-7	2618-2621	367	_	_	_	_	_	_	_	
+25-8	2622-2630	artiklar	_	_	_	_	_	_	_	
+25-9	2631-2636	under	_	_	_	_	_	_	_	
+25-10	2637-2640	tre	_	_	_	_	_	_	_	
+25-11	2641-2643	år	_	_	_	_	_	_	_	
+25-12	2643-2644	,	_	_	_	_	_	_	_	
+25-13	2645-2651	vilket	_	_	_	_	_	_	_	
+25-14	2652-2655	var	_	_	_	_	_	_	_	
+25-15	2656-2659	det	_	_	_	_	_	_	_	
+25-16	2660-2667	Kjöller	_	_	_	_	_	_	_	
+25-17	2668-2673	ville	_	_	_	_	_	_	_	
+25-18	2674-2680	bevisa	_	_	_	_	_	_	_	
+25-19	2681-2687	låtsas	_	_	_	_	_	_	_	
+25-20	2688-2692	inte	_	_	_	_	_	_	_	
+25-21	2693-2698	Tamas	_	_	_	_	_	_	_	
+25-22	2699-2701	om	_	_	_	_	_	_	_	
+25-23	2701-2702	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2704-2705	#	_	_	_	_	_	_	_	
+26-2	2705-2706	P	_	_	_	_	_	_	_	
+26-3	2707-2710	IMM	_	_	_	_	_	_	_	
+26-4	2710-2711	.	_	_	_	_	_	_	_	
+
+#Text=Andra journalister och medier hänger på och debatten om det egentliga problemet uteblir, nämligen att journalister medvetet döljer sanningen genom att leverera halvsanningar.
+27-1	2713-2718	Andra	_	_	_	_	_	_	_	
+27-2	2719-2731	journalister	_	_	_	_	_	_	_	
+27-3	2732-2735	och	_	_	_	_	_	_	_	
+27-4	2736-2742	medier	_	_	_	_	_	_	_	
+27-5	2743-2749	hänger	_	_	_	_	_	_	_	
+27-6	2750-2752	på	_	_	_	_	_	_	_	
+27-7	2753-2756	och	_	_	_	_	_	_	_	
+27-8	2757-2765	debatten	_	_	_	_	_	_	_	
+27-9	2766-2768	om	_	_	_	_	_	_	_	
+27-10	2769-2772	det	_	Target[10]	27-15[15]	false[10]	2[10]	_	_	
+27-11	2773-2782	egentliga	_	Target[10]	27-15[15]	false[10]	2[10]	_	_	
+27-12	2783-2792	problemet	_	Target[10]	27-15[15]	false[10]	2[10]	_	_	
+27-13	2793-2800	uteblir	_	_	_	_	_	_	_	
+27-14	2800-2801	,	_	_	_	_	_	_	_	
+27-15	2802-2810	nämligen	*[15]	_	_	_	_	_	_	
+27-16	2811-2814	att	*[15]	_	_	_	_	_	_	
+27-17	2815-2827	journalister	*[15]	_	_	_	_	_	_	
+27-18	2828-2836	medvetet	*[15]	_	_	_	_	_	_	
+27-19	2837-2843	döljer	*[15]	_	_	_	_	_	_	
+27-20	2844-2853	sanningen	*[15]	_	_	_	_	_	_	
+27-21	2854-2859	genom	*[15]	_	_	_	_	_	_	
+27-22	2860-2863	att	*[15]	_	_	_	_	_	_	
+27-23	2864-2872	leverera	*[15]	_	_	_	_	_	_	
+27-24	2873-2886	halvsanningar	*[15]	_	_	_	_	_	_	
+27-25	2886-2887	.	_	_	_	_	_	_	_	
+
+#Text=Jan Guillou tar upp det i sin krönika i dagens .
+28-1	2888-2891	Jan	_	_	_	_	_	_	_	
+28-2	2892-2899	Guillou	_	_	_	_	_	_	_	
+28-3	2900-2903	tar	_	_	_	_	_	_	_	
+28-4	2904-2907	upp	_	_	_	_	_	_	_	
+28-5	2908-2911	det	_	_	_	_	_	_	_	
+28-6	2912-2913	i	_	_	_	_	_	_	_	
+28-7	2914-2917	sin	_	_	_	_	_	_	_	
+28-8	2918-2925	krönika	_	_	_	_	_	_	_	
+28-9	2926-2927	i	_	_	_	_	_	_	_	
+28-10	2928-2934	dagens	_	_	_	_	_	_	_	
+28-11	2935-2936	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2938-2939	#	_	_	_	_	_	_	_	
+29-2	2939-2940	P	_	_	_	_	_	_	_	
+29-3	2941-2944	IMM	_	_	_	_	_	_	_	
+29-4	2944-2945	.	_	_	_	_	_	_	_	
+
+#Text=Kjöller svarar genom förlaget på en del kritik.
+30-1	2947-2954	Kjöller	_	_	_	_	_	_	_	
+30-2	2955-2961	svarar	_	_	_	_	_	_	_	
+30-3	2962-2967	genom	_	_	_	_	_	_	_	
+30-4	2968-2976	förlaget	_	_	_	_	_	_	_	
+30-5	2977-2979	på	_	_	_	_	_	_	_	
+30-6	2980-2982	en	_	_	_	_	_	_	_	
+30-7	2983-2986	del	_	_	_	_	_	_	_	
+30-8	2987-2993	kritik	_	_	_	_	_	_	_	
+30-9	2993-2994	.	_	_	_	_	_	_	_	

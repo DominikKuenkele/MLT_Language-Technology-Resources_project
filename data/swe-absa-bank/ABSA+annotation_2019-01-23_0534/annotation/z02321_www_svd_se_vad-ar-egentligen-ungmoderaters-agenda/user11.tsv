@@ -1,0 +1,763 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad är egentligen ungmoderaters agenda?.
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	
+3-3	25-35	egentligen	_	_	_	_	_	_	
+3-4	36-49	ungmoderaters	_	_	_	_	_	_	
+3-5	50-56	agenda	_	_	_	_	_	_	
+3-6	56-57	?	_	_	_	_	_	_	
+3-7	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_[2]	_	false[2]	2[2]	_	
+4-3	63-66	IMM	_	_[2]	_	false[2]	2[2]	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Anledningen till att många liberaler förespråkar fri invandring är att de vill rasera den svenska välfärdsmodell som de aldrig uppskattat.
+5-1	69-80	Anledningen	_	_	_	_	_	_	
+5-2	81-85	till	_	_	_	_	_	_	
+5-3	86-89	att	_	_	_	_	_	_	
+5-4	90-95	många	*[25]	_	_	_	_	_	
+5-5	96-105	liberaler	*[25]	_	_	_	_	_	
+5-6	106-117	förespråkar	_	Target;Source	5-7[26];5-4[25]	false	4	_	
+5-7	118-121	fri	*[26]	_	_	_	_	_	
+5-8	122-132	invandring	*[26]	_	_	_	_	_	
+5-9	133-135	är	_	_	_	_	_	_	
+5-10	136-139	att	_	_	_	_	_	_	
+5-11	140-142	de	*	_	_	_	_	_	
+5-12	143-147	vill	_	Target[3]	5-11	false[3]	2[3]	_	
+5-13	148-154	rasera	_	Target[3]	5-11	false[3]	2[3]	_	
+5-14	155-158	den	_	_	_	_	_	_	
+5-15	159-166	svenska	_	_	_	_	_	_	
+5-16	167-181	välfärdsmodell	_	_	_	_	_	_	
+5-17	182-185	som	_	_	_	_	_	_	
+5-18	186-188	de	_	_	_	_	_	_	
+5-19	189-195	aldrig	_	_	_	_	_	_	
+5-20	196-206	uppskattat	_	_	_	_	_	_	
+5-21	206-207	.	_	_	_	_	_	_	
+
+#Text=Det skriver Tobias Andersson, talesperson för Ungsvenskarna SDU.
+6-1	208-211	Det	_	_	_	_	_	_	
+6-2	212-219	skriver	_	_	_	_	_	_	
+6-3	220-226	Tobias	_	_	_	_	_	_	
+6-4	227-236	Andersson	_	_	_	_	_	_	
+6-5	236-237	,	_	_	_	_	_	_	
+6-6	238-249	talesperson	_	_	_	_	_	_	
+6-7	250-253	för	_	_	_	_	_	_	
+6-8	254-267	Ungsvenskarna	_	_	_	_	_	_	
+6-9	268-271	SDU	_	_	_	_	_	_	
+6-10	271-272	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	274-275	#	_	_	_	_	_	_	
+7-2	275-276	P	_	_[4]	_	false[4]	2[4]	_	
+7-3	277-280	IMM	_	_[4]	_	false[4]	2[4]	_	
+7-4	280-281	.	_	_	_	_	_	_	
+
+#Text=Det var inledningsvis med glädje som jag tog del av det förslag som ordföranden för MST samt en uppsjö av distriktsordföranden för MUF lanserade på SvD Debatt gällande att flyktingar själva, genom lån, ska finansiera kostnaderna för den välfärd de nyttjar.
+8-1	283-286	Det	_	_	_	_	_	_	
+8-2	287-290	var	_	_	_	_	_	_	
+8-3	291-304	inledningsvis	_	_	_	_	_	_	
+8-4	305-308	med	_	Source;Target[5]	8-7;8-8[27]	false[5]	4[5]	_	
+8-5	309-315	glädje	_	Source;Target[5]	8-7;8-8[27]	false[5]	4[5]	_	
+8-6	316-319	som	_	_	_	_	_	_	
+8-7	320-323	jag	*	_	_	_	_	_	
+8-8	324-327	tog	*[27]	_	_	_	_	_	
+8-9	328-331	del	*[27]	_	_	_	_	_	
+8-10	332-334	av	*[27]	_	_	_	_	_	
+8-11	335-338	det	*[27]	_	_	_	_	_	
+8-12	339-346	förslag	*[27]	_	_	_	_	_	
+8-13	347-350	som	*[27]	_	_	_	_	_	
+8-14	351-362	ordföranden	*[27]	_	_	_	_	_	
+8-15	363-366	för	*[27]	_	_	_	_	_	
+8-16	367-370	MST	*[27]	_	_	_	_	_	
+8-17	371-375	samt	*[27]	_	_	_	_	_	
+8-18	376-378	en	*[27]	_	_	_	_	_	
+8-19	379-385	uppsjö	*[27]	_	_	_	_	_	
+8-20	386-388	av	*[27]	_	_	_	_	_	
+8-21	389-409	distriktsordföranden	*[27]	_	_	_	_	_	
+8-22	410-413	för	*[27]	_	_	_	_	_	
+8-23	414-417	MUF	*[27]	_	_	_	_	_	
+8-24	418-427	lanserade	*[27]	_	_	_	_	_	
+8-25	428-430	på	_	_	_	_	_	_	
+8-26	431-434	SvD	_	_	_	_	_	_	
+8-27	435-441	Debatt	_	_	_	_	_	_	
+8-28	442-450	gällande	_	_	_	_	_	_	
+8-29	451-454	att	_	_	_	_	_	_	
+8-30	455-465	flyktingar	_	_	_	_	_	_	
+8-31	466-472	själva	_	_	_	_	_	_	
+8-32	472-473	,	_	_	_	_	_	_	
+8-33	474-479	genom	_	_	_	_	_	_	
+8-34	480-483	lån	_	_	_	_	_	_	
+8-35	483-484	,	_	_	_	_	_	_	
+8-36	485-488	ska	_	_	_	_	_	_	
+8-37	489-499	finansiera	_	_	_	_	_	_	
+8-38	500-511	kostnaderna	_	_	_	_	_	_	
+8-39	512-515	för	_	_	_	_	_	_	
+8-40	516-519	den	_	_	_	_	_	_	
+8-41	520-527	välfärd	_	_	_	_	_	_	
+8-42	528-530	de	_	_	_	_	_	_	
+8-43	531-538	nyttjar	_	_	_	_	_	_	
+8-44	538-539	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	541-542	#	_	_	_	_	_	_	
+9-2	542-543	P	_	_	_	_	_	_	
+9-3	544-547	IMM	_	_	_	_	_	_	
+9-4	547-548	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	550-553	Det	_	_	_	_	_	_	
+10-2	554-557	här	_	_	_	_	_	_	
+10-3	558-560	är	_	_	_	_	_	_	
+10-4	561-563	en	_	_	_	_	_	_	
+10-5	564-578	argumenterande	_	_	_	_	_	_	
+10-6	579-583	text	_	_	_	_	_	_	
+10-7	584-587	med	_	_	_	_	_	_	
+10-8	588-593	syfte	_	_	_	_	_	_	
+10-9	594-597	att	_	_	_	_	_	_	
+10-10	598-605	påverka	_	_	_	_	_	_	
+10-11	605-606	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	607-616	Åsikterna	_	_	_	_	_	_	
+11-2	617-620	som	_	_	_	_	_	_	
+11-3	621-629	uttrycks	_	_	_	_	_	_	
+11-4	630-632	är	_	_	_	_	_	_	
+11-5	633-644	skribentens	_	_	_	_	_	_	
+11-6	645-649	egna	_	_	_	_	_	_	
+11-7	649-650	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	652-653	#	_	_	_	_	_	_	
+12-2	653-654	P	_	_[6]	_	false[6]	2[6]	_	
+12-3	655-658	IMM	_	_[6]	_	false[6]	2[6]	_	
+12-4	658-659	.	_	_	_	_	_	_	
+
+#Text=De har utan tvekan rätt i sak när de säger att Sverige inte är ett invandrarland och att vår välfärdsmodell inte håller för trycket från den flodvåg av migranter som vi sett de senaste åren.
+13-1	661-663	De	_	_	_	_	_	_	
+13-2	664-667	har	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-3	668-672	utan	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-4	673-679	tvekan	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-5	680-684	rätt	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-6	685-686	i	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-7	687-690	sak	_	Target[7]	13-8[28]	false[7]	5[7]	_	
+13-8	691-694	när	*[28]	_	_	_	_	_	
+13-9	695-697	de	*[28]	_	_	_	_	_	
+13-10	698-703	säger	*[28]	_	_	_	_	_	
+13-11	704-707	att	*[28]	_	_	_	_	_	
+13-12	708-715	Sverige	*[28]	_	_	_	_	_	
+13-13	716-720	inte	*[28]	_	_	_	_	_	
+13-14	721-723	är	*[28]	_	_	_	_	_	
+13-15	724-727	ett	*[28]	_	_	_	_	_	
+13-16	728-741	invandrarland	*[28]	_	_	_	_	_	
+13-17	742-745	och	_	_	_	_	_	_	
+13-18	746-749	att	_	_	_	_	_	_	
+13-19	750-753	vår	_	_	_	_	_	_	
+13-20	754-768	välfärdsmodell	_	_	_	_	_	_	
+13-21	769-773	inte	_	_	_	_	_	_	
+13-22	774-780	håller	_	_	_	_	_	_	
+13-23	781-784	för	_	_	_	_	_	_	
+13-24	785-792	trycket	_	_	_	_	_	_	
+13-25	793-797	från	_	_	_	_	_	_	
+13-26	798-801	den	_	_	_	_	_	_	
+13-27	802-809	flodvåg	_	_	_	_	_	_	
+13-28	810-812	av	_	_	_	_	_	_	
+13-29	813-822	migranter	_	_	_	_	_	_	
+13-30	823-826	som	_	_	_	_	_	_	
+13-31	827-829	vi	_	_	_	_	_	_	
+13-32	830-834	sett	_	_	_	_	_	_	
+13-33	835-837	de	_	_	_	_	_	_	
+13-34	838-845	senaste	_	_	_	_	_	_	
+13-35	846-850	åren	_	_	_	_	_	_	
+13-36	850-851	.	_	_	_	_	_	_	
+
+#Text=Med det sagt borde Ungsvenskarna se positivt på att delar av MUF återfått sina ungsvenska rötter.
+14-1	852-855	Med	_	_	_	_	_	_	
+14-2	856-859	det	_	_	_	_	_	_	
+14-3	860-864	sagt	_	_	_	_	_	_	
+14-4	865-870	borde	_	_	_	false	4	_	
+14-5	871-884	Ungsvenskarna	_	_	_	_	_	_	
+14-6	885-887	se	_	Target[8]	14-10[29]	false[8]	4[8]	14-4[0_8]	
+14-7	888-896	positivt	_	Target[8]	14-10[29]	false[8]	4[8]	_	
+14-8	897-899	på	_	_	_	_	_	_	
+14-9	900-903	att	_	_	_	_	_	_	
+14-10	904-909	delar	*[29]	_	_	_	_	_	
+14-11	910-912	av	*[29]	_	_	_	_	_	
+14-12	913-916	MUF	*[29]	_	_	_	_	_	
+14-13	917-925	återfått	*[29]	_	_	_	_	_	
+14-14	926-930	sina	*[29]	_	_	_	_	_	
+14-15	931-941	ungsvenska	*[29]	_	_	_	_	_	
+14-16	942-948	rötter	*[29]	_	_	_	_	_	
+14-17	948-949	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	951-952	#	_	_	_	_	_	_	
+15-2	952-953	P	_	_[9]	_	false[9]	2[9]	_	
+15-3	954-957	IMM	_	_[9]	_	false[9]	2[9]	_	
+15-4	957-958	.	_	_	_	_	_	_	
+
+#Text=Vid en första anblick kan förslaget nämligen framstå som ett invandringskritiskt förslag som lika gärna hade kunnat komma från oss.
+16-1	960-963	Vid	_	_	_	_	_	_	
+16-2	964-966	en	_	_	_	_	_	_	
+16-3	967-973	första	_	_	_	_	_	_	
+16-4	974-981	anblick	_	_	_	_	_	_	
+16-5	982-985	kan	_	_	_	_	_	_	
+16-6	986-995	förslaget	_	_	_	_	_	_	
+16-7	996-1004	nämligen	_	_	_	_	_	_	
+16-8	1005-1012	framstå	_	_	_	_	_	_	
+16-9	1013-1016	som	_	_	_	_	_	_	
+16-10	1017-1020	ett	_	_	_	_	_	_	
+16-11	1021-1040	invandringskritiskt	_	Source;Target	16-21;16-12	false	2	_	
+16-12	1041-1048	förslag	*	_	_	_	_	_	
+16-13	1049-1052	som	_	_	_	_	_	_	
+16-14	1053-1057	lika	_	_	_	_	_	_	
+16-15	1058-1063	gärna	_	_	_	_	_	_	
+16-16	1064-1068	hade	_	_	_	_	_	_	
+16-17	1069-1075	kunnat	_	_	_	_	_	_	
+16-18	1076-1081	komma	_	_	_	_	_	_	
+16-19	1082-1086	från	_	_	_	_	_	_	
+16-20	1087-1090	oss	_	_	_	_	_	_	
+16-21	1090-1091	.	*	_	_	_	_	_	
+
+#Text=Helt enkelt ett symbolpolitiskt förslag som syftar till att minska Sveriges attraktionskraft för migranter världen över.
+17-1	1092-1096	Helt	_	_	_	_	_	_	
+17-2	1097-1103	enkelt	_	_	_	_	_	_	
+17-3	1104-1107	ett	_	_	_	_	_	_	
+17-4	1108-1123	symbolpolitiskt	_	_	_	_	_	_	
+17-5	1124-1131	förslag	_	_	_	_	_	_	
+17-6	1132-1135	som	_	_	_	_	_	_	
+17-7	1136-1142	syftar	_	_	_	_	_	_	
+17-8	1143-1147	till	_	_	_	_	_	_	
+17-9	1148-1151	att	_	_	_	_	_	_	
+17-10	1152-1158	minska	_	_	_	_	_	_	
+17-11	1159-1167	Sveriges	_	_	_	_	_	_	
+17-12	1168-1184	attraktionskraft	_	_	_	_	_	_	
+17-13	1185-1188	för	_	_	_	_	_	_	
+17-14	1189-1198	migranter	_	_	_	_	_	_	
+17-15	1199-1206	världen	_	_	_	_	_	_	
+17-16	1207-1211	över	_	_	_	_	_	_	
+17-17	1211-1212	.	_	_	_	_	_	_	
+
+#Text=Men ingenstans i texten återfinns att detta skulle vara motivet till förslaget.
+18-1	1213-1216	Men	_	_	_	_	_	_	
+18-2	1217-1227	ingenstans	_	_	_	_	_	_	
+18-3	1228-1229	i	_	_	_	_	_	_	
+18-4	1230-1236	texten	_	_	_	_	_	_	
+18-5	1237-1246	återfinns	_	_	_	_	_	_	
+18-6	1247-1250	att	_	_	_	_	_	_	
+18-7	1251-1256	detta	_	_	_	_	_	_	
+18-8	1257-1263	skulle	_	_	_	_	_	_	
+18-9	1264-1268	vara	_	_	_	_	_	_	
+18-10	1269-1276	motivet	_	_	_	_	_	_	
+18-11	1277-1281	till	_	_	_	_	_	_	
+18-12	1282-1291	förslaget	_	_	_	_	_	_	
+18-13	1291-1292	.	_	_	_	_	_	_	
+
+#Text=Således bör man utgå ifrån att debattörerna fortfarande står bakom MUF:s hållning gällande fri migration till Sverige.
+19-1	1293-1300	Således	_	_	_	_	_	_	
+19-2	1301-1304	bör	_	_	_	_	_	_	
+19-3	1305-1308	man	_	_	_	_	_	_	
+19-4	1309-1313	utgå	_	_	_	_	_	_	
+19-5	1314-1319	ifrån	_	_	_	_	_	_	
+19-6	1320-1323	att	_	_	_	_	_	_	
+19-7	1324-1336	debattörerna	_	_	_	_	_	_	
+19-8	1337-1348	fortfarande	_	_	_	_	_	_	
+19-9	1349-1353	står	_	_	_	_	_	_	
+19-10	1354-1359	bakom	_	_	_	_	_	_	
+19-11	1360-1363	MUF	_	_	_	_	_	_	
+19-12	1363-1364	:	_	_	_	_	_	_	
+19-13	1364-1365	s	_	_	_	_	_	_	
+19-14	1366-1374	hållning	_	_	_	_	_	_	
+19-15	1375-1383	gällande	_	_	_	_	_	_	
+19-16	1384-1387	fri	_	_	_	_	_	_	
+19-17	1388-1397	migration	_	_	_	_	_	_	
+19-18	1398-1402	till	_	_	_	_	_	_	
+19-19	1403-1410	Sverige	_	_	_	_	_	_	
+19-20	1410-1411	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1413-1414	#	_	_	_	_	_	_	
+20-2	1414-1415	P	_	_[10]	_	false[10]	2[10]	_	
+20-3	1416-1419	IMM	_	_[10]	_	false[10]	2[10]	_	
+20-4	1419-1420	.	_	_	_	_	_	_	
+
+#Text=Förbundsledningen i MUF har länge varit tydliga med att de vill ha en oreglerad invandring, permanenta uppehållstillstånd, legala vägar in i Europa och så vidare.
+21-1	1422-1439	Förbundsledningen	_	_	_	_	_	_	
+21-2	1440-1441	i	_	_	_	_	_	_	
+21-3	1442-1445	MUF	*	_	_	_	_	_	
+21-4	1446-1449	har	_	_	_	_	_	_	
+21-5	1450-1455	länge	_	_	_	_	_	_	
+21-6	1456-1461	varit	_	_	_	_	_	_	
+21-7	1462-1469	tydliga	_	_	_	_	_	_	
+21-8	1470-1473	med	_	_	_	_	_	_	
+21-9	1474-1477	att	_	_	_	_	_	_	
+21-10	1478-1480	de	_	_	_	_	_	_	
+21-11	1481-1485	vill	_	Target;Source[11]	21-14[30];21-3	false[11]	4[11]	_	
+21-12	1486-1488	ha	_	Target;Source[11]	21-14[30];21-3	false[11]	4[11]	_	
+21-13	1489-1491	en	_	_	_	_	_	_	
+21-14	1492-1501	oreglerad	*[30]	_	_	_	_	_	
+21-15	1502-1512	invandring	*[30]	_	_	_	_	_	
+21-16	1512-1513	,	*[30]	_	_	_	_	_	
+21-17	1514-1524	permanenta	*[30]	_	_	_	_	_	
+21-18	1525-1543	uppehållstillstånd	*[30]	_	_	_	_	_	
+21-19	1543-1544	,	*[30]	_	_	_	_	_	
+21-20	1545-1551	legala	*[30]	_	_	_	_	_	
+21-21	1552-1557	vägar	*[30]	_	_	_	_	_	
+21-22	1558-1560	in	*[30]	_	_	_	_	_	
+21-23	1561-1562	i	*[30]	_	_	_	_	_	
+21-24	1563-1569	Europa	*[30]	_	_	_	_	_	
+21-25	1570-1573	och	_	_	_	_	_	_	
+21-26	1574-1576	så	_	_	_	_	_	_	
+21-27	1577-1583	vidare	_	_	_	_	_	_	
+21-28	1583-1584	.	_	_	_	_	_	_	
+
+#Text=Därför kan debattörerna även ha resonerat som så att det vore strategiskt onödigt att påminna sina mest invandringsvurmande kamrater i MUF om förslagets praktiska påverkan på migrationen till Sverige.
+22-1	1585-1591	Därför	_	_	_	_	_	_	
+22-2	1592-1595	kan	_	_	_	_	_	_	
+22-3	1596-1608	debattörerna	_	_	_	_	_	_	
+22-4	1609-1613	även	_	_	_	_	_	_	
+22-5	1614-1616	ha	_	_	_	_	_	_	
+22-6	1617-1626	resonerat	_	_	_	_	_	_	
+22-7	1627-1630	som	_	_	_	_	_	_	
+22-8	1631-1633	så	_	_	_	_	_	_	
+22-9	1634-1637	att	_	_	_	_	_	_	
+22-10	1638-1641	det	_	_	_	_	_	_	
+22-11	1642-1646	vore	_	_	_	_	_	_	
+22-12	1647-1658	strategiskt	_	Target[12]	22-15[31]	false[12]	2[12]	_	
+22-13	1659-1666	onödigt	_	Target[12]	22-15[31]	false[12]	2[12]	_	
+22-14	1667-1670	att	_	_	_	_	_	_	
+22-15	1671-1678	påminna	*[31]	_	_	_	_	_	
+22-16	1679-1683	sina	*[31]	_	_	_	_	_	
+22-17	1684-1688	mest	*[31]	_	_	_	_	_	
+22-18	1689-1708	invandringsvurmande	*[31]	_	_	_	_	_	
+22-19	1709-1717	kamrater	*[31]	_	_	_	_	_	
+22-20	1718-1719	i	*[31]	_	_	_	_	_	
+22-21	1720-1723	MUF	*[31]	_	_	_	_	_	
+22-22	1724-1726	om	*[31]	_	_	_	_	_	
+22-23	1727-1737	förslagets	*[31]	_	_	_	_	_	
+22-24	1738-1747	praktiska	*[31]	_	_	_	_	_	
+22-25	1748-1756	påverkan	*[31]	_	_	_	_	_	
+22-26	1757-1759	på	*[31]	_	_	_	_	_	
+22-27	1760-1771	migrationen	*[31]	_	_	_	_	_	
+22-28	1772-1776	till	*[31]	_	_	_	_	_	
+22-29	1777-1784	Sverige	*[31]	_	_	_	_	_	
+22-30	1784-1785	.	_	_	_	_	_	_	
+
+#Text=Genom att tysta ner följderna av förslaget synliggörs inte åsiktskonflikten inom förbundet lika tydligt även om den succesivt lär sippra upp till ytan allt mer framöver.
+23-1	1786-1791	Genom	_	_	_	_	_	_	
+23-2	1792-1795	att	_	_	_	_	_	_	
+23-3	1796-1801	tysta	_	_	_	_	_	_	
+23-4	1802-1805	ner	_	_	_	_	_	_	
+23-5	1806-1815	följderna	_	_	_	_	_	_	
+23-6	1816-1818	av	_	_	_	_	_	_	
+23-7	1819-1828	förslaget	_	_	_	_	_	_	
+23-8	1829-1839	synliggörs	_	_	_	_	_	_	
+23-9	1840-1844	inte	_	_	_	_	_	_	
+23-10	1845-1861	åsiktskonflikten	_	_	_	_	_	_	
+23-11	1862-1866	inom	_	_	_	_	_	_	
+23-12	1867-1876	förbundet	_	_	_	_	_	_	
+23-13	1877-1881	lika	_	_	_	_	_	_	
+23-14	1882-1889	tydligt	_	_	_	_	_	_	
+23-15	1890-1894	även	_	_	_	_	_	_	
+23-16	1895-1897	om	_	_	_	_	_	_	
+23-17	1898-1901	den	_	_	_	_	_	_	
+23-18	1902-1911	succesivt	_	_	_	_	_	_	
+23-19	1912-1915	lär	_	_	_	_	_	_	
+23-20	1916-1922	sippra	_	_	_	_	_	_	
+23-21	1923-1926	upp	_	_	_	_	_	_	
+23-22	1927-1931	till	_	_	_	_	_	_	
+23-23	1932-1936	ytan	_	_	_	_	_	_	
+23-24	1937-1941	allt	_	_	_	_	_	_	
+23-25	1942-1945	mer	_	_	_	_	_	_	
+23-26	1946-1954	framöver	_	_	_	_	_	_	
+23-27	1954-1955	.	_	_	_	_	_	_	
+
+#Text=Om det endast var rent strategiskt som man avstod från att nämna behovet av minskad invandring välkomnar Ungsvenskarna förslaget.
+24-1	1956-1958	Om	_	_	_	_	_	_	
+24-2	1959-1962	det	_	_	_	_	_	_	
+24-3	1963-1969	endast	_	_	_	_	_	_	
+24-4	1970-1973	var	_	_	_	_	_	_	
+24-5	1974-1978	rent	_	_	_	_	_	_	
+24-6	1979-1990	strategiskt	_	_	_	_	_	_	
+24-7	1991-1994	som	_	_	_	_	_	_	
+24-8	1995-1998	man	_	_	_	_	_	_	
+24-9	1999-2005	avstod	_	_	_	_	_	_	
+24-10	2006-2010	från	_	_	_	_	_	_	
+24-11	2011-2014	att	_	_	_	_	_	_	
+24-12	2015-2020	nämna	_	_	_	_	_	_	
+24-13	2021-2028	behovet	_	_	_	_	_	_	
+24-14	2029-2031	av	_	_	_	_	_	_	
+24-15	2032-2039	minskad	_	_	_	_	_	_	
+24-16	2040-2050	invandring	_	_	_	_	_	_	
+24-17	2051-2060	välkomnar	_	Target;Source	24-19;24-18	false	4	_	
+24-18	2061-2074	Ungsvenskarna	*	_	_	_	_	_	
+24-19	2075-2084	förslaget	*	_	_	_	_	_	
+24-20	2084-2085	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2087-2088	#	_	_	_	_	_	_	
+25-2	2088-2089	P	_	_[13]	_	false[13]	2[13]	_	
+25-3	2090-2093	IMM	_	_[13]	_	false[13]	2[13]	_	
+25-4	2093-2094	.	_	_	_	_	_	_	
+
+#Text=Men med minnet av alla de huvudlösa förslag som kommit från MUF, och än värre de övriga liberala förbunden, väcks en viss misstro.
+26-1	2096-2099	Men	_	_	_	_	_	_	
+26-2	2100-2103	med	_	_	_	_	_	_	
+26-3	2104-2110	minnet	_	_	_	_	_	_	
+26-4	2111-2113	av	_	_	_	_	_	_	
+26-5	2114-2118	alla	_	_	_	_	_	_	
+26-6	2119-2121	de	_	_	_	_	_	_	
+26-7	2122-2131	huvudlösa	_	Target	26-8	false	2	_	
+26-8	2132-2139	förslag	*	_	_	_	_	_	
+26-9	2140-2143	som	_	_	_	_	_	_	
+26-10	2144-2150	kommit	_	_	_	_	_	_	
+26-11	2151-2155	från	_	_	_	_	_	_	
+26-12	2156-2159	MUF	*	_	_	_	_	_	
+26-13	2159-2160	,	_	_	_	_	_	_	
+26-14	2161-2164	och	_	_	_	_	_	_	
+26-15	2165-2167	än	_	Target[14]	26-17[32]	false[14]	2[14]	_	
+26-16	2168-2173	värre	_	Target[14]	26-17[32]	false[14]	2[14]	_	
+26-17	2174-2176	de	*[32]	_	_	_	_	_	
+26-18	2177-2183	övriga	*[32]	_	_	_	_	_	
+26-19	2184-2192	liberala	*[32]	_	_	_	_	_	
+26-20	2193-2202	förbunden	*[32]	_	_	_	_	_	
+26-21	2202-2203	,	_	_	_	_	_	_	
+26-22	2204-2209	väcks	_	Target[15]	26-12	false[15]	2[15]	_	
+26-23	2210-2212	en	_	Target[15]	26-12	false[15]	2[15]	_	
+26-24	2213-2217	viss	_	Target[15]	26-12	false[15]	2[15]	_	
+26-25	2218-2225	misstro	_	Target[15]	26-12	false[15]	2[15]	_	
+26-26	2225-2226	.	_	_	_	_	_	_	
+
+#Text=Anledningen till att många liberaler förespråkar fri invandring är inte en följd av naiv godhet, ideologisk blindhet eller urbota dumhet.
+27-1	2227-2238	Anledningen	_	_	_	_	_	_	
+27-2	2239-2243	till	_	_	_	_	_	_	
+27-3	2244-2247	att	_	_	_	_	_	_	
+27-4	2248-2253	många	_	_	_	_	_	_	
+27-5	2254-2263	liberaler	_	_	_	_	_	_	
+27-6	2264-2275	förespråkar	_	_	_	_	_	_	
+27-7	2276-2279	fri	_	_	_	_	_	_	
+27-8	2280-2290	invandring	_	_	_	_	_	_	
+27-9	2291-2293	är	_	_	_	_	_	_	
+27-10	2294-2298	inte	_	_	_	_	_	_	
+27-11	2299-2301	en	_	_	_	_	_	_	
+27-12	2302-2307	följd	_	_	_	_	_	_	
+27-13	2308-2310	av	_	_	_	_	_	_	
+27-14	2311-2315	naiv	_	Target	27-15	false	2	_	
+27-15	2316-2322	godhet	*	_	_	_	_	_	
+27-16	2322-2323	,	_	_	_	_	_	_	
+27-17	2324-2334	ideologisk	_	_	_	_	_	_	
+27-18	2335-2343	blindhet	_	_	_	_	_	_	
+27-19	2344-2349	eller	_	_	_	_	_	_	
+27-20	2350-2356	urbota	*[33]	Target[16]	27-20[33]	false[16]	2[16]	_	
+27-21	2357-2363	dumhet	*[33]	Target[16]	27-20[33]	false[16]	2[16]	_	
+27-22	2363-2364	.	_	_	_	_	_	_	
+
+#Text=Den bakomliggande orsaken är istället att de genom fri invandring vill rasera den svenska välfärdsmodell som de aldrig uppskattat.
+28-1	2365-2368	Den	_	_	_	_	_	_	
+28-2	2369-2382	bakomliggande	_	_	_	_	_	_	
+28-3	2383-2390	orsaken	_	_	_	_	_	_	
+28-4	2391-2393	är	_	_	_	_	_	_	
+28-5	2394-2402	istället	_	_	_	_	_	_	
+28-6	2403-2406	att	_	_	_	_	_	_	
+28-7	2407-2409	de	*	_	_	_	_	_	
+28-8	2410-2415	genom	_	_	_	_	_	_	
+28-9	2416-2419	fri	_	_	_	_	_	_	
+28-10	2420-2430	invandring	_	_	_	_	_	_	
+28-11	2431-2435	vill	_	Target[17]	28-7	false[17]	2[17]	_	
+28-12	2436-2442	rasera	_	Target[17]	28-7	false[17]	2[17]	_	
+28-13	2443-2446	den	_	_	_	_	_	_	
+28-14	2447-2454	svenska	_	_	_	_	_	_	
+28-15	2455-2469	välfärdsmodell	*	_	_	_	_	_	
+28-16	2470-2473	som	_	_	_	_	_	_	
+28-17	2474-2476	de	*	_	_	_	_	_	
+28-18	2477-2483	aldrig	_	Source;Target[18]	28-17;28-15	false[18]	2[18]	_	
+28-19	2484-2494	uppskattat	_	Source;Target[18]	28-17;28-15	false[18]	2[18]	_	
+28-20	2494-2495	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2497-2498	#	_	_	_	_	_	_	
+29-2	2498-2499	P	_	_[19]	_	false[19]	2[19]	_	
+29-3	2500-2503	IMM	_	_[19]	_	false[19]	2[19]	_	
+29-4	2503-2504	.	_	_	_	_	_	_	
+
+#Text=Gårdagens utspel skulle med den utgångspunkten kunna tolkas som att de nu anser att välfärdssystemet är så pass överbelastat, till följd av asylkrisen, att det är dags att inleda "operation privatisera välfärden".
+30-1	2506-2515	Gårdagens	_	_	_	_	_	_	
+30-2	2516-2522	utspel	_	_	_	_	_	_	
+30-3	2523-2529	skulle	_	_	_	_	_	_	
+30-4	2530-2533	med	_	_	_	_	_	_	
+30-5	2534-2537	den	_	_	_	_	_	_	
+30-6	2538-2552	utgångspunkten	_	_	_	_	_	_	
+30-7	2553-2558	kunna	_	_	_	_	_	_	
+30-8	2559-2565	tolkas	_	_	_	_	_	_	
+30-9	2566-2569	som	_	_	_	_	_	_	
+30-10	2570-2573	att	_	_	_	_	_	_	
+30-11	2574-2576	de	_	_	_	_	_	_	
+30-12	2577-2579	nu	_	_	_	_	_	_	
+30-13	2580-2585	anser	_	_	_	_	_	_	
+30-14	2586-2589	att	_	_	_	_	_	_	
+30-15	2590-2606	välfärdssystemet	_	_	_	_	_	_	
+30-16	2607-2609	är	_	_	_	_	_	_	
+30-17	2610-2612	så	_	_	_	_	_	_	
+30-18	2613-2617	pass	_	_	_	_	_	_	
+30-19	2618-2630	överbelastat	_	_	_	_	_	_	
+30-20	2630-2631	,	_	_	_	_	_	_	
+30-21	2632-2636	till	_	_	_	_	_	_	
+30-22	2637-2642	följd	_	_	_	_	_	_	
+30-23	2643-2645	av	_	_	_	_	_	_	
+30-24	2646-2656	asylkrisen	_	_	_	_	_	_	
+30-25	2656-2657	,	_	_	_	_	_	_	
+30-26	2658-2661	att	_	_	_	_	_	_	
+30-27	2662-2665	det	_	_	_	_	_	_	
+30-28	2666-2668	är	_	_	_	_	_	_	
+30-29	2669-2673	dags	_	_	_	_	_	_	
+30-30	2674-2677	att	_	_	_	_	_	_	
+30-31	2678-2684	inleda	_	_	_	_	_	_	
+30-32	2685-2686	"	_	_	_	_	_	_	
+30-33	2686-2695	operation	_	_	_	_	_	_	
+30-34	2696-2707	privatisera	_	_	_	_	_	_	
+30-35	2708-2717	välfärden	_	_	_	_	_	_	
+30-36	2717-2718	"	_	_	_	_	_	_	
+30-37	2718-2719	.	_	_	_	_	_	_	
+
+#Text=Att låta flyktingar belåna sig för sin välfärd torde därför vara ett ganska rimligt första steg om man innehar en sådan agenda.
+31-1	2720-2723	Att	_	_	_	_	_	_	
+31-2	2724-2728	låta	*[34]	_	_	_	_	_	
+31-3	2729-2739	flyktingar	*[34]	_	_	_	_	_	
+31-4	2740-2746	belåna	*[34]	_	_	_	_	_	
+31-5	2747-2750	sig	*[34]	_	_	_	_	_	
+31-6	2751-2754	för	*[34]	_	_	_	_	_	
+31-7	2755-2758	sin	*[34]	_	_	_	_	_	
+31-8	2759-2766	välfärd	*[34]	_	_	_	_	_	
+31-9	2767-2772	torde	_	_	_	_	_	_	
+31-10	2773-2779	därför	_	_	_	_	_	_	
+31-11	2780-2784	vara	_	_	_	_	_	_	
+31-12	2785-2788	ett	_	_	_	_	_	_	
+31-13	2789-2795	ganska	_	Target[20]	31-2[34]	false[20]	4[20]	_	
+31-14	2796-2803	rimligt	_	Target[20]	31-2[34]	false[20]	4[20]	_	
+31-15	2804-2810	första	_	Target[20]	31-2[34]	false[20]	4[20]	_	
+31-16	2811-2815	steg	_	Target[20]	31-2[34]	false[20]	4[20]	_	
+31-17	2816-2818	om	_	_	_	_	_	_	
+31-18	2819-2822	man	_	_	_	_	_	_	
+31-19	2823-2830	innehar	_	_	_	_	_	_	
+31-20	2831-2833	en	_	_	_	_	_	_	
+31-21	2834-2839	sådan	_	_	_	_	_	_	
+31-22	2840-2846	agenda	_	_	_	_	_	_	
+31-23	2846-2847	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2849-2850	#	_	_	_	_	_	_	
+32-2	2850-2851	P	_	_	_	_	_	_	
+32-3	2852-2855	IMM	_	_	_	_	_	_	
+32-4	2855-2856	.	_	_	_	_	_	_	
+
+#Text=SvD:s NYHETSBREV VALET 2018 – veckans viktigaste fördjupningar och granskningar.
+33-1	2858-2861	SvD	_	_	_	_	_	_	
+33-2	2861-2862	:	_	_	_	_	_	_	
+33-3	2862-2863	s	_	_	_	_	_	_	
+33-4	2864-2874	NYHETSBREV	_	_	_	_	_	_	
+33-5	2875-2880	VALET	_	_	_	_	_	_	
+33-6	2881-2885	2018	_	_	_	_	_	_	
+33-7	2886-2887	–	_	_	_	_	_	_	
+33-8	2888-2895	veckans	_	_	_	_	_	_	
+33-9	2896-2906	viktigaste	_	_	_	_	_	_	
+33-10	2907-2920	fördjupningar	_	_	_	_	_	_	
+33-11	2921-2924	och	_	_	_	_	_	_	
+33-12	2925-2937	granskningar	_	_	_	_	_	_	
+33-13	2937-2938	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2940-2941	#	_	_	_	_	_	_	
+34-2	2941-2942	P	_	_[21]	_	false[21]	2[21]	_	
+34-3	2943-2946	IMM	_	_[21]	_	false[21]	2[21]	_	
+34-4	2946-2947	.	_	_	_	_	_	_	
+
+#Text=I den bästa av världar har dock delar av MUF kommit till insikt att vi är i ett akut behov av att minska asylströmmarna till Sverige och att detta enklast genomförs med en tydlig signalpolitik.
+35-1	2949-2950	I	_	_	_	_	_	_	
+35-2	2951-2954	den	_	_	_	_	_	_	
+35-3	2955-2960	bästa	_	_	_	_	_	_	
+35-4	2961-2963	av	_	_	_	_	_	_	
+35-5	2964-2971	världar	_	_	_	_	_	_	
+35-6	2972-2975	har	_	_	_	_	_	_	
+35-7	2976-2980	dock	_	_	_	_	_	_	
+35-8	2981-2986	delar	_	_	_	_	_	_	
+35-9	2987-2989	av	_	_	_	_	_	_	
+35-10	2990-2993	MUF	_	_	_	_	_	_	
+35-11	2994-3000	kommit	_	_	_	_	_	_	
+35-12	3001-3005	till	_	_	_	_	_	_	
+35-13	3006-3012	insikt	_	_	_	_	_	_	
+35-14	3013-3016	att	_	_	_	_	_	_	
+35-15	3017-3019	vi	_	_	_	_	_	_	
+35-16	3020-3022	är	_	_	_	_	_	_	
+35-17	3023-3024	i	_	_	_	_	_	_	
+35-18	3025-3028	ett	_	_	_	_	_	_	
+35-19	3029-3033	akut	_	Target[22]	35-23[35]	false[22]	4[22]	_	
+35-20	3034-3039	behov	_	Target[22]	35-23[35]	false[22]	4[22]	_	
+35-21	3040-3042	av	_	_	_	_	_	_	
+35-22	3043-3046	att	_	_	_	_	_	_	
+35-23	3047-3053	minska	*[35]	_	_	_	_	_	
+35-24	3054-3068	asylströmmarna	*[35]	_	_	_	_	_	
+35-25	3069-3073	till	*[35]	_	_	_	_	_	
+35-26	3074-3081	Sverige	*[35]	_	_	_	_	_	
+35-27	3082-3085	och	_	_	_	_	_	_	
+35-28	3086-3089	att	_	_	_	_	_	_	
+35-29	3090-3095	detta	_	_	_	_	_	_	
+35-30	3096-3103	enklast	_	_	_	_	_	_	
+35-31	3104-3113	genomförs	_	_	_	_	_	_	
+35-32	3114-3117	med	_	_	_	_	_	_	
+35-33	3118-3120	en	_	_	_	_	_	_	
+35-34	3121-3127	tydlig	_	_	_	_	_	_	
+35-35	3128-3141	signalpolitik	_	_	_	_	_	_	
+35-36	3141-3142	.	_	_	_	_	_	_	
+
+#Text=Om så är fallet önskar jag den invandringskritiska, och förhoppningsvis någorlunda konservativa, rösten i MUF lycka till i den kommande maktstriden mot den regnbågsfärgade liberalism som satt klorna i ett historiskt sett konservativt ungdomsförbund.
+36-1	3143-3145	Om	_	_	_	_	_	_	
+36-2	3146-3148	så	_	_	_	_	_	_	
+36-3	3149-3151	är	_	_	_	_	_	_	
+36-4	3152-3158	fallet	_	_	_	_	_	_	
+36-5	3159-3165	önskar	_	_	_	false	4	_	
+36-6	3166-3169	jag	_	_	_	_	_	_	
+36-7	3170-3173	den	_	_	_	_	_	_	
+36-8	3174-3193	invandringskritiska	_	_	_	_	_	_	
+36-9	3193-3194	,	_	_	_	_	_	_	
+36-10	3195-3198	och	_	_	_	_	_	_	
+36-11	3199-3214	förhoppningsvis	_	Target	36-12[36]	false	4	_	
+36-12	3215-3225	någorlunda	*[36]	_	_	_	_	_	
+36-13	3226-3238	konservativa	*[36]	_	_	_	_	_	
+36-14	3238-3239	,	_	_	_	_	_	_	
+36-15	3240-3246	rösten	*[37]	_	_	_	_	_	
+36-16	3247-3248	i	*[37]	_	_	_	_	_	
+36-17	3249-3252	MUF	*[37]	_	_	_	_	_	
+36-18	3253-3258	lycka	_	Target[23]	36-15[37]	false[23]	4[23]	36-5[0_23]	
+36-19	3259-3263	till	_	Target[23]	36-15[37]	false[23]	4[23]	_	
+36-20	3264-3265	i	_	_	_	_	_	_	
+36-21	3266-3269	den	_	_	_	_	_	_	
+36-22	3270-3278	kommande	_	_	_	_	_	_	
+36-23	3279-3290	maktstriden	_	_	_	_	_	_	
+36-24	3291-3294	mot	_	_	_	_	_	_	
+36-25	3295-3298	den	_	_	_	_	_	_	
+36-26	3299-3314	regnbågsfärgade	*[38]	_	_	_	_	_	
+36-27	3315-3325	liberalism	*[38]	_	_	_	_	_	
+36-28	3326-3329	som	_	_	_	_	_	_	
+36-29	3330-3334	satt	_	Target[24]	36-26[38]	false[24]	2[24]	_	
+36-30	3335-3341	klorna	_	Target[24]	36-26[38]	false[24]	2[24]	_	
+36-31	3342-3343	i	_	_	_	_	_	_	
+36-32	3344-3347	ett	_	_	_	_	_	_	
+36-33	3348-3358	historiskt	_	_	_	_	_	_	
+36-34	3359-3363	sett	_	_	_	_	_	_	
+36-35	3364-3376	konservativt	_	_	_	_	_	_	
+36-36	3377-3391	ungdomsförbund	_	_	_	_	_	_	
+36-37	3391-3392	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3394-3395	#	_	_	_	_	_	_	
+37-2	3395-3396	P	_	_	_	_	_	_	
+37-3	3397-3400	IMM	_	_	_	_	_	_	
+37-4	3400-3401	.	_	_	_	_	_	_	
+
+#Text=Tobias Andersson.
+38-1	3403-3409	Tobias	_	_	_	_	_	_	
+38-2	3410-3419	Andersson	_	_	_	_	_	_	
+38-3	3419-3420	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3422-3423	#	_	_	_	_	_	_	
+39-2	3423-3424	P	_	_	_	_	_	_	
+39-3	3425-3428	IMM	_	_	_	_	_	_	
+39-4	3428-3429	.	_	_	_	_	_	_	
+
+#Text=talesperson Ungsvenskarna SDU.
+40-1	3431-3442	talesperson	_	_	_	_	_	_	
+40-2	3443-3456	Ungsvenskarna	_	_	_	_	_	_	
+40-3	3457-3460	SDU	_	_	_	_	_	_	
+40-4	3460-3461	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3463-3464	#	_	_	_	_	_	_	
+41-2	3464-3465	P	_	_	_	_	_	_	
+41-3	3466-3469	IMM	_	_	_	_	_	_	
+41-4	3469-3470	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+42-1	3472-3480	Redaktör	_	_	_	_	_	_	
+42-2	3480-3481	:	_	_	_	_	_	_	
+42-3	3482-3488	Carina	_	_	_	_	_	_	
+42-4	3489-3507	StenssonBiträdande	_	_	_	_	_	_	
+42-5	3508-3516	redaktör	_	_	_	_	_	_	
+42-6	3516-3517	:	_	_	_	_	_	_	
+42-7	3518-3528	Carl-Johan	_	_	_	_	_	_	
+42-8	3529-3543	BilkenrothMejl	_	_	_	_	_	_	
+42-9	3543-3544	:	_	_	_	_	_	_	
+42-10	3545-3551	debatt	_	_	_	_	_	_	
+42-11	3551-3552	@	_	_	_	_	_	_	
+42-12	3552-3571	svd.seTelefonnummer	_	_	_	_	_	_	
+42-13	3571-3572	:	_	_	_	_	_	_	
+42-14	3573-3575	08	_	_	_	_	_	_	
+42-15	3575-3576	-	_	_	_	_	_	_	
+42-16	3576-3589	135149Twitter	_	_	_	_	_	_	
+42-17	3589-3590	:	_	_	_	_	_	_	
+42-18	3591-3592	@	_	_	_	_	_	_	
+42-19	3592-3609	SvDDebattFacebook	_	_	_	_	_	_	
+42-20	3609-3610	:	_	_	_	_	_	_	
+42-21	3611-3614	SvD	_	_	_	_	_	_	
+42-22	3615-3621	Debatt	_	_	_	_	_	_	
+42-23	3621-3622	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3624-3625	#	_	_	_	_	_	_	
+43-2	3625-3626	P	_	_	_	_	_	_	
+43-3	3627-3630	IMM	_	_	_	_	_	_	
+43-4	3630-3631	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+44-1	3633-3641	Redaktör	_	_	_	_	_	_	
+44-2	3641-3642	:	_	_	_	_	_	_	
+44-3	3643-3649	Carina	_	_	_	_	_	_	
+44-4	3650-3658	Stensson	_	_	_	_	_	_	
+44-5	3658-3659	,	_	_	_	_	_	_	
+44-6	3660-3670	Biträdande	_	_	_	_	_	_	
+44-7	3671-3679	redaktör	_	_	_	_	_	_	
+44-8	3679-3680	:	_	_	_	_	_	_	
+44-9	3681-3686	Björn	_	_	_	_	_	_	
+44-10	3687-3693	Jorner	_	_	_	_	_	_	
+44-11	3693-3694	,	_	_	_	_	_	_	
+44-12	3695-3699	Mejl	_	_	_	_	_	_	
+44-13	3699-3700	:	_	_	_	_	_	_	
+44-14	3701-3707	debatt	_	_	_	_	_	_	
+44-15	3707-3708	@	_	_	_	_	_	_	
+44-16	3708-3714	svd.se	_	_	_	_	_	_	
+44-17	3714-3715	,	_	_	_	_	_	_	
+44-18	3716-3729	Telefonnummer	_	_	_	_	_	_	
+44-19	3729-3730	:	_	_	_	_	_	_	
+44-20	3731-3733	08	_	_	_	_	_	_	
+44-21	3733-3734	-	_	_	_	_	_	_	
+44-22	3734-3740	135149	_	_	_	_	_	_	
+44-23	3740-3741	,	_	_	_	_	_	_	
+44-24	3742-3749	Twitter	_	_	_	_	_	_	
+44-25	3749-3750	:	_	_	_	_	_	_	
+44-26	3751-3752	@	_	_	_	_	_	_	
+44-27	3752-3761	SvDDebatt	_	_	_	_	_	_	
+44-28	3761-3762	,	_	_	_	_	_	_	
+44-29	3763-3771	Facebook	_	_	_	_	_	_	
+44-30	3771-3772	:	_	_	_	_	_	_	
+44-31	3773-3776	SvD	_	_	_	_	_	_	
+44-32	3777-3783	Debatt	_	_	_	_	_	_	
+44-33	3783-3784	.	_	_	_	_	_	_	

@@ -1,0 +1,365 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad är en rimlig kostnad för invandring?
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	
+3-3	25-27	en	*[7]	_	_	_	_	_	
+3-4	28-34	rimlig	*[7]	Source;Target	3-8;3-3[7]	false	3	_	
+3-5	35-42	kostnad	*[7]	_	_	_	_	_	
+3-6	43-46	för	*[7]	_	_	_	_	_	
+3-7	47-57	invandring	*[7]	_	_	_	_	_	
+3-8	57-58	?	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	false	3	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Som frågan lyder - vad är en rimlig kostnad för invandring?.
+5-1	69-72	Som	_	_	_	_	_	_	
+5-2	73-79	frågan	_	_	_	_	_	_	
+5-3	80-85	lyder	_	_	_	_	_	_	
+5-4	86-87	-	_	_	_	_	_	_	
+5-5	88-91	vad	_	_	_	_	_	_	
+5-6	92-94	är	_	_	_	_	_	_	
+5-7	95-97	en	*[8]	_	_	_	_	_	
+5-8	98-104	rimlig	*[8]	Source;Target	5-12;5-7[8]	false	3	_	
+5-9	105-112	kostnad	*[8]	_	_	_	_	_	
+5-10	113-116	för	*[8]	_	_	_	_	_	
+5-11	117-127	invandring	*[8]	_	_	_	_	_	
+5-12	127-128	?	*	_	_	_	_	_	
+5-13	128-129	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	131-132	#	_	_	_	_	_	_	
+6-2	132-133	P	_	_	_	_	_	_	
+6-3	134-137	IMM	_	_	_	false	2	_	
+6-4	137-138	.	_	_	_	_	_	_	
+
+#Text=I dagsläget finns inget tak.
+7-1	140-141	I	_	_	_	_	_	_	
+7-2	142-151	dagsläget	_	_	_	_	_	_	
+7-3	152-157	finns	_	_	_	_	_	_	
+7-4	158-163	inget	_	_	_	_	_	_	
+7-5	164-167	tak	_	_	_	_	_	_	
+7-6	167-168	.	_	_	_	_	_	_	
+
+#Text=Vi är i princip beredda att tumma på levnadskvalité, välfärd, skola, vård/omsorg, precis allt.
+8-1	169-171	Vi	_	_	_	_	_	_	
+8-2	172-174	är	_	_	_	_	_	_	
+8-3	175-176	i	_	_	_	_	_	_	
+8-4	177-184	princip	_	_	_	_	_	_	
+8-5	185-192	beredda	_	_	_	_	_	_	
+8-6	193-196	att	_	_	_	_	_	_	
+8-7	197-202	tumma	_	_	_	_	_	_	
+8-8	203-205	på	_	_	_	_	_	_	
+8-9	206-220	levnadskvalité	_	_	_	_	_	_	
+8-10	220-221	,	_	_	_	_	_	_	
+8-11	222-229	välfärd	_	_	_	_	_	_	
+8-12	229-230	,	_	_	_	_	_	_	
+8-13	231-236	skola	_	_	_	_	_	_	
+8-14	236-237	,	_	_	_	_	_	_	
+8-15	238-242	vård	_	_	_	_	_	_	
+8-16	242-243	/	_	_	_	_	_	_	
+8-17	243-249	omsorg	_	_	_	_	_	_	
+8-18	249-250	,	_	_	_	_	_	_	
+8-19	251-257	precis	_	_	_	_	_	_	
+8-20	258-262	allt	_	_	_	_	_	_	
+8-21	262-263	.	_	_	_	_	_	_	
+
+#Text=Bara vi kan inhysa ännu en invandrare i landet.
+9-1	264-268	Bara	_	_	_	_	_	_	
+9-2	269-271	vi	_	_	_	_	_	_	
+9-3	272-275	kan	_	_	_	_	_	_	
+9-4	276-282	inhysa	_	_	_	_	_	_	
+9-5	283-287	ännu	_	_	_	_	_	_	
+9-6	288-290	en	_	_	_	_	_	_	
+9-7	291-301	invandrare	_	_	_	_	_	_	
+9-8	302-303	i	_	_	_	_	_	_	
+9-9	304-310	landet	_	_	_	_	_	_	
+9-10	310-311	.	_	_	_	_	_	_	
+
+#Text=Vad hände med Sverige och svenskar?
+10-1	312-315	Vad	_	_	_	_	_	_	
+10-2	316-321	hände	_	_	_	_	_	_	
+10-3	322-325	med	_	_	_	_	_	_	
+10-4	326-333	Sverige	_	_	_	_	_	_	
+10-5	334-337	och	_	_	_	_	_	_	
+10-6	338-346	svenskar	_	_	_	_	_	_	
+10-7	346-347	?	_	_	_	_	_	_	
+
+#Text=Vi som byggt landet.
+11-1	348-350	Vi	*	_	_	_	_	_	
+11-2	351-354	som	_	_	_	_	_	_	
+11-3	355-360	byggt	_	Target[1]	11-1	false[1]	4[1]	_	
+11-4	361-367	landet	_	Target[1]	11-1	false[1]	4[1]	_	
+11-5	367-368	.	_	_	_	_	_	_	
+
+#Text=Är vår enda uppgift bara att ge?
+12-1	369-371	Är	_	_	_	_	_	_	
+12-2	372-375	vår	_	_	_	_	_	_	
+12-3	376-380	enda	_	_	_	_	_	_	
+12-4	381-388	uppgift	_	_	_	_	_	_	
+12-5	389-393	bara	_	_	_	_	_	_	
+12-6	394-397	att	_	_	_	_	_	_	
+12-7	398-400	ge	_	_	_	_	_	_	
+12-8	400-401	?	_	_	_	_	_	_	
+
+#Text=Jag undrar om det finns en gräns för Sveriges självskadebeteende?
+13-1	402-405	Jag	_	_	_	_	_	_	
+13-2	406-412	undrar	_	_	_	_	_	_	
+13-3	413-415	om	_	_	_	_	_	_	
+13-4	416-419	det	_	_	_	_	_	_	
+13-5	420-425	finns	_	_	_	_	_	_	
+13-6	426-428	en	_	_	_	_	_	_	
+13-7	429-434	gräns	_	_	_	_	_	_	
+13-8	435-438	för	_	_	_	_	_	_	
+13-9	439-447	Sveriges	*[9]	_	_	_	_	_	
+13-10	448-466	självskadebeteende	*[9]	Target	13-9[9]	false	1	_	
+13-11	466-467	?	_	_	_	_	_	_	
+
+#Text=Dom trötta gamla argumenten att "men vi har det ju så bra ändå" som motivation till varför vi ska tömma statskassan lite till, det kan folk glömma som argument.
+14-1	468-471	Dom	_	_	_	_	_	_	
+14-2	472-478	trötta	_	_	_	_	_	_	
+14-3	479-484	gamla	_	_	_	_	_	_	
+14-4	485-495	argumenten	_	_	_	_	_	_	
+14-5	496-499	att	_	_	_	_	_	_	
+14-6	500-501	"	_	_	_	_	_	_	
+14-7	501-504	men	_	_	_	_	_	_	
+14-8	505-507	vi	*	_	_	_	_	_	
+14-9	508-511	har	_	Source[2]	14-8	false[2]	4[2]	_	
+14-10	512-515	det	_	Source[2]	14-8	false[2]	4[2]	_	
+14-11	516-518	ju	_	Source[2]	14-8	false[2]	4[2]	_	
+14-12	519-521	så	_	Source[2]	14-8	false[2]	4[2]	_	
+14-13	522-525	bra	_	Source[2]	14-8	false[2]	4[2]	_	
+14-14	526-530	ändå	_	_	_	_	_	_	
+14-15	530-531	"	_	_	_	_	_	_	
+14-16	532-535	som	_	_	_	_	_	_	
+14-17	536-546	motivation	_	_	_	_	_	_	
+14-18	547-551	till	_	_	_	_	_	_	
+14-19	552-558	varför	_	_	_	_	_	_	
+14-20	559-561	vi	_	_	_	_	_	_	
+14-21	562-565	ska	_	_	_	_	_	_	
+14-22	566-571	tömma	_	_	_	_	_	_	
+14-23	572-583	statskassan	_	_	_	_	_	_	
+14-24	584-588	lite	_	_	_	_	_	_	
+14-25	589-593	till	_	_	_	_	_	_	
+14-26	593-594	,	_	_	_	_	_	_	
+14-27	595-598	det	_	_	_	_	_	_	
+14-28	599-602	kan	_	_	_	_	_	_	
+14-29	603-607	folk	_	_	_	_	_	_	
+14-30	608-614	glömma	_	_	_	_	_	_	
+14-31	615-618	som	_	_	_	_	_	_	
+14-32	619-627	argument	_	_	_	_	_	_	
+14-33	627-628	.	_	_	_	_	_	_	
+
+#Text=Många är de svenskar som inte har råd med julklappar till barnen, som varje månad får kämpa för att få pengarna att räcka till mat på bordet i slutet av månaden.
+15-1	629-634	Många	_	_	_	_	_	_	
+15-2	635-637	är	_	_	_	_	_	_	
+15-3	638-640	de	_	_	_	_	_	_	
+15-4	641-649	svenskar	_	_	_	_	_	_	
+15-5	650-653	som	_	_	_	_	_	_	
+15-6	654-658	inte	_	_	_	_	_	_	
+15-7	659-662	har	_	_	_	_	_	_	
+15-8	663-666	råd	_	_	_	_	_	_	
+15-9	667-670	med	_	_	_	_	_	_	
+15-10	671-681	julklappar	_	_	_	_	_	_	
+15-11	682-686	till	_	_	_	_	_	_	
+15-12	687-693	barnen	_	_	_	_	_	_	
+15-13	693-694	,	_	_	_	_	_	_	
+15-14	695-698	som	_	_	_	_	_	_	
+15-15	699-704	varje	_	_	_	_	_	_	
+15-16	705-710	månad	_	_	_	_	_	_	
+15-17	711-714	får	_	_	_	_	_	_	
+15-18	715-720	kämpa	_	_	_	_	_	_	
+15-19	721-724	för	_	_	_	_	_	_	
+15-20	725-728	att	_	_	_	_	_	_	
+15-21	729-731	få	_	_	_	_	_	_	
+15-22	732-740	pengarna	_	_	_	_	_	_	
+15-23	741-744	att	_	_	_	_	_	_	
+15-24	745-750	räcka	_	_	_	_	_	_	
+15-25	751-755	till	_	_	_	_	_	_	
+15-26	756-759	mat	_	_	_	_	_	_	
+15-27	760-762	på	_	_	_	_	_	_	
+15-28	763-769	bordet	_	_	_	_	_	_	
+15-29	770-771	i	_	_	_	_	_	_	
+15-30	772-778	slutet	_	_	_	_	_	_	
+15-31	779-781	av	_	_	_	_	_	_	
+15-32	782-789	månaden	_	_	_	_	_	_	
+15-33	789-790	.	_	_	_	false	2	_	
+
+#Text=Sluta glorifiera svenskars påstått, höga levnadsstandard.
+16-1	791-796	Sluta	_	Target	16-2[10]	false	2	_	
+16-2	797-807	glorifiera	*[10]	_	_	_	_	_	
+16-3	808-817	svenskars	*[10]	_	_	_	_	_	
+16-4	818-825	påstått	*[10]	_	_	_	_	_	
+16-5	825-826	,	*[10]	_	_	_	_	_	
+16-6	827-831	höga	*[10]	_	_	_	_	_	
+16-7	832-847	levnadsstandard	*[10]	_	_	_	_	_	
+16-8	847-848	.	_	_	_	_	_	_	
+
+#Text=Det finns, i Sverige, år 2015, människor som kämpar varje månad för sin överlevnad.
+17-1	849-852	Det	_	_	_	_	_	_	
+17-2	853-858	finns	_	_	_	_	_	_	
+17-3	858-859	,	_	_	_	_	_	_	
+17-4	860-861	i	_	_	_	_	_	_	
+17-5	862-869	Sverige	_	_	_	_	_	_	
+17-6	869-870	,	_	_	_	_	_	_	
+17-7	871-873	år	_	_	_	_	_	_	
+17-8	874-878	2015	_	_	_	_	_	_	
+17-9	878-879	,	_	_	_	_	_	_	
+17-10	880-889	människor	_	_	_	_	_	_	
+17-11	890-893	som	_	_	_	_	_	_	
+17-12	894-900	kämpar	_	_	_	_	_	_	
+17-13	901-906	varje	_	_	_	_	_	_	
+17-14	907-912	månad	_	_	_	_	_	_	
+17-15	913-916	för	_	_	_	_	_	_	
+17-16	917-920	sin	_	_	_	_	_	_	
+17-17	921-931	överlevnad	_	_	_	_	_	_	
+17-18	931-932	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	934-935	#	_	_	_	_	_	_	
+18-2	935-936	P	_	_	_	_	_	_	
+18-3	937-940	IMM	_	_	_	false	2	_	
+18-4	940-941	.	_	_	_	_	_	_	
+
+#Text=Jag såg senast i morse ett program på tv4 nyhetsmorgon där man talade om hur det känns när mamma/pappa blir gamla.
+19-1	943-946	Jag	_	_	_	_	_	_	
+19-2	947-950	såg	_	_	_	_	_	_	
+19-3	951-957	senast	_	_	_	_	_	_	
+19-4	958-959	i	_	_	_	_	_	_	
+19-5	960-965	morse	_	_	_	_	_	_	
+19-6	966-969	ett	_	_	_	_	_	_	
+19-7	970-977	program	_	_	_	_	_	_	
+19-8	978-980	på	_	_	_	_	_	_	
+19-9	981-984	tv4	_	_	_	_	_	_	
+19-10	985-997	nyhetsmorgon	_	_	_	_	_	_	
+19-11	998-1001	där	_	_	_	_	_	_	
+19-12	1002-1005	man	_	_	_	_	_	_	
+19-13	1006-1012	talade	_	_	_	_	_	_	
+19-14	1013-1015	om	_	_	_	_	_	_	
+19-15	1016-1019	hur	_	_	_	_	_	_	
+19-16	1020-1023	det	_	_	_	_	_	_	
+19-17	1024-1029	känns	_	_	_	_	_	_	
+19-18	1030-1033	när	_	_	_	_	_	_	
+19-19	1034-1039	mamma	_	_	_	_	_	_	
+19-20	1039-1040	/	_	_	_	_	_	_	
+19-21	1040-1045	pappa	_	_	_	_	_	_	
+19-22	1046-1050	blir	_	_	_	_	_	_	
+19-23	1051-1056	gamla	_	_	_	_	_	_	
+19-24	1056-1057	.	_	_	_	_	_	_	
+
+#Text=Malou Von Sivers berättar om hur hennes mor, trots att hon var så svag att hon inte längre orkade inta föda ens genom sugrör, ändå nekades plats på äldreboende med motivationen att hon är frisk nog.
+20-1	1058-1063	Malou	_	_	_	_	_	_	
+20-2	1064-1067	Von	_	_	_	_	_	_	
+20-3	1068-1074	Sivers	_	_	_	_	_	_	
+20-4	1075-1083	berättar	_	_	_	_	_	_	
+20-5	1084-1086	om	_	_	_	_	_	_	
+20-6	1087-1090	hur	_	_	_	_	_	_	
+20-7	1091-1097	hennes	_	_	_	_	_	_	
+20-8	1098-1101	mor	_	_	_	_	_	_	
+20-9	1101-1102	,	_	_	_	_	_	_	
+20-10	1103-1108	trots	_	_	_	_	_	_	
+20-11	1109-1112	att	_	_	_	_	_	_	
+20-12	1113-1116	hon	_	_	_	_	_	_	
+20-13	1117-1120	var	_	_	_	_	_	_	
+20-14	1121-1123	så	_	_	_	_	_	_	
+20-15	1124-1128	svag	_	_	_	_	_	_	
+20-16	1129-1132	att	_	_	_	_	_	_	
+20-17	1133-1136	hon	_	_	_	_	_	_	
+20-18	1137-1141	inte	_	_	_	_	_	_	
+20-19	1142-1148	längre	_	_	_	_	_	_	
+20-20	1149-1155	orkade	_	_	_	_	_	_	
+20-21	1156-1160	inta	_	_	_	_	_	_	
+20-22	1161-1165	föda	_	_	_	_	_	_	
+20-23	1166-1169	ens	_	_	_	_	_	_	
+20-24	1170-1175	genom	_	_	_	_	_	_	
+20-25	1176-1182	sugrör	_	_	_	_	_	_	
+20-26	1182-1183	,	_	_	_	_	_	_	
+20-27	1184-1188	ändå	_	_	_	_	_	_	
+20-28	1189-1196	nekades	_	Target[3]	20-31	false[3]	2[3]	_	
+20-29	1197-1202	plats	_	Target[3]	20-31	false[3]	2[3]	_	
+20-30	1203-1205	på	_	_	_	_	_	_	
+20-31	1206-1217	äldreboende	*	_	_	_	_	_	
+20-32	1218-1221	med	_	_	_	_	_	_	
+20-33	1222-1234	motivationen	_	_	_	_	_	_	
+20-34	1235-1238	att	_	_	_	_	_	_	
+20-35	1239-1242	hon	*	_	_	_	_	_	
+20-36	1243-1245	är	_	Source;Target[4]	20-39;20-35	false[4]	3[4]	_	
+20-37	1246-1251	frisk	_	Source;Target[4]	20-39;20-35	false[4]	3[4]	_	
+20-38	1252-1255	nog	_	Source;Target[4]	20-39;20-35	false[4]	3[4]	_	
+20-39	1255-1256	.	*	_	_	_	_	_	
+
+#Text=Äldrevårdens budget är så knaper att man alltså tvingas neka döende människor plats på äldreboende, samtidigt som vi ständigt höjer anslagen för invandring.
+21-1	1257-1269	Äldrevårdens	*[11]	_	_	_	_	_	
+21-2	1270-1276	budget	*[11]	_	_	_	_	_	
+21-3	1277-1279	är	*[11]	_	_	_	_	_	
+21-4	1280-1282	så	*[11]	_	_	_	_	_	
+21-5	1283-1289	knaper	*[11]	_	_	_	_	_	
+21-6	1290-1293	att	_	_	_	_	_	_	
+21-7	1294-1297	man	_	_	_	_	_	_	
+21-8	1298-1304	alltså	_	_	_	_	_	_	
+21-9	1305-1312	tvingas	_	Target[5]	21-1[11]	false[5]	2[5]	_	
+21-10	1313-1317	neka	_	Target[5]	21-1[11]	false[5]	2[5]	_	
+21-11	1318-1324	döende	_	Target[5]	21-1[11]	false[5]	2[5]	_	
+21-12	1325-1334	människor	_	Target[5]	21-1[11]	false[5]	2[5]	_	
+21-13	1335-1340	plats	_	Target[5]	21-1[11]	false[5]	2[5]	_	
+21-14	1341-1343	på	_	_	_	_	_	_	
+21-15	1344-1355	äldreboende	_	_	_	_	_	_	
+21-16	1355-1356	,	_	_	_	_	_	_	
+21-17	1357-1366	samtidigt	_	_	_	_	_	_	
+21-18	1367-1370	som	_	_	_	_	_	_	
+21-19	1371-1373	vi	_	_	_	_	_	_	
+21-20	1374-1382	ständigt	_	_	_	_	_	_	
+21-21	1383-1388	höjer	_	_	_	_	_	_	
+21-22	1389-1397	anslagen	_	_	_	_	_	_	
+21-23	1398-1401	för	_	_	_	_	_	_	
+21-24	1402-1412	invandring	_	_	_	_	_	_	
+21-25	1412-1413	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1415-1416	#	_	_	_	_	_	_	
+22-2	1416-1417	P	_	_	_	_	_	_	
+22-3	1418-1421	IMM	_	_	_	_	_	_	
+22-4	1421-1422	.	_	_	_	_	_	_	
+
+#Text=Vi behöver inte ställa svaga grupper mot varandra.
+23-1	1424-1426	Vi	_	_	_	_	_	_	
+23-2	1427-1434	behöver	_	_	_	_	_	_	
+23-3	1435-1439	inte	_	_	_	_	_	_	
+23-4	1440-1446	ställa	_	_	_	_	_	_	
+23-5	1447-1452	svaga	_	_	_	_	_	_	
+23-6	1453-1460	grupper	_	_	_	_	_	_	
+23-7	1461-1464	mot	_	_	_	_	_	_	
+23-8	1465-1473	varandra	_	_	_	_	_	_	
+23-9	1473-1474	.	_	_	_	_	_	_	
+
+#Text=Det gör socialismen och sjuklövern så bra alldeles själva.
+24-1	1475-1478	Det	_	_	_	_	_	_	
+24-2	1479-1482	gör	_	Target	24-3[12]	true	4	24-6[6_0]	
+24-3	1483-1494	socialismen	*[12]|*[13]	_	_	_	_	_	
+24-4	1495-1498	och	*[12]|*[13]	_	_	_	_	_	
+24-5	1499-1509	sjuklövern	*[12]|*[13]	_	_	_	_	_	
+24-6	1510-1512	så	_	Target[6]	24-3[13]	true[6]	4[6]	_	
+24-7	1513-1516	bra	_	Target[6]	24-3[13]	true[6]	4[6]	_	
+24-8	1517-1525	alldeles	_	_	_	_	_	_	
+24-9	1526-1532	själva	_	_	_	_	_	_	
+24-10	1532-1533	.	_	_	_	_	_	_	

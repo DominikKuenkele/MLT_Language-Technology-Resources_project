@@ -1,0 +1,1075 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=M måste stå upp för sina värderingar.
+3-1	18-19	M	_	_	_	_	_	_	_	
+3-2	20-25	måste	_	_	_	_	_	_	_	
+3-3	26-29	stå	_	_	_	_	_	_	_	
+3-4	30-33	upp	_	_	_	_	_	_	_	
+3-5	34-37	för	_	_	_	_	_	_	_	
+3-6	38-42	sina	_	_	_	_	_	_	_	
+3-7	43-54	värderingar	_	_	_	_	_	_	_	
+3-8	54-55	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	_	
+
+#Text=De Nya Moderaterna har långsamt urholkat en ideologisk grund om vad som är rätt och fel.
+5-1	66-68	De	_	_	_	_	_	_	_	
+5-2	69-72	Nya	_	_	_	_	_	_	_	
+5-3	73-84	Moderaterna	_	_	_	_	_	_	_	
+5-4	85-88	har	_	_	_	_	_	_	_	
+5-5	89-97	långsamt	_	_	_	_	_	_	_	
+5-6	98-106	urholkat	_	_	_	_	_	_	_	
+5-7	107-109	en	*[24]	_	_	_	_	_	6-1[0_24]	
+5-8	110-120	ideologisk	*[24]	_	_	_	_	_	_	
+5-9	121-126	grund	*[24]	_	_	_	_	_	_	
+5-10	127-129	om	*[24]	_	_	_	_	_	_	
+5-11	130-133	vad	*[24]	_	_	_	_	_	_	
+5-12	134-137	som	*[24]	_	_	_	_	_	_	
+5-13	138-140	är	*[24]	_	_	_	_	_	_	
+5-14	141-145	rätt	*[24]	_	_	_	_	_	_	
+5-15	146-149	och	*[24]	_	_	_	_	_	_	
+5-16	150-153	fel	*[24]	_	_	_	_	_	_	
+5-17	153-154	.	_	_	_	false	2	_	_	
+
+#Text=Det göms nu undan till förmån för vad som på kort sikt kan verka ansvarstagande, handlingskraftigt och dessutom i linje med vad opinionen råkar tycka.
+6-1	155-158	Det	*	_	_	_	_	_	_	
+6-2	159-163	göms	_	Source;Target[1]	6-27[27];6-1	false[1]	2[1]	_	_	
+6-3	164-166	nu	_	Source;Target[1]	6-27[27];6-1	false[1]	2[1]	_	_	
+6-4	167-172	undan	_	Source;Target[1]	6-27[27];6-1	false[1]	2[1]	_	_	
+6-5	173-177	till	_	Target;Source[2]	6-8[25];6-27[28]	false[2]	4[2]	_	_	
+6-6	178-184	förmån	_	Target;Source[2]	6-8[25];6-27[28]	false[2]	4[2]	_	_	
+6-7	185-188	för	_	Target;Source[2]	6-8[25];6-27[28]	false[2]	4[2]	_	_	
+6-8	189-192	vad	*[25]	_	_	_	_	_	_	
+6-9	193-196	som	*[25]	_	_	_	_	_	_	
+6-10	197-199	på	*[25]	_	_	_	_	_	_	
+6-11	200-204	kort	*[25]	_	_	_	_	_	_	
+6-12	205-209	sikt	*[25]	_	_	_	_	_	_	
+6-13	210-213	kan	*[25]	_	_	_	_	_	_	
+6-14	214-219	verka	*[25]	_	_	_	_	_	_	
+6-15	220-234	ansvarstagande	*[25]	_	_	_	_	_	_	
+6-16	234-235	,	*[25]	_	_	_	_	_	_	
+6-17	236-253	handlingskraftigt	*[25]	_	_	_	_	_	_	
+6-18	254-257	och	_	_	_	_	_	_	_	
+6-19	258-266	dessutom	_	Target;Source	6-20[26];6-27[29]	false	4	_	_	
+6-20	267-268	i	*[26]	_	_	_	_	_	_	
+6-21	269-274	linje	*[26]	_	_	_	_	_	_	
+6-22	275-278	med	*[26]	_	_	_	_	_	_	
+6-23	279-282	vad	*[26]	_	_	_	_	_	_	
+6-24	283-292	opinionen	*[26]	_	_	_	_	_	_	
+6-25	293-298	råkar	*[26]	_	_	_	_	_	_	
+6-26	299-304	tycka	*[26]	_	_	_	_	_	_	
+6-27	304-305	.	*[27]|*[28]|*[29]	_	_	false	2	_	_	
+
+#Text=Det skriver de moderata studenterna Johanna Grönbäck och Charlotte Nilsson.
+7-1	306-309	Det	_	_	_	_	_	_	_	
+7-2	310-317	skriver	_	_	_	_	_	_	_	
+7-3	318-320	de	_	_	_	_	_	_	_	
+7-4	321-329	moderata	_	_	_	_	_	_	_	
+7-5	330-341	studenterna	_	_	_	_	_	_	_	
+7-6	342-349	Johanna	_	_	_	_	_	_	_	
+7-7	350-358	Grönbäck	_	_	_	_	_	_	_	
+7-8	359-362	och	_	_	_	_	_	_	_	
+7-9	363-372	Charlotte	_	_	_	_	_	_	_	
+7-10	373-380	Nilsson	_	_	_	_	_	_	_	
+7-11	380-381	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	383-384	#	_	_	_	_	_	_	_	
+8-2	384-385	P	_	_	_	_	_	_	_	
+8-3	386-389	IMM	_	_	_	_	_	_	_	
+8-4	389-390	.	_	_	_	_	_	_	_	
+
+#Text=Väljare måste kunna veta vilken politik de röstar på.
+9-1	392-399	Väljare	_	_	_	_	_	_	_	
+9-2	400-405	måste	_	_	_	_	_	_	_	
+9-3	406-411	kunna	_	_	_	_	_	_	_	
+9-4	412-416	veta	_	_	_	_	_	_	_	
+9-5	417-423	vilken	_	_	_	_	_	_	_	
+9-6	424-431	politik	_	_	_	_	_	_	_	
+9-7	432-434	de	_	_	_	_	_	_	_	
+9-8	435-441	röstar	_	_	_	_	_	_	_	
+9-9	442-444	på	_	_	_	_	_	_	_	
+9-10	444-445	.	_	_	_	_	_	_	_	
+
+#Text=Sedan flyktingkrisen drog igång under den tidiga hösten har sakpolitiska ställningstaganden hos flera partier skiftat rejält.
+10-1	446-451	Sedan	_	_	_	_	_	_	_	
+10-2	452-466	flyktingkrisen	_	_	_	_	_	_	_	
+10-3	467-471	drog	_	_	_	_	_	_	_	
+10-4	472-477	igång	_	_	_	_	_	_	_	
+10-5	478-483	under	_	_	_	_	_	_	_	
+10-6	484-487	den	_	_	_	_	_	_	_	
+10-7	488-494	tidiga	_	_	_	_	_	_	_	
+10-8	495-501	hösten	_	_	_	_	_	_	_	
+10-9	502-505	har	_	_	_	_	_	_	_	
+10-10	506-518	sakpolitiska	_	_	_	_	_	_	_	
+10-11	519-537	ställningstaganden	_	_	_	_	_	_	_	
+10-12	538-541	hos	_	_	_	_	_	_	_	
+10-13	542-547	flera	_	_	_	_	_	_	_	
+10-14	548-555	partier	_	_	_	_	_	_	_	
+10-15	556-563	skiftat	_	_	_	_	_	_	_	
+10-16	564-570	rejält	_	_	_	_	_	_	_	
+10-17	570-571	.	_	_	_	_	_	_	_	
+
+#Text=Omsvängningarna förklaras med att verkligheten och förutsättningarna i dag är annorlunda än vad de var innan valet 2014.
+11-1	572-587	Omsvängningarna	_	_	_	_	_	_	_	
+11-2	588-597	förklaras	_	_	_	_	_	_	_	
+11-3	598-601	med	_	_	_	_	_	_	_	
+11-4	602-605	att	_	_	_	_	_	_	_	
+11-5	606-618	verkligheten	_	_	_	_	_	_	_	
+11-6	619-622	och	_	_	_	_	_	_	_	
+11-7	623-640	förutsättningarna	_	_	_	_	_	_	_	
+11-8	641-642	i	_	_	_	_	_	_	_	
+11-9	643-646	dag	_	_	_	_	_	_	_	
+11-10	647-649	är	_	_	_	_	_	_	_	
+11-11	650-660	annorlunda	_	_	_	_	_	_	_	
+11-12	661-663	än	_	_	_	_	_	_	_	
+11-13	664-667	vad	_	_	_	_	_	_	_	
+11-14	668-670	de	_	_	_	_	_	_	_	
+11-15	671-674	var	_	_	_	_	_	_	_	
+11-16	675-680	innan	_	_	_	_	_	_	_	
+11-17	681-686	valet	_	_	_	_	_	_	_	
+11-18	687-691	2014	_	_	_	_	_	_	_	
+11-19	691-692	.	_	_	_	_	_	_	_	
+
+#Text=Frågan är om det är verkligheten eller opinionen som partierna just nu anpassar sig efter.
+12-1	693-699	Frågan	_	_	_	_	_	_	_	
+12-2	700-702	är	_	_	_	_	_	_	_	
+12-3	703-705	om	_	_	_	_	_	_	_	
+12-4	706-709	det	_	_	_	_	_	_	_	
+12-5	710-712	är	_	_	_	_	_	_	_	
+12-6	713-725	verkligheten	_	_	_	_	_	_	_	
+12-7	726-731	eller	_	_	_	_	_	_	_	
+12-8	732-741	opinionen	_	_	_	_	_	_	_	
+12-9	742-745	som	_	_	_	_	_	_	_	
+12-10	746-755	partierna	_	_	_	_	_	_	_	
+12-11	756-760	just	_	_	_	_	_	_	_	
+12-12	761-763	nu	_	_	_	_	_	_	_	
+12-13	764-772	anpassar	_	_	_	_	_	_	_	
+12-14	773-776	sig	_	_	_	_	_	_	_	
+12-15	777-782	efter	_	_	_	_	_	_	_	
+12-16	782-783	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+13-1	785-786	#	_	_	_	_	_	_	_	
+13-2	786-787	P	_	_	_	_	_	_	_	
+13-3	788-791	IMM	_	_	_	_	_	_	_	
+13-4	791-792	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+14-1	794-797	Det	_	_	_	_	_	_	_	
+14-2	798-801	här	_	_	_	_	_	_	_	
+14-3	802-804	är	_	_	_	_	_	_	_	
+14-4	805-807	en	_	_	_	_	_	_	_	
+14-5	808-822	argumenterande	_	_	_	_	_	_	_	
+14-6	823-827	text	_	_	_	_	_	_	_	
+14-7	828-831	med	_	_	_	_	_	_	_	
+14-8	832-837	syfte	_	_	_	_	_	_	_	
+14-9	838-841	att	_	_	_	_	_	_	_	
+14-10	842-849	påverka	_	_	_	_	_	_	_	
+14-11	849-850	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+15-1	851-860	Åsikterna	_	_	_	_	_	_	_	
+15-2	861-864	som	_	_	_	_	_	_	_	
+15-3	865-873	uttrycks	_	_	_	_	_	_	_	
+15-4	874-876	är	_	_	_	_	_	_	_	
+15-5	877-888	skribentens	_	_	_	_	_	_	_	
+15-6	889-893	egna	_	_	_	_	_	_	_	
+15-7	893-894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	896-897	#	_	_	_	_	_	_	_	
+16-2	897-898	P	_	_	_	_	_	_	_	
+16-3	899-902	IMM	_	_	_	_	_	_	_	
+16-4	902-903	.	_	_	_	_	_	_	_	
+
+#Text=Bristen på kontinuitet i vad partierna tycker är oroande.
+17-1	905-912	Bristen	*[30]	_	_	_	_	_	_	
+17-2	913-915	på	*[30]	_	_	_	_	_	_	
+17-3	916-927	kontinuitet	*[30]	_	_	_	_	_	_	
+17-4	928-929	i	*[30]	_	_	_	_	_	_	
+17-5	930-933	vad	*[30]	_	_	_	_	_	_	
+17-6	934-943	partierna	*[30]	_	_	_	_	_	_	
+17-7	944-950	tycker	*[30]	_	_	_	_	_	_	
+17-8	951-953	är	_	Target[3]	17-1[30]	false[3]	2[3]	_	_	
+17-9	954-961	oroande	_	Target[3]	17-1[30]	false[3]	2[3]	_	_	
+17-10	961-962	.	_	_	_	_	_	_	_	
+
+#Text=Om än inte ensamma i sina politiska vändningar, sticker Moderaterna ut särskilt.
+18-1	963-965	Om	_	_	_	_	_	_	_	
+18-2	966-968	än	_	_	_	_	_	_	_	
+18-3	969-973	inte	_	_	_	_	_	_	_	
+18-4	974-981	ensamma	_	_	_	_	_	_	_	
+18-5	982-983	i	_	_	_	_	_	_	_	
+18-6	984-988	sina	_	_	_	_	_	_	_	
+18-7	989-998	politiska	_	_	_	_	_	_	_	
+18-8	999-1009	vändningar	_	_	_	_	_	_	_	
+18-9	1009-1010	,	_	_	_	_	_	_	_	
+18-10	1011-1018	sticker	_	_	_	_	_	_	_	
+18-11	1019-1030	Moderaterna	_	_	_	_	_	_	_	
+18-12	1031-1033	ut	_	_	_	_	_	_	_	
+18-13	1034-1042	särskilt	_	_	_	_	_	_	_	
+18-14	1042-1043	.	_	_	_	_	_	_	_	
+
+#Text=Öppna hjärtan, försvarspolitik, arbetsmarknadspolitik, PUT och TUT är bara några av de frågor där partiet har svängt rejält en eller fler gånger under de senaste åren.
+19-1	1044-1049	Öppna	*[31]	Target[4]	19-1[31]	true[4]	4[4]	_	_	
+19-2	1050-1057	hjärtan	*[31]	Target[4]	19-1[31]	true[4]	4[4]	_	_	
+19-3	1057-1058	,	_	_	_	_	_	_	_	
+19-4	1059-1074	försvarspolitik	_	_	_	_	_	_	_	
+19-5	1074-1075	,	_	_	_	_	_	_	_	
+19-6	1076-1097	arbetsmarknadspolitik	_	_	_	_	_	_	_	
+19-7	1097-1098	,	_	_	_	_	_	_	_	
+19-8	1099-1102	PUT	_	_	_	_	_	_	_	
+19-9	1103-1106	och	_	_	_	_	_	_	_	
+19-10	1107-1110	TUT	_	_	_	_	_	_	_	
+19-11	1111-1113	är	_	_	_	_	_	_	_	
+19-12	1114-1118	bara	_	_	_	_	_	_	_	
+19-13	1119-1124	några	_	_	_	_	_	_	_	
+19-14	1125-1127	av	_	_	_	_	_	_	_	
+19-15	1128-1130	de	_	_	_	_	_	_	_	
+19-16	1131-1137	frågor	_	_	_	_	_	_	_	
+19-17	1138-1141	där	_	_	_	_	_	_	_	
+19-18	1142-1149	partiet	_	_	_	_	_	_	_	
+19-19	1150-1153	har	_	_	_	_	_	_	_	
+19-20	1154-1160	svängt	_	_	_	_	_	_	_	
+19-21	1161-1167	rejält	_	_	_	_	_	_	_	
+19-22	1168-1170	en	_	_	_	_	_	_	_	
+19-23	1171-1176	eller	_	_	_	_	_	_	_	
+19-24	1177-1181	fler	_	_	_	_	_	_	_	
+19-25	1182-1188	gånger	_	_	_	_	_	_	_	
+19-26	1189-1194	under	_	_	_	_	_	_	_	
+19-27	1195-1197	de	_	_	_	_	_	_	_	
+19-28	1198-1205	senaste	_	_	_	_	_	_	_	
+19-29	1206-1210	åren	_	_	_	_	_	_	_	
+19-30	1210-1211	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1213-1214	#	_	_	_	_	_	_	_	
+20-2	1214-1215	P	_	_	_	_	_	_	_	
+20-3	1216-1219	IMM	_	_	_	_	_	_	_	
+20-4	1219-1220	.	_	_	_	_	_	_	_	
+
+#Text=Att som väljare kunna ana vad partierna kommer att förespråka för politik även några år framåt i tiden borde vara en självklarhet.
+21-1	1222-1225	Att	_	_	_	_	_	_	_	
+21-2	1226-1229	som	_	_	_	_	_	_	_	
+21-3	1230-1237	väljare	_	_	_	_	_	_	_	
+21-4	1238-1243	kunna	_	_	_	_	_	_	_	
+21-5	1244-1247	ana	_	_	_	_	_	_	_	
+21-6	1248-1251	vad	_	_	_	_	_	_	_	
+21-7	1252-1261	partierna	_	_	_	_	_	_	_	
+21-8	1262-1268	kommer	_	_	_	_	_	_	_	
+21-9	1269-1272	att	_	_	_	_	_	_	_	
+21-10	1273-1283	förespråka	_	_	_	_	_	_	_	
+21-11	1284-1287	för	_	_	_	_	_	_	_	
+21-12	1288-1295	politik	_	_	_	_	_	_	_	
+21-13	1296-1300	även	_	_	_	_	_	_	_	
+21-14	1301-1306	några	_	_	_	_	_	_	_	
+21-15	1307-1309	år	_	_	_	_	_	_	_	
+21-16	1310-1316	framåt	_	_	_	_	_	_	_	
+21-17	1317-1318	i	_	_	_	_	_	_	_	
+21-18	1319-1324	tiden	_	_	_	_	_	_	_	
+21-19	1325-1330	borde	_	_	_	_	_	_	_	
+21-20	1331-1335	vara	_	_	_	_	_	_	_	
+21-21	1336-1338	en	_	_	_	_	_	_	_	
+21-22	1339-1351	självklarhet	_	_	_	_	_	_	_	
+21-23	1351-1352	.	_	_	_	_	_	_	_	
+
+#Text=Den ideologiska grunden måste vara mer beständig än opinionssiffror.
+22-1	1353-1356	Den	_	_	_	_	_	_	_	
+22-2	1357-1368	ideologiska	_	_	_	_	_	_	_	
+22-3	1369-1376	grunden	_	_	_	_	_	_	_	
+22-4	1377-1382	måste	_	_	_	_	_	_	_	
+22-5	1383-1387	vara	_	_	_	_	_	_	_	
+22-6	1388-1391	mer	_	_	_	_	_	_	_	
+22-7	1392-1401	beständig	_	_	_	_	_	_	_	
+22-8	1402-1404	än	_	_	_	_	_	_	_	
+22-9	1405-1420	opinionssiffror	_	_	_	_	_	_	_	
+22-10	1420-1421	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+23-1	1423-1424	#	_	_	_	_	_	_	_	
+23-2	1424-1425	P	_	_	_	_	_	_	_	
+23-3	1426-1429	IMM	_	_	_	_	_	_	_	
+23-4	1429-1430	.	_	_	_	_	_	_	_	
+
+#Text=Det är sunt att partier till och från omprövar sina sakpolitiska ställningstaganden.
+24-1	1432-1435	Det	_	_	_	_	_	_	_	
+24-2	1436-1438	är	_	Target[5]	24-4[32]	false[5]	4[5]	_	_	
+24-3	1439-1443	sunt	_	Target[5]	24-4[32]	false[5]	4[5]	_	_	
+24-4	1444-1447	att	*[32]	_	_	_	_	_	_	
+24-5	1448-1455	partier	*[32]	_	_	_	_	_	_	
+24-6	1456-1460	till	*[32]	_	_	_	_	_	_	
+24-7	1461-1464	och	*[32]	_	_	_	_	_	_	
+24-8	1465-1469	från	*[32]	_	_	_	_	_	_	
+24-9	1470-1478	omprövar	*[32]	_	_	_	_	_	_	
+24-10	1479-1483	sina	*[32]	_	_	_	_	_	_	
+24-11	1484-1496	sakpolitiska	*[32]	_	_	_	_	_	_	
+24-12	1497-1515	ställningstaganden	*[32]	_	_	_	_	_	_	
+24-13	1515-1516	.	_	_	_	_	_	_	_	
+
+#Text=Inte minst i kristider är det bra att partier visar handlingskraft och vågar tänka nytt.
+25-1	1517-1521	Inte	_	_	_	_	_	_	_	
+25-2	1522-1527	minst	_	_	_	_	_	_	_	
+25-3	1528-1529	i	_	_	_	_	_	_	_	
+25-4	1530-1539	kristider	_	_	_	_	_	_	_	
+25-5	1540-1542	är	_	_	_	false	4	_	_	
+25-6	1543-1546	det	_	_	_	_	_	_	_	
+25-7	1547-1550	bra	_	Target	25-8[33]	false	4	25-5	_	
+25-8	1551-1554	att	*[33]	_	_	_	_	_	_	
+25-9	1555-1562	partier	*[33]	_	_	_	_	_	_	
+25-10	1563-1568	visar	*[33]	_	_	_	_	_	_	
+25-11	1569-1583	handlingskraft	*[33]	_	_	_	_	_	_	
+25-12	1584-1587	och	*[33]	_	_	_	_	_	_	
+25-13	1588-1593	vågar	*[33]	_	_	_	_	_	_	
+25-14	1594-1599	tänka	*[33]	_	_	_	_	_	_	
+25-15	1600-1604	nytt	*[33]	_	_	_	_	_	_	
+25-16	1604-1605	.	_	_	_	_	_	_	_	
+
+#Text=Men för att sakpolitik ska kunna omprövas på ett trovärdigt sätt behöver det finnas en utgångspunkt i principer och värderingar.
+26-1	1606-1609	Men	_	_	_	_	_	_	_	
+26-2	1610-1613	för	_	_	_	_	_	_	_	
+26-3	1614-1617	att	_	_	_	_	_	_	_	
+26-4	1618-1628	sakpolitik	_	_	_	_	_	_	_	
+26-5	1629-1632	ska	_	_	_	_	_	_	_	
+26-6	1633-1638	kunna	_	_	_	_	_	_	_	
+26-7	1639-1647	omprövas	_	_	_	_	_	_	_	
+26-8	1648-1650	på	_	_	_	_	_	_	_	
+26-9	1651-1654	ett	_	_	_	_	_	_	_	
+26-10	1655-1665	trovärdigt	_	_	_	_	_	_	_	
+26-11	1666-1670	sätt	_	_	_	_	_	_	_	
+26-12	1671-1678	behöver	_	_	_	_	_	_	_	
+26-13	1679-1682	det	_	_	_	_	_	_	_	
+26-14	1683-1689	finnas	_	_	_	_	_	_	_	
+26-15	1690-1692	en	_	_	_	_	_	_	_	
+26-16	1693-1705	utgångspunkt	_	_	_	_	_	_	_	
+26-17	1706-1707	i	_	_	_	_	_	_	_	
+26-18	1708-1717	principer	_	_	_	_	_	_	_	
+26-19	1718-1721	och	_	_	_	_	_	_	_	
+26-20	1722-1733	värderingar	_	_	_	_	_	_	_	
+26-21	1733-1734	.	_	_	_	_	_	_	_	
+
+#Text=Ideologierna är de som i slutändan skiljer partierna från varandra och de som styr partiföreträdarnas tankar om vad som är rätt och fel.
+27-1	1735-1747	Ideologierna	_	_	_	_	_	_	_	
+27-2	1748-1750	är	_	_	_	_	_	_	_	
+27-3	1751-1753	de	_	_	_	_	_	_	_	
+27-4	1754-1757	som	_	_	_	_	_	_	_	
+27-5	1758-1759	i	_	_	_	_	_	_	_	
+27-6	1760-1769	slutändan	_	_	_	_	_	_	_	
+27-7	1770-1777	skiljer	_	_	_	_	_	_	_	
+27-8	1778-1787	partierna	_	_	_	_	_	_	_	
+27-9	1788-1792	från	_	_	_	_	_	_	_	
+27-10	1793-1801	varandra	_	_	_	_	_	_	_	
+27-11	1802-1805	och	_	_	_	_	_	_	_	
+27-12	1806-1808	de	_	_	_	_	_	_	_	
+27-13	1809-1812	som	_	_	_	_	_	_	_	
+27-14	1813-1817	styr	_	_	_	_	_	_	_	
+27-15	1818-1836	partiföreträdarnas	_	_	_	_	_	_	_	
+27-16	1837-1843	tankar	_	_	_	_	_	_	_	
+27-17	1844-1846	om	_	_	_	_	_	_	_	
+27-18	1847-1850	vad	_	_	_	_	_	_	_	
+27-19	1851-1854	som	_	_	_	_	_	_	_	
+27-20	1855-1857	är	_	_	_	_	_	_	_	
+27-21	1858-1862	rätt	_	_	_	_	_	_	_	
+27-22	1863-1866	och	_	_	_	_	_	_	_	
+27-23	1867-1870	fel	_	_	_	_	_	_	_	
+27-24	1870-1871	.	_	_	_	_	_	_	_	
+
+#Text=Annat riskerar bli ett lösryckt tyckande med förslag som för tillfället tillfredsställer opinionen.
+28-1	1872-1877	Annat	*	_	_	_	_	_	_	
+28-2	1878-1886	riskerar	_	Target;Target[6]	28-4[34];28-1	false[6]	2[6]	_	_	
+28-3	1887-1890	bli	_	Target;Target[6]	28-4[34];28-1	false[6]	2[6]	_	_	
+28-4	1891-1894	ett	*[34]	_	_	_	_	_	_	
+28-5	1895-1903	lösryckt	*[34]	Target	28-6[35]	false	2	_	_	
+28-6	1904-1912	tyckande	*[34]|*[35]	_	_	_	_	_	_	
+28-7	1913-1916	med	*[34]	_	_	_	_	_	_	
+28-8	1917-1924	förslag	*[34]	_	_	_	_	_	_	
+28-9	1925-1928	som	*[34]	_	_	_	_	_	_	
+28-10	1929-1932	för	*[34]	_	_	_	_	_	_	
+28-11	1933-1943	tillfället	*[34]	_	_	_	_	_	_	
+28-12	1944-1960	tillfredsställer	*[34]	_	_	_	_	_	_	
+28-13	1961-1970	opinionen	*[34]	_	_	_	_	_	_	
+28-14	1970-1971	.	_	_	_	_	_	_	_	
+
+#Text=I kristider riskerar det dessutom bli en hysterisk och oproportionerlig lagstiftning som förbiser såväl kortsiktiga som långsiktiga konsekvenser.
+29-1	1972-1973	I	_	_	_	_	_	_	_	
+29-2	1974-1983	kristider	_	_	_	_	_	_	_	
+29-3	1984-1992	riskerar	_	_	_	_	_	_	_	
+29-4	1993-1996	det	_	_	_	_	_	_	_	
+29-5	1997-2005	dessutom	_	_	_	_	_	_	_	
+29-6	2006-2009	bli	_	_	_	_	_	_	_	
+29-7	2010-2012	en	_	_	_	_	_	_	_	
+29-8	2013-2022	hysterisk	_	Target[7]	29-11[36]	false[7]	2[7]	_	_	
+29-9	2023-2026	och	_	Target[7]	29-11[36]	false[7]	2[7]	_	_	
+29-10	2027-2043	oproportionerlig	_	Target[7]	29-11[36]	false[7]	2[7]	_	_	
+29-11	2044-2056	lagstiftning	*[36]	_	_	_	_	_	_	
+29-12	2057-2060	som	*[36]	_	_	_	_	_	_	
+29-13	2061-2069	förbiser	*[36]	_	_	_	_	_	_	
+29-14	2070-2075	såväl	*[36]	_	_	_	_	_	_	
+29-15	2076-2087	kortsiktiga	*[36]	_	_	_	_	_	_	
+29-16	2088-2091	som	*[36]	_	_	_	_	_	_	
+29-17	2092-2103	långsiktiga	*[36]	_	_	_	_	_	_	
+29-18	2104-2116	konsekvenser	*[36]	_	_	_	_	_	_	
+29-19	2116-2117	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2119-2120	#	_	_	_	_	_	_	_	
+30-2	2120-2121	P	_	_	_	_	_	_	_	
+30-3	2122-2125	IMM	_	_	_	_	_	_	_	
+30-4	2125-2126	.	_	_	_	_	_	_	_	
+
+#Text=Och frågan är om det inte är där vi är i dag.
+31-1	2128-2131	Och	_	_	_	_	_	_	_	
+31-2	2132-2138	frågan	_	_	_	_	_	_	_	
+31-3	2139-2141	är	_	_	_	_	_	_	_	
+31-4	2142-2144	om	_	_	_	_	_	_	_	
+31-5	2145-2148	det	_	_	_	_	_	_	_	
+31-6	2149-2153	inte	_	_	_	_	_	_	_	
+31-7	2154-2156	är	_	_	_	_	_	_	_	
+31-8	2157-2160	där	_	_	_	_	_	_	_	
+31-9	2161-2163	vi	_	_	_	_	_	_	_	
+31-10	2164-2166	är	_	_	_	_	_	_	_	
+31-11	2167-2168	i	_	_	_	_	_	_	_	
+31-12	2169-2172	dag	_	_	_	_	_	_	_	
+31-13	2172-2173	.	_	_	_	false	2	_	_	
+
+#Text=Dagens id-kontroller är bara ett av flera exempel på en, för all del handlingskraftig, men likväl hysterisk lagstiftning.
+32-1	2174-2180	Dagens	*[37]|*[38]	_	_	_	_	_	_	
+32-2	2181-2194	id-kontroller	*[37]|*[38]	_	_	_	_	_	_	
+32-3	2195-2197	är	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-4	2198-2202	bara	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-5	2203-2206	ett	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-6	2207-2209	av	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-7	2210-2215	flera	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-8	2216-2223	exempel	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-9	2224-2226	på	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-10	2227-2229	en	_	Target[8]|_[9]	32-1[38]|_	false[8]|false[9]	3[8]|2[9]	_	_	
+32-11	2229-2230	,	_	Target[8]	32-1[38]	false[8]	3[8]	_	_	
+32-12	2231-2234	för	_	Target[8]	32-1[38]	false[8]	3[8]	_	_	
+32-13	2235-2238	all	_	Target[8]	32-1[38]	false[8]	3[8]	_	_	
+32-14	2239-2242	del	_	Target[8]	32-1[38]	false[8]	3[8]	_	_	
+32-15	2243-2259	handlingskraftig	_	Target[8]	32-1[38]	false[8]	3[8]	_	_	
+32-16	2259-2260	,	_	_	_	_	_	_	_	
+32-17	2261-2264	men	_	_	_	_	_	_	_	
+32-18	2265-2271	likväl	_	_	_	_	_	_	_	
+32-19	2272-2281	hysterisk	_	Target[10]|Target[11]	32-1[37]|32-20	false[10]|false[11]	2[10]|2[11]	32-3[9_10]	_	
+32-20	2282-2294	lagstiftning	*	Target[10]|_[12]	32-1[37]|_	false[10]|false[12]	2[10]|3[12]	32-3[8_12]	_	
+32-21	2294-2295	.	_	_	_	_	_	_	_	
+
+#Text=Utan vidare tankar om hur lagen drabbar pendlare, näringsliv och Öresundsintegrationen i stort har regeringen gjort kontrollerna till verklighet, tillsammans med fysiska murar mellan de två tågspåren på Kastrup.
+33-1	2296-2300	Utan	_	_	_	_	_	_	_	
+33-2	2301-2307	vidare	_	_	_	_	_	_	_	
+33-3	2308-2314	tankar	_	_	_	_	_	_	_	
+33-4	2315-2317	om	_	_	_	_	_	_	_	
+33-5	2318-2321	hur	_	_	_	_	_	_	_	
+33-6	2322-2327	lagen	*	_	_	_	_	_	_	
+33-7	2328-2335	drabbar	_	Target	33-6	false	2	_	_	
+33-8	2336-2344	pendlare	_	_	_	_	_	_	_	
+33-9	2344-2345	,	_	_	_	_	_	_	_	
+33-10	2346-2356	näringsliv	_	_	_	_	_	_	_	
+33-11	2357-2360	och	_	_	_	_	_	_	_	
+33-12	2361-2382	Öresundsintegrationen	_	_	_	_	_	_	_	
+33-13	2383-2384	i	_	_	_	_	_	_	_	
+33-14	2385-2390	stort	_	_	_	_	_	_	_	
+33-15	2391-2394	har	_	_	_	_	_	_	_	
+33-16	2395-2405	regeringen	_	_	_	_	_	_	_	
+33-17	2406-2411	gjort	_	_	_	_	_	_	_	
+33-18	2412-2424	kontrollerna	_	_	_	_	_	_	_	
+33-19	2425-2429	till	_	_	_	_	_	_	_	
+33-20	2430-2440	verklighet	_	_	_	_	_	_	_	
+33-21	2440-2441	,	_	_	_	_	_	_	_	
+33-22	2442-2453	tillsammans	_	_	_	_	_	_	_	
+33-23	2454-2457	med	_	_	_	_	_	_	_	
+33-24	2458-2465	fysiska	_	_	_	_	_	_	_	
+33-25	2466-2471	murar	_	_	_	_	_	_	_	
+33-26	2472-2478	mellan	_	_	_	_	_	_	_	
+33-27	2479-2481	de	_	_	_	_	_	_	_	
+33-28	2482-2485	två	_	_	_	_	_	_	_	
+33-29	2486-2495	tågspåren	_	_	_	_	_	_	_	
+33-30	2496-2498	på	_	_	_	_	_	_	_	
+33-31	2499-2506	Kastrup	_	_	_	_	_	_	_	
+33-32	2506-2507	.	_	_	_	false	2	_	_	
+
+#Text=Det mest upprörande är förstås ignoransen för vilka konsekvenser detta får för de flyktingar som i all sin desperation att nå Sverige nu söker upp betydligt farligare alternativ.
+34-1	2508-2511	Det	_	_	_	_	_	_	_	
+34-2	2512-2516	mest	_	Target[13]	34-6[39]	false[13]	1[13]	_	_	
+34-3	2517-2527	upprörande	_	Target[13]	34-6[39]	false[13]	1[13]	_	_	
+34-4	2528-2530	är	_	Target[13]	34-6[39]	false[13]	1[13]	_	_	
+34-5	2531-2538	förstås	_	_	_	_	_	_	_	
+34-6	2539-2549	ignoransen	*[39]	_	_	_	_	_	_	
+34-7	2550-2553	för	*[39]	_	_	_	_	_	_	
+34-8	2554-2559	vilka	*[39]	_	_	_	_	_	_	
+34-9	2560-2572	konsekvenser	*[39]	_	_	_	_	_	_	
+34-10	2573-2578	detta	*[39]	_	_	_	_	_	_	
+34-11	2579-2582	får	*[39]	_	_	_	_	_	_	
+34-12	2583-2586	för	*[39]	_	_	_	_	_	_	
+34-13	2587-2589	de	*[39]	_	_	_	_	_	_	
+34-14	2590-2600	flyktingar	*[39]	_	_	_	_	_	_	
+34-15	2601-2604	som	*[39]	_	_	_	_	_	_	
+34-16	2605-2606	i	*[39]	_	_	_	_	_	_	
+34-17	2607-2610	all	*[39]	_	_	_	_	_	_	
+34-18	2611-2614	sin	*[39]	_	_	_	_	_	_	
+34-19	2615-2626	desperation	*[39]	_	_	_	_	_	_	
+34-20	2627-2630	att	*[39]	_	_	_	_	_	_	
+34-21	2631-2633	nå	*[39]	_	_	_	_	_	_	
+34-22	2634-2641	Sverige	*[39]	_	_	_	_	_	_	
+34-23	2642-2644	nu	*[39]	_	_	_	_	_	_	
+34-24	2645-2650	söker	*[39]	_	_	_	_	_	_	
+34-25	2651-2654	upp	*[39]	_	_	_	_	_	_	
+34-26	2655-2664	betydligt	*[39]	Target[14]	34-28[40]	false[14]	1[14]	_	_	
+34-27	2665-2674	farligare	*[39]	Target[14]	34-28[40]	false[14]	1[14]	_	_	
+34-28	2675-2685	alternativ	*[39]|*[40]	_	_	_	_	_	_	
+34-29	2685-2686	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2688-2689	#	_	_	_	_	_	_	_	
+35-2	2689-2690	P	_	_	_	_	_	_	_	
+35-3	2691-2694	IMM	_	_	_	_	_	_	_	
+35-4	2694-2695	.	_	_	_	_	_	_	_	
+
+#Text=Men att regeringen – som har gjort det till en sport att vänta ut politiska utmaningar till dess de blir faktiska problem – presenterar dålig sakpolitik är en sak.
+36-1	2697-2700	Men	*[41]	_	_	_	_	_	_	
+36-2	2701-2704	att	*[41]	_	_	_	_	_	_	
+36-3	2705-2715	regeringen	*[41]|*[42]	_	_	_	_	_	36-5[43_42]	
+36-4	2716-2717	–	*[41]	_	_	_	_	_	_	
+36-5	2718-2721	som	*[41]|*[43]	_	_	_	_	_	_	
+36-6	2722-2725	har	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-7	2726-2731	gjort	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-8	2732-2735	det	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-9	2736-2740	till	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-10	2741-2743	en	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-11	2744-2749	sport	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-12	2750-2753	att	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-13	2754-2759	vänta	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-14	2760-2762	ut	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-15	2763-2772	politiska	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-16	2773-2783	utmaningar	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-17	2784-2788	till	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-18	2789-2793	dess	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-19	2794-2796	de	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-20	2797-2801	blir	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-21	2802-2810	faktiska	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-22	2811-2818	problem	*[41]	Target[15]	36-5[43]	false[15]	2[15]	_	_	
+36-23	2819-2820	–	*[41]	_	_	_	_	_	_	
+36-24	2821-2832	presenterar	*[41]	_	_	_	_	_	_	
+36-25	2833-2838	dålig	*[41]	Target	36-26[44]	false	2	_	_	
+36-26	2839-2849	sakpolitik	*[41]|*[44]	_	_	_	_	_	_	
+36-27	2850-2852	är	_	Target[16]	36-1[41]	false[16]	3[16]	_	_	
+36-28	2853-2855	en	_	Target[16]	36-1[41]	false[16]	3[16]	_	_	
+36-29	2856-2859	sak	_	Target[16]	36-1[41]	false[16]	3[16]	_	_	
+36-30	2859-2860	.	_	_	_	_	_	_	_	
+
+#Text=Att Moderaterna inte protesterar eller presenterar rimligare alternativ är en helt annan.
+37-1	2861-2864	Att	*[45]	_	_	_	_	_	_	
+37-2	2865-2876	Moderaterna	*[45]	_	_	_	_	_	_	
+37-3	2877-2881	inte	*[45]	_	_	_	_	_	_	
+37-4	2882-2893	protesterar	*[45]	_	_	_	_	_	_	
+37-5	2894-2899	eller	*[45]	_	_	_	_	_	_	
+37-6	2900-2911	presenterar	*[45]	_	_	_	_	_	_	
+37-7	2912-2921	rimligare	*[45]	Target	37-8[46]	false	4	_	_	
+37-8	2922-2932	alternativ	*[45]|*[46]	_	_	_	_	_	_	
+37-9	2933-2935	är	_	Target[17]	37-1[45]	false[17]	2[17]	_	_	
+37-10	2936-2938	en	_	Target[17]	37-1[45]	false[17]	2[17]	_	_	
+37-11	2939-2943	helt	_	Target[17]	37-1[45]	false[17]	2[17]	_	_	
+37-12	2944-2949	annan	_	Target[17]	37-1[45]	false[17]	2[17]	_	_	
+37-13	2949-2950	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2952-2953	#	_	_	_	_	_	_	_	
+38-2	2953-2954	P	_	_	_	_	_	_	_	
+38-3	2955-2958	IMM	_	_	_	_	_	_	_	
+38-4	2958-2959	.	_	_	_	_	_	_	_	
+
+#Text=Där en generös invandring tidigare var utgångspunkten för Moderaterna har fokus nu skiftat till hur gränserna kan stängas.
+39-1	2961-2964	Där	_	_	_	_	_	_	_	
+39-2	2965-2967	en	_	_	_	_	_	_	_	
+39-3	2968-2975	generös	_	_	_	_	_	_	_	
+39-4	2976-2986	invandring	_	_	_	_	_	_	_	
+39-5	2987-2995	tidigare	_	_	_	_	_	_	_	
+39-6	2996-2999	var	_	_	_	_	_	_	_	
+39-7	3000-3014	utgångspunkten	_	_	_	_	_	_	_	
+39-8	3015-3018	för	_	_	_	_	_	_	_	
+39-9	3019-3030	Moderaterna	_	_	_	_	_	_	_	
+39-10	3031-3034	har	_	_	_	_	_	_	_	
+39-11	3035-3040	fokus	_	_	_	_	_	_	_	
+39-12	3041-3043	nu	_	_	_	_	_	_	_	
+39-13	3044-3051	skiftat	_	_	_	_	_	_	_	
+39-14	3052-3056	till	_	_	_	_	_	_	_	
+39-15	3057-3060	hur	_	_	_	_	_	_	_	
+39-16	3061-3070	gränserna	_	_	_	_	_	_	_	
+39-17	3071-3074	kan	_	_	_	_	_	_	_	
+39-18	3075-3082	stängas	_	_	_	_	_	_	_	
+39-19	3082-3083	.	_	_	_	_	_	_	_	
+
+#Text=Vilka de vägledande värderingarna och vilken den långsiktiga visionen är för partiet går inte längre att härleda ur deras politiska förslag.
+40-1	3084-3089	Vilka	_	_	_	_	_	_	_	
+40-2	3090-3092	de	_	_	_	_	_	_	_	
+40-3	3093-3103	vägledande	_	_	_	_	_	_	_	
+40-4	3104-3117	värderingarna	_	_	_	_	_	_	_	
+40-5	3118-3121	och	_	_	_	_	_	_	_	
+40-6	3122-3128	vilken	_	_	_	_	_	_	_	
+40-7	3129-3132	den	_	_	_	_	_	_	_	
+40-8	3133-3144	långsiktiga	_	_	_	_	_	_	_	
+40-9	3145-3153	visionen	_	_	_	_	_	_	_	
+40-10	3154-3156	är	_	_	_	_	_	_	_	
+40-11	3157-3160	för	_	_	_	_	_	_	_	
+40-12	3161-3168	partiet	_	_	_	_	_	_	_	
+40-13	3169-3172	går	_	_	_	_	_	_	_	
+40-14	3173-3177	inte	_	_	_	_	_	_	_	
+40-15	3178-3184	längre	_	_	_	_	_	_	_	
+40-16	3185-3188	att	_	_	_	_	_	_	_	
+40-17	3189-3196	härleda	_	_	_	_	_	_	_	
+40-18	3197-3199	ur	_	_	_	_	_	_	_	
+40-19	3200-3205	deras	_	_	_	_	_	_	_	
+40-20	3206-3215	politiska	_	_	_	_	_	_	_	
+40-21	3216-3223	förslag	_	_	_	_	_	_	_	
+40-22	3223-3224	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3226-3227	#	_	_	_	_	_	_	_	
+41-2	3227-3228	P	_	_	_	_	_	_	_	
+41-3	3229-3232	IMM	_	_	_	_	_	_	_	
+41-4	3232-3233	.	_	_	_	_	_	_	_	
+
+#Text=De Nya Moderaternas långsamma urholkande av ideologisk grund har skapat ett parti där värderingar om rätt och fel nu göms undan till förmån för vad som på kort sikt kan verka ansvarstagande, handlingskraftigt och dessutom i linje med vad opinionen råkar tycka.
+42-1	3235-3237	De	_	_	_	_	_	_	_	
+42-2	3238-3241	Nya	_	_	_	_	_	_	_	
+42-3	3242-3254	Moderaternas	_	_	_	_	_	_	_	
+42-4	3255-3264	långsamma	_	_	_	_	_	_	_	
+42-5	3265-3275	urholkande	_	_	_	_	_	_	_	
+42-6	3276-3278	av	_	_	_	_	_	_	_	
+42-7	3279-3289	ideologisk	_	_	_	_	_	_	_	
+42-8	3290-3295	grund	_	_	_	_	_	_	_	
+42-9	3296-3299	har	_	_	_	_	_	_	_	
+42-10	3300-3306	skapat	_	_	_	_	_	_	_	
+42-11	3307-3310	ett	_	_	_	_	_	_	_	
+42-12	3311-3316	parti	_	_	_	_	_	_	_	
+42-13	3317-3320	där	_	_	_	_	_	_	_	
+42-14	3321-3332	värderingar	*[47]	_	_	_	_	_	_	
+42-15	3333-3335	om	*[47]	_	_	_	_	_	_	
+42-16	3336-3340	rätt	*[47]	_	_	_	_	_	_	
+42-17	3341-3344	och	*[47]	_	_	_	_	_	_	
+42-18	3345-3348	fel	*[47]	_	_	_	_	_	_	
+42-19	3349-3351	nu	_	_	_	_	_	_	_	
+42-20	3352-3356	göms	_	Target;Source[18]	42-14[47];42-44[50]	false[18]	2[18]	_	_	
+42-21	3357-3362	undan	_	Target;Source[18]	42-14[47];42-44[50]	false[18]	2[18]	_	_	
+42-22	3363-3367	till	_	Target;Source[19]	42-25[48];42-44[51]	false[19]	4[19]	_	_	
+42-23	3368-3374	förmån	_	Target;Source[19]	42-25[48];42-44[51]	false[19]	4[19]	_	_	
+42-24	3375-3378	för	_	Target;Source[19]	42-25[48];42-44[51]	false[19]	4[19]	_	_	
+42-25	3379-3382	vad	*[48]	_	_	_	_	_	_	
+42-26	3383-3386	som	*[48]	_	_	_	_	_	_	
+42-27	3387-3389	på	*[48]	_	_	_	_	_	_	
+42-28	3390-3394	kort	*[48]	_	_	_	_	_	_	
+42-29	3395-3399	sikt	*[48]	_	_	_	_	_	_	
+42-30	3400-3403	kan	*[48]	_	_	_	_	_	_	
+42-31	3404-3409	verka	*[48]	_	_	_	_	_	_	
+42-32	3410-3424	ansvarstagande	*[48]	_	_	_	_	_	_	
+42-33	3424-3425	,	*[48]	_	_	_	_	_	_	
+42-34	3426-3443	handlingskraftigt	*[48]	_	_	_	_	_	_	
+42-35	3444-3447	och	*[48]	_	_	_	_	_	_	
+42-36	3448-3456	dessutom	*[48]	Source;Target	42-44[52];42-37[49]	false	4	_	_	
+42-37	3457-3458	i	*[48]|*[49]	_	_	_	_	_	_	
+42-38	3459-3464	linje	*[48]|*[49]	_	_	_	_	_	_	
+42-39	3465-3468	med	*[48]|*[49]	_	_	_	_	_	_	
+42-40	3469-3472	vad	*[48]|*[49]	_	_	_	_	_	_	
+42-41	3473-3482	opinionen	*[48]|*[49]	_	_	_	_	_	_	
+42-42	3483-3488	råkar	*[48]|*[49]	_	_	_	_	_	_	
+42-43	3489-3494	tycka	*[48]|*[49]	_	_	_	_	_	_	
+42-44	3494-3495	.	*[50]|*[51]|*[52]	_	_	false	2	_	_	
+
+#Text=De långsiktiga frågorna om hur arbetsmarknaden kan liberaliseras, bostadsmarknaden avregleras, socialförsäkringssystemet ses över och offentliga kostnader minskas diskuteras inte.
+43-1	3496-3498	De	_	_	_	_	_	_	_	
+43-2	3499-3510	långsiktiga	_	_	_	_	_	_	_	
+43-3	3511-3519	frågorna	_	_	_	_	_	_	_	
+43-4	3520-3522	om	_	_	_	_	_	_	_	
+43-5	3523-3526	hur	_	_	_	_	_	_	_	
+43-6	3527-3542	arbetsmarknaden	_	_	_	_	_	_	_	
+43-7	3543-3546	kan	_	_	_	_	_	_	_	
+43-8	3547-3560	liberaliseras	_	_	_	_	_	_	_	
+43-9	3560-3561	,	_	_	_	_	_	_	_	
+43-10	3562-3578	bostadsmarknaden	_	_	_	_	_	_	_	
+43-11	3579-3589	avregleras	_	_	_	_	_	_	_	
+43-12	3589-3590	,	_	_	_	_	_	_	_	
+43-13	3591-3616	socialförsäkringssystemet	_	_	_	_	_	_	_	
+43-14	3617-3620	ses	_	_	_	_	_	_	_	
+43-15	3621-3625	över	_	_	_	_	_	_	_	
+43-16	3626-3629	och	_	_	_	_	_	_	_	
+43-17	3630-3640	offentliga	_	_	_	_	_	_	_	
+43-18	3641-3650	kostnader	_	_	_	_	_	_	_	
+43-19	3651-3658	minskas	_	_	_	_	_	_	_	
+43-20	3659-3669	diskuteras	_	_	_	_	_	_	_	
+43-21	3670-3674	inte	_	_	_	_	_	_	_	
+43-22	3674-3675	.	_	_	_	_	_	_	_	
+
+#Text=Detta trots att det är här de reella utmaningarna ligger – och trots att det är här som Moderaternas egentliga ideologi ligger, eller åtminstone låg.
+44-1	3676-3681	Detta	_	_	_	_	_	_	_	
+44-2	3682-3687	trots	_	_	_	_	_	_	_	
+44-3	3688-3691	att	_	_	_	_	_	_	_	
+44-4	3692-3695	det	_	_	_	_	_	_	_	
+44-5	3696-3698	är	_	_	_	_	_	_	_	
+44-6	3699-3702	här	_	_	_	_	_	_	_	
+44-7	3703-3705	de	_	_	_	_	_	_	_	
+44-8	3706-3712	reella	_	_	_	_	_	_	_	
+44-9	3713-3725	utmaningarna	_	_	_	_	_	_	_	
+44-10	3726-3732	ligger	_	_	_	_	_	_	_	
+44-11	3733-3734	–	_	_	_	_	_	_	_	
+44-12	3735-3738	och	_	_	_	_	_	_	_	
+44-13	3739-3744	trots	_	_	_	_	_	_	_	
+44-14	3745-3748	att	_	_	_	_	_	_	_	
+44-15	3749-3752	det	_	_	_	_	_	_	_	
+44-16	3753-3755	är	_	_	_	_	_	_	_	
+44-17	3756-3759	här	_	_	_	_	_	_	_	
+44-18	3760-3763	som	_	_	_	_	_	_	_	
+44-19	3764-3776	Moderaternas	_	_	_	_	_	_	_	
+44-20	3777-3786	egentliga	_	_	_	_	_	_	_	
+44-21	3787-3795	ideologi	_	_	_	_	_	_	_	
+44-22	3796-3802	ligger	_	_	_	_	_	_	_	
+44-23	3802-3803	,	_	_	_	_	_	_	_	
+44-24	3804-3809	eller	_	_	_	_	_	_	_	
+44-25	3810-3820	åtminstone	_	_	_	_	_	_	_	
+44-26	3821-3824	låg	_	_	_	_	_	_	_	
+44-27	3824-3825	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+45-1	3827-3828	#	_	_	_	_	_	_	_	
+45-2	3828-3829	P	_	_	_	_	_	_	_	
+45-3	3830-3833	IMM	_	_	_	_	_	_	_	
+45-4	3833-3834	.	_	_	_	_	_	_	_	
+
+#Text=Partiets önskan om att bli större verkar ha lett till att strategiska förändringar har skett hand i hand med ideologiska.
+46-1	3836-3844	Partiets	*	_	_	_	_	_	_	
+46-2	3845-3851	önskan	_	Target;Source[20]	46-4[53];46-1	false[20]	5[20]	_	_	
+46-3	3852-3854	om	_	Target;Source[20]	46-4[53];46-1	false[20]	5[20]	_	_	
+46-4	3855-3858	att	*[53]	_	_	_	_	_	_	
+46-5	3859-3862	bli	*[53]	_	_	_	_	_	_	
+46-6	3863-3869	större	*[53]	_	_	_	_	_	_	
+46-7	3870-3876	verkar	_	_	_	_	_	_	_	
+46-8	3877-3879	ha	_	_	_	_	_	_	_	
+46-9	3880-3884	lett	_	_	_	_	_	_	_	
+46-10	3885-3889	till	_	_	_	_	_	_	_	
+46-11	3890-3893	att	_	_	_	_	_	_	_	
+46-12	3894-3905	strategiska	_	_	_	_	_	_	_	
+46-13	3906-3918	förändringar	_	_	_	_	_	_	_	
+46-14	3919-3922	har	_	_	_	_	_	_	_	
+46-15	3923-3928	skett	_	_	_	_	_	_	_	
+46-16	3929-3933	hand	_	_	_	_	_	_	_	
+46-17	3934-3935	i	_	_	_	_	_	_	_	
+46-18	3936-3940	hand	_	_	_	_	_	_	_	
+46-19	3941-3944	med	_	_	_	_	_	_	_	
+46-20	3945-3956	ideologiska	_	_	_	_	_	_	_	
+46-21	3956-3957	.	_	_	_	_	_	_	_	
+
+#Text=Fokuserar man enbart på mindre sakpolitiska förändringar samt stängda gränser finns det fog att tro att Moderaternas främst rådande princip i dag är opinionen och regeringsmakten.
+47-1	3958-3967	Fokuserar	_	_	_	_	_	_	_	
+47-2	3968-3971	man	_	_	_	_	_	_	_	
+47-3	3972-3978	enbart	_	_	_	_	_	_	_	
+47-4	3979-3981	på	_	_	_	_	_	_	_	
+47-5	3982-3988	mindre	_	_	_	_	_	_	_	
+47-6	3989-4001	sakpolitiska	_	_	_	_	_	_	_	
+47-7	4002-4014	förändringar	_	_	_	_	_	_	_	
+47-8	4015-4019	samt	_	_	_	_	_	_	_	
+47-9	4020-4027	stängda	_	_	_	_	_	_	_	
+47-10	4028-4035	gränser	_	_	_	_	_	_	_	
+47-11	4036-4041	finns	_	_	_	_	_	_	_	
+47-12	4042-4045	det	_	_	_	_	_	_	_	
+47-13	4046-4049	fog	_	_	_	_	_	_	_	
+47-14	4050-4053	att	_	_	_	_	_	_	_	
+47-15	4054-4057	tro	_	_	_	_	_	_	_	
+47-16	4058-4061	att	_	_	_	_	_	_	_	
+47-17	4062-4074	Moderaternas	_	_	_	_	_	_	_	
+47-18	4075-4081	främst	_	_	_	_	_	_	_	
+47-19	4082-4089	rådande	_	_	_	_	_	_	_	
+47-20	4090-4097	princip	_	_	_	_	_	_	_	
+47-21	4098-4099	i	_	_	_	_	_	_	_	
+47-22	4100-4103	dag	_	_	_	_	_	_	_	
+47-23	4104-4106	är	_	_	_	_	_	_	_	
+47-24	4107-4116	opinionen	_	_	_	_	_	_	_	
+47-25	4117-4120	och	_	_	_	_	_	_	_	
+47-26	4121-4136	regeringsmakten	_	_	_	_	_	_	_	
+47-27	4136-4137	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+48-1	4139-4140	#	_	_	_	_	_	_	_	
+48-2	4140-4141	P	_	_	_	_	_	_	_	
+48-3	4142-4145	IMM	_	_	_	_	_	_	_	
+48-4	4145-4146	.	_	_	_	_	_	_	_	
+
+#Text=Att grunda sina förslag i ideologi och långsiktighet är också det demokratiskt ärliga att göra gentemot väljare som då vet vad de lägger sina röster på.
+49-1	4148-4151	Att	*[54]	_	_	_	_	_	_	
+49-2	4152-4158	grunda	*[54]	_	_	_	_	_	_	
+49-3	4159-4163	sina	*[54]	_	_	_	_	_	_	
+49-4	4164-4171	förslag	*[54]	_	_	_	_	_	_	
+49-5	4172-4173	i	*[54]	_	_	_	_	_	_	
+49-6	4174-4182	ideologi	*[54]	_	_	_	_	_	_	
+49-7	4183-4186	och	*[54]	_	_	_	_	_	_	
+49-8	4187-4200	långsiktighet	*[54]	_	_	_	_	_	_	
+49-9	4201-4203	är	_	_	_	false	4	_	_	
+49-10	4204-4209	också	_	_	_	_	_	_	_	
+49-11	4210-4213	det	_	Target[21]	49-1[54]	false[21]	4[21]	49-9[0_21]	_	
+49-12	4214-4226	demokratiskt	_	Target[21]	49-1[54]	false[21]	4[21]	_	_	
+49-13	4227-4233	ärliga	_	Target[21]	49-1[54]	false[21]	4[21]	_	_	
+49-14	4234-4237	att	_	Target[21]	49-1[54]	false[21]	4[21]	_	_	
+49-15	4238-4242	göra	_	Target[21]	49-1[54]	false[21]	4[21]	_	_	
+49-16	4243-4251	gentemot	_	_	_	_	_	_	_	
+49-17	4252-4259	väljare	_	_	_	_	_	_	_	
+49-18	4260-4263	som	_	_	_	_	_	_	_	
+49-19	4264-4266	då	_	_	_	_	_	_	_	
+49-20	4267-4270	vet	_	_	_	_	_	_	_	
+49-21	4271-4274	vad	_	_	_	_	_	_	_	
+49-22	4275-4277	de	_	_	_	_	_	_	_	
+49-23	4278-4284	lägger	_	_	_	_	_	_	_	
+49-24	4285-4289	sina	_	_	_	_	_	_	_	
+49-25	4290-4296	röster	_	_	_	_	_	_	_	
+49-26	4297-4299	på	_	_	_	_	_	_	_	
+49-27	4299-4300	.	_	_	_	_	_	_	_	
+
+#Text=Rimligtvis kommer inte alla vallöften att införlivas, några kompromissas bort och andra blir svårare att driva igenom i regeringsställning än att önska som opposition.
+50-1	4301-4311	Rimligtvis	_	_	_	_	_	_	_	
+50-2	4312-4318	kommer	_	_	_	_	_	_	_	
+50-3	4319-4323	inte	_	_	_	_	_	_	_	
+50-4	4324-4328	alla	_	_	_	_	_	_	_	
+50-5	4329-4338	vallöften	_	_	_	_	_	_	_	
+50-6	4339-4342	att	_	_	_	_	_	_	_	
+50-7	4343-4353	införlivas	_	_	_	_	_	_	_	
+50-8	4353-4354	,	_	_	_	_	_	_	_	
+50-9	4355-4360	några	_	_	_	_	_	_	_	
+50-10	4361-4373	kompromissas	_	_	_	_	_	_	_	
+50-11	4374-4378	bort	_	_	_	_	_	_	_	
+50-12	4379-4382	och	_	_	_	_	_	_	_	
+50-13	4383-4388	andra	_	_	_	_	_	_	_	
+50-14	4389-4393	blir	_	_	_	_	_	_	_	
+50-15	4394-4401	svårare	_	_	_	_	_	_	_	
+50-16	4402-4405	att	_	_	_	_	_	_	_	
+50-17	4406-4411	driva	_	_	_	_	_	_	_	
+50-18	4412-4418	igenom	_	_	_	_	_	_	_	
+50-19	4419-4420	i	_	_	_	_	_	_	_	
+50-20	4421-4439	regeringsställning	_	_	_	_	_	_	_	
+50-21	4440-4442	än	_	_	_	_	_	_	_	
+50-22	4443-4446	att	_	_	_	_	_	_	_	
+50-23	4447-4452	önska	_	_	_	_	_	_	_	
+50-24	4453-4456	som	_	_	_	_	_	_	_	
+50-25	4457-4467	opposition	_	_	_	_	_	_	_	
+50-26	4467-4468	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4470-4471	#	_	_	_	_	_	_	_	
+51-2	4471-4472	P	_	_	_	_	_	_	_	
+51-3	4473-4476	IMM	_	_	_	_	_	_	_	
+51-4	4476-4477	.	_	_	_	_	_	_	_	
+
+#Text=Men det är inte att ta ansvar att regera, eller vilja regera, utan långsiktig politik.
+52-1	4479-4482	Men	_	_	_	_	_	_	_	
+52-2	4483-4486	det	_	_	_	_	_	_	_	
+52-3	4487-4489	är	_	Target[22]	52-8[55]	false[22]	2[22]	_	_	
+52-4	4490-4494	inte	_	Target[22]	52-8[55]	false[22]	2[22]	_	_	
+52-5	4495-4498	att	_	Target[22]	52-8[55]	false[22]	2[22]	_	_	
+52-6	4499-4501	ta	_	Target[22]	52-8[55]	false[22]	2[22]	_	_	
+52-7	4502-4508	ansvar	_	Target[22]	52-8[55]	false[22]	2[22]	_	_	
+52-8	4509-4512	att	*[55]	_	_	_	_	_	_	
+52-9	4513-4519	regera	*[55]	_	_	_	_	_	_	
+52-10	4519-4520	,	*[55]	_	_	_	_	_	_	
+52-11	4521-4526	eller	*[55]	_	_	_	_	_	_	
+52-12	4527-4532	vilja	*[55]	_	_	_	_	_	_	
+52-13	4533-4539	regera	*[55]	_	_	_	_	_	_	
+52-14	4539-4540	,	*[55]	_	_	_	_	_	_	
+52-15	4541-4545	utan	*[55]	_	_	_	_	_	_	
+52-16	4546-4556	långsiktig	*[55]	_	_	_	_	_	_	
+52-17	4557-4564	politik	*[55]	_	_	_	_	_	_	
+52-18	4564-4565	.	_	_	_	_	_	_	_	
+
+#Text=Att ompröva ställningstaganden är sunt, men det måste göras med en ideologisk grund.
+53-1	4566-4569	Att	*[56]	_	_	_	_	_	_	
+53-2	4570-4577	ompröva	*[56]	_	_	_	_	_	_	
+53-3	4578-4596	ställningstaganden	*[56]	_	_	_	_	_	_	
+53-4	4597-4599	är	_	Target[23]	53-1[56]	false[23]	4[23]	_	_	
+53-5	4600-4604	sunt	_	Target[23]	53-1[56]	false[23]	4[23]	_	_	
+53-6	4604-4605	,	_	_	_	_	_	_	_	
+53-7	4606-4609	men	_	_	_	_	_	_	_	
+53-8	4610-4613	det	_	_	_	_	_	_	_	
+53-9	4614-4619	måste	_	_	_	_	_	_	_	
+53-10	4620-4625	göras	_	_	_	_	_	_	_	
+53-11	4626-4629	med	_	_	_	_	_	_	_	
+53-12	4630-4632	en	_	_	_	_	_	_	_	
+53-13	4633-4643	ideologisk	_	_	_	_	_	_	_	
+53-14	4644-4649	grund	_	_	_	_	_	_	_	
+53-15	4649-4650	.	_	_	_	_	_	_	_	
+
+#Text=Ett land kan inte styras på så kort sikt att långsiktighet och bieffekter glöms bort eller rentav ignoreras.
+54-1	4651-4654	Ett	_	_	_	_	_	_	_	
+54-2	4655-4659	land	_	_	_	_	_	_	_	
+54-3	4660-4663	kan	_	_	_	_	_	_	_	
+54-4	4664-4668	inte	_	_	_	_	_	_	_	
+54-5	4669-4675	styras	_	_	_	_	_	_	_	
+54-6	4676-4678	på	_	_	_	_	_	_	_	
+54-7	4679-4681	så	_	_	_	_	_	_	_	
+54-8	4682-4686	kort	_	_	_	_	_	_	_	
+54-9	4687-4691	sikt	_	_	_	_	_	_	_	
+54-10	4692-4695	att	_	_	_	_	_	_	_	
+54-11	4696-4709	långsiktighet	_	_	_	_	_	_	_	
+54-12	4710-4713	och	_	_	_	_	_	_	_	
+54-13	4714-4724	bieffekter	_	_	_	_	_	_	_	
+54-14	4725-4730	glöms	_	_	_	_	_	_	_	
+54-15	4731-4735	bort	_	_	_	_	_	_	_	
+54-16	4736-4741	eller	_	_	_	_	_	_	_	
+54-17	4742-4748	rentav	_	_	_	_	_	_	_	
+54-18	4749-4758	ignoreras	_	_	_	_	_	_	_	
+54-19	4758-4759	.	_	_	_	false	2	_	_	
+
+#Text=Politik måste kunna vara förutsägbar.
+55-1	4760-4767	Politik	_	_	_	_	_	_	_	
+55-2	4768-4773	måste	_	_	_	_	_	_	_	
+55-3	4774-4779	kunna	_	_	_	_	_	_	_	
+55-4	4780-4784	vara	_	_	_	_	_	_	_	
+55-5	4785-4796	förutsägbar	_	_	_	_	_	_	_	
+55-6	4796-4797	.	_	_	_	_	_	_	_	
+
+#Text=Att förutspå nästa migrationspolitiska åtgärd är i princip omöjligt.
+56-1	4798-4801	Att	_	_	_	_	_	_	_	
+56-2	4802-4810	förutspå	_	_	_	_	_	_	_	
+56-3	4811-4816	nästa	_	_	_	_	_	_	_	
+56-4	4817-4836	migrationspolitiska	_	_	_	_	_	_	_	
+56-5	4837-4843	åtgärd	_	_	_	_	_	_	_	
+56-6	4844-4846	är	_	_	_	_	_	_	_	
+56-7	4847-4848	i	_	_	_	_	_	_	_	
+56-8	4849-4856	princip	_	_	_	_	_	_	_	
+56-9	4857-4865	omöjligt	_	_	_	_	_	_	_	
+56-10	4865-4866	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+57-1	4868-4869	#	_	_	_	_	_	_	_	
+57-2	4869-4870	P	_	_	_	_	_	_	_	
+57-3	4871-4874	IMM	_	_	_	_	_	_	_	
+57-4	4874-4875	.	_	_	_	_	_	_	_	
+
+#Text=Johanna Grönbäck.
+58-1	4877-4884	Johanna	_	_	_	_	_	_	_	
+58-2	4885-4893	Grönbäck	_	_	_	_	_	_	_	
+58-3	4893-4894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4896-4897	#	_	_	_	_	_	_	_	
+59-2	4897-4898	P	_	_	_	_	_	_	_	
+59-3	4899-4902	IMM	_	_	_	_	_	_	_	
+59-4	4902-4903	.	_	_	_	_	_	_	_	
+
+#Text=viceordförande Fria Moderata Studentförbundet.
+60-1	4905-4919	viceordförande	_	_	_	_	_	_	_	
+60-2	4920-4924	Fria	_	_	_	_	_	_	_	
+60-3	4925-4933	Moderata	_	_	_	_	_	_	_	
+60-4	4934-4950	Studentförbundet	_	_	_	_	_	_	_	
+60-5	4950-4951	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4953-4954	#	_	_	_	_	_	_	_	
+61-2	4954-4955	P	_	_	_	_	_	_	_	
+61-3	4956-4959	IMM	_	_	_	_	_	_	_	
+61-4	4959-4960	.	_	_	_	_	_	_	_	
+
+#Text=Charlotte Nilsson.
+62-1	4962-4971	Charlotte	_	_	_	_	_	_	_	
+62-2	4972-4979	Nilsson	_	_	_	_	_	_	_	
+62-3	4979-4980	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4982-4983	#	_	_	_	_	_	_	_	
+63-2	4983-4984	P	_	_	_	_	_	_	_	
+63-3	4985-4988	IMM	_	_	_	_	_	_	_	
+63-4	4988-4989	.	_	_	_	_	_	_	_	
+
+#Text=ordförande Studentföreningen Ateneum.
+64-1	4991-5001	ordförande	_	_	_	_	_	_	_	
+64-2	5002-5019	Studentföreningen	_	_	_	_	_	_	_	
+64-3	5020-5027	Ateneum	_	_	_	_	_	_	_	
+64-4	5027-5028	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5030-5031	#	_	_	_	_	_	_	_	
+65-2	5031-5032	P	_	_	_	_	_	_	_	
+65-3	5033-5036	IMM	_	_	_	_	_	_	_	
+65-4	5036-5037	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+66-1	5039-5047	Redaktör	_	_	_	_	_	_	_	
+66-2	5047-5048	:	_	_	_	_	_	_	_	
+66-3	5049-5055	Carina	_	_	_	_	_	_	_	
+66-4	5056-5074	StenssonBiträdande	_	_	_	_	_	_	_	
+66-5	5075-5083	redaktör	_	_	_	_	_	_	_	
+66-6	5083-5084	:	_	_	_	_	_	_	_	
+66-7	5085-5095	Carl-Johan	_	_	_	_	_	_	_	
+66-8	5096-5110	BilkenrothMejl	_	_	_	_	_	_	_	
+66-9	5110-5111	:	_	_	_	_	_	_	_	
+66-10	5112-5118	debatt	_	_	_	_	_	_	_	
+66-11	5118-5119	@	_	_	_	_	_	_	_	
+66-12	5119-5138	svd.seTelefonnummer	_	_	_	_	_	_	_	
+66-13	5138-5139	:	_	_	_	_	_	_	_	
+66-14	5140-5142	08	_	_	_	_	_	_	_	
+66-15	5142-5143	-	_	_	_	_	_	_	_	
+66-16	5143-5156	135149Twitter	_	_	_	_	_	_	_	
+66-17	5156-5157	:	_	_	_	_	_	_	_	
+66-18	5158-5159	@	_	_	_	_	_	_	_	
+66-19	5159-5176	SvDDebattFacebook	_	_	_	_	_	_	_	
+66-20	5176-5177	:	_	_	_	_	_	_	_	
+66-21	5178-5181	SvD	_	_	_	_	_	_	_	
+66-22	5182-5188	Debatt	_	_	_	_	_	_	_	
+66-23	5188-5189	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	5191-5192	#	_	_	_	_	_	_	_	
+67-2	5192-5193	P	_	_	_	_	_	_	_	
+67-3	5194-5197	IMM	_	_	_	_	_	_	_	
+67-4	5197-5198	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+68-1	5200-5208	Redaktör	_	_	_	_	_	_	_	
+68-2	5208-5209	:	_	_	_	_	_	_	_	
+68-3	5210-5216	Carina	_	_	_	_	_	_	_	
+68-4	5217-5225	Stensson	_	_	_	_	_	_	_	
+68-5	5225-5226	,	_	_	_	_	_	_	_	
+68-6	5227-5237	Biträdande	_	_	_	_	_	_	_	
+68-7	5238-5246	redaktör	_	_	_	_	_	_	_	
+68-8	5246-5247	:	_	_	_	_	_	_	_	
+68-9	5248-5253	Björn	_	_	_	_	_	_	_	
+68-10	5254-5260	Jorner	_	_	_	_	_	_	_	
+68-11	5260-5261	,	_	_	_	_	_	_	_	
+68-12	5262-5266	Mejl	_	_	_	_	_	_	_	
+68-13	5266-5267	:	_	_	_	_	_	_	_	
+68-14	5268-5274	debatt	_	_	_	_	_	_	_	
+68-15	5274-5275	@	_	_	_	_	_	_	_	
+68-16	5275-5281	svd.se	_	_	_	_	_	_	_	
+68-17	5281-5282	,	_	_	_	_	_	_	_	
+68-18	5283-5296	Telefonnummer	_	_	_	_	_	_	_	
+68-19	5296-5297	:	_	_	_	_	_	_	_	
+68-20	5298-5300	08	_	_	_	_	_	_	_	
+68-21	5300-5301	-	_	_	_	_	_	_	_	
+68-22	5301-5307	135149	_	_	_	_	_	_	_	
+68-23	5307-5308	,	_	_	_	_	_	_	_	
+68-24	5309-5316	Twitter	_	_	_	_	_	_	_	
+68-25	5316-5317	:	_	_	_	_	_	_	_	
+68-26	5318-5319	@	_	_	_	_	_	_	_	
+68-27	5319-5328	SvDDebatt	_	_	_	_	_	_	_	
+68-28	5328-5329	,	_	_	_	_	_	_	_	
+68-29	5330-5338	Facebook	_	_	_	_	_	_	_	
+68-30	5338-5339	:	_	_	_	_	_	_	_	
+68-31	5340-5343	SvD	_	_	_	_	_	_	_	
+68-32	5344-5350	Debatt	_	_	_	_	_	_	_	
+68-33	5350-5351	.	_	_	_	_	_	_	_	

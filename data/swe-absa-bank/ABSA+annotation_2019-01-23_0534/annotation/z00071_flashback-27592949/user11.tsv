@@ -1,0 +1,113 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Kostnaden för 3000 flyktingbarn per år - över 3,3 miljarder.
+3-1	18-27	Kostnaden	_	_	_	_	_	
+3-2	28-31	för	_	_	_	_	_	
+3-3	32-36	3000	_	_	_	_	_	
+3-4	37-49	flyktingbarn	_	_	_	_	_	
+3-5	50-53	per	_	_	_	_	_	
+3-6	54-56	år	_	_	_	_	_	
+3-7	57-58	-	_	_	_	_	_	
+3-8	59-63	över	_	_	_	_	_	
+3-9	64-67	3,3	_	_	_	_	_	
+3-10	68-77	miljarder	_	_	_	_	_	
+3-11	77-78	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	80-81	#	_	_	_	_	_	
+4-2	81-82	P	_	_[3]	_	false[3]	2[3]	
+4-3	83-86	IMM	_	_[3]	_	false[3]	2[3]	
+4-4	86-87	.	_	_	_	_	_	
+
+#Text=Är detta rimligt?
+5-1	89-91	Är	_	_	_	_	_	
+5-2	92-97	detta	_	_	_	_	_	
+5-3	98-105	rimligt	_	_	_	_	_	
+5-4	105-106	?	_	_	_	_	_	
+
+#Text=Vilka fantasisummor som man slänger på dessa "barn" (i många fall vuxna)?
+6-1	107-112	Vilka	_	_	_	_	_	
+6-2	113-126	fantasisummor	_	Target	6-4[7]	false	2	
+6-3	127-130	som	_	_	_	_	_	
+6-4	131-134	man	*[7]	_	_	_	_	
+6-5	135-142	slänger	*[7]	_	_	_	_	
+6-6	143-145	på	*[7]	_	_	_	_	
+6-7	146-151	dessa	*[7]	_	_	_	_	
+6-8	152-153	"	*[7]|*[8]	Target[4]	6-8[8]	false[4]	2[4]	
+6-9	153-157	barn	*[7]|*[8]	Target[4]	6-8[8]	false[4]	2[4]	
+6-10	157-158	"	*[8]	Target[4]	6-8[8]	false[4]	2[4]	
+6-11	159-160	(	_	_	_	_	_	
+6-12	160-161	i	_	_	_	_	_	
+6-13	162-167	många	_	_	_	_	_	
+6-14	168-172	fall	_	_	_	_	_	
+6-15	173-178	vuxna	_	_	_	_	_	
+6-16	178-179	)	_	_	_	_	_	
+6-17	179-180	?	_	_	_	_	_	
+
+#Text=Minst 1,1 miljoner kronor PER "BARN" OCH ÅR!
+7-1	181-186	Minst	_	_	_	_	_	
+7-2	187-190	1,1	_	_	_	_	_	
+7-3	191-199	miljoner	_	_	_	_	_	
+7-4	200-206	kronor	_	_	_	_	_	
+7-5	207-210	PER	_	_	_	_	_	
+7-6	211-212	"	*[9]	Target[5]	7-6[9]	false[5]	2[5]	
+7-7	212-216	BARN	*[9]	Target[5]	7-6[9]	false[5]	2[5]	
+7-8	216-217	"	*[9]	Target[5]	7-6[9]	false[5]	2[5]	
+7-9	218-221	OCH	_	_	_	_	_	
+7-10	222-224	ÅR	_	_	_	_	_	
+7-11	224-225	!	_	_	_	_	_	
+
+#Text=Bor "barnen" på lyxhotell eller?
+8-1	226-229	Bor	_	_	_	_	_	
+8-2	230-231	"	*[10]	Target[6]	8-2[10]	false[6]	2[6]	
+8-3	231-237	barnen	*[10]	Target[6]	8-2[10]	false[6]	2[6]	
+8-4	237-238	"	*[10]	Target[6]	8-2[10]	false[6]	2[6]	
+8-5	239-241	på	_	_	_	_	_	
+8-6	242-251	lyxhotell	_	_	_	_	_	
+8-7	252-257	eller	_	_	_	_	_	
+8-8	257-258	?	_	_	_	_	_	
+
+#Text=Vad exakt är det som kostar så mycket pengar?.
+9-1	259-262	Vad	_	_	_	_	_	
+9-2	263-268	exakt	_	_	_	_	_	
+9-3	269-271	är	_	_	_	_	_	
+9-4	272-275	det	_	_	_	_	_	
+9-5	276-279	som	_	_	_	_	_	
+9-6	280-286	kostar	_	_	_	_	_	
+9-7	287-289	så	_	_	_	_	_	
+9-8	290-296	mycket	_	_	_	_	_	
+9-9	297-303	pengar	_	_	_	_	_	
+9-10	303-304	?	_	_	_	_	_	
+9-11	304-305	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	307-308	#	_	_	_	_	_	
+10-2	308-309	P	_	_	_	_	_	
+10-3	310-313	IMM	_	_	_	_	_	
+10-4	313-314	.	_	_	_	_	_	
+
+#Text=Dessa pengar skulle kunna försörja ett helt u-land.
+11-1	316-321	Dessa	_	_	_	_	_	
+11-2	322-328	pengar	_	_	_	_	_	
+11-3	329-335	skulle	_	_	_	_	_	
+11-4	336-341	kunna	_	_	_	_	_	
+11-5	342-350	försörja	_	_	_	_	_	
+11-6	351-354	ett	_	_	_	_	_	
+11-7	355-359	helt	_	_	_	_	_	
+11-8	360-366	u-land	_	_	_	_	_	
+11-9	366-367	.	_	_	_	_	_	

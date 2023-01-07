@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Kvällens Aktuellt 28/6: Rashid Musas aggressiva svar.
+3-1	18-26	Kvällens	_	_	_	_	_	
+3-2	27-35	Aktuellt	_	_	_	_	_	
+3-3	36-38	28	_	_	_	_	_	
+3-4	38-39	/	_	_	_	_	_	
+3-5	39-40	6	_	_	_	_	_	
+3-6	40-41	:	_	_	_	_	_	
+3-7	42-48	Rashid	_	_	_	_	_	
+3-8	49-54	Musas	_	_	_	_	_	
+3-9	55-65	aggressiva	_	_	_	_	_	
+3-10	66-70	svar	_	_	_	_	_	
+3-11	70-71	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	73-74	#	_	_	_	_	_	
+4-2	74-75	P	_	_	_	_	_	
+4-3	76-79	IMM	_	_	_	_	_	
+4-4	79-80	.	_	_	_	_	_	
+
+#Text=Ordförande Rashid Musa från Unga Muslimer fick under debatten i kvällens Aktuellt frågan.
+5-1	82-92	Ordförande	_	_	_	_	_	
+5-2	93-99	Rashid	_	_	_	_	_	
+5-3	100-104	Musa	_	_	_	_	_	
+5-4	105-109	från	_	_	_	_	_	
+5-5	110-114	Unga	_	_	_	_	_	
+5-6	115-123	Muslimer	_	_	_	_	_	
+5-7	124-128	fick	_	_	_	_	_	
+5-8	129-134	under	_	_	_	_	_	
+5-9	135-143	debatten	_	_	_	_	_	
+5-10	144-145	i	_	_	_	_	_	
+5-11	146-154	kvällens	_	_	_	_	_	
+5-12	155-163	Aktuellt	_	_	_	_	_	
+5-13	164-170	frågan	_	_	_	_	_	
+5-14	170-171	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	173-174	#	_	_	_	_	_	
+6-2	174-175	P	_	_	_	_	_	
+6-3	176-179	IMM	_	_	_	_	_	
+6-4	179-180	.	_	_	_	_	_	
+
+#Text=Svarade han på frågan?
+7-1	182-189	Svarade	_	_	_	_	_	
+7-2	190-193	han	_	_	_	_	_	
+7-3	194-196	på	_	_	_	_	_	
+7-4	197-203	frågan	_	_	_	_	_	
+7-5	203-204	?	_	_	_	_	_	
+
+#Text=Varför blev han passivt aggressiv?
+8-1	205-211	Varför	_	_	_	_	_	
+8-2	212-216	blev	_	_	_	_	_	
+8-3	217-220	han	_	_	_	_	_	
+8-4	221-228	passivt	_	_	_	_	_	
+8-5	229-238	aggressiv	_	_	_	_	_	
+8-6	238-239	?	_	_	_	_	_	
+
+#Text=Har hans förbund något att dölja?
+9-1	240-243	Har	_	_	_	_	_	
+9-2	244-248	hans	_	_	_	_	_	
+9-3	249-256	förbund	_	_	_	_	_	
+9-4	257-262	något	_	_	_	_	_	
+9-5	263-266	att	_	_	_	_	_	
+9-6	267-272	dölja	_	_	_	_	_	
+9-7	272-273	?	_	_	_	_	_	
+
+#Text=Tror ni han sympatiserar med våldsbejakande extremism?.
+10-1	274-278	Tror	_	_	_	_	_	
+10-2	279-281	ni	_	_	_	_	_	
+10-3	282-285	han	*	_	_	_	_	
+10-4	286-298	sympatiserar	_	Source;Target[1]	10-3;10-6[2]	false[1]	4[1]	
+10-5	299-302	med	_	Source;Target[1]	10-3;10-6[2]	false[1]	4[1]	
+10-6	303-317	våldsbejakande	*[2]|*[3]	Target;Source	10-6[3];10-7[4]	false	4	
+10-7	318-327	extremism	*[2]|*[4]	_	_	_	_	
+10-8	327-328	?	_	_	_	_	_	
+10-9	328-329	.	_	_	_	_	_	

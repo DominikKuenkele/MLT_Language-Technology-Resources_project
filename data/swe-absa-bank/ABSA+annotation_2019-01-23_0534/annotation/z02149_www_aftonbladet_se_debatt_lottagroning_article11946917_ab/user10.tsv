@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Kvinnofacken är för fega.
+3-1	18-30	Kvinnofacken	*	_	_	_	_	_	
+3-2	31-33	är	_	Target[1]	3-1	false[1]	1[1]	_	
+3-3	34-37	för	_	Target[1]	3-1	false[1]	1[1]	_	
+3-4	38-42	fega	_	Target[1]	3-1	false[1]	1[1]	_	
+3-5	42-43	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	45-46	#	_	_	_	_	_	_	
+4-2	46-47	P	_	_	_	_	_	_	
+4-3	48-51	IMM	_	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	_	
+
+#Text=Jag kom ihåg förra gången det var sköterskestrejk. 1995–1996 strejkade sjuksköterskorna i sju veckor för 5?
+5-1	54-57	Jag	_	_	_	_	_	_	
+5-2	58-61	kom	_	_	_	_	_	_	
+5-3	62-66	ihåg	_	_	_	_	_	_	
+5-4	67-72	förra	_	_	_	_	_	_	
+5-5	73-79	gången	_	_	_	_	_	_	
+5-6	80-83	det	_	_	_	_	_	_	
+5-7	84-87	var	_	_	_	_	_	_	
+5-8	88-103	sköterskestrejk	_	_	_	_	_	_	
+5-9	103-104	.	_	_	_	_	_	_	
+5-10	105-109	1995	_	_	_	_	_	_	
+5-11	109-110	–	_	_	_	_	_	_	
+5-12	110-114	1996	_	_	_	_	_	_	
+5-13	115-124	strejkade	_	_	_	_	_	_	
+5-14	125-141	sjuksköterskorna	_	_	_	_	_	_	
+5-15	142-143	i	_	_	_	_	_	_	
+5-16	144-147	sju	_	_	_	_	_	_	
+5-17	148-154	veckor	_	_	_	_	_	_	
+5-18	155-158	för	_	_	_	_	_	_	
+5-19	159-160	5	_	_	_	_	_	_	
+5-20	160-161	?	_	_	_	_	_	_	
+
+#Text=000 mer i månaden.
+6-1	161-164	000	_	_	_	_	_	_	
+6-2	165-168	mer	_	_	_	_	_	_	
+6-3	169-170	i	_	_	_	_	_	_	
+6-4	171-178	månaden	_	_	_	_	_	_	
+6-5	178-179	.	_	_	_	_	_	_	
+
+#Text=Det var ingen populär strejk.
+7-1	180-183	Det	_	_	_	_	_	_	
+7-2	184-187	var	_	_	_	_	_	_	
+7-3	188-193	ingen	_	Target[2]	7-5	false[2]	2[2]	_	
+7-4	194-201	populär	_	Target[2]	7-5	false[2]	2[2]	_	
+7-5	202-208	strejk	*	_	_	_	_	_	
+7-6	208-209	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	211-212	#	_	_	_	_	_	_	
+8-2	212-213	P	_	_	_	_	_	_	
+8-3	214-217	IMM	_	_	_	_	_	_	
+8-4	217-218	.	_	_	_	_	_	_	
+
+#Text=Då reste sig en arg och enig opinion och krävde att sjuksköterskorna skulle stå tillbaka för landets ekonomi och för den offentliga sektorn.
+9-1	220-222	Då	_	_	_	_	_	_	
+9-2	223-228	reste	_	_	_	_	_	_	
+9-3	229-232	sig	_	_	_	_	_	_	
+9-4	233-235	en	_	Target[3]	9-8	false[3]	3[3]	_	
+9-5	236-239	arg	_	Target[3]	9-8	false[3]	3[3]	_	
+9-6	240-243	och	_	Target[3]	9-8	false[3]	3[3]	_	
+9-7	244-248	enig	_	Target[3]	9-8	false[3]	3[3]	_	
+9-8	249-256	opinion	*	_	_	_	_	_	
+9-9	257-260	och	_	_	_	_	_	_	
+9-10	261-267	krävde	_	_	_	_	_	_	
+9-11	268-271	att	_	_	_	_	_	_	
+9-12	272-288	sjuksköterskorna	_	_	_	_	_	_	
+9-13	289-295	skulle	_	_	_	_	_	_	
+9-14	296-299	stå	_	_	_	_	_	_	
+9-15	300-308	tillbaka	_	_	_	_	_	_	
+9-16	309-312	för	_	_	_	_	_	_	
+9-17	313-320	landets	_	_	_	_	_	_	
+9-18	321-328	ekonomi	_	_	_	_	_	_	
+9-19	329-332	och	_	_	_	_	_	_	
+9-20	333-336	för	_	_	_	_	_	_	
+9-21	337-340	den	_	_	_	_	_	_	
+9-22	341-351	offentliga	_	_	_	_	_	_	
+9-23	352-359	sektorn	_	_	_	_	_	_	
+9-24	359-360	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	362-363	#	_	_	_	_	_	_	
+10-2	363-364	P	_	_	_	_	_	_	
+10-3	365-368	IMM	_	_	_	_	_	_	
+10-4	368-369	.	_	_	_	_	_	_	
+
+#Text=Visserligen var det i en kärv ekonomisk tid, men det fanns en allmän uppfattning att sjuksköterskejobbet också var ett kall.
+11-1	371-382	Visserligen	_	_	_	_	_	_	
+11-2	383-386	var	_	_	_	_	_	_	
+11-3	387-390	det	_	_	_	_	_	_	
+11-4	391-392	i	_	_	_	_	_	_	
+11-5	393-395	en	*[9]	Target[4]	11-5[9]	false[4]	1[4]	_	
+11-6	396-400	kärv	*[9]	Target[4]	11-5[9]	false[4]	1[4]	_	
+11-7	401-410	ekonomisk	*[9]	Target[4]	11-5[9]	false[4]	1[4]	_	
+11-8	411-414	tid	*[9]	Target[4]	11-5[9]	false[4]	1[4]	_	
+11-9	414-415	,	_	_	_	_	_	_	
+11-10	416-419	men	_	_	_	_	_	_	
+11-11	420-423	det	_	_	_	_	_	_	
+11-12	424-429	fanns	_	_	_	_	_	_	
+11-13	430-432	en	_	_	_	_	_	_	
+11-14	433-439	allmän	*[10]	_	_	_	_	_	
+11-15	440-451	uppfattning	*[10]	_	_	_	_	_	
+11-16	452-455	att	_	_	_	_	_	_	
+11-17	456-475	sjuksköterskejobbet	*	_	_	_	_	_	
+11-18	476-481	också	_	_	_	_	_	_	
+11-19	482-485	var	_	_	_	_	_	_	
+11-20	486-489	ett	_	Target;Source[5]	11-17;11-14[10]	false[5]	4[5]	_	
+11-21	490-494	kall	_	Target;Source[5]	11-17;11-14[10]	false[5]	4[5]	_	
+11-22	494-495	.	_	_	_	_	_	_	
+
+#Text=Då räddade Vårdförbundet ansiktet med att gå med på individuella löneförhandlingar.
+12-1	496-498	Då	_	_	_	_	_	_	
+12-2	499-506	räddade	_	_	_	false	4	_	
+12-3	507-520	Vårdförbundet	*	_	_	_	_	_	
+12-4	521-529	ansiktet	_	Target	12-3	false	4	12-2	
+12-5	530-533	med	_	_	_	_	_	_	
+12-6	534-537	att	_	_	_	_	_	_	
+12-7	538-540	gå	_	_	_	_	_	_	
+12-8	541-544	med	_	_	_	_	_	_	
+12-9	545-547	på	_	_	_	_	_	_	
+12-10	548-560	individuella	_	_	_	_	_	_	
+12-11	561-578	löneförhandlingar	_	_	_	_	_	_	
+12-12	578-579	.	_	_	_	_	_	_	
+
+#Text=Men det förändrade ingenting.
+13-1	580-583	Men	_	_	_	_	_	_	
+13-2	584-587	det	_	_	_	_	_	_	
+13-3	588-598	förändrade	_	_	_	_	_	_	
+13-4	599-608	ingenting	_	_	_	_	_	_	
+13-5	608-609	.	_	_	_	_	_	_	
+
+#Text=Sjuksköterskorna är fortfarande underbetalda och dessutom lönar det sig inte för dem att vidareutbilda sig.
+14-1	610-626	Sjuksköterskorna	*	_	_	_	_	_	
+14-2	627-629	är	_	_	_	_	_	_	
+14-3	630-641	fortfarande	_	_	_	_	_	_	
+14-4	642-654	underbetalda	_	Target	14-1	false	2	_	
+14-5	655-658	och	_	_	_	_	_	_	
+14-6	659-667	dessutom	_	_	_	_	_	_	
+14-7	668-673	lönar	_	_	_	_	_	_	
+14-8	674-677	det	_	_	_	_	_	_	
+14-9	678-681	sig	_	_	_	_	_	_	
+14-10	682-686	inte	_	_	_	_	_	_	
+14-11	687-690	för	_	_	_	_	_	_	
+14-12	691-694	dem	_	_	_	_	_	_	
+14-13	695-698	att	_	_	_	_	_	_	
+14-14	699-712	vidareutbilda	_	_	_	_	_	_	
+14-15	713-716	sig	_	_	_	_	_	_	
+14-16	716-717	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	719-720	#	_	_	_	_	_	_	
+15-2	720-721	P	_	_	_	_	_	_	
+15-3	722-725	IMM	_	_	_	_	_	_	
+15-4	725-726	.	_	_	_	_	_	_	
+
+#Text=De är lite märkligt att kvinnodominerande fackförbund är så svaga.
+16-1	728-730	De	_	_	_	_	_	_	
+16-2	731-733	är	_	_	_	_	_	_	
+16-3	734-738	lite	_	Target[6]	16-5[11]	false[6]	2[6]	_	
+16-4	739-747	märkligt	_	Target[6]	16-5[11]	false[6]	2[6]	_	
+16-5	748-751	att	*[11]	_	_	_	_	_	
+16-6	752-769	kvinnodominerande	*[11]	_	_	_	_	_	
+16-7	770-781	fackförbund	*[11]	_	_	_	_	_	
+16-8	782-784	är	*[11]	_	_	_	_	_	
+16-9	785-787	så	*[11]	_	_	_	_	_	
+16-10	788-793	svaga	*[11]	_	_	_	_	_	
+16-11	793-794	.	_	_	_	_	_	_	
+
+#Text=Det kommer aldrig något genombrott som förbättrar kvinnornas ställning på arbetsmarknaden.
+17-1	795-798	Det	_	_	_	_	_	_	
+17-2	799-805	kommer	_	_	_	_	_	_	
+17-3	806-812	aldrig	_	_	_	_	_	_	
+17-4	813-818	något	_	_	_	_	_	_	
+17-5	819-829	genombrott	_	_	_	_	_	_	
+17-6	830-833	som	_	_	_	_	_	_	
+17-7	834-844	förbättrar	_	_	_	_	_	_	
+17-8	845-855	kvinnornas	_	_	_	_	_	_	
+17-9	856-865	ställning	_	_	_	_	_	_	
+17-10	866-868	på	_	_	_	_	_	_	
+17-11	869-884	arbetsmarknaden	_	_	_	_	_	_	
+17-12	884-885	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+18-1	887-888	#	_	_	_	_	_	_	
+18-2	888-889	P	_	_	_	_	_	_	
+18-3	890-893	IMM	_	_	_	_	_	_	
+18-4	893-894	.	_	_	_	_	_	_	
+
+#Text=Lönerna är urusla, arbetsvillkoren ofta ovärdiga, statusen ringa och så detta ständiga samhällsansvar som kvinnodominerade yrkesgrupper alltid dras med.
+19-1	896-903	Lönerna	*	_	_	_	_	_	
+19-2	904-906	är	_	_	_	_	_	_	
+19-3	907-913	urusla	_	Target	19-1	false	1	_	
+19-4	913-914	,	_	_	_	_	_	_	
+19-5	915-930	arbetsvillkoren	*	_	_	_	_	_	
+19-6	931-935	ofta	_	_	_	_	_	_	
+19-7	936-944	ovärdiga	_	Target	19-5	false	1	_	
+19-8	944-945	,	_	_	_	_	_	_	
+19-9	946-954	statusen	*	_	_	_	_	_	
+19-10	955-960	ringa	_	Target	19-9	false	2	_	
+19-11	961-964	och	_	_	_	_	_	_	
+19-12	965-967	så	_	_	_	_	_	_	
+19-13	968-973	detta	_	_	_	_	_	_	
+19-14	974-982	ständiga	_	_	_	_	_	_	
+19-15	983-997	samhällsansvar	*	_	_	_	_	_	
+19-16	998-1001	som	_	_	_	_	_	_	
+19-17	1002-1018	kvinnodominerade	_	_	_	_	_	_	
+19-18	1019-1031	yrkesgrupper	_	_	_	_	_	_	
+19-19	1032-1038	alltid	_	_	_	_	_	_	
+19-20	1039-1043	dras	_	Target[7]	19-15	false[7]	2[7]	_	
+19-21	1044-1047	med	_	Target[7]	19-15	false[7]	2[7]	_	
+19-22	1047-1048	.	_	_	_	_	_	_	
+
+#Text=Varför är det så här?
+20-1	1049-1055	Varför	_	_	_	_	_	_	
+20-2	1056-1058	är	_	_	_	_	_	_	
+20-3	1059-1062	det	_	_	_	_	_	_	
+20-4	1063-1065	så	_	_	_	_	_	_	
+20-5	1066-1069	här	_	_	_	_	_	_	
+20-6	1069-1070	?	_	_	_	_	_	_	
+
+#Text=Varför accepterar facket att medlemmarna år efter år förringas och undervärderas?
+21-1	1071-1077	Varför	_	_	_	_	_	_	
+21-2	1078-1088	accepterar	_	_	_	_	_	_	
+21-3	1089-1095	facket	_	_	_	_	_	_	
+21-4	1096-1099	att	_	_	_	_	_	_	
+21-5	1100-1111	medlemmarna	*	_	_	_	_	_	
+21-6	1112-1114	år	_	_	_	_	_	_	
+21-7	1115-1120	efter	_	_	_	_	_	_	
+21-8	1121-1123	år	_	_	_	_	_	_	
+21-9	1124-1133	förringas	_	Target	21-5	false	1	_	
+21-10	1134-1137	och	_	_	_	_	_	_	
+21-11	1138-1151	undervärderas	_	Target	21-5	false	1	_	
+21-12	1151-1152	?	_	_	_	_	_	_	
+
+#Text=Minst halva befolkningen är kvinnor.
+22-1	1153-1158	Minst	_	_	_	_	_	_	
+22-2	1159-1164	halva	_	_	_	_	_	_	
+22-3	1165-1177	befolkningen	_	_	_	_	_	_	
+22-4	1178-1180	är	_	_	_	_	_	_	
+22-5	1181-1188	kvinnor	_	_	_	_	_	_	
+22-6	1188-1189	.	_	_	_	_	_	_	
+
+#Text=Det är dags för alla kvinnor att sätta ner stilettklacken och göra uppror.
+23-1	1190-1193	Det	_	_	_	_	_	_	
+23-2	1194-1196	är	_	_	_	_	_	_	
+23-3	1197-1201	dags	_	_	_	_	_	_	
+23-4	1202-1205	för	_	_	_	_	_	_	
+23-5	1206-1210	alla	_	_	_	_	_	_	
+23-6	1211-1218	kvinnor	_	_	_	_	_	_	
+23-7	1219-1222	att	_	_	_	_	_	_	
+23-8	1223-1228	sätta	_	_	_	_	_	_	
+23-9	1229-1232	ner	_	_	_	_	_	_	
+23-10	1233-1247	stilettklacken	_	_	_	_	_	_	
+23-11	1248-1251	och	_	_	_	_	_	_	
+23-12	1252-1256	göra	_	_	_	_	_	_	
+23-13	1257-1263	uppror	_	_	_	_	_	_	
+23-14	1263-1264	.	_	_	_	_	_	_	
+
+#Text=Så här kan vi inte ha det!.
+24-1	1265-1267	Så	_	_[8]	_	false[8]	1[8]	_	
+24-2	1268-1271	här	_	_[8]	_	false[8]	1[8]	_	
+24-3	1272-1275	kan	_	_[8]	_	false[8]	1[8]	_	
+24-4	1276-1278	vi	_	_[8]	_	false[8]	1[8]	_	
+24-5	1279-1283	inte	_	_[8]	_	false[8]	1[8]	_	
+24-6	1284-1286	ha	_	_[8]	_	false[8]	1[8]	_	
+24-7	1287-1290	det	_	_[8]	_	false[8]	1[8]	_	
+24-8	1290-1291	!	_	_	_	_	_	_	
+24-9	1291-1292	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1294-1295	#	_	_	_	_	_	_	
+25-2	1295-1296	P	_	_	_	_	_	_	
+25-3	1297-1300	IMM	_	_	_	_	_	_	
+25-4	1300-1301	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+26-1	1303-1308	Lotta	_	_	_	_	_	_	
+26-2	1309-1316	Gröning	_	_	_	_	_	_	
+26-3	1316-1317	.	_	_	_	_	_	_	

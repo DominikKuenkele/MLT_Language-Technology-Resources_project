@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Rasistskandal skakar regeringen: Carl Bildt är i hemlighet rasist!
+3-1	18-31	Rasistskandal	*	Target	3-1	false	1	_	
+3-2	32-38	skakar	_	_	_	_	_	_	
+3-3	39-49	regeringen	_	_	_	_	_	_	
+3-4	49-50	:	_	_	_	_	_	_	
+3-5	51-55	Carl	*[9]	_	_	_	_	_	
+3-6	56-61	Bildt	*[9]	_	_	_	_	_	
+3-7	62-64	är	_	Source;Target[1]	3-11;3-5[9]	false[1]	1[1]	_	
+3-8	65-66	i	_	Source;Target[1]	3-11;3-5[9]	false[1]	1[1]	_	
+3-9	67-76	hemlighet	_	Source;Target[1]	3-11;3-5[9]	false[1]	1[1]	_	
+3-10	77-83	rasist	_	Source;Target[1]	3-11;3-5[9]	false[1]	1[1]	_	
+3-11	83-84	!	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	86-87	#	_	_	_	_	_	_	
+4-2	87-88	P	_	_	_	_	_	_	
+4-3	89-92	IMM	_	_	_	_	_	_	
+4-4	92-93	.	_	_	_	_	_	_	
+
+#Text=Wikileaks avslöjar idag att utrikesminstern och den gamla statsministern Carl Bildt är rasist och gillar inte alls olika.
+5-1	95-104	Wikileaks	*	_	_	_	_	_	
+5-2	105-113	avslöjar	_	_	_	_	_	_	
+5-3	114-118	idag	_	_	_	_	_	_	
+5-4	119-122	att	_	_	_	_	_	_	
+5-5	123-138	utrikesminstern	_	_	_	_	_	_	
+5-6	139-142	och	_	_	_	_	_	_	
+5-7	143-146	den	_	_	_	_	_	_	
+5-8	147-152	gamla	_	_	_	_	_	_	
+5-9	153-167	statsministern	_	_	_	_	_	_	
+5-10	168-172	Carl	*[10]	_	_	_	_	_	
+5-11	173-178	Bildt	*[10]	_	_	_	_	_	
+5-12	179-181	är	_	Source;Target[2]	5-1;5-10[10]	false[2]	1[2]	_	
+5-13	182-188	rasist	_	Source;Target[2]	5-1;5-10[10]	false[2]	1[2]	_	
+5-14	189-192	och	_	_	_	_	_	_	
+5-15	193-199	gillar	_	Source;Target[3]	5-10[10];5-18	false[3]	1[3]	_	
+5-16	200-204	inte	_	Source;Target[3]	5-10[10];5-18	false[3]	1[3]	_	
+5-17	205-209	alls	_	Source;Target[3]	5-10[10];5-18	false[3]	1[3]	_	
+5-18	210-215	olika	*	_	_	_	_	_	
+5-19	215-216	.	_	_	_	_	_	_	
+
+#Text=Skandalen skakar om hela regeringen och svenska folket håller andan.
+6-1	217-226	Skandalen	_	_	_	_	_	_	
+6-2	227-233	skakar	_	_	_	_	_	_	
+6-3	234-236	om	_	_	_	_	_	_	
+6-4	237-241	hela	_	_	_	_	_	_	
+6-5	242-252	regeringen	_	_	_	_	_	_	
+6-6	253-256	och	_	_	_	_	_	_	
+6-7	257-264	svenska	_	_	_	_	_	_	
+6-8	265-271	folket	_	_	_	_	_	_	
+6-9	272-278	håller	_	_	_	_	_	_	
+6-10	279-284	andan	_	_	_	_	_	_	
+6-11	284-285	.	_	_	_	_	_	_	
+
+#Text=Carl Bildt har enligt tidigare källor varit värdegrundscertifierad men den certifieringen ska enligt detta vara fejk.
+7-1	286-290	Carl	_	_	_	_	_	_	
+7-2	291-296	Bildt	_	_	_	_	_	_	
+7-3	297-300	har	_	_	_	_	_	_	
+7-4	301-307	enligt	_	_	_	_	_	_	
+7-5	308-316	tidigare	_	_	_	_	_	_	
+7-6	317-323	källor	_	_	_	_	_	_	
+7-7	324-329	varit	_	_	_	_	_	_	
+7-8	330-352	värdegrundscertifierad	_	_	_	_	_	_	
+7-9	353-356	men	_	_	_	_	_	_	
+7-10	357-360	den	_	_	_	_	_	_	
+7-11	361-375	certifieringen	*	_	_	_	_	_	
+7-12	376-379	ska	_	_	_	_	_	_	
+7-13	380-386	enligt	*[11]	_	_	_	_	_	
+7-14	387-392	detta	*[11]	_	_	_	_	_	
+7-15	393-397	vara	_	Target;Source[4]	7-11;7-13[11]	false[4]	2[4]	_	
+7-16	398-402	fejk	_	Target;Source[4]	7-11;7-13[11]	false[4]	2[4]	_	
+7-17	402-403	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	405-406	#	_	_	_	_	_	_	
+8-2	406-407	P	_	_	_	_	_	_	
+8-3	408-411	IMM	_	_	_	_	_	_	
+8-4	411-412	.	_	_	_	_	_	_	
+
+#Text=Svt Text.
+9-1	414-417	Svt	_	_	_	_	_	_	
+9-2	418-422	Text	_	_	_	_	_	_	
+9-3	422-423	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	425-426	#	_	_	_	_	_	_	
+10-2	426-427	P	_	_	_	_	_	_	
+10-3	428-431	IMM	_	_	_	_	_	_	
+10-4	431-432	.	_	_	_	_	_	_	
+
+#Text=Bildt chockgeneraliserar folkgrupper endast pga rasistiska preferenser.
+11-1	434-439	Bildt	*	_	_	_	_	_	
+11-2	440-458	chockgeneraliserar	_	Target[5]	11-1	false[5]	2[5]	_	
+11-3	459-470	folkgrupper	_	Target[5]	11-1	false[5]	2[5]	_	
+11-4	471-477	endast	_	_	_	_	_	_	
+11-5	478-481	pga	_	_	_	_	_	_	
+11-6	482-492	rasistiska	_	Target	11-7	false	2	_	
+11-7	493-504	preferenser	*	_	_	_	_	_	
+11-8	504-505	.	_	_	_	_	_	_	
+
+#Text=Ingen hänsyn alls tas till individen.
+12-1	506-511	Ingen	_	_	_	_	_	_	
+12-2	512-518	hänsyn	_	_	_	_	_	_	
+12-3	519-523	alls	_	_	_	_	_	_	
+12-4	524-527	tas	_	_	_	_	_	_	
+12-5	528-532	till	_	_	_	_	_	_	
+12-6	533-542	individen	_	_	_	_	_	_	
+12-7	542-543	.	_	_	_	_	_	_	
+
+#Text=Är du från Kroatien eller Albanien så är du värdelös och inget att ha.
+13-1	544-546	Är	*[12]	_	_	_	_	_	
+13-2	547-549	du	*[12]	_	_	_	_	_	
+13-3	550-554	från	*[12]	_	_	_	_	_	
+13-4	555-563	Kroatien	*[12]	_	_	_	_	_	
+13-5	564-569	eller	*[12]	_	_	_	_	_	
+13-6	570-578	Albanien	*[12]	_	_	_	_	_	
+13-7	579-581	så	_	_	_	_	_	_	
+13-8	582-584	är	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-9	585-587	du	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-10	588-596	värdelös	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-11	597-600	och	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-12	601-606	inget	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-13	607-610	att	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-14	611-613	ha	_	Source;Target[6]	13-15;13-1[12]	false[6]	1[6]	_	
+13-15	613-614	.	*	_	_	_	_	_	
+
+#Text=Så mycket för värdegrunden!.
+14-1	615-617	Så	_	_	_	_	_	_	
+14-2	618-624	mycket	_	_	_	_	_	_	
+14-3	625-628	för	_	_	_	_	_	_	
+14-4	629-641	värdegrunden	_	_	_	_	_	_	
+14-5	641-642	!	_	_	_	_	_	_	
+14-6	642-643	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	645-646	#	_	_	_	_	_	_	
+15-2	646-647	P	_	_	_	_	_	_	
+15-3	648-651	IMM	_	_	_	_	_	_	
+15-4	651-652	.	_	_	_	_	_	_	
+
+#Text=Kan vår integration hämta sig från detta?
+16-1	654-657	Kan	_	_	_	_	_	_	
+16-2	658-661	vår	_	_	_	_	_	_	
+16-3	662-673	integration	_	_	_	_	_	_	
+16-4	674-679	hämta	_	_	_	_	_	_	
+16-5	680-683	sig	_	_	_	_	_	_	
+16-6	684-688	från	_	_	_	_	_	_	
+16-7	689-694	detta	_	_	_	_	_	_	
+16-8	694-695	?	_	_	_	_	_	_	
+
+#Text=Att utrikesministern är rasist sänder trots allt chockvågor genom värdegrunden...
+17-1	696-699	Att	_	_	_	_	_	_	
+17-2	700-716	utrikesministern	*[13]|*[14]	_	_	_	_	_	
+17-3	717-719	är	*[13]	Target[7]	17-2[14]	false[7]	1[7]	_	
+17-4	720-726	rasist	*[13]	Target[7]	17-2[14]	false[7]	1[7]	_	
+17-5	727-733	sänder	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-6	734-739	trots	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-7	740-744	allt	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-8	745-755	chockvågor	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-9	756-761	genom	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-10	762-774	värdegrunden	_	Target[8]	17-2[13]	false[8]	2[8]	_	
+17-11	774-775	.	_	_	_	_	_	_	
+17-12	775-776	.	_	_	_	_	_	_	
+17-13	776-777	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	779-780	#	_	_	_	_	_	_	
+18-2	780-781	P	_	_	_	_	_	_	
+18-3	782-785	IMM	_	_	_	_	_	_	
+18-4	785-786	.	_	_	_	_	_	_	
+
+#Text=Vad sänder det här för signaler till känsliga folkgrupper som afrosvenskar eller råmare?.
+19-1	788-791	Vad	_	_	_	_	_	_	
+19-2	792-798	sänder	_	_	_	_	_	_	
+19-3	799-802	det	_	_	_	_	_	_	
+19-4	803-806	här	_	_	_	_	_	_	
+19-5	807-810	för	_	_	_	_	_	_	
+19-6	811-819	signaler	_	_	_	_	_	_	
+19-7	820-824	till	_	_	_	_	_	_	
+19-8	825-833	känsliga	_	_	_	_	_	_	
+19-9	834-845	folkgrupper	_	_	_	_	_	_	
+19-10	846-849	som	_	_	_	_	_	_	
+19-11	850-862	afrosvenskar	_	_	_	_	_	_	
+19-12	863-868	eller	_	_	_	_	_	_	
+19-13	869-875	råmare	_	_	_	_	_	_	
+19-14	875-876	?	_	_	_	_	_	_	
+19-15	876-877	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	879-880	#	_	_	_	_	_	_	
+20-2	880-881	P	_	_	_	_	_	_	
+20-3	882-885	IMM	_	_	_	_	_	_	
+20-4	885-886	.	_	_	_	_	_	_	
+
+#Text=Bör invandringen ökas för att kompensera?.
+21-1	888-891	Bör	_	_	_	false	3	_	
+21-2	892-904	invandringen	*	_	_	_	_	_	
+21-3	905-909	ökas	_	Target	21-2	false	3	21-1	
+21-4	910-913	för	_	_	_	_	_	_	
+21-5	914-917	att	_	_	_	_	_	_	
+21-6	918-928	kompensera	_	_	_	_	_	_	
+21-7	928-929	?	_	_	_	_	_	_	
+21-8	929-930	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	932-933	#	_	_	_	_	_	_	
+22-2	933-934	P	_	_	_	_	_	_	
+22-3	935-938	IMM	_	_	_	_	_	_	
+22-4	938-939	.	_	_	_	_	_	_	
+
+#Text=Fler synpunkter?.
+23-1	941-945	Fler	_	_	_	_	_	_	
+23-2	946-956	synpunkter	_	_	_	_	_	_	
+23-3	956-957	?	_	_	_	_	_	_	
+23-4	957-958	.	_	_	_	_	_	_	

@@ -1,0 +1,135 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vi talar alla afrikanska.
+3-1	18-20	Vi	_	_	_	_	_	_	
+3-2	21-26	talar	_	_	_	_	_	_	
+3-3	27-31	alla	_	_	_	_	_	_	
+3-4	32-42	afrikanska	_	_	_	_	_	_	
+3-5	42-43	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	45-46	#	_	_	_	_	_	_	
+4-2	46-47	P	_	_	_	_	_	_	
+4-3	48-51	IMM	_	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	_	
+
+#Text=Enligt denna artikel så härstammar alla språk från ett och samma urspråk som uppkom i Afrika.
+5-1	54-60	Enligt	_	_	_	_	_	_	
+5-2	61-66	denna	_	_	_	_	_	_	
+5-3	67-74	artikel	_	_	_	_	_	_	
+5-4	75-77	så	_	_	_	_	_	_	
+5-5	78-88	härstammar	_	_	_	_	_	_	
+5-6	89-93	alla	_	_	_	_	_	_	
+5-7	94-99	språk	_	_	_	_	_	_	
+5-8	100-104	från	_	_	_	_	_	_	
+5-9	105-108	ett	_	_	_	_	_	_	
+5-10	109-112	och	_	_	_	_	_	_	
+5-11	113-118	samma	_	_	_	_	_	_	
+5-12	119-126	urspråk	_	_	_	_	_	_	
+5-13	127-130	som	_	_	_	_	_	_	
+5-14	131-137	uppkom	_	_	_	_	_	_	
+5-15	138-139	i	_	_	_	_	_	_	
+5-16	140-146	Afrika	_	_	_	_	_	_	
+5-17	146-147	.	_	_	_	_	_	_	
+
+#Text=Språket skall alltså bara uppstått en gång och sen splittrats när det spridit sig.
+6-1	148-155	Språket	*[4]	_	_	_	_	8-8[0_4]	
+6-2	156-161	skall	*[4]	_	_	_	_	_	
+6-3	162-168	alltså	*[4]	_	_	_	_	_	
+6-4	169-173	bara	*[4]	_	_	_	_	_	
+6-5	174-182	uppstått	*[4]	_	_	_	_	_	
+6-6	183-185	en	*[4]	_	_	_	_	_	
+6-7	186-190	gång	*[4]	_	_	_	_	_	
+6-8	191-194	och	*[4]	_	_	_	_	_	
+6-9	195-198	sen	*[4]	_	_	_	_	_	
+6-10	199-209	splittrats	*[4]	_	_	_	_	_	
+6-11	210-213	när	*[4]	_	_	_	_	_	
+6-12	214-217	det	*[4]	_	_	_	_	_	
+6-13	218-225	spridit	*[4]	_	_	_	_	_	
+6-14	226-229	sig	*[4]	_	_	_	_	_	
+6-15	229-230	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	232-233	#	_	_	_	_	_	_	
+7-2	233-234	P	_	_	_	_	_	_	
+7-3	235-238	IMM	_	_	_	_	_	_	
+7-4	238-239	.	_	_	_	_	_	_	
+
+#Text=Jag tycker bevisen inte alls talar för det mer än tidigare.
+8-1	241-244	Jag	_	_	_	_	_	_	
+8-2	245-251	tycker	_	Target[1]	8-8	false[1]	1[1]	_	
+8-3	252-259	bevisen	_	Target[1]	8-8	false[1]	1[1]	_	
+8-4	260-264	inte	_	Target[1]	8-8	false[1]	1[1]	_	
+8-5	265-269	alls	_	Target[1]	8-8	false[1]	1[1]	_	
+8-6	270-275	talar	_	Target[1]	8-8	false[1]	1[1]	_	
+8-7	276-279	för	_	Target[1]	8-8	false[1]	1[1]	_	
+8-8	280-283	det	*	_	_	_	_	_	
+8-9	284-287	mer	_	_	_	_	_	_	
+8-10	288-290	än	_	_	_	_	_	_	
+8-11	291-299	tidigare	_	_	_	_	_	_	
+8-12	299-300	.	_	_	_	_	_	_	
+
+#Text=Jag säger inte emot teorin men tycker inte ni också att artikeln är tunn som fan på bevis???.
+9-1	301-304	Jag	_	_	_	_	_	_	
+9-2	305-310	säger	_	Target[2]	9-5	false[2]	3[2]	_	
+9-3	311-315	inte	_	Target[2]	9-5	false[2]	3[2]	_	
+9-4	316-320	emot	_	Target[2]	9-5	false[2]	3[2]	_	
+9-5	321-327	teorin	*	_	_	_	_	_	
+9-6	328-331	men	_	_	_	_	_	_	
+9-7	332-338	tycker	_	Target[3]	9-12	false[3]	1[3]	_	
+9-8	339-343	inte	_	Target[3]	9-12	false[3]	1[3]	_	
+9-9	344-346	ni	_	Target[3]	9-12	false[3]	1[3]	_	
+9-10	347-352	också	_	Target[3]	9-12	false[3]	1[3]	_	
+9-11	353-356	att	_	Target[3]	9-12	false[3]	1[3]	_	
+9-12	357-365	artikeln	*	Target[3]	9-12	false[3]	1[3]	_	
+9-13	366-368	är	_	Target[3]	9-12	false[3]	1[3]	_	
+9-14	369-373	tunn	_	Target[3]	9-12	false[3]	1[3]	_	
+9-15	374-377	som	_	Target[3]	9-12	false[3]	1[3]	_	
+9-16	378-381	fan	_	Target[3]	9-12	false[3]	1[3]	_	
+9-17	382-384	på	_	Target[3]	9-12	false[3]	1[3]	_	
+9-18	385-390	bevis	_	Target[3]	9-12	false[3]	1[3]	_	
+9-19	390-391	?	_	Target[3]	9-12	false[3]	1[3]	_	
+9-20	391-392	?	_	_	_	_	_	_	
+9-21	392-393	?	_	_	_	_	_	_	
+9-22	393-394	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	396-397	#	_	_	_	_	_	_	
+10-2	397-398	P	_	_	_	_	_	_	
+10-3	399-402	IMM	_	_	_	_	_	_	
+10-4	402-403	.	_	_	_	_	_	_	
+
+#Text=EDIT: woops, råkade skriva omkom men ändrat till uppkom som jag avsåg att skriva.
+11-1	405-409	EDIT	_	_	_	_	_	_	
+11-2	409-410	:	_	_	_	_	_	_	
+11-3	411-416	woops	_	_	_	_	_	_	
+11-4	416-417	,	_	_	_	_	_	_	
+11-5	418-424	råkade	_	_	_	_	_	_	
+11-6	425-431	skriva	_	_	_	_	_	_	
+11-7	432-437	omkom	_	_	_	_	_	_	
+11-8	438-441	men	_	_	_	_	_	_	
+11-9	442-448	ändrat	_	_	_	_	_	_	
+11-10	449-453	till	_	_	_	_	_	_	
+11-11	454-460	uppkom	_	_	_	_	_	_	
+11-12	461-464	som	_	_	_	_	_	_	
+11-13	465-468	jag	_	_	_	_	_	_	
+11-14	469-474	avsåg	_	_	_	_	_	_	
+11-15	475-478	att	_	_	_	_	_	_	
+11-16	479-485	skriva	_	_	_	_	_	_	
+11-17	485-486	.	_	_	_	_	_	_	

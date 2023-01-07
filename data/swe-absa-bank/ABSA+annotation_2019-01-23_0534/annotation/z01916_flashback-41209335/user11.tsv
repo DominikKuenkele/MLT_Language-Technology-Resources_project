@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Den stora tråden om invandrarrelaterade brott 2013.
+3-1	18-21	Den	_	_	_	_	_	
+3-2	22-27	stora	_	_	_	_	_	
+3-3	28-34	tråden	_	_	_	_	_	
+3-4	35-37	om	_	_	_	_	_	
+3-5	38-57	invandrarrelaterade	_	Target	3-6	false	2	
+3-6	58-63	brott	*	_	_	_	_	
+3-7	64-68	2013	_	_	_	_	_	
+3-8	68-69	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	
+4-2	72-73	P	_	_[3]	_	false[3]	1[3]	
+4-3	74-77	IMM	_	_[3]	_	false[3]	1[3]	
+4-4	77-78	.	_	_	_	_	_	
+
+#Text=Ett år då invandringen skall slå rekord så lär det bli en rekordrapportering om invandrarrelaterade brott 2013.
+5-1	80-83	Ett	_	_	_	_	_	
+5-2	84-86	år	_	_	_	_	_	
+5-3	87-89	då	_	_	_	_	_	
+5-4	90-102	invandringen	_	_	_	_	_	
+5-5	103-108	skall	_	_	_	_	_	
+5-6	109-112	slå	_	_	_	_	_	
+5-7	113-119	rekord	_	_	_	_	_	
+5-8	120-122	så	_	_	_	_	_	
+5-9	123-126	lär	_	Target[4]	5-15[8]	false[4]	2[4]	
+5-10	127-130	det	_	Target[4]	5-15[8]	false[4]	2[4]	
+5-11	131-134	bli	_	Target[4]	5-15[8]	false[4]	2[4]	
+5-12	135-137	en	_	Target[4]	5-15[8]	false[4]	2[4]	
+5-13	138-156	rekordrapportering	_	Target[4]	5-15[8]	false[4]	2[4]	
+5-14	157-159	om	_	_	_	_	_	
+5-15	160-179	invandrarrelaterade	*[8]	_	_	_	_	
+5-16	180-185	brott	*[8]	_	_	_	_	
+5-17	186-190	2013	_	_	_	_	_	
+5-18	190-191	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	193-194	#	_	_	_	_	_	
+6-2	194-195	P	_	_	_	_	_	
+6-3	196-199	IMM	_	_	_	_	_	
+6-4	199-200	.	_	_	_	_	_	
+
+#Text=Visdomsorden från tras repeteras igen.
+7-1	202-214	Visdomsorden	*	Target	7-1	false	4	
+7-2	215-219	från	_	_	_	_	_	
+7-3	220-224	tras	_	_	_	_	_	
+7-4	225-234	repeteras	_	_	_	_	_	
+7-5	235-239	igen	_	_	_	_	_	
+7-6	239-240	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	242-243	#	_	_	_	_	_	
+8-2	243-244	P	_	_	_	_	_	
+8-3	245-248	IMM	_	_	_	_	_	
+8-4	248-249	.	_	_	_	_	_	
+
+#Text=Det kommer moddas mycket hårdare i den här tråden.
+9-1	251-254	Det	_	_	_	_	_	
+9-2	255-261	kommer	_	_	_	_	_	
+9-3	262-268	moddas	_	Target[5]	9-6[9]	false[5]	2[5]	
+9-4	269-275	mycket	_	Target[5]	9-6[9]	false[5]	2[5]	
+9-5	276-283	hårdare	_	Target[5]	9-6[9]	false[5]	2[5]	
+9-6	284-285	i	*[9]	_	_	_	_	
+9-7	286-289	den	*[9]	_	_	_	_	
+9-8	290-293	här	*[9]	_	_	_	_	
+9-9	294-300	tråden	*[9]	_	_	_	_	
+9-10	300-301	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	303-304	#	_	_	_	_	_	
+10-2	304-305	P	_	_[6]	_	false[6]	3[6]	
+10-3	306-309	IMM	_	_[6]	_	false[6]	3[6]	
+10-4	309-310	.	_	_	_	_	_	
+
+#Text=Välkomna till Den stora tråden om invandrarrelaterade brott 2012.
+11-1	312-320	Välkomna	_	_	_	_	_	
+11-2	321-325	till	_	_	_	_	_	
+11-3	326-329	Den	_	_	_	_	_	
+11-4	330-335	stora	_	_	_	_	_	
+11-5	336-342	tråden	_	_	_	_	_	
+11-6	343-345	om	_	_	_	_	_	
+11-7	346-365	invandrarrelaterade	_	Target	11-8	false	2	
+11-8	366-371	brott	*	_	_	_	_	
+11-9	372-376	2012	_	_	_	_	_	
+11-10	376-377	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	379-380	#	_	_	_	_	_	
+12-2	380-381	P	_	_	_	_	_	
+12-3	382-385	IMM	_	_	_	_	_	
+12-4	385-386	.	_	_	_	_	_	
+
+#Text=Samma regler gäller nu som tidigare.
+13-1	388-393	Samma	_	_	_	_	_	
+13-2	394-400	regler	_	_	_	_	_	
+13-3	401-407	gäller	_	_	_	_	_	
+13-4	408-410	nu	_	_	_	_	_	
+13-5	411-414	som	_	_	_	_	_	
+13-6	415-423	tidigare	_	_	_	_	_	
+13-7	423-424	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	426-427	#	_	_	_	_	_	
+14-2	427-428	P	_	_[7]	_	false[7]	2[7]	
+14-3	429-432	IMM	_	_[7]	_	false[7]	2[7]	
+14-4	432-433	.	_	_	_	_	_	
+
+#Text=Tråden är till för att rapportera om när våra medier rapporterar om mångkulturens baksida.
+15-1	435-441	Tråden	_	_	_	_	_	
+15-2	442-444	är	_	_	_	_	_	
+15-3	445-449	till	_	_	_	_	_	
+15-4	450-453	för	_	_	_	_	_	
+15-5	454-457	att	_	_	_	_	_	
+15-6	458-468	rapportera	_	_	_	_	_	
+15-7	469-471	om	_	_	_	_	_	
+15-8	472-475	när	_	_	_	_	_	
+15-9	476-480	våra	_	_	_	_	_	
+15-10	481-487	medier	_	_	_	_	_	
+15-11	488-499	rapporterar	_	_	_	_	_	
+15-12	500-502	om	_	_	_	_	_	
+15-13	503-516	mångkulturens	*	_	_	_	_	
+15-14	517-524	baksida	_	Target	15-13	false	2	
+15-15	524-525	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	527-528	#	_	_	_	_	_	
+16-2	528-529	P	_	_	_	_	_	
+16-3	530-533	IMM	_	_	_	_	_	
+16-4	533-534	.	_	_	_	_	_	
+
+#Text=Samma regler gäller som tidigare.
+17-1	536-541	Samma	_	_	_	_	_	
+17-2	542-548	regler	_	_	_	_	_	
+17-3	549-555	gäller	_	_	_	_	_	
+17-4	556-559	som	_	_	_	_	_	
+17-5	560-568	tidigare	_	_	_	_	_	
+17-6	568-569	.	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	571-572	#	_	_	_	_	_	
+18-2	572-573	P	_	_	_	_	_	
+18-3	574-577	IMM	_	_	_	_	_	
+18-4	577-578	.	_	_	_	_	_	
+
+#Text=Hänvisar till tidigare trådar:.
+19-1	580-588	Hänvisar	_	_	_	_	_	
+19-2	589-593	till	_	_	_	_	_	
+19-3	594-602	tidigare	_	_	_	_	_	
+19-4	603-609	trådar	_	_	_	_	_	
+19-5	609-610	:	_	_	_	_	_	
+19-6	610-611	.	_	_	_	_	_	

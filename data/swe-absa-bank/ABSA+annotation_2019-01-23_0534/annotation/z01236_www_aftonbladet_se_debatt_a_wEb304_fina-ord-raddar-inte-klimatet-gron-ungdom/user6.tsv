@@ -1,0 +1,359 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Fina ord räddar inte klimatet, Grön Ungdom.
+3-1	18-22	Fina	*[19]	Target	3-2[20]	false	4	_	_	
+3-2	23-26	ord	*[19]|*[20]	_	_	_	_	_	_	
+3-3	27-33	räddar	_	Target[1]	3-1[19]	false[1]	2[1]	_	_	
+3-4	34-38	inte	_	Target[1]	3-1[19]	false[1]	2[1]	_	_	
+3-5	39-47	klimatet	_	_	_	_	_	_	_	
+3-6	47-48	,	_	_	_	_	_	_	_	
+3-7	49-53	Grön	_	_	_	_	_	_	_	
+3-8	54-60	Ungdom	_	_	_	_	_	_	_	
+3-9	60-61	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	_	
+
+#Text=Grön ungdoms två språkrör svarade på min kritik mot Miljöpartiets otydliga, om inte irrelevanta, roll i svensk politik.
+5-1	72-76	Grön	_	_	_	_	_	_	_	
+5-2	77-84	ungdoms	_	_	_	_	_	_	_	
+5-3	85-88	två	_	_	_	_	_	_	_	
+5-4	89-97	språkrör	_	_	_	_	_	_	_	
+5-5	98-105	svarade	_	_	_	_	_	_	_	
+5-6	106-108	på	_	_	_	_	_	_	_	
+5-7	109-112	min	_	_	_	_	_	_	_	
+5-8	113-119	kritik	_	_	_	_	_	_	_	
+5-9	120-123	mot	_	_	_	_	_	_	_	
+5-10	124-137	Miljöpartiets	*	_	_	_	_	_	_	
+5-11	138-146	otydliga	_	Target;Target[2]	5-10;5-17[21]	false[2]	2[2]	_	_	
+5-12	146-147	,	_	Target;Target[2]	5-10;5-17[21]	false[2]	2[2]	_	_	
+5-13	148-150	om	_	Target;Target[2]	5-10;5-17[21]	false[2]	2[2]	_	_	
+5-14	151-155	inte	_	Target;Target[2]	5-10;5-17[21]	false[2]	2[2]	_	_	
+5-15	156-167	irrelevanta	_	Target;Target[2]	5-10;5-17[21]	false[2]	2[2]	_	_	
+5-16	167-168	,	_	_	_	_	_	_	_	
+5-17	169-173	roll	*[21]	_	_	_	_	_	_	
+5-18	174-175	i	*[21]	_	_	_	_	_	_	
+5-19	176-182	svensk	*[21]	_	_	_	_	_	_	
+5-20	183-190	politik	*[21]	_	_	_	_	_	_	
+5-21	190-191	.	_	_	_	_	_	_	_	
+
+#Text=De går på hårt angrepp och menar att Moderaterna bromsar Sveriges klimatarbete och att MUF totalt ignorerar klimatfrågan.
+6-1	192-194	De	_	_	_	_	_	_	_	
+6-2	195-198	går	_	_	_	_	_	_	_	
+6-3	199-201	på	_	_	_	_	_	_	_	
+6-4	202-206	hårt	_	Target[3]	6-8[22]	false[3]	1[3]	_	_	
+6-5	207-214	angrepp	_	Target[3]	6-8[22]	false[3]	1[3]	_	_	
+6-6	215-218	och	_	_	_	_	_	_	_	
+6-7	219-224	menar	_	_	_	_	_	_	_	
+6-8	225-228	att	*[22]	_	_	_	_	_	_	
+6-9	229-240	Moderaterna	*[22]	_	_	_	_	_	_	
+6-10	241-248	bromsar	*[22]	_	_	_	_	_	_	
+6-11	249-257	Sveriges	*[22]	_	_	_	_	_	_	
+6-12	258-270	klimatarbete	*[22]	_	_	_	_	_	_	
+6-13	271-274	och	*[22]	_	_	_	_	_	_	
+6-14	275-278	att	*[22]	_	_	_	_	_	_	
+6-15	279-282	MUF	*[22]	_	_	_	_	_	_	
+6-16	283-289	totalt	*[22]	_	_	_	_	_	_	
+6-17	290-299	ignorerar	*[22]	_	_	_	_	_	_	
+6-18	300-312	klimatfrågan	*[22]	_	_	_	_	_	_	
+6-19	312-313	.	_	_	_	_	_	_	_	
+
+#Text=Att svara offensivt är ju en tacksam strategi när man inte har så mycket att komma med – vilket är just fallet med Miljöpartiet.
+7-1	314-317	Att	*[23]	_	_	_	_	_	_	
+7-2	318-323	svara	*[23]	_	_	_	_	_	_	
+7-3	324-333	offensivt	*[23]	_	_	_	_	_	_	
+7-4	334-336	är	_	_	_	_	_	_	_	
+7-5	337-339	ju	_	_	_	_	_	_	_	
+7-6	340-342	en	_	_	_	_	_	_	_	
+7-7	343-350	tacksam	_	Target[4]	7-1[23]	true[4]	4[4]	_	_	
+7-8	351-359	strategi	_	Target[4]	7-1[23]	true[4]	4[4]	_	_	
+7-9	360-363	när	_	_	_	_	_	_	_	
+7-10	364-367	man	_	_	_	_	_	_	_	
+7-11	368-372	inte	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-12	373-376	har	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-13	377-379	så	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-14	380-386	mycket	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-15	387-390	att	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-16	391-396	komma	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-17	397-400	med	_	Target[5]	7-24	false[5]	2[5]	_	_	
+7-18	401-402	–	_	_	_	_	_	_	_	
+7-19	403-409	vilket	_	_	_	_	_	_	_	
+7-20	410-412	är	_	_	_	_	_	_	_	
+7-21	413-417	just	_	_	_	_	_	_	_	
+7-22	418-424	fallet	_	_	_	_	_	_	_	
+7-23	425-428	med	_	_	_	_	_	_	_	
+7-24	429-441	Miljöpartiet	*	_	_	_	_	_	_	
+7-25	441-442	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	444-445	#	_	_	_	_	_	_	_	
+8-2	445-446	P	_	_	_	_	_	_	_	
+8-3	447-450	IMM	_	_	_	_	_	_	_	
+8-4	450-451	.	_	_	_	_	_	_	_	
+
+#Text=Miljöpartiets klimatpolitik låter oerhört ambitiös, men i praktiken är den ineffektiv.
+9-1	453-466	Miljöpartiets	*[24]|*[25]	_	_	_	_	_	_	
+9-2	467-480	klimatpolitik	*[24]|*[25]	_	_	_	_	_	_	
+9-3	481-486	låter	_	Target[6]	9-1[24]	false[6]	4[6]	_	_	
+9-4	487-494	oerhört	_	Target[6]	9-1[24]	false[6]	4[6]	_	_	
+9-5	495-503	ambitiös	_	Target[6]	9-1[24]	false[6]	4[6]	_	_	
+9-6	503-504	,	_	_	_	_	_	_	_	
+9-7	505-508	men	_	_	_	_	_	_	_	
+9-8	509-510	i	_	_	_	_	_	_	_	
+9-9	511-520	praktiken	_	_	_	_	_	_	_	
+9-10	521-523	är	_	_	_	false	2	_	_	
+9-11	524-527	den	_	_	_	_	_	_	_	
+9-12	528-538	ineffektiv	_	Target	9-1[25]	false	2	9-10	_	
+9-13	538-539	.	_	_	_	_	_	_	_	
+
+#Text=Sju av åtta klimatförslag i regeringens budget får kritik av Konjunkturinstitutet för att de är ineffektiva.
+10-1	540-543	Sju	*[26]|*[27]	_	_	_	_	_	_	
+10-2	544-546	av	*[26]|*[27]	_	_	_	_	_	_	
+10-3	547-551	åtta	*[26]|*[27]	_	_	_	_	_	_	
+10-4	552-565	klimatförslag	*[26]|*[27]	_	_	_	_	_	_	
+10-5	566-567	i	*[26]|*[27]	_	_	_	_	_	_	
+10-6	568-579	regeringens	*[26]|*[27]	_	_	_	_	_	_	
+10-7	580-586	budget	*[26]	_	_	_	_	_	_	
+10-8	587-590	får	_	Source;Target[7]	10-11;10-1[27]	false[7]	2[7]	_	_	
+10-9	591-597	kritik	_	Source;Target[7]	10-11;10-1[27]	false[7]	2[7]	_	_	
+10-10	598-600	av	_	_	_	_	_	_	_	
+10-11	601-621	Konjunkturinstitutet	*	_	_	_	_	_	_	
+10-12	622-625	för	_	_	_	_	_	_	_	
+10-13	626-629	att	_	_	_	_	_	_	_	
+10-14	630-632	de	_	_	_	_	_	_	_	
+10-15	633-635	är	_	Target[8]	10-1[26]	false[8]	2[8]	_	_	
+10-16	636-647	ineffektiva	_	Target[8]	10-1[26]	false[8]	2[8]	_	_	
+10-17	647-648	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	650-651	#	_	_	_	_	_	_	_	
+11-2	651-652	P	_	_	_	_	_	_	_	
+11-3	653-656	IMM	_	_	_	_	_	_	_	
+11-4	656-657	.	_	_	_	_	_	_	_	
+
+#Text=Det finns heller inget egenvärde att öka miljöbudgeten om inte resurserna används effektivt och ger resultat.
+12-1	659-662	Det	_	_	_	_	_	_	_	
+12-2	663-668	finns	_	_	_	_	_	_	_	
+12-3	669-675	heller	_	_	_	_	_	_	_	
+12-4	676-681	inget	_	Target[9]	12-6[28]	false[9]	2[9]	_	_	
+12-5	682-691	egenvärde	_	Target[9]	12-6[28]	false[9]	2[9]	_	_	
+12-6	692-695	att	*[28]	_	_	_	_	_	_	
+12-7	696-699	öka	*[28]	_	_	_	_	_	_	
+12-8	700-713	miljöbudgeten	*[28]	_	_	_	_	_	_	
+12-9	714-716	om	*[28]	_	_	_	_	_	_	
+12-10	717-721	inte	*[28]	_	_	_	_	_	_	
+12-11	722-732	resurserna	*[28]	_	_	_	_	_	_	
+12-12	733-740	används	*[28]	_	_	_	_	_	_	
+12-13	741-750	effektivt	*[28]	_	_	_	_	_	_	
+12-14	751-754	och	*[28]	_	_	_	_	_	_	
+12-15	755-758	ger	*[28]	_	_	_	_	_	_	
+12-16	759-767	resultat	*[28]	_	_	_	_	_	_	
+12-17	767-768	.	_	_	_	_	_	_	_	
+
+#Text=Miljardsatsningar på elcyklar är ett utomordentligt exempel på att Miljöpartiet inte kan prioritera.
+13-1	769-786	Miljardsatsningar	*[29]	_	_	_	_	_	_	
+13-2	787-789	på	*[29]	_	_	_	_	_	_	
+13-3	790-798	elcyklar	*[29]	_	_	_	_	_	_	
+13-4	799-801	är	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-5	802-805	ett	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-6	806-820	utomordentligt	_	Target[10]|Target[11]	13-1[29]|13-7	false[10]|false[11]	2[10]|4[11]	_	_	
+13-7	821-828	exempel	*	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-8	829-831	på	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-9	832-835	att	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-10	836-848	Miljöpartiet	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-11	849-853	inte	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-12	854-857	kan	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-13	858-868	prioritera	_	Target[10]	13-1[29]	false[10]	2[10]	_	_	
+13-14	868-869	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	871-872	#	_	_	_	_	_	_	_	
+14-2	872-873	P	_	_	_	_	_	_	_	
+14-3	874-877	IMM	_	_	_	_	_	_	_	
+14-4	877-878	.	_	_	_	_	_	_	_	
+
+#Text=Fina ord räcker inte för att rädda klimatet, det måste till förslag som faktiskt ger resultat.
+15-1	880-884	Fina	*[30]	Target	15-2[31]	false	4	_	_	
+15-2	885-888	ord	*[30]|*[31]	_	_	_	_	_	_	
+15-3	889-895	räcker	_	Target[12]	15-1[30]	false[12]	2[12]	_	_	
+15-4	896-900	inte	_	Target[12]	15-1[30]	false[12]	2[12]	_	_	
+15-5	901-904	för	_	_	_	_	_	_	_	
+15-6	905-908	att	_	_	_	_	_	_	_	
+15-7	909-914	rädda	_	Target	15-8	false	4	_	_	
+15-8	915-923	klimatet	*	_	_	_	_	_	_	
+15-9	923-924	,	_	_	_	_	_	_	_	
+15-10	925-928	det	_	_	_	_	_	_	_	
+15-11	929-934	måste	_	_	_	_	_	_	_	
+15-12	935-939	till	_	_	_	_	_	_	_	
+15-13	940-947	förslag	_	Target[13]	16-5[32]	false[13]	4[13]	_	_	
+15-14	948-951	som	_	Target[13]	16-5[32]	false[13]	4[13]	_	_	
+15-15	952-960	faktiskt	_	Target[13]	16-5[32]	false[13]	4[13]	_	_	
+15-16	961-964	ger	_	Target[13]	16-5[32]	false[13]	4[13]	_	_	
+15-17	965-973	resultat	_	Target[13]	16-5[32]	false[13]	4[13]	_	_	
+15-18	973-974	.	_	_	_	_	_	_	_	
+
+#Text=Moderaterna vill bland annat tredubbla de medel som regeringen lägger på internationella klimatinvesteringar, göra en riktad satsning på att bygga ut laddinfrastruktur längs våra vägar, satsa på att minska basindustrins utsläpp och samtidigt mer än dubbla regeringens satsning på miljöforskning.
+16-1	975-986	Moderaterna	_	_	_	_	_	_	_	
+16-2	987-991	vill	_	_	_	_	_	_	_	
+16-3	992-997	bland	_	_	_	_	_	_	_	
+16-4	998-1003	annat	_	_	_	_	_	_	_	
+16-5	1004-1013	tredubbla	*[32]	_	_	_	_	_	_	
+16-6	1014-1016	de	*[32]	_	_	_	_	_	_	
+16-7	1017-1022	medel	*[32]	_	_	_	_	_	_	
+16-8	1023-1026	som	*[32]	_	_	_	_	_	_	
+16-9	1027-1037	regeringen	*[32]	_	_	_	_	_	_	
+16-10	1038-1044	lägger	*[32]	_	_	_	_	_	_	
+16-11	1045-1047	på	*[32]	_	_	_	_	_	_	
+16-12	1048-1063	internationella	*[32]	_	_	_	_	_	_	
+16-13	1064-1083	klimatinvesteringar	*[32]	_	_	_	_	_	_	
+16-14	1083-1084	,	*[32]	_	_	_	_	_	_	
+16-15	1085-1089	göra	*[32]	_	_	_	_	_	_	
+16-16	1090-1092	en	*[32]	_	_	_	_	_	_	
+16-17	1093-1099	riktad	*[32]	_	_	_	_	_	_	
+16-18	1100-1108	satsning	*[32]	_	_	_	_	_	_	
+16-19	1109-1111	på	*[32]	_	_	_	_	_	_	
+16-20	1112-1115	att	*[32]	_	_	_	_	_	_	
+16-21	1116-1121	bygga	*[32]	_	_	_	_	_	_	
+16-22	1122-1124	ut	*[32]	_	_	_	_	_	_	
+16-23	1125-1142	laddinfrastruktur	*[32]	_	_	_	_	_	_	
+16-24	1143-1148	längs	*[32]	_	_	_	_	_	_	
+16-25	1149-1153	våra	*[32]	_	_	_	_	_	_	
+16-26	1154-1159	vägar	*[32]	_	_	_	_	_	_	
+16-27	1159-1160	,	*[32]	_	_	_	_	_	_	
+16-28	1161-1166	satsa	*[32]	_	_	_	_	_	_	
+16-29	1167-1169	på	*[32]	_	_	_	_	_	_	
+16-30	1170-1173	att	*[32]	_	_	_	_	_	_	
+16-31	1174-1180	minska	*[32]	_	_	false	2	_	_	
+16-32	1181-1194	basindustrins	*[32]	_[14]	_	false[14]	2[14]	_	_	
+16-33	1195-1202	utsläpp	*[32]	_[14]	_	false[14]	2[14]	_	_	
+16-34	1203-1206	och	*[32]	_	_	_	_	_	_	
+16-35	1207-1216	samtidigt	*[32]	_	_	_	_	_	_	
+16-36	1217-1220	mer	*[32]	_	_	_	_	_	_	
+16-37	1221-1223	än	*[32]	_	_	_	_	_	_	
+16-38	1224-1230	dubbla	*[32]	_	_	_	_	_	_	
+16-39	1231-1242	regeringens	*[32]	_	_	_	_	_	_	
+16-40	1243-1251	satsning	*[32]	_	_	_	_	_	_	
+16-41	1252-1254	på	*[32]	_	_	_	_	_	_	
+16-42	1255-1269	miljöforskning	*[32]	_	_	_	_	_	_	
+16-43	1269-1270	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1272-1273	#	_	_	_	_	_	_	_	
+17-2	1273-1274	P	_	_	_	_	_	_	_	
+17-3	1275-1278	IMM	_	_	_	_	_	_	_	
+17-4	1278-1279	.	_	_	_	_	_	_	_	
+
+#Text=Moderaterna vill dessutom bygga ut järnvägen och matchar varje krona som regeringen lägger, vilket skulle innebära en ökning anslagen till järnvägens underhåll med 50 procent.
+18-1	1281-1292	Moderaterna	*	_	_	_	_	_	_	
+18-2	1293-1297	vill	_	_	_	_	_	_	_	
+18-3	1298-1306	dessutom	_	_	_	_	_	_	_	
+18-4	1307-1312	bygga	_	_	_	_	_	_	_	
+18-5	1313-1315	ut	_	_	_	_	_	_	_	
+18-6	1316-1325	järnvägen	_	_	_	_	_	_	_	
+18-7	1326-1329	och	_	_	_	_	_	_	_	
+18-8	1330-1337	matchar	_	Target[15]	18-1	false[15]	4[15]	_	_	
+18-9	1338-1343	varje	_	Target[15]	18-1	false[15]	4[15]	_	_	
+18-10	1344-1349	krona	_	Target[15]	18-1	false[15]	4[15]	_	_	
+18-11	1350-1353	som	_	_	_	_	_	_	_	
+18-12	1354-1364	regeringen	_	_	_	_	_	_	_	
+18-13	1365-1371	lägger	_	_	_	_	_	_	_	
+18-14	1371-1372	,	_	_	_	_	_	_	_	
+18-15	1373-1379	vilket	_	_	_	_	_	_	_	
+18-16	1380-1386	skulle	_	_	_	_	_	_	_	
+18-17	1387-1395	innebära	_	_	_	_	_	_	_	
+18-18	1396-1398	en	_	_	_	_	_	_	_	
+18-19	1399-1405	ökning	_	_	_	_	_	_	_	
+18-20	1406-1414	anslagen	_	_	_	_	_	_	_	
+18-21	1415-1419	till	_	_	_	_	_	_	_	
+18-22	1420-1430	järnvägens	_	_	_	_	_	_	_	
+18-23	1431-1440	underhåll	_	_	_	_	_	_	_	
+18-24	1441-1444	med	_	_	_	_	_	_	_	
+18-25	1445-1447	50	_	_	_	_	_	_	_	
+18-26	1448-1455	procent	_	_	_	_	_	_	_	
+18-27	1455-1456	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1458-1459	#	_	_	_	_	_	_	_	
+19-2	1459-1460	P	_	_	_	_	_	_	_	
+19-3	1461-1464	IMM	_	_	_	_	_	_	_	
+19-4	1464-1465	.	_	_	_	_	_	_	_	
+
+#Text=Jag står fast vid det jag skrev.
+20-1	1467-1470	Jag	*	_	_	_	_	_	_	
+20-2	1471-1475	står	_	Target;Source[16]	20-5[33];20-1	false[16]	4[16]	_	_	
+20-3	1476-1480	fast	_	Target;Source[16]	20-5[33];20-1	false[16]	4[16]	_	_	
+20-4	1481-1484	vid	_	Target;Source[16]	20-5[33];20-1	false[16]	4[16]	_	_	
+20-5	1485-1488	det	*[33]	_	_	_	_	_	_	
+20-6	1489-1492	jag	*[33]	_	_	_	_	_	_	
+20-7	1493-1498	skrev	*[33]	_	_	_	_	_	_	
+20-8	1498-1499	.	_	_	_	_	_	_	_	
+
+#Text=Miljöpartiet fyller ingen funktion i svensk politik och borde läggas ned.
+21-1	1500-1512	Miljöpartiet	*[34]|*[35]|*[36]	_	_	_	_	_	20-5[33_34]	
+21-2	1513-1519	fyller	*[34]	Target[17]	21-1[35]	false[17]	2[17]	_	_	
+21-3	1520-1525	ingen	*[34]	Target[17]	21-1[35]	false[17]	2[17]	_	_	
+21-4	1526-1534	funktion	*[34]	Target[17]	21-1[35]	false[17]	2[17]	_	_	
+21-5	1535-1536	i	*[34]	_	_	_	_	_	_	
+21-6	1537-1543	svensk	*[34]	_	_	_	_	_	_	
+21-7	1544-1551	politik	*[34]	_	_	_	_	_	_	
+21-8	1552-1555	och	*[34]	_	_	_	_	_	_	
+21-9	1556-1561	borde	*[34]	Target[18]	21-1[36]	false[18]	1[18]	_	_	
+21-10	1562-1568	läggas	*[34]	Target[18]	21-1[36]	false[18]	1[18]	_	_	
+21-11	1569-1572	ned	*[34]	Target[18]	21-1[36]	false[18]	1[18]	_	_	
+21-12	1572-1573	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1575-1576	#	_	_	_	_	_	_	_	
+22-2	1576-1577	P	_	_	_	_	_	_	_	
+22-3	1578-1581	IMM	_	_	_	_	_	_	_	
+22-4	1581-1582	.	_	_	_	_	_	_	_	
+
+#Text=Benjamin Dousa, förbundsordförande Moderata ungdomsförbundet.
+23-1	1584-1592	Benjamin	_	_	_	_	_	_	_	
+23-2	1593-1598	Dousa	_	_	_	_	_	_	_	
+23-3	1598-1599	,	_	_	_	_	_	_	_	
+23-4	1600-1618	förbundsordförande	_	_	_	_	_	_	_	
+23-5	1619-1627	Moderata	_	_	_	_	_	_	_	
+23-6	1628-1644	ungdomsförbundet	_	_	_	_	_	_	_	
+23-7	1644-1645	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1647-1648	#	_	_	_	_	_	_	_	
+24-2	1648-1649	P	_	_	_	_	_	_	_	
+24-3	1650-1653	IMM	_	_	_	_	_	_	_	
+24-4	1653-1654	.	_	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – gilla  Debatt på Facebook.
+25-1	1656-1660	Häng	_	_	_	_	_	_	_	
+25-2	1661-1664	med	_	_	_	_	_	_	_	
+25-3	1665-1666	i	_	_	_	_	_	_	_	
+25-4	1667-1675	debatten	_	_	_	_	_	_	_	
+25-5	1676-1679	och	_	_	_	_	_	_	_	
+25-6	1680-1690	kommentera	_	_	_	_	_	_	_	
+25-7	1691-1699	artikeln	_	_	_	_	_	_	_	
+25-8	1700-1701	–	_	_	_	_	_	_	_	
+25-9	1702-1707	gilla	_	_	_	_	_	_	_	
+25-10	1709-1715	Debatt	_	_	_	_	_	_	_	
+25-11	1716-1718	på	_	_	_	_	_	_	_	
+25-12	1719-1727	Facebook	_	_	_	_	_	_	_	
+25-13	1727-1728	.	_	_	_	_	_	_	_	

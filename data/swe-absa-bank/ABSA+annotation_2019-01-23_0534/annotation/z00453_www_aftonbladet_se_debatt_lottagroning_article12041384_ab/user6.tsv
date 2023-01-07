@@ -1,0 +1,318 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad satsar du på Reinfeldt?
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-28	satsar	_	_	_	_	_	_	
+3-3	29-31	du	_	_	_	_	_	_	
+3-4	32-34	på	_	_	_	_	_	_	
+3-5	35-44	Reinfeldt	_	_	_	_	_	_	
+3-6	44-45	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	47-48	#	_	_	_	_	_	_	
+4-2	48-49	P	_	_	_	_	_	_	
+4-3	50-53	IMM	_	_	_	_	_	_	
+4-4	53-54	.	_	_	_	_	_	_	
+
+#Text=Det är svårt att möta nya tider särskilt när det innebär stora strukturomvandlingar som gör att gammal industri försvinner.
+5-1	56-59	Det	_	_	_	_	_	_	
+5-2	60-62	är	_	_	_	_	_	_	
+5-3	63-68	svårt	_	Target	5-4[11]	false	2	_	
+5-4	69-72	att	*[11]	_	_	_	_	_	
+5-5	73-77	möta	*[11]	_	_	_	_	_	
+5-6	78-81	nya	*[11]	_	_	_	_	_	
+5-7	82-87	tider	*[11]	_	_	_	_	_	
+5-8	88-96	särskilt	_	_	_	_	_	_	
+5-9	97-100	när	_	_	_	_	_	_	
+5-10	101-104	det	_	_	_	_	_	_	
+5-11	105-112	innebär	_	_	_	_	_	_	
+5-12	113-118	stora	_	_	_	_	_	_	
+5-13	119-139	strukturomvandlingar	_	_	_	_	_	_	
+5-14	140-143	som	_	_	_	_	_	_	
+5-15	144-147	gör	_	_	_	_	_	_	
+5-16	148-151	att	_	_	_	_	_	_	
+5-17	152-158	gammal	_	_	_	_	_	_	
+5-18	159-167	industri	_	_	_	_	_	_	
+5-19	168-178	försvinner	_	_	_	_	_	_	
+5-20	178-179	.	_	_	_	_	_	_	
+
+#Text=Dagens ekonomiska kris är också i högsta grad en industriell kris där bilindustrin är särskilt utsatt.
+6-1	180-186	Dagens	_	_	_	_	_	_	
+6-2	187-197	ekonomiska	_	_	_	_	_	_	
+6-3	198-202	kris	_	_	_	_	_	_	
+6-4	203-205	är	_	_	_	_	_	_	
+6-5	206-211	också	_	_	_	_	_	_	
+6-6	212-213	i	_	_	_	_	_	_	
+6-7	214-220	högsta	_	_	_	_	_	_	
+6-8	221-225	grad	_	_	_	_	_	_	
+6-9	226-228	en	_	_	_	_	_	_	
+6-10	229-240	industriell	_	_	_	_	_	_	
+6-11	241-245	kris	_	_	_	_	_	_	
+6-12	246-249	där	_	_	_	_	_	_	
+6-13	250-262	bilindustrin	*	_	_	_	_	_	
+6-14	263-265	är	_	_	_	_	_	_	
+6-15	266-274	särskilt	_	_	_	_	_	_	
+6-16	275-281	utsatt	_	Target	6-13	false	2	_	
+6-17	281-282	.	_	_	_	_	_	_	
+
+#Text=Länge har bilindustrin skjutit problemen framför sig och blundat för att tillvaron förändras.
+7-1	283-288	Länge	_	_	_	_	_	_	
+7-2	289-292	har	_	_	_	_	_	_	
+7-3	293-305	bilindustrin	_	_	_	_	_	_	
+7-4	306-313	skjutit	_	_	_	_	_	_	
+7-5	314-323	problemen	_	_	_	_	_	_	
+7-6	324-331	framför	_	_	_	_	_	_	
+7-7	332-335	sig	_	_	_	_	_	_	
+7-8	336-339	och	_	_	_	_	_	_	
+7-9	340-347	blundat	_	Target[1]	7-11[12]	false[1]	2[1]	_	
+7-10	348-351	för	_	Target[1]	7-11[12]	false[1]	2[1]	_	
+7-11	352-355	att	*[12]	_	_	_	_	_	
+7-12	356-365	tillvaron	*[12]	_	_	_	_	_	
+7-13	366-375	förändras	*[12]	_	_	_	_	_	
+7-14	375-376	.	_	_	_	_	_	_	
+
+#Text=Men nu går det inte längre.
+8-1	377-380	Men	_	_	_	_	_	_	
+8-2	381-383	nu	_	_	_	_	_	_	
+8-3	384-387	går	_	_	_	_	_	_	
+8-4	388-391	det	_	_	_	_	_	_	
+8-5	392-396	inte	_	_	_	_	_	_	
+8-6	397-403	längre	_	_	_	_	_	_	
+8-7	403-404	.	_	_	_	_	_	_	
+
+#Text=Både miljön och ekonomin säger nej.
+9-1	405-409	Både	_	_	_	_	_	_	
+9-2	410-416	miljön	_	_	_	_	_	_	
+9-3	417-420	och	_	_	_	_	_	_	
+9-4	421-429	ekonomin	_	_	_	_	_	_	
+9-5	430-435	säger	_	_	_	_	_	_	
+9-6	436-439	nej	_	_	_	_	_	_	
+9-7	439-440	.	_	_	_	_	_	_	
+
+#Text=Saab är bara ett av många bilföretag i kris.
+10-1	441-445	Saab	_	_	_	_	_	_	
+10-2	446-448	är	_	_	_	_	_	_	
+10-3	449-453	bara	_	_	_	_	_	_	
+10-4	454-457	ett	_	_	_	_	_	_	
+10-5	458-460	av	_	_	_	_	_	_	
+10-6	461-466	många	_	_	_	_	_	_	
+10-7	467-477	bilföretag	_	_	_	_	_	_	
+10-8	478-479	i	_	_	_	_	_	_	
+10-9	480-484	kris	_	_	_	_	_	_	
+10-10	484-485	.	_	_	_	_	_	_	
+
+#Text=Det är självklart att svenska staten inte ska betala amerikanska GM:s skulder.
+11-1	486-489	Det	_	_	_	_	_	_	
+11-2	490-492	är	_	Target[2]	11-4[13]	false[2]	4[2]	_	
+11-3	493-503	självklart	_	Target[2]	11-4[13]	false[2]	4[2]	_	
+11-4	504-507	att	*[13]	_	_	_	_	_	
+11-5	508-515	svenska	*[13]	_	_	_	_	_	
+11-6	516-522	staten	*[13]	_	_	_	_	_	
+11-7	523-527	inte	*[13]	_	_	_	_	_	
+11-8	528-531	ska	*[13]	_	_	_	_	_	
+11-9	532-538	betala	*[13]	_	_	_	_	_	
+11-10	539-550	amerikanska	*[13]	_	_	_	_	_	
+11-11	551-553	GM	*[13]	_	_	_	_	_	
+11-12	553-554	:	*[13]	_	_	_	_	_	
+11-13	554-555	s	*[13]	_	_	_	_	_	
+11-14	556-563	skulder	*[13]	_	_	_	_	_	
+11-15	563-564	.	_	_	_	_	_	_	
+
+#Text=Det är lika självklart att staten inte ska äga en bilindustri.
+12-1	565-568	Det	_	_	_	_	_	_	
+12-2	569-571	är	_	Target[3]	12-5[14]	false[3]	4[3]	_	
+12-3	572-576	lika	_	Target[3]	12-5[14]	false[3]	4[3]	_	
+12-4	577-587	självklart	_	Target[3]	12-5[14]	false[3]	4[3]	_	
+12-5	588-591	att	*[14]	_	_	_	_	_	
+12-6	592-598	staten	*[14]	_	_	_	_	_	
+12-7	599-603	inte	*[14]	_	_	_	_	_	
+12-8	604-607	ska	*[14]	_	_	_	_	_	
+12-9	608-611	äga	*[14]	_	_	_	_	_	
+12-10	612-614	en	*[14]	_	_	_	_	_	
+12-11	615-626	bilindustri	*[14]	_	_	_	_	_	
+12-12	626-627	.	_	_	_	_	_	_	
+
+#Text=Regeringens uppgift är i stället att underlätta omställningen av näringslivet.
+13-1	628-639	Regeringens	_	_	_	_	_	_	
+13-2	640-647	uppgift	_	_	_	_	_	_	
+13-3	648-650	är	_	_	_	_	_	_	
+13-4	651-652	i	_	_	_	_	_	_	
+13-5	653-660	stället	_	_	_	_	_	_	
+13-6	661-664	att	_	_	_	_	_	_	
+13-7	665-675	underlätta	_	_	_	_	_	_	
+13-8	676-689	omställningen	_	_	_	_	_	_	
+13-9	690-692	av	_	_	_	_	_	_	
+13-10	693-705	näringslivet	_	_	_	_	_	_	
+13-11	705-706	.	_	_	_	_	_	_	
+
+#Text=Det kräver handling som skapar framtidstro.
+14-1	707-710	Det	_	_	_	_	_	_	
+14-2	711-717	kräver	_	_	_	_	_	_	
+14-3	718-726	handling	_	_	_	_	_	_	
+14-4	727-730	som	_	_	_	_	_	_	
+14-5	731-737	skapar	_	_	_	_	_	_	
+14-6	738-749	framtidstro	_	_	_	_	_	_	
+14-7	749-750	.	_	_	_	_	_	_	
+
+#Text=Människor som blir arbetslösa måste slussas in i nya jobb.
+15-1	751-760	Människor	_	_	_	_	_	_	
+15-2	761-764	som	_	_	_	_	_	_	
+15-3	765-769	blir	_	_	_	_	_	_	
+15-4	770-780	arbetslösa	*	_	_	_	_	_	
+15-5	781-786	måste	_	_	_	_	_	_	
+15-6	787-794	slussas	_	Target[4]	15-4	false[4]	2[4]	_	
+15-7	795-797	in	_	Target[4]	15-4	false[4]	2[4]	_	
+15-8	798-799	i	_	_	_	_	_	_	
+15-9	800-803	nya	_	_	_	_	_	_	
+15-10	804-808	jobb	_	_	_	_	_	_	
+15-11	808-809	.	_	_	_	_	_	_	
+
+#Text=Bilindustrin måste ersättas med nya näringar.
+16-1	810-822	Bilindustrin	_	_	_	_	_	_	
+16-2	823-828	måste	_	_	_	_	_	_	
+16-3	829-837	ersättas	_	_	_	_	_	_	
+16-4	838-841	med	_	_	_	_	_	_	
+16-5	842-845	nya	_	_	_	_	_	_	
+16-6	846-854	näringar	_	_	_	_	_	_	
+16-7	854-855	.	_	_	_	_	_	_	
+
+#Text=I den bemärkelsen är regeringen passiv.
+17-1	856-857	I	_	_	_	_	_	_	
+17-2	858-861	den	_	_	_	_	_	_	
+17-3	862-873	bemärkelsen	_	_	_	_	_	_	
+17-4	874-876	är	_	_	_	false	2	_	
+17-5	877-887	regeringen	*	_	_	_	_	_	
+17-6	888-894	passiv	_	Target	17-5	false	2	17-4	
+17-7	894-895	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	897-898	#	_	_	_	_	_	_	
+18-2	898-899	P	_	_	_	_	_	_	
+18-3	900-903	IMM	_	_	_	_	_	_	
+18-4	903-904	.	_	_	_	_	_	_	
+
+#Text=Staten är en viktig motor för näringslivet när det krisar.
+19-1	906-912	Staten	*	_	_	_	_	_	
+19-2	913-915	är	_	_	_	_	_	_	
+19-3	916-918	en	_	Target[5]	19-1	false[5]	4[5]	_	
+19-4	919-925	viktig	_	Target[5]|Target[6]	19-1|19-5	false[5]|false[6]	4[5]|4[6]	_	
+19-5	926-931	motor	*	Target[5]	19-1	false[5]	4[5]	_	
+19-6	932-935	för	_	_	_	_	_	_	
+19-7	936-948	näringslivet	_	_	_	_	_	_	
+19-8	949-952	när	_	_	_	_	_	_	
+19-9	953-956	det	_	_	_	_	_	_	
+19-10	957-963	krisar	_	_	_	_	_	_	
+19-11	963-964	.	_	_	_	_	_	_	
+
+#Text=I slutet av 1800-talet satsade samhället på telefoner när jordbruket förlorade mark.
+20-1	965-966	I	_	_	_	_	_	_	
+20-2	967-973	slutet	_	_	_	_	_	_	
+20-3	974-976	av	_	_	_	_	_	_	
+20-4	977-981	1800	_	_	_	_	_	_	
+20-5	981-982	-	_	_	_	_	_	_	
+20-6	982-987	talet	_	_	_	_	_	_	
+20-7	988-995	satsade	_	_	_	_	_	_	
+20-8	996-1005	samhället	_	_	_	_	_	_	
+20-9	1006-1008	på	_	_	_	_	_	_	
+20-10	1009-1018	telefoner	_	_	_	_	_	_	
+20-11	1019-1022	när	_	_	_	_	_	_	
+20-12	1023-1033	jordbruket	_	_	_	_	_	_	
+20-13	1034-1043	förlorade	_	_	_	_	_	_	
+20-14	1044-1048	mark	_	_	_	_	_	_	
+20-15	1048-1049	.	_	_	_	_	_	_	
+
+#Text=Tage Erlander gjorde på sin tid en storsatsning på medicinsk teknik.
+21-1	1050-1054	Tage	_	_	_	_	_	_	
+21-2	1055-1063	Erlander	_	_	_	_	_	_	
+21-3	1064-1070	gjorde	_	_	_	_	_	_	
+21-4	1071-1073	på	_	_	_	_	_	_	
+21-5	1074-1077	sin	_	_	_	_	_	_	
+21-6	1078-1081	tid	_	_	_	_	_	_	
+21-7	1082-1084	en	_	_	_	_	_	_	
+21-8	1085-1097	storsatsning	*	Target[7]|Target[8]	21-10[15]|21-8	false[7]|false[8]	4[7]|4[8]	_	
+21-9	1098-1100	på	_	_	_	_	_	_	
+21-10	1101-1110	medicinsk	*[15]	_	_	_	_	_	
+21-11	1111-1117	teknik	*[15]	_	_	_	_	_	
+21-12	1117-1118	.	_	_	_	_	_	_	
+
+#Text=Vad satsar du på Fredrik Reinfeldt som ger människor en framtidstro?
+22-1	1119-1122	Vad	_	_	_	_	_	_	
+22-2	1123-1129	satsar	_	_	_	_	_	_	
+22-3	1130-1132	du	_	_	_	_	_	_	
+22-4	1133-1135	på	_	_	_	_	_	_	
+22-5	1136-1143	Fredrik	_	_	_	_	_	_	
+22-6	1144-1153	Reinfeldt	_	_	_	_	_	_	
+22-7	1154-1157	som	_	_	_	_	_	_	
+22-8	1158-1161	ger	_	_	_	_	_	_	
+22-9	1162-1171	människor	_	_	_	_	_	_	
+22-10	1172-1174	en	_	_	_	_	_	_	
+22-11	1175-1186	framtidstro	*	Target	22-11	false	4	_	
+22-12	1186-1187	?	_	_	_	_	_	_	
+
+#Text=Det räcker inte med att tala om vargavinter, det räcker inte med att ”bara överleva”.
+23-1	1188-1191	Det	_	_	_	_	_	_	
+23-2	1192-1198	räcker	_	Target[9]	23-5[16]	false[9]	2[9]	_	
+23-3	1199-1203	inte	_	Target[9]	23-5[16]	false[9]	2[9]	_	
+23-4	1204-1207	med	_	_	_	_	_	_	
+23-5	1208-1211	att	*[16]	_	_	_	_	_	
+23-6	1212-1216	tala	*[16]	_	_	_	_	_	
+23-7	1217-1219	om	*[16]	_	_	_	_	_	
+23-8	1220-1231	vargavinter	*[16]	_	_	_	_	_	
+23-9	1231-1232	,	_	_	_	_	_	_	
+23-10	1233-1236	det	_	_	_	_	_	_	
+23-11	1237-1243	räcker	_	Target[10]	23-14[17]	false[10]	2[10]	_	
+23-12	1244-1248	inte	_	Target[10]	23-14[17]	false[10]	2[10]	_	
+23-13	1249-1252	med	_	_	_	_	_	_	
+23-14	1253-1256	att	*[17]	_	_	_	_	_	
+23-15	1257-1258	”	*[17]	_	_	_	_	_	
+23-16	1258-1262	bara	*[17]	_	_	_	_	_	
+23-17	1263-1271	överleva	*[17]	_	_	_	_	_	
+23-18	1271-1272	”	*[17]	_	_	_	_	_	
+23-19	1272-1273	.	_	_	_	_	_	_	
+
+#Text=Det krävs mera!.
+24-1	1274-1277	Det	_	_	_	_	_	_	
+24-2	1278-1283	krävs	_	_	_	_	_	_	
+24-3	1284-1288	mera	_	_	_	_	_	_	
+24-4	1288-1289	!	_	_	_	false	2	_	
+24-5	1289-1290	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1292-1293	#	_	_	_	_	_	_	
+25-2	1293-1294	P	_	_	_	_	_	_	
+25-3	1295-1298	IMM	_	_	_	_	_	_	
+25-4	1298-1299	.	_	_	_	_	_	_	
+
+#Text=Läs Lotta Grönings blogg.
+26-1	1301-1304	Läs	_	_	_	_	_	_	
+26-2	1305-1310	Lotta	_	_	_	_	_	_	
+26-3	1311-1319	Grönings	_	_	_	_	_	_	
+26-4	1320-1325	blogg	_	_	_	_	_	_	
+26-5	1325-1326	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1328-1329	#	_	_	_	_	_	_	
+27-2	1329-1330	P	_	_	_	_	_	_	
+27-3	1331-1334	IMM	_	_	_	_	_	_	
+27-4	1334-1335	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+28-1	1337-1342	Lotta	_	_	_	_	_	_	
+28-2	1343-1350	Gröning	_	_	_	_	_	_	
+28-3	1350-1351	.	_	_	_	_	_	_	

@@ -1,0 +1,162 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Om inte SD får något riktigt regeringsinflytande efter valet 2018 - vad händer då?
+3-1	18-20	Om	_	_	_	_	_	
+3-2	21-25	inte	_	_	_	_	_	
+3-3	26-28	SD	_	_	_	_	_	
+3-4	29-32	får	_	_	_	_	_	
+3-5	33-38	något	_	_	_	_	_	
+3-6	39-46	riktigt	_	_	_	_	_	
+3-7	47-66	regeringsinflytande	_	_	_	_	_	
+3-8	67-72	efter	_	_	_	_	_	
+3-9	73-78	valet	_	_	_	_	_	
+3-10	79-83	2018	_	_	_	_	_	
+3-11	84-85	-	_	_	_	_	_	
+3-12	86-89	vad	_	_	_	_	_	
+3-13	90-96	händer	_	_	_	_	_	
+3-14	97-99	då	_	_	_	_	_	
+3-15	99-100	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	102-103	#	_	_	_	_	_	
+4-2	103-104	P	_	_	_	_	_	
+4-3	105-108	IMM	_	_	_	_	_	
+4-4	108-109	.	_	_	_	_	_	
+
+#Text=Jag funderar faktiskt på om det inte kommer bli systemkollaps när det gäller de klassiska partierna i svensk politik.
+5-1	111-114	Jag	_	_	_	_	_	
+5-2	115-123	funderar	_	_	_	_	_	
+5-3	124-132	faktiskt	_	_	_	_	_	
+5-4	133-135	på	_	_	_	_	_	
+5-5	136-138	om	_	_	_	_	_	
+5-6	139-142	det	_	_	_	_	_	
+5-7	143-147	inte	_	_	_	_	_	
+5-8	148-154	kommer	_	_	_	_	_	
+5-9	155-158	bli	_	_	_	_	_	
+5-10	159-172	systemkollaps	*	Target	5-10	false	2	
+5-11	173-176	när	_	_	_	_	_	
+5-12	177-180	det	_	_	_	_	_	
+5-13	181-187	gäller	_	_	_	_	_	
+5-14	188-190	de	_	_	_	_	_	
+5-15	191-200	klassiska	_	_	_	_	_	
+5-16	201-210	partierna	_	_	_	_	_	
+5-17	211-212	i	_	_	_	_	_	
+5-18	213-219	svensk	_	_	_	_	_	
+5-19	220-227	politik	_	_	_	_	_	
+5-20	227-228	.	_	_	_	false	2	
+
+#Text=Visst röda och blåa partier kan börja samarbeta över gränserna efter valet 2018.
+6-1	229-234	Visst	_	Target	6-2[2]	false	3	
+6-2	235-239	röda	*[2]	_	_	_	_	
+6-3	240-243	och	*[2]	_	_	_	_	
+6-4	244-248	blåa	*[2]	_	_	_	_	
+6-5	249-256	partier	*[2]	_	_	_	_	
+6-6	257-260	kan	*[2]	_	_	_	_	
+6-7	261-266	börja	*[2]	_	_	_	_	
+6-8	267-276	samarbeta	*[2]	_	_	_	_	
+6-9	277-281	över	*[2]	_	_	_	_	
+6-10	282-291	gränserna	*[2]	_	_	_	_	
+6-11	292-297	efter	*[2]	_	_	_	_	
+6-12	298-303	valet	*[2]	_	_	_	_	
+6-13	304-308	2018	*[2]	_	_	_	_	
+6-14	308-309	.	_	_	_	_	_	
+
+#Text=Men väljarförtroendet kommer ju rasa som attan då inget parti längre kan ses som individuellt, ja förutom SD och de som står utanför regeringen.
+7-1	310-313	Men	_	_	_	_	_	
+7-2	314-331	väljarförtroendet	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-3	332-338	kommer	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-4	339-341	ju	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-5	342-346	rasa	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-6	347-350	som	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-7	351-356	attan	_	Target[1]	7-8[3]	false[1]	2[1]	
+7-8	357-359	då	*[3]	_	_	_	_	
+7-9	360-365	inget	*[3]	_	_	_	_	
+7-10	366-371	parti	*[3]	_	_	_	_	
+7-11	372-378	längre	*[3]	_	_	_	_	
+7-12	379-382	kan	*[3]	_	_	_	_	
+7-13	383-386	ses	*[3]	_	_	_	_	
+7-14	387-390	som	*[3]	_	_	_	_	
+7-15	391-403	individuellt	*[3]	_	_	_	_	
+7-16	403-404	,	_	_	_	_	_	
+7-17	405-407	ja	_	_	_	_	_	
+7-18	408-415	förutom	_	_	_	_	_	
+7-19	416-418	SD	_	_	_	_	_	
+7-20	419-422	och	_	_	_	_	_	
+7-21	423-425	de	_	_	_	_	_	
+7-22	426-429	som	_	_	_	_	_	
+7-23	430-434	står	_	_	_	_	_	
+7-24	435-442	utanför	_	_	_	_	_	
+7-25	443-453	regeringen	_	_	_	_	_	
+7-26	453-454	.	_	_	_	_	_	
+
+#Text=Tror vi behöver få in ett nytt parti till, och det är inte feministiskt initiativ jag tänker på utan snarare något liknande Macrons en marche.
+8-1	455-459	Tror	_	_	_	_	_	
+8-2	460-462	vi	_	_	_	_	_	
+8-3	463-470	behöver	_	_	_	_	_	
+8-4	471-473	få	_	_	_	_	_	
+8-5	474-476	in	_	_	_	_	_	
+8-6	477-480	ett	_	_	_	_	_	
+8-7	481-485	nytt	_	_	_	_	_	
+8-8	486-491	parti	_	_	_	_	_	
+8-9	492-496	till	_	_	_	_	_	
+8-10	496-497	,	_	_	_	_	_	
+8-11	498-501	och	_	_	_	_	_	
+8-12	502-505	det	_	_	_	_	_	
+8-13	506-508	är	_	_	_	_	_	
+8-14	509-513	inte	_	_	_	_	_	
+8-15	514-526	feministiskt	_	_	_	_	_	
+8-16	527-536	initiativ	_	_	_	_	_	
+8-17	537-540	jag	_	_	_	_	_	
+8-18	541-547	tänker	_	_	_	_	_	
+8-19	548-550	på	_	_	_	_	_	
+8-20	551-555	utan	_	_	_	_	_	
+8-21	556-563	snarare	_	_	_	_	_	
+8-22	564-569	något	_	_	_	_	_	
+8-23	570-578	liknande	_	_	_	_	_	
+8-24	579-586	Macrons	_	_	_	_	_	
+8-25	587-589	en	_	_	_	_	_	
+8-26	590-596	marche	_	_	_	_	_	
+8-27	596-597	.	_	_	_	_	_	
+
+#Text=Nytt folk som har haft kontakt med medborgarna i sina tidigare yrken.
+9-1	598-602	Nytt	_	_	_	_	_	
+9-2	603-607	folk	_	_	_	_	_	
+9-3	608-611	som	_	_	_	_	_	
+9-4	612-615	har	_	_	_	_	_	
+9-5	616-620	haft	_	_	_	_	_	
+9-6	621-628	kontakt	_	_	_	_	_	
+9-7	629-632	med	_	_	_	_	_	
+9-8	633-644	medborgarna	_	_	_	_	_	
+9-9	645-646	i	_	_	_	_	_	
+9-10	647-651	sina	_	_	_	_	_	
+9-11	652-660	tidigare	_	_	_	_	_	
+9-12	661-666	yrken	_	_	_	_	_	
+9-13	666-667	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	669-670	#	_	_	_	_	_	
+10-2	670-671	P	_	_	_	_	_	
+10-3	672-675	IMM	_	_	_	_	_	
+10-4	675-676	.	_	_	_	_	_	
+
+#Text=Vad tror ni?.
+11-1	678-681	Vad	_	_	_	_	_	
+11-2	682-686	tror	_	_	_	_	_	
+11-3	687-689	ni	_	_	_	_	_	
+11-4	689-690	?	_	_	_	_	_	
+11-5	690-691	.	_	_	_	_	_	

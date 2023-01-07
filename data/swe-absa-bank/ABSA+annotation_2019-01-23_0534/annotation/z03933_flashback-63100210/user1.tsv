@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Ungern hotar lämna FN-samtal om migration.
+3-1	18-24	Ungern	_	_	_	_	_	_	
+3-2	25-30	hotar	_	_	_	_	_	_	
+3-3	31-36	lämna	_	_	_	_	_	_	
+3-4	37-46	FN-samtal	_	_	_	_	_	_	
+3-5	47-49	om	_	_	_	_	_	_	
+3-6	50-59	migration	_	_	_	_	_	_	
+3-7	59-60	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	
+
+#Text=Detta är en en intressant sak:.
+5-1	71-76	Detta	_	_	_	_	_	_	
+5-2	77-79	är	_	_	_	_	_	_	
+5-3	80-82	en	_	_	_	_	_	_	
+5-4	83-85	en	_	_	_	_	_	_	
+5-5	86-96	intressant	_	_	_	_	_	_	
+5-6	97-100	sak	_	_	_	_	_	_	
+5-7	100-101	:	_	_	_	_	_	_	
+5-8	101-102	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	104-105	#	_	_	_	_	_	_	
+6-2	105-106	P	_	_	_	_	_	_	
+6-3	107-110	IMM	_	_	_	false	3	_	
+6-4	110-111	.	_	_	_	_	_	_	
+
+#Text=Hur kommer EU att agera på detta?
+7-1	113-116	Hur	_	_	_	_	_	_	
+7-2	117-123	kommer	_	_	_	_	_	_	
+7-3	124-126	EU	_	_	_	_	_	_	
+7-4	127-130	att	_	_	_	_	_	_	
+7-5	131-136	agera	_	_	_	_	_	_	
+7-6	137-139	på	_	_	_	_	_	_	
+7-7	140-145	detta	_	_	_	_	_	_	
+7-8	145-146	?	_	_	_	_	_	_	
+
+#Text=Nu vet vi att EU försöker tvinga sig på  Visegradländerna utomeuropeisk invandring.
+8-1	147-149	Nu	_	_	_	_	_	_	
+8-2	150-153	vet	_	_	_	_	_	_	
+8-3	154-156	vi	_	_	_	_	_	_	
+8-4	157-160	att	_	_	_	_	_	_	
+8-5	161-163	EU	_	_	_	_	_	_	
+8-6	164-172	försöker	_	_	_	_	_	_	
+8-7	173-179	tvinga	_	_	_	_	_	_	
+8-8	180-183	sig	_	_	_	_	_	_	
+8-9	184-186	på	_	_	_	_	_	_	
+8-10	188-204	Visegradländerna	_	_	_	_	_	_	
+8-11	205-218	utomeuropeisk	_	_	_	_	_	_	
+8-12	219-229	invandring	_	_	_	_	_	_	
+8-13	229-230	.	_	_	_	_	_	_	
+
+#Text=EU vill ju att dessa länder skall ta sig till en kvot av migranter ( muslimska) som dom ej vill och gör dom inte detta skall bidrag från EU dras in.
+9-1	232-234	EU	*	_	_	_	_	_	
+9-2	235-239	vill	_	Source;Target	9-1;9-4[2]	false	4	_	
+9-3	240-242	ju	_	_	_	_	_	_	
+9-4	243-246	att	*[2]	_	_	_	_	_	
+9-5	247-252	dessa	*[2]|*[3]	_	_	_	_	9-19[5_3]	
+9-6	253-259	länder	*[2]|*[3]	_	_	_	_	_	
+9-7	260-265	skall	*[2]|*[4]	_	_	_	_	_	
+9-8	266-268	ta	*[2]|*[4]	_	_	_	_	_	
+9-9	269-272	sig	*[2]|*[4]	_	_	_	_	_	
+9-10	273-277	till	*[2]|*[4]	_	_	_	_	_	
+9-11	278-280	en	*[2]|*[4]	_	_	_	_	_	
+9-12	281-285	kvot	*[2]|*[4]	_	_	_	_	_	
+9-13	286-288	av	*[2]|*[4]	_	_	_	_	_	
+9-14	289-298	migranter	*[2]|*[4]	_	_	_	_	_	
+9-15	299-300	(	*[2]|*[4]	_	_	_	_	_	
+9-16	301-310	muslimska	*[2]|*[4]	_	_	_	_	_	
+9-17	310-311	)	*[2]	_	_	_	_	_	
+9-18	312-315	som	*[2]	_	_	_	_	_	
+9-19	316-319	dom	*[2]|*[5]	_	_	_	_	_	
+9-20	320-322	ej	*[2]	Source;Target[1]	9-19[5];9-7[4]	false[1]	4[1]	_	
+9-21	323-327	vill	*[2]	Source;Target[1]	9-19[5];9-7[4]	false[1]	4[1]	_	
+9-22	328-331	och	_	_	_	_	_	_	
+9-23	332-335	gör	_	_	_	_	_	_	
+9-24	336-339	dom	_	_	_	_	_	_	
+9-25	340-344	inte	_	_	_	_	_	_	
+9-26	345-350	detta	_	_	_	_	_	_	
+9-27	351-356	skall	_	_	_	_	_	_	
+9-28	357-363	bidrag	_	_	_	_	_	_	
+9-29	364-368	från	_	_	_	_	_	_	
+9-30	369-371	EU	_	_	_	_	_	_	
+9-31	372-376	dras	_	_	_	_	_	_	
+9-32	377-379	in	_	_	_	_	_	_	
+9-33	379-380	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	382-383	#	_	_	_	_	_	_	
+10-2	383-384	P	_	_	_	_	_	_	
+10-3	385-388	IMM	_	_	_	_	_	_	
+10-4	388-389	.	_	_	_	_	_	_	
+
+#Text=Hur påverkar det EU om Ungern går ur EU efter en folkomröstning?.
+11-1	391-394	Hur	_	_	_	_	_	_	
+11-2	395-403	påverkar	_	_	_	_	_	_	
+11-3	404-407	det	_	_	_	_	_	_	
+11-4	408-410	EU	_	_	_	_	_	_	
+11-5	411-413	om	_	_	_	_	_	_	
+11-6	414-420	Ungern	_	_	_	_	_	_	
+11-7	421-424	går	_	_	_	_	_	_	
+11-8	425-427	ur	_	_	_	_	_	_	
+11-9	428-430	EU	_	_	_	_	_	_	
+11-10	431-436	efter	_	_	_	_	_	_	
+11-11	437-439	en	_	_	_	_	_	_	
+11-12	440-454	folkomröstning	_	_	_	_	_	_	
+11-13	454-455	?	_	_	_	_	_	_	
+11-14	455-456	.	_	_	_	_	_	_	

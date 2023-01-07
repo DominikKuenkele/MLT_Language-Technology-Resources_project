@@ -1,0 +1,718 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Drottningen tvingas in i åsiktskorridoren.
+3-1	18-29	Drottningen	_	_	_	_	_	_	_	
+3-2	30-37	tvingas	_	_	_	_	_	_	_	
+3-3	38-40	in	_	_	_	_	_	_	_	
+3-4	41-42	i	_	_	_	_	_	_	_	
+3-5	43-59	åsiktskorridoren	*	Target	3-5	false	2	_	_	
+3-6	59-60	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	_	
+
+#Text=Nyheten har gått varm genom svenska medier om Uppsala universitets och hovets drastiska beslut att ställa in ceremonin där drottning Silvia skulle ta emot en utmärkelse för sitt arbete för dem som fallit offer för trafficking.
+5-1	71-78	Nyheten	_	_	_	_	_	_	_	
+5-2	79-82	har	_	_	_	_	_	_	_	
+5-3	83-87	gått	_	_	_	_	_	_	_	
+5-4	88-92	varm	_	_	_	_	_	_	_	
+5-5	93-98	genom	_	_	_	_	_	_	_	
+5-6	99-106	svenska	_	_	_	_	_	_	_	
+5-7	107-113	medier	_	_	_	_	_	_	_	
+5-8	114-116	om	_	_	_	_	_	_	_	
+5-9	117-124	Uppsala	*[18]	_	_	_	_	_	_	
+5-10	125-137	universitets	*[18]	_	_	_	_	_	_	
+5-11	138-141	och	_	_	_	_	_	_	_	
+5-12	142-148	hovets	*	_	_	_	_	_	_	
+5-13	149-158	drastiska	_	Source;Target;Target[1]	5-37;5-9[18];5-12	false[1]	2[1]	_	_	
+5-14	159-165	beslut	_	Source;Target;Target[1]	5-37;5-9[18];5-12	false[1]	2[1]	_	_	
+5-15	166-169	att	_	_	_	_	_	_	_	
+5-16	170-176	ställa	_	_	_	_	_	_	_	
+5-17	177-179	in	_	_	_	_	_	_	_	
+5-18	180-189	ceremonin	_	_	_	_	_	_	_	
+5-19	190-193	där	_	_	_	_	_	_	_	
+5-20	194-203	drottning	_	_	_	_	_	_	_	
+5-21	204-210	Silvia	_	_	_	_	_	_	_	
+5-22	211-217	skulle	_	_	_	_	_	_	_	
+5-23	218-220	ta	_	_	_	_	_	_	_	
+5-24	221-225	emot	_	_	_	_	_	_	_	
+5-25	226-228	en	_	_	_	_	_	_	_	
+5-26	229-239	utmärkelse	_	_	_	_	_	_	_	
+5-27	240-243	för	_	_	_	_	_	_	_	
+5-28	244-248	sitt	_	_	_	_	_	_	_	
+5-29	249-255	arbete	_	_	_	_	_	_	_	
+5-30	256-259	för	_	_	_	_	_	_	_	
+5-31	260-263	dem	_	_	_	_	_	_	_	
+5-32	264-267	som	_	_	_	_	_	_	_	
+5-33	268-274	fallit	_	_	_	_	_	_	_	
+5-34	275-280	offer	_	_	_	_	_	_	_	
+5-35	281-284	för	_	_	_	_	_	_	_	
+5-36	285-296	trafficking	_	_	_	_	_	_	_	
+5-37	296-297	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	299-300	#	_	_	_	_	_	_	_	
+6-2	300-301	P	_	_	_	_	_	_	_	
+6-3	302-305	IMM	_	_	_	_	_	_	_	
+6-4	305-306	.	_	_	_	_	_	_	_	
+
+#Text=Själva den tänkta ceremonin är i sig varken problematisk eller kontroversiell.
+7-1	308-314	Själva	*[19]	_	_	_	_	_	_	
+7-2	315-318	den	*[19]	_	_	_	_	_	_	
+7-3	319-325	tänkta	*[19]	_	_	_	_	_	_	
+7-4	326-335	ceremonin	*[19]	_	_	_	_	_	_	
+7-5	336-338	är	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-6	339-340	i	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-7	341-344	sig	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-8	345-351	varken	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-9	352-364	problematisk	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-10	365-370	eller	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-11	371-385	kontroversiell	_	Target[2]	7-1[19]	false[2]	3[2]	_	_	
+7-12	385-386	.	_	_	_	_	_	_	_	
+
+#Text=Men varken metoden eller motiveringen att stoppa utdelningen var speciellt snygg.
+8-1	387-390	Men	_	_	_	_	_	_	_	
+8-2	391-397	varken	_	_	_	false	2	_	_	
+8-3	398-405	metoden	*[20]	_	_	_	_	_	_	
+8-4	406-411	eller	*[20]	_	_	_	_	_	_	
+8-5	412-424	motiveringen	*[20]	_	_	_	_	_	_	
+8-6	425-428	att	*[20]	_	_	_	_	_	_	
+8-7	429-435	stoppa	*[20]	_	_	_	_	_	_	
+8-8	436-447	utdelningen	*[20]	_	_	_	_	_	_	
+8-9	448-451	var	_	Target[3]	8-3[20]	false[3]	2[3]	8-2[0_3]	_	
+8-10	452-461	speciellt	_	Target[3]	8-3[20]	false[3]	2[3]	_	_	
+8-11	462-467	snygg	_	Target[3]	8-3[20]	false[3]	2[3]	_	_	
+8-12	467-468	.	_	_	_	_	_	_	_	
+
+#Text=För det skedde genom att flytta fokus från ceremonins och utmärkelsens innehåll till en annan människovärdeskopplad fråga som den utdelande organisationen Scandinavian Human Rights Lawyers också arbetar för, nämligen ofödda människors rätt till liv och värdighet.
+9-1	469-472	För	_	_	_	_	_	_	_	
+9-2	473-476	det	_	_	_	_	_	_	_	
+9-3	477-483	skedde	_	_	_	_	_	_	_	
+9-4	484-489	genom	_	_	_	_	_	_	_	
+9-5	490-493	att	*[21]	_	_	_	_	_	11-1[22_21]	
+9-6	494-500	flytta	*[21]	_	_	_	_	_	_	
+9-7	501-506	fokus	*[21]	_	_	_	_	_	_	
+9-8	507-511	från	*[21]	_	_	_	_	_	_	
+9-9	512-522	ceremonins	*[21]	_	_	_	_	_	_	
+9-10	523-526	och	*[21]	_	_	_	_	_	_	
+9-11	527-539	utmärkelsens	*[21]	_	_	_	_	_	_	
+9-12	540-548	innehåll	*[21]	_	_	_	_	_	_	
+9-13	549-553	till	*[21]	_	_	_	_	_	_	
+9-14	554-556	en	*[21]	_	_	_	_	_	_	
+9-15	557-562	annan	*[21]	_	_	_	_	_	_	
+9-16	563-584	människovärdeskopplad	*[21]	_	_	_	_	_	_	
+9-17	585-590	fråga	*[21]	_	_	_	_	_	_	
+9-18	591-594	som	*[21]	_	_	_	_	_	_	
+9-19	595-598	den	*[21]	_	_	_	_	_	_	
+9-20	599-608	utdelande	*[21]	_	_	_	_	_	_	
+9-21	609-623	organisationen	*[21]	_	_	_	_	_	_	
+9-22	624-636	Scandinavian	*[21]	_	_	_	_	_	_	
+9-23	637-642	Human	*[21]	_	_	_	_	_	_	
+9-24	643-649	Rights	*[21]	_	_	_	_	_	_	
+9-25	650-657	Lawyers	*[21]	_	_	_	_	_	_	
+9-26	658-663	också	*[21]	_	_	_	_	_	_	
+9-27	664-671	arbetar	*[21]	_	_	_	_	_	_	
+9-28	672-675	för	*[21]	_	_	_	_	_	_	
+9-29	675-676	,	*[21]	_	_	_	_	_	_	
+9-30	677-685	nämligen	*[21]	_	_	_	_	_	_	
+9-31	686-692	ofödda	*[21]	_	_	_	_	_	_	
+9-32	693-703	människors	*[21]	_	_	_	_	_	_	
+9-33	704-708	rätt	*[21]	_	_	_	_	_	_	
+9-34	709-713	till	*[21]	_	_	_	_	_	_	
+9-35	714-717	liv	*[21]	_	_	_	_	_	_	
+9-36	718-721	och	*[21]	_	_	_	_	_	_	
+9-37	722-731	värdighet	*[21]	_	_	_	_	_	_	
+9-38	731-732	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	734-735	#	_	_	_	_	_	_	_	
+10-2	735-736	P	_	_	_	_	_	_	_	
+10-3	737-740	IMM	_	_	_	_	_	_	_	
+10-4	740-741	.	_	_	_	_	_	_	_	
+
+#Text=Den här händelsen väcker flera viktiga frågor.
+11-1	743-746	Den	*[22]	_	_	_	_	_	_	
+11-2	747-750	här	*[22]	_	_	_	_	_	_	
+11-3	751-760	händelsen	*[22]	_	_	_	_	_	_	
+11-4	761-767	väcker	_	Target[4]	11-1[22]	false[4]	3[4]	_	_	
+11-5	768-773	flera	_	Target[4]	11-1[22]	false[4]	3[4]	_	_	
+11-6	774-781	viktiga	_	Target[4]|Target[5]	11-1[22]|11-7	false[4]|false[5]	3[4]|4[5]	_	_	
+11-7	782-788	frågor	*	Target[4]	11-1[22]	false[4]	3[4]	_	_	
+11-8	788-789	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar dels om Uppsala universitets roll som en del i det öppna demokratiska samhället.
+12-1	790-793	Det	_	_	_	_	_	_	_	
+12-2	794-801	handlar	_	_	_	_	_	_	_	
+12-3	802-806	dels	_	_	_	_	_	_	_	
+12-4	807-809	om	_	_	_	_	_	_	_	
+12-5	810-817	Uppsala	_	_	_	_	_	_	_	
+12-6	818-830	universitets	_	_	_	_	_	_	_	
+12-7	831-835	roll	_	_	_	_	_	_	_	
+12-8	836-839	som	_	_	_	_	_	_	_	
+12-9	840-842	en	_	_	_	_	_	_	_	
+12-10	843-846	del	_	_	_	_	_	_	_	
+12-11	847-848	i	_	_	_	_	_	_	_	
+12-12	849-852	det	_	_	_	_	_	_	_	
+12-13	853-858	öppna	_	Target[6]	12-15	false[6]	4[6]	_	_	
+12-14	859-871	demokratiska	_	Target[6]	12-15	false[6]	4[6]	_	_	
+12-15	872-881	samhället	*	_	_	_	_	_	_	
+12-16	881-882	.	_	_	_	_	_	_	_	
+
+#Text=Men frågan blir dubbelt problematisk när vi ska försöka förstå varför Sveriges drottning avstår från att ta emot ett pris för sitt arbete med trafficking, enbart på grund av att arrangören också försvarar ofödda barns rättigheter.
+13-1	883-886	Men	_	_	_	_	_	_	_	
+13-2	887-893	frågan	_	_	_	_	_	_	_	
+13-3	894-898	blir	_	_	_	_	_	_	_	
+13-4	899-906	dubbelt	_	_	_	_	_	_	_	
+13-5	907-919	problematisk	_	_	_	_	_	_	_	
+13-6	920-923	när	_	_	_	_	_	_	_	
+13-7	924-926	vi	_	_	_	_	_	_	_	
+13-8	927-930	ska	_	_	_	_	_	_	_	
+13-9	931-938	försöka	_	_	_	_	_	_	_	
+13-10	939-945	förstå	_	_	_	_	_	_	_	
+13-11	946-952	varför	_	_	_	_	_	_	_	
+13-12	953-961	Sveriges	_	_	_	_	_	_	_	
+13-13	962-971	drottning	_	_	_	_	_	_	_	
+13-14	972-978	avstår	_	_	_	_	_	_	_	
+13-15	979-983	från	_	_	_	_	_	_	_	
+13-16	984-987	att	_	_	_	_	_	_	_	
+13-17	988-990	ta	_	_	_	_	_	_	_	
+13-18	991-995	emot	_	_	_	_	_	_	_	
+13-19	996-999	ett	_	_	_	_	_	_	_	
+13-20	1000-1004	pris	_	_	_	_	_	_	_	
+13-21	1005-1008	för	_	_	_	_	_	_	_	
+13-22	1009-1013	sitt	_	_	_	_	_	_	_	
+13-23	1014-1020	arbete	_	_	_	_	_	_	_	
+13-24	1021-1024	med	_	_	_	_	_	_	_	
+13-25	1025-1036	trafficking	_	_	_	_	_	_	_	
+13-26	1036-1037	,	_	_	_	_	_	_	_	
+13-27	1038-1044	enbart	_	_	_	_	_	_	_	
+13-28	1045-1047	på	_	_	_	_	_	_	_	
+13-29	1048-1053	grund	_	_	_	_	_	_	_	
+13-30	1054-1056	av	_	_	_	_	_	_	_	
+13-31	1057-1060	att	_	_	_	_	_	_	_	
+13-32	1061-1071	arrangören	_	_	_	_	_	_	_	
+13-33	1072-1077	också	_	_	_	_	_	_	_	
+13-34	1078-1087	försvarar	_	_	_	_	_	_	_	
+13-35	1088-1094	ofödda	_	_	_	_	_	_	_	
+13-36	1095-1100	barns	_	_	_	_	_	_	_	
+13-37	1101-1112	rättigheter	_	_	_	_	_	_	_	
+13-38	1112-1113	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1115-1116	#	_	_	_	_	_	_	_	
+14-2	1116-1117	P	_	_	_	_	_	_	_	
+14-3	1118-1121	IMM	_	_	_	_	_	_	_	
+14-4	1121-1122	.	_	_	_	_	_	_	_	
+
+#Text=Att Sveriges statschef och hans närmaste inte ska uttala sig i omtvistade frågor där regeringen eller svenska folket kan förväntas tycka helt annorlunda må vara hänt.
+15-1	1124-1127	Att	*[23]	_	_	_	_	_	_	
+15-2	1128-1136	Sveriges	*[23]	_	_	_	_	_	_	
+15-3	1137-1146	statschef	*[23]	_	_	_	_	_	_	
+15-4	1147-1150	och	*[23]	_	_	_	_	_	_	
+15-5	1151-1155	hans	*[23]	_	_	_	_	_	_	
+15-6	1156-1164	närmaste	*[23]	_	_	_	_	_	_	
+15-7	1165-1169	inte	*[23]	_	_	_	_	_	_	
+15-8	1170-1173	ska	*[23]	_	_	_	_	_	_	
+15-9	1174-1180	uttala	*[23]	_	_	_	_	_	_	
+15-10	1181-1184	sig	*[23]	_	_	_	_	_	_	
+15-11	1185-1186	i	*[23]	_	_	_	_	_	_	
+15-12	1187-1197	omtvistade	*[23]	_	_	_	_	_	_	
+15-13	1198-1204	frågor	*[23]	_	_	_	_	_	_	
+15-14	1205-1208	där	*[23]	_	_	_	_	_	_	
+15-15	1209-1219	regeringen	*[23]	_	_	_	_	_	_	
+15-16	1220-1225	eller	*[23]	_	_	_	_	_	_	
+15-17	1226-1233	svenska	*[23]	_	_	_	_	_	_	
+15-18	1234-1240	folket	*[23]	_	_	_	_	_	_	
+15-19	1241-1244	kan	*[23]	_	_	_	_	_	_	
+15-20	1245-1254	förväntas	*[23]	_	_	_	_	_	_	
+15-21	1255-1260	tycka	*[23]	_	_	_	_	_	_	
+15-22	1261-1265	helt	*[23]	_	_	_	_	_	_	
+15-23	1266-1276	annorlunda	*[23]	_	_	_	_	_	_	
+15-24	1277-1279	må	_	Target[7]	15-1[23]	false[7]	3[7]	_	_	
+15-25	1280-1284	vara	_	Target[7]	15-1[23]	false[7]	3[7]	_	_	
+15-26	1285-1289	hänt	_	Target[7]	15-1[23]	false[7]	3[7]	_	_	
+15-27	1289-1290	.	_	_	_	_	_	_	_	
+
+#Text=Men saken här gäller inte ett uttalande, utan ett mottagande av ett pris.
+16-1	1291-1294	Men	_	_	_	_	_	_	_	
+16-2	1295-1300	saken	_	_	_	_	_	_	_	
+16-3	1301-1304	här	_	_	_	_	_	_	_	
+16-4	1305-1311	gäller	_	_	_	_	_	_	_	
+16-5	1312-1316	inte	_	_	_	_	_	_	_	
+16-6	1317-1320	ett	_	_	_	_	_	_	_	
+16-7	1321-1330	uttalande	_	_	_	_	_	_	_	
+16-8	1330-1331	,	_	_	_	_	_	_	_	
+16-9	1332-1336	utan	_	_	_	_	_	_	_	
+16-10	1337-1340	ett	_	_	_	_	_	_	_	
+16-11	1341-1351	mottagande	_	_	_	_	_	_	_	
+16-12	1352-1354	av	_	_	_	_	_	_	_	
+16-13	1355-1358	ett	_	_	_	_	_	_	_	
+16-14	1359-1363	pris	_	_	_	_	_	_	_	
+16-15	1363-1364	.	_	_	_	_	_	_	_	
+
+#Text=Det verkliga demokratiska problemet ligger inte i vare sig Scandinavian Human Rights Lawyers eller drottningens medverkan.
+17-1	1365-1368	Det	_	_	_	_	_	_	_	
+17-2	1369-1377	verkliga	_	_	_	_	_	_	_	
+17-3	1378-1390	demokratiska	_	_	_	_	_	_	_	
+17-4	1391-1400	problemet	*	Target[8]|Target[9]	17-8[24]|17-4	false[8]|false[9]	3[8]|2[9]	_	_	
+17-5	1401-1407	ligger	_	Target[8]	17-8[24]	false[8]	3[8]	_	_	
+17-6	1408-1412	inte	_	Target[8]	17-8[24]	false[8]	3[8]	_	_	
+17-7	1413-1414	i	_	Target[8]	17-8[24]	false[8]	3[8]	_	_	
+17-8	1415-1419	vare	*[24]	_	_	_	_	_	_	
+17-9	1420-1423	sig	*[24]	_	_	_	_	_	_	
+17-10	1424-1436	Scandinavian	*[24]	_	_	_	_	_	_	
+17-11	1437-1442	Human	*[24]	_	_	_	_	_	_	
+17-12	1443-1449	Rights	*[24]	_	_	_	_	_	_	
+17-13	1450-1457	Lawyers	*[24]	_	_	_	_	_	_	
+17-14	1458-1463	eller	*[24]	_	_	_	_	_	_	
+17-15	1464-1476	drottningens	*[24]	_	_	_	_	_	_	
+17-16	1477-1486	medverkan	*[24]	_	_	_	_	_	_	
+17-17	1486-1487	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1489-1490	#	_	_	_	_	_	_	_	
+18-2	1490-1491	P	_	_	_	_	_	_	_	
+18-3	1492-1495	IMM	_	_	_	_	_	_	_	
+18-4	1495-1496	.	_	_	_	_	_	_	_	
+
+#Text=Det stora problemet ligger i att detta blivit ytterligare ett exempel på att den så kallade åsiktskorridoren i Sverige nu blivit obegripligt smal.
+19-1	1498-1501	Det	_	Target[10]	19-6[25]	false[10]	3[10]	_	_	
+19-2	1502-1507	stora	_	Target[10]	19-6[25]	false[10]	3[10]	_	_	
+19-3	1508-1517	problemet	_	Target[10]	19-6[25]	false[10]	3[10]	_	_	
+19-4	1518-1524	ligger	_	Target[10]	19-6[25]	false[10]	3[10]	_	_	
+19-5	1525-1526	i	_	Target[10]	19-6[25]	false[10]	3[10]	_	_	
+19-6	1527-1530	att	*[25]	_	_	_	_	_	_	
+19-7	1531-1536	detta	*[25]	_	_	_	_	_	_	
+19-8	1537-1543	blivit	*[25]	_	_	_	_	_	_	
+19-9	1544-1555	ytterligare	*[25]	_	_	_	_	_	_	
+19-10	1556-1559	ett	*[25]	_	_	_	_	_	_	
+19-11	1560-1567	exempel	*[25]	_	_	_	_	_	_	
+19-12	1568-1570	på	*[25]	_	_	_	_	_	_	
+19-13	1571-1574	att	*[25]	_	_	_	_	_	_	
+19-14	1575-1578	den	*[25]	_	_	_	_	_	_	
+19-15	1579-1581	så	*[25]	_	_	_	_	_	_	
+19-16	1582-1589	kallade	*[25]	_	_	_	_	_	_	
+19-17	1590-1606	åsiktskorridoren	*[25]	_	_	_	_	_	_	
+19-18	1607-1608	i	*[25]	_	_	_	_	_	_	
+19-19	1609-1616	Sverige	*[25]	_	_	_	_	_	_	
+19-20	1617-1619	nu	*[25]	_	_	_	_	_	_	
+19-21	1620-1626	blivit	*[25]	_	_	_	_	_	_	
+19-22	1627-1638	obegripligt	*[25]	_	_	_	_	_	_	
+19-23	1639-1643	smal	*[25]	_	_	_	_	_	_	
+19-24	1643-1644	.	_	_	_	_	_	_	_	
+
+#Text=Så smal att det betraktas som politiskt helt oproblematiskt att förespråka aborter, men att samtidigt ett engagemang till skydd för ofödda människor betraktas som en så allvarlig politisering att det skapar krav på att utdefiniera organisationer och människor.
+20-1	1645-1647	Så	_	_	_	_	_	_	_	
+20-2	1648-1652	smal	_	_	_	_	_	_	_	
+20-3	1653-1656	att	_	_	_	_	_	_	_	
+20-4	1657-1660	det	_	_	_	_	_	_	_	
+20-5	1661-1670	betraktas	_	_[11]	_	false[11]	3[11]	_	_	
+20-6	1671-1674	som	_	_[11]	_	false[11]	3[11]	_	_	
+20-7	1675-1684	politiskt	_	_	_	_	_	_	_	
+20-8	1685-1689	helt	_	Target;Source[12]	20-10[26];20-40	false[12]	3[12]	20-5[11_12]	_	
+20-9	1690-1704	oproblematiskt	_	Target;Source[12]	20-10[26];20-40	false[12]	3[12]	_	_	
+20-10	1705-1708	att	*[26]	_	_	_	_	_	_	
+20-11	1709-1719	förespråka	*[26]	_	_	_	_	_	_	
+20-12	1720-1727	aborter	*[26]	_	_	_	_	_	_	
+20-13	1727-1728	,	_	_	_	_	_	_	_	
+20-14	1729-1732	men	_	_	_	_	_	_	_	
+20-15	1733-1736	att	_	_	_	_	_	_	_	
+20-16	1737-1746	samtidigt	_	_	_	_	_	_	_	
+20-17	1747-1750	ett	*[27]	_	_	_	_	_	_	
+20-18	1751-1761	engagemang	*[27]	_	_	_	_	_	_	
+20-19	1762-1766	till	*[27]	_	_	_	_	_	_	
+20-20	1767-1772	skydd	*[27]	_	_	_	_	_	_	
+20-21	1773-1776	för	*[27]	_	_	_	_	_	_	
+20-22	1777-1783	ofödda	*[27]	_	_	_	_	_	_	
+20-23	1784-1793	människor	*[27]	_	_	_	_	_	_	
+20-24	1794-1803	betraktas	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-25	1804-1807	som	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-26	1808-1810	en	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-27	1811-1813	så	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-28	1814-1823	allvarlig	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-29	1824-1836	politisering	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-30	1837-1840	att	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-31	1841-1844	det	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-32	1845-1851	skapar	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-33	1852-1856	krav	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-34	1857-1859	på	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-35	1860-1863	att	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-36	1864-1875	utdefiniera	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-37	1876-1890	organisationer	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-38	1891-1894	och	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-39	1895-1904	människor	_	Target[13]	20-17[27]	false[13]	2[13]	_	_	
+20-40	1904-1905	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1907-1908	#	_	_	_	_	_	_	_	
+21-2	1908-1909	P	_	_	_	_	_	_	_	
+21-3	1910-1913	IMM	_	_	_	_	_	_	_	
+21-4	1913-1914	.	_	_	_	_	_	_	_	
+
+#Text=Till och med om det skulle gälla Sveriges drottning.
+22-1	1916-1920	Till	_	_	_	_	_	_	_	
+22-2	1921-1924	och	_	_	_	_	_	_	_	
+22-3	1925-1928	med	_	_	_	_	_	_	_	
+22-4	1929-1931	om	_	_	_	_	_	_	_	
+22-5	1932-1935	det	_	_	_	_	_	_	_	
+22-6	1936-1942	skulle	_	_	_	_	_	_	_	
+22-7	1943-1948	gälla	_	_	_	_	_	_	_	
+22-8	1949-1957	Sveriges	_	_	_	_	_	_	_	
+22-9	1958-1967	drottning	_	_	_	_	_	_	_	
+22-10	1967-1968	.	_	_	_	_	_	_	_	
+
+#Text=RFSU,  och de övriga som drivit fram denna blixtreträtt har nog orsakat mer skada för det öppna samhället än de anar.
+23-1	1969-1973	RFSU	*[28]	_	_	_	_	_	_	
+23-2	1973-1974	,	*[28]	_	_	_	_	_	_	
+23-3	1976-1979	och	*[28]	_	_	_	_	_	_	
+23-4	1980-1982	de	*[28]	_	_	_	_	_	_	
+23-5	1983-1989	övriga	*[28]	_	_	_	_	_	_	
+23-6	1990-1993	som	*[28]	_	_	_	_	_	_	
+23-7	1994-2000	drivit	*[28]	_	_	_	_	_	_	
+23-8	2001-2005	fram	*[28]	_	_	_	_	_	_	
+23-9	2006-2011	denna	*[28]	_	_	_	_	_	_	
+23-10	2012-2024	blixtreträtt	*[28]|*[29]	Target	23-10[29]	false	2	_	_	
+23-11	2025-2028	har	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-12	2029-2032	nog	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-13	2033-2040	orsakat	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-14	2041-2044	mer	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-15	2045-2050	skada	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-16	2051-2054	för	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-17	2055-2058	det	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-18	2059-2064	öppna	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-19	2065-2074	samhället	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-20	2075-2077	än	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-21	2078-2080	de	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-22	2081-2085	anar	_	Target[14]	23-1[28]	false[14]	2[14]	_	_	
+23-23	2085-2086	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	2088-2089	#	_	_	_	_	_	_	_	
+24-2	2089-2090	P	_	_	_	_	_	_	_	
+24-3	2091-2094	IMM	_	_	_	_	_	_	_	
+24-4	2094-2095	.	_	_	_	_	_	_	_	
+
+#Text=I samband med den här beklagliga affären kan vi notera att ofödda barn har skydd och rättigheter folkrättsligt, genom de Allmänna mänskliga rättigheterna, och framförallt genom Barnkonventionens artikel 6 om barnets rätt till liv.
+25-1	2097-2098	I	_	_	_	_	_	_	_	
+25-2	2099-2106	samband	_	_	_	_	_	_	_	
+25-3	2107-2110	med	_	_	_	_	_	_	_	
+25-4	2111-2114	den	_	_	_	_	_	_	_	
+25-5	2115-2118	här	_	_	_	_	_	_	_	
+25-6	2119-2129	beklagliga	_	Target	25-7	false	2	_	_	
+25-7	2130-2137	affären	*	_	_	_	_	_	_	
+25-8	2138-2141	kan	_	_	_	_	_	_	_	
+25-9	2142-2144	vi	_	_	_	_	_	_	_	
+25-10	2145-2151	notera	_	_	_	_	_	_	_	
+25-11	2152-2155	att	_	_	_	_	_	_	_	
+25-12	2156-2162	ofödda	_	_	_	_	_	_	_	
+25-13	2163-2167	barn	_	_	_	_	_	_	_	
+25-14	2168-2171	har	_	_	_	_	_	_	_	
+25-15	2172-2177	skydd	_	_	_	_	_	_	_	
+25-16	2178-2181	och	_	_	_	_	_	_	_	
+25-17	2182-2193	rättigheter	_	_	_	_	_	_	_	
+25-18	2194-2207	folkrättsligt	_	_	_	_	_	_	_	
+25-19	2207-2208	,	_	_	_	_	_	_	_	
+25-20	2209-2214	genom	_	_	_	_	_	_	_	
+25-21	2215-2217	de	_	_	_	_	_	_	_	
+25-22	2218-2226	Allmänna	_	_	_	_	_	_	_	
+25-23	2227-2236	mänskliga	_	_	_	_	_	_	_	
+25-24	2237-2250	rättigheterna	_	_	_	_	_	_	_	
+25-25	2250-2251	,	_	_	_	_	_	_	_	
+25-26	2252-2255	och	_	_	_	_	_	_	_	
+25-27	2256-2267	framförallt	_	_	_	_	_	_	_	
+25-28	2268-2273	genom	_	_	_	_	_	_	_	
+25-29	2274-2291	Barnkonventionens	_	_	_	_	_	_	_	
+25-30	2292-2299	artikel	_	_	_	_	_	_	_	
+25-31	2300-2301	6	_	_	_	_	_	_	_	
+25-32	2302-2304	om	_	_	_	_	_	_	_	
+25-33	2305-2312	barnets	_	_	_	_	_	_	_	
+25-34	2313-2317	rätt	_	_	_	_	_	_	_	
+25-35	2318-2322	till	_	_	_	_	_	_	_	
+25-36	2323-2326	liv	_	_	_	_	_	_	_	
+25-37	2326-2327	.	_	_	_	_	_	_	_	
+
+#Text=Där slås fast att ”Konventionsstaterna erkänner att varje barn har en inneboende rätt till livet” och att ”Konventionsstaterna skall till det yttersta av sin förmåga säkerställa barnets överlevnad och utveckling”.
+26-1	2328-2331	Där	_	_	_	_	_	_	_	
+26-2	2332-2336	slås	_	_	_	_	_	_	_	
+26-3	2337-2341	fast	_	_	_	_	_	_	_	
+26-4	2342-2345	att	_	_	_	_	_	_	_	
+26-5	2346-2347	”	_	_	_	_	_	_	_	
+26-6	2347-2366	Konventionsstaterna	_	_	_	_	_	_	_	
+26-7	2367-2375	erkänner	_	_	_	_	_	_	_	
+26-8	2376-2379	att	_	_	_	_	_	_	_	
+26-9	2380-2385	varje	_	_	_	_	_	_	_	
+26-10	2386-2390	barn	_	_	_	_	_	_	_	
+26-11	2391-2394	har	_	_	_	_	_	_	_	
+26-12	2395-2397	en	_	_	_	_	_	_	_	
+26-13	2398-2408	inneboende	_	_	_	_	_	_	_	
+26-14	2409-2413	rätt	_	_	_	_	_	_	_	
+26-15	2414-2418	till	_	_	_	_	_	_	_	
+26-16	2419-2424	livet	_	_	_	_	_	_	_	
+26-17	2424-2425	”	_	_	_	_	_	_	_	
+26-18	2426-2429	och	_	_	_	_	_	_	_	
+26-19	2430-2433	att	_	_	_	_	_	_	_	
+26-20	2434-2435	”	_	_	_	_	_	_	_	
+26-21	2435-2454	Konventionsstaterna	_	_	_	_	_	_	_	
+26-22	2455-2460	skall	_	_	_	_	_	_	_	
+26-23	2461-2465	till	_	_	_	_	_	_	_	
+26-24	2466-2469	det	_	_	_	_	_	_	_	
+26-25	2470-2478	yttersta	_	_	_	_	_	_	_	
+26-26	2479-2481	av	_	_	_	_	_	_	_	
+26-27	2482-2485	sin	_	_	_	_	_	_	_	
+26-28	2486-2493	förmåga	_	_	_	_	_	_	_	
+26-29	2494-2505	säkerställa	_	_	_	_	_	_	_	
+26-30	2506-2513	barnets	_	_	_	_	_	_	_	
+26-31	2514-2524	överlevnad	_	_	_	_	_	_	_	
+26-32	2525-2528	och	_	_	_	_	_	_	_	
+26-33	2529-2539	utveckling	_	_	_	_	_	_	_	
+26-34	2539-2540	”	_	_	_	_	_	_	_	
+26-35	2540-2541	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2543-2544	#	_	_	_	_	_	_	_	
+27-2	2544-2545	P	_	_	_	_	_	_	_	
+27-3	2546-2549	IMM	_	_	_	_	_	_	_	
+27-4	2549-2550	.	_	_	_	_	_	_	_	
+
+#Text=De starka reaktionerna som tvingat fram Universitetets och hovets nej kan spontant tolkas som att man nu säkerställt att en person i drottningens ställning inte tar politisk ställning.
+28-1	2552-2554	De	*[30]	_	_	_	_	_	_	
+28-2	2555-2561	starka	*[30]	_	_	_	_	_	_	
+28-3	2562-2574	reaktionerna	*[30]	_	_	_	_	_	_	
+28-4	2575-2578	som	*[30]	_	_	_	_	_	_	
+28-5	2579-2586	tvingat	_	Target	28-1[30]	false	2	_	_	
+28-6	2587-2591	fram	_	_	_	_	_	_	_	
+28-7	2592-2606	Universitetets	_	_	_	_	_	_	_	
+28-8	2607-2610	och	_	_	_	_	_	_	_	
+28-9	2611-2617	hovets	_	_	_	_	_	_	_	
+28-10	2618-2621	nej	_	_	_	_	_	_	_	
+28-11	2622-2625	kan	_	_	_	_	_	_	_	
+28-12	2626-2634	spontant	_	_	_	_	_	_	_	
+28-13	2635-2641	tolkas	_	_	_	_	_	_	_	
+28-14	2642-2645	som	_	_	_	_	_	_	_	
+28-15	2646-2649	att	_	_	_	_	_	_	_	
+28-16	2650-2653	man	_	_	_	_	_	_	_	
+28-17	2654-2656	nu	_	_	_	_	_	_	_	
+28-18	2657-2668	säkerställt	_	_	_	_	_	_	_	
+28-19	2669-2672	att	_	_	_	_	_	_	_	
+28-20	2673-2675	en	_	_	_	_	_	_	_	
+28-21	2676-2682	person	_	_	_	_	_	_	_	
+28-22	2683-2684	i	_	_	_	_	_	_	_	
+28-23	2685-2697	drottningens	_	_	_	_	_	_	_	
+28-24	2698-2707	ställning	_	_	_	_	_	_	_	
+28-25	2708-2712	inte	_	_	_	_	_	_	_	
+28-26	2713-2716	tar	_	_	_	_	_	_	_	
+28-27	2717-2725	politisk	_	_	_	_	_	_	_	
+28-28	2726-2735	ställning	_	_	_	_	_	_	_	
+28-29	2735-2736	.	_	_	_	_	_	_	_	
+
+#Text=Men i praktiken riskerar detta istället att bli uttryck för just ett politiskt ställningstagande – men i motsatt riktning.
+29-1	2737-2740	Men	_	_	_	_	_	_	_	
+29-2	2741-2742	i	_	_	_	_	_	_	_	
+29-3	2743-2752	praktiken	_	_	_	_	_	_	_	
+29-4	2753-2761	riskerar	_	_	_	_	_	_	_	
+29-5	2762-2767	detta	_	_	_	_	_	_	_	
+29-6	2768-2776	istället	_	_	_	_	_	_	_	
+29-7	2777-2780	att	_	_	_	_	_	_	_	
+29-8	2781-2784	bli	_	_	_	_	_	_	_	
+29-9	2785-2792	uttryck	_	_	_	_	_	_	_	
+29-10	2793-2796	för	_	_	_	_	_	_	_	
+29-11	2797-2801	just	_	_	_	_	_	_	_	
+29-12	2802-2805	ett	_	_	_	_	_	_	_	
+29-13	2806-2815	politiskt	_	_	_	_	_	_	_	
+29-14	2816-2833	ställningstagande	_	_	_	_	_	_	_	
+29-15	2834-2835	–	_	_	_	_	_	_	_	
+29-16	2836-2839	men	_	_	_	_	_	_	_	
+29-17	2840-2841	i	_	_	_	_	_	_	_	
+29-18	2842-2849	motsatt	_	_	_	_	_	_	_	
+29-19	2850-2858	riktning	_	_	_	_	_	_	_	
+29-20	2858-2859	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2861-2862	#	_	_	_	_	_	_	_	
+30-2	2862-2863	P	_	_	_	_	_	_	_	
+30-3	2864-2867	IMM	_	_	_	_	_	_	_	
+30-4	2867-2868	.	_	_	_	_	_	_	_	
+
+#Text=Kan det bli mer märkligt än så här?
+31-1	2870-2873	Kan	_	_	_	false	2	_	_	
+31-2	2874-2877	det	*	_	_	_	_	_	_	
+31-3	2878-2881	bli	_	Target[15]	31-2	false[15]	2[15]	31-1[0_15]	_	
+31-4	2882-2885	mer	_	Target[15]	31-2	false[15]	2[15]	_	_	
+31-5	2886-2894	märkligt	_	Target[15]	31-2	false[15]	2[15]	_	_	
+31-6	2895-2897	än	_	Target[15]	31-2	false[15]	2[15]	_	_	
+31-7	2898-2900	så	_	Target[15]	31-2	false[15]	2[15]	_	_	
+31-8	2901-2904	här	_	Target[15]	31-2	false[15]	2[15]	_	_	
+31-9	2904-2905	?	_	_	_	_	_	_	_	
+
+#Text=Är det verkligen så att de som vill barn väl i Sverige i dag blir stämplade som konspiratoriska, ondsinta eller icke-rumsrena människor som försöker omstörta samhällsordningen, när det i verkligheten handlar om personer som på laglig väg faktiskt följer och försvarar det vi tillsammans kommit överens om i folkrättsliga allmänna dokument?.
+32-1	2906-2908	Är	_	_	_	_	_	_	_	
+32-2	2909-2912	det	_	_	_	_	_	_	_	
+32-3	2913-2922	verkligen	_	_	_	_	_	_	_	
+32-4	2923-2925	så	_	_	_	_	_	_	_	
+32-5	2926-2929	att	_	_	_	_	_	_	_	
+32-6	2930-2932	de	*[31]	_	_	_	_	_	_	
+32-7	2933-2936	som	*[31]	_	_	_	_	_	_	
+32-8	2937-2941	vill	*[31]	_	_	_	_	_	_	
+32-9	2942-2946	barn	*[31]	_	_	_	_	_	_	
+32-10	2947-2950	väl	*[31]	_	_	_	_	_	_	
+32-11	2951-2952	i	*[31]	_	_	_	_	_	_	
+32-12	2953-2960	Sverige	*[31]	_	_	_	_	_	_	
+32-13	2961-2962	i	_	_	_	_	_	_	_	
+32-14	2963-2966	dag	_	_	_	_	_	_	_	
+32-15	2967-2971	blir	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-16	2972-2981	stämplade	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-17	2982-2985	som	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-18	2986-3001	konspiratoriska	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-19	3001-3002	,	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-20	3003-3011	ondsinta	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-21	3012-3017	eller	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-22	3018-3031	icke-rumsrena	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-23	3032-3041	människor	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-24	3042-3045	som	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-25	3046-3054	försöker	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-26	3055-3063	omstörta	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-27	3064-3081	samhällsordningen	_	Target;Source[16]	32-6[31];32-55	false[16]	1[16]	_	_	
+32-28	3081-3082	,	_	_	_	_	_	_	_	
+32-29	3083-3086	när	_	_	_	_	_	_	_	
+32-30	3087-3090	det	_	_	_	_	_	_	_	
+32-31	3091-3092	i	_	_	_	_	_	_	_	
+32-32	3093-3105	verkligheten	_	_	_	_	_	_	_	
+32-33	3106-3113	handlar	_	_	_	_	_	_	_	
+32-34	3114-3116	om	_	_	_	_	_	_	_	
+32-35	3117-3125	personer	*[32]	_	_	_	_	_	_	
+32-36	3126-3129	som	*[32]	_	_	_	_	_	_	
+32-37	3130-3132	på	_	_	_	_	_	_	_	
+32-38	3133-3139	laglig	_	_	_	_	_	_	_	
+32-39	3140-3143	väg	_	_	_	_	_	_	_	
+32-40	3144-3152	faktiskt	_	_	_	_	_	_	_	
+32-41	3153-3159	följer	_	_	_	_	_	_	_	
+32-42	3160-3163	och	_	_	_	_	_	_	_	
+32-43	3164-3173	försvarar	_	Target	32-35[32]	false	4	_	_	
+32-44	3174-3177	det	_	_	_	_	_	_	_	
+32-45	3178-3180	vi	_	_	_	_	_	_	_	
+32-46	3181-3192	tillsammans	_	_	_	_	_	_	_	
+32-47	3193-3199	kommit	_	_	_	_	_	_	_	
+32-48	3200-3207	överens	_	_	_	_	_	_	_	
+32-49	3208-3210	om	_	_	_	_	_	_	_	
+32-50	3211-3212	i	_	_	_	_	_	_	_	
+32-51	3213-3226	folkrättsliga	_	_	_	_	_	_	_	
+32-52	3227-3235	allmänna	_	_	_	_	_	_	_	
+32-53	3236-3244	dokument	_	_	_	_	_	_	_	
+32-54	3244-3245	?	_	_	_	_	_	_	_	
+32-55	3245-3246	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	3248-3249	#	_	_	_	_	_	_	_	
+33-2	3249-3250	P	_	_	_	_	_	_	_	
+33-3	3251-3254	IMM	_	_	_	_	_	_	_	
+33-4	3254-3255	.	_	_	_	_	_	_	_	
+
+#Text=Den här märkliga affären kommer med säkerhet att utvärderas och analyseras i efterhand.
+34-1	3257-3260	Den	_	_	_	_	_	_	_	
+34-2	3261-3264	här	_	_	_	_	_	_	_	
+34-3	3265-3273	märkliga	_	Target	34-4	false	2	_	_	
+34-4	3274-3281	affären	*	_	_	_	_	_	_	
+34-5	3282-3288	kommer	_	_	_	_	_	_	_	
+34-6	3289-3292	med	_	_	_	_	_	_	_	
+34-7	3293-3301	säkerhet	_	_	_	_	_	_	_	
+34-8	3302-3305	att	_	_	_	_	_	_	_	
+34-9	3306-3316	utvärderas	_	_	_	_	_	_	_	
+34-10	3317-3320	och	_	_	_	_	_	_	_	
+34-11	3321-3331	analyseras	_	_	_	_	_	_	_	
+34-12	3332-3333	i	_	_	_	_	_	_	_	
+34-13	3334-3343	efterhand	_	_	_	_	_	_	_	
+34-14	3343-3344	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte orimligt att överskriften över en sådan analys då kommer att innehålla ordet ”bisarr”.
+35-1	3345-3348	Det	_	_	_	_	_	_	_	
+35-2	3349-3351	är	_	Target[17]	35-5[33]	false[17]	3[17]	_	_	
+35-3	3352-3356	inte	_	Target[17]	35-5[33]	false[17]	3[17]	_	_	
+35-4	3357-3365	orimligt	_	Target[17]	35-5[33]	false[17]	3[17]	_	_	
+35-5	3366-3369	att	*[33]	_	_	_	_	_	_	
+35-6	3370-3382	överskriften	*[33]	_	_	_	_	_	_	
+35-7	3383-3387	över	*[33]	_	_	_	_	_	_	
+35-8	3388-3390	en	*[33]	_	_	_	_	_	_	
+35-9	3391-3396	sådan	*[33]	_	_	_	_	_	_	
+35-10	3397-3403	analys	*[33]	_	_	_	_	_	_	
+35-11	3404-3406	då	*[33]	_	_	_	_	_	_	
+35-12	3407-3413	kommer	*[33]	_	_	_	_	_	_	
+35-13	3414-3417	att	*[33]	_	_	_	_	_	_	
+35-14	3418-3427	innehålla	*[33]	_	_	_	_	_	_	
+35-15	3428-3433	ordet	*[33]	_	_	_	_	_	_	
+35-16	3434-3435	”	*[33]	_	_	_	_	_	_	
+35-17	3435-3441	bisarr	*[33]	_	_	_	_	_	_	
+35-18	3441-3442	”	*[33]	_	_	_	_	_	_	
+35-19	3442-3443	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3445-3446	#	_	_	_	_	_	_	_	
+36-2	3446-3447	P	_	_	_	_	_	_	_	
+36-3	3448-3451	IMM	_	_	_	_	_	_	_	
+36-4	3451-3452	.	_	_	_	_	_	_	_	
+
+#Text=Anna Emdenborg.
+37-1	3454-3458	Anna	_	_	_	_	_	_	_	
+37-2	3459-3468	Emdenborg	_	_	_	_	_	_	_	
+37-3	3468-3469	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3471-3472	#	_	_	_	_	_	_	_	
+38-2	3472-3473	P	_	_	_	_	_	_	_	
+38-3	3474-3477	IMM	_	_	_	_	_	_	_	
+38-4	3477-3478	.	_	_	_	_	_	_	_	
+
+#Text=Olof Djurfeldt.
+39-1	3480-3484	Olof	_	_	_	_	_	_	_	
+39-2	3485-3494	Djurfeldt	_	_	_	_	_	_	_	
+39-3	3494-3495	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3497-3498	#	_	_	_	_	_	_	_	
+40-2	3498-3499	P	_	_	_	_	_	_	_	
+40-3	3500-3503	IMM	_	_	_	_	_	_	_	
+40-4	3503-3504	.	_	_	_	_	_	_	_	
+
+#Text=Anders Löfström.
+41-1	3506-3512	Anders	_	_	_	_	_	_	_	
+41-2	3513-3521	Löfström	_	_	_	_	_	_	_	
+41-3	3521-3522	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3524-3525	#	_	_	_	_	_	_	_	
+42-2	3525-3526	P	_	_	_	_	_	_	_	
+42-3	3527-3530	IMM	_	_	_	_	_	_	_	
+42-4	3530-3531	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+43-1	3533-3538	FAKTA	_	_	_	_	_	_	_	
+43-2	3538-3539	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3541-3542	#	_	_	_	_	_	_	_	
+44-2	3542-3543	P	_	_	_	_	_	_	_	
+44-3	3544-3547	IMM	_	_	_	_	_	_	_	
+44-4	3547-3548	.	_	_	_	_	_	_	_	
+
+#Text=RERNA.
+45-1	3550-3555	RERNA	_	_	_	_	_	_	_	
+45-2	3555-3556	.	_	_	_	_	_	_	_	

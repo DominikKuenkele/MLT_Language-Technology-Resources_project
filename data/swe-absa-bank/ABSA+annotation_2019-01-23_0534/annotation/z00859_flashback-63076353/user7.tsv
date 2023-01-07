@@ -1,0 +1,173 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=SD-ledamot blir politisk vilde: invandrare är inte roten till allt ont.
+3-1	18-28	SD-ledamot	_	_	_	_	_	
+3-2	29-33	blir	_	_	_	_	_	
+3-3	34-42	politisk	_	_	_	_	_	
+3-4	43-48	vilde	_	_	_	_	_	
+3-5	48-49	:	_	_	_	_	_	
+3-6	50-60	invandrare	*	_	_	_	_	
+3-7	61-63	är	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-8	64-68	inte	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-9	69-74	roten	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-10	75-79	till	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-11	80-84	allt	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-12	85-88	ont	_	Target;Source[1]	3-6;5-5[4]	false[1]	3[1]	
+3-13	88-89	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	91-92	#	_	_	_	_	_	
+4-2	92-93	P	_	_	_	_	_	
+4-3	94-97	IMM	_	_	_	false	3	
+4-4	97-98	.	_	_	_	_	_	
+
+#Text="Detta sedan SD-ledamoten Peter Lindkvist hoppat av, med motiveringen att kritiken mot invandrare är för aggressiv och att partiet är toppstyrt från Umeå.
+5-1	100-101	"	_	_	_	_	_	
+5-2	101-106	Detta	_	_	_	_	_	
+5-3	107-112	sedan	_	_	_	_	_	
+5-4	113-125	SD-ledamoten	_	_	_	_	_	
+5-5	126-131	Peter	*[4]	_	_	_	_	
+5-6	132-141	Lindkvist	*[4]	_	_	_	_	
+5-7	142-148	hoppat	_	_	_	_	_	
+5-8	149-151	av	_	_	_	_	_	
+5-9	151-152	,	_	_	_	_	_	
+5-10	153-156	med	_	_	_	_	_	
+5-11	157-169	motiveringen	_	_	_	_	_	
+5-12	170-173	att	_	_	_	_	_	
+5-13	174-182	kritiken	*[5]	_	_	_	_	
+5-14	183-186	mot	*[5]	_	_	_	_	
+5-15	187-197	invandrare	*[5]	_	_	_	_	
+5-16	198-200	är	_	Target;Source[2]	5-13[5];5-5[4]	false[2]	1[2]	
+5-17	201-204	för	_	Target;Source[2]	5-13[5];5-5[4]	false[2]	1[2]	
+5-18	205-214	aggressiv	_	Target;Source[2]	5-13[5];5-5[4]	false[2]	1[2]	
+5-19	215-218	och	_	_	_	_	_	
+5-20	219-222	att	_	_	_	_	_	
+5-21	223-230	partiet	_	_	_	_	_	
+5-22	231-233	är	_	_	_	_	_	
+5-23	234-243	toppstyrt	_	_	_	_	_	
+5-24	244-248	från	_	_	_	_	_	
+5-25	249-253	Umeå	_	_	_	_	_	
+5-26	253-254	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	256-257	#	_	_	_	_	_	
+6-2	257-258	P	_	_	_	_	_	
+6-3	259-262	IMM	_	_	_	_	_	
+6-4	262-263	.	_	_	_	_	_	
+
+#Text=Till tidningen Norran, som först rapporterade om nyheten, säger Lindkvist att han ideologiskt står närmare Moderaterna och Kristdemokraterna.
+7-1	265-269	Till	_	_	_	_	_	
+7-2	270-279	tidningen	_	_	_	_	_	
+7-3	280-286	Norran	_	_	_	_	_	
+7-4	286-287	,	_	_	_	_	_	
+7-5	288-291	som	_	_	_	_	_	
+7-6	292-297	först	_	_	_	_	_	
+7-7	298-310	rapporterade	_	_	_	_	_	
+7-8	311-313	om	_	_	_	_	_	
+7-9	314-321	nyheten	_	_	_	_	_	
+7-10	321-322	,	_	_	_	_	_	
+7-11	323-328	säger	_	_	_	_	_	
+7-12	329-338	Lindkvist	_	_	_	_	_	
+7-13	339-342	att	_	_	_	_	_	
+7-14	343-346	han	_	_	_	_	_	
+7-15	347-358	ideologiskt	_	_	_	_	_	
+7-16	359-363	står	_	_	_	_	_	
+7-17	364-371	närmare	_	_	_	_	_	
+7-18	372-383	Moderaterna	_	_	_	_	_	
+7-19	384-387	och	_	_	_	_	_	
+7-20	388-405	Kristdemokraterna	_	_	_	_	_	
+7-21	405-406	.	_	_	_	_	_	
+
+#Text=#P IMM
+8-1	408-409	#	_	_	_	_	_	
+8-2	409-410	P	_	_	_	_	_	
+8-3	411-414	IMM	_	_	_	false	3	
+
+#Text=.
+9-1	414-415	.	_	_	_	_	_	
+
+#Text=: En del i SD tycker att invandrare är roten till allt ont, men det tycker inte jag, säger han.
+10-1	417-418	:	_	_	_	_	_	
+10-2	419-421	En	*[6]	_	_	_	_	
+10-3	422-425	del	*[6]	_	_	_	_	
+10-4	426-427	i	*[6]	_	_	_	_	
+10-5	428-430	SD	*[6]	_	_	_	_	
+10-6	431-437	tycker	_	_	_	_	_	
+10-7	438-441	att	_	_	_	_	_	
+10-8	442-452	invandrare	*	_	_	_	_	
+10-9	453-455	är	_	Target;Source[3]	10-8;10-2[6]	false[3]	1[3]	
+10-10	456-461	roten	_	Target;Source[3]	10-8;10-2[6]	false[3]	1[3]	
+10-11	462-466	till	_	Target;Source[3]	10-8;10-2[6]	false[3]	1[3]	
+10-12	467-471	allt	_	Target;Source[3]	10-8;10-2[6]	false[3]	1[3]	
+10-13	472-475	ont	_	Target;Source[3]	10-8;10-2[6]	false[3]	1[3]	
+10-14	475-476	,	_	_	_	_	_	
+10-15	477-480	men	_	_	_	_	_	
+10-16	481-484	det	_	_	_	_	_	
+10-17	485-491	tycker	_	_	_	_	_	
+10-18	492-496	inte	_	_	_	_	_	
+10-19	497-500	jag	_	_	_	_	_	
+10-20	500-501	,	_	_	_	_	_	
+10-21	502-507	säger	_	_	_	_	_	
+10-22	508-511	han	_	_	_	_	_	
+10-23	511-512	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	514-515	#	_	_	_	_	_	
+11-2	515-516	P	_	_	_	_	_	
+11-3	517-520	IMM	_	_	_	_	_	
+11-4	520-521	.	_	_	_	_	_	
+
+#Text=Lindkvist har inga planer på att lämna sina uppdrag i kommunfullmäktige och landstinget, utan sitter kvar mandatperioden ut.".
+12-1	523-532	Lindkvist	_	_	_	_	_	
+12-2	533-536	har	_	_	_	_	_	
+12-3	537-541	inga	_	_	_	_	_	
+12-4	542-548	planer	_	_	_	_	_	
+12-5	549-551	på	_	_	_	_	_	
+12-6	552-555	att	_	_	_	_	_	
+12-7	556-561	lämna	_	_	_	_	_	
+12-8	562-566	sina	_	_	_	_	_	
+12-9	567-574	uppdrag	_	_	_	_	_	
+12-10	575-576	i	_	_	_	_	_	
+12-11	577-594	kommunfullmäktige	_	_	_	_	_	
+12-12	595-598	och	_	_	_	_	_	
+12-13	599-610	landstinget	_	_	_	_	_	
+12-14	610-611	,	_	_	_	_	_	
+12-15	612-616	utan	_	_	_	_	_	
+12-16	617-623	sitter	_	_	_	_	_	
+12-17	624-628	kvar	_	_	_	_	_	
+12-18	629-643	mandatperioden	_	_	_	_	_	
+12-19	644-646	ut	_	_	_	_	_	
+12-20	646-647	.	_	_	_	_	_	
+12-21	647-648	"	_	_	_	_	_	
+12-22	648-649	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	651-652	#	_	_	_	_	_	
+13-2	652-653	P	_	_	_	_	_	
+13-3	654-657	IMM	_	_	_	_	_	
+13-4	657-658	.	_	_	_	_	_	
+
+#Text=Vad anser ni om hans tankegångar?.
+14-1	660-663	Vad	_	_	_	_	_	
+14-2	664-669	anser	_	_	_	_	_	
+14-3	670-672	ni	_	_	_	_	_	
+14-4	673-675	om	_	_	_	_	_	
+14-5	676-680	hans	_	_	_	_	_	
+14-6	681-692	tankegångar	_	_	_	_	_	
+14-7	692-693	?	_	_	_	_	_	
+14-8	693-694	.	_	_	_	_	_	

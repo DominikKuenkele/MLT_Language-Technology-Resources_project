@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	5	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	5	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Är verkligen massinvandring så dåligt?
+3-1	18-20	Är	_	_	_	_	_	_	
+3-2	21-30	verkligen	_	_	_	_	_	_	
+3-3	31-45	massinvandring	*	_	_	_	_	_	
+3-4	46-48	så	_	_	_	_	_	_	
+3-5	49-55	dåligt	_	Target;Source	3-3;3-6	false	1	_	
+3-6	55-56	?	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	false	4	_	
+4-4	64-65	.	_	_	_	_	_	_	
+
+#Text=Jag tror att massinvandring är negativt rent ekonomiskt på kort sikt (finns oändligt med fakta som konstaterar detta).
+5-1	67-70	Jag	*	_	_	_	_	_	
+5-2	71-75	tror	_	_	_	_	_	_	
+5-3	76-79	att	_	_	_	_	_	_	
+5-4	80-94	massinvandring	*[7]|*[8]	_	_	_	_	6-6[0_7]	
+5-5	95-97	är	_	_	_	_	_	_	
+5-6	98-106	negativt	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-7	107-111	rent	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-8	112-122	ekonomiskt	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-9	123-125	på	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-10	126-130	kort	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-11	131-135	sikt	_	Source;Target[1]	5-1;5-4[7]	false[1]	1[1]	_	
+5-12	136-137	(	_	_	_	_	_	_	
+5-13	137-142	finns	_	_	_	_	_	_	
+5-14	143-151	oändligt	_	_	_	_	_	_	
+5-15	152-155	med	_	_	_	_	_	_	
+5-16	156-161	fakta	_	_	_	_	_	_	
+5-17	162-165	som	_	_	_	_	_	_	
+5-18	166-177	konstaterar	_	_	_	_	_	_	
+5-19	178-183	detta	_	_	_	_	_	_	
+5-20	183-184	)	_	_	_	_	_	_	
+5-21	184-185	.	_	_	_	_	_	_	
+
+#Text=Jag tror dock samtidigt att det är väldigt positivt på lång sikt rent kulturellt och ekonomiskt och jag ska förklara varför.
+6-1	186-189	Jag	*	_	_	_	_	_	
+6-2	190-194	tror	_	_	_	_	_	_	
+6-3	195-199	dock	_	_	_	_	_	_	
+6-4	200-209	samtidigt	_	_	_	_	_	_	
+6-5	210-213	att	_	_	_	_	_	_	
+6-6	214-217	det	*	_	_	_	_	_	
+6-7	218-220	är	_	_	_	_	_	_	
+6-8	221-228	väldigt	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-9	229-237	positivt	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-10	238-240	på	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-11	241-245	lång	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-12	246-250	sikt	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-13	251-255	rent	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-14	256-266	kulturellt	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-15	267-270	och	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-16	271-281	ekonomiskt	_	Source;Target[2]	6-1;6-6	false[2]	5[2]	_	
+6-17	282-285	och	_	_	_	_	_	_	
+6-18	286-289	jag	_	_	_	_	_	_	
+6-19	290-293	ska	_	_	_	_	_	_	
+6-20	294-302	förklara	_	_	_	_	_	_	
+6-21	303-309	varför	_	_	_	_	_	_	
+6-22	309-310	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	312-313	#	_	_	_	_	_	_	
+7-2	313-314	P	_	_	_	_	_	_	
+7-3	315-318	IMM	_	_	_	_	_	_	
+7-4	318-319	.	_	_	_	_	_	_	
+
+#Text=Det värsta jag vet är feminister, HBTQ-förespråkare, paranoida krigshetsande russofober och extremistiska liberaler (de som är anledningen till dagens situation).
+8-1	321-324	Det	_	Target;Target;Target;Target[3]	8-8;8-10[9];8-6;8-14[10]	false[3]	1[3]	_	
+8-2	325-331	värsta	_	Target;Target;Target;Target[3]	8-8;8-10[9];8-6;8-14[10]	false[3]	1[3]	_	
+8-3	332-335	jag	_	Target;Target;Target;Target[3]	8-8;8-10[9];8-6;8-14[10]	false[3]	1[3]	_	
+8-4	336-339	vet	_	Target;Target;Target;Target[3]	8-8;8-10[9];8-6;8-14[10]	false[3]	1[3]	_	
+8-5	340-342	är	_	Target;Target;Target;Target[3]	8-8;8-10[9];8-6;8-14[10]	false[3]	1[3]	_	
+8-6	343-353	feminister	*	_	_	_	_	_	
+8-7	353-354	,	_	_	_	_	_	_	
+8-8	355-372	HBTQ-förespråkare	*	_	_	_	_	_	
+8-9	372-373	,	_	_	_	_	_	_	
+8-10	374-383	paranoida	*[9]	_	_	_	_	_	
+8-11	384-397	krigshetsande	*[9]	_	_	_	_	_	
+8-12	398-408	russofober	*[9]	_	_	_	_	_	
+8-13	409-412	och	_	_	_	_	_	_	
+8-14	413-426	extremistiska	*[10]	_	_	_	_	_	
+8-15	427-436	liberaler	*[10]	_	_	_	_	_	
+8-16	437-438	(	_	_	_	_	_	_	
+8-17	438-440	de	_	_	_	_	_	_	
+8-18	441-444	som	_	_	_	_	_	_	
+8-19	445-447	är	_	_	_	_	_	_	
+8-20	448-459	anledningen	_	_	_	_	_	_	
+8-21	460-464	till	_	_	_	_	_	_	
+8-22	465-471	dagens	_	_	_	_	_	_	
+8-23	472-481	situation	_	_	_	_	_	_	
+8-24	481-482	)	_	_	_	_	_	_	
+8-25	482-483	.	_	_	_	_	_	_	
+
+#Text=Det dessa har gemensamt är att de har extremt låga födelsetal och håller på att dö ut som grupp.
+9-1	484-487	Det	_	_	_	_	_	_	
+9-2	488-493	dessa	_	_	_	_	_	_	
+9-3	494-497	har	_	_	_	_	_	_	
+9-4	498-507	gemensamt	_	_	_	_	_	_	
+9-5	508-510	är	_	_	_	_	_	_	
+9-6	511-514	att	_	_	_	_	_	_	
+9-7	515-517	de	_	_	_	_	_	_	
+9-8	518-521	har	_	_	_	_	_	_	
+9-9	522-529	extremt	_	_	_	_	_	_	
+9-10	530-534	låga	_	_	_	_	_	_	
+9-11	535-545	födelsetal	_	_	_	_	_	_	
+9-12	546-549	och	_	_	_	_	_	_	
+9-13	550-556	håller	_	_	_	_	_	_	
+9-14	557-559	på	_	_	_	_	_	_	
+9-15	560-563	att	_	_	_	_	_	_	
+9-16	564-566	dö	_	_	_	_	_	_	
+9-17	567-569	ut	_	_	_	_	_	_	
+9-18	570-573	som	_	_	_	_	_	_	
+9-19	574-579	grupp	_	_	_	_	_	_	
+9-20	579-580	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	582-583	#	_	_	_	_	_	_	
+10-2	583-584	P	_	_	_	_	_	_	
+10-3	585-588	IMM	_	_	_	false	5	_	
+10-4	588-589	.	_	_	_	_	_	_	
+
+#Text=Invandrarna som kommer hit är inte något av detta, dom är konservativa med vettiga åsikter.
+11-1	591-602	Invandrarna	*[11]|*[12]|*[13]	_	_	_	_	12-1[14_12]|12-1[15_11]	
+11-2	603-606	som	_	_	_	_	_	_	
+11-3	607-613	kommer	_	_	_	_	_	_	
+11-4	614-617	hit	_	_	_	_	_	_	
+11-5	618-620	är	_	_	_	_	_	_	
+11-6	621-625	inte	_	_	_	_	_	_	
+11-7	626-631	något	_	_	_	_	_	_	
+11-8	632-634	av	_	_	_	_	_	_	
+11-9	635-640	detta	_	_	_	_	_	_	
+11-10	640-641	,	_	_	_	_	_	_	
+11-11	642-645	dom	_	_	_	_	_	_	
+11-12	646-648	är	_	_	_	_	_	_	
+11-13	649-661	konservativa	_	_	_	_	_	_	
+11-14	662-665	med	_	Target[4]	11-1[11]	false[4]	5[4]	_	
+11-15	666-673	vettiga	_	Target[4]	11-1[11]	false[4]	5[4]	_	
+11-16	674-681	åsikter	_	Target[4]	11-1[11]	false[4]	5[4]	_	
+11-17	681-682	.	_	_	_	_	_	_	
+
+#Text=Dom står för kärnfamiljen och ogillar feminism och HBTQ.
+12-1	683-686	Dom	*[14]|*[15]	_	_	_	_	_	
+12-2	687-691	står	_	Target;Source[5]	12-4;12-1[15]	false[5]	5[5]	_	
+12-3	692-695	för	_	Target;Source[5]	12-4;12-1[15]	false[5]	5[5]	_	
+12-4	696-708	kärnfamiljen	*	_	_	_	_	_	
+12-5	709-712	och	_	_	_	_	_	_	
+12-6	713-720	ogillar	_	Target;Target;Source	12-7;12-9;12-1[14]	false	1	_	
+12-7	721-729	feminism	*	_	_	_	_	_	
+12-8	730-733	och	_	_	_	_	_	_	
+12-9	734-738	HBTQ	*	_	_	_	_	_	
+12-10	738-739	.	_	_	_	_	_	_	
+
+#Text=Dessa föder även mycket barn och växer så det knakar.
+13-1	740-745	Dessa	_	_	_	_	_	_	
+13-2	746-751	föder	_	_	_	_	_	_	
+13-3	752-756	även	_	_	_	_	_	_	
+13-4	757-763	mycket	_	_	_	_	_	_	
+13-5	764-768	barn	_	_	_	_	_	_	
+13-6	769-772	och	_	_	_	_	_	_	
+13-7	773-778	växer	_	_	_	_	_	_	
+13-8	779-781	så	_	_	_	_	_	_	
+13-9	782-785	det	_	_	_	_	_	_	
+13-10	786-792	knakar	_	_	_	_	_	_	
+13-11	792-793	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	795-796	#	_	_	_	_	_	_	
+14-2	796-797	P	_	_	_	_	_	_	
+14-3	798-801	IMM	_	_	_	false	5	_	
+14-4	801-802	.	_	_	_	_	_	_	
+
+#Text=Med tiden så kommer invandrarna att ändra opinionen tillbaka till de åsikter och värderingar som Sverige en gång grundades på.
+15-1	804-807	Med	_	_	_	_	_	_	
+15-2	808-813	tiden	_	_	_	_	_	_	
+15-3	814-816	så	_	_	_	_	_	_	
+15-4	817-823	kommer	_	_	_	_	_	_	
+15-5	824-835	invandrarna	_	_	_	_	_	_	
+15-6	836-839	att	_	_	_	_	_	_	
+15-7	840-845	ändra	_	_	_	_	_	_	
+15-8	846-855	opinionen	_	_	_	_	_	_	
+15-9	856-864	tillbaka	_	_	_	_	_	_	
+15-10	865-869	till	_	_	_	_	_	_	
+15-11	870-872	de	_	_	_	_	_	_	
+15-12	873-880	åsikter	_	_	_	_	_	_	
+15-13	881-884	och	_	_	_	_	_	_	
+15-14	885-896	värderingar	_	_	_	_	_	_	
+15-15	897-900	som	_	_	_	_	_	_	
+15-16	901-908	Sverige	_	_	_	_	_	_	
+15-17	909-911	en	_	_	_	_	_	_	
+15-18	912-916	gång	_	_	_	_	_	_	
+15-19	917-926	grundades	_	_	_	_	_	_	
+15-20	927-929	på	_	_	_	_	_	_	
+15-21	929-930	.	_	_	_	_	_	_	
+
+#Text=De åsikter och värderingar som fick Sverige att bli till ett rikt land.
+16-1	931-933	De	*[16]	_	_	_	_	_	
+16-2	934-941	åsikter	*[16]	_	_	_	_	_	
+16-3	942-945	och	*[16]	_	_	_	_	_	
+16-4	946-957	värderingar	*[16]	_	_	_	_	_	
+16-5	958-961	som	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-6	962-966	fick	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-7	967-974	Sverige	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-8	975-978	att	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-9	979-982	bli	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-10	983-987	till	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-11	988-991	ett	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-12	992-996	rikt	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-13	997-1001	land	_	Target[6]	16-1[16]	false[6]	5[6]	_	
+16-14	1001-1002	.	_	_	_	_	_	_	
+
+#Text=De svenskar som lever idag är ljusår ifrån de svenskar som skapade Sverige.
+17-1	1003-1005	De	_	_	_	_	_	_	
+17-2	1006-1014	svenskar	_	_	_	_	_	_	
+17-3	1015-1018	som	_	_	_	_	_	_	
+17-4	1019-1024	lever	_	_	_	_	_	_	
+17-5	1025-1029	idag	_	_	_	_	_	_	
+17-6	1030-1032	är	_	_	_	_	_	_	
+17-7	1033-1039	ljusår	_	_	_	_	_	_	
+17-8	1040-1045	ifrån	_	_	_	_	_	_	
+17-9	1046-1048	de	_	_	_	_	_	_	
+17-10	1049-1057	svenskar	_	_	_	_	_	_	
+17-11	1058-1061	som	_	_	_	_	_	_	
+17-12	1062-1069	skapade	_	_	_	_	_	_	
+17-13	1070-1077	Sverige	_	_	_	_	_	_	
+17-14	1077-1078	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1080-1081	#	_	_	_	_	_	_	
+18-2	1081-1082	P	_	_	_	_	_	_	
+18-3	1083-1086	IMM	_	_	_	_	_	_	
+18-4	1086-1087	.	_	_	_	_	_	_	
+
+#Text=Jag röstar normalt SD men kommer i nästa val att taktiskt rösta på idiotpartiet MP för att underminera feminister, liberaler, HBTQ etc.
+19-1	1089-1092	Jag	*[17]|*[18]	_	_	_	_	_	
+19-2	1093-1099	röstar	_	_	_	_	_	_	
+19-3	1100-1107	normalt	_	_	_	_	_	_	
+19-4	1108-1110	SD	_	_	_	_	_	_	
+19-5	1111-1114	men	_	_	_	_	_	_	
+19-6	1115-1121	kommer	_	_	_	_	_	_	
+19-7	1122-1123	i	_	_	_	_	_	_	
+19-8	1124-1129	nästa	_	_	_	_	_	_	
+19-9	1130-1133	val	_	_	_	_	_	_	
+19-10	1134-1137	att	_	_	_	_	_	_	
+19-11	1138-1146	taktiskt	_	_	_	_	_	_	
+19-12	1147-1152	rösta	_	_	_	_	_	_	
+19-13	1153-1155	på	_	_	_	_	_	_	
+19-14	1156-1168	idiotpartiet	_	Source;Target	19-1[17];19-15	false	1	_	
+19-15	1169-1171	MP	*	_	_	_	_	_	
+19-16	1172-1175	för	_	_	_	_	_	_	
+19-17	1176-1179	att	_	_	_	_	_	_	
+19-18	1180-1191	underminera	_	Target;Target;Source;Target	19-19;19-23;19-1[18];19-21	false	5	_	
+19-19	1192-1202	feminister	*	_	_	_	_	_	
+19-20	1202-1203	,	_	_	_	_	_	_	
+19-21	1204-1213	liberaler	*	_	_	_	_	_	
+19-22	1213-1214	,	_	_	_	_	_	_	
+19-23	1215-1219	HBTQ	*	_	_	_	_	_	
+19-24	1220-1223	etc	_	_	_	_	_	_	
+19-25	1223-1224	.	_	_	_	_	_	_	

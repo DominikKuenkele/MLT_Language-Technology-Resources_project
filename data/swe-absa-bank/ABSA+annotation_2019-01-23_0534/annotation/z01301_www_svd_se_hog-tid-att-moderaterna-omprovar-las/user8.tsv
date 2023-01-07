@@ -1,0 +1,1038 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hög tid att Moderaterna omprövar las.
+3-1	18-21	Hög	_	Target[1]	3-3[21]	false[1]	4[1]	_	_	
+3-2	22-25	tid	_	Target[1]	3-3[21]	false[1]	4[1]	_	_	
+3-3	26-29	att	*[21]	_	_	_	_	_	_	
+3-4	30-41	Moderaterna	*[21]	_	_	_	_	_	_	
+3-5	42-50	omprövar	*[21]	_	_	_	_	_	_	
+3-6	51-54	las	*[21]	_	_	_	_	_	_	
+3-7	54-55	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	_	
+
+#Text=Det har nu gått tio år sedan Moderaterna blev Nya Moderaterna.
+5-1	66-69	Det	_	_	_	_	_	_	_	
+5-2	70-73	har	_	_	_	_	_	_	_	
+5-3	74-76	nu	_	_	_	_	_	_	_	
+5-4	77-81	gått	_	_	_	_	_	_	_	
+5-5	82-85	tio	_	_	_	_	_	_	_	
+5-6	86-88	år	_	_	_	_	_	_	_	
+5-7	89-94	sedan	_	_	_	_	_	_	_	
+5-8	95-106	Moderaterna	_	_	_	_	_	_	_	
+5-9	107-111	blev	_	_	_	_	_	_	_	
+5-10	112-115	Nya	_	_	_	_	_	_	_	
+5-11	116-127	Moderaterna	_	_	_	_	_	_	_	
+5-12	127-128	.	_	_	_	_	_	_	_	
+
+#Text=Mycket av den politiska omläggningen har tjänat Sverige och partiet väl.
+6-1	129-135	Mycket	*[22]|*[23]	_	_	_	_	_	_	
+6-2	136-138	av	*[22]|*[23]	_	_	_	_	_	_	
+6-3	139-142	den	*[22]|*[23]	_	_	_	_	_	_	
+6-4	143-152	politiska	*[22]|*[23]	_	_	_	_	_	_	
+6-5	153-165	omläggningen	*[22]|*[23]	_	_	_	_	_	_	
+6-6	166-169	har	*[22]|*[23]	Target[2]	6-1[22]	false[2]	4[2]	6-11[0_2]	_	
+6-7	170-176	tjänat	*[22]|*[23]	Target[2]	6-1[22]	false[2]	4[2]	_	_	
+6-8	177-184	Sverige	*[22]|*[23]	_	_	_	_	_	_	
+6-9	185-188	och	*[22]|*[23]	_	_	_	_	_	_	
+6-10	189-196	partiet	*[22]|*[23]	_	_	_	_	_	_	
+6-11	197-200	väl	*[22]|*[23]	Target	6-1[23]	false	4	_	_	
+6-12	200-201	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt har låsningen i att inte röra lagen om anställningsskydd stjälpt mer än den hjälpt.
+7-1	202-211	Samtidigt	_	_	_	_	_	_	_	
+7-2	212-215	har	_	Target[3]	7-3[24]	false[3]	2[3]	7-11[4_3]	_	
+7-3	216-225	låsningen	*[24]|*[25]	Target[3]	7-3[24]	false[3]	2[3]	_	_	
+7-4	226-227	i	*[24]|*[25]	_	_	_	_	_	_	
+7-5	228-231	att	*[24]|*[25]	_	_	_	_	_	_	
+7-6	232-236	inte	*[24]|*[25]	_	_	_	_	_	_	
+7-7	237-241	röra	*[24]|*[25]	_	_	_	_	_	_	
+7-8	242-247	lagen	*[24]|*[25]	_	_	_	_	_	_	
+7-9	248-250	om	*[24]|*[25]	_	_	_	_	_	_	
+7-10	251-268	anställningsskydd	*[24]|*[25]	_	_	_	_	_	_	
+7-11	269-276	stjälpt	_	Target[4]	7-3[25]	false[4]	2[4]	_	_	
+7-12	277-280	mer	_	Target[4]	7-3[25]	false[4]	2[4]	_	_	
+7-13	281-283	än	_	Target[4]	7-3[25]	false[4]	2[4]	_	_	
+7-14	284-287	den	_	Target[4]	7-3[25]	false[4]	2[4]	_	_	
+7-15	288-294	hjälpt	_	Target[4]	7-3[25]	false[4]	2[4]	_	_	
+7-16	294-295	.	_	_	_	_	_	_	_	
+
+#Text=Det är hög tid för omprövning, skriver flera förbundsordförande i Moderaterna.
+8-1	296-299	Det	_	Source;Target[5]	8-9[26];8-6	false[5]	4[5]	_	_	
+8-2	300-302	är	_	Source;Target[5]	8-9[26];8-6	false[5]	4[5]	_	_	
+8-3	303-306	hög	_	Source;Target[5]	8-9[26];8-6	false[5]	4[5]	_	_	
+8-4	307-310	tid	_	Source;Target[5]	8-9[26];8-6	false[5]	4[5]	_	_	
+8-5	311-314	för	_	Source;Target[5]	8-9[26];8-6	false[5]	4[5]	_	_	
+8-6	315-325	omprövning	*	_	_	_	_	_	_	
+8-7	325-326	,	_	_	_	_	_	_	_	
+8-8	327-334	skriver	_	_	_	_	_	_	_	
+8-9	335-340	flera	*[26]	_	_	_	_	_	_	
+8-10	341-359	förbundsordförande	*[26]	_	_	_	_	_	_	
+8-11	360-361	i	*[26]	_	_	_	_	_	_	
+8-12	362-373	Moderaterna	*[26]	_	_	_	_	_	_	
+8-13	373-374	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	376-377	#	_	_	_	_	_	_	_	
+9-2	377-378	P	_	_	_	_	_	_	_	
+9-3	379-382	IMM	_	_	_	_	_	_	_	
+9-4	382-383	.	_	_	_	_	_	_	_	
+
+#Text=Det är nu hög tid för Moderaterna att kliva fram och ta ansvar.
+10-1	385-388	Det	_	Target[6]	10-7[27]	false[6]	4[6]	10-8[7_6]	_	
+10-2	389-391	är	_	Target[6]	10-7[27]	false[6]	4[6]	_	_	
+10-3	392-394	nu	_	Target[6]	10-7[27]	false[6]	4[6]	_	_	
+10-4	395-398	hög	_	Target[6]	10-7[27]	false[6]	4[6]	_	_	
+10-5	399-402	tid	_	Target[6]	10-7[27]	false[6]	4[6]	_	_	
+10-6	403-406	för	_	_	_	_	_	_	_	
+10-7	407-418	Moderaterna	*[27]|*[28]	_	_	_	_	_	_	
+10-8	419-422	att	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-9	423-428	kliva	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-10	429-433	fram	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-11	434-437	och	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-12	438-440	ta	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-13	441-447	ansvar	_	Target[7]	10-7[28]	false[7]	4[7]	_	_	
+10-14	447-448	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	450-451	#	_	_	_	_	_	_	_	
+11-2	451-452	P	_	_	_	_	_	_	_	
+11-3	453-456	IMM	_	_	_	_	_	_	_	
+11-4	456-457	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	459-462	Det	_	_	_	_	_	_	_	
+12-2	463-466	här	_	_	_	_	_	_	_	
+12-3	467-469	är	_	_	_	_	_	_	_	
+12-4	470-472	en	_	_	_	_	_	_	_	
+12-5	473-487	argumenterande	_	_	_	_	_	_	_	
+12-6	488-492	text	_	_	_	_	_	_	_	
+12-7	493-496	med	_	_	_	_	_	_	_	
+12-8	497-502	syfte	_	_	_	_	_	_	_	
+12-9	503-506	att	_	_	_	_	_	_	_	
+12-10	507-514	påverka	_	_	_	_	_	_	_	
+12-11	514-515	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	516-525	Åsikterna	_	_	_	_	_	_	_	
+13-2	526-529	som	_	_	_	_	_	_	_	
+13-3	530-538	uttrycks	_	_	_	_	_	_	_	
+13-4	539-541	är	_	_	_	_	_	_	_	
+13-5	542-553	skribentens	_	_	_	_	_	_	_	
+13-6	554-558	egna	_	_	_	_	_	_	_	
+13-7	558-559	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	561-562	#	_	_	_	_	_	_	_	
+14-2	562-563	P	_	_	_	_	_	_	_	
+14-3	564-567	IMM	_	_	_	_	_	_	_	
+14-4	567-568	.	_	_	_	_	_	_	_	
+
+#Text=Moderaternas partistämma i Örebro 2005 är en milstolpe i svensk politisk historia.
+15-1	570-582	Moderaternas	_	_	_	_	_	_	_	
+15-2	583-594	partistämma	_	_	_	_	_	_	_	
+15-3	595-596	i	_	_	_	_	_	_	_	
+15-4	597-603	Örebro	_	_	_	_	_	_	_	
+15-5	604-608	2005	_	_	_	_	_	_	_	
+15-6	609-611	är	_	_	_	_	_	_	_	
+15-7	612-614	en	_	_	_	_	_	_	_	
+15-8	615-624	milstolpe	_	_	_	_	_	_	_	
+15-9	625-626	i	_	_	_	_	_	_	_	
+15-10	627-633	svensk	_	_	_	_	_	_	_	
+15-11	634-642	politisk	_	_	_	_	_	_	_	
+15-12	643-651	historia	_	_	_	_	_	_	_	
+15-13	651-652	.	_	_	_	_	_	_	_	
+
+#Text=Stämman blev ett avstamp för Nya Moderaterna med en politikutveckling som tog Moderaterna och Alliansen till två valsegrar, Sverige genom en ekonomisk kris och gjorde jobbskatteavdrag och arbetslinje till centrala politiska begrepp.
+16-1	653-660	Stämman	*[29]	_	_	_	_	_	_	
+16-2	661-665	blev	*[29]	_	_	_	_	_	_	
+16-3	666-669	ett	*[29]	_	_	_	_	_	_	
+16-4	670-677	avstamp	*[29]	_	_	_	_	_	_	
+16-5	678-681	för	*[29]	_	_	_	_	_	_	
+16-6	682-685	Nya	*[29]	_	_	_	_	_	_	
+16-7	686-697	Moderaterna	*[29]	_	_	_	_	_	_	
+16-8	698-701	med	*[29]	_	_	_	_	_	_	
+16-9	702-704	en	*[29]	_	_	_	_	_	_	
+16-10	705-722	politikutveckling	*[29]	_	_	_	_	_	_	
+16-11	723-726	som	*[29]	_	_	_	_	_	_	
+16-12	727-730	tog	*[29]	_	_	_	_	_	_	
+16-13	731-742	Moderaterna	*[29]	_	_	_	_	_	_	
+16-14	743-746	och	*[29]	_	_	_	_	_	_	
+16-15	747-756	Alliansen	*[29]	_	_	_	_	_	_	
+16-16	757-761	till	*[29]	_	_	_	_	_	_	
+16-17	762-765	två	*[29]	Target[8]	16-1[29]	false[8]	4[8]	_	_	
+16-18	766-775	valsegrar	*[29]	Target[8]	16-1[29]	false[8]	4[8]	_	_	
+16-19	775-776	,	_	_	_	_	_	_	_	
+16-20	777-784	Sverige	_	_	_	_	_	_	_	
+16-21	785-790	genom	_	_	_	_	_	_	_	
+16-22	791-793	en	_	_	_	_	_	_	_	
+16-23	794-803	ekonomisk	_	_	_	_	_	_	_	
+16-24	804-808	kris	_	_	_	_	_	_	_	
+16-25	809-812	och	_	_	_	_	_	_	_	
+16-26	813-819	gjorde	_	_	_	_	_	_	_	
+16-27	820-836	jobbskatteavdrag	_	_	_	_	_	_	_	
+16-28	837-840	och	_	_	_	_	_	_	_	
+16-29	841-852	arbetslinje	_	_	_	_	_	_	_	
+16-30	853-857	till	_	_	_	_	_	_	_	
+16-31	858-866	centrala	_	_	_	_	_	_	_	
+16-32	867-876	politiska	_	_	_	_	_	_	_	
+16-33	877-884	begrepp	_	_	_	_	_	_	_	
+16-34	884-885	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt innebar stämman och Nya Moderaternas politiska kursomläggning att arbetsrätten och lagen om anställningsskydd blev områden som Moderaterna slutade att lägga sig i.
+17-1	886-895	Samtidigt	_	_	_	_	_	_	_	
+17-2	896-903	innebar	_	_	_	_	_	_	_	
+17-3	904-911	stämman	_	_	_	_	_	_	_	
+17-4	912-915	och	_	_	_	_	_	_	_	
+17-5	916-919	Nya	_	_	_	_	_	_	_	
+17-6	920-932	Moderaternas	_	_	_	_	_	_	_	
+17-7	933-942	politiska	_	_	_	_	_	_	_	
+17-8	943-957	kursomläggning	_	_	_	_	_	_	_	
+17-9	958-961	att	_	_	_	_	_	_	_	
+17-10	962-974	arbetsrätten	_	_	_	_	_	_	_	
+17-11	975-978	och	_	_	_	_	_	_	_	
+17-12	979-984	lagen	_	_	_	_	_	_	_	
+17-13	985-987	om	_	_	_	_	_	_	_	
+17-14	988-1005	anställningsskydd	_	_	_	_	_	_	_	
+17-15	1006-1010	blev	_	_	_	_	_	_	_	
+17-16	1011-1018	områden	_	_	_	_	_	_	_	
+17-17	1019-1022	som	_	_	_	_	_	_	_	
+17-18	1023-1034	Moderaterna	_	_	_	_	_	_	_	
+17-19	1035-1042	slutade	_	_	_	_	_	_	_	
+17-20	1043-1046	att	_	_	_	_	_	_	_	
+17-21	1047-1052	lägga	_	_	_	_	_	_	_	
+17-22	1053-1056	sig	_	_	_	_	_	_	_	
+17-23	1057-1058	i	_	_	_	_	_	_	_	
+17-24	1058-1059	.	_	_	_	_	_	_	_	
+
+#Text=Under tio års tid försvarade Fredrik Reinfeldt och Anders Borg kursomläggningen.
+18-1	1060-1065	Under	_	_	_	_	_	_	_	
+18-2	1066-1069	tio	_	_	_	_	_	_	_	
+18-3	1070-1073	års	_	_	_	_	_	_	_	
+18-4	1074-1077	tid	_	_	_	_	_	_	_	
+18-5	1078-1088	försvarade	_	Target;Source	18-11;18-6[30]	false	4	_	_	
+18-6	1089-1096	Fredrik	*[30]	_	_	_	_	_	_	
+18-7	1097-1106	Reinfeldt	*[30]	_	_	_	_	_	_	
+18-8	1107-1110	och	*[30]	_	_	_	_	_	_	
+18-9	1111-1117	Anders	*[30]	_	_	_	_	_	_	
+18-10	1118-1122	Borg	*[30]	_	_	_	_	_	_	
+18-11	1123-1139	kursomläggningen	*	_	_	_	_	_	19-14[33_0]	
+18-12	1139-1140	.	_	_	_	_	_	_	_	
+
+#Text=Bara månader efter att de avgått var Anders Borg självkritisk över låsningen som den inneburit.
+19-1	1141-1145	Bara	_	_	_	_	_	_	_	
+19-2	1146-1153	månader	_	_	_	_	_	_	_	
+19-3	1154-1159	efter	_	_	_	_	_	_	_	
+19-4	1160-1163	att	_	_	_	_	_	_	_	
+19-5	1164-1166	de	_	_	_	_	_	_	_	
+19-6	1167-1173	avgått	_	_	_	_	_	_	_	
+19-7	1174-1177	var	_	_	_	_	_	_	_	
+19-8	1178-1184	Anders	*[31]	_	_	_	_	_	_	
+19-9	1185-1189	Borg	*[31]	_	_	_	_	_	_	
+19-10	1190-1202	självkritisk	_	Target;Source[9]	19-12[32];19-8[31]	false[9]	2[9]	_	_	
+19-11	1203-1207	över	_	Target;Source[9]	19-12[32];19-8[31]	false[9]	2[9]	_	_	
+19-12	1208-1217	låsningen	*[32]	Target;Source[9]	19-12[32];19-8[31]	false[9]	2[9]	_	_	
+19-13	1218-1221	som	*[32]	_	_	_	_	_	_	
+19-14	1222-1225	den	*[32]|*[33]	_	_	_	_	_	_	
+19-15	1226-1235	inneburit	*[32]	_	_	_	_	_	_	
+19-16	1235-1236	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1238-1239	#	_	_	_	_	_	_	_	
+20-2	1239-1240	P	_	_	_	_	_	_	_	
+20-3	1241-1244	IMM	_	_	_	_	_	_	_	
+20-4	1244-1245	.	_	_	_	_	_	_	_	
+
+#Text=**Samtidigt som arbetslinjen **skulle gälla alla så omöjliggjorde låsningen kring arbetsmarknadslagstiftningen att arbetsmarknaden skulle kunna öppnas upp och trösklarna till ett första jobb sänkas.
+21-1	1247-1248	*	_	_	_	_	_	_	_	
+21-2	1248-1249	*	_	_	_	_	_	_	_	
+21-3	1249-1258	Samtidigt	_	_	_	_	_	_	_	
+21-4	1259-1262	som	_	_	_	_	_	_	_	
+21-5	1263-1275	arbetslinjen	_	_	_	_	_	_	_	
+21-6	1276-1277	*	_	_	_	_	_	_	_	
+21-7	1277-1278	*	_	_	_	_	_	_	_	
+21-8	1278-1284	skulle	_	_	_	_	_	_	_	
+21-9	1285-1290	gälla	_	_	_	_	_	_	_	
+21-10	1291-1295	alla	_	_	_	_	_	_	_	
+21-11	1296-1298	så	_	_	_	_	_	_	_	
+21-12	1299-1312	omöjliggjorde	*[34]	Target[10]	21-12[34]	false[10]	2[10]	_	_	
+21-13	1313-1322	låsningen	*[34]	Target[10]	21-12[34]	false[10]	2[10]	_	_	
+21-14	1323-1328	kring	*[34]	_	_	_	_	_	_	
+21-15	1329-1357	arbetsmarknadslagstiftningen	*[34]	_	_	_	_	_	_	
+21-16	1358-1361	att	*[34]	_	_	_	_	_	_	
+21-17	1362-1377	arbetsmarknaden	*[34]	_	_	_	_	_	_	
+21-18	1378-1384	skulle	*[34]	_	_	_	_	_	_	
+21-19	1385-1390	kunna	*[34]	_	_	_	_	_	_	
+21-20	1391-1397	öppnas	*[34]	_	_	_	_	_	_	
+21-21	1398-1401	upp	*[34]	_	_	_	_	_	_	
+21-22	1402-1405	och	*[34]	_	_	_	_	_	_	
+21-23	1406-1416	trösklarna	*[34]	_	_	_	_	_	_	
+21-24	1417-1421	till	*[34]	_	_	_	_	_	_	
+21-25	1422-1425	ett	*[34]	_	_	_	_	_	_	
+21-26	1426-1432	första	*[34]	_	_	_	_	_	_	
+21-27	1433-1437	jobb	*[34]	_	_	_	_	_	_	
+21-28	1438-1444	sänkas	*[34]	_	_	_	_	_	_	
+21-29	1444-1445	.	_	_	_	_	_	_	_	
+
+#Text=För ett parti som gör anspråk på att vara Sveriges arbetarparti kan inte arbetsmarknadslagstiftningen vara undantagen som politiskt verktyg.
+22-1	1446-1449	För	_	_	_	_	_	_	_	
+22-2	1450-1453	ett	_	_	_	_	_	_	_	
+22-3	1454-1459	parti	_	_	_	_	_	_	_	
+22-4	1460-1463	som	_	_	_	_	_	_	_	
+22-5	1464-1467	gör	_	_	_	_	_	_	_	
+22-6	1468-1475	anspråk	_	_	_	_	_	_	_	
+22-7	1476-1478	på	_	_	_	_	_	_	_	
+22-8	1479-1482	att	_	_	_	_	_	_	_	
+22-9	1483-1487	vara	_	_	_	_	_	_	_	
+22-10	1488-1496	Sveriges	_	_	_	_	_	_	_	
+22-11	1497-1509	arbetarparti	_	_	_	_	_	_	_	
+22-12	1510-1513	kan	_	_	_	_	_	_	_	
+22-13	1514-1518	inte	_	_	_	_	_	_	_	
+22-14	1519-1547	arbetsmarknadslagstiftningen	_	_	_	_	_	_	_	
+22-15	1548-1552	vara	_	_	_	_	_	_	_	
+22-16	1553-1563	undantagen	_	_	_	_	_	_	_	
+22-17	1564-1567	som	_	_	_	_	_	_	_	
+22-18	1568-1577	politiskt	_	_	_	_	_	_	_	
+22-19	1578-1585	verktyg	_	_	_	_	_	_	_	
+22-20	1585-1586	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1588-1589	#	_	_	_	_	_	_	_	
+23-2	1589-1590	P	_	_	_	_	_	_	_	
+23-3	1591-1594	IMM	_	_	_	_	_	_	_	
+23-4	1594-1595	.	_	_	_	_	_	_	_	
+
+#Text=Vår jobbpolitik behöver utformas utifrån de utmaningar och hinder som vi ser för att göra den svenska arbetsmarknaden bättre.
+24-1	1597-1600	Vår	_	_	_	_	_	_	_	
+24-2	1601-1612	jobbpolitik	_	_	_	_	_	_	_	
+24-3	1613-1620	behöver	_	_	_	_	_	_	_	
+24-4	1621-1629	utformas	_	_	_	_	_	_	_	
+24-5	1630-1637	utifrån	_	_	_	_	_	_	_	
+24-6	1638-1640	de	_	_	_	_	_	_	_	
+24-7	1641-1651	utmaningar	_	_	_	_	_	_	_	
+24-8	1652-1655	och	_	_	_	_	_	_	_	
+24-9	1656-1662	hinder	_	_	_	_	_	_	_	
+24-10	1663-1666	som	_	_	_	_	_	_	_	
+24-11	1667-1669	vi	_	_	_	_	_	_	_	
+24-12	1670-1673	ser	_	_	_	_	_	_	_	
+24-13	1674-1677	för	_	_	_	_	_	_	_	
+24-14	1678-1681	att	_	_	_	_	_	_	_	
+24-15	1682-1686	göra	_	_	_	_	_	_	_	
+24-16	1687-1690	den	_	_	_	_	_	_	_	
+24-17	1691-1698	svenska	_	_	_	_	_	_	_	
+24-18	1699-1714	arbetsmarknaden	_	_	_	_	_	_	_	
+24-19	1715-1721	bättre	_	_	_	_	_	_	_	
+24-20	1721-1722	.	_	_	_	_	_	_	_	
+
+#Text=Det kan inte uppnås med en grundinställning om att "just lagen om anställningsskydd rör vi inte hur den än ser ut" eller oavsett hur den än påverkar arbetsmarknaden i dag.
+25-1	1723-1726	Det	_	_	_	_	_	_	_	
+25-2	1727-1730	kan	_	_	_	_	_	_	_	
+25-3	1731-1735	inte	_	_	_	_	_	_	_	
+25-4	1736-1742	uppnås	_	_	_	_	_	_	_	
+25-5	1743-1746	med	_	_	_	_	_	_	_	
+25-6	1747-1749	en	_	_	_	_	_	_	_	
+25-7	1750-1766	grundinställning	_	_	_	_	_	_	_	
+25-8	1767-1769	om	_	_	_	_	_	_	_	
+25-9	1770-1773	att	_	_	_	_	_	_	_	
+25-10	1774-1775	"	_	_	_	_	_	_	_	
+25-11	1775-1779	just	_	_	_	_	_	_	_	
+25-12	1780-1785	lagen	_	_	_	_	_	_	_	
+25-13	1786-1788	om	_	_	_	_	_	_	_	
+25-14	1789-1806	anställningsskydd	_	_	_	_	_	_	_	
+25-15	1807-1810	rör	_	_	_	_	_	_	_	
+25-16	1811-1813	vi	_	_	_	_	_	_	_	
+25-17	1814-1818	inte	_	_	_	_	_	_	_	
+25-18	1819-1822	hur	_	_	_	_	_	_	_	
+25-19	1823-1826	den	_	_	_	_	_	_	_	
+25-20	1827-1829	än	_	_	_	_	_	_	_	
+25-21	1830-1833	ser	_	_	_	_	_	_	_	
+25-22	1834-1836	ut	_	_	_	_	_	_	_	
+25-23	1836-1837	"	_	_	_	_	_	_	_	
+25-24	1838-1843	eller	_	_	_	_	_	_	_	
+25-25	1844-1851	oavsett	_	_	_	_	_	_	_	
+25-26	1852-1855	hur	_	_	_	_	_	_	_	
+25-27	1856-1859	den	_	_	_	_	_	_	_	
+25-28	1860-1862	än	_	_	_	_	_	_	_	
+25-29	1863-1871	påverkar	_	_	_	_	_	_	_	
+25-30	1872-1887	arbetsmarknaden	_	_	_	_	_	_	_	
+25-31	1888-1889	i	_	_	_	_	_	_	_	
+25-32	1890-1893	dag	_	_	_	_	_	_	_	
+25-33	1893-1894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1896-1897	#	_	_	_	_	_	_	_	
+26-2	1897-1898	P	_	_	_	_	_	_	_	
+26-3	1899-1902	IMM	_	_	_	false	4	_	_	
+26-4	1902-1903	.	_	_	_	_	_	_	_	
+
+#Text=Politikutvecklingen inför valet 2018 behöver syfta till konkreta reformer för att möta de samhällsproblem som vi identifierar.
+27-1	1905-1924	Politikutvecklingen	_	_	_	_	_	_	_	
+27-2	1925-1930	inför	_	_	_	_	_	_	_	
+27-3	1931-1936	valet	_	_	_	_	_	_	_	
+27-4	1937-1941	2018	_	_	_	_	_	_	_	
+27-5	1942-1949	behöver	_	_	_	_	_	_	_	
+27-6	1950-1955	syfta	_	_	_	_	_	_	_	
+27-7	1956-1960	till	_	_	_	_	_	_	_	
+27-8	1961-1969	konkreta	_	_	_	_	_	_	_	
+27-9	1970-1978	reformer	_	_	_	_	_	_	_	
+27-10	1979-1982	för	_	_	_	_	_	_	_	
+27-11	1983-1986	att	_	_	_	_	_	_	_	
+27-12	1987-1991	möta	_	_	_	_	_	_	_	
+27-13	1992-1994	de	_	_	_	_	_	_	_	
+27-14	1995-2010	samhällsproblem	_	_	_	false	2	_	_	
+27-15	2011-2014	som	_	_	_	_	_	_	_	
+27-16	2015-2017	vi	_	_	_	_	_	_	_	
+27-17	2018-2030	identifierar	_	_	_	_	_	_	_	
+27-18	2030-2031	.	_	_	_	_	_	_	_	
+
+#Text=Det nya utanförskapet är 10-talets stora samhällsproblem.
+28-1	2032-2035	Det	*[35]	_	_	_	_	_	_	
+28-2	2036-2039	nya	*[35]	_	_	_	_	_	_	
+28-3	2040-2053	utanförskapet	*[35]	_	_	false	1	_	_	
+28-4	2054-2056	är	*[35]	_	_	_	_	_	_	
+28-5	2057-2059	10	*[35]	_	_	_	_	_	_	
+28-6	2059-2060	-	*[35]	_	_	_	_	_	_	
+28-7	2060-2066	talets	*[35]	_	_	_	_	_	_	
+28-8	2067-2072	stora	*[35]	Target[11]	28-1[35]	false[11]	2[11]	_	_	
+28-9	2073-2088	samhällsproblem	*[35]	Target[11]	28-1[35]	false[11]	2[11]	_	_	
+28-10	2088-2089	.	_	_	_	_	_	_	_	
+
+#Text=Unga och nyanlända möter en tröskel till den svenska arbetsmarknaden som är alldeles för hög.
+29-1	2090-2094	Unga	_	_	_	_	_	_	_	
+29-2	2095-2098	och	_	_	_	_	_	_	_	
+29-3	2099-2108	nyanlända	_	_	_	_	_	_	_	
+29-4	2109-2114	möter	_	_	_	_	_	_	_	
+29-5	2115-2117	en	*[36]	_	_	_	_	_	_	
+29-6	2118-2125	tröskel	*[36]	_	_	_	_	_	_	
+29-7	2126-2130	till	*[36]	_	_	_	_	_	_	
+29-8	2131-2134	den	*[36]	_	_	_	_	_	_	
+29-9	2135-2142	svenska	*[36]	_	_	_	_	_	_	
+29-10	2143-2158	arbetsmarknaden	*[36]	_	_	_	_	_	_	
+29-11	2159-2162	som	*[36]	_	_	_	_	_	_	
+29-12	2163-2165	är	*[36]	_	_	_	_	_	_	
+29-13	2166-2174	alldeles	*[36]	Target[12]	29-5[36]	false[12]	2[12]	_	_	
+29-14	2175-2178	för	*[36]	Target[12]	29-5[36]	false[12]	2[12]	_	_	
+29-15	2179-2182	hög	*[36]	_	_	_	_	_	_	
+29-16	2182-2183	.	_	_	_	_	_	_	_	
+
+#Text=Varken arbetsmarknadens särintressen eller beröringsskräck med lagen om anställningsskydd får stå i vägen för att hitta lösningar.
+30-1	2184-2190	Varken	_	_	_	_	_	_	_	
+30-2	2191-2207	arbetsmarknadens	_	_	_	_	_	_	_	
+30-3	2208-2220	särintressen	_	_	_	_	_	_	_	
+30-4	2221-2226	eller	_	_	_	_	_	_	_	
+30-5	2227-2242	beröringsskräck	_	_	_	false	1	_	_	
+30-6	2243-2246	med	_	_	_	_	_	_	_	
+30-7	2247-2252	lagen	_	_	_	_	_	_	_	
+30-8	2253-2255	om	_	_	_	_	_	_	_	
+30-9	2256-2273	anställningsskydd	_	_	_	_	_	_	_	
+30-10	2274-2277	får	_	_	_	_	_	_	_	
+30-11	2278-2281	stå	_	_	_	_	_	_	_	
+30-12	2282-2283	i	_	_	_	_	_	_	_	
+30-13	2284-2289	vägen	_	_	_	_	_	_	_	
+30-14	2290-2293	för	_	_	_	_	_	_	_	
+30-15	2294-2297	att	_	_	_	_	_	_	_	
+30-16	2298-2303	hitta	_	_	_	_	_	_	_	
+30-17	2304-2313	lösningar	_	_	_	_	_	_	_	
+30-18	2313-2314	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2316-2317	#	_	_	_	_	_	_	_	
+31-2	2317-2318	P	_	_	_	_	_	_	_	
+31-3	2319-2322	IMM	_	_	_	false	4	_	_	
+31-4	2322-2323	.	_	_	_	_	_	_	_	
+
+#Text=Den nuvarande lagstiftningen skapar flera problem: Inlåsningseffekter för äldre arbetstagare när hela tryggheten bygger på att stanna kvar på samma arbetsplats.
+32-1	2325-2328	Den	*[37]	_	_	_	_	_	_	
+32-2	2329-2338	nuvarande	*[37]	_	_	_	_	_	_	
+32-3	2339-2353	lagstiftningen	*[37]	_	_	_	_	_	_	
+32-4	2354-2360	skapar	_	Target[13]	32-1[37]	false[13]	2[13]	_	_	
+32-5	2361-2366	flera	_	Target[13]	32-1[37]	false[13]	2[13]	_	_	
+32-6	2367-2374	problem	_	Target[13]	32-1[37]	false[13]	2[13]	_	_	
+32-7	2374-2375	:	_	_	_	_	_	_	_	
+32-8	2376-2394	Inlåsningseffekter	_	_	_	_	_	_	_	
+32-9	2395-2398	för	_	_	_	_	_	_	_	
+32-10	2399-2404	äldre	_	_	_	_	_	_	_	
+32-11	2405-2417	arbetstagare	_	_	_	_	_	_	_	
+32-12	2418-2421	när	_	_	_	_	_	_	_	
+32-13	2422-2426	hela	_	_	_	_	_	_	_	
+32-14	2427-2437	tryggheten	_	_	_	_	_	_	_	
+32-15	2438-2444	bygger	_	_	_	_	_	_	_	
+32-16	2445-2447	på	_	_	_	_	_	_	_	
+32-17	2448-2451	att	_	_	_	_	_	_	_	
+32-18	2452-2458	stanna	_	_	_	_	_	_	_	
+32-19	2459-2463	kvar	_	_	_	_	_	_	_	
+32-20	2464-2466	på	_	_	_	_	_	_	_	
+32-21	2467-2472	samma	_	_	_	_	_	_	_	
+32-22	2473-2484	arbetsplats	_	_	_	_	_	_	_	
+32-23	2484-2485	.	_	_	_	_	_	_	_	
+
+#Text=För yngre blir lagstiftningen uppenbart omodern.
+33-1	2486-2489	För	_	_	_	_	_	_	_	
+33-2	2490-2495	yngre	_	_	_	_	_	_	_	
+33-3	2496-2500	blir	_	_	_	_	_	_	_	
+33-4	2501-2515	lagstiftningen	_	_	_	_	_	_	_	
+33-5	2516-2525	uppenbart	_	_	_	_	_	_	_	
+33-6	2526-2533	omodern	_	_	_	_	_	_	_	
+33-7	2533-2534	.	_	_	_	_	_	_	_	
+
+#Text=Ingen ung har som idé att stanna hela yrkeslivet på samma arbetsplats, utan ser snarare ett 50-årigt yrkesliv framför sig där nya arbetsgivare, arbetsplatser och vidareutbildning kommer att utgöra självklara inslag.
+34-1	2535-2540	Ingen	_	_	_	_	_	_	_	
+34-2	2541-2544	ung	_	_	_	_	_	_	_	
+34-3	2545-2548	har	_	_	_	_	_	_	_	
+34-4	2549-2552	som	_	_	_	_	_	_	_	
+34-5	2553-2556	idé	_	_	_	_	_	_	_	
+34-6	2557-2560	att	_	_	_	_	_	_	_	
+34-7	2561-2567	stanna	_	_	_	_	_	_	_	
+34-8	2568-2572	hela	_	_	_	_	_	_	_	
+34-9	2573-2583	yrkeslivet	_	_	_	_	_	_	_	
+34-10	2584-2586	på	_	_	_	_	_	_	_	
+34-11	2587-2592	samma	_	_	_	_	_	_	_	
+34-12	2593-2604	arbetsplats	_	_	_	_	_	_	_	
+34-13	2604-2605	,	_	_	_	_	_	_	_	
+34-14	2606-2610	utan	_	_	_	_	_	_	_	
+34-15	2611-2614	ser	_	_	_	_	_	_	_	
+34-16	2615-2622	snarare	_	_	_	_	_	_	_	
+34-17	2623-2626	ett	_	_	_	_	_	_	_	
+34-18	2627-2629	50	_	_	_	_	_	_	_	
+34-19	2629-2630	-	_	_	_	_	_	_	_	
+34-20	2630-2635	årigt	_	_	_	_	_	_	_	
+34-21	2636-2644	yrkesliv	_	_	_	_	_	_	_	
+34-22	2645-2652	framför	_	_	_	_	_	_	_	
+34-23	2653-2656	sig	_	_	_	_	_	_	_	
+34-24	2657-2660	där	_	_	_	_	_	_	_	
+34-25	2661-2664	nya	_	_	_	_	_	_	_	
+34-26	2665-2677	arbetsgivare	_	_	_	_	_	_	_	
+34-27	2677-2678	,	_	_	_	_	_	_	_	
+34-28	2679-2692	arbetsplatser	_	_	_	_	_	_	_	
+34-29	2693-2696	och	_	_	_	_	_	_	_	
+34-30	2697-2713	vidareutbildning	_	_	_	_	_	_	_	
+34-31	2714-2720	kommer	_	_	_	_	_	_	_	
+34-32	2721-2724	att	_	_	_	_	_	_	_	
+34-33	2725-2731	utgöra	_	_	_	_	_	_	_	
+34-34	2732-2742	självklara	_	_	_	_	_	_	_	
+34-35	2743-2749	inslag	_	_	_	_	_	_	_	
+34-36	2749-2750	.	_	_	_	_	_	_	_	
+
+#Text=Nya arbetstillfällen uteblir när lagstiftningen skapar osäkerhet och krångel för mindre och medelstora arbetsgivare.
+35-1	2751-2754	Nya	_	_	_	_	_	_	_	
+35-2	2755-2771	arbetstillfällen	_	_	_	_	_	_	_	
+35-3	2772-2779	uteblir	_	_	_	_	_	_	_	
+35-4	2780-2783	när	_	_	_	_	_	_	_	
+35-5	2784-2798	lagstiftningen	*	_	_	_	_	_	_	
+35-6	2799-2805	skapar	_	Target[14]	35-5	false[14]	2[14]	_	_	
+35-7	2806-2815	osäkerhet	_	Target[14]	35-5	false[14]	2[14]	_	_	
+35-8	2816-2819	och	_	Target[14]	35-5	false[14]	2[14]	_	_	
+35-9	2820-2827	krångel	_	Target[14]	35-5	false[14]	2[14]	_	_	
+35-10	2828-2831	för	_	_	_	_	_	_	_	
+35-11	2832-2838	mindre	_	_	_	_	_	_	_	
+35-12	2839-2842	och	_	_	_	_	_	_	_	
+35-13	2843-2853	medelstora	_	_	_	_	_	_	_	
+35-14	2854-2866	arbetsgivare	_	_	_	_	_	_	_	
+35-15	2866-2867	.	_	_	_	_	_	_	_	
+
+#Text=Vid uppsägningar är det främst unga och nyanlända som tillhör de nyanställda och därmed är sist in och först ut.
+36-1	2868-2871	Vid	_	_	_	_	_	_	_	
+36-2	2872-2884	uppsägningar	_	_	_	_	_	_	_	
+36-3	2885-2887	är	_	_	_	_	_	_	_	
+36-4	2888-2891	det	_	_	_	_	_	_	_	
+36-5	2892-2898	främst	_	_	_	_	_	_	_	
+36-6	2899-2903	unga	_	_	_	_	_	_	_	
+36-7	2904-2907	och	_	_	_	_	_	_	_	
+36-8	2908-2917	nyanlända	_	_	_	_	_	_	_	
+36-9	2918-2921	som	_	_	_	_	_	_	_	
+36-10	2922-2929	tillhör	_	_	_	_	_	_	_	
+36-11	2930-2932	de	_	_	_	_	_	_	_	
+36-12	2933-2944	nyanställda	_	_	_	_	_	_	_	
+36-13	2945-2948	och	_	_	_	_	_	_	_	
+36-14	2949-2955	därmed	_	_	_	_	_	_	_	
+36-15	2956-2958	är	_	_	_	_	_	_	_	
+36-16	2959-2963	sist	_	_	_	_	_	_	_	
+36-17	2964-2966	in	_	_	_	_	_	_	_	
+36-18	2967-2970	och	_	_	_	_	_	_	_	
+36-19	2971-2976	först	_	_	_	_	_	_	_	
+36-20	2977-2979	ut	_	_	_	_	_	_	_	
+36-21	2979-2980	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2982-2983	#	_	_	_	_	_	_	_	
+37-2	2983-2984	P	_	_	_	_	_	_	_	
+37-3	2985-2988	IMM	_	_	_	_	_	_	_	
+37-4	2988-2989	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2991-3004	Skräddarsydda	_	_	_	_	_	_	_	
+38-2	3005-3011	kurser	_	_	_	_	_	_	_	
+38-3	3012-3013	i	_	_	_	_	_	_	_	
+38-4	3014-3019	ämnen	_	_	_	_	_	_	_	
+38-5	3020-3023	som	_	_	_	_	_	_	_	
+38-6	3024-3035	intresserar	_	_	_	_	_	_	_	
+38-7	3036-3039	och	_	_	_	_	_	_	_	
+38-8	3040-3049	engagerar	_	_	_	_	_	_	_	
+38-9	3050-3054	både	_	_	_	_	_	_	_	
+38-10	3055-3060	kropp	_	_	_	_	_	_	_	
+38-11	3061-3064	och	_	_	_	_	_	_	_	
+38-12	3065-3069	själ	_	_	_	_	_	_	_	
+38-13	3069-3070	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3072-3073	#	_	_	_	_	_	_	_	
+39-2	3073-3074	P	_	_	_	_	_	_	_	
+39-3	3075-3078	IMM	_	_	_	_	_	_	_	
+39-4	3078-3079	.	_	_	_	_	_	_	_	
+
+#Text=Utan vilja till att se arbetsmarknadslagstiftningen som ett verktyg redo att användas för att skapa rörlighet, en modern trygghet och en arbetsmarknad för nya grupper riskerar det nya utanförskapet att fortsätta växa.
+40-1	3081-3085	Utan	*[38]	_	_	_	_	_	_	
+40-2	3086-3091	vilja	*[38]	_	_	_	_	_	_	
+40-3	3092-3096	till	*[38]	_	_	_	_	_	_	
+40-4	3097-3100	att	*[38]	_	_	_	_	_	_	
+40-5	3101-3103	se	*[38]	_	_	_	_	_	_	
+40-6	3104-3132	arbetsmarknadslagstiftningen	*[38]	_	_	_	_	_	_	
+40-7	3133-3136	som	*[38]	_	_	_	_	_	_	
+40-8	3137-3140	ett	*[38]	_	_	_	_	_	_	
+40-9	3141-3148	verktyg	*[38]	_	_	_	_	_	_	
+40-10	3149-3153	redo	*[38]	_	_	_	_	_	_	
+40-11	3154-3157	att	*[38]	_	_	_	_	_	_	
+40-12	3158-3166	användas	*[38]	_	_	_	_	_	_	
+40-13	3167-3170	för	*[38]	_	_	_	_	_	_	
+40-14	3171-3174	att	*[38]	_	_	_	_	_	_	
+40-15	3175-3180	skapa	*[38]	_	_	_	_	_	_	
+40-16	3181-3190	rörlighet	*[38]	_	_	_	_	_	_	
+40-17	3190-3191	,	*[38]	_	_	_	_	_	_	
+40-18	3192-3194	en	*[38]	_	_	_	_	_	_	
+40-19	3195-3201	modern	*[38]	_	_	_	_	_	_	
+40-20	3202-3210	trygghet	*[38]	_	_	_	_	_	_	
+40-21	3211-3214	och	*[38]	_	_	_	_	_	_	
+40-22	3215-3217	en	*[38]	_	_	_	_	_	_	
+40-23	3218-3231	arbetsmarknad	*[38]	_	_	_	_	_	_	
+40-24	3232-3235	för	*[38]	_	_	_	_	_	_	
+40-25	3236-3239	nya	*[38]	_	_	_	_	_	_	
+40-26	3240-3247	grupper	*[38]	_	_	_	_	_	_	
+40-27	3248-3256	riskerar	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-28	3257-3260	det	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-29	3261-3264	nya	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-30	3265-3278	utanförskapet	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-31	3279-3282	att	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-32	3283-3292	fortsätta	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-33	3293-3297	växa	_	Target[15]	40-1[38]	false[15]	2[15]	_	_	
+40-34	3297-3298	.	_	_	_	_	_	_	_	
+
+#Text=Att göra yrkesintroduktionsanställning till en anställningsform och möjliggöra för små företag att undantas från delar av lagstiftningen och regelbördan bör vara en del i en förnyad arbetslinje.
+41-1	3299-3302	Att	*[39]	_	_	_	_	_	_	
+41-2	3303-3307	göra	*[39]	_	_	_	_	_	_	
+41-3	3308-3337	yrkesintroduktionsanställning	*[39]	_	_	_	_	_	_	
+41-4	3338-3342	till	*[39]	_	_	_	_	_	_	
+41-5	3343-3345	en	*[39]	_	_	_	_	_	_	
+41-6	3346-3362	anställningsform	*[39]	_	_	_	_	_	_	
+41-7	3363-3366	och	*[39]	_	_	_	_	_	_	
+41-8	3367-3377	möjliggöra	*[39]	_	_	_	_	_	_	
+41-9	3378-3381	för	*[39]	_	_	_	_	_	_	
+41-10	3382-3385	små	*[39]	_	_	_	_	_	_	
+41-11	3386-3393	företag	*[39]	_	_	_	_	_	_	
+41-12	3394-3397	att	*[39]	_	_	_	_	_	_	
+41-13	3398-3406	undantas	*[39]	_	_	_	_	_	_	
+41-14	3407-3411	från	*[39]	_	_	_	_	_	_	
+41-15	3412-3417	delar	*[39]	_	_	_	_	_	_	
+41-16	3418-3420	av	*[39]	_	_	_	_	_	_	
+41-17	3421-3435	lagstiftningen	*[39]	_	_	_	_	_	_	
+41-18	3436-3439	och	*[39]	_	_	_	_	_	_	
+41-19	3440-3451	regelbördan	*[39]	_	_	_	_	_	_	
+41-20	3452-3455	bör	*[39]	Target[16]	41-1[39]	false[16]	4[16]	_	_	
+41-21	3456-3460	vara	*[39]	Target[16]	41-1[39]	false[16]	4[16]	_	_	
+41-22	3461-3463	en	*[39]	Target[16]	41-1[39]	false[16]	4[16]	_	_	
+41-23	3464-3467	del	*[39]	Target[16]	41-1[39]	false[16]	4[16]	_	_	
+41-24	3468-3469	i	*[39]	_	_	_	_	_	_	
+41-25	3470-3472	en	*[39]	_	_	_	_	_	_	
+41-26	3473-3480	förnyad	*[39]	_	_	_	_	_	_	
+41-27	3481-3492	arbetslinje	*[39]	_	_	_	_	_	_	
+41-28	3492-3493	.	_	_	_	_	_	_	_	
+
+#Text=Detsamma gäller fortsatt stärkta drivkrafter för arbete, med såväl skattesänkningar på små inkomster som skärpta krav för bidrag.
+42-1	3494-3502	Detsamma	_	_	_	_	_	_	_	
+42-2	3503-3509	gäller	_	_	_	_	_	_	_	
+42-3	3510-3518	fortsatt	_	_	_	_	_	_	_	
+42-4	3519-3526	stärkta	_	_	_	_	_	_	_	
+42-5	3527-3538	drivkrafter	_	_	_	_	_	_	_	
+42-6	3539-3542	för	_	_	_	_	_	_	_	
+42-7	3543-3549	arbete	_	_	_	_	_	_	_	
+42-8	3549-3550	,	_	_	_	_	_	_	_	
+42-9	3551-3554	med	_	_	_	_	_	_	_	
+42-10	3555-3560	såväl	_	_	_	_	_	_	_	
+42-11	3561-3577	skattesänkningar	_	_	_	_	_	_	_	
+42-12	3578-3580	på	_	_	_	_	_	_	_	
+42-13	3581-3584	små	_	_	_	_	_	_	_	
+42-14	3585-3594	inkomster	_	_	_	_	_	_	_	
+42-15	3595-3598	som	_	_	_	_	_	_	_	
+42-16	3599-3606	skärpta	_	_	_	_	_	_	_	
+42-17	3607-3611	krav	_	_	_	_	_	_	_	
+42-18	3612-3615	för	_	_	_	_	_	_	_	
+42-19	3616-3622	bidrag	_	_	_	_	_	_	_	
+42-20	3622-3623	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3625-3626	#	_	_	_	_	_	_	_	
+43-2	3626-3627	P	_	_	_	_	_	_	_	
+43-3	3628-3631	IMM	_	_	_	_	_	_	_	
+43-4	3631-3632	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt står regeringen passiv med händerna bakbundna av Miljöpartiet och LO vilket gör att varken ny arbetsmarknadspolitik eller en kraftfull integrationspolitik kan utvecklas.
+44-1	3634-3643	Samtidigt	_	_	_	_	_	_	_	
+44-2	3644-3648	står	_	Target	44-3[41]	false	2	_	_	
+44-3	3649-3659	regeringen	*[40]|*[41]	_	_	_	_	_	_	
+44-4	3660-3666	passiv	_	Target[17]	44-3[40]	false[17]	2[17]	44-2[0_17]	_	
+44-5	3667-3670	med	_	Target[17]	44-3[40]	false[17]	2[17]	_	_	
+44-6	3671-3679	händerna	_	Target[17]	44-3[40]	false[17]	2[17]	_	_	
+44-7	3680-3689	bakbundna	_	Target[17]	44-3[40]	false[17]	2[17]	_	_	
+44-8	3690-3692	av	_	_	_	_	_	_	_	
+44-9	3693-3705	Miljöpartiet	_	_	_	_	_	_	_	
+44-10	3706-3709	och	_	_	_	_	_	_	_	
+44-11	3710-3712	LO	_	_	_	_	_	_	_	
+44-12	3713-3719	vilket	_	_	_	_	_	_	_	
+44-13	3720-3723	gör	_	_	_	_	_	_	_	
+44-14	3724-3727	att	_	_	_	_	_	_	_	
+44-15	3728-3734	varken	_	_	_	_	_	_	_	
+44-16	3735-3737	ny	_	_	_	_	_	_	_	
+44-17	3738-3759	arbetsmarknadspolitik	_	_	_	_	_	_	_	
+44-18	3760-3765	eller	_	_	_	_	_	_	_	
+44-19	3766-3768	en	_	_	_	_	_	_	_	
+44-20	3769-3778	kraftfull	_	_	_	_	_	_	_	
+44-21	3779-3798	integrationspolitik	_	_	_	_	_	_	_	
+44-22	3799-3802	kan	_	_	_	_	_	_	_	
+44-23	3803-3812	utvecklas	_	_	_	_	_	_	_	
+44-24	3812-3813	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3815-3816	#	_	_	_	_	_	_	_	
+45-2	3816-3817	P	_	_	_	_	_	_	_	
+45-3	3818-3821	IMM	_	_	_	_	_	_	_	
+45-4	3821-3822	.	_	_	_	_	_	_	_	
+
+#Text=**Det är nu hög tid **för Moderaterna att kliva fram och ta ansvar.
+46-1	3824-3825	*	_	_	_	_	_	_	_	
+46-2	3825-3826	*	_	_	_	_	_	_	_	
+46-3	3826-3829	Det	_	Target[18]	46-11[42]	false[18]	4[18]	46-12[19_18]	_	
+46-4	3830-3832	är	_	Target[18]	46-11[42]	false[18]	4[18]	_	_	
+46-5	3833-3835	nu	_	Target[18]	46-11[42]	false[18]	4[18]	_	_	
+46-6	3836-3839	hög	_	Target[18]	46-11[42]	false[18]	4[18]	_	_	
+46-7	3840-3843	tid	_	Target[18]	46-11[42]	false[18]	4[18]	_	_	
+46-8	3844-3845	*	_	_	_	_	_	_	_	
+46-9	3845-3846	*	_	_	_	_	_	_	_	
+46-10	3846-3849	för	_	_	_	_	_	_	_	
+46-11	3850-3861	Moderaterna	*[42]|*[43]	_	_	_	_	_	_	
+46-12	3862-3865	att	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-13	3866-3871	kliva	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-14	3872-3876	fram	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-15	3877-3880	och	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-16	3881-3883	ta	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-17	3884-3890	ansvar	_	Target[19]	46-11[43]	false[19]	4[19]	_	_	
+46-18	3890-3891	.	_	_	_	_	_	_	_	
+
+#Text=Gamla ställningstaganden behöver omprövas.
+47-1	3892-3897	Gamla	_	_	_	_	_	_	_	
+47-2	3898-3916	ställningstaganden	_	_	_	_	_	_	_	
+47-3	3917-3924	behöver	_	_	_	_	_	_	_	
+47-4	3925-3933	omprövas	_	_	_	_	_	_	_	
+47-5	3933-3934	.	_	_	_	_	_	_	_	
+
+#Text=Moderaternas partistämma är ett utmärkt tillfälle för just detta.
+48-1	3935-3947	Moderaternas	*[44]	_	_	_	_	_	_	
+48-2	3948-3959	partistämma	*[44]	_	_	_	_	_	_	
+48-3	3960-3962	är	_	Target[20]	48-1[44]	false[20]	5[20]	_	_	
+48-4	3963-3966	ett	_	Target[20]	48-1[44]	false[20]	5[20]	_	_	
+48-5	3967-3974	utmärkt	_	Target[20]	48-1[44]	false[20]	5[20]	_	_	
+48-6	3975-3984	tillfälle	_	Target[20]	48-1[44]	false[20]	5[20]	_	_	
+48-7	3985-3988	för	_	_	_	_	_	_	_	
+48-8	3989-3993	just	_	_	_	_	_	_	_	
+48-9	3994-3999	detta	_	_	_	_	_	_	_	
+48-10	3999-4000	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4002-4003	#	_	_	_	_	_	_	_	
+49-2	4003-4004	P	_	_	_	_	_	_	_	
+49-3	4005-4008	IMM	_	_	_	_	_	_	_	
+49-4	4008-4009	.	_	_	_	_	_	_	_	
+
+#Text=Rasmus Törnblom.
+50-1	4011-4017	Rasmus	_	_	_	_	_	_	_	
+50-2	4018-4026	Törnblom	_	_	_	_	_	_	_	
+50-3	4026-4027	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4029-4030	#	_	_	_	_	_	_	_	
+51-2	4030-4031	P	_	_	_	_	_	_	_	
+51-3	4032-4035	IMM	_	_	_	_	_	_	_	
+51-4	4035-4036	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderata ungdomsförbundet.
+52-1	4038-4056	förbundsordförande	_	_	_	_	_	_	_	
+52-2	4057-4065	Moderata	_	_	_	_	_	_	_	
+52-3	4066-4082	ungdomsförbundet	_	_	_	_	_	_	_	
+52-4	4082-4083	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4085-4086	#	_	_	_	_	_	_	_	
+53-2	4086-4087	P	_	_	_	_	_	_	_	
+53-3	4088-4091	IMM	_	_	_	_	_	_	_	
+53-4	4091-4092	.	_	_	_	_	_	_	_	
+
+#Text=Lars-Ingvar Ljungman.
+54-1	4094-4105	Lars-Ingvar	_	_	_	_	_	_	_	
+54-2	4106-4114	Ljungman	_	_	_	_	_	_	_	
+54-3	4114-4115	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4117-4118	#	_	_	_	_	_	_	_	
+55-2	4118-4119	P	_	_	_	_	_	_	_	
+55-3	4120-4123	IMM	_	_	_	_	_	_	_	
+55-4	4123-4124	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Skåne.
+56-1	4126-4144	förbundsordförande	_	_	_	_	_	_	_	
+56-2	4145-4156	Moderaterna	_	_	_	_	_	_	_	
+56-3	4157-4162	Skåne	_	_	_	_	_	_	_	
+56-4	4162-4163	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4165-4166	#	_	_	_	_	_	_	_	
+57-2	4166-4167	P	_	_	_	_	_	_	_	
+57-3	4168-4171	IMM	_	_	_	_	_	_	_	
+57-4	4171-4172	.	_	_	_	_	_	_	_	
+
+#Text=Michael Svensson.
+58-1	4174-4181	Michael	_	_	_	_	_	_	_	
+58-2	4182-4190	Svensson	_	_	_	_	_	_	_	
+58-3	4190-4191	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4193-4194	#	_	_	_	_	_	_	_	
+59-2	4194-4195	P	_	_	_	_	_	_	_	
+59-3	4196-4199	IMM	_	_	_	_	_	_	_	
+59-4	4199-4200	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Halland.
+60-1	4202-4220	förbundsordförande	_	_	_	_	_	_	_	
+60-2	4221-4232	Moderaterna	_	_	_	_	_	_	_	
+60-3	4233-4240	Halland	_	_	_	_	_	_	_	
+60-4	4240-4241	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4243-4244	#	_	_	_	_	_	_	_	
+61-2	4244-4245	P	_	_	_	_	_	_	_	
+61-3	4246-4249	IMM	_	_	_	_	_	_	_	
+61-4	4249-4250	.	_	_	_	_	_	_	_	
+
+#Text=Erik Bengtzboe.
+62-1	4252-4256	Erik	_	_	_	_	_	_	_	
+62-2	4257-4266	Bengtzboe	_	_	_	_	_	_	_	
+62-3	4266-4267	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4269-4270	#	_	_	_	_	_	_	_	
+63-2	4270-4271	P	_	_	_	_	_	_	_	
+63-3	4272-4275	IMM	_	_	_	_	_	_	_	
+63-4	4275-4276	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Södermanland.
+64-1	4278-4296	förbundsordförande	_	_	_	_	_	_	_	
+64-2	4297-4308	Moderaterna	_	_	_	_	_	_	_	
+64-3	4309-4321	Södermanland	_	_	_	_	_	_	_	
+64-4	4321-4322	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4324-4325	#	_	_	_	_	_	_	_	
+65-2	4325-4326	P	_	_	_	_	_	_	_	
+65-3	4327-4330	IMM	_	_	_	_	_	_	_	
+65-4	4330-4331	.	_	_	_	_	_	_	_	
+
+#Text=Jessika Roswall.
+66-1	4333-4340	Jessika	_	_	_	_	_	_	_	
+66-2	4341-4348	Roswall	_	_	_	_	_	_	_	
+66-3	4348-4349	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	4351-4352	#	_	_	_	_	_	_	_	
+67-2	4352-4353	P	_	_	_	_	_	_	_	
+67-3	4354-4357	IMM	_	_	_	_	_	_	_	
+67-4	4357-4358	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Uppsala.
+68-1	4360-4378	förbundsordförande	_	_	_	_	_	_	_	
+68-2	4379-4390	Moderaterna	_	_	_	_	_	_	_	
+68-3	4391-4398	Uppsala	_	_	_	_	_	_	_	
+68-4	4398-4399	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	4401-4402	#	_	_	_	_	_	_	_	
+69-2	4402-4403	P	_	_	_	_	_	_	_	
+69-3	4404-4407	IMM	_	_	_	_	_	_	_	
+69-4	4407-4408	.	_	_	_	_	_	_	_	
+
+#Text=Anna Tenje.
+70-1	4410-4414	Anna	_	_	_	_	_	_	_	
+70-2	4415-4420	Tenje	_	_	_	_	_	_	_	
+70-3	4420-4421	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	4423-4424	#	_	_	_	_	_	_	_	
+71-2	4424-4425	P	_	_	_	_	_	_	_	
+71-3	4426-4429	IMM	_	_	_	_	_	_	_	
+71-4	4429-4430	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Kronoberg.
+72-1	4432-4450	förbundsordförande	_	_	_	_	_	_	_	
+72-2	4451-4462	Moderaterna	_	_	_	_	_	_	_	
+72-3	4463-4472	Kronoberg	_	_	_	_	_	_	_	
+72-4	4472-4473	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	4475-4476	#	_	_	_	_	_	_	_	
+73-2	4476-4477	P	_	_	_	_	_	_	_	
+73-3	4478-4481	IMM	_	_	_	_	_	_	_	
+73-4	4481-4482	.	_	_	_	_	_	_	_	
+
+#Text=Jörgen Berglund.
+74-1	4484-4490	Jörgen	_	_	_	_	_	_	_	
+74-2	4491-4499	Berglund	_	_	_	_	_	_	_	
+74-3	4499-4500	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	4502-4503	#	_	_	_	_	_	_	_	
+75-2	4503-4504	P	_	_	_	_	_	_	_	
+75-3	4505-4508	IMM	_	_	_	_	_	_	_	
+75-4	4508-4509	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Västernorrland.
+76-1	4511-4529	förbundsordförande	_	_	_	_	_	_	_	
+76-2	4530-4541	Moderaterna	_	_	_	_	_	_	_	
+76-3	4542-4556	Västernorrland	_	_	_	_	_	_	_	
+76-4	4556-4557	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+77-1	4559-4560	#	_	_	_	_	_	_	_	
+77-2	4560-4561	P	_	_	_	_	_	_	_	
+77-3	4562-4565	IMM	_	_	_	_	_	_	_	
+77-4	4565-4566	.	_	_	_	_	_	_	_	
+
+#Text=Saila Quicklund.
+78-1	4568-4573	Saila	_	_	_	_	_	_	_	
+78-2	4574-4583	Quicklund	_	_	_	_	_	_	_	
+78-3	4583-4584	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	4586-4587	#	_	_	_	_	_	_	_	
+79-2	4587-4588	P	_	_	_	_	_	_	_	
+79-3	4589-4592	IMM	_	_	_	_	_	_	_	
+79-4	4592-4593	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Jämtland.
+80-1	4595-4613	förbundsordförande	_	_	_	_	_	_	_	
+80-2	4614-4625	Moderaterna	_	_	_	_	_	_	_	
+80-3	4626-4634	Jämtland	_	_	_	_	_	_	_	
+80-4	4634-4635	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	4637-4638	#	_	_	_	_	_	_	_	
+81-2	4638-4639	P	_	_	_	_	_	_	_	
+81-3	4640-4643	IMM	_	_	_	_	_	_	_	
+81-4	4643-4644	.	_	_	_	_	_	_	_	
+
+#Text=Jesper Karlsson.
+82-1	4646-4652	Jesper	_	_	_	_	_	_	_	
+82-2	4653-4661	Karlsson	_	_	_	_	_	_	_	
+82-3	4661-4662	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	4664-4665	#	_	_	_	_	_	_	_	
+83-2	4665-4666	P	_	_	_	_	_	_	_	
+83-3	4667-4670	IMM	_	_	_	_	_	_	_	
+83-4	4670-4671	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Moderaterna Gotland.
+84-1	4673-4691	förbundsordförande	_	_	_	_	_	_	_	
+84-2	4692-4703	Moderaterna	_	_	_	_	_	_	_	
+84-3	4704-4711	Gotland	_	_	_	_	_	_	_	
+84-4	4711-4712	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	4714-4715	#	_	_	_	_	_	_	_	
+85-2	4715-4716	P	_	_	_	_	_	_	_	
+85-3	4717-4720	IMM	_	_	_	_	_	_	_	
+85-4	4720-4721	.	_	_	_	_	_	_	_	
+
+#Text=Fredrik Saweståhl.
+86-1	4723-4730	Fredrik	_	_	_	_	_	_	_	
+86-2	4731-4740	Saweståhl	_	_	_	_	_	_	_	
+86-3	4740-4741	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	4743-4744	#	_	_	_	_	_	_	_	
+87-2	4744-4745	P	_	_	_	_	_	_	_	
+87-3	4746-4749	IMM	_	_	_	_	_	_	_	
+87-4	4749-4750	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande Öppna Moderater.
+88-1	4752-4770	förbundsordförande	_	_	_	_	_	_	_	
+88-2	4771-4776	Öppna	_	_	_	_	_	_	_	
+88-3	4777-4786	Moderater	_	_	_	_	_	_	_	
+88-4	4786-4787	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	4789-4790	#	_	_	_	_	_	_	_	
+89-2	4790-4791	P	_	_	_	_	_	_	_	
+89-3	4792-4795	IMM	_	_	_	_	_	_	_	
+89-4	4795-4796	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+90-1	4798-4806	Redaktör	_	_	_	_	_	_	_	
+90-2	4806-4807	:	_	_	_	_	_	_	_	
+90-3	4808-4814	Carina	_	_	_	_	_	_	_	
+90-4	4815-4823	Stensson	_	_	_	_	_	_	_	
+90-5	4823-4824	,	_	_	_	_	_	_	_	
+90-6	4825-4835	Biträdande	_	_	_	_	_	_	_	
+90-7	4836-4844	redaktör	_	_	_	_	_	_	_	
+90-8	4844-4845	:	_	_	_	_	_	_	_	
+90-9	4846-4851	Björn	_	_	_	_	_	_	_	
+90-10	4852-4858	Jorner	_	_	_	_	_	_	_	
+90-11	4858-4859	,	_	_	_	_	_	_	_	
+90-12	4860-4864	Mejl	_	_	_	_	_	_	_	
+90-13	4864-4865	:	_	_	_	_	_	_	_	
+90-14	4866-4872	debatt	_	_	_	_	_	_	_	
+90-15	4872-4873	@	_	_	_	_	_	_	_	
+90-16	4873-4879	svd.se	_	_	_	_	_	_	_	
+90-17	4879-4880	,	_	_	_	_	_	_	_	
+90-18	4881-4894	Telefonnummer	_	_	_	_	_	_	_	
+90-19	4894-4895	:	_	_	_	_	_	_	_	
+90-20	4896-4898	08	_	_	_	_	_	_	_	
+90-21	4898-4899	-	_	_	_	_	_	_	_	
+90-22	4899-4905	135149	_	_	_	_	_	_	_	
+90-23	4905-4906	,	_	_	_	_	_	_	_	
+90-24	4907-4914	Twitter	_	_	_	_	_	_	_	
+90-25	4914-4915	:	_	_	_	_	_	_	_	
+90-26	4916-4917	@	_	_	_	_	_	_	_	
+90-27	4917-4926	SvDDebatt	_	_	_	_	_	_	_	
+90-28	4926-4927	,	_	_	_	_	_	_	_	
+90-29	4928-4936	Facebook	_	_	_	_	_	_	_	
+90-30	4936-4937	:	_	_	_	_	_	_	_	
+90-31	4938-4941	SvD	_	_	_	_	_	_	_	
+90-32	4942-4948	Debatt	_	_	_	_	_	_	_	
+90-33	4948-4949	.	_	_	_	_	_	_	_	

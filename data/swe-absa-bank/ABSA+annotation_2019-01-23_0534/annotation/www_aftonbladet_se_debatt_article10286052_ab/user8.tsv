@@ -1,0 +1,1359 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=En omöjlig Schengenkärlek..
+3-1	18-20	En	_	_	_	_	_	_	
+3-2	21-28	omöjlig	_	_[1]	_	false[1]	2[1]	_	
+3-3	29-43	Schengenkärlek	_	_[1]|_[2]	_|_	false[1]|false[2]	2[1]|4[2]	_	
+3-4	43-44	.	_	_	_	_	_	_	
+3-5	44-45	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	47-48	#	_	_	_	_	_	_	
+4-2	48-49	P	_	_	_	_	_	_	
+4-3	50-53	IMM	_	_	_	_	_	_	
+4-4	53-54	.	_	_	_	_	_	_	
+
+#Text=Visst är det underbart att bo i Sverige.
+5-1	56-61	Visst	_	_	_	_	_	_	
+5-2	62-64	är	_	Target	5-5[45]	false	5	5-4	
+5-3	65-68	det	_	_	_	_	_	_	
+5-4	69-78	underbart	_	Target	5-5[44]	false	5	_	
+5-5	79-82	att	*[44]|*[45]	_	_	_	_	_	
+5-6	83-85	bo	*[44]|*[45]	_	_	_	_	_	
+5-7	86-87	i	*[44]|*[45]	_	_	_	_	_	
+5-8	88-95	Sverige	*[44]|*[45]	_	_	_	_	_	
+5-9	95-96	.	_	_	_	_	_	_	
+
+#Text=Men se till att du inte blir förälskad i en afrikansk man från Senegal.
+6-1	97-100	Men	_	_	_	_	_	_	
+6-2	101-103	se	_	_	_	_	_	_	
+6-3	104-108	till	_	_	_	_	_	_	
+6-4	109-112	att	_	_	_	_	_	_	
+6-5	113-115	du	*	_	_	_	_	_	
+6-6	116-120	inte	_	_	_	_	_	_	
+6-7	121-125	blir	_	_	_	_	_	_	
+6-8	126-135	förälskad	_	Target[3]|_[4]	6-5|_	true[3]|false[4]	2[3]|4[4]	_	
+6-9	136-137	i	_	Target[3]	6-5	true[3]	2[3]	_	
+6-10	138-140	en	_	Target[3]	6-5	true[3]	2[3]	_	
+6-11	141-150	afrikansk	_	Target[3]	6-5	true[3]	2[3]	_	
+6-12	151-154	man	_	Target[3]	6-5	true[3]	2[3]	_	
+6-13	155-159	från	_	Target[3]	6-5	true[3]	2[3]	_	
+6-14	160-167	Senegal	_	Target[3]	6-5	true[3]	2[3]	_	
+6-15	167-168	.	_	_	_	_	_	_	
+
+#Text=Det blev jag.
+7-1	169-172	Det	_	_	_	_	_	_	
+7-2	173-177	blev	_	_	_	_	_	_	
+7-3	178-181	jag	_	_	_	_	_	_	
+7-4	181-182	.	_	_	_	_	_	_	
+
+#Text=I november åkte jag till Senegals huvudstad Dakar för att avsluta mina studier med en tio veckors lång praktik.
+8-1	183-184	I	_	_	_	_	_	_	
+8-2	185-193	november	_	_	_	_	_	_	
+8-3	194-198	åkte	_	_	_	_	_	_	
+8-4	199-202	jag	_	_	_	_	_	_	
+8-5	203-207	till	_	_	_	_	_	_	
+8-6	208-216	Senegals	_	_	_	_	_	_	
+8-7	217-226	huvudstad	_	_	_	_	_	_	
+8-8	227-232	Dakar	_	_	_	_	_	_	
+8-9	233-236	för	_	_	_	_	_	_	
+8-10	237-240	att	_	_	_	_	_	_	
+8-11	241-248	avsluta	_	_	_	_	_	_	
+8-12	249-253	mina	_	_	_	_	_	_	
+8-13	254-261	studier	_	_	_	_	_	_	
+8-14	262-265	med	_	_	_	_	_	_	
+8-15	266-268	en	_	_	_	_	_	_	
+8-16	269-272	tio	_	_	_	_	_	_	
+8-17	273-280	veckors	_	_	_	_	_	_	
+8-18	281-285	lång	_	_	_	_	_	_	
+8-19	286-293	praktik	_	_	_	_	_	_	
+8-20	293-294	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	296-297	#	_	_	_	_	_	_	
+9-2	297-298	P	_	_	_	_	_	_	
+9-3	299-302	IMM	_	_	_	_	_	_	
+9-4	302-303	.	_	_	_	_	_	_	
+
+#Text=Eftersom jag dessutom ville förbättra min franska bestämde jag mig för att stanna ytterligare två månader.
+10-1	305-313	Eftersom	_	_	_	_	_	_	
+10-2	314-317	jag	*	_	_	_	_	_	
+10-3	318-326	dessutom	_	_	_	_	_	_	
+10-4	327-332	ville	_	Target;Source	10-5[46];10-2	false	4	_	
+10-5	333-342	förbättra	*[46]	_	_	_	_	_	
+10-6	343-346	min	*[46]	_	_	_	_	_	
+10-7	347-354	franska	*[46]	_	_	_	_	_	
+10-8	355-363	bestämde	_	_	_	_	_	_	
+10-9	364-367	jag	_	_	_	_	_	_	
+10-10	368-371	mig	_	_	_	_	_	_	
+10-11	372-375	för	_	_	_	_	_	_	
+10-12	376-379	att	_	_	_	_	_	_	
+10-13	380-386	stanna	_	_	_	_	_	_	
+10-14	387-398	ytterligare	_	_	_	_	_	_	
+10-15	399-402	två	_	_	_	_	_	_	
+10-16	403-410	månader	_	_	_	_	_	_	
+10-17	410-411	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	413-414	#	_	_	_	_	_	_	
+11-2	414-415	P	_	_	_	_	_	_	
+11-3	416-419	IMM	_	_	_	_	_	_	
+11-4	419-420	.	_	_	_	_	_	_	
+
+#Text=Under den tiden fick jag många senegalesiska vänner.
+12-1	422-427	Under	_	_	_	_	_	_	
+12-2	428-431	den	_	_	_	_	_	_	
+12-3	432-437	tiden	_	_	_	_	_	_	
+12-4	438-442	fick	_	Target;Source	12-5[50];12-5[48]	false	4	12-6[5_0]	
+12-5	443-446	jag	*[47]|*[48]|*[49]|*[50]	_	_	_	_	_	
+12-6	447-452	många	_	Target;Source[5]	12-5[49];12-5[47]	false[5]	4[5]	_	
+12-7	453-466	senegalesiska	_	Target;Source[5]	12-5[49];12-5[47]	false[5]	4[5]	_	
+12-8	467-473	vänner	_	Target;Source[5]	12-5[49];12-5[47]	false[5]	4[5]	_	
+12-9	473-474	.	_	_	_	_	_	_	
+
+#Text=De öppnade sina hem för mig och lät mig bli en naturlig del av deras vardag.
+13-1	475-477	De	*	_	_	_	_	_	
+13-2	478-485	öppnade	_	Target[6]	13-1	false[6]	4[6]	_	
+13-3	486-490	sina	_	Target[6]	13-1	false[6]	4[6]	_	
+13-4	491-494	hem	_	Target[6]	13-1	false[6]	4[6]	_	
+13-5	495-498	för	_	Target[6]	13-1	false[6]	4[6]	_	
+13-6	499-502	mig	_	Target[6]	13-1	false[6]	4[6]	_	
+13-7	503-506	och	_	Target[6]	13-1	false[6]	4[6]	_	
+13-8	507-510	lät	_	Target[6]	13-1	false[6]	4[6]	_	
+13-9	511-514	mig	_	Target[6]	13-1	false[6]	4[6]	_	
+13-10	515-518	bli	_	Target[6]	13-1	false[6]	4[6]	_	
+13-11	519-521	en	_	Target[6]	13-1	false[6]	4[6]	_	
+13-12	522-530	naturlig	_	Target[6]	13-1	false[6]	4[6]	_	
+13-13	531-534	del	_	Target[6]	13-1	false[6]	4[6]	_	
+13-14	535-537	av	_	Target[6]	13-1	false[6]	4[6]	_	
+13-15	538-543	deras	_	Target[6]	13-1	false[6]	4[6]	_	
+13-16	544-550	vardag	_	Target[6]	13-1	false[6]	4[6]	_	
+13-17	550-551	.	_	_	_	_	_	_	
+
+#Text=En av mina nya vänner kom att betyda lite mer.
+14-1	552-554	En	*[51]	_	_	_	_	_	
+14-2	555-557	av	*[51]	_	_	_	_	_	
+14-3	558-562	mina	*[51]	_	_	_	_	_	
+14-4	563-566	nya	*[51]	_	_	_	_	_	
+14-5	567-573	vänner	*[51]	_	_	_	_	_	
+14-6	574-577	kom	_	Target[7]	14-1[51]	false[7]	4[7]	_	
+14-7	578-581	att	_	Target[7]	14-1[51]	false[7]	4[7]	_	
+14-8	582-588	betyda	_	Target[7]	14-1[51]	false[7]	4[7]	_	
+14-9	589-593	lite	_	Target[7]	14-1[51]	false[7]	4[7]	_	
+14-10	594-597	mer	_	Target[7]	14-1[51]	false[7]	4[7]	_	
+14-11	597-598	.	_	_	_	_	_	_	
+
+#Text=Med tiden utvecklades vår vänskap till förälskelse.
+15-1	599-602	Med	_	_	_	_	_	_	
+15-2	603-608	tiden	_	_	_	_	_	_	
+15-3	609-620	utvecklades	_	Target	15-4[53]	false	4	15-6[8_0]	
+15-4	621-624	vår	*[52]|*[53]	_	_	_	_	_	
+15-5	625-632	vänskap	*[52]|*[53]	_	_	_	_	_	
+15-6	633-637	till	_	Target[8]	15-4[52]	false[8]	4[8]	_	
+15-7	638-649	förälskelse	_	Target[8]	15-4[52]	false[8]	4[8]	_	
+15-8	649-650	.	_	_	_	_	_	_	
+
+#Text=I mars var det dags för mig att återvända till Sverige.
+16-1	651-652	I	_	_	_	_	_	_	
+16-2	653-657	mars	_	_	_	_	_	_	
+16-3	658-661	var	_	_	_	_	_	_	
+16-4	662-665	det	_	_	_	_	_	_	
+16-5	666-670	dags	_	_	_	_	_	_	
+16-6	671-674	för	_	_	_	_	_	_	
+16-7	675-678	mig	_	_	_	_	_	_	
+16-8	679-682	att	_	_	_	_	_	_	
+16-9	683-692	återvända	_	_	_	_	_	_	
+16-10	693-697	till	_	_	_	_	_	_	
+16-11	698-705	Sverige	_	_	_	_	_	_	
+16-12	705-706	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	708-709	#	_	_	_	_	_	_	
+17-2	709-710	P	_	_	_	_	_	_	
+17-3	711-714	IMM	_	_	_	_	_	_	
+17-4	714-715	.	_	_	_	_	_	_	
+
+#Text=Det kändes svårt att lämna Senegal.
+18-1	717-720	Det	_	_	_	_	_	_	
+18-2	721-727	kändes	_	Target[9]	18-4[54]	false[9]	2[9]	_	
+18-3	728-733	svårt	_	Target[9]	18-4[54]	false[9]	2[9]	_	
+18-4	734-737	att	*[54]	_	_	_	_	_	
+18-5	738-743	lämna	*[54]	_	_	_	_	_	
+18-6	744-751	Senegal	*[54]	_	_	_	_	_	
+18-7	751-752	.	_	_	_	_	_	_	
+
+#Text=En tröst var tanken på att han skulle kunna komma och hälsa på mig i Sverige över sommaren.
+19-1	753-755	En	_	Target[10]	19-4[55]	false[10]	4[10]	_	
+19-2	756-761	tröst	_	Target[10]	19-4[55]	false[10]	4[10]	_	
+19-3	762-765	var	_	_	_	_	_	_	
+19-4	766-772	tanken	*[55]	_	_	_	_	_	
+19-5	773-775	på	*[55]	_	_	_	_	_	
+19-6	776-779	att	*[55]	_	_	_	_	_	
+19-7	780-783	han	*[55]	_	_	_	_	_	
+19-8	784-790	skulle	*[55]	_	_	_	_	_	
+19-9	791-796	kunna	*[55]	_	_	_	_	_	
+19-10	797-802	komma	*[55]	_	_	_	_	_	
+19-11	803-806	och	*[55]	_	_	_	_	_	
+19-12	807-812	hälsa	*[55]	_	_	_	_	_	
+19-13	813-815	på	*[55]	_	_	_	_	_	
+19-14	816-819	mig	*[55]	_	_	_	_	_	
+19-15	820-821	i	*[55]	_	_	_	_	_	
+19-16	822-829	Sverige	*[55]	_	_	_	_	_	
+19-17	830-834	över	*[55]	_	_	_	_	_	
+19-18	835-843	sommaren	*[55]	_	_	_	_	_	
+19-19	843-844	.	_	_	_	_	_	_	
+
+#Text=Så innan jag åkte hem gick vi till svenska ambassaden i Dakar för att ansöka om ett tre månaders turistvisum för släkt/vänbesök.
+20-1	845-847	Så	_	_	_	_	_	_	
+20-2	848-853	innan	_	_	_	_	_	_	
+20-3	854-857	jag	_	_	_	_	_	_	
+20-4	858-862	åkte	_	_	_	_	_	_	
+20-5	863-866	hem	_	_	_	_	_	_	
+20-6	867-871	gick	_	_	_	_	_	_	
+20-7	872-874	vi	_	_	_	_	_	_	
+20-8	875-879	till	_	_	_	_	_	_	
+20-9	880-887	svenska	_	_	_	_	_	_	
+20-10	888-898	ambassaden	_	_	_	_	_	_	
+20-11	899-900	i	_	_	_	_	_	_	
+20-12	901-906	Dakar	_	_	_	_	_	_	
+20-13	907-910	för	_	_	_	_	_	_	
+20-14	911-914	att	_	_	_	_	_	_	
+20-15	915-921	ansöka	_	_	_	_	_	_	
+20-16	922-924	om	_	_	_	_	_	_	
+20-17	925-928	ett	_	_	_	_	_	_	
+20-18	929-932	tre	_	_	_	_	_	_	
+20-19	933-941	månaders	_	_	_	_	_	_	
+20-20	942-953	turistvisum	_	_	_	_	_	_	
+20-21	954-957	för	_	_	_	_	_	_	
+20-22	958-963	släkt	_	_	_	_	_	_	
+20-23	963-964	/	_	_	_	_	_	_	
+20-24	964-972	vänbesök	_	_	_	_	_	_	
+20-25	972-973	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	975-976	#	_	_	_	_	_	_	
+21-2	976-977	P	_	_	_	_	_	_	
+21-3	978-981	IMM	_	_	_	_	_	_	
+21-4	981-982	.	_	_	_	_	_	_	
+
+#Text=Vi betalade 275 kronor och fyllde i de nödvändiga blanketterna, cirka tio stycken, inklusive en speciell personlig inbjudan från mig som svensk medborgare.
+22-1	984-986	Vi	_	_	_	_	_	_	
+22-2	987-995	betalade	_	_	_	_	_	_	
+22-3	996-999	275	_	_	_	_	_	_	
+22-4	1000-1006	kronor	_	_	_	_	_	_	
+22-5	1007-1010	och	_	_	_	_	_	_	
+22-6	1011-1017	fyllde	_	_	_	_	_	_	
+22-7	1018-1019	i	_	_	_	_	_	_	
+22-8	1020-1022	de	_	_	_	_	_	_	
+22-9	1023-1033	nödvändiga	_	_	_	_	_	_	
+22-10	1034-1046	blanketterna	_	_	_	_	_	_	
+22-11	1046-1047	,	_	_	_	_	_	_	
+22-12	1048-1053	cirka	_	_	_	_	_	_	
+22-13	1054-1057	tio	_	_	_	_	_	_	
+22-14	1058-1065	stycken	_	_	_	_	_	_	
+22-15	1065-1066	,	_	_	_	_	_	_	
+22-16	1067-1076	inklusive	_	_	_	_	_	_	
+22-17	1077-1079	en	_	_	_	_	_	_	
+22-18	1080-1088	speciell	_	_	_	_	_	_	
+22-19	1089-1098	personlig	_	_	_	_	_	_	
+22-20	1099-1107	inbjudan	_	_	_	_	_	_	
+22-21	1108-1112	från	_	_	_	_	_	_	
+22-22	1113-1116	mig	_	_	_	_	_	_	
+22-23	1117-1120	som	_	_	_	_	_	_	
+22-24	1121-1127	svensk	_	_	_	_	_	_	
+22-25	1128-1138	medborgare	_	_	_	_	_	_	
+22-26	1138-1139	.	_	_	_	_	_	_	
+
+#Text=Utan en sådan personlig inbjudan är det omöjligt för en utomeuropé att ens ansöka om turistvisum.
+23-1	1140-1144	Utan	_	_	_	_	_	_	
+23-2	1145-1147	en	_	_	_	_	_	_	
+23-3	1148-1153	sådan	_	_	_	_	_	_	
+23-4	1154-1163	personlig	_	_	_	_	_	_	
+23-5	1164-1172	inbjudan	_	_	_	_	_	_	
+23-6	1173-1175	är	_	_	_	_	_	_	
+23-7	1176-1179	det	_	_	_	_	_	_	
+23-8	1180-1188	omöjligt	_	_	_	_	_	_	
+23-9	1189-1192	för	_	_	_	_	_	_	
+23-10	1193-1195	en	_	_	_	_	_	_	
+23-11	1196-1206	utomeuropé	_	_	_	_	_	_	
+23-12	1207-1210	att	_	_	_	_	_	_	
+23-13	1211-1214	ens	_	_	_	_	_	_	
+23-14	1215-1221	ansöka	_	_	_	_	_	_	
+23-15	1222-1224	om	_	_	_	_	_	_	
+23-16	1225-1236	turistvisum	_	_	_	_	_	_	
+23-17	1236-1237	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1239-1240	#	_	_	_	_	_	_	
+24-2	1240-1241	P	_	_	_	_	_	_	
+24-3	1242-1245	IMM	_	_	_	_	_	_	
+24-4	1245-1246	.	_	_	_	_	_	_	
+
+#Text=Handläggningen för ett sådant ärende tar upp till två månader och beslutet fattas på ambassaden i Dakar om det inte råder oklarheter.
+25-1	1248-1262	Handläggningen	_	_	_	_	_	_	
+25-2	1263-1266	för	_	_	_	_	_	_	
+25-3	1267-1270	ett	_	_	_	_	_	_	
+25-4	1271-1277	sådant	_	_	_	_	_	_	
+25-5	1278-1284	ärende	_	_	_	_	_	_	
+25-6	1285-1288	tar	_	_	_	_	_	_	
+25-7	1289-1292	upp	_	_	_	_	_	_	
+25-8	1293-1297	till	_	_	_	_	_	_	
+25-9	1298-1301	två	_	_	_	_	_	_	
+25-10	1302-1309	månader	_	_	_	_	_	_	
+25-11	1310-1313	och	_	_	_	_	_	_	
+25-12	1314-1322	beslutet	_	_	_	_	_	_	
+25-13	1323-1329	fattas	_	_	_	_	_	_	
+25-14	1330-1332	på	_	_	_	_	_	_	
+25-15	1333-1343	ambassaden	_	_	_	_	_	_	
+25-16	1344-1345	i	_	_	_	_	_	_	
+25-17	1346-1351	Dakar	_	_	_	_	_	_	
+25-18	1352-1354	om	_	_	_	_	_	_	
+25-19	1355-1358	det	_	_	_	_	_	_	
+25-20	1359-1363	inte	_	_	_	_	_	_	
+25-21	1364-1369	råder	_	_	_	_	_	_	
+25-22	1370-1380	oklarheter	_	_	_	_	_	_	
+25-23	1380-1381	.	_	_	_	_	_	_	
+
+#Text=Om så skulle vara fallet skickas ansökan vidare till Migrationsverket här i Sverige.
+26-1	1382-1384	Om	_	_	_	_	_	_	
+26-2	1385-1387	så	_	_	_	_	_	_	
+26-3	1388-1394	skulle	_	_	_	_	_	_	
+26-4	1395-1399	vara	_	_	_	_	_	_	
+26-5	1400-1406	fallet	_	_	_	_	_	_	
+26-6	1407-1414	skickas	_	_	_	_	_	_	
+26-7	1415-1422	ansökan	_	_	_	_	_	_	
+26-8	1423-1429	vidare	_	_	_	_	_	_	
+26-9	1430-1434	till	_	_	_	_	_	_	
+26-10	1435-1451	Migrationsverket	_	_	_	_	_	_	
+26-11	1452-1455	här	_	_	_	_	_	_	
+26-12	1456-1457	i	_	_	_	_	_	_	
+26-13	1458-1465	Sverige	_	_	_	_	_	_	
+26-14	1465-1466	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1468-1469	#	_	_	_	_	_	_	
+27-2	1469-1470	P	_	_	_	_	_	_	
+27-3	1471-1474	IMM	_	_	_	false	3	_	
+27-4	1474-1475	.	_	_	_	_	_	_	
+
+#Text=Utifrån den information vi fick av ambassaden skulle det inte bli några problem så länge han inte hade för avsikt att stanna i Sverige för gott.
+28-1	1477-1484	Utifrån	_	_	_	_	_	_	
+28-2	1485-1488	den	_	_	_	_	_	_	
+28-3	1489-1500	information	_	_	_	_	_	_	
+28-4	1501-1503	vi	_	_	_	_	_	_	
+28-5	1504-1508	fick	_	_	_	_	_	_	
+28-6	1509-1511	av	_	_	_	_	_	_	
+28-7	1512-1522	ambassaden	*	_	_	_	_	_	
+28-8	1523-1529	skulle	_	_	_	_	_	_	
+28-9	1530-1533	det	_	_	_	_	_	_	
+28-10	1534-1538	inte	_	Source[11]	28-7	false[11]	4[11]	_	
+28-11	1539-1542	bli	_	Source[11]	28-7	false[11]	4[11]	_	
+28-12	1543-1548	några	_	Source[11]	28-7	false[11]	4[11]	_	
+28-13	1549-1556	problem	_	Source[11]	28-7	false[11]	4[11]	_	
+28-14	1557-1559	så	_	Source[11]	28-7	false[11]	4[11]	_	
+28-15	1560-1565	länge	_	Source[11]	28-7	false[11]	4[11]	_	
+28-16	1566-1569	han	_	Source[11]	28-7	false[11]	4[11]	_	
+28-17	1570-1574	inte	_	Source[11]	28-7	false[11]	4[11]	_	
+28-18	1575-1579	hade	_	Source[11]	28-7	false[11]	4[11]	_	
+28-19	1580-1583	för	_	Source[11]	28-7	false[11]	4[11]	_	
+28-20	1584-1590	avsikt	_	Source[11]	28-7	false[11]	4[11]	_	
+28-21	1591-1594	att	_	Source[11]	28-7	false[11]	4[11]	_	
+28-22	1595-1601	stanna	_	Source[11]	28-7	false[11]	4[11]	_	
+28-23	1602-1603	i	_	Source[11]	28-7	false[11]	4[11]	_	
+28-24	1604-1611	Sverige	_	Source[11]	28-7	false[11]	4[11]	_	
+28-25	1612-1615	för	_	Source[11]	28-7	false[11]	4[11]	_	
+28-26	1616-1620	gott	_	Source[11]	28-7	false[11]	4[11]	_	
+28-27	1620-1621	.	_	_	_	_	_	_	
+
+#Text=Och det var ju inte aktuellt.
+29-1	1622-1625	Och	_	_	_	_	_	_	
+29-2	1626-1629	det	_	_	_	_	_	_	
+29-3	1630-1633	var	_	_	_	_	_	_	
+29-4	1634-1636	ju	_	_	_	_	_	_	
+29-5	1637-1641	inte	_	_	_	_	_	_	
+29-6	1642-1650	aktuellt	_	_	_	_	_	_	
+29-7	1650-1651	.	_	_	_	_	_	_	
+
+#Text=Det var bara fråga om ett vanligt turistbesök.
+30-1	1652-1655	Det	_	_	_	_	_	_	
+30-2	1656-1659	var	_	_	_	_	_	_	
+30-3	1660-1664	bara	_	_	_	_	_	_	
+30-4	1665-1670	fråga	_	_	_	_	_	_	
+30-5	1671-1673	om	_	_	_	_	_	_	
+30-6	1674-1677	ett	_	_	_	_	_	_	
+30-7	1678-1685	vanligt	_	_	_	_	_	_	
+30-8	1686-1697	turistbesök	_	_	_	_	_	_	
+30-9	1697-1698	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1700-1701	#	_	_	_	_	_	_	
+31-2	1701-1702	P	_	_	_	_	_	_	
+31-3	1703-1706	IMM	_	_	_	_	_	_	
+31-4	1706-1707	.	_	_	_	_	_	_	
+
+#Text=Efter två månader hemma i Sverige hade vi fortfarande inte hört något från svenska ambassaden i Dakar.
+32-1	1709-1714	Efter	_	_	_	_	_	_	
+32-2	1715-1718	två	_	_	_	_	_	_	
+32-3	1719-1726	månader	_	_	_	_	_	_	
+32-4	1727-1732	hemma	_	_	_	_	_	_	
+32-5	1733-1734	i	_	_	_	_	_	_	
+32-6	1735-1742	Sverige	_	_	_	_	_	_	
+32-7	1743-1747	hade	_	_	_	_	_	_	
+32-8	1748-1750	vi	_	_	_	_	_	_	
+32-9	1751-1762	fortfarande	_	_	_	_	_	_	
+32-10	1763-1767	inte	_	_	_	_	_	_	
+32-11	1768-1772	hört	_	_	_	_	_	_	
+32-12	1773-1778	något	_	_	_	_	_	_	
+32-13	1779-1783	från	_	_	_	_	_	_	
+32-14	1784-1791	svenska	_	_	_	_	_	_	
+32-15	1792-1802	ambassaden	_	_	_	_	_	_	
+32-16	1803-1804	i	_	_	_	_	_	_	
+32-17	1805-1810	Dakar	_	_	_	_	_	_	
+32-18	1810-1811	.	_	_	_	_	_	_	
+
+#Text=Eftersom tiden för det planerade besöket närmade sig tog jag på nytt kontakt med ambassaden.
+33-1	1812-1820	Eftersom	_	_	_	_	_	_	
+33-2	1821-1826	tiden	_	_	_	_	_	_	
+33-3	1827-1830	för	_	_	_	_	_	_	
+33-4	1831-1834	det	_	_	_	_	_	_	
+33-5	1835-1844	planerade	_	_	_	_	_	_	
+33-6	1845-1852	besöket	_	_	_	_	_	_	
+33-7	1853-1860	närmade	_	_	_	_	_	_	
+33-8	1861-1864	sig	_	_	_	_	_	_	
+33-9	1865-1868	tog	_	_	_	_	_	_	
+33-10	1869-1872	jag	_	_	_	_	_	_	
+33-11	1873-1875	på	_	_	_	_	_	_	
+33-12	1876-1880	nytt	_	_	_	_	_	_	
+33-13	1881-1888	kontakt	_	_	_	_	_	_	
+33-14	1889-1892	med	_	_	_	_	_	_	
+33-15	1893-1903	ambassaden	_	_	_	_	_	_	
+33-16	1903-1904	.	_	_	_	_	_	_	
+
+#Text=Han hade fått avslag.
+34-1	1905-1908	Han	_	_	_	_	_	_	
+34-2	1909-1913	hade	_	_	_	_	_	_	
+34-3	1914-1918	fått	_	_	_	_	_	_	
+34-4	1919-1925	avslag	_	_	_	_	_	_	
+34-5	1925-1926	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	1928-1929	#	_	_	_	_	_	_	
+35-2	1929-1930	P	_	_	_	_	_	_	
+35-3	1931-1934	IMM	_	_	_	false	3	_	
+35-4	1934-1935	.	_	_	_	_	_	_	
+
+#Text=Han var ung (32 år), ogift och utan nära anhöriga i Sverige.
+36-1	1937-1940	Han	_	_	_	_	_	_	
+36-2	1941-1944	var	_	_	_	_	_	_	
+36-3	1945-1948	ung	_	_	_	_	_	_	
+36-4	1949-1950	(	_	_	_	_	_	_	
+36-5	1950-1952	32	_	_	_	_	_	_	
+36-6	1953-1955	år	_	_	_	_	_	_	
+36-7	1955-1956	)	_	_	_	_	_	_	
+36-8	1956-1957	,	_	_	_	_	_	_	
+36-9	1958-1963	ogift	_	_	_	_	_	_	
+36-10	1964-1967	och	_	_	_	_	_	_	
+36-11	1968-1972	utan	_	_	_	_	_	_	
+36-12	1973-1977	nära	_	_	_	_	_	_	
+36-13	1978-1986	anhöriga	_	_	_	_	_	_	
+36-14	1987-1988	i	_	_	_	_	_	_	
+36-15	1989-1996	Sverige	_	_	_	_	_	_	
+36-16	1996-1997	.	_	_	_	_	_	_	
+
+#Text=På dessa grunder antog ambassaden att han skulle tycka att Sverige var så fantastiskt att han inte skulle vilja återvända till sitt hemland där han har sin familj och sina vänner.
+37-1	1998-2000	På	_	_	_	_	_	_	
+37-2	2001-2006	dessa	_	_	_	_	_	_	
+37-3	2007-2014	grunder	_	_	_	_	_	_	
+37-4	2015-2020	antog	_	_	_	_	_	_	
+37-5	2021-2031	ambassaden	_	_	_	_	_	_	
+37-6	2032-2035	att	_	_	_	_	_	_	
+37-7	2036-2039	han	*[56]|*[57]	_	_	_	_	_	
+37-8	2040-2046	skulle	_	Source;Target[12]	37-7[57];37-11[60]	true[12]	5[12]	_	
+37-9	2047-2052	tycka	_	Source;Target[12]	37-7[57];37-11[60]	true[12]	5[12]	_	
+37-10	2053-2056	att	_	_	_	_	_	_	
+37-11	2057-2064	Sverige	*[58]|*[59]|*[60]	_	_	_	_	_	
+37-12	2065-2068	var	_	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-13	2069-2071	så	_	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-14	2072-2083	fantastiskt	_	Source;Target[13]|Target[14]	37-7[56];37-11[59]|37-11[58]	true[13]|false[14]	5[13]|5[14]	_	
+37-15	2084-2087	att	_	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-16	2088-2091	han	*	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-17	2092-2096	inte	_	Source;Target[13]|Source;Target[15]	37-7[56];37-11[59]|37-16;37-20[61]	true[13]|false[15]	5[13]|2[15]	_	
+37-18	2097-2103	skulle	_	Source;Target[13]|Source;Target[15]	37-7[56];37-11[59]|37-16;37-20[61]	true[13]|false[15]	5[13]|2[15]	_	
+37-19	2104-2109	vilja	_	Source;Target[13]|Source;Target[15]	37-7[56];37-11[59]|37-16;37-20[61]	true[13]|false[15]	5[13]|2[15]	_	
+37-20	2110-2119	återvända	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-21	2120-2124	till	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-22	2125-2129	sitt	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-23	2130-2137	hemland	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-24	2138-2141	där	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-25	2142-2145	han	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-26	2146-2149	har	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-27	2150-2153	sin	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-28	2154-2160	familj	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-29	2161-2164	och	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-30	2165-2169	sina	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-31	2170-2176	vänner	*[61]	Source;Target[13]	37-7[56];37-11[59]	true[13]	5[13]	_	
+37-32	2176-2177	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2179-2180	#	_	_	_	_	_	_	
+38-2	2180-2181	P	_	_	_	_	_	_	
+38-3	2182-2185	IMM	_	_	_	_	_	_	
+38-4	2185-2186	.	_	_	_	_	_	_	
+
+#Text=Men familj och vänner är enligt Migrationsverket inte skäl nog att vilja återvända hem.
+39-1	2188-2191	Men	_	_	_	_	_	_	
+39-2	2192-2198	familj	_	_	_	_	_	_	
+39-3	2199-2202	och	_	_	_	_	_	_	
+39-4	2203-2209	vänner	_	_	_	_	_	_	
+39-5	2210-2212	är	_	_	_	_	_	_	
+39-6	2213-2219	enligt	_	_	_	_	_	_	
+39-7	2220-2236	Migrationsverket	_	_	_	_	_	_	
+39-8	2237-2241	inte	_	_	_	_	_	_	
+39-9	2242-2246	skäl	_	_	_	_	_	_	
+39-10	2247-2250	nog	_	_	_	_	_	_	
+39-11	2251-2254	att	_	_	_	_	_	_	
+39-12	2255-2260	vilja	_	_	_	_	_	_	
+39-13	2261-2270	återvända	_	_	_	_	_	_	
+39-14	2271-2274	hem	_	_	_	_	_	_	
+39-15	2274-2275	.	_	_	_	_	_	_	
+
+#Text=För att han ska få visum krävs också att han har ett fast arbete sedan flera år tillbaka.
+40-1	2276-2279	För	_	_	_	_	_	_	
+40-2	2280-2283	att	_	_	_	_	_	_	
+40-3	2284-2287	han	_	_	_	_	_	_	
+40-4	2288-2291	ska	_	_	_	_	_	_	
+40-5	2292-2294	få	_	_	_	_	_	_	
+40-6	2295-2300	visum	_	_	_	_	_	_	
+40-7	2301-2306	krävs	_	_	_	_	_	_	
+40-8	2307-2312	också	_	_	_	_	_	_	
+40-9	2313-2316	att	_	_	_	_	_	_	
+40-10	2317-2320	han	_	_	_	_	_	_	
+40-11	2321-2324	har	_	_	_	_	_	_	
+40-12	2325-2328	ett	_	_	_	_	_	_	
+40-13	2329-2333	fast	_	_	_	_	_	_	
+40-14	2334-2340	arbete	_	_	_	_	_	_	
+40-15	2341-2346	sedan	_	_	_	_	_	_	
+40-16	2347-2352	flera	_	_	_	_	_	_	
+40-17	2353-2355	år	_	_	_	_	_	_	
+40-18	2356-2364	tillbaka	_	_	_	_	_	_	
+40-19	2364-2365	.	_	_	_	_	_	_	
+
+#Text=Det visar att han är väl etablerad i sitt hemland och därmed inte har för avsikt att bli en ”avhoppare”.
+41-1	2366-2369	Det	_	_	_	_	_	_	
+41-2	2370-2375	visar	_	_	_	_	_	_	
+41-3	2376-2379	att	_	_	_	_	_	_	
+41-4	2380-2383	han	*	_	_	_	_	_	
+41-5	2384-2386	är	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-6	2387-2390	väl	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-7	2391-2400	etablerad	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-8	2401-2402	i	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-9	2403-2407	sitt	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-10	2408-2415	hemland	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-11	2416-2419	och	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-12	2420-2426	därmed	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-13	2427-2431	inte	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-14	2432-2435	har	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-15	2436-2439	för	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-16	2440-2446	avsikt	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-17	2447-2450	att	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-18	2451-2454	bli	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-19	2455-2457	en	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-20	2458-2459	”	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-21	2459-2468	avhoppare	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-22	2468-2469	”	_	Source;Target[16]	41-23;41-4	false[16]	4[16]	_	
+41-23	2469-2470	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	2472-2473	#	_	_	_	_	_	_	
+42-2	2473-2474	P	_	_	_	_	_	_	
+42-3	2475-2478	IMM	_	_	_	_	_	_	
+42-4	2478-2479	.	_	_	_	_	_	_	
+
+#Text=Jag däremot kunde åka till Senegal trots att jag är ung (30), ogift och utan nära anhörig i landet.
+43-1	2481-2484	Jag	_	_	_	_	_	_	
+43-2	2485-2492	däremot	_	_	_	_	_	_	
+43-3	2493-2498	kunde	_	_	_	_	_	_	
+43-4	2499-2502	åka	_	_	_	_	_	_	
+43-5	2503-2507	till	_	_	_	_	_	_	
+43-6	2508-2515	Senegal	_	_	_	_	_	_	
+43-7	2516-2521	trots	_	_	_	_	_	_	
+43-8	2522-2525	att	_	_	_	_	_	_	
+43-9	2526-2529	jag	_	_	_	_	_	_	
+43-10	2530-2532	är	_	_	_	_	_	_	
+43-11	2533-2536	ung	_	_	_	_	_	_	
+43-12	2537-2538	(	_	_	_	_	_	_	
+43-13	2538-2540	30	_	_	_	_	_	_	
+43-14	2540-2541	)	_	_	_	_	_	_	
+43-15	2541-2542	,	_	_	_	_	_	_	
+43-16	2543-2548	ogift	_	_	_	_	_	_	
+43-17	2549-2552	och	_	_	_	_	_	_	
+43-18	2553-2557	utan	_	_	_	_	_	_	
+43-19	2558-2562	nära	_	_	_	_	_	_	
+43-20	2563-2570	anhörig	_	_	_	_	_	_	
+43-21	2571-2572	i	_	_	_	_	_	_	
+43-22	2573-2579	landet	_	_	_	_	_	_	
+43-23	2579-2580	.	_	_	_	_	_	_	
+
+#Text=Som student hade jag heller ingen fast anställning.
+44-1	2581-2584	Som	_	_	_	_	_	_	
+44-2	2585-2592	student	_	_	_	_	_	_	
+44-3	2593-2597	hade	_	_	_	_	_	_	
+44-4	2598-2601	jag	_	_	_	_	_	_	
+44-5	2602-2608	heller	_	_	_	_	_	_	
+44-6	2609-2614	ingen	_	_	_	_	_	_	
+44-7	2615-2619	fast	_	_	_	_	_	_	
+44-8	2620-2631	anställning	_	_	_	_	_	_	
+44-9	2631-2632	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	2634-2635	#	_	_	_	_	_	_	
+45-2	2635-2636	P	_	_	_	_	_	_	
+45-3	2637-2640	IMM	_	_	_	_	_	_	
+45-4	2640-2641	.	_	_	_	_	_	_	
+
+#Text=Hur ska vi kunna bevisa att han faktiskt bara ska komma hit och hälsa på?.
+46-1	2643-2646	Hur	_	_	_	_	_	_	
+46-2	2647-2650	ska	_	_	_	_	_	_	
+46-3	2651-2653	vi	_	_	_	_	_	_	
+46-4	2654-2659	kunna	_	_	_	_	_	_	
+46-5	2660-2666	bevisa	_	_	_	_	_	_	
+46-6	2667-2670	att	_	_	_	_	_	_	
+46-7	2671-2674	han	_	_	_	_	_	_	
+46-8	2675-2683	faktiskt	_	_	_	_	_	_	
+46-9	2684-2688	bara	_	_	_	_	_	_	
+46-10	2689-2692	ska	_	_	_	_	_	_	
+46-11	2693-2698	komma	_	_	_	_	_	_	
+46-12	2699-2702	hit	_	_	_	_	_	_	
+46-13	2703-2706	och	_	_	_	_	_	_	
+46-14	2707-2712	hälsa	_	_	_	_	_	_	
+46-15	2713-2715	på	_	_	_	_	_	_	
+46-16	2715-2716	?	_	_	_	_	_	_	
+46-17	2716-2717	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	2719-2720	#	_	_	_	_	_	_	
+47-2	2720-2721	P	_	_	_	_	_	_	
+47-3	2722-2725	IMM	_	_	_	_	_	_	
+47-4	2725-2726	.	_	_	_	_	_	_	
+
+#Text=Måste jag åka till Senegal och gifta mig för att han ska kunna komma till Sverige?
+48-1	2728-2733	Måste	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-2	2734-2737	jag	*[62]|*[63]	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-3	2738-2741	åka	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-4	2742-2746	till	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-5	2747-2754	Senegal	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-6	2755-2758	och	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-7	2759-2764	gifta	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-8	2765-2768	mig	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-9	2769-2772	för	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-10	2773-2776	att	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-11	2777-2780	han	*	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-12	2781-2784	ska	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+48-13	2785-2790	kunna	_	Source;Target[17]|Target[18]	48-2[62];48-2[63]|48-11	false[17]|false[18]	2[17]|4[18]	_	
+48-14	2791-2796	komma	_	Source;Target[17]|Target[18]	48-2[62];48-2[63]|48-11	false[17]|false[18]	2[17]|4[18]	_	
+48-15	2797-2801	till	_	Source;Target[17]|Target[18]	48-2[62];48-2[63]|48-11	false[17]|false[18]	2[17]|4[18]	_	
+48-16	2802-2809	Sverige	_	Source;Target[17]|Target[18]	48-2[62];48-2[63]|48-11	false[17]|false[18]	2[17]|4[18]	_	
+48-17	2809-2810	?	_	Source;Target[17]	48-2[62];48-2[63]	false[17]	2[17]	_	
+
+#Text=Eller måste vi till och med skaffa barn?
+49-1	2811-2816	Eller	_	_	_	_	_	_	
+49-2	2817-2822	måste	_	Target[19]	49-3	false[19]	2[19]	_	
+49-3	2823-2825	vi	*	Target[19]	49-3	false[19]	2[19]	_	
+49-4	2826-2830	till	_	Target[19]	49-3	false[19]	2[19]	_	
+49-5	2831-2834	och	_	Target[19]	49-3	false[19]	2[19]	_	
+49-6	2835-2838	med	_	Target[19]	49-3	false[19]	2[19]	_	
+49-7	2839-2845	skaffa	_	Target[19]	49-3	false[19]	2[19]	_	
+49-8	2846-2850	barn	_	Target[19]	49-3	false[19]	2[19]	_	
+49-9	2850-2851	?	_	Target[19]	49-3	false[19]	2[19]	_	
+
+#Text=Har vi inte rätt att pröva vår kärlek innan vi fattar så stora beslut?.
+50-1	2852-2855	Har	_	Target[20]	50-2	false[20]	2[20]	_	
+50-2	2856-2858	vi	*	Target[20]	50-2	false[20]	2[20]	_	
+50-3	2859-2863	inte	_	Target[20]	50-2	false[20]	2[20]	_	
+50-4	2864-2868	rätt	_	Target[20]	50-2	false[20]	2[20]	_	
+50-5	2869-2872	att	_	Target[20]	50-2	false[20]	2[20]	_	
+50-6	2873-2878	pröva	_	Target[20]	50-2	false[20]	2[20]	_	
+50-7	2879-2882	vår	_	Target[20]	50-2	false[20]	2[20]	_	
+50-8	2883-2889	kärlek	_	Target[20]	50-2	false[20]	2[20]	_	
+50-9	2890-2895	innan	_	Target[20]	50-2	false[20]	2[20]	_	
+50-10	2896-2898	vi	_	Target[20]	50-2	false[20]	2[20]	_	
+50-11	2899-2905	fattar	_	Target[20]	50-2	false[20]	2[20]	_	
+50-12	2906-2908	så	_	Target[20]	50-2	false[20]	2[20]	_	
+50-13	2909-2914	stora	_	Target[20]	50-2	false[20]	2[20]	_	
+50-14	2915-2921	beslut	_	Target[20]	50-2	false[20]	2[20]	_	
+50-15	2921-2922	?	_	Target[20]	50-2	false[20]	2[20]	_	
+50-16	2922-2923	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	2925-2926	#	_	_	_	_	_	_	
+51-2	2926-2927	P	_	_	_	_	_	_	
+51-3	2928-2931	IMM	_	_	_	_	_	_	
+51-4	2931-2932	.	_	_	_	_	_	_	
+
+#Text=I faktabladet för visumansökningar utgivet av Migrationsverket framgår inte att sådana kriterier måste vara uppfyllda.
+52-1	2934-2935	I	_	_	_	_	_	_	
+52-2	2936-2947	faktabladet	_	_	_	_	_	_	
+52-3	2948-2951	för	_	_	_	_	_	_	
+52-4	2952-2968	visumansökningar	_	_	_	_	_	_	
+52-5	2969-2976	utgivet	_	_	_	_	_	_	
+52-6	2977-2979	av	_	_	_	_	_	_	
+52-7	2980-2996	Migrationsverket	_	_	_	_	_	_	
+52-8	2997-3004	framgår	_	_	_	_	_	_	
+52-9	3005-3009	inte	_	_	_	_	_	_	
+52-10	3010-3013	att	_	_	_	_	_	_	
+52-11	3014-3020	sådana	_	_	_	_	_	_	
+52-12	3021-3030	kriterier	_	_	_	_	_	_	
+52-13	3031-3036	måste	_	_	_	_	_	_	
+52-14	3037-3041	vara	_	_	_	_	_	_	
+52-15	3042-3051	uppfyllda	_	_	_	_	_	_	
+52-16	3051-3052	.	_	_	_	_	_	_	
+
+#Text=Det som framgår är följande: ”Du får visum om Migrationsverket, ambassaden eller generalkonsulatet bedömer att du kommer att lämna Schengenområdet efter besöket.
+53-1	3053-3056	Det	_	_	_	_	_	_	
+53-2	3057-3060	som	_	_	_	_	_	_	
+53-3	3061-3068	framgår	_	_	_	_	_	_	
+53-4	3069-3071	är	_	_	_	_	_	_	
+53-5	3072-3080	följande	_	_	_	_	_	_	
+53-6	3080-3081	:	_	_	_	_	_	_	
+53-7	3082-3083	”	_	_	_	_	_	_	
+53-8	3083-3085	Du	_	_	_	_	_	_	
+53-9	3086-3089	får	_	_	_	_	_	_	
+53-10	3090-3095	visum	_	_	_	_	_	_	
+53-11	3096-3098	om	_	_	_	_	_	_	
+53-12	3099-3115	Migrationsverket	_	_	_	_	_	_	
+53-13	3115-3116	,	_	_	_	_	_	_	
+53-14	3117-3127	ambassaden	_	_	_	_	_	_	
+53-15	3128-3133	eller	_	_	_	_	_	_	
+53-16	3134-3151	generalkonsulatet	_	_	_	_	_	_	
+53-17	3152-3159	bedömer	_	_	_	_	_	_	
+53-18	3160-3163	att	_	_	_	_	_	_	
+53-19	3164-3166	du	_	_	_	_	_	_	
+53-20	3167-3173	kommer	_	_	_	_	_	_	
+53-21	3174-3177	att	_	_	_	_	_	_	
+53-22	3178-3183	lämna	_	_	_	_	_	_	
+53-23	3184-3199	Schengenområdet	_	_	_	_	_	_	
+53-24	3200-3205	efter	_	_	_	_	_	_	
+53-25	3206-3213	besöket	_	_	_	_	_	_	
+53-26	3213-3214	.	_	_	_	_	_	_	
+
+#Text=Om man tror att du egentligen vill bosätta dig i Schengenområdet avslår man din ansökan.”.
+54-1	3215-3217	Om	_	_	_	_	_	_	
+54-2	3218-3221	man	_	_	_	_	_	_	
+54-3	3222-3226	tror	_	_	_	_	_	_	
+54-4	3227-3230	att	_	_	_	_	_	_	
+54-5	3231-3233	du	_	_	_	_	_	_	
+54-6	3234-3244	egentligen	_	_	_	_	_	_	
+54-7	3245-3249	vill	_	_	_	_	_	_	
+54-8	3250-3257	bosätta	_	_	_	_	_	_	
+54-9	3258-3261	dig	_	_	_	_	_	_	
+54-10	3262-3263	i	_	_	_	_	_	_	
+54-11	3264-3279	Schengenområdet	_	_	_	_	_	_	
+54-12	3280-3286	avslår	_	_	_	_	_	_	
+54-13	3287-3290	man	_	_	_	_	_	_	
+54-14	3291-3294	din	_	_	_	_	_	_	
+54-15	3295-3302	ansökan	_	_	_	_	_	_	
+54-16	3302-3303	.	_	_	_	_	_	_	
+54-17	3303-3304	”	_	_	_	_	_	_	
+54-18	3304-3305	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3307-3308	#	_	_	_	_	_	_	
+55-2	3308-3309	P	_	_	_	_	_	_	
+55-3	3310-3313	IMM	_	_	_	_	_	_	
+55-4	3313-3314	.	_	_	_	_	_	_	
+
+#Text=Ord står mot ord.
+56-1	3316-3319	Ord	_	_	_	_	_	_	
+56-2	3320-3324	står	_	_	_	_	_	_	
+56-3	3325-3328	mot	_	_	_	_	_	_	
+56-4	3329-3332	ord	_	_	_	_	_	_	
+56-5	3332-3333	.	_	_	_	_	_	_	
+
+#Text=Hur ska han kunna bevisa att han faktiskt inte ska hoppa av?.
+57-1	3334-3337	Hur	_	_	_	_	_	_	
+57-2	3338-3341	ska	_	_	_	_	_	_	
+57-3	3342-3345	han	_	_	_	_	_	_	
+57-4	3346-3351	kunna	_	_	_	_	_	_	
+57-5	3352-3358	bevisa	_	_	_	_	_	_	
+57-6	3359-3362	att	_	_	_	_	_	_	
+57-7	3363-3366	han	_	_	_	_	_	_	
+57-8	3367-3375	faktiskt	_	_	_	_	_	_	
+57-9	3376-3380	inte	_	_	_	_	_	_	
+57-10	3381-3384	ska	_	_	_	_	_	_	
+57-11	3385-3390	hoppa	_	_	_	_	_	_	
+57-12	3391-3393	av	_	_	_	_	_	_	
+57-13	3393-3394	?	_	_	_	_	_	_	
+57-14	3394-3395	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3397-3398	#	_	_	_	_	_	_	
+58-2	3398-3399	P	_	_	_	_	_	_	
+58-3	3400-3403	IMM	_	_	_	_	_	_	
+58-4	3403-3404	.	_	_	_	_	_	_	
+
+#Text=På Migrationsverket erkänner man.
+59-1	3406-3408	På	_	_	_	_	_	_	
+59-2	3409-3425	Migrationsverket	_	_	_	_	_	_	
+59-3	3426-3434	erkänner	_	_	_	_	_	_	
+59-4	3435-3438	man	_	_	_	_	_	_	
+59-5	3438-3439	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3441-3442	#	_	_	_	_	_	_	
+60-2	3442-3443	P	_	_	_	_	_	_	
+60-3	3444-3447	IMM	_	_	_	_	_	_	
+60-4	3447-3448	.	_	_	_	_	_	_	
+
+#Text=öppet att det ”kan bli besvärligt”.
+61-1	3450-3455	öppet	_	_	_	_	_	_	
+61-2	3456-3459	att	_	_	_	_	_	_	
+61-3	3460-3463	det	*	_	_	_	_	_	
+61-4	3464-3465	”	_	_	_	_	_	_	
+61-5	3465-3468	kan	_	Target;Source[21]	61-3;61-9	false[21]	2[21]	_	
+61-6	3469-3472	bli	_	Target;Source[21]	61-3;61-9	false[21]	2[21]	_	
+61-7	3473-3483	besvärligt	_	Target;Source[21]	61-3;61-9	false[21]	2[21]	_	
+61-8	3483-3484	”	_	_	_	_	_	_	
+61-9	3484-3485	.	*	_	_	_	_	_	
+
+#Text=Och på Utrikesdepartementet understryker man att det inte finns någon absolut rätt att resa in i och vistas i Sverige.
+62-1	3486-3489	Och	_	_	_	_	_	_	
+62-2	3490-3492	på	_	_	_	_	_	_	
+62-3	3493-3513	Utrikesdepartementet	_	_	_	_	_	_	
+62-4	3514-3526	understryker	_	_	_	_	_	_	
+62-5	3527-3530	man	_	_	_	_	_	_	
+62-6	3531-3534	att	_	_	_	_	_	_	
+62-7	3535-3538	det	_	_	_	_	_	_	
+62-8	3539-3543	inte	_	_	_	_	_	_	
+62-9	3544-3549	finns	_	_	_	_	_	_	
+62-10	3550-3555	någon	_	_	_	_	_	_	
+62-11	3556-3563	absolut	_	_	_	_	_	_	
+62-12	3564-3568	rätt	_	_	_	_	_	_	
+62-13	3569-3572	att	_	_	_	_	_	_	
+62-14	3573-3577	resa	_	_	_	_	_	_	
+62-15	3578-3580	in	_	_	_	_	_	_	
+62-16	3581-3582	i	_	_	_	_	_	_	
+62-17	3583-3586	och	_	_	_	_	_	_	
+62-18	3587-3593	vistas	_	_	_	_	_	_	
+62-19	3594-3595	i	_	_	_	_	_	_	
+62-20	3596-3603	Sverige	_	_	_	_	_	_	
+62-21	3603-3604	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	3606-3607	#	_	_	_	_	_	_	
+63-2	3607-3608	P	_	_	_	_	_	_	
+63-3	3609-3612	IMM	_	_	_	_	_	_	
+63-4	3612-3613	.	_	_	_	_	_	_	
+
+#Text=Har jag som svensk medborgare ingen rätt att bjuda in mina utländska vänner att besöka mig precis på samma sätt som jag fått komma till dem?
+64-1	3615-3618	Har	_	Source;Target	64-2[67];64-2[65]	false	2	_	
+64-2	3619-3622	jag	*[64]|*[65]|*[66]|*[67]	_	_	_	_	_	
+64-3	3623-3626	som	*[64]|*[65]	_	_	_	_	_	
+64-4	3627-3633	svensk	*[64]|*[65]	_	_	_	_	_	
+64-5	3634-3644	medborgare	*[64]|*[65]	_	_	_	_	_	
+64-6	3645-3650	ingen	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	64-1[0_22]	
+64-7	3651-3655	rätt	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-8	3656-3659	att	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-9	3660-3665	bjuda	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-10	3666-3668	in	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-11	3669-3673	mina	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-12	3674-3683	utländska	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-13	3684-3690	vänner	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-14	3691-3694	att	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-15	3695-3701	besöka	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-16	3702-3705	mig	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-17	3706-3712	precis	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-18	3713-3715	på	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-19	3716-3721	samma	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-20	3722-3726	sätt	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-21	3727-3730	som	_	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-22	3731-3734	jag	*[68]|*[69]	Target;Source[22]	64-2[64];64-2[66]	false[22]	2[22]	_	
+64-23	3735-3739	fått	_	Target;Source[22]|Target;Source[23]	64-2[64];64-2[66]|64-22[68];64-22[69]	false[22]|false[23]	2[22]|4[23]	_	
+64-24	3740-3745	komma	_	Target;Source[22]|Target;Source[23]	64-2[64];64-2[66]|64-22[68];64-22[69]	false[22]|false[23]	2[22]|4[23]	_	
+64-25	3746-3750	till	_	Target;Source[22]|Target;Source[23]	64-2[64];64-2[66]|64-22[68];64-22[69]	false[22]|false[23]	2[22]|4[23]	_	
+64-26	3751-3754	dem	_	Target;Source[22]|Target;Source[23]	64-2[64];64-2[66]|64-22[68];64-22[69]	false[22]|false[23]	2[22]|4[23]	_	
+64-27	3754-3755	?	_	_	_	_	_	_	
+
+#Text=I Migrationsverkets statistik över avhopp för åren 1998 till 2001 rör det sig om runt 1000 personer från många olika länder som hoppar av per år.
+65-1	3756-3757	I	_	_	_	_	_	_	
+65-2	3758-3775	Migrationsverkets	_	_	_	_	_	_	
+65-3	3776-3785	statistik	_	_	_	_	_	_	
+65-4	3786-3790	över	_	_	_	_	_	_	
+65-5	3791-3797	avhopp	_	_	_	_	_	_	
+65-6	3798-3801	för	_	_	_	_	_	_	
+65-7	3802-3806	åren	_	_	_	_	_	_	
+65-8	3807-3811	1998	_	_	_	_	_	_	
+65-9	3812-3816	till	_	_	_	_	_	_	
+65-10	3817-3821	2001	_	_	_	_	_	_	
+65-11	3822-3825	rör	_	_	_	_	_	_	
+65-12	3826-3829	det	_	_	_	_	_	_	
+65-13	3830-3833	sig	_	_	_	_	_	_	
+65-14	3834-3836	om	_	_	_	_	_	_	
+65-15	3837-3841	runt	_	_	_	_	_	_	
+65-16	3842-3846	1000	_	_	_	_	_	_	
+65-17	3847-3855	personer	_	_	_	_	_	_	
+65-18	3856-3860	från	_	_	_	_	_	_	
+65-19	3861-3866	många	_	_	_	_	_	_	
+65-20	3867-3872	olika	_	_	_	_	_	_	
+65-21	3873-3879	länder	_	_	_	_	_	_	
+65-22	3880-3883	som	_	_	_	_	_	_	
+65-23	3884-3890	hoppar	_	_	_	_	_	_	
+65-24	3891-3893	av	_	_	_	_	_	_	
+65-25	3894-3897	per	_	_	_	_	_	_	
+65-26	3898-3900	år	_	_	_	_	_	_	
+65-27	3900-3901	.	_	_	_	_	_	_	
+
+#Text=Den absoluta majoriteten av dessa är personer som sökt asyl.
+66-1	3902-3905	Den	_	_	_	_	_	_	
+66-2	3906-3914	absoluta	_	_	_	_	_	_	
+66-3	3915-3926	majoriteten	_	_	_	_	_	_	
+66-4	3927-3929	av	_	_	_	_	_	_	
+66-5	3930-3935	dessa	_	_	_	_	_	_	
+66-6	3936-3938	är	_	_	_	_	_	_	
+66-7	3939-3947	personer	_	_	_	_	_	_	
+66-8	3948-3951	som	_	_	_	_	_	_	
+66-9	3952-3956	sökt	_	_	_	_	_	_	
+66-10	3957-3961	asyl	_	_	_	_	_	_	
+66-11	3961-3962	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	3964-3965	#	_	_	_	_	_	_	
+67-2	3965-3966	P	_	_	_	_	_	_	
+67-3	3967-3970	IMM	_	_	_	_	_	_	
+67-4	3970-3971	.	_	_	_	_	_	_	
+
+#Text=De som hoppat av med turistvisum utan nära anhörig i landet finns under kategorin ”övriga” och de är inte fler än ett trettiotal.
+68-1	3973-3975	De	_	_	_	_	_	_	
+68-2	3976-3979	som	_	_	_	_	_	_	
+68-3	3980-3986	hoppat	_	_	_	_	_	_	
+68-4	3987-3989	av	_	_	_	_	_	_	
+68-5	3990-3993	med	_	_	_	_	_	_	
+68-6	3994-4005	turistvisum	_	_	_	_	_	_	
+68-7	4006-4010	utan	_	_	_	_	_	_	
+68-8	4011-4015	nära	_	_	_	_	_	_	
+68-9	4016-4023	anhörig	_	_	_	_	_	_	
+68-10	4024-4025	i	_	_	_	_	_	_	
+68-11	4026-4032	landet	_	_	_	_	_	_	
+68-12	4033-4038	finns	_	_	_	_	_	_	
+68-13	4039-4044	under	_	_	_	_	_	_	
+68-14	4045-4054	kategorin	_	_	_	_	_	_	
+68-15	4055-4056	”	_	_	_	_	_	_	
+68-16	4056-4062	övriga	_	_	_	_	_	_	
+68-17	4062-4063	”	_	_	_	_	_	_	
+68-18	4064-4067	och	_	_	_	_	_	_	
+68-19	4068-4070	de	_	_	_	_	_	_	
+68-20	4071-4073	är	_	_	_	_	_	_	
+68-21	4074-4078	inte	_	_	_	_	_	_	
+68-22	4079-4083	fler	_	_	_	_	_	_	
+68-23	4084-4086	än	_	_	_	_	_	_	
+68-24	4087-4090	ett	_	_	_	_	_	_	
+68-25	4091-4101	trettiotal	_	_	_	_	_	_	
+68-26	4101-4102	.	_	_	_	_	_	_	
+
+#Text=Vidare visar statistiken att det inte finns en enda senegales som hoppat av.
+69-1	4103-4109	Vidare	_	_	_	_	_	_	
+69-2	4110-4115	visar	_	_	_	_	_	_	
+69-3	4116-4127	statistiken	_	_	_	_	_	_	
+69-4	4128-4131	att	_	_	_	_	_	_	
+69-5	4132-4135	det	_	_	_	_	_	_	
+69-6	4136-4140	inte	_	_	_	_	_	_	
+69-7	4141-4146	finns	_	_	_	_	_	_	
+69-8	4147-4149	en	_	_	_	_	_	_	
+69-9	4150-4154	enda	_	_	_	_	_	_	
+69-10	4155-4164	senegales	_	_	_	_	_	_	
+69-11	4165-4168	som	_	_	_	_	_	_	
+69-12	4169-4175	hoppat	_	_	_	_	_	_	
+69-13	4176-4178	av	_	_	_	_	_	_	
+69-14	4178-4179	.	_	_	_	_	_	_	
+
+#Text=Knappt några afrikaner alls faktiskt.
+70-1	4180-4186	Knappt	_	_	_	_	_	_	
+70-2	4187-4192	några	_	_	_	_	_	_	
+70-3	4193-4202	afrikaner	_	_	_	_	_	_	
+70-4	4203-4207	alls	_	_	_	_	_	_	
+70-5	4208-4216	faktiskt	_	_	_	_	_	_	
+70-6	4216-4217	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	4219-4220	#	_	_	_	_	_	_	
+71-2	4220-4221	P	_	_	_	_	_	_	
+71-3	4222-4225	IMM	_	_	_	_	_	_	
+71-4	4225-4226	.	_	_	_	_	_	_	
+
+#Text=Sedan Sverige gick med i Schengen den 25 mars 2001 har det blivit allt svårare för utomeuropéer att komma hit.
+72-1	4228-4233	Sedan	_	_	_	_	_	_	
+72-2	4234-4241	Sverige	_	_	_	_	_	_	
+72-3	4242-4246	gick	_	_	_	_	_	_	
+72-4	4247-4250	med	_	_	_	_	_	_	
+72-5	4251-4252	i	_	_	_	_	_	_	
+72-6	4253-4261	Schengen	_	_	_	_	_	_	
+72-7	4262-4265	den	_	_	_	_	_	_	
+72-8	4266-4268	25	_	_	_	_	_	_	
+72-9	4269-4273	mars	_	_	_	_	_	_	
+72-10	4274-4278	2001	_	_	_	_	_	_	
+72-11	4279-4282	har	_	_	_	_	_	_	
+72-12	4283-4286	det	_	_	_	_	_	_	
+72-13	4287-4293	blivit	_	_	_	_	_	_	
+72-14	4294-4298	allt	_	_	_	_	_	_	
+72-15	4299-4306	svårare	_	_	_	_	_	_	
+72-16	4307-4310	för	_	_	_	_	_	_	
+72-17	4311-4323	utomeuropéer	_	_	_	_	_	_	
+72-18	4324-4327	att	_	_	_	_	_	_	
+72-19	4328-4333	komma	_	_	_	_	_	_	
+72-20	4334-4337	hit	_	_	_	_	_	_	
+72-21	4337-4338	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	4340-4341	#	_	_	_	_	_	_	
+73-2	4341-4342	P	_	_	_	_	_	_	
+73-3	4343-4346	IMM	_	_	_	_	_	_	
+73-4	4346-4347	.	_	_	_	_	_	_	
+
+#Text=Huvudsyftet med Schengen är att öka den fria rörligheten inom Schengenländ-erna och att motverka internationell brottslighet.
+74-1	4349-4360	Huvudsyftet	_	_	_	_	_	_	
+74-2	4361-4364	med	_	_	_	_	_	_	
+74-3	4365-4373	Schengen	*[70]|*[71]	_	_	_	_	_	
+74-4	4374-4376	är	_	_	_	_	_	_	
+74-5	4377-4380	att	_	_	_	_	_	_	
+74-6	4381-4384	öka	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-7	4385-4388	den	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-8	4389-4393	fria	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-9	4394-4405	rörligheten	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-10	4406-4410	inom	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-11	4411-4428	Schengenländ-erna	_	Target[24]	74-3[70]	false[24]	4[24]	_	
+74-12	4429-4432	och	_	_	_	_	_	_	
+74-13	4433-4436	att	_	_	_	_	_	_	
+74-14	4437-4445	motverka	_	Target[25]	74-3[71]	false[25]	4[25]	_	
+74-15	4446-4460	internationell	_	Target[25]	74-3[71]	false[25]	4[25]	_	
+74-16	4461-4473	brottslighet	_	Target[25]	74-3[71]	false[25]	4[25]	_	
+74-17	4473-4474	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	4476-4477	#	_	_	_	_	_	_	
+75-2	4477-4478	P	_	_	_	_	_	_	
+75-3	4479-4482	IMM	_	_	_	_	_	_	
+75-4	4482-4483	.	_	_	_	_	_	_	
+
+#Text=Men är det då inte brottsligt att bryta mot de mänskliga rättigheterna?
+76-1	4485-4488	Men	_	_	_	_	_	_	
+76-2	4489-4491	är	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-3	4492-4495	det	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-4	4496-4498	då	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-5	4499-4503	inte	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-6	4504-4514	brottsligt	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-7	4515-4518	att	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-8	4519-4524	bryta	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-9	4525-4528	mot	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-10	4529-4531	de	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-11	4532-4541	mänskliga	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-12	4542-4555	rättigheterna	*[72]	Target[26]	76-7[72]	false[26]	2[26]	_	
+76-13	4555-4556	?	_	Target[26]	76-7[72]	false[26]	2[26]	_	
+
+#Text=Enligt artikel 11:1 i de mänskliga rättigheterna har envar som blivit anklagad för straffbar gärning rätt att bli betraktad som oskyldig till dess skulden blivit lagligen fastställd vid offentlig rättegång.
+77-1	4557-4563	Enligt	_	_	_	_	_	_	
+77-2	4564-4571	artikel	*[73]|*[74]	_	_	_	_	_	
+77-3	4572-4574	11	*[73]|*[74]	_	_	_	_	_	
+77-4	4574-4575	:	*[73]|*[74]	_	_	_	_	_	
+77-5	4575-4576	1	*[73]|*[74]	_	_	_	_	_	
+77-6	4577-4578	i	*[73]|*[74]	_	_	_	_	_	
+77-7	4579-4581	de	*[73]|*[74]	_	_	_	_	_	
+77-8	4582-4591	mänskliga	*[73]|*[74]	_	_	_	_	_	
+77-9	4592-4605	rättigheterna	*[73]|*[74]	_	_	_	_	_	
+77-10	4606-4609	har	_	Target;Source	77-11[76];77-2[74]	false	4	_	
+77-11	4610-4615	envar	*[75]|*[76]	_	_	_	_	_	
+77-12	4616-4619	som	*[75]|*[76]	_	_	_	_	_	
+77-13	4620-4626	blivit	*[75]|*[76]	_	_	_	_	_	
+77-14	4627-4635	anklagad	*[75]|*[76]	_	_	_	_	_	
+77-15	4636-4639	för	*[75]|*[76]	_	_	_	_	_	
+77-16	4640-4649	straffbar	*[75]|*[76]	_	_	_	_	_	
+77-17	4650-4657	gärning	*[75]|*[76]	_	_	_	_	_	
+77-18	4658-4662	rätt	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-19	4663-4666	att	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-20	4667-4670	bli	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-21	4671-4680	betraktad	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-22	4681-4684	som	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-23	4685-4693	oskyldig	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-24	4694-4698	till	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-25	4699-4703	dess	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-26	4704-4711	skulden	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-27	4712-4718	blivit	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-28	4719-4727	lagligen	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-29	4728-4738	fastställd	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-30	4739-4742	vid	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-31	4743-4752	offentlig	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-32	4753-4762	rättegång	_	Source;Target[27]	77-2[73];77-11[75]	false[27]	4[27]	_	
+77-33	4762-4763	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+78-1	4765-4766	#	_	_	_	_	_	_	
+78-2	4766-4767	P	_	_	_	_	_	_	
+78-3	4768-4771	IMM	_	_	_	_	_	_	
+78-4	4771-4772	.	_	_	_	_	_	_	
+
+#Text=Trots att man på ambassaden i Dakar påstår – och därmed motsäger statistiken från Migrationsverket – att majoriteten av alla senegaleser som kommit till Sverige på turistvisum är ”avhoppare”, får man inte döma människor på förhand.
+79-1	4774-4779	Trots	_	_	_	_	_	_	
+79-2	4780-4783	att	_	_	_	_	_	_	
+79-3	4784-4787	man	_	_	_	_	_	_	
+79-4	4788-4790	på	_	_	_	_	_	_	
+79-5	4791-4801	ambassaden	*[77]|*[78]|*[79]|*[80]	_	_	_	_	_	
+79-6	4802-4803	i	*[77]|*[78]|*[79]|*[80]	_	_	_	_	_	
+79-7	4804-4809	Dakar	*[77]|*[78]|*[79]|*[80]	_	_	_	_	_	
+79-8	4810-4816	påstår	_	Target	79-5[77]	false	2	79-17[29_0]	
+79-9	4817-4818	–	_	_	_	_	_	_	
+79-10	4819-4822	och	_	_	_	_	_	_	
+79-11	4823-4829	därmed	_	_	_	_	_	_	
+79-12	4830-4838	motsäger	_	Target[28]	79-5[79]	false[28]	2[28]	_	
+79-13	4839-4850	statistiken	_	Target[28]	79-5[79]	false[28]	2[28]	_	
+79-14	4851-4855	från	_	Target[28]	79-5[79]	false[28]	2[28]	_	
+79-15	4856-4872	Migrationsverket	_	Target[28]	79-5[79]	false[28]	2[28]	_	
+79-16	4873-4874	–	_	_	_	_	_	_	
+79-17	4875-4878	att	_	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-18	4879-4890	majoriteten	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-19	4891-4893	av	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-20	4894-4898	alla	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-21	4899-4910	senegaleser	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-22	4911-4914	som	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-23	4915-4921	kommit	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-24	4922-4926	till	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-25	4927-4934	Sverige	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-26	4935-4937	på	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-27	4938-4949	turistvisum	*[81]	Target[29]	79-5[78]	false[29]	2[29]	_	
+79-28	4950-4952	är	_	Target[29]|Target;Source[30]	79-5[78]|79-18[81];79-5[80]	false[29]|false[30]	2[29]|2[30]	_	
+79-29	4953-4954	”	_	Target[29]|Target;Source[30]	79-5[78]|79-18[81];79-5[80]	false[29]|false[30]	2[29]|2[30]	_	
+79-30	4954-4963	avhoppare	_	Target[29]|Target;Source[30]	79-5[78]|79-18[81];79-5[80]	false[29]|false[30]	2[29]|2[30]	_	
+79-31	4963-4964	”	_	Target[29]|Target;Source[30]	79-5[78]|79-18[81];79-5[80]	false[29]|false[30]	2[29]|2[30]	_	
+79-32	4964-4965	,	_	_	_	_	_	_	
+79-33	4966-4969	får	_	_	_	_	_	_	
+79-34	4970-4973	man	*	_	_	_	_	_	
+79-35	4974-4978	inte	_	Target[31]	79-34	false[31]	4[31]	_	
+79-36	4979-4983	döma	_	Target[31]	79-34	false[31]	4[31]	_	
+79-37	4984-4993	människor	_	Target[31]	79-34	false[31]	4[31]	_	
+79-38	4994-4996	på	_	Target[31]	79-34	false[31]	4[31]	_	
+79-39	4997-5004	förhand	_	Target[31]	79-34	false[31]	4[31]	_	
+79-40	5004-5005	.	_	_	_	_	_	_	
+
+#Text=Han ska inte behöva straffas för brott som andra har begått.
+80-1	5006-5009	Han	*	_	_	_	_	_	
+80-2	5010-5013	ska	_	Target[32]	80-1	false[32]	4[32]	_	
+80-3	5014-5018	inte	_	Target[32]	80-1	false[32]	4[32]	_	
+80-4	5019-5025	behöva	_	Target[32]	80-1	false[32]	4[32]	_	
+80-5	5026-5034	straffas	_	Target[32]	80-1	false[32]	4[32]	_	
+80-6	5035-5038	för	_	Target[32]	80-1	false[32]	4[32]	_	
+80-7	5039-5044	brott	_	Target[32]	80-1	false[32]	4[32]	_	
+80-8	5045-5048	som	_	Target[32]	80-1	false[32]	4[32]	_	
+80-9	5049-5054	andra	_	Target[32]	80-1	false[32]	4[32]	_	
+80-10	5055-5058	har	_	Target[32]	80-1	false[32]	4[32]	_	
+80-11	5059-5065	begått	_	Target[32]	80-1	false[32]	4[32]	_	
+80-12	5065-5066	.	_	_	_	_	_	_	
+
+#Text=Det är ren diskriminering.
+81-1	5067-5070	Det	*	_	_	_	_	_	
+81-2	5071-5073	är	_	Target[33]	81-1	false[33]	1[33]	_	
+81-3	5074-5077	ren	_	Target[33]	81-1	false[33]	1[33]	_	
+81-4	5078-5092	diskriminering	_	Target[33]	81-1	false[33]	1[33]	_	
+81-5	5092-5093	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+82-1	5095-5096	#	_	_	_	_	_	_	
+82-2	5096-5097	P	_	_	_	_	_	_	
+82-3	5098-5101	IMM	_	_	_	_	_	_	
+82-4	5101-5102	.	_	_	_	_	_	_	
+
+#Text=Vill vi leva i ett land där dörren är stängd för en majoritet av jordens befolkning?.
+83-1	5104-5108	Vill	_	Target;Source	83-5[82];83-2	false	2	83-3[34_0]	
+83-2	5109-5111	vi	*	_	_	_	_	_	
+83-3	5112-5116	leva	_	_[34]	_	false[34]	2[34]	_	
+83-4	5117-5118	i	_	_[34]	_	false[34]	2[34]	_	
+83-5	5119-5122	ett	*[82]	_[34]	_	false[34]	2[34]	_	
+83-6	5123-5127	land	*[82]	_[34]	_	false[34]	2[34]	_	
+83-7	5128-5131	där	*[82]	_[34]	_	false[34]	2[34]	_	
+83-8	5132-5138	dörren	*[82]	_[34]	_	false[34]	2[34]	_	
+83-9	5139-5141	är	*[82]	_[34]	_	false[34]	2[34]	_	
+83-10	5142-5148	stängd	*[82]	_[34]	_	false[34]	2[34]	_	
+83-11	5149-5152	för	*[82]	_[34]	_	false[34]	2[34]	_	
+83-12	5153-5155	en	*[82]	_[34]	_	false[34]	2[34]	_	
+83-13	5156-5165	majoritet	*[82]	_[34]	_	false[34]	2[34]	_	
+83-14	5166-5168	av	*[82]	_[34]	_	false[34]	2[34]	_	
+83-15	5169-5176	jordens	*[82]	_[34]	_	false[34]	2[34]	_	
+83-16	5177-5187	befolkning	*[82]	_[34]	_	false[34]	2[34]	_	
+83-17	5187-5188	?	_	_	_	_	_	_	
+83-18	5188-5189	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+84-1	5191-5192	#	_	_	_	_	_	_	
+84-2	5192-5193	P	_	_	_	_	_	_	
+84-3	5194-5197	IMM	_	_	_	_	_	_	
+84-4	5197-5198	.	_	_	_	_	_	_	
+
+#Text=Jag kan förstå att inte alla kan bosätta sig i Sverige.
+85-1	5200-5203	Jag	*	_	_	_	_	_	
+85-2	5204-5207	kan	_	Source;Target[35]	85-1;85-4[83]	false[35]	3[35]	_	
+85-3	5208-5214	förstå	_	Source;Target[35]	85-1;85-4[83]	false[35]	3[35]	_	
+85-4	5215-5218	att	*[83]	_	_	_	_	_	
+85-5	5219-5223	inte	*[83]	_	_	_	_	_	
+85-6	5224-5228	alla	*[83]	_	_	_	_	_	
+85-7	5229-5232	kan	*[83]	_	_	_	_	_	
+85-8	5233-5240	bosätta	*[83]	_	_	_	_	_	
+85-9	5241-5244	sig	*[83]	_	_	_	_	_	
+85-10	5245-5246	i	*[83]	_	_	_	_	_	
+85-11	5247-5254	Sverige	*[83]	_	_	_	_	_	
+85-12	5254-5255	.	_	_	_	_	_	_	
+
+#Text=Men jag kan inte förstå att vem som helst inte får komma hit som vanlig turist.
+86-1	5256-5259	Men	_	_	_	_	_	_	
+86-2	5260-5263	jag	*	_	_	_	_	_	
+86-3	5264-5267	kan	_	Source;Target[36]	86-2;86-6[84]	false[36]	2[36]	_	
+86-4	5268-5272	inte	_	Source;Target[36]	86-2;86-6[84]	false[36]	2[36]	_	
+86-5	5273-5279	förstå	_	Source;Target[36]	86-2;86-6[84]	false[36]	2[36]	_	
+86-6	5280-5283	att	*[84]	_	_	_	_	_	
+86-7	5284-5287	vem	*[84]	_	_	_	_	_	
+86-8	5288-5291	som	*[84]	_	_	_	_	_	
+86-9	5292-5297	helst	*[84]	_	_	_	_	_	
+86-10	5298-5302	inte	*[84]	_	_	_	_	_	
+86-11	5303-5306	får	*[84]	_	_	_	_	_	
+86-12	5307-5312	komma	*[84]	_	_	_	_	_	
+86-13	5313-5316	hit	*[84]	_	_	_	_	_	
+86-14	5317-5320	som	*[84]	_	_	_	_	_	
+86-15	5321-5327	vanlig	*[84]	_	_	_	_	_	
+86-16	5328-5334	turist	*[84]	_	_	_	_	_	
+86-17	5334-5335	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	5337-5338	#	_	_	_	_	_	_	
+87-2	5338-5339	P	_	_	_	_	_	_	
+87-3	5340-5343	IMM	_	_	_	_	_	_	
+87-4	5343-5344	.	_	_	_	_	_	_	
+
+#Text=Praxis för hur Sverige beviljar turistvisum måste ändras.
+88-1	5346-5352	Praxis	*[85]	_	_	_	_	_	
+88-2	5353-5356	för	*[85]	_	_	_	_	_	
+88-3	5357-5360	hur	*[85]	_	_	_	_	_	
+88-4	5361-5368	Sverige	*[85]	_	_	_	_	_	
+88-5	5369-5377	beviljar	*[85]	_	_	_	_	_	
+88-6	5378-5389	turistvisum	*[85]	_	_	_	_	_	
+88-7	5390-5395	måste	_	Target[37]	88-1[85]	false[37]	2[37]	_	
+88-8	5396-5402	ändras	_	Target[37]	88-1[85]	false[37]	2[37]	_	
+88-9	5402-5403	.	_	_	_	_	_	_	
+
+#Text=Det går inte att godtyckligt hindra människor från att förverkliga sina liv.
+89-1	5404-5407	Det	_	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-2	5408-5411	går	_	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-3	5412-5416	inte	_	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-4	5417-5420	att	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-5	5421-5432	godtyckligt	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-6	5433-5439	hindra	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-7	5440-5449	människor	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-8	5450-5454	från	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-9	5455-5458	att	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-10	5459-5470	förverkliga	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-11	5471-5475	sina	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-12	5476-5479	liv	*[86]	Target[38]	89-4[86]	false[38]	2[38]	_	
+89-13	5479-5480	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+90-1	5482-5483	#	_	_	_	_	_	_	
+90-2	5483-5484	P	_	_	_	_	_	_	
+90-3	5485-5488	IMM	_	_	_	_	_	_	
+90-4	5488-5489	.	_	_	_	_	_	_	
+
+#Text=Se till att du inte blir förälskad i en man från Senegal.
+91-1	5491-5493	Se	_	_	_	_	_	_	
+91-2	5494-5498	till	_	_	_	_	_	_	
+91-3	5499-5502	att	_	_	_	_	_	_	
+91-4	5503-5505	du	*	_	_	_	_	_	
+91-5	5506-5510	inte	_	_	_	_	_	_	
+91-6	5511-5515	blir	_	_	_	_	_	_	
+91-7	5516-5525	förälskad	_	_	_	_	_	_	
+91-8	5526-5527	i	_	_	_	_	_	_	
+91-9	5528-5530	en	_	_	_	_	_	_	
+91-10	5531-5534	man	_	_	_	_	_	_	
+91-11	5535-5539	från	_	_	_	_	_	_	
+91-12	5540-5547	Senegal	_	_	_	_	_	_	
+91-13	5547-5548	.	_	Target	91-4	true	4	_	
+
+#Text=Det blev jag, skriver Susanne Löfmark på  Debatt i dag.
+92-1	5549-5552	Det	_	_	_	_	_	_	
+92-2	5553-5557	blev	_	_	_	_	_	_	
+92-3	5558-5561	jag	_	_	_	_	_	_	
+92-4	5561-5562	,	_	_	_	_	_	_	
+92-5	5563-5570	skriver	_	_	_	_	_	_	
+92-6	5571-5578	Susanne	_	_	_	_	_	_	
+92-7	5579-5586	Löfmark	_	_	_	_	_	_	
+92-8	5587-5589	på	_	_	_	_	_	_	
+92-9	5591-5597	Debatt	_	_	_	_	_	_	
+92-10	5598-5599	i	_	_	_	_	_	_	
+92-11	5600-5603	dag	_	_	_	_	_	_	
+92-12	5603-5604	.	_	_	_	_	_	_	
+
+#Text=Han får nämligen inte komma hit och hälsa på eftersom han inte beviljas turistvisum.
+93-1	5605-5608	Han	_	_	_	_	_	_	
+93-2	5609-5612	får	_	_	_	false	2	_	
+93-3	5613-5621	nämligen	_	_	_	_	_	_	
+93-4	5622-5626	inte	_	_[39]	_	false[39]	2[39]	93-2[0_39]	
+93-5	5627-5632	komma	_	_[39]	_	false[39]	2[39]	_	
+93-6	5633-5636	hit	_	_[39]	_	false[39]	2[39]	_	
+93-7	5637-5640	och	_	_[39]	_	false[39]	2[39]	_	
+93-8	5641-5646	hälsa	_	_[39]	_	false[39]	2[39]	_	
+93-9	5647-5649	på	_	_[39]	_	false[39]	2[39]	_	
+93-10	5650-5658	eftersom	_	_	_	_	_	_	
+93-11	5659-5662	han	_	_	_	_	_	_	
+93-12	5663-5667	inte	_	_[40]	_	false[40]	2[40]	_	
+93-13	5668-5676	beviljas	_	_[40]	_	false[40]	2[40]	_	
+93-14	5677-5688	turistvisum	_	_[40]	_	false[40]	2[40]	_	
+93-15	5688-5689	.	_	_	_	false	2	_	
+
+#Text=Kalla det Schengenlove.
+94-1	5690-5695	Kalla	_	_	_	_	_	_	
+94-2	5696-5699	det	_	_	_	_	_	_	
+94-3	5700-5701		_	_	_	_	_	_	
+94-4	5701-5713	Schengenlove	*	Target	94-4	true	4	_	
+94-5	5713-5714		_	_	_	_	_	_	
+94-6	5714-5715	.	_	_	_	_	_	_	
+
+#Text=Omöjlig kärlek mellan en europé som kan röra sig fritt inom Europa och en afrikan som är fullkomligt utestängd.
+95-1	5716-5723	Omöjlig	_	Target[41]	95-4[87]	false[41]	2[41]	_	
+95-2	5724-5730	kärlek	_	Target[41]	95-4[87]	false[41]	2[41]	_	
+95-3	5731-5737	mellan	_	_	_	_	_	_	
+95-4	5738-5740	en	*[87]|*[88]	_	_	_	_	_	
+95-5	5741-5747	europé	*[87]|*[88]	_	_	_	_	_	
+95-6	5748-5751	som	*[87]	_	_	_	_	_	
+95-7	5752-5755	kan	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-8	5756-5760	röra	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-9	5761-5764	sig	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-10	5765-5770	fritt	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-11	5771-5775	inom	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-12	5776-5782	Europa	*[87]	Target[42]	95-4[88]	false[42]	5[42]	_	
+95-13	5783-5786	och	*[87]	_	_	_	_	_	
+95-14	5787-5789	en	*[87]|*[89]	_	_	_	_	_	
+95-15	5790-5797	afrikan	*[87]|*[89]	_	_	_	_	_	
+95-16	5798-5801	som	*[87]	_	_	_	_	_	
+95-17	5802-5804	är	*[87]	Target[43]	95-14[89]	false[43]	1[43]	_	
+95-18	5805-5816	fullkomligt	*[87]	Target[43]	95-14[89]	false[43]	1[43]	_	
+95-19	5817-5826	utestängd	*[87]	Target[43]	95-14[89]	false[43]	1[43]	_	
+95-20	5826-5827	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+96-1	5829-5830	#	_	_	_	_	_	_	
+96-2	5830-5831	P	_	_	_	_	_	_	
+96-3	5832-5835	IMM	_	_	_	_	_	_	
+96-4	5835-5836	.	_	_	_	_	_	_	
+
+#Text=Susanne Löfmark.
+97-1	5838-5845	Susanne	_	_	_	_	_	_	
+97-2	5846-5853	Löfmark	_	_	_	_	_	_	
+97-3	5853-5854	.	_	_	_	_	_	_	

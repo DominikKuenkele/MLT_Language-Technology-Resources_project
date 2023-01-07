@@ -1,0 +1,1072 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Fritt fram för religiösa att diskriminera.
+3-1	18-23	Fritt	_	_	_	_	_	_	
+3-2	24-28	fram	_	_	_	_	_	_	
+3-3	29-32	för	_	_	_	_	_	_	
+3-4	33-42	religiösa	_	_	_	_	_	_	
+3-5	43-46	att	_	_	_	_	_	_	
+3-6	47-59	diskriminera	*	Target	3-6	false	1	_	
+3-7	59-60	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	
+
+#Text=Jag har en kollega som konstant vägrar att hälsa på mig.
+5-1	71-74	Jag	_	_	_	_	_	_	
+5-2	75-78	har	_	_	_	_	_	_	
+5-3	79-81	en	*[22]	_	_	_	_	_	
+5-4	82-89	kollega	*[22]	_	_	_	_	_	
+5-5	90-93	som	_	_	_	_	_	_	
+5-6	94-102	konstant	_	_	_	_	_	_	
+5-7	103-109	vägrar	_	Target;Source	5-8[23];5-3[22]	false	1	_	
+5-8	110-113	att	*[23]	_	_	_	_	_	
+5-9	114-119	hälsa	*[23]	_	_	_	_	_	
+5-10	120-122	på	*[23]	_	_	_	_	_	
+5-11	123-126	mig	*[23]	_	_	_	_	_	
+5-12	126-127	.	_	_	_	_	_	_	
+
+#Text=När vi möts sträcker jag fram handen men han vägrar fatta den.
+6-1	128-131	När	_	_	_	_	_	_	
+6-2	132-134	vi	_	_	_	_	_	_	
+6-3	135-139	möts	_	_	_	_	_	_	
+6-4	140-148	sträcker	_	_	_	_	_	_	
+6-5	149-152	jag	_	_	_	_	_	_	
+6-6	153-157	fram	_	_	_	_	_	_	
+6-7	158-164	handen	_	_	_	_	_	_	
+6-8	165-168	men	_	_	_	_	_	_	
+6-9	169-172	han	_	_	_	_	_	_	
+6-10	173-179	vägrar	_	_	_	_	_	_	
+6-11	180-185	fatta	_	_	_	_	_	_	
+6-12	186-189	den	_	_	_	_	_	_	
+6-13	189-190	.	_	_	_	_	_	_	
+
+#Text=Eftersom vi båda är präster i en storstad (Göteborg) är det oundvikligt att vi då och då stöter på varandra i något av de större begravningskapellen eller i sakristian till någon av de populära bröllopskyrkorna.
+7-1	191-199	Eftersom	_	_	_	_	_	_	
+7-2	200-202	vi	_	_	_	_	_	_	
+7-3	203-207	båda	_	_	_	_	_	_	
+7-4	208-210	är	_	_	_	_	_	_	
+7-5	211-218	präster	_	_	_	_	_	_	
+7-6	219-220	i	_	_	_	_	_	_	
+7-7	221-223	en	_	_	_	_	_	_	
+7-8	224-232	storstad	_	_	_	_	_	_	
+7-9	233-234	(	_	_	_	_	_	_	
+7-10	234-242	Göteborg	_	_	_	_	_	_	
+7-11	242-243	)	_	_	_	_	_	_	
+7-12	244-246	är	_	_	_	_	_	_	
+7-13	247-250	det	_	_	_	_	_	_	
+7-14	251-262	oundvikligt	_	_	_	_	_	_	
+7-15	263-266	att	_	_	_	_	_	_	
+7-16	267-269	vi	_	_	_	_	_	_	
+7-17	270-272	då	_	_	_	_	_	_	
+7-18	273-276	och	_	_	_	_	_	_	
+7-19	277-279	då	_	_	_	_	_	_	
+7-20	280-286	stöter	_	_	_	_	_	_	
+7-21	287-289	på	_	_	_	_	_	_	
+7-22	290-298	varandra	_	_	_	_	_	_	
+7-23	299-300	i	_	_	_	_	_	_	
+7-24	301-306	något	_	_	_	_	_	_	
+7-25	307-309	av	_	_	_	_	_	_	
+7-26	310-312	de	_	_	_	_	_	_	
+7-27	313-319	större	_	_	_	_	_	_	
+7-28	320-339	begravningskapellen	_	_	_	_	_	_	
+7-29	340-345	eller	_	_	_	_	_	_	
+7-30	346-347	i	_	_	_	_	_	_	
+7-31	348-358	sakristian	_	_	_	_	_	_	
+7-32	359-363	till	_	_	_	_	_	_	
+7-33	364-369	någon	_	_	_	_	_	_	
+7-34	370-372	av	_	_	_	_	_	_	
+7-35	373-375	de	_	_	_	_	_	_	
+7-36	376-384	populära	_	_	_	_	_	_	
+7-37	385-401	bröllopskyrkorna	_	_	_	_	_	_	
+7-38	401-402	.	_	_	_	_	_	_	
+
+#Text=Därför upprepas scenen gång på gång.
+8-1	403-409	Därför	_	_	_	_	_	_	
+8-2	410-418	upprepas	_	_	_	_	_	_	
+8-3	419-425	scenen	_	_	_	_	_	_	
+8-4	426-430	gång	_	_	_	_	_	_	
+8-5	431-433	på	_	_	_	_	_	_	
+8-6	434-438	gång	_	_	_	_	_	_	
+8-7	438-439	.	_	_	_	_	_	_	
+
+#Text=Min framsträckta hand möter hans benhårda övertygelse om att jag inte är ren nog att ta i hand.
+9-1	440-443	Min	_	_	_	_	_	_	
+9-2	444-456	framsträckta	_	_	_	_	_	_	
+9-3	457-461	hand	_	_	_	_	_	_	
+9-4	462-467	möter	_	_	_	_	_	_	
+9-5	468-472	hans	_	_	_	_	_	_	
+9-6	473-481	benhårda	_	_	_	_	_	_	
+9-7	482-493	övertygelse	_	_	_	_	_	_	
+9-8	494-496	om	_	_	_	_	_	_	
+9-9	497-500	att	_	_	_	_	_	_	
+9-10	501-504	jag	*	_	_	_	_	_	
+9-11	505-509	inte	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-12	510-512	är	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-13	513-516	ren	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-14	517-520	nog	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-15	521-524	att	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-16	525-527	ta	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-17	528-529	i	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-18	530-534	hand	_	Target;Source[1]	9-10;5-3[22]	false[1]	1[1]	_	
+9-19	534-535	.	_	_	_	_	_	_	
+
+#Text=Jag är gay, och han vet om det.
+10-1	536-539	Jag	_	_	_	_	_	_	
+10-2	540-542	är	_	_	_	_	_	_	
+10-3	543-546	gay	_	_	_	_	_	_	
+10-4	546-547	,	_	_	_	_	_	_	
+10-5	548-551	och	_	_	_	_	_	_	
+10-6	552-555	han	_	_	_	_	_	_	
+10-7	556-559	vet	_	_	_	_	_	_	
+10-8	560-562	om	_	_	_	_	_	_	
+10-9	563-566	det	_	_	_	_	_	_	
+10-10	566-567	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	569-570	#	_	_	_	_	_	_	
+11-2	570-571	P	_	_	_	_	_	_	
+11-3	572-575	IMM	_	_	_	_	_	_	
+11-4	575-576	.	_	_	_	_	_	_	
+
+#Text=Trots att jag är förberedd på det måste jag ändå kämpa med gråten och trots att jag inte vill det naggas min självkänsla i kanten.
+12-1	578-583	Trots	_	_	_	_	_	_	
+12-2	584-587	att	_	_	_	_	_	_	
+12-3	588-591	jag	_	_	_	_	_	_	
+12-4	592-594	är	_	_	_	_	_	_	
+12-5	595-604	förberedd	_	_	_	_	_	_	
+12-6	605-607	på	_	_	_	_	_	_	
+12-7	608-611	det	_	_	_	_	_	_	
+12-8	612-617	måste	_	_	_	_	_	_	
+12-9	618-621	jag	_	_	_	_	_	_	
+12-10	622-626	ändå	_	_	_	_	_	_	
+12-11	627-632	kämpa	_	_	_	_	_	_	
+12-12	633-636	med	_	_	_	_	_	_	
+12-13	637-643	gråten	_	_	_	_	_	_	
+12-14	644-647	och	_	_	_	_	_	_	
+12-15	648-653	trots	_	_	_	_	_	_	
+12-16	654-657	att	_	_	_	_	_	_	
+12-17	658-661	jag	_	_	_	_	_	_	
+12-18	662-666	inte	_	_	_	_	_	_	
+12-19	667-671	vill	_	_	_	_	_	_	
+12-20	672-675	det	_	_	_	_	_	_	
+12-21	676-682	naggas	*[24]	Target[2]	12-21[24]	false[2]	2[2]	_	
+12-22	683-686	min	*[24]	Target[2]	12-21[24]	false[2]	2[2]	_	
+12-23	687-698	självkänsla	*[24]	Target[2]	12-21[24]	false[2]	2[2]	_	
+12-24	699-700	i	*[24]	Target[2]	12-21[24]	false[2]	2[2]	_	
+12-25	701-707	kanten	*[24]	Target[2]	12-21[24]	false[2]	2[2]	_	
+12-26	707-708	.	_	_	_	_	_	_	
+
+#Text=För vem vill tillhöra en kategori som inte är fin nog att hälsas på?
+13-1	709-712	För	_	_	_	_	_	_	
+13-2	713-716	vem	_	_	_	_	_	_	
+13-3	717-721	vill	_	_	_	_	_	_	
+13-4	722-730	tillhöra	_	_	_	_	_	_	
+13-5	731-733	en	*[25]	_	_	_	_	_	
+13-6	734-742	kategori	*[25]	_	_	_	_	_	
+13-7	743-746	som	_	_	_	_	_	_	
+13-8	747-751	inte	_	Target[3]	13-5[25]	false[3]	1[3]	_	
+13-9	752-754	är	_	Target[3]	13-5[25]	false[3]	1[3]	_	
+13-10	755-758	fin	_	Target[3]	13-5[25]	false[3]	1[3]	_	
+13-11	759-762	nog	_	Target[3]	13-5[25]	false[3]	1[3]	_	
+13-12	763-766	att	_	_	_	_	_	_	
+13-13	767-773	hälsas	_	_	_	_	_	_	
+13-14	774-776	på	_	_	_	_	_	_	
+13-15	776-777	?	_	_	_	_	_	_	
+
+#Text=Vem vill utgöra den sämre av två religiöst åtskilda kategorier?.
+14-1	778-781	Vem	_	_	_	_	_	_	
+14-2	782-786	vill	_	_	_	_	_	_	
+14-3	787-793	utgöra	_	_	_	_	_	_	
+14-4	794-797	den	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-5	798-803	sämre	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-6	804-806	av	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-7	807-810	två	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-8	811-820	religiöst	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-9	821-829	åtskilda	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-10	830-840	kategorier	*[26]	Target[4]	14-4[26]	false[4]	1[4]	_	
+14-11	840-841	?	_	_	_	_	_	_	
+14-12	841-842	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	844-845	#	_	_	_	_	_	_	
+15-2	845-846	P	_	_	_	_	_	_	
+15-3	847-850	IMM	_	_	_	_	_	_	
+15-4	850-851	.	_	_	_	_	_	_	
+
+#Text=Hitintills har jag levt i en naiv övertygelse att om jag trots allt har samhället på min sida och att det är min kollega som handlar fel.
+16-1	853-863	Hitintills	_	_	_	_	_	_	
+16-2	864-867	har	_	_	_	_	_	_	
+16-3	868-871	jag	_	_	_	_	_	_	
+16-4	872-876	levt	_	_	_	_	_	_	
+16-5	877-878	i	_	_	_	_	_	_	
+16-6	879-881	en	_	_	_	_	_	_	
+16-7	882-886	naiv	_	_	_	_	_	_	
+16-8	887-898	övertygelse	_	_	_	_	_	_	
+16-9	899-902	att	_	_	_	_	_	_	
+16-10	903-905	om	_	_	_	_	_	_	
+16-11	906-909	jag	_	_	_	_	_	_	
+16-12	910-915	trots	_	_	_	_	_	_	
+16-13	916-920	allt	_	_	_	_	_	_	
+16-14	921-924	har	_	_	_	_	_	_	
+16-15	925-934	samhället	_	_	_	_	_	_	
+16-16	935-937	på	_	_	_	_	_	_	
+16-17	938-941	min	_	_	_	_	_	_	
+16-18	942-946	sida	_	_	_	_	_	_	
+16-19	947-950	och	_	_	_	_	_	_	
+16-20	951-954	att	_	_	_	_	_	_	
+16-21	955-958	det	_	_	_	_	_	_	
+16-22	959-961	är	_	_	_	_	_	_	
+16-23	962-965	min	_	_	_	_	_	_	
+16-24	966-973	kollega	_	_	_	_	_	_	
+16-25	974-977	som	_	_	_	_	_	_	
+16-26	978-985	handlar	_	_	_	_	_	_	
+16-27	986-989	fel	_	_	_	_	_	_	
+16-28	989-990	.	_	_	_	_	_	_	
+
+#Text=Jag har intalat mig att jag när som helst kan anmäla min kollega till Diskrimineringsombudsmannen, DO.
+17-1	991-994	Jag	_	_	_	_	_	_	
+17-2	995-998	har	_	_	_	_	_	_	
+17-3	999-1006	intalat	_	_	_	_	_	_	
+17-4	1007-1010	mig	_	_	_	_	_	_	
+17-5	1011-1014	att	_	_	_	_	_	_	
+17-6	1015-1018	jag	_	_	_	_	_	_	
+17-7	1019-1022	när	_	_	_	_	_	_	
+17-8	1023-1026	som	_	_	_	_	_	_	
+17-9	1027-1032	helst	_	_	_	_	_	_	
+17-10	1033-1036	kan	_	_	_	_	_	_	
+17-11	1037-1043	anmäla	_	_	_	_	_	_	
+17-12	1044-1047	min	_	_	_	_	_	_	
+17-13	1048-1055	kollega	_	_	_	_	_	_	
+17-14	1056-1060	till	_	_	_	_	_	_	
+17-15	1061-1088	Diskrimineringsombudsmannen	_	_	_	_	_	_	
+17-16	1088-1089	,	_	_	_	_	_	_	
+17-17	1090-1092	DO	_	_	_	_	_	_	
+17-18	1092-1093	.	_	_	_	_	_	_	
+
+#Text=Jag har trott att jag kan få samhällets upprättelse om jag så skulle känna behov av det.
+18-1	1094-1097	Jag	_	_	_	_	_	_	
+18-2	1098-1101	har	_	_	_	_	_	_	
+18-3	1102-1107	trott	_	_	_	_	_	_	
+18-4	1108-1111	att	_	_	_	_	_	_	
+18-5	1112-1115	jag	_	_	_	_	_	_	
+18-6	1116-1119	kan	_	_	_	_	_	_	
+18-7	1120-1122	få	_	_	_	_	_	_	
+18-8	1123-1133	samhällets	_	_	_	_	_	_	
+18-9	1134-1145	upprättelse	_	_	_	_	_	_	
+18-10	1146-1148	om	_	_	_	_	_	_	
+18-11	1149-1152	jag	_	_	_	_	_	_	
+18-12	1153-1155	så	_	_	_	_	_	_	
+18-13	1156-1162	skulle	_	_	_	_	_	_	
+18-14	1163-1168	känna	_	_	_	_	_	_	
+18-15	1169-1174	behov	_	_	_	_	_	_	
+18-16	1175-1177	av	_	_	_	_	_	_	
+18-17	1178-1181	det	_	_	_	_	_	_	
+18-18	1181-1182	.	_	_	_	_	_	_	
+
+#Text=Nu är jag mer osäker.
+19-1	1183-1185	Nu	_	_	_	_	_	_	
+19-2	1186-1188	är	_	_	_	_	_	_	
+19-3	1189-1192	jag	_	_	_	_	_	_	
+19-4	1193-1196	mer	_	_	_	_	_	_	
+19-5	1197-1203	osäker	_	_	_	_	_	_	
+19-6	1203-1204	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1206-1207	#	_	_	_	_	_	_	
+20-2	1207-1208	P	_	_	_	_	_	_	
+20-3	1209-1212	IMM	_	_	_	_	_	_	
+20-4	1212-1213	.	_	_	_	_	_	_	
+
+#Text=Jag tänker förstås på det aktuella handskakningsfallet i Älmhult.
+21-1	1215-1218	Jag	_	_	_	_	_	_	
+21-2	1219-1225	tänker	_	_	_	_	_	_	
+21-3	1226-1233	förstås	_	_	_	_	_	_	
+21-4	1234-1236	på	_	_	_	_	_	_	
+21-5	1237-1240	det	_	_	_	_	_	_	
+21-6	1241-1249	aktuella	_	_	_	_	_	_	
+21-7	1250-1269	handskakningsfallet	_	_	_	_	_	_	
+21-8	1270-1271	i	_	_	_	_	_	_	
+21-9	1272-1279	Älmhult	_	_	_	_	_	_	
+21-10	1279-1280	.	_	_	_	_	_	_	
+
+#Text=En muslimsk man vägrade ta en kvinnlig arbetsgivare i hand.
+22-1	1281-1283	En	_	_	_	_	_	_	
+22-2	1284-1292	muslimsk	_	_	_	_	_	_	
+22-3	1293-1296	man	_	_	_	_	_	_	
+22-4	1297-1304	vägrade	_	_	_	_	_	_	
+22-5	1305-1307	ta	_	_	_	_	_	_	
+22-6	1308-1310	en	_	_	_	_	_	_	
+22-7	1311-1319	kvinnlig	_	_	_	_	_	_	
+22-8	1320-1332	arbetsgivare	_	_	_	_	_	_	
+22-9	1333-1334	i	_	_	_	_	_	_	
+22-10	1335-1339	hand	_	_	_	_	_	_	
+22-11	1339-1340	.	_	_	_	_	_	_	
+
+#Text=Följden blev att mannen nekades praktikplats och när Arbetsförmedlingen sedan valde att dra in mannens aktivitetsstöd (med motiveringen att mannen genom sitt uppförande bidragit till att han nekades sin praktikplats) tog DO genast mannens parti mot kvinnan.
+23-1	1341-1348	Följden	_	_	_	_	_	_	
+23-2	1349-1353	blev	_	_	_	_	_	_	
+23-3	1354-1357	att	_	_	_	_	_	_	
+23-4	1358-1364	mannen	_	_	_	_	_	_	
+23-5	1365-1372	nekades	_	_	_	_	_	_	
+23-6	1373-1385	praktikplats	_	_	_	_	_	_	
+23-7	1386-1389	och	_	_	_	_	_	_	
+23-8	1390-1393	när	_	_	_	_	_	_	
+23-9	1394-1412	Arbetsförmedlingen	_	_	_	_	_	_	
+23-10	1413-1418	sedan	_	_	_	_	_	_	
+23-11	1419-1424	valde	_	_	_	_	_	_	
+23-12	1425-1428	att	_	_	_	_	_	_	
+23-13	1429-1432	dra	_	_	_	_	_	_	
+23-14	1433-1435	in	_	_	_	_	_	_	
+23-15	1436-1443	mannens	_	_	_	_	_	_	
+23-16	1444-1458	aktivitetsstöd	_	_	_	_	_	_	
+23-17	1459-1460	(	_	_	_	_	_	_	
+23-18	1460-1463	med	_	_	_	_	_	_	
+23-19	1464-1476	motiveringen	_	_	_	_	_	_	
+23-20	1477-1480	att	_	_	_	_	_	_	
+23-21	1481-1487	mannen	_	_	_	_	_	_	
+23-22	1488-1493	genom	_	_	_	_	_	_	
+23-23	1494-1498	sitt	_	_	_	_	_	_	
+23-24	1499-1509	uppförande	_	_	_	_	_	_	
+23-25	1510-1518	bidragit	_	_	_	_	_	_	
+23-26	1519-1523	till	_	_	_	_	_	_	
+23-27	1524-1527	att	_	_	_	_	_	_	
+23-28	1528-1531	han	_	_	_	_	_	_	
+23-29	1532-1539	nekades	_	_	_	_	_	_	
+23-30	1540-1543	sin	_	_	_	_	_	_	
+23-31	1544-1556	praktikplats	_	_	_	_	_	_	
+23-32	1556-1557	)	_	_	_	_	_	_	
+23-33	1558-1561	tog	_	_	_	_	_	_	
+23-34	1562-1564	DO	_	_	_	_	_	_	
+23-35	1565-1571	genast	_	_	_	_	_	_	
+23-36	1572-1579	mannens	_	_	_	_	_	_	
+23-37	1580-1585	parti	_	_	_	_	_	_	
+23-38	1586-1589	mot	_	_	_	_	_	_	
+23-39	1590-1597	kvinnan	_	_	_	_	_	_	
+23-40	1597-1598	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1600-1601	#	_	_	_	_	_	_	
+24-2	1601-1602	P	_	_	_	_	_	_	
+24-3	1603-1606	IMM	_	_	_	_	_	_	
+24-4	1606-1607	.	_	_	_	_	_	_	
+
+#Text=Fallet hamnade till sist i tingsrätten som fastslog att Arbetsförmedlingen agerat fel och att skadestånd på 60?
+25-1	1609-1615	Fallet	_	_	_	_	_	_	
+25-2	1616-1623	hamnade	_	_	_	_	_	_	
+25-3	1624-1628	till	_	_	_	_	_	_	
+25-4	1629-1633	sist	_	_	_	_	_	_	
+25-5	1634-1635	i	_	_	_	_	_	_	
+25-6	1636-1647	tingsrätten	_	_	_	_	_	_	
+25-7	1648-1651	som	_	_	_	_	_	_	
+25-8	1652-1660	fastslog	_	_	_	_	_	_	
+25-9	1661-1664	att	_	_	_	_	_	_	
+25-10	1665-1683	Arbetsförmedlingen	_	_	_	_	_	_	
+25-11	1684-1690	agerat	_	_	_	_	_	_	
+25-12	1691-1694	fel	_	_	_	_	_	_	
+25-13	1695-1698	och	_	_	_	_	_	_	
+25-14	1699-1702	att	_	_	_	_	_	_	
+25-15	1703-1713	skadestånd	_	_	_	_	_	_	
+25-16	1714-1716	på	_	_	_	_	_	_	
+25-17	1717-1719	60	_	_	_	_	_	_	
+25-18	1719-1720	?	_	_	_	_	_	_	
+
+#Text=000 kronor skulle betalas ut till mannen som inte ville ta en kvinnlig chef i hand.
+26-1	1720-1723	000	_	_	_	_	_	_	
+26-2	1724-1730	kronor	_	_	_	_	_	_	
+26-3	1731-1737	skulle	_	_	_	_	_	_	
+26-4	1738-1745	betalas	_	_	_	_	_	_	
+26-5	1746-1748	ut	_	_	_	_	_	_	
+26-6	1749-1753	till	_	_	_	_	_	_	
+26-7	1754-1760	mannen	_	_	_	_	_	_	
+26-8	1761-1764	som	_	_	_	_	_	_	
+26-9	1765-1769	inte	_	_	_	_	_	_	
+26-10	1770-1775	ville	_	_	_	_	_	_	
+26-11	1776-1778	ta	_	_	_	_	_	_	
+26-12	1779-1781	en	_	_	_	_	_	_	
+26-13	1782-1790	kvinnlig	_	_	_	_	_	_	
+26-14	1791-1795	chef	_	_	_	_	_	_	
+26-15	1796-1797	i	_	_	_	_	_	_	
+26-16	1798-1802	hand	_	_	_	_	_	_	
+26-17	1802-1803	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1805-1806	#	_	_	_	_	_	_	
+27-2	1806-1807	P	_	_	_	_	_	_	
+27-3	1808-1811	IMM	_	_	_	_	_	_	
+27-4	1811-1812	.	_	_	_	_	_	_	
+
+#Text=Diskrimineringsombudsmannen Katri Linna välkomnade tingsrättens dom: ”Det är orimligt att beröva en person hans försörjning för att hans religion föreskriver ett visst sätt att hälsa.
+28-1	1814-1841	Diskrimineringsombudsmannen	*[27]	_	_	_	_	_	
+28-2	1842-1847	Katri	*[27]	_	_	_	_	_	
+28-3	1848-1853	Linna	*[27]	_	_	_	_	_	
+28-4	1854-1864	välkomnade	_	Source;Target	28-1[27];28-5[28]	false	4	_	
+28-5	1865-1877	tingsrättens	*[28]	_	_	_	_	_	
+28-6	1878-1881	dom	*[28]	_	_	_	_	_	
+28-7	1881-1882	:	_	_	_	_	_	_	
+28-8	1883-1884	”	_	_	_	_	_	_	
+28-9	1884-1887	Det	_	Target;Source[5]	28-12[29];28-1[27]	false[5]	1[5]	_	
+28-10	1888-1890	är	_	Target;Source[5]	28-12[29];28-1[27]	false[5]	1[5]	_	
+28-11	1891-1899	orimligt	_	Target;Source[5]	28-12[29];28-1[27]	false[5]	1[5]	_	
+28-12	1900-1903	att	*[29]	_	_	_	_	_	
+28-13	1904-1910	beröva	*[29]	_	_	_	_	_	
+28-14	1911-1913	en	*[29]	_	_	_	_	_	
+28-15	1914-1920	person	*[29]	_	_	_	_	_	
+28-16	1921-1925	hans	*[29]	_	_	_	_	_	
+28-17	1926-1937	försörjning	*[29]	_	_	_	_	_	
+28-18	1938-1941	för	*[29]	_	_	_	_	_	
+28-19	1942-1945	att	*[29]	_	_	_	_	_	
+28-20	1946-1950	hans	*[29]	_	_	_	_	_	
+28-21	1951-1959	religion	*[29]	_	_	_	_	_	
+28-22	1960-1971	föreskriver	*[29]	_	_	_	_	_	
+28-23	1972-1975	ett	*[29]	_	_	_	_	_	
+28-24	1976-1981	visst	*[29]	_	_	_	_	_	
+28-25	1982-1986	sätt	*[29]	_	_	_	_	_	
+28-26	1987-1990	att	*[29]	_	_	_	_	_	
+28-27	1991-1996	hälsa	*[29]	_	_	_	_	_	
+28-28	1996-1997	.	_	_	_	_	_	_	
+
+#Text=Sverige är ett mångkulturellt land och vi måste se att det finns flera olika sätt att visa varandra respekt på än att skaka hand.”.
+29-1	1998-2005	Sverige	_	_	_	_	_	_	
+29-2	2006-2008	är	_	_	_	_	_	_	
+29-3	2009-2012	ett	_	_	_	_	_	_	
+29-4	2013-2027	mångkulturellt	_	_	_	_	_	_	
+29-5	2028-2032	land	_	_	_	_	_	_	
+29-6	2033-2036	och	_	_	_	_	_	_	
+29-7	2037-2039	vi	_	_	_	_	_	_	
+29-8	2040-2045	måste	_	_	_	_	_	_	
+29-9	2046-2048	se	_	_	_	_	_	_	
+29-10	2049-2052	att	_	_	_	_	_	_	
+29-11	2053-2056	det	_	_	_	_	_	_	
+29-12	2057-2062	finns	_	_	_	_	_	_	
+29-13	2063-2068	flera	_	_	_	_	_	_	
+29-14	2069-2074	olika	_	_	_	_	_	_	
+29-15	2075-2079	sätt	_	_	_	_	_	_	
+29-16	2080-2083	att	_	_	_	_	_	_	
+29-17	2084-2088	visa	*[30]	Target[6]	29-17[30]	false[6]	4[6]	_	
+29-18	2089-2097	varandra	*[30]	Target[6]	29-17[30]	false[6]	4[6]	_	
+29-19	2098-2105	respekt	*[30]	Target[6]	29-17[30]	false[6]	4[6]	_	
+29-20	2106-2108	på	_	_	_	_	_	_	
+29-21	2109-2111	än	_	_	_	_	_	_	
+29-22	2112-2115	att	_	_	_	_	_	_	
+29-23	2116-2121	skaka	_	_	_	_	_	_	
+29-24	2122-2126	hand	_	_	_	_	_	_	
+29-25	2126-2127	.	_	_	_	_	_	_	
+29-26	2127-2128	”	_	_	_	_	_	_	
+29-27	2128-2129	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2131-2132	#	_	_	_	_	_	_	
+30-2	2132-2133	P	_	_	_	_	_	_	
+30-3	2134-2137	IMM	_	_	_	_	_	_	
+30-4	2137-2138	.	_	_	_	_	_	_	
+
+#Text=För mig känns Katri Linnas ord som ett slag i ansiktet.
+31-1	2140-2143	För	_	_	_	false	1	_	
+31-2	2144-2147	mig	*	_	_	_	_	_	
+31-3	2148-2153	känns	_	_	_	false	1	31-1	
+31-4	2154-2159	Katri	*[31]	_	_	_	_	_	
+31-5	2160-2166	Linnas	*[31]	_	_	_	_	_	
+31-6	2167-2170	ord	*[31]	_	_	_	_	_	
+31-7	2171-2174	som	_	Target;Source[7]	31-4[31];31-2	false[7]	1[7]	31-3[0_7]	
+31-8	2175-2178	ett	_	Target;Source[7]	31-4[31];31-2	false[7]	1[7]	_	
+31-9	2179-2183	slag	_	Target;Source[7]	31-4[31];31-2	false[7]	1[7]	_	
+31-10	2184-2185	i	_	Target;Source[7]	31-4[31];31-2	false[7]	1[7]	_	
+31-11	2186-2194	ansiktet	_	Target;Source[7]	31-4[31];31-2	false[7]	1[7]	_	
+31-12	2194-2195	.	_	_	_	_	_	_	
+
+#Text=Jag kan inte undgå att tolka hennes uttalanden i förhållande till min egen situation som homosexuell präst.
+32-1	2196-2199	Jag	_	_	_	_	_	_	
+32-2	2200-2203	kan	_	_	_	_	_	_	
+32-3	2204-2208	inte	_	_	_	_	_	_	
+32-4	2209-2214	undgå	_	_	_	_	_	_	
+32-5	2215-2218	att	_	_	_	_	_	_	
+32-6	2219-2224	tolka	_	_	_	_	_	_	
+32-7	2225-2231	hennes	_	_	_	_	_	_	
+32-8	2232-2242	uttalanden	_	_	_	_	_	_	
+32-9	2243-2244	i	_	_	_	_	_	_	
+32-10	2245-2256	förhållande	_	_	_	_	_	_	
+32-11	2257-2261	till	_	_	_	_	_	_	
+32-12	2262-2265	min	_	_	_	_	_	_	
+32-13	2266-2270	egen	_	_	_	_	_	_	
+32-14	2271-2280	situation	_	_	_	_	_	_	
+32-15	2281-2284	som	_	_	_	_	_	_	
+32-16	2285-2296	homosexuell	_	_	_	_	_	_	
+32-17	2297-2302	präst	_	_	_	_	_	_	
+32-18	2302-2303	.	_	_	_	_	_	_	
+
+#Text=Ska jag alltså vara nöjd med att en kollega är god nog att le förbindligt och nicka till hälsning mot mig?
+33-1	2304-2307	Ska	_	_	_	_	_	_	
+33-2	2308-2311	jag	_	_	_	_	_	_	
+33-3	2312-2318	alltså	_	_	_	_	_	_	
+33-4	2319-2323	vara	_	Target[8]	33-7[32]	false[8]	3[8]	_	
+33-5	2324-2328	nöjd	_	Target[8]	33-7[32]	false[8]	3[8]	_	
+33-6	2329-2332	med	_	Target[8]	33-7[32]	false[8]	3[8]	_	
+33-7	2333-2336	att	*[32]	_	_	_	_	_	
+33-8	2337-2339	en	*[32]	_	_	_	_	_	
+33-9	2340-2347	kollega	*[32]	_	_	_	_	_	
+33-10	2348-2350	är	*[32]	_	_	_	_	_	
+33-11	2351-2354	god	*[32]	_	_	_	_	_	
+33-12	2355-2358	nog	*[32]	_	_	_	_	_	
+33-13	2359-2362	att	*[32]	_	_	_	_	_	
+33-14	2363-2365	le	*[32]	_	_	_	_	_	
+33-15	2366-2377	förbindligt	*[32]	_	_	_	_	_	
+33-16	2378-2381	och	*[32]	_	_	_	_	_	
+33-17	2382-2387	nicka	*[32]	_	_	_	_	_	
+33-18	2388-2392	till	*[32]	_	_	_	_	_	
+33-19	2393-2401	hälsning	*[32]	_	_	_	_	_	
+33-20	2402-2405	mot	*[32]	_	_	_	_	_	
+33-21	2406-2409	mig	*[32]	_	_	_	_	_	
+33-22	2409-2410	?	_	_	_	_	_	_	
+
+#Text=Innebär det att visa mig respekt, när jag samtidigt vet att samme präst tar alla andra (heterosexuella) kollegor i handen när han hälsar?.
+34-1	2411-2418	Innebär	_	_	_	_	_	_	
+34-2	2419-2422	det	_	_	_	_	_	_	
+34-3	2423-2426	att	_	_	_	_	_	_	
+34-4	2427-2431	visa	_	_	_	false	4	_	
+34-5	2432-2435	mig	*	_	_	_	_	_	
+34-6	2436-2443	respekt	_	Target	34-5	false	4	34-4	
+34-7	2443-2444	,	_	_	_	_	_	_	
+34-8	2445-2448	när	_	_	_	_	_	_	
+34-9	2449-2452	jag	_	_	_	_	_	_	
+34-10	2453-2462	samtidigt	_	_	_	_	_	_	
+34-11	2463-2466	vet	_	_	_	_	_	_	
+34-12	2467-2470	att	_	_	_	_	_	_	
+34-13	2471-2476	samme	_	_	_	_	_	_	
+34-14	2477-2482	präst	_	_	_	_	_	_	
+34-15	2483-2486	tar	_	_	_	_	_	_	
+34-16	2487-2491	alla	_	_	_	_	_	_	
+34-17	2492-2497	andra	_	_	_	_	_	_	
+34-18	2498-2499	(	_	_	_	_	_	_	
+34-19	2499-2513	heterosexuella	_	_	_	_	_	_	
+34-20	2513-2514	)	_	_	_	_	_	_	
+34-21	2515-2523	kollegor	_	_	_	_	_	_	
+34-22	2524-2525	i	_	_	_	_	_	_	
+34-23	2526-2532	handen	_	_	_	_	_	_	
+34-24	2533-2536	när	_	_	_	_	_	_	
+34-25	2537-2540	han	_	_	_	_	_	_	
+34-26	2541-2547	hälsar	_	_	_	_	_	_	
+34-27	2547-2548	?	_	_	_	_	_	_	
+34-28	2548-2549	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2551-2552	#	_	_	_	_	_	_	
+35-2	2552-2553	P	_	_	_	_	_	_	
+35-3	2554-2557	IMM	_	_	_	_	_	_	
+35-4	2557-2558	.	_	_	_	_	_	_	
+
+#Text=Jag tycker det är uppenbart att DO biter sig själv i svansen.
+36-1	2560-2563	Jag	_	_	_	_	_	_	
+36-2	2564-2570	tycker	_	_	_	_	_	_	
+36-3	2571-2574	det	_	_	_	_	_	_	
+36-4	2575-2577	är	_	_	_	_	_	_	
+36-5	2578-2587	uppenbart	_	_	_	_	_	_	
+36-6	2588-2591	att	_	_	_	_	_	_	
+36-7	2592-2594	DO	*	_	_	_	_	_	
+36-8	2595-2600	biter	_	Target[9]	36-7	false[9]	2[9]	_	
+36-9	2601-2604	sig	_	Target[9]	36-7	false[9]	2[9]	_	
+36-10	2605-2610	själv	_	Target[9]	36-7	false[9]	2[9]	_	
+36-11	2611-2612	i	_	Target[9]	36-7	false[9]	2[9]	_	
+36-12	2613-2620	svansen	_	Target[9]	36-7	false[9]	2[9]	_	
+36-13	2620-2621	.	_	_	_	_	_	_	
+
+#Text=Katri Linna vill skydda en muslimsk man mot diskriminering och välkomnar därmed ett agerande som i praktiken medför diskriminering av kvinnor.
+37-1	2622-2627	Katri	*[33]	_	_	_	_	_	
+37-2	2628-2633	Linna	*[33]	_	_	_	_	_	
+37-3	2634-2638	vill	_	_	_	_	_	_	
+37-4	2639-2645	skydda	_	_	_	false	4	_	
+37-5	2646-2648	en	*[34]	_	_	_	_	_	
+37-6	2649-2657	muslimsk	*[34]	_	_	_	_	_	
+37-7	2658-2661	man	*[34]	_	_	_	_	_	
+37-8	2662-2665	mot	_	Source;Target[10]	37-1[33];37-5[34]	false[10]	4[10]	37-4[0_10]	
+37-9	2666-2680	diskriminering	_	Source;Target[10]	37-1[33];37-5[34]	false[10]	4[10]	_	
+37-10	2681-2684	och	_	_	_	_	_	_	
+37-11	2685-2694	välkomnar	_	Source;Target	37-1[33];37-13[35]	false	4	_	
+37-12	2695-2701	därmed	_	_	_	_	_	_	
+37-13	2702-2705	ett	*[35]	_	_	_	_	_	
+37-14	2706-2714	agerande	*[35]	_	_	_	_	_	
+37-15	2715-2718	som	*[35]	_	_	_	_	_	
+37-16	2719-2720	i	*[35]	_	_	_	_	_	
+37-17	2721-2730	praktiken	*[35]	_	_	_	_	_	
+37-18	2731-2737	medför	*[35]	_	_	_	_	_	
+37-19	2738-2752	diskriminering	*[35]	_	_	_	_	_	
+37-20	2753-2755	av	*[35]	_	_	_	_	_	
+37-21	2756-2763	kvinnor	*[35]	_	_	_	_	_	
+37-22	2763-2764	.	_	_	_	_	_	_	
+
+#Text=Och vi vet att i förlängningen av det nu aktuella handskakningsfallet följer även att samhället måste acceptera religiöst motiverad diskriminering av homosexuella (när det gäller sättet att hälsa och ta i hand).
+38-1	2765-2768	Och	_	_	_	_	_	_	
+38-2	2769-2771	vi	_	_	_	_	_	_	
+38-3	2772-2775	vet	_	_	_	_	_	_	
+38-4	2776-2779	att	_	_	_	_	_	_	
+38-5	2780-2781	i	_	_	_	_	_	_	
+38-6	2782-2795	förlängningen	_	_	_	_	_	_	
+38-7	2796-2798	av	_	_	_	_	_	_	
+38-8	2799-2802	det	_	_	_	_	_	_	
+38-9	2803-2805	nu	_	_	_	_	_	_	
+38-10	2806-2814	aktuella	_	_	_	_	_	_	
+38-11	2815-2834	handskakningsfallet	_	_	_	_	_	_	
+38-12	2835-2841	följer	_	_	_	_	_	_	
+38-13	2842-2846	även	_	_	_	_	_	_	
+38-14	2847-2850	att	_	_	_	_	_	_	
+38-15	2851-2860	samhället	*	_	_	_	_	_	
+38-16	2861-2866	måste	_	Source;Target[11]	38-15;38-18[36]	false[11]	3[11]	_	
+38-17	2867-2876	acceptera	_	Source;Target[11]	38-15;38-18[36]	false[11]	3[11]	_	
+38-18	2877-2886	religiöst	*[36]	_	_	_	_	_	
+38-19	2887-2896	motiverad	*[36]	_	_	_	_	_	
+38-20	2897-2911	diskriminering	*[36]	_	_	_	_	_	
+38-21	2912-2914	av	*[36]	_	_	_	_	_	
+38-22	2915-2927	homosexuella	*[36]	_	_	_	_	_	
+38-23	2928-2929	(	_	_	_	_	_	_	
+38-24	2929-2932	när	_	_	_	_	_	_	
+38-25	2933-2936	det	_	_	_	_	_	_	
+38-26	2937-2943	gäller	_	_	_	_	_	_	
+38-27	2944-2950	sättet	_	_	_	_	_	_	
+38-28	2951-2954	att	_	_	_	_	_	_	
+38-29	2955-2960	hälsa	_	_	_	_	_	_	
+38-30	2961-2964	och	_	_	_	_	_	_	
+38-31	2965-2967	ta	_	_	_	_	_	_	
+38-32	2968-2969	i	_	_	_	_	_	_	
+38-33	2970-2974	hand	_	_	_	_	_	_	
+38-34	2974-2975	)	_	_	_	_	_	_	
+38-35	2975-2976	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2978-2979	#	_	_	_	_	_	_	
+39-2	2979-2980	P	_	_	_	_	_	_	
+39-3	2981-2984	IMM	_	_	_	_	_	_	
+39-4	2984-2985	.	_	_	_	_	_	_	
+
+#Text=Tidigare hade vi homosexuella HomO att vända oss till när vi blev diskriminerade.
+40-1	2987-2995	Tidigare	_	_	_	_	_	_	
+40-2	2996-3000	hade	_	_	_	_	_	_	
+40-3	3001-3003	vi	_	_	_	_	_	_	
+40-4	3004-3016	homosexuella	_	_	_	_	_	_	
+40-5	3017-3021	HomO	_	_	_	_	_	_	
+40-6	3022-3025	att	_	_	_	_	_	_	
+40-7	3026-3031	vända	_	_	_	_	_	_	
+40-8	3032-3035	oss	_	_	_	_	_	_	
+40-9	3036-3040	till	_	_	_	_	_	_	
+40-10	3041-3044	när	_	_	_	_	_	_	
+40-11	3045-3047	vi	*	_	_	_	_	_	
+40-12	3048-3052	blev	_	_	_	_	_	_	
+40-13	3053-3067	diskriminerade	_	Source;Target	40-14;40-11	false	1	_	
+40-14	3067-3068	.	*	_	_	_	_	_	
+
+#Text=Och kvinnorna hade JämO.
+41-1	3069-3072	Och	_	_	_	_	_	_	
+41-2	3073-3082	kvinnorna	_	_	_	_	_	_	
+41-3	3083-3087	hade	_	_	_	_	_	_	
+41-4	3088-3092	JämO	_	_	_	_	_	_	
+41-5	3092-3093	.	_	_	_	_	_	_	
+
+#Text=Nu har såväl HomO som JämO sugits upp i megamyndigheten DO.
+42-1	3094-3096	Nu	_	_	_	_	_	_	
+42-2	3097-3100	har	_	_	_	_	_	_	
+42-3	3101-3106	såväl	_	_	_	_	_	_	
+42-4	3107-3111	HomO	_	_	_	_	_	_	
+42-5	3112-3115	som	_	_	_	_	_	_	
+42-6	3116-3120	JämO	_	_	_	_	_	_	
+42-7	3121-3127	sugits	_	_	_	_	_	_	
+42-8	3128-3131	upp	_	_	_	_	_	_	
+42-9	3132-3133	i	_	_	_	_	_	_	
+42-10	3134-3149	megamyndigheten	_	_	_	_	_	_	
+42-11	3150-3152	DO	_	_	_	_	_	_	
+42-12	3152-3153	.	_	_	_	_	_	_	
+
+#Text=Och frågan är vilken tillit homosexuella, och kvinnor, ska kunna känna inför Diskrimineringsombudsmannen efter det nu aktuella handskakningsfallet.
+43-1	3154-3157	Och	_	_	_	_	_	_	
+43-2	3158-3164	frågan	_	_	_	_	_	_	
+43-3	3165-3167	är	_	_	_	_	_	_	
+43-4	3168-3174	vilken	_	_	_	_	_	_	
+43-5	3175-3181	tillit	_	_	_	_	_	_	
+43-6	3182-3194	homosexuella	_	_	_	_	_	_	
+43-7	3194-3195	,	_	_	_	_	_	_	
+43-8	3196-3199	och	_	_	_	_	_	_	
+43-9	3200-3207	kvinnor	_	_	_	_	_	_	
+43-10	3207-3208	,	_	_	_	_	_	_	
+43-11	3209-3212	ska	_	_	_	_	_	_	
+43-12	3213-3218	kunna	_	_	_	_	_	_	
+43-13	3219-3224	känna	_	_	_	_	_	_	
+43-14	3225-3230	inför	_	_	_	_	_	_	
+43-15	3231-3258	Diskrimineringsombudsmannen	_	_	_	_	_	_	
+43-16	3259-3264	efter	_	_	_	_	_	_	
+43-17	3265-3268	det	_	_	_	_	_	_	
+43-18	3269-3271	nu	_	_	_	_	_	_	
+43-19	3272-3280	aktuella	_	_	_	_	_	_	
+43-20	3281-3300	handskakningsfallet	_	_	_	_	_	_	
+43-21	3300-3301	.	_	_	_	_	_	_	
+
+#Text=Det är hög tid för Katri Linna och DO att ge landets kvinnor och homosexuella ett besked.
+44-1	3302-3305	Det	_	_	_	_	_	_	
+44-2	3306-3308	är	_	_	_	_	_	_	
+44-3	3309-3312	hög	_	_	_	_	_	_	
+44-4	3313-3316	tid	_	_	_	_	_	_	
+44-5	3317-3320	för	_	_	_	_	_	_	
+44-6	3321-3326	Katri	_	_	_	_	_	_	
+44-7	3327-3332	Linna	_	_	_	_	_	_	
+44-8	3333-3336	och	_	_	_	_	_	_	
+44-9	3337-3339	DO	_	_	_	_	_	_	
+44-10	3340-3343	att	_	_	_	_	_	_	
+44-11	3344-3346	ge	_	_	_	_	_	_	
+44-12	3347-3354	landets	_	_	_	_	_	_	
+44-13	3355-3362	kvinnor	_	_	_	_	_	_	
+44-14	3363-3366	och	_	_	_	_	_	_	
+44-15	3367-3379	homosexuella	_	_	_	_	_	_	
+44-16	3380-3383	ett	_	_	_	_	_	_	
+44-17	3384-3390	besked	_	_	_	_	_	_	
+44-18	3390-3391	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3393-3394	#	_	_	_	_	_	_	
+45-2	3394-3395	P	_	_	_	_	_	_	
+45-3	3396-3399	IMM	_	_	_	_	_	_	
+45-4	3399-3400	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+46-1	3402-3407	FAKTA	_	_	_	_	_	_	
+46-2	3407-3408	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3410-3411	#	_	_	_	_	_	_	
+47-2	3411-3412	P	_	_	_	_	_	_	
+47-3	3413-3416	IMM	_	_	_	_	_	_	
+47-4	3416-3417	.	_	_	_	_	_	_	
+
+#Text=Bloggat om handskakningsdomen.
+48-1	3419-3426	Bloggat	_	_	_	_	_	_	
+48-2	3427-3429	om	_	_	_	_	_	_	
+48-3	3430-3448	handskakningsdomen	_	_	_	_	_	_	
+48-4	3448-3449	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3451-3452	#	_	_	_	_	_	_	
+49-2	3452-3453	P	_	_	_	_	_	_	
+49-3	3454-3457	IMM	_	_	_	_	_	_	
+49-4	3457-3458	.	_	_	_	_	_	_	
+
+#Text=Fritt fram för muslimhets.
+50-1	3460-3465	Fritt	_	_	_	_	_	_	
+50-2	3466-3470	fram	_	_	_	_	_	_	
+50-3	3471-3474	för	_	_	_	_	_	_	
+50-4	3475-3485	muslimhets	_	_	_	_	_	_	
+50-5	3485-3486	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3488-3489	#	_	_	_	_	_	_	
+51-2	3489-3490	P	_	_	_	_	_	_	
+51-3	3491-3494	IMM	_	_	_	_	_	_	
+51-4	3494-3495	.	_	_	_	_	_	_	
+
+#Text=Ali Esbati (V) skriver: ”Driven av högerpopulistiska instinkter passar [folkpartisten Mathias Sundin] på att lufta lite tidstypisk muslimhets och demonisera en enskild person som - nu också enligt tingsrätten - utsatts för diskriminerande behandling.
+52-1	3497-3500	Ali	*[37]	_	_	_	_	_	
+52-2	3501-3507	Esbati	*[37]	_	_	_	_	_	
+52-3	3508-3509	(	_	_	_	_	_	_	
+52-4	3509-3510	V	_	_	_	_	_	_	
+52-5	3510-3511	)	_	_	_	_	_	_	
+52-6	3512-3519	skriver	_	_	_	_	_	_	
+52-7	3519-3520	:	_	_	_	_	_	_	
+52-8	3521-3522	”	_	_	_	_	_	_	
+52-9	3522-3528	Driven	_	_	_	_	_	_	
+52-10	3529-3531	av	_	_	_	_	_	_	
+52-11	3532-3549	högerpopulistiska	*	Target	52-11	false	1	_	
+52-12	3550-3560	instinkter	_	_	_	_	_	_	
+52-13	3561-3567	passar	_	_	_	_	_	_	
+52-14	3568-3569	[	_	_	_	_	_	_	
+52-15	3569-3582	folkpartisten	_	_	_	_	_	_	
+52-16	3583-3590	Mathias	_	_	_	_	_	_	
+52-17	3591-3597	Sundin	_	_	_	_	_	_	
+52-18	3597-3598	]	_	_	_	_	_	_	
+52-19	3599-3601	på	_	_	_	_	_	_	
+52-20	3602-3605	att	_	_	_	_	_	_	
+52-21	3606-3611	lufta	_	_	_	_	_	_	
+52-22	3612-3616	lite	_	_	_	_	_	_	
+52-23	3617-3627	tidstypisk	_	_	_	_	_	_	
+52-24	3628-3638	muslimhets	*	Target	52-24	false	1	_	
+52-25	3639-3642	och	_	_	_	_	_	_	
+52-26	3643-3653	demonisera	_	Target;Source	52-27[38];52-1[37]	false	1	_	
+52-27	3654-3656	en	*[38]	_	_	_	_	_	
+52-28	3657-3664	enskild	*[38]	_	_	_	_	_	
+52-29	3665-3671	person	*[38]	_	_	_	_	_	
+52-30	3672-3675	som	*[38]	_	_	_	_	_	
+52-31	3676-3677	-	*[38]	_	_	_	_	_	
+52-32	3678-3680	nu	*[38]	_	_	_	_	_	
+52-33	3681-3686	också	*[38]	_	_	_	_	_	
+52-34	3687-3693	enligt	*[38]	_	_	_	_	_	
+52-35	3694-3705	tingsrätten	*[38]	_	_	_	_	_	
+52-36	3706-3707	-	*[38]	_	_	_	_	_	
+52-37	3708-3715	utsatts	*[38]	_	_	_	_	_	
+52-38	3716-3719	för	*[38]	_	_	_	_	_	
+52-39	3720-3735	diskriminerande	*[38]	_	_	_	_	_	
+52-40	3736-3746	behandling	*[38]	_	_	_	_	_	
+52-41	3746-3747	.	_	_	_	_	_	_	
+
+#Text=Muslimer ska alltså med hot om indragna sociala rättigheter kunna utsättas för uppfostrande förnedring.
+53-1	3748-3756	Muslimer	*	_	_	_	_	_	
+53-2	3757-3760	ska	_	_	_	_	_	_	
+53-3	3761-3767	alltså	_	_	_	_	_	_	
+53-4	3768-3771	med	_	_	_	_	_	_	
+53-5	3772-3775	hot	*[39]	Target[12]	53-5[39]	false[12]	1[12]	_	
+53-6	3776-3778	om	*[39]	Target[12]	53-5[39]	false[12]	1[12]	_	
+53-7	3779-3787	indragna	*[39]	Target[12]	53-5[39]	false[12]	1[12]	_	
+53-8	3788-3795	sociala	*[39]	Target[12]	53-5[39]	false[12]	1[12]	_	
+53-9	3796-3807	rättigheter	*[39]	Target[12]	53-5[39]	false[12]	1[12]	_	
+53-10	3808-3813	kunna	_	_	_	_	_	_	
+53-11	3814-3822	utsättas	_	Target[13]	53-1	false[13]	1[13]	_	
+53-12	3823-3826	för	_	Target[13]	53-1	false[13]	1[13]	_	
+53-13	3827-3839	uppfostrande	_	Target[13]	53-1	false[13]	1[13]	_	
+53-14	3840-3850	förnedring	_	Target[13]	53-1	false[13]	1[13]	_	
+53-15	3850-3851	.	_	_	_	_	_	_	
+
+#Text=Här gäller det att med lagens hjälp tvingas hälsa genom just handskakning - om man är muslim i en underordnad social position.”.
+54-1	3852-3855	Här	_	_	_	_	_	_	
+54-2	3856-3862	gäller	_	_	_	_	_	_	
+54-3	3863-3866	det	_	_	_	_	_	_	
+54-4	3867-3870	att	_	_	_	_	_	_	
+54-5	3871-3874	med	_	_	_	_	_	_	
+54-6	3875-3881	lagens	_	_	_	_	_	_	
+54-7	3882-3887	hjälp	_	_	_	_	_	_	
+54-8	3888-3895	tvingas	_	_	_	_	_	_	
+54-9	3896-3901	hälsa	_	_	_	_	_	_	
+54-10	3902-3907	genom	_	_	_	_	_	_	
+54-11	3908-3912	just	_	_	_	_	_	_	
+54-12	3913-3925	handskakning	_	_	_	_	_	_	
+54-13	3926-3927	-	_	_	_	_	_	_	
+54-14	3928-3930	om	_	_	_	_	_	_	
+54-15	3931-3934	man	_	_	_	_	_	_	
+54-16	3935-3937	är	_	_	_	_	_	_	
+54-17	3938-3944	muslim	_	_	_	_	_	_	
+54-18	3945-3946	i	_	_	_	_	_	_	
+54-19	3947-3949	en	*[40]	Target[14]	54-19[40]	false[14]	1[14]	_	
+54-20	3950-3961	underordnad	*[40]	Target[14]	54-19[40]	false[14]	1[14]	_	
+54-21	3962-3968	social	*[40]	Target[14]	54-19[40]	false[14]	1[14]	_	
+54-22	3969-3977	position	*[40]	Target[14]	54-19[40]	false[14]	1[14]	_	
+54-23	3977-3978	.	_	_	_	_	_	_	
+54-24	3978-3979	”	_	_	_	_	_	_	
+54-25	3979-3980	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3982-3983	#	_	_	_	_	_	_	
+55-2	3983-3984	P	_	_	_	_	_	_	
+55-3	3985-3988	IMM	_	_	_	_	_	_	
+55-4	3988-3989	.	_	_	_	_	_	_	
+
+#Text=Absurd dom.
+56-1	3991-3997	Absurd	_	Target	56-2	false	1	_	
+56-2	3998-4001	dom	*	_	_	_	_	_	
+56-3	4001-4002	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4004-4005	#	_	_	_	_	_	_	
+57-2	4005-4006	P	_	_	_	_	_	_	
+57-3	4007-4010	IMM	_	_	_	_	_	_	
+57-4	4010-4011	.	_	_	_	_	_	_	
+
+#Text=Maria Wickberg (C) skriver: ”Rätten att utöva sin religion innebär inte rätten att diskriminera andra.
+58-1	4013-4018	Maria	_	_	_	_	_	_	
+58-2	4019-4027	Wickberg	_	_	_	_	_	_	
+58-3	4028-4029	(	_	_	_	_	_	_	
+58-4	4029-4030	C	_	_	_	_	_	_	
+58-5	4030-4031	)	_	_	_	_	_	_	
+58-6	4032-4039	skriver	_	_	_	_	_	_	
+58-7	4039-4040	:	_	_	_	_	_	_	
+58-8	4041-4042	”	_	_	_	_	_	_	
+58-9	4042-4048	Rätten	_	_	_	_	_	_	
+58-10	4049-4052	att	_	_	_	_	_	_	
+58-11	4053-4058	utöva	_	_	_	_	_	_	
+58-12	4059-4062	sin	_	_	_	_	_	_	
+58-13	4063-4071	religion	_	_	_	_	_	_	
+58-14	4072-4079	innebär	_	_	_	_	_	_	
+58-15	4080-4084	inte	_	_	_	_	_	_	
+58-16	4085-4091	rätten	_	_	_	_	_	_	
+58-17	4092-4095	att	_	_	_	_	_	_	
+58-18	4096-4108	diskriminera	_	Target	58-19	false	1	_	
+58-19	4109-4114	andra	*	_	_	_	_	_	
+58-20	4114-4115	.	_	_	_	_	_	_	
+
+#Text=Det är ett helt absurt domslut, som inte gör annat än att springa Sverigedemokraternas ärenden.”.
+59-1	4116-4119	Det	_	_	_	_	_	_	
+59-2	4120-4122	är	_	_	_	_	_	_	
+59-3	4123-4126	ett	_	Target[15]	59-6	false[15]	1[15]	_	
+59-4	4127-4131	helt	_	Target[15]	59-6	false[15]	1[15]	_	
+59-5	4132-4138	absurt	_	Target[15]	59-6	false[15]	1[15]	_	
+59-6	4139-4146	domslut	*	_	_	_	_	_	
+59-7	4146-4147	,	_	_	_	_	_	_	
+59-8	4148-4151	som	_	_	_	_	_	_	
+59-9	4152-4156	inte	_	_	_	_	_	_	
+59-10	4157-4160	gör	_	_	_	_	_	_	
+59-11	4161-4166	annat	_	_	_	_	_	_	
+59-12	4167-4169	än	_	_	_	_	_	_	
+59-13	4170-4173	att	_	_[16]	_	false[16]	1[16]	_	
+59-14	4174-4181	springa	_	_[16]	_	false[16]	1[16]	_	
+59-15	4182-4202	Sverigedemokraternas	*	_	_	_	_	_	
+59-16	4203-4210	ärenden	_	Target	59-15	false	1	59-13[16_0]	
+59-17	4210-4211	.	_	_	_	_	_	_	
+59-18	4211-4212	”	_	_	_	_	_	_	
+59-19	4212-4213	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4215-4216	#	_	_	_	_	_	_	
+60-2	4216-4217	P	_	_	_	_	_	_	
+60-3	4218-4221	IMM	_	_	_	_	_	_	
+60-4	4221-4222	.	_	_	_	_	_	_	
+
+#Text=Jämställdhet ligger inte i handslaget.
+61-1	4224-4236	Jämställdhet	_	_	_	_	_	_	
+61-2	4237-4243	ligger	_	_	_	_	_	_	
+61-3	4244-4248	inte	_	_	_	_	_	_	
+61-4	4249-4250	i	_	_	_	_	_	_	
+61-5	4251-4261	handslaget	_	_	_	_	_	_	
+61-6	4261-4262	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Liksom när Carl Hamilton blev bestört över att de två tjejerna från Halal-TV inte ville skaka hand med honom undrar jag när handskakning blev det ultimata och enda acceptabla uttrycket för jämställdhet och respekt?
+62-1	4264-4265	#	_	_	_	_	_	_	
+62-2	4265-4266	P	_	_	_	_	_	_	
+62-3	4267-4270	IMM	_	_	_	_	_	_	
+62-4	4270-4271	.	_	_	_	_	_	_	
+62-5	4273-4274	”	_	_	_	_	_	_	
+62-6	4274-4280	Liksom	_	_	_	_	_	_	
+62-7	4281-4284	när	_	_	_	_	_	_	
+62-8	4285-4289	Carl	*[41]	_	_	_	_	_	
+62-9	4290-4298	Hamilton	*[41]	_	_	_	_	_	
+62-10	4299-4303	blev	_	Target;Source[17]	62-13[42];62-8[41]	false[17]	1[17]	_	
+62-11	4304-4311	bestört	_	Target;Source[17]	62-13[42];62-8[41]	false[17]	1[17]	_	
+62-12	4312-4316	över	_	Target;Source[17]	62-13[42];62-8[41]	false[17]	1[17]	_	
+62-13	4317-4320	att	*[42]	_	_	_	_	_	
+62-14	4321-4323	de	*[42]	_	_	_	_	_	
+62-15	4324-4327	två	*[42]	_	_	_	_	_	
+62-16	4328-4336	tjejerna	*[42]	_	_	_	_	_	
+62-17	4337-4341	från	*[42]	_	_	_	_	_	
+62-18	4342-4350	Halal-TV	*[42]	_	_	_	_	_	
+62-19	4351-4355	inte	*[42]	_	_	_	_	_	
+62-20	4356-4361	ville	*[42]	_	_	_	_	_	
+62-21	4362-4367	skaka	*[42]	_	_	_	_	_	
+62-22	4368-4372	hand	*[42]	_	_	_	_	_	
+62-23	4373-4376	med	*[42]	_	_	_	_	_	
+62-24	4377-4382	honom	*[42]	_	_	_	_	_	
+62-25	4383-4389	undrar	_	_	_	_	_	_	
+62-26	4390-4393	jag	_	_	_	_	_	_	
+62-27	4394-4397	när	_	_	_	_	_	_	
+62-28	4398-4410	handskakning	*	_	_	_	_	_	
+62-29	4411-4415	blev	_	_	_	_	_	_	
+62-30	4416-4419	det	_	Target[18]	62-28	false[18]	5[18]	_	
+62-31	4420-4428	ultimata	_	Target[18]	62-28	false[18]	5[18]	_	
+62-32	4429-4432	och	_	Target[18]	62-28	false[18]	5[18]	_	
+62-33	4433-4437	enda	_	Target[18]	62-28	false[18]	5[18]	_	
+62-34	4438-4448	acceptabla	_	Target[18]	62-28	false[18]	5[18]	_	
+62-35	4449-4458	uttrycket	_	Target[18]	62-28	false[18]	5[18]	_	
+62-36	4459-4462	för	_	Target[18]	62-28	false[18]	5[18]	_	
+62-37	4463-4475	jämställdhet	_	Target[18]	62-28	false[18]	5[18]	_	
+62-38	4476-4479	och	_	Target[18]	62-28	false[18]	5[18]	_	
+62-39	4480-4487	respekt	_	Target[18]	62-28	false[18]	5[18]	_	
+62-40	4487-4488	?	_	_	_	_	_	_	
+
+#Text=/.../ De bakomliggande skälen till och den religiösa legitimiteten i mannen och Halal-TV-tjejernas inställning till kroppskontakt med det andra könet må kunna ifrågasättas och diskuteras.
+63-1	4489-4490	/	_	_	_	_	_	_	
+63-2	4490-4491	.	_	_	_	_	_	_	
+63-3	4491-4492	.	_	_	_	_	_	_	
+63-4	4492-4493	.	_	_	_	_	_	_	
+63-5	4493-4494	/	_	_	_	_	_	_	
+63-6	4495-4497	De	_	_	_	_	_	_	
+63-7	4498-4511	bakomliggande	_	_	_	_	_	_	
+63-8	4512-4518	skälen	_	_	_	_	_	_	
+63-9	4519-4523	till	_	_	_	_	_	_	
+63-10	4524-4527	och	_	_	_	_	_	_	
+63-11	4528-4531	den	_	_	_	_	_	_	
+63-12	4532-4541	religiösa	_	_	_	_	_	_	
+63-13	4542-4555	legitimiteten	_	_	_	_	_	_	
+63-14	4556-4557	i	_	_	_	_	_	_	
+63-15	4558-4564	mannen	_	_	_	_	_	_	
+63-16	4565-4568	och	_	_	_	_	_	_	
+63-17	4569-4587	Halal-TV-tjejernas	_	_	_	_	_	_	
+63-18	4588-4599	inställning	_	_	_	_	_	_	
+63-19	4600-4604	till	_	_	_	_	_	_	
+63-20	4605-4618	kroppskontakt	_	_	_	_	_	_	
+63-21	4619-4622	med	_	_	_	_	_	_	
+63-22	4623-4626	det	_	_	_	_	_	_	
+63-23	4627-4632	andra	_	_	_	_	_	_	
+63-24	4633-4638	könet	_	_	_	_	_	_	
+63-25	4639-4641	må	_	_	_	_	_	_	
+63-26	4642-4647	kunna	_	_	_	_	_	_	
+63-27	4648-4660	ifrågasättas	_	_	_	_	_	_	
+63-28	4661-4664	och	_	_	_	_	_	_	
+63-29	4665-4675	diskuteras	_	_	_	_	_	_	
+63-30	4675-4676	.	_	_	_	_	_	_	
+
+#Text=Men är ett uteblivet handslag anledning nog att drabbas av någon slags jämställdhetspanik (sorgligt nog ofta med rasistiska undertoner)?
+64-1	4677-4680	Men	_	_	_	_	_	_	
+64-2	4681-4683	är	_	_	_	_	_	_	
+64-3	4684-4687	ett	_	_	_	_	_	_	
+64-4	4688-4697	uteblivet	_	_	_	_	_	_	
+64-5	4698-4706	handslag	_	_	_	_	_	_	
+64-6	4707-4716	anledning	_	_	_	_	_	_	
+64-7	4717-4720	nog	_	_	_	_	_	_	
+64-8	4721-4724	att	_	_	_	_	_	_	
+64-9	4725-4732	drabbas	_	Target[19]	64-11[43]	false[19]	1[19]	_	
+64-10	4733-4735	av	_	Target[19]	64-11[43]	false[19]	1[19]	_	
+64-11	4736-4741	någon	*[43]	_	_	_	_	_	
+64-12	4742-4747	slags	*[43]	_	_	_	_	_	
+64-13	4748-4766	jämställdhetspanik	*[43]	_	_	_	_	_	
+64-14	4767-4768	(	_	_	_	_	_	_	
+64-15	4768-4776	sorgligt	*[44]	Target[20]	64-15[44]	false[20]	1[20]	_	
+64-16	4777-4780	nog	*[44]	Target[20]	64-15[44]	false[20]	1[20]	_	
+64-17	4781-4785	ofta	_	_	_	_	_	_	
+64-18	4786-4789	med	_	_	_	_	_	_	
+64-19	4790-4800	rasistiska	*[45]	Target[21]	64-19[45]	false[21]	1[21]	_	
+64-20	4801-4811	undertoner	*[45]	Target[21]	64-19[45]	false[21]	1[21]	_	
+64-21	4811-4812	)	_	_	_	_	_	_	
+64-22	4812-4813	?	_	_	_	_	_	_	
+
+#Text=Mycket tveksamt.” skriver Ansats.
+65-1	4814-4820	Mycket	_	_	_	_	_	_	
+65-2	4821-4829	tveksamt	_	_	_	_	_	_	
+65-3	4829-4830	.	_	_	_	_	_	_	
+65-4	4830-4831	”	_	_	_	_	_	_	
+65-5	4832-4839	skriver	_	_	_	_	_	_	
+65-6	4840-4846	Ansats	_	_	_	_	_	_	
+65-7	4846-4847	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4849-4850	#	_	_	_	_	_	_	
+66-2	4850-4851	P	_	_	_	_	_	_	
+66-3	4852-4855	IMM	_	_	_	_	_	_	
+66-4	4855-4856	.	_	_	_	_	_	_	
+
+#Text=Bloggredaktör: Ulrika Lundberg.
+67-1	4858-4871	Bloggredaktör	_	_	_	_	_	_	
+67-2	4871-4872	:	_	_	_	_	_	_	
+67-3	4873-4879	Ulrika	_	_	_	_	_	_	
+67-4	4880-4888	Lundberg	_	_	_	_	_	_	
+67-5	4888-4889	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4891-4892	#	_	_	_	_	_	_	
+68-2	4892-4893	P	_	_	_	_	_	_	
+68-3	4894-4897	IMM	_	_	_	_	_	_	
+68-4	4897-4898	.	_	_	_	_	_	_	
+
+#Text=Lars Gårdfeldt.
+69-1	4900-4904	Lars	_	_	_	_	_	_	
+69-2	4905-4914	Gårdfeldt	_	_	_	_	_	_	
+69-3	4914-4915	.	_	_	_	_	_	_	

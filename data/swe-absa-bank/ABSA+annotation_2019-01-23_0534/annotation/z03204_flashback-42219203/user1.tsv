@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad vill Beppe Grillo?
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-26	vill	_	_	_	_	_	_	
+3-3	27-32	Beppe	*[5]	_	_	_	_	7-3[0_5]	
+3-4	33-39	Grillo	*[5]	_	_	_	_	_	
+3-5	39-40	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	42-43	#	_	_	_	_	_	_	
+4-2	43-44	P	_	_	_	_	_	_	
+4-3	45-48	IMM	_	_	_	_	_	_	
+4-4	48-49	.	_	_	_	_	_	_	
+
+#Text=Ja, som rubriken säger, vad vill han egentligen?.
+5-1	51-53	Ja	_	_	_	_	_	_	
+5-2	53-54	,	_	_	_	_	_	_	
+5-3	55-58	som	_	_	_	_	_	_	
+5-4	59-67	rubriken	_	_	_	_	_	_	
+5-5	68-73	säger	_	_	_	_	_	_	
+5-6	73-74	,	_	_	_	_	_	_	
+5-7	75-78	vad	_	_	_	_	_	_	
+5-8	79-83	vill	_	_	_	_	_	_	
+5-9	84-87	han	_	_	_	_	_	_	
+5-10	88-98	egentligen	_	_	_	_	_	_	
+5-11	98-99	?	_	_	_	_	_	_	
+5-12	99-100	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	102-103	#	_	_	_	_	_	_	
+6-2	103-104	P	_	_	_	_	_	_	
+6-3	105-108	IMM	_	_	_	_	_	_	
+6-4	108-109	.	_	_	_	_	_	_	
+
+#Text=Populist ska han ju vara och vill enligt vaga uppgifter införa direktdemokrati på nätet genom att dela ut gratis Ipads, spola euron + införa medborgarlön.
+7-1	111-119	Populist	_	Target[1]	7-3	false[1]	2[1]	_	
+7-2	120-123	ska	_	Target[1]	7-3	false[1]	2[1]	_	
+7-3	124-127	han	*	Target[1]	7-3	false[1]	2[1]	_	
+7-4	128-130	ju	_	Target[1]	7-3	false[1]	2[1]	_	
+7-5	131-135	vara	_	Target[1]	7-3	false[1]	2[1]	_	
+7-6	136-139	och	_	_	_	_	_	_	
+7-7	140-144	vill	_	Target;Source	7-11[6];7-27	false	4	_	
+7-8	145-151	enligt	_	_	_	_	_	_	
+7-9	152-156	vaga	_	_	_	_	_	_	
+7-10	157-166	uppgifter	_	_	_	_	_	_	
+7-11	167-173	införa	*[6]	_	_	_	_	_	
+7-12	174-189	direktdemokrati	*[6]	_	_	_	_	_	
+7-13	190-192	på	*[6]	_	_	_	_	_	
+7-14	193-198	nätet	*[6]	_	_	_	_	_	
+7-15	199-204	genom	*[6]	_	_	_	_	_	
+7-16	205-208	att	*[6]	_	_	_	_	_	
+7-17	209-213	dela	*[6]	_	_	_	_	_	
+7-18	214-216	ut	*[6]	_	_	_	_	_	
+7-19	217-223	gratis	*[6]	_	_	_	_	_	
+7-20	224-229	Ipads	*[6]	_	_	_	_	_	
+7-21	229-230	,	*[6]	_	_	_	_	_	
+7-22	231-236	spola	*[6]	_	_	_	_	_	
+7-23	237-242	euron	*[6]	_	_	_	_	_	
+7-24	243-244	+	*[6]	_	_	_	_	_	
+7-25	245-251	införa	*[6]	_	_	_	_	_	
+7-26	252-264	medborgarlön	*[6]	_	_	_	_	_	
+7-27	264-265	.	*	_	_	_	_	_	
+
+#Text=Det där med vem som är populisten är svårt att avgöra i ett land i Italien antar jag där en av hans motståndares vallöfte är att skicka pengar i kuvert till alla medborgare.
+8-1	266-269	Det	_	_	_	_	_	_	
+8-2	270-273	där	_	_	_	_	_	_	
+8-3	274-277	med	_	_	_	_	_	_	
+8-4	278-281	vem	_	_	_	_	_	_	
+8-5	282-285	som	_	_	_	_	_	_	
+8-6	286-288	är	_	_	_	_	_	_	
+8-7	289-299	populisten	_	_	_	_	_	_	
+8-8	300-302	är	_	_	_	_	_	_	
+8-9	303-308	svårt	_	_	_	_	_	_	
+8-10	309-312	att	_	_	_	_	_	_	
+8-11	313-319	avgöra	_	_	_	_	_	_	
+8-12	320-321	i	_	_	_	_	_	_	
+8-13	322-325	ett	_	_	_	_	_	_	
+8-14	326-330	land	_	_	_	_	_	_	
+8-15	331-332	i	_	_	_	_	_	_	
+8-16	333-340	Italien	_	_	_	_	_	_	
+8-17	341-346	antar	_	_	_	_	_	_	
+8-18	347-350	jag	_	_	_	_	_	_	
+8-19	351-354	där	_	_	_	_	_	_	
+8-20	355-357	en	_	_	_	_	_	_	
+8-21	358-360	av	_	_	_	_	_	_	
+8-22	361-365	hans	_	_	_	_	_	_	
+8-23	366-378	motståndares	_	_	_	_	_	_	
+8-24	379-387	vallöfte	_	_	_	_	_	_	
+8-25	388-390	är	_	_	_	_	_	_	
+8-26	391-394	att	_	_	_	_	_	_	
+8-27	395-401	skicka	_	_	_	_	_	_	
+8-28	402-408	pengar	_	_	_	_	_	_	
+8-29	409-410	i	_	_	_	_	_	_	
+8-30	411-417	kuvert	_	_	_	_	_	_	
+8-31	418-422	till	_	_	_	_	_	_	
+8-32	423-427	alla	_	_	_	_	_	_	
+8-33	428-438	medborgare	_	_	_	_	_	_	
+8-34	438-439	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	441-442	#	_	_	_	_	_	_	
+9-2	442-443	P	_	_	_	_	_	_	
+9-3	444-447	IMM	_	_	_	_	_	_	
+9-4	447-448	.	_	_	_	_	_	_	
+
+#Text=Han är ju intressant på så sätt att det är en populism enligt uppgift utan nationalistisk ideologi vilket är rätt så ovanligt i krisens Europa.
+10-1	450-453	Han	_	_	_	_	_	_	
+10-2	454-456	är	_	_	_	_	_	_	
+10-3	457-459	ju	_	_	_	_	_	_	
+10-4	460-470	intressant	_	_	_	_	_	_	
+10-5	471-473	på	_	_	_	_	_	_	
+10-6	474-476	så	_	_	_	_	_	_	
+10-7	477-481	sätt	_	_	_	_	_	_	
+10-8	482-485	att	_	_	_	_	_	_	
+10-9	486-489	det	_	_	_	_	_	_	
+10-10	490-492	är	_	_	_	_	_	_	
+10-11	493-495	en	_	_	_	_	_	_	
+10-12	496-504	populism	_	_	_	_	_	_	
+10-13	505-511	enligt	_	_	_	_	_	_	
+10-14	512-519	uppgift	_	_	_	_	_	_	
+10-15	520-524	utan	_	_	_	_	_	_	
+10-16	525-539	nationalistisk	_	_	_	_	_	_	
+10-17	540-548	ideologi	_	_	_	_	_	_	
+10-18	549-555	vilket	_	_	_	_	_	_	
+10-19	556-558	är	_	_	_	_	_	_	
+10-20	559-563	rätt	_	_	_	_	_	_	
+10-21	564-566	så	_	_	_	_	_	_	
+10-22	567-575	ovanligt	_	_	_	_	_	_	
+10-23	576-577	i	_	_	_	_	_	_	
+10-24	578-585	krisens	_	_	_	_	_	_	
+10-25	586-592	Europa	_	_	_	_	_	_	
+10-26	592-593	.	_	_	_	_	_	_	
+
+#Text=Jag är jävligt nyfiken på vad det är han vill, det enda man får höra är att han är en pajas och etablissemang-hatare.
+11-1	594-597	Jag	_	_	_	_	_	_	
+11-2	598-600	är	_	_	_	_	_	_	
+11-3	601-608	jävligt	_	_	_	_	_	_	
+11-4	609-616	nyfiken	_	_	_	_	_	_	
+11-5	617-619	på	_	_	_	_	_	_	
+11-6	620-623	vad	_	_	_	_	_	_	
+11-7	624-627	det	_	_	_	_	_	_	
+11-8	628-630	är	_	_	_	_	_	_	
+11-9	631-634	han	_	_	_	_	_	_	
+11-10	635-639	vill	_	_	_	_	_	_	
+11-11	639-640	,	_	_	_	_	_	_	
+11-12	641-644	det	_	_	_	_	_	_	
+11-13	645-649	enda	_	_	_	_	_	_	
+11-14	650-653	man	_	_	_	_	_	_	
+11-15	654-657	får	_	_	_	_	_	_	
+11-16	658-662	höra	_	_	_	_	_	_	
+11-17	663-665	är	_	_	_	_	_	_	
+11-18	666-669	att	_	_	_	_	_	_	
+11-19	670-673	han	_	_	_	_	_	_	
+11-20	674-676	är	_	_	_	_	_	_	
+11-21	677-679	en	_	_	_	_	_	_	
+11-22	680-685	pajas	_	_	_	_	_	_	
+11-23	686-689	och	_	_	_	_	_	_	
+11-24	690-710	etablissemang-hatare	_	_	_	_	_	_	
+11-25	710-711	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	713-714	#	_	_	_	_	_	_	
+12-2	714-715	P	_	_	_	_	_	_	
+12-3	716-719	IMM	_	_	_	_	_	_	
+12-4	719-720	.	_	_	_	_	_	_	
+
+#Text=Jag har kollat italienska val-tråden men inte fått nog med mat därifrån och vill inte starta någon OT-diskussion där så därför får Beppe en egen tråd.
+13-1	722-725	Jag	_	_	_	_	_	_	
+13-2	726-729	har	_	_	_	_	_	_	
+13-3	730-736	kollat	_	_	_	_	_	_	
+13-4	737-747	italienska	_	_	_	_	_	_	
+13-5	748-758	val-tråden	_	_	_	_	_	_	
+13-6	759-762	men	_	_	_	_	_	_	
+13-7	763-767	inte	_	_	_	_	_	_	
+13-8	768-772	fått	_	_	_	_	_	_	
+13-9	773-776	nog	_	_	_	_	_	_	
+13-10	777-780	med	_	_	_	_	_	_	
+13-11	781-784	mat	_	_	_	_	_	_	
+13-12	785-793	därifrån	_	_	_	_	_	_	
+13-13	794-797	och	_	_	_	_	_	_	
+13-14	798-802	vill	_	_[2]	_	false[2]	2[2]	_	
+13-15	803-807	inte	_	_[2]	_	false[2]	2[2]	_	
+13-16	808-814	starta	_	_[3]	_	false[3]	2[3]	_	
+13-17	815-820	någon	_	_[3]	_	false[3]	2[3]	_	
+13-18	821-834	OT-diskussion	_	_[3]	_	false[3]	2[3]	_	
+13-19	835-838	där	_	_[3]	_	false[3]	2[3]	_	
+13-20	839-841	så	_	_	_	_	_	_	
+13-21	842-848	därför	_	_	_	_	_	_	
+13-22	849-852	får	_	_	_	_	_	_	
+13-23	853-858	Beppe	_	_	_	_	_	_	
+13-24	859-861	en	_	_	_	_	_	_	
+13-25	862-866	egen	_	_	_	_	_	_	
+13-26	867-871	tråd	_	_	_	_	_	_	
+13-27	871-872	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	874-875	#	_	_	_	_	_	_	
+14-2	875-876	P	_	_	_	_	_	_	
+14-3	877-880	IMM	_	_	_	_	_	_	
+14-4	880-881	.	_	_	_	_	_	_	
+
+#Text=Kom igen nu svensk-italienare, ge mig lite översättningar från blogen och uttalanden.
+15-1	883-886	Kom	_	Target[4]	15-6[7]	false[4]	4[4]	_	
+15-2	887-891	igen	_	Target[4]	15-6[7]	false[4]	4[4]	_	
+15-3	892-894	nu	_	Target[4]	15-6[7]	false[4]	4[4]	_	
+15-4	895-912	svensk-italienare	_	_	_	_	_	_	
+15-5	912-913	,	_	_	_	_	_	_	
+15-6	914-916	ge	*[7]	_	_	_	_	_	
+15-7	917-920	mig	*[7]	_	_	_	_	_	
+15-8	921-925	lite	*[7]	_	_	_	_	_	
+15-9	926-940	översättningar	*[7]	_	_	_	_	_	
+15-10	941-945	från	*[7]	_	_	_	_	_	
+15-11	946-952	blogen	*[7]	_	_	_	_	_	
+15-12	953-956	och	*[7]	_	_	_	_	_	
+15-13	957-967	uttalanden	*[7]	_	_	_	_	_	
+15-14	967-968	.	_	_	_	_	_	_	

@@ -1,0 +1,884 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Politikernas svek förvärrar bokrisen.
+3-1	18-30	Politikernas	*[27]|*[28]	_	_	_	_	_	_	
+3-2	31-35	svek	*[27]	Target	3-1[28]	false	2	_	_	
+3-3	36-45	förvärrar	_	Target	3-1[27]	false	2	_	_	
+3-4	46-54	bokrisen	_	_	_	_	_	_	_	
+3-5	54-55	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	_	
+
+#Text=Bostadskrisen är sedan länge ett faktum.
+5-1	66-79	Bostadskrisen	_	_	_	_	_	_	_	
+5-2	80-82	är	_	_	_	_	_	_	_	
+5-3	83-88	sedan	_	_	_	_	_	_	_	
+5-4	89-94	länge	_	_	_	_	_	_	_	
+5-5	95-98	ett	_	_	_	_	_	_	_	
+5-6	99-105	faktum	_	_	_	_	_	_	_	
+5-7	105-106	.	_	_	_	_	_	_	_	
+
+#Text=Den politiska handlingsförlamningen när det gäller de strukturella problemen är dessvärre också sedan länge ett faktum.
+6-1	107-110	Den	_	_	_	_	_	_	_	
+6-2	111-120	politiska	_	_	_	_	_	_	_	
+6-3	121-142	handlingsförlamningen	*	Target	6-3	false	2	_	_	
+6-4	143-146	när	_	_	_	_	_	_	_	
+6-5	147-150	det	_	_	_	_	_	_	_	
+6-6	151-157	gäller	_	_	_	_	_	_	_	
+6-7	158-160	de	_	_	_	_	_	_	_	
+6-8	161-173	strukturella	_	_	_	_	_	_	_	
+6-9	174-183	problemen	_	_	_	_	_	_	_	
+6-10	184-186	är	_	_	_	_	_	_	_	
+6-11	187-196	dessvärre	_	_	_	_	_	_	_	
+6-12	197-202	också	_	_	_	_	_	_	_	
+6-13	203-208	sedan	_	_	_	_	_	_	_	
+6-14	209-214	länge	_	_	_	_	_	_	_	
+6-15	215-218	ett	_	_	_	_	_	_	_	
+6-16	219-225	faktum	_	_	_	_	_	_	_	
+6-17	225-226	.	_	_	_	_	_	_	_	
+
+#Text=Alliansregeringen gjorde för lite.
+7-1	227-244	Alliansregeringen	*	_	_	_	_	_	_	
+7-2	245-251	gjorde	_	Target[1]	7-1	false[1]	2[1]	_	_	
+7-3	252-255	för	_	Target[1]	7-1	false[1]	2[1]	_	_	
+7-4	256-260	lite	_	Target[1]	7-1	false[1]	2[1]	_	_	
+7-5	260-261	.	_	_	_	_	_	_	_	
+
+#Text=De rödgröna gör ingenting.
+8-1	262-264	De	*[29]	_	_	_	_	_	_	
+8-2	265-273	rödgröna	*[29]	_	_	_	_	_	_	
+8-3	274-277	gör	_	Target[2]	8-1[29]	false[2]	2[2]	_	_	
+8-4	278-287	ingenting	_	Target[2]	8-1[29]	false[2]	2[2]	_	_	
+8-5	287-288	.	_	_	_	_	_	_	_	
+
+#Text=Men Sverige tål inte mer bostadsbrist.
+9-1	289-292	Men	_	_	_	_	_	_	_	
+9-2	293-300	Sverige	_	_	_	_	_	_	_	
+9-3	301-304	tål	_	_	_	_	_	_	_	
+9-4	305-309	inte	_	_	_	_	_	_	_	
+9-5	310-313	mer	_	_	_	_	_	_	_	
+9-6	314-326	bostadsbrist	*	_	_	_	_	_	_	
+9-7	326-327	.	_	Target	9-6	false	2	_	_	
+
+#Text=Nu måste statsministern och samtliga partiledare engagera sig.
+10-1	328-330	Nu	_	_	_	_	_	_	_	
+10-2	331-336	måste	_	Target	10-3[30]	false	4	_	_	
+10-3	337-351	statsministern	*[30]	_	_	_	_	_	_	
+10-4	352-355	och	*[30]	_	_	_	_	_	_	
+10-5	356-364	samtliga	*[30]	_	_	_	_	_	_	
+10-6	365-376	partiledare	*[30]	_	_	_	_	_	_	
+10-7	377-385	engagera	*[30]	_	_	_	_	_	_	
+10-8	386-389	sig	_	_	_	_	_	_	_	
+10-9	389-390	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	392-393	#	_	_	_	_	_	_	_	
+11-2	393-394	P	_	_	_	_	_	_	_	
+11-3	395-398	IMM	_	_	_	_	_	_	_	
+11-4	398-399	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsbristen är ett hot mot Sveriges ekonomiska utveckling.
+12-1	401-415	Bostadsbristen	*	_	_	_	_	_	_	
+12-2	416-418	är	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-3	419-422	ett	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-4	423-426	hot	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-5	427-430	mot	_	_	_	_	_	_	_	
+12-6	431-439	Sveriges	_	_	_	_	_	_	_	
+12-7	440-450	ekonomiska	_	_	_	_	_	_	_	
+12-8	451-461	utveckling	_	_	_	_	_	_	_	
+12-9	461-462	.	_	_	_	_	_	_	_	
+
+#Text=Bristen på hyresrätter är det stora problemet.
+13-1	463-470	Bristen	*[31]	_	_	_	_	_	_	
+13-2	471-473	på	*[31]	_	_	_	_	_	_	
+13-3	474-485	hyresrätter	*[31]	_	_	_	_	_	_	
+13-4	486-488	är	_	Target[4]	13-1[31]	false[4]	2[4]	_	_	
+13-5	489-492	det	_	Target[4]	13-1[31]	false[4]	2[4]	_	_	
+13-6	493-498	stora	_	Target[4]	13-1[31]	false[4]	2[4]	_	_	
+13-7	499-508	problemet	_	Target[4]	13-1[31]	false[4]	2[4]	_	_	
+13-8	508-509	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	511-512	#	_	_	_	_	_	_	_	
+14-2	512-513	P	_	_	_	_	_	_	_	
+14-3	514-517	IMM	_	_	_	_	_	_	_	
+14-4	517-518	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+15-1	520-523	Det	_	_	_	_	_	_	_	
+15-2	524-527	här	_	_	_	_	_	_	_	
+15-3	528-530	är	_	_	_	_	_	_	_	
+15-4	531-533	en	_	_	_	_	_	_	_	
+15-5	534-548	argumenterande	_	_	_	_	_	_	_	
+15-6	549-553	text	_	_	_	_	_	_	_	
+15-7	554-557	med	_	_	_	_	_	_	_	
+15-8	558-563	syfte	_	_	_	_	_	_	_	
+15-9	564-567	att	_	_	_	_	_	_	_	
+15-10	568-575	påverka	_	_	_	_	_	_	_	
+15-11	575-576	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+16-1	577-586	Åsikterna	_	_	_	_	_	_	_	
+16-2	587-590	som	_	_	_	_	_	_	_	
+16-3	591-599	uttrycks	_	_	_	_	_	_	_	
+16-4	600-602	är	_	_	_	_	_	_	_	
+16-5	603-614	skribentens	_	_	_	_	_	_	_	
+16-6	615-619	egna	_	_	_	_	_	_	_	
+16-7	619-620	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	622-623	#	_	_	_	_	_	_	_	
+17-2	623-624	P	_	_	_	_	_	_	_	
+17-3	625-628	IMM	_	_	_	_	_	_	_	
+17-4	628-629	.	_	_	_	_	_	_	_	
+
+#Text=Konflikten mellan verklighet och politisk taktik är uppenbar.
+18-1	631-641	Konflikten	_	_	_	_	_	_	_	
+18-2	642-648	mellan	_	_	_	_	_	_	_	
+18-3	649-659	verklighet	_	_	_	_	_	_	_	
+18-4	660-663	och	_	_	_	_	_	_	_	
+18-5	664-672	politisk	_	_	_	_	_	_	_	
+18-6	673-679	taktik	_	_	_	_	_	_	_	
+18-7	680-682	är	_	_	_	_	_	_	_	
+18-8	683-691	uppenbar	_	_	_	_	_	_	_	
+18-9	691-692	.	_	_	_	_	_	_	_	
+
+#Text=Årets Almedalsvecka hade fler seminarier om bostadskrisen än någon gång tidigare.
+19-1	693-698	Årets	_	_	_	_	_	_	_	
+19-2	699-712	Almedalsvecka	_	_	_	_	_	_	_	
+19-3	713-717	hade	_	_	_	_	_	_	_	
+19-4	718-722	fler	_	_	_	_	_	_	_	
+19-5	723-733	seminarier	_	_	_	_	_	_	_	
+19-6	734-736	om	_	_	_	_	_	_	_	
+19-7	737-750	bostadskrisen	_	_	_	_	_	_	_	
+19-8	751-753	än	_	_	_	_	_	_	_	
+19-9	754-759	någon	_	_	_	_	_	_	_	
+19-10	760-764	gång	_	_	_	_	_	_	_	
+19-11	765-773	tidigare	_	_	_	_	_	_	_	
+19-12	773-774	.	_	_	_	_	_	_	_	
+
+#Text=Men ingen partiledare tog upp bostadsbristen i sitt tal, utom FP-ledaren som raljerade om ett planhushållningssystem han slagit vakt om i regeringsställning.
+20-1	775-778	Men	_	_	_	_	_	_	_	
+20-2	779-784	ingen	_	_	_	_	_	_	_	
+20-3	785-796	partiledare	_	_	_	_	_	_	_	
+20-4	797-800	tog	_	_	_	_	_	_	_	
+20-5	801-804	upp	_	_	_	_	_	_	_	
+20-6	805-819	bostadsbristen	_	_	_	_	_	_	_	
+20-7	820-821	i	_	_	_	_	_	_	_	
+20-8	822-826	sitt	_	_	_	_	_	_	_	
+20-9	827-830	tal	_	_	_	_	_	_	_	
+20-10	830-831	,	_	_	_	_	_	_	_	
+20-11	832-836	utom	_	_	_	_	_	_	_	
+20-12	837-847	FP-ledaren	*	_	_	_	_	_	_	
+20-13	848-851	som	_	_	_	_	_	_	_	
+20-14	852-861	raljerade	_	Target	20-12	false	2	_	_	
+20-15	862-864	om	_	_	_	_	_	_	_	
+20-16	865-868	ett	_	_	_	_	_	_	_	
+20-17	869-891	planhushållningssystem	_	_	_	_	_	_	_	
+20-18	892-895	han	_	_	_	_	_	_	_	
+20-19	896-902	slagit	_	_	_	_	_	_	_	
+20-20	903-907	vakt	_	_	_	_	_	_	_	
+20-21	908-910	om	_	_	_	_	_	_	_	
+20-22	911-912	i	_	_	_	_	_	_	_	
+20-23	913-931	regeringsställning	_	_	_	_	_	_	_	
+20-24	931-932	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	934-935	#	_	_	_	_	_	_	_	
+21-2	935-936	P	_	_	_	_	_	_	_	
+21-3	937-940	IMM	_	_	_	_	_	_	_	
+21-4	940-941	.	_	_	_	_	_	_	_	
+
+#Text=I en nyligen presenterad bilaga till Långtidsutredningen konstateras att en väl fungerande matchning mellan arbetsgivare och arbetssökande är central för den ekonomiska tillväxten och att detta förutsätter en väl fungerande bostadsmarknad.
+22-1	943-944	I	_	_	_	_	_	_	_	
+22-2	945-947	en	*[32]	_	_	_	_	_	_	
+22-3	948-955	nyligen	*[32]	_	_	_	_	_	_	
+22-4	956-967	presenterad	*[32]	_	_	_	_	_	_	
+22-5	968-974	bilaga	*[32]	_	_	_	_	_	_	
+22-6	975-979	till	*[32]	_	_	_	_	_	_	
+22-7	980-999	Långtidsutredningen	*[32]	_	_	_	_	_	_	
+22-8	1000-1011	konstateras	_	_	_	_	_	_	_	
+22-9	1012-1015	att	_	_	_	_	_	_	_	
+22-10	1016-1018	en	*[33]	_	_	_	_	_	_	
+22-11	1019-1022	väl	*[33]	_	_	_	_	_	_	
+22-12	1023-1033	fungerande	*[33]	_	_	_	_	_	_	
+22-13	1034-1043	matchning	*[33]	_	_	_	_	_	_	
+22-14	1044-1050	mellan	*[33]	_	_	_	_	_	_	
+22-15	1051-1063	arbetsgivare	*[33]	_	_	_	_	_	_	
+22-16	1064-1067	och	*[33]	_	_	_	_	_	_	
+22-17	1068-1081	arbetssökande	*[33]	_	_	_	_	_	_	
+22-18	1082-1084	är	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-19	1085-1092	central	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-20	1093-1096	för	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-21	1097-1100	den	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-22	1101-1111	ekonomiska	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-23	1112-1122	tillväxten	_	Target;Source[5]	22-10[33];22-2[32]	false[5]	4[5]	_	_	
+22-24	1123-1126	och	_	_	_	_	_	_	_	
+22-25	1127-1130	att	_	_	_	_	_	_	_	
+22-26	1131-1136	detta	_	_	_	_	_	_	_	
+22-27	1137-1148	förutsätter	_	_	_	_	_	_	_	
+22-28	1149-1151	en	_	_	_	_	_	_	_	
+22-29	1152-1155	väl	_	_	_	_	_	_	_	
+22-30	1156-1166	fungerande	_	_	_	_	_	_	_	
+22-31	1167-1181	bostadsmarknad	_	_	_	_	_	_	_	
+22-32	1181-1182	.	_	_	_	_	_	_	_	
+
+#Text=Det konstateras vidare att normalt är hyresrätten lättare att flytta till och från än ägda bostäder.
+23-1	1183-1186	Det	_	Source;Target[6]	22-2[32];23-4[34]	false[6]	4[6]	_	_	
+23-2	1187-1198	konstateras	_	Source;Target[6]	22-2[32];23-4[34]	false[6]	4[6]	_	_	
+23-3	1199-1205	vidare	_	_	_	_	_	_	_	
+23-4	1206-1209	att	*[34]	_	_	_	_	_	_	
+23-5	1210-1217	normalt	*[34]	_	_	_	_	_	_	
+23-6	1218-1220	är	*[34]	_	_	_	_	_	_	
+23-7	1221-1232	hyresrätten	*[34]	_	_	_	_	_	_	
+23-8	1233-1240	lättare	*[34]	_	_	_	_	_	_	
+23-9	1241-1244	att	*[34]	_	_	_	_	_	_	
+23-10	1245-1251	flytta	*[34]	_	_	_	_	_	_	
+23-11	1252-1256	till	*[34]	_	_	_	_	_	_	
+23-12	1257-1260	och	*[34]	_	_	_	_	_	_	
+23-13	1261-1265	från	*[34]	_	_	_	_	_	_	
+23-14	1266-1268	än	*[34]	_	_	_	_	_	_	
+23-15	1269-1273	ägda	*[34]	_	_	_	_	_	_	
+23-16	1274-1282	bostäder	*[34]	_	_	_	_	_	_	
+23-17	1282-1283	.	_	_	_	_	_	_	_	
+
+#Text=Men, skriver man, "Sverige skiljer sig emellertid från andra länder i detta avseende. (...)
+24-1	1284-1287	Men	_	_	_	_	_	_	_	
+24-2	1287-1288	,	_	_	_	_	_	_	_	
+24-3	1289-1296	skriver	_	_	_	_	_	_	_	
+24-4	1297-1300	man	_	_	_	_	_	_	_	
+24-5	1300-1301	,	_	_	_	_	_	_	_	
+24-6	1302-1303	"	_	_	_	_	_	_	_	
+24-7	1303-1310	Sverige	_	_	_	_	_	_	_	
+24-8	1311-1318	skiljer	_	_	_	_	_	_	_	
+24-9	1319-1322	sig	_	_	_	_	_	_	_	
+24-10	1323-1333	emellertid	_	_	_	_	_	_	_	
+24-11	1334-1338	från	_	_	_	_	_	_	_	
+24-12	1339-1344	andra	_	_	_	_	_	_	_	
+24-13	1345-1351	länder	_	_	_	_	_	_	_	
+24-14	1352-1353	i	_	_	_	_	_	_	_	
+24-15	1354-1359	detta	_	_	_	_	_	_	_	
+24-16	1360-1368	avseende	_	_	_	_	_	_	_	
+24-17	1368-1369	.	_	_	_	_	_	_	_	
+24-18	1370-1371	(	_	_	_	_	_	_	_	
+24-19	1371-1372	.	_	_	_	_	_	_	_	
+24-20	1372-1373	.	_	_	_	_	_	_	_	
+24-21	1373-1374	.	_	_	_	_	_	_	_	
+24-22	1374-1375	)	_	_	_	_	_	_	_	
+
+#Text=Anledningen till detta är att regleringen av den svenska hyresmarknaden, det så kallade bruksvärdessystemet, gör att transaktionskostnaderna, främst i form av söktid, ökar.".
+25-1	1376-1387	Anledningen	_	_	_	_	_	_	_	
+25-2	1388-1392	till	_	_	_	_	_	_	_	
+25-3	1393-1398	detta	_	_	_	_	_	_	_	
+25-4	1399-1401	är	_	_	_	_	_	_	_	
+25-5	1402-1405	att	_	_	_	_	_	_	_	
+25-6	1406-1417	regleringen	_	_	_	_	_	_	_	
+25-7	1418-1420	av	_	_	_	_	_	_	_	
+25-8	1421-1424	den	_	_	_	_	_	_	_	
+25-9	1425-1432	svenska	_	_	_	_	_	_	_	
+25-10	1433-1447	hyresmarknaden	_	_	_	_	_	_	_	
+25-11	1447-1448	,	_	_	_	_	_	_	_	
+25-12	1449-1452	det	_	_	_	_	_	_	_	
+25-13	1453-1455	så	_	_	_	_	_	_	_	
+25-14	1456-1463	kallade	_	_	_	_	_	_	_	
+25-15	1464-1483	bruksvärdessystemet	_	_	_	_	_	_	_	
+25-16	1483-1484	,	_	_	_	_	_	_	_	
+25-17	1485-1488	gör	_	_	_	_	_	_	_	
+25-18	1489-1492	att	_	_	_	_	_	_	_	
+25-19	1493-1516	transaktionskostnaderna	_	_	_	_	_	_	_	
+25-20	1516-1517	,	_	_	_	_	_	_	_	
+25-21	1518-1524	främst	_	_	_	_	_	_	_	
+25-22	1525-1526	i	_	_	_	_	_	_	_	
+25-23	1527-1531	form	_	_	_	_	_	_	_	
+25-24	1532-1534	av	_	_	_	_	_	_	_	
+25-25	1535-1541	söktid	_	_	_	_	_	_	_	
+25-26	1541-1542	,	_	_	_	_	_	_	_	
+25-27	1543-1547	ökar	_	_	_	_	_	_	_	
+25-28	1547-1548	.	_	_	_	_	_	_	_	
+25-29	1548-1549	"	_	_	_	_	_	_	_	
+25-30	1549-1550	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1552-1553	#	_	_	_	_	_	_	_	
+26-2	1553-1554	P	_	_	_	_	_	_	_	
+26-3	1555-1558	IMM	_	_	_	_	_	_	_	
+26-4	1558-1559	.	_	_	_	_	_	_	_	
+
+#Text=Kort sagt.
+27-1	1561-1565	Kort	_	_	_	_	_	_	_	
+27-2	1566-1570	sagt	_	_	_	_	_	_	_	
+27-3	1570-1571	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsbristen är ett hot mot Sveriges ekonomiska utveckling.
+28-1	1572-1586	Bostadsbristen	*	_	_	_	_	_	_	
+28-2	1587-1589	är	_	Target[7]	28-1	false[7]	2[7]	_	_	
+28-3	1590-1593	ett	_	Target[7]	28-1	false[7]	2[7]	_	_	
+28-4	1594-1597	hot	_	Target[7]	28-1	false[7]	2[7]	_	_	
+28-5	1598-1601	mot	_	_	_	_	_	_	_	
+28-6	1602-1610	Sveriges	_	_	_	_	_	_	_	
+28-7	1611-1621	ekonomiska	_	_	_	_	_	_	_	
+28-8	1622-1632	utveckling	_	_	_	_	_	_	_	
+28-9	1632-1633	.	_	_	_	_	_	_	_	
+
+#Text=Bristen på hyresrätter är det stora problemet.
+29-1	1634-1641	Bristen	*[35]	_	_	_	_	_	_	
+29-2	1642-1644	på	*[35]	_	_	_	_	_	_	
+29-3	1645-1656	hyresrätter	*[35]	_	_	_	_	_	_	
+29-4	1657-1659	är	_	Target[8]	29-1[35]	false[8]	2[8]	_	_	
+29-5	1660-1663	det	_	Target[8]	29-1[35]	false[8]	2[8]	_	_	
+29-6	1664-1669	stora	_	Target[8]	29-1[35]	false[8]	2[8]	_	_	
+29-7	1670-1679	problemet	_	Target[8]	29-1[35]	false[8]	2[8]	_	_	
+29-8	1679-1680	.	_	_	_	_	_	_	_	
+
+#Text=Förvisso har det politiska och mediala intresset ökat i takt med att fler drabbas av bostadskrisen.
+30-1	1681-1689	Förvisso	_	Target	30-2[36]	false	4	_	_	
+30-2	1690-1693	har	*[36]	_	_	_	_	_	_	
+30-3	1694-1697	det	*[36]	_	_	_	_	_	_	
+30-4	1698-1707	politiska	*[36]	_	_	_	_	_	_	
+30-5	1708-1711	och	*[36]	_	_	_	_	_	_	
+30-6	1712-1719	mediala	*[36]	_	_	_	_	_	_	
+30-7	1720-1729	intresset	*[36]	_	_	_	_	_	_	
+30-8	1730-1734	ökat	*[36]	_	_	_	_	_	_	
+30-9	1735-1736	i	*[36]	_	_	_	_	_	_	
+30-10	1737-1741	takt	*[36]	_	_	_	_	_	_	
+30-11	1742-1745	med	*[36]	_	_	_	_	_	_	
+30-12	1746-1749	att	*[36]	_	_	_	_	_	_	
+30-13	1750-1754	fler	*[36]	_	_	_	_	_	_	
+30-14	1755-1762	drabbas	*[36]	_	_	_	_	_	_	
+30-15	1763-1765	av	*[36]	_	_	_	_	_	_	
+30-16	1766-1779	bostadskrisen	*[36]	_	_	_	_	_	_	
+30-17	1779-1780	.	_	_	_	_	_	_	_	
+
+#Text=Den politiska diskussionen har dock stannat vid ytlig retorik, som inte fört saken framåt.
+31-1	1781-1784	Den	*[37]	_	_	_	_	_	_	
+31-2	1785-1794	politiska	*[37]	_	_	_	_	_	_	
+31-3	1795-1807	diskussionen	*[37]	_	_	_	_	_	_	
+31-4	1808-1811	har	_	_	_	false	2	_	_	
+31-5	1812-1816	dock	_	_	_	_	_	_	_	
+31-6	1817-1824	stannat	_	Target[9]	31-1[37]	false[9]	2[9]	31-4[0_9]	_	
+31-7	1825-1828	vid	_	Target[9]	31-1[37]	false[9]	2[9]	_	_	
+31-8	1829-1834	ytlig	*[38]	Target[9]	31-1[37]	false[9]	2[9]	_	_	
+31-9	1835-1842	retorik	*[38]	Target[9]	31-1[37]	false[9]	2[9]	_	_	
+31-10	1842-1843	,	_	_	_	_	_	_	_	
+31-11	1844-1847	som	_	_	_	_	_	_	_	
+31-12	1848-1852	inte	_	Target[10]	31-8[38]	false[10]	2[10]	_	_	
+31-13	1853-1857	fört	_	Target[10]	31-8[38]	false[10]	2[10]	_	_	
+31-14	1858-1863	saken	_	Target[10]	31-8[38]	false[10]	2[10]	_	_	
+31-15	1864-1870	framåt	_	Target[10]	31-8[38]	false[10]	2[10]	_	_	
+31-16	1870-1871	.	_	_	_	_	_	_	_	
+
+#Text=Undantaget kan sägas vara bostadsminister Stefan Attefalls ambitiösa avvecklingsplan av administrativa hinder för en snabb planprocess.
+32-1	1872-1882	Undantaget	_	_	_	_	_	_	_	
+32-2	1883-1886	kan	_	_	_	_	_	_	_	
+32-3	1887-1892	sägas	_	_	_	_	_	_	_	
+32-4	1893-1897	vara	_	_	_	_	_	_	_	
+32-5	1898-1913	bostadsminister	_	_	_	_	_	_	_	
+32-6	1914-1920	Stefan	*[39]	_	_	_	_	_	_	
+32-7	1921-1930	Attefalls	*[39]	_	_	_	_	_	_	
+32-8	1931-1940	ambitiösa	_	Target[11]|Target[12]	32-6[39]|32-9[40]	false[11]|false[12]	4[11]|4[12]	_	_	
+32-9	1941-1956	avvecklingsplan	*[40]	Target[11]	32-6[39]	false[11]	4[11]	_	_	
+32-10	1957-1959	av	*[40]	_	_	_	_	_	_	
+32-11	1960-1974	administrativa	*[40]	_	_	_	_	_	_	
+32-12	1975-1981	hinder	*[40]	_	_	_	_	_	_	
+32-13	1982-1985	för	_	_	_	_	_	_	_	
+32-14	1986-1988	en	_	_	_	_	_	_	_	
+32-15	1989-1994	snabb	_	_	_	_	_	_	_	
+32-16	1995-2006	planprocess	_	_	_	_	_	_	_	
+32-17	2006-2007	.	_	_	_	_	_	_	_	
+
+#Text=Men alliansregeringen valde att avstå från strukturella förändringar av denna kollapsade marknad.
+33-1	2008-2011	Men	_	_	_	_	_	_	_	
+33-2	2012-2029	alliansregeringen	_	_	_	_	_	_	_	
+33-3	2030-2035	valde	_	_	_	_	_	_	_	
+33-4	2036-2039	att	_	_	_	_	_	_	_	
+33-5	2040-2045	avstå	_	_	_	_	_	_	_	
+33-6	2046-2050	från	_	_	_	_	_	_	_	
+33-7	2051-2063	strukturella	_	_	_	_	_	_	_	
+33-8	2064-2076	förändringar	_	_	_	_	_	_	_	
+33-9	2077-2079	av	_	_	_	_	_	_	_	
+33-10	2080-2085	denna	_	_	_	_	_	_	_	
+33-11	2086-2096	kollapsade	_	Target	33-12	false	2	_	_	
+33-12	2097-2104	marknad	*	_	_	_	_	_	_	
+33-13	2104-2105	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2107-2108	#	_	_	_	_	_	_	_	
+34-2	2108-2109	P	_	_	_	_	_	_	_	
+34-3	2110-2113	IMM	_	_	_	_	_	_	_	
+34-4	2113-2114	.	_	_	_	_	_	_	_	
+
+#Text=Den nuvarande regeringen föreslår subventioner – och tillfälliga "moduler" – som lösningen på bostadsbristen.
+35-1	2116-2119	Den	_	_	_	_	_	_	_	
+35-2	2120-2129	nuvarande	_	_	_	_	_	_	_	
+35-3	2130-2140	regeringen	_	_	_	_	_	_	_	
+35-4	2141-2149	föreslår	_	_	_	_	_	_	_	
+35-5	2150-2162	subventioner	*[41]	_	_	_	_	_	36-1[0_41]	
+35-6	2163-2164	–	*[41]	_	_	_	_	_	_	
+35-7	2165-2168	och	*[41]	_	_	_	_	_	_	
+35-8	2169-2180	tillfälliga	*[41]	_	_	_	_	_	_	
+35-9	2181-2182	"	*[41]	_	_	_	_	_	_	
+35-10	2182-2189	moduler	*[41]	_	_	_	_	_	_	
+35-11	2189-2190	"	_	_	_	_	_	_	_	
+35-12	2191-2192	–	_	_	_	_	_	_	_	
+35-13	2193-2196	som	_	_	_	_	_	_	_	
+35-14	2197-2206	lösningen	_	_	_	_	_	_	_	
+35-15	2207-2209	på	_	_	_	_	_	_	_	
+35-16	2210-2224	bostadsbristen	_	_	_	_	_	_	_	
+35-17	2224-2225	.	_	_	_	_	_	_	_	
+
+#Text=Det ger inte ett särskilt genomtänkt intryck.
+36-1	2226-2229	Det	*	_	_	_	_	_	_	
+36-2	2230-2233	ger	_	_[13]	_	false[13]	2[13]	_	_	
+36-3	2234-2238	inte	_	_[13]	_	false[13]	2[13]	_	_	
+36-4	2239-2242	ett	_	_[13]	_	false[13]	2[13]	_	_	
+36-5	2243-2251	särskilt	_	_	_	_	_	_	_	
+36-6	2252-2262	genomtänkt	_	Target[14]	36-1	false[14]	2[14]	36-2[13_14]	_	
+36-7	2263-2270	intryck	_	Target[14]	36-1	false[14]	2[14]	_	_	
+36-8	2270-2271	.	_	_	_	_	_	_	_	
+
+#Text=Varken fastighetsbranschen eller byggbranschen vill ha subventioner.
+37-1	2272-2278	Varken	_	_	_	false	2	_	_	
+37-2	2279-2298	fastighetsbranschen	*	_	_	_	_	_	_	
+37-3	2299-2304	eller	_	_	_	false	2	37-1	_	
+37-4	2305-2318	byggbranschen	*	_	_	_	_	_	_	
+37-5	2319-2323	vill	_	Source;Target;Source[15]	37-4;37-7;37-2	false[15]	2[15]	37-3[0_15]	_	
+37-6	2324-2326	ha	_	Source;Target;Source[15]	37-4;37-7;37-2	false[15]	2[15]	_	_	
+37-7	2327-2339	subventioner	*	_	_	_	_	_	_	
+37-8	2339-2340	.	_	_	_	_	_	_	_	
+
+#Text=Ingen tror förmodligen på de tillfälliga modulerna.
+38-1	2341-2346	Ingen	_	_[16]	_	false[16]	2[16]	_	_	
+38-2	2347-2351	tror	_	_[16]	_	false[16]	2[16]	_	_	
+38-3	2352-2363	förmodligen	_	_	_	_	_	_	_	
+38-4	2364-2366	på	_	Target	38-5[42]	false	2	38-1[16_0]	_	
+38-5	2367-2369	de	*[42]	_	_	_	_	_	_	
+38-6	2370-2381	tillfälliga	*[42]	_	_	_	_	_	_	
+38-7	2382-2391	modulerna	*[42]	_	_	_	_	_	_	
+38-8	2391-2392	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2394-2395	#	_	_	_	_	_	_	_	
+39-2	2395-2396	P	_	_	_	_	_	_	_	
+39-3	2397-2400	IMM	_	_	_	_	_	_	_	
+39-4	2400-2401	.	_	_	_	_	_	_	_	
+
+#Text=Det bostadspolitiska problemet är som sagt inte nytt.
+40-1	2403-2406	Det	_	_	_	_	_	_	_	
+40-2	2407-2423	bostadspolitiska	_	_	_	_	_	_	_	
+40-3	2424-2433	problemet	_	_	_	_	_	_	_	
+40-4	2434-2436	är	_	_	_	_	_	_	_	
+40-5	2437-2440	som	_	_	_	_	_	_	_	
+40-6	2441-2445	sagt	_	_	_	_	_	_	_	
+40-7	2446-2450	inte	_	_	_	_	_	_	_	
+40-8	2451-2455	nytt	_	_	_	_	_	_	_	
+40-9	2455-2456	.	_	_	_	_	_	_	_	
+
+#Text=Det har därför varit föremål för otaliga utredningar: SOU, Finanspolitiska rådet, Boverket, Riksbanken, EU-kommissionen, OECD, IMF, Nybyggarkommissionen, Bokriskommittén och nyligen bostadsrapporten kopplad till Långtidsutredningen.
+41-1	2457-2460	Det	_	_	_	_	_	_	_	
+41-2	2461-2464	har	_	_	_	_	_	_	_	
+41-3	2465-2471	därför	_	_	_	_	_	_	_	
+41-4	2472-2477	varit	_	_	_	_	_	_	_	
+41-5	2478-2485	föremål	_	_	_	_	_	_	_	
+41-6	2486-2489	för	_	_	_	_	_	_	_	
+41-7	2490-2497	otaliga	_	_	_	_	_	_	_	
+41-8	2498-2509	utredningar	_	_	_	_	_	_	_	
+41-9	2509-2510	:	_	_	_	_	_	_	_	
+41-10	2511-2514	SOU	_	_	_	_	_	_	_	
+41-11	2514-2515	,	_	_	_	_	_	_	_	
+41-12	2516-2531	Finanspolitiska	_	_	_	_	_	_	_	
+41-13	2532-2537	rådet	_	_	_	_	_	_	_	
+41-14	2537-2538	,	_	_	_	_	_	_	_	
+41-15	2539-2547	Boverket	_	_	_	_	_	_	_	
+41-16	2547-2548	,	_	_	_	_	_	_	_	
+41-17	2549-2559	Riksbanken	_	_	_	_	_	_	_	
+41-18	2559-2560	,	_	_	_	_	_	_	_	
+41-19	2561-2576	EU-kommissionen	_	_	_	_	_	_	_	
+41-20	2576-2577	,	_	_	_	_	_	_	_	
+41-21	2578-2582	OECD	_	_	_	_	_	_	_	
+41-22	2582-2583	,	_	_	_	_	_	_	_	
+41-23	2584-2587	IMF	_	_	_	_	_	_	_	
+41-24	2587-2588	,	_	_	_	_	_	_	_	
+41-25	2589-2609	Nybyggarkommissionen	_	_	_	_	_	_	_	
+41-26	2609-2610	,	_	_	_	_	_	_	_	
+41-27	2611-2626	Bokriskommittén	_	_	_	_	_	_	_	
+41-28	2627-2630	och	_	_	_	_	_	_	_	
+41-29	2631-2638	nyligen	_	_	_	_	_	_	_	
+41-30	2639-2655	bostadsrapporten	_	_	_	_	_	_	_	
+41-31	2656-2663	kopplad	_	_	_	_	_	_	_	
+41-32	2664-2668	till	_	_	_	_	_	_	_	
+41-33	2669-2688	Långtidsutredningen	_	_	_	_	_	_	_	
+41-34	2688-2689	.	_	_	_	_	_	_	_	
+
+#Text=Och i dagarna Europeiska rådet.
+42-1	2690-2693	Och	_	_	_	_	_	_	_	
+42-2	2694-2695	i	_	_	_	_	_	_	_	
+42-3	2696-2703	dagarna	_	_	_	_	_	_	_	
+42-4	2704-2714	Europeiska	_	_	_	_	_	_	_	
+42-5	2715-2720	rådet	_	_	_	_	_	_	_	
+42-6	2720-2721	.	_	_	_	_	_	_	_	
+
+#Text=Frågan är med andra ord välutredd och ytterligare utredningar om grundproblemen behövs inte.
+43-1	2722-2728	Frågan	_	_	_	_	_	_	_	
+43-2	2729-2731	är	_	_	_	_	_	_	_	
+43-3	2732-2735	med	_	_	_	_	_	_	_	
+43-4	2736-2741	andra	_	_	_	_	_	_	_	
+43-5	2742-2745	ord	_	_	_	_	_	_	_	
+43-6	2746-2755	välutredd	_	_	_	_	_	_	_	
+43-7	2756-2759	och	_	_	_	_	_	_	_	
+43-8	2760-2771	ytterligare	*[43]	_	_	_	_	_	_	
+43-9	2772-2783	utredningar	*[43]	_	_	_	_	_	_	
+43-10	2784-2786	om	_	_	_	_	_	_	_	
+43-11	2787-2801	grundproblemen	_	_	_	_	_	_	_	
+43-12	2802-2808	behövs	_	Target[17]	43-8[43]	false[17]	2[17]	_	_	
+43-13	2809-2813	inte	_	Target[17]	43-8[43]	false[17]	2[17]	_	_	
+43-14	2813-2814	.	_	_	_	_	_	_	_	
+
+#Text=Nu krävs beslut, inte fler utredningar.
+44-1	2815-2817	Nu	_	_	_	_	_	_	_	
+44-2	2818-2823	krävs	_	Target	44-3	false	4	_	_	
+44-3	2824-2830	beslut	*	_	_	_	_	_	_	
+44-4	2830-2831	,	_	_	_	_	_	_	_	
+44-5	2832-2836	inte	_	Target	44-6[44]	false	2	_	_	
+44-6	2837-2841	fler	*[44]	_	_	_	_	_	_	
+44-7	2842-2853	utredningar	*[44]	_	_	_	_	_	_	
+44-8	2853-2854	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	2856-2857	#	_	_	_	_	_	_	_	
+45-2	2857-2858	P	_	_	_	_	_	_	_	
+45-3	2859-2862	IMM	_	_	_	_	_	_	_	
+45-4	2862-2863	.	_	_	_	_	_	_	_	
+
+#Text=Investeringar i nya hyresbostäder är långsiktiga och mycket kapitalintensiva.
+46-1	2865-2878	Investeringar	*[45]	_	_	_	_	_	_	
+46-2	2879-2880	i	*[45]	_	_	_	_	_	_	
+46-3	2881-2884	nya	*[45]	_	_	_	_	_	_	
+46-4	2885-2898	hyresbostäder	*[45]	_	_	_	_	_	_	
+46-5	2899-2901	är	_	Target[18]	46-1[45]	false[18]	4[18]	_	_	
+46-6	2902-2913	långsiktiga	_	Target[18]	46-1[45]	false[18]	4[18]	_	_	
+46-7	2914-2917	och	_	Target[18]	46-1[45]	false[18]	4[18]	_	_	
+46-8	2918-2924	mycket	_	Target[18]	46-1[45]	false[18]	4[18]	_	_	
+46-9	2925-2941	kapitalintensiva	_	Target[18]	46-1[45]	false[18]	4[18]	_	_	
+46-10	2941-2942	.	_	_	_	_	_	_	_	
+
+#Text=Spelreglerna för dessa investeringar måste därför vara politiskt stabila och långsiktigt trovärdiga.
+47-1	2943-2955	Spelreglerna	_	_	_	_	_	_	_	
+47-2	2956-2959	för	_	_	_	_	_	_	_	
+47-3	2960-2965	dessa	_	_	_	_	_	_	_	
+47-4	2966-2979	investeringar	_	_	_	_	_	_	_	
+47-5	2980-2985	måste	_	_	_	_	_	_	_	
+47-6	2986-2992	därför	_	_	_	_	_	_	_	
+47-7	2993-2997	vara	_	_	_	_	_	_	_	
+47-8	2998-3007	politiskt	_	_	_	_	_	_	_	
+47-9	3008-3015	stabila	_	_	_	_	_	_	_	
+47-10	3016-3019	och	_	_	_	_	_	_	_	
+47-11	3020-3031	långsiktigt	_	_	_	_	_	_	_	
+47-12	3032-3042	trovärdiga	_	_	_	_	_	_	_	
+47-13	3042-3043	.	_	_	_	_	_	_	_	
+
+#Text=Detta kräver blocköverskridande överenskommelser.
+48-1	3044-3049	Detta	_	Target[19]	48-3[46]	false[19]	4[19]	_	_	
+48-2	3050-3056	kräver	_	Target[19]	48-3[46]	false[19]	4[19]	_	_	
+48-3	3057-3075	blocköverskridande	*[46]	_	_	_	_	_	_	
+48-4	3076-3092	överenskommelser	*[46]	_	_	_	_	_	_	
+48-5	3092-3093	.	_	_	_	_	_	_	_	
+
+#Text=I samband med presentationen av Nybyggarkommissionens rapport konstaterade förre statsministern Göran Persson också att förändringar i bostadspolitiken kräver en statsministers helhjärtade engagemang för att bli framgångsrika.
+49-1	3094-3095	I	_	_	_	_	_	_	_	
+49-2	3096-3103	samband	_	_	_	_	_	_	_	
+49-3	3104-3107	med	_	_	_	_	_	_	_	
+49-4	3108-3122	presentationen	_	_	_	_	_	_	_	
+49-5	3123-3125	av	_	_	_	_	_	_	_	
+49-6	3126-3147	Nybyggarkommissionens	_	_	_	_	_	_	_	
+49-7	3148-3155	rapport	_	_	_	_	_	_	_	
+49-8	3156-3168	konstaterade	_	_	_	_	_	_	_	
+49-9	3169-3174	förre	_	_	_	_	_	_	_	
+49-10	3175-3189	statsministern	_	_	_	_	_	_	_	
+49-11	3190-3195	Göran	_	_	_	_	_	_	_	
+49-12	3196-3203	Persson	_	_	_	_	_	_	_	
+49-13	3204-3209	också	_	_	_	_	_	_	_	
+49-14	3210-3213	att	_	_	_	_	_	_	_	
+49-15	3214-3226	förändringar	_	_	_	_	_	_	_	
+49-16	3227-3228	i	_	_	_	_	_	_	_	
+49-17	3229-3245	bostadspolitiken	_	_	_	_	_	_	_	
+49-18	3246-3252	kräver	_	_	_	_	_	_	_	
+49-19	3253-3255	en	_	_	_	_	_	_	_	
+49-20	3256-3270	statsministers	_	_	_	_	_	_	_	
+49-21	3271-3282	helhjärtade	_	_	_	_	_	_	_	
+49-22	3283-3293	engagemang	_	_	_	_	_	_	_	
+49-23	3294-3297	för	_	_	_	_	_	_	_	
+49-24	3298-3301	att	_	_	_	_	_	_	_	
+49-25	3302-3305	bli	_	_	_	_	_	_	_	
+49-26	3306-3319	framgångsrika	_	_	_	_	_	_	_	
+49-27	3319-3320	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3322-3323	#	_	_	_	_	_	_	_	
+50-2	3323-3324	P	_	_	_	_	_	_	_	
+50-3	3325-3328	IMM	_	_	_	_	_	_	_	
+50-4	3328-3329	.	_	_	_	_	_	_	_	
+
+#Text=Statsministern måste nu, när bostadsbristen är ett hot mot fler jobb och ekonomisk tillväxt, ta initiativ till omgående överläggningar med övriga partiledare om konkreta förändringar av förutsättningarna för fler tillgängliga bostäder i Sverige, framför allt hyresrätter i Stockholmsregionen och övriga tillväxtorter.
+51-1	3331-3345	Statsministern	_	_	_	_	_	_	_	
+51-2	3346-3351	måste	_	Target	51-18[47]	false	4	_	_	
+51-3	3352-3354	nu	_	_	_	_	_	_	_	
+51-4	3354-3355	,	_	_	_	_	_	_	_	
+51-5	3356-3359	när	_	_	_	_	_	_	_	
+51-6	3360-3374	bostadsbristen	*	_	_	_	_	_	_	
+51-7	3375-3377	är	_	Target[20]	51-6	false[20]	2[20]	_	_	
+51-8	3378-3381	ett	_	Target[20]	51-6	false[20]	2[20]	_	_	
+51-9	3382-3385	hot	_	Target[20]	51-6	false[20]	2[20]	_	_	
+51-10	3386-3389	mot	_	_	_	_	_	_	_	
+51-11	3390-3394	fler	_	_	_	_	_	_	_	
+51-12	3395-3399	jobb	_	_	_	_	_	_	_	
+51-13	3400-3403	och	_	_	_	_	_	_	_	
+51-14	3404-3413	ekonomisk	_	_	_	_	_	_	_	
+51-15	3414-3422	tillväxt	_	_	_	_	_	_	_	
+51-16	3422-3423	,	_	_	_	_	_	_	_	
+51-17	3424-3426	ta	_	_	_	_	_	_	_	
+51-18	3427-3436	initiativ	*[47]	_	_	_	_	_	_	
+51-19	3437-3441	till	*[47]	_	_	_	_	_	_	
+51-20	3442-3450	omgående	*[47]	_	_	_	_	_	_	
+51-21	3451-3465	överläggningar	*[47]	_	_	_	_	_	_	
+51-22	3466-3469	med	*[47]	_	_	_	_	_	_	
+51-23	3470-3476	övriga	*[47]	_	_	_	_	_	_	
+51-24	3477-3488	partiledare	*[47]	_	_	_	_	_	_	
+51-25	3489-3491	om	*[47]	_	_	_	_	_	_	
+51-26	3492-3500	konkreta	*[47]	_	_	_	_	_	_	
+51-27	3501-3513	förändringar	*[47]	_	_	_	_	_	_	
+51-28	3514-3516	av	*[47]	_	_	_	_	_	_	
+51-29	3517-3534	förutsättningarna	*[47]	_	_	_	_	_	_	
+51-30	3535-3538	för	*[47]	_	_	_	_	_	_	
+51-31	3539-3543	fler	*[47]	_	_	_	_	_	_	
+51-32	3544-3556	tillgängliga	*[47]	_	_	_	_	_	_	
+51-33	3557-3565	bostäder	*[47]	_	_	_	_	_	_	
+51-34	3566-3567	i	*[47]	_	_	_	_	_	_	
+51-35	3568-3575	Sverige	*[47]	_	_	_	_	_	_	
+51-36	3575-3576	,	_	_	_	_	_	_	_	
+51-37	3577-3584	framför	_	_	_	_	_	_	_	
+51-38	3585-3589	allt	_	_	_	_	_	_	_	
+51-39	3590-3601	hyresrätter	_	_	_	_	_	_	_	
+51-40	3602-3603	i	_	_	_	_	_	_	_	
+51-41	3604-3622	Stockholmsregionen	_	_	_	_	_	_	_	
+51-42	3623-3626	och	_	_	_	_	_	_	_	
+51-43	3627-3633	övriga	_	_	_	_	_	_	_	
+51-44	3634-3647	tillväxtorter	_	_	_	_	_	_	_	
+51-45	3647-3648	.	_	_	_	_	_	_	_	
+
+#Text=Att fortsätta att göra ingenting är inte ett alternativ.
+52-1	3649-3652	Att	*[48]	_	_	_	_	_	_	
+52-2	3653-3662	fortsätta	*[48]	_	_	_	_	_	_	
+52-3	3663-3666	att	*[48]	_	_	_	_	_	_	
+52-4	3667-3671	göra	*[48]	_	_	_	_	_	_	
+52-5	3672-3681	ingenting	*[48]	_	_	_	_	_	_	
+52-6	3682-3684	är	_	Target[21]	52-1[48]	false[21]	2[21]	_	_	
+52-7	3685-3689	inte	_	Target[21]	52-1[48]	false[21]	2[21]	_	_	
+52-8	3690-3693	ett	_	Target[21]	52-1[48]	false[21]	2[21]	_	_	
+52-9	3694-3704	alternativ	_	Target[21]	52-1[48]	false[21]	2[21]	_	_	
+52-10	3704-3705	.	_	_	_	_	_	_	_	
+
+#Text=Och nu behövs mer än taktiska överväganden, nämligen politiskt mod och handlingskraft.
+53-1	3706-3709	Och	_	_	_	_	_	_	_	
+53-2	3710-3712	nu	_	_	_	_	_	_	_	
+53-3	3713-3719	behövs	_	Target[22]|Target[23]	53-6[49]|53-10[50]	false[22]|false[23]	3[22]|4[23]	_	_	
+53-4	3720-3723	mer	_	Target[22]	53-6[49]	false[22]	3[22]	_	_	
+53-5	3724-3726	än	_	Target[22]	53-6[49]	false[22]	3[22]	_	_	
+53-6	3727-3735	taktiska	*[49]	_	_	_	_	_	_	
+53-7	3736-3748	överväganden	*[49]	_	_	_	_	_	_	
+53-8	3748-3749	,	_	_	_	_	_	_	_	
+53-9	3750-3758	nämligen	_	_	_	_	_	_	_	
+53-10	3759-3768	politiskt	*[50]	_	_	_	_	_	_	
+53-11	3769-3772	mod	*[50]	_	_	_	_	_	_	
+53-12	3773-3776	och	*[50]	_	_	_	_	_	_	
+53-13	3777-3791	handlingskraft	*[50]	_	_	_	_	_	_	
+53-14	3791-3792	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3794-3795	#	_	_	_	_	_	_	_	
+54-2	3795-3796	P	_	_	_	_	_	_	_	
+54-3	3797-3800	IMM	_	_	_	_	_	_	_	
+54-4	3800-3801	.	_	_	_	_	_	_	_	
+
+#Text=Och med dessa partiledaregenskaper som fundament innehåller inte slutsatserna i de många redan gjorda utredningarna några oöverstigliga politiska hinder:.
+55-1	3803-3806	Och	_	_	_	_	_	_	_	
+55-2	3807-3810	med	_	_	_	_	_	_	_	
+55-3	3811-3816	dessa	_	_	_	_	_	_	_	
+55-4	3817-3837	partiledaregenskaper	_	_	_	_	_	_	_	
+55-5	3838-3841	som	_	_	_	_	_	_	_	
+55-6	3842-3851	fundament	_	_	_	_	_	_	_	
+55-7	3852-3862	innehåller	_	_[24]	_	false[24]	4[24]	_	_	
+55-8	3863-3867	inte	_	_[24]	_	false[24]	4[24]	_	_	
+55-9	3868-3880	slutsatserna	*[51]	_	_	_	_	_	_	
+55-10	3881-3882	i	*[51]	_	_	_	_	_	_	
+55-11	3883-3885	de	*[51]	_	_	_	_	_	_	
+55-12	3886-3891	många	*[51]	_	_	_	_	_	_	
+55-13	3892-3897	redan	*[51]	_	_	_	_	_	_	
+55-14	3898-3904	gjorda	*[51]	_	_	_	_	_	_	
+55-15	3905-3918	utredningarna	*[51]	_	_	_	_	_	_	
+55-16	3919-3924	några	_	Target[25]	55-9[51]	false[25]	4[25]	55-7[24_25]	_	
+55-17	3925-3938	oöverstigliga	_	Target[25]	55-9[51]	false[25]	4[25]	_	_	
+55-18	3939-3948	politiska	_	Target[25]	55-9[51]	false[25]	4[25]	_	_	
+55-19	3949-3955	hinder	_	Target[25]	55-9[51]	false[25]	4[25]	_	_	
+55-20	3955-3956	:	_	_	_	_	_	_	_	
+55-21	3956-3957	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3959-3960	#	_	_	_	_	_	_	_	
+56-2	3960-3961	P	_	_	_	_	_	_	_	
+56-3	3962-3965	IMM	_	_	_	_	_	_	_	
+56-4	3965-3966	.	_	_	_	_	_	_	_	
+
+#Text=Lyckas inte de politiska ledarna under statsministerns ledning att mycket snart komma överens om en långsiktig politik för fler bostäder, framför allt fler hyresrätter, så kommer människors livsdrömmar att fortsätta att krossas och den ekonomiska utvecklingen att motverkas.
+57-1	3968-3974	Lyckas	_	_	_	_	_	_	_	
+57-2	3975-3979	inte	_	_	_	_	_	_	_	
+57-3	3980-3982	de	_	_	_	_	_	_	_	
+57-4	3983-3992	politiska	_	_	_	_	_	_	_	
+57-5	3993-4000	ledarna	_	_	_	_	_	_	_	
+57-6	4001-4006	under	_	_	_	_	_	_	_	
+57-7	4007-4022	statsministerns	_	_	_	_	_	_	_	
+57-8	4023-4030	ledning	_	_	_	_	_	_	_	
+57-9	4031-4034	att	*[52]	_	_	_	_	_	_	
+57-10	4035-4041	mycket	*[52]	_	_	_	_	_	_	
+57-11	4042-4047	snart	*[52]	_	_	_	_	_	_	
+57-12	4048-4053	komma	*[52]	_	_	_	_	_	_	
+57-13	4054-4061	överens	*[52]	_	_	_	_	_	_	
+57-14	4062-4064	om	*[52]	_	_	_	_	_	_	
+57-15	4065-4067	en	*[52]	_	_	_	_	_	_	
+57-16	4068-4078	långsiktig	*[52]	_	_	_	_	_	_	
+57-17	4079-4086	politik	*[52]	_	_	_	_	_	_	
+57-18	4087-4090	för	*[52]	_	_	_	_	_	_	
+57-19	4091-4095	fler	*[52]	_	_	_	_	_	_	
+57-20	4096-4104	bostäder	*[52]	_	_	_	_	_	_	
+57-21	4104-4105	,	_	_	_	_	_	_	_	
+57-22	4106-4113	framför	_	_	_	_	_	_	_	
+57-23	4114-4118	allt	_	_	_	_	_	_	_	
+57-24	4119-4123	fler	_	_	_	_	_	_	_	
+57-25	4124-4135	hyresrätter	_	_	_	_	_	_	_	
+57-26	4135-4136	,	_	_	_	_	_	_	_	
+57-27	4137-4139	så	_	_	_	_	_	_	_	
+57-28	4140-4146	kommer	*[53]	_	_	_	_	_	58-1[0_53]	
+57-29	4147-4157	människors	*[53]	_	_	_	_	_	_	
+57-30	4158-4169	livsdrömmar	*[53]	_	_	_	_	_	_	
+57-31	4170-4173	att	*[53]	_	_	_	_	_	_	
+57-32	4174-4183	fortsätta	*[53]	_	_	_	_	_	_	
+57-33	4184-4187	att	*[53]	_	_	_	_	_	_	
+57-34	4188-4195	krossas	*[53]	_	_	_	_	_	_	
+57-35	4196-4199	och	*[53]	_	_	_	_	_	_	
+57-36	4200-4203	den	*[53]	_	_	_	_	_	_	
+57-37	4204-4214	ekonomiska	*[53]	_	_	_	_	_	_	
+57-38	4215-4227	utvecklingen	*[53]	_	_	_	_	_	_	
+57-39	4228-4231	att	*[53]	_	_	_	_	_	_	
+57-40	4232-4241	motverkas	*[53]	_	_	_	_	_	_	
+57-41	4241-4242	.	_	Target	57-9[52]	false	4	_	_	
+
+#Text=Det har Sverige inte råd med.
+58-1	4243-4246	Det	*	_	_	_	_	_	_	
+58-2	4247-4250	har	_	_	_	false	2	_	_	
+58-3	4251-4258	Sverige	_	_	_	_	_	_	_	
+58-4	4259-4263	inte	_	Target[26]	58-1	false[26]	2[26]	58-2[0_26]	_	
+58-5	4264-4267	råd	_	Target[26]	58-1	false[26]	2[26]	_	_	
+58-6	4268-4271	med	_	Target[26]	58-1	false[26]	2[26]	_	_	
+58-7	4271-4272	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4274-4275	#	_	_	_	_	_	_	_	
+59-2	4275-4276	P	_	_	_	_	_	_	_	
+59-3	4277-4280	IMM	_	_	_	_	_	_	_	
+59-4	4280-4281	.	_	_	_	_	_	_	_	
+
+#Text=Christer Jansson.
+60-1	4283-4291	Christer	_	_	_	_	_	_	_	
+60-2	4292-4299	Jansson	_	_	_	_	_	_	_	
+60-3	4299-4300	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4302-4303	#	_	_	_	_	_	_	_	
+61-2	4303-4304	P	_	_	_	_	_	_	_	
+61-3	4305-4308	IMM	_	_	_	_	_	_	_	
+61-4	4308-4309	.	_	_	_	_	_	_	_	
+
+#Text=tidigare vd för Fastighetsägarna Stockholm,.
+62-1	4311-4319	tidigare	_	_	_	_	_	_	_	
+62-2	4320-4322	vd	_	_	_	_	_	_	_	
+62-3	4323-4326	för	_	_	_	_	_	_	_	
+62-4	4327-4343	Fastighetsägarna	_	_	_	_	_	_	_	
+62-5	4344-4353	Stockholm	_	_	_	_	_	_	_	
+62-6	4353-4354	,	_	_	_	_	_	_	_	
+62-7	4354-4355	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4357-4358	#	_	_	_	_	_	_	_	
+63-2	4358-4359	P	_	_	_	_	_	_	_	
+63-3	4360-4363	IMM	_	_	_	_	_	_	_	
+63-4	4363-4364	.	_	_	_	_	_	_	_	
+
+#Text=Senior Advisor vid Nordic Public Affairs.
+64-1	4366-4372	Senior	_	_	_	_	_	_	_	
+64-2	4373-4380	Advisor	_	_	_	_	_	_	_	
+64-3	4381-4384	vid	_	_	_	_	_	_	_	
+64-4	4385-4391	Nordic	_	_	_	_	_	_	_	
+64-5	4392-4398	Public	_	_	_	_	_	_	_	
+64-6	4399-4406	Affairs	_	_	_	_	_	_	_	
+64-7	4406-4407	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4409-4410	#	_	_	_	_	_	_	_	
+65-2	4410-4411	P	_	_	_	_	_	_	_	
+65-3	4412-4415	IMM	_	_	_	_	_	_	_	
+65-4	4415-4416	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+66-1	4418-4426	Redaktör	_	_	_	_	_	_	_	
+66-2	4426-4427	:	_	_	_	_	_	_	_	
+66-3	4428-4434	Carina	_	_	_	_	_	_	_	
+66-4	4435-4443	Stensson	_	_	_	_	_	_	_	
+66-5	4443-4444	,	_	_	_	_	_	_	_	
+66-6	4445-4455	Biträdande	_	_	_	_	_	_	_	
+66-7	4456-4464	redaktör	_	_	_	_	_	_	_	
+66-8	4464-4465	:	_	_	_	_	_	_	_	
+66-9	4466-4471	Björn	_	_	_	_	_	_	_	
+66-10	4472-4478	Jorner	_	_	_	_	_	_	_	
+66-11	4478-4479	,	_	_	_	_	_	_	_	
+66-12	4480-4484	Mejl	_	_	_	_	_	_	_	
+66-13	4484-4485	:	_	_	_	_	_	_	_	
+66-14	4486-4492	debatt	_	_	_	_	_	_	_	
+66-15	4492-4493	@	_	_	_	_	_	_	_	
+66-16	4493-4499	svd.se	_	_	_	_	_	_	_	
+66-17	4499-4500	,	_	_	_	_	_	_	_	
+66-18	4501-4514	Telefonnummer	_	_	_	_	_	_	_	
+66-19	4514-4515	:	_	_	_	_	_	_	_	
+66-20	4516-4518	08	_	_	_	_	_	_	_	
+66-21	4518-4519	-	_	_	_	_	_	_	_	
+66-22	4519-4525	135149	_	_	_	_	_	_	_	
+66-23	4525-4526	,	_	_	_	_	_	_	_	
+66-24	4527-4534	Twitter	_	_	_	_	_	_	_	
+66-25	4534-4535	:	_	_	_	_	_	_	_	
+66-26	4536-4537	@	_	_	_	_	_	_	_	
+66-27	4537-4546	SvDDebatt	_	_	_	_	_	_	_	
+66-28	4546-4547	,	_	_	_	_	_	_	_	
+66-29	4548-4556	Facebook	_	_	_	_	_	_	_	
+66-30	4556-4557	:	_	_	_	_	_	_	_	
+66-31	4558-4561	SvD	_	_	_	_	_	_	_	
+66-32	4562-4568	Debatt	_	_	_	_	_	_	_	
+66-33	4568-4569	.	_	_	_	_	_	_	_	

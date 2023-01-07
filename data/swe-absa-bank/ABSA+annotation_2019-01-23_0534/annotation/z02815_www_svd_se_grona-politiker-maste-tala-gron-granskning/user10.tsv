@@ -1,0 +1,1468 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Gröna politiker måste   
+#Text=tåla grön granskning.
+3-1	18-23	Gröna	_	_	_	_	_	_	
+3-2	24-33	politiker	_	_	_	_	_	_	
+3-3	34-39	måste	_	_	_	_	_	_	
+3-4	43-47	tåla	_	_	_	_	_	_	
+3-5	48-52	grön	_	_	_	_	_	_	
+3-6	53-63	granskning	_	_	_	_	_	_	
+3-7	63-64	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	
+
+#Text=Att vara köpt är bland det allvarligaste en offentligt finansierad forskare kan anklagas för.
+5-1	75-78	Att	*[21]	_	_	_	_	_	
+5-2	79-83	vara	*[21]	_	_	_	_	_	
+5-3	84-88	köpt	*[21]	_	_	_	_	_	
+5-4	89-91	är	_	_	_	_	_	_	
+5-5	92-97	bland	_	_	_	_	_	_	
+5-6	98-101	det	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-7	102-115	allvarligaste	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-8	116-118	en	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-9	119-129	offentligt	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-10	130-141	finansierad	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-11	142-150	forskare	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-12	151-154	kan	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-13	155-163	anklagas	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-14	164-167	för	_	Target[1]	5-1[21]	false[1]	1[1]	_	
+5-15	167-168	.	_	_	_	_	_	_	
+
+#Text=Det är ett unikt lågvattenmärke när svenska politiker utan grund beskyller forskare för detta.
+6-1	169-172	Det	_	_	_	_	_	_	
+6-2	173-175	är	_	_	_	_	_	_	
+6-3	176-179	ett	_	Target[2]	6-6[22]	false[2]	1[2]	_	
+6-4	180-185	unikt	_	Target[2]	6-6[22]	false[2]	1[2]	_	
+6-5	186-200	lågvattenmärke	_	Target[2]	6-6[22]	false[2]	1[2]	_	
+6-6	201-204	när	*[22]	_	_	_	_	_	
+6-7	205-212	svenska	*[22]	_	_	_	_	_	
+6-8	213-222	politiker	*[22]	_	_	_	_	_	
+6-9	223-227	utan	*[22]	_	_	_	_	_	
+6-10	228-233	grund	*[22]	_	_	_	_	_	
+6-11	234-243	beskyller	*[22]	_	_	_	_	_	
+6-12	244-252	forskare	*[22]	_	_	_	_	_	
+6-13	253-256	för	*[22]	_	_	_	_	_	
+6-14	257-262	detta	*[22]	_	_	_	_	_	
+6-15	262-263	.	_	_	_	_	_	_	
+
+#Text=Att just miljöpartister stått för dessa övertramp är knappast en slump, utan kan bero på en ovana att bli granskade från "det gröna hållet", skriver Stefan Jansson, Umeå universitet, och Olof Liberg, Sveriges lantbruksuniversitet (SLU).
+7-1	264-267	Att	_	_	_	_	_	_	
+7-2	268-272	just	_	_	_	_	_	_	
+7-3	273-287	miljöpartister	_	_	_	_	_	_	
+7-4	288-293	stått	_	_	_	_	_	_	
+7-5	294-297	för	_	_	_	_	_	_	
+7-6	298-303	dessa	_	_	_	_	_	_	
+7-7	304-313	övertramp	*	Target	7-7	false	1	_	
+7-8	314-316	är	_	_	_	_	_	_	
+7-9	317-325	knappast	_	_	_	_	_	_	
+7-10	326-328	en	_	_	_	_	_	_	
+7-11	329-334	slump	_	_	_	_	_	_	
+7-12	334-335	,	_	_	_	_	_	_	
+7-13	336-340	utan	_	_	_	_	_	_	
+7-14	341-344	kan	_	_	_	_	_	_	
+7-15	345-349	bero	_	_	_	_	_	_	
+7-16	350-352	på	_	_	_	_	_	_	
+7-17	353-355	en	_	_	_	_	_	_	
+7-18	356-361	ovana	_	_	_	_	_	_	
+7-19	362-365	att	_	_	_	_	_	_	
+7-20	366-369	bli	_	_	_	_	_	_	
+7-21	370-379	granskade	_	_	_	_	_	_	
+7-22	380-384	från	_	_	_	_	_	_	
+7-23	385-386	"	_	_	_	_	_	_	
+7-24	386-389	det	_	_	_	_	_	_	
+7-25	390-395	gröna	_	_	_	_	_	_	
+7-26	396-402	hållet	_	_	_	_	_	_	
+7-27	402-403	"	_	_	_	_	_	_	
+7-28	403-404	,	_	_	_	_	_	_	
+7-29	405-412	skriver	_	_	_	_	_	_	
+7-30	413-419	Stefan	_	_	_	_	_	_	
+7-31	420-427	Jansson	_	_	_	_	_	_	
+7-32	427-428	,	_	_	_	_	_	_	
+7-33	429-433	Umeå	_	_	_	_	_	_	
+7-34	434-445	universitet	_	_	_	_	_	_	
+7-35	445-446	,	_	_	_	_	_	_	
+7-36	447-450	och	_	_	_	_	_	_	
+7-37	451-455	Olof	_	_	_	_	_	_	
+7-38	456-462	Liberg	_	_	_	_	_	_	
+7-39	462-463	,	_	_	_	_	_	_	
+7-40	464-472	Sveriges	_	_	_	_	_	_	
+7-41	473-493	lantbruksuniversitet	_	_	_	_	_	_	
+7-42	494-495	(	_	_	_	_	_	_	
+7-43	495-498	SLU	_	_	_	_	_	_	
+7-44	498-499	)	_	_	_	_	_	_	
+7-45	499-500	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	502-503	#	_	_	_	_	_	_	
+8-2	503-504	P	_	_	_	_	_	_	
+8-3	505-508	IMM	_	_	_	_	_	_	
+8-4	508-509	.	_	_	_	_	_	_	
+
+#Text=Vi tycker det är ytterst uppseendeväckande och upprörande att miljöpartistiska politiker offentligt går ut med ärekränkande uttalanden mot enskilda forskare.Stefan Jansson och Olof Liberg.
+9-1	511-513	Vi	_	_	_	_	_	_	
+9-2	514-520	tycker	_	_	_	_	_	_	
+9-3	521-524	det	_	_	_	_	_	_	
+9-4	525-527	är	_	_	_	_	_	_	
+9-5	528-535	ytterst	_	Target[3]	9-9[23]	false[3]	1[3]	_	
+9-6	536-553	uppseendeväckande	_	Target[3]	9-9[23]	false[3]	1[3]	_	
+9-7	554-557	och	_	Target[3]	9-9[23]	false[3]	1[3]	_	
+9-8	558-568	upprörande	_	Target[3]	9-9[23]	false[3]	1[3]	_	
+9-9	569-572	att	*[23]	_	_	_	_	_	
+9-10	573-589	miljöpartistiska	*[23]	_	_	_	_	_	
+9-11	590-599	politiker	*[23]	_	_	_	_	_	
+9-12	600-610	offentligt	*[23]	_	_	_	_	_	
+9-13	611-614	går	*[23]	_	_	_	_	_	
+9-14	615-617	ut	*[23]	_	_	_	_	_	
+9-15	618-621	med	*[23]	_	_	_	_	_	
+9-16	622-634	ärekränkande	*[23]|*[24]	Target	9-16[24]	false	1	_	
+9-17	635-645	uttalanden	*[23]	_	_	_	_	_	
+9-18	646-649	mot	*[23]	_	_	_	_	_	
+9-19	650-658	enskilda	*[23]	_	_	_	_	_	
+9-20	659-674	forskare.Stefan	*[23]	_	_	_	_	_	
+9-21	675-682	Jansson	_	_	_	_	_	_	
+9-22	683-686	och	_	_	_	_	_	_	
+9-23	687-691	Olof	_	_	_	_	_	_	
+9-24	692-698	Liberg	_	_	_	_	_	_	
+9-25	698-699	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	701-702	#	_	_	_	_	_	_	
+10-2	702-703	P	_	_	_	_	_	_	
+10-3	704-707	IMM	_	_	_	_	_	_	
+10-4	707-708	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	710-713	Det	_	_	_	_	_	_	
+11-2	714-717	här	_	_	_	_	_	_	
+11-3	718-720	är	_	_	_	_	_	_	
+11-4	721-723	en	_	_	_	_	_	_	
+11-5	724-738	argumenterande	_	_	_	_	_	_	
+11-6	739-743	text	_	_	_	_	_	_	
+11-7	744-747	med	_	_	_	_	_	_	
+11-8	748-753	syfte	_	_	_	_	_	_	
+11-9	754-757	att	_	_	_	_	_	_	
+11-10	758-765	påverka	_	_	_	_	_	_	
+11-11	765-766	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	767-776	Åsikterna	_	_	_	_	_	_	
+12-2	777-780	som	_	_	_	_	_	_	
+12-3	781-789	uttrycks	_	_	_	_	_	_	
+12-4	790-792	är	_	_	_	_	_	_	
+12-5	793-804	skribentens	_	_	_	_	_	_	
+12-6	805-809	egna	_	_	_	_	_	_	
+12-7	809-810	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	812-813	#	_	_	_	_	_	_	
+13-2	813-814	P	_	_	_	_	_	_	
+13-3	815-818	IMM	_	_	_	_	_	_	
+13-4	818-819	.	_	_	_	_	_	_	
+
+#Text=Universitetsforskare har av samhället fått privilegiet att med skattemedel bedriva oberoende forskning.
+14-1	821-841	Universitetsforskare	_	_	_	_	_	_	
+14-2	842-845	har	_	_	_	_	_	_	
+14-3	846-848	av	_	_	_	_	_	_	
+14-4	849-858	samhället	_	_	_	_	_	_	
+14-5	859-863	fått	_	_	_	_	_	_	
+14-6	864-875	privilegiet	_	Target	14-7[25]	false	4	_	
+14-7	876-879	att	*[25]	_	_	_	_	_	
+14-8	880-883	med	*[25]	_	_	_	_	_	
+14-9	884-895	skattemedel	*[25]	_	_	_	_	_	
+14-10	896-903	bedriva	*[25]	_	_	_	_	_	
+14-11	904-913	oberoende	*[25]	_	_	_	_	_	
+14-12	914-923	forskning	*[25]	_	_	_	_	_	
+14-13	923-924	.	_	_	_	_	_	_	
+
+#Text=Det medför också ett ansvar att informera allmänhet och beslutsfattare om forskningsresultat inom sitt specialområde.
+15-1	925-928	Det	_	_	_	_	_	_	
+15-2	929-935	medför	_	_	_	_	_	_	
+15-3	936-941	också	_	_	_	_	_	_	
+15-4	942-945	ett	_	_	_	_	_	_	
+15-5	946-952	ansvar	_	_	_	_	_	_	
+15-6	953-956	att	_	_	_	_	_	_	
+15-7	957-966	informera	_	_	_	_	_	_	
+15-8	967-976	allmänhet	_	_	_	_	_	_	
+15-9	977-980	och	_	_	_	_	_	_	
+15-10	981-995	beslutsfattare	_	_	_	_	_	_	
+15-11	996-998	om	_	_	_	_	_	_	
+15-12	999-1017	forskningsresultat	_	_	_	_	_	_	
+15-13	1018-1022	inom	_	_	_	_	_	_	
+15-14	1023-1027	sitt	_	_	_	_	_	_	
+15-15	1028-1041	specialområde	_	_	_	_	_	_	
+15-16	1041-1042	.	_	_	_	_	_	_	
+
+#Text=En universitetsforskare som fabricerar resultat eller ändrar sina åsikter beroende på finansiärers önskemål är grovt vetenskapligt oredlig och bör skiljas från sitt arbete.
+16-1	1043-1045	En	*[26]	_	_	_	_	_	
+16-2	1046-1066	universitetsforskare	*[26]	_	_	_	_	_	
+16-3	1067-1070	som	*[26]	_	_	_	_	_	
+16-4	1071-1081	fabricerar	*[26]	_	_	_	_	_	
+16-5	1082-1090	resultat	*[26]	_	_	_	_	_	
+16-6	1091-1096	eller	*[26]	_	_	_	_	_	
+16-7	1097-1103	ändrar	*[26]	_	_	_	_	_	
+16-8	1104-1108	sina	*[26]	_	_	_	_	_	
+16-9	1109-1116	åsikter	*[26]	_	_	_	_	_	
+16-10	1117-1125	beroende	*[26]	_	_	_	_	_	
+16-11	1126-1128	på	*[26]	_	_	_	_	_	
+16-12	1129-1141	finansiärers	*[26]	_	_	_	_	_	
+16-13	1142-1150	önskemål	*[26]	_	_	_	_	_	
+16-14	1151-1153	är	_	_	_	_	_	_	
+16-15	1154-1159	grovt	_	Target[4]	16-1[26]	false[4]	1[4]	_	
+16-16	1160-1173	vetenskapligt	_	Target[4]	16-1[26]	false[4]	1[4]	_	
+16-17	1174-1181	oredlig	_	Target[4]	16-1[26]	false[4]	1[4]	_	
+16-18	1182-1185	och	_	_	_	_	_	_	
+16-19	1186-1189	bör	_	_	_	_	_	_	
+16-20	1190-1197	skiljas	_	_	_	_	_	_	
+16-21	1198-1202	från	_	_	_	_	_	_	
+16-22	1203-1207	sitt	_	_	_	_	_	_	
+16-23	1208-1214	arbete	_	_	_	_	_	_	
+16-24	1214-1215	.	_	_	_	_	_	_	
+
+#Text=För en forskares yrkesroll är sådana anklagelser lika allvarliga som påståenden om förskingring av offentliga medel.
+17-1	1216-1219	För	_	_	_	_	_	_	
+17-2	1220-1222	en	_	_	_	_	_	_	
+17-3	1223-1232	forskares	_	_	_	_	_	_	
+17-4	1233-1242	yrkesroll	_	_	_	_	_	_	
+17-5	1243-1245	är	_	_	_	_	_	_	
+17-6	1246-1252	sådana	*[27]	_	_	_	_	_	
+17-7	1253-1264	anklagelser	*[27]	_	_	_	_	_	
+17-8	1265-1269	lika	_	_	_	_	_	_	
+17-9	1270-1280	allvarliga	_	Target;Target	17-13[28];17-6[27]	false	1	_	
+17-10	1281-1284	som	_	_	_	_	_	_	
+17-11	1285-1295	påståenden	_	_	_	_	_	_	
+17-12	1296-1298	om	_	_	_	_	_	_	
+17-13	1299-1311	förskingring	*[28]	_	_	_	_	_	
+17-14	1312-1314	av	*[28]	_	_	_	_	_	
+17-15	1315-1325	offentliga	*[28]	_	_	_	_	_	
+17-16	1326-1331	medel	*[28]	_	_	_	_	_	
+17-17	1331-1332	.	_	_	_	_	_	_	
+
+#Text=Den som utan grund beskyller en forskare för att ha låtit sig köpas kan alltså göra sig skyldig till förtal eller ärekränkning.
+18-1	1333-1336	Den	*[29]	_	_	_	_	_	
+18-2	1337-1340	som	*[29]	_	_	_	_	_	
+18-3	1341-1345	utan	*[29]	_	_	_	_	_	
+18-4	1346-1351	grund	*[29]	_	_	_	_	_	
+18-5	1352-1361	beskyller	_	Target;Source	18-6[30];18-1[29]	false	1	_	
+18-6	1362-1364	en	*[30]	_	_	_	_	_	
+18-7	1365-1373	forskare	*[30]	_	_	_	_	_	
+18-8	1374-1377	för	_	_[5]	_	false[5]	1[5]	18-5[0_5]	
+18-9	1378-1381	att	_	_[5]	_	false[5]	1[5]	_	
+18-10	1382-1384	ha	_	_[5]	_	false[5]	1[5]	_	
+18-11	1385-1390	låtit	_	_[5]	_	false[5]	1[5]	_	
+18-12	1391-1394	sig	_	_[5]	_	false[5]	1[5]	_	
+18-13	1395-1400	köpas	_	_[5]	_	false[5]	1[5]	_	
+18-14	1401-1404	kan	_	_	_	_	_	_	
+18-15	1405-1411	alltså	_	_	_	_	_	_	
+18-16	1412-1416	göra	_	_	_	_	_	_	
+18-17	1417-1420	sig	_	_	_	_	_	_	
+18-18	1421-1428	skyldig	_	_	_	_	_	_	
+18-19	1429-1433	till	_	_	_	_	_	_	
+18-20	1434-1440	förtal	_	_	_	_	_	_	
+18-21	1441-1446	eller	_	_	_	_	_	_	
+18-22	1447-1459	ärekränkning	*	Target	18-22	false	1	_	
+18-23	1459-1460	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1462-1463	#	_	_	_	_	_	_	
+19-2	1463-1464	P	_	_	_	_	_	_	
+19-3	1465-1468	IMM	_	_	_	_	_	_	
+19-4	1468-1469	.	_	_	_	_	_	_	
+
+#Text=Vi tar gärna en debatt, om argumentationen baserar sig på fakta och inte på falska anklagelser – som i dessa fall:.
+20-1	1471-1473	Vi	*	_	_	_	_	_	
+20-2	1474-1477	tar	_	Source[6]	20-1	false[6]	4[6]	_	
+20-3	1478-1483	gärna	_	Source[6]	20-1	false[6]	4[6]	_	
+20-4	1484-1486	en	_	Source[6]	20-1	false[6]	4[6]	_	
+20-5	1487-1493	debatt	_	Source[6]	20-1	false[6]	4[6]	_	
+20-6	1493-1494	,	_	_	_	_	_	_	
+20-7	1495-1497	om	_	_	_	_	_	_	
+20-8	1498-1513	argumentationen	_	_	_	_	_	_	
+20-9	1514-1521	baserar	_	_	_	_	_	_	
+20-10	1522-1525	sig	_	_	_	_	_	_	
+20-11	1526-1528	på	_	_	_	_	_	_	
+20-12	1529-1534	fakta	_	_	_	_	_	_	
+20-13	1535-1538	och	_	_	_	_	_	_	
+20-14	1539-1543	inte	_	_	_	_	_	_	
+20-15	1544-1546	på	_	_	_	_	_	_	
+20-16	1547-1553	falska	*[31]	Target[7]	20-16[31]	false[7]	2[7]	_	
+20-17	1554-1565	anklagelser	*[31]	Target[7]	20-16[31]	false[7]	2[7]	_	
+20-18	1566-1567	–	_	_	_	_	_	_	
+20-19	1568-1571	som	_	_	_	_	_	_	
+20-20	1572-1573	i	_	_	_	_	_	_	
+20-21	1574-1579	dessa	_	_	_	_	_	_	
+20-22	1580-1584	fall	_	_	_	_	_	_	
+20-23	1584-1585	:	_	_	_	_	_	_	
+20-24	1585-1586	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+21-1	1588-1589	#	_	_	_	_	_	_	
+21-2	1589-1590	P	_	_	_	_	_	_	
+21-3	1591-1594	IMM	_	_	_	_	_	_	
+
+#Text=.
+22-1	1594-1595	.	_	_	_	_	_	_	
+
+#Text=• I partiledardebatten inför Europaparlamentsvalet den 7 maj sade språkröret Åsa Romson att regeringen "tvingar vissa forskare att skriva vinklade rapporter" om den svenska vargstammen.
+23-1	1597-1598	•	_	_	_	_	_	_	
+23-2	1599-1600	I	_	_	_	_	_	_	
+23-3	1601-1619	partiledardebatten	_	_	_	_	_	_	
+23-4	1620-1625	inför	_	_	_	_	_	_	
+23-5	1626-1647	Europaparlamentsvalet	_	_	_	_	_	_	
+23-6	1648-1651	den	_	_	_	_	_	_	
+23-7	1652-1653	7	_	_	_	_	_	_	
+23-8	1654-1657	maj	_	_	_	_	_	_	
+23-9	1658-1662	sade	_	_	_	_	_	_	
+23-10	1663-1673	språkröret	_	_	_	_	_	_	
+23-11	1674-1677	Åsa	_	_	_	_	_	_	
+23-12	1678-1684	Romson	_	_	_	_	_	_	
+23-13	1685-1688	att	_	_	_	_	_	_	
+23-14	1689-1699	regeringen	_	_	_	_	_	_	
+23-15	1700-1701	"	_	_	_	_	_	_	
+23-16	1701-1708	tvingar	_	_	_	_	_	_	
+23-17	1709-1714	vissa	_	_	_	_	_	_	
+23-18	1715-1723	forskare	_	_	_	_	_	_	
+23-19	1724-1727	att	_	_	_	_	_	_	
+23-20	1728-1734	skriva	_	_	_	_	_	_	
+23-21	1735-1743	vinklade	_	_	_	_	_	_	
+23-22	1744-1753	rapporter	_	_	_	_	_	_	
+23-23	1753-1754	"	_	_	_	_	_	_	
+23-24	1755-1757	om	_	_	_	_	_	_	
+23-25	1758-1761	den	_	_	_	_	_	_	
+23-26	1762-1769	svenska	_	_	_	_	_	_	
+23-27	1770-1781	vargstammen	_	_	_	_	_	_	
+23-28	1781-1782	.	_	_	_	_	_	_	
+
+#Text=En av oss, Olof Liberg, är huvudförfattare till dessa rapporter utförda på regeringens uppdrag och kände sig utpekad.
+24-1	1783-1785	En	_	_	_	_	_	_	
+24-2	1786-1788	av	_	_	_	_	_	_	
+24-3	1789-1792	oss	_	_	_	_	_	_	
+24-4	1792-1793	,	_	_	_	_	_	_	
+24-5	1794-1798	Olof	*[32]	_	_	_	_	_	
+24-6	1799-1805	Liberg	*[32]	_	_	_	_	_	
+24-7	1805-1806	,	_	_	_	_	_	_	
+24-8	1807-1809	är	_	_	_	_	_	_	
+24-9	1810-1825	huvudförfattare	_	_	_	_	_	_	
+24-10	1826-1830	till	_	_	_	_	_	_	
+24-11	1831-1836	dessa	_	_	_	_	_	_	
+24-12	1837-1846	rapporter	_	_	_	_	_	_	
+24-13	1847-1854	utförda	_	_	_	_	_	_	
+24-14	1855-1857	på	_	_	_	_	_	_	
+24-15	1858-1869	regeringens	_	_	_	_	_	_	
+24-16	1870-1877	uppdrag	_	_	_	_	_	_	
+24-17	1878-1881	och	_	_	_	_	_	_	
+24-18	1882-1887	kände	_	Source[8]	24-5[32]	false[8]	1[8]	_	
+24-19	1888-1891	sig	_	Source[8]	24-5[32]	false[8]	1[8]	_	
+24-20	1892-1899	utpekad	_	Source[8]	24-5[32]	false[8]	1[8]	_	
+24-21	1899-1900	.	_	_	_	_	_	_	
+
+#Text=Romsons respons var att hon "inte syftade på Olof Liberg utan på andra forskare" som hon dock inte ville namnge.
+25-1	1901-1908	Romsons	_	_	_	_	_	_	
+25-2	1909-1916	respons	_	_	_	_	_	_	
+25-3	1917-1920	var	_	_	_	_	_	_	
+25-4	1921-1924	att	_	_	_	_	_	_	
+25-5	1925-1928	hon	_	_	_	_	_	_	
+25-6	1929-1930	"	_	_	_	_	_	_	
+25-7	1930-1934	inte	_	_	_	_	_	_	
+25-8	1935-1942	syftade	_	_	_	_	_	_	
+25-9	1943-1945	på	_	_	_	_	_	_	
+25-10	1946-1950	Olof	_	_	_	_	_	_	
+25-11	1951-1957	Liberg	_	_	_	_	_	_	
+25-12	1958-1962	utan	_	_	_	_	_	_	
+25-13	1963-1965	på	_	_	_	_	_	_	
+25-14	1966-1971	andra	_	_	_	_	_	_	
+25-15	1972-1980	forskare	_	_	_	_	_	_	
+25-16	1980-1981	"	_	_	_	_	_	_	
+25-17	1982-1985	som	_	_	_	_	_	_	
+25-18	1986-1989	hon	_	_	_	_	_	_	
+25-19	1990-1994	dock	_	_	_	_	_	_	
+25-20	1995-1999	inte	_	_	_	_	_	_	
+25-21	2000-2005	ville	_	_	_	_	_	_	
+25-22	2006-2012	namnge	_	_	_	_	_	_	
+25-23	2012-2013	.	_	_	_	_	_	_	
+
+#Text=Vilka hon faktiskt avsåg och vad hon grundade detta på har hon inte velat precisera men det måste rimligen röra sig om forskare vid Institutionen för ekologi vid SLU som skrivit samtliga dessa rapporter.
+26-1	2014-2019	Vilka	_	_	_	_	_	_	
+26-2	2020-2023	hon	_	_	_	_	_	_	
+26-3	2024-2032	faktiskt	_	_	_	_	_	_	
+26-4	2033-2038	avsåg	_	_	_	_	_	_	
+26-5	2039-2042	och	_	_	_	_	_	_	
+26-6	2043-2046	vad	_	_	_	_	_	_	
+26-7	2047-2050	hon	_	_	_	_	_	_	
+26-8	2051-2059	grundade	_	_	_	_	_	_	
+26-9	2060-2065	detta	_	_	_	_	_	_	
+26-10	2066-2068	på	_	_	_	_	_	_	
+26-11	2069-2072	har	_	_	_	_	_	_	
+26-12	2073-2076	hon	_	_	_	_	_	_	
+26-13	2077-2081	inte	_	_	_	_	_	_	
+26-14	2082-2087	velat	_	_	_	_	_	_	
+26-15	2088-2097	precisera	_	_	_	_	_	_	
+26-16	2098-2101	men	_	_	_	_	_	_	
+26-17	2102-2105	det	_	_	_	_	_	_	
+26-18	2106-2111	måste	_	_	_	_	_	_	
+26-19	2112-2120	rimligen	_	_	_	_	_	_	
+26-20	2121-2125	röra	_	_	_	_	_	_	
+26-21	2126-2129	sig	_	_	_	_	_	_	
+26-22	2130-2132	om	_	_	_	_	_	_	
+26-23	2133-2141	forskare	_	_	_	_	_	_	
+26-24	2142-2145	vid	_	_	_	_	_	_	
+26-25	2146-2159	Institutionen	_	_	_	_	_	_	
+26-26	2160-2163	för	_	_	_	_	_	_	
+26-27	2164-2171	ekologi	_	_	_	_	_	_	
+26-28	2172-2175	vid	_	_	_	_	_	_	
+26-29	2176-2179	SLU	_	_	_	_	_	_	
+26-30	2180-2183	som	_	_	_	_	_	_	
+26-31	2184-2191	skrivit	_	_	_	_	_	_	
+26-32	2192-2200	samtliga	_	_	_	_	_	_	
+26-33	2201-2206	dessa	_	_	_	_	_	_	
+26-34	2207-2216	rapporter	_	_	_	_	_	_	
+26-35	2216-2217	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+27-1	2219-2220	#	_	_	_	_	_	_	
+27-2	2220-2221	P	_	_	_	_	_	_	
+27-3	2222-2225	IMM	_	_	_	_	_	_	
+
+#Text=.
+28-1	2225-2226	.	_	_	_	_	_	_	
+
+#Text=• Under en radiodebatt om genmodifierade växter i P1 den 20 maj inför Europaparlamentsvalet uttryckte EU-parlamentarikern Isabella Lövin sin irritation över att bli motsagd av en av oss, Stefan Jansson.
+29-1	2228-2229	•	_	_	_	_	_	_	
+29-2	2230-2235	Under	_	_	_	_	_	_	
+29-3	2236-2238	en	_	_	_	_	_	_	
+29-4	2239-2250	radiodebatt	_	_	_	_	_	_	
+29-5	2251-2253	om	_	_	_	_	_	_	
+29-6	2254-2268	genmodifierade	_	_	_	_	_	_	
+29-7	2269-2275	växter	_	_	_	_	_	_	
+29-8	2276-2277	i	_	_	_	_	_	_	
+29-9	2278-2280	P1	_	_	_	_	_	_	
+29-10	2281-2284	den	_	_	_	_	_	_	
+29-11	2285-2287	20	_	_	_	_	_	_	
+29-12	2288-2291	maj	_	_	_	_	_	_	
+29-13	2292-2297	inför	_	_	_	_	_	_	
+29-14	2298-2319	Europaparlamentsvalet	_	_	_	_	_	_	
+29-15	2320-2329	uttryckte	_	_	_	false	1	_	
+29-16	2330-2349	EU-parlamentarikern	_	_	_	_	_	_	
+29-17	2350-2358	Isabella	*[33]	_	_	_	_	_	
+29-18	2359-2364	Lövin	*[33]	_	_	_	_	_	
+29-19	2365-2368	sin	_	_	_	_	_	_	
+29-20	2369-2379	irritation	_	Target;Source[9]	29-22[34];29-17[33]	false[9]	1[9]	29-15[0_9]	
+29-21	2380-2384	över	_	Target;Source[9]	29-22[34];29-17[33]	false[9]	1[9]	_	
+29-22	2385-2388	att	*[34]	_	_	_	_	_	
+29-23	2389-2392	bli	*[34]	_	_	_	_	_	
+29-24	2393-2400	motsagd	*[34]	_	_	_	_	_	
+29-25	2401-2403	av	*[34]	_	_	_	_	_	
+29-26	2404-2406	en	*[34]	_	_	_	_	_	
+29-27	2407-2409	av	*[34]	_	_	_	_	_	
+29-28	2410-2413	oss	*[34]	_	_	_	_	_	
+29-29	2413-2414	,	_	_	_	_	_	_	
+29-30	2415-2421	Stefan	_	_	_	_	_	_	
+29-31	2422-2429	Jansson	_	_	_	_	_	_	
+29-32	2429-2430	.	_	_	_	_	_	_	
+
+#Text=I debatten – inför publik och ledd av en journalist – som följde efter sändningen sade hon "jag vet ju inte vem som betalar din lön" och lämnade scenen utan att ge möjlighet till svar.
+30-1	2431-2432	I	_	_	_	_	_	_	
+30-2	2433-2441	debatten	_	_	_	_	_	_	
+30-3	2442-2443	–	_	_	_	_	_	_	
+30-4	2444-2449	inför	_	_	_	_	_	_	
+30-5	2450-2456	publik	_	_	_	_	_	_	
+30-6	2457-2460	och	_	_	_	_	_	_	
+30-7	2461-2465	ledd	_	_	_	_	_	_	
+30-8	2466-2468	av	_	_	_	_	_	_	
+30-9	2469-2471	en	_	_	_	_	_	_	
+30-10	2472-2482	journalist	_	_	_	_	_	_	
+30-11	2483-2484	–	_	_	_	_	_	_	
+30-12	2485-2488	som	_	_	_	_	_	_	
+30-13	2489-2495	följde	_	_	_	_	_	_	
+30-14	2496-2501	efter	_	_	_	_	_	_	
+30-15	2502-2512	sändningen	_	_	_	_	_	_	
+30-16	2513-2517	sade	_	_	_	_	_	_	
+30-17	2518-2521	hon	_	_	_	_	_	_	
+30-18	2522-2523	"	_	_	_	_	_	_	
+30-19	2523-2526	jag	_	_	_	_	_	_	
+30-20	2527-2530	vet	_	_	_	_	_	_	
+30-21	2531-2533	ju	_	_	_	_	_	_	
+30-22	2534-2538	inte	_	_	_	_	_	_	
+30-23	2539-2542	vem	_	_	_	_	_	_	
+30-24	2543-2546	som	_	_	_	_	_	_	
+30-25	2547-2554	betalar	_	_	_	_	_	_	
+30-26	2555-2558	din	_	_	_	_	_	_	
+30-27	2559-2562	lön	_	_	_	_	_	_	
+30-28	2562-2563	"	_	_	_	_	_	_	
+30-29	2564-2567	och	_	_	_	_	_	_	
+30-30	2568-2575	lämnade	_	_	_	_	_	_	
+30-31	2576-2582	scenen	_	_	_	_	_	_	
+30-32	2583-2587	utan	_	_	_	_	_	_	
+30-33	2588-2591	att	_	_	_	_	_	_	
+30-34	2592-2594	ge	_	_	_	_	_	_	
+30-35	2595-2604	möjlighet	_	_	_	_	_	_	
+30-36	2605-2609	till	_	_	_	_	_	_	
+30-37	2610-2614	svar	_	_	_	_	_	_	
+30-38	2614-2615	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+31-1	2617-2618	#	_	_	_	_	_	_	
+31-2	2618-2619	P	_	_	_	_	_	_	
+31-3	2620-2623	IMM	_	_	_	_	_	_	
+
+#Text=.
+32-1	2623-2624	.	_	_	_	_	_	_	
+
+#Text=• I efterspelet till denna debatt avfärdade kommunpolitikern Anne-Sophie Dureigne i en artikel i Trelleborgs Allehanda Stefan Janssons argument med att "Det är kanske värt att tillägga att vissa av hans bästa samarbetspartners är Gynsenta och Strube, två av världens största GMO-företag.
+33-1	2626-2627	•	_	_	_	_	_	_	
+33-2	2628-2629	I	_	_	_	_	_	_	
+33-3	2630-2641	efterspelet	_	_	_	_	_	_	
+33-4	2642-2646	till	_	_	_	_	_	_	
+33-5	2647-2652	denna	_	_	_	_	_	_	
+33-6	2653-2659	debatt	_	_	_	_	_	_	
+33-7	2660-2669	avfärdade	_	_	_	_	_	_	
+33-8	2670-2686	kommunpolitikern	_	_	_	_	_	_	
+33-9	2687-2698	Anne-Sophie	_	_	_	_	_	_	
+33-10	2699-2707	Dureigne	_	_	_	_	_	_	
+33-11	2708-2709	i	_	_	_	_	_	_	
+33-12	2710-2712	en	_	_	_	_	_	_	
+33-13	2713-2720	artikel	_	_	_	_	_	_	
+33-14	2721-2722	i	_	_	_	_	_	_	
+33-15	2723-2734	Trelleborgs	_	_	_	_	_	_	
+33-16	2735-2744	Allehanda	_	_	_	_	_	_	
+33-17	2745-2751	Stefan	_	_	_	_	_	_	
+33-18	2752-2760	Janssons	_	_	_	_	_	_	
+33-19	2761-2769	argument	_	_	_	_	_	_	
+33-20	2770-2773	med	_	_	_	_	_	_	
+33-21	2774-2777	att	_	_	_	_	_	_	
+33-22	2778-2779	"	_	_	_	_	_	_	
+33-23	2779-2782	Det	_	_	_	_	_	_	
+33-24	2783-2785	är	_	_	_	_	_	_	
+33-25	2786-2792	kanske	_	_	_	_	_	_	
+33-26	2793-2797	värt	_	_	_	_	_	_	
+33-27	2798-2801	att	_	_	_	_	_	_	
+33-28	2802-2810	tillägga	_	_	_	_	_	_	
+33-29	2811-2814	att	_	_	_	_	_	_	
+33-30	2815-2820	vissa	_	_	_	_	_	_	
+33-31	2821-2823	av	_	_	_	_	_	_	
+33-32	2824-2828	hans	_	_	_	_	_	_	
+33-33	2829-2834	bästa	_	_	_	_	_	_	
+33-34	2835-2852	samarbetspartners	_	_	_	_	_	_	
+33-35	2853-2855	är	_	_	_	_	_	_	
+33-36	2856-2864	Gynsenta	_	_	_	_	_	_	
+33-37	2865-2868	och	_	_	_	_	_	_	
+33-38	2869-2875	Strube	_	_	_	_	_	_	
+33-39	2875-2876	,	_	_	_	_	_	_	
+33-40	2877-2880	två	_	_	_	_	_	_	
+33-41	2881-2883	av	_	_	_	_	_	_	
+33-42	2884-2892	världens	_	_	_	_	_	_	
+33-43	2893-2900	största	_	_	_	_	_	_	
+33-44	2901-2912	GMO-företag	_	_	_	_	_	_	
+33-45	2912-2913	.	_	_	_	_	_	_	
+
+#Text=En slump?".
+34-1	2914-2916	En	_	_	_	_	_	_	
+34-2	2917-2922	slump	_	_	_	_	_	_	
+34-3	2922-2923	?	_	_	_	_	_	_	
+34-4	2923-2924	"	_	_	_	_	_	_	
+34-5	2924-2925	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2927-2928	#	_	_	_	_	_	_	
+35-2	2928-2929	P	_	_	_	_	_	_	
+35-3	2930-2933	IMM	_	_	_	_	_	_	
+35-4	2933-2934	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+36-1	2936-2949	Skräddarsydda	_	_	_	_	_	_	
+36-2	2950-2956	kurser	_	_	_	_	_	_	
+36-3	2957-2958	i	_	_	_	_	_	_	
+36-4	2959-2964	ämnen	_	_	_	_	_	_	
+36-5	2965-2968	som	_	_	_	_	_	_	
+36-6	2969-2980	intresserar	_	_	_	_	_	_	
+36-7	2981-2984	och	_	_	_	_	_	_	
+36-8	2985-2994	engagerar	_	_	_	_	_	_	
+36-9	2995-2999	både	_	_	_	_	_	_	
+36-10	3000-3005	kropp	_	_	_	_	_	_	
+36-11	3006-3009	och	_	_	_	_	_	_	
+36-12	3010-3014	själ	_	_	_	_	_	_	
+36-13	3014-3015	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3017-3018	#	_	_	_	_	_	_	
+37-2	3018-3019	P	_	_	_	_	_	_	
+37-3	3020-3023	IMM	_	_	_	_	_	_	
+37-4	3023-3024	.	_	_	_	_	_	_	
+
+#Text=Alla dessa insinuationer är helt tagna ur luften.
+38-1	3026-3030	Alla	*[35]	_	_	_	_	_	
+38-2	3031-3036	dessa	*[35]	_	_	_	_	_	
+38-3	3037-3050	insinuationer	*[35]	_	_	_	_	_	
+38-4	3051-3053	är	_	_	_	_	_	_	
+38-5	3054-3058	helt	_	Target[10]	38-1[35]	false[10]	2[10]	_	
+38-6	3059-3064	tagna	_	Target[10]	38-1[35]	false[10]	2[10]	_	
+38-7	3065-3067	ur	_	Target[10]	38-1[35]	false[10]	2[10]	_	
+38-8	3068-3074	luften	_	Target[10]	38-1[35]	false[10]	2[10]	_	
+38-9	3074-3075	.	_	_	_	_	_	_	
+
+#Text=SLU:s ekologi-forskare har givetvis inte friserat forskningsresultat efter regeringens politiska önskemål.
+39-1	3076-3079	SLU	_	_	_	_	_	_	
+39-2	3079-3080	:	_	_	_	_	_	_	
+39-3	3080-3081	s	_	_	_	_	_	_	
+39-4	3082-3098	ekologi-forskare	_	_	_	_	_	_	
+39-5	3099-3102	har	_	_	_	_	_	_	
+39-6	3103-3111	givetvis	_	_	_	_	_	_	
+39-7	3112-3116	inte	_	_	_	_	_	_	
+39-8	3117-3125	friserat	*[36]	Target[11]	39-8[36]	false[11]	2[11]	_	
+39-9	3126-3144	forskningsresultat	*[36]	Target[11]	39-8[36]	false[11]	2[11]	_	
+39-10	3145-3150	efter	_	_	_	_	_	_	
+39-11	3151-3162	regeringens	_	_	_	_	_	_	
+39-12	3163-3172	politiska	_	_	_	_	_	_	
+39-13	3173-3181	önskemål	_	_	_	_	_	_	
+39-14	3181-3182	.	_	_	_	_	_	_	
+
+#Text=Stefan Janssons lön betalas av Umeå universitet, det vill säga av svenska skattebetalare, och han har inget samarbete med Syngenta (som enligt ett senare debattinlägg verkar vara det företag som avses), eller med Strube (som för övrigt inte alls säljer genmodifierade frön).
+40-1	3183-3189	Stefan	_	_	_	_	_	_	
+40-2	3190-3198	Janssons	_	_	_	_	_	_	
+40-3	3199-3202	lön	_	_	_	_	_	_	
+40-4	3203-3210	betalas	_	_	_	_	_	_	
+40-5	3211-3213	av	_	_	_	_	_	_	
+40-6	3214-3218	Umeå	_	_	_	_	_	_	
+40-7	3219-3230	universitet	_	_	_	_	_	_	
+40-8	3230-3231	,	_	_	_	_	_	_	
+40-9	3232-3235	det	_	_	_	_	_	_	
+40-10	3236-3240	vill	_	_	_	_	_	_	
+40-11	3241-3245	säga	_	_	_	_	_	_	
+40-12	3246-3248	av	_	_	_	_	_	_	
+40-13	3249-3256	svenska	_	_	_	_	_	_	
+40-14	3257-3271	skattebetalare	_	_	_	_	_	_	
+40-15	3271-3272	,	_	_	_	_	_	_	
+40-16	3273-3276	och	_	_	_	_	_	_	
+40-17	3277-3280	han	_	_	_	_	_	_	
+40-18	3281-3284	har	_	_	_	_	_	_	
+40-19	3285-3290	inget	_	_	_	_	_	_	
+40-20	3291-3300	samarbete	_	_	_	_	_	_	
+40-21	3301-3304	med	_	_	_	_	_	_	
+40-22	3305-3313	Syngenta	_	_	_	_	_	_	
+40-23	3314-3315	(	_	_	_	_	_	_	
+40-24	3315-3318	som	_	_	_	_	_	_	
+40-25	3319-3325	enligt	_	_	_	_	_	_	
+40-26	3326-3329	ett	_	_	_	_	_	_	
+40-27	3330-3336	senare	_	_	_	_	_	_	
+40-28	3337-3349	debattinlägg	_	_	_	_	_	_	
+40-29	3350-3356	verkar	_	_	_	_	_	_	
+40-30	3357-3361	vara	_	_	_	_	_	_	
+40-31	3362-3365	det	_	_	_	_	_	_	
+40-32	3366-3373	företag	_	_	_	_	_	_	
+40-33	3374-3377	som	_	_	_	_	_	_	
+40-34	3378-3383	avses	_	_	_	_	_	_	
+40-35	3383-3384	)	_	_	_	_	_	_	
+40-36	3384-3385	,	_	_	_	_	_	_	
+40-37	3386-3391	eller	_	_	_	_	_	_	
+40-38	3392-3395	med	_	_	_	_	_	_	
+40-39	3396-3402	Strube	_	_	_	_	_	_	
+40-40	3403-3404	(	_	_	_	_	_	_	
+40-41	3404-3407	som	_	_	_	_	_	_	
+40-42	3408-3411	för	_	_	_	_	_	_	
+40-43	3412-3418	övrigt	_	_	_	_	_	_	
+40-44	3419-3423	inte	_	_	_	_	_	_	
+40-45	3424-3428	alls	_	_	_	_	_	_	
+40-46	3429-3435	säljer	_	_	_	_	_	_	
+40-47	3436-3450	genmodifierade	_	_	_	_	_	_	
+40-48	3451-3455	frön	_	_	_	_	_	_	
+40-49	3455-3456	)	_	_	_	_	_	_	
+40-50	3456-3457	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3459-3460	#	_	_	_	_	_	_	
+41-2	3460-3461	P	_	_	_	_	_	_	
+41-3	3462-3465	IMM	_	_	_	_	_	_	
+41-4	3465-3466	.	_	_	_	_	_	_	
+
+#Text=Att svenska politiker anklagar forskare för att vara köpta eller fabricera resultat är unikt och det kan knappast vara en tillfällighet att det i samtliga dessa fall varit miljöpartistiska politiker som gjort dessa blundrar.
+42-1	3468-3471	Att	_	_	_	_	_	_	
+42-2	3472-3479	svenska	*[37]	_	_	_	_	_	
+42-3	3480-3489	politiker	*[37]	_	_	_	_	_	
+42-4	3490-3498	anklagar	_	Target;Source	42-5;42-2[37]	false	1	_	
+42-5	3499-3507	forskare	*	_	_	_	_	_	
+42-6	3508-3511	för	_	_[12]	_	false[12]	1[12]	42-4[0_12]	
+42-7	3512-3515	att	_	_[12]	_	false[12]	1[12]	_	
+42-8	3516-3520	vara	_	_[12]	_	false[12]	1[12]	_	
+42-9	3521-3526	köpta	_	_[12]	_	false[12]	1[12]	_	
+42-10	3527-3532	eller	_	_	_	_	_	_	
+42-11	3533-3542	fabricera	_	_	_	_	_	_	
+42-12	3543-3551	resultat	_	_	_	_	_	_	
+42-13	3552-3554	är	_	_	_	_	_	_	
+42-14	3555-3560	unikt	_	_	_	_	_	_	
+42-15	3561-3564	och	_	_	_	_	_	_	
+42-16	3565-3568	det	_	_	_	_	_	_	
+42-17	3569-3572	kan	_	_	_	_	_	_	
+42-18	3573-3581	knappast	_	_	_	_	_	_	
+42-19	3582-3586	vara	_	_	_	_	_	_	
+42-20	3587-3589	en	_	_	_	_	_	_	
+42-21	3590-3603	tillfällighet	_	_	_	_	_	_	
+42-22	3604-3607	att	_	_	_	_	_	_	
+42-23	3608-3611	det	_	_	_	_	_	_	
+42-24	3612-3613	i	_	_	_	_	_	_	
+42-25	3614-3622	samtliga	_	_	_	_	_	_	
+42-26	3623-3628	dessa	_	_	_	_	_	_	
+42-27	3629-3633	fall	_	_	_	_	_	_	
+42-28	3634-3639	varit	_	_	_	_	_	_	
+42-29	3640-3656	miljöpartistiska	*[38]	_	_	_	_	_	
+42-30	3657-3666	politiker	*[38]	_	_	_	_	_	
+42-31	3667-3670	som	_	_	_	_	_	_	
+42-32	3671-3676	gjort	_	Target[13]	42-29[38]	false[13]	2[13]	_	
+42-33	3677-3682	dessa	_	Target[13]	42-29[38]	false[13]	2[13]	_	
+42-34	3683-3691	blundrar	_	Target[13]	42-29[38]	false[13]	2[13]	_	
+42-35	3691-3692	.	_	_	_	_	_	_	
+
+#Text=Vi tror dock inte att Miljöpartiets politiker är vare sig mer eller mindre erfarna än andra partiers, eller att de har ett vidlyftigare förhållande till sanning och fakta än andra, ens i stridens hetta.
+43-1	3693-3695	Vi	_	_	_	_	_	_	
+43-2	3696-3700	tror	_	_	_	_	_	_	
+43-3	3701-3705	dock	_	_	_	_	_	_	
+43-4	3706-3710	inte	_	_	_	_	_	_	
+43-5	3711-3714	att	_	_	_	_	_	_	
+43-6	3715-3728	Miljöpartiets	_	_	_	_	_	_	
+43-7	3729-3738	politiker	_	_	_	_	_	_	
+43-8	3739-3741	är	_	_	_	_	_	_	
+43-9	3742-3746	vare	_	_	_	_	_	_	
+43-10	3747-3750	sig	_	_	_	_	_	_	
+43-11	3751-3754	mer	_	_	_	_	_	_	
+43-12	3755-3760	eller	_	_	_	_	_	_	
+43-13	3761-3767	mindre	_	_	_	_	_	_	
+43-14	3768-3775	erfarna	_	_	_	_	_	_	
+43-15	3776-3778	än	_	_	_	_	_	_	
+43-16	3779-3784	andra	_	_	_	_	_	_	
+43-17	3785-3793	partiers	_	_	_	_	_	_	
+43-18	3793-3794	,	_	_	_	_	_	_	
+43-19	3795-3800	eller	_	_	_	_	_	_	
+43-20	3801-3804	att	_	_	_	_	_	_	
+43-21	3805-3807	de	_	_	_	_	_	_	
+43-22	3808-3811	har	_	_	_	_	_	_	
+43-23	3812-3815	ett	_	_	_	_	_	_	
+43-24	3816-3828	vidlyftigare	*	Target	43-24	false	2	_	
+43-25	3829-3840	förhållande	_	_	_	_	_	_	
+43-26	3841-3845	till	_	_	_	_	_	_	
+43-27	3846-3853	sanning	_	_	_	_	_	_	
+43-28	3854-3857	och	_	_	_	_	_	_	
+43-29	3858-3863	fakta	_	_	_	_	_	_	
+43-30	3864-3866	än	_	_	_	_	_	_	
+43-31	3867-3872	andra	_	_	_	_	_	_	
+43-32	3872-3873	,	_	_	_	_	_	_	
+43-33	3874-3877	ens	_	_	_	_	_	_	
+43-34	3878-3879	i	_	_	_	_	_	_	
+43-35	3880-3888	stridens	_	_	_	_	_	_	
+43-36	3889-3894	hetta	_	_	_	_	_	_	
+43-37	3894-3895	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3897-3898	#	_	_	_	_	_	_	
+44-2	3898-3899	P	_	_	_	_	_	_	
+44-3	3900-3903	IMM	_	_	_	_	_	_	
+44-4	3903-3904	.	_	_	_	_	_	_	
+
+#Text=**Vår enda tolkning **av det inträffade är att Miljöpartiet saknar erfarenhet av att forskare kritiskt granskar deras politik från "det gröna hållet" och att man därför blir provocerade och reflexmässigt bemöter sådan kritik på det sätt som är vanligt inom politiken: Ingen höjer på ögonbrynen om Socialdemokraterna anklagas för att gå fackets ärenden eller Centerpartiet jordbrukarnas.
+45-1	3906-3907	*	_	_	_	_	_	_	
+45-2	3907-3908	*	_	_	_	_	_	_	
+45-3	3908-3911	Vår	_	_	_	_	_	_	
+45-4	3912-3916	enda	_	_	_	_	_	_	
+45-5	3917-3925	tolkning	_	_	_	_	_	_	
+45-6	3926-3927	*	_	_	_	_	_	_	
+45-7	3927-3928	*	_	_	_	_	_	_	
+45-8	3928-3930	av	_	_	_	_	_	_	
+45-9	3931-3934	det	_	_	_	_	_	_	
+45-10	3935-3945	inträffade	_	_	_	_	_	_	
+45-11	3946-3948	är	_	_	_	_	_	_	
+45-12	3949-3952	att	_	_	_	_	_	_	
+45-13	3953-3965	Miljöpartiet	*	_	_	_	_	_	
+45-14	3966-3972	saknar	_	_	_	_	_	_	
+45-15	3973-3983	erfarenhet	_	_	_	_	_	_	
+45-16	3984-3986	av	_	_	_	_	_	_	
+45-17	3987-3990	att	_	_	_	_	_	_	
+45-18	3991-3999	forskare	_	_	_	_	_	_	
+45-19	4000-4008	kritiskt	_	_	_	_	_	_	
+45-20	4009-4017	granskar	_	_	_	_	_	_	
+45-21	4018-4023	deras	_	_	_	_	_	_	
+45-22	4024-4031	politik	_	_	_	_	_	_	
+45-23	4032-4036	från	_	_	_	_	_	_	
+45-24	4037-4038	"	_	_	_	_	_	_	
+45-25	4038-4041	det	_	_	_	_	_	_	
+45-26	4042-4047	gröna	_	_	_	_	_	_	
+45-27	4048-4054	hållet	_	_	_	_	_	_	
+45-28	4054-4055	"	_	_	_	_	_	_	
+45-29	4056-4059	och	_	_	_	_	_	_	
+45-30	4060-4063	att	_	_	_	_	_	_	
+45-31	4064-4067	man	_	_	_	_	_	_	
+45-32	4068-4074	därför	_	_	_	_	_	_	
+45-33	4075-4079	blir	_	Source[14]	45-13	false[14]	1[14]	_	
+45-34	4080-4091	provocerade	_	Source[14]	45-13	false[14]	1[14]	_	
+45-35	4092-4095	och	_	_	_	_	_	_	
+45-36	4096-4109	reflexmässigt	_	_	_	_	_	_	
+45-37	4110-4117	bemöter	_	_	_	_	_	_	
+45-38	4118-4123	sådan	_	_	_	_	_	_	
+45-39	4124-4130	kritik	_	_	_	_	_	_	
+45-40	4131-4133	på	_	_	_	_	_	_	
+45-41	4134-4137	det	_	_	_	_	_	_	
+45-42	4138-4142	sätt	_	_	_	_	_	_	
+45-43	4143-4146	som	_	_	_	_	_	_	
+45-44	4147-4149	är	_	_	_	_	_	_	
+45-45	4150-4157	vanligt	_	_	_	_	_	_	
+45-46	4158-4162	inom	_	_	_	_	_	_	
+45-47	4163-4172	politiken	_	_	_	_	_	_	
+45-48	4172-4173	:	_	_	_	_	_	_	
+45-49	4174-4179	Ingen	_	_	_	_	_	_	
+45-50	4180-4185	höjer	_	_	_	_	_	_	
+45-51	4186-4188	på	_	_	_	_	_	_	
+45-52	4189-4199	ögonbrynen	_	_	_	_	_	_	
+45-53	4200-4202	om	_	_	_	_	_	_	
+45-54	4203-4221	Socialdemokraterna	_	_	_	_	_	_	
+45-55	4222-4230	anklagas	_	_	_	_	_	_	
+45-56	4231-4234	för	_	_	_	_	_	_	
+45-57	4235-4238	att	_	_	_	_	_	_	
+45-58	4239-4241	gå	_	_	_	_	_	_	
+45-59	4242-4249	fackets	_	_	_	_	_	_	
+45-60	4250-4257	ärenden	_	_	_	_	_	_	
+45-61	4258-4263	eller	_	_	_	_	_	_	
+45-62	4264-4277	Centerpartiet	_	_	_	_	_	_	
+45-63	4278-4291	jordbrukarnas	_	_	_	_	_	_	
+45-64	4291-4292	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4294-4295	#	_	_	_	_	_	_	
+46-2	4295-4296	P	_	_	_	_	_	_	
+46-3	4297-4300	IMM	_	_	_	_	_	_	
+46-4	4300-4301	.	_	_	_	_	_	_	
+
+#Text=Men forskning är inte politik.
+47-1	4303-4306	Men	_	_	_	_	_	_	
+47-2	4307-4316	forskning	_	_	_	_	_	_	
+47-3	4317-4319	är	_	_	_	_	_	_	
+47-4	4320-4324	inte	_	_	_	_	_	_	
+47-5	4325-4332	politik	_	_	_	_	_	_	
+47-6	4332-4333	.	_	_	_	_	_	_	
+
+#Text=Även om forskare förstås får ha politiska preferenser så är politiska argument för den ena eller andra värderingen något helt annat än när forskare förklarar vad forskningsresultat visar.
+48-1	4334-4338	Även	_	_	_	_	_	_	
+48-2	4339-4341	om	_	_	_	_	_	_	
+48-3	4342-4350	forskare	_	_	_	_	_	_	
+48-4	4351-4358	förstås	_	_	_	_	_	_	
+48-5	4359-4362	får	_	_	_	_	_	_	
+48-6	4363-4365	ha	_	_	_	_	_	_	
+48-7	4366-4375	politiska	_	_	_	_	_	_	
+48-8	4376-4387	preferenser	_	_	_	_	_	_	
+48-9	4388-4390	så	_	_	_	_	_	_	
+48-10	4391-4393	är	_	_	_	_	_	_	
+48-11	4394-4403	politiska	_	_	_	_	_	_	
+48-12	4404-4412	argument	_	_	_	_	_	_	
+48-13	4413-4416	för	_	_	_	_	_	_	
+48-14	4417-4420	den	_	_	_	_	_	_	
+48-15	4421-4424	ena	_	_	_	_	_	_	
+48-16	4425-4430	eller	_	_	_	_	_	_	
+48-17	4431-4436	andra	_	_	_	_	_	_	
+48-18	4437-4448	värderingen	_	_	_	_	_	_	
+48-19	4449-4454	något	_	_	_	_	_	_	
+48-20	4455-4459	helt	_	_	_	_	_	_	
+48-21	4460-4465	annat	_	_	_	_	_	_	
+48-22	4466-4468	än	_	_	_	_	_	_	
+48-23	4469-4472	när	_	_	_	_	_	_	
+48-24	4473-4481	forskare	_	_	_	_	_	_	
+48-25	4482-4491	förklarar	_	_	_	_	_	_	
+48-26	4492-4495	vad	_	_	_	_	_	_	
+48-27	4496-4514	forskningsresultat	_	_	_	_	_	_	
+48-28	4515-4520	visar	_	_	_	_	_	_	
+48-29	4520-4521	.	_	_	_	_	_	_	
+
+#Text=Och det vi har gjort är att vi – baserat på oberoende forskning finansierad av offentliga medel – pekat på att Miljöpartiets dogmatiska inställning i vissa frågor står i konflikt med forskning och beprövad erfarenhet.
+49-1	4522-4525	Och	_	_	_	_	_	_	
+49-2	4526-4529	det	_	_	_	_	_	_	
+49-3	4530-4532	vi	_	_	_	_	_	_	
+49-4	4533-4536	har	_	_	_	_	_	_	
+49-5	4537-4542	gjort	_	_	_	_	_	_	
+49-6	4543-4545	är	_	_	_	_	_	_	
+49-7	4546-4549	att	_	_	_	_	_	_	
+49-8	4550-4552	vi	_	_	_	_	_	_	
+49-9	4553-4554	–	_	_	_	_	_	_	
+49-10	4555-4562	baserat	_	_	_	_	_	_	
+49-11	4563-4565	på	_	_	_	_	_	_	
+49-12	4566-4575	oberoende	_	_	_	_	_	_	
+49-13	4576-4585	forskning	_	_	_	_	_	_	
+49-14	4586-4597	finansierad	_	_	_	_	_	_	
+49-15	4598-4600	av	_	_	_	_	_	_	
+49-16	4601-4611	offentliga	_	_	_	_	_	_	
+49-17	4612-4617	medel	_	_	_	_	_	_	
+49-18	4618-4619	–	_	_	_	_	_	_	
+49-19	4620-4625	pekat	_	_	_	_	_	_	
+49-20	4626-4628	på	_	_	_	_	_	_	
+49-21	4629-4632	att	_	_	_	_	_	_	
+49-22	4633-4646	Miljöpartiets	*	_	_	_	_	_	
+49-23	4647-4657	dogmatiska	_	Target[15]	49-22	false[15]	1[15]	_	
+49-24	4658-4669	inställning	_	Target[15]	49-22	false[15]	1[15]	_	
+49-25	4670-4671	i	_	_	_	_	_	_	
+49-26	4672-4677	vissa	_	_	_	_	_	_	
+49-27	4678-4684	frågor	_	_	_	_	_	_	
+49-28	4685-4689	står	_	_	_	_	_	_	
+49-29	4690-4691	i	_	_	_	_	_	_	
+49-30	4692-4700	konflikt	_	_	_	_	_	_	
+49-31	4701-4704	med	_	_	_	_	_	_	
+49-32	4705-4714	forskning	_	_	_	_	_	_	
+49-33	4715-4718	och	_	_	_	_	_	_	
+49-34	4719-4727	beprövad	_	_	_	_	_	_	
+49-35	4728-4738	erfarenhet	_	_	_	_	_	_	
+49-36	4738-4739	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4741-4742	#	_	_	_	_	_	_	
+50-2	4742-4743	P	_	_	_	_	_	_	
+50-3	4744-4747	IMM	_	_	_	_	_	_	
+50-4	4747-4748	.	_	_	_	_	_	_	
+
+#Text=**Man kan givetvis diskutera **hur precisa forskningsresultat är, till exempel hur säker man kan vara på att ett visst antal vargar behövs för en livskraftig vargpopulation i Sverige, eller att användning av genmodifierade växter skulle leda till ett miljövänligare jordbruk.
+51-1	4750-4751	*	_	_	_	_	_	_	
+51-2	4751-4752	*	_	_	_	_	_	_	
+51-3	4752-4755	Man	_	_	_	_	_	_	
+51-4	4756-4759	kan	_	_	_	_	_	_	
+51-5	4760-4768	givetvis	_	_	_	_	_	_	
+51-6	4769-4778	diskutera	_	_	_	_	_	_	
+51-7	4779-4780	*	_	_	_	_	_	_	
+51-8	4780-4781	*	_	_	_	_	_	_	
+51-9	4781-4784	hur	_	_	_	_	_	_	
+51-10	4785-4792	precisa	_	_	_	_	_	_	
+51-11	4793-4811	forskningsresultat	_	_	_	_	_	_	
+51-12	4812-4814	är	_	_	_	_	_	_	
+51-13	4814-4815	,	_	_	_	_	_	_	
+51-14	4816-4820	till	_	_	_	_	_	_	
+51-15	4821-4828	exempel	_	_	_	_	_	_	
+51-16	4829-4832	hur	_	_	_	_	_	_	
+51-17	4833-4838	säker	_	_	_	_	_	_	
+51-18	4839-4842	man	_	_	_	_	_	_	
+51-19	4843-4846	kan	_	_	_	_	_	_	
+51-20	4847-4851	vara	_	_	_	_	_	_	
+51-21	4852-4854	på	_	_	_	_	_	_	
+51-22	4855-4858	att	_	_	_	_	_	_	
+51-23	4859-4862	ett	_	_	_	_	_	_	
+51-24	4863-4868	visst	_	_	_	_	_	_	
+51-25	4869-4874	antal	_	_	_	_	_	_	
+51-26	4875-4881	vargar	_	_	_	_	_	_	
+51-27	4882-4888	behövs	_	_	_	_	_	_	
+51-28	4889-4892	för	_	_	_	_	_	_	
+51-29	4893-4895	en	_	_	_	_	_	_	
+51-30	4896-4907	livskraftig	*	Target	51-30	false	4	_	
+51-31	4908-4922	vargpopulation	_	_	_	_	_	_	
+51-32	4923-4924	i	_	_	_	_	_	_	
+51-33	4925-4932	Sverige	_	_	_	_	_	_	
+51-34	4932-4933	,	_	_	_	_	_	_	
+51-35	4934-4939	eller	_	_	_	_	_	_	
+51-36	4940-4943	att	_	_	_	_	_	_	
+51-37	4944-4954	användning	_	_	_	_	_	_	
+51-38	4955-4957	av	_	_	_	_	_	_	
+51-39	4958-4972	genmodifierade	_	_	_	_	_	_	
+51-40	4973-4979	växter	_	_	_	_	_	_	
+51-41	4980-4986	skulle	_	_	_	_	_	_	
+51-42	4987-4991	leda	_	_	_	_	_	_	
+51-43	4992-4996	till	_	_	_	_	_	_	
+51-44	4997-5000	ett	_	_	_	_	_	_	
+51-45	5001-5015	miljövänligare	*	Target	51-45	false	4	_	
+51-46	5016-5024	jordbruk	_	_	_	_	_	_	
+51-47	5024-5025	.	_	_	_	_	_	_	
+
+#Text=Men det är en helt annan sak att anklaga forskare för att gå finansiärers ärenden och vinkla forskningsresultat på beställning.
+52-1	5026-5029	Men	_	_	_	_	_	_	
+52-2	5030-5033	det	_	_	_	_	_	_	
+52-3	5034-5036	är	_	_	_	_	_	_	
+52-4	5037-5039	en	_	_	_	_	_	_	
+52-5	5040-5044	helt	_	_	_	_	_	_	
+52-6	5045-5050	annan	_	_	_	_	_	_	
+52-7	5051-5054	sak	_	_	_	_	_	_	
+52-8	5055-5058	att	_	_	_	_	_	_	
+52-9	5059-5066	anklaga	_	Source;Target	52-21;52-10	false	1	_	
+52-10	5067-5075	forskare	*	_	_	_	_	_	
+52-11	5076-5079	för	_	_[16]	_	false[16]	1[16]	52-9[0_16]	
+52-12	5080-5083	att	_	_[16]	_	false[16]	1[16]	_	
+52-13	5084-5086	gå	_	_[16]	_	false[16]	1[16]	_	
+52-14	5087-5099	finansiärers	_	_[16]	_	false[16]	1[16]	_	
+52-15	5100-5107	ärenden	_	_[16]	_	false[16]	1[16]	_	
+52-16	5108-5111	och	_	_	_	_	_	_	
+52-17	5112-5118	vinkla	_	_	_	_	_	_	
+52-18	5119-5137	forskningsresultat	_	_	_	_	_	_	
+52-19	5138-5140	på	_	_	_	_	_	_	
+52-20	5141-5152	beställning	_	_	_	_	_	_	
+52-21	5152-5153	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	5155-5156	#	_	_	_	_	_	_	
+53-2	5156-5157	P	_	_	_	_	_	_	
+53-3	5158-5161	IMM	_	_	_	_	_	_	
+53-4	5161-5162	.	_	_	_	_	_	_	
+
+#Text=Det står förstås Miljöpartiet fritt att ta hänsyn till annat än forskningsresultat när man utformar sin politik, eftersom politik även styrs av intressegrupper och av ideal.
+54-1	5164-5167	Det	_	_	_	_	_	_	
+54-2	5168-5172	står	_	_	_	_	_	_	
+54-3	5173-5180	förstås	_	_	_	_	_	_	
+54-4	5181-5193	Miljöpartiet	_	_	_	_	_	_	
+54-5	5194-5199	fritt	_	_	_	_	_	_	
+54-6	5200-5203	att	_	_	_	_	_	_	
+54-7	5204-5206	ta	_	_	_	_	_	_	
+54-8	5207-5213	hänsyn	_	_	_	_	_	_	
+54-9	5214-5218	till	_	_	_	_	_	_	
+54-10	5219-5224	annat	_	_	_	_	_	_	
+54-11	5225-5227	än	_	_	_	_	_	_	
+54-12	5228-5246	forskningsresultat	_	_	_	_	_	_	
+54-13	5247-5250	när	_	_	_	_	_	_	
+54-14	5251-5254	man	_	_	_	_	_	_	
+54-15	5255-5263	utformar	_	_	_	_	_	_	
+54-16	5264-5267	sin	_	_	_	_	_	_	
+54-17	5268-5275	politik	_	_	_	_	_	_	
+54-18	5275-5276	,	_	_	_	_	_	_	
+54-19	5277-5285	eftersom	_	_	_	_	_	_	
+54-20	5286-5293	politik	_	_	_	_	_	_	
+54-21	5294-5298	även	_	_	_	_	_	_	
+54-22	5299-5304	styrs	_	_	_	_	_	_	
+54-23	5305-5307	av	_	_	_	_	_	_	
+54-24	5308-5323	intressegrupper	_	_	_	_	_	_	
+54-25	5324-5327	och	_	_	_	_	_	_	
+54-26	5328-5330	av	_	_	_	_	_	_	
+54-27	5331-5336	ideal	_	_	_	_	_	_	
+54-28	5336-5337	.	_	_	_	_	_	_	
+
+#Text=Men vi tycker det är ytterst uppseendeväckande och upprörande att miljöpartistiska politiker offentligt går ut med ärekränkande uttalanden mot enskilda forskare bara för att de senare kommunicerar egna eller andras forskningsresultat som inte stödjer deras partilinje.
+55-1	5338-5341	Men	_	_	_	_	_	_	
+55-2	5342-5344	vi	_	_	_	_	_	_	
+55-3	5345-5351	tycker	_	_	_	_	_	_	
+55-4	5352-5355	det	_	_	_	_	_	_	
+55-5	5356-5358	är	_	_	_	_	_	_	
+55-6	5359-5366	ytterst	_	Target[17]	55-10[39]	false[17]	1[17]	_	
+55-7	5367-5384	uppseendeväckande	_	Target[17]	55-10[39]	false[17]	1[17]	_	
+55-8	5385-5388	och	_	Target[17]	55-10[39]	false[17]	1[17]	_	
+55-9	5389-5399	upprörande	_	Target[17]	55-10[39]	false[17]	1[17]	_	
+55-10	5400-5403	att	*[39]	_	_	_	_	_	
+55-11	5404-5420	miljöpartistiska	*[39]	_	_	_	_	_	
+55-12	5421-5430	politiker	*[39]	_	_	_	_	_	
+55-13	5431-5441	offentligt	*[39]	_	_	_	_	_	
+55-14	5442-5445	går	*[39]	_	_	_	_	_	
+55-15	5446-5448	ut	*[39]	_	_	_	_	_	
+55-16	5449-5452	med	*[39]	_	_	_	_	_	
+55-17	5453-5465	ärekränkande	*[39]	_	_	_	_	_	
+55-18	5466-5476	uttalanden	*[39]	_	_	_	_	_	
+55-19	5477-5480	mot	*[39]	_	_	_	_	_	
+55-20	5481-5489	enskilda	*[39]	_	_	_	_	_	
+55-21	5490-5498	forskare	*[39]	_	_	_	_	_	
+55-22	5499-5503	bara	_	_	_	_	_	_	
+55-23	5504-5507	för	_	_	_	_	_	_	
+55-24	5508-5511	att	_	_	_	_	_	_	
+55-25	5512-5514	de	_	_	_	_	_	_	
+55-26	5515-5521	senare	_	_	_	_	_	_	
+55-27	5522-5534	kommunicerar	_	_	_	_	_	_	
+55-28	5535-5539	egna	_	_	_	_	_	_	
+55-29	5540-5545	eller	_	_	_	_	_	_	
+55-30	5546-5552	andras	_	_	_	_	_	_	
+55-31	5553-5571	forskningsresultat	_	_	_	_	_	_	
+55-32	5572-5575	som	_	_	_	_	_	_	
+55-33	5576-5580	inte	_	_	_	_	_	_	
+55-34	5581-5588	stödjer	_	_	_	_	_	_	
+55-35	5589-5594	deras	_	_	_	_	_	_	
+55-36	5595-5605	partilinje	_	_	_	_	_	_	
+55-37	5605-5606	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	5608-5609	#	_	_	_	_	_	_	
+56-2	5609-5610	P	_	_	_	_	_	_	
+56-3	5611-5614	IMM	_	_	_	_	_	_	
+56-4	5614-5615	.	_	_	_	_	_	_	
+
+#Text=Dessa uttalanden kan sedan eskalera i sociala medier där korrupta forskare är en klassisk nidbild och detta får konsekvenser för – inte bara oss personligen – utan också för tilliten till forskning i stort.
+57-1	5617-5622	Dessa	_	_	_	_	_	_	
+57-2	5623-5633	uttalanden	_	_	_	_	_	_	
+57-3	5634-5637	kan	_	_	_	_	_	_	
+57-4	5638-5643	sedan	_	_	_	_	_	_	
+57-5	5644-5652	eskalera	_	_	_	_	_	_	
+57-6	5653-5654	i	_	_	_	_	_	_	
+57-7	5655-5662	sociala	_	_	_	_	_	_	
+57-8	5663-5669	medier	_	_	_	_	_	_	
+57-9	5670-5673	där	_	_	_	_	_	_	
+57-10	5674-5682	korrupta	*[40]	_	_	_	_	_	
+57-11	5683-5691	forskare	*[40]	_	_	_	_	_	
+57-12	5692-5694	är	_	_	_	_	_	_	
+57-13	5695-5697	en	_	Target[18]	57-10[40]	false[18]	1[18]	_	
+57-14	5698-5706	klassisk	_	Target[18]	57-10[40]	false[18]	1[18]	_	
+57-15	5707-5714	nidbild	_	Target[18]	57-10[40]	false[18]	1[18]	_	
+57-16	5715-5718	och	_	_	_	_	_	_	
+57-17	5719-5724	detta	_	_	_	_	_	_	
+57-18	5725-5728	får	_	_	_	_	_	_	
+57-19	5729-5741	konsekvenser	_	_	_	_	_	_	
+57-20	5742-5745	för	_	_	_	_	_	_	
+57-21	5746-5747	–	_	_	_	_	_	_	
+57-22	5748-5752	inte	_	_	_	_	_	_	
+57-23	5753-5757	bara	_	_	_	_	_	_	
+57-24	5758-5761	oss	_	_	_	_	_	_	
+57-25	5762-5773	personligen	_	_	_	_	_	_	
+57-26	5774-5775	–	_	_	_	_	_	_	
+57-27	5776-5780	utan	_	_	_	_	_	_	
+57-28	5781-5786	också	_	_	_	_	_	_	
+57-29	5787-5790	för	_	_	_	_	_	_	
+57-30	5791-5799	tilliten	_	_	_	_	_	_	
+57-31	5800-5804	till	_	_	_	_	_	_	
+57-32	5805-5814	forskning	_	_	_	_	_	_	
+57-33	5815-5816	i	_	_	_	_	_	_	
+57-34	5817-5822	stort	_	_	_	_	_	_	
+57-35	5822-5823	.	_	_	_	_	_	_	
+
+#Text=I våra forskargärningar arbetar vi för "det gröna samhället", det vill säga för ett hållbart samhälle och en levande natur, vi har bägge under lång tid varit engagerade i den ideella miljörörelsen och har tidigare i allmänna val lagt våra röster på Miljöpartiet.
+58-1	5824-5825	I	_	_	_	_	_	_	
+58-2	5826-5830	våra	_	_	_	_	_	_	
+58-3	5831-5847	forskargärningar	_	_	_	_	_	_	
+58-4	5848-5855	arbetar	_	_	_	_	_	_	
+58-5	5856-5858	vi	_	_	_	_	_	_	
+58-6	5859-5862	för	_	_	_	_	_	_	
+58-7	5863-5864	"	_	_	_	_	_	_	
+58-8	5864-5867	det	_	_	_	_	_	_	
+58-9	5868-5873	gröna	_	_	_	_	_	_	
+58-10	5874-5883	samhället	_	_	_	_	_	_	
+58-11	5883-5884	"	_	_	_	_	_	_	
+58-12	5884-5885	,	_	_	_	_	_	_	
+58-13	5886-5889	det	_	_	_	_	_	_	
+58-14	5890-5894	vill	_	_	_	_	_	_	
+58-15	5895-5899	säga	_	_	_	_	_	_	
+58-16	5900-5903	för	_	_	_	_	_	_	
+58-17	5904-5907	ett	_	_	_	_	_	_	
+58-18	5908-5916	hållbart	_	_	_	_	_	_	
+58-19	5917-5925	samhälle	_	_	_	_	_	_	
+58-20	5926-5929	och	_	_	_	_	_	_	
+58-21	5930-5932	en	_	_	_	_	_	_	
+58-22	5933-5940	levande	_	_	_	_	_	_	
+58-23	5941-5946	natur	_	_	_	_	_	_	
+58-24	5946-5947	,	_	_	_	_	_	_	
+58-25	5948-5950	vi	_	_	_	_	_	_	
+58-26	5951-5954	har	_	_	_	_	_	_	
+58-27	5955-5960	bägge	_	_	_	_	_	_	
+58-28	5961-5966	under	_	_	_	_	_	_	
+58-29	5967-5971	lång	_	_	_	_	_	_	
+58-30	5972-5975	tid	_	_	_	_	_	_	
+58-31	5976-5981	varit	_	_	_	_	_	_	
+58-32	5982-5992	engagerade	_	_	_	_	_	_	
+58-33	5993-5994	i	_	_	_	_	_	_	
+58-34	5995-5998	den	_	_	_	_	_	_	
+58-35	5999-6006	ideella	_	_	_	_	_	_	
+58-36	6007-6020	miljörörelsen	_	_	_	_	_	_	
+58-37	6021-6024	och	_	_	_	_	_	_	
+58-38	6025-6028	har	_	_	_	_	_	_	
+58-39	6029-6037	tidigare	_	_	_	_	_	_	
+58-40	6038-6039	i	_	_	_	_	_	_	
+58-41	6040-6048	allmänna	_	_	_	_	_	_	
+58-42	6049-6052	val	_	_	_	_	_	_	
+58-43	6053-6057	lagt	_	_	_	_	_	_	
+58-44	6058-6062	våra	_	_	_	_	_	_	
+58-45	6063-6069	röster	_	_	_	_	_	_	
+58-46	6070-6072	på	_	_	_	_	_	_	
+58-47	6073-6085	Miljöpartiet	_	_	_	_	_	_	
+58-48	6085-6086	.	_	_	_	_	_	_	
+
+#Text=Vi tar därför särskilt illa vid oss av att bli anklagade för oredlighet av just Miljöpartiets politiker.
+59-1	6087-6089	Vi	*	_	_	_	_	_	
+59-2	6090-6093	tar	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-3	6094-6100	därför	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-4	6101-6109	särskilt	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-5	6110-6114	illa	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-6	6115-6118	vid	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-7	6119-6122	oss	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-8	6123-6125	av	_	Source;Target[19]	59-1;59-9[41]	false[19]	1[19]	_	
+59-9	6126-6129	att	*[41]	_	_	_	_	_	
+59-10	6130-6133	bli	*[41]	_	_	_	_	_	
+59-11	6134-6143	anklagade	*[41]	_	_	_	_	_	
+59-12	6144-6147	för	*[41]	_	_	_	_	_	
+59-13	6148-6158	oredlighet	*[41]	_	_	_	_	_	
+59-14	6159-6161	av	*[41]	_	_	_	_	_	
+59-15	6162-6166	just	*[41]	_	_	_	_	_	
+59-16	6167-6180	Miljöpartiets	*[41]	_	_	_	_	_	
+59-17	6181-6190	politiker	*[41]	_	_	_	_	_	
+59-18	6190-6191	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	6193-6194	#	_	_	_	_	_	_	
+60-2	6194-6195	P	_	_	_	_	_	_	
+60-3	6196-6199	IMM	_	_	_	_	_	_	
+60-4	6199-6200	.	_	_	_	_	_	_	
+
+#Text=Gröna politiker måste stå ut med en grön granskning utan att ta till skamgrepp.
+61-1	6202-6207	Gröna	_	_	_	_	_	_	
+61-2	6208-6217	politiker	_	_	_	_	_	_	
+61-3	6218-6223	måste	_	_	_	_	_	_	
+61-4	6224-6227	stå	_	_	_	_	_	_	
+61-5	6228-6230	ut	_	_	_	_	_	_	
+61-6	6231-6234	med	_	_	_	_	_	_	
+61-7	6235-6237	en	_	_	_	_	_	_	
+61-8	6238-6242	grön	_	_	_	_	_	_	
+61-9	6243-6253	granskning	_	_	_	_	_	_	
+61-10	6254-6258	utan	_	_	_	_	_	_	
+61-11	6259-6262	att	_	_	_	_	_	_	
+61-12	6263-6265	ta	_	_	_	_	_	_	
+61-13	6266-6270	till	_	_	_	_	_	_	
+61-14	6271-6280	skamgrepp	*	Target	61-14	false	2	_	
+61-15	6280-6281	.	_	_	_	_	_	_	
+
+#Text=Miljöpartiet har kanske blivit bortskämt av att bara behöva vända sin udd åt ena hållet och förvänta sig att ha ryggen skyddad av det allmänna samhällsklimatet: Vem vill i Sverige föra fram åsikter som kan tolkas som att man är emot ett hållbart samhälle och biologisk mångfald och för miljöförstöring?
+62-1	6282-6294	Miljöpartiet	*	_	_	_	_	_	
+62-2	6295-6298	har	_	_	_	_	_	_	
+62-3	6299-6305	kanske	_	_	_	_	_	_	
+62-4	6306-6312	blivit	_	_	_	_	_	_	
+62-5	6313-6322	bortskämt	_	Target	62-1	false	2	_	
+62-6	6323-6325	av	_	_	_	_	_	_	
+62-7	6326-6329	att	_	_	_	_	_	_	
+62-8	6330-6334	bara	_	_	_	_	_	_	
+62-9	6335-6341	behöva	_	_	_	_	_	_	
+62-10	6342-6347	vända	_	_	_	_	_	_	
+62-11	6348-6351	sin	_	_	_	_	_	_	
+62-12	6352-6355	udd	_	_	_	_	_	_	
+62-13	6356-6358	åt	_	_	_	_	_	_	
+62-14	6359-6362	ena	_	_	_	_	_	_	
+62-15	6363-6369	hållet	_	_	_	_	_	_	
+62-16	6370-6373	och	_	_	_	_	_	_	
+62-17	6374-6382	förvänta	_	_	_	_	_	_	
+62-18	6383-6386	sig	_	_	_	_	_	_	
+62-19	6387-6390	att	_	_	_	_	_	_	
+62-20	6391-6393	ha	_	_	_	_	_	_	
+62-21	6394-6400	ryggen	_	_	_	_	_	_	
+62-22	6401-6408	skyddad	_	_	_	_	_	_	
+62-23	6409-6411	av	_	_	_	_	_	_	
+62-24	6412-6415	det	_	_	_	_	_	_	
+62-25	6416-6424	allmänna	_	_	_	_	_	_	
+62-26	6425-6441	samhällsklimatet	_	_	_	_	_	_	
+62-27	6441-6442	:	_	_	_	_	_	_	
+62-28	6443-6446	Vem	_	_	_	_	_	_	
+62-29	6447-6451	vill	_	_	_	_	_	_	
+62-30	6452-6453	i	_	_	_	_	_	_	
+62-31	6454-6461	Sverige	_	_	_	_	_	_	
+62-32	6462-6466	föra	_	_	_	_	_	_	
+62-33	6467-6471	fram	_	_	_	_	_	_	
+62-34	6472-6479	åsikter	_	_	_	_	_	_	
+62-35	6480-6483	som	_	_	_	_	_	_	
+62-36	6484-6487	kan	_	_	_	_	_	_	
+62-37	6488-6494	tolkas	_	_	_	_	_	_	
+62-38	6495-6498	som	_	_	_	_	_	_	
+62-39	6499-6502	att	_	_	_	_	_	_	
+62-40	6503-6506	man	_	_	_	_	_	_	
+62-41	6507-6509	är	_	_	_	_	_	_	
+62-42	6510-6514	emot	_	_	_	_	_	_	
+62-43	6515-6518	ett	_	_	_	_	_	_	
+62-44	6519-6527	hållbart	_	_	_	_	_	_	
+62-45	6528-6536	samhälle	_	_	_	_	_	_	
+62-46	6537-6540	och	_	_	_	_	_	_	
+62-47	6541-6550	biologisk	_	_	_	_	_	_	
+62-48	6551-6559	mångfald	_	_	_	_	_	_	
+62-49	6560-6563	och	_	_	_	_	_	_	
+62-50	6564-6567	för	_	_	_	_	_	_	
+62-51	6568-6583	miljöförstöring	_	_	_	_	_	_	
+62-52	6583-6584	?	_	_	_	_	_	_	
+
+#Text=I alla fall inte vi biologer som gör vad vi kan för att verka för ett grönt samhälle.
+63-1	6585-6586	I	_	_	_	_	_	_	
+63-2	6587-6591	alla	_	_	_	_	_	_	
+63-3	6592-6596	fall	_	_	_	_	_	_	
+63-4	6597-6601	inte	_	_	_	_	_	_	
+63-5	6602-6604	vi	_	_	_	_	_	_	
+63-6	6605-6613	biologer	_	_	_	_	_	_	
+63-7	6614-6617	som	_	_	_	_	_	_	
+63-8	6618-6621	gör	_	_	_	_	_	_	
+63-9	6622-6625	vad	_	_	_	_	_	_	
+63-10	6626-6628	vi	_	_	_	_	_	_	
+63-11	6629-6632	kan	_	_	_	_	_	_	
+63-12	6633-6636	för	_	_	_	_	_	_	
+63-13	6637-6640	att	_	_	_	_	_	_	
+63-14	6641-6646	verka	_	_	_	_	_	_	
+63-15	6647-6650	för	_	_	_	_	_	_	
+63-16	6651-6654	ett	_	_	_	_	_	_	
+63-17	6655-6660	grönt	_	_	_	_	_	_	
+63-18	6661-6669	samhälle	_	_	_	_	_	_	
+63-19	6669-6670	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	6672-6673	#	_	_	_	_	_	_	
+64-2	6673-6674	P	_	_	_	_	_	_	
+64-3	6675-6678	IMM	_	_	_	_	_	_	
+64-4	6678-6679	.	_	_	_	_	_	_	
+
+#Text=Därför uppmanar vi Miljöpartiets politiker att rannsaka sig själva och även ta hänsyn till "obekväma" forskningsresultat när man utformar sin framtida politik.
+65-1	6681-6687	Därför	_	_	_	_	_	_	
+65-2	6688-6696	uppmanar	_	_	_	_	_	_	
+65-3	6697-6699	vi	_	_	_	_	_	_	
+65-4	6700-6713	Miljöpartiets	_	_	_	_	_	_	
+65-5	6714-6723	politiker	_	_	_	_	_	_	
+65-6	6724-6727	att	_	_	_	_	_	_	
+65-7	6728-6736	rannsaka	_	_	_	_	_	_	
+65-8	6737-6740	sig	_	_	_	_	_	_	
+65-9	6741-6747	själva	_	_	_	_	_	_	
+65-10	6748-6751	och	_	_	_	_	_	_	
+65-11	6752-6756	även	_	_	_	_	_	_	
+65-12	6757-6759	ta	_	_	_	_	_	_	
+65-13	6760-6766	hänsyn	_	_	_	_	_	_	
+65-14	6767-6771	till	_	_	_	_	_	_	
+65-15	6772-6773	"	_	_	_	_	_	_	
+65-16	6773-6781	obekväma	_	Target	65-18	true	2	_	
+65-17	6781-6782	"	_	_	_	_	_	_	
+65-18	6783-6801	forskningsresultat	*	_	_	_	_	_	
+65-19	6802-6805	när	_	_	_	_	_	_	
+65-20	6806-6809	man	_	_	_	_	_	_	
+65-21	6810-6818	utformar	_	_	_	_	_	_	
+65-22	6819-6822	sin	_	_	_	_	_	_	
+65-23	6823-6831	framtida	_	_	_	_	_	_	
+65-24	6832-6839	politik	_	_	_	_	_	_	
+65-25	6839-6840	.	_	_	_	_	_	_	
+
+#Text=Vi själva deltar gärna i en konstruktiv debatt, men inte en debatt där utgångspunkten är att vi forskare är köpta för att vi för fram ett budskap som inte stämmer överens med partiets dogmer.
+66-1	6841-6843	Vi	_	_	_	_	_	_	
+66-2	6844-6850	själva	_	_	_	_	_	_	
+66-3	6851-6857	deltar	_	_	_	_	_	_	
+66-4	6858-6863	gärna	_	_	_	_	_	_	
+66-5	6864-6865	i	_	_	_	_	_	_	
+66-6	6866-6868	en	*[42]	Target[20]	66-6[42]	false[20]	4[20]	_	
+66-7	6869-6880	konstruktiv	*[42]	Target[20]	66-6[42]	false[20]	4[20]	_	
+66-8	6881-6887	debatt	*[42]	Target[20]	66-6[42]	false[20]	4[20]	_	
+66-9	6887-6888	,	_	_	_	_	_	_	
+66-10	6889-6892	men	_	_	_	_	_	_	
+66-11	6893-6897	inte	_	_	_	_	_	_	
+66-12	6898-6900	en	_	_	_	_	_	_	
+66-13	6901-6907	debatt	_	_	_	_	_	_	
+66-14	6908-6911	där	_	_	_	_	_	_	
+66-15	6912-6926	utgångspunkten	_	_	_	_	_	_	
+66-16	6927-6929	är	_	_	_	_	_	_	
+66-17	6930-6933	att	_	_	_	_	_	_	
+66-18	6934-6936	vi	_	_	_	_	_	_	
+66-19	6937-6945	forskare	_	_	_	_	_	_	
+66-20	6946-6948	är	_	_	_	_	_	_	
+66-21	6949-6954	köpta	_	_	_	_	_	_	
+66-22	6955-6958	för	_	_	_	_	_	_	
+66-23	6959-6962	att	_	_	_	_	_	_	
+66-24	6963-6965	vi	_	_	_	_	_	_	
+66-25	6966-6969	för	_	_	_	_	_	_	
+66-26	6970-6974	fram	_	_	_	_	_	_	
+66-27	6975-6978	ett	_	_	_	_	_	_	
+66-28	6979-6986	budskap	_	_	_	_	_	_	
+66-29	6987-6990	som	_	_	_	_	_	_	
+66-30	6991-6995	inte	_	_	_	_	_	_	
+66-31	6996-7003	stämmer	_	_	_	_	_	_	
+66-32	7004-7011	överens	_	_	_	_	_	_	
+66-33	7012-7015	med	_	_	_	_	_	_	
+66-34	7016-7024	partiets	*	_	_	_	_	_	
+66-35	7025-7031	dogmer	_	Target	66-34	false	1	_	
+66-36	7031-7032	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	7034-7035	#	_	_	_	_	_	_	
+67-2	7035-7036	P	_	_	_	_	_	_	
+67-3	7037-7040	IMM	_	_	_	_	_	_	
+67-4	7040-7041	.	_	_	_	_	_	_	
+
+#Text=STEFAN JANSSON.
+68-1	7043-7049	STEFAN	_	_	_	_	_	_	
+68-2	7050-7057	JANSSON	_	_	_	_	_	_	
+68-3	7057-7058	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	7060-7061	#	_	_	_	_	_	_	
+69-2	7061-7062	P	_	_	_	_	_	_	
+69-3	7063-7066	IMM	_	_	_	_	_	_	
+69-4	7066-7067	.	_	_	_	_	_	_	
+
+#Text=professor i växters cell- och molekylärbiologi, fysiologisk botanik, Umeå universitet.
+70-1	7069-7078	professor	_	_	_	_	_	_	
+70-2	7079-7080	i	_	_	_	_	_	_	
+70-3	7081-7088	växters	_	_	_	_	_	_	
+70-4	7089-7093	cell	_	_	_	_	_	_	
+70-5	7093-7094	-	_	_	_	_	_	_	
+70-6	7095-7098	och	_	_	_	_	_	_	
+70-7	7099-7115	molekylärbiologi	_	_	_	_	_	_	
+70-8	7115-7116	,	_	_	_	_	_	_	
+70-9	7117-7128	fysiologisk	_	_	_	_	_	_	
+70-10	7129-7136	botanik	_	_	_	_	_	_	
+70-11	7136-7137	,	_	_	_	_	_	_	
+70-12	7138-7142	Umeå	_	_	_	_	_	_	
+70-13	7143-7154	universitet	_	_	_	_	_	_	
+70-14	7154-7155	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	7157-7158	#	_	_	_	_	_	_	
+71-2	7158-7159	P	_	_	_	_	_	_	
+71-3	7160-7163	IMM	_	_	_	_	_	_	
+71-4	7163-7164	.	_	_	_	_	_	_	
+
+#Text=OLOF LIBERG.
+72-1	7166-7170	OLOF	_	_	_	_	_	_	
+72-2	7171-7177	LIBERG	_	_	_	_	_	_	
+72-3	7177-7178	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	7180-7181	#	_	_	_	_	_	_	
+73-2	7181-7182	P	_	_	_	_	_	_	
+73-3	7183-7186	IMM	_	_	_	_	_	_	
+73-4	7186-7187	.	_	_	_	_	_	_	
+
+#Text=docent i viltekologi, Institutionen för ekologi, Sveriges lantbruksuniversitetet (SLU).
+74-1	7189-7195	docent	_	_	_	_	_	_	
+74-2	7196-7197	i	_	_	_	_	_	_	
+74-3	7198-7209	viltekologi	_	_	_	_	_	_	
+74-4	7209-7210	,	_	_	_	_	_	_	
+74-5	7211-7224	Institutionen	_	_	_	_	_	_	
+74-6	7225-7228	för	_	_	_	_	_	_	
+74-7	7229-7236	ekologi	_	_	_	_	_	_	
+74-8	7236-7237	,	_	_	_	_	_	_	
+74-9	7238-7246	Sveriges	_	_	_	_	_	_	
+74-10	7247-7269	lantbruksuniversitetet	_	_	_	_	_	_	
+74-11	7270-7271	(	_	_	_	_	_	_	
+74-12	7271-7274	SLU	_	_	_	_	_	_	
+74-13	7274-7275	)	_	_	_	_	_	_	
+74-14	7275-7276	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	7278-7279	#	_	_	_	_	_	_	
+75-2	7279-7280	P	_	_	_	_	_	_	
+75-3	7281-7284	IMM	_	_	_	_	_	_	
+75-4	7284-7285	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+76-1	7287-7295	Redaktör	_	_	_	_	_	_	
+76-2	7295-7296	:	_	_	_	_	_	_	
+76-3	7297-7303	Carina	_	_	_	_	_	_	
+76-4	7304-7312	Stensson	_	_	_	_	_	_	
+76-5	7312-7313	,	_	_	_	_	_	_	
+76-6	7314-7324	Biträdande	_	_	_	_	_	_	
+76-7	7325-7333	redaktör	_	_	_	_	_	_	
+76-8	7333-7334	:	_	_	_	_	_	_	
+76-9	7335-7340	Björn	_	_	_	_	_	_	
+76-10	7341-7347	Jorner	_	_	_	_	_	_	
+76-11	7347-7348	,	_	_	_	_	_	_	
+76-12	7349-7353	Mejl	_	_	_	_	_	_	
+76-13	7353-7354	:	_	_	_	_	_	_	
+76-14	7355-7361	debatt	_	_	_	_	_	_	
+76-15	7361-7362	@	_	_	_	_	_	_	
+76-16	7362-7368	svd.se	_	_	_	_	_	_	
+76-17	7368-7369	,	_	_	_	_	_	_	
+76-18	7370-7383	Telefonnummer	_	_	_	_	_	_	
+76-19	7383-7384	:	_	_	_	_	_	_	
+76-20	7385-7387	08	_	_	_	_	_	_	
+76-21	7387-7388	-	_	_	_	_	_	_	
+76-22	7388-7394	135149	_	_	_	_	_	_	
+76-23	7394-7395	,	_	_	_	_	_	_	
+76-24	7396-7403	Twitter	_	_	_	_	_	_	
+76-25	7403-7404	:	_	_	_	_	_	_	
+76-26	7405-7406	@	_	_	_	_	_	_	
+76-27	7406-7415	SvDDebatt	_	_	_	_	_	_	
+76-28	7415-7416	,	_	_	_	_	_	_	
+76-29	7417-7425	Facebook	_	_	_	_	_	_	
+76-30	7425-7426	:	_	_	_	_	_	_	
+76-31	7427-7430	SvD	_	_	_	_	_	_	
+76-32	7431-7437	Debatt	_	_	_	_	_	_	
+76-33	7437-7438	.	_	_	_	_	_	_	

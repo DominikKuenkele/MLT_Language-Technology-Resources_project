@@ -1,0 +1,772 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[1]	_	false[1]	3[1]	_	
+2-2	10-11	T	_	_[1]	_	false[1]	3[1]	_	
+2-3	12-15	IMM	_	_[1]	_	false[1]	3[1]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Asylsystemet måste fungera för hela EU.
+3-1	18-30	Asylsystemet	_	_	_	_	_	_	
+3-2	31-36	måste	_	_	_	_	_	_	
+3-3	37-44	fungera	_	_	_	_	_	_	
+3-4	45-48	för	_	_	_	_	_	_	
+3-5	49-53	hela	_	_	_	_	_	_	
+3-6	54-56	EU	_	_	_	_	_	_	
+3-7	56-57	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=När senare generationer läser om vår tid i historieböckerna vill vi att de ska se att EU och medlemsländerna höll ihop, visade medkänsla och hanterade flyktingkrisen på ett medmänskligt sätt.
+5-1	68-71	När	_	_	_	_	_	_	
+5-2	72-78	senare	_	_	_	_	_	_	
+5-3	79-91	generationer	_	_	_	_	_	_	
+5-4	92-97	läser	_	_	_	_	_	_	
+5-5	98-100	om	_	_	_	_	_	_	
+5-6	101-104	vår	_	_	_	_	_	_	
+5-7	105-108	tid	_	_	_	_	_	_	
+5-8	109-110	i	_	_	_	_	_	_	
+5-9	111-127	historieböckerna	_	_	_	_	_	_	
+5-10	128-132	vill	_	_	_	_	_	_	
+5-11	133-135	vi	_	_	_	_	_	_	
+5-12	136-139	att	_	_	_	_	_	_	
+5-13	140-142	de	_	_	_	_	_	_	
+5-14	143-146	ska	_	_	_	_	_	_	
+5-15	147-149	se	_	_	_	_	_	_	
+5-16	150-153	att	_	_	_	_	_	_	
+5-17	154-156	EU	*[27]|*[28]|*[29]	_	_	_	_	_	
+5-18	157-160	och	*[27]|*[28]|*[29]	_	_	_	_	_	
+5-19	161-176	medlemsländerna	*[27]|*[28]|*[29]	_	_	_	_	_	
+5-20	177-181	höll	_	Target[2]	5-17[27]	false[2]	4[2]	_	
+5-21	182-186	ihop	_	Target[2]	5-17[27]	false[2]	4[2]	_	
+5-22	186-187	,	_	_	_	_	_	_	
+5-23	188-194	visade	_	Target[3]	5-17[28]	false[3]	4[3]	_	
+5-24	195-204	medkänsla	_	Target[3]	5-17[28]	false[3]	4[3]	_	
+5-25	205-208	och	_	_	_	_	_	_	
+5-26	209-218	hanterade	_	Target[4]	5-17[29]	false[4]	4[4]	_	
+5-27	219-233	flyktingkrisen	_	Target[4]	5-17[29]	false[4]	4[4]	_	
+5-28	234-236	på	_	Target[4]	5-17[29]	false[4]	4[4]	_	
+5-29	237-240	ett	_	Target[4]	5-17[29]	false[4]	4[4]	_	
+5-30	241-253	medmänskligt	_	Target[4]|Target[5]	5-17[29]|5-31	false[4]|false[5]	4[4]|4[5]	_	
+5-31	254-258	sätt	*	Target[4]	5-17[29]	false[4]	4[4]	_	
+5-32	258-259	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	261-262	#	_	_[6]	_	false[6]	3[6]	_	
+6-2	262-263	P	_	_[6]	_	false[6]	3[6]	_	
+6-3	264-267	IMM	_	_[6]	_	false[6]	3[6]	_	
+6-4	267-268	.	_	_	_	_	_	_	
+
+#Text=EU-kommissionen har som prioritet att hantera flyktingkrisen.
+7-1	270-285	EU-kommissionen	_	_	_	_	_	_	
+7-2	286-289	har	_	_	_	_	_	_	
+7-3	290-293	som	_	_	_	_	_	_	
+7-4	294-303	prioritet	_	_	_	_	_	_	
+7-5	304-307	att	_	_	_	_	_	_	
+7-6	308-315	hantera	_	_	_	_	_	_	
+7-7	316-330	flyktingkrisen	_	_	_	_	_	_	
+7-8	330-331	.	_	_	_	_	_	_	
+
+#Text=Förra året genomförde vi omedelbara åtgärder för att få krisen under kontroll – vi tredubblade vår närvaro i Medelhavet och kunde på så sätt rädda liv.
+8-1	332-337	Förra	_	_	_	_	_	_	
+8-2	338-342	året	_	_	_	_	_	_	
+8-3	343-353	genomförde	_	_	_	_	_	_	
+8-4	354-356	vi	_	_	_	_	_	_	
+8-5	357-367	omedelbara	_	_	_	_	_	_	
+8-6	368-376	åtgärder	_	_	_	_	_	_	
+8-7	377-380	för	_	_	_	_	_	_	
+8-8	381-384	att	_	_	_	_	_	_	
+8-9	385-387	få	_	_	_	_	_	_	
+8-10	388-394	krisen	_	_	_	_	_	_	
+8-11	395-400	under	_	_	_	_	_	_	
+8-12	401-409	kontroll	_	_	_	_	_	_	
+8-13	410-411	–	_	_	_	_	_	_	
+8-14	412-414	vi	_	_	_	_	_	_	
+8-15	415-426	tredubblade	_	_	_	_	_	_	
+8-16	427-430	vår	_	_	_	_	_	_	
+8-17	431-438	närvaro	_	_	_	_	_	_	
+8-18	439-440	i	_	_	_	_	_	_	
+8-19	441-451	Medelhavet	_	_	_	_	_	_	
+8-20	452-455	och	_	_	_	_	_	_	
+8-21	456-461	kunde	_	_	_	_	_	_	
+8-22	462-464	på	_	_	_	_	_	_	
+8-23	465-467	så	_	_	_	_	_	_	
+8-24	468-472	sätt	_	_	_	_	_	_	
+8-25	473-478	rädda	_	_	_	_	_	_	
+8-26	479-482	liv	_	_	_	_	_	_	
+8-27	482-483	.	_	_	_	_	_	_	
+
+#Text=Vi mobiliserade över tio miljarder euro från EU-budgeten som stöd till migrationspolitiken.
+9-1	484-486	Vi	_	_	_	_	_	_	
+9-2	487-499	mobiliserade	_	_	_	_	_	_	
+9-3	500-504	över	_	_	_	_	_	_	
+9-4	505-508	tio	_	_	_	_	_	_	
+9-5	509-518	miljarder	_	_	_	_	_	_	
+9-6	519-523	euro	_	_	_	_	_	_	
+9-7	524-528	från	_	_	_	_	_	_	
+9-8	529-540	EU-budgeten	_	_	_	_	_	_	
+9-9	541-544	som	_	_	_	_	_	_	
+9-10	545-549	stöd	_	_	_	_	_	_	
+9-11	550-554	till	_	_	_	_	_	_	
+9-12	555-574	migrationspolitiken	_	_	_	_	_	_	
+9-13	574-575	.	_	_	_	_	_	_	
+
+#Text=Vi bekämpade kriminella nätverk av människosmugglare.
+10-1	576-578	Vi	_	_	_	_	_	_	
+10-2	579-588	bekämpade	_	Target	10-3[30]	false	2	_	
+10-3	589-599	kriminella	*[30]	_	_	_	_	_	
+10-4	600-607	nätverk	*[30]	_	_	_	_	_	
+10-5	608-610	av	*[30]	_	_	_	_	_	
+10-6	611-628	människosmugglare	*[30]	_	_	_	_	_	
+10-7	628-629	.	_	_	_	_	_	_	
+
+#Text=Vi visade solidaritet genom att inom EU omplacera människor i störst behov av internationellt skydd.
+11-1	630-632	Vi	_	_	_	_	_	_	
+11-2	633-639	visade	_	_[7]	_	false[7]	4[7]	_	
+11-3	640-651	solidaritet	_	_[7]	_	false[7]	4[7]	_	
+11-4	652-657	genom	_	_[8]	_	false[8]	4[8]	_	
+11-5	658-661	att	_	_[8]	_	false[8]	4[8]	_	
+11-6	662-666	inom	_	_[8]	_	false[8]	4[8]	_	
+11-7	667-669	EU	_	_[8]	_	false[8]	4[8]	_	
+11-8	670-679	omplacera	_	_[8]	_	false[8]	4[8]	_	
+11-9	680-689	människor	_	_[8]	_	false[8]	4[8]	_	
+11-10	690-691	i	_	_[8]	_	false[8]	4[8]	_	
+11-11	692-698	störst	_	_[8]	_	false[8]	4[8]	_	
+11-12	699-704	behov	_	_[8]	_	false[8]	4[8]	_	
+11-13	705-707	av	_	_[8]	_	false[8]	4[8]	_	
+11-14	708-723	internationellt	_	_[8]	_	false[8]	4[8]	_	
+11-15	724-729	skydd	_	_[8]	_	false[8]	4[8]	_	
+11-16	729-730	.	_	_	_	_	_	_	
+
+#Text=Turkiet har en viktig roll, och nu har EU i nära samarbete med Turkiet börjat omplacera flyktingar som kommit till Europa.
+12-1	731-738	Turkiet	_	_	_	_	_	_	
+12-2	739-742	har	_	_	_	_	_	_	
+12-3	743-745	en	_	_	_	_	_	_	
+12-4	746-752	viktig	_	_	_	_	_	_	
+12-5	753-757	roll	_	_	_	_	_	_	
+12-6	757-758	,	_	_	_	_	_	_	
+12-7	759-762	och	_	_	_	_	_	_	
+12-8	763-765	nu	_	_	_	_	_	_	
+12-9	766-769	har	_	_	_	_	_	_	
+12-10	770-772	EU	_	_	_	_	_	_	
+12-11	773-774	i	_	_	_	_	_	_	
+12-12	775-779	nära	_	_	_	_	_	_	
+12-13	780-789	samarbete	_	_	_	_	_	_	
+12-14	790-793	med	_	_	_	_	_	_	
+12-15	794-801	Turkiet	_	_	_	_	_	_	
+12-16	802-808	börjat	_	_	_	_	_	_	
+12-17	809-818	omplacera	_	_	_	_	_	_	
+12-18	819-829	flyktingar	_	_	_	_	_	_	
+12-19	830-833	som	_	_	_	_	_	_	
+12-20	834-840	kommit	_	_	_	_	_	_	
+12-21	841-845	till	_	_	_	_	_	_	
+12-22	846-852	Europa	_	_	_	_	_	_	
+12-23	852-853	.	_	_	_	_	_	_	
+
+#Text=Även ett nytt samarbete med Afrika har inletts för att ta tag i grundorsaken till migration.
+13-1	854-858	Även	_	_	_	_	_	_	
+13-2	859-862	ett	_	_	_	_	_	_	
+13-3	863-867	nytt	_	_	_	_	_	_	
+13-4	868-877	samarbete	_	_	_	_	_	_	
+13-5	878-881	med	_	_	_	_	_	_	
+13-6	882-888	Afrika	_	_	_	_	_	_	
+13-7	889-892	har	_	_	_	_	_	_	
+13-8	893-900	inletts	_	_	_	_	_	_	
+13-9	901-904	för	_	_	_	_	_	_	
+13-10	905-908	att	_	_	_	_	_	_	
+13-11	909-911	ta	_	_	_	_	_	_	
+13-12	912-915	tag	_	_	_	_	_	_	
+13-13	916-917	i	_	_	_	_	_	_	
+13-14	918-930	grundorsaken	_	_	_	_	_	_	
+13-15	931-935	till	_	_	_	_	_	_	
+13-16	936-945	migration	_	_	_	_	_	_	
+13-17	945-946	.	_	_	_	_	_	_	
+
+#Text=Vårt förslag om ett europeiskt gräns- och kustbevakningssystem godkändes snabbt och blir nu den länk som stärker EU:s yttre gränser.
+14-1	947-951	Vårt	*[31]	_	_	_	_	_	
+14-2	952-959	förslag	*[31]	_	_	_	_	_	
+14-3	960-962	om	*[31]	_	_	_	_	_	
+14-4	963-966	ett	*[31]	_	_	_	_	_	
+14-5	967-977	europeiskt	*[31]	_	_	_	_	_	
+14-6	978-983	gräns	*[31]	_	_	_	_	_	
+14-7	983-984	-	*[31]	_	_	_	_	_	
+14-8	985-988	och	*[31]	_	_	_	_	_	
+14-9	989-1009	kustbevakningssystem	*[31]	_	_	_	_	_	
+14-10	1010-1019	godkändes	_	_	_	_	_	_	
+14-11	1020-1026	snabbt	_	_	_	_	_	_	
+14-12	1027-1030	och	_	_	_	_	_	_	
+14-13	1031-1035	blir	_	_	_	_	_	_	
+14-14	1036-1038	nu	_	_	_	_	_	_	
+14-15	1039-1042	den	_	_	_	_	_	_	
+14-16	1043-1047	länk	_	_	_	_	_	_	
+14-17	1048-1051	som	_	_	_	_	_	_	
+14-18	1052-1059	stärker	_	Target	14-1[31]	false	4	_	
+14-19	1060-1062	EU	_	_	_	_	_	_	
+14-20	1062-1063	:	_	_	_	_	_	_	
+14-21	1063-1064	s	_	_	_	_	_	_	
+14-22	1065-1070	yttre	_	_	_	_	_	_	
+14-23	1071-1078	gränser	_	_	_	_	_	_	
+14-24	1078-1079	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1081-1082	#	_	_	_	_	_	_	
+15-2	1082-1083	P	_	_	_	_	_	_	
+15-3	1084-1087	IMM	_	_	_	_	_	_	
+15-4	1087-1088	.	_	_	_	_	_	_	
+
+#Text=Utöver att svara på de omedelbara behoven, lägger vi nu även grunden för en långsiktig europeisk migrationspolitik.
+16-1	1090-1096	Utöver	_	_	_	_	_	_	
+16-2	1097-1100	att	_	_	_	_	_	_	
+16-3	1101-1106	svara	_	_	_	_	_	_	
+16-4	1107-1109	på	_	_	_	_	_	_	
+16-5	1110-1112	de	_	_	_	_	_	_	
+16-6	1113-1123	omedelbara	_	_	_	_	_	_	
+16-7	1124-1131	behoven	_	_	_	_	_	_	
+16-8	1131-1132	,	_	_	_	_	_	_	
+16-9	1133-1139	lägger	_	_	_	_	_	_	
+16-10	1140-1142	vi	_	_	_	_	_	_	
+16-11	1143-1145	nu	_	_	_	_	_	_	
+16-12	1146-1150	även	_	_	_	_	_	_	
+16-13	1151-1158	grunden	_	_	_	_	_	_	
+16-14	1159-1162	för	_	_	_	_	_	_	
+16-15	1163-1165	en	_	_	_	_	_	_	
+16-16	1166-1176	långsiktig	_	Target	16-17[32]	false	4	_	
+16-17	1177-1186	europeisk	*[32]	_	_	_	_	_	
+16-18	1187-1204	migrationspolitik	*[32]	_	_	_	_	_	
+16-19	1204-1205	.	_	_	_	_	_	_	
+
+#Text=Den här veckan lägger vi sista handen vid översynen av ett gemensamt asylsystem för EU.
+17-1	1206-1209	Den	_	_	_	_	_	_	
+17-2	1210-1213	här	_	_	_	_	_	_	
+17-3	1214-1220	veckan	_	_	_	_	_	_	
+17-4	1221-1227	lägger	_	_	_	_	_	_	
+17-5	1228-1230	vi	_	_	_	_	_	_	
+17-6	1231-1236	sista	_	_	_	_	_	_	
+17-7	1237-1243	handen	_	_	_	_	_	_	
+17-8	1244-1247	vid	_	_	_	_	_	_	
+17-9	1248-1257	översynen	_	_	_	_	_	_	
+17-10	1258-1260	av	_	_	_	_	_	_	
+17-11	1261-1264	ett	_	_	_	_	_	_	
+17-12	1265-1274	gemensamt	_	_	_	_	_	_	
+17-13	1275-1285	asylsystem	_	_	_	_	_	_	
+17-14	1286-1289	för	_	_	_	_	_	_	
+17-15	1290-1292	EU	_	_	_	_	_	_	
+17-16	1292-1293	.	_	_	_	_	_	_	
+
+#Text=EU har bäst villkor i världen för asylsökande.
+18-1	1294-1296	EU	*	_	_	_	_	_	
+18-2	1297-1300	har	_	_	_	_	_	_	
+18-3	1301-1305	bäst	_	Target[9]	18-1	false[9]	4[9]	_	
+18-4	1306-1313	villkor	_	Target[9]	18-1	false[9]	4[9]	_	
+18-5	1314-1315	i	_	Target[9]	18-1	false[9]	4[9]	_	
+18-6	1316-1323	världen	_	Target[9]	18-1	false[9]	4[9]	_	
+18-7	1324-1327	för	_	_	_	_	_	_	
+18-8	1328-1339	asylsökande	_	_	_	_	_	_	
+18-9	1339-1340	.	_	_	_	_	_	_	
+
+#Text=De här principerna är integrerade i vår lagstiftning, men de tillämpas dåligt och de stora skillnaderna leder till att människor behandlas olika från land till land.
+19-1	1341-1343	De	*[33]	_	_	_	_	_	
+19-2	1344-1347	här	*[33]	_	_	_	_	_	
+19-3	1348-1359	principerna	*[33]	_	_	_	_	_	
+19-4	1360-1362	är	_	_	_	_	_	_	
+19-5	1363-1374	integrerade	_	_	_	_	_	_	
+19-6	1375-1376	i	_	_	_	_	_	_	
+19-7	1377-1380	vår	_	_	_	_	_	_	
+19-8	1381-1393	lagstiftning	_	_	_	_	_	_	
+19-9	1393-1394	,	_	_	_	_	_	_	
+19-10	1395-1398	men	_	_	_	_	_	_	
+19-11	1399-1401	de	_	_	_	_	_	_	
+19-12	1402-1411	tillämpas	_	Target[10]	19-1[33]	false[10]	2[10]	_	
+19-13	1412-1418	dåligt	_	Target[10]	19-1[33]	false[10]	2[10]	_	
+19-14	1419-1422	och	_	_	_	_	_	_	
+19-15	1423-1425	de	_	_	_	_	_	_	
+19-16	1426-1431	stora	_	Target[11]	19-21[34]	false[11]	2[11]	_	
+19-17	1432-1444	skillnaderna	_	Target[11]	19-21[34]	false[11]	2[11]	_	
+19-18	1445-1450	leder	_	_	_	_	_	_	
+19-19	1451-1455	till	_	_	_	_	_	_	
+19-20	1456-1459	att	_	_	_	_	_	_	
+19-21	1460-1469	människor	*[34]	_	_	_	_	_	
+19-22	1470-1479	behandlas	*[34]	_	_	_	_	_	
+19-23	1480-1485	olika	*[34]	_	_	_	_	_	
+19-24	1486-1490	från	*[34]	_	_	_	_	_	
+19-25	1491-1495	land	*[34]	_	_	_	_	_	
+19-26	1496-1500	till	*[34]	_	_	_	_	_	
+19-27	1501-1505	land	*[34]	_	_	_	_	_	
+19-28	1505-1506	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1508-1509	#	_	_[12]	_	false[12]	3[12]	_	
+20-2	1509-1510	P	_	_[12]	_	false[12]	3[12]	_	
+20-3	1511-1514	IMM	_	_[12]	_	false[12]	3[12]	_	
+20-4	1514-1515	.	_	_	_	_	_	_	
+
+#Text=Reformen kommer att göra det möjligt att snabbt identifiera vem som verkligen har behov av internationellt skydd och vem som inte har rätt att stanna i ett EU-land.
+21-1	1517-1525	Reformen	*	_	_	_	_	_	
+21-2	1526-1532	kommer	_	_	_	_	_	_	
+21-3	1533-1536	att	_	_	_	_	_	_	
+21-4	1537-1541	göra	_	Target[13]	21-1	false[13]	4[13]	_	
+21-5	1542-1545	det	_	Target[13]	21-1	false[13]	4[13]	_	
+21-6	1546-1553	möjligt	_	Target[13]	21-1	false[13]	4[13]	_	
+21-7	1554-1557	att	_	_	_	_	_	_	
+21-8	1558-1564	snabbt	_	Target	21-9[35]	false	4	_	
+21-9	1565-1576	identifiera	*[35]	_	_	_	_	_	
+21-10	1577-1580	vem	*[35]	_	_	_	_	_	
+21-11	1581-1584	som	*[35]	_	_	_	_	_	
+21-12	1585-1594	verkligen	*[35]	_	_	_	_	_	
+21-13	1595-1598	har	*[35]	_	_	_	_	_	
+21-14	1599-1604	behov	*[35]	_	_	_	_	_	
+21-15	1605-1607	av	*[35]	_	_	_	_	_	
+21-16	1608-1623	internationellt	*[35]	_	_	_	_	_	
+21-17	1624-1629	skydd	*[35]	_	_	_	_	_	
+21-18	1630-1633	och	_	_	_	_	_	_	
+21-19	1634-1637	vem	_	_	_	_	_	_	
+21-20	1638-1641	som	_	_	_	_	_	_	
+21-21	1642-1646	inte	_	_	_	_	_	_	
+21-22	1647-1650	har	_	_	_	_	_	_	
+21-23	1651-1655	rätt	_	_	_	_	_	_	
+21-24	1656-1659	att	_	_	_	_	_	_	
+21-25	1660-1666	stanna	_	_	_	_	_	_	
+21-26	1667-1668	i	_	_	_	_	_	_	
+21-27	1669-1672	ett	_	_	_	_	_	_	
+21-28	1673-1680	EU-land	_	_	_	_	_	_	
+21-29	1680-1681	.	_	_	_	_	_	_	
+
+#Text=Vårt mål är att skapa ett gemensamt asylsystem som är generöst mot de mest utsatta men strikt mot dem som försöker missbruka det.
+22-1	1682-1686	Vårt	_	_	_	_	_	_	
+22-2	1687-1690	mål	_	_	_	_	_	_	
+22-3	1691-1693	är	_	_	_	_	_	_	
+22-4	1694-1697	att	_	_	_	_	_	_	
+22-5	1698-1703	skapa	_	_	_	_	_	_	
+22-6	1704-1707	ett	*[36]	_	_	_	_	_	
+22-7	1708-1717	gemensamt	*[36]	_	_	_	_	_	
+22-8	1718-1728	asylsystem	*[36]	_	_	_	_	_	
+22-9	1729-1732	som	_	_	_	_	_	_	
+22-10	1733-1735	är	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-11	1736-1744	generöst	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-12	1745-1748	mot	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-13	1749-1751	de	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-14	1752-1756	mest	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-15	1757-1764	utsatta	_	Target[14]	22-6[36]	false[14]	4[14]	_	
+22-16	1765-1768	men	_	_	_	_	_	_	
+22-17	1769-1775	strikt	_	Target	22-19[37]	false	2	_	
+22-18	1776-1779	mot	_	_	_	_	_	_	
+22-19	1780-1783	dem	*[37]	_	_	_	_	_	
+22-20	1784-1787	som	*[37]	_	_	_	_	_	
+22-21	1788-1796	försöker	*[37]	_	_	_	_	_	
+22-22	1797-1806	missbruka	*[37]	_	_	_	_	_	
+22-23	1807-1810	det	*[37]	_	_	_	_	_	
+22-24	1810-1811	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1813-1814	#	_	_	_	_	_	_	
+23-2	1814-1815	P	_	_	_	_	_	_	
+23-3	1816-1819	IMM	_	_	_	_	_	_	
+23-4	1819-1820	.	_	_	_	_	_	_	
+
+#Text=För att förhindra att nationella regeringar nedgraderar sina asylsystem för att göra dem mindre lockande än grannländernas, föreslår vi en strikt men rättvis EU-standard.
+24-1	1822-1825	För	_	_	_	_	_	_	
+24-2	1826-1829	att	_	_	_	_	_	_	
+24-3	1830-1839	förhindra	_	_	_	_	_	_	
+24-4	1840-1843	att	_	_	_	_	_	_	
+24-5	1844-1854	nationella	*[38]	_	_	_	_	_	
+24-6	1855-1865	regeringar	*[38]	_	_	_	_	_	
+24-7	1866-1877	nedgraderar	*[38]	_	_	_	_	_	
+24-8	1878-1882	sina	*[38]	_	_	_	_	_	
+24-9	1883-1893	asylsystem	*[38]	_	_	_	_	_	
+24-10	1894-1897	för	_	_	_	_	_	_	
+24-11	1898-1901	att	_	_	_	_	_	_	
+24-12	1902-1906	göra	_	Target[15]	24-5[38]	false[15]	2[15]	_	
+24-13	1907-1910	dem	_	Target[15]	24-5[38]	false[15]	2[15]	_	
+24-14	1911-1917	mindre	_	Target[15]	24-5[38]	false[15]	2[15]	_	
+24-15	1918-1926	lockande	_	Target[15]	24-5[38]	false[15]	2[15]	_	
+24-16	1927-1929	än	_	_	_	_	_	_	
+24-17	1930-1944	grannländernas	_	_	_	_	_	_	
+24-18	1944-1945	,	_	_	_	_	_	_	
+24-19	1946-1954	föreslår	_	_	_	_	_	_	
+24-20	1955-1957	vi	_	_	_	_	_	_	
+24-21	1958-1960	en	_	_	_	_	_	_	
+24-22	1961-1967	strikt	_	Target[16]	24-25	false[16]	4[16]	_	
+24-23	1968-1971	men	_	Target[16]	24-25	false[16]	4[16]	_	
+24-24	1972-1979	rättvis	_	Target[16]	24-25	false[16]	4[16]	_	
+24-25	1980-1991	EU-standard	*	_	_	_	_	_	
+24-26	1991-1992	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1994-1995	#	_	_[17]	_	false[17]	3[17]	_	
+25-2	1995-1996	P	_	_[17]	_	false[17]	3[17]	_	
+25-3	1997-2000	IMM	_	_[17]	_	false[17]	3[17]	_	
+25-4	2000-2001	.	_	_	_	_	_	_	
+
+#Text=Vi behöver en migrations- och asylpolitik som fungerar för 28 EU-länder; en politik som skyddar 500 miljoner EU-invånares intressen och som visar asylsökanden medmänsklighet.
+26-1	2003-2005	Vi	_	_	_	_	_	_	
+26-2	2006-2013	behöver	_	_	_	_	_	_	
+26-3	2014-2016	en	*[39]	_	_	_	_	_	
+26-4	2017-2027	migrations	*[39]	_	_	_	_	_	
+26-5	2027-2028	-	*[39]	_	_	_	_	_	
+26-6	2029-2032	och	*[39]	_	_	_	_	_	
+26-7	2033-2044	asylpolitik	*[39]	_	_	_	_	_	
+26-8	2045-2048	som	_	_	_	_	_	_	
+26-9	2049-2057	fungerar	_	_	_	_	_	_	
+26-10	2058-2061	för	_	_	_	_	_	_	
+26-11	2062-2064	28	_	_	_	_	_	_	
+26-12	2065-2074	EU-länder	_	_	_	_	_	_	
+26-13	2074-2075	;	_	_	_	_	_	_	
+26-14	2076-2078	en	_	_	_	_	_	_	
+26-15	2079-2086	politik	_	_	_	_	_	_	
+26-16	2087-2090	som	_	_	_	_	_	_	
+26-17	2091-2098	skyddar	_	_	_	_	_	_	
+26-18	2099-2102	500	_	_	_	_	_	_	
+26-19	2103-2111	miljoner	_	_	_	_	_	_	
+26-20	2112-2124	EU-invånares	_	_	_	_	_	_	
+26-21	2125-2134	intressen	_	_	_	_	_	_	
+26-22	2135-2138	och	_	_	_	_	_	_	
+26-23	2139-2142	som	_	_	_	_	_	_	
+26-24	2143-2148	visar	_	_	_	false	4	_	
+26-25	2149-2161	asylsökanden	_	_	_	_	_	_	
+26-26	2162-2176	medmänsklighet	_	Target	26-3[39]	false	4	26-24	
+26-27	2176-2177	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2179-2180	#	_	_[18]	_	false[18]	3[18]	_	
+27-2	2180-2181	P	_	_[18]	_	false[18]	3[18]	_	
+27-3	2182-2185	IMM	_	_[18]	_	false[18]	3[18]	_	
+27-4	2185-2186	.	_	_	_	_	_	_	
+
+#Text=Migration påverkar alla EU-länder.
+28-1	2188-2197	Migration	_	_	_	_	_	_	
+28-2	2198-2206	påverkar	_	_	_	_	_	_	
+28-3	2207-2211	alla	_	_	_	_	_	_	
+28-4	2212-2221	EU-länder	_	_	_	_	_	_	
+28-5	2221-2222	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2224-2225	#	_	_[19]	_	false[19]	3[19]	_	
+29-2	2225-2226	P	_	_[19]	_	false[19]	3[19]	_	
+29-3	2227-2230	IMM	_	_[19]	_	false[19]	3[19]	_	
+29-4	2230-2231	.	_	_	_	_	_	_	
+
+#Text=Sverige är inget undantag: förra året togs 163 000 asylsökande emot, 12,4 procent av det totala EU-antalet.
+30-1	2233-2240	Sverige	_	_	_	_	_	_	
+30-2	2241-2243	är	_	_	_	_	_	_	
+30-3	2244-2249	inget	_	_	_	_	_	_	
+30-4	2250-2258	undantag	_	_	_	_	_	_	
+30-5	2258-2259	:	_	_	_	_	_	_	
+30-6	2260-2265	förra	_	_	_	_	_	_	
+30-7	2266-2270	året	_	_	_	_	_	_	
+30-8	2271-2275	togs	_	_	_	_	_	_	
+30-9	2276-2279	163	_	_	_	_	_	_	
+30-10	2280-2283	000	_	_	_	_	_	_	
+30-11	2284-2295	asylsökande	_	_	_	_	_	_	
+30-12	2296-2300	emot	_	_	_	_	_	_	
+30-13	2300-2301	,	_	_	_	_	_	_	
+30-14	2302-2306	12,4	_	_	_	_	_	_	
+30-15	2307-2314	procent	_	_	_	_	_	_	
+30-16	2315-2317	av	_	_	_	_	_	_	
+30-17	2318-2321	det	_	_	_	_	_	_	
+30-18	2322-2328	totala	_	_	_	_	_	_	
+30-19	2329-2339	EU-antalet	_	_	_	_	_	_	
+30-20	2339-2340	.	_	_	_	_	_	_	
+
+#Text=Sverige var det första landet att ta emot omplacerade flyktingar från Italien och bidra med gränsvakter till EU:s yttre gränser.
+31-1	2341-2348	Sverige	*	_	_	_	_	_	
+31-2	2349-2352	var	_	Target[20]	31-1	false[20]	4[20]	_	
+31-3	2353-2356	det	_	Target[20]	31-1	false[20]	4[20]	_	
+31-4	2357-2363	första	_	Target[20]	31-1	false[20]	4[20]	_	
+31-5	2364-2370	landet	_	Target[20]	31-1	false[20]	4[20]	_	
+31-6	2371-2374	att	_	_	_	_	_	_	
+31-7	2375-2377	ta	_	_	_	_	_	_	
+31-8	2378-2382	emot	_	_	_	_	_	_	
+31-9	2383-2394	omplacerade	_	_	_	_	_	_	
+31-10	2395-2405	flyktingar	_	_	_	_	_	_	
+31-11	2406-2410	från	_	_	_	_	_	_	
+31-12	2411-2418	Italien	_	_	_	_	_	_	
+31-13	2419-2422	och	_	_	_	_	_	_	
+31-14	2423-2428	bidra	_	Target[21]	31-16[40]	false[21]	4[21]	_	
+31-15	2429-2432	med	_	Target[21]	31-16[40]	false[21]	4[21]	_	
+31-16	2433-2444	gränsvakter	*[40]	_	_	_	_	_	
+31-17	2445-2449	till	*[40]	_	_	_	_	_	
+31-18	2450-2452	EU	*[40]	_	_	_	_	_	
+31-19	2452-2453	:	*[40]	_	_	_	_	_	
+31-20	2453-2454	s	*[40]	_	_	_	_	_	
+31-21	2455-2460	yttre	*[40]	_	_	_	_	_	
+31-22	2461-2468	gränser	*[40]	_	_	_	_	_	
+31-23	2468-2469	.	_	_	_	_	_	_	
+
+#Text=Sverige har bidragit med ett ovärderligt stöd till EU.
+32-1	2470-2477	Sverige	*	_	_	_	_	_	
+32-2	2478-2481	har	_	Target[22]	32-5[41]	false[22]	4[22]	_	
+32-3	2482-2490	bidragit	_	Target[22]	32-5[41]	false[22]	4[22]	_	
+32-4	2491-2494	med	_	Target[22]	32-5[41]	false[22]	4[22]	_	
+32-5	2495-2498	ett	*[41]	_	_	_	_	_	
+32-6	2499-2510	ovärderligt	*[41]	Target[23]	32-1	false[23]	4[23]	_	
+32-7	2511-2515	stöd	*[41]	Target[23]	32-1	false[23]	4[23]	_	
+32-8	2516-2520	till	*[41]	_	_	_	_	_	
+32-9	2521-2523	EU	*[41]	_	_	_	_	_	
+32-10	2523-2524	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2526-2527	#	_	_[24]	_	false[24]	3[24]	_	
+33-2	2527-2528	P	_	_[24]	_	false[24]	3[24]	_	
+33-3	2529-2532	IMM	_	_[24]	_	false[24]	3[24]	_	
+33-4	2532-2533	.	_	_	_	_	_	_	
+
+#Text=Varje EU-land måste vara en del av lösningen.
+34-1	2535-2540	Varje	_	_	_	_	_	_	
+34-2	2541-2548	EU-land	_	_	_	_	_	_	
+34-3	2549-2554	måste	_	_	_	_	_	_	
+34-4	2555-2559	vara	_	_	_	_	_	_	
+34-5	2560-2562	en	_	_	_	_	_	_	
+34-6	2563-2566	del	_	_	_	_	_	_	
+34-7	2567-2569	av	_	_	_	_	_	_	
+34-8	2570-2579	lösningen	_	_	_	_	_	_	
+34-9	2579-2580	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2582-2583	#	_	_	_	_	_	_	
+35-2	2583-2584	P	_	_	_	_	_	_	
+35-3	2585-2588	IMM	_	_	_	_	_	_	
+35-4	2588-2589	.	_	_	_	_	_	_	
+
+#Text=EU kan inte byggas på en grund som medlemsländerna inte stöder.
+36-1	2591-2593	EU	_	_	_	_	_	_	
+36-2	2594-2597	kan	_	_	_	_	_	_	
+36-3	2598-2602	inte	_	_	_	_	_	_	
+36-4	2603-2609	byggas	_	_	_	_	_	_	
+36-5	2610-2612	på	_	_	_	_	_	_	
+36-6	2613-2615	en	_	_	_	_	_	_	
+36-7	2616-2621	grund	_	_	_	_	_	_	
+36-8	2622-2625	som	_	_	_	_	_	_	
+36-9	2626-2641	medlemsländerna	_	_	_	_	_	_	
+36-10	2642-2646	inte	_	_	_	_	_	_	
+36-11	2647-2653	stöder	_	_	_	_	_	_	
+36-12	2653-2654	.	_	_	_	_	_	_	
+
+#Text=Tvärtom – en bättre union kan bara byggas i samarbete med länderna, särskilt när tiderna är svåra.
+37-1	2655-2662	Tvärtom	_	_	_	_	_	_	
+37-2	2663-2664	–	_	_	_	_	_	_	
+37-3	2665-2667	en	_	_	_	_	_	_	
+37-4	2668-2674	bättre	_	_	_	_	_	_	
+37-5	2675-2680	union	_	_	_	_	_	_	
+37-6	2681-2684	kan	_	_	_	_	_	_	
+37-7	2685-2689	bara	_	_	_	_	_	_	
+37-8	2690-2696	byggas	_	_	_	_	_	_	
+37-9	2697-2698	i	_	_	_	_	_	_	
+37-10	2699-2708	samarbete	_	_	_	_	_	_	
+37-11	2709-2712	med	_	_	_	_	_	_	
+37-12	2713-2721	länderna	_	_	_	_	_	_	
+37-13	2721-2722	,	_	_	_	_	_	_	
+37-14	2723-2731	särskilt	_	_	_	_	_	_	
+37-15	2732-2735	när	_	_	_	_	_	_	
+37-16	2736-2743	tiderna	_	_	_	_	_	_	
+37-17	2744-2746	är	_	_	_	_	_	_	
+37-18	2747-2752	svåra	_	_	_	_	_	_	
+37-19	2752-2753	.	_	_	_	_	_	_	
+
+#Text=Från den grekiska skuldkrisen via flyktingkrisen till hoten mot vår säkerhet och oron som väckts genom Storbritanniens folkomröstning; alla 28 EU-länder har påverkats av den senare tidens kriser.
+38-1	2754-2758	Från	*[42]|*[43]	_	_	_	_	_	
+38-2	2759-2762	den	*[42]|*[43]	_	_	_	_	_	
+38-3	2763-2771	grekiska	*[42]|*[43]	_	_	_	_	_	
+38-4	2772-2783	skuldkrisen	*[42]|*[43]	_	_	_	_	_	
+38-5	2784-2787	via	*[42]|*[43]	_	_	_	_	_	
+38-6	2788-2802	flyktingkrisen	*[42]|*[43]	_	_	_	_	_	
+38-7	2803-2807	till	*[42]|*[43]	_	_	_	_	_	
+38-8	2808-2813	hoten	*[42]|*[43]	_	_	_	_	_	
+38-9	2814-2817	mot	*[42]|*[43]	_	_	_	_	_	
+38-10	2818-2821	vår	*[42]|*[43]	_	_	_	_	_	
+38-11	2822-2830	säkerhet	*[42]|*[43]	_	_	_	_	_	
+38-12	2831-2834	och	*[42]|*[43]	_	_	_	_	_	
+38-13	2835-2839	oron	*[42]|*[43]	_	_	_	_	_	
+38-14	2840-2843	som	*[42]|*[43]	_	_	_	_	_	
+38-15	2844-2850	väckts	*[42]|*[43]	_	_	_	_	_	
+38-16	2851-2856	genom	*[42]|*[43]	_	_	_	_	_	
+38-17	2857-2872	Storbritanniens	*[42]|*[43]	_	_	_	_	_	
+38-18	2873-2887	folkomröstning	*[42]|*[43]	_	_	_	_	_	
+38-19	2887-2888	;	_	_	_	_	_	_	
+38-20	2889-2893	alla	_	_	_	_	_	_	
+38-21	2894-2896	28	_	_	_	_	_	_	
+38-22	2897-2906	EU-länder	_	_	_	_	_	_	
+38-23	2907-2910	har	_	_	_	_	_	_	
+38-24	2911-2920	påverkats	_	_	_	_	_	_	
+38-25	2921-2923	av	_	_	_	_	_	_	
+38-26	2924-2927	den	_	_	_	_	_	_	
+38-27	2928-2934	senare	_	_	_	_	_	_	
+38-28	2935-2941	tidens	_	_	_	_	_	_	
+38-29	2942-2948	kriser	_	Target	38-1[42]	false	4	_	
+38-30	2948-2949	.	_	_	_	_	_	_	
+
+#Text=Tillsammans måste vi göra mer i EU för att hantera den här typen av utmaningar.
+39-1	2950-2961	Tillsammans	_	_	_	_	_	_	
+39-2	2962-2967	måste	_	_	_	_	_	_	
+39-3	2968-2970	vi	_	_	_	_	_	_	
+39-4	2971-2975	göra	_	_	_	_	_	_	
+39-5	2976-2979	mer	_	_	_	_	_	_	
+39-6	2980-2981	i	_	_	_	_	_	_	
+39-7	2982-2984	EU	_	_	_	_	_	_	
+39-8	2985-2988	för	_	_	_	_	_	_	
+39-9	2989-2992	att	_	_	_	_	_	_	
+39-10	2993-3000	hantera	_	_	_	_	_	_	
+39-11	3001-3004	den	_	_	_	_	_	_	
+39-12	3005-3008	här	_	_	_	_	_	_	
+39-13	3009-3014	typen	_	_	_	_	_	_	
+39-14	3015-3017	av	_	_	_	_	_	_	
+39-15	3018-3028	utmaningar	_	Target	38-1[43]	false	4	_	
+39-16	3028-3029	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3031-3032	#	_	_[25]	_	false[25]	3[25]	_	
+40-2	3032-3033	P	_	_[25]	_	false[25]	3[25]	_	
+40-3	3034-3037	IMM	_	_[25]	_	false[25]	3[25]	_	
+40-4	3037-3038	.	_	_	_	_	_	_	
+
+#Text=Vi är fast beslutna att arbeta vidare för ett mer enat Europa, för ett bättre Europa, för ett Europa som tar tag i de stora frågorna – till exempel flyktingkrisen – tillsammans, men lämnar resten åt medlemsländerna.
+41-1	3040-3042	Vi	_	_	_	_	_	_	
+41-2	3043-3045	är	_	_	_	_	_	_	
+41-3	3046-3050	fast	_	_	_	_	_	_	
+41-4	3051-3059	beslutna	_	_	_	_	_	_	
+41-5	3060-3063	att	_	_	_	_	_	_	
+41-6	3064-3070	arbeta	_	_	_	_	_	_	
+41-7	3071-3077	vidare	_	_	_	_	_	_	
+41-8	3078-3081	för	_	_	_	_	_	_	
+41-9	3082-3085	ett	_	_	_	_	_	_	
+41-10	3086-3089	mer	_	_	_	_	_	_	
+41-11	3090-3094	enat	_	_	_	_	_	_	
+41-12	3095-3101	Europa	_	_	_	_	_	_	
+41-13	3101-3102	,	_	_	_	_	_	_	
+41-14	3103-3106	för	_	_	_	_	_	_	
+41-15	3107-3110	ett	_	_	_	_	_	_	
+41-16	3111-3117	bättre	_	Target	41-17	false	4	_	
+41-17	3118-3124	Europa	*	_	_	_	_	_	
+41-18	3124-3125	,	_	_	_	_	_	_	
+41-19	3126-3129	för	_	_	_	_	_	_	
+41-20	3130-3133	ett	_	_	_	_	_	_	
+41-21	3134-3140	Europa	_	_	_	_	_	_	
+41-22	3141-3144	som	_	_	_	_	_	_	
+41-23	3145-3148	tar	_	_	_	_	_	_	
+41-24	3149-3152	tag	_	_	_	_	_	_	
+41-25	3153-3154	i	_	_	_	_	_	_	
+41-26	3155-3157	de	_	_	_	_	_	_	
+41-27	3158-3163	stora	_	_	_	_	_	_	
+41-28	3164-3172	frågorna	_	_	_	_	_	_	
+41-29	3173-3174	–	_	_	_	_	_	_	
+41-30	3175-3179	till	_	_	_	_	_	_	
+41-31	3180-3187	exempel	_	_	_	_	_	_	
+41-32	3188-3202	flyktingkrisen	_	_	_	_	_	_	
+41-33	3203-3204	–	_	_	_	_	_	_	
+41-34	3205-3216	tillsammans	_	_	_	_	_	_	
+41-35	3216-3217	,	_	_	_	_	_	_	
+41-36	3218-3221	men	_	_	_	_	_	_	
+41-37	3222-3228	lämnar	_	_	_	_	_	_	
+41-38	3229-3235	resten	_	_	_	_	_	_	
+41-39	3236-3238	åt	_	_	_	_	_	_	
+41-40	3239-3254	medlemsländerna	_	_	_	_	_	_	
+41-41	3254-3255	.	_	_	_	_	_	_	
+
+#Text=Det här är ett bra tillfälle att påminna oss om att EU har rest sig starkare ur sina kriser.
+42-1	3256-3259	Det	_	_	_	_	_	_	
+42-2	3260-3263	här	_	_	_	_	_	_	
+42-3	3264-3266	är	_	_	_	_	_	_	
+42-4	3267-3270	ett	_	_	_	_	_	_	
+42-5	3271-3274	bra	_	Target	42-6	false	4	_	
+42-6	3275-3284	tillfälle	*	_	_	_	_	_	
+42-7	3285-3288	att	_	_	_	_	_	_	
+42-8	3289-3296	påminna	_	_	_	_	_	_	
+42-9	3297-3300	oss	_	_	_	_	_	_	
+42-10	3301-3303	om	_	_	_	_	_	_	
+42-11	3304-3307	att	_	_	_	_	_	_	
+42-12	3308-3310	EU	*	_	_	_	_	_	
+42-13	3311-3314	har	_	Target[26]	42-12	false[26]	4[26]	_	
+42-14	3315-3319	rest	_	Target[26]	42-12	false[26]	4[26]	_	
+42-15	3320-3323	sig	_	Target[26]	42-12	false[26]	4[26]	_	
+42-16	3324-3332	starkare	_	Target[26]	42-12	false[26]	4[26]	_	
+42-17	3333-3335	ur	_	_	_	_	_	_	
+42-18	3336-3340	sina	_	_	_	_	_	_	
+42-19	3341-3347	kriser	_	_	_	_	_	_	
+42-20	3347-3348	.	_	_	_	_	_	_	
+
+#Text=Tillsammans är vi starkare än de utmaningar som vi ställs inför, och flyktingkrisen måste bli ett bevis på detta.
+43-1	3349-3360	Tillsammans	*	_	_	_	_	_	
+43-2	3361-3363	är	_	_	_	false	4	_	
+43-3	3364-3366	vi	_	_	_	_	_	_	
+43-4	3367-3375	starkare	_	Target	43-1	false	4	43-2	
+43-5	3376-3378	än	_	_	_	_	_	_	
+43-6	3379-3381	de	_	_	_	_	_	_	
+43-7	3382-3392	utmaningar	_	_	_	_	_	_	
+43-8	3393-3396	som	_	_	_	_	_	_	
+43-9	3397-3399	vi	_	_	_	_	_	_	
+43-10	3400-3406	ställs	_	_	_	_	_	_	
+43-11	3407-3412	inför	_	_	_	_	_	_	
+43-12	3412-3413	,	_	_	_	_	_	_	
+43-13	3414-3417	och	_	_	_	_	_	_	
+43-14	3418-3432	flyktingkrisen	_	_	_	_	_	_	
+43-15	3433-3438	måste	_	_	_	_	_	_	
+43-16	3439-3442	bli	_	_	_	_	_	_	
+43-17	3443-3446	ett	_	_	_	_	_	_	
+43-18	3447-3452	bevis	_	_	_	_	_	_	
+43-19	3453-3455	på	_	_	_	_	_	_	
+43-20	3456-3461	detta	_	_	_	_	_	_	
+43-21	3461-3462	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3464-3465	#	_	_	_	_	_	_	
+44-2	3465-3466	P	_	_	_	_	_	_	
+44-3	3467-3470	IMM	_	_	_	_	_	_	
+44-4	3470-3471	.	_	_	_	_	_	_	
+
+#Text=Dimitris Avramopoulos.
+45-1	3473-3481	Dimitris	_	_	_	_	_	_	
+45-2	3482-3494	Avramopoulos	_	_	_	_	_	_	
+45-3	3494-3495	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3497-3498	#	_	_	_	_	_	_	
+46-2	3498-3499	P	_	_	_	_	_	_	
+46-3	3500-3503	IMM	_	_	_	_	_	_	
+46-4	3503-3504	.	_	_	_	_	_	_	
+
+#Text=EU-kommissionär.
+47-1	3506-3521	EU-kommissionär	_	_	_	_	_	_	
+47-2	3521-3522	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3524-3525	#	_	_	_	_	_	_	
+48-2	3525-3526	P	_	_	_	_	_	_	
+48-3	3527-3530	IMM	_	_	_	_	_	_	
+48-4	3530-3531	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+49-1	3533-3538	FAKTA	_	_	_	_	_	_	
+49-2	3538-3539	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3541-3542	#	_	_	_	_	_	_	
+50-2	3542-3543	P	_	_	_	_	_	_	
+50-3	3544-3547	IMM	_	_	_	_	_	_	
+50-4	3547-3548	.	_	_	_	_	_	_	
+
+#Text=REN.
+51-1	3550-3553	REN	_	_	_	_	_	_	
+51-2	3553-3554	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3556-3557	#	_	_	_	_	_	_	
+52-2	3557-3558	P	_	_	_	_	_	_	
+52-3	3559-3562	IMM	_	_	_	_	_	_	
+52-4	3562-3563	.	_	_	_	_	_	_	
+
+#Text=N.
+53-1	3565-3566	N	_	_	_	_	_	_	
+53-2	3566-3567	.	_	_	_	_	_	_	

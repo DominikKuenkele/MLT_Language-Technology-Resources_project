@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Är det dags att dela Sverige i två nationer?
+3-1	18-20	Är	_	_	_	_	_	
+3-2	21-24	det	_	_	_	_	_	
+3-3	25-29	dags	_	_	_	_	_	
+3-4	30-33	att	_	_	_	_	_	
+3-5	34-38	dela	_	_	_	_	_	
+3-6	39-46	Sverige	_	_	_	_	_	
+3-7	47-48	i	_	_	_	_	_	
+3-8	49-52	två	_	_	_	_	_	
+3-9	53-61	nationer	_	_	_	_	_	
+3-10	61-62	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	
+4-2	65-66	P	_	_[2]	_	false[2]	2[2]	
+4-3	67-70	IMM	_	_[2]	_	false[2]	2[2]	
+4-4	70-71	.	_	_	_	_	_	
+
+#Text=Polariseringen i Sverige kring immigrationsfrågan tycks bara fördjupas.
+5-1	73-87	Polariseringen	*[8]	_	_	_	_	
+5-2	88-89	i	*[8]	_	_	_	_	
+5-3	90-97	Sverige	*[8]	_	_	_	_	
+5-4	98-103	kring	*[8]	_	_	_	_	
+5-5	104-122	immigrationsfrågan	*[8]	_	_	_	_	
+5-6	123-128	tycks	_	Target[3]	5-1[8]	false[3]	3[3]	
+5-7	129-133	bara	_	Target[3]	5-1[8]	false[3]	3[3]	
+5-8	134-143	fördjupas	_	Target[3]	5-1[8]	false[3]	3[3]	
+5-9	143-144	.	_	_	_	_	_	
+
+#Text=Är separatism lösningen?.
+6-1	145-147	Är	_	_	_	_	_	
+6-2	148-158	separatism	_	_	_	_	_	
+6-3	159-168	lösningen	_	_	_	_	_	
+6-4	168-169	?	_	_	_	_	_	
+6-5	169-170	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	172-173	#	_	_	_	_	_	
+7-2	173-174	P	_	_[4]	_	false[4]	2[4]	
+7-3	175-178	IMM	_	_[4]	_	false[4]	2[4]	
+7-4	178-179	.	_	_	_	_	_	
+
+#Text=Ska vi dela Sverige och skapa två nya nationer så att svenska folket inte behöver träta om den komplicerade och laddade invandringsfrågan?
+8-1	181-184	Ska	_	_	_	_	_	
+8-2	185-187	vi	_	_	_	_	_	
+8-3	188-192	dela	_	_	_	_	_	
+8-4	193-200	Sverige	_	_	_	_	_	
+8-5	201-204	och	_	_	_	_	_	
+8-6	205-210	skapa	_	_	_	_	_	
+8-7	211-214	två	_	_	_	_	_	
+8-8	215-218	nya	_	_	_	_	_	
+8-9	219-227	nationer	_	_	_	_	_	
+8-10	228-230	så	_	_	_	_	_	
+8-11	231-234	att	_	_	_	_	_	
+8-12	235-242	svenska	*[9]	_	_	_	_	
+8-13	243-249	folket	*[9]	_	_	_	_	
+8-14	250-254	inte	_	Target[5]	8-12[9]	false[5]	2[5]	
+8-15	255-262	behöver	_	Target[5]	8-12[9]	false[5]	2[5]	
+8-16	263-268	träta	_	Target[5]	8-12[9]	false[5]	2[5]	
+8-17	269-271	om	_	_	_	_	_	
+8-18	272-275	den	_	_	_	_	_	
+8-19	276-288	komplicerade	_	Target[6]	8-22	false[6]	2[6]	
+8-20	289-292	och	_	Target[6]	8-22	false[6]	2[6]	
+8-21	293-300	laddade	_	Target[6]	8-22	false[6]	2[6]	
+8-22	301-318	invandringsfrågan	*	_	_	_	_	
+8-23	318-319	?	_	_	_	_	_	
+
+#Text=Ett Sverige med flyktingar - och ett utan.
+9-1	320-323	Ett	_	_	_	_	_	
+9-2	324-331	Sverige	_	_	_	_	_	
+9-3	332-335	med	_	_	_	_	_	
+9-4	336-346	flyktingar	_	_	_	_	_	
+9-5	347-348	-	_	_	_	_	_	
+9-6	349-352	och	_	_	_	_	_	
+9-7	353-356	ett	_	_	_	_	_	
+9-8	357-361	utan	_	_	_	_	_	
+9-9	361-362	.	_	_	_	_	_	
+
+#Text=Genom en nationell valprocess skulle alla svenskar välja vilken del man vill tillhöra, och därefter får de två grupperna varsitt territorium, varsin halva av Sverige.
+10-1	363-368	Genom	_	_	_	_	_	
+10-2	369-371	en	_	_	_	_	_	
+10-3	372-381	nationell	_	_	_	_	_	
+10-4	382-392	valprocess	_	_	_	_	_	
+10-5	393-399	skulle	_	_	_	_	_	
+10-6	400-404	alla	_	_	_	_	_	
+10-7	405-413	svenskar	_	_	_	_	_	
+10-8	414-419	välja	_	_	_	_	_	
+10-9	420-426	vilken	_	_	_	_	_	
+10-10	427-430	del	_	_	_	_	_	
+10-11	431-434	man	_	_	_	_	_	
+10-12	435-439	vill	_	_	_	_	_	
+10-13	440-448	tillhöra	_	_	_	_	_	
+10-14	448-449	,	_	_	_	_	_	
+10-15	450-453	och	_	_	_	_	_	
+10-16	454-462	därefter	_	_	_	_	_	
+10-17	463-466	får	_	_	_	_	_	
+10-18	467-469	de	_	_	_	_	_	
+10-19	470-473	två	_	_	_	_	_	
+10-20	474-483	grupperna	_	_	_	_	_	
+10-21	484-491	varsitt	_	_	_	_	_	
+10-22	492-503	territorium	_	_	_	_	_	
+10-23	503-504	,	_	_	_	_	_	
+10-24	505-511	varsin	_	_	_	_	_	
+10-25	512-517	halva	_	_	_	_	_	
+10-26	518-520	av	_	_	_	_	_	
+10-27	521-528	Sverige	_	_	_	_	_	
+10-28	528-529	.	_	_	_	_	_	
+
+#Text=(En annan variant är att svenska mångkulturvänner bor med invandrare från mellanöstern och Afrika i en del, och mer asylskeptiska svenskar bor tillsammans med ostraffade och självförsörjande invandrare från Europa, Sydamerika och Sydostasien i den andra delen.).
+11-1	530-531	(	_	_	_	_	_	
+11-2	531-533	En	_	_	_	_	_	
+11-3	534-539	annan	_	_	_	_	_	
+11-4	540-547	variant	_	_	_	_	_	
+11-5	548-550	är	_	_	_	_	_	
+11-6	551-554	att	_	_	_	_	_	
+11-7	555-562	svenska	_	_	_	_	_	
+11-8	563-579	mångkulturvänner	_	_	_	_	_	
+11-9	580-583	bor	_	_	_	_	_	
+11-10	584-587	med	_	_	_	_	_	
+11-11	588-598	invandrare	_	_	_	_	_	
+11-12	599-603	från	_	_	_	_	_	
+11-13	604-616	mellanöstern	_	_	_	_	_	
+11-14	617-620	och	_	_	_	_	_	
+11-15	621-627	Afrika	_	_	_	_	_	
+11-16	628-629	i	_	_	_	_	_	
+11-17	630-632	en	_	_	_	_	_	
+11-18	633-636	del	_	_	_	_	_	
+11-19	636-637	,	_	_	_	_	_	
+11-20	638-641	och	_	_	_	_	_	
+11-21	642-645	mer	_	_	_	_	_	
+11-22	646-659	asylskeptiska	_	Source	11-23	false	2	
+11-23	660-668	svenskar	*	_	_	_	_	
+11-24	669-672	bor	_	_	_	_	_	
+11-25	673-684	tillsammans	_	_	_	_	_	
+11-26	685-688	med	_	_	_	_	_	
+11-27	689-699	ostraffade	_	_	_	_	_	
+11-28	700-703	och	_	_	_	_	_	
+11-29	704-720	självförsörjande	_	_	_	_	_	
+11-30	721-731	invandrare	_	_	_	_	_	
+11-31	732-736	från	_	_	_	_	_	
+11-32	737-743	Europa	_	_	_	_	_	
+11-33	743-744	,	_	_	_	_	_	
+11-34	745-755	Sydamerika	_	_	_	_	_	
+11-35	756-759	och	_	_	_	_	_	
+11-36	760-771	Sydostasien	_	_	_	_	_	
+11-37	772-773	i	_	_	_	_	_	
+11-38	774-777	den	_	_	_	_	_	
+11-39	778-783	andra	_	_	_	_	_	
+11-40	784-789	delen	_	_	_	_	_	
+11-41	789-790	.	_	_	_	_	_	
+11-42	790-791	)	_	_	_	_	_	
+11-43	791-792	.	*	_	_	_	_	
+
+#Text=#P IMM.
+12-1	794-795	#	_	_	_	_	_	
+12-2	795-796	P	_	_	_	_	_	
+12-3	797-800	IMM	_	_	_	_	_	
+12-4	800-801	.	_	_	_	_	_	
+
+#Text=Är det en bra idé?
+13-1	803-805	Är	_	_	_	_	_	
+13-2	806-809	det	_	_	_	_	_	
+13-3	810-812	en	_	_	_	_	_	
+13-4	813-816	bra	_	Target[7]	11-43	false[7]	4[7]	
+13-5	817-820	idé	_	Target[7]	11-43	false[7]	4[7]	
+13-6	820-821	?	_	_	_	_	_	
+
+#Text=Kan den fungera?
+14-1	822-825	Kan	_	_	_	_	_	
+14-2	826-829	den	_	_	_	_	_	
+14-3	830-837	fungera	_	_	_	_	_	
+14-4	837-838	?	_	_	_	_	_	
+
+#Text=Vilken del skulle du själv välja att bo i?.
+15-1	839-845	Vilken	_	_	_	_	_	
+15-2	846-849	del	_	_	_	_	_	
+15-3	850-856	skulle	_	_	_	_	_	
+15-4	857-859	du	_	_	_	_	_	
+15-5	860-865	själv	_	_	_	_	_	
+15-6	866-871	välja	_	_	_	_	_	
+15-7	872-875	att	_	_	_	_	_	
+15-8	876-878	bo	_	_	_	_	_	
+15-9	879-880	i	_	_	_	_	_	
+15-10	880-881	?	_	_	_	_	_	
+15-11	881-882	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	884-885	#	_	_	_	_	_	
+16-2	885-886	P	_	_	_	_	_	
+16-3	887-890	IMM	_	_	_	_	_	
+16-4	890-891	.	_	_	_	_	_	
+
+#Text=PS.
+17-1	893-895	PS	_	_	_	_	_	
+17-2	895-896	.	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	898-899	#	_	_	_	_	_	
+18-2	899-900	P	_	_	_	_	_	
+18-3	901-904	IMM	_	_	_	_	_	
+18-4	904-905	.	_	_	_	_	_	
+
+#Text=Hur skulle en sådan uppdelning kunna se ut geografiskt?
+19-1	907-910	Hur	_	_	_	_	_	
+19-2	911-917	skulle	_	_	_	_	_	
+19-3	918-920	en	_	_	_	_	_	
+19-4	921-926	sådan	_	_	_	_	_	
+19-5	927-937	uppdelning	_	_	_	_	_	
+19-6	938-943	kunna	_	_	_	_	_	
+19-7	944-946	se	_	_	_	_	_	
+19-8	947-949	ut	_	_	_	_	_	
+19-9	950-961	geografiskt	_	_	_	_	_	
+19-10	961-962	?	_	_	_	_	_	
+
+#Text=Ska Sverige delas på mitten eller längden?.
+20-1	963-966	Ska	_	_	_	_	_	
+20-2	967-974	Sverige	_	_	_	_	_	
+20-3	975-980	delas	_	_	_	_	_	
+20-4	981-983	på	_	_	_	_	_	
+20-5	984-990	mitten	_	_	_	_	_	
+20-6	991-996	eller	_	_	_	_	_	
+20-7	997-1004	längden	_	_	_	_	_	
+20-8	1004-1005	?	_	_	_	_	_	
+20-9	1005-1006	.	_	_	_	_	_	

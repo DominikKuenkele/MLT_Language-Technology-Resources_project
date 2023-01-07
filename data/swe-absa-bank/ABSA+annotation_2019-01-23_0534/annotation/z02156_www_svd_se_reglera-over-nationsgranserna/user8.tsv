@@ -1,0 +1,1009 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Reglera över nationsgränserna.
+3-1	18-25	Reglera	_	_	_	_	_	_	_	
+3-2	26-30	över	_	_	_	_	_	_	_	
+3-3	31-47	nationsgränserna	_	_	_	_	_	_	_	
+3-4	47-48	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	50-51	#	_	_	_	_	_	_	_	
+4-2	51-52	P	_	_	_	_	_	_	_	
+4-3	53-56	IMM	_	_	_	_	_	_	_	
+4-4	56-57	.	_	_	_	_	_	_	_	
+
+#Text=FINANSKRISENS SVALLVÅGOR Den finansiella turbulensen kommer att följas av ökade regleringar av finansmarknaden.
+5-1	59-72	FINANSKRISENS	_	_	_	_	_	_	_	
+5-2	73-83	SVALLVÅGOR	_	_	_	_	_	_	_	
+5-3	84-87	Den	*[28]	_	_	_	_	_	_	
+5-4	88-99	finansiella	*[28]	_	_	_	_	_	_	
+5-5	100-111	turbulensen	*[28]	Target	5-3[28]	false	2	_	_	
+5-6	112-118	kommer	_	_	_	_	_	_	_	
+5-7	119-122	att	_	_	_	_	_	_	_	
+5-8	123-129	följas	_	_	_	_	_	_	_	
+5-9	130-132	av	_	_	_	_	_	_	_	
+5-10	133-138	ökade	_	_	_	_	_	_	_	
+5-11	139-150	regleringar	_	_	_	_	_	_	_	
+5-12	151-153	av	_	_	_	_	_	_	_	
+5-13	154-169	finansmarknaden	_	_	_	_	_	_	_	
+5-14	169-170	.	_	_	_	_	_	_	_	
+
+#Text=För att undvika en upprepning av krisen är det nödvändigt att beslutsfattarna driver igenom regleringar som både är välanalyserade och internationella.
+6-1	171-174	För	_	_	_	_	_	_	_	
+6-2	175-178	att	_	_	_	_	_	_	_	
+6-3	179-186	undvika	_	Target	6-4[29]	false	2	_	_	
+6-4	187-189	en	*[29]	_	_	_	_	_	_	
+6-5	190-200	upprepning	*[29]	_	_	_	_	_	_	
+6-6	201-203	av	*[29]	_	_	_	_	_	_	
+6-7	204-210	krisen	*[29]	_	_	_	_	_	_	
+6-8	211-213	är	_	_	_	_	_	_	_	
+6-9	214-217	det	_	_	_	_	_	_	_	
+6-10	218-228	nödvändigt	_	_	_	_	_	_	_	
+6-11	229-232	att	_	_	_	_	_	_	_	
+6-12	233-248	beslutsfattarna	_	_	_	_	_	_	_	
+6-13	249-255	driver	_	_	_	_	_	_	_	
+6-14	256-262	igenom	_	_	_	_	_	_	_	
+6-15	263-274	regleringar	*	_	_	_	_	_	_	
+6-16	275-278	som	_	_	_	_	_	_	_	
+6-17	279-283	både	_	_	_	_	_	_	_	
+6-18	284-286	är	_	_	_	_	_	_	_	
+6-19	287-301	välanalyserade	_	Target;Source	6-15;6-22	false	4	_	_	
+6-20	302-305	och	_	_	_	_	_	_	_	
+6-21	306-321	internationella	_	_	_	_	_	_	_	
+6-22	321-322	.	*	_	_	_	_	_	_	
+
+#Text=Det viktigaste är att samma spelregler gäller oavsett marknad, skriver Johan Thorén, vd på Strand Kapitalförvaltning.
+7-1	323-326	Det	_	Source;Target[1]	7-12[31];7-4[30]	false[1]	4[1]	_	_	
+7-2	327-337	viktigaste	_	Source;Target[1]	7-12[31];7-4[30]	false[1]	4[1]	_	_	
+7-3	338-340	är	_	Source;Target[1]	7-12[31];7-4[30]	false[1]	4[1]	_	_	
+7-4	341-344	att	*[30]	_	_	_	_	_	_	
+7-5	345-350	samma	*[30]	_	_	_	_	_	_	
+7-6	351-361	spelregler	*[30]	_	_	_	_	_	_	
+7-7	362-368	gäller	*[30]	_	_	_	_	_	_	
+7-8	369-376	oavsett	*[30]	_	_	_	_	_	_	
+7-9	377-384	marknad	*[30]	_	_	_	_	_	_	
+7-10	384-385	,	_	_	_	_	_	_	_	
+7-11	386-393	skriver	_	_	_	_	_	_	_	
+7-12	394-399	Johan	*[31]	_	_	_	_	_	_	
+7-13	400-406	Thorén	*[31]	_	_	_	_	_	_	
+7-14	406-407	,	*[31]	_	_	_	_	_	_	
+7-15	408-410	vd	*[31]	_	_	_	_	_	_	
+7-16	411-413	på	*[31]	_	_	_	_	_	_	
+7-17	414-420	Strand	*[31]	_	_	_	_	_	_	
+7-18	421-439	Kapitalförvaltning	*[31]	_	_	_	_	_	_	
+7-19	439-440	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	442-443	#	_	_	_	_	_	_	_	
+8-2	443-444	P	_	_	_	_	_	_	_	
+8-3	445-448	IMM	_	_	_	_	_	_	_	
+8-4	448-449	.	_	_	_	_	_	_	_	
+
+#Text=I finanskrisens svallvågor höjs röster för ökad reglering av den "onda" finansmarknaden.
+9-1	451-452	I	_	_	_	_	_	_	_	
+9-2	453-466	finanskrisens	_	_	_	_	_	_	_	
+9-3	467-477	svallvågor	_	_	_	_	_	_	_	
+9-4	478-482	höjs	_	Source;Target[2]	9-15;9-7[32]	false[2]	4[2]	_	_	
+9-5	483-489	röster	_	Source;Target[2]	9-15;9-7[32]	false[2]	4[2]	_	_	
+9-6	490-493	för	_	Source;Target[2]	9-15;9-7[32]	false[2]	4[2]	_	_	
+9-7	494-498	ökad	*[32]	_	_	_	_	_	_	
+9-8	499-508	reglering	*[32]	_	_	_	_	_	_	
+9-9	509-511	av	*[32]	_	_	_	_	_	_	
+9-10	512-515	den	*[32]|*[33]	_	_	_	_	_	_	
+9-11	516-517	"	*[32]|*[33]	Target;Source[3]	9-10[33];9-15	false[3]	1[3]	_	_	
+9-12	517-521	onda	*[32]|*[33]	Target;Source[3]	9-10[33];9-15	false[3]	1[3]	_	_	
+9-13	521-522	"	*[32]|*[33]	Target;Source[3]	9-10[33];9-15	false[3]	1[3]	_	_	
+9-14	523-538	finansmarknaden	*[32]|*[33]	_	_	_	_	_	_	
+9-15	538-539	.	*	_	_	_	_	_	_	
+
+#Text=Politiker letar enkla poäng genom att peka ut syndabockar.
+10-1	540-549	Politiker	*	_	_	_	_	_	_	
+10-2	550-555	letar	_	_	_	_	_	_	_	
+10-3	556-561	enkla	_	_	_	_	_	_	_	
+10-4	562-567	poäng	_	_	_	_	_	_	_	
+10-5	568-573	genom	_	_	_	_	_	_	_	
+10-6	574-577	att	_	_	_	_	_	_	_	
+10-7	578-582	peka	_	_	_	_	_	_	_	
+10-8	583-585	ut	_	_	_	_	_	_	_	
+10-9	586-597	syndabockar	_	Source	10-10	false	2	_	_	
+10-10	597-598	.	*	_	_	_	_	_	_	
+
+#Text=Ett mantra som nu hörs från deras läppar i snart varje land, är kravet på att förbjuda bankdirektörernas bonusar.
+11-1	599-602	Ett	_	_	_	_	_	_	_	
+11-2	603-609	mantra	_	_	_	_	_	_	_	
+11-3	610-613	som	_	_	_	_	_	_	_	
+11-4	614-616	nu	_	_	_	_	_	_	_	
+11-5	617-621	hörs	_	_	_	_	_	_	_	
+11-6	622-626	från	_	_	_	_	_	_	_	
+11-7	627-632	deras	_	_	_	_	_	_	_	
+11-8	633-639	läppar	_	_	_	_	_	_	_	
+11-9	640-641	i	_	_	_	_	_	_	_	
+11-10	642-647	snart	_	_	_	_	_	_	_	
+11-11	648-653	varje	_	_	_	_	_	_	_	
+11-12	654-658	land	_	_	_	_	_	_	_	
+11-13	658-659	,	_	_	_	_	_	_	_	
+11-14	660-662	är	_	_	_	_	_	_	_	
+11-15	663-669	kravet	_	_	_	_	_	_	_	
+11-16	670-672	på	_	_	_	_	_	_	_	
+11-17	673-676	att	_	_	_	_	_	_	_	
+11-18	677-685	förbjuda	_	Target;Source	11-19[34];10-1	false	2	_	_	
+11-19	686-703	bankdirektörernas	*[34]	_	_	_	_	_	_	
+11-20	704-711	bonusar	*[34]	_	_	_	_	_	_	
+11-21	711-712	.	_	_	_	_	_	_	_	
+
+#Text=Att bonussystemen i många fall varit helt galna eller till och med osmakliga är jag den förste att hålla med om, men att dessa direktörer skulle ha haft speciellt mycket med finanskrisen att göra är att till- skriva dem alldeles för stor betydelse.
+12-1	713-716	Att	_	_	_	_	_	_	_	
+12-2	717-730	bonussystemen	*[35]	_	_	_	_	_	_	
+12-3	731-732	i	*[35]	_	_	_	_	_	_	
+12-4	733-738	många	*[35]	_	_	_	_	_	_	
+12-5	739-743	fall	*[35]	_	_	_	_	_	_	
+12-6	744-749	varit	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-7	750-754	helt	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-8	755-760	galna	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-9	761-766	eller	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-10	767-771	till	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-11	772-775	och	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-12	776-779	med	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-13	780-789	osmakliga	_	Source;Source;Target[4]	12-46;12-15;12-2[35]	false[4]	2[4]	_	_	
+12-14	790-792	är	_	_	_	_	_	_	_	
+12-15	793-796	jag	*	_	_	_	_	_	_	
+12-16	797-800	den	_	_	_	_	_	_	_	
+12-17	801-807	förste	_	_	_	_	_	_	_	
+12-18	808-811	att	_	_	_	_	_	_	_	
+12-19	812-817	hålla	_	_	_	_	_	_	_	
+12-20	818-821	med	_	_	_	_	_	_	_	
+12-21	822-824	om	_	_	_	_	_	_	_	
+12-22	824-825	,	_	_	_	_	_	_	_	
+12-23	826-829	men	_	_	_	_	_	_	_	
+12-24	830-833	att	_	_	_	_	_	_	_	
+12-25	834-839	dessa	_	_	_	_	_	_	_	
+12-26	840-850	direktörer	_	_	_	_	_	_	_	
+12-27	851-857	skulle	_	_	_	_	_	_	_	
+12-28	858-860	ha	_	_	_	_	_	_	_	
+12-29	861-865	haft	_	_	_	_	_	_	_	
+12-30	866-875	speciellt	_	_	_	_	_	_	_	
+12-31	876-882	mycket	_	_	_	_	_	_	_	
+12-32	883-886	med	_	_	_	_	_	_	_	
+12-33	887-899	finanskrisen	_	_	_	_	_	_	_	
+12-34	900-903	att	_	_	_	_	_	_	_	
+12-35	904-908	göra	_	_	_	_	_	_	_	
+12-36	909-911	är	_	_	_	_	_	_	_	
+12-37	912-915	att	_	_	_	_	_	_	_	
+12-38	916-920	till	_	_	_	_	_	_	_	
+12-39	920-921	-	_	_	_	_	_	_	_	
+12-40	922-928	skriva	_	_	_	_	_	_	_	
+12-41	929-932	dem	_	_	_	_	_	_	_	
+12-42	933-941	alldeles	_	_	_	_	_	_	_	
+12-43	942-945	för	_	_	_	_	_	_	_	
+12-44	946-950	stor	_	_	_	_	_	_	_	
+12-45	951-960	betydelse	_	_	_	_	_	_	_	
+12-46	960-961	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	963-964	#	_	_	_	_	_	_	_	
+13-2	964-965	P	_	_	_	_	_	_	_	
+13-3	966-969	IMM	_	_	_	_	_	_	_	
+13-4	969-970	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+14-1	972-975	Det	_	_	_	_	_	_	_	
+14-2	976-979	här	_	_	_	_	_	_	_	
+14-3	980-982	är	_	_	_	_	_	_	_	
+14-4	983-985	en	_	_	_	_	_	_	_	
+14-5	986-1000	argumenterande	_	_	_	_	_	_	_	
+14-6	1001-1005	text	_	_	_	_	_	_	_	
+14-7	1006-1009	med	_	_	_	_	_	_	_	
+14-8	1010-1015	syfte	_	_	_	_	_	_	_	
+14-9	1016-1019	att	_	_	_	_	_	_	_	
+14-10	1020-1027	påverka	_	_	_	_	_	_	_	
+14-11	1027-1028	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+15-1	1029-1038	Åsikterna	_	_	_	_	_	_	_	
+15-2	1039-1042	som	_	_	_	_	_	_	_	
+15-3	1043-1051	uttrycks	_	_	_	_	_	_	_	
+15-4	1052-1054	är	_	_	_	_	_	_	_	
+15-5	1055-1066	skribentens	_	_	_	_	_	_	_	
+15-6	1067-1071	egna	_	_	_	_	_	_	_	
+15-7	1071-1072	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1074-1075	#	_	_	_	_	_	_	_	
+16-2	1075-1076	P	_	_	_	_	_	_	_	
+16-3	1077-1080	IMM	_	_	_	_	_	_	_	
+16-4	1080-1081	.	_	_	_	_	_	_	_	
+
+#Text=Vissa har säkert lockats till ett kortsiktigt tänkande och till att ta för stora risker i förhoppningen om en stor bonuscheck.
+17-1	1083-1088	Vissa	*	_	_	_	_	_	_	
+17-2	1089-1092	har	_	_	_	_	_	_	_	
+17-3	1093-1099	säkert	_	_	_	_	_	_	_	
+17-4	1100-1107	lockats	_	_	_	_	_	_	_	
+17-5	1108-1112	till	_	_	_	_	_	_	_	
+17-6	1113-1116	ett	_	_	_	_	_	_	_	
+17-7	1117-1128	kortsiktigt	_	_	_	_	_	_	_	
+17-8	1129-1137	tänkande	_	_	_	_	_	_	_	
+17-9	1138-1141	och	_	_	_	_	_	_	_	
+17-10	1142-1146	till	_	_	_	_	_	_	_	
+17-11	1147-1150	att	*[36]	_	_	_	_	_	18-1[0_36]	
+17-12	1151-1153	ta	*[36]	Target[5]	17-1	false[5]	2[5]	_	_	
+17-13	1154-1157	för	*[36]	Target[5]	17-1	false[5]	2[5]	_	_	
+17-14	1158-1163	stora	*[36]	Target[5]	17-1	false[5]	2[5]	_	_	
+17-15	1164-1170	risker	*[36]	Target[5]	17-1	false[5]	2[5]	_	_	
+17-16	1171-1172	i	*[36]	_	_	_	_	_	_	
+17-17	1173-1186	förhoppningen	*[36]	Source;Target[6]	17-1;17-19[37]	false[6]	4[6]	_	_	
+17-18	1187-1189	om	*[36]	Source;Target[6]	17-1;17-19[37]	false[6]	4[6]	_	_	
+17-19	1190-1192	en	*[36]|*[37]	_	_	_	_	_	_	
+17-20	1193-1197	stor	*[36]|*[37]	_	_	_	_	_	_	
+17-21	1198-1208	bonuscheck	*[36]|*[37]	_	_	_	_	_	_	
+17-22	1208-1209	.	_	_	_	_	_	_	_	
+
+#Text=Detta har dock främst lett till problem för berörda bolag och dess aktieägare.
+18-1	1210-1215	Detta	*	_	_	_	_	_	_	
+18-2	1216-1219	har	_	Target	18-1	false	2	_	_	
+18-3	1220-1224	dock	_	_	_	_	_	_	_	
+18-4	1225-1231	främst	_	Target[7]	18-1	false[7]	2[7]	18-2[0_7]	_	
+18-5	1232-1236	lett	_	Target[7]	18-1	false[7]	2[7]	_	_	
+18-6	1237-1241	till	_	Target[7]	18-1	false[7]	2[7]	_	_	
+18-7	1242-1249	problem	_	Target[7]	18-1	false[7]	2[7]	_	_	
+18-8	1250-1253	för	_	_	_	_	_	_	_	
+18-9	1254-1261	berörda	_	_	_	_	_	_	_	
+18-10	1262-1267	bolag	_	_	_	_	_	_	_	
+18-11	1268-1271	och	_	_	_	_	_	_	_	
+18-12	1272-1276	dess	_	_	_	_	_	_	_	
+18-13	1277-1287	aktieägare	_	_	_	_	_	_	_	
+18-14	1287-1288	.	_	_	_	_	_	_	_	
+
+#Text=Jag föreläser ofta om den globala finanskrisens orsaker och kan tyvärr konstatera att de bakomliggande faktorerna är betydligt mer komplicerade än några enstaka personers girighet.
+19-1	1289-1292	Jag	*	_	_	_	_	_	_	
+19-2	1293-1302	föreläser	_	_	_	_	_	_	_	
+19-3	1303-1307	ofta	_	_	_	_	_	_	_	
+19-4	1308-1310	om	_	_	_	_	_	_	_	
+19-5	1311-1314	den	_	_	_	_	_	_	_	
+19-6	1315-1322	globala	_	_	_	_	_	_	_	
+19-7	1323-1336	finanskrisens	_	_	_	_	_	_	_	
+19-8	1337-1344	orsaker	_	_	_	_	_	_	_	
+19-9	1345-1348	och	_	_	_	_	_	_	_	
+19-10	1349-1352	kan	_	Source;Target[8]	19-1;19-13[38]	false[8]	2[8]	_	_	
+19-11	1353-1359	tyvärr	_	Source;Target[8]	19-1;19-13[38]	false[8]	2[8]	_	_	
+19-12	1360-1370	konstatera	_	Source;Target[8]	19-1;19-13[38]	false[8]	2[8]	_	_	
+19-13	1371-1374	att	*[38]	_	_	_	_	_	_	
+19-14	1375-1377	de	*[38]	_	_	_	_	_	_	
+19-15	1378-1391	bakomliggande	*[38]	_	_	_	_	_	_	
+19-16	1392-1402	faktorerna	*[38]	_	_	_	_	_	_	
+19-17	1403-1405	är	*[38]	_	_	_	_	_	_	
+19-18	1406-1415	betydligt	*[38]	_	_	_	_	_	_	
+19-19	1416-1419	mer	*[38]	_	_	_	_	_	_	
+19-20	1420-1432	komplicerade	*[38]	_	_	_	_	_	_	
+19-21	1433-1435	än	*[38]	_	_	_	_	_	_	
+19-22	1436-1441	några	*[38]|*[39]	_	_	_	_	_	_	
+19-23	1442-1449	enstaka	*[38]|*[39]	_	_	_	_	_	_	
+19-24	1450-1459	personers	*[38]|*[39]	_	_	_	_	_	_	
+19-25	1460-1468	girighet	*[38]	Target;Source	19-22[39];19-26	false	2	_	_	
+19-26	1468-1469	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1471-1472	#	_	_	_	_	_	_	_	
+20-2	1472-1473	P	_	_	_	_	_	_	_	
+20-3	1474-1477	IMM	_	_	_	_	_	_	_	
+20-4	1477-1478	.	_	_	_	_	_	_	_	
+
+#Text=Att den finansiella turbulens vi just genomlevt kommer att följas av ökade regleringar av finansmarknaden är helt givet och i vissa fall kanske också positivt.
+21-1	1480-1483	Att	*[40]	_	_	_	_	_	_	
+21-2	1484-1487	den	*[40]|*[41]	_	_	_	_	_	_	
+21-3	1488-1499	finansiella	*[40]|*[41]	_	_	_	_	_	_	
+21-4	1500-1509	turbulens	*[40]|*[41]	Target	21-2[41]	false	2	_	_	
+21-5	1510-1512	vi	*[40]|*[41]	_	_	_	_	_	_	
+21-6	1513-1517	just	*[40]|*[41]	_	_	_	_	_	_	
+21-7	1518-1527	genomlevt	*[40]|*[41]	_	_	_	_	_	_	
+21-8	1528-1534	kommer	*[40]	_	_	_	_	_	_	
+21-9	1535-1538	att	*[40]	_	_	_	_	_	_	
+21-10	1539-1545	följas	*[40]	_	_	_	_	_	_	
+21-11	1546-1548	av	*[40]	_	_	_	_	_	_	
+21-12	1549-1554	ökade	*[40]	_	_	_	_	_	_	
+21-13	1555-1566	regleringar	*[40]	_	_	_	_	_	_	
+21-14	1567-1569	av	*[40]	_	_	_	_	_	_	
+21-15	1570-1585	finansmarknaden	*[40]	_	_	_	_	_	_	
+21-16	1586-1588	är	_	Target	21-1[40]	false	4	21-25	_	
+21-17	1589-1593	helt	_	_	_	_	_	_	_	
+21-18	1594-1599	givet	_	_	_	_	_	_	_	
+21-19	1600-1603	och	_	_	_	_	_	_	_	
+21-20	1604-1605	i	_	Target[9]	21-1[40]	false[9]	4[9]	21-16[0_9]	_	
+21-21	1606-1611	vissa	_	Target[9]	21-1[40]	false[9]	4[9]	_	_	
+21-22	1612-1616	fall	_	Target[9]	21-1[40]	false[9]	4[9]	_	_	
+21-23	1617-1623	kanske	_	Target[9]	21-1[40]	false[9]	4[9]	_	_	
+21-24	1624-1629	också	_	_	_	_	_	_	_	
+21-25	1630-1638	positivt	_	Target	21-1[40]	false	4	21-20[9_0]	_	
+21-26	1638-1639	.	_	_	_	_	_	_	_	
+
+#Text=Det som gör mig orolig är att beslutsfattarna ibland fokuserar på fel saker och ofta har för dålig insikt i den moderna marknaden.
+22-1	1640-1643	Det	_	_	_	_	_	_	_	
+22-2	1644-1647	som	_	_	_	_	_	_	_	
+22-3	1648-1651	gör	_	Target;Source[10]	22-7[42];22-4	false[10]	2[10]	_	_	
+22-4	1652-1655	mig	*	Target;Source[10]	22-7[42];22-4	false[10]	2[10]	_	_	
+22-5	1656-1662	orolig	_	Target;Source[10]	22-7[42];22-4	false[10]	2[10]	_	_	
+22-6	1663-1665	är	_	_	_	_	_	_	_	
+22-7	1666-1669	att	*[42]	_	_	_	_	_	_	
+22-8	1670-1685	beslutsfattarna	*[42]|*[43]	_	_	_	_	_	_	
+22-9	1686-1692	ibland	*[42]	Target[11]	22-8[43]	false[11]	2[11]	_	_	
+22-10	1693-1702	fokuserar	*[42]	Target[11]	22-8[43]	false[11]	2[11]	_	_	
+22-11	1703-1705	på	*[42]	Target[11]	22-8[43]	false[11]	2[11]	_	_	
+22-12	1706-1709	fel	*[42]	Target[11]	22-8[43]	false[11]	2[11]	_	_	
+22-13	1710-1715	saker	*[42]	Target[11]	22-8[43]	false[11]	2[11]	_	_	
+22-14	1716-1719	och	*[42]	_	_	_	_	_	_	
+22-15	1720-1724	ofta	*[42]	Target;Target[12]	22-17[44];22-8[43]	false[12]	2[12]	_	_	
+22-16	1725-1728	har	*[42]	Target;Target[12]	22-17[44];22-8[43]	false[12]	2[12]	_	_	
+22-17	1729-1732	för	*[42]|*[44]	Target;Target[12]	22-17[44];22-8[43]	false[12]	2[12]	_	_	
+22-18	1733-1738	dålig	*[42]|*[44]	Target;Target[12]	22-17[44];22-8[43]	false[12]	2[12]	_	_	
+22-19	1739-1745	insikt	*[42]|*[44]	Target;Target[12]	22-17[44];22-8[43]	false[12]	2[12]	_	_	
+22-20	1746-1747	i	*[42]|*[44]	_	_	_	_	_	_	
+22-21	1748-1751	den	*[42]|*[44]	_	_	_	_	_	_	
+22-22	1752-1759	moderna	*[42]|*[44]	_	_	_	_	_	_	
+22-23	1760-1769	marknaden	*[42]|*[44]	_	_	_	_	_	_	
+22-24	1769-1770	.	_	_	_	_	_	_	_	
+
+#Text=Det finns också en tendens att reglera marknaden vid botten i varje konjunkturcykel för att sedan avreglera på toppen.
+23-1	1771-1774	Det	_	_	_	_	_	_	_	
+23-2	1775-1780	finns	_	_	_	_	_	_	_	
+23-3	1781-1786	också	_	_	_	_	_	_	_	
+23-4	1787-1789	en	_	_	_	_	_	_	_	
+23-5	1790-1797	tendens	_	_	_	_	_	_	_	
+23-6	1798-1801	att	_	_	_	_	_	_	_	
+23-7	1802-1809	reglera	_	_	_	_	_	_	_	
+23-8	1810-1819	marknaden	_	_	_	_	_	_	_	
+23-9	1820-1823	vid	_	_	_	_	_	_	_	
+23-10	1824-1830	botten	_	_	_	_	_	_	_	
+23-11	1831-1832	i	_	_	_	_	_	_	_	
+23-12	1833-1838	varje	_	_	_	_	_	_	_	
+23-13	1839-1854	konjunkturcykel	_	_	_	_	_	_	_	
+23-14	1855-1858	för	_	_	_	_	_	_	_	
+23-15	1859-1862	att	_	_	_	_	_	_	_	
+23-16	1863-1868	sedan	_	_	_	_	_	_	_	
+23-17	1869-1878	avreglera	_	_	_	_	_	_	_	
+23-18	1879-1881	på	_	_	_	_	_	_	_	
+23-19	1882-1888	toppen	_	_	_	_	_	_	_	
+23-20	1888-1889	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1891-1892	#	_	_	_	_	_	_	_	
+24-2	1892-1893	P	_	_	_	_	_	_	_	
+24-3	1894-1897	IMM	_	_	_	_	_	_	_	
+24-4	1897-1898	.	_	_	_	_	_	_	_	
+
+#Text=Blankning är ett bra exempel på detta.
+25-1	1900-1909	Blankning	_	_	_	_	_	_	_	
+25-2	1910-1912	är	_	_	_	_	_	_	_	
+25-3	1913-1916	ett	_	_	_	_	_	_	_	
+25-4	1917-1920	bra	_	_	_	_	_	_	_	
+25-5	1921-1928	exempel	_	_	_	_	_	_	_	
+25-6	1929-1931	på	_	_	_	_	_	_	_	
+25-7	1932-1937	detta	_	_	_	_	_	_	_	
+25-8	1937-1938	.	_	_	_	_	_	_	_	
+
+#Text=Efter Kreuger-kraschen förbjöds i praktiken blankning (försäljning av lånade aktier) i Sverige då man gjorde bedömningen att företeelsen allvarligt hade förvärrat kraschen.
+26-1	1939-1944	Efter	_	_	_	_	_	_	_	
+26-2	1945-1961	Kreuger-kraschen	_	_	_	_	_	_	_	
+26-3	1962-1970	förbjöds	_	Target;Source[13]	26-6[45];26-13[46]	false[13]	2[13]	_	_	
+26-4	1971-1972	i	_	Target;Source[13]	26-6[45];26-13[46]	false[13]	2[13]	_	_	
+26-5	1973-1982	praktiken	_	Target;Source[13]	26-6[45];26-13[46]	false[13]	2[13]	_	_	
+26-6	1983-1992	blankning	*[45]	_	_	_	_	_	26-20[0_45]	
+26-7	1993-1994	(	*[45]	_	_	_	_	_	_	
+26-8	1994-2005	försäljning	*[45]	_	_	_	_	_	_	
+26-9	2006-2008	av	*[45]	_	_	_	_	_	_	
+26-10	2009-2015	lånade	*[45]	_	_	_	_	_	_	
+26-11	2016-2022	aktier	*[45]	_	_	_	_	_	_	
+26-12	2022-2023	)	*[45]	_	_	_	_	_	_	
+26-13	2024-2025	i	*[46]	_	_	_	_	_	26-16[0_46]	
+26-14	2026-2033	Sverige	*[46]	_	_	_	_	_	_	
+26-15	2034-2036	då	_	_	_	_	_	_	_	
+26-16	2037-2040	man	*	_	_	_	_	_	_	
+26-17	2041-2047	gjorde	_	_	_	_	_	_	_	
+26-18	2048-2059	bedömningen	_	_	_	_	_	_	_	
+26-19	2060-2063	att	_	_	_	_	_	_	_	
+26-20	2064-2075	företeelsen	*	_	_	_	_	_	_	
+26-21	2076-2086	allvarligt	_	Target;Source[14]	26-20;26-16	false[14]	2[14]	_	_	
+26-22	2087-2091	hade	_	Target;Source[14]	26-20;26-16	false[14]	2[14]	_	_	
+26-23	2092-2101	förvärrat	_	Target;Source[14]	26-20;26-16	false[14]	2[14]	_	_	
+26-24	2102-2110	kraschen	_	Target;Source[14]	26-20;26-16	false[14]	2[14]	_	_	
+26-25	2110-2111	.	_	_	_	_	_	_	_	
+
+#Text=Så var säkert också fallet men ett förbud ter sig ändå väl drastiskt.
+27-1	2112-2114	Så	_	_	_	_	_	_	_	
+27-2	2115-2118	var	_	_	_	_	_	_	_	
+27-3	2119-2125	säkert	_	_	_	_	_	_	_	
+27-4	2126-2131	också	_	_	_	_	_	_	_	
+27-5	2132-2138	fallet	_	_	_	_	_	_	_	
+27-6	2139-2142	men	_	_	_	_	_	_	_	
+27-7	2143-2146	ett	*[47]	_	_	_	_	_	_	
+27-8	2147-2153	förbud	*[47]	_	_	_	_	_	_	
+27-9	2154-2157	ter	_	Target[15]	27-7[47]	false[15]	2[15]	_	_	
+27-10	2158-2161	sig	_	Target[15]	27-7[47]	false[15]	2[15]	_	_	
+27-11	2162-2166	ändå	_	Target[15]	27-7[47]	false[15]	2[15]	_	_	
+27-12	2167-2170	väl	_	Target[15]	27-7[47]	false[15]	2[15]	_	_	
+27-13	2171-2180	drastiskt	_	Target[15]	27-7[47]	false[15]	2[15]	_	_	
+27-14	2180-2181	.	_	_	_	_	_	_	_	
+
+#Text=Först efter finansmarknadens avreg- lering i början av 90-talet blev det åter möjligt att spekulera i nedgång.
+28-1	2182-2187	Först	_	_	_	_	_	_	_	
+28-2	2188-2193	efter	_	_	_	_	_	_	_	
+28-3	2194-2210	finansmarknadens	_	_	_	_	_	_	_	
+28-4	2211-2216	avreg	_	_	_	_	_	_	_	
+28-5	2216-2217	-	_	_	_	_	_	_	_	
+28-6	2218-2224	lering	_	_	_	_	_	_	_	
+28-7	2225-2226	i	_	_	_	_	_	_	_	
+28-8	2227-2233	början	_	_	_	_	_	_	_	
+28-9	2234-2236	av	_	_	_	_	_	_	_	
+28-10	2237-2239	90	_	_	_	_	_	_	_	
+28-11	2239-2240	-	_	_	_	_	_	_	_	
+28-12	2240-2245	talet	_	_	_	_	_	_	_	
+28-13	2246-2250	blev	_	_	_	_	_	_	_	
+28-14	2251-2254	det	_	_	_	_	_	_	_	
+28-15	2255-2259	åter	_	_	_	_	_	_	_	
+28-16	2260-2267	möjligt	_	_	_	_	_	_	_	
+28-17	2268-2271	att	_	_	_	_	_	_	_	
+28-18	2272-2281	spekulera	_	_	_	_	_	_	_	
+28-19	2282-2283	i	_	_	_	_	_	_	_	
+28-20	2284-2291	nedgång	_	_	_	_	_	_	_	
+28-21	2291-2292	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2294-2295	#	_	_	_	_	_	_	_	
+29-2	2295-2296	P	_	_	_	_	_	_	_	
+29-3	2297-2300	IMM	_	_	_	_	_	_	_	
+29-4	2300-2301	.	_	_	_	_	_	_	_	
+
+#Text=Problemet var bara det att Sverige gick längre i avreglering än vad till exempel USA gjorde.
+30-1	2303-2312	Problemet	_	Target[16]	30-5[48]	false[16]	4[16]	_	_	
+30-2	2313-2316	var	_	Target[16]	30-5[48]	false[16]	4[16]	_	_	
+30-3	2317-2321	bara	_	Target[16]	30-5[48]	false[16]	4[16]	_	_	
+30-4	2322-2325	det	_	Target[16]	30-5[48]	false[16]	4[16]	_	_	
+30-5	2326-2329	att	*[48]	_	_	_	_	_	_	
+30-6	2330-2337	Sverige	*[48]	_	_	_	_	_	_	
+30-7	2338-2342	gick	*[48]	_	_	_	_	_	_	
+30-8	2343-2349	längre	*[48]	_	_	_	_	_	_	
+30-9	2350-2351	i	*[48]	_	_	_	_	_	_	
+30-10	2352-2363	avreglering	*[48]	_	_	_	_	_	_	
+30-11	2364-2366	än	*[48]	_	_	_	_	_	_	
+30-12	2367-2370	vad	*[48]	_	_	_	_	_	_	
+30-13	2371-2375	till	*[48]	_	_	_	_	_	_	
+30-14	2376-2383	exempel	*[48]	_	_	_	_	_	_	
+30-15	2384-2387	USA	*[48]	_	_	_	_	_	_	
+30-16	2388-2394	gjorde	*[48]	_	_	_	_	_	_	
+30-17	2394-2395	.	_	_	_	_	_	_	_	
+
+#Text=Där hade man istället successivt reglerat handeln med aktielån för att nå en så väl fungerande marknad som möjligt där blankaren inte lika tydligt riskerar att påverka aktiekurserna och för att minska slagigheten i marknaden.
+31-1	2396-2399	Där	_	_	_	_	_	_	_	
+31-2	2400-2404	hade	_	_	_	_	_	_	_	
+31-3	2405-2408	man	_	_	_	_	_	_	_	
+31-4	2409-2417	istället	_	_	_	_	_	_	_	
+31-5	2418-2428	successivt	_	_	_	_	_	_	_	
+31-6	2429-2437	reglerat	_	_	_	_	_	_	_	
+31-7	2438-2445	handeln	_	_	_	_	_	_	_	
+31-8	2446-2449	med	_	_	_	_	_	_	_	
+31-9	2450-2458	aktielån	_	_	_	_	_	_	_	
+31-10	2459-2462	för	_	_	_	_	_	_	_	
+31-11	2463-2466	att	_	_	_	_	_	_	_	
+31-12	2467-2469	nå	_	_	_	_	_	_	_	
+31-13	2470-2472	en	_	_	_	_	_	_	_	
+31-14	2473-2475	så	_	Target[17]	31-17	false[17]	4[17]	_	_	
+31-15	2476-2479	väl	_	Target[17]	31-17	false[17]	4[17]	_	_	
+31-16	2480-2490	fungerande	_	Target[17]	31-17	false[17]	4[17]	_	_	
+31-17	2491-2498	marknad	*	_	_	_	_	_	_	
+31-18	2499-2502	som	_	Target;Source[18]	31-17;31-36	false[18]	4[18]	31-14[17_18]	_	
+31-19	2503-2510	möjligt	_	Target;Source[18]	31-17;31-36	false[18]	4[18]	_	_	
+31-20	2511-2514	där	_	_	_	_	_	_	_	
+31-21	2515-2524	blankaren	*[49]	_	_	_	_	_	_	
+31-22	2525-2529	inte	*[49]	Source;Target[19]	31-36;31-21[49]	false[19]	3[19]	_	_	
+31-23	2530-2534	lika	*[49]	Source;Target[19]	31-36;31-21[49]	false[19]	3[19]	_	_	
+31-24	2535-2542	tydligt	*[49]	Source;Target[19]	31-36;31-21[49]	false[19]	3[19]	_	_	
+31-25	2543-2551	riskerar	*[49]	Source;Target[19]	31-36;31-21[49]	false[19]	3[19]	_	_	
+31-26	2552-2555	att	*[49]	_	_	_	_	_	_	
+31-27	2556-2563	påverka	*[49]	_	_	_	_	_	_	
+31-28	2564-2577	aktiekurserna	*[49]	_	_	_	_	_	_	
+31-29	2578-2581	och	*[49]	_	_	_	_	_	_	
+31-30	2582-2585	för	*[49]	_	_	_	_	_	_	
+31-31	2586-2589	att	*[49]	_	_	_	_	_	_	
+31-32	2590-2596	minska	*[49]	_	_	_	_	_	_	
+31-33	2597-2608	slagigheten	*[49]	_	_	_	_	_	_	
+31-34	2609-2610	i	*[49]	_	_	_	_	_	_	
+31-35	2611-2620	marknaden	*[49]	_	_	_	_	_	_	
+31-36	2620-2621	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2623-2624	#	_	_	_	_	_	_	_	
+32-2	2624-2625	P	_	_	_	_	_	_	_	
+32-3	2626-2629	IMM	_	_	_	_	_	_	_	
+32-4	2629-2630	.	_	_	_	_	_	_	_	
+
+#Text=Konsekvenserna av skillnaden mellan länderna blev allt tydligare i takt med att handeln datoriserades och nationsgränserna suddades ut.
+33-1	2632-2646	Konsekvenserna	_	_	_	_	_	_	_	
+33-2	2647-2649	av	_	_	_	_	_	_	_	
+33-3	2650-2660	skillnaden	_	_	_	_	_	_	_	
+33-4	2661-2667	mellan	_	_	_	_	_	_	_	
+33-5	2668-2676	länderna	_	_	_	_	_	_	_	
+33-6	2677-2681	blev	_	_	_	_	_	_	_	
+33-7	2682-2686	allt	_	_	_	_	_	_	_	
+33-8	2687-2696	tydligare	_	_	_	_	_	_	_	
+33-9	2697-2698	i	_	_	_	_	_	_	_	
+33-10	2699-2703	takt	_	_	_	_	_	_	_	
+33-11	2704-2707	med	_	_	_	_	_	_	_	
+33-12	2708-2711	att	_	_	_	_	_	_	_	
+33-13	2712-2719	handeln	_	_	_	_	_	_	_	
+33-14	2720-2733	datoriserades	_	_	_	_	_	_	_	
+33-15	2734-2737	och	_	_	_	_	_	_	_	
+33-16	2738-2754	nationsgränserna	_	_	_	_	_	_	_	
+33-17	2755-2763	suddades	_	_	_	_	_	_	_	
+33-18	2764-2766	ut	_	_	_	_	_	_	_	
+33-19	2766-2767	.	_	_	_	_	_	_	_	
+
+#Text=Varför skulle då en amerikansk hedgefondsförvaltare som ville minska sin vikt i telekom blanka Motorola i USA när det gick mycket lättare och var lönsammare att istället göra det med Ericsson i Stockholm?.
+34-1	2768-2774	Varför	_	_	_	_	_	_	_	
+34-2	2775-2781	skulle	_	_	_	_	_	_	_	
+34-3	2782-2784	då	_	_	_	_	_	_	_	
+34-4	2785-2787	en	_	_	_	_	_	_	_	
+34-5	2788-2798	amerikansk	_	_	_	_	_	_	_	
+34-6	2799-2819	hedgefondsförvaltare	_	_	_	_	_	_	_	
+34-7	2820-2823	som	_	_	_	_	_	_	_	
+34-8	2824-2829	ville	_	_	_	_	_	_	_	
+34-9	2830-2836	minska	_	_	_	_	_	_	_	
+34-10	2837-2840	sin	_	_	_	_	_	_	_	
+34-11	2841-2845	vikt	_	_	_	_	_	_	_	
+34-12	2846-2847	i	_	_	_	_	_	_	_	
+34-13	2848-2855	telekom	_	_	_	_	_	_	_	
+34-14	2856-2862	blanka	_	_	_	_	_	_	_	
+34-15	2863-2871	Motorola	_	_	_	_	_	_	_	
+34-16	2872-2873	i	_	_	_	_	_	_	_	
+34-17	2874-2877	USA	_	_	_	_	_	_	_	
+34-18	2878-2881	när	_	_	_	_	_	_	_	
+34-19	2882-2885	det	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-20	2886-2890	gick	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-21	2891-2897	mycket	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-22	2898-2905	lättare	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-23	2906-2909	och	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-24	2910-2913	var	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-25	2914-2924	lönsammare	_	Target;Source[20]	34-26[50];34-35	false[20]	4[20]	_	_	
+34-26	2925-2928	att	*[50]	_	_	_	_	_	_	
+34-27	2929-2937	istället	*[50]	_	_	_	_	_	_	
+34-28	2938-2942	göra	*[50]	_	_	_	_	_	_	
+34-29	2943-2946	det	*[50]	_	_	_	_	_	_	
+34-30	2947-2950	med	*[50]	_	_	_	_	_	_	
+34-31	2951-2959	Ericsson	*[50]	_	_	_	_	_	_	
+34-32	2960-2961	i	*[50]	_	_	_	_	_	_	
+34-33	2962-2971	Stockholm	*[50]	_	_	_	_	_	_	
+34-34	2971-2972	?	_	_	_	_	_	_	_	
+34-35	2972-2973	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2975-2976	#	_	_	_	_	_	_	_	
+35-2	2976-2977	P	_	_	_	_	_	_	_	
+35-3	2978-2981	IMM	_	_	_	_	_	_	_	
+35-4	2981-2982	.	_	_	_	_	_	_	_	
+
+#Text=Detta ledde till att omsättningen på Stockholmsbörsen exploderade vilket visserligen hade det goda med sig att likviditeten i de största bolagens aktier blev god, men samtidigt fick den förhållandevis lilla svenska marknaden se stora och ofta oförklarliga svängningar på börsen.
+36-1	2984-2989	Detta	_	_	_	_	_	_	_	
+36-2	2990-2995	ledde	_	_	_	_	_	_	_	
+36-3	2996-3000	till	_	_	_	_	_	_	_	
+36-4	3001-3004	att	_	_	_	_	_	_	_	
+36-5	3005-3017	omsättningen	*[51]	_	_	_	_	_	_	
+36-6	3018-3020	på	*[51]	_	_	_	_	_	_	
+36-7	3021-3037	Stockholmsbörsen	*[51]	_	_	_	_	_	_	
+36-8	3038-3049	exploderade	*[51]	_	_	_	_	_	_	
+36-9	3050-3056	vilket	_	_	_	_	_	_	_	
+36-10	3057-3068	visserligen	_	_	_	_	_	_	_	
+36-11	3069-3073	hade	_	Target;Target[21]	36-16[52];36-5[51]	false[21]	4[21]	_	_	
+36-12	3074-3077	det	_	Target;Target[21]	36-16[52];36-5[51]	false[21]	4[21]	_	_	
+36-13	3078-3082	goda	_	Target;Target[21]	36-16[52];36-5[51]	false[21]	4[21]	_	_	
+36-14	3083-3086	med	_	Target;Target[21]	36-16[52];36-5[51]	false[21]	4[21]	_	_	
+36-15	3087-3090	sig	_	Target;Target[21]	36-16[52];36-5[51]	false[21]	4[21]	_	_	
+36-16	3091-3094	att	*[52]	_	_	_	_	_	_	
+36-17	3095-3107	likviditeten	*[52]	_	_	_	_	_	_	
+36-18	3108-3109	i	*[52]	_	_	_	_	_	_	
+36-19	3110-3112	de	*[52]	_	_	_	_	_	_	
+36-20	3113-3120	största	*[52]	_	_	_	_	_	_	
+36-21	3121-3129	bolagens	*[52]	_	_	_	_	_	_	
+36-22	3130-3136	aktier	*[52]	_	_	_	_	_	_	
+36-23	3137-3141	blev	*[52]	_	_	_	_	_	_	
+36-24	3142-3145	god	*[52]	_	_	_	_	_	_	
+36-25	3145-3146	,	_	_	_	_	_	_	_	
+36-26	3147-3150	men	_	_	_	_	_	_	_	
+36-27	3151-3160	samtidigt	_	_	_	_	_	_	_	
+36-28	3161-3165	fick	_	_	_	_	_	_	_	
+36-29	3166-3169	den	_	_	_	_	_	_	_	
+36-30	3170-3184	förhållandevis	_	_	_	_	_	_	_	
+36-31	3185-3190	lilla	_	_	_	_	_	_	_	
+36-32	3191-3198	svenska	_	_	_	_	_	_	_	
+36-33	3199-3208	marknaden	_	_	_	_	_	_	_	
+36-34	3209-3211	se	_	_	_	_	_	_	_	
+36-35	3212-3217	stora	_	_	_	_	_	_	_	
+36-36	3218-3221	och	_	_	_	_	_	_	_	
+36-37	3222-3226	ofta	_	_	_	_	_	_	_	
+36-38	3227-3239	oförklarliga	_	_	_	_	_	_	_	
+36-39	3240-3251	svängningar	_	_	_	_	_	_	_	
+36-40	3252-3254	på	_	_	_	_	_	_	_	
+36-41	3255-3261	börsen	_	_	_	_	_	_	_	
+36-42	3261-3262	.	_	_	_	_	_	_	_	
+
+#Text=Hur många gånger har vi inte i tv-rutan fått se finansanalytikers tafatta försök till att förklara varför just Stockholmsbörsen steg mer eller föll mer än resten av världen?.
+37-1	3263-3266	Hur	_	_	_	_	_	_	_	
+37-2	3267-3272	många	_	_	_	_	_	_	_	
+37-3	3273-3279	gånger	_	_	_	_	_	_	_	
+37-4	3280-3283	har	_	_	_	_	_	_	_	
+37-5	3284-3286	vi	_	_	_	_	_	_	_	
+37-6	3287-3291	inte	_	_	_	_	_	_	_	
+37-7	3292-3293	i	_	_	_	_	_	_	_	
+37-8	3294-3302	tv-rutan	_	_	_	_	_	_	_	
+37-9	3303-3307	fått	_	_	_	_	_	_	_	
+37-10	3308-3310	se	_	_	_	_	_	_	_	
+37-11	3311-3328	finansanalytikers	*[53]	_	_	_	_	_	_	
+37-12	3329-3336	tafatta	*[53]	Target	37-11[53]	false	2	_	_	
+37-13	3337-3343	försök	*[53]	_	_	_	_	_	_	
+37-14	3344-3348	till	*[53]	_	_	_	_	_	_	
+37-15	3349-3352	att	*[53]	_	_	_	_	_	_	
+37-16	3353-3361	förklara	*[53]	_	_	_	_	_	_	
+37-17	3362-3368	varför	*[53]	_	_	_	_	_	_	
+37-18	3369-3373	just	*[53]	_	_	_	_	_	_	
+37-19	3374-3390	Stockholmsbörsen	*[53]	_	_	_	_	_	_	
+37-20	3391-3395	steg	*[53]	_	_	_	_	_	_	
+37-21	3396-3399	mer	*[53]	_	_	_	_	_	_	
+37-22	3400-3405	eller	*[53]	_	_	_	_	_	_	
+37-23	3406-3410	föll	*[53]	_	_	_	_	_	_	
+37-24	3411-3414	mer	*[53]	_	_	_	_	_	_	
+37-25	3415-3417	än	*[53]	_	_	_	_	_	_	
+37-26	3418-3424	resten	*[53]	_	_	_	_	_	_	
+37-27	3425-3427	av	*[53]	_	_	_	_	_	_	
+37-28	3428-3435	världen	*[53]	_	_	_	_	_	_	
+37-29	3435-3436	?	_	_	_	_	_	_	_	
+37-30	3436-3437	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3439-3440	#	_	_	_	_	_	_	_	
+38-2	3440-3441	P	_	_	_	_	_	_	_	
+38-3	3442-3445	IMM	_	_	_	_	_	_	_	
+38-4	3445-3446	.	_	_	_	_	_	_	_	
+
+#Text=De svenska regeringarna verkar inte ha sett problemet att det rådde olika regler på aktiemarknaderna i olika länder.
+39-1	3448-3450	De	*[54]	_	_	_	_	_	_	
+39-2	3451-3458	svenska	*[54]	_	_	_	_	_	_	
+39-3	3459-3471	regeringarna	*[54]	_	_	_	_	_	_	
+39-4	3472-3478	verkar	_	Target[22]	39-1[54]	false[22]	2[22]	_	_	
+39-5	3479-3483	inte	_	Target[22]	39-1[54]	false[22]	2[22]	_	_	
+39-6	3484-3486	ha	_	Target[22]	39-1[54]	false[22]	2[22]	_	_	
+39-7	3487-3491	sett	_	Target[22]	39-1[54]	false[22]	2[22]	_	_	
+39-8	3492-3501	problemet	_	Target[22]	39-1[54]	false[22]	2[22]	_	_	
+39-9	3502-3505	att	_	_	_	_	_	_	_	
+39-10	3506-3509	det	_	_	_	_	_	_	_	
+39-11	3510-3515	rådde	_	_	_	_	_	_	_	
+39-12	3516-3521	olika	_	_	_	_	_	_	_	
+39-13	3522-3528	regler	_	_	_	_	_	_	_	
+39-14	3529-3531	på	_	_	_	_	_	_	_	
+39-15	3532-3548	aktiemarknaderna	_	_	_	_	_	_	_	
+39-16	3549-3550	i	_	_	_	_	_	_	_	
+39-17	3551-3556	olika	_	_	_	_	_	_	_	
+39-18	3557-3563	länder	_	_	_	_	_	_	_	
+39-19	3563-3564	.	_	_	_	_	_	_	_	
+
+#Text=Lyckligtvis är reglerna numera utjämnade eftersom USA avskaffade sina begränsningar i juli 2007 (symptomatiskt nog mycket nära "all time high").
+40-1	3565-3576	Lyckligtvis	_	Target	40-2[55]	false	4	_	_	
+40-2	3577-3579	är	*[55]	_	_	_	_	_	_	
+40-3	3580-3588	reglerna	*[55]	_	_	_	_	_	_	
+40-4	3589-3595	numera	*[55]	_	_	_	_	_	_	
+40-5	3596-3605	utjämnade	*[55]	_	_	_	_	_	_	
+40-6	3606-3614	eftersom	_	_	_	_	_	_	_	
+40-7	3615-3618	USA	_	_	_	_	_	_	_	
+40-8	3619-3629	avskaffade	_	_	_	_	_	_	_	
+40-9	3630-3634	sina	_	_	_	_	_	_	_	
+40-10	3635-3648	begränsningar	_	_	_	_	_	_	_	
+40-11	3649-3650	i	_	_	_	_	_	_	_	
+40-12	3651-3655	juli	_	_	_	_	_	_	_	
+40-13	3656-3660	2007	_	_	_	_	_	_	_	
+40-14	3661-3662	(	_	_	_	_	_	_	_	
+40-15	3662-3675	symptomatiskt	_	_	_	_	_	_	_	
+40-16	3676-3679	nog	_	_	_	_	_	_	_	
+40-17	3680-3686	mycket	_	_	_	_	_	_	_	
+40-18	3687-3691	nära	_	_	_	_	_	_	_	
+40-19	3692-3693	"	_	_	_	_	_	_	_	
+40-20	3693-3696	all	_	_	_	_	_	_	_	
+40-21	3697-3701	time	_	_	_	_	_	_	_	
+40-22	3702-3706	high	_	_	_	_	_	_	_	
+40-23	3706-3707	"	_	_	_	_	_	_	_	
+40-24	3707-3708	)	_	_	_	_	_	_	_	
+40-25	3708-3709	.	_	_	_	_	_	_	_	
+
+#Text=Nu efter finans- krisen hörs åter röster i USA att återinföra den tidigare regleringen.
+41-1	3710-3712	Nu	_	_	_	_	_	_	_	
+41-2	3713-3718	efter	_	_	_	_	_	_	_	
+41-3	3719-3725	finans	_	_	_	_	_	_	_	
+41-4	3725-3726	-	_	_	_	_	_	_	_	
+41-5	3727-3733	krisen	_	_	_	_	_	_	_	
+41-6	3734-3738	hörs	_	Source;Target	41-9[56];41-11[57]	false	4	_	_	
+41-7	3739-3743	åter	_	_	_	_	_	_	_	
+41-8	3744-3750	röster	_	Source;Target	41-9[56];41-11[57]	false	4	41-6	_	
+41-9	3751-3752	i	*[56]	_	_	_	_	_	_	
+41-10	3753-3756	USA	*[56]	_	_	_	_	_	_	
+41-11	3757-3760	att	*[57]	_	_	_	_	_	_	
+41-12	3761-3771	återinföra	*[57]	_	_	_	_	_	_	
+41-13	3772-3775	den	*[57]	_	_	_	_	_	_	
+41-14	3776-3784	tidigare	*[57]	_	_	_	_	_	_	
+41-15	3785-3796	regleringen	*[57]	_	_	_	_	_	_	
+41-16	3796-3797	.	_	_	_	_	_	_	_	
+
+#Text=Det var inte heller många månader sedan som vissa EU-länder (dock ej Sverige) införde förbud av aktielån i bankaktier.
+42-1	3798-3801	Det	_	_	_	_	_	_	_	
+42-2	3802-3805	var	_	_	_	_	_	_	_	
+42-3	3806-3810	inte	_	_	_	_	_	_	_	
+42-4	3811-3817	heller	_	_	_	_	_	_	_	
+42-5	3818-3823	många	_	_	_	_	_	_	_	
+42-6	3824-3831	månader	_	_	_	_	_	_	_	
+42-7	3832-3837	sedan	_	_	_	_	_	_	_	
+42-8	3838-3841	som	_	_	_	_	_	_	_	
+42-9	3842-3847	vissa	*[58]	_	_	_	_	_	_	
+42-10	3848-3857	EU-länder	*[58]	_	_	_	_	_	_	
+42-11	3858-3859	(	*[58]	_	_	_	_	_	_	
+42-12	3859-3863	dock	*[58]	_	_	_	_	_	_	
+42-13	3864-3866	ej	*[58]	_	_	_	_	_	_	
+42-14	3867-3874	Sverige	*[58]	_	_	_	_	_	_	
+42-15	3874-3875	)	*[58]	_	_	_	_	_	_	
+42-16	3876-3883	införde	_	Target;Source[23]	42-19[59];42-9[58]	false[23]	2[23]	_	_	
+42-17	3884-3890	förbud	_	Target;Source[23]	42-19[59];42-9[58]	false[23]	2[23]	_	_	
+42-18	3891-3893	av	_	Target;Source[23]	42-19[59];42-9[58]	false[23]	2[23]	_	_	
+42-19	3894-3902	aktielån	*[59]	_	_	_	_	_	_	
+42-20	3903-3904	i	*[59]	_	_	_	_	_	_	
+42-21	3905-3915	bankaktier	*[59]	_	_	_	_	_	_	
+42-22	3915-3916	.	_	_	_	_	_	_	_	
+
+#Text=Var, om inte i Sverige, valde internationella spekulanter att sälja bank- aktier?
+43-1	3917-3920	Var	_	_	_	_	_	_	_	
+43-2	3920-3921	,	_	_	_	_	_	_	_	
+43-3	3922-3924	om	_	_	_	_	_	_	_	
+43-4	3925-3929	inte	_	_	_	_	_	_	_	
+43-5	3930-3931	i	_	_	_	_	_	_	_	
+43-6	3932-3939	Sverige	_	_	_	_	_	_	_	
+43-7	3939-3940	,	_	_	_	_	_	_	_	
+43-8	3941-3946	valde	_	_	_	_	_	_	_	
+43-9	3947-3962	internationella	_	_	_	_	_	_	_	
+43-10	3963-3974	spekulanter	_	_	_	_	_	_	_	
+43-11	3975-3978	att	_	_	_	_	_	_	_	
+43-12	3979-3984	sälja	_	_	_	_	_	_	_	
+43-13	3985-3989	bank	_	_	_	_	_	_	_	
+43-14	3989-3990	-	_	_	_	_	_	_	_	
+43-15	3991-3997	aktier	_	_	_	_	_	_	_	
+43-16	3997-3998	?	_	_	_	_	_	_	_	
+
+#Text=Man kan fråga sig hur mycket kursnedgången i till exempel Swedbank förvärrades av just denna tillfälliga regeldiskrepans.
+44-1	3999-4002	Man	_	_	_	_	_	_	_	
+44-2	4003-4006	kan	_	_	_	_	_	_	_	
+44-3	4007-4012	fråga	_	_	_	_	_	_	_	
+44-4	4013-4016	sig	_	_	_	_	_	_	_	
+44-5	4017-4020	hur	_	_	_	_	_	_	_	
+44-6	4021-4027	mycket	_	_	_	_	_	_	_	
+44-7	4028-4041	kursnedgången	*[60]	_	_	_	_	_	_	
+44-8	4042-4043	i	*[60]	_	_	_	_	_	_	
+44-9	4044-4048	till	*[60]	_	_	_	_	_	_	
+44-10	4049-4056	exempel	*[60]	_	_	_	_	_	_	
+44-11	4057-4065	Swedbank	*[60]	_	_	_	_	_	_	
+44-12	4066-4077	förvärrades	*[60]	Source;Target[24]	44-18;44-7[60]	false[24]	2[24]	_	_	
+44-13	4078-4080	av	*[60]	Source;Target[24]	44-18;44-7[60]	false[24]	2[24]	_	_	
+44-14	4081-4085	just	*[60]	_	_	_	_	_	_	
+44-15	4086-4091	denna	*[60]	_	_	_	_	_	_	
+44-16	4092-4103	tillfälliga	*[60]	_	_	_	_	_	_	
+44-17	4104-4119	regeldiskrepans	*[60]	_	_	_	_	_	_	
+44-18	4119-4120	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	4122-4123	#	_	_	_	_	_	_	_	
+45-2	4123-4124	P	_	_	_	_	_	_	_	
+45-3	4125-4128	IMM	_	_	_	_	_	_	_	
+45-4	4128-4129	.	_	_	_	_	_	_	_	
+
+#Text=Det säger sig självt att en internationell marknad måste ha internationella regler.
+46-1	4131-4134	Det	_	_	_	_	_	_	_	
+46-2	4135-4140	säger	_	_	_	_	_	_	_	
+46-3	4141-4144	sig	_	_	_	_	_	_	_	
+46-4	4145-4151	självt	_	_	_	_	_	_	_	
+46-5	4152-4155	att	_	_	_	_	_	_	_	
+46-6	4156-4158	en	_	_	_	_	_	_	_	
+46-7	4159-4173	internationell	_	_	_	_	_	_	_	
+46-8	4174-4181	marknad	_	_	_	_	_	_	_	
+46-9	4182-4187	måste	_	_	_	_	_	_	_	
+46-10	4188-4190	ha	_	_	_	_	_	_	_	
+46-11	4191-4206	internationella	_	_	_	_	_	_	_	
+46-12	4207-4213	regler	_	_	_	_	_	_	_	
+46-13	4213-4214	.	_	_	_	_	_	_	_	
+
+#Text=Självklart ska blankning vara tillåten men kanske kan det vara lämpligt att ha en viss reglering runt handeln, men det allra viktigaste är att samma spelregler gäller oavsett marknad.
+47-1	4215-4225	Självklart	_	Target[25]	47-3	false[25]	4[25]	_	_	
+47-2	4226-4229	ska	_	Target[25]	47-3	false[25]	4[25]	_	_	
+47-3	4230-4239	blankning	*	_	_	_	_	_	_	
+47-4	4240-4244	vara	_	Target[26]	47-3	false[26]	4[26]	47-1[25_26]	_	
+47-5	4245-4253	tillåten	_	Target[26]	47-3	false[26]	4[26]	_	_	
+47-6	4254-4257	men	_	_	_	_	_	_	_	
+47-7	4258-4264	kanske	_	_	_	_	_	_	_	
+47-8	4265-4268	kan	_	_	_	_	_	_	_	
+47-9	4269-4272	det	_	_	_	_	_	_	_	
+47-10	4273-4277	vara	_	_	_	_	_	_	_	
+47-11	4278-4286	lämpligt	_	_	_	_	_	_	_	
+47-12	4287-4290	att	_	_	_	_	_	_	_	
+47-13	4291-4293	ha	_	_	_	_	_	_	_	
+47-14	4294-4296	en	_	_	_	_	_	_	_	
+47-15	4297-4301	viss	_	_	_	_	_	_	_	
+47-16	4302-4311	reglering	_	_	_	_	_	_	_	
+47-17	4312-4316	runt	_	_	_	_	_	_	_	
+47-18	4317-4324	handeln	_	_	_	_	_	_	_	
+47-19	4324-4325	,	_	_	_	_	_	_	_	
+47-20	4326-4329	men	_	_	_	_	_	_	_	
+47-21	4330-4333	det	_	_	_	_	_	_	_	
+47-22	4334-4339	allra	_	_	_	_	_	_	_	
+47-23	4340-4350	viktigaste	_	_	_	_	_	_	_	
+47-24	4351-4353	är	_	_	_	_	_	_	_	
+47-25	4354-4357	att	_	_	_	_	_	_	_	
+47-26	4358-4363	samma	_	_	_	_	_	_	_	
+47-27	4364-4374	spelregler	_	_	_	_	_	_	_	
+47-28	4375-4381	gäller	_	_	_	_	_	_	_	
+47-29	4382-4389	oavsett	_	_	_	_	_	_	_	
+47-30	4390-4397	marknad	_	_	_	_	_	_	_	
+47-31	4397-4398	.	_	_	_	_	_	_	_	
+
+#Text=Detta torde vara uppenbart i en marknadsekonomi och förstås säkert av Anders Borg och Mats Odell.
+48-1	4399-4404	Detta	_	_	_	_	_	_	_	
+48-2	4405-4410	torde	_	_	_	_	_	_	_	
+48-3	4411-4415	vara	_	_	_	_	_	_	_	
+48-4	4416-4425	uppenbart	_	_	_	_	_	_	_	
+48-5	4426-4427	i	_	_	_	_	_	_	_	
+48-6	4428-4430	en	_	_	_	_	_	_	_	
+48-7	4431-4446	marknadsekonomi	_	_	_	_	_	_	_	
+48-8	4447-4450	och	_	_	_	_	_	_	_	
+48-9	4451-4458	förstås	_	_	_	_	_	_	_	
+48-10	4459-4465	säkert	_	_	_	_	_	_	_	
+48-11	4466-4468	av	_	_	_	_	_	_	_	
+48-12	4469-4475	Anders	*[61]	_	_	_	_	_	49-8[0_61]	
+48-13	4476-4480	Borg	*[61]	_	_	_	_	_	_	
+48-14	4481-4484	och	*[61]	_	_	_	_	_	_	
+48-15	4485-4489	Mats	*[61]	_	_	_	_	_	_	
+48-16	4490-4495	Odell	*[61]	_	_	_	_	_	_	
+48-17	4495-4496	.	_	_	_	_	_	_	_	
+
+#Text=Med Sverige som ordförandeland i EU har de nu chansen att visa att de också har handlingsförmåga.
+49-1	4497-4500	Med	_	_	_	_	_	_	_	
+49-2	4501-4508	Sverige	_	_	_	_	_	_	_	
+49-3	4509-4512	som	_	_	_	_	_	_	_	
+49-4	4513-4527	ordförandeland	_	_	_	_	_	_	_	
+49-5	4528-4529	i	_	_	_	_	_	_	_	
+49-6	4530-4532	EU	_	_	_	_	_	_	_	
+49-7	4533-4536	har	_	_	_	_	_	_	_	
+49-8	4537-4539	de	*	_	_	_	_	_	_	
+49-9	4540-4542	nu	_	_	_	_	_	_	_	
+49-10	4543-4550	chansen	_	_	_	_	_	_	_	
+49-11	4551-4554	att	_	_	_	_	_	_	_	
+49-12	4555-4559	visa	_	_	_	_	_	_	_	
+49-13	4560-4563	att	_	_	_	_	_	_	_	
+49-14	4564-4566	de	_	_	_	_	_	_	_	
+49-15	4567-4572	också	_	_	_	_	_	_	_	
+49-16	4573-4576	har	_	Target;Source[27]	49-8;49-18	false[27]	4[27]	_	_	
+49-17	4577-4593	handlingsförmåga	_	Target;Source[27]	49-8;49-18	false[27]	4[27]	_	_	
+49-18	4593-4594	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4596-4597	#	_	_	_	_	_	_	_	
+50-2	4597-4598	P	_	_	_	_	_	_	_	
+50-3	4599-4602	IMM	_	_	_	_	_	_	_	
+50-4	4602-4603	.	_	_	_	_	_	_	_	
+
+#Text=För att undvika en upprepning av finanskrisen är det nödvändigt att beslutsfattarna inte förenklar resonemanget utan fokuserar på rätt problemområde samt har kraft att driva igenom regleringar som både är välanalyserade och internationella.
+51-1	4605-4608	För	_	_	_	_	_	_	_	
+51-2	4609-4612	att	_	_	_	_	_	_	_	
+51-3	4613-4620	undvika	_	Target	51-4[62]	false	2	_	_	
+51-4	4621-4623	en	*[62]	_	_	_	_	_	_	
+51-5	4624-4634	upprepning	*[62]	_	_	_	_	_	_	
+51-6	4635-4637	av	*[62]	_	_	_	_	_	_	
+51-7	4638-4650	finanskrisen	*[62]	_	_	_	_	_	_	
+51-8	4651-4653	är	_	_	_	_	_	_	_	
+51-9	4654-4657	det	_	_	_	_	_	_	_	
+51-10	4658-4668	nödvändigt	_	_	_	_	_	_	_	
+51-11	4669-4672	att	_	_	_	_	_	_	_	
+51-12	4673-4688	beslutsfattarna	_	_	_	_	_	_	_	
+51-13	4689-4693	inte	_	_	_	_	_	_	_	
+51-14	4694-4703	förenklar	_	_	_	_	_	_	_	
+51-15	4704-4716	resonemanget	_	_	_	_	_	_	_	
+51-16	4717-4721	utan	_	_	_	_	_	_	_	
+51-17	4722-4731	fokuserar	_	_	_	_	_	_	_	
+51-18	4732-4734	på	_	_	_	_	_	_	_	
+51-19	4735-4739	rätt	_	_	_	_	_	_	_	
+51-20	4740-4753	problemområde	_	_	_	_	_	_	_	
+51-21	4754-4758	samt	_	_	_	_	_	_	_	
+51-22	4759-4762	har	_	_	_	_	_	_	_	
+51-23	4763-4768	kraft	_	_	_	_	_	_	_	
+51-24	4769-4772	att	_	_	_	_	_	_	_	
+51-25	4773-4778	driva	_	_	_	_	_	_	_	
+51-26	4779-4785	igenom	_	_	_	_	_	_	_	
+51-27	4786-4797	regleringar	*	_	_	_	_	_	_	
+51-28	4798-4801	som	_	_	_	_	_	_	_	
+51-29	4802-4806	både	_	_	_	_	_	_	_	
+51-30	4807-4809	är	_	_	_	_	_	_	_	
+51-31	4810-4824	välanalyserade	_	Source;Target	51-34;51-27	false	4	_	_	
+51-32	4825-4828	och	_	_	_	_	_	_	_	
+51-33	4829-4844	internationella	_	_	_	_	_	_	_	
+51-34	4844-4845	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4847-4848	#	_	_	_	_	_	_	_	
+52-2	4848-4849	P	_	_	_	_	_	_	_	
+52-3	4850-4853	IMM	_	_	_	_	_	_	_	
+52-4	4853-4854	.	_	_	_	_	_	_	_	
+
+#Text=JOHAN THORÉN.
+53-1	4856-4861	JOHAN	_	_	_	_	_	_	_	
+53-2	4862-4868	THORÉN	_	_	_	_	_	_	_	
+53-3	4868-4869	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4871-4872	#	_	_	_	_	_	_	_	
+54-2	4872-4873	P	_	_	_	_	_	_	_	
+54-3	4874-4877	IMM	_	_	_	_	_	_	_	
+54-4	4877-4878	.	_	_	_	_	_	_	_	
+
+#Text=Vd och förvaltare, Strand Kapitalförvaltning AB.
+55-1	4880-4882	Vd	_	_	_	_	_	_	_	
+55-2	4883-4886	och	_	_	_	_	_	_	_	
+55-3	4887-4897	förvaltare	_	_	_	_	_	_	_	
+55-4	4897-4898	,	_	_	_	_	_	_	_	
+55-5	4899-4905	Strand	_	_	_	_	_	_	_	
+55-6	4906-4924	Kapitalförvaltning	_	_	_	_	_	_	_	
+55-7	4925-4927	AB	_	_	_	_	_	_	_	
+55-8	4927-4928	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4930-4931	#	_	_	_	_	_	_	_	
+56-2	4931-4932	P	_	_	_	_	_	_	_	
+56-3	4933-4936	IMM	_	_	_	_	_	_	_	
+56-4	4936-4937	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+57-1	4939-4947	Redaktör	_	_	_	_	_	_	_	
+57-2	4947-4948	:	_	_	_	_	_	_	_	
+57-3	4949-4955	Carina	_	_	_	_	_	_	_	
+57-4	4956-4964	Stensson	_	_	_	_	_	_	_	
+57-5	4964-4965	,	_	_	_	_	_	_	_	
+57-6	4966-4976	Biträdande	_	_	_	_	_	_	_	
+57-7	4977-4985	redaktör	_	_	_	_	_	_	_	
+57-8	4985-4986	:	_	_	_	_	_	_	_	
+57-9	4987-4992	Björn	_	_	_	_	_	_	_	
+57-10	4993-4999	Jorner	_	_	_	_	_	_	_	
+57-11	4999-5000	,	_	_	_	_	_	_	_	
+57-12	5001-5005	Mejl	_	_	_	_	_	_	_	
+57-13	5005-5006	:	_	_	_	_	_	_	_	
+57-14	5007-5013	debatt	_	_	_	_	_	_	_	
+57-15	5013-5014	@	_	_	_	_	_	_	_	
+57-16	5014-5020	svd.se	_	_	_	_	_	_	_	
+57-17	5020-5021	,	_	_	_	_	_	_	_	
+57-18	5022-5035	Telefonnummer	_	_	_	_	_	_	_	
+57-19	5035-5036	:	_	_	_	_	_	_	_	
+57-20	5037-5039	08	_	_	_	_	_	_	_	
+57-21	5039-5040	-	_	_	_	_	_	_	_	
+57-22	5040-5046	135149	_	_	_	_	_	_	_	
+57-23	5046-5047	,	_	_	_	_	_	_	_	
+57-24	5048-5055	Twitter	_	_	_	_	_	_	_	
+57-25	5055-5056	:	_	_	_	_	_	_	_	
+57-26	5057-5058	@	_	_	_	_	_	_	_	
+57-27	5058-5067	SvDDebatt	_	_	_	_	_	_	_	
+57-28	5067-5068	,	_	_	_	_	_	_	_	
+57-29	5069-5077	Facebook	_	_	_	_	_	_	_	
+57-30	5077-5078	:	_	_	_	_	_	_	_	
+57-31	5079-5082	SvD	_	_	_	_	_	_	_	
+57-32	5083-5089	Debatt	_	_	_	_	_	_	_	
+57-33	5089-5090	.	_	_	_	_	_	_	_	

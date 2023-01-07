@@ -1,0 +1,844 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Se upp – din chef kan vara psykopat.
+3-1	18-20	Se	_	Target[1]	3-4[27]	false[1]	2[1]	
+3-2	21-24	upp	_	Target[1]	3-4[27]	false[1]	2[1]	
+3-3	25-26	–	_	_	_	_	_	
+3-4	27-30	din	*[27]	_	_	_	_	
+3-5	31-35	chef	*[27]	_	_	_	_	
+3-6	36-39	kan	*[27]	_	_	_	_	
+3-7	40-44	vara	*[27]	_	_	_	_	
+3-8	45-53	psykopat	*[27]	_	_	_	_	
+3-9	53-54	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	
+
+#Text=Psykopater är obotliga lögnare.
+5-1	65-75	Psykopater	*	_	_	_	_	
+5-2	76-78	är	_	Target[2]	5-1	false[2]	1[2]	
+5-3	79-87	obotliga	_	Target[2]	5-1	false[2]	1[2]	
+5-4	88-95	lögnare	_	Target[2]	5-1	false[2]	1[2]	
+5-5	95-96	.	_	_	_	_	_	
+
+#Text=De fuskar sig fram i arbetslivet.
+6-1	97-99	De	_	_	_	_	_	
+6-2	100-106	fuskar	_	Target[3]	5-1	false[3]	2[3]	
+6-3	107-110	sig	_	Target[3]	5-1	false[3]	2[3]	
+6-4	111-115	fram	_	Target[3]	5-1	false[3]	2[3]	
+6-5	116-117	i	_	_	_	_	_	
+6-6	118-129	arbetslivet	_	_	_	_	_	
+6-7	129-130	.	_	_	_	_	_	
+
+#Text=De är odugliga chefer och hopplösa kolleger.
+7-1	131-133	De	*	_	_	_	_	
+7-2	134-136	är	_	_	_	_	_	
+7-3	137-145	odugliga	_	Target[4]	7-1	false[4]	1[4]	
+7-4	146-152	chefer	_	Target[4]	7-1	false[4]	1[4]	
+7-5	153-156	och	_	_	_	_	_	
+7-6	157-165	hopplösa	_	Target[5]	7-1	false[5]	2[5]	
+7-7	166-174	kolleger	_	Target[5]	7-1	false[5]	2[5]	
+7-8	174-175	.	_	_	_	_	_	
+
+#Text=Ändå ska de ha högsta möjliga lön och extra förmåner för besväret.
+8-1	176-180	Ändå	_	_	_	_	_	
+8-2	181-184	ska	_	_	_	_	_	
+8-3	185-187	de	_	_	_	_	_	
+8-4	188-190	ha	_	_	_	_	_	
+8-5	191-197	högsta	_	_	_	_	_	
+8-6	198-205	möjliga	_	_	_	_	_	
+8-7	206-209	lön	_	_	_	_	_	
+8-8	210-213	och	_	_	_	_	_	
+8-9	214-219	extra	_	_	_	_	_	
+8-10	220-228	förmåner	_	_	_	_	_	
+8-11	229-232	för	_	_	_	_	_	
+8-12	233-241	besväret	_	_	_	_	_	
+8-13	241-242	.	_	_	_	_	_	
+
+#Text=Hur kan det komma sig?.
+9-1	243-246	Hur	_	_	_	_	_	
+9-2	247-250	kan	_	_	_	_	_	
+9-3	251-254	det	_	_	_	_	_	
+9-4	255-260	komma	_	_	_	_	_	
+9-5	261-264	sig	_	_	_	_	_	
+9-6	264-265	?	_	_	_	_	_	
+9-7	265-266	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	268-269	#	_	_	_	_	_	
+10-2	269-270	P	_	_	_	_	_	
+10-3	271-274	IMM	_	_	_	_	_	
+10-4	274-275	.	_	_	_	_	_	
+
+#Text=Det tycks främst vara vår egen okunskap som öppnar dörren för psykopaterna i arbetslivet; vi kan inte med blotta ögat se på utsidan vad som döljs på insidan.
+11-1	277-280	Det	_	_	_	_	_	
+11-2	281-286	tycks	_	_	_	_	_	
+11-3	287-293	främst	_	_	_	_	_	
+11-4	294-298	vara	_	_	_	_	_	
+11-5	299-302	vår	_	Target[6]	11-9[28]	false[6]	2[6]	
+11-6	303-307	egen	_	Target[6]	11-9[28]	false[6]	2[6]	
+11-7	308-316	okunskap	_	Target[6]	11-9[28]	false[6]	2[6]	
+11-8	317-320	som	_	_	_	_	_	
+11-9	321-327	öppnar	*[28]	_	_	_	_	
+11-10	328-334	dörren	*[28]	_	_	_	_	
+11-11	335-338	för	*[28]	_	_	_	_	
+11-12	339-351	psykopaterna	*[28]	_	_	_	_	
+11-13	352-353	i	*[28]	_	_	_	_	
+11-14	354-365	arbetslivet	*[28]	_	_	_	_	
+11-15	365-366	;	_	_	_	_	_	
+11-16	367-369	vi	_	_	_	_	_	
+11-17	370-373	kan	_	_	_	_	_	
+11-18	374-378	inte	_	_	_	_	_	
+11-19	379-382	med	_	_	_	_	_	
+11-20	383-389	blotta	_	_	_	_	_	
+11-21	390-394	ögat	_	_	_	_	_	
+11-22	395-397	se	_	_	_	_	_	
+11-23	398-400	på	_	_	_	_	_	
+11-24	401-408	utsidan	_	_	_	_	_	
+11-25	409-412	vad	_	_	_	_	_	
+11-26	413-416	som	_	_	_	_	_	
+11-27	417-422	döljs	_	_	_	_	_	
+11-28	423-425	på	_	_	_	_	_	
+11-29	426-433	insidan	_	_	_	_	_	
+11-30	433-434	.	_	_	_	_	_	
+
+#Text=Ingen psykopat är heller den andra lik; vissa stormtrivs i rampljuset, helst som chef eller vd, medan andra agerar bakom kulisserna i form av till exempel nättroll och id-kapare.
+12-1	435-440	Ingen	_	_	_	_	_	
+12-2	441-449	psykopat	*	_	_	_	_	
+12-3	450-452	är	_	_	_	_	_	
+12-4	453-459	heller	_	_	_	_	_	
+12-5	460-463	den	_	_	_	_	_	
+12-6	464-469	andra	_	_	_	_	_	
+12-7	470-473	lik	_	_	_	_	_	
+12-8	473-474	;	_	_	_	_	_	
+12-9	475-480	vissa	_	_	_	_	_	
+12-10	481-491	stormtrivs	_	Source;Target	12-2;12-12	false	5	
+12-11	492-493	i	_	_	_	_	_	
+12-12	494-504	rampljuset	*	_	_	_	_	
+12-13	504-505	,	_	_	_	_	_	
+12-14	506-511	helst	_	_	_	_	_	
+12-15	512-515	som	_	_	_	_	_	
+12-16	516-520	chef	_	_	_	_	_	
+12-17	521-526	eller	_	_	_	_	_	
+12-18	527-529	vd	_	_	_	_	_	
+12-19	529-530	,	_	_	_	_	_	
+12-20	531-536	medan	_	_	_	_	_	
+12-21	537-542	andra	_	_	_	_	_	
+12-22	543-549	agerar	_	_	_	_	_	
+12-23	550-555	bakom	_	_	_	_	_	
+12-24	556-566	kulisserna	_	_	_	_	_	
+12-25	567-568	i	_	_	_	_	_	
+12-26	569-573	form	_	_	_	_	_	
+12-27	574-576	av	_	_	_	_	_	
+12-28	577-581	till	_	_	_	_	_	
+12-29	582-589	exempel	_	_	_	_	_	
+12-30	590-598	nättroll	_	_	_	_	_	
+12-31	599-602	och	_	_	_	_	_	
+12-32	603-612	id-kapare	_	_	_	_	_	
+12-33	612-613	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	615-616	#	_	_	_	_	_	
+13-2	616-617	P	_	_	_	_	_	
+13-3	618-621	IMM	_	_	_	_	_	
+13-4	621-622	.	_	_	_	_	_	
+
+#Text=Oavsett vilken huvudgrupp psykopaterna hör till, kan få av oss motstå deras charmoffensiver initialt, än mindre värja oss mot den bild de sprider om sin egen förträfflighet som påläggskalv på arbetsplatsen.
+14-1	624-631	Oavsett	_	_	_	_	_	
+14-2	632-638	vilken	_	_	_	_	_	
+14-3	639-649	huvudgrupp	_	_	_	_	_	
+14-4	650-662	psykopaterna	_	_	_	_	_	
+14-5	663-666	hör	_	_	_	_	_	
+14-6	667-671	till	_	_	_	_	_	
+14-7	671-672	,	_	_	_	_	_	
+14-8	673-676	kan	_	Target[7]	14-13[29]	false[7]	2[7]	
+14-9	677-679	få	_	Target[7]	14-13[29]	false[7]	2[7]	
+14-10	680-682	av	_	Target[7]	14-13[29]	false[7]	2[7]	
+14-11	683-686	oss	_	Target[7]	14-13[29]	false[7]	2[7]	
+14-12	687-693	motstå	_	Target[7]	14-13[29]	false[7]	2[7]	
+14-13	694-699	deras	*[29]	_	_	_	_	
+14-14	700-715	charmoffensiver	*[29]	_	_	_	_	
+14-15	716-724	initialt	*[29]	_	_	_	_	
+14-16	724-725	,	_	_	_	_	_	
+14-17	726-728	än	_	_	_	_	_	
+14-18	729-735	mindre	_	_	_	_	_	
+14-19	736-741	värja	_	Target[8]	14-22[30]	false[8]	2[8]	
+14-20	742-745	oss	_	Target[8]	14-22[30]	false[8]	2[8]	
+14-21	746-749	mot	_	Target[8]	14-22[30]	false[8]	2[8]	
+14-22	750-753	den	*[30]	_	_	_	_	
+14-23	754-758	bild	*[30]	_	_	_	_	
+14-24	759-761	de	*[30]	_	_	_	_	
+14-25	762-769	sprider	*[30]	_	_	_	_	
+14-26	770-772	om	*[30]	_	_	_	_	
+14-27	773-776	sin	*[30]	_	_	_	_	
+14-28	777-781	egen	*[30]	_	_	_	_	
+14-29	782-796	förträfflighet	*[30]	_	_	_	_	
+14-30	797-800	som	*[30]	_	_	_	_	
+14-31	801-812	påläggskalv	*[30]	_	_	_	_	
+14-32	813-815	på	*[30]	_	_	_	_	
+14-33	816-829	arbetsplatsen	*[30]	_	_	_	_	
+14-34	829-830	.	*[30]	_	_	_	_	
+
+#Text=#P IMM.
+15-1	832-833	#	_	_	_	_	_	
+15-2	833-834	P	_	_	_	_	_	
+15-3	835-838	IMM	_	_	_	_	_	
+15-4	838-839	.	_	_	_	_	_	
+
+#Text=Syftet är att inge förtroende hos alla de som kan erbjuda psykopaten en plats högre upp på karriärstegen.
+16-1	841-847	Syftet	_	_	_	_	_	
+16-2	848-850	är	_	_	_	_	_	
+16-3	851-854	att	_	_	_	_	_	
+16-4	855-859	inge	_	Target[9]	16-6[31]	false[9]	4[9]	
+16-5	860-870	förtroende	_	Target[9]	16-6[31]	false[9]	4[9]	
+16-6	871-874	hos	*[31]	_	_	_	_	
+16-7	875-879	alla	*[31]	_	_	_	_	
+16-8	880-882	de	*[31]	_	_	_	_	
+16-9	883-886	som	*[31]	_	_	_	_	
+16-10	887-890	kan	*[31]	_	_	_	_	
+16-11	891-898	erbjuda	*[31]	_	_	_	_	
+16-12	899-909	psykopaten	*[31]	_	_	_	_	
+16-13	910-912	en	*[31]	_	_	_	_	
+16-14	913-918	plats	*[31]	_	_	_	_	
+16-15	919-924	högre	*[31]	_	_	_	_	
+16-16	925-928	upp	*[31]	_	_	_	_	
+16-17	929-931	på	*[31]	_	_	_	_	
+16-18	932-945	karriärstegen	*[31]	_	_	_	_	
+16-19	945-946	.	_	_	_	_	_	
+
+#Text=Det går nämligen inte att lura någon som inte litar på dig eller inte har förtroende för dig.
+17-1	947-950	Det	_	_	_	_	_	
+17-2	951-954	går	_	_	_	_	_	
+17-3	955-963	nämligen	_	_	_	_	_	
+17-4	964-968	inte	_	_	_	_	_	
+17-5	969-972	att	_	_	_	_	_	
+17-6	973-977	lura	_	_	_	_	_	
+17-7	978-983	någon	*	_	_	_	_	
+17-8	984-987	som	_	_	_	_	_	
+17-9	988-992	inte	_	Source;Target[10]	17-7;17-12	false[10]	2[10]	
+17-10	993-998	litar	_	Source;Target[10]	17-7;17-12	false[10]	2[10]	
+17-11	999-1001	på	_	Source;Target[10]	17-7;17-12	false[10]	2[10]	
+17-12	1002-1005	dig	*	_	_	_	_	
+17-13	1006-1011	eller	_	_	_	_	_	
+17-14	1012-1016	inte	_	Source;Target[11]	17-7;17-18	false[11]	2[11]	
+17-15	1017-1020	har	_	Source;Target[11]	17-7;17-18	false[11]	2[11]	
+17-16	1021-1031	förtroende	_	Source;Target[11]	17-7;17-18	false[11]	2[11]	
+17-17	1032-1035	för	_	Source;Target[11]	17-7;17-18	false[11]	2[11]	
+17-18	1036-1039	dig	*	_	_	_	_	
+17-19	1039-1040	.	_	_	_	_	_	
+
+#Text=Ensam är inte stark ens i psykopaters kretsar.
+18-1	1041-1046	Ensam	_	_	_	_	_	
+18-2	1047-1049	är	_	_	_	_	_	
+18-3	1050-1054	inte	_	_	_	_	_	
+18-4	1055-1060	stark	_	_	_	_	_	
+18-5	1061-1064	ens	_	_	_	_	_	
+18-6	1065-1066	i	_	_	_	_	_	
+18-7	1067-1078	psykopaters	_	_	_	_	_	
+18-8	1079-1086	kretsar	_	_	_	_	_	
+18-9	1086-1087	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1089-1090	#	_	_	_	_	_	
+19-2	1090-1091	P	_	_	_	_	_	
+19-3	1092-1095	IMM	_	_	_	_	_	
+19-4	1095-1096	.	_	_	_	_	_	
+
+#Text=Först när smekmånadsperioden är över på jobbet brukar de mest skarpögda bli varse om att skenet bedrar medan andra tiger still på grund av skam och rädsla.
+20-1	1098-1103	Först	_	_	_	_	_	
+20-2	1104-1107	när	_	_	_	_	_	
+20-3	1108-1126	smekmånadsperioden	_	_	_	_	_	
+20-4	1127-1129	är	_	_	_	_	_	
+20-5	1130-1134	över	_	_	_	_	_	
+20-6	1135-1137	på	_	_	_	_	_	
+20-7	1138-1144	jobbet	_	_	_	_	_	
+20-8	1145-1151	brukar	_	_	_	_	_	
+20-9	1152-1154	de	_	_	_	_	_	
+20-10	1155-1159	mest	_	_	_	_	_	
+20-11	1160-1169	skarpögda	_	_	_	_	_	
+20-12	1170-1173	bli	_	_	_	_	_	
+20-13	1174-1179	varse	_	_	_	_	_	
+20-14	1180-1182	om	_	_	_	_	_	
+20-15	1183-1186	att	_	_	_	_	_	
+20-16	1187-1193	skenet	*[32]	Target[12]	20-16[32]	false[12]	2[12]	
+20-17	1194-1200	bedrar	*[32]	Target[12]	20-16[32]	false[12]	2[12]	
+20-18	1201-1206	medan	_	_	_	_	_	
+20-19	1207-1212	andra	*	_	_	_	_	
+20-20	1213-1218	tiger	_	_	_	_	_	
+20-21	1219-1224	still	_	_	_	_	_	
+20-22	1225-1227	på	_	_	_	_	_	
+20-23	1228-1233	grund	_	_	_	_	_	
+20-24	1234-1236	av	_	_	_	_	_	
+20-25	1237-1241	skam	_	Source[13]	20-19	false[13]	1[13]	
+20-26	1242-1245	och	_	Source[13]	20-19	false[13]	1[13]	
+20-27	1246-1252	rädsla	_	Source[13]	20-19	false[13]	1[13]	
+20-28	1252-1253	.	_	_	_	_	_	
+
+#Text=De kritiska rösterna blir därigenom tandlösa gentemot psykopatens supporterskara, som ser en stark och modig ledare framför sig.
+21-1	1254-1256	De	_	_	_	_	_	
+21-2	1257-1265	kritiska	_	Source	21-3	false	2	
+21-3	1266-1274	rösterna	*	_	_	_	_	
+21-4	1275-1279	blir	_	_	_	_	_	
+21-5	1280-1289	därigenom	_	_	_	_	_	
+21-6	1290-1298	tandlösa	_	_	_	_	_	
+21-7	1299-1307	gentemot	_	_	_	_	_	
+21-8	1308-1319	psykopatens	*[33]	_	_	_	_	
+21-9	1320-1334	supporterskara	*[33]	_	_	_	_	
+21-10	1334-1335	,	_	_	_	_	_	
+21-11	1336-1339	som	_	_	_	_	_	
+21-12	1340-1343	ser	_	Source;Target[14]	21-8[33];21-17	false[14]	4[14]	
+21-13	1344-1346	en	_	Source;Target[14]	21-8[33];21-17	false[14]	4[14]	
+21-14	1347-1352	stark	_	Source;Target[14]	21-8[33];21-17	false[14]	4[14]	
+21-15	1353-1356	och	_	Source;Target[14]	21-8[33];21-17	false[14]	4[14]	
+21-16	1357-1362	modig	_	Source;Target[14]	21-8[33];21-17	false[14]	4[14]	
+21-17	1363-1369	ledare	*	_	_	_	_	
+21-18	1370-1377	framför	_	_	_	_	_	
+21-19	1378-1381	sig	_	_	_	_	_	
+21-20	1381-1382	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1384-1385	#	_	_	_	_	_	
+22-2	1385-1386	P	_	_	_	_	_	
+22-3	1387-1390	IMM	_	_	_	_	_	
+22-4	1390-1391	.	_	_	_	_	_	
+
+#Text=Det är nu de verkliga problemen börjar.
+23-1	1393-1396	Det	_	_	_	_	_	
+23-2	1397-1399	är	_	_	_	_	_	
+23-3	1400-1402	nu	_	_	_	_	_	
+23-4	1403-1405	de	_	_	_	_	_	
+23-5	1406-1414	verkliga	_	_	_	_	_	
+23-6	1415-1424	problemen	_	_	_	_	_	
+23-7	1425-1431	börjar	_	_	_	_	_	
+23-8	1431-1432	.	_	_	_	_	_	
+
+#Text=En psykopat är ingen normalt fungerande person.
+24-1	1433-1435	En	_	_	_	_	_	
+24-2	1436-1444	psykopat	*	_	_	_	_	
+24-3	1445-1447	är	_	Target[15]	24-2	false[15]	2[15]	
+24-4	1448-1453	ingen	_	Target[15]	24-2	false[15]	2[15]	
+24-5	1454-1461	normalt	_	Target[15]	24-2	false[15]	2[15]	
+24-6	1462-1472	fungerande	_	Target[15]	24-2	false[15]	2[15]	
+24-7	1473-1479	person	_	Target[15]	24-2	false[15]	2[15]	
+24-8	1479-1480	.	_	_	_	_	_	
+
+#Text=Här saknas moralisk kompass, sunt förnuft och sinne för proportioner i tanke, ord och handling.
+25-1	1481-1484	Här	_	_	_	_	_	
+25-2	1485-1491	saknas	_	Target;Target;Target	25-9[36];25-3[34];25-6[35]	false	2	
+25-3	1492-1500	moralisk	*[34]	_	_	_	_	
+25-4	1501-1508	kompass	*[34]	_	_	_	_	
+25-5	1508-1509	,	_	_	_	_	_	
+25-6	1510-1514	sunt	*[35]	_	_	_	_	
+25-7	1515-1522	förnuft	*[35]	_	_	_	_	
+25-8	1523-1526	och	_	_	_	_	_	
+25-9	1527-1532	sinne	*[36]	_	_	_	_	
+25-10	1533-1536	för	*[36]	_	_	_	_	
+25-11	1537-1549	proportioner	*[36]	_	_	_	_	
+25-12	1550-1551	i	*[36]	_	_	_	_	
+25-13	1552-1557	tanke	*[36]	_	_	_	_	
+25-14	1557-1558	,	*[36]	_	_	_	_	
+25-15	1559-1562	ord	*[36]	_	_	_	_	
+25-16	1563-1566	och	*[36]	_	_	_	_	
+25-17	1567-1575	handling	*[36]	_	_	_	_	
+25-18	1575-1576	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1578-1579	#	_	_	_	_	_	
+26-2	1579-1580	P	_	_	_	_	_	
+26-3	1581-1584	IMM	_	_	_	_	_	
+26-4	1584-1585	.	_	_	_	_	_	
+
+#Text=En arbetsplats betraktas av psykopater som en privat lekstuga där verksamhetens pengar och värden ska användas efter deras huvud – lagar och regler till trots.
+27-1	1587-1589	En	_	_	_	_	_	
+27-2	1590-1601	arbetsplats	_	_	_	_	_	
+27-3	1602-1611	betraktas	_	_	_	_	_	
+27-4	1612-1614	av	_	_	_	_	_	
+27-5	1615-1625	psykopater	_	_	_	_	_	
+27-6	1626-1629	som	_	_	_	_	_	
+27-7	1630-1632	en	_	_	_	_	_	
+27-8	1633-1639	privat	_	_	_	_	_	
+27-9	1640-1648	lekstuga	_	_	_	_	_	
+27-10	1649-1652	där	_	_	_	_	_	
+27-11	1653-1666	verksamhetens	_	_	_	_	_	
+27-12	1667-1673	pengar	_	_	_	_	_	
+27-13	1674-1677	och	_	_	_	_	_	
+27-14	1678-1684	värden	_	_	_	_	_	
+27-15	1685-1688	ska	_	_	_	_	_	
+27-16	1689-1697	användas	_	_	_	_	_	
+27-17	1698-1703	efter	_	_	_	_	_	
+27-18	1704-1709	deras	_	_	_	_	_	
+27-19	1710-1715	huvud	_	_	_	_	_	
+27-20	1716-1717	–	_	_	_	_	_	
+27-21	1718-1723	lagar	*[37]	_	_	_	_	
+27-22	1724-1727	och	*[37]	_	_	_	_	
+27-23	1728-1734	regler	*[37]	_	_	_	_	
+27-24	1735-1739	till	_	Target[16]	27-21[37]	false[16]	2[16]	
+27-25	1740-1745	trots	_	Target[16]	27-21[37]	false[16]	2[16]	
+27-26	1745-1746	.	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1748-1749	#	_	_	_	_	_	
+28-2	1749-1750	P	_	_	_	_	_	
+28-3	1751-1754	IMM	_	_	_	_	_	
+28-4	1754-1755	.	_	_	_	_	_	
+
+#Text=Det betyder toppstyrning och kontroll utifrån en dold agenda som utgår från vad som bäst gagnar psykopatens ego i stället för verksamhetens visioner och mål.
+29-1	1757-1760	Det	_	_	_	_	_	
+29-2	1761-1768	betyder	_	_	_	_	_	
+29-3	1769-1781	toppstyrning	_	_	_	_	_	
+29-4	1782-1785	och	_	_	_	_	_	
+29-5	1786-1794	kontroll	_	_	_	_	_	
+29-6	1795-1802	utifrån	_	_	_	_	_	
+29-7	1803-1805	en	_	_	_	_	_	
+29-8	1806-1810	dold	_	_	_	_	_	
+29-9	1811-1817	agenda	_	_	_	_	_	
+29-10	1818-1821	som	_	_	_	_	_	
+29-11	1822-1827	utgår	_	_	_	_	_	
+29-12	1828-1832	från	_	_	_	_	_	
+29-13	1833-1836	vad	_	_	_	_	_	
+29-14	1837-1840	som	_	_	_	_	_	
+29-15	1841-1845	bäst	_	_	_	_	_	
+29-16	1846-1852	gagnar	_	_	_	_	_	
+29-17	1853-1864	psykopatens	*	_	_	_	_	
+29-18	1865-1868	ego	_	_	_	_	_	
+29-19	1869-1870	i	_	_	_	_	_	
+29-20	1871-1878	stället	_	_	_	_	_	
+29-21	1879-1882	för	_	_	_	_	_	
+29-22	1883-1896	verksamhetens	_	_	_	_	_	
+29-23	1897-1905	visioner	_	_	_	_	_	
+29-24	1906-1909	och	_	_	_	_	_	
+29-25	1910-1913	mål	_	_	_	_	_	
+29-26	1913-1914	.	_	Target	29-17	false	2	
+
+#Text=Det innebär att illa genomtänkta beslut klubbas igenom av en ja-sägande församling som alltmer tappar greppet om verkligheten.
+30-1	1915-1918	Det	_	_	_	_	_	
+30-2	1919-1926	innebär	_	_	_	_	_	
+30-3	1927-1930	att	_	_	_	_	_	
+30-4	1931-1935	illa	_	Target[17]	30-6	false[17]	2[17]	
+30-5	1936-1947	genomtänkta	_	Target[17]	30-6	false[17]	2[17]	
+30-6	1948-1954	beslut	*	_	_	_	_	
+30-7	1955-1962	klubbas	_	_	_	_	_	
+30-8	1963-1969	igenom	_	_	_	_	_	
+30-9	1970-1972	av	_	_	_	_	_	
+30-10	1973-1975	en	_	_	_	_	_	
+30-11	1976-1986	ja-sägande	*[38]	_	_	_	_	
+30-12	1987-1997	församling	*[38]	_	_	_	_	
+30-13	1998-2001	som	_	_	_	_	_	
+30-14	2002-2009	alltmer	_	_	_	_	_	
+30-15	2010-2016	tappar	_	Target[18]	30-11[38]	false[18]	2[18]	
+30-16	2017-2024	greppet	_	Target[18]	30-11[38]	false[18]	2[18]	
+30-17	2025-2027	om	_	Target[18]	30-11[38]	false[18]	2[18]	
+30-18	2028-2040	verkligheten	_	Target[18]	30-11[38]	false[18]	2[18]	
+30-19	2040-2041	.	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2043-2044	#	_	_	_	_	_	
+31-2	2044-2045	P	_	_	_	_	_	
+31-3	2046-2049	IMM	_	_	_	_	_	
+31-4	2049-2050	.	_	_	_	_	_	
+
+#Text=Det kan röra sig om att till exempel installera nya och dyra it-system som är så illa anpassade för verksamheten att de kort därefter får skrotas.
+32-1	2052-2055	Det	_	_	_	_	_	
+32-2	2056-2059	kan	_	_	_	_	_	
+32-3	2060-2064	röra	_	_	_	_	_	
+32-4	2065-2068	sig	_	_	_	_	_	
+32-5	2069-2071	om	_	_	_	_	_	
+32-6	2072-2075	att	_	_	_	_	_	
+32-7	2076-2080	till	_	_	_	_	_	
+32-8	2081-2088	exempel	_	_	_	_	_	
+32-9	2089-2099	installera	_	_	_	_	_	
+32-10	2100-2103	nya	_	_	_	_	_	
+32-11	2104-2107	och	_	_	_	_	_	
+32-12	2108-2112	dyra	*[39]	_	_	_	_	
+32-13	2113-2122	it-system	*[39]	_	_	_	_	
+32-14	2123-2126	som	_	_	_	_	_	
+32-15	2127-2129	är	_	_	_	_	_	
+32-16	2130-2132	så	_	_	_	_	_	
+32-17	2133-2137	illa	_	Target[19]	32-12[39]	false[19]	2[19]	
+32-18	2138-2147	anpassade	_	Target[19]	32-12[39]	false[19]	2[19]	
+32-19	2148-2151	för	_	Target[19]	32-12[39]	false[19]	2[19]	
+32-20	2152-2164	verksamheten	_	Target[19]	32-12[39]	false[19]	2[19]	
+32-21	2165-2168	att	_	_	_	_	_	
+32-22	2169-2171	de	_	_	_	_	_	
+32-23	2172-2176	kort	_	_	_	_	_	
+32-24	2177-2185	därefter	_	_	_	_	_	
+32-25	2186-2189	får	_	_	_	_	_	
+32-26	2190-2197	skrotas	_	_	_	_	_	
+32-27	2197-2198	.	_	_	_	_	_	
+
+#Text=Andra bygger imperium som står på så lösa grunder att de kollapsar efter bara ett par år, alltmedan skattebetalare, investerare, aktieägare och medlemmar får stå för notan.
+33-1	2199-2204	Andra	_	_	_	_	_	
+33-2	2205-2211	bygger	_	_	_	_	_	
+33-3	2212-2220	imperium	*	_	_	_	_	
+33-4	2221-2224	som	_	_	_	_	_	
+33-5	2225-2229	står	_	Target[20]	33-3	false[20]	2[20]	
+33-6	2230-2232	på	_	Target[20]	33-3	false[20]	2[20]	
+33-7	2233-2235	så	_	Target[20]	33-3	false[20]	2[20]	
+33-8	2236-2240	lösa	_	Target[20]	33-3	false[20]	2[20]	
+33-9	2241-2248	grunder	_	Target[20]	33-3	false[20]	2[20]	
+33-10	2249-2252	att	_	_	_	_	_	
+33-11	2253-2255	de	_	_	_	_	_	
+33-12	2256-2265	kollapsar	_	_	_	_	_	
+33-13	2266-2271	efter	_	_	_	_	_	
+33-14	2272-2276	bara	_	_	_	_	_	
+33-15	2277-2280	ett	_	_	_	_	_	
+33-16	2281-2284	par	_	_	_	_	_	
+33-17	2285-2287	år	_	_	_	_	_	
+33-18	2287-2288	,	_	_	_	_	_	
+33-19	2289-2298	alltmedan	_	_	_	_	_	
+33-20	2299-2313	skattebetalare	_	_	_	_	_	
+33-21	2313-2314	,	_	_	_	_	_	
+33-22	2315-2326	investerare	_	_	_	_	_	
+33-23	2326-2327	,	_	_	_	_	_	
+33-24	2328-2338	aktieägare	_	_	_	_	_	
+33-25	2339-2342	och	_	_	_	_	_	
+33-26	2343-2352	medlemmar	_	_	_	_	_	
+33-27	2353-2356	får	_	_	_	_	_	
+33-28	2357-2360	stå	_	_	_	_	_	
+33-29	2361-2364	för	_	_	_	_	_	
+33-30	2365-2370	notan	_	_	_	_	_	
+33-31	2370-2371	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2373-2374	#	_	_	_	_	_	
+34-2	2374-2375	P	_	_	_	_	_	
+34-3	2376-2379	IMM	_	_	_	_	_	
+34-4	2379-2380	.	_	_	_	_	_	
+
+#Text=Psykopaterna och deras anhängare svär sig däremot fria och sopar kvickt igen spåren efter sig.
+35-1	2382-2394	Psykopaterna	*[40]	_	_	_	_	
+35-2	2395-2398	och	*[40]	_	_	_	_	
+35-3	2399-2404	deras	*[40]	_	_	_	_	
+35-4	2405-2414	anhängare	*[40]	_	_	_	_	
+35-5	2415-2419	svär	_	_	_	_	_	
+35-6	2420-2423	sig	_	_	_	_	_	
+35-7	2424-2431	däremot	_	_	_	_	_	
+35-8	2432-2436	fria	_	_	_	_	_	
+35-9	2437-2440	och	_	_	_	_	_	
+35-10	2441-2446	sopar	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-11	2447-2453	kvickt	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-12	2454-2458	igen	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-13	2459-2465	spåren	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-14	2466-2471	efter	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-15	2472-2475	sig	_	Target[21]	35-1[40]	false[21]	2[21]	
+35-16	2475-2476	.	_	_	_	_	_	
+
+#Text=I stället läggs ansvaret och skulden på andra under det att de själva verkar drabbas av temporär minnesförlust och tunghäfta inför granskande frågor.
+36-1	2477-2478	I	_	_	_	_	_	
+36-2	2479-2486	stället	_	_	_	_	_	
+36-3	2487-2492	läggs	_	Target;Source[22]	36-8;36-24	false[22]	2[22]	
+36-4	2493-2501	ansvaret	_	Target;Source[22]	36-8;36-24	false[22]	2[22]	
+36-5	2502-2505	och	_	Target;Source[22]	36-8;36-24	false[22]	2[22]	
+36-6	2506-2513	skulden	_	Target;Source[22]	36-8;36-24	false[22]	2[22]	
+36-7	2514-2516	på	_	_	_	_	_	
+36-8	2517-2522	andra	*	_	_	_	_	
+36-9	2523-2528	under	_	_	_	_	_	
+36-10	2529-2532	det	_	_	_	_	_	
+36-11	2533-2536	att	_	_	_	_	_	
+36-12	2537-2539	de	_	_	_	_	_	
+36-13	2540-2546	själva	_	_	_	_	_	
+36-14	2547-2553	verkar	_	_	_	_	_	
+36-15	2554-2561	drabbas	_	_	_	_	_	
+36-16	2562-2564	av	_	_	_	_	_	
+36-17	2565-2573	temporär	_	_	_	_	_	
+36-18	2574-2587	minnesförlust	_	_	_	_	_	
+36-19	2588-2591	och	_	_	_	_	_	
+36-20	2592-2601	tunghäfta	_	_	_	_	_	
+36-21	2602-2607	inför	_	_	_	_	_	
+36-22	2608-2618	granskande	_	_	_	_	_	
+36-23	2619-2625	frågor	_	_	_	_	_	
+36-24	2625-2626	.	*	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2628-2629	#	_	_	_	_	_	
+37-2	2629-2630	P	_	_	_	_	_	
+37-3	2631-2634	IMM	_	_	_	_	_	
+37-4	2634-2635	.	_	_	_	_	_	
+
+#Text=Psykopater är med andra ord så långt från ett fungerande ledarskap och bärkraftig utveckling man kan komma.
+38-1	2637-2647	Psykopater	*	_	_	_	_	
+38-2	2648-2650	är	_	_	_	_	_	
+38-3	2651-2654	med	_	_	_	_	_	
+38-4	2655-2660	andra	_	_	_	_	_	
+38-5	2661-2664	ord	_	_	_	_	_	
+38-6	2665-2667	så	_	Target[23]	38-1	false[23]	2[23]	
+38-7	2668-2673	långt	_	Target[23]	38-1	false[23]	2[23]	
+38-8	2674-2678	från	_	Target[23]	38-1	false[23]	2[23]	
+38-9	2679-2682	ett	_	Target[23]	38-1	false[23]	2[23]	
+38-10	2683-2693	fungerande	_	Target[23]	38-1	false[23]	2[23]	
+38-11	2694-2703	ledarskap	_	Target[23]	38-1	false[23]	2[23]	
+38-12	2704-2707	och	_	Target[23]	38-1	false[23]	2[23]	
+38-13	2708-2718	bärkraftig	_	Target[23]	38-1	false[23]	2[23]	
+38-14	2719-2729	utveckling	_	Target[23]	38-1	false[23]	2[23]	
+38-15	2730-2733	man	_	Target[23]	38-1	false[23]	2[23]	
+38-16	2734-2737	kan	_	Target[23]	38-1	false[23]	2[23]	
+38-17	2738-2743	komma	_	Target[23]	38-1	false[23]	2[23]	
+38-18	2743-2744	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2746-2747	#	_	_	_	_	_	
+39-2	2747-2748	P	_	_	_	_	_	
+39-3	2749-2752	IMM	_	_	_	_	_	
+39-4	2752-2753	.	_	_	_	_	_	
+
+#Text=Fisk lär ruttna från huvudet.
+40-1	2755-2759	Fisk	_	_	_	_	_	
+40-2	2760-2763	lär	_	_	_	_	_	
+40-3	2764-2770	ruttna	_	_	_	_	_	
+40-4	2771-2775	från	_	_	_	_	_	
+40-5	2776-2783	huvudet	_	_	_	_	_	
+40-6	2783-2784	.	_	_	_	_	_	
+
+#Text=Arbetsplatser också, särskilt de som angripits av psykopater.
+41-1	2785-2798	Arbetsplatser	_	_	_	_	_	
+41-2	2799-2804	också	_	_	_	_	_	
+41-3	2804-2805	,	_	_	_	_	_	
+41-4	2806-2814	särskilt	_	_	_	_	_	
+41-5	2815-2817	de	_	_	_	_	_	
+41-6	2818-2821	som	_	_	_	_	_	
+41-7	2822-2831	angripits	_	Target	41-9	false	2	
+41-8	2832-2834	av	_	_	_	_	_	
+41-9	2835-2845	psykopater	*	_	_	_	_	
+41-10	2845-2846	.	_	_	_	_	_	
+
+#Text=Här premieras kortsiktig vinning framför långsiktig och konstruktiv utveckling.
+42-1	2847-2850	Här	_	_	_	_	_	
+42-2	2851-2860	premieras	_	_	_	_	_	
+42-3	2861-2871	kortsiktig	_	_	_	_	_	
+42-4	2872-2879	vinning	_	_	_	_	_	
+42-5	2880-2887	framför	_	_	_	_	_	
+42-6	2888-2898	långsiktig	_	_	_	_	_	
+42-7	2899-2902	och	_	_	_	_	_	
+42-8	2903-2914	konstruktiv	_	_	_	_	_	
+42-9	2915-2925	utveckling	_	_	_	_	_	
+42-10	2925-2926	.	_	_	_	_	_	
+
+#Text=Medarbetare blir bara en samling siffror och inte människor av kött och blod som förtjänar en kreativ arbetsplats där livspusslet ges utrymme att fungera.
+43-1	2927-2938	Medarbetare	_	_	_	_	_	
+43-2	2939-2943	blir	_	_	_	_	_	
+43-3	2944-2948	bara	_	_	_	_	_	
+43-4	2949-2951	en	_	_	_	_	_	
+43-5	2952-2959	samling	_	_	_	_	_	
+43-6	2960-2967	siffror	_	_	_	_	_	
+43-7	2968-2971	och	_	_	_	_	_	
+43-8	2972-2976	inte	_	_	_	_	_	
+43-9	2977-2986	människor	_	_	_	_	_	
+43-10	2987-2989	av	_	_	_	_	_	
+43-11	2990-2994	kött	_	_	_	_	_	
+43-12	2995-2998	och	_	_	_	_	_	
+43-13	2999-3003	blod	_	_	_	_	_	
+43-14	3004-3007	som	_	_	_	_	_	
+43-15	3008-3017	förtjänar	_	_	_	_	_	
+43-16	3018-3020	en	_	_	_	_	_	
+43-17	3021-3028	kreativ	_	_	_	_	_	
+43-18	3029-3040	arbetsplats	_	_	_	_	_	
+43-19	3041-3044	där	_	_	_	_	_	
+43-20	3045-3056	livspusslet	_	_	_	_	_	
+43-21	3057-3060	ges	_	_	_	_	_	
+43-22	3061-3068	utrymme	_	_	_	_	_	
+43-23	3069-3072	att	_	_	_	_	_	
+43-24	3073-3080	fungera	_	_	_	_	_	
+43-25	3080-3081	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3083-3084	#	_	_	_	_	_	
+44-2	3084-3085	P	_	_	_	_	_	
+44-3	3086-3089	IMM	_	_	_	_	_	
+44-4	3089-3090	.	_	_	_	_	_	
+
+#Text=Konsekvensen är att arbetsmiljön blir så infekterad att de anställda blir sjuka.
+45-1	3092-3104	Konsekvensen	_	_	_	_	_	
+45-2	3105-3107	är	_	_	_	_	_	
+45-3	3108-3111	att	_	_	_	_	_	
+45-4	3112-3124	arbetsmiljön	*	_	_	_	_	
+45-5	3125-3129	blir	_	Target[24]	45-4	false[24]	2[24]	
+45-6	3130-3132	så	_	Target[24]	45-4	false[24]	2[24]	
+45-7	3133-3143	infekterad	_	Target[24]	45-4	false[24]	2[24]	
+45-8	3144-3147	att	_	_	_	_	_	
+45-9	3148-3150	de	_	_	_	_	_	
+45-10	3151-3160	anställda	_	_	_	_	_	
+45-11	3161-3165	blir	_	_	_	_	_	
+45-12	3166-3171	sjuka	_	_	_	_	_	
+45-13	3171-3172	.	_	_	_	_	_	
+
+#Text=Det leder till produktionsbortfall och kompetensflykt där utrymmet för produktutveckling och innovation halkar efter.
+46-1	3173-3176	Det	_	_	_	_	_	
+46-2	3177-3182	leder	_	_	_	_	_	
+46-3	3183-3187	till	_	_	_	_	_	
+46-4	3188-3207	produktionsbortfall	_	_	_	_	_	
+46-5	3208-3211	och	_	_	_	_	_	
+46-6	3212-3226	kompetensflykt	_	_	_	_	_	
+46-7	3227-3230	där	_	_	_	_	_	
+46-8	3231-3239	utrymmet	_	_	_	_	_	
+46-9	3240-3243	för	_	_	_	_	_	
+46-10	3244-3261	produktutveckling	_	_	_	_	_	
+46-11	3262-3265	och	_	_	_	_	_	
+46-12	3266-3276	innovation	_	_	_	_	_	
+46-13	3277-3283	halkar	_	_	_	_	_	
+46-14	3284-3289	efter	_	_	_	_	_	
+46-15	3289-3290	.	_	_	_	_	_	
+
+#Text=Goodwill blir badwill.
+47-1	3291-3299	Goodwill	_	_	_	_	_	
+47-2	3300-3304	blir	_	_	_	_	_	
+47-3	3305-3312	badwill	_	_	_	_	_	
+47-4	3312-3313	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3315-3316	#	_	_	_	_	_	
+48-2	3316-3317	P	_	_	_	_	_	
+48-3	3318-3321	IMM	_	_	_	_	_	
+48-4	3321-3322	.	_	_	_	_	_	
+
+#Text=Summan blir att verksamheten tappar fart och konkurrenskraft.
+49-1	3324-3330	Summan	_	_	_	_	_	
+49-2	3331-3335	blir	_	_	_	_	_	
+49-3	3336-3339	att	_	_	_	_	_	
+49-4	3340-3352	verksamheten	_	_	_	_	_	
+49-5	3353-3359	tappar	_	_	_	_	_	
+49-6	3360-3364	fart	_	_	_	_	_	
+49-7	3365-3368	och	_	_	_	_	_	
+49-8	3369-3384	konkurrenskraft	_	_	_	_	_	
+49-9	3384-3385	.	_	_	_	_	_	
+
+#Text=Det kan i värsta fall bli dödsstöten i en tuff bransch.
+50-1	3386-3389	Det	_	_	_	_	_	
+50-2	3390-3393	kan	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-3	3394-3395	i	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-4	3396-3402	värsta	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-5	3403-3407	fall	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-6	3408-3411	bli	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-7	3412-3422	dödsstöten	_	Target[25]	50-10[41]	false[25]	2[25]	
+50-8	3423-3424	i	_	_	_	_	_	
+50-9	3425-3427	en	_	_	_	_	_	
+50-10	3428-3432	tuff	*[41]	_	_	_	_	
+50-11	3433-3440	bransch	*[41]	_	_	_	_	
+50-12	3440-3441	.	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3443-3444	#	_	_	_	_	_	
+51-2	3444-3445	P	_	_	_	_	_	
+51-3	3446-3449	IMM	_	_	_	_	_	
+51-4	3449-3450	.	_	_	_	_	_	
+
+#Text=Har vi verkligen råd att låta fega och inkompetenta psykopater leka chef?
+52-1	3452-3455	Har	_	_	_	_	_	
+52-2	3456-3458	vi	_	_	_	_	_	
+52-3	3459-3468	verkligen	_	_	_	_	_	
+52-4	3469-3472	råd	_	_	_	_	_	
+52-5	3473-3476	att	_	_	_	_	_	
+52-6	3477-3481	låta	_	_	_	_	_	
+52-7	3482-3486	fega	_	Target[26]	52-10	false[26]	1[26]	
+52-8	3487-3490	och	_	Target[26]	52-10	false[26]	1[26]	
+52-9	3491-3503	inkompetenta	_	Target[26]	52-10	false[26]	1[26]	
+52-10	3504-3514	psykopater	*	_	_	_	_	
+52-11	3515-3519	leka	_	_	_	_	_	
+52-12	3520-3524	chef	_	_	_	_	_	
+52-13	3524-3525	?	_	_	_	_	_	
+
+#Text=Borde vi inte göra som i sagan om kejsarens nya kläder; öppna ögonen och inse att vederbörande inte har något på sig!.
+53-1	3526-3531	Borde	_	_	_	_	_	
+53-2	3532-3534	vi	_	_	_	_	_	
+53-3	3535-3539	inte	_	_	_	_	_	
+53-4	3540-3544	göra	_	_	_	_	_	
+53-5	3545-3548	som	_	_	_	_	_	
+53-6	3549-3550	i	_	_	_	_	_	
+53-7	3551-3556	sagan	_	_	_	_	_	
+53-8	3557-3559	om	_	_	_	_	_	
+53-9	3560-3569	kejsarens	_	_	_	_	_	
+53-10	3570-3573	nya	_	_	_	_	_	
+53-11	3574-3580	kläder	_	_	_	_	_	
+53-12	3580-3581	;	_	_	_	_	_	
+53-13	3582-3587	öppna	_	_	_	_	_	
+53-14	3588-3594	ögonen	_	_	_	_	_	
+53-15	3595-3598	och	_	_	_	_	_	
+53-16	3599-3603	inse	_	_	_	_	_	
+53-17	3604-3607	att	_	_	_	_	_	
+53-18	3608-3620	vederbörande	_	_	_	_	_	
+53-19	3621-3625	inte	_	_	_	_	_	
+53-20	3626-3629	har	_	_	_	_	_	
+53-21	3630-3635	något	_	_	_	_	_	
+53-22	3636-3638	på	_	_	_	_	_	
+53-23	3639-3642	sig	_	_	_	_	_	
+53-24	3642-3643	!	_	_	_	_	_	
+53-25	3643-3644	.	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3646-3647	#	_	_	_	_	_	
+54-2	3647-3648	P	_	_	_	_	_	
+54-3	3649-3652	IMM	_	_	_	_	_	
+54-4	3652-3653	.	_	_	_	_	_	
+
+#Text=Christina Davisson.
+55-1	3655-3664	Christina	_	_	_	_	_	
+55-2	3665-3673	Davisson	_	_	_	_	_	
+55-3	3673-3674	.	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3676-3677	#	_	_	_	_	_	
+56-2	3677-3678	P	_	_	_	_	_	
+56-3	3679-3682	IMM	_	_	_	_	_	
+56-4	3682-3683	.	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+57-1	3685-3689	Häng	_	_	_	_	_	
+57-2	3690-3693	med	_	_	_	_	_	
+57-3	3694-3695	i	_	_	_	_	_	
+57-4	3696-3704	debatten	_	_	_	_	_	
+57-5	3705-3708	och	_	_	_	_	_	
+57-6	3709-3719	kommentera	_	_	_	_	_	
+57-7	3720-3728	artikeln	_	_	_	_	_	
+57-8	3729-3730	–	_	_	_	_	_	
+57-9	3731-3735	följ	_	_	_	_	_	
+57-10	3737-3743	Debatt	_	_	_	_	_	
+57-11	3744-3746	på	_	_	_	_	_	
+57-12	3747-3755	Facebook	_	_	_	_	_	
+57-13	3755-3756	.	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3758-3759	#	_	_	_	_	_	
+58-2	3759-3760	P	_	_	_	_	_	
+58-3	3761-3764	IMM	_	_	_	_	_	
+58-4	3764-3765	.	_	_	_	_	_	
+
+#Text=FAKTA.
+59-1	3767-3772	FAKTA	_	_	_	_	_	
+59-2	3772-3773	.	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3775-3776	#	_	_	_	_	_	
+60-2	3776-3777	P	_	_	_	_	_	
+60-3	3778-3781	IMM	_	_	_	_	_	
+60-4	3781-3782	.	_	_	_	_	_	
+
+#Text=REN.
+61-1	3784-3787	REN	_	_	_	_	_	
+61-2	3787-3788	.	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	3790-3791	#	_	_	_	_	_	
+62-2	3791-3792	P	_	_	_	_	_	
+62-3	3793-3796	IMM	_	_	_	_	_	
+62-4	3796-3797	.	_	_	_	_	_	
+
+#Text=N.
+63-1	3799-3800	N	_	_	_	_	_	
+63-2	3800-3801	.	_	_	_	_	_	

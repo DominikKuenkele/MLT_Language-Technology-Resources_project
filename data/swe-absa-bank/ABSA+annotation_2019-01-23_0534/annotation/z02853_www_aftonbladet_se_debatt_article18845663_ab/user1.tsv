@@ -1,0 +1,445 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vi kommer att presentera en fullständig budget i god tid innan valet.
+3-1	18-20	Vi	_	_	_	_	_	_	_	
+3-2	21-27	kommer	_	_	_	_	_	_	_	
+3-3	28-31	att	_	_	_	_	_	_	_	
+3-4	32-42	presentera	_	_	_	_	_	_	_	
+3-5	43-45	en	_	_	_	_	_	_	_	
+3-6	46-57	fullständig	_	_	_	_	_	_	_	
+3-7	58-64	budget	_	_	_	_	_	_	_	
+3-8	65-66	i	_	_	_	_	_	_	_	
+3-9	67-70	god	_	_	_	_	_	_	_	
+3-10	71-74	tid	_	_	_	_	_	_	_	
+3-11	75-80	innan	_	_	_	_	_	_	_	
+3-12	81-86	valet	_	_	_	_	_	_	_	
+3-13	86-87	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	89-90	#	_	_	_	_	_	_	_	
+4-2	90-91	P	_	_	_	_	_	_	_	
+4-3	92-95	IMM	_	_	_	_	_	_	_	
+4-4	95-96	.	_	_	_	_	_	_	_	
+
+#Text=Återigen försöker Li Jansson, idag på Almega men tidigare på arbetsmarknadsdepartementet och på Moderaternas riksdagskansli, angripa Sverigedemokraternas beräkningar på invandringens kostnader.
+5-1	98-106	Återigen	_	_	_	_	_	_	_	
+5-2	107-115	försöker	_	_	_	false	2	_	_	
+5-3	116-118	Li	*[8]	_	_	_	_	_	_	
+5-4	119-126	Jansson	*[8]	_	_	_	_	_	_	
+5-5	126-127	,	_	_	_	_	_	_	_	
+5-6	128-132	idag	_	_	_	_	_	_	_	
+5-7	133-135	på	_	_	_	_	_	_	_	
+5-8	136-142	Almega	_	_	_	_	_	_	_	
+5-9	143-146	men	_	_	_	_	_	_	_	
+5-10	147-155	tidigare	_	_	_	_	_	_	_	
+5-11	156-158	på	_	_	_	_	_	_	_	
+5-12	159-186	arbetsmarknadsdepartementet	_	_	_	_	_	_	_	
+5-13	187-190	och	_	_	_	_	_	_	_	
+5-14	191-193	på	_	_	_	_	_	_	_	
+5-15	194-206	Moderaternas	_	_	_	_	_	_	_	
+5-16	207-221	riksdagskansli	_	_	_	_	_	_	_	
+5-17	221-222	,	_	_	_	_	_	_	_	
+5-18	223-230	angripa	_	Target[1]	5-3[8]	false[1]	2[1]	5-2[0_1]	_	
+5-19	231-251	Sverigedemokraternas	_	Target[1]	5-3[8]	false[1]	2[1]	_	_	
+5-20	252-263	beräkningar	_	Target[1]	5-3[8]	false[1]	2[1]	_	_	
+5-21	264-266	på	_	Target[1]	5-3[8]	false[1]	2[1]	_	_	
+5-22	267-280	invandringens	_	Target[1]	5-3[8]	false[1]	2[1]	_	_	
+5-23	281-290	kostnader	_	Target[1]	5-3[8]	false[1]	2[1]	_	_	
+5-24	290-291	.	_	_	_	_	_	_	_	
+
+#Text=Jag välkomnar debatten.
+6-1	292-295	Jag	_	_	_	_	_	_	_	
+6-2	296-305	välkomnar	_	Target	6-3	false	4	_	_	
+6-3	306-314	debatten	*	_	_	_	_	_	_	
+6-4	314-315	.	_	_	_	_	_	_	_	
+
+#Text=Det finns dock ett antal sakfel i Lis artikel.
+7-1	316-319	Det	_	_	_	_	_	_	_	
+7-2	320-325	finns	_	_	_	false	2	_	_	
+7-3	326-330	dock	_	_	_	_	_	_	_	
+7-4	331-334	ett	_	Target[2]	7-8[9]	false[2]	2[2]	7-2[0_2]	_	
+7-5	335-340	antal	_	Target[2]	7-8[9]	false[2]	2[2]	_	_	
+7-6	341-347	sakfel	_	Target[2]	7-8[9]	false[2]	2[2]	_	_	
+7-7	348-349	i	_	Target[2]	7-8[9]	false[2]	2[2]	_	_	
+7-8	350-353	Lis	*[9]	_	_	_	_	_	_	
+7-9	354-361	artikel	*[9]	_	_	_	_	_	_	
+7-10	361-362	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	364-365	#	_	_	_	_	_	_	_	
+8-2	365-366	P	_	_	_	_	_	_	_	
+8-3	367-370	IMM	_	_	_	_	_	_	_	
+8-4	370-371	.	_	_	_	_	_	_	_	
+
+#Text=För det första ska en vårbudget inte betraktas som en helhetsbudget för kommande budgetperiod.
+9-1	373-376	För	_	_	_	_	_	_	_	
+9-2	377-380	det	_	_	_	_	_	_	_	
+9-3	381-387	första	_	_	_	_	_	_	_	
+9-4	388-391	ska	_	_	_	_	_	_	_	
+9-5	392-394	en	_	_	_	_	_	_	_	
+9-6	395-404	vårbudget	_	_	_	_	_	_	_	
+9-7	405-409	inte	_	_	_	_	_	_	_	
+9-8	410-419	betraktas	_	_	_	_	_	_	_	
+9-9	420-423	som	_	_	_	_	_	_	_	
+9-10	424-426	en	_	_	_	_	_	_	_	
+9-11	427-440	helhetsbudget	_	_	_	_	_	_	_	
+9-12	441-444	för	_	_	_	_	_	_	_	
+9-13	445-453	kommande	_	_	_	_	_	_	_	
+9-14	454-466	budgetperiod	_	_	_	_	_	_	_	
+9-15	466-467	.	_	_	_	_	_	_	_	
+
+#Text=Vårbudgeten har mer karaktär av inriktningsbudget.
+10-1	468-479	Vårbudgeten	_	_	_	_	_	_	_	
+10-2	480-483	har	_	_	_	_	_	_	_	
+10-3	484-487	mer	_	_	_	_	_	_	_	
+10-4	488-496	karaktär	_	_	_	_	_	_	_	
+10-5	497-499	av	_	_	_	_	_	_	_	
+10-6	500-517	inriktningsbudget	_	_	_	_	_	_	_	
+10-7	517-518	.	_	_	_	_	_	_	_	
+
+#Text=Det är först i höstbudgetdokumentet som partierna förväntas presentera en fullständig budget.
+11-1	519-522	Det	_	_	_	_	_	_	_	
+11-2	523-525	är	_	_	_	_	_	_	_	
+11-3	526-531	först	_	_	_	_	_	_	_	
+11-4	532-533	i	_	_	_	_	_	_	_	
+11-5	534-554	höstbudgetdokumentet	_	_	_	_	_	_	_	
+11-6	555-558	som	_	_	_	_	_	_	_	
+11-7	559-568	partierna	_	_	_	_	_	_	_	
+11-8	569-578	förväntas	_	_	_	_	_	_	_	
+11-9	579-589	presentera	_	_	_	_	_	_	_	
+11-10	590-592	en	_	_	_	_	_	_	_	
+11-11	593-604	fullständig	_	_	_	_	_	_	_	
+11-12	605-611	budget	_	_	_	_	_	_	_	
+11-13	611-612	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	614-615	#	_	_	_	_	_	_	_	
+12-2	615-616	P	_	_	_	_	_	_	_	
+12-3	617-620	IMM	_	_	_	_	_	_	_	
+12-4	620-621	.	_	_	_	_	_	_	_	
+
+#Text=I Sverigedemokraternas senaste höstbudget avsattes ett helt kapitel till att beskriva just de berörda besparingsområdena, vilket står att läsa i budgeten som finns tillgänglig på partiets hemsida.
+13-1	623-624	I	_	_	_	_	_	_	_	
+13-2	625-645	Sverigedemokraternas	_	_	_	_	_	_	_	
+13-3	646-653	senaste	_	_	_	_	_	_	_	
+13-4	654-664	höstbudget	_	_	_	_	_	_	_	
+13-5	665-673	avsattes	_	_	_	_	_	_	_	
+13-6	674-677	ett	_	_	_	_	_	_	_	
+13-7	678-682	helt	_	_	_	_	_	_	_	
+13-8	683-690	kapitel	_	_	_	_	_	_	_	
+13-9	691-695	till	_	_	_	_	_	_	_	
+13-10	696-699	att	_	_	_	_	_	_	_	
+13-11	700-708	beskriva	_	_	_	_	_	_	_	
+13-12	709-713	just	_	_	_	_	_	_	_	
+13-13	714-716	de	_	_	_	_	_	_	_	
+13-14	717-724	berörda	_	_	_	_	_	_	_	
+13-15	725-743	besparingsområdena	_	_	_	_	_	_	_	
+13-16	743-744	,	_	_	_	_	_	_	_	
+13-17	745-751	vilket	_	_	_	_	_	_	_	
+13-18	752-756	står	_	_	_	_	_	_	_	
+13-19	757-760	att	_	_	_	_	_	_	_	
+13-20	761-765	läsa	_	_	_	_	_	_	_	
+13-21	766-767	i	_	_	_	_	_	_	_	
+13-22	768-776	budgeten	_	_	_	_	_	_	_	
+13-23	777-780	som	_	_	_	_	_	_	_	
+13-24	781-786	finns	_	_	_	_	_	_	_	
+13-25	787-798	tillgänglig	_	_	_	_	_	_	_	
+13-26	799-801	på	_	_	_	_	_	_	_	
+13-27	802-810	partiets	_	_	_	_	_	_	_	
+13-28	811-818	hemsida	_	_	_	_	_	_	_	
+13-29	818-819	.	_	_	_	_	_	_	_	
+
+#Text=I år är det dock valår och därför kommer vi att presentera vår finansiering i anslutning till valmanifestet, i god tid före valet.
+14-1	820-821	I	_	_	_	_	_	_	_	
+14-2	822-824	år	_	_	_	_	_	_	_	
+14-3	825-827	är	_	_	_	_	_	_	_	
+14-4	828-831	det	_	_	_	_	_	_	_	
+14-5	832-836	dock	_	_	_	_	_	_	_	
+14-6	837-842	valår	_	_	_	_	_	_	_	
+14-7	843-846	och	_	_	_	_	_	_	_	
+14-8	847-853	därför	_	_	_	_	_	_	_	
+14-9	854-860	kommer	_	_	_	_	_	_	_	
+14-10	861-863	vi	_	_	_	_	_	_	_	
+14-11	864-867	att	_	_	_	_	_	_	_	
+14-12	868-878	presentera	_	_	_	_	_	_	_	
+14-13	879-882	vår	_	_	_	_	_	_	_	
+14-14	883-895	finansiering	_	_	_	_	_	_	_	
+14-15	896-897	i	_	_	_	_	_	_	_	
+14-16	898-908	anslutning	_	_	_	_	_	_	_	
+14-17	909-913	till	_	_	_	_	_	_	_	
+14-18	914-927	valmanifestet	_	_	_	_	_	_	_	
+14-19	927-928	,	_	_	_	_	_	_	_	
+14-20	929-930	i	_	_	_	_	_	_	_	
+14-21	931-934	god	_	_	_	_	_	_	_	
+14-22	935-938	tid	_	_	_	_	_	_	_	
+14-23	939-943	före	_	_	_	_	_	_	_	
+14-24	944-949	valet	_	_	_	_	_	_	_	
+14-25	949-950	.	_	_	_	_	_	_	_	
+
+#Text=Detta är alltså inget konstigt eller ovanligt.
+15-1	951-956	Detta	*	_	_	_	_	_	_	
+15-2	957-959	är	_	_	_	false	4	15-4[3_0]	_	
+15-3	960-966	alltså	_	_	_	_	_	_	_	
+15-4	967-972	inget	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-5	973-981	konstigt	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-6	982-987	eller	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-7	988-996	ovanligt	_	Target[3]	15-1	false[3]	4[3]	_	_	
+15-8	996-997	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	999-1000	#	_	_	_	_	_	_	_	
+16-2	1000-1001	P	_	_	_	_	_	_	_	
+16-3	1002-1005	IMM	_	_	_	_	_	_	_	
+16-4	1005-1006	.	_	_	_	_	_	_	_	
+
+#Text=Li Jansson vill göra gällande att partiets antagande om att utrikes födda har en generell överrepresentation kring nyttjande av olika välfärdstjänster inte har någon grund i forskningen.
+17-1	1008-1010	Li	*[10]	_	_	_	_	_	_	
+17-2	1011-1018	Jansson	*[10]	_	_	_	_	_	_	
+17-3	1019-1023	vill	_	Source;Target[4]	17-1[10];17-6[11]	false[4]	4[4]	_	_	
+17-4	1024-1028	göra	_	Source;Target[4]	17-1[10];17-6[11]	false[4]	4[4]	_	_	
+17-5	1029-1037	gällande	_	Source;Target[4]	17-1[10];17-6[11]	false[4]	4[4]	_	_	
+17-6	1038-1041	att	*[11]	_	_	_	_	_	_	
+17-7	1042-1050	partiets	*[11]	_	_	_	_	_	_	
+17-8	1051-1060	antagande	*[11]	_	_	_	_	_	_	
+17-9	1061-1063	om	*[11]	_	_	_	_	_	_	
+17-10	1064-1067	att	*[11]	_	_	_	_	_	_	
+17-11	1068-1075	utrikes	*[11]	_	_	_	_	_	_	
+17-12	1076-1081	födda	*[11]	_	_	_	_	_	_	
+17-13	1082-1085	har	*[11]	_	_	_	_	_	_	
+17-14	1086-1088	en	*[11]	_	_	_	_	_	_	
+17-15	1089-1097	generell	*[11]	_	_	_	_	_	_	
+17-16	1098-1116	överrepresentation	*[11]	_	_	_	_	_	_	
+17-17	1117-1122	kring	*[11]	_	_	_	_	_	_	
+17-18	1123-1132	nyttjande	*[11]	_	_	_	_	_	_	
+17-19	1133-1135	av	*[11]	_	_	_	_	_	_	
+17-20	1136-1141	olika	*[11]	_	_	_	_	_	_	
+17-21	1142-1158	välfärdstjänster	*[11]	_	_	_	_	_	_	
+17-22	1159-1163	inte	*[11]	_	_	_	_	_	_	
+17-23	1164-1167	har	*[11]	_	_	_	_	_	_	
+17-24	1168-1173	någon	*[11]	_	_	_	_	_	_	
+17-25	1174-1179	grund	*[11]	_	_	_	_	_	_	
+17-26	1180-1181	i	*[11]	_	_	_	_	_	_	
+17-27	1182-1193	forskningen	*[11]	_	_	_	_	_	_	
+17-28	1193-1194	.	*[11]	_	_	_	_	_	_	
+
+#Text=Det har enbart grund i forskningen.
+18-1	1195-1198	Det	*	_	_	_	_	_	_	
+18-2	1199-1202	har	_	Target[5]	18-1	false[5]	4[5]	_	_	
+18-3	1203-1209	enbart	_	Target[5]	18-1	false[5]	4[5]	_	_	
+18-4	1210-1215	grund	_	Target[5]	18-1	false[5]	4[5]	_	_	
+18-5	1216-1217	i	_	Target[5]	18-1	false[5]	4[5]	_	_	
+18-6	1218-1229	forskningen	_	Target[5]	18-1	false[5]	4[5]	_	_	
+18-7	1229-1230	.	_	_	_	_	_	_	_	
+
+#Text=Det dokument vi offentliggjort i sammanhanget är en diger lunta sammanställd av utredningstjänsten, rikligt källbelagd med uppgifter från olika myndigheter.
+19-1	1231-1234	Det	_	_	_	_	_	_	_	
+19-2	1235-1243	dokument	_	_	_	_	_	_	_	
+19-3	1244-1246	vi	_	_	_	_	_	_	_	
+19-4	1247-1261	offentliggjort	_	_	_	_	_	_	_	
+19-5	1262-1263	i	_	_	_	_	_	_	_	
+19-6	1264-1276	sammanhanget	_	_	_	_	_	_	_	
+19-7	1277-1279	är	_	_	_	_	_	_	_	
+19-8	1280-1282	en	_	_	_	_	_	_	_	
+19-9	1283-1288	diger	_	_	_	_	_	_	_	
+19-10	1289-1294	lunta	_	_	_	_	_	_	_	
+19-11	1295-1307	sammanställd	_	_	_	_	_	_	_	
+19-12	1308-1310	av	_	_	_	_	_	_	_	
+19-13	1311-1329	utredningstjänsten	_	_	_	_	_	_	_	
+19-14	1329-1330	,	_	_	_	_	_	_	_	
+19-15	1331-1338	rikligt	_	_	_	_	_	_	_	
+19-16	1339-1349	källbelagd	_	_	_	_	_	_	_	
+19-17	1350-1353	med	_	_	_	_	_	_	_	
+19-18	1354-1363	uppgifter	_	_	_	_	_	_	_	
+19-19	1364-1368	från	_	_	_	_	_	_	_	
+19-20	1369-1374	olika	_	_	_	_	_	_	_	
+19-21	1375-1386	myndigheter	_	_	_	_	_	_	_	
+19-22	1386-1387	.	_	_	_	_	_	_	_	
+
+#Text=Det anmärkningsvärda är ju dock att Li Jansson väljer att helt bortse från denna kostnad.
+20-1	1388-1391	Det	_	_	_	_	_	_	_	
+20-2	1392-1408	anmärkningsvärda	_	_	_	_	_	_	_	
+20-3	1409-1411	är	_	_	_	_	_	_	_	
+20-4	1412-1414	ju	_	_	_	_	_	_	_	
+20-5	1415-1419	dock	_	_	_	_	_	_	_	
+20-6	1420-1423	att	_	_	_	_	_	_	_	
+20-7	1424-1426	Li	_	_	_	_	_	_	_	
+20-8	1427-1434	Jansson	_	_	_	_	_	_	_	
+20-9	1435-1441	väljer	_	_	_	_	_	_	_	
+20-10	1442-1445	att	_	_	_	_	_	_	_	
+20-11	1446-1450	helt	_	_	_	_	_	_	_	
+20-12	1451-1457	bortse	_	_	_	_	_	_	_	
+20-13	1458-1462	från	_	_	_	_	_	_	_	
+20-14	1463-1468	denna	_	_	_	_	_	_	_	
+20-15	1469-1476	kostnad	_	_	_	_	_	_	_	
+20-16	1476-1477	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1479-1480	#	_	_	_	_	_	_	_	
+21-2	1480-1481	P	_	_	_	_	_	_	_	
+21-3	1482-1485	IMM	_	_	_	_	_	_	_	
+21-4	1485-1486	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom påstår Li Jansson att vi inte räknar in de bidrag i form av skatter som sysselsatta utlandsfödda bidrar med, trots att vi i beräkningarna varit exceptionellt tydliga med att vi gör just detta.
+22-1	1488-1496	Dessutom	_	_	_	_	_	_	_	
+22-2	1497-1503	påstår	_	_	_	false	2	_	_	
+22-3	1504-1506	Li	*[12]	_	_	_	_	_	_	
+22-4	1507-1514	Jansson	*[12]	_	_	_	_	_	_	
+22-5	1515-1518	att	_	Target[6]	22-3[12]	false[6]	2[6]	22-2[0_6]	_	
+22-6	1519-1521	vi	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-7	1522-1526	inte	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-8	1527-1533	räknar	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-9	1534-1536	in	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-10	1537-1539	de	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-11	1540-1546	bidrag	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-12	1547-1548	i	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-13	1549-1553	form	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-14	1554-1556	av	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-15	1557-1564	skatter	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-16	1565-1568	som	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-17	1569-1580	sysselsatta	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-18	1581-1593	utlandsfödda	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-19	1594-1600	bidrar	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-20	1601-1604	med	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-21	1604-1605	,	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-22	1606-1611	trots	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-23	1612-1615	att	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-24	1616-1618	vi	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-25	1619-1620	i	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-26	1621-1634	beräkningarna	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-27	1635-1640	varit	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-28	1641-1654	exceptionellt	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-29	1655-1662	tydliga	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-30	1663-1666	med	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-31	1667-1670	att	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-32	1671-1673	vi	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-33	1674-1677	gör	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-34	1678-1682	just	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-35	1683-1688	detta	_	Target[6]	22-3[12]	false[6]	2[6]	_	_	
+22-36	1688-1689	.	_	_	_	_	_	_	_	
+
+#Text=Nyanlända utomeuropeiska invandrare har dock en mycket låg sysselsättning, bara knappt 38 %.
+23-1	1690-1699	Nyanlända	_	_	_	_	_	_	_	
+23-2	1700-1714	utomeuropeiska	_	_	_	_	_	_	_	
+23-3	1715-1725	invandrare	_	_	_	_	_	_	_	
+23-4	1726-1729	har	_	_	_	_	_	_	_	
+23-5	1730-1734	dock	_	_	_	_	_	_	_	
+23-6	1735-1737	en	_	_	_	_	_	_	_	
+23-7	1738-1744	mycket	_	_	_	_	_	_	_	
+23-8	1745-1748	låg	_	_	_	_	_	_	_	
+23-9	1749-1763	sysselsättning	_	_	_	_	_	_	_	
+23-10	1763-1764	,	_	_	_	_	_	_	_	
+23-11	1765-1769	bara	_	_	_	_	_	_	_	
+23-12	1770-1776	knappt	_	_	_	_	_	_	_	
+23-13	1777-1779	38	_	_	_	_	_	_	_	
+23-14	1780-1781	%	_	_	_	_	_	_	_	
+23-15	1781-1782	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1784-1785	#	_	_	_	_	_	_	_	
+24-2	1785-1786	P	_	_	_	_	_	_	_	
+24-3	1787-1790	IMM	_	_	_	_	_	_	_	
+24-4	1790-1791	.	_	_	_	_	_	_	_	
+
+#Text=Vidare hävdar Li Jansson att vår budget saknar jobbskapande reformer.
+25-1	1793-1799	Vidare	_	_	_	_	_	_	_	
+25-2	1800-1806	hävdar	_	_	_	_	_	_	_	
+25-3	1807-1809	Li	*[13]	_	_	_	_	_	_	
+25-4	1810-1817	Jansson	*[13]	_	_	_	_	_	_	
+25-5	1818-1821	att	_	_	_	_	_	_	_	
+25-6	1822-1825	vår	*[14]	_	_	_	_	_	_	
+25-7	1826-1832	budget	*[14]	_	_	_	_	_	_	
+25-8	1833-1839	saknar	_	Source;Target[7]	25-3[13];25-6[14]	false[7]	2[7]	_	_	
+25-9	1840-1852	jobbskapande	_	Source;Target[7]	25-3[13];25-6[14]	false[7]	2[7]	_	_	
+25-10	1853-1861	reformer	_	Source;Target[7]	25-3[13];25-6[14]	false[7]	2[7]	_	_	
+25-11	1861-1862	.	_	_	_	_	_	_	_	
+
+#Text=Detta kommer alltså veckor efter att vi presenterat en gigantisk reform för småföretagen i form av helt avskaffad allmän löneavgift för företag med upp till nio anställda.
+26-1	1863-1868	Detta	_	_	_	_	_	_	_	
+26-2	1869-1875	kommer	_	_	_	_	_	_	_	
+26-3	1876-1882	alltså	_	_	_	_	_	_	_	
+26-4	1883-1889	veckor	_	_	_	_	_	_	_	
+26-5	1890-1895	efter	_	_	_	_	_	_	_	
+26-6	1896-1899	att	_	_	_	_	_	_	_	
+26-7	1900-1902	vi	_	_	_	_	_	_	_	
+26-8	1903-1914	presenterat	_	_	_	_	_	_	_	
+26-9	1915-1917	en	*[15]	_	_	_	_	_	27-1[0_15]	
+26-10	1918-1927	gigantisk	*[15]	_	_	_	_	_	_	
+26-11	1928-1934	reform	*[15]	_	_	_	_	_	_	
+26-12	1935-1938	för	*[15]	_	_	_	_	_	_	
+26-13	1939-1951	småföretagen	*[15]	_	_	_	_	_	_	
+26-14	1952-1953	i	*[15]	_	_	_	_	_	_	
+26-15	1954-1958	form	*[15]	_	_	_	_	_	_	
+26-16	1959-1961	av	*[15]	_	_	_	_	_	_	
+26-17	1962-1966	helt	*[15]	_	_	_	_	_	_	
+26-18	1967-1976	avskaffad	*[15]	_	_	_	_	_	_	
+26-19	1977-1983	allmän	*[15]	_	_	_	_	_	_	
+26-20	1984-1994	löneavgift	*[15]	_	_	_	_	_	_	
+26-21	1995-1998	för	*[15]	_	_	_	_	_	_	
+26-22	1999-2006	företag	*[15]	_	_	_	_	_	_	
+26-23	2007-2010	med	*[15]	_	_	_	_	_	_	
+26-24	2011-2014	upp	*[15]	_	_	_	_	_	_	
+26-25	2015-2019	till	*[15]	_	_	_	_	_	_	
+26-26	2020-2023	nio	*[15]	_	_	_	_	_	_	
+26-27	2024-2033	anställda	*[15]	_	_	_	_	_	_	
+26-28	2033-2034	.	*[15]	_	_	_	_	_	_	
+
+#Text=Detta är också något som Sveriges största företagarorganisation efterfrågar och menar skulle skapa flertalet nya jobb.
+27-1	2035-2040	Detta	*	_	_	_	_	_	_	
+27-2	2041-2043	är	_	_	_	_	_	_	_	
+27-3	2044-2049	också	_	_	_	_	_	_	_	
+27-4	2050-2055	något	_	_	_	_	_	_	_	
+27-5	2056-2059	som	_	_	_	_	_	_	_	
+27-6	2060-2068	Sveriges	_	_	_	_	_	_	_	
+27-7	2069-2076	största	_	_	_	_	_	_	_	
+27-8	2077-2098	företagarorganisation	*	_	_	_	_	_	_	
+27-9	2099-2110	efterfrågar	_	Target;Source	27-1;27-8	false	4	_	_	
+27-10	2111-2114	och	_	_	_	_	_	_	_	
+27-11	2115-2120	menar	_	_	_	_	_	_	_	
+27-12	2121-2127	skulle	_	_	_	_	_	_	_	
+27-13	2128-2133	skapa	_	_	_	_	_	_	_	
+27-14	2134-2143	flertalet	_	_	_	_	_	_	_	
+27-15	2144-2147	nya	_	_	_	_	_	_	_	
+27-16	2148-2152	jobb	_	_	_	_	_	_	_	
+27-17	2152-2153	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2155-2156	#	_	_	_	_	_	_	_	
+28-2	2156-2157	P	_	_	_	_	_	_	_	
+28-3	2158-2161	IMM	_	_	_	_	_	_	_	
+28-4	2161-2162	.	_	_	_	_	_	_	_	
+
+#Text=Oscar Sjöstedt (SD).
+29-1	2164-2169	Oscar	_	_	_	_	_	_	_	
+29-2	2170-2178	Sjöstedt	_	_	_	_	_	_	_	
+29-3	2179-2180	(	_	_	_	_	_	_	_	
+29-4	2180-2182	SD	_	_	_	_	_	_	_	
+29-5	2182-2183	)	_	_	_	_	_	_	_	
+29-6	2183-2184	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2186-2187	#	_	_	_	_	_	_	_	
+30-2	2187-2188	P	_	_	_	_	_	_	_	
+30-3	2189-2192	IMM	_	_	_	_	_	_	_	
+30-4	2192-2193	.	_	_	_	_	_	_	_	
+
+#Text=Ekonomisk-politisk talesperson.
+31-1	2195-2213	Ekonomisk-politisk	_	_	_	_	_	_	_	
+31-2	2214-2225	talesperson	_	_	_	_	_	_	_	
+31-3	2225-2226	.	_	_	_	_	_	_	_	

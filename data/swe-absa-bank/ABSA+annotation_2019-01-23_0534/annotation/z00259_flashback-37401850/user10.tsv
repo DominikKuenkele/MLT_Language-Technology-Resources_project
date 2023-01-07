@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Är man rasist om man undviker blattar?
+3-1	18-20	Är	_	_	_	_	_	_	_	
+3-2	21-24	man	_	_	_	_	_	_	_	
+3-3	25-31	rasist	_	_	_	_	_	_	_	
+3-4	32-34	om	_	_	_	_	_	_	_	
+3-5	35-38	man	*	_	_	_	_	_	_	
+3-6	39-47	undviker	_	Target;Source	3-7;3-5	false	2	_	_	
+3-7	48-55	blattar	*	_	_	_	_	_	_	
+3-8	55-56	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	_	
+
+#Text=Jag tänkte på en sak, nu är ju jag iof rasist och jag kan motivera varför.
+5-1	67-70	Jag	_	_	_	_	_	_	_	
+5-2	71-77	tänkte	_	_	_	_	_	_	_	
+5-3	78-80	på	_	_	_	_	_	_	_	
+5-4	81-83	en	_	_	_	_	_	_	_	
+5-5	84-87	sak	_	_	_	_	_	_	_	
+5-6	87-88	,	_	_	_	_	_	_	_	
+5-7	89-91	nu	_	_	_	_	_	_	_	
+5-8	92-94	är	_	_	_	_	_	_	_	
+5-9	95-97	ju	_	_	_	_	_	_	_	
+5-10	98-101	jag	_	_	_	_	_	_	_	
+5-11	102-105	iof	_	_	_	_	_	_	_	
+5-12	106-112	rasist	_	_	_	_	_	_	_	
+5-13	113-116	och	_	_	_	_	_	_	_	
+5-14	117-120	jag	_	_	_	_	_	_	_	
+5-15	121-124	kan	_	_	_	_	_	_	_	
+5-16	125-133	motivera	_	_	_	_	_	_	_	
+5-17	134-140	varför	_	_	_	_	_	_	_	
+5-18	140-141	.	_	_	_	_	_	_	_	
+
+#Text=Men låt säga att man inte kallar sig rasist, eller rentav anti-rasist men man känner ändå obehag av att vara i närheten av blattar och undviker dem helst.
+6-1	142-145	Men	_	_	_	_	_	_	_	
+6-2	146-149	låt	_	_	_	_	_	_	_	
+6-3	150-154	säga	_	_	_	_	_	_	_	
+6-4	155-158	att	_	_	_	_	_	_	_	
+6-5	159-162	man	_	_	_	_	_	_	_	
+6-6	163-167	inte	_	_	_	_	_	_	_	
+6-7	168-174	kallar	_	_	_	_	_	_	_	
+6-8	175-178	sig	_	_	_	_	_	_	_	
+6-9	179-185	rasist	_	_	_	_	_	_	_	
+6-10	185-186	,	_	_	_	_	_	_	_	
+6-11	187-192	eller	_	_	_	_	_	_	_	
+6-12	193-199	rentav	_	_	_	_	_	_	_	
+6-13	200-211	anti-rasist	_	_	_	_	_	_	_	
+6-14	212-215	men	_	_	_	_	_	_	_	
+6-15	216-219	man	*	_	_	_	_	_	_	
+6-16	220-226	känner	_	_	_	false	1	_	_	
+6-17	227-231	ändå	_	_	_	_	_	_	_	
+6-18	232-238	obehag	_	Source;Target	6-15;6-19[6]	false	1	6-16	_	
+6-19	239-241	av	*[6]	_	_	_	_	_	_	
+6-20	242-245	att	*[6]	_	_	_	_	_	_	
+6-21	246-250	vara	*[6]	_	_	_	_	_	_	
+6-22	251-252	i	*[6]	_	_	_	_	_	_	
+6-23	253-261	närheten	*[6]	_	_	_	_	_	_	
+6-24	262-264	av	*[6]	_	_	_	_	_	_	
+6-25	265-272	blattar	*[6]	_	_	_	_	_	_	
+6-26	273-276	och	*[6]	_	_	_	_	_	_	
+6-27	277-285	undviker	*[6]	_	_	_	_	_	_	
+6-28	286-289	dem	*[6]	_	_	_	_	_	_	
+6-29	290-295	helst	*[6]	_	_	_	_	_	_	
+6-30	295-296	.	_	_	_	_	_	_	_	
+
+#Text=Jag är övertygad om att det finns mängder av dessa personer.
+7-1	297-300	Jag	*	_	_	_	_	_	_	
+7-2	301-303	är	_	Source;Target[1]	7-1;7-5[7]	false[1]	4[1]	_	_	
+7-3	304-313	övertygad	_	Source;Target[1]	7-1;7-5[7]	false[1]	4[1]	_	_	
+7-4	314-316	om	_	Source;Target[1]	7-1;7-5[7]	false[1]	4[1]	_	_	
+7-5	317-320	att	*[7]	_	_	_	_	_	_	
+7-6	321-324	det	*[7]	_	_	_	_	_	_	
+7-7	325-330	finns	*[7]	_	_	_	_	_	_	
+7-8	331-338	mängder	*[7]	_	_	_	_	_	_	
+7-9	339-341	av	*[7]	_	_	_	_	_	_	
+7-10	342-347	dessa	*[7]	_	_	_	_	_	_	
+7-11	348-356	personer	*[7]	_	_	_	_	_	_	
+7-12	356-357	.	_	_	_	_	_	_	_	
+
+#Text=Är inte de rasister då, vare sig de vill eller inte?
+8-1	358-360	Är	_	_	_	_	_	_	_	
+8-2	361-365	inte	_	_	_	_	_	_	_	
+8-3	366-368	de	_	_	_	_	_	_	_	
+8-4	369-377	rasister	_	_	_	_	_	_	_	
+8-5	378-380	då	_	_	_	_	_	_	_	
+8-6	380-381	,	_	_	_	_	_	_	_	
+8-7	382-386	vare	_	_	_	_	_	_	_	
+8-8	387-390	sig	_	_	_	_	_	_	_	
+8-9	391-393	de	_	_	_	_	_	_	_	
+8-10	394-398	vill	_	_	_	_	_	_	_	
+8-11	399-404	eller	_	_	_	_	_	_	_	
+8-12	405-409	inte	_	_	_	_	_	_	_	
+8-13	409-410	?	_	_	_	_	_	_	_	
+
+#Text=Handlingar talar ju högre än ord.
+9-1	411-421	Handlingar	_	_[2]	_	false[2]	3[2]	_	_	
+9-2	422-427	talar	_	_[2]	_	false[2]	3[2]	_	_	
+9-3	428-430	ju	_	_[2]	_	false[2]	3[2]	_	_	
+9-4	431-436	högre	_	_[2]	_	false[2]	3[2]	_	_	
+9-5	437-439	än	_	_[2]	_	false[2]	3[2]	_	_	
+9-6	440-443	ord	_	_[2]	_	false[2]	3[2]	_	_	
+9-7	443-444	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	446-447	#	_	_	_	_	_	_	_	
+10-2	447-448	P	_	_	_	_	_	_	_	
+10-3	449-452	IMM	_	_	_	false	1	_	_	
+10-4	452-453	.	_	_	_	_	_	_	_	
+
+#Text=Jan Helin tex (aftonbladets) ser det ju som helt i sin ordning att man umgås och bor med de man liknar.
+11-1	455-458	Jan	*[8]	_	_	_	_	_	_	
+11-2	459-464	Helin	*[8]	_	_	_	_	_	_	
+11-3	465-468	tex	_	_	_	_	_	_	_	
+11-4	469-470	(	_	_	_	_	_	_	_	
+11-5	470-482	aftonbladets	_	_	_	_	_	_	_	
+11-6	482-483	)	_	_	_	_	_	_	_	
+11-7	484-487	ser	_	_[3]	_	false[3]	4[3]	_	_	
+11-8	488-491	det	_	_[3]	_	false[3]	4[3]	_	_	
+11-9	492-494	ju	_	_	_	_	_	_	_	
+11-10	495-498	som	_	Target;Source[4]	11-15[9];11-1[8]	false[4]	4[4]	11-7[3_4]	_	
+11-11	499-503	helt	_	Target;Source[4]	11-15[9];11-1[8]	false[4]	4[4]	_	_	
+11-12	504-505	i	_	Target;Source[4]	11-15[9];11-1[8]	false[4]	4[4]	_	_	
+11-13	506-509	sin	_	Target;Source[4]	11-15[9];11-1[8]	false[4]	4[4]	_	_	
+11-14	510-517	ordning	_	Target;Source[4]	11-15[9];11-1[8]	false[4]	4[4]	_	_	
+11-15	518-521	att	*[9]	_	_	_	_	_	_	
+11-16	522-525	man	*[9]	_	_	_	_	_	_	
+11-17	526-531	umgås	*[9]	_	_	_	_	_	_	
+11-18	532-535	och	*[9]	_	_	_	_	_	_	
+11-19	536-539	bor	*[9]	_	_	_	_	_	_	
+11-20	540-543	med	*[9]	_	_	_	_	_	_	
+11-21	544-546	de	*[9]	_	_	_	_	_	_	
+11-22	547-550	man	*[9]	_	_	_	_	_	_	
+11-23	551-557	liknar	*[9]	_	_	_	_	_	_	
+11-24	557-558	.	_	_	_	_	_	_	_	
+
+#Text=Men det innebär ju att man inte umgås och inte bor med de man inte liknar (iaf inte i samma utsträckning).
+12-1	559-562	Men	_	_	_	_	_	_	_	
+12-2	563-566	det	_	_	_	_	_	_	_	
+12-3	567-574	innebär	_	_	_	_	_	_	_	
+12-4	575-577	ju	_	_	_	_	_	_	_	
+12-5	578-581	att	_	_	_	_	_	_	_	
+12-6	582-585	man	_	_	_	_	_	_	_	
+12-7	586-590	inte	_	_	_	_	_	_	_	
+12-8	591-596	umgås	_	_	_	_	_	_	_	
+12-9	597-600	och	_	_	_	_	_	_	_	
+12-10	601-605	inte	_	_	_	_	_	_	_	
+12-11	606-609	bor	_	_	_	_	_	_	_	
+12-12	610-613	med	_	_	_	_	_	_	_	
+12-13	614-616	de	_	_	_	_	_	_	_	
+12-14	617-620	man	_	_	_	_	_	_	_	
+12-15	621-625	inte	_	_	_	_	_	_	_	
+12-16	626-632	liknar	_	_	_	_	_	_	_	
+12-17	633-634	(	_	_	_	_	_	_	_	
+12-18	634-637	iaf	_	_	_	_	_	_	_	
+12-19	638-642	inte	_	_	_	_	_	_	_	
+12-20	643-644	i	_	_	_	_	_	_	_	
+12-21	645-650	samma	_	_	_	_	_	_	_	
+12-22	651-663	utsträckning	_	_	_	_	_	_	_	
+12-23	663-664	)	_	_	_	_	_	_	_	
+12-24	664-665	.	_	_	_	_	_	_	_	
+
+#Text=Det är som att säga ja, segregation är bra.
+13-1	666-669	Det	_	_	_	_	_	_	_	
+13-2	670-672	är	_	_	_	_	_	_	_	
+13-3	673-676	som	_	_	_	_	_	_	_	
+13-4	677-680	att	_	_	_	_	_	_	_	
+13-5	681-685	säga	_	_	_	_	_	_	_	
+13-6	686-688	ja	_	_	_	_	_	_	_	
+13-7	688-689	,	_	_	_	_	_	_	_	
+13-8	690-701	segregation	*[10]|*[11]	_	_	_	_	_	14-6[0_10]	
+13-9	702-704	är	*[10]	Target;Source[5]	13-8[11];13-11	false[5]	4[5]	_	_	
+13-10	705-708	bra	*[10]	Target;Source[5]	13-8[11];13-11	false[5]	4[5]	_	_	
+13-11	708-709	.	*	_	_	_	_	_	_	
+
+#Text=Nu tycker ju jag också det, men jag förstår inte hur man får ihop segregation med öppna gränser.
+14-1	710-712	Nu	_	_	_	_	_	_	_	
+14-2	713-719	tycker	_	Source;Target	14-4;14-6	false	3	_	_	
+14-3	720-722	ju	_	_	_	_	_	_	_	
+14-4	723-726	jag	*	_	_	_	_	_	_	
+14-5	727-732	också	_	_	_	_	_	_	_	
+14-6	733-736	det	*	_	_	_	_	_	_	
+14-7	736-737	,	_	_	_	_	_	_	_	
+14-8	738-741	men	_	_	_	_	_	_	_	
+14-9	742-745	jag	_	_	_	_	_	_	_	
+14-10	746-753	förstår	_	_	_	_	_	_	_	
+14-11	754-758	inte	_	_	_	_	_	_	_	
+14-12	759-762	hur	_	_	_	_	_	_	_	
+14-13	763-766	man	_	_	_	_	_	_	_	
+14-14	767-770	får	_	_	_	_	_	_	_	
+14-15	771-775	ihop	_	_	_	_	_	_	_	
+14-16	776-787	segregation	_	_	_	_	_	_	_	
+14-17	788-791	med	_	_	_	_	_	_	_	
+14-18	792-797	öppna	_	_	_	_	_	_	_	
+14-19	798-805	gränser	_	_	_	_	_	_	_	
+14-20	805-806	.	_	_	_	_	_	_	_	

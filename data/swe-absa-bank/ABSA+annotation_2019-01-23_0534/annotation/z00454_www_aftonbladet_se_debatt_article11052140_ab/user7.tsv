@@ -1,0 +1,329 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tjejerna har rätt om skolbalen.
+3-1	18-26	Tjejerna	*	_	_	_	_	_	6-3	
+3-2	27-30	har	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-3	31-35	rätt	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-4	36-38	om	_	_	_	_	_	_	_	
+3-5	39-48	skolbalen	_	_	_	_	_	_	_	
+3-6	48-49	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	51-52	#	_	_	_	_	_	_	_	
+4-2	52-53	P	_	_	_	_	_	_	_	
+4-3	54-57	IMM	_	_	_	_	_	_	_	
+4-4	57-58	.	_	_	_	_	_	_	_	
+
+#Text=Tjejerna som (3 februari) klagar över att ha blivit ”bestulna” på sin efterlängtade skolbal vid slutet av åk 9 och sin årliga skidutflykt tycks mig ha alldeles rätt.
+5-1	60-68	Tjejerna	*[12]|*[13]	_	_	_	_	_	_	
+5-2	69-72	som	*[12]|*[13]	_	_	_	_	_	_	
+5-3	73-74	(	*[12]	_	_	_	_	_	_	
+5-4	74-75	3	*[12]	_	_	_	_	_	_	
+5-5	76-84	februari	*[12]	_	_	_	_	_	_	
+5-6	84-85	)	*[12]	_	_	_	_	_	_	
+5-7	86-92	klagar	*[12]	Target;Source[2]	5-9[14];5-1[13]	false[2]	2[2]	_	_	
+5-8	93-97	över	*[12]	Target;Source[2]	5-9[14];5-1[13]	false[2]	2[2]	_	_	
+5-9	98-101	att	*[12]|*[14]	_	_	_	_	_	_	
+5-10	102-104	ha	*[12]|*[14]	_	_	_	_	_	_	
+5-11	105-111	blivit	*[12]|*[14]	_	_	_	_	_	_	
+5-12	112-113	”	*[12]|*[14]	_	_	_	_	_	_	
+5-13	113-121	bestulna	*[12]|*[14]	_	_	_	_	_	_	
+5-14	121-122	”	*[12]|*[14]	_	_	_	_	_	_	
+5-15	123-125	på	*[12]|*[14]	_	_	_	_	_	_	
+5-16	126-129	sin	*[12]|*[14]	_	_	_	_	_	_	
+5-17	130-143	efterlängtade	*[12]|*[14]	Target;Source	5-18[15];5-1[13]	false	5	_	_	
+5-18	144-151	skolbal	*[12]|*[14]|*[15]	_	_	_	_	_	_	
+5-19	152-155	vid	*[12]|*[14]	_	_	_	_	_	_	
+5-20	156-162	slutet	*[12]|*[14]	_	_	_	_	_	_	
+5-21	163-165	av	*[12]|*[14]	_	_	_	_	_	_	
+5-22	166-168	åk	*[12]|*[14]	_	_	_	_	_	_	
+5-23	169-170	9	*[12]|*[14]	_	_	_	_	_	_	
+5-24	171-174	och	*[12]|*[14]	_	_	_	_	_	_	
+5-25	175-178	sin	*[12]|*[14]	_	_	_	_	_	_	
+5-26	179-185	årliga	*[12]|*[14]	_	_	_	_	_	_	
+5-27	186-197	skidutflykt	*[12]|*[14]	_	_	_	_	_	_	
+5-28	198-203	tycks	_	Target[3]	5-1[12]	false[3]	5[3]	_	_	
+5-29	204-207	mig	_	Target[3]	5-1[12]	false[3]	5[3]	_	_	
+5-30	208-210	ha	_	Target[3]	5-1[12]	false[3]	5[3]	_	_	
+5-31	211-219	alldeles	_	Target[3]	5-1[12]	false[3]	5[3]	_	_	
+5-32	220-224	rätt	_	Target[3]	5-1[12]	false[3]	5[3]	_	_	
+5-33	224-225	.	_	_	_	_	_	_	_	
+
+#Text=Samma gäller deras kritik av att deras protestlista nonchalerats, inte ens bemötts av de rektorer eller andra ansvariga eller att de inte har en aning om vart deras på fritidsgården insamlade pengar har gått.
+6-1	226-231	Samma	_	_	_	_	_	_	_	
+6-2	232-238	gäller	_	_	_	_	_	_	_	
+6-3	239-244	deras	*	_	_	_	_	_	_	
+6-4	245-251	kritik	_	Target;Source[4]	6-6[16];6-3	false[4]	2[4]	_	_	
+6-5	252-254	av	_	Target;Source[4]	6-6[16];6-3	false[4]	2[4]	_	_	
+6-6	255-258	att	*[16]	_	_	_	_	_	_	
+6-7	259-264	deras	*[16]|*[17]	_	_	_	_	_	_	
+6-8	265-277	protestlista	*[16]|*[17]	_	_	_	_	_	_	
+6-9	278-290	nonchalerats	*[16]	Target;Source	6-7[17];6-15[18]	false	2	_	_	
+6-10	290-291	,	*[16]	_	_	_	_	_	_	
+6-11	292-296	inte	*[16]	Target;Source[5]	6-7[17];6-15[18]	false[5]	2[5]	_	_	
+6-12	297-300	ens	*[16]	Target;Source[5]	6-7[17];6-15[18]	false[5]	2[5]	_	_	
+6-13	301-308	bemötts	*[16]	Target;Source[5]	6-7[17];6-15[18]	false[5]	2[5]	_	_	
+6-14	309-311	av	*[16]	_	_	_	_	_	_	
+6-15	312-314	de	*[16]|*[18]	_	_	_	_	_	_	
+6-16	315-323	rektorer	*[16]|*[18]	_	_	_	_	_	_	
+6-17	324-329	eller	*[16]|*[18]	_	_	_	_	_	_	
+6-18	330-335	andra	*[16]|*[18]	_	_	_	_	_	_	
+6-19	336-345	ansvariga	*[16]|*[18]	_	_	_	_	_	_	
+6-20	346-351	eller	_	_	_	_	_	_	_	
+6-21	352-355	att	_	_	_	_	_	_	_	
+6-22	356-358	de	_	_	_	_	_	_	_	
+6-23	359-363	inte	_	_	_	_	_	_	_	
+6-24	364-367	har	_	_	_	_	_	_	_	
+6-25	368-370	en	_	_	_	_	_	_	_	
+6-26	371-376	aning	_	_	_	_	_	_	_	
+6-27	377-379	om	_	_	_	_	_	_	_	
+6-28	380-384	vart	_	_	_	_	_	_	_	
+6-29	385-390	deras	_	_	_	_	_	_	_	
+6-30	391-393	på	_	_	_	_	_	_	_	
+6-31	394-407	fritidsgården	_	_	_	_	_	_	_	
+6-32	408-417	insamlade	_	_	_	_	_	_	_	
+6-33	418-424	pengar	_	_	_	_	_	_	_	
+6-34	425-428	har	_	_	_	_	_	_	_	
+6-35	429-433	gått	_	_	_	_	_	_	_	
+6-36	433-434	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	436-437	#	_	_	_	_	_	_	_	
+7-2	437-438	P	_	_	_	_	_	_	_	
+7-3	439-442	IMM	_	_	_	_	_	_	_	
+7-4	442-443	.	_	_	_	_	_	_	_	
+
+#Text=Saken kan mycket väl vara något för JO med kritiska synpunkter för detta odemokratiska och auktoritära beteende mot eleverna från skolledningens sida.
+8-1	445-450	Saken	_	_	_	_	_	_	_	
+8-2	451-454	kan	_	_	_	_	_	_	_	
+8-3	455-461	mycket	_	_	_	_	_	_	_	
+8-4	462-465	väl	_	_	_	_	_	_	_	
+8-5	466-470	vara	_	_	_	_	_	_	_	
+8-6	471-476	något	_	_	_	_	_	_	_	
+8-7	477-480	för	_	_	_	_	_	_	_	
+8-8	481-483	JO	_	_	_	_	_	_	_	
+8-9	484-487	med	_	_	_	_	_	_	_	
+8-10	488-496	kritiska	_	_	_	_	_	_	_	
+8-11	497-507	synpunkter	_	_	_	_	_	_	_	
+8-12	508-511	för	_	_	_	_	_	_	_	
+8-13	512-517	detta	_	_	_	_	_	_	_	
+8-14	518-531	odemokratiska	_	Target[6]|Target[7]	8-21[19]|8-17	false[6]|false[7]	2[6]|2[7]	_	_	
+8-15	532-535	och	_	Target[6]	8-21[19]	false[6]	2[6]	_	_	
+8-16	536-547	auktoritära	_	Target[6]|Target[8]	8-21[19]|8-17	false[6]|false[8]	2[6]|2[8]	_	_	
+8-17	548-556	beteende	*	Target[6]	8-21[19]	false[6]	2[6]	_	_	
+8-18	557-560	mot	_	_	_	_	_	_	_	
+8-19	561-569	eleverna	_	_	_	_	_	_	_	
+8-20	570-574	från	_	_	_	_	_	_	_	
+8-21	575-589	skolledningens	*[19]	_	_	_	_	_	_	
+8-22	590-594	sida	*[19]	_	_	_	_	_	_	
+8-23	594-595	.	_	_	_	_	_	_	_	
+
+#Text=Vad pengarna beträffar är det mycket angeläget att få utrett vart de tagit vägen – det vore skönt att få veta om eventuellt brottsligt förfarande ligger bakom deras försvinnande.
+9-1	596-599	Vad	_	_	_	_	_	_	_	
+9-2	600-608	pengarna	_	_	_	_	_	_	_	
+9-3	609-618	beträffar	_	_	_	_	_	_	_	
+9-4	619-621	är	_	_	_	false	5	_	_	
+9-5	622-625	det	_	_	_	_	_	_	_	
+9-6	626-632	mycket	_	Target[9]	9-8[20]	false[9]	5[9]	9-4[0_9]	_	
+9-7	633-642	angeläget	_	Target[9]	9-8[20]	false[9]	5[9]	_	_	
+9-8	643-646	att	*[20]	_	_	_	_	_	_	
+9-9	647-649	få	*[20]	_	_	_	_	_	_	
+9-10	650-656	utrett	*[20]	_	_	_	_	_	_	
+9-11	657-661	vart	*[20]	_	_	_	_	_	_	
+9-12	662-664	de	*[20]	_	_	_	_	_	_	
+9-13	665-670	tagit	*[20]	_	_	_	_	_	_	
+9-14	671-676	vägen	*[20]	_	_	_	_	_	_	
+9-15	677-678	–	_	_	_	_	_	_	_	
+9-16	679-682	det	_	_	_	_	_	_	_	
+9-17	683-687	vore	_	Target[10]	9-19[21]	false[10]	4[10]	_	_	
+9-18	688-693	skönt	_	Target[10]	9-19[21]	false[10]	4[10]	_	_	
+9-19	694-697	att	*[21]	_	_	_	_	_	_	
+9-20	698-700	få	*[21]	_	_	_	_	_	_	
+9-21	701-705	veta	*[21]	_	_	_	_	_	_	
+9-22	706-708	om	*[21]	_	_	_	_	_	_	
+9-23	709-719	eventuellt	*[21]	_	_	_	_	_	_	
+9-24	720-730	brottsligt	*[21]	_	_	_	_	_	_	
+9-25	731-741	förfarande	*[21]	_	_	_	_	_	_	
+9-26	742-748	ligger	*[21]	_	_	_	_	_	_	
+9-27	749-754	bakom	*[21]	_	_	_	_	_	_	
+9-28	755-760	deras	*[21]	_	_	_	_	_	_	
+9-29	761-773	försvinnande	*[21]	_	_	_	_	_	_	
+9-30	773-774	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	776-777	#	_	_	_	_	_	_	_	
+10-2	777-778	P	_	_	_	_	_	_	_	
+10-3	779-782	IMM	_	_	_	_	_	_	_	
+10-4	782-783	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte första gången elever klagat över den rigorösa ”fundamentalistiska” tillämpningen av bestämmelsen om att skolan ska vara kostnadsfri.
+11-1	785-788	Det	_	_	_	_	_	_	_	
+11-2	789-791	är	_	_	_	_	_	_	_	
+11-3	792-796	inte	_	_	_	_	_	_	_	
+11-4	797-803	första	_	_	_	_	_	_	_	
+11-5	804-810	gången	_	_	_	_	_	_	_	
+11-6	811-817	elever	_	_	_	_	_	_	_	
+11-7	818-824	klagat	_	_	_	_	_	_	_	
+11-8	825-829	över	_	_	_	_	_	_	_	
+11-9	830-833	den	_	_	_	_	_	_	_	
+11-10	834-842	rigorösa	_	_	_	_	_	_	_	
+11-11	843-844	”	_	_	_	_	_	_	_	
+11-12	844-862	fundamentalistiska	_	Target	11-14	false	2	_	_	
+11-13	862-863	”	_	_	_	_	_	_	_	
+11-14	864-877	tillämpningen	*	_	_	_	_	_	_	
+11-15	878-880	av	_	_	_	_	_	_	_	
+11-16	881-893	bestämmelsen	_	_	_	_	_	_	_	
+11-17	894-896	om	_	_	_	_	_	_	_	
+11-18	897-900	att	_	_	_	_	_	_	_	
+11-19	901-907	skolan	_	_	_	_	_	_	_	
+11-20	908-911	ska	_	_	_	_	_	_	_	
+11-21	912-916	vara	_	_	_	_	_	_	_	
+11-22	917-928	kostnadsfri	_	_	_	_	_	_	_	
+11-23	928-929	.	_	_	_	_	_	_	_	
+
+#Text=Jag vill fråga skolministern majoren Björklund om han inte snabbt som ögat vill ryta till och helst i expressfart driva igenom en lagändring som möjliggör för till exempel elevrådet i en skola att (gärna med bekräftelse av en folkomröstning bland eleverna) se till att sådana populära saker som skolbalen och skidresan i Upplands Väsby i demokratisk ordning kan få fungera.
+12-1	930-933	Jag	_	_	_	_	_	_	_	
+12-2	934-938	vill	_	_	_	_	_	_	_	
+12-3	939-944	fråga	_	_	_	_	_	_	_	
+12-4	945-958	skolministern	_	_	_	_	_	_	_	
+12-5	959-966	majoren	_	_	_	_	_	_	_	
+12-6	967-976	Björklund	_	_	_	_	_	_	_	
+12-7	977-979	om	_	_	_	_	_	_	_	
+12-8	980-983	han	_	_	_	_	_	_	_	
+12-9	984-988	inte	_	_	_	_	_	_	_	
+12-10	989-995	snabbt	_	_	_	_	_	_	_	
+12-11	996-999	som	_	_	_	_	_	_	_	
+12-12	1000-1004	ögat	_	_	_	_	_	_	_	
+12-13	1005-1009	vill	_	_	_	_	_	_	_	
+12-14	1010-1014	ryta	_	_	_	_	_	_	_	
+12-15	1015-1019	till	_	_	_	_	_	_	_	
+12-16	1020-1023	och	_	_	_	_	_	_	_	
+12-17	1024-1029	helst	_	_	_	_	_	_	_	
+12-18	1030-1031	i	_	_	_	_	_	_	_	
+12-19	1032-1043	expressfart	_	_	_	_	_	_	_	
+12-20	1044-1049	driva	_	_	_	_	_	_	_	
+12-21	1050-1056	igenom	_	_	_	_	_	_	_	
+12-22	1057-1059	en	_	_	_	_	_	_	_	
+12-23	1060-1070	lagändring	_	_	_	_	_	_	_	
+12-24	1071-1074	som	_	_	_	_	_	_	_	
+12-25	1075-1084	möjliggör	_	_	_	_	_	_	_	
+12-26	1085-1088	för	_	_	_	_	_	_	_	
+12-27	1089-1093	till	_	_	_	_	_	_	_	
+12-28	1094-1101	exempel	_	_	_	_	_	_	_	
+12-29	1102-1111	elevrådet	_	_	_	_	_	_	_	
+12-30	1112-1113	i	_	_	_	_	_	_	_	
+12-31	1114-1116	en	_	_	_	_	_	_	_	
+12-32	1117-1122	skola	_	_	_	_	_	_	_	
+12-33	1123-1126	att	_	_	_	_	_	_	_	
+12-34	1127-1128	(	_	_	_	_	_	_	_	
+12-35	1128-1133	gärna	_	Target	12-36[22]	false	2	_	_	
+12-36	1134-1137	med	*[22]	_	_	_	_	_	_	
+12-37	1138-1149	bekräftelse	*[22]	_	_	_	_	_	_	
+12-38	1150-1152	av	*[22]	_	_	_	_	_	_	
+12-39	1153-1155	en	*[22]	_	_	_	_	_	_	
+12-40	1156-1170	folkomröstning	*[22]	_	_	_	_	_	_	
+12-41	1171-1176	bland	*[22]	_	_	_	_	_	_	
+12-42	1177-1185	eleverna	*[22]	_	_	_	_	_	_	
+12-43	1185-1186	)	_	_	_	_	_	_	_	
+12-44	1187-1189	se	_	_	_	_	_	_	_	
+12-45	1190-1194	till	_	_	_	_	_	_	_	
+12-46	1195-1198	att	_	_	_	_	_	_	_	
+12-47	1199-1205	sådana	_	_	_	_	_	_	_	
+12-48	1206-1214	populära	_	_	_	_	_	_	_	
+12-49	1215-1220	saker	_	_	_	_	_	_	_	
+12-50	1221-1224	som	_	_	_	_	_	_	_	
+12-51	1225-1234	skolbalen	_	_	_	_	_	_	_	
+12-52	1235-1238	och	_	_	_	_	_	_	_	
+12-53	1239-1248	skidresan	_	_	_	_	_	_	_	
+12-54	1249-1250	i	_	_	_	_	_	_	_	
+12-55	1251-1259	Upplands	_	_	_	_	_	_	_	
+12-56	1260-1265	Väsby	_	_	_	_	_	_	_	
+12-57	1266-1267	i	_	_	_	_	_	_	_	
+12-58	1268-1279	demokratisk	_	_	_	_	_	_	_	
+12-59	1280-1287	ordning	_	_	_	_	_	_	_	
+12-60	1288-1291	kan	_	_	_	_	_	_	_	
+12-61	1292-1294	få	_	_	_	_	_	_	_	
+12-62	1295-1302	fungera	_	_	_	_	_	_	_	
+12-63	1302-1303	.	_	_	_	_	_	_	_	
+
+#Text=Om sedan snipiga rektorer eller kommunpolitiker känner sig överkörda och misshandlade av besluten har de två respektabla alternativ: antingen att finna sig i elevernas majoritetsvilja eller att lämna sina poster (om de finner att eleverna är ”omöjliga”).
+13-1	1304-1306	Om	_	_	_	_	_	_	_	
+13-2	1307-1312	sedan	_	_	_	_	_	_	_	
+13-3	1313-1320	snipiga	_	_	_	_	_	_	_	
+13-4	1321-1329	rektorer	*[23]	_	_	_	_	_	_	
+13-5	1330-1335	eller	*[23]	_	_	_	_	_	_	
+13-6	1336-1351	kommunpolitiker	*[23]	_	_	_	_	_	_	
+13-7	1352-1358	känner	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-8	1359-1362	sig	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-9	1363-1372	överkörda	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-10	1373-1376	och	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-11	1377-1389	misshandlade	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-12	1390-1392	av	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-13	1393-1401	besluten	_	Source[11]	13-4[23]	false[11]	2[11]	_	_	
+13-14	1402-1405	har	_	_	_	_	_	_	_	
+13-15	1406-1408	de	_	_	_	_	_	_	_	
+13-16	1409-1412	två	_	_	_	_	_	_	_	
+13-17	1413-1424	respektabla	_	Target	13-18	false	4	_	_	
+13-18	1425-1435	alternativ	*	_	_	_	_	_	_	
+13-19	1435-1436	:	_	_	_	_	_	_	_	
+13-20	1437-1445	antingen	_	_	_	_	_	_	_	
+13-21	1446-1449	att	_	_	_	_	_	_	_	
+13-22	1450-1455	finna	_	_	_	_	_	_	_	
+13-23	1456-1459	sig	_	_	_	_	_	_	_	
+13-24	1460-1461	i	_	_	_	_	_	_	_	
+13-25	1462-1471	elevernas	_	_	_	_	_	_	_	
+13-26	1472-1487	majoritetsvilja	_	_	_	_	_	_	_	
+13-27	1488-1493	eller	_	_	_	_	_	_	_	
+13-28	1494-1497	att	_	_	_	_	_	_	_	
+13-29	1498-1503	lämna	_	_	_	_	_	_	_	
+13-30	1504-1508	sina	_	_	_	_	_	_	_	
+13-31	1509-1515	poster	_	_	_	_	_	_	_	
+13-32	1516-1517	(	_	_	_	_	_	_	_	
+13-33	1517-1519	om	_	_	_	_	_	_	_	
+13-34	1520-1522	de	_	_	_	_	_	_	_	
+13-35	1523-1529	finner	_	_	_	_	_	_	_	
+13-36	1530-1533	att	_	_	_	_	_	_	_	
+13-37	1534-1542	eleverna	_	_	_	_	_	_	_	
+13-38	1543-1545	är	_	_	_	_	_	_	_	
+13-39	1546-1547	”	_	_	_	_	_	_	_	
+13-40	1547-1555	omöjliga	_	_	_	_	_	_	_	
+13-41	1555-1556	”	_	_	_	_	_	_	_	
+13-42	1556-1557	)	_	_	_	_	_	_	_	
+13-43	1557-1558	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1560-1561	#	_	_	_	_	_	_	_	
+14-2	1561-1562	P	_	_	_	_	_	_	_	
+14-3	1563-1566	IMM	_	_	_	_	_	_	_	
+14-4	1566-1567	.	_	_	_	_	_	_	_	
+
+#Text=Alltså: skolministern, vad vill Du göra åt saken?.
+15-1	1569-1575	Alltså	_	_	_	_	_	_	_	
+15-2	1575-1576	:	_	_	_	_	_	_	_	
+15-3	1577-1590	skolministern	_	_	_	_	_	_	_	
+15-4	1590-1591	,	_	_	_	_	_	_	_	
+15-5	1592-1595	vad	_	_	_	_	_	_	_	
+15-6	1596-1600	vill	_	_	_	_	_	_	_	
+15-7	1601-1603	Du	_	_	_	_	_	_	_	
+15-8	1604-1608	göra	_	_	_	_	_	_	_	
+15-9	1609-1611	åt	_	_	_	_	_	_	_	
+15-10	1612-1617	saken	_	_	_	_	_	_	_	
+15-11	1617-1618	?	_	_	_	_	_	_	_	
+15-12	1618-1619	.	_	_	_	_	_	_	_	

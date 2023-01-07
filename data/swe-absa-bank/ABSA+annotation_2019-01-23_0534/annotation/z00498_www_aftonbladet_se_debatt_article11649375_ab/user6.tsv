@@ -1,0 +1,766 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vem bryter tystnaden?
+3-1	18-21	Vem	_	_	_	_	_	
+3-2	22-28	bryter	_	_	_	_	_	
+3-3	29-38	tystnaden	_	_	_	_	_	
+3-4	38-39	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	41-42	#	_	_	_	_	_	
+4-2	42-43	P	_	_	_	_	_	
+4-3	44-47	IMM	_	_	_	_	_	
+4-4	47-48	.	_	_	_	_	_	
+
+#Text=När ministern i tv-intervjun inte har någon aning om vad hon har ställt till med, så är det kanske sant.
+5-1	50-53	När	_	_	_	_	_	
+5-2	54-63	ministern	*[21]	_	_	_	_	
+5-3	64-65	i	*[21]	_	_	_	_	
+5-4	66-78	tv-intervjun	*[21]	_	_	_	_	
+5-5	79-83	inte	_	Target[1]	5-2[21]	false[1]	2[1]	
+5-6	84-87	har	_	Target[1]	5-2[21]	false[1]	2[1]	
+5-7	88-93	någon	_	Target[1]	5-2[21]	false[1]	2[1]	
+5-8	94-99	aning	_	Target[1]	5-2[21]	false[1]	2[1]	
+5-9	100-102	om	_	_	_	_	_	
+5-10	103-106	vad	_	_	_	_	_	
+5-11	107-110	hon	_	_	_	_	_	
+5-12	111-114	har	_	_	_	_	_	
+5-13	115-121	ställt	_	_	_	_	_	
+5-14	122-126	till	_	_	_	_	_	
+5-15	127-130	med	_	_	_	_	_	
+5-16	130-131	,	_	_	_	_	_	
+5-17	132-134	så	_	_	_	_	_	
+5-18	135-137	är	_	_	_	_	_	
+5-19	138-141	det	_	_	_	_	_	
+5-20	142-148	kanske	_	_	_	_	_	
+5-21	149-153	sant	_	_	_	_	_	
+5-22	153-154	.	_	_	_	_	_	
+
+#Text=När Försäkringskassans generaldirektör Curt Malmborg diskret valde det väl vadderade silkessnöret, så är det kanske sant att det var hans eget val.
+6-1	155-158	När	_	_	_	_	_	
+6-2	159-177	Försäkringskassans	*[22]	_	_	_	_	
+6-3	178-193	generaldirektör	*[22]	_	_	_	_	
+6-4	194-198	Curt	*[22]	_	_	_	_	
+6-5	199-207	Malmborg	*[22]	_	_	_	_	
+6-6	208-215	diskret	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-7	216-221	valde	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-8	222-225	det	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-9	226-229	väl	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-10	230-239	vadderade	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-11	240-252	silkessnöret	_	Target[2]	6-2[22]	false[2]	2[2]	
+6-12	252-253	,	_	_	_	_	_	
+6-13	254-256	så	_	_	_	_	_	
+6-14	257-259	är	_	_	_	_	_	
+6-15	260-263	det	_	_	_	_	_	
+6-16	264-270	kanske	_	_	_	_	_	
+6-17	271-275	sant	_	_	_	_	_	
+6-18	276-279	att	_	_	_	_	_	
+6-19	280-283	det	_	_	_	_	_	
+6-20	284-287	var	_	_	_	_	_	
+6-21	288-292	hans	_	_	_	_	_	
+6-22	293-297	eget	_	_	_	_	_	
+6-23	298-301	val	_	_	_	_	_	
+6-24	301-302	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	304-305	#	_	_	_	_	_	
+7-2	305-306	P	_	_	_	_	_	
+7-3	307-310	IMM	_	_	_	_	_	
+7-4	310-311	.	_	_	_	_	_	
+
+#Text=När de dåvarande generaldirektörerna för Försäkringskassan, Arbetsförmedlingen och Skatteverket började iscensätta exakt likadana organisationsstrukturer inom sina fögderier, så var de kanske övertygade om att man skapade något som skulle underlätta för personalen att utföra ett arbete värt att belönas med respekt och uppskattning från de medborgare som är deras yttersta uppdragsgivare.
+8-1	313-316	När	_	_	_	_	_	
+8-2	317-319	de	_	_	_	_	_	
+8-3	320-329	dåvarande	_	_	_	_	_	
+8-4	330-349	generaldirektörerna	_	_	_	_	_	
+8-5	350-353	för	_	_	_	_	_	
+8-6	354-371	Försäkringskassan	_	_	_	_	_	
+8-7	371-372	,	_	_	_	_	_	
+8-8	373-391	Arbetsförmedlingen	_	_	_	_	_	
+8-9	392-395	och	_	_	_	_	_	
+8-10	396-408	Skatteverket	_	_	_	_	_	
+8-11	409-416	började	_	_	_	_	_	
+8-12	417-427	iscensätta	_	_	_	_	_	
+8-13	428-433	exakt	_	_	_	_	_	
+8-14	434-442	likadana	_	_	_	_	_	
+8-15	443-466	organisationsstrukturer	_	_	_	_	_	
+8-16	467-471	inom	_	_	_	_	_	
+8-17	472-476	sina	_	_	_	_	_	
+8-18	477-486	fögderier	_	_	_	_	_	
+8-19	486-487	,	_	_	_	_	_	
+8-20	488-490	så	_	_	_	_	_	
+8-21	491-494	var	_	_	_	_	_	
+8-22	495-497	de	_	_	_	_	_	
+8-23	498-504	kanske	_	_	_	_	_	
+8-24	505-515	övertygade	_	_	_	_	_	
+8-25	516-518	om	_	_	_	_	_	
+8-26	519-522	att	_	_	_	_	_	
+8-27	523-526	man	_	_	_	_	_	
+8-28	527-534	skapade	_	_	_	_	_	
+8-29	535-540	något	_	_	_	_	_	
+8-30	541-544	som	_	_	_	_	_	
+8-31	545-551	skulle	_	_	_	_	_	
+8-32	552-562	underlätta	_	_	_	_	_	
+8-33	563-566	för	_	_	_	_	_	
+8-34	567-577	personalen	_	_	_	_	_	
+8-35	578-581	att	_	_	_	_	_	
+8-36	582-588	utföra	_	_	_	_	_	
+8-37	589-592	ett	*[23]	_	_	_	_	
+8-38	593-599	arbete	*[23]	_	_	_	_	
+8-39	600-604	värt	_	Target[3]	8-37[23]	false[3]	4[3]	
+8-40	605-608	att	_	Target[3]	8-37[23]	false[3]	4[3]	
+8-41	609-616	belönas	_	Target[3]	8-37[23]	false[3]	4[3]	
+8-42	617-620	med	_	Target[3]	8-37[23]	false[3]	4[3]	
+8-43	621-628	respekt	_	Target[3]	8-37[23]	false[3]	4[3]	
+8-44	629-632	och	_	_	_	_	_	
+8-45	633-645	uppskattning	_	_	_	_	_	
+8-46	646-650	från	_	_	_	_	_	
+8-47	651-653	de	_	_	_	_	_	
+8-48	654-664	medborgare	_	_	_	_	_	
+8-49	665-668	som	_	_	_	_	_	
+8-50	669-671	är	_	_	_	_	_	
+8-51	672-677	deras	_	_	_	_	_	
+8-52	678-686	yttersta	_	_	_	_	_	
+8-53	687-701	uppdragsgivare	_	_	_	_	_	
+8-54	701-702	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	704-705	#	_	_	_	_	_	
+9-2	705-706	P	_	_	_	_	_	
+9-3	707-710	IMM	_	_	_	_	_	
+9-4	710-711	.	_	_	_	_	_	
+
+#Text=De som nu träder fram och berättar sanningen om Försäkringskassan – enskilda handläggare och fackliga företrädare – har däremot inte varit övertygade och har definitivt inte valt den situation man nu befinner sig i.
+10-1	713-715	De	*[24]	_	_	_	_	
+10-2	716-719	som	*[24]	_	_	_	_	
+10-3	720-722	nu	*[24]	_	_	_	_	
+10-4	723-729	träder	*[24]	_	_	_	_	
+10-5	730-734	fram	*[24]	_	_	_	_	
+10-6	735-738	och	_	_	_	_	_	
+10-7	739-747	berättar	_	Target[4]	10-1[24]	false[4]	4[4]	
+10-8	748-757	sanningen	_	Target[4]	10-1[24]	false[4]	4[4]	
+10-9	758-760	om	_	_	_	_	_	
+10-10	761-778	Försäkringskassan	_	_	_	_	_	
+10-11	779-780	–	_	_	_	_	_	
+10-12	781-789	enskilda	_	_	_	_	_	
+10-13	790-801	handläggare	_	_	_	_	_	
+10-14	802-805	och	_	_	_	_	_	
+10-15	806-814	fackliga	_	_	_	_	_	
+10-16	815-826	företrädare	_	_	_	_	_	
+10-17	827-828	–	_	_	_	_	_	
+10-18	829-832	har	_	_	_	_	_	
+10-19	833-840	däremot	_	_	_	_	_	
+10-20	841-845	inte	_	_	_	_	_	
+10-21	846-851	varit	_	_	_	_	_	
+10-22	852-862	övertygade	_	_	_	_	_	
+10-23	863-866	och	_	_	_	_	_	
+10-24	867-870	har	_	_	_	_	_	
+10-25	871-881	definitivt	_	Target[5]	10-28[25]	false[5]	2[5]	
+10-26	882-886	inte	_	Target[5]	10-28[25]	false[5]	2[5]	
+10-27	887-891	valt	_	Target[5]	10-28[25]	false[5]	2[5]	
+10-28	892-895	den	*[25]	_	_	_	_	
+10-29	896-905	situation	*[25]	_	_	_	_	
+10-30	906-909	man	*[25]	_	_	_	_	
+10-31	910-912	nu	*[25]	_	_	_	_	
+10-32	913-921	befinner	*[25]	_	_	_	_	
+10-33	922-925	sig	*[25]	_	_	_	_	
+10-34	926-927	i	*[25]	_	_	_	_	
+10-35	927-928	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	930-931	#	_	_	_	_	_	
+11-2	931-932	P	_	_	_	_	_	
+11-3	933-936	IMM	_	_	_	_	_	
+11-4	936-937	.	_	_	_	_	_	
+
+#Text=Motiven till de omfattande förändringarna har nu inte bara varit sparbeting och effektiviseringskrav.
+12-1	939-946	Motiven	_	_	_	_	_	
+12-2	947-951	till	_	_	_	_	_	
+12-3	952-954	de	_	_	_	_	_	
+12-4	955-965	omfattande	_	Target	12-5	false	2	
+12-5	966-980	förändringarna	*	_	_	_	_	
+12-6	981-984	har	_	_	_	_	_	
+12-7	985-987	nu	_	_	_	_	_	
+12-8	988-992	inte	_	_	_	_	_	
+12-9	993-997	bara	_	_	_	_	_	
+12-10	998-1003	varit	_	_	_	_	_	
+12-11	1004-1014	sparbeting	*	Target	12-11	false	2	
+12-12	1015-1018	och	_	_	_	_	_	
+12-13	1019-1039	effektiviseringskrav	*	Target	12-13	false	2	
+12-14	1039-1040	.	_	_	_	_	_	
+
+#Text=En röd och gemensam tråd i uppdraget till direktörerna har också varit att skapa en starkt centraliserad styrning, vilken har medfört att inflytandet från både personal och lokala chefer har reducerats till ett minimum.
+13-1	1041-1043	En	_	_	_	_	_	
+13-2	1044-1047	röd	_	_	_	_	_	
+13-3	1048-1051	och	_	_	_	_	_	
+13-4	1052-1060	gemensam	_	_	_	_	_	
+13-5	1061-1065	tråd	_	_	_	_	_	
+13-6	1066-1067	i	_	_	_	_	_	
+13-7	1068-1077	uppdraget	_	_	_	_	_	
+13-8	1078-1082	till	_	_	_	_	_	
+13-9	1083-1095	direktörerna	_	_	_	_	_	
+13-10	1096-1099	har	_	_	_	_	_	
+13-11	1100-1105	också	_	_	_	_	_	
+13-12	1106-1111	varit	_	_	_	_	_	
+13-13	1112-1115	att	_	_	_	_	_	
+13-14	1116-1121	skapa	_	_	_	_	_	
+13-15	1122-1124	en	_	_	_	_	_	
+13-16	1125-1131	starkt	_	Target[6]	13-23[26]	false[6]	2[6]	
+13-17	1132-1145	centraliserad	_	Target[6]	13-23[26]	false[6]	2[6]	
+13-18	1146-1154	styrning	_	Target[6]	13-23[26]	false[6]	2[6]	
+13-19	1154-1155	,	_	_	_	_	_	
+13-20	1156-1162	vilken	_	_	_	_	_	
+13-21	1163-1166	har	_	_	_	_	_	
+13-22	1167-1174	medfört	_	_	_	_	_	
+13-23	1175-1178	att	*[26]	_	_	_	_	
+13-24	1179-1190	inflytandet	*[26]	_	_	_	_	
+13-25	1191-1195	från	*[26]	_	_	_	_	
+13-26	1196-1200	både	*[26]	_	_	_	_	
+13-27	1201-1209	personal	*[26]	_	_	_	_	
+13-28	1210-1213	och	*[26]	_	_	_	_	
+13-29	1214-1220	lokala	*[26]	_	_	_	_	
+13-30	1221-1227	chefer	*[26]	_	_	_	_	
+13-31	1228-1231	har	*[26]	_	_	_	_	
+13-32	1232-1242	reducerats	*[26]	Target[7]	13-34[27]	false[7]	2[7]	
+13-33	1243-1247	till	*[26]	Target[7]	13-34[27]	false[7]	2[7]	
+13-34	1248-1251	ett	*[26]|*[27]	_	_	_	_	
+13-35	1252-1259	minimum	*[26]|*[27]	_	_	_	_	
+13-36	1259-1260	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1262-1263	#	_	_	_	_	_	
+14-2	1263-1264	P	_	_	_	_	_	
+14-3	1265-1268	IMM	_	_	_	_	_	
+14-4	1268-1269	.	_	_	_	_	_	
+
+#Text=Så har man ordnat det, att just de som har de direkta kontakterna med medborgarna och därmed skulle kunna ge en snabb återkoppling om vilka effekterna blir ute i verkligheten av både organisationsförändringar och förändringar av regler för de olika socialförsäkringarna – dem har man tystat.
+15-1	1271-1273	Så	_	_	_	_	_	
+15-2	1274-1277	har	_	_	_	_	_	
+15-3	1278-1281	man	_	_	_	_	_	
+15-4	1282-1288	ordnat	_	_	_	_	_	
+15-5	1289-1292	det	_	_	_	_	_	
+15-6	1292-1293	,	_	_	_	_	_	
+15-7	1294-1297	att	_	_	_	_	_	
+15-8	1298-1302	just	_	_	_	_	_	
+15-9	1303-1305	de	_	_	_	_	_	
+15-10	1306-1309	som	_	_	_	_	_	
+15-11	1310-1313	har	_	_	_	_	_	
+15-12	1314-1316	de	_	_	_	_	_	
+15-13	1317-1324	direkta	_	_	_	_	_	
+15-14	1325-1336	kontakterna	_	_	_	_	_	
+15-15	1337-1340	med	_	_	_	_	_	
+15-16	1341-1352	medborgarna	_	_	_	_	_	
+15-17	1353-1356	och	_	_	_	_	_	
+15-18	1357-1363	därmed	_	_	_	_	_	
+15-19	1364-1370	skulle	_	_	_	_	_	
+15-20	1371-1376	kunna	_	_	_	_	_	
+15-21	1377-1379	ge	_	_	_	_	_	
+15-22	1380-1382	en	_	_	_	_	_	
+15-23	1383-1388	snabb	_	Target	15-24	false	4	
+15-24	1389-1401	återkoppling	*	_	_	_	_	
+15-25	1402-1404	om	_	_	_	_	_	
+15-26	1405-1410	vilka	_	_	_	_	_	
+15-27	1411-1421	effekterna	_	_	_	_	_	
+15-28	1422-1426	blir	_	_	_	_	_	
+15-29	1427-1430	ute	_	_	_	_	_	
+15-30	1431-1432	i	_	_	_	_	_	
+15-31	1433-1445	verkligheten	_	_	_	_	_	
+15-32	1446-1448	av	_	_	_	_	_	
+15-33	1449-1453	både	_	_	_	_	_	
+15-34	1454-1479	organisationsförändringar	_	_	_	_	_	
+15-35	1480-1483	och	_	_	_	_	_	
+15-36	1484-1496	förändringar	_	_	_	_	_	
+15-37	1497-1499	av	_	_	_	_	_	
+15-38	1500-1506	regler	_	_	_	_	_	
+15-39	1507-1510	för	_	_	_	_	_	
+15-40	1511-1513	de	_	_	_	_	_	
+15-41	1514-1519	olika	_	_	_	_	_	
+15-42	1520-1540	socialförsäkringarna	_	_	_	_	_	
+15-43	1541-1542	–	_	_	_	_	_	
+15-44	1543-1546	dem	_	_[8]	_	false[8]	2[8]	
+15-45	1547-1550	har	_	_[8]	_	false[8]	2[8]	
+15-46	1551-1554	man	_	_[8]	_	false[8]	2[8]	
+15-47	1555-1561	tystat	_	_[8]	_	false[8]	2[8]	
+15-48	1561-1562	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1564-1565	#	_	_	_	_	_	
+16-2	1565-1566	P	_	_	_	_	_	
+16-3	1567-1570	IMM	_	_	_	_	_	
+16-4	1570-1571	.	_	_	_	_	_	
+
+#Text=Man har tystat dem genom att öka avståndet till beslutande nivåer i verksamheten, men till exempel också genom systematiska kontroller av personalen, särskilt när det gäller hur man fullföljer myndigheternas möjligheter till sanktioner gentemot medborgarna och med möjliga bestraffningar om proven inte bestås.
+17-1	1573-1576	Man	_	_	_	_	_	
+17-2	1577-1580	har	_	Target[9]|Target[10]|Target[11]	17-7[28]|17-21[29]|17-40[30]	false[9]|false[10]|false[11]	2[9]|2[10]|2[11]	
+17-3	1581-1587	tystat	_	Target[9]|Target[10]|Target[11]	17-7[28]|17-21[29]|17-40[30]	false[9]|false[10]|false[11]	2[9]|2[10]|2[11]	
+17-4	1588-1591	dem	_	_	_	_	_	
+17-5	1592-1597	genom	_	_	_	_	_	
+17-6	1598-1601	att	_	_	_	_	_	
+17-7	1602-1605	öka	*[28]	_	_	_	_	
+17-8	1606-1615	avståndet	*[28]	_	_	_	_	
+17-9	1616-1620	till	*[28]	_	_	_	_	
+17-10	1621-1631	beslutande	*[28]	_	_	_	_	
+17-11	1632-1638	nivåer	*[28]	_	_	_	_	
+17-12	1639-1640	i	*[28]	_	_	_	_	
+17-13	1641-1653	verksamheten	*[28]	_	_	_	_	
+17-14	1653-1654	,	_	_	_	_	_	
+17-15	1655-1658	men	_	_	_	_	_	
+17-16	1659-1663	till	_	_	_	_	_	
+17-17	1664-1671	exempel	_	_	_	_	_	
+17-18	1672-1677	också	_	_	_	_	_	
+17-19	1678-1683	genom	_	_	_	_	_	
+17-20	1684-1696	systematiska	_	_	_	_	_	
+17-21	1697-1707	kontroller	*[29]	_	_	_	_	
+17-22	1708-1710	av	*[29]	_	_	_	_	
+17-23	1711-1721	personalen	*[29]	_	_	_	_	
+17-24	1721-1722	,	_	_	_	_	_	
+17-25	1723-1731	särskilt	_	_	_	_	_	
+17-26	1732-1735	när	_	_	_	_	_	
+17-27	1736-1739	det	_	_	_	_	_	
+17-28	1740-1746	gäller	_	_	_	_	_	
+17-29	1747-1750	hur	_	_	_	_	_	
+17-30	1751-1754	man	_	_	_	_	_	
+17-31	1755-1765	fullföljer	_	_	_	_	_	
+17-32	1766-1780	myndigheternas	_	_	_	_	_	
+17-33	1781-1792	möjligheter	_	_	_	_	_	
+17-34	1793-1797	till	_	_	_	_	_	
+17-35	1798-1808	sanktioner	_	_	_	_	_	
+17-36	1809-1817	gentemot	_	_	_	_	_	
+17-37	1818-1829	medborgarna	_	_	_	_	_	
+17-38	1830-1833	och	_	_	_	_	_	
+17-39	1834-1837	med	_	_	_	_	_	
+17-40	1838-1845	möjliga	*[30]	_	_	_	_	
+17-41	1846-1860	bestraffningar	*[30]	_	_	_	_	
+17-42	1861-1863	om	*[30]	_	_	_	_	
+17-43	1864-1870	proven	*[30]	_	_	_	_	
+17-44	1871-1875	inte	*[30]	_	_	_	_	
+17-45	1876-1882	bestås	*[30]	_	_	_	_	
+17-46	1882-1883	.	_	_	_	_	_	
+
+#Text=Belöningen, däremot, är oftast bara allmänhetens spott och spe.
+18-1	1884-1894	Belöningen	_	Target	18-8[31]	true	4	
+18-2	1894-1895	,	_	_	_	_	_	
+18-3	1896-1903	däremot	_	_	_	_	_	
+18-4	1903-1904	,	_	_	_	_	_	
+18-5	1905-1907	är	_	_	_	_	_	
+18-6	1908-1914	oftast	_	_	_	_	_	
+18-7	1915-1919	bara	_	_	_	_	_	
+18-8	1920-1932	allmänhetens	*[31]	_	_	_	_	
+18-9	1933-1938	spott	*[31]	_	_	_	_	
+18-10	1939-1942	och	*[31]	_	_	_	_	
+18-11	1943-1946	spe	*[31]	_	_	_	_	
+18-12	1946-1947	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1949-1950	#	_	_	_	_	_	
+19-2	1950-1951	P	_	_	_	_	_	
+19-3	1952-1955	IMM	_	_	_	_	_	
+19-4	1955-1956	.	_	_	_	_	_	
+
+#Text=Försäkringskassans haveri är just nu det mest synliga exemplet på hur fullkomligt vilse denna inslagna väg har lett.
+20-1	1958-1976	Försäkringskassans	*	_	_	_	_	
+20-2	1977-1983	haveri	_	Target	20-1	false	1	
+20-3	1984-1986	är	_	_	_	_	_	
+20-4	1987-1991	just	_	_	_	_	_	
+20-5	1992-1994	nu	_	_	_	_	_	
+20-6	1995-1998	det	_	_	_	_	_	
+20-7	1999-2003	mest	_	_	_	_	_	
+20-8	2004-2011	synliga	_	_	_	_	_	
+20-9	2012-2020	exemplet	_	_	_	_	_	
+20-10	2021-2023	på	_	_	_	_	_	
+20-11	2024-2027	hur	_	_	_	_	_	
+20-12	2028-2039	fullkomligt	_	Target[12]	20-14[32]	false[12]	2[12]	
+20-13	2040-2045	vilse	_	Target[12]	20-14[32]	false[12]	2[12]	
+20-14	2046-2051	denna	*[32]	_	_	_	_	
+20-15	2052-2060	inslagna	*[32]	_	_	_	_	
+20-16	2061-2064	väg	*[32]	_	_	_	_	
+20-17	2065-2068	har	_	_	_	_	_	
+20-18	2069-2073	lett	_	_	_	_	_	
+20-19	2073-2074	.	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	2076-2077	#	_	_	_	_	_	
+21-2	2077-2078	P	_	_	_	_	_	
+21-3	2079-2082	IMM	_	_	_	_	_	
+21-4	2082-2083	.	_	_	_	_	_	
+
+#Text=Det syns mindre utåt att Arbetsförmedlingens nuvarande generaldirektör steg för steg river upp den nya organisationen och att hela äventyret är på väg att orsaka en kostnad som bara delvis kan räknas i pengar.
+22-1	2085-2088	Det	_	_	_	_	_	
+22-2	2089-2093	syns	_	_	_	_	_	
+22-3	2094-2100	mindre	_	_	_	_	_	
+22-4	2101-2105	utåt	_	_	_	_	_	
+22-5	2106-2109	att	_	_	_	_	_	
+22-6	2110-2129	Arbetsförmedlingens	_	_	_	_	_	
+22-7	2130-2139	nuvarande	_	_	_	_	_	
+22-8	2140-2155	generaldirektör	_	_	_	_	_	
+22-9	2156-2160	steg	*[33]	_	_	_	_	
+22-10	2161-2164	för	*[33]	_	_	_	_	
+22-11	2165-2169	steg	*[33]	_	_	_	_	
+22-12	2170-2175	river	*[33]	_	_	_	_	
+22-13	2176-2179	upp	*[33]	_	_	_	_	
+22-14	2180-2183	den	*[33]	_	_	_	_	
+22-15	2184-2187	nya	*[33]	_	_	_	_	
+22-16	2188-2202	organisationen	*[33]	_	_	_	_	
+22-17	2203-2206	och	_	_	_	_	_	
+22-18	2207-2210	att	_	_	_	_	_	
+22-19	2211-2215	hela	_	Target[13]	22-9[33]	false[13]	2[13]	
+22-20	2216-2225	äventyret	_	Target[13]	22-9[33]	false[13]	2[13]	
+22-21	2226-2228	är	_	_	_	_	_	
+22-22	2229-2231	på	_	_	_	_	_	
+22-23	2232-2235	väg	_	_	_	_	_	
+22-24	2236-2239	att	_	_	_	_	_	
+22-25	2240-2246	orsaka	_	_	_	_	_	
+22-26	2247-2249	en	*[34]	_	_	_	_	
+22-27	2250-2257	kostnad	*[34]	_	_	_	_	
+22-28	2258-2261	som	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-29	2262-2266	bara	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-30	2267-2273	delvis	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-31	2274-2277	kan	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-32	2278-2284	räknas	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-33	2285-2286	i	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-34	2287-2293	pengar	_	Target[14]	22-26[34]	false[14]	2[14]	
+22-35	2293-2294	.	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	2296-2297	#	_	_	_	_	_	
+23-2	2297-2298	P	_	_	_	_	_	
+23-3	2299-2302	IMM	_	_	_	_	_	
+23-4	2302-2303	.	_	_	_	_	_	
+
+#Text=Med den nuvarande utvecklingen på arbetsmarknaden är dock inte frågan om utan när rubrikerna också kommer att handla om den kassa arbetsförmedlingen.
+24-1	2305-2308	Med	_	_	_	_	_	
+24-2	2309-2312	den	_	_	_	_	_	
+24-3	2313-2322	nuvarande	_	_	_	_	_	
+24-4	2323-2335	utvecklingen	_	_	_	_	_	
+24-5	2336-2338	på	_	_	_	_	_	
+24-6	2339-2354	arbetsmarknaden	_	_	_	_	_	
+24-7	2355-2357	är	_	_	_	_	_	
+24-8	2358-2362	dock	_	_	_	_	_	
+24-9	2363-2367	inte	_	_	_	_	_	
+24-10	2368-2374	frågan	_	_	_	_	_	
+24-11	2375-2377	om	_	_	_	_	_	
+24-12	2378-2382	utan	_	_	_	_	_	
+24-13	2383-2386	när	_	_	_	_	_	
+24-14	2387-2397	rubrikerna	_	_	_	_	_	
+24-15	2398-2403	också	_	_	_	_	_	
+24-16	2404-2410	kommer	_	_	_	_	_	
+24-17	2411-2414	att	_	_	_	_	_	
+24-18	2415-2421	handla	_	_	_	_	_	
+24-19	2422-2424	om	_	_	_	_	_	
+24-20	2425-2428	den	_	_	_	_	_	
+24-21	2429-2434	kassa	_	Target	24-22	false	2	
+24-22	2435-2453	arbetsförmedlingen	*	_	_	_	_	
+24-23	2453-2454	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2456-2457	#	_	_	_	_	_	
+25-2	2457-2458	P	_	_	_	_	_	
+25-3	2459-2462	IMM	_	_	_	_	_	
+25-4	2462-2463	.	_	_	_	_	_	
+
+#Text=För alla deras skull som blivit arbetslösa är det bara att hoppas att de privata ”arbetsförmedlingsaktörer” som nu hjälps fram, snabbt ska kunna tjäna ihop till de resurser som behövs för ett personligt stöd och ett nytt arbete till alla som behöver det.
+26-1	2465-2468	För	_	_	_	_	_	
+26-2	2469-2473	alla	_	_	_	_	_	
+26-3	2474-2479	deras	_	_	_	_	_	
+26-4	2480-2485	skull	_	_	_	_	_	
+26-5	2486-2489	som	_	_	_	_	_	
+26-6	2490-2496	blivit	_	_	_	_	_	
+26-7	2497-2507	arbetslösa	_	_	_	_	_	
+26-8	2508-2510	är	_	_	_	_	_	
+26-9	2511-2514	det	_	_	_	_	_	
+26-10	2515-2519	bara	_	_	_	_	_	
+26-11	2520-2523	att	_	_	_	_	_	
+26-12	2524-2530	hoppas	_	_	_	_	_	
+26-13	2531-2534	att	_	_	_	_	_	
+26-14	2535-2537	de	_	_	_	_	_	
+26-15	2538-2545	privata	*[35]	_	_	_	_	
+26-16	2546-2547	”	*[35]	_	_	_	_	
+26-17	2547-2571	arbetsförmedlingsaktörer	*[35]	_	_	_	_	
+26-18	2571-2572	”	*[35]	_	_	_	_	
+26-19	2573-2576	som	_	_	_	_	_	
+26-20	2577-2579	nu	_	_	_	_	_	
+26-21	2580-2586	hjälps	_	Target[15]	26-15[35]	false[15]	4[15]	
+26-22	2587-2591	fram	_	Target[15]	26-15[35]	false[15]	4[15]	
+26-23	2591-2592	,	_	_	_	_	_	
+26-24	2593-2599	snabbt	_	_	_	_	_	
+26-25	2600-2603	ska	_	_	_	_	_	
+26-26	2604-2609	kunna	_	_	_	_	_	
+26-27	2610-2615	tjäna	_	_	_	_	_	
+26-28	2616-2620	ihop	_	_	_	_	_	
+26-29	2621-2625	till	_	_	_	_	_	
+26-30	2626-2628	de	_	_	_	_	_	
+26-31	2629-2637	resurser	_	_	_	_	_	
+26-32	2638-2641	som	_	_	_	_	_	
+26-33	2642-2648	behövs	_	_	_	_	_	
+26-34	2649-2652	för	_	_	_	_	_	
+26-35	2653-2656	ett	_	_	_	_	_	
+26-36	2657-2667	personligt	_	_	_	_	_	
+26-37	2668-2672	stöd	_	_	_	_	_	
+26-38	2673-2676	och	_	_	_	_	_	
+26-39	2677-2680	ett	_	_	_	_	_	
+26-40	2681-2685	nytt	_	_	_	_	_	
+26-41	2686-2692	arbete	_	_	_	_	_	
+26-42	2693-2697	till	_	_	_	_	_	
+26-43	2698-2702	alla	_	_	_	_	_	
+26-44	2703-2706	som	_	_	_	_	_	
+26-45	2707-2714	behöver	_	_	_	_	_	
+26-46	2715-2718	det	_	_	_	_	_	
+26-47	2718-2719	.	_	_	_	_	_	
+
+#Text=Obehagligheter som kontroll och sanktioner får dock de statliga arbetsförmedlarna förfoga över alldeles själva även i fortsättningen.
+27-1	2720-2734	Obehagligheter	_	Target	27-3[36]	false	2	
+27-2	2735-2738	som	_	_	_	_	_	
+27-3	2739-2747	kontroll	*[36]	_	_	_	_	
+27-4	2748-2751	och	*[36]	_	_	_	_	
+27-5	2752-2762	sanktioner	*[36]	_	_	_	_	
+27-6	2763-2766	får	_	_	_	_	_	
+27-7	2767-2771	dock	_	_	_	_	_	
+27-8	2772-2774	de	_	_	_	_	_	
+27-9	2775-2783	statliga	_	_	_	_	_	
+27-10	2784-2801	arbetsförmedlarna	_	_	_	_	_	
+27-11	2802-2809	förfoga	_	_	_	_	_	
+27-12	2810-2814	över	_	_	_	_	_	
+27-13	2815-2823	alldeles	_	_	_	_	_	
+27-14	2824-2830	själva	_	_	_	_	_	
+27-15	2831-2835	även	_	_	_	_	_	
+27-16	2836-2837	i	_	_	_	_	_	
+27-17	2838-2852	fortsättningen	_	_	_	_	_	
+27-18	2852-2853	.	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2855-2856	#	_	_	_	_	_	
+28-2	2856-2857	P	_	_	_	_	_	
+28-3	2858-2861	IMM	_	_	_	_	_	
+28-4	2861-2862	.	_	_	_	_	_	
+
+#Text=Inom den offentliga sektorns medborgarservice finns otaliga, högt kvalificerade och utbildade anställda som valt bort att arbeta inom till exempel finansens, mediernas eller reklamens guldkantade värld.
+29-1	2864-2868	Inom	_	_	_	_	_	
+29-2	2869-2872	den	_	_	_	_	_	
+29-3	2873-2883	offentliga	_	_	_	_	_	
+29-4	2884-2892	sektorns	_	_	_	_	_	
+29-5	2893-2909	medborgarservice	_	_	_	_	_	
+29-6	2910-2915	finns	_	_	_	_	_	
+29-7	2916-2923	otaliga	_	Target[16]	29-13	false[16]	5[16]	
+29-8	2923-2924	,	_	Target[16]	29-13	false[16]	5[16]	
+29-9	2925-2929	högt	_	Target[16]	29-13	false[16]	5[16]	
+29-10	2930-2943	kvalificerade	_	Target[16]	29-13	false[16]	5[16]	
+29-11	2944-2947	och	_	Target[16]	29-13	false[16]	5[16]	
+29-12	2948-2957	utbildade	_	Target[16]	29-13	false[16]	5[16]	
+29-13	2958-2967	anställda	*	_	_	_	_	
+29-14	2968-2971	som	_	_	_	_	_	
+29-15	2972-2976	valt	_	_	_	_	_	
+29-16	2977-2981	bort	_	_	_	_	_	
+29-17	2982-2985	att	_	_	_	_	_	
+29-18	2986-2992	arbeta	_	_	_	_	_	
+29-19	2993-2997	inom	_	_	_	_	_	
+29-20	2998-3002	till	_	_	_	_	_	
+29-21	3003-3010	exempel	_	_	_	_	_	
+29-22	3011-3020	finansens	_	_	_	_	_	
+29-23	3020-3021	,	_	_	_	_	_	
+29-24	3022-3031	mediernas	_	_	_	_	_	
+29-25	3032-3037	eller	_	_	_	_	_	
+29-26	3038-3047	reklamens	_	_	_	_	_	
+29-27	3048-3059	guldkantade	_	Target	29-28	false	5	
+29-28	3060-3065	värld	*	_	_	_	_	
+29-29	3065-3066	.	_	_	_	_	_	
+
+#Text=De har frivilligt valt ett arbete som de trott ska vara mer meningsfullt.
+30-1	3067-3069	De	_	_	_	_	_	
+30-2	3070-3073	har	_	_	_	_	_	
+30-3	3074-3084	frivilligt	_	Target[17]	30-5[37]	false[17]	4[17]	
+30-4	3085-3089	valt	_	Target[17]	30-5[37]	false[17]	4[17]	
+30-5	3090-3093	ett	*[37]	_	_	_	_	
+30-6	3094-3100	arbete	*[37]	_	_	_	_	
+30-7	3101-3104	som	*[37]	_	_	_	_	
+30-8	3105-3107	de	*[37]	_	_	_	_	
+30-9	3108-3113	trott	*[37]	_	_	_	_	
+30-10	3114-3117	ska	*[37]	_	_	_	_	
+30-11	3118-3122	vara	*[37]	_	_	_	_	
+30-12	3123-3126	mer	*[37]	_	_	_	_	
+30-13	3127-3139	meningsfullt	*[37]	_	_	_	_	
+30-14	3139-3140	.	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	3142-3143	#	_	_	_	_	_	
+31-2	3143-3144	P	_	_	_	_	_	
+31-3	3145-3148	IMM	_	_	_	_	_	
+31-4	3148-3149	.	_	_	_	_	_	
+
+#Text=Hur stor är då inte besvikelsen om man upptäcker att där råder samma managementfilosofier, och att det som berättas genom röda och gröna siffror och ”kvalitetssäkringssystem” även här är den enda information om verksamheten som man internt förmår ta till sig och acceptera som sanning?
+32-1	3151-3154	Hur	_	_	_	_	_	
+32-2	3155-3159	stor	_	_	_	_	_	
+32-3	3160-3162	är	_	_	_	_	_	
+32-4	3163-3165	då	_	_	_	_	_	
+32-5	3166-3170	inte	_	_	_	_	_	
+32-6	3171-3182	besvikelsen	_	Target	32-10[38]	false	2	
+32-7	3183-3185	om	_	_	_	_	_	
+32-8	3186-3189	man	_	_	_	_	_	
+32-9	3190-3199	upptäcker	_	_	_	_	_	
+32-10	3200-3203	att	*[38]	_	_	_	_	
+32-11	3204-3207	där	*[38]	_	_	_	_	
+32-12	3208-3213	råder	*[38]	_	_	_	_	
+32-13	3214-3219	samma	*[38]	_	_	_	_	
+32-14	3220-3240	managementfilosofier	*[38]|*[39]	Target	32-14[39]	false	2	
+32-15	3240-3241	,	_	_	_	_	_	
+32-16	3242-3245	och	_	_	_	_	_	
+32-17	3246-3249	att	_	_	_	_	_	
+32-18	3250-3253	det	_	_	_	_	_	
+32-19	3254-3257	som	_	_	_	_	_	
+32-20	3258-3266	berättas	_	_	_	_	_	
+32-21	3267-3272	genom	_	_	_	_	_	
+32-22	3273-3277	röda	_	_	_	_	_	
+32-23	3278-3281	och	_	_	_	_	_	
+32-24	3282-3287	gröna	_	_	_	_	_	
+32-25	3288-3295	siffror	_	_	_	_	_	
+32-26	3296-3299	och	_	_	_	_	_	
+32-27	3300-3301	”	_	_	_	_	_	
+32-28	3301-3324	kvalitetssäkringssystem	_	_	_	_	_	
+32-29	3324-3325	”	_	_	_	_	_	
+32-30	3326-3330	även	_	_	_	_	_	
+32-31	3331-3334	här	_	_	_	_	_	
+32-32	3335-3337	är	_	_	_	_	_	
+32-33	3338-3341	den	_	_	_	_	_	
+32-34	3342-3346	enda	_	_	_	_	_	
+32-35	3347-3358	information	_	_	_	_	_	
+32-36	3359-3361	om	_	_	_	_	_	
+32-37	3362-3374	verksamheten	_	_	_	_	_	
+32-38	3375-3378	som	_	_	_	_	_	
+32-39	3379-3382	man	_	_	_	_	_	
+32-40	3383-3390	internt	_	_	_	_	_	
+32-41	3391-3397	förmår	_	_	_	_	_	
+32-42	3398-3400	ta	_	_	_	_	_	
+32-43	3401-3405	till	_	_	_	_	_	
+32-44	3406-3409	sig	_	_	_	_	_	
+32-45	3410-3413	och	_	_	_	_	_	
+32-46	3414-3423	acceptera	_	_	_	_	_	
+32-47	3424-3427	som	_	_	_	_	_	
+32-48	3428-3435	sanning	_	_	_	_	_	
+32-49	3435-3436	?	_	_	_	_	_	
+
+#Text=Höga sjukskrivningstal och en omfattande personalomsättning talar sitt tydliga språk när det gäller den saken.
+33-1	3437-3441	Höga	*[40]	Target	33-2[41]	false	2	
+33-2	3442-3459	sjukskrivningstal	*[40]|*[41]	_	_	_	_	
+33-3	3460-3463	och	*[40]	_	_	_	_	
+33-4	3464-3466	en	*[40]	_	_	_	_	
+33-5	3467-3477	omfattande	*[40]	Target	33-6[42]	false	2	
+33-6	3478-3496	personalomsättning	*[40]|*[42]	_	_	_	_	
+33-7	3497-3502	talar	_	_	_	_	_	
+33-8	3503-3507	sitt	_	Target[18]	33-1[40]	false[18]	2[18]	
+33-9	3508-3515	tydliga	_	Target[18]	33-1[40]	false[18]	2[18]	
+33-10	3516-3521	språk	_	Target[18]	33-1[40]	false[18]	2[18]	
+33-11	3522-3525	när	_	_	_	_	_	
+33-12	3526-3529	det	_	_	_	_	_	
+33-13	3530-3536	gäller	_	_	_	_	_	
+33-14	3537-3540	den	_	_	_	_	_	
+33-15	3541-3546	saken	_	_	_	_	_	
+33-16	3546-3547	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3549-3550	#	_	_	_	_	_	
+34-2	3550-3551	P	_	_	_	_	_	
+34-3	3552-3555	IMM	_	_	_	_	_	
+34-4	3555-3556	.	_	_	_	_	_	
+
+#Text=Nåväl.
+35-1	3558-3563	Nåväl	_	_	_	_	_	
+35-2	3563-3564	.	_	_	_	_	_	
+
+#Text=Till slut urholkar droppen stenen och fram träder en äldreomsorgens Sarah Wägnert, en intensivsjukvårdens Peter Magnusson i ”Uppdrag granskning” eller kanske en facklig företrädare som sätter ner foten, slänger alla strategiska hänsyn överbord och berättar hur det verkligen är.
+36-1	3565-3569	Till	_	Target[19]	36-7[43]	false[19]	4[19]	
+36-2	3570-3574	slut	_	Target[19]	36-7[43]	false[19]	4[19]	
+36-3	3575-3583	urholkar	_	Target[19]	36-7[43]	false[19]	4[19]	
+36-4	3584-3591	droppen	_	Target[19]	36-7[43]	false[19]	4[19]	
+36-5	3592-3598	stenen	_	Target[19]	36-7[43]	false[19]	4[19]	
+36-6	3599-3602	och	_	_	_	_	_	
+36-7	3603-3607	fram	*[43]	_	_	_	_	
+36-8	3608-3614	träder	*[43]	_	_	_	_	
+36-9	3615-3617	en	*[43]	_	_	_	_	
+36-10	3618-3632	äldreomsorgens	*[43]	_	_	_	_	
+36-11	3633-3638	Sarah	*[43]	_	_	_	_	
+36-12	3639-3646	Wägnert	*[43]	_	_	_	_	
+36-13	3646-3647	,	*[43]	_	_	_	_	
+36-14	3648-3650	en	*[43]	_	_	_	_	
+36-15	3651-3670	intensivsjukvårdens	*[43]	_	_	_	_	
+36-16	3671-3676	Peter	*[43]	_	_	_	_	
+36-17	3677-3686	Magnusson	*[43]	_	_	_	_	
+36-18	3687-3688	i	*[43]	_	_	_	_	
+36-19	3689-3690	”	*[43]	_	_	_	_	
+36-20	3690-3697	Uppdrag	*[43]	_	_	_	_	
+36-21	3698-3708	granskning	*[43]	_	_	_	_	
+36-22	3708-3709	”	*[43]	_	_	_	_	
+36-23	3710-3715	eller	*[43]	_	_	_	_	
+36-24	3716-3722	kanske	*[43]	_	_	_	_	
+36-25	3723-3725	en	*[43]	_	_	_	_	
+36-26	3726-3733	facklig	*[43]	_	_	_	_	
+36-27	3734-3745	företrädare	*[43]	_	_	_	_	
+36-28	3746-3749	som	*[43]	_	_	_	_	
+36-29	3750-3756	sätter	*[43]	Target[20]	36-33[44]	false[20]	4[20]	
+36-30	3757-3760	ner	*[43]	Target[20]	36-33[44]	false[20]	4[20]	
+36-31	3761-3766	foten	*[43]	Target[20]	36-33[44]	false[20]	4[20]	
+36-32	3766-3767	,	*[43]	_	_	_	_	
+36-33	3768-3775	slänger	*[43]|*[44]	_	_	_	_	
+36-34	3776-3780	alla	*[43]|*[44]	_	_	_	_	
+36-35	3781-3792	strategiska	*[43]|*[44]	_	_	_	_	
+36-36	3793-3799	hänsyn	*[43]|*[44]	_	_	_	_	
+36-37	3800-3808	överbord	*[43]|*[44]	_	_	_	_	
+36-38	3809-3812	och	*[43]|*[44]	_	_	_	_	
+36-39	3813-3821	berättar	*[43]|*[44]	_	_	_	_	
+36-40	3822-3825	hur	*[43]|*[44]	_	_	_	_	
+36-41	3826-3829	det	*[43]|*[44]	_	_	_	_	
+36-42	3830-3839	verkligen	*[43]|*[44]	_	_	_	_	
+36-43	3840-3842	är	*[43]|*[44]	_	_	_	_	
+36-44	3842-3843	.	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3845-3846	#	_	_	_	_	_	
+37-2	3846-3847	P	_	_	_	_	_	
+37-3	3848-3851	IMM	_	_	_	_	_	
+37-4	3851-3852	.	_	_	_	_	_	
+
+#Text=Det återstår att se vem som bryr sig.
+38-1	3854-3857	Det	_	_	_	_	_	
+38-2	3858-3866	återstår	_	_	_	_	_	
+38-3	3867-3870	att	_	_	_	_	_	
+38-4	3871-3873	se	_	_	_	_	_	
+38-5	3874-3877	vem	_	_	_	_	_	
+38-6	3878-3881	som	_	_	_	_	_	
+38-7	3882-3886	bryr	_	_	_	_	_	
+38-8	3887-3890	sig	_	_	_	_	_	
+38-9	3890-3891	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3893-3894	#	_	_	_	_	_	
+39-2	3894-3895	P	_	_	_	_	_	
+39-3	3896-3899	IMM	_	_	_	_	_	
+39-4	3899-3900	.	_	_	_	_	_	
+
+#Text=Dagens debattör.
+40-1	3902-3908	Dagens	_	_	_	_	_	
+40-2	3909-3917	debattör	_	_	_	_	_	
+40-3	3917-3918	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3920-3921	#	_	_	_	_	_	
+41-2	3921-3922	P	_	_	_	_	_	
+41-3	3923-3926	IMM	_	_	_	_	_	
+41-4	3926-3927	.	_	_	_	_	_	
+
+#Text=Ann Svanberg.
+42-1	3929-3932	Ann	_	_	_	_	_	
+42-2	3933-3941	Svanberg	_	_	_	_	_	
+42-3	3941-3942	.	_	_	_	_	_	

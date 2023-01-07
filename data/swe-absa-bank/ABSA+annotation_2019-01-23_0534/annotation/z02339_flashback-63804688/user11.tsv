@@ -1,0 +1,164 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Eurobarometern: 3/4 svenskar är positiva till invandring.
+3-1	18-32	Eurobarometern	_	_	_	_	_	
+3-2	32-33	:	_	_	_	_	_	
+3-3	34-35	3	*[10]	_	_	_	_	
+3-4	35-36	/	*[10]	_	_	_	_	
+3-5	36-37	4	*[10]	_	_	_	_	
+3-6	38-46	svenskar	*[10]	_	_	_	_	
+3-7	47-49	är	_	Target;Source[3]	3-10;3-3[10]	false[3]	4[3]	
+3-8	50-58	positiva	_	Target;Source[3]	3-10;3-3[10]	false[3]	4[3]	
+3-9	59-63	till	_	_	_	_	_	
+3-10	64-74	invandring	*	_	_	_	_	
+3-11	74-75	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	77-78	#	_	_	_	_	_	
+4-2	78-79	P	_	_	_	_	_	
+4-3	80-83	IMM	_	_	_	_	_	
+4-4	83-84	.	_	_	_	_	_	
+
+#Text=Men som vanligt så finns det stora problem med dessa undersökningar:.
+5-1	86-89	Men	_	_	_	_	_	
+5-2	90-93	som	_	_	_	_	_	
+5-3	94-101	vanligt	_	_	_	_	_	
+5-4	102-104	så	_	_	_	_	_	
+5-5	105-110	finns	_	_	_	_	_	
+5-6	111-114	det	_	_	_	_	_	
+5-7	115-120	stora	_	Target[4]	5-10[11]	false[4]	2[4]	
+5-8	121-128	problem	_	Target[4]	5-10[11]	false[4]	2[4]	
+5-9	129-132	med	_	_	_	_	_	
+5-10	133-138	dessa	*[11]	_	_	_	_	
+5-11	139-153	undersökningar	*[11]	_	_	_	_	
+5-12	153-154	:	_	_	_	_	_	
+5-13	154-155	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	157-158	#	_	_	_	_	_	
+6-2	158-159	P	_	_	_	_	_	
+6-3	160-163	IMM	_	_	_	_	_	
+6-4	163-164	.	_	_	_	_	_	
+
+#Text=Hur många vågade uttrycka sin uppriktiga åsikt?.
+7-1	166-169	Hur	_	_	_	_	_	
+7-2	170-175	många	_	_	_	_	_	
+7-3	176-182	vågade	_	Source;Target	7-9;7-4[12]	false	4	
+7-4	183-191	uttrycka	*[12]	_	_	_	_	
+7-5	192-195	sin	*[12]	_	_	_	_	
+7-6	196-206	uppriktiga	*[12]	_	_	_	_	
+7-7	207-212	åsikt	*[12]	_	_	_	_	
+7-8	212-213	?	_	_	_	_	_	
+7-9	213-214	.	*	_	_	_	_	
+
+#Text=#P IMM.
+8-1	216-217	#	_	_	_	_	_	
+8-2	217-218	P	_	_[5]	_	false[5]	2[5]	
+8-3	219-222	IMM	_	_[5]	_	false[5]	2[5]	
+8-4	222-223	.	_	_	_	_	_	
+
+#Text=Hur många var verkligen svenskar som dom frågade?.
+9-1	225-228	Hur	_	_	_	_	_	
+9-2	229-234	många	_	_	_	_	_	
+9-3	235-238	var	_	_	_	_	_	
+9-4	239-248	verkligen	_	_	_	_	_	
+9-5	249-257	svenskar	_	_	_	_	_	
+9-6	258-261	som	_	_	_	_	_	
+9-7	262-265	dom	_	_	_	_	_	
+9-8	266-273	frågade	_	_	_	_	_	
+9-9	273-274	?	_	_	_	_	_	
+9-10	274-275	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	277-278	#	_	_	_	_	_	
+10-2	278-279	P	_	_[6]	_	false[6]	3[6]	
+10-3	280-283	IMM	_	_[6]	_	false[6]	3[6]	
+10-4	283-284	.	_	_	_	_	_	
+
+#Text=Jag tror utan tvekan att svensken är mest positiv av alla i Europa till en utomeuropeisk invandring, men tre av fyra?.
+11-1	286-289	Jag	_	_	_	_	_	
+11-2	290-294	tror	_	Target[7]	11-6[13]	false[7]	3[7]	
+11-3	295-299	utan	_	Target[7]	11-6[13]	false[7]	3[7]	
+11-4	300-306	tvekan	_	Target[7]	11-6[13]	false[7]	3[7]	
+11-5	307-310	att	_	_	_	_	_	
+11-6	311-319	svensken	*[13]	_	_	_	_	
+11-7	320-322	är	*[13]	_	_	_	_	
+11-8	323-327	mest	*[13]	_	_	_	_	
+11-9	328-335	positiv	*[13]	_	_	_	_	
+11-10	336-338	av	*[13]	_	_	_	_	
+11-11	339-343	alla	*[13]	_	_	_	_	
+11-12	344-345	i	*[13]	_	_	_	_	
+11-13	346-352	Europa	*[13]	_	_	_	_	
+11-14	353-357	till	*[13]	_	_	_	_	
+11-15	358-360	en	*[13]	_	_	_	_	
+11-16	361-374	utomeuropeisk	*[13]	_	_	_	_	
+11-17	375-385	invandring	*[13]	_	_	_	_	
+11-18	385-386	,	_	_	_	_	_	
+11-19	387-390	men	_	_	_	_	_	
+11-20	391-394	tre	_	_	_	_	_	
+11-21	395-397	av	_	_	_	_	_	
+11-22	398-402	fyra	_	_	_	_	_	
+11-23	402-403	?	_	_	_	_	_	
+11-24	403-404	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	406-407	#	_	_	_	_	_	
+12-2	407-408	P	_	_	_	_	_	
+12-3	409-412	IMM	_	_	_	_	_	
+12-4	412-413	.	_	_	_	_	_	
+
+#Text=Haha, inte en chans.
+13-1	415-419	Haha	_	_	_	_	_	
+13-2	419-420	,	_	_	_	_	_	
+13-3	421-425	inte	_	_	_	_	_	
+13-4	426-428	en	_	_	_	_	_	
+13-5	429-434	chans	_	_	_	_	_	
+13-6	434-435	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	437-438	#	_	_	_	_	_	
+14-2	438-439	P	_	_[8]	_	false[8]	2[8]	
+14-3	440-443	IMM	_	_[8]	_	false[8]	2[8]	
+14-4	443-444	.	_	_	_	_	_	
+
+#Text=Det börjar snarare att närma sig 50/50 nu.
+15-1	446-449	Det	_	_	_	_	_	
+15-2	450-456	börjar	_	_	_	_	_	
+15-3	457-464	snarare	_	_	_	_	_	
+15-4	465-468	att	_	_	_	_	_	
+15-5	469-474	närma	_	_	_	_	_	
+15-6	475-478	sig	_	_	_	_	_	
+15-7	479-481	50	_	_	_	_	_	
+15-8	481-482	/	_	_	_	_	_	
+15-9	482-484	50	_	_	_	_	_	
+15-10	485-487	nu	_	_	_	_	_	
+15-11	487-488	.	_	_	_	_	_	
+
+#Text=Just därför så snickrade dom ihop denna undersökning i ren desperation.
+16-1	489-493	Just	_	_	_	_	_	
+16-2	494-500	därför	_	_	_	_	_	
+16-3	501-503	så	_	_	_	_	_	
+16-4	504-513	snickrade	_	_	_	_	_	
+16-5	514-517	dom	*	_	_	_	_	
+16-6	518-522	ihop	_	_	_	_	_	
+16-7	523-528	denna	_	_	_	_	_	
+16-8	529-541	undersökning	_	_	_	_	_	
+16-9	542-543	i	_	_	_	_	_	
+16-10	544-547	ren	_	Target[9]	16-5	false[9]	2[9]	
+16-11	548-559	desperation	_	Target[9]	16-5	false[9]	2[9]	
+16-12	559-560	.	_	_	_	_	_	

@@ -1,0 +1,336 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad är ett idealt Sverige ur invandrings och integrationsperspektiv ?
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	
+3-3	25-28	ett	_	_	_	_	_	_	
+3-4	29-35	idealt	_	Target	3-5	false	5	_	
+3-5	36-43	Sverige	*	_	_	_	_	_	
+3-6	44-46	ur	_	_	_	_	_	_	
+3-7	47-58	invandrings	_	_	_	_	_	_	
+3-8	59-62	och	_	_	_	_	_	_	
+3-9	63-85	integrationsperspektiv	_	_	_	_	_	_	
+3-10	86-87	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	89-90	#	_	_	_	_	_	_	
+4-2	90-91	P	_	_	_	_	_	_	
+4-3	92-95	IMM	_	_	_	false	3	_	
+4-4	95-96	.	_	_	_	_	_	_	
+
+#Text=Beroende på vilken bevekelsegrund man har för sitt motstånd mot dagens migrationspolitik torde det önskesamhälle man har se olika ut ?.
+5-1	98-106	Beroende	_	_	_	_	_	_	
+5-2	107-109	på	_	_	_	_	_	_	
+5-3	110-116	vilken	_	_	_	_	_	_	
+5-4	117-131	bevekelsegrund	_	_	_	_	_	_	
+5-5	132-135	man	*	_	_	_	_	_	
+5-6	136-139	har	_	_	_	_	_	_	
+5-7	140-143	för	_	_	_	_	_	_	
+5-8	144-148	sitt	_	_	_	_	_	_	
+5-9	149-157	motstånd	_	Source;Target[1]	5-5;5-11[5]	false[1]	2[1]	_	
+5-10	158-161	mot	_	Source;Target[1]	5-5;5-11[5]	false[1]	2[1]	_	
+5-11	162-168	dagens	*[5]	_	_	_	_	_	
+5-12	169-186	migrationspolitik	*[5]	_	_	_	_	_	
+5-13	187-192	torde	_	_	_	_	_	_	
+5-14	193-196	det	_	_	_	_	_	_	
+5-15	197-210	önskesamhälle	*	Target	5-15	false	4	_	
+5-16	211-214	man	_	_	_	_	_	_	
+5-17	215-218	har	_	_	_	_	_	_	
+5-18	219-221	se	_	_	_	_	_	_	
+5-19	222-227	olika	_	_	_	_	_	_	
+5-20	228-230	ut	_	_	_	_	_	_	
+5-21	231-232	?	_	_	_	_	_	_	
+5-22	232-233	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	235-236	#	_	_	_	_	_	_	
+6-2	236-237	P	_	_	_	_	_	_	
+6-3	238-241	IMM	_	_	_	false	3	_	
+6-4	241-242	.	_	_	_	_	_	_	
+
+#Text=Man kan tänka sig att man accepterar dagens situation, ett annat alternativ är att man bara accepterar kvotflyktingar, ett tredje alternativ kan vara att man bara accepterar arbetskraftsinvandring och ett annat alternativ kan vara att man av säger nej till all invandring och alla flyktingar.
+7-1	244-247	Man	_	_	_	_	_	_	
+7-2	248-251	kan	_	_	_	_	_	_	
+7-3	252-257	tänka	_	_	_	_	_	_	
+7-4	258-261	sig	_	_	_	_	_	_	
+7-5	262-265	att	_	_	_	_	_	_	
+7-6	266-269	man	*	_	_	_	_	_	
+7-7	270-280	accepterar	_	Source;Target	7-6;7-8[6]	false	3	_	
+7-8	281-287	dagens	*[6]	_	_	_	_	_	
+7-9	288-297	situation	*[6]	_	_	_	_	_	
+7-10	297-298	,	_	_	_	_	_	_	
+7-11	299-302	ett	_	_	_	_	_	_	
+7-12	303-308	annat	_	_	_	_	_	_	
+7-13	309-319	alternativ	_	_	_	_	_	_	
+7-14	320-322	är	_	_	_	_	_	_	
+7-15	323-326	att	_	_	_	_	_	_	
+7-16	327-330	man	*	_	_	_	_	_	
+7-17	331-335	bara	_	_	_	_	_	_	
+7-18	336-346	accepterar	_	Target;Source	7-19;7-16	false	3	_	
+7-19	347-361	kvotflyktingar	*	_	_	_	_	_	
+7-20	361-362	,	_	_	_	_	_	_	
+7-21	363-366	ett	_	_	_	_	_	_	
+7-22	367-373	tredje	_	_	_	_	_	_	
+7-23	374-384	alternativ	_	_	_	_	_	_	
+7-24	385-388	kan	_	_	_	_	_	_	
+7-25	389-393	vara	_	_	_	_	_	_	
+7-26	394-397	att	_	_	_	_	_	_	
+7-27	398-401	man	*	_	_	_	_	_	
+7-28	402-406	bara	_	_	_	_	_	_	
+7-29	407-417	accepterar	_	Source;Target	7-27;7-30	false	3	_	
+7-30	418-440	arbetskraftsinvandring	*	_	_	_	_	_	
+7-31	441-444	och	_	_	_	_	_	_	
+7-32	445-448	ett	_	_	_	_	_	_	
+7-33	449-454	annat	_	_	_	_	_	_	
+7-34	455-465	alternativ	_	_	_	_	_	_	
+7-35	466-469	kan	_	_	_	_	_	_	
+7-36	470-474	vara	_	_	_	_	_	_	
+7-37	475-478	att	_	_	_	_	_	_	
+7-38	479-482	man	*	_	_	_	_	_	
+7-39	483-485	av	_	_	_	_	_	_	
+7-40	486-491	säger	_	Source;Target[2]	7-38;7-43[7]	false[2]	2[2]	_	
+7-41	492-495	nej	_	Source;Target[2]	7-38;7-43[7]	false[2]	2[2]	_	
+7-42	496-500	till	_	Source;Target[2]	7-38;7-43[7]	false[2]	2[2]	_	
+7-43	501-504	all	*[7]	_	_	_	_	_	
+7-44	505-515	invandring	*[7]	_	_	_	_	_	
+7-45	516-519	och	*[7]	_	_	_	_	_	
+7-46	520-524	alla	*[7]	_	_	_	_	_	
+7-47	525-535	flyktingar	*[7]	_	_	_	_	_	
+7-48	535-536	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	538-539	#	_	_	_	_	_	_	
+8-2	539-540	P	_	_	_	_	_	_	
+8-3	541-544	IMM	_	_	_	false	3	_	
+8-4	544-545	.	_	_	_	_	_	_	
+
+#Text=Man kan ha en bevekelsegrund som är krasst ekonomisk eller diskutera i termer av folkutbyte, etnicitet, bakgrund, religion eller språk.
+9-1	547-550	Man	_	_	_	_	_	_	
+9-2	551-554	kan	_	_	_	_	_	_	
+9-3	555-557	ha	_	_	_	_	_	_	
+9-4	558-560	en	_	_	_	_	_	_	
+9-5	561-575	bevekelsegrund	_	_	_	_	_	_	
+9-6	576-579	som	_	_	_	_	_	_	
+9-7	580-582	är	_	_	_	_	_	_	
+9-8	583-589	krasst	_	Target	9-9	false	2	_	
+9-9	590-599	ekonomisk	*	_	_	_	_	_	
+9-10	600-605	eller	_	_	_	_	_	_	
+9-11	606-615	diskutera	_	_	_	_	_	_	
+9-12	616-617	i	_	_	_	_	_	_	
+9-13	618-624	termer	_	_	_	_	_	_	
+9-14	625-627	av	_	_	_	_	_	_	
+9-15	628-638	folkutbyte	_	_	_	_	_	_	
+9-16	638-639	,	_	_	_	_	_	_	
+9-17	640-649	etnicitet	_	_	_	_	_	_	
+9-18	649-650	,	_	_	_	_	_	_	
+9-19	651-659	bakgrund	_	_	_	_	_	_	
+9-20	659-660	,	_	_	_	_	_	_	
+9-21	661-669	religion	_	_	_	_	_	_	
+9-22	670-675	eller	_	_	_	_	_	_	
+9-23	676-681	språk	_	_	_	_	_	_	
+9-24	681-682	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	684-685	#	_	_	_	_	_	_	
+10-2	685-686	P	_	_	_	_	_	_	
+10-3	687-690	IMM	_	_	_	false	3	_	
+10-4	690-691	.	_	_	_	_	_	_	
+
+#Text=Beroende på hur man resonerar och vad man baserar sitt ställningstagande på kommer man att önska sig ett Sverige som finns eller ett Sverige som fanns.
+11-1	693-701	Beroende	_	_	_	_	_	_	
+11-2	702-704	på	_	_	_	_	_	_	
+11-3	705-708	hur	_	_	_	_	_	_	
+11-4	709-712	man	_	_	_	_	_	_	
+11-5	713-722	resonerar	_	_	_	_	_	_	
+11-6	723-726	och	_	_	_	_	_	_	
+11-7	727-730	vad	_	_	_	_	_	_	
+11-8	731-734	man	_	_	_	_	_	_	
+11-9	735-742	baserar	_	_	_	_	_	_	
+11-10	743-747	sitt	_	_	_	_	_	_	
+11-11	748-765	ställningstagande	_	_	_	_	_	_	
+11-12	766-768	på	_	_	_	_	_	_	
+11-13	769-775	kommer	_	_	_	_	_	_	
+11-14	776-779	man	_	_	_	_	_	_	
+11-15	780-783	att	_	_	_	_	_	_	
+11-16	784-789	önska	_	_	_	_	_	_	
+11-17	790-793	sig	_	_	_	_	_	_	
+11-18	794-797	ett	_	_	_	_	_	_	
+11-19	798-805	Sverige	_	_	_	_	_	_	
+11-20	806-809	som	_	_	_	_	_	_	
+11-21	810-815	finns	_	_	_	_	_	_	
+11-22	816-821	eller	_	_	_	_	_	_	
+11-23	822-825	ett	_	_	_	_	_	_	
+11-24	826-833	Sverige	_	_	_	_	_	_	
+11-25	834-837	som	_	_	_	_	_	_	
+11-26	838-843	fanns	_	_	_	_	_	_	
+11-27	843-844	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	846-847	#	_	_	_	_	_	_	
+12-2	847-848	P	_	_	_	_	_	_	
+12-3	849-852	IMM	_	_	_	_	_	_	
+12-4	852-853	.	_	_	_	_	_	_	
+
+#Text=Frågeställningarna blir följande.
+13-1	855-873	Frågeställningarna	_	_	_	_	_	_	
+13-2	874-878	blir	_	_	_	_	_	_	
+13-3	879-887	följande	_	_	_	_	_	_	
+13-4	887-888	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+14-1	890-891	#	_	_	_	_	_	_	
+14-2	891-892	P	_	_	_	_	_	_	
+14-3	893-896	IMM	_	_	_	false	3	_	
+
+#Text=.
+15-1	896-897	.	_	_	_	_	_	_	
+
+#Text=- Ser du rent ekonomiskt på invandringen och flyktingmottagandet när du ser ditt önskesamhälle?.
+16-1	899-900	-	_	_	_	_	_	_	
+16-2	901-904	Ser	_	_	_	_	_	_	
+16-3	905-907	du	_	_	_	_	_	_	
+16-4	908-912	rent	_	_	_	_	_	_	
+16-5	913-923	ekonomiskt	_	_	_	_	_	_	
+16-6	924-926	på	_	_	_	_	_	_	
+16-7	927-939	invandringen	_	_	_	_	_	_	
+16-8	940-943	och	_	_	_	_	_	_	
+16-9	944-963	flyktingmottagandet	_	_	_	_	_	_	
+16-10	964-967	när	_	_	_	_	_	_	
+16-11	968-970	du	_	_	_	_	_	_	
+16-12	971-974	ser	_	_	_	_	_	_	
+16-13	975-979	ditt	_	_	_	_	_	_	
+16-14	980-993	önskesamhälle	*	Target	16-14	false	4	_	
+16-15	993-994	?	_	_	_	_	_	_	
+16-16	994-995	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+17-1	997-998	#	_	_	_	_	_	_	
+17-2	998-999	P	_	_	_	_	_	_	
+17-3	1000-1003	IMM	_	_	_	false	3	_	
+
+#Text=.
+18-1	1003-1004	.	_	_	_	_	_	_	
+
+#Text=- Lägger du in etniska aspekter, den svenska folkstammen, folkutbyte, germanska rasens bevarande etc när du ser ditt önskesamhälle ?.
+19-1	1006-1007	-	_	_	_	_	_	_	
+19-2	1008-1014	Lägger	_	_	_	_	_	_	
+19-3	1015-1017	du	_	_	_	_	_	_	
+19-4	1018-1020	in	_	_	_	_	_	_	
+19-5	1021-1028	etniska	_	_	_	_	_	_	
+19-6	1029-1037	aspekter	_	_	_	_	_	_	
+19-7	1037-1038	,	_	_	_	_	_	_	
+19-8	1039-1042	den	_	_	_	_	_	_	
+19-9	1043-1050	svenska	_	_	_	_	_	_	
+19-10	1051-1062	folkstammen	_	_	_	_	_	_	
+19-11	1062-1063	,	_	_	_	_	_	_	
+19-12	1064-1074	folkutbyte	_	_	_	_	_	_	
+19-13	1074-1075	,	_	_	_	_	_	_	
+19-14	1076-1085	germanska	*[8]	_	_	_	_	_	
+19-15	1086-1092	rasens	*[8]	_	_	_	_	_	
+19-16	1093-1102	bevarande	_	Source;Target	19-24;19-14[8]	false	4	_	
+19-17	1103-1106	etc	_	_	_	_	_	_	
+19-18	1107-1110	när	_	_	_	_	_	_	
+19-19	1111-1113	du	_	_	_	_	_	_	
+19-20	1114-1117	ser	_	_	_	_	_	_	
+19-21	1118-1122	ditt	_	_	_	_	_	_	
+19-22	1123-1136	önskesamhälle	*	Target	19-22	false	4	_	
+19-23	1137-1138	?	_	_	_	_	_	_	
+19-24	1138-1139	.	*	_	_	_	_	_	
+
+#Text=#P IMM
+20-1	1141-1142	#	_	_	_	_	_	_	
+20-2	1142-1143	P	_	_	_	_	_	_	
+20-3	1144-1147	IMM	_	_	_	false	3	_	
+
+#Text=.
+21-1	1147-1148	.	_	_	_	_	_	_	
+
+#Text=- Vid vilket årtionde menar du att invandringen var optimal i Sverige?.
+22-1	1150-1151	-	_	_	_	_	_	_	
+22-2	1152-1155	Vid	_	_	_	_	_	_	
+22-3	1156-1162	vilket	_	_	_	_	_	_	
+22-4	1163-1171	årtionde	_	_	_	_	_	_	
+22-5	1172-1177	menar	_	_	_	_	_	_	
+22-6	1178-1180	du	_	_	_	_	_	_	
+22-7	1181-1184	att	_	_	_	_	_	_	
+22-8	1185-1197	invandringen	*	_	_	_	_	_	
+22-9	1198-1201	var	_	_	_	_	_	_	
+22-10	1202-1209	optimal	_	Target	22-8	false	5	_	
+22-11	1210-1211	i	_	_	_	_	_	_	
+22-12	1212-1219	Sverige	_	_	_	_	_	_	
+22-13	1219-1220	?	_	_	_	_	_	_	
+22-14	1220-1221	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+23-1	1223-1224	#	_	_	_	_	_	_	
+23-2	1224-1225	P	_	_	_	_	_	_	
+23-3	1226-1229	IMM	_	_	_	false	3	_	
+
+#Text=.
+24-1	1229-1230	.	_	_	_	_	_	_	
+
+#Text=- Är noll i invandring och flyktingmottagande det optimala för ett samhälle?.
+25-1	1232-1233	-	_	_	_	_	_	_	
+25-2	1234-1236	Är	_	_	_	false	5	_	
+25-3	1237-1241	noll	*[9]	_	_	_	_	_	
+25-4	1242-1243	i	*[9]	_	_	_	_	_	
+25-5	1244-1254	invandring	*[9]	_	_	_	_	_	
+25-6	1255-1258	och	*[9]	_	_	_	_	_	
+25-7	1259-1277	flyktingmottagande	*[9]	_	_	_	_	_	
+25-8	1278-1281	det	_	Target[3]	25-3[9]	false[3]	5[3]	25-2[0_3]	
+25-9	1282-1290	optimala	_	Target[3]	25-3[9]	false[3]	5[3]	_	
+25-10	1291-1294	för	_	_	_	_	_	_	
+25-11	1295-1298	ett	_	_	_	_	_	_	
+25-12	1299-1307	samhälle	_	_	_	_	_	_	
+25-13	1307-1308	?	_	_	_	_	_	_	
+25-14	1308-1309	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+26-1	1311-1312	#	_	_	_	_	_	_	
+26-2	1312-1313	P	_	_	_	_	_	_	
+26-3	1314-1317	IMM	_	_	_	false	3	_	
+
+#Text=.
+27-1	1317-1318	.	_	_	_	_	_	_	
+
+#Text=- Det finns idag inget parti vars grund i migrationspolitiken är "att bevara Sverige svenskt" saknar du ett sådant parti?.
+28-1	1320-1321	-	_	_	_	_	_	_	
+28-2	1322-1325	Det	_	_	_	_	_	_	
+28-3	1326-1331	finns	_	_	_	_	_	_	
+28-4	1332-1336	idag	_	_	_	_	_	_	
+28-5	1337-1342	inget	_	_	_	_	_	_	
+28-6	1343-1348	parti	_	_	_	_	_	_	
+28-7	1349-1353	vars	_	_	_	_	_	_	
+28-8	1354-1359	grund	_	_	_	_	_	_	
+28-9	1360-1361	i	_	_	_	_	_	_	
+28-10	1362-1381	migrationspolitiken	_	_	_	_	_	_	
+28-11	1382-1384	är	_	_	_	_	_	_	
+28-12	1385-1386	"	_	_	_	_	_	_	
+28-13	1386-1389	att	_	Target;Source[4]	28-15[10];28-24	false[4]	4[4]	_	
+28-14	1390-1396	bevara	_	Target;Source[4]	28-15[10];28-24	false[4]	4[4]	_	
+28-15	1397-1404	Sverige	*[10]	_	_	_	_	_	
+28-16	1405-1412	svenskt	*[10]	_	_	_	_	_	
+28-17	1412-1413	"	_	_	_	_	_	_	
+28-18	1414-1420	saknar	_	_	_	_	_	_	
+28-19	1421-1423	du	_	_	_	_	_	_	
+28-20	1424-1427	ett	_	_	_	_	_	_	
+28-21	1428-1434	sådant	_	_	_	_	_	_	
+28-22	1435-1440	parti	_	_	_	_	_	_	
+28-23	1440-1441	?	_	_	_	_	_	_	
+28-24	1441-1442	.	*	_	_	_	_	_	

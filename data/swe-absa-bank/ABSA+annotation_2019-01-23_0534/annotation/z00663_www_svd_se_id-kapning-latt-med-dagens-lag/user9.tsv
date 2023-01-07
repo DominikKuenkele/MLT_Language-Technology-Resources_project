@@ -1,0 +1,720 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Id-kapning lätt med dagens lag.
+3-1	18-28	Id-kapning	_	_	_	_	_	
+3-2	29-33	lätt	_	_	_	_	_	
+3-3	34-37	med	_	_	_	_	_	
+3-4	38-44	dagens	_	_	_	_	_	
+3-5	45-48	lag	_	_	_	_	_	
+3-6	48-49	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	51-52	#	_	_	_	_	_	
+4-2	52-53	P	_	_	_	_	_	
+4-3	54-57	IMM	_	_	_	_	_	
+4-4	57-58	.	_	_	_	_	_	
+
+#Text=Att regeringen vill införa en ny straffbestämmelse är bra men utmaningarna är flera och tyvärr är det tveksamt om kriminaliseringen i sig kommer att påverka brottslingarna i någon större utsträckning.
+5-1	60-63	Att	*[6]	_	_	_	_	
+5-2	64-74	regeringen	*[6]	_	_	_	_	
+5-3	75-79	vill	*[6]	_	_	_	_	
+5-4	80-86	införa	*[6]	_	_	_	_	
+5-5	87-89	en	*[6]	_	_	_	_	
+5-6	90-92	ny	*[6]	_	_	_	_	
+5-7	93-110	straffbestämmelse	*[6]	_	_	_	_	
+5-8	111-113	är	_	Target[1]	5-1[6]	false[1]	4[1]	
+5-9	114-117	bra	_	Target[1]	5-1[6]	false[1]	4[1]	
+5-10	118-121	men	_	_	_	_	_	
+5-11	122-134	utmaningarna	_	_	_	_	_	
+5-12	135-137	är	_	_	_	_	_	
+5-13	138-143	flera	_	_	_	_	_	
+5-14	144-147	och	_	_	_	_	_	
+5-15	148-154	tyvärr	_	Target	5-16[7]	false	2	
+5-16	155-157	är	*[7]	_	_	_	_	
+5-17	158-161	det	*[7]	_	_	_	_	
+5-18	162-170	tveksamt	*[7]	_	_	_	_	
+5-19	171-173	om	*[7]	_	_	_	_	
+5-20	174-191	kriminaliseringen	*[7]	_	_	_	_	
+5-21	192-193	i	*[7]	_	_	_	_	
+5-22	194-197	sig	*[7]	_	_	_	_	
+5-23	198-204	kommer	*[7]	_	_	_	_	
+5-24	205-208	att	*[7]	_	_	_	_	
+5-25	209-216	påverka	*[7]	_	_	_	_	
+5-26	217-231	brottslingarna	*[7]	_	_	_	_	
+5-27	232-233	i	*[7]	_	_	_	_	
+5-28	234-239	någon	*[7]	_	_	_	_	
+5-29	240-246	större	*[7]	_	_	_	_	
+5-30	247-259	utsträckning	*[7]	_	_	_	_	
+5-31	259-260	.	_	_	_	_	_	
+
+#Text=Per Geijeroch Karin Johansson.
+6-1	261-264	Per	_	_	_	_	_	
+6-2	265-274	Geijeroch	_	_	_	_	_	
+6-3	275-280	Karin	_	_	_	_	_	
+6-4	281-290	Johansson	_	_	_	_	_	
+6-5	290-291	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	293-294	#	_	_	_	_	_	
+7-2	294-295	P	_	_	_	_	_	
+7-3	296-299	IMM	_	_	_	_	_	
+7-4	299-300	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+8-1	302-305	Det	_	_	_	_	_	
+8-2	306-309	här	_	_	_	_	_	
+8-3	310-312	är	_	_	_	_	_	
+8-4	313-315	en	_	_	_	_	_	
+8-5	316-330	argumenterande	_	_	_	_	_	
+8-6	331-335	text	_	_	_	_	_	
+8-7	336-339	med	_	_	_	_	_	
+8-8	340-345	syfte	_	_	_	_	_	
+8-9	346-349	att	_	_	_	_	_	
+8-10	350-357	påverka	_	_	_	_	_	
+8-11	357-358	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+9-1	359-368	Åsikterna	_	_	_	_	_	
+9-2	369-372	som	_	_	_	_	_	
+9-3	373-381	uttrycks	_	_	_	_	_	
+9-4	382-384	är	_	_	_	_	_	
+9-5	385-396	skribentens	_	_	_	_	_	
+9-6	397-401	egna	_	_	_	_	_	
+9-7	401-402	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	404-405	#	_	_	_	_	_	
+10-2	405-406	P	_	_	_	_	_	
+10-3	407-410	IMM	_	_	_	_	_	
+10-4	410-411	.	_	_	_	_	_	
+
+#Text=Svensk Handel välkomnar och uppskattar regeringens engagemang och initiativ i kampen mot id-kapningar (Brännpunkt 22/7) och hoppas detta är det första av flera steg i det viktiga arbetet för att bekämpa såväl id-kapningarna som de påföljande bedrägerierna.
+11-1	413-419	Svensk	*[8]	_	_	_	_	
+11-2	420-426	Handel	*[8]	_	_	_	_	
+11-3	427-436	välkomnar	_	Source;Target[2]	11-1[8];11-6[9]	false[2]	4[2]	
+11-4	437-440	och	_	Source;Target[2]	11-1[8];11-6[9]	false[2]	4[2]	
+11-5	441-451	uppskattar	_	Source;Target[2]	11-1[8];11-6[9]	false[2]	4[2]	
+11-6	452-463	regeringens	*[9]	_	_	_	_	
+11-7	464-474	engagemang	*[9]	_	_	_	_	
+11-8	475-478	och	*[9]	_	_	_	_	
+11-9	479-488	initiativ	*[9]	_	_	_	_	
+11-10	489-490	i	*[9]	_	_	_	_	
+11-11	491-497	kampen	*[9]	_	_	_	_	
+11-12	498-501	mot	*[9]	_	_	_	_	
+11-13	502-514	id-kapningar	*[9]	_	_	_	_	
+11-14	515-516	(	_	_	_	_	_	
+11-15	516-526	Brännpunkt	_	_	_	_	_	
+11-16	527-529	22	_	_	_	_	_	
+11-17	529-530	/	_	_	_	_	_	
+11-18	530-531	7	_	_	_	_	_	
+11-19	531-532	)	_	_	_	_	_	
+11-20	533-536	och	_	_	_	_	_	
+11-21	537-543	hoppas	_	_	_	_	_	
+11-22	544-549	detta	_	_	_	_	_	
+11-23	550-552	är	_	_	_	_	_	
+11-24	553-556	det	_	_	_	_	_	
+11-25	557-563	första	_	_	_	_	_	
+11-26	564-566	av	_	_	_	_	_	
+11-27	567-572	flera	_	_	_	_	_	
+11-28	573-577	steg	_	_	_	_	_	
+11-29	578-579	i	_	_	_	_	_	
+11-30	580-583	det	_	_	_	_	_	
+11-31	584-591	viktiga	_	_	_	_	_	
+11-32	592-599	arbetet	_	_	_	_	_	
+11-33	600-603	för	_	_	_	_	_	
+11-34	604-607	att	_	_	_	_	_	
+11-35	608-615	bekämpa	_	_	_	_	_	
+11-36	616-621	såväl	_	_	_	_	_	
+11-37	622-636	id-kapningarna	_	_	_	_	_	
+11-38	637-640	som	_	_	_	_	_	
+11-39	641-643	de	_	_	_	_	_	
+11-40	644-654	påföljande	_	_	_	_	_	
+11-41	655-668	bedrägerierna	_	_	_	_	_	
+11-42	668-669	.	_	_	_	_	_	
+
+#Text=En positiv effekt av de åtgärder som regeringen föreslår blir också att den som drabbas av en id-kapning ges status som brottsoffer och målsägande.
+12-1	670-672	En	_	_	_	_	_	
+12-2	673-680	positiv	_	Target	12-3	false	4	
+12-3	681-687	effekt	*	_	_	_	_	
+12-4	688-690	av	_	_	_	_	_	
+12-5	691-693	de	_	_	_	_	_	
+12-6	694-702	åtgärder	_	_	_	_	_	
+12-7	703-706	som	_	_	_	_	_	
+12-8	707-717	regeringen	_	_	_	_	_	
+12-9	718-726	föreslår	_	_	_	_	_	
+12-10	727-731	blir	_	_	_	_	_	
+12-11	732-737	också	_	_	_	_	_	
+12-12	738-741	att	_	_	_	_	_	
+12-13	742-745	den	_	_	_	_	_	
+12-14	746-749	som	_	_	_	_	_	
+12-15	750-757	drabbas	_	_	_	_	_	
+12-16	758-760	av	_	_	_	_	_	
+12-17	761-763	en	_	_	_	_	_	
+12-18	764-774	id-kapning	_	_	_	_	_	
+12-19	775-778	ges	_	_	_	_	_	
+12-20	779-785	status	_	_	_	_	_	
+12-21	786-789	som	_	_	_	_	_	
+12-22	790-801	brottsoffer	_	_	_	_	_	
+12-23	802-805	och	_	_	_	_	_	
+12-24	806-816	målsägande	_	_	_	_	_	
+12-25	816-817	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	819-820	#	_	_	_	_	_	
+13-2	820-821	P	_	_	_	_	_	
+13-3	822-825	IMM	_	_	_	_	_	
+13-4	825-826	.	_	_	_	_	_	
+
+#Text=Att regeringen vill införa en ny straffbestämmelse är bra men utmaningarna är flera och tyvärr är det tveksamt om kriminaliseringen i sig kommer att påverka brottslingarna i någon större utsträckning.
+14-1	828-831	Att	*[10]	_	_	_	_	
+14-2	832-842	regeringen	*[10]	_	_	_	_	
+14-3	843-847	vill	*[10]	_	_	_	_	
+14-4	848-854	införa	*[10]	_	_	_	_	
+14-5	855-857	en	*[10]	_	_	_	_	
+14-6	858-860	ny	*[10]	_	_	_	_	
+14-7	861-878	straffbestämmelse	*[10]	_	_	_	_	
+14-8	879-881	är	_	Target[3]	14-1[10]	false[3]	4[3]	
+14-9	882-885	bra	_	Target[3]	14-1[10]	false[3]	4[3]	
+14-10	886-889	men	_	_	_	_	_	
+14-11	890-902	utmaningarna	_	_	_	_	_	
+14-12	903-905	är	_	_	_	_	_	
+14-13	906-911	flera	_	_	_	_	_	
+14-14	912-915	och	_	_	_	_	_	
+14-15	916-922	tyvärr	_	Target	14-16[11]	false	2	
+14-16	923-925	är	*[11]	_	_	_	_	
+14-17	926-929	det	*[11]	_	_	_	_	
+14-18	930-938	tveksamt	*[11]	_	_	_	_	
+14-19	939-941	om	*[11]	_	_	_	_	
+14-20	942-959	kriminaliseringen	*[11]	_	_	_	_	
+14-21	960-961	i	*[11]	_	_	_	_	
+14-22	962-965	sig	*[11]	_	_	_	_	
+14-23	966-972	kommer	*[11]	_	_	_	_	
+14-24	973-976	att	*[11]	_	_	_	_	
+14-25	977-984	påverka	*[11]	_	_	_	_	
+14-26	985-999	brottslingarna	*[11]	_	_	_	_	
+14-27	1000-1001	i	*[11]	_	_	_	_	
+14-28	1002-1007	någon	*[11]	_	_	_	_	
+14-29	1008-1014	större	*[11]	_	_	_	_	
+14-30	1015-1027	utsträckning	*[11]	_	_	_	_	
+14-31	1027-1028	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1030-1031	#	_	_	_	_	_	
+15-2	1031-1032	P	_	_	_	_	_	
+15-3	1033-1036	IMM	_	_	_	_	_	
+15-4	1036-1037	.	_	_	_	_	_	
+
+#Text=Svensk Handel menar därför att:.
+16-1	1039-1045	Svensk	_	_	_	_	_	
+16-2	1046-1052	Handel	_	_	_	_	_	
+16-3	1053-1058	menar	_	_	_	_	_	
+16-4	1059-1065	därför	_	_	_	_	_	
+16-5	1066-1069	att	_	_	_	_	_	
+16-6	1069-1070	:	_	_	_	_	_	
+16-7	1070-1071	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**1.
+17-1	1073-1074	#	_	_	_	_	_	
+17-2	1074-1075	P	_	_	_	_	_	
+17-3	1076-1079	IMM	_	_	_	_	_	
+17-4	1079-1080	.	_	_	_	_	_	
+17-5	1082-1083	*	_	_	_	_	_	
+17-6	1083-1084	*	_	_	_	_	_	
+17-7	1084-1085	1	_	_	_	_	_	
+17-8	1085-1086	.	_	_	_	_	_	
+
+#Text=**Straffen också behöver skärpas om man ska kunna påverka gärningspersonerna.
+18-1	1087-1088	*	_	_	_	_	_	
+18-2	1088-1089	*	_	_	_	_	_	
+18-3	1089-1097	Straffen	_	_	_	_	_	
+18-4	1098-1103	också	_	_	_	_	_	
+18-5	1104-1111	behöver	_	_	_	_	_	
+18-6	1112-1119	skärpas	_	_	_	_	_	
+18-7	1120-1122	om	_	_	_	_	_	
+18-8	1123-1126	man	_	_	_	_	_	
+18-9	1127-1130	ska	_	_	_	_	_	
+18-10	1131-1136	kunna	_	_	_	_	_	
+18-11	1137-1144	påverka	_	_	_	_	_	
+18-12	1145-1163	gärningspersonerna	_	_	_	_	_	
+18-13	1163-1164	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1166-1167	#	_	_	_	_	_	
+19-2	1167-1168	P	_	_	_	_	_	
+19-3	1169-1172	IMM	_	_	_	_	_	
+19-4	1172-1173	.	_	_	_	_	_	
+
+#Text=Ett brott som begås i en bostad är i dag på grund av kränkningen, ett allvarligare brott än om brottet begås någon annanstans.
+20-1	1175-1178	Ett	_	_	_	_	_	
+20-2	1179-1184	brott	_	_	_	_	_	
+20-3	1185-1188	som	_	_	_	_	_	
+20-4	1189-1194	begås	_	_	_	_	_	
+20-5	1195-1196	i	_	_	_	_	_	
+20-6	1197-1199	en	_	_	_	_	_	
+20-7	1200-1206	bostad	_	_	_	_	_	
+20-8	1207-1209	är	_	_	_	_	_	
+20-9	1210-1211	i	_	_	_	_	_	
+20-10	1212-1215	dag	_	_	_	_	_	
+20-11	1216-1218	på	_	_	_	_	_	
+20-12	1219-1224	grund	_	_	_	_	_	
+20-13	1225-1227	av	_	_	_	_	_	
+20-14	1228-1239	kränkningen	_	_	_	_	_	
+20-15	1239-1240	,	_	_	_	_	_	
+20-16	1241-1244	ett	_	_	_	_	_	
+20-17	1245-1257	allvarligare	_	_	_	_	_	
+20-18	1258-1263	brott	_	_	_	_	_	
+20-19	1264-1266	än	_	_	_	_	_	
+20-20	1267-1269	om	_	_	_	_	_	
+20-21	1270-1277	brottet	_	_	_	_	_	
+20-22	1278-1283	begås	_	_	_	_	_	
+20-23	1284-1289	någon	_	_	_	_	_	
+20-24	1290-1300	annanstans	_	_	_	_	_	
+20-25	1300-1301	.	_	_	_	_	_	
+
+#Text=Vi menar att användandet av någon annans identitet bör betraktas på motsvarande sätt eftersom det handlar om en personlig kränkning.
+21-1	1302-1304	Vi	_	_	_	_	_	
+21-2	1305-1310	menar	_	_	_	_	_	
+21-3	1311-1314	att	_	_	_	_	_	
+21-4	1315-1326	användandet	_	_	_	_	_	
+21-5	1327-1329	av	_	_	_	_	_	
+21-6	1330-1335	någon	_	_	_	_	_	
+21-7	1336-1342	annans	_	_	_	_	_	
+21-8	1343-1352	identitet	_	_	_	_	_	
+21-9	1353-1356	bör	_	_	_	_	_	
+21-10	1357-1366	betraktas	_	_	_	_	_	
+21-11	1367-1369	på	_	_	_	_	_	
+21-12	1370-1381	motsvarande	_	_	_	_	_	
+21-13	1382-1386	sätt	_	_	_	_	_	
+21-14	1387-1395	eftersom	_	_	_	_	_	
+21-15	1396-1399	det	_	_	_	_	_	
+21-16	1400-1407	handlar	_	_	_	_	_	
+21-17	1408-1410	om	_	_	_	_	_	
+21-18	1411-1413	en	_	_	_	_	_	
+21-19	1414-1423	personlig	_	_	_	_	_	
+21-20	1424-1433	kränkning	_	_	_	_	_	
+21-21	1433-1434	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1436-1437	#	_	_	_	_	_	
+22-2	1437-1438	P	_	_	_	_	_	
+22-3	1439-1442	IMM	_	_	_	_	_	
+22-4	1442-1443	.	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+23-1	1445-1458	Skräddarsydda	_	_	_	_	_	
+23-2	1459-1465	kurser	_	_	_	_	_	
+23-3	1466-1467	i	_	_	_	_	_	
+23-4	1468-1473	ämnen	_	_	_	_	_	
+23-5	1474-1477	som	_	_	_	_	_	
+23-6	1478-1489	intresserar	_	_	_	_	_	
+23-7	1490-1493	och	_	_	_	_	_	
+23-8	1494-1503	engagerar	_	_	_	_	_	
+23-9	1504-1508	både	_	_	_	_	_	
+23-10	1509-1514	kropp	_	_	_	_	_	
+23-11	1515-1518	och	_	_	_	_	_	
+23-12	1519-1523	själ	_	_	_	_	_	
+23-13	1523-1524	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**2.
+24-1	1526-1527	#	_	_	_	_	_	
+24-2	1527-1528	P	_	_	_	_	_	
+24-3	1529-1532	IMM	_	_	_	_	_	
+24-4	1532-1533	.	_	_	_	_	_	
+24-5	1535-1536	*	_	_	_	_	_	
+24-6	1536-1537	*	_	_	_	_	_	
+24-7	1537-1538	2	_	_	_	_	_	
+24-8	1538-1539	.	_	_	_	_	_	
+
+#Text=**Regeringen måste rikta blickarna inåt, mot den lagstiftning som möjliggör id-kapningarna.
+25-1	1540-1541	*	_	_	_	_	_	
+25-2	1541-1542	*	_	_	_	_	_	
+25-3	1542-1552	Regeringen	_	_	_	_	_	
+25-4	1553-1558	måste	_	_	_	_	_	
+25-5	1559-1564	rikta	_	_	_	_	_	
+25-6	1565-1574	blickarna	_	_	_	_	_	
+25-7	1575-1579	inåt	_	_	_	_	_	
+25-8	1579-1580	,	_	_	_	_	_	
+25-9	1581-1584	mot	_	_	_	_	_	
+25-10	1585-1588	den	_	_	_	_	_	
+25-11	1589-1601	lagstiftning	_	_	_	_	_	
+25-12	1602-1605	som	_	_	_	_	_	
+25-13	1606-1615	möjliggör	_	_	_	_	_	
+25-14	1616-1630	id-kapningarna	_	_	_	_	_	
+25-15	1630-1631	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1633-1634	#	_	_	_	_	_	
+26-2	1634-1635	P	_	_	_	_	_	
+26-3	1636-1639	IMM	_	_	_	_	_	
+26-4	1639-1640	.	_	_	_	_	_	
+
+#Text=Den svenska offentlighetsprincipen som ger alla medborgare möjlighet att via Skatteverket få ut fullständiga personuppgifter, utgör själva motorn i id-kapningsproblematiken.
+27-1	1642-1645	Den	_	_	_	_	_	
+27-2	1646-1653	svenska	_	_	_	_	_	
+27-3	1654-1676	offentlighetsprincipen	_	_	_	_	_	
+27-4	1677-1680	som	_	_	_	_	_	
+27-5	1681-1684	ger	_	_	_	_	_	
+27-6	1685-1689	alla	_	_	_	_	_	
+27-7	1690-1700	medborgare	_	_	_	_	_	
+27-8	1701-1710	möjlighet	_	_	_	_	_	
+27-9	1711-1714	att	_	_	_	_	_	
+27-10	1715-1718	via	_	_	_	_	_	
+27-11	1719-1731	Skatteverket	_	_	_	_	_	
+27-12	1732-1734	få	_	_	_	_	_	
+27-13	1735-1737	ut	_	_	_	_	_	
+27-14	1738-1750	fullständiga	_	_	_	_	_	
+27-15	1751-1766	personuppgifter	_	_	_	_	_	
+27-16	1766-1767	,	_	_	_	_	_	
+27-17	1768-1773	utgör	_	_	_	_	_	
+27-18	1774-1780	själva	_	_	_	_	_	
+27-19	1781-1787	motorn	_	_	_	_	_	
+27-20	1788-1789	i	_	_	_	_	_	
+27-21	1790-1814	id-kapningsproblematiken	*	Target	27-21	false	2	
+27-22	1814-1815	.	_	_	_	_	_	
+
+#Text=Om regeringen vill få tydliga resultat i kampen mot id-bedrägerier måste man därför även rikta blickarna inåt, mot den lagstiftning som gör kapningarna möjliga, och se om det finns möjligheter att med bibehållen offentlighetsprincip ändå begränsa utlämnandet av fullständiga personuppgifter.
+28-1	1816-1818	Om	_	_	_	_	_	
+28-2	1819-1829	regeringen	_	_	_	_	_	
+28-3	1830-1834	vill	_	_	_	_	_	
+28-4	1835-1837	få	_	_	_	_	_	
+28-5	1838-1845	tydliga	_	_	_	_	_	
+28-6	1846-1854	resultat	_	_	_	_	_	
+28-7	1855-1856	i	_	_	_	_	_	
+28-8	1857-1863	kampen	_	_	_	_	_	
+28-9	1864-1867	mot	_	_	_	_	_	
+28-10	1868-1882	id-bedrägerier	_	_	_	_	_	
+28-11	1883-1888	måste	_	_	_	_	_	
+28-12	1889-1892	man	_	_	_	_	_	
+28-13	1893-1899	därför	_	_	_	_	_	
+28-14	1900-1904	även	_	_	_	_	_	
+28-15	1905-1910	rikta	_	_	_	_	_	
+28-16	1911-1920	blickarna	_	_	_	_	_	
+28-17	1921-1925	inåt	_	_	_	_	_	
+28-18	1925-1926	,	_	_	_	_	_	
+28-19	1927-1930	mot	_	_	_	_	_	
+28-20	1931-1934	den	_	_	_	_	_	
+28-21	1935-1947	lagstiftning	_	_	_	_	_	
+28-22	1948-1951	som	_	_	_	_	_	
+28-23	1952-1955	gör	_	_	_	_	_	
+28-24	1956-1967	kapningarna	_	_	_	_	_	
+28-25	1968-1975	möjliga	_	_	_	_	_	
+28-26	1975-1976	,	_	_	_	_	_	
+28-27	1977-1980	och	_	_	_	_	_	
+28-28	1981-1983	se	_	_	_	_	_	
+28-29	1984-1986	om	_	_	_	_	_	
+28-30	1987-1990	det	_	_	_	_	_	
+28-31	1991-1996	finns	_	_	_	_	_	
+28-32	1997-2008	möjligheter	_	_	_	_	_	
+28-33	2009-2012	att	_	_	_	_	_	
+28-34	2013-2016	med	_	_	_	_	_	
+28-35	2017-2027	bibehållen	_	_	_	_	_	
+28-36	2028-2048	offentlighetsprincip	_	_	_	_	_	
+28-37	2049-2053	ändå	_	_	_	_	_	
+28-38	2054-2062	begränsa	_	_	_	_	_	
+28-39	2063-2074	utlämnandet	_	_	_	_	_	
+28-40	2075-2077	av	_	_	_	_	_	
+28-41	2078-2090	fullständiga	_	_	_	_	_	
+28-42	2091-2106	personuppgifter	_	_	_	_	_	
+28-43	2106-2107	.	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2109-2110	#	_	_	_	_	_	
+29-2	2110-2111	P	_	_	_	_	_	
+29-3	2112-2115	IMM	_	_	_	_	_	
+29-4	2115-2116	.	_	_	_	_	_	
+
+#Text=**I januari i år **skapade Upplysningscentralen (UC), Svensk Handel, Polisen, Företagarna och Bankföreningen projektet SMID, Samverkan mot id-kapning.
+30-1	2118-2119	*	_	_	_	_	_	
+30-2	2119-2120	*	_	_	_	_	_	
+30-3	2120-2121	I	_	_	_	_	_	
+30-4	2122-2129	januari	_	_	_	_	_	
+30-5	2130-2131	i	_	_	_	_	_	
+30-6	2132-2134	år	_	_	_	_	_	
+30-7	2135-2136	*	_	_	_	_	_	
+30-8	2136-2137	*	_	_	_	_	_	
+30-9	2137-2144	skapade	_	_	_	_	_	
+30-10	2145-2165	Upplysningscentralen	_	_	_	_	_	
+30-11	2166-2167	(	_	_	_	_	_	
+30-12	2167-2169	UC	_	_	_	_	_	
+30-13	2169-2170	)	_	_	_	_	_	
+30-14	2170-2171	,	_	_	_	_	_	
+30-15	2172-2178	Svensk	_	_	_	_	_	
+30-16	2179-2185	Handel	_	_	_	_	_	
+30-17	2185-2186	,	_	_	_	_	_	
+30-18	2187-2194	Polisen	_	_	_	_	_	
+30-19	2194-2195	,	_	_	_	_	_	
+30-20	2196-2207	Företagarna	_	_	_	_	_	
+30-21	2208-2211	och	_	_	_	_	_	
+30-22	2212-2226	Bankföreningen	_	_	_	_	_	
+30-23	2227-2236	projektet	_	_	_	_	_	
+30-24	2237-2241	SMID	_	_	_	_	_	
+30-25	2241-2242	,	_	_	_	_	_	
+30-26	2243-2252	Samverkan	_	_	_	_	_	
+30-27	2253-2256	mot	_	_	_	_	_	
+30-28	2257-2267	id-kapning	_	_	_	_	_	
+30-29	2267-2268	.	_	_	_	_	_	
+
+#Text=De förslag på åtgärder som justitieministern och övriga artikelförfattare framför är redan i gång i detta forum men det finns mycket kvar att göra.
+31-1	2269-2271	De	_	_	_	_	_	
+31-2	2272-2279	förslag	_	_	_	_	_	
+31-3	2280-2282	på	_	_	_	_	_	
+31-4	2283-2291	åtgärder	_	_	_	_	_	
+31-5	2292-2295	som	_	_	_	_	_	
+31-6	2296-2313	justitieministern	_	_	_	_	_	
+31-7	2314-2317	och	_	_	_	_	_	
+31-8	2318-2324	övriga	_	_	_	_	_	
+31-9	2325-2342	artikelförfattare	_	_	_	_	_	
+31-10	2343-2350	framför	_	_	_	_	_	
+31-11	2351-2353	är	_	_	_	_	_	
+31-12	2354-2359	redan	_	_	_	_	_	
+31-13	2360-2361	i	_	_	_	_	_	
+31-14	2362-2366	gång	_	_	_	_	_	
+31-15	2367-2368	i	_	_	_	_	_	
+31-16	2369-2374	detta	_	_	_	_	_	
+31-17	2375-2380	forum	_	_	_	_	_	
+31-18	2381-2384	men	_	_	_	_	_	
+31-19	2385-2388	det	_	_	_	_	_	
+31-20	2389-2394	finns	_	_	_	_	_	
+31-21	2395-2401	mycket	_	_	_	_	_	
+31-22	2402-2406	kvar	_	_	_	_	_	
+31-23	2407-2410	att	_	_	_	_	_	
+31-24	2411-2415	göra	_	_	_	_	_	
+31-25	2415-2416	.	_	_	_	_	_	
+
+#Text=Svensk Handel menar exempelvis att samtliga kreditupplysningsföretag bör ansluta sig till SMID.
+32-1	2417-2423	Svensk	_	_	_	_	_	
+32-2	2424-2430	Handel	_	_	_	_	_	
+32-3	2431-2436	menar	_	_	_	_	_	
+32-4	2437-2447	exempelvis	_	_	_	_	_	
+32-5	2448-2451	att	_	_	_	_	_	
+32-6	2452-2460	samtliga	_	_	_	_	_	
+32-7	2461-2485	kreditupplysningsföretag	_	_	_	_	_	
+32-8	2486-2489	bör	_	_	_	_	_	
+32-9	2490-2497	ansluta	_	_	_	_	_	
+32-10	2498-2501	sig	_	_	_	_	_	
+32-11	2502-2506	till	_	_	_	_	_	
+32-12	2507-2511	SMID	_	_	_	_	_	
+32-13	2511-2512	.	_	_	_	_	_	
+
+#Text=Vi delar också uppfattningen att en drabbad person ska ha ett telefonnummer att ringa för att kunna spärra sin identitet hos samtliga kreditupplysningsföretag och närliggande e-handelstjänster.
+33-1	2513-2515	Vi	*	_	_	_	_	
+33-2	2516-2521	delar	_	Target;Source[4]	33-6[12];33-1	false[4]	4[4]	
+33-3	2522-2527	också	_	Target;Source[4]	33-6[12];33-1	false[4]	4[4]	
+33-4	2528-2541	uppfattningen	_	Target;Source[4]	33-6[12];33-1	false[4]	4[4]	
+33-5	2542-2545	att	_	Target;Source[4]	33-6[12];33-1	false[4]	4[4]	
+33-6	2546-2548	en	*[12]	_	_	_	_	
+33-7	2549-2556	drabbad	*[12]	_	_	_	_	
+33-8	2557-2563	person	*[12]	_	_	_	_	
+33-9	2564-2567	ska	*[12]	_	_	_	_	
+33-10	2568-2570	ha	*[12]	_	_	_	_	
+33-11	2571-2574	ett	*[12]	_	_	_	_	
+33-12	2575-2588	telefonnummer	*[12]	_	_	_	_	
+33-13	2589-2592	att	*[12]	_	_	_	_	
+33-14	2593-2598	ringa	*[12]	_	_	_	_	
+33-15	2599-2602	för	*[12]	_	_	_	_	
+33-16	2603-2606	att	*[12]	_	_	_	_	
+33-17	2607-2612	kunna	*[12]	_	_	_	_	
+33-18	2613-2619	spärra	*[12]	_	_	_	_	
+33-19	2620-2623	sin	*[12]	_	_	_	_	
+33-20	2624-2633	identitet	*[12]	_	_	_	_	
+33-21	2634-2637	hos	*[12]	_	_	_	_	
+33-22	2638-2646	samtliga	*[12]	_	_	_	_	
+33-23	2647-2671	kreditupplysningsföretag	*[12]	_	_	_	_	
+33-24	2672-2675	och	*[12]	_	_	_	_	
+33-25	2676-2687	närliggande	*[12]	_	_	_	_	
+33-26	2688-2705	e-handelstjänster	*[12]	_	_	_	_	
+33-27	2705-2706	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2708-2709	#	_	_	_	_	_	
+34-2	2709-2710	P	_	_	_	_	_	
+34-3	2711-2714	IMM	_	_	_	_	_	
+34-4	2714-2715	.	_	_	_	_	_	
+
+#Text=Svensk Handel menar också att det bör finnas en gemensam lista som samtliga kreditupplysningsföretag kan använda sig av.
+35-1	2717-2723	Svensk	_	_	_	_	_	
+35-2	2724-2730	Handel	_	_	_	_	_	
+35-3	2731-2736	menar	_	_	_	_	_	
+35-4	2737-2742	också	_	_	_	_	_	
+35-5	2743-2746	att	_	_	_	_	_	
+35-6	2747-2750	det	_	_	_	_	_	
+35-7	2751-2754	bör	_	_	_	_	_	
+35-8	2755-2761	finnas	_	_	_	_	_	
+35-9	2762-2764	en	_	_	_	_	_	
+35-10	2765-2773	gemensam	_	_	_	_	_	
+35-11	2774-2779	lista	_	_	_	_	_	
+35-12	2780-2783	som	_	_	_	_	_	
+35-13	2784-2792	samtliga	_	_	_	_	_	
+35-14	2793-2817	kreditupplysningsföretag	_	_	_	_	_	
+35-15	2818-2821	kan	_	_	_	_	_	
+35-16	2822-2829	använda	_	_	_	_	_	
+35-17	2830-2833	sig	_	_	_	_	_	
+35-18	2834-2836	av	_	_	_	_	_	
+35-19	2836-2837	.	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2839-2840	#	_	_	_	_	_	
+36-2	2840-2841	P	_	_	_	_	_	
+36-3	2842-2845	IMM	_	_	_	_	_	
+36-4	2845-2846	.	_	_	_	_	_	
+
+#Text=Regeringens initiativ är bra och välkomnas men bör ses som ett första steg av flera.
+37-1	2848-2859	Regeringens	*[13]	_	_	_	_	
+37-2	2860-2869	initiativ	*[13]	_	_	_	_	
+37-3	2870-2872	är	_	Target[5]	37-1[13]	false[5]	4[5]	
+37-4	2873-2876	bra	_	Target[5]	37-1[13]	false[5]	4[5]	
+37-5	2877-2880	och	_	Target[5]	37-1[13]	false[5]	4[5]	
+37-6	2881-2890	välkomnas	_	Target[5]	37-1[13]	false[5]	4[5]	
+37-7	2891-2894	men	_	_	_	_	_	
+37-8	2895-2898	bör	_	_	_	_	_	
+37-9	2899-2902	ses	_	_	_	_	_	
+37-10	2903-2906	som	_	_	_	_	_	
+37-11	2907-2910	ett	_	_	_	_	_	
+37-12	2911-2917	första	_	_	_	_	_	
+37-13	2918-2922	steg	_	_	_	_	_	
+37-14	2923-2925	av	_	_	_	_	_	
+37-15	2926-2931	flera	_	_	_	_	_	
+37-16	2931-2932	.	_	_	_	_	_	
+
+#Text=Straffen måste skärpas och en översyn göras av de lagar som i dag möjliggör id-kapning och de påföljande bedrägerierna.
+38-1	2933-2941	Straffen	_	_	_	_	_	
+38-2	2942-2947	måste	_	_	_	_	_	
+38-3	2948-2955	skärpas	_	_	_	_	_	
+38-4	2956-2959	och	_	_	_	_	_	
+38-5	2960-2962	en	_	_	_	_	_	
+38-6	2963-2970	översyn	_	_	_	_	_	
+38-7	2971-2976	göras	_	_	_	_	_	
+38-8	2977-2979	av	_	_	_	_	_	
+38-9	2980-2982	de	_	_	_	_	_	
+38-10	2983-2988	lagar	_	_	_	_	_	
+38-11	2989-2992	som	_	_	_	_	_	
+38-12	2993-2994	i	_	_	_	_	_	
+38-13	2995-2998	dag	_	_	_	_	_	
+38-14	2999-3008	möjliggör	_	_	_	_	_	
+38-15	3009-3019	id-kapning	_	_	_	_	_	
+38-16	3020-3023	och	_	_	_	_	_	
+38-17	3024-3026	de	_	_	_	_	_	
+38-18	3027-3037	påföljande	_	_	_	_	_	
+38-19	3038-3051	bedrägerierna	_	_	_	_	_	
+38-20	3051-3052	.	_	_	_	_	_	
+
+#Text=Först då kommer effekterna av nya straffbestämmelser att bli påtagliga.
+39-1	3053-3058	Först	_	_	_	_	_	
+39-2	3059-3061	då	_	_	_	_	_	
+39-3	3062-3068	kommer	_	_	_	_	_	
+39-4	3069-3079	effekterna	_	_	_	_	_	
+39-5	3080-3082	av	_	_	_	_	_	
+39-6	3083-3086	nya	_	_	_	_	_	
+39-7	3087-3105	straffbestämmelser	_	_	_	_	_	
+39-8	3106-3109	att	_	_	_	_	_	
+39-9	3110-3113	bli	_	_	_	_	_	
+39-10	3114-3123	påtagliga	_	_	_	_	_	
+39-11	3123-3124	.	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3126-3127	#	_	_	_	_	_	
+40-2	3127-3128	P	_	_	_	_	_	
+40-3	3129-3132	IMM	_	_	_	_	_	
+40-4	3132-3133	.	_	_	_	_	_	
+
+#Text=PER GEIJER.
+41-1	3135-3138	PER	_	_	_	_	_	
+41-2	3139-3145	GEIJER	_	_	_	_	_	
+41-3	3145-3146	.	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3148-3149	#	_	_	_	_	_	
+42-2	3149-3150	P	_	_	_	_	_	
+42-3	3151-3154	IMM	_	_	_	_	_	
+42-4	3154-3155	.	_	_	_	_	_	
+
+#Text=säkerhetschef, Svensk Handel.
+43-1	3157-3170	säkerhetschef	_	_	_	_	_	
+43-2	3170-3171	,	_	_	_	_	_	
+43-3	3172-3178	Svensk	_	_	_	_	_	
+43-4	3179-3185	Handel	_	_	_	_	_	
+43-5	3185-3186	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3188-3189	#	_	_	_	_	_	
+44-2	3189-3190	P	_	_	_	_	_	
+44-3	3191-3194	IMM	_	_	_	_	_	
+44-4	3194-3195	.	_	_	_	_	_	
+
+#Text=KARIN JOHANSSON.
+45-1	3197-3202	KARIN	_	_	_	_	_	
+45-2	3203-3212	JOHANSSON	_	_	_	_	_	
+45-3	3212-3213	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3215-3216	#	_	_	_	_	_	
+46-2	3216-3217	P	_	_	_	_	_	
+46-3	3218-3221	IMM	_	_	_	_	_	
+46-4	3221-3222	.	_	_	_	_	_	
+
+#Text=vd, Svensk Handel.
+47-1	3224-3226	vd	_	_	_	_	_	
+47-2	3226-3227	,	_	_	_	_	_	
+47-3	3228-3234	Svensk	_	_	_	_	_	
+47-4	3235-3241	Handel	_	_	_	_	_	
+47-5	3241-3242	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3244-3245	#	_	_	_	_	_	
+48-2	3245-3246	P	_	_	_	_	_	
+48-3	3247-3250	IMM	_	_	_	_	_	
+48-4	3250-3251	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+49-1	3253-3261	Redaktör	_	_	_	_	_	
+49-2	3261-3262	:	_	_	_	_	_	
+49-3	3263-3269	Carina	_	_	_	_	_	
+49-4	3270-3278	Stensson	_	_	_	_	_	
+49-5	3278-3279	,	_	_	_	_	_	
+49-6	3280-3290	Biträdande	_	_	_	_	_	
+49-7	3291-3299	redaktör	_	_	_	_	_	
+49-8	3299-3300	:	_	_	_	_	_	
+49-9	3301-3306	Björn	_	_	_	_	_	
+49-10	3307-3313	Jorner	_	_	_	_	_	
+49-11	3313-3314	,	_	_	_	_	_	
+49-12	3315-3319	Mejl	_	_	_	_	_	
+49-13	3319-3320	:	_	_	_	_	_	
+49-14	3321-3327	debatt	_	_	_	_	_	
+49-15	3327-3328	@	_	_	_	_	_	
+49-16	3328-3334	svd.se	_	_	_	_	_	
+49-17	3334-3335	,	_	_	_	_	_	
+49-18	3336-3349	Telefonnummer	_	_	_	_	_	
+49-19	3349-3350	:	_	_	_	_	_	
+49-20	3351-3353	08	_	_	_	_	_	
+49-21	3353-3354	-	_	_	_	_	_	
+49-22	3354-3360	135149	_	_	_	_	_	
+49-23	3360-3361	,	_	_	_	_	_	
+49-24	3362-3369	Twitter	_	_	_	_	_	
+49-25	3369-3370	:	_	_	_	_	_	
+49-26	3371-3372	@	_	_	_	_	_	
+49-27	3372-3381	SvDDebatt	_	_	_	_	_	
+49-28	3381-3382	,	_	_	_	_	_	
+49-29	3383-3391	Facebook	_	_	_	_	_	
+49-30	3391-3392	:	_	_	_	_	_	
+49-31	3393-3396	SvD	_	_	_	_	_	
+49-32	3397-3403	Debatt	_	_	_	_	_	
+49-33	3403-3404	.	_	_	_	_	_	

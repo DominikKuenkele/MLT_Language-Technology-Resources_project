@@ -1,0 +1,1034 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Det räcker nu - sluta pantsätt vår välfärd.
+3-1	18-21	Det	_	_[1]	_	false[1]	2[1]	_	_	
+3-2	22-28	räcker	_	_[1]	_	false[1]	2[1]	_	_	
+3-3	29-31	nu	_	_[1]	_	false[1]	2[1]	_	_	
+3-4	32-33	-	_	_	_	_	_	_	_	
+3-5	34-39	sluta	_	Target	3-6[16]	false	2	_	_	
+3-6	40-48	pantsätt	*[16]	_	_	_	_	_	_	
+3-7	49-52	vår	*[16]	_	_	_	_	_	_	
+3-8	53-60	välfärd	*[16]	_	_	_	_	_	_	
+3-9	60-61	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har blivit den pantsatta välfärdens land.
+5-1	72-79	Sverige	*[17]|*[18]	_	_	_	_	_	6-1[19_18]	
+5-2	80-83	har	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-3	84-90	blivit	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-4	91-94	den	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-5	95-104	pantsatta	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-6	105-115	välfärdens	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-7	116-120	land	_	Target[2]	5-1[17]	false[2]	2[2]	_	_	
+5-8	120-121	.	_	_	_	_	_	_	_	
+
+#Text=Ett land där inte bara vården av äldre utan också av sjuka “utackorderas” till den som vill ha lägst ersättning och där ansvaret för utbildningen av skolbarn i den så kallade valfrihetens namn alltmer överlåts till vinstklippande riskkapitalister.
+6-1	122-125	Ett	*[19]	_	_	_	_	_	_	
+6-2	126-130	land	*[19]	_	_	_	_	_	_	
+6-3	131-134	där	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-4	135-139	inte	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-5	140-144	bara	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-6	145-151	vården	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-7	152-154	av	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-8	155-160	äldre	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-9	161-165	utan	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-10	166-171	också	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-11	172-174	av	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-12	175-180	sjuka	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-13	181-182	“	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-14	182-194	utackorderas	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-15	194-195	”	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-16	196-200	till	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-17	201-204	den	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-18	205-208	som	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-19	209-213	vill	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-20	214-216	ha	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-21	217-222	lägst	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-22	223-233	ersättning	_	Target[3]	6-1[19]	false[3]	2[3]	_	_	
+6-23	234-237	och	_	_	_	_	_	_	_	
+6-24	238-241	där	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-25	242-250	ansvaret	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-26	251-254	för	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-27	255-267	utbildningen	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-28	268-270	av	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-29	271-279	skolbarn	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-30	280-281	i	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-31	282-285	den	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-32	286-288	så	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-33	289-296	kallade	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-34	297-309	valfrihetens	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-35	310-314	namn	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-36	315-322	alltmer	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-37	323-331	överlåts	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-38	332-336	till	_	Target[4]	6-1[19]	false[4]	2[4]	_	_	
+6-39	337-351	vinstklippande	*[20]	Target[4]|Target[5]	6-1[19]|6-39[20]	false[4]|false[5]	2[4]|2[5]	_	_	
+6-40	352-368	riskkapitalister	*[20]	Target[4]|Target[5]	6-1[19]|6-39[20]	false[4]|false[5]	2[4]|2[5]	_	_	
+6-41	368-369	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	371-372	#	_	_	_	_	_	_	_	
+7-2	372-373	P	_	_	_	_	_	_	_	
+7-3	374-377	IMM	_	_	_	_	_	_	_	
+7-4	377-378	.	_	_	_	_	_	_	_	
+
+#Text=Inget annat land tillåter vinstdrivande bolag - för att inte tala om riskkapitalbolag med säte i skatteparadis - att driva skolor för skattepengar.
+8-1	380-385	Inget	_	_	_	_	_	_	_	
+8-2	386-391	annat	_	_	_	_	_	_	_	
+8-3	392-396	land	_	_	_	_	_	_	_	
+8-4	397-405	tillåter	_	_	_	_	_	_	_	
+8-5	406-419	vinstdrivande	_	_	_	_	_	_	_	
+8-6	420-425	bolag	_	_	_	_	_	_	_	
+8-7	426-427	-	_	_	_	_	_	_	_	
+8-8	428-431	för	_	_	_	_	_	_	_	
+8-9	432-435	att	_	_	_	_	_	_	_	
+8-10	436-440	inte	_	_	_	_	_	_	_	
+8-11	441-445	tala	_	_	_	_	_	_	_	
+8-12	446-448	om	_	_	_	_	_	_	_	
+8-13	449-465	riskkapitalbolag	_	_	_	_	_	_	_	
+8-14	466-469	med	_	_	_	_	_	_	_	
+8-15	470-474	säte	_	_	_	_	_	_	_	
+8-16	475-476	i	_	_	_	_	_	_	_	
+8-17	477-490	skatteparadis	_	_	_	_	_	_	_	
+8-18	491-492	-	_	_	_	_	_	_	_	
+8-19	493-496	att	_	_	_	_	_	_	_	
+8-20	497-502	driva	_	_	_	_	_	_	_	
+8-21	503-509	skolor	_	_	_	_	_	_	_	
+8-22	510-513	för	_	_	_	_	_	_	_	
+8-23	514-526	skattepengar	_	_	_	_	_	_	_	
+8-24	526-527	.	_	_	_	_	_	_	_	
+
+#Text=Ingen annanstans har riskkapitalister fått upphandla ett helt akutsjukhus som S:t Görans i Stockholm.
+9-1	528-533	Ingen	_	_	_	_	_	_	_	
+9-2	534-544	annanstans	_	_	_	_	_	_	_	
+9-3	545-548	har	_	_	_	_	_	_	_	
+9-4	549-565	riskkapitalister	_	_	_	_	_	_	_	
+9-5	566-570	fått	_	_	_	_	_	_	_	
+9-6	571-580	upphandla	_	_	_	_	_	_	_	
+9-7	581-584	ett	_	_	_	_	_	_	_	
+9-8	585-589	helt	_	_	_	_	_	_	_	
+9-9	590-601	akutsjukhus	_	_	_	_	_	_	_	
+9-10	602-605	som	_	_	_	_	_	_	_	
+9-11	606-607	S	_	_	_	_	_	_	_	
+9-12	607-608	:	_	_	_	_	_	_	_	
+9-13	608-609	t	_	_	_	_	_	_	_	
+9-14	610-616	Görans	_	_	_	_	_	_	_	
+9-15	617-618	i	_	_	_	_	_	_	_	
+9-16	619-628	Stockholm	_	_	_	_	_	_	_	
+9-17	628-629	.	_	_	_	_	_	_	_	
+
+#Text=Få om ens något annat land har i dag ett så koncentrerat privat ägande inom välfärdssektorn som Sverige.
+10-1	630-632	Få	_	_	_	_	_	_	_	
+10-2	633-635	om	_	_	_	_	_	_	_	
+10-3	636-639	ens	_	_	_	_	_	_	_	
+10-4	640-645	något	_	_	_	_	_	_	_	
+10-5	646-651	annat	_	_	_	_	_	_	_	
+10-6	652-656	land	_	_	_	_	_	_	_	
+10-7	657-660	har	_	_	_	_	_	_	_	
+10-8	661-662	i	_	_	_	_	_	_	_	
+10-9	663-666	dag	_	_	_	_	_	_	_	
+10-10	667-670	ett	_	_	_	_	_	_	_	
+10-11	671-673	så	_	_	_	_	_	_	_	
+10-12	674-686	koncentrerat	_	_	_	_	_	_	_	
+10-13	687-693	privat	_	_	_	_	_	_	_	
+10-14	694-700	ägande	_	_	_	_	_	_	_	
+10-15	701-705	inom	_	_	_	_	_	_	_	
+10-16	706-721	välfärdssektorn	_	_	_	_	_	_	_	
+10-17	722-725	som	_	_	_	_	_	_	_	
+10-18	726-733	Sverige	_	_	_	_	_	_	_	
+10-19	733-734	.	_	_	_	_	_	_	_	
+
+#Text=Två jättar, Carema och Attendo, kontrollerar mer än hälften av den privata äldrevården.
+11-1	735-738	Två	_	_	_	_	_	_	_	
+11-2	739-745	jättar	_	_	_	_	_	_	_	
+11-3	745-746	,	_	_	_	_	_	_	_	
+11-4	747-753	Carema	_	_	_	_	_	_	_	
+11-5	754-757	och	_	_	_	_	_	_	_	
+11-6	758-765	Attendo	_	_	_	_	_	_	_	
+11-7	765-766	,	_	_	_	_	_	_	_	
+11-8	767-779	kontrollerar	_	_	_	_	_	_	_	
+11-9	780-783	mer	_	_	_	_	_	_	_	
+11-10	784-786	än	_	_	_	_	_	_	_	
+11-11	787-794	hälften	_	_	_	_	_	_	_	
+11-12	795-797	av	_	_	_	_	_	_	_	
+11-13	798-801	den	_	_	_	_	_	_	_	
+11-14	802-809	privata	_	_	_	_	_	_	_	
+11-15	810-821	äldrevården	_	_	_	_	_	_	_	
+11-16	821-822	.	_	_	_	_	_	_	_	
+
+#Text=Tendensen är likartad inom skolan.
+12-1	823-832	Tendensen	_	_	_	_	_	_	_	
+12-2	833-835	är	_	_	_	_	_	_	_	
+12-3	836-844	likartad	_	_	_	_	_	_	_	
+12-4	845-849	inom	_	_	_	_	_	_	_	
+12-5	850-856	skolan	_	_	_	_	_	_	_	
+12-6	856-857	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	859-860	#	_	_	_	_	_	_	_	
+13-2	860-861	P	_	_	_	_	_	_	_	
+13-3	862-865	IMM	_	_	_	_	_	_	_	
+13-4	865-866	.	_	_	_	_	_	_	_	
+
+#Text=De så kallade valfrihets- och privatiseringsreformerna har bidragit till en nedmontering av likvärdigheten, läraryrkets sjunkande status och fritt fall i kunskapsresultat.
+14-1	868-870	De	*[21]	_	_	_	_	_	_	
+14-2	871-873	så	*[21]	_	_	_	_	_	_	
+14-3	874-881	kallade	*[21]	_	_	_	_	_	_	
+14-4	882-892	valfrihets	*[21]	_	_	_	_	_	_	
+14-5	892-893	-	*[21]	_	_	_	_	_	_	
+14-6	894-897	och	*[21]	_	_	_	_	_	_	
+14-7	898-922	privatiseringsreformerna	*[21]	_	_	_	_	_	_	
+14-8	923-926	har	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-9	927-935	bidragit	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-10	936-940	till	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-11	941-943	en	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-12	944-956	nedmontering	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-13	957-959	av	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-14	960-974	likvärdigheten	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-15	974-975	,	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-16	976-987	läraryrkets	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-17	988-997	sjunkande	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-18	998-1004	status	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-19	1005-1008	och	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-20	1009-1014	fritt	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-21	1015-1019	fall	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-22	1020-1021	i	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-23	1022-1038	kunskapsresultat	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+14-24	1038-1039	.	_	Target[6]	14-1[21]	false[6]	2[6]	_	_	
+
+#Text=Studier visar att privat äldreomsorg har tio procent lägre bemanning än offentlig.
+15-1	1040-1047	Studier	_	_	_	_	_	_	_	
+15-2	1048-1053	visar	_	_	_	_	_	_	_	
+15-3	1054-1057	att	_	_	_	_	_	_	_	
+15-4	1058-1064	privat	_	_	_	_	_	_	_	
+15-5	1065-1076	äldreomsorg	_	_	_	_	_	_	_	
+15-6	1077-1080	har	_	_	_	_	_	_	_	
+15-7	1081-1084	tio	_	_	_	_	_	_	_	
+15-8	1085-1092	procent	_	_	_	_	_	_	_	
+15-9	1093-1098	lägre	_	_	_	_	_	_	_	
+15-10	1099-1108	bemanning	_	_	_	_	_	_	_	
+15-11	1109-1111	än	_	_	_	_	_	_	_	
+15-12	1112-1121	offentlig	_	_	_	_	_	_	_	
+15-13	1121-1122	.	_	_	_	_	_	_	_	
+
+#Text=Vårdskandalerna har avlöst varandra och det finns inga vetenskapliga belägg för att konkurrensutsättning leder till bättre välfärdstjänster eller medborgarnytta.
+16-1	1123-1138	Vårdskandalerna	_	_	_	_	_	_	_	
+16-2	1139-1142	har	_	_	_	_	_	_	_	
+16-3	1143-1149	avlöst	_	_	_	_	_	_	_	
+16-4	1150-1158	varandra	_	_	_	_	_	_	_	
+16-5	1159-1162	och	_	_	_	_	_	_	_	
+16-6	1163-1166	det	_	_	_	_	_	_	_	
+16-7	1167-1172	finns	_	Target[7]	16-12[22]	false[7]	2[7]	_	_	
+16-8	1173-1177	inga	_	Target[7]	16-12[22]	false[7]	2[7]	_	_	
+16-9	1178-1191	vetenskapliga	_	Target[7]	16-12[22]	false[7]	2[7]	_	_	
+16-10	1192-1198	belägg	_	Target[7]	16-12[22]	false[7]	2[7]	_	_	
+16-11	1199-1202	för	_	Target[7]	16-12[22]	false[7]	2[7]	_	_	
+16-12	1203-1206	att	*[22]	_	_	_	_	_	_	
+16-13	1207-1227	konkurrensutsättning	*[22]	_	_	_	_	_	_	
+16-14	1228-1233	leder	*[22]	_	_	_	_	_	_	
+16-15	1234-1238	till	*[22]	_	_	_	_	_	_	
+16-16	1239-1245	bättre	*[22]	_	_	_	_	_	_	
+16-17	1246-1262	välfärdstjänster	*[22]	_	_	_	_	_	_	
+16-18	1263-1268	eller	*[22]	_	_	_	_	_	_	
+16-19	1269-1283	medborgarnytta	*[22]	_	_	_	_	_	_	
+16-20	1283-1284	.	*[22]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1286-1287	#	_	_	_	_	_	_	_	
+17-2	1287-1288	P	_	_	_	_	_	_	_	
+17-3	1289-1292	IMM	_	_	_	_	_	_	_	
+17-4	1292-1293	.	_	_	_	_	_	_	_	
+
+#Text=Privata vinststyrda system förmår inte att rättvist fördela sociala tjänster efter behov.
+18-1	1295-1302	Privata	*[23]	_	_	_	_	_	_	
+18-2	1303-1314	vinststyrda	*[23]	_	_	_	_	_	_	
+18-3	1315-1321	system	*[23]	_	_	_	_	_	_	
+18-4	1322-1328	förmår	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-5	1329-1333	inte	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-6	1334-1337	att	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-7	1338-1346	rättvist	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-8	1347-1354	fördela	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-9	1355-1362	sociala	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-10	1363-1371	tjänster	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-11	1372-1377	efter	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-12	1378-1383	behov	_	Target[8]	18-1[23]	false[8]	2[8]	_	_	
+18-13	1383-1384	.	_	_	_	_	_	_	_	
+
+#Text=Privatisering av offentlig verksamhet leder till inskränkningar i de anställdas yttrande- och meddelarfrihet.
+19-1	1385-1398	Privatisering	*[24]	_	_	_	_	_	_	
+19-2	1399-1401	av	*[24]	_	_	_	_	_	_	
+19-3	1402-1411	offentlig	*[24]	_	_	_	_	_	_	
+19-4	1412-1422	verksamhet	*[24]	_	_	_	_	_	_	
+19-5	1423-1428	leder	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-6	1429-1433	till	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-7	1434-1448	inskränkningar	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-8	1449-1450	i	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-9	1451-1453	de	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-10	1454-1464	anställdas	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-11	1465-1473	yttrande	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-12	1473-1474	-	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-13	1475-1478	och	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-14	1479-1493	meddelarfrihet	_	Target[9]	19-1[24]	false[9]	2[9]	_	_	
+19-15	1493-1494	.	_	_	_	_	_	_	_	
+
+#Text=Ideologiska utförsäljningar av gemensam egendom – än så länge mest konsekvent genomförda i Stockholmsområdet – har lett till både försämringar och fördyringar av vård, omsorg och andra offentliga verksamheter.
+20-1	1495-1506	Ideologiska	*[25]	_	_	_	_	_	_	
+20-2	1507-1522	utförsäljningar	*[25]	_	_	_	_	_	_	
+20-3	1523-1525	av	*[25]	_	_	_	_	_	_	
+20-4	1526-1534	gemensam	*[25]	_	_	_	_	_	_	
+20-5	1535-1542	egendom	*[25]	_	_	_	_	_	_	
+20-6	1543-1544	–	_	_	_	_	_	_	_	
+20-7	1545-1547	än	_	_	_	_	_	_	_	
+20-8	1548-1550	så	_	_	_	_	_	_	_	
+20-9	1551-1556	länge	_	_	_	_	_	_	_	
+20-10	1557-1561	mest	_	_	_	_	_	_	_	
+20-11	1562-1572	konsekvent	_	_	_	_	_	_	_	
+20-12	1573-1583	genomförda	_	_	_	_	_	_	_	
+20-13	1584-1585	i	_	_	_	_	_	_	_	
+20-14	1586-1603	Stockholmsområdet	_	_	_	_	_	_	_	
+20-15	1604-1605	–	_	_	_	_	_	_	_	
+20-16	1606-1609	har	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-17	1610-1614	lett	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-18	1615-1619	till	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-19	1620-1624	både	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-20	1625-1637	försämringar	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-21	1638-1641	och	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-22	1642-1653	fördyringar	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-23	1654-1656	av	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-24	1657-1661	vård	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-25	1661-1662	,	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-26	1663-1669	omsorg	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-27	1670-1673	och	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-28	1674-1679	andra	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-29	1680-1690	offentliga	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-30	1691-1703	verksamheter	_	Target[10]	20-1[25]	false[10]	2[10]	_	_	
+20-31	1703-1704	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1706-1707	#	_	_	_	_	_	_	_	
+21-2	1707-1708	P	_	_	_	_	_	_	_	
+21-3	1709-1712	IMM	_	_	_	_	_	_	_	
+21-4	1712-1713	.	_	_	_	_	_	_	_	
+
+#Text=Detta sker parallellt med att klyftorna ökar snabbare i Sverige än i de flesta andra jämförbara länder.
+22-1	1715-1720	Detta	_	_	_	_	_	_	_	
+22-2	1721-1725	sker	_	_	_	_	_	_	_	
+22-3	1726-1736	parallellt	_	_	_	_	_	_	_	
+22-4	1737-1740	med	_	_	_	_	_	_	_	
+22-5	1741-1744	att	_	_	_	_	_	_	_	
+22-6	1745-1754	klyftorna	_	_	_	_	_	_	_	
+22-7	1755-1759	ökar	_	_	_	_	_	_	_	
+22-8	1760-1768	snabbare	_	_	_	_	_	_	_	
+22-9	1769-1770	i	_	_	_	_	_	_	_	
+22-10	1771-1778	Sverige	_	_	_	_	_	_	_	
+22-11	1779-1781	än	_	_	_	_	_	_	_	
+22-12	1782-1783	i	_	_	_	_	_	_	_	
+22-13	1784-1786	de	_	_	_	_	_	_	_	
+22-14	1787-1793	flesta	_	_	_	_	_	_	_	
+22-15	1794-1799	andra	_	_	_	_	_	_	_	
+22-16	1800-1810	jämförbara	_	_	_	_	_	_	_	
+22-17	1811-1817	länder	_	_	_	_	_	_	_	
+22-18	1817-1818	.	_	_	_	_	_	_	_	
+
+#Text=Tillsammans med försämringarna leder detta till en segregerad välfärd med gräddfiler för de rika och välbeställda.
+23-1	1819-1830	Tillsammans	_	_	_	_	_	_	_	
+23-2	1831-1834	med	_	_	_	_	_	_	_	
+23-3	1835-1849	försämringarna	*	_	_	_	_	_	_	
+23-4	1850-1855	leder	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-5	1856-1861	detta	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-6	1862-1866	till	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-7	1867-1869	en	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-8	1870-1880	segregerad	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-9	1881-1888	välfärd	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-10	1889-1892	med	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-11	1893-1903	gräddfiler	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-12	1904-1907	för	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-13	1908-1910	de	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-14	1911-1915	rika	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-15	1916-1919	och	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-16	1920-1932	välbeställda	_	Target[11]	23-3	false[11]	2[11]	_	_	
+23-17	1932-1933	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1935-1936	#	_	_	_	_	_	_	_	
+24-2	1936-1937	P	_	_	_	_	_	_	_	
+24-3	1938-1941	IMM	_	_	_	_	_	_	_	
+24-4	1941-1942	.	_	_	_	_	_	_	_	
+
+#Text=Vi välkomnar när detta skrivs att Kommunal i Stockholms län direkt efter LO-kongressens avslutning i beslutat arrangera en Folklig manifestation mot privatiseringar och nedskärningar, och hoppas på massivt stöd för en stor manifestation för välfärd utan vinst inför Riksdagens öppnande i höst.
+25-1	1944-1946	Vi	_	_	_	_	_	_	_	
+25-2	1947-1956	välkomnar	_	Target	25-6[26]	false	4	_	_	
+25-3	1957-1960	när	_	_	_	_	_	_	_	
+25-4	1961-1966	detta	_	_	_	_	_	_	_	
+25-5	1967-1973	skrivs	_	_	_	_	_	_	_	
+25-6	1974-1977	att	*[26]	_	_	_	_	_	_	
+25-7	1978-1986	Kommunal	*[26]	_	_	_	_	_	_	
+25-8	1987-1988	i	*[26]	_	_	_	_	_	_	
+25-9	1989-1999	Stockholms	*[26]	_	_	_	_	_	_	
+25-10	2000-2003	län	*[26]	_	_	_	_	_	_	
+25-11	2004-2010	direkt	*[26]	_	_	_	_	_	_	
+25-12	2011-2016	efter	*[26]	_	_	_	_	_	_	
+25-13	2017-2031	LO-kongressens	*[26]	_	_	_	_	_	_	
+25-14	2032-2042	avslutning	*[26]	_	_	_	_	_	_	
+25-15	2043-2044	i	*[26]	_	_	_	_	_	_	
+25-16	2045-2053	beslutat	*[26]	_	_	_	_	_	_	
+25-17	2054-2063	arrangera	*[26]	_	_	_	_	_	_	
+25-18	2064-2066	en	*[26]	_	_	_	_	_	_	
+25-19	2067-2074	Folklig	*[26]	_	_	_	_	_	_	
+25-20	2075-2088	manifestation	*[26]	_	_	_	_	_	_	
+25-21	2089-2092	mot	*[26]	_	_	_	_	_	_	
+25-22	2093-2108	privatiseringar	*[26]	_	_	_	_	_	_	
+25-23	2109-2112	och	*[26]	_	_	_	_	_	_	
+25-24	2113-2126	nedskärningar	*[26]	_	_	_	_	_	_	
+25-25	2126-2127	,	_	_	_	_	_	_	_	
+25-26	2128-2131	och	_	_	_	_	_	_	_	
+25-27	2132-2138	hoppas	_	Target[12]|Target[13]	25-32[28]|25-29[27]	false[12]|false[13]	5[12]|4[13]	_	_	
+25-28	2139-2141	på	_	Target[12]|Target[13]	25-32[28]|25-29[27]	false[12]|false[13]	5[12]|4[13]	_	_	
+25-29	2142-2149	massivt	*[27]	Target[12]	25-32[28]	false[12]	5[12]	_	_	
+25-30	2150-2154	stöd	*[27]	Target[12]	25-32[28]	false[12]	5[12]	_	_	
+25-31	2155-2158	för	*[27]	Target[12]	25-32[28]	false[12]	5[12]	_	_	
+25-32	2159-2161	en	*[27]|*[28]	_	_	_	_	_	_	
+25-33	2162-2166	stor	*[27]|*[28]	_	_	_	_	_	_	
+25-34	2167-2180	manifestation	*[27]|*[28]	_	_	_	_	_	_	
+25-35	2181-2184	för	*[27]|*[28]	_	_	_	_	_	_	
+25-36	2185-2192	välfärd	*[27]|*[28]	_	_	_	_	_	_	
+25-37	2193-2197	utan	*[27]|*[28]	_	_	_	_	_	_	
+25-38	2198-2203	vinst	*[27]|*[28]	_	_	_	_	_	_	
+25-39	2204-2209	inför	*[27]|*[28]	_	_	_	_	_	_	
+25-40	2210-2220	Riksdagens	*[27]|*[28]	_	_	_	_	_	_	
+25-41	2221-2229	öppnande	*[27]|*[28]	_	_	_	_	_	_	
+25-42	2230-2231	i	*[27]|*[28]	_	_	_	_	_	_	
+25-43	2232-2236	höst	*[27]|*[28]	_	_	_	_	_	_	
+25-44	2236-2237	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2239-2240	#	_	_	_	_	_	_	_	
+26-2	2240-2241	P	_	_	_	_	_	_	_	
+26-3	2242-2245	IMM	_	_	_	_	_	_	_	
+26-4	2245-2246	.	_	_	_	_	_	_	_	
+
+#Text=Åtta av tio svenskar är enligt en ny opinionsundersökning av Novus motståndare till privata vinster inom vården, och nu krävs en facklig och politisk ryggrad till det växande motståndet.
+27-1	2248-2252	Åtta	*[29]	_	_	_	_	_	_	
+27-2	2253-2255	av	*[29]	_	_	_	_	_	_	
+27-3	2256-2259	tio	*[29]	_	_	_	_	_	_	
+27-4	2260-2268	svenskar	*[29]	_	_	_	_	_	_	
+27-5	2269-2271	är	_	_	_	false	2	_	_	
+27-6	2272-2278	enligt	_	_	_	_	_	_	_	
+27-7	2279-2281	en	_	_	_	_	_	_	_	
+27-8	2282-2284	ny	_	_	_	_	_	_	_	
+27-9	2285-2305	opinionsundersökning	_	_	_	_	_	_	_	
+27-10	2306-2308	av	_	_	_	_	_	_	_	
+27-11	2309-2314	Novus	_	_	_	_	_	_	_	
+27-12	2315-2326	motståndare	_	Target;Source[14]	27-14[30];27-1[29]	false[14]	2[14]	27-5[0_14]	_	
+27-13	2327-2331	till	_	Target;Source[14]	27-14[30];27-1[29]	false[14]	2[14]	_	_	
+27-14	2332-2339	privata	*[30]	_	_	_	_	_	_	
+27-15	2340-2347	vinster	*[30]	_	_	_	_	_	_	
+27-16	2348-2352	inom	*[30]	_	_	_	_	_	_	
+27-17	2353-2359	vården	*[30]	_	_	_	_	_	_	
+27-18	2359-2360	,	_	_	_	_	_	_	_	
+27-19	2361-2364	och	_	_	_	_	_	_	_	
+27-20	2365-2367	nu	_	_	_	_	_	_	_	
+27-21	2368-2373	krävs	_	Target	27-22[31]	false	4	_	_	
+27-22	2374-2376	en	*[31]	_	_	_	_	_	_	
+27-23	2377-2384	facklig	*[31]	_	_	_	_	_	_	
+27-24	2385-2388	och	*[31]	_	_	_	_	_	_	
+27-25	2389-2397	politisk	*[31]	_	_	_	_	_	_	
+27-26	2398-2405	ryggrad	*[31]	_	_	_	_	_	_	
+27-27	2406-2410	till	*[31]	_	_	_	_	_	_	
+27-28	2411-2414	det	*[31]	_	_	_	_	_	_	
+27-29	2415-2422	växande	*[31]	_	_	_	_	_	_	
+27-30	2423-2433	motståndet	*[31]	_	_	_	_	_	_	
+27-31	2433-2434	.	*[31]	_	_	_	_	_	_	
+
+#Text=Frågan om ett förbud mot vinster inom skattefinansierad vård, omsorg och skola med mera får inte längre sopas under mattan med uttalanden som att “det inte låter sig göras”.
+28-1	2435-2441	Frågan	_	_	_	_	_	_	_	
+28-2	2442-2444	om	_	_	_	_	_	_	_	
+28-3	2445-2448	ett	_	_	_	_	_	_	_	
+28-4	2449-2455	förbud	_	_	_	_	_	_	_	
+28-5	2456-2459	mot	_	_	_	_	_	_	_	
+28-6	2460-2467	vinster	_	_	_	_	_	_	_	
+28-7	2468-2472	inom	_	_	_	_	_	_	_	
+28-8	2473-2490	skattefinansierad	_	_	_	_	_	_	_	
+28-9	2491-2495	vård	_	_	_	_	_	_	_	
+28-10	2495-2496	,	_	_	_	_	_	_	_	
+28-11	2497-2503	omsorg	_	_	_	_	_	_	_	
+28-12	2504-2507	och	_	_	_	_	_	_	_	
+28-13	2508-2513	skola	_	_	_	_	_	_	_	
+28-14	2514-2517	med	_	_	_	_	_	_	_	
+28-15	2518-2522	mera	_	_	_	_	_	_	_	
+28-16	2523-2526	får	_	_	_	_	_	_	_	
+28-17	2527-2531	inte	_	_	_	_	_	_	_	
+28-18	2532-2538	längre	_	_	_	_	_	_	_	
+28-19	2539-2544	sopas	_	_	_	_	_	_	_	
+28-20	2545-2550	under	_	_	_	_	_	_	_	
+28-21	2551-2557	mattan	_	_	_	_	_	_	_	
+28-22	2558-2561	med	_	_	_	_	_	_	_	
+28-23	2562-2572	uttalanden	_	_	_	_	_	_	_	
+28-24	2573-2576	som	_	_	_	_	_	_	_	
+28-25	2577-2580	att	_	_	_	_	_	_	_	
+28-26	2581-2582	“	_	_	_	_	_	_	_	
+28-27	2582-2585	det	_	_	_	_	_	_	_	
+28-28	2586-2590	inte	_	_	_	_	_	_	_	
+28-29	2591-2596	låter	_	_	_	_	_	_	_	
+28-30	2597-2600	sig	_	_	_	_	_	_	_	
+28-31	2601-2606	göras	_	_	_	_	_	_	_	
+28-32	2606-2607	”	_	_	_	_	_	_	_	
+28-33	2607-2608	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2610-2611	#	_	_	_	_	_	_	_	
+29-2	2611-2612	P	_	_	_	_	_	_	_	
+29-3	2613-2616	IMM	_	_	_	_	_	_	_	
+29-4	2616-2617	.	_	_	_	_	_	_	_	
+
+#Text=Välfärdens månglare måste drivas ut ur det gemensamma rummet.
+30-1	2619-2629	Välfärdens	_	_	_	_	_	_	_	
+30-2	2630-2638	månglare	_	_	_	_	_	_	_	
+30-3	2639-2644	måste	_	_	_	_	_	_	_	
+30-4	2645-2651	drivas	_	_	_	_	_	_	_	
+30-5	2652-2654	ut	_	_	_	_	_	_	_	
+30-6	2655-2657	ur	_	_	_	_	_	_	_	
+30-7	2658-2661	det	_	_	_	_	_	_	_	
+30-8	2662-2672	gemensamma	_	_	_	_	_	_	_	
+30-9	2673-2679	rummet	_	_	_	_	_	_	_	
+30-10	2679-2680	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste skapa en trygg vård och skola, där brukarnas behov står i centrum, inte ägarnas och vinsten.
+31-1	2681-2683	Vi	_	_	_	_	_	_	_	
+31-2	2684-2689	måste	_	Target	31-3[32]	false	4	_	_	
+31-3	2690-2695	skapa	*[32]	_	_	_	_	_	_	
+31-4	2696-2698	en	*[32]	_	_	_	_	_	_	
+31-5	2699-2704	trygg	*[32]	_	_	_	_	_	_	
+31-6	2705-2709	vård	*[32]	_	_	_	_	_	_	
+31-7	2710-2713	och	*[32]	_	_	_	_	_	_	
+31-8	2714-2719	skola	*[32]	_	_	_	_	_	_	
+31-9	2719-2720	,	*[32]	_	_	_	_	_	_	
+31-10	2721-2724	där	*[32]	_	_	_	_	_	_	
+31-11	2725-2734	brukarnas	*[32]	_	_	_	_	_	_	
+31-12	2735-2740	behov	*[32]	_	_	_	_	_	_	
+31-13	2741-2745	står	*[32]	_	_	_	_	_	_	
+31-14	2746-2747	i	*[32]	_	_	_	_	_	_	
+31-15	2748-2755	centrum	*[32]	_	_	_	_	_	_	
+31-16	2755-2756	,	*[32]	_	_	_	_	_	_	
+31-17	2757-2761	inte	*[32]	_	_	_	_	_	_	
+31-18	2762-2769	ägarnas	*[32]	_	_	_	_	_	_	
+31-19	2770-2773	och	*[32]	_	_	_	_	_	_	
+31-20	2774-2781	vinsten	*[32]	_	_	_	_	_	_	
+31-21	2781-2782	.	_	_	_	_	_	_	_	
+
+#Text=Då måste vi också kunna säga att vår gemensamma välfärd ska skötas gemensamt, inte av vinstmaximerande riskkapitalbolag.
+32-1	2783-2785	Då	_	_	_	_	_	_	_	
+32-2	2786-2791	måste	_	_	_	_	_	_	_	
+32-3	2792-2794	vi	_	_	_	_	_	_	_	
+32-4	2795-2800	också	_	_	_	_	_	_	_	
+32-5	2801-2806	kunna	_	_	_	_	_	_	_	
+32-6	2807-2811	säga	_	_	_	_	_	_	_	
+32-7	2812-2815	att	_	_	_	_	_	_	_	
+32-8	2816-2819	vår	_	_	_	_	_	_	_	
+32-9	2820-2830	gemensamma	*[33]	_	_	_	_	_	_	
+32-10	2831-2838	välfärd	*[33]	_	_	_	_	_	_	
+32-11	2839-2842	ska	*[33]	_	_	_	_	_	_	
+32-12	2843-2849	skötas	*[33]	_	_	_	_	_	_	
+32-13	2850-2859	gemensamt	*[33]	_	_	_	_	_	_	
+32-14	2859-2860	,	_	_	_	_	_	_	_	
+32-15	2861-2865	inte	_	_	_	_	_	_	_	
+32-16	2866-2868	av	_	_	_	_	_	_	_	
+32-17	2869-2885	vinstmaximerande	_	_	_	_	_	_	_	
+32-18	2886-2902	riskkapitalbolag	_	_	_	_	_	_	_	
+32-19	2902-2903	.	_	Target	32-9[33]	false	5	_	_	
+
+#Text=#P IMM.
+33-1	2905-2906	#	_	_	_	_	_	_	_	
+33-2	2906-2907	P	_	_	_	_	_	_	_	
+33-3	2908-2911	IMM	_	_	_	_	_	_	_	
+33-4	2911-2912	.	_	_	_	_	_	_	_	
+
+#Text=Det räcker nu.
+34-1	2914-2917	Det	_	_[15]	_	false[15]	1[15]	_	_	
+34-2	2918-2924	räcker	_	_[15]	_	false[15]	1[15]	_	_	
+34-3	2925-2927	nu	_	_[15]	_	false[15]	1[15]	_	_	
+34-4	2927-2928	.	_	_	_	_	_	_	_	
+
+#Text=Skolan och vården ska inte styras av privata vinstintressen.
+35-1	2929-2935	Skolan	_	_	_	_	_	_	_	
+35-2	2936-2939	och	_	_	_	_	_	_	_	
+35-3	2940-2946	vården	_	_	_	_	_	_	_	
+35-4	2947-2950	ska	_	_	_	_	_	_	_	
+35-5	2951-2955	inte	_	_	_	_	_	_	_	
+35-6	2956-2962	styras	_	_	_	_	_	_	_	
+35-7	2963-2965	av	_	_	_	_	_	_	_	
+35-8	2966-2973	privata	_	_	_	_	_	_	_	
+35-9	2974-2988	vinstintressen	_	_	_	_	_	_	_	
+35-10	2988-2989	.	_	_	_	_	_	_	_	
+
+#Text=Vår gemensamma välfärd ska skötas gemensamt.
+36-1	2990-2993	Vår	_	_	_	_	_	_	_	
+36-2	2994-3004	gemensamma	_	_	_	_	_	_	_	
+36-3	3005-3012	välfärd	_	_	_	_	_	_	_	
+36-4	3013-3016	ska	_	_	_	_	_	_	_	
+36-5	3017-3023	skötas	_	_	_	_	_	_	_	
+36-6	3024-3033	gemensamt	_	_	_	_	_	_	_	
+36-7	3033-3034	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3036-3037	#	_	_	_	_	_	_	_	
+37-2	3037-3038	P	_	_	_	_	_	_	_	
+37-3	3039-3042	IMM	_	_	_	_	_	_	_	
+37-4	3042-3043	.	_	_	_	_	_	_	_	
+
+#Text=Sanna Tefke, vårdbiträde.
+38-1	3045-3050	Sanna	_	_	_	_	_	_	_	
+38-2	3051-3056	Tefke	_	_	_	_	_	_	_	
+38-3	3056-3057	,	_	_	_	_	_	_	_	
+38-4	3058-3069	vårdbiträde	_	_	_	_	_	_	_	
+38-5	3069-3070	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3072-3073	#	_	_	_	_	_	_	_	
+39-2	3073-3074	P	_	_	_	_	_	_	_	
+39-3	3075-3078	IMM	_	_	_	_	_	_	_	
+39-4	3078-3079	.	_	_	_	_	_	_	_	
+
+#Text=Göran Gustavsson, skötare.
+40-1	3081-3086	Göran	_	_	_	_	_	_	_	
+40-2	3087-3097	Gustavsson	_	_	_	_	_	_	_	
+40-3	3097-3098	,	_	_	_	_	_	_	_	
+40-4	3099-3106	skötare	_	_	_	_	_	_	_	
+40-5	3106-3107	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3109-3110	#	_	_	_	_	_	_	_	
+41-2	3110-3111	P	_	_	_	_	_	_	_	
+41-3	3112-3115	IMM	_	_	_	_	_	_	_	
+41-4	3115-3116	.	_	_	_	_	_	_	_	
+
+#Text=Bengt Silfverstrand, fd riksdagsledamot.
+42-1	3118-3123	Bengt	_	_	_	_	_	_	_	
+42-2	3124-3137	Silfverstrand	_	_	_	_	_	_	_	
+42-3	3137-3138	,	_	_	_	_	_	_	_	
+42-4	3139-3141	fd	_	_	_	_	_	_	_	
+42-5	3142-3157	riksdagsledamot	_	_	_	_	_	_	_	
+42-6	3157-3158	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3160-3161	#	_	_	_	_	_	_	_	
+43-2	3161-3162	P	_	_	_	_	_	_	_	
+43-3	3163-3166	IMM	_	_	_	_	_	_	_	
+43-4	3166-3167	.	_	_	_	_	_	_	_	
+
+#Text=Lennart Nilsson, oppositionsråd och ombudsman.
+44-1	3169-3176	Lennart	_	_	_	_	_	_	_	
+44-2	3177-3184	Nilsson	_	_	_	_	_	_	_	
+44-3	3184-3185	,	_	_	_	_	_	_	_	
+44-4	3186-3200	oppositionsråd	_	_	_	_	_	_	_	
+44-5	3201-3204	och	_	_	_	_	_	_	_	
+44-6	3205-3214	ombudsman	_	_	_	_	_	_	_	
+44-7	3214-3215	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3217-3218	#	_	_	_	_	_	_	_	
+45-2	3218-3219	P	_	_	_	_	_	_	_	
+45-3	3220-3223	IMM	_	_	_	_	_	_	_	
+45-4	3223-3224	.	_	_	_	_	_	_	_	
+
+#Text=Masood Punjabi, postarbetare.
+46-1	3226-3232	Masood	_	_	_	_	_	_	_	
+46-2	3233-3240	Punjabi	_	_	_	_	_	_	_	
+46-3	3240-3241	,	_	_	_	_	_	_	_	
+46-4	3242-3254	postarbetare	_	_	_	_	_	_	_	
+46-5	3254-3255	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3257-3258	#	_	_	_	_	_	_	_	
+47-2	3258-3259	P	_	_	_	_	_	_	_	
+47-3	3260-3263	IMM	_	_	_	_	_	_	_	
+47-4	3263-3264	.	_	_	_	_	_	_	_	
+
+#Text=Gunnar Westin, brevbärare.
+48-1	3266-3272	Gunnar	_	_	_	_	_	_	_	
+48-2	3273-3279	Westin	_	_	_	_	_	_	_	
+48-3	3279-3280	,	_	_	_	_	_	_	_	
+48-4	3281-3291	brevbärare	_	_	_	_	_	_	_	
+48-5	3291-3292	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3294-3295	#	_	_	_	_	_	_	_	
+49-2	3295-3296	P	_	_	_	_	_	_	_	
+49-3	3297-3300	IMM	_	_	_	_	_	_	_	
+49-4	3300-3301	.	_	_	_	_	_	_	_	
+
+#Text=Mehrnosh Shafiee, sjuksköterska.
+50-1	3303-3311	Mehrnosh	_	_	_	_	_	_	_	
+50-2	3312-3319	Shafiee	_	_	_	_	_	_	_	
+50-3	3319-3320	,	_	_	_	_	_	_	_	
+50-4	3321-3334	sjuksköterska	_	_	_	_	_	_	_	
+50-5	3334-3335	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3337-3338	#	_	_	_	_	_	_	_	
+51-2	3338-3339	P	_	_	_	_	_	_	_	
+51-3	3340-3343	IMM	_	_	_	_	_	_	_	
+51-4	3343-3344	.	_	_	_	_	_	_	_	
+
+#Text=Ennio Casoni, undersköterska.
+52-1	3346-3351	Ennio	_	_	_	_	_	_	_	
+52-2	3352-3358	Casoni	_	_	_	_	_	_	_	
+52-3	3358-3359	,	_	_	_	_	_	_	_	
+52-4	3360-3374	undersköterska	_	_	_	_	_	_	_	
+52-5	3374-3375	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3377-3378	#	_	_	_	_	_	_	_	
+53-2	3378-3379	P	_	_	_	_	_	_	_	
+53-3	3380-3383	IMM	_	_	_	_	_	_	_	
+53-4	3383-3384	.	_	_	_	_	_	_	_	
+
+#Text=Maria Sundvall, läkare.
+54-1	3386-3391	Maria	_	_	_	_	_	_	_	
+54-2	3392-3400	Sundvall	_	_	_	_	_	_	_	
+54-3	3400-3401	,	_	_	_	_	_	_	_	
+54-4	3402-3408	läkare	_	_	_	_	_	_	_	
+54-5	3408-3409	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3411-3412	#	_	_	_	_	_	_	_	
+55-2	3412-3413	P	_	_	_	_	_	_	_	
+55-3	3414-3417	IMM	_	_	_	_	_	_	_	
+55-4	3417-3418	.	_	_	_	_	_	_	_	
+
+#Text=Afsaneh Vahdat, socialarbetare.
+56-1	3420-3427	Afsaneh	_	_	_	_	_	_	_	
+56-2	3428-3434	Vahdat	_	_	_	_	_	_	_	
+56-3	3434-3435	,	_	_	_	_	_	_	_	
+56-4	3436-3450	socialarbetare	_	_	_	_	_	_	_	
+56-5	3450-3451	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	3453-3454	#	_	_	_	_	_	_	_	
+57-2	3454-3455	P	_	_	_	_	_	_	_	
+57-3	3456-3459	IMM	_	_	_	_	_	_	_	
+57-4	3459-3460	.	_	_	_	_	_	_	_	
+
+#Text=Kajsa Ekis Ekman, författare och debattör.
+58-1	3462-3467	Kajsa	_	_	_	_	_	_	_	
+58-2	3468-3472	Ekis	_	_	_	_	_	_	_	
+58-3	3473-3478	Ekman	_	_	_	_	_	_	_	
+58-4	3478-3479	,	_	_	_	_	_	_	_	
+58-5	3480-3490	författare	_	_	_	_	_	_	_	
+58-6	3491-3494	och	_	_	_	_	_	_	_	
+58-7	3495-3503	debattör	_	_	_	_	_	_	_	
+58-8	3503-3504	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	3506-3507	#	_	_	_	_	_	_	_	
+59-2	3507-3508	P	_	_	_	_	_	_	_	
+59-3	3509-3512	IMM	_	_	_	_	_	_	_	
+59-4	3512-3513	.	_	_	_	_	_	_	_	
+
+#Text=Petri Myllykoski, bussförare.
+60-1	3515-3520	Petri	_	_	_	_	_	_	_	
+60-2	3521-3531	Myllykoski	_	_	_	_	_	_	_	
+60-3	3531-3532	,	_	_	_	_	_	_	_	
+60-4	3533-3543	bussförare	_	_	_	_	_	_	_	
+60-5	3543-3544	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	3546-3547	#	_	_	_	_	_	_	_	
+61-2	3547-3548	P	_	_	_	_	_	_	_	
+61-3	3549-3552	IMM	_	_	_	_	_	_	_	
+61-4	3552-3553	.	_	_	_	_	_	_	_	
+
+#Text=Peter Boström, bussförare.
+62-1	3555-3560	Peter	_	_	_	_	_	_	_	
+62-2	3561-3568	Boström	_	_	_	_	_	_	_	
+62-3	3568-3569	,	_	_	_	_	_	_	_	
+62-4	3570-3580	bussförare	_	_	_	_	_	_	_	
+62-5	3580-3581	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	3583-3584	#	_	_	_	_	_	_	_	
+63-2	3584-3585	P	_	_	_	_	_	_	_	
+63-3	3586-3589	IMM	_	_	_	_	_	_	_	
+63-4	3589-3590	.	_	_	_	_	_	_	_	
+
+#Text=Bilbo Göransson, barnskötare.
+64-1	3592-3597	Bilbo	_	_	_	_	_	_	_	
+64-2	3598-3607	Göransson	_	_	_	_	_	_	_	
+64-3	3607-3608	,	_	_	_	_	_	_	_	
+64-4	3609-3620	barnskötare	_	_	_	_	_	_	_	
+64-5	3620-3621	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	3623-3624	#	_	_	_	_	_	_	_	
+65-2	3624-3625	P	_	_	_	_	_	_	_	
+65-3	3626-3629	IMM	_	_	_	_	_	_	_	
+65-4	3629-3630	.	_	_	_	_	_	_	_	
+
+#Text=Alex Fuentes, biträdande rektor.
+66-1	3632-3636	Alex	_	_	_	_	_	_	_	
+66-2	3637-3644	Fuentes	_	_	_	_	_	_	_	
+66-3	3644-3645	,	_	_	_	_	_	_	_	
+66-4	3646-3656	biträdande	_	_	_	_	_	_	_	
+66-5	3657-3663	rektor	_	_	_	_	_	_	_	
+66-6	3663-3664	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	3666-3667	#	_	_	_	_	_	_	_	
+67-2	3667-3668	P	_	_	_	_	_	_	_	
+67-3	3669-3672	IMM	_	_	_	_	_	_	_	
+67-4	3672-3673	.	_	_	_	_	_	_	_	
+
+#Text=Ann-Margreth Livh, oppositionsråd.
+68-1	3675-3687	Ann-Margreth	_	_	_	_	_	_	_	
+68-2	3688-3692	Livh	_	_	_	_	_	_	_	
+68-3	3692-3693	,	_	_	_	_	_	_	_	
+68-4	3694-3708	oppositionsråd	_	_	_	_	_	_	_	
+68-5	3708-3709	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	3711-3712	#	_	_	_	_	_	_	_	
+69-2	3712-3713	P	_	_	_	_	_	_	_	
+69-3	3714-3717	IMM	_	_	_	_	_	_	_	
+69-4	3717-3718	.	_	_	_	_	_	_	_	
+
+#Text=Jan Olov Carlsson, bilbyggare.
+70-1	3720-3723	Jan	_	_	_	_	_	_	_	
+70-2	3724-3728	Olov	_	_	_	_	_	_	_	
+70-3	3729-3737	Carlsson	_	_	_	_	_	_	_	
+70-4	3737-3738	,	_	_	_	_	_	_	_	
+70-5	3739-3749	bilbyggare	_	_	_	_	_	_	_	
+70-6	3749-3750	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	3752-3753	#	_	_	_	_	_	_	_	
+71-2	3753-3754	P	_	_	_	_	_	_	_	
+71-3	3755-3758	IMM	_	_	_	_	_	_	_	
+71-4	3758-3759	.	_	_	_	_	_	_	_	
+
+#Text=Wellington Ikuobase, livsmedelsarbetare.
+72-1	3761-3771	Wellington	_	_	_	_	_	_	_	
+72-2	3772-3780	Ikuobase	_	_	_	_	_	_	_	
+72-3	3780-3781	,	_	_	_	_	_	_	_	
+72-4	3782-3800	livsmedelsarbetare	_	_	_	_	_	_	_	
+72-5	3800-3801	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	3803-3804	#	_	_	_	_	_	_	_	
+73-2	3804-3805	P	_	_	_	_	_	_	_	
+73-3	3806-3809	IMM	_	_	_	_	_	_	_	
+73-4	3809-3810	.	_	_	_	_	_	_	_	
+
+#Text=Mario Izquierdo, livsmedelsarbetare.
+74-1	3812-3817	Mario	_	_	_	_	_	_	_	
+74-2	3818-3827	Izquierdo	_	_	_	_	_	_	_	
+74-3	3827-3828	,	_	_	_	_	_	_	_	
+74-4	3829-3847	livsmedelsarbetare	_	_	_	_	_	_	_	
+74-5	3847-3848	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	3850-3851	#	_	_	_	_	_	_	_	
+75-2	3851-3852	P	_	_	_	_	_	_	_	
+75-3	3853-3856	IMM	_	_	_	_	_	_	_	
+75-4	3856-3857	.	_	_	_	_	_	_	_	
+
+#Text=Jannis Konstantis, tunneltågförare.
+76-1	3859-3865	Jannis	_	_	_	_	_	_	_	
+76-2	3866-3876	Konstantis	_	_	_	_	_	_	_	
+76-3	3876-3877	,	_	_	_	_	_	_	_	
+76-4	3878-3893	tunneltågförare	_	_	_	_	_	_	_	
+76-5	3893-3894	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+77-1	3896-3897	#	_	_	_	_	_	_	_	
+77-2	3897-3898	P	_	_	_	_	_	_	_	
+77-3	3899-3902	IMM	_	_	_	_	_	_	_	
+77-4	3902-3903	.	_	_	_	_	_	_	_	
+
+#Text=Ann Charlott Altstadt, författare.
+78-1	3905-3908	Ann	_	_	_	_	_	_	_	
+78-2	3909-3917	Charlott	_	_	_	_	_	_	_	
+78-3	3918-3926	Altstadt	_	_	_	_	_	_	_	
+78-4	3926-3927	,	_	_	_	_	_	_	_	
+78-5	3928-3938	författare	_	_	_	_	_	_	_	
+78-6	3938-3939	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	3941-3942	#	_	_	_	_	_	_	_	
+79-2	3942-3943	P	_	_	_	_	_	_	_	
+79-3	3944-3947	IMM	_	_	_	_	_	_	_	
+79-4	3947-3948	.	_	_	_	_	_	_	_	
+
+#Text=Göran Greider, chefredaktör och författare.
+80-1	3950-3955	Göran	_	_	_	_	_	_	_	
+80-2	3956-3963	Greider	_	_	_	_	_	_	_	
+80-3	3963-3964	,	_	_	_	_	_	_	_	
+80-4	3965-3977	chefredaktör	_	_	_	_	_	_	_	
+80-5	3978-3981	och	_	_	_	_	_	_	_	
+80-6	3982-3992	författare	_	_	_	_	_	_	_	
+80-7	3992-3993	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	3995-3996	#	_	_	_	_	_	_	_	
+81-2	3996-3997	P	_	_	_	_	_	_	_	
+81-3	3998-4001	IMM	_	_	_	_	_	_	_	
+81-4	4001-4002	.	_	_	_	_	_	_	_	
+
+#Text=Nima Djohari Taimouri, timvikarie.
+82-1	4004-4008	Nima	_	_	_	_	_	_	_	
+82-2	4009-4016	Djohari	_	_	_	_	_	_	_	
+82-3	4017-4025	Taimouri	_	_	_	_	_	_	_	
+82-4	4025-4026	,	_	_	_	_	_	_	_	
+82-5	4027-4037	timvikarie	_	_	_	_	_	_	_	
+82-6	4037-4038	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	4040-4041	#	_	_	_	_	_	_	_	
+83-2	4041-4042	P	_	_	_	_	_	_	_	
+83-3	4043-4046	IMM	_	_	_	_	_	_	_	
+83-4	4046-4047	.	_	_	_	_	_	_	_	
+
+#Text=Jan-Erik Gustafsson, docent KTH.
+84-1	4049-4057	Jan-Erik	_	_	_	_	_	_	_	
+84-2	4058-4068	Gustafsson	_	_	_	_	_	_	_	
+84-3	4068-4069	,	_	_	_	_	_	_	_	
+84-4	4070-4076	docent	_	_	_	_	_	_	_	
+84-5	4077-4080	KTH	_	_	_	_	_	_	_	
+84-6	4080-4081	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	4083-4084	#	_	_	_	_	_	_	_	
+85-2	4084-4085	P	_	_	_	_	_	_	_	
+85-3	4086-4089	IMM	_	_	_	_	_	_	_	
+85-4	4089-4090	.	_	_	_	_	_	_	_	
+
+#Text=Birgitta Sevefjord, oppositionslandstingsråd.
+86-1	4092-4100	Birgitta	_	_	_	_	_	_	_	
+86-2	4101-4110	Sevefjord	_	_	_	_	_	_	_	
+86-3	4110-4111	,	_	_	_	_	_	_	_	
+86-4	4112-4136	oppositionslandstingsråd	_	_	_	_	_	_	_	
+86-5	4136-4137	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	4139-4140	#	_	_	_	_	_	_	_	
+87-2	4140-4141	P	_	_	_	_	_	_	_	
+87-3	4142-4145	IMM	_	_	_	_	_	_	_	
+87-4	4145-4146	.	_	_	_	_	_	_	_	
+
+#Text=Håkan Blomqvist, historiker.
+88-1	4148-4153	Håkan	_	_	_	_	_	_	_	
+88-2	4154-4163	Blomqvist	_	_	_	_	_	_	_	
+88-3	4163-4164	,	_	_	_	_	_	_	_	
+88-4	4165-4175	historiker	_	_	_	_	_	_	_	
+88-5	4175-4176	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	4178-4179	#	_	_	_	_	_	_	_	
+89-2	4179-4180	P	_	_	_	_	_	_	_	
+89-3	4181-4184	IMM	_	_	_	_	_	_	_	
+89-4	4184-4185	.	_	_	_	_	_	_	_	
+
+#Text=Per Olof Matsson, litteraturvetare.
+90-1	4187-4190	Per	_	_	_	_	_	_	_	
+90-2	4191-4195	Olof	_	_	_	_	_	_	_	
+90-3	4196-4203	Matsson	_	_	_	_	_	_	_	
+90-4	4203-4204	,	_	_	_	_	_	_	_	
+90-5	4205-4221	litteraturvetare	_	_	_	_	_	_	_	
+90-6	4221-4222	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	4224-4225	#	_	_	_	_	_	_	_	
+91-2	4225-4226	P	_	_	_	_	_	_	_	
+91-3	4227-4230	IMM	_	_	_	_	_	_	_	
+91-4	4230-4231	.	_	_	_	_	_	_	_	
+
+#Text=Sven Wollter, skådespelare.
+92-1	4233-4237	Sven	_	_	_	_	_	_	_	
+92-2	4238-4245	Wollter	_	_	_	_	_	_	_	
+92-3	4245-4246	,	_	_	_	_	_	_	_	
+92-4	4247-4259	skådespelare	_	_	_	_	_	_	_	
+92-5	4259-4260	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+93-1	4262-4263	#	_	_	_	_	_	_	_	
+93-2	4263-4264	P	_	_	_	_	_	_	_	
+93-3	4265-4268	IMM	_	_	_	_	_	_	_	
+93-4	4268-4269	.	_	_	_	_	_	_	_	
+
+#Text=Hasse Nilsson, lärare och musiker.
+94-1	4271-4276	Hasse	_	_	_	_	_	_	_	
+94-2	4277-4284	Nilsson	_	_	_	_	_	_	_	
+94-3	4284-4285	,	_	_	_	_	_	_	_	
+94-4	4286-4292	lärare	_	_	_	_	_	_	_	
+94-5	4293-4296	och	_	_	_	_	_	_	_	
+94-6	4297-4304	musiker	_	_	_	_	_	_	_	
+94-7	4304-4305	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+95-1	4307-4308	#	_	_	_	_	_	_	_	
+95-2	4308-4309	P	_	_	_	_	_	_	_	
+95-3	4310-4313	IMM	_	_	_	_	_	_	_	
+95-4	4313-4314	.	_	_	_	_	_	_	_	
+
+#Text=Barbara Brädefors, pensionär.
+96-1	4316-4323	Barbara	_	_	_	_	_	_	_	
+96-2	4324-4333	Brädefors	_	_	_	_	_	_	_	
+96-3	4333-4334	,	_	_	_	_	_	_	_	
+96-4	4335-4344	pensionär	_	_	_	_	_	_	_	
+96-5	4344-4345	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+97-1	4347-4348	#	_	_	_	_	_	_	_	
+97-2	4348-4349	P	_	_	_	_	_	_	_	
+97-3	4350-4353	IMM	_	_	_	_	_	_	_	
+97-4	4353-4354	.	_	_	_	_	_	_	_	
+
+#Text=Basar Gerecci, högskolestudent.
+98-1	4356-4361	Basar	_	_	_	_	_	_	_	
+98-2	4362-4369	Gerecci	_	_	_	_	_	_	_	
+98-3	4369-4370	,	_	_	_	_	_	_	_	
+98-4	4371-4386	högskolestudent	_	_	_	_	_	_	_	
+98-5	4386-4387	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+99-1	4389-4390	#	_	_	_	_	_	_	_	
+99-2	4390-4391	P	_	_	_	_	_	_	_	
+99-3	4392-4395	IMM	_	_	_	_	_	_	_	
+99-4	4395-4396	.	_	_	_	_	_	_	_	
+
+#Text=Arne Johansson, chefredaktör.
+100-1	4398-4402	Arne	_	_	_	_	_	_	_	
+100-2	4403-4412	Johansson	_	_	_	_	_	_	_	
+100-3	4412-4413	,	_	_	_	_	_	_	_	
+100-4	4414-4426	chefredaktör	_	_	_	_	_	_	_	
+100-5	4426-4427	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+101-1	4429-4430	#	_	_	_	_	_	_	_	
+101-2	4430-4431	P	_	_	_	_	_	_	_	
+101-3	4432-4435	IMM	_	_	_	_	_	_	_	
+101-4	4435-4436	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+102-1	4438-4443	FAKTA	_	_	_	_	_	_	_	
+102-2	4443-4444	.	_	_	_	_	_	_	_	

@@ -1,0 +1,532 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=De som är mest sjuka måste få gå före.
+3-1	18-20	De	*[11]	_	_	_	_	
+3-2	21-24	som	*[11]	_	_	_	_	
+3-3	25-27	är	*[11]	_	_	_	_	
+3-4	28-32	mest	*[11]	_	_	_	_	
+3-5	33-38	sjuka	*[11]	_	_	_	_	
+3-6	39-44	måste	_	Target[1]	3-1[11]	false[1]	4[1]	
+3-7	45-47	få	_	Target[1]	3-1[11]	false[1]	4[1]	
+3-8	48-50	gå	_	Target[1]	3-1[11]	false[1]	4[1]	
+3-9	51-55	före	_	Target[1]	3-1[11]	false[1]	4[1]	
+3-10	55-56	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	
+
+#Text=Vår analys visar att vårdcentraler ofta har etablerats där vårdbehoven kan förväntas vara lägre.Jan Landahl.
+5-1	67-70	Vår	_	_	_	_	_	
+5-2	71-77	analys	_	_	_	_	_	
+5-3	78-83	visar	_	_	_	_	_	
+5-4	84-87	att	_	_	_	_	_	
+5-5	88-101	vårdcentraler	_	_	_	_	_	
+5-6	102-106	ofta	_	_	_	_	_	
+5-7	107-110	har	_	_	_	_	_	
+5-8	111-121	etablerats	_	_	_	_	_	
+5-9	122-125	där	_	_	_	_	_	
+5-10	126-137	vårdbehoven	_	_	_	_	_	
+5-11	138-141	kan	_	_	_	_	_	
+5-12	142-151	förväntas	_	_	_	_	_	
+5-13	152-156	vara	_	_	_	_	_	
+5-14	157-166	lägre.Jan	_	_	_	_	_	
+5-15	167-174	Landahl	_	_	_	_	_	
+5-16	174-175	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	177-178	#	_	_	_	_	_	
+6-2	178-179	P	_	_	_	_	_	
+6-3	180-183	IMM	_	_	_	_	_	
+6-4	183-184	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	186-189	Det	_	_	_	_	_	
+7-2	190-193	här	_	_	_	_	_	
+7-3	194-196	är	_	_	_	_	_	
+7-4	197-199	en	_	_	_	_	_	
+7-5	200-214	argumenterande	_	_	_	_	_	
+7-6	215-219	text	_	_	_	_	_	
+7-7	220-223	med	_	_	_	_	_	
+7-8	224-229	syfte	_	_	_	_	_	
+7-9	230-233	att	_	_	_	_	_	
+7-10	234-241	påverka	_	_	_	_	_	
+7-11	241-242	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	243-252	Åsikterna	_	_	_	_	_	
+8-2	253-256	som	_	_	_	_	_	
+8-3	257-265	uttrycks	_	_	_	_	_	
+8-4	266-268	är	_	_	_	_	_	
+8-5	269-280	skribentens	_	_	_	_	_	
+8-6	281-285	egna	_	_	_	_	_	
+8-7	285-286	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	288-289	#	_	_	_	_	_	
+9-2	289-290	P	_	_	_	_	_	
+9-3	291-294	IMM	_	_	_	_	_	
+9-4	294-295	.	_	_	_	_	_	
+
+#Text=**Vårdföretagaren **Christer Andersson hävdar på Brännpunkt 26/11 att hans vårdcentral i ett socioekonomiskt utsatt område i Östra Göteborg visar att Riksrevisionen i sin granskning av vårdvalsreformen har fel.
+10-1	297-298	*	*[12]	_	_	_	_	
+10-2	298-299	*	*[12]	_	_	_	_	
+10-3	299-314	Vårdföretagaren	*[12]	_	_	_	_	
+10-4	315-316	*	*[12]	_	_	_	_	
+10-5	316-317	*	*[12]	_	_	_	_	
+10-6	317-325	Christer	*[12]	_	_	_	_	
+10-7	326-335	Andersson	*[12]	_	_	_	_	
+10-8	336-342	hävdar	_	_	_	_	_	
+10-9	343-345	på	_	_	_	_	_	
+10-10	346-356	Brännpunkt	_	_	_	_	_	
+10-11	357-359	26	_	_	_	_	_	
+10-12	359-360	/	_	_	_	_	_	
+10-13	360-362	11	_	_	_	_	_	
+10-14	363-366	att	_	_	_	_	_	
+10-15	367-371	hans	_	_	_	_	_	
+10-16	372-383	vårdcentral	_	_	_	_	_	
+10-17	384-385	i	_	_	_	_	_	
+10-18	386-389	ett	_	_	_	_	_	
+10-19	390-405	socioekonomiskt	_	Target;Source[2]	10-21[13];10-1[12]	false[2]	2[2]	
+10-20	406-412	utsatt	_	Target;Source[2]	10-21[13];10-1[12]	false[2]	2[2]	
+10-21	413-419	område	*[13]	_	_	_	_	
+10-22	420-421	i	*[13]	_	_	_	_	
+10-23	422-427	Östra	*[13]	_	_	_	_	
+10-24	428-436	Göteborg	*[13]	_	_	_	_	
+10-25	437-442	visar	_	_	_	_	_	
+10-26	443-446	att	_	_	_	_	_	
+10-27	447-461	Riksrevisionen	*	_	_	_	_	
+10-28	462-463	i	_	_	_	_	_	
+10-29	464-467	sin	_	_	_	_	_	
+10-30	468-478	granskning	_	_	_	_	_	
+10-31	479-481	av	_	_	_	_	_	
+10-32	482-498	vårdvalsreformen	_	_	_	_	_	
+10-33	499-502	har	_	Source;Target[3]	10-1[12];10-27	false[3]	2[3]	
+10-34	503-506	fel	_	Source;Target[3]	10-1[12];10-27	false[3]	2[3]	
+10-35	506-507	.	_	_	_	_	_	
+
+#Text=Tvärtom, hans vårdcentral är ett av de goda exempel på nyetableringar i Göteborgs socialt utsatta områden som vi nämner i vår rapport.
+11-1	508-515	Tvärtom	_	_	_	_	_	
+11-2	515-516	,	_	_	_	_	_	
+11-3	517-521	hans	*[14]	_	_	_	_	
+11-4	522-533	vårdcentral	*[14]	_	_	_	_	
+11-5	534-536	är	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-6	537-540	ett	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-7	541-543	av	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-8	544-546	de	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-9	547-551	goda	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-10	552-559	exempel	_	Target[4]	11-3[14]	false[4]	4[4]	
+11-11	560-562	på	_	_	_	_	_	
+11-12	563-577	nyetableringar	_	_	_	_	_	
+11-13	578-579	i	_	_	_	_	_	
+11-14	580-589	Göteborgs	_	_	_	_	_	
+11-15	590-597	socialt	_	Target[5]	11-17	false[5]	2[5]	
+11-16	598-605	utsatta	_	Target[5]	11-17	false[5]	2[5]	
+11-17	606-613	områden	*	_	_	_	_	
+11-18	614-617	som	_	_	_	_	_	
+11-19	618-620	vi	_	_	_	_	_	
+11-20	621-627	nämner	_	_	_	_	_	
+11-21	628-629	i	_	_	_	_	_	
+11-22	630-633	vår	_	_	_	_	_	
+11-23	634-641	rapport	_	_	_	_	_	
+11-24	641-642	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	644-645	#	_	_	_	_	_	
+12-2	645-646	P	_	_	_	_	_	
+12-3	647-650	IMM	_	_	_	_	_	
+12-4	650-651	.	_	_	_	_	_	
+
+#Text=**Vi är fullt medvetna **om att det finns nyetablerade vårdcentraler likväl som kompetent och engagerad personal som bidrar till en primärvård i enlighet med riksdagens etiska principer.
+13-1	653-654	*	_	_	_	_	_	
+13-2	654-655	*	_	_	_	_	_	
+13-3	655-657	Vi	*	_	_	_	_	
+13-4	658-660	är	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-5	661-666	fullt	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-6	667-675	medvetna	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-7	676-677	*	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-8	677-678	*	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-9	678-680	om	_	Target;Source[6]	13-3;13-3	false[6]	4[6]	
+13-10	681-684	att	_	_	_	_	_	
+13-11	685-688	det	_	_	_	_	_	
+13-12	689-694	finns	_	_	_	_	_	
+13-13	695-707	nyetablerade	_	_	_	_	_	
+13-14	708-721	vårdcentraler	_	_	_	_	_	
+13-15	722-728	likväl	_	_	_	_	_	
+13-16	729-732	som	_	_	_	_	_	
+13-17	733-742	kompetent	_	Target[7]	13-20	false[7]	4[7]	
+13-18	743-746	och	_	Target[7]	13-20	false[7]	4[7]	
+13-19	747-756	engagerad	_	Target[7]	13-20	false[7]	4[7]	
+13-20	757-765	personal	*	_	_	_	_	
+13-21	766-769	som	_	_	_	_	_	
+13-22	770-776	bidrar	_	_	_	_	_	
+13-23	777-781	till	_	_	_	_	_	
+13-24	782-784	en	_	_	_	_	_	
+13-25	785-795	primärvård	_	_	_	_	_	
+13-26	796-797	i	_	_	_	_	_	
+13-27	798-806	enlighet	_	_	_	_	_	
+13-28	807-810	med	_	_	_	_	_	
+13-29	811-821	riksdagens	_	_	_	_	_	
+13-30	822-828	etiska	_	_	_	_	_	
+13-31	829-838	principer	_	_	_	_	_	
+13-32	838-839	.	_	_	_	_	_	
+
+#Text=Att finna sådana exempel har dock inte varit syftet med vår granskning.
+14-1	840-843	Att	_	_	_	_	_	
+14-2	844-849	finna	_	_	_	_	_	
+14-3	850-856	sådana	_	_	_	_	_	
+14-4	857-864	exempel	_	_	_	_	_	
+14-5	865-868	har	_	_	_	_	_	
+14-6	869-873	dock	_	_	_	_	_	
+14-7	874-878	inte	_	_	_	_	_	
+14-8	879-884	varit	_	_	_	_	_	
+14-9	885-891	syftet	_	_	_	_	_	
+14-10	892-895	med	_	_	_	_	_	
+14-11	896-899	vår	_	_	_	_	_	
+14-12	900-910	granskning	_	_	_	_	_	
+14-13	910-911	.	_	_	_	_	_	
+
+#Text=I stället ville vi skapa en bild av läget över hela landet.
+15-1	912-913	I	_	_	_	_	_	
+15-2	914-921	stället	_	_	_	_	_	
+15-3	922-927	ville	_	_	_	_	_	
+15-4	928-930	vi	_	_	_	_	_	
+15-5	931-936	skapa	_	_	_	_	_	
+15-6	937-939	en	_	_	_	_	_	
+15-7	940-944	bild	_	_	_	_	_	
+15-8	945-947	av	_	_	_	_	_	
+15-9	948-953	läget	_	_	_	_	_	
+15-10	954-958	över	_	_	_	_	_	
+15-11	959-963	hela	_	_	_	_	_	
+15-12	964-970	landet	_	_	_	_	_	
+15-13	970-971	.	_	_	_	_	_	
+
+#Text=Och den bilden visade sig inte vara lika positiv.
+16-1	972-975	Och	_	_	_	_	_	
+16-2	976-979	den	*[15]	_	_	_	_	
+16-3	980-986	bilden	*[15]	_	_	_	_	
+16-4	987-993	visade	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-5	994-997	sig	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-6	998-1002	inte	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-7	1003-1007	vara	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-8	1008-1012	lika	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-9	1013-1020	positiv	_	Target[8]	16-2[15]	false[8]	2[8]	
+16-10	1020-1021	.	_	_	_	_	_	
+
+#Text=Vi har på nationell nivå bland annat studerat hur nyetableringar och nedläggningar av vårdcentraler har påverkat olika geografiska områden.
+17-1	1022-1024	Vi	_	_	_	_	_	
+17-2	1025-1028	har	_	_	_	_	_	
+17-3	1029-1031	på	_	_	_	_	_	
+17-4	1032-1041	nationell	_	_	_	_	_	
+17-5	1042-1046	nivå	_	_	_	_	_	
+17-6	1047-1052	bland	_	_	_	_	_	
+17-7	1053-1058	annat	_	_	_	_	_	
+17-8	1059-1067	studerat	_	_	_	_	_	
+17-9	1068-1071	hur	_	_	_	_	_	
+17-10	1072-1086	nyetableringar	_	_	_	_	_	
+17-11	1087-1090	och	_	_	_	_	_	
+17-12	1091-1104	nedläggningar	_	_	_	_	_	
+17-13	1105-1107	av	_	_	_	_	_	
+17-14	1108-1121	vårdcentraler	_	_	_	_	_	
+17-15	1122-1125	har	_	_	_	_	_	
+17-16	1126-1134	påverkat	_	_	_	_	_	
+17-17	1135-1140	olika	_	_	_	_	_	
+17-18	1141-1152	geografiska	_	_	_	_	_	
+17-19	1153-1160	områden	_	_	_	_	_	
+17-20	1160-1161	.	_	_	_	_	_	
+
+#Text=Analysen visar att vårdcentralerna har blivit fler och att närheten har förbättrats för många.
+18-1	1162-1170	Analysen	_	_	_	_	_	
+18-2	1171-1176	visar	_	_	_	_	_	
+18-3	1177-1180	att	_	_	_	_	_	
+18-4	1181-1196	vårdcentralerna	_	_	_	_	_	
+18-5	1197-1200	har	_	_	_	_	_	
+18-6	1201-1207	blivit	_	_	_	_	_	
+18-7	1208-1212	fler	_	_	_	_	_	
+18-8	1213-1216	och	_	_	_	_	_	
+18-9	1217-1220	att	_	_	_	_	_	
+18-10	1221-1229	närheten	*	_	_	_	_	
+18-11	1230-1233	har	_	Target[9]	18-10	false[9]	4[9]	
+18-12	1234-1245	förbättrats	_	Target[9]	18-10	false[9]	4[9]	
+18-13	1246-1249	för	_	_	_	_	_	
+18-14	1250-1255	många	_	_	_	_	_	
+18-15	1255-1256	.	_	_	_	_	_	
+
+#Text=Men den visar också att vårdcentraler ofta har etablerats där vårdbehoven kan förväntas vara lägre.
+19-1	1257-1260	Men	_	_	_	_	_	
+19-2	1261-1264	den	_	_	_	_	_	
+19-3	1265-1270	visar	_	_	_	_	_	
+19-4	1271-1276	också	_	_	_	_	_	
+19-5	1277-1280	att	_	_	_	_	_	
+19-6	1281-1294	vårdcentraler	_	_	_	_	_	
+19-7	1295-1299	ofta	_	_	_	_	_	
+19-8	1300-1303	har	_	_	_	_	_	
+19-9	1304-1314	etablerats	_	_	_	_	_	
+19-10	1315-1318	där	_	_	_	_	_	
+19-11	1319-1330	vårdbehoven	_	_	_	_	_	
+19-12	1331-1334	kan	_	_	_	_	_	
+19-13	1335-1344	förväntas	_	_	_	_	_	
+19-14	1345-1349	vara	_	_	_	_	_	
+19-15	1350-1355	lägre	_	_	_	_	_	
+19-16	1355-1356	.	_	_	_	_	_	
+
+#Text=Det är dessutom färre läkare vid vårdcentraler i områden där vårdbehoven är som störst.
+20-1	1357-1360	Det	_	_	_	_	_	
+20-2	1361-1363	är	_	_	_	_	_	
+20-3	1364-1372	dessutom	_	_	_	_	_	
+20-4	1373-1378	färre	_	_	_	_	_	
+20-5	1379-1385	läkare	_	_	_	_	_	
+20-6	1386-1389	vid	_	_	_	_	_	
+20-7	1390-1403	vårdcentraler	_	_	_	_	_	
+20-8	1404-1405	i	_	_	_	_	_	
+20-9	1406-1413	områden	_	_	_	_	_	
+20-10	1414-1417	där	_	_	_	_	_	
+20-11	1418-1429	vårdbehoven	_	_	_	_	_	
+20-12	1430-1432	är	_	_	_	_	_	
+20-13	1433-1436	som	_	_	_	_	_	
+20-14	1437-1443	störst	_	_	_	_	_	
+20-15	1443-1444	.	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1446-1447	#	_	_	_	_	_	
+21-2	1447-1448	P	_	_	_	_	_	
+21-3	1449-1452	IMM	_	_	_	_	_	
+21-4	1452-1453	.	_	_	_	_	_	
+
+#Text=Riksrevisionen har också studerat förändringar i läkarbesök i två regioner, Skåne och Västra Götaland.
+22-1	1455-1469	Riksrevisionen	_	_	_	_	_	
+22-2	1470-1473	har	_	_	_	_	_	
+22-3	1474-1479	också	_	_	_	_	_	
+22-4	1480-1488	studerat	_	_	_	_	_	
+22-5	1489-1501	förändringar	_	_	_	_	_	
+22-6	1502-1503	i	_	_	_	_	_	
+22-7	1504-1514	läkarbesök	_	_	_	_	_	
+22-8	1515-1516	i	_	_	_	_	_	
+22-9	1517-1520	två	_	_	_	_	_	
+22-10	1521-1529	regioner	_	_	_	_	_	
+22-11	1529-1530	,	_	_	_	_	_	
+22-12	1531-1536	Skåne	_	_	_	_	_	
+22-13	1537-1540	och	_	_	_	_	_	
+22-14	1541-1547	Västra	_	_	_	_	_	
+22-15	1548-1556	Götaland	_	_	_	_	_	
+22-16	1556-1557	.	_	_	_	_	_	
+
+#Text=Vi kan inte uttala oss om situationen i Bergsjön, men i de bägge regionerna har det tillkommit många besökare med lindriga symtom efter reformen.
+23-1	1558-1560	Vi	_	_	_	_	_	
+23-2	1561-1564	kan	_	_	_	_	_	
+23-3	1565-1569	inte	_	_	_	_	_	
+23-4	1570-1576	uttala	_	_	_	_	_	
+23-5	1577-1580	oss	_	_	_	_	_	
+23-6	1581-1583	om	_	_	_	_	_	
+23-7	1584-1595	situationen	_	_	_	_	_	
+23-8	1596-1597	i	_	_	_	_	_	
+23-9	1598-1606	Bergsjön	_	_	_	_	_	
+23-10	1606-1607	,	_	_	_	_	_	
+23-11	1608-1611	men	_	_	_	_	_	
+23-12	1612-1613	i	_	_	_	_	_	
+23-13	1614-1616	de	_	_	_	_	_	
+23-14	1617-1622	bägge	_	_	_	_	_	
+23-15	1623-1633	regionerna	_	_	_	_	_	
+23-16	1634-1637	har	_	_	_	_	_	
+23-17	1638-1641	det	_	_	_	_	_	
+23-18	1642-1652	tillkommit	_	_	_	_	_	
+23-19	1653-1658	många	_	_	_	_	_	
+23-20	1659-1667	besökare	_	_	_	_	_	
+23-21	1668-1671	med	_	_	_	_	_	
+23-22	1672-1680	lindriga	_	Target;Source	23-23;23-26	false	4	
+23-23	1681-1687	symtom	*	_	_	_	_	
+23-24	1688-1693	efter	_	_	_	_	_	
+23-25	1694-1702	reformen	_	_	_	_	_	
+23-26	1702-1703	.	*	_	_	_	_	
+
+#Text=Denna grupp gör också fler läkarbesök.
+24-1	1704-1709	Denna	_	_	_	_	_	
+24-2	1710-1715	grupp	_	_	_	_	_	
+24-3	1716-1719	gör	_	_	_	_	_	
+24-4	1720-1725	också	_	_	_	_	_	
+24-5	1726-1730	fler	_	_	_	_	_	
+24-6	1731-1741	läkarbesök	_	_	_	_	_	
+24-7	1741-1742	.	_	_	_	_	_	
+
+#Text=Det omvända gäller för de sjukaste patienterna, som gör färre läkarbesök.
+25-1	1743-1746	Det	_	_	_	_	_	
+25-2	1747-1754	omvända	_	_	_	_	_	
+25-3	1755-1761	gäller	_	_	_	_	_	
+25-4	1762-1765	för	_	_	_	_	_	
+25-5	1766-1768	de	_	_	_	_	_	
+25-6	1769-1777	sjukaste	_	_	_	_	_	
+25-7	1778-1789	patienterna	_	_	_	_	_	
+25-8	1789-1790	,	_	_	_	_	_	
+25-9	1791-1794	som	_	_	_	_	_	
+25-10	1795-1798	gör	_	_	_	_	_	
+25-11	1799-1804	färre	_	_	_	_	_	
+25-12	1805-1815	läkarbesök	_	_	_	_	_	
+25-13	1815-1816	.	_	_	_	_	_	
+
+#Text=De förändrade besöksmönstren tycks främst gälla offentliga vårdcentraler.
+26-1	1817-1819	De	_	_	_	_	_	
+26-2	1820-1830	förändrade	_	_	_	_	_	
+26-3	1831-1845	besöksmönstren	_	_	_	_	_	
+26-4	1846-1851	tycks	_	_	_	_	_	
+26-5	1852-1858	främst	_	_	_	_	_	
+26-6	1859-1864	gälla	_	_	_	_	_	
+26-7	1865-1875	offentliga	_	_	_	_	_	
+26-8	1876-1889	vårdcentraler	_	_	_	_	_	
+26-9	1889-1890	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1892-1893	#	_	_	_	_	_	
+27-2	1893-1894	P	_	_	_	_	_	
+27-3	1895-1898	IMM	_	_	_	_	_	
+27-4	1898-1899	.	_	_	_	_	_	
+
+#Text=**Det Riksrevisionen **vill åstadkomma med sina rekommendationer är i stor utsträckning det Christer Andersson förefaller ha gjort, nämligen att bidra till att vård ges efter behov och att patienter med större behov av vård får gå före de med mindre.
+28-1	1901-1902	*	_	_	_	_	_	
+28-2	1902-1903	*	_	_	_	_	_	
+28-3	1903-1906	Det	_	_	_	_	_	
+28-4	1907-1921	Riksrevisionen	*	_	_	_	_	
+28-5	1922-1923	*	_	_	_	_	_	
+28-6	1923-1924	*	_	_	_	_	_	
+28-7	1924-1928	vill	_	Target;Source[10]	28-24[16];28-4	false[10]	4[10]	
+28-8	1929-1939	åstadkomma	_	Target;Source[10]	28-24[16];28-4	false[10]	4[10]	
+28-9	1940-1943	med	_	_	_	_	_	
+28-10	1944-1948	sina	_	_	_	_	_	
+28-11	1949-1965	rekommendationer	_	_	_	_	_	
+28-12	1966-1968	är	_	_	_	_	_	
+28-13	1969-1970	i	_	_	_	_	_	
+28-14	1971-1975	stor	_	_	_	_	_	
+28-15	1976-1988	utsträckning	_	_	_	_	_	
+28-16	1989-1992	det	_	_	_	_	_	
+28-17	1993-2001	Christer	_	_	_	_	_	
+28-18	2002-2011	Andersson	_	_	_	_	_	
+28-19	2012-2022	förefaller	_	_	_	_	_	
+28-20	2023-2025	ha	_	_	_	_	_	
+28-21	2026-2031	gjort	_	_	_	_	_	
+28-22	2031-2032	,	_	_	_	_	_	
+28-23	2033-2041	nämligen	_	_	_	_	_	
+28-24	2042-2045	att	*[16]	_	_	_	_	
+28-25	2046-2051	bidra	*[16]	_	_	_	_	
+28-26	2052-2056	till	*[16]	_	_	_	_	
+28-27	2057-2060	att	*[16]	_	_	_	_	
+28-28	2061-2065	vård	*[16]	_	_	_	_	
+28-29	2066-2069	ges	*[16]	_	_	_	_	
+28-30	2070-2075	efter	*[16]	_	_	_	_	
+28-31	2076-2081	behov	*[16]	_	_	_	_	
+28-32	2082-2085	och	*[16]	_	_	_	_	
+28-33	2086-2089	att	*[16]	_	_	_	_	
+28-34	2090-2099	patienter	*[16]	_	_	_	_	
+28-35	2100-2103	med	*[16]	_	_	_	_	
+28-36	2104-2110	större	*[16]	_	_	_	_	
+28-37	2111-2116	behov	*[16]	_	_	_	_	
+28-38	2117-2119	av	*[16]	_	_	_	_	
+28-39	2120-2124	vård	*[16]	_	_	_	_	
+28-40	2125-2128	får	*[16]	_	_	_	_	
+28-41	2129-2131	gå	*[16]	_	_	_	_	
+28-42	2132-2136	före	*[16]	_	_	_	_	
+28-43	2137-2139	de	*[16]	_	_	_	_	
+28-44	2140-2143	med	*[16]	_	_	_	_	
+28-45	2144-2150	mindre	*[16]	_	_	_	_	
+28-46	2150-2151	.	_	_	_	_	_	
+
+#Text=För att åstadkomma detta bör vårdvalssystemen formuleras mer enhetligt över landet och villkoren bli enklare och styra mot riksdagens etiska plattform.
+29-1	2152-2155	För	_	_	_	_	_	
+29-2	2156-2159	att	_	_	_	_	_	
+29-3	2160-2170	åstadkomma	_	_	_	_	_	
+29-4	2171-2176	detta	_	_	_	_	_	
+29-5	2177-2180	bör	_	_	_	_	_	
+29-6	2181-2197	vårdvalssystemen	_	_	_	_	_	
+29-7	2198-2208	formuleras	_	_	_	_	_	
+29-8	2209-2212	mer	_	_	_	_	_	
+29-9	2213-2222	enhetligt	_	_	_	_	_	
+29-10	2223-2227	över	_	_	_	_	_	
+29-11	2228-2234	landet	_	_	_	_	_	
+29-12	2235-2238	och	_	_	_	_	_	
+29-13	2239-2248	villkoren	_	_	_	_	_	
+29-14	2249-2252	bli	_	_	_	_	_	
+29-15	2253-2260	enklare	_	_	_	_	_	
+29-16	2261-2264	och	_	_	_	_	_	
+29-17	2265-2270	styra	_	_	_	_	_	
+29-18	2271-2274	mot	_	_	_	_	_	
+29-19	2275-2285	riksdagens	_	_	_	_	_	
+29-20	2286-2292	etiska	_	_	_	_	_	
+29-21	2293-2302	plattform	_	_	_	_	_	
+29-22	2302-2303	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2305-2306	#	_	_	_	_	_	
+30-2	2306-2307	P	_	_	_	_	_	
+30-3	2308-2311	IMM	_	_	_	_	_	
+30-4	2311-2312	.	_	_	_	_	_	
+
+#Text=JAN LANDAHL.
+31-1	2314-2317	JAN	_	_	_	_	_	
+31-2	2318-2325	LANDAHL	_	_	_	_	_	
+31-3	2325-2326	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2328-2329	#	_	_	_	_	_	
+32-2	2329-2330	P	_	_	_	_	_	
+32-3	2331-2334	IMM	_	_	_	_	_	
+32-4	2334-2335	.	_	_	_	_	_	
+
+#Text=riksrevisor.
+33-1	2337-2348	riksrevisor	_	_	_	_	_	
+33-2	2348-2349	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2351-2352	#	_	_	_	_	_	
+34-2	2352-2353	P	_	_	_	_	_	
+34-3	2354-2357	IMM	_	_	_	_	_	
+34-4	2357-2358	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+35-1	2360-2368	Redaktör	_	_	_	_	_	
+35-2	2368-2369	:	_	_	_	_	_	
+35-3	2370-2376	Carina	_	_	_	_	_	
+35-4	2377-2385	Stensson	_	_	_	_	_	
+35-5	2385-2386	,	_	_	_	_	_	
+35-6	2387-2397	Biträdande	_	_	_	_	_	
+35-7	2398-2406	redaktör	_	_	_	_	_	
+35-8	2406-2407	:	_	_	_	_	_	
+35-9	2408-2413	Björn	_	_	_	_	_	
+35-10	2414-2420	Jorner	_	_	_	_	_	
+35-11	2420-2421	,	_	_	_	_	_	
+35-12	2422-2426	Mejl	_	_	_	_	_	
+35-13	2426-2427	:	_	_	_	_	_	
+35-14	2428-2434	debatt	_	_	_	_	_	
+35-15	2434-2435	@	_	_	_	_	_	
+35-16	2435-2441	svd.se	_	_	_	_	_	
+35-17	2441-2442	,	_	_	_	_	_	
+35-18	2443-2456	Telefonnummer	_	_	_	_	_	
+35-19	2456-2457	:	_	_	_	_	_	
+35-20	2458-2460	08	_	_	_	_	_	
+35-21	2460-2461	-	_	_	_	_	_	
+35-22	2461-2467	135149	_	_	_	_	_	
+35-23	2467-2468	,	_	_	_	_	_	
+35-24	2469-2476	Twitter	_	_	_	_	_	
+35-25	2476-2477	:	_	_	_	_	_	
+35-26	2478-2479	@	_	_	_	_	_	
+35-27	2479-2488	SvDDebatt	_	_	_	_	_	
+35-28	2488-2489	,	_	_	_	_	_	
+35-29	2490-2498	Facebook	_	_	_	_	_	
+35-30	2498-2499	:	_	_	_	_	_	
+35-31	2500-2503	SvD	_	_	_	_	_	
+35-32	2504-2510	Debatt	_	_	_	_	_	
+35-33	2510-2511	.	_	_	_	_	_	

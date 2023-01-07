@@ -1,0 +1,144 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Replik: Välkommen till verkligheten!.
+3-1	18-24	Replik	_	_	_	_	_	_	
+3-2	24-25	:	_	_	_	_	_	_	
+3-3	26-35	Välkommen	_	_	_	_	_	_	
+3-4	36-40	till	_	_	_	_	_	_	
+3-5	41-53	verkligheten	_	_	_	_	_	_	
+3-6	53-54	!	_	_	_	_	_	_	
+3-7	54-55	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	
+
+#Text=Det är lite rörande att se hur kvällsarbetande kulturarbetare och skådespelare beklagar sig över bristen på kommunal barnomsorg under kvällar och helger.
+5-1	66-69	Det	_	_	_	_	_	_	
+5-2	70-72	är	_	_	_	_	_	_	
+5-3	73-77	lite	_	_	_	_	_	_	
+5-4	78-85	rörande	_	_	_	_	_	_	
+5-5	86-89	att	_	_	_	_	_	_	
+5-6	90-92	se	_	_	_	_	_	_	
+5-7	93-96	hur	_	_	_	_	_	_	
+5-8	97-112	kvällsarbetande	*[3]|*[4]	_	_	_	_	6-1[0_4]	
+5-9	113-127	kulturarbetare	*[3]|*[4]	_	_	_	_	_	
+5-10	128-131	och	*[3]|*[4]	_	_	_	_	_	
+5-11	132-144	skådespelare	*[3]|*[4]	_	_	_	_	_	
+5-12	145-153	beklagar	_	Target;Source[1]	5-15[5];5-8[3]	false[1]	2[1]	_	
+5-13	154-157	sig	_	Target;Source[1]	5-15[5];5-8[3]	false[1]	2[1]	_	
+5-14	158-162	över	_	Target;Source[1]	5-15[5];5-8[3]	false[1]	2[1]	_	
+5-15	163-170	bristen	*[5]	_	_	_	_	_	
+5-16	171-173	på	*[5]	_	_	_	_	_	
+5-17	174-182	kommunal	*[5]	_	_	_	_	_	
+5-18	183-193	barnomsorg	*[5]	_	_	_	_	_	
+5-19	194-199	under	*[5]	_	_	_	_	_	
+5-20	200-207	kvällar	*[5]	_	_	_	_	_	
+5-21	208-211	och	*[5]	_	_	_	_	_	
+5-22	212-218	helger	*[5]	_	_	_	_	_	
+5-23	218-219	.	*[5]	_	_	_	_	_	
+
+#Text=De anser sig tvingade att välja ”barn eller arbetet”.
+6-1	220-222	De	*	_	_	_	_	_	
+6-2	223-228	anser	_	Target;Source[2]	6-5[6];6-1	false[2]	2[2]	_	
+6-3	229-232	sig	_	Target;Source[2]	6-5[6];6-1	false[2]	2[2]	_	
+6-4	233-241	tvingade	_	Target;Source[2]	6-5[6];6-1	false[2]	2[2]	_	
+6-5	242-245	att	*[6]	_	_	_	_	_	
+6-6	246-251	välja	*[6]	_	_	_	_	_	
+6-7	252-253	”	*[6]	_	_	_	_	_	
+6-8	253-257	barn	*[6]	_	_	_	_	_	
+6-9	258-263	eller	*[6]	_	_	_	_	_	
+6-10	264-271	arbetet	*[6]	_	_	_	_	_	
+6-11	271-272	”	_	_	_	_	_	_	
+6-12	272-273	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	275-276	#	_	_	_	_	_	_	
+7-2	276-277	P	_	_	_	_	_	_	
+7-3	278-281	IMM	_	_	_	_	_	_	
+7-4	281-282	.	_	_	_	_	_	_	
+
+#Text=Välkommen till verkligheten!
+8-1	284-293	Välkommen	_	_	_	_	_	_	
+8-2	294-298	till	_	_	_	_	_	_	
+8-3	299-311	verkligheten	_	_	_	_	_	_	
+8-4	311-312	!	_	_	_	_	_	_	
+
+#Text=Det är nog 10 000-tals föräldrar som tycker jättesynd om er.
+9-1	313-316	Det	_	_	_	_	_	_	
+9-2	317-319	är	_	_	_	_	_	_	
+9-3	320-323	nog	_	_	_	_	_	_	
+9-4	324-326	10	_	_	_	_	_	_	
+9-5	327-330	000	_	_	_	_	_	_	
+9-6	330-331	-	_	_	_	_	_	_	
+9-7	331-335	tals	_	_	_	_	_	_	
+9-8	336-345	föräldrar	_	_	_	_	_	_	
+9-9	346-349	som	_	_	_	_	_	_	
+9-10	350-356	tycker	_	_	_	_	_	_	
+9-11	357-366	jättesynd	_	_	_	_	_	_	
+9-12	367-369	om	_	_	_	_	_	_	
+9-13	370-372	er	_	_	_	_	_	_	
+9-14	372-373	.	_	_	_	_	_	_	
+
+#Text=De jobbar skift, med tillhörande kvällar, helger och nätter inom vård, handel, restaurang och industri.
+10-1	374-376	De	_	_	_	_	_	_	
+10-2	377-383	jobbar	_	_	_	_	_	_	
+10-3	384-389	skift	_	_	_	_	_	_	
+10-4	389-390	,	_	_	_	_	_	_	
+10-5	391-394	med	_	_	_	_	_	_	
+10-6	395-406	tillhörande	_	_	_	_	_	_	
+10-7	407-414	kvällar	_	_	_	_	_	_	
+10-8	414-415	,	_	_	_	_	_	_	
+10-9	416-422	helger	_	_	_	_	_	_	
+10-10	423-426	och	_	_	_	_	_	_	
+10-11	427-433	nätter	_	_	_	_	_	_	
+10-12	434-438	inom	_	_	_	_	_	_	
+10-13	439-443	vård	_	_	_	_	_	_	
+10-14	443-444	,	_	_	_	_	_	_	
+10-15	445-451	handel	_	_	_	_	_	_	
+10-16	451-452	,	_	_	_	_	_	_	
+10-17	453-463	restaurang	_	_	_	_	_	_	
+10-18	464-467	och	_	_	_	_	_	_	
+10-19	468-476	industri	_	_	_	_	_	_	
+10-20	476-477	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	479-480	#	_	_	_	_	_	_	
+11-2	480-481	P	_	_	_	_	_	_	
+11-3	482-485	IMM	_	_	_	_	_	_	
+11-4	485-486	.	_	_	_	_	_	_	
+
+#Text=De har dock lyckats kombinera det som ni anser vara ett motsatsförhållande...
+12-1	488-490	De	_	_	_	_	_	_	
+12-2	491-494	har	_	_	_	_	_	_	
+12-3	495-499	dock	_	_	_	_	_	_	
+12-4	500-507	lyckats	_	_	_	_	_	_	
+12-5	508-517	kombinera	_	_	_	_	_	_	
+12-6	518-521	det	_	_	_	_	_	_	
+12-7	522-525	som	_	_	_	_	_	_	
+12-8	526-528	ni	_	_	_	_	_	_	
+12-9	529-534	anser	_	_	_	_	_	_	
+12-10	535-539	vara	_	_	_	_	_	_	
+12-11	540-543	ett	_	_	_	_	_	_	
+12-12	544-562	motsatsförhållande	_	_	_	_	_	_	
+12-13	562-563	.	_	_	_	_	_	_	
+12-14	563-564	.	_	_	_	_	_	_	
+12-15	564-565	.	_	_	_	_	_	_	

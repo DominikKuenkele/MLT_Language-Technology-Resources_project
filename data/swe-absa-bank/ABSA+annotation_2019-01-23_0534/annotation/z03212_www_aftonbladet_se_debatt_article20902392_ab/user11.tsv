@@ -1,0 +1,393 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	4[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	4[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	4[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	4[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Integration är inte  möjligt utan konflikt.
+3-1	18-29	Integration	_	_	_	_	_	
+3-2	30-32	är	_	_	_	_	_	
+3-3	33-37	inte	_	_	_	_	_	
+3-4	39-46	möjligt	_	_	_	_	_	
+3-5	47-51	utan	_	_	_	_	_	
+3-6	52-60	konflikt	_	_	_	_	_	
+3-7	60-61	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	
+4-2	64-65	P	_	_[3]	_	false[3]	3[3]	
+4-3	66-69	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	69-70	.	_	_	_	_	_	
+
+#Text=Jag har fram till nyligen tänkt att integration handlar om arbete, att bristen på jobb är vår största utmaning.
+5-1	72-75	Jag	_	_	_	_	_	
+5-2	76-79	har	_	_	_	_	_	
+5-3	80-84	fram	_	_	_	_	_	
+5-4	85-89	till	_	_	_	_	_	
+5-5	90-97	nyligen	_	_	_	_	_	
+5-6	98-103	tänkt	_	_	_	_	_	
+5-7	104-107	att	_	_	_	_	_	
+5-8	108-119	integration	_	_	_	_	_	
+5-9	120-127	handlar	_	_	_	_	_	
+5-10	128-130	om	_	_	_	_	_	
+5-11	131-137	arbete	_	_	_	_	_	
+5-12	137-138	,	_	_	_	_	_	
+5-13	139-142	att	_	_	_	_	_	
+5-14	143-150	bristen	*[21]	_	_	_	_	
+5-15	151-153	på	*[21]	_	_	_	_	
+5-16	154-158	jobb	*[21]	_	_	_	_	
+5-17	159-161	är	_	Target[4]	5-14[21]	false[4]	2[4]	
+5-18	162-165	vår	_	Target[4]	5-14[21]	false[4]	2[4]	
+5-19	166-173	största	_	Target[4]	5-14[21]	false[4]	2[4]	
+5-20	174-182	utmaning	_	Target[4]	5-14[21]	false[4]	2[4]	
+5-21	182-183	.	_	_	_	_	_	
+
+#Text=Men integration är mer än så.
+6-1	184-187	Men	_	_	_	_	_	
+6-2	188-199	integration	_	_	_	_	_	
+6-3	200-202	är	_	_	_	_	_	
+6-4	203-206	mer	_	_	_	_	_	
+6-5	207-209	än	_	_	_	_	_	
+6-6	210-212	så	_	_	_	_	_	
+6-7	212-213	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	215-216	#	_	_	_	_	_	
+7-2	216-217	P	_	_[5]	_	false[5]	4[5]	
+7-3	218-221	IMM	_	_[5]	_	false[5]	4[5]	
+7-4	221-222	.	_	_	_	_	_	
+
+#Text=Man skulle kunna tänka sig att ett så individualistiskt land som Sverige, där vi har en liberal syn på livsstil, är det enkelt att som invandrare komma in i samhället.
+8-1	224-227	Man	_	Source;Target[6]	8-33;8-23[22]	false[6]	4[6]	
+8-2	228-234	skulle	_	Source;Target[6]	8-33;8-23[22]	false[6]	4[6]	
+8-3	235-240	kunna	_	Source;Target[6]	8-33;8-23[22]	false[6]	4[6]	
+8-4	241-246	tänka	_	Source;Target[6]	8-33;8-23[22]	false[6]	4[6]	
+8-5	247-250	sig	_	Source;Target[6]	8-33;8-23[22]	false[6]	4[6]	
+8-6	251-254	att	_	_	_	_	_	
+8-7	255-258	ett	_	_	_	_	_	
+8-8	259-261	så	_	_	_	_	_	
+8-9	262-279	individualistiskt	_	_	_	_	_	
+8-10	280-284	land	_	_	_	_	_	
+8-11	285-288	som	_	_	_	_	_	
+8-12	289-296	Sverige	_	_	_	_	_	
+8-13	296-297	,	_	_	_	_	_	
+8-14	298-301	där	_	_	_	_	_	
+8-15	302-304	vi	_	_	_	_	_	
+8-16	305-308	har	_	_	_	_	_	
+8-17	309-311	en	_	_	_	_	_	
+8-18	312-319	liberal	_	_	_	_	_	
+8-19	320-323	syn	_	_	_	_	_	
+8-20	324-326	på	_	_	_	_	_	
+8-21	327-335	livsstil	_	_	_	_	_	
+8-22	335-336	,	_	_	_	_	_	
+8-23	337-339	är	*[22]	_	_	_	_	
+8-24	340-343	det	*[22]	_	_	_	_	
+8-25	344-350	enkelt	*[22]	_	_	_	_	
+8-26	351-354	att	*[22]	_	_	_	_	
+8-27	355-358	som	*[22]	_	_	_	_	
+8-28	359-369	invandrare	*[22]	_	_	_	_	
+8-29	370-375	komma	*[22]	_	_	_	_	
+8-30	376-378	in	*[22]	_	_	_	_	
+8-31	379-380	i	*[22]	_	_	_	_	
+8-32	381-390	samhället	*[22]	_	_	_	_	
+8-33	390-391	.	*	_	_	_	_	
+
+#Text=Men så är det inte.
+9-1	392-395	Men	_	_	_	_	_	
+9-2	396-398	så	_	_	_	_	_	
+9-3	399-401	är	_	_	_	_	_	
+9-4	402-405	det	_	_	_	_	_	
+9-5	406-410	inte	_	_	_	_	_	
+9-6	410-411	.	_	_	_	_	_	
+
+#Text=Snarare har landet gått i motsatt riktning – mot segregering.
+10-1	412-419	Snarare	_	_	_	_	_	
+10-2	420-423	har	*[23]	_	_	_	_	
+10-3	424-430	landet	*[23]	_	_	_	_	
+10-4	431-435	gått	*[23]	_	_	_	_	
+10-5	436-437	i	_	_	_	_	_	
+10-6	438-445	motsatt	_	_	_	_	_	
+10-7	446-454	riktning	_	_	_	_	_	
+10-8	455-456	–	_	_	_	_	_	
+10-9	457-460	mot	_	Target[7]	10-2[23]	false[7]	2[7]	
+10-10	461-472	segregering	_	Target[7]	10-2[23]	false[7]	2[7]	
+10-11	472-473	.	_	_	_	_	_	
+
+#Text=Mot radikalisering.
+11-1	474-477	Mot	_	_	_	_	_	
+11-2	478-492	radikalisering	*	Target	11-2	false	2	
+11-3	492-493	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	495-496	#	_	_	_	_	_	
+12-2	496-497	P	_	_[8]	_	false[8]	4[8]	
+12-3	498-501	IMM	_	_[8]	_	false[8]	4[8]	
+12-4	501-502	.	_	_	_	_	_	
+
+#Text=Jag tror misstaget är att inte inkludera människor i våra normer.
+13-1	504-507	Jag	*	_	_	_	_	
+13-2	508-512	tror	_	Source;Target[9]	13-1;13-6[24]	false[9]	2[9]	
+13-3	513-522	misstaget	_	Source;Target[9]	13-1;13-6[24]	false[9]	2[9]	
+13-4	523-525	är	_	Source;Target[9]	13-1;13-6[24]	false[9]	2[9]	
+13-5	526-529	att	_	_	_	_	_	
+13-6	530-534	inte	*[24]	_	_	_	_	
+13-7	535-544	inkludera	*[24]	_	_	_	_	
+13-8	545-554	människor	*[24]	_	_	_	_	
+13-9	555-556	i	*[24]	_	_	_	_	
+13-10	557-561	våra	*[24]	_	_	_	_	
+13-11	562-568	normer	*[24]	_	_	_	_	
+13-12	568-569	.	_	_	_	_	_	
+
+#Text=Vår individualistiska norm har blivit så relativistisk att till och med intoleranta, reaktionära strukturer och normer accepteras.
+14-1	570-573	Vår	_	_	_	_	_	
+14-2	574-591	individualistiska	_	_	_	_	_	
+14-3	592-596	norm	_	_	_	_	_	
+14-4	597-600	har	_	_	_	_	_	
+14-5	601-607	blivit	_	_	_	_	_	
+14-6	608-610	så	_	_	_	_	_	
+14-7	611-624	relativistisk	_	_	_	_	_	
+14-8	625-628	att	_	_	_	_	_	
+14-9	629-633	till	_	_	_	_	_	
+14-10	634-637	och	_	_	_	_	_	
+14-11	638-641	med	_	_	_	_	_	
+14-12	642-653	intoleranta	*[25]	Target[10]	14-15[26]	false[10]	1[10]	
+14-13	653-654	,	*[25]	Target[10]	14-15[26]	false[10]	1[10]	
+14-14	655-666	reaktionära	*[25]	Target[10]	14-15[26]	false[10]	1[10]	
+14-15	667-677	strukturer	*[25]|*[26]	_	_	_	_	
+14-16	678-681	och	*[25]|*[26]	_	_	_	_	
+14-17	682-688	normer	*[25]|*[26]	_	_	_	_	
+14-18	689-699	accepteras	_	Target;Source	14-12[25];14-19	false	4	
+14-19	699-700	.	*	_	_	_	_	
+
+#Text=Feminism blir något för en vit, intellektuell elit, HBT-rörelsen blir något för en klick i storstaden.
+15-1	701-709	Feminism	_	_	_	_	_	
+15-2	710-714	blir	_	_	_	_	_	
+15-3	715-720	något	_	_	_	_	_	
+15-4	721-724	för	_	_	_	_	_	
+15-5	725-727	en	_	_	_	_	_	
+15-6	728-731	vit	_	_	_	_	_	
+15-7	731-732	,	_	_	_	_	_	
+15-8	733-746	intellektuell	_	_	_	_	_	
+15-9	747-751	elit	_	_	_	_	_	
+15-10	751-752	,	_	_	_	_	_	
+15-11	753-765	HBT-rörelsen	_	_	_	_	_	
+15-12	766-770	blir	_	_	_	_	_	
+15-13	771-776	något	_	_	_	_	_	
+15-14	777-780	för	_	_	_	_	_	
+15-15	781-783	en	_	_	_	_	_	
+15-16	784-789	klick	_	_	_	_	_	
+15-17	790-791	i	_	_	_	_	_	
+15-18	792-802	storstaden	_	_	_	_	_	
+15-19	802-803	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	805-806	#	_	_	_	_	_	
+16-2	806-807	P	_	_	_	_	_	
+16-3	808-811	IMM	_	_	_	_	_	
+16-4	811-812	.	_	_	_	_	_	
+
+#Text=Individualism, att låta enskilda människor växa, ger samhället styrka.
+17-1	814-827	Individualism	*[27]	_	_	_	_	
+17-2	827-828	,	*[27]	_	_	_	_	
+17-3	829-832	att	*[27]	_	_	_	_	
+17-4	833-837	låta	*[27]	_	_	_	_	
+17-5	838-846	enskilda	*[27]	_	_	_	_	
+17-6	847-856	människor	*[27]	_	_	_	_	
+17-7	857-861	växa	*[27]	_	_	_	_	
+17-8	861-862	,	_	_	_	_	_	
+17-9	863-866	ger	_	Target[11]	17-1[27]	false[11]	4[11]	
+17-10	867-876	samhället	_	Target[11]	17-1[27]	false[11]	4[11]	
+17-11	877-883	styrka	_	Target[11]	17-1[27]	false[11]	4[11]	
+17-12	883-884	.	_	_	_	_	_	
+
+#Text=Men samhället har också kollektiva värderingar som håller ihop oss.
+18-1	885-888	Men	_	_	_	_	_	
+18-2	889-898	samhället	_	_	_	_	_	
+18-3	899-902	har	_	_	_	_	_	
+18-4	903-908	också	_	_	_	_	_	
+18-5	909-919	kollektiva	*[28]	_	_	_	_	
+18-6	920-931	värderingar	*[28]	_	_	_	_	
+18-7	932-935	som	_	_	_	_	_	
+18-8	936-942	håller	_	Target[12]	18-5[28]	false[12]	4[12]	
+18-9	943-947	ihop	_	Target[12]	18-5[28]	false[12]	4[12]	
+18-10	948-951	oss	_	Target[12]	18-5[28]	false[12]	4[12]	
+18-11	951-952	.	_	_	_	_	_	
+
+#Text=När vi inte längre talar om dessa så kan grupper odla sina egna, i konflikt med samhällets värderingar.
+19-1	953-956	När	_	_	_	_	_	
+19-2	957-959	vi	_	_	_	_	_	
+19-3	960-964	inte	_	_	_	_	_	
+19-4	965-971	längre	_	_	_	_	_	
+19-5	972-977	talar	_	_	_	_	_	
+19-6	978-980	om	_	_	_	_	_	
+19-7	981-986	dessa	_	_	_	_	_	
+19-8	987-989	så	_	_	_	_	_	
+19-9	990-993	kan	_	_	_	_	_	
+19-10	994-1001	grupper	_	_	_	_	_	
+19-11	1002-1006	odla	_	_	_	_	_	
+19-12	1007-1011	sina	_	_	_	_	_	
+19-13	1012-1016	egna	_	_	_	_	_	
+19-14	1016-1017	,	_	_	_	_	_	
+19-15	1018-1019	i	_	_	_	_	_	
+19-16	1020-1028	konflikt	_	_	_	_	_	
+19-17	1029-1032	med	_	_	_	_	_	
+19-18	1033-1043	samhällets	_	_	_	_	_	
+19-19	1044-1055	värderingar	_	_	_	_	_	
+19-20	1055-1056	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1058-1059	#	_	_	_	_	_	
+20-2	1059-1060	P	_	_	_	_	_	
+20-3	1061-1064	IMM	_	_	_	_	_	
+20-4	1064-1065	.	_	_	_	_	_	
+
+#Text=Det är ironiskt att jag som representant för Moderaterna skriver detta; önskar mer feminism och mer HBT-rörelse, önskar fler kollektiva värderingar och söker mer folkrörelse.
+21-1	1067-1070	Det	_	_	_	_	_	
+21-2	1071-1073	är	_	Target[13]	21-5[29]	false[13]	2[13]	
+21-3	1074-1082	ironiskt	_	Target[13]	21-5[29]	false[13]	2[13]	
+21-4	1083-1086	att	_	_	_	_	_	
+21-5	1087-1090	jag	*[29]	_	_	_	_	
+21-6	1091-1094	som	*[29]	_	_	_	_	
+21-7	1095-1107	representant	*[29]	_	_	_	_	
+21-8	1108-1111	för	*[29]	_	_	_	_	
+21-9	1112-1123	Moderaterna	*[29]	_	_	_	_	
+21-10	1124-1131	skriver	*[29]	_	_	_	_	
+21-11	1132-1137	detta	*[29]	_	_	_	_	
+21-12	1137-1138	;	_	_	_	_	_	
+21-13	1139-1145	önskar	_	Target[14]	21-15[30]	false[14]	4[14]	
+21-14	1146-1149	mer	_	Target[14]	21-15[30]	false[14]	4[14]	
+21-15	1150-1158	feminism	*[30]	_	_	_	_	
+21-16	1159-1162	och	*[30]	_	_	_	_	
+21-17	1163-1166	mer	*[30]	_	_	_	_	
+21-18	1167-1178	HBT-rörelse	*[30]	_	_	_	_	
+21-19	1178-1179	,	_	_	_	_	_	
+21-20	1180-1186	önskar	_	Target[15]	21-22[31]	false[15]	4[15]	
+21-21	1187-1191	fler	_	Target[15]	21-22[31]	false[15]	4[15]	
+21-22	1192-1202	kollektiva	*[31]	_	_	_	_	
+21-23	1203-1214	värderingar	*[31]	_	_	_	_	
+21-24	1215-1218	och	_	_	_	_	_	
+21-25	1219-1224	söker	_	Target[16]	21-27	false[16]	4[16]	
+21-26	1225-1228	mer	_	Target[16]	21-27	false[16]	4[16]	
+21-27	1229-1240	folkrörelse	*	_	_	_	_	
+21-28	1240-1241	.	_	_	_	_	_	
+
+#Text=Men det är också ironiskt att när en motion behandlades här i Stockholm nyligen om hedersrelaterat våld så var den inte var skriven av F!
+22-1	1242-1245	Men	_	_	_	_	_	
+22-2	1246-1249	det	_	_	_	_	_	
+22-3	1250-1252	är	_	Target[17]	22-7[32]	false[17]	2[17]	
+22-4	1253-1258	också	_	Target[17]	22-7[32]	false[17]	2[17]	
+22-5	1259-1267	ironiskt	_	Target[17]	22-7[32]	false[17]	2[17]	
+22-6	1268-1271	att	_	_	_	_	_	
+22-7	1272-1275	när	*[32]	_	_	_	_	
+22-8	1276-1278	en	*[32]	_	_	_	_	
+22-9	1279-1285	motion	*[32]	_	_	_	_	
+22-10	1286-1297	behandlades	*[32]	_	_	_	_	
+22-11	1298-1301	här	*[32]	_	_	_	_	
+22-12	1302-1303	i	*[32]	_	_	_	_	
+22-13	1304-1313	Stockholm	*[32]	_	_	_	_	
+22-14	1314-1321	nyligen	*[32]	_	_	_	_	
+22-15	1322-1324	om	*[32]	_	_	_	_	
+22-16	1325-1340	hedersrelaterat	*[32]	_	_	_	_	
+22-17	1341-1345	våld	*[32]	_	_	_	_	
+22-18	1346-1348	så	*[32]	_	_	_	_	
+22-19	1349-1352	var	*[32]	_	_	_	_	
+22-20	1353-1356	den	*[32]	_	_	_	_	
+22-21	1357-1361	inte	*[32]	_	_	_	_	
+22-22	1362-1365	var	*[32]	_	_	_	_	
+22-23	1366-1373	skriven	*[32]	_	_	_	_	
+22-24	1374-1376	av	*[32]	_	_	_	_	
+22-25	1377-1378	F	*[32]	_	_	_	_	
+22-26	1378-1379	!	_	_	_	_	_	
+
+#Text=eller något annat socialistiskt parti, utan av SD.
+23-1	1380-1385	eller	_	_	_	_	_	
+23-2	1386-1391	något	_	_	_	_	_	
+23-3	1392-1397	annat	_	_	_	_	_	
+23-4	1398-1411	socialistiskt	_	_	_	_	_	
+23-5	1412-1417	parti	_	_	_	_	_	
+23-6	1417-1418	,	_	_	_	_	_	
+23-7	1419-1423	utan	_	_	_	_	_	
+23-8	1424-1426	av	_	_	_	_	_	
+23-9	1427-1429	SD	_	_	_	_	_	
+23-10	1429-1430	.	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1432-1433	#	_	_	_	_	_	
+24-2	1433-1434	P	_	_[18]	_	false[18]	4[18]	
+24-3	1435-1438	IMM	_	_[18]	_	false[18]	4[18]	
+24-4	1438-1439	.	_	_	_	_	_	
+
+#Text=I ett samhälle där man inte tar konflikter, även om någon känner sig utpekad och ifrågasatt, kan ingen integration ske.
+25-1	1441-1442	I	_	_	_	_	_	
+25-2	1443-1446	ett	_	_	_	_	_	
+25-3	1447-1455	samhälle	_	_	_	_	_	
+25-4	1456-1459	där	_	_	_	_	_	
+25-5	1460-1463	man	_	_	_	_	_	
+25-6	1464-1468	inte	_	_	_	_	_	
+25-7	1469-1472	tar	_	_	_	_	_	
+25-8	1473-1483	konflikter	_	_	_	_	_	
+25-9	1483-1484	,	_	_	_	_	_	
+25-10	1485-1489	även	_	_	_	_	_	
+25-11	1490-1492	om	_	_	_	_	_	
+25-12	1493-1498	någon	*	_	_	_	_	
+25-13	1499-1505	känner	_	Source[19]	25-12	false[19]	2[19]	
+25-14	1506-1509	sig	_	Source[19]	25-12	false[19]	2[19]	
+25-15	1510-1517	utpekad	_	Source[19]	25-12	false[19]	2[19]	
+25-16	1518-1521	och	_	Source[19]	25-12	false[19]	2[19]	
+25-17	1522-1532	ifrågasatt	_	Source[19]	25-12	false[19]	2[19]	
+25-18	1532-1533	,	_	_	_	_	_	
+25-19	1534-1537	kan	_	_	_	_	_	
+25-20	1538-1543	ingen	_	_	_	_	_	
+25-21	1544-1555	integration	_	_	_	_	_	
+25-22	1556-1559	ske	_	_	_	_	_	
+25-23	1559-1560	.	_	_	_	_	_	
+
+#Text=Konflikten är inte slutet utan början på integration.
+26-1	1561-1571	Konflikten	*	_	_	_	_	
+26-2	1572-1574	är	_	Target[20]	26-1	false[20]	4[20]	
+26-3	1575-1579	inte	_	Target[20]	26-1	false[20]	4[20]	
+26-4	1580-1586	slutet	_	Target[20]	26-1	false[20]	4[20]	
+26-5	1587-1591	utan	_	Target[20]	26-1	false[20]	4[20]	
+26-6	1592-1598	början	_	Target[20]	26-1	false[20]	4[20]	
+26-7	1599-1601	på	_	Target[20]	26-1	false[20]	4[20]	
+26-8	1602-1613	integration	_	Target[20]	26-1	false[20]	4[20]	
+26-9	1613-1614	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1616-1617	#	_	_	_	_	_	
+27-2	1617-1618	P	_	_	_	_	_	
+27-3	1619-1622	IMM	_	_	_	_	_	
+27-4	1622-1623	.	_	_	_	_	_	
+
+#Text=Tapani Juntunen.
+28-1	1625-1631	Tapani	_	_	_	_	_	
+28-2	1632-1640	Juntunen	_	_	_	_	_	
+28-3	1640-1641	.	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1643-1644	#	_	_	_	_	_	
+29-2	1644-1645	P	_	_	_	_	_	
+29-3	1646-1649	IMM	_	_	_	_	_	
+29-4	1649-1650	.	_	_	_	_	_	
+
+#Text=Ledamot (M) i stadsdelsnämnden i Skärholmen.
+30-1	1652-1659	Ledamot	_	_	_	_	_	
+30-2	1660-1661	(	_	_	_	_	_	
+30-3	1661-1662	M	_	_	_	_	_	
+30-4	1662-1663	)	_	_	_	_	_	
+30-5	1664-1665	i	_	_	_	_	_	
+30-6	1666-1682	stadsdelsnämnden	_	_	_	_	_	
+30-7	1683-1684	i	_	_	_	_	_	
+30-8	1685-1695	Skärholmen	_	_	_	_	_	
+30-9	1695-1696	.	_	_	_	_	_	

@@ -1,0 +1,481 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Blir det bättre?
+3-1	18-22	Blir	_	_	_	false	4	_	_	
+3-2	23-26	det	*	_	_	_	_	_	_	
+3-3	27-33	bättre	_	Target	3-2	false	4	3-1	_	
+3-4	33-34	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	36-37	#	_	_	_	_	_	_	_	
+4-2	37-38	P	_	_	_	_	_	_	_	
+4-3	39-42	IMM	_	_	_	_	_	_	_	
+4-4	42-43	.	_	_	_	_	_	_	_	
+
+#Text=De socialdemokratiska ledamöterna från Norrbotten tänker rösta ja till Lissabonfördraget i riksdagen på torsdag.
+5-1	45-47	De	*[4]	_	_	_	_	_	6-4[0_4]	
+5-2	48-66	socialdemokratiska	*[4]	_	_	_	_	_	_	
+5-3	67-78	ledamöterna	*[4]	_	_	_	_	_	_	
+5-4	79-83	från	*[4]	_	_	_	_	_	_	
+5-5	84-94	Norrbotten	*[4]	_	_	_	_	_	_	
+5-6	95-101	tänker	_	_	_	_	_	_	_	
+5-7	102-107	rösta	_	_	_	_	_	_	_	
+5-8	108-110	ja	_	_	_	_	_	_	_	
+5-9	111-115	till	_	_	_	_	_	_	_	
+5-10	116-133	Lissabonfördraget	_	_	_	_	_	_	_	
+5-11	134-135	i	_	_	_	_	_	_	_	
+5-12	136-145	riksdagen	_	_	_	_	_	_	_	
+5-13	146-148	på	_	_	_	_	_	_	_	
+5-14	149-156	torsdag	_	_	_	_	_	_	_	
+5-15	156-157	.	_	_	_	_	_	_	_	
+
+#Text=Den genomgående förklaringen dom ger är att Lissabonfördraget är ”bättre” än det nuvarande Nicefördraget.
+6-1	158-161	Den	_	_	_	_	_	_	_	
+6-2	162-173	genomgående	_	_	_	_	_	_	_	
+6-3	174-186	förklaringen	_	_	_	_	_	_	_	
+6-4	187-190	dom	*	_	_	_	_	_	_	
+6-5	191-194	ger	_	_	_	_	_	_	_	
+6-6	195-197	är	_	_	_	_	_	_	_	
+6-7	198-201	att	_	_	_	_	_	_	_	
+6-8	202-219	Lissabonfördraget	*	_	_	_	_	_	_	
+6-9	220-222	är	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-10	223-224	”	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-11	224-230	bättre	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-12	230-231	”	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-13	232-234	än	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-14	235-238	det	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-15	239-248	nuvarande	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-16	249-262	Nicefördraget	_	Source;Target[1]	6-4;6-8	false[1]	4[1]	_	_	
+6-17	262-263	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	265-266	#	_	_	_	_	_	_	_	
+7-2	266-267	P	_	_	_	_	_	_	_	
+7-3	268-271	IMM	_	_	_	_	_	_	_	
+7-4	271-272	.	_	_	_	_	_	_	_	
+
+#Text=Låt oss titta på vad det är som dessa socialdemokrater beskriver som ”bättre”.
+8-1	274-277	Låt	_	_	_	_	_	_	_	
+8-2	278-281	oss	_	_	_	_	_	_	_	
+8-3	282-287	titta	_	_	_	_	_	_	_	
+8-4	288-290	på	_	_	_	_	_	_	_	
+8-5	291-294	vad	_	_	_	_	_	_	_	
+8-6	295-298	det	_	_	_	_	_	_	_	
+8-7	299-301	är	_	_	_	_	_	_	_	
+8-8	302-305	som	_	_	_	_	_	_	_	
+8-9	306-311	dessa	_	_	_	_	_	_	_	
+8-10	312-328	socialdemokrater	_	_	_	_	_	_	_	
+8-11	329-338	beskriver	_	_	_	_	_	_	_	
+8-12	339-342	som	_	_	_	_	_	_	_	
+8-13	343-344	”	_	_	_	_	_	_	_	
+8-14	344-350	bättre	_	_	_	_	_	_	_	
+8-15	350-351	”	_	_	_	_	_	_	_	
+8-16	351-352	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	354-355	#	_	_	_	_	_	_	_	
+9-2	355-356	P	_	_	_	_	_	_	_	
+9-3	357-360	IMM	_	_	_	false	3	_	_	
+9-4	360-361	.	_	_	_	_	_	_	_	
+
+#Text=Enligt riksdagens utredningstjänst så ökar EU:s makt på ca 100 områden.
+10-1	363-369	Enligt	_	_	_	_	_	_	_	
+10-2	370-380	riksdagens	_	_	_	_	_	_	_	
+10-3	381-397	utredningstjänst	_	_	_	_	_	_	_	
+10-4	398-400	så	_	_	_	_	_	_	_	
+10-5	401-405	ökar	_	_	_	_	_	_	_	
+10-6	406-408	EU	_	_	_	_	_	_	_	
+10-7	408-409	:	_	_	_	_	_	_	_	
+10-8	409-410	s	_	_	_	_	_	_	_	
+10-9	411-415	makt	_	_	_	_	_	_	_	
+10-10	416-418	på	_	_	_	_	_	_	_	
+10-11	419-421	ca	_	_	_	_	_	_	_	
+10-12	422-425	100	_	_	_	_	_	_	_	
+10-13	426-433	områden	_	_	_	_	_	_	_	
+10-14	433-434	.	_	_	_	_	_	_	_	
+
+#Text=Inom 16 nya områden införs beslut med kvalificerad majoritet.
+11-1	435-439	Inom	_	_	_	_	_	_	_	
+11-2	440-442	16	_	_	_	_	_	_	_	
+11-3	443-446	nya	_	_	_	_	_	_	_	
+11-4	447-454	områden	_	_	_	_	_	_	_	
+11-5	455-461	införs	_	_	_	_	_	_	_	
+11-6	462-468	beslut	_	_	_	_	_	_	_	
+11-7	469-472	med	_	_	_	_	_	_	_	
+11-8	473-485	kvalificerad	_	_	_	_	_	_	_	
+11-9	486-495	majoritet	_	_	_	_	_	_	_	
+11-10	495-496	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller samordning av socialförsäkringssystem, straffrätt, polissamarbete asyl- och invandringspolitik.
+12-1	497-500	Det	_	_	_	_	_	_	_	
+12-2	501-507	gäller	_	_	_	_	_	_	_	
+12-3	508-518	samordning	_	_	_	_	_	_	_	
+12-4	519-521	av	_	_	_	_	_	_	_	
+12-5	522-545	socialförsäkringssystem	_	_	_	_	_	_	_	
+12-6	545-546	,	_	_	_	_	_	_	_	
+12-7	547-557	straffrätt	_	_	_	_	_	_	_	
+12-8	557-558	,	_	_	_	_	_	_	_	
+12-9	559-573	polissamarbete	_	_	_	_	_	_	_	
+12-10	574-578	asyl	_	_	_	_	_	_	_	
+12-11	578-579	-	_	_	_	_	_	_	_	
+12-12	580-583	och	_	_	_	_	_	_	_	
+12-13	584-602	invandringspolitik	_	_	_	_	_	_	_	
+12-14	602-603	.	_	_	_	_	_	_	_	
+
+#Text=På 27 nya områden införs s.k. medbeslutandeförfarande mellan ministerråd och EU-parlamentet, såsom ekonomisk politik, jordbrukspolitik samt liberalisering av tjänster.
+13-1	604-606	På	_	_	_	_	_	_	_	
+13-2	607-609	27	_	_	_	_	_	_	_	
+13-3	610-613	nya	_	_	_	_	_	_	_	
+13-4	614-621	områden	_	_	_	_	_	_	_	
+13-5	622-628	införs	_	_	_	_	_	_	_	
+13-6	629-632	s.k	_	_	_	_	_	_	_	
+13-7	632-633	.	_	_	_	_	_	_	_	
+13-8	634-657	medbeslutandeförfarande	_	_	_	_	_	_	_	
+13-9	658-664	mellan	_	_	_	_	_	_	_	
+13-10	665-676	ministerråd	_	_	_	_	_	_	_	
+13-11	677-680	och	_	_	_	_	_	_	_	
+13-12	681-695	EU-parlamentet	_	_	_	_	_	_	_	
+13-13	695-696	,	_	_	_	_	_	_	_	
+13-14	697-702	såsom	_	_	_	_	_	_	_	
+13-15	703-712	ekonomisk	_	_	_	_	_	_	_	
+13-16	713-720	politik	_	_	_	_	_	_	_	
+13-17	720-721	,	_	_	_	_	_	_	_	
+13-18	722-738	jordbrukspolitik	_	_	_	_	_	_	_	
+13-19	739-743	samt	_	_	_	_	_	_	_	
+13-20	744-758	liberalisering	_	_	_	_	_	_	_	
+13-21	759-761	av	_	_	_	_	_	_	_	
+13-22	762-770	tjänster	_	_	_	_	_	_	_	
+13-23	770-771	.	_	_	_	_	_	_	_	
+
+#Text=Inom 56 nya områden kommer EU att fatta beslut, bland annat det militära området.
+14-1	772-776	Inom	_	_	_	_	_	_	_	
+14-2	777-779	56	_	_	_	_	_	_	_	
+14-3	780-783	nya	_	_	_	_	_	_	_	
+14-4	784-791	områden	_	_	_	_	_	_	_	
+14-5	792-798	kommer	_	_	_	_	_	_	_	
+14-6	799-801	EU	_	_	_	_	_	_	_	
+14-7	802-805	att	_	_	_	_	_	_	_	
+14-8	806-811	fatta	_	_	_	_	_	_	_	
+14-9	812-818	beslut	_	_	_	_	_	_	_	
+14-10	818-819	,	_	_	_	_	_	_	_	
+14-11	820-825	bland	_	_	_	_	_	_	_	
+14-12	826-831	annat	_	_	_	_	_	_	_	
+14-13	832-835	det	_	_	_	_	_	_	_	
+14-14	836-844	militära	_	_	_	_	_	_	_	
+14-15	845-852	området	_	_	_	_	_	_	_	
+14-16	852-853	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	855-856	#	_	_	_	_	_	_	_	
+15-2	856-857	P	_	_	_	_	_	_	_	
+15-3	858-861	IMM	_	_	_	_	_	_	_	
+15-4	861-862	.	_	_	_	_	_	_	_	
+
+#Text=I Lissabonfördraget finns skrivningar som kan ses som krav på militär upprustning, en ömsesidig försvarsförpliktelse mellan EU-länderna (vilket kännetecknar en militär pakt) samt aktivt deltagande i offensiva militära operationer utan krav på FN-mandat.
+16-1	864-865	I	_	_	_	_	_	_	_	
+16-2	866-883	Lissabonfördraget	_	_	_	_	_	_	_	
+16-3	884-889	finns	_	_	_	_	_	_	_	
+16-4	890-901	skrivningar	_	_	_	_	_	_	_	
+16-5	902-905	som	_	_	_	_	_	_	_	
+16-6	906-909	kan	_	_	_	_	_	_	_	
+16-7	910-913	ses	_	_	_	_	_	_	_	
+16-8	914-917	som	_	_	_	_	_	_	_	
+16-9	918-922	krav	_	_	_	_	_	_	_	
+16-10	923-925	på	_	_	_	_	_	_	_	
+16-11	926-933	militär	_	_	_	_	_	_	_	
+16-12	934-945	upprustning	_	_	_	_	_	_	_	
+16-13	945-946	,	_	_	_	_	_	_	_	
+16-14	947-949	en	_	_	_	_	_	_	_	
+16-15	950-959	ömsesidig	_	_	_	_	_	_	_	
+16-16	960-980	försvarsförpliktelse	_	_	_	_	_	_	_	
+16-17	981-987	mellan	_	_	_	_	_	_	_	
+16-18	988-999	EU-länderna	_	_	_	_	_	_	_	
+16-19	1000-1001	(	_	_	_	_	_	_	_	
+16-20	1001-1007	vilket	_	_	_	_	_	_	_	
+16-21	1008-1020	kännetecknar	_	_	_	_	_	_	_	
+16-22	1021-1023	en	_	_	_	_	_	_	_	
+16-23	1024-1031	militär	_	_	_	_	_	_	_	
+16-24	1032-1036	pakt	_	_	_	_	_	_	_	
+16-25	1036-1037	)	_	_	_	_	_	_	_	
+16-26	1038-1042	samt	_	_	_	_	_	_	_	
+16-27	1043-1049	aktivt	_	_	_	_	_	_	_	
+16-28	1050-1060	deltagande	_	_	_	_	_	_	_	
+16-29	1061-1062	i	_	_	_	_	_	_	_	
+16-30	1063-1072	offensiva	_	_	_	_	_	_	_	
+16-31	1073-1081	militära	_	_	_	_	_	_	_	
+16-32	1082-1093	operationer	_	_	_	_	_	_	_	
+16-33	1094-1098	utan	_	_	_	_	_	_	_	
+16-34	1099-1103	krav	_	_	_	_	_	_	_	
+16-35	1104-1106	på	_	_	_	_	_	_	_	
+16-36	1107-1116	FN-mandat	_	_	_	_	_	_	_	
+16-37	1116-1117	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1119-1120	#	_	_	_	_	_	_	_	
+17-2	1120-1121	P	_	_	_	_	_	_	_	
+17-3	1122-1125	IMM	_	_	_	_	_	_	_	
+17-4	1125-1126	.	_	_	_	_	_	_	_	
+
+#Text=Det är den svenska riksdagen som tappar makt och inflytande.
+18-1	1128-1131	Det	_	_	_	_	_	_	_	
+18-2	1132-1134	är	_	_	_	_	_	_	_	
+18-3	1135-1138	den	_	_	_	_	_	_	_	
+18-4	1139-1146	svenska	_	_	_	_	_	_	_	
+18-5	1147-1156	riksdagen	_	_	_	_	_	_	_	
+18-6	1157-1160	som	_	_	_	_	_	_	_	
+18-7	1161-1167	tappar	_	_	_	_	_	_	_	
+18-8	1168-1172	makt	_	_	_	_	_	_	_	
+18-9	1173-1176	och	_	_	_	_	_	_	_	
+18-10	1177-1187	inflytande	_	_	_	_	_	_	_	
+18-11	1187-1188	.	_	_	_	_	_	_	_	
+
+#Text=Det blir en försämrad demokrati ur flera aspekter.
+19-1	1189-1192	Det	_	_	_	_	_	_	_	
+19-2	1193-1197	blir	_	_	_	_	_	_	_	
+19-3	1198-1200	en	_	_	_	_	_	_	_	
+19-4	1201-1210	försämrad	_	Target	19-5	false	2	19-6[2_0]	_	
+19-5	1211-1220	demokrati	*	_	_	_	_	_	_	
+19-6	1221-1223	ur	_	_[2]	_	false[2]	2[2]	_	_	
+19-7	1224-1229	flera	_	_[2]	_	false[2]	2[2]	_	_	
+19-8	1230-1238	aspekter	_	_[2]	_	false[2]	2[2]	_	_	
+19-9	1238-1239	.	_	_	_	_	_	_	_	
+
+#Text=Makten flyttar längre bort geografiskt.
+20-1	1240-1246	Makten	_	_	_	_	_	_	_	
+20-2	1247-1254	flyttar	_	_	_	_	_	_	_	
+20-3	1255-1261	längre	_	_	_	_	_	_	_	
+20-4	1262-1266	bort	_	_	_	_	_	_	_	
+20-5	1267-1278	geografiskt	_	_	_	_	_	_	_	
+20-6	1278-1279	.	_	_	_	_	_	_	_	
+
+#Text=Den viktigaste demokratiförlusten är dock att makten flyttas från en folkvald församling (riksdagen) till EU:s maktapparat som domineras av en tjänstemannabyråkrati.
+21-1	1280-1283	Den	_	_	_	_	_	_	_	
+21-2	1284-1294	viktigaste	_	_	_	_	_	_	_	
+21-3	1295-1313	demokratiförlusten	_	_	_	_	_	_	_	
+21-4	1314-1316	är	_	_	_	_	_	_	_	
+21-5	1317-1321	dock	_	_	_	_	_	_	_	
+21-6	1322-1325	att	_	_	_	_	_	_	_	
+21-7	1326-1332	makten	_	_	_	_	_	_	_	
+21-8	1333-1340	flyttas	_	_	_	_	_	_	_	
+21-9	1341-1345	från	_	_	_	_	_	_	_	
+21-10	1346-1348	en	_	_	_	_	_	_	_	
+21-11	1349-1357	folkvald	_	_	_	_	_	_	_	
+21-12	1358-1368	församling	_	_	_	_	_	_	_	
+21-13	1369-1370	(	_	_	_	_	_	_	_	
+21-14	1370-1379	riksdagen	_	_	_	_	_	_	_	
+21-15	1379-1380	)	_	_	_	_	_	_	_	
+21-16	1381-1385	till	_	_	_	_	_	_	_	
+21-17	1386-1388	EU	_	_	_	_	_	_	_	
+21-18	1388-1389	:	_	_	_	_	_	_	_	
+21-19	1389-1390	s	_	_	_	_	_	_	_	
+21-20	1391-1402	maktapparat	_	_	_	_	_	_	_	
+21-21	1403-1406	som	_	_	_	_	_	_	_	
+21-22	1407-1416	domineras	_	_	_	_	_	_	_	
+21-23	1417-1419	av	_	_	_	_	_	_	_	
+21-24	1420-1422	en	_	_	_	_	_	_	_	
+21-25	1423-1444	tjänstemannabyråkrati	_	_	_	_	_	_	_	
+21-26	1444-1445	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1447-1448	#	_	_	_	_	_	_	_	
+22-2	1448-1449	P	_	_	_	_	_	_	_	
+22-3	1450-1453	IMM	_	_	_	_	_	_	_	
+22-4	1453-1454	.	_	_	_	_	_	_	_	
+
+#Text=Fördraget ger en tydlig markering om att flytta makten till politikerna, skriver Fredrik Lundh (s) i sin kommentar till Lissabonfördraget.
+23-1	1456-1465	Fördraget	_	_	_	_	_	_	_	
+23-2	1466-1469	ger	_	_	_	_	_	_	_	
+23-3	1470-1472	en	_	_	_	_	_	_	_	
+23-4	1473-1479	tydlig	_	_	_	_	_	_	_	
+23-5	1480-1489	markering	_	_	_	_	_	_	_	
+23-6	1490-1492	om	_	_	_	_	_	_	_	
+23-7	1493-1496	att	_	_	_	_	_	_	_	
+23-8	1497-1503	flytta	_	_	_	_	_	_	_	
+23-9	1504-1510	makten	_	_	_	_	_	_	_	
+23-10	1511-1515	till	_	_	_	_	_	_	_	
+23-11	1516-1527	politikerna	_	_	_	_	_	_	_	
+23-12	1527-1528	,	_	_	_	_	_	_	_	
+23-13	1529-1536	skriver	_	_	_	_	_	_	_	
+23-14	1537-1544	Fredrik	_	_	_	_	_	_	_	
+23-15	1545-1550	Lundh	_	_	_	_	_	_	_	
+23-16	1551-1552	(	_	_	_	_	_	_	_	
+23-17	1552-1553	s	_	_	_	_	_	_	_	
+23-18	1553-1554	)	_	_	_	_	_	_	_	
+23-19	1555-1556	i	_	_	_	_	_	_	_	
+23-20	1557-1560	sin	_	_	_	_	_	_	_	
+23-21	1561-1570	kommentar	_	_	_	_	_	_	_	
+23-22	1571-1575	till	_	_	_	_	_	_	_	
+23-23	1576-1593	Lissabonfördraget	_	_	_	_	_	_	_	
+23-24	1593-1594	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1596-1597	#	_	_	_	_	_	_	_	
+24-2	1597-1598	P	_	_	_	_	_	_	_	
+24-3	1599-1602	IMM	_	_	_	_	_	_	_	
+24-4	1602-1603	.	_	_	_	_	_	_	_	
+
+#Text=Inom EU har kommissionen ensam rätt att föreslå nya lagar, de folkvalda saknar den rätten.
+25-1	1605-1609	Inom	_	_	_	_	_	_	_	
+25-2	1610-1612	EU	_	_	_	_	_	_	_	
+25-3	1613-1616	har	_	_	_	_	_	_	_	
+25-4	1617-1629	kommissionen	_	_	_	_	_	_	_	
+25-5	1630-1635	ensam	_	_	_	_	_	_	_	
+25-6	1636-1640	rätt	_	_	_	_	_	_	_	
+25-7	1641-1644	att	_	_	_	_	_	_	_	
+25-8	1645-1652	föreslå	_	_	_	_	_	_	_	
+25-9	1653-1656	nya	_	_	_	_	_	_	_	
+25-10	1657-1662	lagar	_	_	_	_	_	_	_	
+25-11	1662-1663	,	_	_	_	_	_	_	_	
+25-12	1664-1666	de	_	_	_	_	_	_	_	
+25-13	1667-1676	folkvalda	_	_	_	_	_	_	_	
+25-14	1677-1683	saknar	_	_	_	_	_	_	_	
+25-15	1684-1687	den	_	_	_	_	_	_	_	
+25-16	1688-1694	rätten	_	_	_	_	_	_	_	
+25-17	1694-1695	.	_	_	_	_	_	_	_	
+
+#Text=Vägen mellan förslag och beslut är sluten från insyn.
+26-1	1696-1701	Vägen	_	_	_	_	_	_	_	
+26-2	1702-1708	mellan	_	_	_	_	_	_	_	
+26-3	1709-1716	förslag	_	_	_	_	_	_	_	
+26-4	1717-1720	och	_	_	_	_	_	_	_	
+26-5	1721-1727	beslut	_	_	_	_	_	_	_	
+26-6	1728-1730	är	_	_	_	_	_	_	_	
+26-7	1731-1737	sluten	_	_	_	_	_	_	_	
+26-8	1738-1742	från	_	_	_	_	_	_	_	
+26-9	1743-1748	insyn	_	_	_	_	_	_	_	
+26-10	1748-1749	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges modell med offentliga utredningar och remissförfarande saknas.
+27-1	1750-1758	Sveriges	_	_	_	_	_	_	_	
+27-2	1759-1765	modell	_	_	_	_	_	_	_	
+27-3	1766-1769	med	_	_	_	_	_	_	_	
+27-4	1770-1780	offentliga	_	_	_	_	_	_	_	
+27-5	1781-1792	utredningar	_	_	_	_	_	_	_	
+27-6	1793-1796	och	_	_	_	_	_	_	_	
+27-7	1797-1813	remissförfarande	_	_	_	_	_	_	_	
+27-8	1814-1820	saknas	_	_	_	_	_	_	_	
+27-9	1820-1821	.	_	_	_	_	_	_	_	
+
+#Text=Istället är inflytandet starkt från byråkrater, kapitalstarka lobbygrupper och storföretag.
+28-1	1822-1830	Istället	_	_	_	_	_	_	_	
+28-2	1831-1833	är	_	_	_	_	_	_	_	
+28-3	1834-1845	inflytandet	_	_	_	_	_	_	_	
+28-4	1846-1852	starkt	_	_	_	_	_	_	_	
+28-5	1853-1857	från	_	_	_	_	_	_	_	
+28-6	1858-1868	byråkrater	_	_	_	_	_	_	_	
+28-7	1868-1869	,	_	_	_	_	_	_	_	
+28-8	1870-1883	kapitalstarka	_	_	_	_	_	_	_	
+28-9	1884-1896	lobbygrupper	_	_	_	_	_	_	_	
+28-10	1897-1900	och	_	_	_	_	_	_	_	
+28-11	1901-1912	storföretag	_	_	_	_	_	_	_	
+28-12	1912-1913	.	_	_	_	_	_	_	_	
+
+#Text=Denna apparat stärks och får makt över nya politikområden i och med Lissabonfördraget vilket är en demokratiförlust.
+29-1	1914-1919	Denna	_	_	_	_	_	_	_	
+29-2	1920-1927	apparat	_	_	_	_	_	_	_	
+29-3	1928-1934	stärks	_	_	_	_	_	_	_	
+29-4	1935-1938	och	_	_	_	_	_	_	_	
+29-5	1939-1942	får	_	_	_	_	_	_	_	
+29-6	1943-1947	makt	_	_	_	_	_	_	_	
+29-7	1948-1952	över	_	_	_	_	_	_	_	
+29-8	1953-1956	nya	_	_	_	_	_	_	_	
+29-9	1957-1971	politikområden	_	_	_	_	_	_	_	
+29-10	1972-1973	i	_	_	_	_	_	_	_	
+29-11	1974-1977	och	_	_	_	_	_	_	_	
+29-12	1978-1981	med	_	_	_	_	_	_	_	
+29-13	1982-1999	Lissabonfördraget	_	_	_	_	_	_	_	
+29-14	2000-2006	vilket	_	_	_	_	_	_	_	
+29-15	2007-2009	är	_	_	_	_	_	_	_	
+29-16	2010-2012	en	_	_	_	_	_	_	_	
+29-17	2013-2029	demokratiförlust	_	_	_	_	_	_	_	
+29-18	2029-2030	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2032-2033	#	_	_	_	_	_	_	_	
+30-2	2033-2034	P	_	_	_	_	_	_	_	
+30-3	2035-2038	IMM	_	_	_	_	_	_	_	
+30-4	2038-2039	.	_	_	_	_	_	_	_	
+
+#Text=Förutom att frågan om kollektivavtalen inte är löst så är detta huvudförändringarna i Lissabonfördraget, jämfört med dagens fördrag.
+31-1	2041-2048	Förutom	_	_	_	_	_	_	_	
+31-2	2049-2052	att	_	_	_	_	_	_	_	
+31-3	2053-2059	frågan	_	_	_	_	_	_	_	
+31-4	2060-2062	om	_	_	_	_	_	_	_	
+31-5	2063-2079	kollektivavtalen	_	_	_	_	_	_	_	
+31-6	2080-2084	inte	_	_	_	_	_	_	_	
+31-7	2085-2087	är	_	_	_	_	_	_	_	
+31-8	2088-2092	löst	_	_	_	_	_	_	_	
+31-9	2093-2095	så	_	_	_	_	_	_	_	
+31-10	2096-2098	är	_	_	_	_	_	_	_	
+31-11	2099-2104	detta	_	_	_	_	_	_	_	
+31-12	2105-2124	huvudförändringarna	_	_	_	_	_	_	_	
+31-13	2125-2126	i	_	_	_	_	_	_	_	
+31-14	2127-2144	Lissabonfördraget	_	_	_	_	_	_	_	
+31-15	2144-2145	,	_	_	_	_	_	_	_	
+31-16	2146-2153	jämfört	_	_	_	_	_	_	_	
+31-17	2154-2157	med	_	_	_	_	_	_	_	
+31-18	2158-2164	dagens	_	_	_	_	_	_	_	
+31-19	2165-2172	fördrag	_	_	_	_	_	_	_	
+31-20	2172-2173	.	_	_	_	_	_	_	_	
+
+#Text=Själv skulle jag beskriva det som en försämring, men det beror förstås på att jag har andra motiv och utgångspunkter (och kanske andra karriärplaner) än de socialdemokratiska riksdagsledamöterna.
+32-1	2174-2179	Själv	_	_	_	_	_	_	_	
+32-2	2180-2186	skulle	_	_	_	_	_	_	_	
+32-3	2187-2190	jag	_	_	_	_	_	_	_	
+32-4	2191-2199	beskriva	_	_	_	_	_	_	_	
+32-5	2200-2203	det	*	_	_	_	_	_	_	
+32-6	2204-2207	som	_	_	_	_	_	_	_	
+32-7	2208-2210	en	_	Target[3]	32-5	false[3]	2[3]	_	_	
+32-8	2211-2221	försämring	_	Target[3]	32-5	false[3]	2[3]	_	_	
+32-9	2221-2222	,	_	_	_	_	_	_	_	
+32-10	2223-2226	men	_	_	_	_	_	_	_	
+32-11	2227-2230	det	_	_	_	_	_	_	_	
+32-12	2231-2236	beror	_	_	_	_	_	_	_	
+32-13	2237-2244	förstås	_	_	_	_	_	_	_	
+32-14	2245-2247	på	_	_	_	_	_	_	_	
+32-15	2248-2251	att	_	_	_	_	_	_	_	
+32-16	2252-2255	jag	_	_	_	_	_	_	_	
+32-17	2256-2259	har	_	_	_	_	_	_	_	
+32-18	2260-2265	andra	_	_	_	_	_	_	_	
+32-19	2266-2271	motiv	_	_	_	_	_	_	_	
+32-20	2272-2275	och	_	_	_	_	_	_	_	
+32-21	2276-2290	utgångspunkter	_	_	_	_	_	_	_	
+32-22	2291-2292	(	_	_	_	_	_	_	_	
+32-23	2292-2295	och	_	_	_	_	_	_	_	
+32-24	2296-2302	kanske	_	_	_	_	_	_	_	
+32-25	2303-2308	andra	_	_	_	_	_	_	_	
+32-26	2309-2322	karriärplaner	_	_	_	_	_	_	_	
+32-27	2322-2323	)	_	_	_	_	_	_	_	
+32-28	2324-2326	än	_	_	_	_	_	_	_	
+32-29	2327-2329	de	_	_	_	_	_	_	_	
+32-30	2330-2348	socialdemokratiska	_	_	_	_	_	_	_	
+32-31	2349-2368	riksdagsledamöterna	_	_	_	_	_	_	_	
+32-32	2368-2369	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2371-2372	#	_	_	_	_	_	_	_	
+33-2	2372-2373	P	_	_	_	_	_	_	_	
+33-3	2374-2377	IMM	_	_	_	_	_	_	_	
+33-4	2377-2378	.	_	_	_	_	_	_	_	
+
+#Text=Bertil Bartholdson.
+34-1	2380-2386	Bertil	_	_	_	_	_	_	_	
+34-2	2387-2398	Bartholdson	_	_	_	_	_	_	_	
+34-3	2398-2399	.	_	_	_	_	_	_	_	

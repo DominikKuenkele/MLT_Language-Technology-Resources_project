@@ -1,0 +1,588 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Privatiseringar på gott och ont.
+3-1	18-33	Privatiseringar	*	_	_	_	_	_	
+3-2	34-36	på	_	Target[1]	3-1	false[1]	3[1]	_	
+3-3	37-41	gott	_	Target[1]	3-1	false[1]	3[1]	_	
+3-4	42-45	och	_	Target[1]	3-1	false[1]	3[1]	_	
+3-5	46-49	ont	_	Target[1]	3-1	false[1]	3[1]	_	
+3-6	49-50	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	_	
+
+#Text=om skattebetalare tycker jag det är utmärkt att gamla monopol bryts upp och konkurrensutsätts.
+5-1	61-63	om	_	_	_	_	_	_	
+5-2	64-78	skattebetalare	_	_	_	_	_	_	
+5-3	79-85	tycker	_	_	_	_	_	_	
+5-4	86-89	jag	_	_	_	_	_	_	
+5-5	90-93	det	_	_	_	_	_	_	
+5-6	94-96	är	_	Target[2]	5-8[17]	false[2]	4[2]	_	
+5-7	97-104	utmärkt	_	Target[2]	5-8[17]	false[2]	4[2]	_	
+5-8	105-108	att	*[17]	_	_	_	_	_	
+5-9	109-114	gamla	*[17]|*[18]	_	_	_	_	_	
+5-10	115-122	monopol	*[17]|*[18]	_	_	_	_	_	
+5-11	123-128	bryts	*[17]	Target[3]	5-9[18]	false[3]	2[3]	_	
+5-12	129-132	upp	*[17]	Target[3]	5-9[18]	false[3]	2[3]	_	
+5-13	133-136	och	*[17]	_	_	_	_	_	
+5-14	137-154	konkurrensutsätts	*[17]	_	_	_	_	_	
+5-15	154-155	.	_	_	_	_	_	_	
+
+#Text=Likaså att statliga företag säljs ut.
+6-1	156-162	Likaså	_	Target	6-2[19]	false	4	_	
+6-2	163-166	att	*[19]	_	_	_	_	_	
+6-3	167-175	statliga	*[19]	_	_	_	_	_	
+6-4	176-183	företag	*[19]	_	_	_	_	_	
+6-5	184-189	säljs	*[19]	_	_	_	_	_	
+6-6	190-192	ut	*[19]	_	_	_	_	_	
+6-7	192-193	.	_	_	_	_	_	_	
+
+#Text=Stora delar av tidigare kommunal och statlig verksamhet utförs nu av privata aktörer med minst lika goda resultat som förr, och mycket billigare.
+7-1	194-199	Stora	_	_	_	_	_	_	
+7-2	200-205	delar	_	_	_	_	_	_	
+7-3	206-208	av	_	_	_	_	_	_	
+7-4	209-217	tidigare	_	_	_	_	_	_	
+7-5	218-226	kommunal	_	_	_	_	_	_	
+7-6	227-230	och	_	_	_	_	_	_	
+7-7	231-238	statlig	_	_	_	_	_	_	
+7-8	239-249	verksamhet	_	_	_	_	_	_	
+7-9	250-256	utförs	_	_	_	_	_	_	
+7-10	257-259	nu	_	_	_	_	_	_	
+7-11	260-262	av	_	_	_	_	_	_	
+7-12	263-270	privata	*[20]|*[21]	_	_	_	_	_	
+7-13	271-278	aktörer	*[20]|*[21]	_	_	_	_	_	
+7-14	279-282	med	*[20]	_	_	_	_	_	
+7-15	283-288	minst	*[20]	Target[4]	7-12[21]	false[4]	4[4]	_	
+7-16	289-293	lika	*[20]	Target[4]	7-12[21]	false[4]	4[4]	_	
+7-17	294-298	goda	*[20]	Target[4]	7-12[21]	false[4]	4[4]	_	
+7-18	299-307	resultat	*[20]	Target[4]	7-12[21]	false[4]	4[4]	_	
+7-19	308-311	som	*[20]	_	_	_	_	_	
+7-20	312-316	förr	*[20]	_	_	_	_	_	
+7-21	316-317	,	*[20]	_	_	_	_	_	
+7-22	318-321	och	_	_	_	_	_	_	
+7-23	322-328	mycket	_	Target[5]	7-12[20]	false[5]	4[5]	_	
+7-24	329-338	billigare	_	Target[5]	7-12[20]	false[5]	4[5]	_	
+7-25	338-339	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	341-342	#	_	_	_	_	_	_	
+8-2	342-343	P	_	_	_	_	_	_	
+8-3	344-347	IMM	_	_	_	_	_	_	
+8-4	347-348	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	350-353	Det	_	_	_	_	_	_	
+9-2	354-357	här	_	_	_	_	_	_	
+9-3	358-360	är	_	_	_	_	_	_	
+9-4	361-363	en	_	_	_	_	_	_	
+9-5	364-378	argumenterande	_	_	_	_	_	_	
+9-6	379-383	text	_	_	_	_	_	_	
+9-7	384-387	med	_	_	_	_	_	_	
+9-8	388-393	syfte	_	_	_	_	_	_	
+9-9	394-397	att	_	_	_	_	_	_	
+9-10	398-405	påverka	_	_	_	_	_	_	
+9-11	405-406	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	407-416	Åsikterna	_	_	_	_	_	_	
+10-2	417-420	som	_	_	_	_	_	_	
+10-3	421-429	uttrycks	_	_	_	_	_	_	
+10-4	430-432	är	_	_	_	_	_	_	
+10-5	433-444	skribentens	_	_	_	_	_	_	
+10-6	445-449	egna	_	_	_	_	_	_	
+10-7	449-450	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	452-453	#	_	_	_	_	_	_	
+11-2	453-454	P	_	_	_	_	_	_	
+11-3	455-458	IMM	_	_	_	_	_	_	
+11-4	458-459	.	_	_	_	_	_	_	
+
+#Text=Men allt som har gjorts är inte lyckat och allt passar heller inte för privatisering och jag tycket att privatiseringsivrarna i regeringen och kommunerna bör tänka sig för innan de går till handling.
+12-1	461-464	Men	_	_	_	_	_	_	
+12-2	465-469	allt	*[22]	_	_	_	_	_	
+12-3	470-473	som	*[22]	_	_	_	_	_	
+12-4	474-477	har	*[22]	_	_	_	_	_	
+12-5	478-484	gjorts	*[22]	_	_	_	_	_	
+12-6	485-487	är	_	Target[6]	12-2[22]	false[6]	2[6]	_	
+12-7	488-492	inte	_	Target[6]	12-2[22]	false[6]	2[6]	_	
+12-8	493-499	lyckat	_	Target[6]	12-2[22]	false[6]	2[6]	_	
+12-9	500-503	och	_	_	_	_	_	_	
+12-10	504-508	allt	_	_	_	_	_	_	
+12-11	509-515	passar	_	_	_	_	_	_	
+12-12	516-522	heller	_	_	_	_	_	_	
+12-13	523-527	inte	_	_	_	_	_	_	
+12-14	528-531	för	_	_	_	_	_	_	
+12-15	532-545	privatisering	_	_	_	_	_	_	
+12-16	546-549	och	_	_	_	_	_	_	
+12-17	550-553	jag	_	_	_	_	_	_	
+12-18	554-560	tycket	_	_	_	_	_	_	
+12-19	561-564	att	_	_	_	_	_	_	
+12-20	565-586	privatiseringsivrarna	*	Target	12-20	false	2	_	
+12-21	587-588	i	_	_	_	_	_	_	
+12-22	589-599	regeringen	_	_	_	_	_	_	
+12-23	600-603	och	_	_	_	_	_	_	
+12-24	604-614	kommunerna	_	_	_	_	_	_	
+12-25	615-618	bör	_	_	_	_	_	_	
+12-26	619-624	tänka	_	_	_	_	_	_	
+12-27	625-628	sig	_	_	_	_	_	_	
+12-28	629-632	för	_	_	_	_	_	_	
+12-29	633-638	innan	_	_	_	_	_	_	
+12-30	639-641	de	_	_	_	_	_	_	
+12-31	642-645	går	_	_	_	_	_	_	
+12-32	646-650	till	_	_	_	_	_	_	
+12-33	651-659	handling	_	_	_	_	_	_	
+12-34	659-660	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	662-663	#	_	_	_	_	_	_	
+13-2	663-664	P	_	_	_	_	_	_	
+13-3	665-668	IMM	_	_	_	_	_	_	
+13-4	668-669	.	_	_	_	_	_	_	
+
+#Text=•Den första regeln bör vara att aldrig privatisera naturliga monopol.
+14-1	671-672	•	_	_	_	_	_	_	
+14-2	672-675	Den	_	_	_	_	_	_	
+14-3	676-682	första	_	_	_	_	_	_	
+14-4	683-689	regeln	_	Target[7]	14-7[23]	false[7]	4[7]	_	
+14-5	690-693	bör	_	Target[7]	14-7[23]	false[7]	4[7]	_	
+14-6	694-698	vara	_	Target[7]	14-7[23]	false[7]	4[7]	_	
+14-7	699-702	att	*[23]	_	_	_	_	_	
+14-8	703-709	aldrig	*[23]	_	_	_	_	_	
+14-9	710-721	privatisera	*[23]	_	_	_	_	_	
+14-10	722-731	naturliga	*[23]	_	_	_	_	_	
+14-11	732-739	monopol	*[23]	_	_	_	_	_	
+14-12	739-740	.	_	_	_	_	_	_	
+
+#Text=Försäljningen av el- och fjärrvärmenäten i Stockholm till Fortum på 90-talet är ett avskräckande exempel; nu sitter ett privat företag och höjer obekymrat nätavgifterna.
+15-1	741-754	Försäljningen	_	_	_	_	_	_	
+15-2	755-757	av	_	_	_	_	_	_	
+15-3	758-760	el	_	_	_	_	_	_	
+15-4	760-761	-	_	_	_	_	_	_	
+15-5	762-765	och	_	_	_	_	_	_	
+15-6	766-781	fjärrvärmenäten	_	_	_	_	_	_	
+15-7	782-783	i	_	_	_	_	_	_	
+15-8	784-793	Stockholm	_	_	_	_	_	_	
+15-9	794-798	till	_	_	_	_	_	_	
+15-10	799-805	Fortum	_	_	_	_	_	_	
+15-11	806-808	på	_	_	_	_	_	_	
+15-12	809-811	90	_	_	_	_	_	_	
+15-13	811-812	-	_	_	_	_	_	_	
+15-14	812-817	talet	_	_	_	_	_	_	
+15-15	818-820	är	_	_	_	_	_	_	
+15-16	821-824	ett	_	_	_	_	_	_	
+15-17	825-837	avskräckande	_	_	_	_	_	_	
+15-18	838-845	exempel	_	_	_	_	_	_	
+15-19	845-846	;	_	_	_	_	_	_	
+15-20	847-849	nu	_	_	_	_	_	_	
+15-21	850-856	sitter	_	_	_	_	_	_	
+15-22	857-860	ett	_	_	_	_	_	_	
+15-23	861-867	privat	_	_	_	_	_	_	
+15-24	868-875	företag	_	_	_	_	_	_	
+15-25	876-879	och	_	_	_	_	_	_	
+15-26	880-885	höjer	_	_	_	_	_	_	
+15-27	886-895	obekymrat	_	_	_	_	_	_	
+15-28	896-909	nätavgifterna	_	_	_	_	_	_	
+15-29	909-910	.	_	_	_	_	_	_	
+
+#Text=Som kund kan man inte byta leverantör.
+16-1	911-914	Som	_	_	_	_	_	_	
+16-2	915-919	kund	_	_	_	_	_	_	
+16-3	920-923	kan	_	_	_	_	_	_	
+16-4	924-927	man	_	_	_	_	_	_	
+16-5	928-932	inte	_	_	_	_	_	_	
+16-6	933-937	byta	_	_	_	_	_	_	
+16-7	938-948	leverantör	_	_	_	_	_	_	
+16-8	948-949	.	_	_	_	_	_	_	
+
+#Text=Låt oss slippa vidare utförsäljningar av alla typer av försörjningssystem där kunden inte har några reella val, som el, fjärrvärme, vatten.
+17-1	950-953	Låt	_	Target[8]	17-5[24]	false[8]	4[8]	_	
+17-2	954-957	oss	_	Target[8]	17-5[24]	false[8]	4[8]	_	
+17-3	958-964	slippa	_	Target[8]	17-5[24]	false[8]	4[8]	_	
+17-4	965-971	vidare	_	_	_	_	_	_	
+17-5	972-987	utförsäljningar	*[24]	_	_	_	_	_	
+17-6	988-990	av	*[24]	_	_	_	_	_	
+17-7	991-995	alla	*[24]	_	_	_	_	_	
+17-8	996-1001	typer	*[24]	_	_	_	_	_	
+17-9	1002-1004	av	*[24]	_	_	_	_	_	
+17-10	1005-1023	försörjningssystem	*[24]	_	_	_	_	_	
+17-11	1024-1027	där	*[24]	_	_	_	_	_	
+17-12	1028-1034	kunden	*[24]	_	_	_	_	_	
+17-13	1035-1039	inte	*[24]	_	_	_	_	_	
+17-14	1040-1043	har	*[24]	_	_	_	_	_	
+17-15	1044-1049	några	*[24]	_	_	_	_	_	
+17-16	1050-1056	reella	*[24]	_	_	_	_	_	
+17-17	1057-1060	val	*[24]	_	_	_	_	_	
+17-18	1060-1061	,	_	_	_	_	_	_	
+17-19	1062-1065	som	_	_	_	_	_	_	
+17-20	1066-1068	el	_	_	_	_	_	_	
+17-21	1068-1069	,	_	_	_	_	_	_	
+17-22	1070-1080	fjärrvärme	_	_	_	_	_	_	
+17-23	1080-1081	,	_	_	_	_	_	_	
+17-24	1082-1088	vatten	_	_	_	_	_	_	
+17-25	1088-1089	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1091-1092	#	_	_	_	_	_	_	
+18-2	1092-1093	P	_	_	_	_	_	_	
+18-3	1094-1097	IMM	_	_	_	_	_	_	
+18-4	1097-1098	.	_	_	_	_	_	_	
+
+#Text=•Regel nummer två bör vara att inte konkurrensutsätta verksamheter där detta ger felaktiga incitament.
+19-1	1100-1101	•	_	_	_	_	_	_	
+19-2	1101-1106	Regel	_	Target[9]	19-7[25]	false[9]	4[9]	_	
+19-3	1107-1113	nummer	_	Target[9]	19-7[25]	false[9]	4[9]	_	
+19-4	1114-1117	två	_	Target[9]	19-7[25]	false[9]	4[9]	_	
+19-5	1118-1121	bör	_	Target[9]	19-7[25]	false[9]	4[9]	_	
+19-6	1122-1126	vara	_	Target[9]	19-7[25]	false[9]	4[9]	_	
+19-7	1127-1130	att	*[25]	_	_	_	_	_	
+19-8	1131-1135	inte	*[25]	_	_	_	_	_	
+19-9	1136-1153	konkurrensutsätta	*[25]	_	_	_	_	_	
+19-10	1154-1166	verksamheter	*[25]	_	_	_	_	_	
+19-11	1167-1170	där	*[25]	_	_	_	_	_	
+19-12	1171-1176	detta	*[25]	_	_	_	_	_	
+19-13	1177-1180	ger	*[25]	_	_	_	_	_	
+19-14	1181-1190	felaktiga	*[25]	_	_	_	_	_	
+19-15	1191-1201	incitament	*[25]	_	_	_	_	_	
+19-16	1201-1202	.	_	_	_	_	_	_	
+
+#Text=Ett exempel kan vara parkeringsövervakning, som kan fungera bra i tätorter med stora parkeringsproblem där övervakning verkligen behövs.
+20-1	1203-1206	Ett	_	_	_	_	_	_	
+20-2	1207-1214	exempel	_	_	_	_	_	_	
+20-3	1215-1218	kan	_	_	_	_	_	_	
+20-4	1219-1223	vara	_	_	_	_	_	_	
+20-5	1224-1245	parkeringsövervakning	_	_	_	_	_	_	
+20-6	1245-1246	,	_	_	_	_	_	_	
+20-7	1247-1250	som	_	_	_	_	_	_	
+20-8	1251-1254	kan	_	_	_	_	_	_	
+20-9	1255-1262	fungera	_	_	_	_	_	_	
+20-10	1263-1266	bra	_	_	_	_	_	_	
+20-11	1267-1268	i	_	_	_	_	_	_	
+20-12	1269-1277	tätorter	_	_	_	_	_	_	
+20-13	1278-1281	med	_	_	_	_	_	_	
+20-14	1282-1287	stora	_	_	_	_	_	_	
+20-15	1288-1305	parkeringsproblem	_	_	_	_	_	_	
+20-16	1306-1309	där	_	_	_	_	_	_	
+20-17	1310-1321	övervakning	_	_	_	_	_	_	
+20-18	1322-1331	verkligen	_	_	_	_	_	_	
+20-19	1332-1338	behövs	_	_	_	_	_	_	
+20-20	1338-1339	.	_	_	_	_	_	_	
+
+#Text=Men i glesare områden leder det till att resultatavlönade p-övervakare åker ut och lappar bilar på söndagstomma skolgårdar där skjutsande föräldrar parkerar någon timma medan deras adepter tränar basket.
+21-1	1340-1343	Men	_	_	_	_	_	_	
+21-2	1344-1345	i	_	_	_	_	_	_	
+21-3	1346-1353	glesare	_	_	_	_	_	_	
+21-4	1354-1361	områden	_	_	_	_	_	_	
+21-5	1362-1367	leder	_	_	_	_	_	_	
+21-6	1368-1371	det	_	_	_	_	_	_	
+21-7	1372-1376	till	_	_	_	_	_	_	
+21-8	1377-1380	att	_	_	_	_	_	_	
+21-9	1381-1397	resultatavlönade	_	_	_	_	_	_	
+21-10	1398-1410	p-övervakare	_	_	_	_	_	_	
+21-11	1411-1415	åker	_	_	_	_	_	_	
+21-12	1416-1418	ut	_	_	_	_	_	_	
+21-13	1419-1422	och	_	_	_	_	_	_	
+21-14	1423-1429	lappar	_	_	_	_	_	_	
+21-15	1430-1435	bilar	_	_	_	_	_	_	
+21-16	1436-1438	på	_	_	_	_	_	_	
+21-17	1439-1451	söndagstomma	_	_	_	_	_	_	
+21-18	1452-1462	skolgårdar	_	_	_	_	_	_	
+21-19	1463-1466	där	_	_	_	_	_	_	
+21-20	1467-1477	skjutsande	_	_	_	_	_	_	
+21-21	1478-1487	föräldrar	_	_	_	_	_	_	
+21-22	1488-1496	parkerar	_	_	_	_	_	_	
+21-23	1497-1502	någon	_	_	_	_	_	_	
+21-24	1503-1508	timma	_	_	_	_	_	_	
+21-25	1509-1514	medan	_	_	_	_	_	_	
+21-26	1515-1520	deras	_	_	_	_	_	_	
+21-27	1521-1528	adepter	_	_	_	_	_	_	
+21-28	1529-1535	tränar	_	_	_	_	_	_	
+21-29	1536-1542	basket	_	_	_	_	_	_	
+21-30	1542-1543	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+22-1	1545-1546	#	_	_	_	_	_	_	
+22-2	1546-1547	P	_	_	_	_	_	_	
+22-3	1548-1551	IMM	_	_	_	_	_	_	
+22-4	1551-1552	.	_	_	_	_	_	_	
+
+#Text=•En tredje regel bör vara att inte privatisera sådant som fungerar bra och där inget som helst folkligt krav på förändring finns.
+23-1	1554-1555	•	_	_	_	_	_	_	
+23-2	1555-1557	En	_	Target[10]	23-7[26]	false[10]	4[10]	_	
+23-3	1558-1564	tredje	_	Target[10]	23-7[26]	false[10]	4[10]	_	
+23-4	1565-1570	regel	_	Target[10]	23-7[26]	false[10]	4[10]	_	
+23-5	1571-1574	bör	_	Target[10]	23-7[26]	false[10]	4[10]	_	
+23-6	1575-1579	vara	_	Target[10]	23-7[26]	false[10]	4[10]	_	
+23-7	1580-1583	att	*[26]	_	_	_	_	_	
+23-8	1584-1588	inte	*[26]	_	_	_	_	_	
+23-9	1589-1600	privatisera	*[26]	_	_	_	_	_	
+23-10	1601-1607	sådant	*[26]	_	_	_	_	_	
+23-11	1608-1611	som	*[26]	_	_	_	_	_	
+23-12	1612-1620	fungerar	*[26]	_	_	_	_	_	
+23-13	1621-1624	bra	*[26]	_	_	_	_	_	
+23-14	1625-1628	och	*[26]	_	_	_	_	_	
+23-15	1629-1632	där	*[26]	_	_	_	_	_	
+23-16	1633-1638	inget	*[26]	_	_	_	_	_	
+23-17	1639-1642	som	*[26]	_	_	_	_	_	
+23-18	1643-1648	helst	*[26]	_	_	_	_	_	
+23-19	1649-1657	folkligt	*[26]	_	_	_	_	_	
+23-20	1658-1662	krav	*[26]	_	_	_	_	_	
+23-21	1663-1665	på	*[26]	_	_	_	_	_	
+23-22	1666-1676	förändring	*[26]	_	_	_	_	_	
+23-23	1677-1682	finns	*[26]	_	_	_	_	_	
+23-24	1682-1683	.	_	_	_	_	_	_	
+
+#Text=Ett exempel är bilprovningen, som hittills skötts bra av det statliga bolaget med bra tillgänglighet, juste bemötande och rimliga avgifter.
+24-1	1684-1687	Ett	_	_	_	_	_	_	
+24-2	1688-1695	exempel	_	_	_	_	_	_	
+24-3	1696-1698	är	_	_	_	_	_	_	
+24-4	1699-1712	bilprovningen	*	_	_	_	_	_	
+24-5	1712-1713	,	_	_	_	_	_	_	
+24-6	1714-1717	som	_	_	_	_	_	_	
+24-7	1718-1726	hittills	_	_	_	_	_	_	
+24-8	1727-1733	skötts	_	Target[11]	24-4	false[11]	4[11]	_	
+24-9	1734-1737	bra	_	Target[11]	24-4	false[11]	4[11]	_	
+24-10	1738-1740	av	_	_	_	_	_	_	
+24-11	1741-1744	det	_	_	_	_	_	_	
+24-12	1745-1753	statliga	_	_	_	_	_	_	
+24-13	1754-1761	bolaget	_	_	_	_	_	_	
+24-14	1762-1765	med	_	_	_	_	_	_	
+24-15	1766-1769	bra	_	Target	24-16	false	4	_	
+24-16	1770-1784	tillgänglighet	*	_	_	_	_	_	
+24-17	1784-1785	,	_	_	_	_	_	_	
+24-18	1786-1791	juste	_	Target	24-19	false	4	_	
+24-19	1792-1801	bemötande	*	_	_	_	_	_	
+24-20	1802-1805	och	_	_	_	_	_	_	
+24-21	1806-1813	rimliga	_	Target	24-22	false	4	_	
+24-22	1814-1822	avgifter	*	_	_	_	_	_	
+24-23	1822-1823	.	_	_	_	_	_	_	
+
+#Text=Även här finns felaktiga incitament vid privatisering när samma verkstäder både besiktigar och reparerar.
+25-1	1824-1828	Även	_	_	_	_	_	_	
+25-2	1829-1832	här	_	_	_	_	_	_	
+25-3	1833-1838	finns	_	_	_	_	_	_	
+25-4	1839-1848	felaktiga	_	Target	25-5	false	4	_	
+25-5	1849-1859	incitament	*	_	_	_	_	_	
+25-6	1860-1863	vid	_	_	_	_	_	_	
+25-7	1864-1877	privatisering	_	_	_	_	_	_	
+25-8	1878-1881	när	_	_	_	_	_	_	
+25-9	1882-1887	samma	_	_	_	_	_	_	
+25-10	1888-1898	verkstäder	_	_	_	_	_	_	
+25-11	1899-1903	både	_	_	_	_	_	_	
+25-12	1904-1914	besiktigar	_	_	_	_	_	_	
+25-13	1915-1918	och	_	_	_	_	_	_	
+25-14	1919-1928	reparerar	_	_	_	_	_	_	
+25-15	1928-1929	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1931-1932	#	_	_	_	_	_	_	
+26-2	1932-1933	P	_	_	_	_	_	_	
+26-3	1934-1937	IMM	_	_	_	_	_	_	
+26-4	1937-1938	.	_	_	_	_	_	_	
+
+#Text=Slutligen en synpunkt: de privata revisionsfirmorna gör mig fundersam; även här kan incitamenten leda fel.
+27-1	1940-1949	Slutligen	_	_	_	_	_	_	
+27-2	1950-1952	en	_	_	_	_	_	_	
+27-3	1953-1961	synpunkt	_	_	_	_	_	_	
+27-4	1961-1962	:	_	_	_	_	_	_	
+27-5	1963-1965	de	*[27]	_	_	_	_	_	
+27-6	1966-1973	privata	*[27]	_	_	_	_	_	
+27-7	1974-1991	revisionsfirmorna	*[27]	_	_	_	_	_	
+27-8	1992-1995	gör	_	Target[12]	27-5[27]	false[12]	2[12]	_	
+27-9	1996-1999	mig	_	Target[12]	27-5[27]	false[12]	2[12]	_	
+27-10	2000-2009	fundersam	_	Target[12]	27-5[27]	false[12]	2[12]	_	
+27-11	2009-2010	;	_	_	_	_	_	_	
+27-12	2011-2015	även	_	_	_	_	_	_	
+27-13	2016-2019	här	_	_	_	_	_	_	
+27-14	2020-2023	kan	_	_	_	_	_	_	
+27-15	2024-2036	incitamenten	*	_	_	_	_	_	
+27-16	2037-2041	leda	_	Target[13]	27-15	false[13]	2[13]	_	
+27-17	2042-2045	fel	_	Target[13]	27-15	false[13]	2[13]	_	
+27-18	2045-2046	.	_	_	_	_	_	_	
+
+#Text=Firmorna ska kontrollera de företag som betalar deras räkningar.
+28-1	2047-2055	Firmorna	_	_	_	_	_	_	
+28-2	2056-2059	ska	_	_	_	_	_	_	
+28-3	2060-2071	kontrollera	_	_	_	_	_	_	
+28-4	2072-2074	de	_	_	_	_	_	_	
+28-5	2075-2082	företag	_	_	_	_	_	_	
+28-6	2083-2086	som	_	_	_	_	_	_	
+28-7	2087-2094	betalar	_	_	_	_	_	_	
+28-8	2095-2100	deras	_	_	_	_	_	_	
+28-9	2101-2110	räkningar	_	_	_	_	_	_	
+28-10	2110-2111	.	_	_	_	false	2	_	
+
+#Text=Hur oberoende blir man då?
+29-1	2112-2115	Hur	_	_	_	_	_	_	
+29-2	2116-2125	oberoende	_	_	_	_	_	_	
+29-3	2126-2130	blir	_	_	_	_	_	_	
+29-4	2131-2134	man	_	_	_	_	_	_	
+29-5	2135-2137	då	_	_	_	_	_	_	
+29-6	2137-2138	?	_	_	_	false	2	_	
+
+#Text=I de aktuella fallen Carnegie och HQ Bank blir man inte imponerad av revisorernas insatser.
+30-1	2139-2140	I	_	_	_	_	_	_	
+30-2	2141-2143	de	_	_	_	_	_	_	
+30-3	2144-2152	aktuella	_	_	_	_	_	_	
+30-4	2153-2159	fallen	_	_	_	_	_	_	
+30-5	2160-2168	Carnegie	_	_	_	_	_	_	
+30-6	2169-2172	och	_	_	_	_	_	_	
+30-7	2173-2175	HQ	_	_	_	_	_	_	
+30-8	2176-2180	Bank	_	_	_	_	_	_	
+30-9	2181-2185	blir	_	Target[14]	30-14[28]	false[14]	2[14]	_	
+30-10	2186-2189	man	_	Target[14]	30-14[28]	false[14]	2[14]	_	
+30-11	2190-2194	inte	_	Target[14]	30-14[28]	false[14]	2[14]	_	
+30-12	2195-2204	imponerad	_	Target[14]	30-14[28]	false[14]	2[14]	_	
+30-13	2205-2207	av	_	_	_	_	_	_	
+30-14	2208-2220	revisorernas	*[28]	_	_	_	_	_	
+30-15	2221-2229	insatser	*[28]	_	_	_	_	_	
+30-16	2229-2230	.	_	_	_	_	_	_	
+
+#Text=Jag har också sett tveksamma fall i mindre företag i min närhet.
+31-1	2231-2234	Jag	_	_	_	_	_	_	
+31-2	2235-2238	har	_	_	_	_	_	_	
+31-3	2239-2244	också	_	_	_	_	_	_	
+31-4	2245-2249	sett	_	_	_	_	_	_	
+31-5	2250-2259	tveksamma	_	Target	31-6[29]	false	2	_	
+31-6	2260-2264	fall	*[29]	_	_	_	_	_	
+31-7	2265-2266	i	*[29]	_	_	_	_	_	
+31-8	2267-2273	mindre	*[29]	_	_	_	_	_	
+31-9	2274-2281	företag	*[29]	_	_	_	_	_	
+31-10	2282-2283	i	*[29]	_	_	_	_	_	
+31-11	2284-2287	min	*[29]	_	_	_	_	_	
+31-12	2288-2294	närhet	*[29]	_	_	_	_	_	
+31-13	2294-2295	.	_	_	_	_	_	_	
+
+#Text=Här skulle man kanske vända på steken och låta staten få en större roll.
+32-1	2296-2299	Här	_	_	_	_	_	_	
+32-2	2300-2306	skulle	_	_	_	_	_	_	
+32-3	2307-2310	man	_	_	_	_	_	_	
+32-4	2311-2317	kanske	_	_	_	_	_	_	
+32-5	2318-2323	vända	_	_	_	_	_	_	
+32-6	2324-2326	på	_	_	_	_	_	_	
+32-7	2327-2333	steken	_	_	_	_	_	_	
+32-8	2334-2337	och	_	_	_	_	_	_	
+32-9	2338-2342	låta	_	_	_	_	_	_	
+32-10	2343-2349	staten	_	_	_	_	_	_	
+32-11	2350-2352	få	_	_	_	_	_	_	
+32-12	2353-2355	en	_	_	_	_	_	_	
+32-13	2356-2362	större	_	_	_	_	_	_	
+32-14	2363-2367	roll	_	_	_	_	_	_	
+32-15	2367-2368	.	_	_	_	_	_	_	
+
+#Text=Ett sätt kan vara att en myndighet eller annat oberoende organ upphandlar revisionsuppdragen.
+33-1	2369-2372	Ett	_	_	_	_	_	_	
+33-2	2373-2377	sätt	_	_	_	_	_	_	
+33-3	2378-2381	kan	_	_	_	_	_	_	
+33-4	2382-2386	vara	_	_	_	_	_	_	
+33-5	2387-2390	att	*[30]	_	_	_	_	34-1[0_30]	
+33-6	2391-2393	en	*[30]	_	_	_	_	_	
+33-7	2394-2403	myndighet	*[30]	_	_	_	_	_	
+33-8	2404-2409	eller	*[30]	_	_	_	_	_	
+33-9	2410-2415	annat	*[30]	_	_	_	_	_	
+33-10	2416-2425	oberoende	*[30]	_	_	_	_	_	
+33-11	2426-2431	organ	*[30]	_	_	_	_	_	
+33-12	2432-2442	upphandlar	*[30]	_	_	_	_	_	
+33-13	2443-2461	revisionsuppdragen	*[30]	_	_	_	_	_	
+33-14	2461-2462	.	_	_	_	_	_	_	
+
+#Text=Det skulle också sänka kostnaderna eftersom företagen idag – underligt nog – sällan eller aldrig konkurrensutsätter revisionen.
+34-1	2463-2466	Det	*	_	_	_	_	_	
+34-2	2467-2473	skulle	_	_	_	_	_	_	
+34-3	2474-2479	också	_	_	_	_	_	_	
+34-4	2480-2485	sänka	_	Target[15]	34-1	false[15]	4[15]	_	
+34-5	2486-2497	kostnaderna	_	Target[15]	34-1	false[15]	4[15]	_	
+34-6	2498-2506	eftersom	_	_	_	_	_	_	
+34-7	2507-2516	företagen	_	_	_	_	_	_	
+34-8	2517-2521	idag	_	_	_	_	_	_	
+34-9	2522-2523	–	_	_	_	_	_	_	
+34-10	2524-2533	underligt	_	Target[16]	34-13[31]	false[16]	2[16]	_	
+34-11	2534-2537	nog	_	Target[16]	34-13[31]	false[16]	2[16]	_	
+34-12	2538-2539	–	_	_	_	_	_	_	
+34-13	2540-2546	sällan	*[31]	_	_	_	_	_	
+34-14	2547-2552	eller	*[31]	_	_	_	_	_	
+34-15	2553-2559	aldrig	*[31]	_	_	_	_	_	
+34-16	2560-2578	konkurrensutsätter	*[31]	_	_	_	_	_	
+34-17	2579-2589	revisionen	*[31]	_	_	_	_	_	
+34-18	2589-2590	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2592-2593	#	_	_	_	_	_	_	
+35-2	2593-2594	P	_	_	_	_	_	_	
+35-3	2595-2598	IMM	_	_	_	_	_	_	
+35-4	2598-2599	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+36-1	2601-2614	Skräddarsydda	_	_	_	_	_	_	
+36-2	2615-2621	kurser	_	_	_	_	_	_	
+36-3	2622-2623	i	_	_	_	_	_	_	
+36-4	2624-2629	ämnen	_	_	_	_	_	_	
+36-5	2630-2633	som	_	_	_	_	_	_	
+36-6	2634-2645	intresserar	_	_	_	_	_	_	
+36-7	2646-2649	och	_	_	_	_	_	_	
+36-8	2650-2659	engagerar	_	_	_	_	_	_	
+36-9	2660-2664	både	_	_	_	_	_	_	
+36-10	2665-2670	kropp	_	_	_	_	_	_	
+36-11	2671-2674	och	_	_	_	_	_	_	
+36-12	2675-2679	själ	_	_	_	_	_	_	
+36-13	2679-2680	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2682-2683	#	_	_	_	_	_	_	
+37-2	2683-2684	P	_	_	_	_	_	_	
+37-3	2685-2688	IMM	_	_	_	_	_	_	
+37-4	2688-2689	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+38-1	2691-2699	Redaktör	_	_	_	_	_	_	
+38-2	2699-2700	:	_	_	_	_	_	_	
+38-3	2701-2707	Carina	_	_	_	_	_	_	
+38-4	2708-2716	Stensson	_	_	_	_	_	_	
+38-5	2716-2717	,	_	_	_	_	_	_	
+38-6	2718-2728	Biträdande	_	_	_	_	_	_	
+38-7	2729-2737	redaktör	_	_	_	_	_	_	
+38-8	2737-2738	:	_	_	_	_	_	_	
+38-9	2739-2744	Björn	_	_	_	_	_	_	
+38-10	2745-2751	Jorner	_	_	_	_	_	_	
+38-11	2751-2752	,	_	_	_	_	_	_	
+38-12	2753-2757	Mejl	_	_	_	_	_	_	
+38-13	2757-2758	:	_	_	_	_	_	_	
+38-14	2759-2765	debatt	_	_	_	_	_	_	
+38-15	2765-2766	@	_	_	_	_	_	_	
+38-16	2766-2772	svd.se	_	_	_	_	_	_	
+38-17	2772-2773	,	_	_	_	_	_	_	
+38-18	2774-2787	Telefonnummer	_	_	_	_	_	_	
+38-19	2787-2788	:	_	_	_	_	_	_	
+38-20	2789-2791	08	_	_	_	_	_	_	
+38-21	2791-2792	-	_	_	_	_	_	_	
+38-22	2792-2798	135149	_	_	_	_	_	_	
+38-23	2798-2799	,	_	_	_	_	_	_	
+38-24	2800-2807	Twitter	_	_	_	_	_	_	
+38-25	2807-2808	:	_	_	_	_	_	_	
+38-26	2809-2810	@	_	_	_	_	_	_	
+38-27	2810-2819	SvDDebatt	_	_	_	_	_	_	
+38-28	2819-2820	,	_	_	_	_	_	_	
+38-29	2821-2829	Facebook	_	_	_	_	_	_	
+38-30	2829-2830	:	_	_	_	_	_	_	
+38-31	2831-2834	SvD	_	_	_	_	_	_	
+38-32	2835-2841	Debatt	_	_	_	_	_	_	
+38-33	2841-2842	.	_	_	_	_	_	_	

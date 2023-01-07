@@ -1,0 +1,380 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Alla ska få det stöd  de har laglig rätt till.
+3-1	18-22	Alla	*	_	_	_	_	_	_	
+3-2	23-26	ska	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-3	27-29	få	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-4	30-33	det	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-5	34-38	stöd	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-6	40-42	de	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-7	43-46	har	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-8	47-53	laglig	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-9	54-58	rätt	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-10	59-63	till	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-11	63-64	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	_	
+
+#Text=REPLIK.
+5-1	75-81	REPLIK	_	_	_	_	_	_	_	
+5-2	81-82	.	_	_	_	_	_	_	_	
+
+#Text=Alla ska få det stöd de har rätt till, det är något vi Socialdemokrater aldrig kompromissar om.
+6-1	83-87	Alla	*	_	_	_	_	_	_	
+6-2	88-91	ska	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-3	92-94	få	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-4	95-98	det	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-5	99-103	stöd	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-6	104-106	de	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-7	107-110	har	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-8	111-115	rätt	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-9	116-120	till	_	Target[2]	6-1	false[2]	4[2]	_	_	
+6-10	120-121	,	_	_	_	_	_	_	_	
+6-11	122-125	det	_	_	_	_	_	_	_	
+6-12	126-128	är	_	_	_	_	_	_	_	
+6-13	129-134	något	_	_	_	_	_	_	_	
+6-14	135-137	vi	_	_	_	_	_	_	_	
+6-15	138-154	Socialdemokrater	_	_	_	_	_	_	_	
+6-16	155-161	aldrig	_	_	_	_	_	_	_	
+6-17	162-174	kompromissar	_	_	_	_	_	_	_	
+6-18	175-177	om	_	_	_	_	_	_	_	
+6-19	177-178	.	_	_	_	_	_	_	_	
+
+#Text=Rättigheter ska inte begränsas och det är därför totalt oacceptabelt när så sker.
+7-1	179-190	Rättigheter	*	_	_	_	_	_	7-11[9_0]	
+7-2	191-194	ska	_	_	_	_	_	_	_	
+7-3	195-199	inte	_	_	_	_	_	_	_	
+7-4	200-209	begränsas	*	_	_	_	_	_	7-11[9_0]	
+7-5	210-213	och	_	_	_	_	_	_	_	
+7-6	214-217	det	_	_	_	_	_	_	_	
+7-7	218-220	är	_	_	_	false	1	_	_	
+7-8	221-227	därför	_	_	_	_	_	_	_	
+7-9	228-234	totalt	_	Target[3]	7-11[9]	false[3]	1[3]	7-7[0_3]	_	
+7-10	235-247	oacceptabelt	_	Target[3]	7-11[9]	false[3]	1[3]	_	_	
+7-11	248-251	när	*[9]	_	_	_	_	_	_	
+7-12	252-254	så	*[9]	_	_	_	_	_	_	
+7-13	255-259	sker	*[9]	_	_	_	_	_	_	
+7-14	259-260	.	_	_	_	_	_	_	_	
+
+#Text=Vi är många som tagit del av de fall i media där personer har fått sin assistans kraftigt nedskuren, bland annat till följd av en ny praxis efter tidigare dom om egenvård i Högsta förvaltningsdomstolen.
+8-1	261-263	Vi	_	_	_	_	_	_	_	
+8-2	264-266	är	_	_	_	_	_	_	_	
+8-3	267-272	många	_	_	_	_	_	_	_	
+8-4	273-276	som	_	_	_	_	_	_	_	
+8-5	277-282	tagit	_	_	_	_	_	_	_	
+8-6	283-286	del	_	_	_	_	_	_	_	
+8-7	287-289	av	_	_	_	_	_	_	_	
+8-8	290-292	de	_	_	_	_	_	_	_	
+8-9	293-297	fall	_	_	_	_	_	_	_	
+8-10	298-299	i	_	_	_	_	_	_	_	
+8-11	300-305	media	_	_	_	_	_	_	_	
+8-12	306-309	där	_	_	_	_	_	_	_	
+8-13	310-318	personer	_	_	_	_	_	_	_	
+8-14	319-322	har	_	_	_	_	_	_	_	
+8-15	323-327	fått	_	_	_	_	_	_	_	
+8-16	328-331	sin	_	_	_	_	_	_	_	
+8-17	332-341	assistans	_	_	_	_	_	_	_	
+8-18	342-350	kraftigt	_	_	_	_	_	_	_	
+8-19	351-360	nedskuren	_	_	_	_	_	_	_	
+8-20	360-361	,	_	_	_	_	_	_	_	
+8-21	362-367	bland	_	_	_	_	_	_	_	
+8-22	368-373	annat	_	_	_	_	_	_	_	
+8-23	374-378	till	_	_	_	_	_	_	_	
+8-24	379-384	följd	_	_	_	_	_	_	_	
+8-25	385-387	av	_	_	_	_	_	_	_	
+8-26	388-390	en	_	_	_	_	_	_	_	
+8-27	391-393	ny	_	_	_	_	_	_	_	
+8-28	394-400	praxis	_	_	_	_	_	_	_	
+8-29	401-406	efter	_	_	_	_	_	_	_	
+8-30	407-415	tidigare	_	_	_	_	_	_	_	
+8-31	416-419	dom	_	_	_	_	_	_	_	
+8-32	420-422	om	_	_	_	_	_	_	_	
+8-33	423-431	egenvård	_	_	_	_	_	_	_	
+8-34	432-433	i	_	_	_	_	_	_	_	
+8-35	434-440	Högsta	_	_	_	_	_	_	_	
+8-36	441-462	förvaltningsdomstolen	_	_	_	_	_	_	_	
+8-37	462-463	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	465-466	#	_	_	_	_	_	_	_	
+9-2	466-467	P	_	_	_	_	_	_	_	
+9-3	468-471	IMM	_	_	_	_	_	_	_	
+9-4	471-472	.	_	_	_	_	_	_	_	
+
+#Text=Därför har barn, äldre- och jämställdhetsminister Åsa Regnér tillsatt en snabbutredning för att se över hur egenvårdsbegreppet tolkas.
+10-1	474-480	Därför	_	_	_	_	_	_	_	
+10-2	481-484	har	_	_	_	_	_	_	_	
+10-3	485-489	barn	_	_	_	_	_	_	_	
+10-4	489-490	,	_	_	_	_	_	_	_	
+10-5	491-496	äldre	_	_	_	_	_	_	_	
+10-6	496-497	-	_	_	_	_	_	_	_	
+10-7	498-501	och	_	_	_	_	_	_	_	
+10-8	502-523	jämställdhetsminister	_	_	_	_	_	_	_	
+10-9	524-527	Åsa	_	_	_	_	_	_	_	
+10-10	528-534	Regnér	_	_	_	_	_	_	_	
+10-11	535-543	tillsatt	_	_	_	_	_	_	_	
+10-12	544-546	en	_	_	_	_	_	_	_	
+10-13	547-561	snabbutredning	_	_	_	_	_	_	_	
+10-14	562-565	för	_	_	_	_	_	_	_	
+10-15	566-569	att	_	_	_	_	_	_	_	
+10-16	570-572	se	_	_	_	_	_	_	_	
+10-17	573-577	över	_	_	_	_	_	_	_	
+10-18	578-581	hur	_	_	_	_	_	_	_	
+10-19	582-600	egenvårdsbegreppet	_	_	_	_	_	_	_	
+10-20	601-607	tolkas	_	_	_	_	_	_	_	
+10-21	607-608	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen ser även över hela lagstiftningen.
+11-1	609-619	Regeringen	_	_	_	_	_	_	_	
+11-2	620-623	ser	_	_	_	_	_	_	_	
+11-3	624-628	även	_	_	_	_	_	_	_	
+11-4	629-633	över	_	_	_	_	_	_	_	
+11-5	634-638	hela	_	_	_	_	_	_	_	
+11-6	639-653	lagstiftningen	_	_	_	_	_	_	_	
+11-7	653-654	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	656-657	#	_	_	_	_	_	_	_	
+12-2	657-658	P	_	_	_	_	_	_	_	
+12-3	659-662	IMM	_	_	_	_	_	_	_	
+12-4	662-663	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens direktiv till Försäkringskassan om att bryta ökningen av timmar, gäller exempelvis det utrymme som finns i systemet för oseriösa aktörer, självklart inte de som har laglig rätt till assistans.
+13-1	665-676	Regeringens	*	_	_	_	_	_	_	
+13-2	677-685	direktiv	_	_	_	_	_	_	_	
+13-3	686-690	till	_	_	_	_	_	_	_	
+13-4	691-708	Försäkringskassan	_	_	_	_	_	_	_	
+13-5	709-711	om	_	_	_	_	_	_	_	
+13-6	712-715	att	_	_	_	_	_	_	_	
+13-7	716-721	bryta	_	_	_	_	_	_	_	
+13-8	722-730	ökningen	_	_	_	_	_	_	_	
+13-9	731-733	av	_	_	_	_	_	_	_	
+13-10	734-740	timmar	_	_	_	_	_	_	_	
+13-11	740-741	,	_	_	_	_	_	_	_	
+13-12	742-748	gäller	_	_	_	_	_	_	_	
+13-13	749-759	exempelvis	_	_	_	_	_	_	_	
+13-14	760-763	det	_	_	_	_	_	_	_	
+13-15	764-771	utrymme	_	_	_	_	_	_	_	
+13-16	772-775	som	_	_	_	_	_	_	_	
+13-17	776-781	finns	_	_	_	_	_	_	_	
+13-18	782-783	i	_	_	_	_	_	_	_	
+13-19	784-792	systemet	_	_	_	_	_	_	_	
+13-20	793-796	för	_	_	_	_	_	_	_	
+13-21	797-805	oseriösa	_	Target;Source	13-22;13-1	false	2	_	_	
+13-22	806-813	aktörer	*	_	_	_	_	_	_	
+13-23	813-814	,	_	_	_	_	_	_	_	
+13-24	815-825	självklart	_	_	_	_	_	_	_	
+13-25	826-830	inte	_	_	_	_	_	_	_	
+13-26	831-833	de	_	_	_	_	_	_	_	
+13-27	834-837	som	_	_	_	_	_	_	_	
+13-28	838-841	har	_	_	_	_	_	_	_	
+13-29	842-848	laglig	_	_	_	_	_	_	_	
+13-30	849-853	rätt	_	_	_	_	_	_	_	
+13-31	854-858	till	_	_	_	_	_	_	_	
+13-32	859-868	assistans	_	_	_	_	_	_	_	
+13-33	868-869	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	871-872	#	_	_	_	_	_	_	_	
+14-2	872-873	P	_	_	_	_	_	_	_	
+14-3	874-877	IMM	_	_	_	_	_	_	_	
+14-4	877-878	.	_	_	_	_	_	_	_	
+
+#Text=Det görs ingen åtstramning på assistansen i regeringens budget, utan ersättningen räknas upp nästa år.
+15-1	880-883	Det	_	_	_	_	_	_	_	
+15-2	884-888	görs	_	_	_	_	_	_	_	
+15-3	889-894	ingen	_	_	_	_	_	_	_	
+15-4	895-906	åtstramning	_	_	_	_	_	_	_	
+15-5	907-909	på	_	_	_	_	_	_	_	
+15-6	910-921	assistansen	_	_	_	_	_	_	_	
+15-7	922-923	i	_	_	_	_	_	_	_	
+15-8	924-935	regeringens	_	_	_	_	_	_	_	
+15-9	936-942	budget	_	_	_	_	_	_	_	
+15-10	942-943	,	_	_	_	_	_	_	_	
+15-11	944-948	utan	_	_	_	_	_	_	_	
+15-12	949-961	ersättningen	_	_	_	_	_	_	_	
+15-13	962-968	räknas	_	_	_	_	_	_	_	
+15-14	969-972	upp	_	_	_	_	_	_	_	
+15-15	973-978	nästa	_	_	_	_	_	_	_	
+15-16	979-981	år	_	_	_	_	_	_	_	
+15-17	981-982	.	_	_	_	_	_	_	_	
+
+#Text=Det finns över 1 000 privata bolag på marknaden och större del av ersättningen än vad som var tänkt har visat sig gå till annat än assistans, som marknadsföring och konsulter.
+16-1	983-986	Det	_	_	_	_	_	_	_	
+16-2	987-992	finns	_	_	_	_	_	_	_	
+16-3	993-997	över	_	_	_	_	_	_	_	
+16-4	998-999	1	_	_	_	_	_	_	_	
+16-5	1000-1003	000	_	_	_	_	_	_	_	
+16-6	1004-1011	privata	_	_	_	_	_	_	_	
+16-7	1012-1017	bolag	_	_	_	_	_	_	_	
+16-8	1018-1020	på	_	_	_	_	_	_	_	
+16-9	1021-1030	marknaden	_	_	_	_	_	_	_	
+16-10	1031-1034	och	_	_	_	_	_	_	_	
+16-11	1035-1041	större	*[10]	_	_	_	_	_	17-1[11_10]	
+16-12	1042-1045	del	*[10]	_	_	_	_	_	_	
+16-13	1046-1048	av	*[10]	_	_	_	_	_	_	
+16-14	1049-1061	ersättningen	*[10]	_	_	_	_	_	_	
+16-15	1062-1064	än	*[10]	_	_	_	_	_	_	
+16-16	1065-1068	vad	*[10]	_	_	_	_	_	_	
+16-17	1069-1072	som	*[10]	_	_	_	_	_	_	
+16-18	1073-1076	var	*[10]	_	_	_	_	_	_	
+16-19	1077-1082	tänkt	*[10]	_	_	_	_	_	_	
+16-20	1083-1086	har	*[10]	_	_	_	_	_	_	
+16-21	1087-1092	visat	*[10]	_	_	_	_	_	_	
+16-22	1093-1096	sig	*[10]	_	_	_	_	_	_	
+16-23	1097-1099	gå	*[10]	_	_	_	_	_	_	
+16-24	1100-1104	till	*[10]	_	_	_	_	_	_	
+16-25	1105-1110	annat	*[10]	_	_	_	_	_	_	
+16-26	1111-1113	än	*[10]	_	_	_	_	_	_	
+16-27	1114-1123	assistans	*[10]	_	_	_	_	_	_	
+16-28	1123-1124	,	*[10]	_	_	_	_	_	_	
+16-29	1125-1128	som	*[10]	_	_	_	_	_	_	
+16-30	1129-1143	marknadsföring	*[10]	_	_	_	_	_	_	
+16-31	1144-1147	och	*[10]	_	_	_	_	_	_	
+16-32	1148-1157	konsulter	*[10]	_	_	_	_	_	_	
+16-33	1157-1158	.	_	_	_	_	_	_	_	
+
+#Text=Den utvecklingen behöver brytas.
+17-1	1159-1162	Den	*[11]	_	_	_	_	_	_	
+17-2	1163-1175	utvecklingen	*[11]	_	_	_	_	_	_	
+17-3	1176-1183	behöver	_	Target[4]	17-1[11]	false[4]	2[4]	_	_	
+17-4	1184-1190	brytas	_	Target[4]	17-1[11]	false[4]	2[4]	_	_	
+17-5	1190-1191	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1193-1194	#	_	_	_	_	_	_	_	
+18-2	1194-1195	P	_	_	_	_	_	_	_	
+18-3	1196-1199	IMM	_	_	_	_	_	_	_	
+18-4	1199-1200	.	_	_	_	_	_	_	_	
+
+#Text=Från år 2006 till 2015 ökade kostnaderna med 85 procent samtidigt som brukarna endast har ökat med 14 procent.
+19-1	1202-1206	Från	_	_	_	_	_	_	_	
+19-2	1207-1209	år	_	_	_	_	_	_	_	
+19-3	1210-1214	2006	_	_	_	_	_	_	_	
+19-4	1215-1219	till	_	_	_	_	_	_	_	
+19-5	1220-1224	2015	_	_	_	_	_	_	_	
+19-6	1225-1230	ökade	_	_	_	_	_	_	_	
+19-7	1231-1242	kostnaderna	_	_	_	_	_	_	_	
+19-8	1243-1246	med	_	_	_	_	_	_	_	
+19-9	1247-1249	85	_	_	_	_	_	_	_	
+19-10	1250-1257	procent	_	_	_	_	_	_	_	
+19-11	1258-1267	samtidigt	_	_	_	_	_	_	_	
+19-12	1268-1271	som	_	_	_	_	_	_	_	
+19-13	1272-1280	brukarna	_	_	_	_	_	_	_	
+19-14	1281-1287	endast	_	_	_	_	_	_	_	
+19-15	1288-1291	har	_	_	_	_	_	_	_	
+19-16	1292-1296	ökat	_	_	_	_	_	_	_	
+19-17	1297-1300	med	_	_	_	_	_	_	_	
+19-18	1301-1303	14	_	_	_	_	_	_	_	
+19-19	1304-1311	procent	_	_	_	_	_	_	_	
+19-20	1311-1312	.	_	_	_	_	_	_	_	
+
+#Text=Trots kostnadsökningen så upplever många att de inte får det stöd de behöver och skillnaderna i bedömningarna är stora.
+20-1	1313-1318	Trots	_	_	_	_	_	_	_	
+20-2	1319-1335	kostnadsökningen	_	_	_	_	_	_	_	
+20-3	1336-1338	så	_	_	_	_	_	_	_	
+20-4	1339-1347	upplever	_	_	_	false	2	_	_	
+20-5	1348-1353	många	*	_	_	_	_	_	_	
+20-6	1354-1357	att	_	Source[5]	20-5	false[5]	2[5]	20-4[0_5]	_	
+20-7	1358-1360	de	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-8	1361-1365	inte	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-9	1366-1369	får	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-10	1370-1373	det	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-11	1374-1378	stöd	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-12	1379-1381	de	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-13	1382-1389	behöver	_	Source[5]	20-5	false[5]	2[5]	_	_	
+20-14	1390-1393	och	_	_	_	_	_	_	_	
+20-15	1394-1406	skillnaderna	_	_	_	_	_	_	_	
+20-16	1407-1408	i	_	_	_	_	_	_	_	
+20-17	1409-1422	bedömningarna	_	_	_	_	_	_	_	
+20-18	1423-1425	är	_	_	_	_	_	_	_	
+20-19	1426-1431	stora	_	_	_	_	_	_	_	
+20-20	1431-1432	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1434-1435	#	_	_	_	_	_	_	_	
+21-2	1435-1436	P	_	_	_	_	_	_	_	
+21-3	1437-1440	IMM	_	_	_	_	_	_	_	
+21-4	1440-1441	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har därför tillsatt en utredning så att LSS och assistansersättningen förbättras, träffsäkerheten ökar och utrymmet för oseriösa aktörer minskar.
+22-1	1443-1453	Regeringen	*	_	_	_	_	_	23-1	
+22-2	1454-1457	har	_	_	_	_	_	_	_	
+22-3	1458-1464	därför	_	_	_	_	_	_	_	
+22-4	1465-1473	tillsatt	_	_	_	_	_	_	_	
+22-5	1474-1476	en	_	_	_	_	_	_	_	
+22-6	1477-1486	utredning	_	_	_	_	_	_	_	
+22-7	1487-1489	så	_	_	_	_	_	_	_	
+22-8	1490-1493	att	_	_	_	_	_	_	_	
+22-9	1494-1497	LSS	*[12]	_	_	_	_	_	_	
+22-10	1498-1501	och	*[12]	_	_	_	_	_	_	
+22-11	1502-1523	assistansersättningen	*[12]	_	_	_	_	_	_	
+22-12	1524-1534	förbättras	_	_	_	_	_	_	_	
+22-13	1534-1535	,	_	_	_	_	_	_	_	
+22-14	1536-1551	träffsäkerheten	_	_	_	_	_	_	_	
+22-15	1552-1556	ökar	_	_	_	_	_	_	_	
+22-16	1557-1560	och	_	_	_	_	_	_	_	
+22-17	1561-1569	utrymmet	_	_	_	_	_	_	_	
+22-18	1570-1573	för	_	_	_	_	_	_	_	
+22-19	1574-1582	oseriösa	*[13]	_	_	_	_	_	_	
+22-20	1583-1590	aktörer	*[13]	_	_	_	_	_	_	
+22-21	1591-1598	minskar	_	_	_	_	_	_	_	
+22-22	1598-1599	.	_	Target;Source[6]|Source;Target[7]	22-19[13];22-1|22-1;22-9[12]	false[6]|false[7]	2[6]|4[7]	_	_	
+
+#Text=Vi är övertygade om att samarbete för att nå de ambitionerna är den bästa vägen framåt.
+23-1	1600-1602	Vi	*	_	_	_	_	_	_	
+23-2	1603-1605	är	_	_	_	_	_	_	_	
+23-3	1606-1616	övertygade	_	_	_	_	_	_	_	
+23-4	1617-1619	om	_	_	_	_	_	_	_	
+23-5	1620-1623	att	_	_	_	_	_	_	_	
+23-6	1624-1633	samarbete	*	_	_	_	_	_	_	
+23-7	1634-1637	för	_	_	_	_	_	_	_	
+23-8	1638-1641	att	_	_	_	_	_	_	_	
+23-9	1642-1644	nå	_	_	_	_	_	_	_	
+23-10	1645-1647	de	_	_	_	_	_	_	_	
+23-11	1648-1660	ambitionerna	_	_	_	_	_	_	_	
+23-12	1661-1663	är	_	Source;Target[8]	23-1;23-6	false[8]	5[8]	_	_	
+23-13	1664-1667	den	_	Source;Target[8]	23-1;23-6	false[8]	5[8]	_	_	
+23-14	1668-1673	bästa	_	Source;Target[8]	23-1;23-6	false[8]	5[8]	_	_	
+23-15	1674-1679	vägen	_	Source;Target[8]	23-1;23-6	false[8]	5[8]	_	_	
+23-16	1680-1686	framåt	_	Source;Target[8]	23-1;23-6	false[8]	5[8]	_	_	
+23-17	1686-1687	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1689-1690	#	_	_	_	_	_	_	_	
+24-2	1690-1691	P	_	_	_	_	_	_	_	
+24-3	1692-1695	IMM	_	_	_	_	_	_	_	
+24-4	1695-1696	.	_	_	_	_	_	_	_	
+
+#Text=Anna-Lena Sörenson (S), vice ordförande socialutskottet.
+25-1	1698-1707	Anna-Lena	_	_	_	_	_	_	_	
+25-2	1708-1716	Sörenson	_	_	_	_	_	_	_	
+25-3	1717-1718	(	_	_	_	_	_	_	_	
+25-4	1718-1719	S	_	_	_	_	_	_	_	
+25-5	1719-1720	)	_	_	_	_	_	_	_	
+25-6	1720-1721	,	_	_	_	_	_	_	_	
+25-7	1722-1726	vice	_	_	_	_	_	_	_	
+25-8	1727-1737	ordförande	_	_	_	_	_	_	_	
+25-9	1738-1753	socialutskottet	_	_	_	_	_	_	_	
+25-10	1753-1754	.	_	_	_	_	_	_	_	

@@ -1,0 +1,967 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Sverige bör engagera sig för stärkt religionsfrihet.
+3-1	18-25	Sverige	_	_	_	_	_	_	
+3-2	26-29	bör	_	Target[1]	3-6[16]	false[1]	4[1]	_	
+3-3	30-38	engagera	_	Target[1]	3-6[16]	false[1]	4[1]	_	
+3-4	39-42	sig	_	Target[1]	3-6[16]	false[1]	4[1]	_	
+3-5	43-46	för	_	Target[1]	3-6[16]	false[1]	4[1]	_	
+3-6	47-53	stärkt	*[16]	_	_	_	_	_	
+3-7	54-69	religionsfrihet	*[16]	_	_	_	_	_	
+3-8	69-70	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	_	_	_	
+4-4	78-79	.	_	_	_	_	_	_	
+
+#Text=Situationen för kristna och andra troende minoriteter runt om i världen är akut.
+5-1	81-92	Situationen	*[17]	_	_	_	_	_	
+5-2	93-96	för	*[17]	_	_	_	_	_	
+5-3	97-104	kristna	*[17]	_	_	_	_	_	
+5-4	105-108	och	*[17]	_	_	_	_	_	
+5-5	109-114	andra	*[17]	_	_	_	_	_	
+5-6	115-122	troende	*[17]	_	_	_	_	_	
+5-7	123-134	minoriteter	*[17]	_	_	_	_	_	
+5-8	135-139	runt	*[17]	_	_	_	_	_	
+5-9	140-142	om	*[17]	_	_	_	_	_	
+5-10	143-144	i	*[17]	_	_	_	_	_	
+5-11	145-152	världen	*[17]	_	_	_	_	_	
+5-12	153-155	är	_	Target[2]	5-1[17]	false[2]	1[2]	_	
+5-13	156-160	akut	_	Target[2]	5-1[17]	false[2]	1[2]	_	
+5-14	160-161	.	_	_	_	_	_	_	
+
+#Text=Därför vill vi som kyrkor och kristna organisationer säga till våra politiker, i Sverige och EU, att de måste ta konkreta initiativ för att främja religionsfrihet.
+6-1	162-168	Därför	_	_	_	_	_	_	
+6-2	169-173	vill	_	_	_	_	_	_	
+6-3	174-176	vi	_	_	_	_	_	_	
+6-4	177-180	som	_	_	_	_	_	_	
+6-5	181-187	kyrkor	_	_	_	_	_	_	
+6-6	188-191	och	_	_	_	_	_	_	
+6-7	192-199	kristna	_	_	_	_	_	_	
+6-8	200-214	organisationer	_	_	_	_	_	_	
+6-9	215-219	säga	_	_	_	_	_	_	
+6-10	220-224	till	_	_	_	_	_	_	
+6-11	225-229	våra	_	_	_	_	_	_	
+6-12	230-239	politiker	_	_	_	_	_	_	
+6-13	239-240	,	_	_	_	_	_	_	
+6-14	241-242	i	_	_	_	_	_	_	
+6-15	243-250	Sverige	_	_	_	_	_	_	
+6-16	251-254	och	_	_	_	_	_	_	
+6-17	255-257	EU	_	_	_	_	_	_	
+6-18	257-258	,	_	_	_	_	_	_	
+6-19	259-262	att	_	_	_	_	_	_	
+6-20	263-265	de	_	_	_	_	_	_	
+6-21	266-271	måste	_	_	_	_	_	_	
+6-22	272-274	ta	_	_	_	_	_	_	
+6-23	275-283	konkreta	_	_	_	_	_	_	
+6-24	284-293	initiativ	_	_	_	_	_	_	
+6-25	294-297	för	_	_	_	_	_	_	
+6-26	298-301	att	_	_	_	_	_	_	
+6-27	302-308	främja	_	Target	6-28	false	4	_	
+6-28	309-324	religionsfrihet	*	_	_	_	_	_	
+6-29	324-325	.	_	_	_	_	_	_	
+
+#Text=I dag arrangerar vi ett fackeltåg och opinionsmöte i centrala Stockholm för att uttrycka solidaritet med utsatta troende.
+7-1	326-327	I	_	_	_	_	_	_	
+7-2	328-331	dag	_	_	_	_	_	_	
+7-3	332-342	arrangerar	_	_	_	_	_	_	
+7-4	343-345	vi	_	_	_	_	_	_	
+7-5	346-349	ett	_	_	_	_	_	_	
+7-6	350-359	fackeltåg	_	_	_	_	_	_	
+7-7	360-363	och	_	_	_	_	_	_	
+7-8	364-376	opinionsmöte	_	_	_	_	_	_	
+7-9	377-378	i	_	_	_	_	_	_	
+7-10	379-387	centrala	_	_	_	_	_	_	
+7-11	388-397	Stockholm	_	_	_	_	_	_	
+7-12	398-401	för	_	_	_	_	_	_	
+7-13	402-405	att	_	_	_	_	_	_	
+7-14	406-414	uttrycka	_	Target[3]	7-17[18]	false[3]	4[3]	_	
+7-15	415-426	solidaritet	_	Target[3]	7-17[18]	false[3]	4[3]	_	
+7-16	427-430	med	_	Target[3]	7-17[18]	false[3]	4[3]	_	
+7-17	431-438	utsatta	*[18]	_	_	_	_	_	
+7-18	439-446	troende	*[18]	_	_	_	_	_	
+7-19	446-447	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	449-450	#	_	_	_	_	_	_	
+8-2	450-451	P	_	_	_	_	_	_	
+8-3	452-455	IMM	_	_	_	_	_	_	
+8-4	455-456	.	_	_	_	_	_	_	
+
+#Text=Vår systerkyrka i Pakistan begravde 76 vuxna och 49 barn efter bombdådet mot All Saints Church i Peshawar den 22 september.
+9-1	458-461	Vår	_	_	_	_	_	_	
+9-2	462-473	systerkyrka	_	_	_	_	_	_	
+9-3	474-475	i	_	_	_	_	_	_	
+9-4	476-484	Pakistan	_	_	_	_	_	_	
+9-5	485-493	begravde	_	_	_	_	_	_	
+9-6	494-496	76	_	_	_	_	_	_	
+9-7	497-502	vuxna	_	_	_	_	_	_	
+9-8	503-506	och	_	_	_	_	_	_	
+9-9	507-509	49	_	_	_	_	_	_	
+9-10	510-514	barn	_	_	_	_	_	_	
+9-11	515-520	efter	_	_	_	_	_	_	
+9-12	521-530	bombdådet	_	_	_	_	_	_	
+9-13	531-534	mot	_	_	_	_	_	_	
+9-14	535-538	All	_	_	_	_	_	_	
+9-15	539-545	Saints	_	_	_	_	_	_	
+9-16	546-552	Church	_	_	_	_	_	_	
+9-17	553-554	i	_	_	_	_	_	_	
+9-18	555-563	Peshawar	_	_	_	_	_	_	
+9-19	564-567	den	_	_	_	_	_	_	
+9-20	568-570	22	_	_	_	_	_	_	
+9-21	571-580	september	_	_	_	_	_	_	
+9-22	580-581	.	_	_	_	_	_	_	
+
+#Text=Från Egypten hör vi att tiotals kyrkor har utsatts för attacker sedan början av augusti och om mordförsök på en koptisk biskop den 30 september.
+10-1	582-586	Från	_	_	_	_	_	_	
+10-2	587-594	Egypten	_	_	_	_	_	_	
+10-3	595-598	hör	_	_	_	_	_	_	
+10-4	599-601	vi	_	_	_	_	_	_	
+10-5	602-605	att	_	_	_	_	_	_	
+10-6	606-613	tiotals	_	_	_	_	_	_	
+10-7	614-620	kyrkor	_	_	_	_	_	_	
+10-8	621-624	har	_	_	_	_	_	_	
+10-9	625-632	utsatts	_	_	_	_	_	_	
+10-10	633-636	för	_	_	_	_	_	_	
+10-11	637-645	attacker	_	_	_	_	_	_	
+10-12	646-651	sedan	_	_	_	_	_	_	
+10-13	652-658	början	_	_	_	_	_	_	
+10-14	659-661	av	_	_	_	_	_	_	
+10-15	662-669	augusti	_	_	_	_	_	_	
+10-16	670-673	och	_	_	_	_	_	_	
+10-17	674-676	om	_	_	_	_	_	_	
+10-18	677-687	mordförsök	_	_	_	_	_	_	
+10-19	688-690	på	_	_	_	_	_	_	
+10-20	691-693	en	_	_	_	_	_	_	
+10-21	694-701	koptisk	_	_	_	_	_	_	
+10-22	702-708	biskop	_	_	_	_	_	_	
+10-23	709-712	den	_	_	_	_	_	_	
+10-24	713-715	30	_	_	_	_	_	_	
+10-25	716-725	september	_	_	_	_	_	_	
+10-26	725-726	.	_	_	_	_	_	_	
+
+#Text=Från Syrien rapporteras att vissa rebellgrupper ser kristna som en måltavla och att kyrkoledare, som offentliga personer, har utsatts för kidnappning.
+11-1	727-731	Från	_	_	_	_	_	_	
+11-2	732-738	Syrien	_	_	_	_	_	_	
+11-3	739-750	rapporteras	_	_	_	_	_	_	
+11-4	751-754	att	_	_	_	_	_	_	
+11-5	755-760	vissa	*[19]	_	_	_	_	_	
+11-6	761-774	rebellgrupper	*[19]	_	_	_	_	_	
+11-7	775-778	ser	_	_	_	false	2	_	
+11-8	779-786	kristna	*	_	_	_	_	_	
+11-9	787-790	som	_	Target;Source[4]	11-8;11-5[19]	false[4]	2[4]	11-7[0_4]	
+11-10	791-793	en	_	Target;Source[4]	11-8;11-5[19]	false[4]	2[4]	_	
+11-11	794-802	måltavla	_	Target;Source[4]	11-8;11-5[19]	false[4]	2[4]	_	
+11-12	803-806	och	_	_	_	_	_	_	
+11-13	807-810	att	_	_	_	_	_	_	
+11-14	811-822	kyrkoledare	_	_	_	_	_	_	
+11-15	822-823	,	_	_	_	_	_	_	
+11-16	824-827	som	_	_	_	_	_	_	
+11-17	828-838	offentliga	_	_	_	_	_	_	
+11-18	839-847	personer	_	_	_	_	_	_	
+11-19	847-848	,	_	_	_	_	_	_	
+11-20	849-852	har	_	_	_	_	_	_	
+11-21	853-860	utsatts	_	Target[5]	11-23	false[5]	2[5]	_	
+11-22	861-864	för	_	Target[5]	11-23	false[5]	2[5]	_	
+11-23	865-876	kidnappning	*	_	_	_	_	_	
+11-24	876-877	.	_	_	_	_	_	_	
+
+#Text=I norra och centrala Nigeria ser vi terroriströrelsen Boko Harams ständiga dödande, där kristna är en måltavla bara för att de är kristna.
+12-1	878-879	I	_	_	_	_	_	_	
+12-2	880-885	norra	_	_	_	_	_	_	
+12-3	886-889	och	_	_	_	_	_	_	
+12-4	890-898	centrala	_	_	_	_	_	_	
+12-5	899-906	Nigeria	_	_	_	_	_	_	
+12-6	907-910	ser	_	_	_	_	_	_	
+12-7	911-913	vi	_	_	_	_	_	_	
+12-8	914-931	terroriströrelsen	*[20]	_	_	_	_	_	
+12-9	932-936	Boko	*[20]	_	_	_	_	_	
+12-10	937-943	Harams	*[20]	_	_	_	_	_	
+12-11	944-952	ständiga	_	_	_	_	_	_	
+12-12	953-960	dödande	_	_	_	_	_	_	
+12-13	960-961	,	_	_	_	_	_	_	
+12-14	962-965	där	_	_	_	_	_	_	
+12-15	966-973	kristna	*	_	_	_	_	_	
+12-16	974-976	är	_	Target;Source[6]	12-15;12-8[20]	false[6]	2[6]	_	
+12-17	977-979	en	_	Target;Source[6]	12-15;12-8[20]	false[6]	2[6]	_	
+12-18	980-988	måltavla	_	Target;Source[6]	12-15;12-8[20]	false[6]	2[6]	_	
+12-19	989-993	bara	_	_	_	_	_	_	
+12-20	994-997	för	_	_	_	_	_	_	
+12-21	998-1001	att	_	_	_	_	_	_	
+12-22	1002-1004	de	_	_	_	_	_	_	
+12-23	1005-1007	är	_	_	_	_	_	_	
+12-24	1008-1015	kristna	_	_	_	_	_	_	
+12-25	1015-1016	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	1018-1019	#	_	_	_	_	_	_	
+13-2	1019-1020	P	_	_	_	_	_	_	
+13-3	1021-1024	IMM	_	_	_	_	_	_	
+13-4	1024-1025	.	_	_	_	_	_	_	
+
+#Text=I den världsvida kyrkan lever vi nära varandra.
+14-1	1027-1028	I	_	_	_	_	_	_	
+14-2	1029-1032	den	_	_	_	_	_	_	
+14-3	1033-1043	världsvida	_	Target	14-4	false	4	_	
+14-4	1044-1050	kyrkan	*	_	_	_	_	_	
+14-5	1051-1056	lever	_	_	_	_	_	_	
+14-6	1057-1059	vi	_	_	_	_	_	_	
+14-7	1060-1064	nära	_	_	_	_	_	_	
+14-8	1065-1073	varandra	_	_	_	_	_	_	
+14-9	1073-1074	.	_	_	_	_	_	_	
+
+#Text=För oss är nyheterna inte anonyma.
+15-1	1075-1078	För	_	_	_	_	_	_	
+15-2	1079-1082	oss	_	_	_	_	_	_	
+15-3	1083-1085	är	_	_	_	_	_	_	
+15-4	1086-1095	nyheterna	_	_	_	_	_	_	
+15-5	1096-1100	inte	_	_	_	_	_	_	
+15-6	1101-1108	anonyma	_	_	_	_	_	_	
+15-7	1108-1109	.	_	_	_	_	_	_	
+
+#Text=Det handlar om människor och kyrkor som vi har långvariga relationer till.
+16-1	1110-1113	Det	_	_	_	_	_	_	
+16-2	1114-1121	handlar	_	_	_	_	_	_	
+16-3	1122-1124	om	_	_	_	_	_	_	
+16-4	1125-1134	människor	_	_	_	_	_	_	
+16-5	1135-1138	och	_	_	_	_	_	_	
+16-6	1139-1145	kyrkor	_	_	_	_	_	_	
+16-7	1146-1149	som	_	_	_	_	_	_	
+16-8	1150-1152	vi	_	_	_	_	_	_	
+16-9	1153-1156	har	_	_	_	_	_	_	
+16-10	1157-1167	långvariga	_	_	_	_	_	_	
+16-11	1168-1178	relationer	_	_	_	_	_	_	
+16-12	1179-1183	till	_	_	_	_	_	_	
+16-13	1183-1184	.	_	_	_	_	_	_	
+
+#Text=Vi berörs och är berörda.
+17-1	1185-1187	Vi	_	_	_	_	_	_	
+17-2	1188-1194	berörs	_	_	_	_	_	_	
+17-3	1195-1198	och	_	_	_	_	_	_	
+17-4	1199-1201	är	_	_	_	_	_	_	
+17-5	1202-1209	berörda	_	_	_	_	_	_	
+17-6	1209-1210	.	_	_	_	false	2	_	
+
+#Text=Människor av alla religioner delar vår sorg och förtvivlan.
+18-1	1211-1220	Människor	_	_	_	_	_	_	
+18-2	1221-1223	av	_	_	_	_	_	_	
+18-3	1224-1228	alla	_	_	_	_	_	_	
+18-4	1229-1239	religioner	_	_	_	_	_	_	
+18-5	1240-1245	delar	_	_	_	_	_	_	
+18-6	1246-1249	vår	_	_	_	_	_	_	
+18-7	1250-1254	sorg	_	_	_	_	_	_	
+18-8	1255-1258	och	_	_	_	_	_	_	
+18-9	1259-1269	förtvivlan	_	_	_	_	_	_	
+18-10	1269-1270	.	_	_	_	_	_	_	
+
+#Text=Vi uppmuntras av muslimska grannar som har räddat kristna från kyrkor under attack eller stått som skyddsmurar runt kyrkor.
+19-1	1271-1273	Vi	_	_	_	_	_	_	
+19-2	1274-1284	uppmuntras	_	Target[7]	19-4[21]	false[7]	4[7]	_	
+19-3	1285-1287	av	_	Target[7]	19-4[21]	false[7]	4[7]	_	
+19-4	1288-1297	muslimska	*[21]	_	_	_	_	_	
+19-5	1298-1305	grannar	*[21]	_	_	_	_	_	
+19-6	1306-1309	som	*[21]	_	_	_	_	_	
+19-7	1310-1313	har	*[21]	_	_	_	_	_	
+19-8	1314-1320	räddat	*[21]	_	_	_	_	_	
+19-9	1321-1328	kristna	*[21]	_	_	_	_	_	
+19-10	1329-1333	från	*[21]	_	_	_	_	_	
+19-11	1334-1340	kyrkor	*[21]	_	_	_	_	_	
+19-12	1341-1346	under	*[21]	_	_	_	_	_	
+19-13	1347-1353	attack	*[21]	_	_	_	_	_	
+19-14	1354-1359	eller	*[21]	_	_	_	_	_	
+19-15	1360-1365	stått	*[21]	_	_	_	_	_	
+19-16	1366-1369	som	*[21]	_	_	_	_	_	
+19-17	1370-1381	skyddsmurar	*[21]	_	_	_	_	_	
+19-18	1382-1386	runt	*[21]	_	_	_	_	_	
+19-19	1387-1393	kyrkor	*[21]	_	_	_	_	_	
+19-20	1393-1394	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1396-1397	#	_	_	_	_	_	_	
+20-2	1397-1398	P	_	_	_	_	_	_	
+20-3	1399-1402	IMM	_	_	_	_	_	_	
+20-4	1402-1403	.	_	_	_	_	_	_	
+
+#Text=Enligt forskningsinstitutet Pew Forum bor 75 procent av världens befolkning i länder där religions- och övertygelsefriheten kraftigt begränsas.
+21-1	1405-1411	Enligt	*[22]	_	_	_	_	_	
+21-2	1412-1432	forskningsinstitutet	*[22]	_	_	_	_	_	
+21-3	1433-1436	Pew	*[22]	_	_	_	_	_	
+21-4	1437-1442	Forum	*[22]	_	_	_	_	_	
+21-5	1443-1446	bor	*[22]	_	_	_	_	_	
+21-6	1447-1449	75	*[22]	_	_	_	_	_	
+21-7	1450-1457	procent	*[22]	_	_	_	_	_	
+21-8	1458-1460	av	*[22]	_	_	_	_	_	
+21-9	1461-1469	världens	*[22]	_	_	_	_	_	
+21-10	1470-1480	befolkning	*[22]	_	_	_	_	_	
+21-11	1481-1482	i	*[22]	_	_	_	_	_	
+21-12	1483-1489	länder	*[22]	_	_	_	_	_	
+21-13	1490-1493	där	*[22]	_	_	_	_	_	
+21-14	1494-1503	religions	*[22]	_	_	_	_	_	
+21-15	1503-1504	-	*[22]	_	_	_	_	_	
+21-16	1505-1508	och	*[22]	_	_	_	_	_	
+21-17	1509-1528	övertygelsefriheten	*[22]	_	_	_	_	_	
+21-18	1529-1537	kraftigt	*[22]	_	_	_	_	_	
+21-19	1538-1547	begränsas	*[22]	_	_	_	_	_	
+21-20	1547-1548	.	_	_	_	_	_	_	
+
+#Text=Människor från alla religioner och övertygelser drabbas.
+22-1	1549-1558	Människor	_	_	_	_	_	_	
+22-2	1559-1563	från	_	_	_	_	_	_	
+22-3	1564-1568	alla	_	_	_	_	_	_	
+22-4	1569-1579	religioner	_	_	_	_	_	_	
+22-5	1580-1583	och	_	_	_	_	_	_	
+22-6	1584-1596	övertygelser	_	_	_	_	_	_	
+22-7	1597-1604	drabbas	_	Target	21-1[22]	false	2	_	
+22-8	1604-1605	.	_	_	_	_	_	_	
+
+#Text=Muslimska minoriteter utsätts för våldsamt förföljelse i Burma, Indien och Sri Lanka.
+23-1	1606-1615	Muslimska	*[23]	_	_	_	_	_	
+23-2	1616-1627	minoriteter	*[23]	_	_	_	_	_	
+23-3	1628-1635	utsätts	_	Target;Source[8]	23-1[23];23-14	false[8]	1[8]	_	
+23-4	1636-1639	för	_	Target;Source[8]	23-1[23];23-14	false[8]	1[8]	_	
+23-5	1640-1648	våldsamt	_	Target;Source[8]	23-1[23];23-14	false[8]	1[8]	_	
+23-6	1649-1660	förföljelse	_	Target;Source[8]	23-1[23];23-14	false[8]	1[8]	_	
+23-7	1661-1662	i	_	_	_	_	_	_	
+23-8	1663-1668	Burma	_	_	_	_	_	_	
+23-9	1668-1669	,	_	_	_	_	_	_	
+23-10	1670-1676	Indien	_	_	_	_	_	_	
+23-11	1677-1680	och	_	_	_	_	_	_	
+23-12	1681-1684	Sri	_	_	_	_	_	_	
+23-13	1685-1690	Lanka	_	_	_	_	_	_	
+23-14	1690-1691	.	*	_	_	_	_	_	
+
+#Text=Bahaisamfundets ledare sitter fängslade i Iran.
+24-1	1692-1707	Bahaisamfundets	_	_	_	_	_	_	
+24-2	1708-1714	ledare	_	_	_	_	_	_	
+24-3	1715-1721	sitter	_	_	_	_	_	_	
+24-4	1722-1731	fängslade	_	_	_	_	_	_	
+24-5	1732-1733	i	_	_	_	_	_	_	
+24-6	1734-1738	Iran	_	_	_	_	_	_	
+24-7	1738-1739	.	_	_	_	_	_	_	
+
+#Text=Ateister riskerar fängelse på flera håll.
+25-1	1740-1748	Ateister	*	_	_	_	_	_	
+25-2	1749-1757	riskerar	_	Target[9]|Target[10]	25-1|25-3	false[9]|false[10]	2[9]|2[10]	_	
+25-3	1758-1766	fängelse	*	Target[9]	25-1	false[9]	2[9]	_	
+25-4	1767-1769	på	_	_	_	_	_	_	
+25-5	1770-1775	flera	_	_	_	_	_	_	
+25-6	1776-1780	håll	_	_	_	_	_	_	
+25-7	1780-1781	.	_	_	_	_	_	_	
+
+#Text=Majoriteter är också utsatta – nyligen dödade Boko Haram 140 Nigerianska studenter, de allra flesta muslimser, när de sov.
+26-1	1782-1793	Majoriteter	_	_	_	_	_	_	
+26-2	1794-1796	är	_	_	_	_	_	_	
+26-3	1797-1802	också	_	_	_	_	_	_	
+26-4	1803-1810	utsatta	_	_	_	_	_	_	
+26-5	1811-1812	–	_	_	_	_	_	_	
+26-6	1813-1820	nyligen	_	_	_	_	_	_	
+26-7	1821-1827	dödade	_	_	_	_	_	_	
+26-8	1828-1832	Boko	_	_	_	_	_	_	
+26-9	1833-1838	Haram	_	_	_	_	_	_	
+26-10	1839-1842	140	_	_	_	_	_	_	
+26-11	1843-1854	Nigerianska	_	_	_	_	_	_	
+26-12	1855-1864	studenter	_	_	_	_	_	_	
+26-13	1864-1865	,	_	_	_	_	_	_	
+26-14	1866-1868	de	_	_	_	_	_	_	
+26-15	1869-1874	allra	_	_	_	_	_	_	
+26-16	1875-1881	flesta	_	_	_	_	_	_	
+26-17	1882-1891	muslimser	_	_	_	_	_	_	
+26-18	1891-1892	,	_	_	_	_	_	_	
+26-19	1893-1896	när	_	_	_	_	_	_	
+26-20	1897-1899	de	_	_	_	_	_	_	
+26-21	1900-1903	sov	_	_	_	_	_	_	
+26-22	1903-1904	.	_	_	_	_	_	_	
+
+#Text=Vi ser skrämmande exempel på antisemitism och islamofobi även i Sverige och Europa.
+27-1	1905-1907	Vi	_	_	_	_	_	_	
+27-2	1908-1911	ser	_	_	_	_	_	_	
+27-3	1912-1922	skrämmande	_	Target	27-4[24]	false	2	_	
+27-4	1923-1930	exempel	*[24]	_	_	_	_	_	
+27-5	1931-1933	på	*[24]	_	_	_	_	_	
+27-6	1934-1946	antisemitism	*[24]	_	_	_	_	_	
+27-7	1947-1950	och	*[24]	_	_	_	_	_	
+27-8	1951-1961	islamofobi	*[24]	_	_	_	_	_	
+27-9	1962-1966	även	_	_	_	_	_	_	
+27-10	1967-1968	i	_	_	_	_	_	_	
+27-11	1969-1976	Sverige	_	_	_	_	_	_	
+27-12	1977-1980	och	_	_	_	_	_	_	
+27-13	1981-1987	Europa	_	_	_	_	_	_	
+27-14	1987-1988	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1990-1991	#	_	_	_	_	_	_	
+28-2	1991-1992	P	_	_	_	_	_	_	
+28-3	1993-1996	IMM	_	_	_	_	_	_	
+28-4	1996-1997	.	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att religiösa minoriteter behöver samma sak som alla medborgare: att få leva i en stat med likhet inför lagen, där brott och diskriminering utreds och straffas oavsett offrets eller gärningsmannens religion, i en stat som förmår att skydda medborgarna.
+29-1	1999-2001	Vi	_	_	_	_	_	_	
+29-2	2002-2004	är	_	_	_	_	_	_	
+29-3	2005-2015	övertygade	_	_	_	_	_	_	
+29-4	2016-2018	om	_	_	_	_	_	_	
+29-5	2019-2022	att	_	_	_	_	_	_	
+29-6	2023-2032	religiösa	_	_	_	_	_	_	
+29-7	2033-2044	minoriteter	_	_	_	_	_	_	
+29-8	2045-2052	behöver	_	_	_	_	_	_	
+29-9	2053-2058	samma	_	_	_	_	_	_	
+29-10	2059-2062	sak	_	_	_	_	_	_	
+29-11	2063-2066	som	_	_	_	_	_	_	
+29-12	2067-2071	alla	_	_	_	_	_	_	
+29-13	2072-2082	medborgare	_	_	_	_	_	_	
+29-14	2082-2083	:	_	_	_	_	_	_	
+29-15	2084-2087	att	_	_	_	_	_	_	
+29-16	2088-2090	få	_	_	_	_	_	_	
+29-17	2091-2095	leva	_	_	_	_	_	_	
+29-18	2096-2097	i	_	_	_	_	_	_	
+29-19	2098-2100	en	_	_	_	_	_	_	
+29-20	2101-2105	stat	_	_	_	_	_	_	
+29-21	2106-2109	med	_	_	_	_	_	_	
+29-22	2110-2116	likhet	_	_	_	_	_	_	
+29-23	2117-2122	inför	_	_	_	_	_	_	
+29-24	2123-2128	lagen	_	_	_	_	_	_	
+29-25	2128-2129	,	_	_	_	_	_	_	
+29-26	2130-2133	där	_	_	_	_	_	_	
+29-27	2134-2139	brott	_	_	_	_	_	_	
+29-28	2140-2143	och	_	_	_	_	_	_	
+29-29	2144-2158	diskriminering	_	_	_	_	_	_	
+29-30	2159-2165	utreds	_	_	_	_	_	_	
+29-31	2166-2169	och	_	_	_	_	_	_	
+29-32	2170-2178	straffas	_	_	_	_	_	_	
+29-33	2179-2186	oavsett	_	_	_	_	_	_	
+29-34	2187-2194	offrets	_	_	_	_	_	_	
+29-35	2195-2200	eller	_	_	_	_	_	_	
+29-36	2201-2216	gärningsmannens	_	_	_	_	_	_	
+29-37	2217-2225	religion	_	_	_	_	_	_	
+29-38	2225-2226	,	_	_	_	_	_	_	
+29-39	2227-2228	i	_	_	_	_	_	_	
+29-40	2229-2231	en	_	_	_	_	_	_	
+29-41	2232-2236	stat	_	_	_	_	_	_	
+29-42	2237-2240	som	_	_	_	_	_	_	
+29-43	2241-2247	förmår	_	_	_	_	_	_	
+29-44	2248-2251	att	_	_	_	_	_	_	
+29-45	2252-2258	skydda	_	_	_	_	_	_	
+29-46	2259-2270	medborgarna	_	_	_	_	_	_	
+29-47	2270-2271	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2273-2274	#	_	_	_	_	_	_	
+30-2	2274-2275	P	_	_	_	_	_	_	
+30-3	2276-2279	IMM	_	_	_	_	_	_	
+30-4	2279-2280	.	_	_	_	_	_	_	
+
+#Text=Religions- och övertygelsefriheten är en angelägenhet för alla.
+31-1	2282-2291	Religions	_	_	_	_	_	_	
+31-2	2291-2292	-	_	_	_	_	_	_	
+31-3	2293-2296	och	_	_	_	_	_	_	
+31-4	2297-2316	övertygelsefriheten	_	_	_	_	_	_	
+31-5	2317-2319	är	_	_	_	_	_	_	
+31-6	2320-2322	en	_	_	_	_	_	_	
+31-7	2323-2335	angelägenhet	_	_	_	_	_	_	
+31-8	2336-2339	för	_	_	_	_	_	_	
+31-9	2340-2344	alla	_	_	_	_	_	_	
+31-10	2344-2345	.	_	_	_	_	_	_	
+
+#Text=Arbete för att främja denna rättighet är svårt och långsiktigt.
+32-1	2346-2352	Arbete	_	_	_	_	_	_	
+32-2	2353-2356	för	_	_	_	_	_	_	
+32-3	2357-2360	att	_	_	_	_	_	_	
+32-4	2361-2367	främja	_	Target	32-5[25]	false	4	_	
+32-5	2368-2373	denna	*[25]	_	_	_	_	_	
+32-6	2374-2383	rättighet	*[25]	_	_	_	_	_	
+32-7	2384-2386	är	_	_	_	_	_	_	
+32-8	2387-2392	svårt	_	_	_	_	_	_	
+32-9	2393-2396	och	_	_	_	_	_	_	
+32-10	2397-2408	långsiktigt	_	_	_	_	_	_	
+32-11	2408-2409	.	_	_	_	_	_	_	
+
+#Text=Som kyrkor har vi ett ansvar att vara fredskapare - en kraft för rättvisa och försoning.
+33-1	2410-2413	Som	_	_	_	_	_	_	
+33-2	2414-2420	kyrkor	*	_	_	_	_	_	
+33-3	2421-2424	har	_	_	_	_	_	_	
+33-4	2425-2427	vi	_	_	_	_	_	_	
+33-5	2428-2431	ett	_	_	_	_	_	_	
+33-6	2432-2438	ansvar	_	_	_	_	_	_	
+33-7	2439-2442	att	_	_	_	_	_	_	
+33-8	2443-2447	vara	_	_	_	_	_	_	
+33-9	2448-2459	fredskapare	_	_	_	_	_	_	
+33-10	2460-2461	-	_	_	_	_	_	_	
+33-11	2462-2464	en	_	Target[11]	33-2	false[11]	4[11]	_	
+33-12	2465-2470	kraft	_	Target[11]	33-2	false[11]	4[11]	_	
+33-13	2471-2474	för	_	Target[11]	33-2	false[11]	4[11]	_	
+33-14	2475-2483	rättvisa	_	Target[11]	33-2	false[11]	4[11]	_	
+33-15	2484-2487	och	_	Target[11]	33-2	false[11]	4[11]	_	
+33-16	2488-2497	försoning	_	Target[11]	33-2	false[11]	4[11]	_	
+33-17	2497-2498	.	_	_	_	_	_	_	
+
+#Text=Men vi behöver också politiker som visar handlingskraft.
+34-1	2499-2502	Men	_	_	_	_	_	_	
+34-2	2503-2505	vi	_	_	_	_	_	_	
+34-3	2506-2513	behöver	_	_	_	_	_	_	
+34-4	2514-2519	också	_	_	_	_	_	_	
+34-5	2520-2529	politiker	_	_	_	_	_	_	
+34-6	2530-2533	som	_	_	_	_	_	_	
+34-7	2534-2539	visar	_	_	_	_	_	_	
+34-8	2540-2554	handlingskraft	_	_	_	_	_	_	
+34-9	2554-2555	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2557-2558	#	_	_	_	_	_	_	
+35-2	2558-2559	P	_	_	_	_	_	_	
+35-3	2560-2563	IMM	_	_	_	_	_	_	
+35-4	2563-2564	.	_	_	_	_	_	_	
+
+#Text=I årets utrikespolitiska deklaration sade Carl Bildt: ”Vi verkar för en värld i vilken religions- och övertygelsefrihet råder alltid och överallt.”
+36-1	2566-2567	I	_	_	_	_	_	_	
+36-2	2568-2573	årets	_	_	_	_	_	_	
+36-3	2574-2590	utrikespolitiska	_	_	_	_	_	_	
+36-4	2591-2602	deklaration	_	_	_	_	_	_	
+36-5	2603-2607	sade	_	_	_	_	_	_	
+36-6	2608-2612	Carl	*[26]	_	_	_	_	_	
+36-7	2613-2618	Bildt	*[26]	_	_	_	_	_	
+36-8	2618-2619	:	_	_	_	_	_	_	
+36-9	2620-2621	”	_	_	_	_	_	_	
+36-10	2621-2623	Vi	_	_	_	_	_	_	
+36-11	2624-2630	verkar	_	Source;Target[12]	36-6[26];36-13[27]	false[12]	4[12]	_	
+36-12	2631-2634	för	_	Source;Target[12]	36-6[26];36-13[27]	false[12]	4[12]	_	
+36-13	2635-2637	en	*[27]	_	_	_	_	_	
+36-14	2638-2643	värld	*[27]	_	_	_	_	_	
+36-15	2644-2645	i	*[27]	_	_	_	_	_	
+36-16	2646-2652	vilken	*[27]	_	_	_	_	_	
+36-17	2653-2662	religions	*[27]	_	_	_	_	_	
+36-18	2662-2663	-	*[27]	_	_	_	_	_	
+36-19	2664-2667	och	*[27]	_	_	_	_	_	
+36-20	2668-2685	övertygelsefrihet	*[27]	_	_	_	_	_	
+36-21	2686-2691	råder	*[27]	_	_	_	_	_	
+36-22	2692-2698	alltid	*[27]	_	_	_	_	_	
+36-23	2699-2702	och	*[27]	_	_	_	_	_	
+36-24	2703-2711	överallt	*[27]	_	_	_	_	_	
+36-25	2711-2712	.	_	_	_	_	_	_	
+36-26	2712-2713	”	_	_	_	_	_	_	
+
+#Text=Vi vill uppmuntra regeringen att gå från ord till handling, och inte enbart genom den gemensamma utrikespolitiken som förs på EU-nivå.
+37-1	2714-2716	Vi	_	_	_	_	_	_	
+37-2	2717-2721	vill	_	_	_	_	_	_	
+37-3	2722-2731	uppmuntra	_	Target	37-5[28]	false	4	_	
+37-4	2732-2742	regeringen	_	_	_	_	_	_	
+37-5	2743-2746	att	*[28]	_	_	_	_	_	
+37-6	2747-2749	gå	*[28]	_	_	_	_	_	
+37-7	2750-2754	från	*[28]	_	_	_	_	_	
+37-8	2755-2758	ord	*[28]	_	_	_	_	_	
+37-9	2759-2763	till	*[28]	_	_	_	_	_	
+37-10	2764-2772	handling	*[28]	_	_	_	_	_	
+37-11	2772-2773	,	_	_	_	_	_	_	
+37-12	2774-2777	och	_	_	_	_	_	_	
+37-13	2778-2782	inte	_	_	_	_	_	_	
+37-14	2783-2789	enbart	_	_	_	_	_	_	
+37-15	2790-2795	genom	_	_	_	_	_	_	
+37-16	2796-2799	den	_	_	_	_	_	_	
+37-17	2800-2810	gemensamma	_	_	_	_	_	_	
+37-18	2811-2827	utrikespolitiken	_	_	_	_	_	_	
+37-19	2828-2831	som	_	_	_	_	_	_	
+37-20	2832-2836	förs	_	_	_	_	_	_	
+37-21	2837-2839	på	_	_	_	_	_	_	
+37-22	2840-2847	EU-nivå	_	_	_	_	_	_	
+37-23	2847-2848	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2850-2851	#	_	_	_	_	_	_	
+38-2	2851-2852	P	_	_	_	_	_	_	
+38-3	2853-2856	IMM	_	_	_	_	_	_	
+38-4	2856-2857	.	_	_	_	_	_	_	
+
+#Text=Det är bra att Sverige arbetar med frågorna inom EU och att EU har tagit fram nya riktlinjer som anger prioriteringar och ställningstaganden.
+39-1	2859-2862	Det	_	_	_	_	_	_	
+39-2	2863-2865	är	_	Target[13]	39-4[29]	false[13]	4[13]	_	
+39-3	2866-2869	bra	_	Target[13]	39-4[29]	false[13]	4[13]	_	
+39-4	2870-2873	att	*[29]	_	_	_	_	_	
+39-5	2874-2881	Sverige	*[29]	_	_	_	_	_	
+39-6	2882-2889	arbetar	*[29]	_	_	_	_	_	
+39-7	2890-2893	med	*[29]	_	_	_	_	_	
+39-8	2894-2902	frågorna	*[29]	_	_	_	_	_	
+39-9	2903-2907	inom	*[29]	_	_	_	_	_	
+39-10	2908-2910	EU	*[29]	_	_	_	_	_	
+39-11	2911-2914	och	*[29]	_	_	_	_	_	
+39-12	2915-2918	att	*[29]	_	_	_	_	_	
+39-13	2919-2921	EU	*[29]	_	_	_	_	_	
+39-14	2922-2925	har	*[29]	_	_	_	_	_	
+39-15	2926-2931	tagit	*[29]	_	_	_	_	_	
+39-16	2932-2936	fram	*[29]	_	_	_	_	_	
+39-17	2937-2940	nya	*[29]	_	_	_	_	_	
+39-18	2941-2951	riktlinjer	*[29]	_	_	_	_	_	
+39-19	2952-2955	som	*[29]	_	_	_	_	_	
+39-20	2956-2961	anger	*[29]	_	_	_	_	_	
+39-21	2962-2976	prioriteringar	*[29]	_	_	_	_	_	
+39-22	2977-2980	och	*[29]	_	_	_	_	_	
+39-23	2981-2999	ställningstaganden	*[29]	_	_	_	_	_	
+39-24	2999-3000	.	_	_	_	_	_	_	
+
+#Text=Men att endast hänvisa till det gemensamma arbetet är ohållbart.
+40-1	3001-3004	Men	_	_	_	_	_	_	
+40-2	3005-3008	att	*[30]	_	_	_	_	_	
+40-3	3009-3015	endast	*[30]	_	_	_	_	_	
+40-4	3016-3023	hänvisa	*[30]	_	_	_	_	_	
+40-5	3024-3028	till	*[30]	_	_	_	_	_	
+40-6	3029-3032	det	*[30]	_	_	_	_	_	
+40-7	3033-3043	gemensamma	*[30]	_	_	_	_	_	
+40-8	3044-3051	arbetet	*[30]	_	_	_	_	_	
+40-9	3052-3054	är	_	Target[14]	40-2[30]	false[14]	2[14]	_	
+40-10	3055-3064	ohållbart	_	Target[14]	40-2[30]	false[14]	2[14]	_	
+40-11	3064-3065	.	_	_	_	_	_	_	
+
+#Text=EU:s motsvarighet till utrikesdepartementet, EEAS, har endast en halvtidstjänst specialiserad på religions- och övertygelsefrihet.
+41-1	3066-3068	EU	_	_	_	_	_	_	
+41-2	3068-3069	:	_	_	_	_	_	_	
+41-3	3069-3070	s	_	_	_	_	_	_	
+41-4	3071-3083	motsvarighet	_	_	_	_	_	_	
+41-5	3084-3088	till	_	_	_	_	_	_	
+41-6	3089-3109	utrikesdepartementet	_	_	_	_	_	_	
+41-7	3109-3110	,	_	_	_	_	_	_	
+41-8	3111-3115	EEAS	_	_	_	_	_	_	
+41-9	3115-3116	,	_	_	_	_	_	_	
+41-10	3117-3120	har	_	_	_	_	_	_	
+41-11	3121-3127	endast	_	Target	41-12[31]	false	2	_	
+41-12	3128-3130	en	*[31]	_	_	_	_	_	
+41-13	3131-3145	halvtidstjänst	*[31]	_	_	_	_	_	
+41-14	3146-3159	specialiserad	*[31]	_	_	_	_	_	
+41-15	3160-3162	på	*[31]	_	_	_	_	_	
+41-16	3163-3172	religions	*[31]	_	_	_	_	_	
+41-17	3172-3173	-	*[31]	_	_	_	_	_	
+41-18	3174-3177	och	*[31]	_	_	_	_	_	
+41-19	3178-3195	övertygelsefrihet	*[31]	_	_	_	_	_	
+41-20	3195-3196	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3198-3199	#	_	_	_	_	_	_	
+42-2	3199-3200	P	_	_	_	_	_	_	
+42-3	3201-3204	IMM	_	_	_	_	_	_	
+42-4	3204-3205	.	_	_	_	_	_	_	
+
+#Text=Om den gemensamma politiken ska nå resultat måste medlemsstater bidra med egna initiativ.
+43-1	3207-3209	Om	_	_	_	_	_	_	
+43-2	3210-3213	den	_	_	_	_	_	_	
+43-3	3214-3224	gemensamma	_	_	_	_	_	_	
+43-4	3225-3234	politiken	_	_	_	_	_	_	
+43-5	3235-3238	ska	_	_	_	_	_	_	
+43-6	3239-3241	nå	_	_	_	_	_	_	
+43-7	3242-3250	resultat	_	_	_	_	_	_	
+43-8	3251-3256	måste	_	_	_	_	_	_	
+43-9	3257-3270	medlemsstater	_	_	_	_	_	_	
+43-10	3271-3276	bidra	_	_	_	_	_	_	
+43-11	3277-3280	med	_	_	_	_	_	_	
+43-12	3281-3285	egna	_	_	_	_	_	_	
+43-13	3286-3295	initiativ	_	_	_	_	_	_	
+43-14	3295-3296	.	_	_	_	_	_	_	
+
+#Text=Och vissa medlemsstater agerar.
+44-1	3297-3300	Och	_	_	_	_	_	_	
+44-2	3301-3306	vissa	_	_	_	_	_	_	
+44-3	3307-3320	medlemsstater	_	_	_	_	_	_	
+44-4	3321-3327	agerar	_	_	_	_	_	_	
+44-5	3327-3328	.	_	_	_	_	_	_	
+
+#Text=Trots ekonomisk kris har Italien skapat en institution som bevakar religionsfrihet internationellt.
+45-1	3329-3334	Trots	_	_	_	_	_	_	
+45-2	3335-3344	ekonomisk	_	_	_	_	_	_	
+45-3	3345-3349	kris	_	_	_	_	_	_	
+45-4	3350-3353	har	_	_	_	_	_	_	
+45-5	3354-3361	Italien	_	_	_	_	_	_	
+45-6	3362-3368	skapat	_	_	_	_	_	_	
+45-7	3369-3371	en	_	_	_	_	_	_	
+45-8	3372-3383	institution	_	_	_	_	_	_	
+45-9	3384-3387	som	_	_	_	_	_	_	
+45-10	3388-3395	bevakar	_	_	_	_	_	_	
+45-11	3396-3411	religionsfrihet	_	_	_	_	_	_	
+45-12	3412-3427	internationellt	_	_	_	_	_	_	
+45-13	3427-3428	.	_	_	_	false	4	_	
+
+#Text=Nederländerna har ett projekt för att stärka religionsfrihet genom diplomati och stöd till civila samhället.
+46-1	3429-3442	Nederländerna	*	_	_	_	_	_	
+46-2	3443-3446	har	_	_	_	_	_	_	
+46-3	3447-3450	ett	_	_	_	_	_	_	
+46-4	3451-3458	projekt	_	_	_	_	_	_	
+46-5	3459-3462	för	_	_	_	_	_	_	
+46-6	3463-3466	att	_	_	_	_	_	_	
+46-7	3467-3473	stärka	_	Source;Target	46-1;46-8	false	4	_	
+46-8	3474-3489	religionsfrihet	*	_	_	_	_	_	
+46-9	3490-3495	genom	_	_	_	_	_	_	
+46-10	3496-3505	diplomati	_	_	_	_	_	_	
+46-11	3506-3509	och	_	_	_	_	_	_	
+46-12	3510-3514	stöd	_	_	_	_	_	_	
+46-13	3515-3519	till	_	_	_	_	_	_	
+46-14	3520-3526	civila	_	_	_	_	_	_	
+46-15	3527-3536	samhället	_	_	_	_	_	_	
+46-16	3536-3537	.	_	_	_	_	_	_	
+
+#Text=Genom konferenser lyfter Storbritannien fram frågorna på FN-nivå.
+47-1	3538-3543	Genom	_	_	_	_	_	_	
+47-2	3544-3555	konferenser	_	_	_	_	_	_	
+47-3	3556-3562	lyfter	_	_	_	_	_	_	
+47-4	3563-3577	Storbritannien	_	_	_	_	_	_	
+47-5	3578-3582	fram	_	_	_	_	_	_	
+47-6	3583-3591	frågorna	_	_	_	_	_	_	
+47-7	3592-3594	på	_	_	_	_	_	_	
+47-8	3595-3602	FN-nivå	_	_	_	_	_	_	
+47-9	3602-3603	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3605-3606	#	_	_	_	_	_	_	
+48-2	3606-3607	P	_	_	_	_	_	_	
+48-3	3608-3611	IMM	_	_	_	_	_	_	
+48-4	3611-3612	.	_	_	_	_	_	_	
+
+#Text=Vi efterlyser ett konkret svenskt initiativ för att stärka religions- och övertygelsefriheten i ett antal länder, genom diplomati och stöd till forskning och det civila samhället.
+49-1	3614-3616	Vi	_	_	_	_	_	_	
+49-2	3617-3627	efterlyser	_	Target	49-3[32]	false	4	_	
+49-3	3628-3631	ett	*[32]	_	_	_	_	_	
+49-4	3632-3639	konkret	*[32]	_	_	_	_	_	
+49-5	3640-3647	svenskt	*[32]	_	_	_	_	_	
+49-6	3648-3657	initiativ	*[32]	_	_	_	_	_	
+49-7	3658-3661	för	*[32]	_	_	_	_	_	
+49-8	3662-3665	att	*[32]	_	_	_	_	_	
+49-9	3666-3672	stärka	*[32]	_	_	_	_	_	
+49-10	3673-3682	religions	*[32]	_	_	_	_	_	
+49-11	3682-3683	-	*[32]	_	_	_	_	_	
+49-12	3684-3687	och	*[32]	_	_	_	_	_	
+49-13	3688-3707	övertygelsefriheten	*[32]	_	_	_	_	_	
+49-14	3708-3709	i	*[32]	_	_	_	_	_	
+49-15	3710-3713	ett	*[32]	_	_	_	_	_	
+49-16	3714-3719	antal	*[32]	_	_	_	_	_	
+49-17	3720-3726	länder	*[32]	_	_	_	_	_	
+49-18	3726-3727	,	_	_	_	_	_	_	
+49-19	3728-3733	genom	_	_	_	_	_	_	
+49-20	3734-3743	diplomati	_	_	_	_	_	_	
+49-21	3744-3747	och	_	_	_	_	_	_	
+49-22	3748-3752	stöd	_	_	_	_	_	_	
+49-23	3753-3757	till	_	_	_	_	_	_	
+49-24	3758-3767	forskning	_	_	_	_	_	_	
+49-25	3768-3771	och	_	_	_	_	_	_	
+49-26	3772-3775	det	_	_	_	_	_	_	
+49-27	3776-3782	civila	_	_	_	_	_	_	
+49-28	3783-3792	samhället	_	_	_	_	_	_	
+49-29	3792-3793	.	_	_	_	_	_	_	
+
+#Text=Vi vill se en heltidstjänst på UD med ansvar för att samordna Sveriges ansträngningar och utbildning för UD-personal som arbetar i länder där religions- och övertygelsefriheten inte respekteras.
+50-1	3794-3796	Vi	_	_	_	_	_	_	
+50-2	3797-3801	vill	_	Target[15]	50-4[33]	false[15]	4[15]	_	
+50-3	3802-3804	se	_	Target[15]	50-4[33]	false[15]	4[15]	_	
+50-4	3805-3807	en	*[33]	_	_	_	_	_	
+50-5	3808-3821	heltidstjänst	*[33]	_	_	_	_	_	
+50-6	3822-3824	på	*[33]	_	_	_	_	_	
+50-7	3825-3827	UD	*[33]	_	_	_	_	_	
+50-8	3828-3831	med	*[33]	_	_	_	_	_	
+50-9	3832-3838	ansvar	*[33]	_	_	_	_	_	
+50-10	3839-3842	för	*[33]	_	_	_	_	_	
+50-11	3843-3846	att	*[33]	_	_	_	_	_	
+50-12	3847-3855	samordna	*[33]	_	_	_	_	_	
+50-13	3856-3864	Sveriges	*[33]	_	_	_	_	_	
+50-14	3865-3879	ansträngningar	*[33]	_	_	_	_	_	
+50-15	3880-3883	och	*[33]	_	_	_	_	_	
+50-16	3884-3894	utbildning	*[33]	_	_	_	_	_	
+50-17	3895-3898	för	*[33]	_	_	_	_	_	
+50-18	3899-3910	UD-personal	*[33]	_	_	_	_	_	
+50-19	3911-3914	som	*[33]	_	_	_	_	_	
+50-20	3915-3922	arbetar	*[33]	_	_	_	_	_	
+50-21	3923-3924	i	*[33]	_	_	_	_	_	
+50-22	3925-3931	länder	*[33]	_	_	_	_	_	
+50-23	3932-3935	där	*[33]	_	_	_	_	_	
+50-24	3936-3945	religions	*[33]	_	_	_	_	_	
+50-25	3945-3946	-	*[33]	_	_	_	_	_	
+50-26	3947-3950	och	*[33]	_	_	_	_	_	
+50-27	3951-3970	övertygelsefriheten	*[33]	_	_	_	_	_	
+50-28	3971-3975	inte	*[33]	_	_	_	_	_	
+50-29	3976-3987	respekteras	*[33]	_	_	_	_	_	
+50-30	3987-3988	.	_	_	_	_	_	_	
+
+#Text=Vi efterlyser Sveriges röst på FN-nivå.
+51-1	3989-3991	Vi	_	_	_	_	_	_	
+51-2	3992-4002	efterlyser	_	Target	51-3[34]	false	4	_	
+51-3	4003-4011	Sveriges	*[34]	_	_	_	_	_	
+51-4	4012-4016	röst	*[34]	_	_	_	_	_	
+51-5	4017-4019	på	*[34]	_	_	_	_	_	
+51-6	4020-4027	FN-nivå	*[34]	_	_	_	_	_	
+51-7	4027-4028	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4030-4031	#	_	_	_	_	_	_	
+52-2	4031-4032	P	_	_	_	_	_	_	
+52-3	4033-4036	IMM	_	_	_	_	_	_	
+52-4	4036-4037	.	_	_	_	_	_	_	
+
+#Text=För att detta ska bli verklighet behövs ett bredare politiskt engagemang än vad vi ser i dag.
+53-1	4039-4042	För	_	_	_	_	_	_	
+53-2	4043-4046	att	_	_	_	_	_	_	
+53-3	4047-4052	detta	_	_	_	_	_	_	
+53-4	4053-4056	ska	_	_	_	_	_	_	
+53-5	4057-4060	bli	_	_	_	_	_	_	
+53-6	4061-4071	verklighet	_	_	_	_	_	_	
+53-7	4072-4078	behövs	_	_	_	_	_	_	
+53-8	4079-4082	ett	_	_	_	_	_	_	
+53-9	4083-4090	bredare	_	_	_	_	_	_	
+53-10	4091-4100	politiskt	_	_	_	_	_	_	
+53-11	4101-4111	engagemang	_	_	_	_	_	_	
+53-12	4112-4114	än	_	_	_	_	_	_	
+53-13	4115-4118	vad	_	_	_	_	_	_	
+53-14	4119-4121	vi	_	_	_	_	_	_	
+53-15	4122-4125	ser	_	_	_	_	_	_	
+53-16	4126-4127	i	_	_	_	_	_	_	
+53-17	4128-4131	dag	_	_	_	_	_	_	
+53-18	4131-4132	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4134-4135	#	_	_	_	_	_	_	
+54-2	4135-4136	P	_	_	_	_	_	_	
+54-3	4137-4140	IMM	_	_	_	_	_	_	
+54-4	4140-4141	.	_	_	_	_	_	_	
+
+#Text=För Sveriges kristna råd:.
+55-1	4143-4146	För	_	_	_	_	_	_	
+55-2	4147-4155	Sveriges	_	_	_	_	_	_	
+55-3	4156-4163	kristna	_	_	_	_	_	_	
+55-4	4164-4167	råd	_	_	_	_	_	_	
+55-5	4167-4168	:	_	_	_	_	_	_	
+55-6	4168-4169	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4171-4172	#	_	_	_	_	_	_	
+56-2	4172-4173	P	_	_	_	_	_	_	
+56-3	4174-4177	IMM	_	_	_	_	_	_	
+56-4	4177-4178	.	_	_	_	_	_	_	
+
+#Text=Anders Arborelius, biskop, Stockholms katolska stift.
+57-1	4180-4186	Anders	_	_	_	_	_	_	
+57-2	4187-4197	Arborelius	_	_	_	_	_	_	
+57-3	4197-4198	,	_	_	_	_	_	_	
+57-4	4199-4205	biskop	_	_	_	_	_	_	
+57-5	4205-4206	,	_	_	_	_	_	_	
+57-6	4207-4217	Stockholms	_	_	_	_	_	_	
+57-7	4218-4226	katolska	_	_	_	_	_	_	
+57-8	4227-4232	stift	_	_	_	_	_	_	
+57-9	4232-4233	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4235-4236	#	_	_	_	_	_	_	
+58-2	4236-4237	P	_	_	_	_	_	_	
+58-3	4238-4241	IMM	_	_	_	_	_	_	
+58-4	4241-4242	.	_	_	_	_	_	_	
+
+#Text=Dioscoros Benyamin Atas, ärkebiskop, Syrisk ortodoxa kyrkan.
+59-1	4244-4253	Dioscoros	_	_	_	_	_	_	
+59-2	4254-4262	Benyamin	_	_	_	_	_	_	
+59-3	4263-4267	Atas	_	_	_	_	_	_	
+59-4	4267-4268	,	_	_	_	_	_	_	
+59-5	4269-4279	ärkebiskop	_	_	_	_	_	_	
+59-6	4279-4280	,	_	_	_	_	_	_	
+59-7	4281-4287	Syrisk	_	_	_	_	_	_	
+59-8	4288-4296	ortodoxa	_	_	_	_	_	_	
+59-9	4297-4303	kyrkan	_	_	_	_	_	_	
+59-10	4303-4304	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4306-4307	#	_	_	_	_	_	_	
+60-2	4307-4308	P	_	_	_	_	_	_	
+60-3	4309-4312	IMM	_	_	_	_	_	_	
+60-4	4312-4313	.	_	_	_	_	_	_	
+
+#Text=Pelle Hörnmark, föreståndare, Pingst fria församlingar i samverkan.
+61-1	4315-4320	Pelle	_	_	_	_	_	_	
+61-2	4321-4329	Hörnmark	_	_	_	_	_	_	
+61-3	4329-4330	,	_	_	_	_	_	_	
+61-4	4331-4343	föreståndare	_	_	_	_	_	_	
+61-5	4343-4344	,	_	_	_	_	_	_	
+61-6	4345-4351	Pingst	_	_	_	_	_	_	
+61-7	4352-4356	fria	_	_	_	_	_	_	
+61-8	4357-4369	församlingar	_	_	_	_	_	_	
+61-9	4370-4371	i	_	_	_	_	_	_	
+61-10	4372-4381	samverkan	_	_	_	_	_	_	
+61-11	4381-4382	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4384-4385	#	_	_	_	_	_	_	
+62-2	4385-4386	P	_	_	_	_	_	_	
+62-3	4387-4390	IMM	_	_	_	_	_	_	
+62-4	4390-4391	.	_	_	_	_	_	_	
+
+#Text=Anders Wejryd, ärkebiskop, Svenska kyrkan.
+63-1	4393-4399	Anders	_	_	_	_	_	_	
+63-2	4400-4406	Wejryd	_	_	_	_	_	_	
+63-3	4406-4407	,	_	_	_	_	_	_	
+63-4	4408-4418	ärkebiskop	_	_	_	_	_	_	
+63-5	4418-4419	,	_	_	_	_	_	_	
+63-6	4420-4427	Svenska	_	_	_	_	_	_	
+63-7	4428-4434	kyrkan	_	_	_	_	_	_	
+63-8	4434-4435	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4437-4438	#	_	_	_	_	_	_	
+64-2	4438-4439	P	_	_	_	_	_	_	
+64-3	4440-4443	IMM	_	_	_	_	_	_	
+64-4	4443-4444	.	_	_	_	_	_	_	
+
+#Text=Karin Wiborn, generalsekreterare, Sveriges kristna råd.
+65-1	4446-4451	Karin	_	_	_	_	_	_	
+65-2	4452-4458	Wiborn	_	_	_	_	_	_	
+65-3	4458-4459	,	_	_	_	_	_	_	
+65-4	4460-4478	generalsekreterare	_	_	_	_	_	_	
+65-5	4478-4479	,	_	_	_	_	_	_	
+65-6	4480-4488	Sveriges	_	_	_	_	_	_	
+65-7	4489-4496	kristna	_	_	_	_	_	_	
+65-8	4497-4500	råd	_	_	_	_	_	_	
+65-9	4500-4501	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4503-4504	#	_	_	_	_	_	_	
+66-2	4504-4505	P	_	_	_	_	_	_	
+66-3	4506-4509	IMM	_	_	_	_	_	_	
+66-4	4509-4510	.	_	_	_	_	_	_	
+
+#Text=För Svenska missionsrådet:.
+67-1	4512-4515	För	_	_	_	_	_	_	
+67-2	4516-4523	Svenska	_	_	_	_	_	_	
+67-3	4524-4537	missionsrådet	_	_	_	_	_	_	
+67-4	4537-4538	:	_	_	_	_	_	_	
+67-5	4538-4539	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4541-4542	#	_	_	_	_	_	_	
+68-2	4542-4543	P	_	_	_	_	_	_	
+68-3	4544-4547	IMM	_	_	_	_	_	_	
+68-4	4547-4548	.	_	_	_	_	_	_	
+
+#Text=Eva Christina Nilsson, generalsekreterare.
+69-1	4550-4553	Eva	_	_	_	_	_	_	
+69-2	4554-4563	Christina	_	_	_	_	_	_	
+69-3	4564-4571	Nilsson	_	_	_	_	_	_	
+69-4	4571-4572	,	_	_	_	_	_	_	
+69-5	4573-4591	generalsekreterare	_	_	_	_	_	_	
+69-6	4591-4592	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	4594-4595	#	_	_	_	_	_	_	
+70-2	4595-4596	P	_	_	_	_	_	_	
+70-3	4597-4600	IMM	_	_	_	_	_	_	
+70-4	4600-4601	.	_	_	_	_	_	_	
+
+#Text=Mattias Ingeson, ordförande.
+71-1	4603-4610	Mattias	_	_	_	_	_	_	
+71-2	4611-4618	Ingeson	_	_	_	_	_	_	
+71-3	4618-4619	,	_	_	_	_	_	_	
+71-4	4620-4630	ordförande	_	_	_	_	_	_	
+71-5	4630-4631	.	_	_	_	_	_	_	

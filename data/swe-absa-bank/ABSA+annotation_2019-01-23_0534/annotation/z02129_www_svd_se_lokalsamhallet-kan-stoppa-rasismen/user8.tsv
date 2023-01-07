@@ -1,0 +1,626 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Lokalsamhället kan stoppa rasismen.
+3-1	18-32	Lokalsamhället	_	_	_	_	_	_	
+3-2	33-36	kan	_	_	_	_	_	_	
+3-3	37-43	stoppa	_	_	_	_	_	_	
+3-4	44-52	rasismen	*	Target	3-4	false	1	_	
+3-5	52-53	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	55-56	#	_	_	_	_	_	_	
+4-2	56-57	P	_	_	_	_	_	_	
+4-3	58-61	IMM	_	_	_	_	_	_	
+4-4	61-62	.	_	_	_	_	_	_	
+
+#Text=Det bästa sättet att hindra rasismens utbredning är att vi anti-rasister mobiliserar oss, visar att vi är fler och är beredda att engagera oss.
+5-1	64-67	Det	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-2	68-73	bästa	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-3	74-80	sättet	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-4	81-84	att	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-5	85-91	hindra	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-6	92-101	rasismens	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-7	102-112	utbredning	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-8	113-115	är	_	Target[1]	5-9[23]	false[1]	4[1]	_	
+5-9	116-119	att	*[23]	_	_	_	_	_	
+5-10	120-122	vi	*[23]	_	_	_	_	_	
+5-11	123-136	anti-rasister	*[23]	_	_	_	_	_	
+5-12	137-148	mobiliserar	*[23]	_	_	_	_	_	
+5-13	149-152	oss	*[23]	_	_	_	_	_	
+5-14	152-153	,	*[23]	_	_	_	_	_	
+5-15	154-159	visar	*[23]	_	_	_	_	_	
+5-16	160-163	att	*[23]	_	_	_	_	_	
+5-17	164-166	vi	*[23]	_	_	_	_	_	
+5-18	167-169	är	*[23]	_	_	_	_	_	
+5-19	170-174	fler	*[23]	_	_	_	_	_	
+5-20	175-178	och	*[23]	_	_	_	_	_	
+5-21	179-181	är	*[23]	_	_	_	_	_	
+5-22	182-189	beredda	*[23]	_	_	_	_	_	
+5-23	190-193	att	*[23]	_	_	_	_	_	
+5-24	194-202	engagera	*[23]	_	_	_	_	_	
+5-25	203-206	oss	*[23]	_	_	_	_	_	
+5-26	206-207	.	_	_	_	_	_	_	
+
+#Text=Tydligast blir detta när våra egna förorter, byar eller stadsdelar blir attackerade av rasister.
+6-1	208-217	Tydligast	_	_	_	_	_	_	
+6-2	218-222	blir	_	_	_	_	_	_	
+6-3	223-228	detta	_	_	_	_	_	_	
+6-4	229-232	när	_	_	_	_	_	_	
+6-5	233-237	våra	_	_	_	_	_	_	
+6-6	238-242	egna	_	_	_	_	_	_	
+6-7	243-251	förorter	_	_	_	_	_	_	
+6-8	251-252	,	_	_	_	_	_	_	
+6-9	253-257	byar	_	_	_	_	_	_	
+6-10	258-263	eller	_	_	_	_	_	_	
+6-11	264-274	stadsdelar	_	_	_	_	_	_	
+6-12	275-279	blir	_	Target[2]	6-15	false[2]	1[2]	_	
+6-13	280-291	attackerade	_	Target[2]	6-15	false[2]	1[2]	_	
+6-14	292-294	av	_	Target[2]	6-15	false[2]	1[2]	_	
+6-15	295-303	rasister	*	Target[2]	6-15	false[2]	1[2]	_	
+6-16	303-304	.	_	_	_	_	_	_	
+
+#Text=Lokalsamhället kan stoppa rasismen.
+7-1	305-319	Lokalsamhället	_	_	_	_	_	_	
+7-2	320-323	kan	_	_	_	_	_	_	
+7-3	324-330	stoppa	_	_	_	_	_	_	
+7-4	331-339	rasismen	*	Target	7-4	false	1	_	
+7-5	339-340	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	342-343	#	_	_	_	_	_	_	
+8-2	343-344	P	_	_	_	_	_	_	
+8-3	345-348	IMM	_	_	_	_	_	_	
+8-4	348-349	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	351-354	Det	_	_	_	_	_	_	
+9-2	355-358	här	_	_	_	_	_	_	
+9-3	359-361	är	_	_	_	_	_	_	
+9-4	362-364	en	_	_	_	_	_	_	
+9-5	365-379	argumenterande	_	_	_	_	_	_	
+9-6	380-384	text	_	_	_	_	_	_	
+9-7	385-388	med	_	_	_	_	_	_	
+9-8	389-394	syfte	_	_	_	_	_	_	
+9-9	395-398	att	_	_	_	_	_	_	
+9-10	399-406	påverka	_	_	_	_	_	_	
+9-11	406-407	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	408-417	Åsikterna	_	_	_	_	_	_	
+10-2	418-421	som	_	_	_	_	_	_	
+10-3	422-430	uttrycks	_	_	_	_	_	_	
+10-4	431-433	är	_	_	_	_	_	_	
+10-5	434-445	skribentens	_	_	_	_	_	_	
+10-6	446-450	egna	_	_	_	_	_	_	
+10-7	450-451	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	453-454	#	_	_	_	_	_	_	
+11-2	454-455	P	_	_	_	_	_	_	
+11-3	456-459	IMM	_	_	_	false	4	_	
+11-4	459-460	.	_	_	_	_	_	_	
+
+#Text=Det var vad som hände i Forserum 2012 när somalier på orten började berätta om de rasistiska trakasserier de fick utstå.
+12-1	462-465	Det	_	_	_	_	_	_	
+12-2	466-469	var	_	_	_	_	_	_	
+12-3	470-473	vad	_	_	_	_	_	_	
+12-4	474-477	som	_	_	_	_	_	_	
+12-5	478-483	hände	_	_	_	_	_	_	
+12-6	484-485	i	_	_	_	_	_	_	
+12-7	486-494	Forserum	_	_	_	_	_	_	
+12-8	495-499	2012	_	_	_	_	_	_	
+12-9	500-503	när	_	_	_	_	_	_	
+12-10	504-512	somalier	_	_	_	_	_	_	
+12-11	513-515	på	_	_	_	_	_	_	
+12-12	516-521	orten	_	_	_	_	_	_	
+12-13	522-529	började	_	_	_	_	_	_	
+12-14	530-537	berätta	_	_	_	_	_	_	
+12-15	538-540	om	_	_	_	_	_	_	
+12-16	541-543	de	_	_	_	_	_	_	
+12-17	544-554	rasistiska	*[24]	Target[3]	12-17[24]	false[3]	1[3]	_	
+12-18	555-567	trakasserier	*[24]	Target[3]	12-17[24]	false[3]	1[3]	_	
+12-19	568-570	de	_	_	_	_	_	_	
+12-20	571-575	fick	_	_	_	_	_	_	
+12-21	576-581	utstå	_	_	_	_	_	_	
+12-22	581-582	.	_	_	_	_	_	_	
+
+#Text=Den lokala samhällsföreningen samlade invånarna för att visa att Forserumsborna inte var rasister – utan tvärtom var beredda att engagera sig för ortens mångfald.
+13-1	583-586	Den	*[25]	_	_	_	_	_	
+13-2	587-593	lokala	*[25]	_	_	_	_	_	
+13-3	594-612	samhällsföreningen	*[25]	_	_	_	_	_	
+13-4	613-620	samlade	_	_	_	_	_	_	
+13-5	621-630	invånarna	_	_	_	_	_	_	
+13-6	631-634	för	_	_	_	_	_	_	
+13-7	635-638	att	_	_	_	_	_	_	
+13-8	639-643	visa	_	_	_	_	_	_	
+13-9	644-647	att	_	_	_	_	_	_	
+13-10	648-662	Forserumsborna	*	_	_	_	_	_	
+13-11	663-667	inte	_	Source;Target[4]	13-1[25];13-10	false[4]	3[4]	_	
+13-12	668-671	var	_	Source;Target[4]	13-1[25];13-10	false[4]	3[4]	_	
+13-13	672-680	rasister	_	Source;Target[4]	13-1[25];13-10	false[4]	3[4]	_	
+13-14	681-682	–	_	_	_	_	_	_	
+13-15	683-687	utan	_	_	_	_	_	_	
+13-16	688-695	tvärtom	_	_	_	_	_	_	
+13-17	696-699	var	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-18	700-707	beredda	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-19	708-711	att	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-20	712-720	engagera	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-21	721-724	sig	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-22	725-728	för	_	Source;Target[5]	13-10;13-23[26]	false[5]	4[5]	_	
+13-23	729-735	ortens	*[26]	_	_	_	_	_	
+13-24	736-744	mångfald	*[26]	_	_	_	_	_	
+13-25	744-745	.	_	_	_	_	_	_	
+
+#Text=Hundratals människor samlades på möten och i ett fackeltåg mot rasism 2012 och startade projekt för att öka delaktigheten i samhället.
+14-1	746-756	Hundratals	_	_	_	_	_	_	
+14-2	757-766	människor	_	_	_	_	_	_	
+14-3	767-775	samlades	_	_	_	_	_	_	
+14-4	776-778	på	_	_	_	_	_	_	
+14-5	779-784	möten	_	_	_	_	_	_	
+14-6	785-788	och	_	_	_	_	_	_	
+14-7	789-790	i	_	_	_	_	_	_	
+14-8	791-794	ett	_	_	_	_	_	_	
+14-9	795-804	fackeltåg	_	_	_	_	_	_	
+14-10	805-808	mot	_	_	_	_	_	_	
+14-11	809-815	rasism	*	Target	14-11	false	1	_	
+14-12	816-820	2012	_	_	_	_	_	_	
+14-13	821-824	och	_	_	_	_	_	_	
+14-14	825-833	startade	_	_	_	_	_	_	
+14-15	834-841	projekt	*	_	_	_	_	_	
+14-16	842-845	för	_	_	_	_	_	_	
+14-17	846-849	att	_	_	_	_	_	_	
+14-18	850-853	öka	_	Target[6]	14-15	false[6]	4[6]	_	
+14-19	854-867	delaktigheten	_	Target[6]	14-15	false[6]	4[6]	_	
+14-20	868-869	i	_	Target[6]	14-15	false[6]	4[6]	_	
+14-21	870-879	samhället	_	Target[6]	14-15	false[6]	4[6]	_	
+14-22	879-880	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	882-883	#	_	_	_	_	_	_	
+15-2	883-884	P	_	_	_	_	_	_	
+15-3	885-888	IMM	_	_	_	_	_	_	
+15-4	888-889	.	_	_	_	_	_	_	
+
+#Text=Det var vad som hände i Kungälv efter det tragiska mordet på John Hron i mitten av 90-talet.
+16-1	891-894	Det	_	_	_	_	_	_	
+16-2	895-898	var	_	_	_	_	_	_	
+16-3	899-902	vad	_	_	_	_	_	_	
+16-4	903-906	som	_	_	_	_	_	_	
+16-5	907-912	hände	_	_	_	_	_	_	
+16-6	913-914	i	_	_	_	_	_	_	
+16-7	915-922	Kungälv	_	_	_	_	_	_	
+16-8	923-928	efter	_	_	_	_	_	_	
+16-9	929-932	det	*[27]	_	_	_	_	_	
+16-10	933-941	tragiska	*[27]	Target[7]	16-9[27]	false[7]	1[7]	_	
+16-11	942-948	mordet	*[27]	Target[7]	16-9[27]	false[7]	1[7]	_	
+16-12	949-951	på	*[27]	_	_	_	_	_	
+16-13	952-956	John	*[27]	_	_	_	_	_	
+16-14	957-961	Hron	*[27]	_	_	_	_	_	
+16-15	962-963	i	*[27]	_	_	_	_	_	
+16-16	964-970	mitten	*[27]	_	_	_	_	_	
+16-17	971-973	av	*[27]	_	_	_	_	_	
+16-18	974-976	90	*[27]	_	_	_	_	_	
+16-19	976-977	-	*[27]	_	_	_	_	_	
+16-20	977-982	talet	*[27]	_	_	_	_	_	
+16-21	982-983	.	_	_	_	_	_	_	
+
+#Text=Sedan dess har kommunen satsat 10 000 kronor per elev och år på arbetet för att stoppa framväxten av vit makt-miljö.
+17-1	984-989	Sedan	_	_	_	_	_	_	
+17-2	990-994	dess	_	_	_	_	_	_	
+17-3	995-998	har	_	_	_	_	_	_	
+17-4	999-1007	kommunen	_	_	_	_	_	_	
+17-5	1008-1014	satsat	_	_	_	_	_	_	
+17-6	1015-1017	10	_	_	_	_	_	_	
+17-7	1018-1021	000	_	_	_	_	_	_	
+17-8	1022-1028	kronor	_	_	_	_	_	_	
+17-9	1029-1032	per	_	_	_	_	_	_	
+17-10	1033-1037	elev	_	_	_	_	_	_	
+17-11	1038-1041	och	_	_	_	_	_	_	
+17-12	1042-1044	år	_	_	_	_	_	_	
+17-13	1045-1047	på	_	_	_	_	_	_	
+17-14	1048-1055	arbetet	_	_	_	_	_	_	
+17-15	1056-1059	för	_	_	_	_	_	_	
+17-16	1060-1063	att	_	_	_	_	_	_	
+17-17	1064-1070	stoppa	_	_	_	_	_	_	
+17-18	1071-1081	framväxten	_	_	_	_	_	_	
+17-19	1082-1084	av	_	_	_	_	_	_	
+17-20	1085-1088	vit	_	_	_	_	_	_	
+17-21	1089-1099	makt-miljö	_	_	_	_	_	_	
+17-22	1099-1100	.	_	_	_	_	_	_	
+
+#Text=Arbetet har varit framgångsrikt.
+18-1	1101-1108	Arbetet	*	_	_	_	_	_	
+18-2	1109-1112	har	_	Target[8]	18-1	false[8]	4[8]	_	
+18-3	1113-1118	varit	_	Target[8]	18-1	false[8]	4[8]	_	
+18-4	1119-1132	framgångsrikt	_	Target[8]	18-1	false[8]	4[8]	_	
+18-5	1132-1133	.	_	_	_	_	_	_	
+
+#Text=Det finns idag inga vit makt-organisationer i Kungälv som kan rekrytera ungdomar.
+19-1	1134-1137	Det	_	_	_	_	_	_	
+19-2	1138-1143	finns	_	_	_	_	_	_	
+19-3	1144-1148	idag	_	_	_	_	_	_	
+19-4	1149-1153	inga	_	_	_	_	_	_	
+19-5	1154-1157	vit	_	_	_	_	_	_	
+19-6	1158-1177	makt-organisationer	_	_	_	_	_	_	
+19-7	1178-1179	i	_	_	_	_	_	_	
+19-8	1180-1187	Kungälv	_	_	_	_	_	_	
+19-9	1188-1191	som	_	_	_	_	_	_	
+19-10	1192-1195	kan	_	_	_	_	_	_	
+19-11	1196-1205	rekrytera	_	_	_	_	_	_	
+19-12	1206-1214	ungdomar	_	_	_	_	_	_	
+19-13	1214-1215	.	_	_	_	_	_	_	
+
+#Text=Det som krävdes var ett lokalsamhälle som sa ifrån och politiker som var beredda att satsa på antirasismen.
+20-1	1216-1219	Det	_	_	_	_	_	_	
+20-2	1220-1223	som	_	_	_	_	_	_	
+20-3	1224-1231	krävdes	_	_	_	_	_	_	
+20-4	1232-1235	var	_	_	_	_	_	_	
+20-5	1236-1239	ett	*[28]	_	_	_	_	_	
+20-6	1240-1253	lokalsamhälle	*[28]	_	_	_	_	_	
+20-7	1254-1257	som	_	_	_	_	_	_	
+20-8	1258-1260	sa	_	Source[9]	20-5[28]	false[9]	2[9]	_	
+20-9	1261-1266	ifrån	_	Source[9]	20-5[28]	false[9]	2[9]	_	
+20-10	1267-1270	och	_	_	_	_	_	_	
+20-11	1271-1280	politiker	*	_	_	_	_	_	
+20-12	1281-1284	som	_	_	_	_	_	_	
+20-13	1285-1288	var	_	Target[10]	20-11	false[10]	4[10]	_	
+20-14	1289-1296	beredda	_	Target[10]	20-11	false[10]	4[10]	_	
+20-15	1297-1300	att	_	Target[10]	20-11	false[10]	4[10]	_	
+20-16	1301-1306	satsa	_	Target[10]	20-11	false[10]	4[10]	_	
+20-17	1307-1309	på	_	Target[10]	20-11	false[10]	4[10]	_	
+20-18	1310-1322	antirasismen	_	Target[10]	20-11	false[10]	4[10]	_	
+20-19	1322-1323	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1325-1326	#	_	_	_	_	_	_	
+21-2	1326-1327	P	_	_	_	_	_	_	
+21-3	1328-1331	IMM	_	_	_	_	_	_	
+21-4	1331-1332	.	_	_	_	_	_	_	
+
+#Text=Det är också det som händer i Kärrtorp i Stockholm.
+22-1	1334-1337	Det	_	_	_	_	_	_	
+22-2	1338-1340	är	_	_	_	_	_	_	
+22-3	1341-1346	också	_	_	_	_	_	_	
+22-4	1347-1350	det	_	_	_	_	_	_	
+22-5	1351-1354	som	_	_	_	_	_	_	
+22-6	1355-1361	händer	_	_	_	_	_	_	
+22-7	1362-1363	i	_	_	_	_	_	_	
+22-8	1364-1372	Kärrtorp	_	_	_	_	_	_	
+22-9	1373-1374	i	_	_	_	_	_	_	
+22-10	1375-1384	Stockholm	_	_	_	_	_	_	
+22-11	1384-1385	.	_	_	_	_	_	_	
+
+#Text=Nazister och rasister har under hösten markerat sin närvaro i områdena längs tunnelbanans linje mot Bagarmossen och Skarpnäck.
+23-1	1386-1394	Nazister	*[29]	Target[11]	23-1[29]	false[11]	1[11]	_	
+23-2	1395-1398	och	*[29]	Target[11]	23-1[29]	false[11]	1[11]	_	
+23-3	1399-1407	rasister	*[29]	Target[11]	23-1[29]	false[11]	1[11]	_	
+23-4	1408-1411	har	_	_	_	_	_	_	
+23-5	1412-1417	under	_	_	_	_	_	_	
+23-6	1418-1424	hösten	_	_	_	_	_	_	
+23-7	1425-1433	markerat	_	_	_	_	_	_	
+23-8	1434-1437	sin	_	_	_	_	_	_	
+23-9	1438-1445	närvaro	_	_	_	_	_	_	
+23-10	1446-1447	i	_	_	_	_	_	_	
+23-11	1448-1456	områdena	_	_	_	_	_	_	
+23-12	1457-1462	längs	_	_	_	_	_	_	
+23-13	1463-1475	tunnelbanans	_	_	_	_	_	_	
+23-14	1476-1481	linje	_	_	_	_	_	_	
+23-15	1482-1485	mot	_	_	_	_	_	_	
+23-16	1486-1497	Bagarmossen	_	_	_	_	_	_	
+23-17	1498-1501	och	_	_	_	_	_	_	
+23-18	1502-1511	Skarpnäck	_	_	_	_	_	_	
+23-19	1511-1512	.	_	_	_	_	_	_	
+
+#Text=Snart samlades en demonstration med Kärrtorpsbor för att säga nej till nazism och rasism och ja till mångfald – men demonstranterna blev våldsamt attackerade av rasister.
+24-1	1513-1518	Snart	_	_	_	_	_	_	
+24-2	1519-1527	samlades	_	_	_	_	_	_	
+24-3	1528-1530	en	_	_	_	_	_	_	
+24-4	1531-1544	demonstration	_	_	_	_	_	_	
+24-5	1545-1548	med	_	_	_	_	_	_	
+24-6	1549-1561	Kärrtorpsbor	*	_	_	_	_	_	
+24-7	1562-1565	för	_	_	_	_	_	_	
+24-8	1566-1569	att	_	_	_	_	_	_	
+24-9	1570-1574	säga	_	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-10	1575-1578	nej	_	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-11	1579-1583	till	_	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-12	1584-1590	nazism	*[30]	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-13	1591-1594	och	*[30]	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-14	1595-1601	rasism	*[30]	Target;Source[12]	24-12[30];24-6	false[12]	1[12]	_	
+24-15	1602-1605	och	_	_	_	_	_	_	
+24-16	1606-1608	ja	_	Target;Source[13]	24-18;24-6	false[13]	4[13]	_	
+24-17	1609-1613	till	_	Target;Source[13]	24-18;24-6	false[13]	4[13]	_	
+24-18	1614-1622	mångfald	*	_	_	_	_	_	
+24-19	1623-1624	–	_	_	_	_	_	_	
+24-20	1625-1628	men	_	_	_	_	_	_	
+24-21	1629-1644	demonstranterna	_	_	_	_	_	_	
+24-22	1645-1649	blev	_	Target[14]	24-26	false[14]	1[14]	_	
+24-23	1650-1658	våldsamt	_	Target[14]	24-26	false[14]	1[14]	_	
+24-24	1659-1670	attackerade	_	Target[14]	24-26	false[14]	1[14]	_	
+24-25	1671-1673	av	_	Target[14]	24-26	false[14]	1[14]	_	
+24-26	1674-1682	rasister	*	Target[14]	24-26	false[14]	1[14]	_	
+24-27	1682-1683	.	_	_	_	_	_	_	
+
+#Text=Dessutom misslyckades polisen i sitt uppdrag att skydda demonstrationen.
+25-1	1684-1692	Dessutom	_	_	_	_	_	_	
+25-2	1693-1705	misslyckades	_	Target	25-3[31]	false	2	_	
+25-3	1706-1713	polisen	*[31]	_	_	_	_	_	
+25-4	1714-1715	i	*[31]	Target[15]	25-3[31]	false[15]	2[15]	25-2[0_15]	
+25-5	1716-1720	sitt	*[31]	Target[15]	25-3[31]	false[15]	2[15]	_	
+25-6	1721-1728	uppdrag	*[31]	Target[15]	25-3[31]	false[15]	2[15]	_	
+25-7	1729-1732	att	*[31]	Target[15]	25-3[31]	false[15]	2[15]	_	
+25-8	1733-1739	skydda	*[31]	Target[15]	25-3[31]	false[15]	2[15]	_	
+25-9	1740-1755	demonstrationen	*[31]	_	_	_	_	_	
+25-10	1755-1756	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1758-1759	#	_	_	_	_	_	_	
+26-2	1759-1760	P	_	_	_	_	_	_	
+26-3	1761-1764	IMM	_	_	_	_	_	_	
+26-4	1764-1765	.	_	_	_	_	_	_	
+
+#Text=Men Kärrtorpsborna lät sig inte tystas.
+27-1	1767-1770	Men	_	_	_	_	_	_	
+27-2	1771-1785	Kärrtorpsborna	*	_	_	_	_	_	
+27-3	1786-1789	lät	_	Target[16]	27-2	false[16]	4[16]	_	
+27-4	1790-1793	sig	_	Target[16]	27-2	false[16]	4[16]	_	
+27-5	1794-1798	inte	_	Target[16]	27-2	false[16]	4[16]	_	
+27-6	1799-1805	tystas	_	Target[16]	27-2	false[16]	4[16]	_	
+27-7	1805-1806	.	_	_	_	_	_	_	
+
+#Text=Tvärt om samlas vi nu till en ny manifestation.
+28-1	1807-1812	Tvärt	_	_	_	_	_	_	
+28-2	1813-1815	om	_	_	_	_	_	_	
+28-3	1816-1822	samlas	_	_	_	_	_	_	
+28-4	1823-1825	vi	_	_	_	_	_	_	
+28-5	1826-1828	nu	_	_	_	_	_	_	
+28-6	1829-1833	till	_	_	_	_	_	_	
+28-7	1834-1836	en	_	_	_	_	_	_	
+28-8	1837-1839	ny	_	_	_	_	_	_	
+28-9	1840-1853	manifestation	_	_	_	_	_	_	
+28-10	1853-1854	.	_	_	_	_	_	_	
+
+#Text=Nazistiska och rasistiska uttryck ska inte få spridas på detta sätt.
+29-1	1855-1865	Nazistiska	*[32]|*[33]	Target[17]	29-1[33]	false[17]	1[17]	_	
+29-2	1866-1869	och	*[32]|*[33]	Target[17]	29-1[33]	false[17]	1[17]	_	
+29-3	1870-1880	rasistiska	*[32]|*[33]	Target[17]	29-1[33]	false[17]	1[17]	_	
+29-4	1881-1888	uttryck	*[32]|*[33]	_	_	_	_	_	
+29-5	1889-1892	ska	*[32]	Target[18]	29-1[32]	false[18]	2[18]	_	
+29-6	1893-1897	inte	*[32]	Target[18]	29-1[32]	false[18]	2[18]	_	
+29-7	1898-1900	få	*[32]	Target[18]	29-1[32]	false[18]	2[18]	_	
+29-8	1901-1908	spridas	*[32]	_	_	_	_	_	
+29-9	1909-1911	på	*[32]	_	_	_	_	_	
+29-10	1912-1917	detta	*[32]	_	_	_	_	_	
+29-11	1918-1922	sätt	*[32]	_	_	_	_	_	
+29-12	1922-1923	.	_	_	_	_	_	_	
+
+#Text=Det är helt oacceptabelt att elever ska få sina skolor nerklottrade med hakkors eller att de som handlar i lokala centrum ska ha dessa hatets symboler på väggen utanför livsmedelsaffären.
+30-1	1924-1927	Det	_	Target[19]	30-5[34]	false[19]	2[19]	_	
+30-2	1928-1930	är	_	Target[19]	30-5[34]	false[19]	2[19]	_	
+30-3	1931-1935	helt	_	Target[19]	30-5[34]	false[19]	2[19]	_	
+30-4	1936-1948	oacceptabelt	_	Target[19]	30-5[34]	false[19]	2[19]	_	
+30-5	1949-1952	att	*[34]	_	_	_	_	_	
+30-6	1953-1959	elever	*[34]	_	_	_	_	_	
+30-7	1960-1963	ska	*[34]	_	_	_	_	_	
+30-8	1964-1966	få	*[34]	_	_	_	_	_	
+30-9	1967-1971	sina	*[34]	_	_	_	_	_	
+30-10	1972-1978	skolor	*[34]	_	_	_	_	_	
+30-11	1979-1991	nerklottrade	*[34]	_	_	_	_	_	
+30-12	1992-1995	med	*[34]	_	_	_	_	_	
+30-13	1996-2003	hakkors	*[34]	_	_	_	_	_	
+30-14	2004-2009	eller	*[34]	_	_	_	_	_	
+30-15	2010-2013	att	*[34]	_	_	_	_	_	
+30-16	2014-2016	de	*[34]	_	_	_	_	_	
+30-17	2017-2020	som	*[34]	_	_	_	_	_	
+30-18	2021-2028	handlar	*[34]	_	_	_	_	_	
+30-19	2029-2030	i	*[34]	_	_	_	_	_	
+30-20	2031-2037	lokala	*[34]	_	_	_	_	_	
+30-21	2038-2045	centrum	*[34]	_	_	_	_	_	
+30-22	2046-2049	ska	*[34]	_	_	_	_	_	
+30-23	2050-2052	ha	*[34]	_	_	_	_	_	
+30-24	2053-2058	dessa	*[34]	_	_	_	_	_	
+30-25	2059-2065	hatets	*[34]	_	_	_	_	_	
+30-26	2066-2074	symboler	*[34]	_	_	_	_	_	
+30-27	2075-2077	på	*[34]	_	_	_	_	_	
+30-28	2078-2084	väggen	*[34]	_	_	_	_	_	
+30-29	2085-2092	utanför	*[34]	_	_	_	_	_	
+30-30	2093-2110	livsmedelsaffären	*[34]	_	_	_	_	_	
+30-31	2110-2111	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2113-2114	#	_	_	_	_	_	_	
+31-2	2114-2115	P	_	_	_	_	_	_	
+31-3	2116-2119	IMM	_	_	_	_	_	_	
+31-4	2119-2120	.	_	_	_	_	_	_	
+
+#Text=I morgon söndag möter vi upp tusentals människor i Kärrtorp för att visa solidaritet med lokalsamhället.
+32-1	2122-2123	I	_	_	_	_	_	_	
+32-2	2124-2130	morgon	_	_	_	_	_	_	
+32-3	2131-2137	söndag	_	_	_	_	_	_	
+32-4	2138-2143	möter	_	_	_	_	_	_	
+32-5	2144-2146	vi	*	_	_	_	_	_	
+32-6	2147-2150	upp	_	_	_	_	_	_	
+32-7	2151-2160	tusentals	_	_	_	_	_	_	
+32-8	2161-2170	människor	_	_	_	_	_	_	
+32-9	2171-2172	i	_	_	_	_	_	_	
+32-10	2173-2181	Kärrtorp	_	_	_	_	_	_	
+32-11	2182-2185	för	_	_	_	_	_	_	
+32-12	2186-2189	att	_	_	_	_	_	_	
+32-13	2190-2194	visa	_	_	_	_	_	_	
+32-14	2195-2206	solidaritet	_	Source;Target[20]	32-5;32-16	false[20]	4[20]	_	
+32-15	2207-2210	med	_	Source;Target[20]	32-5;32-16	false[20]	4[20]	_	
+32-16	2211-2225	lokalsamhället	*	_	_	_	_	_	
+32-17	2225-2226	.	_	_	_	_	_	_	
+
+#Text=Vi står gemensamt upp mot att nazism och rasism sprids i samhället.
+33-1	2227-2229	Vi	*	_	_	_	_	_	
+33-2	2230-2234	står	_	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-3	2235-2244	gemensamt	_	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-4	2245-2248	upp	_	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-5	2249-2252	mot	_	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-6	2253-2256	att	_	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-7	2257-2263	nazism	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-8	2264-2267	och	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-9	2268-2274	rasism	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-10	2275-2281	sprids	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-11	2282-2283	i	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-12	2284-2293	samhället	*[35]	Target;Source[21]	33-7[35];33-1	false[21]	1[21]	_	
+33-13	2293-2294	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2296-2297	#	_	_	_	_	_	_	
+34-2	2297-2298	P	_	_	_	_	_	_	
+34-3	2299-2302	IMM	_	_	_	_	_	_	
+34-4	2302-2303	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+35-1	2305-2318	Skräddarsydda	_	_	_	_	_	_	
+35-2	2319-2325	kurser	_	_	_	_	_	_	
+35-3	2326-2327	i	_	_	_	_	_	_	
+35-4	2328-2333	ämnen	_	_	_	_	_	_	
+35-5	2334-2337	som	_	_	_	_	_	_	
+35-6	2338-2349	intresserar	_	_	_	_	_	_	
+35-7	2350-2353	och	_	_	_	_	_	_	
+35-8	2354-2363	engagerar	_	_	_	_	_	_	
+35-9	2364-2368	både	_	_	_	_	_	_	
+35-10	2369-2374	kropp	_	_	_	_	_	_	
+35-11	2375-2378	och	_	_	_	_	_	_	
+35-12	2379-2383	själ	_	_	_	_	_	_	
+35-13	2383-2384	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2386-2387	#	_	_	_	_	_	_	
+36-2	2387-2388	P	_	_	_	_	_	_	
+36-3	2389-2392	IMM	_	_	_	_	_	_	
+36-4	2392-2393	.	_	_	_	_	_	_	
+
+#Text=Lokalsamhället kan stoppa rasismen och vi är som gröna politiker beredda att investera i antirasismen.
+37-1	2395-2409	Lokalsamhället	_	_	_	_	_	_	
+37-2	2410-2413	kan	_	_	_	_	_	_	
+37-3	2414-2420	stoppa	_	_	_	_	_	_	
+37-4	2421-2429	rasismen	*	Target	37-4	false	1	_	
+37-5	2430-2433	och	_	_	_	_	_	_	
+37-6	2434-2436	vi	*	_	_	_	_	_	
+37-7	2437-2439	är	_	Source;Target;Source	37-8[36];37-15;37-6	false	4	_	
+37-8	2440-2443	som	*[36]	_	_	_	_	_	
+37-9	2444-2449	gröna	*[36]	_	_	_	_	_	
+37-10	2450-2459	politiker	*[36]	_	_	_	_	_	
+37-11	2460-2467	beredda	_	Source;Target;Source[22]	37-8[36];37-15;37-6	false[22]	4[22]	37-7[0_22]	
+37-12	2468-2471	att	_	Source;Target;Source[22]	37-8[36];37-15;37-6	false[22]	4[22]	_	
+37-13	2472-2481	investera	_	Source;Target;Source[22]	37-8[36];37-15;37-6	false[22]	4[22]	_	
+37-14	2482-2483	i	_	Source;Target;Source[22]	37-8[36];37-15;37-6	false[22]	4[22]	_	
+37-15	2484-2496	antirasismen	*	Source;Target;Source[22]	37-8[36];37-15;37-6	false[22]	4[22]	_	
+37-16	2496-2497	.	_	_	_	_	_	_	
+
+#Text=I morgon är vi alla Kärrtorpsbor.
+38-1	2498-2499	I	_	_	_	_	_	_	
+38-2	2500-2506	morgon	_	_	_	_	_	_	
+38-3	2507-2509	är	_	_	_	_	_	_	
+38-4	2510-2512	vi	_	_	_	_	_	_	
+38-5	2513-2517	alla	_	_	_	_	_	_	
+38-6	2518-2530	Kärrtorpsbor	_	_	_	_	_	_	
+38-7	2530-2531	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2533-2534	#	_	_	_	_	_	_	
+39-2	2534-2535	P	_	_	_	_	_	_	
+39-3	2536-2539	IMM	_	_	_	_	_	_	
+39-4	2539-2540	.	_	_	_	_	_	_	
+
+#Text=ÅSA ROMSON (MP).
+40-1	2542-2545	ÅSA	_	_	_	_	_	_	
+40-2	2546-2552	ROMSON	_	_	_	_	_	_	
+40-3	2553-2554	(	_	_	_	_	_	_	
+40-4	2554-2556	MP	_	_	_	_	_	_	
+40-5	2556-2557	)	_	_	_	_	_	_	
+40-6	2557-2558	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2560-2561	#	_	_	_	_	_	_	
+41-2	2561-2562	P	_	_	_	_	_	_	
+41-3	2563-2566	IMM	_	_	_	_	_	_	
+41-4	2566-2567	.	_	_	_	_	_	_	
+
+#Text=språkrör.
+42-1	2569-2577	språkrör	_	_	_	_	_	_	
+42-2	2577-2578	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2580-2581	#	_	_	_	_	_	_	
+43-2	2581-2582	P	_	_	_	_	_	_	
+43-3	2583-2586	IMM	_	_	_	_	_	_	
+43-4	2586-2587	.	_	_	_	_	_	_	
+
+#Text=ANDERS WALLNER (MP).
+44-1	2589-2595	ANDERS	_	_	_	_	_	_	
+44-2	2596-2603	WALLNER	_	_	_	_	_	_	
+44-3	2604-2605	(	_	_	_	_	_	_	
+44-4	2605-2607	MP	_	_	_	_	_	_	
+44-5	2607-2608	)	_	_	_	_	_	_	
+44-6	2608-2609	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	2611-2612	#	_	_	_	_	_	_	
+45-2	2612-2613	P	_	_	_	_	_	_	
+45-3	2614-2617	IMM	_	_	_	_	_	_	
+45-4	2617-2618	.	_	_	_	_	_	_	
+
+#Text=partisekreterare.
+46-1	2620-2636	partisekreterare	_	_	_	_	_	_	
+46-2	2636-2637	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	2639-2640	#	_	_	_	_	_	_	
+47-2	2640-2641	P	_	_	_	_	_	_	
+47-3	2642-2645	IMM	_	_	_	_	_	_	
+47-4	2645-2646	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+48-1	2648-2656	Redaktör	_	_	_	_	_	_	
+48-2	2656-2657	:	_	_	_	_	_	_	
+48-3	2658-2664	Carina	_	_	_	_	_	_	
+48-4	2665-2673	Stensson	_	_	_	_	_	_	
+48-5	2673-2674	,	_	_	_	_	_	_	
+48-6	2675-2685	Biträdande	_	_	_	_	_	_	
+48-7	2686-2694	redaktör	_	_	_	_	_	_	
+48-8	2694-2695	:	_	_	_	_	_	_	
+48-9	2696-2701	Björn	_	_	_	_	_	_	
+48-10	2702-2708	Jorner	_	_	_	_	_	_	
+48-11	2708-2709	,	_	_	_	_	_	_	
+48-12	2710-2714	Mejl	_	_	_	_	_	_	
+48-13	2714-2715	:	_	_	_	_	_	_	
+48-14	2716-2722	debatt	_	_	_	_	_	_	
+48-15	2722-2723	@	_	_	_	_	_	_	
+48-16	2723-2729	svd.se	_	_	_	_	_	_	
+48-17	2729-2730	,	_	_	_	_	_	_	
+48-18	2731-2744	Telefonnummer	_	_	_	_	_	_	
+48-19	2744-2745	:	_	_	_	_	_	_	
+48-20	2746-2748	08	_	_	_	_	_	_	
+48-21	2748-2749	-	_	_	_	_	_	_	
+48-22	2749-2755	135149	_	_	_	_	_	_	
+48-23	2755-2756	,	_	_	_	_	_	_	
+48-24	2757-2764	Twitter	_	_	_	_	_	_	
+48-25	2764-2765	:	_	_	_	_	_	_	
+48-26	2766-2767	@	_	_	_	_	_	_	
+48-27	2767-2776	SvDDebatt	_	_	_	_	_	_	
+48-28	2776-2777	,	_	_	_	_	_	_	
+48-29	2778-2786	Facebook	_	_	_	_	_	_	
+48-30	2786-2787	:	_	_	_	_	_	_	
+48-31	2788-2791	SvD	_	_	_	_	_	_	
+48-32	2792-2798	Debatt	_	_	_	_	_	_	
+48-33	2798-2799	.	_	_	_	_	_	_	

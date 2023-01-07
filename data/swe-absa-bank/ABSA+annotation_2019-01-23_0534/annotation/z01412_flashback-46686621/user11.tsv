@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Avpixlat demonstrerar med våldsvänstern.
+3-1	18-26	Avpixlat	_	_	_	_	_	_	
+3-2	27-39	demonstrerar	_	_	_	_	_	_	
+3-3	40-43	med	_	_	_	_	_	_	
+3-4	44-57	våldsvänstern	*	Target	3-4	false	1	_	
+3-5	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Avpixlat tillkännager att de kommer att delta i manifestationen för mångfald och mot nazism i Kärrtorp 22/12.
+5-1	69-77	Avpixlat	*	_	_	_	_	_	
+5-2	78-90	tillkännager	_	_	_	_	_	_	
+5-3	91-94	att	_	_	_	_	_	_	
+5-4	95-97	de	_	_	_	_	_	_	
+5-5	98-104	kommer	_	_	_	_	_	_	
+5-6	105-108	att	_	_	_	_	_	_	
+5-7	109-114	delta	_	_[1]	_	false[1]	3[1]	_	
+5-8	115-116	i	_	_[1]	_	false[1]	3[1]	_	
+5-9	117-132	manifestationen	_	_[1]	_	false[1]	3[1]	_	
+5-10	133-136	för	_	Source[2]	5-1	false[2]	4[2]	5-7[1_2]	
+5-11	137-145	mångfald	_	Source[2]	5-1	false[2]	4[2]	_	
+5-12	146-149	och	_	_	_	_	_	_	
+5-13	150-153	mot	_	Source[3]	5-1	false[3]	2[3]	5-7[1_3]	
+5-14	154-160	nazism	_	Source[3]	5-1	false[3]	2[3]	_	
+5-15	161-162	i	_	_	_	_	_	_	
+5-16	163-171	Kärrtorp	_	_	_	_	_	_	
+5-17	172-174	22	_	_	_	_	_	_	
+5-18	174-175	/	_	_	_	_	_	_	
+5-19	175-177	12	_	_	_	_	_	_	
+5-20	177-178	.	_	_	_	_	_	_	
+
+#Text=Avpixlat försöker till skillnad från andra medier få det att framstå som att det är en manifestation "för mötesfriheten" och "mot politiskt våld":.
+6-1	179-187	Avpixlat	*	_	_	_	_	_	
+6-2	188-196	försöker	_	_	_	false	2	_	
+6-3	197-201	till	_	_	_	_	_	_	
+6-4	202-210	skillnad	_	_	_	_	_	_	
+6-5	211-215	från	_	_	_	_	_	_	
+6-6	216-221	andra	_	_	_	_	_	_	
+6-7	222-228	medier	_	_	_	_	_	_	
+6-8	229-231	få	_	Target[4]	6-1	false[4]	2[4]	6-2[0_4]	
+6-9	232-235	det	_	Target[4]	6-1	false[4]	2[4]	_	
+6-10	236-239	att	_	Target[4]	6-1	false[4]	2[4]	_	
+6-11	240-247	framstå	_	Target[4]	6-1	false[4]	2[4]	_	
+6-12	248-251	som	_	_	_	_	_	_	
+6-13	252-255	att	_	_	_	_	_	_	
+6-14	256-259	det	_	_	_	_	_	_	
+6-15	260-262	är	_	_	_	_	_	_	
+6-16	263-265	en	_	_	_	_	_	_	
+6-17	266-279	manifestation	_	_	_	_	_	_	
+6-18	280-281	"	_	_	_	_	_	_	
+6-19	281-284	för	_	_	_	_	_	_	
+6-20	285-298	mötesfriheten	_	_	_	_	_	_	
+6-21	298-299	"	_	_	_	_	_	_	
+6-22	300-303	och	_	_	_	_	_	_	
+6-23	304-305	"	_	_	_	_	_	_	
+6-24	305-308	mot	_	_	_	_	_	_	
+6-25	309-318	politiskt	_	_	_	_	_	_	
+6-26	319-323	våld	_	_	_	_	_	_	
+6-27	323-324	"	_	_	_	_	_	_	
+6-28	324-325	:	_	_	_	_	_	_	
+6-29	325-326	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	328-329	#	_	_	_	_	_	_	
+7-2	329-330	P	_	_	_	_	_	_	
+7-3	331-334	IMM	_	_	_	_	_	_	
+7-4	334-335	.	_	_	_	_	_	_	
+
+#Text=Affischen som sprids för manifestationen vittnar dock om att det är en demonstration mot rasism och nazism:.
+8-1	337-346	Affischen	_	_	_	_	_	_	
+8-2	347-350	som	_	_	_	_	_	_	
+8-3	351-357	sprids	_	_	_	_	_	_	
+8-4	358-361	för	_	_	_	_	_	_	
+8-5	362-377	manifestationen	_	_	_	_	_	_	
+8-6	378-385	vittnar	_	Target[5]	8-13[9]	false[5]	3[5]	_	
+8-7	386-390	dock	_	Target[5]	8-13[9]	false[5]	3[5]	_	
+8-8	391-393	om	_	_	_	_	_	_	
+8-9	394-397	att	_	_	_	_	_	_	
+8-10	398-401	det	_	_	_	_	_	_	
+8-11	402-404	är	_	_	_	_	_	_	
+8-12	405-407	en	_	_	_	_	_	_	
+8-13	408-421	demonstration	*[9]	_	_	_	_	_	
+8-14	422-425	mot	*[9]	_	_	_	_	_	
+8-15	426-432	rasism	*[9]	_	_	_	_	_	
+8-16	433-436	och	*[9]	_	_	_	_	_	
+8-17	437-443	nazism	*[9]	_	_	_	_	_	
+8-18	443-444	:	_	_	_	_	_	_	
+8-19	444-445	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	447-448	#	_	_	_	_	_	_	
+9-2	448-449	P	_	_	_	_	_	_	
+9-3	450-453	IMM	_	_	_	_	_	_	
+9-4	453-454	.	_	_	_	_	_	_	
+
+#Text=Med tanke på att hela den organiserade våldsbejakande vänsterextremismen med AFA och Revolutionära fronten i spetsen kommer att delta på manifestationen undrar man vem Avpixlat tror att man lurar genom att framhäva att det är en demonstration mot politiskt våld?.
+10-1	456-459	Med	_	_	_	_	_	_	
+10-2	460-465	tanke	_	_	_	_	_	_	
+10-3	466-468	på	_	_	_	_	_	_	
+10-4	469-472	att	_	_	_	_	_	_	
+10-5	473-477	hela	_	_	_	_	_	_	
+10-6	478-481	den	_	_	_	_	_	_	
+10-7	482-494	organiserade	*[10]	Target[6]	10-7[10]	false[6]	1[6]	_	
+10-8	495-509	våldsbejakande	*[10]	Target[6]	10-7[10]	false[6]	1[6]	_	
+10-9	510-528	vänsterextremismen	*[10]	Target[6]	10-7[10]	false[6]	1[6]	_	
+10-10	529-532	med	_	_	_	_	_	_	
+10-11	533-536	AFA	_	_	_	_	_	_	
+10-12	537-540	och	_	_	_	_	_	_	
+10-13	541-554	Revolutionära	_	_	_	_	_	_	
+10-14	555-562	fronten	_	_	_	_	_	_	
+10-15	563-564	i	_	_	_	_	_	_	
+10-16	565-572	spetsen	_	_	_	_	_	_	
+10-17	573-579	kommer	_	_	_	_	_	_	
+10-18	580-583	att	_	_	_	_	_	_	
+10-19	584-589	delta	_	_	_	_	_	_	
+10-20	590-592	på	_	_	_	_	_	_	
+10-21	593-608	manifestationen	_	_	_	_	_	_	
+10-22	609-615	undrar	_	_	_	_	_	_	
+10-23	616-619	man	_	_	_	_	_	_	
+10-24	620-623	vem	_	_	_	_	_	_	
+10-25	624-632	Avpixlat	*	_	_	_	_	_	
+10-26	633-637	tror	_	Target[7]	10-25	false[7]	2[7]	_	
+10-27	638-641	att	_	Target[7]	10-25	false[7]	2[7]	_	
+10-28	642-645	man	_	Target[7]	10-25	false[7]	2[7]	_	
+10-29	646-651	lurar	_	Target[7]	10-25	false[7]	2[7]	_	
+10-30	652-657	genom	_	_	_	_	_	_	
+10-31	658-661	att	_	_	_	_	_	_	
+10-32	662-670	framhäva	_	_	_	_	_	_	
+10-33	671-674	att	_	_	_	_	_	_	
+10-34	675-678	det	_	_	_	_	_	_	
+10-35	679-681	är	_	_	_	_	_	_	
+10-36	682-684	en	_	_	_	_	_	_	
+10-37	685-698	demonstration	_	_	_	_	_	_	
+10-38	699-702	mot	_	_	_	_	_	_	
+10-39	703-712	politiskt	_	_	_	_	_	_	
+10-40	713-717	våld	_	_	_	_	_	_	
+10-41	717-718	?	_	_	_	_	_	_	
+10-42	718-719	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	721-722	#	_	_	_	_	_	_	
+11-2	722-723	P	_	_	_	_	_	_	
+11-3	724-727	IMM	_	_	_	_	_	_	
+11-4	727-728	.	_	_	_	_	_	_	
+
+#Text=Hur tänker Avpixlat?.
+12-1	730-733	Hur	_	_	_	_	_	_	
+12-2	734-740	tänker	_	_	_	_	_	_	
+12-3	741-749	Avpixlat	_	_	_	_	_	_	
+12-4	749-750	?	_	_	_	_	_	_	
+12-5	750-751	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	753-754	#	_	_	_	_	_	_	
+13-2	754-755	P	_	_	_	_	_	_	
+13-3	756-759	IMM	_	_	_	_	_	_	
+13-4	759-760	.	_	_	_	_	_	_	
+
+#Text=Betyder detta att Avpixlat inte bryr sig om vem de associerar sig med och vi således hädanefter exempelvis kan se dem skriva om, göra reklam för och kanske t.o.m. delta i manifestationer mot svenskfientlighet som brukar anordnas av Svenskarnas parti (SvP)?.
+14-1	762-769	Betyder	_	_	_	_	_	_	
+14-2	770-775	detta	_	_	_	_	_	_	
+14-3	776-779	att	_	_	_	_	_	_	
+14-4	780-788	Avpixlat	*	_	_	_	_	_	
+14-5	789-793	inte	_	Target[8]	14-4	false[8]	2[8]	_	
+14-6	794-798	bryr	_	Target[8]	14-4	false[8]	2[8]	_	
+14-7	799-802	sig	_	Target[8]	14-4	false[8]	2[8]	_	
+14-8	803-805	om	_	Target[8]	14-4	false[8]	2[8]	_	
+14-9	806-809	vem	_	Target[8]	14-4	false[8]	2[8]	_	
+14-10	810-812	de	_	Target[8]	14-4	false[8]	2[8]	_	
+14-11	813-823	associerar	_	Target[8]	14-4	false[8]	2[8]	_	
+14-12	824-827	sig	_	Target[8]	14-4	false[8]	2[8]	_	
+14-13	828-831	med	_	Target[8]	14-4	false[8]	2[8]	_	
+14-14	832-835	och	_	_	_	_	_	_	
+14-15	836-838	vi	_	_	_	_	_	_	
+14-16	839-846	således	_	_	_	_	_	_	
+14-17	847-857	hädanefter	_	_	_	_	_	_	
+14-18	858-868	exempelvis	_	_	_	_	_	_	
+14-19	869-872	kan	_	_	_	_	_	_	
+14-20	873-875	se	_	_	_	_	_	_	
+14-21	876-879	dem	_	_	_	_	_	_	
+14-22	880-886	skriva	_	_	_	_	_	_	
+14-23	887-889	om	_	_	_	_	_	_	
+14-24	889-890	,	_	_	_	_	_	_	
+14-25	891-895	göra	_	_	_	_	_	_	
+14-26	896-902	reklam	_	_	_	_	_	_	
+14-27	903-906	för	_	_	_	_	_	_	
+14-28	907-910	och	_	_	_	_	_	_	
+14-29	911-917	kanske	_	_	_	_	_	_	
+14-30	918-923	t.o.m	_	_	_	_	_	_	
+14-31	923-924	.	_	_	_	_	_	_	
+14-32	925-930	delta	_	_	_	_	_	_	
+14-33	931-932	i	_	_	_	_	_	_	
+14-34	933-948	manifestationer	_	_	_	_	_	_	
+14-35	949-952	mot	_	_	_	_	_	_	
+14-36	953-970	svenskfientlighet	*	Target	14-36	false	1	_	
+14-37	971-974	som	_	_	_	_	_	_	
+14-38	975-981	brukar	_	_	_	_	_	_	
+14-39	982-990	anordnas	_	_	_	_	_	_	
+14-40	991-993	av	_	_	_	_	_	_	
+14-41	994-1005	Svenskarnas	_	_	_	_	_	_	
+14-42	1006-1011	parti	_	_	_	_	_	_	
+14-43	1012-1013	(	_	_	_	_	_	_	
+14-44	1013-1016	SvP	_	_	_	_	_	_	
+14-45	1016-1017	)	_	_	_	_	_	_	
+14-46	1017-1018	?	_	_	_	_	_	_	
+14-47	1018-1019	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1021-1022	#	_	_	_	_	_	_	
+15-2	1022-1023	P	_	_	_	_	_	_	
+15-3	1024-1027	IMM	_	_	_	_	_	_	
+15-4	1027-1028	.	_	_	_	_	_	_	
+
+#Text=Vad tror ni Axpixlat har för agenda?.
+16-1	1030-1033	Vad	_	_	_	_	_	_	
+16-2	1034-1038	tror	_	_	_	_	_	_	
+16-3	1039-1041	ni	_	_	_	_	_	_	
+16-4	1042-1050	Axpixlat	_	_	_	_	_	_	
+16-5	1051-1054	har	_	_	_	_	_	_	
+16-6	1055-1058	för	_	_	_	_	_	_	
+16-7	1059-1065	agenda	_	_	_	_	_	_	
+16-8	1065-1066	?	_	_	_	_	_	_	
+16-9	1066-1067	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1069-1070	#	_	_	_	_	_	_	
+17-2	1070-1071	P	_	_	_	_	_	_	
+17-3	1072-1075	IMM	_	_	_	_	_	_	
+17-4	1075-1076	.	_	_	_	_	_	_	
+
+#Text=Hur ser ni på deras trovärdighet?.
+18-1	1078-1081	Hur	_	_	_	_	_	_	
+18-2	1082-1085	ser	_	_	_	_	_	_	
+18-3	1086-1088	ni	_	_	_	_	_	_	
+18-4	1089-1091	på	_	_	_	_	_	_	
+18-5	1092-1097	deras	_	_	_	_	_	_	
+18-6	1098-1110	trovärdighet	_	_	_	_	_	_	
+18-7	1110-1111	?	_	_	_	_	_	_	
+18-8	1111-1112	.	_	_	_	_	_	_	

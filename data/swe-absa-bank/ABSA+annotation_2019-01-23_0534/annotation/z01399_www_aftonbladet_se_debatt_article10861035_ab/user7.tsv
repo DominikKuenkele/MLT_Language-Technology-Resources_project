@@ -1,0 +1,371 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Replik: Ingen tillfällighet att folkpartiet låter Rojas locka rasistiska väljare.
+3-1	18-24	Replik	_	_	_	_	_	_	_	
+3-2	24-25	:	_	_	_	_	_	_	_	
+3-3	26-31	Ingen	_	_	_	_	_	_	_	
+3-4	32-45	tillfällighet	_	_	_	_	_	_	_	
+3-5	46-49	att	_	_	_	_	_	_	_	
+3-6	50-61	folkpartiet	_	_	_	_	_	_	_	
+3-7	62-67	låter	_	_	_	_	_	_	_	
+3-8	68-73	Rojas	_	_	_	_	_	_	_	
+3-9	74-79	locka	_	_	_	_	_	_	_	
+3-10	80-90	rasistiska	_	Target	3-11	false	1	_	_	
+3-11	91-98	väljare	*	_	_	_	_	_	_	
+3-12	98-99	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	101-102	#	_	_	_	_	_	_	_	
+4-2	102-103	P	_	_	_	_	_	_	_	
+4-3	104-107	IMM	_	_	_	_	_	_	_	
+4-4	107-108	.	_	_	_	_	_	_	_	
+
+#Text=Mauricio Rojas missbrukar sitt ämbete och kör med ohederliga medel genom att direkt och indirekt attackera mig och min utredning.
+5-1	110-118	Mauricio	*[5]	_	_	_	_	_	_	
+5-2	119-124	Rojas	*[5]	_	_	_	_	_	_	
+5-3	125-135	missbrukar	_	Target[1]	5-1[5]	false[1]	2[1]	_	_	
+5-4	136-140	sitt	_	Target[1]	5-1[5]	false[1]	2[1]	_	_	
+5-5	141-147	ämbete	_	Target[1]	5-1[5]	false[1]	2[1]	_	_	
+5-6	148-151	och	_	_	_	_	_	_	_	
+5-7	152-155	kör	_	Target[2]	5-1[5]	false[2]	2[2]	_	_	
+5-8	156-159	med	_	Target[2]	5-1[5]	false[2]	2[2]	_	_	
+5-9	160-170	ohederliga	_	Target[2]	5-1[5]	false[2]	2[2]	_	_	
+5-10	171-176	medel	_	Target[2]	5-1[5]	false[2]	2[2]	_	_	
+5-11	177-182	genom	_	_	_	_	_	_	_	
+5-12	183-186	att	_	_	_	_	_	_	_	
+5-13	187-193	direkt	_	_	_	_	_	_	_	
+5-14	194-197	och	_	_	_	_	_	_	_	
+5-15	198-206	indirekt	_	_	_	_	_	_	_	
+5-16	207-216	attackera	_	_	_	_	_	_	_	
+5-17	217-220	mig	_	_	_	_	_	_	_	
+5-18	221-224	och	_	_	_	_	_	_	_	
+5-19	225-228	min	_	_	_	_	_	_	_	
+5-20	229-238	utredning	_	_	_	_	_	_	_	
+5-21	238-239	.	_	_	_	_	_	_	_	
+
+#Text=Hans senaste utspel är att använda sitt riksdagsmandat, attackera integrationsministern Jens Orback för hans ”tystnad” om mitt ”förnekande” av ”hedersvåld”.
+6-1	240-244	Hans	_	_	_	_	_	_	_	
+6-2	245-252	senaste	_	_	_	_	_	_	_	
+6-3	253-259	utspel	_	_	_	_	_	_	_	
+6-4	260-262	är	_	_	_	_	_	_	_	
+6-5	263-266	att	_	_	_	_	_	_	_	
+6-6	267-274	använda	_	_	_	_	_	_	_	
+6-7	275-279	sitt	_	_	_	_	_	_	_	
+6-8	280-294	riksdagsmandat	_	_	_	_	_	_	_	
+6-9	294-295	,	_	_	_	_	_	_	_	
+6-10	296-305	attackera	_	_	_	_	_	_	_	
+6-11	306-327	integrationsministern	_	_	_	_	_	_	_	
+6-12	328-332	Jens	_	_	_	_	_	_	_	
+6-13	333-339	Orback	_	_	_	_	_	_	_	
+6-14	340-343	för	_	_	_	_	_	_	_	
+6-15	344-348	hans	_	_	_	_	_	_	_	
+6-16	349-350	”	_	_	_	_	_	_	_	
+6-17	350-357	tystnad	_	_	_	_	_	_	_	
+6-18	357-358	”	_	_	_	_	_	_	_	
+6-19	359-361	om	_	_	_	_	_	_	_	
+6-20	362-366	mitt	_	_	_	_	_	_	_	
+6-21	367-368	”	_	_	_	_	_	_	_	
+6-22	368-378	förnekande	_	_	_	_	_	_	_	
+6-23	378-379	”	_	_	_	_	_	_	_	
+6-24	380-382	av	_	_	_	_	_	_	_	
+6-25	383-384	”	_	_	_	_	_	_	_	
+6-26	384-394	hedersvåld	_	_	_	_	_	_	_	
+6-27	394-395	”	_	_	_	_	_	_	_	
+6-28	395-396	.	_	_	_	_	_	_	_	
+
+#Text=En sak är klar, Rojas har införlivat rollen som Don Quixote genom att attackera en föreställd fiende, fast fienden är bara en väderkvarn och hans svärd av trä.
+7-1	397-399	En	_	_	_	_	_	_	_	
+7-2	400-403	sak	_	_	_	_	_	_	_	
+7-3	404-406	är	_	_	_	_	_	_	_	
+7-4	407-411	klar	_	_	_	_	_	_	_	
+7-5	411-412	,	_	_	_	_	_	_	_	
+7-6	413-418	Rojas	_	_	_	_	_	_	_	
+7-7	419-422	har	_	_	_	_	_	_	_	
+7-8	423-433	införlivat	_	_	_	_	_	_	_	
+7-9	434-440	rollen	_	_	_	_	_	_	_	
+7-10	441-444	som	_	_	_	_	_	_	_	
+7-11	445-448	Don	_	_	_	_	_	_	_	
+7-12	449-456	Quixote	_	_	_	_	_	_	_	
+7-13	457-462	genom	_	_	_	_	_	_	_	
+7-14	463-466	att	_	_	_	_	_	_	_	
+7-15	467-476	attackera	_	_	_	_	_	_	_	
+7-16	477-479	en	_	_	_	_	_	_	_	
+7-17	480-490	föreställd	_	_	_	_	_	_	_	
+7-18	491-497	fiende	_	_	_	_	_	_	_	
+7-19	497-498	,	_	_	_	_	_	_	_	
+7-20	499-503	fast	_	_	_	_	_	_	_	
+7-21	504-511	fienden	_	_	_	_	_	_	_	
+7-22	512-514	är	_	_	_	_	_	_	_	
+7-23	515-519	bara	_	_	_	_	_	_	_	
+7-24	520-522	en	_	_	_	_	_	_	_	
+7-25	523-533	väderkvarn	_	_	_	_	_	_	_	
+7-26	534-537	och	_	_	_	_	_	_	_	
+7-27	538-542	hans	_	_	_	_	_	_	_	
+7-28	543-548	svärd	_	_	_	_	_	_	_	
+7-29	549-551	av	_	_	_	_	_	_	_	
+7-30	552-555	trä	_	_	_	_	_	_	_	
+7-31	555-556	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	558-559	#	_	_	_	_	_	_	_	
+8-2	559-560	P	_	_	_	_	_	_	_	
+8-3	561-564	IMM	_	_	_	_	_	_	_	
+8-4	564-565	.	_	_	_	_	_	_	_	
+
+#Text=Jag har inte förnekat förekomsten vare sig av hedersvåld eller hedersmord, men har sagt att även mord på svenska kvinnor är en del av en global patriarkal ”hederskultur” där män vill med våld kontrollera kvinnor och reproducera sin maktordning.
+9-1	567-570	Jag	_	_	_	_	_	_	_	
+9-2	571-574	har	_	_	_	_	_	_	_	
+9-3	575-579	inte	_	_	_	_	_	_	_	
+9-4	580-588	förnekat	_	_	_	_	_	_	_	
+9-5	589-600	förekomsten	_	_	_	_	_	_	_	
+9-6	601-605	vare	_	_	_	_	_	_	_	
+9-7	606-609	sig	_	_	_	_	_	_	_	
+9-8	610-612	av	_	_	_	_	_	_	_	
+9-9	613-623	hedersvåld	_	_	_	_	_	_	_	
+9-10	624-629	eller	_	_	_	_	_	_	_	
+9-11	630-640	hedersmord	_	_	_	_	_	_	_	
+9-12	640-641	,	_	_	_	_	_	_	_	
+9-13	642-645	men	_	_	_	_	_	_	_	
+9-14	646-649	har	_	_	_	_	_	_	_	
+9-15	650-654	sagt	_	_	_	_	_	_	_	
+9-16	655-658	att	_	_	_	_	_	_	_	
+9-17	659-663	även	_	_	_	_	_	_	_	
+9-18	664-668	mord	_	_	_	_	_	_	_	
+9-19	669-671	på	_	_	_	_	_	_	_	
+9-20	672-679	svenska	_	_	_	_	_	_	_	
+9-21	680-687	kvinnor	_	_	_	_	_	_	_	
+9-22	688-690	är	_	_	_	_	_	_	_	
+9-23	691-693	en	_	_	_	_	_	_	_	
+9-24	694-697	del	_	_	_	_	_	_	_	
+9-25	698-700	av	_	_	_	_	_	_	_	
+9-26	701-703	en	_	_	_	_	_	_	_	
+9-27	704-710	global	_	_	_	_	_	_	_	
+9-28	711-721	patriarkal	_	_	_	_	_	_	_	
+9-29	722-723	”	_	_	_	_	_	_	_	
+9-30	723-735	hederskultur	_	_	_	_	_	_	_	
+9-31	735-736	”	_	_	_	_	_	_	_	
+9-32	737-740	där	_	_	_	_	_	_	_	
+9-33	741-744	män	_	_	_	_	_	_	_	
+9-34	745-749	vill	_	_	_	_	_	_	_	
+9-35	750-753	med	_	_	_	_	_	_	_	
+9-36	754-758	våld	_	_	_	_	_	_	_	
+9-37	759-770	kontrollera	_	_	_	_	_	_	_	
+9-38	771-778	kvinnor	_	_	_	_	_	_	_	
+9-39	779-782	och	_	_	_	_	_	_	_	
+9-40	783-794	reproducera	_	_	_	_	_	_	_	
+9-41	795-798	sin	_	_	_	_	_	_	_	
+9-42	799-810	maktordning	_	_	_	_	_	_	_	
+9-43	810-811	.	_	_	_	_	_	_	_	
+
+#Text=Mord på svenska kvinnor kan inte, som Rojas gör, höjas till att vara ett modernt och rationellt mord och därmed mer accepterat.
+10-1	812-816	Mord	_	_	_	_	_	_	_	
+10-2	817-819	på	_	_	_	_	_	_	_	
+10-3	820-827	svenska	_	_	_	_	_	_	_	
+10-4	828-835	kvinnor	_	_	_	_	_	_	_	
+10-5	836-839	kan	_	_	_	_	_	_	_	
+10-6	840-844	inte	_	_	_	_	_	_	_	
+10-7	844-845	,	_	_	_	_	_	_	_	
+10-8	846-849	som	_	_	_	_	_	_	_	
+10-9	850-855	Rojas	_	_	_	_	_	_	_	
+10-10	856-859	gör	_	_	_	_	_	_	_	
+10-11	859-860	,	_	_	_	_	_	_	_	
+10-12	861-866	höjas	_	_	_	_	_	_	_	
+10-13	867-871	till	_	_	_	_	_	_	_	
+10-14	872-875	att	_	_	_	_	_	_	_	
+10-15	876-880	vara	_	_	_	_	_	_	_	
+10-16	881-884	ett	_	_	_	_	_	_	_	
+10-17	885-892	modernt	_	_	_	_	_	_	_	
+10-18	893-896	och	_	_	_	_	_	_	_	
+10-19	897-907	rationellt	_	_	_	_	_	_	_	
+10-20	908-912	mord	_	_	_	_	_	_	_	
+10-21	913-916	och	_	_	_	_	_	_	_	
+10-22	917-923	därmed	_	_	_	_	_	_	_	
+10-23	924-927	mer	_	_	_	_	_	_	_	
+10-24	928-938	accepterat	_	_	_	_	_	_	_	
+10-25	938-939	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	941-942	#	_	_	_	_	_	_	_	
+11-2	942-943	P	_	_	_	_	_	_	_	
+11-3	944-947	IMM	_	_	_	_	_	_	_	
+11-4	947-948	.	_	_	_	_	_	_	_	
+
+#Text=Rojas kan fiska i grumligt vatten och säkert övertyga rasistiska krafter, men långt ifrån alla väljare.
+12-1	950-955	Rojas	*	_	_	_	_	_	_	
+12-2	956-959	kan	_	_	_	_	_	_	_	
+12-3	960-965	fiska	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-4	966-967	i	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-5	968-976	grumligt	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-6	977-983	vatten	_	Target[3]	12-1	false[3]	2[3]	_	_	
+12-7	984-987	och	_	_	_	_	_	_	_	
+12-8	988-994	säkert	_	_	_	_	_	_	_	
+12-9	995-1003	övertyga	_	_	_	_	_	_	_	
+12-10	1004-1014	rasistiska	_	Target	12-11	false	1	_	_	
+12-11	1015-1022	krafter	*	_	_	_	_	_	_	
+12-12	1022-1023	,	_	_	_	_	_	_	_	
+12-13	1024-1027	men	_	_	_	_	_	_	_	
+12-14	1028-1033	långt	_	_	_	_	_	_	_	
+12-15	1034-1039	ifrån	_	_	_	_	_	_	_	
+12-16	1040-1044	alla	_	_	_	_	_	_	_	
+12-17	1045-1052	väljare	_	_	_	_	_	_	_	
+12-18	1052-1053	.	_	_	_	_	_	_	_	
+
+#Text=Många har börjat inse folkpartiets import av det danska galna integrationssjuka receptet.
+13-1	1054-1059	Många	_	_	_	_	_	_	_	
+13-2	1060-1063	har	_	_	_	_	_	_	_	
+13-3	1064-1070	börjat	_	_	_	_	_	_	_	
+13-4	1071-1075	inse	_	_	_	_	_	_	_	
+13-5	1076-1088	folkpartiets	_	_	_	_	_	_	_	
+13-6	1089-1095	import	_	_	_	_	_	_	_	
+13-7	1096-1098	av	_	_	_	_	_	_	_	
+13-8	1099-1102	det	_	_	_	_	_	_	_	
+13-9	1103-1109	danska	_	_	_	_	_	_	_	
+13-10	1110-1115	galna	_	Target	13-12	false	2	_	_	
+13-11	1116-1133	integrationssjuka	_	_	_	_	_	_	_	
+13-12	1134-1142	receptet	*	_	_	_	_	_	_	
+13-13	1142-1143	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1145-1146	#	_	_	_	_	_	_	_	
+14-2	1146-1147	P	_	_	_	_	_	_	_	
+14-3	1148-1151	IMM	_	_	_	_	_	_	_	
+14-4	1151-1152	.	_	_	_	_	_	_	_	
+
+#Text=Det är ingen tillfällighet att folkpartiets ledning använder sig av Rojas och partikamraten Sabuni i kampen för rasistiska röster.
+15-1	1154-1157	Det	_	_	_	_	_	_	_	
+15-2	1158-1160	är	_	_	_	_	_	_	_	
+15-3	1161-1166	ingen	_	_	_	_	_	_	_	
+15-4	1167-1180	tillfällighet	_	_	_	_	_	_	_	
+15-5	1181-1184	att	_	_	_	_	_	_	_	
+15-6	1185-1197	folkpartiets	_	_	_	_	_	_	_	
+15-7	1198-1205	ledning	_	_	_	_	_	_	_	
+15-8	1206-1214	använder	_	_	_	_	_	_	_	
+15-9	1215-1218	sig	_	_	_	_	_	_	_	
+15-10	1219-1221	av	_	_	_	_	_	_	_	
+15-11	1222-1227	Rojas	*	_	_	_	_	_	16-1	
+15-12	1228-1231	och	_	_	_	_	_	_	_	
+15-13	1232-1245	partikamraten	*[6]	_	_	_	_	_	16-1[0_6]	
+15-14	1246-1252	Sabuni	*[6]	_	_	_	_	_	_	
+15-15	1253-1254	i	_	_	_	_	_	_	_	
+15-16	1255-1261	kampen	_	_	_	_	_	_	_	
+15-17	1262-1265	för	_	_	_	_	_	_	_	
+15-18	1266-1276	rasistiska	_	Target	15-19	false	1	_	_	
+15-19	1277-1283	röster	*	_	_	_	_	_	_	
+15-20	1283-1284	.	_	_	_	_	_	_	_	
+
+#Text=Duons ”ställa krav”-strategi och demonisering av personer med invandrarbakgrund är ett gammalt knep som gick hem hos rasistiska väljare i förra valet.
+16-1	1285-1290	Duons	*	_	_	_	_	_	_	
+16-2	1291-1292	”	_	_	_	_	_	_	_	
+16-3	1292-1298	ställa	_	_	_	_	_	_	_	
+16-4	1299-1303	krav	_	_	_	_	_	_	_	
+16-5	1303-1304	”	_	_	_	_	_	_	_	
+16-6	1304-1305	-	_	_	_	_	_	_	_	
+16-7	1305-1313	strategi	_	_	_	_	_	_	_	
+16-8	1314-1317	och	_	_	_	_	_	_	_	
+16-9	1318-1330	demonisering	_	Target	16-1	false	1	_	_	
+16-10	1331-1333	av	_	_	_	_	_	_	_	
+16-11	1334-1342	personer	_	_	_	_	_	_	_	
+16-12	1343-1346	med	_	_	_	_	_	_	_	
+16-13	1347-1364	invandrarbakgrund	_	_	_	_	_	_	_	
+16-14	1365-1367	är	_	_	_	_	_	_	_	
+16-15	1368-1371	ett	_	_	_	_	_	_	_	
+16-16	1372-1379	gammalt	_	_	_	_	_	_	_	
+16-17	1380-1384	knep	_	_	_	_	_	_	_	
+16-18	1385-1388	som	_	_	_	_	_	_	_	
+16-19	1389-1393	gick	_	_	_	_	_	_	_	
+16-20	1394-1397	hem	_	_	_	_	_	_	_	
+16-21	1398-1401	hos	_	_	_	_	_	_	_	
+16-22	1402-1412	rasistiska	_	Target	16-23	false	1	_	_	
+16-23	1413-1420	väljare	*	_	_	_	_	_	_	
+16-24	1421-1422	i	_	_	_	_	_	_	_	
+16-25	1423-1428	förra	_	_	_	_	_	_	_	
+16-26	1429-1434	valet	_	_	_	_	_	_	_	
+16-27	1434-1435	.	_	_	_	_	_	_	_	
+
+#Text=Nu när folkpartiets väljarstöd börjar dala tar de till den gamla valtaktiken igen, som går ut på att framställa ”svenskarna” som bäst och ”invandrarna” som sämst och problem.
+17-1	1436-1438	Nu	_	_	_	_	_	_	_	
+17-2	1439-1442	när	_	_	_	_	_	_	_	
+17-3	1443-1455	folkpartiets	*	_	_	_	_	_	_	
+17-4	1456-1466	väljarstöd	_	_	_	_	_	_	_	
+17-5	1467-1473	börjar	_	_	_	_	_	_	_	
+17-6	1474-1478	dala	_	_	_	_	_	_	_	
+17-7	1479-1482	tar	_	_	_	_	_	_	_	
+17-8	1483-1485	de	_	_	_	_	_	_	_	
+17-9	1486-1490	till	_	_	_	_	_	_	_	
+17-10	1491-1494	den	_	_	_	_	_	_	_	
+17-11	1495-1500	gamla	_	_	_	_	_	_	_	
+17-12	1501-1512	valtaktiken	_	_	_	_	_	_	_	
+17-13	1513-1517	igen	_	_	_	_	_	_	_	
+17-14	1517-1518	,	_	_	_	_	_	_	_	
+17-15	1519-1522	som	_	_	_	_	_	_	_	
+17-16	1523-1526	går	_	_	_	_	_	_	_	
+17-17	1527-1529	ut	_	_	_	_	_	_	_	
+17-18	1530-1532	på	_	_	_	_	_	_	_	
+17-19	1533-1536	att	_	_	_	_	_	_	_	
+17-20	1537-1547	framställa	_	_	_	_	_	_	_	
+17-21	1548-1549	”	_	_	_	_	_	_	_	
+17-22	1549-1559	svenskarna	_	_	_	_	_	_	_	
+17-23	1559-1560	”	_	_	_	_	_	_	_	
+17-24	1561-1564	som	_	_	_	_	_	_	_	
+17-25	1565-1569	bäst	_	_	_	_	_	_	_	
+17-26	1570-1573	och	_	_	_	_	_	_	_	
+17-27	1574-1575	”	_	_	_	_	_	_	_	
+17-28	1575-1586	invandrarna	_	_	_	_	_	_	_	
+17-29	1586-1587	”	_	_	_	_	_	_	_	
+17-30	1588-1591	som	_	_	_	_	_	_	_	
+17-31	1592-1597	sämst	_	_	_	_	_	_	_	
+17-32	1598-1601	och	_	_	_	_	_	_	_	
+17-33	1602-1609	problem	_	_	_	_	_	_	_	
+17-34	1609-1610	.	_	Target	17-3	false	2	_	_	
+
+#Text=#P IMM.
+18-1	1612-1613	#	_	_	_	_	_	_	_	
+18-2	1613-1614	P	_	_	_	_	_	_	_	
+18-3	1615-1618	IMM	_	_	_	_	_	_	_	
+18-4	1618-1619	.	_	_	_	_	_	_	_	
+
+#Text=Må de inte lyckas den här gången, fast jag blir inte förvånad om folkpartiet drar till sig många fler rasistiska röster den här gången också.
+19-1	1621-1623	Må	_	_	_	false	2	_	_	
+19-2	1624-1626	de	*	_	_	_	_	_	_	
+19-3	1627-1631	inte	_	Target[4]	19-2	false[4]	2[4]	19-1[0_4]	_	
+19-4	1632-1638	lyckas	_	Target[4]	19-2	false[4]	2[4]	_	_	
+19-5	1639-1642	den	_	_	_	_	_	_	_	
+19-6	1643-1646	här	_	_	_	_	_	_	_	
+19-7	1647-1653	gången	_	_	_	_	_	_	_	
+19-8	1653-1654	,	_	_	_	_	_	_	_	
+19-9	1655-1659	fast	_	_	_	_	_	_	_	
+19-10	1660-1663	jag	_	_	_	_	_	_	_	
+19-11	1664-1668	blir	_	_	_	_	_	_	_	
+19-12	1669-1673	inte	_	_	_	_	_	_	_	
+19-13	1674-1682	förvånad	_	_	_	_	_	_	_	
+19-14	1683-1685	om	_	_	_	_	_	_	_	
+19-15	1686-1697	folkpartiet	_	_	_	_	_	_	_	
+19-16	1698-1702	drar	_	_	_	_	_	_	_	
+19-17	1703-1707	till	_	_	_	_	_	_	_	
+19-18	1708-1711	sig	_	_	_	_	_	_	_	
+19-19	1712-1717	många	_	_	_	_	_	_	_	
+19-20	1718-1722	fler	_	_	_	_	_	_	_	
+19-21	1723-1733	rasistiska	_	Target	19-22	false	1	_	_	
+19-22	1734-1740	röster	*	_	_	_	_	_	_	
+19-23	1741-1744	den	_	_	_	_	_	_	_	
+19-24	1745-1748	här	_	_	_	_	_	_	_	
+19-25	1749-1755	gången	_	_	_	_	_	_	_	
+19-26	1756-1761	också	_	_	_	_	_	_	_	
+19-27	1761-1762	.	_	_	_	_	_	_	_	

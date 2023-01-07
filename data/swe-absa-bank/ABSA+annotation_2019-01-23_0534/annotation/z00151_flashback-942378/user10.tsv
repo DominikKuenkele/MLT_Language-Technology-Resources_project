@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Israel - Palestina.
+3-1	18-24	Israel	_	_	_	_	_	_	
+3-2	25-26	-	_	_	_	_	_	_	
+3-3	27-36	Palestina	_	_	_	_	_	_	
+3-4	36-37	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	39-40	#	_	_	_	_	_	_	
+4-2	40-41	P	_	_	_	_	_	_	
+4-3	42-45	IMM	_	_	_	_	_	_	
+4-4	45-46	.	_	_	_	_	_	_	
+
+#Text=Den här tråden kanske passar bättre i något annat forum men moderatorn får väl flytta den isåfall.
+5-1	48-51	Den	_	_	_	_	_	_	
+5-2	52-55	här	_	_	_	_	_	_	
+5-3	56-62	tråden	_	_	_	_	_	_	
+5-4	63-69	kanske	_	_	_	_	_	_	
+5-5	70-76	passar	_	_	_	_	_	_	
+5-6	77-83	bättre	_	_	_	_	_	_	
+5-7	84-85	i	_	_	_	_	_	_	
+5-8	86-91	något	_	_	_	_	_	_	
+5-9	92-97	annat	_	_	_	_	_	_	
+5-10	98-103	forum	_	_	_	_	_	_	
+5-11	104-107	men	_	_	_	_	_	_	
+5-12	108-118	moderatorn	_	_	_	_	_	_	
+5-13	119-122	får	_	_	_	_	_	_	
+5-14	123-126	väl	_	_	_	_	_	_	
+5-15	127-133	flytta	_	_	_	_	_	_	
+5-16	134-137	den	_	_	_	_	_	_	
+5-17	138-145	isåfall	_	_	_	_	_	_	
+5-18	145-146	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	148-149	#	_	_	_	_	_	_	
+6-2	149-150	P	_	_	_	_	_	_	
+6-3	151-154	IMM	_	_	_	_	_	_	
+6-4	154-155	.	_	_	_	_	_	_	
+
+#Text=Jag har en fråga angående konflikten i Palestina och Israel.
+7-1	157-160	Jag	_	_	_	_	_	_	
+7-2	161-164	har	_	_	_	_	_	_	
+7-3	165-167	en	_	_	_	_	_	_	
+7-4	168-173	fråga	_	_	_	_	_	_	
+7-5	174-182	angående	_	_	_	_	_	_	
+7-6	183-193	konflikten	*	Target	7-6	false	1	_	
+7-7	194-195	i	_	_	_	_	_	_	
+7-8	196-205	Palestina	_	_	_	_	_	_	
+7-9	206-209	och	_	_	_	_	_	_	
+7-10	210-216	Israel	_	_	_	_	_	_	
+7-11	216-217	.	_	_	_	_	_	_	
+
+#Text=Jag tar inte på något sätt part i denna fråga eller anser att det är rätt men jag frågar ändå.
+8-1	218-221	Jag	*	_	_	_	_	_	
+8-2	222-225	tar	_	_[1]	_	false[1]	3[1]	_	
+8-3	226-230	inte	_	_[1]	_	false[1]	3[1]	_	
+8-4	231-233	på	_	_	_	_	_	_	
+8-5	234-239	något	_	_	_	_	_	_	
+8-6	240-244	sätt	_	_	_	_	_	_	
+8-7	245-249	part	_	Target;Source[2]	8-9[6];8-1	false[2]	3[2]	8-2[1_2]	
+8-8	250-251	i	_	Target;Source[2]	8-9[6];8-1	false[2]	3[2]	_	
+8-9	252-257	denna	*[6]	_	_	_	_	_	
+8-10	258-263	fråga	*[6]	_	_	_	_	_	
+8-11	264-269	eller	_	_	_	_	_	_	
+8-12	270-275	anser	_	_	_	_	_	_	
+8-13	276-279	att	_	_	_	_	_	_	
+8-14	280-283	det	_	_	_	_	_	_	
+8-15	284-286	är	_	_	_	_	_	_	
+8-16	287-291	rätt	_	_	_	_	_	_	
+8-17	292-295	men	_	_	_	_	_	_	
+8-18	296-299	jag	_	_	_	_	_	_	
+8-19	300-306	frågar	_	_	_	_	_	_	
+8-20	307-311	ändå	_	_	_	_	_	_	
+8-21	311-312	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	314-315	#	_	_	_	_	_	_	
+9-2	315-316	P	_	_	_	_	_	_	
+9-3	317-320	IMM	_	_	_	_	_	_	
+9-4	320-321	.	_	_	_	_	_	_	
+
+#Text=Israel har ju en överlägsen militärmakt.
+10-1	323-329	Israel	_	_	_	_	_	_	
+10-2	330-333	har	_	_	_	_	_	_	
+10-3	334-336	ju	_	_	_	_	_	_	
+10-4	337-339	en	_	_	_	_	_	_	
+10-5	340-350	överlägsen	*	Target	10-5	false	5	_	
+10-6	351-362	militärmakt	_	_	_	_	_	_	
+10-7	362-363	.	_	_	_	_	_	_	
+
+#Text=Palestinierna har ju som bekant nästan bara kalaschnikovs och dynamit.
+11-1	364-377	Palestinierna	_	_	_	_	_	_	
+11-2	378-381	har	_	_	_	_	_	_	
+11-3	382-384	ju	_	_	_	_	_	_	
+11-4	385-388	som	_	_	_	_	_	_	
+11-5	389-395	bekant	_	_	_	_	_	_	
+11-6	396-402	nästan	_	_	_	_	_	_	
+11-7	403-407	bara	_	_	_	_	_	_	
+11-8	408-421	kalaschnikovs	_	_	_	_	_	_	
+11-9	422-425	och	_	_	_	_	_	_	
+11-10	426-433	dynamit	_	_	_	_	_	_	
+11-11	433-434	.	_	_	_	_	_	_	
+
+#Text=Och Israel skiter ju fullständigt i vad omvärlden tycker eller anser om deras sätt att behandla Palestinafrågan.
+12-1	435-438	Och	_	_	_	_	_	_	
+12-2	439-445	Israel	*	_	_	_	_	_	
+12-3	446-452	skiter	_	Source	12-2	false	1	_	
+12-4	453-455	ju	_	_	_	_	_	_	
+12-5	456-468	fullständigt	_	_[3]	_	false[3]	1[3]	12-3[0_3]	
+12-6	469-470	i	_	_[3]	_	false[3]	1[3]	_	
+12-7	471-474	vad	*[7]	_	_	_	_	_	
+12-8	475-484	omvärlden	*[7]	_	_	_	_	_	
+12-9	485-491	tycker	*[7]	_	_	_	_	_	
+12-10	492-497	eller	_	_	_	_	_	_	
+12-11	498-503	anser	_	_	_	_	_	_	
+12-12	504-506	om	_	_	_	_	_	_	
+12-13	507-512	deras	_	_	_	_	_	_	
+12-14	513-517	sätt	_	_	_	_	_	_	
+12-15	518-521	att	_	_	_	_	_	_	
+12-16	522-530	behandla	_	_	_	_	_	_	
+12-17	531-546	Palestinafrågan	_	_	_	_	_	_	
+12-18	546-547	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	549-550	#	_	_	_	_	_	_	
+13-2	550-551	P	_	_	_	_	_	_	
+13-3	552-555	IMM	_	_	_	_	_	_	
+13-4	555-556	.	_	_	_	_	_	_	
+
+#Text=Så jag undrar bara stillsamt varför inte Israel gör slag i saken och utrotar alla Palestinier?
+14-1	558-560	Så	_	_	_	_	_	_	
+14-2	561-564	jag	_	_	_	_	_	_	
+14-3	565-571	undrar	_	_	_	_	_	_	
+14-4	572-576	bara	_	_	_	_	_	_	
+14-5	577-586	stillsamt	_	_	_	_	_	_	
+14-6	587-593	varför	_	_	_	_	_	_	
+14-7	594-598	inte	_	_	_	_	_	_	
+14-8	599-605	Israel	*	_	_	_	_	_	
+14-9	606-609	gör	_	_	_	_	_	_	
+14-10	610-614	slag	_	_	_	_	_	_	
+14-11	615-616	i	_	_	_	_	_	_	
+14-12	617-622	saken	_	_	_	_	_	_	
+14-13	623-626	och	_	_	_	_	_	_	
+14-14	627-634	utrotar	_	Source;Target	14-8;14-15[8]	false	1	_	
+14-15	635-639	alla	*[8]	_	_	_	_	_	
+14-16	640-651	Palestinier	*[8]	_	_	_	_	_	
+14-17	651-652	?	_	_	_	_	_	_	
+
+#Text=Alltså rakt av - driver dom på flykten ut därifrån och dödar dom som vägrar dra.
+15-1	653-659	Alltså	_	_	_	_	_	_	
+15-2	660-664	rakt	_	_	_	_	_	_	
+15-3	665-667	av	_	_	_	_	_	_	
+15-4	668-669	-	_	_	_	_	_	_	
+15-5	670-676	driver	_	_	_	_	_	_	
+15-6	677-680	dom	_	_	_	_	_	_	
+15-7	681-683	på	_	_	_	_	_	_	
+15-8	684-691	flykten	_	_	_	_	_	_	
+15-9	692-694	ut	_	_	_	_	_	_	
+15-10	695-703	därifrån	_	_	_	_	_	_	
+15-11	704-707	och	_	_	_	_	_	_	
+15-12	708-713	dödar	_	_	_	_	_	_	
+15-13	714-717	dom	_	_	_	_	_	_	
+15-14	718-721	som	_	_	_	_	_	_	
+15-15	722-728	vägrar	_	_	_	_	_	_	
+15-16	729-732	dra	_	_	_	_	_	_	
+15-17	732-733	.	_	_	_	_	_	_	
+
+#Text=Och på så sätt får ett slut på tjafset där nere en gång för alla.
+16-1	734-737	Och	_	_	_	_	_	_	
+16-2	738-740	på	_	_	_	_	_	_	
+16-3	741-743	så	_	_	_	_	_	_	
+16-4	744-748	sätt	_	_	_	_	_	_	
+16-5	749-752	får	_	_	_	_	_	_	
+16-6	753-756	ett	_	_	_	_	_	_	
+16-7	757-761	slut	_	_	_	_	_	_	
+16-8	762-764	på	_	_	_	_	_	_	
+16-9	765-772	tjafset	*	Target	16-9	false	1	_	
+16-10	773-776	där	_	_	_	_	_	_	
+16-11	777-781	nere	_	_	_	_	_	_	
+16-12	782-784	en	_	_	_	_	_	_	
+16-13	785-789	gång	_	_	_	_	_	_	
+16-14	790-793	för	_	_	_	_	_	_	
+16-15	794-798	alla	_	_	_	_	_	_	
+16-16	798-799	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	801-802	#	_	_	_	_	_	_	
+17-2	802-803	P	_	_	_	_	_	_	
+17-3	804-807	IMM	_	_	_	_	_	_	
+17-4	807-808	.	_	_	_	_	_	_	
+
+#Text=Kommentarer?
+18-1	810-821	Kommentarer	_	_	_	_	_	_	
+18-2	821-822	?	_	_	_	_	_	_	
+
+#Text=Och kom nu ihåg att jag inte förespråkar denna metod eller så, utan jag undrar bara helt ärligt varför Israel låter sig konfronteras hela tiden med självmordsbombare och sån skit.
+19-1	823-826	Och	_	_	_	_	_	_	
+19-2	827-830	kom	_	_	_	_	_	_	
+19-3	831-833	nu	_	_	_	_	_	_	
+19-4	834-838	ihåg	_	_	_	_	_	_	
+19-5	839-842	att	_	_	_	_	_	_	
+19-6	843-846	jag	*	_	_	_	_	_	
+19-7	847-851	inte	_	Target;Source[4]	19-9[9];19-6	false[4]	1[4]	_	
+19-8	852-863	förespråkar	_	Target;Source[4]	19-9[9];19-6	false[4]	1[4]	_	
+19-9	864-869	denna	*[9]	_	_	_	_	_	
+19-10	870-875	metod	*[9]	_	_	_	_	_	
+19-11	876-881	eller	_	_	_	_	_	_	
+19-12	882-884	så	_	_	_	_	_	_	
+19-13	884-885	,	_	_	_	_	_	_	
+19-14	886-890	utan	_	_	_	_	_	_	
+19-15	891-894	jag	_	_	_	_	_	_	
+19-16	895-901	undrar	_	_	_	_	_	_	
+19-17	902-906	bara	_	_	_	_	_	_	
+19-18	907-911	helt	_	_	_	_	_	_	
+19-19	912-918	ärligt	_	_	_	_	_	_	
+19-20	919-925	varför	_	_	_	_	_	_	
+19-21	926-932	Israel	_	_	_	_	_	_	
+19-22	933-938	låter	_	_	_	_	_	_	
+19-23	939-942	sig	_	_	_	_	_	_	
+19-24	943-955	konfronteras	_	_	_	_	_	_	
+19-25	956-960	hela	_	_	_	_	_	_	
+19-26	961-966	tiden	_	_	_	_	_	_	
+19-27	967-970	med	_	_	_	_	_	_	
+19-28	971-988	självmordsbombare	_	_	_	_	_	_	
+19-29	989-992	och	_	_	_	_	_	_	
+19-30	993-996	sån	*[10]	Target[5]	19-30[10]	false[5]	1[5]	_	
+19-31	997-1001	skit	*[10]	Target[5]	19-30[10]	false[5]	1[5]	_	
+19-32	1001-1002	.	_	_	_	_	_	_	

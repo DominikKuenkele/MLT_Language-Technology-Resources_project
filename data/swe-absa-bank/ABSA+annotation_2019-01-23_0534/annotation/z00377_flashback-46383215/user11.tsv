@@ -1,0 +1,81 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Varför byggde man miljonprogrammen så fult?
+3-1	18-24	Varför	_	_	_	_	_	_	
+3-2	25-31	byggde	_	_	_	false	2	_	
+3-3	32-35	man	_	_	_	_	_	_	
+3-4	36-52	miljonprogrammen	*	_	_	_	_	_	
+3-5	53-55	så	_	_	_	_	_	_	
+3-6	56-60	fult	_	Target	3-4	false	2	3-2	
+3-7	60-61	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	
+
+#Text=Varför gjorde man miljonprogrammen så fula?
+5-1	72-78	Varför	_	_	_	_	_	_	
+5-2	79-85	gjorde	_	_	_	false	2	_	
+5-3	86-89	man	_	_	_	_	_	_	
+5-4	90-106	miljonprogrammen	*	_	_	_	_	_	
+5-5	107-109	så	_	_	_	_	_	_	
+5-6	110-114	fula	_	Target	5-4	false	2	5-2	
+5-7	114-115	?	_	_	_	_	_	_	
+
+#Text=Pengar?
+6-1	116-122	Pengar	_	_	_	_	_	_	
+6-2	122-123	?	_	_	_	_	_	_	
+
+#Text=Dålig fantasi?.
+7-1	124-129	Dålig	_	Target	7-2	false	2	_	
+7-2	130-137	fantasi	*	_	_	_	_	_	
+7-3	137-138	?	_	_	_	_	_	_	
+7-4	138-139	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	141-142	#	_	_	_	_	_	_	
+8-2	142-143	P	_	_	_	_	_	_	
+8-3	144-147	IMM	_	_	_	_	_	_	
+8-4	147-148	.	_	_	_	_	_	_	
+
+#Text=Varför tycker folk i allmänhet att dessa områden är fula?
+9-1	150-156	Varför	_	_	_	_	_	_	
+9-2	157-163	tycker	_	Source;Target	9-3[1];9-7[2]	false	2	_	
+9-3	164-168	folk	*[1]	_	_	_	_	_	
+9-4	169-170	i	*[1]	_	_	_	_	_	
+9-5	171-180	allmänhet	*[1]	_	_	_	_	_	
+9-6	181-184	att	_	_	_	_	_	_	
+9-7	185-190	dessa	*[2]	_	_	_	_	_	
+9-8	191-198	områden	*[2]	_	_	_	_	_	
+9-9	199-201	är	*[2]	_	_	_	_	_	
+9-10	202-206	fula	*[2]	_	_	_	_	_	
+9-11	206-207	?	_	_	_	_	_	_	
+
+#Text=Hur skulle man annars ha byggt dem?.
+10-1	208-211	Hur	_	_	_	_	_	_	
+10-2	212-218	skulle	_	_	_	_	_	_	
+10-3	219-222	man	_	_	_	_	_	_	
+10-4	223-229	annars	_	_	_	_	_	_	
+10-5	230-232	ha	_	_	_	_	_	_	
+10-6	233-238	byggt	_	_	_	_	_	_	
+10-7	239-242	dem	_	_	_	_	_	_	
+10-8	242-243	?	_	_	_	_	_	_	
+10-9	243-244	.	_	_	_	_	_	_	

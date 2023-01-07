@@ -1,0 +1,307 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Asiatisk man som talade ut om rasismen mot vita är utfryst från SAL.
+3-1	18-26	Asiatisk	*[12]	_	_	_	_	
+3-2	27-30	man	*[12]	_	_	_	_	
+3-3	31-34	som	_	_	_	_	_	
+3-4	35-41	talade	_	_	_	_	_	
+3-5	42-44	ut	_	_	_	_	_	
+3-6	45-47	om	_	_	_	_	_	
+3-7	48-56	rasismen	*	Target	3-7	false	1	
+3-8	57-60	mot	_	_	_	_	_	
+3-9	61-65	vita	_	_	_	_	_	
+3-10	66-68	är	_	_	_	_	_	
+3-11	69-76	utfryst	_	Source;Target	3-13;3-1[12]	false	2	
+3-12	77-81	från	_	_	_	_	_	
+3-13	82-85	SAL	*	_	_	_	_	
+3-14	85-86	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	88-89	#	_	_	_	_	_	
+4-2	89-90	P	_	_[3]	_	false[3]	2[3]	
+4-3	91-94	IMM	_	_[3]	_	false[3]	2[3]	
+4-4	94-95	.	_	_	_	_	_	
+
+#Text=Nazir Afzal är en advokat i England.
+5-1	97-102	Nazir	_	_	_	_	_	
+5-2	103-108	Afzal	_	_	_	_	_	
+5-3	109-111	är	_	_	_	_	_	
+5-4	112-114	en	_	_	_	_	_	
+5-5	115-122	advokat	_	_	_	_	_	
+5-6	123-124	i	_	_	_	_	_	
+5-7	125-132	England	_	_	_	_	_	
+5-8	132-133	.	_	_	_	_	_	
+
+#Text=Den 12 augusti i år skrev han en debattartikel, där han kritiserade det asiatiska samhällets ovilja att konfrontera den sexistiska och rasistiska kulturen som är utbredd där.
+6-1	134-137	Den	_	_	_	_	_	
+6-2	138-140	12	_	_	_	_	_	
+6-3	141-148	augusti	_	_	_	_	_	
+6-4	149-150	i	_	_	_	_	_	
+6-5	151-153	år	_	_	_	_	_	
+6-6	154-159	skrev	_	_	_	_	_	
+6-7	160-163	han	_	_	_	_	_	
+6-8	164-166	en	_	_	_	_	_	
+6-9	167-180	debattartikel	_	_	_	_	_	
+6-10	180-181	,	_	_	_	_	_	
+6-11	182-185	där	_	_	_	_	_	
+6-12	186-189	han	*	_	_	_	_	
+6-13	190-201	kritiserade	_	Target;Source	6-14[13];6-12	false	2	
+6-14	202-205	det	*[13]	_	_	_	_	
+6-15	206-215	asiatiska	*[13]|*[14]	_	_	_	_	
+6-16	216-226	samhällets	*[13]|*[14]	_	_	_	_	
+6-17	227-233	ovilja	*[13]	Source;Target	6-15[14];6-19[15]	false	2	
+6-18	234-237	att	*[13]	_	_	_	_	
+6-19	238-249	konfrontera	*[13]|*[15]	_	_	_	_	
+6-20	250-253	den	*[13]|*[15]	_	_	_	_	
+6-21	254-264	sexistiska	*[13]|*[15]	Target[4]	6-24[16]	false[4]	1[4]	
+6-22	265-268	och	*[13]|*[15]	Target[4]	6-24[16]	false[4]	1[4]	
+6-23	269-279	rasistiska	*[13]|*[15]	Target[4]	6-24[16]	false[4]	1[4]	
+6-24	280-288	kulturen	*[13]|*[15]|*[16]	_	_	_	_	
+6-25	289-292	som	_	_	_	_	_	
+6-26	293-295	är	_	_	_	_	_	
+6-27	296-303	utbredd	_	_	_	_	_	
+6-28	304-307	där	_	_	_	_	_	
+6-29	307-308	.	_	_	_	_	_	
+
+#Text=Detta skrev han i samband med Rochdaleskandalen, där asiatiska pedofiler våldtog vita flickor.
+7-1	309-314	Detta	_	_	_	_	_	
+7-2	315-320	skrev	_	_	_	_	_	
+7-3	321-324	han	_	_	_	_	_	
+7-4	325-326	i	_	_	_	_	_	
+7-5	327-334	samband	_	_	_	_	_	
+7-6	335-338	med	_	_	_	_	_	
+7-7	339-356	Rochdaleskandalen	_	_	_	_	_	
+7-8	356-357	,	_	_	_	_	_	
+7-9	358-361	där	_	_	_	_	_	
+7-10	362-371	asiatiska	*[17]	_	_	_	_	
+7-11	372-381	pedofiler	*[17]	_	_	_	_	
+7-12	382-389	våldtog	_	Target	7-10[17]	false	1	
+7-13	390-394	vita	_	_	_	_	_	
+7-14	395-402	flickor	_	_	_	_	_	
+7-15	402-403	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	405-406	#	_	_	_	_	_	
+8-2	406-407	P	_	_[5]	_	false[5]	2[5]	
+8-3	408-411	IMM	_	_[5]	_	false[5]	2[5]	
+8-4	411-412	.	_	_	_	_	_	
+
+#Text=I England finns det en organisation som heter Society of Asian Lawyers.
+9-1	414-415	I	_	_	_	_	_	
+9-2	416-423	England	_	_	_	_	_	
+9-3	424-429	finns	_	_	_	_	_	
+9-4	430-433	det	_	_	_	_	_	
+9-5	434-436	en	_	_	_	_	_	
+9-6	437-449	organisation	_	_	_	_	_	
+9-7	450-453	som	_	_	_	_	_	
+9-8	454-459	heter	_	_	_	_	_	
+9-9	460-467	Society	_	_	_	_	_	
+9-10	468-470	of	_	_	_	_	_	
+9-11	471-476	Asian	_	_	_	_	_	
+9-12	477-484	Lawyers	_	_	_	_	_	
+9-13	484-485	.	_	_	_	_	_	
+
+#Text=Bara att det finns en organisation som främjar rasism, och att den tillåts existera för att rasisterna inte är vita, är sjukt, men det behöver vi inte diskutera här.
+10-1	486-490	Bara	_	_	_	_	_	
+10-2	491-494	att	_	_	_	_	_	
+10-3	495-498	det	_	_	_	_	_	
+10-4	499-504	finns	_	_	_	_	_	
+10-5	505-507	en	_	_	_	_	_	
+10-6	508-520	organisation	*	_	_	_	_	
+10-7	521-524	som	_	_	_	_	_	
+10-8	525-532	främjar	_	Target[6]	10-6	false[6]	2[6]	
+10-9	533-539	rasism	_	Target[6]	10-6	false[6]	2[6]	
+10-10	539-540	,	_	_	_	_	_	
+10-11	541-544	och	_	_	_	_	_	
+10-12	545-548	att	_	_	_	_	_	
+10-13	549-552	den	*[18]	_	_	_	_	
+10-14	553-560	tillåts	*[18]	_	_	_	_	
+10-15	561-569	existera	*[18]	_	_	_	_	
+10-16	570-573	för	*[18]	_	_	_	_	
+10-17	574-577	att	*[18]	_	_	_	_	
+10-18	578-588	rasisterna	*[18]	_	_	_	_	
+10-19	589-593	inte	*[18]	_	_	_	_	
+10-20	594-596	är	*[18]	_	_	_	_	
+10-21	597-601	vita	*[18]	_	_	_	_	
+10-22	601-602	,	_	_	_	_	_	
+10-23	603-605	är	_	Target[7]	10-13[18]	false[7]	1[7]	
+10-24	606-611	sjukt	_	Target[7]	10-13[18]	false[7]	1[7]	
+10-25	611-612	,	_	_	_	_	_	
+10-26	613-616	men	_	_	_	_	_	
+10-27	617-620	det	_	_	_	_	_	
+10-28	621-628	behöver	_	_	_	_	_	
+10-29	629-631	vi	_	_	_	_	_	
+10-30	632-636	inte	_	_	_	_	_	
+10-31	637-646	diskutera	_	_	_	_	_	
+10-32	647-650	här	_	_	_	_	_	
+10-33	650-651	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	653-654	#	_	_	_	_	_	
+11-2	654-655	P	_	_	_	_	_	
+11-3	656-659	IMM	_	_	_	_	_	
+11-4	659-660	.	_	_	_	_	_	
+
+#Text=Afzal fick, för några månader sedan, en inbjudan till SALs årliga bal.
+12-1	662-667	Afzal	_	_	_	_	_	
+12-2	668-672	fick	_	_	_	_	_	
+12-3	672-673	,	_	_	_	_	_	
+12-4	674-677	för	_	_	_	_	_	
+12-5	678-683	några	_	_	_	_	_	
+12-6	684-691	månader	_	_	_	_	_	
+12-7	692-697	sedan	_	_	_	_	_	
+12-8	697-698	,	_	_	_	_	_	
+12-9	699-701	en	_	_	_	_	_	
+12-10	702-710	inbjudan	_	_	_	_	_	
+12-11	711-715	till	_	_	_	_	_	
+12-12	716-720	SALs	_	_	_	_	_	
+12-13	721-727	årliga	_	_	_	_	_	
+12-14	728-731	bal	_	_	_	_	_	
+12-15	731-732	.	_	_	_	_	_	
+
+#Text=Det var meningen att han skulle hålla ett tal.
+13-1	733-736	Det	_	_	_	_	_	
+13-2	737-740	var	_	_	_	_	_	
+13-3	741-749	meningen	_	_	_	_	_	
+13-4	750-753	att	_	_	_	_	_	
+13-5	754-757	han	_	_	_	_	_	
+13-6	758-764	skulle	_	_	_	_	_	
+13-7	765-770	hålla	_	_	_	_	_	
+13-8	771-774	ett	_	_	_	_	_	
+13-9	775-778	tal	_	_	_	_	_	
+13-10	778-779	.	_	_	_	_	_	
+
+#Text=Nu har SAL återkallat hans inbjudan, med anledning av debattartikeln som han skrev.
+14-1	780-782	Nu	_	_	_	_	_	
+14-2	783-786	har	_	_	_	_	_	
+14-3	787-790	SAL	_	_	_	_	_	
+14-4	791-801	återkallat	_	_	_	_	_	
+14-5	802-806	hans	_	_	_	_	_	
+14-6	807-815	inbjudan	_	_	_	_	_	
+14-7	815-816	,	_	_	_	_	_	
+14-8	817-820	med	_	_	_	_	_	
+14-9	821-830	anledning	_	_	_	_	_	
+14-10	831-833	av	_	_	_	_	_	
+14-11	834-848	debattartikeln	_	_	_	_	_	
+14-12	849-852	som	_	_	_	_	_	
+14-13	853-856	han	_	_	_	_	_	
+14-14	857-862	skrev	_	_	_	_	_	
+14-15	862-863	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	865-866	#	_	_	_	_	_	
+15-2	866-867	P	_	_	_	_	_	
+15-3	868-871	IMM	_	_	_	_	_	
+15-4	871-872	.	_	_	_	_	_	
+
+#Text=Enligt SAL så togs detta beslut för att man var orolig för att Afzal kunde ha "kränkt" någon på balen med sina åsikter.
+16-1	874-880	Enligt	_	_	_	_	_	
+16-2	881-884	SAL	*	_	_	_	_	
+16-3	885-887	så	_	_	_	_	_	
+16-4	888-892	togs	_	_	_	_	_	
+16-5	893-898	detta	_	_	_	_	_	
+16-6	899-905	beslut	_	_	_	_	_	
+16-7	906-909	för	_	_	_	_	_	
+16-8	910-913	att	_	_	_	_	_	
+16-9	914-917	man	_	_	_	_	_	
+16-10	918-921	var	_	_	_	_	_	
+16-11	922-928	orolig	_	Target;Source	16-14[19];16-2	false	2	
+16-12	929-932	för	_	_	_	_	_	
+16-13	933-936	att	_	_	_	_	_	
+16-14	937-942	Afzal	*[19]	_	_	_	_	
+16-15	943-948	kunde	*[19]	_	_	_	_	
+16-16	949-951	ha	*[19]	_	_	_	_	
+16-17	952-953	"	*[19]	_	_	_	_	
+16-18	953-959	kränkt	*[19]	_	_	_	_	
+16-19	959-960	"	*[19]	_	_	_	_	
+16-20	961-966	någon	*[19]	_	_	_	_	
+16-21	967-969	på	*[19]	_	_	_	_	
+16-22	970-975	balen	*[19]	_	_	_	_	
+16-23	976-979	med	*[19]	_	_	_	_	
+16-24	980-984	sina	*[19]	_	_	_	_	
+16-25	985-992	åsikter	*[19]	_	_	_	_	
+16-26	992-993	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	995-996	#	_	_	_	_	_	
+17-2	996-997	P	_	_	_	_	_	
+17-3	998-1001	IMM	_	_	_	_	_	
+17-4	1001-1002	.	_	_	_	_	_	
+
+#Text=Vad tänker ni om detta?.
+18-1	1004-1007	Vad	_	_	_	_	_	
+18-2	1008-1014	tänker	_	_	_	_	_	
+18-3	1015-1017	ni	_	_	_	_	_	
+18-4	1018-1020	om	_	_	_	_	_	
+18-5	1021-1026	detta	_	_	_	_	_	
+18-6	1026-1027	?	_	_	_	_	_	
+18-7	1027-1028	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1030-1031	#	_	_	_	_	_	
+19-2	1031-1032	P	_	_[8]	_	false[8]	1[8]	
+19-3	1033-1036	IMM	_	_[8]	_	false[8]	1[8]	
+19-4	1036-1037	.	_	_	_	_	_	
+
+#Text=För mig är det uppenbart att Afzal, när det gäller politiska åsikter, tillhör en pytteliten minoritet, och att majoriteten av invandrare från Afrika och Mellanöstern tycker att deras pedofiler och våldtäktsmän gör helt rätt som ger sig på vita småtjejer och kvinnor.
+20-1	1039-1042	För	_	_	_	_	_	
+20-2	1043-1046	mig	_	_	_	_	_	
+20-3	1047-1049	är	_	_	_	_	_	
+20-4	1050-1053	det	_	_	_	_	_	
+20-5	1054-1063	uppenbart	_	Target	20-22[20]	false	2	
+20-6	1064-1067	att	_	_	_	_	_	
+20-7	1068-1073	Afzal	_	_	_	_	_	
+20-8	1073-1074	,	_	_	_	_	_	
+20-9	1075-1078	när	_	_	_	_	_	
+20-10	1079-1082	det	_	_	_	_	_	
+20-11	1083-1089	gäller	_	_	_	_	_	
+20-12	1090-1099	politiska	_	_	_	_	_	
+20-13	1100-1107	åsikter	_	_	_	_	_	
+20-14	1107-1108	,	_	_	_	_	_	
+20-15	1109-1116	tillhör	_	_	_	_	_	
+20-16	1117-1119	en	_	_	_	_	_	
+20-17	1120-1130	pytteliten	_	_	_	_	_	
+20-18	1131-1140	minoritet	_	_	_	_	_	
+20-19	1140-1141	,	_	_	_	_	_	
+20-20	1142-1145	och	_	_	_	_	_	
+20-21	1146-1149	att	_	_	_	_	_	
+20-22	1150-1161	majoriteten	*[20]|*[21]	_	_	_	_	
+20-23	1162-1164	av	*[20]|*[21]	_	_	_	_	
+20-24	1165-1175	invandrare	*[20]|*[21]	_	_	_	_	
+20-25	1176-1180	från	*[20]|*[21]	_	_	_	_	
+20-26	1181-1187	Afrika	*[20]|*[21]	_	_	_	_	
+20-27	1188-1191	och	*[20]|*[21]	_	_	_	_	
+20-28	1192-1204	Mellanöstern	*[20]|*[21]	_	_	_	_	
+20-29	1205-1211	tycker	*[20]	_	_	false	4	
+20-30	1212-1215	att	*[20]	_	_	_	_	
+20-31	1216-1221	deras	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-32	1222-1231	pedofiler	*[20]|*[22]	Source[9]|Target[10]	20-22[21]|20-32[22]	false[9]|false[10]	4[9]|1[10]	
+20-33	1232-1235	och	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-34	1236-1248	våldtäktsmän	*[20]|*[23]	Source[9]|Target[11]	20-22[21]|20-34[23]	false[9]|false[11]	4[9]|1[11]	
+20-35	1249-1252	gör	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-36	1253-1257	helt	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-37	1258-1262	rätt	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-38	1263-1266	som	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-39	1267-1270	ger	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-40	1271-1274	sig	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-41	1275-1277	på	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-42	1278-1282	vita	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-43	1283-1292	småtjejer	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-44	1293-1296	och	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-45	1297-1304	kvinnor	*[20]	Source[9]	20-22[21]	false[9]	4[9]	
+20-46	1304-1305	.	_	_	_	_	_	

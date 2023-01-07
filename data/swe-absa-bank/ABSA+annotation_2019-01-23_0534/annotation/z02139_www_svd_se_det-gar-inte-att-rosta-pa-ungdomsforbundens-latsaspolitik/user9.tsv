@@ -1,0 +1,1057 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Det går inte att rösta på ungdomsförbundens låtsaspolitik.
+3-1	18-21	Det	_	_	_	_	_	_	_	
+3-2	22-25	går	_	_	_	_	_	_	_	
+3-3	26-30	inte	_	_	_	_	_	_	_	
+3-4	31-34	att	_	_	_	_	_	_	_	
+3-5	35-40	rösta	_	_	_	_	_	_	_	
+3-6	41-43	på	_	_	_	_	_	_	_	
+3-7	44-61	ungdomsförbundens	_	_	_	_	_	_	_	
+3-8	62-75	låtsaspolitik	*	Target	3-8	false	2	_	_	
+3-9	75-76	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	78-79	#	_	_	_	_	_	_	_	
+4-2	79-80	P	_	_	_	_	_	_	_	
+4-3	81-84	IMM	_	_	_	_	_	_	_	
+4-4	84-85	.	_	_	_	_	_	_	_	
+
+#Text=Grön Ungdom ägnar sig inte åt låtsaspolitik.
+5-1	87-91	Grön	*[19]	_	_	_	_	_	_	
+5-2	92-98	Ungdom	*[19]	_	_	_	_	_	_	
+5-3	99-104	ägnar	_	Target[1]	5-1[19]	false[1]	3[1]	_	_	
+5-4	105-108	sig	_	Target[1]	5-1[19]	false[1]	3[1]	_	_	
+5-5	109-113	inte	_	Target[1]	5-1[19]	false[1]	3[1]	_	_	
+5-6	114-116	åt	_	Target[1]	5-1[19]	false[1]	3[1]	_	_	
+5-7	117-130	låtsaspolitik	*	Target[1]|Target[2]	5-1[19]|5-7	false[1]|false[2]	3[1]|2[2]	_	_	
+5-8	130-131	.	_	_	_	_	_	_	_	
+
+#Text=Vi driver samma politik som vårt moderparti Miljöpartiet.
+6-1	132-134	Vi	_	_	_	_	_	_	_	
+6-2	135-141	driver	_	_	_	_	_	_	_	
+6-3	142-147	samma	_	_	_	_	_	_	_	
+6-4	148-155	politik	_	_	_	_	_	_	_	
+6-5	156-159	som	_	_	_	_	_	_	_	
+6-6	160-164	vårt	_	_	_	_	_	_	_	
+6-7	165-175	moderparti	_	_	_	_	_	_	_	
+6-8	176-188	Miljöpartiet	_	_	_	_	_	_	_	
+6-9	188-189	.	_	_	_	_	_	_	_	
+
+#Text=Vi försöker inte locka unga väljare med ett specialutformat ungdomspaket, som låter bra under valrörelsen men inte har någon förankring i moderpartiets politik.
+7-1	190-192	Vi	_	_	_	_	_	_	_	
+7-2	193-201	försöker	_	_	_	_	_	_	_	
+7-3	202-206	inte	_	_	_	_	_	_	_	
+7-4	207-212	locka	_	_	_	_	_	_	_	
+7-5	213-217	unga	_	_	_	_	_	_	_	
+7-6	218-225	väljare	_	_	_	_	_	_	_	
+7-7	226-229	med	_	_	_	_	_	_	_	
+7-8	230-233	ett	_	_	_	_	_	_	_	
+7-9	234-249	specialutformat	_	_	_	_	_	_	_	
+7-10	250-262	ungdomspaket	_	_	_	_	_	_	_	
+7-11	262-263	,	_	_	_	_	_	_	_	
+7-12	264-267	som	_	_	_	_	_	_	_	
+7-13	268-273	låter	_	_	_	_	_	_	_	
+7-14	274-277	bra	_	_	_	_	_	_	_	
+7-15	278-283	under	_	_	_	_	_	_	_	
+7-16	284-295	valrörelsen	_	_	_	_	_	_	_	
+7-17	296-299	men	_	_	_	_	_	_	_	
+7-18	300-304	inte	_	_	_	_	_	_	_	
+7-19	305-308	har	_	_	_	_	_	_	_	
+7-20	309-314	någon	_	_	_	_	_	_	_	
+7-21	315-325	förankring	_	_	_	_	_	_	_	
+7-22	326-327	i	_	_	_	_	_	_	_	
+7-23	328-341	moderpartiets	_	_	_	_	_	_	_	
+7-24	342-349	politik	_	_	_	_	_	_	_	
+7-25	349-350	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	352-353	#	_	_	_	_	_	_	_	
+8-2	353-354	P	_	_	_	_	_	_	_	
+8-3	355-358	IMM	_	_	_	_	_	_	_	
+8-4	358-359	.	_	_	_	_	_	_	_	
+
+#Text=Tre av de fyra regeringspartiernas ungdomsförbund är för en helt fri invandring till Sverige.
+9-1	361-364	Tre	*[20]	_	_	_	_	_	_	
+9-2	365-367	av	*[20]	_	_	_	_	_	_	
+9-3	368-370	de	*[20]	_	_	_	_	_	_	
+9-4	371-375	fyra	*[20]	_	_	_	_	_	_	
+9-5	376-395	regeringspartiernas	*[20]	_	_	_	_	_	_	
+9-6	396-410	ungdomsförbund	*[20]	_	_	_	_	_	_	
+9-7	411-413	är	_	Source;Target[3]	9-1[20];9-9[21]	false[3]	4[3]	_	_	
+9-8	414-417	för	_	Source;Target[3]	9-1[20];9-9[21]	false[3]	4[3]	_	_	
+9-9	418-420	en	*[21]	_	_	_	_	_	_	
+9-10	421-425	helt	*[21]	_	_	_	_	_	_	
+9-11	426-429	fri	*[21]	_	_	_	_	_	_	
+9-12	430-440	invandring	*[21]	_	_	_	_	_	_	
+9-13	441-445	till	*[21]	_	_	_	_	_	_	
+9-14	446-453	Sverige	*[21]	_	_	_	_	_	_	
+9-15	453-454	.	_	_	_	_	_	_	_	
+
+#Text=Moderata Ungdomsförbundet, Liberala Ungdomsförbundet och Centerpartiets Ungdomsförbund anser alla att gränserna ska öppnas för alla som vill in.
+10-1	455-463	Moderata	*[22]	_	_	_	_	_	15-1[0_22]	
+10-2	464-480	Ungdomsförbundet	*[22]	_	_	_	_	_	_	
+10-3	480-481	,	*[22]	_	_	_	_	_	_	
+10-4	482-490	Liberala	*[22]	_	_	_	_	_	_	
+10-5	491-507	Ungdomsförbundet	*[22]	_	_	_	_	_	_	
+10-6	508-511	och	*[22]	_	_	_	_	_	_	
+10-7	512-526	Centerpartiets	*[22]	_	_	_	_	_	_	
+10-8	527-541	Ungdomsförbund	*[22]	_	_	_	_	_	_	
+10-9	542-547	anser	*[22]	_	_	_	_	_	_	
+10-10	548-552	alla	*[22]	_	_	_	_	_	_	
+10-11	553-556	att	*[22]	_	_	_	_	_	_	
+10-12	557-566	gränserna	*[22]	_	_	_	_	_	_	
+10-13	567-570	ska	*[22]	_	_	_	_	_	_	
+10-14	571-577	öppnas	*[22]	_	_	_	_	_	_	
+10-15	578-581	för	*[22]	_	_	_	_	_	_	
+10-16	582-586	alla	*[22]	_	_	_	_	_	_	
+10-17	587-590	som	*[22]	_	_	_	_	_	_	
+10-18	591-595	vill	*[22]	_	_	_	_	_	_	
+10-19	596-598	in	*[22]	_	_	_	_	_	_	
+10-20	598-599	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	601-602	#	_	_	_	_	_	_	_	
+11-2	602-603	P	_	_	_	_	_	_	_	
+11-3	604-607	IMM	_	_	_	_	_	_	_	
+11-4	607-608	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	610-613	Det	_	_	_	_	_	_	_	
+12-2	614-617	här	_	_	_	_	_	_	_	
+12-3	618-620	är	_	_	_	_	_	_	_	
+12-4	621-623	en	_	_	_	_	_	_	_	
+12-5	624-638	argumenterande	_	_	_	_	_	_	_	
+12-6	639-643	text	_	_	_	_	_	_	_	
+12-7	644-647	med	_	_	_	_	_	_	_	
+12-8	648-653	syfte	_	_	_	_	_	_	_	
+12-9	654-657	att	_	_	_	_	_	_	_	
+12-10	658-665	påverka	_	_	_	_	_	_	_	
+12-11	665-666	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	667-676	Åsikterna	_	_	_	_	_	_	_	
+13-2	677-680	som	_	_	_	_	_	_	_	
+13-3	681-689	uttrycks	_	_	_	_	_	_	_	
+13-4	690-692	är	_	_	_	_	_	_	_	
+13-5	693-704	skribentens	_	_	_	_	_	_	_	
+13-6	705-709	egna	_	_	_	_	_	_	_	
+13-7	709-710	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	712-713	#	_	_	_	_	_	_	_	
+14-2	713-714	P	_	_	_	_	_	_	_	
+14-3	715-718	IMM	_	_	_	_	_	_	_	
+14-4	718-719	.	_	_	_	_	_	_	_	
+
+#Text=Detta är naturligtvis bra.
+15-1	721-726	Detta	*	_	_	_	_	_	_	
+15-2	727-729	är	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-3	730-742	naturligtvis	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-4	743-746	bra	_	Target[4]	15-1	false[4]	4[4]	_	_	
+15-5	746-747	.	_	_	_	_	_	_	_	
+
+#Text=Vi gröna har en vision om en värld där människors rätt att röra sig fritt väger tyngre än staters rätt att stänga människor ute.
+16-1	748-750	Vi	_	_	_	_	_	_	_	
+16-2	751-756	gröna	_	_	_	_	_	_	_	
+16-3	757-760	har	_	_	_	_	_	_	_	
+16-4	761-763	en	_	_	_	_	_	_	_	
+16-5	764-770	vision	_	_	_	_	_	_	_	
+16-6	771-773	om	_	_	_	_	_	_	_	
+16-7	774-776	en	_	_	_	_	_	_	_	
+16-8	777-782	värld	_	_	_	_	_	_	_	
+16-9	783-786	där	_	_	_	_	_	_	_	
+16-10	787-797	människors	_	_	_	_	_	_	_	
+16-11	798-802	rätt	_	_	_	_	_	_	_	
+16-12	803-806	att	_	_	_	_	_	_	_	
+16-13	807-811	röra	_	_	_	_	_	_	_	
+16-14	812-815	sig	_	_	_	_	_	_	_	
+16-15	816-821	fritt	_	_	_	_	_	_	_	
+16-16	822-827	väger	_	_	_	_	_	_	_	
+16-17	828-834	tyngre	_	_	_	_	_	_	_	
+16-18	835-837	än	_	_	_	_	_	_	_	
+16-19	838-845	staters	_	_	_	_	_	_	_	
+16-20	846-850	rätt	_	_	_	_	_	_	_	
+16-21	851-854	att	_	_	_	_	_	_	_	
+16-22	855-861	stänga	_	_	_	_	_	_	_	
+16-23	862-871	människor	_	_	_	_	_	_	_	
+16-24	872-875	ute	_	_	_	_	_	_	_	
+16-25	875-876	.	_	_	_	_	_	_	_	
+
+#Text=Ju fler som tycker som vi desto bättre.
+17-1	877-879	Ju	*[23]	_	_	_	_	_	_	
+17-2	880-884	fler	*[23]	_	_	_	_	_	_	
+17-3	885-888	som	*[23]	_	_	_	_	_	_	
+17-4	889-895	tycker	*[23]	_	_	_	_	_	_	
+17-5	896-899	som	*[23]	_	_	_	_	_	_	
+17-6	900-902	vi	*[23]	_	_	_	_	_	_	
+17-7	903-908	desto	_	Target[5]	17-1[23]	false[5]	4[5]	_	_	
+17-8	909-915	bättre	_	Target[5]	17-1[23]	false[5]	4[5]	_	_	
+17-9	915-916	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	918-919	#	_	_	_	_	_	_	_	
+18-2	919-920	P	_	_	_	_	_	_	_	
+18-3	921-924	IMM	_	_	_	_	_	_	_	
+18-4	924-925	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är att det inte går att rösta på ungdomsförbundens låtsaspolitik.
+19-1	927-936	Problemet	_	Target[6]	19-3[24]	false[6]	2[6]	_	_	
+19-2	937-939	är	_	Target[6]	19-3[24]	false[6]	2[6]	_	_	
+19-3	940-943	att	*[24]	_	_	_	_	_	_	
+19-4	944-947	det	*[24]	_	_	_	_	_	_	
+19-5	948-952	inte	*[24]	_	_	_	_	_	_	
+19-6	953-956	går	*[24]	_	_	_	_	_	_	
+19-7	957-960	att	*[24]	_	_	_	_	_	_	
+19-8	961-966	rösta	*[24]	_	_	_	_	_	_	
+19-9	967-969	på	*[24]	_	_	_	_	_	_	
+19-10	970-987	ungdomsförbundens	*[24]	_	_	_	_	_	_	
+19-11	988-1001	låtsaspolitik	*[24]|*[25]	Target	19-11[25]	false	2	_	_	
+19-12	1001-1002	.	_	_	_	_	_	_	_	
+
+#Text=En röst på Moderaterna, Folkpartiet eller Centern är inte alls en röst på en mer human asylpolitik.
+20-1	1003-1005	En	_	_	_	_	_	_	_	
+20-2	1006-1010	röst	_	_	_	_	_	_	_	
+20-3	1011-1013	på	_	_	_	_	_	_	_	
+20-4	1014-1025	Moderaterna	_	_	_	_	_	_	_	
+20-5	1025-1026	,	_	_	_	_	_	_	_	
+20-6	1027-1038	Folkpartiet	_	_	_	_	_	_	_	
+20-7	1039-1044	eller	_	_	_	_	_	_	_	
+20-8	1045-1052	Centern	_	_	_	_	_	_	_	
+20-9	1053-1055	är	_	_	_	_	_	_	_	
+20-10	1056-1060	inte	_	_	_	_	_	_	_	
+20-11	1061-1065	alls	_	_	_	_	_	_	_	
+20-12	1066-1068	en	_	_	_	_	_	_	_	
+20-13	1069-1073	röst	_	_	_	_	_	_	_	
+20-14	1074-1076	på	_	_	_	_	_	_	_	
+20-15	1077-1079	en	_	_	_	_	_	_	_	
+20-16	1080-1083	mer	_	_	_	_	_	_	_	
+20-17	1084-1089	human	_	_	_	_	_	_	_	
+20-18	1090-1101	asylpolitik	_	_	_	_	_	_	_	
+20-19	1101-1102	.	_	_	_	_	_	_	_	
+
+#Text=Tvärtom – det är en röst på hårdare tag mot de människor som flytt till Sverige från tortyr och krig.
+21-1	1103-1110	Tvärtom	_	_	_	_	_	_	_	
+21-2	1111-1112	–	_	_	_	_	_	_	_	
+21-3	1113-1116	det	_	_	_	_	_	_	_	
+21-4	1117-1119	är	_	_	_	_	_	_	_	
+21-5	1120-1122	en	_	_	_	_	_	_	_	
+21-6	1123-1127	röst	_	_	_	_	_	_	_	
+21-7	1128-1130	på	_	_	_	_	_	_	_	
+21-8	1131-1138	hårdare	_	_	_	_	_	_	_	
+21-9	1139-1142	tag	_	_	_	_	_	_	_	
+21-10	1143-1146	mot	_	_	_	_	_	_	_	
+21-11	1147-1149	de	_	_	_	_	_	_	_	
+21-12	1150-1159	människor	_	_	_	_	_	_	_	
+21-13	1160-1163	som	_	_	_	_	_	_	_	
+21-14	1164-1169	flytt	_	_	_	_	_	_	_	
+21-15	1170-1174	till	_	_	_	_	_	_	_	
+21-16	1175-1182	Sverige	_	_	_	_	_	_	_	
+21-17	1183-1187	från	_	_	_	_	_	_	_	
+21-18	1188-1194	tortyr	_	_	_	_	_	_	_	
+21-19	1195-1198	och	_	_	_	_	_	_	_	
+21-20	1199-1203	krig	_	_	_	_	_	_	_	
+21-21	1203-1204	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1206-1207	#	_	_	_	_	_	_	_	
+22-2	1207-1208	P	_	_	_	_	_	_	_	
+22-3	1209-1212	IMM	_	_	_	_	_	_	_	
+22-4	1212-1213	.	_	_	_	_	_	_	_	
+
+#Text=Sedan 90-talet har den svenska migrationspolitiken blivit allt tuffare.
+23-1	1215-1220	Sedan	_	_	_	_	_	_	_	
+23-2	1221-1223	90	_	_	_	_	_	_	_	
+23-3	1223-1224	-	_	_	_	_	_	_	_	
+23-4	1224-1229	talet	_	_	_	_	_	_	_	
+23-5	1230-1233	har	_	_	_	false	2	23-9[7_0]	_	
+23-6	1234-1237	den	*[26]	_	_	_	_	_	_	
+23-7	1238-1245	svenska	*[26]	_	_	_	_	_	_	
+23-8	1246-1265	migrationspolitiken	*[26]	_	_	_	_	_	_	
+23-9	1266-1272	blivit	_	Target[7]	23-6[26]	false[7]	2[7]	_	_	
+23-10	1273-1277	allt	_	Target[7]	23-6[26]	false[7]	2[7]	_	_	
+23-11	1278-1285	tuffare	_	Target[7]	23-6[26]	false[7]	2[7]	_	_	
+23-12	1285-1286	.	_	_	_	_	_	_	_	
+
+#Text=Det är svårare att få stanna, det är svårare att få visum och det är svårare att få återförenas med sina nära och kära.
+24-1	1287-1290	Det	_	_	_	_	_	_	_	
+24-2	1291-1293	är	_	_	_	_	_	_	_	
+24-3	1294-1301	svårare	_	_	_	_	_	_	_	
+24-4	1302-1305	att	_	_	_	_	_	_	_	
+24-5	1306-1308	få	_	_	_	_	_	_	_	
+24-6	1309-1315	stanna	_	_	_	_	_	_	_	
+24-7	1315-1316	,	_	_	_	_	_	_	_	
+24-8	1317-1320	det	_	_	_	_	_	_	_	
+24-9	1321-1323	är	_	_	_	_	_	_	_	
+24-10	1324-1331	svårare	_	_	_	_	_	_	_	
+24-11	1332-1335	att	_	_	_	_	_	_	_	
+24-12	1336-1338	få	_	_	_	_	_	_	_	
+24-13	1339-1344	visum	_	_	_	_	_	_	_	
+24-14	1345-1348	och	_	_	_	_	_	_	_	
+24-15	1349-1352	det	_	_	_	_	_	_	_	
+24-16	1353-1355	är	_	_	_	_	_	_	_	
+24-17	1356-1363	svårare	_	_	_	_	_	_	_	
+24-18	1364-1367	att	_	_	_	_	_	_	_	
+24-19	1368-1370	få	_	_	_	_	_	_	_	
+24-20	1371-1382	återförenas	_	_	_	_	_	_	_	
+24-21	1383-1386	med	_	_	_	_	_	_	_	
+24-22	1387-1391	sina	_	_	_	_	_	_	_	
+24-23	1392-1396	nära	_	_	_	_	_	_	_	
+24-24	1397-1400	och	_	_	_	_	_	_	_	
+24-25	1401-1405	kära	_	_	_	_	_	_	_	
+24-26	1405-1406	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1408-1409	#	_	_	_	_	_	_	_	
+25-2	1409-1410	P	_	_	_	_	_	_	_	
+25-3	1411-1414	IMM	_	_	_	_	_	_	_	
+25-4	1414-1415	.	_	_	_	_	_	_	_	
+
+#Text=Sverige sågs tidigare som ett föregångsland när det gäller internationell solidaritet.
+26-1	1417-1424	Sverige	_	_	_	_	_	_	_	
+26-2	1425-1429	sågs	_	_	_	_	_	_	_	
+26-3	1430-1438	tidigare	_	_	_	_	_	_	_	
+26-4	1439-1442	som	_	_	_	_	_	_	_	
+26-5	1443-1446	ett	_	_	_	_	_	_	_	
+26-6	1447-1460	föregångsland	_	_	_	_	_	_	_	
+26-7	1461-1464	när	_	_	_	_	_	_	_	
+26-8	1465-1468	det	_	_	_	_	_	_	_	
+26-9	1469-1475	gäller	_	_	_	_	_	_	_	
+26-10	1476-1490	internationell	_	_	_	_	_	_	_	
+26-11	1491-1502	solidaritet	_	_	_	_	_	_	_	
+26-12	1502-1503	.	_	_	_	_	_	_	_	
+
+#Text=Numera är vi istället världsledande på att utvisa människor till länder där de senare torteras.
+27-1	1504-1510	Numera	_	_	_	_	_	_	_	
+27-2	1511-1513	är	_	_	_	_	_	_	_	
+27-3	1514-1516	vi	_	_	_	_	_	_	_	
+27-4	1517-1525	istället	_	_	_	_	_	_	_	
+27-5	1526-1539	världsledande	_	_	_	_	_	_	_	
+27-6	1540-1542	på	_	_	_	_	_	_	_	
+27-7	1543-1546	att	_	_	_	_	_	_	_	
+27-8	1547-1553	utvisa	_	_	_	_	_	_	_	
+27-9	1554-1563	människor	_	_	_	_	_	_	_	
+27-10	1564-1568	till	_	_	_	_	_	_	_	
+27-11	1569-1575	länder	_	_	_	_	_	_	_	
+27-12	1576-1579	där	_	_	_	_	_	_	_	
+27-13	1580-1582	de	_	_	_	_	_	_	_	
+27-14	1583-1589	senare	_	_	_	_	_	_	_	
+27-15	1590-1598	torteras	_	_	_	_	_	_	_	
+27-16	1598-1599	.	_	_	_	_	_	_	_	
+
+#Text=Vi har blivit prickade flest gånger för att ha brutit mot FN:s tortyrkonvention.
+28-1	1600-1602	Vi	_	_	_	_	_	_	_	
+28-2	1603-1606	har	_	_	_	_	_	_	_	
+28-3	1607-1613	blivit	_	_	_	_	_	_	_	
+28-4	1614-1622	prickade	_	_	_	_	_	_	_	
+28-5	1623-1628	flest	_	_	_	_	_	_	_	
+28-6	1629-1635	gånger	_	_	_	_	_	_	_	
+28-7	1636-1639	för	_	_	_	_	_	_	_	
+28-8	1640-1643	att	_	_	_	_	_	_	_	
+28-9	1644-1646	ha	_	_	_	_	_	_	_	
+28-10	1647-1653	brutit	_	_	_	_	_	_	_	
+28-11	1654-1657	mot	_	_	_	_	_	_	_	
+28-12	1658-1660	FN	_	_	_	_	_	_	_	
+28-13	1660-1661	:	_	_	_	_	_	_	_	
+28-14	1661-1662	s	_	_	_	_	_	_	_	
+28-15	1663-1679	tortyrkonvention	_	_	_	_	_	_	_	
+28-16	1679-1680	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1682-1683	#	_	_	_	_	_	_	_	
+29-2	1683-1684	P	_	_	_	_	_	_	_	
+29-3	1685-1688	IMM	_	_	_	_	_	_	_	
+29-4	1688-1689	.	_	_	_	_	_	_	_	
+
+#Text=FN:s människorättsråd kritiserar de ökade hatbrotten, den ökade antisemitismen och islamofobin, diskrimineringen och rasismen i Sverige.
+30-1	1691-1693	FN	*[27]	_	_	_	_	_	_	
+30-2	1693-1694	:	*[27]	_	_	_	_	_	_	
+30-3	1694-1695	s	*[27]	_	_	_	_	_	_	
+30-4	1696-1712	människorättsråd	*[27]	_	_	_	_	_	_	
+30-5	1713-1723	kritiserar	_	Source;Target	30-1[27];30-6[28]	false	2	_	_	
+30-6	1724-1726	de	*[28]	_	_	_	_	_	_	
+30-7	1727-1732	ökade	*[28]	_	_	_	_	_	_	
+30-8	1733-1743	hatbrotten	*[28]	_	_	_	_	_	_	
+30-9	1743-1744	,	*[28]	_	_	_	_	_	_	
+30-10	1745-1748	den	*[28]	_	_	_	_	_	_	
+30-11	1749-1754	ökade	*[28]	_	_	_	_	_	_	
+30-12	1755-1769	antisemitismen	*[28]	_	_	_	_	_	_	
+30-13	1770-1773	och	*[28]	_	_	_	_	_	_	
+30-14	1774-1785	islamofobin	*[28]	_	_	_	_	_	_	
+30-15	1785-1786	,	*[28]	_	_	_	_	_	_	
+30-16	1787-1803	diskrimineringen	*[28]	_	_	_	_	_	_	
+30-17	1804-1807	och	*[28]	_	_	_	_	_	_	
+30-18	1808-1816	rasismen	*[28]	_	_	_	_	_	_	
+30-19	1817-1818	i	*[28]	_	_	_	_	_	_	
+30-20	1819-1826	Sverige	*[28]	_	_	_	_	_	_	
+30-21	1826-1827	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1829-1830	#	_	_	_	_	_	_	_	
+31-2	1830-1831	P	_	_	_	_	_	_	_	
+31-3	1832-1835	IMM	_	_	_	_	_	_	_	
+31-4	1835-1836	.	_	_	_	_	_	_	_	
+
+#Text=Den nuvarande regeringen har gjort asylpolitiken ännu hårdare.
+32-1	1838-1841	Den	_	_	_	_	_	_	_	
+32-2	1842-1851	nuvarande	_	_	_	_	_	_	_	
+32-3	1852-1862	regeringen	_	_	_	_	_	_	_	
+32-4	1863-1866	har	_	_	_	_	_	_	_	
+32-5	1867-1872	gjort	_	_	_	_	_	_	_	
+32-6	1873-1886	asylpolitiken	_	_	_	_	_	_	_	
+32-7	1887-1891	ännu	_	_	_	_	_	_	_	
+32-8	1892-1899	hårdare	_	_	_	_	_	_	_	
+32-9	1899-1900	.	_	_	_	_	_	_	_	
+
+#Text=Man har minskat resurserna till antidiskriminering, men ökat resurserna till utvisningar och avvisningar.
+33-1	1901-1904	Man	_	_	_	_	_	_	_	
+33-2	1905-1908	har	_	_	_	_	_	_	_	
+33-3	1909-1916	minskat	_	_	_	_	_	_	_	
+33-4	1917-1927	resurserna	_	_	_	_	_	_	_	
+33-5	1928-1932	till	_	_	_	_	_	_	_	
+33-6	1933-1951	antidiskriminering	_	_	_	_	_	_	_	
+33-7	1951-1952	,	_	_	_	_	_	_	_	
+33-8	1953-1956	men	_	_	_	_	_	_	_	
+33-9	1957-1961	ökat	_	_	_	_	_	_	_	
+33-10	1962-1972	resurserna	_	_	_	_	_	_	_	
+33-11	1973-1977	till	_	_	_	_	_	_	_	
+33-12	1978-1989	utvisningar	_	_	_	_	_	_	_	
+33-13	1990-1993	och	_	_	_	_	_	_	_	
+33-14	1994-2005	avvisningar	_	_	_	_	_	_	_	
+33-15	2005-2006	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges migrationsminister Tobias Billström har jämfört gömda flyktingar med mördare och bett Migrationsverket bygga flyktingläger för ensamkommande barn i krigsdrabbade länder som Somalia och Afghanistan.
+34-1	2007-2015	Sveriges	_	_	_	_	_	_	_	
+34-2	2016-2034	migrationsminister	_	_	_	_	_	_	_	
+34-3	2035-2041	Tobias	_	_	_	_	_	_	_	
+34-4	2042-2051	Billström	_	_	_	_	_	_	_	
+34-5	2052-2055	har	_	_	_	_	_	_	_	
+34-6	2056-2063	jämfört	_	_	_	_	_	_	_	
+34-7	2064-2069	gömda	_	_	_	_	_	_	_	
+34-8	2070-2080	flyktingar	_	_	_	_	_	_	_	
+34-9	2081-2084	med	_	_	_	_	_	_	_	
+34-10	2085-2092	mördare	_	_	_	_	_	_	_	
+34-11	2093-2096	och	_	_	_	_	_	_	_	
+34-12	2097-2101	bett	_	_	_	_	_	_	_	
+34-13	2102-2118	Migrationsverket	_	_	_	_	_	_	_	
+34-14	2119-2124	bygga	_	_	_	_	_	_	_	
+34-15	2125-2138	flyktingläger	_	_	_	_	_	_	_	
+34-16	2139-2142	för	_	_	_	_	_	_	_	
+34-17	2143-2156	ensamkommande	_	_	_	_	_	_	_	
+34-18	2157-2161	barn	_	_	_	_	_	_	_	
+34-19	2162-2163	i	_	_	_	_	_	_	_	
+34-20	2164-2177	krigsdrabbade	_	_	_	_	_	_	_	
+34-21	2178-2184	länder	_	_	_	_	_	_	_	
+34-22	2185-2188	som	_	_	_	_	_	_	_	
+34-23	2189-2196	Somalia	_	_	_	_	_	_	_	
+34-24	2197-2200	och	_	_	_	_	_	_	_	
+34-25	2201-2212	Afghanistan	_	_	_	_	_	_	_	
+34-26	2212-2213	.	_	_	_	_	_	_	_	
+
+#Text=Apatiska barn utvisas fortfarande.
+35-1	2214-2222	Apatiska	_	_	_	_	_	_	_	
+35-2	2223-2227	barn	_	_	_	_	_	_	_	
+35-3	2228-2235	utvisas	_	_	_	_	_	_	_	
+35-4	2236-2247	fortfarande	_	_	_	_	_	_	_	
+35-5	2247-2248	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2250-2251	#	_	_	_	_	_	_	_	
+36-2	2251-2252	P	_	_	_	_	_	_	_	
+36-3	2253-2256	IMM	_	_	_	_	_	_	_	
+36-4	2256-2257	.	_	_	_	_	_	_	_	
+
+#Text=Självklart kan de borgerliga ungdomsförbunden inte lastas för detta.
+37-1	2259-2269	Självklart	_	_	_	_	_	_	_	
+37-2	2270-2273	kan	_	_	_	false	3	_	_	
+37-3	2274-2276	de	*[29]	_	_	_	_	_	_	
+37-4	2277-2287	borgerliga	*[29]	_	_	_	_	_	_	
+37-5	2288-2304	ungdomsförbunden	*[29]	_	_	_	_	_	_	
+37-6	2305-2309	inte	_	Target[8]	37-3[29]	false[8]	3[8]	37-2[0_8]	_	
+37-7	2310-2316	lastas	_	Target[8]	37-3[29]	false[8]	3[8]	_	_	
+37-8	2317-2320	för	_	Target[8]	37-3[29]	false[8]	3[8]	_	_	
+37-9	2321-2326	detta	_	Target[8]	37-3[29]	false[8]	3[8]	_	_	
+37-10	2326-2327	.	_	_	_	_	_	_	_	
+
+#Text=Men deras tal om fri invandring och öppna gränser ekar ihåligt när deras moderpartier samtidigt driver en politik i rakt motsatt riktning.
+38-1	2328-2331	Men	_	_	_	_	_	_	_	
+38-2	2332-2337	deras	_	_	_	_	_	_	_	
+38-3	2338-2341	tal	_	_	_	_	_	_	_	
+38-4	2342-2344	om	_	_	_	_	_	_	_	
+38-5	2345-2348	fri	_	_	_	_	_	_	_	
+38-6	2349-2359	invandring	_	_	_	_	_	_	_	
+38-7	2360-2363	och	_	_	_	_	_	_	_	
+38-8	2364-2369	öppna	_	_	_	_	_	_	_	
+38-9	2370-2377	gränser	_	_	_	_	_	_	_	
+38-10	2378-2382	ekar	_	_	_	_	_	_	_	
+38-11	2383-2390	ihåligt	_	_	_	_	_	_	_	
+38-12	2391-2394	när	_	_	_	_	_	_	_	
+38-13	2395-2400	deras	_	_	_	_	_	_	_	
+38-14	2401-2413	moderpartier	_	_	_	_	_	_	_	
+38-15	2414-2423	samtidigt	_	_	_	_	_	_	_	
+38-16	2424-2430	driver	_	_	_	_	_	_	_	
+38-17	2431-2433	en	_	_	_	_	_	_	_	
+38-18	2434-2441	politik	_	_	_	_	_	_	_	
+38-19	2442-2443	i	_	_	_	_	_	_	_	
+38-20	2444-2448	rakt	_	_	_	_	_	_	_	
+38-21	2449-2456	motsatt	_	_	_	_	_	_	_	
+38-22	2457-2465	riktning	_	_	_	_	_	_	_	
+38-23	2465-2466	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2468-2469	#	_	_	_	_	_	_	_	
+39-2	2469-2470	P	_	_	_	_	_	_	_	
+39-3	2471-2474	IMM	_	_	_	_	_	_	_	
+39-4	2474-2475	.	_	_	_	_	_	_	_	
+
+#Text=Hur länge kan Liberala Ungdomsförbundet propagera för en humanare asylpolitik och samtidigt uppmana folk att rösta folkpartiet, som de senaste åren byggt en stor del av sin image på att misstänkliggöra människor muslimer?.
+40-1	2477-2480	Hur	_	_	_	_	_	_	_	
+40-2	2481-2486	länge	_	_	_	_	_	_	_	
+40-3	2487-2490	kan	_	_	_	_	_	_	_	
+40-4	2491-2499	Liberala	*[30]	_	_	_	_	_	_	
+40-5	2500-2516	Ungdomsförbundet	*[30]	_	_	_	_	_	_	
+40-6	2517-2526	propagera	_	Source;Target[9]	40-4[30];40-8[31]	false[9]	4[9]	_	_	
+40-7	2527-2530	för	_	Source;Target[9]	40-4[30];40-8[31]	false[9]	4[9]	_	_	
+40-8	2531-2533	en	*[31]	_	_	_	_	_	_	
+40-9	2534-2542	humanare	*[31]	_	_	_	_	_	_	
+40-10	2543-2554	asylpolitik	*[31]	_	_	_	_	_	_	
+40-11	2555-2558	och	_	_	_	_	_	_	_	
+40-12	2559-2568	samtidigt	_	_	_	_	_	_	_	
+40-13	2569-2576	uppmana	_	_	_	_	_	_	_	
+40-14	2577-2581	folk	_	_	_	_	_	_	_	
+40-15	2582-2585	att	_	_	_	_	_	_	_	
+40-16	2586-2591	rösta	_	_	_	_	_	_	_	
+40-17	2592-2603	folkpartiet	_	_	_	_	_	_	_	
+40-18	2603-2604	,	_	_	_	_	_	_	_	
+40-19	2605-2608	som	_	_	_	_	_	_	_	
+40-20	2609-2611	de	_	_	_	_	_	_	_	
+40-21	2612-2619	senaste	_	_	_	_	_	_	_	
+40-22	2620-2624	åren	_	_	_	_	_	_	_	
+40-23	2625-2630	byggt	_	_	_	_	_	_	_	
+40-24	2631-2633	en	_	_	_	_	_	_	_	
+40-25	2634-2638	stor	_	_	_	_	_	_	_	
+40-26	2639-2642	del	_	_	_	_	_	_	_	
+40-27	2643-2645	av	_	_	_	_	_	_	_	
+40-28	2646-2649	sin	_	_	_	_	_	_	_	
+40-29	2650-2655	image	_	_	_	_	_	_	_	
+40-30	2656-2658	på	_	_	_	_	_	_	_	
+40-31	2659-2662	att	_	_	_	_	_	_	_	
+40-32	2663-2678	misstänkliggöra	_	_	_	_	_	_	_	
+40-33	2679-2688	människor	_	_	_	_	_	_	_	
+40-34	2689-2697	muslimer	_	_	_	_	_	_	_	
+40-35	2697-2698	?	_	_	_	_	_	_	_	
+40-36	2698-2699	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2701-2702	#	_	_	_	_	_	_	_	
+41-2	2702-2703	P	_	_	_	_	_	_	_	
+41-3	2704-2707	IMM	_	_	_	_	_	_	_	
+41-4	2707-2708	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiet vill "bekämpa missbruk av gästfriheten" och anser att "toleransen har gränser".
+42-1	2710-2721	Folkpartiet	*	_	_	_	_	_	_	
+42-2	2722-2726	vill	_	Source;Target[10]	42-1;42-5[32]	false[10]	2[10]	_	_	
+42-3	2727-2728	"	_	Source;Target[10]	42-1;42-5[32]	false[10]	2[10]	_	_	
+42-4	2728-2735	bekämpa	_	Source;Target[10]	42-1;42-5[32]	false[10]	2[10]	_	_	
+42-5	2736-2744	missbruk	*[32]	_	_	_	_	_	_	
+42-6	2745-2747	av	*[32]	_	_	_	_	_	_	
+42-7	2748-2760	gästfriheten	*[32]	_	_	_	_	_	_	
+42-8	2760-2761	"	*[32]	_	_	_	_	_	_	
+42-9	2762-2765	och	_	_	_	_	_	_	_	
+42-10	2766-2771	anser	_	_	_	_	_	_	_	
+42-11	2772-2775	att	_	_	_	_	_	_	_	
+42-12	2776-2777	"	_	_	_	_	_	_	_	
+42-13	2777-2787	toleransen	_	_	_	_	_	_	_	
+42-14	2788-2791	har	_	_	_	_	_	_	_	
+42-15	2792-2799	gränser	_	_	_	_	_	_	_	
+42-16	2799-2800	"	_	_	_	_	_	_	_	
+42-17	2800-2801	.	_	_	_	_	_	_	_	
+
+#Text=Nyamko Sabuni, folkpartistisk integrationsminister, vill förbjuda andra språk än svenska på invandrartäta skolor, straffa invandrare som inte deltar i svenskundervisningen trots att 90 procent deltar, förbjuda slöja för tjejer under 15 år.
+43-1	2802-2808	Nyamko	_	_	_	_	_	_	_	
+43-2	2809-2815	Sabuni	_	_	_	_	_	_	_	
+43-3	2815-2816	,	_	_	_	_	_	_	_	
+43-4	2817-2831	folkpartistisk	_	_	_	_	_	_	_	
+43-5	2832-2852	integrationsminister	_	_	_	_	_	_	_	
+43-6	2852-2853	,	_	_	_	_	_	_	_	
+43-7	2854-2858	vill	_	_	_	_	_	_	_	
+43-8	2859-2867	förbjuda	_	_	_	_	_	_	_	
+43-9	2868-2873	andra	_	_	_	_	_	_	_	
+43-10	2874-2879	språk	_	_	_	_	_	_	_	
+43-11	2880-2882	än	_	_	_	_	_	_	_	
+43-12	2883-2890	svenska	_	_	_	_	_	_	_	
+43-13	2891-2893	på	_	_	_	_	_	_	_	
+43-14	2894-2907	invandrartäta	_	_	_	_	_	_	_	
+43-15	2908-2914	skolor	_	_	_	_	_	_	_	
+43-16	2914-2915	,	_	_	_	_	_	_	_	
+43-17	2916-2923	straffa	_	_	_	_	_	_	_	
+43-18	2924-2934	invandrare	_	_	_	_	_	_	_	
+43-19	2935-2938	som	_	_	_	_	_	_	_	
+43-20	2939-2943	inte	_	_	_	_	_	_	_	
+43-21	2944-2950	deltar	_	_	_	_	_	_	_	
+43-22	2951-2952	i	_	_	_	_	_	_	_	
+43-23	2953-2973	svenskundervisningen	_	_	_	_	_	_	_	
+43-24	2974-2979	trots	_	_	_	_	_	_	_	
+43-25	2980-2983	att	_	_	_	_	_	_	_	
+43-26	2984-2986	90	_	_	_	_	_	_	_	
+43-27	2987-2994	procent	_	_	_	_	_	_	_	
+43-28	2995-3001	deltar	_	_	_	_	_	_	_	
+43-29	3001-3002	,	_	_	_	_	_	_	_	
+43-30	3003-3011	förbjuda	_	_	_	_	_	_	_	
+43-31	3012-3017	slöja	_	_	_	_	_	_	_	
+43-32	3018-3021	för	_	_	_	_	_	_	_	
+43-33	3022-3028	tjejer	_	_	_	_	_	_	_	
+43-34	3029-3034	under	_	_	_	_	_	_	_	
+43-35	3035-3037	15	_	_	_	_	_	_	_	
+43-36	3038-3040	år	_	_	_	_	_	_	_	
+43-37	3040-3041	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3043-3044	#	_	_	_	_	_	_	_	
+44-2	3044-3045	P	_	_	_	_	_	_	_	
+44-3	3046-3049	IMM	_	_	_	_	_	_	_	
+44-4	3049-3050	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiets dramatiska omsvängning från human frihetlig socialliberalism till "hårda tag-populism" har också givit utslag i opinionen.
+45-1	3052-3064	Folkpartiets	_	_	_	_	_	_	_	
+45-2	3065-3075	dramatiska	_	_	_	_	_	_	_	
+45-3	3076-3087	omsvängning	_	_	_	_	_	_	_	
+45-4	3088-3092	från	_	_	_	_	_	_	_	
+45-5	3093-3098	human	_	_	_	_	_	_	_	
+45-6	3099-3108	frihetlig	_	_	_	_	_	_	_	
+45-7	3109-3125	socialliberalism	_	_	_	_	_	_	_	
+45-8	3126-3130	till	_	_	_	_	_	_	_	
+45-9	3131-3132	"	_	_	_	_	_	_	_	
+45-10	3132-3137	hårda	_	_	_	_	_	_	_	
+45-11	3138-3150	tag-populism	_	_	_	_	_	_	_	
+45-12	3150-3151	"	_	_	_	_	_	_	_	
+45-13	3152-3155	har	_	_	_	_	_	_	_	
+45-14	3156-3161	också	_	_	_	_	_	_	_	
+45-15	3162-3167	givit	_	_	_	_	_	_	_	
+45-16	3168-3174	utslag	_	_	_	_	_	_	_	
+45-17	3175-3176	i	_	_	_	_	_	_	_	
+45-18	3177-3186	opinionen	_	_	_	_	_	_	_	
+45-19	3186-3187	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiets väljare är betydligt mindre toleranta mot invandrares religionsutövning idag än de var för 17 år sedan.
+46-1	3188-3200	Folkpartiets	_	_	_	_	_	_	_	
+46-2	3201-3208	väljare	_	_	_	_	_	_	_	
+46-3	3209-3211	är	_	_	_	_	_	_	_	
+46-4	3212-3221	betydligt	_	_	_	_	_	_	_	
+46-5	3222-3228	mindre	_	_	_	_	_	_	_	
+46-6	3229-3238	toleranta	_	_	_	_	_	_	_	
+46-7	3239-3242	mot	_	_	_	_	_	_	_	
+46-8	3243-3254	invandrares	_	_	_	_	_	_	_	
+46-9	3255-3272	religionsutövning	_	_	_	_	_	_	_	
+46-10	3273-3277	idag	_	_	_	_	_	_	_	
+46-11	3278-3280	än	_	_	_	_	_	_	_	
+46-12	3281-3283	de	_	_	_	_	_	_	_	
+46-13	3284-3287	var	_	_	_	_	_	_	_	
+46-14	3288-3291	för	_	_	_	_	_	_	_	
+46-15	3292-3294	17	_	_	_	_	_	_	_	
+46-16	3295-3297	år	_	_	_	_	_	_	_	
+46-17	3298-3303	sedan	_	_	_	_	_	_	_	
+46-18	3303-3304	.	_	_	_	_	_	_	_	
+
+#Text=Alla andra riksdagspartiers väljare har blivit mer toleranta.
+47-1	3305-3309	Alla	_	_	_	_	_	_	_	
+47-2	3310-3315	andra	_	_	_	_	_	_	_	
+47-3	3316-3332	riksdagspartiers	_	_	_	_	_	_	_	
+47-4	3333-3340	väljare	_	_	_	_	_	_	_	
+47-5	3341-3344	har	_	_	_	_	_	_	_	
+47-6	3345-3351	blivit	_	_	_	_	_	_	_	
+47-7	3352-3355	mer	_	_	_	_	_	_	_	
+47-8	3356-3365	toleranta	_	_	_	_	_	_	_	
+47-9	3365-3366	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3368-3369	#	_	_	_	_	_	_	_	
+48-2	3369-3370	P	_	_	_	_	_	_	_	
+48-3	3371-3374	IMM	_	_	_	_	_	_	_	
+48-4	3374-3375	.	_	_	_	_	_	_	_	
+
+#Text=Grön Ungdom ägnar sig inte åt låtsaspolitik.
+49-1	3377-3381	Grön	*[33]	_	_	_	_	_	_	
+49-2	3382-3388	Ungdom	*[33]	_	_	_	_	_	_	
+49-3	3389-3394	ägnar	_	Target[11]	49-1[33]	false[11]	4[11]	_	_	
+49-4	3395-3398	sig	_	Target[11]	49-1[33]	false[11]	4[11]	_	_	
+49-5	3399-3403	inte	_	Target[11]	49-1[33]	false[11]	4[11]	_	_	
+49-6	3404-3406	åt	_	Target[11]	49-1[33]	false[11]	4[11]	_	_	
+49-7	3407-3420	låtsaspolitik	*	Target[11]|Target[12]	49-1[33]|49-7	false[11]|false[12]	4[11]|2[12]	_	_	
+49-8	3420-3421	.	_	_	_	_	_	_	_	
+
+#Text=Vi driver samma politik som vårt moderparti Miljöpartiet.
+50-1	3422-3424	Vi	_	_	_	_	_	_	_	
+50-2	3425-3431	driver	_	_	_	_	_	_	_	
+50-3	3432-3437	samma	_	_	_	_	_	_	_	
+50-4	3438-3445	politik	_	_	_	_	_	_	_	
+50-5	3446-3449	som	_	_	_	_	_	_	_	
+50-6	3450-3454	vårt	_	_	_	_	_	_	_	
+50-7	3455-3465	moderparti	_	_	_	_	_	_	_	
+50-8	3466-3478	Miljöpartiet	_	_	_	_	_	_	_	
+50-9	3478-3479	.	_	_	_	_	_	_	_	
+
+#Text=Vi försöker inte locka unga väljare med ett specialutformat ungdomspaket, som låter bra under valrörelsen men inte har någon förankring i moderpartiets politik.
+51-1	3480-3482	Vi	_	_	_	_	_	_	_	
+51-2	3483-3491	försöker	_	_	_	_	_	_	_	
+51-3	3492-3496	inte	_	_	_	_	_	_	_	
+51-4	3497-3502	locka	_	_	_	_	_	_	_	
+51-5	3503-3507	unga	_	_	_	_	_	_	_	
+51-6	3508-3515	väljare	_	_	_	_	_	_	_	
+51-7	3516-3519	med	_	_	_	_	_	_	_	
+51-8	3520-3523	ett	_	_	_	_	_	_	_	
+51-9	3524-3539	specialutformat	_	_	_	_	_	_	_	
+51-10	3540-3552	ungdomspaket	_	_	_	_	_	_	_	
+51-11	3552-3553	,	_	_	_	_	_	_	_	
+51-12	3554-3557	som	_	_	_	_	_	_	_	
+51-13	3558-3563	låter	_	_	_	_	_	_	_	
+51-14	3564-3567	bra	_	_	_	_	_	_	_	
+51-15	3568-3573	under	_	_	_	_	_	_	_	
+51-16	3574-3585	valrörelsen	_	_	_	_	_	_	_	
+51-17	3586-3589	men	_	_	_	_	_	_	_	
+51-18	3590-3594	inte	_	_	_	_	_	_	_	
+51-19	3595-3598	har	_	_	_	_	_	_	_	
+51-20	3599-3604	någon	_	_	_	_	_	_	_	
+51-21	3605-3615	förankring	_	_	_	_	_	_	_	
+51-22	3616-3617	i	_	_	_	_	_	_	_	
+51-23	3618-3631	moderpartiets	_	_	_	_	_	_	_	
+51-24	3632-3639	politik	_	_	_	_	_	_	_	
+51-25	3639-3640	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3642-3643	#	_	_	_	_	_	_	_	
+52-2	3643-3644	P	_	_	_	_	_	_	_	
+52-3	3645-3648	IMM	_	_	_	_	_	_	_	
+52-4	3648-3649	.	_	_	_	_	_	_	_	
+
+#Text=Det betyder inte att vi avstår från att påverka vårt moderparti.
+53-1	3651-3654	Det	_	_	_	_	_	_	_	
+53-2	3655-3662	betyder	_	_	_	_	_	_	_	
+53-3	3663-3667	inte	_	_	_	_	_	_	_	
+53-4	3668-3671	att	_	_	_	_	_	_	_	
+53-5	3672-3674	vi	_	_	_	_	_	_	_	
+53-6	3675-3681	avstår	_	_	_	_	_	_	_	
+53-7	3682-3686	från	_	_	_	_	_	_	_	
+53-8	3687-3690	att	_	_	_	_	_	_	_	
+53-9	3691-3698	påverka	_	_	_	_	_	_	_	
+53-10	3699-3703	vårt	_	_	_	_	_	_	_	
+53-11	3704-3714	moderparti	_	_	_	_	_	_	_	
+53-12	3714-3715	.	_	_	_	_	_	_	_	
+
+#Text=Tack vare förslag från Grön Ungdom kommer miljöpartiet under valrörelsen driva kravet på en amnesti för papperslösa som lever gömda i Sverige.
+54-1	3716-3720	Tack	_	Target[13]	54-7[34]	false[13]	4[13]	_	_	
+54-2	3721-3725	vare	_	Target[13]	54-7[34]	false[13]	4[13]	_	_	
+54-3	3726-3733	förslag	_	_	_	_	_	_	_	
+54-4	3734-3738	från	_	_	_	_	_	_	_	
+54-5	3739-3743	Grön	_	_	_	_	_	_	_	
+54-6	3744-3750	Ungdom	_	_	_	_	_	_	_	
+54-7	3751-3757	kommer	*[34]	_	_	_	_	_	_	
+54-8	3758-3770	miljöpartiet	*[34]	_	_	_	_	_	_	
+54-9	3771-3776	under	*[34]	_	_	_	_	_	_	
+54-10	3777-3788	valrörelsen	*[34]	_	_	_	_	_	_	
+54-11	3789-3794	driva	*[34]	_	_	_	_	_	_	
+54-12	3795-3801	kravet	*[34]	_	_	_	_	_	_	
+54-13	3802-3804	på	*[34]	_	_	_	_	_	_	
+54-14	3805-3807	en	*[34]	_	_	_	_	_	_	
+54-15	3808-3815	amnesti	*[34]	_	_	_	_	_	_	
+54-16	3816-3819	för	*[34]	_	_	_	_	_	_	
+54-17	3820-3831	papperslösa	*[34]	_	_	_	_	_	_	
+54-18	3832-3835	som	*[34]	_	_	_	_	_	_	
+54-19	3836-3841	lever	*[34]	_	_	_	_	_	_	
+54-20	3842-3847	gömda	*[34]	_	_	_	_	_	_	
+54-21	3848-3849	i	*[34]	_	_	_	_	_	_	
+54-22	3850-3857	Sverige	*[34]	_	_	_	_	_	_	
+54-23	3857-3858	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3860-3861	#	_	_	_	_	_	_	_	
+55-2	3861-3862	P	_	_	_	_	_	_	_	
+55-3	3863-3866	IMM	_	_	_	_	_	_	_	
+55-4	3866-3867	.	_	_	_	_	_	_	_	
+
+#Text=Vi gröna ska aldrig tumma på principerna om alla människors lika värde och rätt.
+56-1	3869-3871	Vi	_	_	_	_	_	_	_	
+56-2	3872-3877	gröna	_	_	_	_	_	_	_	
+56-3	3878-3881	ska	_	_	_	_	_	_	_	
+56-4	3882-3888	aldrig	_	_	_	_	_	_	_	
+56-5	3889-3894	tumma	_	_	_	_	_	_	_	
+56-6	3895-3897	på	_	_	_	_	_	_	_	
+56-7	3898-3909	principerna	_	_	_	_	_	_	_	
+56-8	3910-3912	om	_	_	_	_	_	_	_	
+56-9	3913-3917	alla	_	_	_	_	_	_	_	
+56-10	3918-3928	människors	_	_	_	_	_	_	_	
+56-11	3929-3933	lika	_	_	_	_	_	_	_	
+56-12	3934-3939	värde	_	_	_	_	_	_	_	
+56-13	3940-3943	och	_	_	_	_	_	_	_	
+56-14	3944-3948	rätt	_	_	_	_	_	_	_	
+56-15	3948-3949	.	_	_	_	_	_	_	_	
+
+#Text=Vi ska alltid stå upp för den som flyr från krig eller tortyr.
+57-1	3950-3952	Vi	_	_	_	_	_	_	_	
+57-2	3953-3956	ska	_	_	_	_	_	_	_	
+57-3	3957-3963	alltid	_	_	_	_	_	_	_	
+57-4	3964-3967	stå	_	_	_	_	_	_	_	
+57-5	3968-3971	upp	_	_	_	_	_	_	_	
+57-6	3972-3975	för	_	_	_	_	_	_	_	
+57-7	3976-3979	den	_	_	_	_	_	_	_	
+57-8	3980-3983	som	_	_	_	_	_	_	_	
+57-9	3984-3988	flyr	_	_	_	_	_	_	_	
+57-10	3989-3993	från	_	_	_	_	_	_	_	
+57-11	3994-3998	krig	_	_	_	_	_	_	_	
+57-12	3999-4004	eller	_	_	_	_	_	_	_	
+57-13	4005-4011	tortyr	_	_	_	_	_	_	_	
+57-14	4011-4012	.	_	_	_	_	_	_	_	
+
+#Text=Fler måste få stanna i Sverige.
+58-1	4013-4017	Fler	_	_	_	_	_	_	_	
+58-2	4018-4023	måste	_	_	_	_	_	_	_	
+58-3	4024-4026	få	_	_	_	_	_	_	_	
+58-4	4027-4033	stanna	_	_	_	_	_	_	_	
+58-5	4034-4035	i	_	_	_	_	_	_	_	
+58-6	4036-4043	Sverige	_	_	_	_	_	_	_	
+58-7	4043-4044	.	_	_	_	_	_	_	_	
+
+#Text=Flyktingmottagandet måste förbättras genom höjda dagersättningar och en hyresersättning för dem som väljer eget boende.
+59-1	4045-4064	Flyktingmottagandet	*	_	_	_	_	_	_	
+59-2	4065-4070	måste	_	Target[14]	59-1	false[14]	2[14]	_	_	
+59-3	4071-4081	förbättras	_	Target[14]	59-1	false[14]	2[14]	_	_	
+59-4	4082-4087	genom	_	_	_	_	_	_	_	
+59-5	4088-4093	höjda	_	_	_	_	_	_	_	
+59-6	4094-4109	dagersättningar	_	_	_	_	_	_	_	
+59-7	4110-4113	och	_	_	_	_	_	_	_	
+59-8	4114-4116	en	_	_	_	_	_	_	_	
+59-9	4117-4132	hyresersättning	_	_	_	_	_	_	_	
+59-10	4133-4136	för	_	_	_	_	_	_	_	
+59-11	4137-4140	dem	_	_	_	_	_	_	_	
+59-12	4141-4144	som	_	_	_	_	_	_	_	
+59-13	4145-4151	väljer	_	_	_	_	_	_	_	
+59-14	4152-4156	eget	_	_	_	_	_	_	_	
+59-15	4157-4163	boende	_	_	_	_	_	_	_	
+59-16	4163-4164	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4166-4167	#	_	_	_	_	_	_	_	
+60-2	4167-4168	P	_	_	_	_	_	_	_	
+60-3	4169-4172	IMM	_	_	_	_	_	_	_	
+60-4	4172-4173	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte värdigt att sätta oskyldiga människor i fängelset.
+61-1	4175-4178	Det	_	_	_	_	_	_	_	
+61-2	4179-4181	är	_	Target[15]	61-5[35]	false[15]	2[15]	_	_	
+61-3	4182-4186	inte	_	Target[15]	61-5[35]	false[15]	2[15]	_	_	
+61-4	4187-4194	värdigt	_	Target[15]	61-5[35]	false[15]	2[15]	_	_	
+61-5	4195-4198	att	*[35]	_	_	_	_	_	_	
+61-6	4199-4204	sätta	*[35]	_	_	_	_	_	_	
+61-7	4205-4214	oskyldiga	*[35]	_	_	_	_	_	_	
+61-8	4215-4224	människor	*[35]	_	_	_	_	_	_	
+61-9	4225-4226	i	*[35]	_	_	_	_	_	_	
+61-10	4227-4236	fängelset	*[35]	_	_	_	_	_	_	
+61-11	4236-4237	.	_	_	_	_	_	_	_	
+
+#Text=Förvaren måste förpassas till historien.
+62-1	4238-4246	Förvaren	_	_	_	_	_	_	_	
+62-2	4247-4252	måste	_	_	_	_	_	_	_	
+62-3	4253-4262	förpassas	_	_	_	_	_	_	_	
+62-4	4263-4267	till	_	_	_	_	_	_	_	
+62-5	4268-4277	historien	_	_	_	_	_	_	_	
+62-6	4277-4278	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4280-4281	#	_	_	_	_	_	_	_	
+63-2	4281-4282	P	_	_	_	_	_	_	_	
+63-3	4283-4286	IMM	_	_	_	_	_	_	_	
+63-4	4286-4287	.	_	_	_	_	_	_	_	
+
+#Text=Sverige måste ta tag i problemen med diskriminering och rasism, och öka stödet till diskrimineringsbyråer och antirasistiska organisationer.
+64-1	4289-4296	Sverige	_	_	_	_	_	_	_	
+64-2	4297-4302	måste	_	_	_	_	_	_	_	
+64-3	4303-4305	ta	_	_	_	_	_	_	_	
+64-4	4306-4309	tag	_	_	_	_	_	_	_	
+64-5	4310-4311	i	_	_	_	_	_	_	_	
+64-6	4312-4321	problemen	_	Target[16]	64-8[36]	false[16]	2[16]	_	_	
+64-7	4322-4325	med	_	Target[16]	64-8[36]	false[16]	2[16]	_	_	
+64-8	4326-4340	diskriminering	*[36]	_	_	_	_	_	_	
+64-9	4341-4344	och	*[36]	_	_	_	_	_	_	
+64-10	4345-4351	rasism	*[36]	_	_	_	_	_	_	
+64-11	4351-4352	,	_	_	_	_	_	_	_	
+64-12	4353-4356	och	_	_	_	_	_	_	_	
+64-13	4357-4360	öka	_	_	_	_	_	_	_	
+64-14	4361-4367	stödet	_	_	_	_	_	_	_	
+64-15	4368-4372	till	_	_	_	_	_	_	_	
+64-16	4373-4394	diskrimineringsbyråer	_	_	_	_	_	_	_	
+64-17	4395-4398	och	_	_	_	_	_	_	_	
+64-18	4399-4413	antirasistiska	_	_	_	_	_	_	_	
+64-19	4414-4428	organisationer	_	_	_	_	_	_	_	
+64-20	4428-4429	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsbrist är ett bostadspolitiskt problem, inte ett flyktingproblem, och problem med fattigdom får inte maskeras till ett invandrarproblem.
+65-1	4430-4442	Bostadsbrist	_	_	_	_	_	_	_	
+65-2	4443-4445	är	_	_	_	_	_	_	_	
+65-3	4446-4449	ett	_	_	_	_	_	_	_	
+65-4	4450-4466	bostadspolitiskt	_	_	_	_	_	_	_	
+65-5	4467-4474	problem	_	_	_	_	_	_	_	
+65-6	4474-4475	,	_	_	_	_	_	_	_	
+65-7	4476-4480	inte	_	_	_	_	_	_	_	
+65-8	4481-4484	ett	_	_	_	_	_	_	_	
+65-9	4485-4500	flyktingproblem	_	_	_	_	_	_	_	
+65-10	4500-4501	,	_	_	_	_	_	_	_	
+65-11	4502-4505	och	_	_	_	_	_	_	_	
+65-12	4506-4513	problem	_	_	_	_	_	_	_	
+65-13	4514-4517	med	_	_	_	_	_	_	_	
+65-14	4518-4527	fattigdom	_	_	_	_	_	_	_	
+65-15	4528-4531	får	_	_	_	_	_	_	_	
+65-16	4532-4536	inte	_	_	_	_	_	_	_	
+65-17	4537-4545	maskeras	_	_	_	_	_	_	_	
+65-18	4546-4550	till	_	_	_	_	_	_	_	
+65-19	4551-4554	ett	_	_	_	_	_	_	_	
+65-20	4555-4571	invandrarproblem	_	_	_	_	_	_	_	
+65-21	4571-4572	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4574-4575	#	_	_	_	_	_	_	_	
+66-2	4575-4576	P	_	_	_	_	_	_	_	
+66-3	4577-4580	IMM	_	_	_	_	_	_	_	
+66-4	4580-4581	.	_	_	_	_	_	_	_	
+
+#Text=En röst på Miljöpartiet är en röst på en mer human migrationspolitik.
+67-1	4583-4585	En	_	_	_	_	_	_	_	
+67-2	4586-4590	röst	_	_	_	_	_	_	_	
+67-3	4591-4593	på	_	_	_	_	_	_	_	
+67-4	4594-4606	Miljöpartiet	_	_	_	_	_	_	_	
+67-5	4607-4609	är	_	_	_	_	_	_	_	
+67-6	4610-4612	en	_	_	_	_	_	_	_	
+67-7	4613-4617	röst	_	_	_	_	_	_	_	
+67-8	4618-4620	på	_	_	_	_	_	_	_	
+67-9	4621-4623	en	_	_	_	_	_	_	_	
+67-10	4624-4627	mer	_	_	_	_	_	_	_	
+67-11	4628-4633	human	_	_	_	_	_	_	_	
+67-12	4634-4651	migrationspolitik	_	_	_	_	_	_	_	
+67-13	4651-4652	.	_	_	_	_	_	_	_	
+
+#Text=På riktigt.
+68-1	4653-4655	På	_	_	_	_	_	_	_	
+68-2	4656-4663	riktigt	_	_	_	_	_	_	_	
+68-3	4663-4664	.	_	_	_	_	_	_	_	
+
+#Text=Grön Ungdom kommer agera för att Miljöpartiet i en kommande regering får igenom en mer human asylpolitik och se till att partiet inte glömmer bort gröna grundvärderingar.
+69-1	4665-4669	Grön	_	_	_	_	_	_	_	
+69-2	4670-4676	Ungdom	_	_	_	_	_	_	_	
+69-3	4677-4683	kommer	_	_	_	_	_	_	_	
+69-4	4684-4689	agera	_	_	_	_	_	_	_	
+69-5	4690-4693	för	_	_	_	_	_	_	_	
+69-6	4694-4697	att	_	_	_	_	_	_	_	
+69-7	4698-4710	Miljöpartiet	_	_	_	_	_	_	_	
+69-8	4711-4712	i	_	_	_	_	_	_	_	
+69-9	4713-4715	en	_	_	_	_	_	_	_	
+69-10	4716-4724	kommande	_	_	_	_	_	_	_	
+69-11	4725-4733	regering	_	_	_	_	_	_	_	
+69-12	4734-4737	får	_	_	_	_	_	_	_	
+69-13	4738-4744	igenom	_	_	_	_	_	_	_	
+69-14	4745-4747	en	_	_	_	_	_	_	_	
+69-15	4748-4751	mer	_	_	_	_	_	_	_	
+69-16	4752-4757	human	_	_	_	_	_	_	_	
+69-17	4758-4769	asylpolitik	_	_	_	_	_	_	_	
+69-18	4770-4773	och	_	_	_	_	_	_	_	
+69-19	4774-4776	se	_	_	_	_	_	_	_	
+69-20	4777-4781	till	_	_	_	_	_	_	_	
+69-21	4782-4785	att	_	_	_	_	_	_	_	
+69-22	4786-4793	partiet	_	_	_	_	_	_	_	
+69-23	4794-4798	inte	_	_	_	_	_	_	_	
+69-24	4799-4806	glömmer	_	_	_	_	_	_	_	
+69-25	4807-4811	bort	_	_	_	_	_	_	_	
+69-26	4812-4817	gröna	_	_	_	_	_	_	_	
+69-27	4818-4834	grundvärderingar	_	_	_	_	_	_	_	
+69-28	4834-4835	.	_	_	_	_	_	_	_	
+
+#Text=Men vi kommer aldrig att ägna oss åt låtsaspolitik.
+70-1	4836-4839	Men	_	_	_	_	_	_	_	
+70-2	4840-4842	vi	*	_	_	_	_	_	_	
+70-3	4843-4849	kommer	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-4	4850-4856	aldrig	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-5	4857-4860	att	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-6	4861-4865	ägna	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-7	4866-4869	oss	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-8	4870-4872	åt	_	Target[17]	70-2	false[17]	4[17]	_	_	
+70-9	4873-4886	låtsaspolitik	*	Target[17]|Target[18]	70-2|70-9	false[17]|false[18]	4[17]|2[18]	_	_	
+70-10	4886-4887	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	4889-4890	#	_	_	_	_	_	_	_	
+71-2	4890-4891	P	_	_	_	_	_	_	_	
+71-3	4892-4895	IMM	_	_	_	_	_	_	_	
+71-4	4895-4896	.	_	_	_	_	_	_	_	
+
+#Text=MARIA FERM.
+72-1	4898-4903	MARIA	_	_	_	_	_	_	_	
+72-2	4904-4908	FERM	_	_	_	_	_	_	_	
+72-3	4908-4909	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	4911-4912	#	_	_	_	_	_	_	_	
+73-2	4912-4913	P	_	_	_	_	_	_	_	
+73-3	4914-4917	IMM	_	_	_	_	_	_	_	
+73-4	4917-4918	.	_	_	_	_	_	_	_	
+
+#Text=Språkrör Grön Ungdom.
+74-1	4920-4928	Språkrör	_	_	_	_	_	_	_	
+74-2	4929-4933	Grön	_	_	_	_	_	_	_	
+74-3	4934-4940	Ungdom	_	_	_	_	_	_	_	
+74-4	4940-4941	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	4943-4944	#	_	_	_	_	_	_	_	
+75-2	4944-4945	P	_	_	_	_	_	_	_	
+75-3	4946-4949	IMM	_	_	_	_	_	_	_	
+75-4	4949-4950	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+76-1	4952-4960	Redaktör	_	_	_	_	_	_	_	
+76-2	4960-4961	:	_	_	_	_	_	_	_	
+76-3	4962-4968	Carina	_	_	_	_	_	_	_	
+76-4	4969-4977	Stensson	_	_	_	_	_	_	_	
+76-5	4977-4978	,	_	_	_	_	_	_	_	
+76-6	4979-4989	Biträdande	_	_	_	_	_	_	_	
+76-7	4990-4998	redaktör	_	_	_	_	_	_	_	
+76-8	4998-4999	:	_	_	_	_	_	_	_	
+76-9	5000-5005	Björn	_	_	_	_	_	_	_	
+76-10	5006-5012	Jorner	_	_	_	_	_	_	_	
+76-11	5012-5013	,	_	_	_	_	_	_	_	
+76-12	5014-5018	Mejl	_	_	_	_	_	_	_	
+76-13	5018-5019	:	_	_	_	_	_	_	_	
+76-14	5020-5026	debatt	_	_	_	_	_	_	_	
+76-15	5026-5027	@	_	_	_	_	_	_	_	
+76-16	5027-5033	svd.se	_	_	_	_	_	_	_	
+76-17	5033-5034	,	_	_	_	_	_	_	_	
+76-18	5035-5048	Telefonnummer	_	_	_	_	_	_	_	
+76-19	5048-5049	:	_	_	_	_	_	_	_	
+76-20	5050-5052	08	_	_	_	_	_	_	_	
+76-21	5052-5053	-	_	_	_	_	_	_	_	
+76-22	5053-5059	135149	_	_	_	_	_	_	_	
+76-23	5059-5060	,	_	_	_	_	_	_	_	
+76-24	5061-5068	Twitter	_	_	_	_	_	_	_	
+76-25	5068-5069	:	_	_	_	_	_	_	_	
+76-26	5070-5071	@	_	_	_	_	_	_	_	
+76-27	5071-5080	SvDDebatt	_	_	_	_	_	_	_	
+76-28	5080-5081	,	_	_	_	_	_	_	_	
+76-29	5082-5090	Facebook	_	_	_	_	_	_	_	
+76-30	5090-5091	:	_	_	_	_	_	_	_	
+76-31	5092-5095	SvD	_	_	_	_	_	_	_	
+76-32	5096-5102	Debatt	_	_	_	_	_	_	_	
+76-33	5102-5103	.	_	_	_	_	_	_	_	

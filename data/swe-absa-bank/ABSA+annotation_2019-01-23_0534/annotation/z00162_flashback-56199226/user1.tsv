@@ -1,0 +1,137 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+#Text=
+#Text=-= År 1915 blev 6 miljoner judar torterade och förföljda.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+2-5	18-19	-	_	_	_	_	_	_	
+2-6	19-20	=	_	_	_	_	_	_	
+2-7	21-23	År	_	_	_	_	_	_	
+2-8	24-28	1915	_	_	_	_	_	_	
+2-9	29-33	blev	_	_	_	_	_	_	
+2-10	34-35	6	_	_	_	_	_	_	
+2-11	36-44	miljoner	_	_	_	_	_	_	
+2-12	45-50	judar	_	_	_	_	_	_	
+2-13	51-60	torterade	*[5]	Target[1]	2-13[5]	false[1]	1[1]	_	
+2-14	61-64	och	*[5]	Target[1]	2-13[5]	false[1]	1[1]	_	
+2-15	65-74	förföljda	*[5]	Target[1]	2-13[5]	false[1]	1[1]	_	
+2-16	74-75	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+3-1	77-78	#	_	_	_	_	_	_	
+3-2	78-79	P	_	_	_	_	_	_	
+3-3	80-83	IMM	_	_	_	_	_	_	
+3-4	83-84	.	_	_	_	_	_	_	
+
+#Text=Även andra årtal hände detta som man tydligt ser på alla bilder.
+4-1	86-90	Även	_	_	_	_	_	_	
+4-2	91-96	andra	_	_	_	_	_	_	
+4-3	97-102	årtal	_	_	_	_	_	_	
+4-4	103-108	hände	_	_	_	_	_	_	
+4-5	109-114	detta	_	_	_	_	_	_	
+4-6	115-118	som	_	_	_	_	_	_	
+4-7	119-122	man	_	_	_	_	_	_	
+4-8	123-130	tydligt	_	_	_	_	_	_	
+4-9	131-134	ser	_	_	_	_	_	_	
+4-10	135-137	på	_	_	_	_	_	_	
+4-11	138-142	alla	_	_	_	_	_	_	
+4-12	143-149	bilder	_	_	_	_	_	_	
+4-13	149-150	.	_	_	_	_	_	_	
+
+#Text=Det är alltid 6 miljoner som drabbas.
+5-1	151-154	Det	_	_	_	_	_	_	
+5-2	155-157	är	_	_	_	_	_	_	
+5-3	158-164	alltid	_	_	_	_	_	_	
+5-4	165-166	6	_	_	_	_	_	_	
+5-5	167-175	miljoner	_	_	_	_	_	_	
+5-6	176-179	som	_	_	_	_	_	_	
+5-7	180-187	drabbas	_	_	_	_	_	_	
+5-8	187-188	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	190-191	#	_	_	_	_	_	_	
+6-2	191-192	P	_	_	_	_	_	_	
+6-3	193-196	IMM	_	_	_	_	_	_	
+6-4	196-197	.	_	_	_	_	_	_	
+
+#Text=Det påstås ju även att 6 miljoner judar blev ihjälgasade 25 år senare.
+7-1	199-202	Det	_	Target[2]	7-5[6]	false[2]	2[2]	_	
+7-2	203-209	påstås	_	Target[2]	7-5[6]	false[2]	2[2]	_	
+7-3	210-212	ju	_	_	_	_	_	_	
+7-4	213-217	även	_	_	_	_	_	_	
+7-5	218-221	att	*[6]	_	_	_	_	_	
+7-6	222-223	6	*[6]	_	_	_	_	_	
+7-7	224-232	miljoner	*[6]	_	_	_	_	_	
+7-8	233-238	judar	*[6]	_	_	_	_	_	
+7-9	239-243	blev	*[6]	_	_	_	_	_	
+7-10	244-255	ihjälgasade	*[6]	_	_	_	_	_	
+7-11	256-258	25	*[6]	_	_	_	_	_	
+7-12	259-261	år	*[6]	_	_	_	_	_	
+7-13	262-268	senare	*[6]	_	_	_	_	_	
+7-14	268-269	.	_	_	_	_	_	_	
+
+#Text=Fast sen ändrade dom sig lite.
+8-1	270-274	Fast	_	_	_	_	_	_	
+8-2	275-278	sen	_	_	_	_	_	_	
+8-3	279-286	ändrade	_	_	_	_	_	_	
+8-4	287-290	dom	_	_	_	_	_	_	
+8-5	291-294	sig	_	_	_	_	_	_	
+8-6	295-299	lite	_	_	_	_	_	_	
+8-7	299-300	.	_	_	_	_	_	_	
+
+#Text=Och sen lite till så nu är dom väl nere i 1 miljon.
+9-1	301-304	Och	_	_	_	_	_	_	
+9-2	305-308	sen	_	_	_	_	_	_	
+9-3	309-313	lite	_	_	_	_	_	_	
+9-4	314-318	till	_	_	_	_	_	_	
+9-5	319-321	så	_	_	_	_	_	_	
+9-6	322-324	nu	_	_	_	_	_	_	
+9-7	325-327	är	_	_	_	_	_	_	
+9-8	328-331	dom	_	_	_	_	_	_	
+9-9	332-335	väl	_	_	_	_	_	_	
+9-10	336-340	nere	_	_	_	_	_	_	
+9-11	341-342	i	_	_	_	_	_	_	
+9-12	343-344	1	_	_	_	_	_	_	
+9-13	345-351	miljon	_	_	_	_	_	_	
+9-14	351-352	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	354-355	#	_	_	_	_	_	_	
+10-2	355-356	P	_	_	_	_	_	_	
+10-3	357-360	IMM	_	_	_	_	_	_	
+10-4	360-361	.	_	_	_	_	_	_	
+
+#Text=Känns inte detta lite märkligt?
+11-1	363-368	Känns	_	_[3]	_	false[3]	2[3]	_	
+11-2	369-373	inte	_	_[3]	_	false[3]	2[3]	_	
+11-3	374-379	detta	*	_	_	_	_	_	
+11-4	380-384	lite	_	Target[4]	11-3	false[4]	2[4]	11-1[3_4]	
+11-5	385-393	märkligt	_	Target[4]	11-3	false[4]	2[4]	_	
+11-6	393-394	?	_	Target[4]	11-3	false[4]	2[4]	_	
+
+#Text=Hur kommer det sig att siffran 6 miljoner ständigt återkommer?.
+12-1	395-398	Hur	_	_	_	_	_	_	
+12-2	399-405	kommer	_	_	_	_	_	_	
+12-3	406-409	det	_	_	_	_	_	_	
+12-4	410-413	sig	_	_	_	_	_	_	
+12-5	414-417	att	_	_	_	_	_	_	
+12-6	418-425	siffran	_	_	_	_	_	_	
+12-7	426-427	6	_	_	_	_	_	_	
+12-8	428-436	miljoner	_	_	_	_	_	_	
+12-9	437-445	ständigt	_	_	_	_	_	_	
+12-10	446-456	återkommer	_	_	_	_	_	_	
+12-11	456-457	?	_	_	_	_	_	_	
+12-12	457-458	.	_	_	_	_	_	_	

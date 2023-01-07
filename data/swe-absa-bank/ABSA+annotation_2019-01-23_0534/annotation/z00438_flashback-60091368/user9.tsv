@@ -1,0 +1,101 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Krav i DN: Låt alla afghanska ensamkommande stanna.
+3-1	18-22	Krav	_	_	_	_	_	_	_	
+3-2	23-24	i	_	_	_	_	_	_	_	
+3-3	25-27	DN	_	_	_	_	_	_	_	
+3-4	27-28	:	_	_	_	_	_	_	_	
+3-5	29-32	Låt	_	_	_	_	_	_	_	
+3-6	33-37	alla	_	_	_	_	_	_	_	
+3-7	38-47	afghanska	_	_	_	_	_	_	_	
+3-8	48-61	ensamkommande	_	_	_	_	_	_	_	
+3-9	62-68	stanna	_	_	_	_	_	_	_	
+3-10	68-69	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	false	2	_	_	
+4-4	77-78	.	_	_	_	_	_	_	_	
+
+#Text=På DN åsikt kräver en helt debil kvinna att alla män och pojkar som registrerats som ensamkommande från Afghanistan ska få stanna i Sverige.
+5-1	80-82	På	_	_	_	_	_	_	_	
+5-2	83-85	DN	_	_	_	_	_	_	_	
+5-3	86-91	åsikt	_	_	_	_	_	_	_	
+5-4	92-98	kräver	_	_	_	_	_	_	_	
+5-5	99-101	en	_	_	_	_	_	_	_	
+5-6	102-106	helt	_	Target[1]	5-8	false[1]	1[1]	_	_	
+5-7	107-112	debil	_	Target[1]	5-8	false[1]	1[1]	_	_	
+5-8	113-119	kvinna	*	_	_	_	_	_	_	
+5-9	120-123	att	*[3]	_	_	_	_	_	7-9[0_3]	
+5-10	124-128	alla	*[3]	_	_	_	_	_	_	
+5-11	129-132	män	*[3]	_	_	_	_	_	_	
+5-12	133-136	och	*[3]	_	_	_	_	_	_	
+5-13	137-143	pojkar	*[3]	_	_	_	_	_	_	
+5-14	144-147	som	*[3]	_	_	_	_	_	_	
+5-15	148-160	registrerats	*[3]	_	_	_	_	_	_	
+5-16	161-164	som	*[3]	_	_	_	_	_	_	
+5-17	165-178	ensamkommande	*[3]	_	_	_	_	_	_	
+5-18	179-183	från	*[3]	_	_	_	_	_	_	
+5-19	184-195	Afghanistan	*[3]	_	_	_	_	_	_	
+5-20	196-199	ska	*[3]	_	_	_	_	_	_	
+5-21	200-202	få	*[3]	_	_	_	_	_	_	
+5-22	203-209	stanna	*[3]	_	_	_	_	_	_	
+5-23	210-211	i	*[3]	_	_	_	_	_	_	
+5-24	212-219	Sverige	*[3]	_	_	_	_	_	_	
+5-25	219-220	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	222-223	#	_	_	_	_	_	_	_	
+6-2	223-224	P	_	_	_	_	_	_	_	
+6-3	225-228	IMM	_	_	_	false	2	_	_	
+6-4	228-229	.	_	_	_	_	_	_	_	
+
+#Text=I nuläget instämmer 66% av de röstande i detta.
+7-1	231-232	I	_	_	_	_	_	_	_	
+7-2	233-240	nuläget	_	_	_	_	_	_	_	
+7-3	241-250	instämmer	_	Target;Source	7-9;7-4[4]	false	4	_	_	
+7-4	251-254	66%	*[4]	_	_	_	_	_	_	
+7-5	255-257	av	*[4]	_	_	_	_	_	_	
+7-6	258-260	de	*[4]	_	_	_	_	_	_	
+7-7	261-269	röstande	*[4]	_	_	_	_	_	_	
+7-8	270-271	i	_	_	_	false	4	7-3	_	
+7-9	272-277	detta	*	_	_	_	_	_	_	
+7-10	277-278	.	_	_	_	_	_	_	_	
+
+#Text=Hur är det möjligt?
+8-1	279-282	Hur	_	_	_	_	_	_	_	
+8-2	283-285	är	_	_	_	_	_	_	_	
+8-3	286-289	det	_	_	_	_	_	_	_	
+8-4	290-297	möjligt	_	_	_	_	_	_	_	
+8-5	297-298	?	_	_	_	_	_	_	_	
+
+#Text=Vad är det för fel i huvudet på svenskar?.
+9-1	299-302	Vad	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-2	303-305	är	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-3	306-309	det	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-4	310-313	för	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-5	314-317	fel	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-6	318-319	i	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-7	320-327	huvudet	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-8	328-330	på	_	Target[2]	9-9	false[2]	2[2]	_	_	
+9-9	331-339	svenskar	*	_	_	_	_	_	_	
+9-10	339-340	?	_	_	_	_	_	_	_	
+9-11	340-341	.	_	_	_	_	_	_	_	

@@ -1,0 +1,69 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Svensk dasshumor kränkande för ensamkommande flyktingbarn.
+3-1	18-24	Svensk	*[4]	_	_	_	_	
+3-2	25-34	dasshumor	*[4]|*[5]	Target	3-2[5]	false	2	
+3-3	35-44	kränkande	*[4]	Target	3-1[4]	false	2	
+3-4	45-48	för	_	_	_	_	_	
+3-5	49-62	ensamkommande	_	_	_	_	_	
+3-6	63-75	flyktingbarn	_	_	_	_	_	
+3-7	75-76	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	78-79	#	_	_	_	_	_	
+4-2	79-80	P	_	_	_	_	_	
+4-3	81-84	IMM	_	_	_	_	_	
+4-4	84-85	.	_	_	_	_	_	
+
+#Text=Fagerstaposten rapporterar:.
+5-1	87-101	Fagerstaposten	_	_	_	_	_	
+5-2	102-113	rapporterar	_	_	_	_	_	
+5-3	113-114	:	_	_	_	_	_	
+5-4	114-115	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	117-118	#	_	_	_	_	_	
+6-2	118-119	P	_	_[3]	_	false[3]	3[3]	
+6-3	120-123	IMM	_	_[3]	_	false[3]	3[3]	
+6-4	123-124	.	_	_	_	_	_	
+
+#Text=Någon som vet vem denna batikhäxa som reagerat är och som har själva tidningen och kan posta resterande bilder som kränker ensamkommande?.
+7-1	126-131	Någon	_	_	_	_	_	
+7-2	132-135	som	_	_	_	_	_	
+7-3	136-139	vet	_	_	_	_	_	
+7-4	140-143	vem	_	_	_	_	_	
+7-5	144-149	denna	_	_	_	_	_	
+7-6	150-159	batikhäxa	*	Target	7-6	false	1	
+7-7	160-163	som	_	_	_	_	_	
+7-8	164-172	reagerat	_	Source	7-6	false	2	
+7-9	173-175	är	_	_	_	_	_	
+7-10	176-179	och	_	_	_	_	_	
+7-11	180-183	som	_	_	_	_	_	
+7-12	184-187	har	_	_	_	_	_	
+7-13	188-194	själva	_	_	_	_	_	
+7-14	195-204	tidningen	_	_	_	_	_	
+7-15	205-208	och	_	_	_	_	_	
+7-16	209-212	kan	_	_	_	_	_	
+7-17	213-218	posta	_	_	_	_	_	
+7-18	219-229	resterande	*[6]	_	_	_	_	
+7-19	230-236	bilder	*[6]	_	_	_	_	
+7-20	237-240	som	_	_	_	_	_	
+7-21	241-248	kränker	_	Source;Target	7-24;7-18[6]	false	2	
+7-22	249-262	ensamkommande	_	_	_	_	_	
+7-23	262-263	?	_	_	_	_	_	
+7-24	263-264	.	*	_	_	_	_	

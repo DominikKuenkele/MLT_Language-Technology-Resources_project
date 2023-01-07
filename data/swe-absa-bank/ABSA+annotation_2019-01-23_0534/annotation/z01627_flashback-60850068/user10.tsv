@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Kommer svenskarna någonsin vakna?
+3-1	18-24	Kommer	_	_	_	_	_	_	_	
+3-2	25-35	svenskarna	_	_	_	_	_	_	_	
+3-3	36-44	någonsin	_	_	_	_	_	_	_	
+3-4	45-50	vakna	_	_	_	_	_	_	_	
+3-5	50-51	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	false	2	_	_	
+4-4	59-60	.	_	_	_	_	_	_	_	
+
+#Text=All invandring är inte dålig men få kan förneka att den försämring som i mångt och mycket sedan decennier drabbat vårat land, kan härledas till denna.
+5-1	62-65	All	_	Target	5-2[13]	false	3	_	_	
+5-2	66-76	invandring	*[13]|*[14]	_	_	_	_	_	5-27[0_14]	
+5-3	77-79	är	_	_[1]	_	false[1]	3[1]	5-1[0_1]	_	
+5-4	80-84	inte	_	_[1]	_	false[1]	3[1]	_	_	
+5-5	85-90	dålig	_	_[1]	_	false[1]	3[1]	_	_	
+5-6	91-94	men	_	_	_	_	_	_	_	
+5-7	95-97	få	_	_	_	_	_	_	_	
+5-8	98-101	kan	_	_	_	_	_	_	_	
+5-9	102-109	förneka	_	_	_	_	_	_	_	
+5-10	110-113	att	_	_	_	_	_	_	_	
+5-11	114-117	den	_	_[2]	_	false[2]	1[2]	_	_	
+5-12	118-128	försämring	_	_[2]	_	false[2]	1[2]	_	_	
+5-13	129-132	som	_	_[2]	_	false[2]	1[2]	_	_	
+5-14	133-134	i	_	_	_	_	_	_	_	
+5-15	135-140	mångt	_	_	_	_	_	_	_	
+5-16	141-144	och	_	_	_	_	_	_	_	
+5-17	145-151	mycket	_	_	_	_	_	_	_	
+5-18	152-157	sedan	_	_	_	_	_	_	_	
+5-19	158-167	decennier	_	_	_	_	_	_	_	
+5-20	168-175	drabbat	_	Target[3]	5-27	false[3]	1[3]	5-11[2_3]	_	
+5-21	176-181	vårat	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-22	182-186	land	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-23	186-187	,	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-24	188-191	kan	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-25	192-200	härledas	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-26	201-205	till	_	Target[3]	5-27	false[3]	1[3]	_	_	
+5-27	206-211	denna	*	_	_	_	_	_	_	
+5-28	211-212	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	214-215	#	_	_	_	_	_	_	_	
+6-2	215-216	P	_	_	_	_	_	_	_	
+6-3	217-220	IMM	_	_	_	false	2	_	_	
+6-4	220-221	.	_	_	_	_	_	_	_	
+
+#Text=Ser man tillbaka i tiden så var det bättre på många sätt.
+7-1	223-226	Ser	_	_	_	_	_	_	_	
+7-2	227-230	man	_	_	_	_	_	_	_	
+7-3	231-239	tillbaka	*[15]	_	_	_	_	_	_	
+7-4	240-241	i	*[15]	_	_	_	_	_	_	
+7-5	242-247	tiden	*[15]	_	_	_	_	_	_	
+7-6	248-250	så	_	_	_	_	_	_	_	
+7-7	251-254	var	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-8	255-258	det	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-9	259-265	bättre	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-10	266-268	på	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-11	269-274	många	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-12	275-279	sätt	_	Target[4]	7-3[15]	false[4]	4[4]	_	_	
+7-13	279-280	.	_	_	_	_	_	_	_	
+
+#Text=Sverige hade ett helt annat välstånd, en helt annan trygghet och framtidshopp.
+8-1	281-288	Sverige	_	_	_	_	_	_	_	
+8-2	289-293	hade	_	_	_	_	_	_	_	
+8-3	294-297	ett	_	_	_	_	_	_	_	
+8-4	298-302	helt	_	_	_	_	_	_	_	
+8-5	303-308	annat	_	_	_	_	_	_	_	
+8-6	309-317	välstånd	*	Target	8-6	false	5	_	_	
+8-7	317-318	,	_	_	_	_	_	_	_	
+8-8	319-321	en	_	_	_	_	_	_	_	
+8-9	322-326	helt	_	_	_	_	_	_	_	
+8-10	327-332	annan	_	_	_	_	_	_	_	
+8-11	333-341	trygghet	*	Target	8-11	false	5	_	_	
+8-12	342-345	och	_	_	_	_	_	_	_	
+8-13	346-358	framtidshopp	*	Target	8-13	false	5	_	_	
+8-14	358-359	.	_	_	_	_	_	_	_	
+
+#Text=Idag så finns inte mycket hopp, och det handlar mest om att lösa problem.
+9-1	360-364	Idag	_	_	_	_	_	_	_	
+9-2	365-367	så	_	_	_	_	_	_	_	
+9-3	368-373	finns	*[16]	Target[5]	9-3[16]	false[5]	2[5]	_	_	
+9-4	374-378	inte	*[16]	Target[5]	9-3[16]	false[5]	2[5]	_	_	
+9-5	379-385	mycket	*[16]	Target[5]	9-3[16]	false[5]	2[5]	_	_	
+9-6	386-390	hopp	*[16]	Target[5]	9-3[16]	false[5]	2[5]	_	_	
+9-7	390-391	,	_	_	_	_	_	_	_	
+9-8	392-395	och	_	_	_	_	_	_	_	
+9-9	396-399	det	_	_	_	_	_	_	_	
+9-10	400-407	handlar	_	_	_	_	_	_	_	
+9-11	408-412	mest	_	_	_	_	_	_	_	
+9-12	413-415	om	_	_	_	_	_	_	_	
+9-13	416-419	att	_	_	_	_	_	_	_	
+9-14	420-424	lösa	*[17]	Target[6]	9-14[17]	false[6]	4[6]	_	_	
+9-15	425-432	problem	*[17]	Target[6]	9-14[17]	false[6]	4[6]	_	_	
+9-16	432-433	.	_	_	_	_	_	_	_	
+
+#Text=Åtminstone rationella människor vill detta, men en stor del vurmar fortfarande för och bidrar till en fortgående försämring.
+10-1	434-444	Åtminstone	_	_	_	_	_	_	_	
+10-2	445-455	rationella	_	_	_	_	_	_	_	
+10-3	456-465	människor	_	_	_	_	_	_	_	
+10-4	466-470	vill	_	_	_	_	_	_	_	
+10-5	471-476	detta	_	_	_	_	_	_	_	
+10-6	476-477	,	_	_	_	_	_	_	_	
+10-7	478-481	men	_	_	_	_	_	_	_	
+10-8	482-484	en	*[18]	_	_	_	_	_	_	
+10-9	485-489	stor	*[18]	_	_	_	_	_	_	
+10-10	490-493	del	*[18]	_	_	_	_	_	_	
+10-11	494-500	vurmar	_	_	_	false	5	_	_	
+10-12	501-512	fortfarande	_	_	_	_	_	_	_	
+10-13	513-516	för	_	Source	10-8[18]	false	5	10-11	_	
+10-14	517-520	och	_	_	_	_	_	_	_	
+10-15	521-527	bidrar	_	Target[7]	10-8[18]	false[7]	1[7]	_	_	
+10-16	528-532	till	_	Target[7]	10-8[18]	false[7]	1[7]	_	_	
+10-17	533-535	en	_	Target[7]	10-8[18]	false[7]	1[7]	_	_	
+10-18	536-546	fortgående	_	Target[7]	10-8[18]	false[7]	1[7]	_	_	
+10-19	547-557	försämring	_	Target[7]	10-8[18]	false[7]	1[7]	_	_	
+10-20	557-558	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	560-561	#	_	_	_	_	_	_	_	
+11-2	561-562	P	_	_	_	_	_	_	_	
+11-3	563-566	IMM	_	_	_	false	2	_	_	
+11-4	566-567	.	_	_	_	_	_	_	_	
+
+#Text=Många blundar för problemen eller försöker medvetet dölja dem.
+12-1	569-574	Många	*	_	_	_	_	_	_	
+12-2	575-582	blundar	_	Target[8]	12-1	false[8]	1[8]	_	_	
+12-3	583-586	för	_	Target[8]	12-1	false[8]	1[8]	_	_	
+12-4	587-596	problemen	_	Target[8]	12-1	false[8]	1[8]	_	_	
+12-5	597-602	eller	_	_	_	_	_	_	_	
+12-6	603-611	försöker	_	_	_	_	_	_	_	
+12-7	612-620	medvetet	_	_	_	_	_	_	_	
+12-8	621-626	dölja	_	_	_	_	_	_	_	
+12-9	627-630	dem	_	_	_	_	_	_	_	
+12-10	630-631	.	_	_	_	_	_	_	_	
+
+#Text=Denna strategi har många av våra politiker och journalister.
+13-1	632-637	Denna	_	_	_	_	_	_	_	
+13-2	638-646	strategi	_	_	_	_	_	_	_	
+13-3	647-650	har	_	_	_	_	_	_	_	
+13-4	651-656	många	_	_	_	_	_	_	_	
+13-5	657-659	av	_	_	_	_	_	_	_	
+13-6	660-664	våra	_	_	_	_	_	_	_	
+13-7	665-674	politiker	_	_	_	_	_	_	_	
+13-8	675-678	och	_	_	_	_	_	_	_	
+13-9	679-691	journalister	_	_	_	_	_	_	_	
+13-10	691-692	.	_	_	_	_	_	_	_	
+
+#Text=När Sverige "baktalades" i utlandet gick deras reaktion mycket riktigt också ut på att förneka detta.
+14-1	693-696	När	_	_	_	_	_	_	_	
+14-2	697-704	Sverige	*	_	_	_	_	_	_	
+14-3	705-706	"	_	_	_	_	_	_	_	
+14-4	706-716	baktalades	_	Source;Target	14-6[19];14-2	false	1	_	_	
+14-5	716-717	"	_	_	_	_	_	_	_	
+14-6	718-719	i	*[19]	_	_	_	_	_	_	
+14-7	720-728	utlandet	*[19]	_	_	_	_	_	_	
+14-8	729-733	gick	_	_	_	_	_	_	_	
+14-9	734-739	deras	_	_	_	_	_	_	_	
+14-10	740-748	reaktion	_	_	_	_	_	_	_	
+14-11	749-755	mycket	_	_	_	_	_	_	_	
+14-12	756-763	riktigt	_	_	_	_	_	_	_	
+14-13	764-769	också	_	_	_	_	_	_	_	
+14-14	770-772	ut	_	_	_	_	_	_	_	
+14-15	773-775	på	_	_	_	_	_	_	_	
+14-16	776-779	att	_	_	_	_	_	_	_	
+14-17	780-787	förneka	*	Target	14-17	false	2	_	_	
+14-18	788-793	detta	_	_	_	_	_	_	_	
+14-19	793-794	.	_	_	_	_	_	_	_	
+
+#Text=Även inom landet håller många journalister och kändisar m.fl ännu på med detta.
+15-1	795-799	Även	_	_	_	_	_	_	_	
+15-2	800-804	inom	_	_	_	_	_	_	_	
+15-3	805-811	landet	_	_	_	_	_	_	_	
+15-4	812-818	håller	_	_	_	_	_	_	_	
+15-5	819-824	många	_	_	_	_	_	_	_	
+15-6	825-837	journalister	_	_	_	_	_	_	_	
+15-7	838-841	och	_	_	_	_	_	_	_	
+15-8	842-850	kändisar	_	_	_	_	_	_	_	
+15-9	851-855	m.fl	_	_	_	_	_	_	_	
+15-10	856-860	ännu	_	_	_	_	_	_	_	
+15-11	861-863	på	_	_	_	_	_	_	_	
+15-12	864-867	med	_	_	_	_	_	_	_	
+15-13	868-873	detta	_	_	_	_	_	_	_	
+15-14	873-874	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	876-877	#	_	_	_	_	_	_	_	
+16-2	877-878	P	_	_	_	_	_	_	_	
+16-3	879-882	IMM	_	_	_	false	1	_	_	
+16-4	882-883	.	_	_	_	_	_	_	_	
+
+#Text=Vi hade dock krisen 2015, sanslöst ökat våld med skjutningar och annat, terrordåd i år, vårdkris och en situation som kontinuerligt verkar försämras för landet.
+17-1	885-887	Vi	_	_	_	_	_	_	_	
+17-2	888-892	hade	_	_	_	_	_	_	_	
+17-3	893-897	dock	_	_	_	_	_	_	_	
+17-4	898-904	krisen	*	Target	17-4	false	1	_	_	
+17-5	905-909	2015	_	_	_	_	_	_	_	
+17-6	909-910	,	_	_	_	_	_	_	_	
+17-7	911-919	sanslöst	*[20]	Target[9]	17-7[20]	false[9]	1[9]	_	_	
+17-8	920-924	ökat	*[20]	Target[9]	17-7[20]	false[9]	1[9]	_	_	
+17-9	925-929	våld	*[20]	Target[9]	17-7[20]	false[9]	1[9]	_	_	
+17-10	930-933	med	_	_	_	_	_	_	_	
+17-11	934-945	skjutningar	_	_	_	_	_	_	_	
+17-12	946-949	och	_	_	_	_	_	_	_	
+17-13	950-955	annat	_	_	_	_	_	_	_	
+17-14	955-956	,	_	_	_	_	_	_	_	
+17-15	957-966	terrordåd	_	_	_	_	_	_	_	
+17-16	967-968	i	_	_	_	_	_	_	_	
+17-17	969-971	år	_	_	_	_	_	_	_	
+17-18	971-972	,	_	_	_	_	_	_	_	
+17-19	973-981	vårdkris	*	Target	17-19	false	1	_	_	
+17-20	982-985	och	_	_	_	_	_	_	_	
+17-21	986-988	en	*[21]	_	_	_	_	_	_	
+17-22	989-998	situation	*[21]	_	_	_	_	_	_	
+17-23	999-1002	som	_	_	_	_	_	_	_	
+17-24	1003-1016	kontinuerligt	_	Target[10]	17-21[21]	false[10]	1[10]	_	_	
+17-25	1017-1023	verkar	_	Target[10]	17-21[21]	false[10]	1[10]	_	_	
+17-26	1024-1033	försämras	_	Target[10]	17-21[21]	false[10]	1[10]	_	_	
+17-27	1034-1037	för	_	_	_	_	_	_	_	
+17-28	1038-1044	landet	_	_	_	_	_	_	_	
+17-29	1044-1045	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1047-1048	#	_	_	_	_	_	_	_	
+18-2	1048-1049	P	_	_	_	_	_	_	_	
+18-3	1050-1053	IMM	_	_	_	false	1	_	_	
+18-4	1053-1054	.	_	_	_	_	_	_	_	
+
+#Text=Så frågan är när svenskarna kommer vakna?
+19-1	1056-1058	Så	_	_	_	_	_	_	_	
+19-2	1059-1065	frågan	_	_	_	_	_	_	_	
+19-3	1066-1068	är	_	_	_	_	_	_	_	
+19-4	1069-1072	när	_	_	_	_	_	_	_	
+19-5	1073-1083	svenskarna	_	_	_	_	_	_	_	
+19-6	1084-1090	kommer	_	_	_	_	_	_	_	
+19-7	1091-1096	vakna	_	_	_	_	_	_	_	
+19-8	1096-1097	?	_	_	_	_	_	_	_	
+
+#Text=När kommer majoriteten inse att den utveckling som fortgår kommer leda till vår undergång?
+20-1	1098-1101	När	_	_	_	_	_	_	_	
+20-2	1102-1108	kommer	_	_	_	_	_	_	_	
+20-3	1109-1120	majoriteten	_	_	_	_	_	_	_	
+20-4	1121-1125	inse	_	_	_	_	_	_	_	
+20-5	1126-1129	att	_	_	_	_	_	_	_	
+20-6	1130-1133	den	*[22]	_	_	_	_	_	_	
+20-7	1134-1144	utveckling	*[22]	_	_	_	_	_	_	
+20-8	1145-1148	som	*[22]	_	_	_	_	_	_	
+20-9	1149-1156	fortgår	*[22]	_	_	_	_	_	_	
+20-10	1157-1163	kommer	_	Target[11]	20-6[22]	false[11]	1[11]	_	_	
+20-11	1164-1168	leda	_	Target[11]	20-6[22]	false[11]	1[11]	_	_	
+20-12	1169-1173	till	_	Target[11]	20-6[22]	false[11]	1[11]	_	_	
+20-13	1174-1177	vår	_	Target[11]	20-6[22]	false[11]	1[11]	_	_	
+20-14	1178-1187	undergång	_	Target[11]	20-6[22]	false[11]	1[11]	_	_	
+20-15	1187-1188	?	_	_	_	_	_	_	_	
+
+#Text=Hur mycket krävs för att att de ska fatta poängen, att något är kraftigt fel och att något på allvar måste göras åt det?.
+21-1	1189-1192	Hur	_	_	_	_	_	_	_	
+21-2	1193-1199	mycket	_	_	_	_	_	_	_	
+21-3	1200-1205	krävs	_	_	_	_	_	_	_	
+21-4	1206-1209	för	_	_	_	_	_	_	_	
+21-5	1210-1213	att	_	_	_	_	_	_	_	
+21-6	1214-1217	att	_	_	_	_	_	_	_	
+21-7	1218-1220	de	_	_	_	_	_	_	_	
+21-8	1221-1224	ska	_	_	_	_	_	_	_	
+21-9	1225-1230	fatta	_	_	_	_	_	_	_	
+21-10	1231-1238	poängen	_	_	_	_	_	_	_	
+21-11	1238-1239	,	_	_	_	_	_	_	_	
+21-12	1240-1243	att	_	_	_	_	_	_	_	
+21-13	1244-1249	något	*	_	_	_	_	_	_	
+21-14	1250-1252	är	_	Target[12]	21-13	false[12]	1[12]	_	_	
+21-15	1253-1261	kraftigt	_	Target[12]	21-13	false[12]	1[12]	_	_	
+21-16	1262-1265	fel	_	Target[12]	21-13	false[12]	1[12]	_	_	
+21-17	1266-1269	och	_	_	_	_	_	_	_	
+21-18	1270-1273	att	_	_	_	_	_	_	_	
+21-19	1274-1279	något	_	_	_	_	_	_	_	
+21-20	1280-1282	på	_	_	_	_	_	_	_	
+21-21	1283-1289	allvar	_	_	_	_	_	_	_	
+21-22	1290-1295	måste	_	_	_	_	_	_	_	
+21-23	1296-1301	göras	_	_	_	_	_	_	_	
+21-24	1302-1304	åt	_	_	_	_	_	_	_	
+21-25	1305-1308	det	_	_	_	_	_	_	_	
+21-26	1308-1309	?	_	_	_	_	_	_	_	
+21-27	1309-1310	.	_	_	_	_	_	_	_	

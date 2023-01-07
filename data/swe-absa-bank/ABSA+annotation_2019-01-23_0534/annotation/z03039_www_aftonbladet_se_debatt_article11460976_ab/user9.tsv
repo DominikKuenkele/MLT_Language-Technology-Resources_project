@@ -1,0 +1,518 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Reparatören ska inte besiktiga bilen.
+3-1	18-29	Reparatören	_	_	_	_	_	_	
+3-2	30-33	ska	_	_	_	_	_	_	
+3-3	34-38	inte	_	_	_	_	_	_	
+3-4	39-48	besiktiga	_	_	_	_	_	_	
+3-5	49-54	bilen	_	_	_	_	_	_	
+3-6	54-55	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	
+
+#Text=Sverige är i dag ett av de få länder i Europa som har kvar fordonsbesiktningmonopolet.
+5-1	66-73	Sverige	_	_	_	_	_	_	
+5-2	74-76	är	_	_	_	_	_	_	
+5-3	77-78	i	_	_	_	_	_	_	
+5-4	79-82	dag	_	_	_	_	_	_	
+5-5	83-86	ett	_	_	_	_	_	_	
+5-6	87-89	av	_	_	_	_	_	_	
+5-7	90-92	de	_	_	_	_	_	_	
+5-8	93-95	få	_	_	_	_	_	_	
+5-9	96-102	länder	_	_	_	_	_	_	
+5-10	103-104	i	_	_	_	_	_	_	
+5-11	105-111	Europa	_	_	_	_	_	_	
+5-12	112-115	som	_	_	_	_	_	_	
+5-13	116-119	har	_	_	_	_	_	_	
+5-14	120-124	kvar	_	_	_	_	_	_	
+5-15	125-151	fordonsbesiktningmonopolet	_	_	_	_	_	_	
+5-16	151-152	.	_	_	_	_	_	_	
+
+#Text=Regeringen vill avskaffa monopolet för att förkorta kötiderna och förlänga öppettiderna.
+6-1	153-163	Regeringen	*	_	_	_	_	_	
+6-2	164-168	vill	_	Target;Source[1]	6-4;6-1	false[1]	2[1]	_	
+6-3	169-177	avskaffa	_	Target;Source[1]	6-4;6-1	false[1]	2[1]	_	
+6-4	178-187	monopolet	*	_	_	_	_	_	
+6-5	188-191	för	_	_	_	_	_	_	
+6-6	192-195	att	_	_	_	_	_	_	
+6-7	196-204	förkorta	_	_	_	_	_	_	
+6-8	205-214	kötiderna	_	_	_	_	_	_	
+6-9	215-218	och	_	_	_	_	_	_	
+6-10	219-227	förlänga	_	_	_	_	_	_	
+6-11	228-240	öppettiderna	_	_	_	_	_	_	
+6-12	240-241	.	_	_	_	_	_	_	
+
+#Text=Gott så, infrastrukturminister Åsa Torstensson!
+7-1	242-246	Gott	_	_	_	_	_	_	
+7-2	247-249	så	_	_	_	_	_	_	
+7-3	249-250	,	_	_	_	_	_	_	
+7-4	251-272	infrastrukturminister	_	_	_	_	_	_	
+7-5	273-276	Åsa	_	_	_	_	_	_	
+7-6	277-288	Torstensson	_	_	_	_	_	_	
+7-7	288-289	!	_	_	_	_	_	_	
+
+#Text=Avregleringen får dock inte riskera att försämra det som är allra viktigast i trafiken – säkerheten.
+8-1	290-303	Avregleringen	_	_	_	_	_	_	
+8-2	304-307	får	_	_	_	_	_	_	
+8-3	308-312	dock	_	_	_	_	_	_	
+8-4	313-317	inte	_	_	_	_	_	_	
+8-5	318-325	riskera	_	Target	8-6[5]	false	2	_	
+8-6	326-329	att	*[5]	_	_	_	_	_	
+8-7	330-338	försämra	*[5]	_	_	_	_	_	
+8-8	339-342	det	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-9	343-346	som	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-10	347-349	är	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-11	350-355	allra	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-12	356-365	viktigast	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-13	366-367	i	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-14	368-376	trafiken	*[5]	Target[2]	8-16[6]	false[2]	4[2]	_	
+8-15	377-378	–	*[5]	_	_	_	_	_	
+8-16	379-389	säkerheten	*[5]|*[6]	_	_	_	_	_	
+8-17	389-390	.	_	_	_	_	_	_	
+
+#Text=Trafiksäkerhetsarbetet har gjort mycket stora framsteg sedan nollvisionen antogs 1997.
+9-1	391-413	Trafiksäkerhetsarbetet	_	_	_	_	_	_	
+9-2	414-417	har	_	_	_	_	_	_	
+9-3	418-423	gjort	_	_	_	_	_	_	
+9-4	424-430	mycket	_	_	_	_	_	_	
+9-5	431-436	stora	_	_	_	_	_	_	
+9-6	437-445	framsteg	_	_	_	_	_	_	
+9-7	446-451	sedan	_	_	_	_	_	_	
+9-8	452-464	nollvisionen	_	_	_	_	_	_	
+9-9	465-471	antogs	_	_	_	_	_	_	
+9-10	472-476	1997	_	_	_	_	_	_	
+9-11	476-477	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	479-480	#	_	_	_	_	_	_	
+10-2	480-481	P	_	_	_	_	_	_	
+10-3	482-485	IMM	_	_	_	_	_	_	
+10-4	485-486	.	_	_	_	_	_	_	
+
+#Text=Att bilar, lastbilar och bussar fungerar som de ska är grundläggande för att nå nollvisionen.
+11-1	488-491	Att	_	_	_	_	_	_	
+11-2	492-497	bilar	_	_	_	_	_	_	
+11-3	497-498	,	_	_	_	_	_	_	
+11-4	499-508	lastbilar	_	_	_	_	_	_	
+11-5	509-512	och	_	_	_	_	_	_	
+11-6	513-519	bussar	_	_	_	_	_	_	
+11-7	520-528	fungerar	_	_	_	_	_	_	
+11-8	529-532	som	_	_	_	_	_	_	
+11-9	533-535	de	_	_	_	_	_	_	
+11-10	536-539	ska	_	_	_	_	_	_	
+11-11	540-542	är	_	_	_	_	_	_	
+11-12	543-556	grundläggande	_	_	_	_	_	_	
+11-13	557-560	för	_	_	_	_	_	_	
+11-14	561-564	att	_	_	_	_	_	_	
+11-15	565-567	nå	_	_	_	_	_	_	
+11-16	568-580	nollvisionen	_	_	_	_	_	_	
+11-17	580-581	.	_	_	_	_	_	_	
+
+#Text=Om exempelvis dåliga bromsar eller rostskadade bakvagnsupphängningar inte upptäcks och åtgärdas i tid kan det få fruktansvärda konsekvenser.
+12-1	582-584	Om	*[7]	_	_	_	_	_	
+12-2	585-595	exempelvis	*[7]	_	_	_	_	_	
+12-3	596-602	dåliga	*[7]	_	_	_	_	_	
+12-4	603-610	bromsar	*[7]	_	_	_	_	_	
+12-5	611-616	eller	*[7]	_	_	_	_	_	
+12-6	617-628	rostskadade	*[7]	_	_	_	_	_	
+12-7	629-650	bakvagnsupphängningar	*[7]	_	_	_	_	_	
+12-8	651-655	inte	*[7]	_	_	_	_	_	
+12-9	656-664	upptäcks	*[7]	_	_	_	_	_	
+12-10	665-668	och	*[7]	_	_	_	_	_	
+12-11	669-677	åtgärdas	*[7]	_	_	_	_	_	
+12-12	678-679	i	*[7]	_	_	_	_	_	
+12-13	680-683	tid	*[7]	_	_	_	_	_	
+12-14	684-687	kan	_	Target[3]	12-1[7]	false[3]	2[3]	_	
+12-15	688-691	det	_	Target[3]	12-1[7]	false[3]	2[3]	_	
+12-16	692-694	få	_	Target[3]	12-1[7]	false[3]	2[3]	_	
+12-17	695-708	fruktansvärda	_	Target[3]	12-1[7]	false[3]	2[3]	_	
+12-18	709-721	konsekvenser	_	Target[3]	12-1[7]	false[3]	2[3]	_	
+12-19	721-722	.	_	_	_	_	_	_	
+
+#Text=Besiktningen har ett stort ansvar för att kontrollera att bilarna är trafiksäkra.
+13-1	723-735	Besiktningen	_	_	_	_	_	_	
+13-2	736-739	har	_	_	_	_	_	_	
+13-3	740-743	ett	_	_	_	_	_	_	
+13-4	744-749	stort	_	_	_	_	_	_	
+13-5	750-756	ansvar	_	_	_	_	_	_	
+13-6	757-760	för	_	_	_	_	_	_	
+13-7	761-764	att	_	_	_	_	_	_	
+13-8	765-776	kontrollera	_	_	_	_	_	_	
+13-9	777-780	att	_	_	_	_	_	_	
+13-10	781-788	bilarna	_	_	_	_	_	_	
+13-11	789-791	är	_	_	_	_	_	_	
+13-12	792-803	trafiksäkra	_	_	_	_	_	_	
+13-13	803-804	.	_	_	_	_	_	_	
+
+#Text=Moderna fordon kräver dessutom avancerad utrustning för kontroll.
+14-1	805-812	Moderna	_	_	_	_	_	_	
+14-2	813-819	fordon	_	_	_	_	_	_	
+14-3	820-826	kräver	_	_	_	_	_	_	
+14-4	827-835	dessutom	_	_	_	_	_	_	
+14-5	836-845	avancerad	_	_	_	_	_	_	
+14-6	846-856	utrustning	_	_	_	_	_	_	
+14-7	857-860	för	_	_	_	_	_	_	
+14-8	861-869	kontroll	_	_	_	_	_	_	
+14-9	869-870	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	872-873	#	_	_	_	_	_	_	
+15-2	873-874	P	_	_	_	_	_	_	
+15-3	875-878	IMM	_	_	_	_	_	_	
+15-4	878-879	.	_	_	_	_	_	_	
+
+#Text=Reglerna för de entreprenörer som i framtiden ska utföra besiktningen måste vara så tydliga att det inte finns någon risk att kvaliteten försämras.Analysföretaget McKinsey har på regeringens uppdrag utrett hur monopolet bör avregleras.
+16-1	881-889	Reglerna	_	_	_	_	_	_	
+16-2	890-893	för	_	_	_	_	_	_	
+16-3	894-896	de	_	_	_	_	_	_	
+16-4	897-910	entreprenörer	_	_	_	_	_	_	
+16-5	911-914	som	_	_	_	_	_	_	
+16-6	915-916	i	_	_	_	_	_	_	
+16-7	917-926	framtiden	_	_	_	_	_	_	
+16-8	927-930	ska	_	_	_	_	_	_	
+16-9	931-937	utföra	_	_	_	_	_	_	
+16-10	938-950	besiktningen	_	_	_	_	_	_	
+16-11	951-956	måste	_	_	_	_	_	_	
+16-12	957-961	vara	_	_	_	_	_	_	
+16-13	962-964	så	_	_	_	_	_	_	
+16-14	965-972	tydliga	_	_	_	_	_	_	
+16-15	973-976	att	_	_	_	_	_	_	
+16-16	977-980	det	_	_	_	_	_	_	
+16-17	981-985	inte	_	_	_	_	_	_	
+16-18	986-991	finns	_	_	_	_	_	_	
+16-19	992-997	någon	_	_	_	_	_	_	
+16-20	998-1002	risk	_	_	_	_	_	_	
+16-21	1003-1006	att	_	_	_	_	_	_	
+16-22	1007-1017	kvaliteten	_	_	_	_	_	_	
+16-23	1018-1043	försämras.Analysföretaget	_	_	_	_	_	_	
+16-24	1044-1052	McKinsey	_	_	_	_	_	_	
+16-25	1053-1056	har	_	_	_	_	_	_	
+16-26	1057-1059	på	_	_	_	_	_	_	
+16-27	1060-1071	regeringens	_	_	_	_	_	_	
+16-28	1072-1079	uppdrag	_	_	_	_	_	_	
+16-29	1080-1086	utrett	_	_	_	_	_	_	
+16-30	1087-1090	hur	_	_	_	_	_	_	
+16-31	1091-1100	monopolet	_	_	_	_	_	_	
+16-32	1101-1104	bör	_	_	_	_	_	_	
+16-33	1105-1115	avregleras	_	_	_	_	_	_	
+16-34	1115-1116	.	_	_	_	_	_	_	
+
+#Text=Det slås fast att stränga kvalitetskrav bör gälla för alla besiktningsföretag.
+17-1	1117-1120	Det	_	_	_	_	_	_	
+17-2	1121-1125	slås	_	_	_	_	_	_	
+17-3	1126-1130	fast	_	_	_	_	_	_	
+17-4	1131-1134	att	_	_	_	_	_	_	
+17-5	1135-1142	stränga	_	_	_	_	_	_	
+17-6	1143-1156	kvalitetskrav	_	_	_	_	_	_	
+17-7	1157-1160	bör	_	_	_	_	_	_	
+17-8	1161-1166	gälla	_	_	_	_	_	_	
+17-9	1167-1170	för	_	_	_	_	_	_	
+17-10	1171-1175	alla	_	_	_	_	_	_	
+17-11	1176-1194	besiktningsföretag	_	_	_	_	_	_	
+17-12	1194-1195	.	_	_	_	_	_	_	
+
+#Text=Företagen ska ackrediteras enligt ISO 17020-standard för att garantera att företagen har rätt utrustning och håller kvalitetskraven.
+18-1	1196-1205	Företagen	_	_	_	_	_	_	
+18-2	1206-1209	ska	_	_	_	_	_	_	
+18-3	1210-1222	ackrediteras	_	_	_	_	_	_	
+18-4	1223-1229	enligt	_	_	_	_	_	_	
+18-5	1230-1233	ISO	_	_	_	_	_	_	
+18-6	1234-1239	17020	_	_	_	_	_	_	
+18-7	1239-1240	-	_	_	_	_	_	_	
+18-8	1240-1248	standard	_	_	_	_	_	_	
+18-9	1249-1252	för	_	_	_	_	_	_	
+18-10	1253-1256	att	_	_	_	_	_	_	
+18-11	1257-1266	garantera	_	_	_	_	_	_	
+18-12	1267-1270	att	_	_	_	_	_	_	
+18-13	1271-1280	företagen	_	_	_	_	_	_	
+18-14	1281-1284	har	_	_	_	_	_	_	
+18-15	1285-1289	rätt	_	_	_	_	_	_	
+18-16	1290-1300	utrustning	_	_	_	_	_	_	
+18-17	1301-1304	och	_	_	_	_	_	_	
+18-18	1305-1311	håller	_	_	_	_	_	_	
+18-19	1312-1327	kvalitetskraven	_	_	_	_	_	_	
+18-20	1327-1328	.	_	_	_	_	_	_	
+
+#Text=De höga utbildningskraven ska behållas och certifiering för enskilda inspektörer ska införas, så att både besiktningsföretag och enskilda inspektörer kan hållas ansvariga för att besiktningarna är korrekta.
+19-1	1329-1331	De	_	_	_	_	_	_	
+19-2	1332-1336	höga	_	_	_	_	_	_	
+19-3	1337-1354	utbildningskraven	_	_	_	_	_	_	
+19-4	1355-1358	ska	_	_	_	_	_	_	
+19-5	1359-1367	behållas	_	_	_	_	_	_	
+19-6	1368-1371	och	_	_	_	_	_	_	
+19-7	1372-1384	certifiering	_	_	_	_	_	_	
+19-8	1385-1388	för	_	_	_	_	_	_	
+19-9	1389-1397	enskilda	_	_	_	_	_	_	
+19-10	1398-1409	inspektörer	_	_	_	_	_	_	
+19-11	1410-1413	ska	_	_	_	_	_	_	
+19-12	1414-1421	införas	_	_	_	_	_	_	
+19-13	1421-1422	,	_	_	_	_	_	_	
+19-14	1423-1425	så	_	_	_	_	_	_	
+19-15	1426-1429	att	_	_	_	_	_	_	
+19-16	1430-1434	både	_	_	_	_	_	_	
+19-17	1435-1453	besiktningsföretag	_	_	_	_	_	_	
+19-18	1454-1457	och	_	_	_	_	_	_	
+19-19	1458-1466	enskilda	_	_	_	_	_	_	
+19-20	1467-1478	inspektörer	_	_	_	_	_	_	
+19-21	1479-1482	kan	_	_	_	_	_	_	
+19-22	1483-1489	hållas	_	_	_	_	_	_	
+19-23	1490-1499	ansvariga	_	_	_	_	_	_	
+19-24	1500-1503	för	_	_	_	_	_	_	
+19-25	1504-1507	att	_	_	_	_	_	_	
+19-26	1508-1522	besiktningarna	_	_	_	_	_	_	
+19-27	1523-1525	är	_	_	_	_	_	_	
+19-28	1526-1534	korrekta	_	_	_	_	_	_	
+19-29	1534-1535	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1537-1538	#	_	_	_	_	_	_	
+20-2	1538-1539	P	_	_	_	_	_	_	
+20-3	1540-1543	IMM	_	_	_	_	_	_	
+20-4	1543-1544	.	_	_	_	_	_	_	
+
+#Text=Utredningen föreslår också att oberoendet bör kvarstå, det vill säga att ett företag inte får besiktiga ett fordon som det har reparerat.
+21-1	1546-1557	Utredningen	_	_	_	_	_	_	
+21-2	1558-1566	föreslår	_	_	_	_	_	_	
+21-3	1567-1572	också	_	_	_	_	_	_	
+21-4	1573-1576	att	_	_	_	_	_	_	
+21-5	1577-1587	oberoendet	_	_	_	_	_	_	
+21-6	1588-1591	bör	_	_	_	_	_	_	
+21-7	1592-1599	kvarstå	_	_	_	_	_	_	
+21-8	1599-1600	,	_	_	_	_	_	_	
+21-9	1601-1604	det	_	_	_	_	_	_	
+21-10	1605-1609	vill	_	_	_	_	_	_	
+21-11	1610-1614	säga	_	_	_	_	_	_	
+21-12	1615-1618	att	_	_	_	_	_	_	
+21-13	1619-1622	ett	_	_	_	_	_	_	
+21-14	1623-1630	företag	_	_	_	_	_	_	
+21-15	1631-1635	inte	_	_	_	_	_	_	
+21-16	1636-1639	får	_	_	_	_	_	_	
+21-17	1640-1649	besiktiga	_	_	_	_	_	_	
+21-18	1650-1653	ett	_	_	_	_	_	_	
+21-19	1654-1660	fordon	_	_	_	_	_	_	
+21-20	1661-1664	som	_	_	_	_	_	_	
+21-21	1665-1668	det	_	_	_	_	_	_	
+21-22	1669-1672	har	_	_	_	_	_	_	
+21-23	1673-1682	reparerat	_	_	_	_	_	_	
+21-24	1682-1683	.	_	_	_	_	_	_	
+
+#Text=Syftet är att undvika situationer där rollerna blandas ihop.
+22-1	1684-1690	Syftet	_	_	_	_	_	_	
+22-2	1691-1693	är	_	_	_	_	_	_	
+22-3	1694-1697	att	_	_	_	_	_	_	
+22-4	1698-1705	undvika	_	_	_	_	_	_	
+22-5	1706-1717	situationer	_	_	_	_	_	_	
+22-6	1718-1721	där	_	_	_	_	_	_	
+22-7	1722-1730	rollerna	_	_	_	_	_	_	
+22-8	1731-1738	blandas	_	_	_	_	_	_	
+22-9	1739-1743	ihop	_	_	_	_	_	_	
+22-10	1743-1744	.	_	_	_	_	_	_	
+
+#Text=När man bedömer sitt eget eller sina kollegors arbete finns annars tyvärr alltid risken att man är ”lite snällare” än man annars skulle vara.
+23-1	1745-1748	När	*[8]	_	_	_	_	_	
+23-2	1749-1752	man	*[8]	_	_	_	_	_	
+23-3	1753-1760	bedömer	*[8]	_	_	_	_	_	
+23-4	1761-1765	sitt	*[8]	_	_	_	_	_	
+23-5	1766-1770	eget	*[8]	_	_	_	_	_	
+23-6	1771-1776	eller	*[8]	_	_	_	_	_	
+23-7	1777-1781	sina	*[8]	_	_	_	_	_	
+23-8	1782-1791	kollegors	*[8]	_	_	_	_	_	
+23-9	1792-1798	arbete	*[8]	_	_	_	_	_	
+23-10	1799-1804	finns	*[8]	_	_	_	_	_	
+23-11	1805-1811	annars	*[8]	_	_	_	_	_	
+23-12	1812-1818	tyvärr	*[8]	Target	23-1[8]	false	2	_	
+23-13	1819-1825	alltid	*[8]	_	_	_	_	_	
+23-14	1826-1832	risken	*[8]	Target	23-15[9]	false	2	_	
+23-15	1833-1836	att	*[8]|*[9]	_	_	_	_	_	
+23-16	1837-1840	man	*[8]|*[9]	_	_	_	_	_	
+23-17	1841-1843	är	*[8]|*[9]	_	_	_	_	_	
+23-18	1844-1845	”	*[8]|*[9]	_	_	_	_	_	
+23-19	1845-1849	lite	*[8]|*[9]	_	_	_	_	_	
+23-20	1850-1858	snällare	*[8]|*[9]	_	_	_	_	_	
+23-21	1858-1859	”	*[8]|*[9]	_	_	_	_	_	
+23-22	1860-1862	än	*[8]|*[9]	_	_	_	_	_	
+23-23	1863-1866	man	*[8]|*[9]	_	_	_	_	_	
+23-24	1867-1873	annars	*[8]|*[9]	_	_	_	_	_	
+23-25	1874-1880	skulle	*[8]|*[9]	_	_	_	_	_	
+23-26	1881-1885	vara	*[8]|*[9]	_	_	_	_	_	
+23-27	1885-1886	.	_	_	_	_	_	_	
+
+#Text=Detta får inte ske på fordonssäkerhetens område.
+24-1	1887-1892	Detta	_	_	_	_	_	_	
+24-2	1893-1896	får	_	_	_	_	_	_	
+24-3	1897-1901	inte	_	_	_	_	_	_	
+24-4	1902-1905	ske	_	_	_	_	_	_	
+24-5	1906-1908	på	_	_	_	_	_	_	
+24-6	1909-1927	fordonssäkerhetens	_	_	_	_	_	_	
+24-7	1928-1934	område	_	_	_	_	_	_	
+24-8	1934-1935	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1937-1938	#	_	_	_	_	_	_	
+25-2	1938-1939	P	_	_	_	_	_	_	
+25-3	1940-1943	IMM	_	_	_	_	_	_	
+25-4	1943-1944	.	_	_	_	_	_	_	
+
+#Text=Ändå finns det tecken på att regeringen överväger att slopa kravet på oberoende.
+26-1	1946-1950	Ändå	_	_	_	_	_	_	
+26-2	1951-1956	finns	_	_	_	_	_	_	
+26-3	1957-1960	det	_	_	_	_	_	_	
+26-4	1961-1967	tecken	_	_	_	_	_	_	
+26-5	1968-1970	på	_	_	_	_	_	_	
+26-6	1971-1974	att	_	_	_	_	_	_	
+26-7	1975-1985	regeringen	_	_	_	_	_	_	
+26-8	1986-1995	överväger	_	_	_	_	_	_	
+26-9	1996-1999	att	_	_	_	_	_	_	
+26-10	2000-2005	slopa	_	_	_	_	_	_	
+26-11	2006-2012	kravet	_	_	_	_	_	_	
+26-12	2013-2015	på	_	_	_	_	_	_	
+26-13	2016-2025	oberoende	_	_	_	_	_	_	
+26-14	2025-2026	.	_	_	_	_	_	_	
+
+#Text=Bilverkstäderna gör ett mycket bra arbete, men en avreglering får inte ske på ett sätt som riskerar besiktningens kvalitet och därmed utgör en fara för försämrad trafiksäkerhet.
+27-1	2027-2042	Bilverkstäderna	_	_	_	_	_	_	
+27-2	2043-2046	gör	_	_	_	_	_	_	
+27-3	2047-2050	ett	_	_	_	_	_	_	
+27-4	2051-2057	mycket	_	_	_	_	_	_	
+27-5	2058-2061	bra	_	_	_	_	_	_	
+27-6	2062-2068	arbete	_	_	_	_	_	_	
+27-7	2068-2069	,	_	_	_	_	_	_	
+27-8	2070-2073	men	_	_	_	_	_	_	
+27-9	2074-2076	en	_	_	_	_	_	_	
+27-10	2077-2088	avreglering	_	_	_	_	_	_	
+27-11	2089-2092	får	_	_	_	_	_	_	
+27-12	2093-2097	inte	_	_	_	_	_	_	
+27-13	2098-2101	ske	_	_	_	_	_	_	
+27-14	2102-2104	på	_	_	_	_	_	_	
+27-15	2105-2108	ett	*[10]	_	_	_	_	27-17[0_10]	
+27-16	2109-2113	sätt	*[10]	_	_	_	_	_	
+27-17	2114-2117	som	*	_	_	_	_	_	
+27-18	2118-2126	riskerar	_	Target[4]	27-17	false[4]	2[4]	_	
+27-19	2127-2140	besiktningens	_	Target[4]	27-17	false[4]	2[4]	_	
+27-20	2141-2149	kvalitet	_	Target[4]	27-17	false[4]	2[4]	_	
+27-21	2150-2153	och	_	Target[4]	27-17	false[4]	2[4]	_	
+27-22	2154-2160	därmed	_	Target[4]	27-17	false[4]	2[4]	_	
+27-23	2161-2166	utgör	_	Target[4]	27-17	false[4]	2[4]	_	
+27-24	2167-2169	en	_	Target[4]	27-17	false[4]	2[4]	_	
+27-25	2170-2174	fara	_	Target[4]	27-17	false[4]	2[4]	_	
+27-26	2175-2178	för	_	Target[4]	27-17	false[4]	2[4]	_	
+27-27	2179-2188	försämrad	_	Target[4]	27-17	false[4]	2[4]	_	
+27-28	2189-2203	trafiksäkerhet	_	Target[4]	27-17	false[4]	2[4]	_	
+27-29	2203-2204	.	_	_	_	_	_	_	
+
+#Text=Det finns andra alternativ för att säkerställa tillgången till besiktning i glesbygden.
+28-1	2205-2208	Det	_	_	_	_	_	_	
+28-2	2209-2214	finns	_	_	_	_	_	_	
+28-3	2215-2220	andra	_	_	_	_	_	_	
+28-4	2221-2231	alternativ	_	_	_	_	_	_	
+28-5	2232-2235	för	_	_	_	_	_	_	
+28-6	2236-2239	att	_	_	_	_	_	_	
+28-7	2240-2251	säkerställa	_	_	_	_	_	_	
+28-8	2252-2262	tillgången	_	_	_	_	_	_	
+28-9	2263-2267	till	_	_	_	_	_	_	
+28-10	2268-2278	besiktning	_	_	_	_	_	_	
+28-11	2279-2280	i	_	_	_	_	_	_	
+28-12	2281-2291	glesbygden	_	_	_	_	_	_	
+28-13	2291-2292	.	_	_	_	_	_	_	
+
+#Text=Vi hoppas därför att regeringen avskriver planerna på att ge verkstäder rätt att samtidigt reparera och besiktiga fordon.
+29-1	2293-2295	Vi	*	_	_	_	_	_	
+29-2	2296-2302	hoppas	_	Source;Target	29-1;29-4[11]	false	4	_	
+29-3	2303-2309	därför	_	_	_	_	_	_	
+29-4	2310-2313	att	*[11]	_	_	_	_	_	
+29-5	2314-2324	regeringen	*[11]	_	_	_	_	_	
+29-6	2325-2334	avskriver	*[11]	_	_	_	_	_	
+29-7	2335-2343	planerna	*[11]	_	_	_	_	_	
+29-8	2344-2346	på	*[11]	_	_	_	_	_	
+29-9	2347-2350	att	*[11]	_	_	_	_	_	
+29-10	2351-2353	ge	*[11]	_	_	_	_	_	
+29-11	2354-2364	verkstäder	*[11]	_	_	_	_	_	
+29-12	2365-2369	rätt	*[11]	_	_	_	_	_	
+29-13	2370-2373	att	*[11]	_	_	_	_	_	
+29-14	2374-2383	samtidigt	*[11]	_	_	_	_	_	
+29-15	2384-2392	reparera	*[11]	_	_	_	_	_	
+29-16	2393-2396	och	*[11]	_	_	_	_	_	
+29-17	2397-2406	besiktiga	*[11]	_	_	_	_	_	
+29-18	2407-2413	fordon	*[11]	_	_	_	_	_	
+29-19	2413-2414	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2416-2417	#	_	_	_	_	_	_	
+30-2	2417-2418	P	_	_	_	_	_	_	
+30-3	2419-2422	IMM	_	_	_	_	_	_	
+30-4	2422-2423	.	_	_	_	_	_	_	
+
+#Text=Per-Olof Franssén.
+31-1	2425-2433	Per-Olof	_	_	_	_	_	_	
+31-2	2434-2442	Franssén	_	_	_	_	_	_	
+31-3	2442-2443	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2445-2446	#	_	_	_	_	_	_	
+32-2	2446-2447	P	_	_	_	_	_	_	
+32-3	2448-2451	IMM	_	_	_	_	_	_	
+32-4	2451-2452	.	_	_	_	_	_	_	
+
+#Text=Halvard Nilsson.
+33-1	2454-2461	Halvard	_	_	_	_	_	_	
+33-2	2462-2469	Nilsson	_	_	_	_	_	_	
+33-3	2469-2470	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2472-2473	#	_	_	_	_	_	_	
+34-2	2473-2474	P	_	_	_	_	_	_	
+34-3	2475-2478	IMM	_	_	_	_	_	_	
+34-4	2478-2479	.	_	_	_	_	_	_	
+
+#Text=Ledamöter i den ideella föreningen Veta,.
+35-1	2481-2490	Ledamöter	_	_	_	_	_	_	
+35-2	2491-2492	i	_	_	_	_	_	_	
+35-3	2493-2496	den	_	_	_	_	_	_	
+35-4	2497-2504	ideella	_	_	_	_	_	_	
+35-5	2505-2515	föreningen	_	_	_	_	_	_	
+35-6	2516-2520	Veta	_	_	_	_	_	_	
+35-7	2520-2521	,	_	_	_	_	_	_	
+35-8	2521-2522	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2524-2525	#	_	_	_	_	_	_	
+36-2	2525-2526	P	_	_	_	_	_	_	
+36-3	2527-2530	IMM	_	_	_	_	_	_	
+36-4	2530-2531	.	_	_	_	_	_	_	
+
+#Text=Vetenskap och Erfarenhet.
+37-1	2533-2542	Vetenskap	_	_	_	_	_	_	
+37-2	2543-2546	och	_	_	_	_	_	_	
+37-3	2547-2557	Erfarenhet	_	_	_	_	_	_	
+37-4	2557-2558	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2560-2561	#	_	_	_	_	_	_	
+38-2	2561-2562	P	_	_	_	_	_	_	
+38-3	2563-2566	IMM	_	_	_	_	_	_	
+38-4	2566-2567	.	_	_	_	_	_	_	
+
+#Text=i Trafiksäkerhetsarbetet.
+39-1	2569-2570	i	_	_	_	_	_	_	
+39-2	2571-2593	Trafiksäkerhetsarbetet	_	_	_	_	_	_	
+39-3	2593-2594	.	_	_	_	_	_	_	

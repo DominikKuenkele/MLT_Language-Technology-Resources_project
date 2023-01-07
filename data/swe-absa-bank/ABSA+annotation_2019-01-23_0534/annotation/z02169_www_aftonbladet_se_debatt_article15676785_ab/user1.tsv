@@ -1,0 +1,300 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=SD: Centerns politik splittrar Sverige.
+3-1	18-20	SD	*	_	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	_	
+3-3	22-30	Centerns	*[13]	_	_	_	_	_	
+3-4	31-38	politik	*[13]	_	_	_	_	_	
+3-5	39-48	splittrar	_	Source;Target[1]	3-1;3-3[13]	false[1]	2[1]	_	
+3-6	49-56	Sverige	_	Source;Target[1]	3-1;3-3[13]	false[1]	2[1]	_	
+3-7	56-57	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=Fokus på utbildning och tillväxt för alla ger också bättre integration.
+5-1	68-73	Fokus	*[14]	_	_	_	_	_	
+5-2	74-76	på	*[14]	_	_	_	_	_	
+5-3	77-87	utbildning	*[14]	_	_	_	_	_	
+5-4	88-91	och	*[14]	_	_	_	_	_	
+5-5	92-100	tillväxt	*[14]	_	_	_	_	_	
+5-6	101-104	för	*[14]	_	_	_	_	_	
+5-7	105-109	alla	*[14]	_	_	_	_	_	
+5-8	110-113	ger	_	Target[2]	5-1[14]	false[2]	2[2]	_	
+5-9	114-119	också	_	Target[2]	5-1[14]	false[2]	2[2]	_	
+5-10	120-126	bättre	_	Target[2]	5-1[14]	false[2]	2[2]	_	
+5-11	127-138	integration	_	Target[2]	5-1[14]	false[2]	2[2]	_	
+5-12	138-139	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	141-142	#	_	_	_	_	_	_	
+6-2	142-143	P	_	_	_	_	_	_	
+6-3	144-147	IMM	_	_	_	false	2	_	
+6-4	147-148	.	_	_	_	_	_	_	
+
+#Text=Skillnaden mellan C och SD på det integrationspolitiska området är väldigt tydlig.
+7-1	150-160	Skillnaden	_	_	_	_	_	_	
+7-2	161-167	mellan	_	_	_	_	_	_	
+7-3	168-169	C	_	_	_	_	_	_	
+7-4	170-173	och	_	_	_	_	_	_	
+7-5	174-176	SD	_	_	_	_	_	_	
+7-6	177-179	på	_	_	_	_	_	_	
+7-7	180-183	det	_	_	_	_	_	_	
+7-8	184-205	integrationspolitiska	_	_	_	_	_	_	
+7-9	206-213	området	_	_	_	_	_	_	
+7-10	214-216	är	_	_	_	_	_	_	
+7-11	217-224	väldigt	_	_	_	_	_	_	
+7-12	225-231	tydlig	_	_	_	_	_	_	
+7-13	231-232	.	_	_	_	_	_	_	
+
+#Text=C vill späda på utanförskapet genom fortsatt massinvandring och sedan motverka de värsta symptomen genom lönedumpning, skattemiljarder till nyanlända, diskriminerande lagstiftning genom skattelättnader för invandrare och ”översyn” av vårt välfärdssystem.
+8-1	233-234	C	*	_	_	_	_	_	
+8-2	235-239	vill	_	Target[3]|Target[4]	8-7[15]|8-1	false[3]|false[4]	2[3]|2[4]	_	
+8-3	240-245	späda	_	Target[3]|Target[4]	8-7[15]|8-1	false[3]|false[4]	2[3]|2[4]	_	
+8-4	246-248	på	_	Target[3]|Target[4]	8-7[15]|8-1	false[3]|false[4]	2[3]|2[4]	_	
+8-5	249-262	utanförskapet	_	Target[3]|Target[4]	8-7[15]|8-1	false[3]|false[4]	2[3]|2[4]	_	
+8-6	263-268	genom	_	Target[3]	8-7[15]	false[3]	2[3]	_	
+8-7	269-277	fortsatt	*[15]	_	_	_	_	_	
+8-8	278-292	massinvandring	*[15]	_	_	_	_	_	
+8-9	293-296	och	_	_	_	_	_	_	
+8-10	297-302	sedan	_	_	_	_	_	_	
+8-11	303-311	motverka	_	Target[5]	8-1	false[5]	2[5]	_	
+8-12	312-314	de	_	Target[5]	8-1	false[5]	2[5]	_	
+8-13	315-321	värsta	_	Target[5]	8-1	false[5]	2[5]	_	
+8-14	322-331	symptomen	_	Target[5]	8-1	false[5]	2[5]	_	
+8-15	332-337	genom	_	Target[5]	8-1	false[5]	2[5]	_	
+8-16	338-350	lönedumpning	_	Target[5]	8-1	false[5]	2[5]	_	
+8-17	350-351	,	_	Target[5]	8-1	false[5]	2[5]	_	
+8-18	352-367	skattemiljarder	_	Target[5]	8-1	false[5]	2[5]	_	
+8-19	368-372	till	_	Target[5]	8-1	false[5]	2[5]	_	
+8-20	373-382	nyanlända	_	Target[5]	8-1	false[5]	2[5]	_	
+8-21	382-383	,	_	Target[5]	8-1	false[5]	2[5]	_	
+8-22	384-399	diskriminerande	_	Target[5]	8-1	false[5]	2[5]	_	
+8-23	400-412	lagstiftning	_	Target[5]	8-1	false[5]	2[5]	_	
+8-24	413-418	genom	_	Target[5]	8-1	false[5]	2[5]	_	
+8-25	419-434	skattelättnader	_	Target[5]	8-1	false[5]	2[5]	_	
+8-26	435-438	för	_	Target[5]	8-1	false[5]	2[5]	_	
+8-27	439-449	invandrare	_	Target[5]	8-1	false[5]	2[5]	_	
+8-28	450-453	och	_	Target[5]	8-1	false[5]	2[5]	_	
+8-29	454-455	”	_	Target[5]	8-1	false[5]	2[5]	_	
+8-30	455-462	översyn	_	Target[5]	8-1	false[5]	2[5]	_	
+8-31	462-463	”	_	Target[5]	8-1	false[5]	2[5]	_	
+8-32	464-466	av	_	Target[5]	8-1	false[5]	2[5]	_	
+8-33	467-471	vårt	_	Target[5]	8-1	false[5]	2[5]	_	
+8-34	472-486	välfärdssystem	_	Target[5]	8-1	false[5]	2[5]	_	
+8-35	486-487	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	489-490	#	_	_	_	_	_	_	
+9-2	490-491	P	_	_	_	_	_	_	
+9-3	492-495	IMM	_	_	_	false	2	_	
+9-4	495-496	.	_	_	_	_	_	_	
+
+#Text=SD:s svar på denna destruktiva politik är en ansvarsfull invandring och en offensiv och sammanhållen politik för bättre utbildning och fler arbeten till alla.
+10-1	498-500	SD	_	_	_	_	_	_	
+10-2	500-501	:	_	_	_	_	_	_	
+10-3	501-502	s	_	_	_	_	_	_	
+10-4	503-507	svar	_	_	_	_	_	_	
+10-5	508-510	på	_	_	_	_	_	_	
+10-6	511-516	denna	_	Target[6]	8-1	false[6]	2[6]	_	
+10-7	517-528	destruktiva	_	Target[6]	8-1	false[6]	2[6]	_	
+10-8	529-536	politik	_	Target[6]	8-1	false[6]	2[6]	_	
+10-9	537-539	är	_	_	_	_	_	_	
+10-10	540-542	en	*[16]	_	_	_	_	_	
+10-11	543-554	ansvarsfull	*[16]	_	_	_	_	_	
+10-12	555-565	invandring	*[16]	_	_	_	_	_	
+10-13	566-569	och	*[16]	_	_	_	_	_	
+10-14	570-572	en	*[16]	_	_	_	_	_	
+10-15	573-581	offensiv	*[16]	_	_	_	_	_	
+10-16	582-585	och	*[16]	_	_	_	_	_	
+10-17	586-598	sammanhållen	*[16]	_	_	_	_	_	
+10-18	599-606	politik	*[16]	_	_	_	_	_	
+10-19	607-610	för	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-20	611-617	bättre	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-21	618-628	utbildning	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-22	629-632	och	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-23	633-637	fler	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-24	638-645	arbeten	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-25	646-650	till	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-26	651-655	alla	_	Target[7]	10-10[16]	false[7]	4[7]	_	
+10-27	655-656	.	_	_	_	_	_	_	
+
+#Text=Svenskar såväl som invandrare genom en förbättrad skola med ökat fokus på kunskaper i svenska, förbättrad infrastruktur, stora riktade satsningar på sysselsättning och tillväxt.
+11-1	657-665	Svenskar	_	_	_	_	_	_	
+11-2	666-671	såväl	_	_	_	_	_	_	
+11-3	672-675	som	_	_	_	_	_	_	
+11-4	676-686	invandrare	_	_	_	_	_	_	
+11-5	687-692	genom	_	_	_	_	_	_	
+11-6	693-695	en	_	_	_	_	_	_	
+11-7	696-706	förbättrad	_	_	_	_	_	_	
+11-8	707-712	skola	_	_	_	_	_	_	
+11-9	713-716	med	_	_	_	_	_	_	
+11-10	717-721	ökat	_	_	_	_	_	_	
+11-11	722-727	fokus	_	_	_	_	_	_	
+11-12	728-730	på	_	_	_	_	_	_	
+11-13	731-740	kunskaper	_	_	_	_	_	_	
+11-14	741-742	i	_	_	_	_	_	_	
+11-15	743-750	svenska	_	_	_	_	_	_	
+11-16	750-751	,	_	_	_	_	_	_	
+11-17	752-762	förbättrad	_	_	_	_	_	_	
+11-18	763-776	infrastruktur	_	_	_	_	_	_	
+11-19	776-777	,	_	_	_	_	_	_	
+11-20	778-783	stora	_	_	_	_	_	_	
+11-21	784-791	riktade	_	_	_	_	_	_	
+11-22	792-802	satsningar	_	_	_	_	_	_	
+11-23	803-805	på	_	_	_	_	_	_	
+11-24	806-820	sysselsättning	_	_	_	_	_	_	
+11-25	821-824	och	_	_	_	_	_	_	
+11-26	825-833	tillväxt	_	_	_	_	_	_	
+11-27	833-834	.	_	_	_	_	_	_	
+
+#Text=Vår småföretagarsatsning innebärande bland annat minskad arbetsgivaravgift, förändrade turordningsregler och minskat sjuklöneansvar.
+12-1	835-838	Vår	_	_	_	_	_	_	
+12-2	839-859	småföretagarsatsning	_	_	_	_	_	_	
+12-3	860-871	innebärande	_	_	_	_	_	_	
+12-4	872-877	bland	_	_	_	_	_	_	
+12-5	878-883	annat	_	_	_	_	_	_	
+12-6	884-891	minskad	_	_	_	_	_	_	
+12-7	892-909	arbetsgivaravgift	_	_	_	_	_	_	
+12-8	909-910	,	_	_	_	_	_	_	
+12-9	911-921	förändrade	_	_	_	_	_	_	
+12-10	922-939	turordningsregler	_	_	_	_	_	_	
+12-11	940-943	och	_	_	_	_	_	_	
+12-12	944-951	minskat	_	_	_	_	_	_	
+12-13	952-966	sjuklöneansvar	_	_	_	_	_	_	
+12-14	966-967	.	_	_	_	_	_	_	
+
+#Text=Genom våra förslag kan vi till skillnad från Centerpartiet hålla ihop Sverige, frigöra resurser till välfärden och få fler i arbete.
+13-1	969-974	Genom	_	_	_	_	_	_	
+13-2	975-979	våra	*[17]	_	_	_	_	_	
+13-3	980-987	förslag	*[17]	_	_	_	_	_	
+13-4	988-991	kan	_	_	_	false	2	_	
+13-5	992-994	vi	_	_	_	_	_	_	
+13-6	995-999	till	_	Target[8]	13-9	false[8]	2[8]	13-4[0_8]	
+13-7	1000-1008	skillnad	_	Target[8]	13-9	false[8]	2[8]	_	
+13-8	1009-1013	från	_	Target[8]	13-9	false[8]	2[8]	_	
+13-9	1014-1027	Centerpartiet	*	Target[8]	13-9	false[8]	2[8]	_	
+13-10	1028-1033	hålla	_	Target[8]|Target[9]	13-9|13-2[17]	false[8]|false[9]	2[8]|4[9]	_	
+13-11	1034-1038	ihop	_	Target[8]|Target[9]	13-9|13-2[17]	false[8]|false[9]	2[8]|4[9]	_	
+13-12	1039-1046	Sverige	_	Target[8]|Target[9]	13-9|13-2[17]	false[8]|false[9]	2[8]|4[9]	_	
+13-13	1046-1047	,	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-14	1048-1055	frigöra	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-15	1056-1064	resurser	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-16	1065-1069	till	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-17	1070-1079	välfärden	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-18	1080-1083	och	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-19	1084-1086	få	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-20	1087-1091	fler	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-21	1092-1093	i	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-22	1094-1100	arbete	_	Target[9]	13-2[17]	false[9]	4[9]	_	
+13-23	1100-1101	.	_	_	_	_	_	_	
+
+#Text=Detta är vägen till verklig integration, sammanhållning och ökat välstånd för alla.
+14-1	1102-1107	Detta	*	_	_	_	_	_	
+14-2	1108-1110	är	_	Target[10]	14-1	false[10]	4[10]	_	
+14-3	1111-1116	vägen	_	Target[10]	14-1	false[10]	4[10]	_	
+14-4	1117-1121	till	_	Target[10]	14-1	false[10]	4[10]	_	
+14-5	1122-1129	verklig	_	Target[10]	14-1	false[10]	4[10]	_	
+14-6	1130-1141	integration	_	Target[10]	14-1	false[10]	4[10]	_	
+14-7	1141-1142	,	_	Target[10]	14-1	false[10]	4[10]	_	
+14-8	1143-1157	sammanhållning	_	Target[10]	14-1	false[10]	4[10]	_	
+14-9	1158-1161	och	_	Target[10]	14-1	false[10]	4[10]	_	
+14-10	1162-1166	ökat	_	Target[10]	14-1	false[10]	4[10]	_	
+14-11	1167-1175	välstånd	_	Target[10]	14-1	false[10]	4[10]	_	
+14-12	1176-1179	för	_	Target[10]	14-1	false[10]	4[10]	_	
+14-13	1180-1184	alla	_	Target[10]	14-1	false[10]	4[10]	_	
+14-14	1184-1185	.	_	_	_	_	_	_	
+
+#Text=Centerpartiets samhällssplittrande så kallade.integrationspolitik bestående av fortsatt massinvandring, skattesubventionerade låtsasjobb och diskriminerande särlösningar leder tyvärr i rakt motsatt riktning.
+15-1	1186-1200	Centerpartiets	*[18]|*[19]	_	_	_	_	_	
+15-2	1201-1220	samhällssplittrande	*[18]|*[19]	Target	15-4[20]	false	2	_	
+15-3	1221-1223	så	*[18]|*[19]	_	_	_	_	_	
+15-4	1224-1251	kallade.integrationspolitik	*[18]|*[19]|*[20]	_	_	_	_	_	
+15-5	1252-1261	bestående	*[18]	_	_	_	_	_	
+15-6	1262-1264	av	*[18]	_	_	_	_	_	
+15-7	1265-1273	fortsatt	*[18]	_	_	_	_	_	
+15-8	1274-1288	massinvandring	*[18]	_	_	_	_	_	
+15-9	1288-1289	,	*[18]	_	_	_	_	_	
+15-10	1290-1311	skattesubventionerade	*[18]	_	_	_	_	_	
+15-11	1312-1322	låtsasjobb	*[18]	_	_	_	_	_	
+15-12	1323-1326	och	*[18]	_	_	_	_	_	
+15-13	1327-1342	diskriminerande	*[18]	Target[11]	15-1[19]	false[11]	2[11]	_	
+15-14	1343-1355	särlösningar	*[18]	Target[11]	15-1[19]	false[11]	2[11]	_	
+15-15	1356-1361	leder	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-16	1362-1368	tyvärr	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-17	1369-1370	i	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-18	1371-1375	rakt	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-19	1376-1383	motsatt	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-20	1384-1392	riktning	_	Target[12]	15-1[18]	false[12]	2[12]	_	
+15-21	1392-1393	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1395-1396	#	_	_	_	_	_	_	
+16-2	1396-1397	P	_	_	_	_	_	_	
+16-3	1398-1401	IMM	_	_	_	_	_	_	
+16-4	1401-1402	.	_	_	_	_	_	_	
+
+#Text=Sven-Olof Sällström (SD),.
+17-1	1404-1413	Sven-Olof	_	_	_	_	_	_	
+17-2	1414-1423	Sällström	_	_	_	_	_	_	
+17-3	1424-1425	(	_	_	_	_	_	_	
+17-4	1425-1427	SD	_	_	_	_	_	_	
+17-5	1427-1428	)	_	_	_	_	_	_	
+17-6	1428-1429	,	_	_	_	_	_	_	
+17-7	1429-1430	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1432-1433	#	_	_	_	_	_	_	
+18-2	1433-1434	P	_	_	_	_	_	_	
+18-3	1435-1438	IMM	_	_	_	_	_	_	
+18-4	1438-1439	.	_	_	_	_	_	_	
+
+#Text=ledamot arbetsmarknadsutskottet.
+19-1	1441-1448	ledamot	_	_	_	_	_	_	
+19-2	1449-1472	arbetsmarknadsutskottet	_	_	_	_	_	_	
+19-3	1472-1473	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1475-1476	#	_	_	_	_	_	_	
+20-2	1476-1477	P	_	_	_	_	_	_	
+20-3	1478-1481	IMM	_	_	_	_	_	_	
+20-4	1481-1482	.	_	_	_	_	_	_	
+
+#Text=Mattias Karlsson (SD),.
+21-1	1484-1491	Mattias	_	_	_	_	_	_	
+21-2	1492-1500	Karlsson	_	_	_	_	_	_	
+21-3	1501-1502	(	_	_	_	_	_	_	
+21-4	1502-1504	SD	_	_	_	_	_	_	
+21-5	1504-1505	)	_	_	_	_	_	_	
+21-6	1505-1506	,	_	_	_	_	_	_	
+21-7	1506-1507	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1509-1510	#	_	_	_	_	_	_	
+22-2	1510-1511	P	_	_	_	_	_	_	
+22-3	1512-1515	IMM	_	_	_	_	_	_	
+22-4	1515-1516	.	_	_	_	_	_	_	
+
+#Text=vice gruppledare.
+23-1	1518-1522	vice	_	_	_	_	_	_	
+23-2	1523-1534	gruppledare	_	_	_	_	_	_	
+23-3	1534-1535	.	_	_	_	_	_	_	

@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Replik: Skrönor i Oskarshamnsfallet   får nytt liv.
+3-1	18-24	Replik	_	_	_	_	_	_	
+3-2	24-25	:	_	_	_	_	_	_	
+3-3	26-33	Skrönor	_	_	_	_	_	_	
+3-4	34-35	i	_	_	_	_	_	_	
+3-5	36-53	Oskarshamnsfallet	_	_	_	_	_	_	
+3-6	56-59	får	_	_	_	_	_	_	
+3-7	60-64	nytt	_	_	_	_	_	_	
+3-8	65-68	liv	_	_	_	_	_	_	
+3-9	68-69	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	
+
+#Text=När du försöker analysera vad som hänt kring ”fallet Louise” i Vetlanda får återigen ett antal skrönor som rör det så kallade Oskarshamnsfallet nytt liv.
+5-1	80-83	När	*[8]	_	_	_	_	_	
+5-2	84-86	du	*[8]	_	_	_	_	_	
+5-3	87-95	försöker	*[8]	_	_	_	_	_	
+5-4	96-105	analysera	*[8]	_	_	_	_	_	
+5-5	106-109	vad	*[8]	_	_	_	_	_	
+5-6	110-113	som	*[8]	_	_	_	_	_	
+5-7	114-118	hänt	*[8]	_	_	_	_	_	
+5-8	119-124	kring	*[8]	_	_	_	_	_	
+5-9	125-126	”	*[8]	_	_	_	_	_	
+5-10	126-132	fallet	*[8]	_	_	_	_	_	
+5-11	133-139	Louise	*[8]	_	_	_	_	_	
+5-12	139-140	”	*[8]	_	_	_	_	_	
+5-13	141-142	i	*[8]	_	_	_	_	_	
+5-14	143-151	Vetlanda	*[8]	_	_	_	_	_	
+5-15	152-155	får	_	_	_	false	2	_	
+5-16	156-164	återigen	_	_	_	_	_	_	
+5-17	165-168	ett	_	Target[1]	5-1[8]	false[1]	2[1]	5-15[0_1]	
+5-18	169-174	antal	_	Target[1]	5-1[8]	false[1]	2[1]	_	
+5-19	175-182	skrönor	_	Target[1]	5-1[8]	false[1]	2[1]	_	
+5-20	183-186	som	_	_	_	_	_	_	
+5-21	187-190	rör	_	_	_	_	_	_	
+5-22	191-194	det	_	_	_	_	_	_	
+5-23	195-197	så	_	_	_	_	_	_	
+5-24	198-205	kallade	_	_	_	_	_	_	
+5-25	206-223	Oskarshamnsfallet	_	_	_	_	_	_	
+5-26	224-228	nytt	_	_[2]	_	false[2]	2[2]	5-17[1_2]	
+5-27	229-232	liv	_	_[2]	_	false[2]	2[2]	_	
+5-28	232-233	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	235-236	#	_	_	_	_	_	_	
+6-2	236-237	P	_	_	_	_	_	_	
+6-3	238-241	IMM	_	_	_	_	_	_	
+6-4	241-242	.	_	_	_	_	_	_	
+
+#Text=Reportaget handlade om den psykologutredning och de tester som var helt avgörande för omhändertagandet av ett barn.
+7-1	244-254	Reportaget	_	_	_	_	_	_	
+7-2	255-263	handlade	_	_	_	_	_	_	
+7-3	264-266	om	_	_	_	_	_	_	
+7-4	267-270	den	_	_	_	_	_	_	
+7-5	271-288	psykologutredning	*	_	_	_	_	_	
+7-6	289-292	och	_	_	_	_	_	_	
+7-7	293-295	de	_	_	_	_	_	_	
+7-8	296-302	tester	_	_	_	_	_	_	
+7-9	303-306	som	_	_	_	_	_	_	
+7-10	307-310	var	_	Target[3]	7-5	false[3]	3[3]	_	
+7-11	311-315	helt	_	Target[3]	7-5	false[3]	3[3]	_	
+7-12	316-325	avgörande	_	Target[3]	7-5	false[3]	3[3]	_	
+7-13	326-329	för	_	_	_	_	_	_	
+7-14	330-346	omhändertagandet	_	_	_	_	_	_	
+7-15	347-349	av	_	_	_	_	_	_	
+7-16	350-353	ett	_	_	_	_	_	_	
+7-17	354-358	barn	_	_	_	_	_	_	
+7-18	358-359	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	361-362	#	_	_	_	_	_	_	
+8-2	362-363	P	_	_	_	_	_	_	
+8-3	364-367	IMM	_	_	_	_	_	_	
+8-4	367-368	.	_	_	_	_	_	_	
+
+#Text=Socialstyrelsen utredde efter reportaget hur psykologen gjort den helt avgörande utredningen och riktade mycket allvarlig kritik mot honom.
+9-1	370-385	Socialstyrelsen	*	_	_	_	_	_	
+9-2	386-393	utredde	_	_	_	_	_	_	
+9-3	394-399	efter	_	_	_	_	_	_	
+9-4	400-410	reportaget	_	_	_	_	_	_	
+9-5	411-414	hur	_	_	_	_	_	_	
+9-6	415-425	psykologen	*	_	_	_	_	_	
+9-7	426-431	gjort	_	_	_	_	_	_	
+9-8	432-435	den	_	_	_	_	_	_	
+9-9	436-440	helt	_	_	_	_	_	_	
+9-10	441-450	avgörande	_	_	_	_	_	_	
+9-11	451-462	utredningen	_	_	_	_	_	_	
+9-12	463-466	och	_	_	_	_	_	_	
+9-13	467-474	riktade	_	Target;Source[4]	9-6;9-1	false[4]	1[4]	_	
+9-14	475-481	mycket	_	Target;Source[4]	9-6;9-1	false[4]	1[4]	_	
+9-15	482-491	allvarlig	_	Target;Source[4]	9-6;9-1	false[4]	1[4]	_	
+9-16	492-498	kritik	_	Target;Source[4]	9-6;9-1	false[4]	1[4]	_	
+9-17	499-502	mot	_	_	_	_	_	_	
+9-18	503-508	honom	_	_	_	_	_	_	
+9-19	508-509	.	_	_	_	_	_	_	
+
+#Text=Utredningen beskrivs som ”ofullständigt och bristfälligt genomförd” och psykologens agerande ”har därmed skett i strid med vetenskap och beprövad erfarenhet”.
+10-1	510-521	Utredningen	*	_	_	_	_	_	
+10-2	522-530	beskrivs	_	_	_	_	_	_	
+10-3	531-534	som	_	_	_	_	_	_	
+10-4	535-536	”	_	_	_	_	_	_	
+10-5	536-549	ofullständigt	_	Target;Source[5]	10-1;10-25	false[5]	2[5]	_	
+10-6	550-553	och	_	Target;Source[5]	10-1;10-25	false[5]	2[5]	_	
+10-7	554-566	bristfälligt	_	Target;Source[5]	10-1;10-25	false[5]	2[5]	_	
+10-8	567-576	genomförd	_	Target;Source[5]	10-1;10-25	false[5]	2[5]	_	
+10-9	576-577	”	_	_	_	_	_	_	
+10-10	578-581	och	_	_	_	_	_	_	
+10-11	582-593	psykologens	*[9]	_	_	_	_	_	
+10-12	594-602	agerande	*[9]	_	_	_	_	_	
+10-13	603-604	”	_	_	_	_	_	_	
+10-14	604-607	har	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-15	608-614	därmed	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-16	615-620	skett	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-17	621-622	i	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-18	623-628	strid	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-19	629-632	med	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-20	633-642	vetenskap	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-21	643-646	och	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-22	647-655	beprövad	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-23	656-666	erfarenhet	_	Target;Source[6]	10-11[9];10-25	false[6]	2[6]	_	
+10-24	666-667	”	_	_	_	_	_	_	
+10-25	667-668	.	*	_	_	_	_	_	
+
+#Text=Bristerna i utredningen har ”haft avgörande betydelse ur rättssäkerhetssynpunkt”.
+11-1	669-678	Bristerna	_	Target;Source	11-3;11-12	false	2	_	
+11-2	679-680	i	_	_	_	_	_	_	
+11-3	681-692	utredningen	*	_	_	_	_	_	
+11-4	693-696	har	_	_	_	_	_	_	
+11-5	697-698	”	_	_	_	_	_	_	
+11-6	698-702	haft	_	_	_	_	_	_	
+11-7	703-712	avgörande	_	_	_	_	_	_	
+11-8	713-722	betydelse	_	_	_	_	_	_	
+11-9	723-725	ur	_	_	_	_	_	_	
+11-10	726-748	rättssäkerhetssynpunkt	_	_	_	_	_	_	
+11-11	748-749	”	_	_	_	_	_	_	
+11-12	749-750	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	752-753	#	_	_	_	_	_	_	
+12-2	753-754	P	_	_	_	_	_	_	
+12-3	755-758	IMM	_	_	_	_	_	_	
+12-4	758-759	.	_	_	_	_	_	_	
+
+#Text=Det visade sig inte som du påstår efteråt att föräldrarna i Oskarshamn var begåvningshandikappade.
+13-1	761-764	Det	_	_	_	_	_	_	
+13-2	765-771	visade	_	_	_	_	_	_	
+13-3	772-775	sig	_	_	_	_	_	_	
+13-4	776-780	inte	_	_	_	_	_	_	
+13-5	781-784	som	_	_	_	_	_	_	
+13-6	785-787	du	*	_	_	_	_	_	
+13-7	788-794	påstår	_	_	_	_	_	_	
+13-8	795-802	efteråt	_	_	_	_	_	_	
+13-9	803-806	att	_	_	_	_	_	_	
+13-10	807-818	föräldrarna	*[10]	_	_	_	_	_	
+13-11	819-820	i	*[10]	_	_	_	_	_	
+13-12	821-831	Oskarshamn	*[10]	_	_	_	_	_	
+13-13	832-835	var	_	Source;Target[7]	13-6;13-10[10]	false[7]	2[7]	_	
+13-14	836-858	begåvningshandikappade	_	Source;Target[7]	13-6;13-10[10]	false[7]	2[7]	_	
+13-15	858-859	.	_	_	_	_	_	_	
+
+#Text=Det var just det reportaget handlade om.
+14-1	860-863	Det	_	_	_	_	_	_	
+14-2	864-867	var	_	_	_	_	_	_	
+14-3	868-872	just	_	_	_	_	_	_	
+14-4	873-876	det	_	_	_	_	_	_	
+14-5	877-887	reportaget	_	_	_	_	_	_	
+14-6	888-896	handlade	_	_	_	_	_	_	
+14-7	897-899	om	_	_	_	_	_	_	
+14-8	899-900	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	902-903	#	_	_	_	_	_	_	
+15-2	903-904	P	_	_	_	_	_	_	
+15-3	905-908	IMM	_	_	_	_	_	_	
+15-4	908-909	.	_	_	_	_	_	_	
+
+#Text=Hjördis Flodström-Nilsson granskade inte något fall åt oss i Oskarshamn, och hon ströks inte ur något program eftersom hon aldrig intervjuades.
+16-1	911-918	Hjördis	_	_	_	_	_	_	
+16-2	919-936	Flodström-Nilsson	_	_	_	_	_	_	
+16-3	937-946	granskade	_	_	_	_	_	_	
+16-4	947-951	inte	_	_	_	_	_	_	
+16-5	952-957	något	_	_	_	_	_	_	
+16-6	958-962	fall	_	_	_	_	_	_	
+16-7	963-965	åt	_	_	_	_	_	_	
+16-8	966-969	oss	_	_	_	_	_	_	
+16-9	970-971	i	_	_	_	_	_	_	
+16-10	972-982	Oskarshamn	_	_	_	_	_	_	
+16-11	982-983	,	_	_	_	_	_	_	
+16-12	984-987	och	_	_	_	_	_	_	
+16-13	988-991	hon	_	_	_	_	_	_	
+16-14	992-998	ströks	_	_	_	_	_	_	
+16-15	999-1003	inte	_	_	_	_	_	_	
+16-16	1004-1006	ur	_	_	_	_	_	_	
+16-17	1007-1012	något	_	_	_	_	_	_	
+16-18	1013-1020	program	_	_	_	_	_	_	
+16-19	1021-1029	eftersom	_	_	_	_	_	_	
+16-20	1030-1033	hon	_	_	_	_	_	_	
+16-21	1034-1040	aldrig	_	_	_	_	_	_	
+16-22	1041-1053	intervjuades	_	_	_	_	_	_	
+16-23	1053-1054	.	_	_	_	_	_	_	

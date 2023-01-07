@@ -1,0 +1,647 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	3[1]	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hannah är okunnig om reglerna för asyl.
+3-1	18-24	Hannah	*	_	_	_	_	_	_	
+3-2	25-27	är	_	Target[2]	3-1	false[2]	2[2]	_	_	
+3-3	28-35	okunnig	_	Target[2]	3-1	false[2]	2[2]	_	_	
+3-4	36-38	om	_	_	_	_	_	_	_	
+3-5	39-47	reglerna	_	_	_	_	_	_	_	
+3-6	48-51	för	_	_	_	_	_	_	_	
+3-7	52-56	asyl	_	_	_	_	_	_	_	
+3-8	56-57	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	_	
+
+#Text=I en debattartikel i  (11/9) vänder sig Robert Hannah (FP) starkt emot Migrationsverkets sätt att handlägga asylärenden kopplade till den kristna minoriteten i Irak.
+5-1	68-69	I	_	_	_	_	_	_	_	
+5-2	70-72	en	_	_	_	_	_	_	_	
+5-3	73-86	debattartikel	_	_	_	_	_	_	_	
+5-4	87-88	i	_	_	_	_	_	_	_	
+5-5	90-91	(	_	_	_	_	_	_	_	
+5-6	91-93	11	_	_	_	_	_	_	_	
+5-7	93-94	/	_	_	_	_	_	_	_	
+5-8	94-95	9	_	_	_	_	_	_	_	
+5-9	95-96	)	_	_	_	_	_	_	_	
+5-10	97-103	vänder	_	_[3]	_	false[3]	2[3]	_	_	
+5-11	104-107	sig	_	_[3]	_	false[3]	2[3]	_	_	
+5-12	108-114	Robert	*[19]	_	_	_	_	_	_	
+5-13	115-121	Hannah	*[19]	_	_	_	_	_	_	
+5-14	122-123	(	_	_	_	_	_	_	_	
+5-15	123-125	FP	_	_	_	_	_	_	_	
+5-16	125-126	)	_	_	_	_	_	_	_	
+5-17	127-133	starkt	_	Source;Target[4]	5-12[19];5-19[20]	false[4]	2[4]	5-10[3_4]	_	
+5-18	134-138	emot	_	Source;Target[4]	5-12[19];5-19[20]	false[4]	2[4]	_	_	
+5-19	139-156	Migrationsverkets	*[20]	_	_	_	_	_	_	
+5-20	157-161	sätt	*[20]	_	_	_	_	_	_	
+5-21	162-165	att	*[20]	_	_	_	_	_	_	
+5-22	166-175	handlägga	*[20]	_	_	_	_	_	_	
+5-23	176-187	asylärenden	*[20]	_	_	_	_	_	_	
+5-24	188-196	kopplade	*[20]	_	_	_	_	_	_	
+5-25	197-201	till	*[20]	_	_	_	_	_	_	
+5-26	202-205	den	*[20]	_	_	_	_	_	_	
+5-27	206-213	kristna	*[20]	_	_	_	_	_	_	
+5-28	214-225	minoriteten	*[20]	_	_	_	_	_	_	
+5-29	226-227	i	*[20]	_	_	_	_	_	_	
+5-30	228-232	Irak	*[20]	_	_	_	_	_	_	
+5-31	232-233	.	_	_	_	_	_	_	_	
+
+#Text=Hannah säger bland annat att det är en skam för Sverige att inte bevilja samtliga kristna irakier asyl i Sverige.
+6-1	234-240	Hannah	*	_	_	_	_	_	_	
+6-2	241-246	säger	_	_	_	_	_	_	_	
+6-3	247-252	bland	_	_	_	_	_	_	_	
+6-4	253-258	annat	_	_	_	_	_	_	_	
+6-5	259-262	att	_	_	_	_	_	_	_	
+6-6	263-266	det	_	_	_	_	_	_	_	
+6-7	267-269	är	_	Source;Target[5]	6-1;6-12[21]	false[5]	2[5]	_	_	
+6-8	270-272	en	_	Source;Target[5]	6-1;6-12[21]	false[5]	2[5]	_	_	
+6-9	273-277	skam	_	Source;Target[5]	6-1;6-12[21]	false[5]	2[5]	_	_	
+6-10	278-281	för	_	_	_	_	_	_	_	
+6-11	282-289	Sverige	_	_	_	_	_	_	_	
+6-12	290-293	att	*[21]	_	_	_	_	_	_	
+6-13	294-298	inte	*[21]	_	_	_	_	_	_	
+6-14	299-306	bevilja	*[21]	_	_	_	_	_	_	
+6-15	307-315	samtliga	*[21]	_	_	_	_	_	_	
+6-16	316-323	kristna	*[21]	_	_	_	_	_	_	
+6-17	324-331	irakier	*[21]	_	_	_	_	_	_	
+6-18	332-336	asyl	*[21]	_	_	_	_	_	_	
+6-19	337-338	i	*[21]	_	_	_	_	_	_	
+6-20	339-346	Sverige	*[21]	_	_	_	_	_	_	
+6-21	346-347	.	_	_	_	_	_	_	_	
+
+#Text=Vidare påstår Hannah att Migrationsverket bryter mot mänskliga rättigheter.
+7-1	348-354	Vidare	*[22]	_	_	_	_	_	8-1[0_22]	
+7-2	355-361	påstår	*[22]	_	_	_	_	_	_	
+7-3	362-368	Hannah	*[22]|*[23]	_	_	_	_	_	_	
+7-4	369-372	att	*[22]	_	_	_	_	_	_	
+7-5	373-389	Migrationsverket	*[22]|*[24]	_	_	_	_	_	_	
+7-6	390-396	bryter	*[22]	Target;Source[6]	7-5[24];7-3[23]	false[6]	1[6]	_	_	
+7-7	397-400	mot	*[22]	Target;Source[6]	7-5[24];7-3[23]	false[6]	1[6]	_	_	
+7-8	401-410	mänskliga	*[22]	Target;Source[6]	7-5[24];7-3[23]	false[6]	1[6]	_	_	
+7-9	411-422	rättigheter	*[22]	Target;Source[6]	7-5[24];7-3[23]	false[6]	1[6]	_	_	
+7-10	422-423	.	_	_	_	_	_	_	_	
+
+#Text=Det är allvarliga anklagelser.
+8-1	424-427	Det	*	_	_	_	_	_	_	
+8-2	428-430	är	_	Target[7]	8-1	false[7]	1[7]	_	_	
+8-3	431-441	allvarliga	_	Target[7]	8-1	false[7]	1[7]	_	_	
+8-4	442-453	anklagelser	_	Target[7]	8-1	false[7]	1[7]	_	_	
+8-5	453-454	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	456-457	#	_	_[8]	_	false[8]	3[8]	_	_	
+9-2	457-458	P	_	_[8]	_	false[8]	3[8]	_	_	
+9-3	459-462	IMM	_	_[8]	_	false[8]	3[8]	_	_	
+9-4	462-463	.	_	_	_	_	_	_	_	
+
+#Text=Det är i sig inte ovanligt att kritik riktas mot det sätt Migrationsverket och domstolar tillämpar den lagstiftning en enig riksdag beslutade om 2005.
+10-1	465-468	Det	_	_	_	_	_	_	_	
+10-2	469-471	är	_	_	_	_	_	_	_	
+10-3	472-473	i	_	_	_	_	_	_	_	
+10-4	474-477	sig	_	_	_	_	_	_	_	
+10-5	478-482	inte	_	Target[9]	10-7[25]	false[9]	3[9]	_	_	
+10-6	483-491	ovanligt	_	Target[9]	10-7[25]	false[9]	3[9]	_	_	
+10-7	492-495	att	*[25]	_	_	_	_	_	_	
+10-8	496-502	kritik	*[25]	Target;Source[10]	10-11[26];10-25	false[10]	2[10]	_	_	
+10-9	503-509	riktas	*[25]	Target;Source[10]	10-11[26];10-25	false[10]	2[10]	_	_	
+10-10	510-513	mot	*[25]	_	_	_	_	_	_	
+10-11	514-517	det	*[25]|*[26]	_	_	_	_	_	_	
+10-12	518-522	sätt	*[25]|*[26]	_	_	_	_	_	_	
+10-13	523-539	Migrationsverket	*[25]|*[26]	_	_	_	_	_	_	
+10-14	540-543	och	*[25]|*[26]	_	_	_	_	_	_	
+10-15	544-553	domstolar	*[25]|*[26]	_	_	_	_	_	_	
+10-16	554-563	tillämpar	*[25]|*[26]	_	_	_	_	_	_	
+10-17	564-567	den	*[25]|*[26]	_	_	_	_	_	_	
+10-18	568-580	lagstiftning	*[25]|*[26]	_	_	_	_	_	_	
+10-19	581-583	en	*[25]|*[26]	_	_	_	_	_	_	
+10-20	584-588	enig	*[25]|*[26]	_	_	_	_	_	_	
+10-21	589-596	riksdag	*[25]|*[26]	_	_	_	_	_	_	
+10-22	597-606	beslutade	*[25]|*[26]	_	_	_	_	_	_	
+10-23	607-609	om	*[25]|*[26]	_	_	_	_	_	_	
+10-24	610-614	2005	*[25]|*[26]	_	_	_	_	_	_	
+10-25	614-615	.	*	_	_	_	_	_	_	
+
+#Text=Vad som däremot är både ovanligt och bekymmersamt är när man från politiskt håll ger sig ut i debatten utan kunskap om gällande regelverk.
+11-1	616-619	Vad	_	_	_	_	_	_	_	
+11-2	620-623	som	_	_	_	_	_	_	_	
+11-3	624-631	däremot	_	_	_	_	_	_	_	
+11-4	632-634	är	_	Target[11]	11-10[27]	false[11]	2[11]	_	_	
+11-5	635-639	både	_	Target[11]	11-10[27]	false[11]	2[11]	_	_	
+11-6	640-648	ovanligt	_	Target[11]	11-10[27]	false[11]	2[11]	_	_	
+11-7	649-652	och	_	Target[11]	11-10[27]	false[11]	2[11]	_	_	
+11-8	653-665	bekymmersamt	_	Target[11]	11-10[27]	false[11]	2[11]	_	_	
+11-9	666-668	är	_	_	_	_	_	_	_	
+11-10	669-672	när	*[27]	_	_	_	_	_	_	
+11-11	673-676	man	*[27]	_	_	_	_	_	_	
+11-12	677-681	från	*[27]	_	_	_	_	_	_	
+11-13	682-691	politiskt	*[27]	_	_	_	_	_	_	
+11-14	692-696	håll	*[27]	_	_	_	_	_	_	
+11-15	697-700	ger	*[27]	_	_	_	_	_	_	
+11-16	701-704	sig	*[27]	_	_	_	_	_	_	
+11-17	705-707	ut	*[27]	_	_	_	_	_	_	
+11-18	708-709	i	*[27]	_	_	_	_	_	_	
+11-19	710-718	debatten	*[27]	_	_	_	_	_	_	
+11-20	719-723	utan	*[27]	_	_	_	_	_	_	
+11-21	724-731	kunskap	*[27]	_	_	_	_	_	_	
+11-22	732-734	om	*[27]	_	_	_	_	_	_	
+11-23	735-743	gällande	*[27]	_	_	_	_	_	_	
+11-24	744-753	regelverk	*[27]	_	_	_	_	_	_	
+11-25	753-754	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	756-757	#	_	_[12]	_	false[12]	3[12]	_	_	
+12-2	757-758	P	_	_[12]	_	false[12]	3[12]	_	_	
+12-3	759-762	IMM	_	_[12]	_	false[12]	3[12]	_	_	
+12-4	762-763	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket har sedan 2009 riktat särskild uppmärksamhet mot situationen för minoriteter, däribland kristna, i Irak.
+13-1	765-781	Migrationsverket	*	_	_	_	_	_	_	
+13-2	782-785	har	_	_	_	_	_	_	_	
+13-3	786-791	sedan	_	_	_	_	_	_	_	
+13-4	792-796	2009	_	_	_	_	_	_	_	
+13-5	797-803	riktat	_	Source;Target[13]	13-1;13-9[28]	false[13]	4[13]	_	_	
+13-6	804-812	särskild	_	Source;Target[13]	13-1;13-9[28]	false[13]	4[13]	_	_	
+13-7	813-826	uppmärksamhet	_	Source;Target[13]	13-1;13-9[28]	false[13]	4[13]	_	_	
+13-8	827-830	mot	_	_	_	_	_	_	_	
+13-9	831-842	situationen	*[28]	_	_	_	_	_	_	
+13-10	843-846	för	*[28]	_	_	_	_	_	_	
+13-11	847-858	minoriteter	*[28]	_	_	_	_	_	_	
+13-12	858-859	,	*[28]	_	_	_	_	_	_	
+13-13	860-869	däribland	*[28]	_	_	_	_	_	_	
+13-14	870-877	kristna	*[28]	_	_	_	_	_	_	
+13-15	877-878	,	*[28]	_	_	_	_	_	_	
+13-16	879-880	i	*[28]	_	_	_	_	_	_	
+13-17	881-885	Irak	*[28]	_	_	_	_	_	_	
+13-18	885-886	.	_	_	_	_	_	_	_	
+
+#Text=Sommarens händelser i norra Irak accentuerar behovet av skydd för minoriteter än mer.
+14-1	887-896	Sommarens	_	_	_	_	_	_	_	
+14-2	897-906	händelser	_	_	_	_	_	_	_	
+14-3	907-908	i	_	_	_	_	_	_	_	
+14-4	909-914	norra	_	_	_	_	_	_	_	
+14-5	915-919	Irak	_	_	_	_	_	_	_	
+14-6	920-931	accentuerar	_	_	_	_	_	_	_	
+14-7	932-939	behovet	_	_	_	_	_	_	_	
+14-8	940-942	av	_	_	_	_	_	_	_	
+14-9	943-948	skydd	_	_	_	_	_	_	_	
+14-10	949-952	för	_	_	_	_	_	_	_	
+14-11	953-964	minoriteter	_	_	_	_	_	_	_	
+14-12	965-967	än	_	_	_	_	_	_	_	
+14-13	968-971	mer	_	_	_	_	_	_	_	
+14-14	971-972	.	_	_	_	_	_	_	_	
+
+#Text=Genom två rättsliga kommentarer under sommaren konstaterar vi att det råder en inre väpnad konflikt i fyra provinser i de västra och norra delarna av landet.
+15-1	973-978	Genom	_	_	_	_	_	_	_	
+15-2	979-982	två	_	_	_	_	_	_	_	
+15-3	983-992	rättsliga	_	_	_	_	_	_	_	
+15-4	993-1004	kommentarer	_	_	_	_	_	_	_	
+15-5	1005-1010	under	_	_	_	_	_	_	_	
+15-6	1011-1019	sommaren	_	_	_	_	_	_	_	
+15-7	1020-1031	konstaterar	_	_	_	_	_	_	_	
+15-8	1032-1034	vi	_	_	_	_	_	_	_	
+15-9	1035-1038	att	_	_	_	_	_	_	_	
+15-10	1039-1042	det	_	_	_	_	_	_	_	
+15-11	1043-1048	råder	_	_	_	_	_	_	_	
+15-12	1049-1051	en	_	_	_	_	_	_	_	
+15-13	1052-1056	inre	_	_	_	_	_	_	_	
+15-14	1057-1063	väpnad	_	_	_	_	_	_	_	
+15-15	1064-1072	konflikt	_	_	_	_	_	_	_	
+15-16	1073-1074	i	_	_	_	_	_	_	_	
+15-17	1075-1079	fyra	_	_	_	_	_	_	_	
+15-18	1080-1089	provinser	_	_	_	_	_	_	_	
+15-19	1090-1091	i	_	_	_	_	_	_	_	
+15-20	1092-1094	de	_	_	_	_	_	_	_	
+15-21	1095-1101	västra	_	_	_	_	_	_	_	
+15-22	1102-1105	och	_	_	_	_	_	_	_	
+15-23	1106-1111	norra	_	_	_	_	_	_	_	
+15-24	1112-1119	delarna	_	_	_	_	_	_	_	
+15-25	1120-1122	av	_	_	_	_	_	_	_	
+15-26	1123-1129	landet	_	_	_	_	_	_	_	
+15-27	1129-1130	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1132-1133	#	_	_[14]	_	false[14]	3[14]	_	_	
+16-2	1133-1134	P	_	_[14]	_	false[14]	3[14]	_	_	
+16-3	1135-1138	IMM	_	_[14]	_	false[14]	3[14]	_	_	
+16-4	1138-1139	.	_	_	_	_	_	_	_	
+
+#Text=Situationen för kristna och andra minoriteter som kommer från de mest drabbade provinserna i Irak är så allvarligt att de inte kan återvända dit eftersom de riskerar att förföljas eller dödas.
+17-1	1141-1152	Situationen	*[29]	_	_	_	_	_	_	
+17-2	1153-1156	för	*[29]	_	_	_	_	_	_	
+17-3	1157-1164	kristna	*[29]	_	_	_	_	_	_	
+17-4	1165-1168	och	*[29]	_	_	_	_	_	_	
+17-5	1169-1174	andra	*[29]	_	_	_	_	_	_	
+17-6	1175-1186	minoriteter	*[29]	_	_	_	_	_	_	
+17-7	1187-1190	som	*[29]	_	_	_	_	_	_	
+17-8	1191-1197	kommer	*[29]	_	_	_	_	_	_	
+17-9	1198-1202	från	*[29]	_	_	_	_	_	_	
+17-10	1203-1205	de	*[29]	_	_	_	_	_	_	
+17-11	1206-1210	mest	*[29]	_	_	_	_	_	_	
+17-12	1211-1219	drabbade	*[29]	_	_	_	_	_	_	
+17-13	1220-1231	provinserna	*[29]	_	_	_	_	_	_	
+17-14	1232-1233	i	*[29]	_	_	_	_	_	_	
+17-15	1234-1238	Irak	*[29]	_	_	_	_	_	_	
+17-16	1239-1241	är	_	Target[15]	17-1[29]	false[15]	2[15]	_	_	
+17-17	1242-1244	så	_	Target[15]	17-1[29]	false[15]	2[15]	_	_	
+17-18	1245-1255	allvarligt	_	Target[15]	17-1[29]	false[15]	2[15]	_	_	
+17-19	1256-1259	att	_	_	_	_	_	_	_	
+17-20	1260-1262	de	_	_	_	_	_	_	_	
+17-21	1263-1267	inte	_	_	_	_	_	_	_	
+17-22	1268-1271	kan	_	_	_	_	_	_	_	
+17-23	1272-1281	återvända	_	_	_	_	_	_	_	
+17-24	1282-1285	dit	_	_	_	_	_	_	_	
+17-25	1286-1294	eftersom	_	_	_	_	_	_	_	
+17-26	1295-1297	de	_	_	_	_	_	_	_	
+17-27	1298-1306	riskerar	_	Target	17-28[30]	false	2	_	_	
+17-28	1307-1310	att	*[30]	_	_	_	_	_	_	
+17-29	1311-1320	förföljas	*[30]	_	_	_	_	_	_	
+17-30	1321-1326	eller	*[30]	_	_	_	_	_	_	
+17-31	1327-1332	dödas	*[30]	_	_	_	_	_	_	
+17-32	1332-1333	.	_	_	_	_	_	_	_	
+
+#Text=Men våldet sträcker sig inte över hela landet.
+18-1	1334-1337	Men	_	_	_	_	_	_	_	
+18-2	1338-1344	våldet	_	_	_	_	_	_	_	
+18-3	1345-1353	sträcker	_	_	_	_	_	_	_	
+18-4	1354-1357	sig	_	_	_	_	_	_	_	
+18-5	1358-1362	inte	_	_	_	_	_	_	_	
+18-6	1363-1367	över	_	_	_	_	_	_	_	
+18-7	1368-1372	hela	_	_	_	_	_	_	_	
+18-8	1373-1379	landet	_	_	_	_	_	_	_	
+18-9	1379-1380	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1382-1383	#	_	_[16]	_	false[16]	3[16]	_	_	
+19-2	1383-1384	P	_	_[16]	_	false[16]	3[16]	_	_	
+19-3	1385-1388	IMM	_	_[16]	_	false[16]	3[16]	_	_	
+19-4	1388-1389	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket är som rättstillämpare skyldiga att följa gällande rätt.
+20-1	1391-1407	Migrationsverket	_	_	_	_	_	_	_	
+20-2	1408-1410	är	_	_	_	_	_	_	_	
+20-3	1411-1414	som	_	_	_	_	_	_	_	
+20-4	1415-1430	rättstillämpare	_	_	_	_	_	_	_	
+20-5	1431-1439	skyldiga	_	_	_	_	_	_	_	
+20-6	1440-1443	att	_	_	_	_	_	_	_	
+20-7	1444-1449	följa	_	_	_	_	_	_	_	
+20-8	1450-1458	gällande	_	_	_	_	_	_	_	
+20-9	1459-1463	rätt	_	_	_	_	_	_	_	
+20-10	1463-1464	.	_	_	_	_	_	_	_	
+
+#Text=Av både nationell och internationell rätt följer att nationellt skydd går före internationellt skydd, det så kallade internflyktsalternativet.
+21-1	1465-1467	Av	_	_	_	_	_	_	_	
+21-2	1468-1472	både	_	_	_	_	_	_	_	
+21-3	1473-1482	nationell	_	_	_	_	_	_	_	
+21-4	1483-1486	och	_	_	_	_	_	_	_	
+21-5	1487-1501	internationell	_	_	_	_	_	_	_	
+21-6	1502-1506	rätt	_	_	_	_	_	_	_	
+21-7	1507-1513	följer	_	_	_	_	_	_	_	
+21-8	1514-1517	att	_	_	_	_	_	_	_	
+21-9	1518-1528	nationellt	_	_	_	_	_	_	_	
+21-10	1529-1534	skydd	_	_	_	_	_	_	_	
+21-11	1535-1538	går	_	_	_	_	_	_	_	
+21-12	1539-1543	före	_	_	_	_	_	_	_	
+21-13	1544-1559	internationellt	_	_	_	_	_	_	_	
+21-14	1560-1565	skydd	_	_	_	_	_	_	_	
+21-15	1565-1566	,	_	_	_	_	_	_	_	
+21-16	1567-1570	det	_	_	_	_	_	_	_	
+21-17	1571-1573	så	_	_	_	_	_	_	_	
+21-18	1574-1581	kallade	_	_	_	_	_	_	_	
+21-19	1582-1606	internflyktsalternativet	_	_	_	_	_	_	_	
+21-20	1606-1607	.	_	_	_	_	_	_	_	
+
+#Text=Denna ordning har också bekräftats av Europadomstolen för mänskliga rättigheter som under 2013 avgjort ett flertal ärenden som gäller kristna från Irak.
+22-1	1608-1613	Denna	_	_	_	_	_	_	_	
+22-2	1614-1621	ordning	_	_	_	_	_	_	_	
+22-3	1622-1625	har	_	_	_	_	_	_	_	
+22-4	1626-1631	också	_	_	_	_	_	_	_	
+22-5	1632-1642	bekräftats	_	_	_	_	_	_	_	
+22-6	1643-1645	av	_	_	_	_	_	_	_	
+22-7	1646-1661	Europadomstolen	_	_	_	_	_	_	_	
+22-8	1662-1665	för	_	_	_	_	_	_	_	
+22-9	1666-1675	mänskliga	_	_	_	_	_	_	_	
+22-10	1676-1687	rättigheter	_	_	_	_	_	_	_	
+22-11	1688-1691	som	_	_	_	_	_	_	_	
+22-12	1692-1697	under	_	_	_	_	_	_	_	
+22-13	1698-1702	2013	_	_	_	_	_	_	_	
+22-14	1703-1710	avgjort	_	_	_	_	_	_	_	
+22-15	1711-1714	ett	_	_	_	_	_	_	_	
+22-16	1715-1722	flertal	_	_	_	_	_	_	_	
+22-17	1723-1730	ärenden	_	_	_	_	_	_	_	
+22-18	1731-1734	som	_	_	_	_	_	_	_	
+22-19	1735-1741	gäller	_	_	_	_	_	_	_	
+22-20	1742-1749	kristna	_	_	_	_	_	_	_	
+22-21	1750-1754	från	_	_	_	_	_	_	_	
+22-22	1755-1759	Irak	_	_	_	_	_	_	_	
+22-23	1759-1760	.	_	_	_	_	_	_	_	
+
+#Text=I Migrationsverkets riktlinjer framgår tydligt att det inre flyktalternativet ska användas restriktivt och endast om det ger relevant skydd och framförallt om det är rimligt för människan att uppehålla sig där.
+23-1	1761-1762	I	_	_	_	_	_	_	_	
+23-2	1763-1780	Migrationsverkets	_	_	_	_	_	_	_	
+23-3	1781-1791	riktlinjer	_	_	_	_	_	_	_	
+23-4	1792-1799	framgår	_	_	_	_	_	_	_	
+23-5	1800-1807	tydligt	_	_	_	_	_	_	_	
+23-6	1808-1811	att	_	_	_	_	_	_	_	
+23-7	1812-1815	det	_	_	_	_	_	_	_	
+23-8	1816-1820	inre	_	_	_	_	_	_	_	
+23-9	1821-1838	flyktalternativet	_	_	_	_	_	_	_	
+23-10	1839-1842	ska	_	_	_	_	_	_	_	
+23-11	1843-1851	användas	_	_	_	_	_	_	_	
+23-12	1852-1863	restriktivt	_	_	_	_	_	_	_	
+23-13	1864-1867	och	_	_	_	_	_	_	_	
+23-14	1868-1874	endast	_	_	_	_	_	_	_	
+23-15	1875-1877	om	_	_	_	_	_	_	_	
+23-16	1878-1881	det	_	_	_	_	_	_	_	
+23-17	1882-1885	ger	_	_	_	_	_	_	_	
+23-18	1886-1894	relevant	_	_	_	_	_	_	_	
+23-19	1895-1900	skydd	_	_	_	_	_	_	_	
+23-20	1901-1904	och	_	_	_	_	_	_	_	
+23-21	1905-1916	framförallt	_	_	_	_	_	_	_	
+23-22	1917-1919	om	_	_	_	_	_	_	_	
+23-23	1920-1923	det	_	_	_	_	_	_	_	
+23-24	1924-1926	är	_	_	_	_	_	_	_	
+23-25	1927-1934	rimligt	_	_	_	_	_	_	_	
+23-26	1935-1938	för	_	_	_	_	_	_	_	
+23-27	1939-1948	människan	_	_	_	_	_	_	_	
+23-28	1949-1952	att	_	_	_	_	_	_	_	
+23-29	1953-1962	uppehålla	_	_	_	_	_	_	_	
+23-30	1963-1966	sig	_	_	_	_	_	_	_	
+23-31	1967-1970	där	_	_	_	_	_	_	_	
+23-32	1970-1971	.	_	_	_	_	_	_	_	
+
+#Text=Det ska vara de individuella förutsättningarna i ärendet som är avgörande för om ett internflyktalternativ är rimligt.
+24-1	1972-1975	Det	_	_	_	_	_	_	_	
+24-2	1976-1979	ska	_	_	_	_	_	_	_	
+24-3	1980-1984	vara	_	_	_	_	_	_	_	
+24-4	1985-1987	de	_	_	_	_	_	_	_	
+24-5	1988-2000	individuella	_	_	_	_	_	_	_	
+24-6	2001-2018	förutsättningarna	_	_	_	_	_	_	_	
+24-7	2019-2020	i	_	_	_	_	_	_	_	
+24-8	2021-2028	ärendet	_	_	_	_	_	_	_	
+24-9	2029-2032	som	_	_	_	_	_	_	_	
+24-10	2033-2035	är	_	_	_	_	_	_	_	
+24-11	2036-2045	avgörande	_	_	_	_	_	_	_	
+24-12	2046-2049	för	_	_	_	_	_	_	_	
+24-13	2050-2052	om	_	_	_	_	_	_	_	
+24-14	2053-2056	ett	_	_	_	_	_	_	_	
+24-15	2057-2078	internflyktalternativ	_	_	_	_	_	_	_	
+24-16	2079-2081	är	_	_	_	_	_	_	_	
+24-17	2082-2089	rimligt	_	_	_	_	_	_	_	
+24-18	2089-2090	.	_	_	_	_	_	_	_	
+
+#Text=Ålder, kön och hälsotillstånd är några faktorer som är avgörande i denna bedömning men också omständigheter som om den enskilde har någon anknytning till området, till exempel genom anhöriga eller vänner.
+25-1	2091-2096	Ålder	_	_	_	_	_	_	_	
+25-2	2096-2097	,	_	_	_	_	_	_	_	
+25-3	2098-2101	kön	_	_	_	_	_	_	_	
+25-4	2102-2105	och	_	_	_	_	_	_	_	
+25-5	2106-2120	hälsotillstånd	_	_	_	_	_	_	_	
+25-6	2121-2123	är	_	_	_	_	_	_	_	
+25-7	2124-2129	några	_	_	_	_	_	_	_	
+25-8	2130-2138	faktorer	_	_	_	_	_	_	_	
+25-9	2139-2142	som	_	_	_	_	_	_	_	
+25-10	2143-2145	är	_	_	_	_	_	_	_	
+25-11	2146-2155	avgörande	_	_	_	_	_	_	_	
+25-12	2156-2157	i	_	_	_	_	_	_	_	
+25-13	2158-2163	denna	_	_	_	_	_	_	_	
+25-14	2164-2173	bedömning	_	_	_	_	_	_	_	
+25-15	2174-2177	men	_	_	_	_	_	_	_	
+25-16	2178-2183	också	_	_	_	_	_	_	_	
+25-17	2184-2198	omständigheter	_	_	_	_	_	_	_	
+25-18	2199-2202	som	_	_	_	_	_	_	_	
+25-19	2203-2205	om	_	_	_	_	_	_	_	
+25-20	2206-2209	den	_	_	_	_	_	_	_	
+25-21	2210-2218	enskilde	_	_	_	_	_	_	_	
+25-22	2219-2222	har	_	_	_	_	_	_	_	
+25-23	2223-2228	någon	_	_	_	_	_	_	_	
+25-24	2229-2239	anknytning	_	_	_	_	_	_	_	
+25-25	2240-2244	till	_	_	_	_	_	_	_	
+25-26	2245-2252	området	_	_	_	_	_	_	_	
+25-27	2252-2253	,	_	_	_	_	_	_	_	
+25-28	2254-2258	till	_	_	_	_	_	_	_	
+25-29	2259-2266	exempel	_	_	_	_	_	_	_	
+25-30	2267-2272	genom	_	_	_	_	_	_	_	
+25-31	2273-2281	anhöriga	_	_	_	_	_	_	_	
+25-32	2282-2287	eller	_	_	_	_	_	_	_	
+25-33	2288-2294	vänner	_	_	_	_	_	_	_	
+25-34	2294-2295	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2297-2298	#	_	_[17]	_	false[17]	3[17]	_	_	
+26-2	2298-2299	P	_	_[17]	_	false[17]	3[17]	_	_	
+26-3	2300-2303	IMM	_	_[17]	_	false[17]	3[17]	_	_	
+26-4	2303-2304	.	_	_	_	_	_	_	_	
+
+#Text=Mot bakgrund av den stora gruppen internflyktingar i Irak och därmed det ökade trycket på myndigheterna i KRI är det särskilt den humanitära situationen i det enskilda fallet som nu blir central i denna bedömning.
+27-1	2306-2309	Mot	_	_	_	_	_	_	_	
+27-2	2310-2318	bakgrund	_	_	_	_	_	_	_	
+27-3	2319-2321	av	_	_	_	_	_	_	_	
+27-4	2322-2325	den	_	_	_	_	_	_	_	
+27-5	2326-2331	stora	_	_	_	_	_	_	_	
+27-6	2332-2339	gruppen	_	_	_	_	_	_	_	
+27-7	2340-2356	internflyktingar	_	_	_	_	_	_	_	
+27-8	2357-2358	i	_	_	_	_	_	_	_	
+27-9	2359-2363	Irak	_	_	_	_	_	_	_	
+27-10	2364-2367	och	_	_	_	_	_	_	_	
+27-11	2368-2374	därmed	_	_	_	_	_	_	_	
+27-12	2375-2378	det	_	_	_	_	_	_	_	
+27-13	2379-2384	ökade	_	_	_	_	_	_	_	
+27-14	2385-2392	trycket	_	_	_	_	_	_	_	
+27-15	2393-2395	på	_	_	_	_	_	_	_	
+27-16	2396-2409	myndigheterna	_	_	_	_	_	_	_	
+27-17	2410-2411	i	_	_	_	_	_	_	_	
+27-18	2412-2415	KRI	_	_	_	_	_	_	_	
+27-19	2416-2418	är	_	_	_	_	_	_	_	
+27-20	2419-2422	det	_	_	_	_	_	_	_	
+27-21	2423-2431	särskilt	_	_	_	_	_	_	_	
+27-22	2432-2435	den	_	_	_	_	_	_	_	
+27-23	2436-2446	humanitära	_	_	_	_	_	_	_	
+27-24	2447-2458	situationen	_	_	_	_	_	_	_	
+27-25	2459-2460	i	_	_	_	_	_	_	_	
+27-26	2461-2464	det	_	_	_	_	_	_	_	
+27-27	2465-2473	enskilda	_	_	_	_	_	_	_	
+27-28	2474-2480	fallet	_	_	_	_	_	_	_	
+27-29	2481-2484	som	_	_	_	_	_	_	_	
+27-30	2485-2487	nu	_	_	_	_	_	_	_	
+27-31	2488-2492	blir	_	_	_	_	_	_	_	
+27-32	2493-2500	central	_	_	_	_	_	_	_	
+27-33	2501-2502	i	_	_	_	_	_	_	_	
+27-34	2503-2508	denna	_	_	_	_	_	_	_	
+27-35	2509-2518	bedömning	_	_	_	_	_	_	_	
+27-36	2518-2519	.	_	_	_	_	_	_	_	
+
+#Text=Dessa bedömningar har resulterat i att majoriteten av irakierna i dagsläget beviljas asyl.
+28-1	2520-2525	Dessa	_	_	_	_	_	_	_	
+28-2	2526-2537	bedömningar	_	_	_	_	_	_	_	
+28-3	2538-2541	har	_	_	_	_	_	_	_	
+28-4	2542-2552	resulterat	_	_	_	_	_	_	_	
+28-5	2553-2554	i	_	_	_	_	_	_	_	
+28-6	2555-2558	att	_	_	_	_	_	_	_	
+28-7	2559-2570	majoriteten	_	_	_	_	_	_	_	
+28-8	2571-2573	av	_	_	_	_	_	_	_	
+28-9	2574-2583	irakierna	_	_	_	_	_	_	_	
+28-10	2584-2585	i	_	_	_	_	_	_	_	
+28-11	2586-2595	dagsläget	_	_	_	_	_	_	_	
+28-12	2596-2604	beviljas	_	_	_	_	_	_	_	
+28-13	2605-2609	asyl	_	_	_	_	_	_	_	
+28-14	2609-2610	.	_	_	_	_	_	_	_	
+
+#Text=För att bevilja samtliga kristna irakier, från alla delar av landet, asyl i Sverige krävs att hotbilden skulle sträcka sig över hela landet vilken den inte gör.
+29-1	2611-2614	För	_	_	_	_	_	_	_	
+29-2	2615-2618	att	_	_	_	_	_	_	_	
+29-3	2619-2626	bevilja	_	_	_	_	_	_	_	
+29-4	2627-2635	samtliga	_	_	_	_	_	_	_	
+29-5	2636-2643	kristna	_	_	_	_	_	_	_	
+29-6	2644-2651	irakier	_	_	_	_	_	_	_	
+29-7	2651-2652	,	_	_	_	_	_	_	_	
+29-8	2653-2657	från	_	_	_	_	_	_	_	
+29-9	2658-2662	alla	_	_	_	_	_	_	_	
+29-10	2663-2668	delar	_	_	_	_	_	_	_	
+29-11	2669-2671	av	_	_	_	_	_	_	_	
+29-12	2672-2678	landet	_	_	_	_	_	_	_	
+29-13	2678-2679	,	_	_	_	_	_	_	_	
+29-14	2680-2684	asyl	_	_	_	_	_	_	_	
+29-15	2685-2686	i	_	_	_	_	_	_	_	
+29-16	2687-2694	Sverige	_	_	_	_	_	_	_	
+29-17	2695-2700	krävs	_	_	_	_	_	_	_	
+29-18	2701-2704	att	_	_	_	_	_	_	_	
+29-19	2705-2714	hotbilden	_	_	_	_	_	_	_	
+29-20	2715-2721	skulle	_	_	_	_	_	_	_	
+29-21	2722-2729	sträcka	_	_	_	_	_	_	_	
+29-22	2730-2733	sig	_	_	_	_	_	_	_	
+29-23	2734-2738	över	_	_	_	_	_	_	_	
+29-24	2739-2743	hela	_	_	_	_	_	_	_	
+29-25	2744-2750	landet	_	_	_	_	_	_	_	
+29-26	2751-2757	vilken	_	_	_	_	_	_	_	
+29-27	2758-2761	den	_	_	_	_	_	_	_	
+29-28	2762-2766	inte	_	_	_	_	_	_	_	
+29-29	2767-2770	gör	_	_	_	_	_	_	_	
+29-30	2770-2771	.	_	_	_	_	_	_	_	
+
+#Text=Om det blir så vet vi inte, just nu förefaller det inte troligt, men vi följer utvecklingen i Irak mycket noggrant.
+30-1	2772-2774	Om	_	_	_	_	_	_	_	
+30-2	2775-2778	det	_	_	_	_	_	_	_	
+30-3	2779-2783	blir	_	_	_	_	_	_	_	
+30-4	2784-2786	så	_	_	_	_	_	_	_	
+30-5	2787-2790	vet	_	_	_	_	_	_	_	
+30-6	2791-2793	vi	_	_	_	_	_	_	_	
+30-7	2794-2798	inte	_	_	_	_	_	_	_	
+30-8	2798-2799	,	_	_	_	_	_	_	_	
+30-9	2800-2804	just	_	_	_	_	_	_	_	
+30-10	2805-2807	nu	_	_	_	_	_	_	_	
+30-11	2808-2818	förefaller	_	_	_	_	_	_	_	
+30-12	2819-2822	det	_	_	_	_	_	_	_	
+30-13	2823-2827	inte	_	_	_	_	_	_	_	
+30-14	2828-2835	troligt	_	_	_	_	_	_	_	
+30-15	2835-2836	,	_	_	_	_	_	_	_	
+30-16	2837-2840	men	_	_	_	_	_	_	_	
+30-17	2841-2843	vi	_	_	_	_	_	_	_	
+30-18	2844-2850	följer	_	_	_	_	_	_	_	
+30-19	2851-2863	utvecklingen	_	_	_	_	_	_	_	
+30-20	2864-2865	i	_	_	_	_	_	_	_	
+30-21	2866-2870	Irak	_	_	_	_	_	_	_	
+30-22	2871-2877	mycket	_	_	_	_	_	_	_	
+30-23	2878-2886	noggrant	_	_	_	_	_	_	_	
+30-24	2886-2887	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2889-2890	#	_	_[18]	_	false[18]	3[18]	_	_	
+31-2	2890-2891	P	_	_[18]	_	false[18]	3[18]	_	_	
+31-3	2892-2895	IMM	_	_[18]	_	false[18]	3[18]	_	_	
+31-4	2895-2896	.	_	_	_	_	_	_	_	
+
+#Text=Viktigt att komma ihåg är att alla asylsökande har vid ett avslag rätt att få sin sak prövad av svensk domstol.
+32-1	2898-2905	Viktigt	_	_	_	_	_	_	_	
+32-2	2906-2909	att	_	_	_	_	_	_	_	
+32-3	2910-2915	komma	_	_	_	_	_	_	_	
+32-4	2916-2920	ihåg	_	_	_	_	_	_	_	
+32-5	2921-2923	är	_	_	_	_	_	_	_	
+32-6	2924-2927	att	_	_	_	_	_	_	_	
+32-7	2928-2932	alla	_	_	_	_	_	_	_	
+32-8	2933-2944	asylsökande	_	_	_	_	_	_	_	
+32-9	2945-2948	har	_	_	_	_	_	_	_	
+32-10	2949-2952	vid	_	_	_	_	_	_	_	
+32-11	2953-2956	ett	_	_	_	_	_	_	_	
+32-12	2957-2963	avslag	_	_	_	_	_	_	_	
+32-13	2964-2968	rätt	_	_	_	_	_	_	_	
+32-14	2969-2972	att	_	_	_	_	_	_	_	
+32-15	2973-2975	få	_	_	_	_	_	_	_	
+32-16	2976-2979	sin	_	_	_	_	_	_	_	
+32-17	2980-2983	sak	_	_	_	_	_	_	_	
+32-18	2984-2990	prövad	_	_	_	_	_	_	_	
+32-19	2991-2993	av	_	_	_	_	_	_	_	
+32-20	2994-3000	svensk	_	_	_	_	_	_	_	
+32-21	3001-3008	domstol	_	_	_	_	_	_	_	
+32-22	3008-3009	.	_	_	_	_	_	_	_	
+
+#Text=I de fall domstolen kommer till en annan slutsats i fråga om skyddsbehov ändras Migrationsverkets beslut.
+33-1	3010-3011	I	_	_	_	_	_	_	_	
+33-2	3012-3014	de	_	_	_	_	_	_	_	
+33-3	3015-3019	fall	_	_	_	_	_	_	_	
+33-4	3020-3029	domstolen	_	_	_	_	_	_	_	
+33-5	3030-3036	kommer	_	_	_	_	_	_	_	
+33-6	3037-3041	till	_	_	_	_	_	_	_	
+33-7	3042-3044	en	_	_	_	_	_	_	_	
+33-8	3045-3050	annan	_	_	_	_	_	_	_	
+33-9	3051-3059	slutsats	_	_	_	_	_	_	_	
+33-10	3060-3061	i	_	_	_	_	_	_	_	
+33-11	3062-3067	fråga	_	_	_	_	_	_	_	
+33-12	3068-3070	om	_	_	_	_	_	_	_	
+33-13	3071-3082	skyddsbehov	_	_	_	_	_	_	_	
+33-14	3083-3089	ändras	_	_	_	_	_	_	_	
+33-15	3090-3107	Migrationsverkets	_	_	_	_	_	_	_	
+33-16	3108-3114	beslut	_	_	_	_	_	_	_	
+33-17	3114-3115	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3117-3118	#	_	_	_	_	_	_	_	
+34-2	3118-3119	P	_	_	_	_	_	_	_	
+34-3	3120-3123	IMM	_	_	_	_	_	_	_	
+34-4	3123-3124	.	_	_	_	_	_	_	_	
+
+#Text=Carl Bexelius.
+35-1	3126-3130	Carl	_	_	_	_	_	_	_	
+35-2	3131-3139	Bexelius	_	_	_	_	_	_	_	
+35-3	3139-3140	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3142-3143	#	_	_	_	_	_	_	_	
+36-2	3143-3144	P	_	_	_	_	_	_	_	
+36-3	3145-3148	IMM	_	_	_	_	_	_	_	
+36-4	3148-3149	.	_	_	_	_	_	_	_	
+
+#Text=Biträdande rättschef, Migrationsverket.
+37-1	3151-3161	Biträdande	_	_	_	_	_	_	_	
+37-2	3162-3171	rättschef	_	_	_	_	_	_	_	
+37-3	3171-3172	,	_	_	_	_	_	_	_	
+37-4	3173-3189	Migrationsverket	_	_	_	_	_	_	_	
+37-5	3189-3190	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3192-3193	#	_	_	_	_	_	_	_	
+38-2	3193-3194	P	_	_	_	_	_	_	_	
+38-3	3195-3198	IMM	_	_	_	_	_	_	_	
+38-4	3198-3199	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+39-1	3201-3206	FAKTA	_	_	_	_	_	_	_	
+39-2	3206-3207	.	_	_	_	_	_	_	_	

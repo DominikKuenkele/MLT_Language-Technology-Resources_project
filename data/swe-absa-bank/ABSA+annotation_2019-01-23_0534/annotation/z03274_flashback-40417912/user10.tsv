@@ -1,0 +1,149 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Afroamerikaners rasism.
+3-1	18-33	Afroamerikaners	_	_	_	_	_	_	
+3-2	34-40	rasism	_	_	_	_	_	_	
+3-3	40-41	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	43-44	#	_	_	_	_	_	_	
+4-2	44-45	P	_	_	_	_	_	_	
+4-3	46-49	IMM	_	_	_	_	_	_	
+4-4	49-50	.	_	_	_	_	_	_	
+
+#Text=Det är riktigt sjukt hur många negrer som dödat vita i USA.
+5-1	52-55	Det	_	Target[1]	5-5[5]	false[1]	1[1]	_	
+5-2	56-58	är	_	Target[1]	5-5[5]	false[1]	1[1]	_	
+5-3	59-66	riktigt	_	Target[1]	5-5[5]	false[1]	1[1]	_	
+5-4	67-72	sjukt	_	Target[1]	5-5[5]	false[1]	1[1]	_	
+5-5	73-76	hur	*[5]	_	_	_	_	_	
+5-6	77-82	många	*[5]	_	_	_	_	_	
+5-7	83-89	negrer	*[5]|*[6]	Target	5-7[6]	false	1	_	
+5-8	90-93	som	*[5]	_	_	_	_	_	
+5-9	94-99	dödat	*[5]	_	_	_	_	_	
+5-10	100-104	vita	*[5]	_	_	_	_	_	
+5-11	105-106	i	*[5]	_	_	_	_	_	
+5-12	107-110	USA	*[5]	_	_	_	_	_	
+5-13	110-111	.	_	_	_	_	_	_	
+
+#Text=Det är fler negrer som dödat vita än vice versa.
+6-1	112-115	Det	_	_	_	_	_	_	
+6-2	116-118	är	_	_	_	_	_	_	
+6-3	119-123	fler	_	_	_	_	_	_	
+6-4	124-130	negrer	*	Target	6-4	false	1	_	
+6-5	131-134	som	_	_	_	_	_	_	
+6-6	135-140	dödat	_	_	_	_	_	_	
+6-7	141-145	vita	_	_	_	_	_	_	
+6-8	146-148	än	_	_	_	_	_	_	
+6-9	149-153	vice	_	_	_	_	_	_	
+6-10	154-159	versa	_	_	_	_	_	_	
+6-11	159-160	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	162-163	#	_	_[2]	_	false[2]	1[2]	_	
+7-2	163-164	P	_	_[2]	_	false[2]	1[2]	_	
+7-3	165-168	IMM	_	_[2]	_	false[2]	1[2]	_	
+7-4	168-169	.	_	_	_	_	_	_	
+
+#Text=Varför har amerikansk media mörkat de hatbrotten vita utsatts för?
+8-1	171-177	Varför	_	_	_	_	_	_	
+8-2	178-181	har	_	_	_	_	_	_	
+8-3	182-192	amerikansk	*[7]	_	_	_	_	_	
+8-4	193-198	media	*[7]	_	_	_	_	_	
+8-5	199-205	mörkat	_	Target	8-3[7]	false	1	_	
+8-6	206-208	de	_	_	_	_	_	_	
+8-7	209-219	hatbrotten	*	_	_	false	1	8-5	
+8-8	220-224	vita	*	_	_	_	_	_	
+8-9	225-232	utsatts	_	Source;Target[3]	8-8;8-7	false[3]	1[3]	_	
+8-10	233-236	för	_	Source;Target[3]	8-8;8-7	false[3]	1[3]	_	
+8-11	236-237	?	_	_	_	_	_	_	
+
+#Text=Det är skrämmande hur lik situationen är i Sverige och det är då media jag tänker på.
+9-1	238-241	Det	_	_	_	_	_	_	
+9-2	242-244	är	_	_	_	_	_	_	
+9-3	245-255	skrämmande	_	Target	9-4[8]	false	1	_	
+9-4	256-259	hur	*[8]	_	_	_	_	_	
+9-5	260-263	lik	*[8]	_	_	_	_	_	
+9-6	264-275	situationen	*[8]	_	_	_	_	_	
+9-7	276-278	är	*[8]	_	_	_	_	_	
+9-8	279-280	i	*[8]	_	_	_	_	_	
+9-9	281-288	Sverige	*[8]	_	_	_	_	_	
+9-10	289-292	och	_	_	_	_	_	_	
+9-11	293-296	det	_	_	_	_	_	_	
+9-12	297-299	är	_	_	_	_	_	_	
+9-13	300-302	då	_	_	_	_	_	_	
+9-14	303-308	media	_	_	_	_	_	_	
+9-15	309-312	jag	_	_	_	_	_	_	
+9-16	313-319	tänker	_	_	_	_	_	_	
+9-17	320-322	på	_	_	_	_	_	_	
+9-18	322-323	.	_	_	_	_	_	_	
+
+#Text=Media som mörkar och håller undan information när invandrare begår brott.
+10-1	324-329	Media	*	_	_	_	_	_	
+10-2	330-333	som	_	_	_	_	_	_	
+10-3	334-340	mörkar	_	Target[4]	10-1	false[4]	1[4]	_	
+10-4	341-344	och	_	Target[4]	10-1	false[4]	1[4]	_	
+10-5	345-351	håller	_	Target[4]	10-1	false[4]	1[4]	_	
+10-6	352-357	undan	_	Target[4]	10-1	false[4]	1[4]	_	
+10-7	358-369	information	_	Target[4]	10-1	false[4]	1[4]	_	
+10-8	370-373	när	_	_	_	_	_	_	
+10-9	374-384	invandrare	_	_	_	_	_	_	
+10-10	385-390	begår	_	_	_	_	_	_	
+10-11	391-396	brott	_	_	_	_	_	_	
+10-12	396-397	.	_	_	_	_	_	_	
+
+#Text=Tänk Inger Wickman.
+11-1	398-402	Tänk	_	_	_	_	_	_	
+11-2	403-408	Inger	_	_	_	_	_	_	
+11-3	409-416	Wickman	_	_	_	_	_	_	
+11-4	416-417	.	_	_	_	_	_	_	
+
+#Text=Expressen och  publicerade inga bilder eller namn på invandraren som slog ihjäl henne.
+12-1	418-427	Expressen	_	_	_	_	_	_	
+12-2	428-431	och	_	_	_	_	_	_	
+12-3	433-444	publicerade	_	_	_	_	_	_	
+12-4	445-449	inga	_	_	_	_	_	_	
+12-5	450-456	bilder	_	_	_	_	_	_	
+12-6	457-462	eller	_	_	_	_	_	_	
+12-7	463-467	namn	_	_	_	_	_	_	
+12-8	468-470	på	_	_	_	_	_	_	
+12-9	471-482	invandraren	_	_	_	_	_	_	
+12-10	483-486	som	_	_	_	_	_	_	
+12-11	487-491	slog	_	_	_	_	_	_	
+12-12	492-497	ihjäl	_	_	_	_	_	_	
+12-13	498-503	henne	_	_	_	_	_	_	
+12-14	503-504	.	_	_	_	_	_	_	
+
+#Text=Ingen fick se hur serievåldtäktsmannen "Smygaren" såg ut eller veta hans afrikanska namn.
+13-1	505-510	Ingen	_	_	_	_	_	_	
+13-2	511-515	fick	_	_	_	_	_	_	
+13-3	516-518	se	_	_	_	_	_	_	
+13-4	519-522	hur	_	_	_	_	_	_	
+13-5	523-543	serievåldtäktsmannen	_	_	_	_	_	_	
+13-6	544-545	"	_	_	_	_	_	_	
+13-7	545-553	Smygaren	_	_	_	_	_	_	
+13-8	553-554	"	_	_	_	_	_	_	
+13-9	555-558	såg	_	_	_	_	_	_	
+13-10	559-561	ut	_	_	_	_	_	_	
+13-11	562-567	eller	_	_	_	_	_	_	
+13-12	568-572	veta	_	_	_	_	_	_	
+13-13	573-577	hans	_	_	_	_	_	_	
+13-14	578-588	afrikanska	_	_	_	_	_	_	
+13-15	589-593	namn	_	_	_	_	_	_	
+13-16	593-594	.	_	_	_	_	_	_	

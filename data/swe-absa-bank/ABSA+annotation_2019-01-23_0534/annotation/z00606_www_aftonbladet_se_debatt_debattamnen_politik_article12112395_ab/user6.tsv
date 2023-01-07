@@ -1,0 +1,473 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	5[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	5[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	5[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	5[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	5[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	5[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Varmt välkomna till Vellinge kommun!.
+3-1	18-23	Varmt	_	Target[3]	3-3[22]	false[3]	5[3]	
+3-2	24-32	välkomna	_	Target[3]	3-3[22]	false[3]	5[3]	
+3-3	33-37	till	*[22]	_	_	_	_	
+3-4	38-46	Vellinge	*[22]	_	_	_	_	
+3-5	47-53	kommun	*[22]	_	_	_	_	
+3-6	53-54	!	_	_	_	_	_	
+3-7	54-55	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_[4]	_	false[4]	5[4]	
+4-2	58-59	P	_	_[4]	_	false[4]	5[4]	
+4-3	60-63	IMM	_	_[4]	_	false[4]	5[4]	
+4-4	63-64	.	_	_	_	_	_	
+
+#Text=Vi förstår att ni flytt från svåra omständigheter.
+5-1	66-68	Vi	_	_	_	_	_	
+5-2	69-76	förstår	_	_	_	_	_	
+5-3	77-80	att	_	_	_	_	_	
+5-4	81-83	ni	_	_	_	_	_	
+5-5	84-89	flytt	_	Target[5]	5-7[23]	false[5]	2[5]	
+5-6	90-94	från	_	Target[5]	5-7[23]	false[5]	2[5]	
+5-7	95-100	svåra	*[23]	Target	5-8[24]	false	2	
+5-8	101-115	omständigheter	*[23]|*[24]	_	_	_	_	
+5-9	115-116	.	_	_	_	_	_	
+
+#Text=Att tvingas lämna familj och vänner för att flytta till ett okänt land måste vara otroligt tufft.
+6-1	117-120	Att	_	_	_	_	_	
+6-2	121-128	tvingas	_	Target	6-3[25]	false	2	
+6-3	129-134	lämna	*[25]|*[26]	_	_	_	_	
+6-4	135-141	familj	*[25]|*[26]	_	_	_	_	
+6-5	142-145	och	*[25]|*[26]	_	_	_	_	
+6-6	146-152	vänner	*[25]|*[26]	_	_	_	_	
+6-7	153-156	för	*[25]|*[26]	_	_	_	_	
+6-8	157-160	att	*[25]|*[26]	_	_	_	_	
+6-9	161-167	flytta	*[25]|*[26]	_	_	_	_	
+6-10	168-172	till	*[25]|*[26]	_	_	_	_	
+6-11	173-176	ett	*[25]|*[26]	_	_	_	_	
+6-12	177-182	okänt	*[25]|*[26]	_	_	_	_	
+6-13	183-187	land	*[25]|*[26]	_	_	_	_	
+6-14	188-193	måste	*[25]	Target[6]	6-3[26]	false[6]	1[6]	
+6-15	194-198	vara	*[25]	Target[6]	6-3[26]	false[6]	1[6]	
+6-16	199-207	otroligt	*[25]	Target[6]	6-3[26]	false[6]	1[6]	
+6-17	208-213	tufft	*[25]	Target[6]	6-3[26]	false[6]	1[6]	
+6-18	213-214	.	_	_	_	_	_	
+
+#Text=Och speciellt för er som inte ens hunnit bli vuxna.
+7-1	215-218	Och	_	_	_	_	_	
+7-2	219-228	speciellt	_	_	_	_	_	
+7-3	229-232	för	_	_	_	_	_	
+7-4	233-235	er	_	_	_	_	_	
+7-5	236-239	som	_	_	_	_	_	
+7-6	240-244	inte	_	_	_	_	_	
+7-7	245-248	ens	_	_	_	_	_	
+7-8	249-255	hunnit	_	_	_	_	_	
+7-9	256-259	bli	_	_	_	_	_	
+7-10	260-265	vuxna	_	_	_	_	_	
+7-11	265-266	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	268-269	#	_	_[7]	_	false[7]	5[7]	
+8-2	269-270	P	_	_[7]	_	false[7]	5[7]	
+8-3	271-274	IMM	_	_[7]	_	false[7]	5[7]	
+8-4	274-275	.	_	_	_	_	_	
+
+#Text=Vi gratulerar er till att ni kommit till just vår kommun under ert transitboende.
+9-1	277-279	Vi	_	_	_	_	_	
+9-2	280-290	gratulerar	_	Target	9-5[27]	false	5	
+9-3	291-293	er	_	_	_	_	_	
+9-4	294-298	till	_	_	_	_	_	
+9-5	299-302	att	*[27]	_	_	_	_	
+9-6	303-305	ni	*[27]	_	_	_	_	
+9-7	306-312	kommit	*[27]	_	_	_	_	
+9-8	313-317	till	*[27]	_	_	_	_	
+9-9	318-322	just	*[27]	_	_	_	_	
+9-10	323-326	vår	*[27]	_	_	_	_	
+9-11	327-333	kommun	*[27]	_	_	_	_	
+9-12	334-339	under	*[27]	_	_	_	_	
+9-13	340-343	ert	*[27]	_	_	_	_	
+9-14	344-357	transitboende	*[27]	_	_	_	_	
+9-15	357-358	.	_	_	_	_	_	
+
+#Text=Vi läser på kommunens hemsida att ”Vellinge är en attraktiv kommun, där man både kan bo, arbeta och njuta av sin fritid på bästa möjliga vis.
+10-1	359-361	Vi	_	_	_	_	_	
+10-2	362-367	läser	_	_	_	_	_	
+10-3	368-370	på	_	_	_	_	_	
+10-4	371-380	kommunens	_	_	_	_	_	
+10-5	381-388	hemsida	_	_	_	_	_	
+10-6	389-392	att	_	_	_	_	_	
+10-7	393-394	”	_	_	_	_	_	
+10-8	394-402	Vellinge	_	_	_	_	_	
+10-9	403-405	är	_	_	_	_	_	
+10-10	406-408	en	_	_	_	_	_	
+10-11	409-418	attraktiv	_	Target	10-12	false	4	
+10-12	419-425	kommun	*	_	_	_	_	
+10-13	425-426	,	_	_	_	_	_	
+10-14	427-430	där	_	_	_	_	_	
+10-15	431-434	man	_	_	_	_	_	
+10-16	435-439	både	_	_	_	_	_	
+10-17	440-443	kan	_	_	_	_	_	
+10-18	444-446	bo	_	_	_	_	_	
+10-19	446-447	,	_	_	_	_	_	
+10-20	448-454	arbeta	_	_	_	_	_	
+10-21	455-458	och	_	_	_	_	_	
+10-22	459-464	njuta	_	Target[8]	10-24[28]	false[8]	4[8]	
+10-23	465-467	av	_	Target[8]	10-24[28]	false[8]	4[8]	
+10-24	468-471	sin	*[28]	_	_	_	_	
+10-25	472-478	fritid	*[28]	_	_	_	_	
+10-26	479-481	på	*[28]	_	_	_	_	
+10-27	482-487	bästa	*[28]	Target[9]	10-29[29]	false[9]	4[9]	
+10-28	488-495	möjliga	*[28]	Target[9]	10-29[29]	false[9]	4[9]	
+10-29	496-499	vis	*[28]|*[29]	_	_	_	_	
+10-30	499-500	.	_	_	_	_	_	
+
+#Text=Kommunen har bland annat eget gymnasium, nyombyggda grundskolor och moderna affärscentra.
+11-1	501-509	Kommunen	_	_	_	_	_	
+11-2	510-513	har	_	_	_	_	_	
+11-3	514-519	bland	_	_	_	_	_	
+11-4	520-525	annat	_	_	_	_	_	
+11-5	526-530	eget	_	_	_	_	_	
+11-6	531-540	gymnasium	_	_	_	_	_	
+11-7	540-541	,	_	_	_	_	_	
+11-8	542-552	nyombyggda	_	Target	11-9	false	4	
+11-9	553-564	grundskolor	*	_	_	_	_	
+11-10	565-568	och	_	_	_	_	_	
+11-11	569-576	moderna	_	Target	11-12	false	4	
+11-12	577-589	affärscentra	*	_	_	_	_	
+11-13	589-590	.	_	_	_	_	_	
+
+#Text=Kommunen erbjuder mycket förströelse och vila för turister och kommuninvånare.”
+12-1	591-599	Kommunen	_	_	_	_	_	
+12-2	600-608	erbjuder	_	_	_	_	_	
+12-3	609-615	mycket	_	Target	12-4[30]	false	4	
+12-4	616-627	förströelse	*[30]	_	_	_	_	
+12-5	628-631	och	*[30]	_	_	_	_	
+12-6	632-636	vila	*[30]	_	_	_	_	
+12-7	637-640	för	_	_	_	_	_	
+12-8	641-649	turister	_	_	_	_	_	
+12-9	650-653	och	_	_	_	_	_	
+12-10	654-668	kommuninvånare	_	_	_	_	_	
+12-11	668-669	.	_	_	_	_	_	
+12-12	669-670	”	_	_	_	_	_	
+
+#Text=Vi hoppas att ni ska finna lugn och ro här i denna fina kommun efter allt som ni tvingats att genomleva under er barndom och som tvingat er att fly.
+13-1	671-673	Vi	_	_	_	_	_	
+13-2	674-680	hoppas	_	_	_	_	_	
+13-3	681-684	att	_	_	_	_	_	
+13-4	685-687	ni	_	_	_	_	_	
+13-5	688-691	ska	_	_	_	_	_	
+13-6	692-697	finna	_	Target[10]	13-11[31]	false[10]	4[10]	
+13-7	698-702	lugn	_	Target[10]	13-11[31]	false[10]	4[10]	
+13-8	703-706	och	_	Target[10]	13-11[31]	false[10]	4[10]	
+13-9	707-709	ro	_	Target[10]	13-11[31]	false[10]	4[10]	
+13-10	710-713	här	_	_	_	_	_	
+13-11	714-715	i	*[31]	_	_	_	_	
+13-12	716-721	denna	*[31]	_	_	_	_	
+13-13	722-726	fina	*[31]	Target	13-14[32]	false	4	
+13-14	727-733	kommun	*[31]|*[32]	_	_	_	_	
+13-15	734-739	efter	_	_	_	_	_	
+13-16	740-744	allt	*	_	_	_	_	
+13-17	745-748	som	_	_	_	_	_	
+13-18	749-751	ni	_	_	_	_	_	
+13-19	752-760	tvingats	_	Target[11]	13-16	false[11]	2[11]	
+13-20	761-764	att	_	Target[11]	13-16	false[11]	2[11]	
+13-21	765-774	genomleva	_	Target[11]	13-16	false[11]	2[11]	
+13-22	775-780	under	_	_	_	_	_	
+13-23	781-783	er	_	_	_	_	_	
+13-24	784-791	barndom	_	_	_	_	_	
+13-25	792-795	och	_	_	_	_	_	
+13-26	796-799	som	_	_	_	_	_	
+13-27	800-807	tvingat	_	_	_	_	_	
+13-28	808-810	er	_	_	_	_	_	
+13-29	811-814	att	_	_	_	_	_	
+13-30	815-818	fly	_	_	_	_	_	
+13-31	818-819	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	821-822	#	_	_[12]	_	false[12]	5[12]	
+14-2	822-823	P	_	_[12]	_	false[12]	5[12]	
+14-3	824-827	IMM	_	_[12]	_	false[12]	5[12]	
+14-4	827-828	.	_	_	_	_	_	
+
+#Text=Visserligen har några kommuninvånare protesterat mot att ni ska bo här.
+15-1	830-841	Visserligen	_	_	_	_	_	
+15-2	842-845	har	_	_	_	_	_	
+15-3	846-851	några	_	_	_	_	_	
+15-4	852-866	kommuninvånare	_	_	_	_	_	
+15-5	867-878	protesterat	_	Target[13]	15-7[33]	false[13]	2[13]	
+15-6	879-882	mot	_	Target[13]	15-7[33]	false[13]	2[13]	
+15-7	883-886	att	*[33]	_	_	_	_	
+15-8	887-889	ni	*[33]	_	_	_	_	
+15-9	890-893	ska	*[33]	_	_	_	_	
+15-10	894-896	bo	*[33]	_	_	_	_	
+15-11	897-900	här	*[33]	_	_	_	_	
+15-12	900-901	.	_	_	_	_	_	
+
+#Text=Antagligen beror detta på en rädsla för det okända.
+16-1	902-912	Antagligen	_	_	_	_	_	
+16-2	913-918	beror	_	_	_	_	_	
+16-3	919-924	detta	_	_	_	_	_	
+16-4	925-927	på	_	_	_	_	_	
+16-5	928-930	en	_	_	_	_	_	
+16-6	931-937	rädsla	_	Target	16-8[34]	false	2	
+16-7	938-941	för	_	_	_	_	_	
+16-8	942-945	det	*[34]	_	_	_	_	
+16-9	946-952	okända	*[34]	_	_	_	_	
+16-10	952-953	.	_	_	_	_	_	
+
+#Text=Vissa kommunalpolitiker har också protesterat, men eftersom vi av erfarenhet vet att de utför ett kompetent jobb, så förväntar vi oss att de kommer att ta sitt ansvar även för er och se till att ni får det stöd som ni så väl behöver.
+17-1	954-959	Vissa	*[35]|*[36]	_	_	_	_	
+17-2	960-977	kommunalpolitiker	*[35]|*[36]	_	_	_	_	
+17-3	978-981	har	_	Target[14]	17-1[35]	false[14]	2[14]	
+17-4	982-987	också	_	Target[14]	17-1[35]	false[14]	2[14]	
+17-5	988-999	protesterat	_	Target[14]	17-1[35]	false[14]	2[14]	
+17-6	999-1000	,	_	_	_	_	_	
+17-7	1001-1004	men	_	_	_	_	_	
+17-8	1005-1013	eftersom	_	_	_	_	_	
+17-9	1014-1016	vi	_	_	_	_	_	
+17-10	1017-1019	av	_	_	_	_	_	
+17-11	1020-1030	erfarenhet	_	_	_	_	_	
+17-12	1031-1034	vet	_	_	_	_	_	
+17-13	1035-1038	att	_	_	_	_	_	
+17-14	1039-1041	de	_	_	_	_	_	
+17-15	1042-1047	utför	_	Target[15]	17-1[36]	false[15]	4[15]	
+17-16	1048-1051	ett	_	Target[15]	17-1[36]	false[15]	4[15]	
+17-17	1052-1061	kompetent	_	Target[15]	17-1[36]	false[15]	4[15]	
+17-18	1062-1066	jobb	_	Target[15]	17-1[36]	false[15]	4[15]	
+17-19	1066-1067	,	_	_	_	_	_	
+17-20	1068-1070	så	_	_	_	_	_	
+17-21	1071-1080	förväntar	_	_	_	_	_	
+17-22	1081-1083	vi	_	_	_	_	_	
+17-23	1084-1087	oss	_	_	_	_	_	
+17-24	1088-1091	att	_	_	_	_	_	
+17-25	1092-1094	de	_	_	_	_	_	
+17-26	1095-1101	kommer	_	_	_	_	_	
+17-27	1102-1105	att	_	_	_	_	_	
+17-28	1106-1108	ta	_	_	_	_	_	
+17-29	1109-1113	sitt	_	_	_	_	_	
+17-30	1114-1120	ansvar	_	_	_	_	_	
+17-31	1121-1125	även	_	_	_	_	_	
+17-32	1126-1129	för	_	_	_	_	_	
+17-33	1130-1132	er	_	_	_	_	_	
+17-34	1133-1136	och	_	_	_	_	_	
+17-35	1137-1139	se	_	_	_	_	_	
+17-36	1140-1144	till	_	_	_	_	_	
+17-37	1145-1148	att	_	_	_	_	_	
+17-38	1149-1151	ni	_	_	_	_	_	
+17-39	1152-1155	får	_	_	_	_	_	
+17-40	1156-1159	det	*[37]	_	_	_	_	
+17-41	1160-1164	stöd	*[37]	_	_	_	_	
+17-42	1165-1168	som	_	_	_	_	_	
+17-43	1169-1171	ni	_	_	_	_	_	
+17-44	1172-1174	så	_	Target[16]	17-40[37]	false[16]	4[16]	
+17-45	1175-1178	väl	_	Target[16]	17-40[37]	false[16]	4[16]	
+17-46	1179-1186	behöver	_	Target[16]	17-40[37]	false[16]	4[16]	
+17-47	1186-1187	.	_	_	_	_	_	
+
+#Text=Visserligen är de kommunalpolitiker, med uppdrag att sköta just Vellinge.
+18-1	1188-1199	Visserligen	_	_	_	_	_	
+18-2	1200-1202	är	_	_	_	_	_	
+18-3	1203-1205	de	_	_	_	_	_	
+18-4	1206-1223	kommunalpolitiker	_	_	_	_	_	
+18-5	1223-1224	,	_	_	_	_	_	
+18-6	1225-1228	med	_	_	_	_	_	
+18-7	1229-1236	uppdrag	_	_	_	_	_	
+18-8	1237-1240	att	_	_	_	_	_	
+18-9	1241-1246	sköta	_	_	_	_	_	
+18-10	1247-1251	just	_	_	_	_	_	
+18-11	1252-1260	Vellinge	_	_	_	_	_	
+18-12	1260-1261	.	_	_	_	_	_	
+
+#Text=Men har man valt att bli politiker, så har man också ett samvetsuppdrag att förbättra samhället i stort.
+19-1	1262-1265	Men	_	_	_	_	_	
+19-2	1266-1269	har	_	_	_	_	_	
+19-3	1270-1273	man	_	_	_	_	_	
+19-4	1274-1278	valt	_	_	_	_	_	
+19-5	1279-1282	att	_	_	_	_	_	
+19-6	1283-1286	bli	_	_	_	_	_	
+19-7	1287-1296	politiker	_	_	_	_	_	
+19-8	1296-1297	,	_	_	_	_	_	
+19-9	1298-1300	så	_	_	_	_	_	
+19-10	1301-1304	har	_	_	_	_	_	
+19-11	1305-1308	man	_	_	_	_	_	
+19-12	1309-1314	också	_	_	_	_	_	
+19-13	1315-1318	ett	_	_	_	_	_	
+19-14	1319-1333	samvetsuppdrag	_	_	_	_	_	
+19-15	1334-1337	att	_	_	_	_	_	
+19-16	1338-1347	förbättra	_	_	_	_	_	
+19-17	1348-1357	samhället	_	_	_	_	_	
+19-18	1358-1359	i	_	_	_	_	_	
+19-19	1360-1365	stort	_	_	_	_	_	
+19-20	1365-1366	.	_	_	_	_	_	
+
+#Text=Man förstår samhällets samband i ett större perspektiv och vet att man ibland får sträcka sitt ansvar och förstå behoven utöver den absolut närmaste ansvarsområdet.
+20-1	1367-1370	Man	_	_	_	_	_	
+20-2	1371-1378	förstår	_	_	_	_	_	
+20-3	1379-1389	samhällets	_	_	_	_	_	
+20-4	1390-1397	samband	_	_	_	_	_	
+20-5	1398-1399	i	_	_	_	_	_	
+20-6	1400-1403	ett	_	_	_	_	_	
+20-7	1404-1410	större	_	_	_	_	_	
+20-8	1411-1421	perspektiv	_	_	_	_	_	
+20-9	1422-1425	och	_	_	_	_	_	
+20-10	1426-1429	vet	_	_	_	_	_	
+20-11	1430-1433	att	_	_	_	_	_	
+20-12	1434-1437	man	_	_	_	_	_	
+20-13	1438-1444	ibland	_	_	_	_	_	
+20-14	1445-1448	får	_	_	_	_	_	
+20-15	1449-1456	sträcka	_	_	_	_	_	
+20-16	1457-1461	sitt	_	_	_	_	_	
+20-17	1462-1468	ansvar	_	_	_	_	_	
+20-18	1469-1472	och	_	_	_	_	_	
+20-19	1473-1479	förstå	_	_	_	_	_	
+20-20	1480-1487	behoven	_	_	_	_	_	
+20-21	1488-1494	utöver	_	_	_	_	_	
+20-22	1495-1498	den	_	_	_	_	_	
+20-23	1499-1506	absolut	_	_	_	_	_	
+20-24	1507-1515	närmaste	_	_	_	_	_	
+20-25	1516-1530	ansvarsområdet	_	_	_	_	_	
+20-26	1530-1531	.	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1533-1534	#	_	_[17]	_	false[17]	5[17]	
+21-2	1534-1535	P	_	_[17]	_	false[17]	5[17]	
+21-3	1536-1539	IMM	_	_[17]	_	false[17]	5[17]	
+21-4	1539-1540	.	_	_	_	_	_	
+
+#Text=Vi är många i kommunen som är lättade över att Vellinge kommun äntligen tar emot människor som tvingats fly från omänskliga förhållanden för att någonstans i världen hitta en plats där även de kan bo, arbeta och njuta av sin fritid på bästa möjliga vis.
+22-1	1542-1544	Vi	_	_	_	_	_	
+22-2	1545-1547	är	_	_	_	_	_	
+22-3	1548-1553	många	*[38]	_	_	_	_	
+22-4	1554-1555	i	*[38]	_	_	_	_	
+22-5	1556-1564	kommunen	*[38]	_	_	_	_	
+22-6	1565-1568	som	_	_	_	_	_	
+22-7	1569-1571	är	_	Source;Target[18]	22-3[38];22-9[39]	false[18]	4[18]	
+22-8	1572-1579	lättade	_	Source;Target[18]	22-3[38];22-9[39]	false[18]	4[18]	
+22-9	1580-1584	över	*[39]	_	_	_	_	
+22-10	1585-1588	att	*[39]	_	_	_	_	
+22-11	1589-1597	Vellinge	*[39]	_	_	_	_	
+22-12	1598-1604	kommun	*[39]	_	_	_	_	
+22-13	1605-1613	äntligen	*[39]	_	_	_	_	
+22-14	1614-1617	tar	*[39]	_	_	_	_	
+22-15	1618-1622	emot	*[39]	_	_	_	_	
+22-16	1623-1632	människor	*[39]	_	_	_	_	
+22-17	1633-1636	som	*[39]	_	_	_	_	
+22-18	1637-1645	tvingats	*[39]	_	_	_	_	
+22-19	1646-1649	fly	*[39]	_	_	_	_	
+22-20	1650-1654	från	*[39]	_	_	_	_	
+22-21	1655-1665	omänskliga	*[39]	_	_	_	_	
+22-22	1666-1678	förhållanden	*[39]	_	_	_	_	
+22-23	1679-1682	för	_	_	_	_	_	
+22-24	1683-1686	att	_	_	_	_	_	
+22-25	1687-1697	någonstans	_	_	_	_	_	
+22-26	1698-1699	i	_	_	_	_	_	
+22-27	1700-1707	världen	_	_	_	_	_	
+22-28	1708-1713	hitta	_	_	_	_	_	
+22-29	1714-1716	en	_	_	_	_	_	
+22-30	1717-1722	plats	_	_	_	_	_	
+22-31	1723-1726	där	_	_	_	_	_	
+22-32	1727-1731	även	_	_	_	_	_	
+22-33	1732-1734	de	_	_	_	_	_	
+22-34	1735-1738	kan	_	_	_	_	_	
+22-35	1739-1741	bo	_	_	_	_	_	
+22-36	1741-1742	,	_	_	_	_	_	
+22-37	1743-1749	arbeta	_	_	_	_	_	
+22-38	1750-1753	och	_	_	_	_	_	
+22-39	1754-1759	njuta	_	Target[19]	22-41[40]	false[19]	4[19]	
+22-40	1760-1762	av	_	Target[19]	22-41[40]	false[19]	4[19]	
+22-41	1763-1766	sin	*[40]	_	_	_	_	
+22-42	1767-1773	fritid	*[40]	_	_	_	_	
+22-43	1774-1776	på	*[40]	_	_	_	_	
+22-44	1777-1782	bästa	*[40]	Target[20]	22-46[41]	false[20]	4[20]	
+22-45	1783-1790	möjliga	*[40]	Target[20]	22-46[41]	false[20]	4[20]	
+22-46	1791-1794	vis	*[40]|*[41]	_	_	_	_	
+22-47	1794-1795	.	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1797-1798	#	_	_[21]	_	false[21]	5[21]	
+23-2	1798-1799	P	_	_[21]	_	false[21]	5[21]	
+23-3	1800-1803	IMM	_	_[21]	_	false[21]	5[21]	
+23-4	1803-1804	.	_	_	_	_	_	
+
+#Text=Med en önskan om en nystart till ett bättre liv,.
+24-1	1806-1809	Med	_	_	_	_	_	
+24-2	1810-1812	en	_	_	_	_	_	
+24-3	1813-1819	önskan	_	Target	24-5[42]	false	4	
+24-4	1820-1822	om	_	_	_	_	_	
+24-5	1823-1825	en	*[42]	_	_	_	_	
+24-6	1826-1833	nystart	*[42]|*[43]	Target	24-6[43]	false	4	
+24-7	1834-1838	till	*[42]	_	_	_	_	
+24-8	1839-1842	ett	*[42]	_	_	_	_	
+24-9	1843-1849	bättre	*[42]	Target	24-10[44]	false	4	
+24-10	1850-1853	liv	*[42]|*[44]	_	_	_	_	
+24-11	1853-1854	,	_	_	_	_	_	
+24-12	1854-1855	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1857-1858	#	_	_	_	_	_	
+25-2	1858-1859	P	_	_	_	_	_	
+25-3	1860-1863	IMM	_	_	_	_	_	
+25-4	1863-1864	.	_	_	_	_	_	
+
+#Text=Helena, Mats, Karin, Peter, Sara, Anna, Per, Håkan, Christer, Git, Lars, Monica, Per, Ann, Måns, Karl-Erik, Mats, Sven-Åke & många fler invånare i Vellinge kommun.
+26-1	1866-1872	Helena	_	_	_	_	_	
+26-2	1872-1873	,	_	_	_	_	_	
+26-3	1874-1878	Mats	_	_	_	_	_	
+26-4	1878-1879	,	_	_	_	_	_	
+26-5	1880-1885	Karin	_	_	_	_	_	
+26-6	1885-1886	,	_	_	_	_	_	
+26-7	1887-1892	Peter	_	_	_	_	_	
+26-8	1892-1893	,	_	_	_	_	_	
+26-9	1894-1898	Sara	_	_	_	_	_	
+26-10	1898-1899	,	_	_	_	_	_	
+26-11	1900-1904	Anna	_	_	_	_	_	
+26-12	1904-1905	,	_	_	_	_	_	
+26-13	1906-1909	Per	_	_	_	_	_	
+26-14	1909-1910	,	_	_	_	_	_	
+26-15	1911-1916	Håkan	_	_	_	_	_	
+26-16	1916-1917	,	_	_	_	_	_	
+26-17	1918-1926	Christer	_	_	_	_	_	
+26-18	1926-1927	,	_	_	_	_	_	
+26-19	1928-1931	Git	_	_	_	_	_	
+26-20	1931-1932	,	_	_	_	_	_	
+26-21	1933-1937	Lars	_	_	_	_	_	
+26-22	1937-1938	,	_	_	_	_	_	
+26-23	1939-1945	Monica	_	_	_	_	_	
+26-24	1945-1946	,	_	_	_	_	_	
+26-25	1947-1950	Per	_	_	_	_	_	
+26-26	1950-1951	,	_	_	_	_	_	
+26-27	1952-1955	Ann	_	_	_	_	_	
+26-28	1955-1956	,	_	_	_	_	_	
+26-29	1957-1961	Måns	_	_	_	_	_	
+26-30	1961-1962	,	_	_	_	_	_	
+26-31	1963-1972	Karl-Erik	_	_	_	_	_	
+26-32	1972-1973	,	_	_	_	_	_	
+26-33	1974-1978	Mats	_	_	_	_	_	
+26-34	1978-1979	,	_	_	_	_	_	
+26-35	1980-1988	Sven-Åke	_	_	_	_	_	
+26-36	1989-1990	&	_	_	_	_	_	
+26-37	1991-1996	många	_	_	_	_	_	
+26-38	1997-2001	fler	_	_	_	_	_	
+26-39	2002-2010	invånare	_	_	_	_	_	
+26-40	2011-2012	i	_	_	_	_	_	
+26-41	2013-2021	Vellinge	_	_	_	_	_	
+26-42	2022-2028	kommun	_	_	_	_	_	
+26-43	2028-2029	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2031-2032	#	_	_	_	_	_	
+27-2	2032-2033	P	_	_	_	_	_	
+27-3	2034-2037	IMM	_	_	_	_	_	
+27-4	2037-2038	.	_	_	_	_	_	
+
+#Text=FAKTA.
+28-1	2040-2045	FAKTA	_	_	_	_	_	
+28-2	2045-2046	.	_	_	_	_	_	

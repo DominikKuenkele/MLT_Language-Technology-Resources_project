@@ -1,0 +1,1446 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Stärk kommuner och regioner – för fler bostäder.
+3-1	18-23	Stärk	_	_	_	_	_	_	_	
+3-2	24-32	kommuner	_	_	_	_	_	_	_	
+3-3	33-36	och	_	_	_	_	_	_	_	
+3-4	37-45	regioner	_	_	_	_	_	_	_	
+3-5	46-47	–	_	_	_	_	_	_	_	
+3-6	48-51	för	_	_	_	_	_	_	_	
+3-7	52-56	fler	_	_	_	_	_	_	_	
+3-8	57-65	bostäder	_	_	_	_	_	_	_	
+3-9	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_	_	_	_	_	_	
+4-2	69-70	P	_	_	_	_	_	_	_	
+4-3	71-74	IMM	_	_	_	_	_	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=Staten och regionerna bör stötta kommunerna i deras uppdrag att planera för nya bostäder.
+5-1	77-83	Staten	*[15]	_	_	_	_	_	_	
+5-2	84-87	och	*[15]	_	_	_	_	_	_	
+5-3	88-98	regionerna	*[15]	_	_	_	_	_	_	
+5-4	99-102	bör	*[15]	Source;Target[1]	6-3[16];5-1[15]	false[1]	4[1]	_	_	
+5-5	103-109	stötta	*[15]	Source;Target[1]	6-3[16];5-1[15]	false[1]	4[1]	_	_	
+5-6	110-120	kommunerna	*[15]	_	_	_	_	_	_	
+5-7	121-122	i	*[15]	_	_	_	_	_	_	
+5-8	123-128	deras	*[15]	_	_	_	_	_	_	
+5-9	129-136	uppdrag	*[15]	_	_	_	_	_	_	
+5-10	137-140	att	*[15]	_	_	_	_	_	_	
+5-11	141-148	planera	*[15]	_	_	_	_	_	_	
+5-12	149-152	för	*[15]	_	_	_	_	_	_	
+5-13	153-156	nya	*[15]	_	_	_	_	_	_	
+5-14	157-165	bostäder	*[15]	_	_	_	_	_	_	
+5-15	165-166	.	_	_	_	_	_	_	_	
+
+#Text=Det föreslår Bostadsplaneringskommittén, som pekar på brister i samordningen med infrastruktur, trafikförsörjning och regional utveckling.
+6-1	167-170	Det	_	_	_	_	_	_	_	
+6-2	171-179	föreslår	_	_	_	_	_	_	_	
+6-3	180-206	Bostadsplaneringskommittén	*[16]|*[17]	_	_	_	_	_	_	
+6-4	206-207	,	_	_	_	_	_	_	_	
+6-5	208-211	som	_	_	_	_	_	_	_	
+6-6	212-217	pekar	_	_	_	_	_	_	_	
+6-7	218-220	på	_	_	_	_	_	_	_	
+6-8	221-228	brister	*[18]	Target;Source[2]	6-8[18];6-3[17]	false[2]	2[2]	_	_	
+6-9	229-230	i	*[18]	Target;Source[2]	6-8[18];6-3[17]	false[2]	2[2]	_	_	
+6-10	231-243	samordningen	*[18]	Target;Source[2]	6-8[18];6-3[17]	false[2]	2[2]	_	_	
+6-11	244-247	med	*[18]	_	_	_	_	_	_	
+6-12	248-261	infrastruktur	*[18]	_	_	_	_	_	_	
+6-13	261-262	,	*[18]	_	_	_	_	_	_	
+6-14	263-280	trafikförsörjning	*[18]	_	_	_	_	_	_	
+6-15	281-284	och	*[18]	_	_	_	_	_	_	
+6-16	285-293	regional	*[18]	_	_	_	_	_	_	
+6-17	294-304	utveckling	*[18]	_	_	_	_	_	_	
+6-18	304-305	.	_	_	_	_	_	_	_	
+
+#Text=Vi uppmanar regeringen och bostadsminister Mehmet Kaplan att genomföra kommitténs förslag – för en effektivare bostadsförsörjning och mer livskraftiga regioner som kan stärka Sverige i en hårdnande global konkurrens.
+7-1	306-308	Vi	*	_	_	_	_	_	_	
+7-2	309-317	uppmanar	_	Source;Target	7-1;7-3[19]	false	4	_	_	
+7-3	318-328	regeringen	*[19]	_	_	_	_	_	_	
+7-4	329-332	och	*[19]	_	_	_	_	_	_	
+7-5	333-348	bostadsminister	*[19]	_	_	_	_	_	_	
+7-6	349-355	Mehmet	*[19]	_	_	_	_	_	_	
+7-7	356-362	Kaplan	*[19]	_	_	_	_	_	_	
+7-8	363-366	att	*[19]	_	_	_	_	_	_	
+7-9	367-376	genomföra	*[19]	_	_	_	_	_	_	
+7-10	377-387	kommitténs	*[19]	_	_	_	_	_	_	
+7-11	388-395	förslag	*[19]	_	_	_	_	_	_	
+7-12	396-397	–	*[19]	_	_	_	_	_	_	
+7-13	398-401	för	*[19]	_	_	_	_	_	_	
+7-14	402-404	en	*[19]	_	_	_	_	_	_	
+7-15	405-416	effektivare	*[19]	_	_	_	_	_	_	
+7-16	417-435	bostadsförsörjning	*[19]	_	_	_	_	_	_	
+7-17	436-439	och	*[19]	_	_	_	_	_	_	
+7-18	440-443	mer	*[19]	_	_	_	_	_	_	
+7-19	444-456	livskraftiga	*[19]	_	_	_	_	_	_	
+7-20	457-465	regioner	*[19]	_	_	_	_	_	_	
+7-21	466-469	som	*[19]	_	_	_	_	_	_	
+7-22	470-473	kan	*[19]	_	_	_	_	_	_	
+7-23	474-480	stärka	*[19]	_	_	_	_	_	_	
+7-24	481-488	Sverige	*[19]	_	_	_	_	_	_	
+7-25	489-490	i	*[19]	_	_	_	_	_	_	
+7-26	491-493	en	*[19]	_	_	_	_	_	_	
+7-27	494-503	hårdnande	*[19]	_	_	_	_	_	_	
+7-28	504-510	global	*[19]	_	_	_	_	_	_	
+7-29	511-521	konkurrens	*[19]	_	_	_	_	_	_	
+7-30	521-522	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver företrädare för 16 regioner.
+8-1	523-526	Det	_	_	_	_	_	_	_	
+8-2	527-534	skriver	_	_	_	_	_	_	_	
+8-3	535-546	företrädare	*[20]	_	_	_	_	_	7-1[0_20]	
+8-4	547-550	för	*[20]	_	_	_	_	_	_	
+8-5	551-553	16	*[20]	_	_	_	_	_	_	
+8-6	554-562	regioner	*[20]	_	_	_	_	_	_	
+8-7	562-563	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	565-566	#	_	_	_	_	_	_	_	
+9-2	566-567	P	_	_	_	_	_	_	_	
+9-3	568-571	IMM	_	_	_	_	_	_	_	
+9-4	571-572	.	_	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att Bostadsplaneringskommitténs förslag sammantaget medför en bättre samhällsplanering.
+10-1	574-576	Vi	*	_	_	_	_	_	_	
+10-2	577-579	är	_	_	_	_	_	_	_	
+10-3	580-590	övertygade	_	_	_	_	_	_	_	
+10-4	591-593	om	_	_	_	_	_	_	_	
+10-5	594-597	att	_	_	_	_	_	_	_	
+10-6	598-625	Bostadsplaneringskommitténs	*[21]	_	_	_	_	_	_	
+10-7	626-633	förslag	*[21]	_	_	_	_	_	_	
+10-8	634-645	sammantaget	_	_	_	_	_	_	_	
+10-9	646-652	medför	_	Target;Source[3]	10-6[21];10-1	false[3]	4[3]	_	_	
+10-10	653-655	en	_	Target;Source[3]	10-6[21];10-1	false[3]	4[3]	_	_	
+10-11	656-662	bättre	_	Target;Source[3]	10-6[21];10-1	false[3]	4[3]	_	_	
+10-12	663-680	samhällsplanering	_	Target;Source[3]	10-6[21];10-1	false[3]	4[3]	_	_	
+10-13	680-681	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	683-684	#	_	_	_	_	_	_	_	
+11-2	684-685	P	_	_	_	_	_	_	_	
+11-3	686-689	IMM	_	_	_	_	_	_	_	
+11-4	689-690	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	692-695	Det	_	_	_	_	_	_	_	
+12-2	696-699	här	_	_	_	_	_	_	_	
+12-3	700-702	är	_	_	_	_	_	_	_	
+12-4	703-705	en	_	_	_	_	_	_	_	
+12-5	706-720	argumenterande	_	_	_	_	_	_	_	
+12-6	721-725	text	_	_	_	_	_	_	_	
+12-7	726-729	med	_	_	_	_	_	_	_	
+12-8	730-735	syfte	_	_	_	_	_	_	_	
+12-9	736-739	att	_	_	_	_	_	_	_	
+12-10	740-747	påverka	_	_	_	_	_	_	_	
+12-11	747-748	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	749-758	Åsikterna	_	_	_	_	_	_	_	
+13-2	759-762	som	_	_	_	_	_	_	_	
+13-3	763-771	uttrycks	_	_	_	_	_	_	_	
+13-4	772-774	är	_	_	_	_	_	_	_	
+13-5	775-786	skribentens	_	_	_	_	_	_	_	
+13-6	787-791	egna	_	_	_	_	_	_	_	
+13-7	791-792	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	794-795	#	_	_	_	_	_	_	_	
+14-2	795-796	P	_	_	_	_	_	_	_	
+14-3	797-800	IMM	_	_	_	_	_	_	_	
+14-4	800-801	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges befolkning ökar, samtidigt som många flyttlass går mot större städer och högskoleorter.
+15-1	803-811	Sveriges	_	_	_	_	_	_	_	
+15-2	812-822	befolkning	_	_	_	_	_	_	_	
+15-3	823-827	ökar	_	_	_	_	_	_	_	
+15-4	827-828	,	_	_	_	_	_	_	_	
+15-5	829-838	samtidigt	_	_	_	_	_	_	_	
+15-6	839-842	som	_	_	_	_	_	_	_	
+15-7	843-848	många	_	_	_	_	_	_	_	
+15-8	849-858	flyttlass	_	_	_	_	_	_	_	
+15-9	859-862	går	_	_	_	_	_	_	_	
+15-10	863-866	mot	_	_	_	_	_	_	_	
+15-11	867-873	större	_	_	_	_	_	_	_	
+15-12	874-880	städer	_	_	_	_	_	_	_	
+15-13	881-884	och	_	_	_	_	_	_	_	
+15-14	885-898	högskoleorter	_	_	_	_	_	_	_	
+15-15	898-899	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver fler bostäder där vi ser tillväxt och inflyttning i dag.
+16-1	900-902	Vi	*[22]	_	_	_	_	_	_	
+16-2	903-910	behöver	*[22]	Target	16-1[22]	false	4	_	_	
+16-3	911-915	fler	*[22]	_	_	_	_	_	_	
+16-4	916-924	bostäder	*[22]	_	_	_	_	_	_	
+16-5	925-928	där	*[22]	_	_	_	_	_	_	
+16-6	929-931	vi	*[22]	_	_	_	_	_	_	
+16-7	932-935	ser	*[22]	_	_	_	_	_	_	
+16-8	936-944	tillväxt	*[22]	_	_	_	_	_	_	
+16-9	945-948	och	*[22]	_	_	_	_	_	_	
+16-10	949-960	inflyttning	*[22]	_	_	_	_	_	_	
+16-11	961-962	i	*[22]	_	_	_	_	_	_	
+16-12	963-966	dag	*[22]	_	_	_	_	_	_	
+16-13	966-967	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver också en bättre fysisk planering som binder samman befintliga bostadsområden, kommuner och regioner och som bidrar till tillväxt och utveckling i hela landet.
+17-1	968-970	Vi	_	_	_	_	_	_	_	
+17-2	971-978	behöver	_	_	_	_	_	_	_	
+17-3	979-984	också	_	_	_	_	_	_	_	
+17-4	985-987	en	*[23]	_	_	_	_	_	_	
+17-5	988-994	bättre	*[23]	_	_	_	_	_	_	
+17-6	995-1001	fysisk	*[23]	_	_	_	_	_	_	
+17-7	1002-1011	planering	*[23]	_	_	_	_	_	_	
+17-8	1012-1015	som	_	_	_	_	_	_	_	
+17-9	1016-1022	binder	_	_	_	_	_	_	_	
+17-10	1023-1029	samman	_	_	_	_	_	_	_	
+17-11	1030-1040	befintliga	_	_	_	_	_	_	_	
+17-12	1041-1055	bostadsområden	_	_	_	_	_	_	_	
+17-13	1055-1056	,	_	_	_	_	_	_	_	
+17-14	1057-1065	kommuner	_	_	_	_	_	_	_	
+17-15	1066-1069	och	_	_	_	_	_	_	_	
+17-16	1070-1078	regioner	_	_	_	_	_	_	_	
+17-17	1079-1082	och	_	_	_	_	_	_	_	
+17-18	1083-1086	som	_	_	_	_	_	_	_	
+17-19	1087-1093	bidrar	_	Target[4]	17-4[23]	false[4]	4[4]	_	_	
+17-20	1094-1098	till	_	Target[4]	17-4[23]	false[4]	4[4]	_	_	
+17-21	1099-1107	tillväxt	_	Target[4]	17-4[23]	false[4]	4[4]	_	_	
+17-22	1108-1111	och	_	Target[4]	17-4[23]	false[4]	4[4]	_	_	
+17-23	1112-1122	utveckling	_	Target[4]	17-4[23]	false[4]	4[4]	_	_	
+17-24	1123-1124	i	_	_	_	_	_	_	_	
+17-25	1125-1129	hela	_	_	_	_	_	_	_	
+17-26	1130-1136	landet	_	_	_	_	_	_	_	
+17-27	1136-1137	.	_	_	_	_	_	_	_	
+
+#Text=Det är vad Bostadsplaneringskommitténs arbete har syftat till.
+18-1	1138-1141	Det	_	_	_	_	_	_	_	
+18-2	1142-1144	är	_	_	_	_	_	_	_	
+18-3	1145-1148	vad	_	_	_	_	_	_	_	
+18-4	1149-1176	Bostadsplaneringskommitténs	_	_	_	_	_	_	_	
+18-5	1177-1183	arbete	_	_	_	_	_	_	_	
+18-6	1184-1187	har	_	_	_	_	_	_	_	
+18-7	1188-1194	syftat	_	_	_	_	_	_	_	
+18-8	1195-1199	till	_	_	_	_	_	_	_	
+18-9	1199-1200	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1202-1203	#	_	_	_	_	_	_	_	
+19-2	1203-1204	P	_	_	_	_	_	_	_	
+19-3	1205-1208	IMM	_	_	_	_	_	_	_	
+19-4	1208-1209	.	_	_	_	_	_	_	_	
+
+#Text=Tre huvudförslag presenterades i blocköverskridande enighet under sommaren:.
+20-1	1211-1214	Tre	_	_	_	_	_	_	_	
+20-2	1215-1227	huvudförslag	_	_	_	_	_	_	_	
+20-3	1228-1241	presenterades	_	_	_	_	_	_	_	
+20-4	1242-1243	i	_	_	_	_	_	_	_	
+20-5	1244-1262	blocköverskridande	_	_	_	_	_	_	_	
+20-6	1263-1270	enighet	_	_	_	_	_	_	_	
+20-7	1271-1276	under	_	_	_	_	_	_	_	
+20-8	1277-1285	sommaren	_	_	_	_	_	_	_	
+20-9	1285-1286	:	_	_	_	_	_	_	_	
+20-10	1286-1287	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=1.
+21-1	1289-1290	#	_	_	_	_	_	_	_	
+21-2	1290-1291	P	_	_	_	_	_	_	_	
+21-3	1292-1295	IMM	_	_	_	_	_	_	_	
+21-4	1295-1296	.	_	_	_	_	_	_	_	
+21-5	1298-1299	1	_	_	_	_	_	_	_	
+21-6	1299-1300	.	_	_	_	_	_	_	_	
+
+#Text=Ökad samordning mellan kommunernas planering för bostadsförsörjning och regional planering för transportinfrastruktur, tillväxt och kollektivtrafik.
+22-1	1301-1305	Ökad	_	_	_	_	_	_	_	
+22-2	1306-1316	samordning	_	_	_	_	_	_	_	
+22-3	1317-1323	mellan	_	_	_	_	_	_	_	
+22-4	1324-1335	kommunernas	_	_	_	_	_	_	_	
+22-5	1336-1345	planering	_	_	_	_	_	_	_	
+22-6	1346-1349	för	_	_	_	_	_	_	_	
+22-7	1350-1368	bostadsförsörjning	_	_	_	_	_	_	_	
+22-8	1369-1372	och	_	_	_	_	_	_	_	
+22-9	1373-1381	regional	_	_	_	_	_	_	_	
+22-10	1382-1391	planering	_	_	_	_	_	_	_	
+22-11	1392-1395	för	_	_	_	_	_	_	_	
+22-12	1396-1418	transportinfrastruktur	_	_	_	_	_	_	_	
+22-13	1418-1419	,	_	_	_	_	_	_	_	
+22-14	1420-1428	tillväxt	_	_	_	_	_	_	_	
+22-15	1429-1432	och	_	_	_	_	_	_	_	
+22-16	1433-1448	kollektivtrafik	_	_	_	_	_	_	_	
+22-17	1448-1449	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsplaneringskommittén konstaterar att kommunernas planering för bostadsförsörjning i stora stycken lever sitt eget liv, frikopplad från övrig kommunal planering och utan samordning med bostadsmarknadens aktörer och regionernas planering.
+23-1	1450-1476	Bostadsplaneringskommittén	_	_	_	_	_	_	_	
+23-2	1477-1488	konstaterar	_	_	_	_	_	_	_	
+23-3	1489-1492	att	_	_	_	_	_	_	_	
+23-4	1493-1504	kommunernas	_	_	_	_	_	_	_	
+23-5	1505-1514	planering	_	_	_	_	_	_	_	
+23-6	1515-1518	för	_	_	_	_	_	_	_	
+23-7	1519-1537	bostadsförsörjning	_	_	_	_	_	_	_	
+23-8	1538-1539	i	_	_	_	_	_	_	_	
+23-9	1540-1545	stora	_	_	_	_	_	_	_	
+23-10	1546-1553	stycken	_	_	_	_	_	_	_	
+23-11	1554-1559	lever	_	_	_	_	_	_	_	
+23-12	1560-1564	sitt	_	_	_	_	_	_	_	
+23-13	1565-1569	eget	_	_	_	_	_	_	_	
+23-14	1570-1573	liv	_	_	_	_	_	_	_	
+23-15	1573-1574	,	_	_	_	_	_	_	_	
+23-16	1575-1585	frikopplad	_	_	_	_	_	_	_	
+23-17	1586-1590	från	_	_	_	_	_	_	_	
+23-18	1591-1596	övrig	_	_	_	_	_	_	_	
+23-19	1597-1605	kommunal	_	_	_	_	_	_	_	
+23-20	1606-1615	planering	_	_	_	_	_	_	_	
+23-21	1616-1619	och	_	_	_	_	_	_	_	
+23-22	1620-1624	utan	_	_	_	_	_	_	_	
+23-23	1625-1635	samordning	_	_	_	_	_	_	_	
+23-24	1636-1639	med	_	_	_	_	_	_	_	
+23-25	1640-1657	bostadsmarknadens	_	_	_	_	_	_	_	
+23-26	1658-1665	aktörer	_	_	_	_	_	_	_	
+23-27	1666-1669	och	_	_	_	_	_	_	_	
+23-28	1670-1681	regionernas	_	_	_	_	_	_	_	
+23-29	1682-1691	planering	_	_	_	_	_	_	_	
+23-30	1691-1692	.	_	_	_	_	_	_	_	
+
+#Text=Vårt regelverk ställer inga krav på sådan samordning, en brist vi är i princip ensamma om i en internationell jämförelse.
+24-1	1693-1697	Vårt	*[24]	_	_	_	_	_	_	
+24-2	1698-1707	regelverk	*[24]	_	_	_	_	_	_	
+24-3	1708-1715	ställer	*[24]	_	_	_	_	_	_	
+24-4	1716-1720	inga	*[24]	_	_	_	_	_	_	
+24-5	1721-1725	krav	*[24]	_	_	_	_	_	_	
+24-6	1726-1728	på	*[24]	_	_	_	_	_	_	
+24-7	1729-1734	sådan	*[24]	_	_	_	_	_	_	
+24-8	1735-1745	samordning	*[24]	_	_	_	_	_	_	
+24-9	1745-1746	,	_	_	_	_	_	_	_	
+24-10	1747-1749	en	_	Target[5]	24-1[24]	false[5]	2[5]	_	_	
+24-11	1750-1755	brist	_	Target[5]	24-1[24]	false[5]	2[5]	_	_	
+24-12	1756-1758	vi	_	_	_	_	_	_	_	
+24-13	1759-1761	är	_	_	_	_	_	_	_	
+24-14	1762-1763	i	_	_	_	_	_	_	_	
+24-15	1764-1771	princip	_	_	_	_	_	_	_	
+24-16	1772-1779	ensamma	_	_	_	_	_	_	_	
+24-17	1780-1782	om	_	_	_	_	_	_	_	
+24-18	1783-1784	i	_	_	_	_	_	_	_	
+24-19	1785-1787	en	_	_	_	_	_	_	_	
+24-20	1788-1802	internationell	_	_	_	_	_	_	_	
+24-21	1803-1813	jämförelse	_	_	_	_	_	_	_	
+24-22	1813-1814	.	_	_	_	_	_	_	_	
+
+#Text=Vi delar kommitténs uppfattning; Sverige behöver en mer samordnad samhällsplanering för att kunna möta nya utmaningar och tuffare konkurrens i en global ekonomi.
+25-1	1815-1817	Vi	_	_	_	_	_	_	_	
+25-2	1818-1823	delar	_	_	_	_	_	_	_	
+25-3	1824-1834	kommitténs	_	_	_	_	_	_	_	
+25-4	1835-1846	uppfattning	_	_	_	_	_	_	_	
+25-5	1846-1847	;	_	_	_	_	_	_	_	
+25-6	1848-1855	Sverige	*[25]	_	_	_	_	_	_	
+25-7	1856-1863	behöver	*[25]	Target	25-6[25]	false	4	_	_	
+25-8	1864-1866	en	*[25]	_	_	_	_	_	_	
+25-9	1867-1870	mer	*[25]	_	_	_	_	_	_	
+25-10	1871-1880	samordnad	*[25]	_	_	_	_	_	_	
+25-11	1881-1898	samhällsplanering	*[25]	_	_	_	_	_	_	
+25-12	1899-1902	för	_	_	_	_	_	_	_	
+25-13	1903-1906	att	_	_	_	_	_	_	_	
+25-14	1907-1912	kunna	_	_	_	_	_	_	_	
+25-15	1913-1917	möta	_	_	_	_	_	_	_	
+25-16	1918-1921	nya	_	_	_	_	_	_	_	
+25-17	1922-1932	utmaningar	_	_	_	_	_	_	_	
+25-18	1933-1936	och	_	_	_	_	_	_	_	
+25-19	1937-1944	tuffare	_	_	_	_	_	_	_	
+25-20	1945-1955	konkurrens	_	_	_	_	_	_	_	
+25-21	1956-1957	i	_	_	_	_	_	_	_	
+25-22	1958-1960	en	_	_	_	_	_	_	_	
+25-23	1961-1967	global	_	_	_	_	_	_	_	
+25-24	1968-1975	ekonomi	_	_	_	_	_	_	_	
+25-25	1975-1976	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=2.
+26-1	1978-1979	#	_	_	_	_	_	_	_	
+26-2	1979-1980	P	_	_	_	_	_	_	_	
+26-3	1981-1984	IMM	_	_	_	_	_	_	_	
+26-4	1984-1985	.	_	_	_	_	_	_	_	
+26-5	1987-1988	2	_	_	_	_	_	_	_	
+26-6	1988-1989	.	_	_	_	_	_	_	_	
+
+#Text=En ny lag om regional fysisk planering med länen som indelningsgrund.
+27-1	1990-1992	En	_	_	_	_	_	_	_	
+27-2	1993-1995	ny	_	_	_	_	_	_	_	
+27-3	1996-1999	lag	_	_	_	_	_	_	_	
+27-4	2000-2002	om	_	_	_	_	_	_	_	
+27-5	2003-2011	regional	_	_	_	_	_	_	_	
+27-6	2012-2018	fysisk	_	_	_	_	_	_	_	
+27-7	2019-2028	planering	_	_	_	_	_	_	_	
+27-8	2029-2032	med	_	_	_	_	_	_	_	
+27-9	2033-2038	länen	_	_	_	_	_	_	_	
+27-10	2039-2042	som	_	_	_	_	_	_	_	
+27-11	2043-2058	indelningsgrund	_	_	_	_	_	_	_	
+27-12	2058-2059	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsplaneringskommittén föreslår att regionerna, regionförbunden eller landstingen i varje län ska vara skyldiga att erbjuda kommunerna ett vägledande stöd kring avvägningar mellan olika nationella och regionala intressen.
+28-1	2060-2086	Bostadsplaneringskommittén	*	_	_	_	_	_	_	
+28-2	2087-2095	föreslår	_	Target;Source	28-3[26];28-1	false	4	_	_	
+28-3	2096-2099	att	*[26]	_	_	_	_	_	_	
+28-4	2100-2110	regionerna	*[26]	_	_	_	_	_	_	
+28-5	2110-2111	,	*[26]	_	_	_	_	_	_	
+28-6	2112-2127	regionförbunden	*[26]	_	_	_	_	_	_	
+28-7	2128-2133	eller	*[26]	_	_	_	_	_	_	
+28-8	2134-2145	landstingen	*[26]	_	_	_	_	_	_	
+28-9	2146-2147	i	*[26]	_	_	_	_	_	_	
+28-10	2148-2153	varje	*[26]	_	_	_	_	_	_	
+28-11	2154-2157	län	*[26]	_	_	_	_	_	_	
+28-12	2158-2161	ska	*[26]	_	_	_	_	_	_	
+28-13	2162-2166	vara	*[26]	_	_	_	_	_	_	
+28-14	2167-2175	skyldiga	*[26]	_	_	_	_	_	_	
+28-15	2176-2179	att	*[26]	_	_	_	_	_	_	
+28-16	2180-2187	erbjuda	*[26]	_	_	_	_	_	_	
+28-17	2188-2198	kommunerna	*[26]	_	_	_	_	_	_	
+28-18	2199-2202	ett	*[26]	_	_	_	_	_	_	
+28-19	2203-2213	vägledande	*[26]	_	_	_	_	_	_	
+28-20	2214-2218	stöd	*[26]	_	_	_	_	_	_	
+28-21	2219-2224	kring	*[26]	_	_	_	_	_	_	
+28-22	2225-2236	avvägningar	*[26]	_	_	_	_	_	_	
+28-23	2237-2243	mellan	*[26]	_	_	_	_	_	_	
+28-24	2244-2249	olika	*[26]	_	_	_	_	_	_	
+28-25	2250-2260	nationella	*[26]	_	_	_	_	_	_	
+28-26	2261-2264	och	*[26]	_	_	_	_	_	_	
+28-27	2265-2274	regionala	*[26]	_	_	_	_	_	_	
+28-28	2275-2284	intressen	*[26]	_	_	_	_	_	_	
+28-29	2284-2285	.	_	_	_	_	_	_	_	
+
+#Text=Kommittén konstaterar att en regional fysisk planering skulle placera frågorna i ett större geografiskt sammanhang än vad enskilda kommuner kan göra, och därmed effektivisera arbetet med bostadsförsörjning och en socialt, miljömässigt och ekonomiskt hållbar utveckling.
+29-1	2286-2295	Kommittén	*[27]|*[28]	_	_	_	_	_	_	
+29-2	2296-2307	konstaterar	_	_	_	_	_	_	_	
+29-3	2308-2311	att	_	_	_	_	_	_	_	
+29-4	2312-2314	en	*[29]|*[30]	_	_	_	_	_	_	
+29-5	2315-2323	regional	*[29]|*[30]	_	_	_	_	_	_	
+29-6	2324-2330	fysisk	*[29]|*[30]	_	_	_	_	_	_	
+29-7	2331-2340	planering	*[29]|*[30]	_	_	_	_	_	_	
+29-8	2341-2347	skulle	_	Target;Source	29-4[29];29-1[27]	false	4	29-25[6_0]	_	
+29-9	2348-2355	placera	_	_	_	_	_	_	_	
+29-10	2356-2364	frågorna	_	_	_	_	_	_	_	
+29-11	2365-2366	i	_	_	_	_	_	_	_	
+29-12	2367-2370	ett	_	_	_	_	_	_	_	
+29-13	2371-2377	större	_	_	_	_	_	_	_	
+29-14	2378-2389	geografiskt	_	_	_	_	_	_	_	
+29-15	2390-2400	sammanhang	_	_	_	_	_	_	_	
+29-16	2401-2403	än	_	_	_	_	_	_	_	
+29-17	2404-2407	vad	_	_	_	_	_	_	_	
+29-18	2408-2416	enskilda	_	_	_	_	_	_	_	
+29-19	2417-2425	kommuner	_	_	_	_	_	_	_	
+29-20	2426-2429	kan	_	_	_	_	_	_	_	
+29-21	2430-2434	göra	_	_	_	_	_	_	_	
+29-22	2434-2435	,	_	_	_	_	_	_	_	
+29-23	2436-2439	och	_	_	_	_	_	_	_	
+29-24	2440-2446	därmed	_	_	_	_	_	_	_	
+29-25	2447-2460	effektivisera	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-26	2461-2468	arbetet	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-27	2469-2472	med	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-28	2473-2491	bostadsförsörjning	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-29	2492-2495	och	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-30	2496-2498	en	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-31	2499-2506	socialt	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-32	2506-2507	,	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-33	2508-2520	miljömässigt	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-34	2521-2524	och	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-35	2525-2535	ekonomiskt	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-36	2536-2543	hållbar	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-37	2544-2554	utveckling	_	Target;Source[6]	29-4[30];29-1[28]	false[6]	4[6]	_	_	
+29-38	2554-2555	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2557-2558	#	_	_	_	_	_	_	_	
+30-2	2558-2559	P	_	_	_	_	_	_	_	
+30-3	2560-2563	IMM	_	_	_	_	_	_	_	
+30-4	2563-2564	.	_	_	_	_	_	_	_	
+
+#Text=Detta ska ske utan att urholka det kommunala självstyret.
+31-1	2566-2571	Detta	_	_	_	_	_	_	_	
+31-2	2572-2575	ska	_	_	_	_	_	_	_	
+31-3	2576-2579	ske	_	_	_	_	_	_	_	
+31-4	2580-2584	utan	_	_	_	_	_	_	_	
+31-5	2585-2588	att	_	_	_	_	_	_	_	
+31-6	2589-2596	urholka	_	_	_	false	2	_	_	
+31-7	2597-2600	det	_	_	_	_	_	_	_	
+31-8	2601-2610	kommunala	_	_	_	_	_	_	_	
+31-9	2611-2622	självstyret	_	_	_	_	_	_	_	
+31-10	2622-2623	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget ger stort utrymme för kommunerna att anpassa tillämpningen av den regionala fysiska planeringen utifrån specifika behov och förutsättningar; det vet vi att många kommunala företrädare uppskattar.
+32-1	2624-2633	Förslaget	_	_	_	_	_	_	_	
+32-2	2634-2637	ger	_	_	_	_	_	_	_	
+32-3	2638-2643	stort	*[31]	_	_	_	_	_	_	
+32-4	2644-2651	utrymme	*[31]	_	_	_	_	_	_	
+32-5	2652-2655	för	*[31]	_	_	_	_	_	_	
+32-6	2656-2666	kommunerna	*[31]	_	_	_	_	_	_	
+32-7	2667-2670	att	*[31]	_	_	_	_	_	_	
+32-8	2671-2678	anpassa	*[31]	_	_	_	_	_	_	
+32-9	2679-2692	tillämpningen	*[31]	_	_	_	_	_	_	
+32-10	2693-2695	av	*[31]	_	_	_	_	_	_	
+32-11	2696-2699	den	*[31]	_	_	_	_	_	_	
+32-12	2700-2709	regionala	*[31]	_	_	_	_	_	_	
+32-13	2710-2717	fysiska	*[31]	_	_	_	_	_	_	
+32-14	2718-2729	planeringen	*[31]	_	_	_	_	_	_	
+32-15	2730-2737	utifrån	*[31]	_	_	_	_	_	_	
+32-16	2738-2747	specifika	*[31]	_	_	_	_	_	_	
+32-17	2748-2753	behov	*[31]	_	_	_	_	_	_	
+32-18	2754-2757	och	*[31]	_	_	_	_	_	_	
+32-19	2758-2773	förutsättningar	*[31]	_	_	_	_	_	_	
+32-20	2773-2774	;	_	_	_	_	_	_	_	
+32-21	2775-2778	det	_	_	_	_	_	_	_	
+32-22	2779-2782	vet	_	_	_	_	_	_	_	
+32-23	2783-2785	vi	_	_	_	_	_	_	_	
+32-24	2786-2789	att	_	_	_	_	_	_	_	
+32-25	2790-2795	många	*[32]	_	_	_	_	_	_	
+32-26	2796-2805	kommunala	*[32]	_	_	_	_	_	_	
+32-27	2806-2817	företrädare	*[32]	_	_	_	_	_	_	
+32-28	2818-2828	uppskattar	_	Target;Source	32-3[31];32-25[32]	false	4	_	_	
+32-29	2828-2829	.	_	_	_	_	_	_	_	
+
+#Text=Regioner och kommuner samarbetar i varierande grad kring fysisk planering redan i dag.
+33-1	2830-2838	Regioner	_	_	_	_	_	_	_	
+33-2	2839-2842	och	_	_	_	_	_	_	_	
+33-3	2843-2851	kommuner	_	_	_	_	_	_	_	
+33-4	2852-2862	samarbetar	_	_	_	_	_	_	_	
+33-5	2863-2864	i	_	_	_	_	_	_	_	
+33-6	2865-2875	varierande	_	_	_	_	_	_	_	
+33-7	2876-2880	grad	_	_	_	_	_	_	_	
+33-8	2881-2886	kring	_	_	_	_	_	_	_	
+33-9	2887-2893	fysisk	_	_	_	_	_	_	_	
+33-10	2894-2903	planering	_	_	_	_	_	_	_	
+33-11	2904-2909	redan	_	_	_	_	_	_	_	
+33-12	2910-2911	i	_	_	_	_	_	_	_	
+33-13	2912-2915	dag	_	_	_	_	_	_	_	
+33-14	2915-2916	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsplaneringskommittén konstaterar att kommuner med praktiska erfarenheter av sådant samarbete överlag är positiva.
+34-1	2917-2943	Bostadsplaneringskommittén	_	_	_	_	_	_	_	
+34-2	2944-2955	konstaterar	_	_	_	_	_	_	_	
+34-3	2956-2959	att	_	_	_	_	_	_	_	
+34-4	2960-2968	kommuner	*[33]	_	_	_	_	_	_	
+34-5	2969-2972	med	*[33]	_	_	_	_	_	_	
+34-6	2973-2982	praktiska	*[33]	_	_	_	_	_	_	
+34-7	2983-2995	erfarenheter	*[33]	_	_	_	_	_	_	
+34-8	2996-2998	av	*[33]	_	_	_	_	_	_	
+34-9	2999-3005	sådant	*[33]|*[34]	_	_	_	_	_	_	
+34-10	3006-3015	samarbete	*[33]|*[34]	_	_	_	_	_	_	
+34-11	3016-3023	överlag	_	Target;Source[7]	34-9[34];34-4[33]	false[7]	4[7]	_	_	
+34-12	3024-3026	är	_	Target;Source[7]	34-9[34];34-4[33]	false[7]	4[7]	_	_	
+34-13	3027-3035	positiva	_	Target;Source[7]	34-9[34];34-4[33]	false[7]	4[7]	_	_	
+34-14	3035-3036	.	_	_	_	_	_	_	_	
+
+#Text=Ett kompletterande regionalt perspektiv gör kommunernas utmaningar enklare att hantera i en verklighet som har förändrats drastiskt sedan dagens lagstiftning infördes.
+35-1	3037-3040	Ett	_	_	_	_	_	_	_	
+35-2	3041-3055	kompletterande	_	_	_	_	_	_	_	
+35-3	3056-3065	regionalt	_	_	_	_	_	_	_	
+35-4	3066-3076	perspektiv	_	_	_	_	_	_	_	
+35-5	3077-3080	gör	_	_	_	_	_	_	_	
+35-6	3081-3092	kommunernas	_	_	_	_	_	_	_	
+35-7	3093-3103	utmaningar	_	_	_	_	_	_	_	
+35-8	3104-3111	enklare	_	_	_	_	_	_	_	
+35-9	3112-3115	att	_	_	_	_	_	_	_	
+35-10	3116-3123	hantera	_	_	_	_	_	_	_	
+35-11	3124-3125	i	_	_	_	_	_	_	_	
+35-12	3126-3128	en	_	_	_	_	_	_	_	
+35-13	3129-3139	verklighet	_	_	_	_	_	_	_	
+35-14	3140-3143	som	_	_	_	_	_	_	_	
+35-15	3144-3147	har	_	_	_	_	_	_	_	
+35-16	3148-3158	förändrats	_	_	_	_	_	_	_	
+35-17	3159-3168	drastiskt	_	_	_	_	_	_	_	
+35-18	3169-3174	sedan	_	_	_	_	_	_	_	
+35-19	3175-3181	dagens	_	_	_	_	_	_	_	
+35-20	3182-3194	lagstiftning	_	_	_	_	_	_	_	
+35-21	3195-3203	infördes	_	_	_	_	_	_	_	
+35-22	3203-3204	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3206-3207	#	_	_	_	_	_	_	_	
+36-2	3207-3208	P	_	_	_	_	_	_	_	
+36-3	3209-3212	IMM	_	_	_	_	_	_	_	
+36-4	3212-3213	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+37-1	3215-3228	Skräddarsydda	_	_	_	_	_	_	_	
+37-2	3229-3235	kurser	_	_	_	_	_	_	_	
+37-3	3236-3237	i	_	_	_	_	_	_	_	
+37-4	3238-3243	ämnen	_	_	_	_	_	_	_	
+37-5	3244-3247	som	_	_	_	_	_	_	_	
+37-6	3248-3259	intresserar	_	_	_	_	_	_	_	
+37-7	3260-3263	och	_	_	_	_	_	_	_	
+37-8	3264-3273	engagerar	_	_	_	_	_	_	_	
+37-9	3274-3278	både	_	_	_	_	_	_	_	
+37-10	3279-3284	kropp	_	_	_	_	_	_	_	
+37-11	3285-3288	och	_	_	_	_	_	_	_	
+37-12	3289-3293	själ	_	_	_	_	_	_	_	
+37-13	3293-3294	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3296-3297	#	_	_	_	_	_	_	_	
+38-2	3297-3298	P	_	_	_	_	_	_	_	
+38-3	3299-3302	IMM	_	_	_	_	_	_	_	
+38-4	3302-3303	.	_	_	_	_	_	_	_	
+
+#Text=Exempel från våra storstadsregioner visar att arbetspendlingen över kommungränserna har ökat med 60 procent de senaste 20 åren, och att varannan sysselsatt numera arbetar i en annan kommun än hemkommunen.
+39-1	3305-3312	Exempel	_	_	_	_	_	_	_	
+39-2	3313-3317	från	_	_	_	_	_	_	_	
+39-3	3318-3322	våra	_	_	_	_	_	_	_	
+39-4	3323-3340	storstadsregioner	_	_	_	_	_	_	_	
+39-5	3341-3346	visar	_	_	_	_	_	_	_	
+39-6	3347-3350	att	_	_	_	_	_	_	_	
+39-7	3351-3367	arbetspendlingen	_	_	_	_	_	_	_	
+39-8	3368-3372	över	_	_	_	_	_	_	_	
+39-9	3373-3388	kommungränserna	_	_	_	_	_	_	_	
+39-10	3389-3392	har	_	_	_	_	_	_	_	
+39-11	3393-3397	ökat	_	_	_	_	_	_	_	
+39-12	3398-3401	med	_	_	_	_	_	_	_	
+39-13	3402-3404	60	_	_	_	_	_	_	_	
+39-14	3405-3412	procent	_	_	_	_	_	_	_	
+39-15	3413-3415	de	_	_	_	_	_	_	_	
+39-16	3416-3423	senaste	_	_	_	_	_	_	_	
+39-17	3424-3426	20	_	_	_	_	_	_	_	
+39-18	3427-3431	åren	_	_	_	_	_	_	_	
+39-19	3431-3432	,	_	_	_	_	_	_	_	
+39-20	3433-3436	och	_	_	_	_	_	_	_	
+39-21	3437-3440	att	_	_	_	_	_	_	_	
+39-22	3441-3449	varannan	_	_	_	_	_	_	_	
+39-23	3450-3460	sysselsatt	_	_	_	_	_	_	_	
+39-24	3461-3467	numera	_	_	_	_	_	_	_	
+39-25	3468-3475	arbetar	_	_	_	_	_	_	_	
+39-26	3476-3477	i	_	_	_	_	_	_	_	
+39-27	3478-3480	en	_	_	_	_	_	_	_	
+39-28	3481-3486	annan	_	_	_	_	_	_	_	
+39-29	3487-3493	kommun	_	_	_	_	_	_	_	
+39-30	3494-3496	än	_	_	_	_	_	_	_	
+39-31	3497-3508	hemkommunen	_	_	_	_	_	_	_	
+39-32	3508-3509	.	_	_	_	_	_	_	_	
+
+#Text=Men utmaningarna är inte på något vis unika för storstadsregionerna – drygt hälften av Sveriges kommuner har ett underskott på bostäder och samtliga 290 kommuner skulle gynnas av en mer genomtänkt fysisk planering.
+40-1	3510-3513	Men	_	_	_	_	_	_	_	
+40-2	3514-3526	utmaningarna	_	_	_	_	_	_	_	
+40-3	3527-3529	är	_	_	_	_	_	_	_	
+40-4	3530-3534	inte	_	_	_	_	_	_	_	
+40-5	3535-3537	på	_	_	_	_	_	_	_	
+40-6	3538-3543	något	_	_	_	_	_	_	_	
+40-7	3544-3547	vis	_	_	_	_	_	_	_	
+40-8	3548-3553	unika	_	_	_	_	_	_	_	
+40-9	3554-3557	för	_	_	_	_	_	_	_	
+40-10	3558-3577	storstadsregionerna	_	_	_	_	_	_	_	
+40-11	3578-3579	–	_	_	_	_	_	_	_	
+40-12	3580-3585	drygt	_	_	_	_	_	_	_	
+40-13	3586-3593	hälften	_	_	_	_	_	_	_	
+40-14	3594-3596	av	_	_	_	_	_	_	_	
+40-15	3597-3605	Sveriges	_	_	_	_	_	_	_	
+40-16	3606-3614	kommuner	_	_	_	_	_	_	_	
+40-17	3615-3618	har	_	_	_	_	_	_	_	
+40-18	3619-3622	ett	_	_	_	_	_	_	_	
+40-19	3623-3633	underskott	_	_	_	_	_	_	_	
+40-20	3634-3636	på	_	_	_	_	_	_	_	
+40-21	3637-3645	bostäder	_	_	_	_	_	_	_	
+40-22	3646-3649	och	_	_	_	_	_	_	_	
+40-23	3650-3658	samtliga	*[35]	_	_	_	_	_	_	
+40-24	3659-3662	290	*[35]	_	_	_	_	_	_	
+40-25	3663-3671	kommuner	*[35]	_	_	_	_	_	_	
+40-26	3672-3678	skulle	*[35]	Target[8]	40-23[35]	false[8]	4[8]	_	_	
+40-27	3679-3685	gynnas	*[35]	Target[8]	40-23[35]	false[8]	4[8]	_	_	
+40-28	3686-3688	av	*[35]	_	_	_	_	_	_	
+40-29	3689-3691	en	*[35]	_	_	_	_	_	_	
+40-30	3692-3695	mer	*[35]	_	_	_	_	_	_	
+40-31	3696-3706	genomtänkt	*[35]	_	_	_	_	_	_	
+40-32	3707-3713	fysisk	*[35]	_	_	_	_	_	_	
+40-33	3714-3723	planering	*[35]	_	_	_	_	_	_	
+40-34	3723-3724	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**3.
+41-1	3726-3727	#	_	_	_	_	_	_	_	
+41-2	3727-3728	P	_	_	_	_	_	_	_	
+41-3	3729-3732	IMM	_	_	_	_	_	_	_	
+41-4	3732-3733	.	_	_	_	_	_	_	_	
+41-5	3735-3736	*	_	_	_	_	_	_	_	
+41-6	3736-3737	*	_	_	_	_	_	_	_	
+41-7	3737-3738	3	_	_	_	_	_	_	_	
+41-8	3738-3739	.	_	_	_	_	_	_	_	
+
+#Text=En nationell strategi **för fysisk planering och bostadsförsörjning.
+42-1	3740-3742	En	_	_	_	_	_	_	_	
+42-2	3743-3752	nationell	_	_	_	_	_	_	_	
+42-3	3753-3761	strategi	_	_	_	_	_	_	_	
+42-4	3762-3763	*	_	_	_	_	_	_	_	
+42-5	3763-3764	*	_	_	_	_	_	_	_	
+42-6	3764-3767	för	_	_	_	_	_	_	_	
+42-7	3768-3774	fysisk	_	_	_	_	_	_	_	
+42-8	3775-3784	planering	_	_	_	_	_	_	_	
+42-9	3785-3788	och	_	_	_	_	_	_	_	
+42-10	3789-3807	bostadsförsörjning	_	_	_	_	_	_	_	
+42-11	3807-3808	.	_	_	_	_	_	_	_	
+
+#Text=Bostadsplaneringskommittén pekar på att statens agerande har stora brister i samordning, effektivitet och tydlighet.
+43-1	3809-3835	Bostadsplaneringskommittén	*	_	_	_	_	_	_	
+43-2	3836-3841	pekar	_	_	_	_	_	_	_	
+43-3	3842-3844	på	_	_	_	_	_	_	_	
+43-4	3845-3848	att	_	_	_	_	_	_	_	
+43-5	3849-3856	statens	*[36]	_	_	_	_	_	_	
+43-6	3857-3865	agerande	*[36]	_	_	_	_	_	_	
+43-7	3866-3869	har	*[36]	Source;Target[9]	43-1;43-5[36]	false[9]	2[9]	_	_	
+43-8	3870-3875	stora	*[36]	Source;Target[9]	43-1;43-5[36]	false[9]	2[9]	_	_	
+43-9	3876-3883	brister	*[36]	Source;Target[9]	43-1;43-5[36]	false[9]	2[9]	_	_	
+43-10	3884-3885	i	*[36]	_	_	_	_	_	_	
+43-11	3886-3896	samordning	*[36]	_	_	_	_	_	_	
+43-12	3896-3897	,	*[36]	_	_	_	_	_	_	
+43-13	3898-3910	effektivitet	*[36]	_	_	_	_	_	_	
+43-14	3911-3914	och	*[36]	_	_	_	_	_	_	
+43-15	3915-3924	tydlighet	*[36]	_	_	_	_	_	_	
+43-16	3924-3925	.	_	_	_	_	_	_	_	
+
+#Text=Ett hundratal statliga mål har etablerats över lång tid och ofta utan inbördes samordning.
+44-1	3926-3929	Ett	_	_	_	_	_	_	_	
+44-2	3930-3939	hundratal	_	_	_	_	_	_	_	
+44-3	3940-3948	statliga	_	_	_	_	_	_	_	
+44-4	3949-3952	mål	_	_	_	_	_	_	_	
+44-5	3953-3956	har	_	_	_	_	_	_	_	
+44-6	3957-3967	etablerats	_	_	_	_	_	_	_	
+44-7	3968-3972	över	_	_	_	_	_	_	_	
+44-8	3973-3977	lång	_	_	_	_	_	_	_	
+44-9	3978-3981	tid	_	_	_	_	_	_	_	
+44-10	3982-3985	och	_	_	_	_	_	_	_	
+44-11	3986-3990	ofta	_	_	_	_	_	_	_	
+44-12	3991-3995	utan	_	_	_	_	_	_	_	
+44-13	3996-4004	inbördes	_	_	_	_	_	_	_	
+44-14	4005-4015	samordning	_	_	_	_	_	_	_	
+44-15	4015-4016	.	_	_	_	_	_	_	_	
+
+#Text=Syftet har varit att skapa en hållbar samhällsplanering, men resultatet är ett ofta snårigt regelverk utan tydligt ansvar och prioriteringar.
+45-1	4017-4023	Syftet	_	_[10]	_	false[10]	4[10]	_	_	
+45-2	4024-4027	har	_	_[10]	_	false[10]	4[10]	_	_	
+45-3	4028-4033	varit	_	_[10]	_	false[10]	4[10]	_	_	
+45-4	4034-4037	att	_	_[10]	_	false[10]	4[10]	_	_	
+45-5	4038-4043	skapa	_	_[10]	_	false[10]	4[10]	_	_	
+45-6	4044-4046	en	_	_[10]	_	false[10]	4[10]	_	_	
+45-7	4047-4054	hållbar	_	_[10]	_	false[10]	4[10]	_	_	
+45-8	4055-4072	samhällsplanering	_	_[10]	_	false[10]	4[10]	_	_	
+45-9	4072-4073	,	_	_	_	_	_	_	_	
+45-10	4074-4077	men	_	_	_	_	_	_	_	
+45-11	4078-4088	resultatet	*	_	_	_	_	_	_	
+45-12	4089-4091	är	_	_	_	_	_	_	_	
+45-13	4092-4095	ett	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-14	4096-4100	ofta	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-15	4101-4108	snårigt	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-16	4109-4118	regelverk	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-17	4119-4123	utan	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-18	4124-4131	tydligt	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-19	4132-4138	ansvar	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-20	4139-4142	och	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-21	4143-4157	prioriteringar	_	Target[11]	45-11	false[11]	2[11]	_	_	
+45-22	4157-4158	.	_	_	_	_	_	_	_	
+
+#Text=Kommittén föreslår därför att ett nationellt forum för fysisk planering och bostadsförsörjningsfrågor inrättas.
+46-1	4159-4168	Kommittén	*	_	_	_	_	_	_	
+46-2	4169-4177	föreslår	_	Source;Target	46-1;46-4[37]	false	4	_	_	
+46-3	4178-4184	därför	_	_	_	_	_	_	_	
+46-4	4185-4188	att	*[37]	_	_	_	_	_	_	
+46-5	4189-4192	ett	*[37]	_	_	_	_	_	_	
+46-6	4193-4203	nationellt	*[37]	_	_	_	_	_	_	
+46-7	4204-4209	forum	*[37]	_	_	_	_	_	_	
+46-8	4210-4213	för	*[37]	_	_	_	_	_	_	
+46-9	4214-4220	fysisk	*[37]	_	_	_	_	_	_	
+46-10	4221-4230	planering	*[37]	_	_	_	_	_	_	
+46-11	4231-4234	och	*[37]	_	_	_	_	_	_	
+46-12	4235-4260	bostadsförsörjningsfrågor	*[37]	_	_	_	_	_	_	
+46-13	4261-4269	inrättas	*[37]	_	_	_	_	_	_	
+46-14	4269-4270	.	_	_	_	_	_	_	_	
+
+#Text=Forumet blir statens verktyg för att koordinera olika mål och öka samordningen mellan involverade aktörer på statlig, regional respektive kommunal nivå.
+47-1	4271-4278	Forumet	_	_	_	_	_	_	_	
+47-2	4279-4283	blir	_	_	_	_	_	_	_	
+47-3	4284-4291	statens	_	_	_	_	_	_	_	
+47-4	4292-4299	verktyg	_	_	_	_	_	_	_	
+47-5	4300-4303	för	_	_	_	_	_	_	_	
+47-6	4304-4307	att	_	_	_	_	_	_	_	
+47-7	4308-4318	koordinera	_	_	_	_	_	_	_	
+47-8	4319-4324	olika	_	_	_	_	_	_	_	
+47-9	4325-4328	mål	_	_	_	_	_	_	_	
+47-10	4329-4332	och	_	_	_	_	_	_	_	
+47-11	4333-4336	öka	_	_	_	_	_	_	_	
+47-12	4337-4349	samordningen	_	_	_	_	_	_	_	
+47-13	4350-4356	mellan	_	_	_	_	_	_	_	
+47-14	4357-4368	involverade	_	_	_	_	_	_	_	
+47-15	4369-4376	aktörer	_	_	_	_	_	_	_	
+47-16	4377-4379	på	_	_	_	_	_	_	_	
+47-17	4380-4387	statlig	_	_	_	_	_	_	_	
+47-18	4387-4388	,	_	_	_	_	_	_	_	
+47-19	4389-4397	regional	_	_	_	_	_	_	_	
+47-20	4398-4408	respektive	_	_	_	_	_	_	_	
+47-21	4409-4417	kommunal	_	_	_	_	_	_	_	
+47-22	4418-4422	nivå	_	_	_	_	_	_	_	
+47-23	4422-4423	.	_	_	_	_	_	_	_	
+
+#Text=För frågor som har ett tydligt nationellt strategiskt värde och som syftar till en hållbar utveckling för hela landet föreslås en nationell strategi som bör redovisas i en skrivelse till riksdagen.
+48-1	4424-4427	För	*[38]	_	_	_	_	_	_	
+48-2	4428-4434	frågor	*[38]	_	_	_	_	_	_	
+48-3	4435-4438	som	*[38]	_	_	_	_	_	_	
+48-4	4439-4442	har	*[38]	_	_	_	_	_	_	
+48-5	4443-4446	ett	*[38]	_	_	_	_	_	_	
+48-6	4447-4454	tydligt	*[38]	_	_	_	_	_	_	
+48-7	4455-4465	nationellt	*[38]	_	_	_	_	_	_	
+48-8	4466-4477	strategiskt	*[38]	_	_	_	_	_	_	
+48-9	4478-4483	värde	*[38]	_	_	_	_	_	_	
+48-10	4484-4487	och	*[38]	_	_	_	_	_	_	
+48-11	4488-4491	som	*[38]	_	_	_	_	_	_	
+48-12	4492-4498	syftar	*[38]	_	_	_	_	_	_	
+48-13	4499-4503	till	*[38]	_	_	_	_	_	_	
+48-14	4504-4506	en	*[38]	_	_	_	_	_	_	
+48-15	4507-4514	hållbar	*[38]	_	_	_	_	_	_	
+48-16	4515-4525	utveckling	*[38]	_	_	_	_	_	_	
+48-17	4526-4529	för	*[38]	_	_	_	_	_	_	
+48-18	4530-4534	hela	*[38]	_	_	_	_	_	_	
+48-19	4535-4541	landet	*[38]	_	_	_	_	_	_	
+48-20	4542-4550	föreslås	*[38]	Target	48-1[38]	false	4	_	_	
+48-21	4551-4553	en	*[38]	_	_	_	_	_	_	
+48-22	4554-4563	nationell	*[38]	_	_	_	_	_	_	
+48-23	4564-4572	strategi	*[38]	_	_	_	_	_	_	
+48-24	4573-4576	som	*[38]	_	_	_	_	_	_	
+48-25	4577-4580	bör	*[38]	_	_	_	_	_	_	
+48-26	4581-4590	redovisas	*[38]	_	_	_	_	_	_	
+48-27	4591-4592	i	*[38]	_	_	_	_	_	_	
+48-28	4593-4595	en	*[38]	_	_	_	_	_	_	
+48-29	4596-4605	skrivelse	*[38]	_	_	_	_	_	_	
+48-30	4606-4610	till	*[38]	_	_	_	_	_	_	
+48-31	4611-4620	riksdagen	*[38]	_	_	_	_	_	_	
+48-32	4620-4621	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4623-4624	#	_	_	_	_	_	_	_	
+49-2	4624-4625	P	_	_	_	_	_	_	_	
+49-3	4626-4629	IMM	_	_	_	_	_	_	_	
+49-4	4629-4630	.	_	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att Bostadsplaneringskommitténs förslag sammantaget medför en bättre samhällsplanering.
+50-1	4632-4634	Vi	*	_	_	_	_	_	_	
+50-2	4635-4637	är	_	_	_	_	_	_	_	
+50-3	4638-4648	övertygade	_	_	_	_	_	_	_	
+50-4	4649-4651	om	_	_	_	_	_	_	_	
+50-5	4652-4655	att	_	_	_	_	_	_	_	
+50-6	4656-4683	Bostadsplaneringskommitténs	*[39]	_	_	_	_	_	_	
+50-7	4684-4691	förslag	*[39]	_	_	_	_	_	_	
+50-8	4692-4703	sammantaget	_	_	_	_	_	_	_	
+50-9	4704-4710	medför	_	Target;Source[12]	50-6[39];50-1	false[12]	4[12]	_	_	
+50-10	4711-4713	en	_	Target;Source[12]	50-6[39];50-1	false[12]	4[12]	_	_	
+50-11	4714-4720	bättre	_	Target;Source[12]	50-6[39];50-1	false[12]	4[12]	_	_	
+50-12	4721-4738	samhällsplanering	_	Target;Source[12]	50-6[39];50-1	false[12]	4[12]	_	_	
+50-13	4738-4739	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller inte bara nya bostäder utan även utvecklad kollektivtrafik och annan infrastruktur som behövs för en befolkning som väntas växa med en miljon människor till år 2025.
+51-1	4740-4743	Det	_	_	_	_	_	_	_	
+51-2	4744-4750	gäller	_	_	_	_	_	_	_	
+51-3	4751-4755	inte	_	_	_	_	_	_	_	
+51-4	4756-4760	bara	_	_	_	_	_	_	_	
+51-5	4761-4764	nya	_	_	_	_	_	_	_	
+51-6	4765-4773	bostäder	_	_	_	_	_	_	_	
+51-7	4774-4778	utan	_	_	_	_	_	_	_	
+51-8	4779-4783	även	_	_	_	_	_	_	_	
+51-9	4784-4793	utvecklad	_	_	_	_	_	_	_	
+51-10	4794-4809	kollektivtrafik	_	_	_	_	_	_	_	
+51-11	4810-4813	och	_	_	_	_	_	_	_	
+51-12	4814-4819	annan	_	_	_	_	_	_	_	
+51-13	4820-4833	infrastruktur	_	_	_	_	_	_	_	
+51-14	4834-4837	som	_	_	_	_	_	_	_	
+51-15	4838-4844	behövs	_	_	_	_	_	_	_	
+51-16	4845-4848	för	_	_	_	_	_	_	_	
+51-17	4849-4851	en	_	_	_	_	_	_	_	
+51-18	4852-4862	befolkning	_	_	_	_	_	_	_	
+51-19	4863-4866	som	_	_	_	_	_	_	_	
+51-20	4867-4873	väntas	_	_	_	_	_	_	_	
+51-21	4874-4878	växa	_	_	_	_	_	_	_	
+51-22	4879-4882	med	_	_	_	_	_	_	_	
+51-23	4883-4885	en	_	_	_	_	_	_	_	
+51-24	4886-4892	miljon	_	_	_	_	_	_	_	
+51-25	4893-4902	människor	_	_	_	_	_	_	_	
+51-26	4903-4907	till	_	_	_	_	_	_	_	
+51-27	4908-4910	år	_	_	_	_	_	_	_	
+51-28	4911-4915	2025	_	_	_	_	_	_	_	
+51-29	4915-4916	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4918-4919	#	_	_	_	_	_	_	_	
+52-2	4919-4920	P	_	_	_	_	_	_	_	
+52-3	4921-4924	IMM	_	_	_	_	_	_	_	
+52-4	4924-4925	.	_	_	_	_	_	_	_	
+
+#Text=Vi uppmuntrar regeringen att fullfölja Bostadsplaneringskommitténs förslag enligt tidplan.
+53-1	4927-4929	Vi	*	_	_	_	_	_	_	
+53-2	4930-4940	uppmuntrar	_	Source;Target	53-1;53-3[40]	false	4	_	_	
+53-3	4941-4951	regeringen	*[40]	_	_	_	_	_	_	
+53-4	4952-4955	att	*[40]	_	_	_	_	_	_	
+53-5	4956-4965	fullfölja	*[40]	_	_	_	_	_	_	
+53-6	4966-4993	Bostadsplaneringskommitténs	*[40]	_	_	_	_	_	_	
+53-7	4994-5001	förslag	*[40]	_	_	_	_	_	_	
+53-8	5002-5008	enligt	*[40]	_	_	_	_	_	_	
+53-9	5009-5016	tidplan	*[40]	_	_	_	_	_	_	
+53-10	5016-5017	.	*[41]|*[42]	_	_	_	_	_	_	
+
+#Text=Det är ett viktigt steg i riktning mot en socialt, miljömässigt och ekonomiskt hållbar utveckling i hela Sverige, som gör oss starkare rustade för att möta den globala konkurrensen!.
+54-1	5018-5021	Det	_	_	_	_	_	_	_	
+54-2	5022-5024	är	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-3	5025-5028	ett	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-4	5029-5036	viktigt	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-5	5037-5041	steg	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-6	5042-5043	i	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-7	5044-5052	riktning	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-8	5053-5056	mot	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-9	5057-5059	en	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-10	5060-5067	socialt	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-11	5067-5068	,	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-12	5069-5081	miljömässigt	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-13	5082-5085	och	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-14	5086-5096	ekonomiskt	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-15	5097-5104	hållbar	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-16	5105-5115	utveckling	_	Target[13]	53-10[41]	false[13]	4[13]	_	_	
+54-17	5116-5117	i	_	_	_	_	_	_	_	
+54-18	5118-5122	hela	_	_	_	_	_	_	_	
+54-19	5123-5130	Sverige	_	_	_	_	_	_	_	
+54-20	5130-5131	,	_	_	_	_	_	_	_	
+54-21	5132-5135	som	_	_	_	_	_	_	_	
+54-22	5136-5139	gör	_	Target[14]	53-10[42]	false[14]	4[14]	_	_	
+54-23	5140-5143	oss	_	Target[14]	53-10[42]	false[14]	4[14]	_	_	
+54-24	5144-5152	starkare	_	Target[14]	53-10[42]	false[14]	4[14]	_	_	
+54-25	5153-5160	rustade	_	Target[14]	53-10[42]	false[14]	4[14]	_	_	
+54-26	5161-5164	för	_	_	_	_	_	_	_	
+54-27	5165-5168	att	_	_	_	_	_	_	_	
+54-28	5169-5173	möta	_	_	_	_	_	_	_	
+54-29	5174-5177	den	_	_	_	_	_	_	_	
+54-30	5178-5185	globala	_	_	_	_	_	_	_	
+54-31	5186-5198	konkurrensen	_	_	_	_	_	_	_	
+54-32	5198-5199	!	_	_	_	_	_	_	_	
+54-33	5199-5200	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	5202-5203	#	_	_	_	_	_	_	_	
+55-2	5203-5204	P	_	_	_	_	_	_	_	
+55-3	5205-5208	IMM	_	_	_	_	_	_	_	
+55-4	5208-5209	.	_	_	_	_	_	_	_	
+
+#Text=Mätta Ivarsson (MP).
+56-1	5211-5216	Mätta	_	_	_	_	_	_	_	
+56-2	5217-5225	Ivarsson	_	_	_	_	_	_	_	
+56-3	5226-5227	(	_	_	_	_	_	_	_	
+56-4	5227-5229	MP	_	_	_	_	_	_	_	
+56-5	5229-5230	)	_	_	_	_	_	_	_	
+56-6	5230-5231	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	5233-5234	#	_	_	_	_	_	_	_	
+57-2	5234-5235	P	_	_	_	_	_	_	_	
+57-3	5236-5239	IMM	_	_	_	_	_	_	_	
+57-4	5239-5240	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionala utvecklingsnämnden, Region Skåne.
+58-1	5242-5252	ordförande	_	_	_	_	_	_	_	
+58-2	5253-5254	i	_	_	_	_	_	_	_	
+58-3	5255-5264	regionala	_	_	_	_	_	_	_	
+58-4	5265-5283	utvecklingsnämnden	_	_	_	_	_	_	_	
+58-5	5283-5284	,	_	_	_	_	_	_	_	
+58-6	5285-5291	Region	_	_	_	_	_	_	_	
+58-7	5292-5297	Skåne	_	_	_	_	_	_	_	
+58-8	5297-5298	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	5300-5301	#	_	_	_	_	_	_	_	
+59-2	5301-5302	P	_	_	_	_	_	_	_	
+59-3	5303-5306	IMM	_	_	_	_	_	_	_	
+59-4	5306-5307	.	_	_	_	_	_	_	_	
+
+#Text=Anders Teljebäck (S).
+60-1	5309-5315	Anders	_	_	_	_	_	_	_	
+60-2	5316-5325	Teljebäck	_	_	_	_	_	_	_	
+60-3	5326-5327	(	_	_	_	_	_	_	_	
+60-4	5327-5328	S	_	_	_	_	_	_	_	
+60-5	5328-5329	)	_	_	_	_	_	_	_	
+60-6	5329-5330	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	5332-5333	#	_	_	_	_	_	_	_	
+61-2	5333-5334	P	_	_	_	_	_	_	_	
+61-3	5335-5338	IMM	_	_	_	_	_	_	_	
+61-4	5338-5339	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i Västmanlands Kommuner och Landstings styrelse.
+62-1	5341-5351	ordförande	_	_	_	_	_	_	_	
+62-2	5352-5353	i	_	_	_	_	_	_	_	
+62-3	5354-5366	Västmanlands	_	_	_	_	_	_	_	
+62-4	5367-5375	Kommuner	_	_	_	_	_	_	_	
+62-5	5376-5379	och	_	_	_	_	_	_	_	
+62-6	5380-5390	Landstings	_	_	_	_	_	_	_	
+62-7	5391-5399	styrelse	_	_	_	_	_	_	_	
+62-8	5399-5400	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	5402-5403	#	_	_	_	_	_	_	_	
+63-2	5403-5404	P	_	_	_	_	_	_	_	
+63-3	5405-5408	IMM	_	_	_	_	_	_	_	
+63-4	5408-5409	.	_	_	_	_	_	_	_	
+
+#Text=Andreas Porswald (MP).
+64-1	5411-5418	Andreas	_	_	_	_	_	_	_	
+64-2	5419-5427	Porswald	_	_	_	_	_	_	_	
+64-3	5428-5429	(	_	_	_	_	_	_	_	
+64-4	5429-5431	MP	_	_	_	_	_	_	_	
+64-5	5431-5432	)	_	_	_	_	_	_	_	
+64-6	5432-5433	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5435-5436	#	_	_	_	_	_	_	_	
+65-2	5436-5437	P	_	_	_	_	_	_	_	
+65-3	5438-5441	IMM	_	_	_	_	_	_	_	
+65-4	5441-5442	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i beredning för regional utveckling, Landstinget Västmanland.
+66-1	5444-5454	ordförande	_	_	_	_	_	_	_	
+66-2	5455-5456	i	_	_	_	_	_	_	_	
+66-3	5457-5466	beredning	_	_	_	_	_	_	_	
+66-4	5467-5470	för	_	_	_	_	_	_	_	
+66-5	5471-5479	regional	_	_	_	_	_	_	_	
+66-6	5480-5490	utveckling	_	_	_	_	_	_	_	
+66-7	5490-5491	,	_	_	_	_	_	_	_	
+66-8	5492-5503	Landstinget	_	_	_	_	_	_	_	
+66-9	5504-5515	Västmanland	_	_	_	_	_	_	_	
+66-10	5515-5516	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	5518-5519	#	_	_	_	_	_	_	_	
+67-2	5519-5520	P	_	_	_	_	_	_	_	
+67-3	5521-5524	IMM	_	_	_	_	_	_	_	
+67-4	5524-5525	.	_	_	_	_	_	_	_	
+
+#Text=Birgitta Losman (MP).
+68-1	5527-5535	Birgitta	_	_	_	_	_	_	_	
+68-2	5536-5542	Losman	_	_	_	_	_	_	_	
+68-3	5543-5544	(	_	_	_	_	_	_	_	
+68-4	5544-5546	MP	_	_	_	_	_	_	_	
+68-5	5546-5547	)	_	_	_	_	_	_	_	
+68-6	5547-5548	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	5550-5551	#	_	_	_	_	_	_	_	
+69-2	5551-5552	P	_	_	_	_	_	_	_	
+69-3	5553-5556	IMM	_	_	_	_	_	_	_	
+69-4	5556-5557	.	_	_	_	_	_	_	_	
+
+#Text=regionråd Västra Götalandsregionen.
+70-1	5559-5568	regionråd	_	_	_	_	_	_	_	
+70-2	5569-5575	Västra	_	_	_	_	_	_	_	
+70-3	5576-5593	Götalandsregionen	_	_	_	_	_	_	_	
+70-4	5593-5594	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	5596-5597	#	_	_	_	_	_	_	_	
+71-2	5597-5598	P	_	_	_	_	_	_	_	
+71-3	5599-5602	IMM	_	_	_	_	_	_	_	
+71-4	5602-5603	.	_	_	_	_	_	_	_	
+
+#Text=Dag Hultefors (M).
+72-1	5605-5608	Dag	_	_	_	_	_	_	_	
+72-2	5609-5618	Hultefors	_	_	_	_	_	_	_	
+72-3	5619-5620	(	_	_	_	_	_	_	_	
+72-4	5620-5621	M	_	_	_	_	_	_	_	
+72-5	5621-5622	)	_	_	_	_	_	_	_	
+72-6	5622-5623	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	5625-5626	#	_	_	_	_	_	_	_	
+73-2	5626-5627	P	_	_	_	_	_	_	_	
+73-3	5628-5631	IMM	_	_	_	_	_	_	_	
+73-4	5631-5632	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i tillväxtutskottet, Region Halland.
+74-1	5634-5644	ordförande	_	_	_	_	_	_	_	
+74-2	5645-5646	i	_	_	_	_	_	_	_	
+74-3	5647-5664	tillväxtutskottet	_	_	_	_	_	_	_	
+74-4	5664-5665	,	_	_	_	_	_	_	_	
+74-5	5666-5672	Region	_	_	_	_	_	_	_	
+74-6	5673-5680	Halland	_	_	_	_	_	_	_	
+74-7	5680-5681	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	5683-5684	#	_	_	_	_	_	_	_	
+75-2	5684-5685	P	_	_	_	_	_	_	_	
+75-3	5686-5689	IMM	_	_	_	_	_	_	_	
+75-4	5689-5690	.	_	_	_	_	_	_	_	
+
+#Text=Elisabet Strömqvist (S).
+76-1	5692-5700	Elisabet	_	_	_	_	_	_	_	
+76-2	5701-5711	Strömqvist	_	_	_	_	_	_	_	
+76-3	5712-5713	(	_	_	_	_	_	_	_	
+76-4	5713-5714	S	_	_	_	_	_	_	_	
+76-5	5714-5715	)	_	_	_	_	_	_	_	
+76-6	5715-5716	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+77-1	5718-5719	#	_	_	_	_	_	_	_	
+77-2	5719-5720	P	_	_	_	_	_	_	_	
+77-3	5721-5724	IMM	_	_	_	_	_	_	_	
+77-4	5724-5725	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i landstingsstyrelsen, Västernorrland.
+78-1	5727-5737	ordförande	_	_	_	_	_	_	_	
+78-2	5738-5739	i	_	_	_	_	_	_	_	
+78-3	5740-5759	landstingsstyrelsen	_	_	_	_	_	_	_	
+78-4	5759-5760	,	_	_	_	_	_	_	_	
+78-5	5761-5775	Västernorrland	_	_	_	_	_	_	_	
+78-6	5775-5776	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	5778-5779	#	_	_	_	_	_	_	_	
+79-2	5779-5780	P	_	_	_	_	_	_	_	
+79-3	5781-5784	IMM	_	_	_	_	_	_	_	
+79-4	5784-5785	.	_	_	_	_	_	_	_	
+
+#Text=Erik Bergkvist (S).
+80-1	5787-5791	Erik	_	_	_	_	_	_	_	
+80-2	5792-5801	Bergkvist	_	_	_	_	_	_	_	
+80-3	5802-5803	(	_	_	_	_	_	_	_	
+80-4	5803-5804	S	_	_	_	_	_	_	_	
+80-5	5804-5805	)	_	_	_	_	_	_	_	
+80-6	5805-5806	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	5808-5809	#	_	_	_	_	_	_	_	
+81-2	5809-5810	P	_	_	_	_	_	_	_	
+81-3	5811-5814	IMM	_	_	_	_	_	_	_	
+81-4	5814-5815	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionstyrelsen, Region Västerbotten.
+82-1	5817-5827	ordförande	_	_	_	_	_	_	_	
+82-2	5828-5829	i	_	_	_	_	_	_	_	
+82-3	5830-5845	regionstyrelsen	_	_	_	_	_	_	_	
+82-4	5845-5846	,	_	_	_	_	_	_	_	
+82-5	5847-5853	Region	_	_	_	_	_	_	_	
+82-6	5854-5866	Västerbotten	_	_	_	_	_	_	_	
+82-7	5866-5867	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	5869-5870	#	_	_	_	_	_	_	_	
+83-2	5870-5871	P	_	_	_	_	_	_	_	
+83-3	5872-5875	IMM	_	_	_	_	_	_	_	
+83-4	5875-5876	.	_	_	_	_	_	_	_	
+
+#Text=Eva Lindberg (S).
+84-1	5878-5881	Eva	_	_	_	_	_	_	_	
+84-2	5882-5890	Lindberg	_	_	_	_	_	_	_	
+84-3	5891-5892	(	_	_	_	_	_	_	_	
+84-4	5892-5893	S	_	_	_	_	_	_	_	
+84-5	5893-5894	)	_	_	_	_	_	_	_	
+84-6	5894-5895	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	5897-5898	#	_	_	_	_	_	_	_	
+85-2	5898-5899	P	_	_	_	_	_	_	_	
+85-3	5900-5903	IMM	_	_	_	_	_	_	_	
+85-4	5903-5904	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionstyrelsen, Region Gävleborg.
+86-1	5906-5916	ordförande	_	_	_	_	_	_	_	
+86-2	5917-5918	i	_	_	_	_	_	_	_	
+86-3	5919-5934	regionstyrelsen	_	_	_	_	_	_	_	
+86-4	5934-5935	,	_	_	_	_	_	_	_	
+86-5	5936-5942	Region	_	_	_	_	_	_	_	
+86-6	5943-5952	Gävleborg	_	_	_	_	_	_	_	
+86-7	5952-5953	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	5955-5956	#	_	_	_	_	_	_	_	
+87-2	5956-5957	P	_	_	_	_	_	_	_	
+87-3	5958-5961	IMM	_	_	_	_	_	_	_	
+87-4	5961-5962	.	_	_	_	_	_	_	_	
+
+#Text=Gustav Hemming (C).
+88-1	5964-5970	Gustav	_	_	_	_	_	_	_	
+88-2	5971-5978	Hemming	_	_	_	_	_	_	_	
+88-3	5979-5980	(	_	_	_	_	_	_	_	
+88-4	5980-5981	C	_	_	_	_	_	_	_	
+88-5	5981-5982	)	_	_	_	_	_	_	_	
+88-6	5982-5983	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	5985-5986	#	_	_	_	_	_	_	_	
+89-2	5986-5987	P	_	_	_	_	_	_	_	
+89-3	5988-5991	IMM	_	_	_	_	_	_	_	
+89-4	5991-5992	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i tillväxt- och regionplanenämnden, Stockholms läns landsting.
+90-1	5994-6004	ordförande	_	_	_	_	_	_	_	
+90-2	6005-6006	i	_	_	_	_	_	_	_	
+90-3	6007-6015	tillväxt	_	_	_	_	_	_	_	
+90-4	6015-6016	-	_	_	_	_	_	_	_	
+90-5	6017-6020	och	_	_	_	_	_	_	_	
+90-6	6021-6039	regionplanenämnden	_	_	_	_	_	_	_	
+90-7	6039-6040	,	_	_	_	_	_	_	_	
+90-8	6041-6051	Stockholms	_	_	_	_	_	_	_	
+90-9	6052-6056	läns	_	_	_	_	_	_	_	
+90-10	6057-6066	landsting	_	_	_	_	_	_	_	
+90-11	6066-6067	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	6069-6070	#	_	_	_	_	_	_	_	
+91-2	6070-6071	P	_	_	_	_	_	_	_	
+91-3	6072-6075	IMM	_	_	_	_	_	_	_	
+91-4	6075-6076	.	_	_	_	_	_	_	_	
+
+#Text=Göran Gunnarsson (C).
+92-1	6078-6083	Göran	_	_	_	_	_	_	_	
+92-2	6084-6094	Gunnarsson	_	_	_	_	_	_	_	
+92-3	6095-6096	(	_	_	_	_	_	_	_	
+92-4	6096-6097	C	_	_	_	_	_	_	_	
+92-5	6097-6098	)	_	_	_	_	_	_	_	
+92-6	6098-6099	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+93-1	6101-6102	#	_	_	_	_	_	_	_	
+93-2	6102-6103	P	_	_	_	_	_	_	_	
+93-3	6104-6107	IMM	_	_	_	_	_	_	_	
+93-4	6107-6108	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i trafik- och samhällsplaneringsnämnden, Region Östergötland.
+94-1	6110-6120	ordförande	_	_	_	_	_	_	_	
+94-2	6121-6122	i	_	_	_	_	_	_	_	
+94-3	6123-6129	trafik	_	_	_	_	_	_	_	
+94-4	6129-6130	-	_	_	_	_	_	_	_	
+94-5	6131-6134	och	_	_	_	_	_	_	_	
+94-6	6135-6160	samhällsplaneringsnämnden	_	_	_	_	_	_	_	
+94-7	6160-6161	,	_	_	_	_	_	_	_	
+94-8	6162-6168	Region	_	_	_	_	_	_	_	
+94-9	6169-6181	Östergötland	_	_	_	_	_	_	_	
+94-10	6181-6182	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+95-1	6184-6185	#	_	_	_	_	_	_	_	
+95-2	6185-6186	P	_	_	_	_	_	_	_	
+95-3	6187-6190	IMM	_	_	_	_	_	_	_	
+95-4	6190-6191	.	_	_	_	_	_	_	_	
+
+#Text=Håkan Jansson (M).
+96-1	6193-6198	Håkan	_	_	_	_	_	_	_	
+96-2	6199-6206	Jansson	_	_	_	_	_	_	_	
+96-3	6207-6208	(	_	_	_	_	_	_	_	
+96-4	6208-6209	M	_	_	_	_	_	_	_	
+96-5	6209-6210	)	_	_	_	_	_	_	_	
+96-6	6210-6211	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+97-1	6213-6214	#	_	_	_	_	_	_	_	
+97-2	6214-6215	P	_	_	_	_	_	_	_	
+97-3	6216-6219	IMM	_	_	_	_	_	_	_	
+97-4	6219-6220	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionstyrelsen, Region Jönköpings län.
+98-1	6222-6232	ordförande	_	_	_	_	_	_	_	
+98-2	6233-6234	i	_	_	_	_	_	_	_	
+98-3	6235-6250	regionstyrelsen	_	_	_	_	_	_	_	
+98-4	6250-6251	,	_	_	_	_	_	_	_	
+98-5	6252-6258	Region	_	_	_	_	_	_	_	
+98-6	6259-6269	Jönköpings	_	_	_	_	_	_	_	
+98-7	6270-6273	län	_	_	_	_	_	_	_	
+98-8	6273-6274	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+99-1	6276-6277	#	_	_	_	_	_	_	_	
+99-2	6277-6278	P	_	_	_	_	_	_	_	
+99-3	6279-6282	IMM	_	_	_	_	_	_	_	
+99-4	6282-6283	.	_	_	_	_	_	_	_	
+
+#Text=Johan Edstav (MP).
+100-1	6285-6290	Johan	_	_	_	_	_	_	_	
+100-2	6291-6297	Edstav	_	_	_	_	_	_	_	
+100-3	6298-6299	(	_	_	_	_	_	_	_	
+100-4	6299-6301	MP	_	_	_	_	_	_	_	
+100-5	6301-6302	)	_	_	_	_	_	_	_	
+100-6	6302-6303	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+101-1	6305-6306	#	_	_	_	_	_	_	_	
+101-2	6306-6307	P	_	_	_	_	_	_	_	
+101-3	6308-6311	IMM	_	_	_	_	_	_	_	
+101-4	6311-6312	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i förbundsstyrelsen, Regionförbundet Uppsala län.
+102-1	6314-6324	ordförande	_	_	_	_	_	_	_	
+102-2	6325-6326	i	_	_	_	_	_	_	_	
+102-3	6327-6344	förbundsstyrelsen	_	_	_	_	_	_	_	
+102-4	6344-6345	,	_	_	_	_	_	_	_	
+102-5	6346-6361	Regionförbundet	_	_	_	_	_	_	_	
+102-6	6362-6369	Uppsala	_	_	_	_	_	_	_	
+102-7	6370-6373	län	_	_	_	_	_	_	_	
+102-8	6373-6374	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+103-1	6376-6377	#	_	_	_	_	_	_	_	
+103-2	6377-6378	P	_	_	_	_	_	_	_	
+103-3	6379-6382	IMM	_	_	_	_	_	_	_	
+103-4	6382-6383	.	_	_	_	_	_	_	_	
+
+#Text=Leif Nilsson (S).
+104-1	6385-6389	Leif	_	_	_	_	_	_	_	
+104-2	6390-6397	Nilsson	_	_	_	_	_	_	_	
+104-3	6398-6399	(	_	_	_	_	_	_	_	
+104-4	6399-6400	S	_	_	_	_	_	_	_	
+104-5	6400-6401	)	_	_	_	_	_	_	_	
+104-6	6401-6402	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+105-1	6404-6405	#	_	_	_	_	_	_	_	
+105-2	6405-6406	P	_	_	_	_	_	_	_	
+105-3	6407-6410	IMM	_	_	_	_	_	_	_	
+105-4	6410-6411	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i Region Dalarna.
+106-1	6413-6423	ordförande	_	_	_	_	_	_	_	
+106-2	6424-6425	i	_	_	_	_	_	_	_	
+106-3	6426-6432	Region	_	_	_	_	_	_	_	
+106-4	6433-6440	Dalarna	_	_	_	_	_	_	_	
+106-5	6440-6441	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+107-1	6443-6444	#	_	_	_	_	_	_	_	
+107-2	6444-6445	P	_	_	_	_	_	_	_	
+107-3	6446-6449	IMM	_	_	_	_	_	_	_	
+107-4	6449-6450	.	_	_	_	_	_	_	_	
+
+#Text=Marie-Louise Forsberg-Fransson (S).
+108-1	6452-6464	Marie-Louise	_	_	_	_	_	_	_	
+108-2	6465-6482	Forsberg-Fransson	_	_	_	_	_	_	_	
+108-3	6483-6484	(	_	_	_	_	_	_	_	
+108-4	6484-6485	S	_	_	_	_	_	_	_	
+108-5	6485-6486	)	_	_	_	_	_	_	_	
+108-6	6486-6487	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+109-1	6489-6490	#	_	_	_	_	_	_	_	
+109-2	6490-6491	P	_	_	_	_	_	_	_	
+109-3	6492-6495	IMM	_	_	_	_	_	_	_	
+109-4	6495-6496	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionstyrelsen, Region Örebro.
+110-1	6498-6508	ordförande	_	_	_	_	_	_	_	
+110-2	6509-6510	i	_	_	_	_	_	_	_	
+110-3	6511-6526	regionstyrelsen	_	_	_	_	_	_	_	
+110-4	6526-6527	,	_	_	_	_	_	_	_	
+110-5	6528-6534	Region	_	_	_	_	_	_	_	
+110-6	6535-6541	Örebro	_	_	_	_	_	_	_	
+110-7	6541-6542	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+111-1	6544-6545	#	_	_	_	_	_	_	_	
+111-2	6545-6546	P	_	_	_	_	_	_	_	
+111-3	6547-6550	IMM	_	_	_	_	_	_	_	
+111-4	6550-6551	.	_	_	_	_	_	_	_	
+
+#Text=Robert Uitto (S).
+112-1	6553-6559	Robert	_	_	_	_	_	_	_	
+112-2	6560-6565	Uitto	_	_	_	_	_	_	_	
+112-3	6566-6567	(	_	_	_	_	_	_	_	
+112-4	6567-6568	S	_	_	_	_	_	_	_	
+112-5	6568-6569	)	_	_	_	_	_	_	_	
+112-6	6569-6570	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+113-1	6572-6573	#	_	_	_	_	_	_	_	
+113-2	6573-6574	P	_	_	_	_	_	_	_	
+113-3	6575-6578	IMM	_	_	_	_	_	_	_	
+113-4	6578-6579	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionala utvecklingsnämnden, Region Jämtland Härjedalen.
+114-1	6581-6591	ordförande	_	_	_	_	_	_	_	
+114-2	6592-6593	i	_	_	_	_	_	_	_	
+114-3	6594-6603	regionala	_	_	_	_	_	_	_	
+114-4	6604-6622	utvecklingsnämnden	_	_	_	_	_	_	_	
+114-5	6622-6623	,	_	_	_	_	_	_	_	
+114-6	6624-6630	Region	_	_	_	_	_	_	_	
+114-7	6631-6639	Jämtland	_	_	_	_	_	_	_	
+114-8	6640-6650	Härjedalen	_	_	_	_	_	_	_	
+114-9	6650-6651	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+115-1	6653-6654	#	_	_	_	_	_	_	_	
+115-2	6654-6655	P	_	_	_	_	_	_	_	
+115-3	6656-6659	IMM	_	_	_	_	_	_	_	
+115-4	6659-6660	.	_	_	_	_	_	_	_	
+
+#Text=Viking Jonsson (S).
+116-1	6662-6668	Viking	_	_	_	_	_	_	_	
+116-2	6669-6676	Jonsson	_	_	_	_	_	_	_	
+116-3	6677-6678	(	_	_	_	_	_	_	_	
+116-4	6678-6679	S	_	_	_	_	_	_	_	
+116-5	6679-6680	)	_	_	_	_	_	_	_	
+116-6	6680-6681	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+117-1	6683-6684	#	_	_	_	_	_	_	_	
+117-2	6684-6685	P	_	_	_	_	_	_	_	
+117-3	6686-6689	IMM	_	_	_	_	_	_	_	
+117-4	6689-6690	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i regionstyrelsen, Regionförbundet Sörmland.
+118-1	6692-6702	ordförande	_	_	_	_	_	_	_	
+118-2	6703-6704	i	_	_	_	_	_	_	_	
+118-3	6705-6720	regionstyrelsen	_	_	_	_	_	_	_	
+118-4	6720-6721	,	_	_	_	_	_	_	_	
+118-5	6722-6737	Regionförbundet	_	_	_	_	_	_	_	
+118-6	6738-6746	Sörmland	_	_	_	_	_	_	_	
+118-7	6746-6747	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+119-1	6749-6750	#	_	_	_	_	_	_	_	
+119-2	6750-6751	P	_	_	_	_	_	_	_	
+119-3	6752-6755	IMM	_	_	_	_	_	_	_	
+119-4	6755-6756	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+120-1	6758-6766	Redaktör	_	_	_	_	_	_	_	
+120-2	6766-6767	:	_	_	_	_	_	_	_	
+120-3	6768-6774	Carina	_	_	_	_	_	_	_	
+120-4	6775-6783	Stensson	_	_	_	_	_	_	_	
+120-5	6783-6784	,	_	_	_	_	_	_	_	
+120-6	6785-6795	Biträdande	_	_	_	_	_	_	_	
+120-7	6796-6804	redaktör	_	_	_	_	_	_	_	
+120-8	6804-6805	:	_	_	_	_	_	_	_	
+120-9	6806-6811	Björn	_	_	_	_	_	_	_	
+120-10	6812-6818	Jorner	_	_	_	_	_	_	_	
+120-11	6818-6819	,	_	_	_	_	_	_	_	
+120-12	6820-6824	Mejl	_	_	_	_	_	_	_	
+120-13	6824-6825	:	_	_	_	_	_	_	_	
+120-14	6826-6832	debatt	_	_	_	_	_	_	_	
+120-15	6832-6833	@	_	_	_	_	_	_	_	
+120-16	6833-6839	svd.se	_	_	_	_	_	_	_	
+120-17	6839-6840	,	_	_	_	_	_	_	_	
+120-18	6841-6854	Telefonnummer	_	_	_	_	_	_	_	
+120-19	6854-6855	:	_	_	_	_	_	_	_	
+120-20	6856-6858	08	_	_	_	_	_	_	_	
+120-21	6858-6859	-	_	_	_	_	_	_	_	
+120-22	6859-6865	135149	_	_	_	_	_	_	_	
+120-23	6865-6866	,	_	_	_	_	_	_	_	
+120-24	6867-6874	Twitter	_	_	_	_	_	_	_	
+120-25	6874-6875	:	_	_	_	_	_	_	_	
+120-26	6876-6877	@	_	_	_	_	_	_	_	
+120-27	6877-6886	SvDDebatt	_	_	_	_	_	_	_	
+120-28	6886-6887	,	_	_	_	_	_	_	_	
+120-29	6888-6896	Facebook	_	_	_	_	_	_	_	
+120-30	6896-6897	:	_	_	_	_	_	_	_	
+120-31	6898-6901	SvD	_	_	_	_	_	_	_	
+120-32	6902-6908	Debatt	_	_	_	_	_	_	_	
+120-33	6908-6909	.	_	_	_	_	_	_	_	

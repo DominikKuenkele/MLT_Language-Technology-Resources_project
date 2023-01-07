@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Varför saknar personer med flyktingstatus identitetshandlingar?
+3-1	18-24	Varför	_	_	_	_	_	_	
+3-2	25-31	saknar	_	_	_	_	_	_	
+3-3	32-40	personer	_	_	_	_	_	_	
+3-4	41-44	med	_	_	_	_	_	_	
+3-5	45-59	flyktingstatus	_	_	_	_	_	_	
+3-6	60-80	identitetshandlingar	_	_	_	_	_	_	
+3-7	80-81	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	83-84	#	_	_	_	_	_	_	
+4-2	84-85	P	_	_	_	_	_	_	
+4-3	86-89	IMM	_	_	_	_	_	_	
+4-4	89-90	.	_	_	_	_	_	_	
+
+#Text=Varför "saknar" personer från ex Syrien Idhandlingar?
+5-1	92-98	Varför	_	_	_	_	_	_	
+5-2	99-100	"	_	_	_	_	_	_	
+5-3	100-106	saknar	_	_	_	_	_	_	
+5-4	106-107	"	_	_	_	_	_	_	
+5-5	108-116	personer	*[3]	_	_	_	_	8-2[0_3]	
+5-6	117-121	från	*[3]	_	_	_	_	_	
+5-7	122-124	ex	*[3]	_	_	_	_	_	
+5-8	125-131	Syrien	*[3]	_	_	_	_	_	
+5-9	132-144	Idhandlingar	_	_	_	_	_	_	
+5-10	144-145	?	_	_	_	_	_	_	
+
+#Text=får dem inte upphålltilstånd om de visar var dom kommer ifrån?.
+6-1	146-149	får	_	_	_	_	_	_	
+6-2	150-153	dem	_	_	_	_	_	_	
+6-3	154-158	inte	_	_	_	_	_	_	
+6-4	159-174	upphålltilstånd	_	_	_	_	_	_	
+6-5	175-177	om	_	_	_	_	_	_	
+6-6	178-180	de	_	_	_	_	_	_	
+6-7	181-186	visar	_	_	_	_	_	_	
+6-8	187-190	var	_	_	_	_	_	_	
+6-9	191-194	dom	_	_	_	_	_	_	
+6-10	195-201	kommer	_	_	_	_	_	_	
+6-11	202-207	ifrån	_	_	_	_	_	_	
+6-12	207-208	?	_	_	_	_	_	_	
+6-13	208-209	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	211-212	#	_	_	_	_	_	_	
+7-2	212-213	P	_	_	_	_	_	_	
+7-3	214-217	IMM	_	_	_	false	3	_	
+7-4	217-218	.	_	_	_	_	_	_	
+
+#Text=Skulle dem inte då desutom slippa ta en ranglig båt utan ta passet och boka in sig på första bästa lågprsflyg?
+8-1	220-226	Skulle	_	_	_	_	_	_	
+8-2	227-230	dem	*	_	_	_	_	_	
+8-3	231-235	inte	_	_	_	_	_	_	
+8-4	236-238	då	_	_	_	_	_	_	
+8-5	239-246	desutom	_	_	_	_	_	_	
+8-6	247-253	slippa	_	Target[1]	8-2	false[1]	2[1]	_	
+8-7	254-256	ta	_	Target[1]	8-2	false[1]	2[1]	_	
+8-8	257-259	en	_	Target[1]	8-2	false[1]	2[1]	_	
+8-9	260-267	ranglig	_	Target[1]	8-2	false[1]	2[1]	_	
+8-10	268-271	båt	_	Target[1]	8-2	false[1]	2[1]	_	
+8-11	272-276	utan	_	_	_	_	_	_	
+8-12	277-279	ta	_	_	_	_	_	_	
+8-13	280-286	passet	_	_	_	_	_	_	
+8-14	287-290	och	_	_	_	_	_	_	
+8-15	291-295	boka	_	_	_	_	_	_	
+8-16	296-298	in	_	_	_	_	_	_	
+8-17	299-302	sig	_	_	_	_	_	_	
+8-18	303-305	på	_	_	_	_	_	_	
+8-19	306-312	första	_	_	_	_	_	_	
+8-20	313-318	bästa	_	_	_	_	_	_	
+8-21	319-329	lågprsflyg	_	_	_	_	_	_	
+8-22	329-330	?	_	_	_	_	_	_	
+
+#Text=Slippa sådna där identitets-språktest det var sådant rabalder om?
+9-1	331-337	Slippa	_	_	_	_	_	_	
+9-2	338-343	sådna	_	_	_	_	_	_	
+9-3	344-347	där	_	_	_	_	_	_	
+9-4	348-368	identitets-språktest	*	_	_	_	_	_	
+9-5	369-372	det	_	_	_	_	_	_	
+9-6	373-376	var	_	Target[2]	9-4	false[2]	2[2]	_	
+9-7	377-383	sådant	_	Target[2]	9-4	false[2]	2[2]	_	
+9-8	384-392	rabalder	_	Target[2]	9-4	false[2]	2[2]	_	
+9-9	393-395	om	_	Target[2]	9-4	false[2]	2[2]	_	
+9-10	395-396	?	_	_	_	_	_	_	
+
+#Text=Vad är det jag inte förstår?.
+10-1	398-401	Vad	_	_	_	_	_	_	
+10-2	402-404	är	_	_	_	_	_	_	
+10-3	405-408	det	_	_	_	_	_	_	
+10-4	409-412	jag	_	_	_	_	_	_	
+10-5	413-417	inte	_	_	_	_	_	_	
+10-6	418-425	förstår	_	_	_	_	_	_	
+10-7	425-426	?	_	_	_	_	_	_	
+10-8	426-427	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	429-430	#	_	_	_	_	_	_	
+11-2	430-431	P	_	_	_	_	_	_	
+11-3	432-435	IMM	_	_	_	_	_	_	
+11-4	435-436	.	_	_	_	_	_	_	
+
+#Text=Snälla upplys mig, undvik att raljera!.
+12-1	438-444	Snälla	_	_	_	_	_	_	
+12-2	445-451	upplys	_	_	_	_	_	_	
+12-3	452-455	mig	_	_	_	_	_	_	
+12-4	455-456	,	_	_	_	_	_	_	
+12-5	457-463	undvik	_	_	_	_	_	_	
+12-6	464-467	att	_	_	_	_	_	_	
+12-7	468-475	raljera	_	_	_	_	_	_	
+12-8	475-476	!	_	_	_	_	_	_	
+12-9	476-477	.	_	_	_	_	_	_	

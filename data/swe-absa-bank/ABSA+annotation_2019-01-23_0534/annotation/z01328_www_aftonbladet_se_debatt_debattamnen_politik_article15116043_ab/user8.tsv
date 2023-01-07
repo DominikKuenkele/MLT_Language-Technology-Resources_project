@@ -1,0 +1,708 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen får inte skänka bort folkets egendom.
+3-1	18-28	Regeringen	*	_	_	_	_	_	_	
+3-2	29-32	får	_	Source;Target[1]	3-1;3-4[15]	false[1]	2[1]	_	_	
+3-3	33-37	inte	_	Source;Target[1]	3-1;3-4[15]	false[1]	2[1]	_	_	
+3-4	38-44	skänka	*[15]	_	_	_	_	_	_	
+3-5	45-49	bort	*[15]	_	_	_	_	_	_	
+3-6	50-57	folkets	*[15]	_	_	_	_	_	_	
+3-7	58-65	egendom	*[15]	_	_	_	_	_	_	
+3-8	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_	_	_	_	_	_	
+4-2	69-70	P	_	_	_	_	_	_	_	
+4-3	71-74	IMM	_	_	_	_	_	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=I måndags blev det klart att Svensk Bilprovning ska säljas till företaget Opus Group, som har ett delägarskap i ett välkänt skatteparadis, Cypern.
+5-1	77-78	I	_	_	_	_	_	_	_	
+5-2	79-86	måndags	_	_	_	_	_	_	_	
+5-3	87-91	blev	_	_	_	_	_	_	_	
+5-4	92-95	det	_	_	_	_	_	_	_	
+5-5	96-101	klart	_	_	_	_	_	_	_	
+5-6	102-105	att	_	_	_	_	_	_	_	
+5-7	106-112	Svensk	_	_	_	_	_	_	_	
+5-8	113-124	Bilprovning	_	_	_	_	_	_	_	
+5-9	125-128	ska	_	_	_	_	_	_	_	
+5-10	129-135	säljas	_	_	_	_	_	_	_	
+5-11	136-140	till	_	_	_	_	_	_	_	
+5-12	141-150	företaget	_	_	_	_	_	_	_	
+5-13	151-155	Opus	_	_	_	_	_	_	_	
+5-14	156-161	Group	_	_	_	_	_	_	_	
+5-15	161-162	,	_	_	_	_	_	_	_	
+5-16	163-166	som	_	_	_	_	_	_	_	
+5-17	167-170	har	_	_	_	_	_	_	_	
+5-18	171-174	ett	_	_	_	_	_	_	_	
+5-19	175-186	delägarskap	_	_	_	_	_	_	_	
+5-20	187-188	i	_	_	_	_	_	_	_	
+5-21	189-192	ett	_	_	_	_	_	_	_	
+5-22	193-200	välkänt	_	_	_	_	_	_	_	
+5-23	201-214	skatteparadis	_	_	_	_	_	_	_	
+5-24	214-215	,	_	_	_	_	_	_	_	
+5-25	216-222	Cypern	_	_	_	_	_	_	_	
+5-26	222-223	.	_	_	_	_	_	_	_	
+
+#Text=Bolaget köper med pengar lånade av Bilprovningen själva.
+6-1	224-231	Bolaget	_	_	_	_	_	_	_	
+6-2	232-237	köper	_	_	_	_	_	_	_	
+6-3	238-241	med	_	_	_	_	_	_	_	
+6-4	242-248	pengar	_	_	_	_	_	_	_	
+6-5	249-255	lånade	_	_	_	_	_	_	_	
+6-6	256-258	av	_	_	_	_	_	_	_	
+6-7	259-272	Bilprovningen	_	_	_	_	_	_	_	
+6-8	273-279	själva	_	_	_	_	_	_	_	
+6-9	279-280	.	_	_	_	_	_	_	_	
+
+#Text=Staten betalar alltså för att bli av med svenska folkets egendom – till ett bolag som själva inte betalar skatt i Sverige.
+7-1	281-287	Staten	*	_	_	_	_	_	_	
+7-2	288-295	betalar	_	_	_	_	_	_	_	
+7-3	296-302	alltså	_	_	_	_	_	_	_	
+7-4	303-306	för	_	_	_	_	_	_	_	
+7-5	307-310	att	_	_	_	_	_	_	_	
+7-6	311-314	bli	_	_	_	_	_	_	_	
+7-7	315-317	av	_	_	_	_	_	_	_	
+7-8	318-321	med	_	_	_	_	_	_	_	
+7-9	322-329	svenska	_	_	_	_	_	_	_	
+7-10	330-337	folkets	_	_	_	_	_	_	_	
+7-11	338-345	egendom	_	_	_	_	_	_	_	
+7-12	346-347	–	_	_	_	_	_	_	_	
+7-13	348-352	till	_	_	_	_	_	_	_	
+7-14	353-356	ett	_	_	_	_	_	_	_	
+7-15	357-362	bolag	_	_	_	_	_	_	_	
+7-16	363-366	som	_	_	_	_	_	_	_	
+7-17	367-373	själva	_	_	_	_	_	_	_	
+7-18	374-378	inte	_	_	_	_	_	_	_	
+7-19	379-386	betalar	_	_	_	_	_	_	_	
+7-20	387-392	skatt	_	_	_	_	_	_	_	
+7-21	393-394	i	_	_	_	_	_	_	_	
+7-22	395-402	Sverige	_	_	_	_	_	_	_	
+7-23	402-403	.	_	Target	7-1	false	2	_	_	
+
+#Text=Villkoren för affären är hemligstämplade och finansmarknadsminister Peter Norman vägrar uttala sig i frågan.
+8-1	404-413	Villkoren	_	_	_	_	_	_	_	
+8-2	414-417	för	_	_	_	_	_	_	_	
+8-3	418-425	affären	_	_	_	_	_	_	_	
+8-4	426-428	är	_	_	_	_	_	_	_	
+8-5	429-444	hemligstämplade	_	_	_	_	_	_	_	
+8-6	445-448	och	_	_	_	_	_	_	_	
+8-7	449-471	finansmarknadsminister	*[16]	_	_	_	_	_	9-5[0_16]	
+8-8	472-477	Peter	*[16]	_	_	_	_	_	_	
+8-9	478-484	Norman	*[16]	_	_	_	_	_	_	
+8-10	485-491	vägrar	_	_	_	_	_	_	_	
+8-11	492-498	uttala	_	_	_	_	_	_	_	
+8-12	499-502	sig	_	_	_	_	_	_	_	
+8-13	503-504	i	_	_	_	_	_	_	_	
+8-14	505-511	frågan	_	_	_	_	_	_	_	
+8-15	511-512	.	_	_	_	_	_	_	_	
+
+#Text=Han låter hälsa att han är nöjd.
+9-1	513-516	Han	_	_	_	_	_	_	_	
+9-2	517-522	låter	_	_	_	_	_	_	_	
+9-3	523-528	hälsa	_	_	_	_	_	_	_	
+9-4	529-532	att	_	_	_	_	_	_	_	
+9-5	533-536	han	*	_	_	_	_	_	_	
+9-6	537-539	är	_	Source[2]	9-5	false[2]	4[2]	_	_	
+9-7	540-544	nöjd	_	Source[2]	9-5	false[2]	4[2]	_	_	
+9-8	544-545	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	547-548	#	_	_	_	_	_	_	_	
+10-2	548-549	P	_	_	_	_	_	_	_	
+10-3	550-553	IMM	_	_	_	_	_	_	_	
+10-4	553-554	.	_	_	_	_	_	_	_	
+
+#Text=Beslutet om avregleringen av Bilprovningen togs redan 2009, men intresset för att etablera nya anläggningar har varit mycket svagt.
+11-1	556-564	Beslutet	*[17]	_	_	_	_	_	12-4[0_17]	
+11-2	565-567	om	*[17]	_	_	_	_	_	_	
+11-3	568-581	avregleringen	*[17]	_	_	_	_	_	_	
+11-4	582-584	av	*[17]	_	_	_	_	_	_	
+11-5	585-598	Bilprovningen	*[17]	_	_	_	_	_	_	
+11-6	599-603	togs	_	_	_	_	_	_	_	
+11-7	604-609	redan	_	_	_	_	_	_	_	
+11-8	610-614	2009	_	_	_	_	_	_	_	
+11-9	614-615	,	_	_	_	_	_	_	_	
+11-10	616-619	men	_	_	_	_	_	_	_	
+11-11	620-629	intresset	_	_	_	_	_	_	_	
+11-12	630-633	för	_	_	_	_	_	_	_	
+11-13	634-637	att	_	_	_	_	_	_	_	
+11-14	638-646	etablera	_	_	_	_	_	_	_	
+11-15	647-650	nya	_	_	_	_	_	_	_	
+11-16	651-663	anläggningar	_	_	_	_	_	_	_	
+11-17	664-667	har	_	_	_	_	_	_	_	
+11-18	668-673	varit	_	_	_	_	_	_	_	
+11-19	674-680	mycket	_	_	_	_	_	_	_	
+11-20	681-686	svagt	_	_	_	_	_	_	_	
+11-21	686-687	.	_	_	_	_	_	_	_	
+
+#Text=Av många har det betecknats som ett fiasko.
+12-1	688-690	Av	_	_	_	_	_	_	_	
+12-2	691-696	många	*	_	_	_	_	_	_	
+12-3	697-700	har	_	_	_	_	_	_	_	
+12-4	701-704	det	*	_	_	_	_	_	_	
+12-5	705-715	betecknats	_	_	_	_	_	_	_	
+12-6	716-719	som	_	_	_	_	_	_	_	
+12-7	720-723	ett	_	Target;Source[3]	12-4;12-2	false[3]	1[3]	_	_	
+12-8	724-730	fiasko	_	Target;Source[3]	12-4;12-2	false[3]	1[3]	_	_	
+12-9	730-731	.	_	_	_	_	_	_	_	
+
+#Text=Men det har inte hindrat regeringen från att envetet fortsätta köra på för en utförsäljning.
+13-1	732-735	Men	_	_	_	_	_	_	_	
+13-2	736-739	det	_	_	_	_	_	_	_	
+13-3	740-743	har	_	_	_	_	_	_	_	
+13-4	744-748	inte	_	_	_	_	_	_	_	
+13-5	749-756	hindrat	_	_	_	_	_	_	_	
+13-6	757-767	regeringen	*	_	_	_	_	_	_	
+13-7	768-772	från	_	_	_	_	_	_	_	
+13-8	773-776	att	_	_	_	_	_	_	_	
+13-9	777-784	envetet	_	Target;Target	13-10[18];13-6	false	2	_	_	
+13-10	785-794	fortsätta	*[18]	_	_	_	_	_	_	
+13-11	795-799	köra	*[18]	_	_	_	_	_	_	
+13-12	800-802	på	*[18]	_	_	_	_	_	_	
+13-13	803-806	för	*[18]	_	_	_	_	_	_	
+13-14	807-809	en	*[18]	_	_	_	_	_	_	
+13-15	810-823	utförsäljning	*[18]	_	_	_	_	_	_	
+13-16	823-824	.	_	_	_	_	_	_	_	
+
+#Text=Det har inte byggt inte på konsekvensanalyser eller bristfällig kvalitet i verksamheten, utan på dogmatiska teorier om att gemensam egendom och statliga styrmedel skulle vara farligt.
+14-1	825-828	Det	_	_	_	_	_	_	_	
+14-2	829-832	har	_	_	_	_	_	_	_	
+14-3	833-837	inte	_	_	_	_	_	_	_	
+14-4	838-843	byggt	_	_	_	_	_	_	_	
+14-5	844-848	inte	_	_	_	_	_	_	_	
+14-6	849-851	på	_	_	_	_	_	_	_	
+14-7	852-870	konsekvensanalyser	_	_	_	_	_	_	_	
+14-8	871-876	eller	_	_	_	_	_	_	_	
+14-9	877-888	bristfällig	_	_	_	_	_	_	_	
+14-10	889-897	kvalitet	_	_	_	_	_	_	_	
+14-11	898-899	i	_	_	_	_	_	_	_	
+14-12	900-912	verksamheten	_	_	_	_	_	_	_	
+14-13	912-913	,	_	_	_	_	_	_	_	
+14-14	914-918	utan	_	_	_	_	_	_	_	
+14-15	919-921	på	_	_	_	_	_	_	_	
+14-16	922-932	dogmatiska	*[19]	_	_	_	_	_	_	
+14-17	933-940	teorier	*[19]	_	_	_	_	_	_	
+14-18	941-943	om	_	_	_	_	_	_	_	
+14-19	944-947	att	_	_	_	_	_	_	_	
+14-20	948-956	gemensam	*[20]	_	_	_	_	_	_	
+14-21	957-964	egendom	*[20]	_	_	_	_	_	_	
+14-22	965-968	och	*[20]	_	_	_	_	_	_	
+14-23	969-977	statliga	*[20]	_	_	_	_	_	_	
+14-24	978-987	styrmedel	*[20]	_	_	_	_	_	_	
+14-25	988-994	skulle	_	Target;Source[4]	14-20[20];14-16[19]	false[4]	2[4]	_	_	
+14-26	995-999	vara	_	Target;Source[4]	14-20[20];14-16[19]	false[4]	2[4]	_	_	
+14-27	1000-1007	farligt	_	Target;Source[4]	14-20[20];14-16[19]	false[4]	2[4]	_	_	
+14-28	1007-1008	.	_	_	_	_	_	_	_	
+
+#Text=När vd:n för Opus Group i en intervju får frågan varför prislappen är så låg, när intäkterna är relativt stabila, svarar han: ”Vi är nöjda med priset och vi är övertygade om att detta kommer bli en bra affär för Opus Group.”.
+15-1	1009-1012	När	_	_	_	_	_	_	_	
+15-2	1013-1015	vd	_	_	_	_	_	_	_	
+15-3	1015-1016	:	_	_	_	_	_	_	_	
+15-4	1016-1017	n	_	_	_	_	_	_	_	
+15-5	1018-1021	för	_	_	_	_	_	_	_	
+15-6	1022-1026	Opus	_	_	_	_	_	_	_	
+15-7	1027-1032	Group	_	_	_	_	_	_	_	
+15-8	1033-1034	i	_	_	_	_	_	_	_	
+15-9	1035-1037	en	_	_	_	_	_	_	_	
+15-10	1038-1046	intervju	_	_	_	_	_	_	_	
+15-11	1047-1050	får	_	_	_	_	_	_	_	
+15-12	1051-1057	frågan	_	_	_	_	_	_	_	
+15-13	1058-1064	varför	_	_	_	_	_	_	_	
+15-14	1065-1075	prislappen	_	_	_	_	_	_	_	
+15-15	1076-1078	är	_	_	_	_	_	_	_	
+15-16	1079-1081	så	_	_	_	_	_	_	_	
+15-17	1082-1085	låg	_	_	_	_	_	_	_	
+15-18	1085-1086	,	_	_	_	_	_	_	_	
+15-19	1087-1090	när	_	_	_	_	_	_	_	
+15-20	1091-1101	intäkterna	_	_	_	_	_	_	_	
+15-21	1102-1104	är	_	_	_	_	_	_	_	
+15-22	1105-1113	relativt	_	_	_	_	_	_	_	
+15-23	1114-1121	stabila	_	_	_	_	_	_	_	
+15-24	1121-1122	,	_	_	_	_	_	_	_	
+15-25	1123-1129	svarar	_	_	_	_	_	_	_	
+15-26	1130-1133	han	_	_	_	_	_	_	_	
+15-27	1133-1134	:	_	_	_	_	_	_	_	
+15-28	1135-1136	”	_	_	_	_	_	_	_	
+15-29	1136-1138	Vi	*	_	_	_	_	_	_	
+15-30	1139-1141	är	_	Target;Source[5]	15-33;15-29	false[5]	4[5]	_	_	
+15-31	1142-1147	nöjda	_	Target;Source[5]	15-33;15-29	false[5]	4[5]	_	_	
+15-32	1148-1151	med	_	_	_	_	_	_	_	
+15-33	1152-1158	priset	*	_	_	_	_	_	_	
+15-34	1159-1162	och	_	_	_	_	_	_	_	
+15-35	1163-1165	vi	*	_	_	_	_	_	_	
+15-36	1166-1168	är	_	_	_	_	_	_	_	
+15-37	1169-1179	övertygade	_	_	_	_	_	_	_	
+15-38	1180-1182	om	_	_	_	_	_	_	_	
+15-39	1183-1186	att	_	_	_	_	_	_	_	
+15-40	1187-1192	detta	*[21]	_	_	_	_	_	_	
+15-41	1193-1199	kommer	*[21]	_	_	_	_	_	_	
+15-42	1200-1203	bli	*[21]	_	_	_	_	_	_	
+15-43	1204-1206	en	*[21]	_	_	_	_	_	_	
+15-44	1207-1210	bra	*[21]	Source;Target	15-35;15-40[21]	false	4	_	_	
+15-45	1211-1216	affär	*[21]	_	_	_	_	_	_	
+15-46	1217-1220	för	*[21]	_	_	_	_	_	_	
+15-47	1221-1225	Opus	*[21]	_	_	_	_	_	_	
+15-48	1226-1231	Group	*[21]	_	_	_	_	_	_	
+15-49	1231-1232	.	_	_	_	_	_	_	_	
+15-50	1232-1233	”	_	_	_	_	_	_	_	
+15-51	1233-1234	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1236-1237	#	_	_	_	_	_	_	_	
+16-2	1237-1238	P	_	_	_	_	_	_	_	
+16-3	1239-1242	IMM	_	_	_	_	_	_	_	
+16-4	1242-1243	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har legat i framkant inom fordonsbesiktning sedan början av 60-talet och Bilprovningen har ett högt anseende internationellt.
+17-1	1245-1252	Sverige	*	_	_	_	_	_	_	
+17-2	1253-1256	har	_	Target;Target[6]	17-1;17-6[22]	false[6]	4[6]	_	_	
+17-3	1257-1262	legat	_	Target;Target[6]	17-1;17-6[22]	false[6]	4[6]	_	_	
+17-4	1263-1264	i	_	Target;Target[6]	17-1;17-6[22]	false[6]	4[6]	_	_	
+17-5	1265-1273	framkant	_	Target;Target[6]	17-1;17-6[22]	false[6]	4[6]	_	_	
+17-6	1274-1278	inom	*[22]	_	_	_	_	_	_	
+17-7	1279-1296	fordonsbesiktning	*[22]	_	_	_	_	_	_	
+17-8	1297-1302	sedan	_	_	_	_	_	_	_	
+17-9	1303-1309	början	_	_	_	_	_	_	_	
+17-10	1310-1312	av	_	_	_	_	_	_	_	
+17-11	1313-1315	60	_	_	_	_	_	_	_	
+17-12	1315-1316	-	_	_	_	_	_	_	_	
+17-13	1316-1321	talet	_	_	_	_	_	_	_	
+17-14	1322-1325	och	_	_	_	_	_	_	_	
+17-15	1326-1339	Bilprovningen	*	_	_	_	_	_	_	
+17-16	1340-1343	har	_	Source;Target[7]	17-20;17-15	false[7]	4[7]	_	_	
+17-17	1344-1347	ett	_	Source;Target[7]	17-20;17-15	false[7]	4[7]	_	_	
+17-18	1348-1352	högt	_	Source;Target[7]	17-20;17-15	false[7]	4[7]	_	_	
+17-19	1353-1361	anseende	_	Source;Target[7]	17-20;17-15	false[7]	4[7]	_	_	
+17-20	1362-1377	internationellt	*	_	_	_	_	_	_	
+17-21	1377-1378	.	_	_	_	_	_	_	_	
+
+#Text=Den ägnar sig åt viktig myndighetsutövning som berör i princip alla i Sverige – både fordonsägare och andra trafikanter.
+18-1	1379-1382	Den	_	_	_	_	_	_	_	
+18-2	1383-1388	ägnar	_	_	_	_	_	_	_	
+18-3	1389-1392	sig	_	_	_	_	_	_	_	
+18-4	1393-1395	åt	_	_	_	_	_	_	_	
+18-5	1396-1402	viktig	_	_	_	_	_	_	_	
+18-6	1403-1421	myndighetsutövning	_	_	_	_	_	_	_	
+18-7	1422-1425	som	_	_	_	_	_	_	_	
+18-8	1426-1431	berör	_	_	_	_	_	_	_	
+18-9	1432-1433	i	_	_	_	_	_	_	_	
+18-10	1434-1441	princip	_	_	_	_	_	_	_	
+18-11	1442-1446	alla	_	_	_	_	_	_	_	
+18-12	1447-1448	i	_	_	_	_	_	_	_	
+18-13	1449-1456	Sverige	_	_	_	_	_	_	_	
+18-14	1457-1458	–	_	_	_	_	_	_	_	
+18-15	1459-1463	både	_	_	_	_	_	_	_	
+18-16	1464-1476	fordonsägare	_	_	_	_	_	_	_	
+18-17	1477-1480	och	_	_	_	_	_	_	_	
+18-18	1481-1486	andra	_	_	_	_	_	_	_	
+18-19	1487-1498	trafikanter	_	_	_	_	_	_	_	
+18-20	1498-1499	.	_	_	_	_	_	_	_	
+
+#Text=Den avgör vilka som får och inte får åka på våra vägar.
+19-1	1500-1503	Den	_	_	_	_	_	_	_	
+19-2	1504-1509	avgör	_	_	_	_	_	_	_	
+19-3	1510-1515	vilka	_	_	_	_	_	_	_	
+19-4	1516-1519	som	_	_	_	_	_	_	_	
+19-5	1520-1523	får	_	_	_	_	_	_	_	
+19-6	1524-1527	och	_	_	_	_	_	_	_	
+19-7	1528-1532	inte	_	_	_	_	_	_	_	
+19-8	1533-1536	får	_	_	_	_	_	_	_	
+19-9	1537-1540	åka	_	_	_	_	_	_	_	
+19-10	1541-1543	på	_	_	_	_	_	_	_	
+19-11	1544-1548	våra	_	_	_	_	_	_	_	
+19-12	1549-1554	vägar	_	_	_	_	_	_	_	
+19-13	1554-1555	.	_	_	_	_	_	_	_	
+
+#Text=Likvärdighet och professionalitet i bedömningen är helt central.
+20-1	1556-1568	Likvärdighet	_	_	_	_	_	_	_	
+20-2	1569-1572	och	_	_	_	_	_	_	_	
+20-3	1573-1589	professionalitet	_	_	_	_	_	_	_	
+20-4	1590-1591	i	_	_	_	_	_	_	_	
+20-5	1592-1603	bedömningen	_	_	_	_	_	_	_	
+20-6	1604-1606	är	_	_	_	_	_	_	_	
+20-7	1607-1611	helt	_	_	_	_	_	_	_	
+20-8	1612-1619	central	_	_	_	_	_	_	_	
+20-9	1619-1620	.	_	_	_	_	_	_	_	
+
+#Text=Nu riskerar inte bara det att gå förlorat utan fordonsägarna kan även vänta in höjda avgifter för sin besiktning.
+21-1	1621-1623	Nu	_	_	_	_	_	_	_	
+21-2	1624-1632	riskerar	_	_	_	false	2	21-6[8_0]	_	
+21-3	1633-1637	inte	_	_	_	_	_	_	_	
+21-4	1638-1642	bara	_	_	_	_	_	_	_	
+21-5	1643-1646	det	_	_	_	_	_	_	_	
+21-6	1647-1650	att	_	_[8]	_	false[8]	2[8]	_	_	
+21-7	1651-1653	gå	_	_[8]	_	false[8]	2[8]	_	_	
+21-8	1654-1662	förlorat	_	_[8]	_	false[8]	2[8]	_	_	
+21-9	1663-1667	utan	_	_	_	_	_	_	_	
+21-10	1668-1681	fordonsägarna	_	_	_	_	_	_	_	
+21-11	1682-1685	kan	_	_	_	_	_	_	_	
+21-12	1686-1690	även	_	_	_	_	_	_	_	
+21-13	1691-1696	vänta	_	_	_	_	_	_	_	
+21-14	1697-1699	in	_	_	_	_	_	_	_	
+21-15	1700-1705	höjda	_	_	_	_	_	_	_	
+21-16	1706-1714	avgifter	_	_	_	_	_	_	_	
+21-17	1715-1718	för	_	_	_	_	_	_	_	
+21-18	1719-1722	sin	_	_	_	_	_	_	_	
+21-19	1723-1733	besiktning	_	_	_	_	_	_	_	
+21-20	1733-1734	.	_	_	_	_	_	_	_	
+
+#Text=Opus Group har dessutom redan aviserat att ”man får stänga någon station också om man inte får lönsamhet i den”.
+22-1	1735-1739	Opus	_	_	_	_	_	_	_	
+22-2	1740-1745	Group	_	_	_	_	_	_	_	
+22-3	1746-1749	har	_	_	_	_	_	_	_	
+22-4	1750-1758	dessutom	_	_	_	_	_	_	_	
+22-5	1759-1764	redan	_	_	_	_	_	_	_	
+22-6	1765-1773	aviserat	_	_	_	_	_	_	_	
+22-7	1774-1777	att	_	_	_	_	_	_	_	
+22-8	1778-1779	”	_	_	_	_	_	_	_	
+22-9	1779-1782	man	_	_	_	_	_	_	_	
+22-10	1783-1786	får	_	_	_	_	_	_	_	
+22-11	1787-1793	stänga	_	_	_	_	_	_	_	
+22-12	1794-1799	någon	_	_	_	_	_	_	_	
+22-13	1800-1807	station	_	_	_	_	_	_	_	
+22-14	1808-1813	också	_	_	_	_	_	_	_	
+22-15	1814-1816	om	_	_	_	_	_	_	_	
+22-16	1817-1820	man	_	_	_	_	_	_	_	
+22-17	1821-1825	inte	_	_	_	_	_	_	_	
+22-18	1826-1829	får	_	_	_	_	_	_	_	
+22-19	1830-1839	lönsamhet	_	_	_	_	_	_	_	
+22-20	1840-1841	i	_	_	_	_	_	_	_	
+22-21	1842-1845	den	_	_	_	_	_	_	_	
+22-22	1845-1846	”	_	_	_	_	_	_	_	
+22-23	1846-1847	.	_	_	_	_	_	_	_	
+
+#Text=Men för regeringen tycks ingenting vara för viktigt för att kunna styckas upp och säljas ut.
+23-1	1848-1851	Men	_	_	_	_	_	_	_	
+23-2	1852-1855	för	_	_	_	_	_	_	_	
+23-3	1856-1866	regeringen	*	_	_	_	_	_	_	
+23-4	1867-1872	tycks	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-5	1873-1882	ingenting	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-6	1883-1887	vara	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-7	1888-1891	för	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-8	1892-1899	viktigt	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-9	1900-1903	för	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-10	1904-1907	att	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-11	1908-1913	kunna	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-12	1914-1921	styckas	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-13	1922-1925	upp	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-14	1926-1929	och	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-15	1930-1936	säljas	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-16	1937-1939	ut	_	Target[9]	23-3	false[9]	1[9]	_	_	
+23-17	1939-1940	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1942-1943	#	_	_	_	_	_	_	_	
+24-2	1943-1944	P	_	_	_	_	_	_	_	
+24-3	1945-1948	IMM	_	_	_	_	_	_	_	
+24-4	1948-1949	.	_	_	_	_	_	_	_	
+
+#Text=Det är svårt att se vad som styr den här affären förutom ideologi.
+25-1	1951-1954	Det	_	_	_	_	_	_	_	
+25-2	1955-1957	är	_	_	_	_	_	_	_	
+25-3	1958-1963	svårt	_	_	_	_	_	_	_	
+25-4	1964-1967	att	_	_	_	_	_	_	_	
+25-5	1968-1970	se	_	_	_	_	_	_	_	
+25-6	1971-1974	vad	_	_	_	_	_	_	_	
+25-7	1975-1978	som	_	_	_	_	_	_	_	
+25-8	1979-1983	styr	_	_	_	_	_	_	_	
+25-9	1984-1987	den	_	_	_	_	_	_	_	
+25-10	1988-1991	här	_	_	_	_	_	_	_	
+25-11	1992-1999	affären	_	_	_	_	_	_	_	
+25-12	2000-2007	förutom	_	_	_	_	_	_	_	
+25-13	2008-2016	ideologi	_	_	_	_	_	_	_	
+25-14	2016-2017	.	_	_	_	_	_	_	_	
+
+#Text=I vardagslivet möter jag inga väljare som kräver att bilbesiktningen ska säljas ut.
+26-1	2018-2019	I	_	_	_	_	_	_	_	
+26-2	2020-2032	vardagslivet	_	_	_	_	_	_	_	
+26-3	2033-2038	möter	_	_	_	_	_	_	_	
+26-4	2039-2042	jag	_	_	_	_	_	_	_	
+26-5	2043-2047	inga	_	_	_	_	_	_	_	
+26-6	2048-2055	väljare	_	_	_	_	_	_	_	
+26-7	2056-2059	som	_	_	_	_	_	_	_	
+26-8	2060-2066	kräver	_	_	_	_	_	_	_	
+26-9	2067-2070	att	_	_	_	_	_	_	_	
+26-10	2071-2086	bilbesiktningen	_	_	_	_	_	_	_	
+26-11	2087-2090	ska	_	_	_	_	_	_	_	
+26-12	2091-2097	säljas	_	_	_	_	_	_	_	
+26-13	2098-2100	ut	_	_	_	_	_	_	_	
+26-14	2100-2101	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt som finansminister Anders Borg åker land och rike runt för att prata om hur illa han tycker om skattesmitande bolag är hans regering inte främmande för att göra affärer med samma bolag på anmärkningsvärt generösa villkor.
+27-1	2102-2111	Samtidigt	_	_	_	_	_	_	_	
+27-2	2112-2115	som	_	_	_	_	_	_	_	
+27-3	2116-2130	finansminister	*[23]|*[24]	_	_	_	_	_	_	
+27-4	2131-2137	Anders	*[23]|*[24]	_	_	_	_	_	_	
+27-5	2138-2142	Borg	*[23]|*[24]	_	_	_	_	_	_	
+27-6	2143-2147	åker	_	_	_	_	_	_	_	
+27-7	2148-2152	land	_	_	_	_	_	_	_	
+27-8	2153-2156	och	_	_	_	_	_	_	_	
+27-9	2157-2161	rike	_	_	_	_	_	_	_	
+27-10	2162-2166	runt	_	_	_	_	_	_	_	
+27-11	2167-2170	för	_	_	_	_	_	_	_	
+27-12	2171-2174	att	_	_	_	_	_	_	_	
+27-13	2175-2180	prata	_	_	_	_	_	_	_	
+27-14	2181-2183	om	_	_	_	_	_	_	_	
+27-15	2184-2187	hur	_	_	_	_	_	_	_	
+27-16	2188-2192	illa	_	Source;Target	27-3[23];27-20[25]	false	1	27-18[10_0]	_	
+27-17	2193-2196	han	_	_	_	_	_	_	_	
+27-18	2197-2203	tycker	_	Target;Source[10]	27-20[26];27-3[24]	false[10]	1[10]	_	_	
+27-19	2204-2206	om	_	Target;Source[10]	27-20[26];27-3[24]	false[10]	1[10]	_	_	
+27-20	2207-2221	skattesmitande	*[25]|*[26]	_	_	_	_	_	_	
+27-21	2222-2227	bolag	*[25]|*[26]	_	_	_	_	_	_	
+27-22	2228-2230	är	_	_	_	_	_	_	_	
+27-23	2231-2235	hans	_	_	_	_	_	_	_	
+27-24	2236-2244	regering	_	_	_	_	_	_	_	
+27-25	2245-2249	inte	_	_	_	_	_	_	_	
+27-26	2250-2259	främmande	_	_	_	_	_	_	_	
+27-27	2260-2263	för	_	_	_	_	_	_	_	
+27-28	2264-2267	att	_	_	_	_	_	_	_	
+27-29	2268-2272	göra	_	_	_	_	_	_	_	
+27-30	2273-2280	affärer	_	_	_	_	_	_	_	
+27-31	2281-2284	med	_	_	_	_	_	_	_	
+27-32	2285-2290	samma	_	_	_	_	_	_	_	
+27-33	2291-2296	bolag	_	_	_	_	_	_	_	
+27-34	2297-2299	på	_	_	_	_	_	_	_	
+27-35	2300-2315	anmärkningsvärt	_	_	_	_	_	_	_	
+27-36	2316-2324	generösa	_	_	_	_	_	_	_	
+27-37	2325-2332	villkor	_	_	_	_	_	_	_	
+27-38	2332-2333	.	*	_	_	_	_	_	28-1	
+
+#Text=Det är inte trovärdigt.
+28-1	2334-2337	Det	*	_	_	_	_	_	_	
+28-2	2338-2340	är	_	Target[11]	28-1	false[11]	2[11]	_	_	
+28-3	2341-2345	inte	_	Target[11]	28-1	false[11]	2[11]	_	_	
+28-4	2346-2356	trovärdigt	_	Target[11]	28-1	false[11]	2[11]	_	_	
+28-5	2356-2357	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2359-2360	#	_	_	_	_	_	_	_	
+29-2	2360-2361	P	_	_	_	_	_	_	_	
+29-3	2362-2365	IMM	_	_	_	_	_	_	_	
+29-4	2365-2366	.	_	_	_	_	_	_	_	
+
+#Text=Tvångsprivatiseringar av välfungerande verksamheter kommer nu på löpande band.
+30-1	2368-2389	Tvångsprivatiseringar	*	Target	30-1	false	2	_	_	
+30-2	2390-2392	av	_	_	_	_	_	_	_	
+30-3	2393-2406	välfungerande	*[27]	Target	30-3[27]	false	4	_	_	
+30-4	2407-2419	verksamheter	*[27]	_	_	_	_	_	_	
+30-5	2420-2426	kommer	_	_	_	_	_	_	_	
+30-6	2427-2429	nu	_	_	_	_	_	_	_	
+30-7	2430-2432	på	_	_	_	_	_	_	_	
+30-8	2433-2440	löpande	_	_	_	_	_	_	_	
+30-9	2441-2445	band	_	_	_	_	_	_	_	
+30-10	2445-2446	.	_	_	_	_	_	_	_	
+
+#Text=För de flesta fladdrar det förbi i nyhetsrapporteringen, men i slutändan innebär det att vi har allt mindre tillgångar i landet.
+31-1	2447-2450	För	_	_	_	_	_	_	_	
+31-2	2451-2453	de	_	_	_	_	_	_	_	
+31-3	2454-2460	flesta	_	_	_	_	_	_	_	
+31-4	2461-2469	fladdrar	_	_	_	_	_	_	_	
+31-5	2470-2473	det	_	_	_	_	_	_	_	
+31-6	2474-2479	förbi	_	_	_	_	_	_	_	
+31-7	2480-2481	i	_	_	_	_	_	_	_	
+31-8	2482-2502	nyhetsrapporteringen	_	_	_	_	_	_	_	
+31-9	2502-2503	,	_	_	_	_	_	_	_	
+31-10	2504-2507	men	_	_	_	_	_	_	_	
+31-11	2508-2509	i	_	_	_	_	_	_	_	
+31-12	2510-2519	slutändan	_	_	_	_	_	_	_	
+31-13	2520-2527	innebär	_	_	_	_	_	_	_	
+31-14	2528-2531	det	_	_	_	_	_	_	_	
+31-15	2532-2535	att	_	_	_	_	_	_	_	
+31-16	2536-2538	vi	_	_	_	_	_	_	_	
+31-17	2539-2542	har	_	_	_	_	_	_	_	
+31-18	2543-2547	allt	_	_	_	_	_	_	_	
+31-19	2548-2554	mindre	_	_	_	_	_	_	_	
+31-20	2555-2565	tillgångar	_	_	_	_	_	_	_	
+31-21	2566-2567	i	_	_	_	_	_	_	_	
+31-22	2568-2574	landet	_	_	_	_	_	_	_	
+31-23	2574-2575	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2577-2578	#	_	_	_	_	_	_	_	
+32-2	2578-2579	P	_	_	_	_	_	_	_	
+32-3	2580-2583	IMM	_	_	_	_	_	_	_	
+32-4	2583-2584	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen ska förvalta statens egendom på bästa sätt, och enligt lagen om statsbudget ha god hushållning och ekonomisk effektivitet.
+33-1	2586-2596	Regeringen	*	_	_	_	_	_	34-10	
+33-2	2597-2600	ska	_	_	_	_	_	_	_	
+33-3	2601-2609	förvalta	_	_	_	false	5	33-6[12_0]	_	
+33-4	2610-2617	statens	_	_	_	_	_	_	_	
+33-5	2618-2625	egendom	_	_	_	_	_	_	_	
+33-6	2626-2628	på	_	_[12]	_	false[12]	5[12]	_	_	
+33-7	2629-2634	bästa	_	_[12]	_	false[12]	5[12]	_	_	
+33-8	2635-2639	sätt	_	_[12]	_	false[12]	5[12]	_	_	
+33-9	2639-2640	,	_	_	_	_	_	_	_	
+33-10	2641-2644	och	_	_	_	_	_	_	_	
+33-11	2645-2651	enligt	_	_	_	_	_	_	_	
+33-12	2652-2657	lagen	_	_	_	_	_	_	_	
+33-13	2658-2660	om	_	_	_	_	_	_	_	
+33-14	2661-2672	statsbudget	_	_	_	_	_	_	_	
+33-15	2673-2675	ha	_	_	_	_	_	_	_	
+33-16	2676-2679	god	_	_	_	_	_	_	_	
+33-17	2680-2691	hushållning	_	_	_	_	_	_	_	
+33-18	2692-2695	och	_	_	_	_	_	_	_	
+33-19	2696-2705	ekonomisk	_	_	_	_	_	_	_	
+33-20	2706-2718	effektivitet	_	_	_	_	_	_	_	
+33-21	2718-2719	.	_	_	_	_	_	_	_	
+
+#Text=I det här fallet ser det ut som att man i princip har skänkt bort en del av Bilprovningen till ett bolag som inte ens kommer att betala hela sin skatt i Sverige.
+34-1	2720-2721	I	_	_	_	_	_	_	_	
+34-2	2722-2725	det	_	_	_	_	_	_	_	
+34-3	2726-2729	här	_	_	_	_	_	_	_	
+34-4	2730-2736	fallet	_	_	_	_	_	_	_	
+34-5	2737-2740	ser	_	_	_	_	_	_	_	
+34-6	2741-2744	det	_	_	_	_	_	_	_	
+34-7	2745-2747	ut	_	_	_	_	_	_	_	
+34-8	2748-2751	som	_	_	_	_	_	_	_	
+34-9	2752-2755	att	_	_	_	_	_	_	_	
+34-10	2756-2759	man	*	_	_	_	_	_	_	
+34-11	2760-2761	i	_	_	_	_	_	_	_	
+34-12	2762-2769	princip	_	_	_	_	_	_	_	
+34-13	2770-2773	har	_	_	_	_	_	_	_	
+34-14	2774-2780	skänkt	_	_	_	_	_	_	_	
+34-15	2781-2785	bort	_	_	_	_	_	_	_	
+34-16	2786-2788	en	_	_	_	_	_	_	_	
+34-17	2789-2792	del	_	_	_	_	_	_	_	
+34-18	2793-2795	av	_	_	_	_	_	_	_	
+34-19	2796-2809	Bilprovningen	_	_	_	_	_	_	_	
+34-20	2810-2814	till	_	_	_	_	_	_	_	
+34-21	2815-2818	ett	_	_	_	_	_	_	_	
+34-22	2819-2824	bolag	_	_	_	_	_	_	_	
+34-23	2825-2828	som	_	_	_	_	_	_	_	
+34-24	2829-2833	inte	_	_	_	_	_	_	_	
+34-25	2834-2837	ens	_	_	_	_	_	_	_	
+34-26	2838-2844	kommer	_	_	_	_	_	_	_	
+34-27	2845-2848	att	_	_	_	_	_	_	_	
+34-28	2849-2855	betala	_	_	_	_	_	_	_	
+34-29	2856-2860	hela	_	_	_	_	_	_	_	
+34-30	2861-2864	sin	_	_	_	_	_	_	_	
+34-31	2865-2870	skatt	_	_	_	_	_	_	_	
+34-32	2871-2872	i	_	_	_	_	_	_	_	
+34-33	2873-2880	Sverige	_	_	_	_	_	_	_	
+34-34	2880-2881	.	_	Target	34-10	false	2	_	_	
+
+#Text=Regeringen kan inte göra sig av med gemensam egendom till vilket pris som helst.
+35-1	2882-2892	Regeringen	*	_	_	_	_	_	_	
+35-2	2893-2896	kan	_	Target;Target[13]	35-1;35-4[28]	false[13]	2[13]	_	_	
+35-3	2897-2901	inte	_	Target;Target[13]	35-1;35-4[28]	false[13]	2[13]	_	_	
+35-4	2902-2906	göra	*[28]	_	_	_	_	_	_	
+35-5	2907-2910	sig	*[28]	_	_	_	_	_	_	
+35-6	2911-2913	av	*[28]	_	_	_	_	_	_	
+35-7	2914-2917	med	*[28]	_	_	_	_	_	_	
+35-8	2918-2926	gemensam	*[28]	_	_	_	_	_	_	
+35-9	2927-2934	egendom	*[28]	_	_	_	_	_	_	
+35-10	2935-2939	till	*[28]	_	_	_	_	_	_	
+35-11	2940-2946	vilket	*[28]	_	_	_	_	_	_	
+35-12	2947-2951	pris	*[28]	_	_	_	_	_	_	
+35-13	2952-2955	som	*[28]	_	_	_	_	_	_	
+35-14	2956-2961	helst	*[28]	_	_	_	_	_	_	
+35-15	2961-2962	.	_	_	_	_	_	_	_	
+
+#Text=Därför KU-anmälde jag igår Bilprovningsaffären.
+36-1	2963-2969	Därför	_	_	_	_	_	_	_	
+36-2	2970-2980	KU-anmälde	_	Target;Source	36-5;36-3	false	2	_	_	
+36-3	2981-2984	jag	*	_	_	_	_	_	_	
+36-4	2985-2989	igår	_	_	_	_	_	_	_	
+36-5	2990-3009	Bilprovningsaffären	*	_	_	_	_	_	_	
+36-6	3009-3010	.	_	_	_	_	_	_	_	
+
+#Text=Frågan om information och öppenhet kring försäljning av statligt ägda bolag är i grunden en demokratifråga eftersom det handlar om företag som hela svenska folket äger gemensamt.
+37-1	3011-3017	Frågan	_	_	_	_	_	_	_	
+37-2	3018-3020	om	_	_	_	_	_	_	_	
+37-3	3021-3032	information	_	_	_	_	_	_	_	
+37-4	3033-3036	och	_	_	_	_	_	_	_	
+37-5	3037-3045	öppenhet	_	_	_	_	_	_	_	
+37-6	3046-3051	kring	_	_	_	_	_	_	_	
+37-7	3052-3063	försäljning	_	_	_	_	_	_	_	
+37-8	3064-3066	av	_	_	_	_	_	_	_	
+37-9	3067-3075	statligt	_	_	_	_	_	_	_	
+37-10	3076-3080	ägda	_	_	_	_	_	_	_	
+37-11	3081-3086	bolag	_	_	_	_	_	_	_	
+37-12	3087-3089	är	_	_	_	_	_	_	_	
+37-13	3090-3091	i	_	_	_	_	_	_	_	
+37-14	3092-3099	grunden	_	_	_	_	_	_	_	
+37-15	3100-3102	en	_	_	_	_	_	_	_	
+37-16	3103-3117	demokratifråga	_	_	_	_	_	_	_	
+37-17	3118-3126	eftersom	_	_	_	_	_	_	_	
+37-18	3127-3130	det	_	_	_	_	_	_	_	
+37-19	3131-3138	handlar	_	_	_	_	_	_	_	
+37-20	3139-3141	om	_	_	_	_	_	_	_	
+37-21	3142-3149	företag	_	_	_	_	_	_	_	
+37-22	3150-3153	som	_	_	_	_	_	_	_	
+37-23	3154-3158	hela	_	_	_	_	_	_	_	
+37-24	3159-3166	svenska	_	_	_	_	_	_	_	
+37-25	3167-3173	folket	_	_	_	_	_	_	_	
+37-26	3174-3178	äger	_	_	_	_	_	_	_	
+37-27	3179-3188	gemensamt	_	_	_	_	_	_	_	
+37-28	3188-3189	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen kan inte få fortsätta skänka bort folkets egendomar på detta sätt.
+38-1	3190-3200	Regeringen	*	_	_	_	_	_	_	
+38-2	3201-3204	kan	_	Target;Target[14]	38-1;38-6[29]	false[14]	2[14]	_	_	
+38-3	3205-3209	inte	_	Target;Target[14]	38-1;38-6[29]	false[14]	2[14]	_	_	
+38-4	3210-3212	få	_	Target;Target[14]	38-1;38-6[29]	false[14]	2[14]	_	_	
+38-5	3213-3222	fortsätta	_	Target;Target[14]	38-1;38-6[29]	false[14]	2[14]	_	_	
+38-6	3223-3229	skänka	*[29]	_	_	_	_	_	_	
+38-7	3230-3234	bort	*[29]	_	_	_	_	_	_	
+38-8	3235-3242	folkets	*[29]	_	_	_	_	_	_	
+38-9	3243-3252	egendomar	*[29]	_	_	_	_	_	_	
+38-10	3253-3255	på	*[29]	_	_	_	_	_	_	
+38-11	3256-3261	detta	*[29]	_	_	_	_	_	_	
+38-12	3262-3266	sätt	*[29]	_	_	_	_	_	_	
+38-13	3266-3267	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3269-3270	#	_	_	_	_	_	_	_	
+39-2	3270-3271	P	_	_	_	_	_	_	_	
+39-3	3272-3275	IMM	_	_	_	_	_	_	_	
+39-4	3275-3276	.	_	_	_	_	_	_	_	
+
+#Text=Siv Holma.
+40-1	3278-3281	Siv	_	_	_	_	_	_	_	
+40-2	3282-3287	Holma	_	_	_	_	_	_	_	
+40-3	3287-3288	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3290-3291	#	_	_	_	_	_	_	_	
+41-2	3291-3292	P	_	_	_	_	_	_	_	
+41-3	3293-3296	IMM	_	_	_	_	_	_	_	
+41-4	3296-3297	.	_	_	_	_	_	_	_	
+
+#Text=Riksdagsledamot (V).
+42-1	3299-3314	Riksdagsledamot	_	_	_	_	_	_	_	
+42-2	3315-3316	(	_	_	_	_	_	_	_	
+42-3	3316-3317	V	_	_	_	_	_	_	_	
+42-4	3317-3318	)	_	_	_	_	_	_	_	
+42-5	3318-3319	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3321-3322	#	_	_	_	_	_	_	_	
+43-2	3322-3323	P	_	_	_	_	_	_	_	
+43-3	3324-3327	IMM	_	_	_	_	_	_	_	
+43-4	3327-3328	.	_	_	_	_	_	_	_	
+
+#Text=Ledamot i Trafikutskottet.
+44-1	3330-3337	Ledamot	_	_	_	_	_	_	_	
+44-2	3338-3339	i	_	_	_	_	_	_	_	
+44-3	3340-3355	Trafikutskottet	_	_	_	_	_	_	_	
+44-4	3355-3356	.	_	_	_	_	_	_	_	

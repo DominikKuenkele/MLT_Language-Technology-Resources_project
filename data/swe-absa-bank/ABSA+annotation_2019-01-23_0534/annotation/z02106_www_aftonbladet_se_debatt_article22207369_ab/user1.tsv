@@ -1,0 +1,806 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Otryggheten får inte bita sig fast i Sverige.
+3-1	18-29	Otryggheten	_	_	_	_	_	_	_	
+3-2	30-33	får	_	_	_	_	_	_	_	
+3-3	34-38	inte	_	_	_	_	_	_	_	
+3-4	39-43	bita	_	_	_	_	_	_	_	
+3-5	44-47	sig	_	_	_	_	_	_	_	
+3-6	48-52	fast	_	_	_	_	_	_	_	
+3-7	53-54	i	_	_	_	_	_	_	_	
+3-8	55-62	Sverige	_	_	_	_	_	_	_	
+3-9	62-63	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	_	_	
+4-2	66-67	P	_	_	_	_	_	_	_	
+4-3	68-71	IMM	_	_	_	_	_	_	_	
+4-4	71-72	.	_	_	_	_	_	_	_	
+
+#Text=Det finns en otrygghet som är på väg att bita sig fast i Sverige.
+5-1	74-77	Det	_	_	_	_	_	_	_	
+5-2	78-83	finns	_	_	_	_	_	_	_	
+5-3	84-86	en	_	_	_	_	_	_	_	
+5-4	87-96	otrygghet	_	_	_	_	_	_	_	
+5-5	97-100	som	_	_	_	_	_	_	_	
+5-6	101-103	är	_	_	_	_	_	_	_	
+5-7	104-106	på	_	_	_	_	_	_	_	
+5-8	107-110	väg	_	_	_	_	_	_	_	
+5-9	111-114	att	_	_	_	_	_	_	_	
+5-10	115-119	bita	_	_	_	_	_	_	_	
+5-11	120-123	sig	_	_	_	_	_	_	_	
+5-12	124-128	fast	_	_	_	_	_	_	_	
+5-13	129-130	i	_	_	_	_	_	_	_	
+5-14	131-138	Sverige	_	_	_	_	_	_	_	
+5-15	138-139	.	_	_	_	_	_	_	_	
+
+#Text=Arbetslöshet och nedskärningar har ökat klyftorna mellan människor under många år.
+6-1	140-152	Arbetslöshet	*[13]	_	_	_	_	_	_	
+6-2	153-156	och	*[13]	_	_	_	_	_	_	
+6-3	157-170	nedskärningar	*[13]	_	_	_	_	_	_	
+6-4	171-174	har	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-5	175-179	ökat	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-6	180-189	klyftorna	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-7	190-196	mellan	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-8	197-206	människor	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-9	207-212	under	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-10	213-218	många	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-11	219-221	år	_	Target[1]	6-1[13]	false[1]	2[1]	_	_	
+6-12	221-222	.	_	_	_	_	_	_	_	
+
+#Text=Den utvecklingen måste vändas.
+7-1	223-226	Den	*[14]	_	_	_	_	_	_	
+7-2	227-239	utvecklingen	*[14]	_	_	_	_	_	_	
+7-3	240-245	måste	_	Target[2]	7-1[14]	false[2]	2[2]	_	_	
+7-4	246-252	vändas	_	Target[2]	7-1[14]	false[2]	2[2]	_	_	
+7-5	252-253	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är ett land med stora styrkor.
+8-1	254-261	Sverige	*	_	_	_	_	_	_	
+8-2	262-264	är	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-3	265-268	ett	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-4	269-273	land	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-5	274-277	med	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-6	278-283	stora	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-7	284-291	styrkor	_	Target[3]	8-1	false[3]	4[3]	_	_	
+8-8	291-292	.	_	_	_	_	_	_	_	
+
+#Text=Framåtandan i växande, innovativa och hållbara företag; arbetsmoralen hos alla som jobbar och gör sin plikt; och samarbetstanken och människors engagemang som gjort att vi alltid nått längre tillsammans.
+9-1	293-304	Framåtandan	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-2	305-306	i	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-3	307-314	växande	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-4	314-315	,	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-5	316-326	innovativa	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-6	327-330	och	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-7	331-339	hållbara	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-8	340-347	företag	_	Target[4]	8-1	false[4]	4[4]	_	_	
+9-9	347-348	;	_	_	_	_	_	_	_	
+9-10	349-362	arbetsmoralen	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-11	363-366	hos	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-12	367-371	alla	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-13	372-375	som	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-14	376-382	jobbar	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-15	383-386	och	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-16	387-390	gör	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-17	391-394	sin	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-18	395-400	plikt	_	Target[5]	8-1	false[5]	4[5]	_	_	
+9-19	400-401	;	_	_	_	_	_	_	_	
+9-20	402-405	och	_	_	_	_	_	_	_	
+9-21	406-421	samarbetstanken	*[15]	Target[6]	8-1	false[6]	4[6]	_	_	
+9-22	422-425	och	*[15]	Target[6]	8-1	false[6]	4[6]	_	_	
+9-23	426-436	människors	*[15]	Target[6]	8-1	false[6]	4[6]	_	_	
+9-24	437-447	engagemang	*[15]	Target[6]	8-1	false[6]	4[6]	_	_	
+9-25	448-451	som	_	Target[6]	8-1	false[6]	4[6]	_	_	
+9-26	452-457	gjort	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-27	458-461	att	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-28	462-464	vi	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-29	465-471	alltid	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-30	472-476	nått	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-31	477-483	längre	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-32	484-495	tillsammans	_	Target[6]|Target[7]	8-1|9-21[15]	false[6]|false[7]	4[6]|4[7]	_	_	
+9-33	495-496	.	_	_	_	_	_	_	_	
+
+#Text=Nu ser vi också hur exporten växer, tillväxten ökar och allt fler unga får sitt första jobb.
+10-1	497-499	Nu	_	_	_	_	_	_	_	
+10-2	500-503	ser	_	_	_	_	_	_	_	
+10-3	504-506	vi	_	_	_	_	_	_	_	
+10-4	507-512	också	_	_	_	_	_	_	_	
+10-5	513-516	hur	_	_	_	_	_	_	_	
+10-6	517-525	exporten	_	_	_	_	_	_	_	
+10-7	526-531	växer	_	_	_	_	_	_	_	
+10-8	531-532	,	_	_	_	_	_	_	_	
+10-9	533-543	tillväxten	_	_	_	_	_	_	_	
+10-10	544-548	ökar	_	_	_	_	_	_	_	
+10-11	549-552	och	_	_	_	_	_	_	_	
+10-12	553-557	allt	_	_	_	_	_	_	_	
+10-13	558-562	fler	_	_	_	_	_	_	_	
+10-14	563-567	unga	_	_	_	_	_	_	_	
+10-15	568-571	får	_	_	_	_	_	_	_	
+10-16	572-576	sitt	_	_	_	_	_	_	_	
+10-17	577-583	första	_	_	_	_	_	_	_	
+10-18	584-588	jobb	_	_	_	_	_	_	_	
+10-19	588-589	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	591-592	#	_	_	_	_	_	_	_	
+11-2	592-593	P	_	_	_	_	_	_	_	
+11-3	594-597	IMM	_	_	_	_	_	_	_	
+11-4	597-598	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har i ett svårt parlamentariskt läge vidtagit nödvändiga åtgärder för att minska antalet asylsökande.
+12-1	600-610	Regeringen	_	_	_	_	_	_	_	
+12-2	611-614	har	_	_	_	_	_	_	_	
+12-3	615-616	i	_	_	_	_	_	_	_	
+12-4	617-620	ett	_	_	_	_	_	_	_	
+12-5	621-626	svårt	_	_	_	_	_	_	_	
+12-6	627-642	parlamentariskt	_	_	_	_	_	_	_	
+12-7	643-647	läge	_	_	_	_	_	_	_	
+12-8	648-656	vidtagit	_	_	_	_	_	_	_	
+12-9	657-667	nödvändiga	_	_	_	_	_	_	_	
+12-10	668-676	åtgärder	_	_	_	_	_	_	_	
+12-11	677-680	för	_	_	_	_	_	_	_	
+12-12	681-684	att	_	_	_	_	_	_	_	
+12-13	685-691	minska	_	_	_	_	_	_	_	
+12-14	692-699	antalet	_	_	_	_	_	_	_	
+12-15	700-711	asylsökande	_	_	_	_	_	_	_	
+12-16	711-712	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser att nivåerna nu har minskat och vi är beredda att göra mer för att vi inte ska hamna i den situation vi hade i höstas.
+13-1	713-715	Vi	_	_	_	_	_	_	_	
+13-2	716-719	ser	_	_	_	_	_	_	_	
+13-3	720-723	att	_	_	_	_	_	_	_	
+13-4	724-732	nivåerna	_	_	_	_	_	_	_	
+13-5	733-735	nu	_	_	_	_	_	_	_	
+13-6	736-739	har	_	_	_	_	_	_	_	
+13-7	740-747	minskat	_	_	_	_	_	_	_	
+13-8	748-751	och	_	_	_	_	_	_	_	
+13-9	752-754	vi	_	_	_	_	_	_	_	
+13-10	755-757	är	_	_	_	_	_	_	_	
+13-11	758-765	beredda	_	_	_	_	_	_	_	
+13-12	766-769	att	_	_	_	_	_	_	_	
+13-13	770-774	göra	_	_	_	_	_	_	_	
+13-14	775-778	mer	_	_	_	_	_	_	_	
+13-15	779-782	för	_	_	_	_	_	_	_	
+13-16	783-786	att	_	_	_	_	_	_	_	
+13-17	787-789	vi	_	_	_	_	_	_	_	
+13-18	790-794	inte	_	_	_	_	_	_	_	
+13-19	795-798	ska	_	_	_	_	_	_	_	
+13-20	799-804	hamna	_	_	_	_	_	_	_	
+13-21	805-806	i	_	_	_	_	_	_	_	
+13-22	807-810	den	_	_	_	_	_	_	_	
+13-23	811-820	situation	_	_	_	_	_	_	_	
+13-24	821-823	vi	_	_	_	_	_	_	_	
+13-25	824-828	hade	_	_	_	_	_	_	_	
+13-26	829-830	i	_	_	_	_	_	_	_	
+13-27	831-837	höstas	_	_	_	_	_	_	_	
+13-28	837-838	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	840-841	#	_	_	_	_	_	_	_	
+14-2	841-842	P	_	_	_	_	_	_	_	
+14-3	843-846	IMM	_	_	_	_	_	_	_	
+14-4	846-847	.	_	_	_	_	_	_	_	
+
+#Text=Vi har samtidigt halverat budgetunderskottet och ökar investeringarna i nya jobbchanser, en bättre skola, fler bostäder, i välfärden och försvaret.
+15-1	849-851	Vi	_	_	_	_	_	_	_	
+15-2	852-855	har	_	_	_	_	_	_	_	
+15-3	856-865	samtidigt	_	_	_	_	_	_	_	
+15-4	866-874	halverat	_	_	_	_	_	_	_	
+15-5	875-893	budgetunderskottet	_	_	_	_	_	_	_	
+15-6	894-897	och	_	_	_	_	_	_	_	
+15-7	898-902	ökar	_	_	_	_	_	_	_	
+15-8	903-918	investeringarna	_	_	_	_	_	_	_	
+15-9	919-920	i	_	_	_	_	_	_	_	
+15-10	921-924	nya	_	_	_	_	_	_	_	
+15-11	925-936	jobbchanser	_	_	_	_	_	_	_	
+15-12	936-937	,	_	_	_	_	_	_	_	
+15-13	938-940	en	_	_	_	_	_	_	_	
+15-14	941-947	bättre	_	_	_	_	_	_	_	
+15-15	948-953	skola	_	_	_	_	_	_	_	
+15-16	953-954	,	_	_	_	_	_	_	_	
+15-17	955-959	fler	_	_	_	_	_	_	_	
+15-18	960-968	bostäder	_	_	_	_	_	_	_	
+15-19	968-969	,	_	_	_	_	_	_	_	
+15-20	970-971	i	_	_	_	_	_	_	_	
+15-21	972-981	välfärden	_	_	_	_	_	_	_	
+15-22	982-985	och	_	_	_	_	_	_	_	
+15-23	986-995	försvaret	_	_	_	_	_	_	_	
+15-24	995-996	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	998-999	#	_	_	_	_	_	_	_	
+16-2	999-1000	P	_	_	_	_	_	_	_	
+16-3	1001-1004	IMM	_	_	_	_	_	_	_	
+16-4	1004-1005	.	_	_	_	_	_	_	_	
+
+#Text=Redan i år investerar vi kraftigt i Sveriges nya jobbagenda – med infrastruktursatsningar, en ny exportstrategi och bättre tillgång till riskkapital för små och medelstora företag.
+17-1	1007-1012	Redan	_	_	_	_	_	_	_	
+17-2	1013-1014	i	_	_	_	_	_	_	_	
+17-3	1015-1017	år	_	_	_	_	_	_	_	
+17-4	1018-1028	investerar	_	_	_	_	_	_	_	
+17-5	1029-1031	vi	_	_	_	_	_	_	_	
+17-6	1032-1040	kraftigt	_	_	_	_	_	_	_	
+17-7	1041-1042	i	_	_	_	_	_	_	_	
+17-8	1043-1051	Sveriges	_	_	_	_	_	_	_	
+17-9	1052-1055	nya	_	_	_	_	_	_	_	
+17-10	1056-1066	jobbagenda	_	_	_	_	_	_	_	
+17-11	1067-1068	–	_	_	_	_	_	_	_	
+17-12	1069-1072	med	_	_	_	_	_	_	_	
+17-13	1073-1096	infrastruktursatsningar	_	_	_	_	_	_	_	
+17-14	1096-1097	,	_	_	_	_	_	_	_	
+17-15	1098-1100	en	_	_	_	_	_	_	_	
+17-16	1101-1103	ny	_	_	_	_	_	_	_	
+17-17	1104-1118	exportstrategi	_	_	_	_	_	_	_	
+17-18	1119-1122	och	_	_	_	_	_	_	_	
+17-19	1123-1129	bättre	_	_	_	_	_	_	_	
+17-20	1130-1138	tillgång	_	_	_	_	_	_	_	
+17-21	1139-1143	till	_	_	_	_	_	_	_	
+17-22	1144-1155	riskkapital	_	_	_	_	_	_	_	
+17-23	1156-1159	för	_	_	_	_	_	_	_	
+17-24	1160-1163	små	_	_	_	_	_	_	_	
+17-25	1164-1167	och	_	_	_	_	_	_	_	
+17-26	1168-1178	medelstora	_	_	_	_	_	_	_	
+17-27	1179-1186	företag	_	_	_	_	_	_	_	
+17-28	1186-1187	.	_	_	_	_	_	_	_	
+
+#Text=Vi investerar i ett nytt kunskapslyft med över 50 000 nya utbildningsplatser så att fler kan ta de jobb som växer fram.
+18-1	1188-1190	Vi	_	_	_	_	_	_	_	
+18-2	1191-1201	investerar	_	_	_	_	_	_	_	
+18-3	1202-1203	i	_	_	_	_	_	_	_	
+18-4	1204-1207	ett	_	_	_	_	_	_	_	
+18-5	1208-1212	nytt	_	_	_	_	_	_	_	
+18-6	1213-1225	kunskapslyft	_	_	_	_	_	_	_	
+18-7	1226-1229	med	_	_	_	_	_	_	_	
+18-8	1230-1234	över	_	_	_	_	_	_	_	
+18-9	1235-1237	50	_	_	_	_	_	_	_	
+18-10	1238-1241	000	_	_	_	_	_	_	_	
+18-11	1242-1245	nya	_	_	_	_	_	_	_	
+18-12	1246-1264	utbildningsplatser	_	_	_	_	_	_	_	
+18-13	1265-1267	så	_	_	_	_	_	_	_	
+18-14	1268-1271	att	_	_	_	_	_	_	_	
+18-15	1272-1276	fler	_	_	_	_	_	_	_	
+18-16	1277-1280	kan	_	_	_	_	_	_	_	
+18-17	1281-1283	ta	_	_	_	_	_	_	_	
+18-18	1284-1286	de	_	_	_	_	_	_	_	
+18-19	1287-1291	jobb	_	_	_	_	_	_	_	
+18-20	1292-1295	som	_	_	_	_	_	_	_	
+18-21	1296-1301	växer	_	_	_	_	_	_	_	
+18-22	1302-1306	fram	_	_	_	_	_	_	_	
+18-23	1306-1307	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1309-1310	#	_	_	_	_	_	_	_	
+19-2	1310-1311	P	_	_	_	_	_	_	_	
+19-3	1312-1315	IMM	_	_	_	_	_	_	_	
+19-4	1315-1316	.	_	_	_	_	_	_	_	
+
+#Text=I år förverkligas också vår satsning på höjda lärarlöner, mindre klasser i lågstadiet och ökat stöd till de skolor som behöver det mest.
+20-1	1318-1319	I	_	_	_	_	_	_	_	
+20-2	1320-1322	år	_	_	_	_	_	_	_	
+20-3	1323-1335	förverkligas	_	_	_	_	_	_	_	
+20-4	1336-1341	också	_	_	_	_	_	_	_	
+20-5	1342-1345	vår	_	_	_	_	_	_	_	
+20-6	1346-1354	satsning	_	_	_	_	_	_	_	
+20-7	1355-1357	på	_	_	_	_	_	_	_	
+20-8	1358-1363	höjda	_	_	_	_	_	_	_	
+20-9	1364-1374	lärarlöner	_	_	_	_	_	_	_	
+20-10	1374-1375	,	_	_	_	_	_	_	_	
+20-11	1376-1382	mindre	_	_	_	_	_	_	_	
+20-12	1383-1390	klasser	_	_	_	_	_	_	_	
+20-13	1391-1392	i	_	_	_	_	_	_	_	
+20-14	1393-1403	lågstadiet	_	_	_	_	_	_	_	
+20-15	1404-1407	och	_	_	_	_	_	_	_	
+20-16	1408-1412	ökat	_	_	_	_	_	_	_	
+20-17	1413-1417	stöd	_	_	_	_	_	_	_	
+20-18	1418-1422	till	_	_	_	_	_	_	_	
+20-19	1423-1425	de	_	_	_	_	_	_	_	
+20-20	1426-1432	skolor	_	_	_	_	_	_	_	
+20-21	1433-1436	som	_	_	_	_	_	_	_	
+20-22	1437-1444	behöver	_	_	_	_	_	_	_	
+20-23	1445-1448	det	_	_	_	_	_	_	_	
+20-24	1449-1453	mest	_	_	_	_	_	_	_	
+20-25	1453-1454	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt inleds redan i år den största bostadssatsningen på över 20 år.
+21-1	1455-1464	Samtidigt	_	_	_	_	_	_	_	
+21-2	1465-1471	inleds	_	_	_	_	_	_	_	
+21-3	1472-1477	redan	_	_	_	_	_	_	_	
+21-4	1478-1479	i	_	_	_	_	_	_	_	
+21-5	1480-1482	år	_	_	_	_	_	_	_	
+21-6	1483-1486	den	_	_	_	_	_	_	_	
+21-7	1487-1494	största	_	_	_	_	_	_	_	
+21-8	1495-1512	bostadssatsningen	_	_	_	_	_	_	_	
+21-9	1513-1515	på	_	_	_	_	_	_	_	
+21-10	1516-1520	över	_	_	_	_	_	_	_	
+21-11	1521-1523	20	_	_	_	_	_	_	_	
+21-12	1524-1526	år	_	_	_	_	_	_	_	
+21-13	1526-1527	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1529-1530	#	_	_	_	_	_	_	_	
+22-2	1530-1531	P	_	_	_	_	_	_	_	
+22-3	1532-1535	IMM	_	_	_	_	_	_	_	
+22-4	1535-1536	.	_	_	_	_	_	_	_	
+
+#Text=Vårt vägval för framtiden är att fortsätta utveckla det som byggt Sverige starkt.
+23-1	1538-1542	Vårt	_	_	_	_	_	_	_	
+23-2	1543-1549	vägval	_	_	_	_	_	_	_	
+23-3	1550-1553	för	_	_	_	_	_	_	_	
+23-4	1554-1563	framtiden	_	_	_	_	_	_	_	
+23-5	1564-1566	är	_	_	_	_	_	_	_	
+23-6	1567-1570	att	_	_	_	_	_	_	_	
+23-7	1571-1580	fortsätta	_	_	_	_	_	_	_	
+23-8	1581-1589	utveckla	_	_	_	_	_	_	_	
+23-9	1590-1593	det	_	_	_	_	_	_	_	
+23-10	1594-1597	som	_	_	_	_	_	_	_	
+23-11	1598-1603	byggt	_	_	_	_	_	_	_	
+23-12	1604-1611	Sverige	_	_	_	_	_	_	_	
+23-13	1612-1618	starkt	_	_	_	_	_	_	_	
+23-14	1618-1619	.	_	_	_	_	_	_	_	
+
+#Text=Den svenska modellen bygger på hårt arbete, stark generell välfärd och ett land som håller ihop.
+24-1	1620-1623	Den	_	_	_	_	_	_	_	
+24-2	1624-1631	svenska	_	_	_	_	_	_	_	
+24-3	1632-1640	modellen	_	_	_	_	_	_	_	
+24-4	1641-1647	bygger	_	_	_	_	_	_	_	
+24-5	1648-1650	på	_	_	_	_	_	_	_	
+24-6	1651-1655	hårt	_	_	_	_	_	_	_	
+24-7	1656-1662	arbete	_	_	_	_	_	_	_	
+24-8	1662-1663	,	_	_	_	_	_	_	_	
+24-9	1664-1669	stark	_	_	_	_	_	_	_	
+24-10	1670-1678	generell	_	_	_	_	_	_	_	
+24-11	1679-1686	välfärd	_	_	_	_	_	_	_	
+24-12	1687-1690	och	_	_	_	_	_	_	_	
+24-13	1691-1694	ett	_	_	_	_	_	_	_	
+24-14	1695-1699	land	_	_	_	_	_	_	_	
+24-15	1700-1703	som	_	_	_	_	_	_	_	
+24-16	1704-1710	håller	_	_	_	_	_	_	_	
+24-17	1711-1715	ihop	_	_	_	_	_	_	_	
+24-18	1715-1716	.	_	_	_	_	_	_	_	
+
+#Text=Att alla som kan arbeta gör det och kan leva på sin lön är grundförutsättningen för människors makt över sin vardag.
+25-1	1717-1720	Att	_	_	_	_	_	_	_	
+25-2	1721-1725	alla	_	_	_	_	_	_	_	
+25-3	1726-1729	som	_	_	_	_	_	_	_	
+25-4	1730-1733	kan	_	_	_	_	_	_	_	
+25-5	1734-1740	arbeta	_	_	_	_	_	_	_	
+25-6	1741-1744	gör	_	_	_	_	_	_	_	
+25-7	1745-1748	det	_	_	_	_	_	_	_	
+25-8	1749-1752	och	_	_	_	_	_	_	_	
+25-9	1753-1756	kan	_	_	_	_	_	_	_	
+25-10	1757-1761	leva	_	_	_	_	_	_	_	
+25-11	1762-1764	på	_	_	_	_	_	_	_	
+25-12	1765-1768	sin	_	_	_	_	_	_	_	
+25-13	1769-1772	lön	_	_	_	_	_	_	_	
+25-14	1773-1775	är	_	_	_	_	_	_	_	
+25-15	1776-1796	grundförutsättningen	_	_	_	_	_	_	_	
+25-16	1797-1800	för	_	_	_	_	_	_	_	
+25-17	1801-1811	människors	_	_	_	_	_	_	_	
+25-18	1812-1816	makt	_	_	_	_	_	_	_	
+25-19	1817-1821	över	_	_	_	_	_	_	_	
+25-20	1822-1825	sin	_	_	_	_	_	_	_	
+25-21	1826-1832	vardag	_	_	_	_	_	_	_	
+25-22	1832-1833	.	_	_	_	_	_	_	_	
+
+#Text=Därför är och förblir jobben vår viktigaste fråga.
+26-1	1834-1840	Därför	_	_	_	_	_	_	_	
+26-2	1841-1843	är	_	_	_	_	_	_	_	
+26-3	1844-1847	och	_	_	_	_	_	_	_	
+26-4	1848-1855	förblir	_	_	_	false	4	_	_	
+26-5	1856-1862	jobben	*	_	_	_	_	_	_	
+26-6	1863-1866	vår	_	Target[8]	26-5	false[8]	4[8]	26-4[0_8]	_	
+26-7	1867-1877	viktigaste	_	Target[8]	26-5	false[8]	4[8]	_	_	
+26-8	1878-1883	fråga	_	Target[8]	26-5	false[8]	4[8]	_	_	
+26-9	1883-1884	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1886-1887	#	_	_	_	_	_	_	_	
+27-2	1887-1888	P	_	_	_	_	_	_	_	
+27-3	1889-1892	IMM	_	_	_	_	_	_	_	
+27-4	1892-1893	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt kommer vi se till att Sverige har en ordnad och reglerad invandring, där de som får avslag återvänder, och där vägen till jobb kortas för dem som får stanna.
+28-1	1895-1904	Samtidigt	_	_	_	_	_	_	_	
+28-2	1905-1911	kommer	_	_	_	_	_	_	_	
+28-3	1912-1914	vi	_	_	_	_	_	_	_	
+28-4	1915-1917	se	_	_	_	_	_	_	_	
+28-5	1918-1922	till	_	_	_	_	_	_	_	
+28-6	1923-1926	att	_	_	_	_	_	_	_	
+28-7	1927-1934	Sverige	_	_	_	_	_	_	_	
+28-8	1935-1938	har	_	_	_	_	_	_	_	
+28-9	1939-1941	en	_	_	_	_	_	_	_	
+28-10	1942-1948	ordnad	_	_	_	_	_	_	_	
+28-11	1949-1952	och	_	_	_	_	_	_	_	
+28-12	1953-1961	reglerad	_	_	_	_	_	_	_	
+28-13	1962-1972	invandring	_	_	_	_	_	_	_	
+28-14	1972-1973	,	_	_	_	_	_	_	_	
+28-15	1974-1977	där	_	_	_	_	_	_	_	
+28-16	1978-1980	de	_	_	_	_	_	_	_	
+28-17	1981-1984	som	_	_	_	_	_	_	_	
+28-18	1985-1988	får	_	_	_	_	_	_	_	
+28-19	1989-1995	avslag	_	_	_	_	_	_	_	
+28-20	1996-2006	återvänder	_	_	_	_	_	_	_	
+28-21	2006-2007	,	_	_	_	_	_	_	_	
+28-22	2008-2011	och	_	_	_	_	_	_	_	
+28-23	2012-2015	där	_	_	_	_	_	_	_	
+28-24	2016-2021	vägen	_	_	_	_	_	_	_	
+28-25	2022-2026	till	_	_	_	_	_	_	_	
+28-26	2027-2031	jobb	_	_	_	_	_	_	_	
+28-27	2032-2038	kortas	_	_	_	_	_	_	_	
+28-28	2039-2042	för	_	_	_	_	_	_	_	
+28-29	2043-2046	dem	_	_	_	_	_	_	_	
+28-30	2047-2050	som	_	_	_	_	_	_	_	
+28-31	2051-2054	får	_	_	_	_	_	_	_	
+28-32	2055-2061	stanna	_	_	_	_	_	_	_	
+28-33	2061-2062	.	_	_	_	_	_	_	_	
+
+#Text=Så skapar vi en svensk modell att lita på.
+29-1	2063-2065	Så	_	_	_	_	_	_	_	
+29-2	2066-2072	skapar	_	_	_	_	_	_	_	
+29-3	2073-2075	vi	_	_	_	_	_	_	_	
+29-4	2076-2078	en	_	_	_	_	_	_	_	
+29-5	2079-2085	svensk	_	_	_	_	_	_	_	
+29-6	2086-2092	modell	_	_	_	_	_	_	_	
+29-7	2093-2096	att	_	_	_	_	_	_	_	
+29-8	2097-2101	lita	_	_	_	_	_	_	_	
+29-9	2102-2104	på	_	_	_	_	_	_	_	
+29-10	2104-2105	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2107-2108	#	_	_	_	_	_	_	_	
+30-2	2108-2109	P	_	_	_	_	_	_	_	
+30-3	2110-2113	IMM	_	_	_	_	_	_	_	
+30-4	2113-2114	.	_	_	_	_	_	_	_	
+
+#Text=Moderaterna väljer en helt annan väg.
+31-1	2116-2127	Moderaterna	*	_	_	_	_	_	33-1	
+31-2	2128-2134	väljer	_	_	_	_	_	_	_	
+31-3	2135-2137	en	_	_	_	_	_	_	_	
+31-4	2138-2142	helt	_	_	_	_	_	_	_	
+31-5	2143-2148	annan	_	_	_	_	_	_	_	
+31-6	2149-2152	väg	_	_	_	_	_	_	_	
+31-7	2152-2153	.	_	_	_	_	_	_	_	
+
+#Text=De föreslår fortsatta skattesänkningar som ger mest till höginkomsttagare.
+32-1	2154-2156	De	_	_	_	_	_	_	_	
+32-2	2157-2165	föreslår	_	_	_	_	_	_	_	
+32-3	2166-2175	fortsatta	_	_	_	_	_	_	_	
+32-4	2176-2192	skattesänkningar	_	_	_	_	_	_	_	
+32-5	2193-2196	som	_	_	_	_	_	_	_	
+32-6	2197-2200	ger	_	_	_	_	_	_	_	
+32-7	2201-2205	mest	_	_	_	_	_	_	_	
+32-8	2206-2210	till	_	_	_	_	_	_	_	
+32-9	2211-2227	höginkomsttagare	_	_	_	_	_	_	_	
+32-10	2227-2228	.	_	_	_	_	_	_	_	
+
+#Text=De föreslår otrygga anställningsformer, lägre löner och fortsatta nedskärningar.
+33-1	2229-2231	De	*	_	_	_	_	_	_	
+33-2	2232-2240	föreslår	_	Target[9]	33-1	false[9]	2[9]	_	_	
+33-3	2241-2248	otrygga	_	Target[9]	33-1	false[9]	2[9]	_	_	
+33-4	2249-2267	anställningsformer	_	Target[9]	33-1	false[9]	2[9]	_	_	
+33-5	2267-2268	,	_	_	_	_	_	_	_	
+33-6	2269-2274	lägre	_	_	_	_	_	_	_	
+33-7	2275-2280	löner	_	_	_	_	_	_	_	
+33-8	2281-2284	och	_	_	_	_	_	_	_	
+33-9	2285-2294	fortsatta	_	_	_	_	_	_	_	
+33-10	2295-2308	nedskärningar	_	_	_	_	_	_	_	
+33-11	2308-2309	.	_	_	_	_	_	_	_	
+
+#Text=De säger nej till höjda lärarlöner och skolsatsningar, nej till investeringar för fler bostäder, nej till fler utbildningschanser.
+34-1	2310-2312	De	_	_	_	_	_	_	_	
+34-2	2313-2318	säger	_	_	_	_	_	_	_	
+34-3	2319-2322	nej	_	_	_	_	_	_	_	
+34-4	2323-2327	till	_	_	_	_	_	_	_	
+34-5	2328-2333	höjda	_	_	_	_	_	_	_	
+34-6	2334-2344	lärarlöner	_	_	_	_	_	_	_	
+34-7	2345-2348	och	_	_	_	_	_	_	_	
+34-8	2349-2363	skolsatsningar	_	_	_	_	_	_	_	
+34-9	2363-2364	,	_	_	_	_	_	_	_	
+34-10	2365-2368	nej	_	_	_	_	_	_	_	
+34-11	2369-2373	till	_	_	_	_	_	_	_	
+34-12	2374-2387	investeringar	_	_	_	_	_	_	_	
+34-13	2388-2391	för	_	_	_	_	_	_	_	
+34-14	2392-2396	fler	_	_	_	_	_	_	_	
+34-15	2397-2405	bostäder	_	_	_	_	_	_	_	
+34-16	2405-2406	,	_	_	_	_	_	_	_	
+34-17	2407-2410	nej	_	_	_	_	_	_	_	
+34-18	2411-2415	till	_	_	_	_	_	_	_	
+34-19	2416-2420	fler	_	_	_	_	_	_	_	
+34-20	2421-2439	utbildningschanser	_	_	_	_	_	_	_	
+34-21	2439-2440	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2442-2443	#	_	_	_	_	_	_	_	
+35-2	2443-2444	P	_	_	_	_	_	_	_	
+35-3	2445-2448	IMM	_	_	_	_	_	_	_	
+35-4	2448-2449	.	_	_	_	_	_	_	_	
+
+#Text=De fortsätter sin privatiserings- och utförsäljningsiver både på lokal och nationell nivå.
+36-1	2451-2453	De	_	_	_	_	_	_	_	
+36-2	2454-2464	fortsätter	_	_	_	_	_	_	_	
+36-3	2465-2468	sin	_	_	_	_	_	_	_	
+36-4	2469-2483	privatiserings	_	_	_	_	_	_	_	
+36-5	2483-2484	-	_	_	_	_	_	_	_	
+36-6	2485-2488	och	_	_	_	_	_	_	_	
+36-7	2489-2507	utförsäljningsiver	_	_	_	_	_	_	_	
+36-8	2508-2512	både	_	_	_	_	_	_	_	
+36-9	2513-2515	på	_	_	_	_	_	_	_	
+36-10	2516-2521	lokal	_	_	_	_	_	_	_	
+36-11	2522-2525	och	_	_	_	_	_	_	_	
+36-12	2526-2535	nationell	_	_	_	_	_	_	_	
+36-13	2536-2540	nivå	_	_	_	_	_	_	_	
+36-14	2540-2541	.	_	_	_	_	_	_	_	
+
+#Text=De vågar inte ens lyfta frågorna om hur vi säkerställer kvaliteten och arbetsmiljön i välfärden och att skattemedel inte ska gå direkt till vinster i skatteparadis.
+37-1	2542-2544	De	_	_	_	_	_	_	_	
+37-2	2545-2550	vågar	_	_	_	_	_	_	_	
+37-3	2551-2555	inte	_	_	_	_	_	_	_	
+37-4	2556-2559	ens	_	_	_	_	_	_	_	
+37-5	2560-2565	lyfta	_	_	_	_	_	_	_	
+37-6	2566-2574	frågorna	_	_	_	_	_	_	_	
+37-7	2575-2577	om	_	_	_	_	_	_	_	
+37-8	2578-2581	hur	_	_	_	_	_	_	_	
+37-9	2582-2584	vi	_	_	_	_	_	_	_	
+37-10	2585-2597	säkerställer	_	_	_	_	_	_	_	
+37-11	2598-2608	kvaliteten	_	_	_	_	_	_	_	
+37-12	2609-2612	och	_	_	_	_	_	_	_	
+37-13	2613-2625	arbetsmiljön	_	_	_	_	_	_	_	
+37-14	2626-2627	i	_	_	_	_	_	_	_	
+37-15	2628-2637	välfärden	_	_	_	_	_	_	_	
+37-16	2638-2641	och	_	_	_	_	_	_	_	
+37-17	2642-2645	att	_	_	_	_	_	_	_	
+37-18	2646-2657	skattemedel	_	_	_	_	_	_	_	
+37-19	2658-2662	inte	_	_	_	_	_	_	_	
+37-20	2663-2666	ska	_	_	_	_	_	_	_	
+37-21	2667-2669	gå	_	_	_	_	_	_	_	
+37-22	2670-2676	direkt	_	_	_	_	_	_	_	
+37-23	2677-2681	till	_	_	_	_	_	_	_	
+37-24	2682-2689	vinster	_	_	_	_	_	_	_	
+37-25	2690-2691	i	_	_	_	_	_	_	_	
+37-26	2692-2705	skatteparadis	_	_	_	_	_	_	_	
+37-27	2705-2706	.	_	_	_	_	_	_	_	
+
+#Text=Moderaternas vägval är bekymmersamt.
+38-1	2707-2719	Moderaternas	*[16]	_	_	_	_	_	_	
+38-2	2720-2726	vägval	*[16]	_	_	_	_	_	_	
+38-3	2727-2729	är	_	Target[10]	38-1[16]	false[10]	2[10]	_	_	
+38-4	2730-2742	bekymmersamt	_	Target[10]	38-1[16]	false[10]	2[10]	_	_	
+38-5	2742-2743	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2745-2746	#	_	_	_	_	_	_	_	
+39-2	2746-2747	P	_	_	_	_	_	_	_	
+39-3	2748-2751	IMM	_	_	_	_	_	_	_	
+39-4	2751-2752	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt har Sverigedemokraterna vuxit i två val och utgör i dag ett stort och reellt hot mot det svenska samhällsklimatet.
+40-1	2754-2763	Samtidigt	_	_	_	_	_	_	_	
+40-2	2764-2767	har	_	_	_	_	_	_	_	
+40-3	2768-2787	Sverigedemokraterna	*[17]|*[18]	_	_	_	_	_	41-2[0_18]	
+40-4	2788-2793	vuxit	_	_	_	_	_	_	_	
+40-5	2794-2795	i	_	_	_	_	_	_	_	
+40-6	2796-2799	två	_	_	_	_	_	_	_	
+40-7	2800-2803	val	_	_	_	_	_	_	_	
+40-8	2804-2807	och	_	_	_	_	_	_	_	
+40-9	2808-2813	utgör	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-10	2814-2815	i	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-11	2816-2819	dag	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-12	2820-2823	ett	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-13	2824-2829	stort	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-14	2830-2833	och	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-15	2834-2840	reellt	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-16	2841-2844	hot	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-17	2845-2848	mot	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-18	2849-2852	det	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-19	2853-2860	svenska	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-20	2861-2877	samhällsklimatet	_	Target[11]	40-3[17]	false[11]	2[11]	_	_	
+40-21	2877-2878	.	_	_	_	_	_	_	_	
+
+#Text=Att de inte är som andra demokratiska partier visar de gång på gång i uttalanden och agerande.
+41-1	2879-2882	Att	_	_	_	_	_	_	_	
+41-2	2883-2885	de	*	_	_	_	_	_	_	
+41-3	2886-2890	inte	_	_	_	_	_	_	_	
+41-4	2891-2893	är	_	_	_	_	_	_	_	
+41-5	2894-2897	som	_	_	_	_	_	_	_	
+41-6	2898-2903	andra	_	_	_	_	_	_	_	
+41-7	2904-2916	demokratiska	_	_	_	_	_	_	_	
+41-8	2917-2924	partier	_	_	_	_	_	_	_	
+41-9	2925-2930	visar	_	_	_	_	_	_	_	
+41-10	2931-2933	de	_	_	_	_	_	_	_	
+41-11	2934-2938	gång	_	_	_	_	_	_	_	
+41-12	2939-2941	på	_	_	_	_	_	_	_	
+41-13	2942-2946	gång	_	_	_	_	_	_	_	
+41-14	2947-2948	i	_	_	_	_	_	_	_	
+41-15	2949-2959	uttalanden	_	_	_	_	_	_	_	
+41-16	2960-2963	och	_	_	_	_	_	_	_	
+41-17	2964-2972	agerande	_	_	_	_	_	_	_	
+41-18	2972-2973	.	_	Target	41-2	false	2	_	_	
+
+#Text=#P IMM.
+42-1	2975-2976	#	_	_	_	_	_	_	_	
+42-2	2976-2977	P	_	_	_	_	_	_	_	
+42-3	2978-2981	IMM	_	_	_	_	_	_	_	
+42-4	2981-2982	.	_	_	_	_	_	_	_	
+
+#Text=Vi har stor förståelse för att väljare känner oro över samhällsutvecklingen och vi i de andra partierna måste dra lärdomar.
+43-1	2984-2986	Vi	_	_	_	_	_	_	_	
+43-2	2987-2990	har	_	_	_	_	_	_	_	
+43-3	2991-2995	stor	_	_	_	_	_	_	_	
+43-4	2996-3006	förståelse	_	_	_	_	_	_	_	
+43-5	3007-3010	för	_	_	_	_	_	_	_	
+43-6	3011-3014	att	_	_	_	_	_	_	_	
+43-7	3015-3022	väljare	_	_	_	_	_	_	_	
+43-8	3023-3029	känner	_	_	_	_	_	_	_	
+43-9	3030-3033	oro	_	_	_	_	_	_	_	
+43-10	3034-3038	över	_	_	_	_	_	_	_	
+43-11	3039-3059	samhällsutvecklingen	_	_	_	_	_	_	_	
+43-12	3060-3063	och	_	_	_	_	_	_	_	
+43-13	3064-3066	vi	_	_	_	_	_	_	_	
+43-14	3067-3068	i	_	_	_	_	_	_	_	
+43-15	3069-3071	de	_	_	_	_	_	_	_	
+43-16	3072-3077	andra	_	_	_	_	_	_	_	
+43-17	3078-3087	partierna	_	_	_	_	_	_	_	
+43-18	3088-3093	måste	_	_	_	_	_	_	_	
+43-19	3094-3097	dra	_	_	_	_	_	_	_	
+43-20	3098-3106	lärdomar	_	_	_	_	_	_	_	
+43-21	3106-3107	.	_	_	_	_	_	_	_	
+
+#Text=Men att ge Sverigedemokraterna inflytande är aldrig ett alternativ för oss socialdemokrater.
+44-1	3108-3111	Men	_	_	_	_	_	_	_	
+44-2	3112-3115	att	*[19]	_	_	_	_	_	_	
+44-3	3116-3118	ge	*[19]	_	_	_	_	_	_	
+44-4	3119-3138	Sverigedemokraterna	*[19]	_	_	_	_	_	_	
+44-5	3139-3149	inflytande	*[19]	_	_	_	_	_	_	
+44-6	3150-3152	är	_	Target;Source[12]	44-2[19];44-11[20]	false[12]	1[12]	_	_	
+44-7	3153-3159	aldrig	_	Target;Source[12]	44-2[19];44-11[20]	false[12]	1[12]	_	_	
+44-8	3160-3163	ett	_	Target;Source[12]	44-2[19];44-11[20]	false[12]	1[12]	_	_	
+44-9	3164-3174	alternativ	_	Target;Source[12]	44-2[19];44-11[20]	false[12]	1[12]	_	_	
+44-10	3175-3178	för	_	_	_	_	_	_	_	
+44-11	3179-3182	oss	*[20]	_	_	_	_	_	_	
+44-12	3183-3199	socialdemokrater	*[20]	_	_	_	_	_	_	
+44-13	3199-3200	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3202-3203	#	_	_	_	_	_	_	_	
+45-2	3203-3204	P	_	_	_	_	_	_	_	
+45-3	3205-3208	IMM	_	_	_	_	_	_	_	
+45-4	3208-3209	.	_	_	_	_	_	_	_	
+
+#Text=Vi ska vinna människors förtroende genom att ta strid för att utveckla den svenska modellen, pressa ner arbetslösheten, vända skolresultaten och hantera flyktingkrisen.
+46-1	3211-3213	Vi	_	_	_	_	_	_	_	
+46-2	3214-3217	ska	_	_	_	_	_	_	_	
+46-3	3218-3223	vinna	_	_	_	_	_	_	_	
+46-4	3224-3234	människors	_	_	_	_	_	_	_	
+46-5	3235-3245	förtroende	_	_	_	_	_	_	_	
+46-6	3246-3251	genom	_	_	_	_	_	_	_	
+46-7	3252-3255	att	_	_	_	_	_	_	_	
+46-8	3256-3258	ta	_	_	_	_	_	_	_	
+46-9	3259-3264	strid	_	_	_	_	_	_	_	
+46-10	3265-3268	för	_	_	_	_	_	_	_	
+46-11	3269-3272	att	_	_	_	_	_	_	_	
+46-12	3273-3281	utveckla	_	_	_	_	_	_	_	
+46-13	3282-3285	den	_	_	_	_	_	_	_	
+46-14	3286-3293	svenska	_	_	_	_	_	_	_	
+46-15	3294-3302	modellen	_	_	_	_	_	_	_	
+46-16	3302-3303	,	_	_	_	_	_	_	_	
+46-17	3304-3310	pressa	_	_	_	_	_	_	_	
+46-18	3311-3314	ner	_	_	_	_	_	_	_	
+46-19	3315-3329	arbetslösheten	_	_	_	_	_	_	_	
+46-20	3329-3330	,	_	_	_	_	_	_	_	
+46-21	3331-3336	vända	_	_	_	_	_	_	_	
+46-22	3337-3351	skolresultaten	_	_	_	_	_	_	_	
+46-23	3352-3355	och	_	_	_	_	_	_	_	
+46-24	3356-3363	hantera	_	_	_	_	_	_	_	
+46-25	3364-3378	flyktingkrisen	_	_	_	_	_	_	_	
+46-26	3378-3379	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3381-3382	#	_	_	_	_	_	_	_	
+47-2	3382-3383	P	_	_	_	_	_	_	_	
+47-3	3384-3387	IMM	_	_	_	_	_	_	_	
+47-4	3387-3388	.	_	_	_	_	_	_	_	
+
+#Text=Sverige står inför stora utmaningar i en orolig omvärld.
+48-1	3390-3397	Sverige	_	_	_	_	_	_	_	
+48-2	3398-3402	står	_	_	_	_	_	_	_	
+48-3	3403-3408	inför	_	_	_	_	_	_	_	
+48-4	3409-3414	stora	_	_	_	_	_	_	_	
+48-5	3415-3425	utmaningar	_	_	_	_	_	_	_	
+48-6	3426-3427	i	_	_	_	_	_	_	_	
+48-7	3428-3430	en	_	_	_	_	_	_	_	
+48-8	3431-3437	orolig	_	_	_	_	_	_	_	
+48-9	3438-3445	omvärld	_	_	_	_	_	_	_	
+48-10	3445-3446	.	_	_	_	_	_	_	_	
+
+#Text=I det läget krävs mer av samarbete och investeringar i det som bygger vårt samhälle starkt.
+49-1	3447-3448	I	_	_	_	_	_	_	_	
+49-2	3449-3452	det	_	_	_	_	_	_	_	
+49-3	3453-3458	läget	_	_	_	_	_	_	_	
+49-4	3459-3464	krävs	_	_	_	_	_	_	_	
+49-5	3465-3468	mer	_	_	_	_	_	_	_	
+49-6	3469-3471	av	_	_	_	_	_	_	_	
+49-7	3472-3481	samarbete	_	_	_	_	_	_	_	
+49-8	3482-3485	och	_	_	_	_	_	_	_	
+49-9	3486-3499	investeringar	_	_	_	_	_	_	_	
+49-10	3500-3501	i	_	_	_	_	_	_	_	
+49-11	3502-3505	det	_	_	_	_	_	_	_	
+49-12	3506-3509	som	_	_	_	_	_	_	_	
+49-13	3510-3516	bygger	_	_	_	_	_	_	_	
+49-14	3517-3521	vårt	_	_	_	_	_	_	_	
+49-15	3522-3530	samhälle	_	_	_	_	_	_	_	
+49-16	3531-3537	starkt	_	_	_	_	_	_	_	
+49-17	3537-3538	.	_	_	_	_	_	_	_	
+
+#Text=Inte polarisering och nedskärningar.
+50-1	3539-3543	Inte	_	Target	50-2[21]	false	2	_	_	
+50-2	3544-3556	polarisering	*[21]	_	_	_	_	_	_	
+50-3	3557-3560	och	*[21]	_	_	_	_	_	_	
+50-4	3561-3574	nedskärningar	*[21]	_	_	_	_	_	_	
+50-5	3574-3575	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3577-3578	#	_	_	_	_	_	_	_	
+51-2	3578-3579	P	_	_	_	_	_	_	_	
+51-3	3580-3583	IMM	_	_	_	_	_	_	_	
+51-4	3583-3584	.	_	_	_	_	_	_	_	
+
+#Text=Stefan Löfven.
+52-1	3586-3592	Stefan	_	_	_	_	_	_	_	
+52-2	3593-3599	Löfven	_	_	_	_	_	_	_	
+52-3	3599-3600	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3602-3603	#	_	_	_	_	_	_	_	
+53-2	3603-3604	P	_	_	_	_	_	_	_	
+53-3	3605-3608	IMM	_	_	_	_	_	_	_	
+53-4	3608-3609	.	_	_	_	_	_	_	_	
+
+#Text=Statsminister och partiordförande (S).
+54-1	3611-3624	Statsminister	_	_	_	_	_	_	_	
+54-2	3625-3628	och	_	_	_	_	_	_	_	
+54-3	3629-3644	partiordförande	_	_	_	_	_	_	_	
+54-4	3645-3646	(	_	_	_	_	_	_	_	
+54-5	3646-3647	S	_	_	_	_	_	_	_	
+54-6	3647-3648	)	_	_	_	_	_	_	_	
+54-7	3648-3649	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3651-3652	#	_	_	_	_	_	_	_	
+55-2	3652-3653	P	_	_	_	_	_	_	_	
+55-3	3654-3657	IMM	_	_	_	_	_	_	_	
+55-4	3657-3658	.	_	_	_	_	_	_	_	
+
+#Text=Carin Jämtin.
+56-1	3660-3665	Carin	_	_	_	_	_	_	_	
+56-2	3666-3672	Jämtin	_	_	_	_	_	_	_	
+56-3	3672-3673	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	3675-3676	#	_	_	_	_	_	_	_	
+57-2	3676-3677	P	_	_	_	_	_	_	_	
+57-3	3678-3681	IMM	_	_	_	_	_	_	_	
+57-4	3681-3682	.	_	_	_	_	_	_	_	
+
+#Text=Partisekreterare (S).
+58-1	3684-3700	Partisekreterare	_	_	_	_	_	_	_	
+58-2	3701-3702	(	_	_	_	_	_	_	_	
+58-3	3702-3703	S	_	_	_	_	_	_	_	
+58-4	3703-3704	)	_	_	_	_	_	_	_	
+58-5	3704-3705	.	_	_	_	_	_	_	_	

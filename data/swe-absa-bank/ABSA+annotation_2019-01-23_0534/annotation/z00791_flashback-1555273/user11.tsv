@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Apatiska flyktingbarn.
+3-1	18-26	Apatiska	_	_	_	_	_	
+3-2	27-39	flyktingbarn	_	_	_	_	_	
+3-3	39-40	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	42-43	#	_	_	_	_	_	
+4-2	43-44	P	_	_[2]	_	false[2]	2[2]	
+4-3	45-48	IMM	_	_[2]	_	false[2]	2[2]	
+4-4	48-49	.	_	_	_	_	_	
+
+#Text=Är det någon mer än jag som ledsnat på at höra om dessa indviders problem?
+5-1	51-53	Är	_	_	_	_	_	
+5-2	54-57	det	_	_	_	_	_	
+5-3	58-63	någon	_	_	_	_	_	
+5-4	64-67	mer	_	_	_	_	_	
+5-5	68-70	än	_	_	_	_	_	
+5-6	71-74	jag	_	_	_	_	_	
+5-7	75-78	som	_	_	_	_	_	
+5-8	79-86	ledsnat	_	Target[3]	5-11[12]	false[3]	2[3]	
+5-9	87-89	på	_	Target[3]	5-11[12]	false[3]	2[3]	
+5-10	90-92	at	_	_	_	_	_	
+5-11	93-97	höra	*[12]	_	_	_	_	
+5-12	98-100	om	*[12]	_	_	_	_	
+5-13	101-106	dessa	*[12]	_	_	_	_	
+5-14	107-116	indviders	*[12]	_	_	_	_	
+5-15	117-124	problem	*[12]	_	_	_	_	
+5-16	124-125	?	_	_	_	_	_	
+
+#Text=Jag såg på Tv4's sen kvällsnyheter nyss och det var nån kärring från från Rädda barnen som uttalade sig om detta och riktade svidande kritik mot Sveriges regerings sätt att sköta dessa fall.
+6-1	126-129	Jag	_	_	_	_	_	
+6-2	130-133	såg	_	_	_	_	_	
+6-3	134-136	på	_	_	_	_	_	
+6-4	137-140	Tv4	_	_	_	_	_	
+6-5	140-141	'	_	_	_	_	_	
+6-6	141-142	s	_	_	_	_	_	
+6-7	143-146	sen	_	_	_	_	_	
+6-8	147-160	kvällsnyheter	_	_	_	_	_	
+6-9	161-165	nyss	_	_	_	_	_	
+6-10	166-169	och	_	_	_	_	_	
+6-11	170-173	det	_	_	_	_	_	
+6-12	174-177	var	_	_	_	_	_	
+6-13	178-181	nån	_	_	_	_	_	
+6-14	182-189	kärring	*[13]|*[14]	Target	6-14[14]	false	1	
+6-15	190-194	från	*[13]	_	_	_	_	
+6-16	195-199	från	*[13]	_	_	_	_	
+6-17	200-205	Rädda	*[13]	_	_	_	_	
+6-18	206-212	barnen	*[13]	_	_	_	_	
+6-19	213-216	som	_	_	_	_	_	
+6-20	217-225	uttalade	_	_	_	_	_	
+6-21	226-229	sig	_	_	_	_	_	
+6-22	230-232	om	_	_	_	_	_	
+6-23	233-238	detta	_	_	_	_	_	
+6-24	239-242	och	_	_	_	_	_	
+6-25	243-250	riktade	_	Source;Target[4]	6-14[13];6-29[15]	false[4]	2[4]	
+6-26	251-259	svidande	_	Source;Target[4]	6-14[13];6-29[15]	false[4]	2[4]	
+6-27	260-266	kritik	_	Source;Target[4]	6-14[13];6-29[15]	false[4]	2[4]	
+6-28	267-270	mot	_	_	_	_	_	
+6-29	271-279	Sveriges	*[15]	_	_	_	_	
+6-30	280-289	regerings	*[15]	_	_	_	_	
+6-31	290-294	sätt	_	_	_	_	_	
+6-32	295-298	att	_	_	_	_	_	
+6-33	299-304	sköta	_	_	_	_	_	
+6-34	305-310	dessa	_	_	_	_	_	
+6-35	311-315	fall	_	_	_	_	_	
+6-36	315-316	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	318-319	#	_	_	_	_	_	
+7-2	319-320	P	_	_[5]	_	false[5]	2[5]	
+7-3	321-324	IMM	_	_[5]	_	false[5]	2[5]	
+7-4	324-325	.	_	_	_	_	_	
+
+#Text=Det var flera fall som vi läst och hört om den senaste tiden som togs upp i inslaget.
+8-1	327-330	Det	_	_	_	_	_	
+8-2	331-334	var	_	_	_	_	_	
+8-3	335-340	flera	_	_	_	_	_	
+8-4	341-345	fall	_	_	_	_	_	
+8-5	346-349	som	_	_	_	_	_	
+8-6	350-352	vi	_	_	_	_	_	
+8-7	353-357	läst	_	_	_	_	_	
+8-8	358-361	och	_	_	_	_	_	
+8-9	362-366	hört	_	_	_	_	_	
+8-10	367-369	om	_	_	_	_	_	
+8-11	370-373	den	_	_	_	_	_	
+8-12	374-381	senaste	_	_	_	_	_	
+8-13	382-387	tiden	_	_	_	_	_	
+8-14	388-391	som	_	_	_	_	_	
+8-15	392-396	togs	_	_	_	_	_	
+8-16	397-400	upp	_	_	_	_	_	
+8-17	401-402	i	_	_	_	_	_	
+8-18	403-411	inslaget	_	_	_	_	_	
+8-19	411-412	.	_	_	_	_	_	
+
+#Text=Min fundering är följande.
+9-1	413-416	Min	_	_	_	_	_	
+9-2	417-426	fundering	_	_	_	_	_	
+9-3	427-429	är	_	_	_	_	_	
+9-4	430-438	följande	_	_	_	_	_	
+9-5	438-439	.	_	_	_	_	_	
+
+#Text=Vad är det för föräldrar som stannar kvar trots att dom i praktiken vet att det är omöjligt för dom att stanna?
+10-1	440-443	Vad	_	_	_	_	_	
+10-2	444-446	är	_	_	_	_	_	
+10-3	447-450	det	_	_	_	_	_	
+10-4	451-454	för	_	_	_	_	_	
+10-5	455-464	föräldrar	_	_	_	_	_	
+10-6	465-468	som	_	_	_	_	_	
+10-7	469-476	stannar	_	_	_	_	_	
+10-8	477-481	kvar	_	_	_	_	_	
+10-9	482-487	trots	_	_	_	_	_	
+10-10	488-491	att	_	_	_	_	_	
+10-11	492-495	dom	_	_	_	_	_	
+10-12	496-497	i	_	_	_	_	_	
+10-13	498-507	praktiken	_	_	_	_	_	
+10-14	508-511	vet	_	_	_	_	_	
+10-15	512-515	att	_	_	_	_	_	
+10-16	516-519	det	_	_	_	_	_	
+10-17	520-522	är	_	_	_	_	_	
+10-18	523-531	omöjligt	_	_	_	_	_	
+10-19	532-535	för	_	_	_	_	_	
+10-20	536-539	dom	_	_	_	_	_	
+10-21	540-543	att	_	_	_	_	_	
+10-22	544-550	stanna	_	_	_	_	_	
+10-23	550-551	?	_	_	_	false	2	
+
+#Text=Vad för slags myndigheter har vi som ger dom möjligheten att överklaga in absurdum och på så vis tända ett falskt hopp hos dessa att få stanna?.
+11-1	552-555	Vad	_	_	_	_	_	
+11-2	556-559	för	_	_	_	_	_	
+11-3	560-565	slags	_	_	_	_	_	
+11-4	566-577	myndigheter	*	_	_	_	_	
+11-5	578-581	har	_	_	_	_	_	
+11-6	582-584	vi	_	_	_	_	_	
+11-7	585-588	som	_	_	_	_	_	
+11-8	589-592	ger	_	Target[6]	11-4	false[6]	2[6]	
+11-9	593-596	dom	_	Target[6]	11-4	false[6]	2[6]	
+11-10	597-608	möjligheten	_	Target[6]	11-4	false[6]	2[6]	
+11-11	609-612	att	_	Target[6]	11-4	false[6]	2[6]	
+11-12	613-622	överklaga	_	Target[6]	11-4	false[6]	2[6]	
+11-13	623-625	in	_	Target[6]	11-4	false[6]	2[6]	
+11-14	626-634	absurdum	_	Target[6]	11-4	false[6]	2[6]	
+11-15	635-638	och	_	_	_	_	_	
+11-16	639-641	på	_	_	_	_	_	
+11-17	642-644	så	_	_	_	_	_	
+11-18	645-648	vis	_	_	_	_	_	
+11-19	649-654	tända	_	_	_	_	_	
+11-20	655-658	ett	_	_	_	_	_	
+11-21	659-665	falskt	_	_	_	_	_	
+11-22	666-670	hopp	_	_	_	_	_	
+11-23	671-674	hos	_	_	_	_	_	
+11-24	675-680	dessa	_	_	_	_	_	
+11-25	681-684	att	_	_	_	_	_	
+11-26	685-687	få	_	_	_	_	_	
+11-27	688-694	stanna	_	_	_	_	_	
+11-28	694-695	?	_	_	_	_	_	
+11-29	695-696	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	698-699	#	_	_	_	_	_	
+12-2	699-700	P	_	_[7]	_	false[7]	2[7]	
+12-3	701-704	IMM	_	_[7]	_	false[7]	2[7]	
+12-4	704-705	.	_	_	_	_	_	
+
+#Text=Och sist men inte minst.
+13-1	707-710	Och	_	_	_	_	_	
+13-2	711-715	sist	_	_	_	_	_	
+13-3	716-719	men	_	_	_	_	_	
+13-4	720-724	inte	_	_	_	_	_	
+13-5	725-730	minst	_	_	_	_	_	
+13-6	730-731	.	_	_	_	_	_	
+
+#Text=Varför i helvete är det ingen som reagerar på att media spyr galla över svenska asylregler?
+14-1	732-738	Varför	_	_	_	_	_	
+14-2	739-740	i	_	_	_	_	_	
+14-3	741-748	helvete	*	Target	14-3	false	1	
+14-4	749-751	är	_	_	_	_	_	
+14-5	752-755	det	_	_	_	_	_	
+14-6	756-761	ingen	_	_	_	_	_	
+14-7	762-765	som	_	_	_	_	_	
+14-8	766-774	reagerar	_	_	_	_	_	
+14-9	775-777	på	_	_	_	_	_	
+14-10	778-781	att	_	_	_	_	_	
+14-11	782-787	media	*	_	_	_	_	
+14-12	788-792	spyr	*[16]	Target[8]|Target[9]	14-11|14-12[16]	false[8]|false[9]	2[8]|1[9]	
+14-13	793-798	galla	*[16]	Target[8]|Target[9]	14-11|14-12[16]	false[8]|false[9]	2[8]|1[9]	
+14-14	799-803	över	_	Target[8]	14-11	false[8]	2[8]	
+14-15	804-811	svenska	_	Target[8]	14-11	false[8]	2[8]	
+14-16	812-822	asylregler	_	Target[8]	14-11	false[8]	2[8]	
+14-17	822-823	?	_	_	_	_	_	
+
+#Text=Sverige har världens mest generösa flyktingregler så det kan knappast finnas anledning att anmäla staten hit och dit och kalla på amnsety och rädda barnen och diverse andra organisationer så fort någon familj avvisas.
+15-1	824-831	Sverige	*	_	_	_	_	
+15-2	832-835	har	_	_	_	_	_	
+15-3	836-844	världens	_	_	_	_	_	
+15-4	845-849	mest	_	Target[10]	15-1	false[10]	4[10]	
+15-5	850-858	generösa	_	Target[10]	15-1	false[10]	4[10]	
+15-6	859-873	flyktingregler	_	Target[10]	15-1	false[10]	4[10]	
+15-7	874-876	så	_	_	_	_	_	
+15-8	877-880	det	_	_	_	_	_	
+15-9	881-884	kan	_	_	_	_	_	
+15-10	885-893	knappast	_	_	_	_	_	
+15-11	894-900	finnas	_	_	_	_	_	
+15-12	901-910	anledning	_	_	_	_	_	
+15-13	911-914	att	_	_	_	_	_	
+15-14	915-921	anmäla	_	_	_	_	_	
+15-15	922-928	staten	_	_	_	_	_	
+15-16	929-932	hit	_	_	_	_	_	
+15-17	933-936	och	_	_	_	_	_	
+15-18	937-940	dit	_	_	_	_	_	
+15-19	941-944	och	_	_	_	_	_	
+15-20	945-950	kalla	_	_	_	_	_	
+15-21	951-953	på	_	_	_	_	_	
+15-22	954-961	amnsety	_	_	_	_	_	
+15-23	962-965	och	_	_	_	_	_	
+15-24	966-971	rädda	_	_	_	_	_	
+15-25	972-978	barnen	_	_	_	_	_	
+15-26	979-982	och	_	_	_	_	_	
+15-27	983-990	diverse	_	_	_	_	_	
+15-28	991-996	andra	_	_	_	_	_	
+15-29	997-1011	organisationer	_	_	_	_	_	
+15-30	1012-1014	så	_	_	_	_	_	
+15-31	1015-1019	fort	_	_	_	_	_	
+15-32	1020-1025	någon	_	_	_	_	_	
+15-33	1026-1032	familj	_	_	_	_	_	
+15-34	1033-1040	avvisas	_	_	_	_	_	
+15-35	1040-1041	.	_	_	_	_	_	
+
+#Text=Vi tar trots allt emot flest flyktingar inom hela EU, något annat land får tammefanimig ta emot dessa som vi trots allt avvisar.
+16-1	1042-1044	Vi	_	_	_	_	_	
+16-2	1045-1048	tar	_	_	_	_	_	
+16-3	1049-1054	trots	_	_	_	_	_	
+16-4	1055-1059	allt	_	_	_	_	_	
+16-5	1060-1064	emot	_	_	_	_	_	
+16-6	1065-1070	flest	_	_	_	_	_	
+16-7	1071-1081	flyktingar	_	_	_	_	_	
+16-8	1082-1086	inom	_	_	_	_	_	
+16-9	1087-1091	hela	_	_	_	_	_	
+16-10	1092-1094	EU	_	_	_	_	_	
+16-11	1094-1095	,	_	_	_	_	_	
+16-12	1096-1101	något	*[17]	_	_	_	_	
+16-13	1102-1107	annat	*[17]	_	_	_	_	
+16-14	1108-1112	land	*[17]	_	_	_	_	
+16-15	1113-1116	får	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-16	1117-1129	tammefanimig	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-17	1130-1132	ta	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-18	1133-1137	emot	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-19	1138-1143	dessa	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-20	1144-1147	som	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-21	1148-1150	vi	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-22	1151-1156	trots	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-23	1157-1161	allt	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-24	1162-1169	avvisar	_	Target[11]	16-12[17]	false[11]	1[11]	
+16-25	1169-1170	.	_	_	_	_	_	

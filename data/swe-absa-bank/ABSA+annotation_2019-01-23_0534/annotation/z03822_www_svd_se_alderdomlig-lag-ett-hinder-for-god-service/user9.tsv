@@ -1,0 +1,731 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Ålderdomlig lag ett hinder för god service.
+3-1	18-29	Ålderdomlig	*[11]	_	_	_	_	_	
+3-2	30-33	lag	*[11]	_	_	_	_	_	
+3-3	34-37	ett	_	Target[1]	3-1[11]	false[1]	2[1]	_	
+3-4	38-44	hinder	_	Target[1]	3-1[11]	false[1]	2[1]	_	
+3-5	45-48	för	_	Target[1]	3-1[11]	false[1]	2[1]	_	
+3-6	49-52	god	_	Target[1]	3-1[11]	false[1]	2[1]	_	
+3-7	53-60	service	_	Target[1]	3-1[11]	false[1]	2[1]	_	
+3-8	60-61	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	_	
+
+#Text=Den mycket uppskattade Linköpingsmodellen får inte fortsätta.
+5-1	72-75	Den	*[12]	_	_	_	_	6-1[0_12]	
+5-2	76-82	mycket	*[12]	Source;Target[2]	5-8;5-4[13]	false[2]	4[2]	_	
+5-3	83-94	uppskattade	*[12]	Source;Target[2]	5-8;5-4[13]	false[2]	4[2]	_	
+5-4	95-113	Linköpingsmodellen	*[12]|*[13]	_	_	_	_	_	
+5-5	114-117	får	*[12]	_	_	_	_	_	
+5-6	118-122	inte	*[12]	_	_	_	_	_	
+5-7	123-132	fortsätta	*[12]	_	_	_	_	_	
+5-8	132-133	.	*	_	_	_	_	_	
+
+#Text=Det är ett rejält kliv bakåt för alla som vill modernisera och förenkla service till invånarna.
+6-1	134-137	Det	*	_	_	_	_	_	
+6-2	138-140	är	_	Target[3]	6-1	false[3]	2[3]	_	
+6-3	141-144	ett	_	Target[3]	6-1	false[3]	2[3]	_	
+6-4	145-151	rejält	_	Target[3]	6-1	false[3]	2[3]	_	
+6-5	152-156	kliv	_	Target[3]	6-1	false[3]	2[3]	_	
+6-6	157-162	bakåt	_	Target[3]	6-1	false[3]	2[3]	_	
+6-7	163-166	för	_	_	_	_	_	_	
+6-8	167-171	alla	_	_	_	_	_	_	
+6-9	172-175	som	_	_	_	_	_	_	
+6-10	176-180	vill	_	_	_	_	_	_	
+6-11	181-192	modernisera	_	_	_	_	_	_	
+6-12	193-196	och	_	_	_	_	_	_	
+6-13	197-205	förenkla	_	_	_	_	_	_	
+6-14	206-213	service	_	_	_	_	_	_	
+6-15	214-218	till	_	_	_	_	_	_	
+6-16	219-228	invånarna	_	_	_	_	_	_	
+6-17	228-229	.	_	_	_	_	_	_	
+
+#Text=Nu måste denna ålderdomliga lagstiftning ändras, skriver Lena Micko, SKL.
+7-1	230-232	Nu	_	_	_	_	_	_	
+7-2	233-238	måste	_	_	_	_	_	_	
+7-3	239-244	denna	*[14]	_	_	_	_	_	
+7-4	245-257	ålderdomliga	*[14]	Target	7-3[14]	false	2	_	
+7-5	258-270	lagstiftning	*[14]	_	_	_	_	_	
+7-6	271-277	ändras	_	_	_	_	_	_	
+7-7	277-278	,	_	_	_	_	_	_	
+7-8	279-286	skriver	_	_	_	_	_	_	
+7-9	287-291	Lena	_	_	_	_	_	_	
+7-10	292-297	Micko	_	_	_	_	_	_	
+7-11	297-298	,	_	_	_	_	_	_	
+7-12	299-302	SKL	_	_	_	_	_	_	
+7-13	302-303	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	305-306	#	_	_	_	_	_	_	
+8-2	306-307	P	_	_	_	_	_	_	
+8-3	308-311	IMM	_	_	_	_	_	_	
+8-4	311-312	.	_	_	_	_	_	_	
+
+#Text=Över hundra kommuner i Sverige använder i dag olika former av service utan biståndsutredningar.
+9-1	314-318	Över	_	_	_	_	_	_	
+9-2	319-325	hundra	_	_	_	_	_	_	
+9-3	326-334	kommuner	_	_	_	_	_	_	
+9-4	335-336	i	_	_	_	_	_	_	
+9-5	337-344	Sverige	_	_	_	_	_	_	
+9-6	345-353	använder	_	_	_	_	_	_	
+9-7	354-355	i	_	_	_	_	_	_	
+9-8	356-359	dag	_	_	_	_	_	_	
+9-9	360-365	olika	_	_	_	_	_	_	
+9-10	366-372	former	_	_	_	_	_	_	
+9-11	373-375	av	_	_	_	_	_	_	
+9-12	376-383	service	_	_	_	_	_	_	
+9-13	384-388	utan	_	_	_	_	_	_	
+9-14	389-408	biståndsutredningar	_	_	_	_	_	_	
+9-15	408-409	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	411-412	#	_	_	_	_	_	_	
+10-2	412-413	P	_	_	_	_	_	_	
+10-3	414-417	IMM	_	_	_	_	_	_	
+10-4	417-418	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	420-423	Det	_	_	_	_	_	_	
+11-2	424-427	här	_	_	_	_	_	_	
+11-3	428-430	är	_	_	_	_	_	_	
+11-4	431-433	en	_	_	_	_	_	_	
+11-5	434-448	argumenterande	_	_	_	_	_	_	
+11-6	449-453	text	_	_	_	_	_	_	
+11-7	454-457	med	_	_	_	_	_	_	
+11-8	458-463	syfte	_	_	_	_	_	_	
+11-9	464-467	att	_	_	_	_	_	_	
+11-10	468-475	påverka	_	_	_	_	_	_	
+11-11	475-476	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	477-486	Åsikterna	_	_	_	_	_	_	
+12-2	487-490	som	_	_	_	_	_	_	
+12-3	491-499	uttrycks	_	_	_	_	_	_	
+12-4	500-502	är	_	_	_	_	_	_	
+12-5	503-514	skribentens	_	_	_	_	_	_	
+12-6	515-519	egna	_	_	_	_	_	_	
+12-7	519-520	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	522-523	#	_	_	_	_	_	_	
+13-2	523-524	P	_	_	_	_	_	_	
+13-3	525-528	IMM	_	_	_	_	_	_	
+13-4	528-529	.	_	_	_	_	_	_	
+
+#Text=Sedan 1990-talet har Linköpings kommun steg för steg utvecklat en serviceinriktad socialtjänst som respekterar den enskilde medborgaren.
+14-1	531-536	Sedan	_	_	_	_	_	_	
+14-2	537-541	1990	_	_	_	_	_	_	
+14-3	541-542	-	_	_	_	_	_	_	
+14-4	542-547	talet	_	_	_	_	_	_	
+14-5	548-551	har	_	_	_	_	_	_	
+14-6	552-562	Linköpings	_	_	_	_	_	_	
+14-7	563-569	kommun	_	_	_	_	_	_	
+14-8	570-574	steg	_	_	_	_	_	_	
+14-9	575-578	för	_	_	_	_	_	_	
+14-10	579-583	steg	_	_	_	_	_	_	
+14-11	584-593	utvecklat	_	_	_	_	_	_	
+14-12	594-596	en	_	_	_	_	_	_	
+14-13	597-612	serviceinriktad	_	_	_	_	_	_	
+14-14	613-625	socialtjänst	_	_	_	_	_	_	
+14-15	626-629	som	_	_	_	_	_	_	
+14-16	630-641	respekterar	_	_	_	_	_	_	
+14-17	642-645	den	_	_	_	_	_	_	
+14-18	646-654	enskilde	_	_	_	_	_	_	
+14-19	655-666	medborgaren	_	_	_	_	_	_	
+14-20	666-667	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	669-670	#	_	_	_	_	_	_	
+15-2	670-671	P	_	_	_	_	_	_	
+15-3	672-675	IMM	_	_	_	_	_	_	
+15-4	675-676	.	_	_	_	_	_	_	
+
+#Text=Arbetssättet har i Kommunsverige fått benämningen "Linköpingsmodellen".
+16-1	678-690	Arbetssättet	_	_	_	_	_	_	
+16-2	691-694	har	_	_	_	_	_	_	
+16-3	695-696	i	_	_	_	_	_	_	
+16-4	697-710	Kommunsverige	_	_	_	_	_	_	
+16-5	711-715	fått	_	_	_	_	_	_	
+16-6	716-727	benämningen	_	_	_	_	_	_	
+16-7	728-729	"	_	_	_	_	_	_	
+16-8	729-747	Linköpingsmodellen	_	_	_	_	_	_	
+16-9	747-748	"	_	_	_	_	_	_	
+16-10	748-749	.	_	_	_	_	_	_	
+
+#Text=Enkelt uttryckt innebär arbetssättet att en medborgare som behöver stöd eller hjälp vänder sig direkt till en utförarenhet som kan ge stödet.
+17-1	750-756	Enkelt	_	_	_	_	_	_	
+17-2	757-765	uttryckt	_	_	_	_	_	_	
+17-3	766-773	innebär	_	_	_	_	_	_	
+17-4	774-786	arbetssättet	_	_	_	_	_	_	
+17-5	787-790	att	_	_	_	_	_	_	
+17-6	791-793	en	_	_	_	_	_	_	
+17-7	794-804	medborgare	_	_	_	_	_	_	
+17-8	805-808	som	_	_	_	_	_	_	
+17-9	809-816	behöver	_	_	_	_	_	_	
+17-10	817-821	stöd	_	_	_	_	_	_	
+17-11	822-827	eller	_	_	_	_	_	_	
+17-12	828-833	hjälp	_	_	_	_	_	_	
+17-13	834-840	vänder	_	_	_	_	_	_	
+17-14	841-844	sig	_	_	_	_	_	_	
+17-15	845-851	direkt	_	_	_	_	_	_	
+17-16	852-856	till	_	_	_	_	_	_	
+17-17	857-859	en	_	_	_	_	_	_	
+17-18	860-872	utförarenhet	_	_	_	_	_	_	
+17-19	873-876	som	_	_	_	_	_	_	
+17-20	877-880	kan	_	_	_	_	_	_	
+17-21	881-883	ge	_	_	_	_	_	_	
+17-22	884-890	stödet	_	_	_	_	_	_	
+17-23	890-891	.	_	_	_	_	_	_	
+
+#Text=Med stöd av kommunens riktlinjer kommer man där överens om vilken hjälp den enskilde kan få.
+18-1	892-895	Med	_	_	_	_	_	_	
+18-2	896-900	stöd	_	_	_	_	_	_	
+18-3	901-903	av	_	_	_	_	_	_	
+18-4	904-913	kommunens	_	_	_	_	_	_	
+18-5	914-924	riktlinjer	_	_	_	_	_	_	
+18-6	925-931	kommer	_	_	_	_	_	_	
+18-7	932-935	man	_	_	_	_	_	_	
+18-8	936-939	där	_	_	_	_	_	_	
+18-9	940-947	överens	_	_	_	_	_	_	
+18-10	948-950	om	_	_	_	_	_	_	
+18-11	951-957	vilken	_	_	_	_	_	_	
+18-12	958-963	hjälp	_	_	_	_	_	_	
+18-13	964-967	den	_	_	_	_	_	_	
+18-14	968-976	enskilde	_	_	_	_	_	_	
+18-15	977-980	kan	_	_	_	_	_	_	
+18-16	981-983	få	_	_	_	_	_	_	
+18-17	983-984	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	986-987	#	_	_	_	_	_	_	
+19-2	987-988	P	_	_	_	_	_	_	
+19-3	989-992	IMM	_	_	_	_	_	_	
+19-4	992-993	.	_	_	_	_	_	_	
+
+#Text=Överenskommelsen kallas serviceavtal och registreras som ett bistånd.
+20-1	995-1011	Överenskommelsen	_	_	_	_	_	_	
+20-2	1012-1018	kallas	_	_	_	_	_	_	
+20-3	1019-1031	serviceavtal	_	_	_	_	_	_	
+20-4	1032-1035	och	_	_	_	_	_	_	
+20-5	1036-1047	registreras	_	_	_	_	_	_	
+20-6	1048-1051	som	_	_	_	_	_	_	
+20-7	1052-1055	ett	_	_	_	_	_	_	
+20-8	1056-1063	bistånd	_	_	_	_	_	_	
+20-9	1063-1064	.	_	_	_	_	_	_	
+
+#Text=Samma möjlighet att få stöd finns även inom missbruksvård och boendestöd.
+21-1	1065-1070	Samma	_	_	_	_	_	_	
+21-2	1071-1080	möjlighet	_	_	_	_	_	_	
+21-3	1081-1084	att	_	_	_	_	_	_	
+21-4	1085-1087	få	_	_	_	_	_	_	
+21-5	1088-1092	stöd	_	_	_	_	_	_	
+21-6	1093-1098	finns	_	_	_	_	_	_	
+21-7	1099-1103	även	_	_	_	_	_	_	
+21-8	1104-1108	inom	_	_	_	_	_	_	
+21-9	1109-1122	missbruksvård	_	_	_	_	_	_	
+21-10	1123-1126	och	_	_	_	_	_	_	
+21-11	1127-1137	boendestöd	_	_	_	_	_	_	
+21-12	1137-1138	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1140-1141	#	_	_	_	_	_	_	
+22-2	1141-1142	P	_	_	_	_	_	_	
+22-3	1143-1146	IMM	_	_	_	_	_	_	
+22-4	1146-1147	.	_	_	_	_	_	_	
+
+#Text=**Linköpings arbetssätt **uppskattas av berörda brukare.
+23-1	1149-1150	*	_	_	_	_	_	_	
+23-2	1150-1151	*	_	_	_	_	_	_	
+23-3	1151-1161	Linköpings	*[15]	_	_	_	_	_	
+23-4	1162-1172	arbetssätt	*[15]	_	_	_	_	_	
+23-5	1173-1174	*	_	_	_	_	_	_	
+23-6	1174-1175	*	_	_	_	_	_	_	
+23-7	1175-1185	uppskattas	_	Source;Target[4]	23-9[16];23-3[15]	false[4]	4[4]	_	
+23-8	1186-1188	av	_	Source;Target[4]	23-9[16];23-3[15]	false[4]	4[4]	_	
+23-9	1189-1196	berörda	*[16]	_	_	_	_	_	
+23-10	1197-1204	brukare	*[16]	_	_	_	_	_	
+23-11	1204-1205	.	_	_	_	_	_	_	
+
+#Text=De frigjorda resurserna har styrts om till information och vägledning samt uppföljning och kontroll av att vårdtagare/brukare får den hjälp de önskar och har rätt till.
+24-1	1206-1208	De	_	_	_	_	_	_	
+24-2	1209-1218	frigjorda	_	_	_	_	_	_	
+24-3	1219-1229	resurserna	_	_	_	_	_	_	
+24-4	1230-1233	har	_	_	_	_	_	_	
+24-5	1234-1240	styrts	_	_	_	_	_	_	
+24-6	1241-1243	om	_	_	_	_	_	_	
+24-7	1244-1248	till	_	_	_	_	_	_	
+24-8	1249-1260	information	_	_	_	_	_	_	
+24-9	1261-1264	och	_	_	_	_	_	_	
+24-10	1265-1275	vägledning	_	_	_	_	_	_	
+24-11	1276-1280	samt	_	_	_	_	_	_	
+24-12	1281-1292	uppföljning	_	_	_	_	_	_	
+24-13	1293-1296	och	_	_	_	_	_	_	
+24-14	1297-1305	kontroll	_	_	_	_	_	_	
+24-15	1306-1308	av	_	_	_	_	_	_	
+24-16	1309-1312	att	_	_	_	_	_	_	
+24-17	1313-1323	vårdtagare	_	_	_	_	_	_	
+24-18	1323-1324	/	_	_	_	_	_	_	
+24-19	1324-1331	brukare	_	_	_	_	_	_	
+24-20	1332-1335	får	_	_	_	_	_	_	
+24-21	1336-1339	den	_	_	_	_	_	_	
+24-22	1340-1345	hjälp	_	_	_	_	_	_	
+24-23	1346-1348	de	_	_	_	_	_	_	
+24-24	1349-1355	önskar	_	_	_	_	_	_	
+24-25	1356-1359	och	_	_	_	_	_	_	
+24-26	1360-1363	har	_	_	_	_	_	_	
+24-27	1364-1368	rätt	_	_	_	_	_	_	
+24-28	1369-1373	till	_	_	_	_	_	_	
+24-29	1373-1374	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1376-1377	#	_	_	_	_	_	_	
+25-2	1377-1378	P	_	_	_	_	_	_	
+25-3	1379-1382	IMM	_	_	_	_	_	_	
+25-4	1382-1383	.	_	_	_	_	_	_	
+
+#Text=Men den mycket uppskattade Linköpingsmodellen får inte fortsätta.
+26-1	1385-1388	Men	_	_	_	_	_	_	
+26-2	1389-1392	den	_	_	_	_	_	_	
+26-3	1393-1399	mycket	_	Target;Source[5]	26-5;26-9	false[5]	4[5]	_	
+26-4	1400-1411	uppskattade	_	Target;Source[5]	26-5;26-9	false[5]	4[5]	_	
+26-5	1412-1430	Linköpingsmodellen	*	_	_	_	_	_	
+26-6	1431-1434	får	_	_	_	_	_	_	
+26-7	1435-1439	inte	_	_	_	_	_	_	
+26-8	1440-1449	fortsätta	_	_	_	_	_	_	
+26-9	1449-1450	.	*	_	_	_	_	_	
+
+#Text=Inspektionen för vård och omsorg, IVO, har motsatt sig modellen och kammarrätten ger IVO rätt.
+27-1	1451-1463	Inspektionen	*[17]	_	_	_	_	_	
+27-2	1464-1467	för	*[17]	_	_	_	_	_	
+27-3	1468-1472	vård	*[17]	_	_	_	_	_	
+27-4	1473-1476	och	*[17]	_	_	_	_	_	
+27-5	1477-1483	omsorg	*[17]	_	_	_	_	_	
+27-6	1483-1484	,	*[17]	_	_	_	_	_	
+27-7	1485-1488	IVO	*[17]	_	_	_	_	_	
+27-8	1488-1489	,	_	_	_	_	_	_	
+27-9	1490-1493	har	_	Source;Target[6]	27-1[17];27-12	false[6]	2[6]	_	
+27-10	1494-1501	motsatt	_	Source;Target[6]	27-1[17];27-12	false[6]	2[6]	_	
+27-11	1502-1505	sig	_	Source;Target[6]	27-1[17];27-12	false[6]	2[6]	_	
+27-12	1506-1514	modellen	*	_	_	_	_	_	
+27-13	1515-1518	och	_	_	_	_	_	_	
+27-14	1519-1531	kammarrätten	_	_	_	_	_	_	
+27-15	1532-1535	ger	_	_	_	_	_	_	
+27-16	1536-1539	IVO	_	_	_	_	_	_	
+27-17	1540-1544	rätt	_	_	_	_	_	_	
+27-18	1544-1545	.	_	_	_	_	_	_	
+
+#Text=Orsaken är de lagkrav på att utreda, bedöma och fatta individuella biståndsbeslut när det gäller insatser i socialtjänsten som finns.
+28-1	1546-1553	Orsaken	_	_	_	_	_	_	
+28-2	1554-1556	är	_	_	_	_	_	_	
+28-3	1557-1559	de	_	_	_	_	_	_	
+28-4	1560-1567	lagkrav	_	_	_	_	_	_	
+28-5	1568-1570	på	_	_	_	_	_	_	
+28-6	1571-1574	att	_	_	_	_	_	_	
+28-7	1575-1581	utreda	_	_	_	_	_	_	
+28-8	1581-1582	,	_	_	_	_	_	_	
+28-9	1583-1589	bedöma	_	_	_	_	_	_	
+28-10	1590-1593	och	_	_	_	_	_	_	
+28-11	1594-1599	fatta	_	_	_	_	_	_	
+28-12	1600-1612	individuella	_	_	_	_	_	_	
+28-13	1613-1627	biståndsbeslut	_	_	_	_	_	_	
+28-14	1628-1631	när	_	_	_	_	_	_	
+28-15	1632-1635	det	_	_	_	_	_	_	
+28-16	1636-1642	gäller	_	_	_	_	_	_	
+28-17	1643-1651	insatser	_	_	_	_	_	_	
+28-18	1652-1653	i	_	_	_	_	_	_	
+28-19	1654-1668	socialtjänsten	_	_	_	_	_	_	
+28-20	1669-1672	som	_	_	_	_	_	_	
+28-21	1673-1678	finns	_	_	_	_	_	_	
+28-22	1678-1679	.	_	_	_	_	_	_	
+
+#Text=Myndigheten hävdar att avsaknaden av biståndsbeslut innebär att den enskilde får svårare att till exempel överklaga bristfälliga insatser.
+29-1	1680-1691	Myndigheten	_	_	_	_	_	_	
+29-2	1692-1698	hävdar	_	_	_	_	_	_	
+29-3	1699-1702	att	_	_	_	_	_	_	
+29-4	1703-1713	avsaknaden	_	_	_	_	_	_	
+29-5	1714-1716	av	_	_	_	_	_	_	
+29-6	1717-1731	biståndsbeslut	_	_	_	_	_	_	
+29-7	1732-1739	innebär	_	_	_	_	_	_	
+29-8	1740-1743	att	_	_	_	_	_	_	
+29-9	1744-1747	den	_	_	_	_	_	_	
+29-10	1748-1756	enskilde	_	_	_	_	_	_	
+29-11	1757-1760	får	_	_	_	_	_	_	
+29-12	1761-1768	svårare	_	_	_	_	_	_	
+29-13	1769-1772	att	_	_	_	_	_	_	
+29-14	1773-1777	till	_	_	_	_	_	_	
+29-15	1778-1785	exempel	_	_	_	_	_	_	
+29-16	1786-1795	överklaga	_	_	_	_	_	_	
+29-17	1796-1808	bristfälliga	*[18]	Target	29-17[18]	false	2	_	
+29-18	1809-1817	insatser	*[18]	_	_	_	_	_	
+29-19	1817-1818	.	_	_	_	_	_	_	
+
+#Text=Kommunen har å sin sida hävdat att den som är missnöjd kan få ett biståndsbeslut som sen kan överklagas.
+30-1	1819-1827	Kommunen	_	_	_	_	_	_	
+30-2	1828-1831	har	_	_	_	_	_	_	
+30-3	1832-1833	å	_	_	_	_	_	_	
+30-4	1834-1837	sin	_	_	_	_	_	_	
+30-5	1838-1842	sida	_	_	_	_	_	_	
+30-6	1843-1849	hävdat	_	_	_	_	_	_	
+30-7	1850-1853	att	_	_	_	_	_	_	
+30-8	1854-1857	den	*[19]	_	_	_	_	30-9[20_19]	
+30-9	1858-1861	som	*[19]|*[20]	_	_	_	_	_	
+30-10	1862-1864	är	*[19]	Source[7]	30-9[20]	false[7]	2[7]	_	
+30-11	1865-1873	missnöjd	*[19]	Source[7]	30-9[20]	false[7]	2[7]	_	
+30-12	1874-1877	kan	_	_	_	_	_	_	
+30-13	1878-1880	få	_	_	_	_	_	_	
+30-14	1881-1884	ett	_	_	_	_	_	_	
+30-15	1885-1899	biståndsbeslut	_	_	_	_	_	_	
+30-16	1900-1903	som	_	_	_	_	_	_	
+30-17	1904-1907	sen	_	_	_	_	_	_	
+30-18	1908-1911	kan	_	_	_	_	_	_	
+30-19	1912-1922	överklagas	_	_	_	_	_	_	
+30-20	1922-1923	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1925-1926	#	_	_	_	_	_	_	
+31-2	1926-1927	P	_	_	_	_	_	_	
+31-3	1928-1931	IMM	_	_	_	_	_	_	
+31-4	1931-1932	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+32-1	1934-1947	Skräddarsydda	_	_	_	_	_	_	
+32-2	1948-1954	kurser	_	_	_	_	_	_	
+32-3	1955-1956	i	_	_	_	_	_	_	
+32-4	1957-1962	ämnen	_	_	_	_	_	_	
+32-5	1963-1966	som	_	_	_	_	_	_	
+32-6	1967-1978	intresserar	_	_	_	_	_	_	
+32-7	1979-1982	och	_	_	_	_	_	_	
+32-8	1983-1992	engagerar	_	_	_	_	_	_	
+32-9	1993-1997	både	_	_	_	_	_	_	
+32-10	1998-2003	kropp	_	_	_	_	_	_	
+32-11	2004-2007	och	_	_	_	_	_	_	
+32-12	2008-2012	själ	_	_	_	_	_	_	
+32-13	2012-2013	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2015-2016	#	_	_	_	_	_	_	
+33-2	2016-2017	P	_	_	_	_	_	_	
+33-3	2018-2021	IMM	_	_	_	_	_	_	
+33-4	2021-2022	.	_	_	_	_	_	_	
+
+#Text=Domen är ett rejält kliv bakåt för alla som vill modernisera och förenkla service till invånarna.
+34-1	2024-2029	Domen	*	_	_	_	_	_	
+34-2	2030-2032	är	_	Target[8]	34-1	false[8]	2[8]	_	
+34-3	2033-2036	ett	_	Target[8]	34-1	false[8]	2[8]	_	
+34-4	2037-2043	rejält	_	Target[8]	34-1	false[8]	2[8]	_	
+34-5	2044-2048	kliv	_	Target[8]	34-1	false[8]	2[8]	_	
+34-6	2049-2054	bakåt	_	Target[8]	34-1	false[8]	2[8]	_	
+34-7	2055-2058	för	_	_	_	_	_	_	
+34-8	2059-2063	alla	_	_	_	_	_	_	
+34-9	2064-2067	som	_	_	_	_	_	_	
+34-10	2068-2072	vill	_	_	_	_	_	_	
+34-11	2073-2084	modernisera	_	_	_	_	_	_	
+34-12	2085-2088	och	_	_	_	_	_	_	
+34-13	2089-2097	förenkla	_	_	_	_	_	_	
+34-14	2098-2105	service	_	_	_	_	_	_	
+34-15	2106-2110	till	_	_	_	_	_	_	
+34-16	2111-2120	invånarna	_	_	_	_	_	_	
+34-17	2120-2121	.	_	_	_	_	_	_	
+
+#Text=Över hundra kommuner i Sverige använder i dag olika former av service utan biståndsutredningar – oftast i total enighet hos de politiska partierna och applåderat av olika brukarorganisationer.
+35-1	2122-2126	Över	_	_	_	_	_	_	
+35-2	2127-2133	hundra	_	_	_	_	_	_	
+35-3	2134-2142	kommuner	_	_	_	_	_	_	
+35-4	2143-2144	i	_	_	_	_	_	_	
+35-5	2145-2152	Sverige	_	_	_	_	_	_	
+35-6	2153-2161	använder	*[21]	_	_	_	_	_	
+35-7	2162-2163	i	*[21]	_	_	_	_	_	
+35-8	2164-2167	dag	*[21]	_	_	_	_	_	
+35-9	2168-2173	olika	*[21]	_	_	_	_	_	
+35-10	2174-2180	former	*[21]	_	_	_	_	_	
+35-11	2181-2183	av	*[21]	_	_	_	_	_	
+35-12	2184-2191	service	*[21]	_	_	_	_	_	
+35-13	2192-2196	utan	*[21]	_	_	_	_	_	
+35-14	2197-2216	biståndsutredningar	*[21]	_	_	_	_	_	
+35-15	2217-2218	–	_	_	_	_	_	_	
+35-16	2219-2225	oftast	_	_	_	_	_	_	
+35-17	2226-2227	i	_	_	_	_	_	_	
+35-18	2228-2233	total	_	_	_	_	_	_	
+35-19	2234-2241	enighet	_	_	_	_	_	_	
+35-20	2242-2245	hos	_	_	_	_	_	_	
+35-21	2246-2248	de	_	_	_	_	_	_	
+35-22	2249-2258	politiska	_	_	_	_	_	_	
+35-23	2259-2268	partierna	_	_	_	_	_	_	
+35-24	2269-2272	och	_	_	_	_	_	_	
+35-25	2273-2283	applåderat	_	Source;Target[9]	35-27[22];35-6[21]	false[9]	4[9]	_	
+35-26	2284-2286	av	_	Source;Target[9]	35-27[22];35-6[21]	false[9]	4[9]	_	
+35-27	2287-2292	olika	*[22]	_	_	_	_	_	
+35-28	2293-2313	brukarorganisationer	*[22]	_	_	_	_	_	
+35-29	2313-2314	.	_	_	_	_	_	_	
+
+#Text=Detta hotas nu av domen och en ålderdomlig lagstiftning.
+36-1	2315-2320	Detta	_	_	_	_	_	_	
+36-2	2321-2326	hotas	_	_	_	_	_	_	
+36-3	2327-2329	nu	_	_	_	_	_	_	
+36-4	2330-2332	av	_	_	_	_	_	_	
+36-5	2333-2338	domen	_	_	_	_	_	_	
+36-6	2339-2342	och	_	_	_	_	_	_	
+36-7	2343-2345	en	_	_	_	_	_	_	
+36-8	2346-2357	ålderdomlig	_	Target	36-9	false	2	_	
+36-9	2358-2370	lagstiftning	*	_	_	_	_	_	
+36-10	2370-2371	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2373-2374	#	_	_	_	_	_	_	
+37-2	2374-2375	P	_	_	_	_	_	_	
+37-3	2376-2379	IMM	_	_	_	_	_	_	
+37-4	2379-2380	.	_	_	_	_	_	_	
+
+#Text=SKL vill att kommunerna ska kunna ge individuellt anpassad hjälp (service) utan att vara tvingad till myndighetsutredningar.
+38-1	2382-2385	SKL	_	_	_	_	_	_	
+38-2	2386-2390	vill	_	_	_	_	_	_	
+38-3	2391-2394	att	_	_	_	_	_	_	
+38-4	2395-2405	kommunerna	_	_	_	_	_	_	
+38-5	2406-2409	ska	_	_	_	_	_	_	
+38-6	2410-2415	kunna	_	_	_	_	_	_	
+38-7	2416-2418	ge	_	_	_	_	_	_	
+38-8	2419-2431	individuellt	_	_	_	_	_	_	
+38-9	2432-2440	anpassad	_	_	_	_	_	_	
+38-10	2441-2446	hjälp	_	_	_	_	_	_	
+38-11	2447-2448	(	_	_	_	_	_	_	
+38-12	2448-2455	service	_	_	_	_	_	_	
+38-13	2455-2456	)	_	_	_	_	_	_	
+38-14	2457-2461	utan	_	_	_	_	_	_	
+38-15	2462-2465	att	_	_	_	_	_	_	
+38-16	2466-2470	vara	_	_	_	_	_	_	
+38-17	2471-2478	tvingad	_	_	_	_	_	_	
+38-18	2479-2483	till	_	_	_	_	_	_	
+38-19	2484-2505	myndighetsutredningar	_	_	_	_	_	_	
+38-20	2505-2506	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2508-2509	#	_	_	_	_	_	_	
+39-2	2509-2510	P	_	_	_	_	_	_	
+39-3	2511-2514	IMM	_	_	_	_	_	_	
+39-4	2514-2515	.	_	_	_	_	_	_	
+
+#Text=Det är viktigt, bland annat inom sociala barn- och ungdomsvården, för att kunna ge tidiga förebyggande insatser samt inom missbruksvården och äldreomsorgen för att ge lättillgänglig vård och omsorg snabbt och smidigt.
+40-1	2517-2520	Det	_	_	_	_	_	_	
+40-2	2521-2523	är	_	_	_	_	_	_	
+40-3	2524-2531	viktigt	_	_	_	_	_	_	
+40-4	2531-2532	,	_	_	_	_	_	_	
+40-5	2533-2538	bland	_	_	_	_	_	_	
+40-6	2539-2544	annat	_	_	_	_	_	_	
+40-7	2545-2549	inom	_	_	_	_	_	_	
+40-8	2550-2557	sociala	_	_	_	_	_	_	
+40-9	2558-2562	barn	_	_	_	_	_	_	
+40-10	2562-2563	-	_	_	_	_	_	_	
+40-11	2564-2567	och	_	_	_	_	_	_	
+40-12	2568-2581	ungdomsvården	_	_	_	_	_	_	
+40-13	2581-2582	,	_	_	_	_	_	_	
+40-14	2583-2586	för	_	_	_	_	_	_	
+40-15	2587-2590	att	_	_	_	_	_	_	
+40-16	2591-2596	kunna	_	_	_	_	_	_	
+40-17	2597-2599	ge	_	_	_	_	_	_	
+40-18	2600-2606	tidiga	_	_	_	_	_	_	
+40-19	2607-2619	förebyggande	_	_	_	_	_	_	
+40-20	2620-2628	insatser	_	_	_	_	_	_	
+40-21	2629-2633	samt	_	_	_	_	_	_	
+40-22	2634-2638	inom	_	_	_	_	_	_	
+40-23	2639-2654	missbruksvården	_	_	_	_	_	_	
+40-24	2655-2658	och	_	_	_	_	_	_	
+40-25	2659-2672	äldreomsorgen	_	_	_	_	_	_	
+40-26	2673-2676	för	_	_	_	_	_	_	
+40-27	2677-2680	att	_	_	_	_	_	_	
+40-28	2681-2683	ge	_	_	_	_	_	_	
+40-29	2684-2698	lättillgänglig	_	_	_	_	_	_	
+40-30	2699-2703	vård	_	_	_	_	_	_	
+40-31	2704-2707	och	_	_	_	_	_	_	
+40-32	2708-2714	omsorg	_	_	_	_	_	_	
+40-33	2715-2721	snabbt	_	_	_	_	_	_	
+40-34	2722-2725	och	_	_	_	_	_	_	
+40-35	2726-2733	smidigt	_	_	_	_	_	_	
+40-36	2733-2734	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2736-2737	#	_	_	_	_	_	_	
+41-2	2737-2738	P	_	_	_	_	_	_	
+41-3	2739-2742	IMM	_	_	_	_	_	_	
+41-4	2742-2743	.	_	_	_	_	_	_	
+
+#Text=Utredningen Nationell kvalitetsplan inom äldreomsorgen, som nu utreder frågan, har möjlighet att komma med förslag som ändrar denna ålderdomliga lagstiftning.
+42-1	2745-2756	Utredningen	_	_	_	_	_	_	
+42-2	2757-2766	Nationell	_	_	_	_	_	_	
+42-3	2767-2780	kvalitetsplan	_	_	_	_	_	_	
+42-4	2781-2785	inom	_	_	_	_	_	_	
+42-5	2786-2799	äldreomsorgen	_	_	_	_	_	_	
+42-6	2799-2800	,	_	_	_	_	_	_	
+42-7	2801-2804	som	_	_	_	_	_	_	
+42-8	2805-2807	nu	_	_	_	_	_	_	
+42-9	2808-2815	utreder	_	_	_	_	_	_	
+42-10	2816-2822	frågan	_	_	_	_	_	_	
+42-11	2822-2823	,	_	_	_	_	_	_	
+42-12	2824-2827	har	_	_	_	_	_	_	
+42-13	2828-2837	möjlighet	_	_	_	_	_	_	
+42-14	2838-2841	att	_	_	_	_	_	_	
+42-15	2842-2847	komma	_	_	_	_	_	_	
+42-16	2848-2851	med	_	_	_	_	_	_	
+42-17	2852-2859	förslag	_	_	_	_	_	_	
+42-18	2860-2863	som	_	_	_	_	_	_	
+42-19	2864-2870	ändrar	_	_	_	_	_	_	
+42-20	2871-2876	denna	_	_	_	_	_	_	
+42-21	2877-2889	ålderdomliga	_	Target	42-22	false	2	_	
+42-22	2890-2902	lagstiftning	*	_	_	_	_	_	
+42-23	2902-2903	.	_	_	_	_	_	_	
+
+#Text=Vi ser fram emot utredningen och hoppas att den möjliggör för Linköpingsbor och invånare i övriga Sverige att få en lättillgänglig social service utan krångel – med bibehållen kvalitet och rättssäkerhet för den enskilde.
+43-1	2904-2906	Vi	*[23]|*[24]	_	_	_	_	_	
+43-2	2907-2910	ser	_	Source;Target[10]	43-1[23];43-5	false[10]	4[10]	_	
+43-3	2911-2915	fram	_	Source;Target[10]	43-1[23];43-5	false[10]	4[10]	_	
+43-4	2916-2920	emot	_	Source;Target[10]	43-1[23];43-5	false[10]	4[10]	_	
+43-5	2921-2932	utredningen	*	_	_	_	_	_	
+43-6	2933-2936	och	_	_	_	_	_	_	
+43-7	2937-2943	hoppas	_	Source;Target	43-1[24];43-8[25]	false	4	_	
+43-8	2944-2947	att	*[25]	_	_	_	_	_	
+43-9	2948-2951	den	*[25]	_	_	_	_	_	
+43-10	2952-2961	möjliggör	*[25]	_	_	_	_	_	
+43-11	2962-2965	för	*[25]	_	_	_	_	_	
+43-12	2966-2979	Linköpingsbor	*[25]	_	_	_	_	_	
+43-13	2980-2983	och	*[25]	_	_	_	_	_	
+43-14	2984-2992	invånare	*[25]	_	_	_	_	_	
+43-15	2993-2994	i	*[25]	_	_	_	_	_	
+43-16	2995-3001	övriga	*[25]	_	_	_	_	_	
+43-17	3002-3009	Sverige	*[25]	_	_	_	_	_	
+43-18	3010-3013	att	*[25]	_	_	_	_	_	
+43-19	3014-3016	få	*[25]	_	_	_	_	_	
+43-20	3017-3019	en	*[25]	_	_	_	_	_	
+43-21	3020-3034	lättillgänglig	*[25]	_	_	_	_	_	
+43-22	3035-3041	social	*[25]	_	_	_	_	_	
+43-23	3042-3049	service	*[25]	_	_	_	_	_	
+43-24	3050-3054	utan	*[25]	_	_	_	_	_	
+43-25	3055-3062	krångel	*[25]	_	_	_	_	_	
+43-26	3063-3064	–	_	_	_	_	_	_	
+43-27	3065-3068	med	_	_	_	_	_	_	
+43-28	3069-3079	bibehållen	_	_	_	_	_	_	
+43-29	3080-3088	kvalitet	_	_	_	_	_	_	
+43-30	3089-3092	och	_	_	_	_	_	_	
+43-31	3093-3106	rättssäkerhet	_	_	_	_	_	_	
+43-32	3107-3110	för	_	_	_	_	_	_	
+43-33	3111-3114	den	_	_	_	_	_	_	
+43-34	3115-3123	enskilde	_	_	_	_	_	_	
+43-35	3123-3124	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3126-3127	#	_	_	_	_	_	_	
+44-2	3127-3128	P	_	_	_	_	_	_	
+44-3	3129-3132	IMM	_	_	_	_	_	_	
+44-4	3132-3133	.	_	_	_	_	_	_	
+
+#Text=Lena Micko.
+45-1	3135-3139	Lena	_	_	_	_	_	_	
+45-2	3140-3145	Micko	_	_	_	_	_	_	
+45-3	3145-3146	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3148-3149	#	_	_	_	_	_	_	
+46-2	3149-3150	P	_	_	_	_	_	_	
+46-3	3151-3154	IMM	_	_	_	_	_	_	
+46-4	3154-3155	.	_	_	_	_	_	_	
+
+#Text=ordförande SKL, Sveriges Kommuner och Landsting.
+47-1	3157-3167	ordförande	_	_	_	_	_	_	
+47-2	3168-3171	SKL	_	_	_	_	_	_	
+47-3	3171-3172	,	_	_	_	_	_	_	
+47-4	3173-3181	Sveriges	_	_	_	_	_	_	
+47-5	3182-3190	Kommuner	_	_	_	_	_	_	
+47-6	3191-3194	och	_	_	_	_	_	_	
+47-7	3195-3204	Landsting	_	_	_	_	_	_	
+47-8	3204-3205	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3207-3208	#	_	_	_	_	_	_	
+48-2	3208-3209	P	_	_	_	_	_	_	
+48-3	3210-3213	IMM	_	_	_	_	_	_	
+48-4	3213-3214	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+49-1	3216-3224	Redaktör	_	_	_	_	_	_	
+49-2	3224-3225	:	_	_	_	_	_	_	
+49-3	3226-3232	Carina	_	_	_	_	_	_	
+49-4	3233-3251	StenssonBiträdande	_	_	_	_	_	_	
+49-5	3252-3260	redaktör	_	_	_	_	_	_	
+49-6	3260-3261	:	_	_	_	_	_	_	
+49-7	3262-3272	Carl-Johan	_	_	_	_	_	_	
+49-8	3273-3287	BilkenrothMejl	_	_	_	_	_	_	
+49-9	3287-3288	:	_	_	_	_	_	_	
+49-10	3289-3295	debatt	_	_	_	_	_	_	
+49-11	3295-3296	@	_	_	_	_	_	_	
+49-12	3296-3315	svd.seTelefonnummer	_	_	_	_	_	_	
+49-13	3315-3316	:	_	_	_	_	_	_	
+49-14	3317-3319	08	_	_	_	_	_	_	
+49-15	3319-3320	-	_	_	_	_	_	_	
+49-16	3320-3333	135149Twitter	_	_	_	_	_	_	
+49-17	3333-3334	:	_	_	_	_	_	_	
+49-18	3335-3336	@	_	_	_	_	_	_	
+49-19	3336-3353	SvDDebattFacebook	_	_	_	_	_	_	
+49-20	3353-3354	:	_	_	_	_	_	_	
+49-21	3355-3358	SvD	_	_	_	_	_	_	
+49-22	3359-3365	Debatt	_	_	_	_	_	_	
+49-23	3365-3366	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3368-3369	#	_	_	_	_	_	_	
+50-2	3369-3370	P	_	_	_	_	_	_	
+50-3	3371-3374	IMM	_	_	_	_	_	_	
+50-4	3374-3375	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+51-1	3377-3385	Redaktör	_	_	_	_	_	_	
+51-2	3385-3386	:	_	_	_	_	_	_	
+51-3	3387-3393	Carina	_	_	_	_	_	_	
+51-4	3394-3402	Stensson	_	_	_	_	_	_	
+51-5	3402-3403	,	_	_	_	_	_	_	
+51-6	3404-3414	Biträdande	_	_	_	_	_	_	
+51-7	3415-3423	redaktör	_	_	_	_	_	_	
+51-8	3423-3424	:	_	_	_	_	_	_	
+51-9	3425-3430	Björn	_	_	_	_	_	_	
+51-10	3431-3437	Jorner	_	_	_	_	_	_	
+51-11	3437-3438	,	_	_	_	_	_	_	
+51-12	3439-3443	Mejl	_	_	_	_	_	_	
+51-13	3443-3444	:	_	_	_	_	_	_	
+51-14	3445-3451	debatt	_	_	_	_	_	_	
+51-15	3451-3452	@	_	_	_	_	_	_	
+51-16	3452-3458	svd.se	_	_	_	_	_	_	
+51-17	3458-3459	,	_	_	_	_	_	_	
+51-18	3460-3473	Telefonnummer	_	_	_	_	_	_	
+51-19	3473-3474	:	_	_	_	_	_	_	
+51-20	3475-3477	08	_	_	_	_	_	_	
+51-21	3477-3478	-	_	_	_	_	_	_	
+51-22	3478-3484	135149	_	_	_	_	_	_	
+51-23	3484-3485	,	_	_	_	_	_	_	
+51-24	3486-3493	Twitter	_	_	_	_	_	_	
+51-25	3493-3494	:	_	_	_	_	_	_	
+51-26	3495-3496	@	_	_	_	_	_	_	
+51-27	3496-3505	SvDDebatt	_	_	_	_	_	_	
+51-28	3505-3506	,	_	_	_	_	_	_	
+51-29	3507-3515	Facebook	_	_	_	_	_	_	
+51-30	3515-3516	:	_	_	_	_	_	_	
+51-31	3517-3520	SvD	_	_	_	_	_	_	
+51-32	3521-3527	Debatt	_	_	_	_	_	_	
+51-33	3527-3528	.	_	_	_	_	_	_	

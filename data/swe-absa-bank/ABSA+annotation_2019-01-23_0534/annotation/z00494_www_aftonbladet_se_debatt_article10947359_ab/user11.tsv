@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Replik: Folkpartiet inte främlingsfientligt.
+3-1	18-24	Replik	_	_	_	_	_	_	
+3-2	24-25	:	_	_	_	_	_	_	
+3-3	26-37	Folkpartiet	*	_	_	_	_	_	
+3-4	38-42	inte	_	Target[1]	3-3	false[1]	3[1]	_	
+3-5	43-61	främlingsfientligt	_	Target[1]	3-3	false[1]	3[1]	_	
+3-6	61-62	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	
+
+#Text=Jan Åberg från Göteborgs antidiskrimineringsbyrå upprepar i  den 29 augusti anklagelserna mot folkpartiet – språktester är främlingsfientlighet.
+5-1	73-76	Jan	*[8]	_	_	_	_	_	
+5-2	77-82	Åberg	*[8]	_	_	_	_	_	
+5-3	83-87	från	_	_	_	_	_	_	
+5-4	88-97	Göteborgs	_	_	_	_	_	_	
+5-5	98-121	antidiskrimineringsbyrå	_	_	_	_	_	_	
+5-6	122-130	upprepar	_	_	_	_	_	_	
+5-7	131-132	i	_	_	_	_	_	_	
+5-8	134-137	den	_	_	_	_	_	_	
+5-9	138-140	29	_	_	_	_	_	_	
+5-10	141-148	augusti	_	_	_	_	_	_	
+5-11	149-162	anklagelserna	_	Source;Target	5-1[8];5-13	false	2	_	
+5-12	163-166	mot	_	_	_	_	_	_	
+5-13	167-178	folkpartiet	*	_	_	_	_	_	
+5-14	179-180	–	_	_	_	_	_	_	
+5-15	181-192	språktester	*	_	_	_	_	_	
+5-16	193-195	är	_	_	_	_	_	_	
+5-17	196-216	främlingsfientlighet	_	Source;Target	5-1[8];5-15	false	2	_	
+5-18	216-217	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	219-220	#	_	_	_	_	_	_	
+6-2	220-221	P	_	_	_	_	_	_	
+6-3	222-225	IMM	_	_	_	_	_	_	
+6-4	225-226	.	_	_	_	_	_	_	
+
+#Text=Jag vädjar till alla mina syskon i migrationens Sverige: tro inte på honom!
+7-1	228-231	Jag	*	_	_	_	_	_	
+7-2	232-238	vädjar	_	Source;Target	7-1;7-4[9]	false	4	_	
+7-3	239-243	till	_	_	_	_	_	_	
+7-4	244-248	alla	*[9]	_	_	_	_	_	
+7-5	249-253	mina	*[9]	_	_	_	_	_	
+7-6	254-260	syskon	*[9]	_	_	_	_	_	
+7-7	261-262	i	*[9]	_	_	_	_	_	
+7-8	263-275	migrationens	*[9]	_	_	_	_	_	
+7-9	276-283	Sverige	*[9]	_	_	_	_	_	
+7-10	283-284	:	_	_	_	_	_	_	
+7-11	285-288	tro	_	_	_	_	_	_	
+7-12	289-293	inte	_	_	_	_	_	_	
+7-13	294-296	på	_	_	_	_	_	_	
+7-14	297-302	honom	_	_	_	_	_	_	
+7-15	302-303	!	_	_	_	_	_	_	
+
+#Text=Att visa respekt för det svenska språket betyder att visa uppskattning för alla språk, att göra landets kulturarv känt är ett sätt att skapa vördnad för alla kulturer.
+8-1	304-307	Att	_	Target[2]	8-6[10]	false[2]	4[2]	_	
+8-2	308-312	visa	_	Target[2]	8-6[10]	false[2]	4[2]	_	
+8-3	313-320	respekt	_	Target[2]	8-6[10]	false[2]	4[2]	_	
+8-4	321-324	för	_	_	_	_	_	_	
+8-5	325-328	det	_	_	_	_	_	_	
+8-6	329-336	svenska	*[10]	_	_	_	_	_	
+8-7	337-344	språket	*[10]	_	_	_	_	_	
+8-8	345-352	betyder	_	_	_	_	_	_	
+8-9	353-356	att	_	_	_	_	_	_	
+8-10	357-361	visa	_	Target[3]	8-13[11]	false[3]	4[3]	_	
+8-11	362-374	uppskattning	_	Target[3]	8-13[11]	false[3]	4[3]	_	
+8-12	375-378	för	_	_	_	_	_	_	
+8-13	379-383	alla	*[11]	_	_	_	_	_	
+8-14	384-389	språk	*[11]	_	_	_	_	_	
+8-15	389-390	,	_	_	_	_	_	_	
+8-16	391-394	att	_	_	_	_	_	_	
+8-17	395-399	göra	*[12]	_	_	_	_	_	
+8-18	400-407	landets	*[12]	_	_	_	_	_	
+8-19	408-417	kulturarv	*[12]	_	_	_	_	_	
+8-20	418-422	känt	*[12]	_	_	_	_	_	
+8-21	423-425	är	_	_	_	_	_	_	
+8-22	426-429	ett	_	_	_	_	_	_	
+8-23	430-434	sätt	_	_	_	_	_	_	
+8-24	435-438	att	_	_	_	_	_	_	
+8-25	439-444	skapa	_	Target[4]	8-17[12]	false[4]	4[4]	_	
+8-26	445-452	vördnad	_	Target[4]	8-17[12]	false[4]	4[4]	_	
+8-27	453-456	för	_	_	_	_	_	_	
+8-28	457-461	alla	_	_	_	_	_	_	
+8-29	462-470	kulturer	_	_	_	_	_	_	
+8-30	470-471	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	473-474	#	_	_	_	_	_	_	
+9-2	474-475	P	_	_	_	_	_	_	
+9-3	476-479	IMM	_	_	_	_	_	_	
+9-4	479-480	.	_	_	_	_	_	_	
+
+#Text=Kom ihåg kurdernas kamp för eget språk, egen kultur: varje folks identitet är sammanvuxen med djup kunskap om kulturarvet.
+10-1	482-485	Kom	_	_	_	_	_	_	
+10-2	486-490	ihåg	_	_	_	_	_	_	
+10-3	491-500	kurdernas	*	_	_	_	_	_	
+10-4	501-505	kamp	_	Source;Target	10-3;10-5[13]	false	4	_	
+10-5	506-509	för	*[13]	_	_	_	_	_	
+10-6	510-514	eget	*[13]	_	_	_	_	_	
+10-7	515-520	språk	*[13]	_	_	_	_	_	
+10-8	520-521	,	_	_	_	_	_	_	
+10-9	522-526	egen	_	_	_	_	_	_	
+10-10	527-533	kultur	_	_	_	_	_	_	
+10-11	533-534	:	_	_	_	_	_	_	
+10-12	535-540	varje	_	_	_	_	_	_	
+10-13	541-546	folks	_	_	_	_	_	_	
+10-14	547-556	identitet	_	_	_	_	_	_	
+10-15	557-559	är	_	_	_	_	_	_	
+10-16	560-571	sammanvuxen	_	_	_	_	_	_	
+10-17	572-575	med	_	_	_	_	_	_	
+10-18	576-580	djup	_	Target[5]	10-21	false[5]	4[5]	_	
+10-19	581-588	kunskap	_	Target[5]	10-21	false[5]	4[5]	_	
+10-20	589-591	om	_	_	_	_	_	_	
+10-21	592-603	kulturarvet	*	_	_	_	_	_	
+10-22	603-604	.	_	_	_	_	_	_	
+
+#Text=Varför skulle just vår befolkning inte ha rätt till det som utgör samhällets identitet?
+11-1	605-611	Varför	_	_	_	_	_	_	
+11-2	612-618	skulle	_	_	_	_	_	_	
+11-3	619-623	just	_	_	_	_	_	_	
+11-4	624-627	vår	*[14]	_	_	_	_	_	
+11-5	628-638	befolkning	*[14]	_	_	_	_	_	
+11-6	639-643	inte	_	Target[6]	11-4[14]	false[6]	2[6]	_	
+11-7	644-646	ha	_	Target[6]	11-4[14]	false[6]	2[6]	_	
+11-8	647-651	rätt	_	Target[6]	11-4[14]	false[6]	2[6]	_	
+11-9	652-656	till	_	Target[6]	11-4[14]	false[6]	2[6]	_	
+11-10	657-660	det	_	_	_	_	_	_	
+11-11	661-664	som	_	_	_	_	_	_	
+11-12	665-670	utgör	_	_	_	_	_	_	
+11-13	671-681	samhällets	_	_	_	_	_	_	
+11-14	682-691	identitet	_	_	_	_	_	_	
+11-15	691-692	?	_	_	_	_	_	_	
+
+#Text=Får inte svenskarna vara svenskar?.
+12-1	693-696	Får	_	_	_	_	_	_	
+12-2	697-701	inte	_	_	_	_	_	_	
+12-3	702-712	svenskarna	_	_	_	_	_	_	
+12-4	713-717	vara	_	_	_	_	_	_	
+12-5	718-726	svenskar	_	_	_	_	_	_	
+12-6	726-727	?	_	_	_	_	_	_	
+12-7	727-728	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	730-731	#	_	_	_	_	_	_	
+13-2	731-732	P	_	_	_	_	_	_	
+13-3	733-736	IMM	_	_	_	_	_	_	
+13-4	736-737	.	_	_	_	_	_	_	
+
+#Text=Folkpartiet försäkrar att testet inte skulle kräva avancerade kunskaper och att människor utan inlärningsförmåga ska få dispens.
+14-1	739-750	Folkpartiet	*	_	_	_	_	_	
+14-2	751-760	försäkrar	_	Target;Source	14-4[15];14-1	false	4	_	
+14-3	761-764	att	_	_	_	_	_	_	
+14-4	765-771	testet	*[15]	_	_	_	_	_	
+14-5	772-776	inte	*[15]	_	_	_	_	_	
+14-6	777-783	skulle	*[15]	_	_	_	_	_	
+14-7	784-789	kräva	*[15]	_	_	_	_	_	
+14-8	790-800	avancerade	*[15]	_	_	_	_	_	
+14-9	801-810	kunskaper	*[15]	_	_	_	_	_	
+14-10	811-814	och	_	_	_	_	_	_	
+14-11	815-818	att	_	_	_	_	_	_	
+14-12	819-828	människor	_	_	_	_	_	_	
+14-13	829-833	utan	_	_	_	_	_	_	
+14-14	834-851	inlärningsförmåga	_	_	_	_	_	_	
+14-15	852-855	ska	_	_	_	_	_	_	
+14-16	856-858	få	_	_	_	_	_	_	
+14-17	859-866	dispens	_	_	_	_	_	_	
+14-18	866-867	.	_	_	_	_	_	_	
+
+#Text=Folkpartiet verkar för arbetskraftsinvandring och för att övertyga fler kommuner att ta emot flyktingar.
+15-1	868-879	Folkpartiet	*	_	_	_	_	_	
+15-2	880-886	verkar	_	_	_	false	4	_	
+15-3	887-890	för	_	_	_	_	_	_	
+15-4	891-913	arbetskraftsinvandring	_	_	_	_	_	_	
+15-5	914-917	och	_	_	_	_	_	_	
+15-6	918-921	för	_	Target;Source[7]	15-10;15-1	false[7]	4[7]	15-2[0_7]	
+15-7	922-925	att	_	Target;Source[7]	15-10;15-1	false[7]	4[7]	_	
+15-8	926-934	övertyga	_	Target;Source[7]	15-10;15-1	false[7]	4[7]	_	
+15-9	935-939	fler	_	_	_	_	_	_	
+15-10	940-948	kommuner	*	_	_	_	_	_	
+15-11	949-952	att	_	_	_	_	_	_	
+15-12	953-955	ta	_	_	_	_	_	_	
+15-13	956-960	emot	_	_	_	_	_	_	
+15-14	961-971	flyktingar	_	_	_	_	_	_	
+15-15	971-972	.	_	_	_	_	_	_	
+
+#Text=Ingen främlingsfientlig grupp agerar för ökad invandring – vilket är just det vi gör.
+16-1	973-978	Ingen	_	_	_	_	_	_	
+16-2	979-996	främlingsfientlig	_	_	_	_	_	_	
+16-3	997-1002	grupp	_	_	_	_	_	_	
+16-4	1003-1009	agerar	_	_	_	_	_	_	
+16-5	1010-1013	för	_	_	_	_	_	_	
+16-6	1014-1018	ökad	_	_	_	_	_	_	
+16-7	1019-1029	invandring	_	_	_	_	_	_	
+16-8	1030-1031	–	_	_	_	_	_	_	
+16-9	1032-1038	vilket	_	_	_	_	_	_	
+16-10	1039-1041	är	_	_	_	_	_	_	
+16-11	1042-1046	just	_	_	_	_	_	_	
+16-12	1047-1050	det	_	_	_	_	_	_	
+16-13	1051-1053	vi	_	_	_	_	_	_	
+16-14	1054-1057	gör	_	_	_	_	_	_	
+16-15	1057-1058	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1060-1061	#	_	_	_	_	_	_	
+17-2	1061-1062	P	_	_	_	_	_	_	
+17-3	1063-1066	IMM	_	_	_	_	_	_	
+17-4	1066-1067	.	_	_	_	_	_	_	
+
+#Text=Ana Maria Narti , Riksdagsledamot [fp].
+18-1	1069-1072	Ana	_	_	_	_	_	_	
+18-2	1073-1078	Maria	_	_	_	_	_	_	
+18-3	1079-1084	Narti	_	_	_	_	_	_	
+18-4	1085-1086	,	_	_	_	_	_	_	
+18-5	1087-1102	Riksdagsledamot	_	_	_	_	_	_	
+18-6	1103-1104	[	_	_	_	_	_	_	
+18-7	1104-1106	fp	_	_	_	_	_	_	
+18-8	1106-1107	]	_	_	_	_	_	_	
+18-9	1107-1108	.	_	_	_	_	_	_	

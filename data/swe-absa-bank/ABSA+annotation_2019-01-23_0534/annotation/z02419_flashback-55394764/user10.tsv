@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	2	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vill att bistånd ska gå till mat, medecin osv. och ej till invandring.Är jag vänster?
+3-1	18-22	Vill	_	_	_	_	_	_	
+3-2	23-26	att	_	_	_	_	_	_	
+3-3	27-34	bistånd	_	_	_	_	_	_	
+3-4	35-38	ska	_	_	_	_	_	_	
+3-5	39-41	gå	_	_	_	_	_	_	
+3-6	42-46	till	_	_	_	_	_	_	
+3-7	47-50	mat	_	_	_	_	_	_	
+3-8	50-51	,	_	_	_	_	_	_	
+3-9	52-59	medecin	_	_	_	_	_	_	
+3-10	60-63	osv	_	_	_	_	_	_	
+3-11	63-64	.	_	_	_	_	_	_	
+3-12	65-68	och	_	_	_	_	_	_	
+3-13	69-71	ej	_	_	_	_	_	_	
+3-14	72-76	till	_	_	_	_	_	_	
+3-15	77-90	invandring.Är	_	_	_	_	_	_	
+3-16	91-94	jag	_	_	_	_	_	_	
+3-17	95-102	vänster	_	_	_	_	_	_	
+3-18	102-103	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	105-106	#	_	_	_	_	_	_	
+4-2	106-107	P	_	_	_	_	_	_	
+4-3	108-111	IMM	_	_	_	false	2	_	
+4-4	111-112	.	_	_	_	_	_	_	
+
+#Text=Som rubriken lyder.
+5-1	114-117	Som	_	_	_	_	_	_	
+5-2	118-126	rubriken	_	_	_	_	_	_	
+5-3	127-132	lyder	_	_	_	_	_	_	
+5-4	132-133	.	_	_	_	_	_	_	
+
+#Text=Jag anser att solidaritet med utlandets drabbade visas bäst när resurser går till utlandet istället för till Sverige, samt att ett krisdrabbat utland alltid bör ses som en förlustaffär istället för (genom invandring) en vinst, eftersom politikerna då har motiv till att stävja kriserna i utlandet istället för att dra nytta av dem.
+6-1	134-137	Jag	_	_	_	_	_	_	
+6-2	138-143	anser	_	_	_	_	_	_	
+6-3	144-147	att	_	_	_	_	_	_	
+6-4	148-159	solidaritet	_	Target[1]	6-6[6]	false[1]	4[1]	_	
+6-5	160-163	med	_	Target[1]	6-6[6]	false[1]	4[1]	_	
+6-6	164-173	utlandets	*[6]	_	_	_	_	_	
+6-7	174-182	drabbade	*[6]	_	_	_	_	_	
+6-8	183-188	visas	_	_	_	_	_	_	
+6-9	189-193	bäst	_	Target	6-10[7]	false	5	_	
+6-10	194-197	när	*[7]	_	_	_	_	_	
+6-11	198-206	resurser	*[7]	_	_	_	_	_	
+6-12	207-210	går	*[7]	_	_	_	_	_	
+6-13	211-215	till	*[7]	_	_	_	_	_	
+6-14	216-224	utlandet	*[7]	_	_	_	_	_	
+6-15	225-233	istället	*[7]	_	_	_	_	_	
+6-16	234-237	för	*[7]	_	_	_	_	_	
+6-17	238-242	till	*[7]	_	_	_	_	_	
+6-18	243-250	Sverige	*[7]	_	_	_	_	_	
+6-19	250-251	,	_	_	_	_	_	_	
+6-20	252-256	samt	_	_	_	_	_	_	
+6-21	257-260	att	_	_	_	_	_	_	
+6-22	261-264	ett	*[8]	_	_	_	_	_	
+6-23	265-276	krisdrabbat	*[8]	_	_	_	_	_	
+6-24	277-283	utland	*[8]	_	_	_	_	_	
+6-25	284-290	alltid	_	_	_	_	_	_	
+6-26	291-294	bör	_	_	_	_	_	_	
+6-27	295-298	ses	_	_	_	_	_	_	
+6-28	299-302	som	_	_	_	_	_	_	
+6-29	303-305	en	_	Target[2]	6-22[8]	false[2]	1[2]	_	
+6-30	306-318	förlustaffär	_	Target[2]	6-22[8]	false[2]	1[2]	_	
+6-31	319-327	istället	_	_	_	_	_	_	
+6-32	328-331	för	_	_	_	_	_	_	
+6-33	332-333	(	_	_	_	_	_	_	
+6-34	333-338	genom	_	_	_	_	_	_	
+6-35	339-349	invandring	_	_	_	_	_	_	
+6-36	349-350	)	_	_	_	_	_	_	
+6-37	351-353	en	_	_	_	_	_	_	
+6-38	354-359	vinst	_	_	_	_	_	_	
+6-39	359-360	,	_	_	_	_	_	_	
+6-40	361-369	eftersom	_	_	_	_	_	_	
+6-41	370-381	politikerna	*	_	_	_	_	_	
+6-42	382-384	då	_	_	_	_	_	_	
+6-43	385-388	har	_	_	_	_	_	_	
+6-44	389-394	motiv	_	_	_	_	_	_	
+6-45	395-399	till	_	_	_	_	_	_	
+6-46	400-403	att	_	_	_	_	_	_	
+6-47	404-410	stävja	*[9]	Target[3]	6-47[9]	false[3]	4[3]	_	
+6-48	411-419	kriserna	*[9]|*[10]	Target[3]	6-47[9]	false[3]	4[3]	6-57[0_10]	
+6-49	420-421	i	_	_	_	_	_	_	
+6-50	422-430	utlandet	_	_	_	_	_	_	
+6-51	431-439	istället	_	_	_	_	_	_	
+6-52	440-443	för	_	_	_	_	_	_	
+6-53	444-447	att	_	_	_	_	_	_	
+6-54	448-451	dra	_	Target;Source[4]	6-57;6-41	false[4]	4[4]	_	
+6-55	452-457	nytta	_	Target;Source[4]	6-57;6-41	false[4]	4[4]	_	
+6-56	458-460	av	_	Target;Source[4]	6-57;6-41	false[4]	4[4]	_	
+6-57	461-464	dem	*	_	_	_	_	_	
+6-58	464-465	.	_	_	_	_	_	_	
+
+#Text=Är jag, med en sådan syn på hur solidaritet med utlandet ska visas, fortfarande vänster?.
+7-1	466-468	Är	_	_	_	_	_	_	
+7-2	469-472	jag	*	_	_	_	_	_	
+7-3	472-473	,	_	_	_	_	_	_	
+7-4	474-477	med	_	_	_	_	_	_	
+7-5	478-480	en	_	_	_	_	_	_	
+7-6	481-486	sådan	_	_	_	_	_	_	
+7-7	487-490	syn	_	_	_	_	_	_	
+7-8	491-493	på	_	_	_	_	_	_	
+7-9	494-497	hur	_	_	_	_	_	_	
+7-10	498-509	solidaritet	_	Target;Source[5]	7-12;7-2	false[5]	4[5]	_	
+7-11	510-513	med	_	Target;Source[5]	7-12;7-2	false[5]	4[5]	_	
+7-12	514-522	utlandet	*	_	_	_	_	_	
+7-13	523-526	ska	_	_	_	_	_	_	
+7-14	527-532	visas	_	_	_	_	_	_	
+7-15	532-533	,	_	_	_	_	_	_	
+7-16	534-545	fortfarande	_	_	_	_	_	_	
+7-17	546-553	vänster	_	_	_	_	_	_	
+7-18	553-554	?	_	_	_	_	_	_	
+7-19	554-555	.	_	_	_	_	_	_	

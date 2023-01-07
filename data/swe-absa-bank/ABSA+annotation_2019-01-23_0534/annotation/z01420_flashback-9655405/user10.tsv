@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Regeringen "enad" om anhöriginvandring.
+3-1	18-28	Regeringen	_	_	_	_	_	
+3-2	29-30	"	_	_	_	_	_	
+3-3	30-34	enad	_	_	_	_	_	
+3-4	34-35	"	_	_	_	_	_	
+3-5	36-38	om	_	_	_	_	_	
+3-6	39-56	anhöriginvandring	_	_	_	_	_	
+3-7	56-57	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	false	2	
+4-4	65-66	.	_	_	_	_	_	
+
+#Text=Positivt och negativt om detta?
+5-1	68-76	Positivt	*	Target	5-1	false	5	
+5-2	77-80	och	_	_	_	_	_	
+5-3	81-89	negativt	*	Target	5-3	false	1	
+5-4	90-92	om	_	_	_	_	_	
+5-5	93-98	detta	_	_	_	_	_	
+5-6	98-99	?	_	_	_	_	_	
+
+#Text=Ska verkligen bli intressant att få höra anklagelser från vänsterbödeln som inte öppet vill redovisa kostnaderna för flyktingar men klagar på ökad socialbidrag i 80 kommuner (där många tar emot flyktingar).
+6-1	100-103	Ska	_	_	_	_	_	
+6-2	104-113	verkligen	_	_	_	_	_	
+6-3	114-117	bli	_	_	_	_	_	
+6-4	118-128	intressant	_	_	_	_	_	
+6-5	129-132	att	_	_	_	_	_	
+6-6	133-135	få	_	_	_	_	_	
+6-7	136-140	höra	_	_	_	_	_	
+6-8	141-152	anklagelser	*[7]	Target[1]	6-8[7]	false[1]	1[1]	
+6-9	153-157	från	*[7]	Target[1]	6-8[7]	false[1]	1[1]	
+6-10	158-171	vänsterbödeln	*[8]|*[9]	Target[2]|_[3]	6-10[8]|_	false[2]|false[3]	1[2]|1[3]	
+6-11	172-175	som	_	_	_	_	_	
+6-12	176-180	inte	_	_	_	_	_	
+6-13	181-186	öppet	_	_	_	_	_	
+6-14	187-191	vill	_	_	_	_	_	
+6-15	192-200	redovisa	_	_	_	_	_	
+6-16	201-212	kostnaderna	_	_	_	_	_	
+6-17	213-216	för	_	_	_	_	_	
+6-18	217-227	flyktingar	_	_	_	_	_	
+6-19	228-231	men	_	_	_	_	_	
+6-20	232-238	klagar	_	Source;Target[4]	6-10[9];6-22[10]	false[4]	2[4]	
+6-21	239-241	på	_	Source;Target[4]	6-10[9];6-22[10]	false[4]	2[4]	
+6-22	242-246	ökad	*[10]	_	_	_	_	
+6-23	247-259	socialbidrag	*[10]	_	_	_	_	
+6-24	260-261	i	*[10]	_	_	_	_	
+6-25	262-264	80	*[10]	_	_	_	_	
+6-26	265-273	kommuner	*[10]	_	_	_	_	
+6-27	274-275	(	_	_	_	_	_	
+6-28	275-278	där	_	_	_	_	_	
+6-29	279-284	många	_	_	_	_	_	
+6-30	285-288	tar	_	_	_	_	_	
+6-31	289-293	emot	_	_	_	_	_	
+6-32	294-304	flyktingar	_	_	_	_	_	
+6-33	304-305	)	_	_	_	_	_	
+6-34	305-306	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	308-309	#	_	_	_	_	_	
+7-2	309-310	P	_	_	_	_	_	
+7-3	311-314	IMM	_	_	_	false	1	
+7-4	314-315	.	_	_	_	_	_	
+
+#Text=Ska kommuner som Göteborg, Malmö och Södertälje protestera mot detta?
+8-1	317-320	Ska	_	_	_	_	_	
+8-2	321-329	kommuner	_	_	_	_	_	
+8-3	330-333	som	_	_	_	_	_	
+8-4	334-342	Göteborg	_	_	_	_	_	
+8-5	342-343	,	_	_	_	_	_	
+8-6	344-349	Malmö	_	_	_	_	_	
+8-7	350-353	och	_	_	_	_	_	
+8-8	354-364	Södertälje	_	_	_	_	_	
+8-9	365-375	protestera	_	Target[5]	8-11	false[5]	1[5]	
+8-10	376-379	mot	_	Target[5]	8-11	false[5]	1[5]	
+8-11	380-385	detta	*	_	_	_	_	
+8-12	385-386	?	_	_	_	_	_	
+
+#Text=Samtidigt som vi får se snyftreportage om trångbodda lägenheter och att ta ansvar?.
+9-1	387-396	Samtidigt	_	_	_	_	_	
+9-2	397-400	som	_	_	_	_	_	
+9-3	401-403	vi	_	_	_	_	_	
+9-4	404-407	får	_	_	_	_	_	
+9-5	408-410	se	_	_	_	_	_	
+9-6	411-425	snyftreportage	*[11]	Target[6]	9-6[11]	false[6]	1[6]	
+9-7	426-428	om	*[11]	Target[6]	9-6[11]	false[6]	1[6]	
+9-8	429-439	trångbodda	*[11]	Target[6]	9-6[11]	false[6]	1[6]	
+9-9	440-450	lägenheter	*[11]	Target[6]	9-6[11]	false[6]	1[6]	
+9-10	451-454	och	_	_	_	_	_	
+9-11	455-458	att	_	_	_	_	_	
+9-12	459-461	ta	_	_	_	_	_	
+9-13	462-468	ansvar	_	_	_	_	_	
+9-14	468-469	?	_	_	_	_	_	
+9-15	469-470	.	_	_	_	_	_	

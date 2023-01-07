@@ -1,0 +1,409 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Har moderaterna någon skattemoral alls?
+3-1	18-21	Har	_	_	_	false	2	_	
+3-2	22-33	moderaterna	*	_	_	_	_	_	
+3-3	34-39	någon	_	Target[1]	3-2	false[1]	2[1]	3-1[0_1]	
+3-4	40-51	skattemoral	_	Target[1]	3-2	false[1]	2[1]	_	
+3-5	52-56	alls	_	Target[1]	3-2	false[1]	2[1]	_	
+3-6	56-57	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=Hur står det egentligen till med skattemoralen bland moderaterna?
+5-1	68-71	Hur	_	_	_	_	_	_	
+5-2	72-76	står	_	_	_	_	_	_	
+5-3	77-80	det	_	_	_	_	_	_	
+5-4	81-91	egentligen	_	_	_	_	_	_	
+5-5	92-96	till	_	_	_	_	_	_	
+5-6	97-100	med	_	_	_	_	_	_	
+5-7	101-114	skattemoralen	_	_	_	_	_	_	
+5-8	115-120	bland	_	_	_	_	_	_	
+5-9	121-132	moderaterna	_	_	_	_	_	_	
+5-10	132-133	?	_	_	_	_	_	_	
+
+#Text=Under den senaste veckan har debattens stormvågor gått höga.
+6-1	134-139	Under	_	_	_	_	_	_	
+6-2	140-143	den	_	_	_	_	_	_	
+6-3	144-151	senaste	_	_	_	_	_	_	
+6-4	152-158	veckan	_	_	_	_	_	_	
+6-5	159-162	har	_	_	_	_	_	_	
+6-6	163-172	debattens	_	_	_	_	_	_	
+6-7	173-183	stormvågor	_	_	_	_	_	_	
+6-8	184-188	gått	_	_	_	_	_	_	
+6-9	189-193	höga	_	_	_	_	_	_	
+6-10	193-194	.	_	_	_	_	_	_	
+
+#Text=Många har pekat på det paradoxala i att en regering som gjort kampen mot fusket i socialförsäkringarna till ett paradnummer tycks ha så svårt att hålla rent i de egna leden när det gäller skattefusket.
+7-1	195-200	Många	_	_	_	_	_	_	
+7-2	201-204	har	_	_	_	_	_	_	
+7-3	205-210	pekat	_	_	_	_	_	_	
+7-4	211-213	på	_	_	_	_	_	_	
+7-5	214-217	det	_	_	_	_	_	_	
+7-6	218-228	paradoxala	_	_	_	_	_	_	
+7-7	229-230	i	_	_	_	_	_	_	
+7-8	231-234	att	_	_	_	_	_	_	
+7-9	235-237	en	_	_	_	_	_	_	
+7-10	238-246	regering	*	_	_	_	_	_	
+7-11	247-250	som	_	_	_	_	_	_	
+7-12	251-256	gjort	_	_	_	_	_	_	
+7-13	257-263	kampen	_	_	_	_	_	_	
+7-14	264-267	mot	_	_	_	_	_	_	
+7-15	268-274	fusket	_	_	_	_	_	_	
+7-16	275-276	i	_	_	_	_	_	_	
+7-17	277-297	socialförsäkringarna	_	_	_	_	_	_	
+7-18	298-302	till	_	_	_	_	_	_	
+7-19	303-306	ett	_	_	_	_	_	_	
+7-20	307-318	paradnummer	_	_	_	_	_	_	
+7-21	319-324	tycks	_	Target[2]	7-10	false[2]	2[2]	_	
+7-22	325-327	ha	_	Target[2]	7-10	false[2]	2[2]	_	
+7-23	328-330	så	_	Target[2]	7-10	false[2]	2[2]	_	
+7-24	331-336	svårt	_	Target[2]	7-10	false[2]	2[2]	_	
+7-25	337-340	att	_	Target[2]	7-10	false[2]	2[2]	_	
+7-26	341-346	hålla	_	Target[2]	7-10	false[2]	2[2]	_	
+7-27	347-351	rent	_	Target[2]	7-10	false[2]	2[2]	_	
+7-28	352-353	i	_	Target[2]	7-10	false[2]	2[2]	_	
+7-29	354-356	de	_	Target[2]	7-10	false[2]	2[2]	_	
+7-30	357-361	egna	_	Target[2]	7-10	false[2]	2[2]	_	
+7-31	362-367	leden	_	Target[2]	7-10	false[2]	2[2]	_	
+7-32	368-371	när	_	Target[2]	7-10	false[2]	2[2]	_	
+7-33	372-375	det	_	Target[2]	7-10	false[2]	2[2]	_	
+7-34	376-382	gäller	_	Target[2]	7-10	false[2]	2[2]	_	
+7-35	383-395	skattefusket	_	Target[2]	7-10	false[2]	2[2]	_	
+7-36	395-396	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	398-399	#	_	_	_	_	_	_	
+8-2	399-400	P	_	_	_	_	_	_	
+8-3	401-404	IMM	_	_	_	_	_	_	
+8-4	404-405	.	_	_	_	_	_	_	
+
+#Text=Det intressanta är att den dubbelmoral man här tycker sig framtona – vi jagar bidragsfuskare med blåslampa men fuskar själva med skatten – tycks återspeglas även bland de moderata partisympatisörerna.
+9-1	407-410	Det	_	_	_	_	_	_	
+9-2	411-422	intressanta	_	_	_	_	_	_	
+9-3	423-425	är	_	_	_	_	_	_	
+9-4	426-429	att	_	_	_	_	_	_	
+9-5	430-433	den	_	_	_	_	_	_	
+9-6	434-445	dubbelmoral	_	Target[3]	9-31	false[3]	2[3]	_	
+9-7	446-449	man	_	Target[3]	9-31	false[3]	2[3]	_	
+9-8	450-453	här	_	Target[3]	9-31	false[3]	2[3]	_	
+9-9	454-460	tycker	_	Target[3]	9-31	false[3]	2[3]	_	
+9-10	461-464	sig	_	Target[3]	9-31	false[3]	2[3]	_	
+9-11	465-473	framtona	_	Target[3]	9-31	false[3]	2[3]	_	
+9-12	474-475	–	_	_	_	_	_	_	
+9-13	476-478	vi	_	_	_	_	_	_	
+9-14	479-484	jagar	_	_	_	_	_	_	
+9-15	485-499	bidragsfuskare	*	Target	9-15	false	2	_	
+9-16	500-503	med	_	_	_	_	_	_	
+9-17	504-513	blåslampa	_	_	_	_	_	_	
+9-18	514-517	men	_	_	_	_	_	_	
+9-19	518-524	fuskar	_	_	_	_	_	_	
+9-20	525-531	själva	_	_	_	_	_	_	
+9-21	532-535	med	_	_	_	_	_	_	
+9-22	536-543	skatten	_	_	_	_	_	_	
+9-23	544-545	–	_	_	_	_	_	_	
+9-24	546-551	tycks	_	_	_	_	_	_	
+9-25	552-563	återspeglas	_	_	_	_	_	_	
+9-26	564-568	även	_	_	_	_	_	_	
+9-27	569-574	bland	_	_	_	_	_	_	
+9-28	575-577	de	_	_	_	_	_	_	
+9-29	578-586	moderata	_	_	_	_	_	_	
+9-30	587-606	partisympatisörerna	_	_	_	_	_	_	
+9-31	606-607	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	609-610	#	_	_	_	_	_	_	
+10-2	610-611	P	_	_	_	_	_	_	
+10-3	612-615	IMM	_	_	_	_	_	_	
+10-4	615-616	.	_	_	_	_	_	_	
+
+#Text=I den stora värderingsundersökningen ”World Values Survey” har man frågat människor om hur de ser på olika moraliskt klandervärda beteeenden.
+11-1	618-619	I	_	_	_	_	_	_	
+11-2	620-623	den	_	_	_	_	_	_	
+11-3	624-629	stora	_	_	_	_	_	_	
+11-4	630-654	värderingsundersökningen	_	_	_	_	_	_	
+11-5	655-656	”	_	_	_	_	_	_	
+11-6	656-661	World	_	_	_	_	_	_	
+11-7	662-668	Values	_	_	_	_	_	_	
+11-8	669-675	Survey	_	_	_	_	_	_	
+11-9	675-676	”	_	_	_	_	_	_	
+11-10	677-680	har	_	_	_	_	_	_	
+11-11	681-684	man	_	_	_	_	_	_	
+11-12	685-691	frågat	_	_	_	_	_	_	
+11-13	692-701	människor	_	_	_	_	_	_	
+11-14	702-704	om	_	_	_	_	_	_	
+11-15	705-708	hur	_	_	_	_	_	_	
+11-16	709-711	de	_	_	_	_	_	_	
+11-17	712-715	ser	_	_	_	_	_	_	
+11-18	716-718	på	_	_	_	_	_	_	
+11-19	719-724	olika	_	_	_	_	_	_	
+11-20	725-734	moraliskt	_	_	_	_	_	_	
+11-21	735-747	klandervärda	_	_	_	_	_	_	
+11-22	748-758	beteeenden	_	_	_	_	_	_	
+11-23	758-759	.	_	_	_	_	_	_	
+
+#Text=Bland annat har man frågat om hur man ser på fusk med sociala förmåner och hur man ser på skattefusk.
+12-1	760-765	Bland	_	_	_	_	_	_	
+12-2	766-771	annat	_	_	_	_	_	_	
+12-3	772-775	har	_	_	_	_	_	_	
+12-4	776-779	man	_	_	_	_	_	_	
+12-5	780-786	frågat	_	_	_	_	_	_	
+12-6	787-789	om	_	_	_	_	_	_	
+12-7	790-793	hur	_	_	_	_	_	_	
+12-8	794-797	man	_	_	_	_	_	_	
+12-9	798-801	ser	_	_	_	_	_	_	
+12-10	802-804	på	_	_	_	_	_	_	
+12-11	805-809	fusk	_	_	_	_	_	_	
+12-12	810-813	med	_	_	_	_	_	_	
+12-13	814-821	sociala	_	_	_	_	_	_	
+12-14	822-830	förmåner	_	_	_	_	_	_	
+12-15	831-834	och	_	_	_	_	_	_	
+12-16	835-838	hur	_	_	_	_	_	_	
+12-17	839-842	man	_	_	_	_	_	_	
+12-18	843-846	ser	_	_	_	_	_	_	
+12-19	847-849	på	_	_	_	_	_	_	
+12-20	850-860	skattefusk	_	_	_	_	_	_	
+12-21	860-861	.	_	_	_	_	_	_	
+
+#Text=Svar har angetts på en 10-gradig skala, från ”aldrig acceptabelt” till ”alltid acceptabelt”.
+13-1	862-866	Svar	_	_	_	_	_	_	
+13-2	867-870	har	_	_	_	_	_	_	
+13-3	871-878	angetts	_	_	_	_	_	_	
+13-4	879-881	på	_	_	_	_	_	_	
+13-5	882-884	en	_	_	_	_	_	_	
+13-6	885-887	10	_	_	_	_	_	_	
+13-7	887-888	-	_	_	_	_	_	_	
+13-8	888-894	gradig	_	_	_	_	_	_	
+13-9	895-900	skala	_	_	_	_	_	_	
+13-10	900-901	,	_	_	_	_	_	_	
+13-11	902-906	från	_	_	_	_	_	_	
+13-12	907-908	”	_	_	_	_	_	_	
+13-13	908-914	aldrig	_	_	_	_	_	_	
+13-14	915-926	acceptabelt	_	_	_	_	_	_	
+13-15	926-927	”	_	_	_	_	_	_	
+13-16	928-932	till	_	_	_	_	_	_	
+13-17	933-934	”	_	_	_	_	_	_	
+13-18	934-940	alltid	_	_	_	_	_	_	
+13-19	941-952	acceptabelt	_	_	_	_	_	_	
+13-20	952-953	”	_	_	_	_	_	_	
+13-21	953-954	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	956-957	#	_	_	_	_	_	_	
+14-2	957-958	P	_	_	_	_	_	_	
+14-3	959-962	IMM	_	_	_	_	_	_	
+14-4	962-963	.	_	_	_	_	_	_	
+
+#Text=I tabellen ser vi hur stor andel av de olika partisympatisörerna som svarat ”aldrig acceptabelt”.
+15-1	965-966	I	_	_	_	_	_	_	
+15-2	967-975	tabellen	_	_	_	_	_	_	
+15-3	976-979	ser	_	_	_	_	_	_	
+15-4	980-982	vi	_	_	_	_	_	_	
+15-5	983-986	hur	_	_	_	_	_	_	
+15-6	987-991	stor	_	_	_	_	_	_	
+15-7	992-997	andel	_	_	_	_	_	_	
+15-8	998-1000	av	_	_	_	_	_	_	
+15-9	1001-1003	de	_	_	_	_	_	_	
+15-10	1004-1009	olika	_	_	_	_	_	_	
+15-11	1010-1029	partisympatisörerna	_	_	_	_	_	_	
+15-12	1030-1033	som	_	_	_	_	_	_	
+15-13	1034-1040	svarat	_	_	_	_	_	_	
+15-14	1041-1042	”	_	_	_	_	_	_	
+15-15	1042-1048	aldrig	_	_	_	_	_	_	
+15-16	1049-1060	acceptabelt	_	_	_	_	_	_	
+15-17	1060-1061	”	_	_	_	_	_	_	
+15-18	1061-1062	.	_	_	_	_	_	_	
+
+#Text=Det intressanta är att medan socialdemokrater, vänsterpartister och kristdemokrater ser ungefär lika allvarligt på fusk med sociala förmåner som på skattefusk ser man bland de borgerliga sympatisörerna mindre allvarligt på skattefusk än på bidragsfusk.
+16-1	1063-1066	Det	_	_	_	_	_	_	
+16-2	1067-1078	intressanta	_	_	_	_	_	_	
+16-3	1079-1081	är	_	_	_	_	_	_	
+16-4	1082-1085	att	_	_	_	_	_	_	
+16-5	1086-1091	medan	_	_	_	_	_	_	
+16-6	1092-1108	socialdemokrater	_	_	_	_	_	_	
+16-7	1108-1109	,	_	_	_	_	_	_	
+16-8	1110-1126	vänsterpartister	_	_	_	_	_	_	
+16-9	1127-1130	och	_	_	_	_	_	_	
+16-10	1131-1146	kristdemokrater	_	_	_	_	_	_	
+16-11	1147-1150	ser	_	_	_	_	_	_	
+16-12	1151-1158	ungefär	_	_	_	_	_	_	
+16-13	1159-1163	lika	_	_	_	_	_	_	
+16-14	1164-1174	allvarligt	_	_	_	_	_	_	
+16-15	1175-1177	på	_	_	_	_	_	_	
+16-16	1178-1182	fusk	_	_	_	_	_	_	
+16-17	1183-1186	med	_	_	_	_	_	_	
+16-18	1187-1194	sociala	_	_	_	_	_	_	
+16-19	1195-1203	förmåner	_	_	_	_	_	_	
+16-20	1204-1207	som	_	_	_	_	_	_	
+16-21	1208-1210	på	_	_	_	_	_	_	
+16-22	1211-1221	skattefusk	_	_	_	_	_	_	
+16-23	1222-1225	ser	_	_	_	_	_	_	
+16-24	1226-1229	man	_	_	_	_	_	_	
+16-25	1230-1235	bland	_	_	_	_	_	_	
+16-26	1236-1238	de	_	_	_	_	_	_	
+16-27	1239-1249	borgerliga	_	_	_	_	_	_	
+16-28	1250-1264	sympatisörerna	_	_	_	_	_	_	
+16-29	1265-1271	mindre	_	_	_	_	_	_	
+16-30	1272-1282	allvarligt	_	_	_	_	_	_	
+16-31	1283-1285	på	_	_	_	_	_	_	
+16-32	1286-1296	skattefusk	_	_	_	_	_	_	
+16-33	1297-1299	än	_	_	_	_	_	_	
+16-34	1300-1302	på	_	_	_	_	_	_	
+16-35	1303-1314	bidragsfusk	_	_	_	_	_	_	
+16-36	1314-1315	.	_	_	_	_	_	_	
+
+#Text=Störst är skillnaden bland de moderata sympatisörerna.
+17-1	1316-1322	Störst	_	_	_	_	_	_	
+17-2	1323-1325	är	_	_	_	_	_	_	
+17-3	1326-1336	skillnaden	_	_	_	_	_	_	
+17-4	1337-1342	bland	_	_	_	_	_	_	
+17-5	1343-1345	de	_	_	_	_	_	_	
+17-6	1346-1354	moderata	_	_	_	_	_	_	
+17-7	1355-1369	sympatisörerna	_	_	_	_	_	_	
+17-8	1369-1370	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1372-1373	#	_	_	_	_	_	_	
+18-2	1373-1374	P	_	_	_	_	_	_	
+18-3	1375-1378	IMM	_	_	_	_	_	_	
+18-4	1378-1379	.	_	_	_	_	_	_	
+
+#Text=Här är det 54% som svarar att det aldrig är acceptabelt att fuska med sociala förmåner medan det bara är 40% som svarar likadant när det gäller skattefusk.
+19-1	1381-1384	Här	_	_	_	_	_	_	
+19-2	1385-1387	är	_	_	_	_	_	_	
+19-3	1388-1391	det	_	_	_	_	_	_	
+19-4	1392-1395	54%	_	_	_	_	_	_	
+19-5	1396-1399	som	_	_	_	_	_	_	
+19-6	1400-1406	svarar	_	_	_	_	_	_	
+19-7	1407-1410	att	_	_	_	_	_	_	
+19-8	1411-1414	det	_	_	_	_	_	_	
+19-9	1415-1421	aldrig	_	_	_	_	_	_	
+19-10	1422-1424	är	_	_	_	_	_	_	
+19-11	1425-1436	acceptabelt	_	_	_	_	_	_	
+19-12	1437-1440	att	_	_	_	_	_	_	
+19-13	1441-1446	fuska	_	_	_	_	_	_	
+19-14	1447-1450	med	_	_	_	_	_	_	
+19-15	1451-1458	sociala	_	_	_	_	_	_	
+19-16	1459-1467	förmåner	_	_	_	_	_	_	
+19-17	1468-1473	medan	_	_	_	_	_	_	
+19-18	1474-1477	det	_	_	_	_	_	_	
+19-19	1478-1482	bara	_	_	_	_	_	_	
+19-20	1483-1485	är	_	_	_	_	_	_	
+19-21	1486-1489	40%	_	_	_	_	_	_	
+19-22	1490-1493	som	_	_	_	_	_	_	
+19-23	1494-1500	svarar	_	_	_	_	_	_	
+19-24	1501-1509	likadant	_	_	_	_	_	_	
+19-25	1510-1513	när	_	_	_	_	_	_	
+19-26	1514-1517	det	_	_	_	_	_	_	
+19-27	1518-1524	gäller	_	_	_	_	_	_	
+19-28	1525-1535	skattefusk	_	_	_	_	_	_	
+19-29	1535-1536	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1538-1539	#	_	_	_	_	_	_	
+20-2	1539-1540	P	_	_	_	_	_	_	
+20-3	1541-1544	IMM	_	_	_	_	_	_	
+20-4	1544-1545	.	_	_	_	_	_	_	
+
+#Text=Man kan därför säga att när ledande moderater ondgör sig över bidragsfusket samtidigt som man själv fuskar med skatten så återspeglar detta faktiskt åsikterna bland de egna sympatisörerna.
+21-1	1547-1550	Man	_	_	_	_	_	_	
+21-2	1551-1554	kan	_	_	_	_	_	_	
+21-3	1555-1561	därför	_	_	_	_	_	_	
+21-4	1562-1566	säga	_	_	_	_	_	_	
+21-5	1567-1570	att	_	_	_	_	_	_	
+21-6	1571-1574	när	_	_	_	_	_	_	
+21-7	1575-1582	ledande	_	_	_	_	_	_	
+21-8	1583-1592	moderater	_	_	_	_	_	_	
+21-9	1593-1599	ondgör	_	_	_	_	_	_	
+21-10	1600-1603	sig	_	_	_	_	_	_	
+21-11	1604-1608	över	_	_	_	_	_	_	
+21-12	1609-1622	bidragsfusket	_	_	_	_	_	_	
+21-13	1623-1632	samtidigt	_	_	_	_	_	_	
+21-14	1633-1636	som	_	_	_	_	_	_	
+21-15	1637-1640	man	_	_	_	_	_	_	
+21-16	1641-1646	själv	_	_	_	_	_	_	
+21-17	1647-1653	fuskar	_	_	_	_	_	_	
+21-18	1654-1657	med	_	_	_	_	_	_	
+21-19	1658-1665	skatten	_	_	_	_	_	_	
+21-20	1666-1668	så	_	_	_	_	_	_	
+21-21	1669-1680	återspeglar	_	_	_	_	_	_	
+21-22	1681-1686	detta	_	_	_	_	_	_	
+21-23	1687-1695	faktiskt	_	_	_	_	_	_	
+21-24	1696-1705	åsikterna	_	_	_	_	_	_	
+21-25	1706-1711	bland	_	_	_	_	_	_	
+21-26	1712-1714	de	_	_	_	_	_	_	
+21-27	1715-1719	egna	_	_	_	_	_	_	
+21-28	1720-1734	sympatisörerna	_	_	_	_	_	_	
+21-29	1734-1735	.	_	_	_	_	_	_	
+
+#Text=Åtminstone i detta avseende är man således en god representant för de egna väljarna.
+22-1	1736-1746	Åtminstone	_	_	_	_	_	_	
+22-2	1747-1748	i	_	_	_	_	_	_	
+22-3	1749-1754	detta	_	_	_	_	_	_	
+22-4	1755-1763	avseende	_	_	_	_	_	_	
+22-5	1764-1766	är	_	_	_	_	_	_	
+22-6	1767-1770	man	_	_	_	_	_	_	
+22-7	1771-1778	således	_	_	_	_	_	_	
+22-8	1779-1781	en	_	_	_	_	_	_	
+22-9	1782-1785	god	_	_	_	_	_	_	
+22-10	1786-1798	representant	_	_	_	_	_	_	
+22-11	1799-1802	för	_	_	_	_	_	_	
+22-12	1803-1805	de	_	_	_	_	_	_	
+22-13	1806-1810	egna	_	_	_	_	_	_	
+22-14	1811-1819	väljarna	_	_	_	_	_	_	
+22-15	1819-1820	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1822-1823	#	_	_	_	_	_	_	
+23-2	1823-1824	P	_	_	_	_	_	_	
+23-3	1825-1828	IMM	_	_	_	_	_	_	
+23-4	1828-1829	.	_	_	_	_	_	_	
+
+#Text=Stefan Svallfors.
+24-1	1831-1837	Stefan	_	_	_	_	_	_	
+24-2	1838-1847	Svallfors	_	_	_	_	_	_	
+24-3	1847-1848	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1850-1851	#	_	_	_	_	_	_	
+25-2	1851-1852	P	_	_	_	_	_	_	
+25-3	1853-1856	IMM	_	_	_	_	_	_	
+25-4	1856-1857	.	_	_	_	_	_	_	
+
+#Text=professor i sociologi vid.
+26-1	1859-1868	professor	_	_	_	_	_	_	
+26-2	1869-1870	i	_	_	_	_	_	_	
+26-3	1871-1880	sociologi	_	_	_	_	_	_	
+26-4	1881-1884	vid	_	_	_	_	_	_	
+26-5	1884-1885	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1887-1888	#	_	_	_	_	_	_	
+27-2	1888-1889	P	_	_	_	_	_	_	
+27-3	1890-1893	IMM	_	_	_	_	_	_	
+27-4	1893-1894	.	_	_	_	_	_	_	
+
+#Text=Umeå universitet.
+28-1	1896-1900	Umeå	_	_	_	_	_	_	
+28-2	1901-1912	universitet	_	_	_	_	_	_	
+28-3	1912-1913	.	_	_	_	_	_	_	

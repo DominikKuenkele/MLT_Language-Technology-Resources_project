@@ -1,0 +1,53 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+#Text=
+#Text=20% av sveriges befolkning har invandrat.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+2-5	18-21	20%	_	_	_	_	_	_	
+2-6	22-24	av	_	_	_	_	_	_	
+2-7	25-33	sveriges	_	_	_	_	_	_	
+2-8	34-44	befolkning	_	_	_	_	_	_	
+2-9	45-48	har	_	_	_	_	_	_	
+2-10	49-58	invandrat	_	_	_	_	_	_	
+2-11	58-59	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=20% av sveriges befolkning har invandrat.
+3-1	61-62	#	_	_	_	_	_	_	
+3-2	62-63	P	_	_	_	_	_	_	
+3-3	64-67	IMM	_	_	_	false	3	_	
+3-4	67-68	.	_	_	_	_	_	_	
+3-5	70-73	20%	_	_	_	_	_	_	
+3-6	74-76	av	_	_	_	_	_	_	
+3-7	77-85	sveriges	_	_	_	_	_	_	
+3-8	86-96	befolkning	_	_	_	_	_	_	
+3-9	97-100	har	_	_	_	_	_	_	
+3-10	101-110	invandrat	_	_	_	_	_	_	
+3-11	110-111	.	_	_	_	_	_	_	
+
+#Text=Ser ni några problem eller fördelar med detta?.
+4-1	112-115	Ser	_	_	_	_	_	_	
+4-2	116-118	ni	*	_	_	_	_	_	
+4-3	119-124	några	_	_	_	_	_	_	
+4-4	125-132	problem	_	Source;Target	4-2;4-8	false	2	4-7[2_0]	
+4-5	133-138	eller	_	_	_	_	_	_	
+4-6	139-147	fördelar	_	Source;Target[1]	4-2;4-8	false[1]	4[1]	_	
+4-7	148-151	med	_	Source;Target[1]|_[2]	4-2;4-8|_	false[1]|false[2]	4[1]|2[2]	_	
+4-8	152-157	detta	*	_	_	_	_	_	
+4-9	157-158	?	_	_	_	_	_	_	
+4-10	158-159	.	_	_	_	_	_	_	

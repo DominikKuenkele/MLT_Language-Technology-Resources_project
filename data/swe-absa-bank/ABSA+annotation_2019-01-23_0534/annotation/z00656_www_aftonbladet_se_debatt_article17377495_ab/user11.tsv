@@ -1,0 +1,768 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Lundsberg är inget utan sina traditioner.
+3-1	18-27	Lundsberg	_	_	_	_	_	_	
+3-2	28-30	är	_	_	_	_	_	_	
+3-3	31-36	inget	_	_	_	_	_	_	
+3-4	37-41	utan	_	_	_	_	_	_	
+3-5	42-46	sina	_	_	_	_	_	_	
+3-6	47-58	traditioner	_	_	_	_	_	_	
+3-7	58-59	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_	_	_	_	_	
+4-2	62-63	P	_	_	_	_	_	_	
+4-3	64-67	IMM	_	_	_	_	_	_	
+4-4	67-68	.	_	_	_	_	_	_	
+
+#Text=Jag har hört hundratals berättelser från elever och vuxna som mått dåligt, som försökt förändra, som tystats, gett upp.
+5-1	70-73	Jag	_	_	_	_	_	_	
+5-2	74-77	har	_	_	_	_	_	_	
+5-3	78-82	hört	_	_	_	_	_	_	
+5-4	83-93	hundratals	_	_	_	_	_	_	
+5-5	94-105	berättelser	_	_	_	_	_	_	
+5-6	106-110	från	_	_	_	_	_	_	
+5-7	111-117	elever	*[23]|*[24]|*[25]	_	_	_	_	_	
+5-8	118-121	och	*[23]|*[24]|*[25]	_	_	_	_	_	
+5-9	122-127	vuxna	*[23]|*[24]|*[25]	_	_	_	_	_	
+5-10	128-131	som	_	_	_	_	_	_	
+5-11	132-136	mått	_	Source[1]	5-7[23]	false[1]	2[1]	_	
+5-12	137-143	dåligt	_	Source[1]	5-7[23]	false[1]	2[1]	_	
+5-13	143-144	,	_	_	_	_	_	_	
+5-14	145-148	som	_	_	_	_	_	_	
+5-15	149-156	försökt	_	Source[2]	5-7[24]	false[2]	4[2]	_	
+5-16	157-165	förändra	_	Source[2]	5-7[24]	false[2]	4[2]	_	
+5-17	165-166	,	_	_	_	_	_	_	
+5-18	167-170	som	_	_	_	_	_	_	
+5-19	171-178	tystats	_	_	_	_	_	_	
+5-20	178-179	,	_	_	_	_	_	_	
+5-21	180-184	gett	_	Source[3]	5-7[25]	false[3]	2[3]	_	
+5-22	185-188	upp	_	Source[3]	5-7[25]	false[3]	2[3]	_	
+5-23	188-189	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	191-192	#	_	_	_	_	_	_	
+6-2	192-193	P	_	_	_	_	_	_	
+6-3	194-197	IMM	_	_	_	_	_	_	
+6-4	197-198	.	_	_	_	_	_	_	
+
+#Text=Det har varit näst intill omöjligt att spräcka Lundsbergs skolas bubbla.
+7-1	200-203	Det	_	_	_	_	_	_	
+7-2	204-207	har	_	_	_	_	_	_	
+7-3	208-213	varit	_	_	_	_	_	_	
+7-4	214-218	näst	_	Target[4]	7-8[26]	false[4]	2[4]	_	
+7-5	219-225	intill	_	Target[4]	7-8[26]	false[4]	2[4]	_	
+7-6	226-234	omöjligt	_	Target[4]	7-8[26]	false[4]	2[4]	_	
+7-7	235-238	att	_	_	_	_	_	_	
+7-8	239-246	spräcka	*[26]	_	_	_	_	_	
+7-9	247-257	Lundsbergs	*[26]	_	_	_	_	_	
+7-10	258-264	skolas	*[26]	_	_	_	_	_	
+7-11	265-271	bubbla	*[26]	_	_	_	_	_	
+7-12	271-272	.	_	_	_	_	_	_	
+
+#Text=Vart tionde år har en skandal blåst upp, allt från elever som fått avföring kastad på sig till urartade initieringsriter framför de vuxnas fällda blickar.
+8-1	273-277	Vart	_	_	_	_	_	_	
+8-2	278-284	tionde	_	_	_	_	_	_	
+8-3	285-287	år	_	_	_	_	_	_	
+8-4	288-291	har	_	_	_	_	_	_	
+8-5	292-294	en	_	_	_	_	_	_	
+8-6	295-302	skandal	*	_	_	_	_	_	
+8-7	303-308	blåst	_	Target[5]	8-6	false[5]	2[5]	_	
+8-8	309-312	upp	_	Target[5]	8-6	false[5]	2[5]	_	
+8-9	312-313	,	_	_	_	_	_	_	
+8-10	314-318	allt	_	_	_	_	_	_	
+8-11	319-323	från	_	_	_	_	_	_	
+8-12	324-330	elever	_	_	_	_	_	_	
+8-13	331-334	som	_	_	_	_	_	_	
+8-14	335-339	fått	_	_	_	_	_	_	
+8-15	340-348	avföring	_	_	_	_	_	_	
+8-16	349-355	kastad	_	_	_	_	_	_	
+8-17	356-358	på	_	_	_	_	_	_	
+8-18	359-362	sig	_	_	_	_	_	_	
+8-19	363-367	till	_	_	_	_	_	_	
+8-20	368-376	urartade	_	Target	8-21	false	2	_	
+8-21	377-393	initieringsriter	*	_	_	_	_	_	
+8-22	394-401	framför	_	_	_	_	_	_	
+8-23	402-404	de	_	_	_	_	_	_	
+8-24	405-411	vuxnas	_	_	_	_	_	_	
+8-25	412-418	fällda	_	_	_	_	_	_	
+8-26	419-426	blickar	_	_	_	_	_	_	
+8-27	426-427	.	_	_	_	_	_	_	
+
+#Text=Styrelsen har använt tystnadens taktik, tigit ut stormen, ignorerat mediernas frågor.
+9-1	428-437	Styrelsen	*	_	_	_	_	_	
+9-2	438-441	har	_	_	_	_	_	_	
+9-3	442-448	använt	_	Target[6]	9-1	false[6]	2[6]	_	
+9-4	449-459	tystnadens	_	Target[6]	9-1	false[6]	2[6]	_	
+9-5	460-466	taktik	_	Target[6]	9-1	false[6]	2[6]	_	
+9-6	466-467	,	_	_	_	_	_	_	
+9-7	468-473	tigit	_	_	_	_	_	_	
+9-8	474-476	ut	_	_	_	_	_	_	
+9-9	477-484	stormen	_	_	_	_	_	_	
+9-10	484-485	,	_	_	_	_	_	_	
+9-11	486-495	ignorerat	_	_	_	_	_	_	
+9-12	496-505	mediernas	_	_	_	_	_	_	
+9-13	506-512	frågor	_	_	_	_	_	_	
+9-14	512-513	.	_	_	_	_	_	_	
+
+#Text=Gjort sig oanträffbara.
+10-1	514-519	Gjort	_	_	_	_	_	_	
+10-2	520-523	sig	_	_	_	_	_	_	
+10-3	524-536	oanträffbara	_	_	_	_	_	_	
+10-4	536-537	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	539-540	#	_	_	_	_	_	_	
+11-2	540-541	P	_	_	_	_	_	_	
+11-3	542-545	IMM	_	_	_	_	_	_	
+11-4	545-546	.	_	_	_	_	_	_	
+
+#Text=När Skolinspektionen beslutade att granska Lundsberg i slutet av 2011 användes samma taktik.
+12-1	548-551	När	_	_	_	_	_	_	
+12-2	552-568	Skolinspektionen	*	_	_	_	_	_	
+12-3	569-578	beslutade	_	Target;Source	12-5[27];12-2	false	3	_	
+12-4	579-582	att	_	_	_	_	_	_	
+12-5	583-590	granska	*[27]	_	_	_	_	_	
+12-6	591-600	Lundsberg	*[27]	_	_	_	_	_	
+12-7	601-602	i	_	_	_	_	_	_	
+12-8	603-609	slutet	_	_	_	_	_	_	
+12-9	610-612	av	_	_	_	_	_	_	
+12-10	613-617	2011	_	_	_	_	_	_	
+12-11	618-626	användes	_	_	_	_	_	_	
+12-12	627-632	samma	_	_	_	_	_	_	
+12-13	633-639	taktik	_	_	_	_	_	_	
+12-14	639-640	.	_	_	_	_	_	_	
+
+#Text=Rektorn slingrade sig, försökte förminska och tillintetgöra de husföräldrar som fått nog och gjort en anmälan.
+13-1	641-648	Rektorn	*	_	_	_	_	_	
+13-2	649-658	slingrade	_	Target[7]	13-1	false[7]	2[7]	_	
+13-3	659-662	sig	_	Target[7]	13-1	false[7]	2[7]	_	
+13-4	662-663	,	_	_	_	_	_	_	
+13-5	664-672	försökte	_	Source;Target[8]	13-1;13-9[28]	false[8]	2[8]	_	
+13-6	673-682	förminska	_	Source;Target[8]	13-1;13-9[28]	false[8]	2[8]	_	
+13-7	683-686	och	_	Source;Target[8]	13-1;13-9[28]	false[8]	2[8]	_	
+13-8	687-700	tillintetgöra	_	Source;Target[8]	13-1;13-9[28]	false[8]	2[8]	_	
+13-9	701-703	de	*[28]	_	_	_	_	_	
+13-10	704-716	husföräldrar	*[28]|*[29]	_	_	_	_	_	
+13-11	717-720	som	*[28]	_	_	_	_	_	
+13-12	721-725	fått	*[28]	Source[9]	13-10[29]	false[9]	2[9]	_	
+13-13	726-729	nog	*[28]	Source[9]	13-10[29]	false[9]	2[9]	_	
+13-14	730-733	och	*[28]	_	_	_	_	_	
+13-15	734-739	gjort	*[28]	_	_	_	_	_	
+13-16	740-742	en	*[28]	_	_	_	_	_	
+13-17	743-750	anmälan	*[28]	_	_	_	_	_	
+13-18	750-751	.	_	_	_	_	_	_	
+
+#Text=Skolans styrelse teg och det verkade åter igen fungera.
+14-1	752-759	Skolans	_	_	_	_	_	_	
+14-2	760-768	styrelse	_	_	_	_	_	_	
+14-3	769-772	teg	_	_	_	_	_	_	
+14-4	773-776	och	_	_	_	_	_	_	
+14-5	777-780	det	_	_	_	_	_	_	
+14-6	781-788	verkade	_	_	_	_	_	_	
+14-7	789-793	åter	_	_	_	_	_	_	
+14-8	794-798	igen	_	_	_	_	_	_	
+14-9	799-806	fungera	_	_	_	_	_	_	
+14-10	806-807	.	_	_	_	_	_	_	
+
+#Text=De kom undan, Skolinspektionen backade.
+15-1	808-810	De	*	_	_	_	_	_	
+15-2	811-814	kom	_	Target[10]	15-1	false[10]	2[10]	_	
+15-3	815-820	undan	_	Target[10]	15-1	false[10]	2[10]	_	
+15-4	820-821	,	_	_	_	_	_	_	
+15-5	822-838	Skolinspektionen	_	_	_	_	_	_	
+15-6	839-846	backade	_	_	_	_	_	_	
+15-7	846-847	.	_	_	_	_	_	_	
+
+#Text=Ytterligare tio år skulle kunna gå innan en ny skandal uppdagades.
+16-1	848-859	Ytterligare	_	_	_	_	_	_	
+16-2	860-863	tio	_	_	_	_	_	_	
+16-3	864-866	år	_	_	_	_	_	_	
+16-4	867-873	skulle	_	_	_	_	_	_	
+16-5	874-879	kunna	_	_	_	_	_	_	
+16-6	880-882	gå	_	_	_	_	_	_	
+16-7	883-888	innan	_	_	_	_	_	_	
+16-8	889-891	en	_	_	_	_	_	_	
+16-9	892-894	ny	_	_	_	_	_	_	
+16-10	895-902	skandal	_	_	_	_	_	_	
+16-11	903-913	uppdagades	_	_	_	_	_	_	
+16-12	913-914	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	916-917	#	_	_	_	_	_	_	
+17-2	917-918	P	_	_	_	_	_	_	
+17-3	919-922	IMM	_	_	_	_	_	_	
+17-4	922-923	.	_	_	_	_	_	_	
+
+#Text=Men så smällde det till igen.
+18-1	925-928	Men	_	_	_	_	_	_	
+18-2	929-931	så	_	_	_	_	_	_	
+18-3	932-939	smällde	_	_	_	_	_	_	
+18-4	940-943	det	_	_	_	_	_	_	
+18-5	944-948	till	_	_	_	_	_	_	
+18-6	949-953	igen	_	_	_	_	_	_	
+18-7	953-954	.	_	_	_	_	_	_	
+
+#Text=Nio personer misshandlade två andra.
+19-1	955-958	Nio	_	_	_	_	_	_	
+19-2	959-967	personer	_	_	_	_	_	_	
+19-3	968-980	misshandlade	_	_	_	_	_	_	
+19-4	981-984	två	_	_	_	_	_	_	
+19-5	985-990	andra	_	_	_	_	_	_	
+19-6	990-991	.	_	_	_	_	_	_	
+
+#Text=Nio tredjeringare vars behov av förnedringsriter borde ha försvunnit med skolans officiella förändringsarbete.
+20-1	992-995	Nio	_	_	_	_	_	_	
+20-2	996-1009	tredjeringare	_	_	_	_	_	_	
+20-3	1010-1014	vars	_	_	_	_	_	_	
+20-4	1015-1020	behov	*[30]	_	_	_	_	_	
+20-5	1021-1023	av	*[30]	_	_	_	_	_	
+20-6	1024-1040	förnedringsriter	*[30]	_	_	_	_	_	
+20-7	1041-1046	borde	_	Target[11]	20-4[30]	false[11]	2[11]	_	
+20-8	1047-1049	ha	_	Target[11]	20-4[30]	false[11]	2[11]	_	
+20-9	1050-1060	försvunnit	_	Target[11]	20-4[30]	false[11]	2[11]	_	
+20-10	1061-1064	med	_	_	_	_	_	_	
+20-11	1065-1072	skolans	_	_	_	_	_	_	
+20-12	1073-1083	officiella	_	_	_	_	_	_	
+20-13	1084-1101	förändringsarbete	_	_	_	_	_	_	
+20-14	1101-1102	.	_	_	_	_	_	_	
+
+#Text=Men att förändra ett inofficiellt system som suttit i sedan 1896 görs inte i en handvändning.
+21-1	1103-1106	Men	_	_	_	_	_	_	
+21-2	1107-1110	att	_	_	_	_	_	_	
+21-3	1111-1119	förändra	*[31]	_	_	_	_	_	
+21-4	1120-1123	ett	*[31]	_	_	_	_	_	
+21-5	1124-1136	inofficiellt	*[31]	_	_	_	_	_	
+21-6	1137-1143	system	*[31]	_	_	_	_	_	
+21-7	1144-1147	som	*[31]	_	_	_	_	_	
+21-8	1148-1154	suttit	*[31]	_	_	_	_	_	
+21-9	1155-1156	i	*[31]	_	_	_	_	_	
+21-10	1157-1162	sedan	*[31]	_	_	_	_	_	
+21-11	1163-1167	1896	*[31]	_	_	_	_	_	
+21-12	1168-1172	görs	_	Target[12]	21-3[31]	false[12]	2[12]	_	
+21-13	1173-1177	inte	_	Target[12]	21-3[31]	false[12]	2[12]	_	
+21-14	1178-1179	i	_	Target[12]	21-3[31]	false[12]	2[12]	_	
+21-15	1180-1182	en	_	Target[12]	21-3[31]	false[12]	2[12]	_	
+21-16	1183-1195	handvändning	_	Target[12]	21-3[31]	false[12]	2[12]	_	
+21-17	1195-1196	.	_	_	_	_	_	_	
+
+#Text=De nio treorna hade själva invigts som nyanlända.
+22-1	1197-1199	De	*[32]	_	_	_	_	_	
+22-2	1200-1203	nio	*[32]	_	_	_	_	_	
+22-3	1204-1211	treorna	*[32]	_	_	_	_	_	
+22-4	1212-1216	hade	_	_	_	_	_	_	
+22-5	1217-1223	själva	_	_	_	_	_	_	
+22-6	1224-1231	invigts	_	_	_	_	_	_	
+22-7	1232-1235	som	_	_	_	_	_	_	
+22-8	1236-1245	nyanlända	_	_	_	_	_	_	
+22-9	1245-1246	.	_	_	_	_	_	_	
+
+#Text=Fått slava.
+23-1	1247-1251	Fått	_	Target[13]	22-1[32]	false[13]	2[13]	_	
+23-2	1252-1257	slava	_	Target[13]	22-1[32]	false[13]	2[13]	_	
+23-3	1257-1258	.	_	_	_	_	_	_	
+
+#Text=Uppfostrats av de äldre.
+24-1	1259-1270	Uppfostrats	_	_	_	_	_	_	
+24-2	1271-1273	av	_	_	_	_	_	_	
+24-3	1274-1276	de	_	_	_	_	_	_	
+24-4	1277-1282	äldre	_	_	_	_	_	_	
+24-5	1282-1283	.	_	_	_	_	_	_	
+
+#Text=För dem var det oacceptabelt att gå miste om smaken av de söta frukterna i trädets topp.
+25-1	1284-1287	För	_	_	_	_	_	_	
+25-2	1288-1291	dem	*	_	_	_	_	_	
+25-3	1292-1295	var	_	_	_	_	_	_	
+25-4	1296-1299	det	_	_	_	_	_	_	
+25-5	1300-1312	oacceptabelt	_	Target;Source	25-7[33];25-2	false	2	_	
+25-6	1313-1316	att	_	_	_	_	_	_	
+25-7	1317-1319	gå	*[33]	_	_	_	_	_	
+25-8	1320-1325	miste	*[33]	_	_	_	_	_	
+25-9	1326-1328	om	*[33]	_	_	_	_	_	
+25-10	1329-1335	smaken	*[33]	_	_	_	_	_	
+25-11	1336-1338	av	*[33]	_	_	_	_	_	
+25-12	1339-1341	de	*[33]	_	_	_	_	_	
+25-13	1342-1346	söta	*[33]	_	_	_	_	_	
+25-14	1347-1356	frukterna	*[33]	_	_	_	_	_	
+25-15	1357-1358	i	*[33]	_	_	_	_	_	
+25-16	1359-1366	trädets	*[33]	_	_	_	_	_	
+25-17	1367-1371	topp	*[33]	_	_	_	_	_	
+25-18	1371-1372	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1374-1375	#	_	_	_	_	_	_	
+26-2	1375-1376	P	_	_	_	_	_	_	
+26-3	1377-1380	IMM	_	_	_	_	_	_	
+26-4	1380-1381	.	_	_	_	_	_	_	
+
+#Text=Möjligen var invigningen extra hård för att ta igen den tid som gått till spillo medan Skolinspektionen vakat över minsta snedsteg.
+27-1	1383-1391	Möjligen	_	_	_	_	_	_	
+27-2	1392-1395	var	_	_	_	_	_	_	
+27-3	1396-1407	invigningen	_	_	_	_	_	_	
+27-4	1408-1413	extra	_	_	_	_	_	_	
+27-5	1414-1418	hård	_	_	_	_	_	_	
+27-6	1419-1422	för	_	_	_	_	_	_	
+27-7	1423-1426	att	_	_	_	_	_	_	
+27-8	1427-1429	ta	_	_	_	_	_	_	
+27-9	1430-1434	igen	_	_	_	_	_	_	
+27-10	1435-1438	den	_	_	_	_	_	_	
+27-11	1439-1442	tid	_	_	_	_	_	_	
+27-12	1443-1446	som	_	_	_	_	_	_	
+27-13	1447-1451	gått	_	_	_	_	_	_	
+27-14	1452-1456	till	_	_	_	_	_	_	
+27-15	1457-1463	spillo	_	_	_	_	_	_	
+27-16	1464-1469	medan	_	_	_	_	_	_	
+27-17	1470-1486	Skolinspektionen	_	_	_	_	_	_	
+27-18	1487-1492	vakat	_	_	_	_	_	_	
+27-19	1493-1497	över	_	_	_	_	_	_	
+27-20	1498-1504	minsta	_	_	_	_	_	_	
+27-21	1505-1513	snedsteg	_	_	_	_	_	_	
+27-22	1513-1514	.	_	Source;Target	28-5;28-9	false	1	_	
+
+#Text=Möjligen angrep de en elev som vägrade acceptera tystnadskulturen.
+28-1	1515-1523	Möjligen	_	_	_	_	_	_	
+28-2	1524-1530	angrep	_	_	_	_	_	_	
+28-3	1531-1533	de	_	_	_	_	_	_	
+28-4	1534-1536	en	_	_	_	_	_	_	
+28-5	1537-1541	elev	*	_	_	_	_	_	
+28-6	1542-1545	som	_	_	_	_	_	_	
+28-7	1546-1553	vägrade	*[34]	_	_	_	_	_	
+28-8	1554-1563	acceptera	*[34]	_	_	_	_	_	
+28-9	1564-1580	tystnadskulturen	*	_	_	_	_	_	
+28-10	1580-1581	.	_	_	_	_	_	_	
+
+#Text=Som krävde vård för sina skador.
+29-1	1582-1585	Som	_	_	_	_	_	_	
+29-2	1586-1592	krävde	_	_	_	_	_	_	
+29-3	1593-1597	vård	_	_	_	_	_	_	
+29-4	1598-1601	för	_	_	_	_	_	_	
+29-5	1602-1606	sina	_	_	_	_	_	_	
+29-6	1607-1613	skador	_	_	_	_	_	_	
+29-7	1613-1614	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1616-1617	#	_	_	_	_	_	_	
+30-2	1617-1618	P	_	_	_	_	_	_	
+30-3	1619-1622	IMM	_	_	_	_	_	_	
+30-4	1622-1623	.	_	_	_	_	_	_	
+
+#Text=Eleven fördes till sjukhus.
+31-1	1625-1631	Eleven	_	_	_	_	_	_	
+31-2	1632-1638	fördes	_	_	_	_	_	_	
+31-3	1639-1643	till	_	_	_	_	_	_	
+31-4	1644-1651	sjukhus	_	_	_	_	_	_	
+31-5	1651-1652	.	_	_	_	_	_	_	
+
+#Text=Sjukhuset rapporterade till polisen.
+32-1	1653-1662	Sjukhuset	_	_	_	_	_	_	
+32-2	1663-1675	rapporterade	_	_	_	_	_	_	
+32-3	1676-1680	till	_	_	_	_	_	_	
+32-4	1681-1688	polisen	_	_	_	_	_	_	
+32-5	1688-1689	.	_	_	_	_	_	_	
+
+#Text=Skolinspektionen som just avslutat sitt ärende och vänt skolan och dess elever ryggen, fick ny vittring.
+33-1	1690-1706	Skolinspektionen	_	_	_	_	_	_	
+33-2	1707-1710	som	_	_	_	_	_	_	
+33-3	1711-1715	just	_	_	_	_	_	_	
+33-4	1716-1724	avslutat	_	_	_	_	_	_	
+33-5	1725-1729	sitt	_	_	_	_	_	_	
+33-6	1730-1736	ärende	_	_	_	_	_	_	
+33-7	1737-1740	och	_	_	_	_	_	_	
+33-8	1741-1745	vänt	_	_	_	_	_	_	
+33-9	1746-1752	skolan	_	_	_	_	_	_	
+33-10	1753-1756	och	_	_	_	_	_	_	
+33-11	1757-1761	dess	_	_	_	_	_	_	
+33-12	1762-1768	elever	_	_	_	_	_	_	
+33-13	1769-1775	ryggen	_	_	_	_	_	_	
+33-14	1775-1776	,	_	_	_	_	_	_	
+33-15	1777-1781	fick	_	_	_	_	_	_	
+33-16	1782-1784	ny	_	_	_	_	_	_	
+33-17	1785-1793	vittring	_	_	_	_	_	_	
+33-18	1793-1794	.	_	_	_	_	_	_	
+
+#Text=Medierna krävde svar.
+34-1	1795-1803	Medierna	*	_	_	_	_	_	
+34-2	1804-1810	krävde	_	Source;Target	34-1;34-3	false	2	_	
+34-3	1811-1815	svar	*	_	_	_	_	_	
+34-4	1815-1816	.	_	_	_	_	_	_	
+
+#Text=Lundsbergs styrelse tvingades för första gången i historien skicka en representant att uttala sig i nyhetssändningarna.
+35-1	1817-1827	Lundsbergs	_	_	_	_	_	_	
+35-2	1828-1836	styrelse	_	_	_	_	_	_	
+35-3	1837-1846	tvingades	_	_	_	_	_	_	
+35-4	1847-1850	för	_	_	_	_	_	_	
+35-5	1851-1857	första	_	_	_	_	_	_	
+35-6	1858-1864	gången	_	_	_	_	_	_	
+35-7	1865-1866	i	_	_	_	_	_	_	
+35-8	1867-1876	historien	_	_	_	_	_	_	
+35-9	1877-1883	skicka	_	_	_	_	_	_	
+35-10	1884-1886	en	_	_	_	_	_	_	
+35-11	1887-1899	representant	_	_	_	_	_	_	
+35-12	1900-1903	att	_	_	_	_	_	_	
+35-13	1904-1910	uttala	_	_	_	_	_	_	
+35-14	1911-1914	sig	_	_	_	_	_	_	
+35-15	1915-1916	i	_	_	_	_	_	_	
+35-16	1917-1935	nyhetssändningarna	_	_	_	_	_	_	
+35-17	1935-1936	.	_	_	_	_	_	_	
+
+#Text=Han mumlade något om genomförda förändringar, om chock och besvikelse.
+36-1	1937-1940	Han	*	_	_	_	_	_	
+36-2	1941-1948	mumlade	_	_	_	_	_	_	
+36-3	1949-1954	något	_	_	_	_	_	_	
+36-4	1955-1957	om	_	_	_	_	_	_	
+36-5	1958-1968	genomförda	_	_	_	_	_	_	
+36-6	1969-1981	förändringar	_	_	_	_	_	_	
+36-7	1981-1982	,	_	_	_	_	_	_	
+36-8	1983-1985	om	_	_	_	_	_	_	
+36-9	1986-1991	chock	_	Source	36-1	false	1	_	
+36-10	1992-1995	och	_	_	_	_	_	_	
+36-11	1996-2006	besvikelse	_	_	_	false	1	36-9	
+36-12	2006-2007	.	_	_	_	_	_	_	
+
+#Text=Men ingen köpte längre att de vuxna stått ovetande.
+37-1	2008-2011	Men	_	_	_	_	_	_	
+37-2	2012-2017	ingen	_	Target[14]	37-6[35]	false[14]	2[14]	_	
+37-3	2018-2023	köpte	_	Target[14]	37-6[35]	false[14]	2[14]	_	
+37-4	2024-2030	längre	_	Target[14]	37-6[35]	false[14]	2[14]	_	
+37-5	2031-2034	att	_	_	_	_	_	_	
+37-6	2035-2037	de	*[35]	_	_	_	_	_	
+37-7	2038-2043	vuxna	*[35]	_	_	_	_	_	
+37-8	2044-2049	stått	*[35]	_	_	_	_	_	
+37-9	2050-2058	ovetande	*[35]	_	_	_	_	_	
+37-10	2058-2059	.	_	_	_	_	_	_	
+
+#Text=Inte heller snacket om att trygghets- och värdegrundsarbetet utplånat alla strukturella problem.
+38-1	2060-2064	Inte	_	_	_	_	_	_	
+38-2	2065-2071	heller	_	_	_	_	_	_	
+38-3	2072-2079	snacket	_	_	_	_	_	_	
+38-4	2080-2082	om	_	_	_	_	_	_	
+38-5	2083-2086	att	_	_	_	_	_	_	
+38-6	2087-2096	trygghets	_	_	_	_	_	_	
+38-7	2096-2097	-	_	_	_	_	_	_	
+38-8	2098-2101	och	_	_	_	_	_	_	
+38-9	2102-2120	värdegrundsarbetet	_	_	_	_	_	_	
+38-10	2121-2129	utplånat	_	_	_	_	_	_	
+38-11	2130-2134	alla	_	_	_	_	_	_	
+38-12	2135-2147	strukturella	_	_	_	_	_	_	
+38-13	2148-2155	problem	_	_	_	_	_	_	
+38-14	2155-2156	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2158-2159	#	_	_	_	_	_	_	
+39-2	2159-2160	P	_	_	_	_	_	_	
+39-3	2161-2164	IMM	_	_	_	_	_	_	
+39-4	2164-2165	.	_	_	_	_	_	_	
+
+#Text=Nu stängs skolan tillfälligt av Skolinspektionen.
+40-1	2167-2169	Nu	_	_	_	_	_	_	
+40-2	2170-2176	stängs	_	_	_	_	_	_	
+40-3	2177-2183	skolan	_	_	_	_	_	_	
+40-4	2184-2195	tillfälligt	_	_	_	_	_	_	
+40-5	2196-2198	av	_	_	_	_	_	_	
+40-6	2199-2215	Skolinspektionen	_	_	_	_	_	_	
+40-7	2215-2216	.	_	_	_	_	_	_	
+
+#Text=Som före detta internatelev från det nästan lika traditionstyngda internatet i Sigtuna är jag i chock.
+41-1	2217-2220	Som	_	_	_	_	_	_	
+41-2	2221-2225	före	_	_	_	_	_	_	
+41-3	2226-2231	detta	_	_	_	_	_	_	
+41-4	2232-2244	internatelev	_	_	_	_	_	_	
+41-5	2245-2249	från	_	_	_	_	_	_	
+41-6	2250-2253	det	_	_	_	_	_	_	
+41-7	2254-2260	nästan	_	_	_	_	_	_	
+41-8	2261-2265	lika	_	_	_	_	_	_	
+41-9	2266-2282	traditionstyngda	_	_	_	_	_	_	
+41-10	2283-2293	internatet	_	_	_	_	_	_	
+41-11	2294-2295	i	_	_	_	_	_	_	
+41-12	2296-2303	Sigtuna	_	_	_	_	_	_	
+41-13	2304-2306	är	_	_	_	false	2	_	
+41-14	2307-2310	jag	*	_	_	_	_	_	
+41-15	2311-2312	i	_	Source[15]	41-14	false[15]	1[15]	41-13[0_15]	
+41-16	2313-2318	chock	_	Source[15]	41-14	false[15]	1[15]	_	
+41-17	2318-2319	.	_	_	_	_	_	_	
+
+#Text=Likaså som journalist.
+42-1	2320-2326	Likaså	_	_	_	_	_	_	
+42-2	2327-2330	som	_	_	_	_	_	_	
+42-3	2331-2341	journalist	_	_	_	_	_	_	
+42-4	2341-2342	.	_	_	_	_	_	_	
+
+#Text=För nog har jag trott att Lundsbergsfamiljen är oantastlig.
+43-1	2343-2346	För	_	_	_	_	_	_	
+43-2	2347-2350	nog	_	_	_	_	_	_	
+43-3	2351-2354	har	_	_	_	_	_	_	
+43-4	2355-2358	jag	_	_	_	_	_	_	
+43-5	2359-2364	trott	_	_	_	false	2	_	
+43-6	2365-2368	att	_	_	_	_	_	_	
+43-7	2369-2387	Lundsbergsfamiljen	*	_	_	_	_	_	
+43-8	2388-2390	är	_	Target[16]	43-7	false[16]	2[16]	43-5[0_16]	
+43-9	2391-2401	oantastlig	_	Target[16]	43-7	false[16]	2[16]	_	
+43-10	2401-2402	.	_	_	_	_	_	_	
+
+#Text=Jag har hört hundratals berättelser från elever och vuxna som mått dåligt, som försökt förändra, som tystats, gett upp.
+44-1	2403-2406	Jag	_	_	_	_	_	_	
+44-2	2407-2410	har	_	_	_	_	_	_	
+44-3	2411-2415	hört	_	_	_	_	_	_	
+44-4	2416-2426	hundratals	_	_	_	_	_	_	
+44-5	2427-2438	berättelser	_	_	_	_	_	_	
+44-6	2439-2443	från	_	_	_	_	_	_	
+44-7	2444-2450	elever	*[36]|*[37]	_	_	_	_	_	
+44-8	2451-2454	och	*[36]|*[37]	_	_	_	_	_	
+44-9	2455-2460	vuxna	*[36]|*[37]	_	_	_	_	_	
+44-10	2461-2464	som	_	_	_	_	_	_	
+44-11	2465-2469	mått	_	Source[17]	44-7[36]	false[17]	2[17]	_	
+44-12	2470-2476	dåligt	_	Source[17]	44-7[36]	false[17]	2[17]	_	
+44-13	2476-2477	,	_	_	_	_	_	_	
+44-14	2478-2481	som	_	_	_	_	_	_	
+44-15	2482-2489	försökt	_	Source[18]	44-7[37]	false[18]	4[18]	_	
+44-16	2490-2498	förändra	_	Source[18]	44-7[37]	false[18]	4[18]	_	
+44-17	2498-2499	,	_	_	_	_	_	_	
+44-18	2500-2503	som	_	_	_	_	_	_	
+44-19	2504-2511	tystats	_	_	_	_	_	_	
+44-20	2511-2512	,	_	_	_	_	_	_	
+44-21	2513-2517	gett	_	Source[19]	44-7[36]	false[19]	2[19]	_	
+44-22	2518-2521	upp	_	Source[19]	44-7[36]	false[19]	2[19]	_	
+44-23	2521-2522	.	_	_	_	_	_	_	
+
+#Text=Om inte deras upplevelser varit tillräckliga för att agera mot skolan, vad fanns då kvar att göra?.
+45-1	2523-2525	Om	_	_	_	_	_	_	
+45-2	2526-2530	inte	_	_	_	false	2	_	
+45-3	2531-2536	deras	*[38]	_	_	_	_	_	
+45-4	2537-2548	upplevelser	*[38]	_	_	_	_	_	
+45-5	2549-2554	varit	_	Target;Source[20]	45-3[38];45-20	false[20]	2[20]	45-2[0_20]	
+45-6	2555-2567	tillräckliga	_	Target;Source[20]	45-3[38];45-20	false[20]	2[20]	_	
+45-7	2568-2571	för	_	_	_	_	_	_	
+45-8	2572-2575	att	_	_	_	_	_	_	
+45-9	2576-2581	agera	_	_	_	_	_	_	
+45-10	2582-2585	mot	_	_	_	_	_	_	
+45-11	2586-2592	skolan	_	_	_	_	_	_	
+45-12	2592-2593	,	_	_	_	_	_	_	
+45-13	2594-2597	vad	_	_	_	_	_	_	
+45-14	2598-2603	fanns	_	_	_	_	_	_	
+45-15	2604-2606	då	_	_	_	_	_	_	
+45-16	2607-2611	kvar	_	_	_	_	_	_	
+45-17	2612-2615	att	_	_	_	_	_	_	
+45-18	2616-2620	göra	_	_	_	_	_	_	
+45-19	2620-2621	?	_	_	_	_	_	_	
+45-20	2621-2622	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	2624-2625	#	_	_	_	_	_	_	
+46-2	2625-2626	P	_	_	_	_	_	_	
+46-3	2627-2630	IMM	_	_	_	_	_	_	
+46-4	2630-2631	.	_	_	_	_	_	_	
+
+#Text=Många frågar sig vad som ska hända nu.
+47-1	2633-2638	Många	_	_	_	_	_	_	
+47-2	2639-2645	frågar	_	_	_	_	_	_	
+47-3	2646-2649	sig	_	_	_	_	_	_	
+47-4	2650-2653	vad	_	_	_	_	_	_	
+47-5	2654-2657	som	_	_	_	_	_	_	
+47-6	2658-2661	ska	_	_	_	_	_	_	
+47-7	2662-2667	hända	_	_	_	_	_	_	
+47-8	2668-2670	nu	_	_	_	_	_	_	
+47-9	2670-2671	.	_	_	_	_	_	_	
+
+#Text=Jag hoppas att den sittande styrelsen kan ta sitt ansvar och ifrågasätta sig själva.
+48-1	2672-2675	Jag	*	_	_	_	_	_	
+48-2	2676-2682	hoppas	_	Source;Target	48-1;48-4[39]	false	4	_	
+48-3	2683-2686	att	_	_	_	_	_	_	
+48-4	2687-2690	den	*[39]	_	_	_	_	_	
+48-5	2691-2699	sittande	*[39]	_	_	_	_	_	
+48-6	2700-2709	styrelsen	*[39]	_	_	_	_	_	
+48-7	2710-2713	kan	*[39]	_	_	_	_	_	
+48-8	2714-2716	ta	*[39]	_	_	_	_	_	
+48-9	2717-2721	sitt	*[39]	_	_	_	_	_	
+48-10	2722-2728	ansvar	*[39]	_	_	_	_	_	
+48-11	2729-2732	och	_	_	_	_	_	_	
+48-12	2733-2744	ifrågasätta	_	_	_	_	_	_	
+48-13	2745-2748	sig	_	_	_	_	_	_	
+48-14	2749-2755	själva	_	_	_	_	_	_	
+48-15	2755-2756	.	_	_	_	_	_	_	
+
+#Text=Se de brister som följer av att ledare som själva är del av familjen.
+49-1	2757-2759	Se	_	_	_	_	_	_	
+49-2	2760-2762	de	_	_	_	_	_	_	
+49-3	2763-2770	brister	_	Target[21]	49-8[40]	false[21]	2[21]	_	
+49-4	2771-2774	som	_	Target[21]	49-8[40]	false[21]	2[21]	_	
+49-5	2775-2781	följer	_	Target[21]	49-8[40]	false[21]	2[21]	_	
+49-6	2782-2784	av	_	_	_	_	_	_	
+49-7	2785-2788	att	_	_	_	_	_	_	
+49-8	2789-2795	ledare	*[40]	_	_	_	_	_	
+49-9	2796-2799	som	*[40]	_	_	_	_	_	
+49-10	2800-2806	själva	*[40]	_	_	_	_	_	
+49-11	2807-2809	är	*[40]	_	_	_	_	_	
+49-12	2810-2813	del	*[40]	_	_	_	_	_	
+49-13	2814-2816	av	*[40]	_	_	_	_	_	
+49-14	2817-2825	familjen	*[40]	_	_	_	_	_	
+49-15	2825-2826	.	_	_	_	_	_	_	
+
+#Text=Klarar de att ta det enda steg som återstår för dem i försöken att rädda sin älskade skola: att släppa taget om den?
+50-1	2827-2833	Klarar	_	_	_	_	_	_	
+50-2	2834-2836	de	_	_	_	_	_	_	
+50-3	2837-2840	att	_	_	_	_	_	_	
+50-4	2841-2843	ta	_	_	_	_	_	_	
+50-5	2844-2847	det	_	_	_	_	_	_	
+50-6	2848-2852	enda	_	_	_	_	_	_	
+50-7	2853-2857	steg	_	_	_	_	_	_	
+50-8	2858-2861	som	_	_	_	_	_	_	
+50-9	2862-2870	återstår	_	_	_	_	_	_	
+50-10	2871-2874	för	_	_	_	_	_	_	
+50-11	2875-2878	dem	_	_	_	_	_	_	
+50-12	2879-2880	i	_	_	_	_	_	_	
+50-13	2881-2889	försöken	_	_	_	_	_	_	
+50-14	2890-2893	att	_	_	_	_	_	_	
+50-15	2894-2899	rädda	_	_	_	_	_	_	
+50-16	2900-2903	sin	_	_	_	_	_	_	
+50-17	2904-2911	älskade	_	_	_	_	_	_	
+50-18	2912-2917	skola	_	_	_	_	_	_	
+50-19	2917-2918	:	_	_	_	_	_	_	
+50-20	2919-2922	att	_	_	_	_	_	_	
+50-21	2923-2929	släppa	_	_	_	_	_	_	
+50-22	2930-2935	taget	_	_	_	_	_	_	
+50-23	2936-2938	om	_	_	_	_	_	_	
+50-24	2939-2942	den	_	_	_	_	_	_	
+50-25	2942-2943	?	_	_	_	false	2	_	
+
+#Text=Lämna över ansvar, beslutsfattande och styre till någon utifrån.
+51-1	2944-2949	Lämna	_	_	_	_	_	_	
+51-2	2950-2954	över	_	_	_	_	_	_	
+51-3	2955-2961	ansvar	_	_	_	_	_	_	
+51-4	2961-2962	,	_	_	_	_	_	_	
+51-5	2963-2978	beslutsfattande	_	_	_	_	_	_	
+51-6	2979-2982	och	_	_	_	_	_	_	
+51-7	2983-2988	styre	_	_	_	_	_	_	
+51-8	2989-2993	till	_	_	_	_	_	_	
+51-9	2994-2999	någon	_	_	_	_	_	_	
+51-10	3000-3007	utifrån	_	_	_	_	_	_	
+51-11	3007-3008	.	_	_	_	_	_	_	
+
+#Text=Som med klar blick och sund pedagogik kan prata om förändring och mena det.
+52-1	3009-3012	Som	_	_	_	_	_	_	
+52-2	3013-3016	med	_	_	_	_	_	_	
+52-3	3017-3021	klar	_	Target[22]	52-9[41]	false[22]	4[22]	_	
+52-4	3022-3027	blick	_	Target[22]	52-9[41]	false[22]	4[22]	_	
+52-5	3028-3031	och	_	Target[22]	52-9[41]	false[22]	4[22]	_	
+52-6	3032-3036	sund	_	Target[22]	52-9[41]	false[22]	4[22]	_	
+52-7	3037-3046	pedagogik	_	Target[22]	52-9[41]	false[22]	4[22]	_	
+52-8	3047-3050	kan	_	_	_	_	_	_	
+52-9	3051-3056	prata	*[41]	_	_	_	_	_	
+52-10	3057-3059	om	*[41]	_	_	_	_	_	
+52-11	3060-3070	förändring	*[41]	_	_	_	_	_	
+52-12	3071-3074	och	_	_	_	_	_	_	
+52-13	3075-3079	mena	_	_	_	_	_	_	
+52-14	3080-3083	det	_	_	_	_	_	_	
+52-15	3083-3084	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3086-3087	#	_	_	_	_	_	_	
+53-2	3087-3088	P	_	_	_	_	_	_	
+53-3	3089-3092	IMM	_	_	_	_	_	_	
+53-4	3092-3093	.	_	_	_	_	_	_	
+
+#Text=Möjligen självdör skolan då.
+54-1	3095-3103	Möjligen	_	_	_	_	_	_	
+54-2	3104-3112	självdör	_	_	_	_	_	_	
+54-3	3113-3119	skolan	_	_	_	_	_	_	
+54-4	3120-3122	då	_	_	_	_	_	_	
+54-5	3122-3123	.	_	_	_	_	_	_	
+
+#Text=För vad är den utan sina traditioner?
+55-1	3124-3127	För	_	_	_	_	_	_	
+55-2	3128-3131	vad	_	_	_	_	_	_	
+55-3	3132-3134	är	_	_	_	_	_	_	
+55-4	3135-3138	den	_	_	_	_	_	_	
+55-5	3139-3143	utan	_	_	_	_	_	_	
+55-6	3144-3148	sina	_	_	_	_	_	_	
+55-7	3149-3160	traditioner	_	_	_	_	_	_	
+55-8	3160-3161	?	_	_	_	_	_	_	
+
+#Text=Utan sina före detta elever i styrelsen?
+56-1	3162-3166	Utan	_	_	_	_	_	_	
+56-2	3167-3171	sina	_	_	_	_	_	_	
+56-3	3172-3176	före	_	_	_	_	_	_	
+56-4	3177-3182	detta	_	_	_	_	_	_	
+56-5	3183-3189	elever	_	_	_	_	_	_	
+56-6	3190-3191	i	_	_	_	_	_	_	
+56-7	3192-3201	styrelsen	_	_	_	_	_	_	
+56-8	3201-3202	?	_	_	_	_	_	_	
+
+#Text=Utan sin roll som uppfostringsanstalt för framtida ledare?.
+57-1	3203-3207	Utan	_	_	_	_	_	_	
+57-2	3208-3211	sin	_	_	_	_	_	_	
+57-3	3212-3216	roll	_	_	_	_	_	_	
+57-4	3217-3220	som	_	_	_	_	_	_	
+57-5	3221-3240	uppfostringsanstalt	_	Target	57-6[42]	false	2	_	
+57-6	3241-3244	för	*[42]	_	_	_	_	_	
+57-7	3245-3253	framtida	*[42]	_	_	_	_	_	
+57-8	3254-3260	ledare	*[42]	_	_	_	_	_	
+57-9	3260-3261	?	_	_	_	_	_	_	
+57-10	3261-3262	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3264-3265	#	_	_	_	_	_	_	
+58-2	3265-3266	P	_	_	_	_	_	_	
+58-3	3267-3270	IMM	_	_	_	_	_	_	
+58-4	3270-3271	.	_	_	_	_	_	_	
+
+#Text=Är den då inte bara en helt vanlig gymnasieskola, isolerat belägen i naturskön vy, långt ute i Värmlands skogar?.
+59-1	3273-3275	Är	_	_	_	_	_	_	
+59-2	3276-3279	den	_	_	_	_	_	_	
+59-3	3280-3282	då	_	_	_	_	_	_	
+59-4	3283-3287	inte	_	_	_	_	_	_	
+59-5	3288-3292	bara	_	_	_	_	_	_	
+59-6	3293-3295	en	_	_	_	_	_	_	
+59-7	3296-3300	helt	_	_	_	_	_	_	
+59-8	3301-3307	vanlig	_	_	_	_	_	_	
+59-9	3308-3321	gymnasieskola	_	_	_	_	_	_	
+59-10	3321-3322	,	_	_	_	_	_	_	
+59-11	3323-3331	isolerat	_	_	_	_	_	_	
+59-12	3332-3339	belägen	_	_	_	_	_	_	
+59-13	3340-3341	i	_	_	_	_	_	_	
+59-14	3342-3351	naturskön	_	_	_	_	_	_	
+59-15	3352-3354	vy	_	_	_	_	_	_	
+59-16	3354-3355	,	_	_	_	_	_	_	
+59-17	3356-3361	långt	_	_	_	_	_	_	
+59-18	3362-3365	ute	_	_	_	_	_	_	
+59-19	3366-3367	i	_	_	_	_	_	_	
+59-20	3368-3377	Värmlands	_	_	_	_	_	_	
+59-21	3378-3384	skogar	_	_	_	_	_	_	
+59-22	3384-3385	?	_	_	_	_	_	_	
+59-23	3385-3386	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3388-3389	#	_	_	_	_	_	_	
+60-2	3389-3390	P	_	_	_	_	_	_	
+60-3	3391-3394	IMM	_	_	_	_	_	_	
+60-4	3394-3395	.	_	_	_	_	_	_	
+
+#Text=Agnes Hellström.
+61-1	3397-3402	Agnes	_	_	_	_	_	_	
+61-2	3403-3412	Hellström	_	_	_	_	_	_	
+61-3	3412-3413	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	3415-3416	#	_	_	_	_	_	_	
+62-2	3416-3417	P	_	_	_	_	_	_	
+62-3	3418-3421	IMM	_	_	_	_	_	_	
+62-4	3421-3422	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+63-1	3424-3429	FAKTA	_	_	_	_	_	_	
+63-2	3429-3430	.	_	_	_	_	_	_	

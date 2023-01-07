@@ -1,0 +1,1138 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Världsbanken ska granska   
+#Text=Sveriges företagsklimat.
+3-1	18-30	Världsbanken	_	_	_	_	_	_	_	
+3-2	31-34	ska	_	_	_	_	_	_	_	
+3-3	35-42	granska	_	_	_	_	_	_	_	
+3-4	46-54	Sveriges	_	_	_	_	_	_	_	
+3-5	55-69	företagsklimat	_	_	_	_	_	_	_	
+3-6	69-70	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	_	_	_	_	
+4-4	78-79	.	_	_	_	_	_	_	_	
+
+#Text=På regeringens uppdrag ska Världsbanken genomföra en stor undersökning av det svenska företagsklimatet och hur det kan göras bättre.
+5-1	81-83	På	_	_	_	_	_	_	_	
+5-2	84-95	regeringens	_	_	_	_	_	_	_	
+5-3	96-103	uppdrag	_	_	_	_	_	_	_	
+5-4	104-107	ska	*[18]	_	_	_	_	_	6-1[0_18]	
+5-5	108-120	Världsbanken	*[18]	_	_	_	_	_	_	
+5-6	121-130	genomföra	*[18]	_	_	_	_	_	_	
+5-7	131-133	en	*[18]	_	_	_	_	_	_	
+5-8	134-138	stor	*[18]	_	_	_	_	_	_	
+5-9	139-151	undersökning	*[18]	_	_	_	_	_	_	
+5-10	152-154	av	*[18]	_	_	_	_	_	_	
+5-11	155-158	det	*[18]	_	_	_	_	_	_	
+5-12	159-166	svenska	*[18]	_	_	_	_	_	_	
+5-13	167-183	företagsklimatet	*[18]	_	_	_	_	_	_	
+5-14	184-187	och	*[18]	_	_	_	_	_	_	
+5-15	188-191	hur	*[18]	_	_	_	_	_	_	
+5-16	192-195	det	*[18]	_	_	_	_	_	_	
+5-17	196-199	kan	*[18]	_	_	_	_	_	_	
+5-18	200-205	göras	*[18]	_	_	_	_	_	_	
+5-19	206-212	bättre	*[18]	_	_	_	_	_	_	
+5-20	212-213	.	_	_	_	_	_	_	_	
+
+#Text=Det blir ett viktigt bidrag i utformningen av alliansens fortsatta politik, skriver Anders Borg (M) och Annie Lööf (C).
+6-1	214-217	Det	*	_	_	_	_	_	_	
+6-2	218-222	blir	_	Target[1]	6-1	false[1]	4[1]	_	_	
+6-3	223-226	ett	_	Target[1]	6-1	false[1]	4[1]	_	_	
+6-4	227-234	viktigt	_	Target[1]|Target[2]	6-1|6-5	false[1]|false[2]	4[1]|4[2]	_	_	
+6-5	235-241	bidrag	*	Target[1]	6-1	false[1]	4[1]	_	_	
+6-6	242-243	i	_	_	_	_	_	_	_	
+6-7	244-256	utformningen	_	_	_	_	_	_	_	
+6-8	257-259	av	_	_	_	_	_	_	_	
+6-9	260-270	alliansens	_	_	_	_	_	_	_	
+6-10	271-280	fortsatta	_	_	_	_	_	_	_	
+6-11	281-288	politik	_	_	_	_	_	_	_	
+6-12	288-289	,	_	_	_	_	_	_	_	
+6-13	290-297	skriver	_	_	_	_	_	_	_	
+6-14	298-304	Anders	_	_	_	_	_	_	_	
+6-15	305-309	Borg	_	_	_	_	_	_	_	
+6-16	310-311	(	_	_	_	_	_	_	_	
+6-17	311-312	M	_	_	_	_	_	_	_	
+6-18	312-313	)	_	_	_	_	_	_	_	
+6-19	314-317	och	_	_	_	_	_	_	_	
+6-20	318-323	Annie	_	_	_	_	_	_	_	
+6-21	324-328	Lööf	_	_	_	_	_	_	_	
+6-22	329-330	(	_	_	_	_	_	_	_	
+6-23	330-331	C	_	_	_	_	_	_	_	
+6-24	331-332	)	_	_	_	_	_	_	_	
+6-25	332-333	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	335-336	#	_	_	_	_	_	_	_	
+7-2	336-337	P	_	_	_	_	_	_	_	
+7-3	338-341	IMM	_	_	_	_	_	_	_	
+7-4	341-342	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen har vidtagit en rad åtgärder för att förstärka företagsklimatet.Anders Borg och Annie Lööf.
+8-1	344-354	Regeringen	_	_	_	_	_	_	_	
+8-2	355-358	har	_	_	_	_	_	_	_	
+8-3	359-367	vidtagit	_	_	_	_	_	_	_	
+8-4	368-370	en	_	_	_	_	_	_	_	
+8-5	371-374	rad	_	_	_	_	_	_	_	
+8-6	375-383	åtgärder	_	_	_	_	_	_	_	
+8-7	384-387	för	_	_	_	_	_	_	_	
+8-8	388-391	att	_	_	_	_	_	_	_	
+8-9	392-401	förstärka	_	_	_	_	_	_	_	
+8-10	402-425	företagsklimatet.Anders	_	_	_	_	_	_	_	
+8-11	426-430	Borg	_	_	_	_	_	_	_	
+8-12	431-434	och	_	_	_	_	_	_	_	
+8-13	435-440	Annie	_	_	_	_	_	_	_	
+8-14	441-445	Lööf	_	_	_	_	_	_	_	
+8-15	445-446	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	448-449	#	_	_	_	_	_	_	_	
+9-2	449-450	P	_	_	_	_	_	_	_	
+9-3	451-454	IMM	_	_	_	_	_	_	_	
+9-4	454-455	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	457-460	Det	_	_	_	_	_	_	_	
+10-2	461-464	här	_	_	_	_	_	_	_	
+10-3	465-467	är	_	_	_	_	_	_	_	
+10-4	468-470	en	_	_	_	_	_	_	_	
+10-5	471-485	argumenterande	_	_	_	_	_	_	_	
+10-6	486-490	text	_	_	_	_	_	_	_	
+10-7	491-494	med	_	_	_	_	_	_	_	
+10-8	495-500	syfte	_	_	_	_	_	_	_	
+10-9	501-504	att	_	_	_	_	_	_	_	
+10-10	505-512	påverka	_	_	_	_	_	_	_	
+10-11	512-513	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	514-523	Åsikterna	_	_	_	_	_	_	_	
+11-2	524-527	som	_	_	_	_	_	_	_	
+11-3	528-536	uttrycks	_	_	_	_	_	_	_	
+11-4	537-539	är	_	_	_	_	_	_	_	
+11-5	540-551	skribentens	_	_	_	_	_	_	_	
+11-6	552-556	egna	_	_	_	_	_	_	_	
+11-7	556-557	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	559-560	#	_	_	_	_	_	_	_	
+12-2	560-561	P	_	_	_	_	_	_	_	
+12-3	562-565	IMM	_	_	_	_	_	_	_	
+12-4	565-566	.	_	_	_	_	_	_	_	
+
+#Text=Sverige är ett litet och exportberoende land som konkurrerar i en tuff internationell miljö.
+13-1	568-575	Sverige	_	_	_	_	_	_	_	
+13-2	576-578	är	_	_	_	_	_	_	_	
+13-3	579-582	ett	_	_	_	_	_	_	_	
+13-4	583-588	litet	_	_	_	_	_	_	_	
+13-5	589-592	och	_	_	_	_	_	_	_	
+13-6	593-607	exportberoende	_	_	_	_	_	_	_	
+13-7	608-612	land	_	_	_	_	_	_	_	
+13-8	613-616	som	_	_	_	_	_	_	_	
+13-9	617-628	konkurrerar	_	_	_	_	_	_	_	
+13-10	629-630	i	_	_	_	_	_	_	_	
+13-11	631-633	en	_	_	_	_	_	_	_	
+13-12	634-638	tuff	_	_	_	_	_	_	_	
+13-13	639-653	internationell	_	_	_	_	_	_	_	
+13-14	654-659	miljö	_	_	_	_	_	_	_	
+13-15	659-660	.	_	_	_	_	_	_	_	
+
+#Text=Euroområdet präglas fortfarande av svag tillväxt, vilket även sätter avtryck i den svenska ekonomin.
+14-1	661-672	Euroområdet	_	_	_	_	_	_	_	
+14-2	673-680	präglas	_	_	_	_	_	_	_	
+14-3	681-692	fortfarande	_	_	_	_	_	_	_	
+14-4	693-695	av	_	_	_	_	_	_	_	
+14-5	696-700	svag	_	_	_	_	_	_	_	
+14-6	701-709	tillväxt	_	_	_	_	_	_	_	
+14-7	709-710	,	_	_	_	_	_	_	_	
+14-8	711-717	vilket	_	_	_	_	_	_	_	
+14-9	718-722	även	_	_	_	_	_	_	_	
+14-10	723-729	sätter	_	_	_	_	_	_	_	
+14-11	730-737	avtryck	_	_	_	_	_	_	_	
+14-12	738-739	i	_	_	_	_	_	_	_	
+14-13	740-743	den	_	_	_	_	_	_	_	
+14-14	744-751	svenska	_	_	_	_	_	_	_	
+14-15	752-760	ekonomin	_	_	_	_	_	_	_	
+14-16	760-761	.	_	_	_	_	_	_	_	
+
+#Text=I år väntas tillväxten i den svenska ekonomin uppgå till 1,2 procent för att nästa år öka till 2,2 procent.
+15-1	762-763	I	_	_	_	_	_	_	_	
+15-2	764-766	år	_	_	_	_	_	_	_	
+15-3	767-773	väntas	_	_	_	_	_	_	_	
+15-4	774-784	tillväxten	_	_	_	_	_	_	_	
+15-5	785-786	i	_	_	_	_	_	_	_	
+15-6	787-790	den	_	_	_	_	_	_	_	
+15-7	791-798	svenska	_	_	_	_	_	_	_	
+15-8	799-807	ekonomin	_	_	_	_	_	_	_	
+15-9	808-813	uppgå	_	_	_	_	_	_	_	
+15-10	814-818	till	_	_	_	_	_	_	_	
+15-11	819-822	1,2	_	_	_	_	_	_	_	
+15-12	823-830	procent	_	_	_	_	_	_	_	
+15-13	831-834	för	_	_	_	_	_	_	_	
+15-14	835-838	att	_	_	_	_	_	_	_	
+15-15	839-844	nästa	_	_	_	_	_	_	_	
+15-16	845-847	år	_	_	_	_	_	_	_	
+15-17	848-851	öka	_	_	_	_	_	_	_	
+15-18	852-856	till	_	_	_	_	_	_	_	
+15-19	857-860	2,2	_	_	_	_	_	_	_	
+15-20	861-868	procent	_	_	_	_	_	_	_	
+15-21	868-869	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt har Sverige stått emot krisen väl jämfört med många andra länder tack vare ett starkt utgångsläge och regeringens politik.
+16-1	870-879	Samtidigt	*[19]	_	_	_	_	_	_	
+16-2	880-883	har	*[19]	_	_	false	4	16-4[3_0]	_	
+16-3	884-891	Sverige	*[19]|*[20]	_	_	_	_	_	_	
+16-4	892-897	stått	*[19]	Target[3]	16-3[20]	false[3]	4[3]	_	_	
+16-5	898-902	emot	*[19]	Target[3]	16-3[20]	false[3]	4[3]	_	_	
+16-6	903-909	krisen	*[19]	Target[3]	16-3[20]	false[3]	4[3]	_	_	
+16-7	910-913	väl	*[19]	Target[3]	16-3[20]	false[3]	4[3]	_	_	
+16-8	914-921	jämfört	*[19]	_	_	_	_	_	_	
+16-9	922-925	med	*[19]	_	_	_	_	_	_	
+16-10	926-931	många	*[19]	_	_	_	_	_	_	
+16-11	932-937	andra	*[19]	_	_	_	_	_	_	
+16-12	938-944	länder	*[19]	_	_	_	_	_	_	
+16-13	945-949	tack	_	Target[4]	16-1[19]	false[4]	4[4]	_	_	
+16-14	950-954	vare	_	Target[4]	16-1[19]	false[4]	4[4]	_	_	
+16-15	955-958	ett	_	_	_	_	_	_	_	
+16-16	959-965	starkt	_	_	_	_	_	_	_	
+16-17	966-977	utgångsläge	_	_	_	_	_	_	_	
+16-18	978-981	och	_	_	_	_	_	_	_	
+16-19	982-993	regeringens	_	_	_	_	_	_	_	
+16-20	994-1001	politik	_	_	_	_	_	_	_	
+16-21	1001-1002	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges BNP har i genomsnitt växt cirka 1,5 procent mer per år än euroområdet under den senaste tioårsperioden.
+17-1	1003-1011	Sveriges	_	_	_	_	_	_	_	
+17-2	1012-1015	BNP	_	_	_	_	_	_	_	
+17-3	1016-1019	har	_	_	_	_	_	_	_	
+17-4	1020-1021	i	_	_	_	_	_	_	_	
+17-5	1022-1032	genomsnitt	_	_	_	_	_	_	_	
+17-6	1033-1037	växt	_	_	_	_	_	_	_	
+17-7	1038-1043	cirka	_	_	_	_	_	_	_	
+17-8	1044-1047	1,5	_	_	_	_	_	_	_	
+17-9	1048-1055	procent	_	_	_	_	_	_	_	
+17-10	1056-1059	mer	_	_	_	_	_	_	_	
+17-11	1060-1063	per	_	_	_	_	_	_	_	
+17-12	1064-1066	år	_	_	_	_	_	_	_	
+17-13	1067-1069	än	_	_	_	_	_	_	_	
+17-14	1070-1081	euroområdet	_	_	_	_	_	_	_	
+17-15	1082-1087	under	_	_	_	_	_	_	_	
+17-16	1088-1091	den	_	_	_	_	_	_	_	
+17-17	1092-1099	senaste	_	_	_	_	_	_	_	
+17-18	1100-1114	tioårsperioden	_	_	_	_	_	_	_	
+17-19	1114-1115	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1117-1118	#	_	_	_	_	_	_	_	
+18-2	1118-1119	P	_	_	_	_	_	_	_	
+18-3	1120-1123	IMM	_	_	_	_	_	_	_	
+18-4	1123-1124	.	_	_	_	_	_	_	_	
+
+#Text=Krisen i euroområdet, de dämpade tillväxtutsikterna för Sverige och den starka kronan sätter stor press på de svenska företagen.
+19-1	1126-1132	Krisen	*[21]	Target	19-1[21]	false	2	_	_	
+19-2	1133-1134	i	*[21]	_	_	_	_	_	_	
+19-3	1135-1146	euroområdet	*[21]	_	_	_	_	_	_	
+19-4	1146-1147	,	_	_	_	_	_	_	_	
+19-5	1148-1150	de	_	_	_	_	_	_	_	
+19-6	1151-1158	dämpade	_	_	_	_	_	_	_	
+19-7	1159-1177	tillväxtutsikterna	_	_	_	_	_	_	_	
+19-8	1178-1181	för	_	_	_	_	_	_	_	
+19-9	1182-1189	Sverige	_	_	_	_	_	_	_	
+19-10	1190-1193	och	_	_	_	_	_	_	_	
+19-11	1194-1197	den	_	_	_	_	_	_	_	
+19-12	1198-1204	starka	_	_	_	_	_	_	_	
+19-13	1205-1211	kronan	_	_	_	_	_	_	_	
+19-14	1212-1218	sätter	_	_	_	_	_	_	_	
+19-15	1219-1223	stor	_	_	_	_	_	_	_	
+19-16	1224-1229	press	_	_	_	_	_	_	_	
+19-17	1230-1232	på	_	_	_	_	_	_	_	
+19-18	1233-1235	de	_	_	_	_	_	_	_	
+19-19	1236-1243	svenska	_	_	_	_	_	_	_	
+19-20	1244-1253	företagen	_	_	_	_	_	_	_	
+19-21	1253-1254	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom pressas företagen i Sverige och övriga Europa i dag allt hårdare av konkurrens från tillväxtländerna i framför allt Asien.
+20-1	1255-1263	Dessutom	_	_	_	_	_	_	_	
+20-2	1264-1271	pressas	_	_	_	_	_	_	_	
+20-3	1272-1281	företagen	_	_	_	_	_	_	_	
+20-4	1282-1283	i	_	_	_	_	_	_	_	
+20-5	1284-1291	Sverige	_	_	_	_	_	_	_	
+20-6	1292-1295	och	_	_	_	_	_	_	_	
+20-7	1296-1302	övriga	_	_	_	_	_	_	_	
+20-8	1303-1309	Europa	_	_	_	_	_	_	_	
+20-9	1310-1311	i	_	_	_	_	_	_	_	
+20-10	1312-1315	dag	_	_	_	_	_	_	_	
+20-11	1316-1320	allt	_	_	_	_	_	_	_	
+20-12	1321-1328	hårdare	_	_	_	_	_	_	_	
+20-13	1329-1331	av	_	_	_	_	_	_	_	
+20-14	1332-1342	konkurrens	_	_	_	_	_	_	_	
+20-15	1343-1347	från	_	_	_	_	_	_	_	
+20-16	1348-1364	tillväxtländerna	_	_	_	_	_	_	_	
+20-17	1365-1366	i	_	_	_	_	_	_	_	
+20-18	1367-1374	framför	_	_	_	_	_	_	_	
+20-19	1375-1379	allt	_	_	_	_	_	_	_	
+20-20	1380-1385	Asien	_	_	_	_	_	_	_	
+20-21	1385-1386	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1388-1389	#	_	_	_	_	_	_	_	
+21-2	1389-1390	P	_	_	_	_	_	_	_	
+21-3	1391-1394	IMM	_	_	_	_	_	_	_	
+21-4	1394-1395	.	_	_	_	_	_	_	_	
+
+#Text=Sverige ska vara ett land som konkurrerar med kunskap, kompetens och goda förutsättningar för företag.
+22-1	1397-1404	Sverige	_	_	_	_	_	_	_	
+22-2	1405-1408	ska	_	_	_	_	_	_	_	
+22-3	1409-1413	vara	_	_	_	_	_	_	_	
+22-4	1414-1417	ett	_	_	_	_	_	_	_	
+22-5	1418-1422	land	_	_	_	_	_	_	_	
+22-6	1423-1426	som	_	_	_	_	_	_	_	
+22-7	1427-1438	konkurrerar	_	_	_	_	_	_	_	
+22-8	1439-1442	med	_	_	_	_	_	_	_	
+22-9	1443-1450	kunskap	_	_	_	_	_	_	_	
+22-10	1450-1451	,	_	_	_	_	_	_	_	
+22-11	1452-1461	kompetens	_	_	_	_	_	_	_	
+22-12	1462-1465	och	_	_	_	_	_	_	_	
+22-13	1466-1470	goda	_	Target	22-14	false	4	_	_	
+22-14	1471-1486	förutsättningar	*	_	_	_	_	_	_	
+22-15	1487-1490	för	_	_	_	_	_	_	_	
+22-16	1491-1498	företag	_	_	_	_	_	_	_	
+22-17	1498-1499	.	_	_	_	_	_	_	_	
+
+#Text=Det är så Sverige byggts starkt under det senaste seklet, inte genom låga löner och dålig arbetsmiljö.
+23-1	1500-1503	Det	_	_	_	_	_	_	_	
+23-2	1504-1506	är	_	_	_	_	_	_	_	
+23-3	1507-1509	så	_	_	_	_	_	_	_	
+23-4	1510-1517	Sverige	*	_	_	_	_	_	_	
+23-5	1518-1524	byggts	_	Target[5]	23-4	false[5]	4[5]	_	_	
+23-6	1525-1531	starkt	_	Target[5]	23-4	false[5]	4[5]	_	_	
+23-7	1532-1537	under	_	_	_	_	_	_	_	
+23-8	1538-1541	det	_	_	_	_	_	_	_	
+23-9	1542-1549	senaste	_	_	_	_	_	_	_	
+23-10	1550-1556	seklet	_	_	_	_	_	_	_	
+23-11	1556-1557	,	_	_	_	_	_	_	_	
+23-12	1558-1562	inte	_	_	_	_	_	_	_	
+23-13	1563-1568	genom	_	_	_	_	_	_	_	
+23-14	1569-1573	låga	_	_	_	_	_	_	_	
+23-15	1574-1579	löner	_	_	_	_	_	_	_	
+23-16	1580-1583	och	_	_	_	_	_	_	_	
+23-17	1584-1589	dålig	_	Target	23-18	false	2	_	_	
+23-18	1590-1601	arbetsmiljö	*	_	_	_	_	_	_	
+23-19	1601-1602	.	_	_	_	_	_	_	_	
+
+#Text=Det gör att det ställs höga krav på att de svenska företagen är innovativa och konkurrenskraftiga och att det svenska företagsklimatet är i världsklass.
+24-1	1603-1606	Det	_	_	_	_	_	_	_	
+24-2	1607-1610	gör	_	_	_	_	_	_	_	
+24-3	1611-1614	att	_	_	_	_	_	_	_	
+24-4	1615-1618	det	_	_	_	_	_	_	_	
+24-5	1619-1625	ställs	_	_	_	_	_	_	_	
+24-6	1626-1630	höga	_	_	_	_	_	_	_	
+24-7	1631-1635	krav	_	_	_	_	_	_	_	
+24-8	1636-1638	på	_	_	_	_	_	_	_	
+24-9	1639-1642	att	_	_	_	_	_	_	_	
+24-10	1643-1645	de	_	_	_	_	_	_	_	
+24-11	1646-1653	svenska	_	_	_	_	_	_	_	
+24-12	1654-1663	företagen	_	_	_	_	_	_	_	
+24-13	1664-1666	är	_	_	_	_	_	_	_	
+24-14	1667-1677	innovativa	_	_	_	_	_	_	_	
+24-15	1678-1681	och	_	_	_	_	_	_	_	
+24-16	1682-1700	konkurrenskraftiga	_	_	_	_	_	_	_	
+24-17	1701-1704	och	_	_	_	_	_	_	_	
+24-18	1705-1708	att	_	_	_	_	_	_	_	
+24-19	1709-1712	det	_	_	_	_	_	_	_	
+24-20	1713-1720	svenska	_	_	_	_	_	_	_	
+24-21	1721-1737	företagsklimatet	_	_	_	_	_	_	_	
+24-22	1738-1740	är	_	_	_	_	_	_	_	
+24-23	1741-1742	i	_	_	_	_	_	_	_	
+24-24	1743-1754	världsklass	_	_	_	_	_	_	_	
+24-25	1754-1755	.	_	_	_	_	_	_	_	
+
+#Text=Ett gott företagsklimat är nödvändigt för att förstärka arbetslinjen, stärka förutsättningarna för ökad sysselsättning och för att kvinnor och män i Sverige ska kunna förverkliga sina drömmar och visioner.
+25-1	1756-1759	Ett	_	_	_	_	_	_	_	
+25-2	1760-1764	gott	_	_	_	_	_	_	_	
+25-3	1765-1779	företagsklimat	_	_	_	_	_	_	_	
+25-4	1780-1782	är	_	_	_	_	_	_	_	
+25-5	1783-1793	nödvändigt	_	_	_	_	_	_	_	
+25-6	1794-1797	för	_	_	_	_	_	_	_	
+25-7	1798-1801	att	_	_	_	_	_	_	_	
+25-8	1802-1811	förstärka	_	_	_	_	_	_	_	
+25-9	1812-1824	arbetslinjen	_	_	_	_	_	_	_	
+25-10	1824-1825	,	_	_	_	_	_	_	_	
+25-11	1826-1832	stärka	_	_	_	_	_	_	_	
+25-12	1833-1850	förutsättningarna	_	_	_	_	_	_	_	
+25-13	1851-1854	för	_	_	_	_	_	_	_	
+25-14	1855-1859	ökad	_	_	_	_	_	_	_	
+25-15	1860-1874	sysselsättning	_	_	_	_	_	_	_	
+25-16	1875-1878	och	_	_	_	_	_	_	_	
+25-17	1879-1882	för	_	_	_	_	_	_	_	
+25-18	1883-1886	att	_	_	_	_	_	_	_	
+25-19	1887-1894	kvinnor	_	_	_	_	_	_	_	
+25-20	1895-1898	och	_	_	_	_	_	_	_	
+25-21	1899-1902	män	_	_	_	_	_	_	_	
+25-22	1903-1904	i	_	_	_	_	_	_	_	
+25-23	1905-1912	Sverige	_	_	_	_	_	_	_	
+25-24	1913-1916	ska	_	_	_	_	_	_	_	
+25-25	1917-1922	kunna	_	_	_	_	_	_	_	
+25-26	1923-1934	förverkliga	_	_	_	_	_	_	_	
+25-27	1935-1939	sina	_	_	_	_	_	_	_	
+25-28	1940-1947	drömmar	_	_	_	_	_	_	_	
+25-29	1948-1951	och	_	_	_	_	_	_	_	
+25-30	1952-1960	visioner	_	_	_	_	_	_	_	
+25-31	1960-1961	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar inte minst om att ha en fungerande infrastruktur och ett välfungerande utbildningssystem.
+26-1	1962-1965	Det	_	_	_	_	_	_	_	
+26-2	1966-1973	handlar	_	_	_	_	_	_	_	
+26-3	1974-1978	inte	_	_	_	_	_	_	_	
+26-4	1979-1984	minst	_	_	_	_	_	_	_	
+26-5	1985-1987	om	_	_	_	_	_	_	_	
+26-6	1988-1991	att	_	_	_	_	_	_	_	
+26-7	1992-1994	ha	_	_	_	_	_	_	_	
+26-8	1995-1997	en	_	_	_	_	_	_	_	
+26-9	1998-2008	fungerande	_	_	_	_	_	_	_	
+26-10	2009-2022	infrastruktur	_	_	_	_	_	_	_	
+26-11	2023-2026	och	_	_	_	_	_	_	_	
+26-12	2027-2030	ett	_	_	_	_	_	_	_	
+26-13	2031-2044	välfungerande	_	Target	26-14	false	4	_	_	
+26-14	2045-2062	utbildningssystem	*	_	_	_	_	_	_	
+26-15	2062-2063	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2065-2066	#	_	_	_	_	_	_	_	
+27-2	2066-2067	P	_	_	_	_	_	_	_	
+27-3	2068-2071	IMM	_	_	_	_	_	_	_	
+27-4	2071-2072	.	_	_	_	_	_	_	_	
+
+#Text=För att Sverige ska klara att möta en allt tuffare omvärld med hårdare konkurrens, samtidigt som tidigare viktiga exportmarknader utvecklats svagt, har regeringen vidtagit en rad åtgärder för att förstärka det svenska företagsklimatet.
+28-1	2074-2077	För	_	_	_	_	_	_	_	
+28-2	2078-2081	att	_	_	_	_	_	_	_	
+28-3	2082-2089	Sverige	_	_	_	_	_	_	_	
+28-4	2090-2093	ska	_	_	_	_	_	_	_	
+28-5	2094-2099	klara	_	_	_	_	_	_	_	
+28-6	2100-2103	att	_	_	_	_	_	_	_	
+28-7	2104-2108	möta	_	_	_	_	_	_	_	
+28-8	2109-2111	en	_	_	_	_	_	_	_	
+28-9	2112-2116	allt	_	_	_	_	_	_	_	
+28-10	2117-2124	tuffare	_	_	_	_	_	_	_	
+28-11	2125-2132	omvärld	_	_	_	_	_	_	_	
+28-12	2133-2136	med	_	_	_	_	_	_	_	
+28-13	2137-2144	hårdare	_	_	_	_	_	_	_	
+28-14	2145-2155	konkurrens	_	_	_	_	_	_	_	
+28-15	2155-2156	,	_	_	_	_	_	_	_	
+28-16	2157-2166	samtidigt	_	_	_	_	_	_	_	
+28-17	2167-2170	som	_	_	_	_	_	_	_	
+28-18	2171-2179	tidigare	_	_	_	_	_	_	_	
+28-19	2180-2187	viktiga	_	_	_	_	_	_	_	
+28-20	2188-2203	exportmarknader	_	_	_	_	_	_	_	
+28-21	2204-2214	utvecklats	_	_	_	_	_	_	_	
+28-22	2215-2220	svagt	_	_	_	_	_	_	_	
+28-23	2220-2221	,	_	_	_	_	_	_	_	
+28-24	2222-2225	har	_	_	_	_	_	_	_	
+28-25	2226-2236	regeringen	_	_	_	_	_	_	_	
+28-26	2237-2245	vidtagit	_	_	_	_	_	_	_	
+28-27	2246-2248	en	_	_	_	_	_	_	_	
+28-28	2249-2252	rad	_	_	_	_	_	_	_	
+28-29	2253-2261	åtgärder	_	_	_	_	_	_	_	
+28-30	2262-2265	för	_	_	_	_	_	_	_	
+28-31	2266-2269	att	_	_	_	_	_	_	_	
+28-32	2270-2279	förstärka	_	_	_	_	_	_	_	
+28-33	2280-2283	det	_	_	_	_	_	_	_	
+28-34	2284-2291	svenska	_	_	_	_	_	_	_	
+28-35	2292-2308	företagsklimatet	_	_	_	_	_	_	_	
+28-36	2308-2309	.	_	_	_	_	_	_	_	
+
+#Text=Åtgärder som den sänkta bolagsskatten och förslaget om ett investeraravdrag stärker de svenska företagens konkurrenskraft och gör Sverige mer attraktivt för inhemska och utländska investeringar.
+29-1	2310-2318	Åtgärder	*[22]|*[23]	_	_	_	_	_	_	
+29-2	2319-2322	som	*[22]|*[23]	_	_	_	_	_	_	
+29-3	2323-2326	den	*[22]|*[23]	_	_	_	_	_	_	
+29-4	2327-2333	sänkta	*[22]|*[23]	_	_	_	_	_	_	
+29-5	2334-2347	bolagsskatten	*[22]|*[23]	_	_	_	_	_	_	
+29-6	2348-2351	och	*[22]|*[23]	_	_	_	_	_	_	
+29-7	2352-2361	förslaget	*[22]|*[23]	_	_	_	_	_	_	
+29-8	2362-2364	om	*[22]|*[23]	_	_	_	_	_	_	
+29-9	2365-2368	ett	*[22]|*[23]	_	_	_	_	_	_	
+29-10	2369-2385	investeraravdrag	*[22]|*[23]	_	_	_	_	_	_	
+29-11	2386-2393	stärker	_	Target[6]	29-1[22]	false[6]	4[6]	_	_	
+29-12	2394-2396	de	_	Target[6]	29-1[22]	false[6]	4[6]	_	_	
+29-13	2397-2404	svenska	_	Target[6]	29-1[22]	false[6]	4[6]	_	_	
+29-14	2405-2415	företagens	_	Target[6]	29-1[22]	false[6]	4[6]	_	_	
+29-15	2416-2431	konkurrenskraft	_	Target[6]	29-1[22]	false[6]	4[6]	_	_	
+29-16	2432-2435	och	_	_	_	_	_	_	_	
+29-17	2436-2439	gör	_	Target[7]	29-1[23]	false[7]	4[7]	_	_	
+29-18	2440-2447	Sverige	_	Target[7]	29-1[23]	false[7]	4[7]	_	_	
+29-19	2448-2451	mer	_	Target[7]	29-1[23]	false[7]	4[7]	_	_	
+29-20	2452-2462	attraktivt	_	Target[7]	29-1[23]	false[7]	4[7]	_	_	
+29-21	2463-2466	för	_	_	_	_	_	_	_	
+29-22	2467-2475	inhemska	_	_	_	_	_	_	_	
+29-23	2476-2479	och	_	_	_	_	_	_	_	
+29-24	2480-2489	utländska	_	_	_	_	_	_	_	
+29-25	2490-2503	investeringar	_	_	_	_	_	_	_	
+29-26	2503-2504	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens historiskt stora satsning på infrastruktur – totalt 100 miljarder kronor fram till 2025 – skapar förutsättningar för ett mer effektivt och pålitligt transportsystem som tillgodoser behov av arbetspendling och transporter.
+30-1	2505-2516	Regeringens	*[24]	_	_	_	_	_	_	
+30-2	2517-2527	historiskt	*[24]	_	_	_	_	_	_	
+30-3	2528-2533	stora	*[24]	_	_	_	_	_	_	
+30-4	2534-2542	satsning	*[24]	_	_	_	_	_	_	
+30-5	2543-2545	på	*[24]	_	_	_	_	_	_	
+30-6	2546-2559	infrastruktur	*[24]	_	_	_	_	_	_	
+30-7	2560-2561	–	*[24]	_	_	_	_	_	_	
+30-8	2562-2568	totalt	*[24]	_	_	_	_	_	_	
+30-9	2569-2572	100	*[24]	_	_	_	_	_	_	
+30-10	2573-2582	miljarder	*[24]	_	_	_	_	_	_	
+30-11	2583-2589	kronor	*[24]	_	_	_	_	_	_	
+30-12	2590-2594	fram	*[24]	_	_	_	_	_	_	
+30-13	2595-2599	till	*[24]	_	_	_	_	_	_	
+30-14	2600-2604	2025	*[24]	_	_	_	_	_	_	
+30-15	2605-2606	–	_	_	_	_	_	_	_	
+30-16	2607-2613	skapar	_	Target[8]	30-1[24]	false[8]	4[8]	_	_	
+30-17	2614-2629	förutsättningar	_	Target[8]	30-1[24]	false[8]	4[8]	_	_	
+30-18	2630-2633	för	_	Target[8]	30-1[24]	false[8]	4[8]	_	_	
+30-19	2634-2637	ett	_	Target[8]	30-1[24]	false[8]	4[8]	_	_	
+30-20	2638-2641	mer	_	Target[8]|Target[9]	30-1[24]|30-24	false[8]|false[9]	4[8]|4[9]	_	_	
+30-21	2642-2651	effektivt	_	Target[8]|Target[9]	30-1[24]|30-24	false[8]|false[9]	4[8]|4[9]	_	_	
+30-22	2652-2655	och	_	Target[8]|Target[9]	30-1[24]|30-24	false[8]|false[9]	4[8]|4[9]	_	_	
+30-23	2656-2665	pålitligt	_	Target[8]|Target[9]	30-1[24]|30-24	false[8]|false[9]	4[8]|4[9]	_	_	
+30-24	2666-2681	transportsystem	*	Target[8]	30-1[24]	false[8]	4[8]	_	_	
+30-25	2682-2685	som	_	_	_	_	_	_	_	
+30-26	2686-2697	tillgodoser	_	_	_	_	_	_	_	
+30-27	2698-2703	behov	_	_	_	_	_	_	_	
+30-28	2704-2706	av	_	_	_	_	_	_	_	
+30-29	2707-2721	arbetspendling	_	_	_	_	_	_	_	
+30-30	2722-2725	och	_	_	_	_	_	_	_	
+30-31	2726-2737	transporter	_	_	_	_	_	_	_	
+30-32	2737-2738	.	_	_	_	_	_	_	_	
+
+#Text=Genom reformeringen av skolan och genom de satsningar på forskning och innovation som genomförts stärker vi de långsiktiga tillväxtförutsättningarna och Sveriges ställning som ledande forskningsnation.
+31-1	2739-2744	Genom	_	_	_	_	_	_	_	
+31-2	2745-2758	reformeringen	_	_	_	_	_	_	_	
+31-3	2759-2761	av	_	_	_	_	_	_	_	
+31-4	2762-2768	skolan	_	_	_	_	_	_	_	
+31-5	2769-2772	och	_	_	_	_	_	_	_	
+31-6	2773-2778	genom	_	_	_	_	_	_	_	
+31-7	2779-2781	de	_	_	_	_	_	_	_	
+31-8	2782-2792	satsningar	_	_	_	_	_	_	_	
+31-9	2793-2795	på	_	_	_	_	_	_	_	
+31-10	2796-2805	forskning	_	_	_	_	_	_	_	
+31-11	2806-2809	och	_	_	_	_	_	_	_	
+31-12	2810-2820	innovation	_	_	_	_	_	_	_	
+31-13	2821-2824	som	_	_	_	_	_	_	_	
+31-14	2825-2835	genomförts	_	_	_	_	_	_	_	
+31-15	2836-2843	stärker	_	_	_	_	_	_	_	
+31-16	2844-2846	vi	_	_	_	_	_	_	_	
+31-17	2847-2849	de	_	_	_	_	_	_	_	
+31-18	2850-2861	långsiktiga	_	_	_	_	_	_	_	
+31-19	2862-2887	tillväxtförutsättningarna	_	_	_	_	_	_	_	
+31-20	2888-2891	och	_	_	_	_	_	_	_	
+31-21	2892-2900	Sveriges	*	_	_	_	_	_	_	
+31-22	2901-2910	ställning	_	Target[10]	31-21	false[10]	4[10]	_	_	
+31-23	2911-2914	som	_	Target[10]	31-21	false[10]	4[10]	_	_	
+31-24	2915-2922	ledande	_	Target[10]	31-21	false[10]	4[10]	_	_	
+31-25	2923-2939	forskningsnation	_	Target[10]	31-21	false[10]	4[10]	_	_	
+31-26	2939-2940	.	_	_	_	_	_	_	_	
+
+#Text=Detta arbete måste fortsätta givet kraften i den förändring som sker i omvärlden.
+32-1	2941-2946	Detta	_	_	_	_	_	_	_	
+32-2	2947-2953	arbete	_	_	_	_	_	_	_	
+32-3	2954-2959	måste	_	_	_	_	_	_	_	
+32-4	2960-2969	fortsätta	_	_	_	_	_	_	_	
+32-5	2970-2975	givet	_	_	_	_	_	_	_	
+32-6	2976-2983	kraften	_	_	_	_	_	_	_	
+32-7	2984-2985	i	_	_	_	_	_	_	_	
+32-8	2986-2989	den	_	_	_	_	_	_	_	
+32-9	2990-3000	förändring	_	_	_	_	_	_	_	
+32-10	3001-3004	som	_	_	_	_	_	_	_	
+32-11	3005-3009	sker	_	_	_	_	_	_	_	
+32-12	3010-3011	i	_	_	_	_	_	_	_	
+32-13	3012-3021	omvärlden	_	_	_	_	_	_	_	
+32-14	3021-3022	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	3024-3025	#	_	_	_	_	_	_	_	
+33-2	3025-3026	P	_	_	_	_	_	_	_	
+33-3	3027-3030	IMM	_	_	_	_	_	_	_	
+33-4	3030-3031	.	_	_	_	_	_	_	_	
+
+#Text=Internationella jämförelser visar att företags- och innovationsklimatet i Sverige är bland de bästa i världen.
+34-1	3033-3048	Internationella	_	_	_	_	_	_	_	
+34-2	3049-3060	jämförelser	_	_	_	_	_	_	_	
+34-3	3061-3066	visar	_	_	_	_	_	_	_	
+34-4	3067-3070	att	_	_	_	_	_	_	_	
+34-5	3071-3079	företags	*[25]	_	_	_	_	_	_	
+34-6	3079-3080	-	*[25]	_	_	_	_	_	_	
+34-7	3081-3084	och	*[25]	_	_	_	_	_	_	
+34-8	3085-3104	innovationsklimatet	*[25]	_	_	_	_	_	_	
+34-9	3105-3106	i	*[25]	_	_	_	_	_	_	
+34-10	3107-3114	Sverige	*[25]	_	_	_	_	_	_	
+34-11	3115-3117	är	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-12	3118-3123	bland	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-13	3124-3126	de	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-14	3127-3132	bästa	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-15	3133-3134	i	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-16	3135-3142	världen	_	Target[11]	34-5[25]	false[11]	5[11]	_	_	
+34-17	3142-3143	.	_	_	_	_	_	_	_	
+
+#Text=Sverige toppar exempelvis EU-kommissionens rankning över de mest innovativa EU-länderna, rankas efter Schweiz som det mest innovativa landet i världen i handelshögskolan Inseads ranking "Global Innovation Index" samt hamnar på fjärde plats i World Economic Forums rankning av världens mest konkurrenskraftiga ekonomier.
+35-1	3144-3151	Sverige	*[26]|*[27]|*[28]	_	_	_	_	_	_	
+35-2	3152-3158	toppar	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-3	3159-3169	exempelvis	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-4	3170-3186	EU-kommissionens	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-5	3187-3195	rankning	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-6	3196-3200	över	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-7	3201-3203	de	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-8	3204-3208	mest	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-9	3209-3219	innovativa	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-10	3220-3231	EU-länderna	_	Target[12]	35-1[26]	false[12]	4[12]	_	_	
+35-11	3231-3232	,	_	_	_	_	_	_	_	
+35-12	3233-3239	rankas	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-13	3240-3245	efter	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-14	3246-3253	Schweiz	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-15	3254-3257	som	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-16	3258-3261	det	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-17	3262-3266	mest	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-18	3267-3277	innovativa	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-19	3278-3284	landet	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-20	3285-3286	i	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-21	3287-3294	världen	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-22	3295-3296	i	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-23	3297-3313	handelshögskolan	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-24	3314-3321	Inseads	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-25	3322-3329	ranking	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-26	3330-3331	"	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-27	3331-3337	Global	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-28	3338-3348	Innovation	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-29	3349-3354	Index	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-30	3354-3355	"	_	Target[13]	35-1[28]	false[13]	4[13]	_	_	
+35-31	3356-3360	samt	_	_	_	_	_	_	_	
+35-32	3361-3367	hamnar	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-33	3368-3370	på	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-34	3371-3377	fjärde	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-35	3378-3383	plats	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-36	3384-3385	i	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-37	3386-3391	World	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-38	3392-3400	Economic	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-39	3401-3407	Forums	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-40	3408-3416	rankning	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-41	3417-3419	av	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-42	3420-3428	världens	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-43	3429-3433	mest	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-44	3434-3452	konkurrenskraftiga	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-45	3453-3462	ekonomier	_	Target[14]	35-1[27]	false[14]	4[14]	_	_	
+35-46	3462-3463	.	_	_	_	_	_	_	_	
+
+#Text=I Världsbankens undersökning över företagsklimatet hamnar Sverige dock först på 13:e plats av världens länder.
+36-1	3464-3465	I	_	_	_	_	_	_	_	
+36-2	3466-3479	Världsbankens	_	_	_	_	_	_	_	
+36-3	3480-3492	undersökning	_	_	_	_	_	_	_	
+36-4	3493-3497	över	_	_	_	_	_	_	_	
+36-5	3498-3514	företagsklimatet	_	_	_	_	_	_	_	
+36-6	3515-3521	hamnar	_	_	_	_	_	_	_	
+36-7	3522-3529	Sverige	_	_	_	_	_	_	_	
+36-8	3530-3534	dock	_	_	_	_	_	_	_	
+36-9	3535-3540	först	_	_	_	_	_	_	_	
+36-10	3541-3543	på	_	_	_	_	_	_	_	
+36-11	3544-3546	13	_	_	_	_	_	_	_	
+36-12	3546-3547	:	_	_	_	_	_	_	_	
+36-13	3547-3548	e	_	_	_	_	_	_	_	
+36-14	3549-3554	plats	_	_	_	_	_	_	_	
+36-15	3555-3557	av	_	_	_	_	_	_	_	
+36-16	3558-3566	världens	_	_	_	_	_	_	_	
+36-17	3567-3573	länder	_	_	_	_	_	_	_	
+36-18	3573-3574	.	_	_	_	_	_	_	_	
+
+#Text=Detta visar att vi måste vara ödmjuka för att det fortsatt finns utrymme att förnya och förbättra vår politik – inget land kan i dagens globaliserade värld leva på gamla meriter.
+37-1	3575-3580	Detta	_	_	_	_	_	_	_	
+37-2	3581-3586	visar	_	_	_	_	_	_	_	
+37-3	3587-3590	att	_	_	_	_	_	_	_	
+37-4	3591-3593	vi	_	_	_	_	_	_	_	
+37-5	3594-3599	måste	_	_	_	_	_	_	_	
+37-6	3600-3604	vara	_	_	_	_	_	_	_	
+37-7	3605-3612	ödmjuka	_	_	_	_	_	_	_	
+37-8	3613-3616	för	_	_	_	_	_	_	_	
+37-9	3617-3620	att	_	_	_	_	_	_	_	
+37-10	3621-3624	det	_	_	_	_	_	_	_	
+37-11	3625-3633	fortsatt	_	_	_	_	_	_	_	
+37-12	3634-3639	finns	_	_	_	_	_	_	_	
+37-13	3640-3647	utrymme	_	_	_	_	_	_	_	
+37-14	3648-3651	att	_	_	_	_	_	_	_	
+37-15	3652-3658	förnya	_	_	_	_	_	_	_	
+37-16	3659-3662	och	_	_	_	_	_	_	_	
+37-17	3663-3672	förbättra	_	_	_	_	_	_	_	
+37-18	3673-3676	vår	_	_	_	_	_	_	_	
+37-19	3677-3684	politik	_	_	_	_	_	_	_	
+37-20	3685-3686	–	_	_	_	_	_	_	_	
+37-21	3687-3692	inget	_	_	_	_	_	_	_	
+37-22	3693-3697	land	_	_	_	_	_	_	_	
+37-23	3698-3701	kan	_	_	_	_	_	_	_	
+37-24	3702-3703	i	_	_	_	_	_	_	_	
+37-25	3704-3710	dagens	_	_	_	_	_	_	_	
+37-26	3711-3724	globaliserade	_	_	_	_	_	_	_	
+37-27	3725-3730	värld	_	_	_	_	_	_	_	
+37-28	3731-3735	leva	_	_	_	_	_	_	_	
+37-29	3736-3738	på	_	_	_	_	_	_	_	
+37-30	3739-3744	gamla	_	_	_	_	_	_	_	
+37-31	3745-3752	meriter	_	_	_	_	_	_	_	
+37-32	3752-3753	.	_	_	_	_	_	_	_	
+
+#Text=För att tvinga oss att ständigt stå på tå och pröva hur förutsättningar för jobb och investeringar kan förbättras kommer Världsbanken att på regeringens uppdrag genomföra en stor undersökning av det svenska företagsklimatet och hur det kan göras bättre.
+38-1	3754-3757	För	_	_	_	_	_	_	_	
+38-2	3758-3761	att	_	_	_	_	_	_	_	
+38-3	3762-3768	tvinga	_	_	_	_	_	_	_	
+38-4	3769-3772	oss	_	_	_	_	_	_	_	
+38-5	3773-3776	att	_	_	_	_	_	_	_	
+38-6	3777-3785	ständigt	_	_	_	_	_	_	_	
+38-7	3786-3789	stå	_	_	_	_	_	_	_	
+38-8	3790-3792	på	_	_	_	_	_	_	_	
+38-9	3793-3795	tå	_	_	_	_	_	_	_	
+38-10	3796-3799	och	_	_	_	_	_	_	_	
+38-11	3800-3805	pröva	_	_	_	_	_	_	_	
+38-12	3806-3809	hur	_	_	_	_	_	_	_	
+38-13	3810-3825	förutsättningar	_	_	_	_	_	_	_	
+38-14	3826-3829	för	_	_	_	_	_	_	_	
+38-15	3830-3834	jobb	_	_	_	_	_	_	_	
+38-16	3835-3838	och	_	_	_	_	_	_	_	
+38-17	3839-3852	investeringar	_	_	_	_	_	_	_	
+38-18	3853-3856	kan	_	_	_	_	_	_	_	
+38-19	3857-3867	förbättras	_	_	_	_	_	_	_	
+38-20	3868-3874	kommer	_	_	_	_	_	_	_	
+38-21	3875-3887	Världsbanken	_	_	_	_	_	_	_	
+38-22	3888-3891	att	_	_	_	_	_	_	_	
+38-23	3892-3894	på	_	_	_	_	_	_	_	
+38-24	3895-3906	regeringens	_	_	_	_	_	_	_	
+38-25	3907-3914	uppdrag	_	_	_	_	_	_	_	
+38-26	3915-3924	genomföra	_	_	_	_	_	_	_	
+38-27	3925-3927	en	_	_	_	_	_	_	_	
+38-28	3928-3932	stor	_	_	_	_	_	_	_	
+38-29	3933-3945	undersökning	_	_	_	_	_	_	_	
+38-30	3946-3948	av	_	_	_	_	_	_	_	
+38-31	3949-3952	det	_	_	_	_	_	_	_	
+38-32	3953-3960	svenska	_	_	_	_	_	_	_	
+38-33	3961-3977	företagsklimatet	_	_	_	_	_	_	_	
+38-34	3978-3981	och	_	_	_	_	_	_	_	
+38-35	3982-3985	hur	_	_	_	_	_	_	_	
+38-36	3986-3989	det	_	_	_	_	_	_	_	
+38-37	3990-3993	kan	_	_	_	_	_	_	_	
+38-38	3994-3999	göras	_	_	_	_	_	_	_	
+38-39	4000-4006	bättre	_	_	_	_	_	_	_	
+38-40	4006-4007	.	_	_	_	_	_	_	_	
+
+#Text=Redan i dag genomför Världsbanken varje år en studie över hur enkelt det är att driva företag i en rad olika länder, "Doing Business Index".
+39-1	4008-4013	Redan	_	_	_	_	_	_	_	
+39-2	4014-4015	i	_	_	_	_	_	_	_	
+39-3	4016-4019	dag	_	_	_	_	_	_	_	
+39-4	4020-4028	genomför	_	_	_	_	_	_	_	
+39-5	4029-4041	Världsbanken	_	_	_	_	_	_	_	
+39-6	4042-4047	varje	_	_	_	_	_	_	_	
+39-7	4048-4050	år	_	_	_	_	_	_	_	
+39-8	4051-4053	en	_	_	_	_	_	_	_	
+39-9	4054-4060	studie	_	_	_	_	_	_	_	
+39-10	4061-4065	över	_	_	_	_	_	_	_	
+39-11	4066-4069	hur	_	_	_	_	_	_	_	
+39-12	4070-4076	enkelt	_	_	_	_	_	_	_	
+39-13	4077-4080	det	_	_	_	_	_	_	_	
+39-14	4081-4083	är	_	_	_	_	_	_	_	
+39-15	4084-4087	att	_	_	_	_	_	_	_	
+39-16	4088-4093	driva	_	_	_	_	_	_	_	
+39-17	4094-4101	företag	_	_	_	_	_	_	_	
+39-18	4102-4103	i	_	_	_	_	_	_	_	
+39-19	4104-4106	en	_	_	_	_	_	_	_	
+39-20	4107-4110	rad	_	_	_	_	_	_	_	
+39-21	4111-4116	olika	_	_	_	_	_	_	_	
+39-22	4117-4123	länder	_	_	_	_	_	_	_	
+39-23	4123-4124	,	_	_	_	_	_	_	_	
+39-24	4125-4126	"	_	_	_	_	_	_	_	
+39-25	4126-4131	Doing	_	_	_	_	_	_	_	
+39-26	4132-4140	Business	_	_	_	_	_	_	_	
+39-27	4141-4146	Index	_	_	_	_	_	_	_	
+39-28	4146-4147	"	_	_	_	_	_	_	_	
+39-29	4147-4148	.	_	_	_	_	_	_	_	
+
+#Text=För Sveriges räkning kommer de att genomföra en än mer djupgående analys för att identifiera de problem som drabbar landets företagare.
+40-1	4149-4152	För	_	_	_	_	_	_	_	
+40-2	4153-4161	Sveriges	_	_	_	_	_	_	_	
+40-3	4162-4169	räkning	_	_	_	_	_	_	_	
+40-4	4170-4176	kommer	_	_	_	_	_	_	_	
+40-5	4177-4179	de	_	_	_	_	_	_	_	
+40-6	4180-4183	att	_	_	_	_	_	_	_	
+40-7	4184-4193	genomföra	_	_	_	_	_	_	_	
+40-8	4194-4196	en	_	_	_	_	_	_	_	
+40-9	4197-4199	än	_	_	_	_	_	_	_	
+40-10	4200-4203	mer	_	_	_	_	_	_	_	
+40-11	4204-4214	djupgående	_	_	_	_	_	_	_	
+40-12	4215-4221	analys	_	_	_	_	_	_	_	
+40-13	4222-4225	för	_	_	_	_	_	_	_	
+40-14	4226-4229	att	_	_	_	_	_	_	_	
+40-15	4230-4241	identifiera	_	_	_	_	_	_	_	
+40-16	4242-4244	de	*[29]	_	_	_	_	_	_	
+40-17	4245-4252	problem	*[29]	Target	40-16[29]	false	2	_	_	
+40-18	4253-4256	som	*[29]	_	_	_	_	_	_	
+40-19	4257-4264	drabbar	*[29]	_	_	_	_	_	_	
+40-20	4265-4272	landets	*[29]	_	_	_	_	_	_	
+40-21	4273-4283	företagare	*[29]	_	_	_	_	_	_	
+40-22	4283-4284	.	_	_	_	_	_	_	_	
+
+#Text=Undersökningen ska bland annat se ifall det finns snårig byråkrati och ineffektiva regler som kan förbättras.
+41-1	4285-4299	Undersökningen	_	_	_	_	_	_	_	
+41-2	4300-4303	ska	_	_	_	_	_	_	_	
+41-3	4304-4309	bland	_	_	_	_	_	_	_	
+41-4	4310-4315	annat	_	_	_	_	_	_	_	
+41-5	4316-4318	se	_	_	_	_	_	_	_	
+41-6	4319-4324	ifall	_	_	_	_	_	_	_	
+41-7	4325-4328	det	_	_	_	_	_	_	_	
+41-8	4329-4334	finns	_	_	_	_	_	_	_	
+41-9	4335-4341	snårig	_	Target	41-10	false	2	_	_	
+41-10	4342-4351	byråkrati	*	_	_	_	_	_	_	
+41-11	4352-4355	och	_	_	_	_	_	_	_	
+41-12	4356-4367	ineffektiva	*[30]	_	_	_	_	_	41-14[0_30]	
+41-13	4368-4374	regler	*[30]	_	_	_	_	_	_	
+41-14	4375-4378	som	*	_	_	_	_	_	_	
+41-15	4379-4382	kan	_	Target[15]	41-14	false[15]	2[15]	_	_	
+41-16	4383-4393	förbättras	_	Target[15]	41-14	false[15]	2[15]	_	_	
+41-17	4393-4394	.	_	_	_	_	_	_	_	
+
+#Text=Förutom genomgång av sitt eget omfattande statistiska material kommer Världsbanken även att genomföra intervjuer med svenska företagare för att kartlägga hinder för företagande som ännu inte åtgärdats.
+42-1	4395-4402	Förutom	_	_	_	_	_	_	_	
+42-2	4403-4412	genomgång	_	_	_	_	_	_	_	
+42-3	4413-4415	av	_	_	_	_	_	_	_	
+42-4	4416-4420	sitt	_	_	_	_	_	_	_	
+42-5	4421-4425	eget	_	_	_	_	_	_	_	
+42-6	4426-4436	omfattande	_	_	_	_	_	_	_	
+42-7	4437-4448	statistiska	_	_	_	_	_	_	_	
+42-8	4449-4457	material	_	_	_	_	_	_	_	
+42-9	4458-4464	kommer	_	_	_	_	_	_	_	
+42-10	4465-4477	Världsbanken	_	_	_	_	_	_	_	
+42-11	4478-4482	även	_	_	_	_	_	_	_	
+42-12	4483-4486	att	_	_	_	_	_	_	_	
+42-13	4487-4496	genomföra	_	_	_	_	_	_	_	
+42-14	4497-4507	intervjuer	_	_	_	_	_	_	_	
+42-15	4508-4511	med	_	_	_	_	_	_	_	
+42-16	4512-4519	svenska	_	_	_	_	_	_	_	
+42-17	4520-4530	företagare	_	_	_	_	_	_	_	
+42-18	4531-4534	för	_	_	_	_	_	_	_	
+42-19	4535-4538	att	_	_	_	_	_	_	_	
+42-20	4539-4548	kartlägga	_	_	_	_	_	_	_	
+42-21	4549-4555	hinder	_	_	_	_	_	_	_	
+42-22	4556-4559	för	_	_	_	_	_	_	_	
+42-23	4560-4571	företagande	_	_	_	_	_	_	_	
+42-24	4572-4575	som	_	_	_	_	_	_	_	
+42-25	4576-4580	ännu	_	_	_	_	_	_	_	
+42-26	4581-4585	inte	_	_	_	_	_	_	_	
+42-27	4586-4595	åtgärdats	_	_	_	_	_	_	_	
+42-28	4595-4596	.	_	_	_	_	_	_	_	
+
+#Text=Undersökningen beräknas vara färdig under första halvan av 2014.
+43-1	4597-4611	Undersökningen	_	_	_	_	_	_	_	
+43-2	4612-4620	beräknas	_	_	_	_	_	_	_	
+43-3	4621-4625	vara	_	_	_	_	_	_	_	
+43-4	4626-4632	färdig	_	_	_	_	_	_	_	
+43-5	4633-4638	under	_	_	_	_	_	_	_	
+43-6	4639-4645	första	_	_	_	_	_	_	_	
+43-7	4646-4652	halvan	_	_	_	_	_	_	_	
+43-8	4653-4655	av	_	_	_	_	_	_	_	
+43-9	4656-4660	2014	_	_	_	_	_	_	_	
+43-10	4660-4661	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	4663-4664	#	_	_	_	_	_	_	_	
+44-2	4664-4665	P	_	_	_	_	_	_	_	
+44-3	4666-4669	IMM	_	_	_	_	_	_	_	
+44-4	4669-4670	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+45-1	4672-4685	Skräddarsydda	_	_	_	_	_	_	_	
+45-2	4686-4692	kurser	_	_	_	_	_	_	_	
+45-3	4693-4694	i	_	_	_	_	_	_	_	
+45-4	4695-4700	ämnen	_	_	_	_	_	_	_	
+45-5	4701-4704	som	_	_	_	_	_	_	_	
+45-6	4705-4716	intresserar	_	_	_	_	_	_	_	
+45-7	4717-4720	och	_	_	_	_	_	_	_	
+45-8	4721-4730	engagerar	_	_	_	_	_	_	_	
+45-9	4731-4735	både	_	_	_	_	_	_	_	
+45-10	4736-4741	kropp	_	_	_	_	_	_	_	
+45-11	4742-4745	och	_	_	_	_	_	_	_	
+45-12	4746-4750	själ	_	_	_	_	_	_	_	
+45-13	4750-4751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4753-4754	#	_	_	_	_	_	_	_	
+46-2	4754-4755	P	_	_	_	_	_	_	_	
+46-3	4756-4759	IMM	_	_	_	_	_	_	_	
+46-4	4759-4760	.	_	_	_	_	_	_	_	
+
+#Text=Detta är första gången som Världsbanken granskar ett land som Sverige på ett så omfattande sätt.
+47-1	4762-4767	Detta	_	_	_	_	_	_	_	
+47-2	4768-4770	är	_	_	_	_	_	_	_	
+47-3	4771-4777	första	_	_	_	_	_	_	_	
+47-4	4778-4784	gången	_	_	_	_	_	_	_	
+47-5	4785-4788	som	_	_	_	_	_	_	_	
+47-6	4789-4801	Världsbanken	_	_	_	_	_	_	_	
+47-7	4802-4810	granskar	_	_	_	_	_	_	_	
+47-8	4811-4814	ett	_	_	_	_	_	_	_	
+47-9	4815-4819	land	_	_	_	_	_	_	_	
+47-10	4820-4823	som	_	_	_	_	_	_	_	
+47-11	4824-4831	Sverige	_	_	_	_	_	_	_	
+47-12	4832-4834	på	_	_	_	_	_	_	_	
+47-13	4835-4838	ett	_	_	_	_	_	_	_	
+47-14	4839-4841	så	_	_	_	_	_	_	_	
+47-15	4842-4852	omfattande	_	_	_	_	_	_	_	
+47-16	4853-4857	sätt	_	_	_	_	_	_	_	
+47-17	4857-4858	.	_	_	_	_	_	_	_	
+
+#Text=Deras expertis kommer att vara en viktig hjälp för att identifiera problem för de svenska företagen och skapa förutsättningar för att utveckla regeringens politik ytterligare.
+48-1	4859-4864	Deras	*[31]	_	_	_	_	_	_	
+48-2	4865-4873	expertis	*[31]	_	_	_	_	_	_	
+48-3	4874-4880	kommer	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-4	4881-4884	att	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-5	4885-4889	vara	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-6	4890-4892	en	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-7	4893-4899	viktig	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-8	4900-4905	hjälp	_	Target[16]	48-1[31]	false[16]	4[16]	_	_	
+48-9	4906-4909	för	_	_	_	_	_	_	_	
+48-10	4910-4913	att	_	_	_	_	_	_	_	
+48-11	4914-4925	identifiera	_	_	_	_	_	_	_	
+48-12	4926-4933	problem	_	_	_	_	_	_	_	
+48-13	4934-4937	för	_	_	_	_	_	_	_	
+48-14	4938-4940	de	_	_	_	_	_	_	_	
+48-15	4941-4948	svenska	_	_	_	_	_	_	_	
+48-16	4949-4958	företagen	_	_	_	_	_	_	_	
+48-17	4959-4962	och	_	_	_	_	_	_	_	
+48-18	4963-4968	skapa	_	_	_	_	_	_	_	
+48-19	4969-4984	förutsättningar	_	_	_	_	_	_	_	
+48-20	4985-4988	för	_	_	_	_	_	_	_	
+48-21	4989-4992	att	_	_	_	_	_	_	_	
+48-22	4993-5001	utveckla	_	_	_	_	_	_	_	
+48-23	5002-5013	regeringens	_	_	_	_	_	_	_	
+48-24	5014-5021	politik	_	_	_	_	_	_	_	
+48-25	5022-5033	ytterligare	_	_	_	_	_	_	_	
+48-26	5033-5034	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	5036-5037	#	_	_	_	_	_	_	_	
+49-2	5037-5038	P	_	_	_	_	_	_	_	
+49-3	5039-5042	IMM	_	_	_	_	_	_	_	
+49-4	5042-5043	.	_	_	_	_	_	_	_	
+
+#Text=Att Sverige har klarat sig relativt bra genom den pågående krisen i Europa beror på kombinationen av starka offentliga finanser, en politik för att få fler i arbete och ett förbättrat företagsklimat.
+50-1	5045-5048	Att	_	_	_	_	_	_	_	
+50-2	5049-5056	Sverige	*	_	_	_	_	_	_	
+50-3	5057-5060	har	_	Target[17]	50-2	false[17]	4[17]	_	_	
+50-4	5061-5067	klarat	_	Target[17]	50-2	false[17]	4[17]	_	_	
+50-5	5068-5071	sig	_	Target[17]	50-2	false[17]	4[17]	_	_	
+50-6	5072-5080	relativt	_	Target[17]	50-2	false[17]	4[17]	_	_	
+50-7	5081-5084	bra	_	Target[17]	50-2	false[17]	4[17]	_	_	
+50-8	5085-5090	genom	_	_	_	_	_	_	_	
+50-9	5091-5094	den	_	_	_	_	_	_	_	
+50-10	5095-5103	pågående	_	_	_	_	_	_	_	
+50-11	5104-5110	krisen	_	_	_	_	_	_	_	
+50-12	5111-5112	i	_	_	_	_	_	_	_	
+50-13	5113-5119	Europa	_	_	_	_	_	_	_	
+50-14	5120-5125	beror	_	_	_	_	_	_	_	
+50-15	5126-5128	på	_	_	_	_	_	_	_	
+50-16	5129-5142	kombinationen	_	_	_	_	_	_	_	
+50-17	5143-5145	av	_	_	_	_	_	_	_	
+50-18	5146-5152	starka	_	Target	50-19[32]	false	4	_	_	
+50-19	5153-5163	offentliga	*[32]	_	_	_	_	_	_	
+50-20	5164-5172	finanser	*[32]	_	_	_	_	_	_	
+50-21	5172-5173	,	_	_	_	_	_	_	_	
+50-22	5174-5176	en	_	_	_	_	_	_	_	
+50-23	5177-5184	politik	_	_	_	_	_	_	_	
+50-24	5185-5188	för	_	_	_	_	_	_	_	
+50-25	5189-5192	att	_	_	_	_	_	_	_	
+50-26	5193-5195	få	_	_	_	_	_	_	_	
+50-27	5196-5200	fler	_	_	_	_	_	_	_	
+50-28	5201-5202	i	_	_	_	_	_	_	_	
+50-29	5203-5209	arbete	_	_	_	_	_	_	_	
+50-30	5210-5213	och	_	_	_	_	_	_	_	
+50-31	5214-5217	ett	_	_	_	_	_	_	_	
+50-32	5218-5228	förbättrat	_	Target	50-33	false	4	_	_	
+50-33	5229-5243	företagsklimat	*	_	_	_	_	_	_	
+50-34	5243-5244	.	_	_	_	_	_	_	_	
+
+#Text=Ska vi kunna fortsätta arbetet med att pressa ned arbetslösheten, öka sysselsättningen och säkra att de som i dag står långt från arbetsmarknaden ges ökade möjligheter att komma in på arbetsmarknaden krävs det en politik som sätter jobben först.
+51-1	5245-5248	Ska	_	_	_	_	_	_	_	
+51-2	5249-5251	vi	_	_	_	_	_	_	_	
+51-3	5252-5257	kunna	_	_	_	_	_	_	_	
+51-4	5258-5267	fortsätta	_	_	_	_	_	_	_	
+51-5	5268-5275	arbetet	_	_	_	_	_	_	_	
+51-6	5276-5279	med	_	_	_	_	_	_	_	
+51-7	5280-5283	att	_	_	_	_	_	_	_	
+51-8	5284-5290	pressa	_	_	_	_	_	_	_	
+51-9	5291-5294	ned	_	_	_	_	_	_	_	
+51-10	5295-5309	arbetslösheten	_	_	_	_	_	_	_	
+51-11	5309-5310	,	_	_	_	_	_	_	_	
+51-12	5311-5314	öka	_	_	_	_	_	_	_	
+51-13	5315-5331	sysselsättningen	_	_	_	_	_	_	_	
+51-14	5332-5335	och	_	_	_	_	_	_	_	
+51-15	5336-5341	säkra	_	_	_	_	_	_	_	
+51-16	5342-5345	att	_	_	_	_	_	_	_	
+51-17	5346-5348	de	_	_	_	_	_	_	_	
+51-18	5349-5352	som	_	_	_	_	_	_	_	
+51-19	5353-5354	i	_	_	_	_	_	_	_	
+51-20	5355-5358	dag	_	_	_	_	_	_	_	
+51-21	5359-5363	står	_	_	_	_	_	_	_	
+51-22	5364-5369	långt	_	_	_	_	_	_	_	
+51-23	5370-5374	från	_	_	_	_	_	_	_	
+51-24	5375-5390	arbetsmarknaden	_	_	_	_	_	_	_	
+51-25	5391-5394	ges	_	_	_	_	_	_	_	
+51-26	5395-5400	ökade	_	_	_	_	_	_	_	
+51-27	5401-5412	möjligheter	_	_	_	_	_	_	_	
+51-28	5413-5416	att	_	_	_	_	_	_	_	
+51-29	5417-5422	komma	_	_	_	_	_	_	_	
+51-30	5423-5425	in	_	_	_	_	_	_	_	
+51-31	5426-5428	på	_	_	_	_	_	_	_	
+51-32	5429-5444	arbetsmarknaden	_	_	_	_	_	_	_	
+51-33	5445-5450	krävs	_	_	_	_	_	_	_	
+51-34	5451-5454	det	_	_	_	_	_	_	_	
+51-35	5455-5457	en	_	_	_	_	_	_	_	
+51-36	5458-5465	politik	_	_	_	_	_	_	_	
+51-37	5466-5469	som	_	_	_	_	_	_	_	
+51-38	5470-5476	sätter	_	_	_	_	_	_	_	
+51-39	5477-5483	jobben	_	_	_	_	_	_	_	
+51-40	5484-5489	först	_	_	_	_	_	_	_	
+51-41	5489-5490	.	_	_	_	_	_	_	_	
+
+#Text=Världsbankens omfattande granskning av företagens villkor i Sverige och hur de kan förbättras kommer att vara ett viktigt bidrag i utformningen av alliansens fortsatta politik för fler jobb och för att förstärka Sveriges starka position ytterligare.
+52-1	5491-5504	Världsbankens	_	_	_	_	_	_	_	
+52-2	5505-5515	omfattande	_	_	_	_	_	_	_	
+52-3	5516-5526	granskning	_	_	_	_	_	_	_	
+52-4	5527-5529	av	_	_	_	_	_	_	_	
+52-5	5530-5540	företagens	_	_	_	_	_	_	_	
+52-6	5541-5548	villkor	_	_	_	_	_	_	_	
+52-7	5549-5550	i	_	_	_	_	_	_	_	
+52-8	5551-5558	Sverige	_	_	_	_	_	_	_	
+52-9	5559-5562	och	_	_	_	_	_	_	_	
+52-10	5563-5566	hur	_	_	_	_	_	_	_	
+52-11	5567-5569	de	_	_	_	_	_	_	_	
+52-12	5570-5573	kan	_	_	_	_	_	_	_	
+52-13	5574-5584	förbättras	_	_	_	_	_	_	_	
+52-14	5585-5591	kommer	_	_	_	_	_	_	_	
+52-15	5592-5595	att	_	_	_	_	_	_	_	
+52-16	5596-5600	vara	_	_	_	_	_	_	_	
+52-17	5601-5604	ett	_	_	_	_	_	_	_	
+52-18	5605-5612	viktigt	_	_	_	_	_	_	_	
+52-19	5613-5619	bidrag	_	_	_	_	_	_	_	
+52-20	5620-5621	i	_	_	_	_	_	_	_	
+52-21	5622-5634	utformningen	_	_	_	_	_	_	_	
+52-22	5635-5637	av	_	_	_	_	_	_	_	
+52-23	5638-5648	alliansens	_	_	_	_	_	_	_	
+52-24	5649-5658	fortsatta	_	_	_	_	_	_	_	
+52-25	5659-5666	politik	_	_	_	_	_	_	_	
+52-26	5667-5670	för	_	_	_	_	_	_	_	
+52-27	5671-5675	fler	_	_	_	_	_	_	_	
+52-28	5676-5680	jobb	_	_	_	_	_	_	_	
+52-29	5681-5684	och	_	_	_	_	_	_	_	
+52-30	5685-5688	för	_	_	_	_	_	_	_	
+52-31	5689-5692	att	_	_	_	_	_	_	_	
+52-32	5693-5702	förstärka	_	_	_	_	_	_	_	
+52-33	5703-5711	Sveriges	_	_	_	_	_	_	_	
+52-34	5712-5718	starka	_	_	_	_	_	_	_	
+52-35	5719-5727	position	_	_	_	_	_	_	_	
+52-36	5728-5739	ytterligare	_	_	_	_	_	_	_	
+52-37	5739-5740	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	5742-5743	#	_	_	_	_	_	_	_	
+53-2	5743-5744	P	_	_	_	_	_	_	_	
+53-3	5745-5748	IMM	_	_	_	_	_	_	_	
+53-4	5748-5749	.	_	_	_	_	_	_	_	
+
+#Text=ANDERS BORG (M).
+54-1	5751-5757	ANDERS	_	_	_	_	_	_	_	
+54-2	5758-5762	BORG	_	_	_	_	_	_	_	
+54-3	5763-5764	(	_	_	_	_	_	_	_	
+54-4	5764-5765	M	_	_	_	_	_	_	_	
+54-5	5765-5766	)	_	_	_	_	_	_	_	
+54-6	5766-5767	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	5769-5770	#	_	_	_	_	_	_	_	
+55-2	5770-5771	P	_	_	_	_	_	_	_	
+55-3	5772-5775	IMM	_	_	_	_	_	_	_	
+55-4	5775-5776	.	_	_	_	_	_	_	_	
+
+#Text=finansminister.
+56-1	5778-5792	finansminister	_	_	_	_	_	_	_	
+56-2	5792-5793	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	5795-5796	#	_	_	_	_	_	_	_	
+57-2	5796-5797	P	_	_	_	_	_	_	_	
+57-3	5798-5801	IMM	_	_	_	_	_	_	_	
+57-4	5801-5802	.	_	_	_	_	_	_	_	
+
+#Text=ANNIE LÖÖF (C).
+58-1	5804-5809	ANNIE	_	_	_	_	_	_	_	
+58-2	5810-5814	LÖÖF	_	_	_	_	_	_	_	
+58-3	5815-5816	(	_	_	_	_	_	_	_	
+58-4	5816-5817	C	_	_	_	_	_	_	_	
+58-5	5817-5818	)	_	_	_	_	_	_	_	
+58-6	5818-5819	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	5821-5822	#	_	_	_	_	_	_	_	
+59-2	5822-5823	P	_	_	_	_	_	_	_	
+59-3	5824-5827	IMM	_	_	_	_	_	_	_	
+59-4	5827-5828	.	_	_	_	_	_	_	_	
+
+#Text=näringsminister.
+60-1	5830-5845	näringsminister	_	_	_	_	_	_	_	
+60-2	5845-5846	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	5848-5849	#	_	_	_	_	_	_	_	
+61-2	5849-5850	P	_	_	_	_	_	_	_	
+61-3	5851-5854	IMM	_	_	_	_	_	_	_	
+61-4	5854-5855	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+62-1	5857-5865	Redaktör	_	_	_	_	_	_	_	
+62-2	5865-5866	:	_	_	_	_	_	_	_	
+62-3	5867-5873	Carina	_	_	_	_	_	_	_	
+62-4	5874-5882	Stensson	_	_	_	_	_	_	_	
+62-5	5882-5883	,	_	_	_	_	_	_	_	
+62-6	5884-5894	Biträdande	_	_	_	_	_	_	_	
+62-7	5895-5903	redaktör	_	_	_	_	_	_	_	
+62-8	5903-5904	:	_	_	_	_	_	_	_	
+62-9	5905-5910	Björn	_	_	_	_	_	_	_	
+62-10	5911-5917	Jorner	_	_	_	_	_	_	_	
+62-11	5917-5918	,	_	_	_	_	_	_	_	
+62-12	5919-5923	Mejl	_	_	_	_	_	_	_	
+62-13	5923-5924	:	_	_	_	_	_	_	_	
+62-14	5925-5931	debatt	_	_	_	_	_	_	_	
+62-15	5931-5932	@	_	_	_	_	_	_	_	
+62-16	5932-5938	svd.se	_	_	_	_	_	_	_	
+62-17	5938-5939	,	_	_	_	_	_	_	_	
+62-18	5940-5953	Telefonnummer	_	_	_	_	_	_	_	
+62-19	5953-5954	:	_	_	_	_	_	_	_	
+62-20	5955-5957	08	_	_	_	_	_	_	_	
+62-21	5957-5958	-	_	_	_	_	_	_	_	
+62-22	5958-5964	135149	_	_	_	_	_	_	_	
+62-23	5964-5965	,	_	_	_	_	_	_	_	
+62-24	5966-5973	Twitter	_	_	_	_	_	_	_	
+62-25	5973-5974	:	_	_	_	_	_	_	_	
+62-26	5975-5976	@	_	_	_	_	_	_	_	
+62-27	5976-5985	SvDDebatt	_	_	_	_	_	_	_	
+62-28	5985-5986	,	_	_	_	_	_	_	_	
+62-29	5987-5995	Facebook	_	_	_	_	_	_	_	
+62-30	5995-5996	:	_	_	_	_	_	_	_	
+62-31	5997-6000	SvD	_	_	_	_	_	_	_	
+62-32	6001-6007	Debatt	_	_	_	_	_	_	_	
+62-33	6007-6008	.	_	_	_	_	_	_	_	

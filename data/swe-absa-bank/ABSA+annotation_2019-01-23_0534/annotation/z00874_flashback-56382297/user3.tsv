@@ -1,0 +1,557 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Roten till våra problem: Det saknas maskulinitet i svensk politik!
+3-1	18-23	Roten	_	Target[1]	3-6[25]	false[1]	2[1]	_	_	
+3-2	24-28	till	_	Target[1]	3-6[25]	false[1]	2[1]	_	_	
+3-3	29-33	våra	_	Target[1]	3-6[25]	false[1]	2[1]	_	_	
+3-4	34-41	problem	_	Target[1]	3-6[25]	false[1]	2[1]	_	_	
+3-5	41-42	:	_	_	_	_	_	_	_	
+3-6	43-46	Det	*[25]	_	_	_	_	_	_	
+3-7	47-53	saknas	*[25]	_	_	_	_	_	_	
+3-8	54-66	maskulinitet	*[25]	_	_	_	_	_	_	
+3-9	67-68	i	*[25]	_	_	_	_	_	_	
+3-10	69-75	svensk	*[25]	_	_	_	_	_	_	
+3-11	76-83	politik	*[25]	_	_	_	_	_	_	
+3-12	83-84	!	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	86-87	#	_	_	_	_	_	_	_	
+4-2	87-88	P	_	_	_	_	_	_	_	
+4-3	89-92	IMM	_	_	_	_	_	_	_	
+4-4	92-93	.	_	_	_	_	_	_	_	
+
+#Text=Det bör väl inte komma som en nyhet för någon att svenska politiker helt och håller saknar all form av handlingskraft.
+5-1	95-98	Det	_	_	_	_	_	_	_	
+5-2	99-102	bör	_	_	_	_	_	_	_	
+5-3	103-106	väl	_	_	_	_	_	_	_	
+5-4	107-111	inte	_	_	_	_	_	_	_	
+5-5	112-117	komma	_	_	_	_	_	_	_	
+5-6	118-121	som	_	_	_	_	_	_	_	
+5-7	122-124	en	_	_	_	_	_	_	_	
+5-8	125-130	nyhet	_	_	_	_	_	_	_	
+5-9	131-134	för	_	_	_	_	_	_	_	
+5-10	135-140	någon	_	_	_	_	_	_	_	
+5-11	141-144	att	_	_	_	_	_	_	_	
+5-12	145-152	svenska	*[26]	_	_	_	_	_	_	
+5-13	153-162	politiker	*[26]	_	_	_	_	_	_	
+5-14	163-167	helt	_	_	_	_	_	_	_	
+5-15	168-171	och	_	_	_	_	_	_	_	
+5-16	172-178	håller	_	_	_	_	_	_	_	
+5-17	179-185	saknar	_	Target[2]	5-12[26]	false[2]	2[2]	_	_	
+5-18	186-189	all	_	Target[2]	5-12[26]	false[2]	2[2]	_	_	
+5-19	190-194	form	_	Target[2]	5-12[26]	false[2]	2[2]	_	_	
+5-20	195-197	av	_	Target[2]	5-12[26]	false[2]	2[2]	_	_	
+5-21	198-212	handlingskraft	_	Target[2]	5-12[26]	false[2]	2[2]	_	_	
+5-22	212-213	.	_	_	_	_	_	_	_	
+
+#Text=Det ska analyseras, föras dialog och daltas i all evighet utan att något faktiskt händer i verkligheten.
+6-1	214-217	Det	_	_	_	_	_	_	_	
+6-2	218-221	ska	_	_	_	_	_	_	_	
+6-3	222-232	analyseras	_	_	_	_	_	_	_	
+6-4	232-233	,	_	_	_	_	_	_	_	
+6-5	234-239	föras	_	_	_	_	_	_	_	
+6-6	240-246	dialog	_	_	_	_	_	_	_	
+6-7	247-250	och	_	_	_	_	_	_	_	
+6-8	251-257	daltas	_	_	_	_	_	_	_	
+6-9	258-259	i	_	_	_	_	_	_	_	
+6-10	260-263	all	_	_	_	_	_	_	_	
+6-11	264-271	evighet	_	_	_	_	_	_	_	
+6-12	272-276	utan	_	_	_	_	_	_	_	
+6-13	277-280	att	_	_	_	_	_	_	_	
+6-14	281-286	något	_	_	_	_	_	_	_	
+6-15	287-295	faktiskt	_	_	_	_	_	_	_	
+6-16	296-302	händer	_	_	_	_	_	_	_	
+6-17	303-304	i	_	_	_	_	_	_	_	
+6-18	305-317	verkligheten	_	_	_	_	_	_	_	
+6-19	317-318	.	_	_	_	_	_	_	_	
+
+#Text=Ett nytt och fräscht exempel kan man läsa om här.
+7-1	319-322	Ett	_	_	_	_	_	_	_	
+7-2	323-327	nytt	_	_	_	_	_	_	_	
+7-3	328-331	och	_	_	_	_	_	_	_	
+7-4	332-339	fräscht	_	_	_	_	_	_	_	
+7-5	340-347	exempel	_	_	_	_	_	_	_	
+7-6	348-351	kan	_	_	_	_	_	_	_	
+7-7	352-355	man	_	_	_	_	_	_	_	
+7-8	356-360	läsa	_	_	_	_	_	_	_	
+7-9	361-363	om	_	_	_	_	_	_	_	
+7-10	364-367	här	_	_	_	_	_	_	_	
+7-11	367-368	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	370-371	#	_	_	_	_	_	_	_	
+8-2	371-372	P	_	_	_	_	_	_	_	
+8-3	373-376	IMM	_	_	_	_	_	_	_	
+8-4	376-377	.	_	_	_	_	_	_	_	
+
+#Text=där det "komplexa" problemet att zigenare sitter och skiter på kyrkogårdar tydligen är ytterst svårt att åtgärda och man istället ska föra dialog och utvärdera parkeringens storlek, som om man inte bara kunde avhysa zigenarna från platsen?.
+9-1	379-382	där	_	_	_	_	_	_	_	
+9-2	383-386	det	_	_	_	_	_	_	_	
+9-3	387-388	"	_	_	_	_	_	_	_	
+9-4	388-396	komplexa	_	Target[3]	9-8[27]	false[3]	2[3]	_	_	
+9-5	396-397	"	_	Target[3]	9-8[27]	false[3]	2[3]	_	_	
+9-6	398-407	problemet	_	Target[3]	9-8[27]	false[3]	2[3]	_	_	
+9-7	408-411	att	_	_	_	_	_	_	_	
+9-8	412-420	zigenare	*[27]	_	_	_	_	_	_	
+9-9	421-427	sitter	*[27]	_	_	_	_	_	_	
+9-10	428-431	och	*[27]	_	_	_	_	_	_	
+9-11	432-438	skiter	*[27]	_	_	_	_	_	_	
+9-12	439-441	på	*[27]	_	_	_	_	_	_	
+9-13	442-453	kyrkogårdar	*[27]	_	_	_	_	_	_	
+9-14	454-462	tydligen	_	_	_	_	_	_	_	
+9-15	463-465	är	_	_	_	_	_	_	_	
+9-16	466-473	ytterst	_	_	_	_	_	_	_	
+9-17	474-479	svårt	_	_	_	_	_	_	_	
+9-18	480-483	att	_	_	_	_	_	_	_	
+9-19	484-491	åtgärda	_	_	_	_	_	_	_	
+9-20	492-495	och	_	_	_	_	_	_	_	
+9-21	496-499	man	_	_	_	_	_	_	_	
+9-22	500-508	istället	_	_	_	_	_	_	_	
+9-23	509-512	ska	_	_	_	_	_	_	_	
+9-24	513-517	föra	_	_	_	_	_	_	_	
+9-25	518-524	dialog	_	_	_	_	_	_	_	
+9-26	525-528	och	_	_	_	_	_	_	_	
+9-27	529-538	utvärdera	_	_	_	_	_	_	_	
+9-28	539-551	parkeringens	_	_	_	_	_	_	_	
+9-29	552-559	storlek	_	_	_	_	_	_	_	
+9-30	559-560	,	_	_	_	_	_	_	_	
+9-31	561-564	som	_	_	_	_	_	_	_	
+9-32	565-567	om	_	_	_	_	_	_	_	
+9-33	568-571	man	_	_	_	_	_	_	_	
+9-34	572-576	inte	_	_	_	_	_	_	_	
+9-35	577-581	bara	_	_	_	_	_	_	_	
+9-36	582-587	kunde	_	_	_	_	_	_	_	
+9-37	588-594	avhysa	_	_	_	_	_	_	_	
+9-38	595-604	zigenarna	*	Target	9-38	false	2	_	_	
+9-39	605-609	från	_	_	_	_	_	_	_	
+9-40	610-617	platsen	_	_	_	_	_	_	_	
+9-41	617-618	?	_	_	_	_	_	_	_	
+9-42	618-619	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	621-622	#	_	_	_	_	_	_	_	
+10-2	622-623	P	_	_	_	_	_	_	_	
+10-3	624-627	IMM	_	_	_	_	_	_	_	
+10-4	627-628	.	_	_	_	_	_	_	_	
+
+#Text=Många skulle säga att svenska politiker beter sig som kärringar och det är faktiskt precis just vad de gör.
+11-1	630-635	Många	_	_	_	_	_	_	_	
+11-2	636-642	skulle	_	_	_	_	_	_	_	
+11-3	643-647	säga	_	_	_	_	_	_	_	
+11-4	648-651	att	_	_	_	_	_	_	_	
+11-5	652-659	svenska	*[28]	_	_	_	_	_	_	
+11-6	660-669	politiker	*[28]	_	_	_	_	_	_	
+11-7	670-675	beter	_	Target[4]	11-5[28]	false[4]	1[4]	_	_	
+11-8	676-679	sig	_	Target[4]	11-5[28]	false[4]	1[4]	_	_	
+11-9	680-683	som	_	Target[4]	11-5[28]	false[4]	1[4]	_	_	
+11-10	684-693	kärringar	_	Target[4]	11-5[28]	false[4]	1[4]	_	_	
+11-11	694-697	och	_	_	_	_	_	_	_	
+11-12	698-701	det	_	_	_	_	_	_	_	
+11-13	702-704	är	_	_	_	_	_	_	_	
+11-14	705-713	faktiskt	_	_	_	_	_	_	_	
+11-15	714-720	precis	_	_	_	_	_	_	_	
+11-16	721-725	just	_	_	_	_	_	_	_	
+11-17	726-729	vad	_	_	_	_	_	_	_	
+11-18	730-732	de	_	_	_	_	_	_	_	
+11-19	733-736	gör	_	_	_	_	_	_	_	
+11-20	736-737	.	_	_	_	_	_	_	_	
+
+#Text=Konflikträdsla, handlingsförlamning och daltande är typiskt kvinnliga attribut.
+12-1	738-752	Konflikträdsla	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-2	752-753	,	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-3	754-773	handlingsförlamning	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-4	774-777	och	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-5	778-786	daltande	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-6	787-789	är	_	Target[5]	12-8[29]	false[5]	2[5]	_	_	
+12-7	790-797	typiskt	_	_	_	_	_	_	_	
+12-8	798-807	kvinnliga	*[29]	_	_	_	_	_	_	
+12-9	808-816	attribut	*[29]	_	_	_	_	_	_	
+12-10	816-817	.	_	_	_	_	_	_	_	
+
+#Text=Nu kan förvisso delar av problemet förklaras av att faktiskt hälften av våra politiker är just kärringar och det stämmer att det är en jävla skam att kvinnor överhuvudtaget har släppts in i politiken då de generellt inte är gjorde för att styra eller fatta tuffa beslut (såklart det finns undantag typ Thatcher men i regel) men det räcker faktiskt inte alls som förklaring.
+13-1	818-820	Nu	_	_	_	_	_	_	_	
+13-2	821-824	kan	_	_	_	_	_	_	_	
+13-3	825-833	förvisso	_	_	_	_	_	_	_	
+13-4	834-839	delar	_	_	_	_	_	_	_	
+13-5	840-842	av	_	_	_	_	_	_	_	
+13-6	843-852	problemet	_	_	_	_	_	_	_	
+13-7	853-862	förklaras	_	_	_	_	_	_	_	
+13-8	863-865	av	_	_	_	_	_	_	_	
+13-9	866-869	att	_	_	_	_	_	_	_	
+13-10	870-878	faktiskt	_	_	_	_	_	_	_	
+13-11	879-886	hälften	*[30]	_	_	_	_	_	_	
+13-12	887-889	av	*[30]	_	_	_	_	_	_	
+13-13	890-894	våra	*[30]	_	_	_	_	_	_	
+13-14	895-904	politiker	*[30]	_	_	_	_	_	_	
+13-15	905-907	är	_	_	_	false	1	_	_	
+13-16	908-912	just	_	_	_	_	_	_	_	
+13-17	913-922	kärringar	_	Target	13-11[30]	false	1	13-15	_	
+13-18	923-926	och	_	_	_	_	_	_	_	
+13-19	927-930	det	_	_	_	_	_	_	_	
+13-20	931-938	stämmer	_	_	_	_	_	_	_	
+13-21	939-942	att	_	_	_	_	_	_	_	
+13-22	943-946	det	_	_	_	_	_	_	_	
+13-23	947-949	är	_	Target[6]	13-27[31]	false[6]	1[6]	_	_	
+13-24	950-952	en	_	Target[6]	13-27[31]	false[6]	1[6]	_	_	
+13-25	953-958	jävla	_	Target[6]	13-27[31]	false[6]	1[6]	_	_	
+13-26	959-963	skam	_	Target[6]	13-27[31]	false[6]	1[6]	_	_	
+13-27	964-967	att	*[31]	_	_	_	_	_	_	
+13-28	968-975	kvinnor	*[31]	_	_	_	_	_	_	
+13-29	976-990	överhuvudtaget	*[31]	_	_	_	_	_	_	
+13-30	991-994	har	*[31]	_	_	_	_	_	_	
+13-31	995-1002	släppts	*[31]	_	_	_	_	_	_	
+13-32	1003-1005	in	*[31]	_	_	_	_	_	_	
+13-33	1006-1007	i	*[31]	_	_	_	_	_	_	
+13-34	1008-1017	politiken	*[31]	_	_	_	_	_	_	
+13-35	1018-1020	då	_	_	_	_	_	_	_	
+13-36	1021-1023	de	_	_	_	_	_	_	_	
+13-37	1024-1033	generellt	_	_	_	_	_	_	_	
+13-38	1034-1038	inte	_	_	_	_	_	_	_	
+13-39	1039-1041	är	_	_	_	_	_	_	_	
+13-40	1042-1048	gjorde	_	_	_	_	_	_	_	
+13-41	1049-1052	för	_	_	_	_	_	_	_	
+13-42	1053-1056	att	_	_	_	_	_	_	_	
+13-43	1057-1062	styra	_	_	_	_	_	_	_	
+13-44	1063-1068	eller	_	_	_	_	_	_	_	
+13-45	1069-1074	fatta	_	_	_	_	_	_	_	
+13-46	1075-1080	tuffa	_	_	_	_	_	_	_	
+13-47	1081-1087	beslut	_	_	_	_	_	_	_	
+13-48	1088-1089	(	_	_	_	_	_	_	_	
+13-49	1089-1096	såklart	_	_	_	_	_	_	_	
+13-50	1097-1100	det	_	_	_	_	_	_	_	
+13-51	1101-1106	finns	_	_	_	_	_	_	_	
+13-52	1107-1115	undantag	_	_	_	_	_	_	_	
+13-53	1116-1119	typ	_	_	_	_	_	_	_	
+13-54	1120-1128	Thatcher	_	_	_	_	_	_	_	
+13-55	1129-1132	men	_	_	_	_	_	_	_	
+13-56	1133-1134	i	_	_	_	_	_	_	_	
+13-57	1135-1140	regel	_	_	_	_	_	_	_	
+13-58	1140-1141	)	_	_	_	_	_	_	_	
+13-59	1142-1145	men	_	_	_	_	_	_	_	
+13-60	1146-1149	det	_	_	_	_	_	_	_	
+13-61	1150-1156	räcker	_	_	_	_	_	_	_	
+13-62	1157-1165	faktiskt	_	_	_	_	_	_	_	
+13-63	1166-1170	inte	_	_	_	_	_	_	_	
+13-64	1171-1175	alls	_	_	_	_	_	_	_	
+13-65	1176-1179	som	_	_	_	_	_	_	_	
+13-66	1180-1190	förklaring	_	_	_	_	_	_	_	
+13-67	1190-1191	.	_	_	_	_	_	_	_	
+
+#Text=Svenska manliga politiker beter sig också så fjolligt att man skäms över att se på spektaklet.
+14-1	1192-1199	Svenska	*[32]	_	_	_	_	_	_	
+14-2	1200-1207	manliga	*[32]	_	_	_	_	_	_	
+14-3	1208-1217	politiker	*[32]	_	_	_	_	_	_	
+14-4	1218-1223	beter	_	Target[7]	14-1[32]	false[7]	1[7]	_	_	
+14-5	1224-1227	sig	_	Target[7]	14-1[32]	false[7]	1[7]	_	_	
+14-6	1228-1233	också	_	Target[7]	14-1[32]	false[7]	1[7]	_	_	
+14-7	1234-1236	så	_	Target[7]	14-1[32]	false[7]	1[7]	_	_	
+14-8	1237-1245	fjolligt	_	Target[7]	14-1[32]	false[7]	1[7]	_	_	
+14-9	1246-1249	att	_	_	_	_	_	_	_	
+14-10	1250-1253	man	_	_	_	_	_	_	_	
+14-11	1254-1259	skäms	_	Target[8]	14-16	false[8]	2[8]	_	_	
+14-12	1260-1264	över	_	Target[8]	14-16	false[8]	2[8]	_	_	
+14-13	1265-1268	att	_	Target[8]	14-16	false[8]	2[8]	_	_	
+14-14	1269-1271	se	_	Target[8]	14-16	false[8]	2[8]	_	_	
+14-15	1272-1274	på	_	Target[8]	14-16	false[8]	2[8]	_	_	
+14-16	1275-1285	spektaklet	*	Target[8]	14-16	false[8]	2[8]	_	_	
+14-17	1285-1286	.	_	_	_	_	_	_	_	
+
+#Text=Inte heller är det enbart ett vänsterproblem även fast det såklart är sant att vänstermän når helt nya nivåer av svaghet.
+15-1	1287-1291	Inte	_	_	_	_	_	_	_	
+15-2	1292-1298	heller	_	_	_	_	_	_	_	
+15-3	1299-1301	är	_	_	_	_	_	_	_	
+15-4	1302-1305	det	_	_	_	_	_	_	_	
+15-5	1306-1312	enbart	_	_	_	_	_	_	_	
+15-6	1313-1316	ett	_	_	_	_	_	_	_	
+15-7	1317-1331	vänsterproblem	_	_	_	_	_	_	_	
+15-8	1332-1336	även	_	_	_	_	_	_	_	
+15-9	1337-1341	fast	_	_	_	_	_	_	_	
+15-10	1342-1345	det	_	_	_	_	_	_	_	
+15-11	1346-1353	såklart	_	_	_	_	_	_	_	
+15-12	1354-1356	är	_	_	_	_	_	_	_	
+15-13	1357-1361	sant	_	_	_	_	_	_	_	
+15-14	1362-1365	att	_	_	_	_	_	_	_	
+15-15	1366-1376	vänstermän	*	_	_	_	_	_	_	
+15-16	1377-1380	når	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-17	1381-1385	helt	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-18	1386-1389	nya	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-19	1390-1396	nivåer	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-20	1397-1399	av	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-21	1400-1407	svaghet	_	Target[9]	15-15	false[9]	1[9]	_	_	
+15-22	1407-1408	.	_	_	_	_	_	_	_	
+
+#Text=Nej även i SD kan vi se samma tecken som i sjuklövern.
+16-1	1409-1412	Nej	_	_	_	_	_	_	_	
+16-2	1413-1417	även	_	_	_	_	_	_	_	
+16-3	1418-1419	i	_	_	_	_	_	_	_	
+16-4	1420-1422	SD	_	_	_	_	_	_	_	
+16-5	1423-1426	kan	_	_	_	_	_	_	_	
+16-6	1427-1429	vi	_	_	_	_	_	_	_	
+16-7	1430-1432	se	_	_	_	_	_	_	_	
+16-8	1433-1438	samma	_	_	_	_	_	_	_	
+16-9	1439-1445	tecken	_	_	_	_	_	_	_	
+16-10	1446-1449	som	_	_	_	_	_	_	_	
+16-11	1450-1451	i	_	_	_	_	_	_	_	
+16-12	1452-1462	sjuklövern	_	_	_	_	_	_	_	
+16-13	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Jimmie Åkesson var förvisso en relativt frisk fläkt av något som liknade manlighet under många år då han vågade säga obekväma sanningar, faktiskt erbjöd riktiga lösningar och stod upp mot strömmen men han verkar ha tröttnat helt och håller de senaste åren och en vettig efterträdare (betahannen Karlsson är ett skämt) lyser med sin frånvaro.
+17-1	1464-1470	Jimmie	*[33]|*[34]|*[35]	_	_	_	_	_	17-34[0_35]	
+17-2	1471-1478	Åkesson	*[33]|*[34]|*[35]	_	_	_	_	_	_	
+17-3	1479-1482	var	_	_	_	_	_	_	_	
+17-4	1483-1491	förvisso	_	_	_	_	_	_	_	
+17-5	1492-1494	en	_	_	_	_	_	_	_	
+17-6	1495-1503	relativt	_	_	_	_	_	_	_	
+17-7	1504-1509	frisk	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-8	1510-1515	fläkt	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-9	1516-1518	av	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-10	1519-1524	något	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-11	1525-1528	som	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-12	1529-1536	liknade	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-13	1537-1546	manlighet	_	Target[10]	17-1[33]	false[10]	4[10]	_	_	
+17-14	1547-1552	under	_	_	_	_	_	_	_	
+17-15	1553-1558	många	_	_	_	_	_	_	_	
+17-16	1559-1561	år	_	_	_	_	_	_	_	
+17-17	1562-1564	då	_	_	_	_	_	_	_	
+17-18	1565-1568	han	_	_	_	_	_	_	_	
+17-19	1569-1575	vågade	_	_	_	_	_	_	_	
+17-20	1576-1580	säga	_	_	_	_	_	_	_	
+17-21	1581-1589	obekväma	_	_	_	_	_	_	_	
+17-22	1590-1599	sanningar	_	_	_	_	_	_	_	
+17-23	1599-1600	,	_	_	_	_	_	_	_	
+17-24	1601-1609	faktiskt	_	_	_	_	_	_	_	
+17-25	1610-1616	erbjöd	_	Target[11]	17-1[34]	false[11]	4[11]	_	_	
+17-26	1617-1624	riktiga	_	Target[11]	17-1[34]	false[11]	4[11]	_	_	
+17-27	1625-1634	lösningar	_	Target[11]	17-1[34]	false[11]	4[11]	_	_	
+17-28	1635-1638	och	_	_	_	_	_	_	_	
+17-29	1639-1643	stod	_	_	_	_	_	_	_	
+17-30	1644-1647	upp	_	_	_	_	_	_	_	
+17-31	1648-1651	mot	_	_	_	_	_	_	_	
+17-32	1652-1660	strömmen	_	_	_	_	_	_	_	
+17-33	1661-1664	men	_	_	_	_	_	_	_	
+17-34	1665-1668	han	*	_	_	_	_	_	_	
+17-35	1669-1675	verkar	_	Target[12]	17-34	false[12]	2[12]	_	_	
+17-36	1676-1678	ha	_	Target[12]	17-34	false[12]	2[12]	_	_	
+17-37	1679-1687	tröttnat	_	Target[12]	17-34	false[12]	2[12]	_	_	
+17-38	1688-1692	helt	_	Target[12]	17-34	false[12]	2[12]	_	_	
+17-39	1693-1696	och	_	_	_	_	_	_	_	
+17-40	1697-1703	håller	_	_	_	_	_	_	_	
+17-41	1704-1706	de	_	_	_	_	_	_	_	
+17-42	1707-1714	senaste	_	_	_	_	_	_	_	
+17-43	1715-1719	åren	_	_	_	_	_	_	_	
+17-44	1720-1723	och	_	_	_	_	_	_	_	
+17-45	1724-1726	en	_	_	_	_	_	_	_	
+17-46	1727-1733	vettig	_	_	_	_	_	_	_	
+17-47	1734-1746	efterträdare	_	_	_	_	_	_	_	
+17-48	1747-1748	(	_	_	_	_	_	_	_	
+17-49	1748-1758	betahannen	_	Target[13]	17-50	false[13]	1[13]	_	_	
+17-50	1759-1767	Karlsson	*	Target[13]	17-50	false[13]	1[13]	_	_	
+17-51	1768-1770	är	_	Target[13]	17-50	false[13]	1[13]	_	_	
+17-52	1771-1774	ett	_	Target[13]	17-50	false[13]	1[13]	_	_	
+17-53	1775-1780	skämt	_	Target[13]	17-50	false[13]	1[13]	_	_	
+17-54	1780-1781	)	_	_	_	_	_	_	_	
+17-55	1782-1787	lyser	_	_	_	_	_	_	_	
+17-56	1788-1791	med	_	_	_	_	_	_	_	
+17-57	1792-1795	sin	_	_	_	_	_	_	_	
+17-58	1796-1804	frånvaro	_	_	_	_	_	_	_	
+17-59	1804-1805	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1807-1808	#	_	_	_	_	_	_	_	
+18-2	1808-1809	P	_	_	_	_	_	_	_	
+18-3	1810-1813	IMM	_	_	_	_	_	_	_	
+18-4	1813-1814	.	_	_	_	_	_	_	_	
+
+#Text=Nej detta problem skulle jag snarare säga är rotat i den moderna svenska mentaliteten.
+19-1	1816-1819	Nej	_	_	_	_	_	_	_	
+19-2	1820-1825	detta	_	Source;Target[14]	19-5;19-15	false[14]	2[14]	_	_	
+19-3	1826-1833	problem	_	Source;Target[14]	19-5;19-15	false[14]	2[14]	_	_	
+19-4	1834-1840	skulle	_	_	_	_	_	_	_	
+19-5	1841-1844	jag	*	_	_	_	_	_	_	
+19-6	1845-1852	snarare	_	_	_	_	_	_	_	
+19-7	1853-1857	säga	_	_	_	_	_	_	_	
+19-8	1858-1860	är	_	_	_	_	_	_	_	
+19-9	1861-1866	rotat	_	_	_	_	_	_	_	
+19-10	1867-1868	i	_	_	_	_	_	_	_	
+19-11	1869-1872	den	_	_	_	_	_	_	_	
+19-12	1873-1880	moderna	_	_	_	_	_	_	_	
+19-13	1881-1888	svenska	_	_	_	_	_	_	_	
+19-14	1889-1901	mentaliteten	_	_	_	_	_	_	_	
+19-15	1901-1902	.	*	_	_	_	_	_	_	
+
+#Text=Konflikträdsla, sticka huvudet i sanden och allmän svaghet är något som svenska män får i sig med modersmöjlken nuförtiden.
+20-1	1903-1917	Konflikträdsla	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-2	1917-1918	,	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-3	1919-1925	sticka	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-4	1926-1933	huvudet	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-5	1934-1935	i	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-6	1936-1942	sanden	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-7	1943-1946	och	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-8	1947-1953	allmän	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-9	1954-1961	svaghet	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-10	1962-1964	är	_	Target[15]	20-13[36]	false[15]	2[15]	_	_	
+20-11	1965-1970	något	_	_	_	_	_	_	_	
+20-12	1971-1974	som	_	_	_	_	_	_	_	
+20-13	1975-1982	svenska	*[36]	_	_	_	_	_	_	
+20-14	1983-1986	män	*[36]	_	_	_	_	_	_	
+20-15	1987-1990	får	*[36]	_	_	_	_	_	_	
+20-16	1991-1992	i	*[36]	_	_	_	_	_	_	
+20-17	1993-1996	sig	*[36]	_	_	_	_	_	_	
+20-18	1997-2000	med	*[36]	_	_	_	_	_	_	
+20-19	2001-2014	modersmöjlken	*[36]	_	_	_	_	_	_	
+20-20	2015-2025	nuförtiden	*[36]	_	_	_	_	_	_	
+20-21	2025-2026	.	_	_	_	_	_	_	_	
+
+#Text=Man får lära sig att det är okej att gråta ut, alla är lika värda oavsett vad och man daltas med igenom hela skolgången där inga som helst krav ställs.
+21-1	2027-2030	Man	_	_	_	_	_	_	_	
+21-2	2031-2034	får	_	_	_	_	_	_	_	
+21-3	2035-2039	lära	_	_	_	_	_	_	_	
+21-4	2040-2043	sig	_	_	_	_	_	_	_	
+21-5	2044-2047	att	_	_	_	_	_	_	_	
+21-6	2048-2051	det	_	_	_	_	_	_	_	
+21-7	2052-2054	är	_	_	_	_	_	_	_	
+21-8	2055-2059	okej	_	Target[16]	21-32[37]	false[16]	2[16]	_	_	
+21-9	2060-2063	att	_	Target[16]	21-32[37]	false[16]	2[16]	_	_	
+21-10	2064-2069	gråta	_	Target[16]	21-32[37]	false[16]	2[16]	_	_	
+21-11	2070-2072	ut	_	Target[16]	21-32[37]	false[16]	2[16]	_	_	
+21-12	2072-2073	,	_	_	_	_	_	_	_	
+21-13	2074-2078	alla	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-14	2079-2081	är	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-15	2082-2086	lika	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-16	2087-2092	värda	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-17	2093-2100	oavsett	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-18	2101-2104	vad	_	Target[17]	21-32[38]	false[17]	2[17]	_	_	
+21-19	2105-2108	och	_	_	_	_	_	_	_	
+21-20	2109-2112	man	*	_	_	_	_	_	_	
+21-21	2113-2119	daltas	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-22	2120-2123	med	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-23	2124-2130	igenom	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-24	2131-2135	hela	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-25	2136-2146	skolgången	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-26	2147-2150	där	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-27	2151-2155	inga	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-28	2156-2159	som	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-29	2160-2165	helst	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-30	2166-2170	krav	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-31	2171-2177	ställs	_	Target[18]	21-20	false[18]	2[18]	_	_	
+21-32	2177-2178	.	*[37]|*[38]	_	_	_	_	_	_	
+
+#Text=Pojkar får aldrig lära sig kämpa, de blir inte tvingade att tuffa till sig.
+22-1	2179-2185	Pojkar	*[39]|*[40]	_	_	_	_	_	22-8[0_39]	
+22-2	2186-2189	får	_	Target[19]	22-1[39]	false[19]	2[19]	_	_	
+22-3	2190-2196	aldrig	_	Target[19]	22-1[39]	false[19]	2[19]	_	_	
+22-4	2197-2201	lära	_	Target[19]	22-1[39]	false[19]	2[19]	_	_	
+22-5	2202-2205	sig	_	Target[19]	22-1[39]	false[19]	2[19]	_	_	
+22-6	2206-2211	kämpa	_	Target[19]	22-1[39]	false[19]	2[19]	_	_	
+22-7	2211-2212	,	_	_	_	_	_	_	_	
+22-8	2213-2215	de	*	_	_	_	_	_	_	
+22-9	2216-2220	blir	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-10	2221-2225	inte	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-11	2226-2234	tvingade	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-12	2235-2238	att	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-13	2239-2244	tuffa	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-14	2245-2249	till	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-15	2250-2253	sig	_	Target[20]	22-8	false[20]	2[20]	_	_	
+22-16	2253-2254	.	_	_	_	_	_	_	_	
+
+#Text=Detta syns inte minst tydligt i vår kära huvudstad där marockanska "gatubarn" helt sonika låtits ta över den allra mest centrala delen av staden där de lever rövare och förnedrar lokalbefolkningen dag ut och dag in utan att någon gör någonting.
+23-1	2255-2260	Detta	_	_	_	_	_	_	_	
+23-2	2261-2265	syns	_	_	_	_	_	_	_	
+23-3	2266-2270	inte	_	_	_	_	_	_	_	
+23-4	2271-2276	minst	_	_	_	_	_	_	_	
+23-5	2277-2284	tydligt	_	_	_	_	_	_	_	
+23-6	2285-2286	i	_	_	_	_	_	_	_	
+23-7	2287-2290	vår	*[41]	Target[21]	23-7[41]	true[21]	2[21]	_	_	
+23-8	2291-2295	kära	*[41]	Target[21]	23-7[41]	true[21]	2[21]	_	_	
+23-9	2296-2305	huvudstad	*[41]	Target[21]	23-7[41]	true[21]	2[21]	_	_	
+23-10	2306-2309	där	_	_	_	_	_	_	_	
+23-11	2310-2321	marockanska	*[42]|*[43]	_	_	_	_	_	23-28[0_42]	
+23-12	2322-2323	"	*[42]|*[43]	_	_	_	_	_	_	
+23-13	2323-2331	gatubarn	*[42]|*[43]	_	_	_	_	_	_	
+23-14	2331-2332	"	*[42]|*[43]	_	_	_	_	_	_	
+23-15	2333-2337	helt	_	_	_	_	_	_	_	
+23-16	2338-2344	sonika	_	_	_	_	_	_	_	
+23-17	2345-2351	låtits	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-18	2352-2354	ta	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-19	2355-2359	över	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-20	2360-2363	den	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-21	2364-2369	allra	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-22	2370-2374	mest	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-23	2375-2383	centrala	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-24	2384-2389	delen	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-25	2390-2392	av	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-26	2393-2399	staden	_	Target[22]	23-11[42]	false[22]	2[22]	_	_	
+23-27	2400-2403	där	_	_	_	_	_	_	_	
+23-28	2404-2406	de	*	_	_	_	_	_	_	
+23-29	2407-2412	lever	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-30	2413-2419	rövare	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-31	2420-2423	och	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-32	2424-2433	förnedrar	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-33	2434-2451	lokalbefolkningen	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-34	2452-2455	dag	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-35	2456-2458	ut	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-36	2459-2462	och	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-37	2463-2466	dag	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-38	2467-2469	in	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-39	2470-2474	utan	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-40	2475-2478	att	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-41	2479-2484	någon	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-42	2485-2488	gör	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-43	2489-2498	någonting	_	Target[23]	23-28	false[23]	2[23]	_	_	
+23-44	2498-2499	.	_	_	_	_	_	_	_	
+
+#Text=Svenskar har helt enkelt blivit för fjolliga, plain and simple.
+24-1	2500-2508	Svenskar	*	_	_	_	_	_	_	
+24-2	2509-2512	har	_	_	_	_	_	_	_	
+24-3	2513-2517	helt	_	_	_	_	_	_	_	
+24-4	2518-2524	enkelt	_	_	_	_	_	_	_	
+24-5	2525-2531	blivit	_	Target[24]	24-1	false[24]	1[24]	_	_	
+24-6	2532-2535	för	_	Target[24]	24-1	false[24]	1[24]	_	_	
+24-7	2536-2544	fjolliga	_	Target[24]	24-1	false[24]	1[24]	_	_	
+24-8	2544-2545	,	_	_	_	_	_	_	_	
+24-9	2546-2551	plain	_	_	_	_	_	_	_	
+24-10	2552-2555	and	_	_	_	_	_	_	_	
+24-11	2556-2562	simple	_	_	_	_	_	_	_	
+24-12	2562-2563	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2565-2566	#	_	_	_	_	_	_	_	
+25-2	2566-2567	P	_	_	_	_	_	_	_	
+25-3	2568-2571	IMM	_	_	_	_	_	_	_	
+25-4	2571-2572	.	_	_	_	_	_	_	_	
+
+#Text=Frågeställning: Håller ni med min analys?
+26-1	2574-2588	Frågeställning	_	_	_	_	_	_	_	
+26-2	2588-2589	:	_	_	_	_	_	_	_	
+26-3	2590-2596	Håller	_	_	_	_	_	_	_	
+26-4	2597-2599	ni	_	_	_	_	_	_	_	
+26-5	2600-2603	med	_	_	_	_	_	_	_	
+26-6	2604-2607	min	_	_	_	_	_	_	_	
+26-7	2608-2614	analys	_	_	_	_	_	_	_	
+26-8	2614-2615	?	_	_	_	_	_	_	_	
+
+#Text=Hur kan vi åtgärda problemet?.
+27-1	2616-2619	Hur	_	_	_	_	_	_	_	
+27-2	2620-2623	kan	_	_	_	_	_	_	_	
+27-3	2624-2626	vi	_	_	_	_	_	_	_	
+27-4	2627-2634	åtgärda	_	_	_	_	_	_	_	
+27-5	2635-2644	problemet	_	_	_	_	_	_	_	
+27-6	2644-2645	?	_	_	_	_	_	_	_	
+27-7	2645-2646	.	_	_	_	_	_	_	_	

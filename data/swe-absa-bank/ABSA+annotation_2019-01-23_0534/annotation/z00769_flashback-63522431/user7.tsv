@@ -1,0 +1,456 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Sverigedemokraterna vill ge 20.000:- i bonus till förstföderskor med familj.
+3-1	18-37	Sverigedemokraterna	*	_	_	_	_	_	
+3-2	38-42	vill	_	Source;Target	3-1;3-3[3]	false	4	_	
+3-3	43-45	ge	*[3]	_	_	_	_	_	
+3-4	46-52	20.000	*[3]	_	_	_	_	_	
+3-5	52-53	:	*[3]	_	_	_	_	_	
+3-6	53-54	-	*[3]	_	_	_	_	_	
+3-7	55-56	i	*[3]	_	_	_	_	_	
+3-8	57-62	bonus	*[3]	_	_	_	_	_	
+3-9	63-67	till	*[3]	_	_	_	_	_	
+3-10	68-82	förstföderskor	*[3]	_	_	_	_	_	
+3-11	83-86	med	*[3]	_	_	_	_	_	
+3-12	87-93	familj	*[3]	_	_	_	_	_	
+3-13	93-94	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	96-97	#	_	_	_	_	_	_	
+4-2	97-98	P	_	_	_	_	_	_	
+4-3	99-102	IMM	_	_	_	_	_	_	
+4-4	102-103	.	_	_	_	_	_	_	
+
+#Text=I samband med Sverigedemokraternas Valkonferens som pågår just nu har Sverigedemokraterna lanserat ett valförslag, nämligen ett familjepolitiskt förslag.
+5-1	105-106	I	_	_	_	_	_	_	
+5-2	107-114	samband	_	_	_	_	_	_	
+5-3	115-118	med	_	_	_	_	_	_	
+5-4	119-139	Sverigedemokraternas	*	_	_	_	_	6-6[5_0]	
+5-5	140-152	Valkonferens	_	_	_	_	_	_	
+5-6	153-156	som	_	_	_	_	_	_	
+5-7	157-162	pågår	_	_	_	_	_	_	
+5-8	163-167	just	_	_	_	_	_	_	
+5-9	168-170	nu	_	_	_	_	_	_	
+5-10	171-174	har	_	_	_	_	_	_	
+5-11	175-194	Sverigedemokraterna	_	_	_	_	_	_	
+5-12	195-203	lanserat	_	_	_	_	_	_	
+5-13	204-207	ett	_	_	_	_	_	_	
+5-14	208-218	valförslag	_	_	_	_	_	_	
+5-15	218-219	,	_	_	_	_	_	_	
+5-16	220-228	nämligen	_	_	_	_	_	_	
+5-17	229-232	ett	_	_	_	_	_	_	
+5-18	233-249	familjepolitiskt	_	_	_	_	_	_	
+5-19	250-257	förslag	_	_	_	_	_	_	
+5-20	257-258	.	_	_	_	_	_	_	
+
+#Text=Förslaget går ut på att man vill införa en bonus på 20.000:- för förstföderskor med familj.
+6-1	259-268	Förslaget	_	_	_	_	_	_	
+6-2	269-272	går	_	_	_	_	_	_	
+6-3	273-275	ut	_	_	_	_	_	_	
+6-4	276-278	på	_	_	_	_	_	_	
+6-5	279-282	att	_	_	_	_	_	_	
+6-6	283-286	man	*[4]|*[5]	_	_	_	_	9-1[7_4]	
+6-7	287-291	vill	*[4]	Source;Target	6-6[5];6-8[6]	false	4	_	
+6-8	292-298	införa	*[4]|*[6]	_	_	_	_	_	
+6-9	299-301	en	*[4]|*[6]	_	_	_	_	_	
+6-10	302-307	bonus	*[4]|*[6]	_	_	_	_	_	
+6-11	308-310	på	*[4]|*[6]	_	_	_	_	_	
+6-12	311-317	20.000	*[4]|*[6]	_	_	_	_	_	
+6-13	317-318	:	*[4]|*[6]	_	_	_	_	_	
+6-14	318-319	-	*[4]|*[6]	_	_	_	_	_	
+6-15	320-323	för	*[4]|*[6]	_	_	_	_	_	
+6-16	324-338	förstföderskor	*[4]|*[6]	_	_	_	_	_	
+6-17	339-342	med	*[4]|*[6]	_	_	_	_	_	
+6-18	343-349	familj	*[4]|*[6]	_	_	_	_	_	
+6-19	349-350	.	_	_	_	_	_	_	
+
+#Text=Sverigedemokraterna menar att man särskilt vid det första barnets födsel och första tid får många dyra merkostnader för sådant som barnsäng och barnvagn med mera.
+7-1	351-370	Sverigedemokraterna	_	_	_	_	_	_	
+7-2	371-376	menar	_	_	_	_	_	_	
+7-3	377-380	att	_	_	_	_	_	_	
+7-4	381-384	man	_	_	_	_	_	_	
+7-5	385-393	särskilt	_	_	_	_	_	_	
+7-6	394-397	vid	_	_	_	_	_	_	
+7-7	398-401	det	_	_	_	_	_	_	
+7-8	402-408	första	_	_	_	_	_	_	
+7-9	409-416	barnets	_	_	_	_	_	_	
+7-10	417-423	födsel	_	_	_	_	_	_	
+7-11	424-427	och	_	_	_	_	_	_	
+7-12	428-434	första	_	_	_	_	_	_	
+7-13	435-438	tid	_	_	_	_	_	_	
+7-14	439-442	får	_	_	_	_	_	_	
+7-15	443-448	många	_	_	_	_	_	_	
+7-16	449-453	dyra	_	_	_	_	_	_	
+7-17	454-466	merkostnader	_	_	_	_	_	_	
+7-18	467-470	för	_	_	_	_	_	_	
+7-19	471-477	sådant	_	_	_	_	_	_	
+7-20	478-481	som	_	_	_	_	_	_	
+7-21	482-490	barnsäng	_	_	_	_	_	_	
+7-22	491-494	och	_	_	_	_	_	_	
+7-23	495-503	barnvagn	_	_	_	_	_	_	
+7-24	504-507	med	_	_	_	_	_	_	
+7-25	508-512	mera	_	_	_	_	_	_	
+7-26	512-513	.	_	_	_	_	_	_	
+
+#Text=Ekonomi ska inte vara ett hinder för att skaffa sitt första barn.
+8-1	514-521	Ekonomi	*	_	_	_	_	_	
+8-2	522-525	ska	_	Target[1]	8-1	false[1]	3[1]	_	
+8-3	526-530	inte	_	Target[1]	8-1	false[1]	3[1]	_	
+8-4	531-535	vara	_	Target[1]	8-1	false[1]	3[1]	_	
+8-5	536-539	ett	_	Target[1]	8-1	false[1]	3[1]	_	
+8-6	540-546	hinder	_	Target[1]	8-1	false[1]	3[1]	_	
+8-7	547-550	för	_	_	_	_	_	_	
+8-8	551-554	att	_	_	_	_	_	_	
+8-9	555-561	skaffa	_	_	_	_	_	_	
+8-10	562-566	sitt	_	_	_	_	_	_	
+8-11	567-573	första	_	_	_	_	_	_	
+8-12	574-578	barn	_	_	_	_	_	_	
+8-13	578-579	.	_	_	_	_	_	_	
+
+#Text=Detta förslag underlättar en del, i kombination med andra satsningar Sverigedemokraterna vill göra på området.
+9-1	580-585	Detta	*[7]	_	_	_	_	_	
+9-2	586-593	förslag	*[7]	_	_	_	_	_	
+9-3	594-605	underlättar	_	Target[2]	9-1[7]	false[2]	4[2]	_	
+9-4	606-608	en	_	Target[2]	9-1[7]	false[2]	4[2]	_	
+9-5	609-612	del	_	Target[2]	9-1[7]	false[2]	4[2]	_	
+9-6	612-613	,	_	_	_	_	_	_	
+9-7	614-615	i	_	_	_	_	_	_	
+9-8	616-627	kombination	_	_	_	_	_	_	
+9-9	628-631	med	_	_	_	_	_	_	
+9-10	632-637	andra	*[8]	_	_	_	_	_	
+9-11	638-648	satsningar	*[8]	_	_	_	_	_	
+9-12	649-668	Sverigedemokraterna	*	_	_	_	_	_	
+9-13	669-673	vill	_	Target;Target;Source	9-14[9];9-10[8];9-12	false	4	_	
+9-14	674-678	göra	*[9]	_	_	_	_	_	
+9-15	679-681	på	*[9]	_	_	_	_	_	
+9-16	682-689	området	*[9]	_	_	_	_	_	
+9-17	689-690	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	692-693	#	_	_	_	_	_	_	
+10-2	693-694	P	_	_	_	_	_	_	
+10-3	695-698	IMM	_	_	_	false	3	_	
+10-4	698-699	.	_	_	_	_	_	_	
+
+#Text=Samtidigt ska flerbarnstillägget förändras.
+11-1	701-710	Samtidigt	_	_	_	_	_	_	
+11-2	711-714	ska	_	_	_	_	_	_	
+11-3	715-733	flerbarnstillägget	_	_	_	_	_	_	
+11-4	734-743	förändras	_	_	_	_	_	_	
+11-5	743-744	.	_	_	_	_	_	_	
+
+#Text=Inte så mycket gällande färre barn som två till tre barn, men för familjer som har många barn, så som fem barn, ökar flerbarnstillägget oproportionerligt mycket.
+12-1	745-749	Inte	_	_	_	_	_	_	
+12-2	750-752	så	_	_	_	_	_	_	
+12-3	753-759	mycket	_	_	_	_	_	_	
+12-4	760-768	gällande	_	_	_	_	_	_	
+12-5	769-774	färre	_	_	_	_	_	_	
+12-6	775-779	barn	_	_	_	_	_	_	
+12-7	780-783	som	_	_	_	_	_	_	
+12-8	784-787	två	_	_	_	_	_	_	
+12-9	788-792	till	_	_	_	_	_	_	
+12-10	793-796	tre	_	_	_	_	_	_	
+12-11	797-801	barn	_	_	_	_	_	_	
+12-12	801-802	,	_	_	_	_	_	_	
+12-13	803-806	men	_	_	_	_	_	_	
+12-14	807-810	för	_	_	_	_	_	_	
+12-15	811-819	familjer	_	_	_	_	_	_	
+12-16	820-823	som	_	_	_	_	_	_	
+12-17	824-827	har	_	_	_	_	_	_	
+12-18	828-833	många	_	_	_	_	_	_	
+12-19	834-838	barn	_	_	_	_	_	_	
+12-20	838-839	,	_	_	_	_	_	_	
+12-21	840-842	så	_	_	_	_	_	_	
+12-22	843-846	som	_	_	_	_	_	_	
+12-23	847-850	fem	_	_	_	_	_	_	
+12-24	851-855	barn	_	_	_	_	_	_	
+12-25	855-856	,	_	_	_	_	_	_	
+12-26	857-861	ökar	_	_	_	_	_	_	
+12-27	862-880	flerbarnstillägget	_	_	_	_	_	_	
+12-28	881-898	oproportionerligt	_	_	_	_	_	_	
+12-29	899-905	mycket	_	_	_	_	_	_	
+12-30	905-906	.	_	_	_	_	_	_	
+
+#Text=Skillnaderna mellan antalet barn och antal kronor i tillägg ska göras mer proportionerligt mellan antalet barn.
+13-1	907-919	Skillnaderna	_	_	_	_	_	_	
+13-2	920-926	mellan	_	_	_	_	_	_	
+13-3	927-934	antalet	_	_	_	_	_	_	
+13-4	935-939	barn	_	_	_	_	_	_	
+13-5	940-943	och	_	_	_	_	_	_	
+13-6	944-949	antal	_	_	_	_	_	_	
+13-7	950-956	kronor	_	_	_	_	_	_	
+13-8	957-958	i	_	_	_	_	_	_	
+13-9	959-966	tillägg	_	_	_	_	_	_	
+13-10	967-970	ska	_	_	_	_	_	_	
+13-11	971-976	göras	_	_	_	_	_	_	
+13-12	977-980	mer	_	_	_	_	_	_	
+13-13	981-997	proportionerligt	_	_	_	_	_	_	
+13-14	998-1004	mellan	_	_	_	_	_	_	
+13-15	1005-1012	antalet	_	_	_	_	_	_	
+13-16	1013-1017	barn	_	_	_	_	_	_	
+13-17	1017-1018	.	_	_	_	_	_	_	
+
+#Text=Det är särskilt ofta invandrare som har många barn och nyttjar flerbarnstillägget till max vilket gör det till en stor kostnad när vi haft så stor invandring i flera decennier.
+14-1	1019-1022	Det	_	_	_	_	_	_	
+14-2	1023-1025	är	_	_	_	_	_	_	
+14-3	1026-1034	särskilt	_	_	_	_	_	_	
+14-4	1035-1039	ofta	_	_	_	_	_	_	
+14-5	1040-1050	invandrare	_	_	_	_	_	_	
+14-6	1051-1054	som	_	_	_	_	_	_	
+14-7	1055-1058	har	_	_	_	_	_	_	
+14-8	1059-1064	många	_	_	_	_	_	_	
+14-9	1065-1069	barn	_	_	_	_	_	_	
+14-10	1070-1073	och	_	_	_	_	_	_	
+14-11	1074-1081	nyttjar	_	_	_	_	_	_	
+14-12	1082-1100	flerbarnstillägget	_	_	_	_	_	_	
+14-13	1101-1105	till	_	_	_	_	_	_	
+14-14	1106-1109	max	_	_	_	_	_	_	
+14-15	1110-1116	vilket	_	_	_	_	_	_	
+14-16	1117-1120	gör	_	_	_	_	_	_	
+14-17	1121-1124	det	_	_	_	_	_	_	
+14-18	1125-1129	till	_	_	_	_	_	_	
+14-19	1130-1132	en	_	_	_	_	_	_	
+14-20	1133-1137	stor	_	_	_	_	_	_	
+14-21	1138-1145	kostnad	_	_	_	_	_	_	
+14-22	1146-1149	när	_	_	_	_	_	_	
+14-23	1150-1152	vi	_	_	_	_	_	_	
+14-24	1153-1157	haft	_	_	_	_	_	_	
+14-25	1158-1160	så	_	_	_	_	_	_	
+14-26	1161-1165	stor	_	_	_	_	_	_	
+14-27	1166-1176	invandring	_	_	_	_	_	_	
+14-28	1177-1178	i	_	_	_	_	_	_	
+14-29	1179-1184	flera	_	_	_	_	_	_	
+14-30	1185-1194	decennier	_	_	_	_	_	_	
+14-31	1194-1195	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1197-1198	#	_	_	_	_	_	_	
+15-2	1198-1199	P	_	_	_	_	_	_	
+15-3	1200-1203	IMM	_	_	_	_	_	_	
+15-4	1203-1204	.	_	_	_	_	_	_	
+
+#Text=Samtidigt föreslår Sverigedemokraterna att detta bidrag likt andra välfärdsförmåner ska betalas ut enbart till svenska medborgare.
+16-1	1206-1215	Samtidigt	_	_	_	_	_	_	
+16-2	1216-1224	föreslår	_	_	_	_	_	_	
+16-3	1225-1244	Sverigedemokraterna	_	_	_	_	_	_	
+16-4	1245-1248	att	_	_	_	_	_	_	
+16-5	1249-1254	detta	_	_	_	_	_	_	
+16-6	1255-1261	bidrag	_	_	_	_	_	_	
+16-7	1262-1266	likt	_	_	_	_	_	_	
+16-8	1267-1272	andra	_	_	_	_	_	_	
+16-9	1273-1289	välfärdsförmåner	_	_	_	_	_	_	
+16-10	1290-1293	ska	_	_	_	_	_	_	
+16-11	1294-1301	betalas	_	_	_	_	_	_	
+16-12	1302-1304	ut	_	_	_	_	_	_	
+16-13	1305-1311	enbart	_	_	_	_	_	_	
+16-14	1312-1316	till	_	_	_	_	_	_	
+16-15	1317-1324	svenska	_	_	_	_	_	_	
+16-16	1325-1335	medborgare	_	_	_	_	_	_	
+16-17	1335-1336	.	_	_	_	_	_	_	
+
+#Text=Andra som inte är svenska medborgare ska inte få något bidrag eller del av välfärdssatsningar då svenska folkets skattepengar måste vara förbehållna det svenska folket och dom svenska medborgarna i första hand.
+17-1	1337-1342	Andra	_	_	_	_	_	_	
+17-2	1343-1346	som	_	_	_	_	_	_	
+17-3	1347-1351	inte	_	_	_	_	_	_	
+17-4	1352-1354	är	_	_	_	_	_	_	
+17-5	1355-1362	svenska	_	_	_	_	_	_	
+17-6	1363-1373	medborgare	_	_	_	_	_	_	
+17-7	1374-1377	ska	_	_	_	_	_	_	
+17-8	1378-1382	inte	_	_	_	_	_	_	
+17-9	1383-1385	få	_	_	_	_	_	_	
+17-10	1386-1391	något	_	_	_	_	_	_	
+17-11	1392-1398	bidrag	_	_	_	_	_	_	
+17-12	1399-1404	eller	_	_	_	_	_	_	
+17-13	1405-1408	del	_	_	_	_	_	_	
+17-14	1409-1411	av	_	_	_	_	_	_	
+17-15	1412-1430	välfärdssatsningar	_	_	_	_	_	_	
+17-16	1431-1433	då	_	_	_	_	_	_	
+17-17	1434-1441	svenska	_	_	_	_	_	_	
+17-18	1442-1449	folkets	_	_	_	_	_	_	
+17-19	1450-1462	skattepengar	_	_	_	_	_	_	
+17-20	1463-1468	måste	_	_	_	_	_	_	
+17-21	1469-1473	vara	_	_	_	_	_	_	
+17-22	1474-1485	förbehållna	_	_	_	_	_	_	
+17-23	1486-1489	det	_	_	_	_	_	_	
+17-24	1490-1497	svenska	_	_	_	_	_	_	
+17-25	1498-1504	folket	_	_	_	_	_	_	
+17-26	1505-1508	och	_	_	_	_	_	_	
+17-27	1509-1512	dom	_	_	_	_	_	_	
+17-28	1513-1520	svenska	_	_	_	_	_	_	
+17-29	1521-1532	medborgarna	_	_	_	_	_	_	
+17-30	1533-1534	i	_	_	_	_	_	_	
+17-31	1535-1541	första	_	_	_	_	_	_	
+17-32	1542-1546	hand	_	_	_	_	_	_	
+17-33	1546-1547	.	_	_	_	_	_	_	
+
+#Text=Medborgarskapet ska ha stor betydelse i Sverigedemokraternas Sverige.
+18-1	1548-1563	Medborgarskapet	_	_	_	_	_	_	
+18-2	1564-1567	ska	_	_	_	_	_	_	
+18-3	1568-1570	ha	_	_	_	_	_	_	
+18-4	1571-1575	stor	_	_	_	_	_	_	
+18-5	1576-1585	betydelse	_	_	_	_	_	_	
+18-6	1586-1587	i	_	_	_	_	_	_	
+18-7	1588-1608	Sverigedemokraternas	_	_	_	_	_	_	
+18-8	1609-1616	Sverige	_	_	_	_	_	_	
+18-9	1616-1617	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+19-1	1619-1620	#	_	_	_	_	_	_	
+19-2	1620-1621	P	_	_	_	_	_	_	
+19-3	1622-1625	IMM	_	_	_	_	_	_	
+
+#Text=.
+20-1	1625-1626	.	_	_	_	_	_	_	
+
+#Text=- 20.000:- i bonus för förstföderskor med familj för inköp av barnsäng, barnvagn med mera.
+21-1	1628-1629	-	_	_	_	_	_	_	
+21-2	1630-1636	20.000	_	_	_	_	_	_	
+21-3	1636-1637	:	_	_	_	_	_	_	
+21-4	1637-1638	-	_	_	_	_	_	_	
+21-5	1639-1640	i	_	_	_	_	_	_	
+21-6	1641-1646	bonus	_	_	_	_	_	_	
+21-7	1647-1650	för	_	_	_	_	_	_	
+21-8	1651-1665	förstföderskor	_	_	_	_	_	_	
+21-9	1666-1669	med	_	_	_	_	_	_	
+21-10	1670-1676	familj	_	_	_	_	_	_	
+21-11	1677-1680	för	_	_	_	_	_	_	
+21-12	1681-1686	inköp	_	_	_	_	_	_	
+21-13	1687-1689	av	_	_	_	_	_	_	
+21-14	1690-1698	barnsäng	_	_	_	_	_	_	
+21-15	1698-1699	,	_	_	_	_	_	_	
+21-16	1700-1708	barnvagn	_	_	_	_	_	_	
+21-17	1709-1712	med	_	_	_	_	_	_	
+21-18	1713-1717	mera	_	_	_	_	_	_	
+21-19	1717-1718	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+22-1	1720-1721	#	_	_	_	_	_	_	
+22-2	1721-1722	P	_	_	_	_	_	_	
+22-3	1723-1726	IMM	_	_	_	_	_	_	
+
+#Text=.
+23-1	1726-1727	.	_	_	_	_	_	_	
+
+#Text=- I stort bibehållet flerbarnstillägg vid 1, 2 och 3 barn, men en förändring gällande fler barn då flerbarnstillägget ökar oproportionerligt mycket ju fler barn man har.
+24-1	1729-1730	-	_	_	_	_	_	_	
+24-2	1731-1732	I	_	_	_	_	_	_	
+24-3	1733-1738	stort	_	_	_	_	_	_	
+24-4	1739-1749	bibehållet	_	_	_	_	_	_	
+24-5	1750-1766	flerbarnstillägg	_	_	_	_	_	_	
+24-6	1767-1770	vid	_	_	_	_	_	_	
+24-7	1771-1772	1	_	_	_	_	_	_	
+24-8	1772-1773	,	_	_	_	_	_	_	
+24-9	1774-1775	2	_	_	_	_	_	_	
+24-10	1776-1779	och	_	_	_	_	_	_	
+24-11	1780-1781	3	_	_	_	_	_	_	
+24-12	1782-1786	barn	_	_	_	_	_	_	
+24-13	1786-1787	,	_	_	_	_	_	_	
+24-14	1788-1791	men	_	_	_	_	_	_	
+24-15	1792-1794	en	_	_	_	_	_	_	
+24-16	1795-1805	förändring	_	_	_	_	_	_	
+24-17	1806-1814	gällande	_	_	_	_	_	_	
+24-18	1815-1819	fler	_	_	_	_	_	_	
+24-19	1820-1824	barn	_	_	_	_	_	_	
+24-20	1825-1827	då	_	_	_	_	_	_	
+24-21	1828-1846	flerbarnstillägget	_	_	_	_	_	_	
+24-22	1847-1851	ökar	_	_	_	_	_	_	
+24-23	1852-1869	oproportionerligt	_	_	_	_	_	_	
+24-24	1870-1876	mycket	_	_	_	_	_	_	
+24-25	1877-1879	ju	_	_	_	_	_	_	
+24-26	1880-1884	fler	_	_	_	_	_	_	
+24-27	1885-1889	barn	_	_	_	_	_	_	
+24-28	1890-1893	man	_	_	_	_	_	_	
+24-29	1894-1897	har	_	_	_	_	_	_	
+24-30	1897-1898	.	_	_	_	_	_	_	
+
+#Text=Det är främst invandrarfamiljer som har väldigt många barn.
+25-1	1899-1902	Det	_	_	_	_	_	_	
+25-2	1903-1905	är	_	_	_	_	_	_	
+25-3	1906-1912	främst	_	_	_	_	_	_	
+25-4	1913-1930	invandrarfamiljer	_	_	_	_	_	_	
+25-5	1931-1934	som	_	_	_	_	_	_	
+25-6	1935-1938	har	_	_	_	_	_	_	
+25-7	1939-1946	väldigt	_	_	_	_	_	_	
+25-8	1947-1952	många	_	_	_	_	_	_	
+25-9	1953-1957	barn	_	_	_	_	_	_	
+25-10	1957-1958	.	_	_	_	_	_	_	
+
+#Text=Ersättningen ska göras mer proportionerlig i antal kronor mellan antalet barn.
+26-1	1959-1971	Ersättningen	_	_	_	_	_	_	
+26-2	1972-1975	ska	_	_	_	_	_	_	
+26-3	1976-1981	göras	_	_	_	_	_	_	
+26-4	1982-1985	mer	_	_	_	_	_	_	
+26-5	1986-2001	proportionerlig	_	_	_	_	_	_	
+26-6	2002-2003	i	_	_	_	_	_	_	
+26-7	2004-2009	antal	_	_	_	_	_	_	
+26-8	2010-2016	kronor	_	_	_	_	_	_	
+26-9	2017-2023	mellan	_	_	_	_	_	_	
+26-10	2024-2031	antalet	_	_	_	_	_	_	
+26-11	2032-2036	barn	_	_	_	_	_	_	
+26-12	2036-2037	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+27-1	2039-2040	#	_	_	_	_	_	_	
+27-2	2040-2041	P	_	_	_	_	_	_	
+27-3	2042-2045	IMM	_	_	_	_	_	_	
+
+#Text=.
+28-1	2045-2046	.	_	_	_	_	_	_	
+
+#Text=- Bara svenska medborgare ska få detta bidrag och andra välfärdsförmåner, är man inte svensk medborgare ska man inte ha del av bidrag och stöd.
+29-1	2048-2049	-	_	_	_	_	_	_	
+29-2	2050-2054	Bara	_	_	_	_	_	_	
+29-3	2055-2062	svenska	_	_	_	_	_	_	
+29-4	2063-2073	medborgare	_	_	_	_	_	_	
+29-5	2074-2077	ska	_	_	_	_	_	_	
+29-6	2078-2080	få	_	_	_	_	_	_	
+29-7	2081-2086	detta	_	_	_	_	_	_	
+29-8	2087-2093	bidrag	_	_	_	_	_	_	
+29-9	2094-2097	och	_	_	_	_	_	_	
+29-10	2098-2103	andra	_	_	_	_	_	_	
+29-11	2104-2120	välfärdsförmåner	_	_	_	_	_	_	
+29-12	2120-2121	,	_	_	_	_	_	_	
+29-13	2122-2124	är	_	_	_	_	_	_	
+29-14	2125-2128	man	_	_	_	_	_	_	
+29-15	2129-2133	inte	_	_	_	_	_	_	
+29-16	2134-2140	svensk	_	_	_	_	_	_	
+29-17	2141-2151	medborgare	_	_	_	_	_	_	
+29-18	2152-2155	ska	_	_	_	_	_	_	
+29-19	2156-2159	man	_	_	_	_	_	_	
+29-20	2160-2164	inte	_	_	_	_	_	_	
+29-21	2165-2167	ha	_	_	_	_	_	_	
+29-22	2168-2171	del	_	_	_	_	_	_	
+29-23	2172-2174	av	_	_	_	_	_	_	
+29-24	2175-2181	bidrag	_	_	_	_	_	_	
+29-25	2182-2185	och	_	_	_	_	_	_	
+29-26	2186-2190	stöd	_	_	_	_	_	_	
+29-27	2190-2191	.	_	_	_	_	_	_	
+
+#Text=Det svenska medborgarskapet ska ha stor betydelse i Sverigedemokraternas Sverige.
+30-1	2192-2195	Det	_	_	_	_	_	_	
+30-2	2196-2203	svenska	_	_	_	_	_	_	
+30-3	2204-2219	medborgarskapet	_	_	_	_	_	_	
+30-4	2220-2223	ska	_	_	_	_	_	_	
+30-5	2224-2226	ha	_	_	_	_	_	_	
+30-6	2227-2231	stor	_	_	_	_	_	_	
+30-7	2232-2241	betydelse	_	_	_	_	_	_	
+30-8	2242-2243	i	_	_	_	_	_	_	
+30-9	2244-2264	Sverigedemokraternas	_	_	_	_	_	_	
+30-10	2265-2272	Sverige	_	_	_	_	_	_	
+30-11	2272-2273	.	_	_	_	_	_	_	

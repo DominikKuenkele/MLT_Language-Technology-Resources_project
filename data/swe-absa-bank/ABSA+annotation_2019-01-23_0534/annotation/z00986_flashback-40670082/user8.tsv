@@ -1,0 +1,123 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Inbrott i migrationsverket.
+3-1	18-25	Inbrott	_	_	_	_	_	
+3-2	26-27	i	_	_	_	_	_	
+3-3	28-44	migrationsverket	_	_	_	_	_	
+3-4	44-45	.	_	_	_	_	_	
+
+#Text=Festarna vandaliserade, inbjudna via Face Book.
+4-1	46-54	Festarna	*	_	_	_	_	
+4-2	55-68	vandaliserade	_	Target	4-1	false	1	
+4-3	68-69	,	_	_	_	_	_	
+4-4	70-78	inbjudna	_	_	_	_	_	
+4-5	79-82	via	_	_	_	_	_	
+4-6	83-87	Face	_	_	_	_	_	
+4-7	88-92	Book	_	_	_	_	_	
+4-8	92-93	.	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	95-96	#	_	_	_	_	_	
+5-2	96-97	P	_	_	_	_	_	
+5-3	98-101	IMM	_	_	_	false	2	
+5-4	101-102	.	_	_	_	_	_	
+
+#Text=Festen verkar ha gått ut på att förstöra.
+6-1	104-110	Festen	*	_	_	_	_	
+6-2	111-117	verkar	_	_	_	_	_	
+6-3	118-120	ha	_	_	_	_	_	
+6-4	121-125	gått	_	Target[1]	6-1	false[1]	1[1]	
+6-5	126-128	ut	_	Target[1]	6-1	false[1]	1[1]	
+6-6	129-131	på	_	Target[1]	6-1	false[1]	1[1]	
+6-7	132-135	att	_	Target[1]	6-1	false[1]	1[1]	
+6-8	136-144	förstöra	_	Target[1]	6-1	false[1]	1[1]	
+6-9	144-145	.	_	_	_	_	_	
+
+#Text=Här är sönderslaget för massor av pengar.
+7-1	146-149	Här	_	_	_	_	_	
+7-2	150-152	är	_	_	_	_	_	
+7-3	153-165	sönderslaget	_	_	_	false	1	
+7-4	166-169	för	_	_	_	_	_	
+7-5	170-176	massor	_	_	_	_	_	
+7-6	177-179	av	_	_	_	_	_	
+7-7	180-186	pengar	_	_	_	_	_	
+7-8	186-187	.	_	_	_	_	_	
+
+#Text=Vem i hela friden var det, berikare eller sympatisörer.
+8-1	188-191	Vem	_	_	_	_	_	
+8-2	192-193	i	_	_	_	_	_	
+8-3	194-198	hela	_	_	_	_	_	
+8-4	199-205	friden	_	_	_	_	_	
+8-5	206-209	var	_	_	_	_	_	
+8-6	210-213	det	_	_	_	_	_	
+8-7	213-214	,	_	_	_	_	_	
+8-8	215-223	berikare	*	Target	8-8	true	5	
+8-9	224-229	eller	_	_	_	_	_	
+8-10	230-242	sympatisörer	_	_	_	_	_	
+8-11	242-243	.	_	_	_	_	_	
+
+#Text=Skedde i Malmö så klart.  1.200 personer inbjudna via FaceBook.
+9-1	244-250	Skedde	_	_	_	_	_	
+9-2	251-252	i	_	_	_	_	_	
+9-3	253-258	Malmö	_	_	_	_	_	
+9-4	259-261	så	_	_	_	_	_	
+9-5	262-267	klart	_	_	_	_	_	
+9-6	267-268	.	_	_	_	_	_	
+9-7	270-275	1.200	_	_	_	_	_	
+9-8	276-284	personer	_	_	_	_	_	
+9-9	285-293	inbjudna	_	_	_	_	_	
+9-10	294-297	via	_	_	_	_	_	
+9-11	298-306	FaceBook	_	_	_	_	_	
+9-12	306-307	.	_	_	_	_	_	
+
+#Text=Kraftig vandalism enligt Polisen.
+10-1	308-315	Kraftig	_	Source[2]	10-4	false[2]	1[2]	
+10-2	316-325	vandalism	_	Source[2]	10-4	false[2]	1[2]	
+10-3	326-332	enligt	_	_	_	_	_	
+10-4	333-340	Polisen	*	_	_	_	_	
+10-5	340-341	.	_	_	_	_	_	
+
+#Text=Svartklubb som haft kul?
+11-1	342-352	Svartklubb	_	_	_	_	_	
+11-2	353-356	som	_	_	_	_	_	
+11-3	357-361	haft	_	_	_	_	_	
+11-4	362-365	kul	_	_	_	_	_	
+11-5	365-366	?	_	_	_	_	_	
+
+#Text=Är det anläggningen i Arlöv, med ensamkommanden denna gången, de har kanske andra lokaler i Malmö också?.
+12-1	368-370	Är	_	_	_	_	_	
+12-2	371-374	det	_	_	_	_	_	
+12-3	375-387	anläggningen	_	_	_	_	_	
+12-4	388-389	i	_	_	_	_	_	
+12-5	390-395	Arlöv	_	_	_	_	_	
+12-6	395-396	,	_	_	_	_	_	
+12-7	397-400	med	_	_	_	_	_	
+12-8	401-415	ensamkommanden	_	_	_	_	_	
+12-9	416-421	denna	_	_	_	_	_	
+12-10	422-428	gången	_	_	_	_	_	
+12-11	428-429	,	_	_	_	_	_	
+12-12	430-432	de	_	_	_	_	_	
+12-13	433-436	har	_	_	_	_	_	
+12-14	437-443	kanske	_	_	_	_	_	
+12-15	444-449	andra	_	_	_	_	_	
+12-16	450-457	lokaler	_	_	_	_	_	
+12-17	458-459	i	_	_	_	_	_	
+12-18	460-465	Malmö	_	_	_	_	_	
+12-19	466-471	också	_	_	_	_	_	
+12-20	471-472	?	_	_	_	_	_	
+12-21	472-473	.	_	_	_	_	_	

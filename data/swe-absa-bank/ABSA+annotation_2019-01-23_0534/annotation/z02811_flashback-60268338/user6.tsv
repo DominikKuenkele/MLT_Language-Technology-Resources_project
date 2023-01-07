@@ -1,0 +1,145 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	_	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Guldregn över skolor med MENA-migranter.
+3-1	18-26	Guldregn	*	Target	3-1	true	5	_	_	
+3-2	27-31	över	_	_	_	_	_	_	_	
+3-3	32-38	skolor	_	_	_	_	_	_	_	
+3-4	39-42	med	_	_	_	_	_	_	_	
+3-5	43-57	MENA-migranter	_	_	_	_	_	_	_	
+3-6	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_[3]	_	false[3]	2[3]	_	_	
+4-2	61-62	P	_	_[3]	_	false[3]	2[3]	_	_	
+4-3	63-66	IMM	_	_[3]	_	false[3]	2[3]	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Vi har på senare tid till leda hört att de katastrofalt dåliga skolresultaten i skolor med MENA-migranter, skall åtgärdas med kraftigt ökat penningregn över dessa skolor.
+5-1	69-71	Vi	_	_	_	_	_	_	_	
+5-2	72-75	har	_	_	_	_	_	_	_	
+5-3	76-78	på	_	_	_	_	_	_	_	
+5-4	79-85	senare	_	_	_	_	_	_	_	
+5-5	86-89	tid	_	_	_	_	_	_	_	
+5-6	90-94	till	_	Target[4]	5-8[10]	false[4]	2[4]	_	_	
+5-7	95-99	leda	_	Target[4]	5-8[10]	false[4]	2[4]	_	_	
+5-8	100-104	hört	*[10]	_	_	_	_	_	_	
+5-9	105-108	att	*[10]|*[11]	_	_	_	_	_	7-5[0_11]	
+5-10	109-111	de	*[10]|*[11]	_	_	_	_	_	_	
+5-11	112-124	katastrofalt	*[10]|*[11]	Target[5]	5-13[12]	false[5]	1[5]	_	_	
+5-12	125-131	dåliga	*[10]|*[11]	Target[5]	5-13[12]	false[5]	1[5]	_	_	
+5-13	132-146	skolresultaten	*[10]|*[11]|*[12]	_	_	_	_	_	_	
+5-14	147-148	i	*[10]|*[11]|*[12]	_	_	_	_	_	_	
+5-15	149-155	skolor	*[10]|*[11]|*[12]	_	_	_	_	_	_	
+5-16	156-159	med	*[10]|*[11]|*[12]	_	_	_	_	_	_	
+5-17	160-174	MENA-migranter	*[10]|*[11]|*[12]	_	_	_	_	_	_	
+5-18	174-175	,	*[10]|*[11]	_	_	_	_	_	_	
+5-19	176-181	skall	*[10]|*[11]	_	_	_	_	_	_	
+5-20	182-190	åtgärdas	*[10]|*[11]	_	_	_	_	_	_	
+5-21	191-194	med	*[10]|*[11]	_	_	_	_	_	_	
+5-22	195-203	kraftigt	*[10]|*[11]	_	_	_	_	_	_	
+5-23	204-208	ökat	*[10]|*[11]	_	_	_	_	_	_	
+5-24	209-220	penningregn	*[10]|*[11]|*[13]	Target	5-24[13]	true	5	_	_	
+5-25	221-225	över	*[10]|*[11]	_	_	_	_	_	_	
+5-26	226-231	dessa	*[10]|*[11]	_	_	_	_	_	_	
+5-27	232-238	skolor	*[10]|*[11]	_	_	_	_	_	_	
+5-28	238-239	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	241-242	#	_	_[6]	_	false[6]	2[6]	_	_	
+6-2	242-243	P	_	_[6]	_	false[6]	2[6]	_	_	
+6-3	244-247	IMM	_	_[6]	_	false[6]	2[6]	_	_	
+6-4	247-248	.	_	_	_	_	_	_	_	
+
+#Text=Är fullkomligt övertygad att detta kommer aldrig göra någon skillnad.
+7-1	250-252	Är	_	_	_	_	_	_	_	
+7-2	253-264	fullkomligt	_	_	_	_	_	_	_	
+7-3	265-274	övertygad	_	_	_	_	_	_	_	
+7-4	275-278	att	_	_	_	_	_	_	_	
+7-5	279-284	detta	*	_	_	_	_	_	_	
+7-6	285-291	kommer	_	Target[7]	7-5	false[7]	2[7]	_	_	
+7-7	292-298	aldrig	_	Target[7]	7-5	false[7]	2[7]	_	_	
+7-8	299-303	göra	_	Target[7]	7-5	false[7]	2[7]	_	_	
+7-9	304-309	någon	_	Target[7]	7-5	false[7]	2[7]	_	_	
+7-10	310-318	skillnad	_	Target[7]	7-5	false[7]	2[7]	_	_	
+7-11	318-319	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	321-322	#	_	_	_	_	_	_	_	
+8-2	322-323	P	_	_	_	_	_	_	_	
+8-3	324-327	IMM	_	_	_	_	_	_	_	
+8-4	327-328	.	_	_	_	_	_	_	_	
+
+#Text=En lärare på universitetet sade en gång följande sanna ord:.
+9-1	330-332	En	_	_	_	_	_	_	_	
+9-2	333-339	lärare	_	_	_	_	_	_	_	
+9-3	340-342	på	_	_	_	_	_	_	_	
+9-4	343-356	universitetet	_	_	_	_	_	_	_	
+9-5	357-361	sade	_	_	_	_	_	_	_	
+9-6	362-364	en	_	_	_	_	_	_	_	
+9-7	365-369	gång	_	_	_	_	_	_	_	
+9-8	370-378	följande	_	_	_	_	_	_	_	
+9-9	379-384	sanna	_	_	_	_	_	_	_	
+9-10	385-388	ord	_	_	_	_	_	_	_	
+9-11	388-389	:	_	_	_	_	_	_	_	
+9-12	389-390	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	392-393	#	_	_	_	_	_	_	_	
+10-2	393-394	P	_	_	_	_	_	_	_	
+10-3	395-398	IMM	_	_	_	_	_	_	_	
+10-4	398-399	.	_	_	_	_	_	_	_	
+
+#Text=Har även hört samma påstående från flera andra håll.
+11-1	401-404	Har	_	_	_	_	_	_	_	
+11-2	405-409	även	_	_	_	_	_	_	_	
+11-3	410-414	hört	_	_	_	_	_	_	_	
+11-4	415-420	samma	_	_	_	_	_	_	_	
+11-5	421-430	påstående	_	_	_	_	_	_	_	
+11-6	431-435	från	_	_	_	_	_	_	_	
+11-7	436-441	flera	_	_	_	_	_	_	_	
+11-8	442-447	andra	_	_	_	_	_	_	_	
+11-9	448-452	håll	_	_	_	_	_	_	_	
+11-10	452-453	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	455-456	#	_	_[8]	_	false[8]	1[8]	_	_	
+12-2	456-457	P	_	_[8]	_	false[8]	1[8]	_	_	
+12-3	458-461	IMM	_	_[8]	_	false[8]	1[8]	_	_	
+12-4	461-462	.	_	_	_	_	_	_	_	
+
+#Text=Det är m.a.o. helt bortkastade pengar tro man kan bilda en massa neger och arabungar!.
+13-1	464-467	Det	_	_	_	_	_	_	_	
+13-2	468-470	är	_	_	_	false	1	_	_	
+13-3	471-476	m.a.o	_	_	_	_	_	_	_	
+13-4	476-477	.	_	_	_	_	_	_	_	
+13-5	478-482	helt	_	Target[9]	13-8[14]	false[9]	1[9]	13-2[0_9]	_	
+13-6	483-494	bortkastade	_	Target[9]	13-8[14]	false[9]	1[9]	_	_	
+13-7	495-501	pengar	_	Target[9]	13-8[14]	false[9]	1[9]	_	_	
+13-8	502-505	tro	*[14]	_	_	_	_	_	_	
+13-9	506-509	man	*[14]	_	_	_	_	_	_	
+13-10	510-513	kan	*[14]	_	_	_	_	_	_	
+13-11	514-519	bilda	*[14]	_	_	_	_	_	_	
+13-12	520-522	en	*[14]	_	_	_	_	_	_	
+13-13	523-528	massa	*[14]	_	_	_	_	_	_	
+13-14	529-534	neger	*[14]|*[15]	Target	13-14[15]	false	1	_	_	
+13-15	535-538	och	*[14]	_	_	_	_	_	_	
+13-16	539-548	arabungar	*[14]|*[16]	Target	13-16[16]	false	1	_	_	
+13-17	548-549	!	_	_	_	_	_	_	_	
+13-18	549-550	.	_	_	_	_	_	_	_	

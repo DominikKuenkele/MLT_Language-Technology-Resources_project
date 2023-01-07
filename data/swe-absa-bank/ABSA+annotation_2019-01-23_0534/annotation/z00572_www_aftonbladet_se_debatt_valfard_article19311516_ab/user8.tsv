@@ -1,0 +1,563 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Så får vi bukt med sjuksköterskebristen.
+3-1	18-20	Så	_	_	_	_	_	_	_	
+3-2	21-24	får	_	_	_	_	_	_	_	
+3-3	25-27	vi	_	_	_	_	_	_	_	
+3-4	28-32	bukt	_	_	_	_	_	_	_	
+3-5	33-36	med	_	_	_	_	_	_	_	
+3-6	37-57	sjuksköterskebristen	*	Target	3-6	false	2	_	_	
+3-7	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Under sommaren är bristen på sjuksköterskor vid Sveriges sjukhus påtaglig.
+5-1	69-74	Under	_	_	_	_	_	_	_	
+5-2	75-83	sommaren	_	_	_	_	_	_	_	
+5-3	84-86	är	_	_	_	_	_	_	_	
+5-4	87-94	bristen	*[11]	Target	5-4[11]	false	2	_	_	
+5-5	95-97	på	*[11]	_	_	_	_	_	_	
+5-6	98-112	sjuksköterskor	*[11]	_	_	_	_	_	_	
+5-7	113-116	vid	*[11]	_	_	_	_	_	_	
+5-8	117-125	Sveriges	*[11]	_	_	_	_	_	_	
+5-9	126-133	sjukhus	*[11]	_	_	_	_	_	_	
+5-10	134-142	påtaglig	_	_	_	_	_	_	_	
+5-11	142-143	.	_	_	_	_	_	_	_	
+
+#Text=Enligt en rapport från Vårdförbundet vittnar samtliga svenska sjukhus om att det råder allvarlig brist på sjuksköterskor.
+6-1	144-150	Enligt	_	_	_	_	_	_	_	
+6-2	151-153	en	_	_	_	_	_	_	_	
+6-3	154-161	rapport	_	_	_	_	_	_	_	
+6-4	162-166	från	_	_	_	_	_	_	_	
+6-5	167-180	Vårdförbundet	_	_	_	_	_	_	_	
+6-6	181-188	vittnar	_	_	_	_	_	_	_	
+6-7	189-197	samtliga	_	_	_	_	_	_	_	
+6-8	198-205	svenska	_	_	_	_	_	_	_	
+6-9	206-213	sjukhus	_	_	_	_	_	_	_	
+6-10	214-216	om	_	_	_	_	_	_	_	
+6-11	217-220	att	_	_	_	_	_	_	_	
+6-12	221-224	det	*[12]	_	_	_	_	_	7-1[0_12]	
+6-13	225-230	råder	*[12]	Target[1]	6-12[12]	false[1]	1[1]	_	_	
+6-14	231-240	allvarlig	*[12]	Target[1]	6-12[12]	false[1]	1[1]	_	_	
+6-15	241-246	brist	*[12]	Target[1]	6-12[12]	false[1]	1[1]	_	_	
+6-16	247-249	på	*[12]	_	_	_	_	_	_	
+6-17	250-264	sjuksköterskor	*[12]	_	_	_	_	_	_	
+6-18	264-265	.	_	_	_	_	_	_	_	
+
+#Text=Problematiken äventyrar patientsäkerheten och skapar en dålig arbetsmiljö för sjukvårdspersonalen som inte hinner göra sitt jobb på bästa sätt.
+7-1	266-279	Problematiken	*	Target[2]	7-1	false[2]	1[2]	_	_	
+7-2	280-289	äventyrar	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-3	290-307	patientsäkerheten	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-4	308-311	och	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-5	312-318	skapar	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-6	319-321	en	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-7	322-327	dålig	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-8	328-339	arbetsmiljö	_	Target[2]	7-1	false[2]	1[2]	_	_	
+7-9	340-343	för	_	_	_	_	_	_	_	
+7-10	344-363	sjukvårdspersonalen	_	_	_	_	_	_	_	
+7-11	364-367	som	_	_	_	_	_	_	_	
+7-12	368-372	inte	_	_	_	_	_	_	_	
+7-13	373-379	hinner	_	_	_	_	_	_	_	
+7-14	380-384	göra	_	_	_	_	_	_	_	
+7-15	385-389	sitt	_	_	_	_	_	_	_	
+7-16	390-394	jobb	_	_	_	_	_	_	_	
+7-17	395-397	på	_	_	_	_	_	_	_	
+7-18	398-403	bästa	_	_	_	_	_	_	_	
+7-19	404-408	sätt	_	_	_	_	_	_	_	
+7-20	408-409	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	411-412	#	_	_	_	_	_	_	_	
+8-2	412-413	P	_	_	_	_	_	_	_	
+8-3	414-417	IMM	_	_	_	_	_	_	_	
+8-4	417-418	.	_	_	_	_	_	_	_	
+
+#Text=Även om bristen är påtagligast under sommaren, är det ett problem årets alla dagar.
+9-1	420-424	Även	_	_	_	_	_	_	_	
+9-2	425-427	om	_	_	_	_	_	_	_	
+9-3	428-435	bristen	*[13]|*[14]	Target	9-3[14]	false	2	_	_	
+9-4	436-438	är	_	_	_	_	_	_	_	
+9-5	439-450	påtagligast	_	_	_	_	_	_	_	
+9-6	451-456	under	_	_	_	_	_	_	_	
+9-7	457-465	sommaren	_	_	_	_	_	_	_	
+9-8	465-466	,	_	_	_	_	_	_	_	
+9-9	467-469	är	_	_	_	_	_	_	_	
+9-10	470-473	det	_	_	_	_	_	_	_	
+9-11	474-477	ett	_	Target[3]	9-3[13]	false[3]	2[3]	_	_	
+9-12	478-485	problem	_	Target[3]	9-3[13]	false[3]	2[3]	_	_	
+9-13	486-491	årets	_	Target[3]	9-3[13]	false[3]	2[3]	_	_	
+9-14	492-496	alla	_	Target[3]	9-3[13]	false[3]	2[3]	_	_	
+9-15	497-502	dagar	_	Target[3]	9-3[13]	false[3]	2[3]	_	_	
+9-16	502-503	.	_	_	_	_	_	_	_	
+
+#Text=Därför måste det skapas förutsättningar för fler att utbilda sig till sjuksköterskor.
+10-1	504-510	Därför	_	_	_	_	_	_	_	
+10-2	511-516	måste	_	_	_	_	_	_	_	
+10-3	517-520	det	_	_	_	_	_	_	_	
+10-4	521-527	skapas	_	_	_	_	_	_	_	
+10-5	528-543	förutsättningar	_	_	_	_	_	_	_	
+10-6	544-547	för	_	_	_	_	_	_	_	
+10-7	548-552	fler	_	_	_	_	_	_	_	
+10-8	553-556	att	_	_	_	_	_	_	_	
+10-9	557-564	utbilda	_	_	_	_	_	_	_	
+10-10	565-568	sig	_	_	_	_	_	_	_	
+10-11	569-573	till	_	_	_	_	_	_	_	
+10-12	574-588	sjuksköterskor	_	_	_	_	_	_	_	
+10-13	588-589	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	591-592	#	_	_	_	_	_	_	_	
+11-2	592-593	P	_	_	_	_	_	_	_	
+11-3	594-597	IMM	_	_	_	_	_	_	_	
+11-4	597-598	.	_	_	_	_	_	_	_	
+
+#Text=Sedan 2011 har antalet utbildningsplatser vid svenska universitet och högskolor blivit 16 000 färre.
+12-1	600-605	Sedan	_	_	_	_	_	_	_	
+12-2	606-610	2011	_	_	_	_	_	_	_	
+12-3	611-614	har	_	_	_	_	_	_	_	
+12-4	615-622	antalet	_	_	_	_	_	_	_	
+12-5	623-641	utbildningsplatser	_	_	_	_	_	_	_	
+12-6	642-645	vid	_	_	_	_	_	_	_	
+12-7	646-653	svenska	_	_	_	_	_	_	_	
+12-8	654-665	universitet	_	_	_	_	_	_	_	
+12-9	666-669	och	_	_	_	_	_	_	_	
+12-10	670-679	högskolor	_	_	_	_	_	_	_	
+12-11	680-686	blivit	_	_	_	_	_	_	_	
+12-12	687-689	16	_	_	_	_	_	_	_	
+12-13	690-693	000	_	_	_	_	_	_	_	
+12-14	694-699	färre	_	_	_	_	_	_	_	
+12-15	699-700	.	_	_	_	_	_	_	_	
+
+#Text=Nuvarande prognos pekar på att ytterligare 10 000 kommer försvinna fram till 2017.
+13-1	701-710	Nuvarande	_	_	_	_	_	_	_	
+13-2	711-718	prognos	_	_	_	_	_	_	_	
+13-3	719-724	pekar	_	_	_	_	_	_	_	
+13-4	725-727	på	_	_	_	_	_	_	_	
+13-5	728-731	att	_	_	_	_	_	_	_	
+13-6	732-743	ytterligare	_	_	_	_	_	_	_	
+13-7	744-746	10	_	_	_	_	_	_	_	
+13-8	747-750	000	_	_	_	_	_	_	_	
+13-9	751-757	kommer	_	_	_	_	_	_	_	
+13-10	758-767	försvinna	_	_	_	_	_	_	_	
+13-11	768-772	fram	_	_	_	_	_	_	_	
+13-12	773-777	till	_	_	_	_	_	_	_	
+13-13	778-782	2017	_	_	_	_	_	_	_	
+13-14	782-783	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt har satsningarna på enskilda områden, som läkarprogrammet, varit långt ifrån tillräckliga för att möta dagens vårdbehov.
+14-1	784-793	Samtidigt	_	_	_	_	_	_	_	
+14-2	794-797	har	_	Target	14-3[15]	false	1	_	_	
+14-3	798-810	satsningarna	*[15]|*[16]	_	_	_	_	_	_	
+14-4	811-813	på	*[15]|*[16]	_	_	_	_	_	_	
+14-5	814-822	enskilda	*[15]|*[16]	_	_	_	_	_	_	
+14-6	823-830	områden	*[15]|*[16]	_	_	_	_	_	_	
+14-7	830-831	,	*[15]|*[16]	_	_	_	_	_	_	
+14-8	832-835	som	*[15]|*[16]	_	_	_	_	_	_	
+14-9	836-851	läkarprogrammet	*[15]|*[16]	_	_	_	_	_	_	
+14-10	851-852	,	_	_	_	_	_	_	_	
+14-11	853-858	varit	_	Target[4]	14-3[16]	false[4]	1[4]	14-2[0_4]	_	
+14-12	859-864	långt	_	Target[4]	14-3[16]	false[4]	1[4]	_	_	
+14-13	865-870	ifrån	_	Target[4]	14-3[16]	false[4]	1[4]	_	_	
+14-14	871-883	tillräckliga	_	Target[4]	14-3[16]	false[4]	1[4]	_	_	
+14-15	884-887	för	_	_	_	_	_	_	_	
+14-16	888-891	att	_	_	_	_	_	_	_	
+14-17	892-896	möta	_	_	_	_	_	_	_	
+14-18	897-903	dagens	_	_	_	_	_	_	_	
+14-19	904-913	vårdbehov	_	_	_	_	_	_	_	
+14-20	913-914	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	916-917	#	_	_	_	_	_	_	_	
+15-2	917-918	P	_	_	_	_	_	_	_	
+15-3	919-922	IMM	_	_	_	_	_	_	_	
+15-4	922-923	.	_	_	_	_	_	_	_	
+
+#Text=Långtidsarbetslösheten bland Sveriges unga ökar samtidigt som det saknas arbetskraft inom många områden.
+16-1	925-947	Långtidsarbetslösheten	_	_	_	_	_	_	_	
+16-2	948-953	bland	_	_	_	_	_	_	_	
+16-3	954-962	Sveriges	_	_	_	_	_	_	_	
+16-4	963-967	unga	_	_	_	_	_	_	_	
+16-5	968-972	ökar	_	_	_	_	_	_	_	
+16-6	973-982	samtidigt	_	_	_	_	_	_	_	
+16-7	983-986	som	_	_	_	_	_	_	_	
+16-8	987-990	det	_	_	_	_	_	_	_	
+16-9	991-997	saknas	_	_	_	_	_	_	_	
+16-10	998-1009	arbetskraft	_	_	_	_	_	_	_	
+16-11	1010-1014	inom	_	_	_	_	_	_	_	
+16-12	1015-1020	många	_	_	_	_	_	_	_	
+16-13	1021-1028	områden	_	_	_	_	_	_	_	
+16-14	1028-1029	.	_	_	_	false	2	_	_	
+
+#Text=Ett område där vi ser en stor brist är specialistsjuksköterskor.
+17-1	1030-1033	Ett	*[17]	_	_	_	_	_	_	
+17-2	1034-1040	område	*[17]	_	_	_	_	_	_	
+17-3	1041-1044	där	*[17]	_	_	_	_	_	_	
+17-4	1045-1047	vi	*[17]	_	_	_	_	_	_	
+17-5	1048-1051	ser	*[17]	_	_	_	_	_	_	
+17-6	1052-1054	en	*[17]	_	_	_	_	_	_	
+17-7	1055-1059	stor	*[17]	Target[5]	17-1[17]	false[5]	2[5]	_	_	
+17-8	1060-1065	brist	*[17]	Target[5]	17-1[17]	false[5]	2[5]	_	_	
+17-9	1066-1068	är	*[17]	_	_	_	_	_	_	
+17-10	1069-1093	specialistsjuksköterskor	*[17]	_	_	_	_	_	_	
+17-11	1093-1094	.	*	_	_	_	_	_	18-1[18_0]|18-1[19_0]	
+
+#Text=Det leder till svårigheter för landstingen att tillsätta tjänster och tvingar dem till dyra lösningar med inhyrd personal.
+18-1	1095-1098	Det	*[18]|*[19]	_	_	_	_	_	_	
+18-2	1099-1104	leder	_	Target[6]	18-1[18]	false[6]	2[6]	_	_	
+18-3	1105-1109	till	_	Target[6]	18-1[18]	false[6]	2[6]	_	_	
+18-4	1110-1121	svårigheter	_	Target[6]	18-1[18]	false[6]	2[6]	_	_	
+18-5	1122-1125	för	_	_	_	_	_	_	_	
+18-6	1126-1137	landstingen	_	_	_	_	_	_	_	
+18-7	1138-1141	att	_	_	_	_	_	_	_	
+18-8	1142-1151	tillsätta	_	_	_	_	_	_	_	
+18-9	1152-1160	tjänster	_	_	_	_	_	_	_	
+18-10	1161-1164	och	_	_	_	_	_	_	_	
+18-11	1165-1172	tvingar	_	Target[7]	18-1[19]	false[7]	2[7]	_	_	
+18-12	1173-1176	dem	_	Target[7]	18-1[19]	false[7]	2[7]	_	_	
+18-13	1177-1181	till	_	Target[7]	18-1[19]	false[7]	2[7]	_	_	
+18-14	1182-1186	dyra	_	Target[7]	18-1[19]	false[7]	2[7]	_	_	
+18-15	1187-1196	lösningar	_	Target[7]	18-1[19]	false[7]	2[7]	_	_	
+18-16	1197-1200	med	_	_	_	_	_	_	_	
+18-17	1201-1207	inhyrd	_	_	_	_	_	_	_	
+18-18	1208-1216	personal	_	_	_	_	_	_	_	
+18-19	1216-1217	.	_	_	_	_	_	_	_	
+
+#Text=Uppgifter från landstingsstyrelsen i Stockholm visar till exempel att kostnaderna för inhyrda sjuksköterskor där ökat med 73 procent sedan 2009.
+19-1	1218-1227	Uppgifter	_	_	_	_	_	_	_	
+19-2	1228-1232	från	_	_	_	_	_	_	_	
+19-3	1233-1252	landstingsstyrelsen	_	_	_	_	_	_	_	
+19-4	1253-1254	i	_	_	_	_	_	_	_	
+19-5	1255-1264	Stockholm	_	_	_	_	_	_	_	
+19-6	1265-1270	visar	_	_	_	_	_	_	_	
+19-7	1271-1275	till	_	_	_	_	_	_	_	
+19-8	1276-1283	exempel	_	_	_	_	_	_	_	
+19-9	1284-1287	att	_	_	_	_	_	_	_	
+19-10	1288-1299	kostnaderna	_	_	_	_	_	_	_	
+19-11	1300-1303	för	_	_	_	_	_	_	_	
+19-12	1304-1311	inhyrda	_	_	_	_	_	_	_	
+19-13	1312-1326	sjuksköterskor	_	_	_	_	_	_	_	
+19-14	1327-1330	där	_	_	_	_	_	_	_	
+19-15	1331-1335	ökat	_	_	_	_	_	_	_	
+19-16	1336-1339	med	_	_	_	_	_	_	_	
+19-17	1340-1342	73	_	_	_	_	_	_	_	
+19-18	1343-1350	procent	_	_	_	_	_	_	_	
+19-19	1351-1356	sedan	_	_	_	_	_	_	_	
+19-20	1357-1361	2009	_	_	_	_	_	_	_	
+19-21	1361-1362	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1364-1365	#	_	_	_	_	_	_	_	
+20-2	1365-1366	P	_	_	_	_	_	_	_	
+20-3	1367-1370	IMM	_	_	_	_	_	_	_	
+20-4	1370-1371	.	_	_	_	_	_	_	_	
+
+#Text=Tillgången på specialistsjuksköterskor har minskat med en femtedel sedan 1995 då två tredjedelar av alla sjuksköterskor hade specialistkompetens, mot knappt hälften 2010.
+21-1	1373-1383	Tillgången	_	_	_	_	_	_	_	
+21-2	1384-1386	på	_	_	_	_	_	_	_	
+21-3	1387-1411	specialistsjuksköterskor	_	_	_	_	_	_	_	
+21-4	1412-1415	har	_	_	_	_	_	_	_	
+21-5	1416-1423	minskat	_	_	_	_	_	_	_	
+21-6	1424-1427	med	_	_	_	_	_	_	_	
+21-7	1428-1430	en	_	_	_	_	_	_	_	
+21-8	1431-1439	femtedel	_	_	_	_	_	_	_	
+21-9	1440-1445	sedan	_	_	_	_	_	_	_	
+21-10	1446-1450	1995	_	_	_	_	_	_	_	
+21-11	1451-1453	då	_	_	_	_	_	_	_	
+21-12	1454-1457	två	_	_	_	_	_	_	_	
+21-13	1458-1469	tredjedelar	_	_	_	_	_	_	_	
+21-14	1470-1472	av	_	_	_	_	_	_	_	
+21-15	1473-1477	alla	_	_	_	_	_	_	_	
+21-16	1478-1492	sjuksköterskor	_	_	_	_	_	_	_	
+21-17	1493-1497	hade	_	_	_	_	_	_	_	
+21-18	1498-1517	specialistkompetens	_	_	_	_	_	_	_	
+21-19	1517-1518	,	_	_	_	_	_	_	_	
+21-20	1519-1522	mot	_	_	_	_	_	_	_	
+21-21	1523-1529	knappt	_	_	_	_	_	_	_	
+21-22	1530-1537	hälften	_	_	_	_	_	_	_	
+21-23	1538-1542	2010	_	_	_	_	_	_	_	
+21-24	1542-1543	.	_	_	_	_	_	_	_	
+
+#Text=Att hyra in personal i stället för att se till att ordinarie personal stannar kvar, innebär ett ineffektivt användande av skattemedel och att landstingen dräneras på kunskap när den tillfälliga personalen försvinner.
+22-1	1544-1547	Att	*[20]	_	_	_	_	_	_	
+22-2	1548-1552	hyra	*[20]	_	_	_	_	_	_	
+22-3	1553-1555	in	*[20]	_	_	_	_	_	_	
+22-4	1556-1564	personal	*[20]	_	_	_	_	_	_	
+22-5	1565-1566	i	*[20]	_	_	_	_	_	_	
+22-6	1567-1574	stället	*[20]	_	_	_	_	_	_	
+22-7	1575-1578	för	*[20]	_	_	_	_	_	_	
+22-8	1579-1582	att	*[20]	_	_	_	_	_	_	
+22-9	1583-1585	se	*[20]	_	_	_	_	_	_	
+22-10	1586-1590	till	*[20]	_	_	_	_	_	_	
+22-11	1591-1594	att	*[20]	_	_	_	_	_	_	
+22-12	1595-1604	ordinarie	*[20]	_	_	_	_	_	_	
+22-13	1605-1613	personal	*[20]	_	_	_	_	_	_	
+22-14	1614-1621	stannar	*[20]	_	_	_	_	_	_	
+22-15	1622-1626	kvar	*[20]	_	_	_	_	_	_	
+22-16	1626-1627	,	_	_	_	_	_	_	_	
+22-17	1628-1635	innebär	_	_	_	_	_	_	_	
+22-18	1636-1639	ett	_	Target[8]	22-1[20]	false[8]	2[8]	_	_	
+22-19	1640-1651	ineffektivt	_	Target[8]	22-1[20]	false[8]	2[8]	_	_	
+22-20	1652-1662	användande	_	Target[8]	22-1[20]	false[8]	2[8]	_	_	
+22-21	1663-1665	av	_	Target[8]	22-1[20]	false[8]	2[8]	_	_	
+22-22	1666-1677	skattemedel	_	Target[8]	22-1[20]	false[8]	2[8]	_	_	
+22-23	1678-1681	och	_	_	_	_	_	_	_	
+22-24	1682-1685	att	_	_	_	_	_	_	_	
+22-25	1686-1697	landstingen	_	_	_	_	_	_	_	
+22-26	1698-1706	dräneras	_	_	_	_	_	_	_	
+22-27	1707-1709	på	_	_	_	_	_	_	_	
+22-28	1710-1717	kunskap	_	_	_	_	_	_	_	
+22-29	1718-1721	när	_	_	_	_	_	_	_	
+22-30	1722-1725	den	_	_	_	_	_	_	_	
+22-31	1726-1737	tillfälliga	_	_	_	_	_	_	_	
+22-32	1738-1748	personalen	_	_	_	_	_	_	_	
+22-33	1749-1759	försvinner	_	_	_	_	_	_	_	
+22-34	1759-1760	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1762-1763	#	_	_	_	_	_	_	_	
+23-2	1763-1764	P	_	_	_	_	_	_	_	
+23-3	1765-1768	IMM	_	_	_	_	_	_	_	
+23-4	1768-1769	.	_	_	_	_	_	_	_	
+
+#Text=Ska vi klara vård- och utbildningsbehovet måste mer satsas på högre utbildning.
+24-1	1771-1774	Ska	_	_	_	_	_	_	_	
+24-2	1775-1777	vi	_	_	_	_	_	_	_	
+24-3	1778-1783	klara	_	_	_	_	_	_	_	
+24-4	1784-1788	vård	_	_	_	_	_	_	_	
+24-5	1788-1789	-	_	_	_	_	_	_	_	
+24-6	1790-1793	och	_	_	_	_	_	_	_	
+24-7	1794-1812	utbildningsbehovet	_	_	_	_	_	_	_	
+24-8	1813-1818	måste	_	_	_	_	_	_	_	
+24-9	1819-1822	mer	_	_	_	_	_	_	_	
+24-10	1823-1829	satsas	_	_	_	_	_	_	_	
+24-11	1830-1832	på	_	_	_	_	_	_	_	
+24-12	1833-1838	högre	_	_	_	_	_	_	_	
+24-13	1839-1849	utbildning	_	_	_	_	_	_	_	
+24-14	1849-1850	.	_	_	_	_	_	_	_	
+
+#Text=För få sjuksköterskor tar steget att vidareutbilda sig när de ekonomiska incitamenten är små.
+25-1	1851-1854	För	*[21]	Target[9]	25-1[21]	false[9]	2[9]	_	_	
+25-2	1855-1857	få	*[21]	Target[9]	25-1[21]	false[9]	2[9]	_	_	
+25-3	1858-1872	sjuksköterskor	*[21]	_	_	_	_	_	_	
+25-4	1873-1876	tar	*[21]	_	_	_	_	_	_	
+25-5	1877-1883	steget	*[21]	_	_	_	_	_	_	
+25-6	1884-1887	att	*[21]	_	_	_	_	_	_	
+25-7	1888-1901	vidareutbilda	*[21]	_	_	_	_	_	_	
+25-8	1902-1905	sig	*[21]	_	_	_	_	_	_	
+25-9	1906-1909	när	*[21]	_	_	_	_	_	_	
+25-10	1910-1912	de	*[21]	_	_	_	_	_	_	
+25-11	1913-1923	ekonomiska	*[21]	_	_	_	_	_	_	
+25-12	1924-1936	incitamenten	*[21]	_	_	_	_	_	_	
+25-13	1937-1939	är	*[21]	_	_	_	_	_	_	
+25-14	1940-1943	små	*[21]	_	_	_	_	_	_	
+25-15	1943-1944	.	_	_	_	_	_	_	_	
+
+#Text=Den som vill vidareutbilda sig måste gå ner i arbetstid eller ta tjänstledigt för att studera, samtidigt som löneökningen därefter blir marginell.
+26-1	1945-1948	Den	_	_	_	_	_	_	_	
+26-2	1949-1952	som	_	_	_	_	_	_	_	
+26-3	1953-1957	vill	_	_	_	_	_	_	_	
+26-4	1958-1971	vidareutbilda	_	_	_	_	_	_	_	
+26-5	1972-1975	sig	_	_	_	_	_	_	_	
+26-6	1976-1981	måste	_	_	_	_	_	_	_	
+26-7	1982-1984	gå	_	_	_	_	_	_	_	
+26-8	1985-1988	ner	_	_	_	_	_	_	_	
+26-9	1989-1990	i	_	_	_	_	_	_	_	
+26-10	1991-2000	arbetstid	_	_	_	_	_	_	_	
+26-11	2001-2006	eller	_	_	_	_	_	_	_	
+26-12	2007-2009	ta	_	_	_	_	_	_	_	
+26-13	2010-2022	tjänstledigt	_	_	_	_	_	_	_	
+26-14	2023-2026	för	_	_	_	_	_	_	_	
+26-15	2027-2030	att	_	_	_	_	_	_	_	
+26-16	2031-2038	studera	_	_	_	_	_	_	_	
+26-17	2038-2039	,	_	_	_	_	_	_	_	
+26-18	2040-2049	samtidigt	_	_	_	_	_	_	_	
+26-19	2050-2053	som	_	_	_	_	_	_	_	
+26-20	2054-2066	löneökningen	_	_	_	_	_	_	_	
+26-21	2067-2075	därefter	_	_	_	_	_	_	_	
+26-22	2076-2080	blir	_	_	_	_	_	_	_	
+26-23	2081-2090	marginell	_	_	_	_	_	_	_	
+26-24	2090-2091	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2093-2094	#	_	_	_	_	_	_	_	
+27-2	2094-2095	P	_	_	_	_	_	_	_	
+27-3	2096-2099	IMM	_	_	_	_	_	_	_	
+27-4	2099-2100	.	_	_	_	_	_	_	_	
+
+#Text=För att komma till rätta med bristen på specialistsjuksköterskor vill Miljöpartiet satsa på en ny modell där studier vid högskola och universitet ges parallellt med arbete.
+28-1	2102-2105	För	*[22]	_	_	_	_	_	_	
+28-2	2106-2109	att	*[22]	_	_	_	_	_	_	
+28-3	2110-2115	komma	*[22]	_	_	_	_	_	_	
+28-4	2116-2120	till	*[22]	_	_	_	_	_	_	
+28-5	2121-2126	rätta	*[22]	_	_	_	_	_	_	
+28-6	2127-2130	med	*[22]	_	_	_	_	_	_	
+28-7	2131-2138	bristen	*[22]|*[23]	Target	28-7[23]	false	2	_	_	
+28-8	2139-2141	på	*[22]|*[23]	_	_	_	_	_	_	
+28-9	2142-2166	specialistsjuksköterskor	*[22]|*[23]	_	_	_	_	_	_	
+28-10	2167-2171	vill	_	Source;Target;Target	28-11;28-1[22];28-12[24]	false	4	_	_	
+28-11	2172-2184	Miljöpartiet	*	_	_	_	_	_	_	
+28-12	2185-2190	satsa	*[24]	_	_	_	_	_	_	
+28-13	2191-2193	på	*[24]	_	_	_	_	_	_	
+28-14	2194-2196	en	*[24]	_	_	_	_	_	_	
+28-15	2197-2199	ny	*[24]	_	_	_	_	_	_	
+28-16	2200-2206	modell	*[24]	_	_	_	_	_	_	
+28-17	2207-2210	där	*[24]	_	_	_	_	_	_	
+28-18	2211-2218	studier	*[24]	_	_	_	_	_	_	
+28-19	2219-2222	vid	*[24]	_	_	_	_	_	_	
+28-20	2223-2231	högskola	*[24]	_	_	_	_	_	_	
+28-21	2232-2235	och	*[24]	_	_	_	_	_	_	
+28-22	2236-2247	universitet	*[24]	_	_	_	_	_	_	
+28-23	2248-2251	ges	*[24]	_	_	_	_	_	_	
+28-24	2252-2262	parallellt	*[24]	_	_	_	_	_	_	
+28-25	2263-2266	med	*[24]	_	_	_	_	_	_	
+28-26	2267-2273	arbete	*[24]	_	_	_	_	_	_	
+28-27	2273-2274	.	_	_	_	_	_	_	_	
+
+#Text=Därför lägger vi en satsning på 242 miljoner kronor som ger 230 studieplatser med specialisttjänstgöring inom psykiatri, äldreomsorg och avancerad nivå i glesbygdsmedicin.
+29-1	2275-2281	Därför	_	_	_	_	_	_	_	
+29-2	2282-2288	lägger	_	_	_	_	_	_	_	
+29-3	2289-2291	vi	_	_	_	_	_	_	_	
+29-4	2292-2294	en	_	_	_	_	_	_	_	
+29-5	2295-2303	satsning	_	_	_	_	_	_	_	
+29-6	2304-2306	på	_	_	_	_	_	_	_	
+29-7	2307-2310	242	_	_	_	_	_	_	_	
+29-8	2311-2319	miljoner	_	_	_	_	_	_	_	
+29-9	2320-2326	kronor	_	_	_	_	_	_	_	
+29-10	2327-2330	som	_	_	_	_	_	_	_	
+29-11	2331-2334	ger	_	_	_	_	_	_	_	
+29-12	2335-2338	230	_	_	_	_	_	_	_	
+29-13	2339-2352	studieplatser	_	_	_	_	_	_	_	
+29-14	2353-2356	med	_	_	_	_	_	_	_	
+29-15	2357-2379	specialisttjänstgöring	_	_	_	_	_	_	_	
+29-16	2380-2384	inom	_	_	_	_	_	_	_	
+29-17	2385-2394	psykiatri	_	_	_	_	_	_	_	
+29-18	2394-2395	,	_	_	_	_	_	_	_	
+29-19	2396-2407	äldreomsorg	_	_	_	_	_	_	_	
+29-20	2408-2411	och	_	_	_	_	_	_	_	
+29-21	2412-2421	avancerad	_	_	_	_	_	_	_	
+29-22	2422-2426	nivå	_	_	_	_	_	_	_	
+29-23	2427-2428	i	_	_	_	_	_	_	_	
+29-24	2429-2445	glesbygdsmedicin	_	_	_	_	_	_	_	
+29-25	2445-2446	.	_	_	_	_	_	_	_	
+
+#Text=Intresserade kommuner och landsting ska erbjudas 75 procent av kostnaden för utbildningen.
+30-1	2447-2459	Intresserade	_	_	_	_	_	_	_	
+30-2	2460-2468	kommuner	_	_	_	_	_	_	_	
+30-3	2469-2472	och	_	_	_	_	_	_	_	
+30-4	2473-2482	landsting	_	_	_	_	_	_	_	
+30-5	2483-2486	ska	_	_	_	_	_	_	_	
+30-6	2487-2495	erbjudas	_	_	_	_	_	_	_	
+30-7	2496-2498	75	_	_	_	_	_	_	_	
+30-8	2499-2506	procent	_	_	_	_	_	_	_	
+30-9	2507-2509	av	_	_	_	_	_	_	_	
+30-10	2510-2519	kostnaden	_	_	_	_	_	_	_	
+30-11	2520-2523	för	_	_	_	_	_	_	_	
+30-12	2524-2536	utbildningen	_	_	_	_	_	_	_	
+30-13	2536-2537	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2539-2540	#	_	_	_	_	_	_	_	
+31-2	2540-2541	P	_	_	_	_	_	_	_	
+31-3	2542-2545	IMM	_	_	_	_	_	_	_	
+31-4	2545-2546	.	_	_	_	_	_	_	_	
+
+#Text=Alliansregeringen har valt att prioritera bort utbildning till förmån för skattesänkningar.
+32-1	2548-2565	Alliansregeringen	*	_	_	_	_	_	_	
+32-2	2566-2569	har	_	_	_	_	_	_	_	
+32-3	2570-2574	valt	_	_	_	_	_	_	_	
+32-4	2575-2578	att	_	_	_	_	_	_	_	
+32-5	2579-2589	prioritera	_	_	_	_	_	_	_	
+32-6	2590-2594	bort	_	_	_	_	_	_	_	
+32-7	2595-2605	utbildning	_	_	_	_	_	_	_	
+32-8	2606-2610	till	_	_	_	_	_	_	_	
+32-9	2611-2617	förmån	_	_	_	_	_	_	_	
+32-10	2618-2621	för	_	_	_	_	_	_	_	
+32-11	2622-2638	skattesänkningar	_	_	_	_	_	_	_	
+32-12	2638-2639	.	_	Target	32-1	false	2	_	_	
+
+#Text=Nu ser vi resultatet av den politiken.
+33-1	2640-2642	Nu	_	_	_	_	_	_	_	
+33-2	2643-2646	ser	_	_	_	_	_	_	_	
+33-3	2647-2649	vi	_	_	_	_	_	_	_	
+33-4	2650-2660	resultatet	_	_	_	_	_	_	_	
+33-5	2661-2663	av	_	_	_	_	_	_	_	
+33-6	2664-2667	den	_	_	_	_	_	_	_	
+33-7	2668-2677	politiken	_	_	_	_	_	_	_	
+33-8	2677-2678	.	_	_	_	_	_	_	_	
+
+#Text=Det är dags att ta tag i problemen med konkreta satsningar för en vård i världsklass där patientsäkerheten och de anställdas villkor sätts i fokus.
+34-1	2679-2682	Det	_	_	_	_	_	_	_	
+34-2	2683-2685	är	_	_	_	_	_	_	_	
+34-3	2686-2690	dags	_	_	_	_	_	_	_	
+34-4	2691-2694	att	_	_	_	_	_	_	_	
+34-5	2695-2697	ta	_	_	_	_	_	_	_	
+34-6	2698-2701	tag	_	_	_	_	_	_	_	
+34-7	2702-2703	i	_	_	_	_	_	_	_	
+34-8	2704-2713	problemen	_	_	_	_	_	_	_	
+34-9	2714-2717	med	_	_	_	_	_	_	_	
+34-10	2718-2726	konkreta	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-11	2727-2737	satsningar	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-12	2738-2741	för	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-13	2742-2744	en	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-14	2745-2749	vård	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-15	2750-2751	i	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-16	2752-2763	världsklass	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-17	2764-2767	där	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-18	2768-2785	patientsäkerheten	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-19	2786-2789	och	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-20	2790-2792	de	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-21	2793-2803	anställdas	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-22	2804-2811	villkor	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-23	2812-2817	sätts	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-24	2818-2819	i	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-25	2820-2825	fokus	*[25]	Target[10]	34-10[25]	false[10]	5[10]	_	_	
+34-26	2825-2826	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2828-2829	#	_	_	_	_	_	_	_	
+35-2	2829-2830	P	_	_	_	_	_	_	_	
+35-3	2831-2834	IMM	_	_	_	_	_	_	_	
+35-4	2834-2835	.	_	_	_	_	_	_	_	
+
+#Text=Helene Öberg.
+36-1	2837-2843	Helene	_	_	_	_	_	_	_	
+36-2	2844-2849	Öberg	_	_	_	_	_	_	_	
+36-3	2849-2850	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2852-2853	#	_	_	_	_	_	_	_	
+37-2	2853-2854	P	_	_	_	_	_	_	_	
+37-3	2855-2858	IMM	_	_	_	_	_	_	_	
+37-4	2858-2859	.	_	_	_	_	_	_	_	
+
+#Text=Oppositionslandstingsråd och sammankallande i partistyrelsen (MP).
+38-1	2861-2885	Oppositionslandstingsråd	_	_	_	_	_	_	_	
+38-2	2886-2889	och	_	_	_	_	_	_	_	
+38-3	2890-2904	sammankallande	_	_	_	_	_	_	_	
+38-4	2905-2906	i	_	_	_	_	_	_	_	
+38-5	2907-2921	partistyrelsen	_	_	_	_	_	_	_	
+38-6	2922-2923	(	_	_	_	_	_	_	_	
+38-7	2923-2925	MP	_	_	_	_	_	_	_	
+38-8	2925-2926	)	_	_	_	_	_	_	_	
+38-9	2926-2927	.	_	_	_	_	_	_	_	

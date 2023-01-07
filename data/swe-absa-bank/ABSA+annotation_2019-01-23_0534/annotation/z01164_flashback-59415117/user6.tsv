@@ -1,0 +1,215 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Politiska konsekvenser om SD bildar regering med M efter 2018.
+3-1	18-27	Politiska	_	_	_	_	_	_	
+3-2	28-40	konsekvenser	_	_	_	_	_	_	
+3-3	41-43	om	_	_	_	_	_	_	
+3-4	44-46	SD	_	_	_	_	_	_	
+3-5	47-53	bildar	_	_	_	_	_	_	
+3-6	54-62	regering	_	_	_	_	_	_	
+3-7	63-66	med	_	_	_	_	_	_	
+3-8	67-68	M	_	_	_	_	_	_	
+3-9	69-74	efter	_	_	_	_	_	_	
+3-10	75-79	2018	_	_	_	_	_	_	
+3-11	79-80	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	82-83	#	_	_	_	_	_	_	
+4-2	83-84	P	_	_	_	_	_	_	
+4-3	85-88	IMM	_	_	_	_	_	_	
+4-4	88-89	.	_	_	_	_	_	_	
+
+#Text=Eftersom det finns många på Flashback som stödjer Sverigedemokraterna vore det intressant att höra vilka förväntningar ni har om Sverigedemokraterna bildar regering med M.
+5-1	91-99	Eftersom	_	_	_	_	_	_	
+5-2	100-103	det	_	_	_	_	_	_	
+5-3	104-109	finns	_	_	_	_	_	_	
+5-4	110-115	många	*[3]	_	_	_	_	_	
+5-5	116-118	på	*[3]	_	_	_	_	_	
+5-6	119-128	Flashback	*[3]	_	_	_	_	_	
+5-7	129-132	som	_	_	_	_	_	_	
+5-8	133-140	stödjer	_	Target;Source	5-9;5-4[3]	false	4	_	
+5-9	141-160	Sverigedemokraterna	*	_	_	_	_	_	
+5-10	161-165	vore	_	_	_	false	4	_	
+5-11	166-169	det	_	_	_	_	_	_	
+5-12	170-180	intressant	_	Target	5-13[4]	false	4	5-10	
+5-13	181-184	att	*[4]	_	_	_	_	_	
+5-14	185-189	höra	*[4]	_	_	_	_	_	
+5-15	190-195	vilka	*[4]	_	_	_	_	_	
+5-16	196-209	förväntningar	*[4]	_	_	_	_	_	
+5-17	210-212	ni	*[4]	_	_	_	_	_	
+5-18	213-216	har	*[4]	_	_	_	_	_	
+5-19	217-219	om	*[4]	_	_	_	_	_	
+5-20	220-239	Sverigedemokraterna	*[4]	_	_	_	_	_	
+5-21	240-246	bildar	*[4]	_	_	_	_	_	
+5-22	247-255	regering	*[4]	_	_	_	_	_	
+5-23	256-259	med	*[4]	_	_	_	_	_	
+5-24	260-261	M	*[4]	_	_	_	_	_	
+5-25	261-262	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	264-265	#	_	_	_	_	_	_	
+6-2	265-266	P	_	_	_	_	_	_	
+6-3	267-270	IMM	_	_	_	_	_	_	
+6-4	270-271	.	_	_	_	_	_	_	
+
+#Text=Jag väljer det scenariot eftersom Åkesson tydligt önskat samarbete med M och att det inte känns realistiskt att tro att SD når över  50 procent i valet.
+7-1	273-276	Jag	_	_	_	_	_	_	
+7-2	277-283	väljer	_	_	_	_	_	_	
+7-3	284-287	det	_	_	_	_	_	_	
+7-4	288-297	scenariot	_	_	_	_	_	_	
+7-5	298-306	eftersom	_	_	_	_	_	_	
+7-6	307-314	Åkesson	*	_	_	_	_	_	
+7-7	315-322	tydligt	_	Target;Source[1]	7-9[5];7-6	false[1]	4[1]	_	
+7-8	323-329	önskat	_	Target;Source[1]	7-9[5];7-6	false[1]	4[1]	_	
+7-9	330-339	samarbete	*[5]	_	_	_	_	_	
+7-10	340-343	med	*[5]	_	_	_	_	_	
+7-11	344-345	M	*[5]	_	_	_	_	_	
+7-12	346-349	och	_	_	_	_	_	_	
+7-13	350-353	att	_	_	_	_	_	_	
+7-14	354-357	det	_	_	_	_	_	_	
+7-15	358-362	inte	_	Target[2]	7-18[6]	false[2]	2[2]	_	
+7-16	363-368	känns	_	Target[2]	7-18[6]	false[2]	2[2]	_	
+7-17	369-380	realistiskt	_	Target[2]	7-18[6]	false[2]	2[2]	_	
+7-18	381-384	att	*[6]	_	_	_	_	_	
+7-19	385-388	tro	*[6]	_	_	_	_	_	
+7-20	389-392	att	*[6]	_	_	_	_	_	
+7-21	393-395	SD	*[6]	_	_	_	_	_	
+7-22	396-399	når	*[6]	_	_	_	_	_	
+7-23	400-404	över	*[6]	_	_	_	_	_	
+7-24	406-408	50	*[6]	_	_	_	_	_	
+7-25	409-416	procent	*[6]	_	_	_	_	_	
+7-26	417-418	i	*[6]	_	_	_	_	_	
+7-27	419-424	valet	*[6]	_	_	_	_	_	
+7-28	424-425	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	427-428	#	_	_	_	_	_	_	
+8-2	428-429	P	_	_	_	_	_	_	
+8-3	430-433	IMM	_	_	_	_	_	_	
+8-4	433-434	.	_	_	_	_	_	_	
+
+#Text=Vad händer t.ex år 2020: finns det inga invandrare kvar i Sverige?.
+9-1	436-439	Vad	_	_	_	_	_	_	
+9-2	440-446	händer	_	_	_	_	_	_	
+9-3	447-451	t.ex	_	_	_	_	_	_	
+9-4	452-454	år	_	_	_	_	_	_	
+9-5	455-459	2020	_	_	_	_	_	_	
+9-6	459-460	:	_	_	_	_	_	_	
+9-7	461-466	finns	_	_	_	_	_	_	
+9-8	467-470	det	_	_	_	_	_	_	
+9-9	471-475	inga	_	_	_	_	_	_	
+9-10	476-486	invandrare	_	_	_	_	_	_	
+9-11	487-491	kvar	_	_	_	_	_	_	
+9-12	492-493	i	_	_	_	_	_	_	
+9-13	494-501	Sverige	_	_	_	_	_	_	
+9-14	501-502	?	_	_	_	_	_	_	
+9-15	502-503	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	505-506	#	_	_	_	_	_	_	
+10-2	506-507	P	_	_	_	_	_	_	
+10-3	508-511	IMM	_	_	_	_	_	_	
+10-4	511-512	.	_	_	_	_	_	_	
+
+#Text=Kommer Sverige att gå ur EU?.
+11-1	514-520	Kommer	_	_	_	_	_	_	
+11-2	521-528	Sverige	_	_	_	_	_	_	
+11-3	529-532	att	_	_	_	_	_	_	
+11-4	533-535	gå	_	_	_	_	_	_	
+11-5	536-538	ur	_	_	_	_	_	_	
+11-6	539-541	EU	_	_	_	_	_	_	
+11-7	541-542	?	_	_	_	_	_	_	
+11-8	542-543	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	545-546	#	_	_	_	_	_	_	
+12-2	546-547	P	_	_	_	_	_	_	
+12-3	548-551	IMM	_	_	_	_	_	_	
+12-4	551-552	.	_	_	_	_	_	_	
+
+#Text=Kommer Sverige att gå  med i NATO?.
+13-1	554-560	Kommer	_	_	_	_	_	_	
+13-2	561-568	Sverige	_	_	_	_	_	_	
+13-3	569-572	att	_	_	_	_	_	_	
+13-4	573-575	gå	_	_	_	_	_	_	
+13-5	577-580	med	_	_	_	_	_	_	
+13-6	581-582	i	_	_	_	_	_	_	
+13-7	583-587	NATO	_	_	_	_	_	_	
+13-8	587-588	?	_	_	_	_	_	_	
+13-9	588-589	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	591-592	#	_	_	_	_	_	_	
+14-2	592-593	P	_	_	_	_	_	_	
+14-3	594-597	IMM	_	_	_	_	_	_	
+14-4	597-598	.	_	_	_	_	_	_	
+
+#Text=Vilka relationer har vi med USA,Europa och Ryssland mm?.
+15-1	600-605	Vilka	_	_	_	_	_	_	
+15-2	606-616	relationer	_	_	_	_	_	_	
+15-3	617-620	har	_	_	_	_	_	_	
+15-4	621-623	vi	_	_	_	_	_	_	
+15-5	624-627	med	_	_	_	_	_	_	
+15-6	628-631	USA	_	_	_	_	_	_	
+15-7	631-632	,	_	_	_	_	_	_	
+15-8	632-638	Europa	_	_	_	_	_	_	
+15-9	639-642	och	_	_	_	_	_	_	
+15-10	643-651	Ryssland	_	_	_	_	_	_	
+15-11	652-654	mm	_	_	_	_	_	_	
+15-12	654-655	?	_	_	_	_	_	_	
+15-13	655-656	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	658-659	#	_	_	_	_	_	_	
+16-2	659-660	P	_	_	_	_	_	_	
+16-3	661-664	IMM	_	_	_	_	_	_	
+16-4	664-665	.	_	_	_	_	_	_	
+
+#Text=Kommer skatterna att minska eller öka?.
+17-1	667-673	Kommer	_	_	_	_	_	_	
+17-2	674-683	skatterna	_	_	_	_	_	_	
+17-3	684-687	att	_	_	_	_	_	_	
+17-4	688-694	minska	_	_	_	_	_	_	
+17-5	695-700	eller	_	_	_	_	_	_	
+17-6	701-704	öka	_	_	_	_	_	_	
+17-7	704-705	?	_	_	_	_	_	_	
+17-8	705-706	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	708-709	#	_	_	_	_	_	_	
+18-2	709-710	P	_	_	_	_	_	_	
+18-3	711-714	IMM	_	_	_	_	_	_	
+18-4	714-715	.	_	_	_	_	_	_	
+
+#Text=Sjukvård och skola.
+19-1	717-725	Sjukvård	_	_	_	_	_	_	
+19-2	726-729	och	_	_	_	_	_	_	
+19-3	730-735	skola	_	_	_	_	_	_	
+19-4	735-736	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	738-739	#	_	_	_	_	_	_	
+20-2	739-740	P	_	_	_	_	_	_	
+20-3	741-744	IMM	_	_	_	_	_	_	
+20-4	744-745	.	_	_	_	_	_	_	
+
+#Text=Bidrag osv.
+21-1	747-753	Bidrag	_	_	_	_	_	_	
+21-2	754-757	osv	_	_	_	_	_	_	
+21-3	757-758	.	_	_	_	_	_	_	

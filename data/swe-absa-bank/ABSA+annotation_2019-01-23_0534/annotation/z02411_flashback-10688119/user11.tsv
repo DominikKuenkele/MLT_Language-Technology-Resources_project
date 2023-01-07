@@ -1,0 +1,185 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Sossar klagar på underskott på äldrevården.
+3-1	18-24	Sossar	*	_	_	_	_	
+3-2	25-31	klagar	_	Target	3-1	false	2	
+3-3	32-34	på	_	_	_	_	_	
+3-4	35-45	underskott	_	_	_	_	_	
+3-5	46-48	på	_	_	_	_	_	
+3-6	49-60	äldrevården	_	_	_	_	_	
+3-7	60-61	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	
+4-2	64-65	P	_	_[2]	_	false[2]	2[2]	
+4-3	66-69	IMM	_	_[2]	_	false[2]	2[2]	
+4-4	69-70	.	_	_	_	_	_	
+
+#Text=Vad man blir för bannad över sossar som spyr galla över summan 122 miljoner är att man sedan själv vägrar visa bokslut för flyktingar och vägrar ha folkomröstning om flytkingar som troligtvist kostar.
+5-1	72-75	Vad	_	_	_	_	_	
+5-2	76-79	man	_	_	_	_	_	
+5-3	80-84	blir	_	_	_	_	_	
+5-4	85-88	för	_	Target[3]	5-7	false[3]	2[3]	
+5-5	89-95	bannad	_	Target[3]	5-7	false[3]	2[3]	
+5-6	96-100	över	_	_	_	_	_	
+5-7	101-107	sossar	*	_	_	_	_	
+5-8	108-111	som	_	_	_	_	_	
+5-9	112-116	spyr	_	Target[4]	5-7	false[4]	2[4]	
+5-10	117-122	galla	_	Target[4]	5-7	false[4]	2[4]	
+5-11	123-127	över	_	_	_	_	_	
+5-12	128-134	summan	_	_	_	_	_	
+5-13	135-138	122	_	_	_	_	_	
+5-14	139-147	miljoner	_	_	_	_	_	
+5-15	148-150	är	_	_	_	_	_	
+5-16	151-154	att	_	_	_	_	_	
+5-17	155-158	man	_	_	_	_	_	
+5-18	159-164	sedan	_	_	_	_	_	
+5-19	165-170	själv	_	_	_	_	_	
+5-20	171-177	vägrar	_	_	_	_	_	
+5-21	178-182	visa	_	_	_	_	_	
+5-22	183-190	bokslut	_	_	_	_	_	
+5-23	191-194	för	_	_	_	_	_	
+5-24	195-205	flyktingar	_	_	_	_	_	
+5-25	206-209	och	_	_	_	_	_	
+5-26	210-216	vägrar	_	_	_	_	_	
+5-27	217-219	ha	_	_	_	_	_	
+5-28	220-234	folkomröstning	_	_	_	_	_	
+5-29	235-237	om	_	_	_	_	_	
+5-30	238-248	flytkingar	_	_	_	_	_	
+5-31	249-252	som	_	_	_	_	_	
+5-32	253-264	troligtvist	_	_	_	_	_	
+5-33	265-271	kostar	_	_	_	_	_	
+5-34	271-272	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	274-275	#	_	_	_	_	_	
+6-2	275-276	P	_	_	_	_	_	
+6-3	277-280	IMM	_	_	_	_	_	
+6-4	280-281	.	_	_	_	_	_	
+
+#Text=Rätt lustigt att här är det så vikgit med budget.
+7-1	283-287	Rätt	_	Target[5]	7-4[9]	true[5]	4[5]	
+7-2	288-295	lustigt	_	Target[5]	7-4[9]	true[5]	4[5]	
+7-3	296-299	att	_	_	_	_	_	
+7-4	300-303	här	*[9]	_	_	_	_	
+7-5	304-306	är	*[9]	_	_	_	_	
+7-6	307-310	det	*[9]	_	_	_	_	
+7-7	311-313	så	*[9]	_	_	_	_	
+7-8	314-320	vikgit	*[9]	_	_	_	_	
+7-9	321-324	med	*[9]	_	_	_	_	
+7-10	325-331	budget	*[9]	_	_	_	_	
+7-11	331-332	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	334-335	#	_	_	_	_	_	
+8-2	335-336	P	_	_[6]	_	false[6]	2[6]	
+8-3	337-340	IMM	_	_[6]	_	false[6]	2[6]	
+8-4	340-341	.	_	_	_	_	_	
+
+#Text=Men inte när det gäller flyktigar, inget tak, ingen budget?
+9-1	343-346	Men	_	_	_	_	_	
+9-2	347-351	inte	_	_	_	_	_	
+9-3	352-355	när	_	_	_	_	_	
+9-4	356-359	det	_	_	_	_	_	
+9-5	360-366	gäller	_	_	_	_	_	
+9-6	367-376	flyktigar	_	_	_	_	_	
+9-7	376-377	,	_	_	_	_	_	
+9-8	378-383	inget	_	_	_	_	_	
+9-9	384-387	tak	_	_	_	_	_	
+9-10	387-388	,	_	_	_	_	_	
+9-11	389-394	ingen	_	_	_	_	_	
+9-12	395-401	budget	_	_	_	_	_	
+9-13	401-402	?	_	_	_	_	_	
+
+#Text=De tycker det är ok att betala 180.000 till kommunen för en vuxen flykting medans ett soc fall går på 70.000.
+10-1	403-405	De	*	_	_	_	_	
+10-2	406-412	tycker	_	_	_	_	_	
+10-3	413-416	det	_	_	_	_	_	
+10-4	417-419	är	_	Source;Target[7]	10-1;10-7[10]	false[7]	4[7]	
+10-5	420-422	ok	_	Source;Target[7]	10-1;10-7[10]	false[7]	4[7]	
+10-6	423-426	att	_	_	_	_	_	
+10-7	427-433	betala	*[10]	_	_	_	_	
+10-8	434-441	180.000	*[10]	_	_	_	_	
+10-9	442-446	till	*[10]	_	_	_	_	
+10-10	447-455	kommunen	*[10]	_	_	_	_	
+10-11	456-459	för	*[10]	_	_	_	_	
+10-12	460-462	en	*[10]	_	_	_	_	
+10-13	463-468	vuxen	*[10]	_	_	_	_	
+10-14	469-477	flykting	*[10]	_	_	_	_	
+10-15	478-484	medans	_	_	_	_	_	
+10-16	485-488	ett	_	_	_	_	_	
+10-17	489-492	soc	_	_	_	_	_	
+10-18	493-497	fall	_	_	_	_	_	
+10-19	498-501	går	_	_	_	_	_	
+10-20	502-504	på	_	_	_	_	_	
+10-21	505-511	70.000	_	_	_	_	_	
+10-22	511-512	.	_	_	_	_	_	
+
+#Text=Ska man då gnälla på en summa över 122 miljoner i äldrevården?.
+11-1	513-516	Ska	_	_	_	_	_	
+11-2	517-520	man	*	_	_	_	_	
+11-3	521-523	då	_	_	_	_	_	
+11-4	524-530	gnälla	_	Target	11-2	false	2	
+11-5	531-533	på	_	_	_	_	_	
+11-6	534-536	en	_	_	_	_	_	
+11-7	537-542	summa	_	_	_	_	_	
+11-8	543-547	över	_	_	_	_	_	
+11-9	548-551	122	_	_	_	_	_	
+11-10	552-560	miljoner	_	_	_	_	_	
+11-11	561-562	i	_	_	_	_	_	
+11-12	563-574	äldrevården	_	_	_	_	_	
+11-13	574-575	?	_	_	_	_	_	
+11-14	575-576	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	578-579	#	_	_	_	_	_	
+12-2	579-580	P	_	_	_	_	_	
+12-3	581-584	IMM	_	_	_	_	_	
+12-4	584-585	.	_	_	_	_	_	
+
+#Text=Som att det var så mycket bättre med sossarna och världens högsta skattetryck?
+13-1	587-590	Som	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-2	591-594	att	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-3	595-598	det	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-4	599-602	var	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-5	603-605	så	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-6	606-612	mycket	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-7	613-619	bättre	_	Target[8]	13-9[11]	false[8]	2[8]	
+13-8	620-623	med	_	_	_	_	_	
+13-9	624-632	sossarna	*[11]	_	_	_	_	
+13-10	633-636	och	*[11]	_	_	_	_	
+13-11	637-645	världens	*[11]	_	_	_	_	
+13-12	646-652	högsta	*[11]	_	_	_	_	
+13-13	653-664	skattetryck	*[11]	_	_	_	_	
+13-14	664-665	?	_	_	_	_	_	
+
+#Text=Men var tog dom sossemiljarderna vägen, som man inte redovisar??.
+14-1	666-669	Men	_	_	_	_	_	
+14-2	670-673	var	_	_	_	_	_	
+14-3	674-677	tog	_	_	_	_	_	
+14-4	678-681	dom	_	_	_	_	_	
+14-5	682-698	sossemiljarderna	_	_	_	_	_	
+14-6	699-704	vägen	_	_	_	_	_	
+14-7	704-705	,	_	_	_	_	_	
+14-8	706-709	som	_	_	_	_	_	
+14-9	710-713	man	_	_	_	_	_	
+14-10	714-718	inte	_	_	_	_	_	
+14-11	719-728	redovisar	_	_	_	_	_	
+14-12	728-729	?	_	_	_	_	_	
+14-13	729-730	?	_	_	_	_	_	
+14-14	730-731	.	_	_	_	_	_	

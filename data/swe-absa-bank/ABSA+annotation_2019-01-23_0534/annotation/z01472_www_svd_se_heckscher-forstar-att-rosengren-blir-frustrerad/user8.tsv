@@ -1,0 +1,638 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Heckscher: Förstår att Rosengren blir frustrerad.
+3-1	18-27	Heckscher	_	_	_	_	_	_	
+3-2	27-28	:	_	_	_	_	_	_	
+3-3	29-36	Förstår	_	_	_	_	_	_	
+3-4	37-40	att	_	_	_	_	_	_	
+3-5	41-50	Rosengren	*[8]|*[9]	_	_	_	_	15-1[0_8]	
+3-6	51-55	blir	_	Source[1]	3-5[8]	false[1]	2[1]	_	
+3-7	56-66	frustrerad	_	Source[1]	3-5[8]	false[1]	2[1]	_	
+3-8	66-67	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	69-70	#	_	_	_	_	_	_	
+4-2	70-71	P	_	_	_	_	_	_	
+4-3	72-75	IMM	_	_	_	_	_	_	
+4-4	75-76	.	_	_	_	_	_	_	
+
+#Text=I senaste numret av Advokatsamfundets utmärkta tidskrift betonar generalsekreteraren Anne Ramberg betydelsen av att bland annat domare och åklagare, men även advokater, ska respektera och verka för den goda rättsordningen.
+5-1	78-79	I	_	_	_	_	_	_	
+5-2	80-87	senaste	_	_	_	_	_	_	
+5-3	88-94	numret	_	_	_	_	_	_	
+5-4	95-97	av	_	_	_	_	_	_	
+5-5	98-115	Advokatsamfundets	*[10]	_	_	_	_	_	
+5-6	116-124	utmärkta	*[10]	Target	5-5[10]	false	5	_	
+5-7	125-134	tidskrift	*[10]	_	_	_	_	_	
+5-8	135-142	betonar	_	_	_	_	_	_	
+5-9	143-162	generalsekreteraren	*[11]	_	_	_	_	_	
+5-10	163-167	Anne	*[11]	_	_	_	_	_	
+5-11	168-175	Ramberg	*[11]	_	_	_	_	_	
+5-12	176-186	betydelsen	_	_	_	_	_	_	
+5-13	187-189	av	_	_	_	_	_	_	
+5-14	190-193	att	_	_	_	_	_	_	
+5-15	194-199	bland	*[12]	_	_	_	_	_	
+5-16	200-205	annat	*[12]	_	_	_	_	_	
+5-17	206-212	domare	*[12]	_	_	_	_	_	
+5-18	213-216	och	*[12]	_	_	_	_	_	
+5-19	217-225	åklagare	*[12]	_	_	_	_	_	
+5-20	225-226	,	*[12]	_	_	_	_	_	
+5-21	227-230	men	*[12]	_	_	_	_	_	
+5-22	231-235	även	*[12]	_	_	_	_	_	
+5-23	236-245	advokater	*[12]	_	_	_	_	_	
+5-24	245-246	,	_	_	_	_	_	_	
+5-25	247-250	ska	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-26	251-261	respektera	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-27	262-265	och	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-28	266-271	verka	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-29	272-275	för	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-30	276-279	den	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-31	280-284	goda	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-32	285-299	rättsordningen	_	Source;Target[2]	5-9[11];5-15[12]	false[2]	4[2]	_	
+5-33	299-300	.	_	_	_	_	_	_	
+
+#Text=Det är lätt att hålla med.
+6-1	301-304	Det	_	_	_	_	_	_	
+6-2	305-307	är	_	_	_	_	_	_	
+6-3	308-312	lätt	_	_	_	_	_	_	
+6-4	313-316	att	_	_	_	_	_	_	
+6-5	317-322	hålla	_	_	_	_	_	_	
+6-6	323-326	med	_	_	_	_	_	_	
+6-7	326-327	.	_	_	_	_	_	_	
+
+#Text=Advokater har som fristående aktörer utanför staten ett särskilt ansvar.
+7-1	328-337	Advokater	_	_	_	_	_	_	
+7-2	338-341	har	_	_	_	_	_	_	
+7-3	342-345	som	_	_	_	_	_	_	
+7-4	346-356	fristående	_	_	_	_	_	_	
+7-5	357-364	aktörer	_	_	_	_	_	_	
+7-6	365-372	utanför	_	_	_	_	_	_	
+7-7	373-379	staten	_	_	_	_	_	_	
+7-8	380-383	ett	_	_	_	_	_	_	
+7-9	384-392	särskilt	_	_	_	_	_	_	
+7-10	393-399	ansvar	_	_	_	_	_	_	
+7-11	399-400	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	402-403	#	_	_	_	_	_	_	
+8-2	403-404	P	_	_	_	_	_	_	
+8-3	405-408	IMM	_	_	_	_	_	_	
+8-4	408-409	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	411-414	Det	_	_	_	_	_	_	
+9-2	415-418	här	_	_	_	_	_	_	
+9-3	419-421	är	_	_	_	_	_	_	
+9-4	422-424	en	_	_	_	_	_	_	
+9-5	425-439	argumenterande	_	_	_	_	_	_	
+9-6	440-444	text	_	_	_	_	_	_	
+9-7	445-448	med	_	_	_	_	_	_	
+9-8	449-454	syfte	_	_	_	_	_	_	
+9-9	455-458	att	_	_	_	_	_	_	
+9-10	459-466	påverka	_	_	_	_	_	_	
+9-11	466-467	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	468-477	Åsikterna	_	_	_	_	_	_	
+10-2	478-481	som	_	_	_	_	_	_	
+10-3	482-490	uttrycks	_	_	_	_	_	_	
+10-4	491-493	är	_	_	_	_	_	_	
+10-5	494-505	skribentens	_	_	_	_	_	_	
+10-6	506-510	egna	_	_	_	_	_	_	
+10-7	510-511	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	513-514	#	_	_	_	_	_	_	
+11-2	514-515	P	_	_	_	_	_	_	
+11-3	516-519	IMM	_	_	_	_	_	_	
+11-4	519-520	.	_	_	_	_	_	_	
+
+#Text=En välvillig tolkning av advokaten Björn Rosengrens utfall mot Regeringsrätten (Brännpunkt 12 juli) skulle kunna vara att det är vad han ägnar sig åt.
+12-1	522-524	En	_	_	_	_	_	_	
+12-2	525-534	välvillig	_	_	_	_	_	_	
+12-3	535-543	tolkning	_	_	_	_	_	_	
+12-4	544-546	av	_	_	_	_	_	_	
+12-5	547-556	advokaten	_	_	_	_	_	_	
+12-6	557-562	Björn	_	_	_	_	_	_	
+12-7	563-573	Rosengrens	_	_	_	_	_	_	
+12-8	574-580	utfall	_	_	_	_	_	_	
+12-9	581-584	mot	_	_	_	_	_	_	
+12-10	585-600	Regeringsrätten	_	_	_	_	_	_	
+12-11	601-602	(	_	_	_	_	_	_	
+12-12	602-612	Brännpunkt	_	_	_	_	_	_	
+12-13	613-615	12	_	_	_	_	_	_	
+12-14	616-620	juli	_	_	_	_	_	_	
+12-15	620-621	)	_	_	_	_	_	_	
+12-16	622-628	skulle	_	_	_	_	_	_	
+12-17	629-634	kunna	_	_	_	_	_	_	
+12-18	635-639	vara	_	_	_	_	_	_	
+12-19	640-643	att	_	_	_	_	_	_	
+12-20	644-647	det	_	_	_	_	_	_	
+12-21	648-650	är	_	_	_	_	_	_	
+12-22	651-654	vad	_	_	_	_	_	_	
+12-23	655-658	han	_	_	_	_	_	_	
+12-24	659-664	ägnar	_	_	_	_	_	_	
+12-25	665-668	sig	_	_	_	_	_	_	
+12-26	669-671	åt	_	_	_	_	_	_	
+12-27	671-672	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	674-675	#	_	_	_	_	_	_	
+13-2	675-676	P	_	_	_	_	_	_	
+13-3	677-680	IMM	_	_	_	_	_	_	
+13-4	680-681	.	_	_	_	_	_	_	
+
+#Text=Men angreppet är lite väl våldsamt för att utan vidare passa in på en sådan beskrivning.
+14-1	683-686	Men	_	_	_	_	_	_	
+14-2	687-696	angreppet	*[13]	_	_	_	_	_	
+14-3	697-699	är	*[13]	Target[3]	14-2[13]	false[3]	2[3]	_	
+14-4	700-704	lite	*[13]	Target[3]	14-2[13]	false[3]	2[3]	_	
+14-5	705-708	väl	*[13]	Target[3]	14-2[13]	false[3]	2[3]	_	
+14-6	709-717	våldsamt	*[13]	Target[3]	14-2[13]	false[3]	2[3]	_	
+14-7	718-721	för	*[13]	_	_	_	_	_	
+14-8	722-725	att	*[13]	_	_	_	_	_	
+14-9	726-730	utan	*[13]	_	_	_	_	_	
+14-10	731-737	vidare	*[13]	_	_	_	_	_	
+14-11	738-743	passa	*[13]	_	_	_	_	_	
+14-12	744-746	in	*[13]	_	_	_	_	_	
+14-13	747-749	på	*[13]	_	_	_	_	_	
+14-14	750-752	en	*[13]	_	_	_	_	_	
+14-15	753-758	sådan	*[13]	_	_	_	_	_	
+14-16	759-770	beskrivning	*[13]	_	_	_	_	_	
+14-17	770-771	.	_	_	_	_	_	_	
+
+#Text=Han tar i ordentligt; rättsröta, brott mot de mänskliga rättigheterna, politrukverksamhet.
+15-1	772-775	Han	*	_	_	_	_	_	
+15-2	776-779	tar	_	_	_	_	_	_	
+15-3	780-781	i	_	_	_	_	_	_	
+15-4	782-792	ordentligt	_	_	_	_	_	_	
+15-5	792-793	;	_	_	_	_	_	_	
+15-6	794-803	rättsröta	_	Source[4]	15-1	false[4]	1[4]	_	
+15-7	803-804	,	_	Source[4]	15-1	false[4]	1[4]	_	
+15-8	805-810	brott	_	Source[4]	15-1	false[4]	1[4]	_	
+15-9	811-814	mot	_	Source[4]	15-1	false[4]	1[4]	_	
+15-10	815-817	de	_	Source[4]	15-1	false[4]	1[4]	_	
+15-11	818-827	mänskliga	_	Source[4]	15-1	false[4]	1[4]	_	
+15-12	828-841	rättigheterna	_	Source[4]	15-1	false[4]	1[4]	_	
+15-13	841-842	,	_	Source[4]	15-1	false[4]	1[4]	_	
+15-14	843-861	politrukverksamhet	_	Source[4]	15-1	false[4]	1[4]	_	
+15-15	861-862	.	_	_	_	_	_	_	
+
+#Text=Vi sätter oss över lagen och vägrar enskilda människor sin grundlagsenliga rätt.
+16-1	863-865	Vi	*	_	_	_	_	_	
+16-2	866-872	sätter	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-3	873-876	oss	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-4	877-881	över	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-5	882-887	lagen	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-6	888-891	och	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-7	892-898	vägrar	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-8	899-907	enskilda	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-9	908-917	människor	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-10	918-921	sin	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-11	922-937	grundlagsenliga	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-12	938-942	rätt	_	Target;Source[5]	16-1;3-5[9]	false[5]	1[5]	_	
+16-13	942-943	.	_	_	_	_	_	_	
+
+#Text=Det är inte dåligt!.
+17-1	944-947	Det	_	_[6]	_	true[6]	4[6]	_	
+17-2	948-950	är	_	_[6]	_	true[6]	4[6]	_	
+17-3	951-955	inte	_	_[6]	_	true[6]	4[6]	_	
+17-4	956-962	dåligt	_	_[6]	_	true[6]	4[6]	_	
+17-5	962-963	!	_	_	_	_	_	_	
+17-6	963-964	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	966-967	#	_	_	_	_	_	_	
+18-2	967-968	P	_	_	_	_	_	_	
+18-3	969-972	IMM	_	_	_	_	_	_	
+18-4	972-973	.	_	_	_	_	_	_	
+
+#Text=Bakgrunden är några mål i Regeringsrätten om så kallad rättsprövning.
+19-1	975-985	Bakgrunden	_	_	_	_	_	_	
+19-2	986-988	är	_	_	_	_	_	_	
+19-3	989-994	några	_	_	_	_	_	_	
+19-4	995-998	mål	_	_	_	_	_	_	
+19-5	999-1000	i	_	_	_	_	_	_	
+19-6	1001-1016	Regeringsrätten	_	_	_	_	_	_	
+19-7	1017-1019	om	_	_	_	_	_	_	
+19-8	1020-1022	så	_	_	_	_	_	_	
+19-9	1023-1029	kallad	_	_	_	_	_	_	
+19-10	1030-1043	rättsprövning	_	_	_	_	_	_	
+19-11	1043-1044	.	_	_	_	_	_	_	
+
+#Text=Det är, enkelt uttryckt, laglighetsprövning av vissa regeringsbeslut.
+20-1	1045-1048	Det	_	_	_	_	_	_	
+20-2	1049-1051	är	_	_	_	_	_	_	
+20-3	1051-1052	,	_	_	_	_	_	_	
+20-4	1053-1059	enkelt	_	_	_	_	_	_	
+20-5	1060-1068	uttryckt	_	_	_	_	_	_	
+20-6	1068-1069	,	_	_	_	_	_	_	
+20-7	1070-1088	laglighetsprövning	_	_	_	_	_	_	
+20-8	1089-1091	av	_	_	_	_	_	_	
+20-9	1092-1097	vissa	_	_	_	_	_	_	
+20-10	1098-1113	regeringsbeslut	_	_	_	_	_	_	
+20-11	1113-1114	.	_	_	_	_	_	_	
+
+#Text=Domstolen upphäver regeringens beslut om det strider mot någon rättsregel.
+21-1	1115-1124	Domstolen	_	_	_	_	_	_	
+21-2	1125-1133	upphäver	_	_	_	_	_	_	
+21-3	1134-1145	regeringens	_	_	_	_	_	_	
+21-4	1146-1152	beslut	_	_	_	_	_	_	
+21-5	1153-1155	om	_	_	_	_	_	_	
+21-6	1156-1159	det	_	_	_	_	_	_	
+21-7	1160-1167	strider	_	_	_	_	_	_	
+21-8	1168-1171	mot	_	_	_	_	_	_	
+21-9	1172-1177	någon	_	_	_	_	_	_	
+21-10	1178-1188	rättsregel	_	_	_	_	_	_	
+21-11	1188-1189	.	_	_	_	_	_	_	
+
+#Text=Advokaten Rosengren har på sina klienters vägnar förlorat i Regeringsrätten.
+22-1	1190-1199	Advokaten	_	_	_	_	_	_	
+22-2	1200-1209	Rosengren	_	_	_	_	_	_	
+22-3	1210-1213	har	_	_	_	_	_	_	
+22-4	1214-1216	på	_	_	_	_	_	_	
+22-5	1217-1221	sina	_	_	_	_	_	_	
+22-6	1222-1231	klienters	_	_	_	_	_	_	
+22-7	1232-1238	vägnar	_	_	_	_	_	_	
+22-8	1239-1247	förlorat	_	_	_	_	_	_	
+22-9	1248-1249	i	_	_	_	_	_	_	
+22-10	1250-1265	Regeringsrätten	_	_	_	_	_	_	
+22-11	1265-1266	.	_	_	_	_	_	_	
+
+#Text=Det ena fallet rörde bygget av Botniabanan.
+23-1	1267-1270	Det	_	_	_	_	_	_	
+23-2	1271-1274	ena	_	_	_	_	_	_	
+23-3	1275-1281	fallet	_	_	_	_	_	_	
+23-4	1282-1287	rörde	_	_	_	_	_	_	
+23-5	1288-1294	bygget	_	_	_	_	_	_	
+23-6	1295-1297	av	_	_	_	_	_	_	
+23-7	1298-1309	Botniabanan	_	_	_	_	_	_	
+23-8	1309-1310	.	_	_	_	_	_	_	
+
+#Text=Det ärendet har förts vidare till Europadomstolen, och jag avstår därför från att kommentera det.
+24-1	1311-1314	Det	_	_	_	_	_	_	
+24-2	1315-1322	ärendet	_	_	_	_	_	_	
+24-3	1323-1326	har	_	_	_	_	_	_	
+24-4	1327-1332	förts	_	_	_	_	_	_	
+24-5	1333-1339	vidare	_	_	_	_	_	_	
+24-6	1340-1344	till	_	_	_	_	_	_	
+24-7	1345-1360	Europadomstolen	_	_	_	_	_	_	
+24-8	1360-1361	,	_	_	_	_	_	_	
+24-9	1362-1365	och	_	_	_	_	_	_	
+24-10	1366-1369	jag	_	_	_	_	_	_	
+24-11	1370-1376	avstår	_	_	_	_	_	_	
+24-12	1377-1383	därför	_	_	_	_	_	_	
+24-13	1384-1388	från	_	_	_	_	_	_	
+24-14	1389-1392	att	_	_	_	_	_	_	
+24-15	1393-1403	kommentera	_	_	_	_	_	_	
+24-16	1404-1407	det	_	_	_	_	_	_	
+24-17	1407-1408	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1410-1411	#	_	_	_	_	_	_	
+25-2	1411-1412	P	_	_	_	_	_	_	
+25-3	1413-1416	IMM	_	_	_	_	_	_	
+25-4	1416-1417	.	_	_	_	_	_	_	
+
+#Text=Det andra fallet rörde planerna att göra det möjligt att använda Gamla skogsinstitutet i Nobelparken i Stockholm som ambassadkansli.
+26-1	1419-1422	Det	_	_	_	_	_	_	
+26-2	1423-1428	andra	_	_	_	_	_	_	
+26-3	1429-1435	fallet	_	_	_	_	_	_	
+26-4	1436-1441	rörde	_	_	_	_	_	_	
+26-5	1442-1450	planerna	_	_	_	_	_	_	
+26-6	1451-1454	att	_	_	_	_	_	_	
+26-7	1455-1459	göra	_	_	_	_	_	_	
+26-8	1460-1463	det	_	_	_	_	_	_	
+26-9	1464-1471	möjligt	_	_	_	_	_	_	
+26-10	1472-1475	att	_	_	_	_	_	_	
+26-11	1476-1483	använda	_	_	_	_	_	_	
+26-12	1484-1489	Gamla	_	_	_	_	_	_	
+26-13	1490-1505	skogsinstitutet	_	_	_	_	_	_	
+26-14	1506-1507	i	_	_	_	_	_	_	
+26-15	1508-1519	Nobelparken	_	_	_	_	_	_	
+26-16	1520-1521	i	_	_	_	_	_	_	
+26-17	1522-1531	Stockholm	_	_	_	_	_	_	
+26-18	1532-1535	som	_	_	_	_	_	_	
+26-19	1536-1550	ambassadkansli	_	_	_	_	_	_	
+26-20	1550-1551	.	_	_	_	_	_	_	
+
+#Text=Advokat Rosengren företrädde där ett antal närboende varav dock ingen var bosatt i någon fastighet inom planområdet, ägde någon fastighet som påverkades av planen eller på annan grund var berörd av planen annat än indirekt.
+27-1	1552-1559	Advokat	_	_	_	_	_	_	
+27-2	1560-1569	Rosengren	_	_	_	_	_	_	
+27-3	1570-1580	företrädde	_	_	_	_	_	_	
+27-4	1581-1584	där	_	_	_	_	_	_	
+27-5	1585-1588	ett	_	_	_	_	_	_	
+27-6	1589-1594	antal	_	_	_	_	_	_	
+27-7	1595-1604	närboende	_	_	_	_	_	_	
+27-8	1605-1610	varav	_	_	_	_	_	_	
+27-9	1611-1615	dock	_	_	_	_	_	_	
+27-10	1616-1621	ingen	_	_	_	_	_	_	
+27-11	1622-1625	var	_	_	_	_	_	_	
+27-12	1626-1632	bosatt	_	_	_	_	_	_	
+27-13	1633-1634	i	_	_	_	_	_	_	
+27-14	1635-1640	någon	_	_	_	_	_	_	
+27-15	1641-1650	fastighet	_	_	_	_	_	_	
+27-16	1651-1655	inom	_	_	_	_	_	_	
+27-17	1656-1667	planområdet	_	_	_	_	_	_	
+27-18	1667-1668	,	_	_	_	_	_	_	
+27-19	1669-1673	ägde	_	_	_	_	_	_	
+27-20	1674-1679	någon	_	_	_	_	_	_	
+27-21	1680-1689	fastighet	_	_	_	_	_	_	
+27-22	1690-1693	som	_	_	_	_	_	_	
+27-23	1694-1704	påverkades	_	_	_	_	_	_	
+27-24	1705-1707	av	_	_	_	_	_	_	
+27-25	1708-1714	planen	_	_	_	_	_	_	
+27-26	1715-1720	eller	_	_	_	_	_	_	
+27-27	1721-1723	på	_	_	_	_	_	_	
+27-28	1724-1729	annan	_	_	_	_	_	_	
+27-29	1730-1735	grund	_	_	_	_	_	_	
+27-30	1736-1739	var	_	_	_	_	_	_	
+27-31	1740-1746	berörd	_	_	_	_	_	_	
+27-32	1747-1749	av	_	_	_	_	_	_	
+27-33	1750-1756	planen	_	_	_	_	_	_	
+27-34	1757-1762	annat	_	_	_	_	_	_	
+27-35	1763-1765	än	_	_	_	_	_	_	
+27-36	1766-1774	indirekt	_	_	_	_	_	_	
+27-37	1774-1775	.	_	_	_	_	_	_	
+
+#Text=Regeringsrätten fann att sökandena inte visat att regeringens beslut innefattat en prövning av deras civila rättigheter i den mening som avses i Europakonventionen och avvisade ansökningarna.
+28-1	1776-1791	Regeringsrätten	_	_	_	_	_	_	
+28-2	1792-1796	fann	_	_	_	_	_	_	
+28-3	1797-1800	att	_	_	_	_	_	_	
+28-4	1801-1810	sökandena	_	_	_	_	_	_	
+28-5	1811-1815	inte	_	_	_	_	_	_	
+28-6	1816-1821	visat	_	_	_	_	_	_	
+28-7	1822-1825	att	_	_	_	_	_	_	
+28-8	1826-1837	regeringens	_	_	_	_	_	_	
+28-9	1838-1844	beslut	_	_	_	_	_	_	
+28-10	1845-1855	innefattat	_	_	_	_	_	_	
+28-11	1856-1858	en	_	_	_	_	_	_	
+28-12	1859-1867	prövning	_	_	_	_	_	_	
+28-13	1868-1870	av	_	_	_	_	_	_	
+28-14	1871-1876	deras	_	_	_	_	_	_	
+28-15	1877-1883	civila	_	_	_	_	_	_	
+28-16	1884-1895	rättigheter	_	_	_	_	_	_	
+28-17	1896-1897	i	_	_	_	_	_	_	
+28-18	1898-1901	den	_	_	_	_	_	_	
+28-19	1902-1908	mening	_	_	_	_	_	_	
+28-20	1909-1912	som	_	_	_	_	_	_	
+28-21	1913-1918	avses	_	_	_	_	_	_	
+28-22	1919-1920	i	_	_	_	_	_	_	
+28-23	1921-1939	Europakonventionen	_	_	_	_	_	_	
+28-24	1940-1943	och	_	_	_	_	_	_	
+28-25	1944-1952	avvisade	_	_	_	_	_	_	
+28-26	1953-1966	ansökningarna	_	_	_	_	_	_	
+28-27	1966-1967	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1969-1970	#	_	_	_	_	_	_	
+29-2	1970-1971	P	_	_	_	_	_	_	
+29-3	1972-1975	IMM	_	_	_	_	_	_	
+29-4	1975-1976	.	_	_	_	_	_	_	
+
+#Text=Man kan naturligtvis ha olika uppfattningar i själva sakfrågan.
+30-1	1978-1981	Man	_	_	_	_	_	_	
+30-2	1982-1985	kan	_	_	_	_	_	_	
+30-3	1986-1998	naturligtvis	_	_	_	_	_	_	
+30-4	1999-2001	ha	_	_	_	_	_	_	
+30-5	2002-2007	olika	_	_	_	_	_	_	
+30-6	2008-2021	uppfattningar	_	_	_	_	_	_	
+30-7	2022-2023	i	_	_	_	_	_	_	
+30-8	2024-2030	själva	_	_	_	_	_	_	
+30-9	2031-2040	sakfrågan	_	_	_	_	_	_	
+30-10	2040-2041	.	_	_	_	_	_	_	
+
+#Text=Men regelverket ställer tämligen höga krav för att ett projekt av aktuellt slag ska anses beröra kringboendes civila rättigheter.
+31-1	2042-2045	Men	_	_	_	_	_	_	
+31-2	2046-2057	regelverket	_	_	_	_	_	_	
+31-3	2058-2065	ställer	_	_	_	_	_	_	
+31-4	2066-2074	tämligen	_	_	_	_	_	_	
+31-5	2075-2079	höga	_	_	_	_	_	_	
+31-6	2080-2084	krav	_	_	_	_	_	_	
+31-7	2085-2088	för	_	_	_	_	_	_	
+31-8	2089-2092	att	_	_	_	_	_	_	
+31-9	2093-2096	ett	_	_	_	_	_	_	
+31-10	2097-2104	projekt	_	_	_	_	_	_	
+31-11	2105-2107	av	_	_	_	_	_	_	
+31-12	2108-2116	aktuellt	_	_	_	_	_	_	
+31-13	2117-2121	slag	_	_	_	_	_	_	
+31-14	2122-2125	ska	_	_	_	_	_	_	
+31-15	2126-2131	anses	_	_	_	_	_	_	
+31-16	2132-2138	beröra	_	_	_	_	_	_	
+31-17	2139-2151	kringboendes	_	_	_	_	_	_	
+31-18	2152-2158	civila	_	_	_	_	_	_	
+31-19	2159-2170	rättigheter	_	_	_	_	_	_	
+31-20	2170-2171	.	_	_	_	_	_	_	
+
+#Text=Det räcker knappast med att möjligheten inskränks att använda vissa promenadvägar eller att någon tvingas se en halv meter hög mur några hundra meter från sin bostad för att någons mänskliga rättigheter ska anses hotade.
+32-1	2172-2175	Det	_	_	_	_	_	_	
+32-2	2176-2182	räcker	_	_	_	_	_	_	
+32-3	2183-2191	knappast	_	_	_	_	_	_	
+32-4	2192-2195	med	_	_	_	_	_	_	
+32-5	2196-2199	att	_	_	_	_	_	_	
+32-6	2200-2211	möjligheten	_	_	_	_	_	_	
+32-7	2212-2221	inskränks	_	_	_	_	_	_	
+32-8	2222-2225	att	_	_	_	_	_	_	
+32-9	2226-2233	använda	_	_	_	_	_	_	
+32-10	2234-2239	vissa	_	_	_	_	_	_	
+32-11	2240-2253	promenadvägar	_	_	_	_	_	_	
+32-12	2254-2259	eller	_	_	_	_	_	_	
+32-13	2260-2263	att	_	_	_	_	_	_	
+32-14	2264-2269	någon	_	_	_	_	_	_	
+32-15	2270-2277	tvingas	_	_	_	_	_	_	
+32-16	2278-2280	se	_	_	_	_	_	_	
+32-17	2281-2283	en	_	_	_	_	_	_	
+32-18	2284-2288	halv	_	_	_	_	_	_	
+32-19	2289-2294	meter	_	_	_	_	_	_	
+32-20	2295-2298	hög	_	_	_	_	_	_	
+32-21	2299-2302	mur	_	_	_	_	_	_	
+32-22	2303-2308	några	_	_	_	_	_	_	
+32-23	2309-2315	hundra	_	_	_	_	_	_	
+32-24	2316-2321	meter	_	_	_	_	_	_	
+32-25	2322-2326	från	_	_	_	_	_	_	
+32-26	2327-2330	sin	_	_	_	_	_	_	
+32-27	2331-2337	bostad	_	_	_	_	_	_	
+32-28	2338-2341	för	_	_	_	_	_	_	
+32-29	2342-2345	att	_	_	_	_	_	_	
+32-30	2346-2352	någons	_	_	_	_	_	_	
+32-31	2353-2362	mänskliga	_	_	_	_	_	_	
+32-32	2363-2374	rättigheter	_	_	_	_	_	_	
+32-33	2375-2378	ska	_	_	_	_	_	_	
+32-34	2379-2384	anses	_	_	_	_	_	_	
+32-35	2385-2391	hotade	_	_	_	_	_	_	
+32-36	2391-2392	.	_	_	_	_	_	_	
+
+#Text=Advokat Rosengren tror att detta beslut innebär att en tivolianläggning eller en rockkonsertarena på granntomten inte heller skulle kunna angripas.
+33-1	2393-2400	Advokat	_	_	_	_	_	_	
+33-2	2401-2410	Rosengren	_	_	_	_	_	_	
+33-3	2411-2415	tror	_	_	_	_	_	_	
+33-4	2416-2419	att	_	_	_	_	_	_	
+33-5	2420-2425	detta	_	_	_	_	_	_	
+33-6	2426-2432	beslut	_	_	_	_	_	_	
+33-7	2433-2440	innebär	_	_	_	_	_	_	
+33-8	2441-2444	att	_	_	_	_	_	_	
+33-9	2445-2447	en	_	_	_	_	_	_	
+33-10	2448-2464	tivolianläggning	_	_	_	_	_	_	
+33-11	2465-2470	eller	_	_	_	_	_	_	
+33-12	2471-2473	en	_	_	_	_	_	_	
+33-13	2474-2490	rockkonsertarena	_	_	_	_	_	_	
+33-14	2491-2493	på	_	_	_	_	_	_	
+33-15	2494-2505	granntomten	_	_	_	_	_	_	
+33-16	2506-2510	inte	_	_	_	_	_	_	
+33-17	2511-2517	heller	_	_	_	_	_	_	
+33-18	2518-2524	skulle	_	_	_	_	_	_	
+33-19	2525-2530	kunna	_	_	_	_	_	_	
+33-20	2531-2539	angripas	_	_	_	_	_	_	
+33-21	2539-2540	.	_	_	_	_	_	_	
+
+#Text=Det är inte omöjligt att Regeringsrätten skulle göra en annan bedömning.
+34-1	2541-2544	Det	_	_	_	_	_	_	
+34-2	2545-2547	är	_	_	_	_	_	_	
+34-3	2548-2552	inte	_	_	_	_	_	_	
+34-4	2553-2561	omöjligt	_	_	_	_	_	_	
+34-5	2562-2565	att	_	_	_	_	_	_	
+34-6	2566-2581	Regeringsrätten	_	_	_	_	_	_	
+34-7	2582-2588	skulle	_	_	_	_	_	_	
+34-8	2589-2593	göra	_	_	_	_	_	_	
+34-9	2594-2596	en	_	_	_	_	_	_	
+34-10	2597-2602	annan	_	_	_	_	_	_	
+34-11	2603-2612	bedömning	_	_	_	_	_	_	
+34-12	2612-2613	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2615-2616	#	_	_	_	_	_	_	
+35-2	2616-2617	P	_	_	_	_	_	_	
+35-3	2618-2621	IMM	_	_	_	_	_	_	
+35-4	2621-2622	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+36-1	2624-2637	Skräddarsydda	_	_	_	_	_	_	
+36-2	2638-2644	kurser	_	_	_	_	_	_	
+36-3	2645-2646	i	_	_	_	_	_	_	
+36-4	2647-2652	ämnen	_	_	_	_	_	_	
+36-5	2653-2656	som	_	_	_	_	_	_	
+36-6	2657-2668	intresserar	_	_	_	_	_	_	
+36-7	2669-2672	och	_	_	_	_	_	_	
+36-8	2673-2682	engagerar	_	_	_	_	_	_	
+36-9	2683-2687	både	_	_	_	_	_	_	
+36-10	2688-2693	kropp	_	_	_	_	_	_	
+36-11	2694-2697	och	_	_	_	_	_	_	
+36-12	2698-2702	själ	_	_	_	_	_	_	
+36-13	2702-2703	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2705-2706	#	_	_	_	_	_	_	
+37-2	2706-2707	P	_	_	_	_	_	_	
+37-3	2708-2711	IMM	_	_	_	_	_	_	
+37-4	2711-2712	.	_	_	_	_	_	_	
+
+#Text=Jag kan förstå att advokaten Rosengren blir frustrerad när han inte vinner i domstol.
+38-1	2714-2717	Jag	_	_	_	_	_	_	
+38-2	2718-2721	kan	_	_	_	_	_	_	
+38-3	2722-2728	förstå	_	_	_	_	_	_	
+38-4	2729-2732	att	_	_	_	_	_	_	
+38-5	2733-2742	advokaten	*[14]	_	_	_	_	_	
+38-6	2743-2752	Rosengren	*[14]	_	_	_	_	_	
+38-7	2753-2757	blir	_	Target;Source[7]	38-9[15];38-5[14]	false[7]	2[7]	_	
+38-8	2758-2768	frustrerad	_	Target;Source[7]	38-9[15];38-5[14]	false[7]	2[7]	_	
+38-9	2769-2772	när	*[15]	_	_	_	_	_	
+38-10	2773-2776	han	*[15]	_	_	_	_	_	
+38-11	2777-2781	inte	*[15]	_	_	_	_	_	
+38-12	2782-2788	vinner	*[15]	_	_	_	_	_	
+38-13	2789-2790	i	*[15]	_	_	_	_	_	
+38-14	2791-2798	domstol	*[15]	_	_	_	_	_	
+38-15	2798-2799	.	_	_	_	_	_	_	
+
+#Text=Men sådant händer.
+39-1	2800-2803	Men	_	_	_	_	_	_	
+39-2	2804-2810	sådant	_	_	_	_	_	_	
+39-3	2811-2817	händer	_	_	_	_	_	_	
+39-4	2817-2818	.	_	_	_	_	_	_	
+
+#Text=Och det väcker förvåning att han väljer ett så kraftigt artilleri för att leva ut sin frustration.
+40-1	2819-2822	Och	_	_	_	_	_	_	
+40-2	2823-2826	det	_	_	_	_	_	_	
+40-3	2827-2833	väcker	_	_	_	_	_	_	
+40-4	2834-2843	förvåning	_	_	_	_	_	_	
+40-5	2844-2847	att	_	_	_	_	_	_	
+40-6	2848-2851	han	_	_	_	_	_	_	
+40-7	2852-2858	väljer	_	_	_	_	_	_	
+40-8	2859-2862	ett	_	_	_	_	_	_	
+40-9	2863-2865	så	_	_	_	_	_	_	
+40-10	2866-2874	kraftigt	_	_	_	_	_	_	
+40-11	2875-2884	artilleri	_	_	_	_	_	_	
+40-12	2885-2888	för	_	_	_	_	_	_	
+40-13	2889-2892	att	_	_	_	_	_	_	
+40-14	2893-2897	leva	_	_	_	_	_	_	
+40-15	2898-2900	ut	_	_	_	_	_	_	
+40-16	2901-2904	sin	_	_	_	_	_	_	
+40-17	2905-2916	frustration	_	_	_	_	_	_	
+40-18	2916-2917	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2919-2920	#	_	_	_	_	_	_	
+41-2	2920-2921	P	_	_	_	_	_	_	
+41-3	2922-2925	IMM	_	_	_	_	_	_	
+41-4	2925-2926	.	_	_	_	_	_	_	
+
+#Text=STEN HECKSCHER.
+42-1	2928-2932	STEN	_	_	_	_	_	_	
+42-2	2933-2942	HECKSCHER	_	_	_	_	_	_	
+42-3	2942-2943	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2945-2946	#	_	_	_	_	_	_	
+43-2	2946-2947	P	_	_	_	_	_	_	
+43-3	2948-2951	IMM	_	_	_	_	_	_	
+43-4	2951-2952	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+44-1	2954-2962	Redaktör	_	_	_	_	_	_	
+44-2	2962-2963	:	_	_	_	_	_	_	
+44-3	2964-2970	Carina	_	_	_	_	_	_	
+44-4	2971-2979	Stensson	_	_	_	_	_	_	
+44-5	2979-2980	,	_	_	_	_	_	_	
+44-6	2981-2991	Biträdande	_	_	_	_	_	_	
+44-7	2992-3000	redaktör	_	_	_	_	_	_	
+44-8	3000-3001	:	_	_	_	_	_	_	
+44-9	3002-3007	Björn	_	_	_	_	_	_	
+44-10	3008-3014	Jorner	_	_	_	_	_	_	
+44-11	3014-3015	,	_	_	_	_	_	_	
+44-12	3016-3020	Mejl	_	_	_	_	_	_	
+44-13	3020-3021	:	_	_	_	_	_	_	
+44-14	3022-3028	debatt	_	_	_	_	_	_	
+44-15	3028-3029	@	_	_	_	_	_	_	
+44-16	3029-3035	svd.se	_	_	_	_	_	_	
+44-17	3035-3036	,	_	_	_	_	_	_	
+44-18	3037-3050	Telefonnummer	_	_	_	_	_	_	
+44-19	3050-3051	:	_	_	_	_	_	_	
+44-20	3052-3054	08	_	_	_	_	_	_	
+44-21	3054-3055	-	_	_	_	_	_	_	
+44-22	3055-3061	135149	_	_	_	_	_	_	
+44-23	3061-3062	,	_	_	_	_	_	_	
+44-24	3063-3070	Twitter	_	_	_	_	_	_	
+44-25	3070-3071	:	_	_	_	_	_	_	
+44-26	3072-3073	@	_	_	_	_	_	_	
+44-27	3073-3082	SvDDebatt	_	_	_	_	_	_	
+44-28	3082-3083	,	_	_	_	_	_	_	
+44-29	3084-3092	Facebook	_	_	_	_	_	_	
+44-30	3092-3093	:	_	_	_	_	_	_	
+44-31	3094-3097	SvD	_	_	_	_	_	_	
+44-32	3098-3104	Debatt	_	_	_	_	_	_	
+44-33	3104-3105	.	_	_	_	_	_	_	

@@ -1,0 +1,896 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Det här skapar förvirring i Liberalernas politik.
+3-1	18-21	Det	*[15]	_	_	_	_	_	
+3-2	22-25	här	*[15]	_	_	_	_	_	
+3-3	26-32	skapar	_	Target[1]	3-1[15]	false[1]	2[1]	_	
+3-4	33-43	förvirring	_	Target[1]	3-1[15]	false[1]	2[1]	_	
+3-5	44-45	i	_	_	_	_	_	_	
+3-6	46-58	Liberalernas	_	_	_	_	_	_	
+3-7	59-66	politik	_	_	_	_	_	_	
+3-8	66-67	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	69-70	#	_	_	_	_	_	_	
+4-2	70-71	P	_	_	_	_	_	_	
+4-3	72-75	IMM	_	_	_	_	_	_	
+4-4	75-76	.	_	_	_	_	_	_	
+
+#Text=Jan Björklunds argument för att EU ska sätta gemensamma sociala rättigheter håller inte, skriver Jasenko Selimovic (L) i en slutreplik.
+5-1	78-81	Jan	*[16]	_	_	_	_	_	
+5-2	82-92	Björklunds	*[16]	_	_	_	_	_	
+5-3	93-101	argument	*[16]	_	_	_	_	_	
+5-4	102-105	för	*[16]	_	_	_	_	_	
+5-5	106-109	att	*[16]	_	_	_	_	_	
+5-6	110-112	EU	*[16]	_	_	_	_	_	
+5-7	113-116	ska	*[16]	_	_	_	_	_	
+5-8	117-122	sätta	*[16]	_	_	_	_	_	
+5-9	123-133	gemensamma	*[16]	_	_	_	_	_	
+5-10	134-141	sociala	*[16]	_	_	_	_	_	
+5-11	142-153	rättigheter	*[16]	_	_	_	_	_	
+5-12	154-160	håller	_	Source;Target[2]	5-16[17];5-1[16]	false[2]	2[2]	_	
+5-13	161-165	inte	_	Source;Target[2]	5-16[17];5-1[16]	false[2]	2[2]	_	
+5-14	165-166	,	_	_	_	_	_	_	
+5-15	167-174	skriver	_	_	_	_	_	_	
+5-16	175-182	Jasenko	*[17]	_	_	_	_	_	
+5-17	183-192	Selimovic	*[17]	_	_	_	_	_	
+5-18	193-194	(	*[17]	_	_	_	_	_	
+5-19	194-195	L	*[17]	_	_	_	_	_	
+5-20	195-196	)	*[17]	_	_	_	_	_	
+5-21	197-198	i	_	_	_	_	_	_	
+5-22	199-201	en	_	_	_	_	_	_	
+5-23	202-212	slutreplik	_	_	_	_	_	_	
+5-24	212-213	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	215-216	#	_	_	_	_	_	_	
+6-2	216-217	P	_	_	_	_	_	_	
+6-3	218-221	IMM	_	_	_	_	_	_	
+6-4	221-222	.	_	_	_	_	_	_	
+
+#Text=Jag har i min artikel (SvD 2/6) påpekat problem med Liberalernas plötsliga byte av ståndpunkt när det gäller sociala pelaren i EU.
+7-1	224-227	Jag	*	_	_	_	_	_	
+7-2	228-231	har	_	_	_	_	_	_	
+7-3	232-233	i	_	_[3]	_	false[3]	2[3]	_	
+7-4	234-237	min	_	_[3]	_	false[3]	2[3]	_	
+7-5	238-245	artikel	_	_[3]	_	false[3]	2[3]	_	
+7-6	246-247	(	_	_[3]	_	false[3]	2[3]	_	
+7-7	247-250	SvD	_	_[3]	_	false[3]	2[3]	_	
+7-8	251-252	2	_	_[3]	_	false[3]	2[3]	_	
+7-9	252-253	/	_	_[3]	_	false[3]	2[3]	_	
+7-10	253-254	6	_	_[3]	_	false[3]	2[3]	_	
+7-11	254-255	)	_	_[3]	_	false[3]	2[3]	_	
+7-12	256-263	påpekat	_	_	_	_	_	_	
+7-13	264-271	problem	_	Target;Source	7-15[18];7-1	false	2	_	
+7-14	272-275	med	_	_	_	_	_	_	
+7-15	276-288	Liberalernas	*[18]	_	_	_	_	_	
+7-16	289-298	plötsliga	*[18]	_	_	_	_	_	
+7-17	299-303	byte	*[18]	_	_	_	_	_	
+7-18	304-306	av	*[18]	_	_	_	_	_	
+7-19	307-317	ståndpunkt	*[18]	_	_	_	_	_	
+7-20	318-321	när	*[18]	_	_	_	_	_	
+7-21	322-325	det	*[18]	_	_	_	_	_	
+7-22	326-332	gäller	*[18]	_	_	_	_	_	
+7-23	333-340	sociala	*[18]	_	_	_	_	_	
+7-24	341-348	pelaren	*[18]	_	_	_	_	_	
+7-25	349-350	i	*[18]	_	_	_	_	_	
+7-26	351-353	EU	*[18]	_	_	_	_	_	
+7-27	353-354	.	_	_	_	_	_	_	
+
+#Text=I sin replik påpekar Jan Björklund att Europasamarbetet måste stärkas.
+8-1	355-356	I	_	_	_	_	_	_	
+8-2	357-360	sin	_	_	_	_	_	_	
+8-3	361-367	replik	_	_	_	_	_	_	
+8-4	368-375	påpekar	_	_	_	_	_	_	
+8-5	376-379	Jan	_	_	_	_	_	_	
+8-6	380-389	Björklund	_	_	_	_	_	_	
+8-7	390-393	att	_	_	_	_	_	_	
+8-8	394-410	Europasamarbetet	_	_	_	_	_	_	
+8-9	411-416	måste	_	_	_	_	_	_	
+8-10	417-424	stärkas	_	_	_	_	_	_	
+8-11	424-425	.	_	_	_	_	_	_	
+
+#Text=Vi är helt överens på den punkten.
+9-1	426-428	Vi	_	_	_	_	_	_	
+9-2	429-431	är	_	_	_	_	_	_	
+9-3	432-436	helt	_	_	_	_	_	_	
+9-4	437-444	överens	_	_	_	_	_	_	
+9-5	445-447	på	_	_	_	_	_	_	
+9-6	448-451	den	_	_	_	_	_	_	
+9-7	452-459	punkten	_	_	_	_	_	_	
+9-8	459-460	.	_	_	_	_	_	_	
+
+#Text=Men frågan är då varför man väljer att ställa sig bakom ett förslag som uppenbarligen kommer minska samarbetsmöjligheterna?.
+10-1	461-464	Men	_	_	_	_	_	_	
+10-2	465-471	frågan	_	_	_	_	_	_	
+10-3	472-474	är	_	_	_	_	_	_	
+10-4	475-477	då	_	_	_	_	_	_	
+10-5	478-484	varför	_	_	_	_	_	_	
+10-6	485-488	man	_	_	_	_	_	_	
+10-7	489-495	väljer	_	_	_	_	_	_	
+10-8	496-499	att	_	_	_	_	_	_	
+10-9	500-506	ställa	_	_	_	_	_	_	
+10-10	507-510	sig	_	_	_	_	_	_	
+10-11	511-516	bakom	_	_	_	_	_	_	
+10-12	517-520	ett	_	_	_	_	_	_	
+10-13	521-528	förslag	_	_	_	_	_	_	
+10-14	529-532	som	_	_	_	_	_	_	
+10-15	533-546	uppenbarligen	_	_	_	_	_	_	
+10-16	547-553	kommer	_	_	_	_	_	_	
+10-17	554-560	minska	_	_	_	_	_	_	
+10-18	561-583	samarbetsmöjligheterna	_	_	_	_	_	_	
+10-19	583-584	?	_	_	_	_	_	_	
+10-20	584-585	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	587-588	#	_	_	_	_	_	_	
+11-2	588-589	P	_	_	_	_	_	_	
+11-3	590-593	IMM	_	_	_	_	_	_	
+11-4	593-594	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	596-599	Det	_	_	_	_	_	_	
+12-2	600-603	här	_	_	_	_	_	_	
+12-3	604-606	är	_	_	_	_	_	_	
+12-4	607-609	en	_	_	_	_	_	_	
+12-5	610-624	argumenterande	_	_	_	_	_	_	
+12-6	625-629	text	_	_	_	_	_	_	
+12-7	630-633	med	_	_	_	_	_	_	
+12-8	634-639	syfte	_	_	_	_	_	_	
+12-9	640-643	att	_	_	_	_	_	_	
+12-10	644-651	påverka	_	_	_	_	_	_	
+12-11	651-652	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	653-662	Åsikterna	_	_	_	_	_	_	
+13-2	663-666	som	_	_	_	_	_	_	
+13-3	667-675	uttrycks	_	_	_	_	_	_	
+13-4	676-678	är	_	_	_	_	_	_	
+13-5	679-690	skribentens	_	_	_	_	_	_	
+13-6	691-695	egna	_	_	_	_	_	_	
+13-7	695-696	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	698-699	#	_	_	_	_	_	_	
+14-2	699-700	P	_	_	_	_	_	_	
+14-3	701-704	IMM	_	_	_	false	3	_	
+14-4	704-705	.	_	_	_	_	_	_	
+
+#Text=Som Karin Svanberg-Sjövall, en EU-vän och tidigare folkpartistisk medarbetare i EU-parlamentet, har påpekat i DN (1/6) var ett av argumenten för "lämna-sidan" i Brexitkampanjen just att britterna inte ville ändra sina socialförsäkringssystem på grund av migrationen.
+15-1	707-710	Som	_	_	_	_	_	_	
+15-2	711-716	Karin	_	_	_	_	_	_	
+15-3	717-733	Svanberg-Sjövall	_	_	_	_	_	_	
+15-4	733-734	,	_	_	_	_	_	_	
+15-5	735-737	en	_	_	_	_	_	_	
+15-6	738-744	EU-vän	_	_	_	_	_	_	
+15-7	745-748	och	_	_	_	_	_	_	
+15-8	749-757	tidigare	_	_	_	_	_	_	
+15-9	758-772	folkpartistisk	_	_	_	_	_	_	
+15-10	773-784	medarbetare	_	_	_	_	_	_	
+15-11	785-786	i	_	_	_	_	_	_	
+15-12	787-801	EU-parlamentet	_	_	_	_	_	_	
+15-13	801-802	,	_	_	_	_	_	_	
+15-14	803-806	har	_	_	_	_	_	_	
+15-15	807-814	påpekat	_	_	_	_	_	_	
+15-16	815-816	i	_	_	_	_	_	_	
+15-17	817-819	DN	_	_	_	_	_	_	
+15-18	820-821	(	_	_	_	_	_	_	
+15-19	821-822	1	_	_	_	_	_	_	
+15-20	822-823	/	_	_	_	_	_	_	
+15-21	823-824	6	_	_	_	_	_	_	
+15-22	824-825	)	_	_	_	_	_	_	
+15-23	826-829	var	_	_	_	_	_	_	
+15-24	830-833	ett	_	_	_	_	_	_	
+15-25	834-836	av	_	_	_	_	_	_	
+15-26	837-847	argumenten	_	_	_	_	_	_	
+15-27	848-851	för	_	_	_	_	_	_	
+15-28	852-853	"	_	_	_	_	_	_	
+15-29	853-864	lämna-sidan	_	_	_	_	_	_	
+15-30	864-865	"	_	_	_	_	_	_	
+15-31	866-867	i	_	_	_	_	_	_	
+15-32	868-883	Brexitkampanjen	_	_	_	_	_	_	
+15-33	884-888	just	_	_	_	_	_	_	
+15-34	889-892	att	_	_	_	_	_	_	
+15-35	893-902	britterna	_	_	_	_	_	_	
+15-36	903-907	inte	_	_	_	_	_	_	
+15-37	908-913	ville	_	_	_	_	_	_	
+15-38	914-919	ändra	_	_	_	_	_	_	
+15-39	920-924	sina	_	_	_	_	_	_	
+15-40	925-948	socialförsäkringssystem	_	_	_	_	_	_	
+15-41	949-951	på	_	_	_	_	_	_	
+15-42	952-957	grund	_	_	_	_	_	_	
+15-43	958-960	av	_	_	_	_	_	_	
+15-44	961-972	migrationen	_	_	_	_	_	_	
+15-45	972-973	.	_	_	_	_	_	_	
+
+#Text=Risken är uppenbar att en social pelare bara kommer förvärra redan existerande spänningar.
+16-1	974-980	Risken	_	Target[4]	16-5[19]	false[4]	2[4]	16-8[5_4]	
+16-2	981-983	är	_	Target[4]	16-5[19]	false[4]	2[4]	_	
+16-3	984-992	uppenbar	_	Target[4]	16-5[19]	false[4]	2[4]	_	
+16-4	993-996	att	_	Target[4]	16-5[19]	false[4]	2[4]	_	
+16-5	997-999	en	*[19]|*[20]	_	_	_	_	_	
+16-6	1000-1006	social	*[19]|*[20]	_	_	_	_	_	
+16-7	1007-1013	pelare	*[19]|*[20]	_	_	_	_	_	
+16-8	1014-1018	bara	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-9	1019-1025	kommer	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-10	1026-1034	förvärra	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-11	1035-1040	redan	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-12	1041-1052	existerande	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-13	1053-1063	spänningar	_	Target[5]	16-5[20]	false[5]	2[5]	_	
+16-14	1063-1064	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1066-1067	#	_	_	_	_	_	_	
+17-2	1067-1068	P	_	_	_	_	_	_	
+17-3	1069-1072	IMM	_	_	_	_	_	_	
+17-4	1072-1073	.	_	_	_	_	_	_	
+
+#Text=Jan Björklunds argument för denna sociala pelare är att det kommer ge mer muskler till EU-kommissionen att sätta tryck på Rumänien och Bulgarien att förbättra behandlingen av romer.
+18-1	1075-1078	Jan	*[21]	_	_	_	_	_	
+18-2	1079-1089	Björklunds	*[21]	_	_	_	_	_	
+18-3	1090-1098	argument	_	Target;Source[6]	18-5[22];18-1[21]	false[6]	4[6]	_	
+18-4	1099-1102	för	_	Target;Source[6]	18-5[22];18-1[21]	false[6]	4[6]	_	
+18-5	1103-1108	denna	*[22]	_	_	_	_	_	
+18-6	1109-1116	sociala	*[22]	_	_	_	_	_	
+18-7	1117-1123	pelare	*[22]	_	_	_	_	_	
+18-8	1124-1126	är	_	_	_	_	_	_	
+18-9	1127-1130	att	_	_	_	_	_	_	
+18-10	1131-1134	det	_	_	_	_	_	_	
+18-11	1135-1141	kommer	_	_	_	_	_	_	
+18-12	1142-1144	ge	_	_	_	_	_	_	
+18-13	1145-1148	mer	_	_	_	_	_	_	
+18-14	1149-1156	muskler	_	_	_	_	_	_	
+18-15	1157-1161	till	_	_	_	_	_	_	
+18-16	1162-1177	EU-kommissionen	_	_	_	_	_	_	
+18-17	1178-1181	att	_	_	_	_	_	_	
+18-18	1182-1187	sätta	_	_	_	_	_	_	
+18-19	1188-1193	tryck	_	_	_	_	_	_	
+18-20	1194-1196	på	_	_	_	_	_	_	
+18-21	1197-1205	Rumänien	_	_	_	_	_	_	
+18-22	1206-1209	och	_	_	_	_	_	_	
+18-23	1210-1219	Bulgarien	_	_	_	_	_	_	
+18-24	1220-1223	att	_	_	_	_	_	_	
+18-25	1224-1233	förbättra	_	_	_	_	_	_	
+18-26	1234-1246	behandlingen	_	_	_	_	_	_	
+18-27	1247-1249	av	_	_	_	_	_	_	
+18-28	1250-1255	romer	_	_	_	_	_	_	
+18-29	1255-1256	.	_	_	_	_	_	_	
+
+#Text=Men då är det märkligt att Liberalernas EU-arbetsgrupp inför landsmötet skriver att: "Kommissionen bör omedelbart inrätta en expertgrupp som tillser att de EU-medel som Rumänien får utnyttjas och når fram till landets fattiga.
+19-1	1257-1260	Men	_	_	_	_	_	_	
+19-2	1261-1263	då	_	_	_	_	_	_	
+19-3	1264-1266	är	_	_	_	_	_	_	
+19-4	1267-1270	det	_	_	_	_	_	_	
+19-5	1271-1279	märkligt	_	_	_	_	_	_	
+19-6	1280-1283	att	_	_	_	_	_	_	
+19-7	1284-1296	Liberalernas	_	_	_	_	_	_	
+19-8	1297-1311	EU-arbetsgrupp	_	_	_	_	_	_	
+19-9	1312-1317	inför	_	_	_	_	_	_	
+19-10	1318-1328	landsmötet	_	_	_	_	_	_	
+19-11	1329-1336	skriver	_	_	_	_	_	_	
+19-12	1337-1340	att	_	_	_	_	_	_	
+19-13	1340-1341	:	_	_	_	_	_	_	
+19-14	1342-1343	"	_	_	_	_	_	_	
+19-15	1343-1355	Kommissionen	_	_	_	_	_	_	
+19-16	1356-1359	bör	_	_	_	_	_	_	
+19-17	1360-1370	omedelbart	_	_	_	_	_	_	
+19-18	1371-1378	inrätta	_	_	_	_	_	_	
+19-19	1379-1381	en	_	_	_	_	_	_	
+19-20	1382-1393	expertgrupp	_	_	_	_	_	_	
+19-21	1394-1397	som	_	_	_	_	_	_	
+19-22	1398-1405	tillser	_	_	_	_	_	_	
+19-23	1406-1409	att	_	_	_	_	_	_	
+19-24	1410-1412	de	_	_	_	_	_	_	
+19-25	1413-1421	EU-medel	_	_	_	_	_	_	
+19-26	1422-1425	som	_	_	_	_	_	_	
+19-27	1426-1434	Rumänien	_	_	_	_	_	_	
+19-28	1435-1438	får	_	_	_	_	_	_	
+19-29	1439-1448	utnyttjas	_	_	_	_	_	_	
+19-30	1449-1452	och	_	_	_	_	_	_	
+19-31	1453-1456	når	_	_	_	_	_	_	
+19-32	1457-1461	fram	_	_	_	_	_	_	
+19-33	1462-1466	till	_	_	_	_	_	_	
+19-34	1467-1474	landets	_	_	_	_	_	_	
+19-35	1475-1482	fattiga	_	_	_	_	_	_	
+19-36	1482-1483	.	_	_	_	_	_	_	
+
+#Text=Tremånadersregeln måste gälla och uppföljning genomföras."
+20-1	1484-1501	Tremånadersregeln	_	_	_	_	_	_	
+20-2	1502-1507	måste	_	_	_	_	_	_	
+20-3	1508-1513	gälla	_	_	_	_	_	_	
+20-4	1514-1517	och	_	_	_	_	_	_	
+20-5	1518-1529	uppföljning	_	_	_	_	_	_	
+20-6	1530-1540	genomföras	_	_	_	_	_	_	
+20-7	1540-1541	.	_	_	_	_	_	_	
+20-8	1541-1542	"	_	_	_	_	_	_	
+
+#Text=Så uppenbarligen är problemet inte att medel saknas utan att vissa länder inte vill använda redan givna medel.
+21-1	1543-1545	Så	_	_	_	_	_	_	
+21-2	1546-1559	uppenbarligen	_	_	_	_	_	_	
+21-3	1560-1562	är	_	_	_	_	_	_	
+21-4	1563-1572	problemet	_	_	_	_	_	_	
+21-5	1573-1577	inte	_	_	_	_	_	_	
+21-6	1578-1581	att	_	_	_	_	_	_	
+21-7	1582-1587	medel	_	_	_	_	_	_	
+21-8	1588-1594	saknas	_	_	_	_	_	_	
+21-9	1595-1599	utan	_	_	_	_	_	_	
+21-10	1600-1603	att	_	_	_	_	_	_	
+21-11	1604-1609	vissa	_	_	_	_	_	_	
+21-12	1610-1616	länder	_	_	_	_	_	_	
+21-13	1617-1621	inte	_	_	_	_	_	_	
+21-14	1622-1626	vill	_	_	_	_	_	_	
+21-15	1627-1634	använda	_	_	_	_	_	_	
+21-16	1635-1640	redan	_	_	_	_	_	_	
+21-17	1641-1646	givna	_	_	_	_	_	_	
+21-18	1647-1652	medel	_	_	_	_	_	_	
+21-19	1652-1653	.	_	_	_	_	_	_	
+
+#Text=Vissa länder försöker marginalisera och tvinga ut romer för att de aldrig har accepterats som en del av landets befolkning.
+22-1	1654-1659	Vissa	*[23]	_	_	_	_	_	
+22-2	1660-1666	länder	*[23]	_	_	_	_	_	
+22-3	1667-1675	försöker	_	Target[7]	22-1[23]	false[7]	2[7]	_	
+22-4	1676-1689	marginalisera	_	Target[7]	22-1[23]	false[7]	2[7]	_	
+22-5	1690-1693	och	_	Target[7]	22-1[23]	false[7]	2[7]	_	
+22-6	1694-1700	tvinga	_	Target[7]	22-1[23]	false[7]	2[7]	_	
+22-7	1701-1703	ut	_	Target[7]	22-1[23]	false[7]	2[7]	_	
+22-8	1704-1709	romer	_	_	_	_	_	_	
+22-9	1710-1713	för	_	_	_	_	_	_	
+22-10	1714-1717	att	_	_	_	_	_	_	
+22-11	1718-1720	de	_	_	_	_	_	_	
+22-12	1721-1727	aldrig	_	_	_	_	_	_	
+22-13	1728-1731	har	_	_	_	_	_	_	
+22-14	1732-1743	accepterats	_	_	_	_	_	_	
+22-15	1744-1747	som	_	_	_	_	_	_	
+22-16	1748-1750	en	_	_	_	_	_	_	
+22-17	1751-1754	del	_	_	_	_	_	_	
+22-18	1755-1757	av	_	_	_	_	_	_	
+22-19	1758-1765	landets	_	_	_	_	_	_	
+22-20	1766-1776	befolkning	_	_	_	_	_	_	
+22-21	1776-1777	.	_	_	_	_	_	_	
+
+#Text=Medel som redan ges gör ingen skillnad och kommer inte heller att göra det i framtiden, så länge grundproblemet inte åtgärdas.
+23-1	1778-1783	Medel	_	_	_	_	_	_	
+23-2	1784-1787	som	_	_	_	_	_	_	
+23-3	1788-1793	redan	_	_	_	_	_	_	
+23-4	1794-1797	ges	_	_	_	_	_	_	
+23-5	1798-1801	gör	_	_	_	_	_	_	
+23-6	1802-1807	ingen	_	_	_	_	_	_	
+23-7	1808-1816	skillnad	_	_	_	_	_	_	
+23-8	1817-1820	och	_	_	_	_	_	_	
+23-9	1821-1827	kommer	_	_	_	_	_	_	
+23-10	1828-1832	inte	_	_	_	_	_	_	
+23-11	1833-1839	heller	_	_	_	_	_	_	
+23-12	1840-1843	att	_	_	_	_	_	_	
+23-13	1844-1848	göra	_	_	_	_	_	_	
+23-14	1849-1852	det	_	_	_	_	_	_	
+23-15	1853-1854	i	_	_	_	_	_	_	
+23-16	1855-1864	framtiden	_	_	_	_	_	_	
+23-17	1864-1865	,	_	_	_	_	_	_	
+23-18	1866-1868	så	_	_	_	_	_	_	
+23-19	1869-1874	länge	_	_	_	_	_	_	
+23-20	1875-1889	grundproblemet	_	_	_	_	_	_	
+23-21	1890-1894	inte	_	_	_	_	_	_	
+23-22	1895-1903	åtgärdas	_	_	_	_	_	_	
+23-23	1903-1904	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1906-1907	#	_	_	_	_	_	_	
+24-2	1907-1908	P	_	_	_	_	_	_	
+24-3	1909-1912	IMM	_	_	_	false	3	_	
+24-4	1912-1913	.	_	_	_	_	_	_	
+
+#Text=Den största fienden för Liberalernas ställningstagande kommer bli Liberalernas egen politik.
+25-1	1915-1918	Den	_	_	_	_	_	_	
+25-2	1919-1926	största	_	_	_	_	_	_	
+25-3	1927-1934	fienden	_	_	_	_	_	_	
+25-4	1935-1938	för	_	_	_	_	_	_	
+25-5	1939-1951	Liberalernas	_	_	_	_	_	_	
+25-6	1952-1969	ställningstagande	_	_	_	_	_	_	
+25-7	1970-1976	kommer	_	_	_	_	_	_	
+25-8	1977-1980	bli	_	_	_	_	_	_	
+25-9	1981-1993	Liberalernas	_	_	_	_	_	_	
+25-10	1994-1998	egen	_	_	_	_	_	_	
+25-11	1999-2006	politik	_	_	_	_	_	_	
+25-12	2006-2007	.	_	_	_	_	_	_	
+
+#Text=Liberalerna kräver exempelvis sänkta löner för ungdomar och invandrare för att de ska kunna integreras.
+26-1	2008-2019	Liberalerna	_	_	_	_	_	_	
+26-2	2020-2026	kräver	_	_	_	_	_	_	
+26-3	2027-2037	exempelvis	_	_	_	_	_	_	
+26-4	2038-2044	sänkta	_	_	_	_	_	_	
+26-5	2045-2050	löner	_	_	_	_	_	_	
+26-6	2051-2054	för	_	_	_	_	_	_	
+26-7	2055-2063	ungdomar	_	_	_	_	_	_	
+26-8	2064-2067	och	_	_	_	_	_	_	
+26-9	2068-2078	invandrare	_	_	_	_	_	_	
+26-10	2079-2082	för	_	_	_	_	_	_	
+26-11	2083-2086	att	_	_	_	_	_	_	
+26-12	2087-2089	de	_	_	_	_	_	_	
+26-13	2090-2093	ska	_	_	_	_	_	_	
+26-14	2094-2099	kunna	_	_	_	_	_	_	
+26-15	2100-2110	integreras	_	_	_	_	_	_	
+26-16	2110-2111	.	*	_	_	_	_	_	
+
+#Text=Rätt så.
+27-1	2112-2116	Rätt	_	Target[8]	26-16	false[8]	4[8]	_	
+27-2	2117-2119	så	_	Target[8]	26-16	false[8]	4[8]	_	
+27-3	2119-2120	.	_	_	_	_	_	_	
+
+#Text=Men hur kan detta förenas med den sociala pelarens krav på samma villkor för alla på arbetsmarknaden?
+28-1	2121-2124	Men	_	_	_	_	_	_	
+28-2	2125-2128	hur	_	_	_	_	_	_	
+28-3	2129-2132	kan	_	_	_	_	_	_	
+28-4	2133-2138	detta	_	_	_	_	_	_	
+28-5	2139-2146	förenas	_	_	_	_	_	_	
+28-6	2147-2150	med	_	_	_	_	_	_	
+28-7	2151-2154	den	_	_	_	_	_	_	
+28-8	2155-2162	sociala	_	_	_	_	_	_	
+28-9	2163-2171	pelarens	_	_	_	_	_	_	
+28-10	2172-2176	krav	_	_	_	_	_	_	
+28-11	2177-2179	på	_	_	_	_	_	_	
+28-12	2180-2185	samma	_	_	_	_	_	_	
+28-13	2186-2193	villkor	_	_	_	_	_	_	
+28-14	2194-2197	för	_	_	_	_	_	_	
+28-15	2198-2202	alla	_	_	_	_	_	_	
+28-16	2203-2205	på	_	_	_	_	_	_	
+28-17	2206-2221	arbetsmarknaden	_	_	_	_	_	_	
+28-18	2221-2222	?	_	_	_	_	_	_	
+
+#Text=Eller med Liberalernas krav på höjda löner för poliser?
+29-1	2223-2228	Eller	_	_	_	_	_	_	
+29-2	2229-2232	med	_	_	_	_	_	_	
+29-3	2233-2245	Liberalernas	_	_	_	_	_	_	
+29-4	2246-2250	krav	_	_	_	_	_	_	
+29-5	2251-2253	på	_	_	_	_	_	_	
+29-6	2254-2259	höjda	_	_	_	_	_	_	
+29-7	2260-2265	löner	_	_	_	_	_	_	
+29-8	2266-2269	för	_	_	_	_	_	_	
+29-9	2270-2277	poliser	_	_	_	_	_	_	
+29-10	2277-2278	?	_	_	_	_	_	_	
+
+#Text=Det går inte att förena.
+30-1	2279-2282	Det	_	_	_	_	_	_	
+30-2	2283-2286	går	_	_	_	_	_	_	
+30-3	2287-2291	inte	_	_	_	_	_	_	
+30-4	2292-2295	att	_	_	_	_	_	_	
+30-5	2296-2302	förena	_	_	_	_	_	_	
+30-6	2302-2303	.	_	_	_	_	_	_	
+
+#Text=Det kommer istället bara skapa förvirring i Liberalernas politik.
+31-1	2304-2307	Det	*[24]|*[25]	_	_	_	_	_	
+31-2	2308-2314	kommer	_	Target	31-1[24]	false	2	31-4[9_0]	
+31-3	2315-2323	istället	_	_	_	_	_	_	
+31-4	2324-2328	bara	_	Target[9]	31-1[25]	false[9]	2[9]	_	
+31-5	2329-2334	skapa	_	Target[9]	31-1[25]	false[9]	2[9]	_	
+31-6	2335-2345	förvirring	_	Target[9]	31-1[25]	false[9]	2[9]	_	
+31-7	2346-2347	i	_	_	_	_	_	_	
+31-8	2348-2360	Liberalernas	_	_	_	_	_	_	
+31-9	2361-2368	politik	_	_	_	_	_	_	
+31-10	2368-2369	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2371-2372	#	_	_	_	_	_	_	
+32-2	2372-2373	P	_	_	_	_	_	_	
+32-3	2374-2377	IMM	_	_	_	_	_	_	
+32-4	2377-2378	.	_	_	_	_	_	_	
+
+#Text=Liberaler i riksdagen har redan reserverat sig mot förslaget. 7 mars 2017: "Frågor som rör sysselsättning och socialpolitik är fundamentala för alla medlemsstater.
+33-1	2380-2389	Liberaler	*[26]	_	_	_	_	_	
+33-2	2390-2391	i	*[26]	_	_	_	_	_	
+33-3	2392-2401	riksdagen	*[26]	_	_	_	_	_	
+33-4	2402-2405	har	_	Source;Target[10]	33-1[26];33-9	false[10]	2[10]	_	
+33-5	2406-2411	redan	_	Source;Target[10]	33-1[26];33-9	false[10]	2[10]	_	
+33-6	2412-2422	reserverat	_	Source;Target[10]	33-1[26];33-9	false[10]	2[10]	_	
+33-7	2423-2426	sig	_	Source;Target[10]	33-1[26];33-9	false[10]	2[10]	_	
+33-8	2427-2430	mot	_	Source;Target[10]	33-1[26];33-9	false[10]	2[10]	_	
+33-9	2431-2440	förslaget	*	_	_	_	_	_	
+33-10	2440-2441	.	_	_	_	_	_	_	
+33-11	2442-2443	7	_	_	_	_	_	_	
+33-12	2444-2448	mars	_	_	_	_	_	_	
+33-13	2449-2453	2017	_	_	_	_	_	_	
+33-14	2453-2454	:	_	_	_	_	_	_	
+33-15	2455-2456	"	_	_	_	_	_	_	
+33-16	2456-2462	Frågor	_	_	_	_	_	_	
+33-17	2463-2466	som	_	_	_	_	_	_	
+33-18	2467-2470	rör	_	_	_	_	_	_	
+33-19	2471-2485	sysselsättning	_	_	_	_	_	_	
+33-20	2486-2489	och	_	_	_	_	_	_	
+33-21	2490-2503	socialpolitik	_	_	_	_	_	_	
+33-22	2504-2506	är	_	_	_	_	_	_	
+33-23	2507-2519	fundamentala	_	_	_	_	_	_	
+33-24	2520-2523	för	_	_	_	_	_	_	
+33-25	2524-2528	alla	_	_	_	_	_	_	
+33-26	2529-2542	medlemsstater	_	_	_	_	_	_	
+33-27	2542-2543	.	_	_	_	_	_	_	
+
+#Text=EU arbetar i många avseenden med dessa frågor.
+34-1	2544-2546	EU	_	_	_	_	_	_	
+34-2	2547-2554	arbetar	_	_	_	_	_	_	
+34-3	2555-2556	i	_	_	_	_	_	_	
+34-4	2557-2562	många	_	_	_	_	_	_	
+34-5	2563-2572	avseenden	_	_	_	_	_	_	
+34-6	2573-2576	med	_	_	_	_	_	_	
+34-7	2577-2582	dessa	_	_	_	_	_	_	
+34-8	2583-2589	frågor	_	_	_	_	_	_	
+34-9	2589-2590	.	_	_	_	_	_	_	
+
+#Text=Exempelvis finns gemensamma regler för skydd av arbetstagare och medlemsländerna samverkar också inom ramen för EU:s tillväxtstrategi, Europa 2020.
+35-1	2591-2601	Exempelvis	_	_	_	_	_	_	
+35-2	2602-2607	finns	_	_	_	_	_	_	
+35-3	2608-2618	gemensamma	_	_	_	_	_	_	
+35-4	2619-2625	regler	_	_	_	_	_	_	
+35-5	2626-2629	för	_	_	_	_	_	_	
+35-6	2630-2635	skydd	_	_	_	_	_	_	
+35-7	2636-2638	av	_	_	_	_	_	_	
+35-8	2639-2651	arbetstagare	_	_	_	_	_	_	
+35-9	2652-2655	och	_	_	_	_	_	_	
+35-10	2656-2671	medlemsländerna	_	_	_	_	_	_	
+35-11	2672-2681	samverkar	_	_	_	_	_	_	
+35-12	2682-2687	också	_	_	_	_	_	_	
+35-13	2688-2692	inom	_	_	_	_	_	_	
+35-14	2693-2698	ramen	_	_	_	_	_	_	
+35-15	2699-2702	för	_	_	_	_	_	_	
+35-16	2703-2705	EU	_	_	_	_	_	_	
+35-17	2705-2706	:	_	_	_	_	_	_	
+35-18	2706-2707	s	_	_	_	_	_	_	
+35-19	2708-2724	tillväxtstrategi	_	_	_	_	_	_	
+35-20	2724-2725	,	_	_	_	_	_	_	
+35-21	2726-2732	Europa	_	_	_	_	_	_	
+35-22	2733-2737	2020	_	_	_	_	_	_	
+35-23	2737-2738	.	_	_	_	_	_	_	
+
+#Text=I huvudsak tillhör dock sysselsättning och socialpolitik medlemsländernas kompetens.
+36-1	2739-2740	I	_	_	_	_	_	_	
+36-2	2741-2749	huvudsak	_	_	_	_	_	_	
+36-3	2750-2757	tillhör	_	_	_	_	_	_	
+36-4	2758-2762	dock	_	_	_	_	_	_	
+36-5	2763-2777	sysselsättning	_	_	_	_	_	_	
+36-6	2778-2781	och	_	_	_	_	_	_	
+36-7	2782-2795	socialpolitik	_	_	_	_	_	_	
+36-8	2796-2812	medlemsländernas	_	_	_	_	_	_	
+36-9	2813-2822	kompetens	_	_	_	_	_	_	
+36-10	2822-2823	.	_	_	_	_	_	_	
+
+#Text=Sverige har kommit långt på dessa områden, och även om reformbehov kvarstår har vi en väl fungerande modell för att arbeta med dessa frågor.
+37-1	2824-2831	Sverige	*	_	_	_	_	_	
+37-2	2832-2835	har	_	Target[11]	37-1	false[11]	4[11]	_	
+37-3	2836-2842	kommit	_	Target[11]	37-1	false[11]	4[11]	_	
+37-4	2843-2848	långt	_	Target[11]	37-1	false[11]	4[11]	_	
+37-5	2849-2851	på	_	_	_	_	_	_	
+37-6	2852-2857	dessa	_	_	_	_	_	_	
+37-7	2858-2865	områden	_	_	_	_	_	_	
+37-8	2865-2866	,	_	_	_	_	_	_	
+37-9	2867-2870	och	_	_	_	_	_	_	
+37-10	2871-2875	även	_	_	_	_	_	_	
+37-11	2876-2878	om	_	_	_	_	_	_	
+37-12	2879-2890	reformbehov	_	_	_	_	_	_	
+37-13	2891-2899	kvarstår	_	_	_	_	_	_	
+37-14	2900-2903	har	_	Target	37-15[27]	false	4	37-16[12_0]	
+37-15	2904-2906	vi	*[27]|*[28]	_	_	_	_	_	
+37-16	2907-2909	en	_	Target[12]	37-15[28]	false[12]	4[12]	_	
+37-17	2910-2913	väl	_	Target[12]	37-15[28]	false[12]	4[12]	_	
+37-18	2914-2924	fungerande	_	Target[12]	37-15[28]	false[12]	4[12]	_	
+37-19	2925-2931	modell	_	Target[12]	37-15[28]	false[12]	4[12]	_	
+37-20	2932-2935	för	_	_	_	_	_	_	
+37-21	2936-2939	att	_	_	_	_	_	_	
+37-22	2940-2946	arbeta	_	_	_	_	_	_	
+37-23	2947-2950	med	_	_	_	_	_	_	
+37-24	2951-2956	dessa	_	_	_	_	_	_	
+37-25	2957-2963	frågor	_	_	_	_	_	_	
+37-26	2963-2964	.	_	_	_	_	_	_	
+
+#Text=Mot bakgrund av detta menar vi att det är viktigt att Sverige och regeringen värnar den svenska arbetsmarknadsmodellen och säkerställer att utgångspunkten är att arbetsmarknadspolitiken förblir en nationell kompetens....".
+38-1	2965-2968	Mot	_	_	_	_	_	_	
+38-2	2969-2977	bakgrund	_	_	_	_	_	_	
+38-3	2978-2980	av	_	_	_	_	_	_	
+38-4	2981-2986	detta	_	_	_	_	_	_	
+38-5	2987-2992	menar	_	_	_	_	_	_	
+38-6	2993-2995	vi	*	_	_	_	_	_	
+38-7	2996-2999	att	_	_	_	_	_	_	
+38-8	3000-3003	det	_	_	_	_	_	_	
+38-9	3004-3006	är	_	Target;Source[13]	38-11[29];38-6	false[13]	4[13]	_	
+38-10	3007-3014	viktigt	_	Target;Source[13]	38-11[29];38-6	false[13]	4[13]	_	
+38-11	3015-3018	att	*[29]	_	_	_	_	_	
+38-12	3019-3026	Sverige	*[29]	_	_	_	_	_	
+38-13	3027-3030	och	*[29]	_	_	_	_	_	
+38-14	3031-3041	regeringen	*[29]	_	_	_	_	_	
+38-15	3042-3048	värnar	*[29]	_	_	_	_	_	
+38-16	3049-3052	den	*[29]	_	_	_	_	_	
+38-17	3053-3060	svenska	*[29]	_	_	_	_	_	
+38-18	3061-3083	arbetsmarknadsmodellen	*[29]	_	_	_	_	_	
+38-19	3084-3087	och	*[29]	_	_	_	_	_	
+38-20	3088-3100	säkerställer	*[29]	_	_	_	_	_	
+38-21	3101-3104	att	*[29]	_	_	_	_	_	
+38-22	3105-3119	utgångspunkten	*[29]	_	_	_	_	_	
+38-23	3120-3122	är	*[29]	_	_	_	_	_	
+38-24	3123-3126	att	*[29]	_	_	_	_	_	
+38-25	3127-3150	arbetsmarknadspolitiken	*[29]	_	_	_	_	_	
+38-26	3151-3158	förblir	*[29]	_	_	_	_	_	
+38-27	3159-3161	en	*[29]	_	_	_	_	_	
+38-28	3162-3171	nationell	*[29]	_	_	_	_	_	
+38-29	3172-3181	kompetens	*[29]	_	_	_	_	_	
+38-30	3181-3182	.	_	_	_	_	_	_	
+38-31	3182-3183	.	_	_	_	_	_	_	
+38-32	3183-3184	.	_	_	_	_	_	_	
+38-33	3184-3185	.	_	_	_	_	_	_	
+38-34	3185-3186	"	_	_	_	_	_	_	
+38-35	3186-3187	.	_	_	_	_	_	_	
+
+#Text=Så varför skulle vi "värna den svenska modellen" om det inte finns någon fara, såsom Jan Björklund nu, drygt två månader efter denna reservation, påstår?.
+39-1	3188-3190	Så	_	_	_	_	_	_	
+39-2	3191-3197	varför	_	_	_	_	_	_	
+39-3	3198-3204	skulle	_	_	_	_	_	_	
+39-4	3205-3207	vi	*	_	_	_	_	_	
+39-5	3208-3209	"	_	_	_	_	_	_	
+39-6	3209-3214	värna	_	Source;Target	39-4;39-7[30]	false	4	_	
+39-7	3215-3218	den	*[30]	_	_	_	_	_	
+39-8	3219-3226	svenska	*[30]	_	_	_	_	_	
+39-9	3227-3235	modellen	*[30]	_	_	_	_	_	
+39-10	3235-3236	"	_	_	_	_	_	_	
+39-11	3237-3239	om	_	_	_	_	_	_	
+39-12	3240-3243	det	_	_	_	_	_	_	
+39-13	3244-3248	inte	_	_	_	_	_	_	
+39-14	3249-3254	finns	_	_	_	_	_	_	
+39-15	3255-3260	någon	_	_	_	_	_	_	
+39-16	3261-3265	fara	_	_	_	_	_	_	
+39-17	3265-3266	,	_	_	_	_	_	_	
+39-18	3267-3272	såsom	_	_	_	_	_	_	
+39-19	3273-3276	Jan	_	_	_	_	_	_	
+39-20	3277-3286	Björklund	_	_	_	_	_	_	
+39-21	3287-3289	nu	_	_	_	_	_	_	
+39-22	3289-3290	,	_	_	_	_	_	_	
+39-23	3291-3296	drygt	_	_	_	_	_	_	
+39-24	3297-3300	två	_	_	_	_	_	_	
+39-25	3301-3308	månader	_	_	_	_	_	_	
+39-26	3309-3314	efter	_	_	_	_	_	_	
+39-27	3315-3320	denna	_	_	_	_	_	_	
+39-28	3321-3332	reservation	_	_	_	_	_	_	
+39-29	3332-3333	,	_	_	_	_	_	_	
+39-30	3334-3340	påstår	_	_	_	_	_	_	
+39-31	3340-3341	?	_	_	_	_	_	_	
+39-32	3341-3342	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3344-3345	#	_	_	_	_	_	_	
+40-2	3345-3346	P	_	_	_	_	_	_	
+40-3	3347-3350	IMM	_	_	_	_	_	_	
+40-4	3350-3351	.	_	_	_	_	_	_	
+
+#Text=EU beskrivs bäst som ett hus som inte är avslutat.
+41-1	3353-3355	EU	_	_	_	_	_	_	
+41-2	3356-3364	beskrivs	_	_	_	_	_	_	
+41-3	3365-3369	bäst	_	_	_	_	_	_	
+41-4	3370-3373	som	_	_	_	_	_	_	
+41-5	3374-3377	ett	_	_	_	_	_	_	
+41-6	3378-3381	hus	_	_	_	_	_	_	
+41-7	3382-3385	som	_	_	_	_	_	_	
+41-8	3386-3390	inte	_	_	_	_	_	_	
+41-9	3391-3393	är	_	_	_	_	_	_	
+41-10	3394-3402	avslutat	_	_	_	_	_	_	
+41-11	3402-3403	.	_	_	_	_	_	_	
+
+#Text=På vissa våningar saknas taket, ibland saknas väggar, etc.
+42-1	3404-3406	På	_	_	_	_	_	_	
+42-2	3407-3412	vissa	_	_	_	_	_	_	
+42-3	3413-3421	våningar	_	_	_	_	_	_	
+42-4	3422-3428	saknas	_	_	_	_	_	_	
+42-5	3429-3434	taket	_	_	_	_	_	_	
+42-6	3434-3435	,	_	_	_	_	_	_	
+42-7	3436-3442	ibland	_	_	_	_	_	_	
+42-8	3443-3449	saknas	_	_	_	_	_	_	
+42-9	3450-3456	väggar	_	_	_	_	_	_	
+42-10	3456-3457	,	_	_	_	_	_	_	
+42-11	3458-3461	etc	_	_	_	_	_	_	
+42-12	3461-3462	.	_	_	_	_	_	_	
+
+#Text=I samband med olika kriser börjar det att regna in.
+43-1	3463-3464	I	_	_	_	_	_	_	
+43-2	3465-3472	samband	_	_	_	_	_	_	
+43-3	3473-3476	med	_	_	_	_	_	_	
+43-4	3477-3482	olika	_	_	_	_	_	_	
+43-5	3483-3489	kriser	_	_	_	_	_	_	
+43-6	3490-3496	börjar	_	_	_	_	_	_	
+43-7	3497-3500	det	_	_	_	_	_	_	
+43-8	3501-3504	att	_	_	_	_	_	_	
+43-9	3505-3510	regna	_	_	_	_	_	_	
+43-10	3511-3513	in	_	_	_	_	_	_	
+43-11	3513-3514	.	_	_	_	_	_	_	
+
+#Text=Invånarna skriker och protesterar.
+44-1	3515-3524	Invånarna	*	_	_	_	_	_	
+44-2	3525-3532	skriker	_	_	_	_	_	_	
+44-3	3533-3536	och	_	_	_	_	_	_	
+44-4	3537-3548	protesterar	_	Source	44-1	false	2	_	
+44-5	3548-3549	.	_	_	_	_	_	_	
+
+#Text=Britterna har till och med beslutat att de inte längre vill bo i det här huset.
+45-1	3550-3559	Britterna	*	_	_	_	_	_	
+45-2	3560-3563	har	_	_	_	_	_	_	
+45-3	3564-3568	till	_	_	_	_	_	_	
+45-4	3569-3572	och	_	_	_	_	_	_	
+45-5	3573-3576	med	_	_	_	_	_	_	
+45-6	3577-3585	beslutat	_	_	_	_	_	_	
+45-7	3586-3589	att	_	_	_	_	_	_	
+45-8	3590-3592	de	_	_	_	_	_	_	
+45-9	3593-3597	inte	_	Source;Target[14]	45-1;45-12[31]	false[14]	2[14]	_	
+45-10	3598-3604	längre	_	Source;Target[14]	45-1;45-12[31]	false[14]	2[14]	_	
+45-11	3605-3609	vill	_	Source;Target[14]	45-1;45-12[31]	false[14]	2[14]	_	
+45-12	3610-3612	bo	*[31]	_	_	_	_	_	
+45-13	3613-3614	i	*[31]	_	_	_	_	_	
+45-14	3615-3618	det	*[31]	_	_	_	_	_	
+45-15	3619-3622	här	*[31]	_	_	_	_	_	
+45-16	3623-3628	huset	*[31]	_	_	_	_	_	
+45-17	3628-3629	.	_	_	_	_	_	_	
+
+#Text=Men istället för att avsluta detta hus och se till att det blir funktionellt, börjar man bygga en helt ny tillbyggnad, ett nytt rum som inte ens är klart uttänkt.
+46-1	3630-3633	Men	_	_	_	_	_	_	
+46-2	3634-3642	istället	_	_	_	_	_	_	
+46-3	3643-3646	för	_	_	_	_	_	_	
+46-4	3647-3650	att	_	_	_	_	_	_	
+46-5	3651-3658	avsluta	_	_	_	_	_	_	
+46-6	3659-3664	detta	_	_	_	_	_	_	
+46-7	3665-3668	hus	_	_	_	_	_	_	
+46-8	3669-3672	och	_	_	_	_	_	_	
+46-9	3673-3675	se	_	_	_	_	_	_	
+46-10	3676-3680	till	_	_	_	_	_	_	
+46-11	3681-3684	att	_	_	_	_	_	_	
+46-12	3685-3688	det	_	_	_	_	_	_	
+46-13	3689-3693	blir	_	_	_	_	_	_	
+46-14	3694-3706	funktionellt	_	_	_	_	_	_	
+46-15	3706-3707	,	_	_	_	_	_	_	
+46-16	3708-3714	börjar	_	_	_	_	_	_	
+46-17	3715-3718	man	_	_	_	_	_	_	
+46-18	3719-3724	bygga	_	_	_	_	_	_	
+46-19	3725-3727	en	_	_	_	_	_	_	
+46-20	3728-3732	helt	_	_	_	_	_	_	
+46-21	3733-3735	ny	_	_	_	_	_	_	
+46-22	3736-3747	tillbyggnad	_	_	_	_	_	_	
+46-23	3747-3748	,	_	_	_	_	_	_	
+46-24	3749-3752	ett	_	_	_	_	_	_	
+46-25	3753-3757	nytt	_	_	_	_	_	_	
+46-26	3758-3761	rum	_	_	_	_	_	_	
+46-27	3762-3765	som	_	_	_	_	_	_	
+46-28	3766-3770	inte	_	_	_	_	_	_	
+46-29	3771-3774	ens	_	_	_	_	_	_	
+46-30	3775-3777	är	_	_	_	_	_	_	
+46-31	3778-3783	klart	_	_	_	_	_	_	
+46-32	3784-3791	uttänkt	_	_	_	_	_	_	
+46-33	3791-3792	.	_	_	_	_	_	_	
+
+#Text=Hur detta ska hjälpa EU att skaffa sig nödvändig legitimitet, öka samarbetsmöjligheterna och få unionen att bli mer effektivt är oklart.
+47-1	3793-3796	Hur	_	_	_	_	_	_	
+47-2	3797-3802	detta	_	_	_	_	_	_	
+47-3	3803-3806	ska	_	_	_	_	_	_	
+47-4	3807-3813	hjälpa	_	_	_	_	_	_	
+47-5	3814-3816	EU	_	_	_	_	_	_	
+47-6	3817-3820	att	_	_	_	_	_	_	
+47-7	3821-3827	skaffa	_	_	_	_	_	_	
+47-8	3828-3831	sig	_	_	_	_	_	_	
+47-9	3832-3841	nödvändig	_	_	_	_	_	_	
+47-10	3842-3853	legitimitet	_	_	_	_	_	_	
+47-11	3853-3854	,	_	_	_	_	_	_	
+47-12	3855-3858	öka	_	_	_	_	_	_	
+47-13	3859-3881	samarbetsmöjligheterna	_	_	_	_	_	_	
+47-14	3882-3885	och	_	_	_	_	_	_	
+47-15	3886-3888	få	_	_	_	_	_	_	
+47-16	3889-3896	unionen	_	_	_	_	_	_	
+47-17	3897-3900	att	_	_	_	_	_	_	
+47-18	3901-3904	bli	_	_	_	_	_	_	
+47-19	3905-3908	mer	_	_	_	_	_	_	
+47-20	3909-3918	effektivt	_	_	_	_	_	_	
+47-21	3919-3921	är	_	_	_	_	_	_	
+47-22	3922-3928	oklart	_	_	_	_	_	_	
+47-23	3928-3929	.	_	_	_	_	_	_	
+
+#Text=EU-vänner och L-landsmötet bör därför avvisa detta förslag.
+48-1	3930-3939	EU-vänner	_	_	_	_	_	_	
+48-2	3940-3943	och	_	_	_	_	_	_	
+48-3	3944-3956	L-landsmötet	_	_	_	_	_	_	
+48-4	3957-3960	bör	_	Target	48-7[33]	false	2	_	
+48-5	3961-3967	därför	_	_	_	_	_	_	
+48-6	3968-3974	avvisa	_	Target	48-7[32]	false	2	48-4	
+48-7	3975-3980	detta	*[32]|*[33]	_	_	_	_	_	
+48-8	3981-3988	förslag	*[32]|*[33]	_	_	_	_	_	
+48-9	3988-3989	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3991-3992	#	_	_	_	_	_	_	
+49-2	3992-3993	P	_	_	_	_	_	_	
+49-3	3994-3997	IMM	_	_	_	_	_	_	
+49-4	3997-3998	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+50-1	4000-4013	Skräddarsydda	_	_	_	_	_	_	
+50-2	4014-4020	kurser	_	_	_	_	_	_	
+50-3	4021-4022	i	_	_	_	_	_	_	
+50-4	4023-4028	ämnen	_	_	_	_	_	_	
+50-5	4029-4032	som	_	_	_	_	_	_	
+50-6	4033-4044	intresserar	_	_	_	_	_	_	
+50-7	4045-4048	och	_	_	_	_	_	_	
+50-8	4049-4058	engagerar	_	_	_	_	_	_	
+50-9	4059-4063	både	_	_	_	_	_	_	
+50-10	4064-4069	kropp	_	_	_	_	_	_	
+50-11	4070-4073	och	_	_	_	_	_	_	
+50-12	4074-4078	själ	_	_	_	_	_	_	
+50-13	4078-4079	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4081-4082	#	_	_	_	_	_	_	
+51-2	4082-4083	P	_	_	_	_	_	_	
+51-3	4084-4087	IMM	_	_	_	_	_	_	
+51-4	4087-4088	.	_	_	_	_	_	_	
+
+#Text=Jasenko Selimovic (L).
+52-1	4090-4097	Jasenko	_	_	_	_	_	_	
+52-2	4098-4107	Selimovic	_	_	_	_	_	_	
+52-3	4108-4109	(	_	_	_	_	_	_	
+52-4	4109-4110	L	_	_	_	_	_	_	
+52-5	4110-4111	)	_	_	_	_	_	_	
+52-6	4111-4112	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4114-4115	#	_	_	_	_	_	_	
+53-2	4115-4116	P	_	_	_	_	_	_	
+53-3	4117-4120	IMM	_	_	_	_	_	_	
+53-4	4120-4121	.	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker.
+54-1	4123-4144	Europaparlamentariker	_	_	_	_	_	_	
+54-2	4144-4145	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4147-4148	#	_	_	_	_	_	_	
+55-2	4148-4149	P	_	_	_	_	_	_	
+55-3	4150-4153	IMM	_	_	_	_	_	_	
+55-4	4153-4154	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+56-1	4156-4164	Redaktör	_	_	_	_	_	_	
+56-2	4164-4165	:	_	_	_	_	_	_	
+56-3	4166-4172	Carina	_	_	_	_	_	_	
+56-4	4173-4181	Stensson	_	_	_	_	_	_	
+56-5	4181-4182	,	_	_	_	_	_	_	
+56-6	4183-4193	Biträdande	_	_	_	_	_	_	
+56-7	4194-4202	redaktör	_	_	_	_	_	_	
+56-8	4202-4203	:	_	_	_	_	_	_	
+56-9	4204-4209	Björn	_	_	_	_	_	_	
+56-10	4210-4216	Jorner	_	_	_	_	_	_	
+56-11	4216-4217	,	_	_	_	_	_	_	
+56-12	4218-4222	Mejl	_	_	_	_	_	_	
+56-13	4222-4223	:	_	_	_	_	_	_	
+56-14	4224-4230	debatt	_	_	_	_	_	_	
+56-15	4230-4231	@	_	_	_	_	_	_	
+56-16	4231-4237	svd.se	_	_	_	_	_	_	
+56-17	4237-4238	,	_	_	_	_	_	_	
+56-18	4239-4252	Telefonnummer	_	_	_	_	_	_	
+56-19	4252-4253	:	_	_	_	_	_	_	
+56-20	4254-4256	08	_	_	_	_	_	_	
+56-21	4256-4257	-	_	_	_	_	_	_	
+56-22	4257-4263	135149	_	_	_	_	_	_	
+56-23	4263-4264	,	_	_	_	_	_	_	
+56-24	4265-4272	Twitter	_	_	_	_	_	_	
+56-25	4272-4273	:	_	_	_	_	_	_	
+56-26	4274-4275	@	_	_	_	_	_	_	
+56-27	4275-4284	SvDDebatt	_	_	_	_	_	_	
+56-28	4284-4285	,	_	_	_	_	_	_	
+56-29	4286-4294	Facebook	_	_	_	_	_	_	
+56-30	4294-4295	:	_	_	_	_	_	_	
+56-31	4296-4299	SvD	_	_	_	_	_	_	
+56-32	4300-4306	Debatt	_	_	_	_	_	_	
+56-33	4306-4307	.	_	_	_	_	_	_	

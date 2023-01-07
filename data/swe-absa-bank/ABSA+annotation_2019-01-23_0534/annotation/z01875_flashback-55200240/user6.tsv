@@ -1,0 +1,409 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Expressen: Sjukministern har tappat kontrollen.
+3-1	18-27	Expressen	*	_	_	_	_	_	_	
+3-2	27-28	:	_	_	_	_	_	_	_	
+3-3	29-42	Sjukministern	*	_	_	_	_	_	_	
+3-4	43-46	har	_	Target;Source[1]	3-3;3-1	false[1]	2[1]	_	_	
+3-5	47-53	tappat	_	Target;Source[1]	3-3;3-1	false[1]	2[1]	_	_	
+3-6	54-64	kontrollen	_	Target;Source[1]	3-3;3-1	false[1]	2[1]	_	_	
+3-7	64-65	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	67-68	#	_	_	_	_	_	_	_	
+4-2	68-69	P	_	_	_	_	_	_	_	
+4-3	70-73	IMM	_	_	_	_	_	_	_	
+4-4	73-74	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte bara Migrationsverket, polisen, rättsväsendet, skolan, infrastrukturen, bostadsmarknaden och försvaret som håller på att braka samman fullständigt.
+5-1	76-79	Det	_	_	_	_	_	_	_	
+5-2	80-82	är	_	_	_	_	_	_	_	
+5-3	83-87	inte	_	_	_	_	_	_	_	
+5-4	88-92	bara	_	_	_	_	_	_	_	
+5-5	93-109	Migrationsverket	*[11]	_	_	_	_	_	_	
+5-6	109-110	,	*[11]	_	_	_	_	_	_	
+5-7	111-118	polisen	*[11]	_	_	_	_	_	_	
+5-8	118-119	,	*[11]	_	_	_	_	_	_	
+5-9	120-133	rättsväsendet	*[11]	_	_	_	_	_	_	
+5-10	133-134	,	*[11]	_	_	_	_	_	_	
+5-11	135-141	skolan	*[11]	_	_	_	_	_	_	
+5-12	141-142	,	*[11]	_	_	_	_	_	_	
+5-13	143-158	infrastrukturen	*[11]	_	_	_	_	_	_	
+5-14	158-159	,	*[11]	_	_	_	_	_	_	
+5-15	160-176	bostadsmarknaden	*[11]	_	_	_	_	_	_	
+5-16	177-180	och	*[11]	_	_	_	_	_	_	
+5-17	181-190	försvaret	*[11]	_	_	_	_	_	_	
+5-18	191-194	som	_	_	_	_	_	_	_	
+5-19	195-201	håller	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-20	202-204	på	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-21	205-208	att	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-22	209-214	braka	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-23	215-221	samman	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-24	222-234	fullständigt	_	Target[2]	5-5[11]	false[2]	1[2]	_	_	
+5-25	234-235	.	_	_	_	_	_	_	_	
+
+#Text=Nu hotar även en kollaps inom sjukförsäkringssystemet.
+6-1	236-238	Nu	_	_	_	_	_	_	_	
+6-2	239-244	hotar	_	Target	6-4[12]	false	2	_	_	
+6-3	245-249	även	_	_	_	_	_	_	_	
+6-4	250-252	en	*[12]	_	_	_	_	_	_	
+6-5	253-260	kollaps	*[12]|*[13]	Target	6-5[13]	false	2	_	_	
+6-6	261-265	inom	*[12]	_	_	_	_	_	_	
+6-7	266-289	sjukförsäkringssystemet	*[12]	_	_	_	_	_	_	
+6-8	289-290	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	292-293	#	_	_	_	_	_	_	_	
+7-2	293-294	P	_	_	_	_	_	_	_	
+7-3	295-298	IMM	_	_	_	_	_	_	_	
+7-4	298-299	.	_	_	_	_	_	_	_	
+
+#Text=När pengarna är slut i sjukförsäkringssystemet kommer det inte spela någon roll huruvida patienter blir utförsäkrade eller inte; de kommer inte få någon ersättning oavsett.
+8-1	301-304	När	_	_	_	_	_	_	_	
+8-2	305-313	pengarna	_	_	_	_	_	_	_	
+8-3	314-316	är	_	_	_	_	_	_	_	
+8-4	317-321	slut	_	_	_	_	_	_	_	
+8-5	322-323	i	_	_	_	_	_	_	_	
+8-6	324-347	sjukförsäkringssystemet	_	_	_	_	_	_	_	
+8-7	348-354	kommer	_	_	_	_	_	_	_	
+8-8	355-358	det	_	_	_	_	_	_	_	
+8-9	359-363	inte	_	_	_	_	_	_	_	
+8-10	364-369	spela	_	_	_	_	_	_	_	
+8-11	370-375	någon	_	_	_	_	_	_	_	
+8-12	376-380	roll	_	_	_	_	_	_	_	
+8-13	381-389	huruvida	_	_	_	_	_	_	_	
+8-14	390-399	patienter	_	_	_	_	_	_	_	
+8-15	400-404	blir	_	_	_	_	_	_	_	
+8-16	405-417	utförsäkrade	_	_	_	_	_	_	_	
+8-17	418-423	eller	_	_	_	_	_	_	_	
+8-18	424-428	inte	_	_	_	_	_	_	_	
+8-19	428-429	;	_	_	_	_	_	_	_	
+8-20	430-432	de	_	_	_	_	_	_	_	
+8-21	433-439	kommer	_	_	_	_	_	_	_	
+8-22	440-444	inte	_	_	_	_	_	_	_	
+8-23	445-447	få	_	_	_	_	_	_	_	
+8-24	448-453	någon	_	_	_	_	_	_	_	
+8-25	454-464	ersättning	_	_	_	_	_	_	_	
+8-26	465-472	oavsett	_	_	_	_	_	_	_	
+8-27	472-473	.	_	_	_	_	_	_	_	
+
+#Text=Alliansens åtgärder med rehabiliteringar dömdes ut fullständigt av riksrevisionen, men den nya regeringen verkar inte ha några förslag på lösningar överhuvudtaget.
+9-1	474-484	Alliansens	*[14]	_	_	_	_	_	_	
+9-2	485-493	åtgärder	*[14]	_	_	_	_	_	_	
+9-3	494-497	med	*[14]	_	_	_	_	_	_	
+9-4	498-514	rehabiliteringar	*[14]	_	_	_	_	_	_	
+9-5	515-521	dömdes	_	Source;Target[3]	9-9;9-1[14]	false[3]	2[3]	_	_	
+9-6	522-524	ut	_	Source;Target[3]	9-9;9-1[14]	false[3]	2[3]	_	_	
+9-7	525-537	fullständigt	_	Source;Target[3]	9-9;9-1[14]	false[3]	2[3]	_	_	
+9-8	538-540	av	_	_	_	_	_	_	_	
+9-9	541-555	riksrevisionen	*	_	_	_	_	_	_	
+9-10	555-556	,	_	_	_	_	_	_	_	
+9-11	557-560	men	_	_	_	_	_	_	_	
+9-12	561-564	den	*[15]	_	_	_	_	_	_	
+9-13	565-568	nya	*[15]	_	_	_	_	_	_	
+9-14	569-579	regeringen	*[15]	_	_	_	_	_	_	
+9-15	580-586	verkar	_	_	_	_	_	_	_	
+9-16	587-591	inte	_	_	_	_	_	_	_	
+9-17	592-594	ha	_	_	_	_	_	_	_	
+9-18	595-600	några	_	_	_	_	_	_	_	
+9-19	601-608	förslag	_	_	_	_	_	_	_	
+9-20	609-611	på	_	_	_	_	_	_	_	
+9-21	612-621	lösningar	_	_	_	_	_	_	_	
+9-22	622-636	överhuvudtaget	_	Target	9-12[15]	false	2	_	_	
+9-23	636-637	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	639-640	#	_	_	_	_	_	_	_	
+10-2	640-641	P	_	_	_	_	_	_	_	
+10-3	642-645	IMM	_	_	_	_	_	_	_	
+10-4	645-646	.	_	_	_	_	_	_	_	
+
+#Text=De enorma kostnadsökningarna för migrationen och sjukförsäkringarna har full potential att sänka statens budgetutrymmen på egen hand.
+11-1	648-650	De	_	_	_	_	_	_	_	
+11-2	651-657	enorma	_	Target	11-3	false	2	_	_	
+11-3	658-676	kostnadsökningarna	*	_	_	_	_	_	_	
+11-4	677-680	för	_	_	_	_	_	_	_	
+11-5	681-692	migrationen	_	_	_	_	_	_	_	
+11-6	693-696	och	_	_	_	_	_	_	_	
+11-7	697-715	sjukförsäkringarna	_	_	_	_	_	_	_	
+11-8	716-719	har	_	_	_	_	_	_	_	
+11-9	720-724	full	_	_	_	_	_	_	_	
+11-10	725-734	potential	_	_	_	_	_	_	_	
+11-11	735-738	att	_	_	_	_	_	_	_	
+11-12	739-744	sänka	_	_	_	_	_	_	_	
+11-13	745-752	statens	_	_	_	_	_	_	_	
+11-14	753-767	budgetutrymmen	_	_	_	_	_	_	_	
+11-15	768-770	på	_	_	_	_	_	_	_	
+11-16	771-775	egen	_	_	_	_	_	_	_	
+11-17	776-780	hand	_	_	_	_	_	_	_	
+11-18	780-781	.	_	_	_	_	_	_	_	
+
+#Text=När den bortre gränsen på sjukförsäkringen är borttagen (den så kallade stupstocken) finns det inte längre någon gräns för kostnadsökningarna.
+12-1	782-785	När	*[16]	_	_	_	_	_	_	
+12-2	786-789	den	*[16]	_	_	_	_	_	_	
+12-3	790-796	bortre	*[16]	_	_	_	_	_	_	
+12-4	797-804	gränsen	*[16]	_	_	_	_	_	_	
+12-5	805-807	på	*[16]	_	_	_	_	_	_	
+12-6	808-824	sjukförsäkringen	*[16]	_	_	_	_	_	_	
+12-7	825-827	är	*[16]	_	_	_	_	_	_	
+12-8	828-837	borttagen	*[16]	_	_	_	_	_	_	
+12-9	838-839	(	_	_	_	_	_	_	_	
+12-10	839-842	den	_	Target[4]	12-1[16]	false[4]	2[4]	_	_	
+12-11	843-845	så	_	Target[4]	12-1[16]	false[4]	2[4]	_	_	
+12-12	846-853	kallade	_	Target[4]	12-1[16]	false[4]	2[4]	_	_	
+12-13	854-865	stupstocken	_	Target[4]	12-1[16]	false[4]	2[4]	_	_	
+12-14	865-866	)	_	_	_	_	_	_	_	
+12-15	867-872	finns	_	_	_	_	_	_	_	
+12-16	873-876	det	_	_	_	_	_	_	_	
+12-17	877-881	inte	_	_	_	_	_	_	_	
+12-18	882-888	längre	_	_	_	_	_	_	_	
+12-19	889-894	någon	_	_	_	_	_	_	_	
+12-20	895-900	gräns	_	_	_	_	_	_	_	
+12-21	901-904	för	_	_	_	_	_	_	_	
+12-22	905-923	kostnadsökningarna	_	_	_	_	_	_	_	
+12-23	923-924	.	_	_	_	_	_	_	_	
+
+#Text=Det är ungefär på samma sätt som med invandringen; utan några gränskontroller kan det i princip invandra hur mycket folk som helst som ska ha del av välfärden.
+13-1	925-928	Det	_	_	_	_	_	_	_	
+13-2	929-931	är	_	_	_	_	_	_	_	
+13-3	932-939	ungefär	_	_	_	_	_	_	_	
+13-4	940-942	på	_	_	_	_	_	_	_	
+13-5	943-948	samma	_	_	_	_	_	_	_	
+13-6	949-953	sätt	_	_	_	_	_	_	_	
+13-7	954-957	som	_	_	_	_	_	_	_	
+13-8	958-961	med	_	_	_	_	_	_	_	
+13-9	962-974	invandringen	_	_	_	_	_	_	_	
+13-10	974-975	;	_	_	_	_	_	_	_	
+13-11	976-980	utan	_	_	_	_	_	_	_	
+13-12	981-986	några	_	_	_	_	_	_	_	
+13-13	987-1002	gränskontroller	_	_	_	_	_	_	_	
+13-14	1003-1006	kan	_	_	_	_	_	_	_	
+13-15	1007-1010	det	_	_	_	_	_	_	_	
+13-16	1011-1012	i	_	_	_	_	_	_	_	
+13-17	1013-1020	princip	_	_	_	_	_	_	_	
+13-18	1021-1029	invandra	_	_	_	_	_	_	_	
+13-19	1030-1033	hur	_	_	_	_	_	_	_	
+13-20	1034-1040	mycket	_	_	_	_	_	_	_	
+13-21	1041-1045	folk	_	_	_	_	_	_	_	
+13-22	1046-1049	som	_	_	_	_	_	_	_	
+13-23	1050-1055	helst	_	_	_	_	_	_	_	
+13-24	1056-1059	som	_	_	_	_	_	_	_	
+13-25	1060-1063	ska	_	_	_	_	_	_	_	
+13-26	1064-1066	ha	_	_	_	_	_	_	_	
+13-27	1067-1070	del	_	_	_	_	_	_	_	
+13-28	1071-1073	av	_	_	_	_	_	_	_	
+13-29	1074-1083	välfärden	_	_	_	_	_	_	_	
+13-30	1083-1084	.	_	_	_	false	2	_	_	
+
+#Text=Nu kan folk bli kvar i princip hur länge som helst i systemet, vilket hotar dess överlevnad.
+14-1	1085-1087	Nu	*[17]	_	_	_	_	_	14-15[0_17]	
+14-2	1088-1091	kan	*[17]	_	_	_	_	_	_	
+14-3	1092-1096	folk	*[17]	_	_	_	_	_	_	
+14-4	1097-1100	bli	*[17]	_	_	_	_	_	_	
+14-5	1101-1105	kvar	*[17]	_	_	_	_	_	_	
+14-6	1106-1107	i	*[17]	_	_	_	_	_	_	
+14-7	1108-1115	princip	*[17]	_	_	_	_	_	_	
+14-8	1116-1119	hur	*[17]	_	_	_	_	_	_	
+14-9	1120-1125	länge	*[17]	_	_	_	_	_	_	
+14-10	1126-1129	som	*[17]	_	_	_	_	_	_	
+14-11	1130-1135	helst	*[17]	_	_	_	_	_	_	
+14-12	1136-1137	i	*[17]	_	_	_	_	_	_	
+14-13	1138-1146	systemet	*[17]	_	_	_	_	_	_	
+14-14	1146-1147	,	_	_	_	_	_	_	_	
+14-15	1148-1154	vilket	*	_	_	_	_	_	_	
+14-16	1155-1160	hotar	_	Target	14-15	false	2	_	_	
+14-17	1161-1165	dess	_	_	_	_	_	_	_	
+14-18	1166-1176	överlevnad	_	_	_	_	_	_	_	
+14-19	1176-1177	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1179-1180	#	_	_	_	_	_	_	_	
+15-2	1180-1181	P	_	_	_	_	_	_	_	
+15-3	1182-1185	IMM	_	_	_	_	_	_	_	
+15-4	1185-1186	.	_	_	_	_	_	_	_	
+
+#Text=Den nuvarande regeringen är en av de mest inkompetenta vi har haft i Sverige under efterkrigstiden.
+16-1	1188-1191	Den	*[18]	_	_	_	_	_	_	
+16-2	1192-1201	nuvarande	*[18]	_	_	_	_	_	_	
+16-3	1202-1212	regeringen	*[18]	_	_	_	_	_	_	
+16-4	1213-1215	är	_	_	_	_	_	_	_	
+16-5	1216-1218	en	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-6	1219-1221	av	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-7	1222-1224	de	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-8	1225-1229	mest	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-9	1230-1242	inkompetenta	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-10	1243-1245	vi	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-11	1246-1249	har	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-12	1250-1254	haft	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-13	1255-1256	i	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-14	1257-1264	Sverige	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-15	1265-1270	under	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-16	1271-1286	efterkrigstiden	_	Target[5]	16-1[18]	false[5]	1[5]	_	_	
+16-17	1286-1287	.	_	_	_	_	_	_	_	
+
+#Text=Att börja skära i välfärdssystemen är närmast en dödssynd bland socialdemokratiska väljare.
+17-1	1288-1291	Att	*[19]	_	_	_	_	_	_	
+17-2	1292-1297	börja	*[19]	_	_	_	_	_	_	
+17-3	1298-1303	skära	*[19]	_	_	_	_	_	_	
+17-4	1304-1305	i	*[19]	_	_	_	_	_	_	
+17-5	1306-1322	välfärdssystemen	*[19]	_	_	_	_	_	_	
+17-6	1323-1325	är	_	_	_	false	1	_	_	
+17-7	1326-1333	närmast	_	_	_	_	_	_	_	
+17-8	1334-1336	en	_	Source;Target[6]	17-11[20];17-1[19]	false[6]	1[6]	17-6[0_6]	_	
+17-9	1337-1345	dödssynd	_	Source;Target[6]	17-11[20];17-1[19]	false[6]	1[6]	_	_	
+17-10	1346-1351	bland	_	_	_	_	_	_	_	
+17-11	1352-1370	socialdemokratiska	*[20]	_	_	_	_	_	_	
+17-12	1371-1378	väljare	*[20]	_	_	_	_	_	_	
+17-13	1378-1379	.	_	_	_	_	_	_	_	
+
+#Text=Göran Persson kunde göra det eftersom det var kristider under 90-talet, och Persson styrde Sverige med järnhand.
+18-1	1380-1385	Göran	_	_	_	_	_	_	_	
+18-2	1386-1393	Persson	_	_	_	_	_	_	_	
+18-3	1394-1399	kunde	_	_	_	_	_	_	_	
+18-4	1400-1404	göra	_	_	_	_	_	_	_	
+18-5	1405-1408	det	_	_	_	_	_	_	_	
+18-6	1409-1417	eftersom	_	_	_	_	_	_	_	
+18-7	1418-1421	det	_	_	_	_	_	_	_	
+18-8	1422-1425	var	_	_	_	_	_	_	_	
+18-9	1426-1435	kristider	_	_	_	_	_	_	_	
+18-10	1436-1441	under	_	_	_	_	_	_	_	
+18-11	1442-1444	90	_	_	_	_	_	_	_	
+18-12	1444-1445	-	_	_	_	_	_	_	_	
+18-13	1445-1450	talet	_	_	_	_	_	_	_	
+18-14	1450-1451	,	_	_	_	_	_	_	_	
+18-15	1452-1455	och	_	_	_	_	_	_	_	
+18-16	1456-1463	Persson	_	_	_	_	_	_	_	
+18-17	1464-1470	styrde	_	_	_	_	_	_	_	
+18-18	1471-1478	Sverige	_	_	_	_	_	_	_	
+18-19	1479-1482	med	_	_	_	_	_	_	_	
+18-20	1483-1491	järnhand	_	_	_	_	_	_	_	
+18-21	1491-1492	.	_	_	_	_	_	_	_	
+
+#Text=Löfven saknar alla förutsättningar för att kunna hantera den nuvarande krisen (såväl intellektuellt som politiskt), och om sossarna börjar dra ner i välfärden (vilket knappast var ett vallöfte) kommer de förmodligen börja backa ordentligt i opinionen.
+19-1	1493-1499	Löfven	*	_	_	_	_	_	_	
+19-2	1500-1506	saknar	_	_[7]	_	false[7]	2[7]	_	_	
+19-3	1507-1511	alla	_	_[7]	_	false[7]	2[7]	_	_	
+19-4	1512-1527	förutsättningar	_	_[7]	_	false[7]	2[7]	_	_	
+19-5	1528-1531	för	_	_	_	_	_	_	_	
+19-6	1532-1535	att	_	_	_	_	_	_	_	
+19-7	1536-1541	kunna	_	_	_	_	_	_	_	
+19-8	1542-1549	hantera	_	_	_	_	_	_	_	
+19-9	1550-1553	den	_	_	_	_	_	_	_	
+19-10	1554-1563	nuvarande	_	_	_	_	_	_	_	
+19-11	1564-1570	krisen	_	_	_	_	_	_	_	
+19-12	1571-1572	(	_	_	_	_	_	_	_	
+19-13	1572-1577	såväl	_	Target[8]	19-1	false[8]	2[8]	19-2[7_8]	_	
+19-14	1578-1592	intellektuellt	_	Target[8]	19-1	false[8]	2[8]	_	_	
+19-15	1593-1596	som	_	Target[8]	19-1	false[8]	2[8]	_	_	
+19-16	1597-1606	politiskt	_	Target[8]	19-1	false[8]	2[8]	_	_	
+19-17	1606-1607	)	_	_	_	_	_	_	_	
+19-18	1607-1608	,	_	_	_	_	_	_	_	
+19-19	1609-1612	och	_	_	_	_	_	_	_	
+19-20	1613-1615	om	*[21]	_	_	_	_	_	19-28[0_21]	
+19-21	1616-1624	sossarna	*[21]	_	_	_	_	_	_	
+19-22	1625-1631	börjar	*[21]	_	_	_	_	_	_	
+19-23	1632-1635	dra	*[21]	_	_	_	_	_	_	
+19-24	1636-1639	ner	*[21]	_	_	_	_	_	_	
+19-25	1640-1641	i	*[21]	_	_	_	_	_	_	
+19-26	1642-1651	välfärden	*[21]	_	_	_	_	_	_	
+19-27	1652-1653	(	_	_	_	_	_	_	_	
+19-28	1653-1659	vilket	*	_	_	_	_	_	_	
+19-29	1660-1668	knappast	_	Target[9]	19-28	false[9]	2[9]	_	_	
+19-30	1669-1672	var	_	Target[9]	19-28	false[9]	2[9]	_	_	
+19-31	1673-1676	ett	_	Target[9]	19-28	false[9]	2[9]	_	_	
+19-32	1677-1685	vallöfte	_	Target[9]	19-28	false[9]	2[9]	_	_	
+19-33	1685-1686	)	_	_	_	_	_	_	_	
+19-34	1687-1693	kommer	_	_	_	_	_	_	_	
+19-35	1694-1696	de	_	_	_	_	_	_	_	
+19-36	1697-1708	förmodligen	_	_	_	_	_	_	_	
+19-37	1709-1714	börja	_	_	_	_	_	_	_	
+19-38	1715-1720	backa	_	_	_	_	_	_	_	
+19-39	1721-1731	ordentligt	_	_	_	_	_	_	_	
+19-40	1732-1733	i	_	_	_	_	_	_	_	
+19-41	1734-1743	opinionen	_	_	_	_	_	_	_	
+19-42	1743-1744	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1746-1747	#	_	_	_	_	_	_	_	
+20-2	1747-1748	P	_	_	_	_	_	_	_	
+20-3	1749-1752	IMM	_	_	_	_	_	_	_	
+20-4	1752-1753	.	_	_	_	_	_	_	_	
+
+#Text=Fler och fler kommer nog börja undra hur Sverige har råd med att ösa miljarder över invandrare medan välfärdssystemen fortsatt blir underfinansierade.
+21-1	1755-1759	Fler	_	_	_	_	_	_	_	
+21-2	1760-1763	och	_	_	_	_	_	_	_	
+21-3	1764-1768	fler	_	_	_	_	_	_	_	
+21-4	1769-1775	kommer	_	_	_	_	_	_	_	
+21-5	1776-1779	nog	_	_	_	_	_	_	_	
+21-6	1780-1785	börja	_	_	_	_	_	_	_	
+21-7	1786-1791	undra	_	_	_	_	_	_	_	
+21-8	1792-1795	hur	_	_	_	_	_	_	_	
+21-9	1796-1803	Sverige	_	_	_	_	_	_	_	
+21-10	1804-1807	har	_	_	_	_	_	_	_	
+21-11	1808-1811	råd	_	_	_	_	_	_	_	
+21-12	1812-1815	med	_	_	_	_	_	_	_	
+21-13	1816-1819	att	_	_	_	_	_	_	_	
+21-14	1820-1823	ösa	_	Target[10]	21-16[22]	false[10]	2[10]	_	_	
+21-15	1824-1833	miljarder	_	Target[10]	21-16[22]	false[10]	2[10]	_	_	
+21-16	1834-1838	över	*[22]	_	_	_	_	_	_	
+21-17	1839-1849	invandrare	*[22]	_	_	_	_	_	_	
+21-18	1850-1855	medan	_	_	_	_	_	_	_	
+21-19	1856-1872	välfärdssystemen	_	_	_	_	_	_	_	
+21-20	1873-1881	fortsatt	_	_	_	_	_	_	_	
+21-21	1882-1886	blir	_	_	_	_	_	_	_	
+21-22	1887-1904	underfinansierade	_	_	_	_	_	_	_	
+21-23	1904-1905	.	_	_	_	_	_	_	_	
+
+#Text=Kommer regeringen klara av att minska kostnaderna för sjukförsäkringen?
+22-1	1906-1912	Kommer	_	_	_	_	_	_	_	
+22-2	1913-1923	regeringen	_	_	_	_	_	_	_	
+22-3	1924-1929	klara	_	_	_	_	_	_	_	
+22-4	1930-1932	av	_	_	_	_	_	_	_	
+22-5	1933-1936	att	_	_	_	_	_	_	_	
+22-6	1937-1943	minska	_	_	_	_	_	_	_	
+22-7	1944-1955	kostnaderna	_	_	_	_	_	_	_	
+22-8	1956-1959	för	_	_	_	_	_	_	_	
+22-9	1960-1976	sjukförsäkringen	_	_	_	_	_	_	_	
+22-10	1976-1977	?	_	_	_	_	_	_	_	
+
+#Text=Hur ska sjukskrivna fortare kunna komma tillbaka till arbetet?
+23-1	1978-1981	Hur	_	_	_	_	_	_	_	
+23-2	1982-1985	ska	_	_	_	_	_	_	_	
+23-3	1986-1997	sjukskrivna	_	_	_	_	_	_	_	
+23-4	1998-2005	fortare	_	_	_	_	_	_	_	
+23-5	2006-2011	kunna	_	_	_	_	_	_	_	
+23-6	2012-2017	komma	_	_	_	_	_	_	_	
+23-7	2018-2026	tillbaka	_	_	_	_	_	_	_	
+23-8	2027-2031	till	_	_	_	_	_	_	_	
+23-9	2032-2039	arbetet	_	_	_	_	_	_	_	
+23-10	2039-2040	?	_	_	_	_	_	_	_	
+
+#Text=Hur kommer Löfven agera för att minska antalet sjukskrivna?.
+24-1	2041-2044	Hur	_	_	_	_	_	_	_	
+24-2	2045-2051	kommer	_	_	_	_	_	_	_	
+24-3	2052-2058	Löfven	_	_	_	_	_	_	_	
+24-4	2059-2064	agera	_	_	_	_	_	_	_	
+24-5	2065-2068	för	_	_	_	_	_	_	_	
+24-6	2069-2072	att	_	_	_	_	_	_	_	
+24-7	2073-2079	minska	_	_	_	_	_	_	_	
+24-8	2080-2087	antalet	_	_	_	_	_	_	_	
+24-9	2088-2099	sjukskrivna	_	_	_	_	_	_	_	
+24-10	2099-2100	?	_	_	_	_	_	_	_	
+24-11	2100-2101	.	_	_	_	_	_	_	_	

@@ -1,0 +1,287 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Icke-nationalistiska invandringskritiker - var är dom?
+3-1	18-38	Icke-nationalistiska	_	_	_	_	_	_	
+3-2	39-58	invandringskritiker	_	_	_	_	_	_	
+3-3	59-60	-	_	_	_	_	_	_	
+3-4	61-64	var	_	_	_	_	_	_	
+3-5	65-67	är	_	_	_	_	_	_	
+3-6	68-71	dom	_	_	_	_	_	_	
+3-7	71-72	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	74-75	#	_	_	_	_	_	_	
+4-2	75-76	P	_	_[3]	_	false[3]	3[3]	_	
+4-3	77-80	IMM	_	_[3]	_	false[3]	3[3]	_	
+4-4	80-81	.	_	_	_	_	_	_	
+
+#Text=En liten fråga.
+5-1	83-85	En	_	_	_	_	_	_	
+5-2	86-91	liten	_	_	_	_	_	_	
+5-3	92-97	fråga	_	_	_	_	_	_	
+5-4	97-98	.	_	_	_	_	_	_	
+
+#Text=Varför finns det inga invandringskritiker som inte är "nationalister"?
+6-1	99-105	Varför	_	_	_	_	_	_	
+6-2	106-111	finns	_	_	_	_	_	_	
+6-3	112-115	det	_	_	_	_	_	_	
+6-4	116-120	inga	_	_	_	_	_	_	
+6-5	121-140	invandringskritiker	_	_	_	_	_	_	
+6-6	141-144	som	_	_	_	_	_	_	
+6-7	145-149	inte	_	_	_	_	_	_	
+6-8	150-152	är	_	_	_	_	_	_	
+6-9	153-154	"	_	_	_	_	_	_	
+6-10	154-167	nationalister	*	Target	6-10	false	2	_	
+6-11	167-168	"	_	_	_	_	_	_	
+6-12	168-169	?	_	_	_	_	_	_	
+
+#Text=Varför ser vi inte pragmatiska icke-nationalistiska partier som argumenterar för dom ekonomiska fördelarna som ni pratar om?
+7-1	170-176	Varför	_	_	_	_	_	_	
+7-2	177-180	ser	_	_	_	_	_	_	
+7-3	181-183	vi	_	_	_	_	_	_	
+7-4	184-188	inte	_	_	_	_	_	_	
+7-5	189-200	pragmatiska	_	Target	7-6[9]	false	4	_	
+7-6	201-221	icke-nationalistiska	*[9]	_	_	_	_	_	
+7-7	222-229	partier	*[9]	_	_	_	_	_	
+7-8	230-233	som	_	_	_	_	_	_	
+7-9	234-246	argumenterar	_	_	_	_	_	_	
+7-10	247-250	för	_	_	_	_	_	_	
+7-11	251-254	dom	_	_	_	_	_	_	
+7-12	255-265	ekonomiska	_	_	_	_	_	_	
+7-13	266-276	fördelarna	_	_	_	_	_	_	
+7-14	277-280	som	_	_	_	_	_	_	
+7-15	281-283	ni	_	_	_	_	_	_	
+7-16	284-290	pratar	_	_	_	_	_	_	
+7-17	291-293	om	_	_	_	_	_	_	
+7-18	293-294	?	_	_	_	_	_	_	
+
+#Text=Dom flesta sk "realister" verkar allmänt ha väldigt "högerinriktade" åsikter (exkulisve liberalism givetvis).
+8-1	295-298	Dom	_	_	_	_	_	_	
+8-2	299-305	flesta	_	_	_	_	_	_	
+8-3	306-308	sk	*[10]	Target[4]	8-3[10]	false[4]	2[4]	_	
+8-4	309-310	"	*[10]	Target[4]	8-3[10]	false[4]	2[4]	_	
+8-5	310-319	realister	*[10]	Target[4]	8-3[10]	false[4]	2[4]	_	
+8-6	319-320	"	_	_	_	_	_	_	
+8-7	321-327	verkar	_	_	_	_	_	_	
+8-8	328-335	allmänt	_	_	_	_	_	_	
+8-9	336-338	ha	_	_	_	_	_	_	
+8-10	339-346	väldigt	_	_	_	_	_	_	
+8-11	347-348	"	_	_	_	_	_	_	
+8-12	348-362	högerinriktade	_	_	_	_	_	_	
+8-13	362-363	"	_	_	_	_	_	_	
+8-14	364-371	åsikter	_	_	_	_	_	_	
+8-15	372-373	(	_	_	_	_	_	_	
+8-16	373-382	exkulisve	_	_	_	_	_	_	
+8-17	383-393	liberalism	_	_	_	_	_	_	
+8-18	394-402	givetvis	_	_	_	_	_	_	
+8-19	402-403	)	_	_	_	_	_	_	
+8-20	403-404	.	_	_	_	_	_	_	
+
+#Text=Är det inte så?.
+9-1	405-407	Är	_	_	_	_	_	_	
+9-2	408-411	det	_	_	_	_	_	_	
+9-3	412-416	inte	_	_	_	_	_	_	
+9-4	417-419	så	_	_	_	_	_	_	
+9-5	419-420	?	_	_	_	_	_	_	
+9-6	420-421	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	423-424	#	_	_	_	_	_	_	
+10-2	424-425	P	_	_	_	_	_	_	
+10-3	426-429	IMM	_	_	_	_	_	_	
+10-4	429-430	.	_	_	_	_	_	_	
+
+#Text=Det enda någorlunda seriösa partiet som tar upp den frågan är SD, och dom beskriver sig som nationaldemokrater.
+11-1	432-435	Det	_	_	_	_	_	_	
+11-2	436-440	enda	_	_	_	_	_	_	
+11-3	441-451	någorlunda	_	Target[5]	11-5	false[5]	3[5]	_	
+11-4	452-459	seriösa	_	Target[5]	11-5	false[5]	3[5]	_	
+11-5	460-467	partiet	*	_	_	_	_	_	
+11-6	468-471	som	_	_	_	_	_	_	
+11-7	472-475	tar	_	_	_	_	_	_	
+11-8	476-479	upp	_	_	_	_	_	_	
+11-9	480-483	den	_	_	_	_	_	_	
+11-10	484-490	frågan	_	_	_	_	_	_	
+11-11	491-493	är	_	_	_	_	_	_	
+11-12	494-496	SD	_	_	_	_	_	_	
+11-13	496-497	,	_	_	_	_	_	_	
+11-14	498-501	och	_	_	_	_	_	_	
+11-15	502-505	dom	_	_	_	_	_	_	
+11-16	506-515	beskriver	_	_	_	_	_	_	
+11-17	516-519	sig	_	_	_	_	_	_	
+11-18	520-523	som	_	_	_	_	_	_	
+11-19	524-542	nationaldemokrater	_	_	_	_	_	_	
+11-20	542-543	.	_	_	_	_	_	_	
+
+#Text=Ingen har väl missat deras snarast nazistiska image före -95?
+12-1	544-549	Ingen	_	_	_	_	_	_	
+12-2	550-553	har	_	_	_	_	_	_	
+12-3	554-557	väl	_	_	_	_	_	_	
+12-4	558-564	missat	_	_	_	_	_	_	
+12-5	565-570	deras	_	_	_	_	_	_	
+12-6	571-578	snarast	_	Target[6]	12-8	false[6]	2[6]	_	
+12-7	579-589	nazistiska	_	Target[6]	12-8	false[6]	2[6]	_	
+12-8	590-595	image	*	_	_	_	_	_	
+12-9	596-600	före	_	_	_	_	_	_	
+12-10	601-602	-	_	_	_	_	_	_	
+12-11	602-604	95	_	_	_	_	_	_	
+12-12	604-605	?	_	_	_	_	_	_	
+
+#Text=Tror ni SD verkligen har förändrats eller använder dom bara mer pragmatiska metoder ...
+13-1	606-610	Tror	_	_	_	_	_	_	
+13-2	611-613	ni	_	_	_	_	_	_	
+13-3	614-616	SD	*	_	_	_	_	_	
+13-4	617-626	verkligen	_	_	_	_	_	_	
+13-5	627-630	har	_	_	_	_	_	_	
+13-6	631-641	förändrats	_	_	_	_	_	_	
+13-7	642-647	eller	_	_	_	_	_	_	
+13-8	648-656	använder	_	_	_	_	_	_	
+13-9	657-660	dom	_	_	_	_	_	_	
+13-10	661-665	bara	_	_	_	_	_	_	
+13-11	666-669	mer	_	_	_	_	_	_	
+13-12	670-681	pragmatiska	_	_	_	_	_	_	
+13-13	682-689	metoder	_	_	_	_	_	_	
+13-14	690-691	.	_	_	_	_	_	_	
+13-15	691-692	.	_	_	_	_	_	_	
+13-16	692-693	.	_	Target	13-3	false	2	_	
+
+#Text=#P IMM.
+14-1	695-696	#	_	_	_	_	_	_	
+14-2	696-697	P	_	_[7]	_	false[7]	3[7]	_	
+14-3	698-701	IMM	_	_[7]	_	false[7]	3[7]	_	
+14-4	701-702	.	_	_	_	_	_	_	
+
+#Text=Hur som helst, varför ser jag ett samband mellan främlinsfientlighet/rasism och invadringskritik,.
+15-1	704-707	Hur	_	_	_	_	_	_	
+15-2	708-711	som	_	_	_	_	_	_	
+15-3	712-717	helst	_	_	_	_	_	_	
+15-4	717-718	,	_	_	_	_	_	_	
+15-5	719-725	varför	_	_	_	_	_	_	
+15-6	726-729	ser	_	_	_	false	2	_	
+15-7	730-733	jag	_	_	_	_	_	_	
+15-8	734-737	ett	_	_	_	_	_	_	
+15-9	738-745	samband	_	Target	15-11[11]	false	2	15-6	
+15-10	746-752	mellan	_	_	_	_	_	_	
+15-11	753-772	främlinsfientlighet	*[11]	_	_	_	_	_	
+15-12	772-773	/	*[11]	_	_	_	_	_	
+15-13	773-779	rasism	*[11]	_	_	_	_	_	
+15-14	780-783	och	*[11]	_	_	_	_	_	
+15-15	784-800	invadringskritik	*[11]	_	_	_	_	_	
+15-16	800-801	,	_	_	_	_	_	_	
+15-17	801-802	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	804-805	#	_	_	_	_	_	_	
+16-2	805-806	P	_	_	_	_	_	_	
+16-3	807-810	IMM	_	_	_	_	_	_	
+16-4	810-811	.	_	_	_	_	_	_	
+
+#Text=Var är pragmatikerna och "realisterna" bland resten?.
+17-1	813-816	Var	_	_	_	_	_	_	
+17-2	817-819	är	_	_	_	_	_	_	
+17-3	820-833	pragmatikerna	_	_	_	_	_	_	
+17-4	834-837	och	_	_	_	_	_	_	
+17-5	838-839	"	_	_	_	_	_	_	
+17-6	839-850	realisterna	_	_	_	_	_	_	
+17-7	850-851	"	_	_	_	_	_	_	
+17-8	852-857	bland	_	_	_	_	_	_	
+17-9	858-864	resten	_	_	_	_	_	_	
+17-10	864-865	?	_	_	_	_	_	_	
+17-11	865-866	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	868-869	#	_	_	_	_	_	_	
+18-2	869-870	P	_	_	_	_	_	_	
+18-3	871-874	IMM	_	_	_	_	_	_	
+18-4	874-875	.	_	_	_	_	_	_	
+
+#Text=Hur kan man tolka detta?.
+19-1	877-880	Hur	_	_	_	_	_	_	
+19-2	881-884	kan	_	_	_	_	_	_	
+19-3	885-888	man	_	_	_	_	_	_	
+19-4	889-894	tolka	_	_	_	_	_	_	
+19-5	895-900	detta	_	_	_	_	_	_	
+19-6	900-901	?	_	_	_	_	_	_	
+19-7	901-902	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	904-905	#	_	_	_	_	_	_	
+20-2	905-906	P	_	_	_	_	_	_	
+20-3	907-910	IMM	_	_	_	_	_	_	
+20-4	910-911	.	_	_	_	_	_	_	
+
+#Text=En sak som är intressant är att trots att ni (dom flesta) ogillar att bli kallade främlingsfientliga/rasister (ni avfärdar "pk-snacket"), så använder många av er "retorik" som endast kan uppfattas som rasistiskt.
+21-1	913-915	En	_	_	_	_	_	_	
+21-2	916-919	sak	_	_	_	_	_	_	
+21-3	920-923	som	_	_	_	_	_	_	
+21-4	924-926	är	_	_	_	_	_	_	
+21-5	927-937	intressant	_	_	_	_	_	_	
+21-6	938-940	är	_	_	_	_	_	_	
+21-7	941-944	att	_	_	_	_	_	_	
+21-8	945-950	trots	_	_	_	_	_	_	
+21-9	951-954	att	_	_	_	_	_	_	
+21-10	955-957	ni	*	_	_	_	_	_	
+21-11	958-959	(	_	_	_	_	_	_	
+21-12	959-962	dom	_	_	_	_	_	_	
+21-13	963-969	flesta	_	_	_	_	_	_	
+21-14	969-970	)	_	_	_	_	_	_	
+21-15	971-978	ogillar	_	Target;Source	21-17[12];21-10	false	2	_	
+21-16	979-982	att	_	_	_	_	_	_	
+21-17	983-986	bli	*[12]	_	_	_	_	_	
+21-18	987-994	kallade	*[12]	_	_	_	_	_	
+21-19	995-1013	främlingsfientliga	*[12]	_	_	_	_	_	
+21-20	1013-1014	/	*[12]	_	_	_	_	_	
+21-21	1014-1022	rasister	*[12]	_	_	_	_	_	
+21-22	1023-1024	(	_	_	_	_	_	_	
+21-23	1024-1026	ni	*	_	_	_	_	_	
+21-24	1027-1035	avfärdar	_	Target;Source	21-26;21-23	false	2	_	
+21-25	1036-1037	"	_	_	_	_	_	_	
+21-26	1037-1047	pk-snacket	*	_	_	_	_	_	
+21-27	1047-1048	"	_	_	_	_	_	_	
+21-28	1048-1049	)	_	_	_	_	_	_	
+21-29	1049-1050	,	_	_	_	_	_	_	
+21-30	1051-1053	så	_	_	_	_	_	_	
+21-31	1054-1062	använder	_	_	_	_	_	_	
+21-32	1063-1068	många	_	_	_	_	_	_	
+21-33	1069-1071	av	_	_	_	_	_	_	
+21-34	1072-1074	er	*[13]	_	_	_	_	_	
+21-35	1075-1076	"	*[13]	_	_	_	_	_	
+21-36	1076-1083	retorik	*[13]	_	_	_	_	_	
+21-37	1083-1084	"	*[13]	_	_	_	_	_	
+21-38	1085-1088	som	_	_	_	_	_	_	
+21-39	1089-1095	endast	_	_	_	_	_	_	
+21-40	1096-1099	kan	_	Target[8]	21-34[13]	false[8]	2[8]	_	
+21-41	1100-1109	uppfattas	_	Target[8]	21-34[13]	false[8]	2[8]	_	
+21-42	1110-1113	som	_	Target[8]	21-34[13]	false[8]	2[8]	_	
+21-43	1114-1124	rasistiskt	_	Target[8]	21-34[13]	false[8]	2[8]	_	
+21-44	1124-1125	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1127-1128	#	_	_	_	_	_	_	
+22-2	1128-1129	P	_	_	_	_	_	_	
+22-3	1130-1133	IMM	_	_	_	_	_	_	
+22-4	1133-1134	.	_	_	_	_	_	_	
+
+#Text=Varför är det såhär?.
+23-1	1136-1142	Varför	_	_	_	_	_	_	
+23-2	1143-1145	är	_	_	_	_	_	_	
+23-3	1146-1149	det	_	_	_	_	_	_	
+23-4	1150-1155	såhär	_	_	_	_	_	_	
+23-5	1155-1156	?	_	_	_	_	_	_	
+23-6	1156-1157	.	_	_	_	_	_	_	

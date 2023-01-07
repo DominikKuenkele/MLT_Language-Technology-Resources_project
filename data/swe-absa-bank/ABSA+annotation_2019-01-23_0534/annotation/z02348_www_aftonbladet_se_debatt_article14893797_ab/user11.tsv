@@ -1,0 +1,721 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Mattias Svensson är lite väl mån om att hitta "fakta".
+3-1	18-25	Mattias	*[14]	_	_	_	_	
+3-2	26-34	Svensson	*[14]	_	_	_	_	
+3-3	35-37	är	_	Target[1]	3-1[14]	false[1]	2[1]	
+3-4	38-42	lite	_	Target[1]	3-1[14]	false[1]	2[1]	
+3-5	43-46	väl	_	Target[1]	3-1[14]	false[1]	2[1]	
+3-6	47-50	mån	_	Target[1]	3-1[14]	false[1]	2[1]	
+3-7	51-53	om	_	Target[1]	3-1[14]	false[1]	2[1]	
+3-8	54-57	att	_	_	_	_	_	
+3-9	58-63	hitta	_	_	_	_	_	
+3-10	64-65	"	_	_	_	_	_	
+3-11	65-70	fakta	_	_	_	_	_	
+3-12	70-71	"	_	_	_	_	_	
+3-13	71-72	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	74-75	#	_	_	_	_	_	
+4-2	75-76	P	_	_	_	_	_	
+4-3	77-80	IMM	_	_	_	_	_	
+4-4	80-81	.	_	_	_	_	_	
+
+#Text=Svensk alkoholpolitik står inför ett vägskäl.
+5-1	83-89	Svensk	_	_	_	_	_	
+5-2	90-104	alkoholpolitik	_	_	_	_	_	
+5-3	105-109	står	_	_	_	_	_	
+5-4	110-115	inför	_	_	_	_	_	
+5-5	116-119	ett	_	_	_	_	_	
+5-6	120-127	vägskäl	_	_	_	_	_	
+5-7	127-128	.	_	_	_	_	_	
+
+#Text=Antingen fortsätter vi på en uppskattad och väl fungerande ansvarslinje, eller så för vi in starka kommersiella intressen i alkoholförsäljningen.
+6-1	129-137	Antingen	_	_	_	_	_	
+6-2	138-148	fortsätter	_	_	_	_	_	
+6-3	149-151	vi	_	_	_	_	_	
+6-4	152-154	på	_	_	_	_	_	
+6-5	155-157	en	_	_	_	_	_	
+6-6	158-168	uppskattad	_	Target[2]	6-10	false[2]	4[2]	
+6-7	169-172	och	_	Target[2]	6-10	false[2]	4[2]	
+6-8	173-176	väl	_	Target[2]	6-10	false[2]	4[2]	
+6-9	177-187	fungerande	_	Target[2]	6-10	false[2]	4[2]	
+6-10	188-200	ansvarslinje	*	_	_	_	_	
+6-11	200-201	,	_	_	_	_	_	
+6-12	202-207	eller	_	_	_	_	_	
+6-13	208-210	så	_	_	_	_	_	
+6-14	211-214	för	_	_	_	_	_	
+6-15	215-217	vi	_	_	_	_	_	
+6-16	218-220	in	_	_	_	_	_	
+6-17	221-227	starka	_	_	_	_	_	
+6-18	228-240	kommersiella	_	_	_	_	_	
+6-19	241-250	intressen	_	_	_	_	_	
+6-20	251-252	i	_	_	_	_	_	
+6-21	253-273	alkoholförsäljningen	_	_	_	_	_	
+6-22	273-274	.	_	_	_	_	_	
+
+#Text=Vilken väg vi väljer kommer att ha stor betydelse för folkhälsan och de alkoholrelaterade sjukdomarna, brotten och skadorna framöver.
+7-1	275-281	Vilken	_	_	_	_	_	
+7-2	282-285	väg	_	_	_	_	_	
+7-3	286-288	vi	_	_	_	_	_	
+7-4	289-295	väljer	_	_	_	_	_	
+7-5	296-302	kommer	_	_	_	_	_	
+7-6	303-306	att	_	_	_	_	_	
+7-7	307-309	ha	_	_	_	_	_	
+7-8	310-314	stor	_	_	_	_	_	
+7-9	315-324	betydelse	_	_	_	_	_	
+7-10	325-328	för	_	_	_	_	_	
+7-11	329-339	folkhälsan	_	_	_	_	_	
+7-12	340-343	och	_	_	_	_	_	
+7-13	344-346	de	_	_	_	_	_	
+7-14	347-364	alkoholrelaterade	_	_	_	_	_	
+7-15	365-376	sjukdomarna	_	_	_	_	_	
+7-16	376-377	,	_	_	_	_	_	
+7-17	378-385	brotten	_	_	_	_	_	
+7-18	386-389	och	_	_	_	_	_	
+7-19	390-398	skadorna	_	_	_	_	_	
+7-20	399-407	framöver	_	_	_	_	_	
+7-21	407-408	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	410-411	#	_	_	_	_	_	
+8-2	411-412	P	_	_	_	_	_	
+8-3	413-416	IMM	_	_	_	_	_	
+8-4	416-417	.	_	_	_	_	_	
+
+#Text=I detta läge försöker Timbro och Neo-redaktören Mattias Svensson hävda att "alkoholliberaliseringarna" har varit framgångsrika – och kan fortsätta.
+9-1	419-420	I	_	_	_	_	_	
+9-2	421-426	detta	_	_	_	_	_	
+9-3	427-431	läge	_	_	_	_	_	
+9-4	432-440	försöker	_	_	_	_	_	
+9-5	441-447	Timbro	_	_	_	_	_	
+9-6	448-451	och	_	_	_	_	_	
+9-7	452-466	Neo-redaktören	_	_	_	_	_	
+9-8	467-474	Mattias	*[15]	_	_	_	_	
+9-9	475-483	Svensson	*[15]	_	_	_	_	
+9-10	484-489	hävda	_	_	_	_	_	
+9-11	490-493	att	_	_	_	_	_	
+9-12	494-495	"	_	_	_	_	_	
+9-13	495-520	alkoholliberaliseringarna	*	_	_	_	_	
+9-14	520-521	"	_	_	_	_	_	
+9-15	522-525	har	_	Source;Target[3]	9-8[15];9-13	false[3]	4[3]	
+9-16	526-531	varit	_	Source;Target[3]	9-8[15];9-13	false[3]	4[3]	
+9-17	532-545	framgångsrika	_	Source;Target[3]	9-8[15];9-13	false[3]	4[3]	
+9-18	546-547	–	_	_	_	_	_	
+9-19	548-551	och	_	_	_	_	_	
+9-20	552-555	kan	_	_	_	_	_	
+9-21	556-565	fortsätta	_	_	_	_	_	
+9-22	565-566	.	_	_	_	_	_	
+
+#Text=Men Svensson driver en linje som är lika ambitiös som försåtlig.
+10-1	567-570	Men	_	_	_	_	_	
+10-2	571-579	Svensson	*[16]	_	_	_	_	
+10-3	580-586	driver	*[16]	_	_	_	_	
+10-4	587-589	en	*[16]	_	_	_	_	
+10-5	590-595	linje	*[16]	_	_	_	_	
+10-6	596-599	som	_	_	_	_	_	
+10-7	600-602	är	_	_	_	_	_	
+10-8	603-607	lika	_	_	_	_	_	
+10-9	608-616	ambitiös	_	Target	10-2[16]	false	4	
+10-10	617-620	som	_	_	_	_	_	
+10-11	621-630	försåtlig	_	Target	10-2[16]	false	2	
+10-12	630-631	.	_	_	_	_	_	
+
+#Text=Han vill – genom att ta i – förflytta hela det spektrum som samhälls- och alkoholdebatten rör sig inom idag.
+11-1	632-635	Han	*	_	_	_	_	
+11-2	636-640	vill	_	Source;Target	11-1;11-9[17]	false	4	
+11-3	641-642	–	_	_	_	_	_	
+11-4	643-648	genom	_	_	_	_	_	
+11-5	649-652	att	_	_	_	_	_	
+11-6	653-655	ta	_	_	_	_	_	
+11-7	656-657	i	_	_	_	_	_	
+11-8	658-659	–	_	_	_	_	_	
+11-9	660-669	förflytta	*[17]	_	_	_	_	
+11-10	670-674	hela	*[17]	_	_	_	_	
+11-11	675-678	det	*[17]	_	_	_	_	
+11-12	679-687	spektrum	*[17]	_	_	_	_	
+11-13	688-691	som	*[17]	_	_	_	_	
+11-14	692-700	samhälls	*[17]	_	_	_	_	
+11-15	700-701	-	*[17]	_	_	_	_	
+11-16	702-705	och	*[17]	_	_	_	_	
+11-17	706-721	alkoholdebatten	*[17]	_	_	_	_	
+11-18	722-725	rör	*[17]	_	_	_	_	
+11-19	726-729	sig	*[17]	_	_	_	_	
+11-20	730-734	inom	*[17]	_	_	_	_	
+11-21	735-739	idag	*[17]	_	_	_	_	
+11-22	739-740	.	_	_	_	_	_	
+
+#Text=Men Svensson tycks vara lite väl mån om att hitta "fakta" som bekräftar hans ideologiskt övertygade linje för en ökad spridning av alkohol i Sverige.
+12-1	741-744	Men	_	_	_	_	_	
+12-2	745-753	Svensson	*	_	_	_	_	
+12-3	754-759	tycks	_	Target[4]	12-2	false[4]	2[4]	
+12-4	760-764	vara	_	Target[4]	12-2	false[4]	2[4]	
+12-5	765-769	lite	_	Target[4]	12-2	false[4]	2[4]	
+12-6	770-773	väl	_	Target[4]	12-2	false[4]	2[4]	
+12-7	774-777	mån	_	Target[4]	12-2	false[4]	2[4]	
+12-8	778-780	om	_	Target[4]	12-2	false[4]	2[4]	
+12-9	781-784	att	_	_	_	_	_	
+12-10	785-790	hitta	_	_	_	_	_	
+12-11	791-792	"	_	_	_	_	_	
+12-12	792-797	fakta	_	_	_	_	_	
+12-13	797-798	"	_	_	_	_	_	
+12-14	799-802	som	_	_	_	_	_	
+12-15	803-812	bekräftar	_	_	_	_	_	
+12-16	813-817	hans	_	_	_	_	_	
+12-17	818-829	ideologiskt	_	_	_	_	_	
+12-18	830-840	övertygade	_	_	_	_	_	
+12-19	841-846	linje	_	_	_	_	_	
+12-20	847-850	för	_	_	_	_	_	
+12-21	851-853	en	_	_	_	_	_	
+12-22	854-858	ökad	_	_	_	_	_	
+12-23	859-868	spridning	_	_	_	_	_	
+12-24	869-871	av	_	_	_	_	_	
+12-25	872-879	alkohol	_	_	_	_	_	
+12-26	880-881	i	_	_	_	_	_	
+12-27	882-889	Sverige	_	_	_	_	_	
+12-28	889-890	.	_	_	_	_	_	
+
+#Text=Utan en tanke på konsekvenserna.
+13-1	891-895	Utan	_	Target[5]	13-5	false[5]	2[5]	
+13-2	896-898	en	_	Target[5]	13-5	false[5]	2[5]	
+13-3	899-904	tanke	_	Target[5]	13-5	false[5]	2[5]	
+13-4	905-907	på	_	_	_	_	_	
+13-5	908-922	konsekvenserna	*	_	_	_	_	
+13-6	922-923	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	925-926	#	_	_	_	_	_	
+14-2	926-927	P	_	_	_	_	_	
+14-3	928-931	IMM	_	_	_	_	_	
+14-4	931-932	.	_	_	_	_	_	
+
+#Text=Sanningen är inte så enkel som Svensson vill göra den till.
+15-1	934-943	Sanningen	_	_	_	_	_	
+15-2	944-946	är	_	_	_	_	_	
+15-3	947-951	inte	_	_	_	_	_	
+15-4	952-954	så	_	_	_	_	_	
+15-5	955-960	enkel	_	_	_	_	_	
+15-6	961-964	som	_	_	_	_	_	
+15-7	965-973	Svensson	_	_	_	_	_	
+15-8	974-978	vill	_	_	_	_	_	
+15-9	979-983	göra	_	_	_	_	_	
+15-10	984-987	den	_	_	_	_	_	
+15-11	988-992	till	_	_	_	_	_	
+15-12	992-993	.	_	_	_	_	_	
+
+#Text=Även om konsumtionen av alkohol minskar, så ökar vardagsdrickandet – och därmed risken för beroende.
+16-1	994-998	Även	_	_	_	_	_	
+16-2	999-1001	om	_	_	_	_	_	
+16-3	1002-1014	konsumtionen	_	_	_	_	_	
+16-4	1015-1017	av	_	_	_	_	_	
+16-5	1018-1025	alkohol	_	_	_	_	_	
+16-6	1026-1033	minskar	_	_	_	_	_	
+16-7	1033-1034	,	_	_	_	_	_	
+16-8	1035-1037	så	_	_	_	_	_	
+16-9	1038-1042	ökar	_	_	_	_	_	
+16-10	1043-1060	vardagsdrickandet	_	_	_	_	_	
+16-11	1061-1062	–	_	_	_	_	_	
+16-12	1063-1066	och	_	_	_	_	_	
+16-13	1067-1073	därmed	_	_	_	_	_	
+16-14	1074-1080	risken	_	_	_	_	_	
+16-15	1081-1084	för	_	_	_	_	_	
+16-16	1085-1093	beroende	_	_	_	_	_	
+16-17	1093-1094	.	_	_	_	_	_	
+
+#Text=Den ökade tillgängligheten leder till att utsatta grupper – inte minst vissa tonåringar – ökar sitt drickande.
+17-1	1095-1098	Den	_	_	_	_	_	
+17-2	1099-1104	ökade	_	_	_	_	_	
+17-3	1105-1121	tillgängligheten	_	_	_	_	_	
+17-4	1122-1127	leder	_	_	_	_	_	
+17-5	1128-1132	till	_	_	_	_	_	
+17-6	1133-1136	att	_	_	_	_	_	
+17-7	1137-1144	utsatta	_	_	_	_	_	
+17-8	1145-1152	grupper	_	_	_	_	_	
+17-9	1153-1154	–	_	_	_	_	_	
+17-10	1155-1159	inte	_	_	_	_	_	
+17-11	1160-1165	minst	_	_	_	_	_	
+17-12	1166-1171	vissa	_	_	_	_	_	
+17-13	1172-1182	tonåringar	_	_	_	_	_	
+17-14	1183-1184	–	_	_	_	_	_	
+17-15	1185-1189	ökar	_	_	_	_	_	
+17-16	1190-1194	sitt	_	_	_	_	_	
+17-17	1195-1204	drickande	_	_	_	_	_	
+17-18	1204-1205	.	_	_	_	_	_	
+
+#Text=Antalet alkoholförgiftningar på sjukhus har ökat.
+18-1	1206-1213	Antalet	_	_	_	_	_	
+18-2	1214-1234	alkoholförgiftningar	_	_	_	_	_	
+18-3	1235-1237	på	_	_	_	_	_	
+18-4	1238-1245	sjukhus	_	_	_	_	_	
+18-5	1246-1249	har	_	_	_	_	_	
+18-6	1250-1254	ökat	_	_	_	_	_	
+18-7	1254-1255	.	_	_	_	_	_	
+
+#Text=Antalet fall av skrumplever har ökat.
+19-1	1256-1263	Antalet	_	_	_	_	_	
+19-2	1264-1268	fall	_	_	_	_	_	
+19-3	1269-1271	av	_	_	_	_	_	
+19-4	1272-1283	skrumplever	_	_	_	_	_	
+19-5	1284-1287	har	_	_	_	_	_	
+19-6	1288-1292	ökat	_	_	_	_	_	
+19-7	1292-1293	.	_	_	_	_	_	
+
+#Text=Erfarenheterna från länder som Storbritannien och Finland – som har gått Mattias Svenssons väg – förskräcker, och där tvingas man nu tänka om och skärpa politiken.
+20-1	1294-1308	Erfarenheterna	*[18]	_	_	_	_	
+20-2	1309-1313	från	*[18]	_	_	_	_	
+20-3	1314-1320	länder	*[18]	_	_	_	_	
+20-4	1321-1324	som	*[18]	_	_	_	_	
+20-5	1325-1339	Storbritannien	*[18]	_	_	_	_	
+20-6	1340-1343	och	*[18]	_	_	_	_	
+20-7	1344-1351	Finland	*[18]	_	_	_	_	
+20-8	1352-1353	–	_	_	_	_	_	
+20-9	1354-1357	som	_	_	_	_	_	
+20-10	1358-1361	har	_	_	_	_	_	
+20-11	1362-1366	gått	_	_	_	_	_	
+20-12	1367-1374	Mattias	_	_	_	_	_	
+20-13	1375-1384	Svenssons	_	_	_	_	_	
+20-14	1385-1388	väg	_	_	_	_	_	
+20-15	1389-1390	–	_	_	_	_	_	
+20-16	1391-1402	förskräcker	_	Target	20-1[18]	false	2	
+20-17	1402-1403	,	_	_	_	_	_	
+20-18	1404-1407	och	_	_	_	_	_	
+20-19	1408-1411	där	_	_	_	_	_	
+20-20	1412-1419	tvingas	_	_	_	_	_	
+20-21	1420-1423	man	_	_	_	_	_	
+20-22	1424-1426	nu	_	_	_	_	_	
+20-23	1427-1432	tänka	_	_	_	_	_	
+20-24	1433-1435	om	_	_	_	_	_	
+20-25	1436-1439	och	_	_	_	_	_	
+20-26	1440-1446	skärpa	_	_	_	_	_	
+20-27	1447-1456	politiken	_	_	_	_	_	
+20-28	1456-1457	.	_	_	_	_	_	
+
+#Text=Enkla marknadsliberala lösningar fungerar inte när det gäller alkohol – helt enkelt därför att alkohol inte är vilken vara som helst.
+21-1	1458-1463	Enkla	*[19]	_	_	_	_	
+21-2	1464-1480	marknadsliberala	*[19]	_	_	_	_	
+21-3	1481-1490	lösningar	*[19]	_	_	_	_	
+21-4	1491-1499	fungerar	_	Target[6]	21-1[19]	false[6]	2[6]	
+21-5	1500-1504	inte	_	Target[6]	21-1[19]	false[6]	2[6]	
+21-6	1505-1508	när	_	_	_	_	_	
+21-7	1509-1512	det	_	_	_	_	_	
+21-8	1513-1519	gäller	_	_	_	_	_	
+21-9	1520-1527	alkohol	*	_	_	_	_	
+21-10	1528-1529	–	_	_	_	_	_	
+21-11	1530-1534	helt	_	_	_	_	_	
+21-12	1535-1541	enkelt	_	_	_	_	_	
+21-13	1542-1548	därför	_	_	_	_	_	
+21-14	1549-1552	att	_	_	_	_	_	
+21-15	1553-1560	alkohol	_	_	_	_	_	
+21-16	1561-1565	inte	_	_	_	_	_	
+21-17	1566-1568	är	_	_	_	_	_	
+21-18	1569-1575	vilken	_	_	_	_	_	
+21-19	1576-1580	vara	_	_	_	_	_	
+21-20	1581-1584	som	_	_	_	_	_	
+21-21	1585-1590	helst	_	_	_	_	_	
+21-22	1590-1591	.	_	_	_	_	_	
+
+#Text=Den är beroendeframkallande och skadlig – både för den enskilde och för människor i hans eller hennes omgivning.
+22-1	1592-1595	Den	_	_	_	_	_	
+22-2	1596-1598	är	_	_	_	_	_	
+22-3	1599-1619	beroendeframkallande	_	Target[7]	21-9	false[7]	2[7]	
+22-4	1620-1623	och	_	Target[7]	21-9	false[7]	2[7]	
+22-5	1624-1631	skadlig	_	Target[7]	21-9	false[7]	2[7]	
+22-6	1632-1633	–	_	_	_	_	_	
+22-7	1634-1638	både	_	_	_	_	_	
+22-8	1639-1642	för	_	_	_	_	_	
+22-9	1643-1646	den	_	_	_	_	_	
+22-10	1647-1655	enskilde	_	_	_	_	_	
+22-11	1656-1659	och	_	_	_	_	_	
+22-12	1660-1663	för	_	_	_	_	_	
+22-13	1664-1673	människor	_	_	_	_	_	
+22-14	1674-1675	i	_	_	_	_	_	
+22-15	1676-1680	hans	_	_	_	_	_	
+22-16	1681-1686	eller	_	_	_	_	_	
+22-17	1687-1693	hennes	_	_	_	_	_	
+22-18	1694-1703	omgivning	_	_	_	_	_	
+22-19	1703-1704	.	_	_	_	_	_	
+
+#Text=Ett stort antal sjukdomar orsakas eller försämras av alkohol.
+23-1	1705-1708	Ett	_	_	_	_	_	
+23-2	1709-1714	stort	_	Target[8]	23-9	false[8]	2[8]	
+23-3	1715-1720	antal	_	Target[8]	23-9	false[8]	2[8]	
+23-4	1721-1730	sjukdomar	_	Target[8]	23-9	false[8]	2[8]	
+23-5	1731-1738	orsakas	_	Target[8]	23-9	false[8]	2[8]	
+23-6	1739-1744	eller	_	Target[8]	23-9	false[8]	2[8]	
+23-7	1745-1754	försämras	_	Target[8]	23-9	false[8]	2[8]	
+23-8	1755-1757	av	_	_	_	_	_	
+23-9	1758-1765	alkohol	*	_	_	_	_	
+23-10	1765-1766	.	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1768-1769	#	_	_	_	_	_	
+24-2	1769-1770	P	_	_	_	_	_	
+24-3	1771-1774	IMM	_	_	_	_	_	
+24-4	1774-1775	.	_	_	_	_	_	
+
+#Text=Sverige har idag en alkoholkonsumtion som ligger på en historiskt sett hög nivå, även om vi på de senast åren har sett en viss minskning – från drygt tio till drygt nio liter per invånare.
+25-1	1777-1784	Sverige	_	_	_	_	_	
+25-2	1785-1788	har	_	_	_	_	_	
+25-3	1789-1793	idag	_	_	_	_	_	
+25-4	1794-1796	en	_	_	_	_	_	
+25-5	1797-1814	alkoholkonsumtion	_	_	_	_	_	
+25-6	1815-1818	som	_	_	_	_	_	
+25-7	1819-1825	ligger	_	_	_	_	_	
+25-8	1826-1828	på	_	_	_	_	_	
+25-9	1829-1831	en	_	_	_	_	_	
+25-10	1832-1842	historiskt	_	_	_	_	_	
+25-11	1843-1847	sett	_	_	_	_	_	
+25-12	1848-1851	hög	_	_	_	_	_	
+25-13	1852-1856	nivå	_	_	_	_	_	
+25-14	1856-1857	,	_	_	_	_	_	
+25-15	1858-1862	även	_	_	_	_	_	
+25-16	1863-1865	om	_	_	_	_	_	
+25-17	1866-1868	vi	_	_	_	_	_	
+25-18	1869-1871	på	_	_	_	_	_	
+25-19	1872-1874	de	_	_	_	_	_	
+25-20	1875-1881	senast	_	_	_	_	_	
+25-21	1882-1886	åren	_	_	_	_	_	
+25-22	1887-1890	har	_	_	_	_	_	
+25-23	1891-1895	sett	_	_	_	_	_	
+25-24	1896-1898	en	_	_	_	_	_	
+25-25	1899-1903	viss	_	_	_	_	_	
+25-26	1904-1913	minskning	_	_	_	_	_	
+25-27	1914-1915	–	_	_	_	_	_	
+25-28	1916-1920	från	_	_	_	_	_	
+25-29	1921-1926	drygt	_	_	_	_	_	
+25-30	1927-1930	tio	_	_	_	_	_	
+25-31	1931-1935	till	_	_	_	_	_	
+25-32	1936-1941	drygt	_	_	_	_	_	
+25-33	1942-1945	nio	_	_	_	_	_	
+25-34	1946-1951	liter	_	_	_	_	_	
+25-35	1952-1955	per	_	_	_	_	_	
+25-36	1956-1964	invånare	_	_	_	_	_	
+25-37	1964-1965	.	_	_	_	_	_	
+
+#Text=Ett viktigt skäl till att de alkoholrelaterade sjukdomarna och problemen inte har blivit större, är att vi – genom Folkhälsoinstitutet, IQ, kommuner och landsting samt en mängd arbetsgivare och frivilligorganisationer – har stärkt det förebyggande arbetet.
+26-1	1966-1969	Ett	_	_	_	_	_	
+26-2	1970-1977	viktigt	_	_	_	_	_	
+26-3	1978-1982	skäl	_	_	_	_	_	
+26-4	1983-1987	till	_	_	_	_	_	
+26-5	1988-1991	att	_	_	_	_	_	
+26-6	1992-1994	de	_	_	_	_	_	
+26-7	1995-2012	alkoholrelaterade	_	_	_	_	_	
+26-8	2013-2024	sjukdomarna	_	_	_	_	_	
+26-9	2025-2028	och	_	_	_	_	_	
+26-10	2029-2038	problemen	_	_	_	_	_	
+26-11	2039-2043	inte	_	_	_	_	_	
+26-12	2044-2047	har	_	_	_	_	_	
+26-13	2048-2054	blivit	_	_	_	_	_	
+26-14	2055-2061	större	_	_	_	_	_	
+26-15	2061-2062	,	_	_	_	_	_	
+26-16	2063-2065	är	_	_	_	_	_	
+26-17	2066-2069	att	_	_	_	_	_	
+26-18	2070-2072	vi	_	_	_	_	_	
+26-19	2073-2074	–	_	_	_	_	_	
+26-20	2075-2080	genom	_	_	_	_	_	
+26-21	2081-2100	Folkhälsoinstitutet	_	_	_	_	_	
+26-22	2100-2101	,	_	_	_	_	_	
+26-23	2102-2104	IQ	_	_	_	_	_	
+26-24	2104-2105	,	_	_	_	_	_	
+26-25	2106-2114	kommuner	_	_	_	_	_	
+26-26	2115-2118	och	_	_	_	_	_	
+26-27	2119-2128	landsting	_	_	_	_	_	
+26-28	2129-2133	samt	_	_	_	_	_	
+26-29	2134-2136	en	_	_	_	_	_	
+26-30	2137-2142	mängd	_	_	_	_	_	
+26-31	2143-2155	arbetsgivare	_	_	_	_	_	
+26-32	2156-2159	och	_	_	_	_	_	
+26-33	2160-2183	frivilligorganisationer	_	_	_	_	_	
+26-34	2184-2185	–	_	_	_	_	_	
+26-35	2186-2189	har	_	_	_	_	_	
+26-36	2190-2196	stärkt	_	_	_	_	_	
+26-37	2197-2200	det	_	_	_	_	_	
+26-38	2201-2213	förebyggande	_	_	_	_	_	
+26-39	2214-2221	arbetet	_	_	_	_	_	
+26-40	2221-2222	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2224-2225	#	_	_	_	_	_	
+27-2	2225-2226	P	_	_	_	_	_	
+27-3	2227-2230	IMM	_	_	_	_	_	
+27-4	2230-2231	.	_	_	_	_	_	
+
+#Text=Men fortfarande dricker en miljon människor alkohol på ett skadligt eller riskfullt sätt.
+28-1	2233-2236	Men	_	_	_	_	_	
+28-2	2237-2248	fortfarande	_	_	_	_	_	
+28-3	2249-2256	dricker	_	_	_	_	_	
+28-4	2257-2259	en	_	_	_	_	_	
+28-5	2260-2266	miljon	_	_	_	_	_	
+28-6	2267-2276	människor	_	_	_	_	_	
+28-7	2277-2284	alkohol	_	_	_	_	_	
+28-8	2285-2287	på	_	_	_	_	_	
+28-9	2288-2291	ett	_	_	_	_	_	
+28-10	2292-2300	skadligt	_	Target[9]	28-13	false[9]	2[9]	
+28-11	2301-2306	eller	_	Target[9]	28-13	false[9]	2[9]	
+28-12	2307-2316	riskfullt	_	Target[9]	28-13	false[9]	2[9]	
+28-13	2317-2321	sätt	*	_	_	_	_	
+28-14	2321-2322	.	_	_	_	_	_	
+
+#Text=Och 400 000 barn lever i hem där föräldrarna dricker för mycket.
+29-1	2323-2326	Och	_	_	_	_	_	
+29-2	2327-2330	400	_	_	_	_	_	
+29-3	2331-2334	000	_	_	_	_	_	
+29-4	2335-2339	barn	_	_	_	_	_	
+29-5	2340-2345	lever	_	_	_	_	_	
+29-6	2346-2347	i	_	_	_	_	_	
+29-7	2348-2351	hem	_	_	_	_	_	
+29-8	2352-2355	där	_	_	_	_	_	
+29-9	2356-2367	föräldrarna	_	_	_	_	_	
+29-10	2368-2375	dricker	_	_	_	_	_	
+29-11	2376-2379	för	_	_	_	_	_	
+29-12	2380-2386	mycket	_	_	_	_	_	
+29-13	2386-2387	.	_	_	_	_	_	
+
+#Text=Sammanlagt kostar de alkoholrelaterade skadorna, brotten och sjukdomarna – inklusive den alkoholrelaterade sjukfrånvaron – årligen samhället cirka 66 miljarder kronor.
+30-1	2388-2398	Sammanlagt	_	_	_	_	_	
+30-2	2399-2405	kostar	_	_	_	_	_	
+30-3	2406-2408	de	_	_	_	_	_	
+30-4	2409-2426	alkoholrelaterade	_	_	_	_	_	
+30-5	2427-2435	skadorna	_	_	_	_	_	
+30-6	2435-2436	,	_	_	_	_	_	
+30-7	2437-2444	brotten	_	_	_	_	_	
+30-8	2445-2448	och	_	_	_	_	_	
+30-9	2449-2460	sjukdomarna	_	_	_	_	_	
+30-10	2461-2462	–	_	_	_	_	_	
+30-11	2463-2472	inklusive	_	_	_	_	_	
+30-12	2473-2476	den	_	_	_	_	_	
+30-13	2477-2494	alkoholrelaterade	_	_	_	_	_	
+30-14	2495-2508	sjukfrånvaron	_	_	_	_	_	
+30-15	2509-2510	–	_	_	_	_	_	
+30-16	2511-2518	årligen	_	_	_	_	_	
+30-17	2519-2528	samhället	_	_	_	_	_	
+30-18	2529-2534	cirka	_	_	_	_	_	
+30-19	2535-2537	66	_	_	_	_	_	
+30-20	2538-2547	miljarder	_	_	_	_	_	
+30-21	2548-2554	kronor	_	_	_	_	_	
+30-22	2554-2555	.	_	_	_	_	_	
+
+#Text=Att förringa de här - både för samhället och den enskilde - omfattande problemen är allvarligt.
+31-1	2556-2559	Att	_	_	_	_	_	
+31-2	2560-2568	förringa	*[20]	_	_	_	_	
+31-3	2569-2571	de	*[20]	_	_	_	_	
+31-4	2572-2575	här	*[20]	_	_	_	_	
+31-5	2576-2577	-	*[20]	_	_	_	_	
+31-6	2578-2582	både	*[20]	_	_	_	_	
+31-7	2583-2586	för	*[20]	_	_	_	_	
+31-8	2587-2596	samhället	*[20]	_	_	_	_	
+31-9	2597-2600	och	*[20]	_	_	_	_	
+31-10	2601-2604	den	*[20]	_	_	_	_	
+31-11	2605-2613	enskilde	*[20]	_	_	_	_	
+31-12	2614-2615	-	*[20]	_	_	_	_	
+31-13	2616-2626	omfattande	*[20]	_	_	_	_	
+31-14	2627-2636	problemen	*[20]	_	_	_	_	
+31-15	2637-2639	är	_	Target[10]	31-2[20]	false[10]	2[10]	
+31-16	2640-2650	allvarligt	_	Target[10]	31-2[20]	false[10]	2[10]	
+31-17	2650-2651	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2653-2654	#	_	_	_	_	_	
+32-2	2654-2655	P	_	_	_	_	_	
+32-3	2656-2659	IMM	_	_	_	_	_	
+32-4	2659-2660	.	_	_	_	_	_	
+
+#Text=Forskningen är också tydlig: när kommersiella, vinstdrivande företag som får ansvar för att sälja sprit, vin och starköl direkt till konsumenter, så ökar alkoholkonsumtionen kraftigt – liksom de alkoholrelaterade sjukdomarna, brotten och skadorna.
+33-1	2662-2673	Forskningen	_	_	_	_	_	
+33-2	2674-2676	är	_	_	_	_	_	
+33-3	2677-2682	också	_	_	_	_	_	
+33-4	2683-2689	tydlig	_	_	_	_	_	
+33-5	2689-2690	:	_	_	_	_	_	
+33-6	2691-2694	när	_	_	_	_	_	
+33-7	2695-2707	kommersiella	_	_	_	_	_	
+33-8	2707-2708	,	_	_	_	_	_	
+33-9	2709-2722	vinstdrivande	_	_	_	_	_	
+33-10	2723-2730	företag	_	_	_	_	_	
+33-11	2731-2734	som	_	_	_	_	_	
+33-12	2735-2738	får	_	_	_	_	_	
+33-13	2739-2745	ansvar	_	_	_	_	_	
+33-14	2746-2749	för	_	_	_	_	_	
+33-15	2750-2753	att	_	_	_	_	_	
+33-16	2754-2759	sälja	_	_	_	_	_	
+33-17	2760-2765	sprit	_	_	_	_	_	
+33-18	2765-2766	,	_	_	_	_	_	
+33-19	2767-2770	vin	_	_	_	_	_	
+33-20	2771-2774	och	_	_	_	_	_	
+33-21	2775-2782	starköl	_	_	_	_	_	
+33-22	2783-2789	direkt	_	_	_	_	_	
+33-23	2790-2794	till	_	_	_	_	_	
+33-24	2795-2806	konsumenter	_	_	_	_	_	
+33-25	2806-2807	,	_	_	_	_	_	
+33-26	2808-2810	så	_	_	_	_	_	
+33-27	2811-2815	ökar	_	_	_	_	_	
+33-28	2816-2835	alkoholkonsumtionen	_	_	_	_	_	
+33-29	2836-2844	kraftigt	_	_	_	_	_	
+33-30	2845-2846	–	_	_	_	_	_	
+33-31	2847-2853	liksom	_	_	_	_	_	
+33-32	2854-2856	de	_	_	_	_	_	
+33-33	2857-2874	alkoholrelaterade	_	_	_	_	_	
+33-34	2875-2886	sjukdomarna	_	_	_	_	_	
+33-35	2886-2887	,	_	_	_	_	_	
+33-36	2888-2895	brotten	_	_	_	_	_	
+33-37	2896-2899	och	_	_	_	_	_	
+33-38	2900-2908	skadorna	_	_	_	_	_	
+33-39	2908-2909	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2911-2912	#	_	_	_	_	_	
+34-2	2912-2913	P	_	_	_	_	_	
+34-3	2914-2917	IMM	_	_	_	_	_	
+34-4	2917-2918	.	_	_	_	_	_	
+
+#Text=Mattias Svensson drivs uppenbarligen av en stark ideologisk övertygelse om att samhället ska hålla pekpinnarna borta från folkets törst efter sprit.
+35-1	2920-2927	Mattias	*[21]	_	_	_	_	
+35-2	2928-2936	Svensson	*[21]	_	_	_	_	
+35-3	2937-2942	drivs	_	_	_	_	_	
+35-4	2943-2956	uppenbarligen	_	_	_	_	_	
+35-5	2957-2959	av	_	_	_	_	_	
+35-6	2960-2962	en	_	_	_	_	_	
+35-7	2963-2968	stark	_	Source;Target[11]	35-1[21];35-12[22]	false[11]	5[11]	
+35-8	2969-2979	ideologisk	_	Source;Target[11]	35-1[21];35-12[22]	false[11]	5[11]	
+35-9	2980-2991	övertygelse	_	Source;Target[11]	35-1[21];35-12[22]	false[11]	5[11]	
+35-10	2992-2994	om	_	_	_	_	_	
+35-11	2995-2998	att	_	_	_	_	_	
+35-12	2999-3008	samhället	*[22]	_	_	_	_	
+35-13	3009-3012	ska	*[22]	_	_	_	_	
+35-14	3013-3018	hålla	*[22]	_	_	_	_	
+35-15	3019-3030	pekpinnarna	*[22]	_	_	_	_	
+35-16	3031-3036	borta	*[22]	_	_	_	_	
+35-17	3037-3041	från	*[22]	_	_	_	_	
+35-18	3042-3049	folkets	*[22]	_	_	_	_	
+35-19	3050-3055	törst	*[22]	_	_	_	_	
+35-20	3056-3061	efter	*[22]	_	_	_	_	
+35-21	3062-3067	sprit	*[22]	_	_	_	_	
+35-22	3067-3068	.	_	_	_	_	_	
+
+#Text=Jag hoppas istället att den alkoholpolitiska debatten i ökad utsträckning kunde ta avstamp i den forskning som entydigt pekar på behovet av begränsningar i tillgång och pris för att hålla nere alkoholskadorna, sjukdomarna och brotten.
+36-1	3069-3072	Jag	_	_	_	_	_	
+36-2	3073-3079	hoppas	_	Target	36-5[23]	false	4	
+36-3	3080-3088	istället	_	_	_	_	_	
+36-4	3089-3092	att	_	_	_	_	_	
+36-5	3093-3096	den	*[23]	_	_	_	_	
+36-6	3097-3113	alkoholpolitiska	*[23]	_	_	_	_	
+36-7	3114-3122	debatten	*[23]	_	_	_	_	
+36-8	3123-3124	i	*[23]	_	_	_	_	
+36-9	3125-3129	ökad	*[23]	_	_	_	_	
+36-10	3130-3142	utsträckning	*[23]	_	_	_	_	
+36-11	3143-3148	kunde	*[23]	_	_	_	_	
+36-12	3149-3151	ta	*[23]	_	_	_	_	
+36-13	3152-3159	avstamp	*[23]	_	_	_	_	
+36-14	3160-3161	i	*[23]	_	_	_	_	
+36-15	3162-3165	den	*[23]	_	_	_	_	
+36-16	3166-3175	forskning	*[23]	_	_	_	_	
+36-17	3176-3179	som	*[23]	_	_	_	_	
+36-18	3180-3188	entydigt	*[23]	_	_	_	_	
+36-19	3189-3194	pekar	*[23]	_	_	_	_	
+36-20	3195-3197	på	*[23]	_	_	_	_	
+36-21	3198-3205	behovet	*[23]	_	_	_	_	
+36-22	3206-3208	av	*[23]	_	_	_	_	
+36-23	3209-3222	begränsningar	*[23]	_	_	_	_	
+36-24	3223-3224	i	*[23]	_	_	_	_	
+36-25	3225-3233	tillgång	*[23]	_	_	_	_	
+36-26	3234-3237	och	*[23]	_	_	_	_	
+36-27	3238-3242	pris	*[23]	_	_	_	_	
+36-28	3243-3246	för	_	_	_	_	_	
+36-29	3247-3250	att	_	_	_	_	_	
+36-30	3251-3256	hålla	_	_	_	_	_	
+36-31	3257-3261	nere	_	_	_	_	_	
+36-32	3262-3277	alkoholskadorna	_	_	_	_	_	
+36-33	3277-3278	,	_	_	_	_	_	
+36-34	3279-3290	sjukdomarna	_	_	_	_	_	
+36-35	3291-3294	och	_	_	_	_	_	
+36-36	3295-3302	brotten	_	_	_	_	_	
+36-37	3302-3303	.	_	_	_	_	_	
+
+#Text=Samhället har ett ansvar för att minska den utsatthet, de skador och de problem som hundratusentals människor lever med varje dag i Sverige.
+37-1	3304-3313	Samhället	*	_	_	_	_	
+37-2	3314-3317	har	_	Target[12]	37-1	false[12]	4[12]	
+37-3	3318-3321	ett	_	Target[12]	37-1	false[12]	4[12]	
+37-4	3322-3328	ansvar	_	Target[12]	37-1	false[12]	4[12]	
+37-5	3329-3332	för	_	_	_	_	_	
+37-6	3333-3336	att	_	_	_	_	_	
+37-7	3337-3343	minska	_	_	_	_	_	
+37-8	3344-3347	den	_	_	_	_	_	
+37-9	3348-3357	utsatthet	_	_	_	_	_	
+37-10	3357-3358	,	_	_	_	_	_	
+37-11	3359-3361	de	_	_	_	_	_	
+37-12	3362-3368	skador	_	_	_	_	_	
+37-13	3369-3372	och	_	_	_	_	_	
+37-14	3373-3375	de	_	_	_	_	_	
+37-15	3376-3383	problem	_	_	_	_	_	
+37-16	3384-3387	som	_	_	_	_	_	
+37-17	3388-3403	hundratusentals	_	_	_	_	_	
+37-18	3404-3413	människor	_	_	_	_	_	
+37-19	3414-3419	lever	_	_	_	_	_	
+37-20	3420-3423	med	_	_	_	_	_	
+37-21	3424-3429	varje	_	_	_	_	_	
+37-22	3430-3433	dag	_	_	_	_	_	
+37-23	3434-3435	i	_	_	_	_	_	
+37-24	3436-3443	Sverige	_	_	_	_	_	
+37-25	3443-3444	.	_	_	_	_	_	
+
+#Text=Det är i första hand ett moraliskt ansvar gentemot utsatta barn, kvinnor och män – men också ett både samhällsekonomiskt och folkhälsomässigt ansvar.
+38-1	3445-3448	Det	_	_	_	_	_	
+38-2	3449-3451	är	_	_	_	_	_	
+38-3	3452-3453	i	_	_	_	_	_	
+38-4	3454-3460	första	_	_	_	_	_	
+38-5	3461-3465	hand	_	_	_	_	_	
+38-6	3466-3469	ett	_	_	_	_	_	
+38-7	3470-3479	moraliskt	_	Target[13]	38-9[24]	false[13]	4[13]	
+38-8	3480-3486	ansvar	_	Target[13]	38-9[24]	false[13]	4[13]	
+38-9	3487-3495	gentemot	*[24]	_	_	_	_	
+38-10	3496-3503	utsatta	*[24]	_	_	_	_	
+38-11	3504-3508	barn	*[24]	_	_	_	_	
+38-12	3508-3509	,	*[24]	_	_	_	_	
+38-13	3510-3517	kvinnor	*[24]	_	_	_	_	
+38-14	3518-3521	och	*[24]	_	_	_	_	
+38-15	3522-3525	män	*[24]	_	_	_	_	
+38-16	3526-3527	–	_	_	_	_	_	
+38-17	3528-3531	men	_	_	_	_	_	
+38-18	3532-3537	också	_	_	_	_	_	
+38-19	3538-3541	ett	_	_	_	_	_	
+38-20	3542-3546	både	_	_	_	_	_	
+38-21	3547-3565	samhällsekonomiskt	_	_	_	_	_	
+38-22	3566-3569	och	_	_	_	_	_	
+38-23	3570-3586	folkhälsomässigt	_	_	_	_	_	
+38-24	3587-3593	ansvar	_	_	_	_	_	
+38-25	3593-3594	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3596-3597	#	_	_	_	_	_	
+39-2	3597-3598	P	_	_	_	_	_	
+39-3	3599-3602	IMM	_	_	_	_	_	
+39-4	3602-3603	.	_	_	_	_	_	
+
+#Text=Christer Engelhardt.
+40-1	3605-3613	Christer	_	_	_	_	_	
+40-2	3614-3624	Engelhardt	_	_	_	_	_	
+40-3	3624-3625	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3627-3628	#	_	_	_	_	_	
+41-2	3628-3629	P	_	_	_	_	_	
+41-3	3630-3633	IMM	_	_	_	_	_	
+41-4	3633-3634	.	_	_	_	_	_	
+
+#Text=FAKTA.
+42-1	3636-3641	FAKTA	_	_	_	_	_	
+42-2	3641-3642	.	_	_	_	_	_	

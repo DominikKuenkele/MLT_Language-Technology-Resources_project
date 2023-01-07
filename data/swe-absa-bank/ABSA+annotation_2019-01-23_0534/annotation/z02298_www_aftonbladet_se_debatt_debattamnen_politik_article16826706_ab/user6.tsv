@@ -1,0 +1,773 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Nya harmlösa MP följer strömmen högerut.
+3-1	18-21	Nya	_	_	_	_	_	_	
+3-2	22-30	harmlösa	_	Target	3-3	true	4	_	
+3-3	31-33	MP	*	_	_	_	_	_	
+3-4	34-40	följer	_	_	_	_	_	_	
+3-5	41-49	strömmen	_	_	_	_	_	_	
+3-6	50-57	högerut	_	_	_	_	_	_	
+3-7	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Det går bra för Miljöpartiet.
+5-1	69-72	Det	_	_	_	_	_	_	
+5-2	73-76	går	_	Target;Source[1]	5-5;5-6	false[1]	4[1]	_	
+5-3	77-80	bra	_	Target;Source[1]	5-5;5-6	false[1]	4[1]	_	
+5-4	81-84	för	_	Target;Source[1]	5-5;5-6	false[1]	4[1]	_	
+5-5	85-97	Miljöpartiet	*	_	_	_	_	_	
+5-6	97-98	.	*	_	_	_	_	_	
+
+#Text=Ju mer harmlöst partiet blivit, desto bättre har det gått i opinionsmätningarna.
+6-1	99-101	Ju	_	_	_	_	_	_	
+6-2	102-105	mer	_	_	_	_	_	_	
+6-3	106-114	harmlöst	_	_	_	_	_	_	
+6-4	115-122	partiet	_	_	_	_	_	_	
+6-5	123-129	blivit	_	_	_	_	_	_	
+6-6	129-130	,	_	_	_	_	_	_	
+6-7	131-136	desto	_	_	_	_	_	_	
+6-8	137-143	bättre	_	_	_	_	_	_	
+6-9	144-147	har	_	_	_	_	_	_	
+6-10	148-151	det	_	_	_	_	_	_	
+6-11	152-156	gått	_	_	_	_	_	_	
+6-12	157-158	i	_	_	_	_	_	_	
+6-13	159-178	opinionsmätningarna	_	_	_	_	_	_	
+6-14	178-179	.	_	_	_	_	_	_	
+
+#Text=Harmlösheten har blivit ett vinnande koncept.
+7-1	180-192	Harmlösheten	*	_	_	_	_	_	
+7-2	193-196	har	_	_	_	_	_	_	
+7-3	197-203	blivit	_	Source;Target[2]	7-7;7-1	false[2]	4[2]	_	
+7-4	204-207	ett	_	Source;Target[2]	7-7;7-1	false[2]	4[2]	_	
+7-5	208-216	vinnande	_	Source;Target[2]	7-7;7-1	false[2]	4[2]	_	
+7-6	217-224	koncept	_	Source;Target[2]	7-7;7-1	false[2]	4[2]	_	
+7-7	224-225	.	*	_	_	_	_	_	
+
+#Text=Mätt i opinionsframgångar.
+8-1	226-230	Mätt	_	_	_	_	_	_	
+8-2	231-232	i	_	_	_	_	_	_	
+8-3	233-251	opinionsframgångar	_	_	_	_	_	_	
+8-4	251-252	.	_	_	_	_	_	_	
+
+#Text=Men frågan som uppstår är: Vad är det MP driver för frågor?.
+9-1	253-256	Men	_	_	_	_	_	_	
+9-2	257-263	frågan	_	_	_	_	_	_	
+9-3	264-267	som	_	_	_	_	_	_	
+9-4	268-275	uppstår	_	_	_	_	_	_	
+9-5	276-278	är	_	_	_	_	_	_	
+9-6	278-279	:	_	_	_	_	_	_	
+9-7	280-283	Vad	_	_	_	_	_	_	
+9-8	284-286	är	_	_	_	_	_	_	
+9-9	287-290	det	_	_	_	_	_	_	
+9-10	291-293	MP	_	_	_	_	_	_	
+9-11	294-300	driver	_	_	_	_	_	_	
+9-12	301-304	för	_	_	_	_	_	_	
+9-13	305-311	frågor	_	_	_	_	_	_	
+9-14	311-312	?	_	_	_	_	_	_	
+9-15	312-313	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+10-1	315-316	#	_	_	_	_	_	_	
+10-2	316-317	P	_	_	_	_	_	_	
+10-3	318-321	IMM	_	_	_	_	_	_	
+10-4	321-322	.	_	_	_	_	_	_	
+
+#Text=Kärnfrågor som 35-timmars vecka, grön skatteväxling och friår försvann från partiledningens agenda inför förra valet.
+11-1	324-334	Kärnfrågor	_	_	_	_	_	_	
+11-2	335-338	som	_	_	_	_	_	_	
+11-3	339-341	35	_	_	_	_	_	_	
+11-4	341-342	-	_	_	_	_	_	_	
+11-5	342-349	timmars	_	_	_	_	_	_	
+11-6	350-355	vecka	_	_	_	_	_	_	
+11-7	355-356	,	_	_	_	_	_	_	
+11-8	357-361	grön	_	_	_	_	_	_	
+11-9	362-375	skatteväxling	_	_	_	_	_	_	
+11-10	376-379	och	_	_	_	_	_	_	
+11-11	380-385	friår	_	_	_	_	_	_	
+11-12	386-394	försvann	_	_	_	_	_	_	
+11-13	395-399	från	_	_	_	_	_	_	
+11-14	400-415	partiledningens	_	_	_	_	_	_	
+11-15	416-422	agenda	_	_	_	_	_	_	
+11-16	423-428	inför	_	_	_	_	_	_	
+11-17	429-434	förra	_	_	_	_	_	_	
+11-18	435-440	valet	_	_	_	_	_	_	
+11-19	440-441	.	_	_	_	_	_	_	
+
+#Text=Liksom nästan varje uns av kritisk analys av tillväxt- och konsumtionssamhället.
+12-1	442-448	Liksom	_	_	_	_	_	_	
+12-2	449-455	nästan	_	_	_	_	_	_	
+12-3	456-461	varje	_	_	_	_	_	_	
+12-4	462-465	uns	_	_	_	_	_	_	
+12-5	466-468	av	_	_	_	_	_	_	
+12-6	469-476	kritisk	_	_	_	_	_	_	
+12-7	477-483	analys	_	_	_	_	_	_	
+12-8	484-486	av	_	_	_	_	_	_	
+12-9	487-495	tillväxt	_	_	_	_	_	_	
+12-10	495-496	-	_	_	_	_	_	_	
+12-11	497-500	och	_	_	_	_	_	_	
+12-12	501-521	konsumtionssamhället	_	_	_	_	_	_	
+12-13	521-522	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+13-1	524-525	#	_	_	_	_	_	_	
+13-2	525-526	P	_	_	_	_	_	_	
+13-3	527-530	IMM	_	_	_	_	_	_	
+13-4	530-531	.	_	_	_	_	_	_	
+
+#Text=Dessutom valde man att – likt döda fiskar – följa strömmen högerut när det gäller synen på vinster i välfärden.
+14-1	533-541	Dessutom	_	_	_	_	_	_	
+14-2	542-547	valde	_	_	_	_	_	_	
+14-3	548-551	man	_	_	_	_	_	_	
+14-4	552-555	att	_	_	_	_	_	_	
+14-5	556-557	–	_	_	_	_	_	_	
+14-6	558-562	likt	_	Target[3]	14-10[27]	false[3]	2[3]	_	
+14-7	563-567	döda	_	Target[3]	14-10[27]	false[3]	2[3]	_	
+14-8	568-574	fiskar	_	Target[3]	14-10[27]	false[3]	2[3]	_	
+14-9	575-576	–	_	_	_	_	_	_	
+14-10	577-582	följa	*[27]	_	_	_	_	_	
+14-11	583-591	strömmen	*[27]	_	_	_	_	_	
+14-12	592-599	högerut	*[27]	_	_	_	_	_	
+14-13	600-603	när	*[27]	_	_	_	_	_	
+14-14	604-607	det	*[27]	_	_	_	_	_	
+14-15	608-614	gäller	*[27]	_	_	_	_	_	
+14-16	615-620	synen	*[27]	_	_	_	_	_	
+14-17	621-623	på	*[27]	_	_	_	_	_	
+14-18	624-631	vinster	*[27]	_	_	_	_	_	
+14-19	632-633	i	*[27]	_	_	_	_	_	
+14-20	634-643	välfärden	*[27]	_	_	_	_	_	
+14-21	643-644	.	_	_	_	_	_	_	
+
+#Text=Steg jag aldrig någonsin kunde tro att partiet skulle ta.
+15-1	645-649	Steg	*	_	_	_	_	_	
+15-2	650-653	jag	_	_	_	_	_	_	
+15-3	654-660	aldrig	_	Target[4]	15-1	false[4]	2[4]	_	
+15-4	661-669	någonsin	_	Target[4]	15-1	false[4]	2[4]	_	
+15-5	670-675	kunde	_	Target[4]	15-1	false[4]	2[4]	_	
+15-6	676-679	tro	_	Target[4]	15-1	false[4]	2[4]	_	
+15-7	680-683	att	_	_	_	_	_	_	
+15-8	684-691	partiet	_	_	_	_	_	_	
+15-9	692-698	skulle	_	_	_	_	_	_	
+15-10	699-701	ta	_	_	_	_	_	_	
+15-11	701-702	.	_	_	_	_	_	_	
+
+#Text=Alternativ inom skola, vård och omsorg – javisst!
+16-1	703-713	Alternativ	*[28]	_	_	_	_	_	
+16-2	714-718	inom	*[28]	_	_	_	_	_	
+16-3	719-724	skola	*[28]	_	_	_	_	_	
+16-4	724-725	,	*[28]	_	_	_	_	_	
+16-5	726-730	vård	*[28]	_	_	_	_	_	
+16-6	731-734	och	*[28]	_	_	_	_	_	
+16-7	735-741	omsorg	*[28]	_	_	_	_	_	
+16-8	742-743	–	_	_	_	_	_	_	
+16-9	744-751	javisst	_	Target	16-1[28]	false	4	_	
+16-10	751-752	!	_	_	_	_	_	_	
+
+#Text=Men aldrig någonsin genom vinstsyftande bolag och internationella koncerner.
+17-1	753-756	Men	_	_	_	_	_	_	
+17-2	757-763	aldrig	_	Target[5]	17-4[29]	false[5]	2[5]	_	
+17-3	764-772	någonsin	_	Target[5]	17-4[29]	false[5]	2[5]	_	
+17-4	773-778	genom	*[29]	_	_	_	_	_	
+17-5	779-792	vinstsyftande	*[29]	_	_	_	_	_	
+17-6	793-798	bolag	*[29]	_	_	_	_	_	
+17-7	799-802	och	*[29]	_	_	_	_	_	
+17-8	803-818	internationella	*[29]	_	_	_	_	_	
+17-9	819-828	koncerner	*[29]	_	_	_	_	_	
+17-10	828-829	.	_	_	_	_	_	_	
+
+#Text=Det bryter mot allt som har med grön ideologi att göra.
+18-1	830-833	Det	_	_	_	_	_	_	
+18-2	834-840	bryter	_	_	_	_	_	_	
+18-3	841-844	mot	_	_	_	_	_	_	
+18-4	845-849	allt	_	_	_	_	_	_	
+18-5	850-853	som	_	_	_	_	_	_	
+18-6	854-857	har	_	_	_	_	_	_	
+18-7	858-861	med	_	_	_	_	_	_	
+18-8	862-866	grön	_	_	_	_	_	_	
+18-9	867-875	ideologi	_	_	_	_	_	_	
+18-10	876-879	att	_	_	_	_	_	_	
+18-11	880-884	göra	_	_	_	_	_	_	
+18-12	884-885	.	_	_	_	_	_	_	
+
+#Text=Det bryter mot allt som varit självskrivet ända sedan Miljöpartiets bildande 1981.
+19-1	886-889	Det	_	_	_	_	_	_	
+19-2	890-896	bryter	_	_	_	_	_	_	
+19-3	897-900	mot	_	_	_	_	_	_	
+19-4	901-905	allt	_	_	_	_	_	_	
+19-5	906-909	som	_	_	_	_	_	_	
+19-6	910-915	varit	_	_	_	_	_	_	
+19-7	916-928	självskrivet	_	_	_	_	_	_	
+19-8	929-933	ända	_	_	_	_	_	_	
+19-9	934-939	sedan	_	_	_	_	_	_	
+19-10	940-953	Miljöpartiets	_	_	_	_	_	_	
+19-11	954-962	bildande	_	_	_	_	_	_	
+19-12	963-967	1981	_	_	_	_	_	_	
+19-13	967-968	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	970-971	#	_	_	_	_	_	_	
+20-2	971-972	P	_	_	_	_	_	_	
+20-3	973-976	IMM	_	_	_	_	_	_	
+20-4	976-977	.	_	_	_	_	_	_	
+
+#Text=Men det hände något under de förra språkrörens era.
+21-1	979-982	Men	_	_	_	_	_	_	
+21-2	983-986	det	_	_	_	_	_	_	
+21-3	987-992	hände	_	_	_	_	_	_	
+21-4	993-998	något	_	_	_	_	_	_	
+21-5	999-1004	under	_	_	_	_	_	_	
+21-6	1005-1007	de	_	_	_	_	_	_	
+21-7	1008-1013	förra	_	_	_	_	_	_	
+21-8	1014-1025	språkrörens	_	_	_	_	_	_	
+21-9	1026-1029	era	_	_	_	_	_	_	
+21-10	1029-1030	.	_	_	_	_	_	_	
+
+#Text=Man blev influerad av det nyliberala tankegodset som tidigare varit något artfrämmande för snart sagt varenda miljöpartist.
+22-1	1031-1034	Man	_	_	_	_	_	_	
+22-2	1035-1039	blev	_	_	_	_	_	_	
+22-3	1040-1049	influerad	_	_	_	_	_	_	
+22-4	1050-1052	av	_	_	_	_	_	_	
+22-5	1053-1056	det	*[30]	_	_	_	_	_	
+22-6	1057-1067	nyliberala	*[30]	_	_	_	_	_	
+22-7	1068-1079	tankegodset	*[30]	_	_	_	_	_	
+22-8	1080-1083	som	_	_	_	_	_	_	
+22-9	1084-1092	tidigare	_	_	_	_	_	_	
+22-10	1093-1098	varit	_	Target[6]	22-5[30]	false[6]	2[6]	_	
+22-11	1099-1104	något	_	Target[6]	22-5[30]	false[6]	2[6]	_	
+22-12	1105-1117	artfrämmande	_	Target[6]	22-5[30]	false[6]	2[6]	_	
+22-13	1118-1121	för	_	_	_	_	_	_	
+22-14	1122-1127	snart	_	_	_	_	_	_	
+22-15	1128-1132	sagt	_	_	_	_	_	_	
+22-16	1133-1140	varenda	_	_	_	_	_	_	
+22-17	1141-1153	miljöpartist	_	_	_	_	_	_	
+22-18	1153-1154	.	_	_	_	_	_	_	
+
+#Text=Starka personer som Maria Wetterstrand och Mikaela Valtersson drev partiet framför sig i marknadsliberal riktning.
+23-1	1155-1161	Starka	*[31]	Target[7]|Target[8]	23-4[33]|23-2[32]	false[7]|false[8]	4[7]|4[8]	25-2[0_31]	
+23-2	1162-1170	personer	*[31]|*[32]	Target[7]	23-4[33]	false[7]	4[7]	_	
+23-3	1171-1174	som	*[31]	_	_	_	_	_	
+23-4	1175-1180	Maria	*[31]|*[33]	_	_	_	_	_	
+23-5	1181-1193	Wetterstrand	*[31]|*[33]	_	_	_	_	_	
+23-6	1194-1197	och	*[31]|*[33]	_	_	_	_	_	
+23-7	1198-1205	Mikaela	*[31]|*[33]	_	_	_	_	_	
+23-8	1206-1216	Valtersson	*[31]|*[33]	_	_	_	_	_	
+23-9	1217-1221	drev	*[31]	_	_	_	_	_	
+23-10	1222-1229	partiet	*[31]	_	_	_	_	_	
+23-11	1230-1237	framför	*[31]	_	_	_	_	_	
+23-12	1238-1241	sig	*[31]	_	_	_	_	_	
+23-13	1242-1243	i	*[31]	_	_	_	_	_	
+23-14	1244-1259	marknadsliberal	*[31]	_	_	_	_	_	
+23-15	1260-1268	riktning	*[31]	_	_	_	_	_	
+23-16	1268-1269	.	_	_	_	_	_	_	
+
+#Text=Det gav bra utdelning i opinionen.
+24-1	1270-1273	Det	_	_	_	_	_	_	
+24-2	1274-1277	gav	_	_	_	_	_	_	
+24-3	1278-1281	bra	_	_	_	_	_	_	
+24-4	1282-1291	utdelning	_	_	_	_	_	_	
+24-5	1292-1293	i	_	_	_	_	_	_	
+24-6	1294-1303	opinionen	_	_	_	_	_	_	
+24-7	1303-1304	.	_	_	_	_	_	_	
+
+#Text=Och det resulterade i partiets bästa valresultat hittills.
+25-1	1305-1308	Och	_	_	_	_	_	_	
+25-2	1309-1312	det	*	_	_	_	_	_	
+25-3	1313-1324	resulterade	_	Target[9]	25-2	false[9]	4[9]	_	
+25-4	1325-1326	i	_	Target[9]	25-2	false[9]	4[9]	_	
+25-5	1327-1335	partiets	_	Target[9]	25-2	false[9]	4[9]	_	
+25-6	1336-1341	bästa	_	Target[9]	25-2	false[9]	4[9]	_	
+25-7	1342-1353	valresultat	_	Target[9]	25-2	false[9]	4[9]	_	
+25-8	1354-1362	hittills	_	Target[9]	25-2	false[9]	4[9]	_	
+25-9	1362-1363	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1365-1366	#	_	_	_	_	_	_	
+26-2	1366-1367	P	_	_	_	_	_	_	
+26-3	1368-1371	IMM	_	_	_	_	_	_	
+26-4	1371-1372	.	_	_	_	_	_	_	
+
+#Text=Mikaela Valtersson lämnade riksdagen efter valet och efter det att hon inte blev vald till Maria Wetterstands efterträdare.
+27-1	1374-1381	Mikaela	*[34]	_	_	_	_	29-1[0_34]	
+27-2	1382-1392	Valtersson	*[34]	_	_	_	_	_	
+27-3	1393-1400	lämnade	_	_	_	_	_	_	
+27-4	1401-1410	riksdagen	_	_	_	_	_	_	
+27-5	1411-1416	efter	_	_	_	_	_	_	
+27-6	1417-1422	valet	_	_	_	_	_	_	
+27-7	1423-1426	och	_	_	_	_	_	_	
+27-8	1427-1432	efter	_	_	_	_	_	_	
+27-9	1433-1436	det	_	_	_	_	_	_	
+27-10	1437-1440	att	_	_	_	_	_	_	
+27-11	1441-1444	hon	_	_	_	_	_	_	
+27-12	1445-1449	inte	_	_	_	_	_	_	
+27-13	1450-1454	blev	_	_	_	_	_	_	
+27-14	1455-1459	vald	_	_	_	_	_	_	
+27-15	1460-1464	till	_	_	_	_	_	_	
+27-16	1465-1470	Maria	_	_	_	_	_	_	
+27-17	1471-1483	Wetterstands	_	_	_	_	_	_	
+27-18	1484-1496	efterträdare	_	_	_	_	_	_	
+27-19	1496-1497	.	_	_	_	_	_	_	
+
+#Text=Ett av skälen till att hon inte blev vald är utan tvekan hennes engagemang för friskolor utan vinstbegränsning.
+28-1	1498-1501	Ett	_	_	_	_	_	_	
+28-2	1502-1504	av	_	_	_	_	_	_	
+28-3	1505-1511	skälen	_	_	_	_	_	_	
+28-4	1512-1516	till	_	_	_	_	_	_	
+28-5	1517-1520	att	_	_	_	_	_	_	
+28-6	1521-1524	hon	_	_	_	_	_	_	
+28-7	1525-1529	inte	_	_	_	_	_	_	
+28-8	1530-1534	blev	_	_	_	_	_	_	
+28-9	1535-1539	vald	_	_	_	_	_	_	
+28-10	1540-1542	är	_	_	_	_	_	_	
+28-11	1543-1547	utan	_	_	_	_	_	_	
+28-12	1548-1554	tvekan	_	_	_	_	_	_	
+28-13	1555-1561	hennes	_	_	_	_	_	_	
+28-14	1562-1572	engagemang	_	_	_	_	_	_	
+28-15	1573-1576	för	_	_	_	_	_	_	
+28-16	1577-1586	friskolor	_	_	_	_	_	_	
+28-17	1587-1591	utan	_	_	_	_	_	_	
+28-18	1592-1608	vinstbegränsning	_	_	_	_	_	_	
+28-19	1608-1609	.	_	_	_	_	_	_	
+
+#Text=Hon har nu valt bort partipolitiken och är i stället ordförande i Friskolornas riksförbund.
+29-1	1610-1613	Hon	*	_	_	_	_	_	
+29-2	1614-1617	har	_	_	_	_	_	_	
+29-3	1618-1620	nu	_	_	_	_	_	_	
+29-4	1621-1625	valt	_	Target;Source[10]	29-6;29-1	false[10]	2[10]	_	
+29-5	1626-1630	bort	_	Target;Source[10]	29-6;29-1	false[10]	2[10]	_	
+29-6	1631-1645	partipolitiken	*	_	_	_	_	_	
+29-7	1646-1649	och	_	_	_	_	_	_	
+29-8	1650-1652	är	_	_	_	_	_	_	
+29-9	1653-1654	i	_	_	_	_	_	_	
+29-10	1655-1662	stället	_	_	_	_	_	_	
+29-11	1663-1673	ordförande	_	_	_	_	_	_	
+29-12	1674-1675	i	_	_	_	_	_	_	
+29-13	1676-1688	Friskolornas	_	_	_	_	_	_	
+29-14	1689-1700	riksförbund	_	_	_	_	_	_	
+29-15	1700-1701	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1703-1704	#	_	_	_	_	_	_	
+30-2	1704-1705	P	_	_	_	_	_	_	
+30-3	1706-1709	IMM	_	_	_	_	_	_	
+30-4	1709-1710	.	_	_	_	_	_	_	
+
+#Text=Det finns således strömningar inom Miljöpartiet som är djupt kritiska till den ideologiskt harmlösa politik som fört partiet bort från gröna grundvärderingar och in mot den höger som i dag uppfattas som mitten.
+31-1	1712-1715	Det	_	_	_	_	_	_	
+31-2	1716-1721	finns	_	_	_	_	_	_	
+31-3	1722-1729	således	_	_	_	_	_	_	
+31-4	1730-1741	strömningar	*[35]	_	_	_	_	_	
+31-5	1742-1746	inom	*[35]	_	_	_	_	_	
+31-6	1747-1759	Miljöpartiet	*[35]	_	_	_	_	_	
+31-7	1760-1763	som	_	_	_	_	_	_	
+31-8	1764-1766	är	_	Source;Target[11]	31-4[35];31-12[36]	false[11]	2[11]	_	
+31-9	1767-1772	djupt	_	Source;Target[11]	31-4[35];31-12[36]	false[11]	2[11]	_	
+31-10	1773-1781	kritiska	_	Source;Target[11]	31-4[35];31-12[36]	false[11]	2[11]	_	
+31-11	1782-1786	till	_	Source;Target[11]	31-4[35];31-12[36]	false[11]	2[11]	_	
+31-12	1787-1790	den	*[36]	_	_	_	_	_	
+31-13	1791-1802	ideologiskt	*[36]	_	_	_	_	_	
+31-14	1803-1811	harmlösa	*[36]	_	_	_	_	_	
+31-15	1812-1819	politik	*[36]	_	_	_	_	_	
+31-16	1820-1823	som	*[36]	_	_	_	_	_	
+31-17	1824-1828	fört	*[36]	_	_	_	_	_	
+31-18	1829-1836	partiet	*[36]	_	_	_	_	_	
+31-19	1837-1841	bort	*[36]	_	_	_	_	_	
+31-20	1842-1846	från	*[36]	_	_	_	_	_	
+31-21	1847-1852	gröna	*[36]	_	_	_	_	_	
+31-22	1853-1869	grundvärderingar	*[36]	_	_	_	_	_	
+31-23	1870-1873	och	*[36]	_	_	_	_	_	
+31-24	1874-1876	in	*[36]	_	_	_	_	_	
+31-25	1877-1880	mot	*[36]	_	_	_	_	_	
+31-26	1881-1884	den	*[36]	_	_	_	_	_	
+31-27	1885-1890	höger	*[36]	_	_	_	_	_	
+31-28	1891-1894	som	*[36]	_	_	_	_	_	
+31-29	1895-1896	i	*[36]	_	_	_	_	_	
+31-30	1897-1900	dag	*[36]	_	_	_	_	_	
+31-31	1901-1910	uppfattas	*[36]	_	_	_	_	_	
+31-32	1911-1914	som	*[36]	_	_	_	_	_	
+31-33	1915-1921	mitten	*[36]	_	_	_	_	_	
+31-34	1921-1922	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	1924-1925	#	_	_	_	_	_	_	
+32-2	1925-1926	P	_	_	_	_	_	_	
+32-3	1927-1930	IMM	_	_	_	_	_	_	
+32-4	1930-1931	.	_	_	_	_	_	_	
+
+#Text=När partiet nu samlas till kongress i Västerås har man chansen att återvinna den gröna ideologin genom att köra över partiledningen på en rad punkter.
+33-1	1933-1936	När	_	_	_	_	_	_	
+33-2	1937-1944	partiet	_	_	_	_	_	_	
+33-3	1945-1947	nu	_	_	_	_	_	_	
+33-4	1948-1954	samlas	_	_	_	_	_	_	
+33-5	1955-1959	till	_	_	_	_	_	_	
+33-6	1960-1968	kongress	_	_	_	_	_	_	
+33-7	1969-1970	i	_	_	_	_	_	_	
+33-8	1971-1979	Västerås	_	_	_	_	_	_	
+33-9	1980-1983	har	_	_	_	_	_	_	
+33-10	1984-1987	man	_	_	_	_	_	_	
+33-11	1988-1995	chansen	_	Target	33-12[37]	false	4	_	
+33-12	1996-1999	att	*[37]	_	_	_	_	_	
+33-13	2000-2009	återvinna	*[37]	_	_	_	_	_	
+33-14	2010-2013	den	*[37]	_	_	_	_	_	
+33-15	2014-2019	gröna	*[37]	_	_	_	_	_	
+33-16	2020-2029	ideologin	*[37]	_	_	_	_	_	
+33-17	2030-2035	genom	_	_	_	_	_	_	
+33-18	2036-2039	att	_	_	_	_	_	_	
+33-19	2040-2044	köra	_	Target[12]	33-21	false[12]	2[12]	_	
+33-20	2045-2049	över	_	Target[12]	33-21	false[12]	2[12]	_	
+33-21	2050-2064	partiledningen	*	_	_	_	_	_	
+33-22	2065-2067	på	_	_	_	_	_	_	
+33-23	2068-2070	en	_	_	_	_	_	_	
+33-24	2071-2074	rad	_	_	_	_	_	_	
+33-25	2075-2082	punkter	_	_	_	_	_	_	
+33-26	2082-2083	.	_	_	_	_	_	_	
+
+#Text=Medlemmarna har redan tagit en seger: det ursprungliga förslaget till nytt partiprogram hade skrotat idén om friår, men medlemmarnas reaktion var så kraftig att det fördes in igen.
+34-1	2084-2095	Medlemmarna	_	_	_	_	_	_	
+34-2	2096-2099	har	_	_	_	_	_	_	
+34-3	2100-2105	redan	_	_	_	_	_	_	
+34-4	2106-2111	tagit	_	_	_	_	_	_	
+34-5	2112-2114	en	_	Target[13]	34-8[38]	false[13]	5[13]	_	
+34-6	2115-2120	seger	_	Target[13]	34-8[38]	false[13]	5[13]	_	
+34-7	2120-2121	:	_	_	_	_	_	_	
+34-8	2122-2125	det	*[38]	_	_	_	_	_	
+34-9	2126-2138	ursprungliga	*[38]	_	_	_	_	_	
+34-10	2139-2148	förslaget	*[38]	_	_	_	_	_	
+34-11	2149-2153	till	*[38]	_	_	_	_	_	
+34-12	2154-2158	nytt	*[38]	_	_	_	_	_	
+34-13	2159-2171	partiprogram	*[38]	_	_	_	_	_	
+34-14	2172-2176	hade	*[38]	_	_	_	_	_	
+34-15	2177-2184	skrotat	*[38]	_	_	_	_	_	
+34-16	2185-2189	idén	*[38]	_	_	_	_	_	
+34-17	2190-2192	om	*[38]	_	_	_	_	_	
+34-18	2193-2198	friår	*[38]	_	_	_	_	_	
+34-19	2198-2199	,	*[38]	_	_	_	_	_	
+34-20	2200-2203	men	*[38]	_	_	_	_	_	
+34-21	2204-2216	medlemmarnas	*[38]	_	_	_	_	_	
+34-22	2217-2225	reaktion	*[38]	_	_	_	_	_	
+34-23	2226-2229	var	*[38]	_	_	_	_	_	
+34-24	2230-2232	så	*[38]	_	_	_	_	_	
+34-25	2233-2240	kraftig	*[38]	_	_	_	_	_	
+34-26	2241-2244	att	*[38]	_	_	_	_	_	
+34-27	2245-2248	det	*[38]	_	_	_	_	_	
+34-28	2249-2255	fördes	*[38]	_	_	_	_	_	
+34-29	2256-2258	in	*[38]	_	_	_	_	_	
+34-30	2259-2263	igen	*[38]	_	_	_	_	_	
+34-31	2263-2264	.	_	_	_	_	_	_	
+
+#Text=Men ytterligare segrar behövs om partiet ska kunna säga att man driver på för en samhällsförändring.
+35-1	2265-2268	Men	_	_	_	_	_	_	
+35-2	2269-2280	ytterligare	_	_	_	_	_	_	
+35-3	2281-2287	segrar	_	_	_	_	_	_	
+35-4	2288-2294	behövs	_	_	_	_	_	_	
+35-5	2295-2297	om	_	_	_	_	_	_	
+35-6	2298-2305	partiet	_	_	_	_	_	_	
+35-7	2306-2309	ska	_	_	_	_	_	_	
+35-8	2310-2315	kunna	_	_	_	_	_	_	
+35-9	2316-2320	säga	_	_	_	_	_	_	
+35-10	2321-2324	att	_	_	_	_	_	_	
+35-11	2325-2328	man	_	_	_	_	_	_	
+35-12	2329-2335	driver	_	_	_	_	_	_	
+35-13	2336-2338	på	_	_	_	_	_	_	
+35-14	2339-2342	för	_	_	_	_	_	_	
+35-15	2343-2345	en	_	_	_	_	_	_	
+35-16	2346-2364	samhällsförändring	_	_	_	_	_	_	
+35-17	2364-2365	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2367-2368	#	_	_	_	_	_	_	
+36-2	2368-2369	P	_	_	_	_	_	_	
+36-3	2370-2373	IMM	_	_	_	_	_	_	
+36-4	2373-2374	.	_	_	_	_	_	_	
+
+#Text=Man måste ta klar och konkret ställning för sänkt arbetstid till 35 timmar, man måste våga utmana konsumtionssamhället och, inte minst, den vulgärliberala marknadsfundamentalism som ätit sig in i skola, vård och omsorg.
+37-1	2376-2379	Man	_	_	_	_	_	_	
+37-2	2380-2385	måste	_	_	_	_	_	_	
+37-3	2386-2388	ta	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-4	2389-2393	klar	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-5	2394-2397	och	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-6	2398-2405	konkret	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-7	2406-2415	ställning	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-8	2416-2419	för	_	Target[14]	37-9[39]	false[14]	4[14]	_	
+37-9	2420-2425	sänkt	*[39]	_	_	_	_	_	
+37-10	2426-2435	arbetstid	*[39]	_	_	_	_	_	
+37-11	2436-2440	till	*[39]	_	_	_	_	_	
+37-12	2441-2443	35	*[39]	_	_	_	_	_	
+37-13	2444-2450	timmar	*[39]	_	_	_	_	_	
+37-14	2450-2451	,	_	_	_	_	_	_	
+37-15	2452-2455	man	_	_	_	_	_	_	
+37-16	2456-2461	måste	_	Target[15]	37-19	false[15]	2[15]	_	
+37-17	2462-2466	våga	_	Target[15]	37-19	false[15]	2[15]	_	
+37-18	2467-2473	utmana	_	Target[15]	37-19	false[15]	2[15]	_	
+37-19	2474-2494	konsumtionssamhället	*	_	_	_	_	_	
+37-20	2495-2498	och	_	_	_	_	_	_	
+37-21	2498-2499	,	_	_	_	_	_	_	
+37-22	2500-2504	inte	_	_	_	_	_	_	
+37-23	2505-2510	minst	_	_	_	_	_	_	
+37-24	2510-2511	,	_	_	_	_	_	_	
+37-25	2512-2515	den	*[40]	_	_	_	_	_	
+37-26	2516-2530	vulgärliberala	*[40]	Target	37-27[41]	false	2	_	
+37-27	2531-2553	marknadsfundamentalism	*[40]|*[41]	_	_	_	_	_	
+37-28	2554-2557	som	_	_	_	_	_	_	
+37-29	2558-2562	ätit	_	Target[16]	37-25[40]	false[16]	2[16]	_	
+37-30	2563-2566	sig	_	Target[16]	37-25[40]	false[16]	2[16]	_	
+37-31	2567-2569	in	_	Target[16]	37-25[40]	false[16]	2[16]	_	
+37-32	2570-2571	i	_	_	_	_	_	_	
+37-33	2572-2577	skola	_	_	_	_	_	_	
+37-34	2577-2578	,	_	_	_	_	_	_	
+37-35	2579-2583	vård	_	_	_	_	_	_	
+37-36	2584-2587	och	_	_	_	_	_	_	
+37-37	2588-2594	omsorg	_	_	_	_	_	_	
+37-38	2594-2595	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2597-2598	#	_	_	_	_	_	_	
+38-2	2598-2599	P	_	_	_	_	_	_	
+38-3	2600-2603	IMM	_	_	_	_	_	_	
+38-4	2603-2604	.	_	_	_	_	_	_	
+
+#Text=Det behövs ett grönt parti som tar såväl klimathotet som marknadshotet på allvar.
+39-1	2606-2609	Det	_	_	_	_	_	_	
+39-2	2610-2616	behövs	_	_	_	_	_	_	
+39-3	2617-2620	ett	_	_	_	_	_	_	
+39-4	2621-2626	grönt	_	_	_	_	_	_	
+39-5	2627-2632	parti	_	_	_	_	_	_	
+39-6	2633-2636	som	_	_	_	_	_	_	
+39-7	2637-2640	tar	_	_	_	_	_	_	
+39-8	2641-2646	såväl	_	_	_	_	_	_	
+39-9	2647-2658	klimathotet	*	Target	39-9	false	2	_	
+39-10	2659-2662	som	_	_	_	_	_	_	
+39-11	2663-2676	marknadshotet	*	Target	39-11	false	2	_	
+39-12	2677-2679	på	_	_	_	_	_	_	
+39-13	2680-2686	allvar	_	_	_	_	_	_	
+39-14	2686-2687	.	_	_	_	_	_	_	
+
+#Text=Som inser att kapitalismen är alltför kreativ för samhällets bästa.
+40-1	2688-2691	Som	_	_	_	_	_	_	
+40-2	2692-2697	inser	_	_	_	_	_	_	
+40-3	2698-2701	att	_	_	_	_	_	_	
+40-4	2702-2714	kapitalismen	*[42]|*[43]|*[44]	_	_	_	_	41-9[0_42]|41-4[0_43]	
+40-5	2715-2717	är	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-6	2718-2725	alltför	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-7	2726-2733	kreativ	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-8	2734-2737	för	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-9	2738-2748	samhällets	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-10	2749-2754	bästa	_	Target[17]	40-4[42]	false[17]	2[17]	_	
+40-11	2754-2755	.	_	_	_	_	_	_	
+
+#Text=Som vågar tygla den, sätta band på den och tala om något så vackert som grön blandekonomi där värden väger tyngre än pengar, där miljön väger tyngre än tillväxten, där människors värdighet väger tyngre än vinster.
+41-1	2756-2759	Som	_	_	_	_	_	_	
+41-2	2760-2765	vågar	_	_	_	_	_	_	
+41-3	2766-2771	tygla	_	Target	41-4	false	2	_	
+41-4	2772-2775	den	*	_	_	_	_	_	
+41-5	2775-2776	,	_	_	_	_	_	_	
+41-6	2777-2782	sätta	_	Target[18]	41-9	false[18]	2[18]	_	
+41-7	2783-2787	band	_	Target[18]	41-9	false[18]	2[18]	_	
+41-8	2788-2790	på	_	Target[18]	41-9	false[18]	2[18]	_	
+41-9	2791-2794	den	*	_	_	_	_	_	
+41-10	2795-2798	och	_	_	_	_	_	_	
+41-11	2799-2803	tala	_	_	_	_	_	_	
+41-12	2804-2806	om	_	_	_	_	_	_	
+41-13	2807-2812	något	_	Target[19]	41-17[45]	false[19]	4[19]	_	
+41-14	2813-2815	så	_	Target[19]	41-17[45]	false[19]	4[19]	_	
+41-15	2816-2823	vackert	_	Target[19]	41-17[45]	false[19]	4[19]	_	
+41-16	2824-2827	som	_	_	_	_	_	_	
+41-17	2828-2832	grön	*[45]	_	_	_	_	_	
+41-18	2833-2845	blandekonomi	*[45]	_	_	_	_	_	
+41-19	2846-2849	där	_	_	_	_	_	_	
+41-20	2850-2856	värden	*	_	_	_	_	_	
+41-21	2857-2862	väger	_	Target[20]	41-20	false[20]	4[20]	_	
+41-22	2863-2869	tyngre	_	Target[20]	41-20	false[20]	4[20]	_	
+41-23	2870-2872	än	_	Target[20]	41-20	false[20]	4[20]	_	
+41-24	2873-2879	pengar	_	Target[20]	41-20	false[20]	4[20]	_	
+41-25	2879-2880	,	_	_	_	_	_	_	
+41-26	2881-2884	där	_	_	_	_	_	_	
+41-27	2885-2891	miljön	*	_	_	_	_	_	
+41-28	2892-2897	väger	_	Target[21]	41-27	false[21]	4[21]	_	
+41-29	2898-2904	tyngre	_	Target[21]	41-27	false[21]	4[21]	_	
+41-30	2905-2907	än	_	Target[21]	41-27	false[21]	4[21]	_	
+41-31	2908-2918	tillväxten	_	Target[21]	41-27	false[21]	4[21]	_	
+41-32	2918-2919	,	_	_	_	_	_	_	
+41-33	2920-2923	där	_	_	_	_	_	_	
+41-34	2924-2934	människors	*[46]	_	_	_	_	_	
+41-35	2935-2944	värdighet	*[46]	_	_	_	_	_	
+41-36	2945-2950	väger	_	Target[22]	41-34[46]	false[22]	4[22]	_	
+41-37	2951-2957	tyngre	_	Target[22]	41-34[46]	false[22]	4[22]	_	
+41-38	2958-2960	än	_	Target[22]	41-34[46]	false[22]	4[22]	_	
+41-39	2961-2968	vinster	_	Target[22]	41-34[46]	false[22]	4[22]	_	
+41-40	2968-2969	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	2971-2972	#	_	_	_	_	_	_	
+42-2	2972-2973	P	_	_	_	_	_	_	
+42-3	2974-2977	IMM	_	_	_	_	_	_	
+42-4	2977-2978	.	_	_	_	_	_	_	
+
+#Text=Miljöpartiets kongress har under helgen ett stort ansvar.
+43-1	2980-2993	Miljöpartiets	_	_	_	_	_	_	
+43-2	2994-3002	kongress	_	_	_	_	_	_	
+43-3	3003-3006	har	_	_	_	_	_	_	
+43-4	3007-3012	under	_	_	_	_	_	_	
+43-5	3013-3019	helgen	_	_	_	_	_	_	
+43-6	3020-3023	ett	_	_	_	_	_	_	
+43-7	3024-3029	stort	_	_	_	_	_	_	
+43-8	3030-3036	ansvar	_	_	_	_	_	_	
+43-9	3036-3037	.	_	_	_	_	_	_	
+
+#Text=I det ansvaret ligger att skärpa upp förslaget till partiprogram, att köra över partiledningen i ett antal frågor och att våga räta på ryggen trots de marknadsfundamentalistiska stormbyar som viner – och i vars följd både samhälle och miljö kommer till skada.
+44-1	3038-3039	I	_	_	_	_	_	_	
+44-2	3040-3043	det	_	_	_	_	_	_	
+44-3	3044-3052	ansvaret	_	_	_	_	_	_	
+44-4	3053-3059	ligger	_	_	_	_	_	_	
+44-5	3060-3063	att	_	_	_	_	_	_	
+44-6	3064-3070	skärpa	_	Target[23]	44-8[47]	false[23]	2[23]	_	
+44-7	3071-3074	upp	_	Target[23]	44-8[47]	false[23]	2[23]	_	
+44-8	3075-3084	förslaget	*[47]	_	_	_	_	_	
+44-9	3085-3089	till	*[47]	_	_	_	_	_	
+44-10	3090-3102	partiprogram	*[47]	_	_	_	_	_	
+44-11	3102-3103	,	_	_	_	_	_	_	
+44-12	3104-3107	att	_	_	_	_	_	_	
+44-13	3108-3112	köra	_	Target[24]	44-15	false[24]	2[24]	_	
+44-14	3113-3117	över	_	Target[24]	44-15	false[24]	2[24]	_	
+44-15	3118-3132	partiledningen	*	_	_	_	_	_	
+44-16	3133-3134	i	_	_	_	_	_	_	
+44-17	3135-3138	ett	_	_	_	_	_	_	
+44-18	3139-3144	antal	_	_	_	_	_	_	
+44-19	3145-3151	frågor	_	_	_	_	_	_	
+44-20	3152-3155	och	_	_	_	_	_	_	
+44-21	3156-3159	att	_	_	_	_	_	_	
+44-22	3160-3164	våga	_	_	_	_	_	_	
+44-23	3165-3169	räta	_	_	_	_	_	_	
+44-24	3170-3172	på	_	_	_	_	_	_	
+44-25	3173-3179	ryggen	_	_	_	_	_	_	
+44-26	3180-3185	trots	_	_	_	_	_	_	
+44-27	3186-3188	de	_	_	_	_	_	_	
+44-28	3189-3215	marknadsfundamentalistiska	*[48]	Target[25]	44-28[48]	false[25]	2[25]	_	
+44-29	3216-3225	stormbyar	*[48]	Target[25]	44-28[48]	false[25]	2[25]	_	
+44-30	3226-3229	som	_	_	_	_	_	_	
+44-31	3230-3235	viner	_	_	_	_	_	_	
+44-32	3236-3237	–	_	_	_	_	_	_	
+44-33	3238-3241	och	_	_	_	_	_	_	
+44-34	3242-3243	i	_	_	_	_	_	_	
+44-35	3244-3248	vars	_	_	_	_	_	_	
+44-36	3249-3254	följd	_	_	_	_	_	_	
+44-37	3255-3259	både	_	_	_	_	_	_	
+44-38	3260-3268	samhälle	_	_	_	_	_	_	
+44-39	3269-3272	och	_	_	_	_	_	_	
+44-40	3273-3278	miljö	_	_	_	_	_	_	
+44-41	3279-3285	kommer	_	_	_	_	_	_	
+44-42	3286-3290	till	_	_	_	_	_	_	
+44-43	3291-3296	skada	_	_	_	_	_	_	
+44-44	3296-3297	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3299-3300	#	_	_	_	_	_	_	
+45-2	3300-3301	P	_	_	_	_	_	_	
+45-3	3302-3305	IMM	_	_	_	_	_	_	
+45-4	3305-3306	.	_	_	_	_	_	_	
+
+#Text=Det gäller att se längre än till snabba opinionsframgångar.
+46-1	3308-3311	Det	_	_	_	_	_	_	
+46-2	3312-3318	gäller	_	_	_	_	_	_	
+46-3	3319-3322	att	_	_	_	_	_	_	
+46-4	3323-3325	se	_	_	_	_	_	_	
+46-5	3326-3332	längre	_	_	_	_	_	_	
+46-6	3333-3335	än	_	_	_	_	_	_	
+46-7	3336-3340	till	_	_	_	_	_	_	
+46-8	3341-3347	snabba	_	_	_	_	_	_	
+46-9	3348-3366	opinionsframgångar	_	_	_	_	_	_	
+46-10	3366-3367	.	_	_	_	_	_	_	
+
+#Text=Det gäller att skapa opinion – inte att harmlöst, likt döda fiskar, följa den för tillfället trendiga strömmen.
+47-1	3368-3371	Det	_	_	_	_	_	_	
+47-2	3372-3378	gäller	_	_	_	_	_	_	
+47-3	3379-3382	att	_	_	_	_	_	_	
+47-4	3383-3388	skapa	_	_	_	_	_	_	
+47-5	3389-3396	opinion	_	_	_	_	_	_	
+47-6	3397-3398	–	_	_	_	_	_	_	
+47-7	3399-3403	inte	_	_	_	_	_	_	
+47-8	3404-3407	att	_	_	_	_	_	_	
+47-9	3408-3416	harmlöst	*	_	_	_	_	_	
+47-10	3416-3417	,	_	_	_	_	_	_	
+47-11	3418-3422	likt	_	Target;Target[26]	47-15[49];47-9	false[26]	2[26]	_	
+47-12	3423-3427	döda	_	Target;Target[26]	47-15[49];47-9	false[26]	2[26]	_	
+47-13	3428-3434	fiskar	_	Target;Target[26]	47-15[49];47-9	false[26]	2[26]	_	
+47-14	3434-3435	,	_	_	_	_	_	_	
+47-15	3436-3441	följa	*[49]	_	_	_	_	_	
+47-16	3442-3445	den	*[49]	_	_	_	_	_	
+47-17	3446-3449	för	*[49]	_	_	_	_	_	
+47-18	3450-3460	tillfället	*[49]	_	_	_	_	_	
+47-19	3461-3469	trendiga	*[49]	_	_	_	_	_	
+47-20	3470-3478	strömmen	*[49]	_	_	_	_	_	
+47-21	3478-3479	.	_	_	_	_	_	_	
+
+#Text=Det var inte därför partiet bildades en gång.
+48-1	3480-3483	Det	_	_	_	_	_	_	
+48-2	3484-3487	var	_	_	_	_	_	_	
+48-3	3488-3492	inte	_	_	_	_	_	_	
+48-4	3493-3499	därför	_	_	_	_	_	_	
+48-5	3500-3507	partiet	_	_	_	_	_	_	
+48-6	3508-3516	bildades	_	_	_	_	_	_	
+48-7	3517-3519	en	_	_	_	_	_	_	
+48-8	3520-3524	gång	_	_	_	_	_	_	
+48-9	3524-3525	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+49-1	3527-3528	#	_	_	_	_	_	_	
+49-2	3528-3529	P	_	_	_	_	_	_	
+49-3	3530-3533	IMM	_	_	_	_	_	_	
+49-4	3533-3534	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+50-1	3536-3541	FAKTA	_	_	_	_	_	_	
+50-2	3541-3542	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3544-3545	#	_	_	_	_	_	_	
+51-2	3545-3546	P	_	_	_	_	_	_	
+51-3	3547-3550	IMM	_	_	_	_	_	_	
+51-4	3550-3551	.	_	_	_	_	_	_	
+
+#Text=REN.
+52-1	3553-3556	REN	_	_	_	_	_	_	
+52-2	3556-3557	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3559-3560	#	_	_	_	_	_	_	
+53-2	3560-3561	P	_	_	_	_	_	_	
+53-3	3562-3565	IMM	_	_	_	_	_	_	
+53-4	3565-3566	.	_	_	_	_	_	_	
+
+#Text=N.
+54-1	3568-3569	N	_	_	_	_	_	_	
+54-2	3569-3570	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3572-3573	#	_	_	_	_	_	_	
+55-2	3573-3574	P	_	_	_	_	_	_	
+55-3	3575-3578	IMM	_	_	_	_	_	_	
+55-4	3578-3579	.	_	_	_	_	_	_	
+
+#Text=Birger Schlaug.
+56-1	3581-3587	Birger	_	_	_	_	_	_	
+56-2	3588-3595	Schlaug	_	_	_	_	_	_	
+56-3	3595-3596	.	_	_	_	_	_	_	

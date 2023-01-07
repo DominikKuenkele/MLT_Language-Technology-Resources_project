@@ -1,0 +1,182 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Varför sitter alla här och klagar men vägrar göra något åt det?
+3-1	18-24	Varför	_	_	_	_	_	
+3-2	25-31	sitter	_	_	_	_	_	
+3-3	32-36	alla	*[7]	_	_	_	_	
+3-4	37-40	här	*[7]	_	_	_	_	
+3-5	41-44	och	_	_	_	_	_	
+3-6	45-51	klagar	_	Target	3-3[7]	false	2	
+3-7	52-55	men	_	_	_	_	_	
+3-8	56-62	vägrar	_	_	_	_	_	
+3-9	63-67	göra	_	_	_	_	_	
+3-10	68-73	något	_	_	_	_	_	
+3-11	74-76	åt	_	_	_	_	_	
+3-12	77-80	det	_	_	_	_	_	
+3-13	80-81	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	83-84	#	_	_	_	_	_	
+4-2	84-85	P	_	_[2]	_	false[2]	2[2]	
+4-3	86-89	IMM	_	_[2]	_	false[2]	2[2]	
+4-4	89-90	.	_	_	_	_	_	
+
+#Text=Fattar inte själv, 9/10 jag snackar med IRL är emot den invandringen vi har idag.
+5-1	92-98	Fattar	_	_	_	_	_	
+5-2	99-103	inte	_	_	_	_	_	
+5-3	104-109	själv	_	_	_	_	_	
+5-4	109-110	,	_	_	_	_	_	
+5-5	111-112	9	*[8]	_	_	_	_	
+5-6	112-113	/	*[8]	_	_	_	_	
+5-7	113-115	10	*[8]	_	_	_	_	
+5-8	116-119	jag	_	_	_	_	_	
+5-9	120-127	snackar	_	_	_	_	_	
+5-10	128-131	med	_	_	_	_	_	
+5-11	132-135	IRL	_	_	_	_	_	
+5-12	136-138	är	_	Source;Target[3]	5-5[8];5-15	false[3]	2[3]	
+5-13	139-143	emot	_	Source;Target[3]	5-5[8];5-15	false[3]	2[3]	
+5-14	144-147	den	_	_	_	_	_	
+5-15	148-160	invandringen	*	_	_	_	_	
+5-16	161-163	vi	_	_	_	_	_	
+5-17	164-167	har	_	_	_	_	_	
+5-18	168-172	idag	_	_	_	_	_	
+5-19	172-173	.	_	_	_	_	_	
+
+#Text=Märker att framförallt här på Flashback så klagas det på invandringen och dess bieffekter.
+6-1	174-180	Märker	_	_	_	_	_	
+6-2	181-184	att	_	_	_	_	_	
+6-3	185-196	framförallt	_	_	_	_	_	
+6-4	197-200	här	_	_	_	_	_	
+6-5	201-203	på	_	_	_	_	_	
+6-6	204-213	Flashback	_	_	_	_	_	
+6-7	214-216	så	_	_	_	_	_	
+6-8	217-223	klagas	_	Target	6-10[9]	false	2	
+6-9	224-227	det	_	_	_	_	_	
+6-10	228-230	på	*[9]	_	_	_	_	
+6-11	231-243	invandringen	*[9]	_	_	_	_	
+6-12	244-247	och	_	_	_	_	_	
+6-13	248-252	dess	_	_	_	_	_	
+6-14	253-263	bieffekter	_	_	_	_	_	
+6-15	263-264	.	_	_	_	_	_	
+
+#Text=Så hur kommer det sig att den är som den är?.
+7-1	265-267	Så	_	_	_	_	_	
+7-2	268-271	hur	_	_	_	_	_	
+7-3	272-278	kommer	_	_	_	_	_	
+7-4	279-282	det	_	_	_	_	_	
+7-5	283-286	sig	_	_	_	_	_	
+7-6	287-290	att	_	_	_	_	_	
+7-7	291-294	den	_	_	_	_	_	
+7-8	295-297	är	_	_	_	_	_	
+7-9	298-301	som	_	_	_	_	_	
+7-10	302-305	den	_	_	_	_	_	
+7-11	306-308	är	_	_	_	_	_	
+7-12	308-309	?	_	_	_	_	_	
+7-13	309-310	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	312-313	#	_	_	_	_	_	
+8-2	313-314	P	_	_[4]	_	false[4]	2[4]	
+8-3	315-318	IMM	_	_[4]	_	false[4]	2[4]	
+8-4	318-319	.	_	_	_	_	_	
+
+#Text=Hur kan det bli såhär när över 90% är emot invandringen?
+9-1	321-324	Hur	_	_	_	_	_	
+9-2	325-328	kan	_	_	_	_	_	
+9-3	329-332	det	_	_	_	_	_	
+9-4	333-336	bli	_	_	_	_	_	
+9-5	337-342	såhär	_	_	_	_	_	
+9-6	343-346	när	_	_	_	_	_	
+9-7	347-351	över	_	_	_	_	_	
+9-8	352-355	90%	*	_	_	_	_	
+9-9	356-358	är	_	Source;Target[5]	9-8;9-11	false[5]	2[5]	
+9-10	359-363	emot	_	Source;Target[5]	9-8;9-11	false[5]	2[5]	
+9-11	364-376	invandringen	*	_	_	_	_	
+9-12	376-377	?	_	_	_	_	_	
+
+#Text=Någon måste ju dra besluten, men ingen verkar stödja dem man faktiskt snackar med.
+10-1	378-383	Någon	_	_	_	_	_	
+10-2	384-389	måste	_	_	_	_	_	
+10-3	390-392	ju	_	_	_	_	_	
+10-4	393-396	dra	_	_	_	_	_	
+10-5	397-405	besluten	_	_	_	_	_	
+10-6	405-406	,	_	_	_	_	_	
+10-7	407-410	men	_	_	_	_	_	
+10-8	411-416	ingen	_	_	_	_	_	
+10-9	417-423	verkar	_	_	_	_	_	
+10-10	424-430	stödja	_	_	_	_	_	
+10-11	431-434	dem	_	_	_	_	_	
+10-12	435-438	man	_	_	_	_	_	
+10-13	439-447	faktiskt	_	_	_	_	_	
+10-14	448-455	snackar	_	_	_	_	_	
+10-15	456-459	med	_	_	_	_	_	
+10-16	459-460	.	_	_	_	_	_	
+
+#Text=Så varför tas dessa beslut?
+11-1	461-463	Så	_	_	_	_	_	
+11-2	464-470	varför	_	_	_	_	_	
+11-3	471-474	tas	_	_	_	_	_	
+11-4	475-480	dessa	_	_	_	_	_	
+11-5	481-487	beslut	_	_	_	_	_	
+11-6	487-488	?	*	_	_	_	_	
+
+#Text=Det är ju ologiskt.
+12-1	489-492	Det	_	_	_	_	_	
+12-2	493-495	är	_	_	_	_	_	
+12-3	496-498	ju	_	_	_	_	_	
+12-4	499-507	ologiskt	_	Target	11-6	false	2	
+12-5	507-508	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	510-511	#	_	_	_	_	_	
+13-2	511-512	P	_	_	_	_	_	
+13-3	513-516	IMM	_	_	_	_	_	
+13-4	516-517	.	_	_	_	_	_	
+
+#Text=Om nu över 90% av befolkningen fullständigt kokar inombords av det, varför gör ingen något åt det istället för att gnälla år ut och år in på forum?.
+14-1	519-521	Om	_	_	_	_	_	
+14-2	522-524	nu	_	_	_	_	_	
+14-3	525-529	över	_	_	_	_	_	
+14-4	530-533	90%	*[10]	_	_	_	_	
+14-5	534-536	av	*[10]	_	_	_	_	
+14-6	537-549	befolkningen	*[10]	_	_	_	_	
+14-7	550-562	fullständigt	_	Target[6]	14-4[10]	false[6]	2[6]	
+14-8	563-568	kokar	_	Target[6]	14-4[10]	false[6]	2[6]	
+14-9	569-578	inombords	_	Target[6]	14-4[10]	false[6]	2[6]	
+14-10	579-581	av	_	_	_	_	_	
+14-11	582-585	det	_	_	_	_	_	
+14-12	585-586	,	_	_	_	_	_	
+14-13	587-593	varför	_	_	_	_	_	
+14-14	594-597	gör	_	_	_	_	_	
+14-15	598-603	ingen	_	_	_	_	_	
+14-16	604-609	något	_	_	_	_	_	
+14-17	610-612	åt	_	_	_	_	_	
+14-18	613-616	det	_	_	_	_	_	
+14-19	617-625	istället	_	_	_	_	_	
+14-20	626-629	för	_	_	_	_	_	
+14-21	630-633	att	_	_	_	_	_	
+14-22	634-640	gnälla	_	Target	14-4[10]	false	2	
+14-23	641-643	år	_	_	_	_	_	
+14-24	644-646	ut	_	_	_	_	_	
+14-25	647-650	och	_	_	_	_	_	
+14-26	651-653	år	_	_	_	_	_	
+14-27	654-656	in	_	_	_	_	_	
+14-28	657-659	på	_	_	_	_	_	
+14-29	660-665	forum	_	_	_	_	_	
+14-30	665-666	?	_	_	_	_	_	
+14-31	666-667	.	_	_	_	_	_	

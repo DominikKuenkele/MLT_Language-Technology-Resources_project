@@ -1,0 +1,156 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Invandringens kostnader.
+3-1	18-31	Invandringens	_	_	_	_	_	_	
+3-2	32-41	kostnader	_	_	_	_	_	_	
+3-3	41-42	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	44-45	#	_	_	_	_	_	_	
+4-2	45-46	P	_	_	_	_	_	_	
+4-3	47-50	IMM	_	_	_	false	2	_	
+4-4	50-51	.	_	_	_	_	_	_	
+
+#Text=Jan Ekberg, professor i nationalekonomi, släppte den 15 oktober ifrån sig en rapport om invandringens konsekvenser för svensk ekonomi.
+5-1	53-56	Jan	_	_	_	_	_	_	
+5-2	57-63	Ekberg	_	_	_	_	_	_	
+5-3	63-64	,	_	_	_	_	_	_	
+5-4	65-74	professor	_	_	_	_	_	_	
+5-5	75-76	i	_	_	_	_	_	_	
+5-6	77-92	nationalekonomi	_	_	_	_	_	_	
+5-7	92-93	,	_	_	_	_	_	_	
+5-8	94-101	släppte	_	_	_	_	_	_	
+5-9	102-105	den	_	_	_	_	_	_	
+5-10	106-108	15	_	_	_	_	_	_	
+5-11	109-116	oktober	_	_	_	_	_	_	
+5-12	117-122	ifrån	_	_	_	_	_	_	
+5-13	123-126	sig	_	_	_	_	_	_	
+5-14	127-129	en	_	_	_	_	_	_	
+5-15	130-137	rapport	_	_	_	_	_	_	
+5-16	138-140	om	_	_	_	_	_	_	
+5-17	141-154	invandringens	_	_	_	_	_	_	
+5-18	155-167	konsekvenser	_	_	_	_	_	_	
+5-19	168-171	för	_	_	_	_	_	_	
+5-20	172-178	svensk	_	_	_	_	_	_	
+5-21	179-186	ekonomi	_	_	_	_	_	_	
+5-22	186-187	.	*	_	_	_	_	6-2[3_0]	
+
+#Text=I denna rapport framgår att invandringen i princip varit en kostnad för Sverige sedan slutet av 70-talet.
+6-1	188-189	I	_	_	_	_	_	_	
+6-2	190-195	denna	*[3]	_	_	_	_	_	
+6-3	196-203	rapport	*[3]	_	_	_	_	_	
+6-4	204-211	framgår	_	_	_	_	_	_	
+6-5	212-215	att	_	_	_	_	_	_	
+6-6	216-228	invandringen	*[4]	_	_	_	_	_	
+6-7	229-230	i	*[4]	_	_	_	_	_	
+6-8	231-238	princip	*[4]	_	_	_	_	_	
+6-9	239-244	varit	*[4]	Source;Target[1]	6-2[3];6-6[4]	false[1]	2[1]	_	
+6-10	245-247	en	*[4]	Source;Target[1]	6-2[3];6-6[4]	false[1]	2[1]	_	
+6-11	248-255	kostnad	*[4]	Source;Target[1]	6-2[3];6-6[4]	false[1]	2[1]	_	
+6-12	256-259	för	*[4]	_	_	_	_	_	
+6-13	260-267	Sverige	*[4]	_	_	_	_	_	
+6-14	268-273	sedan	*[4]	_	_	_	_	_	
+6-15	274-280	slutet	*[4]	_	_	_	_	_	
+6-16	281-283	av	*[4]	_	_	_	_	_	
+6-17	284-286	70	*[4]	_	_	_	_	_	
+6-18	286-287	-	*[4]	_	_	_	_	_	
+6-19	287-292	talet	*[4]	_	_	_	_	_	
+6-20	292-293	.	_	_	_	_	_	_	
+
+#Text=Ekberg skriver i sammanfattningen:.
+7-1	294-300	Ekberg	_	_	_	_	_	_	
+7-2	301-308	skriver	_	_	_	_	_	_	
+7-3	309-310	i	_	_	_	_	_	_	
+7-4	311-327	sammanfattningen	_	_	_	_	_	_	
+7-5	327-328	:	_	_	_	_	_	_	
+7-6	328-329	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	331-332	#	_	_	_	_	_	_	
+8-2	332-333	P	_	_	_	_	_	_	
+8-3	334-337	IMM	_	_	_	false	2	_	
+8-4	337-338	.	_	_	_	_	_	_	
+
+#Text=Detta motsvarar 40-60 miljarder kronor.
+9-1	340-345	Detta	_	_	_	_	_	_	
+9-2	346-355	motsvarar	_	_	_	_	_	_	
+9-3	356-358	40	_	_	_	_	_	_	
+9-4	358-359	-	_	_	_	_	_	_	
+9-5	359-361	60	_	_	_	_	_	_	
+9-6	362-371	miljarder	_	_	_	_	_	_	
+9-7	372-378	kronor	_	_	_	_	_	_	
+9-8	378-379	.	_	_	_	_	_	_	
+
+#Text=I studien har Ekberg också undersökt om invandring kan bidra till att lösa de demografiska problem som Sverige delar med många andra länder i västeuropa.
+10-1	380-381	I	_	_	_	_	_	_	
+10-2	382-389	studien	_	_	_	_	_	_	
+10-3	390-393	har	_	_	_	_	_	_	
+10-4	394-400	Ekberg	_	_	_	_	_	_	
+10-5	401-406	också	_	_	_	_	_	_	
+10-6	407-416	undersökt	_	_	_	_	_	_	
+10-7	417-419	om	_	_	_	_	_	_	
+10-8	420-430	invandring	*	_	_	_	_	_	
+10-9	431-434	kan	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-10	435-440	bidra	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-11	441-445	till	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-12	446-449	att	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-13	450-454	lösa	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-14	455-457	de	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-15	458-470	demografiska	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-16	471-478	problem	_	Target;Source[2]	10-8;10-26	false[2]	4[2]	_	
+10-17	479-482	som	_	_	_	_	_	_	
+10-18	483-490	Sverige	_	_	_	_	_	_	
+10-19	491-496	delar	_	_	_	_	_	_	
+10-20	497-500	med	_	_	_	_	_	_	
+10-21	501-506	många	_	_	_	_	_	_	
+10-22	507-512	andra	_	_	_	_	_	_	
+10-23	513-519	länder	_	_	_	_	_	_	
+10-24	520-521	i	_	_	_	_	_	_	
+10-25	522-532	västeuropa	_	_	_	_	_	_	
+10-26	532-533	.	*	_	_	_	_	_	
+
+#Text=Svaret är att så inte är fallet under nuvarande förhållanden då ...
+11-1	534-540	Svaret	_	_	_	_	_	_	
+11-2	541-543	är	_	_	_	_	_	_	
+11-3	544-547	att	_	_	_	_	_	_	
+11-4	548-550	så	_	_	_	_	_	_	
+11-5	551-555	inte	_	_	_	_	_	_	
+11-6	556-558	är	_	_	_	_	_	_	
+11-7	559-565	fallet	_	_	_	_	_	_	
+11-8	566-571	under	_	_	_	_	_	_	
+11-9	572-581	nuvarande	_	_	_	_	_	_	
+11-10	582-594	förhållanden	_	_	_	_	_	_	
+11-11	595-597	då	_	_	_	_	_	_	
+11-12	598-599	.	_	_	_	_	_	_	
+11-13	599-600	.	_	_	_	_	_	_	
+11-14	600-601	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	603-604	#	_	_	_	_	_	_	
+12-2	604-605	P	_	_	_	_	_	_	
+12-3	606-609	IMM	_	_	_	_	_	_	
+12-4	609-610	.	_	_	_	_	_	_	
+
+#Text=Hela rapporten återfinns här:.
+13-1	612-616	Hela	_	_	_	_	_	_	
+13-2	617-626	rapporten	_	_	_	_	_	_	
+13-3	627-636	återfinns	_	_	_	_	_	_	
+13-4	637-640	här	_	_	_	_	_	_	
+13-5	640-641	:	_	_	_	_	_	_	
+13-6	641-642	.	_	_	_	_	_	_	

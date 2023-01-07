@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	1[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	1[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Finns intresse för invandrings- och islamiseringsbetting?
+3-1	18-23	Finns	_	_	_	_	_	_	
+3-2	24-32	intresse	_	Target;Source	3-4[10];3-8	false	4	_	
+3-3	33-36	för	_	_	_	_	_	_	
+3-4	37-48	invandrings	*[10]	_	_	_	_	_	
+3-5	48-49	-	*[10]	_	_	_	_	_	
+3-6	50-53	och	*[10]	_	_	_	_	_	
+3-7	54-74	islamiseringsbetting	*[10]	_	_	_	_	_	
+3-8	74-75	?	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	77-78	#	_	_	_	_	_	_	
+4-2	78-79	P	_	_[3]	_	false[3]	2[3]	_	
+4-3	80-83	IMM	_	_[3]	_	false[3]	2[3]	_	
+4-4	83-84	.	_	_	_	_	_	_	
+
+#Text=Tänk er en sida där man kan satsa pengar på hur många moskeer vi har 2020, hur stor invandringen blir 2013, eller kanske på huruvida halalslakt utan bedövning kommer tillåtas inom 3 år..
+5-1	86-90	Tänk	_	_	_	_	_	_	
+5-2	91-93	er	_	_	_	_	_	_	
+5-3	94-96	en	_	_	_	_	_	_	
+5-4	97-101	sida	_	_	_	_	_	_	
+5-5	102-105	där	_	_	_	_	_	_	
+5-6	106-109	man	_	_	_	_	_	_	
+5-7	110-113	kan	_	_	_	_	_	_	
+5-8	114-119	satsa	_	_	_	_	_	_	
+5-9	120-126	pengar	_	_	_	_	_	_	
+5-10	127-129	på	_	_	_	_	_	_	
+5-11	130-133	hur	_	_	_	_	_	_	
+5-12	134-139	många	_	_	_	_	_	_	
+5-13	140-147	moskeer	_	_	_	_	_	_	
+5-14	148-150	vi	_	_	_	_	_	_	
+5-15	151-154	har	_	_	_	_	_	_	
+5-16	155-159	2020	_	_	_	_	_	_	
+5-17	159-160	,	_	_	_	_	_	_	
+5-18	161-164	hur	_	_	_	_	_	_	
+5-19	165-169	stor	_	_	_	_	_	_	
+5-20	170-182	invandringen	_	_	_	_	_	_	
+5-21	183-187	blir	_	_	_	_	_	_	
+5-22	188-192	2013	_	_	_	_	_	_	
+5-23	192-193	,	_	_	_	_	_	_	
+5-24	194-199	eller	_	_	_	_	_	_	
+5-25	200-206	kanske	_	_	_	_	_	_	
+5-26	207-209	på	_	_	_	_	_	_	
+5-27	210-218	huruvida	_	_	_	_	_	_	
+5-28	219-229	halalslakt	_	_	_	_	_	_	
+5-29	230-234	utan	_	_	_	_	_	_	
+5-30	235-244	bedövning	_	_	_	_	_	_	
+5-31	245-251	kommer	_	_	_	_	_	_	
+5-32	252-260	tillåtas	_	_	_	_	_	_	
+5-33	261-265	inom	_	_	_	_	_	_	
+5-34	266-267	3	_	_	_	_	_	_	
+5-35	268-270	år	_	_	_	_	_	_	
+5-36	270-271	.	_	_	_	_	_	_	
+5-37	271-272	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	274-275	#	_	_	_	_	_	_	
+6-2	275-276	P	_	_	_	_	_	_	
+6-3	277-280	IMM	_	_	_	_	_	_	
+6-4	280-281	.	_	_	_	_	_	_	
+
+#Text=Skulle ni vara intresserade av en sådan sida, använda den om den skapades?.
+7-1	283-289	Skulle	_	_	_	_	_	_	
+7-2	290-292	ni	*	_	_	_	_	_	
+7-3	293-297	vara	_	Source;Target[4]	7-2;7-7[11]	false[4]	4[4]	_	
+7-4	298-310	intresserade	_	Source;Target[4]	7-2;7-7[11]	false[4]	4[4]	_	
+7-5	311-313	av	_	Source;Target[4]	7-2;7-7[11]	false[4]	4[4]	_	
+7-6	314-316	en	_	_	_	_	_	_	
+7-7	317-322	sådan	*[11]	_	_	_	_	_	
+7-8	323-327	sida	*[11]	_	_	_	_	_	
+7-9	327-328	,	_	_	_	_	_	_	
+7-10	329-336	använda	_	_	_	_	_	_	
+7-11	337-340	den	_	_	_	_	_	_	
+7-12	341-343	om	_	_	_	_	_	_	
+7-13	344-347	den	_	_	_	_	_	_	
+7-14	348-356	skapades	_	_	_	_	_	_	
+7-15	356-357	?	_	_	_	_	_	_	
+7-16	357-358	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	360-361	#	_	_	_	_	_	_	
+8-2	361-362	P	_	_[5]	_	false[5]	2[5]	_	
+8-3	363-366	IMM	_	_[5]	_	false[5]	2[5]	_	
+8-4	366-367	.	_	_	_	_	_	_	
+
+#Text=För som jag ser det, har ni bara saker att vinna på det (om ni tror allt går åt helvete):.
+9-1	369-372	För	_	_	_	_	_	_	
+9-2	373-376	som	_	_	_	_	_	_	
+9-3	377-380	jag	*	_	_	_	_	_	
+9-4	381-384	ser	_	_	_	_	_	_	
+9-5	385-388	det	_	_	_	_	_	_	
+9-6	388-389	,	_	_	_	_	_	_	
+9-7	390-393	har	_	Target;Source	9-8;9-3	false	4	_	
+9-8	394-396	ni	*	_	_	_	_	_	
+9-9	397-401	bara	_	_[6]	_	false[6]	4[6]	9-7[0_6]	
+9-10	402-407	saker	_	_[6]	_	false[6]	4[6]	_	
+9-11	408-411	att	_	_[6]	_	false[6]	4[6]	_	
+9-12	412-417	vinna	_	_[6]	_	false[6]	4[6]	_	
+9-13	418-420	på	_	_[6]	_	false[6]	4[6]	_	
+9-14	421-424	det	_	_[6]	_	false[6]	4[6]	_	
+9-15	425-426	(	_	_	_	_	_	_	
+9-16	426-428	om	_	_	_	_	_	_	
+9-17	429-431	ni	*	_	_	_	_	_	
+9-18	432-436	tror	_	Target;Source	9-19[12];9-17	false	1	_	
+9-19	437-441	allt	*[12]	_	_	_	_	_	
+9-20	442-445	går	*[12]	_	_	_	_	_	
+9-21	446-448	åt	*[12]	_	_	_	_	_	
+9-22	449-456	helvete	*[12]	_	_	_	_	_	
+9-23	456-457	)	_	_	_	_	_	_	
+9-24	457-458	:	_	_	_	_	_	_	
+9-25	458-459	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	461-462	#	_	_	_	_	_	_	
+10-2	462-463	P	_	_[7]	_	false[7]	1[7]	_	
+10-3	464-467	IMM	_	_[7]	_	false[7]	1[7]	_	
+10-4	467-468	.	_	_	_	_	_	_	
+
+#Text=antingen kommer oddsen var dåliga, och då kan ni använda det som politiskt argument, eller så är oddsen bra och ni får känna lyckan av att skinna naiva multikulturalister.
+11-1	470-478	antingen	_	_	_	_	_	_	
+11-2	479-485	kommer	_	_	_	_	_	_	
+11-3	486-492	oddsen	*	_	_	_	_	_	
+11-4	493-496	var	_	Target[8]	11-3	false[8]	2[8]	_	
+11-5	497-503	dåliga	_	Target[8]	11-3	false[8]	2[8]	_	
+11-6	503-504	,	_	_	_	_	_	_	
+11-7	505-508	och	_	_	_	_	_	_	
+11-8	509-511	då	_	_	_	_	_	_	
+11-9	512-515	kan	_	_	_	_	_	_	
+11-10	516-518	ni	_	_	_	_	_	_	
+11-11	519-526	använda	_	_	_	_	_	_	
+11-12	527-530	det	_	_	_	_	_	_	
+11-13	531-534	som	_	_	_	_	_	_	
+11-14	535-544	politiskt	_	_	_	_	_	_	
+11-15	545-553	argument	_	_	_	_	_	_	
+11-16	553-554	,	_	_	_	_	_	_	
+11-17	555-560	eller	_	_	_	_	_	_	
+11-18	561-563	så	_	_	_	_	_	_	
+11-19	564-566	är	_	_	_	_	_	_	
+11-20	567-573	oddsen	*	_	_	_	_	_	
+11-21	574-577	bra	_	Target	11-20	false	4	_	
+11-22	578-581	och	_	_	_	_	_	_	
+11-23	582-584	ni	*	_	_	_	_	_	
+11-24	585-588	får	_	Target;Source[9]	11-29[13];11-23	false[9]	4[9]	_	
+11-25	589-594	känna	_	Target;Source[9]	11-29[13];11-23	false[9]	4[9]	_	
+11-26	595-601	lyckan	_	Target;Source[9]	11-29[13];11-23	false[9]	4[9]	_	
+11-27	602-604	av	_	_	_	_	_	_	
+11-28	605-608	att	_	_	_	_	_	_	
+11-29	609-615	skinna	*[13]	_	_	_	_	_	
+11-30	616-621	naiva	*[13]	_	_	_	_	_	
+11-31	622-640	multikulturalister	*[13]	_	_	_	_	_	
+11-32	640-641	.	_	_	_	_	_	_	
+
+#Text=Kanske räcker pengarna tom till att skapa en gated community.
+12-1	642-648	Kanske	_	_	_	_	_	_	
+12-2	649-655	räcker	_	_	_	_	_	_	
+12-3	656-664	pengarna	_	_	_	_	_	_	
+12-4	665-668	tom	_	_	_	_	_	_	
+12-5	669-673	till	_	_	_	_	_	_	
+12-6	674-677	att	_	_	_	_	_	_	
+12-7	678-683	skapa	_	_	_	_	_	_	
+12-8	684-686	en	_	_	_	_	_	_	
+12-9	687-692	gated	_	_	_	_	_	_	
+12-10	693-702	community	_	_	_	_	_	_	
+12-11	702-703	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	705-706	#	_	_	_	_	_	_	
+13-2	706-707	P	_	_	_	_	_	_	
+13-3	708-711	IMM	_	_	_	_	_	_	
+13-4	711-712	.	_	_	_	_	_	_	
+
+#Text=Skulle den ha möjlighet att påverka samhällsdebatten?
+14-1	714-720	Skulle	_	_	_	_	_	_	
+14-2	721-724	den	_	_	_	_	_	_	
+14-3	725-727	ha	_	_	_	_	_	_	
+14-4	728-737	möjlighet	_	_	_	_	_	_	
+14-5	738-741	att	_	_	_	_	_	_	
+14-6	742-749	påverka	_	_	_	_	_	_	
+14-7	750-766	samhällsdebatten	_	_	_	_	_	_	
+14-8	766-767	?	_	_	_	_	_	_	
+
+#Text=Skulle den tvinga politiker att inse fakta?.
+15-1	768-774	Skulle	_	_	_	_	_	_	
+15-2	775-778	den	_	_	_	_	_	_	
+15-3	779-785	tvinga	_	_	_	_	_	_	
+15-4	786-795	politiker	_	_	_	_	_	_	
+15-5	796-799	att	_	_	_	_	_	_	
+15-6	800-804	inse	_	_	_	_	_	_	
+15-7	805-810	fakta	_	_	_	_	_	_	
+15-8	810-811	?	_	_	_	_	_	_	
+15-9	811-812	.	_	_	_	_	_	_	

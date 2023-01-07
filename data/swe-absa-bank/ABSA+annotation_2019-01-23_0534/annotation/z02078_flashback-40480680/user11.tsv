@@ -1,0 +1,86 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Etnisk nationalism[utbruten tråd/Mod].
+3-1	18-24	Etnisk	_	_	_	_	_	
+3-2	25-36	nationalism	_	_	_	_	_	
+3-3	36-37	[	_	_	_	_	_	
+3-4	37-45	utbruten	_	_	_	_	_	
+3-5	46-50	tråd	_	_	_	_	_	
+3-6	50-51	/	_	_	_	_	_	
+3-7	51-54	Mod	_	_	_	_	_	
+3-8	54-55	]	_	_	_	_	_	
+3-9	55-56	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	
+
+#Text=Är det inte lite tvärtom, att etniska nationalister har kapat själva begreppet.
+5-1	67-69	Är	_	_	_	_	_	
+5-2	70-73	det	_	_	_	_	_	
+5-3	74-78	inte	_	_	_	_	_	
+5-4	79-83	lite	_	_	_	_	_	
+5-5	84-91	tvärtom	_	_	_	_	_	
+5-6	91-92	,	_	_	_	_	_	
+5-7	93-96	att	_	_	_	_	_	
+5-8	97-104	etniska	*[4]	_	_	_	_	
+5-9	105-118	nationalister	*[4]	_	_	_	_	
+5-10	119-122	har	_	Target[1]	5-8[4]	false[1]	2[1]	
+5-11	123-128	kapat	_	Target[1]	5-8[4]	false[1]	2[1]	
+5-12	129-135	själva	_	Target[1]	5-8[4]	false[1]	2[1]	
+5-13	136-145	begreppet	_	Target[1]	5-8[4]	false[1]	2[1]	
+5-14	145-146	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=?
+6-1	148-149	#	_	_	_	_	_	
+6-2	149-150	P	_	_	_	_	_	
+6-3	151-154	IMM	_	_	_	_	_	
+6-4	154-155	.	_	_	_	_	_	
+6-5	157-158	?	_	_	_	_	_	
+
+#Text=Man måste ju inte vara rasist eller ens "rasmedveten" för att tro på en stark nationalstat grundad på t.ex kultur eller bara geografi.
+7-1	159-162	Man	_	_	_	_	_	
+7-2	163-168	måste	_	Target[2]	7-6[5]	false[2]	2[2]	
+7-3	169-171	ju	_	Target[2]	7-6[5]	false[2]	2[2]	
+7-4	172-176	inte	_	Target[2]	7-6[5]	false[2]	2[2]	
+7-5	177-181	vara	_	Target[2]	7-6[5]	false[2]	2[2]	
+7-6	182-188	rasist	*[5]	_	_	_	_	
+7-7	189-194	eller	*[5]	_	_	_	_	
+7-8	195-198	ens	*[5]	_	_	_	_	
+7-9	199-200	"	*[5]	_	_	_	_	
+7-10	200-211	rasmedveten	*[5]	_	_	_	_	
+7-11	211-212	"	_	_	_	_	_	
+7-12	213-216	för	_	_	_	_	_	
+7-13	217-220	att	_	_	_	_	_	
+7-14	221-224	tro	_	Target[3]	7-17[6]	false[3]	4[3]	
+7-15	225-227	på	_	Target[3]	7-17[6]	false[3]	4[3]	
+7-16	228-230	en	_	_	_	_	_	
+7-17	231-236	stark	*[6]	_	_	_	_	
+7-18	237-249	nationalstat	*[6]	_	_	_	_	
+7-19	250-257	grundad	*[6]	_	_	_	_	
+7-20	258-260	på	*[6]	_	_	_	_	
+7-21	261-265	t.ex	*[6]	_	_	_	_	
+7-22	266-272	kultur	*[6]	_	_	_	_	
+7-23	273-278	eller	*[6]	_	_	_	_	
+7-24	279-283	bara	*[6]	_	_	_	_	
+7-25	284-292	geografi	*[6]	_	_	_	_	
+7-26	292-293	.	_	_	_	_	_	

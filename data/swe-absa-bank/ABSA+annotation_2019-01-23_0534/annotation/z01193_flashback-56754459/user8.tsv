@@ -1,0 +1,80 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Strömbäck: "Det finns ingen forskning som stödjer idén att medierna mörkar".
+3-1	18-27	Strömbäck	_	_	_	_	_	_	
+3-2	27-28	:	_	_	_	_	_	_	
+3-3	29-30	"	_	_	_	_	_	_	
+3-4	30-33	Det	_	_	_	_	_	_	
+3-5	34-39	finns	_	_	_	_	_	_	
+3-6	40-45	ingen	_	_	_	_	_	_	
+3-7	46-55	forskning	_	_	_	_	_	_	
+3-8	56-59	som	_	_	_	_	_	_	
+3-9	60-67	stödjer	_	_	_	_	_	_	
+3-10	68-72	idén	_	_	_	_	_	_	
+3-11	73-76	att	_	_	_	_	_	_	
+3-12	77-85	medierna	*	_	_	_	_	_	
+3-13	86-92	mörkar	_	Target;Source	3-12;3-15	false	2	_	
+3-14	92-93	"	_	_	_	_	_	_	
+3-15	93-94	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	96-97	#	_	_	_	_	_	_	
+4-2	97-98	P	_	_	_	_	_	_	
+4-3	99-102	IMM	_	_	_	_	_	_	
+4-4	102-103	.	_	_	_	_	_	_	
+
+#Text=Medieforskaren Jesper Strömbäck sänker konspirationsteorin om att medierna mörkar:.
+5-1	105-119	Medieforskaren	*[2]	_	_	_	_	7-1[3_2]|7-1[4_2]	
+5-2	120-126	Jesper	*[2]	_	_	_	_	_	
+5-3	127-136	Strömbäck	*[2]	_	_	_	_	_	
+5-4	137-143	sänker	_	_	_	_	_	_	
+5-5	144-163	konspirationsteorin	*	_	_	_	_	_	
+5-6	164-166	om	_	_	_	_	_	_	
+5-7	167-170	att	_	_	_	_	_	_	
+5-8	171-179	medierna	*	_	_	_	_	_	
+5-9	180-186	mörkar	_	Source;Target	5-5;5-8	false	2	_	
+5-10	186-187	:	_	_	_	_	_	_	
+5-11	187-188	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	190-191	#	_	_	_	_	_	_	
+6-2	191-192	P	_	_	_	_	_	_	
+6-3	193-196	IMM	_	_	_	_	_	_	
+6-4	196-197	.	_	_	_	_	_	_	
+
+#Text=Han anser också att termen alternativmedier är missvisande och sågar de hatsajter som gör anspråk på benämningen:.
+7-1	199-202	Han	*[3]|*[4]	_	_	_	_	_	
+7-2	203-208	anser	_	_	_	_	_	_	
+7-3	209-214	också	_	_	_	_	_	_	
+7-4	215-218	att	_	_	_	_	_	_	
+7-5	219-225	termen	*[5]	_	_	_	_	_	
+7-6	226-242	alternativmedier	*[5]	_	_	_	_	_	
+7-7	243-245	är	_	Source;Target[1]	7-1[3];7-5[5]	false[1]	2[1]	_	
+7-8	246-257	missvisande	_	Source;Target[1]	7-1[3];7-5[5]	false[1]	2[1]	_	
+7-9	258-261	och	_	_	_	_	_	_	
+7-10	262-267	sågar	_	Target;Source	7-11[6];7-1[4]	false	1	_	
+7-11	268-270	de	*[6]	_	_	_	_	_	
+7-12	271-280	hatsajter	*[6]|*[7]	Target;Source	7-12[7];7-19	false	1	_	
+7-13	281-284	som	*[6]	_	_	_	_	_	
+7-14	285-288	gör	*[6]	_	_	_	_	_	
+7-15	289-296	anspråk	*[6]	_	_	_	_	_	
+7-16	297-299	på	*[6]	_	_	_	_	_	
+7-17	300-311	benämningen	*[6]	_	_	_	_	_	
+7-18	311-312	:	_	_	_	_	_	_	
+7-19	312-313	.	*	_	_	_	_	_	

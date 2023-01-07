@@ -1,0 +1,654 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Stigande elpriser hotar nordisk industri.
+3-1	18-26	Stigande	*[12]	_	_	_	_	_	
+3-2	27-35	elpriser	*[12]	_	_	_	_	_	
+3-3	36-41	hotar	_	Target	3-1[12]	false	2	_	
+3-4	42-49	nordisk	_	_	_	_	_	_	
+3-5	50-58	industri	_	_	_	_	_	_	
+3-6	58-59	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_	_	_	_	_	
+4-2	62-63	P	_	_	_	_	_	_	
+4-3	64-67	IMM	_	_	_	_	_	_	
+4-4	67-68	.	_	_	_	_	_	_	
+
+#Text=Klimathotet är en av de största utmaningarna världen står inför.
+5-1	70-81	Klimathotet	*	_	_	_	_	_	
+5-2	82-84	är	_	_	_	_	_	_	
+5-3	85-87	en	_	_	_	_	_	_	
+5-4	88-90	av	_	_	_	_	_	_	
+5-5	91-93	de	_	_	_	_	_	_	
+5-6	94-101	största	_	Target[1]	5-1	false[1]	1[1]	_	
+5-7	102-114	utmaningarna	_	Target[1]	5-1	false[1]	1[1]	_	
+5-8	115-122	världen	_	Target[1]	5-1	false[1]	1[1]	_	
+5-9	123-127	står	_	Target[1]	5-1	false[1]	1[1]	_	
+5-10	128-133	inför	_	Target[1]	5-1	false[1]	1[1]	_	
+5-11	133-134	.	_	_	_	_	_	_	
+
+#Text=Samtidigt står vi mitt i en djup ekonomisk kris.
+6-1	135-144	Samtidigt	_	_	_	_	_	_	
+6-2	145-149	står	_	_	_	_	_	_	
+6-3	150-152	vi	_	_	_	_	_	_	
+6-4	153-157	mitt	_	_	_	_	_	_	
+6-5	158-159	i	_	_	_	_	_	_	
+6-6	160-162	en	_	_	_	_	_	_	
+6-7	163-167	djup	_	_	_	_	_	_	
+6-8	168-177	ekonomisk	_	_	_	_	_	_	
+6-9	178-182	kris	_	_	_	_	_	_	
+6-10	182-183	.	_	_	_	_	_	_	
+
+#Text=Industrier tvingas slå igen, människor blir arbetslösa och välfärden blir lidande.
+7-1	184-194	Industrier	_	_	_	_	_	_	
+7-2	195-202	tvingas	_	Target	7-3[13]	false	2	_	
+7-3	203-206	slå	*[13]	_	_	_	_	_	
+7-4	207-211	igen	*[13]	_	_	_	_	_	
+7-5	211-212	,	_	_	_	_	_	_	
+7-6	213-222	människor	_	_	_	_	_	_	
+7-7	223-227	blir	_	_	_	_	_	_	
+7-8	228-238	arbetslösa	_	_	_	_	_	_	
+7-9	239-242	och	_	_	_	_	_	_	
+7-10	243-252	välfärden	_	_	_	_	_	_	
+7-11	253-257	blir	_	_	_	_	_	_	
+7-12	258-265	lidande	_	_	_	_	_	_	
+7-13	265-266	.	_	_	_	_	_	_	
+
+#Text=Och den nordiska konkurrenskraften kommer snart att påverkas ytterligare negativt eftersom elpriset väntas öka kraftigt i framtiden.
+8-1	267-270	Och	_	_	_	_	_	_	
+8-2	271-274	den	_	_	_	_	_	_	
+8-3	275-283	nordiska	_	_	_	_	_	_	
+8-4	284-301	konkurrenskraften	_	_	_	_	_	_	
+8-5	302-308	kommer	_	_	_	_	_	_	
+8-6	309-314	snart	_	_	_	_	_	_	
+8-7	315-318	att	_	_	_	_	_	_	
+8-8	319-327	påverkas	_	_	_	false	2	_	
+8-9	328-339	ytterligare	_	_	_	_	_	_	
+8-10	340-348	negativt	_	Target	8-12[14]	false	2	8-8	
+8-11	349-357	eftersom	_	_	_	_	_	_	
+8-12	358-366	elpriset	*[14]	_	_	_	_	_	
+8-13	367-373	väntas	*[14]	_	_	_	_	_	
+8-14	374-377	öka	*[14]	_	_	_	_	_	
+8-15	378-386	kraftigt	*[14]	_	_	_	_	_	
+8-16	387-388	i	*[14]	_	_	_	_	_	
+8-17	389-398	framtiden	*[14]	_	_	_	_	_	
+8-18	398-399	.	_	_	_	_	_	_	
+
+#Text=Som ett resultat av dyr el kommer industrin inte kunna nyinvestera på den nordiska marknaden vilket i sin tur leder till att fler jobb försvinner.
+9-1	400-403	Som	_	_	_	_	_	_	
+9-2	404-407	ett	_	_	_	_	_	_	
+9-3	408-416	resultat	_	_	_	_	_	_	
+9-4	417-419	av	_	_	_	_	_	_	
+9-5	420-423	dyr	_	Target	9-6	false	2	_	
+9-6	424-426	el	*	_	_	_	_	_	
+9-7	427-433	kommer	_	_	_	_	_	_	
+9-8	434-443	industrin	_	_	_	_	_	_	
+9-9	444-448	inte	_	_	_	_	_	_	
+9-10	449-454	kunna	_	_	_	_	_	_	
+9-11	455-466	nyinvestera	_	_	_	_	_	_	
+9-12	467-469	på	_	_	_	_	_	_	
+9-13	470-473	den	_	_	_	_	_	_	
+9-14	474-482	nordiska	_	_	_	_	_	_	
+9-15	483-492	marknaden	_	_	_	_	_	_	
+9-16	493-499	vilket	_	_	_	_	_	_	
+9-17	500-501	i	_	_	_	_	_	_	
+9-18	502-505	sin	_	_	_	_	_	_	
+9-19	506-509	tur	_	_	_	_	_	_	
+9-20	510-515	leder	_	_	_	_	_	_	
+9-21	516-520	till	_	_	_	_	_	_	
+9-22	521-524	att	_	_	_	_	_	_	
+9-23	525-529	fler	_	_	_	_	_	_	
+9-24	530-534	jobb	_	_	_	_	_	_	
+9-25	535-545	försvinner	_	_	_	_	_	_	
+9-26	545-546	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	548-549	#	_	_	_	_	_	_	
+10-2	549-550	P	_	_	_	_	_	_	
+10-3	551-554	IMM	_	_	_	_	_	_	
+10-4	554-555	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	557-560	Det	_	_	_	_	_	_	
+11-2	561-564	här	_	_	_	_	_	_	
+11-3	565-567	är	_	_	_	_	_	_	
+11-4	568-570	en	_	_	_	_	_	_	
+11-5	571-585	argumenterande	_	_	_	_	_	_	
+11-6	586-590	text	_	_	_	_	_	_	
+11-7	591-594	med	_	_	_	_	_	_	
+11-8	595-600	syfte	_	_	_	_	_	_	
+11-9	601-604	att	_	_	_	_	_	_	
+11-10	605-612	påverka	_	_	_	_	_	_	
+11-11	612-613	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	614-623	Åsikterna	_	_	_	_	_	_	
+12-2	624-627	som	_	_	_	_	_	_	
+12-3	628-636	uttrycks	_	_	_	_	_	_	
+12-4	637-639	är	_	_	_	_	_	_	
+12-5	640-651	skribentens	_	_	_	_	_	_	
+12-6	652-656	egna	_	_	_	_	_	_	
+12-7	656-657	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	659-660	#	_	_	_	_	_	_	
+13-2	660-661	P	_	_	_	_	_	_	
+13-3	662-665	IMM	_	_	_	_	_	_	
+13-4	665-666	.	_	_	_	_	_	_	
+
+#Text=El är en viktig råvara för nordisk industri och utgör en betydande del av produktionskostnaderna.
+14-1	668-670	El	_	_	_	_	_	_	
+14-2	671-673	är	_	_	_	_	_	_	
+14-3	674-676	en	_	_	_	_	_	_	
+14-4	677-683	viktig	_	_	_	_	_	_	
+14-5	684-690	råvara	_	_	_	_	_	_	
+14-6	691-694	för	_	_	_	_	_	_	
+14-7	695-702	nordisk	_	_	_	_	_	_	
+14-8	703-711	industri	_	_	_	_	_	_	
+14-9	712-715	och	_	_	_	_	_	_	
+14-10	716-721	utgör	_	_	_	_	_	_	
+14-11	722-724	en	_	_	_	_	_	_	
+14-12	725-734	betydande	_	_	_	_	_	_	
+14-13	735-738	del	_	_	_	_	_	_	
+14-14	739-741	av	_	_	_	_	_	_	
+14-15	742-764	produktionskostnaderna	_	_	_	_	_	_	
+14-16	764-765	.	_	_	_	_	_	_	
+
+#Text=Till exempel i metallraffinering kan elen uppgå till så mycket som hälften av alla produktionskostnader.
+15-1	766-770	Till	_	_	_	_	_	_	
+15-2	771-778	exempel	_	_	_	_	_	_	
+15-3	779-780	i	_	_	_	_	_	_	
+15-4	781-798	metallraffinering	_	_	_	_	_	_	
+15-5	799-802	kan	_	_	_	_	_	_	
+15-6	803-807	elen	_	_	_	_	_	_	
+15-7	808-813	uppgå	_	_	_	_	_	_	
+15-8	814-818	till	_	_	_	_	_	_	
+15-9	819-821	så	_	_	_	_	_	_	
+15-10	822-828	mycket	_	_	_	_	_	_	
+15-11	829-832	som	_	_	_	_	_	_	
+15-12	833-840	hälften	_	_	_	_	_	_	
+15-13	841-843	av	_	_	_	_	_	_	
+15-14	844-848	alla	_	_	_	_	_	_	
+15-15	849-869	produktionskostnader	_	_	_	_	_	_	
+15-16	869-870	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	872-873	#	_	_	_	_	_	_	
+16-2	873-874	P	_	_	_	_	_	_	
+16-3	875-878	IMM	_	_	_	_	_	_	
+16-4	878-879	.	_	_	_	_	_	_	
+
+#Text=Handeln med utsläppsrätter inleddes 2005.
+17-1	881-888	Handeln	_	_	_	_	_	_	
+17-2	889-892	med	_	_	_	_	_	_	
+17-3	893-907	utsläppsrätter	_	_	_	_	_	_	
+17-4	908-916	inleddes	_	_	_	_	_	_	
+17-5	917-921	2005	_	_	_	_	_	_	
+17-6	921-922	.	_	_	_	_	_	_	
+
+#Text=På kort tid ökade elpriset dramatiskt på den nordiska elmarknaden.
+18-1	923-925	På	_	_	_	_	_	_	
+18-2	926-930	kort	_	_	_	_	_	_	
+18-3	931-934	tid	_	_	_	_	_	_	
+18-4	935-940	ökade	_	_	_	false	2	_	
+18-5	941-949	elpriset	*	_	_	_	_	_	
+18-6	950-960	dramatiskt	_	Target	18-5	false	2	18-4	
+18-7	961-963	på	_	_	_	_	_	_	
+18-8	964-967	den	_	_	_	_	_	_	
+18-9	968-976	nordiska	_	_	_	_	_	_	
+18-10	977-988	elmarknaden	_	_	_	_	_	_	
+18-11	988-989	.	_	_	_	_	_	_	
+
+#Text=Sedan införandet av utsläppsrättshandeln har elkonsumenter betalt för utsläppsrätter för all kraftproduktion, även för den el som produceras utan att skapa några koldioxidutsläpp.
+19-1	990-995	Sedan	_	_	_	_	_	_	
+19-2	996-1006	införandet	_	_	_	_	_	_	
+19-3	1007-1009	av	_	_	_	_	_	_	
+19-4	1010-1030	utsläppsrättshandeln	_	_	_	_	_	_	
+19-5	1031-1034	har	_	_	_	_	_	_	
+19-6	1035-1048	elkonsumenter	_	_	_	_	_	_	
+19-7	1049-1055	betalt	_	_	_	_	_	_	
+19-8	1056-1059	för	_	_	_	_	_	_	
+19-9	1060-1074	utsläppsrätter	_	_	_	_	_	_	
+19-10	1075-1078	för	_	_	_	_	_	_	
+19-11	1079-1082	all	_	_	_	_	_	_	
+19-12	1083-1098	kraftproduktion	_	_	_	_	_	_	
+19-13	1098-1099	,	_	_	_	_	_	_	
+19-14	1100-1104	även	_	_	_	_	_	_	
+19-15	1105-1108	för	_	_	_	_	_	_	
+19-16	1109-1112	den	_	_	_	_	_	_	
+19-17	1113-1115	el	_	_	_	_	_	_	
+19-18	1116-1119	som	_	_	_	_	_	_	
+19-19	1120-1130	produceras	_	_	_	_	_	_	
+19-20	1131-1135	utan	_	_	_	_	_	_	
+19-21	1136-1139	att	_	_	_	_	_	_	
+19-22	1140-1145	skapa	_	_	_	_	_	_	
+19-23	1146-1151	några	_	_	_	_	_	_	
+19-24	1152-1168	koldioxidutsläpp	_	_	_	_	_	_	
+19-25	1168-1169	.	_	_	_	_	_	_	
+
+#Text=Elkonsumenterna i de nordiska länderna –såväl industrin som hushållen–betalade över 5,9 miljarder euro extra till kraftbolagen under förra året på grund av handeln med utsläppsrätter.
+20-1	1170-1185	Elkonsumenterna	_	_	_	_	_	_	
+20-2	1186-1187	i	_	_	_	_	_	_	
+20-3	1188-1190	de	_	_	_	_	_	_	
+20-4	1191-1199	nordiska	_	_	_	_	_	_	
+20-5	1200-1208	länderna	_	_	_	_	_	_	
+20-6	1209-1210	–	_	_	_	_	_	_	
+20-7	1210-1215	såväl	_	_	_	_	_	_	
+20-8	1216-1225	industrin	_	_	_	_	_	_	
+20-9	1226-1229	som	_	_	_	_	_	_	
+20-10	1230-1248	hushållen–betalade	_	_	_	_	_	_	
+20-11	1249-1253	över	_	_	_	_	_	_	
+20-12	1254-1257	5,9	_	_	_	_	_	_	
+20-13	1258-1267	miljarder	_	_	_	_	_	_	
+20-14	1268-1272	euro	_	_	_	_	_	_	
+20-15	1273-1278	extra	_	_	_	_	_	_	
+20-16	1279-1283	till	_	_	_	_	_	_	
+20-17	1284-1296	kraftbolagen	_	_	_	_	_	_	
+20-18	1297-1302	under	_	_	_	_	_	_	
+20-19	1303-1308	förra	_	_	_	_	_	_	
+20-20	1309-1313	året	_	_	_	_	_	_	
+20-21	1314-1316	på	_	_	_	_	_	_	
+20-22	1317-1322	grund	_	_	_	_	_	_	
+20-23	1323-1325	av	_	_	_	_	_	_	
+20-24	1326-1333	handeln	_	_	_	_	_	_	
+20-25	1334-1337	med	_	_	_	_	_	_	
+20-26	1338-1352	utsläppsrätter	_	_	_	_	_	_	
+20-27	1352-1353	.	_	_	_	_	_	_	
+
+#Text=Detta är ungefär fem gånger så mycket som det faktiska priset på utsläppsrätter för elproduktion i Norden.
+21-1	1354-1359	Detta	_	_	_	_	_	_	
+21-2	1360-1362	är	_	_	_	_	_	_	
+21-3	1363-1370	ungefär	_	_	_	_	_	_	
+21-4	1371-1374	fem	_	_	_	_	_	_	
+21-5	1375-1381	gånger	_	_	_	_	_	_	
+21-6	1382-1384	så	_	_	_	_	_	_	
+21-7	1385-1391	mycket	_	_	_	_	_	_	
+21-8	1392-1395	som	_	_	_	_	_	_	
+21-9	1396-1399	det	_	_	_	_	_	_	
+21-10	1400-1408	faktiska	_	_	_	_	_	_	
+21-11	1409-1415	priset	_	_	_	_	_	_	
+21-12	1416-1418	på	_	_	_	_	_	_	
+21-13	1419-1433	utsläppsrätter	_	_	_	_	_	_	
+21-14	1434-1437	för	_	_	_	_	_	_	
+21-15	1438-1450	elproduktion	_	_	_	_	_	_	
+21-16	1451-1452	i	_	_	_	_	_	_	
+21-17	1453-1459	Norden	_	_	_	_	_	_	
+21-18	1459-1460	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+22-1	1462-1463	#	_	_	_	_	_	_	
+22-2	1463-1464	P	_	_	_	_	_	_	
+22-3	1465-1468	IMM	_	_	_	_	_	_	
+22-4	1468-1469	.	_	_	_	_	_	_	
+
+#Text=Industrin står helt bakom målet att förebygga klimatförändringar.
+23-1	1471-1480	Industrin	_	_	_	_	_	_	
+23-2	1481-1485	står	_	Target[2]	23-5[15]	false[2]	4[2]	_	
+23-3	1486-1490	helt	_	Target[2]	23-5[15]	false[2]	4[2]	_	
+23-4	1491-1496	bakom	_	Target[2]	23-5[15]	false[2]	4[2]	_	
+23-5	1497-1502	målet	*[15]	Target	23-6[16]	false	4	_	
+23-6	1503-1506	att	*[15]|*[16]	_	_	_	_	_	
+23-7	1507-1516	förebygga	*[15]|*[16]	_	_	_	_	_	
+23-8	1517-1535	klimatförändringar	*[15]|*[16]	_	_	_	_	_	
+23-9	1535-1536	.	_	_	_	_	_	_	
+
+#Text=Koldioxidutsläppen måste minska och det kommer att leda till en brist på utsläppsrätter.
+24-1	1537-1555	Koldioxidutsläppen	*	_	_	_	_	_	
+24-2	1556-1561	måste	_	Target[3]	24-1	false[3]	2[3]	_	
+24-3	1562-1568	minska	_	Target[3]	24-1	false[3]	2[3]	_	
+24-4	1569-1572	och	_	_	_	_	_	_	
+24-5	1573-1576	det	_	_	_	_	_	_	
+24-6	1577-1583	kommer	_	_	_	_	_	_	
+24-7	1584-1587	att	_	_	_	_	_	_	
+24-8	1588-1592	leda	_	_	_	_	_	_	
+24-9	1593-1597	till	_	_	_	_	_	_	
+24-10	1598-1600	en	_	_	_	_	_	_	
+24-11	1601-1606	brist	_	_	_	_	_	_	
+24-12	1607-1609	på	_	_	_	_	_	_	
+24-13	1610-1624	utsläppsrätter	_	_	_	_	_	_	
+24-14	1624-1625	.	_	_	_	_	_	_	
+
+#Text=Pristrycket på el kommer att bli än mer smärtsamt för industrin från 2013 då nästa utsläppshandelsperiod börjar.
+25-1	1626-1637	Pristrycket	_	_	_	_	_	_	
+25-2	1638-1640	på	_	_	_	_	_	_	
+25-3	1641-1643	el	_	_	_	_	_	_	
+25-4	1644-1650	kommer	_	_	_	_	_	_	
+25-5	1651-1654	att	_	_	_	_	_	_	
+25-6	1655-1658	bli	_	Target[4]	25-12[17]	false[4]	2[4]	_	
+25-7	1659-1661	än	_	Target[4]	25-12[17]	false[4]	2[4]	_	
+25-8	1662-1665	mer	_	Target[4]	25-12[17]	false[4]	2[4]	_	
+25-9	1666-1675	smärtsamt	_	Target[4]	25-12[17]	false[4]	2[4]	_	
+25-10	1676-1679	för	_	_	_	_	_	_	
+25-11	1680-1689	industrin	_	_	_	_	_	_	
+25-12	1690-1694	från	*[17]	_	_	_	_	_	
+25-13	1695-1699	2013	*[17]	_	_	_	_	_	
+25-14	1700-1702	då	*[17]	_	_	_	_	_	
+25-15	1703-1708	nästa	*[17]	_	_	_	_	_	
+25-16	1709-1730	utsläppshandelsperiod	*[17]	_	_	_	_	_	
+25-17	1731-1737	börjar	*[17]	_	_	_	_	_	
+25-18	1737-1738	.	_	_	_	_	_	_	
+
+#Text=Mängden utsläppsrätter kommer då att minska successivt.
+26-1	1739-1746	Mängden	_	_	_	_	_	_	
+26-2	1747-1761	utsläppsrätter	_	_	_	_	_	_	
+26-3	1762-1768	kommer	_	_	_	_	_	_	
+26-4	1769-1771	då	_	_	_	_	_	_	
+26-5	1772-1775	att	_	_	_	_	_	_	
+26-6	1776-1782	minska	_	_	_	_	_	_	
+26-7	1783-1793	successivt	_	_	_	_	_	_	
+26-8	1793-1794	.	_	_	_	_	_	_	
+
+#Text=Nordiska elkonsumenter bör vara med och bidra till att skydda klimatet genom att betala för utsläppen, men enbart för de fak- tiska utsläppen och inte för kraftbolagens extravinster.
+27-1	1795-1803	Nordiska	_	_	_	_	_	_	
+27-2	1804-1817	elkonsumenter	_	_	_	_	_	_	
+27-3	1818-1821	bör	_	_	_	false	4	_	
+27-4	1822-1826	vara	_	_	_	_	_	_	
+27-5	1827-1830	med	_	_	_	_	_	_	
+27-6	1831-1834	och	_	_	_	_	_	_	
+27-7	1835-1840	bidra	_	Target[5]	27-9[18]	false[5]	4[5]	27-3[0_5]	
+27-8	1841-1845	till	_	Target[5]	27-9[18]	false[5]	4[5]	_	
+27-9	1846-1849	att	*[18]	_	_	_	_	_	
+27-10	1850-1856	skydda	*[18]	Target	27-11[19]	false	4	_	
+27-11	1857-1865	klimatet	*[18]|*[19]	_	_	_	_	_	
+27-12	1866-1871	genom	*[18]	_	_	_	_	_	
+27-13	1872-1875	att	*[18]	_	_	_	_	_	
+27-14	1876-1882	betala	*[18]	_	_	_	_	_	
+27-15	1883-1886	för	*[18]	_	_	_	_	_	
+27-16	1887-1896	utsläppen	*[18]	_	_	_	_	_	
+27-17	1896-1897	,	_	_	_	_	_	_	
+27-18	1898-1901	men	_	_	_	_	_	_	
+27-19	1902-1908	enbart	_	Target[6]	27-21[20]	false[6]	4[6]	_	
+27-20	1909-1912	för	_	Target[6]	27-21[20]	false[6]	4[6]	_	
+27-21	1913-1915	de	*[20]	_	_	_	_	_	
+27-22	1916-1919	fak	*[20]	_	_	_	_	_	
+27-23	1919-1920	-	*[20]	_	_	_	_	_	
+27-24	1921-1926	tiska	*[20]	_	_	_	_	_	
+27-25	1927-1936	utsläppen	*[20]	_	_	_	_	_	
+27-26	1937-1940	och	_	_	_	_	_	_	
+27-27	1941-1945	inte	_	Target[7]	27-29[21]	false[7]	2[7]	_	
+27-28	1946-1949	för	_	Target[7]	27-29[21]	false[7]	2[7]	_	
+27-29	1950-1963	kraftbolagens	*[21]	_	_	_	_	_	
+27-30	1964-1976	extravinster	*[21]	_	_	_	_	_	
+27-31	1976-1977	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1979-1980	#	_	_	_	_	_	_	
+28-2	1980-1981	P	_	_	_	_	_	_	
+28-3	1982-1985	IMM	_	_	_	_	_	_	
+28-4	1985-1986	.	_	_	_	_	_	_	
+
+#Text=Ansvariga ministrar för eko- nomi, handel och industri i de nordiska länderna bör vara allvarligt oroade över industrins konkurrenskraft och ta initiativ för att hitta en lösning.
+29-1	1988-1997	Ansvariga	_	_	_	_	_	_	
+29-2	1998-2007	ministrar	_	_	_	_	_	_	
+29-3	2008-2011	för	_	_	_	_	_	_	
+29-4	2012-2015	eko	_	_	_	_	_	_	
+29-5	2015-2016	-	_	_	_	_	_	_	
+29-6	2017-2021	nomi	_	_	_	_	_	_	
+29-7	2021-2022	,	_	_	_	_	_	_	
+29-8	2023-2029	handel	_	_	_	_	_	_	
+29-9	2030-2033	och	_	_	_	_	_	_	
+29-10	2034-2042	industri	_	_	_	_	_	_	
+29-11	2043-2044	i	_	_	_	_	_	_	
+29-12	2045-2047	de	_	_	_	_	_	_	
+29-13	2048-2056	nordiska	_	_	_	_	_	_	
+29-14	2057-2065	länderna	_	_	_	_	_	_	
+29-15	2066-2069	bör	_	Target[8]	29-20[22]	false[8]	1[8]	_	
+29-16	2070-2074	vara	_	Target[8]	29-20[22]	false[8]	1[8]	_	
+29-17	2075-2085	allvarligt	_	Target[8]	29-20[22]	false[8]	1[8]	_	
+29-18	2086-2092	oroade	_	Target[8]	29-20[22]	false[8]	1[8]	_	
+29-19	2093-2097	över	_	Target[8]	29-20[22]	false[8]	1[8]	_	
+29-20	2098-2108	industrins	*[22]	_	_	_	_	_	
+29-21	2109-2124	konkurrenskraft	*[22]	_	_	_	_	_	
+29-22	2125-2128	och	_	_	_	_	_	_	
+29-23	2129-2131	ta	_	Target[9]	29-26[23]	false[9]	4[9]	_	
+29-24	2132-2141	initiativ	_	Target[9]	29-26[23]	false[9]	4[9]	_	
+29-25	2142-2145	för	_	_	_	_	_	_	
+29-26	2146-2149	att	*[23]	_	_	_	_	_	
+29-27	2150-2155	hitta	*[23]	_	_	_	_	_	
+29-28	2156-2158	en	*[23]	_	_	_	_	_	
+29-29	2159-2166	lösning	*[23]	_	_	_	_	_	
+29-30	2166-2167	.	_	_	_	_	_	_	
+
+#Text=Åtgärder är nu akuta för att utveckla elmarknaden på ett sätt som tar hänsyn till basindustrins konkurrenskraft i Norden.
+30-1	2168-2176	Åtgärder	*	_	_	_	_	_	
+30-2	2177-2179	är	_	_	_	false	4	_	
+30-3	2180-2182	nu	_	_	_	_	_	_	
+30-4	2183-2188	akuta	_	Target	30-1	false	4	30-2	
+30-5	2189-2192	för	_	_	_	_	_	_	
+30-6	2193-2196	att	_	_	_	_	_	_	
+30-7	2197-2205	utveckla	_	_	_	_	_	_	
+30-8	2206-2217	elmarknaden	_	_	_	_	_	_	
+30-9	2218-2220	på	_	_	_	_	_	_	
+30-10	2221-2224	ett	_	_	_	_	_	_	
+30-11	2225-2229	sätt	_	_	_	_	_	_	
+30-12	2230-2233	som	_	_	_	_	_	_	
+30-13	2234-2237	tar	_	Target[10]	30-16[24]	false[10]	4[10]	_	
+30-14	2238-2244	hänsyn	_	Target[10]	30-16[24]	false[10]	4[10]	_	
+30-15	2245-2249	till	_	Target[10]	30-16[24]	false[10]	4[10]	_	
+30-16	2250-2263	basindustrins	*[24]	_	_	_	_	_	
+30-17	2264-2279	konkurrenskraft	*[24]	_	_	_	_	_	
+30-18	2280-2281	i	*[24]	_	_	_	_	_	
+30-19	2282-2288	Norden	*[24]	_	_	_	_	_	
+30-20	2288-2289	.	_	_	_	_	_	_	
+
+#Text=En gemensam och oberoende undersökning bör omedelbart inledas där hänsyn till effekterna på samhällsekonomin tas utifrån regionala aspekter, skattebelastning, sysselsättning samt globala miljökonsekvenser.
+31-1	2290-2292	En	*[25]	_	_	_	_	_	
+31-2	2293-2301	gemensam	*[25]	_	_	_	_	_	
+31-3	2302-2305	och	*[25]	_	_	_	_	_	
+31-4	2306-2315	oberoende	*[25]	_	_	_	_	_	
+31-5	2316-2328	undersökning	*[25]	_	_	_	_	_	
+31-6	2329-2332	bör	_	Target[11]	31-1[25]	false[11]	4[11]	_	
+31-7	2333-2343	omedelbart	_	Target[11]	31-1[25]	false[11]	4[11]	_	
+31-8	2344-2351	inledas	_	Target[11]	31-1[25]	false[11]	4[11]	_	
+31-9	2352-2355	där	_	_	_	_	_	_	
+31-10	2356-2362	hänsyn	_	_	_	_	_	_	
+31-11	2363-2367	till	_	_	_	_	_	_	
+31-12	2368-2378	effekterna	_	_	_	_	_	_	
+31-13	2379-2381	på	_	_	_	_	_	_	
+31-14	2382-2398	samhällsekonomin	_	_	_	_	_	_	
+31-15	2399-2402	tas	_	_	_	_	_	_	
+31-16	2403-2410	utifrån	_	_	_	_	_	_	
+31-17	2411-2420	regionala	_	_	_	_	_	_	
+31-18	2421-2429	aspekter	_	_	_	_	_	_	
+31-19	2429-2430	,	_	_	_	_	_	_	
+31-20	2431-2447	skattebelastning	_	_	_	_	_	_	
+31-21	2447-2448	,	_	_	_	_	_	_	
+31-22	2449-2463	sysselsättning	_	_	_	_	_	_	
+31-23	2464-2468	samt	_	_	_	_	_	_	
+31-24	2469-2476	globala	_	_	_	_	_	_	
+31-25	2477-2494	miljökonsekvenser	_	_	_	_	_	_	
+31-26	2494-2495	.	_	_	_	_	_	_	
+
+#Text=Den elintensiva industrin i Norden står inför en stor utmaning och det krävs handling på politisk nivå i hela Norden för att värna industrin, klimatet och välfärden.
+32-1	2496-2499	Den	_	_	_	_	_	_	
+32-2	2500-2511	elintensiva	_	_	_	_	_	_	
+32-3	2512-2521	industrin	_	_	_	_	_	_	
+32-4	2522-2523	i	_	_	_	_	_	_	
+32-5	2524-2530	Norden	_	_	_	_	_	_	
+32-6	2531-2535	står	_	_	_	_	_	_	
+32-7	2536-2541	inför	_	_	_	_	_	_	
+32-8	2542-2544	en	_	_	_	_	_	_	
+32-9	2545-2549	stor	_	_	_	_	_	_	
+32-10	2550-2558	utmaning	_	_	_	_	_	_	
+32-11	2559-2562	och	_	_	_	_	_	_	
+32-12	2563-2566	det	_	_	_	_	_	_	
+32-13	2567-2572	krävs	_	_	_	_	_	_	
+32-14	2573-2581	handling	_	_	_	_	_	_	
+32-15	2582-2584	på	_	_	_	_	_	_	
+32-16	2585-2593	politisk	_	_	_	_	_	_	
+32-17	2594-2598	nivå	_	_	_	_	_	_	
+32-18	2599-2600	i	_	_	_	_	_	_	
+32-19	2601-2605	hela	_	_	_	_	_	_	
+32-20	2606-2612	Norden	_	_	_	_	_	_	
+32-21	2613-2616	för	_	_	_	_	_	_	
+32-22	2617-2620	att	_	_	_	_	_	_	
+32-23	2621-2626	värna	_	Target	32-24[26]	false	4	_	
+32-24	2627-2636	industrin	*[26]	_	_	_	_	_	
+32-25	2636-2637	,	*[26]	_	_	_	_	_	
+32-26	2638-2646	klimatet	*[26]	_	_	_	_	_	
+32-27	2647-2650	och	*[26]	_	_	_	_	_	
+32-28	2651-2660	välfärden	*[26]	_	_	_	_	_	
+32-29	2660-2661	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2663-2664	#	_	_	_	_	_	_	
+33-2	2664-2665	P	_	_	_	_	_	_	
+33-3	2666-2669	IMM	_	_	_	_	_	_	
+33-4	2669-2670	.	_	_	_	_	_	_	
+
+#Text=KENNETH ERIKSSON.
+34-1	2672-2679	KENNETH	_	_	_	_	_	_	
+34-2	2680-2688	ERIKSSON	_	_	_	_	_	_	
+34-3	2688-2689	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2691-2692	#	_	_	_	_	_	_	
+35-2	2692-2693	P	_	_	_	_	_	_	
+35-3	2694-2697	IMM	_	_	_	_	_	_	
+35-4	2697-2698	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+36-1	2700-2713	Skräddarsydda	_	_	_	_	_	_	
+36-2	2714-2720	kurser	_	_	_	_	_	_	
+36-3	2721-2722	i	_	_	_	_	_	_	
+36-4	2723-2728	ämnen	_	_	_	_	_	_	
+36-5	2729-2732	som	_	_	_	_	_	_	
+36-6	2733-2744	intresserar	_	_	_	_	_	_	
+36-7	2745-2748	och	_	_	_	_	_	_	
+36-8	2749-2758	engagerar	_	_	_	_	_	_	
+36-9	2759-2763	både	_	_	_	_	_	_	
+36-10	2764-2769	kropp	_	_	_	_	_	_	
+36-11	2770-2773	och	_	_	_	_	_	_	
+36-12	2774-2778	själ	_	_	_	_	_	_	
+36-13	2778-2779	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2781-2782	#	_	_	_	_	_	_	
+37-2	2782-2783	P	_	_	_	_	_	_	
+37-3	2784-2787	IMM	_	_	_	_	_	_	
+37-4	2787-2788	.	_	_	_	_	_	_	
+
+#Text=ordförande i SKGS (Skogen, Kemin, Gruvorna och Stålet).
+38-1	2790-2800	ordförande	_	_	_	_	_	_	
+38-2	2801-2802	i	_	_	_	_	_	_	
+38-3	2803-2807	SKGS	_	_	_	_	_	_	
+38-4	2808-2809	(	_	_	_	_	_	_	
+38-5	2809-2815	Skogen	_	_	_	_	_	_	
+38-6	2815-2816	,	_	_	_	_	_	_	
+38-7	2817-2822	Kemin	_	_	_	_	_	_	
+38-8	2822-2823	,	_	_	_	_	_	_	
+38-9	2824-2832	Gruvorna	_	_	_	_	_	_	
+38-10	2833-2836	och	_	_	_	_	_	_	
+38-11	2837-2843	Stålet	_	_	_	_	_	_	
+38-12	2843-2844	)	_	_	_	_	_	_	
+38-13	2844-2845	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2847-2848	#	_	_	_	_	_	_	
+39-2	2848-2849	P	_	_	_	_	_	_	
+39-3	2850-2853	IMM	_	_	_	_	_	_	
+39-4	2853-2854	.	_	_	_	_	_	_	
+
+#Text=STEIN LIER HANSEN.
+40-1	2856-2861	STEIN	_	_	_	_	_	_	
+40-2	2862-2866	LIER	_	_	_	_	_	_	
+40-3	2867-2873	HANSEN	_	_	_	_	_	_	
+40-4	2873-2874	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2876-2877	#	_	_	_	_	_	_	
+41-2	2877-2878	P	_	_	_	_	_	_	
+41-3	2879-2882	IMM	_	_	_	_	_	_	
+41-4	2882-2883	.	_	_	_	_	_	_	
+
+#Text=vd i Norsk Industri.
+42-1	2885-2887	vd	_	_	_	_	_	_	
+42-2	2888-2889	i	_	_	_	_	_	_	
+42-3	2890-2895	Norsk	_	_	_	_	_	_	
+42-4	2896-2904	Industri	_	_	_	_	_	_	
+42-5	2904-2905	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2907-2908	#	_	_	_	_	_	_	
+43-2	2908-2909	P	_	_	_	_	_	_	
+43-3	2910-2913	IMM	_	_	_	_	_	_	
+43-4	2913-2914	.	_	_	_	_	_	_	
+
+#Text=MARTTI MÄENPÄÄ.
+44-1	2916-2922	MARTTI	_	_	_	_	_	_	
+44-2	2923-2930	MÄENPÄÄ	_	_	_	_	_	_	
+44-3	2930-2931	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	2933-2934	#	_	_	_	_	_	_	
+45-2	2934-2935	P	_	_	_	_	_	_	
+45-3	2936-2939	IMM	_	_	_	_	_	_	
+45-4	2939-2940	.	_	_	_	_	_	_	
+
+#Text=vd i The Federation of Finnish Technology Industries.
+46-1	2942-2944	vd	_	_	_	_	_	_	
+46-2	2945-2946	i	_	_	_	_	_	_	
+46-3	2947-2950	The	_	_	_	_	_	_	
+46-4	2951-2961	Federation	_	_	_	_	_	_	
+46-5	2962-2964	of	_	_	_	_	_	_	
+46-6	2965-2972	Finnish	_	_	_	_	_	_	
+46-7	2973-2983	Technology	_	_	_	_	_	_	
+46-8	2984-2994	Industries	_	_	_	_	_	_	
+46-9	2994-2995	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	2997-2998	#	_	_	_	_	_	_	
+47-2	2998-2999	P	_	_	_	_	_	_	
+47-3	3000-3003	IMM	_	_	_	_	_	_	
+47-4	3003-3004	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+48-1	3006-3014	Redaktör	_	_	_	_	_	_	
+48-2	3014-3015	:	_	_	_	_	_	_	
+48-3	3016-3022	Carina	_	_	_	_	_	_	
+48-4	3023-3031	Stensson	_	_	_	_	_	_	
+48-5	3031-3032	,	_	_	_	_	_	_	
+48-6	3033-3043	Biträdande	_	_	_	_	_	_	
+48-7	3044-3052	redaktör	_	_	_	_	_	_	
+48-8	3052-3053	:	_	_	_	_	_	_	
+48-9	3054-3059	Björn	_	_	_	_	_	_	
+48-10	3060-3066	Jorner	_	_	_	_	_	_	
+48-11	3066-3067	,	_	_	_	_	_	_	
+48-12	3068-3072	Mejl	_	_	_	_	_	_	
+48-13	3072-3073	:	_	_	_	_	_	_	
+48-14	3074-3080	debatt	_	_	_	_	_	_	
+48-15	3080-3081	@	_	_	_	_	_	_	
+48-16	3081-3087	svd.se	_	_	_	_	_	_	
+48-17	3087-3088	,	_	_	_	_	_	_	
+48-18	3089-3102	Telefonnummer	_	_	_	_	_	_	
+48-19	3102-3103	:	_	_	_	_	_	_	
+48-20	3104-3106	08	_	_	_	_	_	_	
+48-21	3106-3107	-	_	_	_	_	_	_	
+48-22	3107-3113	135149	_	_	_	_	_	_	
+48-23	3113-3114	,	_	_	_	_	_	_	
+48-24	3115-3122	Twitter	_	_	_	_	_	_	
+48-25	3122-3123	:	_	_	_	_	_	_	
+48-26	3124-3125	@	_	_	_	_	_	_	
+48-27	3125-3134	SvDDebatt	_	_	_	_	_	_	
+48-28	3134-3135	,	_	_	_	_	_	_	
+48-29	3136-3144	Facebook	_	_	_	_	_	_	
+48-30	3144-3145	:	_	_	_	_	_	_	
+48-31	3146-3149	SvD	_	_	_	_	_	_	
+48-32	3150-3156	Debatt	_	_	_	_	_	_	
+48-33	3156-3157	.	_	_	_	_	_	_	

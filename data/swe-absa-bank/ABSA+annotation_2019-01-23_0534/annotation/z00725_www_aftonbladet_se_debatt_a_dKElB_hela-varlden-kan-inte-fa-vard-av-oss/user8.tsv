@@ -1,0 +1,515 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Hela världen kan inte få vård av oss.
+3-1	18-22	Hela	_	_	_	_	_	_	
+3-2	23-30	världen	_	_	_	_	_	_	
+3-3	31-34	kan	_	_	_	_	_	_	
+3-4	35-39	inte	_	_	_	_	_	_	
+3-5	40-42	få	_	_	_	_	_	_	
+3-6	43-47	vård	_	_	_	_	_	_	
+3-7	48-50	av	_	_	_	_	_	_	
+3-8	51-54	oss	_	_	_	_	_	_	
+3-9	54-55	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	
+
+#Text=REPLIK.
+5-1	66-72	REPLIK	_	_	_	_	_	_	
+5-2	72-73	.	_	_	_	_	_	_	
+
+#Text=Nätverket ”En annan vård är möjlig” arbetar för mer resurser åt sjukvården och för bättre villkor för dem som arbetar där.
+6-1	74-83	Nätverket	*[12]	_	_	_	_	_	
+6-2	84-85	”	*[12]	_	_	_	_	_	
+6-3	85-87	En	*[12]	_	_	_	_	_	
+6-4	88-93	annan	*[12]	_	_	_	_	_	
+6-5	94-98	vård	*[12]	_	_	_	_	_	
+6-6	99-101	är	*[12]	_	_	_	_	_	
+6-7	102-108	möjlig	*[12]	_	_	_	_	_	
+6-8	108-109	”	*[12]	_	_	_	_	_	
+6-9	110-117	arbetar	_	Source;Target[1]	6-1[12];6-11[13]	false[1]	4[1]	_	
+6-10	118-121	för	_	Source;Target[1]	6-1[12];6-11[13]	false[1]	4[1]	_	
+6-11	122-125	mer	*[13]	_	_	_	_	_	
+6-12	126-134	resurser	*[13]	_	_	_	_	_	
+6-13	135-137	åt	*[13]	_	_	_	_	_	
+6-14	138-148	sjukvården	*[13]	_	_	_	_	_	
+6-15	149-152	och	*[13]	_	_	_	_	_	
+6-16	153-156	för	*[13]	_	_	_	_	_	
+6-17	157-163	bättre	*[13]	_	_	_	_	_	
+6-18	164-171	villkor	*[13]	_	_	_	_	_	
+6-19	172-175	för	*[13]	_	_	_	_	_	
+6-20	176-179	dem	*[13]	_	_	_	_	_	
+6-21	180-183	som	*[13]	_	_	_	_	_	
+6-22	184-191	arbetar	*[13]	_	_	_	_	_	
+6-23	192-195	där	*[13]	_	_	_	_	_	
+6-24	195-196	.	_	_	_	_	_	_	
+
+#Text=Att döma av deras debattinlägg i  är det värsta man kan göra att hålla med dem och driva deras ståndpunkter i riksdagen.
+7-1	197-200	Att	_	_	_	_	_	_	
+7-2	201-205	döma	_	_	_	_	_	_	
+7-3	206-208	av	_	_	_	_	_	_	
+7-4	209-214	deras	_	_	_	_	_	_	
+7-5	215-227	debattinlägg	_	_	_	_	_	_	
+7-6	228-229	i	_	_	_	_	_	_	
+7-7	231-233	är	_	_	_	_	_	_	
+7-8	234-237	det	_	Target;Source[2]	7-13[14];7-23	false[2]	1[2]	_	
+7-9	238-244	värsta	_	Target;Source[2]	7-13[14];7-23	false[2]	1[2]	_	
+7-10	245-248	man	_	Target;Source[2]	7-13[14];7-23	false[2]	1[2]	_	
+7-11	249-252	kan	_	Target;Source[2]	7-13[14];7-23	false[2]	1[2]	_	
+7-12	253-257	göra	_	Target;Source[2]	7-13[14];7-23	false[2]	1[2]	_	
+7-13	258-261	att	*[14]	_	_	_	_	_	
+7-14	262-267	hålla	*[14]	_	_	_	_	_	
+7-15	268-271	med	*[14]	_	_	_	_	_	
+7-16	272-275	dem	*[14]	_	_	_	_	_	
+7-17	276-279	och	*[14]	_	_	_	_	_	
+7-18	280-285	driva	*[14]	_	_	_	_	_	
+7-19	286-291	deras	*[14]	_	_	_	_	_	
+7-20	292-304	ståndpunkter	*[14]	_	_	_	_	_	
+7-21	305-306	i	*[14]	_	_	_	_	_	
+7-22	307-316	riksdagen	*[14]	_	_	_	_	_	
+7-23	316-317	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”En annan vård är möjlig” omfamnas av LO-trogna Vårdförbundet och man kan se fler kopplingar vänsterut.
+8-1	319-320	#	_	_	_	_	_	_	
+8-2	320-321	P	_	_	_	_	_	_	
+8-3	322-325	IMM	_	_	_	_	_	_	
+8-4	325-326	.	_	_	_	_	_	_	
+8-5	328-329	”	_	_	_	_	_	_	
+8-6	329-331	En	_	_	_	_	_	_	
+8-7	332-337	annan	_	_	_	_	_	_	
+8-8	338-342	vård	_	_	_	_	_	_	
+8-9	343-345	är	_	_	_	_	_	_	
+8-10	346-352	möjlig	_	_	_	_	_	_	
+8-11	352-353	”	_	_	_	_	_	_	
+8-12	354-362	omfamnas	_	_	_	_	_	_	
+8-13	363-365	av	_	_	_	_	_	_	
+8-14	366-375	LO-trogna	_	_	_	_	_	_	
+8-15	376-389	Vårdförbundet	_	_	_	_	_	_	
+8-16	390-393	och	_	_	_	_	_	_	
+8-17	394-397	man	_	_	_	_	_	_	
+8-18	398-401	kan	_	_	_	_	_	_	
+8-19	402-404	se	_	_	_	_	_	_	
+8-20	405-409	fler	_	_	_	_	_	_	
+8-21	410-420	kopplingar	_	_	_	_	_	_	
+8-22	421-430	vänsterut	_	_	_	_	_	_	
+8-23	430-431	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	433-434	#	_	_	_	_	_	_	
+9-2	434-435	P	_	_	_	_	_	_	
+9-3	436-439	IMM	_	_	_	_	_	_	
+9-4	439-440	.	_	_	_	_	_	_	
+
+#Text=Det vårdpersonal, patienter och väljare bör fråga sig är om den nuvarande vänsterregeringen levererar tillfredsställande resultat.
+10-1	442-445	Det	_	_	_	_	_	_	
+10-2	446-458	vårdpersonal	_	_	_	_	_	_	
+10-3	458-459	,	_	_	_	_	_	_	
+10-4	460-469	patienter	_	_	_	_	_	_	
+10-5	470-473	och	_	_	_	_	_	_	
+10-6	474-481	väljare	_	_	_	_	_	_	
+10-7	482-485	bör	_	_	_	_	_	_	
+10-8	486-491	fråga	_	_	_	_	_	_	
+10-9	492-495	sig	_	_	_	_	_	_	
+10-10	496-498	är	_	_	_	_	_	_	
+10-11	499-501	om	_	_	_	_	_	_	
+10-12	502-505	den	*[15]	_	_	_	_	_	
+10-13	506-515	nuvarande	*[15]	_	_	_	_	_	
+10-14	516-533	vänsterregeringen	*[15]	_	_	_	_	_	
+10-15	534-543	levererar	*[16]	_[3]	_	false[3]	4[3]	12-10[0_16]	
+10-16	544-562	tillfredsställande	*[16]	_[3]	_	false[3]	4[3]	_	
+10-17	563-571	resultat	*[16]	_[3]	_	false[3]	4[3]	_	
+10-18	571-572	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	574-575	#	_	_	_	_	_	_	
+11-2	575-576	P	_	_	_	_	_	_	
+11-3	577-580	IMM	_	_	_	_	_	_	
+11-4	580-581	.	_	_	_	_	_	_	
+
+#Text=Vi som skriver under den här artikeln tycker inte det och vi sympatiserar med Sverigedemokraternas vårdinitiativ, som skulle ge utökade möjligheter till heltid och bättre löneutveckling för sjuksköterskor och undersköterskor.
+12-1	583-585	Vi	*[17]	_	_	_	_	12-12[0_17]	
+12-2	586-589	som	*[17]	_	_	_	_	_	
+12-3	590-597	skriver	*[17]	_	_	_	_	_	
+12-4	598-603	under	*[17]	_	_	_	_	_	
+12-5	604-607	den	*[17]	_	_	_	_	_	
+12-6	608-611	här	*[17]	_	_	_	_	_	
+12-7	612-620	artikeln	*[17]	_	_	_	_	_	
+12-8	621-627	tycker	_	_	_	_	_	_	
+12-9	628-632	inte	_	Target;Source[4]	10-12[15];12-1[17]	false[4]	4[4]	_	
+12-10	633-636	det	*	Target;Source[4]	10-12[15];12-1[17]	false[4]	4[4]	_	
+12-11	637-640	och	_	_	_	_	_	_	
+12-12	641-643	vi	*	_	_	_	_	_	
+12-13	644-656	sympatiserar	_	Target;Source[5]	12-15[18];12-12	false[5]	4[5]	_	
+12-14	657-660	med	_	Target;Source[5]	12-15[18];12-12	false[5]	4[5]	_	
+12-15	661-681	Sverigedemokraternas	*[18]|*[19]	_	_	_	_	_	
+12-16	682-695	vårdinitiativ	*[18]|*[19]	_	_	_	_	_	
+12-17	695-696	,	_	_	_	_	_	_	
+12-18	697-700	som	_	_	_	_	_	_	
+12-19	701-707	skulle	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-20	708-710	ge	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-21	711-718	utökade	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-22	719-730	möjligheter	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-23	731-735	till	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-24	736-742	heltid	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-25	743-746	och	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-26	747-753	bättre	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-27	754-768	löneutveckling	_	Target[6]	12-15[19]	false[6]	4[6]	_	
+12-28	769-772	för	_	_	_	_	_	_	
+12-29	773-787	sjuksköterskor	_	_	_	_	_	_	
+12-30	788-791	och	_	_	_	_	_	_	
+12-31	792-807	undersköterskor	_	_	_	_	_	_	
+12-32	807-808	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	810-811	#	_	_	_	_	_	_	
+13-2	811-812	P	_	_	_	_	_	_	
+13-3	813-816	IMM	_	_	_	false	2	_	
+13-4	816-817	.	_	_	_	_	_	_	
+
+#Text=Ett par saker bör bemötas.
+14-1	819-822	Ett	_	_	_	_	_	_	
+14-2	823-826	par	_	_	_	_	_	_	
+14-3	827-832	saker	_	_	_	_	_	_	
+14-4	833-836	bör	_	_	_	_	_	_	
+14-5	837-844	bemötas	_	_	_	_	_	_	
+14-6	844-845	.	_	_	_	_	_	_	
+
+#Text=För det första antyder man att Sverigedemokraterna sparar på kommuner och landsting.
+15-1	846-849	För	_	_	_	_	_	_	
+15-2	850-853	det	_	_	_	_	_	_	
+15-3	854-860	första	_	_	_	_	_	_	
+15-4	861-868	antyder	_	_	_	_	_	_	
+15-5	869-872	man	_	_	_	_	_	_	
+15-6	873-876	att	_	_	_	_	_	_	
+15-7	877-896	Sverigedemokraterna	_	_	_	_	_	_	
+15-8	897-903	sparar	_	_	_	_	_	_	
+15-9	904-906	på	_	_	_	_	_	_	
+15-10	907-915	kommuner	_	_	_	_	_	_	
+15-11	916-919	och	_	_	_	_	_	_	
+15-12	920-929	landsting	_	_	_	_	_	_	
+15-13	929-930	.	_	_	_	_	_	_	
+
+#Text=Det korrekta är att Sverigedemokraterna vill minska asylmigrationen, vilket innebär lägre utbetalningar fån staten till kommunerna utan att välfärden påverkas.
+16-1	931-934	Det	_	_	_	_	_	_	
+16-2	935-943	korrekta	_	_	_	_	_	_	
+16-3	944-946	är	_	_	_	_	_	_	
+16-4	947-950	att	_	_	_	_	_	_	
+16-5	951-970	Sverigedemokraterna	*	_	_	_	_	_	
+16-6	971-975	vill	_	Source;Target	16-5;16-7[20]	false	4	_	
+16-7	976-982	minska	*[20]	_	_	_	_	_	
+16-8	983-998	asylmigrationen	*[20]	_	_	_	_	_	
+16-9	998-999	,	_	_	_	_	_	_	
+16-10	1000-1006	vilket	_	_	_	_	_	_	
+16-11	1007-1014	innebär	_	_	_	_	_	_	
+16-12	1015-1020	lägre	_	_	_	_	_	_	
+16-13	1021-1034	utbetalningar	_	_	_	_	_	_	
+16-14	1035-1038	fån	_	_	_	_	_	_	
+16-15	1039-1045	staten	_	_	_	_	_	_	
+16-16	1046-1050	till	_	_	_	_	_	_	
+16-17	1051-1061	kommunerna	_	_	_	_	_	_	
+16-18	1062-1066	utan	_	_	_	_	_	_	
+16-19	1067-1070	att	_	_	_	_	_	_	
+16-20	1071-1080	välfärden	_	_	_	_	_	_	
+16-21	1081-1089	påverkas	_	_	_	_	_	_	
+16-22	1089-1090	.	_	_	_	_	_	_	
+
+#Text=Vidare tror vi inte att det hjälper att förbjuda privat vård, rätt väg är i stället att ställa höga kvalitetskrav.
+17-1	1091-1097	Vidare	_	_	_	_	_	_	
+17-2	1098-1102	tror	_	_	_	_	_	_	
+17-3	1103-1105	vi	*	_	_	_	_	_	
+17-4	1106-1110	inte	_	_	_	_	_	_	
+17-5	1111-1114	att	_	_	_	_	_	_	
+17-6	1115-1118	det	_	_	_	_	_	_	
+17-7	1119-1126	hjälper	_	_	_	_	_	_	
+17-8	1127-1130	att	_	_	_	_	_	_	
+17-9	1131-1139	förbjuda	_	_	_	_	_	_	
+17-10	1140-1146	privat	_	_	_	_	_	_	
+17-11	1147-1151	vård	_	_	_	_	_	_	
+17-12	1151-1152	,	_	_	_	_	_	_	
+17-13	1153-1157	rätt	_	Target;Source[7]	17-18[21];17-3	false[7]	5[7]	_	
+17-14	1158-1161	väg	_	Target;Source[7]	17-18[21];17-3	false[7]	5[7]	_	
+17-15	1162-1164	är	_	Target;Source[7]	17-18[21];17-3	false[7]	5[7]	_	
+17-16	1165-1166	i	_	_	_	_	_	_	
+17-17	1167-1174	stället	_	_	_	_	_	_	
+17-18	1175-1178	att	*[21]	_	_	_	_	_	
+17-19	1179-1185	ställa	*[21]	_	_	_	_	_	
+17-20	1186-1190	höga	*[21]	_	_	_	_	_	
+17-21	1191-1204	kvalitetskrav	*[21]	_	_	_	_	_	
+17-22	1204-1205	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1207-1208	#	_	_	_	_	_	_	
+18-2	1208-1209	P	_	_	_	_	_	_	
+18-3	1210-1213	IMM	_	_	_	false	2	_	
+18-4	1213-1214	.	_	_	_	_	_	_	
+
+#Text=Det är en villfarelse att tro att Sverige kan erbjuda alla i hela världen obegränsad vård.
+19-1	1216-1219	Det	_	_	_	_	_	_	
+19-2	1220-1222	är	_	_	_	_	_	_	
+19-3	1223-1225	en	_	_	_	_	_	_	
+19-4	1226-1237	villfarelse	_	Target	19-5[22]	false	2	_	
+19-5	1238-1241	att	*[22]	_	_	_	_	_	
+19-6	1242-1245	tro	*[22]	_	_	_	_	_	
+19-7	1246-1249	att	*[22]	_	_	_	_	_	
+19-8	1250-1257	Sverige	*[22]	_	_	_	_	_	
+19-9	1258-1261	kan	*[22]	_	_	_	_	_	
+19-10	1262-1269	erbjuda	*[22]	_	_	_	_	_	
+19-11	1270-1274	alla	*[22]	_	_	_	_	_	
+19-12	1275-1276	i	*[22]	_	_	_	_	_	
+19-13	1277-1281	hela	*[22]	_	_	_	_	_	
+19-14	1282-1289	världen	*[22]	_	_	_	_	_	
+19-15	1290-1300	obegränsad	*[22]	_	_	_	_	_	
+19-16	1301-1305	vård	*[22]	_	_	_	_	_	
+19-17	1305-1306	.	_	_	_	_	_	_	
+
+#Text=Därför är det viktigt att vi betonar medborgarskapets betydelse.
+20-1	1307-1313	Därför	_	_	_	_	_	_	
+20-2	1314-1316	är	_	_	_	_	_	_	
+20-3	1317-1320	det	_	_	_	_	_	_	
+20-4	1321-1328	viktigt	_	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-5	1329-1332	att	_	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-6	1333-1335	vi	_	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-7	1336-1343	betonar	_	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-8	1344-1360	medborgarskapets	*[23]	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-9	1361-1370	betydelse	*[23]	Target[8]	20-8[23]	false[8]	4[8]	_	
+20-10	1370-1371	.	_	_	_	_	_	_	
+
+#Text=Däremot är det helt fel att säga att Sverigedemokraternas vårdpolitik skulle göra skillnad på etnicitet, kön eller sexuell läggning.
+21-1	1372-1379	Däremot	_	_	_	_	_	_	
+21-2	1380-1382	är	_	_	_	_	_	_	
+21-3	1383-1386	det	_	_	_	_	_	_	
+21-4	1387-1391	helt	_	Target[9]	21-6[24]	false[9]	2[9]	_	
+21-5	1392-1395	fel	_	Target[9]	21-6[24]	false[9]	2[9]	_	
+21-6	1396-1399	att	*[24]	_	_	_	_	_	
+21-7	1400-1404	säga	*[24]	_	_	_	_	_	
+21-8	1405-1408	att	*[24]	_	_	_	_	_	
+21-9	1409-1429	Sverigedemokraternas	*[24]	_	_	_	_	_	
+21-10	1430-1441	vårdpolitik	*[24]	_	_	_	_	_	
+21-11	1442-1448	skulle	*[24]	_	_	_	_	_	
+21-12	1449-1453	göra	*[24]	_	_	_	_	_	
+21-13	1454-1462	skillnad	*[24]	_	_	_	_	_	
+21-14	1463-1465	på	*[24]	_	_	_	_	_	
+21-15	1466-1475	etnicitet	*[24]	_	_	_	_	_	
+21-16	1475-1476	,	*[24]	_	_	_	_	_	
+21-17	1477-1480	kön	*[24]	_	_	_	_	_	
+21-18	1481-1486	eller	*[24]	_	_	_	_	_	
+21-19	1487-1494	sexuell	*[24]	_	_	_	_	_	
+21-20	1495-1503	läggning	*[24]	_	_	_	_	_	
+21-21	1503-1504	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1506-1507	#	_	_	_	_	_	_	
+22-2	1507-1508	P	_	_	_	_	_	_	
+22-3	1509-1512	IMM	_	_	_	_	_	_	
+22-4	1512-1513	.	_	_	_	_	_	_	
+
+#Text=Men vi lägger gärna meningsskiljaktigheter åt sidan och fokuserar gärna på det vi kan vara överens om, oavsett ideologisk grund.
+23-1	1515-1518	Men	_	_	_	_	_	_	
+23-2	1519-1521	vi	*[25]|*[26]|*[27]|*[28]	_	_	_	_	_	
+23-3	1522-1528	lägger	_	Target;Source[10]	23-2[25];23-2[26]	false[10]	4[10]	_	
+23-4	1529-1534	gärna	_	Target;Source[10]	23-2[25];23-2[26]	false[10]	4[10]	_	
+23-5	1535-1557	meningsskiljaktigheter	_	Target;Source[10]	23-2[25];23-2[26]	false[10]	4[10]	_	
+23-6	1558-1560	åt	_	Target;Source[10]	23-2[25];23-2[26]	false[10]	4[10]	_	
+23-7	1561-1566	sidan	_	Target;Source[10]	23-2[25];23-2[26]	false[10]	4[10]	_	
+23-8	1567-1570	och	_	_	_	_	_	_	
+23-9	1571-1580	fokuserar	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-10	1581-1586	gärna	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-11	1587-1589	på	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-12	1590-1593	det	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-13	1594-1596	vi	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-14	1597-1600	kan	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-15	1601-1605	vara	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-16	1606-1613	överens	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-17	1614-1616	om	_	Target;Source[11]	23-2[28];23-2[27]	false[11]	4[11]	_	
+23-18	1616-1617	,	_	_	_	_	_	_	
+23-19	1618-1625	oavsett	_	_	_	_	_	_	
+23-20	1626-1636	ideologisk	_	_	_	_	_	_	
+23-21	1637-1642	grund	_	_	_	_	_	_	
+23-22	1642-1643	.	_	_	_	_	_	_	
+
+#Text=Alltså mer resurser till vården – på riktigt.
+24-1	1644-1650	Alltså	_	_	_	_	_	_	
+24-2	1651-1654	mer	*[29]	Target	24-2[29]	false	4	_	
+24-3	1655-1663	resurser	*[29]	_	_	_	_	_	
+24-4	1664-1668	till	*[29]	_	_	_	_	_	
+24-5	1669-1675	vården	*[29]	_	_	_	_	_	
+24-6	1676-1677	–	_	_	_	_	_	_	
+24-7	1678-1680	på	_	_	_	_	_	_	
+24-8	1681-1688	riktigt	_	_	_	_	_	_	
+24-9	1688-1689	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1691-1692	#	_	_	_	_	_	_	
+25-2	1692-1693	P	_	_	_	_	_	_	
+25-3	1694-1697	IMM	_	_	_	_	_	_	
+25-4	1697-1698	.	_	_	_	_	_	_	
+
+#Text=Erik Hellsborn, undersköterskaSofie Lödahl, undersköterskaElvira Östvall, vårdbiträdeLotta Lindgren, läkarsekreterareJane Ericson, sjuksköterskaMari Boman, vårdbiträdeViveka Svensson, distriktsläkareKatrin Larsson, läkarsekreterareUnni Björnefors, undersköterskaLotta Nordfeldt, barnsköterskaMartin Johansson, undersköterskaNatalie Wallin, undersköterskaTony Björklund, ambulanssjuksköterskaIngela Hedman, vårdbiträdeLena Eriksson, undersköterskaMathilda Hålén, undersköterskaJan-Erik Skyman, neuropsykologMaria Winter, undersköterskaElin Håkansson, vårdbiträdeChris Hirt, läkareLjubica Modin, undersköterskaFredrik Hansson, undersköterskaJari Ahonen, undersköterskaÅsa Erlandsson, disktriktssköterskaMats Erlandsson, läkareMattias Kristiansson, läkareMarlen Ottesen, sjuksköterskaStamatios Ledonius, tandläkareDan Larsen, vårdarbetareJohnny Svedin, sjuksköterskaPernilla Cederholm, undersköterskaAnette Ivekull, undersköterskaJenny Nordahl, undersköterskaMarita Roos, biomedicinsk analytikerMarie Bern, undersköterska.
+26-1	1700-1704	Erik	_	_	_	_	_	_	
+26-2	1705-1714	Hellsborn	_	_	_	_	_	_	
+26-3	1714-1715	,	_	_	_	_	_	_	
+26-4	1716-1735	undersköterskaSofie	_	_	_	_	_	_	
+26-5	1736-1742	Lödahl	_	_	_	_	_	_	
+26-6	1742-1743	,	_	_	_	_	_	_	
+26-7	1744-1764	undersköterskaElvira	_	_	_	_	_	_	
+26-8	1765-1772	Östvall	_	_	_	_	_	_	
+26-9	1772-1773	,	_	_	_	_	_	_	
+26-10	1774-1790	vårdbiträdeLotta	_	_	_	_	_	_	
+26-11	1791-1799	Lindgren	_	_	_	_	_	_	
+26-12	1799-1800	,	_	_	_	_	_	_	
+26-13	1801-1821	läkarsekreterareJane	_	_	_	_	_	_	
+26-14	1822-1829	Ericson	_	_	_	_	_	_	
+26-15	1829-1830	,	_	_	_	_	_	_	
+26-16	1831-1848	sjuksköterskaMari	_	_	_	_	_	_	
+26-17	1849-1854	Boman	_	_	_	_	_	_	
+26-18	1854-1855	,	_	_	_	_	_	_	
+26-19	1856-1873	vårdbiträdeViveka	_	_	_	_	_	_	
+26-20	1874-1882	Svensson	_	_	_	_	_	_	
+26-21	1882-1883	,	_	_	_	_	_	_	
+26-22	1884-1905	distriktsläkareKatrin	_	_	_	_	_	_	
+26-23	1906-1913	Larsson	_	_	_	_	_	_	
+26-24	1913-1914	,	_	_	_	_	_	_	
+26-25	1915-1935	läkarsekreterareUnni	_	_	_	_	_	_	
+26-26	1936-1946	Björnefors	_	_	_	_	_	_	
+26-27	1946-1947	,	_	_	_	_	_	_	
+26-28	1948-1967	undersköterskaLotta	_	_	_	_	_	_	
+26-29	1968-1977	Nordfeldt	_	_	_	_	_	_	
+26-30	1977-1978	,	_	_	_	_	_	_	
+26-31	1979-1998	barnsköterskaMartin	_	_	_	_	_	_	
+26-32	1999-2008	Johansson	_	_	_	_	_	_	
+26-33	2008-2009	,	_	_	_	_	_	_	
+26-34	2010-2031	undersköterskaNatalie	_	_	_	_	_	_	
+26-35	2032-2038	Wallin	_	_	_	_	_	_	
+26-36	2038-2039	,	_	_	_	_	_	_	
+26-37	2040-2058	undersköterskaTony	_	_	_	_	_	_	
+26-38	2059-2068	Björklund	_	_	_	_	_	_	
+26-39	2068-2069	,	_	_	_	_	_	_	
+26-40	2070-2097	ambulanssjuksköterskaIngela	_	_	_	_	_	_	
+26-41	2098-2104	Hedman	_	_	_	_	_	_	
+26-42	2104-2105	,	_	_	_	_	_	_	
+26-43	2106-2121	vårdbiträdeLena	_	_	_	_	_	_	
+26-44	2122-2130	Eriksson	_	_	_	_	_	_	
+26-45	2130-2131	,	_	_	_	_	_	_	
+26-46	2132-2154	undersköterskaMathilda	_	_	_	_	_	_	
+26-47	2155-2160	Hålén	_	_	_	_	_	_	
+26-48	2160-2161	,	_	_	_	_	_	_	
+26-49	2162-2184	undersköterskaJan-Erik	_	_	_	_	_	_	
+26-50	2185-2191	Skyman	_	_	_	_	_	_	
+26-51	2191-2192	,	_	_	_	_	_	_	
+26-52	2193-2211	neuropsykologMaria	_	_	_	_	_	_	
+26-53	2212-2218	Winter	_	_	_	_	_	_	
+26-54	2218-2219	,	_	_	_	_	_	_	
+26-55	2220-2238	undersköterskaElin	_	_	_	_	_	_	
+26-56	2239-2248	Håkansson	_	_	_	_	_	_	
+26-57	2248-2249	,	_	_	_	_	_	_	
+26-58	2250-2266	vårdbiträdeChris	_	_	_	_	_	_	
+26-59	2267-2271	Hirt	_	_	_	_	_	_	
+26-60	2271-2272	,	_	_	_	_	_	_	
+26-61	2273-2286	läkareLjubica	_	_	_	_	_	_	
+26-62	2287-2292	Modin	_	_	_	_	_	_	
+26-63	2292-2293	,	_	_	_	_	_	_	
+26-64	2294-2315	undersköterskaFredrik	_	_	_	_	_	_	
+26-65	2316-2323	Hansson	_	_	_	_	_	_	
+26-66	2323-2324	,	_	_	_	_	_	_	
+26-67	2325-2343	undersköterskaJari	_	_	_	_	_	_	
+26-68	2344-2350	Ahonen	_	_	_	_	_	_	
+26-69	2350-2351	,	_	_	_	_	_	_	
+26-70	2352-2369	undersköterskaÅsa	_	_	_	_	_	_	
+26-71	2370-2380	Erlandsson	_	_	_	_	_	_	
+26-72	2380-2381	,	_	_	_	_	_	_	
+26-73	2382-2405	disktriktssköterskaMats	_	_	_	_	_	_	
+26-74	2406-2416	Erlandsson	_	_	_	_	_	_	
+26-75	2416-2417	,	_	_	_	_	_	_	
+26-76	2418-2431	läkareMattias	_	_	_	_	_	_	
+26-77	2432-2444	Kristiansson	_	_	_	_	_	_	
+26-78	2444-2445	,	_	_	_	_	_	_	
+26-79	2446-2458	läkareMarlen	_	_	_	_	_	_	
+26-80	2459-2466	Ottesen	_	_	_	_	_	_	
+26-81	2466-2467	,	_	_	_	_	_	_	
+26-82	2468-2490	sjuksköterskaStamatios	_	_	_	_	_	_	
+26-83	2491-2499	Ledonius	_	_	_	_	_	_	
+26-84	2499-2500	,	_	_	_	_	_	_	
+26-85	2501-2514	tandläkareDan	_	_	_	_	_	_	
+26-86	2515-2521	Larsen	_	_	_	_	_	_	
+26-87	2521-2522	,	_	_	_	_	_	_	
+26-88	2523-2541	vårdarbetareJohnny	_	_	_	_	_	_	
+26-89	2542-2548	Svedin	_	_	_	_	_	_	
+26-90	2548-2549	,	_	_	_	_	_	_	
+26-91	2550-2571	sjuksköterskaPernilla	_	_	_	_	_	_	
+26-92	2572-2581	Cederholm	_	_	_	_	_	_	
+26-93	2581-2582	,	_	_	_	_	_	_	
+26-94	2583-2603	undersköterskaAnette	_	_	_	_	_	_	
+26-95	2604-2611	Ivekull	_	_	_	_	_	_	
+26-96	2611-2612	,	_	_	_	_	_	_	
+26-97	2613-2632	undersköterskaJenny	_	_	_	_	_	_	
+26-98	2633-2640	Nordahl	_	_	_	_	_	_	
+26-99	2640-2641	,	_	_	_	_	_	_	
+26-100	2642-2662	undersköterskaMarita	_	_	_	_	_	_	
+26-101	2663-2667	Roos	_	_	_	_	_	_	
+26-102	2667-2668	,	_	_	_	_	_	_	
+26-103	2669-2681	biomedicinsk	_	_	_	_	_	_	
+26-104	2682-2697	analytikerMarie	_	_	_	_	_	_	
+26-105	2698-2702	Bern	_	_	_	_	_	_	
+26-106	2702-2703	,	_	_	_	_	_	_	
+26-107	2704-2718	undersköterska	_	_	_	_	_	_	
+26-108	2718-2719	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2721-2722	#	_	_	_	_	_	_	
+27-2	2722-2723	P	_	_	_	_	_	_	
+27-3	2724-2727	IMM	_	_	_	_	_	_	
+27-4	2727-2728	.	_	_	_	_	_	_	
+
+#Text=Fotnot: Flera av debattörerna är aktiva inom Sverigedemokraterna.
+28-1	2730-2736	Fotnot	_	_	_	_	_	_	
+28-2	2736-2737	:	_	_	_	_	_	_	
+28-3	2738-2743	Flera	_	_	_	_	_	_	
+28-4	2744-2746	av	_	_	_	_	_	_	
+28-5	2747-2759	debattörerna	_	_	_	_	_	_	
+28-6	2760-2762	är	_	_	_	_	_	_	
+28-7	2763-2769	aktiva	_	_	_	_	_	_	
+28-8	2770-2774	inom	_	_	_	_	_	_	
+28-9	2775-2794	Sverigedemokraterna	_	_	_	_	_	_	
+28-10	2794-2795	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2797-2798	#	_	_	_	_	_	_	
+29-2	2798-2799	P	_	_	_	_	_	_	
+29-3	2800-2803	IMM	_	_	_	_	_	_	
+29-4	2803-2804	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+30-1	2806-2810	Häng	_	_	_	_	_	_	
+30-2	2811-2814	med	_	_	_	_	_	_	
+30-3	2815-2816	i	_	_	_	_	_	_	
+30-4	2817-2825	debatten	_	_	_	_	_	_	
+30-5	2826-2829	och	_	_	_	_	_	_	
+30-6	2830-2840	kommentera	_	_	_	_	_	_	
+30-7	2841-2849	artikeln	_	_	_	_	_	_	
+30-8	2850-2851	–	_	_	_	_	_	_	
+30-9	2852-2856	följ	_	_	_	_	_	_	
+30-10	2858-2864	Debatt	_	_	_	_	_	_	
+30-11	2865-2867	på	_	_	_	_	_	_	
+30-12	2868-2876	Facebook	_	_	_	_	_	_	
+30-13	2876-2877	.	_	_	_	_	_	_	

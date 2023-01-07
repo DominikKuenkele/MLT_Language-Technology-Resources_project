@@ -1,0 +1,183 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	1[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	1[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Ensamkommande skäggbarn från Afghanistan på rapport idag.
+3-1	18-31	Ensamkommande	*[15]	Target[3]	3-1[15]	false[3]	1[3]	
+3-2	32-41	skäggbarn	*[15]	Target[3]	3-1[15]	false[3]	1[3]	
+3-3	42-46	från	_	_	_	_	_	
+3-4	47-58	Afghanistan	_	_	_	_	_	
+3-5	59-61	på	_	_	_	_	_	
+3-6	62-69	rapport	_	_	_	_	_	
+3-7	70-74	idag	_	_	_	_	_	
+3-8	74-75	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	77-78	#	_	_	_	_	_	
+4-2	78-79	P	_	_[4]	_	false[4]	1[4]	
+4-3	80-83	IMM	_	_[4]	_	false[4]	1[4]	
+4-4	83-84	.	_	_	_	_	_	
+
+#Text=Ensamkommande bluffen som säger sig vara barn och två av de var 16 år enligt rapport idag på SVT.
+5-1	86-99	Ensamkommande	*	_	_	_	_	
+5-2	100-107	bluffen	_	Target	5-1	false	2	
+5-3	108-111	som	_	_	_	_	_	
+5-4	112-117	säger	_	_	_	_	_	
+5-5	118-121	sig	_	_	_	_	_	
+5-6	122-126	vara	_	_	_	_	_	
+5-7	127-131	barn	_	_	_	_	_	
+5-8	132-135	och	_	_	_	_	_	
+5-9	136-139	två	_	_	_	_	_	
+5-10	140-142	av	_	_	_	_	_	
+5-11	143-145	de	_	_	_	_	_	
+5-12	146-149	var	_	_	_	_	_	
+5-13	150-152	16	_	_	_	_	_	
+5-14	153-155	år	_	_	_	_	_	
+5-15	156-162	enligt	_	_	_	_	_	
+5-16	163-170	rapport	_	_	_	_	_	
+5-17	171-175	idag	_	_	_	_	_	
+5-18	176-178	på	_	_	_	_	_	
+5-19	179-182	SVT	_	_	_	_	_	
+5-20	182-183	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	185-186	#	_	_	_	_	_	
+6-2	186-187	P	_	_[5]	_	false[5]	1[5]	
+6-3	188-191	IMM	_	_[5]	_	false[5]	1[5]	
+6-4	191-192	.	_	_	_	_	_	
+
+#Text=Ser dessa verkligen ut som 16 åringar?
+7-1	194-197	Ser	_	_	_	_	_	
+7-2	198-203	dessa	_	_	_	_	_	
+7-3	204-213	verkligen	_	_	_	_	_	
+7-4	214-216	ut	_	_	_	_	_	
+7-5	217-220	som	_	_	_	_	_	
+7-6	221-223	16	_	_	_	_	_	
+7-7	224-231	åringar	_	_	_	_	_	
+7-8	231-232	?	_	_	_	_	_	
+
+#Text=Jag ifrågasätter verkligen svenskarnas IQ och när de hela tiden klagar på att utomeuropeiska folk är inavlade och har lägre IQ när ni i själva verket och er skit politik går med på detta.
+8-1	233-236	Jag	_	_	_	_	_	
+8-2	237-249	ifrågasätter	_	Target[6]	8-4[16]	false[6]	2[6]	
+8-3	250-259	verkligen	_	Target[6]	8-4[16]	false[6]	2[6]	
+8-4	260-271	svenskarnas	*[16]	_	_	_	_	
+8-5	272-274	IQ	*[16]	_	_	_	_	
+8-6	275-278	och	_	_	_	_	_	
+8-7	279-282	när	_	_	_	_	_	
+8-8	283-285	de	*	_	_	_	_	
+8-9	286-290	hela	_	Target[7]	8-8	false[7]	2[7]	
+8-10	291-296	tiden	_	Target[7]	8-8	false[7]	2[7]	
+8-11	297-303	klagar	_	Target[7]	8-8	false[7]	2[7]	
+8-12	304-306	på	_	Target[7]	8-8	false[7]	2[7]	
+8-13	307-310	att	_	_	_	_	_	
+8-14	311-325	utomeuropeiska	*[17]	_	_	_	_	
+8-15	326-330	folk	*[17]	_	_	_	_	
+8-16	331-333	är	_	Target;Source[8]	8-14[17];8-8	false[8]	1[8]	
+8-17	334-342	inavlade	_	Target;Source[8]	8-14[17];8-8	false[8]	1[8]	
+8-18	343-346	och	_	_	_	_	_	
+8-19	347-350	har	_	Target;Source[9]	8-14[17];8-8	false[9]	1[9]	
+8-20	351-356	lägre	_	Target;Source[9]	8-14[17];8-8	false[9]	1[9]	
+8-21	357-359	IQ	_	Target;Source[9]	8-14[17];8-8	false[9]	1[9]	
+8-22	360-363	när	_	_	_	_	_	
+8-23	364-366	ni	_	_	_	_	_	
+8-24	367-368	i	_	_	_	_	_	
+8-25	369-375	själva	_	_	_	_	_	
+8-26	376-382	verket	_	_	_	_	_	
+8-27	383-386	och	_	_	_	_	_	
+8-28	387-389	er	_	_	_	_	_	
+8-29	390-394	skit	*[18]	Target[10]	8-29[18]	false[10]	1[10]	
+8-30	395-402	politik	*[18]	Target[10]	8-29[18]	false[10]	1[10]	
+8-31	403-406	går	_	_	_	_	_	
+8-32	407-410	med	_	_	_	_	_	
+8-33	411-413	på	_	_	_	_	_	
+8-34	414-419	detta	_	_	_	_	_	
+8-35	419-420	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	422-423	#	_	_	_	_	_	
+9-2	423-424	P	_	_	_	_	_	
+9-3	425-428	IMM	_	_	_	_	_	
+9-4	428-429	.	_	_	_	_	_	
+
+#Text=Hade ni varit ett modig folk, så hade ni inte suttit som mesiga råttor på Flashback och låtit detta ske eller genom att vänta på SD ska komma till makten när detta är bara en dröm att SD ska få en majoritet i riksdagen.
+10-1	431-435	Hade	_	_	_	_	_	
+10-2	436-438	ni	_	_	_	_	_	
+10-3	439-444	varit	_	_	_	_	_	
+10-4	445-448	ett	_	_	_	_	_	
+10-5	449-454	modig	_	_	_	_	_	
+10-6	455-459	folk	_	_	_	_	_	
+10-7	459-460	,	_	_	_	_	_	
+10-8	461-463	så	_	_	_	_	_	
+10-9	464-468	hade	_	_	_	_	_	
+10-10	469-471	ni	*	_	_	_	_	
+10-11	472-476	inte	_	_	_	_	_	
+10-12	477-483	suttit	_	_	_	_	_	
+10-13	484-487	som	_	_	_	_	_	
+10-14	488-494	mesiga	_	Target[11]	10-10	false[11]	1[11]	
+10-15	495-501	råttor	_	Target[11]	10-10	false[11]	1[11]	
+10-16	502-504	på	_	_	_	_	_	
+10-17	505-514	Flashback	_	_	_	_	_	
+10-18	515-518	och	_	_	_	_	_	
+10-19	519-524	låtit	_	Target[12]	10-10	false[12]	2[12]	
+10-20	525-530	detta	_	Target[12]	10-10	false[12]	2[12]	
+10-21	531-534	ske	_	Target[12]	10-10	false[12]	2[12]	
+10-22	535-540	eller	_	_	_	_	_	
+10-23	541-546	genom	_	_	_	_	_	
+10-24	547-550	att	_	_	_	_	_	
+10-25	551-556	vänta	_	_	_	_	_	
+10-26	557-559	på	_	_	_	_	_	
+10-27	560-562	SD	_	_	_	_	_	
+10-28	563-566	ska	_	_	_	_	_	
+10-29	567-572	komma	_	_	_	_	_	
+10-30	573-577	till	_	_	_	_	_	
+10-31	578-584	makten	_	_	_	_	_	
+10-32	585-588	när	_	_	_	_	_	
+10-33	589-594	detta	_	_	_	_	_	
+10-34	595-597	är	_	_	_	_	_	
+10-35	598-602	bara	_	_	_	_	_	
+10-36	603-605	en	_	_	_	_	_	
+10-37	606-610	dröm	_	Target	10-39[19]	false	5	
+10-38	611-614	att	_	_	_	_	_	
+10-39	615-617	SD	*[19]	_	_	_	_	
+10-40	618-621	ska	*[19]	_	_	_	_	
+10-41	622-624	få	*[19]	_	_	_	_	
+10-42	625-627	en	*[19]	_	_	_	_	
+10-43	628-637	majoritet	*[19]	_	_	_	_	
+10-44	638-639	i	*[19]	_	_	_	_	
+10-45	640-649	riksdagen	*[19]	_	_	_	_	
+10-46	649-650	.	_	_	_	_	_	
+
+#Text=Gå ut och starta revolution, uppror, visa er missnöje eller var fucking tyst och knipp igen käften.
+11-1	651-653	Gå	_	_	_	_	_	
+11-2	654-656	ut	_	_	_	_	_	
+11-3	657-660	och	_	_	_	_	_	
+11-4	661-667	starta	_	_	_	_	_	
+11-5	668-678	revolution	_	_	_	_	_	
+11-6	678-679	,	_	_	_	_	_	
+11-7	680-686	uppror	_	_	_	_	_	
+11-8	686-687	,	_	_	_	_	_	
+11-9	688-692	visa	_	_	_	_	_	
+11-10	693-695	er	*	_	_	_	_	
+11-11	696-704	missnöje	_	Source	11-10	false	2	
+11-12	705-710	eller	_	_	_	_	_	
+11-13	711-714	var	*[20]	Target[13]	11-13[20]	false[13]	1[13]	
+11-14	715-722	fucking	*[20]	Target[13]	11-13[20]	false[13]	1[13]	
+11-15	723-727	tyst	*[20]	Target[13]	11-13[20]	false[13]	1[13]	
+11-16	728-731	och	_	_	_	_	_	
+11-17	732-737	knipp	*[21]	Target[14]	11-17[21]	false[14]	1[14]	
+11-18	738-742	igen	*[21]	Target[14]	11-17[21]	false[14]	1[14]	
+11-19	743-749	käften	*[21]	Target[14]	11-17[21]	false[14]	1[14]	
+11-20	749-750	.	_	_	_	_	_	

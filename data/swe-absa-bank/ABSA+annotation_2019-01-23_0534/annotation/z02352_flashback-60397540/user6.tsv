@@ -1,0 +1,72 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hur är egentligen tongångarna i Sveriges förorter efter terrorattentatet i Stockholm?
+3-1	18-21	Hur	_	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	_	
+3-3	25-35	egentligen	_	_	_	_	_	_	_	
+3-4	36-47	tongångarna	*[4]|*[5]|*[6]	_	_	_	_	_	6-2[7_4]|6-2[8_5]|6-2[9_6]	
+3-5	48-49	i	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-6	50-58	Sveriges	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-7	59-67	förorter	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-8	68-73	efter	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-9	74-90	terrorattentatet	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-10	91-92	i	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-11	93-102	Stockholm	*[4]|*[5]|*[6]	_	_	_	_	_	_	
+3-12	102-103	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	105-106	#	_	_	_	_	_	_	_	
+4-2	106-107	P	_	_	_	_	_	_	_	
+4-3	108-111	IMM	_	_	_	_	_	_	_	
+4-4	111-112	.	_	_	_	_	_	_	_	
+
+#Text=Är det någon som kan bidra med insiderinformation på hur det ser ut ute i våra förorter efter gårdagens attentat?
+5-1	114-116	Är	_	_	_	_	_	_	_	
+5-2	117-120	det	_	_	_	_	_	_	_	
+5-3	121-126	någon	_	_	_	_	_	_	_	
+5-4	127-130	som	_	_	_	_	_	_	_	
+5-5	131-134	kan	_	_	_	_	_	_	_	
+5-6	135-140	bidra	_	_	_	_	_	_	_	
+5-7	141-144	med	_	_	_	_	_	_	_	
+5-8	145-163	insiderinformation	_	_	_	_	_	_	_	
+5-9	164-166	på	_	_	_	_	_	_	_	
+5-10	167-170	hur	_	_	_	_	_	_	_	
+5-11	171-174	det	_	_	_	_	_	_	_	
+5-12	175-178	ser	_	_	_	_	_	_	_	
+5-13	179-181	ut	_	_	_	_	_	_	_	
+5-14	182-185	ute	_	_	_	_	_	_	_	
+5-15	186-187	i	_	_	_	_	_	_	_	
+5-16	188-192	våra	_	_	_	_	_	_	_	
+5-17	193-201	förorter	_	_	_	_	_	_	_	
+5-18	202-207	efter	_	_	_	_	_	_	_	
+5-19	208-217	gårdagens	_	_	_	_	_	_	_	
+5-20	218-226	attentat	_	_	_	_	_	_	_	
+5-21	226-227	?	_	_	_	_	_	_	_	
+
+#Text=Är det fest, sorg eller likgiltighet?.
+6-1	228-230	Är	_	_[1]|_[2]|_[3]	_|_|_	false[1]|false[2]|false[3]	4[1]|3[2]|2[3]	_	_	
+6-2	231-234	det	*[7]|*[8]|*[9]	_	_	_	_	_	_	
+6-3	235-239	fest	_	Source;Target	6-9[10];6-2[7]	false	4	6-1[1_0]	_	
+6-4	239-240	,	_	_	_	_	_	_	_	
+6-5	241-245	sorg	_	Target;Source	6-2[9];6-9[12]	false	2	6-1[3_0]	_	
+6-6	246-251	eller	_	_	_	_	_	_	_	
+6-7	252-264	likgiltighet	_	Source;Target	6-9[11];6-2[8]	false	3	6-1[2_0]	_	
+6-8	264-265	?	_	_	_	_	_	_	_	
+6-9	265-266	.	*[10]|*[11]|*[12]	_	_	_	_	_	_	

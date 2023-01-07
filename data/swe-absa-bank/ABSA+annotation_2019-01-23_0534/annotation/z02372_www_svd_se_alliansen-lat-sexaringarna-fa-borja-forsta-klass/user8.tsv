@@ -1,0 +1,1482 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen: Fel att behålla förskoleklass.
+3-1	18-27	Alliansen	*	_	_	_	_	_	_	
+3-2	27-28	:	_	_	_	_	_	_	_	
+3-3	29-32	Fel	_	Target;Source	3-4[28];3-1	false	2	_	_	
+3-4	33-36	att	*[28]	_	_	_	_	_	_	
+3-5	37-44	behålla	*[28]	_	_	_	_	_	_	
+3-6	45-58	förskoleklass	*[28]	_	_	_	_	_	_	
+3-7	58-59	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_	_	_	_	_	_	
+4-2	62-63	P	_	_	_	_	_	_	_	
+4-3	64-67	IMM	_	_	_	_	_	_	_	
+4-4	67-68	.	_	_	_	_	_	_	_	
+
+#Text=Vi röstar nej till förslaget att göra förskoleklass obligatorisk.
+5-1	70-72	Vi	*	_	_	_	_	_	_	
+5-2	73-79	röstar	_	Source;Target[1]	5-1;5-5[29]	false[1]	2[1]	_	_	
+5-3	80-83	nej	_	Source;Target[1]	5-1;5-5[29]	false[1]	2[1]	_	_	
+5-4	84-88	till	_	Source;Target[1]	5-1;5-5[29]	false[1]	2[1]	_	_	
+5-5	89-98	förslaget	*[29]	_	_	_	_	_	_	
+5-6	99-102	att	*[29]	_	_	_	_	_	_	
+5-7	103-107	göra	*[29]	_	_	_	_	_	_	
+5-8	108-121	förskoleklass	*[29]	_	_	_	_	_	_	
+5-9	122-134	obligatorisk	*[29]	_	_	_	_	_	_	
+5-10	134-135	.	_	_	_	_	_	_	_	
+
+#Text=Istället vill vi införa tioårig grundskola, så att sexåringar börjar i första klass.
+6-1	136-144	Istället	_	_	_	_	_	_	_	
+6-2	145-149	vill	_	Target;Source	6-5[30];6-3	false	4	_	_	
+6-3	150-152	vi	*	_	_	_	_	_	_	
+6-4	153-159	införa	_	Target;Source	6-5[30];6-3	false	4	6-2	_	
+6-5	160-167	tioårig	*[30]	_	_	_	_	_	_	
+6-6	168-178	grundskola	*[30]	_	_	_	_	_	_	
+6-7	178-179	,	*[30]	_	_	_	_	_	_	
+6-8	180-182	så	*[30]	_	_	_	_	_	_	
+6-9	183-186	att	*[30]	_	_	_	_	_	_	
+6-10	187-197	sexåringar	*[30]	_	_	_	_	_	_	
+6-11	198-204	börjar	*[30]	_	_	_	_	_	_	
+6-12	205-206	i	*[30]	_	_	_	_	_	_	
+6-13	207-213	första	*[30]	_	_	_	_	_	_	
+6-14	214-219	klass	*[30]	_	_	_	_	_	_	
+6-15	219-220	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver företrädare för Alliansen.
+7-1	221-224	Det	_	_	_	_	_	_	_	
+7-2	225-232	skriver	_	_	_	_	_	_	_	
+7-3	233-244	företrädare	*[31]	_	_	_	_	_	5-1[0_31]|6-3[0_31]	
+7-4	245-248	för	*[31]	_	_	_	_	_	_	
+7-5	249-258	Alliansen	*[31]	_	_	_	_	_	_	
+7-6	258-259	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	261-262	#	_	_	_	_	_	_	_	
+8-2	262-263	P	_	_	_	_	_	_	_	
+8-3	264-267	IMM	_	_	_	_	_	_	_	
+8-4	267-268	.	_	_	_	_	_	_	_	
+
+#Text=Sverige behöver höja ambitionerna för svensk skola.
+9-1	270-277	Sverige	_	_	_	_	_	_	_	
+9-2	278-285	behöver	_	_	_	_	_	_	_	
+9-3	286-290	höja	_	_	_	_	_	_	_	
+9-4	291-303	ambitionerna	_	_	_	_	_	_	_	
+9-5	304-307	för	_	_	_	_	_	_	_	
+9-6	308-314	svensk	_	_	_	_	_	_	_	
+9-7	315-320	skola	_	_	_	_	_	_	_	
+9-8	320-321	.	_	_	_	_	_	_	_	
+
+#Text=Vi ska sträva efter att vara ett föregångsland i de internationella kunskapsmätningarna, inte ett genomsnittsland.
+10-1	322-324	Vi	*[32]	_	_	_	_	_	_	
+10-2	325-328	ska	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-3	329-335	sträva	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-4	336-341	efter	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-5	342-345	att	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-6	346-350	vara	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-7	351-354	ett	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-8	355-368	föregångsland	*[32]	Target[2]	10-1[32]	false[2]	4[2]	_	_	
+10-9	369-370	i	*[32]	_	_	_	_	_	_	
+10-10	371-373	de	*[32]	_	_	_	_	_	_	
+10-11	374-389	internationella	*[32]	_	_	_	_	_	_	
+10-12	390-409	kunskapsmätningarna	*[32]	_	_	_	_	_	_	
+10-13	409-410	,	_	_	_	_	_	_	_	
+10-14	411-415	inte	_	_	_	_	_	_	_	
+10-15	416-419	ett	_	_	_	_	_	_	_	
+10-16	420-435	genomsnittsland	_	_	_	_	_	_	_	
+10-17	435-436	.	_	_	_	_	_	_	_	
+
+#Text=Det kräver reformer som ökar tiden mellan elever och skickliga lärare.
+11-1	437-440	Det	_	_	_	_	_	_	_	
+11-2	441-447	kräver	_	_	_	_	_	_	_	
+11-3	448-456	reformer	_	_	_	_	_	_	_	
+11-4	457-460	som	_	_	_	_	_	_	_	
+11-5	461-465	ökar	_	_	_	_	_	_	_	
+11-6	466-471	tiden	_	_	_	_	_	_	_	
+11-7	472-478	mellan	_	_	_	_	_	_	_	
+11-8	479-485	elever	_	_	_	_	_	_	_	
+11-9	486-489	och	_	_	_	_	_	_	_	
+11-10	490-499	skickliga	_	_	_	_	_	_	_	
+11-11	500-506	lärare	_	_	_	_	_	_	_	
+11-12	506-507	.	_	_	_	_	_	_	_	
+
+#Text=Därför är det dags för Sverige att överge dagens förskoleklass och införa en tioårig grundskola med ett fyraårigt lågstadium och en skolstart från sex års ålder.
+12-1	508-514	Därför	_	_	_	_	_	_	_	
+12-2	515-517	är	_	Source;Target[3]	13-3;12-5[33]	false[3]	4[3]	_	_	
+12-3	518-521	det	_	Source;Target[3]	13-3;12-5[33]	false[3]	4[3]	_	_	
+12-4	522-526	dags	_	Source;Target[3]	13-3;12-5[33]	false[3]	4[3]	_	_	
+12-5	527-530	för	*[33]	_	_	_	_	_	_	
+12-6	531-538	Sverige	*[33]	_	_	_	_	_	_	
+12-7	539-542	att	*[33]	_	_	_	_	_	_	
+12-8	543-549	överge	*[33]	_	_	_	_	_	_	
+12-9	550-556	dagens	*[33]	_	_	_	_	_	_	
+12-10	557-570	förskoleklass	*[33]	_	_	_	_	_	_	
+12-11	571-574	och	*[33]	_	_	_	_	_	_	
+12-12	575-581	införa	*[33]	_	_	_	_	_	_	
+12-13	582-584	en	*[33]	_	_	_	_	_	_	
+12-14	585-592	tioårig	*[33]	_	_	_	_	_	_	
+12-15	593-603	grundskola	*[33]	_	_	_	_	_	_	
+12-16	604-607	med	*[33]	_	_	_	_	_	_	
+12-17	608-611	ett	*[33]	_	_	_	_	_	_	
+12-18	612-621	fyraårigt	*[33]	_	_	_	_	_	_	
+12-19	622-632	lågstadium	*[33]	_	_	_	_	_	_	
+12-20	633-636	och	*[33]	_	_	_	_	_	_	
+12-21	637-639	en	*[33]	_	_	_	_	_	_	
+12-22	640-649	skolstart	*[33]	_	_	_	_	_	_	
+12-23	650-654	från	*[33]	_	_	_	_	_	_	
+12-24	655-658	sex	*[33]	_	_	_	_	_	_	
+12-25	659-662	års	*[33]	_	_	_	_	_	_	
+12-26	663-668	ålder	*[33]	_	_	_	_	_	_	
+12-27	668-669	.	*	_	_	_	_	_	_	
+
+#Text=Det föreslår Alliansen i det motförslag som vi har lämnat in till riksdagen.
+13-1	670-673	Det	*	_	_	_	_	_	_	
+13-2	674-682	föreslår	_	Source;Target	13-3;13-1	false	4	_	_	
+13-3	683-692	Alliansen	*	_	_	_	_	_	_	
+13-4	693-694	i	_	_	_	_	_	_	_	
+13-5	695-698	det	_	_	_	_	_	_	_	
+13-6	699-709	motförslag	_	_	_	_	_	_	_	
+13-7	710-713	som	_	_	_	_	_	_	_	
+13-8	714-716	vi	_	_	_	_	_	_	_	
+13-9	717-720	har	_	_	_	_	_	_	_	
+13-10	721-727	lämnat	_	_	_	_	_	_	_	
+13-11	728-730	in	_	_	_	_	_	_	_	
+13-12	731-735	till	_	_	_	_	_	_	_	
+13-13	736-745	riksdagen	_	_	_	_	_	_	_	
+13-14	745-746	.	_	_	_	_	_	_	_	
+
+#Text=Därmed kommer vi också att rösta nej till hela regeringens proposition om obligatorisk förskoleklass.
+14-1	747-753	Därmed	_	_	_	_	_	_	_	
+14-2	754-760	kommer	_	Target;Source	14-9[34];14-3	false	2	_	_	
+14-3	761-763	vi	*	_	_	_	_	_	_	
+14-4	764-769	också	_	_	_	_	_	_	_	
+14-5	770-773	att	_	Target;Source[4]	14-9[34];14-3	false[4]	2[4]	14-2[0_4]	_	
+14-6	774-779	rösta	_	Target;Source[4]	14-9[34];14-3	false[4]	2[4]	_	_	
+14-7	780-783	nej	_	Target;Source[4]	14-9[34];14-3	false[4]	2[4]	_	_	
+14-8	784-788	till	_	Target;Source[4]	14-9[34];14-3	false[4]	2[4]	_	_	
+14-9	789-793	hela	*[34]	_	_	_	_	_	_	
+14-10	794-805	regeringens	*[34]	_	_	_	_	_	_	
+14-11	806-817	proposition	*[34]	_	_	_	_	_	_	
+14-12	818-820	om	*[34]	_	_	_	_	_	_	
+14-13	821-833	obligatorisk	*[34]	_	_	_	_	_	_	
+14-14	834-847	förskoleklass	*[34]	_	_	_	_	_	_	
+14-15	847-848	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	850-851	#	_	_	_	_	_	_	_	
+15-2	851-852	P	_	_	_	_	_	_	_	
+15-3	853-856	IMM	_	_	_	_	_	_	_	
+15-4	856-857	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+16-1	859-862	Det	_	_	_	_	_	_	_	
+16-2	863-866	här	_	_	_	_	_	_	_	
+16-3	867-869	är	_	_	_	_	_	_	_	
+16-4	870-872	en	_	_	_	_	_	_	_	
+16-5	873-887	argumenterande	_	_	_	_	_	_	_	
+16-6	888-892	text	_	_	_	_	_	_	_	
+16-7	893-896	med	_	_	_	_	_	_	_	
+16-8	897-902	syfte	_	_	_	_	_	_	_	
+16-9	903-906	att	_	_	_	_	_	_	_	
+16-10	907-914	påverka	_	_	_	_	_	_	_	
+16-11	914-915	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+17-1	916-925	Åsikterna	_	_	_	_	_	_	_	
+17-2	926-929	som	_	_	_	_	_	_	_	
+17-3	930-938	uttrycks	_	_	_	_	_	_	_	
+17-4	939-941	är	_	_	_	_	_	_	_	
+17-5	942-953	skribentens	_	_	_	_	_	_	_	
+17-6	954-958	egna	_	_	_	_	_	_	_	
+17-7	958-959	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	961-962	#	_	_	_	_	_	_	_	
+18-2	962-963	P	_	_	_	_	_	_	_	
+18-3	964-967	IMM	_	_	_	_	_	_	_	
+18-4	967-968	.	_	_	_	_	_	_	_	
+
+#Text=Det återstår ett år på den här mandatperioden och förhoppningsvis bara ett år till med Gustav Fridolin som utbildningsminister.
+19-1	970-973	Det	_	_	_	_	_	_	_	
+19-2	974-982	återstår	_	_	_	_	_	_	_	
+19-3	983-986	ett	_	_	_	_	_	_	_	
+19-4	987-989	år	_	_	_	_	_	_	_	
+19-5	990-992	på	_	_	_	_	_	_	_	
+19-6	993-996	den	_	_	_	_	_	_	_	
+19-7	997-1000	här	_	_	_	_	_	_	_	
+19-8	1001-1015	mandatperioden	_	_	_	_	_	_	_	
+19-9	1016-1019	och	_	_	_	_	_	_	_	
+19-10	1020-1035	förhoppningsvis	_	Target	19-11[35]	false	4	_	_	
+19-11	1036-1040	bara	*[35]	_	_	_	_	_	_	
+19-12	1041-1044	ett	*[35]	_	_	_	_	_	_	
+19-13	1045-1047	år	*[35]	_	_	_	_	_	_	
+19-14	1048-1052	till	*[35]	_	_	_	_	_	_	
+19-15	1053-1056	med	*[35]	_	_	_	_	_	_	
+19-16	1057-1063	Gustav	*[35]	_	_	_	_	_	_	
+19-17	1064-1072	Fridolin	*[35]	_	_	_	_	_	_	
+19-18	1073-1076	som	*[35]	_	_	_	_	_	_	
+19-19	1077-1096	utbildningsminister	*[35]	_	_	_	_	_	_	
+19-20	1096-1097	.	_	_	_	_	_	_	_	
+
+#Text=Mandatperioden har präglats av tydliga konflikter mellan en regering som avvecklat kunskapslinjen i skolan och en Allians som jobbat för att försvara och upprusta den.
+20-1	1098-1112	Mandatperioden	*	_	_	_	_	_	_	
+20-2	1113-1116	har	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-3	1117-1125	präglats	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-4	1126-1128	av	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-5	1129-1136	tydliga	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-6	1137-1147	konflikter	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-7	1148-1154	mellan	_	_	_	_	_	_	_	
+20-8	1155-1157	en	_	_	_	_	_	_	_	
+20-9	1158-1166	regering	_	_	_	_	_	_	_	
+20-10	1167-1170	som	_	_	_	_	_	_	_	
+20-11	1171-1180	avvecklat	_	_	_	_	_	_	_	
+20-12	1181-1195	kunskapslinjen	*[36]	_	_	_	_	_	20-25[0_36]	
+20-13	1196-1197	i	*[36]	_	_	_	_	_	_	
+20-14	1198-1204	skolan	*[36]	_	_	_	_	_	_	
+20-15	1205-1208	och	_	_	_	_	_	_	_	
+20-16	1209-1211	en	*[37]	_	_	_	_	_	_	
+20-17	1212-1219	Allians	*[37]	_	_	_	_	_	_	
+20-18	1220-1223	som	_	_	_	_	_	_	_	
+20-19	1224-1230	jobbat	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-20	1231-1234	för	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-21	1235-1238	att	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-22	1239-1247	försvara	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-23	1248-1251	och	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-24	1252-1260	upprusta	_	Source;Target[6]	20-16[37];20-25	false[6]	4[6]	_	_	
+20-25	1261-1264	den	*	_	_	_	_	_	_	
+20-26	1264-1265	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1267-1268	#	_	_	_	_	_	_	_	
+21-2	1268-1269	P	_	_	_	_	_	_	_	
+21-3	1270-1273	IMM	_	_	_	_	_	_	_	
+21-4	1273-1274	.	_	_	_	_	_	_	_	
+
+#Text=En tydlig skiljelinje har varit om våra sexåringar ska gå i förskoleklass eller i första klass.
+22-1	1276-1278	En	_	_	_	_	_	_	_	
+22-2	1279-1285	tydlig	_	_	_	_	_	_	_	
+22-3	1286-1297	skiljelinje	_	_	_	_	_	_	_	
+22-4	1298-1301	har	_	_	_	_	_	_	_	
+22-5	1302-1307	varit	_	_	_	_	_	_	_	
+22-6	1308-1310	om	_	_	_	_	_	_	_	
+22-7	1311-1315	våra	_	_	_	_	_	_	_	
+22-8	1316-1326	sexåringar	_	_	_	_	_	_	_	
+22-9	1327-1330	ska	_	_	_	_	_	_	_	
+22-10	1331-1333	gå	_	_	_	_	_	_	_	
+22-11	1334-1335	i	_	_	_	_	_	_	_	
+22-12	1336-1349	förskoleklass	_	_	_	_	_	_	_	
+22-13	1350-1355	eller	_	_	_	_	_	_	_	
+22-14	1356-1357	i	_	_	_	_	_	_	_	
+22-15	1358-1364	första	_	_	_	_	_	_	_	
+22-16	1365-1370	klass	_	_	_	_	_	_	_	
+22-17	1370-1371	.	_	_	_	_	_	_	_	
+
+#Text=När regeringen nu lägger fram sitt förslag om en obligatorisk förskoleklass ställs frågan om sexåringarnas lärande och kunskaper på sin spets.
+23-1	1372-1375	När	_	_	_	_	_	_	_	
+23-2	1376-1386	regeringen	*	_	_	_	_	_	_	
+23-3	1387-1389	nu	_	_	_	_	_	_	_	
+23-4	1390-1396	lägger	_	Source;Target[7]	23-2;23-9[38]	false[7]	4[7]	_	_	
+23-5	1397-1401	fram	_	Source;Target[7]	23-2;23-9[38]	false[7]	4[7]	_	_	
+23-6	1402-1406	sitt	_	Source;Target[7]	23-2;23-9[38]	false[7]	4[7]	_	_	
+23-7	1407-1414	förslag	_	Source;Target[7]	23-2;23-9[38]	false[7]	4[7]	_	_	
+23-8	1415-1417	om	_	Source;Target[7]	23-2;23-9[38]	false[7]	4[7]	_	_	
+23-9	1418-1420	en	*[38]	_	_	_	_	_	_	
+23-10	1421-1433	obligatorisk	*[38]	_	_	_	_	_	_	
+23-11	1434-1447	förskoleklass	*[38]	_	_	_	_	_	_	
+23-12	1448-1454	ställs	_	_	_	_	_	_	_	
+23-13	1455-1461	frågan	_	_	_	_	_	_	_	
+23-14	1462-1464	om	_	_	_	_	_	_	_	
+23-15	1465-1478	sexåringarnas	_	_	_	_	_	_	_	
+23-16	1479-1486	lärande	_	_	_	_	_	_	_	
+23-17	1487-1490	och	_	_	_	_	_	_	_	
+23-18	1491-1500	kunskaper	_	_	_	_	_	_	_	
+23-19	1501-1503	på	_	_	_	_	_	_	_	
+23-20	1504-1507	sin	_	_	_	_	_	_	_	
+23-21	1508-1513	spets	_	_	_	_	_	_	_	
+23-22	1513-1514	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen är överens om att regeringens förslag, att göra förskoleklassen obligatorisk, inte är tillräckligt långtgående.
+24-1	1515-1524	Alliansen	*	_	_	_	_	_	_	
+24-2	1525-1527	är	_	_	_	_	_	_	_	
+24-3	1528-1535	överens	_	_	_	_	_	_	_	
+24-4	1536-1538	om	_	_	_	_	_	_	_	
+24-5	1539-1542	att	_	_	_	_	_	_	_	
+24-6	1543-1554	regeringens	*[39]|*[40]	_	_	_	_	_	_	
+24-7	1555-1562	förslag	*[39]	Target;Source	24-9[41];24-6[40]	false	4	_	_	
+24-8	1562-1563	,	*[39]	_	_	_	_	_	_	
+24-9	1564-1567	att	*[39]|*[41]	_	_	_	_	_	_	
+24-10	1568-1572	göra	*[39]|*[41]	_	_	_	_	_	_	
+24-11	1573-1588	förskoleklassen	*[39]|*[41]	_	_	_	_	_	_	
+24-12	1589-1601	obligatorisk	*[39]|*[41]	_	_	_	_	_	_	
+24-13	1601-1602	,	_	_	_	_	_	_	_	
+24-14	1603-1607	inte	_	Target;Source[8]	24-6[39];24-1	false[8]	2[8]	_	_	
+24-15	1608-1610	är	_	Target;Source[8]	24-6[39];24-1	false[8]	2[8]	_	_	
+24-16	1611-1623	tillräckligt	_	Target;Source[8]	24-6[39];24-1	false[8]	2[8]	_	_	
+24-17	1624-1635	långtgående	_	Target;Source[8]	24-6[39];24-1	false[8]	2[8]	_	_	
+24-18	1635-1636	.	_	_	_	_	_	_	_	
+
+#Text=Alliansen vill istället införa ett fyraårigt lågstadium där sexåringarna får undervisning som följer grundskolans kunskapsmål.
+25-1	1637-1646	Alliansen	*	_	_	_	_	_	_	
+25-2	1647-1651	vill	_	Source;Target	25-1;25-5[42]	false	4	_	_	
+25-3	1652-1660	istället	_	_	_	_	_	_	_	
+25-4	1661-1667	införa	_	Source;Target	25-1;25-5[42]	false	4	25-2	_	
+25-5	1668-1671	ett	*[42]	_	_	_	_	_	_	
+25-6	1672-1681	fyraårigt	*[42]	_	_	_	_	_	_	
+25-7	1682-1692	lågstadium	*[42]	_	_	_	_	_	_	
+25-8	1693-1696	där	*[42]	_	_	_	_	_	_	
+25-9	1697-1709	sexåringarna	*[42]	_	_	_	_	_	_	
+25-10	1710-1713	får	*[42]	_	_	_	_	_	_	
+25-11	1714-1726	undervisning	*[42]	_	_	_	_	_	_	
+25-12	1727-1730	som	*[42]	_	_	_	_	_	_	
+25-13	1731-1737	följer	*[42]	_	_	_	_	_	_	
+25-14	1738-1750	grundskolans	*[42]	_	_	_	_	_	_	
+25-15	1751-1762	kunskapsmål	*[42]	_	_	_	_	_	_	
+25-16	1762-1763	.	_	_	_	_	_	_	_	
+
+#Text=Vi grundar detta på följande:.
+26-1	1764-1766	Vi	_	_	_	_	_	_	_	
+26-2	1767-1774	grundar	_	_	_	_	_	_	_	
+26-3	1775-1780	detta	_	_	_	_	_	_	_	
+26-4	1781-1783	på	_	_	_	_	_	_	_	
+26-5	1784-1792	följande	_	_	_	_	_	_	_	
+26-6	1792-1793	:	_	_	_	_	_	_	_	
+26-7	1793-1794	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=1.
+27-1	1796-1797	#	_	_	_	_	_	_	_	
+27-2	1797-1798	P	_	_	_	_	_	_	_	
+27-3	1799-1802	IMM	_	_	_	_	_	_	_	
+27-4	1802-1803	.	_	_	_	_	_	_	_	
+27-5	1805-1806	1	_	_	_	_	_	_	_	
+27-6	1806-1807	.	_	_	_	_	_	_	_	
+
+#Text=Sexåringarnas tid behöver präglas av lärande.
+28-1	1808-1821	Sexåringarnas	_	_	_	_	_	_	_	
+28-2	1822-1825	tid	_	_	_	_	_	_	_	
+28-3	1826-1833	behöver	_	_	_	_	_	_	_	
+28-4	1834-1841	präglas	_	_	_	_	_	_	_	
+28-5	1842-1844	av	_	_	_	_	_	_	_	
+28-6	1845-1852	lärande	_	_	_	_	_	_	_	
+28-7	1852-1853	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1855-1856	#	_	_	_	_	_	_	_	
+29-2	1856-1857	P	_	_	_	_	_	_	_	
+29-3	1858-1861	IMM	_	_	_	_	_	_	_	
+29-4	1861-1862	.	_	_	_	_	_	_	_	
+
+#Text=Svensk skola behöver mer fokus på kunskap – inte mindre.
+30-1	1864-1870	Svensk	_	_	_	_	_	_	_	
+30-2	1871-1876	skola	_	_	_	_	_	_	_	
+30-3	1877-1884	behöver	_	_	_	_	_	_	_	
+30-4	1885-1888	mer	_	_	_	_	_	_	_	
+30-5	1889-1894	fokus	_	_	_	_	_	_	_	
+30-6	1895-1897	på	_	_	_	_	_	_	_	
+30-7	1898-1905	kunskap	_	_	_	_	_	_	_	
+30-8	1906-1907	–	_	_	_	_	_	_	_	
+30-9	1908-1912	inte	_	_	_	_	_	_	_	
+30-10	1913-1919	mindre	_	_	_	_	_	_	_	
+30-11	1919-1920	.	_	_	_	_	_	_	_	
+
+#Text=All forskning pekar på att tidigt stöd i skolan är det som gör störst skillnad.
+31-1	1921-1924	All	_	_	_	_	_	_	_	
+31-2	1925-1934	forskning	_	_	_	_	_	_	_	
+31-3	1935-1940	pekar	_	_	_	_	_	_	_	
+31-4	1941-1943	på	_	_	_	_	_	_	_	
+31-5	1944-1947	att	_	_	_	_	_	_	_	
+31-6	1948-1954	tidigt	_	_	_	_	_	_	_	
+31-7	1955-1959	stöd	_	_	_	_	_	_	_	
+31-8	1960-1961	i	_	_	_	_	_	_	_	
+31-9	1962-1968	skolan	_	_	_	_	_	_	_	
+31-10	1969-1971	är	_	_	_	_	_	_	_	
+31-11	1972-1975	det	_	_	_	_	_	_	_	
+31-12	1976-1979	som	_	_	_	_	_	_	_	
+31-13	1980-1983	gör	_	_	_	_	_	_	_	
+31-14	1984-1990	störst	_	_	_	_	_	_	_	
+31-15	1991-1999	skillnad	_	_	_	_	_	_	_	
+31-16	1999-2000	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill därför ge sexåringarna mer och bättre kunskaper i sin läs-skriv, och räkneinlärning så att de får en bättre start i skolan.
+32-1	2001-2003	Vi	_	_	_	_	_	_	_	
+32-2	2004-2008	vill	_	_	_	_	_	_	_	
+32-3	2009-2015	därför	_	_	_	_	_	_	_	
+32-4	2016-2018	ge	_	_	_	_	_	_	_	
+32-5	2019-2031	sexåringarna	_	_	_	_	_	_	_	
+32-6	2032-2035	mer	_	_	_	_	_	_	_	
+32-7	2036-2039	och	_	_	_	_	_	_	_	
+32-8	2040-2046	bättre	_	_	_	_	_	_	_	
+32-9	2047-2056	kunskaper	_	_	_	_	_	_	_	
+32-10	2057-2058	i	_	_	_	_	_	_	_	
+32-11	2059-2062	sin	_	_	_	_	_	_	_	
+32-12	2063-2072	läs-skriv	_	_	_	_	_	_	_	
+32-13	2072-2073	,	_	_	_	_	_	_	_	
+32-14	2074-2077	och	_	_	_	_	_	_	_	
+32-15	2078-2092	räkneinlärning	_	_	_	_	_	_	_	
+32-16	2093-2095	så	_	_	_	_	_	_	_	
+32-17	2096-2099	att	_	_	_	_	_	_	_	
+32-18	2100-2102	de	_	_	_	_	_	_	_	
+32-19	2103-2106	får	_	Source;Target[9]	32-25;32-23[43]	false[9]	4[9]	_	_	
+32-20	2107-2109	en	_	Source;Target[9]	32-25;32-23[43]	false[9]	4[9]	_	_	
+32-21	2110-2116	bättre	_	Source;Target[9]	32-25;32-23[43]	false[9]	4[9]	_	_	
+32-22	2117-2122	start	_	Source;Target[9]	32-25;32-23[43]	false[9]	4[9]	_	_	
+32-23	2123-2124	i	*[43]	_	_	_	_	_	_	
+32-24	2125-2131	skolan	*[43]	_	_	_	_	_	_	
+32-25	2131-2132	.	*	_	_	_	_	_	_	
+
+#Text=Alliansens målsättning med en tidigare skolstart är att stärka barnens tidiga inlärning.
+33-1	2133-2143	Alliansens	*[44]|*[45]	_	_	_	_	_	_	
+33-2	2144-2155	målsättning	*[44]	Target;Source	33-1[44];33-1[45]	false	4	_	_	
+33-3	2156-2159	med	*[44]	_	_	_	_	_	_	
+33-4	2160-2162	en	*[44]	_	_	_	_	_	_	
+33-5	2163-2171	tidigare	*[44]	_	_	_	_	_	_	
+33-6	2172-2181	skolstart	*[44]	_	_	_	_	_	_	
+33-7	2182-2184	är	*[44]	Target;Source[10]	33-1[44];33-1[45]	false[10]	4[10]	33-2[0_10]	_	
+33-8	2185-2188	att	*[44]	Target;Source[10]	33-1[44];33-1[45]	false[10]	4[10]	_	_	
+33-9	2189-2195	stärka	*[44]	Target;Source[10]	33-1[44];33-1[45]	false[10]	4[10]	_	_	
+33-10	2196-2203	barnens	*[44]	_	_	_	_	_	_	
+33-11	2204-2210	tidiga	*[44]	_	_	_	_	_	_	
+33-12	2211-2220	inlärning	*[44]	_	_	_	_	_	_	
+33-13	2220-2221	.	_	_	_	_	_	_	_	
+
+#Text=En sådan målsättning saknar regeringen.
+34-1	2222-2224	En	_	Target[11]	34-5	false[11]	2[11]	_	_	
+34-2	2225-2230	sådan	_	Target[11]	34-5	false[11]	2[11]	_	_	
+34-3	2231-2242	målsättning	_	Target[11]	34-5	false[11]	2[11]	_	_	
+34-4	2243-2249	saknar	_	Target[11]	34-5	false[11]	2[11]	_	_	
+34-5	2250-2260	regeringen	*	_	_	_	_	_	_	
+34-6	2260-2261	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2263-2264	#	_	_	_	_	_	_	_	
+35-2	2264-2265	P	_	_	_	_	_	_	_	
+35-3	2266-2269	IMM	_	_	_	_	_	_	_	
+35-4	2269-2270	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill vända på dagens ordning där tid och resurser läggs på att rätta till svagheter i elevernas kunskaper i åttan eller nian.
+36-1	2272-2274	Vi	_	_	_	_	_	_	_	
+36-2	2275-2279	vill	_	_	_	_	_	_	_	
+36-3	2280-2285	vända	_	_	_	_	_	_	_	
+36-4	2286-2288	på	_	_	_	_	_	_	_	
+36-5	2289-2295	dagens	_	_	_	_	_	_	_	
+36-6	2296-2303	ordning	_	_	_	_	_	_	_	
+36-7	2304-2307	där	_	_	_	_	_	_	_	
+36-8	2308-2311	tid	_	_	_	_	_	_	_	
+36-9	2312-2315	och	_	_	_	_	_	_	_	
+36-10	2316-2324	resurser	_	_	_	_	_	_	_	
+36-11	2325-2330	läggs	_	_	_	_	_	_	_	
+36-12	2331-2333	på	_	_	_	_	_	_	_	
+36-13	2334-2337	att	_	_	_	_	_	_	_	
+36-14	2338-2343	rätta	_	_	_	_	_	_	_	
+36-15	2344-2348	till	_	_	_	_	_	_	_	
+36-16	2349-2358	svagheter	_	_	_	_	_	_	_	
+36-17	2359-2360	i	_	_	_	_	_	_	_	
+36-18	2361-2370	elevernas	_	_	_	_	_	_	_	
+36-19	2371-2380	kunskaper	_	_	_	_	_	_	_	
+36-20	2381-2382	i	_	_	_	_	_	_	_	
+36-21	2383-2388	åttan	_	_	_	_	_	_	_	
+36-22	2389-2394	eller	_	_	_	_	_	_	_	
+36-23	2395-2399	nian	_	_	_	_	_	_	_	
+36-24	2399-2400	.	_	_	_	_	_	_	_	
+
+#Text=Det stödet behöver komma mycket tidigare.
+37-1	2401-2404	Det	_	_	_	_	_	_	_	
+37-2	2405-2411	stödet	_	_	_	_	_	_	_	
+37-3	2412-2419	behöver	_	_	_	_	_	_	_	
+37-4	2420-2425	komma	_	_	_	_	_	_	_	
+37-5	2426-2432	mycket	_	_	_	_	_	_	_	
+37-6	2433-2441	tidigare	_	_	_	_	_	_	_	
+37-7	2441-2442	.	_	_	_	_	_	_	_	
+
+#Text=Till skillnad från dagens förskoleklass där eleverna och lärarna ofta skiljs åt efter förskoleklassen innebär en skolstart från sex år att lågstadiet blir fyraårigt.
+38-1	2443-2447	Till	_	_	_	_	_	_	_	
+38-2	2448-2456	skillnad	_	_	_	_	_	_	_	
+38-3	2457-2461	från	_	_	_	_	_	_	_	
+38-4	2462-2468	dagens	_	_	_	_	_	_	_	
+38-5	2469-2482	förskoleklass	_	_	_	_	_	_	_	
+38-6	2483-2486	där	_	_	_	_	_	_	_	
+38-7	2487-2495	eleverna	_	_	_	_	_	_	_	
+38-8	2496-2499	och	_	_	_	_	_	_	_	
+38-9	2500-2507	lärarna	_	_	_	_	_	_	_	
+38-10	2508-2512	ofta	_	_	_	_	_	_	_	
+38-11	2513-2519	skiljs	_	_	_	_	_	_	_	
+38-12	2520-2522	åt	_	_	_	_	_	_	_	
+38-13	2523-2528	efter	_	_	_	_	_	_	_	
+38-14	2529-2544	förskoleklassen	_	_	_	_	_	_	_	
+38-15	2545-2552	innebär	_	_	_	_	_	_	_	
+38-16	2553-2555	en	_	_	_	_	_	_	_	
+38-17	2556-2565	skolstart	_	_	_	_	_	_	_	
+38-18	2566-2570	från	_	_	_	_	_	_	_	
+38-19	2571-2574	sex	_	_	_	_	_	_	_	
+38-20	2575-2577	år	_	_	_	_	_	_	_	
+38-21	2578-2581	att	_	_	_	_	_	_	_	
+38-22	2582-2592	lågstadiet	_	_	_	_	_	_	_	
+38-23	2593-2597	blir	_	_	_	_	_	_	_	
+38-24	2598-2607	fyraårigt	_	_	_	_	_	_	_	
+38-25	2607-2608	.	_	_	_	_	_	_	_	
+
+#Text=Det innebär färre övergångar mellan olika skolformer och att elever och lärare får fyra år tillsammans, istället för dagens tre år.
+39-1	2609-2612	Det	_	_	_	_	_	_	_	
+39-2	2613-2620	innebär	_	_	_	_	_	_	_	
+39-3	2621-2626	färre	_	_	_	_	_	_	_	
+39-4	2627-2637	övergångar	_	_	_	_	_	_	_	
+39-5	2638-2644	mellan	_	_	_	_	_	_	_	
+39-6	2645-2650	olika	_	_	_	_	_	_	_	
+39-7	2651-2661	skolformer	_	_	_	_	_	_	_	
+39-8	2662-2665	och	_	_	_	_	_	_	_	
+39-9	2666-2669	att	_	_	_	_	_	_	_	
+39-10	2670-2676	elever	_	_	_	_	_	_	_	
+39-11	2677-2680	och	_	_	_	_	_	_	_	
+39-12	2681-2687	lärare	_	_	_	_	_	_	_	
+39-13	2688-2691	får	_	_	_	_	_	_	_	
+39-14	2692-2696	fyra	_	_	_	_	_	_	_	
+39-15	2697-2699	år	_	_	_	_	_	_	_	
+39-16	2700-2711	tillsammans	_	_	_	_	_	_	_	
+39-17	2711-2712	,	_	_	_	_	_	_	_	
+39-18	2713-2721	istället	_	_	_	_	_	_	_	
+39-19	2722-2725	för	_	_	_	_	_	_	_	
+39-20	2726-2732	dagens	_	_	_	_	_	_	_	
+39-21	2733-2736	tre	_	_	_	_	_	_	_	
+39-22	2737-2739	år	_	_	_	_	_	_	_	
+39-23	2739-2740	.	_	_	_	_	_	_	_	
+
+#Text=Det ökar lärarnas möjligheter att följa elevernas kunskapsinlärning redan från start och det innebär också att eleverna snabbare kan få bättre stöd och hjälp i sitt lärande.
+40-1	2741-2744	Det	_	_	_	_	_	_	_	
+40-2	2745-2749	ökar	_	_	_	_	_	_	_	
+40-3	2750-2758	lärarnas	_	_	_	_	_	_	_	
+40-4	2759-2770	möjligheter	_	_	_	_	_	_	_	
+40-5	2771-2774	att	_	_	_	_	_	_	_	
+40-6	2775-2780	följa	_	_	_	_	_	_	_	
+40-7	2781-2790	elevernas	_	_	_	_	_	_	_	
+40-8	2791-2808	kunskapsinlärning	_	_	_	_	_	_	_	
+40-9	2809-2814	redan	_	_	_	_	_	_	_	
+40-10	2815-2819	från	_	_	_	_	_	_	_	
+40-11	2820-2825	start	_	_	_	_	_	_	_	
+40-12	2826-2829	och	_	_	_	_	_	_	_	
+40-13	2830-2833	det	_	_	_	_	_	_	_	
+40-14	2834-2841	innebär	_	_	_	_	_	_	_	
+40-15	2842-2847	också	_	_	_	_	_	_	_	
+40-16	2848-2851	att	_	_	_	_	_	_	_	
+40-17	2852-2860	eleverna	_	_	_	_	_	_	_	
+40-18	2861-2869	snabbare	_	_	_	_	_	_	_	
+40-19	2870-2873	kan	_	_	_	_	_	_	_	
+40-20	2874-2876	få	_	_	_	_	_	_	_	
+40-21	2877-2883	bättre	_	_	_	_	_	_	_	
+40-22	2884-2888	stöd	_	_	_	_	_	_	_	
+40-23	2889-2892	och	_	_	_	_	_	_	_	
+40-24	2893-2898	hjälp	_	_	_	_	_	_	_	
+40-25	2899-2900	i	_	_	_	_	_	_	_	
+40-26	2901-2905	sitt	_	_	_	_	_	_	_	
+40-27	2906-2913	lärande	_	_	_	_	_	_	_	
+40-28	2913-2914	.	_	_	_	_	_	_	_	
+
+#Text=Alliansens förslag innebär också att våra sexåringar till skillnad från regeringens förslag direkt får del av de kunskapsmål och den utvärdering som framgår av läroplanen, den kompetens som hör lågstadiet till och rätt till särskilt stöd i enlighet med skollagen.
+41-1	2915-2925	Alliansens	*	_	_	_	_	_	_	
+41-2	2926-2933	förslag	_	Source	41-1	false	4	_	_	
+41-3	2934-2941	innebär	_	_	_	_	_	_	_	
+41-4	2942-2947	också	_	_	_	_	_	_	_	
+41-5	2948-2951	att	_	_	_	_	_	_	_	
+41-6	2952-2956	våra	_	_	_	_	_	_	_	
+41-7	2957-2967	sexåringar	_	_	_	_	_	_	_	
+41-8	2968-2972	till	_	_	_	_	_	_	_	
+41-9	2973-2981	skillnad	_	_	_	_	_	_	_	
+41-10	2982-2986	från	_	_	_	_	_	_	_	
+41-11	2987-2998	regeringens	_	_	_	_	_	_	_	
+41-12	2999-3006	förslag	_	_	_	_	_	_	_	
+41-13	3007-3013	direkt	_	_	_	_	_	_	_	
+41-14	3014-3017	får	_	_	_	_	_	_	_	
+41-15	3018-3021	del	_	_	_	_	_	_	_	
+41-16	3022-3024	av	_	_	_	_	_	_	_	
+41-17	3025-3027	de	_	_	_	_	_	_	_	
+41-18	3028-3039	kunskapsmål	_	_	_	_	_	_	_	
+41-19	3040-3043	och	_	_	_	_	_	_	_	
+41-20	3044-3047	den	_	_	_	_	_	_	_	
+41-21	3048-3059	utvärdering	_	_	_	_	_	_	_	
+41-22	3060-3063	som	_	_	_	_	_	_	_	
+41-23	3064-3071	framgår	_	_	_	_	_	_	_	
+41-24	3072-3074	av	_	_	_	_	_	_	_	
+41-25	3075-3085	läroplanen	_	_	_	_	_	_	_	
+41-26	3085-3086	,	_	_	_	_	_	_	_	
+41-27	3087-3090	den	_	_	_	_	_	_	_	
+41-28	3091-3100	kompetens	_	_	_	_	_	_	_	
+41-29	3101-3104	som	_	_	_	_	_	_	_	
+41-30	3105-3108	hör	_	_	_	_	_	_	_	
+41-31	3109-3119	lågstadiet	_	_	_	_	_	_	_	
+41-32	3120-3124	till	_	_	_	_	_	_	_	
+41-33	3125-3128	och	_	_	_	_	_	_	_	
+41-34	3129-3133	rätt	_	_	_	_	_	_	_	
+41-35	3134-3138	till	_	_	_	_	_	_	_	
+41-36	3139-3147	särskilt	_	_	_	_	_	_	_	
+41-37	3148-3152	stöd	_	_	_	_	_	_	_	
+41-38	3153-3154	i	_	_	_	_	_	_	_	
+41-39	3155-3163	enlighet	_	_	_	_	_	_	_	
+41-40	3164-3167	med	_	_	_	_	_	_	_	
+41-41	3168-3177	skollagen	_	_	_	_	_	_	_	
+41-42	3177-3178	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3180-3181	#	_	_	_	_	_	_	_	
+42-2	3181-3182	P	_	_	_	_	_	_	_	
+42-3	3183-3186	IMM	_	_	_	_	_	_	_	
+42-4	3186-3187	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+43-1	3189-3202	Skräddarsydda	_	_	_	_	_	_	_	
+43-2	3203-3209	kurser	_	_	_	_	_	_	_	
+43-3	3210-3211	i	_	_	_	_	_	_	_	
+43-4	3212-3217	ämnen	_	_	_	_	_	_	_	
+43-5	3218-3221	som	_	_	_	_	_	_	_	
+43-6	3222-3233	intresserar	_	_	_	_	_	_	_	
+43-7	3234-3237	och	_	_	_	_	_	_	_	
+43-8	3238-3247	engagerar	_	_	_	_	_	_	_	
+43-9	3248-3252	både	_	_	_	_	_	_	_	
+43-10	3253-3258	kropp	_	_	_	_	_	_	_	
+43-11	3259-3262	och	_	_	_	_	_	_	_	
+43-12	3263-3267	själ	_	_	_	_	_	_	_	
+43-13	3267-3268	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=2.
+44-1	3270-3271	#	_	_	_	_	_	_	_	
+44-2	3271-3272	P	_	_	_	_	_	_	_	
+44-3	3273-3276	IMM	_	_	_	_	_	_	_	
+44-4	3276-3277	.	_	_	_	_	_	_	_	
+44-5	3279-3280	2	_	_	_	_	_	_	_	
+44-6	3280-3281	.	_	_	_	_	_	_	_	
+
+#Text=Förskoleklassen håller en ojämn kvalitet och har blivit en isolerad ö.
+45-1	3282-3297	Förskoleklassen	*	_	_	_	_	_	_	
+45-2	3298-3304	håller	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-3	3305-3307	en	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-4	3308-3313	ojämn	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-5	3314-3322	kvalitet	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-6	3323-3326	och	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-7	3327-3330	har	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-8	3331-3337	blivit	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-9	3338-3340	en	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-10	3341-3349	isolerad	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-11	3350-3351	ö	_	Target[12]	45-1	false[12]	2[12]	_	_	
+45-12	3351-3352	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3354-3355	#	_	_	_	_	_	_	_	
+46-2	3355-3356	P	_	_	_	_	_	_	_	
+46-3	3357-3360	IMM	_	_	_	_	_	_	_	
+46-4	3360-3361	.	_	_	_	_	_	_	_	
+
+#Text=Förskoleklassen håller en ojämn kvalitet och har blivit en isolerad ö.
+47-1	3363-3378	Förskoleklassen	*	_	_	_	_	_	_	
+47-2	3379-3385	håller	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-3	3386-3388	en	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-4	3389-3394	ojämn	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-5	3395-3403	kvalitet	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-6	3404-3407	och	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-7	3408-3411	har	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-8	3412-3418	blivit	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-9	3419-3421	en	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-10	3422-3430	isolerad	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-11	3431-3432	ö	_	Target[13]	47-1	false[13]	2[13]	_	_	
+47-12	3432-3433	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3435-3436	#	_	_	_	_	_	_	_	
+48-2	3436-3437	P	_	_	_	_	_	_	_	
+48-3	3438-3441	IMM	_	_	_	_	_	_	_	
+48-4	3441-3442	.	_	_	_	_	_	_	_	
+
+#Text=Förskoleklass är en skolform som fyller 20 år nästa år.
+49-1	3444-3457	Förskoleklass	_	_	_	_	_	_	_	
+49-2	3458-3460	är	_	_	_	_	_	_	_	
+49-3	3461-3463	en	_	_	_	_	_	_	_	
+49-4	3464-3472	skolform	_	_	_	_	_	_	_	
+49-5	3473-3476	som	_	_	_	_	_	_	_	
+49-6	3477-3483	fyller	_	_	_	_	_	_	_	
+49-7	3484-3486	20	_	_	_	_	_	_	_	
+49-8	3487-3489	år	_	_	_	_	_	_	_	
+49-9	3490-3495	nästa	_	_	_	_	_	_	_	
+49-10	3496-3498	år	_	_	_	_	_	_	_	
+49-11	3498-3499	.	_	_	_	_	_	_	_	
+
+#Text=När förskoleklassen infördes 1998 var ambitionen att det skulle bli en brygga mellan förskolans lek och grundskolans lärande.
+50-1	3500-3503	När	_	_	_	_	_	_	_	
+50-2	3504-3519	förskoleklassen	_	_	_	_	_	_	_	
+50-3	3520-3528	infördes	_	_	_	_	_	_	_	
+50-4	3529-3533	1998	_	_	_	_	_	_	_	
+50-5	3534-3537	var	_	_	_	_	_	_	_	
+50-6	3538-3548	ambitionen	*[46]	_	_	_	_	_	51-1[47_46]	
+50-7	3549-3552	att	*[46]	_	_	_	_	_	_	
+50-8	3553-3556	det	*[46]	_	_	_	_	_	_	
+50-9	3557-3563	skulle	*[46]	_	_	_	_	_	_	
+50-10	3564-3567	bli	*[46]	_	_	_	_	_	_	
+50-11	3568-3570	en	*[46]	_	_	_	_	_	_	
+50-12	3571-3577	brygga	*[46]	_	_	_	_	_	_	
+50-13	3578-3584	mellan	*[46]	_	_	_	_	_	_	
+50-14	3585-3595	förskolans	*[46]	_	_	_	_	_	_	
+50-15	3596-3599	lek	*[46]	_	_	_	_	_	_	
+50-16	3600-3603	och	*[46]	_	_	_	_	_	_	
+50-17	3604-3616	grundskolans	*[46]	_	_	_	_	_	_	
+50-18	3617-3624	lärande	*[46]	_	_	_	_	_	_	
+50-19	3624-3625	.	_	_	_	_	_	_	_	
+
+#Text=Den ambitionen var både god och rätt då, men i dag visar tyvärr utvärderingar att det har varit svårt att förena de två delarna.
+51-1	3626-3629	Den	*[47]	_	_	_	_	_	_	
+51-2	3630-3640	ambitionen	*[47]	_	_	_	_	_	_	
+51-3	3641-3644	var	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-4	3645-3649	både	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-5	3650-3653	god	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-6	3654-3657	och	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-7	3658-3662	rätt	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-8	3663-3665	då	_	Target[14]	51-1[47]	false[14]	4[14]	_	_	
+51-9	3665-3666	,	_	_	_	_	_	_	_	
+51-10	3667-3670	men	_	_	_	_	_	_	_	
+51-11	3671-3672	i	*[48]	_	_	_	_	_	_	
+51-12	3673-3676	dag	*[48]	_	_	_	_	_	_	
+51-13	3677-3682	visar	*[48]	_	_	_	_	_	_	
+51-14	3683-3689	tyvärr	*[48]	Target	51-11[48]	false	2	_	_	
+51-15	3690-3703	utvärderingar	*[48]	_	_	_	_	_	_	
+51-16	3704-3707	att	*[48]	_	_	_	_	_	_	
+51-17	3708-3711	det	*[48]	_	_	_	_	_	_	
+51-18	3712-3715	har	*[48]	_	_	_	_	_	_	
+51-19	3716-3721	varit	*[48]	_	_	_	_	_	_	
+51-20	3722-3727	svårt	*[48]	_	_	_	_	_	_	
+51-21	3728-3731	att	*[48]	_	_	_	_	_	_	
+51-22	3732-3738	förena	*[48]	_	_	_	_	_	_	
+51-23	3739-3741	de	*[48]	_	_	_	_	_	_	
+51-24	3742-3745	två	*[48]	_	_	_	_	_	_	
+51-25	3746-3753	delarna	*[48]	_	_	_	_	_	_	
+51-26	3753-3754	.	_	_	_	_	_	_	_	
+
+#Text=Antingen har förskoleklassen blivit inriktad på lek och ostrukturerad undervisning eller så har verksamheten fokuserat på lärande och kunskap.
+52-1	3755-3763	Antingen	_	_	_	_	_	_	_	
+52-2	3764-3767	har	_	_	_	_	_	_	_	
+52-3	3768-3783	förskoleklassen	_	_	_	_	_	_	_	
+52-4	3784-3790	blivit	_	_	_	_	_	_	_	
+52-5	3791-3799	inriktad	_	_	_	_	_	_	_	
+52-6	3800-3802	på	_	_	_	_	_	_	_	
+52-7	3803-3806	lek	_	_	_	_	_	_	_	
+52-8	3807-3810	och	_	_	_	_	_	_	_	
+52-9	3811-3824	ostrukturerad	*[49]	Target	52-9[49]	false	2	_	_	
+52-10	3825-3837	undervisning	*[49]	_	_	_	_	_	_	
+52-11	3838-3843	eller	_	_	_	_	_	_	_	
+52-12	3844-3846	så	_	_	_	_	_	_	_	
+52-13	3847-3850	har	_	_	_	_	_	_	_	
+52-14	3851-3863	verksamheten	_	_	_	_	_	_	_	
+52-15	3864-3873	fokuserat	_	_	_	_	_	_	_	
+52-16	3874-3876	på	_	_	_	_	_	_	_	
+52-17	3877-3884	lärande	_	_	_	_	_	_	_	
+52-18	3885-3888	och	_	_	_	_	_	_	_	
+52-19	3889-3896	kunskap	_	_	_	_	_	_	_	
+52-20	3896-3897	.	_	_	_	_	_	_	_	
+
+#Text=Detta har gjort det svårt att säkerställa en likvärdig förskoleklass i hela landet.
+53-1	3898-3903	Detta	_	_	_	_	_	_	_	
+53-2	3904-3907	har	_	_	_	_	_	_	_	
+53-3	3908-3913	gjort	_	_	_	_	_	_	_	
+53-4	3914-3917	det	_	_	_	_	_	_	_	
+53-5	3918-3923	svårt	_	_	_	_	_	_	_	
+53-6	3924-3927	att	_	_	_	_	_	_	_	
+53-7	3928-3939	säkerställa	_	_	_	_	_	_	_	
+53-8	3940-3942	en	_	_	_	_	_	_	_	
+53-9	3943-3952	likvärdig	_	_	_	_	_	_	_	
+53-10	3953-3966	förskoleklass	_	_	_	_	_	_	_	
+53-11	3967-3968	i	_	_	_	_	_	_	_	
+53-12	3969-3973	hela	_	_	_	_	_	_	_	
+53-13	3974-3980	landet	_	_	_	_	_	_	_	
+53-14	3980-3981	.	_	_	_	_	_	_	_	
+
+#Text=Det som skulle förena förskolan och grundskolan har istället på många håll blivit en isolerad ö mellan för- och grundskolan.
+54-1	3982-3985	Det	_	_	_	_	_	_	_	
+54-2	3986-3989	som	_	_	_	_	_	_	_	
+54-3	3990-3996	skulle	_	_	_	_	_	_	_	
+54-4	3997-4003	förena	_	_	_	_	_	_	_	
+54-5	4004-4013	förskolan	_	_	_	_	_	_	_	
+54-6	4014-4017	och	_	_	_	_	_	_	_	
+54-7	4018-4029	grundskolan	_	_	_	_	_	_	_	
+54-8	4030-4033	har	_	_	_	_	_	_	_	
+54-9	4034-4042	istället	_	_	_	_	_	_	_	
+54-10	4043-4045	på	_	_	_	_	_	_	_	
+54-11	4046-4051	många	_	_	_	_	_	_	_	
+54-12	4052-4056	håll	_	_	_	_	_	_	_	
+54-13	4057-4063	blivit	_	_	_	_	_	_	_	
+54-14	4064-4066	en	_	_	_	_	_	_	_	
+54-15	4067-4075	isolerad	_	_	_	_	_	_	_	
+54-16	4076-4077	ö	_	_	_	_	_	_	_	
+54-17	4078-4084	mellan	_	_	_	_	_	_	_	
+54-18	4085-4088	för	_	_	_	_	_	_	_	
+54-19	4088-4089	-	_	_	_	_	_	_	_	
+54-20	4090-4093	och	_	_	_	_	_	_	_	
+54-21	4094-4105	grundskolan	_	_	_	_	_	_	_	
+54-22	4105-4106	.	*	_	_	_	_	_	_	
+
+#Text=Resultatet är att värdefull tid i våra sexåringars liv går förlorad.
+55-1	4107-4117	Resultatet	_	_	_	_	_	_	_	
+55-2	4118-4120	är	_	_	_	_	_	_	_	
+55-3	4121-4124	att	_	_	_	_	_	_	_	
+55-4	4125-4134	värdefull	_	Target[15]	54-22	false[15]	2[15]	_	_	
+55-5	4135-4138	tid	_	Target[15]	54-22	false[15]	2[15]	_	_	
+55-6	4139-4140	i	_	_	_	_	_	_	_	
+55-7	4141-4145	våra	_	_	_	_	_	_	_	
+55-8	4146-4157	sexåringars	_	_	_	_	_	_	_	
+55-9	4158-4161	liv	_	_	_	_	_	_	_	
+55-10	4162-4165	går	_	Target[16]	54-22	false[16]	2[16]	55-4[15_16]	_	
+55-11	4166-4174	förlorad	_	Target[16]	54-22	false[16]	2[16]	_	_	
+55-12	4174-4175	.	_	_	_	_	_	_	_	
+
+#Text=Det är tid som kan användas till att barnen istället får bättre grunder i sin läs-, skriv och räkneinlärning.
+56-1	4176-4179	Det	_	_	_	_	_	_	_	
+56-2	4180-4182	är	_	_	_	_	_	_	_	
+56-3	4183-4186	tid	_	_	_	_	_	_	_	
+56-4	4187-4190	som	_	_	_	_	_	_	_	
+56-5	4191-4194	kan	_	_	_	_	_	_	_	
+56-6	4195-4203	användas	_	_	_	_	_	_	_	
+56-7	4204-4208	till	_	_	_	_	_	_	_	
+56-8	4209-4212	att	_	_	_	_	_	_	_	
+56-9	4213-4219	barnen	_	_	_	_	_	_	_	
+56-10	4220-4228	istället	_	_	_	_	_	_	_	
+56-11	4229-4232	får	_	Source[17]	56-22	false[17]	4[17]	_	_	
+56-12	4233-4239	bättre	_	Source[17]	56-22	false[17]	4[17]	_	_	
+56-13	4240-4247	grunder	_	Source[17]	56-22	false[17]	4[17]	_	_	
+56-14	4248-4249	i	_	_	_	_	_	_	_	
+56-15	4250-4253	sin	_	_	_	_	_	_	_	
+56-16	4254-4257	läs	_	_	_	_	_	_	_	
+56-17	4257-4258	-	_	_	_	_	_	_	_	
+56-18	4258-4259	,	_	_	_	_	_	_	_	
+56-19	4260-4265	skriv	_	_	_	_	_	_	_	
+56-20	4266-4269	och	_	_	_	_	_	_	_	
+56-21	4270-4284	räkneinlärning	_	_	_	_	_	_	_	
+56-22	4284-4285	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=3.
+57-1	4287-4288	#	_	_	_	_	_	_	_	
+57-2	4288-4289	P	_	_	_	_	_	_	_	
+57-3	4290-4293	IMM	_	_	_	_	_	_	_	
+57-4	4293-4294	.	_	_	_	_	_	_	_	
+57-5	4296-4297	3	_	_	_	_	_	_	_	
+57-6	4297-4298	.	_	_	_	_	_	_	_	
+
+#Text=Sexåringarnas lärare måste ha kunskaper i läs-skriv,- och räkneinlärning.
+58-1	4299-4312	Sexåringarnas	_	_	_	_	_	_	_	
+58-2	4313-4319	lärare	_	_	_	_	_	_	_	
+58-3	4320-4325	måste	_	_	_	_	_	_	_	
+58-4	4326-4328	ha	_	_	_	_	_	_	_	
+58-5	4329-4338	kunskaper	_	_	_	_	_	_	_	
+58-6	4339-4340	i	_	_	_	_	_	_	_	
+58-7	4341-4350	läs-skriv	_	_	_	_	_	_	_	
+58-8	4350-4351	,	_	_	_	_	_	_	_	
+58-9	4351-4352	-	_	_	_	_	_	_	_	
+58-10	4353-4356	och	_	_	_	_	_	_	_	
+58-11	4357-4371	räkneinlärning	_	_	_	_	_	_	_	
+58-12	4371-4372	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4374-4375	#	_	_	_	_	_	_	_	
+59-2	4375-4376	P	_	_	_	_	_	_	_	
+59-3	4377-4380	IMM	_	_	_	_	_	_	_	
+59-4	4380-4381	.	_	_	_	_	_	_	_	
+
+#Text=En förutsättning för att en tidigare skolstart ska bli framgångsrik och gynna barnens lärande i skolan är att lärarna i den nya årskurs ett har rätt kvalifikationer och rätt kompetens.
+60-1	4383-4385	En	*[50]	_	_	_	_	_	_	
+60-2	4386-4399	förutsättning	*[50]	_	_	_	_	_	_	
+60-3	4400-4403	för	*[50]	_	_	_	_	_	_	
+60-4	4404-4407	att	*[50]	_	_	_	_	_	_	
+60-5	4408-4410	en	*[50]	_	_	_	_	_	_	
+60-6	4411-4419	tidigare	*[50]	_	_	_	_	_	_	
+60-7	4420-4429	skolstart	*[50]	_	_	_	_	_	_	
+60-8	4430-4433	ska	*[50]	Target[18]	60-1[50]	false[18]	4[18]	_	_	
+60-9	4434-4437	bli	*[50]	Target[18]	60-1[50]	false[18]	4[18]	_	_	
+60-10	4438-4450	framgångsrik	*[50]	Target[18]	60-1[50]	false[18]	4[18]	_	_	
+60-11	4451-4454	och	*[50]	Target[18]	60-1[50]	false[18]	4[18]	_	_	
+60-12	4455-4460	gynna	*[50]	Target[18]	60-1[50]	false[18]	4[18]	_	_	
+60-13	4461-4468	barnens	*[50]	_	_	_	_	_	_	
+60-14	4469-4476	lärande	*[50]	_	_	_	_	_	_	
+60-15	4477-4478	i	*[50]	_	_	_	_	_	_	
+60-16	4479-4485	skolan	*[50]	_	_	_	_	_	_	
+60-17	4486-4488	är	*[50]	_	_	_	_	_	_	
+60-18	4489-4492	att	*[50]	_	_	_	_	_	_	
+60-19	4493-4500	lärarna	*[50]|*[51]	_	_	_	_	_	_	
+60-20	4501-4502	i	*[50]|*[51]	_	_	_	_	_	_	
+60-21	4503-4506	den	*[50]|*[51]	_	_	_	_	_	_	
+60-22	4507-4510	nya	*[50]|*[51]	_	_	_	_	_	_	
+60-23	4511-4518	årskurs	*[50]|*[51]	_	_	_	_	_	_	
+60-24	4519-4522	ett	*[50]|*[51]	_	_	_	_	_	_	
+60-25	4523-4526	har	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-26	4527-4531	rätt	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-27	4532-4547	kvalifikationer	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-28	4548-4551	och	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-29	4552-4556	rätt	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-30	4557-4566	kompetens	*[50]	Target;Source[19]	60-19[51];60-31	false[19]	4[19]	_	_	
+60-31	4566-4567	.	*	_	_	_	_	_	_	
+
+#Text=I den nya årskurs 1 kommer större fokus att läggas på grundläggande läs-, skriv- och räkneinlärning och kommer, till skillnad från förskoleklassen, att omfattas av kunskapsmål.
+61-1	4568-4569	I	_	_	_	_	_	_	_	
+61-2	4570-4573	den	_	_	_	_	_	_	_	
+61-3	4574-4577	nya	_	_	_	_	_	_	_	
+61-4	4578-4585	årskurs	_	_	_	_	_	_	_	
+61-5	4586-4587	1	_	_	_	_	_	_	_	
+61-6	4588-4594	kommer	_	_	_	_	_	_	_	
+61-7	4595-4601	större	_	_	_	_	_	_	_	
+61-8	4602-4607	fokus	_	_	_	_	_	_	_	
+61-9	4608-4611	att	_	_	_	_	_	_	_	
+61-10	4612-4618	läggas	_	_	_	_	_	_	_	
+61-11	4619-4621	på	_	_	_	_	_	_	_	
+61-12	4622-4635	grundläggande	_	_	_	_	_	_	_	
+61-13	4636-4639	läs	_	_	_	_	_	_	_	
+61-14	4639-4640	-	_	_	_	_	_	_	_	
+61-15	4640-4641	,	_	_	_	_	_	_	_	
+61-16	4642-4647	skriv	_	_	_	_	_	_	_	
+61-17	4647-4648	-	_	_	_	_	_	_	_	
+61-18	4649-4652	och	_	_	_	_	_	_	_	
+61-19	4653-4667	räkneinlärning	_	_	_	_	_	_	_	
+61-20	4668-4671	och	_	_	_	_	_	_	_	
+61-21	4672-4678	kommer	_	_	_	_	_	_	_	
+61-22	4678-4679	,	_	_	_	_	_	_	_	
+61-23	4680-4684	till	_	_	_	_	_	_	_	
+61-24	4685-4693	skillnad	_	_	_	_	_	_	_	
+61-25	4694-4698	från	_	_	_	_	_	_	_	
+61-26	4699-4714	förskoleklassen	_	_	_	_	_	_	_	
+61-27	4714-4715	,	_	_	_	_	_	_	_	
+61-28	4716-4719	att	_	_	_	_	_	_	_	
+61-29	4720-4728	omfattas	_	_	_	_	_	_	_	
+61-30	4729-4731	av	_	_	_	_	_	_	_	
+61-31	4732-4743	kunskapsmål	_	_	_	_	_	_	_	
+61-32	4743-4744	.	_	_	_	_	_	_	_	
+
+#Text=Att lärarna i den nya årskursen har rätt kompetens är därför helt avgörande, oavsett deras examen.
+62-1	4745-4748	Att	_	_	_	_	_	_	_	
+62-2	4749-4756	lärarna	*[52]	_	_	_	_	_	_	
+62-3	4757-4758	i	*[52]	_	_	_	_	_	_	
+62-4	4759-4762	den	*[52]	_	_	_	_	_	_	
+62-5	4763-4766	nya	*[52]	_	_	_	_	_	_	
+62-6	4767-4776	årskursen	*[52]	_	_	_	_	_	_	
+62-7	4777-4780	har	_	Target;Source[20]	62-2[52];62-18	false[20]	4[20]	_	_	
+62-8	4781-4785	rätt	_	Target;Source[20]	62-2[52];62-18	false[20]	4[20]	_	_	
+62-9	4786-4795	kompetens	_	Target;Source[20]	62-2[52];62-18	false[20]	4[20]	_	_	
+62-10	4796-4798	är	_	_	_	_	_	_	_	
+62-11	4799-4805	därför	_	_	_	_	_	_	_	
+62-12	4806-4810	helt	_	_	_	_	_	_	_	
+62-13	4811-4820	avgörande	_	_	_	_	_	_	_	
+62-14	4820-4821	,	_	_	_	_	_	_	_	
+62-15	4822-4829	oavsett	_	_	_	_	_	_	_	
+62-16	4830-4835	deras	_	_	_	_	_	_	_	
+62-17	4836-4842	examen	_	_	_	_	_	_	_	
+62-18	4842-4843	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4845-4846	#	_	_	_	_	_	_	_	
+63-2	4846-4847	P	_	_	_	_	_	_	_	
+63-3	4848-4851	IMM	_	_	_	_	_	_	_	
+63-4	4851-4852	.	_	_	_	_	_	_	_	
+
+#Text=Alliansens målsättning är att så många som möjligt av lärarna som i dag undervisar i förskoleklassen ska kunna fortsätta att undervisa i nya årskurs 1.
+64-1	4854-4864	Alliansens	*	_	_	_	_	_	_	
+64-2	4865-4876	målsättning	_	Source;Target[21]	64-1;64-4[53]	false[21]	4[21]	_	_	
+64-3	4877-4879	är	_	Source;Target[21]	64-1;64-4[53]	false[21]	4[21]	_	_	
+64-4	4880-4883	att	*[53]	_	_	_	_	_	_	
+64-5	4884-4886	så	*[53]	_	_	_	_	_	_	
+64-6	4887-4892	många	*[53]	_	_	_	_	_	_	
+64-7	4893-4896	som	*[53]	_	_	_	_	_	_	
+64-8	4897-4904	möjligt	*[53]	_	_	_	_	_	_	
+64-9	4905-4907	av	*[53]	_	_	_	_	_	_	
+64-10	4908-4915	lärarna	*[53]	_	_	_	_	_	_	
+64-11	4916-4919	som	*[53]	_	_	_	_	_	_	
+64-12	4920-4921	i	*[53]	_	_	_	_	_	_	
+64-13	4922-4925	dag	*[53]	_	_	_	_	_	_	
+64-14	4926-4936	undervisar	*[53]	_	_	_	_	_	_	
+64-15	4937-4938	i	*[53]	_	_	_	_	_	_	
+64-16	4939-4954	förskoleklassen	*[53]	_	_	_	_	_	_	
+64-17	4955-4958	ska	*[53]	_	_	_	_	_	_	
+64-18	4959-4964	kunna	*[53]	_	_	_	_	_	_	
+64-19	4965-4974	fortsätta	*[53]	_	_	_	_	_	_	
+64-20	4975-4978	att	*[53]	_	_	_	_	_	_	
+64-21	4979-4988	undervisa	*[53]	_	_	_	_	_	_	
+64-22	4989-4990	i	*[53]	_	_	_	_	_	_	
+64-23	4991-4994	nya	*[53]	_	_	_	_	_	_	
+64-24	4995-5002	årskurs	*[53]	_	_	_	_	_	_	
+64-25	5003-5004	1	*[53]	_	_	_	_	_	_	
+64-26	5004-5005	.	_	_	_	_	_	_	_	
+
+#Text=Det förutsätter att de är behöriga i enlighet med de nya kunskapsmål som kommer att gälla för årskursen.
+65-1	5006-5009	Det	_	_	_	_	_	_	_	
+65-2	5010-5021	förutsätter	_	_	_	_	_	_	_	
+65-3	5022-5025	att	_	_	_	_	_	_	_	
+65-4	5026-5028	de	_	_	_	_	_	_	_	
+65-5	5029-5031	är	_	_	_	_	_	_	_	
+65-6	5032-5040	behöriga	_	_	_	_	_	_	_	
+65-7	5041-5042	i	_	_	_	_	_	_	_	
+65-8	5043-5051	enlighet	_	_	_	_	_	_	_	
+65-9	5052-5055	med	_	_	_	_	_	_	_	
+65-10	5056-5058	de	_	_	_	_	_	_	_	
+65-11	5059-5062	nya	_	_	_	_	_	_	_	
+65-12	5063-5074	kunskapsmål	_	_	_	_	_	_	_	
+65-13	5075-5078	som	_	_	_	_	_	_	_	
+65-14	5079-5085	kommer	_	_	_	_	_	_	_	
+65-15	5086-5089	att	_	_	_	_	_	_	_	
+65-16	5090-5095	gälla	_	_	_	_	_	_	_	
+65-17	5096-5099	för	_	_	_	_	_	_	_	
+65-18	5100-5109	årskursen	_	_	_	_	_	_	_	
+65-19	5109-5110	.	_	_	_	_	_	_	_	
+
+#Text=Många som har gått den nya utbildningen är redan behöriga och har kompetens att undervisa i hela lågstadiet.
+66-1	5111-5116	Många	_	_	_	_	_	_	_	
+66-2	5117-5120	som	_	_	_	_	_	_	_	
+66-3	5121-5124	har	_	_	_	_	_	_	_	
+66-4	5125-5129	gått	_	_	_	_	_	_	_	
+66-5	5130-5133	den	_	_	_	_	_	_	_	
+66-6	5134-5137	nya	_	_	_	_	_	_	_	
+66-7	5138-5150	utbildningen	_	_	_	_	_	_	_	
+66-8	5151-5153	är	_	_	_	_	_	_	_	
+66-9	5154-5159	redan	_	_	_	_	_	_	_	
+66-10	5160-5168	behöriga	_	_	_	_	_	_	_	
+66-11	5169-5172	och	_	_	_	_	_	_	_	
+66-12	5173-5176	har	_	_	_	_	_	_	_	
+66-13	5177-5186	kompetens	_	_	_	_	_	_	_	
+66-14	5187-5190	att	_	_	_	_	_	_	_	
+66-15	5191-5200	undervisa	_	_	_	_	_	_	_	
+66-16	5201-5202	i	_	_	_	_	_	_	_	
+66-17	5203-5207	hela	_	_	_	_	_	_	_	
+66-18	5208-5218	lågstadiet	_	_	_	_	_	_	_	
+66-19	5218-5219	.	_	_	_	_	_	_	_	
+
+#Text=De som inte har det behöver få en kompetensutveckling för att få en sådan behörighet.
+67-1	5220-5222	De	_	_	_	_	_	_	_	
+67-2	5223-5226	som	_	_	_	_	_	_	_	
+67-3	5227-5231	inte	_	_	_	_	_	_	_	
+67-4	5232-5235	har	_	_	_	_	_	_	_	
+67-5	5236-5239	det	_	_	_	_	_	_	_	
+67-6	5240-5247	behöver	_	_	_	_	_	_	_	
+67-7	5248-5250	få	_	_	_	_	_	_	_	
+67-8	5251-5253	en	_	_	_	_	_	_	_	
+67-9	5254-5273	kompetensutveckling	_	_	_	_	_	_	_	
+67-10	5274-5277	för	_	_	_	_	_	_	_	
+67-11	5278-5281	att	_	_	_	_	_	_	_	
+67-12	5282-5284	få	_	_	_	_	_	_	_	
+67-13	5285-5287	en	_	_	_	_	_	_	_	
+67-14	5288-5293	sådan	_	_	_	_	_	_	_	
+67-15	5294-5304	behörighet	_	_	_	_	_	_	_	
+67-16	5304-5305	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	5307-5308	#	_	_	_	_	_	_	_	
+68-2	5308-5309	P	_	_	_	_	_	_	_	
+68-3	5310-5313	IMM	_	_	_	_	_	_	_	
+68-4	5313-5314	.	_	_	_	_	_	_	_	
+
+#Text=När regeringen nu har lagt fram sitt förslag om en obligatorisk förskoleklass finns ett vägval: regeringens förslag om en obligatorisk förskoleklass eller Alliansens förslag om en skolstart från sex års ålder.
+69-1	5316-5319	När	_	_	_	_	_	_	_	
+69-2	5320-5330	regeringen	*	_	_	_	_	_	_	
+69-3	5331-5333	nu	_	_	_	_	_	_	_	
+69-4	5334-5337	har	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-5	5338-5342	lagt	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-6	5343-5347	fram	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-7	5348-5352	sitt	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-8	5353-5360	förslag	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-9	5361-5363	om	_	Source;Target[22]	69-2;69-10[54]	false[22]	4[22]	_	_	
+69-10	5364-5366	en	*[54]	_	_	_	_	_	_	
+69-11	5367-5379	obligatorisk	*[54]	_	_	_	_	_	_	
+69-12	5380-5393	förskoleklass	*[54]	_	_	_	_	_	_	
+69-13	5394-5399	finns	_	_	_	_	_	_	_	
+69-14	5400-5403	ett	_	_	_	_	_	_	_	
+69-15	5404-5410	vägval	_	_	_	_	_	_	_	
+69-16	5410-5411	:	_	_	_	_	_	_	_	
+69-17	5412-5423	regeringens	*	_	_	_	_	_	_	
+69-18	5424-5431	förslag	_	Target;Source[23]	69-20[55];69-17	false[23]	4[23]	_	_	
+69-19	5432-5434	om	_	Target;Source[23]	69-20[55];69-17	false[23]	4[23]	_	_	
+69-20	5435-5437	en	*[55]	_	_	_	_	_	_	
+69-21	5438-5450	obligatorisk	*[55]	_	_	_	_	_	_	
+69-22	5451-5464	förskoleklass	*[55]	_	_	_	_	_	_	
+69-23	5465-5470	eller	_	_	_	_	_	_	_	
+69-24	5471-5481	Alliansens	*	_	_	_	_	_	_	
+69-25	5482-5489	förslag	_	Source;Target[24]	69-24;69-27[56]	false[24]	4[24]	_	_	
+69-26	5490-5492	om	_	Source;Target[24]	69-24;69-27[56]	false[24]	4[24]	_	_	
+69-27	5493-5495	en	*[56]	_	_	_	_	_	_	
+69-28	5496-5505	skolstart	*[56]	_	_	_	_	_	_	
+69-29	5506-5510	från	*[56]	_	_	_	_	_	_	
+69-30	5511-5514	sex	*[56]	_	_	_	_	_	_	
+69-31	5515-5518	års	*[56]	_	_	_	_	_	_	
+69-32	5519-5524	ålder	*[56]	_	_	_	_	_	_	
+69-33	5524-5525	.	_	_	_	_	_	_	_	
+
+#Text=En obligatorisk förskoleklass innebär små förändringar.
+70-1	5526-5528	En	_	_	_	_	_	_	_	
+70-2	5529-5541	obligatorisk	_	_	_	_	_	_	_	
+70-3	5542-5555	förskoleklass	_	_	_	_	_	_	_	
+70-4	5556-5563	innebär	_	_	_	_	_	_	_	
+70-5	5564-5567	små	_	_	_	_	_	_	_	
+70-6	5568-5580	förändringar	_	_	_	_	_	_	_	
+70-7	5580-5581	.	_	_	_	_	_	_	_	
+
+#Text=Med detta förslag riskerar Sverige därför att fortsatt förbli ett genomsnittsland i kunskapsmätningarna.
+71-1	5582-5585	Med	*[57]	_	_	_	_	_	_	
+71-2	5586-5591	detta	*[57]	_	_	_	_	_	_	
+71-3	5592-5599	förslag	*[57]	_	_	_	_	_	_	
+71-4	5600-5608	riskerar	*[57]	Target	71-1[57]	false	2	_	_	
+71-5	5609-5616	Sverige	*[57]	_	_	_	_	_	_	
+71-6	5617-5623	därför	*[57]	_	_	_	_	_	_	
+71-7	5624-5627	att	*[57]	_	_	_	_	_	_	
+71-8	5628-5636	fortsatt	*[57]	_	_	_	_	_	_	
+71-9	5637-5643	förbli	*[57]	_	_	_	_	_	_	
+71-10	5644-5647	ett	*[57]	_	_	_	_	_	_	
+71-11	5648-5663	genomsnittsland	*[57]	_	_	_	_	_	_	
+71-12	5664-5665	i	*[57]	_	_	_	_	_	_	
+71-13	5666-5685	kunskapsmätningarna	*[57]	_	_	_	_	_	_	
+71-14	5685-5686	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5688-5689	#	_	_	_	_	_	_	_	
+72-2	5689-5690	P	_	_	_	_	_	_	_	
+72-3	5691-5694	IMM	_	_	_	_	_	_	_	
+72-4	5694-5695	.	_	_	_	_	_	_	_	
+
+#Text=Det andra valet är en skolstart från sex års ålder.
+73-1	5697-5700	Det	_	_	_	_	_	_	_	
+73-2	5701-5706	andra	_	_	_	_	_	_	_	
+73-3	5707-5712	valet	_	_	_	_	_	_	_	
+73-4	5713-5715	är	_	_	_	_	_	_	_	
+73-5	5716-5718	en	_	_	_	_	_	_	_	
+73-6	5719-5728	skolstart	_	_	_	_	_	_	_	
+73-7	5729-5733	från	_	_	_	_	_	_	_	
+73-8	5734-5737	sex	_	_	_	_	_	_	_	
+73-9	5738-5741	års	_	_	_	_	_	_	_	
+73-10	5742-5747	ålder	_	_	_	_	_	_	_	
+73-11	5747-5748	.	_	_	_	_	_	_	_	
+
+#Text=Det betyder att vi höjer ambitionerna i svensk skola.
+74-1	5749-5752	Det	_	_	_	_	_	_	_	
+74-2	5753-5760	betyder	_	_	_	_	_	_	_	
+74-3	5761-5764	att	_	_	_	_	_	_	_	
+74-4	5765-5767	vi	_	_	_	_	_	_	_	
+74-5	5768-5773	höjer	_	_	_	_	_	_	_	
+74-6	5774-5786	ambitionerna	_	_	_	_	_	_	_	
+74-7	5787-5788	i	_	_	_	_	_	_	_	
+74-8	5789-5795	svensk	_	_	_	_	_	_	_	
+74-9	5796-5801	skola	_	_	_	_	_	_	_	
+74-10	5801-5802	.	_	_	_	_	_	_	_	
+
+#Text=Det innebär ett fyraårigt lågstadium där sexåringarna får en strukturerad undervisning som följer grundskolans kunskapsmål.
+75-1	5803-5806	Det	_	_	_	_	_	_	_	
+75-2	5807-5814	innebär	_	_	_	_	_	_	_	
+75-3	5815-5818	ett	_	_	_	_	_	_	_	
+75-4	5819-5828	fyraårigt	_	_	_	_	_	_	_	
+75-5	5829-5839	lågstadium	_	_	_	_	_	_	_	
+75-6	5840-5843	där	_	_	_	_	_	_	_	
+75-7	5844-5856	sexåringarna	_	_	_	_	_	_	_	
+75-8	5857-5860	får	_	_	_	_	_	_	_	
+75-9	5861-5863	en	_	_	_	_	_	_	_	
+75-10	5864-5876	strukturerad	*[58]	Target	75-10[58]	false	4	_	_	
+75-11	5877-5889	undervisning	*[58]	_	_	_	_	_	_	
+75-12	5890-5893	som	_	_	_	_	_	_	_	
+75-13	5894-5900	följer	_	_	_	_	_	_	_	
+75-14	5901-5913	grundskolans	_	_	_	_	_	_	_	
+75-15	5914-5925	kunskapsmål	_	_	_	_	_	_	_	
+75-16	5925-5926	.	_	_	_	_	_	_	_	
+
+#Text=Det ger inte bara våra elever mer tid tillsammans med lärarna utan även att barnen får rätt till samma stöd och hjälp som i dagens grundskola.
+76-1	5927-5930	Det	_	_	_	_	_	_	_	
+76-2	5931-5934	ger	_	_	_	_	_	_	_	
+76-3	5935-5939	inte	_	_	_	_	_	_	_	
+76-4	5940-5944	bara	_	_	_	_	_	_	_	
+76-5	5945-5949	våra	_	_	_	_	_	_	_	
+76-6	5950-5956	elever	_	_	_	_	_	_	_	
+76-7	5957-5960	mer	_	_	_	_	_	_	_	
+76-8	5961-5964	tid	_	_	_	_	_	_	_	
+76-9	5965-5976	tillsammans	_	_	_	_	_	_	_	
+76-10	5977-5980	med	_	_	_	_	_	_	_	
+76-11	5981-5988	lärarna	_	_	_	_	_	_	_	
+76-12	5989-5993	utan	_	_	_	_	_	_	_	
+76-13	5994-5998	även	_	_	_	_	_	_	_	
+76-14	5999-6002	att	_	_	_	_	_	_	_	
+76-15	6003-6009	barnen	_	_	_	_	_	_	_	
+76-16	6010-6013	får	_	_	_	_	_	_	_	
+76-17	6014-6018	rätt	_	_	_	_	_	_	_	
+76-18	6019-6023	till	_	_	_	_	_	_	_	
+76-19	6024-6029	samma	_	_	_	_	_	_	_	
+76-20	6030-6034	stöd	_	_	_	_	_	_	_	
+76-21	6035-6038	och	_	_	_	_	_	_	_	
+76-22	6039-6044	hjälp	_	_	_	_	_	_	_	
+76-23	6045-6048	som	_	_	_	_	_	_	_	
+76-24	6049-6050	i	_	_	_	_	_	_	_	
+76-25	6051-6057	dagens	_	_	_	_	_	_	_	
+76-26	6058-6068	grundskola	_	_	_	_	_	_	_	
+76-27	6068-6069	.	_	_	_	_	_	_	_	
+
+#Text=Sammantaget innebär en skolstart från sex års ålder en förändring för 100 procent av sexåringarnas tid i skolan.
+77-1	6070-6081	Sammantaget	_	_	_	_	_	_	_	
+77-2	6082-6089	innebär	_	_	_	_	_	_	_	
+77-3	6090-6092	en	_	_	_	_	_	_	_	
+77-4	6093-6102	skolstart	_	_	_	_	_	_	_	
+77-5	6103-6107	från	_	_	_	_	_	_	_	
+77-6	6108-6111	sex	_	_	_	_	_	_	_	
+77-7	6112-6115	års	_	_	_	_	_	_	_	
+77-8	6116-6121	ålder	_	_	_	_	_	_	_	
+77-9	6122-6124	en	_	_	_	_	_	_	_	
+77-10	6125-6135	förändring	_	_	_	_	_	_	_	
+77-11	6136-6139	för	_	_	_	_	_	_	_	
+77-12	6140-6143	100	_	_	_	_	_	_	_	
+77-13	6144-6151	procent	_	_	_	_	_	_	_	
+77-14	6152-6154	av	_	_	_	_	_	_	_	
+77-15	6155-6168	sexåringarnas	_	_	_	_	_	_	_	
+77-16	6169-6172	tid	_	_	_	_	_	_	_	
+77-17	6173-6174	i	_	_	_	_	_	_	_	
+77-18	6175-6181	skolan	_	_	_	_	_	_	_	
+77-19	6181-6182	.	_	_	_	_	_	_	_	
+
+#Text=Detta till skillnad från regeringens förslag som enbart påverkar de dryga två procent av sexåringarna som i dag inte går i förskoleklassen.
+78-1	6183-6188	Detta	_	_	_	_	_	_	_	
+78-2	6189-6193	till	_	_	_	_	_	_	_	
+78-3	6194-6202	skillnad	_	_	_	_	_	_	_	
+78-4	6203-6207	från	_	_	_	_	_	_	_	
+78-5	6208-6219	regeringens	*	_	_	_	_	_	_	
+78-6	6220-6227	förslag	_	Source	78-5	false	4	_	_	
+78-7	6228-6231	som	_	_	_	_	_	_	_	
+78-8	6232-6238	enbart	_	_	_	_	_	_	_	
+78-9	6239-6247	påverkar	_	_	_	_	_	_	_	
+78-10	6248-6250	de	_	_	_	_	_	_	_	
+78-11	6251-6256	dryga	_	_	_	_	_	_	_	
+78-12	6257-6260	två	_	_	_	_	_	_	_	
+78-13	6261-6268	procent	_	_	_	_	_	_	_	
+78-14	6269-6271	av	_	_	_	_	_	_	_	
+78-15	6272-6284	sexåringarna	_	_	_	_	_	_	_	
+78-16	6285-6288	som	_	_	_	_	_	_	_	
+78-17	6289-6290	i	_	_	_	_	_	_	_	
+78-18	6291-6294	dag	_	_	_	_	_	_	_	
+78-19	6295-6299	inte	_	_	_	_	_	_	_	
+78-20	6300-6303	går	_	_	_	_	_	_	_	
+78-21	6304-6305	i	_	_	_	_	_	_	_	
+78-22	6306-6321	förskoleklassen	_	_	_	_	_	_	_	
+78-23	6321-6322	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	6324-6325	#	_	_	_	_	_	_	_	
+79-2	6325-6326	P	_	_	_	_	_	_	_	
+79-3	6327-6330	IMM	_	_	_	_	_	_	_	
+79-4	6330-6331	.	_	_	_	_	_	_	_	
+
+#Text=Fler barn och unga behöver få känna glädjen av att lyckas och att gå en ljus framtid till mötes där alla dörrar till jobb och studier står öppna.
+80-1	6333-6337	Fler	_	_[25]	_	false[25]	5[25]	_	_	
+80-2	6338-6342	barn	_	_[25]	_	false[25]	5[25]	_	_	
+80-3	6343-6346	och	_	_[25]	_	false[25]	5[25]	_	_	
+80-4	6347-6351	unga	_	_[25]	_	false[25]	5[25]	_	_	
+80-5	6352-6359	behöver	_	_[25]	_	false[25]	5[25]	_	_	
+80-6	6360-6362	få	_	_[25]	_	false[25]	5[25]	_	_	
+80-7	6363-6368	känna	_	_[25]	_	false[25]	5[25]	_	_	
+80-8	6369-6376	glädjen	_	_[25]	_	false[25]	5[25]	_	_	
+80-9	6377-6379	av	_	_[25]	_	false[25]	5[25]	_	_	
+80-10	6380-6383	att	_	_[25]	_	false[25]	5[25]	_	_	
+80-11	6384-6390	lyckas	_	_[25]	_	false[25]	5[25]	_	_	
+80-12	6391-6394	och	_	_[25]	_	false[25]	5[25]	_	_	
+80-13	6395-6398	att	_	_[25]	_	false[25]	5[25]	_	_	
+80-14	6399-6401	gå	_	_[25]	_	false[25]	5[25]	_	_	
+80-15	6402-6404	en	_	_[25]	_	false[25]	5[25]	_	_	
+80-16	6405-6409	ljus	_	_[25]	_	false[25]	5[25]	_	_	
+80-17	6410-6417	framtid	_	_[25]	_	false[25]	5[25]	_	_	
+80-18	6418-6422	till	_	_[25]	_	false[25]	5[25]	_	_	
+80-19	6423-6428	mötes	_	_[25]	_	false[25]	5[25]	_	_	
+80-20	6429-6432	där	_	_[25]	_	false[25]	5[25]	_	_	
+80-21	6433-6437	alla	_	_[25]	_	false[25]	5[25]	_	_	
+80-22	6438-6444	dörrar	_	_[25]	_	false[25]	5[25]	_	_	
+80-23	6445-6449	till	_	_[25]	_	false[25]	5[25]	_	_	
+80-24	6450-6454	jobb	_	_[25]	_	false[25]	5[25]	_	_	
+80-25	6455-6458	och	_	_[25]	_	false[25]	5[25]	_	_	
+80-26	6459-6466	studier	_	_[25]	_	false[25]	5[25]	_	_	
+80-27	6467-6471	står	_	_[25]	_	false[25]	5[25]	_	_	
+80-28	6472-6477	öppna	_	_[25]	_	false[25]	5[25]	_	_	
+80-29	6477-6478	.	_	_	_	_	_	_	_	
+
+#Text=Därför kommer vi att rösta nej till hela regeringens proposition och istället rösta ja till att ge alla våra vetgiriga sexåringar en bra skolstart.
+81-1	6479-6485	Därför	_	_	_	_	_	_	_	
+81-2	6486-6492	kommer	_	Target;Source	81-8[59];81-3	false	2	_	_	
+81-3	6493-6495	vi	*	_	_	_	_	_	_	
+81-4	6496-6499	att	_	Target;Source[26]	81-8[59];81-3	false[26]	2[26]	81-2[0_26]	_	
+81-5	6500-6505	rösta	_	Target;Source[26]	81-8[59];81-3	false[26]	2[26]	_	_	
+81-6	6506-6509	nej	_	Target;Source[26]	81-8[59];81-3	false[26]	2[26]	_	_	
+81-7	6510-6514	till	_	Target;Source[26]	81-8[59];81-3	false[26]	2[26]	_	_	
+81-8	6515-6519	hela	*[59]	_	_	_	_	_	_	
+81-9	6520-6531	regeringens	*[59]	_	_	_	_	_	_	
+81-10	6532-6543	proposition	*[59]	_	_	_	_	_	_	
+81-11	6544-6547	och	_	_	_	_	_	_	_	
+81-12	6548-6556	istället	_	_	_	_	_	_	_	
+81-13	6557-6562	rösta	_	Target;Source[27]	81-16[60];81-3	false[27]	4[27]	_	_	
+81-14	6563-6565	ja	_	Target;Source[27]	81-16[60];81-3	false[27]	4[27]	_	_	
+81-15	6566-6570	till	_	Target;Source[27]	81-16[60];81-3	false[27]	4[27]	_	_	
+81-16	6571-6574	att	*[60]	_	_	_	_	_	_	
+81-17	6575-6577	ge	*[60]	_	_	_	_	_	_	
+81-18	6578-6582	alla	*[60]	_	_	_	_	_	_	
+81-19	6583-6587	våra	*[60]	_	_	_	_	_	_	
+81-20	6588-6597	vetgiriga	*[60]	_	_	_	_	_	_	
+81-21	6598-6608	sexåringar	*[60]	_	_	_	_	_	_	
+81-22	6609-6611	en	*[60]|*[61]	_	_	_	_	_	_	
+81-23	6612-6615	bra	*[60]|*[61]	Target	81-22[61]	false	4	_	_	
+81-24	6616-6625	skolstart	*[60]|*[61]	_	_	_	_	_	_	
+81-25	6625-6626	.	_	_	_	_	_	_	_	
+
+#Text=Sverige behöver en tioårig grundskola.
+82-1	6627-6634	Sverige	*[62]	_	_	_	_	_	_	
+82-2	6635-6642	behöver	*[62]	Target	82-1[62]	false	4	_	_	
+82-3	6643-6645	en	*[62]	_	_	_	_	_	_	
+82-4	6646-6653	tioårig	*[62]	_	_	_	_	_	_	
+82-5	6654-6664	grundskola	*[62]	_	_	_	_	_	_	
+82-6	6664-6665	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	6667-6668	#	_	_	_	_	_	_	_	
+83-2	6668-6669	P	_	_	_	_	_	_	_	
+83-3	6670-6673	IMM	_	_	_	_	_	_	_	
+83-4	6673-6674	.	_	_	_	_	_	_	_	
+
+#Text=Camilla Waltersson Grönvall (M).
+84-1	6676-6683	Camilla	_	_	_	_	_	_	_	
+84-2	6684-6694	Waltersson	_	_	_	_	_	_	_	
+84-3	6695-6703	Grönvall	_	_	_	_	_	_	_	
+84-4	6704-6705	(	_	_	_	_	_	_	_	
+84-5	6705-6706	M	_	_	_	_	_	_	_	
+84-6	6706-6707	)	_	_	_	_	_	_	_	
+84-7	6707-6708	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	6710-6711	#	_	_	_	_	_	_	_	
+85-2	6711-6712	P	_	_	_	_	_	_	_	
+85-3	6713-6716	IMM	_	_	_	_	_	_	_	
+85-4	6716-6717	.	_	_	_	_	_	_	_	
+
+#Text=utbildningspolitisk talesperson.
+86-1	6719-6738	utbildningspolitisk	_	_	_	_	_	_	_	
+86-2	6739-6750	talesperson	_	_	_	_	_	_	_	
+86-3	6750-6751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	6753-6754	#	_	_	_	_	_	_	_	
+87-2	6754-6755	P	_	_	_	_	_	_	_	
+87-3	6756-6759	IMM	_	_	_	_	_	_	_	
+87-4	6759-6760	.	_	_	_	_	_	_	_	
+
+#Text=Ulrika Carlsson (C).
+88-1	6762-6768	Ulrika	_	_	_	_	_	_	_	
+88-2	6769-6777	Carlsson	_	_	_	_	_	_	_	
+88-3	6778-6779	(	_	_	_	_	_	_	_	
+88-4	6779-6780	C	_	_	_	_	_	_	_	
+88-5	6780-6781	)	_	_	_	_	_	_	_	
+88-6	6781-6782	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	6784-6785	#	_	_	_	_	_	_	_	
+89-2	6785-6786	P	_	_	_	_	_	_	_	
+89-3	6787-6790	IMM	_	_	_	_	_	_	_	
+89-4	6790-6791	.	_	_	_	_	_	_	_	
+
+#Text=utbildningspolitisk talesperson.
+90-1	6793-6812	utbildningspolitisk	_	_	_	_	_	_	_	
+90-2	6813-6824	talesperson	_	_	_	_	_	_	_	
+90-3	6824-6825	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	6827-6828	#	_	_	_	_	_	_	_	
+91-2	6828-6829	P	_	_	_	_	_	_	_	
+91-3	6830-6833	IMM	_	_	_	_	_	_	_	
+91-4	6833-6834	.	_	_	_	_	_	_	_	
+
+#Text=Christer Nylander (L).
+92-1	6836-6844	Christer	_	_	_	_	_	_	_	
+92-2	6845-6853	Nylander	_	_	_	_	_	_	_	
+92-3	6854-6855	(	_	_	_	_	_	_	_	
+92-4	6855-6856	L	_	_	_	_	_	_	_	
+92-5	6856-6857	)	_	_	_	_	_	_	_	
+92-6	6857-6858	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+93-1	6860-6861	#	_	_	_	_	_	_	_	
+93-2	6861-6862	P	_	_	_	_	_	_	_	
+93-3	6863-6866	IMM	_	_	_	_	_	_	_	
+93-4	6866-6867	.	_	_	_	_	_	_	_	
+
+#Text=utbildningspolitisk talesperson.
+94-1	6869-6888	utbildningspolitisk	_	_	_	_	_	_	_	
+94-2	6889-6900	talesperson	_	_	_	_	_	_	_	
+94-3	6900-6901	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+95-1	6903-6904	#	_	_	_	_	_	_	_	
+95-2	6904-6905	P	_	_	_	_	_	_	_	
+95-3	6906-6909	IMM	_	_	_	_	_	_	_	
+95-4	6909-6910	.	_	_	_	_	_	_	_	
+
+#Text=Annika Eclund (KD).
+96-1	6912-6918	Annika	_	_	_	_	_	_	_	
+96-2	6919-6925	Eclund	_	_	_	_	_	_	_	
+96-3	6926-6927	(	_	_	_	_	_	_	_	
+96-4	6927-6929	KD	_	_	_	_	_	_	_	
+96-5	6929-6930	)	_	_	_	_	_	_	_	
+96-6	6930-6931	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+97-1	6933-6934	#	_	_	_	_	_	_	_	
+97-2	6934-6935	P	_	_	_	_	_	_	_	
+97-3	6936-6939	IMM	_	_	_	_	_	_	_	
+97-4	6939-6940	.	_	_	_	_	_	_	_	
+
+#Text=utbildningspolitisk talesperson.
+98-1	6942-6961	utbildningspolitisk	_	_	_	_	_	_	_	
+98-2	6962-6973	talesperson	_	_	_	_	_	_	_	
+98-3	6973-6974	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+99-1	6976-6977	#	_	_	_	_	_	_	_	
+99-2	6977-6978	P	_	_	_	_	_	_	_	
+99-3	6979-6982	IMM	_	_	_	_	_	_	_	
+99-4	6982-6983	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+100-1	6985-6993	Redaktör	_	_	_	_	_	_	_	
+100-2	6993-6994	:	_	_	_	_	_	_	_	
+100-3	6995-7001	Carina	_	_	_	_	_	_	_	
+100-4	7002-7010	Stensson	_	_	_	_	_	_	_	
+100-5	7010-7011	,	_	_	_	_	_	_	_	
+100-6	7012-7022	Biträdande	_	_	_	_	_	_	_	
+100-7	7023-7031	redaktör	_	_	_	_	_	_	_	
+100-8	7031-7032	:	_	_	_	_	_	_	_	
+100-9	7033-7038	Björn	_	_	_	_	_	_	_	
+100-10	7039-7045	Jorner	_	_	_	_	_	_	_	
+100-11	7045-7046	,	_	_	_	_	_	_	_	
+100-12	7047-7051	Mejl	_	_	_	_	_	_	_	
+100-13	7051-7052	:	_	_	_	_	_	_	_	
+100-14	7053-7059	debatt	_	_	_	_	_	_	_	
+100-15	7059-7060	@	_	_	_	_	_	_	_	
+100-16	7060-7066	svd.se	_	_	_	_	_	_	_	
+100-17	7066-7067	,	_	_	_	_	_	_	_	
+100-18	7068-7081	Telefonnummer	_	_	_	_	_	_	_	
+100-19	7081-7082	:	_	_	_	_	_	_	_	
+100-20	7083-7085	08	_	_	_	_	_	_	_	
+100-21	7085-7086	-	_	_	_	_	_	_	_	
+100-22	7086-7092	135149	_	_	_	_	_	_	_	
+100-23	7092-7093	,	_	_	_	_	_	_	_	
+100-24	7094-7101	Twitter	_	_	_	_	_	_	_	
+100-25	7101-7102	:	_	_	_	_	_	_	_	
+100-26	7103-7104	@	_	_	_	_	_	_	_	
+100-27	7104-7113	SvDDebatt	_	_	_	_	_	_	_	
+100-28	7113-7114	,	_	_	_	_	_	_	_	
+100-29	7115-7123	Facebook	_	_	_	_	_	_	_	
+100-30	7123-7124	:	_	_	_	_	_	_	_	
+100-31	7125-7128	SvD	_	_	_	_	_	_	_	
+100-32	7129-7135	Debatt	_	_	_	_	_	_	_	
+100-33	7135-7136	.	_	_	_	_	_	_	_	

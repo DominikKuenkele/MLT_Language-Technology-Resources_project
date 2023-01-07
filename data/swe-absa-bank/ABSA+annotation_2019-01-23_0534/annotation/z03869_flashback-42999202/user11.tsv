@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Nytt asylboende i Gyttorp (Nora) byggs av företag som påstås bryta mot avtal och etik.
+3-1	18-22	Nytt	_	_	_	_	_	
+3-2	23-33	asylboende	_	_	_	_	_	
+3-3	34-35	i	_	_	_	_	_	
+3-4	36-43	Gyttorp	_	_	_	_	_	
+3-5	44-45	(	_	_	_	_	_	
+3-6	45-49	Nora	_	_	_	_	_	
+3-7	49-50	)	_	_	_	_	_	
+3-8	51-56	byggs	_	_	_	_	_	
+3-9	57-59	av	_	_	_	_	_	
+3-10	60-67	företag	*	_	_	_	_	
+3-11	68-71	som	_	_	_	_	_	
+3-12	72-78	påstås	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-13	79-84	bryta	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-14	85-88	mot	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-15	89-94	avtal	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-16	95-98	och	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-17	99-103	etik	_	Source;Target[1]	3-18;3-10	false[1]	2[1]	
+3-18	103-104	.	*	_	_	_	_	
+
+#Text=#P IMM.
+4-1	106-107	#	_	_	_	_	_	
+4-2	107-108	P	_	_	_	_	_	
+4-3	109-112	IMM	_	_	_	_	_	
+4-4	112-113	.	_	_	_	_	_	
+
+#Text=Asylindustrin blir allt tydligare ett tillhåll för fifflare och lycksökare.
+5-1	115-128	Asylindustrin	_	_	_	_	_	
+5-2	129-133	blir	_	_	_	_	_	
+5-3	134-138	allt	_	_	_	_	_	
+5-4	139-148	tydligare	_	_	_	_	_	
+5-5	149-152	ett	_	_	_	_	_	
+5-6	153-161	tillhåll	_	_	_	_	_	
+5-7	162-165	för	_	_	_	_	_	
+5-8	166-174	fifflare	*	Target	5-8	false	2	
+5-9	175-178	och	_	_	_	_	_	
+5-10	179-189	lycksökare	*	Target	5-10	false	2	
+5-11	189-190	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	192-193	#	_	_	_	_	_	
+6-2	193-194	P	_	_	_	_	_	
+6-3	195-198	IMM	_	_	_	_	_	
+6-4	198-199	.	_	_	_	_	_	
+
+#Text=Vem är kvinnan som bygger det här asylboendet?.
+7-1	201-204	Vem	_	_	_	_	_	
+7-2	205-207	är	_	_	_	_	_	
+7-3	208-215	kvinnan	_	_	_	_	_	
+7-4	216-219	som	_	_	_	_	_	
+7-5	220-226	bygger	_	_	_	_	_	
+7-6	227-230	det	_	_	_	_	_	
+7-7	231-234	här	_	_	_	_	_	
+7-8	235-246	asylboendet	_	_	_	_	_	
+7-9	246-247	?	_	_	_	_	_	
+7-10	247-248	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	250-251	#	_	_	_	_	_	
+8-2	251-252	P	_	_	_	_	_	
+8-3	253-256	IMM	_	_	_	_	_	
+8-4	256-257	.	_	_	_	_	_	
+
+#Text=Hur kan Migrationsverket ens överväga att samarbeta med ett företag som är känt för att vara oseriöst?.
+9-1	259-262	Hur	_	_	_	_	_	
+9-2	263-266	kan	_	_	_	_	_	
+9-3	267-283	Migrationsverket	*	_	_	_	_	
+9-4	284-287	ens	_	_	_	_	_	
+9-5	288-296	överväga	_	_	_	_	_	
+9-6	297-300	att	_	_	_	_	_	
+9-7	301-310	samarbeta	_	_	_	_	_	
+9-8	311-314	med	_	_	_	_	_	
+9-9	315-318	ett	_	_	_	_	_	
+9-10	319-326	företag	*	_	_	_	_	
+9-11	327-330	som	_	_	_	_	_	
+9-12	331-333	är	_	Target[2]	9-10	false[2]	2[2]	
+9-13	334-338	känt	_	Target[2]	9-10	false[2]	2[2]	
+9-14	339-342	för	_	Target[2]	9-10	false[2]	2[2]	
+9-15	343-346	att	_	Target[2]	9-10	false[2]	2[2]	
+9-16	347-351	vara	_	Target[2]	9-10	false[2]	2[2]	
+9-17	352-360	oseriöst	_	Target[2]	9-10	false[2]	2[2]	
+9-18	360-361	?	_	_	_	_	_	
+9-19	361-362	.	_	Target	9-3	false	2	

@@ -1,0 +1,999 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Anna-Karin Hatt hade visst rätt.
+3-1	18-28	Anna-Karin	*[18]	_	_	_	_	
+3-2	29-33	Hatt	*[18]	_	_	_	_	
+3-3	34-38	hade	_	Target[1]	3-1[18]	false[1]	4[1]	
+3-4	39-44	visst	_	Target[1]	3-1[18]	false[1]	4[1]	
+3-5	45-49	rätt	_	Target[1]	3-1[18]	false[1]	4[1]	
+3-6	49-50	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	
+
+#Text=IT-ministern gav med rätta sjukvårdshuvudmännen huvudansvaret för den bedrövliga och farliga situationen när det gäller bristen på kommunikation mellan olika vårdenheter.
+5-1	61-73	IT-ministern	_	_	_	_	_	
+5-2	74-77	gav	_	Target[2]	5-5[19]	false[2]	4[2]	
+5-3	78-81	med	_	Target[2]	5-5[19]	false[2]	4[2]	
+5-4	82-87	rätta	_	Target[2]	5-5[19]	false[2]	4[2]	
+5-5	88-108	sjukvårdshuvudmännen	*[19]	_	_	_	_	
+5-6	109-122	huvudansvaret	*[19]	_	_	_	_	
+5-7	123-126	för	*[19]	_	_	_	_	
+5-8	127-130	den	*[19]	Target[3]	5-12[20]	false[3]	1[3]	
+5-9	131-141	bedrövliga	*[19]	Target[3]	5-12[20]	false[3]	1[3]	
+5-10	142-145	och	*[19]	Target[3]	5-12[20]	false[3]	1[3]	
+5-11	146-153	farliga	*[19]	Target[3]	5-12[20]	false[3]	1[3]	
+5-12	154-165	situationen	*[19]|*[20]	_	_	_	_	
+5-13	166-169	när	*[19]|*[20]	_	_	_	_	
+5-14	170-173	det	*[19]|*[20]	_	_	_	_	
+5-15	174-180	gäller	*[19]|*[20]	_	_	_	_	
+5-16	181-188	bristen	*[19]|*[20]	_	_	_	_	
+5-17	189-191	på	*[19]|*[20]	_	_	_	_	
+5-18	192-205	kommunikation	*[19]|*[20]	_	_	_	_	
+5-19	206-212	mellan	*[19]|*[20]	_	_	_	_	
+5-20	213-218	olika	*[19]|*[20]	_	_	_	_	
+5-21	219-230	vårdenheter	*[19]|*[20]	_	_	_	_	
+5-22	230-231	.	_	_	_	_	_	
+
+#Text=Lagstöd för detta arbete fanns långt före 2008.
+6-1	232-239	Lagstöd	_	_	_	_	_	
+6-2	240-243	för	_	_	_	_	_	
+6-3	244-249	detta	_	_	_	_	_	
+6-4	250-256	arbete	_	_	_	_	_	
+6-5	257-262	fanns	_	_	_	_	_	
+6-6	263-268	långt	_	_	_	_	_	
+6-7	269-273	före	_	_	_	_	_	
+6-8	274-278	2008	_	_	_	_	_	
+6-9	278-279	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	281-282	#	_	_	_	_	_	
+7-2	282-283	P	_	_	_	_	_	
+7-3	284-287	IMM	_	_	_	_	_	
+7-4	287-288	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+8-1	290-293	Det	_	_	_	_	_	
+8-2	294-297	här	_	_	_	_	_	
+8-3	298-300	är	_	_	_	_	_	
+8-4	301-303	en	_	_	_	_	_	
+8-5	304-318	argumenterande	_	_	_	_	_	
+8-6	319-323	text	_	_	_	_	_	
+8-7	324-327	med	_	_	_	_	_	
+8-8	328-333	syfte	_	_	_	_	_	
+8-9	334-337	att	_	_	_	_	_	
+8-10	338-345	påverka	_	_	_	_	_	
+8-11	345-346	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+9-1	347-356	Åsikterna	_	_	_	_	_	
+9-2	357-360	som	_	_	_	_	_	
+9-3	361-369	uttrycks	_	_	_	_	_	
+9-4	370-372	är	_	_	_	_	_	
+9-5	373-384	skribentens	_	_	_	_	_	
+9-6	385-389	egna	_	_	_	_	_	
+9-7	389-390	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	392-393	#	_	_	_	_	_	
+10-2	393-394	P	_	_	_	_	_	
+10-3	395-398	IMM	_	_	_	_	_	
+10-4	398-399	.	_	_	_	_	_	
+
+#Text=Den nya IT-ministern, Anna-Karin Hatt har i ett tal den 27/10,"En digital agenda för Sverige" bland annat pekat på bristerna i vårdens IT:.
+11-1	401-404	Den	_	_	_	_	_	
+11-2	405-408	nya	_	_	_	_	_	
+11-3	409-421	IT-ministern	_	_	_	_	_	
+11-4	421-422	,	_	_	_	_	_	
+11-5	423-433	Anna-Karin	_	_	_	_	_	
+11-6	434-438	Hatt	_	_	_	_	_	
+11-7	439-442	har	_	_	_	_	_	
+11-8	443-444	i	_	_	_	_	_	
+11-9	445-448	ett	_	_	_	_	_	
+11-10	449-452	tal	_	_	_	_	_	
+11-11	453-456	den	_	_	_	_	_	
+11-12	457-459	27	_	_	_	_	_	
+11-13	459-460	/	_	_	_	_	_	
+11-14	460-462	10	_	_	_	_	_	
+11-15	462-463	,	_	_	_	_	_	
+11-16	463-464	"	_	_	_	_	_	
+11-17	464-466	En	_	_	_	_	_	
+11-18	467-474	digital	_	_	_	_	_	
+11-19	475-481	agenda	_	_	_	_	_	
+11-20	482-485	för	_	_	_	_	_	
+11-21	486-493	Sverige	_	_	_	_	_	
+11-22	493-494	"	_	_	_	_	_	
+11-23	495-500	bland	_	_	_	_	_	
+11-24	501-506	annat	_	_	_	_	_	
+11-25	507-512	pekat	_	Target[4]	11-29[21]	false[4]	2[4]	
+11-26	513-515	på	_	Target[4]	11-29[21]	false[4]	2[4]	
+11-27	516-525	bristerna	_	Target[4]	11-29[21]	false[4]	2[4]	
+11-28	526-527	i	_	Target[4]	11-29[21]	false[4]	2[4]	
+11-29	528-535	vårdens	*[21]	_	_	_	_	
+11-30	536-538	IT	*[21]	_	_	_	_	
+11-31	538-539	:	_	_	_	_	_	
+11-32	539-540	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	542-543	#	_	_	_	_	_	
+12-2	543-544	P	_	_	_	_	_	
+12-3	545-548	IMM	_	_	_	_	_	
+12-4	548-549	.	_	_	_	_	_	
+
+#Text="Bristande samordning och ineffektiva system (i vården) är bokstavligt talat livsfarligt: ... det är nödvändigt med journalsystem som på ett säkert sätt kan prata med varandra.
+13-1	551-552	"	_	_	_	_	_	
+13-2	552-561	Bristande	*[22]	_	_	_	_	
+13-3	562-572	samordning	*[22]	_	_	_	_	
+13-4	573-576	och	*[22]	_	_	_	_	
+13-5	577-588	ineffektiva	*[22]	_	_	_	_	
+13-6	589-595	system	*[22]	_	_	_	_	
+13-7	596-597	(	_	_	_	_	_	
+13-8	597-598	i	_	_	_	_	_	
+13-9	599-605	vården	_	_	_	_	_	
+13-10	605-606	)	_	_	_	_	_	
+13-11	607-609	är	_	Target[5]	13-2[22]	false[5]	2[5]	
+13-12	610-621	bokstavligt	_	Target[5]	13-2[22]	false[5]	2[5]	
+13-13	622-627	talat	_	Target[5]	13-2[22]	false[5]	2[5]	
+13-14	628-639	livsfarligt	_	Target[5]	13-2[22]	false[5]	2[5]	
+13-15	639-640	:	_	_	_	_	_	
+13-16	641-642	.	_	_	_	_	_	
+13-17	642-643	.	_	_	_	_	_	
+13-18	643-644	.	_	_	_	_	_	
+13-19	645-648	det	_	_	_	_	_	
+13-20	649-651	är	_	Target[6]	13-23[23]	false[6]	4[6]	
+13-21	652-662	nödvändigt	_	Target[6]	13-23[23]	false[6]	4[6]	
+13-22	663-666	med	_	Target[6]	13-23[23]	false[6]	4[6]	
+13-23	667-680	journalsystem	*[23]	_	_	_	_	
+13-24	681-684	som	*[23]	_	_	_	_	
+13-25	685-687	på	*[23]	_	_	_	_	
+13-26	688-691	ett	*[23]	_	_	_	_	
+13-27	692-698	säkert	*[23]	_	_	_	_	
+13-28	699-703	sätt	*[23]	_	_	_	_	
+13-29	704-707	kan	*[23]	_	_	_	_	
+13-30	708-713	prata	*[23]	_	_	_	_	
+13-31	714-717	med	*[23]	_	_	_	_	
+13-32	718-726	varandra	*[23]	_	_	_	_	
+13-33	726-727	.	_	_	_	_	_	
+
+#Text=Med etablerade och gemensamma standarder kan vi åstadkomma det.".
+14-1	728-731	Med	_	_	_	_	_	
+14-2	732-742	etablerade	_	_	_	_	_	
+14-3	743-746	och	_	_	_	_	_	
+14-4	747-757	gemensamma	_	_	_	_	_	
+14-5	758-768	standarder	_	_	_	_	_	
+14-6	769-772	kan	_	_	_	_	_	
+14-7	773-775	vi	_	_	_	_	_	
+14-8	776-786	åstadkomma	_	_	_	_	_	
+14-9	787-790	det	_	_	_	_	_	
+14-10	790-791	.	_	_	_	_	_	
+14-11	791-792	"	_	_	_	_	_	
+14-12	792-793	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	795-796	#	_	_	_	_	_	
+15-2	796-797	P	_	_	_	_	_	
+15-3	798-801	IMM	_	_	_	_	_	
+15-4	801-802	.	_	_	_	_	_	
+
+#Text=Styrelsen för Center för eHälsa i samverkan (CeHis) under ledning av landstingsdirektör Mona Boström har känt sig träffade av kritiken ochförsvarar sig i SvD 12/11: "Före patientdatalagen (juli 2008) var det endast tillåtet att ha patientuppgifter från den egna kliniken eller vårdcentralen i sin dator.".
+16-1	804-813	Styrelsen	_	_	_	_	_	
+16-2	814-817	för	_	_	_	_	_	
+16-3	818-824	Center	_	_	_	_	_	
+16-4	825-828	för	_	_	_	_	_	
+16-5	829-835	eHälsa	_	_	_	_	_	
+16-6	836-837	i	_	_	_	_	_	
+16-7	838-847	samverkan	_	_	_	_	_	
+16-8	848-849	(	_	_	_	_	_	
+16-9	849-854	CeHis	_	_	_	_	_	
+16-10	854-855	)	_	_	_	_	_	
+16-11	856-861	under	_	_	_	_	_	
+16-12	862-869	ledning	_	_	_	_	_	
+16-13	870-872	av	_	_	_	_	_	
+16-14	873-891	landstingsdirektör	_	_	_	_	_	
+16-15	892-896	Mona	_	_	_	_	_	
+16-16	897-904	Boström	_	_	_	_	_	
+16-17	905-908	har	_	_	_	_	_	
+16-18	909-913	känt	_	_	_	_	_	
+16-19	914-917	sig	_	_	_	_	_	
+16-20	918-926	träffade	_	_	_	_	_	
+16-21	927-929	av	_	_	_	_	_	
+16-22	930-938	kritiken	_	_	_	_	_	
+16-23	939-951	ochförsvarar	_	_	_	_	_	
+16-24	952-955	sig	_	_	_	_	_	
+16-25	956-957	i	_	_	_	_	_	
+16-26	958-961	SvD	_	_	_	_	_	
+16-27	962-964	12	_	_	_	_	_	
+16-28	964-965	/	_	_	_	_	_	
+16-29	965-967	11	_	_	_	_	_	
+16-30	967-968	:	_	_	_	_	_	
+16-31	969-970	"	_	_	_	_	_	
+16-32	970-974	Före	_	_	_	_	_	
+16-33	975-991	patientdatalagen	_	_	_	_	_	
+16-34	992-993	(	_	_	_	_	_	
+16-35	993-997	juli	_	_	_	_	_	
+16-36	998-1002	2008	_	_	_	_	_	
+16-37	1002-1003	)	_	_	_	_	_	
+16-38	1004-1007	var	_	_	_	_	_	
+16-39	1008-1011	det	_	_	_	_	_	
+16-40	1012-1018	endast	_	_	_	_	_	
+16-41	1019-1027	tillåtet	_	_	_	_	_	
+16-42	1028-1031	att	_	_	_	_	_	
+16-43	1032-1034	ha	_	_	_	_	_	
+16-44	1035-1051	patientuppgifter	_	_	_	_	_	
+16-45	1052-1056	från	_	_	_	_	_	
+16-46	1057-1060	den	_	_	_	_	_	
+16-47	1061-1065	egna	_	_	_	_	_	
+16-48	1066-1074	kliniken	_	_	_	_	_	
+16-49	1075-1080	eller	_	_	_	_	_	
+16-50	1081-1094	vårdcentralen	_	_	_	_	_	
+16-51	1095-1096	i	_	_	_	_	_	
+16-52	1097-1100	sin	_	_	_	_	_	
+16-53	1101-1106	dator	_	_	_	_	_	
+16-54	1106-1107	.	_	_	_	_	_	
+16-55	1107-1108	"	_	_	_	_	_	
+16-56	1108-1109	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1111-1112	#	_	_	_	_	_	
+17-2	1112-1113	P	_	_	_	_	_	
+17-3	1114-1117	IMM	_	_	_	_	_	
+17-4	1117-1118	.	_	_	_	_	_	
+
+#Text=Men det är inte sant att det skulle varit olagligt att ha journal från en annan vårdgivare i sin dator.
+18-1	1120-1123	Men	_	_	_	_	_	
+18-2	1124-1127	det	_	_	_	_	_	
+18-3	1128-1130	är	_	_	_	_	_	
+18-4	1131-1135	inte	_	_	_	_	_	
+18-5	1136-1140	sant	_	_	_	_	_	
+18-6	1141-1144	att	_	_	_	_	_	
+18-7	1145-1148	det	_	_	_	_	_	
+18-8	1149-1155	skulle	_	_	_	_	_	
+18-9	1156-1161	varit	_	_	_	_	_	
+18-10	1162-1170	olagligt	_	_	_	_	_	
+18-11	1171-1174	att	_	_	_	_	_	
+18-12	1175-1177	ha	_	_	_	_	_	
+18-13	1178-1185	journal	_	_	_	_	_	
+18-14	1186-1190	från	_	_	_	_	_	
+18-15	1191-1193	en	_	_	_	_	_	
+18-16	1194-1199	annan	_	_	_	_	_	
+18-17	1200-1210	vårdgivare	_	_	_	_	_	
+18-18	1211-1212	i	_	_	_	_	_	
+18-19	1213-1216	sin	_	_	_	_	_	
+18-20	1217-1222	dator	_	_	_	_	_	
+18-21	1222-1223	.	_	_	_	_	_	
+
+#Text=Vi i vården har alltid haft laglig möjlighet att rekvirera kopior på journaler från andra vårdenheter och lagra dem i vår dator.
+19-1	1224-1226	Vi	_	_	_	_	_	
+19-2	1227-1228	i	_	_	_	_	_	
+19-3	1229-1235	vården	_	_	_	_	_	
+19-4	1236-1239	har	_	_	_	_	_	
+19-5	1240-1246	alltid	_	_	_	_	_	
+19-6	1247-1251	haft	_	_	_	_	_	
+19-7	1252-1258	laglig	_	_	_	_	_	
+19-8	1259-1268	möjlighet	_	_	_	_	_	
+19-9	1269-1272	att	_	_	_	_	_	
+19-10	1273-1282	rekvirera	_	_	_	_	_	
+19-11	1283-1289	kopior	_	_	_	_	_	
+19-12	1290-1292	på	_	_	_	_	_	
+19-13	1293-1302	journaler	_	_	_	_	_	
+19-14	1303-1307	från	_	_	_	_	_	
+19-15	1308-1313	andra	_	_	_	_	_	
+19-16	1314-1325	vårdenheter	_	_	_	_	_	
+19-17	1326-1329	och	_	_	_	_	_	
+19-18	1330-1335	lagra	_	_	_	_	_	
+19-19	1336-1339	dem	_	_	_	_	_	
+19-20	1340-1341	i	_	_	_	_	_	
+19-21	1342-1345	vår	_	_	_	_	_	
+19-22	1346-1351	dator	_	_	_	_	_	
+19-23	1351-1352	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1354-1355	#	_	_	_	_	_	
+20-2	1355-1356	P	_	_	_	_	_	
+20-3	1357-1360	IMM	_	_	_	_	_	
+20-4	1360-1361	.	_	_	_	_	_	
+
+#Text=Ett annat exempel är då en patient skrivs ut från sjukhus för fortsatt uppföljning i primärvården.
+21-1	1363-1366	Ett	_	_	_	_	_	
+21-2	1367-1372	annat	_	_	_	_	_	
+21-3	1373-1380	exempel	_	_	_	_	_	
+21-4	1381-1383	är	_	_	_	_	_	
+21-5	1384-1386	då	_	_	_	_	_	
+21-6	1387-1389	en	_	_	_	_	_	
+21-7	1390-1397	patient	_	_	_	_	_	
+21-8	1398-1404	skrivs	_	_	_	_	_	
+21-9	1405-1407	ut	_	_	_	_	_	
+21-10	1408-1412	från	_	_	_	_	_	
+21-11	1413-1420	sjukhus	_	_	_	_	_	
+21-12	1421-1424	för	_	_	_	_	_	
+21-13	1425-1433	fortsatt	_	_	_	_	_	
+21-14	1434-1445	uppföljning	_	_	_	_	_	
+21-15	1446-1447	i	_	_	_	_	_	
+21-16	1448-1460	primärvården	_	_	_	_	_	
+21-17	1460-1461	.	_	_	_	_	_	
+
+#Text=Då skickas en journalsammanfattning till vårdcentralen.
+22-1	1462-1464	Då	_	_	_	_	_	
+22-2	1465-1472	skickas	_	_	_	_	_	
+22-3	1473-1475	en	_	_	_	_	_	
+22-4	1476-1497	journalsammanfattning	_	_	_	_	_	
+22-5	1498-1502	till	_	_	_	_	_	
+22-6	1503-1516	vårdcentralen	_	_	_	_	_	
+22-7	1516-1517	.	_	_	_	_	_	
+
+#Text=När primärvården remitterar patienter till sjukhus kan man skicka med en pappersutskrift från sin datorjournal med post eller fax som sedan skannas och lagras i sjukhusets dator.
+23-1	1518-1521	När	_	_	_	_	_	
+23-2	1522-1534	primärvården	_	_	_	_	_	
+23-3	1535-1545	remitterar	_	_	_	_	_	
+23-4	1546-1555	patienter	_	_	_	_	_	
+23-5	1556-1560	till	_	_	_	_	_	
+23-6	1561-1568	sjukhus	_	_	_	_	_	
+23-7	1569-1572	kan	_	_	_	_	_	
+23-8	1573-1576	man	_	_	_	_	_	
+23-9	1577-1583	skicka	_	_	_	_	_	
+23-10	1584-1587	med	_	_	_	_	_	
+23-11	1588-1590	en	_	_	_	_	_	
+23-12	1591-1606	pappersutskrift	_	_	_	_	_	
+23-13	1607-1611	från	_	_	_	_	_	
+23-14	1612-1615	sin	_	_	_	_	_	
+23-15	1616-1628	datorjournal	_	_	_	_	_	
+23-16	1629-1632	med	_	_	_	_	_	
+23-17	1633-1637	post	_	_	_	_	_	
+23-18	1638-1643	eller	_	_	_	_	_	
+23-19	1644-1647	fax	_	_	_	_	_	
+23-20	1648-1651	som	_	_	_	_	_	
+23-21	1652-1657	sedan	_	_	_	_	_	
+23-22	1658-1665	skannas	_	_	_	_	_	
+23-23	1666-1669	och	_	_	_	_	_	
+23-24	1670-1676	lagras	_	_	_	_	_	
+23-25	1677-1678	i	_	_	_	_	_	
+23-26	1679-1689	sjukhusets	_	_	_	_	_	
+23-27	1690-1695	dator	_	_	_	_	_	
+23-28	1695-1696	.	_	_	_	_	_	
+
+#Text=Det finns inte något legalt hinder för att i stället skicka detta elektroniskt.
+24-1	1697-1700	Det	_	_	_	_	_	
+24-2	1701-1706	finns	_	_	_	_	_	
+24-3	1707-1711	inte	_	_	_	_	_	
+24-4	1712-1717	något	_	_	_	_	_	
+24-5	1718-1724	legalt	_	_	_	_	_	
+24-6	1725-1731	hinder	_	_	_	_	_	
+24-7	1732-1735	för	_	_	_	_	_	
+24-8	1736-1739	att	_	_	_	_	_	
+24-9	1740-1741	i	_	_	_	_	_	
+24-10	1742-1749	stället	_	_	_	_	_	
+24-11	1750-1756	skicka	_	_	_	_	_	
+24-12	1757-1762	detta	_	_	_	_	_	
+24-13	1763-1775	elektroniskt	_	_	_	_	_	
+24-14	1775-1776	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1778-1779	#	_	_	_	_	_	
+25-2	1779-1780	P	_	_	_	_	_	
+25-3	1781-1784	IMM	_	_	_	_	_	
+25-4	1784-1785	.	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+26-1	1787-1800	Skräddarsydda	_	_	_	_	_	
+26-2	1801-1807	kurser	_	_	_	_	_	
+26-3	1808-1809	i	_	_	_	_	_	
+26-4	1810-1815	ämnen	_	_	_	_	_	
+26-5	1816-1819	som	_	_	_	_	_	
+26-6	1820-1831	intresserar	_	_	_	_	_	
+26-7	1832-1835	och	_	_	_	_	_	
+26-8	1836-1845	engagerar	_	_	_	_	_	
+26-9	1846-1850	både	_	_	_	_	_	
+26-10	1851-1856	kropp	_	_	_	_	_	
+26-11	1857-1860	och	_	_	_	_	_	
+26-12	1861-1865	själ	_	_	_	_	_	
+26-13	1865-1866	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1868-1869	#	_	_	_	_	_	
+27-2	1869-1870	P	_	_	_	_	_	
+27-3	1871-1874	IMM	_	_	_	_	_	
+27-4	1874-1875	.	_	_	_	_	_	
+
+#Text=Regelverket för detta beskrivs i Patientdatautredningen och kallas utlämnande på medium för automatisk databehandling som inkluderar e-post.
+28-1	1877-1888	Regelverket	_	_	_	_	_	
+28-2	1889-1892	för	_	_	_	_	_	
+28-3	1893-1898	detta	_	_	_	_	_	
+28-4	1899-1907	beskrivs	_	_	_	_	_	
+28-5	1908-1909	i	_	_	_	_	_	
+28-6	1910-1932	Patientdatautredningen	_	_	_	_	_	
+28-7	1933-1936	och	_	_	_	_	_	
+28-8	1937-1943	kallas	_	_	_	_	_	
+28-9	1944-1954	utlämnande	_	_	_	_	_	
+28-10	1955-1957	på	_	_	_	_	_	
+28-11	1958-1964	medium	_	_	_	_	_	
+28-12	1965-1968	för	_	_	_	_	_	
+28-13	1969-1979	automatisk	_	_	_	_	_	
+28-14	1980-1994	databehandling	_	_	_	_	_	
+28-15	1995-1998	som	_	_	_	_	_	
+28-16	1999-2009	inkluderar	_	_	_	_	_	
+28-17	2010-2016	e-post	_	_	_	_	_	
+28-18	2016-2017	.	_	_	_	_	_	
+
+#Text=Det följer av Offentlighets- och sekretesslagen men kräver att det görs en så kallad menprövning av den som lämnar ut uppgifterna till annan vårdgivare.
+29-1	2018-2021	Det	_	_	_	_	_	
+29-2	2022-2028	följer	_	_	_	_	_	
+29-3	2029-2031	av	_	_	_	_	_	
+29-4	2032-2045	Offentlighets	_	_	_	_	_	
+29-5	2045-2046	-	_	_	_	_	_	
+29-6	2047-2050	och	_	_	_	_	_	
+29-7	2051-2065	sekretesslagen	_	_	_	_	_	
+29-8	2066-2069	men	_	_	_	_	_	
+29-9	2070-2076	kräver	_	_	_	_	_	
+29-10	2077-2080	att	_	_	_	_	_	
+29-11	2081-2084	det	_	_	_	_	_	
+29-12	2085-2089	görs	_	_	_	_	_	
+29-13	2090-2092	en	_	_	_	_	_	
+29-14	2093-2095	så	_	_	_	_	_	
+29-15	2096-2102	kallad	_	_	_	_	_	
+29-16	2103-2114	menprövning	_	_	_	_	_	
+29-17	2115-2117	av	_	_	_	_	_	
+29-18	2118-2121	den	_	_	_	_	_	
+29-19	2122-2125	som	_	_	_	_	_	
+29-20	2126-2132	lämnar	_	_	_	_	_	
+29-21	2133-2135	ut	_	_	_	_	_	
+29-22	2136-2147	uppgifterna	_	_	_	_	_	
+29-23	2148-2152	till	_	_	_	_	_	
+29-24	2153-2158	annan	_	_	_	_	_	
+29-25	2159-2169	vårdgivare	_	_	_	_	_	
+29-26	2169-2170	.	_	_	_	_	_	
+
+#Text=Givetvis behöver man säkerställa att elektronisk kommunikation mellan enheter sker på ett betryggande sätt.
+30-1	2171-2179	Givetvis	_	Target[7]	30-4[24]	false[7]	5[7]	
+30-2	2180-2187	behöver	_	Target[7]	30-4[24]	false[7]	5[7]	
+30-3	2188-2191	man	_	Target[7]	30-4[24]	false[7]	5[7]	
+30-4	2192-2203	säkerställa	*[24]	_	_	_	_	
+30-5	2204-2207	att	*[24]	_	_	_	_	
+30-6	2208-2219	elektronisk	*[24]	_	_	_	_	
+30-7	2220-2233	kommunikation	*[24]	_	_	_	_	
+30-8	2234-2240	mellan	*[24]	_	_	_	_	
+30-9	2241-2248	enheter	*[24]	_	_	_	_	
+30-10	2249-2253	sker	*[24]	_	_	_	_	
+30-11	2254-2256	på	*[24]	_	_	_	_	
+30-12	2257-2260	ett	*[24]	_	_	_	_	
+30-13	2261-2272	betryggande	*[24]	_	_	_	_	
+30-14	2273-2277	sätt	*[24]	_	_	_	_	
+30-15	2277-2278	.	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2280-2281	#	_	_	_	_	_	
+31-2	2281-2282	P	_	_	_	_	_	
+31-3	2283-2286	IMM	_	_	_	_	_	
+31-4	2286-2287	.	_	_	_	_	_	
+
+#Text=Landstingen verkar inte ha förstått vikten av att satsa på sådan kommunikation.
+32-1	2289-2300	Landstingen	*	_	_	_	_	
+32-2	2301-2307	verkar	_	Target[8]	32-1	false[8]	2[8]	
+32-3	2308-2312	inte	_	Target[8]	32-1	false[8]	2[8]	
+32-4	2313-2315	ha	_	Target[8]	32-1	false[8]	2[8]	
+32-5	2316-2324	förstått	_	Target[8]	32-1	false[8]	2[8]	
+32-6	2325-2331	vikten	_	Target[8]	32-1	false[8]	2[8]	
+32-7	2332-2334	av	_	Target[8]	32-1	false[8]	2[8]	
+32-8	2335-2338	att	_	Target[8]	32-1	false[8]	2[8]	
+32-9	2339-2344	satsa	_	Target[8]	32-1	false[8]	2[8]	
+32-10	2345-2347	på	_	Target[8]	32-1	false[8]	2[8]	
+32-11	2348-2353	sådan	_	Target[8]	32-1	false[8]	2[8]	
+32-12	2354-2367	kommunikation	_	Target[8]	32-1	false[8]	2[8]	
+32-13	2367-2368	.	_	_	_	_	_	
+
+#Text=Helst, men inte helt nödvändigt, borde man följa de internationella standarderna för journalöverföring.
+33-1	2369-2374	Helst	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-2	2374-2375	,	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-3	2376-2379	men	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-4	2380-2384	inte	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-5	2385-2389	helt	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-6	2390-2400	nödvändigt	_	Target[9]	33-8[25]	false[9]	4[9]	
+33-7	2400-2401	,	_	_	_	_	_	
+33-8	2402-2407	borde	*[25]	_	_	_	_	
+33-9	2408-2411	man	*[25]	_	_	_	_	
+33-10	2412-2417	följa	*[25]	_	_	_	_	
+33-11	2418-2420	de	*[25]	_	_	_	_	
+33-12	2421-2436	internationella	*[25]	_	_	_	_	
+33-13	2437-2449	standarderna	*[25]	_	_	_	_	
+33-14	2450-2453	för	*[25]	_	_	_	_	
+33-15	2454-2471	journalöverföring	*[25]	_	_	_	_	
+33-16	2471-2472	.	_	_	_	_	_	
+
+#Text=Det är väsentligt att åtminstone uppgifter om aktuella läkemedel och varningar skickas standardiserat så att de kan användas aktivt i mottagande system.
+34-1	2473-2476	Det	_	_	_	_	_	
+34-2	2477-2479	är	_	Target[10]	34-4[26]	false[10]	5[10]	
+34-3	2480-2490	väsentligt	_	Target[10]	34-4[26]	false[10]	5[10]	
+34-4	2491-2494	att	*[26]	_	_	_	_	
+34-5	2495-2505	åtminstone	*[26]	_	_	_	_	
+34-6	2506-2515	uppgifter	*[26]	_	_	_	_	
+34-7	2516-2518	om	*[26]	_	_	_	_	
+34-8	2519-2527	aktuella	*[26]	_	_	_	_	
+34-9	2528-2537	läkemedel	*[26]	_	_	_	_	
+34-10	2538-2541	och	*[26]	_	_	_	_	
+34-11	2542-2551	varningar	*[26]	_	_	_	_	
+34-12	2552-2559	skickas	*[26]	_	_	_	_	
+34-13	2560-2574	standardiserat	*[26]	_	_	_	_	
+34-14	2575-2577	så	*[26]	_	_	_	_	
+34-15	2578-2581	att	*[26]	_	_	_	_	
+34-16	2582-2584	de	*[26]	_	_	_	_	
+34-17	2585-2588	kan	*[26]	_	_	_	_	
+34-18	2589-2597	användas	*[26]	_	_	_	_	
+34-19	2598-2604	aktivt	*[26]	_	_	_	_	
+34-20	2605-2606	i	*[26]	_	_	_	_	
+34-21	2607-2617	mottagande	*[26]	_	_	_	_	
+34-22	2618-2624	system	*[26]	_	_	_	_	
+34-23	2624-2625	.	*[26]	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2627-2628	#	_	_	_	_	_	
+35-2	2628-2629	P	_	_	_	_	_	
+35-3	2630-2633	IMM	_	_	_	_	_	
+35-4	2633-2634	.	_	_	_	_	_	
+
+#Text=CeHis skriver att man satsar för fullt på en centraliserad lösning som redan 2012 påstås vara fullt utbyggd, Nationell patientöversikt (NPÖ).
+36-1	2636-2641	CeHis	*	_	_	_	_	
+36-2	2642-2649	skriver	_	_	_	_	_	
+36-3	2650-2653	att	_	_	_	_	_	
+36-4	2654-2657	man	_	_	_	_	_	
+36-5	2658-2664	satsar	_	Target;Source[11]	36-9[27];36-1	false[11]	5[11]	
+36-6	2665-2668	för	_	Target;Source[11]	36-9[27];36-1	false[11]	5[11]	
+36-7	2669-2674	fullt	_	Target;Source[11]	36-9[27];36-1	false[11]	5[11]	
+36-8	2675-2677	på	_	Target;Source[11]	36-9[27];36-1	false[11]	5[11]	
+36-9	2678-2680	en	*[27]	_	_	_	_	
+36-10	2681-2694	centraliserad	*[27]	_	_	_	_	
+36-11	2695-2702	lösning	*[27]	_	_	_	_	
+36-12	2703-2706	som	_	_	_	_	_	
+36-13	2707-2712	redan	_	_	_	_	_	
+36-14	2713-2717	2012	_	_	_	_	_	
+36-15	2718-2724	påstås	_	_	_	_	_	
+36-16	2725-2729	vara	_	_	_	_	_	
+36-17	2730-2735	fullt	_	_	_	_	_	
+36-18	2736-2743	utbyggd	_	_	_	_	_	
+36-19	2743-2744	,	_	_	_	_	_	
+36-20	2745-2754	Nationell	_	_	_	_	_	
+36-21	2755-2770	patientöversikt	_	_	_	_	_	
+36-22	2771-2772	(	_	_	_	_	_	
+36-23	2772-2775	NPÖ	_	_	_	_	_	
+36-24	2775-2776	)	_	_	_	_	_	
+36-25	2776-2777	.	_	_	_	_	_	
+
+#Text=Alla vårdenheter i landet ska ansluta sig och sedan ska alla som jobbar i vården kunna se uppgifter ur alla svenskars journaler bara de kryssar i att de har patientens samtycke.
+37-1	2778-2782	Alla	_	_	_	_	_	
+37-2	2783-2794	vårdenheter	_	_	_	_	_	
+37-3	2795-2796	i	_	_	_	_	_	
+37-4	2797-2803	landet	_	_	_	_	_	
+37-5	2804-2807	ska	_	_	_	_	_	
+37-6	2808-2815	ansluta	_	_	_	_	_	
+37-7	2816-2819	sig	_	_	_	_	_	
+37-8	2820-2823	och	_	_	_	_	_	
+37-9	2824-2829	sedan	_	_	_	_	_	
+37-10	2830-2833	ska	_	_	_	_	_	
+37-11	2834-2838	alla	_	_	_	_	_	
+37-12	2839-2842	som	_	_	_	_	_	
+37-13	2843-2849	jobbar	_	_	_	_	_	
+37-14	2850-2851	i	_	_	_	_	_	
+37-15	2852-2858	vården	_	_	_	_	_	
+37-16	2859-2864	kunna	_	_	_	_	_	
+37-17	2865-2867	se	_	_	_	_	_	
+37-18	2868-2877	uppgifter	_	_	_	_	_	
+37-19	2878-2880	ur	_	_	_	_	_	
+37-20	2881-2885	alla	_	_	_	_	_	
+37-21	2886-2895	svenskars	_	_	_	_	_	
+37-22	2896-2905	journaler	_	_	_	_	_	
+37-23	2906-2910	bara	_	_	_	_	_	
+37-24	2911-2913	de	_	_	_	_	_	
+37-25	2914-2921	kryssar	_	_	_	_	_	
+37-26	2922-2923	i	_	_	_	_	_	
+37-27	2924-2927	att	_	_	_	_	_	
+37-28	2928-2930	de	_	_	_	_	_	
+37-29	2931-2934	har	_	_	_	_	_	
+37-30	2935-2945	patientens	_	_	_	_	_	
+37-31	2946-2954	samtycke	_	_	_	_	_	
+37-32	2954-2955	.	_	_	_	_	_	
+
+#Text=Intentionen är god men svåra tekniska och terminologiska problem skall lösas och riskerna för den personliga integriteten är betydande.
+38-1	2956-2967	Intentionen	*	_	_	_	_	
+38-2	2968-2970	är	_	Target[12]	38-1	false[12]	4[12]	
+38-3	2971-2974	god	_	Target[12]	38-1	false[12]	4[12]	
+38-4	2975-2978	men	_	_	_	_	_	
+38-5	2979-2984	svåra	_	_	_	_	_	
+38-6	2985-2993	tekniska	_	_	_	_	_	
+38-7	2994-2997	och	_	_	_	_	_	
+38-8	2998-3012	terminologiska	_	_	_	_	_	
+38-9	3013-3020	problem	_	_	_	_	_	
+38-10	3021-3026	skall	_	_	_	_	_	
+38-11	3027-3032	lösas	_	_	_	_	_	
+38-12	3033-3036	och	_	_	_	_	_	
+38-13	3037-3045	riskerna	_	_[13]	_	false[13]	4[13]	
+38-14	3046-3049	för	_	_[13]	_	false[13]	4[13]	
+38-15	3050-3053	den	_	_[13]	_	false[13]	4[13]	
+38-16	3054-3064	personliga	_	_[13]	_	false[13]	4[13]	
+38-17	3065-3077	integriteten	_	_[13]	_	false[13]	4[13]	
+38-18	3078-3080	är	_	_[13]	_	false[13]	4[13]	
+38-19	3081-3090	betydande	_	_[13]	_	false[13]	4[13]	
+38-20	3090-3091	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3093-3094	#	_	_	_	_	_	
+39-2	3094-3095	P	_	_	_	_	_	
+39-3	3096-3099	IMM	_	_	_	_	_	
+39-4	3099-3100	.	_	_	_	_	_	
+
+#Text=Denna typ av lösning har varit tillåten sedan 2008 men ännu 2010 hade man inte anpassat projektet till de säkerhetskrav som gäller så Datainspektionen stängde den drift som prövats i Örebro län under en tid.
+40-1	3102-3107	Denna	_	_	_	_	_	
+40-2	3108-3111	typ	_	_	_	_	_	
+40-3	3112-3114	av	_	_	_	_	_	
+40-4	3115-3122	lösning	_	_	_	_	_	
+40-5	3123-3126	har	_	_	_	_	_	
+40-6	3127-3132	varit	_	_	_	_	_	
+40-7	3133-3141	tillåten	_	_	_	_	_	
+40-8	3142-3147	sedan	_	_	_	_	_	
+40-9	3148-3152	2008	_	_	_	_	_	
+40-10	3153-3156	men	_	_	_	_	_	
+40-11	3157-3161	ännu	_	_	_	_	_	
+40-12	3162-3166	2010	_	_	_	_	_	
+40-13	3167-3171	hade	_	_	_	_	_	
+40-14	3172-3175	man	_	_	_	_	_	
+40-15	3176-3180	inte	_	_	_	_	_	
+40-16	3181-3189	anpassat	_	_	_	_	_	
+40-17	3190-3199	projektet	_	_	_	_	_	
+40-18	3200-3204	till	_	_	_	_	_	
+40-19	3205-3207	de	_	_	_	_	_	
+40-20	3208-3221	säkerhetskrav	_	_	_	_	_	
+40-21	3222-3225	som	_	_	_	_	_	
+40-22	3226-3232	gäller	_	_	_	_	_	
+40-23	3233-3235	så	_	_	_	_	_	
+40-24	3236-3252	Datainspektionen	_	_	_	_	_	
+40-25	3253-3260	stängde	_	_	_	_	_	
+40-26	3261-3264	den	_	_	_	_	_	
+40-27	3265-3270	drift	_	_	_	_	_	
+40-28	3271-3274	som	_	_	_	_	_	
+40-29	3275-3282	prövats	_	_	_	_	_	
+40-30	3283-3284	i	_	_	_	_	_	
+40-31	3285-3291	Örebro	_	_	_	_	_	
+40-32	3292-3295	län	_	_	_	_	_	
+40-33	3296-3301	under	_	_	_	_	_	
+40-34	3302-3304	en	_	_	_	_	_	
+40-35	3305-3308	tid	_	_	_	_	_	
+40-36	3308-3309	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3311-3312	#	_	_	_	_	_	
+41-2	3312-3313	P	_	_	_	_	_	
+41-3	3314-3317	IMM	_	_	_	_	_	
+41-4	3317-3318	.	_	_	_	_	_	
+
+#Text=CeHis anser att: "I den nationella debatten tenderar riskerna för den personliga integriteten att överdrivas."
+42-1	3320-3325	CeHis	_	_	_	_	_	
+42-2	3326-3331	anser	_	_	_	_	_	
+42-3	3332-3335	att	_	_	_	_	_	
+42-4	3335-3336	:	_	_	_	_	_	
+42-5	3337-3338	"	_	_	_	_	_	
+42-6	3338-3339	I	_	_	_	_	_	
+42-7	3340-3343	den	_	_	_	_	_	
+42-8	3344-3354	nationella	_	_	_	_	_	
+42-9	3355-3363	debatten	_	_	_	_	_	
+42-10	3364-3372	tenderar	_	_	_	_	_	
+42-11	3373-3381	riskerna	_	_	_	_	_	
+42-12	3382-3385	för	_	_	_	_	_	
+42-13	3386-3389	den	_	_	_	_	_	
+42-14	3390-3400	personliga	_	_	_	_	_	
+42-15	3401-3413	integriteten	_	_	_	_	_	
+42-16	3414-3417	att	_	_	_	_	_	
+42-17	3418-3428	överdrivas	_	_	_	_	_	
+42-18	3428-3429	.	_	_	_	_	_	
+42-19	3429-3430	"	_	_	_	_	_	
+
+#Text=Vi anser att det är rätt att vara försiktig med nationella lösningar när det som krävs är att två enheter kan kommunicera.
+43-1	3431-3433	Vi	_	_	_	_	_	
+43-2	3434-3439	anser	_	Target[14]|Target[15]	43-7[29]|43-3[28]	false[14]|false[15]	4[14]|4[15]	
+43-3	3440-3443	att	*[28]	Target[14]	43-7[29]	false[14]	4[14]	
+43-4	3444-3447	det	*[28]	Target[14]	43-7[29]	false[14]	4[14]	
+43-5	3448-3450	är	*[28]	Target[14]	43-7[29]	false[14]	4[14]	
+43-6	3451-3455	rätt	*[28]	Target[14]	43-7[29]	false[14]	4[14]	
+43-7	3456-3459	att	*[28]|*[29]	_	_	_	_	
+43-8	3460-3464	vara	*[28]|*[29]	_	_	_	_	
+43-9	3465-3474	försiktig	*[28]|*[29]	_	_	_	_	
+43-10	3475-3478	med	*[28]|*[29]	_	_	_	_	
+43-11	3479-3489	nationella	*[28]|*[29]	_	_	_	_	
+43-12	3490-3499	lösningar	*[28]|*[29]	_	_	_	_	
+43-13	3500-3503	när	*[28]|*[29]	_	_	_	_	
+43-14	3504-3507	det	*[28]|*[29]	_	_	_	_	
+43-15	3508-3511	som	*[28]|*[29]	_	_	_	_	
+43-16	3512-3517	krävs	*[28]|*[29]	_	_	_	_	
+43-17	3518-3520	är	*[28]|*[29]	_	_	_	_	
+43-18	3521-3524	att	*[28]|*[29]	_	_	_	_	
+43-19	3525-3528	två	*[28]|*[29]	_	_	_	_	
+43-20	3529-3536	enheter	*[28]|*[29]	_	_	_	_	
+43-21	3537-3540	kan	*[28]|*[29]	_	_	_	_	
+43-22	3541-3552	kommunicera	*[28]|*[29]	_	_	_	_	
+43-23	3552-3553	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3555-3556	#	_	_	_	_	_	
+44-2	3556-3557	P	_	_	_	_	_	
+44-3	3558-3561	IMM	_	_	_	_	_	
+44-4	3561-3562	.	_	_	_	_	_	
+
+#Text=Förberedelserna för anslutning är i de flesta delar av landet fördröjda.
+45-1	3564-3579	Förberedelserna	_	_	_	_	_	
+45-2	3580-3583	för	_	_	_	_	_	
+45-3	3584-3594	anslutning	_	_	_	_	_	
+45-4	3595-3597	är	_	_	_	_	_	
+45-5	3598-3599	i	_	_	_	_	_	
+45-6	3600-3602	de	_	_	_	_	_	
+45-7	3603-3609	flesta	_	_	_	_	_	
+45-8	3610-3615	delar	_	_	_	_	_	
+45-9	3616-3618	av	_	_	_	_	_	
+45-10	3619-3625	landet	_	_	_	_	_	
+45-11	3626-3635	fördröjda	_	_	_	_	_	
+45-12	3635-3636	.	_	_	_	_	_	
+
+#Text=Även om NPÖ kommer fungera i en del av landet så blir det en “titta-lösning" där man i en webbläsare kan visa uppgifter men ingen strategi för den verkliga integration som behövs för att öka patientsäkerheten.
+46-1	3637-3641	Även	_	_	_	_	_	
+46-2	3642-3644	om	_	_	_	_	_	
+46-3	3645-3648	NPÖ	_	_	_	_	_	
+46-4	3649-3655	kommer	_	_	_	_	_	
+46-5	3656-3663	fungera	_	_	_	_	_	
+46-6	3664-3665	i	_	_	_	_	_	
+46-7	3666-3668	en	_	_	_	_	_	
+46-8	3669-3672	del	_	_	_	_	_	
+46-9	3673-3675	av	_	_	_	_	_	
+46-10	3676-3682	landet	_	_	_	_	_	
+46-11	3683-3685	så	_	_	_	_	_	
+46-12	3686-3690	blir	_	_	_	_	_	
+46-13	3691-3694	det	_	_	_	_	_	
+46-14	3695-3697	en	_	_	_	_	_	
+46-15	3698-3699	“	_	_	_	_	_	
+46-16	3699-3712	titta-lösning	_	_	_	_	_	
+46-17	3712-3713	"	_	_	_	_	_	
+46-18	3714-3717	där	_	_	_	_	_	
+46-19	3718-3721	man	_	_	_	_	_	
+46-20	3722-3723	i	_	_	_	_	_	
+46-21	3724-3726	en	_	_	_	_	_	
+46-22	3727-3737	webbläsare	_	_	_	_	_	
+46-23	3738-3741	kan	_	_	_	_	_	
+46-24	3742-3746	visa	_	_	_	_	_	
+46-25	3747-3756	uppgifter	_	_	_	_	_	
+46-26	3757-3760	men	_	_	_	_	_	
+46-27	3761-3766	ingen	_	_	_	_	_	
+46-28	3767-3775	strategi	_	_	_	_	_	
+46-29	3776-3779	för	_	_	_	_	_	
+46-30	3780-3783	den	_	_	_	_	_	
+46-31	3784-3792	verkliga	_	_	_	_	_	
+46-32	3793-3804	integration	_	_	_	_	_	
+46-33	3805-3808	som	_	_	_	_	_	
+46-34	3809-3815	behövs	_	_	_	_	_	
+46-35	3816-3819	för	_	_	_	_	_	
+46-36	3820-3823	att	_	_	_	_	_	
+46-37	3824-3827	öka	_	_	_	_	_	
+46-38	3828-3845	patientsäkerheten	_	_	_	_	_	
+46-39	3845-3846	.	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3848-3849	#	_	_	_	_	_	
+47-2	3849-3850	P	_	_	_	_	_	
+47-3	3851-3854	IMM	_	_	_	_	_	
+47-4	3854-3855	.	_	_	_	_	_	
+
+#Text=Man kan inte skylla på regeringen för att det tar tid.
+48-1	3857-3860	Man	_	_	_	_	_	
+48-2	3861-3864	kan	_	_	_	_	_	
+48-3	3865-3869	inte	_	_	_	_	_	
+48-4	3870-3876	skylla	_	_	_	_	_	
+48-5	3877-3879	på	_	_	_	_	_	
+48-6	3880-3890	regeringen	_	_	_	_	_	
+48-7	3891-3894	för	_	_	_	_	_	
+48-8	3895-3898	att	_	_	_	_	_	
+48-9	3899-3902	det	_	_	_	_	_	
+48-10	3903-3906	tar	_	_	_	_	_	
+48-11	3907-3910	tid	_	_	_	_	_	
+48-12	3910-3911	.	_	_	_	_	_	
+
+#Text=Lösningen är inte heller att patienterna "äger" sin journal.
+49-1	3912-3921	Lösningen	_	Target[16]	49-5[30]	false[16]	2[16]	
+49-2	3922-3924	är	_	Target[16]	49-5[30]	false[16]	2[16]	
+49-3	3925-3929	inte	_	Target[16]	49-5[30]	false[16]	2[16]	
+49-4	3930-3936	heller	_	Target[16]	49-5[30]	false[16]	2[16]	
+49-5	3937-3940	att	*[30]|*[31]	_	_	_	_	
+49-6	3941-3952	patienterna	*[30]|*[31]	_	_	_	_	
+49-7	3953-3954	"	*[30]|*[31]	_	_	_	_	
+49-8	3954-3958	äger	*[30]|*[31]	_	_	_	_	
+49-9	3958-3959	"	*[30]|*[31]	_	_	_	_	
+49-10	3960-3963	sin	*[30]|*[31]	_	_	_	_	
+49-11	3964-3971	journal	*[30]|*[31]	_	_	_	_	
+49-12	3971-3972	.	_	_	_	_	_	
+
+#Text=Det är förvånande att CeHis nu förordar en lagändring som skulle innebära det.
+50-1	3973-3976	Det	_	_	_	_	_	
+50-2	3977-3979	är	_	_	_	_	_	
+50-3	3980-3990	förvånande	_	_	_	_	_	
+50-4	3991-3994	att	_	_	_	_	_	
+50-5	3995-4000	CeHis	_	_	_	_	_	
+50-6	4001-4003	nu	_	_	_	_	_	
+50-7	4004-4012	förordar	_	_	_	_	_	
+50-8	4013-4015	en	_	_	_	_	_	
+50-9	4016-4026	lagändring	_	_	_	_	_	
+50-10	4027-4030	som	_	_	_	_	_	
+50-11	4031-4037	skulle	_	_	_	_	_	
+50-12	4038-4046	innebära	_	_	_	_	_	
+50-13	4047-4050	det	_	_	_	_	_	
+50-14	4050-4051	.	_	_	_	_	_	
+
+#Text=Men vad innebär det egentligen i praktiken?
+51-1	4052-4055	Men	_	_	_	_	_	
+51-2	4056-4059	vad	_	_	_	_	_	
+51-3	4060-4067	innebär	_	_	_	_	_	
+51-4	4068-4071	det	_	_	_	_	_	
+51-5	4072-4082	egentligen	_	_	_	_	_	
+51-6	4083-4084	i	_	_	_	_	_	
+51-7	4085-4094	praktiken	_	_	_	_	_	
+51-8	4094-4095	?	_	_	_	_	_	
+
+#Text=Om man hade läst Patientdatautredningen kunde man fått flera goda skäl varför det är mindre lämpligt.
+52-1	4096-4098	Om	_	_	_	_	_	
+52-2	4099-4102	man	_	_	_	_	_	
+52-3	4103-4107	hade	_	_	_	_	_	
+52-4	4108-4112	läst	_	_	_	_	_	
+52-5	4113-4135	Patientdatautredningen	_	_	_	_	_	
+52-6	4136-4141	kunde	_	_	_	_	_	
+52-7	4142-4145	man	_	_	_	_	_	
+52-8	4146-4150	fått	_	_	_	_	_	
+52-9	4151-4156	flera	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-10	4157-4161	goda	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-11	4162-4166	skäl	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-12	4167-4173	varför	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-13	4174-4177	det	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-14	4178-4180	är	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-15	4181-4187	mindre	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-16	4188-4196	lämpligt	_	Target[17]	49-5[31]	false[17]	2[17]	
+52-17	4196-4197	.	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4199-4200	#	_	_	_	_	_	
+53-2	4200-4201	P	_	_	_	_	_	
+53-3	4202-4205	IMM	_	_	_	_	_	
+53-4	4205-4206	.	_	_	_	_	_	
+
+#Text=URBAN FORSUM.
+54-1	4208-4213	URBAN	_	_	_	_	_	
+54-2	4214-4220	FORSUM	_	_	_	_	_	
+54-3	4220-4221	.	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4223-4224	#	_	_	_	_	_	
+55-2	4224-4225	P	_	_	_	_	_	
+55-3	4226-4229	IMM	_	_	_	_	_	
+55-4	4229-4230	.	_	_	_	_	_	
+
+#Text=professor/överläkare, Linköping universitet/landstinget i Östergötland.
+56-1	4232-4241	professor	_	_	_	_	_	
+56-2	4241-4242	/	_	_	_	_	_	
+56-3	4242-4252	överläkare	_	_	_	_	_	
+56-4	4252-4253	,	_	_	_	_	_	
+56-5	4254-4263	Linköping	_	_	_	_	_	
+56-6	4264-4275	universitet	_	_	_	_	_	
+56-7	4275-4276	/	_	_	_	_	_	
+56-8	4276-4287	landstinget	_	_	_	_	_	
+56-9	4288-4289	i	_	_	_	_	_	
+56-10	4290-4302	Östergötland	_	_	_	_	_	
+56-11	4302-4303	.	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4305-4306	#	_	_	_	_	_	
+57-2	4306-4307	P	_	_	_	_	_	
+57-3	4308-4311	IMM	_	_	_	_	_	
+57-4	4311-4312	.	_	_	_	_	_	
+
+#Text=GUNNAR KLEIN.
+58-1	4314-4320	GUNNAR	_	_	_	_	_	
+58-2	4321-4326	KLEIN	_	_	_	_	_	
+58-3	4326-4327	.	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4329-4330	#	_	_	_	_	_	
+59-2	4330-4331	P	_	_	_	_	_	
+59-3	4332-4335	IMM	_	_	_	_	_	
+59-4	4335-4336	.	_	_	_	_	_	
+
+#Text=med dr, Karolinska Institutet och Råcksta Vällingby Närvård, Praktikertjänst.
+60-1	4338-4341	med	_	_	_	_	_	
+60-2	4342-4344	dr	_	_	_	_	_	
+60-3	4344-4345	,	_	_	_	_	_	
+60-4	4346-4356	Karolinska	_	_	_	_	_	
+60-5	4357-4367	Institutet	_	_	_	_	_	
+60-6	4368-4371	och	_	_	_	_	_	
+60-7	4372-4379	Råcksta	_	_	_	_	_	
+60-8	4380-4389	Vällingby	_	_	_	_	_	
+60-9	4390-4397	Närvård	_	_	_	_	_	
+60-10	4397-4398	,	_	_	_	_	_	
+60-11	4399-4414	Praktikertjänst	_	_	_	_	_	
+60-12	4414-4415	.	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4417-4418	#	_	_	_	_	_	
+61-2	4418-4419	P	_	_	_	_	_	
+61-3	4420-4423	IMM	_	_	_	_	_	
+61-4	4423-4424	.	_	_	_	_	_	
+
+#Text=ROLAND MORGELL.
+62-1	4426-4432	ROLAND	_	_	_	_	_	
+62-2	4433-4440	MORGELL	_	_	_	_	_	
+62-3	4440-4441	.	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4443-4444	#	_	_	_	_	_	
+63-2	4444-4445	P	_	_	_	_	_	
+63-3	4446-4449	IMM	_	_	_	_	_	
+63-4	4449-4450	.	_	_	_	_	_	
+
+#Text=specialist i allmänmedicin, Jorbro vårdcentral, Stockholms läns landsting.
+64-1	4452-4462	specialist	_	_	_	_	_	
+64-2	4463-4464	i	_	_	_	_	_	
+64-3	4465-4478	allmänmedicin	_	_	_	_	_	
+64-4	4478-4479	,	_	_	_	_	_	
+64-5	4480-4486	Jorbro	_	_	_	_	_	
+64-6	4487-4498	vårdcentral	_	_	_	_	_	
+64-7	4498-4499	,	_	_	_	_	_	
+64-8	4500-4510	Stockholms	_	_	_	_	_	
+64-9	4511-4515	läns	_	_	_	_	_	
+64-10	4516-4525	landsting	_	_	_	_	_	
+64-11	4525-4526	.	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4528-4529	#	_	_	_	_	_	
+65-2	4529-4530	P	_	_	_	_	_	
+65-3	4531-4534	IMM	_	_	_	_	_	
+65-4	4534-4535	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+66-1	4537-4545	Redaktör	_	_	_	_	_	
+66-2	4545-4546	:	_	_	_	_	_	
+66-3	4547-4553	Carina	_	_	_	_	_	
+66-4	4554-4562	Stensson	_	_	_	_	_	
+66-5	4562-4563	,	_	_	_	_	_	
+66-6	4564-4574	Biträdande	_	_	_	_	_	
+66-7	4575-4583	redaktör	_	_	_	_	_	
+66-8	4583-4584	:	_	_	_	_	_	
+66-9	4585-4590	Björn	_	_	_	_	_	
+66-10	4591-4597	Jorner	_	_	_	_	_	
+66-11	4597-4598	,	_	_	_	_	_	
+66-12	4599-4603	Mejl	_	_	_	_	_	
+66-13	4603-4604	:	_	_	_	_	_	
+66-14	4605-4611	debatt	_	_	_	_	_	
+66-15	4611-4612	@	_	_	_	_	_	
+66-16	4612-4618	svd.se	_	_	_	_	_	
+66-17	4618-4619	,	_	_	_	_	_	
+66-18	4620-4633	Telefonnummer	_	_	_	_	_	
+66-19	4633-4634	:	_	_	_	_	_	
+66-20	4635-4637	08	_	_	_	_	_	
+66-21	4637-4638	-	_	_	_	_	_	
+66-22	4638-4644	135149	_	_	_	_	_	
+66-23	4644-4645	,	_	_	_	_	_	
+66-24	4646-4653	Twitter	_	_	_	_	_	
+66-25	4653-4654	:	_	_	_	_	_	
+66-26	4655-4656	@	_	_	_	_	_	
+66-27	4656-4665	SvDDebatt	_	_	_	_	_	
+66-28	4665-4666	,	_	_	_	_	_	
+66-29	4667-4675	Facebook	_	_	_	_	_	
+66-30	4675-4676	:	_	_	_	_	_	
+66-31	4677-4680	SvD	_	_	_	_	_	
+66-32	4681-4687	Debatt	_	_	_	_	_	
+66-33	4687-4688	.	_	_	_	_	_	

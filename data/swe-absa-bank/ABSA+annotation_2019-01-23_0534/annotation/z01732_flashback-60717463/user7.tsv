@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Tänker bli svensk medborgare, vill höra era åsikter Tack !
+3-1	18-24	Tänker	_	_	_	_	_	_	
+3-2	25-28	bli	_	_	_	_	_	_	
+3-3	29-35	svensk	_	_	_	_	_	_	
+3-4	36-46	medborgare	_	_	_	_	_	_	
+3-5	46-47	,	_	_	_	_	_	_	
+3-6	48-52	vill	_	Target[1]	3-8[4]	false[1]	4[1]	_	
+3-7	53-57	höra	_	Target[1]	3-8[4]	false[1]	4[1]	_	
+3-8	58-61	era	*[4]|*[5]	_	_	_	_	_	
+3-9	62-69	åsikter	*[4]	_	_	_	_	_	
+3-10	70-74	Tack	_	Target	3-8[5]	false	4	_	
+3-11	75-76	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	78-79	#	_	_	_	_	_	_	
+4-2	79-80	P	_	_	_	_	_	_	
+4-3	81-84	IMM	_	_	_	_	_	_	
+4-4	84-85	.	_	_	_	_	_	_	
+
+#Text=Hej.
+5-1	87-90	Hej	_	_	_	_	_	_	
+5-2	90-91	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	93-94	#	_	_	_	_	_	_	
+6-2	94-95	P	_	_	_	_	_	_	
+6-3	96-99	IMM	_	_	_	_	_	_	
+6-4	99-100	.	_	_	_	_	_	_	
+
+#Text=Jag är i princip född i Sverige dock så har jag ett uppehållstillstånd och ett annat medborgarskap i ett annat land.
+7-1	102-105	Jag	_	_	_	_	_	_	
+7-2	106-108	är	_	_	_	_	_	_	
+7-3	109-110	i	_	_	_	_	_	_	
+7-4	111-118	princip	_	_	_	_	_	_	
+7-5	119-123	född	_	_	_	_	_	_	
+7-6	124-125	i	_	_	_	_	_	_	
+7-7	126-133	Sverige	_	_	_	_	_	_	
+7-8	134-138	dock	_	_	_	_	_	_	
+7-9	139-141	så	_	_	_	_	_	_	
+7-10	142-145	har	_	_	_	_	_	_	
+7-11	146-149	jag	_	_	_	_	_	_	
+7-12	150-153	ett	_	_	_	_	_	_	
+7-13	154-172	uppehållstillstånd	_	_	_	_	_	_	
+7-14	173-176	och	_	_	_	_	_	_	
+7-15	177-180	ett	_	_	_	_	_	_	
+7-16	181-186	annat	_	_	_	_	_	_	
+7-17	187-200	medborgarskap	_	_	_	_	_	_	
+7-18	201-202	i	_	_	_	_	_	_	
+7-19	203-206	ett	_	_	_	_	_	_	
+7-20	207-212	annat	_	_	_	_	_	_	
+7-21	213-217	land	_	_	_	_	_	_	
+7-22	217-218	.	_	_	_	_	_	_	
+
+#Text=Nu vill jag säga upp mitt befintliga medborgarskap i hemlandet och bli istället svensk medborgare och undrar därför hur lång tid det skulle ta att genomföra detta?.
+8-1	219-221	Nu	_	_	_	_	_	_	
+8-2	222-226	vill	_	Target;Source	8-4[6];8-3	false	4	_	
+8-3	227-230	jag	*	_	_	_	_	_	
+8-4	231-235	säga	*[6]	_	_	_	_	_	
+8-5	236-239	upp	*[6]	_	_	_	_	_	
+8-6	240-244	mitt	*[6]	_	_	_	_	_	
+8-7	245-255	befintliga	*[6]	_	_	_	_	_	
+8-8	256-269	medborgarskap	*[6]	_	_	_	_	_	
+8-9	270-271	i	*[6]	_	_	_	_	_	
+8-10	272-281	hemlandet	*[6]	_	_	_	_	_	
+8-11	282-285	och	*[6]	_	_	_	_	_	
+8-12	286-289	bli	*[6]	_	_	_	_	_	
+8-13	290-298	istället	*[6]	_	_	_	_	_	
+8-14	299-305	svensk	*[6]	_	_	_	_	_	
+8-15	306-316	medborgare	*[6]	_	_	_	_	_	
+8-16	317-320	och	_	_	_	_	_	_	
+8-17	321-327	undrar	_	_	_	_	_	_	
+8-18	328-334	därför	_	_	_	_	_	_	
+8-19	335-338	hur	_	_	_	_	_	_	
+8-20	339-343	lång	_	_	_	_	_	_	
+8-21	344-347	tid	_	_	_	_	_	_	
+8-22	348-351	det	_	_	_	_	_	_	
+8-23	352-358	skulle	_	_	_	_	_	_	
+8-24	359-361	ta	_	_	_	_	_	_	
+8-25	362-365	att	_	_	_	_	_	_	
+8-26	366-375	genomföra	_	_	_	_	_	_	
+8-27	376-381	detta	_	_	_	_	_	_	
+8-28	381-382	?	_	_	_	_	_	_	
+8-29	382-383	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	385-386	#	_	_	_	_	_	_	
+9-2	386-387	P	_	_	_	_	_	_	
+9-3	388-391	IMM	_	_	_	_	_	_	
+9-4	391-392	.	_	_	_	_	_	_	
+
+#Text=Anledningen till varför jag vill ansöka om ett svenskt medborgarskap är för att jag tycker att det är på tiden att jag gör det med tanken på alla år jag levt i Sverige, samt så blir man lite avundsjuk på flyktingar som blir svenskar, dessutom så är ju svensk pass väldigt värdefullt och praktiskt.
+10-1	394-405	Anledningen	_	_	_	_	_	_	
+10-2	406-410	till	_	_	_	_	_	_	
+10-3	411-417	varför	_	_	_	_	_	_	
+10-4	418-421	jag	_	_	_	_	_	_	
+10-5	422-426	vill	_	_	_	_	_	_	
+10-6	427-433	ansöka	_	_	_	_	_	_	
+10-7	434-436	om	_	_	_	_	_	_	
+10-8	437-440	ett	_	_	_	_	_	_	
+10-9	441-448	svenskt	_	_	_	_	_	_	
+10-10	449-462	medborgarskap	_	_	_	_	_	_	
+10-11	463-465	är	_	_	_	_	_	_	
+10-12	466-469	för	_	_	_	_	_	_	
+10-13	470-473	att	_	_	_	_	_	_	
+10-14	474-477	jag	_	_	_	_	_	_	
+10-15	478-484	tycker	_	_	_	_	_	_	
+10-16	485-488	att	_	_	_	_	_	_	
+10-17	489-492	det	_	_	_	_	_	_	
+10-18	493-495	är	_	_	_	_	_	_	
+10-19	496-498	på	_	_	_	_	_	_	
+10-20	499-504	tiden	_	_	_	_	_	_	
+10-21	505-508	att	_	_	_	_	_	_	
+10-22	509-512	jag	_	_	_	_	_	_	
+10-23	513-516	gör	_	_	_	_	_	_	
+10-24	517-520	det	_	_	_	_	_	_	
+10-25	521-524	med	_	_	_	_	_	_	
+10-26	525-531	tanken	_	_	_	_	_	_	
+10-27	532-534	på	_	_	_	_	_	_	
+10-28	535-539	alla	_	_	_	_	_	_	
+10-29	540-542	år	_	_	_	_	_	_	
+10-30	543-546	jag	_	_	_	_	_	_	
+10-31	547-551	levt	_	_	_	_	_	_	
+10-32	552-553	i	_	_	_	_	_	_	
+10-33	554-561	Sverige	_	_	_	_	_	_	
+10-34	561-562	,	_	_	_	_	_	_	
+10-35	563-567	samt	_	_	_	_	_	_	
+10-36	568-570	så	_	_	_	_	_	_	
+10-37	571-575	blir	_	_	_	_	_	_	
+10-38	576-579	man	_	_	_	_	_	_	
+10-39	580-584	lite	_	_	_	_	_	_	
+10-40	585-594	avundsjuk	_	_	_	_	_	_	
+10-41	595-597	på	_	_	_	_	_	_	
+10-42	598-608	flyktingar	_	_	_	_	_	_	
+10-43	609-612	som	_	_	_	_	_	_	
+10-44	613-617	blir	_	_	_	_	_	_	
+10-45	618-626	svenskar	_	_	_	_	_	_	
+10-46	626-627	,	_	_	_	_	_	_	
+10-47	628-636	dessutom	_	_	_	_	_	_	
+10-48	637-639	så	_	_	_	_	_	_	
+10-49	640-642	är	_	_	_	false	4	_	
+10-50	643-645	ju	_	_	_	_	_	_	
+10-51	646-652	svensk	*[7]	_	_	_	_	_	
+10-52	653-657	pass	*[7]	_	_	_	_	_	
+10-53	658-665	väldigt	_	Target[2]	10-51[7]	false[2]	4[2]	10-49[0_2]	
+10-54	666-676	värdefullt	_	Target[2]	10-51[7]	false[2]	4[2]	_	
+10-55	677-680	och	_	Target[2]	10-51[7]	false[2]	4[2]	_	
+10-56	681-690	praktiskt	_	Target[2]	10-51[7]	false[2]	4[2]	_	
+10-57	690-691	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	693-694	#	_	_	_	_	_	_	
+11-2	694-695	P	_	_	_	_	_	_	
+11-3	696-699	IMM	_	_	_	_	_	_	
+11-4	699-700	.	_	_	_	_	_	_	
+
+#Text=Jag vill också påpeka att jag har skött mitt liv exemplariskt i Sverige, jag jobbar och betalar skatt samt studerar högre utbildning.
+12-1	702-705	Jag	_	_	_	_	_	_	
+12-2	706-710	vill	_	_	_	_	_	_	
+12-3	711-716	också	_	_	_	_	_	_	
+12-4	717-723	påpeka	_	_	_	_	_	_	
+12-5	724-727	att	_	_	_	_	_	_	
+12-6	728-731	jag	*	_	_	_	_	_	
+12-7	732-735	har	_	Target;Source[3]	12-6;12-6	false[3]	5[3]	_	
+12-8	736-741	skött	_	Target;Source[3]	12-6;12-6	false[3]	5[3]	_	
+12-9	742-746	mitt	_	Target;Source[3]	12-6;12-6	false[3]	5[3]	_	
+12-10	747-750	liv	_	Target;Source[3]	12-6;12-6	false[3]	5[3]	_	
+12-11	751-763	exemplariskt	_	Target;Source[3]	12-6;12-6	false[3]	5[3]	_	
+12-12	764-765	i	_	_	_	_	_	_	
+12-13	766-773	Sverige	_	_	_	_	_	_	
+12-14	773-774	,	_	_	_	_	_	_	
+12-15	775-778	jag	_	_	_	_	_	_	
+12-16	779-785	jobbar	_	_	_	_	_	_	
+12-17	786-789	och	_	_	_	_	_	_	
+12-18	790-797	betalar	_	_	_	_	_	_	
+12-19	798-803	skatt	_	_	_	_	_	_	
+12-20	804-808	samt	_	_	_	_	_	_	
+12-21	809-817	studerar	_	_	_	_	_	_	
+12-22	818-823	högre	_	_	_	_	_	_	
+12-23	824-834	utbildning	_	_	_	_	_	_	
+12-24	834-835	.	_	_	_	_	_	_	
+
+#Text=Dessutom är jag kristen.
+13-1	836-844	Dessutom	_	_	_	_	_	_	
+13-2	845-847	är	_	_	_	_	_	_	
+13-3	848-851	jag	_	_	_	_	_	_	
+13-4	852-859	kristen	_	_	_	_	_	_	
+13-5	859-860	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	862-863	#	_	_	_	_	_	_	
+14-2	863-864	P	_	_	_	_	_	_	
+14-3	865-868	IMM	_	_	_	_	_	_	
+14-4	868-869	.	_	_	_	_	_	_	
+
+#Text=Avslutningsvis undrar jag om vad svenska folket tycker om detta, är det okej för er att jag blir svensk medborgare och tycker ni att jag kan kalla mig för svensk ?.
+15-1	871-885	Avslutningsvis	_	_	_	_	_	_	
+15-2	886-892	undrar	_	_	_	_	_	_	
+15-3	893-896	jag	_	_	_	_	_	_	
+15-4	897-899	om	_	_	_	_	_	_	
+15-5	900-903	vad	_	_	_	_	_	_	
+15-6	904-911	svenska	_	_	_	_	_	_	
+15-7	912-918	folket	_	_	_	_	_	_	
+15-8	919-925	tycker	_	_	_	_	_	_	
+15-9	926-928	om	_	_	_	_	_	_	
+15-10	929-934	detta	_	_	_	_	_	_	
+15-11	934-935	,	_	_	_	_	_	_	
+15-12	936-938	är	_	_	_	false	4	_	
+15-13	939-942	det	_	_	_	_	_	_	
+15-14	943-947	okej	_	Target;Source	15-17[8];15-16	false	4	15-12	
+15-15	948-951	för	_	_	_	_	_	_	
+15-16	952-954	er	*	_	_	_	_	_	
+15-17	955-958	att	*[8]	_	_	_	_	_	
+15-18	959-962	jag	*[8]	_	_	_	_	_	
+15-19	963-967	blir	*[8]	_	_	_	_	_	
+15-20	968-974	svensk	*[8]	_	_	_	_	_	
+15-21	975-985	medborgare	*[8]	_	_	_	_	_	
+15-22	986-989	och	_	_	_	_	_	_	
+15-23	990-996	tycker	_	_	_	_	_	_	
+15-24	997-999	ni	_	_	_	_	_	_	
+15-25	1000-1003	att	_	_	_	_	_	_	
+15-26	1004-1007	jag	_	_	_	_	_	_	
+15-27	1008-1011	kan	_	_	_	_	_	_	
+15-28	1012-1017	kalla	_	_	_	_	_	_	
+15-29	1018-1021	mig	_	_	_	_	_	_	
+15-30	1022-1025	för	_	_	_	_	_	_	
+15-31	1026-1032	svensk	_	_	_	_	_	_	
+15-32	1033-1034	?	_	_	_	_	_	_	
+15-33	1034-1035	.	_	_	_	_	_	_	

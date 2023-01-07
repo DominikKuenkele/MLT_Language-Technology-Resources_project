@@ -1,0 +1,751 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Valhänt, Carlgren!.
+3-1	18-25	Valhänt	_	Target	3-3	false	2	_	_	
+3-2	25-26	,	_	_	_	_	_	_	_	
+3-3	27-35	Carlgren	*	_	_	_	_	_	_	
+3-4	35-36	!	_	_	_	_	_	_	_	
+3-5	36-37	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	39-40	#	_	_	_	_	_	_	_	
+4-2	40-41	P	_	_	_	_	_	_	_	
+4-3	42-45	IMM	_	_	_	_	_	_	_	
+4-4	45-46	.	_	_	_	_	_	_	_	
+
+#Text=Vi välkomnar att Andreas Carlgren nu så klart och offentligt tagit ställning för det vetenskapliga kvotsystem som Internationella valfångstkommissionen tagit fram samt säger sig vilja minska valjakten.
+5-1	48-50	Vi	*	_	_	_	_	_	_	
+5-2	51-60	välkomnar	_	Target;Source	5-3[11];5-1	false	2	_	_	
+5-3	61-64	att	*[11]	_	_	_	_	_	_	
+5-4	65-72	Andreas	*[11]	_	_	_	_	_	_	
+5-5	73-81	Carlgren	*[11]	_	_	_	_	_	_	
+5-6	82-84	nu	*[11]	_	_	_	_	_	_	
+5-7	85-87	så	*[11]	_	_	_	_	_	_	
+5-8	88-93	klart	*[11]	_	_	_	_	_	_	
+5-9	94-97	och	*[11]	_	_	_	_	_	_	
+5-10	98-108	offentligt	*[11]	_	_	_	_	_	_	
+5-11	109-114	tagit	*[11]	_	_	_	_	_	_	
+5-12	115-124	ställning	*[11]	_	_	_	_	_	_	
+5-13	125-128	för	*[11]	_	_	_	_	_	_	
+5-14	129-132	det	*[11]	_	_	_	_	_	_	
+5-15	133-146	vetenskapliga	*[11]	_	_	_	_	_	_	
+5-16	147-157	kvotsystem	*[11]	_	_	_	_	_	_	
+5-17	158-161	som	*[11]	_	_	_	_	_	_	
+5-18	162-177	Internationella	*[11]	_	_	_	_	_	_	
+5-19	178-199	valfångstkommissionen	*[11]	_	_	_	_	_	_	
+5-20	200-205	tagit	*[11]	_	_	_	_	_	_	
+5-21	206-210	fram	*[11]	_	_	_	_	_	_	
+5-22	211-215	samt	*[11]	_	_	_	_	_	_	
+5-23	216-221	säger	*[11]	_	_	_	_	_	_	
+5-24	222-225	sig	*[11]	_	_	_	_	_	_	
+5-25	226-231	vilja	*[11]	_	_	_	_	_	_	
+5-26	232-238	minska	*[11]	_	_	_	_	_	_	
+5-27	239-248	valjakten	*[11]	_	_	_	_	_	_	
+5-28	248-249	.	_	_	_	_	_	_	_	
+
+#Text=Då är det synd att Sverige inte tagit offentligt avstånd från förslaget att acceptera kommersiell valjakt, i ett missriktat försök att minska den totala jakten (det så kallade Ordförandens förslag).
+6-1	250-252	Då	_	_	_	_	_	_	_	
+6-2	253-255	är	_	_	_	false	2	_	_	
+6-3	256-259	det	_	_	_	_	_	_	_	
+6-4	260-264	synd	_	Target	6-5[12]	false	2	6-2	_	
+6-5	265-268	att	*[12]	_	_	_	_	_	_	
+6-6	269-276	Sverige	*[12]	_	_	_	_	_	_	
+6-7	277-281	inte	*[12]	_	_	_	_	_	_	
+6-8	282-287	tagit	*[12]	_	_	_	_	_	_	
+6-9	288-298	offentligt	*[12]	_	_	_	_	_	_	
+6-10	299-306	avstånd	*[12]	_	_	_	_	_	_	
+6-11	307-311	från	*[12]	_	_	_	_	_	_	
+6-12	312-321	förslaget	*[12]	_	_	_	_	_	_	
+6-13	322-325	att	*[12]	_	_	_	_	_	_	
+6-14	326-335	acceptera	*[12]	_	_	_	_	_	_	
+6-15	336-347	kommersiell	*[12]	_	_	_	_	_	_	
+6-16	348-355	valjakt	*[12]	_	_	_	_	_	_	
+6-17	355-356	,	_	_	_	_	_	_	_	
+6-18	357-358	i	_	_	_	_	_	_	_	
+6-19	359-362	ett	_	_	_	_	_	_	_	
+6-20	363-373	missriktat	_	Target	6-21[13]	false	2	_	_	
+6-21	374-380	försök	*[13]	_	_	_	_	_	_	
+6-22	381-384	att	*[13]	_	_	_	_	_	_	
+6-23	385-391	minska	*[13]	_	_	_	_	_	_	
+6-24	392-395	den	*[13]	_	_	_	_	_	_	
+6-25	396-402	totala	*[13]	_	_	_	_	_	_	
+6-26	403-409	jakten	*[13]	_	_	_	_	_	_	
+6-27	410-411	(	_	_	_	_	_	_	_	
+6-28	411-414	det	_	_	_	_	_	_	_	
+6-29	415-417	så	_	_	_	_	_	_	_	
+6-30	418-425	kallade	_	_	_	_	_	_	_	
+6-31	426-438	Ordförandens	_	_	_	_	_	_	_	
+6-32	439-446	förslag	_	_	_	_	_	_	_	
+6-33	446-447	)	_	_	_	_	_	_	_	
+6-34	447-448	.	_	_	_	_	_	_	_	
+
+#Text=De flesta länder uppfattar att Sveriges position är ett starkt stöd för detta förlag.
+7-1	449-451	De	_	_	_	_	_	_	_	
+7-2	452-458	flesta	_	_	_	_	_	_	_	
+7-3	459-465	länder	_	_	_	_	_	_	_	
+7-4	466-475	uppfattar	_	_	_	_	_	_	_	
+7-5	476-479	att	_	_	_	_	_	_	_	
+7-6	480-488	Sveriges	_	_	_	_	_	_	_	
+7-7	489-497	position	_	_	_	_	_	_	_	
+7-8	498-500	är	_	_	_	_	_	_	_	
+7-9	501-504	ett	_	_	_	_	_	_	_	
+7-10	505-511	starkt	_	_	_	_	_	_	_	
+7-11	512-516	stöd	_	_	_	_	_	_	_	
+7-12	517-520	för	_	_	_	_	_	_	_	
+7-13	521-526	detta	_	_	_	_	_	_	_	
+7-14	527-533	förlag	_	_	_	_	_	_	_	
+7-15	533-534	.	_	_	_	_	_	_	_	
+
+#Text=I praktiken driver Sverige, dessutom enligt flera av varandra oberoende källor, förslaget som motarbetar det vetenskapliga kvotsystemet.
+8-1	535-536	I	_	_	_	_	_	_	_	
+8-2	537-546	praktiken	_	_	_	_	_	_	_	
+8-3	547-553	driver	_	_	_	_	_	_	_	
+8-4	554-561	Sverige	*	_	_	_	_	_	_	
+8-5	561-562	,	_	_	_	_	_	_	_	
+8-6	563-571	dessutom	_	_	_	_	_	_	_	
+8-7	572-578	enligt	_	_	_	_	_	_	_	
+8-8	579-584	flera	_	_	_	_	_	_	_	
+8-9	585-587	av	_	_	_	_	_	_	_	
+8-10	588-596	varandra	_	_	_	_	_	_	_	
+8-11	597-606	oberoende	_	_	_	_	_	_	_	
+8-12	607-613	källor	_	_	_	_	_	_	_	
+8-13	613-614	,	_	_	_	_	_	_	_	
+8-14	615-624	förslaget	_	_	_	_	_	_	_	
+8-15	625-628	som	_	_	_	_	_	_	_	
+8-16	629-639	motarbetar	_	_	_	_	_	_	_	
+8-17	640-643	det	_	_	_	_	_	_	_	
+8-18	644-657	vetenskapliga	_	_	_	_	_	_	_	
+8-19	658-670	kvotsystemet	_	_	_	_	_	_	_	
+8-20	670-671	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	673-674	#	_	_	_	_	_	_	_	
+9-2	674-675	P	_	_	_	_	_	_	_	
+9-3	676-679	IMM	_	_	_	_	_	_	_	
+9-4	679-680	.	_	Target	8-4	false	2	_	_	
+
+#Text=Carlgren påstår: Att Sverige vill få ett slut på jakt på hotade arter.
+10-1	682-690	Carlgren	_	_	_	_	_	_	_	
+10-2	691-697	påstår	_	_	_	_	_	_	_	
+10-3	697-698	:	_	_	_	_	_	_	_	
+10-4	699-702	Att	_	_	_	_	_	_	_	
+10-5	703-710	Sverige	_	_	_	_	_	_	_	
+10-6	711-715	vill	_	_	_	_	_	_	_	
+10-7	716-718	få	_	_	_	_	_	_	_	
+10-8	719-722	ett	_	_	_	_	_	_	_	
+10-9	723-727	slut	_	_	_	_	_	_	_	
+10-10	728-730	på	_	_	_	_	_	_	_	
+10-11	731-735	jakt	_	_	_	_	_	_	_	
+10-12	736-738	på	_	_	_	_	_	_	_	
+10-13	739-745	hotade	_	_	_	_	_	_	_	
+10-14	746-751	arter	_	_	_	_	_	_	_	
+10-15	751-752	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget Sverige stöder innebär de facto jakt på de internationellt rödlistade arterna sillval, sejval och den hotade populationen av vikval i norra Stilla Havet.
+11-1	753-762	Förslaget	_	_	_	_	_	_	_	
+11-2	763-770	Sverige	_	_	_	_	_	_	_	
+11-3	771-777	stöder	_	_	_	_	_	_	_	
+11-4	778-785	innebär	_	_	_	_	_	_	_	
+11-5	786-788	de	_	_	_	_	_	_	_	
+11-6	789-794	facto	_	_	_	_	_	_	_	
+11-7	795-799	jakt	_	_	_	_	_	_	_	
+11-8	800-802	på	_	_	_	_	_	_	_	
+11-9	803-805	de	_	_	_	_	_	_	_	
+11-10	806-821	internationellt	_	_	_	_	_	_	_	
+11-11	822-832	rödlistade	_	_	_	_	_	_	_	
+11-12	833-840	arterna	_	_	_	_	_	_	_	
+11-13	841-848	sillval	_	_	_	_	_	_	_	
+11-14	848-849	,	_	_	_	_	_	_	_	
+11-15	850-856	sejval	_	_	_	_	_	_	_	
+11-16	857-860	och	_	_	_	_	_	_	_	
+11-17	861-864	den	_	_	_	_	_	_	_	
+11-18	865-871	hotade	_	_	_	_	_	_	_	
+11-19	872-884	populationen	_	_	_	_	_	_	_	
+11-20	885-887	av	_	_	_	_	_	_	_	
+11-21	888-894	vikval	_	_	_	_	_	_	_	
+11-22	895-896	i	_	_	_	_	_	_	_	
+11-23	897-902	norra	_	_	_	_	_	_	_	
+11-24	903-909	Stilla	_	_	_	_	_	_	_	
+11-25	910-915	Havet	_	_	_	_	_	_	_	
+11-26	915-916	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har ignorerat effekten av bifångster av val i fiskeredskap och motsatt sig andra EU-länders (till exempel Storbritannien, Frankrike och Italien) krav för ökade naturvårdskrav i ett tidigt skede och direkt motsatt sig en utfasning av valjakten i Södra Ishavets valreservat.
+12-1	917-924	Sverige	*	_	_	_	_	_	_	
+12-2	925-928	har	_	_	_	_	_	_	_	
+12-3	929-938	ignorerat	_	_	_	_	_	_	_	
+12-4	939-947	effekten	_	_	_	_	_	_	_	
+12-5	948-950	av	_	_	_	_	_	_	_	
+12-6	951-961	bifångster	_	_	_	_	_	_	_	
+12-7	962-964	av	_	_	_	_	_	_	_	
+12-8	965-968	val	_	_	_	_	_	_	_	
+12-9	969-970	i	_	_	_	_	_	_	_	
+12-10	971-983	fiskeredskap	_	_	_	_	_	_	_	
+12-11	984-987	och	_	_	_	_	_	_	_	
+12-12	988-995	motsatt	_	Source;Target[1]	12-1;12-14[14]	false[1]	2[1]	_	_	
+12-13	996-999	sig	_	Source;Target[1]	12-1;12-14[14]	false[1]	2[1]	_	_	
+12-14	1000-1005	andra	*[14]	_	_	_	_	_	_	
+12-15	1006-1016	EU-länders	*[14]	_	_	_	_	_	_	
+12-16	1017-1018	(	*[14]	_	_	_	_	_	_	
+12-17	1018-1022	till	*[14]	_	_	_	_	_	_	
+12-18	1023-1030	exempel	*[14]	_	_	_	_	_	_	
+12-19	1031-1045	Storbritannien	*[14]	_	_	_	_	_	_	
+12-20	1045-1046	,	*[14]	_	_	_	_	_	_	
+12-21	1047-1056	Frankrike	*[14]	_	_	_	_	_	_	
+12-22	1057-1060	och	*[14]	_	_	_	_	_	_	
+12-23	1061-1068	Italien	*[14]	_	_	_	_	_	_	
+12-24	1068-1069	)	*[14]	_	_	_	_	_	_	
+12-25	1070-1074	krav	*[14]	_	_	_	_	_	_	
+12-26	1075-1078	för	*[14]	_	_	_	_	_	_	
+12-27	1079-1084	ökade	*[14]	_	_	_	_	_	_	
+12-28	1085-1099	naturvårdskrav	*[14]	_	_	_	_	_	_	
+12-29	1100-1101	i	_	_	_	_	_	_	_	
+12-30	1102-1105	ett	_	_	_	_	_	_	_	
+12-31	1106-1112	tidigt	_	_	_	_	_	_	_	
+12-32	1113-1118	skede	_	_	_	_	_	_	_	
+12-33	1119-1122	och	_	_	_	_	_	_	_	
+12-34	1123-1129	direkt	_	Source;Target[2]	12-1;12-37[15]	false[2]	2[2]	_	_	
+12-35	1130-1137	motsatt	_	Source;Target[2]	12-1;12-37[15]	false[2]	2[2]	_	_	
+12-36	1138-1141	sig	_	Source;Target[2]	12-1;12-37[15]	false[2]	2[2]	_	_	
+12-37	1142-1144	en	*[15]	_	_	_	_	_	_	
+12-38	1145-1154	utfasning	*[15]	_	_	_	_	_	_	
+12-39	1155-1157	av	*[15]	_	_	_	_	_	_	
+12-40	1158-1167	valjakten	*[15]	_	_	_	_	_	_	
+12-41	1168-1169	i	*[15]	_	_	_	_	_	_	
+12-42	1170-1175	Södra	*[15]	_	_	_	_	_	_	
+12-43	1176-1184	Ishavets	*[15]	_	_	_	_	_	_	
+12-44	1185-1196	valreservat	*[15]	_	_	_	_	_	_	
+12-45	1196-1197	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	1199-1200	#	_	_	_	_	_	_	_	
+13-2	1200-1201	P	_	_	_	_	_	_	_	
+13-3	1202-1205	IMM	_	_	_	_	_	_	_	
+13-4	1205-1206	.	_	_	_	_	_	_	_	
+
+#Text=Carlgren påstår: Att Sverige vill minska valjakten.
+14-1	1208-1216	Carlgren	_	_	_	_	_	_	_	
+14-2	1217-1223	påstår	_	_	_	_	_	_	_	
+14-3	1223-1224	:	_	_	_	_	_	_	_	
+14-4	1225-1228	Att	_	_	_	_	_	_	_	
+14-5	1229-1236	Sverige	_	_	_	_	_	_	_	
+14-6	1237-1241	vill	_	_	_	_	_	_	_	
+14-7	1242-1248	minska	_	_	_	_	_	_	_	
+14-8	1249-1258	valjakten	_	_	_	_	_	_	_	
+14-9	1258-1259	.	_	_	_	_	_	_	_	
+
+#Text=Men i EU-sammanhang motsätter sig Sverige förslag från andra EU-länder att det vetenskapliga kvotsystemet ska användas på ett sådant sätt som leder till att fångsten garanterat inte ökar.
+15-1	1260-1263	Men	_	_	_	_	_	_	_	
+15-2	1264-1265	i	_	_	_	_	_	_	_	
+15-3	1266-1279	EU-sammanhang	_	_	_	_	_	_	_	
+15-4	1280-1289	motsätter	_	Source;Target[3]	15-6;15-7[16]	false[3]	2[3]	_	_	
+15-5	1290-1293	sig	_	Source;Target[3]	15-6;15-7[16]	false[3]	2[3]	_	_	
+15-6	1294-1301	Sverige	*	_	_	_	_	_	_	
+15-7	1302-1309	förslag	*[16]	_	_	_	_	_	_	
+15-8	1310-1314	från	*[16]	_	_	_	_	_	_	
+15-9	1315-1320	andra	*[16]	_	_	_	_	_	_	
+15-10	1321-1330	EU-länder	*[16]	_	_	_	_	_	_	
+15-11	1331-1334	att	_	_	_	_	_	_	_	
+15-12	1335-1338	det	_	_	_	_	_	_	_	
+15-13	1339-1352	vetenskapliga	_	_	_	_	_	_	_	
+15-14	1353-1365	kvotsystemet	_	_	_	_	_	_	_	
+15-15	1366-1369	ska	_	_	_	_	_	_	_	
+15-16	1370-1378	användas	_	_	_	_	_	_	_	
+15-17	1379-1381	på	_	_	_	_	_	_	_	
+15-18	1382-1385	ett	_	_	_	_	_	_	_	
+15-19	1386-1392	sådant	_	_	_	_	_	_	_	
+15-20	1393-1397	sätt	_	_	_	_	_	_	_	
+15-21	1398-1401	som	_	_	_	_	_	_	_	
+15-22	1402-1407	leder	_	_	_	_	_	_	_	
+15-23	1408-1412	till	_	_	_	_	_	_	_	
+15-24	1413-1416	att	_	_	_	_	_	_	_	
+15-25	1417-1425	fångsten	_	_	_	_	_	_	_	
+15-26	1426-1436	garanterat	_	_	_	_	_	_	_	
+15-27	1437-1441	inte	_	_	_	_	_	_	_	
+15-28	1442-1446	ökar	_	_	_	_	_	_	_	
+15-29	1446-1447	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges position innebär därför en risk för att den verkliga jakten ökar samtidigt som den kommersiella valjakten accepteras.
+16-1	1448-1456	Sveriges	*[17]	_	_	_	_	_	_	
+16-2	1457-1465	position	*[17]	_	_	_	_	_	_	
+16-3	1466-1473	innebär	_	_	_	false	2	_	_	
+16-4	1474-1480	därför	_	_	_	_	_	_	_	
+16-5	1481-1483	en	_	Target[4]	16-1[17]	false[4]	2[4]	16-3[0_4]	_	
+16-6	1484-1488	risk	_	Target[4]	16-1[17]	false[4]	2[4]	_	_	
+16-7	1489-1492	för	_	_	_	_	_	_	_	
+16-8	1493-1496	att	_	_	_	_	_	_	_	
+16-9	1497-1500	den	_	_	_	_	_	_	_	
+16-10	1501-1509	verkliga	_	_	_	_	_	_	_	
+16-11	1510-1516	jakten	_	_	_	_	_	_	_	
+16-12	1517-1521	ökar	_	_	_	_	_	_	_	
+16-13	1522-1531	samtidigt	_	_	_	_	_	_	_	
+16-14	1532-1535	som	_	_	_	_	_	_	_	
+16-15	1536-1539	den	_	_	_	_	_	_	_	
+16-16	1540-1552	kommersiella	_	_	_	_	_	_	_	
+16-17	1553-1562	valjakten	_	_	_	_	_	_	_	
+16-18	1563-1573	accepteras	_	_	_	_	_	_	_	
+16-19	1573-1574	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1576-1577	#	_	_	_	_	_	_	_	
+17-2	1577-1578	P	_	_	_	_	_	_	_	
+17-3	1579-1582	IMM	_	_	_	_	_	_	_	
+17-4	1582-1583	.	_	_	_	_	_	_	_	
+
+#Text=Carlgren påstår: Att Sverige stöder jaktförbud i skyddade områden, till exempel i Södra Ishavets valskyddsområde.
+18-1	1585-1593	Carlgren	_	_	_	_	_	_	_	
+18-2	1594-1600	påstår	_	_	_	_	_	_	_	
+18-3	1600-1601	:	_	_	_	_	_	_	_	
+18-4	1602-1605	Att	_	_	_	_	_	_	_	
+18-5	1606-1613	Sverige	_	_	_	_	_	_	_	
+18-6	1614-1620	stöder	_	_	_	_	_	_	_	
+18-7	1621-1631	jaktförbud	_	_	_	_	_	_	_	
+18-8	1632-1633	i	_	_	_	_	_	_	_	
+18-9	1634-1642	skyddade	_	_	_	_	_	_	_	
+18-10	1643-1650	områden	_	_	_	_	_	_	_	
+18-11	1650-1651	,	_	_	_	_	_	_	_	
+18-12	1652-1656	till	_	_	_	_	_	_	_	
+18-13	1657-1664	exempel	_	_	_	_	_	_	_	
+18-14	1665-1666	i	_	_	_	_	_	_	_	
+18-15	1667-1672	Södra	_	_	_	_	_	_	_	
+18-16	1673-1681	Ishavets	_	_	_	_	_	_	_	
+18-17	1682-1697	valskyddsområde	_	_	_	_	_	_	_	
+18-18	1697-1698	.	_	_	_	_	_	_	_	
+
+#Text=Men i EU-sammanhang vägrar Sverige att stödja ett förslag från Storbritannien att helt fasa ut valjakt i valskyddsområdet.
+19-1	1699-1702	Men	_	_	_	_	_	_	_	
+19-2	1703-1704	i	_	_	_	_	_	_	_	
+19-3	1705-1718	EU-sammanhang	_	_	_	_	_	_	_	
+19-4	1719-1725	vägrar	_	Target;Source	19-6[18];19-5	false	2	_	_	
+19-5	1726-1733	Sverige	*	_	_	_	_	_	_	
+19-6	1734-1737	att	*[18]	_	_	_	_	_	_	
+19-7	1738-1744	stödja	*[18]	_	_	_	_	_	_	
+19-8	1745-1748	ett	*[18]	_	_	_	_	_	_	
+19-9	1749-1756	förslag	*[18]	_	_	_	_	_	_	
+19-10	1757-1761	från	*[18]	_	_	_	_	_	_	
+19-11	1762-1776	Storbritannien	*[18]	_	_	_	_	_	_	
+19-12	1777-1780	att	*[18]	_	_	_	_	_	_	
+19-13	1781-1785	helt	*[18]	_	_	_	_	_	_	
+19-14	1786-1790	fasa	*[18]	_	_	_	_	_	_	
+19-15	1791-1793	ut	*[18]	_	_	_	_	_	_	
+19-16	1794-1801	valjakt	*[18]	_	_	_	_	_	_	
+19-17	1802-1803	i	*[18]	_	_	_	_	_	_	
+19-18	1804-1820	valskyddsområdet	*[18]	_	_	_	_	_	_	
+19-19	1820-1821	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget Sverige stöttar innebär att valjakt i även valskyddsområdet officiellt accepteras under de kommande tio åren, inte att den fasas ut.
+20-1	1822-1831	Förslaget	*	_	_	_	_	_	_	
+20-2	1832-1839	Sverige	*	_	_	_	_	_	_	
+20-3	1840-1847	stöttar	_	Source;Target	20-2;20-1	false	4	_	_	
+20-4	1848-1855	innebär	_	_	_	_	_	_	_	
+20-5	1856-1859	att	_	_	_	_	_	_	_	
+20-6	1860-1867	valjakt	_	_	_	_	_	_	_	
+20-7	1868-1869	i	_	_	_	_	_	_	_	
+20-8	1870-1874	även	_	_	_	_	_	_	_	
+20-9	1875-1891	valskyddsområdet	_	_	_	_	_	_	_	
+20-10	1892-1902	officiellt	_	_	_	_	_	_	_	
+20-11	1903-1913	accepteras	_	_	_	_	_	_	_	
+20-12	1914-1919	under	_	_	_	_	_	_	_	
+20-13	1920-1922	de	_	_	_	_	_	_	_	
+20-14	1923-1931	kommande	_	_	_	_	_	_	_	
+20-15	1932-1935	tio	_	_	_	_	_	_	_	
+20-16	1936-1940	åren	_	_	_	_	_	_	_	
+20-17	1940-1941	,	_	_	_	_	_	_	_	
+20-18	1942-1946	inte	_	_	_	_	_	_	_	
+20-19	1947-1950	att	_	_	_	_	_	_	_	
+20-20	1951-1954	den	_	_	_	_	_	_	_	
+20-21	1955-1960	fasas	_	_	_	_	_	_	_	
+20-22	1961-1963	ut	_	_	_	_	_	_	_	
+20-23	1963-1964	.	_	_	_	_	_	_	_	
+
+#Text=Sverige medverkar därmed till att Japan uppmuntras till att modernisera sin föråldrade flotta istället för att fasa ut den.
+21-1	1965-1972	Sverige	_	_	_	_	_	_	_	
+21-2	1973-1982	medverkar	_	_	_	_	_	_	_	
+21-3	1983-1989	därmed	_	_	_	_	_	_	_	
+21-4	1990-1994	till	_	_	_	_	_	_	_	
+21-5	1995-1998	att	_	_	_	_	_	_	_	
+21-6	1999-2004	Japan	_	_	_	_	_	_	_	
+21-7	2005-2015	uppmuntras	_	_	_	_	_	_	_	
+21-8	2016-2020	till	_	_	_	_	_	_	_	
+21-9	2021-2024	att	_	_	_	_	_	_	_	
+21-10	2025-2036	modernisera	_	_	_	_	_	_	_	
+21-11	2037-2040	sin	_	_	_	_	_	_	_	
+21-12	2041-2051	föråldrade	_	Target	21-13	false	2	_	_	
+21-13	2052-2058	flotta	*	_	_	_	_	_	_	
+21-14	2059-2067	istället	_	_	_	_	_	_	_	
+21-15	2068-2071	för	_	_	_	_	_	_	_	
+21-16	2072-2075	att	_	_	_	_	_	_	_	
+21-17	2076-2080	fasa	_	_	_	_	_	_	_	
+21-18	2081-2083	ut	_	_	_	_	_	_	_	
+21-19	2084-2087	den	_	_	_	_	_	_	_	
+21-20	2087-2088	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	2090-2091	#	_	_	_	_	_	_	_	
+22-2	2091-2092	P	_	_	_	_	_	_	_	
+22-3	2093-2096	IMM	_	_	_	_	_	_	_	
+22-4	2096-2097	.	_	_	_	_	_	_	_	
+
+#Text=Carlgren påstår: Att Sverige stöder det vetenskapliga kvotsystemet.
+23-1	2099-2107	Carlgren	_	_	_	_	_	_	_	
+23-2	2108-2114	påstår	_	_	_	_	_	_	_	
+23-3	2114-2115	:	_	_	_	_	_	_	_	
+23-4	2116-2119	Att	_	_	_	_	_	_	_	
+23-5	2120-2127	Sverige	_	_	_	_	_	_	_	
+23-6	2128-2134	stöder	_	_	_	_	_	_	_	
+23-7	2135-2138	det	_	_	_	_	_	_	_	
+23-8	2139-2152	vetenskapliga	_	_	_	_	_	_	_	
+23-9	2153-2165	kvotsystemet	_	_	_	_	_	_	_	
+23-10	2165-2166	.	_	_	_	_	_	_	_	
+
+#Text=Det är naturligtvis utmärkt att Carlgren nu öppet stöder systemet, som syftar till att på ett vetenskapligt beprövat sätt bestämma fångstkvoter.
+24-1	2167-2170	Det	_	_	_	_	_	_	_	
+24-2	2171-2173	är	_	Target[5]	24-5[19]	false[5]	4[5]	_	_	
+24-3	2174-2186	naturligtvis	_	Target[5]	24-5[19]	false[5]	4[5]	_	_	
+24-4	2187-2194	utmärkt	_	Target[5]	24-5[19]	false[5]	4[5]	_	_	
+24-5	2195-2198	att	*[19]	_	_	_	_	_	_	
+24-6	2199-2207	Carlgren	*[19]|*[20]	_	_	_	_	_	25-7[0_20]	
+24-7	2208-2210	nu	*[19]	_	_	_	_	_	_	
+24-8	2211-2216	öppet	*[19]	_	_	_	_	_	_	
+24-9	2217-2223	stöder	*[19]	_	_	_	_	_	_	
+24-10	2224-2232	systemet	*[19]|*[21]	_	_	_	_	_	_	
+24-11	2232-2233	,	_	_	_	_	_	_	_	
+24-12	2234-2237	som	_	_	_	_	_	_	_	
+24-13	2238-2244	syftar	_	_	_	_	_	_	_	
+24-14	2245-2249	till	_	_	_	_	_	_	_	
+24-15	2250-2253	att	_	_	_	_	_	_	_	
+24-16	2254-2256	på	_	_	_	_	_	_	_	
+24-17	2257-2260	ett	_	_	_	_	_	_	_	
+24-18	2261-2274	vetenskapligt	_	Target[6]	24-10[21]	false[6]	4[6]	_	_	
+24-19	2275-2283	beprövat	_	Target[6]	24-10[21]	false[6]	4[6]	_	_	
+24-20	2284-2288	sätt	_	Target[6]	24-10[21]	false[6]	4[6]	_	_	
+24-21	2289-2297	bestämma	_	_	_	_	_	_	_	
+24-22	2298-2310	fångstkvoter	_	_	_	_	_	_	_	
+24-23	2310-2311	.	_	_	_	_	_	_	_	
+
+#Text=Men genom att stödja förslaget riskerar han hela framtiden av detta framsynta system, och därmed också att politisk kohandel kommer att styra fångstkvoterna även för valar.
+25-1	2312-2315	Men	_	_	_	_	_	_	_	
+25-2	2316-2321	genom	_	_	_	_	_	_	_	
+25-3	2322-2325	att	*[22]	_	_	_	_	_	_	
+25-4	2326-2332	stödja	*[22]	_	_	_	_	_	_	
+25-5	2333-2342	förslaget	*[22]	_	_	_	_	_	_	
+25-6	2343-2351	riskerar	_	Target;Target	25-3[22];25-7	false	2	_	_	
+25-7	2352-2355	han	*	_	_	_	_	_	_	
+25-8	2356-2360	hela	_	_	_	_	_	_	_	
+25-9	2361-2370	framtiden	_	_	_	_	_	_	_	
+25-10	2371-2373	av	_	_	_	_	_	_	_	
+25-11	2374-2379	detta	_	_	_	_	_	_	_	
+25-12	2380-2389	framsynta	_	Target	25-13	false	4	_	_	
+25-13	2390-2396	system	*	_	_	_	_	_	_	
+25-14	2396-2397	,	_	_	_	_	_	_	_	
+25-15	2398-2401	och	_	_	_	_	_	_	_	
+25-16	2402-2408	därmed	_	_	_	_	_	_	_	
+25-17	2409-2414	också	_	_	_	_	_	_	_	
+25-18	2415-2418	att	_	_	_	_	_	_	_	
+25-19	2419-2427	politisk	_	_	_	_	_	_	_	
+25-20	2428-2436	kohandel	_	_	_	_	_	_	_	
+25-21	2437-2443	kommer	_	_	_	_	_	_	_	
+25-22	2444-2447	att	_	_	_	_	_	_	_	
+25-23	2448-2453	styra	_	_	_	_	_	_	_	
+25-24	2454-2468	fångstkvoterna	_	_	_	_	_	_	_	
+25-25	2469-2473	även	_	_	_	_	_	_	_	
+25-26	2474-2477	för	_	_	_	_	_	_	_	
+25-27	2478-2483	valar	_	_	_	_	_	_	_	
+25-28	2483-2484	.	_	_	_	_	_	_	_	
+
+#Text=Valfångstkommissionens vetenskapliga kommitté, som Carlgren säger sig stödja, får ingen roll i förslaget.
+26-1	2485-2507	Valfångstkommissionens	_	_	_	_	_	_	_	
+26-2	2508-2521	vetenskapliga	_	_	_	_	_	_	_	
+26-3	2522-2530	kommitté	_	_	_	_	_	_	_	
+26-4	2530-2531	,	_	_	_	_	_	_	_	
+26-5	2532-2535	som	_	_	_	_	_	_	_	
+26-6	2536-2544	Carlgren	_	_	_	_	_	_	_	
+26-7	2545-2550	säger	_	_	_	_	_	_	_	
+26-8	2551-2554	sig	_	_	_	_	_	_	_	
+26-9	2555-2561	stödja	_	_	_	_	_	_	_	
+26-10	2561-2562	,	_	_	_	_	_	_	_	
+26-11	2563-2566	får	_	_	_	_	_	_	_	
+26-12	2567-2572	ingen	_	_	_	_	_	_	_	
+26-13	2573-2577	roll	_	_	_	_	_	_	_	
+26-14	2578-2579	i	_	_	_	_	_	_	_	
+26-15	2580-2589	förslaget	_	_	_	_	_	_	_	
+26-16	2589-2590	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2592-2593	#	_	_	_	_	_	_	_	
+27-2	2593-2594	P	_	_	_	_	_	_	_	
+27-3	2595-2598	IMM	_	_	_	_	_	_	_	
+27-4	2598-2599	.	_	_	_	_	_	_	_	
+
+#Text=Det är glädjande att Carlgren säger att hans ambition är att minska valjakten.
+28-1	2601-2604	Det	_	_	_	_	_	_	_	
+28-2	2605-2607	är	_	Target[7]	28-4[23]	false[7]	4[7]	_	_	
+28-3	2608-2617	glädjande	_	Target[7]	28-4[23]	false[7]	4[7]	_	_	
+28-4	2618-2621	att	*[23]	_	_	_	_	_	_	
+28-5	2622-2630	Carlgren	*[23]	_	_	_	_	_	_	
+28-6	2631-2636	säger	*[23]	_	_	_	_	_	_	
+28-7	2637-2640	att	*[23]	_	_	_	_	_	_	
+28-8	2641-2645	hans	*[23]	_	_	_	_	_	_	
+28-9	2646-2654	ambition	*[23]	_	_	_	_	_	_	
+28-10	2655-2657	är	*[23]	_	_	_	_	_	_	
+28-11	2658-2661	att	*[23]	_	_	_	_	_	_	
+28-12	2662-2668	minska	*[23]	_	_	_	_	_	_	
+28-13	2669-2678	valjakten	*[23]	_	_	_	_	_	_	
+28-14	2678-2679	.	_	_	_	_	_	_	_	
+
+#Text=Tyvärr riskerar hans valhänta agerande att få precis motsatt effekt.
+29-1	2680-2686	Tyvärr	_	Target	29-2[24]	false	2	_	_	
+29-2	2687-2695	riskerar	*[24]	Target	29-3[25]	false	2	_	_	
+29-3	2696-2700	hans	*[24]|*[25]	_	_	_	_	_	_	
+29-4	2701-2709	valhänta	*[24]|*[25]	_	_	_	_	_	_	
+29-5	2710-2718	agerande	*[24]|*[25]	_	_	_	_	_	_	
+29-6	2719-2722	att	*[24]	_	_	_	_	_	_	
+29-7	2723-2725	få	*[24]	_	_	_	_	_	_	
+29-8	2726-2732	precis	*[24]	_	_	_	_	_	_	
+29-9	2733-2740	motsatt	*[24]	_	_	_	_	_	_	
+29-10	2741-2747	effekt	*[24]	_	_	_	_	_	_	
+29-11	2747-2748	.	_	_	_	_	_	_	_	
+
+#Text=Han lyckas dock inte genom att presentera förslag i EU-sammanhang, byggt på felaktiga siffror, övertyga oss eller andra EU-länder om att det resultat han säger sig vilja uppnå verkligen kommer att uppnås.
+30-1	2749-2752	Han	_	_	_	_	_	_	_	
+30-2	2753-2759	lyckas	_	_	_	_	_	_	_	
+30-3	2760-2764	dock	_	_	_	_	_	_	_	
+30-4	2765-2769	inte	_	_	_	_	_	_	_	
+30-5	2770-2775	genom	_	_	_	_	_	_	_	
+30-6	2776-2779	att	_	_	_	_	_	_	_	
+30-7	2780-2790	presentera	_	_	_	_	_	_	_	
+30-8	2791-2798	förslag	_	_	_	_	_	_	_	
+30-9	2799-2800	i	_	_	_	_	_	_	_	
+30-10	2801-2814	EU-sammanhang	_	_	_	_	_	_	_	
+30-11	2814-2815	,	_	_	_	_	_	_	_	
+30-12	2816-2821	byggt	_	_	_	_	_	_	_	
+30-13	2822-2824	på	_	_	_	_	_	_	_	
+30-14	2825-2834	felaktiga	_	Target	30-15	false	2	_	_	
+30-15	2835-2842	siffror	*	_	_	_	_	_	_	
+30-16	2842-2843	,	_	_	_	_	_	_	_	
+30-17	2844-2852	övertyga	_	_	_	_	_	_	_	
+30-18	2853-2856	oss	_	_	_	_	_	_	_	
+30-19	2857-2862	eller	_	_	_	_	_	_	_	
+30-20	2863-2868	andra	_	_	_	_	_	_	_	
+30-21	2869-2878	EU-länder	_	_	_	_	_	_	_	
+30-22	2879-2881	om	_	_	_	_	_	_	_	
+30-23	2882-2885	att	_	_	_	_	_	_	_	
+30-24	2886-2889	det	_	_	_	_	_	_	_	
+30-25	2890-2898	resultat	_	_	_	_	_	_	_	
+30-26	2899-2902	han	_	_	_	_	_	_	_	
+30-27	2903-2908	säger	_	_	_	_	_	_	_	
+30-28	2909-2912	sig	_	_	_	_	_	_	_	
+30-29	2913-2918	vilja	_	_	_	_	_	_	_	
+30-30	2919-2924	uppnå	_	_	_	_	_	_	_	
+30-31	2925-2934	verkligen	_	_	_	_	_	_	_	
+30-32	2935-2941	kommer	_	_	_	_	_	_	_	
+30-33	2942-2945	att	_	_	_	_	_	_	_	
+30-34	2946-2952	uppnås	_	_	_	_	_	_	_	
+30-35	2952-2953	.	_	_	_	_	_	_	_	
+
+#Text=Till exempel är Sveriges påstående om de genomsnittliga fångsterna av vikval under en tioårsperiod fel med tre gånger, och prognoserna om en fortsatt ökning av valjakten inte faktabaserad (enligt officiell fångststatistik).
+31-1	2954-2958	Till	_	_	_	_	_	_	_	
+31-2	2959-2966	exempel	_	_	_	_	_	_	_	
+31-3	2967-2969	är	_	_	_	_	_	_	_	
+31-4	2970-2978	Sveriges	_	_	_	_	_	_	_	
+31-5	2979-2988	påstående	_	_	_	_	_	_	_	
+31-6	2989-2991	om	_	_	_	_	_	_	_	
+31-7	2992-2994	de	_	_	_	_	_	_	_	
+31-8	2995-3009	genomsnittliga	_	_	_	_	_	_	_	
+31-9	3010-3020	fångsterna	_	_	_	_	_	_	_	
+31-10	3021-3023	av	_	_	_	_	_	_	_	
+31-11	3024-3030	vikval	_	_	_	_	_	_	_	
+31-12	3031-3036	under	_	_	_	_	_	_	_	
+31-13	3037-3039	en	_	_	_	_	_	_	_	
+31-14	3040-3052	tioårsperiod	_	_	_	_	_	_	_	
+31-15	3053-3056	fel	_	_	_	_	_	_	_	
+31-16	3057-3060	med	_	_	_	_	_	_	_	
+31-17	3061-3064	tre	_	_	_	_	_	_	_	
+31-18	3065-3071	gånger	_	_	_	_	_	_	_	
+31-19	3071-3072	,	_	_	_	_	_	_	_	
+31-20	3073-3076	och	_	_	_	_	_	_	_	
+31-21	3077-3088	prognoserna	*[26]	_	_	_	_	_	_	
+31-22	3089-3091	om	*[26]	_	_	_	_	_	_	
+31-23	3092-3094	en	*[26]	_	_	_	_	_	_	
+31-24	3095-3103	fortsatt	*[26]	_	_	_	_	_	_	
+31-25	3104-3110	ökning	*[26]	_	_	_	_	_	_	
+31-26	3111-3113	av	*[26]	_	_	_	_	_	_	
+31-27	3114-3123	valjakten	*[26]	_	_	_	_	_	_	
+31-28	3124-3128	inte	_	Target[8]	31-21[26]	false[8]	2[8]	_	_	
+31-29	3129-3141	faktabaserad	_	Target[8]	31-21[26]	false[8]	2[8]	_	_	
+31-30	3142-3143	(	_	_	_	_	_	_	_	
+31-31	3143-3149	enligt	_	_	_	_	_	_	_	
+31-32	3150-3159	officiell	_	_	_	_	_	_	_	
+31-33	3160-3175	fångststatistik	_	_	_	_	_	_	_	
+31-34	3175-3176	)	_	_	_	_	_	_	_	
+31-35	3176-3177	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	3179-3180	#	_	_	_	_	_	_	_	
+32-2	3180-3181	P	_	_	_	_	_	_	_	
+32-3	3182-3185	IMM	_	_	_	_	_	_	_	
+32-4	3185-3186	.	_	_	_	_	_	_	_	
+
+#Text=Istället för att stödja valfångarnas förslag borde Sverige tydligt ta ställning för en utfasning av valfångsten.
+33-1	3188-3196	Istället	_	Target[9]	33-3[27]	false[9]	2[9]	_	_	
+33-2	3197-3200	för	_	Target[9]	33-3[27]	false[9]	2[9]	_	_	
+33-3	3201-3204	att	*[27]	_	_	_	_	_	_	
+33-4	3205-3211	stödja	*[27]	_	_	_	_	_	_	
+33-5	3212-3224	valfångarnas	*[27]	_	_	_	_	_	_	
+33-6	3225-3232	förslag	*[27]	_	_	_	_	_	_	
+33-7	3233-3238	borde	_	Target	33-8[28]	false	4	_	_	
+33-8	3239-3246	Sverige	*[28]	_	_	_	_	_	_	
+33-9	3247-3254	tydligt	*[28]	_	_	_	_	_	_	
+33-10	3255-3257	ta	*[28]	_	_	_	_	_	_	
+33-11	3258-3267	ställning	*[28]	_	_	_	_	_	_	
+33-12	3268-3271	för	*[28]	_	_	_	_	_	_	
+33-13	3272-3274	en	*[28]	_	_	_	_	_	_	
+33-14	3275-3284	utfasning	*[28]	_	_	_	_	_	_	
+33-15	3285-3287	av	*[28]	_	_	_	_	_	_	
+33-16	3288-3299	valfångsten	*[28]	_	_	_	_	_	_	
+33-17	3299-3300	.	_	_	_	_	_	_	_	
+
+#Text=Inte en legalisering.
+34-1	3301-3305	Inte	_	Target	34-2[29]	false	2	_	_	
+34-2	3306-3308	en	*[29]	_	_	_	_	_	_	
+34-3	3309-3321	legalisering	*[29]	_	_	_	_	_	_	
+34-4	3321-3322	.	_	_	_	_	_	_	_	
+
+#Text=Förutom att ge ett tydligt besked om vilken valjaktspolitik Sverige egentligen driver bör Sverige driva följande:.
+35-1	3323-3330	Förutom	_	_	_	_	_	_	_	
+35-2	3331-3334	att	_	_	_	_	_	_	_	
+35-3	3335-3337	ge	_	_	_	_	_	_	_	
+35-4	3338-3341	ett	_	_	_	_	_	_	_	
+35-5	3342-3349	tydligt	_	_	_	_	_	_	_	
+35-6	3350-3356	besked	_	_	_	_	_	_	_	
+35-7	3357-3359	om	_	_	_	_	_	_	_	
+35-8	3360-3366	vilken	_	_	_	_	_	_	_	
+35-9	3367-3382	valjaktspolitik	_	_	_	_	_	_	_	
+35-10	3383-3390	Sverige	_	_	_	_	_	_	_	
+35-11	3391-3401	egentligen	_	_	_	_	_	_	_	
+35-12	3402-3408	driver	_	_	_	_	_	_	_	
+35-13	3409-3412	bör	_	Target;Target;Source	37-1[30];41-1[32];39-1[31]	false	2	_	_	
+35-14	3413-3420	Sverige	_	_	_	_	_	_	_	
+35-15	3421-3426	driva	_	_[10]	_	false[10]	4[10]	35-13[0_10]	_	
+35-16	3427-3435	följande	_	_[10]	_	false[10]	4[10]	_	_	
+35-17	3435-3436	:	_	_	_	_	_	_	_	
+35-18	3436-3437	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3439-3440	#	_	_	_	_	_	_	_	
+36-2	3440-3441	P	_	_	_	_	_	_	_	
+36-3	3442-3445	IMM	_	_	_	_	_	_	_	
+36-4	3445-3446	.	_	_	_	_	_	_	_	
+
+#Text=Förbud för export av valprodukter (bara inrikeshandel).
+37-1	3448-3454	Förbud	*[30]	_	_	_	_	_	_	
+37-2	3455-3458	för	*[30]	_	_	_	_	_	_	
+37-3	3459-3465	export	*[30]	_	_	_	_	_	_	
+37-4	3466-3468	av	*[30]	_	_	_	_	_	_	
+37-5	3469-3481	valprodukter	*[30]	_	_	_	_	_	_	
+37-6	3482-3483	(	_	_	_	_	_	_	_	
+37-7	3483-3487	bara	_	_	_	_	_	_	_	
+37-8	3488-3501	inrikeshandel	_	_	_	_	_	_	_	
+37-9	3501-3502	)	_	_	_	_	_	_	_	
+37-10	3502-3503	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3505-3506	#	_	_	_	_	_	_	_	
+38-2	3506-3507	P	_	_	_	_	_	_	_	
+38-3	3508-3511	IMM	_	_	_	_	_	_	_	
+38-4	3511-3512	.	_	_	_	_	_	_	_	
+
+#Text=Fasa ut all valjakt i Södra Ishavet.
+39-1	3514-3518	Fasa	*[31]	_	_	_	_	_	_	
+39-2	3519-3521	ut	*[31]	_	_	_	_	_	_	
+39-3	3522-3525	all	*[31]	_	_	_	_	_	_	
+39-4	3526-3533	valjakt	*[31]	_	_	_	_	_	_	
+39-5	3534-3535	i	*[31]	_	_	_	_	_	_	
+39-6	3536-3541	Södra	*[31]	_	_	_	_	_	_	
+39-7	3542-3549	Ishavet	*[31]	_	_	_	_	_	_	
+39-8	3549-3550	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3552-3553	#	_	_	_	_	_	_	_	
+40-2	3553-3554	P	_	_	_	_	_	_	_	
+40-3	3555-3558	IMM	_	_	_	_	_	_	_	
+40-4	3558-3559	.	_	_	_	_	_	_	_	
+
+#Text=Att den publicerade kvotsystemet med det vetenskapligt överenskomna riktvärdet 0,72 skall användas.
+41-1	3561-3564	Att	*[32]	_	_	_	_	_	_	
+41-2	3565-3568	den	*[32]	_	_	_	_	_	_	
+41-3	3569-3580	publicerade	*[32]	_	_	_	_	_	_	
+41-4	3581-3593	kvotsystemet	*[32]	_	_	_	_	_	_	
+41-5	3594-3597	med	*[32]	_	_	_	_	_	_	
+41-6	3598-3601	det	*[32]	_	_	_	_	_	_	
+41-7	3602-3615	vetenskapligt	*[32]	_	_	_	_	_	_	
+41-8	3616-3628	överenskomna	*[32]	_	_	_	_	_	_	
+41-9	3629-3639	riktvärdet	*[32]	_	_	_	_	_	_	
+41-10	3640-3644	0,72	*[32]	_	_	_	_	_	_	
+41-11	3645-3650	skall	*[32]	_	_	_	_	_	_	
+41-12	3651-3659	användas	*[32]	_	_	_	_	_	_	
+41-13	3659-3660	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3662-3663	#	_	_	_	_	_	_	_	
+42-2	3663-3664	P	_	_	_	_	_	_	_	
+42-3	3665-3668	IMM	_	_	_	_	_	_	_	
+42-4	3668-3669	.	_	_	_	_	_	_	_	
+
+#Text=Carl Schlyter.
+43-1	3671-3675	Carl	_	_	_	_	_	_	_	
+43-2	3676-3684	Schlyter	_	_	_	_	_	_	_	
+43-3	3684-3685	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3687-3688	#	_	_	_	_	_	_	_	
+44-2	3688-3689	P	_	_	_	_	_	_	_	
+44-3	3690-3693	IMM	_	_	_	_	_	_	_	
+44-4	3693-3694	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker (mp).
+45-1	3696-3717	Europaparlamentariker	_	_	_	_	_	_	_	
+45-2	3718-3719	(	_	_	_	_	_	_	_	
+45-3	3719-3721	mp	_	_	_	_	_	_	_	
+45-4	3721-3722	)	_	_	_	_	_	_	_	
+45-5	3722-3723	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3725-3726	#	_	_	_	_	_	_	_	
+46-2	3726-3727	P	_	_	_	_	_	_	_	
+46-3	3728-3731	IMM	_	_	_	_	_	_	_	
+46-4	3731-3732	.	_	_	_	_	_	_	_	
+
+#Text=Isabella Lövin.
+47-1	3734-3742	Isabella	_	_	_	_	_	_	_	
+47-2	3743-3748	Lövin	_	_	_	_	_	_	_	
+47-3	3748-3749	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3751-3752	#	_	_	_	_	_	_	_	
+48-2	3752-3753	P	_	_	_	_	_	_	_	
+48-3	3754-3757	IMM	_	_	_	_	_	_	_	
+48-4	3757-3758	.	_	_	_	_	_	_	_	
+
+#Text=Europaparlamentariker (mp).
+49-1	3760-3781	Europaparlamentariker	_	_	_	_	_	_	_	
+49-2	3782-3783	(	_	_	_	_	_	_	_	
+49-3	3783-3785	mp	_	_	_	_	_	_	_	
+49-4	3785-3786	)	_	_	_	_	_	_	_	
+49-5	3786-3787	.	_	_	_	_	_	_	_	

@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vad ska du göra  i morgon?
+3-1	18-21	Vad	_	_	_	_	_	
+3-2	22-25	ska	_	_	_	_	_	
+3-3	26-28	du	_	_	_	_	_	
+3-4	29-33	göra	_	_	_	_	_	
+3-5	35-36	i	_	_	_	_	_	
+3-6	37-43	morgon	_	_	_	_	_	
+3-7	43-44	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	46-47	#	_	_	_	_	_	
+4-2	47-48	P	_	_	_	_	_	
+4-3	49-52	IMM	_	_	_	_	_	
+4-4	52-53	.	_	_	_	_	_	
+
+#Text=Det är vår nationaldag i morgon.
+5-1	55-58	Det	_	_	_	_	_	
+5-2	59-61	är	_	_	_	_	_	
+5-3	62-65	vår	_	_	_	_	_	
+5-4	66-77	nationaldag	_	_	_	_	_	
+5-5	78-79	i	_	_	_	_	_	
+5-6	80-86	morgon	_	_	_	_	_	
+5-7	86-87	.	_	_	_	_	_	
+
+#Text=Den har blivit helgdag, vi är lediga.
+6-1	88-91	Den	_	_	_	_	_	
+6-2	92-95	har	_	_	_	_	_	
+6-3	96-102	blivit	_	_	_	_	_	
+6-4	103-110	helgdag	_	_	_	_	_	
+6-5	110-111	,	_	_	_	_	_	
+6-6	112-114	vi	_	_	_	_	_	
+6-7	115-117	är	_	_	_	_	_	
+6-8	118-124	lediga	_	_	_	_	_	
+6-9	124-125	.	_	_	_	_	_	
+
+#Text=Jag kan tycka att det är skönt att det är en fredag, men så där himla nationalistisk känner jag mig inte.
+7-1	126-129	Jag	_	_	_	_	_	
+7-2	130-133	kan	_	_	_	_	_	
+7-3	134-139	tycka	_	_	_	_	_	
+7-4	140-143	att	_	_	_	_	_	
+7-5	144-147	det	_	_	_	_	_	
+7-6	148-150	är	_	_	_	_	_	
+7-7	151-156	skönt	_	Target	7-11[6]	false	4	
+7-8	157-160	att	_	_	_	_	_	
+7-9	161-164	det	_	_	_	_	_	
+7-10	165-167	är	_	_	_	_	_	
+7-11	168-170	en	*[6]	_	_	_	_	
+7-12	171-177	fredag	*[6]	_	_	_	_	
+7-13	177-178	,	_	_	_	_	_	
+7-14	179-182	men	_	_	_	_	_	
+7-15	183-185	så	_	_	_	_	_	
+7-16	186-189	där	_	_	_	_	_	
+7-17	190-195	himla	_	_	_	_	_	
+7-18	196-210	nationalistisk	_	_	_	_	_	
+7-19	211-217	känner	_	_	_	_	_	
+7-20	218-221	jag	_	_	_	_	_	
+7-21	222-225	mig	_	_	_	_	_	
+7-22	226-230	inte	_	_	_	_	_	
+7-23	230-231	.	_	_	_	_	_	
+
+#Text=Jag är mer svensk på midsommarafton.
+8-1	232-235	Jag	_	_	_	_	_	
+8-2	236-238	är	_	_	_	_	_	
+8-3	239-242	mer	_	_	_	_	_	
+8-4	243-249	svensk	_	_	_	_	_	
+8-5	250-252	på	_	_	_	_	_	
+8-6	253-267	midsommarafton	*	_	_	_	_	
+8-7	267-268	.	_	_	_	_	_	
+
+#Text=Då vill jag verkligen fira med jordgubbar och sill och nubbe.
+9-1	269-271	Då	_	_	_	_	_	
+9-2	272-276	vill	_	_	_	_	_	
+9-3	277-280	jag	*	_	_	_	_	
+9-4	281-290	verkligen	_	Source;Target[1]	9-3;8-6	false[1]	4[1]	
+9-5	291-295	fira	_	Source;Target[1]	9-3;8-6	false[1]	4[1]	
+9-6	296-299	med	_	_	_	_	_	
+9-7	300-310	jordgubbar	_	_	_	_	_	
+9-8	311-314	och	_	_	_	_	_	
+9-9	315-319	sill	_	_	_	_	_	
+9-10	320-323	och	_	_	_	_	_	
+9-11	324-329	nubbe	_	_	_	_	_	
+9-12	329-330	.	_	_	_	_	_	
+
+#Text=Men i morgon unnar jag mig nog inte ens en bakelse.
+10-1	331-334	Men	_	_	_	_	_	
+10-2	335-336	i	_	_	_	_	_	
+10-3	337-343	morgon	_	_	_	_	_	
+10-4	344-349	unnar	_	Target;Source	10-8[7];10-5	false	4	
+10-5	350-353	jag	*	_	_	_	_	
+10-6	354-357	mig	_	_	_	_	_	
+10-7	358-361	nog	_	_	_	_	_	
+10-8	362-366	inte	*[7]	_	_	_	_	
+10-9	367-370	ens	*[7]	_	_	_	_	
+10-10	371-373	en	*[7]	_	_	_	_	
+10-11	374-381	bakelse	*[7]	_	_	_	_	
+10-12	381-382	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	384-385	#	_	_	_	_	_	
+11-2	385-386	P	_	_	_	_	_	
+11-3	387-390	IMM	_	_	_	_	_	
+11-4	390-391	.	_	_	_	_	_	
+
+#Text=Det handlar absolut inte om att jag inte är stolt över Sverige.
+12-1	393-396	Det	_	_	_	_	_	
+12-2	397-404	handlar	_	_	_	_	_	
+12-3	405-412	absolut	_	_	_	_	_	
+12-4	413-417	inte	_	_	_	_	_	
+12-5	418-420	om	_	_	_	_	_	
+12-6	421-424	att	_	_	_	_	_	
+12-7	425-428	jag	*	_	_	_	_	
+12-8	429-433	inte	_	Source;Target[2]	12-7;12-11[8]	false[2]	2[2]	
+12-9	434-436	är	_	Source;Target[2]	12-7;12-11[8]	false[2]	2[2]	
+12-10	437-442	stolt	_	Source;Target[2]	12-7;12-11[8]	false[2]	2[2]	
+12-11	443-447	över	*[8]	_	_	_	_	
+12-12	448-455	Sverige	*[8]	_	_	_	_	
+12-13	455-456	.	_	_	_	_	_	
+
+#Text=Det är jag!
+13-1	457-460	Det	_	_	_	_	_	
+13-2	461-463	är	_	_	_	_	_	
+13-3	464-467	jag	_	_	_	_	_	
+13-4	467-468	!	_	_	_	_	_	
+
+#Text=Men jag har ingen relation till den 6 juni.
+14-1	469-472	Men	_	_	_	_	_	
+14-2	473-476	jag	_	_	_	_	_	
+14-3	477-480	har	_	_	_	_	_	
+14-4	481-486	ingen	_	_	_	_	_	
+14-5	487-495	relation	_	_	_	_	_	
+14-6	496-500	till	_	_	_	_	_	
+14-7	501-504	den	_	_	_	_	_	
+14-8	505-506	6	_	_	_	_	_	
+14-9	507-511	juni	_	_	_	_	_	
+14-10	511-512	.	_	_	_	_	_	
+
+#Text=Jag avskyr folkdräkter och ceremonier med flaggan.
+15-1	513-516	Jag	*	_	_	_	_	
+15-2	517-523	avskyr	_	Source;Target	15-1;15-3[9]	false	2	
+15-3	524-535	folkdräkter	*[9]	_	_	_	_	
+15-4	536-539	och	*[9]	_	_	_	_	
+15-5	540-550	ceremonier	*[9]	_	_	_	_	
+15-6	551-554	med	*[9]	_	_	_	_	
+15-7	555-562	flaggan	*[9]	_	_	_	_	
+15-8	562-563	.	_	_	_	_	_	
+
+#Text=Jag är inte så intresserad av kungen heller.
+16-1	564-567	Jag	_	_	_	_	_	
+16-2	568-570	är	_	_	_	_	_	
+16-3	571-575	inte	_	_	_	_	_	
+16-4	576-578	så	_	_	_	_	_	
+16-5	579-590	intresserad	_	_	_	_	_	
+16-6	591-593	av	_	_	_	_	_	
+16-7	594-600	kungen	_	_	_	_	_	
+16-8	601-607	heller	_	_	_	_	_	
+16-9	607-608	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	610-611	#	_	_	_	_	_	
+17-2	611-612	P	_	_	_	_	_	
+17-3	613-616	IMM	_	_	_	_	_	
+17-4	616-617	.	_	_	_	_	_	
+
+#Text=Egentligen tycker jag det är ett europeiskt influerat påhitt att vi också ska vara glada på nationaldagen.
+18-1	619-629	Egentligen	_	_	_	_	_	
+18-2	630-636	tycker	_	_	_	_	_	
+18-3	637-640	jag	*	_	_	_	_	
+18-4	641-644	det	_	_	_	_	_	
+18-5	645-647	är	_	_	_	_	_	
+18-6	648-651	ett	_	_	_	_	_	
+18-7	652-662	europeiskt	_	Source;Target[3]	18-3;18-13[10]	false[3]	2[3]	
+18-8	663-672	influerat	_	Source;Target[3]	18-3;18-13[10]	false[3]	2[3]	
+18-9	673-679	påhitt	_	Source;Target[3]	18-3;18-13[10]	false[3]	2[3]	
+18-10	680-683	att	_	_	_	_	_	
+18-11	684-686	vi	_	_	_	_	_	
+18-12	687-692	också	_	_	_	_	_	
+18-13	693-696	ska	*[10]	_	_	_	_	
+18-14	697-701	vara	*[10]	_	_	_	_	
+18-15	702-707	glada	*[10]	_	_	_	_	
+18-16	708-710	på	*[10]	_	_	_	_	
+18-17	711-724	nationaldagen	*[10]	_	_	_	_	
+18-18	724-725	.	_	_	_	_	_	
+
+#Text=Firandet har ingen folklig förankring, det är regering och riksdag som har bestämt att vi ska vara glada.
+19-1	726-734	Firandet	*	_	_	_	_	
+19-2	735-738	har	_	_	_	_	_	
+19-3	739-744	ingen	_	Target[4]	19-1	false[4]	2[4]	
+19-4	745-752	folklig	_	Target[4]	19-1	false[4]	2[4]	
+19-5	753-763	förankring	_	Target[4]	19-1	false[4]	2[4]	
+19-6	763-764	,	_	_	_	_	_	
+19-7	765-768	det	_	_	_	_	_	
+19-8	769-771	är	_	_	_	_	_	
+19-9	772-780	regering	_	_	_	_	_	
+19-10	781-784	och	_	_	_	_	_	
+19-11	785-792	riksdag	_	_	_	_	_	
+19-12	793-796	som	_	_	_	_	_	
+19-13	797-800	har	_	_	_	_	_	
+19-14	801-808	bestämt	_	_	_	_	_	
+19-15	809-812	att	_	_	_	_	_	
+19-16	813-815	vi	_	_	_	_	_	
+19-17	816-819	ska	_	_	_	_	_	
+19-18	820-824	vara	_	_	_	_	_	
+19-19	825-830	glada	_	_	_	_	_	
+19-20	830-831	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	833-834	#	_	_	_	_	_	
+20-2	834-835	P	_	_	_	_	_	
+20-3	836-839	IMM	_	_	_	_	_	
+20-4	839-840	.	_	_	_	_	_	
+
+#Text=Även om politikerna kan instifta ledighetsdagar kan de inte beordra nationaldagsglädje.
+21-1	842-846	Även	_	_	_	_	_	
+21-2	847-849	om	_	_	_	_	_	
+21-3	850-861	politikerna	*	_	_	_	_	
+21-4	862-865	kan	_	_	_	_	_	
+21-5	866-874	instifta	_	_	_	_	_	
+21-6	875-889	ledighetsdagar	_	_	_	_	_	
+21-7	890-893	kan	_	Target[5]	21-3	false[5]	2[5]	
+21-8	894-896	de	_	Target[5]	21-3	false[5]	2[5]	
+21-9	897-901	inte	_	Target[5]	21-3	false[5]	2[5]	
+21-10	902-909	beordra	_	Target[5]	21-3	false[5]	2[5]	
+21-11	910-928	nationaldagsglädje	_	Target[5]	21-3	false[5]	2[5]	
+21-12	928-929	.	_	_	_	_	_	
+
+#Text=Men som sagt, det är fredag och vi är lediga.
+22-1	930-933	Men	_	_	_	_	_	
+22-2	934-937	som	_	_	_	_	_	
+22-3	938-942	sagt	_	_	_	_	_	
+22-4	942-943	,	_	_	_	_	_	
+22-5	944-947	det	_	_	_	_	_	
+22-6	948-950	är	_	_	_	_	_	
+22-7	951-957	fredag	_	_	_	_	_	
+22-8	958-961	och	_	_	_	_	_	
+22-9	962-964	vi	_	_	_	_	_	
+22-10	965-967	är	_	_	_	_	_	
+22-11	968-974	lediga	_	_	_	_	_	
+22-12	974-975	.	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	977-978	#	_	_	_	_	_	
+23-2	978-979	P	_	_	_	_	_	
+23-3	980-983	IMM	_	_	_	_	_	
+23-4	983-984	.	_	_	_	_	_	
+
+#Text=Vad ska ni göra i morgon?
+24-1	986-989	Vad	_	_	_	_	_	
+24-2	990-993	ska	_	_	_	_	_	
+24-3	994-996	ni	_	_	_	_	_	
+24-4	997-1001	göra	_	_	_	_	_	
+24-5	1002-1003	i	_	_	_	_	_	
+24-6	1004-1010	morgon	_	_	_	_	_	
+24-7	1010-1011	?	_	_	_	_	_	
+
+#Text=Firar ni?.
+25-1	1012-1017	Firar	_	_	_	_	_	
+25-2	1018-1020	ni	_	_	_	_	_	
+25-3	1020-1021	?	_	_	_	_	_	
+25-4	1021-1022	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1024-1025	#	_	_	_	_	_	
+26-2	1025-1026	P	_	_	_	_	_	
+26-3	1027-1030	IMM	_	_	_	_	_	
+26-4	1030-1031	.	_	_	_	_	_	
+
+#Text=Mejla oss  d[email protected].
+27-1	1033-1038	Mejla	_	_	_	_	_	
+27-2	1039-1042	oss	_	_	_	_	_	
+27-3	1044-1045	d	_	_	_	_	_	
+27-4	1045-1046	[	_	_	_	_	_	
+27-5	1046-1051	email	_	_	_	_	_	
+27-6	1052-1061	protected	_	_	_	_	_	
+27-7	1061-1062	]	_	_	_	_	_	
+27-8	1062-1063	.	_	_	_	_	_	

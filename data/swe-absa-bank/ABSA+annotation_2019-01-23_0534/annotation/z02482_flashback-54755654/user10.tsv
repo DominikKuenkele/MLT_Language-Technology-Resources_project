@@ -1,0 +1,342 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Radikalt ändrad asylpolitik på gång i Tyskland/ EU?
+3-1	18-26	Radikalt	_	_	_	_	_	_	_	
+3-2	27-33	ändrad	_	_	_	_	_	_	_	
+3-3	34-45	asylpolitik	_	_	_	_	_	_	_	
+3-4	46-48	på	_	_	_	_	_	_	_	
+3-5	49-53	gång	_	_	_	_	_	_	_	
+3-6	54-55	i	_	_	_	_	_	_	_	
+3-7	56-64	Tyskland	_	_	_	_	_	_	_	
+3-8	64-65	/	_	_	_	_	_	_	_	
+3-9	66-68	EU	_	_	_	_	_	_	_	
+3-10	68-69	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	false	3	_	_	
+4-4	77-78	.	_	_	_	_	_	_	_	
+
+#Text=I dagens "Der Spiegel" finns en intervju med tysklands inrikesminister Thomas de Maziere.
+5-1	80-81	I	_	_	_	_	_	_	_	
+5-2	82-88	dagens	_	_	_	_	_	_	_	
+5-3	89-90	"	_	_	_	_	_	_	_	
+5-4	90-93	Der	_	_	_	_	_	_	_	
+5-5	94-101	Spiegel	_	_	_	_	_	_	_	
+5-6	101-102	"	_	_	_	_	_	_	_	
+5-7	103-108	finns	_	_	_	_	_	_	_	
+5-8	109-111	en	_	_	_	_	_	_	_	
+5-9	112-120	intervju	_	_	_	_	_	_	_	
+5-10	121-124	med	_	_	_	_	_	_	_	
+5-11	125-134	tysklands	_	_	_	_	_	_	_	
+5-12	135-150	inrikesminister	_	_	_	_	_	_	_	
+5-13	151-157	Thomas	_	_	_	_	_	_	_	
+5-14	158-160	de	_	_	_	_	_	_	_	
+5-15	161-168	Maziere	_	_	_	_	_	_	_	
+5-16	168-169	.	_	_	_	_	_	_	_	
+
+#Text=Min tyska är lite skral, men med hjälp av google översätt förstår jag det som att han uttalar att Tyskland/ EU inte kan ta emot alla hjälpbehövande i världen.
+6-1	170-173	Min	*[5]	_	_	_	_	_	_	
+6-2	174-179	tyska	*[5]	_	_	_	_	_	_	
+6-3	180-182	är	_	_	_	_	_	_	_	
+6-4	183-187	lite	_	Target[1]	6-1[5]	false[1]	2[1]	_	_	
+6-5	188-193	skral	_	Target[1]	6-1[5]	false[1]	2[1]	_	_	
+6-6	193-194	,	_	_	_	_	_	_	_	
+6-7	195-198	men	_	_	_	_	_	_	_	
+6-8	199-202	med	_	_	_	_	_	_	_	
+6-9	203-208	hjälp	_	_	_	_	_	_	_	
+6-10	209-211	av	_	_	_	_	_	_	_	
+6-11	212-218	google	_	_	_	_	_	_	_	
+6-12	219-227	översätt	_	_	_	_	_	_	_	
+6-13	228-235	förstår	_	_	_	_	_	_	_	
+6-14	236-239	jag	_	_	_	_	_	_	_	
+6-15	240-243	det	_	_	_	_	_	_	_	
+6-16	244-247	som	_	_	_	_	_	_	_	
+6-17	248-251	att	_	_	_	_	_	_	_	
+6-18	252-255	han	_	_	_	_	_	_	_	
+6-19	256-263	uttalar	_	_	_	_	_	_	_	
+6-20	264-267	att	_	_	_	_	_	_	_	
+6-21	268-276	Tyskland	_	_	_	_	_	_	_	
+6-22	276-277	/	_	_	_	_	_	_	_	
+6-23	278-280	EU	_	_	_	_	_	_	_	
+6-24	281-285	inte	_	_	_	_	_	_	_	
+6-25	286-289	kan	_	_	_	_	_	_	_	
+6-26	290-292	ta	_	_	_	_	_	_	_	
+6-27	293-297	emot	_	_	_	_	_	_	_	
+6-28	298-302	alla	_	_	_	_	_	_	_	
+6-29	303-317	hjälpbehövande	_	_	_	_	_	_	_	
+6-30	318-319	i	_	_	_	_	_	_	_	
+6-31	320-327	världen	_	_	_	_	_	_	_	
+6-32	327-328	.	_	_	_	_	_	_	_	
+
+#Text=Han verkar mena att för att kunna ta emot en viss kvot, under reglerade och kontrollerade former, måste Europa stärka sina yttre gränser och enbart släppa in den bestämda kvoten migranter/ flyktingar.
+7-1	329-332	Han	_	_	_	_	_	_	_	
+7-2	333-339	verkar	_	_	_	_	_	_	_	
+7-3	340-344	mena	_	_	_	_	_	_	_	
+7-4	345-348	att	_	_	_	_	_	_	_	
+7-5	349-352	för	_	_	_	_	_	_	_	
+7-6	353-356	att	_	_	_	_	_	_	_	
+7-7	357-362	kunna	_	_	_	_	_	_	_	
+7-8	363-365	ta	_	_	_	_	_	_	_	
+7-9	366-370	emot	_	_	_	_	_	_	_	
+7-10	371-373	en	_	_	_	_	_	_	_	
+7-11	374-378	viss	_	_	_	_	_	_	_	
+7-12	379-383	kvot	_	_	_	_	_	_	_	
+7-13	383-384	,	_	_	_	_	_	_	_	
+7-14	385-390	under	_	_	_	_	_	_	_	
+7-15	391-400	reglerade	_	_	_	_	_	_	_	
+7-16	401-404	och	_	_	_	_	_	_	_	
+7-17	405-418	kontrollerade	_	_	_	_	_	_	_	
+7-18	419-425	former	_	_	_	_	_	_	_	
+7-19	425-426	,	_	_	_	_	_	_	_	
+7-20	427-432	måste	_	_	_	_	_	_	_	
+7-21	433-439	Europa	_	_	_	_	_	_	_	
+7-22	440-446	stärka	_	_	_	_	_	_	_	
+7-23	447-451	sina	_	_	_	_	_	_	_	
+7-24	452-457	yttre	_	_	_	_	_	_	_	
+7-25	458-465	gränser	_	_	_	_	_	_	_	
+7-26	466-469	och	_	_	_	_	_	_	_	
+7-27	470-476	enbart	_	_	_	_	_	_	_	
+7-28	477-483	släppa	_	_	_	_	_	_	_	
+7-29	484-486	in	_	_	_	_	_	_	_	
+7-30	487-490	den	_	_	_	_	_	_	_	
+7-31	491-499	bestämda	_	_	_	_	_	_	_	
+7-32	500-506	kvoten	_	_	_	_	_	_	_	
+7-33	507-516	migranter	_	_	_	_	_	_	_	
+7-34	516-517	/	_	_	_	_	_	_	_	
+7-35	518-528	flyktingar	_	_	_	_	_	_	_	
+7-36	528-529	.	_	_	_	_	_	_	_	
+
+#Text=De som överstiger kvoten ska skickas tillbaka till "säkra områden" i närheten av sitt ursprungsland.
+8-1	530-532	De	_	_	_	_	_	_	_	
+8-2	533-536	som	_	_	_	_	_	_	_	
+8-3	537-547	överstiger	_	_	_	_	_	_	_	
+8-4	548-554	kvoten	_	_	_	_	_	_	_	
+8-5	555-558	ska	_	_	_	_	_	_	_	
+8-6	559-566	skickas	_	_	_	_	_	_	_	
+8-7	567-575	tillbaka	_	_	_	_	_	_	_	
+8-8	576-580	till	_	_	_	_	_	_	_	
+8-9	581-582	"	_	_	_	_	_	_	_	
+8-10	582-587	säkra	_	_	_	_	_	_	_	
+8-11	588-595	områden	_	_	_	_	_	_	_	
+8-12	595-596	"	_	_	_	_	_	_	_	
+8-13	597-598	i	_	_	_	_	_	_	_	
+8-14	599-607	närheten	_	_	_	_	_	_	_	
+8-15	608-610	av	_	_	_	_	_	_	_	
+8-16	611-615	sitt	_	_	_	_	_	_	_	
+8-17	616-629	ursprungsland	_	_	_	_	_	_	_	
+8-18	629-630	.	_	_	_	_	_	_	_	
+
+#Text=Lite oklart vad "säkra områden" är men jag förstår det som typ större flyktingläger som ska upprättas.
+9-1	631-635	Lite	_	_	_	_	_	_	_	
+9-2	636-642	oklart	_	_	_	_	_	_	_	
+9-3	643-646	vad	_	_	_	_	_	_	_	
+9-4	647-648	"	_	_	_	_	_	_	_	
+9-5	648-653	säkra	_	_	_	_	_	_	_	
+9-6	654-661	områden	_	_	_	_	_	_	_	
+9-7	661-662	"	_	_	_	_	_	_	_	
+9-8	663-665	är	_	_	_	_	_	_	_	
+9-9	666-669	men	_	_	_	_	_	_	_	
+9-10	670-673	jag	_	_	_	_	_	_	_	
+9-11	674-681	förstår	_	_	_	_	_	_	_	
+9-12	682-685	det	_	_	_	_	_	_	_	
+9-13	686-689	som	_	_	_	_	_	_	_	
+9-14	690-693	typ	_	_	_	_	_	_	_	
+9-15	694-700	större	_	_	_	_	_	_	_	
+9-16	701-714	flyktingläger	_	_	_	_	_	_	_	
+9-17	715-718	som	_	_	_	_	_	_	_	
+9-18	719-722	ska	_	_	_	_	_	_	_	
+9-19	723-732	upprättas	_	_	_	_	_	_	_	
+9-20	732-733	.	_	_	_	_	_	_	_	
+
+#Text=Jag kan inte se att hans uttalanden finns refererade i svensk media eller annan, men artikeln kom först i morse.
+10-1	734-737	Jag	_	_	_	_	_	_	_	
+10-2	738-741	kan	_	_	_	_	_	_	_	
+10-3	742-746	inte	_	_	_	_	_	_	_	
+10-4	747-749	se	_	_	_	_	_	_	_	
+10-5	750-753	att	_	_	_	_	_	_	_	
+10-6	754-758	hans	_	_	_	_	_	_	_	
+10-7	759-769	uttalanden	_	_	_	_	_	_	_	
+10-8	770-775	finns	_	_	_	_	_	_	_	
+10-9	776-786	refererade	_	_	_	_	_	_	_	
+10-10	787-788	i	_	_	_	_	_	_	_	
+10-11	789-795	svensk	_	_	_	_	_	_	_	
+10-12	796-801	media	_	_	_	_	_	_	_	
+10-13	802-807	eller	_	_	_	_	_	_	_	
+10-14	808-813	annan	_	_	_	_	_	_	_	
+10-15	813-814	,	_	_	_	_	_	_	_	
+10-16	815-818	men	_	_	_	_	_	_	_	
+10-17	819-827	artikeln	_	_	_	_	_	_	_	
+10-18	828-831	kom	_	_	_	_	_	_	_	
+10-19	832-837	först	_	_	_	_	_	_	_	
+10-20	838-839	i	_	_	_	_	_	_	_	
+10-21	840-845	morse	_	_	_	_	_	_	_	
+10-22	845-846	.	_	_	_	_	_	_	_	
+
+#Text=Om jag uppfattat det rätt gör väl Tyskland i så fall en helomvändning jämfört med vad Merkel tidigare uttalat.
+11-1	847-849	Om	_	_	_	_	_	_	_	
+11-2	850-853	jag	_	_	_	_	_	_	_	
+11-3	854-863	uppfattat	_	_	_	_	_	_	_	
+11-4	864-867	det	_	_	_	_	_	_	_	
+11-5	868-872	rätt	_	_	_	_	_	_	_	
+11-6	873-876	gör	_	_	_	_	_	_	_	
+11-7	877-880	väl	_	_	_	_	_	_	_	
+11-8	881-889	Tyskland	_	_	_	_	_	_	_	
+11-9	890-891	i	_	_	_	_	_	_	_	
+11-10	892-894	så	_	_	_	_	_	_	_	
+11-11	895-899	fall	_	_	_	_	_	_	_	
+11-12	900-902	en	_	_	_	_	_	_	_	
+11-13	903-916	helomvändning	_	_	_	_	_	_	_	
+11-14	917-924	jämfört	_	_	_	_	_	_	_	
+11-15	925-928	med	_	_	_	_	_	_	_	
+11-16	929-932	vad	_	_	_	_	_	_	_	
+11-17	933-939	Merkel	_	_	_	_	_	_	_	
+11-18	940-948	tidigare	_	_	_	_	_	_	_	
+11-19	949-956	uttalat	_	_	_	_	_	_	_	
+11-20	956-957	.	_	_	_	_	_	_	_	
+
+#Text=Och då Tyskland är det mest progressiva landet f n vad gäller migrationsfrågan ger väl detta en hint om vad som kan bli EUs nya (väsentligt snävare) migrationspolitik framöver.
+12-1	958-961	Och	_	_	_	_	_	_	_	
+12-2	962-964	då	_	_	_	_	_	_	_	
+12-3	965-973	Tyskland	*	_	_	_	_	_	_	
+12-4	974-976	är	_	_	_	_	_	_	_	
+12-5	977-980	det	_	Target[2]	12-3	false[2]	4[2]	_	_	
+12-6	981-985	mest	_	Target[2]	12-3	false[2]	4[2]	_	_	
+12-7	986-997	progressiva	_	Target[2]	12-3	false[2]	4[2]	_	_	
+12-8	998-1004	landet	_	Target[2]	12-3	false[2]	4[2]	_	_	
+12-9	1005-1006	f	_	_	_	_	_	_	_	
+12-10	1007-1008	n	_	_	_	_	_	_	_	
+12-11	1009-1012	vad	_	_[3]	_	false[3]	4[3]	12-5[2_3]	_	
+12-12	1013-1019	gäller	_	_[3]	_	false[3]	4[3]	_	_	
+12-13	1020-1036	migrationsfrågan	_	_[3]	_	false[3]	4[3]	_	_	
+12-14	1037-1040	ger	_	_	_	_	_	_	_	
+12-15	1041-1044	väl	_	_	_	_	_	_	_	
+12-16	1045-1050	detta	_	_	_	_	_	_	_	
+12-17	1051-1053	en	_	_	_	_	_	_	_	
+12-18	1054-1058	hint	_	_	_	_	_	_	_	
+12-19	1059-1061	om	_	_	_	_	_	_	_	
+12-20	1062-1065	vad	_	_	_	_	_	_	_	
+12-21	1066-1069	som	_	_	_	_	_	_	_	
+12-22	1070-1073	kan	_	_	_	_	_	_	_	
+12-23	1074-1077	bli	_	_	_	_	_	_	_	
+12-24	1078-1081	EUs	_	_	_	_	_	_	_	
+12-25	1082-1085	nya	_	_	_	_	_	_	_	
+12-26	1086-1087	(	_	_	_	_	_	_	_	
+12-27	1087-1097	väsentligt	_	_	_	_	_	_	_	
+12-28	1098-1105	snävare	_	_	_	_	_	_	_	
+12-29	1105-1106	)	_	_	_	_	_	_	_	
+12-30	1107-1124	migrationspolitik	_	_	_	_	_	_	_	
+12-31	1125-1133	framöver	_	_	_	_	_	_	_	
+12-32	1133-1134	.	_	_	_	_	_	_	_	
+
+#Text=Någon annan som kan bättre tyska?
+13-1	1135-1140	Någon	*[6]	_	_	_	_	_	_	
+13-2	1141-1146	annan	*[6]	_	_	_	_	_	_	
+13-3	1147-1150	som	_	_	_	_	_	_	_	
+13-4	1151-1154	kan	_	Source;Target[4]	13-1[6];13-6	false[4]	4[4]	_	_	
+13-5	1155-1161	bättre	_	Source;Target[4]	13-1[6];13-6	false[4]	4[4]	_	_	
+13-6	1162-1167	tyska	*	_	_	_	_	_	_	
+13-7	1167-1168	?	_	_	_	_	_	_	_	
+
+#Text=Händer mycket i Europa nu.
+14-1	1169-1175	Händer	_	_	_	_	_	_	_	
+14-2	1176-1182	mycket	_	_	_	_	_	_	_	
+14-3	1183-1184	i	_	_	_	_	_	_	_	
+14-4	1185-1191	Europa	_	_	_	_	_	_	_	
+14-5	1192-1194	nu	_	_	_	_	_	_	_	
+14-6	1194-1195	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1197-1198	#	_	_	_	_	_	_	_	
+15-2	1198-1199	P	_	_	_	_	_	_	_	
+15-3	1200-1203	IMM	_	_	_	false	3	_	_	
+15-4	1203-1204	.	_	_	_	_	_	_	_	
+
+#Text=Tilläggas kan att det på senare tid funnits många artiklar i internationell media (dock inte i svensk media vad jag kunnat se) om decennier av ökad massmigration, se t ex:.
+16-1	1206-1215	Tilläggas	_	_	_	_	_	_	_	
+16-2	1216-1219	kan	_	_	_	_	_	_	_	
+16-3	1220-1223	att	_	_	_	_	_	_	_	
+16-4	1224-1227	det	_	_	_	_	_	_	_	
+16-5	1228-1230	på	_	_	_	_	_	_	_	
+16-6	1231-1237	senare	_	_	_	_	_	_	_	
+16-7	1238-1241	tid	_	_	_	_	_	_	_	
+16-8	1242-1249	funnits	_	_	_	_	_	_	_	
+16-9	1250-1255	många	_	_	_	_	_	_	_	
+16-10	1256-1264	artiklar	_	_	_	_	_	_	_	
+16-11	1265-1266	i	_	_	_	_	_	_	_	
+16-12	1267-1281	internationell	_	_	_	_	_	_	_	
+16-13	1282-1287	media	_	_	_	_	_	_	_	
+16-14	1288-1289	(	_	_	_	_	_	_	_	
+16-15	1289-1293	dock	_	_	_	_	_	_	_	
+16-16	1294-1298	inte	_	_	_	_	_	_	_	
+16-17	1299-1300	i	_	_	_	_	_	_	_	
+16-18	1301-1307	svensk	_	_	_	_	_	_	_	
+16-19	1308-1313	media	_	_	_	_	_	_	_	
+16-20	1314-1317	vad	_	_	_	_	_	_	_	
+16-21	1318-1321	jag	_	_	_	_	_	_	_	
+16-22	1322-1328	kunnat	_	_	_	_	_	_	_	
+16-23	1329-1331	se	_	_	_	_	_	_	_	
+16-24	1331-1332	)	_	_	_	_	_	_	_	
+16-25	1333-1335	om	_	_	_	_	_	_	_	
+16-26	1336-1345	decennier	_	_	_	_	_	_	_	
+16-27	1346-1348	av	_	_	_	_	_	_	_	
+16-28	1349-1353	ökad	_	_	_	_	_	_	_	
+16-29	1354-1367	massmigration	_	_	_	_	_	_	_	
+16-30	1367-1368	,	_	_	_	_	_	_	_	
+16-31	1369-1371	se	_	_	_	_	_	_	_	
+16-32	1372-1373	t	_	_	_	_	_	_	_	
+16-33	1374-1376	ex	_	_	_	_	_	_	_	
+16-34	1376-1377	:	_	_	_	_	_	_	_	
+16-35	1377-1378	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1380-1381	#	_	_	_	_	_	_	_	
+17-2	1381-1382	P	_	_	_	_	_	_	_	
+17-3	1383-1386	IMM	_	_	_	false	3	_	_	
+17-4	1386-1387	.	_	_	_	_	_	_	_	
+
+#Text=Tyskland kanske har dragit slutsatsen att ungerns exempel med byggande av stängsel dessvärre är den enda utvägen om EU ska överleva/ fungera stabilt?.
+18-1	1389-1397	Tyskland	_	_	_	_	_	_	_	
+18-2	1398-1404	kanske	_	_	_	_	_	_	_	
+18-3	1405-1408	har	_	_	_	_	_	_	_	
+18-4	1409-1415	dragit	_	_	_	_	_	_	_	
+18-5	1416-1426	slutsatsen	_	_	_	_	_	_	_	
+18-6	1427-1430	att	_	_	_	_	_	_	_	
+18-7	1431-1438	ungerns	*[7]	_	_	_	_	_	18-15[8_7]	
+18-8	1439-1446	exempel	*[7]	_	_	_	_	_	_	
+18-9	1447-1450	med	*[7]	_	_	_	_	_	_	
+18-10	1451-1459	byggande	*[7]	_	_	_	_	_	_	
+18-11	1460-1462	av	*[7]	_	_	_	_	_	_	
+18-12	1463-1471	stängsel	*[7]	_	_	_	_	_	_	
+18-13	1472-1481	dessvärre	_	Target	18-15[8]	false	2	_	_	
+18-14	1482-1484	är	_	_	_	_	_	_	_	
+18-15	1485-1488	den	*[8]	_	_	_	_	_	_	
+18-16	1489-1493	enda	*[8]	_	_	_	_	_	_	
+18-17	1494-1501	utvägen	*[8]	_	_	_	_	_	_	
+18-18	1502-1504	om	_	_	_	_	_	_	_	
+18-19	1505-1507	EU	_	_	_	_	_	_	_	
+18-20	1508-1511	ska	_	_	_	_	_	_	_	
+18-21	1512-1520	överleva	_	_	_	_	_	_	_	
+18-22	1520-1521	/	_	_	_	_	_	_	_	
+18-23	1522-1529	fungera	_	_	_	_	_	_	_	
+18-24	1530-1537	stabilt	_	_	_	_	_	_	_	
+18-25	1537-1538	?	_	_	_	_	_	_	_	
+18-26	1538-1539	.	_	_	_	_	_	_	_	

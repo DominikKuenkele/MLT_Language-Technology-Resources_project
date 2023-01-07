@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Kommer invandrarna sno våran historia?
+3-1	18-24	Kommer	_	_	_	_	_	_	
+3-2	25-36	invandrarna	_	_	_	_	_	_	
+3-3	37-40	sno	_	_	_	_	_	_	
+3-4	41-46	våran	_	_	_	_	_	_	
+3-5	47-55	historia	_	_	_	_	_	_	
+3-6	55-56	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	
+
+#Text=Det är alltid något som gett mig glädje i djupa depressioner av att se dessa rasfrämlingar varje dag är våran rika och svenska historia, och att jag har samma blod som rinner i mina ådror som var i dessa människor som levde på den tiden.
+5-1	67-70	Det	_	_	_	_	_	_	
+5-2	71-73	är	_	_	_	_	_	_	
+5-3	74-80	alltid	_	_	_	_	_	_	
+5-4	81-86	något	*	_	_	_	_	_	
+5-5	87-90	som	_	_	_	_	_	_	
+5-6	91-95	gett	_	Target[1]	5-4	false[1]	4[1]	_	
+5-7	96-99	mig	_	Target[1]	5-4	false[1]	4[1]	_	
+5-8	100-106	glädje	_	Target[1]	5-4	false[1]	4[1]	_	
+5-9	107-108	i	_	_	_	_	_	_	
+5-10	109-114	djupa	_	_	_	_	_	_	
+5-11	115-127	depressioner	_	_	_	_	_	_	
+5-12	128-130	av	_	_	_	_	_	_	
+5-13	131-134	att	_	_	_	_	_	_	
+5-14	135-137	se	_	_	_	_	_	_	
+5-15	138-143	dessa	_	_	_	_	_	_	
+5-16	144-157	rasfrämlingar	*	Target	5-16	false	2	_	
+5-17	158-163	varje	_	_	_	_	_	_	
+5-18	164-167	dag	_	_	_	_	_	_	
+5-19	168-170	är	_	_	_	_	_	_	
+5-20	171-176	våran	*[5]	_	_	_	_	5-4[0_5]	
+5-21	177-181	rika	*[5]	_	_	_	_	_	
+5-22	182-185	och	*[5]	_	_	_	_	_	
+5-23	186-193	svenska	*[5]	_	_	_	_	_	
+5-24	194-202	historia	*[5]	_	_	_	_	_	
+5-25	202-203	,	*[5]	_	_	_	_	_	
+5-26	204-207	och	*[5]	_	_	_	_	_	
+5-27	208-211	att	*[5]	_	_	_	_	_	
+5-28	212-215	jag	*[5]	_	_	_	_	_	
+5-29	216-219	har	*[5]	_	_	_	_	_	
+5-30	220-225	samma	*[5]	_	_	_	_	_	
+5-31	226-230	blod	*[5]	_	_	_	_	_	
+5-32	231-234	som	*[5]	_	_	_	_	_	
+5-33	235-241	rinner	*[5]	_	_	_	_	_	
+5-34	242-243	i	*[5]	_	_	_	_	_	
+5-35	244-248	mina	*[5]	_	_	_	_	_	
+5-36	249-254	ådror	*[5]	_	_	_	_	_	
+5-37	255-258	som	*[5]	_	_	_	_	_	
+5-38	259-262	var	*[5]	_	_	_	_	_	
+5-39	263-264	i	*[5]	_	_	_	_	_	
+5-40	265-270	dessa	*[5]	_	_	_	_	_	
+5-41	271-280	människor	*[5]	_	_	_	_	_	
+5-42	281-284	som	*[5]	_	_	_	_	_	
+5-43	285-290	levde	*[5]	_	_	_	_	_	
+5-44	291-293	på	*[5]	_	_	_	_	_	
+5-45	294-297	den	*[5]	_	_	_	_	_	
+5-46	298-303	tiden	*[5]	_	_	_	_	_	
+5-47	303-304	.	_	_	_	_	_	_	
+
+#Text=Jag har börjat tänka i annorlunda banor de sista dagarna.
+6-1	305-308	Jag	_	_	_	_	_	_	
+6-2	309-312	har	_	_	_	_	_	_	
+6-3	313-319	börjat	_	_	_	_	_	_	
+6-4	320-325	tänka	_	_	_	_	_	_	
+6-5	326-327	i	_	_	_	_	_	_	
+6-6	328-338	annorlunda	_	_	_	_	_	_	
+6-7	339-344	banor	_	_	_	_	_	_	
+6-8	345-347	de	_	_	_	_	_	_	
+6-9	348-353	sista	_	_	_	_	_	_	
+6-10	354-361	dagarna	_	_	_	_	_	_	
+6-11	361-362	.	_	_	_	_	_	_	
+
+#Text=Sverige kommer se ut som Brasilien om dagens invandring fortsätter.
+7-1	363-370	Sverige	_	_	_	_	_	_	
+7-2	371-377	kommer	_	_	_	_	_	_	
+7-3	378-380	se	_	_	_	_	_	_	
+7-4	381-383	ut	_	_	_	_	_	_	
+7-5	384-387	som	_	_	_	_	_	_	
+7-6	388-397	Brasilien	*	_	_	_	_	_	
+7-7	398-400	om	_	_	_	_	_	_	
+7-8	401-407	dagens	*[6]	_	_	_	_	_	
+7-9	408-418	invandring	*[6]	_	_	_	_	_	
+7-10	419-429	fortsätter	_	_	_	_	_	_	
+7-11	429-430	.	_	Target[2]|Target[3]	7-6|7-8[6]	false[2]|false[3]	2[2]|2[3]	_	
+
+#Text=Kommer de ta våran historia?
+8-1	431-437	Kommer	_	_	_	_	_	_	
+8-2	438-440	de	_	_	_	_	_	_	
+8-3	441-443	ta	_	_	_	_	_	_	
+8-4	444-449	våran	_	_	_	_	_	_	
+8-5	450-458	historia	_	_	_	_	_	_	
+8-6	458-459	?	_	_	_	_	_	_	
+
+#Text=När det sitter 24st rasblandade ungar i ett klassrum kommer lärarna lära ut att de är lika mycket svenskar som Gustav Vasa?
+9-1	460-463	När	_	_	_	_	_	_	
+9-2	464-467	det	_	_	_	_	_	_	
+9-3	468-474	sitter	_	_	_	_	_	_	
+9-4	475-479	24st	_	_	_	_	_	_	
+9-5	480-491	rasblandade	_	_	_	_	_	_	
+9-6	492-497	ungar	_	_	_	_	_	_	
+9-7	498-499	i	_	_	_	_	_	_	
+9-8	500-503	ett	_	_	_	_	_	_	
+9-9	504-512	klassrum	_	_	_	_	_	_	
+9-10	513-519	kommer	_	_	_	_	_	_	
+9-11	520-527	lärarna	_	_	_	_	_	_	
+9-12	528-532	lära	_	_	_	_	_	_	
+9-13	533-535	ut	_	_	_	_	_	_	
+9-14	536-539	att	_	_[4]	_	false[4]	2[4]	_	
+9-15	540-542	de	_	_[4]	_	false[4]	2[4]	_	
+9-16	543-545	är	_	_[4]	_	false[4]	2[4]	_	
+9-17	546-550	lika	_	_[4]	_	false[4]	2[4]	_	
+9-18	551-557	mycket	_	_[4]	_	false[4]	2[4]	_	
+9-19	558-566	svenskar	_	_[4]	_	false[4]	2[4]	_	
+9-20	567-570	som	_	_[4]	_	false[4]	2[4]	_	
+9-21	571-577	Gustav	_	_[4]	_	false[4]	2[4]	_	
+9-22	578-582	Vasa	_	_[4]	_	false[4]	2[4]	_	
+9-23	582-583	?	_	_	_	false	2	_	
+
+#Text=Kommer de förneka att det fanns etniska svenskar och att de är döda och utspridda bland dominerande negroida gener?
+10-1	584-590	Kommer	_	_	_	_	_	_	
+10-2	591-593	de	_	_	_	_	_	_	
+10-3	594-601	förneka	_	_	_	_	_	_	
+10-4	602-605	att	_	_	_	_	_	_	
+10-5	606-609	det	_	_	_	_	_	_	
+10-6	610-615	fanns	_	_	_	_	_	_	
+10-7	616-623	etniska	_	_	_	_	_	_	
+10-8	624-632	svenskar	_	_	_	_	_	_	
+10-9	633-636	och	_	_	_	_	_	_	
+10-10	637-640	att	_	_	_	_	_	_	
+10-11	641-643	de	_	_	_	_	_	_	
+10-12	644-646	är	_	_	_	_	_	_	
+10-13	647-651	döda	_	_	_	_	_	_	
+10-14	652-655	och	_	_	_	_	_	_	
+10-15	656-665	utspridda	_	_	_	_	_	_	
+10-16	666-671	bland	_	_	_	_	_	_	
+10-17	672-683	dominerande	_	_	_	_	_	_	
+10-18	684-692	negroida	_	_	_	_	_	_	
+10-19	693-698	gener	_	_	_	_	_	_	
+10-20	698-699	?	_	_	_	_	_	_	
+
+#Text=Kommer det plötsligt börja existera svartmuskiga människor på 1800-talet i Sverige?
+11-1	700-706	Kommer	_	_	_	_	_	_	
+11-2	707-710	det	_	_	_	_	_	_	
+11-3	711-720	plötsligt	_	_	_	_	_	_	
+11-4	721-726	börja	_	_	_	_	_	_	
+11-5	727-735	existera	_	_	_	_	_	_	
+11-6	736-748	svartmuskiga	_	_	_	_	_	_	
+11-7	749-758	människor	_	_	_	_	_	_	
+11-8	759-761	på	_	_	_	_	_	_	
+11-9	762-766	1800	_	_	_	_	_	_	
+11-10	766-767	-	_	_	_	_	_	_	
+11-11	767-772	talet	_	_	_	_	_	_	
+11-12	773-774	i	_	_	_	_	_	_	
+11-13	775-782	Sverige	_	_	_	_	_	_	
+11-14	782-783	?	_	_	_	_	_	_	
+
+#Text=Kommer dessa rasfrämlingar anse att de är en del av den svenska historian när deras förfäder inte ens levde här i Norden på den tiden?.
+12-1	784-790	Kommer	_	_	_	_	_	_	
+12-2	791-796	dessa	_	_	_	_	_	_	
+12-3	797-810	rasfrämlingar	*	Target	12-3	false	2	_	
+12-4	811-815	anse	_	_	_	_	_	_	
+12-5	816-819	att	_	_	_	_	_	_	
+12-6	820-822	de	_	_	_	_	_	_	
+12-7	823-825	är	_	_	_	_	_	_	
+12-8	826-828	en	_	_	_	_	_	_	
+12-9	829-832	del	_	_	_	_	_	_	
+12-10	833-835	av	_	_	_	_	_	_	
+12-11	836-839	den	_	_	_	_	_	_	
+12-12	840-847	svenska	_	_	_	_	_	_	
+12-13	848-857	historian	_	_	_	_	_	_	
+12-14	858-861	när	_	_	_	_	_	_	
+12-15	862-867	deras	_	_	_	_	_	_	
+12-16	868-876	förfäder	_	_	_	_	_	_	
+12-17	877-881	inte	_	_	_	_	_	_	
+12-18	882-885	ens	_	_	_	_	_	_	
+12-19	886-891	levde	_	_	_	_	_	_	
+12-20	892-895	här	_	_	_	_	_	_	
+12-21	896-897	i	_	_	_	_	_	_	
+12-22	898-904	Norden	_	_	_	_	_	_	
+12-23	905-907	på	_	_	_	_	_	_	
+12-24	908-911	den	_	_	_	_	_	_	
+12-25	912-917	tiden	_	_	_	_	_	_	
+12-26	917-918	?	_	_	_	_	_	_	
+12-27	918-919	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	921-922	#	_	_	_	_	_	_	
+13-2	922-923	P	_	_	_	_	_	_	
+13-3	924-927	IMM	_	_	_	false	1	_	
+13-4	927-928	.	_	_	_	_	_	_	
+
+#Text=Svensk historia är något som alltid kommer vara svenskt, men vad kommer dessa människor säga om 500-600 år?
+14-1	930-936	Svensk	_	_	_	_	_	_	
+14-2	937-945	historia	_	_	_	_	_	_	
+14-3	946-948	är	_	_	_	_	_	_	
+14-4	949-954	något	_	_	_	_	_	_	
+14-5	955-958	som	_	_	_	_	_	_	
+14-6	959-965	alltid	_	_	_	_	_	_	
+14-7	966-972	kommer	_	_	_	_	_	_	
+14-8	973-977	vara	_	_	_	_	_	_	
+14-9	978-985	svenskt	_	_	_	_	_	_	
+14-10	985-986	,	_	_	_	_	_	_	
+14-11	987-990	men	_	_	_	_	_	_	
+14-12	991-994	vad	_	_	_	_	_	_	
+14-13	995-1001	kommer	_	_	_	_	_	_	
+14-14	1002-1007	dessa	_	_	_	_	_	_	
+14-15	1008-1017	människor	_	_	_	_	_	_	
+14-16	1018-1022	säga	_	_	_	_	_	_	
+14-17	1023-1025	om	_	_	_	_	_	_	
+14-18	1026-1029	500	_	_	_	_	_	_	
+14-19	1029-1030	-	_	_	_	_	_	_	
+14-20	1030-1033	600	_	_	_	_	_	_	
+14-21	1034-1036	år	_	_	_	_	_	_	
+14-22	1036-1037	?	_	_	_	_	_	_	
+
+#Text=Hah, nu låter jag kanske lite paranoid, det kommer säkerligen inte existera skolor med tanke på att svenskarna kommer dö ut, då vi går i back efter varje dag.
+15-1	1038-1041	Hah	_	_	_	_	_	_	
+15-2	1041-1042	,	_	_	_	_	_	_	
+15-3	1043-1045	nu	_	_	_	_	_	_	
+15-4	1046-1051	låter	_	_	_	_	_	_	
+15-5	1052-1055	jag	_	_	_	_	_	_	
+15-6	1056-1062	kanske	_	_	_	_	_	_	
+15-7	1063-1067	lite	_	_	_	_	_	_	
+15-8	1068-1076	paranoid	_	_	_	_	_	_	
+15-9	1076-1077	,	_	_	_	_	_	_	
+15-10	1078-1081	det	_	_	_	_	_	_	
+15-11	1082-1088	kommer	_	_	_	_	_	_	
+15-12	1089-1099	säkerligen	_	_	_	_	_	_	
+15-13	1100-1104	inte	_	_	_	_	_	_	
+15-14	1105-1113	existera	_	_	_	_	_	_	
+15-15	1114-1120	skolor	_	_	_	_	_	_	
+15-16	1121-1124	med	_	_	_	_	_	_	
+15-17	1125-1130	tanke	_	_	_	_	_	_	
+15-18	1131-1133	på	_	_	_	_	_	_	
+15-19	1134-1137	att	_	_	_	_	_	_	
+15-20	1138-1148	svenskarna	_	_	_	_	_	_	
+15-21	1149-1155	kommer	_	_	_	_	_	_	
+15-22	1156-1158	dö	_	_	_	_	_	_	
+15-23	1159-1161	ut	_	_	_	_	_	_	
+15-24	1161-1162	,	_	_	_	_	_	_	
+15-25	1163-1165	då	_	_	_	_	_	_	
+15-26	1166-1168	vi	_	_	_	_	_	_	
+15-27	1169-1172	går	_	_	_	_	_	_	
+15-28	1173-1174	i	_	_	_	_	_	_	
+15-29	1175-1179	back	_	_	_	_	_	_	
+15-30	1180-1185	efter	_	_	_	_	_	_	
+15-31	1186-1191	varje	_	_	_	_	_	_	
+15-32	1192-1195	dag	_	_	_	_	_	_	
+15-33	1195-1196	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1198-1199	#	_	_	_	_	_	_	
+16-2	1199-1200	P	_	_	_	_	_	_	
+16-3	1201-1204	IMM	_	_	_	_	_	_	
+16-4	1204-1205	.	_	_	_	_	_	_	
+
+#Text=MOD får gärna flytta denna tråd till ett historia forum, jag hittade inte det, då jag tycker att det passar in här.
+17-1	1207-1210	MOD	_	_	_	_	_	_	
+17-2	1211-1214	får	_	_	_	_	_	_	
+17-3	1215-1220	gärna	_	_	_	_	_	_	
+17-4	1221-1227	flytta	_	_	_	_	_	_	
+17-5	1228-1233	denna	_	_	_	_	_	_	
+17-6	1234-1238	tråd	_	_	_	_	_	_	
+17-7	1239-1243	till	_	_	_	_	_	_	
+17-8	1244-1247	ett	_	_	_	_	_	_	
+17-9	1248-1256	historia	_	_	_	_	_	_	
+17-10	1257-1262	forum	_	_	_	_	_	_	
+17-11	1262-1263	,	_	_	_	_	_	_	
+17-12	1264-1267	jag	_	_	_	_	_	_	
+17-13	1268-1275	hittade	_	_	_	_	_	_	
+17-14	1276-1280	inte	_	_	_	_	_	_	
+17-15	1281-1284	det	_	_	_	_	_	_	
+17-16	1284-1285	,	_	_	_	_	_	_	
+17-17	1286-1288	då	_	_	_	_	_	_	
+17-18	1289-1292	jag	_	_	_	_	_	_	
+17-19	1293-1299	tycker	_	_	_	_	_	_	
+17-20	1300-1303	att	_	_	_	_	_	_	
+17-21	1304-1307	det	_	_	_	_	_	_	
+17-22	1308-1314	passar	_	_	_	_	_	_	
+17-23	1315-1317	in	_	_	_	_	_	_	
+17-24	1318-1321	här	_	_	_	_	_	_	
+17-25	1321-1322	.	_	_	_	_	_	_	

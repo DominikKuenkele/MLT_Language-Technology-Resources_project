@@ -1,0 +1,879 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Kristna S-politiker odlar intoleransen.
+3-1	18-25	Kristna	*[17]	_	_	_	_	_	_	
+3-2	26-37	S-politiker	*[17]	_	_	_	_	_	_	
+3-3	38-43	odlar	_	Target[1]	3-1[17]	false[1]	1[1]	_	_	
+3-4	44-56	intoleransen	*	Target[1]|Target[2]	3-1[17]|3-4	false[1]|false[2]	1[1]|1[2]	_	_	
+3-5	56-57	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	_	
+
+#Text=Det har gått för långt när socialdemokratiska kristna politiker anklagar en feministisk liberal kvinna för hets mot folkgrupp, för att hon inte delar deras åsikter.
+5-1	68-71	Det	_	Target[3]	5-7[18]	false[3]	1[3]	_	_	
+5-2	72-75	har	_	Target[3]	5-7[18]	false[3]	1[3]	_	_	
+5-3	76-80	gått	_	Target[3]	5-7[18]	false[3]	1[3]	_	_	
+5-4	81-84	för	_	Target[3]	5-7[18]	false[3]	1[3]	_	_	
+5-5	85-90	långt	_	Target[3]	5-7[18]	false[3]	1[3]	_	_	
+5-6	91-94	när	_	_	_	_	_	_	_	
+5-7	95-113	socialdemokratiska	*[18]|*[19]	_	_	_	_	_	_	
+5-8	114-121	kristna	*[18]|*[19]	_	_	_	_	_	_	
+5-9	122-131	politiker	*[18]|*[19]	_	_	_	_	_	_	
+5-10	132-140	anklagar	*[18]	Target;Source	5-11[20];5-7[19]	false	1	5-15[4_0]	_	
+5-11	141-143	en	*[18]|*[20]	_	_	_	_	_	_	
+5-12	144-155	feministisk	*[18]|*[20]	_	_	_	_	_	_	
+5-13	156-163	liberal	*[18]|*[20]	_	_	_	_	_	_	
+5-14	164-170	kvinna	*[18]|*[20]	_	_	_	_	_	_	
+5-15	171-174	för	*[18]	_[4]	_	false[4]	1[4]	_	_	
+5-16	175-179	hets	*[18]	_[4]	_	false[4]	1[4]	_	_	
+5-17	180-183	mot	*[18]	_[4]	_	false[4]	1[4]	_	_	
+5-18	184-193	folkgrupp	*[18]	_[4]	_	false[4]	1[4]	_	_	
+5-19	193-194	,	*[18]	_	_	_	_	_	_	
+5-20	195-198	för	*[18]	_	_	_	_	_	_	
+5-21	199-202	att	*[18]	_	_	_	_	_	_	
+5-22	203-206	hon	*[18]	_	_	_	_	_	_	
+5-23	207-211	inte	*[18]	_	_	_	_	_	_	
+5-24	212-217	delar	*[18]	_	_	_	_	_	_	
+5-25	218-223	deras	*[18]	_	_	_	_	_	_	
+5-26	224-231	åsikter	*[18]	_	_	_	_	_	_	
+5-27	231-232	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	234-235	#	_	_	_	_	_	_	_	
+6-2	235-236	P	_	_	_	_	_	_	_	
+6-3	237-240	IMM	_	_	_	_	_	_	_	
+6-4	240-241	.	_	_	_	_	_	_	_	
+
+#Text=Vi är sedan länge vana vid nättroll som publicerar grova och kränkande kommentarer på Facebook och Twitter.
+7-1	243-245	Vi	_	_	_	_	_	_	_	
+7-2	246-248	är	_	_	_	_	_	_	_	
+7-3	249-254	sedan	_	_	_	_	_	_	_	
+7-4	255-260	länge	_	_	_	_	_	_	_	
+7-5	261-265	vana	_	_	_	_	_	_	_	
+7-6	266-269	vid	_	_	_	_	_	_	_	
+7-7	270-278	nättroll	*[21]|*[22]	Target	7-7[22]	false	2	_	_	
+7-8	279-282	som	*[21]	_	_	_	_	_	_	
+7-9	283-293	publicerar	_	Target[5]	7-7[21]	false[5]	1[5]	_	_	
+7-10	294-299	grova	_	Target[5]	7-7[21]	false[5]	1[5]	_	_	
+7-11	300-303	och	_	Target[5]	7-7[21]	false[5]	1[5]	_	_	
+7-12	304-313	kränkande	_	Target[5]	7-7[21]	false[5]	1[5]	_	_	
+7-13	314-325	kommentarer	_	Target[5]	7-7[21]	false[5]	1[5]	_	_	
+7-14	326-328	på	_	_	_	_	_	_	_	
+7-15	329-337	Facebook	_	_	_	_	_	_	_	
+7-16	338-341	och	_	_	_	_	_	_	_	
+7-17	342-349	Twitter	_	_	_	_	_	_	_	
+7-18	349-350	.	_	_	_	_	_	_	_	
+
+#Text=Men detta tycks även ha smittat av sig på det offentliga Sverige.
+8-1	351-354	Men	_	_	_	_	_	_	_	
+8-2	355-360	detta	_	_	_	_	_	_	_	
+8-3	361-366	tycks	_	_	_	_	_	_	_	
+8-4	367-371	även	_	_	_	_	_	_	_	
+8-5	372-374	ha	_	_	_	_	_	_	_	
+8-6	375-382	smittat	_	_	_	_	_	_	_	
+8-7	383-385	av	_	_	_	_	_	_	_	
+8-8	386-389	sig	_	_	_	_	_	_	_	
+8-9	390-392	på	_	_	_	_	_	_	_	
+8-10	393-396	det	_	_	_	_	_	_	_	
+8-11	397-407	offentliga	_	_	_	_	_	_	_	
+8-12	408-415	Sverige	_	_	_	_	_	_	_	
+8-13	415-416	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	418-419	#	_	_	_	_	_	_	_	
+9-2	419-420	P	_	_	_	_	_	_	_	
+9-3	421-424	IMM	_	_	_	_	_	_	_	
+9-4	424-425	.	_	_	_	_	_	_	_	
+
+#Text=Jag är bokförläggare på Fri Tanke förlag.
+10-1	427-430	Jag	_	_	_	_	_	_	_	
+10-2	431-433	är	_	_	_	_	_	_	_	
+10-3	434-447	bokförläggare	_	_	_	_	_	_	_	
+10-4	448-450	på	_	_	_	_	_	_	_	
+10-5	451-454	Fri	_	_	_	_	_	_	_	
+10-6	455-460	Tanke	_	_	_	_	_	_	_	
+10-7	461-467	förlag	_	_	_	_	_	_	_	
+10-8	467-468	.	_	_	_	_	_	_	_	
+
+#Text=Vi har publicerat cirka tvåhundra böcker sen starten 2008.
+11-1	469-471	Vi	_	_	_	_	_	_	_	
+11-2	472-475	har	_	_	_	_	_	_	_	
+11-3	476-486	publicerat	_	_	_	_	_	_	_	
+11-4	487-492	cirka	_	_	_	_	_	_	_	
+11-5	493-502	tvåhundra	_	_	_	_	_	_	_	
+11-6	503-509	böcker	_	_	_	_	_	_	_	
+11-7	510-513	sen	_	_	_	_	_	_	_	
+11-8	514-521	starten	_	_	_	_	_	_	_	
+11-9	522-526	2008	_	_	_	_	_	_	_	
+11-10	526-527	.	_	_	_	_	_	_	_	
+
+#Text=Barnböcker, vetenskapslitteratur, filosofi, samhällsdebatt, memoarer och biografier.
+12-1	528-538	Barnböcker	_	_	_	_	_	_	_	
+12-2	538-539	,	_	_	_	_	_	_	_	
+12-3	540-560	vetenskapslitteratur	_	_	_	_	_	_	_	
+12-4	560-561	,	_	_	_	_	_	_	_	
+12-5	562-570	filosofi	_	_	_	_	_	_	_	
+12-6	570-571	,	_	_	_	_	_	_	_	
+12-7	572-586	samhällsdebatt	_	_	_	_	_	_	_	
+12-8	586-587	,	_	_	_	_	_	_	_	
+12-9	588-596	memoarer	_	_	_	_	_	_	_	
+12-10	597-600	och	_	_	_	_	_	_	_	
+12-11	601-611	biografier	_	_	_	_	_	_	_	
+12-12	611-612	.	_	_	_	_	_	_	_	
+
+#Text=Somliga böcker har uppfattats som kontroversiella, andra inte.
+13-1	613-620	Somliga	*[23]	_	_	_	_	_	_	
+13-2	621-627	böcker	*[23]	_	_	_	_	_	_	
+13-3	628-631	har	_	Target;Source[6]	13-1[23];13-10	false[6]	2[6]	_	_	
+13-4	632-642	uppfattats	_	Target;Source[6]	13-1[23];13-10	false[6]	2[6]	_	_	
+13-5	643-646	som	_	Target;Source[6]	13-1[23];13-10	false[6]	2[6]	_	_	
+13-6	647-662	kontroversiella	_	Target;Source[6]	13-1[23];13-10	false[6]	2[6]	_	_	
+13-7	662-663	,	_	_	_	_	_	_	_	
+13-8	664-669	andra	_	_	_	_	_	_	_	
+13-9	670-674	inte	_	_	_	_	_	_	_	
+13-10	674-675	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	677-678	#	_	_	_	_	_	_	_	
+14-2	678-679	P	_	_	_	_	_	_	_	
+14-3	680-683	IMM	_	_	_	_	_	_	_	
+14-4	683-684	.	_	_	_	_	_	_	_	
+
+#Text=Men när en svensk muslimsk kvinna med rötterna i Irak skriver en bok om rätten att få vara liberal muslim och feminist, då tar det hus i helvete.
+15-1	686-689	Men	_	_	_	_	_	_	_	
+15-2	690-693	när	_	_	_	_	_	_	_	
+15-3	694-696	en	_	_	_	_	_	_	_	
+15-4	697-703	svensk	_	_	_	_	_	_	_	
+15-5	704-712	muslimsk	_	_	_	_	_	_	_	
+15-6	713-719	kvinna	_	_	_	_	_	_	_	
+15-7	720-723	med	_	_	_	_	_	_	_	
+15-8	724-732	rötterna	_	_	_	_	_	_	_	
+15-9	733-734	i	_	_	_	_	_	_	_	
+15-10	735-739	Irak	_	_	_	_	_	_	_	
+15-11	740-747	skriver	_	_	_	_	_	_	_	
+15-12	748-750	en	_	_	_	_	_	_	_	
+15-13	751-754	bok	_	_	_	_	_	_	_	
+15-14	755-757	om	_	_	_	_	_	_	_	
+15-15	758-764	rätten	_	_	_	_	_	_	_	
+15-16	765-768	att	_	_	_	_	_	_	_	
+15-17	769-771	få	_	_	_	_	_	_	_	
+15-18	772-776	vara	_	_	_	_	_	_	_	
+15-19	777-784	liberal	_	_	_	_	_	_	_	
+15-20	785-791	muslim	_	_	_	_	_	_	_	
+15-21	792-795	och	_	_	_	_	_	_	_	
+15-22	796-804	feminist	_	_	_	_	_	_	_	
+15-23	804-805	,	_	_	_	_	_	_	_	
+15-24	806-808	då	_	_	_	_	_	_	_	
+15-25	809-812	tar	_	_	_	_	_	_	_	
+15-26	813-816	det	_	_	_	_	_	_	_	
+15-27	817-820	hus	_	_	_	_	_	_	_	
+15-28	821-822	i	_	_	_	_	_	_	_	
+15-29	823-830	helvete	_	_	_	_	_	_	_	
+15-30	830-831	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	833-834	#	_	_	_	_	_	_	_	
+16-2	834-835	P	_	_	_	_	_	_	_	
+16-3	836-839	IMM	_	_	_	_	_	_	_	
+16-4	839-840	.	_	_	_	_	_	_	_	
+
+#Text=Hennes bok heter ”Min Jihad” och författaren är Hanna Gadban.
+17-1	842-848	Hennes	_	_	_	_	_	_	_	
+17-2	849-852	bok	_	_	_	_	_	_	_	
+17-3	853-858	heter	_	_	_	_	_	_	_	
+17-4	859-860	”	*[24]	_	_	_	_	_	18-3[0_24]	
+17-5	860-863	Min	*[24]	_	_	_	_	_	_	
+17-6	864-869	Jihad	*[24]	_	_	_	_	_	_	
+17-7	869-870	”	*[24]	_	_	_	_	_	_	
+17-8	871-874	och	_	_	_	_	_	_	_	
+17-9	875-886	författaren	_	_	_	_	_	_	_	
+17-10	887-889	är	_	_	_	_	_	_	_	
+17-11	890-895	Hanna	_	_	_	_	_	_	_	
+17-12	896-902	Gadban	_	_	_	_	_	_	_	
+17-13	902-903	.	_	_	_	_	_	_	_	
+
+#Text=Javisst, det är en provocerande titel för den oinsatte.
+18-1	904-911	Javisst	_	_	_	_	_	_	_	
+18-2	911-912	,	_	_	_	_	_	_	_	
+18-3	913-916	det	*	_	_	_	_	_	_	
+18-4	917-919	är	_	Target[7]	18-3	false[7]	2[7]	_	_	
+18-5	920-922	en	_	Target[7]	18-3	false[7]	2[7]	_	_	
+18-6	923-935	provocerande	_	Target[7]	18-3	false[7]	2[7]	_	_	
+18-7	936-941	titel	_	Target[7]	18-3	false[7]	2[7]	_	_	
+18-8	942-945	för	_	_	_	_	_	_	_	
+18-9	946-949	den	_	_	_	_	_	_	_	
+18-10	950-958	oinsatte	_	_	_	_	_	_	_	
+18-11	958-959	.	_	_	_	_	_	_	_	
+
+#Text=Många förknippar ordet ”jihad” med terrorattacker och avrättningsfilmer.
+19-1	960-965	Många	_	_	_	_	_	_	_	
+19-2	966-976	förknippar	_	_	_	_	_	_	_	
+19-3	977-982	ordet	_	_	_	_	_	_	_	
+19-4	983-984	”	_	_	_	_	_	_	_	
+19-5	984-989	jihad	_	_	_	_	_	_	_	
+19-6	989-990	”	_	_	_	_	_	_	_	
+19-7	991-994	med	_	_	_	_	_	_	_	
+19-8	995-1009	terrorattacker	_	_	_	_	_	_	_	
+19-9	1010-1013	och	_	_	_	_	_	_	_	
+19-10	1014-1031	avrättningsfilmer	_	_	_	_	_	_	_	
+19-11	1031-1032	.	_	_	_	_	_	_	_	
+
+#Text=Men Jihad betyder ”kamp” på arabiska.
+20-1	1033-1036	Men	_	_	_	_	_	_	_	
+20-2	1037-1042	Jihad	_	_	_	_	_	_	_	
+20-3	1043-1050	betyder	_	_	_	_	_	_	_	
+20-4	1051-1052	”	_	_	_	_	_	_	_	
+20-5	1052-1056	kamp	_	_	_	_	_	_	_	
+20-6	1056-1057	”	_	_	_	_	_	_	_	
+20-7	1058-1060	på	_	_	_	_	_	_	_	
+20-8	1061-1069	arabiska	_	_	_	_	_	_	_	
+20-9	1069-1070	.	_	_	_	_	_	_	_	
+
+#Text=Författaren Hanna Gadban syftar på sin kamp för kvinnors rätt att leva fritt, även i våra svenska förorter.
+21-1	1071-1082	Författaren	_	_	_	_	_	_	_	
+21-2	1083-1088	Hanna	_	_	_	_	_	_	_	
+21-3	1089-1095	Gadban	_	_	_	_	_	_	_	
+21-4	1096-1102	syftar	_	_	_	_	_	_	_	
+21-5	1103-1105	på	_	_	_	_	_	_	_	
+21-6	1106-1109	sin	_	_	_	_	_	_	_	
+21-7	1110-1114	kamp	_	_	_	_	_	_	_	
+21-8	1115-1118	för	_	_	_	_	_	_	_	
+21-9	1119-1127	kvinnors	_	_	_	_	_	_	_	
+21-10	1128-1132	rätt	_	_	_	_	_	_	_	
+21-11	1133-1136	att	_	_	_	_	_	_	_	
+21-12	1137-1141	leva	_	_	_	_	_	_	_	
+21-13	1142-1147	fritt	_	_	_	_	_	_	_	
+21-14	1147-1148	,	_	_	_	_	_	_	_	
+21-15	1149-1153	även	_	_	_	_	_	_	_	
+21-16	1154-1155	i	_	_	_	_	_	_	_	
+21-17	1156-1160	våra	_	_	_	_	_	_	_	
+21-18	1161-1168	svenska	_	_	_	_	_	_	_	
+21-19	1169-1177	förorter	_	_	_	_	_	_	_	
+21-20	1177-1178	.	_	_	_	_	_	_	_	
+
+#Text=Hon syftar på sin kamp för ett modernt liberalt islam som är förenligt med demokrati och mänskliga rättigheter.
+22-1	1179-1182	Hon	_	_	_	_	_	_	_	
+22-2	1183-1189	syftar	_	_	_	_	_	_	_	
+22-3	1190-1192	på	_	_	_	_	_	_	_	
+22-4	1193-1196	sin	_	_	_	_	_	_	_	
+22-5	1197-1201	kamp	_	_	_	_	_	_	_	
+22-6	1202-1205	för	_	_	_	_	_	_	_	
+22-7	1206-1209	ett	_	_	_	_	_	_	_	
+22-8	1210-1217	modernt	_	_	_	_	_	_	_	
+22-9	1218-1226	liberalt	_	_	_	_	_	_	_	
+22-10	1227-1232	islam	_	_	_	_	_	_	_	
+22-11	1233-1236	som	_	_	_	_	_	_	_	
+22-12	1237-1239	är	_	_	_	_	_	_	_	
+22-13	1240-1249	förenligt	_	_	_	_	_	_	_	
+22-14	1250-1253	med	_	_	_	_	_	_	_	
+22-15	1254-1263	demokrati	_	_	_	_	_	_	_	
+22-16	1264-1267	och	_	_	_	_	_	_	_	
+22-17	1268-1277	mänskliga	_	_	_	_	_	_	_	
+22-18	1278-1289	rättigheter	_	_	_	_	_	_	_	
+22-19	1289-1290	.	_	_	_	_	_	_	_	
+
+#Text=Hon syftar på sin kamp mot islamism och radikalisering.
+23-1	1291-1294	Hon	_	_	_	_	_	_	_	
+23-2	1295-1301	syftar	_	_	_	_	_	_	_	
+23-3	1302-1304	på	_	_	_	_	_	_	_	
+23-4	1305-1308	sin	_	_	_	_	_	_	_	
+23-5	1309-1313	kamp	_	_	_	_	_	_	_	
+23-6	1314-1317	mot	_	_	_	_	_	_	_	
+23-7	1318-1326	islamism	_	_	_	_	_	_	_	
+23-8	1327-1330	och	_	_	_	_	_	_	_	
+23-9	1331-1345	radikalisering	*	Target	23-9	false	2	_	_	
+23-10	1345-1346	.	_	_	_	_	_	_	_	
+
+#Text=Hanna Gadban är själv muslim.
+24-1	1347-1352	Hanna	_	_	_	_	_	_	_	
+24-2	1353-1359	Gadban	_	_	_	_	_	_	_	
+24-3	1360-1362	är	_	_	_	_	_	_	_	
+24-4	1363-1368	själv	_	_	_	_	_	_	_	
+24-5	1369-1375	muslim	_	_	_	_	_	_	_	
+24-6	1375-1376	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1378-1379	#	_	_	_	_	_	_	_	
+25-2	1379-1380	P	_	_	_	_	_	_	_	
+25-3	1381-1384	IMM	_	_	_	_	_	_	_	
+25-4	1384-1385	.	_	_	_	_	_	_	_	
+
+#Text=Som bokförläggare tycker jag det är viktigt att hennes röst blir hörd i Sverige.
+26-1	1387-1390	Som	_	_	_	_	_	_	_	
+26-2	1391-1404	bokförläggare	_	_	_	_	_	_	_	
+26-3	1405-1411	tycker	_	_	_	_	_	_	_	
+26-4	1412-1415	jag	*	_	_	_	_	_	_	
+26-5	1416-1419	det	_	_	_	_	_	_	_	
+26-6	1420-1422	är	_	Source;Target[8]	26-4;26-8[25]	false[8]	4[8]	_	_	
+26-7	1423-1430	viktigt	_	Source;Target[8]	26-4;26-8[25]	false[8]	4[8]	_	_	
+26-8	1431-1434	att	*[25]	_	_	_	_	_	_	
+26-9	1435-1441	hennes	*[25]	_	_	_	_	_	_	
+26-10	1442-1446	röst	*[25]	_	_	_	_	_	_	
+26-11	1447-1451	blir	*[25]	_	_	_	_	_	_	
+26-12	1452-1456	hörd	*[25]	_	_	_	_	_	_	
+26-13	1457-1458	i	*[25]	_	_	_	_	_	_	
+26-14	1459-1466	Sverige	*[25]	_	_	_	_	_	_	
+26-15	1466-1467	.	_	_	_	_	_	_	_	
+
+#Text=Vi är många som kritiserar vissa tolkningar av islam från ett utifrån-perspektiv (jag är själv på min fritid aktiv som ordförande i förbundet Humanisterna), men Hanna Gadban gör det inifrån.
+27-1	1468-1470	Vi	_	_	_	_	_	_	_	
+27-2	1471-1473	är	_	_	_	_	_	_	_	
+27-3	1474-1479	många	*[26]	_	_	_	_	_	_	
+27-4	1480-1483	som	*[26]	_	_	_	_	_	_	
+27-5	1484-1494	kritiserar	_	Target;Source	27-6[27];27-3[26]	false	2	_	_	
+27-6	1495-1500	vissa	*[27]	_	_	_	_	_	_	
+27-7	1501-1511	tolkningar	*[27]	_	_	_	_	_	_	
+27-8	1512-1514	av	*[27]	_	_	_	_	_	_	
+27-9	1515-1520	islam	*[27]	_	_	_	_	_	_	
+27-10	1521-1525	från	_	_	_	_	_	_	_	
+27-11	1526-1529	ett	_	_	_	_	_	_	_	
+27-12	1530-1548	utifrån-perspektiv	_	_	_	_	_	_	_	
+27-13	1549-1550	(	_	_	_	_	_	_	_	
+27-14	1550-1553	jag	_	_	_	_	_	_	_	
+27-15	1554-1556	är	_	_	_	_	_	_	_	
+27-16	1557-1562	själv	_	_	_	_	_	_	_	
+27-17	1563-1565	på	_	_	_	_	_	_	_	
+27-18	1566-1569	min	_	_	_	_	_	_	_	
+27-19	1570-1576	fritid	_	_	_	_	_	_	_	
+27-20	1577-1582	aktiv	_	_	_	_	_	_	_	
+27-21	1583-1586	som	_	_	_	_	_	_	_	
+27-22	1587-1597	ordförande	_	_	_	_	_	_	_	
+27-23	1598-1599	i	_	_	_	_	_	_	_	
+27-24	1600-1609	förbundet	_	_	_	_	_	_	_	
+27-25	1610-1622	Humanisterna	_	_	_	_	_	_	_	
+27-26	1622-1623	)	_	_	_	_	_	_	_	
+27-27	1623-1624	,	_	_	_	_	_	_	_	
+27-28	1625-1628	men	_	_	_	_	_	_	_	
+27-29	1629-1634	Hanna	_	_	_	_	_	_	_	
+27-30	1635-1641	Gadban	_	_	_	_	_	_	_	
+27-31	1642-1645	gör	_	_	_	_	_	_	_	
+27-32	1646-1649	det	_	_	_	_	_	_	_	
+27-33	1650-1657	inifrån	_	_	_	_	_	_	_	
+27-34	1657-1658	.	_	_	_	_	_	_	_	
+
+#Text=Hennes muslimska tro är personlig och närvarande i hennes vardag.
+28-1	1659-1665	Hennes	_	_	_	_	_	_	_	
+28-2	1666-1675	muslimska	_	_	_	_	_	_	_	
+28-3	1676-1679	tro	_	_	_	_	_	_	_	
+28-4	1680-1682	är	_	_	_	_	_	_	_	
+28-5	1683-1692	personlig	_	_	_	_	_	_	_	
+28-6	1693-1696	och	_	_	_	_	_	_	_	
+28-7	1697-1707	närvarande	_	_	_	_	_	_	_	
+28-8	1708-1709	i	_	_	_	_	_	_	_	
+28-9	1710-1716	hennes	_	_	_	_	_	_	_	
+28-10	1717-1723	vardag	_	_	_	_	_	_	_	
+28-11	1723-1724	.	_	_	_	_	_	_	_	
+
+#Text=Sådana röster behövs i det svenska debattklimatet.
+29-1	1725-1731	Sådana	*[28]	_	_	_	_	_	_	
+29-2	1732-1738	röster	*[28]	_	_	_	_	_	_	
+29-3	1739-1745	behövs	_	Target	29-1[28]	false	4	_	_	
+29-4	1746-1747	i	_	_	_	_	_	_	_	
+29-5	1748-1751	det	_	_	_	_	_	_	_	
+29-6	1752-1759	svenska	_	_	_	_	_	_	_	
+29-7	1760-1774	debattklimatet	_	_	_	_	_	_	_	
+29-8	1774-1775	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1777-1778	#	_	_	_	_	_	_	_	
+30-2	1778-1779	P	_	_	_	_	_	_	_	
+30-3	1780-1783	IMM	_	_	_	_	_	_	_	
+30-4	1783-1784	.	_	_	_	_	_	_	_	
+
+#Text=Näthatet från islamofoberna och de främlingsfientliga är inte oväntade för en muslimsk invandrarkvinna som höjer rösten i det offentliga rummet.
+31-1	1786-1794	Näthatet	*	Target	31-1	false	1	_	_	
+31-2	1795-1799	från	_	_	_	_	_	_	_	
+31-3	1800-1813	islamofoberna	*	Target	31-3	false	1	_	_	
+31-4	1814-1817	och	_	_	_	_	_	_	_	
+31-5	1818-1820	de	*[29]	Target[9]	31-5[29]	false[9]	1[9]	_	_	
+31-6	1821-1839	främlingsfientliga	*[29]	Target[9]	31-5[29]	false[9]	1[9]	_	_	
+31-7	1840-1842	är	_	_	_	_	_	_	_	
+31-8	1843-1847	inte	_	_	_	_	_	_	_	
+31-9	1848-1856	oväntade	_	_	_	_	_	_	_	
+31-10	1857-1860	för	_	_	_	_	_	_	_	
+31-11	1861-1863	en	_	_	_	_	_	_	_	
+31-12	1864-1872	muslimsk	_	_	_	_	_	_	_	
+31-13	1873-1888	invandrarkvinna	_	_	_	_	_	_	_	
+31-14	1889-1892	som	_	_	_	_	_	_	_	
+31-15	1893-1898	höjer	_	_	_	_	_	_	_	
+31-16	1899-1905	rösten	_	_	_	_	_	_	_	
+31-17	1906-1907	i	_	_	_	_	_	_	_	
+31-18	1908-1911	det	_	_	_	_	_	_	_	
+31-19	1912-1922	offentliga	_	_	_	_	_	_	_	
+31-20	1923-1929	rummet	_	_	_	_	_	_	_	
+31-21	1929-1930	.	_	_	_	_	_	_	_	
+
+#Text=Men i det här fallet är det inte därifrån det kommer i första hand.
+32-1	1931-1934	Men	_	_	_	_	_	_	_	
+32-2	1935-1936	i	_	_	_	_	_	_	_	
+32-3	1937-1940	det	_	_	_	_	_	_	_	
+32-4	1941-1944	här	_	_	_	_	_	_	_	
+32-5	1945-1951	fallet	_	_	_	_	_	_	_	
+32-6	1952-1954	är	_	_	_	_	_	_	_	
+32-7	1955-1958	det	_	_	_	_	_	_	_	
+32-8	1959-1963	inte	_	_	_	_	_	_	_	
+32-9	1964-1972	därifrån	_	_	_	_	_	_	_	
+32-10	1973-1976	det	_	_	_	_	_	_	_	
+32-11	1977-1983	kommer	_	_	_	_	_	_	_	
+32-12	1984-1985	i	_	_	_	_	_	_	_	
+32-13	1986-1992	första	_	_	_	_	_	_	_	
+32-14	1993-1997	hand	_	_	_	_	_	_	_	
+32-15	1997-1998	.	_	_	_	_	_	_	_	
+
+#Text=Istället kommer attackerna från kristet vänsterhåll.
+33-1	1999-2007	Istället	_	_	_	_	_	_	_	
+33-2	2008-2014	kommer	_	_	_	_	_	_	_	
+33-3	2015-2025	attackerna	_	_	_	_	_	_	_	
+33-4	2026-2030	från	_	_	_	_	_	_	_	
+33-5	2031-2038	kristet	_	_	_	_	_	_	_	
+33-6	2039-2050	vänsterhåll	_	_	_	_	_	_	_	
+33-7	2050-2051	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2053-2054	#	_	_	_	_	_	_	_	
+34-2	2054-2055	P	_	_	_	_	_	_	_	
+34-3	2056-2059	IMM	_	_	_	_	_	_	_	
+34-4	2059-2060	.	_	_	_	_	_	_	_	
+
+#Text=I styrelsen för Socialdemokraternas religiösa organisation Tro och solidaritet (tidigare Broderskapsrörelsen) sitter bland andra Anna Ardin.
+35-1	2062-2063	I	_	_	_	_	_	_	_	
+35-2	2064-2073	styrelsen	_	_	_	_	_	_	_	
+35-3	2074-2077	för	_	_	_	_	_	_	_	
+35-4	2078-2097	Socialdemokraternas	_	_	_	_	_	_	_	
+35-5	2098-2107	religiösa	_	_	_	_	_	_	_	
+35-6	2108-2120	organisation	_	_	_	_	_	_	_	
+35-7	2121-2124	Tro	_	_	_	_	_	_	_	
+35-8	2125-2128	och	_	_	_	_	_	_	_	
+35-9	2129-2140	solidaritet	_	_	_	_	_	_	_	
+35-10	2141-2142	(	_	_	_	_	_	_	_	
+35-11	2142-2150	tidigare	_	_	_	_	_	_	_	
+35-12	2151-2170	Broderskapsrörelsen	_	_	_	_	_	_	_	
+35-13	2170-2171	)	_	_	_	_	_	_	_	
+35-14	2172-2178	sitter	_	_	_	_	_	_	_	
+35-15	2179-2184	bland	_	_	_	_	_	_	_	
+35-16	2185-2190	andra	_	_	_	_	_	_	_	
+35-17	2191-2195	Anna	_	_	_	_	_	_	_	
+35-18	2196-2201	Ardin	_	_	_	_	_	_	_	
+35-19	2201-2202	.	_	_	_	_	_	_	_	
+
+#Text=Nytillträdd ordförande är Ulf Bjereld, som efterträdde Peter Weiderud.
+36-1	2203-2214	Nytillträdd	_	_	_	_	_	_	_	
+36-2	2215-2225	ordförande	_	_	_	_	_	_	_	
+36-3	2226-2228	är	_	_	_	_	_	_	_	
+36-4	2229-2232	Ulf	_	_	_	_	_	_	_	
+36-5	2233-2240	Bjereld	_	_	_	_	_	_	_	
+36-6	2240-2241	,	_	_	_	_	_	_	_	
+36-7	2242-2245	som	_	_	_	_	_	_	_	
+36-8	2246-2257	efterträdde	_	_	_	_	_	_	_	
+36-9	2258-2263	Peter	_	_	_	_	_	_	_	
+36-10	2264-2272	Weiderud	_	_	_	_	_	_	_	
+36-11	2272-2273	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2275-2276	#	_	_	_	_	_	_	_	
+37-2	2276-2277	P	_	_	_	_	_	_	_	
+37-3	2278-2281	IMM	_	_	_	_	_	_	_	
+37-4	2281-2282	.	_	_	_	_	_	_	_	
+
+#Text=Anna Ardin går i sociala medier till storms mot Hanna Gadban.
+38-1	2284-2288	Anna	*[30]	_	_	_	_	_	40-1[0_30]	
+38-2	2289-2294	Ardin	*[30]	_	_	_	_	_	_	
+38-3	2295-2298	går	_	_	_	false	1	_	_	
+38-4	2299-2300	i	_	_	_	_	_	_	_	
+38-5	2301-2308	sociala	_	_	_	_	_	_	_	
+38-6	2309-2315	medier	_	_	_	_	_	_	_	
+38-7	2316-2320	till	_	Target;Source[10]	38-10[31];38-1[30]	false[10]	1[10]	38-3[0_10]	_	
+38-8	2321-2327	storms	_	Target;Source[10]	38-10[31];38-1[30]	false[10]	1[10]	_	_	
+38-9	2328-2331	mot	_	Target;Source[10]	38-10[31];38-1[30]	false[10]	1[10]	_	_	
+38-10	2332-2337	Hanna	*[31]	_	_	_	_	_	_	
+38-11	2338-2344	Gadban	*[31]	_	_	_	_	_	_	
+38-12	2344-2345	.	_	_	_	_	_	_	_	
+
+#Text=Hon skriver att jag genom att som bokförläggare ge ut hennes bok ”bjuder in rasister att skriva böcker” och liknar det med att publicera böcker från Sverigedemokraterna.
+39-1	2346-2349	Hon	_	_	_	_	_	_	_	
+39-2	2350-2357	skriver	_	_	_	_	_	_	_	
+39-3	2358-2361	att	_	_	_	_	_	_	_	
+39-4	2362-2365	jag	_	_	_	_	_	_	_	
+39-5	2366-2371	genom	_	_	_	_	_	_	_	
+39-6	2372-2375	att	_	_	_	_	_	_	_	
+39-7	2376-2379	som	_	_	_	_	_	_	_	
+39-8	2380-2393	bokförläggare	_	_	_	_	_	_	_	
+39-9	2394-2396	ge	_	_	_	_	_	_	_	
+39-10	2397-2399	ut	_	_	_	_	_	_	_	
+39-11	2400-2406	hennes	_	_	_	_	_	_	_	
+39-12	2407-2410	bok	_	_	_	_	_	_	_	
+39-13	2411-2412	”	_	_	_	_	_	_	_	
+39-14	2412-2418	bjuder	_	_	_	_	_	_	_	
+39-15	2419-2421	in	_	_	_	_	_	_	_	
+39-16	2422-2430	rasister	_	_	_	_	_	_	_	
+39-17	2431-2434	att	_	_	_	_	_	_	_	
+39-18	2435-2441	skriva	_	_	_	_	_	_	_	
+39-19	2442-2448	böcker	_	_	_	_	_	_	_	
+39-20	2448-2449	”	_	_	_	_	_	_	_	
+39-21	2450-2453	och	_	_	_	_	_	_	_	
+39-22	2454-2460	liknar	_	_	_	_	_	_	_	
+39-23	2461-2464	det	_	_	_	_	_	_	_	
+39-24	2465-2468	med	_	_	_	_	_	_	_	
+39-25	2469-2472	att	_	_	_	_	_	_	_	
+39-26	2473-2482	publicera	_	_	_	_	_	_	_	
+39-27	2483-2489	böcker	_	_	_	_	_	_	_	
+39-28	2490-2494	från	_	_	_	_	_	_	_	
+39-29	2495-2514	Sverigedemokraterna	_	_	_	_	_	_	_	
+39-30	2514-2515	.	_	_	_	_	_	_	_	
+
+#Text=Hon anklagar alltså Hanna Gadban för att vara rasist.
+40-1	2516-2519	Hon	*	_	_	_	_	_	_	
+40-2	2520-2528	anklagar	_	_	_	_	_	_	_	
+40-3	2529-2535	alltså	_	_	_	_	_	_	_	
+40-4	2536-2541	Hanna	*[32]	_	_	_	_	_	_	
+40-5	2542-2548	Gadban	*[32]	_	_	_	_	_	_	
+40-6	2549-2552	för	_	_	_	_	_	_	_	
+40-7	2553-2556	att	_	_	_	_	_	_	_	
+40-8	2557-2561	vara	_	_	_	_	_	_	_	
+40-9	2562-2568	rasist	_	Source;Target	40-1;40-4[32]	false	1	_	_	
+40-10	2568-2569	.	_	_	_	_	_	_	_	
+
+#Text=Men det räcker inte där.
+41-1	2570-2573	Men	_	_	_	_	_	_	_	
+41-2	2574-2577	det	_	_	_	_	_	_	_	
+41-3	2578-2584	räcker	_	_	_	_	_	_	_	
+41-4	2585-2589	inte	_	_	_	_	_	_	_	
+41-5	2590-2593	där	_	_	_	_	_	_	_	
+41-6	2593-2594	.	_	_	_	_	_	_	_	
+
+#Text=Ardin påstår också att Hanna Gadban har varit ”muslimhetsare”, något som är ett brott (hets mot folkgrupp) i den svenska brottsbalken.
+42-1	2595-2600	Ardin	*	_	_	_	_	_	_	
+42-2	2601-2607	påstår	_	_	_	_	_	_	_	
+42-3	2608-2613	också	_	_	_	_	_	_	_	
+42-4	2614-2617	att	_	_	_	_	_	_	_	
+42-5	2618-2623	Hanna	*[33]	_	_	_	_	_	_	
+42-6	2624-2630	Gadban	*[33]	_	_	_	_	_	_	
+42-7	2631-2634	har	_	Target;Source[11]	42-5[33];42-1	false[11]	1[11]	_	_	
+42-8	2635-2640	varit	_	Target;Source[11]	42-5[33];42-1	false[11]	1[11]	_	_	
+42-9	2641-2642	”	_	Target;Source[11]	42-5[33];42-1	false[11]	1[11]	_	_	
+42-10	2642-2655	muslimhetsare	_	Target;Source[11]	42-5[33];42-1	false[11]	1[11]	_	_	
+42-11	2655-2656	”	_	Target;Source[11]	42-5[33];42-1	false[11]	1[11]	_	_	
+42-12	2656-2657	,	_	_	_	_	_	_	_	
+42-13	2658-2663	något	_	_	_	_	_	_	_	
+42-14	2664-2667	som	_	_	_	_	_	_	_	
+42-15	2668-2670	är	_	_	_	_	_	_	_	
+42-16	2671-2674	ett	_	_	_	_	_	_	_	
+42-17	2675-2680	brott	_	_	_	_	_	_	_	
+42-18	2681-2682	(	_	_	_	_	_	_	_	
+42-19	2682-2686	hets	_	_	_	_	_	_	_	
+42-20	2687-2690	mot	_	_	_	_	_	_	_	
+42-21	2691-2700	folkgrupp	_	_	_	_	_	_	_	
+42-22	2700-2701	)	_	_	_	_	_	_	_	
+42-23	2702-2703	i	_	_	_	_	_	_	_	
+42-24	2704-2707	den	_	_	_	_	_	_	_	
+42-25	2708-2715	svenska	_	_	_	_	_	_	_	
+42-26	2716-2728	brottsbalken	_	_	_	_	_	_	_	
+42-27	2728-2729	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	2731-2732	#	_	_	_	_	_	_	_	
+43-2	2732-2733	P	_	_	_	_	_	_	_	
+43-3	2734-2737	IMM	_	_	_	_	_	_	_	
+43-4	2737-2738	.	_	_	_	_	_	_	_	
+
+#Text=Om Anna Ardin anser att Hanna Gadban ägnar sig åt hets mot folkgrupp, bör hon polisanmäla det så att det får en korrekt juridisk prövning.
+44-1	2740-2742	Om	_	_	_	_	_	_	_	
+44-2	2743-2747	Anna	_	_	_	_	_	_	_	
+44-3	2748-2753	Ardin	_	_	_	_	_	_	_	
+44-4	2754-2759	anser	_	_	_	_	_	_	_	
+44-5	2760-2763	att	_	_	_	_	_	_	_	
+44-6	2764-2769	Hanna	_	_	_	_	_	_	_	
+44-7	2770-2776	Gadban	_	_	_	_	_	_	_	
+44-8	2777-2782	ägnar	_	_	_	_	_	_	_	
+44-9	2783-2786	sig	_	_	_	_	_	_	_	
+44-10	2787-2789	åt	_	_	_	_	_	_	_	
+44-11	2790-2794	hets	_	_	_	_	_	_	_	
+44-12	2795-2798	mot	_	_	_	_	_	_	_	
+44-13	2799-2808	folkgrupp	_	_	_	_	_	_	_	
+44-14	2808-2809	,	_	_	_	_	_	_	_	
+44-15	2810-2813	bör	_	_	_	_	_	_	_	
+44-16	2814-2817	hon	_	_	_	_	_	_	_	
+44-17	2818-2829	polisanmäla	_	_	_	_	_	_	_	
+44-18	2830-2833	det	_	_	_	_	_	_	_	
+44-19	2834-2836	så	_	_	_	_	_	_	_	
+44-20	2837-2840	att	_	_	_	_	_	_	_	
+44-21	2841-2844	det	_	_	_	_	_	_	_	
+44-22	2845-2848	får	_	_	_	_	_	_	_	
+44-23	2849-2851	en	_	_	_	_	_	_	_	
+44-24	2852-2859	korrekt	_	Source;Target	44-27;44-25[34]	false	4	_	_	
+44-25	2860-2868	juridisk	*[34]	_	_	_	_	_	_	
+44-26	2869-2877	prövning	*[34]	_	_	_	_	_	_	
+44-27	2877-2878	.	*	_	_	_	_	_	_	
+
+#Text=Om så inte är fallet, bör Tro och solidaritet och Ardin offentligt be Hanna Gadban om ursäkt och sluta sprida förtal i sociala medier.
+45-1	2879-2881	Om	_	_	_	_	_	_	_	
+45-2	2882-2884	så	_	_	_	_	_	_	_	
+45-3	2885-2889	inte	_	_	_	_	_	_	_	
+45-4	2890-2892	är	_	_	_	_	_	_	_	
+45-5	2893-2899	fallet	_	_	_	_	_	_	_	
+45-6	2899-2900	,	_	_	_	_	_	_	_	
+45-7	2901-2904	bör	_	_	_	false	2	_	_	
+45-8	2905-2908	Tro	*[35]	_	_	_	_	_	_	
+45-9	2909-2912	och	*[35]	_	_	_	_	_	_	
+45-10	2913-2924	solidaritet	*[35]	_	_	_	_	_	_	
+45-11	2925-2928	och	*[35]	_	_	_	_	_	_	
+45-12	2929-2934	Ardin	*[35]	_	_	_	_	_	_	
+45-13	2935-2945	offentligt	_	_	_	_	_	_	_	
+45-14	2946-2948	be	_	_	_	_	_	_	_	
+45-15	2949-2954	Hanna	_	_	_	_	_	_	_	
+45-16	2955-2961	Gadban	_	_	_	_	_	_	_	
+45-17	2962-2964	om	_	_	_	_	_	_	_	
+45-18	2965-2971	ursäkt	_	_	_	_	_	_	_	
+45-19	2972-2975	och	_	_	_	_	_	_	_	
+45-20	2976-2981	sluta	_	Target[12]	45-8[35]	false[12]	2[12]	45-7[0_12]	_	
+45-21	2982-2988	sprida	_	Target[12]	45-8[35]	false[12]	2[12]	_	_	
+45-22	2989-2995	förtal	_	Target[12]	45-8[35]	false[12]	2[12]	_	_	
+45-23	2996-2997	i	_	_	_	_	_	_	_	
+45-24	2998-3005	sociala	_	_	_	_	_	_	_	
+45-25	3006-3012	medier	_	_	_	_	_	_	_	
+45-26	3012-3013	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3015-3016	#	_	_	_	_	_	_	_	
+46-2	3016-3017	P	_	_	_	_	_	_	_	
+46-3	3018-3021	IMM	_	_	_	_	_	_	_	
+46-4	3021-3022	.	_	_	_	_	_	_	_	
+
+#Text=Gadban kallas också ”religionshatare”, trots att hon är muslim.
+47-1	3024-3030	Gadban	*	_	_	_	_	_	_	
+47-2	3031-3037	kallas	_	_	_	_	_	_	_	
+47-3	3038-3043	också	_	_	_	_	_	_	_	
+47-4	3044-3045	”	_	Target;Source[13]	47-1;47-13	false[13]	1[13]	_	_	
+47-5	3045-3060	religionshatare	_	Target;Source[13]	47-1;47-13	false[13]	1[13]	_	_	
+47-6	3060-3061	”	_	Target;Source[13]	47-1;47-13	false[13]	1[13]	_	_	
+47-7	3061-3062	,	_	_	_	_	_	_	_	
+47-8	3063-3068	trots	_	_	_	_	_	_	_	
+47-9	3069-3072	att	_	_	_	_	_	_	_	
+47-10	3073-3076	hon	_	_	_	_	_	_	_	
+47-11	3077-3079	är	_	_	_	_	_	_	_	
+47-12	3080-3086	muslim	_	_	_	_	_	_	_	
+47-13	3086-3087	.	*	_	_	_	_	_	_	
+
+#Text=Detta handlar alltså om en muslimsk kvinna som vill hävda rätten till sin religion utan att behöva bli islamist eller muslimsk fundamentalist.
+48-1	3088-3093	Detta	_	_	_	_	_	_	_	
+48-2	3094-3101	handlar	_	_	_	_	_	_	_	
+48-3	3102-3108	alltså	_	_	_	_	_	_	_	
+48-4	3109-3111	om	_	_	_	_	_	_	_	
+48-5	3112-3114	en	_	_	_	_	_	_	_	
+48-6	3115-3123	muslimsk	_	_	_	_	_	_	_	
+48-7	3124-3130	kvinna	_	_	_	_	_	_	_	
+48-8	3131-3134	som	_	_	_	_	_	_	_	
+48-9	3135-3139	vill	_	_	_	_	_	_	_	
+48-10	3140-3145	hävda	_	_	_	_	_	_	_	
+48-11	3146-3152	rätten	_	_	_	_	_	_	_	
+48-12	3153-3157	till	_	_	_	_	_	_	_	
+48-13	3158-3161	sin	_	_	_	_	_	_	_	
+48-14	3162-3170	religion	_	_	_	_	_	_	_	
+48-15	3171-3175	utan	_	_	_	_	_	_	_	
+48-16	3176-3179	att	_	_	_	_	_	_	_	
+48-17	3180-3186	behöva	_	_	_	_	_	_	_	
+48-18	3187-3190	bli	_	_	_	_	_	_	_	
+48-19	3191-3199	islamist	_	_	_	_	_	_	_	
+48-20	3200-3205	eller	_	_	_	_	_	_	_	
+48-21	3206-3214	muslimsk	_	_	_	_	_	_	_	
+48-22	3215-3229	fundamentalist	_	_	_	_	_	_	_	
+48-23	3229-3230	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3232-3233	#	_	_	_	_	_	_	_	
+49-2	3233-3234	P	_	_	_	_	_	_	_	
+49-3	3235-3238	IMM	_	_	_	_	_	_	_	
+49-4	3238-3239	.	_	_	_	_	_	_	_	
+
+#Text=Jag uppmärksammade på Twitter Tro och solidaritets ordförande Ulf Bjereld om att en av hans styrelseledamöter ägnar sig åt dessa trakasserier i sociala medier, men därifrån var det locket på.
+50-1	3241-3244	Jag	_	_	_	_	_	_	_	
+50-2	3245-3259	uppmärksammade	_	_	_	_	_	_	_	
+50-3	3260-3262	på	_	_	_	_	_	_	_	
+50-4	3263-3270	Twitter	_	_	_	_	_	_	_	
+50-5	3271-3274	Tro	_	_	_	_	_	_	_	
+50-6	3275-3278	och	_	_	_	_	_	_	_	
+50-7	3279-3291	solidaritets	_	_	_	_	_	_	_	
+50-8	3292-3302	ordförande	_	_	_	_	_	_	_	
+50-9	3303-3306	Ulf	_	_	_	_	_	_	_	
+50-10	3307-3314	Bjereld	_	_	_	_	_	_	_	
+50-11	3315-3317	om	_	_	_	_	_	_	_	
+50-12	3318-3321	att	_	_	_	_	_	_	_	
+50-13	3322-3324	en	*[36]	_	_	_	_	_	_	
+50-14	3325-3327	av	*[36]	_	_	_	_	_	_	
+50-15	3328-3332	hans	*[36]	_	_	_	_	_	_	
+50-16	3333-3350	styrelseledamöter	*[36]	_	_	_	_	_	_	
+50-17	3351-3356	ägnar	_	_[14]	_	false[14]	1[14]	_	_	
+50-18	3357-3360	sig	_	_[14]	_	false[14]	1[14]	_	_	
+50-19	3361-3363	åt	_	_[14]	_	false[14]	1[14]	_	_	
+50-20	3364-3369	dessa	_	_	_	_	_	_	_	
+50-21	3370-3382	trakasserier	_	Target	50-13[36]	false	1	50-17[14_0]	_	
+50-22	3383-3384	i	_	_	_	_	_	_	_	
+50-23	3385-3392	sociala	_	_	_	_	_	_	_	
+50-24	3393-3399	medier	_	_	_	_	_	_	_	
+50-25	3399-3400	,	_	_	_	_	_	_	_	
+50-26	3401-3404	men	_	_	_	_	_	_	_	
+50-27	3405-3413	därifrån	_	_	_	_	_	_	_	
+50-28	3414-3417	var	_	_	_	_	_	_	_	
+50-29	3418-3421	det	_	_	_	_	_	_	_	
+50-30	3422-3428	locket	_	_	_	_	_	_	_	
+50-31	3429-3431	på	_	_	_	_	_	_	_	
+50-32	3431-3432	.	_	_	_	_	_	_	_	
+
+#Text=Han svarade visserligen, men bara kryptiskt.
+51-1	3433-3436	Han	_	_	_	_	_	_	_	
+51-2	3437-3444	svarade	_	_	_	_	_	_	_	
+51-3	3445-3456	visserligen	_	_	_	_	_	_	_	
+51-4	3456-3457	,	_	_	_	_	_	_	_	
+51-5	3458-3461	men	_	_	_	_	_	_	_	
+51-6	3462-3466	bara	_	_	_	_	_	_	_	
+51-7	3467-3476	kryptiskt	_	_	_	_	_	_	_	
+51-8	3476-3477	.	_	_	_	_	_	_	_	
+
+#Text=Inget avståndstagande, ingen ursäkt.
+52-1	3478-3483	Inget	_	_	_	_	_	_	_	
+52-2	3484-3499	avståndstagande	_	_	_	_	_	_	_	
+52-3	3499-3500	,	_	_	_	_	_	_	_	
+52-4	3501-3506	ingen	_	_	_	_	_	_	_	
+52-5	3507-3513	ursäkt	_	_	_	_	_	_	_	
+52-6	3513-3514	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3516-3517	#	_	_	_	_	_	_	_	
+53-2	3517-3518	P	_	_	_	_	_	_	_	
+53-3	3519-3522	IMM	_	_	_	_	_	_	_	
+53-4	3522-3523	.	_	_	_	_	_	_	_	
+
+#Text=Jag tycker att utvecklingen är skrämmande.
+54-1	3525-3528	Jag	*	_	_	_	_	_	_	
+54-2	3529-3535	tycker	_	_	_	_	_	_	_	
+54-3	3536-3539	att	_	_	_	_	_	_	_	
+54-4	3540-3552	utvecklingen	*	_	_	_	_	_	_	
+54-5	3553-3555	är	_	Source;Target[15]	54-1;54-4	false[15]	1[15]	_	_	
+54-6	3556-3566	skrämmande	_	Source;Target[15]	54-1;54-4	false[15]	1[15]	_	_	
+54-7	3566-3567	.	_	_	_	_	_	_	_	
+
+#Text=Socialdemokrater för Tro och solidaritet, som i egenskap av en socialdemokratisk sidoorganisation är adjungerade i partiets högsta exekutiva organ, det Verkställande utskottet, tycks under sin förre ordförande ha odlat en intoleranskultur som genomsyrar deras agerande.
+55-1	3568-3584	Socialdemokrater	_	_	_	_	_	_	_	
+55-2	3585-3588	för	_	_	_	_	_	_	_	
+55-3	3589-3592	Tro	_	_	_	_	_	_	_	
+55-4	3593-3596	och	_	_	_	_	_	_	_	
+55-5	3597-3608	solidaritet	_	_	_	_	_	_	_	
+55-6	3608-3609	,	_	_	_	_	_	_	_	
+55-7	3610-3613	som	_	_	_	_	_	_	_	
+55-8	3614-3615	i	_	_	_	_	_	_	_	
+55-9	3616-3624	egenskap	_	_	_	_	_	_	_	
+55-10	3625-3627	av	_	_	_	_	_	_	_	
+55-11	3628-3630	en	_	_	_	_	_	_	_	
+55-12	3631-3648	socialdemokratisk	_	_	_	_	_	_	_	
+55-13	3649-3665	sidoorganisation	_	_	_	_	_	_	_	
+55-14	3666-3668	är	_	_	_	_	_	_	_	
+55-15	3669-3680	adjungerade	_	_	_	_	_	_	_	
+55-16	3681-3682	i	_	_	_	_	_	_	_	
+55-17	3683-3691	partiets	_	_	_	_	_	_	_	
+55-18	3692-3698	högsta	_	_	_	_	_	_	_	
+55-19	3699-3708	exekutiva	_	_	_	_	_	_	_	
+55-20	3709-3714	organ	_	_	_	_	_	_	_	
+55-21	3714-3715	,	_	_	_	_	_	_	_	
+55-22	3716-3719	det	_	_	_	_	_	_	_	
+55-23	3720-3733	Verkställande	_	_	_	_	_	_	_	
+55-24	3734-3743	utskottet	_	_	_	_	_	_	_	
+55-25	3743-3744	,	_	_	_	_	_	_	_	
+55-26	3745-3750	tycks	_	_	_	_	_	_	_	
+55-27	3751-3756	under	_	_	_	_	_	_	_	
+55-28	3757-3760	sin	_	_	_	_	_	_	_	
+55-29	3761-3766	förre	_	_	_	_	_	_	_	
+55-30	3767-3777	ordförande	_	_	_	_	_	_	_	
+55-31	3778-3780	ha	_	_	_	_	_	_	_	
+55-32	3781-3786	odlat	_	_	_	_	_	_	_	
+55-33	3787-3789	en	_	_	_	_	_	_	_	
+55-34	3790-3806	intoleranskultur	_	_	_	_	_	_	_	
+55-35	3807-3810	som	_	_	_	_	_	_	_	
+55-36	3811-3821	genomsyrar	_	_	_	_	_	_	_	
+55-37	3822-3827	deras	_	_	_	_	_	_	_	
+55-38	3828-3836	agerande	_	_	_	_	_	_	_	
+55-39	3836-3837	.	_	_	_	_	_	_	_	
+
+#Text=En märklig intolerans som riktas mot både sekulära humanister och liberala muslimer.
+56-1	3838-3840	En	_	_	_	_	_	_	_	
+56-2	3841-3848	märklig	_	Target	56-3	false	2	_	_	
+56-3	3849-3859	intolerans	*	Target	56-3	false	1	_	_	
+56-4	3860-3863	som	_	_	_	_	_	_	_	
+56-5	3864-3870	riktas	_	_	_	_	_	_	_	
+56-6	3871-3874	mot	_	_	_	_	_	_	_	
+56-7	3875-3879	både	_	_	_	_	_	_	_	
+56-8	3880-3888	sekulära	_	_	_	_	_	_	_	
+56-9	3889-3899	humanister	_	_	_	_	_	_	_	
+56-10	3900-3903	och	_	_	_	_	_	_	_	
+56-11	3904-3912	liberala	_	_	_	_	_	_	_	
+56-12	3913-3921	muslimer	_	_	_	_	_	_	_	
+56-13	3921-3922	.	_	_	_	_	_	_	_	
+
+#Text=Jag hoppas att förbundet under sin nya ordförande gör upp med denna kultur.
+57-1	3923-3926	Jag	*	_	_	_	_	_	_	
+57-2	3927-3933	hoppas	_	Target;Source	57-3[37];57-1	false	4	_	_	
+57-3	3934-3937	att	*[37]	_	_	_	_	_	59-9[0_37]	
+57-4	3938-3947	förbundet	*[37]	_	_	_	_	_	_	
+57-5	3948-3953	under	*[37]	_	_	_	_	_	_	
+57-6	3954-3957	sin	*[37]	_	_	_	_	_	_	
+57-7	3958-3961	nya	*[37]	_	_	_	_	_	_	
+57-8	3962-3972	ordförande	*[37]	_	_	_	_	_	_	
+57-9	3973-3976	gör	*[37]	_	_	_	_	_	_	
+57-10	3977-3980	upp	*[37]	_	_	_	_	_	_	
+57-11	3981-3984	med	*[37]	_	_	_	_	_	_	
+57-12	3985-3990	denna	*[37]	_	_	_	_	_	_	
+57-13	3991-3997	kultur	*[37]	_	_	_	_	_	_	
+57-14	3997-3998	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4000-4001	#	_	_	_	_	_	_	_	
+58-2	4001-4002	P	_	_	_	_	_	_	_	
+58-3	4003-4006	IMM	_	_	_	_	_	_	_	
+58-4	4006-4007	.	_	_	_	_	_	_	_	
+
+#Text=Än syns, dessvärre, inga tecken på det.
+59-1	4009-4011	Än	_	_	_	_	_	_	_	
+59-2	4012-4016	syns	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-3	4016-4017	,	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-4	4018-4027	dessvärre	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-5	4027-4028	,	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-6	4029-4033	inga	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-7	4034-4040	tecken	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-8	4041-4043	på	_	Target[16]	59-9	false[16]	2[16]	_	_	
+59-9	4044-4047	det	*	_	_	_	_	_	_	
+59-10	4047-4048	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4050-4051	#	_	_	_	_	_	_	_	
+60-2	4051-4052	P	_	_	_	_	_	_	_	
+60-3	4053-4056	IMM	_	_	_	_	_	_	_	
+60-4	4056-4057	.	_	_	_	_	_	_	_	
+
+#Text=Christer SturmarkBokförläggare, författare och samhällsdebattör.
+61-1	4059-4067	Christer	_	_	_	_	_	_	_	
+61-2	4068-4089	SturmarkBokförläggare	_	_	_	_	_	_	_	
+61-3	4089-4090	,	_	_	_	_	_	_	_	
+61-4	4091-4101	författare	_	_	_	_	_	_	_	
+61-5	4102-4105	och	_	_	_	_	_	_	_	
+61-6	4106-4122	samhällsdebattör	_	_	_	_	_	_	_	
+61-7	4122-4123	.	_	_	_	_	_	_	_	

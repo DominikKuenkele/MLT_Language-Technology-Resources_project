@@ -1,0 +1,831 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=SJ:s personliga biljetter oacceptabla.
+3-1	18-20	SJ	*[12]	_	_	_	_	_	
+3-2	20-21	:	*[12]	_	_	_	_	_	
+3-3	21-22	s	*[12]	_	_	_	_	_	
+3-4	23-33	personliga	*[12]	_	_	_	_	_	
+3-5	34-43	biljetter	*[12]	_	_	_	_	_	
+3-6	44-55	oacceptabla	_	Target	3-1[12]	false	1	_	
+3-7	55-56	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	
+
+#Text=Hur än SJ vänder och vrider på argumenten så är införandet av personliga biljetter oacceptabelt – framförallt ur integritetssynpunkt.
+5-1	67-70	Hur	_	_	_	_	_	_	
+5-2	71-73	än	_	_	_	_	_	_	
+5-3	74-76	SJ	_	_	_	_	_	_	
+5-4	77-83	vänder	_	_	_	_	_	_	
+5-5	84-87	och	_	_	_	_	_	_	
+5-6	88-94	vrider	_	_	_	_	_	_	
+5-7	95-97	på	_	_	_	_	_	_	
+5-8	98-108	argumenten	_	_	_	_	_	_	
+5-9	109-111	så	_	_	_	_	_	_	
+5-10	112-114	är	_	_	_	_	_	_	
+5-11	115-125	införandet	*[13]	_	_	_	_	_	
+5-12	126-128	av	*[13]	_	_	_	_	_	
+5-13	129-139	personliga	*[13]	_	_	_	_	_	
+5-14	140-149	biljetter	*[13]	_	_	_	_	_	
+5-15	150-162	oacceptabelt	_	Target	5-11[13]	false	1	_	
+5-16	163-164	–	_	_	_	_	_	_	
+5-17	165-176	framförallt	_	_	_	_	_	_	
+5-18	177-179	ur	_	_	_	_	_	_	
+5-19	180-199	integritetssynpunkt	_	_	_	_	_	_	
+5-20	199-200	.	_	_	_	_	_	_	
+
+#Text=Det begränsar också gömda flyktingars rörelsefrihet, skriver Nina Larsson (FP).
+6-1	201-204	Det	_	_	_	_	_	_	
+6-2	205-214	begränsar	_	Target;Source	6-4[14];6-9[15]	false	2	_	
+6-3	215-220	också	_	_	_	_	_	_	
+6-4	221-226	gömda	*[14]	_	_	_	_	_	
+6-5	227-238	flyktingars	*[14]	_	_	_	_	_	
+6-6	239-252	rörelsefrihet	*[14]	_	_	_	_	_	
+6-7	252-253	,	_	_	_	_	_	_	
+6-8	254-261	skriver	_	_	_	_	_	_	
+6-9	262-266	Nina	*[15]	_	_	_	_	_	
+6-10	267-274	Larsson	*[15]	_	_	_	_	_	
+6-11	275-276	(	_	_	_	_	_	_	
+6-12	276-278	FP	_	_	_	_	_	_	
+6-13	278-279	)	_	_	_	_	_	_	
+6-14	279-280	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	282-283	#	_	_	_	_	_	_	
+7-2	283-284	P	_	_	_	_	_	_	
+7-3	285-288	IMM	_	_	_	_	_	_	
+7-4	288-289	.	_	_	_	_	_	_	
+
+#Text=Härom veckan blev det känt att SJ inför "personliga biljetter", vilket innebär att legitimation kommer att krävas för att kunna resa med bolaget.
+8-1	291-296	Härom	_	_	_	_	_	_	
+8-2	297-303	veckan	_	_	_	_	_	_	
+8-3	304-308	blev	_	_	_	_	_	_	
+8-4	309-312	det	_	_	_	_	_	_	
+8-5	313-317	känt	_	_	_	_	_	_	
+8-6	318-321	att	_	_	_	_	_	_	
+8-7	322-324	SJ	_	_	_	_	_	_	
+8-8	325-330	inför	_	_	_	_	_	_	
+8-9	331-332	"	_	_	_	_	_	_	
+8-10	332-342	personliga	_	_	_	_	_	_	
+8-11	343-352	biljetter	_	_	_	_	_	_	
+8-12	352-353	"	_	_	_	_	_	_	
+8-13	353-354	,	_	_	_	_	_	_	
+8-14	355-361	vilket	_	_	_	_	_	_	
+8-15	362-369	innebär	_	_	_	_	_	_	
+8-16	370-373	att	_	_	_	_	_	_	
+8-17	374-386	legitimation	*	_	_	_	_	_	
+8-18	387-393	kommer	_	_	_	_	_	_	
+8-19	394-397	att	_	_	_	_	_	_	
+8-20	398-404	krävas	_	Source;Target	8-27;8-17	false	2	_	
+8-21	405-408	för	_	_	_	_	_	_	
+8-22	409-412	att	_	_	_	_	_	_	
+8-23	413-418	kunna	_	_	_	_	_	_	
+8-24	419-423	resa	_	_	_	_	_	_	
+8-25	424-427	med	_	_	_	_	_	_	
+8-26	428-435	bolaget	_	_	_	_	_	_	
+8-27	435-436	.	*	_	_	_	_	_	
+
+#Text=Man kommer att börja med biljetter med rörliga priser men i ett andra steg kommer övriga biljetter att göras personliga.
+9-1	437-440	Man	_	_	_	_	_	_	
+9-2	441-447	kommer	_	_	_	_	_	_	
+9-3	448-451	att	_	_	_	_	_	_	
+9-4	452-457	börja	_	_	_	_	_	_	
+9-5	458-461	med	_	_	_	_	_	_	
+9-6	462-471	biljetter	_	_	_	_	_	_	
+9-7	472-475	med	_	_	_	_	_	_	
+9-8	476-483	rörliga	_	_	_	_	_	_	
+9-9	484-490	priser	_	_	_	_	_	_	
+9-10	491-494	men	_	_	_	_	_	_	
+9-11	495-496	i	_	_	_	_	_	_	
+9-12	497-500	ett	_	_	_	_	_	_	
+9-13	501-506	andra	_	_	_	_	_	_	
+9-14	507-511	steg	_	_	_	_	_	_	
+9-15	512-518	kommer	_	_	_	_	_	_	
+9-16	519-525	övriga	_	_	_	_	_	_	
+9-17	526-535	biljetter	_	_	_	_	_	_	
+9-18	536-539	att	_	_	_	_	_	_	
+9-19	540-545	göras	_	_	_	_	_	_	
+9-20	546-556	personliga	_	_	_	_	_	_	
+9-21	556-557	.	_	_	_	_	_	_	
+
+#Text=Förklaringen är att man vill komma åt svartabörshandeln och minska möjligheten för utnyttjande av systemet.
+10-1	558-570	Förklaringen	_	_	_	_	_	_	
+10-2	571-573	är	_	_	_	_	_	_	
+10-3	574-577	att	_	_	_	_	_	_	
+10-4	578-581	man	_	_	_	_	_	_	
+10-5	582-586	vill	_	_	_	_	_	_	
+10-6	587-592	komma	_	_	_	_	_	_	
+10-7	593-595	åt	_	_	_	_	_	_	
+10-8	596-613	svartabörshandeln	*	Target	10-8	false	2	_	
+10-9	614-617	och	_	_	_	_	_	_	
+10-10	618-624	minska	_	_	_	_	_	_	
+10-11	625-636	möjligheten	_	_	_	_	_	_	
+10-12	637-640	för	_	_	_	_	_	_	
+10-13	641-652	utnyttjande	_	_	_	_	_	_	
+10-14	653-655	av	_	_	_	_	_	_	
+10-15	656-664	systemet	_	_	_	_	_	_	
+10-16	664-665	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	667-668	#	_	_	_	_	_	_	
+11-2	668-669	P	_	_	_	_	_	_	
+11-3	670-673	IMM	_	_	_	_	_	_	
+11-4	673-674	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	676-679	Det	_	_	_	_	_	_	
+12-2	680-683	här	_	_	_	_	_	_	
+12-3	684-686	är	_	_	_	_	_	_	
+12-4	687-689	en	_	_	_	_	_	_	
+12-5	690-704	argumenterande	_	_	_	_	_	_	
+12-6	705-709	text	_	_	_	_	_	_	
+12-7	710-713	med	_	_	_	_	_	_	
+12-8	714-719	syfte	_	_	_	_	_	_	
+12-9	720-723	att	_	_	_	_	_	_	
+12-10	724-731	påverka	_	_	_	_	_	_	
+12-11	731-732	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	733-742	Åsikterna	_	_	_	_	_	_	
+13-2	743-746	som	_	_	_	_	_	_	
+13-3	747-755	uttrycks	_	_	_	_	_	_	
+13-4	756-758	är	_	_	_	_	_	_	
+13-5	759-770	skribentens	_	_	_	_	_	_	
+13-6	771-775	egna	_	_	_	_	_	_	
+13-7	775-776	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	778-779	#	_	_	_	_	_	_	
+14-2	779-780	P	_	_	_	_	_	_	
+14-3	781-784	IMM	_	_	_	_	_	_	
+14-4	784-785	.	_	_	_	_	_	_	
+
+#Text=Bakgrunden till påhittet är att SJ varje dygn släpper ett visst antal biljetter till ett förmånligt pris som sen säljs vidare på andrahandsmarknaden.
+15-1	787-797	Bakgrunden	_	_	_	_	_	_	
+15-2	798-802	till	_	_	_	_	_	_	
+15-3	803-811	påhittet	_	_	_	_	_	_	
+15-4	812-814	är	_	_	_	_	_	_	
+15-5	815-818	att	_	_	_	_	_	_	
+15-6	819-821	SJ	_	_	_	_	_	_	
+15-7	822-827	varje	_	_	_	_	_	_	
+15-8	828-832	dygn	_	_	_	_	_	_	
+15-9	833-840	släpper	_	_	_	_	_	_	
+15-10	841-844	ett	_	_	_	_	_	_	
+15-11	845-850	visst	_	_	_	_	_	_	
+15-12	851-856	antal	_	_	_	_	_	_	
+15-13	857-866	biljetter	_	_	_	_	_	_	
+15-14	867-871	till	_	_	_	_	_	_	
+15-15	872-875	ett	_	_	_	_	_	_	
+15-16	876-886	förmånligt	_	_	_	_	_	_	
+15-17	887-891	pris	_	_	_	_	_	_	
+15-18	892-895	som	_	_	_	_	_	_	
+15-19	896-899	sen	_	_	_	_	_	_	
+15-20	900-905	säljs	*[16]	_	_	_	_	_	
+15-21	906-912	vidare	*[16]	_	_	_	_	_	
+15-22	913-915	på	*[16]	_	_	_	_	_	
+15-23	916-935	andrahandsmarknaden	*[16]	_	_	_	_	_	
+15-24	935-936	.	_	_	_	_	_	_	
+
+#Text=Det vill man förhindra.
+16-1	937-940	Det	_	_	_	_	_	_	
+16-2	941-945	vill	_	_	_	false	2	_	
+16-3	946-949	man	*	_	_	_	_	_	
+16-4	950-959	förhindra	_	Target;Source	15-20[16];16-3	false	2	16-2	
+16-5	959-960	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	962-963	#	_	_	_	_	_	_	
+17-2	963-964	P	_	_	_	_	_	_	
+17-3	965-968	IMM	_	_	_	_	_	_	
+17-4	968-969	.	_	_	_	_	_	_	
+
+#Text=Hur än SJ vänder och vrider på argumenten så är införandet systemet oacceptabelt – framförallt ur integritetssynpunkt.
+18-1	971-974	Hur	_	_	_	_	_	_	
+18-2	975-977	än	_	_	_	_	_	_	
+18-3	978-980	SJ	_	_	_	_	_	_	
+18-4	981-987	vänder	_	_	_	_	_	_	
+18-5	988-991	och	_	_	_	_	_	_	
+18-6	992-998	vrider	_	_	_	_	_	_	
+18-7	999-1001	på	_	_	_	_	_	_	
+18-8	1002-1012	argumenten	_	_	_	_	_	_	
+18-9	1013-1015	så	_	_	_	_	_	_	
+18-10	1016-1018	är	_	_	_	_	_	_	
+18-11	1019-1029	införandet	*[17]	_	_	_	_	_	
+18-12	1030-1038	systemet	*[17]	_	_	_	_	_	
+18-13	1039-1051	oacceptabelt	_	Target	18-11[17]	false	1	_	
+18-14	1052-1053	–	_	_	_	_	_	_	
+18-15	1054-1065	framförallt	_	_	_	_	_	_	
+18-16	1066-1068	ur	_	_	_	_	_	_	
+18-17	1069-1088	integritetssynpunkt	_	_	_	_	_	_	
+18-18	1088-1089	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1091-1092	#	_	_	_	_	_	_	
+19-2	1092-1093	P	_	_	_	_	_	_	
+19-3	1094-1097	IMM	_	_	_	_	_	_	
+19-4	1097-1098	.	_	_	_	_	_	_	
+
+#Text=Att värna om den enskilda människans integritet är ett centralt liberalt värde.
+20-1	1100-1103	Att	_	_	_	_	_	_	
+20-2	1104-1109	värna	*	Target	20-4[18]	false	4	_	
+20-3	1110-1112	om	_	_	_	_	_	_	
+20-4	1113-1116	den	*[18]	_	_	_	_	_	
+20-5	1117-1125	enskilda	*[18]	_	_	_	_	_	
+20-6	1126-1136	människans	*[18]	_	_	_	_	_	
+20-7	1137-1147	integritet	*[18]	_	_	_	_	_	
+20-8	1148-1150	är	_	_	_	_	_	_	
+20-9	1151-1154	ett	_	_	_	_	_	_	
+20-10	1155-1163	centralt	_	Target[1]	20-2	false[1]	4[1]	_	
+20-11	1164-1172	liberalt	_	Target[1]	20-2	false[1]	4[1]	_	
+20-12	1173-1178	värde	_	Target[1]	20-2	false[1]	4[1]	_	
+20-13	1178-1179	.	_	_	_	_	_	_	
+
+#Text=Rätten till den egna privata sfären är något som vi liberaler värderar högt och som nu begränsas av ett statligt bolag – Det tycker jag är förkastligt.
+21-1	1180-1186	Rätten	*[19]	_	_	_	_	_	
+21-2	1187-1191	till	*[19]	_	_	_	_	_	
+21-3	1192-1195	den	*[19]	_	_	_	_	_	
+21-4	1196-1200	egna	*[19]	_	_	_	_	_	
+21-5	1201-1208	privata	*[19]	_	_	_	_	_	
+21-6	1209-1215	sfären	*[19]	_	_	_	_	_	
+21-7	1216-1218	är	_	_	_	_	_	_	
+21-8	1219-1224	något	_	_	_	_	_	_	
+21-9	1225-1228	som	_	_	_	_	_	_	
+21-10	1229-1231	vi	*[20]	_	_	_	_	_	
+21-11	1232-1241	liberaler	*[20]	_	_	_	_	_	
+21-12	1242-1250	värderar	_	Target;Source[2]	21-1[19];21-10[20]	false[2]	4[2]	_	
+21-13	1251-1255	högt	_	Target;Source[2]	21-1[19];21-10[20]	false[2]	4[2]	_	
+21-14	1256-1259	och	_	_	_	_	_	_	
+21-15	1260-1263	som	_	_	_	_	_	_	
+21-16	1264-1266	nu	_	_	_	_	_	_	
+21-17	1267-1276	begränsas	_	_	_	_	_	_	
+21-18	1277-1279	av	_	_	_	_	_	_	
+21-19	1280-1283	ett	_	_	_	_	_	_	
+21-20	1284-1292	statligt	_	_	_	_	_	_	
+21-21	1293-1298	bolag	_	_	_	_	_	_	
+21-22	1299-1300	–	_	_	_	_	_	_	
+21-23	1301-1304	Det	*	_	_	_	_	_	
+21-24	1305-1311	tycker	_	_	_	_	_	_	
+21-25	1312-1315	jag	*	_	_	_	_	_	
+21-26	1316-1318	är	_	_	_	_	_	_	
+21-27	1319-1330	förkastligt	_	Target;Source	21-23;21-25	false	1	_	
+21-28	1330-1331	.	_	_	_	_	_	_	
+
+#Text=Just det personliga resandet är något som i allra högsta grad är en privat angelägenhet. 1954 infördes den nordiska passunionen som gjorde att alla nordiska medborgare fritt kan resa inom Norden utan att visa legitimation.
+22-1	1332-1336	Just	_	_	_	_	_	_	
+22-2	1337-1340	det	_	_	_	_	_	_	
+22-3	1341-1351	personliga	_	_	_	_	_	_	
+22-4	1352-1360	resandet	_	_	_	_	_	_	
+22-5	1361-1363	är	_	_	_	_	_	_	
+22-6	1364-1369	något	_	_	_	_	_	_	
+22-7	1370-1373	som	_	_	_	_	_	_	
+22-8	1374-1375	i	_	_	_	_	_	_	
+22-9	1376-1381	allra	_	_	_	_	_	_	
+22-10	1382-1388	högsta	_	_	_	_	_	_	
+22-11	1389-1393	grad	_	_	_	_	_	_	
+22-12	1394-1396	är	_	_	_	_	_	_	
+22-13	1397-1399	en	_	_	_	_	_	_	
+22-14	1400-1406	privat	_	_	_	_	_	_	
+22-15	1407-1419	angelägenhet	_	_	_	_	_	_	
+22-16	1419-1420	.	_	_	_	_	_	_	
+22-17	1421-1425	1954	_	_	_	_	_	_	
+22-18	1426-1434	infördes	_	_	_	_	_	_	
+22-19	1435-1438	den	_	_	_	_	_	_	
+22-20	1439-1447	nordiska	_	_	_	_	_	_	
+22-21	1448-1459	passunionen	_	_	_	_	_	_	
+22-22	1460-1463	som	_	_	_	_	_	_	
+22-23	1464-1470	gjorde	_	_	_	_	_	_	
+22-24	1471-1474	att	_	_	_	_	_	_	
+22-25	1475-1479	alla	_	_	_	_	_	_	
+22-26	1480-1488	nordiska	_	_	_	_	_	_	
+22-27	1489-1499	medborgare	_	_	_	_	_	_	
+22-28	1500-1505	fritt	_	_	_	_	_	_	
+22-29	1506-1509	kan	_	_	_	_	_	_	
+22-30	1510-1514	resa	_	_	_	_	_	_	
+22-31	1515-1519	inom	_	_	_	_	_	_	
+22-32	1520-1526	Norden	_	_	_	_	_	_	
+22-33	1527-1531	utan	_	_	_	_	_	_	
+22-34	1532-1535	att	_	_	_	_	_	_	
+22-35	1536-1540	visa	_	_	_	_	_	_	
+22-36	1541-1553	legitimation	_	_	_	_	_	_	
+22-37	1553-1554	.	_	_	_	_	_	_	
+
+#Text=Därefter har Sverige ingått i den Europeiska Gemenskapen som gjorde att vi ska kunna resa fritt i Europa utan pass.
+23-1	1555-1563	Därefter	_	_	_	_	_	_	
+23-2	1564-1567	har	_	_	_	_	_	_	
+23-3	1568-1575	Sverige	_	_	_	_	_	_	
+23-4	1576-1582	ingått	_	_	_	_	_	_	
+23-5	1583-1584	i	_	_	_	_	_	_	
+23-6	1585-1588	den	_	_	_	_	_	_	
+23-7	1589-1599	Europeiska	_	_	_	_	_	_	
+23-8	1600-1611	Gemenskapen	_	_	_	_	_	_	
+23-9	1612-1615	som	_	_	_	_	_	_	
+23-10	1616-1622	gjorde	_	_	_	_	_	_	
+23-11	1623-1626	att	_	_	_	_	_	_	
+23-12	1627-1629	vi	_	_	_	_	_	_	
+23-13	1630-1633	ska	_	_	_	_	_	_	
+23-14	1634-1639	kunna	_	_	_	_	_	_	
+23-15	1640-1644	resa	_	_	_	_	_	_	
+23-16	1645-1650	fritt	_	_	_	_	_	_	
+23-17	1651-1652	i	_	_	_	_	_	_	
+23-18	1653-1659	Europa	_	_	_	_	_	_	
+23-19	1660-1664	utan	_	_	_	_	_	_	
+23-20	1665-1669	pass	_	_	_	_	_	_	
+23-21	1669-1670	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1672-1673	#	_	_	_	_	_	_	
+24-2	1673-1674	P	_	_	_	_	_	_	
+24-3	1675-1678	IMM	_	_	_	_	_	_	
+24-4	1678-1679	.	_	_	_	_	_	_	
+
+#Text=SJ:s agerande visar att det inte bara är statsmakter som kan hota den enskildes privata sfär.
+25-1	1681-1683	SJ	*[21]	_	_	_	_	_	
+25-2	1683-1684	:	*[21]	_	_	_	_	_	
+25-3	1684-1685	s	*[21]	_	_	_	_	_	
+25-4	1686-1694	agerande	*[21]	_	_	_	_	_	
+25-5	1695-1700	visar	_	_	_	_	_	_	
+25-6	1701-1704	att	_	_	_	_	_	_	
+25-7	1705-1708	det	_	_	_	_	_	_	
+25-8	1709-1713	inte	_	_	_	_	_	_	
+25-9	1714-1718	bara	_	_	_	_	_	_	
+25-10	1719-1721	är	_	_	_	_	_	_	
+25-11	1722-1733	statsmakter	_	_	_	_	_	_	
+25-12	1734-1737	som	_	_	_	_	_	_	
+25-13	1738-1741	kan	_	Target[3]	25-1[21]	false[3]	2[3]	_	
+25-14	1742-1746	hota	_	Target[3]	25-1[21]	false[3]	2[3]	_	
+25-15	1747-1750	den	_	_	_	_	_	_	
+25-16	1751-1760	enskildes	_	_	_	_	_	_	
+25-17	1761-1768	privata	_	_	_	_	_	_	
+25-18	1769-1773	sfär	_	_	_	_	_	_	
+25-19	1773-1774	.	_	_	_	_	_	_	
+
+#Text=Också företag och andra intressenter har betydande möjligheter att skaffa sig insyn i enskildas personliga förhållanden.
+26-1	1775-1780	Också	_	_	_	_	_	_	
+26-2	1781-1788	företag	*	_	_	_	_	_	
+26-3	1789-1792	och	_	_	_	_	_	_	
+26-4	1793-1798	andra	_	_	_	_	_	_	
+26-5	1799-1811	intressenter	_	_	_	_	_	_	
+26-6	1812-1815	har	_	Target;Source[4]	26-10[22];26-2	false[4]	4[4]	_	
+26-7	1816-1825	betydande	_	Target;Source[4]	26-10[22];26-2	false[4]	4[4]	_	
+26-8	1826-1837	möjligheter	_	Target;Source[4]	26-10[22];26-2	false[4]	4[4]	_	
+26-9	1838-1841	att	_	_	_	_	_	_	
+26-10	1842-1848	skaffa	*[22]	_	_	_	_	_	
+26-11	1849-1852	sig	*[22]	_	_	_	_	_	
+26-12	1853-1858	insyn	*[22]	_	_	_	_	_	
+26-13	1859-1860	i	*[22]	_	_	_	_	_	
+26-14	1861-1870	enskildas	*[22]	_	_	_	_	_	
+26-15	1871-1881	personliga	*[22]	_	_	_	_	_	
+26-16	1882-1894	förhållanden	*[22]	_	_	_	_	_	
+26-17	1894-1895	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1897-1898	#	_	_	_	_	_	_	
+27-2	1898-1899	P	_	_	_	_	_	_	
+27-3	1900-1903	IMM	_	_	_	_	_	_	
+27-4	1903-1904	.	_	_	_	_	_	_	
+
+#Text=SJ försöker lösa ett problem med svart handel av deras biljetter som uppkommit på grund av deras eget biljettsystem, genom att lämpa över bevisbördan på resenären.
+28-1	1906-1908	SJ	*	_	_	_	_	_	
+28-2	1909-1917	försöker	_	Target;Source[5]	28-5;28-1	false[5]	4[5]	_	
+28-3	1918-1922	lösa	_	Target;Source[5]	28-5;28-1	false[5]	4[5]	_	
+28-4	1923-1926	ett	_	_	_	_	_	_	
+28-5	1927-1934	problem	*	_	_	_	_	_	
+28-6	1935-1938	med	_	_	_	_	_	_	
+28-7	1939-1944	svart	_	_	_	_	_	_	
+28-8	1945-1951	handel	_	_	_	_	_	_	
+28-9	1952-1954	av	_	_	_	_	_	_	
+28-10	1955-1960	deras	_	_	_	_	_	_	
+28-11	1961-1970	biljetter	_	_	_	_	_	_	
+28-12	1971-1974	som	_	_	_	_	_	_	
+28-13	1975-1984	uppkommit	_	_	_	_	_	_	
+28-14	1985-1987	på	_	_	_	_	_	_	
+28-15	1988-1993	grund	_	_	_	_	_	_	
+28-16	1994-1996	av	_	_	_	_	_	_	
+28-17	1997-2002	deras	_	_	_	_	_	_	
+28-18	2003-2007	eget	_	_	_	_	_	_	
+28-19	2008-2021	biljettsystem	_	_	_	_	_	_	
+28-20	2021-2022	,	_	_	_	_	_	_	
+28-21	2023-2028	genom	_	_	_	_	_	_	
+28-22	2029-2032	att	_	_	_	_	_	_	
+28-23	2033-2038	lämpa	_	Target[6]	28-1	false[6]	2[6]	_	
+28-24	2039-2043	över	_	Target[6]	28-1	false[6]	2[6]	_	
+28-25	2044-2055	bevisbördan	_	Target[6]	28-1	false[6]	2[6]	_	
+28-26	2056-2058	på	_	_	_	_	_	_	
+28-27	2059-2068	resenären	_	_	_	_	_	_	
+28-28	2068-2069	.	_	_	_	_	_	_	
+
+#Text=Detta skulle straffa sig hårt i en fullt konkurrensutsatt marknad, men är i dagsläget tyvärr genomförbart då SJ i praktiken innehar monopol på järnvägen.
+29-1	2070-2075	Detta	*	_	_	_	_	_	
+29-2	2076-2082	skulle	_	Target[7]	29-1	false[7]	2[7]	_	
+29-3	2083-2090	straffa	_	Target[7]	29-1	false[7]	2[7]	_	
+29-4	2091-2094	sig	_	Target[7]	29-1	false[7]	2[7]	_	
+29-5	2095-2099	hårt	_	Target[7]	29-1	false[7]	2[7]	_	
+29-6	2100-2101	i	_	_	_	_	_	_	
+29-7	2102-2104	en	_	_	_	_	_	_	
+29-8	2105-2110	fullt	_	_	_	_	_	_	
+29-9	2111-2127	konkurrensutsatt	_	_	_	_	_	_	
+29-10	2128-2135	marknad	_	_	_	_	_	_	
+29-11	2135-2136	,	_	_	_	_	_	_	
+29-12	2137-2140	men	_	_	_	_	_	_	
+29-13	2141-2143	är	_	Target	29-1	false	2	_	
+29-14	2144-2145	i	_	_	_	_	_	_	
+29-15	2146-2155	dagsläget	_	_	_	_	_	_	
+29-16	2156-2162	tyvärr	_	_[8]	_	false[8]	2[8]	29-13[0_8]	
+29-17	2163-2175	genomförbart	_	_[8]	_	false[8]	2[8]	_	
+29-18	2176-2178	då	_	_	_	_	_	_	
+29-19	2179-2181	SJ	_	_	_	_	_	_	
+29-20	2182-2183	i	_	_	_	_	_	_	
+29-21	2184-2193	praktiken	_	_	_	_	_	_	
+29-22	2194-2201	innehar	_	_	_	_	_	_	
+29-23	2202-2209	monopol	_	_	_	_	_	_	
+29-24	2210-2212	på	_	_	_	_	_	_	
+29-25	2213-2222	järnvägen	_	_	_	_	_	_	
+29-26	2222-2223	.	_	_	_	_	_	_	
+
+#Text=Det är glädjande, och på tiden, att Alliansregeringen har upphävt SJ:s ensamrätt att utföra persontrafik på det statliga järnvägsnätet.
+30-1	2224-2227	Det	_	_	_	_	_	_	
+30-2	2228-2230	är	_	_	_	_	_	_	
+30-3	2231-2240	glädjande	_	Target	30-10[23]	false	4	_	
+30-4	2240-2241	,	_	_	_	_	_	_	
+30-5	2242-2245	och	_	_	_	_	_	_	
+30-6	2246-2248	på	_	_	_	_	_	_	
+30-7	2249-2254	tiden	_	_	_	_	_	_	
+30-8	2254-2255	,	_	_	_	_	_	_	
+30-9	2256-2259	att	_	_	_	_	_	_	
+30-10	2260-2277	Alliansregeringen	*[23]	_	_	_	_	_	
+30-11	2278-2281	har	*[23]	_	_	_	_	_	
+30-12	2282-2289	upphävt	*[23]	_	_	_	_	_	
+30-13	2290-2292	SJ	*[23]	_	_	_	_	_	
+30-14	2292-2293	:	*[23]	_	_	_	_	_	
+30-15	2293-2294	s	*[23]	_	_	_	_	_	
+30-16	2295-2304	ensamrätt	*[23]	_	_	_	_	_	
+30-17	2305-2308	att	_	_	_	_	_	_	
+30-18	2309-2315	utföra	_	_	_	_	_	_	
+30-19	2316-2328	persontrafik	_	_	_	_	_	_	
+30-20	2329-2331	på	_	_	_	_	_	_	
+30-21	2332-2335	det	_	_	_	_	_	_	
+30-22	2336-2344	statliga	_	_	_	_	_	_	
+30-23	2345-2358	järnvägsnätet	_	_	_	_	_	_	
+30-24	2358-2359	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2361-2362	#	_	_	_	_	_	_	
+31-2	2362-2363	P	_	_	_	_	_	_	
+31-3	2364-2367	IMM	_	_	_	_	_	_	
+31-4	2367-2368	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+32-1	2370-2383	Skräddarsydda	_	_	_	_	_	_	
+32-2	2384-2390	kurser	_	_	_	_	_	_	
+32-3	2391-2392	i	_	_	_	_	_	_	
+32-4	2393-2398	ämnen	_	_	_	_	_	_	
+32-5	2399-2402	som	_	_	_	_	_	_	
+32-6	2403-2414	intresserar	_	_	_	_	_	_	
+32-7	2415-2418	och	_	_	_	_	_	_	
+32-8	2419-2428	engagerar	_	_	_	_	_	_	
+32-9	2429-2433	både	_	_	_	_	_	_	
+32-10	2434-2439	kropp	_	_	_	_	_	_	
+32-11	2440-2443	och	_	_	_	_	_	_	
+32-12	2444-2448	själ	_	_	_	_	_	_	
+32-13	2448-2449	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2451-2452	#	_	_	_	_	_	_	
+33-2	2452-2453	P	_	_	_	_	_	_	
+33-3	2454-2457	IMM	_	_	_	_	_	_	
+33-4	2457-2458	.	_	_	_	_	_	_	
+
+#Text=I praktiken dröjer det dock ett antal år innan marknaden för persontrafik på järnväg kan anses som fri vilket begränsar resenärernas möjlighet att välja andra alternativ.
+34-1	2460-2461	I	_	_	_	_	_	_	
+34-2	2462-2471	praktiken	_	_	_	_	_	_	
+34-3	2472-2478	dröjer	_	_	_	_	_	_	
+34-4	2479-2482	det	_	_	_	_	_	_	
+34-5	2483-2487	dock	_	_	_	_	_	_	
+34-6	2488-2491	ett	_	_	_	_	_	_	
+34-7	2492-2497	antal	_	_	_	_	_	_	
+34-8	2498-2500	år	_	_	_	_	_	_	
+34-9	2501-2506	innan	_	_	_	_	_	_	
+34-10	2507-2516	marknaden	_	_	_	_	_	_	
+34-11	2517-2520	för	_	_	_	_	_	_	
+34-12	2521-2533	persontrafik	_	_	_	_	_	_	
+34-13	2534-2536	på	_	_	_	_	_	_	
+34-14	2537-2544	järnväg	_	_	_	_	_	_	
+34-15	2545-2548	kan	_	_	_	_	_	_	
+34-16	2549-2554	anses	_	_	_	_	_	_	
+34-17	2555-2558	som	_	_	_	_	_	_	
+34-18	2559-2562	fri	_	_	_	_	_	_	
+34-19	2563-2569	vilket	_	_	_	_	_	_	
+34-20	2570-2579	begränsar	_	Target	34-21[24]	false	2	_	
+34-21	2580-2592	resenärernas	*[24]	_	_	_	_	_	
+34-22	2593-2602	möjlighet	*[24]	_	_	_	_	_	
+34-23	2603-2606	att	*[24]	_	_	_	_	_	
+34-24	2607-2612	välja	*[24]	_	_	_	_	_	
+34-25	2613-2618	andra	*[24]	_	_	_	_	_	
+34-26	2619-2629	alternativ	*[24]	_	_	_	_	_	
+34-27	2629-2630	.	_	_	_	_	_	_	
+
+#Text=Problemet är också att SJ:s monopol har inneburit att man i praktiken kan sätta vilka priser man vill på biljetterna.
+35-1	2631-2640	Problemet	_	Target	35-5[25]	false	2	_	
+35-2	2641-2643	är	_	_	_	_	_	_	
+35-3	2644-2649	också	_	_	_	_	_	_	
+35-4	2650-2653	att	_	_	_	_	_	_	
+35-5	2654-2656	SJ	*[25]	_	_	_	_	_	
+35-6	2656-2657	:	*[25]	_	_	_	_	_	
+35-7	2657-2658	s	*[25]	_	_	_	_	_	
+35-8	2659-2666	monopol	*[25]	_	_	_	_	_	
+35-9	2667-2670	har	*[25]	_	_	_	_	_	
+35-10	2671-2680	inneburit	*[25]	_	_	_	_	_	
+35-11	2681-2684	att	*[25]	_	_	_	_	_	
+35-12	2685-2688	man	*[25]	_	_	_	_	_	
+35-13	2689-2690	i	*[25]	_	_	_	_	_	
+35-14	2691-2700	praktiken	*[25]	_	_	_	_	_	
+35-15	2701-2704	kan	*[25]	_	_	_	_	_	
+35-16	2705-2710	sätta	*[25]	_	_	_	_	_	
+35-17	2711-2716	vilka	*[25]	_	_	_	_	_	
+35-18	2717-2723	priser	*[25]	_	_	_	_	_	
+35-19	2724-2727	man	*[25]	_	_	_	_	_	
+35-20	2728-2732	vill	*[25]	_	_	_	_	_	
+35-21	2733-2735	på	*[25]	_	_	_	_	_	
+35-22	2736-2747	biljetterna	*[25]	_	_	_	_	_	
+35-23	2747-2748	.	_	_	_	_	_	_	
+
+#Text=Vänner av en öppen marknad bör således välkomna den pågående reformen om fri konkurrens och att slopa SJ:s monopol.
+36-1	2749-2755	Vänner	*[26]	_	_	_	_	_	
+36-2	2756-2758	av	*[26]	_	_	_	_	_	
+36-3	2759-2761	en	*[26]	_	_	_	_	_	
+36-4	2762-2767	öppen	*[26]	_	_	_	_	_	
+36-5	2768-2775	marknad	*[26]	_	_	_	_	_	
+36-6	2776-2779	bör	_	Target	36-1[26]	false	4	_	
+36-7	2780-2787	således	_	_	_	_	_	_	
+36-8	2788-2796	välkomna	_	_	_	false	4	36-6	
+36-9	2797-2800	den	_	_	_	_	_	_	
+36-10	2801-2809	pågående	_	_	_	_	_	_	
+36-11	2810-2818	reformen	_	_	_	_	_	_	
+36-12	2819-2821	om	_	_	_	_	_	_	
+36-13	2822-2825	fri	_	_	_	_	_	_	
+36-14	2826-2836	konkurrens	_	_	_	_	_	_	
+36-15	2837-2840	och	_	_	_	_	_	_	
+36-16	2841-2844	att	_	_	_	_	_	_	
+36-17	2845-2850	slopa	_	_	_	_	_	_	
+36-18	2851-2853	SJ	_	_	_	_	_	_	
+36-19	2853-2854	:	_	_	_	_	_	_	
+36-20	2854-2855	s	_	_	_	_	_	_	
+36-21	2856-2863	monopol	_	_	_	_	_	_	
+36-22	2863-2864	.	_	_	_	_	_	_	
+
+#Text=Med en avreglering så gynnas resenärerna genom ökad kvalitet och lägre biljettpriser.
+37-1	2865-2868	Med	_	_	_	_	_	_	
+37-2	2869-2871	en	_	_	_	_	_	_	
+37-3	2872-2883	avreglering	_	_	_	_	_	_	
+37-4	2884-2886	så	_	_	_	_	_	_	
+37-5	2887-2893	gynnas	_	Target	37-6	false	4	_	
+37-6	2894-2905	resenärerna	*	_	_	_	_	_	
+37-7	2906-2911	genom	_	_	_	_	_	_	
+37-8	2912-2916	ökad	_	_	_	_	_	_	
+37-9	2917-2925	kvalitet	_	_	_	_	_	_	
+37-10	2926-2929	och	_	_	_	_	_	_	
+37-11	2930-2935	lägre	_	_	_	_	_	_	
+37-12	2936-2949	biljettpriser	_	_	_	_	_	_	
+37-13	2949-2950	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2952-2953	#	_	_	_	_	_	_	
+38-2	2953-2954	P	_	_	_	_	_	_	
+38-3	2955-2958	IMM	_	_	_	_	_	_	
+38-4	2958-2959	.	_	_	_	_	_	_	
+
+#Text=Det finns ytterligare problem med systemet kring personliga biljetter och det är att det kommer att begränsa ett stort antal individers rörelsefrihet i Sverige.
+39-1	2961-2964	Det	_	_	_	_	_	_	
+39-2	2965-2970	finns	_	_	_	_	_	_	
+39-3	2971-2982	ytterligare	_	_	_	_	_	_	
+39-4	2983-2990	problem	_	Target	39-14[27]	false	2	_	
+39-5	2991-2994	med	_	_	_	_	_	_	
+39-6	2995-3003	systemet	_	_	_	_	_	_	
+39-7	3004-3009	kring	_	_	_	_	_	_	
+39-8	3010-3020	personliga	_	_	_	_	_	_	
+39-9	3021-3030	biljetter	_	_	_	_	_	_	
+39-10	3031-3034	och	_	_	_	_	_	_	
+39-11	3035-3038	det	_	_	_	_	_	_	
+39-12	3039-3041	är	_	_	_	_	_	_	
+39-13	3042-3045	att	_	_	_	_	_	_	
+39-14	3046-3049	det	*[27]	_	_	_	_	_	
+39-15	3050-3056	kommer	*[27]	_	_	_	_	_	
+39-16	3057-3060	att	*[27]	_	_	_	_	_	
+39-17	3061-3069	begränsa	*[27]	_	_	_	_	_	
+39-18	3070-3073	ett	*[27]	_	_	_	_	_	
+39-19	3074-3079	stort	*[27]	_	_	_	_	_	
+39-20	3080-3085	antal	*[27]	_	_	_	_	_	
+39-21	3086-3096	individers	*[27]	_	_	_	_	_	
+39-22	3097-3110	rörelsefrihet	*[27]	_	_	_	_	_	
+39-23	3111-3112	i	*[27]	_	_	_	_	_	
+39-24	3113-3120	Sverige	*[27]	_	_	_	_	_	
+39-25	3120-3121	.	_	_	_	_	_	_	
+
+#Text=Det handlar om gömda flyktingar som saknar giltig legitimation.
+40-1	3122-3125	Det	_	_	_	_	_	_	
+40-2	3126-3133	handlar	_	_	_	_	_	_	
+40-3	3134-3136	om	_	_	_	_	_	_	
+40-4	3137-3142	gömda	_	_	_	_	_	_	
+40-5	3143-3153	flyktingar	_	_	_	_	_	_	
+40-6	3154-3157	som	_	_	_	_	_	_	
+40-7	3158-3164	saknar	_	_	_	_	_	_	
+40-8	3165-3171	giltig	_	_	_	_	_	_	
+40-9	3172-3184	legitimation	_	_	_	_	_	_	
+40-10	3184-3185	.	_	_	_	_	_	_	
+
+#Text=Dessa människor lever i Sverige och kommer med SJ:s agerande få sin rörelsefrihet begränsad ytterligare.
+41-1	3186-3191	Dessa	_	_	_	_	_	_	
+41-2	3192-3201	människor	_	_	_	_	_	_	
+41-3	3202-3207	lever	_	_	_	_	_	_	
+41-4	3208-3209	i	_	_	_	_	_	_	
+41-5	3210-3217	Sverige	_	_	_	_	_	_	
+41-6	3218-3221	och	_	_	_	_	_	_	
+41-7	3222-3228	kommer	_	_	_	_	_	_	
+41-8	3229-3232	med	_	_	_	_	_	_	
+41-9	3233-3235	SJ	_	_	_	_	_	_	
+41-10	3235-3236	:	_	_	_	_	_	_	
+41-11	3236-3237	s	_	_	_	_	_	_	
+41-12	3238-3246	agerande	_	_	_	_	_	_	
+41-13	3247-3249	få	_	_	_	_	_	_	
+41-14	3250-3253	sin	_	_	_	_	_	_	
+41-15	3254-3267	rörelsefrihet	*	_	_	_	_	_	
+41-16	3268-3277	begränsad	_	Target	41-15	false	2	_	
+41-17	3278-3289	ytterligare	_	_	_	_	_	_	
+41-18	3289-3290	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3292-3293	#	_	_	_	_	_	_	
+42-2	3293-3294	P	_	_	_	_	_	_	
+42-3	3295-3298	IMM	_	_	_	_	_	_	
+42-4	3298-3299	.	_	_	_	_	_	_	
+
+#Text=Regeringens ägarenhet borde ta SJ i örat och få ett stopp på denna galenskap.
+43-1	3301-3312	Regeringens	_	_	_	_	_	_	
+43-2	3313-3322	ägarenhet	_	_	_	_	_	_	
+43-3	3323-3328	borde	_	_	_	_	_	_	
+43-4	3329-3331	ta	_	_	_	_	_	_	
+43-5	3332-3334	SJ	_	_	_	_	_	_	
+43-6	3335-3336	i	_	_	_	_	_	_	
+43-7	3337-3341	örat	_	_	_	_	_	_	
+43-8	3342-3345	och	_	_	_	_	_	_	
+43-9	3346-3348	få	_	_	_	_	_	_	
+43-10	3349-3352	ett	_	_	_	_	_	_	
+43-11	3353-3358	stopp	_	_	_	_	_	_	
+43-12	3359-3361	på	_	_	_	_	_	_	
+43-13	3362-3367	denna	*[28]	Target[9]	43-13[28]	false[9]	2[9]	_	
+43-14	3368-3377	galenskap	*[28]	Target[9]	43-13[28]	false[9]	2[9]	_	
+43-15	3377-3378	.	_	_	_	_	_	_	
+
+#Text=Om SJ, även efter avregleringen vill ha kunder i framtiden och på allvar konkurrera och tjäna pengar på den fria marknaden så går man i helt fel riktning.
+44-1	3379-3381	Om	_	_	_	_	_	_	
+44-2	3382-3384	SJ	*	_	_	_	_	_	
+44-3	3384-3385	,	_	_	_	_	_	_	
+44-4	3386-3390	även	_	_	_	_	_	_	
+44-5	3391-3396	efter	_	_	_	_	_	_	
+44-6	3397-3410	avregleringen	_	_	_	_	_	_	
+44-7	3411-3415	vill	_	Target;Source[10]	44-9;44-2	false[10]	4[10]	_	
+44-8	3416-3418	ha	_	Target;Source[10]	44-9;44-2	false[10]	4[10]	_	
+44-9	3419-3425	kunder	*	_	_	_	_	_	
+44-10	3426-3427	i	_	_	_	_	_	_	
+44-11	3428-3437	framtiden	_	_	_	_	_	_	
+44-12	3438-3441	och	_	_	_	_	_	_	
+44-13	3442-3444	på	_	_	_	_	_	_	
+44-14	3445-3451	allvar	_	_	_	_	_	_	
+44-15	3452-3462	konkurrera	_	_	_	_	_	_	
+44-16	3463-3466	och	_	_	_	_	_	_	
+44-17	3467-3472	tjäna	_	_	_	_	_	_	
+44-18	3473-3479	pengar	_	_	_	_	_	_	
+44-19	3480-3482	på	_	_	_	_	_	_	
+44-20	3483-3486	den	_	_	_	_	_	_	
+44-21	3487-3491	fria	_	_	_	_	_	_	
+44-22	3492-3501	marknaden	_	_	_	_	_	_	
+44-23	3502-3504	så	_	_	_	_	_	_	
+44-24	3505-3508	går	_	Target	44-2	false	2	_	
+44-25	3509-3512	man	_	_	_	_	_	_	
+44-26	3513-3514	i	_	_[11]	_	false[11]	2[11]	44-24[0_11]	
+44-27	3515-3519	helt	_	_[11]	_	false[11]	2[11]	_	
+44-28	3520-3523	fel	_	_[11]	_	false[11]	2[11]	_	
+44-29	3524-3532	riktning	_	_[11]	_	false[11]	2[11]	_	
+44-30	3532-3533	.	_	_	_	_	_	_	
+
+#Text=SJ borde istället fokusera på hur man kan locka fler kunder till företaget och öka sina marknadsandelar på den framtida marknaden – Inte avskräcka kunderna och utesluta vissa grupper från att åka med deras tåg.
+45-1	3534-3536	SJ	_	_	_	_	_	_	
+45-2	3537-3542	borde	_	_	_	_	_	_	
+45-3	3543-3551	istället	_	_	_	_	_	_	
+45-4	3552-3560	fokusera	_	_	_	_	_	_	
+45-5	3561-3563	på	_	_	_	_	_	_	
+45-6	3564-3567	hur	_	_	_	_	_	_	
+45-7	3568-3571	man	_	_	_	_	_	_	
+45-8	3572-3575	kan	_	_	_	_	_	_	
+45-9	3576-3581	locka	_	Target	45-11	false	4	_	
+45-10	3582-3586	fler	_	_	_	_	_	_	
+45-11	3587-3593	kunder	*	_	_	_	_	_	
+45-12	3594-3598	till	_	_	_	_	_	_	
+45-13	3599-3608	företaget	_	_	_	_	_	_	
+45-14	3609-3612	och	_	_	_	_	_	_	
+45-15	3613-3616	öka	_	_	_	_	_	_	
+45-16	3617-3621	sina	_	_	_	_	_	_	
+45-17	3622-3637	marknadsandelar	_	_	_	_	_	_	
+45-18	3638-3640	på	_	_	_	_	_	_	
+45-19	3641-3644	den	_	_	_	_	_	_	
+45-20	3645-3653	framtida	_	_	_	_	_	_	
+45-21	3654-3663	marknaden	_	_	_	_	_	_	
+45-22	3664-3665	–	_	_	_	_	_	_	
+45-23	3666-3670	Inte	_	_	_	_	_	_	
+45-24	3671-3680	avskräcka	_	Target	45-25	false	2	_	
+45-25	3681-3689	kunderna	*	_	_	_	_	_	
+45-26	3690-3693	och	_	_	_	_	_	_	
+45-27	3694-3702	utesluta	_	_	_	_	_	_	
+45-28	3703-3708	vissa	_	_	_	_	_	_	
+45-29	3709-3716	grupper	_	_	_	_	_	_	
+45-30	3717-3721	från	_	_	_	_	_	_	
+45-31	3722-3725	att	_	_	_	_	_	_	
+45-32	3726-3729	åka	_	_	_	_	_	_	
+45-33	3730-3733	med	_	_	_	_	_	_	
+45-34	3734-3739	deras	_	_	_	_	_	_	
+45-35	3740-3743	tåg	_	_	_	_	_	_	
+45-36	3743-3744	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3746-3747	#	_	_	_	_	_	_	
+46-2	3747-3748	P	_	_	_	_	_	_	
+46-3	3749-3752	IMM	_	_	_	_	_	_	
+46-4	3752-3753	.	_	_	_	_	_	_	
+
+#Text=NINA LARSSON (FP).
+47-1	3755-3759	NINA	_	_	_	_	_	_	
+47-2	3760-3767	LARSSON	_	_	_	_	_	_	
+47-3	3768-3769	(	_	_	_	_	_	_	
+47-4	3769-3771	FP	_	_	_	_	_	_	
+47-5	3771-3772	)	_	_	_	_	_	_	
+47-6	3772-3773	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3775-3776	#	_	_	_	_	_	_	
+48-2	3776-3777	P	_	_	_	_	_	_	
+48-3	3778-3781	IMM	_	_	_	_	_	_	
+48-4	3781-3782	.	_	_	_	_	_	_	
+
+#Text=riksdagsledamot.
+49-1	3784-3799	riksdagsledamot	_	_	_	_	_	_	
+49-2	3799-3800	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3802-3803	#	_	_	_	_	_	_	
+50-2	3803-3804	P	_	_	_	_	_	_	
+50-3	3805-3808	IMM	_	_	_	_	_	_	
+50-4	3808-3809	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+51-1	3811-3819	Redaktör	_	_	_	_	_	_	
+51-2	3819-3820	:	_	_	_	_	_	_	
+51-3	3821-3827	Carina	_	_	_	_	_	_	
+51-4	3828-3836	Stensson	_	_	_	_	_	_	
+51-5	3836-3837	,	_	_	_	_	_	_	
+51-6	3838-3848	Biträdande	_	_	_	_	_	_	
+51-7	3849-3857	redaktör	_	_	_	_	_	_	
+51-8	3857-3858	:	_	_	_	_	_	_	
+51-9	3859-3864	Björn	_	_	_	_	_	_	
+51-10	3865-3871	Jorner	_	_	_	_	_	_	
+51-11	3871-3872	,	_	_	_	_	_	_	
+51-12	3873-3877	Mejl	_	_	_	_	_	_	
+51-13	3877-3878	:	_	_	_	_	_	_	
+51-14	3879-3885	debatt	_	_	_	_	_	_	
+51-15	3885-3886	@	_	_	_	_	_	_	
+51-16	3886-3892	svd.se	_	_	_	_	_	_	
+51-17	3892-3893	,	_	_	_	_	_	_	
+51-18	3894-3907	Telefonnummer	_	_	_	_	_	_	
+51-19	3907-3908	:	_	_	_	_	_	_	
+51-20	3909-3911	08	_	_	_	_	_	_	
+51-21	3911-3912	-	_	_	_	_	_	_	
+51-22	3912-3918	135149	_	_	_	_	_	_	
+51-23	3918-3919	,	_	_	_	_	_	_	
+51-24	3920-3927	Twitter	_	_	_	_	_	_	
+51-25	3927-3928	:	_	_	_	_	_	_	
+51-26	3929-3930	@	_	_	_	_	_	_	
+51-27	3930-3939	SvDDebatt	_	_	_	_	_	_	
+51-28	3939-3940	,	_	_	_	_	_	_	
+51-29	3941-3949	Facebook	_	_	_	_	_	_	
+51-30	3949-3950	:	_	_	_	_	_	_	
+51-31	3951-3954	SvD	_	_	_	_	_	_	
+51-32	3955-3961	Debatt	_	_	_	_	_	_	
+51-33	3961-3962	.	_	_	_	_	_	_	

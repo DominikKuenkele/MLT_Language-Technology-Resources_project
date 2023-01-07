@@ -1,0 +1,361 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Skrota arbetslinjen - inför medborgarlön!
+3-1	18-24	Skrota	_	Target	3-2	false	2	_	
+3-2	25-37	arbetslinjen	*	_	_	_	_	_	
+3-3	38-39	-	_	_	_	_	_	_	
+3-4	40-45	inför	_	Target	3-5	false	4	_	
+3-5	46-58	medborgarlön	*	_	_	_	_	_	
+3-6	58-59	!	_	_	_	_	_	_	
+
+#Text=[Sammanfogade ämnen /mod].
+4-1	60-61	[	_	_	_	_	_	_	
+4-2	61-73	Sammanfogade	_	_	_	_	_	_	
+4-3	74-79	ämnen	_	_	_	_	_	_	
+4-4	80-81	/	_	_	_	_	_	_	
+4-5	81-84	mod	_	_	_	_	_	_	
+4-6	84-85	]	_	_	_	_	_	_	
+4-7	85-86	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	88-89	#	_	_	_	_	_	_	
+5-2	89-90	P	_	_	_	_	_	_	
+5-3	91-94	IMM	_	_	_	_	_	_	
+5-4	94-95	.	_	_	_	_	_	_	
+
+#Text=Alliansens arbetslinje, som innebär att alla arbetssökande i praktiken behandlas som mindre värda slöfockar, är otidsenlig!.
+6-1	97-107	Alliansens	*[13]	_	_	_	_	_	
+6-2	108-119	arbetslinje	*[13]	_	_	_	_	_	
+6-3	119-120	,	_	_	_	_	_	_	
+6-4	121-124	som	_	_	_	_	_	_	
+6-5	125-132	innebär	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-6	133-136	att	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-7	137-141	alla	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-8	142-155	arbetssökande	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-9	156-157	i	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-10	158-167	praktiken	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-11	168-177	behandlas	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-12	178-181	som	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-13	182-188	mindre	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-14	189-194	värda	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-15	195-204	slöfockar	_	Target[1]	6-1[13]	false[1]	2[1]	_	
+6-16	204-205	,	_	_	_	_	_	_	
+6-17	206-208	är	_	Target[2]	6-1[13]	false[2]	2[2]	_	
+6-18	209-219	otidsenlig	_	Target[2]	6-1[13]	false[2]	2[2]	_	
+6-19	219-220	!	_	_	_	_	_	_	
+6-20	220-221	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	223-224	#	_	_	_	_	_	_	
+7-2	224-225	P	_	_	_	_	_	_	
+7-3	226-229	IMM	_	_	_	_	_	_	
+7-4	229-230	.	_	_	_	_	_	_	
+
+#Text=Själva idén om en s.k. arbetslinje är förlegad, och tillhör det gamla industrisamhället.
+8-1	232-238	Själva	*[14]	_	_	_	_	_	
+8-2	239-243	idén	*[14]	_	_	_	_	_	
+8-3	244-246	om	*[14]	_	_	_	_	_	
+8-4	247-249	en	*[14]	_	_	_	_	_	
+8-5	250-253	s.k	*[14]	_	_	_	_	_	
+8-6	253-254	.	*[14]	_	_	_	_	_	
+8-7	255-266	arbetslinje	*[14]	_	_	_	_	_	
+8-8	267-269	är	_	Target[3]	8-1[14]	false[3]	2[3]	_	
+8-9	270-278	förlegad	_	Target[3]	8-1[14]	false[3]	2[3]	_	
+8-10	278-279	,	_	_	_	_	_	_	
+8-11	280-283	och	_	_	_	_	_	_	
+8-12	284-291	tillhör	_	_	_	_	_	_	
+8-13	292-295	det	_	_	_	_	_	_	
+8-14	296-301	gamla	_	_	_	_	_	_	
+8-15	302-319	industrisamhället	_	_	_	_	_	_	
+8-16	319-320	.	_	_	_	_	_	_	
+
+#Text=I dagens samhälle har vi konstant hög arbetslöshet - ett tillstånd som antagligen knappast kommer att bli bättre framöver, oavsett konjunktursvängningar.
+9-1	321-322	I	_	_	_	_	_	_	
+9-2	323-329	dagens	_	_	_	_	_	_	
+9-3	330-338	samhälle	_	_	_	_	_	_	
+9-4	339-342	har	_	_	_	_	_	_	
+9-5	343-345	vi	_	_	_	_	_	_	
+9-6	346-354	konstant	_	_	_	_	_	_	
+9-7	355-358	hög	_	_	_	_	_	_	
+9-8	359-371	arbetslöshet	_	_	_	_	_	_	
+9-9	372-373	-	_	_	_	_	_	_	
+9-10	374-377	ett	_	_	_	_	_	_	
+9-11	378-387	tillstånd	_	_	_	_	_	_	
+9-12	388-391	som	_	_	_	_	_	_	
+9-13	392-402	antagligen	_	_	_	_	_	_	
+9-14	403-411	knappast	_	_	_	_	_	_	
+9-15	412-418	kommer	_	_	_	_	_	_	
+9-16	419-422	att	_	_	_	_	_	_	
+9-17	423-426	bli	_	_	_	_	_	_	
+9-18	427-433	bättre	_	_	_	_	_	_	
+9-19	434-442	framöver	_	_	_	_	_	_	
+9-20	442-443	,	_	_	_	_	_	_	
+9-21	444-451	oavsett	_	_	_	_	_	_	
+9-22	452-473	konjunktursvängningar	_	_	_	_	_	_	
+9-23	473-474	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	476-477	#	_	_	_	_	_	_	
+10-2	477-478	P	_	_	_	_	_	_	
+10-3	479-482	IMM	_	_	_	_	_	_	
+10-4	482-483	.	_	_	_	_	_	_	
+
+#Text=Arbetslösa personer borde istället ges möjligheten att erhålla medborgarlön - en inkomst utan krav på att stå till arbetsmarknadens förfogande.
+11-1	485-495	Arbetslösa	_	_	_	_	_	_	
+11-2	496-504	personer	_	_	_	_	_	_	
+11-3	505-510	borde	_	_	_	_	_	_	
+11-4	511-519	istället	_	_	_	_	_	_	
+11-5	520-523	ges	_	_	_	_	_	_	
+11-6	524-535	möjligheten	_	_	_	_	_	_	
+11-7	536-539	att	_	_	_	_	_	_	
+11-8	540-547	erhålla	_	_	_	_	_	_	
+11-9	548-560	medborgarlön	_	_	_	_	_	_	
+11-10	561-562	-	_	_	_	_	_	_	
+11-11	563-565	en	_	_	_	_	_	_	
+11-12	566-573	inkomst	_	_	_	_	_	_	
+11-13	574-578	utan	_	_	_	_	_	_	
+11-14	579-583	krav	_	_	_	_	_	_	
+11-15	584-586	på	_	_	_	_	_	_	
+11-16	587-590	att	_	_	_	_	_	_	
+11-17	591-594	stå	_	_	_	_	_	_	
+11-18	595-599	till	_	_	_	_	_	_	
+11-19	600-616	arbetsmarknadens	_	_	_	_	_	_	
+11-20	617-627	förfogande	_	_	_	_	_	_	
+11-21	627-628	.	_	_	_	_	_	_	
+
+#Text=Det skulle givetvis inte handla om några fantasisummor, men en ca 8-9 tusen brutto  i månaden.
+12-1	629-632	Det	_	_	_	_	_	_	
+12-2	633-639	skulle	_	_	_	_	_	_	
+12-3	640-648	givetvis	_	_	_	_	_	_	
+12-4	649-653	inte	_	_	_	_	_	_	
+12-5	654-660	handla	_	_	_	_	_	_	
+12-6	661-663	om	_	_	_	_	_	_	
+12-7	664-669	några	_	_	_	_	_	_	
+12-8	670-683	fantasisummor	_	_	_	_	_	_	
+12-9	683-684	,	_	_	_	_	_	_	
+12-10	685-688	men	_	_	_	_	_	_	
+12-11	689-691	en	_	_	_	_	_	_	
+12-12	692-694	ca	_	_	_	_	_	_	
+12-13	695-696	8	_	_	_	_	_	_	
+12-14	696-697	-	_	_	_	_	_	_	
+12-15	697-698	9	_	_	_	_	_	_	
+12-16	699-704	tusen	_	_	_	_	_	_	
+12-17	705-711	brutto	_	_	_	_	_	_	
+12-18	713-714	i	_	_	_	_	_	_	
+12-19	715-722	månaden	_	_	_	_	_	_	
+12-20	722-723	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	725-726	#	_	_	_	_	_	_	
+13-2	726-727	P	_	_	_	_	_	_	
+13-3	728-731	IMM	_	_	_	_	_	_	
+13-4	731-732	.	_	_	_	_	_	_	
+
+#Text=Medborgarlönen innebär många fördelar för såväl den enskilde som för samhället i stort.
+14-1	734-748	Medborgarlönen	*	_	_	_	_	_	
+14-2	749-756	innebär	_	Target[4]	14-1	false[4]	4[4]	_	
+14-3	757-762	många	_	Target[4]	14-1	false[4]	4[4]	_	
+14-4	763-771	fördelar	_	Target[4]	14-1	false[4]	4[4]	_	
+14-5	772-775	för	_	Target[4]	14-1	false[4]	4[4]	_	
+14-6	776-781	såväl	_	Target[4]	14-1	false[4]	4[4]	_	
+14-7	782-785	den	_	Target[4]	14-1	false[4]	4[4]	_	
+14-8	786-794	enskilde	_	Target[4]	14-1	false[4]	4[4]	_	
+14-9	795-798	som	_	Target[4]	14-1	false[4]	4[4]	_	
+14-10	799-802	för	_	Target[4]	14-1	false[4]	4[4]	_	
+14-11	803-812	samhället	_	Target[4]	14-1	false[4]	4[4]	_	
+14-12	813-814	i	_	Target[4]	14-1	false[4]	4[4]	_	
+14-13	815-820	stort	_	Target[4]	14-1	false[4]	4[4]	_	
+14-14	820-821	.	_	_	_	_	_	_	
+
+#Text=Fördelarna för den enskilde arbetslöse, är att denne återfår sin värdighet.
+15-1	822-832	Fördelarna	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-2	833-836	för	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-3	837-840	den	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-4	841-849	enskilde	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-5	850-860	arbetslöse	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-6	860-861	,	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-7	862-864	är	_	Target[5]|Target[6]	14-1|15-8[15]	false[5]|false[6]	4[5]|4[6]	_	
+15-8	865-868	att	*[15]	Target[5]	14-1	false[5]	4[5]	_	
+15-9	869-874	denne	*[15]	Target[5]	14-1	false[5]	4[5]	_	
+15-10	875-882	återfår	*[15]	Target[5]	14-1	false[5]	4[5]	_	
+15-11	883-886	sin	*[15]	Target[5]	14-1	false[5]	4[5]	_	
+15-12	887-896	värdighet	*[15]	Target[5]	14-1	false[5]	4[5]	_	
+15-13	896-897	.	_	_	_	_	_	_	
+
+#Text=Detta vinner samhället på i längden, det är jag övertygad om.
+16-1	898-903	Detta	*[16]|*[17]	_	_	_	_	16-8[0_16]	
+16-2	904-910	vinner	*[16]	Target[7]	16-1[17]	false[7]	4[7]	_	
+16-3	911-920	samhället	*[16]	Target[7]	16-1[17]	false[7]	4[7]	_	
+16-4	921-923	på	*[16]	Target[7]	16-1[17]	false[7]	4[7]	_	
+16-5	924-925	i	*[16]	Target[7]	16-1[17]	false[7]	4[7]	_	
+16-6	926-933	längden	*[16]	Target[7]	16-1[17]	false[7]	4[7]	_	
+16-7	933-934	,	_	_	_	_	_	_	
+16-8	935-938	det	*	_	_	_	_	_	
+16-9	939-941	är	_	Target[8]	16-8	false[8]	5[8]	_	
+16-10	942-945	jag	_	Target[8]	16-8	false[8]	5[8]	_	
+16-11	946-955	övertygad	_	Target[8]	16-8	false[8]	5[8]	_	
+16-12	956-958	om	_	Target[8]	16-8	false[8]	5[8]	_	
+16-13	958-959	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	961-962	#	_	_	_	_	_	_	
+17-2	962-963	P	_	_	_	_	_	_	
+17-3	964-967	IMM	_	_	_	_	_	_	
+17-4	967-968	.	_	_	_	_	_	_	
+
+#Text=Medborgarlön verkar vara ett koncept, som vinner allt fler anhängare.
+18-1	970-982	Medborgarlön	_	_	_	_	_	_	
+18-2	983-989	verkar	_	_	_	_	_	_	
+18-3	990-994	vara	_	_	_	_	_	_	
+18-4	995-998	ett	_	_	_	_	_	_	
+18-5	999-1006	koncept	_	_	_	_	_	_	
+18-6	1006-1007	,	_	_	_	_	_	_	
+18-7	1008-1011	som	_	_	_	_	_	_	
+18-8	1012-1018	vinner	_	_	_	_	_	_	
+18-9	1019-1023	allt	_	_	_	_	_	_	
+18-10	1024-1028	fler	_	_	_	_	_	_	
+18-11	1029-1038	anhängare	_	_	_	_	_	_	
+18-12	1038-1039	.	_	_	_	_	_	_	
+
+#Text=Även i Tyskland har det aktualiserats, senast av företagaren Götz Werner, som nyligen utkommit med en bok på temat:.
+19-1	1040-1044	Även	_	_	_	_	_	_	
+19-2	1045-1046	i	_	_	_	_	_	_	
+19-3	1047-1055	Tyskland	_	_	_	_	_	_	
+19-4	1056-1059	har	_	_	_	_	_	_	
+19-5	1060-1063	det	_	_	_	_	_	_	
+19-6	1064-1077	aktualiserats	_	_	_	_	_	_	
+19-7	1077-1078	,	_	_	_	_	_	_	
+19-8	1079-1085	senast	_	_	_	_	_	_	
+19-9	1086-1088	av	_	_	_	_	_	_	
+19-10	1089-1100	företagaren	_	_	_	_	_	_	
+19-11	1101-1105	Götz	_	_	_	_	_	_	
+19-12	1106-1112	Werner	_	_	_	_	_	_	
+19-13	1112-1113	,	_	_	_	_	_	_	
+19-14	1114-1117	som	_	_	_	_	_	_	
+19-15	1118-1125	nyligen	_	_	_	_	_	_	
+19-16	1126-1134	utkommit	_	_	_	_	_	_	
+19-17	1135-1138	med	_	_	_	_	_	_	
+19-18	1139-1141	en	_	_	_	_	_	_	
+19-19	1142-1145	bok	_	_	_	_	_	_	
+19-20	1146-1148	på	_	_	_	_	_	_	
+19-21	1149-1154	temat	_	_	_	_	_	_	
+19-22	1154-1155	:	_	_	_	_	_	_	
+19-23	1155-1156	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1158-1159	#	_	_	_	_	_	_	
+20-2	1159-1160	P	_	_	_	_	_	_	
+20-3	1161-1164	IMM	_	_	_	_	_	_	
+20-4	1164-1165	.	_	_	_	_	_	_	
+
+#Text=Här finns en intervju på tyska med densamme:.
+21-1	1167-1170	Här	_	_	_	_	_	_	
+21-2	1171-1176	finns	_	_	_	_	_	_	
+21-3	1177-1179	en	_	_	_	_	_	_	
+21-4	1180-1188	intervju	_	_	_	_	_	_	
+21-5	1189-1191	på	_	_	_	_	_	_	
+21-6	1192-1197	tyska	_	_	_	_	_	_	
+21-7	1198-1201	med	_	_	_	_	_	_	
+21-8	1202-1210	densamme	_	_	_	_	_	_	
+21-9	1210-1211	:	_	_	_	_	_	_	
+21-10	1211-1212	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1214-1215	#	_	_	_	_	_	_	
+22-2	1215-1216	P	_	_	_	_	_	_	
+22-3	1217-1220	IMM	_	_	_	_	_	_	
+22-4	1220-1221	.	_	_	_	_	_	_	
+
+#Text=Werners grundtanke är, att medborgarlönen gör den enskilde kreativ, och att denne därigenom kan kläcka nya, friska idéer, som kommer samhället till gagn längre fram.
+23-1	1223-1230	Werners	*[18]	_	_	_	_	_	
+23-2	1231-1241	grundtanke	*[18]	_	_	_	_	_	
+23-3	1242-1244	är	_	_	_	_	_	_	
+23-4	1244-1245	,	_	_	_	_	_	_	
+23-5	1246-1249	att	_	_	_	_	_	_	
+23-6	1250-1264	medborgarlönen	*	_	_	_	_	_	
+23-7	1265-1268	gör	*[19]	Target[9]	23-6	false[9]	4[9]	_	
+23-8	1269-1272	den	*[19]	Target[9]	23-6	false[9]	4[9]	_	
+23-9	1273-1281	enskilde	*[19]	Target[9]	23-6	false[9]	4[9]	_	
+23-10	1282-1289	kreativ	*[19]	Target[9]	23-6	false[9]	4[9]	_	
+23-11	1289-1290	,	_	_	_	_	_	_	
+23-12	1291-1294	och	_	_	_	_	_	_	
+23-13	1295-1298	att	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-14	1299-1304	denne	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-15	1305-1314	därigenom	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-16	1315-1318	kan	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-17	1319-1325	kläcka	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-18	1326-1329	nya	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-19	1329-1330	,	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-20	1331-1337	friska	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-21	1338-1343	idéer	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-22	1343-1344	,	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-23	1345-1348	som	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-24	1349-1355	kommer	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-25	1356-1365	samhället	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-26	1366-1370	till	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-27	1371-1375	gagn	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-28	1376-1382	längre	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-29	1383-1387	fram	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+23-30	1387-1388	.	_	Target[10]	23-7[19]	false[10]	4[10]	_	
+
+#Text=Jag tror han har helt rätt. här finns en kreativitetspotential, som bara väntar på att frigöras!.
+24-1	1389-1392	Jag	_	_	_	_	_	_	
+24-2	1393-1397	tror	_	_	_	_	_	_	
+24-3	1398-1401	han	_	Target[11]	23-1[18]	false[11]	4[11]	_	
+24-4	1402-1405	har	_	Target[11]	23-1[18]	false[11]	4[11]	_	
+24-5	1406-1410	helt	_	Target[11]	23-1[18]	false[11]	4[11]	_	
+24-6	1411-1415	rätt	_	Target[11]	23-1[18]	false[11]	4[11]	_	
+24-7	1415-1416	.	_	_	_	_	_	_	
+24-8	1417-1420	här	_	_	_	_	_	_	
+24-9	1421-1426	finns	_	_	_	_	_	_	
+24-10	1427-1429	en	_	_	_	_	_	_	
+24-11	1430-1451	kreativitetspotential	_	_	_	_	_	_	
+24-12	1451-1452	,	_	_	_	_	_	_	
+24-13	1453-1456	som	_	_	_	_	_	_	
+24-14	1457-1461	bara	_	_	_	_	_	_	
+24-15	1462-1468	väntar	_	_	_	_	_	_	
+24-16	1469-1471	på	_	_	_	_	_	_	
+24-17	1472-1475	att	_	_	_	_	_	_	
+24-18	1476-1484	frigöras	_	_	_	_	_	_	
+24-19	1484-1485	!	_	_	_	_	_	_	
+24-20	1485-1486	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1488-1489	#	_	_	_	_	_	_	
+25-2	1489-1490	P	_	_	_	_	_	_	
+25-3	1491-1494	IMM	_	_	_	_	_	_	
+25-4	1494-1495	.	_	_	_	_	_	_	
+
+#Text=Medborgarlönen kanske dock borde kallas kreativitetslön i stället, vilket torde ge en bättre klang.
+26-1	1497-1511	Medborgarlönen	*[20]	_	_	_	_	_	
+26-2	1512-1518	kanske	*[20]	_	_	_	_	_	
+26-3	1519-1523	dock	*[20]	_	_	_	_	_	
+26-4	1524-1529	borde	*[20]	_	_	_	_	_	
+26-5	1530-1536	kallas	*[20]	_	_	_	_	_	
+26-6	1537-1552	kreativitetslön	*[20]	_	_	_	_	_	
+26-7	1553-1554	i	*[20]	_	_	_	_	_	
+26-8	1555-1562	stället	*[20]	_	_	_	_	_	
+26-9	1562-1563	,	_	_	_	_	_	_	
+26-10	1564-1570	vilket	_	_	_	_	_	_	
+26-11	1571-1576	torde	_	Target[12]	26-1[20]	false[12]	4[12]	_	
+26-12	1577-1579	ge	_	Target[12]	26-1[20]	false[12]	4[12]	_	
+26-13	1580-1582	en	_	Target[12]	26-1[20]	false[12]	4[12]	_	
+26-14	1583-1589	bättre	_	Target[12]	26-1[20]	false[12]	4[12]	_	
+26-15	1590-1595	klang	_	Target[12]	26-1[20]	false[12]	4[12]	_	
+26-16	1595-1596	.	_	_	_	_	_	_	

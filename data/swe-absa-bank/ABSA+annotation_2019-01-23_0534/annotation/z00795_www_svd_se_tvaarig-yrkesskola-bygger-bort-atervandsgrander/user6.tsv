@@ -1,0 +1,1008 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tvåårig yrkesskola bygger bort återvändsgränder.
+3-1	18-25	Tvåårig	*[26]	_	_	_	_	_	_	
+3-2	26-36	yrkesskola	*[26]	_	_	_	_	_	_	
+3-3	37-43	bygger	_	Target[1]|Target[2]	3-5|3-1[26]	false[1]|false[2]	2[1]|4[2]	_	_	
+3-4	44-48	bort	_	Target[1]|Target[2]	3-5|3-1[26]	false[1]|false[2]	2[1]|4[2]	_	_	
+3-5	49-65	återvändsgränder	*	_	_	_	_	_	_	
+3-6	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_	_	_	_	_	_	
+4-2	69-70	P	_	_	_	_	_	_	_	
+4-3	71-74	IMM	_	_	_	_	_	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=I två artiklar, en av Johan Lindholm, förbundsordförande för Byggnads, och en av Andreas Fejes med flera, riktas kritik mot Alliansens nej till att utöka yrkesprogrammen och vårt förslag med en ny tvåårig yrkesskola.
+5-1	77-78	I	*[27]	_	_	_	_	_	_	
+5-2	79-82	två	*[27]	_	_	_	_	_	_	
+5-3	83-91	artiklar	*[27]	_	_	_	_	_	_	
+5-4	91-92	,	*[27]	_	_	_	_	_	_	
+5-5	93-95	en	*[27]	_	_	_	_	_	_	
+5-6	96-98	av	*[27]	_	_	_	_	_	_	
+5-7	99-104	Johan	*[27]	_	_	_	_	_	_	
+5-8	105-113	Lindholm	*[27]	_	_	_	_	_	_	
+5-9	113-114	,	*[27]	_	_	_	_	_	_	
+5-10	115-133	förbundsordförande	*[27]	_	_	_	_	_	_	
+5-11	134-137	för	*[27]	_	_	_	_	_	_	
+5-12	138-146	Byggnads	*[27]	_	_	_	_	_	_	
+5-13	146-147	,	*[27]	_	_	_	_	_	_	
+5-14	148-151	och	*[27]	_	_	_	_	_	_	
+5-15	152-154	en	*[27]	_	_	_	_	_	_	
+5-16	155-157	av	*[27]	_	_	_	_	_	_	
+5-17	158-165	Andreas	*[27]	_	_	_	_	_	_	
+5-18	166-171	Fejes	*[27]	_	_	_	_	_	_	
+5-19	172-175	med	*[27]	_	_	_	_	_	_	
+5-20	176-181	flera	*[27]	_	_	_	_	_	_	
+5-21	181-182	,	_	_	_	_	_	_	_	
+5-22	183-189	riktas	_	Source;Target[3]	5-1[27];5-25[28]	false[3]	2[3]	_	_	
+5-23	190-196	kritik	_	Source;Target[3]	5-1[27];5-25[28]	false[3]	2[3]	_	_	
+5-24	197-200	mot	_	_	_	_	_	_	_	
+5-25	201-211	Alliansens	*[28]	_	_	_	_	_	_	
+5-26	212-215	nej	*[28]	_	_	_	_	_	_	
+5-27	216-220	till	*[28]	_	_	_	_	_	_	
+5-28	221-224	att	*[28]	_	_	_	_	_	_	
+5-29	225-230	utöka	*[28]	_	_	_	_	_	_	
+5-30	231-246	yrkesprogrammen	*[28]	_	_	_	_	_	_	
+5-31	247-250	och	*[28]	_	_	_	_	_	_	
+5-32	251-255	vårt	*[28]	_	_	_	_	_	_	
+5-33	256-263	förslag	*[28]	_	_	_	_	_	_	
+5-34	264-267	med	*[28]	_	_	_	_	_	_	
+5-35	268-270	en	*[28]	_	_	_	_	_	_	
+5-36	271-273	ny	*[28]	_	_	_	_	_	_	
+5-37	274-281	tvåårig	*[28]	_	_	_	_	_	_	
+5-38	282-292	yrkesskola	*[28]	_	_	_	_	_	_	
+5-39	292-293	.	_	_	_	_	_	_	_	
+
+#Text=Låt oss börja med det uppenbara.
+6-1	294-297	Låt	_	_	_	_	_	_	_	
+6-2	298-301	oss	_	_	_	_	_	_	_	
+6-3	302-307	börja	_	_	_	_	_	_	_	
+6-4	308-311	med	_	_	_	_	_	_	_	
+6-5	312-315	det	_	_	_	_	_	_	_	
+6-6	316-325	uppenbara	_	_	_	_	_	_	_	
+6-7	325-326	.	_	_	_	_	_	_	_	
+
+#Text=Det råder inget tvivel om att det även i fortsättningen ska finnas goda möjligheter att läsa in grundläggande behörighet på gymnasiets yrkesprogram.
+7-1	327-330	Det	_	_	_	_	_	_	_	
+7-2	331-336	råder	_	Target[4]	7-6[29]	false[4]	4[4]	_	_	
+7-3	337-342	inget	_	Target[4]	7-6[29]	false[4]	4[4]	_	_	
+7-4	343-349	tvivel	_	Target[4]	7-6[29]	false[4]	4[4]	_	_	
+7-5	350-352	om	_	Target[4]	7-6[29]	false[4]	4[4]	_	_	
+7-6	353-356	att	*[29]	_	_	_	_	_	_	
+7-7	357-360	det	*[29]	_	_	_	_	_	_	
+7-8	361-365	även	*[29]	_	_	_	_	_	_	
+7-9	366-367	i	*[29]	_	_	_	_	_	_	
+7-10	368-382	fortsättningen	*[29]	_	_	_	_	_	_	
+7-11	383-386	ska	*[29]	_	_	_	_	_	_	
+7-12	387-393	finnas	*[29]	_	_	_	_	_	_	
+7-13	394-398	goda	*[29]	Target	7-14[30]	false	4	_	_	
+7-14	399-410	möjligheter	*[29]|*[30]	_	_	_	_	_	_	
+7-15	411-414	att	*[29]	_	_	_	_	_	_	
+7-16	415-419	läsa	*[29]	_	_	_	_	_	_	
+7-17	420-422	in	*[29]	_	_	_	_	_	_	
+7-18	423-436	grundläggande	*[29]	_	_	_	_	_	_	
+7-19	437-447	behörighet	*[29]	_	_	_	_	_	_	
+7-20	448-450	på	*[29]	_	_	_	_	_	_	
+7-21	451-461	gymnasiets	*[29]	_	_	_	_	_	_	
+7-22	462-474	yrkesprogram	*[29]	_	_	_	_	_	_	
+7-23	474-475	.	_	_	_	_	_	_	_	
+
+#Text=Därför föreslår vi att rektorernas ansvar – att göra det praktiskt och schematekniskt genomförbart för eleverna att läsa in de kurser som behövs för en grundläggande högskolebehörighet – ska förtydligas.
+8-1	476-482	Därför	_	_	_	_	_	_	_	
+8-2	483-491	föreslår	_	_	_	_	_	_	_	
+8-3	492-494	vi	_	_	_	_	_	_	_	
+8-4	495-498	att	_	_	_	_	_	_	_	
+8-5	499-510	rektorernas	_	_	_	_	_	_	_	
+8-6	511-517	ansvar	_	_	_	_	_	_	_	
+8-7	518-519	–	_	_	_	_	_	_	_	
+8-8	520-523	att	_	_	_	_	_	_	_	
+8-9	524-528	göra	_	_	_	_	_	_	_	
+8-10	529-532	det	_	_	_	_	_	_	_	
+8-11	533-542	praktiskt	_	_	_	_	_	_	_	
+8-12	543-546	och	_	_	_	_	_	_	_	
+8-13	547-561	schematekniskt	_	_	_	_	_	_	_	
+8-14	562-574	genomförbart	_	_	_	_	_	_	_	
+8-15	575-578	för	_	_	_	_	_	_	_	
+8-16	579-587	eleverna	_	_	_	_	_	_	_	
+8-17	588-591	att	_	_	_	_	_	_	_	
+8-18	592-596	läsa	_	_	_	_	_	_	_	
+8-19	597-599	in	_	_	_	_	_	_	_	
+8-20	600-602	de	_	_	_	_	_	_	_	
+8-21	603-609	kurser	_	_	_	_	_	_	_	
+8-22	610-613	som	_	_	_	_	_	_	_	
+8-23	614-620	behövs	_	_	_	_	_	_	_	
+8-24	621-624	för	_	_	_	_	_	_	_	
+8-25	625-627	en	_	_	_	_	_	_	_	
+8-26	628-641	grundläggande	_	_	_	_	_	_	_	
+8-27	642-660	högskolebehörighet	_	_	_	_	_	_	_	
+8-28	661-662	–	_	_	_	_	_	_	_	
+8-29	663-666	ska	_	_	_	_	_	_	_	
+8-30	667-678	förtydligas	_	_	_	_	_	_	_	
+8-31	678-679	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill också förtydliga att vårt förslag om en tvåårig yrkesskola, tvärtom mot vad debattörerna påstår, bygger bort återvändsgränder och ger unga människor en första väg in i ett yrke och en brygga till vidare fördjupning och studier.
+9-1	680-682	Vi	_	_	_	_	_	_	_	
+9-2	683-687	vill	_	_	_	_	_	_	_	
+9-3	688-693	också	_	_	_	_	_	_	_	
+9-4	694-704	förtydliga	_	_	_	_	_	_	_	
+9-5	705-708	att	_	_	_	_	_	_	_	
+9-6	709-713	vårt	*[31]|*[32]	_	_	_	_	_	_	
+9-7	714-721	förslag	*[31]|*[32]	_	_	_	_	_	_	
+9-8	722-724	om	*[31]|*[32]	_	_	_	_	_	_	
+9-9	725-727	en	*[31]|*[32]	_	_	_	_	_	_	
+9-10	728-735	tvåårig	*[31]|*[32]	_	_	_	_	_	_	
+9-11	736-746	yrkesskola	*[31]|*[32]	_	_	_	_	_	_	
+9-12	746-747	,	_	_	_	_	_	_	_	
+9-13	748-755	tvärtom	_	_	_	_	_	_	_	
+9-14	756-759	mot	_	_	_	_	_	_	_	
+9-15	760-763	vad	_	_	_	_	_	_	_	
+9-16	764-776	debattörerna	_	_	_	_	_	_	_	
+9-17	777-783	påstår	_	_	_	_	_	_	_	
+9-18	783-784	,	_	_	_	_	_	_	_	
+9-19	785-791	bygger	_	Target[5]	9-6[31]	false[5]	4[5]	_	_	
+9-20	792-796	bort	_	Target[5]	9-6[31]	false[5]	4[5]	_	_	
+9-21	797-813	återvändsgränder	_	Target[5]	9-6[31]	false[5]	4[5]	_	_	
+9-22	814-817	och	_	_	_	_	_	_	_	
+9-23	818-821	ger	_	_	_	_	_	_	_	
+9-24	822-826	unga	_	_	_	_	_	_	_	
+9-25	827-836	människor	_	_	_	_	_	_	_	
+9-26	837-839	en	_	_	_	_	_	_	_	
+9-27	840-846	första	_	_	_	_	_	_	_	
+9-28	847-850	väg	_	_	_	_	_	_	_	
+9-29	851-853	in	_	_	_	_	_	_	_	
+9-30	854-855	i	_	_	_	_	_	_	_	
+9-31	856-859	ett	_	_	_	_	_	_	_	
+9-32	860-864	yrke	_	_	_	_	_	_	_	
+9-33	865-868	och	_	_	_	_	_	_	_	
+9-34	869-871	en	_	Target[6]	9-6[32]	false[6]	4[6]	_	_	
+9-35	872-878	brygga	_	Target[6]	9-6[32]	false[6]	4[6]	_	_	
+9-36	879-883	till	_	_	_	_	_	_	_	
+9-37	884-890	vidare	_	_	_	_	_	_	_	
+9-38	891-902	fördjupning	_	_	_	_	_	_	_	
+9-39	903-906	och	_	_	_	_	_	_	_	
+9-40	907-914	studier	_	_	_	_	_	_	_	
+9-41	914-915	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	917-918	#	_	_	_	_	_	_	_	
+10-2	918-919	P	_	_	_	_	_	_	_	
+10-3	920-923	IMM	_	_	_	_	_	_	_	
+10-4	923-924	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	926-929	Det	_	_	_	_	_	_	_	
+11-2	930-933	här	_	_	_	_	_	_	_	
+11-3	934-936	är	_	_	_	_	_	_	_	
+11-4	937-939	en	_	_	_	_	_	_	_	
+11-5	940-954	argumenterande	_	_	_	_	_	_	_	
+11-6	955-959	text	_	_	_	_	_	_	_	
+11-7	960-963	med	_	_	_	_	_	_	_	
+11-8	964-969	syfte	_	_	_	_	_	_	_	
+11-9	970-973	att	_	_	_	_	_	_	_	
+11-10	974-981	påverka	_	_	_	_	_	_	_	
+11-11	981-982	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	983-992	Åsikterna	_	_	_	_	_	_	_	
+12-2	993-996	som	_	_	_	_	_	_	_	
+12-3	997-1005	uttrycks	_	_	_	_	_	_	_	
+12-4	1006-1008	är	_	_	_	_	_	_	_	
+12-5	1009-1020	skribentens	_	_	_	_	_	_	_	
+12-6	1021-1025	egna	_	_	_	_	_	_	_	
+12-7	1025-1026	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	1028-1029	#	_	_	_	_	_	_	_	
+13-2	1029-1030	P	_	_	_	_	_	_	_	
+13-3	1031-1034	IMM	_	_	_	_	_	_	_	
+13-4	1034-1035	.	_	_	_	_	_	_	_	
+
+#Text=Människors förmåga och möjlighet att göra något av sin egen kraft och sitt eget liv är kanske det viktigaste måttet på ett samhälles rättfärdighet.
+14-1	1037-1047	Människors	_	_	_	_	_	_	_	
+14-2	1048-1055	förmåga	_	_	_	_	_	_	_	
+14-3	1056-1059	och	_	_	_	_	_	_	_	
+14-4	1060-1069	möjlighet	_	_	_	_	_	_	_	
+14-5	1070-1073	att	_	_	_	_	_	_	_	
+14-6	1074-1078	göra	_	_	_	_	_	_	_	
+14-7	1079-1084	något	_	_	_	_	_	_	_	
+14-8	1085-1087	av	_	_	_	_	_	_	_	
+14-9	1088-1091	sin	_	_	_	_	_	_	_	
+14-10	1092-1096	egen	_	_	_	_	_	_	_	
+14-11	1097-1102	kraft	_	_	_	_	_	_	_	
+14-12	1103-1106	och	_	_	_	_	_	_	_	
+14-13	1107-1111	sitt	_	_	_	_	_	_	_	
+14-14	1112-1116	eget	_	_	_	_	_	_	_	
+14-15	1117-1120	liv	_	_	_	_	_	_	_	
+14-16	1121-1123	är	_	_	_	_	_	_	_	
+14-17	1124-1130	kanske	_	_	_	_	_	_	_	
+14-18	1131-1134	det	_	_	_	_	_	_	_	
+14-19	1135-1145	viktigaste	_	Target	14-20	false	4	_	_	
+14-20	1146-1152	måttet	*	_	_	_	_	_	_	
+14-21	1153-1155	på	_	_	_	_	_	_	_	
+14-22	1156-1159	ett	_	_	_	_	_	_	_	
+14-23	1160-1169	samhälles	_	_	_	_	_	_	_	
+14-24	1170-1183	rättfärdighet	_	_	_	_	_	_	_	
+14-25	1183-1184	.	_	_	_	_	_	_	_	
+
+#Text=Få saker spelar större roll för det än skolan.
+15-1	1185-1187	Få	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-2	1188-1193	saker	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-3	1194-1200	spelar	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-4	1201-1207	större	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-5	1208-1212	roll	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-6	1213-1216	för	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-7	1217-1220	det	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-8	1221-1223	än	_	Target[7]	15-9	false[7]	4[7]	_	_	
+15-9	1224-1230	skolan	*	_	_	_	_	_	_	
+15-10	1230-1231	.	_	_	_	_	_	_	_	
+
+#Text=Kunskap och utbildning är rörelsen uppåt för alla.
+16-1	1232-1239	Kunskap	*[33]	_	_	_	_	_	_	
+16-2	1240-1243	och	*[33]	_	_	_	_	_	_	
+16-3	1244-1254	utbildning	*[33]	_	_	_	_	_	_	
+16-4	1255-1257	är	_	Target[8]	16-1[33]	false[8]	4[8]	_	_	
+16-5	1258-1266	rörelsen	_	Target[8]	16-1[33]	false[8]	4[8]	_	_	
+16-6	1267-1272	uppåt	_	Target[8]	16-1[33]	false[8]	4[8]	_	_	
+16-7	1273-1276	för	_	_	_	_	_	_	_	
+16-8	1277-1281	alla	_	_	_	_	_	_	_	
+16-9	1281-1282	.	_	_	_	_	_	_	_	
+
+#Text=Därför att förmågan att lära och tillgodogöra sig kunskaper finns hos alla, oavsett bakgrund.
+17-1	1283-1289	Därför	_	_	_	_	_	_	_	
+17-2	1290-1293	att	_	_	_	_	_	_	_	
+17-3	1294-1302	förmågan	_	_	_	_	_	_	_	
+17-4	1303-1306	att	_	_	_	_	_	_	_	
+17-5	1307-1311	lära	_	_	_	_	_	_	_	
+17-6	1312-1315	och	_	_	_	_	_	_	_	
+17-7	1316-1328	tillgodogöra	_	_	_	_	_	_	_	
+17-8	1329-1332	sig	_	_	_	_	_	_	_	
+17-9	1333-1342	kunskaper	_	_	_	_	_	_	_	
+17-10	1343-1348	finns	_	_	_	_	_	_	_	
+17-11	1349-1352	hos	_	_	_	_	_	_	_	
+17-12	1353-1357	alla	_	_	_	_	_	_	_	
+17-13	1357-1358	,	_	_	_	_	_	_	_	
+17-14	1359-1366	oavsett	_	_	_	_	_	_	_	
+17-15	1367-1375	bakgrund	_	_	_	_	_	_	_	
+17-16	1375-1376	.	_	_	_	_	_	_	_	
+
+#Text=Varje människa har olika förutsättningar att nå sina drömmar och mål.
+18-1	1377-1382	Varje	_	_	_	_	_	_	_	
+18-2	1383-1391	människa	_	_	_	_	_	_	_	
+18-3	1392-1395	har	_	_	_	_	_	_	_	
+18-4	1396-1401	olika	_	_	_	_	_	_	_	
+18-5	1402-1417	förutsättningar	_	_	_	_	_	_	_	
+18-6	1418-1421	att	_	_	_	_	_	_	_	
+18-7	1422-1424	nå	_	Target	18-9[35]	false	4	_	_	
+18-8	1425-1429	sina	*[34]	_	_	_	_	_	_	
+18-9	1430-1437	drömmar	*[34]|*[35]	_	_	_	_	_	19-13[0_35]	
+18-10	1438-1441	och	*[34]|*[35]	_	_	_	_	_	_	
+18-11	1442-1445	mål	*[34]|*[35]	_	_	_	_	_	_	
+18-12	1445-1446	.	_	_	_	_	_	_	_	
+
+#Text=Därför är politikens uppgift att skapa olika vägar och möjligheter att nå dit.
+19-1	1447-1453	Därför	_	_	_	_	_	_	_	
+19-2	1454-1456	är	_	_	_	_	_	_	_	
+19-3	1457-1467	politikens	_	_	_	_	_	_	_	
+19-4	1468-1475	uppgift	_	_	_	_	_	_	_	
+19-5	1476-1479	att	_	_	_	_	_	_	_	
+19-6	1480-1485	skapa	_	_	_	_	_	_	_	
+19-7	1486-1491	olika	_	_	_	_	_	_	_	
+19-8	1492-1497	vägar	_	_	_	_	_	_	_	
+19-9	1498-1501	och	_	_	_	_	_	_	_	
+19-10	1502-1513	möjligheter	_	_	_	_	_	_	_	
+19-11	1514-1517	att	_	_	_	_	_	_	_	
+19-12	1518-1520	nå	_	Target	19-13	false	4	_	_	
+19-13	1521-1524	dit	*	_	_	_	_	_	_	
+19-14	1524-1525	.	_	_	_	_	_	_	_	
+
+#Text=Skolan ska vara ett verktyg för elever att nå sina mål och får aldrig bli en återvändsgränd.
+20-1	1526-1532	Skolan	_	_	_	_	_	_	_	
+20-2	1533-1536	ska	_	_	_	_	_	_	_	
+20-3	1537-1541	vara	_	_	_	_	_	_	_	
+20-4	1542-1545	ett	_	_	_	_	_	_	_	
+20-5	1546-1553	verktyg	_	_	_	_	_	_	_	
+20-6	1554-1557	för	_	_	_	_	_	_	_	
+20-7	1558-1564	elever	_	_	_	_	_	_	_	
+20-8	1565-1568	att	_	_	_	_	_	_	_	
+20-9	1569-1571	nå	_	Target	20-10[36]	false	4	_	_	
+20-10	1572-1576	sina	*[36]	_	_	_	_	_	_	
+20-11	1577-1580	mål	*[36]	_	_	_	_	_	_	
+20-12	1581-1584	och	_	_	_	_	_	_	_	
+20-13	1585-1588	får	_	Target[9]	20-16[37]	false[9]	2[9]	_	_	
+20-14	1589-1595	aldrig	_	Target[9]	20-16[37]	false[9]	2[9]	_	_	
+20-15	1596-1599	bli	_	Target[9]	20-16[37]	false[9]	2[9]	_	_	
+20-16	1600-1602	en	*[37]	_	_	_	_	_	_	
+20-17	1603-1617	återvändsgränd	*[37]	_	_	_	_	_	_	
+20-18	1617-1618	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1620-1621	#	_	_	_	_	_	_	_	
+21-2	1621-1622	P	_	_	_	_	_	_	_	
+21-3	1623-1626	IMM	_	_	_	_	_	_	_	
+21-4	1626-1627	.	_	_	_	_	_	_	_	
+
+#Text=För det första anser Alliansen fortsatt att grundläggande högskolebehörighet ska vara tillgängligt på alla yrkesprogram.
+22-1	1629-1632	För	_	_	_	_	_	_	_	
+22-2	1633-1636	det	_	_	_	_	_	_	_	
+22-3	1637-1643	första	_	_	_	_	_	_	_	
+22-4	1644-1649	anser	_	_	_	_	_	_	_	
+22-5	1650-1659	Alliansen	_	_	_	_	_	_	_	
+22-6	1660-1668	fortsatt	_	_	_	_	_	_	_	
+22-7	1669-1672	att	_	_	_	_	_	_	_	
+22-8	1673-1686	grundläggande	_	_	_	_	_	_	_	
+22-9	1687-1705	högskolebehörighet	_	_	_	_	_	_	_	
+22-10	1706-1709	ska	_	_	_	_	_	_	_	
+22-11	1710-1714	vara	_	_	_	_	_	_	_	
+22-12	1715-1727	tillgängligt	_	_	_	_	_	_	_	
+22-13	1728-1730	på	_	_	_	_	_	_	_	
+22-14	1731-1735	alla	_	_	_	_	_	_	_	
+22-15	1736-1748	yrkesprogram	_	_	_	_	_	_	_	
+22-16	1748-1749	.	_	_	_	_	_	_	_	
+
+#Text=Men det förslag som regeringen har lagt fram, och som debattörerna förespråkar, innebär att yrkesprogrammen blir avsevärt mycket längre än de högskoleförberedande och att alla ska läsa ett obligatoriskt estetiskt ämne.
+23-1	1750-1753	Men	_	_	_	_	_	_	_	
+23-2	1754-1757	det	*[38]	_	_	_	_	_	_	
+23-3	1758-1765	förslag	*[38]	_	_	_	_	_	_	
+23-4	1766-1769	som	*[38]	_	_	_	_	_	_	
+23-5	1770-1780	regeringen	*[38]	_	_	_	_	_	_	
+23-6	1781-1784	har	*[38]	_	_	_	_	_	_	
+23-7	1785-1789	lagt	*[38]	_	_	_	_	_	_	
+23-8	1790-1794	fram	*[38]	_	_	_	_	_	_	
+23-9	1794-1795	,	_	_	_	_	_	_	_	
+23-10	1796-1799	och	_	_	_	_	_	_	_	
+23-11	1800-1803	som	_	_	_	_	_	_	_	
+23-12	1804-1816	debattörerna	*	_	_	_	_	_	_	
+23-13	1817-1828	förespråkar	_	Source;Target	23-12;23-2[38]	false	4	_	_	
+23-14	1828-1829	,	_	_	_	_	_	_	_	
+23-15	1830-1837	innebär	_	_	_	_	_	_	_	
+23-16	1838-1841	att	_	_	_	_	_	_	_	
+23-17	1842-1857	yrkesprogrammen	_	_	_	_	_	_	_	
+23-18	1858-1862	blir	_	_	_	_	_	_	_	
+23-19	1863-1871	avsevärt	_	Target	23-20[39]	false	2	_	_	
+23-20	1872-1878	mycket	*[39]	_	_	_	_	_	_	
+23-21	1879-1885	längre	*[39]	_	_	_	_	_	_	
+23-22	1886-1888	än	*[39]	_	_	_	_	_	_	
+23-23	1889-1891	de	*[39]	_	_	_	_	_	_	
+23-24	1892-1912	högskoleförberedande	*[39]	_	_	_	_	_	_	
+23-25	1913-1916	och	_	_	_	_	_	_	_	
+23-26	1917-1920	att	_	_	_	_	_	_	_	
+23-27	1921-1925	alla	_	_	_	_	_	_	_	
+23-28	1926-1929	ska	_	_	_	_	_	_	_	
+23-29	1930-1934	läsa	_	_	_	_	_	_	_	
+23-30	1935-1938	ett	_	_	_	_	_	_	_	
+23-31	1939-1952	obligatoriskt	_	_	_	_	_	_	_	
+23-32	1953-1962	estetiskt	_	_	_	_	_	_	_	
+23-33	1963-1967	ämne	_	_	_	_	_	_	_	
+23-34	1967-1968	.	_	_	_	_	_	_	_	
+
+#Text=Som förlaget är konstruerat riskerar det snarare att avskräcka elever från att välja yrkesprogram.
+24-1	1969-1972	Som	_	_	_	_	_	_	_	
+24-2	1973-1981	förlaget	_	_	_	_	_	_	_	
+24-3	1982-1984	är	_	_	_	_	_	_	_	
+24-4	1985-1996	konstruerat	_	_	_	_	_	_	_	
+24-5	1997-2005	riskerar	_	Target	24-8[40]	false	2	_	_	
+24-6	2006-2009	det	_	_	_	_	_	_	_	
+24-7	2010-2017	snarare	_	_	_	_	_	_	_	
+24-8	2018-2021	att	*[40]	_	_	_	_	_	_	
+24-9	2022-2031	avskräcka	*[40]	Target	24-14[41]	false	2	_	_	
+24-10	2032-2038	elever	*[40]	_	_	_	_	_	_	
+24-11	2039-2043	från	*[40]	_	_	_	_	_	_	
+24-12	2044-2047	att	*[40]	_	_	_	_	_	_	
+24-13	2048-2053	välja	*[40]	_	_	_	_	_	_	
+24-14	2054-2066	yrkesprogram	*[40]|*[41]	_	_	_	_	_	_	
+24-15	2066-2067	.	_	_	_	_	_	_	_	
+
+#Text=En annan brist i regeringens förslag är att det bygger in en påtaglig risk för håltimmar i elevernas scheman, vilket all forskning och erfarenhet visar ökar risken för frånvaro.
+25-1	2068-2070	En	*[42]	_	_	_	_	_	_	
+25-2	2071-2076	annan	*[42]	_	_	_	_	_	_	
+25-3	2077-2082	brist	*[42]	Target	25-8[43]	false	2	_	_	
+25-4	2083-2084	i	*[42]	_	_	_	_	_	_	
+25-5	2085-2096	regeringens	*[42]	_	_	_	_	_	_	
+25-6	2097-2104	förslag	*[42]	_	_	_	_	_	_	
+25-7	2105-2107	är	_	_	_	false	2	25-3	_	
+25-8	2108-2111	att	*[43]	_	_	_	_	_	_	
+25-9	2112-2115	det	*[43]	_	_	_	_	_	_	
+25-10	2116-2122	bygger	*[43]	_	_	_	_	_	_	
+25-11	2123-2125	in	*[43]	_	_	_	_	_	_	
+25-12	2126-2128	en	*[43]	_	_	_	_	_	_	
+25-13	2129-2137	påtaglig	*[43]	Target[10]	25-16[44]	false[10]	2[10]	_	_	
+25-14	2138-2142	risk	*[43]	Target[10]	25-16[44]	false[10]	2[10]	_	_	
+25-15	2143-2146	för	*[43]	_	_	_	_	_	_	
+25-16	2147-2156	håltimmar	*[43]|*[44]	_	_	_	_	_	_	
+25-17	2157-2158	i	*[43]	_	_	_	_	_	_	
+25-18	2159-2168	elevernas	*[43]	_	_	_	_	_	_	
+25-19	2169-2176	scheman	*[43]	_	_	_	_	_	_	
+25-20	2176-2177	,	*[43]	_	_	_	_	_	_	
+25-21	2178-2184	vilket	*[43]	_	_	_	_	_	_	
+25-22	2185-2188	all	*[43]	_	_	_	_	_	_	
+25-23	2189-2198	forskning	*[43]	_	_	_	_	_	_	
+25-24	2199-2202	och	*[43]	_	_	_	_	_	_	
+25-25	2203-2213	erfarenhet	*[43]	_	_	_	_	_	_	
+25-26	2214-2219	visar	*[43]	_	_	_	_	_	_	
+25-27	2220-2224	ökar	*[43]	Target[11]	25-1[42]	false[11]	2[11]	_	_	
+25-28	2225-2231	risken	*[43]	Target[11]|Target[12]	25-1[42]|25-30[45]	false[11]|false[12]	2[11]|2[12]	_	_	
+25-29	2232-2235	för	*[43]	Target[11]	25-1[42]	false[11]	2[11]	_	_	
+25-30	2236-2244	frånvaro	*[43]|*[45]	Target[11]	25-1[42]	false[11]	2[11]	_	_	
+25-31	2244-2245	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2247-2248	#	_	_	_	_	_	_	_	
+26-2	2248-2249	P	_	_	_	_	_	_	_	
+26-3	2250-2253	IMM	_	_	_	_	_	_	_	
+26-4	2253-2254	.	_	_	_	_	_	_	_	
+
+#Text=Vi har i stället tagit ett helhetsgrepp om yrkesutbildningarna och presenterat flera förslag för att stärka dem.
+27-1	2256-2258	Vi	_	_	_	_	_	_	_	
+27-2	2259-2262	har	_	_	_	_	_	_	_	
+27-3	2263-2264	i	_	_	_	_	_	_	_	
+27-4	2265-2272	stället	_	_	_	_	_	_	_	
+27-5	2273-2278	tagit	_	_	_	_	_	_	_	
+27-6	2279-2282	ett	_	_	_	_	_	_	_	
+27-7	2283-2295	helhetsgrepp	_	_	_	_	_	_	_	
+27-8	2296-2298	om	_	_	_	_	_	_	_	
+27-9	2299-2318	yrkesutbildningarna	_	_	_	_	_	_	_	
+27-10	2319-2322	och	_	_	_	_	_	_	_	
+27-11	2323-2334	presenterat	_	_	_	_	_	_	_	
+27-12	2335-2340	flera	_	_	_	_	_	_	_	
+27-13	2341-2348	förslag	_	_	_	_	_	_	_	
+27-14	2349-2352	för	_	_	_	_	_	_	_	
+27-15	2353-2356	att	_	_	_	_	_	_	_	
+27-16	2357-2363	stärka	_	_	_	_	_	_	_	
+27-17	2364-2367	dem	_	_	_	_	_	_	_	
+27-18	2367-2368	.	_	_	_	_	_	_	_	
+
+#Text=Alla som vill ska alltid kunna välja till de ämnen som krävs för högskolebehörighet, och det är rektorns som ska vara ansvarig för att det fungerar på ett bra sätt med elevens övriga schema.
+28-1	2369-2373	Alla	_	_	_	_	_	_	_	
+28-2	2374-2377	som	_	_	_	_	_	_	_	
+28-3	2378-2382	vill	_	_	_	_	_	_	_	
+28-4	2383-2386	ska	_	_	_	_	_	_	_	
+28-5	2387-2393	alltid	_	_	_	_	_	_	_	
+28-6	2394-2399	kunna	_	_	_	_	_	_	_	
+28-7	2400-2405	välja	_	_	_	_	_	_	_	
+28-8	2406-2410	till	_	_	_	_	_	_	_	
+28-9	2411-2413	de	_	_	_	_	_	_	_	
+28-10	2414-2419	ämnen	_	_	_	_	_	_	_	
+28-11	2420-2423	som	_	_	_	_	_	_	_	
+28-12	2424-2429	krävs	_	_	_	_	_	_	_	
+28-13	2430-2433	för	_	_	_	_	_	_	_	
+28-14	2434-2452	högskolebehörighet	_	_	_	_	_	_	_	
+28-15	2452-2453	,	_	_	_	_	_	_	_	
+28-16	2454-2457	och	_	_	_	_	_	_	_	
+28-17	2458-2461	det	_	_	_	_	_	_	_	
+28-18	2462-2464	är	_	_	_	_	_	_	_	
+28-19	2465-2473	rektorns	_	_	_	_	_	_	_	
+28-20	2474-2477	som	_	_	_	_	_	_	_	
+28-21	2478-2481	ska	_	_	_	_	_	_	_	
+28-22	2482-2486	vara	_	_	_	_	_	_	_	
+28-23	2487-2495	ansvarig	_	_	_	_	_	_	_	
+28-24	2496-2499	för	_	_	_	_	_	_	_	
+28-25	2500-2503	att	_	_	_	_	_	_	_	
+28-26	2504-2507	det	_	_	_	_	_	_	_	
+28-27	2508-2516	fungerar	_	_	_	_	_	_	_	
+28-28	2517-2519	på	_	_	_	_	_	_	_	
+28-29	2520-2523	ett	_	_	_	_	_	_	_	
+28-30	2524-2527	bra	_	_	_	_	_	_	_	
+28-31	2528-2532	sätt	_	_	_	_	_	_	_	
+28-32	2533-2536	med	_	_	_	_	_	_	_	
+28-33	2537-2544	elevens	_	_	_	_	_	_	_	
+28-34	2545-2551	övriga	_	_	_	_	_	_	_	
+28-35	2552-2558	schema	_	_	_	_	_	_	_	
+28-36	2558-2559	.	_	_	_	_	_	_	_	
+
+#Text=Men vi vill också utveckla studie- och yrkesvägledningen, satsa på yrkescollege och lärlingsutbildningar och starta en ny tvåårig yrkesskola för många av dem som i dag står utanför gymnasiet.
+29-1	2560-2563	Men	_	_	_	_	_	_	_	
+29-2	2564-2566	vi	_	_	_	_	_	_	_	
+29-3	2567-2571	vill	_	_	_	_	_	_	_	
+29-4	2572-2577	också	_	_	_	_	_	_	_	
+29-5	2578-2586	utveckla	_	_	_	false	4	_	_	
+29-6	2587-2593	studie	_	_[13]	_	false[13]	4[13]	_	_	
+29-7	2593-2594	-	_	_[13]	_	false[13]	4[13]	_	_	
+29-8	2595-2598	och	_	_[13]	_	false[13]	4[13]	_	_	
+29-9	2599-2616	yrkesvägledningen	_	_[13]	_	false[13]	4[13]	_	_	
+29-10	2616-2617	,	_	_	_	_	_	_	_	
+29-11	2618-2623	satsa	_	Target[14]	29-13[46]	false[14]	4[14]	_	_	
+29-12	2624-2626	på	_	Target[14]	29-13[46]	false[14]	4[14]	_	_	
+29-13	2627-2639	yrkescollege	*[46]	_	_	_	_	_	_	
+29-14	2640-2643	och	*[46]	_	_	_	_	_	_	
+29-15	2644-2664	lärlingsutbildningar	*[46]	_	_	_	_	_	_	
+29-16	2665-2668	och	_	_	_	_	_	_	_	
+29-17	2669-2675	starta	_	_	_	_	_	_	_	
+29-18	2676-2678	en	_	_	_	_	_	_	_	
+29-19	2679-2681	ny	_	_	_	_	_	_	_	
+29-20	2682-2689	tvåårig	_	_	_	_	_	_	_	
+29-21	2690-2700	yrkesskola	_	_	_	_	_	_	_	
+29-22	2701-2704	för	_	_	_	_	_	_	_	
+29-23	2705-2710	många	_	_	_	_	_	_	_	
+29-24	2711-2713	av	_	_	_	_	_	_	_	
+29-25	2714-2717	dem	_	_	_	_	_	_	_	
+29-26	2718-2721	som	_	_	_	_	_	_	_	
+29-27	2722-2723	i	_	_	_	_	_	_	_	
+29-28	2724-2727	dag	_	_	_	_	_	_	_	
+29-29	2728-2732	står	_	_	_	_	_	_	_	
+29-30	2733-2740	utanför	_	_	_	_	_	_	_	
+29-31	2741-2750	gymnasiet	_	_	_	_	_	_	_	
+29-32	2750-2751	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2753-2754	#	_	_	_	_	_	_	_	
+30-2	2754-2755	P	_	_	_	_	_	_	_	
+30-3	2756-2759	IMM	_	_	_	_	_	_	_	
+30-4	2759-2760	.	_	_	_	_	_	_	_	
+
+#Text=För det andra har gymnasiets introduktionsprogram blivit just en återvändsgränd.
+31-1	2762-2765	För	_	_	_	_	_	_	_	
+31-2	2766-2769	det	_	_	_	_	_	_	_	
+31-3	2770-2775	andra	_	_	_	_	_	_	_	
+31-4	2776-2779	har	_	_	_	_	_	_	_	
+31-5	2780-2790	gymnasiets	*[47]	_	_	_	_	_	_	
+31-6	2791-2811	introduktionsprogram	*[47]	_	_	_	_	_	_	
+31-7	2812-2818	blivit	_	_	_	false	2	_	_	
+31-8	2819-2823	just	_	_	_	_	_	_	_	
+31-9	2824-2826	en	_	Target[15]	31-5[47]	false[15]	2[15]	31-7[0_15]	_	
+31-10	2827-2841	återvändsgränd	_	Target[15]	31-5[47]	false[15]	2[15]	_	_	
+31-11	2841-2842	.	_	_	_	_	_	_	_	
+
+#Text=Här samlas en nära femtedel av niondeklassarna som inte har fullständiga betyg och inte kan studera vidare på något av de nationella gymnasieprogrammen.
+32-1	2843-2846	Här	_	_	_	_	_	_	_	
+32-2	2847-2853	samlas	_	_	_	_	_	_	_	
+32-3	2854-2856	en	_	_	_	_	_	_	_	
+32-4	2857-2861	nära	_	_	_	_	_	_	_	
+32-5	2862-2870	femtedel	_	_	_	_	_	_	_	
+32-6	2871-2873	av	_	_	_	_	_	_	_	
+32-7	2874-2889	niondeklassarna	_	_	_	_	_	_	_	
+32-8	2890-2893	som	_	_	_	_	_	_	_	
+32-9	2894-2898	inte	_	_	_	_	_	_	_	
+32-10	2899-2902	har	_	_	_	_	_	_	_	
+32-11	2903-2915	fullständiga	_	_	_	_	_	_	_	
+32-12	2916-2921	betyg	_	_	_	_	_	_	_	
+32-13	2922-2925	och	_	_	_	_	_	_	_	
+32-14	2926-2930	inte	_	_	_	_	_	_	_	
+32-15	2931-2934	kan	_	_	_	_	_	_	_	
+32-16	2935-2942	studera	_	_	_	_	_	_	_	
+32-17	2943-2949	vidare	_	_	_	_	_	_	_	
+32-18	2950-2952	på	_	_	_	_	_	_	_	
+32-19	2953-2958	något	_	_	_	_	_	_	_	
+32-20	2959-2961	av	_	_	_	_	_	_	_	
+32-21	2962-2964	de	_	_	_	_	_	_	_	
+32-22	2965-2975	nationella	_	_	_	_	_	_	_	
+32-23	2976-2994	gymnasieprogrammen	_	_	_	_	_	_	_	
+32-24	2994-2995	.	_	_	_	_	_	_	_	
+
+#Text=I dag är språkintroduktionen det fjärde största programmet som tyvärr dras med stora problem.
+33-1	2996-2997	I	_	_	_	_	_	_	_	
+33-2	2998-3001	dag	_	_	_	_	_	_	_	
+33-3	3002-3004	är	_	_	_	_	_	_	_	
+33-4	3005-3024	språkintroduktionen	*	_	_	_	_	_	_	
+33-5	3025-3028	det	_	_	_	_	_	_	_	
+33-6	3029-3035	fjärde	_	_	_	_	_	_	_	
+33-7	3036-3043	största	_	_	_	_	_	_	_	
+33-8	3044-3054	programmet	_	_	_	_	_	_	_	
+33-9	3055-3058	som	_	_	_	_	_	_	_	
+33-10	3059-3065	tyvärr	_	Target[16]	33-13[48]	false[16]	2[16]	_	_	
+33-11	3066-3070	dras	_	Target[16]	33-13[48]	false[16]	2[16]	_	_	
+33-12	3071-3074	med	_	Target[16]	33-13[48]	false[16]	2[16]	_	_	
+33-13	3075-3080	stora	*[48]	Target[17]	33-4	false[17]	2[17]	_	_	
+33-14	3081-3088	problem	*[48]	Target[17]	33-4	false[17]	2[17]	_	_	
+33-15	3088-3089	.	_	_	_	_	_	_	_	
+
+#Text=Enligt Skolverkets siffror från 2016 går endast en av tre elever vidare till ett nationellt gymnasieprogram tre år efter att de började på språkintroduktion.
+34-1	3090-3096	Enligt	_	_	_	_	_	_	_	
+34-2	3097-3108	Skolverkets	_	_	_	_	_	_	_	
+34-3	3109-3116	siffror	_	_	_	_	_	_	_	
+34-4	3117-3121	från	_	_	_	_	_	_	_	
+34-5	3122-3126	2016	_	_	_	_	_	_	_	
+34-6	3127-3130	går	_	Target[18]	34-8[49]	false[18]	2[18]	_	_	
+34-7	3131-3137	endast	_	Target[18]	34-8[49]	false[18]	2[18]	_	_	
+34-8	3138-3140	en	*[49]	_	_	_	_	_	_	
+34-9	3141-3143	av	*[49]	_	_	_	_	_	_	
+34-10	3144-3147	tre	*[49]	_	_	_	_	_	_	
+34-11	3148-3154	elever	*[49]	_	_	_	_	_	_	
+34-12	3155-3161	vidare	*[49]	_	_	_	_	_	_	
+34-13	3162-3166	till	*[49]	_	_	_	_	_	_	
+34-14	3167-3170	ett	*[49]	_	_	_	_	_	_	
+34-15	3171-3181	nationellt	*[49]	_	_	_	_	_	_	
+34-16	3182-3197	gymnasieprogram	*[49]	_	_	_	_	_	_	
+34-17	3198-3201	tre	*[49]	_	_	_	_	_	_	
+34-18	3202-3204	år	*[49]	_	_	_	_	_	_	
+34-19	3205-3210	efter	*[49]	_	_	_	_	_	_	
+34-20	3211-3214	att	*[49]	_	_	_	_	_	_	
+34-21	3215-3217	de	*[49]	_	_	_	_	_	_	
+34-22	3218-3225	började	*[49]	_	_	_	_	_	_	
+34-23	3226-3228	på	*[49]	_	_	_	_	_	_	
+34-24	3229-3246	språkintroduktion	*[49]	_	_	_	_	_	_	
+34-25	3246-3247	.	_	_	_	_	_	_	_	
+
+#Text=Nästan hälften hade slutat gå på gymnasiet helt och hållet och återvändsgränden är ett faktum.
+35-1	3248-3254	Nästan	*[50]	_	_	_	_	_	_	
+35-2	3255-3262	hälften	*[50]	_	_	_	_	_	_	
+35-3	3263-3267	hade	*[50]	_	_	_	_	_	_	
+35-4	3268-3274	slutat	*[50]	_	_	_	_	_	_	
+35-5	3275-3277	gå	*[50]	_	_	_	_	_	_	
+35-6	3278-3280	på	*[50]	_	_	_	_	_	_	
+35-7	3281-3290	gymnasiet	*[50]	_	_	_	_	_	_	
+35-8	3291-3295	helt	*[50]	_	_	_	_	_	_	
+35-9	3296-3299	och	*[50]	_	_	_	_	_	_	
+35-10	3300-3306	hållet	*[50]	_	_	_	_	_	_	
+35-11	3307-3310	och	_	_	_	_	_	_	_	
+35-12	3311-3327	återvändsgränden	_	Target[19]	35-1[50]	false[19]	2[19]	_	_	
+35-13	3328-3330	är	_	Target[19]	35-1[50]	false[19]	2[19]	_	_	
+35-14	3331-3334	ett	_	Target[19]	35-1[50]	false[19]	2[19]	_	_	
+35-15	3335-3341	faktum	_	Target[19]	35-1[50]	false[19]	2[19]	_	_	
+35-16	3341-3342	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3344-3345	#	_	_	_	_	_	_	_	
+36-2	3345-3346	P	_	_	_	_	_	_	_	
+36-3	3347-3350	IMM	_	_	_	_	_	_	_	
+36-4	3350-3351	.	_	_	_	_	_	_	_	
+
+#Text=Och för det tredje kan denna återvändsgränd byggas bort med en tvåårig yrkesskola där fokus ligger på yrkesämnen och, för nyanlända, svenska.
+37-1	3353-3356	Och	_	_	_	_	_	_	_	
+37-2	3357-3360	för	_	_	_	_	_	_	_	
+37-3	3361-3364	det	_	_	_	_	_	_	_	
+37-4	3365-3371	tredje	_	_	_	_	_	_	_	
+37-5	3372-3375	kan	_	_	_	_	_	_	_	
+37-6	3376-3381	denna	*[51]	_	_	_	_	_	_	
+37-7	3382-3396	återvändsgränd	*[51]	_	_	_	_	_	_	
+37-8	3397-3403	byggas	_	Target[20]|Target[21]	37-6[51]|37-11[52]	false[20]|false[21]	2[20]|4[21]	_	_	
+37-9	3404-3408	bort	_	Target[20]|Target[21]	37-6[51]|37-11[52]	false[20]|false[21]	2[20]|4[21]	_	_	
+37-10	3409-3412	med	_	_	_	_	_	_	_	
+37-11	3413-3415	en	*[52]	_	_	_	_	_	_	
+37-12	3416-3423	tvåårig	*[52]	_	_	_	_	_	_	
+37-13	3424-3434	yrkesskola	*[52]	_	_	_	_	_	_	
+37-14	3435-3438	där	*[52]	_	_	_	_	_	_	
+37-15	3439-3444	fokus	*[52]	_	_	_	_	_	_	
+37-16	3445-3451	ligger	*[52]	_	_	_	_	_	_	
+37-17	3452-3454	på	*[52]	_	_	_	_	_	_	
+37-18	3455-3465	yrkesämnen	*[52]	_	_	_	_	_	_	
+37-19	3466-3469	och	_	_	_	_	_	_	_	
+37-20	3469-3470	,	_	_	_	_	_	_	_	
+37-21	3471-3474	för	_	_	_	_	_	_	_	
+37-22	3475-3484	nyanlända	_	_	_	_	_	_	_	
+37-23	3484-3485	,	_	_	_	_	_	_	_	
+37-24	3486-3493	svenska	_	_	_	_	_	_	_	
+37-25	3493-3494	.	_	_	_	_	_	_	_	
+
+#Text=Målsättningen är att eleven, efter utbildning och eventuell lärlingsanställning, ska vara tillräckligt rustad för en god etablering på arbetsmarknaden.
+38-1	3495-3508	Målsättningen	_	_	_	_	_	_	_	
+38-2	3509-3511	är	_	_	_	_	_	_	_	
+38-3	3512-3515	att	_	_	_	_	_	_	_	
+38-4	3516-3522	eleven	_	_	_	_	_	_	_	
+38-5	3522-3523	,	_	_	_	_	_	_	_	
+38-6	3524-3529	efter	_	_	_	_	_	_	_	
+38-7	3530-3540	utbildning	_	_	_	_	_	_	_	
+38-8	3541-3544	och	_	_	_	_	_	_	_	
+38-9	3545-3554	eventuell	_	_	_	_	_	_	_	
+38-10	3555-3574	lärlingsanställning	_	_	_	_	_	_	_	
+38-11	3574-3575	,	_	_	_	_	_	_	_	
+38-12	3576-3579	ska	_	_	_	_	_	_	_	
+38-13	3580-3584	vara	_	_	_	_	_	_	_	
+38-14	3585-3597	tillräckligt	_	_	_	_	_	_	_	
+38-15	3598-3604	rustad	_	_	_	_	_	_	_	
+38-16	3605-3608	för	_	_	_	_	_	_	_	
+38-17	3609-3611	en	_	_	_	_	_	_	_	
+38-18	3612-3615	god	_	_	_	_	_	_	_	
+38-19	3616-3626	etablering	_	_	_	_	_	_	_	
+38-20	3627-3629	på	_	_	_	_	_	_	_	
+38-21	3630-3645	arbetsmarknaden	_	_	_	_	_	_	_	
+38-22	3645-3646	.	_	_	_	_	_	_	_	
+
+#Text=Det ska alltid gå att välja till kurser för att uppnå gymnasiebehörighet och, om man blir behörig, växla över till ett nationellt yrkesprogram.
+39-1	3647-3650	Det	_	_	_	_	_	_	_	
+39-2	3651-3654	ska	_	_	_	_	_	_	_	
+39-3	3655-3661	alltid	_	_	_	_	_	_	_	
+39-4	3662-3664	gå	_	_	_	_	_	_	_	
+39-5	3665-3668	att	_	_	_	_	_	_	_	
+39-6	3669-3674	välja	_	_	_	_	_	_	_	
+39-7	3675-3679	till	_	_	_	_	_	_	_	
+39-8	3680-3686	kurser	_	_	_	_	_	_	_	
+39-9	3687-3690	för	_	_	_	_	_	_	_	
+39-10	3691-3694	att	_	_	_	_	_	_	_	
+39-11	3695-3700	uppnå	_	_	_	_	_	_	_	
+39-12	3701-3719	gymnasiebehörighet	_	_	_	_	_	_	_	
+39-13	3720-3723	och	_	_	_	_	_	_	_	
+39-14	3723-3724	,	_	_	_	_	_	_	_	
+39-15	3725-3727	om	_	_	_	_	_	_	_	
+39-16	3728-3731	man	_	_	_	_	_	_	_	
+39-17	3732-3736	blir	_	_	_	_	_	_	_	
+39-18	3737-3744	behörig	_	_	_	_	_	_	_	
+39-19	3744-3745	,	_	_	_	_	_	_	_	
+39-20	3746-3751	växla	_	_	_	_	_	_	_	
+39-21	3752-3756	över	_	_	_	_	_	_	_	
+39-22	3757-3761	till	_	_	_	_	_	_	_	
+39-23	3762-3765	ett	_	_	_	_	_	_	_	
+39-24	3766-3776	nationellt	_	_	_	_	_	_	_	
+39-25	3777-3789	yrkesprogram	_	_	_	_	_	_	_	
+39-26	3789-3790	.	_	_	_	_	_	_	_	
+
+#Text=På detta sätt blir den nya tvååriga yrkesskolan både en första väg in i ett yrke och en brygga till vidare fördjupning och studier.
+40-1	3791-3793	På	_	_	_	_	_	_	_	
+40-2	3794-3799	detta	_	_	_	_	_	_	_	
+40-3	3800-3804	sätt	_	_	_	_	_	_	_	
+40-4	3805-3809	blir	_	_	_	_	_	_	_	
+40-5	3810-3813	den	_	_	_	_	_	_	_	
+40-6	3814-3817	nya	_	_	_	_	_	_	_	
+40-7	3818-3826	tvååriga	_	_	_	_	_	_	_	
+40-8	3827-3838	yrkesskolan	_	_	_	_	_	_	_	
+40-9	3839-3843	både	_	_	_	_	_	_	_	
+40-10	3844-3846	en	_	_	_	_	_	_	_	
+40-11	3847-3853	första	_	_	_	_	_	_	_	
+40-12	3854-3857	väg	_	_	_	_	_	_	_	
+40-13	3858-3860	in	_	_	_	_	_	_	_	
+40-14	3861-3862	i	_	_	_	_	_	_	_	
+40-15	3863-3866	ett	_	_	_	_	_	_	_	
+40-16	3867-3871	yrke	_	_	_	_	_	_	_	
+40-17	3872-3875	och	_	_	_	_	_	_	_	
+40-18	3876-3878	en	_	_	_	_	_	_	_	
+40-19	3879-3885	brygga	_	Target	40-21[53]	false	4	_	_	
+40-20	3886-3890	till	_	_	_	_	_	_	_	
+40-21	3891-3897	vidare	*[53]	_	_	_	_	_	_	
+40-22	3898-3909	fördjupning	*[53]	_	_	_	_	_	_	
+40-23	3910-3913	och	*[53]	_	_	_	_	_	_	
+40-24	3914-3921	studier	*[53]	_	_	_	_	_	_	
+40-25	3921-3922	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3924-3925	#	_	_	_	_	_	_	_	
+41-2	3925-3926	P	_	_	_	_	_	_	_	
+41-3	3927-3930	IMM	_	_	_	_	_	_	_	
+41-4	3930-3931	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+42-1	3933-3946	Skräddarsydda	_	_	_	_	_	_	_	
+42-2	3947-3953	kurser	_	_	_	_	_	_	_	
+42-3	3954-3955	i	_	_	_	_	_	_	_	
+42-4	3956-3961	ämnen	_	_	_	_	_	_	_	
+42-5	3962-3965	som	_	_	_	_	_	_	_	
+42-6	3966-3977	intresserar	_	_	_	_	_	_	_	
+42-7	3978-3981	och	_	_	_	_	_	_	_	
+42-8	3982-3991	engagerar	_	_	_	_	_	_	_	
+42-9	3992-3996	både	_	_	_	_	_	_	_	
+42-10	3997-4002	kropp	_	_	_	_	_	_	_	
+42-11	4003-4006	och	_	_	_	_	_	_	_	
+42-12	4007-4011	själ	_	_	_	_	_	_	_	
+42-13	4011-4012	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	4014-4015	#	_	_	_	_	_	_	_	
+43-2	4015-4016	P	_	_	_	_	_	_	_	
+43-3	4017-4020	IMM	_	_	_	_	_	_	_	
+43-4	4020-4021	.	_	_	_	_	_	_	_	
+
+#Text=I dag slås tusentals elever ut ur introduktionsprogrammen och därmed gymnasieskolan, för att bara sedan ett par år senare skaffa sig en yrkesutbildning genom vuxenutbildningen.
+44-1	4023-4024	I	*[54]|*[55]	_	_	_	_	_	45-1[57_54]|45-1[58_54]	
+44-2	4025-4028	dag	*[54]|*[55]	_	_	_	_	_	_	
+44-3	4029-4033	slås	*[54]|*[55]	_	_	false	2	_	_	
+44-4	4034-4043	tusentals	*[54]|*[55]	_	_	_	_	_	_	
+44-5	4044-4050	elever	*[54]|*[55]	_	_	_	_	_	_	
+44-6	4051-4053	ut	*[54]|*[55]	Target	44-8[56]	false	2	44-3	_	
+44-7	4054-4056	ur	*[54]|*[55]	_	_	_	_	_	_	
+44-8	4057-4080	introduktionsprogrammen	*[54]|*[55]|*[56]	_	_	_	_	_	_	
+44-9	4081-4084	och	*[54]|*[55]	_	_	_	_	_	_	
+44-10	4085-4091	därmed	*[54]|*[55]	_	_	_	_	_	_	
+44-11	4092-4106	gymnasieskolan	*[54]|*[55]	_	_	_	_	_	_	
+44-12	4106-4107	,	*[54]|*[55]	_	_	_	_	_	_	
+44-13	4108-4111	för	*[54]|*[55]	_	_	_	_	_	_	
+44-14	4112-4115	att	*[54]|*[55]	_	_	_	_	_	_	
+44-15	4116-4120	bara	*[54]|*[55]	_	_	_	_	_	_	
+44-16	4121-4126	sedan	*[54]|*[55]	_	_	_	_	_	_	
+44-17	4127-4130	ett	*[54]|*[55]	_	_	_	_	_	_	
+44-18	4131-4134	par	*[54]|*[55]	_	_	_	_	_	_	
+44-19	4135-4137	år	*[54]|*[55]	_	_	_	_	_	_	
+44-20	4138-4144	senare	*[54]|*[55]	_	_	_	_	_	_	
+44-21	4145-4151	skaffa	*[54]|*[55]	_	_	_	_	_	_	
+44-22	4152-4155	sig	*[54]|*[55]	_	_	_	_	_	_	
+44-23	4156-4158	en	*[54]|*[55]	_	_	_	_	_	_	
+44-24	4159-4174	yrkesutbildning	*[54]|*[55]	_	_	_	_	_	_	
+44-25	4175-4180	genom	*[54]|*[55]	_	_	_	_	_	_	
+44-26	4181-4198	vuxenutbildningen	*[54]|*[55]	_	_	_	_	_	_	
+44-27	4198-4199	.	_	_	_	_	_	_	_	
+
+#Text=Det medför ett slöseri med tid och resurser, bryter ner unga människors framtidstro samtidigt som det både i näringslivet och i offentlig sektor råder stora brister på arbetskraft.
+45-1	4200-4203	Det	*[57]|*[58]	_	_	_	_	_	_	
+45-2	4204-4210	medför	_	_	_	_	_	_	_	
+45-3	4211-4214	ett	_	_	_	_	_	_	_	
+45-4	4215-4222	slöseri	_	Target	45-1[57]	false	2	_	_	
+45-5	4223-4226	med	_	_	_	_	_	_	_	
+45-6	4227-4230	tid	_	_	_	_	_	_	_	
+45-7	4231-4234	och	_	_	_	_	_	_	_	
+45-8	4235-4243	resurser	_	_	_	_	_	_	_	
+45-9	4243-4244	,	_	_	_	_	_	_	_	
+45-10	4245-4251	bryter	_	Target[22]	45-1[58]	false[22]	2[22]	_	_	
+45-11	4252-4255	ner	_	Target[22]	45-1[58]	false[22]	2[22]	_	_	
+45-12	4256-4260	unga	_	_	_	_	_	_	_	
+45-13	4261-4271	människors	_	_	_	_	_	_	_	
+45-14	4272-4283	framtidstro	_	_	_	_	_	_	_	
+45-15	4284-4293	samtidigt	_	_	_	_	_	_	_	
+45-16	4294-4297	som	_	_	_	_	_	_	_	
+45-17	4298-4301	det	_	_	_	_	_	_	_	
+45-18	4302-4306	både	_	_	_	_	_	_	_	
+45-19	4307-4308	i	_	_	_	_	_	_	_	
+45-20	4309-4321	näringslivet	_	_	_	_	_	_	_	
+45-21	4322-4325	och	_	_	_	_	_	_	_	
+45-22	4326-4327	i	_	_	_	_	_	_	_	
+45-23	4328-4337	offentlig	_	_	_	_	_	_	_	
+45-24	4338-4344	sektor	_	_	_	_	_	_	_	
+45-25	4345-4350	råder	_	_	_	_	_	_	_	
+45-26	4351-4356	stora	_	_	_	_	_	_	_	
+45-27	4357-4364	brister	_	_	_	_	_	_	_	
+45-28	4365-4367	på	_	_	_	_	_	_	_	
+45-29	4368-4379	arbetskraft	_	_	_	_	_	_	_	
+45-30	4379-4380	.	_	_	_	_	_	_	_	
+
+#Text=Med yrkesskola gör vi i stället yrkesutbildningar tillgängliga, bygger bort återvändsgränder och ger unga människor en solid bas att stå på och hopp för framtiden.
+46-1	4381-4384	Med	_	_	_	_	_	_	_	
+46-2	4385-4395	yrkesskola	*[59]|*[60]	_	_	_	_	_	_	
+46-3	4396-4399	gör	_	_	_	_	_	_	_	
+46-4	4400-4402	vi	_	_	_	_	_	_	_	
+46-5	4403-4404	i	_	_	_	_	_	_	_	
+46-6	4405-4412	stället	_	_	_	_	_	_	_	
+46-7	4413-4430	yrkesutbildningar	*	_	_	_	_	_	_	
+46-8	4431-4443	tillgängliga	_	Target	46-7	false	4	_	_	
+46-9	4443-4444	,	_	_	_	_	_	_	_	
+46-10	4445-4451	bygger	_	Target[23]	46-12	false[23]	2[23]	_	_	
+46-11	4452-4456	bort	_	Target[23]	46-12	false[23]	2[23]	_	_	
+46-12	4457-4473	återvändsgränder	*	_	_	_	_	_	_	
+46-13	4474-4477	och	_	_	_	_	_	_	_	
+46-14	4478-4481	ger	_	_	_	false	4	_	_	
+46-15	4482-4486	unga	_	_	_	_	_	_	_	
+46-16	4487-4496	människor	_	_	_	_	_	_	_	
+46-17	4497-4499	en	_	_	_	_	_	_	_	
+46-18	4500-4505	solid	_	Target[24]	46-2[59]	false[24]	4[24]	_	_	
+46-19	4506-4509	bas	_	Target[24]	46-2[59]	false[24]	4[24]	_	_	
+46-20	4510-4513	att	_	_	_	_	_	_	_	
+46-21	4514-4517	stå	_	_	_	_	_	_	_	
+46-22	4518-4520	på	_	_	_	_	_	_	_	
+46-23	4521-4524	och	_	_	_	_	_	_	_	
+46-24	4525-4529	hopp	_	Target	46-2[60]	false	4	46-14	_	
+46-25	4530-4533	för	_	_	_	_	_	_	_	
+46-26	4534-4543	framtiden	_	_	_	_	_	_	_	
+46-27	4543-4544	.	_	_	_	_	_	_	_	
+
+#Text=Alla våra unga är viktiga och måste ges verkliga chanser att forma sina livsdrömmar och en utbildning som leder till jobb.
+47-1	4545-4549	Alla	*[61]	_	_	_	_	_	_	
+47-2	4550-4554	våra	*[61]	_	_	_	_	_	_	
+47-3	4555-4559	unga	*[61]	_	_	_	_	_	_	
+47-4	4560-4562	är	_	Target[25]	47-1[61]	false[25]	4[25]	_	_	
+47-5	4563-4570	viktiga	_	Target[25]	47-1[61]	false[25]	4[25]	_	_	
+47-6	4571-4574	och	_	_	_	_	_	_	_	
+47-7	4575-4580	måste	_	_	_	_	_	_	_	
+47-8	4581-4584	ges	_	_	_	_	_	_	_	
+47-9	4585-4593	verkliga	_	Target	47-10	false	4	_	_	
+47-10	4594-4601	chanser	*	_	_	_	_	_	_	
+47-11	4602-4605	att	_	_	_	_	_	_	_	
+47-12	4606-4611	forma	_	_	_	_	_	_	_	
+47-13	4612-4616	sina	_	_	_	_	_	_	_	
+47-14	4617-4628	livsdrömmar	*	Target	47-14	false	4	_	_	
+47-15	4629-4632	och	_	_	_	_	_	_	_	
+47-16	4633-4635	en	_	_	_	_	_	_	_	
+47-17	4636-4646	utbildning	_	_	_	_	_	_	_	
+47-18	4647-4650	som	_	_	_	_	_	_	_	
+47-19	4651-4656	leder	_	_	_	_	_	_	_	
+47-20	4657-4661	till	_	_	_	_	_	_	_	
+47-21	4662-4666	jobb	_	_	_	_	_	_	_	
+47-22	4666-4667	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4669-4670	#	_	_	_	_	_	_	_	
+48-2	4670-4671	P	_	_	_	_	_	_	_	
+48-3	4672-4675	IMM	_	_	_	_	_	_	_	
+48-4	4675-4676	.	_	_	_	_	_	_	_	
+
+#Text=Erik Bengtzboe (M)utbildningspolitisk talesperson.
+49-1	4678-4682	Erik	_	_	_	_	_	_	_	
+49-2	4683-4692	Bengtzboe	_	_	_	_	_	_	_	
+49-3	4693-4694	(	_	_	_	_	_	_	_	
+49-4	4694-4695	M	_	_	_	_	_	_	_	
+49-5	4695-4696	)	_	_	_	_	_	_	_	
+49-6	4696-4715	utbildningspolitisk	_	_	_	_	_	_	_	
+49-7	4716-4727	talesperson	_	_	_	_	_	_	_	
+49-8	4727-4728	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4730-4731	#	_	_	_	_	_	_	_	
+50-2	4731-4732	P	_	_	_	_	_	_	_	
+50-3	4733-4736	IMM	_	_	_	_	_	_	_	
+50-4	4736-4737	.	_	_	_	_	_	_	_	
+
+#Text=Ulrika Carlsson (C)utbildningspolitisk talesperson.
+51-1	4739-4745	Ulrika	_	_	_	_	_	_	_	
+51-2	4746-4754	Carlsson	_	_	_	_	_	_	_	
+51-3	4755-4756	(	_	_	_	_	_	_	_	
+51-4	4756-4757	C	_	_	_	_	_	_	_	
+51-5	4757-4758	)	_	_	_	_	_	_	_	
+51-6	4758-4777	utbildningspolitisk	_	_	_	_	_	_	_	
+51-7	4778-4789	talesperson	_	_	_	_	_	_	_	
+51-8	4789-4790	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4792-4793	#	_	_	_	_	_	_	_	
+52-2	4793-4794	P	_	_	_	_	_	_	_	
+52-3	4795-4798	IMM	_	_	_	_	_	_	_	
+52-4	4798-4799	.	_	_	_	_	_	_	_	
+
+#Text=Christer Nylander (L)utbildningspolitisk talesperson.
+53-1	4801-4809	Christer	_	_	_	_	_	_	_	
+53-2	4810-4818	Nylander	_	_	_	_	_	_	_	
+53-3	4819-4820	(	_	_	_	_	_	_	_	
+53-4	4820-4821	L	_	_	_	_	_	_	_	
+53-5	4821-4822	)	_	_	_	_	_	_	_	
+53-6	4822-4841	utbildningspolitisk	_	_	_	_	_	_	_	
+53-7	4842-4853	talesperson	_	_	_	_	_	_	_	
+53-8	4853-4854	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4856-4857	#	_	_	_	_	_	_	_	
+54-2	4857-4858	P	_	_	_	_	_	_	_	
+54-3	4859-4862	IMM	_	_	_	_	_	_	_	
+54-4	4862-4863	.	_	_	_	_	_	_	_	
+
+#Text=Annika Eclund (KD)utbildningspolitisk talesperson.
+55-1	4865-4871	Annika	_	_	_	_	_	_	_	
+55-2	4872-4878	Eclund	_	_	_	_	_	_	_	
+55-3	4879-4880	(	_	_	_	_	_	_	_	
+55-4	4880-4882	KD	_	_	_	_	_	_	_	
+55-5	4882-4883	)	_	_	_	_	_	_	_	
+55-6	4883-4902	utbildningspolitisk	_	_	_	_	_	_	_	
+55-7	4903-4914	talesperson	_	_	_	_	_	_	_	
+55-8	4914-4915	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4917-4918	#	_	_	_	_	_	_	_	
+56-2	4918-4919	P	_	_	_	_	_	_	_	
+56-3	4920-4923	IMM	_	_	_	_	_	_	_	
+56-4	4923-4924	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+57-1	4926-4934	Redaktör	_	_	_	_	_	_	_	
+57-2	4934-4935	:	_	_	_	_	_	_	_	
+57-3	4936-4942	Carina	_	_	_	_	_	_	_	
+57-4	4943-4951	Stensson	_	_	_	_	_	_	_	
+57-5	4951-4952	,	_	_	_	_	_	_	_	
+57-6	4953-4963	Biträdande	_	_	_	_	_	_	_	
+57-7	4964-4972	redaktör	_	_	_	_	_	_	_	
+57-8	4972-4973	:	_	_	_	_	_	_	_	
+57-9	4974-4979	Björn	_	_	_	_	_	_	_	
+57-10	4980-4986	Jorner	_	_	_	_	_	_	_	
+57-11	4986-4987	,	_	_	_	_	_	_	_	
+57-12	4988-4992	Mejl	_	_	_	_	_	_	_	
+57-13	4992-4993	:	_	_	_	_	_	_	_	
+57-14	4994-5000	debatt	_	_	_	_	_	_	_	
+57-15	5000-5001	@	_	_	_	_	_	_	_	
+57-16	5001-5007	svd.se	_	_	_	_	_	_	_	
+57-17	5007-5008	,	_	_	_	_	_	_	_	
+57-18	5009-5022	Telefonnummer	_	_	_	_	_	_	_	
+57-19	5022-5023	:	_	_	_	_	_	_	_	
+57-20	5024-5026	08	_	_	_	_	_	_	_	
+57-21	5026-5027	-	_	_	_	_	_	_	_	
+57-22	5027-5033	135149	_	_	_	_	_	_	_	
+57-23	5033-5034	,	_	_	_	_	_	_	_	
+57-24	5035-5042	Twitter	_	_	_	_	_	_	_	
+57-25	5042-5043	:	_	_	_	_	_	_	_	
+57-26	5044-5045	@	_	_	_	_	_	_	_	
+57-27	5045-5054	SvDDebatt	_	_	_	_	_	_	_	
+57-28	5054-5055	,	_	_	_	_	_	_	_	
+57-29	5056-5064	Facebook	_	_	_	_	_	_	_	
+57-30	5064-5065	:	_	_	_	_	_	_	_	
+57-31	5066-5069	SvD	_	_	_	_	_	_	_	
+57-32	5070-5076	Debatt	_	_	_	_	_	_	_	
+57-33	5076-5077	.	_	_	_	_	_	_	_	

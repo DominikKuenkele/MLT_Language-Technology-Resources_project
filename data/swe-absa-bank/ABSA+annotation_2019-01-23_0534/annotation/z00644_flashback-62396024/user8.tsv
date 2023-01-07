@@ -1,0 +1,329 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	4	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	4	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Nu gör vi livet lättare för unga asylsökande (Göteborg).
+3-1	18-20	Nu	_	_	_	_	_	_	
+3-2	21-24	gör	_	_	_	_	_	_	
+3-3	25-27	vi	_	_	_	_	_	_	
+3-4	28-33	livet	_	_	_	_	_	_	
+3-5	34-41	lättare	_	_	_	_	_	_	
+3-6	42-45	för	_	_	_	_	_	_	
+3-7	46-50	unga	_	_	_	_	_	_	
+3-8	51-62	asylsökande	_	_	_	_	_	_	
+3-9	63-64	(	_	_	_	_	_	_	
+3-10	64-72	Göteborg	_	_	_	_	_	_	
+3-11	72-73	)	_	_	_	_	_	_	
+3-12	73-74	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	76-77	#	_	_	_	_	_	_	
+4-2	77-78	P	_	_	_	_	_	_	
+4-3	79-82	IMM	_	_	_	false	4	_	
+4-4	82-83	.	_	_	_	_	_	_	
+
+#Text=Äntligen en fin insats så att ensamkommande unga inte kommer i kläm.
+5-1	85-93	Äntligen	_	_	_	_	_	_	
+5-2	94-96	en	_	_	_	_	_	_	
+5-3	97-100	fin	*[7]	Target[1]	5-3[7]	false[1]	4[1]	7-2[0_7]	
+5-4	101-107	insats	*[7]	Target[1]	5-3[7]	false[1]	4[1]	_	
+5-5	108-110	så	*[7]	_	_	_	_	_	
+5-6	111-114	att	*[7]	_	_	_	_	_	
+5-7	115-128	ensamkommande	*[7]	_	_	_	_	_	
+5-8	129-133	unga	*[7]	_	_	_	_	_	
+5-9	134-138	inte	*[7]	_	_	_	_	_	
+5-10	139-145	kommer	*[7]	_	_	_	_	_	
+5-11	146-147	i	*[7]	_	_	_	_	_	
+5-12	148-152	kläm	*[7]	_	_	_	_	_	
+5-13	152-153	.	_	_	_	_	_	_	
+
+#Text=Många unga har ju rotat sig i Göteborg och vill inte flytta därifrån bara för att dom råkat fylla 18 år.
+6-1	154-159	Många	_	_	_	_	_	_	
+6-2	160-164	unga	_	_	_	_	_	_	
+6-3	165-168	har	_	_	_	_	_	_	
+6-4	169-171	ju	_	_	_	_	_	_	
+6-5	172-177	rotat	_	_	_	_	_	_	
+6-6	178-181	sig	_	_	_	_	_	_	
+6-7	182-183	i	_	_	_	_	_	_	
+6-8	184-192	Göteborg	_	_	_	_	_	_	
+6-9	193-196	och	_	_	_	_	_	_	
+6-10	197-201	vill	_	_	_	_	_	_	
+6-11	202-206	inte	_	_	_	_	_	_	
+6-12	207-213	flytta	_	_	_	_	_	_	
+6-13	214-222	därifrån	_	_	_	_	_	_	
+6-14	223-227	bara	_	_	_	_	_	_	
+6-15	228-231	för	_	_	_	_	_	_	
+6-16	232-235	att	_	_	_	_	_	_	
+6-17	236-239	dom	_	_	_	_	_	_	
+6-18	240-245	råkat	_	_	_	_	_	_	
+6-19	246-251	fylla	_	_	_	_	_	_	
+6-20	252-254	18	_	_	_	_	_	_	
+6-21	255-257	år	_	_	_	_	_	_	
+6-22	257-258	.	_	_	_	_	_	_	
+
+#Text=Kan detta underlätta integrationen så att dom snabbare kan vidareubilda sig på högskola, få ett bra jobb?
+7-1	259-262	Kan	_	_	_	_	_	_	
+7-2	263-268	detta	*	_	_	_	_	_	
+7-3	269-279	underlätta	_	Source;Target[2]	7-19;7-2	false[2]	4[2]	_	
+7-4	280-293	integrationen	_	Source;Target[2]	7-19;7-2	false[2]	4[2]	_	
+7-5	294-296	så	_	_	_	_	_	_	
+7-6	297-300	att	_	_	_	_	_	_	
+7-7	301-304	dom	_	_	_	_	_	_	
+7-8	305-313	snabbare	_	_	_	_	_	_	
+7-9	314-317	kan	_	_	_	_	_	_	
+7-10	318-330	vidareubilda	_	_	_	_	_	_	
+7-11	331-334	sig	_	_	_	_	_	_	
+7-12	335-337	på	_	_	_	_	_	_	
+7-13	338-346	högskola	_	_	_	_	_	_	
+7-14	346-347	,	_	_	_	_	_	_	
+7-15	348-350	få	_	_	_	_	_	_	
+7-16	351-354	ett	_	_	_	_	_	_	
+7-17	355-358	bra	_	_	_	_	_	_	
+7-18	359-363	jobb	_	_	_	_	_	_	
+7-19	363-364	?	*	_	_	_	_	_	
+
+#Text=Göteborg månar om ensamkommande, nu kan boende och framtid ordnas för våra ensamkommande.
+8-1	365-373	Göteborg	*	_	_	_	_	_	
+8-2	374-379	månar	_	Source;Target[3]	8-1;8-4	false[3]	4[3]	_	
+8-3	380-382	om	_	Source;Target[3]	8-1;8-4	false[3]	4[3]	_	
+8-4	383-396	ensamkommande	*	_	_	_	_	_	
+8-5	396-397	,	_	_	_	_	_	_	
+8-6	398-400	nu	_	_	_	_	_	_	
+8-7	401-404	kan	_	_	_	_	_	_	
+8-8	405-411	boende	_	_	_	_	_	_	
+8-9	412-415	och	_	_	_	_	_	_	
+8-10	416-423	framtid	_	_	_	_	_	_	
+8-11	424-430	ordnas	_	_	_	_	_	_	
+8-12	431-434	för	_	_	_	_	_	_	
+8-13	435-439	våra	_	_	_	_	_	_	
+8-14	440-453	ensamkommande	_	_	_	_	_	_	
+8-15	453-454	.	*	_	_	_	_	_	
+
+#Text=Detta kan ju bli en win/win situation.
+9-1	455-460	Detta	*	_	_	_	_	_	
+9-2	461-464	kan	_	Target[4]	9-1	false[4]	4[4]	_	
+9-3	465-467	ju	_	Target[4]	9-1	false[4]	4[4]	_	
+9-4	468-471	bli	_	Target[4]	9-1	false[4]	4[4]	_	
+9-5	472-474	en	_	Target[4]	9-1	false[4]	4[4]	_	
+9-6	475-478	win	_	Target[4]	9-1	false[4]	4[4]	_	
+9-7	478-479	/	_	Target[4]	9-1	false[4]	4[4]	_	
+9-8	479-482	win	_	Target[4]	9-1	false[4]	4[4]	_	
+9-9	483-492	situation	_	Target[4]	9-1	false[4]	4[4]	_	
+9-10	492-493	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	495-496	#	_	_	_	_	_	_	
+10-2	496-497	P	_	_	_	_	_	_	
+10-3	498-501	IMM	_	_	_	false	3	_	
+10-4	501-502	.	_	_	_	_	_	_	
+
+#Text="Sammanlagt 21,6 miljoner kronor kommer nu att gå till boendekostnader för ensamkommande som blir vuxna och till avtal med ideella organisationer om stöd, boendeförmedling och konkreta boendelösningar.
+11-1	504-505	"	_	_	_	_	_	_	
+11-2	505-515	Sammanlagt	_	_	_	_	_	_	
+11-3	516-520	21,6	_	_	_	_	_	_	
+11-4	521-529	miljoner	_	_	_	_	_	_	
+11-5	530-536	kronor	_	_	_	_	_	_	
+11-6	537-543	kommer	_	_	_	_	_	_	
+11-7	544-546	nu	_	_	_	_	_	_	
+11-8	547-550	att	_	_	_	_	_	_	
+11-9	551-553	gå	_	_	_	_	_	_	
+11-10	554-558	till	_	_	_	_	_	_	
+11-11	559-574	boendekostnader	_	_	_	_	_	_	
+11-12	575-578	för	_	_	_	_	_	_	
+11-13	579-592	ensamkommande	_	_	_	_	_	_	
+11-14	593-596	som	_	_	_	_	_	_	
+11-15	597-601	blir	_	_	_	_	_	_	
+11-16	602-607	vuxna	_	_	_	_	_	_	
+11-17	608-611	och	_	_	_	_	_	_	
+11-18	612-616	till	_	_	_	_	_	_	
+11-19	617-622	avtal	_	_	_	_	_	_	
+11-20	623-626	med	_	_	_	_	_	_	
+11-21	627-634	ideella	_	_	_	_	_	_	
+11-22	635-649	organisationer	_	_	_	_	_	_	
+11-23	650-652	om	_	_	_	_	_	_	
+11-24	653-657	stöd	_	_	_	_	_	_	
+11-25	657-658	,	_	_	_	_	_	_	
+11-26	659-675	boendeförmedling	_	_	_	_	_	_	
+11-27	676-679	och	_	_	_	_	_	_	
+11-28	680-688	konkreta	_	_	_	_	_	_	
+11-29	689-704	boendelösningar	_	_	_	_	_	_	
+11-30	704-705	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	707-708	#	_	_	_	_	_	_	
+12-2	708-709	P	_	_	_	_	_	_	
+12-3	710-713	IMM	_	_	_	false	3	_	
+12-4	713-714	.	_	_	_	_	_	_	
+
+#Text=De senaste åren har många ensamkommande barn kommit till Göteborg.
+13-1	716-718	De	_	_	_	_	_	_	
+13-2	719-726	senaste	_	_	_	_	_	_	
+13-3	727-731	åren	_	_	_	_	_	_	
+13-4	732-735	har	_	_	_	_	_	_	
+13-5	736-741	många	_	_	_	_	_	_	
+13-6	742-755	ensamkommande	_	_	_	_	_	_	
+13-7	756-760	barn	_	_	_	_	_	_	
+13-8	761-767	kommit	_	_	_	_	_	_	
+13-9	768-772	till	_	_	_	_	_	_	
+13-10	773-781	Göteborg	_	_	_	_	_	_	
+13-11	781-782	.	_	_	_	_	_	_	
+
+#Text=Det har varit en stor utmaning för oss ute i stadsdelarna att kunna erbjuda boende och omsorg av hög kvalitet till alla som kommit." / GP.
+14-1	783-786	Det	_	_	_	_	_	_	
+14-2	787-790	har	_	_	_	_	_	_	
+14-3	791-796	varit	_	_	_	_	_	_	
+14-4	797-799	en	_	_	_	_	_	_	
+14-5	800-804	stor	_	_	_	_	_	_	
+14-6	805-813	utmaning	_	_	_	_	_	_	
+14-7	814-817	för	_	_	_	_	_	_	
+14-8	818-821	oss	_	_	_	_	_	_	
+14-9	822-825	ute	_	_	_	_	_	_	
+14-10	826-827	i	_	_	_	_	_	_	
+14-11	828-840	stadsdelarna	_	_	_	_	_	_	
+14-12	841-844	att	_	_	_	_	_	_	
+14-13	845-850	kunna	_	_	_	_	_	_	
+14-14	851-858	erbjuda	_	_	_	_	_	_	
+14-15	859-865	boende	_	_	_	_	_	_	
+14-16	866-869	och	_	_	_	_	_	_	
+14-17	870-876	omsorg	_	_	_	_	_	_	
+14-18	877-879	av	_	_	_	_	_	_	
+14-19	880-883	hög	_	_	_	_	_	_	
+14-20	884-892	kvalitet	_	_	_	_	_	_	
+14-21	893-897	till	_	_	_	_	_	_	
+14-22	898-902	alla	_	_	_	_	_	_	
+14-23	903-906	som	_	_	_	_	_	_	
+14-24	907-913	kommit	_	_	_	_	_	_	
+14-25	913-914	.	_	_	_	_	_	_	
+14-26	914-915	"	_	_	_	_	_	_	
+14-27	916-917	/	_	_	_	_	_	_	
+14-28	918-920	GP	_	_	_	_	_	_	
+14-29	920-921	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	923-924	#	_	_	_	_	_	_	
+15-2	924-925	P	_	_	_	_	_	_	
+15-3	926-929	IMM	_	_	_	false	3	_	
+15-4	929-930	.	_	_	_	_	_	_	
+
+#Text="För många ensamkommande är det en svår omställning.
+16-1	932-933	"	_	_	_	_	_	_	
+16-2	933-936	För	_	_	_	_	_	_	
+16-3	937-942	många	*[8]	_	_	_	_	_	
+16-4	943-956	ensamkommande	*[8]	_	_	_	_	_	
+16-5	957-959	är	_	_	_	_	_	_	
+16-6	960-963	det	_	_	_	_	_	_	
+16-7	964-966	en	_	_	_	_	_	_	
+16-8	967-971	svår	_	Source;Target	16-3[8];16-9	false	2	_	
+16-9	972-983	omställning	*	_	_	_	_	_	
+16-10	983-984	.	_	_	_	_	_	_	
+
+#Text=Man måste lämna tryggheten i sitt boende och riskerar att förlora kontakten med sitt sociala nätverk.
+17-1	985-988	Man	_	_	_	_	_	_	
+17-2	989-994	måste	_	_[5]	_	false[5]	2[5]	_	
+17-3	995-1000	lämna	_	_[5]	_	false[5]	2[5]	_	
+17-4	1001-1011	tryggheten	_	_[5]	_	false[5]	2[5]	_	
+17-5	1012-1013	i	_	_	_	_	_	_	
+17-6	1014-1018	sitt	_	_	_	_	_	_	
+17-7	1019-1025	boende	_	_	_	_	_	_	
+17-8	1026-1029	och	_	_	_	_	_	_	
+17-9	1030-1038	riskerar	_	Target	17-10[9]	false	2	_	
+17-10	1039-1042	att	*[9]	_	_	_	_	_	
+17-11	1043-1050	förlora	*[9]	_	_	_	_	_	
+17-12	1051-1060	kontakten	*[9]	_	_	_	_	_	
+17-13	1061-1064	med	*[9]	_	_	_	_	_	
+17-14	1065-1069	sitt	*[9]	_	_	_	_	_	
+17-15	1070-1077	sociala	*[9]	_	_	_	_	_	
+17-16	1078-1085	nätverk	*[9]	_	_	_	_	_	
+17-17	1085-1086	.	_	_	_	_	_	_	
+
+#Text=Det kan bli svårt att fullfölja sina gymnasiestudier.
+18-1	1087-1090	Det	_	_	_	_	_	_	
+18-2	1091-1094	kan	_	_	_	_	_	_	
+18-3	1095-1098	bli	_	_	_	_	_	_	
+18-4	1099-1104	svårt	_	_	_	_	_	_	
+18-5	1105-1108	att	_	_	_	_	_	_	
+18-6	1109-1118	fullfölja	_	_	_	_	_	_	
+18-7	1119-1123	sina	_	_	_	_	_	_	
+18-8	1124-1139	gymnasiestudier	_	_	_	_	_	_	
+18-9	1139-1140	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1142-1143	#	_	_	_	_	_	_	
+19-2	1143-1144	P	_	_	_	_	_	_	
+19-3	1145-1148	IMM	_	_	_	false	3	_	
+19-4	1148-1149	.	_	_	_	_	_	_	
+
+#Text=För denna grupp, som redan lever med en grundläggande otrygghet och osäkerhet om framtiden, så är detta förstås extra svårt." / GP.
+20-1	1151-1154	För	_	_	_	_	_	_	
+20-2	1155-1160	denna	_	_	_	_	_	_	
+20-3	1161-1166	grupp	_	_	_	_	_	_	
+20-4	1166-1167	,	_	_	_	_	_	_	
+20-5	1168-1171	som	_	_	_	_	_	_	
+20-6	1172-1177	redan	_	_	_	_	_	_	
+20-7	1178-1183	lever	_	_	_	_	_	_	
+20-8	1184-1187	med	_	_	_	_	_	_	
+20-9	1188-1190	en	_	_	_	_	_	_	
+20-10	1191-1204	grundläggande	_	_	_	_	_	_	
+20-11	1205-1214	otrygghet	_	_[6]	_	false[6]	2[6]	_	
+20-12	1215-1218	och	_	_[6]	_	false[6]	2[6]	_	
+20-13	1219-1228	osäkerhet	_	_[6]	_	false[6]	2[6]	_	
+20-14	1229-1231	om	_	_[6]	_	false[6]	2[6]	_	
+20-15	1232-1241	framtiden	_	_[6]	_	false[6]	2[6]	_	
+20-16	1241-1242	,	_	_	_	_	_	_	
+20-17	1243-1245	så	_	_	_	_	_	_	
+20-18	1246-1248	är	_	_	_	_	_	_	
+20-19	1249-1254	detta	_	_	_	_	_	_	
+20-20	1255-1262	förstås	_	_	_	_	_	_	
+20-21	1263-1268	extra	_	_	_	_	_	_	
+20-22	1269-1274	svårt	_	_	_	_	_	_	
+20-23	1274-1275	.	_	_	_	_	_	_	
+20-24	1275-1276	"	_	_	_	_	_	_	
+20-25	1277-1278	/	_	_	_	_	_	_	
+20-26	1279-1281	GP	_	_	_	_	_	_	
+20-27	1281-1282	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1284-1285	#	_	_	_	_	_	_	
+21-2	1285-1286	P	_	_	_	_	_	_	
+21-3	1287-1290	IMM	_	_	_	_	_	_	
+21-4	1290-1291	.	_	_	_	_	_	_	
+
+#Text=#vistårinteut.
+22-1	1293-1294	#	_	_	_	_	_	_	
+22-2	1294-1306	vistårinteut	_	_	_	_	_	_	
+22-3	1306-1307	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1309-1310	#	_	_	_	_	_	_	
+23-2	1310-1311	P	_	_	_	_	_	_	
+23-3	1312-1315	IMM	_	_	_	_	_	_	
+23-4	1315-1316	.	_	_	_	_	_	_	
+
+#Text=#låtdeungastanna.
+24-1	1318-1319	#	_	_	_	_	_	_	
+24-2	1319-1334	låtdeungastanna	_	_	_	_	_	_	
+24-3	1334-1335	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1337-1338	#	_	_	_	_	_	_	
+25-2	1338-1339	P	_	_	_	_	_	_	
+25-3	1340-1343	IMM	_	_	_	_	_	_	
+25-4	1343-1344	.	_	_	_	_	_	_	
+
+#Text=Rymdkram.
+26-1	1346-1354	Rymdkram	_	_	_	_	_	_	
+26-2	1354-1355	.	_	_	_	_	_	_	

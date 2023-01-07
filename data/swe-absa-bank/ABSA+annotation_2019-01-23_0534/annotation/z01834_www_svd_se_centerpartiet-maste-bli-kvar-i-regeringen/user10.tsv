@@ -1,0 +1,970 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet måste bli kvar i regeringen.
+3-1	18-31	Centerpartiet	_	_	_	_	_	_	_	
+3-2	32-37	måste	_	_	_	_	_	_	_	
+3-3	38-41	bli	_	_	_	_	_	_	_	
+3-4	42-46	kvar	_	_	_	_	_	_	_	
+3-5	47-48	i	_	_	_	_	_	_	_	
+3-6	49-59	regeringen	_	_	_	_	_	_	_	
+3-7	59-60	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	_	
+
+#Text=Jag saknar en aktiv debatt från det största partiet, Moderaterna, kring vikten av entreprenörskapet, skriver Douglas Roos, ordförande för Nyheter24.
+5-1	71-74	Jag	_	_	_	_	_	_	_	
+5-2	75-81	saknar	_	_	_	_	_	_	_	
+5-3	82-84	en	_	_	_	_	_	_	_	
+5-4	85-90	aktiv	_	_	_	_	_	_	_	
+5-5	91-97	debatt	_	_	_	_	_	_	_	
+5-6	98-102	från	_	_	_	_	_	_	_	
+5-7	103-106	det	_	_	_	_	_	_	_	
+5-8	107-114	största	_	_	_	_	_	_	_	
+5-9	115-122	partiet	_	_	_	_	_	_	_	
+5-10	122-123	,	_	_	_	_	_	_	_	
+5-11	124-135	Moderaterna	_	_	_	_	_	_	_	
+5-12	135-136	,	_	_	_	_	_	_	_	
+5-13	137-142	kring	_	_	_	_	_	_	_	
+5-14	143-149	vikten	_	Target[1]	5-16	false[1]	3[1]	_	_	
+5-15	150-152	av	_	Target[1]	5-16	false[1]	3[1]	_	_	
+5-16	153-170	entreprenörskapet	*	_	_	_	_	_	_	
+5-17	170-171	,	_	_	_	_	_	_	_	
+5-18	172-179	skriver	_	_	_	_	_	_	_	
+5-19	180-187	Douglas	_	_	_	_	_	_	_	
+5-20	188-192	Roos	_	_	_	_	_	_	_	
+5-21	192-193	,	_	_	_	_	_	_	_	
+5-22	194-204	ordförande	_	_	_	_	_	_	_	
+5-23	205-208	för	_	_	_	_	_	_	_	
+5-24	209-218	Nyheter24	_	_	_	_	_	_	_	
+5-25	218-219	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	221-222	#	_	_	_	_	_	_	_	
+6-2	222-223	P	_	_	_	_	_	_	_	
+6-3	224-227	IMM	_	_	_	_	_	_	_	
+6-4	227-228	.	_	_	_	_	_	_	_	
+
+#Text=Som entreprenör och företagare med stort intresse för det svenska näringsklimatet såg jag fram emot årets valrörelse.
+7-1	230-233	Som	_	_	_	_	_	_	_	
+7-2	234-245	entreprenör	_	_	_	_	_	_	_	
+7-3	246-249	och	_	_	_	_	_	_	_	
+7-4	250-260	företagare	_	_	_	_	_	_	_	
+7-5	261-264	med	_	_	_	_	_	_	_	
+7-6	265-270	stort	_	Target[2]	7-9[17]	false[2]	5[2]	_	_	
+7-7	271-279	intresse	_	Target[2]	7-9[17]	false[2]	5[2]	_	_	
+7-8	280-283	för	_	Target[2]	7-9[17]	false[2]	5[2]	_	_	
+7-9	284-287	det	*[17]	_	_	_	_	_	_	
+7-10	288-295	svenska	*[17]	_	_	_	_	_	_	
+7-11	296-311	näringsklimatet	*[17]	_	_	_	_	_	_	
+7-12	312-315	såg	_	_	_	false	4	_	_	
+7-13	316-319	jag	*	_	_	_	_	_	_	
+7-14	320-324	fram	_	Source;Target[3]	7-13;7-16[18]	false[3]	4[3]	7-12[0_3]	_	
+7-15	325-329	emot	_	Source;Target[3]	7-13;7-16[18]	false[3]	4[3]	_	_	
+7-16	330-335	årets	*[18]	_	_	_	_	_	_	
+7-17	336-346	valrörelse	*[18]	_	_	_	_	_	_	
+7-18	346-347	.	_	_	_	_	_	_	_	
+
+#Text=Jag var övertygad om att vi äntligen skulle få en svensk valrörelse som skulle handla om hur samhället kan bli mer företagsamt, gynna entreprenörskapet och om hur politiken kan främja tillväxten av nya jobb genom nya och växande företag i privat sektor.
+8-1	348-351	Jag	_	_	_	_	_	_	_	
+8-2	352-355	var	_	_	_	_	_	_	_	
+8-3	356-365	övertygad	_	_	_	_	_	_	_	
+8-4	366-368	om	_	_	_	_	_	_	_	
+8-5	369-372	att	_	_	_	_	_	_	_	
+8-6	373-375	vi	_	_	_	_	_	_	_	
+8-7	376-384	äntligen	_	Target	8-10[19]	false	4	_	_	
+8-8	385-391	skulle	_	_	_	_	_	_	_	
+8-9	392-394	få	_	_	_	_	_	_	_	
+8-10	395-397	en	*[19]	_	_	_	_	_	_	
+8-11	398-404	svensk	*[19]	_	_	_	_	_	_	
+8-12	405-415	valrörelse	*[19]	_	_	_	_	_	_	
+8-13	416-419	som	*[19]	_	_	_	_	_	_	
+8-14	420-426	skulle	*[19]	_	_	_	_	_	_	
+8-15	427-433	handla	*[19]	_	_	_	_	_	_	
+8-16	434-436	om	*[19]	_	_	_	_	_	_	
+8-17	437-440	hur	*[19]	_	_	_	_	_	_	
+8-18	441-450	samhället	*[19]	_	_	_	_	_	_	
+8-19	451-454	kan	*[19]	_	_	_	_	_	_	
+8-20	455-458	bli	*[19]	_	_	_	_	_	_	
+8-21	459-462	mer	*[19]	_	_	_	_	_	_	
+8-22	463-474	företagsamt	*[19]	_	_	_	_	_	_	
+8-23	474-475	,	_	_	_	_	_	_	_	
+8-24	476-481	gynna	_	Target	8-25	false	4	_	_	
+8-25	482-499	entreprenörskapet	*	_	_	_	_	_	_	
+8-26	500-503	och	_	_	_	_	_	_	_	
+8-27	504-506	om	_	_	_	_	_	_	_	
+8-28	507-510	hur	_	_	_	_	_	_	_	
+8-29	511-520	politiken	_	_	_	_	_	_	_	
+8-30	521-524	kan	_	_	_	_	_	_	_	
+8-31	525-531	främja	_	Target	8-32	false	4	_	_	
+8-32	532-542	tillväxten	*	_	_	_	_	_	_	
+8-33	543-545	av	_	_	_	_	_	_	_	
+8-34	546-549	nya	_	_	_	_	_	_	_	
+8-35	550-554	jobb	_	_	_	_	_	_	_	
+8-36	555-560	genom	_	_	_	_	_	_	_	
+8-37	561-564	nya	_	_	_	_	_	_	_	
+8-38	565-568	och	_	_	_	_	_	_	_	
+8-39	569-576	växande	_	_	_	_	_	_	_	
+8-40	577-584	företag	_	_	_	_	_	_	_	
+8-41	585-586	i	_	_	_	_	_	_	_	
+8-42	587-593	privat	_	_	_	_	_	_	_	
+8-43	594-600	sektor	_	_	_	_	_	_	_	
+8-44	600-601	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	603-604	#	_	_	_	_	_	_	_	
+9-2	604-605	P	_	_	_	_	_	_	_	
+9-3	606-609	IMM	_	_	_	_	_	_	_	
+9-4	609-610	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	612-615	Det	_	_	_	_	_	_	_	
+10-2	616-619	här	_	_	_	_	_	_	_	
+10-3	620-622	är	_	_	_	_	_	_	_	
+10-4	623-625	en	_	_	_	_	_	_	_	
+10-5	626-640	argumenterande	_	_	_	_	_	_	_	
+10-6	641-645	text	_	_	_	_	_	_	_	
+10-7	646-649	med	_	_	_	_	_	_	_	
+10-8	650-655	syfte	_	_	_	_	_	_	_	
+10-9	656-659	att	_	_	_	_	_	_	_	
+10-10	660-667	påverka	_	_	_	_	_	_	_	
+10-11	667-668	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	669-678	Åsikterna	_	_	_	_	_	_	_	
+11-2	679-682	som	_	_	_	_	_	_	_	
+11-3	683-691	uttrycks	_	_	_	_	_	_	_	
+11-4	692-694	är	_	_	_	_	_	_	_	
+11-5	695-706	skribentens	_	_	_	_	_	_	_	
+11-6	707-711	egna	_	_	_	_	_	_	_	
+11-7	711-712	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	714-715	#	_	_	_	_	_	_	_	
+12-2	715-716	P	_	_	_	_	_	_	_	
+12-3	717-720	IMM	_	_	_	_	_	_	_	
+12-4	720-721	.	_	_	_	_	_	_	_	
+
+#Text=Så här i valrörelsens slutskede har det tyvärr visat sig att företagsamhet, entreprenörskap, företagens betydelse för jobben och innovationspolitiken tillhör valets glömda frågor.
+13-1	723-725	Så	_	_	_	_	_	_	_	
+13-2	726-729	här	_	_	_	_	_	_	_	
+13-3	730-731	i	_	_	_	_	_	_	_	
+13-4	732-744	valrörelsens	_	_	_	_	_	_	_	
+13-5	745-754	slutskede	_	_	_	_	_	_	_	
+13-6	755-758	har	_	_	_	_	_	_	_	
+13-7	759-762	det	_	_	_	_	_	_	_	
+13-8	763-769	tyvärr	*	Target	13-8	false	2	_	_	
+13-9	770-775	visat	_	_	_	_	_	_	_	
+13-10	776-779	sig	_	_	_	_	_	_	_	
+13-11	780-783	att	_	_	_	_	_	_	_	
+13-12	784-797	företagsamhet	_	_	_	_	_	_	_	
+13-13	797-798	,	_	_	_	_	_	_	_	
+13-14	799-814	entreprenörskap	_	_	_	_	_	_	_	
+13-15	814-815	,	_	_	_	_	_	_	_	
+13-16	816-826	företagens	_	_	_	_	_	_	_	
+13-17	827-836	betydelse	_	_	_	_	_	_	_	
+13-18	837-840	för	_	_	_	_	_	_	_	
+13-19	841-847	jobben	_	_	_	_	_	_	_	
+13-20	848-851	och	_	_	_	_	_	_	_	
+13-21	852-872	innovationspolitiken	_	_	_	_	_	_	_	
+13-22	873-880	tillhör	_	_	_	_	_	_	_	
+13-23	881-887	valets	_	_	_	_	_	_	_	
+13-24	888-894	glömda	_	_	_	_	_	_	_	
+13-25	895-901	frågor	_	_	_	_	_	_	_	
+13-26	901-902	.	_	_	_	_	_	_	_	
+
+#Text=Visst har det talats om jobben.
+14-1	903-908	Visst	_	_	_	_	_	_	_	
+14-2	909-912	har	_	_	_	_	_	_	_	
+14-3	913-916	det	_	_	_	_	_	_	_	
+14-4	917-923	talats	_	_	_	_	_	_	_	
+14-5	924-926	om	_	_	_	_	_	_	_	
+14-6	927-933	jobben	_	_	_	_	_	_	_	
+14-7	933-934	.	_	_	_	_	_	_	_	
+
+#Text=Men inte blir det fler jobb för att pensionärerna får sänkt skatt och att de arbetslösa får högre a-kassa.
+15-1	935-938	Men	_	_	_	_	_	_	_	
+15-2	939-943	inte	_	_	_	_	_	_	_	
+15-3	944-948	blir	_	_	_	_	_	_	_	
+15-4	949-952	det	_	_	_	_	_	_	_	
+15-5	953-957	fler	_	_	_	_	_	_	_	
+15-6	958-962	jobb	_	_	_	_	_	_	_	
+15-7	963-966	för	_	_	_	_	_	_	_	
+15-8	967-970	att	_	_	_	_	_	_	_	
+15-9	971-984	pensionärerna	_	_	_	_	_	_	_	
+15-10	985-988	får	_	_	_	_	_	_	_	
+15-11	989-994	sänkt	_	_	_	_	_	_	_	
+15-12	995-1000	skatt	_	_	_	_	_	_	_	
+15-13	1001-1004	och	_	_	_	_	_	_	_	
+15-14	1005-1008	att	_	_	_	_	_	_	_	
+15-15	1009-1011	de	_	_	_	_	_	_	_	
+15-16	1012-1022	arbetslösa	_	_	_	_	_	_	_	
+15-17	1023-1026	får	_	_	_	_	_	_	_	
+15-18	1027-1032	högre	_	_	_	_	_	_	_	
+15-19	1033-1040	a-kassa	_	_	_	_	_	_	_	
+15-20	1040-1041	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1043-1044	#	_	_	_	_	_	_	_	
+16-2	1044-1045	P	_	_	_	_	_	_	_	
+16-3	1046-1049	IMM	_	_	_	_	_	_	_	
+16-4	1049-1050	.	_	_	_	_	_	_	_	
+
+#Text=Alliansregeringen har gjort mycket för företagandet, men jag saknar en aktiv debatt från det största partiet, Moderaterna, kring vikten av entreprenörskapet och att det är därifrån jobben i stor utsträckning skall komma.
+17-1	1052-1069	Alliansregeringen	_	_	_	_	_	_	_	
+17-2	1070-1073	har	_	_	_	_	_	_	_	
+17-3	1074-1079	gjort	_	_	_	_	_	_	_	
+17-4	1080-1086	mycket	_	_	_	_	_	_	_	
+17-5	1087-1090	för	_	_	_	_	_	_	_	
+17-6	1091-1103	företagandet	_	_	_	_	_	_	_	
+17-7	1103-1104	,	_	_	_	_	_	_	_	
+17-8	1105-1108	men	_	_	_	_	_	_	_	
+17-9	1109-1112	jag	_	_	_	_	_	_	_	
+17-10	1113-1119	saknar	_	_	_	_	_	_	_	
+17-11	1120-1122	en	_	_	_	_	_	_	_	
+17-12	1123-1128	aktiv	_	_	_	_	_	_	_	
+17-13	1129-1135	debatt	_	_	_	_	_	_	_	
+17-14	1136-1140	från	_	_	_	_	_	_	_	
+17-15	1141-1144	det	_	_	_	_	_	_	_	
+17-16	1145-1152	största	_	_	_	_	_	_	_	
+17-17	1153-1160	partiet	_	_	_	_	_	_	_	
+17-18	1160-1161	,	_	_	_	_	_	_	_	
+17-19	1162-1173	Moderaterna	_	_	_	_	_	_	_	
+17-20	1173-1174	,	_	_	_	_	_	_	_	
+17-21	1175-1180	kring	_	_	_	_	_	_	_	
+17-22	1181-1187	vikten	_	_	_	_	_	_	_	
+17-23	1188-1190	av	_	_	_	_	_	_	_	
+17-24	1191-1208	entreprenörskapet	_	_	_	_	_	_	_	
+17-25	1209-1212	och	_	_	_	_	_	_	_	
+17-26	1213-1216	att	_	_	_	_	_	_	_	
+17-27	1217-1220	det	_	_	_	_	_	_	_	
+17-28	1221-1223	är	_	_	_	_	_	_	_	
+17-29	1224-1232	därifrån	_	_	_	_	_	_	_	
+17-30	1233-1239	jobben	_	_	_	_	_	_	_	
+17-31	1240-1241	i	_	_	_	_	_	_	_	
+17-32	1242-1246	stor	_	_	_	_	_	_	_	
+17-33	1247-1259	utsträckning	_	_	_	_	_	_	_	
+17-34	1260-1265	skall	_	_	_	_	_	_	_	
+17-35	1266-1271	komma	_	_	_	_	_	_	_	
+17-36	1271-1272	.	_	_	_	_	_	_	_	
+
+#Text=De rödgröna går till val på en företagarpolitik som dessutom innebär kraftigt ökade kostnader för småföretagen, krångligare regler och en arbetsrätt som riskerar att stramas upp ytterligare.
+18-1	1273-1275	De	_	_	_	_	_	_	_	
+18-2	1276-1284	rödgröna	_	_	_	_	_	_	_	
+18-3	1285-1288	går	_	_	_	_	_	_	_	
+18-4	1289-1293	till	_	_	_	_	_	_	_	
+18-5	1294-1297	val	_	_	_	_	_	_	_	
+18-6	1298-1300	på	_	_	_	_	_	_	_	
+18-7	1301-1303	en	_	_	_	_	_	_	_	
+18-8	1304-1320	företagarpolitik	_	_	_	_	_	_	_	
+18-9	1321-1324	som	_	_	_	_	_	_	_	
+18-10	1325-1333	dessutom	_	_	_	_	_	_	_	
+18-11	1334-1341	innebär	_	_	_	_	_	_	_	
+18-12	1342-1350	kraftigt	_	_	_	_	_	_	_	
+18-13	1351-1356	ökade	_	_	_	_	_	_	_	
+18-14	1357-1366	kostnader	_	_	_	_	_	_	_	
+18-15	1367-1370	för	_	_	_	_	_	_	_	
+18-16	1371-1383	småföretagen	_	_	_	_	_	_	_	
+18-17	1383-1384	,	_	_	_	_	_	_	_	
+18-18	1385-1396	krångligare	_	Target	18-19	false	2	_	_	
+18-19	1397-1403	regler	*	_	_	_	_	_	_	
+18-20	1404-1407	och	_	_	_	_	_	_	_	
+18-21	1408-1410	en	_	_	_	_	_	_	_	
+18-22	1411-1421	arbetsrätt	_	_	_	_	_	_	_	
+18-23	1422-1425	som	_	_	_	_	_	_	_	
+18-24	1426-1434	riskerar	*	Target	18-24	false	2	_	_	
+18-25	1435-1438	att	_	_	_	_	_	_	_	
+18-26	1439-1446	stramas	_	_	_	_	_	_	_	
+18-27	1447-1450	upp	_	_	_	_	_	_	_	
+18-28	1451-1462	ytterligare	_	_	_	_	_	_	_	
+18-29	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Detta gör mig orolig.
+19-1	1464-1469	Detta	_	_	_	_	_	_	_	
+19-2	1470-1473	gör	_	_	_	_	_	_	_	
+19-3	1474-1477	mig	_	_	_	_	_	_	_	
+19-4	1478-1484	orolig	_	_	_	_	_	_	_	
+19-5	1484-1485	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1487-1488	#	_	_	_	_	_	_	_	
+20-2	1488-1489	P	_	_	_	_	_	_	_	
+20-3	1490-1493	IMM	_	_	_	_	_	_	_	
+20-4	1493-1494	.	_	_	_	_	_	_	_	
+
+#Text=För mig är det därför tydligt att det allra främst är Centerpartiet som lyfter företagens betydelse för fler jobb och tillväxt.
+21-1	1496-1499	För	_	_	_	_	_	_	_	
+21-2	1500-1503	mig	_	_	_	_	_	_	_	
+21-3	1504-1506	är	_	_	_	_	_	_	_	
+21-4	1507-1510	det	_	_	_	_	_	_	_	
+21-5	1511-1517	därför	_	_	_	_	_	_	_	
+21-6	1518-1525	tydligt	_	_	_	_	_	_	_	
+21-7	1526-1529	att	_	_	_	_	_	_	_	
+21-8	1530-1533	det	_	_	_	_	_	_	_	
+21-9	1534-1539	allra	_	_	_	_	_	_	_	
+21-10	1540-1546	främst	_	_	_	_	_	_	_	
+21-11	1547-1549	är	_	_	_	_	_	_	_	
+21-12	1550-1563	Centerpartiet	_	_	_	_	_	_	_	
+21-13	1564-1567	som	_	_	_	_	_	_	_	
+21-14	1568-1574	lyfter	_	_	_	_	_	_	_	
+21-15	1575-1585	företagens	_	_	_	_	_	_	_	
+21-16	1586-1595	betydelse	_	_	_	_	_	_	_	
+21-17	1596-1599	för	_	_	_	_	_	_	_	
+21-18	1600-1604	fler	_	_	_	_	_	_	_	
+21-19	1605-1609	jobb	_	_	_	_	_	_	_	
+21-20	1610-1613	och	_	_	_	_	_	_	_	
+21-21	1614-1622	tillväxt	_	_	_	_	_	_	_	
+21-22	1622-1623	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1625-1626	#	_	_	_	_	_	_	_	
+22-2	1626-1627	P	_	_	_	_	_	_	_	
+22-3	1628-1631	IMM	_	_	_	_	_	_	_	
+22-4	1631-1632	.	_	_	_	_	_	_	_	
+
+#Text=Eftersom det varit så tyst om företagsfrågorna i debatten är det än mer viktigt för mig som entreprenör att Centerpartiet får blir kvar i riksdagen och fortsätter att driva entreprenörskapsfrågorna inom regeringen.
+23-1	1634-1642	Eftersom	_	_	_	_	_	_	_	
+23-2	1643-1646	det	_	_	_	_	_	_	_	
+23-3	1647-1652	varit	_	_	_	_	_	_	_	
+23-4	1653-1655	så	_	_	_	_	_	_	_	
+23-5	1656-1660	tyst	_	_	_	_	_	_	_	
+23-6	1661-1663	om	_	_	_	_	_	_	_	
+23-7	1664-1680	företagsfrågorna	_	_	_	_	_	_	_	
+23-8	1681-1682	i	_	_	_	_	_	_	_	
+23-9	1683-1691	debatten	_	_	_	_	_	_	_	
+23-10	1692-1694	är	_	_	_	_	_	_	_	
+23-11	1695-1698	det	_	_	_	_	_	_	_	
+23-12	1699-1701	än	_	_	_	_	_	_	_	
+23-13	1702-1705	mer	_	Source;Target[4]	23-16[20];23-19[21]	false[4]	4[4]	_	_	
+23-14	1706-1713	viktigt	_	Source;Target[4]	23-16[20];23-19[21]	false[4]	4[4]	_	_	
+23-15	1714-1717	för	_	Source;Target[4]	23-16[20];23-19[21]	false[4]	4[4]	_	_	
+23-16	1718-1721	mig	*[20]	_	_	_	_	_	_	
+23-17	1722-1725	som	*[20]	_	_	_	_	_	_	
+23-18	1726-1737	entreprenör	*[20]	_	_	_	_	_	_	
+23-19	1738-1741	att	*[21]	_	_	_	_	_	_	
+23-20	1742-1755	Centerpartiet	*[21]	_	_	_	_	_	_	
+23-21	1756-1759	får	*[21]	_	_	_	_	_	_	
+23-22	1760-1764	blir	*[21]	_	_	_	_	_	_	
+23-23	1765-1769	kvar	*[21]	_	_	_	_	_	_	
+23-24	1770-1771	i	*[21]	_	_	_	_	_	_	
+23-25	1772-1781	riksdagen	*[21]	_	_	_	_	_	_	
+23-26	1782-1785	och	_	_	_	_	_	_	_	
+23-27	1786-1796	fortsätter	_	_	_	_	_	_	_	
+23-28	1797-1800	att	_	_	_	_	_	_	_	
+23-29	1801-1806	driva	_	_	_	_	_	_	_	
+23-30	1807-1831	entreprenörskapsfrågorna	_	_	_	_	_	_	_	
+23-31	1832-1836	inom	_	_	_	_	_	_	_	
+23-32	1837-1847	regeringen	_	_	_	_	_	_	_	
+23-33	1847-1848	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1850-1851	#	_	_	_	_	_	_	_	
+24-2	1851-1852	P	_	_	_	_	_	_	_	
+24-3	1853-1856	IMM	_	_	_	_	_	_	_	
+24-4	1856-1857	.	_	_	_	_	_	_	_	
+
+#Text=Även om jag normalt är emot statlig inblandning anser jag att staten har en avgörande roll för hur företagande och entreprenörskap utvecklas i Sverige.
+25-1	1859-1863	Även	_	_	_	_	_	_	_	
+25-2	1864-1866	om	_	_	_	_	_	_	_	
+25-3	1867-1870	jag	*	_	_	_	_	_	_	
+25-4	1871-1878	normalt	_	_	_	_	_	_	_	
+25-5	1879-1881	är	_	Target;Source[5]	25-7[22];25-3	false[5]	2[5]	_	_	
+25-6	1882-1886	emot	_	Target;Source[5]	25-7[22];25-3	false[5]	2[5]	_	_	
+25-7	1887-1894	statlig	*[22]	_	_	_	_	_	_	
+25-8	1895-1906	inblandning	*[22]	_	_	_	_	_	_	
+25-9	1907-1912	anser	_	_	_	_	_	_	_	
+25-10	1913-1916	jag	_	_	_	_	_	_	_	
+25-11	1917-1920	att	_	_	_	_	_	_	_	
+25-12	1921-1927	staten	_	_	_	_	_	_	_	
+25-13	1928-1931	har	_	_	_	_	_	_	_	
+25-14	1932-1934	en	_	_	_	_	_	_	_	
+25-15	1935-1944	avgörande	_	_	_	_	_	_	_	
+25-16	1945-1949	roll	_	_	_	_	_	_	_	
+25-17	1950-1953	för	_	_	_	_	_	_	_	
+25-18	1954-1957	hur	_	_	_	_	_	_	_	
+25-19	1958-1969	företagande	_	_	_	_	_	_	_	
+25-20	1970-1973	och	_	_	_	_	_	_	_	
+25-21	1974-1989	entreprenörskap	_	_	_	_	_	_	_	
+25-22	1990-1999	utvecklas	_	_	_	_	_	_	_	
+25-23	2000-2001	i	_	_	_	_	_	_	_	
+25-24	2002-2009	Sverige	_	_	_	_	_	_	_	
+25-25	2009-2010	.	_	_	_	_	_	_	_	
+
+#Text=Exempelvis välkomnar jag smarta skattesänkningar, inte fler statliga fonder och bidrag.
+26-1	2011-2021	Exempelvis	_	_	_	_	_	_	_	
+26-2	2022-2031	välkomnar	_	Target;Source[6]|_[7]	26-4[23];26-3|_	false[6]|false[7]	4[6]|2[7]	_	_	
+26-3	2032-2035	jag	*	_	_	_	_	_	_	
+26-4	2036-2042	smarta	*[23]	_	_	_	_	_	_	
+26-5	2043-2059	skattesänkningar	*[23]	_	_	_	_	_	_	
+26-6	2059-2060	,	_	_	_	_	_	_	_	
+26-7	2061-2065	inte	_	Target;Source	26-8[24];26-3	false	2	26-2[7_0]	_	
+26-8	2066-2070	fler	*[24]	_	_	_	_	_	_	
+26-9	2071-2079	statliga	*[24]	_	_	_	_	_	_	
+26-10	2080-2086	fonder	*[24]	_	_	_	_	_	_	
+26-11	2087-2090	och	*[24]	_	_	_	_	_	_	
+26-12	2091-2097	bidrag	*[24]	_	_	_	_	_	_	
+26-13	2097-2098	.	_	_	_	_	_	_	_	
+
+#Text=En bra riskkapitalförsörjning hänger inte på statliga satsningar utan på reglerna som påverkar förutsättningarna för entreprenörskap och tillväxt.
+27-1	2099-2101	En	_	_	_	_	_	_	_	
+27-2	2102-2105	bra	*	Target	27-2	false	4	_	_	
+27-3	2106-2128	riskkapitalförsörjning	_	_	_	_	_	_	_	
+27-4	2129-2135	hänger	_	_	_	_	_	_	_	
+27-5	2136-2140	inte	_	_	_	_	_	_	_	
+27-6	2141-2143	på	_	_	_	_	_	_	_	
+27-7	2144-2152	statliga	_	_	_	_	_	_	_	
+27-8	2153-2163	satsningar	_	_	_	_	_	_	_	
+27-9	2164-2168	utan	_	_	_	_	_	_	_	
+27-10	2169-2171	på	_	_	_	_	_	_	_	
+27-11	2172-2180	reglerna	_	_	_	_	_	_	_	
+27-12	2181-2184	som	_	_	_	_	_	_	_	
+27-13	2185-2193	påverkar	_	_	_	_	_	_	_	
+27-14	2194-2211	förutsättningarna	_	_	_	_	_	_	_	
+27-15	2212-2215	för	_	_	_	_	_	_	_	
+27-16	2216-2231	entreprenörskap	_	_	_	_	_	_	_	
+27-17	2232-2235	och	_	_	_	_	_	_	_	
+27-18	2236-2244	tillväxt	_	_	_	_	_	_	_	
+27-19	2244-2245	.	_	_	_	_	_	_	_	
+
+#Text=Det är så Sverige får fler jobb och fler entreprenörer.
+28-1	2246-2249	Det	_	_	_	_	_	_	_	
+28-2	2250-2252	är	_	_	_	_	_	_	_	
+28-3	2253-2255	så	_	_	_	_	_	_	_	
+28-4	2256-2263	Sverige	_	_	_	_	_	_	_	
+28-5	2264-2267	får	_	_	_	_	_	_	_	
+28-6	2268-2272	fler	_	_	_	_	_	_	_	
+28-7	2273-2277	jobb	_	_	_	_	_	_	_	
+28-8	2278-2281	och	_	_	_	_	_	_	_	
+28-9	2282-2286	fler	_	_	_	_	_	_	_	
+28-10	2287-2300	entreprenörer	_	_	_	_	_	_	_	
+28-11	2300-2301	.	_	_	_	_	_	_	_	
+
+#Text=När företag sedan växer och vågar anställa växer jobben och resurserna till den offentliga välfärden.
+29-1	2302-2305	När	_	_	_	_	_	_	_	
+29-2	2306-2313	företag	_	_	_	_	_	_	_	
+29-3	2314-2319	sedan	_	_	_	_	_	_	_	
+29-4	2320-2325	växer	_	_	_	_	_	_	_	
+29-5	2326-2329	och	_	_	_	_	_	_	_	
+29-6	2330-2335	vågar	_	_	_	_	_	_	_	
+29-7	2336-2344	anställa	_	_	_	_	_	_	_	
+29-8	2345-2350	växer	_	_	_	_	_	_	_	
+29-9	2351-2357	jobben	_	_	_	_	_	_	_	
+29-10	2358-2361	och	_	_	_	_	_	_	_	
+29-11	2362-2372	resurserna	_	_	_	_	_	_	_	
+29-12	2373-2377	till	_	_	_	_	_	_	_	
+29-13	2378-2381	den	_	_	_	_	_	_	_	
+29-14	2382-2392	offentliga	_	_	_	_	_	_	_	
+29-15	2393-2402	välfärden	_	_	_	_	_	_	_	
+29-16	2402-2403	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2405-2406	#	_	_	_	_	_	_	_	
+30-2	2406-2407	P	_	_	_	_	_	_	_	
+30-3	2408-2411	IMM	_	_	_	_	_	_	_	
+30-4	2411-2412	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+31-1	2414-2427	Skräddarsydda	_	_	_	_	_	_	_	
+31-2	2428-2434	kurser	_	_	_	_	_	_	_	
+31-3	2435-2436	i	_	_	_	_	_	_	_	
+31-4	2437-2442	ämnen	_	_	_	_	_	_	_	
+31-5	2443-2446	som	_	_	_	_	_	_	_	
+31-6	2447-2458	intresserar	_	_	_	_	_	_	_	
+31-7	2459-2462	och	_	_	_	_	_	_	_	
+31-8	2463-2472	engagerar	_	_	_	_	_	_	_	
+31-9	2473-2477	både	_	_	_	_	_	_	_	
+31-10	2478-2483	kropp	_	_	_	_	_	_	_	
+31-11	2484-2487	och	_	_	_	_	_	_	_	
+31-12	2488-2492	själ	_	_	_	_	_	_	_	
+31-13	2492-2493	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2495-2496	#	_	_	_	_	_	_	_	
+32-2	2496-2497	P	_	_	_	_	_	_	_	
+32-3	2498-2501	IMM	_	_	_	_	_	_	_	
+32-4	2501-2502	.	_	_	_	_	_	_	_	
+
+#Text=Under årets säsong av teveprogrammet Draknästet i SVT har jag fått förmånen att träffa många unga människor med starka drömmar om att gå från idéer till produkter eller tjänster.
+33-1	2504-2509	Under	*[25]	_	_	_	_	_	_	
+33-2	2510-2515	årets	*[25]	_	_	_	_	_	_	
+33-3	2516-2522	säsong	*[25]	_	_	_	_	_	_	
+33-4	2523-2525	av	*[25]	_	_	_	_	_	_	
+33-5	2526-2540	teveprogrammet	*[25]	_	_	_	_	_	_	
+33-6	2541-2551	Draknästet	*[25]	_	_	_	_	_	_	
+33-7	2552-2553	i	*[25]	_	_	_	_	_	_	
+33-8	2554-2557	SVT	*[25]	_	_	_	_	_	_	
+33-9	2558-2561	har	*[25]	_	_	false	5	_	_	
+33-10	2562-2565	jag	*[25]|*[26]	_	_	_	_	_	_	
+33-11	2566-2570	fått	*[25]	Source;Target[8]	33-10[26];33-1[25]	false[8]	5[8]	33-9[0_8]	_	
+33-12	2571-2579	förmånen	*[25]	Source;Target[8]	33-10[26];33-1[25]	false[8]	5[8]	_	_	
+33-13	2580-2583	att	*[25]	Source;Target[8]	33-10[26];33-1[25]	false[8]	5[8]	_	_	
+33-14	2584-2590	träffa	*[25]	_	_	_	_	_	_	
+33-15	2591-2596	många	*[25]	_	_	_	_	_	_	
+33-16	2597-2601	unga	*[25]	_	_	_	_	_	_	
+33-17	2602-2611	människor	*[25]	_	_	_	_	_	_	
+33-18	2612-2615	med	*[25]	_	_	_	_	_	_	
+33-19	2616-2622	starka	*[25]	_	_	_	_	_	_	
+33-20	2623-2630	drömmar	*[25]	_	_	_	_	_	_	
+33-21	2631-2633	om	*[25]	_	_	_	_	_	_	
+33-22	2634-2637	att	*[25]	_	_	_	_	_	_	
+33-23	2638-2640	gå	*[25]	_	_	_	_	_	_	
+33-24	2641-2645	från	*[25]	_	_	_	_	_	_	
+33-25	2646-2651	idéer	*[25]	_	_	_	_	_	_	
+33-26	2652-2656	till	*[25]	_	_	_	_	_	_	
+33-27	2657-2666	produkter	*[25]	_	_	_	_	_	_	
+33-28	2667-2672	eller	*[25]	_	_	_	_	_	_	
+33-29	2673-2681	tjänster	*[25]	_	_	_	_	_	_	
+33-30	2681-2682	.	_	_	_	_	_	_	_	
+
+#Text=Det är ungdomarna som har framtidens färdigheter och idéer.
+34-1	2683-2686	Det	_	_	_	_	_	_	_	
+34-2	2687-2689	är	_	_	_	_	_	_	_	
+34-3	2690-2700	ungdomarna	_	_	_	_	_	_	_	
+34-4	2701-2704	som	_	_	_	_	_	_	_	
+34-5	2705-2708	har	_	_	_	_	_	_	_	
+34-6	2709-2719	framtidens	_	_	_	_	_	_	_	
+34-7	2720-2731	färdigheter	_	_	_	_	_	_	_	
+34-8	2732-2735	och	_	_	_	_	_	_	_	
+34-9	2736-2741	idéer	_	_	_	_	_	_	_	
+34-10	2741-2742	.	_	_	_	_	_	_	_	
+
+#Text=Det är de som ska finansiera morgondagens välfärd och skapa de nya företagen.
+35-1	2743-2746	Det	_	_	_	_	_	_	_	
+35-2	2747-2749	är	_	_	_	_	_	_	_	
+35-3	2750-2752	de	_	_	_	_	_	_	_	
+35-4	2753-2756	som	_	_	_	_	_	_	_	
+35-5	2757-2760	ska	_	_	_	_	_	_	_	
+35-6	2761-2771	finansiera	_	_	_	_	_	_	_	
+35-7	2772-2784	morgondagens	_	_	_	_	_	_	_	
+35-8	2785-2792	välfärd	_	_	_	_	_	_	_	
+35-9	2793-2796	och	_	_	_	_	_	_	_	
+35-10	2797-2802	skapa	_	_	_	_	_	_	_	
+35-11	2803-2805	de	_	_	_	_	_	_	_	
+35-12	2806-2809	nya	_	_	_	_	_	_	_	
+35-13	2810-2819	företagen	_	_	_	_	_	_	_	
+35-14	2819-2820	.	_	_	_	_	_	_	_	
+
+#Text=Men det är alldeles för få som får chansen.
+36-1	2821-2824	Men	_	_	_	_	_	_	_	
+36-2	2825-2828	det	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-3	2829-2831	är	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-4	2832-2840	alldeles	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-5	2841-2844	för	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-6	2845-2847	få	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-7	2848-2851	som	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-8	2852-2855	får	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-9	2856-2863	chansen	*[27]	Target[9]	36-2[27]	false[9]	2[9]	_	_	
+36-10	2863-2864	.	_	_	_	_	_	_	_	
+
+#Text=Varje entreprenörssjäl behövs.
+37-1	2865-2870	Varje	_	_	_	_	_	_	_	
+37-2	2871-2887	entreprenörssjäl	*	Target	37-2	false	4	_	_	
+37-3	2888-2894	behövs	_	_	_	_	_	_	_	
+37-4	2894-2895	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2897-2898	#	_	_	_	_	_	_	_	
+38-2	2898-2899	P	_	_	_	_	_	_	_	
+38-3	2900-2903	IMM	_	_	_	_	_	_	_	
+38-4	2903-2904	.	_	_	_	_	_	_	_	
+
+#Text=Alliansregeringen har hållit det som lovades i förra valrörelsen om att det skulle bli enklare, roligare och lönsammare att vara företagare i Sverige.
+39-1	2906-2923	Alliansregeringen	_	_	_	_	_	_	_	
+39-2	2924-2927	har	_	_	_	_	_	_	_	
+39-3	2928-2934	hållit	_	_	_	_	_	_	_	
+39-4	2935-2938	det	_	_	_	_	_	_	_	
+39-5	2939-2942	som	_	_	_	_	_	_	_	
+39-6	2943-2950	lovades	_	_	_	_	_	_	_	
+39-7	2951-2952	i	_	_	_	_	_	_	_	
+39-8	2953-2958	förra	_	_	_	_	_	_	_	
+39-9	2959-2970	valrörelsen	_	_	_	_	_	_	_	
+39-10	2971-2973	om	_	_	_	_	_	_	_	
+39-11	2974-2977	att	_	_	_	_	_	_	_	
+39-12	2978-2981	det	_	_	_	_	_	_	_	
+39-13	2982-2988	skulle	_	_	_	_	_	_	_	
+39-14	2989-2992	bli	_	_	_	_	_	_	_	
+39-15	2993-3000	enklare	*[28]	Target[10]	39-15[28]	false[10]	5[10]	_	_	
+39-16	3000-3001	,	*[28]	Target[10]	39-15[28]	false[10]	5[10]	_	_	
+39-17	3002-3010	roligare	*[28]	Target[10]	39-15[28]	false[10]	5[10]	_	_	
+39-18	3011-3014	och	*[28]	Target[10]	39-15[28]	false[10]	5[10]	_	_	
+39-19	3015-3025	lönsammare	*[28]	Target[10]	39-15[28]	false[10]	5[10]	_	_	
+39-20	3026-3029	att	_	_	_	_	_	_	_	
+39-21	3030-3034	vara	_	_	_	_	_	_	_	
+39-22	3035-3045	företagare	_	_	_	_	_	_	_	
+39-23	3046-3047	i	_	_	_	_	_	_	_	
+39-24	3048-3055	Sverige	_	_	_	_	_	_	_	
+39-25	3055-3056	.	_	_	_	_	_	_	_	
+
+#Text=Idag kan våra småföretag ägna mer tid och resurser till att driva och utveckla sin verksamhet så att de kan växa och anställa.
+40-1	3057-3061	Idag	_	_	_	_	_	_	_	
+40-2	3062-3065	kan	_	_	_	_	_	_	_	
+40-3	3066-3070	våra	_	_	_	_	_	_	_	
+40-4	3071-3081	småföretag	_	_	_	_	_	_	_	
+40-5	3082-3086	ägna	_	_	_	_	_	_	_	
+40-6	3087-3090	mer	_	_	_	_	_	_	_	
+40-7	3091-3094	tid	_	_	_	_	_	_	_	
+40-8	3095-3098	och	_	_	_	_	_	_	_	
+40-9	3099-3107	resurser	_	_	_	_	_	_	_	
+40-10	3108-3112	till	_	_	_	_	_	_	_	
+40-11	3113-3116	att	_	_	_	_	_	_	_	
+40-12	3117-3122	driva	_	_	_	_	_	_	_	
+40-13	3123-3126	och	_	_	_	_	_	_	_	
+40-14	3127-3135	utveckla	_	_	_	_	_	_	_	
+40-15	3136-3139	sin	_	_	_	_	_	_	_	
+40-16	3140-3150	verksamhet	_	_	_	_	_	_	_	
+40-17	3151-3153	så	_	_	_	_	_	_	_	
+40-18	3154-3157	att	_	_	_	_	_	_	_	
+40-19	3158-3160	de	_	_	_	_	_	_	_	
+40-20	3161-3164	kan	_	_	_	_	_	_	_	
+40-21	3165-3169	växa	_	_	_	_	_	_	_	
+40-22	3170-3173	och	_	_	_	_	_	_	_	
+40-23	3174-3182	anställa	_	_	_	_	_	_	_	
+40-24	3182-3183	.	_	_	_	_	_	_	_	
+
+#Text=Jag har som entreprenör och riskkapitalist märkt av kraftiga förändringar i positiv riktning.
+41-1	3184-3187	Jag	_	_	_	_	_	_	_	
+41-2	3188-3191	har	_	_	_	_	_	_	_	
+41-3	3192-3195	som	_	_	_	_	_	_	_	
+41-4	3196-3207	entreprenör	_	_	_	_	_	_	_	
+41-5	3208-3211	och	_	_	_	_	_	_	_	
+41-6	3212-3226	riskkapitalist	_	_	_	_	_	_	_	
+41-7	3227-3232	märkt	_	_	_	_	_	_	_	
+41-8	3233-3235	av	_	_	_	_	_	_	_	
+41-9	3236-3244	kraftiga	*[29]	Target[11]	41-9[29]	false[11]	5[11]	_	_	
+41-10	3245-3257	förändringar	*[29]	Target[11]	41-9[29]	false[11]	5[11]	_	_	
+41-11	3258-3259	i	*[29]	Target[11]	41-9[29]	false[11]	5[11]	_	_	
+41-12	3260-3267	positiv	*[29]	Target[11]	41-9[29]	false[11]	5[11]	_	_	
+41-13	3268-3276	riktning	*[29]	Target[11]	41-9[29]	false[11]	5[11]	_	_	
+41-14	3276-3277	.	_	_	_	_	_	_	_	
+
+#Text=Det har blivit lägre trösklar för att fler ska starta företag, investera och växa i Sverige och synen på företagsamhet är på väg att förändras i grunden.
+42-1	3278-3281	Det	_	_	_	_	_	_	_	
+42-2	3282-3285	har	_	_	_	_	_	_	_	
+42-3	3286-3292	blivit	_	_	_	_	_	_	_	
+42-4	3293-3298	lägre	_	_	_	_	_	_	_	
+42-5	3299-3307	trösklar	_	_	_	_	_	_	_	
+42-6	3308-3311	för	_	_	_	_	_	_	_	
+42-7	3312-3315	att	_	_	_	_	_	_	_	
+42-8	3316-3320	fler	_	_	_	_	_	_	_	
+42-9	3321-3324	ska	_	_	_	_	_	_	_	
+42-10	3325-3331	starta	_	_	_	_	_	_	_	
+42-11	3332-3339	företag	_	_	_	_	_	_	_	
+42-12	3339-3340	,	_	_	_	_	_	_	_	
+42-13	3341-3350	investera	_	_	_	_	_	_	_	
+42-14	3351-3354	och	_	_	_	_	_	_	_	
+42-15	3355-3359	växa	_	_	_	_	_	_	_	
+42-16	3360-3361	i	_	_	_	_	_	_	_	
+42-17	3362-3369	Sverige	_	_	_	_	_	_	_	
+42-18	3370-3373	och	_	_	_	_	_	_	_	
+42-19	3374-3379	synen	_	_	_	_	_	_	_	
+42-20	3380-3382	på	_	_	_	_	_	_	_	
+42-21	3383-3396	företagsamhet	_	_	_	_	_	_	_	
+42-22	3397-3399	är	_	_	_	_	_	_	_	
+42-23	3400-3402	på	_	_	_	_	_	_	_	
+42-24	3403-3406	väg	_	_	_	_	_	_	_	
+42-25	3407-3410	att	_	_	_	_	_	_	_	
+42-26	3411-3420	förändras	_	_	_	_	_	_	_	
+42-27	3421-3422	i	_	_	_	_	_	_	_	
+42-28	3423-3430	grunden	_	_	_	_	_	_	_	
+42-29	3430-3431	.	_	_	_	_	_	_	_	
+
+#Text=Min största satsning, Nyheter24.se, har vågat anställa fler ungdomar i och med den halverade arbetsgivaravgiften för under 26-åringar.
+43-1	3432-3435	Min	_	_	_	_	_	_	_	
+43-2	3436-3443	största	_	_	_	_	_	_	_	
+43-3	3444-3452	satsning	_	_	_	_	_	_	_	
+43-4	3452-3453	,	_	_	_	_	_	_	_	
+43-5	3454-3463	Nyheter24	_	_	_	_	_	_	_	
+43-6	3463-3464	.	_	_	_	_	_	_	_	
+43-7	3464-3466	se	_	_	_	_	_	_	_	
+43-8	3466-3467	,	_	_	_	_	_	_	_	
+43-9	3468-3471	har	_	_	_	_	_	_	_	
+43-10	3472-3477	vågat	_	_	_	_	_	_	_	
+43-11	3478-3486	anställa	_	_	_	_	_	_	_	
+43-12	3487-3491	fler	_	_	_	_	_	_	_	
+43-13	3492-3500	ungdomar	_	_	_	_	_	_	_	
+43-14	3501-3502	i	_	_	_	_	_	_	_	
+43-15	3503-3506	och	_	_	_	_	_	_	_	
+43-16	3507-3510	med	_	_	_	_	_	_	_	
+43-17	3511-3514	den	_	_	_	_	_	_	_	
+43-18	3515-3524	halverade	_	_	_	_	_	_	_	
+43-19	3525-3544	arbetsgivaravgiften	_	_	_	_	_	_	_	
+43-20	3545-3548	för	_	_	_	_	_	_	_	
+43-21	3549-3554	under	_	_	_	_	_	_	_	
+43-22	3555-3557	26	_	_	_	_	_	_	_	
+43-23	3557-3558	-	_	_	_	_	_	_	_	
+43-24	3558-3565	åringar	_	_	_	_	_	_	_	
+43-25	3565-3566	.	_	_	_	_	_	_	_	
+
+#Text=Med goda idéer, hårt arbete och ansvarstagande kan man komma längre än förut.
+44-1	3567-3570	Med	_	_	_	_	_	_	_	
+44-2	3571-3575	goda	*[30]	Target[12]	44-2[30]	false[12]	5[12]	_	_	
+44-3	3576-3581	idéer	*[30]	Target[12]	44-2[30]	false[12]	5[12]	_	_	
+44-4	3581-3582	,	_	_	_	_	_	_	_	
+44-5	3583-3587	hårt	_	_	_	_	_	_	_	
+44-6	3588-3594	arbete	_	_	_	_	_	_	_	
+44-7	3595-3598	och	_	_	_	_	_	_	_	
+44-8	3599-3613	ansvarstagande	_	_	_	_	_	_	_	
+44-9	3614-3617	kan	_	_	_	_	_	_	_	
+44-10	3618-3621	man	_	_	_	_	_	_	_	
+44-11	3622-3627	komma	_	_	_	_	_	_	_	
+44-12	3628-3634	längre	_	_	_	_	_	_	_	
+44-13	3635-3637	än	_	_	_	_	_	_	_	
+44-14	3638-3643	förut	_	_	_	_	_	_	_	
+44-15	3643-3644	.	_	_	_	_	_	_	_	
+
+#Text=Det lönar sig helt enkelt bättre att vara företagsam, att ta risker, att vara innovativ och att anstränga sig.
+45-1	3645-3648	Det	_	_	_	_	_	_	_	
+45-2	3649-3654	lönar	_	_	_	_	_	_	_	
+45-3	3655-3658	sig	_	_	_	_	_	_	_	
+45-4	3659-3663	helt	_	_	_	_	_	_	_	
+45-5	3664-3670	enkelt	_	_	_	_	_	_	_	
+45-6	3671-3677	bättre	_	_	_	_	_	_	_	
+45-7	3678-3681	att	_	_	_	_	_	_	_	
+45-8	3682-3686	vara	_	_	_	_	_	_	_	
+45-9	3687-3697	företagsam	_	_	_	_	_	_	_	
+45-10	3697-3698	,	_	_	_	_	_	_	_	
+45-11	3699-3702	att	_	_	_	_	_	_	_	
+45-12	3703-3705	ta	_	_	_	_	_	_	_	
+45-13	3706-3712	risker	_	_	_	_	_	_	_	
+45-14	3712-3713	,	_	_	_	_	_	_	_	
+45-15	3714-3717	att	_	_	_	_	_	_	_	
+45-16	3718-3722	vara	_	_	_	_	_	_	_	
+45-17	3723-3732	innovativ	_	_	_	_	_	_	_	
+45-18	3733-3736	och	_	_	_	_	_	_	_	
+45-19	3737-3740	att	_	_	_	_	_	_	_	
+45-20	3741-3750	anstränga	_	_	_	_	_	_	_	
+45-21	3751-3754	sig	_	_	_	_	_	_	_	
+45-22	3754-3755	.	_	_	_	_	_	_	_	
+
+#Text=Det har blivit billigare att anställa, lättare att få loss resurser för investeringar och mindre krångel i företagares vardag.
+46-1	3756-3759	Det	_	_	_	_	_	_	_	
+46-2	3760-3763	har	_	_	_	_	_	_	_	
+46-3	3764-3770	blivit	_	_	_	_	_	_	_	
+46-4	3771-3780	billigare	_	_	_	_	_	_	_	
+46-5	3781-3784	att	_	_	_	_	_	_	_	
+46-6	3785-3793	anställa	_	_	_	_	_	_	_	
+46-7	3793-3794	,	_	_	_	_	_	_	_	
+46-8	3795-3802	lättare	_	_	_	_	_	_	_	
+46-9	3803-3806	att	_	_	_	_	_	_	_	
+46-10	3807-3809	få	_	_	_	_	_	_	_	
+46-11	3810-3814	loss	_	_	_	_	_	_	_	
+46-12	3815-3823	resurser	_	_	_	_	_	_	_	
+46-13	3824-3827	för	_	_	_	_	_	_	_	
+46-14	3828-3841	investeringar	_	_	_	_	_	_	_	
+46-15	3842-3845	och	_	_	_	_	_	_	_	
+46-16	3846-3852	mindre	*[31]	Target[13]	46-16[31]	false[13]	4[13]	_	_	
+46-17	3853-3860	krångel	*[31]	Target[13]	46-16[31]	false[13]	4[13]	_	_	
+46-18	3861-3862	i	_	_	_	_	_	_	_	
+46-19	3863-3874	företagares	_	_	_	_	_	_	_	
+46-20	3875-3881	vardag	_	_	_	_	_	_	_	
+46-21	3881-3882	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3884-3885	#	_	_	_	_	_	_	_	
+47-2	3885-3886	P	_	_	_	_	_	_	_	
+47-3	3887-3890	IMM	_	_	_	_	_	_	_	
+47-4	3890-3891	.	_	_	_	_	_	_	_	
+
+#Text=Alla entreprenörer i Sverige bör gå och rösta på söndag.
+48-1	3893-3897	Alla	_	_	_	_	_	_	_	
+48-2	3898-3911	entreprenörer	_	_	_	_	_	_	_	
+48-3	3912-3913	i	_	_	_	_	_	_	_	
+48-4	3914-3921	Sverige	_	_	_	_	_	_	_	
+48-5	3922-3925	bör	_	_	_	_	_	_	_	
+48-6	3926-3928	gå	_	_	_	_	_	_	_	
+48-7	3929-3932	och	_	_	_	_	_	_	_	
+48-8	3933-3938	rösta	_	_	_	_	_	_	_	
+48-9	3939-3941	på	_	_	_	_	_	_	_	
+48-10	3942-3948	söndag	_	_	_	_	_	_	_	
+48-11	3948-3949	.	_	_	_	_	_	_	_	
+
+#Text=Politik skapar inte entreprenörer men felaktig politik kan effektivt kväva dem.
+49-1	3950-3957	Politik	_	_	_	_	_	_	_	
+49-2	3958-3964	skapar	_	_	_	_	_	_	_	
+49-3	3965-3969	inte	_	_	_	_	_	_	_	
+49-4	3970-3983	entreprenörer	_	_	_	_	_	_	_	
+49-5	3984-3987	men	_	_	_	_	_	_	_	
+49-6	3988-3996	felaktig	*[32]	Target[14]	49-6[32]	false[14]	2[14]	_	_	
+49-7	3997-4004	politik	*[32]	Target[14]	49-6[32]	false[14]	2[14]	_	_	
+49-8	4005-4008	kan	_	_	_	_	_	_	_	
+49-9	4009-4018	effektivt	_	_	_	_	_	_	_	
+49-10	4019-4024	kväva	_	_	_	_	_	_	_	
+49-11	4025-4028	dem	_	_	_	_	_	_	_	
+49-12	4028-4029	.	_	_	_	_	_	_	_	
+
+#Text=Jag har som intresserad medborgare följt Alliansregeringens arbete de senaste fyra åren och jag kan konstatera att Centerpartiet drivs av en genuin vilja att främja företagsamhet och entreprenörskap.
+50-1	4030-4033	Jag	_	_	_	_	_	_	_	
+50-2	4034-4037	har	_	_	_	_	_	_	_	
+50-3	4038-4041	som	_	_	_	_	_	_	_	
+50-4	4042-4053	intresserad	_	_	_	_	_	_	_	
+50-5	4054-4064	medborgare	_	_	_	_	_	_	_	
+50-6	4065-4070	följt	_	_	_	_	_	_	_	
+50-7	4071-4089	Alliansregeringens	_	_	_	_	_	_	_	
+50-8	4090-4096	arbete	_	_	_	_	_	_	_	
+50-9	4097-4099	de	_	_	_	_	_	_	_	
+50-10	4100-4107	senaste	_	_	_	_	_	_	_	
+50-11	4108-4112	fyra	_	_	_	_	_	_	_	
+50-12	4113-4117	åren	_	_	_	_	_	_	_	
+50-13	4118-4121	och	_	_	_	_	_	_	_	
+50-14	4122-4125	jag	_	_	_	_	_	_	_	
+50-15	4126-4129	kan	_	_	_	_	_	_	_	
+50-16	4130-4140	konstatera	_	_	_	_	_	_	_	
+50-17	4141-4144	att	_	_	_	_	_	_	_	
+50-18	4145-4158	Centerpartiet	*	_	_	_	_	_	_	
+50-19	4159-4164	drivs	_	_	_	_	_	_	_	
+50-20	4165-4167	av	_	_	_	_	_	_	_	
+50-21	4168-4170	en	_	Target;Source;Target[15]	50-28;50-18;50-26	false[15]	5[15]	_	_	
+50-22	4171-4177	genuin	_	Target;Source;Target[15]	50-28;50-18;50-26	false[15]	5[15]	_	_	
+50-23	4178-4183	vilja	_	Target;Source;Target[15]	50-28;50-18;50-26	false[15]	5[15]	_	_	
+50-24	4184-4187	att	_	Target;Source;Target[15]	50-28;50-18;50-26	false[15]	5[15]	_	_	
+50-25	4188-4194	främja	_	Target;Source;Target[15]	50-28;50-18;50-26	false[15]	5[15]	_	_	
+50-26	4195-4208	företagsamhet	*	_	_	_	_	_	_	
+50-27	4209-4212	och	_	_	_	_	_	_	_	
+50-28	4213-4228	entreprenörskap	*	_	_	_	_	_	_	
+50-29	4228-4229	.	_	_	_	_	_	_	_	
+
+#Text=Centerpartiet är det enda företagarpartiet inom Alliansen och i valet till riksdagen.
+51-1	4230-4243	Centerpartiet	_	_	_	_	_	_	_	
+51-2	4244-4246	är	_	_	_	_	_	_	_	
+51-3	4247-4250	det	_	_	_	_	_	_	_	
+51-4	4251-4255	enda	_	_	_	_	_	_	_	
+51-5	4256-4272	företagarpartiet	_	_	_	_	_	_	_	
+51-6	4273-4277	inom	_	_	_	_	_	_	_	
+51-7	4278-4287	Alliansen	_	_	_	_	_	_	_	
+51-8	4288-4291	och	_	_	_	_	_	_	_	
+51-9	4292-4293	i	_	_	_	_	_	_	_	
+51-10	4294-4299	valet	_	_	_	_	_	_	_	
+51-11	4300-4304	till	_	_	_	_	_	_	_	
+51-12	4305-4314	riksdagen	_	_	_	_	_	_	_	
+51-13	4314-4315	.	_	_	_	_	_	_	_	
+
+#Text=Maud Olofsson har varit den bästa näringsminister som Sverige haft i modern tid.
+52-1	4316-4320	Maud	*[33]|*[34]	_	_	_	_	_	53-1[0_34]	
+52-2	4321-4329	Olofsson	*[33]|*[34]	_	_	_	_	_	_	
+52-3	4330-4333	har	_	_	_	_	_	_	_	
+52-4	4334-4339	varit	_	_	_	_	_	_	_	
+52-5	4340-4343	den	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-6	4344-4349	bästa	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-7	4350-4365	näringsminister	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-8	4366-4369	som	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-9	4370-4377	Sverige	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-10	4378-4382	haft	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-11	4383-4384	i	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-12	4385-4391	modern	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-13	4392-4395	tid	_	Target[16]	52-1[33]	false[16]	5[16]	_	_	
+52-14	4395-4396	.	_	_	_	_	_	_	_	
+
+#Text=Hon har politiken för att främja fler jobb i nya och växande företag.
+53-1	4397-4400	Hon	*	_	_	_	_	_	_	
+53-2	4401-4404	har	_	_	_	_	_	_	_	
+53-3	4405-4414	politiken	_	_	_	_	_	_	_	
+53-4	4415-4418	för	_	_	_	_	_	_	_	
+53-5	4419-4422	att	_	_	_	_	_	_	_	
+53-6	4423-4429	främja	_	Source;Target	53-1;53-7[35]	false	5	_	_	
+53-7	4430-4434	fler	*[35]	_	_	_	_	_	_	
+53-8	4435-4439	jobb	*[35]	_	_	_	_	_	_	
+53-9	4440-4441	i	*[35]	_	_	_	_	_	_	
+53-10	4442-4445	nya	*[35]	_	_	_	_	_	_	
+53-11	4446-4449	och	*[35]	_	_	_	_	_	_	
+53-12	4450-4457	växande	*[35]	_	_	_	_	_	_	
+53-13	4458-4465	företag	*[35]	_	_	_	_	_	_	
+53-14	4465-4466	.	_	_	_	_	_	_	_	
+
+#Text=Jag kommer därför att lägga min röst på Centerpartiet nu på söndag.
+54-1	4467-4470	Jag	_	_	_	_	_	_	_	
+54-2	4471-4477	kommer	_	_	_	_	_	_	_	
+54-3	4478-4484	därför	_	_	_	_	_	_	_	
+54-4	4485-4488	att	_	_	_	_	_	_	_	
+54-5	4489-4494	lägga	_	_	_	_	_	_	_	
+54-6	4495-4498	min	_	_	_	_	_	_	_	
+54-7	4499-4503	röst	_	_	_	_	_	_	_	
+54-8	4504-4506	på	_	_	_	_	_	_	_	
+54-9	4507-4520	Centerpartiet	_	_	_	_	_	_	_	
+54-10	4521-4523	nu	_	_	_	_	_	_	_	
+54-11	4524-4526	på	_	_	_	_	_	_	_	
+54-12	4527-4533	söndag	_	_	_	_	_	_	_	
+54-13	4533-4534	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4536-4537	#	_	_	_	_	_	_	_	
+55-2	4537-4538	P	_	_	_	_	_	_	_	
+55-3	4539-4542	IMM	_	_	_	_	_	_	_	
+55-4	4542-4543	.	_	_	_	_	_	_	_	
+
+#Text=DOUGLAS ROOS.
+56-1	4545-4552	DOUGLAS	_	_	_	_	_	_	_	
+56-2	4553-4557	ROOS	_	_	_	_	_	_	_	
+56-3	4557-4558	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4560-4561	#	_	_	_	_	_	_	_	
+57-2	4561-4562	P	_	_	_	_	_	_	_	
+57-3	4563-4566	IMM	_	_	_	_	_	_	_	
+57-4	4566-4567	.	_	_	_	_	_	_	_	
+
+#Text=ordförande, Nyheter24.
+58-1	4569-4579	ordförande	_	_	_	_	_	_	_	
+58-2	4579-4580	,	_	_	_	_	_	_	_	
+58-3	4581-4590	Nyheter24	_	_	_	_	_	_	_	
+58-4	4590-4591	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4593-4594	#	_	_	_	_	_	_	_	
+59-2	4594-4595	P	_	_	_	_	_	_	_	
+59-3	4596-4599	IMM	_	_	_	_	_	_	_	
+59-4	4599-4600	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+60-1	4602-4610	Redaktör	_	_	_	_	_	_	_	
+60-2	4610-4611	:	_	_	_	_	_	_	_	
+60-3	4612-4618	Carina	_	_	_	_	_	_	_	
+60-4	4619-4627	Stensson	_	_	_	_	_	_	_	
+60-5	4627-4628	,	_	_	_	_	_	_	_	
+60-6	4629-4639	Biträdande	_	_	_	_	_	_	_	
+60-7	4640-4648	redaktör	_	_	_	_	_	_	_	
+60-8	4648-4649	:	_	_	_	_	_	_	_	
+60-9	4650-4655	Björn	_	_	_	_	_	_	_	
+60-10	4656-4662	Jorner	_	_	_	_	_	_	_	
+60-11	4662-4663	,	_	_	_	_	_	_	_	
+60-12	4664-4668	Mejl	_	_	_	_	_	_	_	
+60-13	4668-4669	:	_	_	_	_	_	_	_	
+60-14	4670-4676	debatt	_	_	_	_	_	_	_	
+60-15	4676-4677	@	_	_	_	_	_	_	_	
+60-16	4677-4683	svd.se	_	_	_	_	_	_	_	
+60-17	4683-4684	,	_	_	_	_	_	_	_	
+60-18	4685-4698	Telefonnummer	_	_	_	_	_	_	_	
+60-19	4698-4699	:	_	_	_	_	_	_	_	
+60-20	4700-4702	08	_	_	_	_	_	_	_	
+60-21	4702-4703	-	_	_	_	_	_	_	_	
+60-22	4703-4709	135149	_	_	_	_	_	_	_	
+60-23	4709-4710	,	_	_	_	_	_	_	_	
+60-24	4711-4718	Twitter	_	_	_	_	_	_	_	
+60-25	4718-4719	:	_	_	_	_	_	_	_	
+60-26	4720-4721	@	_	_	_	_	_	_	_	
+60-27	4721-4730	SvDDebatt	_	_	_	_	_	_	_	
+60-28	4730-4731	,	_	_	_	_	_	_	_	
+60-29	4732-4740	Facebook	_	_	_	_	_	_	_	
+60-30	4740-4741	:	_	_	_	_	_	_	_	
+60-31	4742-4745	SvD	_	_	_	_	_	_	_	
+60-32	4746-4752	Debatt	_	_	_	_	_	_	_	
+60-33	4752-4753	.	_	_	_	_	_	_	_	

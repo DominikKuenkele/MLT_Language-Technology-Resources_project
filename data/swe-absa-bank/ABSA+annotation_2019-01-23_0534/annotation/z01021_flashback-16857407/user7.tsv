@@ -1,0 +1,114 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Muhammedanska terrorister i fängelse kräver assimilation (av kvinnor).
+3-1	18-31	Muhammedanska	_	_	_	_	_	_	
+3-2	32-43	terrorister	_	_	_	_	_	_	
+3-3	44-45	i	_	_	_	_	_	_	
+3-4	46-54	fängelse	_	_	_	_	_	_	
+3-5	55-61	kräver	_	_	_	_	_	_	
+3-6	62-74	assimilation	_	_	_	_	_	_	
+3-7	75-76	(	_	_	_	_	_	_	
+3-8	76-78	av	_	_	_	_	_	_	
+3-9	79-86	kvinnor	_	_	_	_	_	_	
+3-10	86-87	)	_	_	_	_	_	_	
+3-11	87-88	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	90-91	#	_	_	_	_	_	_	
+4-2	91-92	P	_	_	_	_	_	_	
+4-3	93-96	IMM	_	_	_	_	_	_	
+4-4	96-97	.	_	_	_	_	_	_	
+
+#Text=Är det rimligt att samhället anpassar sig till terroristers önskemål om rätten att slippa kvinnor (dvs är det en seriös religiös fråga eller bara ett nytt sätt ställa till problem)?.
+5-1	99-101	Är	_	_	_	false	4	_	
+5-2	102-105	det	_	_	_	_	_	_	
+5-3	106-113	rimligt	_	Target	5-4[3]	false	4	5-1	
+5-4	114-117	att	*[3]	_	_	_	_	_	
+5-5	118-127	samhället	*[3]	_	_	_	_	_	
+5-6	128-136	anpassar	*[3]	_	_	_	_	_	
+5-7	137-140	sig	*[3]	_	_	_	_	_	
+5-8	141-145	till	*[3]	_	_	_	_	_	
+5-9	146-158	terroristers	*[3]|*[4]	_	_	_	_	_	
+5-10	159-167	önskemål	*[3]	Source;Target[1]	5-9[4];5-12[5]	false[1]	4[1]	_	
+5-11	168-170	om	*[3]	Source;Target[1]	5-9[4];5-12[5]	false[1]	4[1]	_	
+5-12	171-177	rätten	*[3]|*[5]	_	_	_	_	_	
+5-13	178-181	att	*[3]|*[5]	_	_	_	_	_	
+5-14	182-188	slippa	*[3]|*[5]	_	_	_	_	_	
+5-15	189-196	kvinnor	*[3]|*[5]	_	_	_	_	_	
+5-16	197-198	(	_	_	_	_	_	_	
+5-17	198-201	dvs	_	_	_	_	_	_	
+5-18	202-204	är	_	_	_	_	_	_	
+5-19	205-208	det	_	_	_	_	_	_	
+5-20	209-211	en	_	_	_	_	_	_	
+5-21	212-218	seriös	_	Target	5-22[6]	false	4	_	
+5-22	219-227	religiös	*[6]	_	_	_	_	_	
+5-23	228-233	fråga	*[6]	_	_	_	_	_	
+5-24	234-239	eller	_	_	_	_	_	_	
+5-25	240-244	bara	_	_	_	_	_	_	
+5-26	245-248	ett	_	_	_	_	_	_	
+5-27	249-253	nytt	_	_	_	_	_	_	
+5-28	254-258	sätt	_	_	_	_	_	_	
+5-29	259-265	ställa	_	_	_	_	_	_	
+5-30	266-270	till	_	_	_	_	_	_	
+5-31	271-278	problem	_	_	_	_	_	_	
+5-32	278-279	)	_	_	_	_	_	_	
+5-33	279-280	?	_	_	_	_	_	_	
+5-34	280-281	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	283-284	#	_	_	_	_	_	_	
+6-2	284-285	P	_	_	_	_	_	_	
+6-3	286-289	IMM	_	_	_	_	_	_	
+6-4	289-290	.	_	_	_	_	_	_	
+
+#Text=Vad innebär det för kvinnors karriärmöjligheter när slippakvinnorsyndromet accepteras utanför fängelsesystemet?.
+7-1	292-295	Vad	_	_	_	_	_	_	
+7-2	296-303	innebär	_	_	_	_	_	_	
+7-3	304-307	det	_	_	_	_	_	_	
+7-4	308-311	för	_	_	_	_	_	_	
+7-5	312-320	kvinnors	_	_	_	_	_	_	
+7-6	321-339	karriärmöjligheter	_	_	_	_	_	_	
+7-7	340-343	när	_	_	_	_	_	_	
+7-8	344-366	slippakvinnorsyndromet	*	Target	7-8	false	2	_	
+7-9	367-377	accepteras	_	_	_	_	_	_	
+7-10	378-385	utanför	_	_	_	_	_	_	
+7-11	386-402	fängelsesystemet	_	_	_	_	_	_	
+7-12	402-403	?	_	_	_	_	_	_	
+7-13	403-404	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	406-407	#	_	_	_	_	_	_	
+8-2	407-408	P	_	_	_	_	_	_	
+8-3	409-412	IMM	_	_	_	_	_	_	
+8-4	412-413	.	_	_	_	_	_	_	
+
+#Text=Bakgrunden är att terrorister i UK klagar över kvinnliga fångvaktare-särskilt på fredagarna.
+9-1	415-425	Bakgrunden	_	_	_	_	_	_	
+9-2	426-428	är	_	_	_	_	_	_	
+9-3	429-432	att	_	_	_	_	_	_	
+9-4	433-444	terrorister	*[7]	_	_	_	_	_	
+9-5	445-446	i	*[7]	_	_	_	_	_	
+9-6	447-449	UK	*[7]	_	_	_	_	_	
+9-7	450-456	klagar	_	Source;Target[2]	9-4[7];9-9[8]	false[2]	2[2]	_	
+9-8	457-461	över	_	Source;Target[2]	9-4[7];9-9[8]	false[2]	2[2]	_	
+9-9	462-471	kvinnliga	*[8]	_	_	_	_	_	
+9-10	472-492	fångvaktare-särskilt	*[8]	_	_	_	_	_	
+9-11	493-495	på	_	_	_	_	_	_	
+9-12	496-506	fredagarna	_	_	_	_	_	_	
+9-13	506-507	.	_	_	_	_	_	_	

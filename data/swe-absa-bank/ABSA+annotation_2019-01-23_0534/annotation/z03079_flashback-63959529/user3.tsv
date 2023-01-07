@@ -1,0 +1,71 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Lika lön för lika arbete?
+3-1	18-22	Lika	_	_	_	_	_	_	
+3-2	23-26	lön	_	_	_	_	_	_	
+3-3	27-30	för	_	_	_	_	_	_	
+3-4	31-35	lika	_	_	_	_	_	_	
+3-5	36-42	arbete	_	_	_	_	_	_	
+3-6	42-43	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	45-46	#	_	_	_	_	_	_	
+4-2	46-47	P	_	_	_	_	_	_	
+4-3	48-51	IMM	_	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	_	
+
+#Text=Har vi några lagar i det här landet som reglerar detta?.
+5-1	54-57	Har	_	_	_	_	_	_	
+5-2	58-60	vi	_	_	_	_	_	_	
+5-3	61-66	några	_	_	_	_	_	_	
+5-4	67-72	lagar	_	_	_	_	_	_	
+5-5	73-74	i	_	_	_	_	_	_	
+5-6	75-78	det	_	_	_	_	_	_	
+5-7	79-82	här	_	_	_	_	_	_	
+5-8	83-89	landet	_	_	_	_	_	_	
+5-9	90-93	som	_	_	_	_	_	_	
+5-10	94-102	reglerar	_	_	_	_	_	_	
+5-11	103-108	detta	_	_	_	_	_	_	
+5-12	108-109	?	_	_	_	_	_	_	
+5-13	109-110	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	112-113	#	_	_	_	_	_	_	
+6-2	113-114	P	_	_	_	_	_	_	
+6-3	115-118	IMM	_	_	_	_	_	_	
+6-4	118-119	.	_	_	_	_	_	_	
+
+#Text=Verkar skevt att vissa arbetsgivare kan diskriminera öppet med olika lön för olika typer av personer.
+7-1	121-127	Verkar	_	_[1]	_	false[1]	2[1]	_	
+7-2	128-133	skevt	_	_[1]	_	false[1]	2[1]	_	
+7-3	134-137	att	_	_	_	_	_	_	
+7-4	138-143	vissa	*[3]	_	_	_	_	_	
+7-5	144-156	arbetsgivare	*[3]	_	_	_	_	_	
+7-6	157-160	kan	_	Target[2]	7-4[3]	false[2]	2[2]	7-1[1_2]	
+7-7	161-173	diskriminera	_	Target[2]	7-4[3]	false[2]	2[2]	_	
+7-8	174-179	öppet	_	Target[2]	7-4[3]	false[2]	2[2]	_	
+7-9	180-183	med	_	_	_	_	_	_	
+7-10	184-189	olika	_	_	_	_	_	_	
+7-11	190-193	lön	_	_	_	_	_	_	
+7-12	194-197	för	_	_	_	_	_	_	
+7-13	198-203	olika	_	_	_	_	_	_	
+7-14	204-209	typer	_	_	_	_	_	_	
+7-15	210-212	av	_	_	_	_	_	_	
+7-16	213-221	personer	_	_	_	_	_	_	
+7-17	221-222	.	_	_	_	_	_	_	

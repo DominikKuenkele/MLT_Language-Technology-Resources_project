@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Är ordet rasist rasistiskt?
+3-1	18-20	Är	_	_	_	false	1	_	
+3-2	21-26	ordet	*[2]	_	_	_	_	_	
+3-3	27-33	rasist	*[2]	_	_	_	_	_	
+3-4	34-44	rasistiskt	_	Target	3-2[2]	false	1	3-1	
+3-5	44-45	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	47-48	#	_	_	_	_	_	_	
+4-2	48-49	P	_	_	_	_	_	_	
+4-3	50-53	IMM	_	_	_	_	_	_	
+4-4	53-54	.	_	_	_	_	_	_	
+
+#Text=Hörde av en polare att en bör säga funktionsvarierad istället för funktionsnedsatt, eftersom ordet funktionsnedsättning förutsätter en nedsättning och att så behöver det inte vara.
+5-1	56-61	Hörde	_	_	_	_	_	_	
+5-2	62-64	av	_	_	_	_	_	_	
+5-3	65-67	en	*[3]	_	_	_	_	_	
+5-4	68-74	polare	*[3]	_	_	_	_	_	
+5-5	75-78	att	_	_	_	_	_	_	
+5-6	79-81	en	_	_	_	_	_	_	
+5-7	82-85	bör	_	Target;Source[1]	5-9[4];5-3[3]	false[1]	4[1]	_	
+5-8	86-90	säga	_	Target;Source[1]	5-9[4];5-3[3]	false[1]	4[1]	_	
+5-9	91-108	funktionsvarierad	*[4]	_	_	_	_	_	
+5-10	109-117	istället	*[4]	_	_	_	_	_	
+5-11	118-121	för	*[4]	_	_	_	_	_	
+5-12	122-138	funktionsnedsatt	*[4]	_	_	_	_	_	
+5-13	138-139	,	_	_	_	_	_	_	
+5-14	140-148	eftersom	_	_	_	_	_	_	
+5-15	149-154	ordet	_	_	_	_	_	_	
+5-16	155-175	funktionsnedsättning	_	_	_	_	_	_	
+5-17	176-187	förutsätter	_	_	_	_	_	_	
+5-18	188-190	en	_	_	_	_	_	_	
+5-19	191-202	nedsättning	_	_	_	_	_	_	
+5-20	203-206	och	_	_	_	_	_	_	
+5-21	207-210	att	_	_	_	_	_	_	
+5-22	211-213	så	_	_	_	_	_	_	
+5-23	214-221	behöver	_	_	_	_	_	_	
+5-24	222-225	det	_	_	_	_	_	_	
+5-25	226-230	inte	_	_	_	_	_	_	
+5-26	231-235	vara	_	_	_	_	_	_	
+5-27	235-236	.	_	_	_	_	_	_	
+
+#Text=Det fick mig att tänka:.
+6-1	237-240	Det	_	_	_	_	_	_	
+6-2	241-245	fick	_	_	_	_	_	_	
+6-3	246-249	mig	_	_	_	_	_	_	
+6-4	250-253	att	_	_	_	_	_	_	
+6-5	254-259	tänka	_	_	_	_	_	_	
+6-6	259-260	:	_	_	_	_	_	_	
+6-7	260-261	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	263-264	#	_	_	_	_	_	_	
+7-2	264-265	P	_	_	_	_	_	_	
+7-3	266-269	IMM	_	_	_	_	_	_	
+7-4	269-270	.	_	_	_	_	_	_	
+
+#Text=Ordet rasist; förutsätter det att människan är uppdelad i raser?
+8-1	272-277	Ordet	_	_	_	_	_	_	
+8-2	278-284	rasist	_	_	_	_	_	_	
+8-3	284-285	;	_	_	_	_	_	_	
+8-4	286-297	förutsätter	_	_	_	_	_	_	
+8-5	298-301	det	_	_	_	_	_	_	
+8-6	302-305	att	_	_	_	_	_	_	
+8-7	306-315	människan	_	_	_	_	_	_	
+8-8	316-318	är	_	_	_	_	_	_	
+8-9	319-327	uppdelad	_	_	_	_	_	_	
+8-10	328-329	i	_	_	_	_	_	_	
+8-11	330-335	raser	_	_	_	_	_	_	
+8-12	335-336	?	_	_	_	_	_	_	
+
+#Text=(Typ som klassism; det finns olika klasser och borgarklassen vill bevara klassystemet för att bevara sina privilegier som borgarklass.)
+9-1	337-338	(	_	_	_	_	_	_	
+9-2	338-341	Typ	_	_	_	_	_	_	
+9-3	342-345	som	_	_	_	_	_	_	
+9-4	346-354	klassism	_	_	_	_	_	_	
+9-5	354-355	;	_	_	_	_	_	_	
+9-6	356-359	det	_	_	_	_	_	_	
+9-7	360-365	finns	_	_	_	_	_	_	
+9-8	366-371	olika	_	_	_	_	_	_	
+9-9	372-379	klasser	_	_	_	_	_	_	
+9-10	380-383	och	_	_	_	_	_	_	
+9-11	384-397	borgarklassen	_	_	_	_	_	_	
+9-12	398-402	vill	_	_	_	_	_	_	
+9-13	403-409	bevara	_	_	_	_	_	_	
+9-14	410-422	klassystemet	_	_	_	_	_	_	
+9-15	423-426	för	_	_	_	_	_	_	
+9-16	427-430	att	_	_	_	_	_	_	
+9-17	431-437	bevara	_	_	_	_	_	_	
+9-18	438-442	sina	_	_	_	_	_	_	
+9-19	443-454	privilegier	_	_	_	_	_	_	
+9-20	455-458	som	_	_	_	_	_	_	
+9-21	459-470	borgarklass	_	_	_	_	_	_	
+9-22	470-471	.	_	_	_	_	_	_	
+9-23	471-472	)	_	_	_	_	_	_	
+
+#Text=I så fall är väl ordet rasist rasistiskt?.
+10-1	473-474	I	_	_	_	_	_	_	
+10-2	475-477	så	_	_	_	_	_	_	
+10-3	478-482	fall	_	_	_	_	_	_	
+10-4	483-485	är	_	_	_	false	1	_	
+10-5	486-489	väl	_	_	_	_	_	_	
+10-6	490-495	ordet	*[5]	_	_	_	_	_	
+10-7	496-502	rasist	*[5]	_	_	_	_	_	
+10-8	503-513	rasistiskt	_	Target	10-6[5]	false	1	10-4	
+10-9	513-514	?	_	_	_	_	_	_	
+10-10	514-515	.	_	_	_	_	_	_	

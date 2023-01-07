@@ -1,0 +1,837 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Alla ungdomar ska få   
+#Text=chans till sommarjobb.
+3-1	18-22	Alla	_	_	_	_	_	_	_	
+3-2	23-31	ungdomar	_	_	_	_	_	_	_	
+3-3	32-35	ska	_	_	_	_	_	_	_	
+3-4	36-38	få	_	_	_	_	_	_	_	
+3-5	42-47	chans	_	Target[1]	3-7	false[1]	4[1]	_	_	
+3-6	48-52	till	_	Target[1]	3-7	false[1]	4[1]	_	_	
+3-7	53-63	sommarjobb	*	_	_	_	_	_	_	
+3-8	63-64	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	_	
+
+#Text=Med en skyhög ungdomsarbetslöshet är det alarmerande att fler kommuner inte satsar på att erbjuda sommarjobb.
+5-1	75-78	Med	_	_	_	_	_	_	_	
+5-2	79-81	en	_	_	_	_	_	_	_	
+5-3	82-88	skyhög	_	_	_	_	_	_	_	
+5-4	89-108	ungdomsarbetslöshet	_	_	_	_	_	_	_	
+5-5	109-111	är	_	Target[2]	5-8[10]	false[2]	2[2]	_	_	
+5-6	112-115	det	_	Target[2]	5-8[10]	false[2]	2[2]	_	_	
+5-7	116-127	alarmerande	_	Target[2]	5-8[10]	false[2]	2[2]	_	_	
+5-8	128-131	att	*[10]	_	_	_	_	_	_	
+5-9	132-136	fler	*[10]	_	_	_	_	_	_	
+5-10	137-145	kommuner	*[10]	_	_	_	_	_	_	
+5-11	146-150	inte	*[10]	_	_	_	_	_	_	
+5-12	151-157	satsar	*[10]	_	_	_	_	_	_	
+5-13	158-160	på	*[10]	_	_	_	_	_	_	
+5-14	161-164	att	*[10]	_	_	_	_	_	_	
+5-15	165-172	erbjuda	*[10]	_	_	_	_	_	_	
+5-16	173-183	sommarjobb	*[10]	_	_	_	_	_	_	
+5-17	183-184	.	_	_	_	_	_	_	_	
+
+#Text=SSU och LO vill se en sommarjobbsgaranti för unga i gymnasieåldern.
+6-1	185-188	SSU	*[11]	_	_	_	_	_	_	
+6-2	189-192	och	*[11]	_	_	_	_	_	_	
+6-3	193-195	LO	*[11]	_	_	_	_	_	_	
+6-4	196-200	vill	_	Target;Source[3]	6-6[12];6-1[11]	false[3]	4[3]	_	_	
+6-5	201-203	se	_	Target;Source[3]	6-6[12];6-1[11]	false[3]	4[3]	_	_	
+6-6	204-206	en	*[12]	_	_	_	_	_	_	
+6-7	207-225	sommarjobbsgaranti	*[12]	_	_	_	_	_	_	
+6-8	226-229	för	*[12]	_	_	_	_	_	_	
+6-9	230-234	unga	*[12]	_	_	_	_	_	_	
+6-10	235-236	i	*[12]	_	_	_	_	_	_	
+6-11	237-251	gymnasieåldern	*[12]	_	_	_	_	_	_	
+6-12	251-252	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver Gabriel Wikström, SSU, och Tobias Baudin, LO.
+7-1	253-256	Det	_	_	_	_	_	_	_	
+7-2	257-264	skriver	_	_	_	_	_	_	_	
+7-3	265-272	Gabriel	_	_	_	_	_	_	_	
+7-4	273-281	Wikström	_	_	_	_	_	_	_	
+7-5	281-282	,	_	_	_	_	_	_	_	
+7-6	283-286	SSU	_	_	_	_	_	_	_	
+7-7	286-287	,	_	_	_	_	_	_	_	
+7-8	288-291	och	_	_	_	_	_	_	_	
+7-9	292-298	Tobias	_	_	_	_	_	_	_	
+7-10	299-305	Baudin	_	_	_	_	_	_	_	
+7-11	305-306	,	_	_	_	_	_	_	_	
+7-12	307-309	LO	_	_	_	_	_	_	_	
+7-13	309-310	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	312-313	#	_	_	_	_	_	_	_	
+8-2	313-314	P	_	_	_	_	_	_	_	
+8-3	315-318	IMM	_	_	_	_	_	_	_	
+8-4	318-319	.	_	_	_	_	_	_	_	
+
+#Text=Att införa en sommarjobbsgaranti skulle vara ett effektivt sätt att investera i ungas framtidschanser.Gabriel Wikström och Tobias Baudin.
+9-1	321-324	Att	_	_	_	_	_	_	_	
+9-2	325-331	införa	_	_	_	_	_	_	_	
+9-3	332-334	en	_	_	_	_	_	_	_	
+9-4	335-353	sommarjobbsgaranti	_	_	_	_	_	_	_	
+9-5	354-360	skulle	_	_	_	_	_	_	_	
+9-6	361-365	vara	_	_	_	_	_	_	_	
+9-7	366-369	ett	_	_	_	_	_	_	_	
+9-8	370-379	effektivt	_	_	_	_	_	_	_	
+9-9	380-384	sätt	_	_	_	_	_	_	_	
+9-10	385-388	att	_	_	_	_	_	_	_	
+9-11	389-398	investera	_	_	_	_	_	_	_	
+9-12	399-400	i	_	_	_	_	_	_	_	
+9-13	401-406	ungas	_	_	_	_	_	_	_	
+9-14	407-430	framtidschanser.Gabriel	_	_	_	_	_	_	_	
+9-15	431-439	Wikström	_	_	_	_	_	_	_	
+9-16	440-443	och	_	_	_	_	_	_	_	
+9-17	444-450	Tobias	_	_	_	_	_	_	_	
+9-18	451-457	Baudin	_	_	_	_	_	_	_	
+9-19	457-458	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	460-461	#	_	_	_	_	_	_	_	
+10-2	461-462	P	_	_	_	_	_	_	_	
+10-3	463-466	IMM	_	_	_	_	_	_	_	
+10-4	466-467	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	469-472	Det	_	_	_	_	_	_	_	
+11-2	473-476	här	_	_	_	_	_	_	_	
+11-3	477-479	är	_	_	_	_	_	_	_	
+11-4	480-482	en	_	_	_	_	_	_	_	
+11-5	483-497	argumenterande	_	_	_	_	_	_	_	
+11-6	498-502	text	_	_	_	_	_	_	_	
+11-7	503-506	med	_	_	_	_	_	_	_	
+11-8	507-512	syfte	_	_	_	_	_	_	_	
+11-9	513-516	att	_	_	_	_	_	_	_	
+11-10	517-524	påverka	_	_	_	_	_	_	_	
+11-11	524-525	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	526-535	Åsikterna	_	_	_	_	_	_	_	
+12-2	536-539	som	_	_	_	_	_	_	_	
+12-3	540-548	uttrycks	_	_	_	_	_	_	_	
+12-4	549-551	är	_	_	_	_	_	_	_	
+12-5	552-563	skribentens	_	_	_	_	_	_	_	
+12-6	564-568	egna	_	_	_	_	_	_	_	
+12-7	568-569	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	571-572	#	_	_	_	_	_	_	_	
+13-2	572-573	P	_	_	_	_	_	_	_	
+13-3	574-577	IMM	_	_	_	_	_	_	_	
+13-4	577-578	.	_	_	_	_	_	_	_	
+
+#Text=Ungdomsarbetslösheten fortsätter att ta ett allt fastare grepp om Sverige.
+14-1	580-601	Ungdomsarbetslösheten	_	_	_	_	_	_	_	
+14-2	602-612	fortsätter	_	_	_	_	_	_	_	
+14-3	613-616	att	_	_	_	_	_	_	_	
+14-4	617-619	ta	_	_	_	_	_	_	_	
+14-5	620-623	ett	_	_	_	_	_	_	_	
+14-6	624-628	allt	_	_	_	_	_	_	_	
+14-7	629-636	fastare	_	_	_	_	_	_	_	
+14-8	637-642	grepp	_	_	_	_	_	_	_	
+14-9	643-645	om	_	_	_	_	_	_	_	
+14-10	646-653	Sverige	_	_	_	_	_	_	_	
+14-11	653-654	.	_	_	_	_	_	_	_	
+
+#Text=I juni månad saknade 29 procent unga arbete.
+15-1	655-656	I	*[13]	_	_	_	_	_	16-1[0_13]	
+15-2	657-661	juni	*[13]	_	_	_	_	_	_	
+15-3	662-667	månad	*[13]	_	_	_	_	_	_	
+15-4	668-675	saknade	*[13]	_	_	_	_	_	_	
+15-5	676-678	29	*[13]	_	_	_	_	_	_	
+15-6	679-686	procent	*[13]	_	_	_	_	_	_	
+15-7	687-691	unga	*[13]	_	_	_	_	_	_	
+15-8	692-698	arbete	*[13]	_	_	_	_	_	_	
+15-9	698-699	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett storskaligt slöseri med ungas tid, talang och förmåga.
+16-1	700-703	Det	*	_	_	_	_	_	_	
+16-2	704-706	är	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-3	707-710	ett	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-4	711-722	storskaligt	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-5	723-730	slöseri	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-6	731-734	med	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-7	735-740	ungas	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-8	741-744	tid	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-9	744-745	,	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-10	746-752	talang	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-11	753-756	och	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-12	757-764	förmåga	_	Target[4]	16-1	false[4]	2[4]	_	_	
+16-13	764-765	.	_	_	_	_	_	_	_	
+
+#Text=Trots detta har den borgerliga regeringen genomgående valt att sitta still i båten.
+17-1	766-771	Trots	_	_	_	_	_	_	_	
+17-2	772-777	detta	_	_	_	_	_	_	_	
+17-3	778-781	har	_	_	_	_	_	_	_	
+17-4	782-785	den	_	_	_	_	_	_	_	
+17-5	786-796	borgerliga	_	_	_	_	_	_	_	
+17-6	797-807	regeringen	_	_	_	_	_	_	_	
+17-7	808-819	genomgående	_	_	_	_	_	_	_	
+17-8	820-824	valt	_	_	_	_	_	_	_	
+17-9	825-828	att	_	_	_	_	_	_	_	
+17-10	829-834	sitta	_	_	_	_	_	_	_	
+17-11	835-840	still	_	_	_	_	_	_	_	
+17-12	841-842	i	_	_	_	_	_	_	_	
+17-13	843-848	båten	_	_	_	_	_	_	_	
+17-14	848-849	.	_	_	_	_	_	_	_	
+
+#Text=Inga nya förslag kommer, inga nya initiativ tas.
+18-1	850-854	Inga	_	_	_	_	_	_	_	
+18-2	855-858	nya	_	_	_	_	_	_	_	
+18-3	859-866	förslag	_	_	_	_	_	_	_	
+18-4	867-873	kommer	_	_	_	_	_	_	_	
+18-5	873-874	,	_	_	_	_	_	_	_	
+18-6	875-879	inga	_	_	_	_	_	_	_	
+18-7	880-883	nya	_	_	_	_	_	_	_	
+18-8	884-893	initiativ	_	_	_	_	_	_	_	
+18-9	894-897	tas	_	_	_	_	_	_	_	
+18-10	897-898	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	900-901	#	_	_	_	_	_	_	_	
+19-2	901-902	P	_	_	_	_	_	_	_	
+19-3	903-906	IMM	_	_	_	_	_	_	_	
+19-4	906-907	.	_	_	_	_	_	_	_	
+
+#Text=Det är mot den bakgrunden som Socialdemokraterna har lagt fram förslag om ett utbildningskontrakt för unga och ökade anslag för praktikplatser och utbildningsplatser.
+20-1	909-912	Det	_	_	_	_	_	_	_	
+20-2	913-915	är	_	_	_	_	_	_	_	
+20-3	916-919	mot	_	_	_	_	_	_	_	
+20-4	920-923	den	_	_	_	_	_	_	_	
+20-5	924-934	bakgrunden	_	_	_	_	_	_	_	
+20-6	935-938	som	_	_	_	_	_	_	_	
+20-7	939-957	Socialdemokraterna	_	_	_	_	_	_	_	
+20-8	958-961	har	_	_	_	_	_	_	_	
+20-9	962-966	lagt	_	_	_	_	_	_	_	
+20-10	967-971	fram	_	_	_	_	_	_	_	
+20-11	972-979	förslag	_	_	_	_	_	_	_	
+20-12	980-982	om	_	_	_	_	_	_	_	
+20-13	983-986	ett	_	_	_	_	_	_	_	
+20-14	987-1006	utbildningskontrakt	_	_	_	_	_	_	_	
+20-15	1007-1010	för	_	_	_	_	_	_	_	
+20-16	1011-1015	unga	_	_	_	_	_	_	_	
+20-17	1016-1019	och	_	_	_	_	_	_	_	
+20-18	1020-1025	ökade	_	_	_	_	_	_	_	
+20-19	1026-1032	anslag	_	_	_	_	_	_	_	
+20-20	1033-1036	för	_	_	_	_	_	_	_	
+20-21	1037-1051	praktikplatser	_	_	_	_	_	_	_	
+20-22	1052-1055	och	_	_	_	_	_	_	_	
+20-23	1056-1074	utbildningsplatser	_	_	_	_	_	_	_	
+20-24	1074-1075	.	_	_	_	_	_	_	_	
+
+#Text=LO och SSU drev tillsammans ett förslag om en 90-dagarsgaranti för unga arbetslösa, ett förslag som nu är en bärande del av socialdemokraternas politik för ökad sysselsättning bland unga.
+21-1	1076-1078	LO	_	_	_	_	_	_	_	
+21-2	1079-1082	och	_	_	_	_	_	_	_	
+21-3	1083-1086	SSU	_	_	_	_	_	_	_	
+21-4	1087-1091	drev	_	_	_	_	_	_	_	
+21-5	1092-1103	tillsammans	_	_	_	_	_	_	_	
+21-6	1104-1107	ett	_	_	_	_	_	_	_	
+21-7	1108-1115	förslag	_	_	_	_	_	_	_	
+21-8	1116-1118	om	_	_	_	_	_	_	_	
+21-9	1119-1121	en	_	_	_	_	_	_	_	
+21-10	1122-1124	90	_	_	_	_	_	_	_	
+21-11	1124-1125	-	_	_	_	_	_	_	_	
+21-12	1125-1138	dagarsgaranti	_	_	_	_	_	_	_	
+21-13	1139-1142	för	_	_	_	_	_	_	_	
+21-14	1143-1147	unga	_	_	_	_	_	_	_	
+21-15	1148-1158	arbetslösa	_	_	_	_	_	_	_	
+21-16	1158-1159	,	_	_	_	_	_	_	_	
+21-17	1160-1163	ett	_	_	_	_	_	_	_	
+21-18	1164-1171	förslag	_	_	_	_	_	_	_	
+21-19	1172-1175	som	_	_	_	_	_	_	_	
+21-20	1176-1178	nu	_	_	_	_	_	_	_	
+21-21	1179-1181	är	_	_	_	_	_	_	_	
+21-22	1182-1184	en	_	_	_	_	_	_	_	
+21-23	1185-1192	bärande	_	_	_	_	_	_	_	
+21-24	1193-1196	del	_	_	_	_	_	_	_	
+21-25	1197-1199	av	_	_	_	_	_	_	_	
+21-26	1200-1219	socialdemokraternas	_	_	_	_	_	_	_	
+21-27	1220-1227	politik	_	_	_	_	_	_	_	
+21-28	1228-1231	för	_	_	_	_	_	_	_	
+21-29	1232-1236	ökad	_	_	_	_	_	_	_	
+21-30	1237-1251	sysselsättning	_	_	_	_	_	_	_	
+21-31	1252-1257	bland	_	_	_	_	_	_	_	
+21-32	1258-1262	unga	_	_	_	_	_	_	_	
+21-33	1262-1263	.	_	_	_	_	_	_	_	
+
+#Text=Om den borgerliga regeringen hade tagit till sig av Socialdemokraternas förslag skulle utgångsläget för Sveriges ungdomar se betydligt bättre ut idag än vad det gör.
+22-1	1264-1266	Om	_	_	_	_	_	_	_	
+22-2	1267-1270	den	_	_	_	_	_	_	_	
+22-3	1271-1281	borgerliga	_	_	_	_	_	_	_	
+22-4	1282-1292	regeringen	_	_	_	_	_	_	_	
+22-5	1293-1297	hade	_	_	_	_	_	_	_	
+22-6	1298-1303	tagit	_	_	_	_	_	_	_	
+22-7	1304-1308	till	_	_	_	_	_	_	_	
+22-8	1309-1312	sig	_	_	_	_	_	_	_	
+22-9	1313-1315	av	_	_	_	_	_	_	_	
+22-10	1316-1335	Socialdemokraternas	_	_	_	_	_	_	_	
+22-11	1336-1343	förslag	_	_	_	_	_	_	_	
+22-12	1344-1350	skulle	_	_	_	_	_	_	_	
+22-13	1351-1363	utgångsläget	_	_	_	_	_	_	_	
+22-14	1364-1367	för	_	_	_	_	_	_	_	
+22-15	1368-1376	Sveriges	_	_	_	_	_	_	_	
+22-16	1377-1385	ungdomar	_	_	_	_	_	_	_	
+22-17	1386-1388	se	_	_	_	_	_	_	_	
+22-18	1389-1398	betydligt	_	_	_	_	_	_	_	
+22-19	1399-1405	bättre	_	_	_	_	_	_	_	
+22-20	1406-1408	ut	_	_	_	_	_	_	_	
+22-21	1409-1413	idag	_	_	_	_	_	_	_	
+22-22	1414-1416	än	_	_	_	_	_	_	_	
+22-23	1417-1420	vad	_	_	_	_	_	_	_	
+22-24	1421-1424	det	_	_	_	_	_	_	_	
+22-25	1425-1428	gör	_	_	_	_	_	_	_	
+22-26	1428-1429	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1431-1432	#	_	_	_	_	_	_	_	
+23-2	1432-1433	P	_	_	_	_	_	_	_	
+23-3	1434-1437	IMM	_	_	_	_	_	_	_	
+23-4	1437-1438	.	_	_	_	_	_	_	_	
+
+#Text=I avsaknad av en regering som på allvar vill ta tag i ungdomsarbetslösheten kommer LO och SSU att fortsätta jobba med att ta fram politiska förslag för att bryta den uppgivenhet och hopplöshet som många unga i Sverige upplever.
+24-1	1440-1441	I	_	_	_	_	_	_	_	
+24-2	1442-1450	avsaknad	_	_	_	_	_	_	_	
+24-3	1451-1453	av	_	_	_	_	_	_	_	
+24-4	1454-1456	en	_	_	_	_	_	_	_	
+24-5	1457-1465	regering	_	_	_	_	_	_	_	
+24-6	1466-1469	som	_	_	_	_	_	_	_	
+24-7	1470-1472	på	_	_	_	_	_	_	_	
+24-8	1473-1479	allvar	_	_	_	_	_	_	_	
+24-9	1480-1484	vill	_	_	_	_	_	_	_	
+24-10	1485-1487	ta	_	_	_	_	_	_	_	
+24-11	1488-1491	tag	_	_	_	_	_	_	_	
+24-12	1492-1493	i	_	_	_	_	_	_	_	
+24-13	1494-1515	ungdomsarbetslösheten	_	_	_	_	_	_	_	
+24-14	1516-1522	kommer	_	_	_	_	_	_	_	
+24-15	1523-1525	LO	_	_	_	_	_	_	_	
+24-16	1526-1529	och	_	_	_	_	_	_	_	
+24-17	1530-1533	SSU	_	_	_	_	_	_	_	
+24-18	1534-1537	att	_	_	_	_	_	_	_	
+24-19	1538-1547	fortsätta	_	_	_	_	_	_	_	
+24-20	1548-1553	jobba	_	_	_	_	_	_	_	
+24-21	1554-1557	med	_	_	_	_	_	_	_	
+24-22	1558-1561	att	_	_	_	_	_	_	_	
+24-23	1562-1564	ta	_	_	_	_	_	_	_	
+24-24	1565-1569	fram	_	_	_	_	_	_	_	
+24-25	1570-1579	politiska	_	_	_	_	_	_	_	
+24-26	1580-1587	förslag	_	_	_	_	_	_	_	
+24-27	1588-1591	för	_	_	_	_	_	_	_	
+24-28	1592-1595	att	_	_	_	_	_	_	_	
+24-29	1596-1601	bryta	_	_	_	_	_	_	_	
+24-30	1602-1605	den	_	_[5]	_	false[5]	2[5]	_	_	
+24-31	1606-1617	uppgivenhet	_	_[5]	_	false[5]	2[5]	_	_	
+24-32	1618-1621	och	_	_[5]	_	false[5]	2[5]	_	_	
+24-33	1622-1632	hopplöshet	_	_[5]	_	false[5]	2[5]	_	_	
+24-34	1633-1636	som	_	_[5]	_	false[5]	2[5]	_	_	
+24-35	1637-1642	många	*[14]	_	_	_	_	_	_	
+24-36	1643-1647	unga	*[14]	_	_	_	_	_	_	
+24-37	1648-1649	i	*[14]	_	_	_	_	_	_	
+24-38	1650-1657	Sverige	*[14]	_	_	_	_	_	_	
+24-39	1658-1666	upplever	_	Source	24-35[14]	false	2	24-30[5_0]	_	
+24-40	1666-1667	.	_	_	_	_	_	_	_	
+
+#Text=LO har redan tidigare föreslagit att alla kommuner bör erbjuda sommarjobb åt alla 17-åringar.
+25-1	1668-1670	LO	_	_	_	_	_	_	_	
+25-2	1671-1674	har	_	_	_	_	_	_	_	
+25-3	1675-1680	redan	_	_	_	_	_	_	_	
+25-4	1681-1689	tidigare	_	_	_	_	_	_	_	
+25-5	1690-1700	föreslagit	_	_	_	_	_	_	_	
+25-6	1701-1704	att	_	_	_	_	_	_	_	
+25-7	1705-1709	alla	_	_	_	_	_	_	_	
+25-8	1710-1718	kommuner	_	_	_	_	_	_	_	
+25-9	1719-1722	bör	_	_	_	_	_	_	_	
+25-10	1723-1730	erbjuda	_	_	_	_	_	_	_	
+25-11	1731-1741	sommarjobb	_	_	_	_	_	_	_	
+25-12	1742-1744	åt	_	_	_	_	_	_	_	
+25-13	1745-1749	alla	_	_	_	_	_	_	_	
+25-14	1750-1752	17	_	_	_	_	_	_	_	
+25-15	1752-1753	-	_	_	_	_	_	_	_	
+25-16	1753-1760	åringar	_	_	_	_	_	_	_	
+25-17	1760-1761	.	_	_	_	_	_	_	_	
+
+#Text=SSU vill gå ett steg längre.
+26-1	1762-1765	SSU	_	_	_	_	_	_	_	
+26-2	1766-1770	vill	_	_	_	_	_	_	_	
+26-3	1771-1773	gå	_	_	_	_	_	_	_	
+26-4	1774-1777	ett	_	_	_	_	_	_	_	
+26-5	1778-1782	steg	_	_	_	_	_	_	_	
+26-6	1783-1789	längre	_	_	_	_	_	_	_	
+26-7	1789-1790	.	_	_	_	_	_	_	_	
+
+#Text=Idag, när SSU:s förbundskongress inleds föreslår SSU en sommarjobbsgaranti som omfattar alla unga i gymnasieåldern.
+27-1	1791-1795	Idag	_	_	_	_	_	_	_	
+27-2	1795-1796	,	_	_	_	_	_	_	_	
+27-3	1797-1800	när	_	_	_	_	_	_	_	
+27-4	1801-1804	SSU	_	_	_	_	_	_	_	
+27-5	1804-1805	:	_	_	_	_	_	_	_	
+27-6	1805-1806	s	_	_	_	_	_	_	_	
+27-7	1807-1823	förbundskongress	_	_	_	_	_	_	_	
+27-8	1824-1830	inleds	_	_	_	_	_	_	_	
+27-9	1831-1839	föreslår	_	_	_	_	_	_	_	
+27-10	1840-1843	SSU	_	_	_	_	_	_	_	
+27-11	1844-1846	en	_	_	_	_	_	_	_	
+27-12	1847-1865	sommarjobbsgaranti	_	_	_	_	_	_	_	
+27-13	1866-1869	som	_	_	_	_	_	_	_	
+27-14	1870-1878	omfattar	_	_	_	_	_	_	_	
+27-15	1879-1883	alla	_	_	_	_	_	_	_	
+27-16	1884-1888	unga	_	_	_	_	_	_	_	
+27-17	1889-1890	i	_	_	_	_	_	_	_	
+27-18	1891-1905	gymnasieåldern	_	_	_	_	_	_	_	
+27-19	1905-1906	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1908-1909	#	_	_	_	_	_	_	_	
+28-2	1909-1910	P	_	_	_	_	_	_	_	
+28-3	1911-1914	IMM	_	_	_	_	_	_	_	
+28-4	1914-1915	.	_	_	_	_	_	_	_	
+
+#Text=Sommarjobb är för många unga den första kontakten med arbetsmarknaden.
+29-1	1917-1927	Sommarjobb	_	_	_	_	_	_	_	
+29-2	1928-1930	är	_	_	_	_	_	_	_	
+29-3	1931-1934	för	_	_	_	_	_	_	_	
+29-4	1935-1940	många	_	_	_	_	_	_	_	
+29-5	1941-1945	unga	_	_	_	_	_	_	_	
+29-6	1946-1949	den	_	_	_	_	_	_	_	
+29-7	1950-1956	första	_	_	_	_	_	_	_	
+29-8	1957-1966	kontakten	_	_	_	_	_	_	_	
+29-9	1967-1970	med	_	_	_	_	_	_	_	
+29-10	1971-1986	arbetsmarknaden	_	_	_	_	_	_	_	
+29-11	1986-1987	.	_	_	_	_	_	_	_	
+
+#Text=Det ger erfarenhet och kontakter som man kan ta med sig in i framtiden när man så småningom ska stå på sina egna ben.
+30-1	1988-1991	Det	_	_	_	_	_	_	_	
+30-2	1992-1995	ger	_	_	_	_	_	_	_	
+30-3	1996-2006	erfarenhet	_	_	_	_	_	_	_	
+30-4	2007-2010	och	_	_	_	_	_	_	_	
+30-5	2011-2020	kontakter	_	_	_	_	_	_	_	
+30-6	2021-2024	som	_	_	_	_	_	_	_	
+30-7	2025-2028	man	_	_	_	_	_	_	_	
+30-8	2029-2032	kan	_	_	_	_	_	_	_	
+30-9	2033-2035	ta	_	_	_	_	_	_	_	
+30-10	2036-2039	med	_	_	_	_	_	_	_	
+30-11	2040-2043	sig	_	_	_	_	_	_	_	
+30-12	2044-2046	in	_	_	_	_	_	_	_	
+30-13	2047-2048	i	_	_	_	_	_	_	_	
+30-14	2049-2058	framtiden	_	_	_	_	_	_	_	
+30-15	2059-2062	när	_	_	_	_	_	_	_	
+30-16	2063-2066	man	_	_	_	_	_	_	_	
+30-17	2067-2069	så	_	_	_	_	_	_	_	
+30-18	2070-2079	småningom	_	_	_	_	_	_	_	
+30-19	2080-2083	ska	_	_	_	_	_	_	_	
+30-20	2084-2087	stå	_	_	_	_	_	_	_	
+30-21	2088-2090	på	_	_	_	_	_	_	_	
+30-22	2091-2095	sina	_	_	_	_	_	_	_	
+30-23	2096-2100	egna	_	_	_	_	_	_	_	
+30-24	2101-2104	ben	_	_	_	_	_	_	_	
+30-25	2104-2105	.	_	_	_	_	_	_	_	
+
+#Text=Tyvärr är det alldeles för få unga som får sommarjobb idag.
+31-1	2106-2112	Tyvärr	_	Target	31-2[15]	false	2	_	_	
+31-2	2113-2115	är	*[15]	_	_	_	_	_	_	
+31-3	2116-2119	det	*[15]	_	_	_	_	_	_	
+31-4	2120-2128	alldeles	*[15]	_	_	_	_	_	_	
+31-5	2129-2132	för	*[15]	_	_	_	_	_	_	
+31-6	2133-2135	få	*[15]	_	_	_	_	_	_	
+31-7	2136-2140	unga	*[15]	_	_	_	_	_	_	
+31-8	2141-2144	som	*[15]	_	_	_	_	_	_	
+31-9	2145-2148	får	*[15]	_	_	_	_	_	_	
+31-10	2149-2159	sommarjobb	*[15]	_	_	_	_	_	_	
+31-11	2160-2164	idag	*[15]	_	_	_	_	_	_	
+31-12	2164-2165	.	_	_	_	_	_	_	_	
+
+#Text=En undersökning från LO visar att under perioden oktober till april anmäldes så få som 4,4 jobb per 100 unga i åldrarna 15-24 år.
+32-1	2166-2168	En	_	_	_	_	_	_	_	
+32-2	2169-2181	undersökning	_	_	_	_	_	_	_	
+32-3	2182-2186	från	_	_	_	_	_	_	_	
+32-4	2187-2189	LO	_	_	_	_	_	_	_	
+32-5	2190-2195	visar	_	_	_	_	_	_	_	
+32-6	2196-2199	att	_	_	_	_	_	_	_	
+32-7	2200-2205	under	_	_	_	_	_	_	_	
+32-8	2206-2214	perioden	_	_	_	_	_	_	_	
+32-9	2215-2222	oktober	_	_	_	_	_	_	_	
+32-10	2223-2227	till	_	_	_	_	_	_	_	
+32-11	2228-2233	april	_	_	_	_	_	_	_	
+32-12	2234-2242	anmäldes	_	_	_	_	_	_	_	
+32-13	2243-2245	så	_	_	_	_	_	_	_	
+32-14	2246-2248	få	_	_	_	_	_	_	_	
+32-15	2249-2252	som	_	_	_	_	_	_	_	
+32-16	2253-2256	4,4	_	_	_	_	_	_	_	
+32-17	2257-2261	jobb	_	_	_	_	_	_	_	
+32-18	2262-2265	per	_	_	_	_	_	_	_	
+32-19	2266-2269	100	_	_	_	_	_	_	_	
+32-20	2270-2274	unga	_	_	_	_	_	_	_	
+32-21	2275-2276	i	_	_	_	_	_	_	_	
+32-22	2277-2285	åldrarna	_	_	_	_	_	_	_	
+32-23	2286-2288	15	_	_	_	_	_	_	_	
+32-24	2288-2289	-	_	_	_	_	_	_	_	
+32-25	2289-2291	24	_	_	_	_	_	_	_	
+32-26	2292-2294	år	_	_	_	_	_	_	_	
+32-27	2294-2295	.	_	_	_	_	_	_	_	
+
+#Text=Med en skyhög ungdomsarbetslöshet är det alarmerande att fler kommuner inte satsar på att erbjuda sommarjobb.
+33-1	2296-2299	Med	_	_	_	_	_	_	_	
+33-2	2300-2302	en	_	_	_	_	_	_	_	
+33-3	2303-2309	skyhög	_	_	_	_	_	_	_	
+33-4	2310-2329	ungdomsarbetslöshet	_	_	_	_	_	_	_	
+33-5	2330-2332	är	_	Target[6]	33-8[16]	false[6]	2[6]	_	_	
+33-6	2333-2336	det	_	Target[6]	33-8[16]	false[6]	2[6]	_	_	
+33-7	2337-2348	alarmerande	_	Target[6]	33-8[16]	false[6]	2[6]	_	_	
+33-8	2349-2352	att	*[16]	_	_	_	_	_	_	
+33-9	2353-2357	fler	*[16]	_	_	_	_	_	_	
+33-10	2358-2366	kommuner	*[16]	_	_	_	_	_	_	
+33-11	2367-2371	inte	*[16]	_	_	_	_	_	_	
+33-12	2372-2378	satsar	*[16]	_	_	_	_	_	_	
+33-13	2379-2381	på	*[16]	_	_	_	_	_	_	
+33-14	2382-2385	att	*[16]	_	_	_	_	_	_	
+33-15	2386-2393	erbjuda	*[16]	_	_	_	_	_	_	
+33-16	2394-2404	sommarjobb	*[16]	_	_	_	_	_	_	
+33-17	2404-2405	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2407-2408	#	_	_	_	_	_	_	_	
+34-2	2408-2409	P	_	_	_	_	_	_	_	
+34-3	2410-2413	IMM	_	_	_	_	_	_	_	
+34-4	2413-2414	.	_	_	_	_	_	_	_	
+
+#Text=Forskningen har sedan länge visat att det är satsningar på ungas utbildning och arbetslivserfarenhet som är nödvändiga för att komma till rätta med den svenska ungdomsarbetslösheten.
+35-1	2416-2427	Forskningen	_	_	_	_	_	_	_	
+35-2	2428-2431	har	_	_	_	_	_	_	_	
+35-3	2432-2437	sedan	_	_	_	_	_	_	_	
+35-4	2438-2443	länge	_	_	_	_	_	_	_	
+35-5	2444-2449	visat	_	_	_	_	_	_	_	
+35-6	2450-2453	att	_	_	_	_	_	_	_	
+35-7	2454-2457	det	_	_	_	_	_	_	_	
+35-8	2458-2460	är	_	_	_	_	_	_	_	
+35-9	2461-2471	satsningar	_	_	_	_	_	_	_	
+35-10	2472-2474	på	_	_	_	_	_	_	_	
+35-11	2475-2480	ungas	_	_	_	_	_	_	_	
+35-12	2481-2491	utbildning	_	_	_	_	_	_	_	
+35-13	2492-2495	och	_	_	_	_	_	_	_	
+35-14	2496-2516	arbetslivserfarenhet	_	_	_	_	_	_	_	
+35-15	2517-2520	som	_	_	_	_	_	_	_	
+35-16	2521-2523	är	_	_	_	_	_	_	_	
+35-17	2524-2534	nödvändiga	_	_	_	_	_	_	_	
+35-18	2535-2538	för	_	_	_	_	_	_	_	
+35-19	2539-2542	att	_	_	_	_	_	_	_	
+35-20	2543-2548	komma	_	_	_	_	_	_	_	
+35-21	2549-2553	till	_	_	_	_	_	_	_	
+35-22	2554-2559	rätta	_	_	_	_	_	_	_	
+35-23	2560-2563	med	_	_	_	_	_	_	_	
+35-24	2564-2567	den	_	_	_	_	_	_	_	
+35-25	2568-2575	svenska	_	_	_	_	_	_	_	
+35-26	2576-2597	ungdomsarbetslösheten	_	_	_	_	_	_	_	
+35-27	2597-2598	.	_	_	_	_	_	_	_	
+
+#Text=Idag misslyckas vart femte rekryteringsförsök på grund av att arbetskraften inte har rätt utbildning för de jobb som finns tillgängliga, inte för att det är för "för dyrt att anställa" som vissa parter skenheligt försöker hävda.
+36-1	2599-2603	Idag	_	_	_	_	_	_	_	
+36-2	2604-2614	misslyckas	_	_	_	_	_	_	_	
+36-3	2615-2619	vart	_	_	_	_	_	_	_	
+36-4	2620-2625	femte	_	_	_	_	_	_	_	
+36-5	2626-2644	rekryteringsförsök	_	_	_	_	_	_	_	
+36-6	2645-2647	på	_	_	_	_	_	_	_	
+36-7	2648-2653	grund	_	_	_	_	_	_	_	
+36-8	2654-2656	av	_	_	_	_	_	_	_	
+36-9	2657-2660	att	_	_	_	_	_	_	_	
+36-10	2661-2674	arbetskraften	_	_	_	_	_	_	_	
+36-11	2675-2679	inte	_	_	_	_	_	_	_	
+36-12	2680-2683	har	_	_	_	_	_	_	_	
+36-13	2684-2688	rätt	_	_	_	_	_	_	_	
+36-14	2689-2699	utbildning	_	_	_	_	_	_	_	
+36-15	2700-2703	för	_	_	_	_	_	_	_	
+36-16	2704-2706	de	_	_	_	_	_	_	_	
+36-17	2707-2711	jobb	_	_	_	_	_	_	_	
+36-18	2712-2715	som	_	_	_	_	_	_	_	
+36-19	2716-2721	finns	_	_	_	_	_	_	_	
+36-20	2722-2734	tillgängliga	_	_	_	_	_	_	_	
+36-21	2734-2735	,	_	_	_	_	_	_	_	
+36-22	2736-2740	inte	_	_	_	_	_	_	_	
+36-23	2741-2744	för	_	_	_	_	_	_	_	
+36-24	2745-2748	att	_	_	_	_	_	_	_	
+36-25	2749-2752	det	_	_	_	_	_	_	_	
+36-26	2753-2755	är	_	_	_	_	_	_	_	
+36-27	2756-2759	för	_	_	_	_	_	_	_	
+36-28	2760-2761	"	_	_	_	_	_	_	_	
+36-29	2761-2764	för	_	_	_	_	_	_	_	
+36-30	2765-2769	dyrt	_	_	_	_	_	_	_	
+36-31	2770-2773	att	_	_	_	_	_	_	_	
+36-32	2774-2782	anställa	_	_	_	_	_	_	_	
+36-33	2782-2783	"	_	_	_	_	_	_	_	
+36-34	2784-2787	som	_	_	_	_	_	_	_	
+36-35	2788-2793	vissa	*[17]	_	_	_	_	_	_	
+36-36	2794-2800	parter	*[17]	_	_	_	_	_	_	
+36-37	2801-2811	skenheligt	_	Target[7]	36-35[17]	false[7]	2[7]	_	_	
+36-38	2812-2820	försöker	_	Target[7]	36-35[17]	false[7]	2[7]	_	_	
+36-39	2821-2826	hävda	_	Target[7]	36-35[17]	false[7]	2[7]	_	_	
+36-40	2826-2827	.	_	_	_	_	_	_	_	
+
+#Text=Genom att komplettera 90-dagarsgaratin med att kommunerna garanterar sommarjobb till unga kan vi vända den negativa ungdomsarbetslöshetstrenden som cementerats under den borgerliga regeringen.
+37-1	2828-2833	Genom	_	_	_	_	_	_	_	
+37-2	2834-2837	att	_	_	_	_	_	_	_	
+37-3	2838-2849	komplettera	_	_	_	_	_	_	_	
+37-4	2850-2852	90	_	_	_	_	_	_	_	
+37-5	2852-2853	-	_	_	_	_	_	_	_	
+37-6	2853-2866	dagarsgaratin	_	_	_	_	_	_	_	
+37-7	2867-2870	med	_	_	_	_	_	_	_	
+37-8	2871-2874	att	_	_	_	_	_	_	_	
+37-9	2875-2885	kommunerna	_	_	_	_	_	_	_	
+37-10	2886-2896	garanterar	_	_	_	_	_	_	_	
+37-11	2897-2907	sommarjobb	_	_	_	_	_	_	_	
+37-12	2908-2912	till	_	_	_	_	_	_	_	
+37-13	2913-2917	unga	_	_	_	_	_	_	_	
+37-14	2918-2921	kan	_	_	_	_	_	_	_	
+37-15	2922-2924	vi	_	_	_	_	_	_	_	
+37-16	2925-2930	vända	_	_	_	_	_	_	_	
+37-17	2931-2934	den	_	_	_	_	_	_	_	
+37-18	2935-2943	negativa	_	Target	37-19	false	2	_	_	
+37-19	2944-2971	ungdomsarbetslöshetstrenden	*	_	_	_	_	_	_	
+37-20	2972-2975	som	_	_	_	_	_	_	_	
+37-21	2976-2987	cementerats	_	_	_	_	_	_	_	
+37-22	2988-2993	under	_	_	_	_	_	_	_	
+37-23	2994-2997	den	_	_	_	_	_	_	_	
+37-24	2998-3008	borgerliga	_	_	_	_	_	_	_	
+37-25	3009-3019	regeringen	_	_	_	_	_	_	_	
+37-26	3019-3020	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3022-3023	#	_	_	_	_	_	_	_	
+38-2	3023-3024	P	_	_	_	_	_	_	_	
+38-3	3025-3028	IMM	_	_	_	_	_	_	_	
+38-4	3028-3029	.	_	_	_	_	_	_	_	
+
+#Text=I SSU:s årliga sommarjobbsundersökning för 2013, som presenterades i veckan, framgår att det redan idag råder stora skillnader mellan kommunerna vad gäller lön, anställningsperiod samt samarbete med fackliga organisationer och näringsliv.
+39-1	3031-3032	I	_	_	_	_	_	_	_	
+39-2	3033-3036	SSU	_	_	_	_	_	_	_	
+39-3	3036-3037	:	_	_	_	_	_	_	_	
+39-4	3037-3038	s	_	_	_	_	_	_	_	
+39-5	3039-3045	årliga	_	_	_	_	_	_	_	
+39-6	3046-3069	sommarjobbsundersökning	_	_	_	_	_	_	_	
+39-7	3070-3073	för	_	_	_	_	_	_	_	
+39-8	3074-3078	2013	_	_	_	_	_	_	_	
+39-9	3078-3079	,	_	_	_	_	_	_	_	
+39-10	3080-3083	som	_	_	_	_	_	_	_	
+39-11	3084-3097	presenterades	_	_	_	_	_	_	_	
+39-12	3098-3099	i	_	_	_	_	_	_	_	
+39-13	3100-3106	veckan	_	_	_	_	_	_	_	
+39-14	3106-3107	,	_	_	_	_	_	_	_	
+39-15	3108-3115	framgår	_	_	_	_	_	_	_	
+39-16	3116-3119	att	_	_	_	_	_	_	_	
+39-17	3120-3123	det	*[18]	_	_	_	_	_	40-1[0_18]	
+39-18	3124-3129	redan	*[18]	_	_	_	_	_	_	
+39-19	3130-3134	idag	*[18]	_	_	_	_	_	_	
+39-20	3135-3140	råder	*[18]	_	_	_	_	_	_	
+39-21	3141-3146	stora	*[18]	_	_	_	_	_	_	
+39-22	3147-3157	skillnader	*[18]	_	_	_	_	_	_	
+39-23	3158-3164	mellan	*[18]	_	_	_	_	_	_	
+39-24	3165-3175	kommunerna	*[18]	_	_	_	_	_	_	
+39-25	3176-3179	vad	*[18]	_	_	_	_	_	_	
+39-26	3180-3186	gäller	*[18]	_	_	_	_	_	_	
+39-27	3187-3190	lön	*[18]	_	_	_	_	_	_	
+39-28	3190-3191	,	*[18]	_	_	_	_	_	_	
+39-29	3192-3210	anställningsperiod	*[18]	_	_	_	_	_	_	
+39-30	3211-3215	samt	*[18]	_	_	_	_	_	_	
+39-31	3216-3225	samarbete	*[18]	_	_	_	_	_	_	
+39-32	3226-3229	med	*[18]	_	_	_	_	_	_	
+39-33	3230-3238	fackliga	*[18]	_	_	_	_	_	_	
+39-34	3239-3253	organisationer	*[18]	_	_	_	_	_	_	
+39-35	3254-3257	och	*[18]	_	_	_	_	_	_	
+39-36	3258-3268	näringsliv	*[18]	_	_	_	_	_	_	
+39-37	3268-3269	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte acceptabelt.
+40-1	3270-3273	Det	*	_	_	_	_	_	_	
+40-2	3274-3276	är	_	Target[8]	40-1	false[8]	2[8]	_	_	
+40-3	3277-3281	inte	_	Target[8]	40-1	false[8]	2[8]	_	_	
+40-4	3282-3293	acceptabelt	_	Target[8]	40-1	false[8]	2[8]	_	_	
+40-5	3293-3294	.	_	_	_	_	_	_	_	
+
+#Text=Alla unga bör erbjudas jobb där lön och allmänna villkor regleras i kollektivavtal.
+41-1	3295-3299	Alla	_	_	_	_	_	_	_	
+41-2	3300-3304	unga	_	_	_	_	_	_	_	
+41-3	3305-3308	bör	_	_	_	_	_	_	_	
+41-4	3309-3317	erbjudas	_	_	_	_	_	_	_	
+41-5	3318-3322	jobb	_	_	_	_	_	_	_	
+41-6	3323-3326	där	_	_	_	_	_	_	_	
+41-7	3327-3330	lön	_	_	_	_	_	_	_	
+41-8	3331-3334	och	_	_	_	_	_	_	_	
+41-9	3335-3343	allmänna	_	_	_	_	_	_	_	
+41-10	3344-3351	villkor	_	_	_	_	_	_	_	
+41-11	3352-3360	regleras	_	_	_	_	_	_	_	
+41-12	3361-3362	i	_	_	_	_	_	_	_	
+41-13	3363-3377	kollektivavtal	_	_	_	_	_	_	_	
+41-14	3377-3378	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3380-3381	#	_	_	_	_	_	_	_	
+42-2	3381-3382	P	_	_	_	_	_	_	_	
+42-3	3383-3386	IMM	_	_	_	_	_	_	_	
+42-4	3386-3387	.	_	_	_	_	_	_	_	
+
+#Text=Målet med politiken kan inte vara att till varje pris hålla i varje skattekrona – allra minst när så många ungdomar står utanför arbetsmarknaden.
+43-1	3389-3394	Målet	_	_	_	_	_	_	_	
+43-2	3395-3398	med	_	_	_	_	_	_	_	
+43-3	3399-3408	politiken	_	_	_	_	_	_	_	
+43-4	3409-3412	kan	_	_	_	_	_	_	_	
+43-5	3413-3417	inte	_	_	_	_	_	_	_	
+43-6	3418-3422	vara	_	_	_	_	_	_	_	
+43-7	3423-3426	att	_	_	_	_	_	_	_	
+43-8	3427-3431	till	_	_	_	_	_	_	_	
+43-9	3432-3437	varje	_	_	_	_	_	_	_	
+43-10	3438-3442	pris	_	_	_	_	_	_	_	
+43-11	3443-3448	hålla	_	_	_	_	_	_	_	
+43-12	3449-3450	i	_	_	_	_	_	_	_	
+43-13	3451-3456	varje	_	_	_	_	_	_	_	
+43-14	3457-3468	skattekrona	_	_	_	_	_	_	_	
+43-15	3469-3470	–	_	_	_	_	_	_	_	
+43-16	3471-3476	allra	_	_	_	_	_	_	_	
+43-17	3477-3482	minst	_	_	_	_	_	_	_	
+43-18	3483-3486	när	_	_	_	_	_	_	_	
+43-19	3487-3489	så	_	_	_	_	_	_	_	
+43-20	3490-3495	många	_	_	_	_	_	_	_	
+43-21	3496-3504	ungdomar	_	_	_	_	_	_	_	
+43-22	3505-3509	står	_	_	_	_	_	_	_	
+43-23	3510-3517	utanför	_	_	_	_	_	_	_	
+43-24	3518-3533	arbetsmarknaden	_	_	_	_	_	_	_	
+43-25	3533-3534	.	_	_	_	_	_	_	_	
+
+#Text=Att införa en sommarjobbsgaranti skulle vara ett effektivt sätt att investera i ungas framtidschanser på arbetsmarknaden.
+44-1	3535-3538	Att	*[19]	_	_	_	_	_	45-1[0_19]	
+44-2	3539-3545	införa	*[19]	_	_	_	_	_	_	
+44-3	3546-3548	en	*[19]	_	_	_	_	_	_	
+44-4	3549-3567	sommarjobbsgaranti	*[19]	_	_	_	_	_	_	
+44-5	3568-3574	skulle	_	_	_	_	_	_	_	
+44-6	3575-3579	vara	_	_	_	_	_	_	_	
+44-7	3580-3583	ett	_	_	_	_	_	_	_	
+44-8	3584-3593	effektivt	_	_	_	_	_	_	_	
+44-9	3594-3598	sätt	_	_	_	_	_	_	_	
+44-10	3599-3602	att	_	_	_	_	_	_	_	
+44-11	3603-3612	investera	_	_	_	_	_	_	_	
+44-12	3613-3614	i	_	_	_	_	_	_	_	
+44-13	3615-3620	ungas	_	_	_	_	_	_	_	
+44-14	3621-3636	framtidschanser	_	_	_	_	_	_	_	
+44-15	3637-3639	på	_	_	_	_	_	_	_	
+44-16	3640-3655	arbetsmarknaden	_	_	_	_	_	_	_	
+44-17	3655-3656	.	_	_	_	_	_	_	_	
+
+#Text=Det skulle hela Sverige tjäna på.
+45-1	3657-3660	Det	*	_	_	_	_	_	_	
+45-2	3661-3667	skulle	_	Target[9]	45-1	false[9]	4[9]	_	_	
+45-3	3668-3672	hela	_	Target[9]	45-1	false[9]	4[9]	_	_	
+45-4	3673-3680	Sverige	_	Target[9]	45-1	false[9]	4[9]	_	_	
+45-5	3681-3686	tjäna	_	Target[9]	45-1	false[9]	4[9]	_	_	
+45-6	3687-3689	på	_	Target[9]	45-1	false[9]	4[9]	_	_	
+45-7	3689-3690	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3692-3693	#	_	_	_	_	_	_	_	
+46-2	3693-3694	P	_	_	_	_	_	_	_	
+46-3	3695-3698	IMM	_	_	_	_	_	_	_	
+46-4	3698-3699	.	_	_	_	_	_	_	_	
+
+#Text=GABRIEL WIKSTRÖM.
+47-1	3701-3708	GABRIEL	_	_	_	_	_	_	_	
+47-2	3709-3717	WIKSTRÖM	_	_	_	_	_	_	_	
+47-3	3717-3718	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3720-3721	#	_	_	_	_	_	_	_	
+48-2	3721-3722	P	_	_	_	_	_	_	_	
+48-3	3723-3726	IMM	_	_	_	_	_	_	_	
+48-4	3726-3727	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande, Sveriges Socialdemokratiska Ungdomsförbund – SSU.
+49-1	3729-3747	förbundsordförande	_	_	_	_	_	_	_	
+49-2	3747-3748	,	_	_	_	_	_	_	_	
+49-3	3749-3757	Sveriges	_	_	_	_	_	_	_	
+49-4	3758-3776	Socialdemokratiska	_	_	_	_	_	_	_	
+49-5	3777-3791	Ungdomsförbund	_	_	_	_	_	_	_	
+49-6	3792-3793	–	_	_	_	_	_	_	_	
+49-7	3794-3797	SSU	_	_	_	_	_	_	_	
+49-8	3797-3798	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3800-3801	#	_	_	_	_	_	_	_	
+50-2	3801-3802	P	_	_	_	_	_	_	_	
+50-3	3803-3806	IMM	_	_	_	_	_	_	_	
+50-4	3806-3807	.	_	_	_	_	_	_	_	
+
+#Text=TOBIAS BAUDIN.
+51-1	3809-3815	TOBIAS	_	_	_	_	_	_	_	
+51-2	3816-3822	BAUDIN	_	_	_	_	_	_	_	
+51-3	3822-3823	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3825-3826	#	_	_	_	_	_	_	_	
+52-2	3826-3827	P	_	_	_	_	_	_	_	
+52-3	3828-3831	IMM	_	_	_	_	_	_	_	
+52-4	3831-3832	.	_	_	_	_	_	_	_	
+
+#Text=förste vice ordförande LO.
+53-1	3834-3840	förste	_	_	_	_	_	_	_	
+53-2	3841-3845	vice	_	_	_	_	_	_	_	
+53-3	3846-3856	ordförande	_	_	_	_	_	_	_	
+53-4	3857-3859	LO	_	_	_	_	_	_	_	
+53-5	3859-3860	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3862-3863	#	_	_	_	_	_	_	_	
+54-2	3863-3864	P	_	_	_	_	_	_	_	
+54-3	3865-3868	IMM	_	_	_	_	_	_	_	
+54-4	3868-3869	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+55-1	3871-3879	Redaktör	_	_	_	_	_	_	_	
+55-2	3879-3880	:	_	_	_	_	_	_	_	
+55-3	3881-3887	Carina	_	_	_	_	_	_	_	
+55-4	3888-3896	Stensson	_	_	_	_	_	_	_	
+55-5	3896-3897	,	_	_	_	_	_	_	_	
+55-6	3898-3908	Biträdande	_	_	_	_	_	_	_	
+55-7	3909-3917	redaktör	_	_	_	_	_	_	_	
+55-8	3917-3918	:	_	_	_	_	_	_	_	
+55-9	3919-3924	Björn	_	_	_	_	_	_	_	
+55-10	3925-3931	Jorner	_	_	_	_	_	_	_	
+55-11	3931-3932	,	_	_	_	_	_	_	_	
+55-12	3933-3937	Mejl	_	_	_	_	_	_	_	
+55-13	3937-3938	:	_	_	_	_	_	_	_	
+55-14	3939-3945	debatt	_	_	_	_	_	_	_	
+55-15	3945-3946	@	_	_	_	_	_	_	_	
+55-16	3946-3952	svd.se	_	_	_	_	_	_	_	
+55-17	3952-3953	,	_	_	_	_	_	_	_	
+55-18	3954-3967	Telefonnummer	_	_	_	_	_	_	_	
+55-19	3967-3968	:	_	_	_	_	_	_	_	
+55-20	3969-3971	08	_	_	_	_	_	_	_	
+55-21	3971-3972	-	_	_	_	_	_	_	_	
+55-22	3972-3978	135149	_	_	_	_	_	_	_	
+55-23	3978-3979	,	_	_	_	_	_	_	_	
+55-24	3980-3987	Twitter	_	_	_	_	_	_	_	
+55-25	3987-3988	:	_	_	_	_	_	_	_	
+55-26	3989-3990	@	_	_	_	_	_	_	_	
+55-27	3990-3999	SvDDebatt	_	_	_	_	_	_	_	
+55-28	3999-4000	,	_	_	_	_	_	_	_	
+55-29	4001-4009	Facebook	_	_	_	_	_	_	_	
+55-30	4009-4010	:	_	_	_	_	_	_	_	
+55-31	4011-4014	SvD	_	_	_	_	_	_	_	
+55-32	4015-4021	Debatt	_	_	_	_	_	_	_	
+55-33	4021-4022	.	_	_	_	_	_	_	_	

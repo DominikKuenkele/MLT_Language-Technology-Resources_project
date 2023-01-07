@@ -1,0 +1,888 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	4[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	4[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	4[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	4[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=MP: Barnen som kom hit måste få stanna.
+3-1	18-20	MP	_	_	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	_	
+3-3	22-28	Barnen	*[30]	_	_	_	_	_	
+3-4	29-32	som	*[30]	_	_	_	_	_	
+3-5	33-36	kom	*[30]	_	_	_	_	_	
+3-6	37-40	hit	*[30]	_	_	_	_	_	
+3-7	41-46	måste	_	Target[3]	3-3[30]	false[3]	4[3]	_	
+3-8	47-49	få	_	Target[3]	3-3[30]	false[3]	4[3]	_	
+3-9	50-56	stanna	_	Target[3]	3-3[30]	false[3]	4[3]	_	
+3-10	56-57	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_[4]	_	false[4]	4[4]	_	
+4-3	62-65	IMM	_	_[4]	_	false[4]	4[4]	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=När riksdagen i dag samlas i kammaren är det för att debattera den högaktuella situationen för ensamkommande.
+5-1	68-71	När	_	_	_	_	_	_	
+5-2	72-81	riksdagen	_	_	_	_	_	_	
+5-3	82-83	i	_	_	_	_	_	_	
+5-4	84-87	dag	_	_	_	_	_	_	
+5-5	88-94	samlas	_	_	_	_	_	_	
+5-6	95-96	i	_	_	_	_	_	_	
+5-7	97-105	kammaren	_	_	_	_	_	_	
+5-8	106-108	är	_	_	_	_	_	_	
+5-9	109-112	det	_	_	_	_	_	_	
+5-10	113-116	för	_	_	_	_	_	_	
+5-11	117-120	att	_	_	_	_	_	_	
+5-12	121-130	debattera	_	_	_	_	_	_	
+5-13	131-134	den	_	_	_	_	_	_	
+5-14	135-146	högaktuella	_	_	_	_	_	_	
+5-15	147-158	situationen	_	_	_	_	_	_	
+5-16	159-162	för	_	_	_	_	_	_	
+5-17	163-176	ensamkommande	_	_	_	_	_	_	
+5-18	176-177	.	_	_	_	_	_	_	
+
+#Text=Ungdomar i hela landet protesterar sedan flera månader mot utvisningar till Afghanistan.
+6-1	178-186	Ungdomar	*[31]	_	_	_	_	_	
+6-2	187-188	i	*[31]	_	_	_	_	_	
+6-3	189-193	hela	*[31]	_	_	_	_	_	
+6-4	194-200	landet	*[31]	_	_	_	_	_	
+6-5	201-212	protesterar	_	Target;Source	6-10[32];6-1[31]	false	1	_	
+6-6	213-218	sedan	_	_	_	_	_	_	
+6-7	219-224	flera	_	_	_	_	_	_	
+6-8	225-232	månader	_	_	_	_	_	_	
+6-9	233-236	mot	_	_	_	_	_	_	
+6-10	237-248	utvisningar	*[32]	_	_	_	_	_	
+6-11	249-253	till	*[32]	_	_	_	_	_	
+6-12	254-265	Afghanistan	*[32]	_	_	_	_	_	
+6-13	265-266	.	_	_	_	_	_	_	
+
+#Text=Många av dem kom själva till Sverige som ensamkommande barn under 2015.
+7-1	267-272	Många	_	_	_	_	_	_	
+7-2	273-275	av	_	_	_	_	_	_	
+7-3	276-279	dem	_	_	_	_	_	_	
+7-4	280-283	kom	_	_	_	_	_	_	
+7-5	284-290	själva	_	_	_	_	_	_	
+7-6	291-295	till	_	_	_	_	_	_	
+7-7	296-303	Sverige	_	_	_	_	_	_	
+7-8	304-307	som	_	_	_	_	_	_	
+7-9	308-321	ensamkommande	_	_	_	_	_	_	
+7-10	322-326	barn	_	_	_	_	_	_	
+7-11	327-332	under	_	_	_	_	_	_	
+7-12	333-337	2015	_	_	_	_	_	_	
+7-13	337-338	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	340-341	#	_	_	_	_	_	_	
+8-2	341-342	P	_	_[5]	_	false[5]	4[5]	_	
+8-3	343-346	IMM	_	_[5]	_	false[5]	4[5]	_	
+8-4	346-347	.	_	_	_	_	_	_	
+
+#Text=Vi i Miljöpartiet vill att de som kom som ensamkommande barn under 2015 ska få stanna i Sverige.
+9-1	349-351	Vi	_	_	_	_	_	_	
+9-2	352-353	i	_	_	_	_	_	_	
+9-3	354-366	Miljöpartiet	*	_	_	_	_	_	
+9-4	367-371	vill	_	Target;Source	9-6[33];9-3	false	4	_	
+9-5	372-375	att	_	_	_	_	_	_	
+9-6	376-378	de	*[33]	_	_	_	_	_	
+9-7	379-382	som	*[33]	_	_	_	_	_	
+9-8	383-386	kom	*[33]	_	_	_	_	_	
+9-9	387-390	som	*[33]	_	_	_	_	_	
+9-10	391-404	ensamkommande	*[33]	_	_	_	_	_	
+9-11	405-409	barn	*[33]	_	_	_	_	_	
+9-12	410-415	under	*[33]	_	_	_	_	_	
+9-13	416-420	2015	*[33]	_	_	_	_	_	
+9-14	421-424	ska	*[33]	_	_	_	_	_	
+9-15	425-427	få	*[33]	_	_	_	_	_	
+9-16	428-434	stanna	*[33]	_	_	_	_	_	
+9-17	435-436	i	*[33]	_	_	_	_	_	
+9-18	437-444	Sverige	*[33]	_	_	_	_	_	
+9-19	444-445	.	_	_	_	_	_	_	
+
+#Text=Vi har jobbat hårt för att det ska bli verklighet.
+10-1	446-448	Vi	_	_	_	_	_	_	
+10-2	449-452	har	_	_	_	_	_	_	
+10-3	453-459	jobbat	_	_	_	_	_	_	
+10-4	460-464	hårt	_	_	_	_	_	_	
+10-5	465-468	för	_	_	_	_	_	_	
+10-6	469-472	att	_	_	_	_	_	_	
+10-7	473-476	det	_	_	_	_	_	_	
+10-8	477-480	ska	_	_	_	_	_	_	
+10-9	481-484	bli	_	_	_	_	_	_	
+10-10	485-495	verklighet	_	_	_	_	_	_	
+10-11	495-496	.	_	_	_	_	_	_	
+
+#Text=Tyvärr har de lösningar vi genomfört under de senaste åren lett till att betydligt färre än vad det var tänkt får stanna när verkligheten förändrats snabbt.
+11-1	497-503	Tyvärr	_	Target	11-3[34]	false	2	_	
+11-2	504-507	har	_	_	_	_	_	_	
+11-3	508-510	de	*[34]	_	_	_	_	_	
+11-4	511-520	lösningar	*[34]	_	_	_	_	_	
+11-5	521-523	vi	*[34]	_	_	_	_	_	
+11-6	524-533	genomfört	*[34]	_	_	_	_	_	
+11-7	534-539	under	*[34]	_	_	_	_	_	
+11-8	540-542	de	*[34]	_	_	_	_	_	
+11-9	543-550	senaste	*[34]	_	_	_	_	_	
+11-10	551-555	åren	*[34]	_	_	_	_	_	
+11-11	556-560	lett	_	_[6]	_	false[6]	2[6]	11-1[0_6]	
+11-12	561-565	till	_	_[6]	_	false[6]	2[6]	_	
+11-13	566-569	att	_	_	_	_	_	_	
+11-14	570-579	betydligt	_	_	_	_	_	_	
+11-15	580-585	färre	_	_	_	_	_	_	
+11-16	586-588	än	_	_	_	_	_	_	
+11-17	589-592	vad	_	_	_	_	_	_	
+11-18	593-596	det	_	_	_	_	_	_	
+11-19	597-600	var	_	_	_	_	_	_	
+11-20	601-606	tänkt	_	_	_	_	_	_	
+11-21	607-610	får	_	_	_	_	_	_	
+11-22	611-617	stanna	_	_	_	_	_	_	
+11-23	618-621	när	_	_	_	_	_	_	
+11-24	622-634	verkligheten	_	_	_	_	_	_	
+11-25	635-645	förändrats	_	_	_	_	_	_	
+11-26	646-652	snabbt	_	_	_	_	_	_	
+11-27	652-653	.	_	_	_	_	_	_	
+
+#Text=Därför behöver vi nu genomföra förändringar som gör att denna grupp får stanna, så som tanken var redan 2015.
+12-1	654-660	Därför	_	_	_	_	_	_	
+12-2	661-668	behöver	_	_	_	_	_	_	
+12-3	669-671	vi	_	_	_	_	_	_	
+12-4	672-674	nu	_	_	_	_	_	_	
+12-5	675-684	genomföra	_	_	_	_	_	_	
+12-6	685-697	förändringar	_	_	_	_	_	_	
+12-7	698-701	som	_	_	_	_	_	_	
+12-8	702-705	gör	_	_	_	_	_	_	
+12-9	706-709	att	_	_	_	_	_	_	
+12-10	710-715	denna	_	_	_	_	_	_	
+12-11	716-721	grupp	_	_	_	_	_	_	
+12-12	722-725	får	_	_	_	_	_	_	
+12-13	726-732	stanna	_	_	_	_	_	_	
+12-14	732-733	,	_	_	_	_	_	_	
+12-15	734-736	så	_	_	_	_	_	_	
+12-16	737-740	som	_	_	_	_	_	_	
+12-17	741-747	tanken	_	_	_	_	_	_	
+12-18	748-751	var	_	_	_	_	_	_	
+12-19	752-757	redan	_	_	_	_	_	_	
+12-20	758-762	2015	_	_	_	_	_	_	
+12-21	762-763	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	765-766	#	_	_	_	_	_	_	
+13-2	766-767	P	_	_[7]	_	false[7]	4[7]	_	
+13-3	768-771	IMM	_	_[7]	_	false[7]	4[7]	_	
+13-4	771-772	.	_	_	_	_	_	_	
+
+#Text=Kommuner, landsting och civilsamhälle har gjort enorma insatser för att ta emot ungdomarna och ge dem en väg in i samhället.
+14-1	774-782	Kommuner	*[35]	_	_	_	_	_	
+14-2	782-783	,	*[35]	_	_	_	_	_	
+14-3	784-793	landsting	*[35]	_	_	_	_	_	
+14-4	794-797	och	*[35]	_	_	_	_	_	
+14-5	798-811	civilsamhälle	*[35]	_	_	_	_	_	
+14-6	812-815	har	_	Target[8]	14-1[35]	false[8]	5[8]	_	
+14-7	816-821	gjort	_	Target[8]	14-1[35]	false[8]	5[8]	_	
+14-8	822-828	enorma	_	Target[8]	14-1[35]	false[8]	5[8]	_	
+14-9	829-837	insatser	_	Target[8]	14-1[35]	false[8]	5[8]	_	
+14-10	838-841	för	_	_	_	_	_	_	
+14-11	842-845	att	_	_	_	_	_	_	
+14-12	846-848	ta	_	_	_	_	_	_	
+14-13	849-853	emot	_	_	_	_	_	_	
+14-14	854-864	ungdomarna	_	_	_	_	_	_	
+14-15	865-868	och	_	_	_	_	_	_	
+14-16	869-871	ge	_	_	_	_	_	_	
+14-17	872-875	dem	_	_	_	_	_	_	
+14-18	876-878	en	_	_	_	_	_	_	
+14-19	879-882	väg	_	_	_	_	_	_	
+14-20	883-885	in	_	_	_	_	_	_	
+14-21	886-887	i	_	_	_	_	_	_	
+14-22	888-897	samhället	_	_	_	_	_	_	
+14-23	897-898	.	_	_	_	_	_	_	
+
+#Text=I dag har många av ungdomarna börjat rota sig i Sverige.
+15-1	899-900	I	_	_	_	_	_	_	
+15-2	901-904	dag	_	_	_	_	_	_	
+15-3	905-908	har	_	_	_	_	_	_	
+15-4	909-914	många	_	_	_	_	_	_	
+15-5	915-917	av	_	_	_	_	_	_	
+15-6	918-928	ungdomarna	_	_	_	_	_	_	
+15-7	929-935	börjat	_	_	_	_	_	_	
+15-8	936-940	rota	_	_	_	_	_	_	
+15-9	941-944	sig	_	_	_	_	_	_	
+15-10	945-946	i	_	_	_	_	_	_	
+15-11	947-954	Sverige	_	_	_	_	_	_	
+15-12	954-955	.	_	_	_	_	_	_	
+
+#Text=De går i skolan, lär sig svenska, har fått vänner och fritidsaktiviteter och har engagerade vuxna personer runt sig som stöttar och backar upp.
+16-1	956-958	De	*	_	_	_	_	_	
+16-2	959-962	går	_	_	_	_	_	_	
+16-3	963-964	i	_	_	_	_	_	_	
+16-4	965-971	skolan	_	_	_	_	_	_	
+16-5	971-972	,	_	_	_	_	_	_	
+16-6	973-976	lär	_	_	_	_	_	_	
+16-7	977-980	sig	_	_	_	_	_	_	
+16-8	981-988	svenska	_	_	_	_	_	_	
+16-9	988-989	,	_	_	_	_	_	_	
+16-10	990-993	har	_	_	_	_	_	_	
+16-11	994-998	fått	_	_	_	_	_	_	
+16-12	999-1005	vänner	_	_	_	_	_	_	
+16-13	1006-1009	och	_	_	_	_	_	_	
+16-14	1010-1028	fritidsaktiviteter	_	_	_	_	_	_	
+16-15	1029-1032	och	_	_	_	_	_	_	
+16-16	1033-1036	har	_	_	_	_	_	_	
+16-17	1037-1047	engagerade	_	Target	16-18[36]	false	4	_	
+16-18	1048-1053	vuxna	*[36]	_	_	_	_	_	
+16-19	1054-1062	personer	*[36]	_	_	_	_	_	
+16-20	1063-1067	runt	_	_	_	_	_	_	
+16-21	1068-1071	sig	_	_	_	_	_	_	
+16-22	1072-1075	som	_	_	_	_	_	_	
+16-23	1076-1083	stöttar	_	Target;Source	16-1;16-18[36]	false	4	_	
+16-24	1084-1087	och	_	_	_	_	_	_	
+16-25	1088-1094	backar	_	Target;Source[9]	16-1;16-18[36]	false[9]	4[9]	_	
+16-26	1095-1098	upp	_	Target;Source[9]	16-1;16-18[36]	false[9]	4[9]	_	
+16-27	1098-1099	.	_	Target;Source[9]	16-1;16-18[36]	false[9]	4[9]	_	
+
+#Text=#P IMM.
+17-1	1101-1102	#	_	_	_	_	_	_	
+17-2	1102-1103	P	_	_[10]	_	false[10]	4[10]	_	
+17-3	1104-1107	IMM	_	_[10]	_	false[10]	4[10]	_	
+17-4	1107-1108	.	_	_	_	_	_	_	
+
+#Text=Samtidigt riskerar många nu att avvisas eftersom de hunnit bli vuxna under tiden de väntat på asylbeslut.
+18-1	1110-1119	Samtidigt	_	_	_	_	_	_	
+18-2	1120-1128	riskerar	_	Source;Target	18-3;18-6	false	2	_	
+18-3	1129-1134	många	*	_	_	_	_	_	
+18-4	1135-1137	nu	_	_	_	_	_	_	
+18-5	1138-1141	att	_	_	_	_	_	_	
+18-6	1142-1149	avvisas	*	_	_	_	_	_	
+18-7	1150-1158	eftersom	_	_	_	_	_	_	
+18-8	1159-1161	de	_	_	_	_	_	_	
+18-9	1162-1168	hunnit	_	_	_	_	_	_	
+18-10	1169-1172	bli	_	_	_	_	_	_	
+18-11	1173-1178	vuxna	_	_	_	_	_	_	
+18-12	1179-1184	under	_	_	_	_	_	_	
+18-13	1185-1190	tiden	_	_	_	_	_	_	
+18-14	1191-1193	de	_	_	_	_	_	_	
+18-15	1194-1200	väntat	_	_	_	_	_	_	
+18-16	1201-1203	på	_	_	_	_	_	_	
+18-17	1204-1214	asylbeslut	_	_	_	_	_	_	
+18-18	1214-1215	.	_	_	_	_	_	_	
+
+#Text=Detta skapar en stor oro och otrygghet.
+19-1	1216-1221	Detta	*	_	_	_	_	_	
+19-2	1222-1228	skapar	_	_	_	_	_	_	
+19-3	1229-1231	en	_	_	_	_	_	_	
+19-4	1232-1236	stor	_	Target;Source[11]	19-1;19-8	false[11]	2[11]	_	
+19-5	1237-1240	oro	_	Target;Source[11]	19-1;19-8	false[11]	2[11]	_	
+19-6	1241-1244	och	_	Target;Source[11]	19-1;19-8	false[11]	2[11]	_	
+19-7	1245-1254	otrygghet	_	Target;Source[11]	19-1;19-8	false[11]	2[11]	_	
+19-8	1254-1255	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1257-1258	#	_	_	_	_	_	_	
+20-2	1258-1259	P	_	_[12]	_	false[12]	3[12]	_	
+20-3	1260-1263	IMM	_	_[12]	_	false[12]	3[12]	_	
+20-4	1263-1264	.	_	_	_	_	_	_	
+
+#Text=När regeringen i november 2015 beslutade att införa en tillfälligt mer restriktiv migrationslagstiftning förhandlade vi in ett barnundantag som skulle göra att alla barn fortsatt skulle få permanenta uppehållstillstånd i stället för tillfälliga om de sökt asyl innan den 25 november 2015.
+21-1	1266-1269	När	_	_	_	_	_	_	
+21-2	1270-1280	regeringen	_	_	_	_	_	_	
+21-3	1281-1282	i	_	_	_	_	_	_	
+21-4	1283-1291	november	_	_	_	_	_	_	
+21-5	1292-1296	2015	_	_	_	_	_	_	
+21-6	1297-1306	beslutade	_	_	_	_	_	_	
+21-7	1307-1310	att	_	_	_	_	_	_	
+21-8	1311-1317	införa	_	_	_	_	_	_	
+21-9	1318-1320	en	_	_	_	_	_	_	
+21-10	1321-1332	tillfälligt	_	_	_	_	_	_	
+21-11	1333-1336	mer	_	_	_	_	_	_	
+21-12	1337-1347	restriktiv	_	_	_	_	_	_	
+21-13	1348-1370	migrationslagstiftning	_	_	_	_	_	_	
+21-14	1371-1382	förhandlade	_	_	_	_	_	_	
+21-15	1383-1385	vi	_	_	_	_	_	_	
+21-16	1386-1388	in	_	_	_	_	_	_	
+21-17	1389-1392	ett	_	_	_	_	_	_	
+21-18	1393-1405	barnundantag	_	_	_	_	_	_	
+21-19	1406-1409	som	_	_	_	_	_	_	
+21-20	1410-1416	skulle	_	_	_	_	_	_	
+21-21	1417-1421	göra	_	_	_	_	_	_	
+21-22	1422-1425	att	_	_	_	_	_	_	
+21-23	1426-1430	alla	_	_	_	_	_	_	
+21-24	1431-1435	barn	_	_	_	_	_	_	
+21-25	1436-1444	fortsatt	_	_	_	_	_	_	
+21-26	1445-1451	skulle	_	_	_	_	_	_	
+21-27	1452-1454	få	_	_	_	_	_	_	
+21-28	1455-1465	permanenta	_	_	_	_	_	_	
+21-29	1466-1484	uppehållstillstånd	_	_	_	_	_	_	
+21-30	1485-1486	i	_	_	_	_	_	_	
+21-31	1487-1494	stället	_	_	_	_	_	_	
+21-32	1495-1498	för	_	_	_	_	_	_	
+21-33	1499-1510	tillfälliga	_	_	_	_	_	_	
+21-34	1511-1513	om	_	_	_	_	_	_	
+21-35	1514-1516	de	_	_	_	_	_	_	
+21-36	1517-1521	sökt	_	_	_	_	_	_	
+21-37	1522-1526	asyl	_	_	_	_	_	_	
+21-38	1527-1532	innan	_	_	_	_	_	_	
+21-39	1533-1536	den	_	_	_	_	_	_	
+21-40	1537-1539	25	_	_	_	_	_	_	
+21-41	1540-1548	november	_	_	_	_	_	_	
+21-42	1549-1553	2015	_	_	_	_	_	_	
+21-43	1553-1554	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1556-1557	#	_	_	_	_	_	_	
+22-2	1557-1558	P	_	_[13]	_	false[13]	4[13]	_	
+22-3	1559-1562	IMM	_	_[13]	_	false[13]	4[13]	_	
+22-4	1562-1563	.	_	_	_	_	_	_	
+
+#Text=Som vi såg det var undantaget särskilt viktigt för just de ensamkommande som annars riskerade att inte få sina uppehållstillstånd förnyade när de fyllt 18 år och i stället skulle bedömas som vuxna.
+23-1	1565-1568	Som	_	_	_	_	_	_	
+23-2	1569-1571	vi	*	_	_	_	_	_	
+23-3	1572-1575	såg	_	_	_	_	_	_	
+23-4	1576-1579	det	_	_	_	_	_	_	
+23-5	1580-1583	var	_	_	_	_	_	_	
+23-6	1584-1594	undantaget	*	_	_	_	_	_	
+23-7	1595-1603	särskilt	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-8	1604-1611	viktigt	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-9	1612-1615	för	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-10	1616-1620	just	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-11	1621-1623	de	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-12	1624-1637	ensamkommande	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-13	1638-1641	som	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-14	1642-1648	annars	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-15	1649-1658	riskerade	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-16	1659-1662	att	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-17	1663-1667	inte	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-18	1668-1670	få	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-19	1671-1675	sina	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-20	1676-1694	uppehållstillstånd	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-21	1695-1703	förnyade	_	Target;Source[14]	23-6;23-2	false[14]	4[14]	_	
+23-22	1704-1707	när	_	_	_	_	_	_	
+23-23	1708-1710	de	_	_	_	_	_	_	
+23-24	1711-1716	fyllt	_	_	_	_	_	_	
+23-25	1717-1719	18	_	_	_	_	_	_	
+23-26	1720-1722	år	_	_	_	_	_	_	
+23-27	1723-1726	och	_	_	_	_	_	_	
+23-28	1727-1728	i	_	_	_	_	_	_	
+23-29	1729-1736	stället	_	_	_	_	_	_	
+23-30	1737-1743	skulle	_	_	_	_	_	_	
+23-31	1744-1751	bedömas	_	_	_	_	_	_	
+23-32	1752-1755	som	_	_	_	_	_	_	
+23-33	1756-1761	vuxna	_	_	_	_	_	_	
+23-34	1761-1762	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1764-1765	#	_	_	_	_	_	_	
+24-2	1765-1766	P	_	_[15]	_	false[15]	4[15]	_	
+24-3	1767-1770	IMM	_	_[15]	_	false[15]	4[15]	_	
+24-4	1770-1771	.	_	_	_	_	_	_	
+
+#Text=Migrationsverket genomförde sommaren därpå en praxisändring som urholkade barnundantaget.
+25-1	1773-1789	Migrationsverket	_	_	_	_	_	_	
+25-2	1790-1800	genomförde	_	_	_	_	_	_	
+25-3	1801-1809	sommaren	_	_	_	_	_	_	
+25-4	1810-1815	därpå	_	_	_	_	_	_	
+25-5	1816-1818	en	_	_	_	_	_	_	
+25-6	1819-1832	praxisändring	*	_	_	_	_	_	
+25-7	1833-1836	som	_	_	_	_	_	_	
+25-8	1837-1846	urholkade	_	Target	25-6	false	2	_	
+25-9	1847-1861	barnundantaget	_	_	_	_	_	_	
+25-10	1861-1862	.	_	_	_	_	_	_	
+
+#Text=Ändringen innebar att ensamkommande barn mellan 16 och 18 år som saknar ordnat mottagande i hemlandet bara skulle få stanna tillfälligt fram till att de fyllde 18 för att då kunna utvisas som vuxna.
+26-1	1863-1872	Ändringen	_	_	_	_	_	_	
+26-2	1873-1880	innebar	_	_	_	_	_	_	
+26-3	1881-1884	att	_	_	_	_	_	_	
+26-4	1885-1898	ensamkommande	_	_	_	_	_	_	
+26-5	1899-1903	barn	_	_	_	_	_	_	
+26-6	1904-1910	mellan	_	_	_	_	_	_	
+26-7	1911-1913	16	_	_	_	_	_	_	
+26-8	1914-1917	och	_	_	_	_	_	_	
+26-9	1918-1920	18	_	_	_	_	_	_	
+26-10	1921-1923	år	_	_	_	_	_	_	
+26-11	1924-1927	som	_	_	_	_	_	_	
+26-12	1928-1934	saknar	_	_	_	_	_	_	
+26-13	1935-1941	ordnat	_	_	_	_	_	_	
+26-14	1942-1952	mottagande	_	_	_	_	_	_	
+26-15	1953-1954	i	_	_	_	_	_	_	
+26-16	1955-1964	hemlandet	_	_	_	_	_	_	
+26-17	1965-1969	bara	_	_	_	_	_	_	
+26-18	1970-1976	skulle	_	_	_	_	_	_	
+26-19	1977-1979	få	_	_	_	_	_	_	
+26-20	1980-1986	stanna	_	_	_	_	_	_	
+26-21	1987-1998	tillfälligt	_	_	_	_	_	_	
+26-22	1999-2003	fram	_	_	_	_	_	_	
+26-23	2004-2008	till	_	_	_	_	_	_	
+26-24	2009-2012	att	_	_	_	_	_	_	
+26-25	2013-2015	de	_	_	_	_	_	_	
+26-26	2016-2022	fyllde	_	_	_	_	_	_	
+26-27	2023-2025	18	_	_	_	_	_	_	
+26-28	2026-2029	för	_	_	_	_	_	_	
+26-29	2030-2033	att	_	_	_	_	_	_	
+26-30	2034-2036	då	_	_	_	_	_	_	
+26-31	2037-2042	kunna	_	_	_	_	_	_	
+26-32	2043-2050	utvisas	_	_	_	_	_	_	
+26-33	2051-2054	som	_	_	_	_	_	_	
+26-34	2055-2060	vuxna	_	_	_	_	_	_	
+26-35	2060-2061	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2063-2064	#	_	_	_	_	_	_	
+27-2	2064-2065	P	_	_[16]	_	false[16]	4[16]	_	
+27-3	2066-2069	IMM	_	_[16]	_	false[16]	4[16]	_	
+27-4	2069-2070	.	_	_	_	_	_	_	
+
+#Text=För att återigen försöka komma till rätta med denna situation arbetade vi intensivt med att förhandla fram en ny lag som skulle ge dessa ungdomar möjlighet till längre uppehållstillstånd för att kunna gå klart gymnasiet i lugn och ro, och därefter få möjlighet till permanent uppehållstillstånd genom arbete.
+28-1	2072-2075	För	_	_	_	_	_	_	
+28-2	2076-2079	att	_	_	_	_	_	_	
+28-3	2080-2088	återigen	_	_	_	_	_	_	
+28-4	2089-2096	försöka	_	_	_	_	_	_	
+28-5	2097-2102	komma	_	_	_	_	_	_	
+28-6	2103-2107	till	_	_	_	_	_	_	
+28-7	2108-2113	rätta	_	_	_	_	_	_	
+28-8	2114-2117	med	_	_	_	_	_	_	
+28-9	2118-2123	denna	_	_	_	_	_	_	
+28-10	2124-2133	situation	_	_	_	_	_	_	
+28-11	2134-2142	arbetade	_	_	_	_	_	_	
+28-12	2143-2145	vi	_	_	_	_	_	_	
+28-13	2146-2155	intensivt	_	_	_	_	_	_	
+28-14	2156-2159	med	_	_	_	_	_	_	
+28-15	2160-2163	att	_	_	_	_	_	_	
+28-16	2164-2173	förhandla	_	_	_	_	_	_	
+28-17	2174-2178	fram	_	_	_	_	_	_	
+28-18	2179-2181	en	_	_	_	_	_	_	
+28-19	2182-2184	ny	_	_	_	_	_	_	
+28-20	2185-2188	lag	_	_	_	_	_	_	
+28-21	2189-2192	som	_	_	_	_	_	_	
+28-22	2193-2199	skulle	_	_	_	_	_	_	
+28-23	2200-2202	ge	_	_	_	_	_	_	
+28-24	2203-2208	dessa	_	_	_	_	_	_	
+28-25	2209-2217	ungdomar	_	_	_	_	_	_	
+28-26	2218-2227	möjlighet	_	_	_	_	_	_	
+28-27	2228-2232	till	_	_	_	_	_	_	
+28-28	2233-2239	längre	_	_	_	_	_	_	
+28-29	2240-2258	uppehållstillstånd	_	_	_	_	_	_	
+28-30	2259-2262	för	_	_	_	_	_	_	
+28-31	2263-2266	att	_	_	_	_	_	_	
+28-32	2267-2272	kunna	_	_	_	_	_	_	
+28-33	2273-2275	gå	_	_	_	_	_	_	
+28-34	2276-2281	klart	_	_	_	_	_	_	
+28-35	2282-2291	gymnasiet	_	_	_	_	_	_	
+28-36	2292-2293	i	_	_	_	_	_	_	
+28-37	2294-2298	lugn	_	_	_	_	_	_	
+28-38	2299-2302	och	_	_	_	_	_	_	
+28-39	2303-2305	ro	_	_	_	_	_	_	
+28-40	2305-2306	,	_	_	_	_	_	_	
+28-41	2307-2310	och	_	_	_	_	_	_	
+28-42	2311-2319	därefter	_	_	_	_	_	_	
+28-43	2320-2322	få	_	_	_	_	_	_	
+28-44	2323-2332	möjlighet	_	_	_	_	_	_	
+28-45	2333-2337	till	_	_	_	_	_	_	
+28-46	2338-2347	permanent	_	_	_	_	_	_	
+28-47	2348-2366	uppehållstillstånd	_	_	_	_	_	_	
+28-48	2367-2372	genom	_	_	_	_	_	_	
+28-49	2373-2379	arbete	_	_	_	_	_	_	
+28-50	2379-2380	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2382-2383	#	_	_	_	_	_	_	
+29-2	2383-2384	P	_	_[17]	_	false[17]	4[17]	_	
+29-3	2385-2388	IMM	_	_[17]	_	false[17]	4[17]	_	
+29-4	2388-2389	.	_	_	_	_	_	_	
+
+#Text=Den så kallade gymnasielagen, som vi lyckades få stöd för i riksdagen tidigare i år, kommer att ha stor betydelse för en del ungdomar, men färre än vad vi hade förväntat oss och hoppats på, på grund av den långa väntan på besked riskerar väldigt många att hinna fylla 18 år innan de får sitt första asylbeslut.
+30-1	2391-2394	Den	_	_	_	_	_	_	
+30-2	2395-2397	så	_	_	_	_	_	_	
+30-3	2398-2405	kallade	_	_	_	_	_	_	
+30-4	2406-2419	gymnasielagen	*	_	_	_	_	_	
+30-5	2419-2420	,	_	_	_	_	_	_	
+30-6	2421-2424	som	_	_	_	_	_	_	
+30-7	2425-2427	vi	_	_	_	_	_	_	
+30-8	2428-2436	lyckades	_	_	_	_	_	_	
+30-9	2437-2439	få	_	_	_	_	_	_	
+30-10	2440-2444	stöd	_	_	_	_	_	_	
+30-11	2445-2448	för	_	_	_	_	_	_	
+30-12	2449-2450	i	_	_	_	_	_	_	
+30-13	2451-2460	riksdagen	_	_	_	_	_	_	
+30-14	2461-2469	tidigare	_	_	_	_	_	_	
+30-15	2470-2471	i	_	_	_	_	_	_	
+30-16	2472-2474	år	_	_	_	_	_	_	
+30-17	2474-2475	,	_	_	_	_	_	_	
+30-18	2476-2482	kommer	_	Source;Target[18]	30-23[37];30-4	false[18]	4[18]	_	
+30-19	2483-2486	att	_	Source;Target[18]	30-23[37];30-4	false[18]	4[18]	_	
+30-20	2487-2489	ha	_	Source;Target[18]	30-23[37];30-4	false[18]	4[18]	_	
+30-21	2490-2494	stor	_	Source;Target[18]	30-23[37];30-4	false[18]	4[18]	_	
+30-22	2495-2504	betydelse	_	Source;Target[18]	30-23[37];30-4	false[18]	4[18]	_	
+30-23	2505-2508	för	*[37]	_	_	_	_	_	
+30-24	2509-2511	en	*[37]	_	_	_	_	_	
+30-25	2512-2515	del	*[37]	_	_	_	_	_	
+30-26	2516-2524	ungdomar	*[37]	_	_	_	_	_	
+30-27	2524-2525	,	_	_	_	_	_	_	
+30-28	2526-2529	men	_	_	_	_	_	_	
+30-29	2530-2535	färre	_	_	_	_	_	_	
+30-30	2536-2538	än	_	_	_	_	_	_	
+30-31	2539-2542	vad	_	_	_	_	_	_	
+30-32	2543-2545	vi	*	_	_	_	_	_	
+30-33	2546-2550	hade	_	_	_	_	_	_	
+30-34	2551-2560	förväntat	_	Source[19]	30-32	false[19]	4[19]	_	
+30-35	2561-2564	oss	_	Source[19]	30-32	false[19]	4[19]	_	
+30-36	2565-2568	och	_	Source[19]	30-32	false[19]	4[19]	_	
+30-37	2569-2576	hoppats	_	Source[19]	30-32	false[19]	4[19]	_	
+30-38	2577-2579	på	_	Source[19]	30-32	false[19]	4[19]	_	
+30-39	2579-2580	,	_	_	_	_	_	_	
+30-40	2581-2583	på	_	_	_	_	_	_	
+30-41	2584-2589	grund	_	_	_	_	_	_	
+30-42	2590-2592	av	_	_	_	_	_	_	
+30-43	2593-2596	den	_	_	_	_	_	_	
+30-44	2597-2602	långa	_	_	_	_	_	_	
+30-45	2603-2609	väntan	_	_	_	_	_	_	
+30-46	2610-2612	på	_	_	_	_	_	_	
+30-47	2613-2619	besked	_	_	_	_	_	_	
+30-48	2620-2628	riskerar	_	Target;Source	30-52[39];30-49[38]	false	2	_	
+30-49	2629-2636	väldigt	*[38]	_	_	_	_	_	
+30-50	2637-2642	många	*[38]	_	_	_	_	_	
+30-51	2643-2646	att	_	_	_	_	_	_	
+30-52	2647-2652	hinna	*[39]	_	_	_	_	_	
+30-53	2653-2658	fylla	*[39]	_	_	_	_	_	
+30-54	2659-2661	18	*[39]	_	_	_	_	_	
+30-55	2662-2664	år	*[39]	_	_	_	_	_	
+30-56	2665-2670	innan	*[39]	_	_	_	_	_	
+30-57	2671-2673	de	*[39]	_	_	_	_	_	
+30-58	2674-2677	får	*[39]	_	_	_	_	_	
+30-59	2678-2682	sitt	*[39]	_	_	_	_	_	
+30-60	2683-2689	första	*[39]	_	_	_	_	_	
+30-61	2690-2700	asylbeslut	*[39]	_	_	_	_	_	
+30-62	2700-2701	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2703-2704	#	_	_	_	_	_	_	
+31-2	2704-2705	P	_	_	_	_	_	_	
+31-3	2706-2709	IMM	_	_	_	_	_	_	
+31-4	2709-2710	.	_	_	_	_	_	_	
+
+#Text=Därmed riskerar betydligt fler att få avslag och de omfattas då inte heller av den så kallade gymnasielagen.
+32-1	2712-2718	Därmed	_	_	_	_	_	_	
+32-2	2719-2727	riskerar	_	Target;Source	32-6[41];32-3[40]	false	2	_	
+32-3	2728-2737	betydligt	*[40]	_	_	_	_	_	
+32-4	2738-2742	fler	*[40]	_	_	_	_	_	
+32-5	2743-2746	att	_	_	_	_	_	_	
+32-6	2747-2749	få	*[41]	_	_	_	_	_	
+32-7	2750-2756	avslag	*[41]	_	_	_	_	_	
+32-8	2757-2760	och	_	_	_	_	_	_	
+32-9	2761-2763	de	_	_	_	_	_	_	
+32-10	2764-2772	omfattas	_	_	_	_	_	_	
+32-11	2773-2775	då	_	_	_	_	_	_	
+32-12	2776-2780	inte	_	_	_	_	_	_	
+32-13	2781-2787	heller	_	_	_	_	_	_	
+32-14	2788-2790	av	_	_	_	_	_	_	
+32-15	2791-2794	den	_	_	_	_	_	_	
+32-16	2795-2797	så	_	_	_	_	_	_	
+32-17	2798-2805	kallade	_	_	_	_	_	_	
+32-18	2806-2819	gymnasielagen	_	_	_	_	_	_	
+32-19	2819-2820	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2822-2823	#	_	_	_	_	_	_	
+33-2	2823-2824	P	_	_	_	_	_	_	
+33-3	2825-2828	IMM	_	_	_	_	_	_	
+33-4	2828-2829	.	_	_	_	_	_	_	
+
+#Text=Vid båda våra försök att förebygga den situation vi nu står inför har alltså verkligheten förändrats snabbare än vi har hunnit lagstifta.
+34-1	2831-2834	Vid	_	_	_	_	_	_	
+34-2	2835-2839	båda	_	_	_	_	_	_	
+34-3	2840-2844	våra	_	_	_	_	_	_	
+34-4	2845-2851	försök	_	_	_	_	_	_	
+34-5	2852-2855	att	_	_	_	_	_	_	
+34-6	2856-2865	förebygga	_	_	_	_	_	_	
+34-7	2866-2869	den	_	_	_	_	_	_	
+34-8	2870-2879	situation	_	_	_	_	_	_	
+34-9	2880-2882	vi	_	_	_	_	_	_	
+34-10	2883-2885	nu	_	_	_	_	_	_	
+34-11	2886-2890	står	_	_	_	_	_	_	
+34-12	2891-2896	inför	_	_	_	_	_	_	
+34-13	2897-2900	har	_	_	_	_	_	_	
+34-14	2901-2907	alltså	_	_	_	_	_	_	
+34-15	2908-2920	verkligheten	_	_	_	_	_	_	
+34-16	2921-2931	förändrats	_	_	_	_	_	_	
+34-17	2932-2940	snabbare	_	_	_	_	_	_	
+34-18	2941-2943	än	_	_	_	_	_	_	
+34-19	2944-2946	vi	_	_	_	_	_	_	
+34-20	2947-2950	har	_	_	_	_	_	_	
+34-21	2951-2957	hunnit	_	_	_	_	_	_	
+34-22	2958-2967	lagstifta	_	_	_	_	_	_	
+34-23	2967-2968	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2970-2971	#	_	_	_	_	_	_	
+35-2	2971-2972	P	_	_[20]	_	false[20]	4[20]	_	
+35-3	2973-2976	IMM	_	_[20]	_	false[20]	4[20]	_	
+35-4	2976-2977	.	_	_	_	_	_	_	
+
+#Text=Det största problemet är att de onormalt långa handläggningstiderna gör att många unga som vid normala handläggningstider skulle få stanna, nu i stället får avslag eftersom de hunnit bli myndiga under tiden.
+36-1	2979-2982	Det	_	Target[21]	36-6[42]	false[21]	2[21]	_	
+36-2	2983-2990	största	_	Target[21]	36-6[42]	false[21]	2[21]	_	
+36-3	2991-3000	problemet	_	Target[21]	36-6[42]	false[21]	2[21]	_	
+36-4	3001-3003	är	_	_	_	_	_	_	
+36-5	3004-3007	att	_	_	_	_	_	_	
+36-6	3008-3010	de	*[42]	_	_	_	_	_	
+36-7	3011-3019	onormalt	*[42]	_	_	_	_	_	
+36-8	3020-3025	långa	*[42]	_	_	_	_	_	
+36-9	3026-3046	handläggningstiderna	*[42]	_	_	_	_	_	
+36-10	3047-3050	gör	*[42]	_	_	_	_	_	
+36-11	3051-3054	att	*[42]	_	_	_	_	_	
+36-12	3055-3060	många	*[42]	_	_	_	_	_	
+36-13	3061-3065	unga	*[42]	_	_	_	_	_	
+36-14	3066-3069	som	*[42]	_	_	_	_	_	
+36-15	3070-3073	vid	*[42]	_	_	_	_	_	
+36-16	3074-3081	normala	*[42]	_	_	_	_	_	
+36-17	3082-3100	handläggningstider	*[42]	_	_	_	_	_	
+36-18	3101-3107	skulle	*[42]	_	_	_	_	_	
+36-19	3108-3110	få	*[42]	_	_	_	_	_	
+36-20	3111-3117	stanna	*[42]	_	_	_	_	_	
+36-21	3117-3118	,	*[42]	_	_	_	_	_	
+36-22	3119-3121	nu	*[42]	_	_	_	_	_	
+36-23	3122-3123	i	*[42]	_	_	_	_	_	
+36-24	3124-3131	stället	*[42]	_	_	_	_	_	
+36-25	3132-3135	får	*[42]	_	_	_	_	_	
+36-26	3136-3142	avslag	*[42]	_	_	_	_	_	
+36-27	3143-3151	eftersom	*[42]	_	_	_	_	_	
+36-28	3152-3154	de	*[42]	_	_	_	_	_	
+36-29	3155-3161	hunnit	*[42]	_	_	_	_	_	
+36-30	3162-3165	bli	*[42]	_	_	_	_	_	
+36-31	3166-3173	myndiga	*[42]	_	_	_	_	_	
+36-32	3174-3179	under	*[42]	_	_	_	_	_	
+36-33	3180-3185	tiden	*[42]	_	_	_	_	_	
+36-34	3185-3186	.	_	_	_	_	_	_	
+
+#Text=Att handläggningstiderna blivit flera år långa drabbar enskilda asylsökande oerhört.
+37-1	3187-3190	Att	_	_	_	_	_	_	
+37-2	3191-3211	handläggningstiderna	*[43]	_	_	_	_	_	
+37-3	3212-3218	blivit	*[43]	_	_	_	_	_	
+37-4	3219-3224	flera	*[43]	_	_	_	_	_	
+37-5	3225-3227	år	*[43]	_	_	_	_	_	
+37-6	3228-3233	långa	*[43]	_	_	_	_	_	
+37-7	3234-3241	drabbar	_	Target[22]	37-2[43]	false[22]	1[22]	_	
+37-8	3242-3250	enskilda	_	Target[22]	37-2[43]	false[22]	1[22]	_	
+37-9	3251-3262	asylsökande	_	Target[22]	37-2[43]	false[22]	1[22]	_	
+37-10	3263-3270	oerhört	_	Target[22]	37-2[43]	false[22]	1[22]	_	
+37-11	3270-3271	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3273-3274	#	_	_	_	_	_	_	
+38-2	3274-3275	P	_	_[23]	_	false[23]	4[23]	_	
+38-3	3276-3279	IMM	_	_[23]	_	false[23]	4[23]	_	
+38-4	3279-3280	.	_	_	_	_	_	_	
+
+#Text=Detta är mycket olyckligt.
+39-1	3282-3287	Detta	*	_	_	_	_	_	
+39-2	3288-3290	är	_	_	_	_	_	_	
+39-3	3291-3297	mycket	_	Target[24]	39-1	false[24]	1[24]	_	
+39-4	3298-3307	olyckligt	_	Target[24]	39-1	false[24]	1[24]	_	
+39-5	3307-3308	.	_	_	_	_	_	_	
+
+#Text=Den politiska avsikten har varit tydlig – det här är en grupp vi vill värna och skapa trygghet för.
+40-1	3309-3312	Den	_	_	_	_	_	_	
+40-2	3313-3322	politiska	_	_	_	_	_	_	
+40-3	3323-3331	avsikten	_	_	_	_	_	_	
+40-4	3332-3335	har	_	_	_	_	_	_	
+40-5	3336-3341	varit	_	_	_	_	_	_	
+40-6	3342-3348	tydlig	_	_	_	_	_	_	
+40-7	3349-3350	–	_	_	_	_	_	_	
+40-8	3351-3354	det	_	_	_	_	_	_	
+40-9	3355-3358	här	_	_	_	_	_	_	
+40-10	3359-3361	är	_	_	_	_	_	_	
+40-11	3362-3364	en	*[44]	_	_	_	_	_	
+40-12	3365-3370	grupp	*[44]	_	_	_	_	_	
+40-13	3371-3373	vi	*	_	_	_	_	_	
+40-14	3374-3378	vill	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-15	3379-3384	värna	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-16	3385-3388	och	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-17	3389-3394	skapa	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-18	3395-3403	trygghet	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-19	3404-3407	för	_	Source;Target[25]	40-13;40-11[44]	false[25]	4[25]	_	
+40-20	3407-3408	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3410-3411	#	_	_	_	_	_	_	
+41-2	3411-3412	P	_	_[26]	_	false[26]	4[26]	_	
+41-3	3413-3416	IMM	_	_[26]	_	false[26]	4[26]	_	
+41-4	3416-3417	.	_	_	_	_	_	_	
+
+#Text=Vi vill inte se tusentals asylsökande ungdomar få avslag i höst för att de har fått vänta i flera år på att få beslut.
+42-1	3419-3421	Vi	*	_	_	_	_	_	
+42-2	3422-3426	vill	_	Source;Target[27]	42-1;42-5[45]	false[27]	2[27]	_	
+42-3	3427-3431	inte	_	Source;Target[27]	42-1;42-5[45]	false[27]	2[27]	_	
+42-4	3432-3434	se	_	Source;Target[27]	42-1;42-5[45]	false[27]	2[27]	_	
+42-5	3435-3444	tusentals	*[45]	_	_	_	_	_	
+42-6	3445-3456	asylsökande	*[45]	_	_	_	_	_	
+42-7	3457-3465	ungdomar	*[45]	_	_	_	_	_	
+42-8	3466-3468	få	*[45]	_	_	_	_	_	
+42-9	3469-3475	avslag	*[45]	_	_	_	_	_	
+42-10	3476-3477	i	*[45]	_	_	_	_	_	
+42-11	3478-3482	höst	*[45]	_	_	_	_	_	
+42-12	3483-3486	för	_	_	_	_	_	_	
+42-13	3487-3490	att	_	_	_	_	_	_	
+42-14	3491-3493	de	_	_	_	_	_	_	
+42-15	3494-3497	har	_	_	_	_	_	_	
+42-16	3498-3502	fått	_	_	_	_	_	_	
+42-17	3503-3508	vänta	_	_	_	_	_	_	
+42-18	3509-3510	i	_	_	_	_	_	_	
+42-19	3511-3516	flera	_	_	_	_	_	_	
+42-20	3517-3519	år	_	_	_	_	_	_	
+42-21	3520-3522	på	_	_	_	_	_	_	
+42-22	3523-3526	att	_	_	_	_	_	_	
+42-23	3527-3529	få	_	_	_	_	_	_	
+42-24	3530-3536	beslut	_	_	_	_	_	_	
+42-25	3536-3537	.	_	_	_	_	_	_	
+
+#Text=Dessa unga människor, som bott här i flera år, riskerar i sådana fall att bli både hemlösa och papperslösa.
+43-1	3538-3543	Dessa	_	_	_	_	_	_	
+43-2	3544-3548	unga	_	_	_	_	_	_	
+43-3	3549-3558	människor	_	_	_	_	_	_	
+43-4	3558-3559	,	_	_	_	_	_	_	
+43-5	3560-3563	som	_	_	_	_	_	_	
+43-6	3564-3568	bott	_	_	_	_	_	_	
+43-7	3569-3572	här	_	_	_	_	_	_	
+43-8	3573-3574	i	_	_	_	_	_	_	
+43-9	3575-3580	flera	_	_	_	_	_	_	
+43-10	3581-3583	år	_	_	_	_	_	_	
+43-11	3583-3584	,	_	_	_	_	_	_	
+43-12	3585-3593	riskerar	_	Target	43-17[46]	false	2	_	
+43-13	3594-3595	i	_	_	_	_	_	_	
+43-14	3596-3602	sådana	_	_	_	_	_	_	
+43-15	3603-3607	fall	_	_	_	_	_	_	
+43-16	3608-3611	att	_	_	_	_	_	_	
+43-17	3612-3615	bli	*[46]	_	_	_	_	_	
+43-18	3616-3620	både	*[46]	_	_	_	_	_	
+43-19	3621-3628	hemlösa	*[46]	_	_	_	_	_	
+43-20	3629-3632	och	*[46]	_	_	_	_	_	
+43-21	3633-3644	papperslösa	*[46]	_	_	_	_	_	
+43-22	3644-3645	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3647-3648	#	_	_	_	_	_	_	
+44-2	3648-3649	P	_	_[28]	_	false[28]	4[28]	_	
+44-3	3650-3653	IMM	_	_[28]	_	false[28]	4[28]	_	
+44-4	3653-3654	.	_	_	_	_	_	_	
+
+#Text=Dessa unga, som kan bli en viktig del i att bygga ett framtida Sverige starkare, bör få en ny chans.
+45-1	3656-3661	Dessa	*[47]	_	_	_	_	_	
+45-2	3662-3666	unga	*[47]	_	_	_	_	_	
+45-3	3666-3667	,	_	_	_	_	_	_	
+45-4	3668-3671	som	_	_	_	_	_	_	
+45-5	3672-3675	kan	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-6	3676-3679	bli	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-7	3680-3682	en	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-8	3683-3689	viktig	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-9	3690-3693	del	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-10	3694-3695	i	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-11	3696-3699	att	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-12	3700-3705	bygga	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-13	3706-3709	ett	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-14	3710-3718	framtida	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-15	3719-3726	Sverige	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-16	3727-3735	starkare	_	Target[29]	45-1[47]	false[29]	4[29]	_	
+45-17	3735-3736	,	_	_	_	_	_	_	
+45-18	3737-3740	bör	_	_	_	_	_	_	
+45-19	3741-3743	få	_	_	_	_	_	_	
+45-20	3744-3746	en	_	_	_	_	_	_	
+45-21	3747-3749	ny	_	_	_	_	_	_	
+45-22	3750-3755	chans	_	_	_	_	_	_	
+45-23	3755-3756	.	_	_	_	_	_	_	
+
+#Text=Det kan komma att kräva ny lagstiftning och lösningarna behöver ske i närtid.
+46-1	3757-3760	Det	_	_	_	_	_	_	
+46-2	3761-3764	kan	_	_	_	_	_	_	
+46-3	3765-3770	komma	_	_	_	_	_	_	
+46-4	3771-3774	att	_	_	_	_	_	_	
+46-5	3775-3780	kräva	_	_	_	_	_	_	
+46-6	3781-3783	ny	_	_	_	_	_	_	
+46-7	3784-3796	lagstiftning	_	_	_	_	_	_	
+46-8	3797-3800	och	_	_	_	_	_	_	
+46-9	3801-3812	lösningarna	_	_	_	_	_	_	
+46-10	3813-3820	behöver	_	_	_	_	_	_	
+46-11	3821-3824	ske	_	_	_	_	_	_	
+46-12	3825-3826	i	_	_	_	_	_	_	
+46-13	3827-3833	närtid	_	_	_	_	_	_	
+46-14	3833-3834	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3836-3837	#	_	_	_	_	_	_	
+47-2	3837-3838	P	_	_	_	_	_	_	
+47-3	3839-3842	IMM	_	_	_	_	_	_	
+47-4	3842-3843	.	_	_	_	_	_	_	
+
+#Text=Jag kommer därför under dagens debatt uppmana alla partier att tydliggöra var de står och svara för hur de vill lösa den här situationen.
+48-1	3845-3848	Jag	_	_	_	_	_	_	
+48-2	3849-3855	kommer	_	_	_	_	_	_	
+48-3	3856-3862	därför	_	_	_	_	_	_	
+48-4	3863-3868	under	_	_	_	_	_	_	
+48-5	3869-3875	dagens	_	_	_	_	_	_	
+48-6	3876-3882	debatt	_	_	_	_	_	_	
+48-7	3883-3890	uppmana	_	_	_	_	_	_	
+48-8	3891-3895	alla	_	_	_	_	_	_	
+48-9	3896-3903	partier	_	_	_	_	_	_	
+48-10	3904-3907	att	_	_	_	_	_	_	
+48-11	3908-3918	tydliggöra	_	_	_	_	_	_	
+48-12	3919-3922	var	_	_	_	_	_	_	
+48-13	3923-3925	de	_	_	_	_	_	_	
+48-14	3926-3930	står	_	_	_	_	_	_	
+48-15	3931-3934	och	_	_	_	_	_	_	
+48-16	3935-3940	svara	_	_	_	_	_	_	
+48-17	3941-3944	för	_	_	_	_	_	_	
+48-18	3945-3948	hur	_	_	_	_	_	_	
+48-19	3949-3951	de	_	_	_	_	_	_	
+48-20	3952-3956	vill	_	_	_	_	_	_	
+48-21	3957-3961	lösa	_	_	_	_	_	_	
+48-22	3962-3965	den	_	_	_	_	_	_	
+48-23	3966-3969	här	_	_	_	_	_	_	
+48-24	3970-3981	situationen	_	_	_	_	_	_	
+48-25	3981-3982	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3984-3985	#	_	_	_	_	_	_	
+49-2	3985-3986	P	_	_	_	_	_	_	
+49-3	3987-3990	IMM	_	_	_	_	_	_	
+49-4	3990-3991	.	_	_	_	_	_	_	
+
+#Text=Maria Ferm, gruppledare och migrationspolitisk talesperson (MP).
+50-1	3993-3998	Maria	_	_	_	_	_	_	
+50-2	3999-4003	Ferm	_	_	_	_	_	_	
+50-3	4003-4004	,	_	_	_	_	_	_	
+50-4	4005-4016	gruppledare	_	_	_	_	_	_	
+50-5	4017-4020	och	_	_	_	_	_	_	
+50-6	4021-4039	migrationspolitisk	_	_	_	_	_	_	
+50-7	4040-4051	talesperson	_	_	_	_	_	_	
+50-8	4052-4053	(	_	_	_	_	_	_	
+50-9	4053-4055	MP	_	_	_	_	_	_	
+50-10	4055-4056	)	_	_	_	_	_	_	
+50-11	4056-4057	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4059-4060	#	_	_	_	_	_	_	
+51-2	4060-4061	P	_	_	_	_	_	_	
+51-3	4062-4065	IMM	_	_	_	_	_	_	
+51-4	4065-4066	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – följ  Debatt på Facebook.
+52-1	4068-4072	Häng	_	_	_	_	_	_	
+52-2	4073-4076	med	_	_	_	_	_	_	
+52-3	4077-4078	i	_	_	_	_	_	_	
+52-4	4079-4087	debatten	_	_	_	_	_	_	
+52-5	4088-4091	och	_	_	_	_	_	_	
+52-6	4092-4102	kommentera	_	_	_	_	_	_	
+52-7	4103-4111	artikeln	_	_	_	_	_	_	
+52-8	4112-4113	–	_	_	_	_	_	_	
+52-9	4114-4118	följ	_	_	_	_	_	_	
+52-10	4120-4126	Debatt	_	_	_	_	_	_	
+52-11	4127-4129	på	_	_	_	_	_	_	
+52-12	4130-4138	Facebook	_	_	_	_	_	_	
+52-13	4138-4139	.	_	_	_	_	_	_	

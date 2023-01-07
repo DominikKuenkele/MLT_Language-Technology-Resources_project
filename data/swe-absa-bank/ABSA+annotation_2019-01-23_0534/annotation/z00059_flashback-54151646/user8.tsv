@@ -1,0 +1,193 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Sveriges befolkning har tröttnat.
+3-1	18-26	Sveriges	*[5]	_	_	_	_	
+3-2	27-37	befolkning	*[5]	_	_	_	_	
+3-3	38-41	har	_	Source[1]	3-1[5]	false[1]	2[1]	
+3-4	42-50	tröttnat	_	Source[1]	3-1[5]	false[1]	2[1]	
+3-5	50-51	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	false	3	
+4-4	59-60	.	_	_	_	_	_	
+
+#Text=Jag brukar gå igenom 7-klöverns facebooksidor och läsa vad folket säger om partiet och övriga frågor.
+5-1	62-65	Jag	_	_	_	_	_	
+5-2	66-72	brukar	_	_	_	_	_	
+5-3	73-75	gå	_	_	_	_	_	
+5-4	76-82	igenom	_	_	_	_	_	
+5-5	83-84	7	_	_	_	_	_	
+5-6	84-85	-	_	_	_	_	_	
+5-7	85-93	klöverns	_	_	_	_	_	
+5-8	94-107	facebooksidor	_	_	_	_	_	
+5-9	108-111	och	_	_	_	_	_	
+5-10	112-116	läsa	_	_	_	_	_	
+5-11	117-120	vad	_	_	_	_	_	
+5-12	121-127	folket	_	_	_	_	_	
+5-13	128-133	säger	_	_	_	_	_	
+5-14	134-136	om	_	_	_	_	_	
+5-15	137-144	partiet	_	_	_	_	_	
+5-16	145-148	och	_	_	_	_	_	
+5-17	149-155	övriga	_	_	_	_	_	
+5-18	156-162	frågor	_	_	_	_	_	
+5-19	162-163	.	_	_	_	_	_	
+
+#Text=Anmärkningsvärt är ett jag såg idag.
+6-1	164-179	Anmärkningsvärt	_	_	_	_	_	
+6-2	180-182	är	_	_	_	_	_	
+6-3	183-186	ett	_	_	_	_	_	
+6-4	187-190	jag	_	_	_	_	_	
+6-5	191-194	såg	_	_	_	_	_	
+6-6	195-199	idag	_	_	_	_	_	
+6-7	199-200	.	_	_	_	_	_	
+
+#Text=Det var inte en enda positiv kommentar vad jag kunde se om frågan om invandringen som Socialdemokraterna tog upp.
+7-1	201-204	Det	_	_	_	_	_	
+7-2	205-208	var	_	_	_	_	_	
+7-3	209-213	inte	_	_	_	_	_	
+7-4	214-216	en	_	_	_	_	_	
+7-5	217-221	enda	_	_	_	_	_	
+7-6	222-229	positiv	_	Source;Target	7-20;7-7	false	4	
+7-7	230-239	kommentar	*	_	_	_	_	
+7-8	240-243	vad	_	_	_	_	_	
+7-9	244-247	jag	_	_	_	_	_	
+7-10	248-253	kunde	_	_	_	_	_	
+7-11	254-256	se	_	_	_	_	_	
+7-12	257-259	om	_	_	_	_	_	
+7-13	260-266	frågan	_	_	_	_	_	
+7-14	267-269	om	_	_	_	_	_	
+7-15	270-282	invandringen	_	_	_	_	_	
+7-16	283-286	som	_	_	_	_	_	
+7-17	287-305	Socialdemokraterna	_	_	_	_	_	
+7-18	306-309	tog	_	_	_	_	_	
+7-19	310-313	upp	_	_	_	_	_	
+7-20	313-314	.	*	_	_	_	_	
+
+#Text=#P IMM.
+8-1	316-317	#	_	_	_	_	_	
+8-2	317-318	P	_	_	_	_	_	
+8-3	319-322	IMM	_	_	_	_	_	
+8-4	322-323	.	_	_	_	_	_	
+
+#Text=Socialdemokraterna verkar inte ens bry sig om att bemöta dessa kommentarer utan kör över dem utan nåd.
+9-1	325-343	Socialdemokraterna	*	_	_	_	_	
+9-2	344-350	verkar	_	Target[2]	9-1	false[2]	1[2]	
+9-3	351-355	inte	_	Target[2]	9-1	false[2]	1[2]	
+9-4	356-359	ens	_	Target[2]	9-1	false[2]	1[2]	
+9-5	360-363	bry	_	Target[2]	9-1	false[2]	1[2]	
+9-6	364-367	sig	_	Target[2]	9-1	false[2]	1[2]	
+9-7	368-370	om	_	Target[2]	9-1	false[2]	1[2]	
+9-8	371-374	att	_	Target[2]	9-1	false[2]	1[2]	
+9-9	375-381	bemöta	_	Target[2]	9-1	false[2]	1[2]	
+9-10	382-387	dessa	_	Target[2]	9-1	false[2]	1[2]	
+9-11	388-399	kommentarer	_	Target[2]	9-1	false[2]	1[2]	
+9-12	400-404	utan	_	Target[2]	9-1	false[2]	1[2]	
+9-13	405-408	kör	_	Target[2]	9-1	false[2]	1[2]	
+9-14	409-413	över	_	Target[2]	9-1	false[2]	1[2]	
+9-15	414-417	dem	_	Target[2]	9-1	false[2]	1[2]	
+9-16	418-422	utan	_	Target[2]	9-1	false[2]	1[2]	
+9-17	423-426	nåd	_	Target[2]	9-1	false[2]	1[2]	
+9-18	426-427	.	_	_	_	_	_	
+
+#Text=Jag kommer nu ge er lite länkar och axplock av kommentarer från olika Facebooksidor av 7-klövern:.
+10-1	428-431	Jag	_	_	_	_	_	
+10-2	432-438	kommer	_	_	_	_	_	
+10-3	439-441	nu	_	_	_	_	_	
+10-4	442-444	ge	_	_	_	_	_	
+10-5	445-447	er	_	_	_	_	_	
+10-6	448-452	lite	_	_	_	_	_	
+10-7	453-459	länkar	_	_	_	_	_	
+10-8	460-463	och	_	_	_	_	_	
+10-9	464-471	axplock	_	_	_	_	_	
+10-10	472-474	av	_	_	_	_	_	
+10-11	475-486	kommentarer	_	_	_	_	_	
+10-12	487-491	från	_	_	_	_	_	
+10-13	492-497	olika	_	_	_	_	_	
+10-14	498-511	Facebooksidor	_	_	_	_	_	
+10-15	512-514	av	_	_	_	_	_	
+10-16	515-516	7	_	_	_	_	_	
+10-17	516-517	-	_	_	_	_	_	
+10-18	517-524	klövern	_	_	_	_	_	
+10-19	524-525	:	_	_	_	_	_	
+10-20	525-526	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	528-529	#	_	_	_	_	_	
+11-2	529-530	P	_	_	_	_	_	
+11-3	531-534	IMM	_	_	_	_	_	
+11-4	534-535	.	_	_	_	_	_	
+
+#Text=Har Sveriges befolkning tröttnat en gång för alla på alla lögner, hycklande etc?
+12-1	537-540	Har	_	_	_	_	_	
+12-2	541-549	Sveriges	*[6]	_	_	_	_	
+12-3	550-560	befolkning	*[6]	_	_	_	_	
+12-4	561-569	tröttnat	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-5	570-572	en	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-6	573-577	gång	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-7	578-581	för	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-8	582-586	alla	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-9	587-589	på	_	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-10	590-594	alla	*[7]	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-11	595-601	lögner	*[7]	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-12	601-602	,	*[7]	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-13	603-612	hycklande	*[7]	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-14	613-616	etc	*[7]	Target;Source[3]	12-10[7];12-2[6]	false[3]	1[3]	
+12-15	616-617	?	_	_	_	_	_	
+
+#Text=Det verkar så eftersom jag aldrig tidigare sett en sådan aktivitet där man kommenterar med sin riktiga identitet helt öppet.
+13-1	618-621	Det	_	_	_	_	_	
+13-2	622-628	verkar	_	_	_	_	_	
+13-3	629-631	så	_	_	_	_	_	
+13-4	632-640	eftersom	_	_	_	_	_	
+13-5	641-644	jag	_	_	_	_	_	
+13-6	645-651	aldrig	_	_	_	_	_	
+13-7	652-660	tidigare	_	_	_	_	_	
+13-8	661-665	sett	_	_	_	_	_	
+13-9	666-668	en	_	_	_	_	_	
+13-10	669-674	sådan	_	_	_	_	_	
+13-11	675-684	aktivitet	_	_	_	_	_	
+13-12	685-688	där	_	_	_	_	_	
+13-13	689-692	man	_	_	_	_	_	
+13-14	693-704	kommenterar	_	_	_	_	_	
+13-15	705-708	med	_	_	_	_	_	
+13-16	709-712	sin	_	_	_	_	_	
+13-17	713-720	riktiga	_	_	_	_	_	
+13-18	721-730	identitet	_	_	_	_	_	
+13-19	731-735	helt	_	_	_	_	_	
+13-20	736-741	öppet	_	_	_	_	_	
+13-21	741-742	.	_	_	_	_	_	
+
+#Text=Det verkar som friska vindar påväg.
+14-1	743-746	Det	_	_	_	_	_	
+14-2	747-753	verkar	_	_	_	_	_	
+14-3	754-757	som	_	_	_	_	_	
+14-4	758-764	friska	_	_[4]	_	false[4]	4[4]	
+14-5	765-771	vindar	_	_[4]	_	false[4]	4[4]	
+14-6	772-777	påväg	_	_[4]	_	false[4]	4[4]	
+14-7	777-778	.	_	_	_	_	_	
+
+#Text=Vad anser ni om detta?.
+15-1	779-782	Vad	_	_	_	_	_	
+15-2	783-788	anser	_	_	_	_	_	
+15-3	789-791	ni	_	_	_	_	_	
+15-4	792-794	om	_	_	_	_	_	
+15-5	795-800	detta	_	_	_	_	_	
+15-6	800-801	?	_	_	_	_	_	
+15-7	801-802	.	_	_	_	_	_	

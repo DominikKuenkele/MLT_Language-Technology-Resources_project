@@ -1,0 +1,582 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=M borde rensa ut  rasister i egna leden.
+3-1	18-19	M	_	_	_	_	_	_	_	
+3-2	20-25	borde	_	_	_	_	_	_	_	
+3-3	26-31	rensa	_	_	_	_	_	_	_	
+3-4	32-34	ut	_	_	_	_	_	_	_	
+3-5	36-44	rasister	*	Target	3-5	false	1	_	_	
+3-6	45-46	i	_	_	_	_	_	_	_	
+3-7	47-51	egna	_	_	_	_	_	_	_	
+3-8	52-57	leden	_	_	_	_	_	_	_	
+3-9	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens kunskapsöversikt över afrofobisk rasism visar att fenomenet är mycket utbrett i Sverige och har en vardaglig påverkan på afrosvenskars liv.
+5-1	69-80	Regeringens	_	_	_	_	_	_	_	
+5-2	81-97	kunskapsöversikt	_	_	_	_	_	_	_	
+5-3	98-102	över	_	_	_	_	_	_	_	
+5-4	103-113	afrofobisk	*[24]	Target[1]	5-4[24]	false[1]	1[1]	_	_	
+5-5	114-120	rasism	*[24]	Target[1]	5-4[24]	false[1]	1[1]	_	_	
+5-6	121-126	visar	_	_	_	_	_	_	_	
+5-7	127-130	att	_	_	_	_	_	_	_	
+5-8	131-140	fenomenet	_	_	_	_	_	_	_	
+5-9	141-143	är	_	_	_	_	_	_	_	
+5-10	144-150	mycket	_	_	_	_	_	_	_	
+5-11	151-158	utbrett	_	_	_	_	_	_	_	
+5-12	159-160	i	_	_	_	_	_	_	_	
+5-13	161-168	Sverige	_	_	_	_	_	_	_	
+5-14	169-172	och	_	_	_	_	_	_	_	
+5-15	173-176	har	_	_	_	_	_	_	_	
+5-16	177-179	en	_	_	_	_	_	_	_	
+5-17	180-189	vardaglig	_	_	_	_	_	_	_	
+5-18	190-198	påverkan	_	_	_	_	_	_	_	
+5-19	199-201	på	_	_	_	_	_	_	_	
+5-20	202-215	afrosvenskars	_	_	_	_	_	_	_	
+5-21	216-219	liv	_	_	_	_	_	_	_	
+5-22	219-220	.	_	_	_	_	_	_	_	
+
+#Text=Det är därför inte speciellt förvånande att en företagare exploaterar afrofobiska attityder genom att använda n-ordet i marknadsföring av chokladbollar.
+6-1	221-224	Det	_	_	_	_	_	_	_	
+6-2	225-227	är	_	_	_	_	_	_	_	
+6-3	228-234	därför	_	_	_	_	_	_	_	
+6-4	235-239	inte	_	_	_	_	_	_	_	
+6-5	240-249	speciellt	_	_	_	_	_	_	_	
+6-6	250-260	förvånande	_	_	_	_	_	_	_	
+6-7	261-264	att	_	_	_	_	_	_	_	
+6-8	265-267	en	*[25]	_	_	_	_	_	_	
+6-9	268-278	företagare	*[25]	_	_	_	_	_	_	
+6-10	279-290	exploaterar	_	Target	6-8[25]	false	2	_	_	
+6-11	291-302	afrofobiska	_	_	_	_	_	_	_	
+6-12	303-312	attityder	_	_	_	_	_	_	_	
+6-13	313-318	genom	_	_	_	_	_	_	_	
+6-14	319-322	att	_	_	_	_	_	_	_	
+6-15	323-330	använda	_	Target[2]	6-8[25]	false[2]	1[2]	_	_	
+6-16	331-338	n-ordet	_	Target[2]	6-8[25]	false[2]	1[2]	_	_	
+6-17	339-340	i	_	_	_	_	_	_	_	
+6-18	341-355	marknadsföring	_	_	_	_	_	_	_	
+6-19	356-358	av	_	_	_	_	_	_	_	
+6-20	359-372	chokladbollar	_	_	_	_	_	_	_	
+6-21	372-373	.	_	_	_	_	_	_	_	
+
+#Text=Det som däremot förvånar är att ägaren till företaget bakom tilltaget heter Eva Sidekrans och är nummer tre på Älvkarlebymoderaternas lista till kommunvalet.
+7-1	374-377	Det	_	_	_	_	_	_	_	
+7-2	378-381	som	_	_	_	_	_	_	_	
+7-3	382-389	däremot	_	_	_	_	_	_	_	
+7-4	390-398	förvånar	_	_	_	_	_	_	_	
+7-5	399-401	är	_	_	_	_	_	_	_	
+7-6	402-405	att	_	_	_	_	_	_	_	
+7-7	406-412	ägaren	_	_	_	_	_	_	_	
+7-8	413-417	till	_	_	_	_	_	_	_	
+7-9	418-427	företaget	_	_	_	_	_	_	_	
+7-10	428-433	bakom	_	_	_	_	_	_	_	
+7-11	434-443	tilltaget	_	_	_	_	_	_	_	
+7-12	444-449	heter	_	_	_	_	_	_	_	
+7-13	450-453	Eva	_	_	_	_	_	_	_	
+7-14	454-463	Sidekrans	_	_	_	_	_	_	_	
+7-15	464-467	och	_	_	_	_	_	_	_	
+7-16	468-470	är	_	_	_	_	_	_	_	
+7-17	471-477	nummer	_	_	_	_	_	_	_	
+7-18	478-481	tre	_	_	_	_	_	_	_	
+7-19	482-484	på	_	_	_	_	_	_	_	
+7-20	485-507	Älvkarlebymoderaternas	_	_	_	_	_	_	_	
+7-21	508-513	lista	_	_	_	_	_	_	_	
+7-22	514-518	till	_	_	_	_	_	_	_	
+7-23	519-530	kommunvalet	_	_	_	_	_	_	_	
+7-24	530-531	.	_	_	_	_	_	_	_	
+
+#Text=Samtliga riksdagspartier säger sig ta avstånd från rasism och till och med Sverigedemokraterna, som vi menar är ett rasistiskt parti, har gjort en utrensning bland sina företrädare som på olika sätt överträtt partiets nolltolerans mot rasism.
+8-1	532-540	Samtliga	*[26]	_	_	_	_	_	_	
+8-2	541-556	riksdagspartier	*[26]	_	_	_	_	_	_	
+8-3	557-562	säger	_	Target;Source[3]	8-1[26];8-8	false[3]	2[3]	_	_	
+8-4	563-566	sig	_	Target;Source[3]	8-1[26];8-8	false[3]	2[3]	_	_	
+8-5	567-569	ta	_	Target;Source[3]	8-1[26];8-8	false[3]	2[3]	_	_	
+8-6	570-577	avstånd	_	Target;Source[3]	8-1[26];8-8	false[3]	2[3]	_	_	
+8-7	578-582	från	_	Target;Source[3]	8-1[26];8-8	false[3]	2[3]	_	_	
+8-8	583-589	rasism	*	_	_	_	_	_	_	
+8-9	590-593	och	_	_	_	_	_	_	_	
+8-10	594-598	till	_	_	_	_	_	_	_	
+8-11	599-602	och	_	_	_	_	_	_	_	
+8-12	603-606	med	_	_	_	_	_	_	_	
+8-13	607-626	Sverigedemokraterna	*	_	_	_	_	_	8-35|8-15	
+8-14	626-627	,	_	_	_	_	_	_	_	
+8-15	628-631	som	*	_	_	_	_	_	_	
+8-16	632-634	vi	*	_	_	_	_	_	_	
+8-17	635-640	menar	_	_	_	_	_	_	_	
+8-18	641-643	är	_	Target;Source[4]	8-15;8-16	false[4]	1[4]	_	_	
+8-19	644-647	ett	_	Target;Source[4]	8-15;8-16	false[4]	1[4]	_	_	
+8-20	648-658	rasistiskt	_	Target;Source[4]	8-15;8-16	false[4]	1[4]	_	_	
+8-21	659-664	parti	_	Target;Source[4]	8-15;8-16	false[4]	1[4]	_	_	
+8-22	664-665	,	_	_	_	_	_	_	_	
+8-23	666-669	har	_	_	_	_	_	_	_	
+8-24	670-675	gjort	_	_	_	_	_	_	_	
+8-25	676-678	en	_	_	_	_	_	_	_	
+8-26	679-689	utrensning	_	_	_	_	_	_	_	
+8-27	690-695	bland	_	_	_	_	_	_	_	
+8-28	696-700	sina	_	_	_	_	_	_	_	
+8-29	701-712	företrädare	_	_	_	_	_	_	_	
+8-30	713-716	som	_	_	_	_	_	_	_	
+8-31	717-719	på	_	_	_	_	_	_	_	
+8-32	720-725	olika	_	_	_	_	_	_	_	
+8-33	726-730	sätt	_	_	_	_	_	_	_	
+8-34	731-740	överträtt	_	_	_	_	_	_	_	
+8-35	741-749	partiets	*	_	_	_	_	_	_	
+8-36	750-762	nolltolerans	_	Target;Source[5]	8-38;8-35	false[5]	1[5]	_	_	
+8-37	763-766	mot	_	Target;Source[5]	8-38;8-35	false[5]	1[5]	_	_	
+8-38	767-773	rasism	*	Target	8-38	false	1	_	_	
+8-39	773-774	.	_	_	_	_	_	_	_	
+
+#Text=Mot den bakgrunden ställer vi oss frågan hur Moderata samlingspartiet ställer sig till Eva Sidekrans som medlem och som kandidat till valet.
+9-1	775-778	Mot	_	_	_	_	_	_	_	
+9-2	779-782	den	_	_	_	_	_	_	_	
+9-3	783-793	bakgrunden	_	_	_	_	_	_	_	
+9-4	794-801	ställer	_	_	_	_	_	_	_	
+9-5	802-804	vi	_	_	_	_	_	_	_	
+9-6	805-808	oss	_	_	_	_	_	_	_	
+9-7	809-815	frågan	_	_	_	_	_	_	_	
+9-8	816-819	hur	_	_	_	_	_	_	_	
+9-9	820-828	Moderata	_	_	_	_	_	_	_	
+9-10	829-844	samlingspartiet	_	_	_	_	_	_	_	
+9-11	845-852	ställer	_	_	_	_	_	_	_	
+9-12	853-856	sig	_	_	_	_	_	_	_	
+9-13	857-861	till	_	_	_	_	_	_	_	
+9-14	862-865	Eva	_	_	_	_	_	_	_	
+9-15	866-875	Sidekrans	_	_	_	_	_	_	_	
+9-16	876-879	som	_	_	_	_	_	_	_	
+9-17	880-886	medlem	_	_	_	_	_	_	_	
+9-18	887-890	och	_	_	_	_	_	_	_	
+9-19	891-894	som	_	_	_	_	_	_	_	
+9-20	895-903	kandidat	_	_	_	_	_	_	_	
+9-21	904-908	till	_	_	_	_	_	_	_	
+9-22	909-914	valet	_	_	_	_	_	_	_	
+9-23	914-915	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	917-918	#	_	_	_	_	_	_	_	
+10-2	918-919	P	_	_	_	_	_	_	_	
+10-3	920-923	IMM	_	_	_	_	_	_	_	
+10-4	923-924	.	_	_	_	_	_	_	_	
+
+#Text=Ännu har inte moderaterna gått ut med att Eva Sidekrans uteslutits från partiet eller ens tagit tydlig ställning mot det hon har gjort.
+11-1	926-930	Ännu	_	_	_	_	_	_	_	
+11-2	931-934	har	_	_	_	_	_	_	_	
+11-3	935-939	inte	_	_	_	_	_	_	_	
+11-4	940-951	moderaterna	*	_	_	_	_	_	_	
+11-5	952-956	gått	_	_	_	_	_	_	_	
+11-6	957-959	ut	_	_	_	_	_	_	_	
+11-7	960-963	med	_	_	_	_	_	_	_	
+11-8	964-967	att	_	_	_	_	_	_	_	
+11-9	968-971	Eva	_	_	_	_	_	_	_	
+11-10	972-981	Sidekrans	_	_	_	_	_	_	_	
+11-11	982-992	uteslutits	_	_	_	_	_	_	_	
+11-12	993-997	från	_	_	_	_	_	_	_	
+11-13	998-1005	partiet	_	_	_	_	_	_	_	
+11-14	1006-1011	eller	_	_	_	_	_	_	_	
+11-15	1012-1015	ens	_	_	_	_	_	_	_	
+11-16	1016-1021	tagit	_	_	_	_	_	_	_	
+11-17	1022-1028	tydlig	_	_	_	_	_	_	_	
+11-18	1029-1038	ställning	_	_	_	_	_	_	_	
+11-19	1039-1042	mot	_	_	_	_	_	_	_	
+11-20	1043-1046	det	_	_	_	_	_	_	_	
+11-21	1047-1050	hon	_	_	_	_	_	_	_	
+11-22	1051-1054	har	_	_	_	_	_	_	_	
+11-23	1055-1060	gjort	_	_	_	_	_	_	_	
+11-24	1060-1061	.	_	Target	11-4	false	2	_	_	
+
+#Text=Det mest oroande är att detta inte är första gången som moderata politiker och moderaterna som parti visar otydlighet när det gäller att stå upp mot afrofobisk rasism.
+12-1	1062-1065	Det	_	Target[6]	12-5[27]	false[6]	1[6]	_	_	
+12-2	1066-1070	mest	_	Target[6]	12-5[27]	false[6]	1[6]	_	_	
+12-3	1071-1078	oroande	_	Target[6]	12-5[27]	false[6]	1[6]	_	_	
+12-4	1079-1081	är	_	Target[6]	12-5[27]	false[6]	1[6]	_	_	
+12-5	1082-1085	att	*[27]	_	_	_	_	_	_	
+12-6	1086-1091	detta	*[27]	_	_	_	_	_	_	
+12-7	1092-1096	inte	*[27]	_	_	_	_	_	_	
+12-8	1097-1099	är	*[27]	_	_	_	_	_	_	
+12-9	1100-1106	första	*[27]	_	_	_	_	_	_	
+12-10	1107-1113	gången	*[27]	_	_	_	_	_	_	
+12-11	1114-1117	som	*[27]	_	_	_	_	_	_	
+12-12	1118-1126	moderata	*[27]|*[28]	_	_	_	_	_	_	
+12-13	1127-1136	politiker	*[27]|*[28]	_	_	_	_	_	_	
+12-14	1137-1140	och	*[27]|*[28]	_	_	_	_	_	_	
+12-15	1141-1152	moderaterna	*[27]|*[28]	_	_	_	_	_	_	
+12-16	1153-1156	som	*[27]|*[28]	_	_	_	_	_	_	
+12-17	1157-1162	parti	*[27]|*[28]	_	_	_	_	_	_	
+12-18	1163-1168	visar	*[27]	Target[7]	12-12[28]	false[7]	2[7]	_	_	
+12-19	1169-1179	otydlighet	*[27]	Target[7]	12-12[28]	false[7]	2[7]	_	_	
+12-20	1180-1183	när	*[27]	_	_	_	_	_	_	
+12-21	1184-1187	det	*[27]	_	_	_	_	_	_	
+12-22	1188-1194	gäller	*[27]	_	_	_	_	_	_	
+12-23	1195-1198	att	*[27]	_	_	_	_	_	_	
+12-24	1199-1202	stå	*[27]	_	_	_	_	_	_	
+12-25	1203-1206	upp	*[27]	_	_	_	_	_	_	
+12-26	1207-1210	mot	*[27]	_	_	_	_	_	_	
+12-27	1211-1221	afrofobisk	*[27]|*[29]	Target[8]	12-27[29]	false[8]	1[8]	_	_	
+12-28	1222-1228	rasism	*[27]|*[29]	Target[8]	12-27[29]	false[8]	1[8]	_	_	
+12-29	1228-1229	.	_	_	_	_	_	_	_	
+
+#Text=Vi minns att moderaterna långt in på 1980-talet märkte ut sig som det svenska riksdagsparti som inte ställde sig bakom sanktioner mot Apartheid-Sydafrika.
+13-1	1230-1232	Vi	_	_	_	_	_	_	_	
+13-2	1233-1238	minns	_	_	_	_	_	_	_	
+13-3	1239-1242	att	_	_	_	_	_	_	_	
+13-4	1243-1254	moderaterna	*	_	_	_	_	_	_	
+13-5	1255-1260	långt	_	_	_	_	_	_	_	
+13-6	1261-1263	in	_	_	_	_	_	_	_	
+13-7	1264-1266	på	_	_	_	_	_	_	_	
+13-8	1267-1271	1980	_	_	_	_	_	_	_	
+13-9	1271-1272	-	_	_	_	_	_	_	_	
+13-10	1272-1277	talet	_	_	_	_	_	_	_	
+13-11	1278-1284	märkte	_	_	_	_	_	_	_	
+13-12	1285-1287	ut	_	_	_	_	_	_	_	
+13-13	1288-1291	sig	_	_	_	_	_	_	_	
+13-14	1292-1295	som	_	_	_	_	_	_	_	
+13-15	1296-1299	det	_	_	_	_	_	_	_	
+13-16	1300-1307	svenska	_	_	_	_	_	_	_	
+13-17	1308-1321	riksdagsparti	_	_	_	_	_	_	_	
+13-18	1322-1325	som	_	_	_	_	_	_	_	
+13-19	1326-1330	inte	_	_	_	_	_	_	_	
+13-20	1331-1338	ställde	_	_	_	_	_	_	_	
+13-21	1339-1342	sig	_	_	_	_	_	_	_	
+13-22	1343-1348	bakom	_	_	_	_	_	_	_	
+13-23	1349-1359	sanktioner	_	_	_	_	_	_	_	
+13-24	1360-1363	mot	_	_	_	_	_	_	_	
+13-25	1364-1383	Apartheid-Sydafrika	_	_	_	_	_	_	_	
+13-26	1383-1384	.	_	Target	13-4	false	2	_	_	
+
+#Text=Moderatledaren Ulf Adelsohns citat "Om vi bojkottar deras varor blir ju de stackars negrerna i Sydafrika utan jobb" är inget som afrosvenskar har glömt bort.
+14-1	1385-1399	Moderatledaren	*[30]	_	_	_	_	_	_	
+14-2	1400-1403	Ulf	*[30]|*[31]	_	_	_	_	_	_	
+14-3	1404-1413	Adelsohns	*[30]|*[31]	_	_	_	_	_	_	
+14-4	1414-1419	citat	*[30]	_	_	_	_	_	_	
+14-5	1420-1421	"	*[30]	_	_	_	_	_	_	
+14-6	1421-1423	Om	*[30]	_	_	_	_	_	_	
+14-7	1424-1426	vi	*[30]|*[32]	_	_	_	_	_	_	
+14-8	1427-1436	bojkottar	*[30]	Source;Target	14-7[32];14-9[33]	false	1	_	_	
+14-9	1437-1442	deras	*[30]|*[33]	_	_	_	_	_	_	
+14-10	1443-1448	varor	*[30]|*[33]	_	_	_	_	_	_	
+14-11	1449-1453	blir	*[30]	_	_	_	_	_	_	
+14-12	1454-1456	ju	*[30]	_	_	_	_	_	_	
+14-13	1457-1459	de	*[30]|*[34]	Target;Source[9]	14-13[34];14-2[31]	false[9]	1[9]	_	_	
+14-14	1460-1468	stackars	*[30]|*[34]	Target;Source[9]	14-13[34];14-2[31]	false[9]	1[9]	_	_	
+14-15	1469-1477	negrerna	*[30]|*[34]	Target;Source[9]	14-13[34];14-2[31]	false[9]	1[9]	_	_	
+14-16	1478-1479	i	*[30]	_	_	_	_	_	_	
+14-17	1480-1489	Sydafrika	*[30]	_	_	_	_	_	_	
+14-18	1490-1494	utan	*[30]	_	_	_	_	_	_	
+14-19	1495-1499	jobb	*[30]	_	_	_	_	_	_	
+14-20	1499-1500	"	*[30]	_	_	_	_	_	_	
+14-21	1501-1503	är	_	_[10]	_	false[10]	2[10]	_	_	
+14-22	1504-1509	inget	_	_[10]	_	false[10]	2[10]	_	_	
+14-23	1510-1513	som	_	_[10]	_	false[10]	2[10]	_	_	
+14-24	1514-1526	afrosvenskar	_	_[10]	_	false[10]	2[10]	_	_	
+14-25	1527-1530	har	_	_[10]	_	false[10]	2[10]	_	_	
+14-26	1531-1536	glömt	_	_[10]	_	false[10]	2[10]	_	_	
+14-27	1537-1541	bort	_	_[10]	_	false[10]	2[10]	_	_	
+14-28	1541-1542	.	_	_	_	_	_	_	_	
+
+#Text=Vi har heller inte glömt att det var moderatpolitiker som gjorde de grövsta rasistiska uttalandena när Janne Josefsson besökte svenska valstugor med dold kamera och åskådliggjorde en rasism och afrofobi som chockerade Sverige 2002.
+15-1	1543-1545	Vi	*	_	_	_	_	_	_	
+15-2	1546-1549	har	_	Target;Source[11]	15-6[35];15-1	false[11]	2[11]	_	_	
+15-3	1550-1556	heller	_	Target;Source[11]	15-6[35];15-1	false[11]	2[11]	_	_	
+15-4	1557-1561	inte	_	Target;Source[11]	15-6[35];15-1	false[11]	2[11]	_	_	
+15-5	1562-1567	glömt	_	Target;Source[11]	15-6[35];15-1	false[11]	2[11]	_	_	
+15-6	1568-1571	att	*[35]	_	_	_	_	_	_	
+15-7	1572-1575	det	*[35]	_	_	_	_	_	_	
+15-8	1576-1579	var	*[35]	_	_	_	_	_	_	
+15-9	1580-1596	moderatpolitiker	*[35]|*[36]	_	_	_	_	_	_	
+15-10	1597-1600	som	*[35]|*[36]	_	_	_	_	_	_	
+15-11	1601-1607	gjorde	*[35]	Target[12]	15-9[36]	false[12]	1[12]	_	_	
+15-12	1608-1610	de	*[35]	Target[12]	15-9[36]	false[12]	1[12]	_	_	
+15-13	1611-1618	grövsta	*[35]	Target[12]	15-9[36]	false[12]	1[12]	_	_	
+15-14	1619-1629	rasistiska	*[35]	Target[12]	15-9[36]	false[12]	1[12]	_	_	
+15-15	1630-1641	uttalandena	*[35]	Target[12]	15-9[36]	false[12]	1[12]	_	_	
+15-16	1642-1645	när	*[35]	_	_	_	_	_	_	
+15-17	1646-1651	Janne	*[35]	_	_	_	_	_	_	
+15-18	1652-1661	Josefsson	*[35]	_	_	_	_	_	_	
+15-19	1662-1669	besökte	*[35]	_	_	_	_	_	_	
+15-20	1670-1677	svenska	*[35]	_	_	_	_	_	_	
+15-21	1678-1687	valstugor	*[35]	_	_	_	_	_	_	
+15-22	1688-1691	med	*[35]	_	_	_	_	_	_	
+15-23	1692-1696	dold	*[35]	_	_	_	_	_	_	
+15-24	1697-1703	kamera	*[35]	_	_	_	_	_	_	
+15-25	1704-1707	och	*[35]	_	_	_	_	_	_	
+15-26	1708-1722	åskådliggjorde	*[35]	_	_	_	_	_	_	
+15-27	1723-1725	en	*[35]	Source[13]	15-33[39]	false[13]	1[13]	_	_	
+15-28	1726-1732	rasism	*[35]|*[37]	Source[13]|Target[14]	15-33[39]|15-28[37]	false[13]|false[14]	1[13]|1[14]	_	_	
+15-29	1733-1736	och	*[35]	Source[13]	15-33[39]	false[13]	1[13]	_	_	
+15-30	1737-1745	afrofobi	*[35]|*[38]	Source[13]|Target[15]	15-33[39]|15-30[38]	false[13]|false[15]	1[13]|1[15]	_	_	
+15-31	1746-1749	som	*[35]	Source[13]	15-33[39]	false[13]	1[13]	_	_	
+15-32	1750-1760	chockerade	*[35]	Source[13]	15-33[39]	false[13]	1[13]	_	_	
+15-33	1761-1768	Sverige	*[35]|*[39]	_	_	_	_	_	_	
+15-34	1769-1773	2002	*[35]	_	_	_	_	_	_	
+15-35	1773-1774	.	_	_	_	_	_	_	_	
+
+#Text=Närmast minns vi förstås moderata kulturministern Lena Adelsohn-Liljeroths grovt rasistiska övertramp på Moderna museet då hon skar upp underlivet på en rasistisk karikatyr av en svart kvinna I form av en tårta, som en del i en konstinstallation.
+16-1	1775-1782	Närmast	_	_	_	_	_	_	_	
+16-2	1783-1788	minns	_	_	_	_	_	_	_	
+16-3	1789-1791	vi	_	_	_	_	_	_	_	
+16-4	1792-1799	förstås	_	_	_	_	_	_	_	
+16-5	1800-1808	moderata	_	_	_	_	_	_	_	
+16-6	1809-1824	kulturministern	_	_	_	_	_	_	_	
+16-7	1825-1829	Lena	*[40]	_	_	_	_	_	_	
+16-8	1830-1849	Adelsohn-Liljeroths	*[40]	_	_	_	_	_	_	
+16-9	1850-1855	grovt	_	Target[16]	16-7[40]	false[16]	1[16]	_	_	
+16-10	1856-1866	rasistiska	_	Target[16]	16-7[40]	false[16]	1[16]	_	_	
+16-11	1867-1876	övertramp	_	Target[16]	16-7[40]	false[16]	1[16]	_	_	
+16-12	1877-1879	på	_	_	_	_	_	_	_	
+16-13	1880-1887	Moderna	_	_	_	_	_	_	_	
+16-14	1888-1894	museet	_	_	_	_	_	_	_	
+16-15	1895-1897	då	_	_	_	_	_	_	_	
+16-16	1898-1901	hon	_	_	_	_	_	_	_	
+16-17	1902-1906	skar	_	_	_	_	_	_	_	
+16-18	1907-1910	upp	_	_	_	_	_	_	_	
+16-19	1911-1921	underlivet	_	_	_	_	_	_	_	
+16-20	1922-1924	på	_	_	_	_	_	_	_	
+16-21	1925-1927	en	_	_	_	_	_	_	_	
+16-22	1928-1937	rasistisk	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-23	1938-1947	karikatyr	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-24	1948-1950	av	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-25	1951-1953	en	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-26	1954-1959	svart	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-27	1960-1966	kvinna	*[41]	Target[17]	16-22[41]	false[17]	1[17]	_	_	
+16-28	1967-1968	I	_	_	_	_	_	_	_	
+16-29	1969-1973	form	_	_	_	_	_	_	_	
+16-30	1974-1976	av	_	_	_	_	_	_	_	
+16-31	1977-1979	en	_	_	_	_	_	_	_	
+16-32	1980-1985	tårta	_	_	_	_	_	_	_	
+16-33	1985-1986	,	_	_	_	_	_	_	_	
+16-34	1987-1990	som	_	_	_	_	_	_	_	
+16-35	1991-1993	en	_	_	_	_	_	_	_	
+16-36	1994-1997	del	_	_	_	_	_	_	_	
+16-37	1998-1999	i	_	_	_	_	_	_	_	
+16-38	2000-2002	en	_	_	_	_	_	_	_	
+16-39	2003-2020	konstinstallation	_	_	_	_	_	_	_	
+16-40	2020-2021	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	2023-2024	#	_	_	_	_	_	_	_	
+17-2	2024-2025	P	_	_	_	_	_	_	_	
+17-3	2026-2029	IMM	_	_	_	_	_	_	_	
+17-4	2029-2030	.	_	_	_	_	_	_	_	
+
+#Text=Ulf Adelsohn har aldrig gjort avbön och i fallet Adelsohn-Liljeroth lyste statsministern med sin frånvaro i en fråga där han som moderat partiledare borde ha gjort en tydlig markering mot afrofobi.
+18-1	2032-2035	Ulf	*[42]	_	_	_	_	_	18-20[0_42]|18-12[0_42]	
+18-2	2036-2044	Adelsohn	*[42]	_	_	_	_	_	_	
+18-3	2045-2048	har	_	Target[18]	18-1[42]	false[18]	2[18]	_	_	
+18-4	2049-2055	aldrig	_	Target[18]	18-1[42]	false[18]	2[18]	_	_	
+18-5	2056-2061	gjort	_	Target[18]	18-1[42]	false[18]	2[18]	_	_	
+18-6	2062-2067	avbön	_	Target[18]	18-1[42]	false[18]	2[18]	_	_	
+18-7	2068-2071	och	_	_	_	_	_	_	_	
+18-8	2072-2073	i	_	_	_	_	_	_	_	
+18-9	2074-2080	fallet	_	_	_	_	_	_	_	
+18-10	2081-2099	Adelsohn-Liljeroth	_	_	_	_	_	_	_	
+18-11	2100-2105	lyste	_	_	_	false	2	_	_	
+18-12	2106-2120	statsministern	*	_	_	_	_	_	_	
+18-13	2121-2124	med	_	Target[19]	18-12	false[19]	2[19]	18-11[0_19]	_	
+18-14	2125-2128	sin	_	Target[19]	18-12	false[19]	2[19]	_	_	
+18-15	2129-2137	frånvaro	_	Target[19]	18-12	false[19]	2[19]	_	_	
+18-16	2138-2139	i	_	_	_	_	_	_	_	
+18-17	2140-2142	en	_	_	_	_	_	_	_	
+18-18	2143-2148	fråga	_	_	_	_	_	_	_	
+18-19	2149-2152	där	_	_	_	_	_	_	_	
+18-20	2153-2156	han	*	_	_	_	_	_	_	
+18-21	2157-2160	som	_	_	_	_	_	_	_	
+18-22	2161-2168	moderat	_	_	_	_	_	_	_	
+18-23	2169-2180	partiledare	_	_	_	_	_	_	_	
+18-24	2181-2186	borde	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-25	2187-2189	ha	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-26	2190-2195	gjort	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-27	2196-2198	en	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-28	2199-2205	tydlig	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-29	2206-2215	markering	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-30	2216-2219	mot	_	Target[20]	18-20	false[20]	2[20]	_	_	
+18-31	2220-2228	afrofobi	*	Target[20]|Target[21]	18-20|18-31	false[20]|false[21]	2[20]|1[21]	_	_	
+18-32	2228-2229	.	_	_	_	_	_	_	_	
+
+#Text=Eva Sidekrans har själv sent omsider gått ut med att hon är ledsen om hennes agerande kränkt någon och att hon dragit tillbaka sin annons.
+19-1	2230-2233	Eva	*[43]|*[44]	_	_	_	_	_	20-5[0_43]|19-11[45_44]	
+19-2	2234-2243	Sidekrans	*[43]|*[44]	_	_	_	_	_	_	
+19-3	2244-2247	har	*[43]	_	_	_	_	_	_	
+19-4	2248-2253	själv	*[43]	_	_	_	_	_	_	
+19-5	2254-2258	sent	*[43]	_	_	_	_	_	_	
+19-6	2259-2266	omsider	*[43]	_	_	_	_	_	_	
+19-7	2267-2271	gått	*[43]	_	_	_	_	_	_	
+19-8	2272-2274	ut	*[43]	_	_	_	_	_	_	
+19-9	2275-2278	med	*[43]	_	_	_	_	_	_	
+19-10	2279-2282	att	*[43]	_	_	_	_	_	_	
+19-11	2283-2286	hon	*[43]|*[45]	_	_	_	_	_	_	
+19-12	2287-2289	är	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-13	2290-2296	ledsen	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-14	2297-2299	om	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-15	2300-2306	hennes	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-16	2307-2315	agerande	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-17	2316-2322	kränkt	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-18	2323-2328	någon	*[43]	Source[22]	19-11[45]	false[22]	2[22]	_	_	
+19-19	2329-2332	och	*[43]	_	_	_	_	_	_	
+19-20	2333-2336	att	*[43]	_	_	_	_	_	_	
+19-21	2337-2340	hon	*[43]	_	_	_	_	_	_	
+19-22	2341-2347	dragit	*[43]	_	_	_	_	_	_	
+19-23	2348-2356	tillbaka	*[43]	_	_	_	_	_	_	
+19-24	2357-2360	sin	*[43]	_	_	_	_	_	_	
+19-25	2361-2367	annons	*[43]	_	_	_	_	_	_	
+19-26	2367-2368	.	_	_	_	_	_	_	_	
+
+#Text=Men för oss kommer det för lite för sent.
+20-1	2369-2372	Men	_	_	_	_	_	_	_	
+20-2	2373-2376	för	_	_	_	_	_	_	_	
+20-3	2377-2380	oss	*	_	_	_	_	_	_	
+20-4	2381-2387	kommer	_	_	_	false	1	_	_	
+20-5	2388-2391	det	*	_	_	_	_	_	_	
+20-6	2392-2395	för	_	Target;Source[23]	20-5;20-3	false[23]	1[23]	20-4[0_23]	_	
+20-7	2396-2400	lite	_	Target;Source[23]	20-5;20-3	false[23]	1[23]	_	_	
+20-8	2401-2404	för	_	Target;Source[23]	20-5;20-3	false[23]	1[23]	_	_	
+20-9	2405-2409	sent	_	Target;Source[23]	20-5;20-3	false[23]	1[23]	_	_	
+20-10	2409-2410	.	_	_	_	_	_	_	_	
+
+#Text=Den här gången godtar vi inte tystnaden från den moderata ledningen, därför har vi skrivit till moderaternas partisekreterare Kent Persson (M) för att få svar på frågan om Eva Sidekrans agerande är förenligt med ett medlemskap i Moderata samlingspartiet och huruvida hon kommer att vara kvar på Älvkarlebymoderaternas lista.
+21-1	2411-2414	Den	_	_	_	_	_	_	_	
+21-2	2415-2418	här	_	_	_	_	_	_	_	
+21-3	2419-2425	gången	_	_	_	_	_	_	_	
+21-4	2426-2432	godtar	_	Target;Source	21-7[46];21-5	false	2	21-6	_	
+21-5	2433-2435	vi	*	_	_	_	_	_	_	
+21-6	2436-2440	inte	_	_	_	false	2	_	_	
+21-7	2441-2450	tystnaden	*[46]	_	_	_	_	_	_	
+21-8	2451-2455	från	*[46]	_	_	_	_	_	_	
+21-9	2456-2459	den	*[46]	_	_	_	_	_	_	
+21-10	2460-2468	moderata	*[46]	_	_	_	_	_	_	
+21-11	2469-2478	ledningen	*[46]	_	_	_	_	_	_	
+21-12	2478-2479	,	_	_	_	_	_	_	_	
+21-13	2480-2486	därför	_	_	_	_	_	_	_	
+21-14	2487-2490	har	_	_	_	_	_	_	_	
+21-15	2491-2493	vi	_	_	_	_	_	_	_	
+21-16	2494-2501	skrivit	_	_	_	_	_	_	_	
+21-17	2502-2506	till	_	_	_	_	_	_	_	
+21-18	2507-2519	moderaternas	_	_	_	_	_	_	_	
+21-19	2520-2536	partisekreterare	_	_	_	_	_	_	_	
+21-20	2537-2541	Kent	_	_	_	_	_	_	_	
+21-21	2542-2549	Persson	_	_	_	_	_	_	_	
+21-22	2550-2551	(	_	_	_	_	_	_	_	
+21-23	2551-2552	M	_	_	_	_	_	_	_	
+21-24	2552-2553	)	_	_	_	_	_	_	_	
+21-25	2554-2557	för	_	_	_	_	_	_	_	
+21-26	2558-2561	att	_	_	_	_	_	_	_	
+21-27	2562-2564	få	_	_	_	_	_	_	_	
+21-28	2565-2569	svar	_	_	_	_	_	_	_	
+21-29	2570-2572	på	_	_	_	_	_	_	_	
+21-30	2573-2579	frågan	_	_	_	_	_	_	_	
+21-31	2580-2582	om	_	_	_	_	_	_	_	
+21-32	2583-2586	Eva	_	_	_	_	_	_	_	
+21-33	2587-2596	Sidekrans	_	_	_	_	_	_	_	
+21-34	2597-2605	agerande	_	_	_	_	_	_	_	
+21-35	2606-2608	är	_	_	_	_	_	_	_	
+21-36	2609-2618	förenligt	_	_	_	_	_	_	_	
+21-37	2619-2622	med	_	_	_	_	_	_	_	
+21-38	2623-2626	ett	_	_	_	_	_	_	_	
+21-39	2627-2637	medlemskap	_	_	_	_	_	_	_	
+21-40	2638-2639	i	_	_	_	_	_	_	_	
+21-41	2640-2648	Moderata	_	_	_	_	_	_	_	
+21-42	2649-2664	samlingspartiet	_	_	_	_	_	_	_	
+21-43	2665-2668	och	_	_	_	_	_	_	_	
+21-44	2669-2677	huruvida	_	_	_	_	_	_	_	
+21-45	2678-2681	hon	_	_	_	_	_	_	_	
+21-46	2682-2688	kommer	_	_	_	_	_	_	_	
+21-47	2689-2692	att	_	_	_	_	_	_	_	
+21-48	2693-2697	vara	_	_	_	_	_	_	_	
+21-49	2698-2702	kvar	_	_	_	_	_	_	_	
+21-50	2703-2705	på	_	_	_	_	_	_	_	
+21-51	2706-2728	Älvkarlebymoderaternas	_	_	_	_	_	_	_	
+21-52	2729-2734	lista	_	_	_	_	_	_	_	
+21-53	2734-2735	.	_	_	_	_	_	_	_	
+
+#Text=Det är viktig kunskap för afrosvenska väljare och andra svenskar med samvete inför valet i september.
+22-1	2736-2739	Det	_	_	_	_	_	_	_	
+22-2	2740-2742	är	_	_	_	_	_	_	_	
+22-3	2743-2749	viktig	_	Target	22-4	false	4	_	_	
+22-4	2750-2757	kunskap	*	_	_	_	_	_	_	
+22-5	2758-2761	för	_	_	_	_	_	_	_	
+22-6	2762-2773	afrosvenska	_	_	_	_	_	_	_	
+22-7	2774-2781	väljare	_	_	_	_	_	_	_	
+22-8	2782-2785	och	_	_	_	_	_	_	_	
+22-9	2786-2791	andra	_	_	_	_	_	_	_	
+22-10	2792-2800	svenskar	_	_	_	_	_	_	_	
+22-11	2801-2804	med	_	_	_	_	_	_	_	
+22-12	2805-2812	samvete	_	_	_	_	_	_	_	
+22-13	2813-2818	inför	_	_	_	_	_	_	_	
+22-14	2819-2824	valet	_	_	_	_	_	_	_	
+22-15	2825-2826	i	_	_	_	_	_	_	_	
+22-16	2827-2836	september	_	_	_	_	_	_	_	
+22-17	2836-2837	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	2839-2840	#	_	_	_	_	_	_	_	
+23-2	2840-2841	P	_	_	_	_	_	_	_	
+23-3	2842-2845	IMM	_	_	_	_	_	_	_	
+23-4	2845-2846	.	_	_	_	_	_	_	_	
+
+#Text=Zakarias Zouhir.
+24-1	2848-2856	Zakarias	_	_	_	_	_	_	_	
+24-2	2857-2863	Zouhir	_	_	_	_	_	_	_	
+24-3	2863-2864	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	2866-2867	#	_	_	_	_	_	_	_	
+25-2	2867-2868	P	_	_	_	_	_	_	_	
+25-3	2869-2872	IMM	_	_	_	_	_	_	_	
+25-4	2872-2873	.	_	_	_	_	_	_	_	
+
+#Text=Kitimbwa Sabuni.
+26-1	2875-2883	Kitimbwa	_	_	_	_	_	_	_	
+26-2	2884-2890	Sabuni	_	_	_	_	_	_	_	
+26-3	2890-2891	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2893-2894	#	_	_	_	_	_	_	_	
+27-2	2894-2895	P	_	_	_	_	_	_	_	
+27-3	2896-2899	IMM	_	_	_	_	_	_	_	
+27-4	2899-2900	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+28-1	2902-2907	FAKTA	_	_	_	_	_	_	_	
+28-2	2907-2908	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2910-2911	#	_	_	_	_	_	_	_	
+29-2	2911-2912	P	_	_	_	_	_	_	_	
+29-3	2913-2916	IMM	_	_	_	_	_	_	_	
+29-4	2916-2917	.	_	_	_	_	_	_	_	
+
+#Text=RERNA:.
+30-1	2919-2924	RERNA	_	_	_	_	_	_	_	
+30-2	2924-2925	:	_	_	_	_	_	_	_	
+30-3	2925-2926	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2928-2929	#	_	_	_	_	_	_	_	
+31-2	2929-2930	P	_	_	_	_	_	_	_	
+31-3	2931-2934	IMM	_	_	_	_	_	_	_	
+31-4	2934-2935	.	_	_	_	_	_	_	_	
+
+#Text=N:.
+32-1	2937-2938	N	_	_	_	_	_	_	_	
+32-2	2938-2939	:	_	_	_	_	_	_	_	
+32-3	2939-2940	.	_	_	_	_	_	_	_	

@@ -1,0 +1,439 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Chicago Tribune - Trump supremacy emboldens Swedish populists.
+3-1	18-25	Chicago	_	_	_	_	_	
+3-2	26-33	Tribune	_	_	_	_	_	
+3-3	34-35	-	_	_	_	_	_	
+3-4	36-41	Trump	_	_	_	_	_	
+3-5	42-51	supremacy	_	_	_	_	_	
+3-6	52-61	emboldens	_	_	_	_	_	
+3-7	62-69	Swedish	_	_	_	_	_	
+3-8	70-79	populists	_	_	_	_	_	
+3-9	79-80	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	82-83	#	_	_	_	_	_	
+4-2	83-84	P	_	_	_	_	_	
+4-3	85-88	IMM	_	_	_	_	_	
+4-4	88-89	.	_	_	_	_	_	
+
+#Text=Notera att SD numera är populister.
+5-1	91-97	Notera	_	_	_	_	_	
+5-2	98-101	att	_	_	_	_	_	
+5-3	102-104	SD	*	_	_	_	_	
+5-4	105-111	numera	_	_	_	_	_	
+5-5	112-114	är	_	Target[1]	5-3	false[1]	1[1]	
+5-6	115-125	populister	_	Target[1]	5-3	false[1]	1[1]	
+5-7	125-126	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	128-129	#	_	_	_	_	_	
+6-2	129-130	P	_	_	_	_	_	
+6-3	131-134	IMM	_	_	_	_	_	
+6-4	134-135	.	_	_	_	_	_	
+
+#Text=Ingen internationell tidning har skrivit om Svetsaren...just saying.
+7-1	137-142	Ingen	_	_	_	_	_	
+7-2	143-157	internationell	_	_	_	_	_	
+7-3	158-165	tidning	_	_	_	_	_	
+7-4	166-169	har	_	_	_	_	_	
+7-5	170-177	skrivit	_	_	_	_	_	
+7-6	178-180	om	_	_	_	_	_	
+7-7	181-190	Svetsaren	_	_	_	_	_	
+7-8	190-191	.	_	_	_	_	_	
+7-9	191-192	.	_	_	_	_	_	
+7-10	192-193	.	_	_	_	_	_	
+7-11	193-197	just	_	_	_	_	_	
+7-12	198-204	saying	_	_	_	_	_	
+7-13	204-205	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	207-208	#	_	_	_	_	_	
+8-2	208-209	P	_	_	_	_	_	
+8-3	210-213	IMM	_	_	_	_	_	
+8-4	213-214	.	_	_	_	_	_	
+
+#Text=Artikel:.
+9-1	216-223	Artikel	_	_	_	_	_	
+9-2	223-224	:	_	_	_	_	_	
+9-3	224-225	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	227-228	#	_	_	_	_	_	
+10-2	228-229	P	_	_	_	_	_	
+10-3	230-233	IMM	_	_	_	_	_	
+10-4	233-234	.	_	_	_	_	_	
+
+#Text="The leftist and liberal establishment, with open borders, free immigration, that nation states should be removed -- all of that -- there's never been any popular support for that but they've managed to dominate the western world for decades," he said.
+11-1	236-237	"	_	_	_	_	_	
+11-2	237-240	The	*[8]	_	_	_	_	
+11-3	241-248	leftist	*[8]	_	_	_	_	
+11-4	249-252	and	*[8]	_	_	_	_	
+11-5	253-260	liberal	*[8]	_	_	_	_	
+11-6	261-274	establishment	*[8]	_	_	_	_	
+11-7	274-275	,	_	_	_	_	_	
+11-8	276-280	with	_	_	_	_	_	
+11-9	281-285	open	_	_	_	_	_	
+11-10	286-293	borders	_	_	_	_	_	
+11-11	293-294	,	_	_	_	_	_	
+11-12	295-299	free	_	_	_	_	_	
+11-13	300-311	immigration	_	_	_	_	_	
+11-14	311-312	,	_	_	_	_	_	
+11-15	313-317	that	_	_	_	_	_	
+11-16	318-324	nation	*[9]	_	_	_	_	
+11-17	325-331	states	*[9]	_	_	_	_	
+11-18	332-338	should	_	Source;Target[2]	11-2[8];11-16[9]	false[2]	1[2]	
+11-19	339-341	be	_	Source;Target[2]	11-2[8];11-16[9]	false[2]	1[2]	
+11-20	342-349	removed	_	Source;Target[2]	11-2[8];11-16[9]	false[2]	1[2]	
+11-21	350-351	-	_	_	_	_	_	
+11-22	351-352	-	_	_	_	_	_	
+11-23	353-356	all	_	_	_	_	_	
+11-24	357-359	of	_	_	_	_	_	
+11-25	360-364	that	_	_	_	_	_	
+11-26	365-366	-	_	_	_	_	_	
+11-27	366-367	-	_	_	_	_	_	
+11-28	368-375	there's	_	_	_	_	_	
+11-29	376-381	never	_	_	_	_	_	
+11-30	382-386	been	_	_	_	_	_	
+11-31	387-390	any	_	_	_	_	_	
+11-32	391-398	popular	_	_	_	_	_	
+11-33	399-406	support	_	_	_	_	_	
+11-34	407-410	for	_	_	_	_	_	
+11-35	411-415	that	_	_	_	_	_	
+11-36	416-419	but	_	_	_	_	_	
+11-37	420-427	they've	_	_	_	_	_	
+11-38	428-435	managed	_	_	_	_	_	
+11-39	436-438	to	_	_	_	_	_	
+11-40	439-447	dominate	_	_	_	_	_	
+11-41	448-451	the	_	_	_	_	_	
+11-42	452-459	western	_	_	_	_	_	
+11-43	460-465	world	_	_	_	_	_	
+11-44	466-469	for	_	_	_	_	_	
+11-45	470-477	decades	_	_	_	_	_	
+11-46	477-478	,	_	_	_	_	_	
+11-47	478-479	"	_	_	_	_	_	
+11-48	480-482	he	_	_	_	_	_	
+11-49	483-487	said	_	_	_	_	_	
+11-50	487-488	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	490-491	#	_	_	_	_	_	
+12-2	491-492	P	_	_	_	_	_	
+12-3	493-496	IMM	_	_	_	_	_	
+12-4	496-497	.	_	_	_	_	_	
+
+#Text=While sharing Trump's views on immigration, Akesson doesn't agree on trade.
+13-1	499-504	While	_	_	_	_	_	
+13-2	505-512	sharing	_	_	_	_	_	
+13-3	513-520	Trump's	_	_	_	_	_	
+13-4	521-526	views	_	_	_	_	_	
+13-5	527-529	on	_	_	_	_	_	
+13-6	530-541	immigration	_	_	_	_	_	
+13-7	541-542	,	_	_	_	_	_	
+13-8	543-550	Akesson	*	_	_	_	_	
+13-9	551-558	doesn't	_	Target;Source[3]	13-12;13-8	false[3]	2[3]	
+13-10	559-564	agree	_	Target;Source[3]	13-12;13-8	false[3]	2[3]	
+13-11	565-567	on	_	Target;Source[3]	13-12;13-8	false[3]	2[3]	
+13-12	568-573	trade	*	_	_	_	_	
+13-13	573-574	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	576-577	#	_	_	_	_	_	
+14-2	577-578	P	_	_	_	_	_	
+14-3	579-582	IMM	_	_	_	_	_	
+14-4	582-583	.	_	_	_	_	_	
+
+#Text="If capital has an interest in open borders, I don't have a problem with that," he said.
+15-1	585-586	"	_	_	_	_	_	
+15-2	586-588	If	_	_	_	_	_	
+15-3	589-596	capital	*	_	_	_	_	
+15-4	597-600	has	_	Source;Target[4]	15-3;15-8[10]	false[4]	4[4]	
+15-5	601-603	an	_	Source;Target[4]	15-3;15-8[10]	false[4]	4[4]	
+15-6	604-612	interest	_	Source;Target[4]	15-3;15-8[10]	false[4]	4[4]	
+15-7	613-615	in	_	Source;Target[4]	15-3;15-8[10]	false[4]	4[4]	
+15-8	616-620	open	*[10]	_	_	_	_	
+15-9	621-628	borders	*[10]	_	_	_	_	
+15-10	628-629	,	_	_	_	_	_	
+15-11	630-631	I	_	_	_	_	_	
+15-12	632-637	don't	_	_	_	_	_	
+15-13	638-642	have	_	_	_	_	_	
+15-14	643-644	a	_	_	_	_	_	
+15-15	645-652	problem	_	_	_	_	_	
+15-16	653-657	with	_	_	_	_	_	
+15-17	658-662	that	_	_	_	_	_	
+15-18	662-663	,	_	_	_	_	_	
+15-19	663-664	"	_	_	_	_	_	
+15-20	665-667	he	_	_	_	_	_	
+15-21	668-672	said	_	_	_	_	_	
+15-22	672-673	.	_	_	_	_	_	
+
+#Text="I believe in free trade -- I think that's great.
+16-1	674-675	"	_	_	_	_	_	
+16-2	675-676	I	*	_	_	_	_	
+16-3	677-684	believe	_	Target;Source[5]	16-5[11];16-2	false[5]	5[5]	
+16-4	685-687	in	_	Target;Source[5]	16-5[11];16-2	false[5]	5[5]	
+16-5	688-692	free	*[11]|*[12]	_	_	_	_	
+16-6	693-698	trade	*[11]|*[12]	_	_	_	_	
+16-7	699-700	-	_	_	_	_	_	
+16-8	700-701	-	_	_	_	_	_	
+16-9	702-703	I	*	_	_	_	_	
+16-10	704-709	think	_	_	_	_	_	
+16-11	710-716	that's	_	_	_	_	_	
+16-12	717-722	great	_	Target;Source	16-5[12];16-9	false	5	
+16-13	722-723	.	_	_	_	_	_	
+
+#Text=The problem has been the free movement of people as it's led to big strains on welfare in Sweden.".
+17-1	724-727	The	_	_	_	_	_	
+17-2	728-735	problem	_	Target	17-5[14]	false	1	
+17-3	736-739	has	_	_	_	_	_	
+17-4	740-744	been	_	_	_	_	_	
+17-5	745-748	the	*[13]|*[14]	_	_	_	_	
+17-6	749-753	free	*[13]|*[14]	_	_	_	_	
+17-7	754-762	movement	*[13]|*[14]	_	_	_	_	
+17-8	763-765	of	*[13]|*[14]	_	_	_	_	
+17-9	766-772	people	*[13]|*[14]	_	_	_	_	
+17-10	773-775	as	_	_	_	_	_	
+17-11	776-780	it's	_	_	_	_	_	
+17-12	781-784	led	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-13	785-787	to	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-14	788-791	big	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-15	792-799	strains	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-16	800-802	on	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-17	803-810	welfare	_	Target[6]	17-5[13]	false[6]	1[6]	
+17-18	811-813	in	_	_	_	_	_	
+17-19	814-820	Sweden	_	_	_	_	_	
+17-20	820-821	.	_	_	_	_	_	
+17-21	821-822	"	_	_	_	_	_	
+17-22	822-823	.	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	825-826	#	_	_	_	_	_	
+18-2	826-827	P	_	_	_	_	_	
+18-3	828-831	IMM	_	_	_	_	_	
+18-4	831-832	.	_	_	_	_	_	
+
+#Text=Akesson blames many of the socioeconomic problems that Sweden is grappling with on its generous immigration policies.
+19-1	834-841	Akesson	*	_	_	_	_	
+19-2	842-848	blames	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-3	849-853	many	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-4	854-856	of	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-5	857-860	the	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-6	861-874	socioeconomic	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-7	875-883	problems	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-8	884-888	that	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-9	889-895	Sweden	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-10	896-898	is	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-11	899-908	grappling	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-12	909-913	with	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-13	914-916	on	_	Source;Target[7]	19-1;19-14[15]	false[7]	1[7]	
+19-14	917-920	its	*[15]	_	_	_	_	
+19-15	921-929	generous	*[15]	_	_	_	_	
+19-16	930-941	immigration	*[15]	_	_	_	_	
+19-17	942-950	policies	*[15]	_	_	_	_	
+19-18	950-951	.	_	_	_	_	_	
+
+#Text=Immigrants and their direct descendants now make up almost a third of the population, up from less than a fourth a decade ago.
+20-1	952-962	Immigrants	_	_	_	_	_	
+20-2	963-966	and	_	_	_	_	_	
+20-3	967-972	their	_	_	_	_	_	
+20-4	973-979	direct	_	_	_	_	_	
+20-5	980-991	descendants	_	_	_	_	_	
+20-6	992-995	now	_	_	_	_	_	
+20-7	996-1000	make	_	_	_	_	_	
+20-8	1001-1003	up	_	_	_	_	_	
+20-9	1004-1010	almost	_	_	_	_	_	
+20-10	1011-1012	a	_	_	_	_	_	
+20-11	1013-1018	third	_	_	_	_	_	
+20-12	1019-1021	of	_	_	_	_	_	
+20-13	1022-1025	the	_	_	_	_	_	
+20-14	1026-1036	population	_	_	_	_	_	
+20-15	1036-1037	,	_	_	_	_	_	
+20-16	1038-1040	up	_	_	_	_	_	
+20-17	1041-1045	from	_	_	_	_	_	
+20-18	1046-1050	less	_	_	_	_	_	
+20-19	1051-1055	than	_	_	_	_	_	
+20-20	1056-1057	a	_	_	_	_	_	
+20-21	1058-1064	fourth	_	_	_	_	_	
+20-22	1065-1066	a	_	_	_	_	_	
+20-23	1067-1073	decade	_	_	_	_	_	
+20-24	1074-1077	ago	_	_	_	_	_	
+20-25	1077-1078	.	_	_	_	_	_	
+
+#Text=The Social Democratic-led government has now tightened rules after a quarter million refugees arrived over the past three years, overwhelming many government functions.".
+21-1	1079-1082	The	_	_	_	_	_	
+21-2	1083-1089	Social	_	_	_	_	_	
+21-3	1090-1104	Democratic-led	_	_	_	_	_	
+21-4	1105-1115	government	_	_	_	_	_	
+21-5	1116-1119	has	_	_	_	_	_	
+21-6	1120-1123	now	_	_	_	_	_	
+21-7	1124-1133	tightened	_	_	_	_	_	
+21-8	1134-1139	rules	_	_	_	_	_	
+21-9	1140-1145	after	_	_	_	_	_	
+21-10	1146-1147	a	*[16]	_	_	_	_	
+21-11	1148-1155	quarter	*[16]	_	_	_	_	
+21-12	1156-1163	million	*[16]	_	_	_	_	
+21-13	1164-1172	refugees	*[16]	_	_	_	_	
+21-14	1173-1180	arrived	*[16]	_	_	_	_	
+21-15	1181-1185	over	_	_	_	_	_	
+21-16	1186-1189	the	_	_	_	_	_	
+21-17	1190-1194	past	_	_	_	_	_	
+21-18	1195-1200	three	_	_	_	_	_	
+21-19	1201-1206	years	_	_	_	_	_	
+21-20	1206-1207	,	_	_	_	_	_	
+21-21	1208-1220	overwhelming	_	Source;Target	21-22[17];21-10[16]	false	2	
+21-22	1221-1225	many	*[17]	_	_	_	_	
+21-23	1226-1236	government	*[17]	_	_	_	_	
+21-24	1237-1246	functions	*[17]	_	_	_	_	
+21-25	1246-1247	.	_	_	_	_	_	
+21-26	1247-1248	"	_	_	_	_	_	
+21-27	1248-1249	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1251-1252	#	_	_	_	_	_	
+22-2	1252-1253	P	_	_	_	_	_	
+22-3	1254-1257	IMM	_	_	_	_	_	
+22-4	1257-1258	.	_	_	_	_	_	
+
+#Text="The surge in populist sentiment abroad has the Swedish establishment worried.
+23-1	1260-1261	"	_	_	_	_	_	
+23-2	1261-1264	The	*[18]	_	_	_	_	
+23-3	1265-1270	surge	*[18]	_	_	_	_	
+23-4	1271-1273	in	*[18]	_	_	_	_	
+23-5	1274-1282	populist	*[18]	_	_	_	_	
+23-6	1283-1292	sentiment	*[18]	_	_	_	_	
+23-7	1293-1299	abroad	*[18]	_	_	_	_	
+23-8	1300-1303	has	_	_	_	_	_	
+23-9	1304-1307	the	*[19]	_	_	_	_	
+23-10	1308-1315	Swedish	*[19]	_	_	_	_	
+23-11	1316-1329	establishment	*[19]	_	_	_	_	
+23-12	1330-1337	worried	_	Target;Source	23-2[18];23-9[19]	false	2	
+23-13	1337-1338	.	_	_	_	_	_	
+
+#Text=Carl Bildt, a former prime minister who served as foreign minister in the government ousted two years ago, wrote in the Washington Post last month that Trump's victory could mark "the end of the west as we know it.".
+24-1	1339-1343	Carl	_	_	_	_	_	
+24-2	1344-1349	Bildt	_	_	_	_	_	
+24-3	1349-1350	,	_	_	_	_	_	
+24-4	1351-1352	a	_	_	_	_	_	
+24-5	1353-1359	former	_	_	_	_	_	
+24-6	1360-1365	prime	_	_	_	_	_	
+24-7	1366-1374	minister	_	_	_	_	_	
+24-8	1375-1378	who	_	_	_	_	_	
+24-9	1379-1385	served	_	_	_	_	_	
+24-10	1386-1388	as	_	_	_	_	_	
+24-11	1389-1396	foreign	_	_	_	_	_	
+24-12	1397-1405	minister	_	_	_	_	_	
+24-13	1406-1408	in	_	_	_	_	_	
+24-14	1409-1412	the	_	_	_	_	_	
+24-15	1413-1423	government	_	_	_	_	_	
+24-16	1424-1430	ousted	_	_	_	_	_	
+24-17	1431-1434	two	_	_	_	_	_	
+24-18	1435-1440	years	_	_	_	_	_	
+24-19	1441-1444	ago	_	_	_	_	_	
+24-20	1444-1445	,	_	_	_	_	_	
+24-21	1446-1451	wrote	_	_	_	_	_	
+24-22	1452-1454	in	_	_	_	_	_	
+24-23	1455-1458	the	_	_	_	_	_	
+24-24	1459-1469	Washington	_	_	_	_	_	
+24-25	1470-1474	Post	_	_	_	_	_	
+24-26	1475-1479	last	_	_	_	_	_	
+24-27	1480-1485	month	_	_	_	_	_	
+24-28	1486-1490	that	_	_	_	_	_	
+24-29	1491-1498	Trump's	_	_	_	_	_	
+24-30	1499-1506	victory	_	_	_	_	_	
+24-31	1507-1512	could	_	_	_	_	_	
+24-32	1513-1517	mark	_	_	_	_	_	
+24-33	1518-1519	"	_	_	_	_	_	
+24-34	1519-1522	the	_	_	_	_	_	
+24-35	1523-1526	end	_	_	_	_	_	
+24-36	1527-1529	of	_	_	_	_	_	
+24-37	1530-1533	the	_	_	_	_	_	
+24-38	1534-1538	west	_	_	_	_	_	
+24-39	1539-1541	as	_	_	_	_	_	
+24-40	1542-1544	we	_	_	_	_	_	
+24-41	1545-1549	know	_	_	_	_	_	
+24-42	1550-1552	it	_	_	_	_	_	
+24-43	1552-1553	.	_	_	_	_	_	
+24-44	1553-1554	"	_	_	_	_	_	
+24-45	1554-1555	.	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1557-1558	#	_	_	_	_	_	
+25-2	1558-1559	P	_	_	_	_	_	
+25-3	1560-1563	IMM	_	_	_	_	_	
+25-4	1563-1564	.	_	_	_	_	_	
+
+#Text=That's music to Akesson's ears.
+26-1	1566-1572	That's	_	_	_	_	_	
+26-2	1573-1578	music	_	_	_	_	_	
+26-3	1579-1581	to	_	_	_	_	_	
+26-4	1582-1591	Akesson's	_	_	_	_	_	
+26-5	1592-1596	ears	_	_	_	_	_	
+26-6	1596-1597	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1599-1600	#	_	_	_	_	_	
+27-2	1600-1601	P	_	_	_	_	_	
+27-3	1602-1605	IMM	_	_	_	_	_	
+27-4	1605-1606	.	_	_	_	_	_	
+
+#Text="It's the end of Carl Bildt's world," he said.
+28-1	1608-1609	"	_	_	_	_	_	
+28-2	1609-1613	It's	_	_	_	_	_	
+28-3	1614-1617	the	_	_	_	_	_	
+28-4	1618-1621	end	_	_	_	_	_	
+28-5	1622-1624	of	_	_	_	_	_	
+28-6	1625-1629	Carl	_	_	_	_	_	
+28-7	1630-1637	Bildt's	_	_	_	_	_	
+28-8	1638-1643	world	_	_	_	_	_	
+28-9	1643-1644	,	_	_	_	_	_	
+28-10	1644-1645	"	_	_	_	_	_	
+28-11	1646-1648	he	_	_	_	_	_	
+28-12	1649-1653	said	_	_	_	_	_	
+28-13	1653-1654	.	_	_	_	_	_	
+
+#Text="He's one of Sweden's foremost globalists and biggest deniers of the nation state and national identity.
+29-1	1655-1656	"	_	_	_	_	_	
+29-2	1656-1660	He's	_	_	_	_	_	
+29-3	1661-1664	one	_	_	_	_	_	
+29-4	1665-1667	of	_	_	_	_	_	
+29-5	1668-1676	Sweden's	_	_	_	_	_	
+29-6	1677-1685	foremost	_	_	_	_	_	
+29-7	1686-1696	globalists	_	_	_	_	_	
+29-8	1697-1700	and	_	_	_	_	_	
+29-9	1701-1708	biggest	_	_	_	_	_	
+29-10	1709-1716	deniers	_	_	_	_	_	
+29-11	1717-1719	of	_	_	_	_	_	
+29-12	1720-1723	the	_	_	_	_	_	
+29-13	1724-1730	nation	_	_	_	_	_	
+29-14	1731-1736	state	_	_	_	_	_	
+29-15	1737-1740	and	_	_	_	_	_	
+29-16	1741-1749	national	_	_	_	_	_	
+29-17	1750-1758	identity	_	_	_	_	_	
+29-18	1758-1759	.	_	_	_	_	_	
+
+#Text=If he's unhappy, I'm happy."".
+30-1	1760-1762	If	*[20]	_	_	_	_	
+30-2	1763-1767	he's	*[20]	_	_	_	_	
+30-3	1768-1775	unhappy	*[20]	_	_	_	_	
+30-4	1775-1776	,	_	_	_	_	_	
+30-5	1777-1780	I'm	*	_	_	_	_	
+30-6	1781-1786	happy	_	Target;Source	30-1[20];30-5	false	5	
+30-7	1786-1787	.	_	_	_	_	_	
+30-8	1787-1788	"	_	_	_	_	_	
+30-9	1788-1789	"	_	_	_	_	_	
+30-10	1789-1790	.	_	_	_	_	_	

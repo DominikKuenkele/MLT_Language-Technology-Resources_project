@@ -1,0 +1,94 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=muslim anmäler migrationsverket till DO.
+3-1	18-24	muslim	_	_	_	_	_	_	
+3-2	25-32	anmäler	_	_	_	_	_	_	
+3-3	33-49	migrationsverket	_	_	_	_	_	_	
+3-4	50-54	till	_	_	_	_	_	_	
+3-5	55-57	DO	_	_	_	_	_	_	
+3-6	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_[2]	_	false[2]	2[2]	_	
+4-2	61-62	P	_	_[2]	_	false[2]	2[2]	_	
+4-3	63-66	IMM	_	_[2]	_	false[2]	2[2]	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Borde det inte startas en tråd om kränkta muslimer?.
+5-1	69-74	Borde	_	Target[3]	5-4[7]	false[3]	4[3]	_	
+5-2	75-78	det	_	Target[3]	5-4[7]	false[3]	4[3]	_	
+5-3	79-83	inte	_	Target[3]	5-4[7]	false[3]	4[3]	_	
+5-4	84-91	startas	*[7]	_	_	_	_	_	
+5-5	92-94	en	*[7]	_	_	_	_	_	
+5-6	95-99	tråd	*[7]	_	_	_	_	_	
+5-7	100-102	om	*[7]	_	_	_	_	_	
+5-8	103-110	kränkta	*[7]	Target	5-9[8]	false	2	_	
+5-9	111-119	muslimer	*[7]|*[8]	_	_	_	_	_	
+5-10	119-120	?	_	_	_	_	_	_	
+5-11	120-121	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	123-124	#	_	_[4]	_	false[4]	2[4]	_	
+6-2	124-125	P	_	_[4]	_	false[4]	2[4]	_	
+6-3	126-129	IMM	_	_[4]	_	false[4]	2[4]	_	
+6-4	129-130	.	_	_	_	_	_	_	
+
+#Text=Den här historien var ju ganska kul om en muslim som känner sig diskriminerad av migrationsverket för att de frågade om hans kvinnosyn...
+7-1	132-135	Den	*[9]	_	_	_	_	_	
+7-2	136-139	här	*[9]	_	_	_	_	_	
+7-3	140-149	historien	*[9]	_	_	_	_	_	
+7-4	150-153	var	_	_	_	false	4	_	
+7-5	154-156	ju	_	_	_	_	_	_	
+7-6	157-163	ganska	_	Target[5]	7-1[9]	false[5]	4[5]	7-4[0_5]	
+7-7	164-167	kul	_	Target[5]	7-1[9]	false[5]	4[5]	_	
+7-8	168-170	om	_	_	_	_	_	_	
+7-9	171-173	en	*[10]	_	_	_	_	_	
+7-10	174-180	muslim	*[10]	_	_	_	_	_	
+7-11	181-184	som	_	_	_	_	_	_	
+7-12	185-191	känner	_	Source;Target[6]	7-9[10];7-16	false[6]	2[6]	_	
+7-13	192-195	sig	_	Source;Target[6]	7-9[10];7-16	false[6]	2[6]	_	
+7-14	196-209	diskriminerad	_	Source;Target[6]	7-9[10];7-16	false[6]	2[6]	_	
+7-15	210-212	av	_	_	_	_	_	_	
+7-16	213-229	migrationsverket	*	_	_	_	_	_	
+7-17	230-233	för	_	_	_	_	_	_	
+7-18	234-237	att	_	_	_	_	_	_	
+7-19	238-240	de	_	_	_	_	_	_	
+7-20	241-248	frågade	_	_	_	_	_	_	
+7-21	249-251	om	_	_	_	_	_	_	
+7-22	252-256	hans	_	_	_	_	_	_	
+7-23	257-266	kvinnosyn	_	_	_	_	_	_	
+7-24	266-267	.	_	_	_	_	_	_	
+7-25	267-268	.	_	_	_	_	_	_	
+7-26	268-269	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	271-272	#	_	_	_	_	_	_	
+8-2	272-273	P	_	_	_	_	_	_	
+8-3	274-277	IMM	_	_	_	_	_	_	
+8-4	277-278	.	_	_	_	_	_	_	
+
+#Text=Jag ger honom 3% chans att vinna.
+9-1	280-283	Jag	_	_	_	_	_	_	
+9-2	284-287	ger	_	_	_	_	_	_	
+9-3	288-293	honom	_	_	_	_	_	_	
+9-4	294-296	3%	_	_	_	_	_	_	
+9-5	297-302	chans	_	_	_	_	_	_	
+9-6	303-306	att	_	_	_	_	_	_	
+9-7	307-312	vinna	_	_	_	_	_	_	
+9-8	312-313	.	_	_	_	false	2	_	

@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Margareta Larsson (SD), Jimmie Åkessons svärmor, lämnar partiet och sågar nu SD.
+3-1	18-27	Margareta	*[2]	_	_	_	_	
+3-2	28-35	Larsson	*[2]	_	_	_	_	
+3-3	36-37	(	*[2]	_	_	_	_	
+3-4	37-39	SD	*[2]	_	_	_	_	
+3-5	39-40	)	*[2]	_	_	_	_	
+3-6	40-41	,	_	_	_	_	_	
+3-7	42-48	Jimmie	_	_	_	_	_	
+3-8	49-57	Åkessons	_	_	_	_	_	
+3-9	58-65	svärmor	_	_	_	_	_	
+3-10	65-66	,	_	_	_	_	_	
+3-11	67-73	lämnar	_	_	_	_	_	
+3-12	74-81	partiet	_	_	_	_	_	
+3-13	82-85	och	_	_	_	_	_	
+3-14	86-91	sågar	_	Source;Target	3-1[2];3-16	false	1	
+3-15	92-94	nu	_	_	_	_	_	
+3-16	95-97	SD	*	_	_	_	_	
+3-17	97-98	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	100-101	#	_	_	_	_	_	
+4-2	101-102	P	_	_	_	_	_	
+4-3	103-106	IMM	_	_	_	_	_	
+4-4	106-107	.	_	_	_	_	_	
+
+#Text=Margareta Larsson (SD), riksdagsledamot och dessutom partiledaren Jimmie Åkessons svärmor, lämnar partiet och passar på att såga den nuvarande SD-ledningen.
+5-1	109-118	Margareta	*[3]	_	_	_	_	
+5-2	119-126	Larsson	*[3]	_	_	_	_	
+5-3	127-128	(	*[3]	_	_	_	_	
+5-4	128-130	SD	*[3]	_	_	_	_	
+5-5	130-131	)	*[3]	_	_	_	_	
+5-6	131-132	,	_	_	_	_	_	
+5-7	133-148	riksdagsledamot	_	_	_	_	_	
+5-8	149-152	och	_	_	_	_	_	
+5-9	153-161	dessutom	_	_	_	_	_	
+5-10	162-174	partiledaren	_	_	_	_	_	
+5-11	175-181	Jimmie	_	_	_	_	_	
+5-12	182-190	Åkessons	_	_	_	_	_	
+5-13	191-198	svärmor	_	_	_	_	_	
+5-14	198-199	,	_	_	_	_	_	
+5-15	200-206	lämnar	_	_	_	_	_	
+5-16	207-214	partiet	_	_	_	_	_	
+5-17	215-218	och	_	_	_	_	_	
+5-18	219-225	passar	_	Source;Target[1]	5-1[3];5-22[4]	false[1]	1[1]	
+5-19	226-228	på	_	Source;Target[1]	5-1[3];5-22[4]	false[1]	1[1]	
+5-20	229-232	att	_	Source;Target[1]	5-1[3];5-22[4]	false[1]	1[1]	
+5-21	233-237	såga	_	Source;Target[1]	5-1[3];5-22[4]	false[1]	1[1]	
+5-22	238-241	den	*[4]	_	_	_	_	
+5-23	242-251	nuvarande	*[4]	_	_	_	_	
+5-24	252-264	SD-ledningen	*[4]	_	_	_	_	
+5-25	264-265	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	267-268	#	_	_	_	_	_	
+6-2	268-269	P	_	_	_	_	_	
+6-3	270-273	IMM	_	_	_	_	_	
+6-4	273-274	.	_	_	_	_	_	
+
+#Text=Vad tycker vi om detta?.
+7-1	276-279	Vad	_	_	_	_	_	
+7-2	280-286	tycker	_	_	_	_	_	
+7-3	287-289	vi	_	_	_	_	_	
+7-4	290-292	om	_	_	_	_	_	
+7-5	293-298	detta	_	_	_	_	_	
+7-6	298-299	?	_	_	_	_	_	
+7-7	299-300	.	_	_	_	_	_	

@@ -1,0 +1,132 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Asylsökande får inte komma in på krogen i Söderhamn.
+3-1	18-29	Asylsökande	*	_	_	_	_	_	
+3-2	30-33	får	_	_	_	_	_	_	
+3-3	34-38	inte	_	_	_	_	_	_	
+3-4	39-44	komma	_	_	_	_	_	_	
+3-5	45-47	in	_	_	_	_	_	_	
+3-6	48-50	på	_	_	_	_	_	_	
+3-7	51-57	krogen	_	_	_	_	_	_	
+3-8	58-59	i	_	_	_	_	_	_	
+3-9	60-69	Söderhamn	_	_	_	_	_	_	
+3-10	69-70	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	false	1	_	
+4-4	78-79	.	_	_	_	_	_	_	
+
+#Text=Är det rätt av krogen att inte ta in den lortiga muskingen?.
+5-1	81-83	Är	_	Target[1]	5-4[7]	false[1]	4[1]	_	
+5-2	84-87	det	_	Target[1]	5-4[7]	false[1]	4[1]	_	
+5-3	88-92	rätt	_	Target[1]	5-4[7]	false[1]	4[1]	_	
+5-4	93-95	av	*[7]	_	_	_	_	_	
+5-5	96-102	krogen	*[7]	_	_	_	_	_	
+5-6	103-106	att	*[7]	_	_	_	_	_	
+5-7	107-111	inte	*[7]	_	_	_	_	_	
+5-8	112-114	ta	*[7]	_	_	_	_	_	
+5-9	115-117	in	*[7]	_	_	_	_	_	
+5-10	118-121	den	*[7]	Target[2]	3-1	false[2]	1[2]	_	
+5-11	122-129	lortiga	*[7]	Target[2]	3-1	false[2]	1[2]	_	
+5-12	130-139	muskingen	*[7]	Target[2]	3-1	false[2]	1[2]	_	
+5-13	139-140	?	_	_	_	_	_	_	
+5-14	140-141	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	143-144	#	_	_	_	_	_	_	
+6-2	144-145	P	_	_	_	_	_	_	
+6-3	146-149	IMM	_	_	_	false	3	_	
+6-4	149-150	.	_	_	_	_	_	_	
+
+#Text=Bör migrationsverket lägga sig i detta?.
+7-1	152-155	Bör	_	_	_	false	3	_	
+7-2	156-172	migrationsverket	*	_	_	_	_	_	
+7-3	173-178	lägga	_	Target[3]	7-2	false[3]	3[3]	7-1[0_3]	
+7-4	179-182	sig	_	Target[3]	7-2	false[3]	3[3]	_	
+7-5	183-184	i	_	Target[3]	7-2	false[3]	3[3]	_	
+7-6	185-190	detta	_	Target[3]	7-2	false[3]	3[3]	_	
+7-7	190-191	?	_	_	_	_	_	_	
+7-8	191-192	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	194-195	#	_	_	_	_	_	_	
+8-2	195-196	P	_	_	_	_	_	_	
+8-3	197-200	IMM	_	_	_	_	_	_	
+8-4	200-201	.	_	_	_	_	_	_	
+
+#Text=Gillar för övrigt det motsägelsefulla;.
+9-1	203-209	Gillar	_	_	_	_	_	_	
+9-2	210-213	för	_	_	_	_	_	_	
+9-3	214-220	övrigt	_	_	_	_	_	_	
+9-4	221-224	det	_	_	_	_	_	_	
+9-5	225-240	motsägelsefulla	_	_	_	_	_	_	
+9-6	240-241	;	_	_	_	_	_	_	
+9-7	241-242	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	244-245	#	_	_	_	_	_	_	
+10-2	245-246	P	_	_	_	_	_	_	
+10-3	247-250	IMM	_	_	_	false	1	_	
+10-4	250-251	.	_	_	_	_	_	_	
+
+#Text=Neger- och orchhanarna som äntrar landet i egenskap av "ensamkommande flyktingbarn" är det tydligen mycket svårt att göra åldersbedömningar på.
+11-1	253-258	Neger	*	Target;Target	11-12[9];11-1	false	1	_	
+11-2	258-259	-	_	_	_	_	_	_	
+11-3	260-263	och	_	_	_	_	_	_	
+11-4	264-275	orchhanarna	_	Target	11-12[8]	false	1	_	
+11-5	276-279	som	_	_	_	_	_	_	
+11-6	280-286	äntrar	_	_	_	_	_	_	
+11-7	287-293	landet	_	_	_	_	_	_	
+11-8	294-295	i	_	_	_	_	_	_	
+11-9	296-304	egenskap	_	_	_	_	_	_	
+11-10	305-307	av	_	_	_	_	_	_	
+11-11	308-309	"	_	_	_	_	_	_	
+11-12	309-322	ensamkommande	*[8]|*[9]	_	_	_	_	_	
+11-13	323-335	flyktingbarn	*[8]|*[9]	_	_	_	_	_	
+11-14	335-336	"	_	_	_	_	_	_	
+11-15	337-339	är	_	_	_	_	_	_	
+11-16	340-343	det	_	_	_	_	_	_	
+11-17	344-352	tydligen	_	_	_	_	_	_	
+11-18	353-359	mycket	_	Target;Source[4]	11-20[10];11-24	false[4]	1[4]	_	
+11-19	360-365	svårt	_	Target;Source[4]	11-20[10];11-24	false[4]	1[4]	_	
+11-20	366-369	att	*[10]	_	_	_	_	_	
+11-21	370-374	göra	*[10]	_	_	_	_	_	
+11-22	375-392	åldersbedömningar	*[10]	_	_	_	_	_	
+11-23	393-395	på	*[10]	_	_	_	_	_	
+11-24	395-396	.	*	_	_	_	_	_	
+
+#Text=Kan vi verkligen vänta oss att vakter ska vara bättre än batikmaffian på att åldersbestämma.
+12-1	397-400	Kan	_	_	_	_	_	_	
+12-2	401-403	vi	_	_	_	_	_	_	
+12-3	404-413	verkligen	_	_	_	_	_	_	
+12-4	414-419	vänta	_	_	_	_	_	_	
+12-5	420-423	oss	_	_	_	_	_	_	
+12-6	424-427	att	_	_	_	_	_	_	
+12-7	428-434	vakter	*	_	_	_	_	_	
+12-8	435-438	ska	_	_	_	_	_	_	
+12-9	439-443	vara	_	_	_	_	_	_	
+12-10	444-450	bättre	_	Target[5]	12-7	false[5]	3[5]	_	
+12-11	451-453	än	_	Target[5]	12-7	false[5]	3[5]	_	
+12-12	454-466	batikmaffian	*	Target[5]|Target[6]	12-7|12-12	false[5]|false[6]	3[5]|1[6]	_	
+12-13	467-469	på	_	Target[5]	12-7	false[5]	3[5]	_	
+12-14	470-473	att	_	Target[5]	12-7	false[5]	3[5]	_	
+12-15	474-488	åldersbestämma	_	Target[5]	12-7	false[5]	3[5]	_	
+12-16	488-489	.	_	_	_	_	_	_	

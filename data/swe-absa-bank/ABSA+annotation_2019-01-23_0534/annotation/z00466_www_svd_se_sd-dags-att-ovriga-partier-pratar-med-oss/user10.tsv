@@ -1,0 +1,910 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=SD: Dags att övriga partier pratar med oss.
+3-1	18-20	SD	_	_	_	_	_	_	_	
+3-2	20-21	:	_	_	_	_	_	_	_	
+3-3	22-26	Dags	_	_	_	_	_	_	_	
+3-4	27-30	att	_	_	_	_	_	_	_	
+3-5	31-37	övriga	_	_	_	_	_	_	_	
+3-6	38-45	partier	_	_	_	_	_	_	_	
+3-7	46-52	pratar	_	_	_	_	_	_	_	
+3-8	53-56	med	_	_	_	_	_	_	_	
+3-9	57-60	oss	_	_	_	_	_	_	_	
+3-10	60-61	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	_	_	
+4-3	66-69	IMM	_	_[1]	_	false[1]	3[1]	_	_	
+4-4	69-70	.	_	_[1]	_	false[1]	3[1]	_	_	
+
+#Text=Att andra partier nu väljer att kopiera Sverigedemokraternas förslag gällande migrationspolitiken visar att vi har haft rätt och att den analys vi gjort av läget har varit i överensstämmelse med verkligheten, skriver Jimmie Åkesson (SD) och Mattias Karlsson (SD).
+5-1	72-75	Att	_	_	_	_	_	_	_	
+5-2	76-81	andra	_	_	_	_	_	_	_	
+5-3	82-89	partier	_	_	_	_	_	_	_	
+5-4	90-92	nu	_	_	_	_	_	_	_	
+5-5	93-99	väljer	_	_	_	_	_	_	_	
+5-6	100-103	att	_	_	_	_	_	_	_	
+5-7	104-111	kopiera	_	_	_	_	_	_	_	
+5-8	112-132	Sverigedemokraternas	_	_	_	_	_	_	_	
+5-9	133-140	förslag	_	_	_	_	_	_	_	
+5-10	141-149	gällande	_	_	_	_	_	_	_	
+5-11	150-169	migrationspolitiken	*	_	_	_	_	_	7-6	
+5-12	170-175	visar	_	_	_	_	_	_	_	
+5-13	176-179	att	_	_	_	_	_	_	_	
+5-14	180-182	vi	*	_	_	_	_	_	_	
+5-15	183-186	har	*[16]	Target;Source[2]	5-15[16];5-14	false[2]	4[2]	_	_	
+5-16	187-191	haft	*[16]	Target;Source[2]	5-15[16];5-14	false[2]	4[2]	_	_	
+5-17	192-196	rätt	*[16]	Target;Source[2]	5-15[16];5-14	false[2]	4[2]	_	_	
+5-18	197-200	och	_	_	_	_	_	_	_	
+5-19	201-204	att	_	_	_	_	_	_	_	
+5-20	205-208	den	_	_	_	_	_	_	_	
+5-21	209-215	analys	_	_	_	_	_	_	_	
+5-22	216-218	vi	_	_	_	_	_	_	_	
+5-23	219-224	gjort	_	_	_	_	_	_	_	
+5-24	225-227	av	_	_	_	_	_	_	_	
+5-25	228-233	läget	_	_	_	_	_	_	_	
+5-26	234-237	har	_	_	_	_	_	_	_	
+5-27	238-243	varit	_	_	_	_	_	_	_	
+5-28	244-245	i	_	_	_	_	_	_	_	
+5-29	246-262	överensstämmelse	_	_	_	_	_	_	_	
+5-30	263-266	med	_	_	_	_	_	_	_	
+5-31	267-279	verkligheten	_	_	_	_	_	_	_	
+5-32	279-280	,	_	_	_	_	_	_	_	
+5-33	281-288	skriver	_	_	_	_	_	_	_	
+5-34	289-295	Jimmie	_	_	_	_	_	_	_	
+5-35	296-303	Åkesson	_	_	_	_	_	_	_	
+5-36	304-305	(	_	_	_	_	_	_	_	
+5-37	305-307	SD	_	_	_	_	_	_	_	
+5-38	307-308	)	_	_	_	_	_	_	_	
+5-39	309-312	och	_	_	_	_	_	_	_	
+5-40	313-320	Mattias	_	_	_	_	_	_	_	
+5-41	321-329	Karlsson	_	_	_	_	_	_	_	
+5-42	330-331	(	_	_	_	_	_	_	_	
+5-43	331-333	SD	_	_	_	_	_	_	_	
+5-44	333-334	)	_	_	_	_	_	_	_	
+5-45	334-335	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	337-338	#	_	_	_	_	_	_	_	
+6-2	338-339	P	_	_	_	_	_	_	_	
+6-3	340-343	IMM	_	_	_	_	_	_	_	
+6-4	343-344	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill göra något åt detta på riktigt, och har haft konkreta förslag länge för hur situationen ska kunna lösas.
+7-1	346-348	Vi	*	_	_	_	_	_	_	
+7-2	349-353	vill	_	Source;Target[3]	7-1;7-6	false[3]	3[3]	_	_	
+7-3	354-358	göra	_	Source;Target[3]	7-1;7-6	false[3]	3[3]	_	_	
+7-4	359-364	något	_	Source;Target[3]	7-1;7-6	false[3]	3[3]	_	_	
+7-5	365-367	åt	_	Source;Target[3]	7-1;7-6	false[3]	3[3]	_	_	
+7-6	368-373	detta	*	_	_	_	_	_	_	
+7-7	374-376	på	_	_	_	_	_	_	_	
+7-8	377-384	riktigt	_	_	_	_	_	_	_	
+7-9	384-385	,	_	_	_	_	_	_	_	
+7-10	386-389	och	_	_	_	_	_	_	_	
+7-11	390-393	har	_	_	_	_	_	_	_	
+7-12	394-398	haft	_	_	_	_	_	_	_	
+7-13	399-407	konkreta	_	_	_	_	_	_	_	
+7-14	408-415	förslag	_	_	_	_	_	_	_	
+7-15	416-421	länge	_	_	_	_	_	_	_	
+7-16	422-425	för	_	_	_	_	_	_	_	
+7-17	426-429	hur	_	_	_	_	_	_	_	
+7-18	430-441	situationen	_	_	_	_	_	_	_	
+7-19	442-445	ska	_	_	_	_	_	_	_	
+7-20	446-451	kunna	_	_	_	_	_	_	_	
+7-21	452-457	lösas	_	_	_	_	_	_	_	
+7-22	457-458	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	460-461	#	_	_	_	_	_	_	_	
+8-2	461-462	P	_	_	_	_	_	_	_	
+8-3	463-466	IMM	_	_	_	_	_	_	_	
+8-4	466-467	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	469-472	Det	_	_	_	_	_	_	_	
+9-2	473-476	här	_	_	_	_	_	_	_	
+9-3	477-479	är	_	_	_	_	_	_	_	
+9-4	480-482	en	_	_	_	_	_	_	_	
+9-5	483-497	argumenterande	_	_	_	_	_	_	_	
+9-6	498-502	text	_	_	_	_	_	_	_	
+9-7	503-506	med	_	_	_	_	_	_	_	
+9-8	507-512	syfte	_	_	_	_	_	_	_	
+9-9	513-516	att	_	_	_	_	_	_	_	
+9-10	517-524	påverka	_	_	_	_	_	_	_	
+9-11	524-525	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	526-535	Åsikterna	_	_	_	_	_	_	_	
+10-2	536-539	som	_	_	_	_	_	_	_	
+10-3	540-548	uttrycks	_	_	_	_	_	_	_	
+10-4	549-551	är	_	_	_	_	_	_	_	
+10-5	552-563	skribentens	_	_	_	_	_	_	_	
+10-6	564-568	egna	_	_	_	_	_	_	_	
+10-7	568-569	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	571-572	#	_	_	_	_	_	_	_	
+11-2	572-573	P	_	_	_	_	_	_	_	
+11-3	574-577	IMM	_	_	_	false	1	_	_	
+11-4	577-578	.	_	_	_	_	_	_	_	
+
+#Text=Situationen i landet är ohållbar och riskerar att urarta fullständigt om inte åtgärder för att minska flyktingströmmen till Sverige sätts in snarast.
+12-1	580-591	Situationen	*[17]	_	_	_	_	_	_	
+12-2	592-593	i	*[17]	_	_	_	_	_	_	
+12-3	594-600	landet	*[17]	_	_	_	_	_	_	
+12-4	601-603	är	_	Target[4]	12-1[17]	false[4]	1[4]	_	_	
+12-5	604-612	ohållbar	_	Target[4]	12-1[17]	false[4]	1[4]	_	_	
+12-6	613-616	och	_	_	_	_	_	_	_	
+12-7	617-625	riskerar	_	Target[5]	12-1[17]	false[5]	1[5]	_	_	
+12-8	626-629	att	_	Target[5]	12-1[17]	false[5]	1[5]	_	_	
+12-9	630-636	urarta	_	Target[5]	12-1[17]	false[5]	1[5]	_	_	
+12-10	637-649	fullständigt	_	Target[5]	12-1[17]	false[5]	1[5]	_	_	
+12-11	650-652	om	_	_	_	_	_	_	_	
+12-12	653-657	inte	_	_	_	_	_	_	_	
+12-13	658-666	åtgärder	_	_	_	_	_	_	_	
+12-14	667-670	för	_	_	_	_	_	_	_	
+12-15	671-674	att	_	_	_	_	_	_	_	
+12-16	675-681	minska	_	_	_	_	_	_	_	
+12-17	682-698	flyktingströmmen	_	_	_	_	_	_	_	
+12-18	699-703	till	_	_	_	_	_	_	_	
+12-19	704-711	Sverige	_	_	_	_	_	_	_	
+12-20	712-717	sätts	_	_	_	_	_	_	_	
+12-21	718-720	in	_	_	_	_	_	_	_	
+12-22	721-728	snarast	_	_	_	_	_	_	_	
+12-23	728-729	.	_	_	_	_	_	_	_	
+
+#Text=I måndags höll Moderaterna en presskonferens där de aviserade en kursändring av partiets migrationspolitik.
+13-1	730-731	I	_	_	_	_	_	_	_	
+13-2	732-739	måndags	_	_	_	_	_	_	_	
+13-3	740-744	höll	_	_	_	_	_	_	_	
+13-4	745-756	Moderaterna	_	_	_	_	_	_	_	
+13-5	757-759	en	_	_	_	_	_	_	_	
+13-6	760-774	presskonferens	_	_	_	_	_	_	_	
+13-7	775-778	där	_	_	_	_	_	_	_	
+13-8	779-781	de	_	_	_	_	_	_	_	
+13-9	782-791	aviserade	_	_	_	_	_	_	_	
+13-10	792-794	en	_	_	_	_	_	_	_	
+13-11	795-806	kursändring	_	_	_	_	_	_	_	
+13-12	807-809	av	_	_	_	_	_	_	_	
+13-13	810-818	partiets	_	_	_	_	_	_	_	
+13-14	819-836	migrationspolitik	_	_	_	_	_	_	_	
+13-15	836-837	.	_	_	_	_	_	_	_	
+
+#Text=Vi är positiva till förslagen och utgår ifrån att de tar sin egen utsaga om systemkollaps på allvar och därmed är beredda att verka för förändring.
+14-1	838-840	Vi	*	_	_	_	_	_	_	
+14-2	841-843	är	_	Target;Source[6]	14-5;14-1	false[6]	5[6]	_	_	
+14-3	844-852	positiva	_	Target;Source[6]	14-5;14-1	false[6]	5[6]	_	_	
+14-4	853-857	till	_	Target;Source[6]	14-5;14-1	false[6]	5[6]	_	_	
+14-5	858-867	förslagen	*	_	_	_	_	_	_	
+14-6	868-871	och	_	_	_	_	_	_	_	
+14-7	872-877	utgår	_	_	_	_	_	_	_	
+14-8	878-883	ifrån	_	_	_	_	_	_	_	
+14-9	884-887	att	_	_	_	_	_	_	_	
+14-10	888-890	de	_	_	_	_	_	_	_	
+14-11	891-894	tar	_	_	_	_	_	_	_	
+14-12	895-898	sin	_	_	_	_	_	_	_	
+14-13	899-903	egen	_	_	_	_	_	_	_	
+14-14	904-910	utsaga	_	_	_	_	_	_	_	
+14-15	911-913	om	_	_	_	_	_	_	_	
+14-16	914-927	systemkollaps	*	Target	14-16	false	1	_	_	
+14-17	928-930	på	_	_	_	_	_	_	_	
+14-18	931-937	allvar	_	_	_	_	_	_	_	
+14-19	938-941	och	_	_	_	_	_	_	_	
+14-20	942-948	därmed	_	_	_	_	_	_	_	
+14-21	949-951	är	_	_	_	_	_	_	_	
+14-22	952-959	beredda	_	_	_	_	_	_	_	
+14-23	960-963	att	_	_	_	_	_	_	_	
+14-24	964-969	verka	_	_	_	_	_	_	_	
+14-25	970-973	för	_	_	_	_	_	_	_	
+14-26	974-984	förändring	_	_	_	_	_	_	_	
+14-27	984-985	.	_	_	_	_	_	_	_	
+
+#Text=Dock röstades vårt utskottsinitiativ om gränskontroller ned av just detta parti för bara ett par veckor sedan, och som största regeringsparti drev de under åtta år en extrem politik i motsatt riktning.
+15-1	986-990	Dock	_	_	_	_	_	_	_	
+15-2	991-999	röstades	_	_	_	_	_	_	_	
+15-3	1000-1004	vårt	_	_	_	_	_	_	_	
+15-4	1005-1022	utskottsinitiativ	_	_	_	_	_	_	_	
+15-5	1023-1025	om	_	_	_	_	_	_	_	
+15-6	1026-1041	gränskontroller	_	_	_	_	_	_	_	
+15-7	1042-1045	ned	_	_	_	_	_	_	_	
+15-8	1046-1048	av	_	_	_	_	_	_	_	
+15-9	1049-1053	just	_	_	_	_	_	_	_	
+15-10	1054-1059	detta	_	_	_	_	_	_	_	
+15-11	1060-1065	parti	_	_	_	_	_	_	_	
+15-12	1066-1069	för	_	_	_	_	_	_	_	
+15-13	1070-1074	bara	_	_	_	_	_	_	_	
+15-14	1075-1078	ett	_	_	_	_	_	_	_	
+15-15	1079-1082	par	_	_	_	_	_	_	_	
+15-16	1083-1089	veckor	_	_	_	_	_	_	_	
+15-17	1090-1095	sedan	_	_	_	_	_	_	_	
+15-18	1095-1096	,	_	_	_	_	_	_	_	
+15-19	1097-1100	och	_	_	_	_	_	_	_	
+15-20	1101-1104	som	_	_	_	_	_	_	_	
+15-21	1105-1112	största	_	_	_	_	_	_	_	
+15-22	1113-1127	regeringsparti	_	_	_	_	_	_	_	
+15-23	1128-1132	drev	_	_	_	_	_	_	_	
+15-24	1133-1135	de	_	_	_	_	_	_	_	
+15-25	1136-1141	under	_	_	_	_	_	_	_	
+15-26	1142-1146	åtta	_	_	_	_	_	_	_	
+15-27	1147-1149	år	_	_	_	_	_	_	_	
+15-28	1150-1152	en	*[18]	Target[7]	15-28[18]	false[7]	1[7]	_	_	
+15-29	1153-1159	extrem	*[18]	Target[7]	15-28[18]	false[7]	1[7]	_	_	
+15-30	1160-1167	politik	*[18]	Target[7]	15-28[18]	false[7]	1[7]	_	_	
+15-31	1168-1169	i	_	_	_	_	_	_	_	
+15-32	1170-1177	motsatt	_	_	_	_	_	_	_	
+15-33	1178-1186	riktning	_	_	_	_	_	_	_	
+15-34	1186-1187	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1189-1190	#	_	_	_	_	_	_	_	
+16-2	1190-1191	P	_	_	_	_	_	_	_	
+16-3	1192-1195	IMM	_	_	_	false	3	_	_	
+16-4	1195-1196	.	_	_	_	_	_	_	_	
+
+#Text=**Under tisdagen **denna vecka valde Moderaterna att inte rösta emot regeringens migrationspolitik i EU-nämnden.
+17-1	1198-1199	*	_	_	_	_	_	_	_	
+17-2	1199-1200	*	_	_	_	_	_	_	_	
+17-3	1200-1205	Under	_	_	_	_	_	_	_	
+17-4	1206-1214	tisdagen	_	_	_	_	_	_	_	
+17-5	1215-1216	*	_	_	_	_	_	_	_	
+17-6	1216-1217	*	_	_	_	_	_	_	_	
+17-7	1217-1222	denna	_	_	_	_	_	_	_	
+17-8	1223-1228	vecka	_	_	_	_	_	_	_	
+17-9	1229-1234	valde	_	_	_	_	_	_	_	
+17-10	1235-1246	Moderaterna	_	_	_	_	_	_	_	
+17-11	1247-1250	att	_	_	_	_	_	_	_	
+17-12	1251-1255	inte	_	_	_	_	_	_	_	
+17-13	1256-1261	rösta	_	_	_	_	_	_	_	
+17-14	1262-1266	emot	_	_	_	_	_	_	_	
+17-15	1267-1278	regeringens	_	_	_	_	_	_	_	
+17-16	1279-1296	migrationspolitik	_	_	_	_	_	_	_	
+17-17	1297-1298	i	_	_	_	_	_	_	_	
+17-18	1299-1309	EU-nämnden	_	_	_	_	_	_	_	
+17-19	1309-1310	.	_	_	_	_	_	_	_	
+
+#Text=Därmed släppte Moderaterna igenom regeringens linje på migrationsområdet.
+18-1	1311-1317	Därmed	_	_	_	_	_	_	_	
+18-2	1318-1325	släppte	_	_	_	_	_	_	_	
+18-3	1326-1337	Moderaterna	_	_	_	_	_	_	_	
+18-4	1338-1344	igenom	_	_	_	_	_	_	_	
+18-5	1345-1356	regeringens	_	_	_	_	_	_	_	
+18-6	1357-1362	linje	_	_	_	_	_	_	_	
+18-7	1363-1365	på	_	_	_	_	_	_	_	
+18-8	1366-1383	migrationsområdet	_	_	_	_	_	_	_	
+18-9	1383-1384	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom vill Moderaterna ha en obligatorisk och permanent migrationspolitik på EU-nivå, som sett till resultatet av den tillfälliga omfördelningen inom unionen, kommer att öka asyltrycket på Sverige ännu mer, i och med att makten flyttas från svenska folket till Bryssel.
+19-1	1385-1393	Dessutom	_	_	_	_	_	_	_	
+19-2	1394-1398	vill	_	_	_	false	3	_	_	
+19-3	1399-1410	Moderaterna	*	_	_	_	_	_	_	
+19-4	1411-1413	ha	_	Source;Target	19-3;19-5[19]	false	3	19-2	_	
+19-5	1414-1416	en	*[19]	_	_	_	_	_	_	
+19-6	1417-1429	obligatorisk	*[19]	_	_	_	_	_	_	
+19-7	1430-1433	och	*[19]	_	_	_	_	_	_	
+19-8	1434-1443	permanent	*[19]	_	_	_	_	_	_	
+19-9	1444-1461	migrationspolitik	*[19]	_	_	_	_	_	_	
+19-10	1462-1464	på	*[19]	_	_	_	_	_	_	
+19-11	1465-1472	EU-nivå	*[19]	_	_	_	_	_	_	
+19-12	1472-1473	,	_	_	_	_	_	_	_	
+19-13	1474-1477	som	_	_	_	_	_	_	_	
+19-14	1478-1482	sett	_	_	_	_	_	_	_	
+19-15	1483-1487	till	_	_	_	_	_	_	_	
+19-16	1488-1498	resultatet	_	_	_	_	_	_	_	
+19-17	1499-1501	av	_	_	_	_	_	_	_	
+19-18	1502-1505	den	_	_	_	_	_	_	_	
+19-19	1506-1517	tillfälliga	_	_	_	_	_	_	_	
+19-20	1518-1532	omfördelningen	_	_	_	_	_	_	_	
+19-21	1533-1537	inom	_	_	_	_	_	_	_	
+19-22	1538-1545	unionen	_	_	_	_	_	_	_	
+19-23	1545-1546	,	_	_	_	_	_	_	_	
+19-24	1547-1553	kommer	_	_	_	_	_	_	_	
+19-25	1554-1557	att	_	_	_	_	_	_	_	
+19-26	1558-1561	öka	_	_	_	_	_	_	_	
+19-27	1562-1573	asyltrycket	*	Target	19-27	false	2	_	_	
+19-28	1574-1576	på	_	_	_	_	_	_	_	
+19-29	1577-1584	Sverige	_	_	_	_	_	_	_	
+19-30	1585-1589	ännu	_	_	_	_	_	_	_	
+19-31	1590-1593	mer	_	_	_	_	_	_	_	
+19-32	1593-1594	,	_	_	_	_	_	_	_	
+19-33	1595-1596	i	_	_	_	_	_	_	_	
+19-34	1597-1600	och	_	_	_	_	_	_	_	
+19-35	1601-1604	med	_	_	_	_	_	_	_	
+19-36	1605-1608	att	_	_	_	_	_	_	_	
+19-37	1609-1615	makten	_	_	_	_	_	_	_	
+19-38	1616-1623	flyttas	_	_	_	_	_	_	_	
+19-39	1624-1628	från	_	_	_	_	_	_	_	
+19-40	1629-1636	svenska	_	_	_	_	_	_	_	
+19-41	1637-1643	folket	_	_	_	_	_	_	_	
+19-42	1644-1648	till	_	_	_	_	_	_	_	
+19-43	1649-1656	Bryssel	_	_	_	_	_	_	_	
+19-44	1656-1657	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1659-1660	#	_	_	_	_	_	_	_	
+20-2	1660-1661	P	_	_	_	_	_	_	_	
+20-3	1662-1665	IMM	_	_	_	_	_	_	_	
+20-4	1665-1666	.	_	_	_	_	_	_	_	
+
+#Text=Moderaterna har tidigare dessutom lagt fram förslag som låtit ganska restriktiva, i och med migrationsöverenskommelsen, men sedan fyllt dessa med undantag som gjort dem verkningslösa.
+21-1	1668-1679	Moderaterna	_	_	_	_	_	_	_	
+21-2	1680-1683	har	_	_	_	_	_	_	_	
+21-3	1684-1692	tidigare	_	_	_	_	_	_	_	
+21-4	1693-1701	dessutom	_	_	_	_	_	_	_	
+21-5	1702-1706	lagt	_	_	_	_	_	_	_	
+21-6	1707-1711	fram	_	_	_	_	_	_	_	
+21-7	1712-1719	förslag	*[20]	_	_	_	_	_	_	
+21-8	1720-1723	som	*[20]	_	_	_	_	_	_	
+21-9	1724-1729	låtit	*[20]	_	_	_	_	_	_	
+21-10	1730-1736	ganska	*[20]	_	_	_	_	_	_	
+21-11	1737-1748	restriktiva	*[20]	_	_	_	_	_	_	
+21-12	1748-1749	,	_	_	_	_	_	_	_	
+21-13	1750-1751	i	_	_	_	_	_	_	_	
+21-14	1752-1755	och	_	_	_	_	_	_	_	
+21-15	1756-1759	med	_	_	_	_	_	_	_	
+21-16	1760-1786	migrationsöverenskommelsen	_	_	_	_	_	_	_	
+21-17	1786-1787	,	_	_	_	_	_	_	_	
+21-18	1788-1791	men	_	_	_	_	_	_	_	
+21-19	1792-1797	sedan	_	_	_	_	_	_	_	
+21-20	1798-1803	fyllt	_	_	_	_	_	_	_	
+21-21	1804-1809	dessa	_	_	_	_	_	_	_	
+21-22	1810-1813	med	_	_	_	_	_	_	_	
+21-23	1814-1822	undantag	_	_	_	_	_	_	_	
+21-24	1823-1826	som	_	_	_	_	_	_	_	
+21-25	1827-1832	gjort	_	_	_	_	_	_	_	
+21-26	1833-1836	dem	_	_	_	_	_	_	_	
+21-27	1837-1850	verkningslösa	_	Target	21-7[20]	false	3	_	_	
+21-28	1850-1851	.	_	_	_	_	_	_	_	
+
+#Text=Det återstår därför att se om ord verkligen kommer att leda till handling i detta fall.
+22-1	1852-1855	Det	_	_	_	_	_	_	_	
+22-2	1856-1864	återstår	_	_	_	_	_	_	_	
+22-3	1865-1871	därför	_	_	_	_	_	_	_	
+22-4	1872-1875	att	_	_	_	_	_	_	_	
+22-5	1876-1878	se	_	_	_	_	_	_	_	
+22-6	1879-1881	om	_	_	_	_	_	_	_	
+22-7	1882-1885	ord	_	_	_	_	_	_	_	
+22-8	1886-1895	verkligen	_	_	_	_	_	_	_	
+22-9	1896-1902	kommer	_	_	_	_	_	_	_	
+22-10	1903-1906	att	_	_	_	_	_	_	_	
+22-11	1907-1911	leda	_	_	_	_	_	_	_	
+22-12	1912-1916	till	_	_	_	_	_	_	_	
+22-13	1917-1925	handling	_	_	_	_	_	_	_	
+22-14	1926-1927	i	_	_	_	_	_	_	_	
+22-15	1928-1933	detta	_	_	_	_	_	_	_	
+22-16	1934-1938	fall	_	_	_	_	_	_	_	
+22-17	1938-1939	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1941-1942	#	_	_	_	_	_	_	_	
+23-2	1942-1943	P	_	_	_	_	_	_	_	
+23-3	1944-1947	IMM	_	_	_	false	2	_	_	
+23-4	1947-1948	.	_	_	_	_	_	_	_	
+
+#Text=I den politiska debatten har det flitigt påpekats att läget är under kontroll och att vi har gjort det förr, med hänvisning till Balkankriget och det år där Sverige totalt tog emot 79 000 asylsökande.
+24-1	1950-1951	I	_	_	_	_	_	_	_	
+24-2	1952-1955	den	_	_	_	_	_	_	_	
+24-3	1956-1965	politiska	_	_	_	_	_	_	_	
+24-4	1966-1974	debatten	_	_	_	_	_	_	_	
+24-5	1975-1978	har	_	_	_	_	_	_	_	
+24-6	1979-1982	det	_	_	_	_	_	_	_	
+24-7	1983-1990	flitigt	_	_	_	_	_	_	_	
+24-8	1991-1999	påpekats	_	_	_	_	_	_	_	
+24-9	2000-2003	att	_	_	_	_	_	_	_	
+24-10	2004-2009	läget	_	_	_	_	_	_	_	
+24-11	2010-2012	är	_	_	_	_	_	_	_	
+24-12	2013-2018	under	_	_	_	_	_	_	_	
+24-13	2019-2027	kontroll	_	_	_	_	_	_	_	
+24-14	2028-2031	och	_	_	_	_	_	_	_	
+24-15	2032-2035	att	_	_	_	_	_	_	_	
+24-16	2036-2038	vi	_	_	_	_	_	_	_	
+24-17	2039-2042	har	_	_	_	_	_	_	_	
+24-18	2043-2048	gjort	_	_	_	_	_	_	_	
+24-19	2049-2052	det	_	_	_	_	_	_	_	
+24-20	2053-2057	förr	_	_	_	_	_	_	_	
+24-21	2057-2058	,	_	_	_	_	_	_	_	
+24-22	2059-2062	med	_	_	_	_	_	_	_	
+24-23	2063-2073	hänvisning	_	_	_	_	_	_	_	
+24-24	2074-2078	till	_	_	_	_	_	_	_	
+24-25	2079-2091	Balkankriget	_	_	_	_	_	_	_	
+24-26	2092-2095	och	_	_	_	_	_	_	_	
+24-27	2096-2099	det	_	_	_	_	_	_	_	
+24-28	2100-2102	år	_	_	_	_	_	_	_	
+24-29	2103-2106	där	_	_	_	_	_	_	_	
+24-30	2107-2114	Sverige	_	_	_	_	_	_	_	
+24-31	2115-2121	totalt	_	_	_	_	_	_	_	
+24-32	2122-2125	tog	_	_	_	_	_	_	_	
+24-33	2126-2130	emot	_	_	_	_	_	_	_	
+24-34	2131-2133	79	_	_	_	_	_	_	_	
+24-35	2134-2137	000	_	_	_	_	_	_	_	
+24-36	2138-2149	asylsökande	_	_	_	_	_	_	_	
+24-37	2149-2150	.	_	_	_	_	_	_	_	
+
+#Text=För varje påståenden som kommuniceras ut, som inte är i linje med rådande samhällsutvecklingen, kommer vi allt längre ifrån den politiska kursändring som behövs för att på riktigt ta i tu med de samhällsutmaningar vi står inför.
+25-1	2151-2154	För	_	_	_	_	_	_	_	
+25-2	2155-2160	varje	_	_	_	_	_	_	_	
+25-3	2161-2171	påståenden	_	_	_	_	_	_	_	
+25-4	2172-2175	som	_	_	_	_	_	_	_	
+25-5	2176-2188	kommuniceras	_	_	_	_	_	_	_	
+25-6	2189-2191	ut	_	_	_	_	_	_	_	
+25-7	2191-2192	,	_	_	_	_	_	_	_	
+25-8	2193-2196	som	_	_	_	_	_	_	_	
+25-9	2197-2201	inte	_	_	_	_	_	_	_	
+25-10	2202-2204	är	_	_	_	_	_	_	_	
+25-11	2205-2206	i	_	_	_	_	_	_	_	
+25-12	2207-2212	linje	_	_	_	_	_	_	_	
+25-13	2213-2216	med	_	_	_	_	_	_	_	
+25-14	2217-2224	rådande	_	_	_	_	_	_	_	
+25-15	2225-2245	samhällsutvecklingen	_	_	_	_	_	_	_	
+25-16	2245-2246	,	_	_	_	_	_	_	_	
+25-17	2247-2253	kommer	_	_	_	_	_	_	_	
+25-18	2254-2256	vi	_	_	_	_	_	_	_	
+25-19	2257-2261	allt	_	_	_	_	_	_	_	
+25-20	2262-2268	längre	_	_	_	_	_	_	_	
+25-21	2269-2274	ifrån	_	_	_	_	_	_	_	
+25-22	2275-2278	den	*[21]	_	_	_	_	_	_	
+25-23	2279-2288	politiska	*[21]	_	_	_	_	_	_	
+25-24	2289-2300	kursändring	*[21]	_	_	_	_	_	_	
+25-25	2301-2304	som	_	_	_	_	_	_	_	
+25-26	2305-2311	behövs	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-27	2312-2315	för	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-28	2316-2319	att	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-29	2320-2322	på	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-30	2323-2330	riktigt	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-31	2331-2333	ta	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-32	2334-2335	i	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-33	2336-2338	tu	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-34	2339-2342	med	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-35	2343-2345	de	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-36	2346-2364	samhällsutmaningar	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-37	2365-2367	vi	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-38	2368-2372	står	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-39	2373-2378	inför	_	Target[8]	25-22[21]	false[8]	3[8]	_	_	
+25-40	2378-2379	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2381-2382	#	_	_	_	_	_	_	_	
+26-2	2382-2383	P	_	_	_	_	_	_	_	
+26-3	2384-2387	IMM	_	_	_	false	2	_	_	
+26-4	2387-2388	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket har flaggat för att man är i behov av ytterligare 142 miljarder kronor för de kommande fyra åren, utöver det redan budgeterade anslaget om 170 miljarder kronor för integration och migration.
+27-1	2390-2406	Migrationsverket	_	_	_	_	_	_	_	
+27-2	2407-2410	har	_	_	_	_	_	_	_	
+27-3	2411-2418	flaggat	_	_	_	_	_	_	_	
+27-4	2419-2422	för	_	_	_	_	_	_	_	
+27-5	2423-2426	att	_	_	_	_	_	_	_	
+27-6	2427-2430	man	_	_	_	_	_	_	_	
+27-7	2431-2433	är	_	_	_	_	_	_	_	
+27-8	2434-2435	i	_	_	_	_	_	_	_	
+27-9	2436-2441	behov	_	_	_	_	_	_	_	
+27-10	2442-2444	av	_	_	_	_	_	_	_	
+27-11	2445-2456	ytterligare	_	_	_	_	_	_	_	
+27-12	2457-2460	142	_	_	_	_	_	_	_	
+27-13	2461-2470	miljarder	_	_	_	_	_	_	_	
+27-14	2471-2477	kronor	_	_	_	_	_	_	_	
+27-15	2478-2481	för	_	_	_	_	_	_	_	
+27-16	2482-2484	de	_	_	_	_	_	_	_	
+27-17	2485-2493	kommande	_	_	_	_	_	_	_	
+27-18	2494-2498	fyra	_	_	_	_	_	_	_	
+27-19	2499-2503	åren	_	_	_	_	_	_	_	
+27-20	2503-2504	,	_	_	_	_	_	_	_	
+27-21	2505-2511	utöver	_	_	_	_	_	_	_	
+27-22	2512-2515	det	_	_	_	_	_	_	_	
+27-23	2516-2521	redan	_	_	_	_	_	_	_	
+27-24	2522-2533	budgeterade	_	_	_	_	_	_	_	
+27-25	2534-2542	anslaget	_	_	_	_	_	_	_	
+27-26	2543-2545	om	_	_	_	_	_	_	_	
+27-27	2546-2549	170	_	_	_	_	_	_	_	
+27-28	2550-2559	miljarder	_	_	_	_	_	_	_	
+27-29	2560-2566	kronor	_	_	_	_	_	_	_	
+27-30	2567-2570	för	_	_	_	_	_	_	_	
+27-31	2571-2582	integration	_	_	_	_	_	_	_	
+27-32	2583-2586	och	_	_	_	_	_	_	_	
+27-33	2587-2596	migration	_	_	_	_	_	_	_	
+27-34	2596-2597	.	_	_	_	_	_	_	_	
+
+#Text=Genom bland annat avskrivningar av biståndet kommer regeringen att, för varje asylsökande i Sverige, tvingas till besparingar som skulle ha gått till att hjälpa flyktingar i och omkring de säkra zoner som finns i krisdrabbade länders närområden.
+28-1	2598-2603	Genom	_	_	_	_	_	_	_	
+28-2	2604-2609	bland	_	_	_	_	_	_	_	
+28-3	2610-2615	annat	_	_	_	_	_	_	_	
+28-4	2616-2629	avskrivningar	_	_	_	_	_	_	_	
+28-5	2630-2632	av	_	_	_	_	_	_	_	
+28-6	2633-2642	biståndet	_	_	_	_	_	_	_	
+28-7	2643-2649	kommer	_	_	_	_	_	_	_	
+28-8	2650-2660	regeringen	_	_	_	_	_	_	_	
+28-9	2661-2664	att	_	_	_	_	_	_	_	
+28-10	2664-2665	,	_	_	_	_	_	_	_	
+28-11	2666-2669	för	_	_	_	_	_	_	_	
+28-12	2670-2675	varje	_	_	_	_	_	_	_	
+28-13	2676-2687	asylsökande	_	_	_	_	_	_	_	
+28-14	2688-2689	i	_	_	_	_	_	_	_	
+28-15	2690-2697	Sverige	_	_	_	_	_	_	_	
+28-16	2697-2698	,	_	_	_	_	_	_	_	
+28-17	2699-2706	tvingas	_	_	_	_	_	_	_	
+28-18	2707-2711	till	_	_	_	_	_	_	_	
+28-19	2712-2723	besparingar	_	_	_	_	_	_	_	
+28-20	2724-2727	som	_	_	_	_	_	_	_	
+28-21	2728-2734	skulle	_	_	_	_	_	_	_	
+28-22	2735-2737	ha	_	_	_	_	_	_	_	
+28-23	2738-2742	gått	_	_	_	_	_	_	_	
+28-24	2743-2747	till	_	_	_	_	_	_	_	
+28-25	2748-2751	att	_	_	_	_	_	_	_	
+28-26	2752-2758	hjälpa	_	Target	28-27[22]	false	5	_	_	
+28-27	2759-2769	flyktingar	*[22]	_	_	_	_	_	_	
+28-28	2770-2771	i	*[22]	_	_	_	_	_	_	
+28-29	2772-2775	och	*[22]	_	_	_	_	_	_	
+28-30	2776-2783	omkring	*[22]	_	_	_	_	_	_	
+28-31	2784-2786	de	*[22]	_	_	_	_	_	_	
+28-32	2787-2792	säkra	*[22]|*[23]	Target[9]	28-32[23]	false[9]	4[9]	_	_	
+28-33	2793-2798	zoner	*[22]|*[23]	Target[9]	28-32[23]	false[9]	4[9]	_	_	
+28-34	2799-2802	som	*[22]	_	_	_	_	_	_	
+28-35	2803-2808	finns	*[22]	_	_	_	_	_	_	
+28-36	2809-2810	i	*[22]	_	_	_	_	_	_	
+28-37	2811-2823	krisdrabbade	*[22]	_	_	_	_	_	_	
+28-38	2824-2831	länders	*[22]	_	_	_	_	_	_	
+28-39	2832-2842	närområden	*[22]	_	_	_	_	_	_	
+28-40	2842-2843	.	_	_	_	_	_	_	_	
+
+#Text=En politisk prioritering som resulterat i att 360 000 människor nu känner att de behöver lämna flyktingläger, då det saknas resurser i form av mat, rent vatten, medicin, tak över huvudet och så vidare.
+29-1	2844-2846	En	_	_	_	_	_	_	_	
+29-2	2847-2855	politisk	_	_	_	_	_	_	_	
+29-3	2856-2868	prioritering	_	_	_	_	_	_	_	
+29-4	2869-2872	som	_	_	_	_	_	_	_	
+29-5	2873-2883	resulterat	_	_	_	_	_	_	_	
+29-6	2884-2885	i	_	_	_	_	_	_	_	
+29-7	2886-2889	att	_	_	_	_	_	_	_	
+29-8	2890-2893	360	*[24]	_	_	_	_	_	_	
+29-9	2894-2897	000	*[24]	_	_	_	_	_	_	
+29-10	2898-2907	människor	*[24]	_	_	_	_	_	_	
+29-11	2908-2910	nu	_	_	_	_	_	_	_	
+29-12	2911-2917	känner	_	Target;Source[10]	29-16[25];29-8[24]	false[10]	3[10]	_	_	
+29-13	2918-2921	att	_	Target;Source[10]	29-16[25];29-8[24]	false[10]	3[10]	_	_	
+29-14	2922-2924	de	_	Target;Source[10]	29-16[25];29-8[24]	false[10]	3[10]	_	_	
+29-15	2925-2932	behöver	_	Target;Source[10]	29-16[25];29-8[24]	false[10]	3[10]	_	_	
+29-16	2933-2938	lämna	*[25]	_	_	_	_	_	_	
+29-17	2939-2952	flyktingläger	*[25]	_	_	_	_	_	_	
+29-18	2952-2953	,	_	_	_	_	_	_	_	
+29-19	2954-2956	då	_	_	_	_	_	_	_	
+29-20	2957-2960	det	_	_	_	_	_	_	_	
+29-21	2961-2967	saknas	_	_	_	_	_	_	_	
+29-22	2968-2976	resurser	_	_	_	_	_	_	_	
+29-23	2977-2978	i	_	_	_	_	_	_	_	
+29-24	2979-2983	form	_	_	_	_	_	_	_	
+29-25	2984-2986	av	_	_	_	_	_	_	_	
+29-26	2987-2990	mat	_	_	_	_	_	_	_	
+29-27	2990-2991	,	_	_	_	_	_	_	_	
+29-28	2992-2996	rent	_	_	_	_	_	_	_	
+29-29	2997-3003	vatten	_	_	_	_	_	_	_	
+29-30	3003-3004	,	_	_	_	_	_	_	_	
+29-31	3005-3012	medicin	_	_	_	_	_	_	_	
+29-32	3012-3013	,	_	_	_	_	_	_	_	
+29-33	3014-3017	tak	_	_	_	_	_	_	_	
+29-34	3018-3022	över	_	_	_	_	_	_	_	
+29-35	3023-3030	huvudet	_	_	_	_	_	_	_	
+29-36	3031-3034	och	_	_	_	_	_	_	_	
+29-37	3035-3037	så	_	_	_	_	_	_	_	
+29-38	3038-3044	vidare	_	_	_	_	_	_	_	
+29-39	3044-3045	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	3047-3048	#	_	_	_	_	_	_	_	
+30-2	3048-3049	P	_	_	_	_	_	_	_	
+30-3	3050-3053	IMM	_	_	_	_	_	_	_	
+30-4	3053-3054	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+31-1	3056-3069	Skräddarsydda	_	_	_	_	_	_	_	
+31-2	3070-3076	kurser	_	_	_	_	_	_	_	
+31-3	3077-3078	i	_	_	_	_	_	_	_	
+31-4	3079-3084	ämnen	_	_	_	_	_	_	_	
+31-5	3085-3088	som	_	_	_	_	_	_	_	
+31-6	3089-3100	intresserar	_	_	_	_	_	_	_	
+31-7	3101-3104	och	_	_	_	_	_	_	_	
+31-8	3105-3114	engagerar	_	_	_	_	_	_	_	
+31-9	3115-3119	både	_	_	_	_	_	_	_	
+31-10	3120-3125	kropp	_	_	_	_	_	_	_	
+31-11	3126-3129	och	_	_	_	_	_	_	_	
+31-12	3130-3134	själ	_	_	_	_	_	_	_	
+31-13	3134-3135	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	3137-3138	#	_	_	_	_	_	_	_	
+32-2	3138-3139	P	_	_	_	_	_	_	_	
+32-3	3140-3143	IMM	_	_	_	false	1	_	_	
+32-4	3143-3144	.	_	_	_	_	_	_	_	
+
+#Text=**Det är naturligtvis **välkommet att man nu erkänner att situationen är ohållbar och att en rad åtgärder behöver genomföras.
+33-1	3146-3147	*	_	_	_	_	_	_	_	
+33-2	3147-3148	*	_	_	_	_	_	_	_	
+33-3	3148-3151	Det	_	_[11]	_	false[11]	4[11]	_	_	
+33-4	3152-3154	är	_	_[11]	_	false[11]	4[11]	_	_	
+33-5	3155-3167	naturligtvis	_	_	_	_	_	_	_	
+33-6	3168-3169	*	_	_	_	_	_	_	_	
+33-7	3169-3170	*	_	_	_	_	_	_	_	
+33-8	3170-3179	välkommet	_	Target	33-9[26]	false	4	33-3[11_0]	_	
+33-9	3180-3183	att	*[26]	_	_	_	_	_	_	
+33-10	3184-3187	man	*[26]	_	_	_	_	_	_	
+33-11	3188-3190	nu	*[26]	_	_	_	_	_	_	
+33-12	3191-3199	erkänner	*[26]	_	_	_	_	_	_	
+33-13	3200-3203	att	*[26]	_	_	_	_	_	_	
+33-14	3204-3215	situationen	*[26]	_	_	_	_	_	_	
+33-15	3216-3218	är	*[26]	_	_	_	_	_	_	
+33-16	3219-3227	ohållbar	*[26]	_	_	_	_	_	_	
+33-17	3228-3231	och	_	_	_	_	_	_	_	
+33-18	3232-3235	att	_	_	_	_	_	_	_	
+33-19	3236-3238	en	_	_	_	_	_	_	_	
+33-20	3239-3242	rad	_	_	_	_	_	_	_	
+33-21	3243-3251	åtgärder	_	_	_	_	_	_	_	
+33-22	3252-3259	behöver	_	_	_	_	_	_	_	
+33-23	3260-3270	genomföras	_	_	_	_	_	_	_	
+33-24	3270-3271	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill göra något åt detta på riktigt, och har haft konkreta förslag länge för hur situationen ska kunna lösas.
+34-1	3272-3274	Vi	*	_	_	_	_	_	_	
+34-2	3275-3279	vill	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-3	3280-3284	göra	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-4	3285-3290	något	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-5	3291-3293	åt	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-6	3294-3299	detta	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-7	3300-3302	på	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-8	3303-3310	riktigt	*[27]	Source;Target[12]	34-1;34-2[27]	false[12]	3[12]	_	_	
+34-9	3310-3311	,	_	_	_	_	_	_	_	
+34-10	3312-3315	och	_	_	_	_	_	_	_	
+34-11	3316-3319	har	_	_	_	_	_	_	_	
+34-12	3320-3324	haft	_	_	_	_	_	_	_	
+34-13	3325-3333	konkreta	_	_	_	_	_	_	_	
+34-14	3334-3341	förslag	_	_	_	_	_	_	_	
+34-15	3342-3347	länge	_	_	_	_	_	_	_	
+34-16	3348-3351	för	_	_	_	_	_	_	_	
+34-17	3352-3355	hur	_	_	_	_	_	_	_	
+34-18	3356-3367	situationen	_	_	_	_	_	_	_	
+34-19	3368-3371	ska	_	_	_	_	_	_	_	
+34-20	3372-3377	kunna	_	_	_	_	_	_	_	
+34-21	3378-3383	lösas	_	_	_	_	_	_	_	
+34-22	3383-3384	.	_	_	_	_	_	_	_	
+
+#Text=Det är bra att Moderaterna nu anammat Sverigedemokraternas riktning i migrationsfrågan.
+35-1	3385-3388	Det	_	Target[13]	35-5[28]	false[13]	4[13]	_	_	
+35-2	3389-3391	är	_	Target[13]	35-5[28]	false[13]	4[13]	_	_	
+35-3	3392-3395	bra	_	Target[13]	35-5[28]	false[13]	4[13]	_	_	
+35-4	3396-3399	att	_	Target[13]	35-5[28]	false[13]	4[13]	_	_	
+35-5	3400-3411	Moderaterna	*[28]	_	_	_	_	_	_	
+35-6	3412-3414	nu	*[28]	_	_	_	_	_	_	
+35-7	3415-3422	anammat	*[28]	_	_	_	_	_	_	
+35-8	3423-3443	Sverigedemokraternas	*[28]	_	_	_	_	_	_	
+35-9	3444-3452	riktning	*[28]	_	_	_	_	_	_	
+35-10	3453-3454	i	*[28]	_	_	_	_	_	_	
+35-11	3455-3471	migrationsfrågan	*[28]	_	_	_	_	_	_	
+35-12	3471-3472	.	_	_	_	_	_	_	_	
+
+#Text=Vi välkomnar att det nu finns ytterligare ett parti som erkänner stundande systemkollaps.
+36-1	3473-3475	Vi	*	_	_	_	_	_	_	
+36-2	3476-3485	välkomnar	_	Source;Target	36-1;36-3[29]	false	4	_	_	
+36-3	3486-3489	att	*[29]	_	_	_	_	_	_	
+36-4	3490-3493	det	*[29]	_	_	_	_	_	_	
+36-5	3494-3496	nu	*[29]	_	_	_	_	_	_	
+36-6	3497-3502	finns	*[29]	_	_	_	_	_	_	
+36-7	3503-3514	ytterligare	*[29]	_	_	_	_	_	_	
+36-8	3515-3518	ett	*[29]	_	_	_	_	_	_	
+36-9	3519-3524	parti	*[29]	_	_	_	_	_	_	
+36-10	3525-3528	som	*[29]	_	_	_	_	_	_	
+36-11	3529-3537	erkänner	*[29]	_	_	_	_	_	_	
+36-12	3538-3547	stundande	*[29]	_	_	_	_	_	_	
+36-13	3548-3561	systemkollaps	*[29]	_	_	_	_	_	_	
+36-14	3561-3562	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3564-3565	#	_	_	_	_	_	_	_	
+37-2	3565-3566	P	_	_	_	_	_	_	_	
+37-3	3567-3570	IMM	_	_	_	false	2	_	_	
+37-4	3570-3571	.	_	_	_	_	_	_	_	
+
+#Text=Att andra partier nu väljer att kopiera Sverigedemokraternas förslag gällande migrationspolitiken visar att vi har haft rätt och att den analys vi gjort av läget har varit i överensstämmelse med verkligheten.
+38-1	3573-3576	Att	_	_	_	_	_	_	_	
+38-2	3577-3582	andra	_	_	_	_	_	_	_	
+38-3	3583-3590	partier	_	_	_	_	_	_	_	
+38-4	3591-3593	nu	_	_	_	_	_	_	_	
+38-5	3594-3600	väljer	_	_	_	_	_	_	_	
+38-6	3601-3604	att	_	_	_	_	_	_	_	
+38-7	3605-3612	kopiera	_	_	_	_	_	_	_	
+38-8	3613-3633	Sverigedemokraternas	_	_	_	_	_	_	_	
+38-9	3634-3641	förslag	_	_	_	_	_	_	_	
+38-10	3642-3650	gällande	_	_	_	_	_	_	_	
+38-11	3651-3670	migrationspolitiken	_	_	_	_	_	_	_	
+38-12	3671-3676	visar	_	_	_	_	_	_	_	
+38-13	3677-3680	att	_	_	_	_	_	_	_	
+38-14	3681-3683	vi	*	_	_	_	_	_	_	
+38-15	3684-3687	har	*[30]	Target;Source[14]	38-15[30];38-14	false[14]	3[14]	_	_	
+38-16	3688-3692	haft	*[30]	Target;Source[14]	38-15[30];38-14	false[14]	3[14]	_	_	
+38-17	3693-3697	rätt	*[30]	Target;Source[14]	38-15[30];38-14	false[14]	3[14]	_	_	
+38-18	3698-3701	och	_	_	_	_	_	_	_	
+38-19	3702-3705	att	_	_	_	_	_	_	_	
+38-20	3706-3709	den	_	_	_	_	_	_	_	
+38-21	3710-3716	analys	_	_	_	_	_	_	_	
+38-22	3717-3719	vi	_	_	_	_	_	_	_	
+38-23	3720-3725	gjort	_	_	_	_	_	_	_	
+38-24	3726-3728	av	_	_	_	_	_	_	_	
+38-25	3729-3734	läget	_	_	_	_	_	_	_	
+38-26	3735-3738	har	_	_	_	_	_	_	_	
+38-27	3739-3744	varit	_	_	_	_	_	_	_	
+38-28	3745-3746	i	_	_	_	_	_	_	_	
+38-29	3747-3763	överensstämmelse	_	_	_	_	_	_	_	
+38-30	3764-3767	med	_	_	_	_	_	_	_	
+38-31	3768-3780	verkligheten	_	_	_	_	_	_	_	
+38-32	3780-3781	.	_	_	_	_	_	_	_	
+
+#Text=Om Anna Kinberg Batra menar allvar med förslagen om en mer ansvarsfull migrationspolitik, borde hon vara beredd att öka pressen på sina allianskollegor, samt deklarera att hon om nödvändigt är beredd att fälla regeringen tillsammans med Sverigedemokraterna.
+39-1	3782-3784	Om	_	_	_	_	_	_	_	
+39-2	3785-3789	Anna	*[31]	_	_	_	_	_	_	
+39-3	3790-3797	Kinberg	*[31]	_	_	_	_	_	_	
+39-4	3798-3803	Batra	*[31]	_	_	_	_	_	_	
+39-5	3804-3809	menar	_	_	_	_	_	_	_	
+39-6	3810-3816	allvar	_	_	_	_	_	_	_	
+39-7	3817-3820	med	_	_	_	_	_	_	_	
+39-8	3821-3830	förslagen	_	_	_	_	_	_	_	
+39-9	3831-3833	om	_	_	_	_	_	_	_	
+39-10	3834-3836	en	_	Target;Source[15]	39-13;39-2[31]	false[15]	4[15]	_	_	
+39-11	3837-3840	mer	_	Target;Source[15]	39-13;39-2[31]	false[15]	4[15]	_	_	
+39-12	3841-3852	ansvarsfull	_	Target;Source[15]	39-13;39-2[31]	false[15]	4[15]	_	_	
+39-13	3853-3870	migrationspolitik	*	_	_	_	_	_	_	
+39-14	3870-3871	,	_	_	_	_	_	_	_	
+39-15	3872-3877	borde	_	_	_	_	_	_	_	
+39-16	3878-3881	hon	_	_	_	_	_	_	_	
+39-17	3882-3886	vara	_	_	_	_	_	_	_	
+39-18	3887-3893	beredd	_	_	_	_	_	_	_	
+39-19	3894-3897	att	_	_	_	_	_	_	_	
+39-20	3898-3901	öka	_	_	_	_	_	_	_	
+39-21	3902-3909	pressen	_	_	_	_	_	_	_	
+39-22	3910-3912	på	_	_	_	_	_	_	_	
+39-23	3913-3917	sina	_	_	_	_	_	_	_	
+39-24	3918-3933	allianskollegor	_	_	_	_	_	_	_	
+39-25	3933-3934	,	_	_	_	_	_	_	_	
+39-26	3935-3939	samt	_	_	_	_	_	_	_	
+39-27	3940-3949	deklarera	_	_	_	_	_	_	_	
+39-28	3950-3953	att	_	_	_	_	_	_	_	
+39-29	3954-3957	hon	_	_	_	_	_	_	_	
+39-30	3958-3960	om	_	_	_	_	_	_	_	
+39-31	3961-3971	nödvändigt	_	_	_	_	_	_	_	
+39-32	3972-3974	är	_	_	_	_	_	_	_	
+39-33	3975-3981	beredd	_	_	_	_	_	_	_	
+39-34	3982-3985	att	_	_	_	_	_	_	_	
+39-35	3986-3991	fälla	_	_	_	_	_	_	_	
+39-36	3992-4002	regeringen	_	_	_	_	_	_	_	
+39-37	4003-4014	tillsammans	_	_	_	_	_	_	_	
+39-38	4015-4018	med	_	_	_	_	_	_	_	
+39-39	4019-4038	Sverigedemokraterna	_	_	_	_	_	_	_	
+39-40	4038-4039	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	4041-4042	#	_	_	_	_	_	_	_	
+40-2	4042-4043	P	_	_	_	_	_	_	_	
+40-3	4044-4047	IMM	_	_	_	_	_	_	_	
+40-4	4047-4048	.	_	_	_	_	_	_	_	
+
+#Text=Jimmie Åkesson.
+41-1	4050-4056	Jimmie	_	_	_	_	_	_	_	
+41-2	4057-4064	Åkesson	_	_	_	_	_	_	_	
+41-3	4064-4065	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	4067-4068	#	_	_	_	_	_	_	_	
+42-2	4068-4069	P	_	_	_	_	_	_	_	
+42-3	4070-4073	IMM	_	_	_	_	_	_	_	
+42-4	4073-4074	.	_	_	_	_	_	_	_	
+
+#Text=partiledare Sverigedemokraterna.
+43-1	4076-4087	partiledare	_	_	_	_	_	_	_	
+43-2	4088-4107	Sverigedemokraterna	_	_	_	_	_	_	_	
+43-3	4107-4108	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	4110-4111	#	_	_	_	_	_	_	_	
+44-2	4111-4112	P	_	_	_	_	_	_	_	
+44-3	4113-4116	IMM	_	_	_	_	_	_	_	
+44-4	4116-4117	.	_	_	_	_	_	_	_	
+
+#Text=Mattias Karlsson.
+45-1	4119-4126	Mattias	_	_	_	_	_	_	_	
+45-2	4127-4135	Karlsson	_	_	_	_	_	_	_	
+45-3	4135-4136	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4138-4139	#	_	_	_	_	_	_	_	
+46-2	4139-4140	P	_	_	_	_	_	_	_	
+46-3	4141-4144	IMM	_	_	_	_	_	_	_	
+46-4	4144-4145	.	_	_	_	_	_	_	_	
+
+#Text=gruppledare Sverigedemokraterna.
+47-1	4147-4158	gruppledare	_	_	_	_	_	_	_	
+47-2	4159-4178	Sverigedemokraterna	_	_	_	_	_	_	_	
+47-3	4178-4179	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4181-4182	#	_	_	_	_	_	_	_	
+48-2	4182-4183	P	_	_	_	_	_	_	_	
+48-3	4184-4187	IMM	_	_	_	_	_	_	_	
+48-4	4187-4188	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+49-1	4190-4198	Redaktör	_	_	_	_	_	_	_	
+49-2	4198-4199	:	_	_	_	_	_	_	_	
+49-3	4200-4206	Carina	_	_	_	_	_	_	_	
+49-4	4207-4225	StenssonBiträdande	_	_	_	_	_	_	_	
+49-5	4226-4234	redaktör	_	_	_	_	_	_	_	
+49-6	4234-4235	:	_	_	_	_	_	_	_	
+49-7	4236-4246	Carl-Johan	_	_	_	_	_	_	_	
+49-8	4247-4261	BilkenrothMejl	_	_	_	_	_	_	_	
+49-9	4261-4262	:	_	_	_	_	_	_	_	
+49-10	4263-4269	debatt	_	_	_	_	_	_	_	
+49-11	4269-4270	@	_	_	_	_	_	_	_	
+49-12	4270-4289	svd.seTelefonnummer	_	_	_	_	_	_	_	
+49-13	4289-4290	:	_	_	_	_	_	_	_	
+49-14	4291-4293	08	_	_	_	_	_	_	_	
+49-15	4293-4294	-	_	_	_	_	_	_	_	
+49-16	4294-4307	135149Twitter	_	_	_	_	_	_	_	
+49-17	4307-4308	:	_	_	_	_	_	_	_	
+49-18	4309-4310	@	_	_	_	_	_	_	_	
+49-19	4310-4327	SvDDebattFacebook	_	_	_	_	_	_	_	
+49-20	4327-4328	:	_	_	_	_	_	_	_	
+49-21	4329-4332	SvD	_	_	_	_	_	_	_	
+49-22	4333-4339	Debatt	_	_	_	_	_	_	_	
+49-23	4339-4340	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4342-4343	#	_	_	_	_	_	_	_	
+50-2	4343-4344	P	_	_	_	_	_	_	_	
+50-3	4345-4348	IMM	_	_	_	_	_	_	_	
+50-4	4348-4349	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+51-1	4351-4359	Redaktör	_	_	_	_	_	_	_	
+51-2	4359-4360	:	_	_	_	_	_	_	_	
+51-3	4361-4367	Carina	_	_	_	_	_	_	_	
+51-4	4368-4376	Stensson	_	_	_	_	_	_	_	
+51-5	4376-4377	,	_	_	_	_	_	_	_	
+51-6	4378-4388	Biträdande	_	_	_	_	_	_	_	
+51-7	4389-4397	redaktör	_	_	_	_	_	_	_	
+51-8	4397-4398	:	_	_	_	_	_	_	_	
+51-9	4399-4404	Björn	_	_	_	_	_	_	_	
+51-10	4405-4411	Jorner	_	_	_	_	_	_	_	
+51-11	4411-4412	,	_	_	_	_	_	_	_	
+51-12	4413-4417	Mejl	_	_	_	_	_	_	_	
+51-13	4417-4418	:	_	_	_	_	_	_	_	
+51-14	4419-4425	debatt	_	_	_	_	_	_	_	
+51-15	4425-4426	@	_	_	_	_	_	_	_	
+51-16	4426-4432	svd.se	_	_	_	_	_	_	_	
+51-17	4432-4433	,	_	_	_	_	_	_	_	
+51-18	4434-4447	Telefonnummer	_	_	_	_	_	_	_	
+51-19	4447-4448	:	_	_	_	_	_	_	_	
+51-20	4449-4451	08	_	_	_	_	_	_	_	
+51-21	4451-4452	-	_	_	_	_	_	_	_	
+51-22	4452-4458	135149	_	_	_	_	_	_	_	
+51-23	4458-4459	,	_	_	_	_	_	_	_	
+51-24	4460-4467	Twitter	_	_	_	_	_	_	_	
+51-25	4467-4468	:	_	_	_	_	_	_	_	
+51-26	4469-4470	@	_	_	_	_	_	_	_	
+51-27	4470-4479	SvDDebatt	_	_	_	_	_	_	_	
+51-28	4479-4480	,	_	_	_	_	_	_	_	
+51-29	4481-4489	Facebook	_	_	_	_	_	_	_	
+51-30	4489-4490	:	_	_	_	_	_	_	_	
+51-31	4491-4494	SvD	_	_	_	_	_	_	_	
+51-32	4495-4501	Debatt	_	_	_	_	_	_	_	
+51-33	4501-4502	.	_	_	_	_	_	_	_	

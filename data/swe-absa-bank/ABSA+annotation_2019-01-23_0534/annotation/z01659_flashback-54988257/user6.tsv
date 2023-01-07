@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Pågår det en massinvandring till Sverige NU då?
+3-1	18-23	Pågår	_	_	_	_	_	_	
+3-2	24-27	det	_	_	_	_	_	_	
+3-3	28-30	en	_	_	_	_	_	_	
+3-4	31-45	massinvandring	*	Target	3-4	false	2	_	
+3-5	46-50	till	_	_	_	_	_	_	
+3-6	51-58	Sverige	_	_	_	_	_	_	
+3-7	59-61	NU	_	_	_	_	_	_	
+3-8	62-64	då	_	_	_	_	_	_	
+3-9	64-65	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	67-68	#	_	_[3]	_	false[3]	2[3]	_	
+4-2	68-69	P	_	_[3]	_	false[3]	2[3]	_	
+4-3	70-73	IMM	_	_[3]	_	false[3]	2[3]	_	
+4-4	73-74	.	_	_	_	_	_	_	
+
+#Text=Invandringskritiker har länge sagt att det pågår en.
+5-1	76-95	Invandringskritiker	*[8]	_	_	_	_	7-13[0_8]	
+5-2	96-99	har	*[8]	_	_	_	_	_	
+5-3	100-105	länge	*[8]	_	_	_	_	_	
+5-4	106-110	sagt	*[8]	_	_	_	_	_	
+5-5	111-114	att	*[8]	_	_	_	_	_	
+5-6	115-118	det	*[8]	_	_	_	_	_	
+5-7	119-124	pågår	*[8]	_	_	_	_	_	
+5-8	125-127	en	*[8]	_	_	_	_	_	
+5-9	127-128	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	130-131	#	_	_[4]	_	false[4]	2[4]	_	
+6-2	131-132	P	_	_[4]	_	false[4]	2[4]	_	
+6-3	133-136	IMM	_	_[4]	_	false[4]	2[4]	_	
+6-4	136-137	.	_	_	_	_	_	_	
+
+#Text=till Sverige, men många politiskt korrekta och invandringsförespråkare har sagt att det är fel.
+7-1	139-143	till	_	_	_	_	_	_	
+7-2	144-151	Sverige	_	_	_	_	_	_	
+7-3	151-152	,	_	_	_	_	_	_	
+7-4	153-156	men	_	_	_	_	_	_	
+7-5	157-162	många	_	_	_	_	_	_	
+7-6	163-172	politiskt	*[9]	_	_	_	_	_	
+7-7	173-181	korrekta	*[9]	_	_	_	_	_	
+7-8	182-185	och	*[9]	_	_	_	_	_	
+7-9	186-209	invandringsförespråkare	*[9]	_	_	_	_	_	
+7-10	210-213	har	_	_	_	_	_	_	
+7-11	214-218	sagt	_	_	_	_	_	_	
+7-12	219-222	att	_	_	_	_	_	_	
+7-13	223-226	det	*	_	_	_	_	_	
+7-14	227-229	är	_	Source;Target[5]	7-6[9];7-13	false[5]	2[5]	_	
+7-15	230-233	fel	_	Source;Target[5]	7-6[9];7-13	false[5]	2[5]	_	
+7-16	233-234	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	236-237	#	_	_	_	_	_	_	
+8-2	237-238	P	_	_	_	_	_	_	
+8-3	239-242	IMM	_	_	_	_	_	_	
+8-4	242-243	.	_	_	_	_	_	_	
+
+#Text=Var går gränsen?.
+9-1	245-248	Var	_	_	_	_	_	_	
+9-2	249-252	går	_	_	_	_	_	_	
+9-3	253-260	gränsen	_	_	_	_	_	_	
+9-4	260-261	?	_	_	_	_	_	_	
+9-5	261-262	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+10-1	264-265	#	_	_	_	_	_	_	
+10-2	265-266	P	_	_	_	_	_	_	
+10-3	267-270	IMM	_	_	_	_	_	_	
+10-4	270-271	.	_	_	_	_	_	_	
+
+#Text=Enligt Migrationsverket och polisen så har det kommit 80 000 flyktingar till Sverige de senaste 6 veckorna.
+11-1	273-279	Enligt	_	_	_	_	_	_	
+11-2	280-296	Migrationsverket	_	_	_	_	_	_	
+11-3	297-300	och	_	_	_	_	_	_	
+11-4	301-308	polisen	_	_	_	_	_	_	
+11-5	309-311	så	_	_	_	_	_	_	
+11-6	312-315	har	_	_	_	_	_	_	
+11-7	316-319	det	_	_	_	_	_	_	
+11-8	320-326	kommit	_	_	_	_	_	_	
+11-9	327-329	80	_	_	_	_	_	_	
+11-10	330-333	000	_	_	_	_	_	_	
+11-11	334-344	flyktingar	_	_	_	_	_	_	
+11-12	345-349	till	_	_	_	_	_	_	
+11-13	350-357	Sverige	_	_	_	_	_	_	
+11-14	358-360	de	_	_	_	_	_	_	
+11-15	361-368	senaste	_	_	_	_	_	_	
+11-16	369-370	6	_	_	_	_	_	_	
+11-17	371-379	veckorna	_	_	_	_	_	_	
+11-18	379-380	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	382-383	#	_	_	_	_	_	_	
+12-2	383-384	P	_	_	_	_	_	_	
+12-3	385-388	IMM	_	_	_	_	_	_	
+12-4	388-389	.	_	_	_	_	_	_	
+
+#Text=Det ger en årstakt på ca 700 000 flyktingar per år.
+13-1	391-394	Det	_	_	_	_	_	_	
+13-2	395-398	ger	_	_	_	_	_	_	
+13-3	399-401	en	_	_	_	_	_	_	
+13-4	402-409	årstakt	_	_	_	_	_	_	
+13-5	410-412	på	_	_	_	_	_	_	
+13-6	413-415	ca	_	_	_	_	_	_	
+13-7	416-419	700	_	_	_	_	_	_	
+13-8	420-423	000	_	_	_	_	_	_	
+13-9	424-434	flyktingar	_	_	_	_	_	_	
+13-10	435-438	per	_	_	_	_	_	_	
+13-11	439-441	år	_	_	_	_	_	_	
+13-12	441-442	.	_	_	_	_	_	_	
+
+#Text=Alla får inte stanna men å andra sidan så blir de kvar länge i landet pga de långa handläggningstiderna plus att många helt enkelt bara går under jorden och stannar vare sig de får det eller inte.
+14-1	443-447	Alla	_	_	_	_	_	_	
+14-2	448-451	får	_	_	_	_	_	_	
+14-3	452-456	inte	_	_	_	_	_	_	
+14-4	457-463	stanna	_	_	_	_	_	_	
+14-5	464-467	men	_	_	_	_	_	_	
+14-6	468-469	å	_	_	_	_	_	_	
+14-7	470-475	andra	_	_	_	_	_	_	
+14-8	476-481	sidan	_	_	_	_	_	_	
+14-9	482-484	så	_	_	_	_	_	_	
+14-10	485-489	blir	_	_	_	_	_	_	
+14-11	490-492	de	_	_	_	_	_	_	
+14-12	493-497	kvar	_	_	_	_	_	_	
+14-13	498-503	länge	_	_	_	_	_	_	
+14-14	504-505	i	_	_	_	_	_	_	
+14-15	506-512	landet	_	_	_	_	_	_	
+14-16	513-516	pga	_	_	_	_	_	_	
+14-17	517-519	de	_	_	_	_	_	_	
+14-18	520-525	långa	_	_	_	_	_	_	
+14-19	526-546	handläggningstiderna	_	_	_	_	_	_	
+14-20	547-551	plus	_	_	_	_	_	_	
+14-21	552-555	att	*[10]	_	_	_	_	_	
+14-22	556-561	många	*[10]	_	_	_	_	_	
+14-23	562-566	helt	*[10]	_	_	_	_	_	
+14-24	567-573	enkelt	*[10]	_	_	_	_	_	
+14-25	574-578	bara	*[10]	_	_	_	_	_	
+14-26	579-582	går	*[10]	_	_	_	_	_	
+14-27	583-588	under	*[10]	_	_	_	_	_	
+14-28	589-595	jorden	*[10]	_	_	_	_	_	
+14-29	596-599	och	*[10]	_	_	_	_	_	
+14-30	600-607	stannar	*[10]	_	_	_	_	_	
+14-31	608-612	vare	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-32	613-616	sig	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-33	617-619	de	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-34	620-623	får	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-35	624-627	det	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-36	628-633	eller	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-37	634-638	inte	_	Target[6]	14-21[10]	false[6]	2[6]	_	
+14-38	638-639	.	_	_	_	_	_	_	
+
+#Text=Till det tillkommer all anhörighetsinvandring och annan typ av invandring.
+15-1	640-644	Till	_	_	_	_	_	_	
+15-2	645-648	det	_	_	_	_	_	_	
+15-3	649-659	tillkommer	_	_	_	_	_	_	
+15-4	660-663	all	_	_	_	_	_	_	
+15-5	664-685	anhörighetsinvandring	_	_	_	_	_	_	
+15-6	686-689	och	_	_	_	_	_	_	
+15-7	690-695	annan	_	_	_	_	_	_	
+15-8	696-699	typ	_	_	_	_	_	_	
+15-9	700-702	av	_	_	_	_	_	_	
+15-10	703-713	invandring	_	_	_	_	_	_	
+15-11	713-714	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	716-717	#	_	_	_	_	_	_	
+16-2	717-718	P	_	_	_	_	_	_	
+16-3	719-722	IMM	_	_	_	_	_	_	
+16-4	722-723	.	_	_	_	_	_	_	
+
+#Text=Kan till och med politiskt korrekta och invandringsförespråkare erkänna nu att vi har en.
+17-1	725-728	Kan	_	_	_	_	_	_	
+17-2	729-733	till	_	Target[7]	17-5[11]	false[7]	2[7]	_	
+17-3	734-737	och	_	Target[7]	17-5[11]	false[7]	2[7]	_	
+17-4	738-741	med	_	Target[7]	17-5[11]	false[7]	2[7]	_	
+17-5	742-751	politiskt	*[11]	_	_	_	_	_	
+17-6	752-760	korrekta	*[11]	_	_	_	_	_	
+17-7	761-764	och	*[11]	_	_	_	_	_	
+17-8	765-788	invandringsförespråkare	*[11]	_	_	_	_	_	
+17-9	789-796	erkänna	_	_	_	_	_	_	
+17-10	797-799	nu	_	_	_	_	_	_	
+17-11	800-803	att	_	_	_	_	_	_	
+17-12	804-806	vi	_	_	_	_	_	_	
+17-13	807-810	har	_	_	_	_	_	_	
+17-14	811-813	en	_	_	_	_	_	_	
+17-15	813-814	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	816-817	#	_	_	_	_	_	_	
+18-2	817-818	P	_	_	_	_	_	_	
+18-3	819-822	IMM	_	_	_	_	_	_	
+18-4	822-823	.	_	_	_	_	_	_	
+
+#Text=till Sverige.
+19-1	825-829	till	_	_	_	_	_	_	
+19-2	830-837	Sverige	_	_	_	_	_	_	
+19-3	837-838	.	_	_	_	_	_	_	
+
+#Text=Eller måste siffrorna bli ännu högre först?
+20-1	839-844	Eller	_	_	_	_	_	_	
+20-2	845-850	måste	_	_	_	_	_	_	
+20-3	851-860	siffrorna	_	_	_	_	_	_	
+20-4	861-864	bli	_	_	_	_	_	_	
+20-5	865-869	ännu	_	_	_	_	_	_	
+20-6	870-875	högre	_	_	_	_	_	_	
+20-7	876-881	först	_	_	_	_	_	_	
+20-8	881-882	?	_	_	_	false	2	_	
+
+#Text=Hur höga då, i så fall?.
+21-1	883-886	Hur	_	_	_	_	_	_	
+21-2	887-891	höga	_	_	_	_	_	_	
+21-3	892-894	då	_	_	_	_	_	_	
+21-4	894-895	,	_	_	_	_	_	_	
+21-5	896-897	i	_	_	_	_	_	_	
+21-6	898-900	så	_	_	_	_	_	_	
+21-7	901-905	fall	_	_	_	_	_	_	
+21-8	905-906	?	_	_	_	_	_	_	
+21-9	906-907	.	_	_	_	false	2	_	

@@ -1,0 +1,107 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Marxism, feminism, etnicitet.
+3-1	18-25	Marxism	_	_	_	_	_	_	
+3-2	25-26	,	_	_	_	_	_	_	
+3-3	27-35	feminism	_	_	_	_	_	_	
+3-4	35-36	,	_	_	_	_	_	_	
+3-5	37-46	etnicitet	_	_	_	_	_	_	
+3-6	46-47	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	49-50	#	_	_	_	_	_	_	
+4-2	50-51	P	_	_	_	_	_	_	
+4-3	52-55	IMM	_	_	_	_	_	_	
+4-4	55-56	.	_	_	_	_	_	_	
+
+#Text=Någon som har tips på texter som kopplar samman marxismen med feministisk teori och etnicitet?
+5-1	58-63	Någon	_	_	_	_	_	_	
+5-2	64-67	som	_	_	_	_	_	_	
+5-3	68-71	har	_	_	_	_	_	_	
+5-4	72-76	tips	_	_	_	_	_	_	
+5-5	77-79	på	_	_	_	_	_	_	
+5-6	80-86	texter	_	_	_	_	_	_	
+5-7	87-90	som	_	_	_	_	_	_	
+5-8	91-98	kopplar	_	_	_	_	_	_	
+5-9	99-105	samman	_	_	_	_	_	_	
+5-10	106-115	marxismen	_	_	_	_	_	_	
+5-11	116-119	med	_	_	_	_	_	_	
+5-12	120-131	feministisk	_	_	_	_	_	_	
+5-13	132-137	teori	_	_	_	_	_	_	
+5-14	138-141	och	_	_	_	_	_	_	
+5-15	142-151	etnicitet	_	_	_	_	_	_	
+5-16	151-152	?	_	_	_	_	_	_	
+
+#Text=Jag vill helst undvika intersektionella perspektiv då de tenderar till att bli postmoderna till sin natur och inte heller förklarar något.
+6-1	153-156	Jag	_	_	_	_	_	_	
+6-2	157-161	vill	_	Target[1]	6-5[4]	false[1]	2[1]	_	
+6-3	162-167	helst	_	Target[1]	6-5[4]	false[1]	2[1]	_	
+6-4	168-175	undvika	_	Target[1]	6-5[4]	false[1]	2[1]	_	
+6-5	176-192	intersektionella	*[3]|*[4]	_	_	_	_	_	
+6-6	193-203	perspektiv	*[3]|*[4]	_	_	_	_	_	
+6-7	204-206	då	_	_	_	_	_	_	
+6-8	207-209	de	_	_	_	_	_	_	
+6-9	210-218	tenderar	_	_	_	_	_	_	
+6-10	219-223	till	_	_	_	_	_	_	
+6-11	224-227	att	_	_	_	_	_	_	
+6-12	228-231	bli	_	_	_	_	_	_	
+6-13	232-243	postmoderna	_	_	_	_	_	_	
+6-14	244-248	till	_	_	_	_	_	_	
+6-15	249-252	sin	_	_	_	_	_	_	
+6-16	253-258	natur	_	_	_	_	_	_	
+6-17	259-262	och	_	_	_	_	_	_	
+6-18	263-267	inte	_	_	_	false	1	_	
+6-19	268-274	heller	_	_	_	_	_	_	
+6-20	275-284	förklarar	_	Target[2]	6-5[3]	false[2]	1[2]	6-18[0_2]	
+6-21	285-290	något	_	Target[2]	6-5[3]	false[2]	1[2]	_	
+6-22	290-291	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	293-294	#	_	_	_	_	_	_	
+7-2	294-295	P	_	_	_	_	_	_	
+7-3	296-299	IMM	_	_	_	_	_	_	
+7-4	299-300	.	_	_	_	_	_	_	
+
+#Text=Jag har tidigare läst i huvdsak Heidi Hartmann och lite liknande men skulle behöva tips på mer modernt material, gärna av den akademiska sorten.
+8-1	302-305	Jag	_	_	_	_	_	_	
+8-2	306-309	har	_	_	_	_	_	_	
+8-3	310-318	tidigare	_	_	_	_	_	_	
+8-4	319-323	läst	_	_	_	_	_	_	
+8-5	324-325	i	_	_	_	_	_	_	
+8-6	326-333	huvdsak	_	_	_	_	_	_	
+8-7	334-339	Heidi	_	_	_	_	_	_	
+8-8	340-348	Hartmann	_	_	_	_	_	_	
+8-9	349-352	och	_	_	_	_	_	_	
+8-10	353-357	lite	_	_	_	_	_	_	
+8-11	358-366	liknande	_	_	_	_	_	_	
+8-12	367-370	men	_	_	_	_	_	_	
+8-13	371-377	skulle	_	_	_	_	_	_	
+8-14	378-384	behöva	_	_	_	_	_	_	
+8-15	385-389	tips	_	_	_	_	_	_	
+8-16	390-392	på	_	_	_	_	_	_	
+8-17	393-396	mer	_	_	_	_	_	_	
+8-18	397-404	modernt	_	_	_	_	_	_	
+8-19	405-413	material	_	_	_	_	_	_	
+8-20	413-414	,	_	_	_	_	_	_	
+8-21	415-420	gärna	_	_	_	_	_	_	
+8-22	421-423	av	_	_	_	_	_	_	
+8-23	424-427	den	_	_	_	_	_	_	
+8-24	428-438	akademiska	_	_	_	_	_	_	
+8-25	439-445	sorten	_	_	_	_	_	_	
+8-26	445-446	.	_	_	_	_	_	_	

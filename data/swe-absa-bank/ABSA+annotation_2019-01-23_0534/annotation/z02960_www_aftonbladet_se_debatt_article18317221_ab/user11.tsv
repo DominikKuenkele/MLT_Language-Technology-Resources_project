@@ -1,0 +1,540 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Illa när ministrar handskas vårdslöst med sanningen.
+3-1	18-22	Illa	_	_	_	false	2	_	
+3-2	23-26	när	_	_	_	_	_	_	
+3-3	27-36	ministrar	*	_	_	_	_	_	
+3-4	37-45	handskas	_	Target[1]	3-3	false[1]	2[1]	3-1[0_1]	
+3-5	46-55	vårdslöst	_	Target[1]	3-3	false[1]	2[1]	_	
+3-6	56-59	med	_	_	_	_	_	_	
+3-7	60-69	sanningen	_	_	_	_	_	_	
+3-8	69-70	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	_	_	_	
+4-4	78-79	.	_	_	_	_	_	_	
+
+#Text=Roks har med stigande förvåning läst jämställdhetsminister Maria Arnholms och barn- och äldreminister Maria Larssons artikel ”Vi håller våra löften till kvinnojourerna” på  Debatt.
+5-1	81-85	Roks	_	_	_	_	_	_	
+5-2	86-89	har	_	_	_	_	_	_	
+5-3	90-93	med	_	_	_	_	_	_	
+5-4	94-102	stigande	_	_	_	_	_	_	
+5-5	103-112	förvåning	_	_	_	_	_	_	
+5-6	113-117	läst	_	_	_	_	_	_	
+5-7	118-139	jämställdhetsminister	_	_	_	_	_	_	
+5-8	140-145	Maria	_	_	_	_	_	_	
+5-9	146-154	Arnholms	_	_	_	_	_	_	
+5-10	155-158	och	_	_	_	_	_	_	
+5-11	159-163	barn	_	_	_	_	_	_	
+5-12	163-164	-	_	_	_	_	_	_	
+5-13	165-168	och	_	_	_	_	_	_	
+5-14	169-182	äldreminister	_	_	_	_	_	_	
+5-15	183-188	Maria	_	_	_	_	_	_	
+5-16	189-197	Larssons	_	_	_	_	_	_	
+5-17	198-205	artikel	_	_	_	_	_	_	
+5-18	206-207	”	_	_	_	_	_	_	
+5-19	207-209	Vi	_	_	_	_	_	_	
+5-20	210-216	håller	_	_	_	_	_	_	
+5-21	217-221	våra	_	_	_	_	_	_	
+5-22	222-228	löften	_	_	_	_	_	_	
+5-23	229-233	till	_	_	_	_	_	_	
+5-24	234-248	kvinnojourerna	_	_	_	_	_	_	
+5-25	248-249	”	_	_	_	_	_	_	
+5-26	250-252	på	_	_	_	_	_	_	
+5-27	254-260	Debatt	_	_	_	_	_	_	
+5-28	260-261	.	_	_	_	_	_	_	
+
+#Text=Nej.
+6-1	262-265	Nej	_	_	_	_	_	_	
+6-2	265-266	.	_	_	_	_	_	_	
+
+#Text=Ni håller inte era löften.
+7-1	267-269	Ni	_	_	_	_	_	_	
+7-2	270-276	håller	_	_	_	_	_	_	
+7-3	277-281	inte	_	_	_	_	_	_	
+7-4	282-285	era	_	_	_	_	_	_	
+7-5	286-292	löften	_	_	_	_	_	_	
+7-6	292-293	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	295-296	#	_	_	_	_	_	_	
+8-2	296-297	P	_	_	_	_	_	_	
+8-3	298-301	IMM	_	_	_	_	_	_	
+8-4	301-302	.	_	_	_	_	_	_	
+
+#Text=Roks har aldrig hävdat att vi inte fått höjda anslag i år.
+9-1	304-308	Roks	_	_	_	_	_	_	
+9-2	309-312	har	_	_	_	_	_	_	
+9-3	313-319	aldrig	_	_	_	_	_	_	
+9-4	320-326	hävdat	_	_	_	_	_	_	
+9-5	327-330	att	_	_	_	_	_	_	
+9-6	331-333	vi	_	_	_	_	_	_	
+9-7	334-338	inte	_	_	_	_	_	_	
+9-8	339-343	fått	_	_	_	_	_	_	
+9-9	344-349	höjda	_	_	_	_	_	_	
+9-10	350-356	anslag	_	_	_	_	_	_	
+9-11	357-358	i	_	_	_	_	_	_	
+9-12	359-361	år	_	_	_	_	_	_	
+9-13	361-362	.	_	_	_	_	_	_	
+
+#Text=Höjningen täcker ett mångårigt underskott.
+10-1	363-372	Höjningen	_	_	_	_	_	_	
+10-2	373-379	täcker	_	_	_	_	_	_	
+10-3	380-383	ett	_	_	_	_	_	_	
+10-4	384-393	mångårigt	_	_	_	_	_	_	
+10-5	394-404	underskott	_	_	_	_	_	_	
+10-6	404-405	.	_	_	_	_	_	_	
+
+#Text=Sedan 2010 hade Roks anslag inte höjts.
+11-1	406-411	Sedan	_	_	_	_	_	_	
+11-2	412-416	2010	_	_	_	_	_	_	
+11-3	417-421	hade	_	_	_	_	_	_	
+11-4	422-426	Roks	_	_	_	_	_	_	
+11-5	427-433	anslag	_	_	_	_	_	_	
+11-6	434-438	inte	_	_	_	_	_	_	
+11-7	439-444	höjts	_	_	_	_	_	_	
+11-8	444-445	.	_	_	_	_	_	_	
+
+#Text=I fjol blev läget kritiskt.
+12-1	446-447	I	_	_	_	_	_	_	
+12-2	448-452	fjol	_	_	_	_	_	_	
+12-3	453-457	blev	_	_	_	_	_	_	
+12-4	458-463	läget	*	_	_	_	_	_	
+12-5	464-472	kritiskt	_	Target	12-4	false	2	_	
+12-6	472-473	.	_	_	_	_	_	_	
+
+#Text=Roks la en budget med drastiska nedskärningar.
+13-1	474-478	Roks	_	_	_	_	_	_	
+13-2	479-481	la	_	_	_	_	_	_	
+13-3	482-484	en	_	_	_	_	_	_	
+13-4	485-491	budget	_	_	_	_	_	_	
+13-5	492-495	med	_	_	_	_	_	_	
+13-6	496-505	drastiska	_	_	_	_	_	_	
+13-7	506-519	nedskärningar	_	_	_	_	_	_	
+13-8	519-520	.	_	_	_	_	_	_	
+
+#Text=Kanslipersonal varslades.
+14-1	521-535	Kanslipersonal	_	_	_	_	_	_	
+14-2	536-545	varslades	_	_	_	_	_	_	
+14-3	545-546	.	_	_	_	_	_	_	
+
+#Text=Jourernas utbildningar drogs in.
+15-1	547-556	Jourernas	_	_	_	_	_	_	
+15-2	557-569	utbildningar	_	_	_	_	_	_	
+15-3	570-575	drogs	_	_	_	_	_	_	
+15-4	576-578	in	_	_	_	_	_	_	
+15-5	578-579	.	_	_	_	_	_	_	
+
+#Text=Samtidigt sökte vi statliga medel för att täcka underskottet.
+16-1	580-589	Samtidigt	_	_	_	_	_	_	
+16-2	590-595	sökte	_	_	_	_	_	_	
+16-3	596-598	vi	_	_	_	_	_	_	
+16-4	599-607	statliga	_	_	_	_	_	_	
+16-5	608-613	medel	_	_	_	_	_	_	
+16-6	614-617	för	_	_	_	_	_	_	
+16-7	618-621	att	_	_	_	_	_	_	
+16-8	622-627	täcka	_	_	_	_	_	_	
+16-9	628-640	underskottet	_	_	_	_	_	_	
+16-10	640-641	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	643-644	#	_	_	_	_	_	_	
+17-2	644-645	P	_	_	_	_	_	_	
+17-3	646-649	IMM	_	_	_	_	_	_	
+17-4	649-650	.	_	_	_	_	_	_	
+
+#Text=Den 17 januari 2014 kom beslutet: Roks fick inte hela den sökta summan, men nog för att täcka underskottet.
+18-1	652-655	Den	_	_	_	_	_	_	
+18-2	656-658	17	_	_	_	_	_	_	
+18-3	659-666	januari	_	_	_	_	_	_	
+18-4	667-671	2014	_	_	_	_	_	_	
+18-5	672-675	kom	_	_	_	_	_	_	
+18-6	676-684	beslutet	_	_	_	_	_	_	
+18-7	684-685	:	_	_	_	_	_	_	
+18-8	686-690	Roks	_	_	_	_	_	_	
+18-9	691-695	fick	_	_	_	_	_	_	
+18-10	696-700	inte	_	_	_	_	_	_	
+18-11	701-705	hela	_	_	_	_	_	_	
+18-12	706-709	den	_	_	_	_	_	_	
+18-13	710-715	sökta	_	_	_	_	_	_	
+18-14	716-722	summan	_	_	_	_	_	_	
+18-15	722-723	,	_	_	_	_	_	_	
+18-16	724-727	men	_	_	_	_	_	_	
+18-17	728-731	nog	_	_	_	_	_	_	
+18-18	732-735	för	_	_	_	_	_	_	
+18-19	736-739	att	_	_	_	_	_	_	
+18-20	740-745	täcka	_	_	_	_	_	_	
+18-21	746-758	underskottet	_	_	_	_	_	_	
+18-22	758-759	.	_	_	_	_	_	_	
+
+#Text=Uppsägningen av kansliets anställda återtogs.
+19-1	760-772	Uppsägningen	_	_	_	_	_	_	
+19-2	773-775	av	_	_	_	_	_	_	
+19-3	776-785	kansliets	_	_	_	_	_	_	
+19-4	786-795	anställda	_	_	_	_	_	_	
+19-5	796-804	återtogs	_	_	_	_	_	_	
+19-6	804-805	.	_	_	_	_	_	_	
+
+#Text=Utbildningarna planeras.
+20-1	806-820	Utbildningarna	_	_	_	_	_	_	
+20-2	821-829	planeras	_	_	_	_	_	_	
+20-3	829-830	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	832-833	#	_	_	_	_	_	_	
+21-2	833-834	P	_	_	_	_	_	_	
+21-3	835-838	IMM	_	_	_	_	_	_	
+21-4	838-839	.	_	_	_	_	_	_	
+
+#Text=Terrafem, som tar emot kvinnor och tjejer från hela landet, fick beskedet: inga höjda anslag för boendet.
+22-1	841-849	Terrafem	_	_	_	_	_	_	
+22-2	849-850	,	_	_	_	_	_	_	
+22-3	851-854	som	_	_	_	_	_	_	
+22-4	855-858	tar	_	_	_	_	_	_	
+22-5	859-863	emot	_	_	_	_	_	_	
+22-6	864-871	kvinnor	_	_	_	_	_	_	
+22-7	872-875	och	_	_	_	_	_	_	
+22-8	876-882	tjejer	_	_	_	_	_	_	
+22-9	883-887	från	_	_	_	_	_	_	
+22-10	888-892	hela	_	_	_	_	_	_	
+22-11	893-899	landet	_	_	_	_	_	_	
+22-12	899-900	,	_	_	_	_	_	_	
+22-13	901-905	fick	_	_	_	_	_	_	
+22-14	906-914	beskedet	_	_	_	_	_	_	
+22-15	914-915	:	_	_	_	_	_	_	
+22-16	916-920	inga	_	_	_	_	_	_	
+22-17	921-926	höjda	_	_	_	_	_	_	
+22-18	927-933	anslag	_	_	_	_	_	_	
+22-19	934-937	för	_	_	_	_	_	_	
+22-20	938-945	boendet	_	_	_	_	_	_	
+22-21	945-946	.	_	_	_	_	_	_	
+
+#Text=Trots löfte från Maria Larsson och Maria Arnholm.
+23-1	947-952	Trots	_	Target	23-2[5]	false	2	_	
+23-2	953-958	löfte	*[5]	_	_	_	_	_	
+23-3	959-963	från	*[5]	_	_	_	_	_	
+23-4	964-969	Maria	*[5]	_	_	_	_	_	
+23-5	970-977	Larsson	*[5]	_	_	_	_	_	
+23-6	978-981	och	*[5]	_	_	_	_	_	
+23-7	982-987	Maria	*[5]	_	_	_	_	_	
+23-8	988-995	Arnholm	*[5]	_	_	_	_	_	
+23-9	995-996	.	_	_	_	_	_	_	
+
+#Text=När vi nu läser i  att de lägger ansvaret på Roks att infria deras löften är det för viktiga saker som står på spel för att förvirringen på ministernivå ska få fortsätta.
+24-1	997-1000	När	_	_	_	_	_	_	
+24-2	1001-1003	vi	_	_	_	_	_	_	
+24-3	1004-1006	nu	_	_	_	_	_	_	
+24-4	1007-1012	läser	_	_	_	_	_	_	
+24-5	1013-1014	i	_	_	_	_	_	_	
+24-6	1016-1019	att	_	_	_	_	_	_	
+24-7	1020-1022	de	_	_	_	_	_	_	
+24-8	1023-1029	lägger	_	_	_	_	_	_	
+24-9	1030-1038	ansvaret	_	_	_	_	_	_	
+24-10	1039-1041	på	_	_	_	_	_	_	
+24-11	1042-1046	Roks	_	_	_	_	_	_	
+24-12	1047-1050	att	_	_	_	_	_	_	
+24-13	1051-1057	infria	_	_	_	_	_	_	
+24-14	1058-1063	deras	_	_	_	_	_	_	
+24-15	1064-1070	löften	_	_	_	_	_	_	
+24-16	1071-1073	är	_	_	_	_	_	_	
+24-17	1074-1077	det	_	_	_	_	_	_	
+24-18	1078-1081	för	_	Target[2]	24-20	false[2]	4[2]	_	
+24-19	1082-1089	viktiga	_	Target[2]	24-20	false[2]	4[2]	_	
+24-20	1090-1095	saker	*	_	_	_	_	_	
+24-21	1096-1099	som	_	_	_	_	_	_	
+24-22	1100-1104	står	_	_	_	_	_	_	
+24-23	1105-1107	på	_	_	_	_	_	_	
+24-24	1108-1112	spel	_	_	_	_	_	_	
+24-25	1113-1116	för	_	_	_	_	_	_	
+24-26	1117-1120	att	_	_	_	_	_	_	
+24-27	1121-1133	förvirringen	_	Target	24-29	false	2	_	
+24-28	1134-1136	på	_	_	_	_	_	_	
+24-29	1137-1149	ministernivå	*	_	_	_	_	_	
+24-30	1150-1153	ska	_	_	_	_	_	_	
+24-31	1154-1156	få	_	_	_	_	_	_	
+24-32	1157-1166	fortsätta	_	_	_	_	_	_	
+24-33	1166-1167	.	_	_	_	_	_	_	
+
+#Text=Ett skyddat boende försvinner snart.
+25-1	1168-1171	Ett	_	_	_	_	_	_	
+25-2	1172-1179	skyddat	_	_	_	_	_	_	
+25-3	1180-1186	boende	_	_	_	_	_	_	
+25-4	1187-1197	försvinner	_	_	_	_	_	_	
+25-5	1198-1203	snart	_	_	_	_	_	_	
+25-6	1203-1204	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1206-1207	#	_	_	_	_	_	_	
+26-2	1207-1208	P	_	_	_	_	_	_	
+26-3	1209-1212	IMM	_	_	_	_	_	_	
+26-4	1212-1213	.	_	_	_	_	_	_	
+
+#Text=Roks har 117 jourer.
+27-1	1215-1219	Roks	_	_	_	_	_	_	
+27-2	1220-1223	har	_	_	_	_	_	_	
+27-3	1224-1227	117	_	_	_	_	_	_	
+27-4	1228-1234	jourer	_	_	_	_	_	_	
+27-5	1234-1235	.	_	_	_	_	_	_	
+
+#Text=Alla kämpar för överlevnad.
+28-1	1236-1240	Alla	_	_	_	_	_	_	
+28-2	1241-1247	kämpar	_	_	_	_	_	_	
+28-3	1248-1251	för	_	_	_	_	_	_	
+28-4	1252-1262	överlevnad	_	_	_	_	_	_	
+28-5	1262-1263	.	_	_	_	_	_	_	
+
+#Text=Vi fick 5, 3 miljoner kronor att fördela mellan jourerna.
+29-1	1264-1266	Vi	_	_	_	_	_	_	
+29-2	1267-1271	fick	_	_	_	_	_	_	
+29-3	1272-1273	5	_	_	_	_	_	_	
+29-4	1273-1274	,	_	_	_	_	_	_	
+29-5	1275-1276	3	_	_	_	_	_	_	
+29-6	1277-1285	miljoner	_	_	_	_	_	_	
+29-7	1286-1292	kronor	_	_	_	_	_	_	
+29-8	1293-1296	att	_	_	_	_	_	_	
+29-9	1297-1304	fördela	_	_	_	_	_	_	
+29-10	1305-1311	mellan	_	_	_	_	_	_	
+29-11	1312-1320	jourerna	_	_	_	_	_	_	
+29-12	1320-1321	.	_	_	_	_	_	_	
+
+#Text=Pengar som inte ska finansiera driften av dem.
+30-1	1322-1328	Pengar	_	_	_	_	_	_	
+30-2	1329-1332	som	_	_	_	_	_	_	
+30-3	1333-1337	inte	_	_	_	_	_	_	
+30-4	1338-1341	ska	_	_	_	_	_	_	
+30-5	1342-1352	finansiera	_	_	_	_	_	_	
+30-6	1353-1360	driften	_	_	_	_	_	_	
+30-7	1361-1363	av	_	_	_	_	_	_	
+30-8	1364-1367	dem	_	_	_	_	_	_	
+30-9	1367-1368	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	1370-1371	#	_	_	_	_	_	_	
+31-2	1371-1372	P	_	_	_	_	_	_	
+31-3	1373-1376	IMM	_	_	_	_	_	_	
+31-4	1376-1377	.	_	_	_	_	_	_	
+
+#Text=Maria Arnholm påstår i sitt senaste nyhetsbrev att Roks ”fått exakt så mycket som man ansökte om, vilket innebär en förstärkning på över 5 miljoner” samt ett ”verksamhetsbidrag på 18,5 miljoner extra för att stärka sina lokala jourer.”
+32-1	1379-1384	Maria	_	_	_	_	_	_	
+32-2	1385-1392	Arnholm	_	_	_	_	_	_	
+32-3	1393-1399	påstår	_	_	_	_	_	_	
+32-4	1400-1401	i	_	_	_	_	_	_	
+32-5	1402-1406	sitt	_	_	_	_	_	_	
+32-6	1407-1414	senaste	_	_	_	_	_	_	
+32-7	1415-1425	nyhetsbrev	_	_	_	_	_	_	
+32-8	1426-1429	att	_	_	_	_	_	_	
+32-9	1430-1434	Roks	_	_	_	_	_	_	
+32-10	1435-1436	”	_	_	_	_	_	_	
+32-11	1436-1440	fått	_	_	_	_	_	_	
+32-12	1441-1446	exakt	_	_	_	_	_	_	
+32-13	1447-1449	så	_	_	_	_	_	_	
+32-14	1450-1456	mycket	_	_	_	_	_	_	
+32-15	1457-1460	som	_	_	_	_	_	_	
+32-16	1461-1464	man	_	_	_	_	_	_	
+32-17	1465-1472	ansökte	_	_	_	_	_	_	
+32-18	1473-1475	om	_	_	_	_	_	_	
+32-19	1475-1476	,	_	_	_	_	_	_	
+32-20	1477-1483	vilket	_	_	_	_	_	_	
+32-21	1484-1491	innebär	_	_	_	_	_	_	
+32-22	1492-1494	en	_	_	_	_	_	_	
+32-23	1495-1507	förstärkning	_	_	_	_	_	_	
+32-24	1508-1510	på	_	_	_	_	_	_	
+32-25	1511-1515	över	_	_	_	_	_	_	
+32-26	1516-1517	5	_	_	_	_	_	_	
+32-27	1518-1526	miljoner	_	_	_	_	_	_	
+32-28	1526-1527	”	_	_	_	_	_	_	
+32-29	1528-1532	samt	_	_	_	_	_	_	
+32-30	1533-1536	ett	_	_	_	_	_	_	
+32-31	1537-1538	”	_	_	_	_	_	_	
+32-32	1538-1555	verksamhetsbidrag	_	_	_	_	_	_	
+32-33	1556-1558	på	_	_	_	_	_	_	
+32-34	1559-1563	18,5	_	_	_	_	_	_	
+32-35	1564-1572	miljoner	_	_	_	_	_	_	
+32-36	1573-1578	extra	_	_	_	_	_	_	
+32-37	1579-1582	för	_	_	_	_	_	_	
+32-38	1583-1586	att	_	_	_	_	_	_	
+32-39	1587-1593	stärka	_	_	_	_	_	_	
+32-40	1594-1598	sina	_	_	_	_	_	_	
+32-41	1599-1605	lokala	_	_	_	_	_	_	
+32-42	1606-1612	jourer	_	_	_	_	_	_	
+32-43	1612-1613	.	_	_	_	_	_	_	
+32-44	1613-1614	”	*	_	_	_	_	_	
+
+#Text=Inget stämmer.
+33-1	1616-1621	Inget	_	Target[3]	32-44	false[3]	2[3]	_	
+33-2	1622-1629	stämmer	_	Target[3]	32-44	false[3]	2[3]	_	
+33-3	1629-1630	.	_	_	_	_	_	_	
+
+#Text=Roks fick 4 miljoner kronor mindre än ansökan.
+34-1	1631-1635	Roks	_	_	_	_	_	_	
+34-2	1636-1640	fick	_	_	_	_	_	_	
+34-3	1641-1642	4	_	_	_	_	_	_	
+34-4	1643-1651	miljoner	_	_	_	_	_	_	
+34-5	1652-1658	kronor	_	_	_	_	_	_	
+34-6	1659-1665	mindre	_	_	_	_	_	_	
+34-7	1666-1668	än	_	_	_	_	_	_	
+34-8	1669-1676	ansökan	_	_	_	_	_	_	
+34-9	1676-1677	.	_	_	_	_	_	_	
+
+#Text=De 18,5 miljoner kronorna är själva verksamhetsbidraget.
+35-1	1678-1680	De	_	_	_	_	_	_	
+35-2	1681-1685	18,5	_	_	_	_	_	_	
+35-3	1686-1694	miljoner	_	_	_	_	_	_	
+35-4	1695-1703	kronorna	_	_	_	_	_	_	
+35-5	1704-1706	är	_	_	_	_	_	_	
+35-6	1707-1713	själva	_	_	_	_	_	_	
+35-7	1714-1733	verksamhetsbidraget	_	_	_	_	_	_	
+35-8	1733-1734	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	1736-1737	#	_	_	_	_	_	_	
+36-2	1737-1738	P	_	_	_	_	_	_	
+36-3	1739-1742	IMM	_	_	_	_	_	_	
+36-4	1742-1743	.	_	_	_	_	_	_	
+
+#Text=Att två ministrar handskas så vårdslöst med sanningen är illa.
+37-1	1745-1748	Att	_	_	_	_	_	_	
+37-2	1749-1752	två	*[6]	_	_	_	_	_	
+37-3	1753-1762	ministrar	*[6]	_	_	_	_	_	
+37-4	1763-1771	handskas	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-5	1772-1774	så	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-6	1775-1784	vårdslöst	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-7	1785-1788	med	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-8	1789-1798	sanningen	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-9	1799-1801	är	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-10	1802-1806	illa	_	Target[4]	37-2[6]	false[4]	2[4]	_	
+37-11	1806-1807	.	_	_	_	_	_	_	
+
+#Text=För Maria Arnholm och för Maria Larsson, men framför allt för Terrafem.
+38-1	1808-1811	För	_	_	_	_	_	_	
+38-2	1812-1817	Maria	_	_	_	_	_	_	
+38-3	1818-1825	Arnholm	_	_	_	_	_	_	
+38-4	1826-1829	och	_	_	_	_	_	_	
+38-5	1830-1833	för	_	_	_	_	_	_	
+38-6	1834-1839	Maria	_	_	_	_	_	_	
+38-7	1840-1847	Larsson	_	_	_	_	_	_	
+38-8	1847-1848	,	_	_	_	_	_	_	
+38-9	1849-1852	men	_	_	_	_	_	_	
+38-10	1853-1860	framför	_	_	_	_	_	_	
+38-11	1861-1865	allt	_	_	_	_	_	_	
+38-12	1866-1869	för	_	_	_	_	_	_	
+38-13	1870-1878	Terrafem	_	_	_	_	_	_	
+38-14	1878-1879	.	_	_	_	_	_	_	
+
+#Text=Allra främst för de kvinnor och tjejer som flyr våld och inte har någonstans att bli av.
+39-1	1880-1885	Allra	_	_	_	_	_	_	
+39-2	1886-1892	främst	_	_	_	_	_	_	
+39-3	1893-1896	för	_	_	_	_	_	_	
+39-4	1897-1899	de	_	_	_	_	_	_	
+39-5	1900-1907	kvinnor	_	_	_	_	_	_	
+39-6	1908-1911	och	_	_	_	_	_	_	
+39-7	1912-1918	tjejer	_	_	_	_	_	_	
+39-8	1919-1922	som	_	_	_	_	_	_	
+39-9	1923-1927	flyr	_	_	_	_	_	_	
+39-10	1928-1932	våld	_	_	_	_	_	_	
+39-11	1933-1936	och	_	_	_	_	_	_	
+39-12	1937-1941	inte	_	_	_	_	_	_	
+39-13	1942-1945	har	_	_	_	_	_	_	
+39-14	1946-1956	någonstans	_	_	_	_	_	_	
+39-15	1957-1960	att	_	_	_	_	_	_	
+39-16	1961-1964	bli	_	_	_	_	_	_	
+39-17	1965-1967	av	_	_	_	_	_	_	
+39-18	1967-1968	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	1970-1971	#	_	_	_	_	_	_	
+40-2	1971-1972	P	_	_	_	_	_	_	
+40-3	1973-1976	IMM	_	_	_	_	_	_	
+40-4	1976-1977	.	_	_	_	_	_	_	
+
+#Text=Roks ser trots allt fram emot valrörelsen.
+41-1	1979-1983	Roks	_	_	_	_	_	_	
+41-2	1984-1987	ser	_	_	_	_	_	_	
+41-3	1988-1993	trots	_	_	_	_	_	_	
+41-4	1994-1998	allt	_	_	_	_	_	_	
+41-5	1999-2003	fram	_	_	_	_	_	_	
+41-6	2004-2008	emot	_	_	_	_	_	_	
+41-7	2009-2020	valrörelsen	_	_	_	_	_	_	
+41-8	2020-2021	.	_	_	_	_	_	_	
+
+#Text=Allt kan ändras.
+42-1	2022-2026	Allt	_	_	_	_	_	_	
+42-2	2027-2030	kan	_	_	_	_	_	_	
+42-3	2031-2037	ändras	_	_	_	_	_	_	
+42-4	2037-2038	.	_	_	_	_	_	_	
+
+#Text=Den 8 mars samlar Roks kvinnojoursrörelsen för att demonstrera för fria och finansierade jourer.
+43-1	2039-2042	Den	_	_	_	_	_	_	
+43-2	2043-2044	8	_	_	_	_	_	_	
+43-3	2045-2049	mars	_	_	_	_	_	_	
+43-4	2050-2056	samlar	_	_	_	_	_	_	
+43-5	2057-2061	Roks	_	_	_	_	_	_	
+43-6	2062-2081	kvinnojoursrörelsen	_	_	_	_	_	_	
+43-7	2082-2085	för	_	_	_	_	_	_	
+43-8	2086-2089	att	_	_	_	_	_	_	
+43-9	2090-2101	demonstrera	_	_	_	_	_	_	
+43-10	2102-2105	för	_	_	_	_	_	_	
+43-11	2106-2110	fria	_	_	_	_	_	_	
+43-12	2111-2114	och	_	_	_	_	_	_	
+43-13	2115-2127	finansierade	_	_	_	_	_	_	
+43-14	2128-2134	jourer	_	_	_	_	_	_	
+43-15	2134-2135	.	_	_	_	_	_	_	
+
+#Text=Staten och kommunerna måste hitta ett finansieringssystem som fungerar.
+44-1	2136-2142	Staten	_	_	_	_	_	_	
+44-2	2143-2146	och	_	_	_	_	_	_	
+44-3	2147-2157	kommunerna	_	_	_	_	_	_	
+44-4	2158-2163	måste	_	_	_	_	_	_	
+44-5	2164-2169	hitta	_	_	_	_	_	_	
+44-6	2170-2173	ett	_	_	_	_	_	_	
+44-7	2174-2193	finansieringssystem	_	_	_	_	_	_	
+44-8	2194-2197	som	_	_	_	_	_	_	
+44-9	2198-2206	fungerar	_	_	_	_	_	_	
+44-10	2206-2207	.	_	_	_	_	_	_	
+
+#Text=Det handlar om kvinnors liv.
+45-1	2208-2211	Det	_	_	_	_	_	_	
+45-2	2212-2219	handlar	_	_	_	_	_	_	
+45-3	2220-2222	om	_	_	_	_	_	_	
+45-4	2223-2231	kvinnors	_	_	_	_	_	_	
+45-5	2232-2235	liv	_	_	_	_	_	_	
+45-6	2235-2236	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	2238-2239	#	_	_	_	_	_	_	
+46-2	2239-2240	P	_	_	_	_	_	_	
+46-3	2241-2244	IMM	_	_	_	_	_	_	
+46-4	2244-2245	.	_	_	_	_	_	_	
+
+#Text=Angela Beausang.
+47-1	2247-2253	Angela	_	_	_	_	_	_	
+47-2	2254-2262	Beausang	_	_	_	_	_	_	
+47-3	2262-2263	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	2265-2266	#	_	_	_	_	_	_	
+48-2	2266-2267	P	_	_	_	_	_	_	
+48-3	2268-2271	IMM	_	_	_	_	_	_	
+48-4	2271-2272	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+49-1	2274-2279	FAKTA	_	_	_	_	_	_	
+49-2	2279-2280	.	_	_	_	_	_	_	

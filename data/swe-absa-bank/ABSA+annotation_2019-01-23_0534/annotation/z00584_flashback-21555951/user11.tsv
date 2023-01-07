@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Senaste TV-snyftaren: Somaliska flykting-"barn" på Malta.
+3-1	18-25	Senaste	_	_	_	_	_	
+3-2	26-38	TV-snyftaren	_	_	_	_	_	
+3-3	38-39	:	_	_	_	_	_	
+3-4	40-49	Somaliska	_	_	_	_	_	
+3-5	50-58	flykting	_	_	_	_	_	
+3-6	58-59	-	_	_	_	_	_	
+3-7	59-60	"	_	_	_	_	_	
+3-8	60-64	barn	*	Target	3-8	false	2	
+3-9	64-65	"	_	_	_	_	_	
+3-10	66-68	på	_	_	_	_	_	
+3-11	69-74	Malta	_	_	_	_	_	
+3-12	74-75	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	77-78	#	_	_	_	_	_	
+4-2	78-79	P	_	_[3]	_	false[3]	1[3]	
+4-3	80-83	IMM	_	_[3]	_	false[3]	1[3]	
+4-4	83-84	.	_	_	_	_	_	
+
+#Text=Det snyftas en hel del på TV för tillfället om stackars somaliska flykting-"barn" som, i enlighet med EU:s regelverk, utvisas till Malta.
+5-1	86-89	Det	_	_	_	_	_	
+5-2	90-97	snyftas	_	_	_	_	_	
+5-3	98-100	en	_	_	_	_	_	
+5-4	101-104	hel	_	_	_	_	_	
+5-5	105-108	del	_	_	_	_	_	
+5-6	109-111	på	_	_	_	_	_	
+5-7	112-114	TV	_	_	_	_	_	
+5-8	115-118	för	_	_	_	_	_	
+5-9	119-129	tillfället	_	_	_	_	_	
+5-10	130-132	om	_	_	_	_	_	
+5-11	133-141	stackars	_	Target	5-12[7]	true	2	
+5-12	142-151	somaliska	*[7]	_	_	_	_	
+5-13	152-160	flykting	*[7]	_	_	_	_	
+5-14	160-161	-	*[7]	_	_	_	_	
+5-15	161-162	"	*[7]	_	_	_	_	
+5-16	162-166	barn	*[7]	_	_	_	_	
+5-17	166-167	"	_	_	_	_	_	
+5-18	168-171	som	_	_	_	_	_	
+5-19	171-172	,	_	_	_	_	_	
+5-20	173-174	i	_	_	_	_	_	
+5-21	175-183	enlighet	_	_	_	_	_	
+5-22	184-187	med	_	_	_	_	_	
+5-23	188-190	EU	_	_	_	_	_	
+5-24	190-191	:	_	_	_	_	_	
+5-25	191-192	s	_	_	_	_	_	
+5-26	193-202	regelverk	_	_	_	_	_	
+5-27	202-203	,	_	_	_	_	_	
+5-28	204-211	utvisas	_	_	_	_	_	
+5-29	212-216	till	_	_	_	_	_	
+5-30	217-222	Malta	_	_	_	_	_	
+5-31	222-223	.	_	_	_	_	_	
+
+#Text=Personligen anser jag att detta är en stark anledning till att vara EU-positiv.
+6-1	224-235	Personligen	_	_	_	_	_	
+6-2	236-241	anser	_	_	_	_	_	
+6-3	242-245	jag	_	_	_	_	_	
+6-4	246-249	att	_	_	_	_	_	
+6-5	250-255	detta	_	_	_	_	_	
+6-6	256-258	är	_	_	_	_	_	
+6-7	259-261	en	_	_	_	_	_	
+6-8	262-267	stark	_	Target[4]	6-12[8]	false[4]	4[4]	
+6-9	268-277	anledning	_	Target[4]	6-12[8]	false[4]	4[4]	
+6-10	278-282	till	_	_	_	_	_	
+6-11	283-286	att	_	_	_	_	_	
+6-12	287-291	vara	*[8]	_	_	_	_	
+6-13	292-302	EU-positiv	*[8]	_	_	_	_	
+6-14	302-303	.	_	_	_	_	_	
+
+#Text=Dvs att vi framöver kan slippa en hel del av MENA-skiten här i Norden tack vare EU:s regelverk.
+7-1	304-307	Dvs	_	_	_	_	_	
+7-2	308-311	att	_	_	_	_	_	
+7-3	312-314	vi	_	_	_	_	_	
+7-4	315-323	framöver	_	_	_	_	_	
+7-5	324-327	kan	_	_	_	_	_	
+7-6	328-334	slippa	_	_	_	_	_	
+7-7	335-337	en	_	_	_	_	_	
+7-8	338-341	hel	_	_	_	_	_	
+7-9	342-345	del	_	_	_	_	_	
+7-10	346-348	av	_	_	_	_	_	
+7-11	349-360	MENA-skiten	*	Target	7-11	false	1	
+7-12	361-364	här	_	_	_	_	_	
+7-13	365-366	i	_	_	_	_	_	
+7-14	367-373	Norden	_	_	_	_	_	
+7-15	374-378	tack	_	Target[5]	7-18[9]	false[5]	4[5]	
+7-16	379-383	vare	_	Target[5]	7-18[9]	false[5]	4[5]	
+7-17	384-386	EU	_	_	_	_	_	
+7-18	386-387	:	*[9]	_	_	_	_	
+7-19	387-388	s	*[9]	_	_	_	_	
+7-20	389-398	regelverk	*[9]	_	_	_	_	
+7-21	398-399	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	401-402	#	_	_	_	_	_	
+8-2	402-403	P	_	_	_	_	_	
+8-3	404-407	IMM	_	_	_	_	_	
+8-4	407-408	.	_	_	_	_	_	
+
+#Text=Diskussion:.
+9-1	410-420	Diskussion	_	_	_	_	_	
+9-2	420-421	:	_	_	_	_	_	
+9-3	421-422	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=1.
+10-1	424-425	#	_	_	_	_	_	
+10-2	425-426	P	_	_	_	_	_	
+10-3	427-430	IMM	_	_	_	_	_	
+10-4	430-431	.	_	_	_	_	_	
+10-5	433-434	1	_	_	_	_	_	
+10-6	434-435	.	_	_	_	_	_	
+
+#Text=Påverkar detta er syn på EU?.
+11-1	436-444	Påverkar	_	_	_	_	_	
+11-2	445-450	detta	_	_	_	_	_	
+11-3	451-453	er	_	_	_	_	_	
+11-4	454-457	syn	_	_	_	_	_	
+11-5	458-460	på	_	_	_	_	_	
+11-6	461-463	EU	_	_	_	_	_	
+11-7	463-464	?	_	_	_	_	_	
+11-8	464-465	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=2.
+12-1	467-468	#	_	_	_	_	_	
+12-2	468-469	P	_	_[6]	_	false[6]	1[6]	
+12-3	470-473	IMM	_	_[6]	_	false[6]	1[6]	
+12-4	473-474	.	_	_	_	_	_	
+12-5	476-477	2	_	_	_	_	_	
+12-6	477-478	.	_	_	_	_	_	
+
+#Text=Är det eller är det inte synd om dessa somaliska (parasit)-barn?.
+13-1	479-481	Är	_	_	_	_	_	
+13-2	482-485	det	_	_	_	_	_	
+13-3	486-491	eller	_	_	_	_	_	
+13-4	492-494	är	_	_	_	_	_	
+13-5	495-498	det	_	_	_	_	_	
+13-6	499-503	inte	_	_	_	_	_	
+13-7	504-508	synd	_	_	_	_	_	
+13-8	509-511	om	_	_	_	_	_	
+13-9	512-517	dessa	_	_	_	_	_	
+13-10	518-527	somaliska	_	_	_	_	_	
+13-11	528-529	(	_	_	_	_	_	
+13-12	529-536	parasit	_	Target	13-15	false	1	
+13-13	536-537	)	_	_	_	_	_	
+13-14	537-538	-	_	_	_	_	_	
+13-15	538-542	barn	*	_	_	_	_	
+13-16	542-543	?	_	_	_	_	_	
+13-17	543-544	.	_	_	_	_	_	

@@ -1,0 +1,199 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Kommunism: utsatta områden gängkrig dödspatruller 1000 extremister kriminella.
+3-1	18-27	Kommunism	_	_	_	_	_	_	
+3-2	27-28	:	_	_	_	_	_	_	
+3-3	29-36	utsatta	_	_	_	_	_	_	
+3-4	37-44	områden	_	_	_	_	_	_	
+3-5	45-53	gängkrig	_	_	_	_	_	_	
+3-6	54-67	dödspatruller	*	Target	3-6	false	1	_	
+3-7	68-72	1000	_	_	_	_	_	_	
+3-8	73-84	extremister	_	_	_	_	_	_	
+3-9	85-95	kriminella	_	_	_	_	_	_	
+3-10	95-96	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	98-99	#	_	_	_	_	_	_	
+4-2	99-100	P	_	_	_	_	_	_	
+4-3	101-104	IMM	_	_	_	false	2	_	
+4-4	104-105	.	_	_	_	_	_	_	
+
+#Text=I 30 år har ni tjatat hit er invandring, nu är er invandring här, varför drar ni fortfarande upp rasistkortet som ert största motargument?.
+5-1	107-108	I	_	_	_	_	_	_	
+5-2	109-111	30	_	_	_	_	_	_	
+5-3	112-114	år	_	_	_	_	_	_	
+5-4	115-118	har	_	_	_	_	_	_	
+5-5	119-121	ni	_	_	_	_	_	_	
+5-6	122-128	tjatat	_	_	_	_	_	_	
+5-7	129-132	hit	_	_	_	_	_	_	
+5-8	133-135	er	_	_	_	_	_	_	
+5-9	136-146	invandring	_	_	_	_	_	_	
+5-10	146-147	,	_	_	_	_	_	_	
+5-11	148-150	nu	_	_	_	_	_	_	
+5-12	151-153	är	_	_	_	_	_	_	
+5-13	154-156	er	_	_	_	_	_	_	
+5-14	157-167	invandring	_	_	_	_	_	_	
+5-15	168-171	här	_	_	_	_	_	_	
+5-16	171-172	,	_	_	_	_	_	_	
+5-17	173-179	varför	_	_	_	_	_	_	
+5-18	180-184	drar	_	_	_	_	_	_	
+5-19	185-187	ni	_	_	_	_	_	_	
+5-20	188-199	fortfarande	_	_	_	_	_	_	
+5-21	200-203	upp	_	_	_	_	_	_	
+5-22	204-216	rasistkortet	_	_	_	_	_	_	
+5-23	217-220	som	_	_	_	_	_	_	
+5-24	221-224	ert	_	_	_	_	_	_	
+5-25	225-232	största	_	_	_	_	_	_	
+5-26	233-244	motargument	_	_	_	_	_	_	
+5-27	244-245	?	_	_	_	_	_	_	
+5-28	245-246	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	248-249	#	_	_	_	_	_	_	
+6-2	249-250	P	_	_	_	_	_	_	
+6-3	251-254	IMM	_	_	_	_	_	_	
+6-4	254-255	.	_	_	_	_	_	_	
+
+#Text=Vill ni ha parallella samhällen där ert anarkistiska samhälle med 1000 extremister kriminella tar över hela bostadsrområden?.
+7-1	257-261	Vill	_	_	_	false	4	_	
+7-2	262-264	ni	*	_	_	_	_	_	
+7-3	265-267	ha	_	Target;Source	7-4[3];7-2	false	4	7-1	
+7-4	268-278	parallella	*[3]	_	_	_	_	_	
+7-5	279-288	samhällen	*[3]	_	_	_	_	_	
+7-6	289-292	där	*[3]	_	_	_	_	_	
+7-7	293-296	ert	*[3]	_	_	_	_	_	
+7-8	297-309	anarkistiska	*[3]	_	_	_	_	_	
+7-9	310-318	samhälle	*[3]	_	_	_	_	_	
+7-10	319-322	med	*[3]	_	_	_	_	_	
+7-11	323-327	1000	*[3]	_	_	_	_	_	
+7-12	328-339	extremister	*[3]	_	_	_	_	_	
+7-13	340-350	kriminella	*[3]	_	_	_	_	_	
+7-14	351-354	tar	*[3]	_	_	_	_	_	
+7-15	355-359	över	*[3]	_	_	_	_	_	
+7-16	360-364	hela	*[3]	_	_	_	_	_	
+7-17	365-380	bostadsrområden	*[3]	_	_	_	_	_	
+7-18	380-381	?	_	_	_	_	_	_	
+7-19	381-382	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	384-385	#	_	_	_	_	_	_	
+8-2	385-386	P	_	_	_	_	_	_	
+8-3	387-390	IMM	_	_	_	_	_	_	
+8-4	390-391	.	_	_	_	_	_	_	
+
+#Text=Är er lösning fortfarande dra upp rasistkortet?.
+9-1	393-395	Är	_	_	_	_	_	_	
+9-2	396-398	er	_	_	_	_	_	_	
+9-3	399-406	lösning	_	_	_	_	_	_	
+9-4	407-418	fortfarande	_	_	_	_	_	_	
+9-5	419-422	dra	_	_	_	_	_	_	
+9-6	423-426	upp	_	_	_	_	_	_	
+9-7	427-439	rasistkortet	_	_	_	_	_	_	
+9-8	439-440	?	_	_	_	_	_	_	
+9-9	440-441	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	443-444	#	_	_	_	_	_	_	
+10-2	444-445	P	_	_	_	_	_	_	
+10-3	446-449	IMM	_	_	_	false	2	_	
+10-4	449-450	.	_	_	_	_	_	_	
+
+#Text=Har kommunisterna fått sitt anarkistiska samhälle?
+11-1	452-455	Har	_	_	_	_	_	_	
+11-2	456-469	kommunisterna	_	_	_	_	_	_	
+11-3	470-474	fått	_	_	_	_	_	_	
+11-4	475-479	sitt	_	_	_	_	_	_	
+11-5	480-492	anarkistiska	_	_	_	_	_	_	
+11-6	493-501	samhälle	_	_	_	_	_	_	
+11-7	501-502	?	_	_	_	_	_	_	
+
+#Text=Är ökad extrem invandring fortfarande lösningen?
+12-1	503-505	Är	_	_	_	_	_	_	
+12-2	506-510	ökad	_	_	_	_	_	_	
+12-3	511-517	extrem	_	_	_	_	_	_	
+12-4	518-528	invandring	_	_	_	_	_	_	
+12-5	529-540	fortfarande	_	_	_	_	_	_	
+12-6	541-550	lösningen	_	_	_	_	_	_	
+12-7	550-551	?	_	_	_	_	_	_	
+
+#Text=Är bara svenskarna rasisterna?
+13-1	552-554	Är	_	_	_	_	_	_	
+13-2	555-559	bara	_	_	_	_	_	_	
+13-3	560-570	svenskarna	_	_	_	_	_	_	
+13-4	571-581	rasisterna	_	_	_	_	_	_	
+13-5	581-582	?	_	_	_	_	_	_	
+
+#Text=Tufft störa Jimmie Åkessons tal med "rasistskyltar"?.
+14-1	583-588	Tufft	_	Target	14-2[4]	true	4	_	
+14-2	589-594	störa	*[4]	_	_	_	_	_	
+14-3	595-601	Jimmie	*[4]	_	_	_	_	_	
+14-4	602-610	Åkessons	*[4]	_	_	_	_	_	
+14-5	611-614	tal	*[4]	_	_	_	_	_	
+14-6	615-618	med	*[4]	_	_	_	_	_	
+14-7	619-620	"	*[4]	_	_	_	_	_	
+14-8	620-633	rasistskyltar	*[4]	_	_	_	_	_	
+14-9	633-634	"	_	_	_	_	_	_	
+14-10	634-635	?	_	_	_	_	_	_	
+14-11	635-636	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	638-639	#	_	_	_	_	_	_	
+15-2	639-640	P	_	_	_	_	_	_	
+15-3	641-644	IMM	_	_	_	false	2	_	
+15-4	644-645	.	_	_	_	_	_	_	
+
+#Text=Nu har ni tjatat hit er invandring 30 år - er invadring är här nu - varför får man aldrig se er kommunister komma med förslag hur ni ska lösa de problem er invandring bidragit med?.
+16-1	647-649	Nu	_	_	_	_	_	_	
+16-2	650-653	har	_	_	_	_	_	_	
+16-3	654-656	ni	_	_	_	_	_	_	
+16-4	657-663	tjatat	_	_	_	_	_	_	
+16-5	664-667	hit	_	_	_	_	_	_	
+16-6	668-670	er	_	_	_	_	_	_	
+16-7	671-681	invandring	_	_	_	_	_	_	
+16-8	682-684	30	_	_	_	_	_	_	
+16-9	685-687	år	_	_	_	_	_	_	
+16-10	688-689	-	_	_	_	_	_	_	
+16-11	690-692	er	_	_	_	_	_	_	
+16-12	693-702	invadring	_	_	_	_	_	_	
+16-13	703-705	är	_	_	_	_	_	_	
+16-14	706-709	här	_	_	_	_	_	_	
+16-15	710-712	nu	_	_	_	_	_	_	
+16-16	713-714	-	_	_	_	_	_	_	
+16-17	715-721	varför	_	_	_	_	_	_	
+16-18	722-725	får	_	_	_	_	_	_	
+16-19	726-729	man	_	_	_	_	_	_	
+16-20	730-736	aldrig	_	_	_	_	_	_	
+16-21	737-739	se	_	_	_	_	_	_	
+16-22	740-742	er	_	_	_	_	_	_	
+16-23	743-754	kommunister	_	_	_	_	_	_	
+16-24	755-760	komma	_	_	_	_	_	_	
+16-25	761-764	med	_	_	_	_	_	_	
+16-26	765-772	förslag	_	_	_	_	_	_	
+16-27	773-776	hur	_	_	_	_	_	_	
+16-28	777-779	ni	_	_	_	_	_	_	
+16-29	780-783	ska	_	_	_	_	_	_	
+16-30	784-788	lösa	_	_	_	_	_	_	
+16-31	789-791	de	_	Target[1]	16-33[5]	false[1]	2[1]	16-35[2_1]	
+16-32	792-799	problem	_	Target[1]	16-33[5]	false[1]	2[1]	_	
+16-33	800-802	er	*[5]	_	_	_	_	_	
+16-34	803-813	invandring	*[5]	_	_	_	_	_	
+16-35	814-822	bidragit	_	_[2]	_	false[2]	2[2]	_	
+16-36	823-826	med	_	_[2]	_	false[2]	2[2]	_	
+16-37	826-827	?	_	_	_	_	_	_	
+16-38	827-828	.	_	_	_	_	_	_	

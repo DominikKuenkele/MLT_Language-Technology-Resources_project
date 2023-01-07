@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	2[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Migrationsverket välkomnar jihadister och terrorister från Syrien.
+3-1	18-34	Migrationsverket	_	_	_	_	_	
+3-2	35-44	välkomnar	_	Target	3-3[10]	false	5	
+3-3	45-55	jihadister	*[10]|*[11]	Target	3-3[11]	false	2	
+3-4	56-59	och	*[10]	_	_	_	_	
+3-5	60-71	terrorister	*[10]|*[12]	Target	3-5[12]	false	1	
+3-6	72-76	från	*[10]	_	_	_	_	
+3-7	77-83	Syrien	*[10]	_	_	_	_	
+3-8	83-84	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	86-87	#	_	_[3]	_	false[3]	2[3]	
+4-2	87-88	P	_	_[3]	_	false[3]	2[3]	
+4-3	89-92	IMM	_	_[3]	_	false[3]	2[3]	
+4-4	92-93	.	_	_	_	_	_	
+
+#Text=På grund av oroligheterna i Syrien planerar Sverige (svenska regeringen) ta emot tusentals flyktingar från Syrien.
+5-1	95-97	På	_	_	_	_	_	
+5-2	98-103	grund	_	_	_	_	_	
+5-3	104-106	av	_	_	_	_	_	
+5-4	107-120	oroligheterna	_	_	_	_	_	
+5-5	121-122	i	_	_	_	_	_	
+5-6	123-129	Syrien	_	_	_	_	_	
+5-7	130-138	planerar	_	_	_	_	_	
+5-8	139-146	Sverige	_	_	_	_	_	
+5-9	147-148	(	_	_	_	_	_	
+5-10	148-155	svenska	_	_	_	_	_	
+5-11	156-166	regeringen	_	_	_	_	_	
+5-12	166-167	)	_	_	_	_	_	
+5-13	168-170	ta	_	_	_	_	_	
+5-14	171-175	emot	_	_	_	_	_	
+5-15	176-185	tusentals	_	_	_	_	_	
+5-16	186-196	flyktingar	_	_	_	_	_	
+5-17	197-201	från	_	_	_	_	_	
+5-18	202-208	Syrien	_	_	_	_	_	
+5-19	208-209	.	_	_	_	_	_	
+
+#Text=De som tar sig från Syrien till Sverige är välkomna.
+6-1	210-212	De	*[13]	_	_	_	_	
+6-2	213-216	som	*[13]	_	_	_	_	
+6-3	217-220	tar	*[13]	_	_	_	_	
+6-4	221-224	sig	*[13]	_	_	_	_	
+6-5	225-229	från	*[13]	_	_	_	_	
+6-6	230-236	Syrien	*[13]	_	_	_	_	
+6-7	237-241	till	*[13]	_	_	_	_	
+6-8	242-249	Sverige	*[13]	_	_	_	_	
+6-9	250-252	är	_	Target[4]	6-1[13]	false[4]	5[4]	
+6-10	253-261	välkomna	_	Target[4]	6-1[13]	false[4]	5[4]	
+6-11	261-262	.	_	_	_	_	_	
+
+#Text=Dock är Sverige inte förberedda på att kontrollera inresande syrianer ifall de är riktiga syrianer eller om de är sk jihadister (muslimer från andra länder än Syrien) som varit i Syrien och stridit mot Syrien och dess regim.
+7-1	263-267	Dock	_	_	_	_	_	
+7-2	268-270	är	_	_	_	_	_	
+7-3	271-278	Sverige	_	_	_	_	_	
+7-4	279-283	inte	_	_	_	_	_	
+7-5	284-294	förberedda	_	_	_	_	_	
+7-6	295-297	på	_	_	_	_	_	
+7-7	298-301	att	_	_	_	_	_	
+7-8	302-313	kontrollera	_	_	_	_	_	
+7-9	314-323	inresande	_	_	_	_	_	
+7-10	324-332	syrianer	_	_	_	_	_	
+7-11	333-338	ifall	_	_	_	_	_	
+7-12	339-341	de	_	_	_	_	_	
+7-13	342-344	är	_	_	_	_	_	
+7-14	345-352	riktiga	_	Target	7-15	false	4	
+7-15	353-361	syrianer	*	_	_	_	_	
+7-16	362-367	eller	_	_	_	_	_	
+7-17	368-370	om	_	_	_	_	_	
+7-18	371-373	de	_	_	_	_	_	
+7-19	374-376	är	_	_	_	_	_	
+7-20	377-379	sk	_	Target	7-21[14]	false	2	
+7-21	380-390	jihadister	*[14]|*[15]	Target	7-21[15]	false	2	
+7-22	391-392	(	_	_	_	_	_	
+7-23	392-400	muslimer	_	_	_	_	_	
+7-24	401-405	från	_	_	_	_	_	
+7-25	406-411	andra	_	_	_	_	_	
+7-26	412-418	länder	_	_	_	_	_	
+7-27	419-421	än	_	_	_	_	_	
+7-28	422-428	Syrien	_	_	_	_	_	
+7-29	428-429	)	_	_	_	_	_	
+7-30	430-433	som	_	_	_	_	_	
+7-31	434-439	varit	_	_	_	_	_	
+7-32	440-441	i	_	_	_	_	_	
+7-33	442-448	Syrien	_	_	_	_	_	
+7-34	449-452	och	_	_	_	_	_	
+7-35	453-460	stridit	_	_	_	_	_	
+7-36	461-464	mot	_	_	_	_	_	
+7-37	465-471	Syrien	_	_	_	_	_	
+7-38	472-475	och	_	_	_	_	_	
+7-39	476-480	dess	_	_	_	_	_	
+7-40	481-486	regim	_	_	_	_	_	
+7-41	486-487	.	_	_	_	_	_	
+
+#Text=Flesta ankommande kommer sakna identitetshandlingar.
+8-1	488-494	Flesta	_	_	_	_	_	
+8-2	495-505	ankommande	_	_	_	_	_	
+8-3	506-512	kommer	_	_	_	_	_	
+8-4	513-518	sakna	_	_	_	_	_	
+8-5	519-539	identitetshandlingar	_	_	_	_	_	
+8-6	539-540	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	542-543	#	_	_[5]	_	false[5]	2[5]	
+9-2	543-544	P	_	_[5]	_	false[5]	2[5]	
+9-3	545-548	IMM	_	_[5]	_	false[5]	2[5]	
+9-4	548-549	.	_	_	_	_	_	
+
+#Text=Sverige och Migrationsverket kommer välkomna många av de stridande jihadisterna i Syrien.
+10-1	551-558	Sverige	*[16]	_	_	_	_	
+10-2	559-562	och	*[16]	_	_	_	_	
+10-3	563-579	Migrationsverket	*[16]	_	_	_	_	
+10-4	580-586	kommer	_	_	_	_	_	
+10-5	587-595	välkomna	_	Target;Source	10-6[17];10-1[16]	false	5	
+10-6	596-601	många	*[17]	_	_	_	_	
+10-7	602-604	av	*[17]	_	_	_	_	
+10-8	605-607	de	*[17]	_	_	_	_	
+10-9	608-617	stridande	*[17]	_	_	_	_	
+10-10	618-630	jihadisterna	*[17]|*[18]	Target	10-10[18]	false	2	
+10-11	631-632	i	*[17]	_	_	_	_	
+10-12	633-639	Syrien	*[17]	_	_	_	_	
+10-13	639-640	.	_	_	_	_	_	
+
+#Text=Jihadisterna kommer älska svenska Migrationsverket.
+11-1	641-653	Jihadisterna	*[19]|*[20]	Target	11-1[19]	false	2	
+11-2	654-660	kommer	_	_	_	_	_	
+11-3	661-666	älska	_	Target;Source	11-4[21];11-1[20]	false	5	
+11-4	667-674	svenska	*[21]	_	_	_	_	
+11-5	675-691	Migrationsverket	*[21]	_	_	_	_	
+11-6	691-692	.	_	_	_	_	_	
+
+#Text=Fri logi, mat och uppassare.
+12-1	693-696	Fri	_	_	_	_	_	
+12-2	697-701	logi	_	_	_	_	_	
+12-3	701-702	,	_	_	_	_	_	
+12-4	703-706	mat	_	_	_	_	_	
+12-5	707-710	och	_	_	_	_	_	
+12-6	711-720	uppassare	_	_	_	_	_	
+12-7	720-721	.	_	_	_	true	5	
+
+#Text=#P IMM.
+13-1	723-724	#	_	_[6]	_	false[6]	2[6]	
+13-2	724-725	P	_	_[6]	_	false[6]	2[6]	
+13-3	726-729	IMM	_	_[6]	_	false[6]	2[6]	
+13-4	729-730	.	_	_	_	_	_	
+
+#Text=Sverige ställer välvilligt upp och tar emot alla som vill hit från Syrien.
+14-1	732-739	Sverige	*	_	_	_	_	
+14-2	740-747	ställer	_	Target[7]	14-1	false[7]	5[7]	
+14-3	748-758	välvilligt	_	Target[7]	14-1	false[7]	5[7]	
+14-4	759-762	upp	_	Target[7]	14-1	false[7]	5[7]	
+14-5	763-766	och	_	_	_	_	_	
+14-6	767-770	tar	_	_	_	_	_	
+14-7	771-775	emot	_	_	_	_	_	
+14-8	776-780	alla	_	_	_	_	_	
+14-9	781-784	som	_	_	_	_	_	
+14-10	785-789	vill	_	_	_	_	_	
+14-11	790-793	hit	_	_	_	_	_	
+14-12	794-798	från	_	_	_	_	_	
+14-13	799-805	Syrien	_	_	_	_	_	
+14-14	805-806	.	_	_	_	_	_	
+
+#Text=Utan kontroll mot vilka man tar emot.
+15-1	807-811	Utan	_	_	_	_	_	
+15-2	812-820	kontroll	_	_	_	_	_	
+15-3	821-824	mot	_	_	_	_	_	
+15-4	825-830	vilka	_	_	_	_	_	
+15-5	831-834	man	_	_	_	_	_	
+15-6	835-838	tar	_	_	_	_	_	
+15-7	839-843	emot	_	_	_	_	_	
+15-8	843-844	.	_	_	_	_	_	
+
+#Text=Att kontrollera är diskriminerande och rasistiskt.
+16-1	845-848	Att	*[22]	_	_	_	_	
+16-2	849-860	kontrollera	*[22]	_	_	_	_	
+16-3	861-863	är	_	Target[8]	16-1[22]	false[8]	1[8]	
+16-4	864-879	diskriminerande	_	Target[8]	16-1[22]	false[8]	1[8]	
+16-5	880-883	och	_	Target[8]	16-1[22]	false[8]	1[8]	
+16-6	884-894	rasistiskt	_	Target[8]	16-1[22]	false[8]	1[8]	
+16-7	894-895	.	_	_	_	_	_	
+
+#Text=Ta fingeravtryck är nazistiskt.
+17-1	896-898	Ta	*[23]	_	_	_	_	
+17-2	899-912	fingeravtryck	*[23]	_	_	_	_	
+17-3	913-915	är	_	Target[9]	17-1[23]	false[9]	1[9]	
+17-4	916-926	nazistiskt	_	Target[9]	17-1[23]	false[9]	1[9]	
+17-5	926-927	.	_	_	_	_	_	
+
+#Text=Hur löser andra EU-länder detta?
+18-1	928-931	Hur	_	_	_	_	_	
+18-2	932-937	löser	_	_	_	_	_	
+18-3	938-943	andra	_	_	_	_	_	
+18-4	944-953	EU-länder	_	_	_	_	_	
+18-5	954-959	detta	_	_	_	_	_	
+18-6	959-960	?	_	_	_	_	_	
+
+#Text=Samma flathet som Sverige?.
+19-1	961-966	Samma	_	_	_	_	_	
+19-2	967-974	flathet	_	Target	19-4	false	2	
+19-3	975-978	som	_	_	_	_	_	
+19-4	979-986	Sverige	*	_	_	_	_	
+19-5	986-987	?	_	_	_	_	_	
+19-6	987-988	.	_	_	_	_	_	

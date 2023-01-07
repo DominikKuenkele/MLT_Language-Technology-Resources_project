@@ -1,0 +1,412 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=En ny invandringspolitik för Sverige i tiden.
+3-1	18-20	En	*[23]	_	_	_	_	_	
+3-2	21-23	ny	*[23]	_	_	_	_	_	
+3-3	24-42	invandringspolitik	*[23]	_	_	_	_	_	
+3-4	43-46	för	_	Target[1]	3-1[23]	false[1]	4[1]	_	
+3-5	47-54	Sverige	_	Target[1]	3-1[23]	false[1]	4[1]	_	
+3-6	55-56	i	_	Target[1]	3-1[23]	false[1]	4[1]	_	
+3-7	57-62	tiden	_	Target[1]	3-1[23]	false[1]	4[1]	_	
+3-8	62-63	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_[2]	_	false[2]	3[2]	_	
+4-2	66-67	P	_	_[2]	_	false[2]	3[2]	_	
+4-3	68-71	IMM	_	_[2]	_	false[2]	3[2]	_	
+4-4	71-72	.	_	_	_	_	_	_	
+
+#Text=Det är bra för en nation om den beblandar sig med andra raser och kulturer efter som det generar ny energi, ny inspiration och ger upphov till nya affärsmöjligheter med dessa nya invandrargruppers hemländer och ger bättre "affärs-spel" för svenskar generellt.
+5-1	74-77	Det	_	_	_	_	_	_	
+5-2	78-80	är	_	Target[3]	5-7[24]	false[3]	4[3]	_	
+5-3	81-84	bra	_	Target[3]	5-7[24]	false[3]	4[3]	_	
+5-4	85-88	för	_	_	_	_	_	_	
+5-5	89-91	en	_	_	_	_	_	_	
+5-6	92-98	nation	_	_	_	_	_	_	
+5-7	99-101	om	*[24]	_	_	_	_	_	
+5-8	102-105	den	*[24]	_	_	_	_	_	
+5-9	106-115	beblandar	*[24]|*[25]|*[26]	_	_	_	_	5-18[27_25]	
+5-10	116-119	sig	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-11	120-123	med	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-12	124-129	andra	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-13	130-135	raser	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-14	136-139	och	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-15	140-148	kulturer	*[24]|*[25]|*[26]	_	_	_	_	_	
+5-16	149-154	efter	*[24]	_	_	_	_	_	
+5-17	155-158	som	*[24]	_	_	_	_	_	
+5-18	159-162	det	*[24]|*[27]	_	_	_	_	_	
+5-19	163-170	generar	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-20	171-173	ny	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-21	174-180	energi	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-22	180-181	,	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-23	182-184	ny	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-24	185-196	inspiration	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-25	197-200	och	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-26	201-204	ger	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-27	205-211	upphov	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-28	212-216	till	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-29	217-220	nya	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-30	221-238	affärsmöjligheter	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-31	239-242	med	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-32	243-248	dessa	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-33	249-252	nya	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-34	253-270	invandrargruppers	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-35	271-280	hemländer	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-36	281-284	och	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-37	285-288	ger	*[24]	Target[4]|Target[5]	5-18[27]|5-9[26]	false[4]|false[5]	4[4]|4[5]	_	
+5-38	289-295	bättre	*[24]	Target[4]|Target[5]	5-18[27]|5-9[26]	false[4]|false[5]	4[4]|4[5]	_	
+5-39	296-297	"	*[24]	Target[4]|Target[5]	5-18[27]|5-9[26]	false[4]|false[5]	4[4]|4[5]	_	
+5-40	297-308	affärs-spel	*[24]	Target[4]|Target[5]	5-18[27]|5-9[26]	false[4]|false[5]	4[4]|4[5]	_	
+5-41	308-309	"	*[24]	Target[4]|Target[5]	5-18[27]|5-9[26]	false[4]|false[5]	4[4]|4[5]	_	
+5-42	310-313	för	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-43	314-322	svenskar	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-44	323-332	generellt	*[24]	Target[4]	5-18[27]	false[4]	4[4]	_	
+5-45	332-333	.	_	_	_	_	_	_	
+
+#Text=I jämförelse med Finland som knappt har någon invandring har Sverige haft en mycket bättre ekonomi de senaste tio åren och Helsingfors känns som en lummig småstad mot vad Stockholm har blivit.
+6-1	334-335	I	_	_	_	_	_	_	
+6-2	336-346	jämförelse	_	_	_	_	_	_	
+6-3	347-350	med	_	_	_	_	_	_	
+6-4	351-358	Finland	_	_	_	_	_	_	
+6-5	359-362	som	_	_	_	_	_	_	
+6-6	363-369	knappt	_	_	_	_	_	_	
+6-7	370-373	har	_	_	_	_	_	_	
+6-8	374-379	någon	_	_	_	_	_	_	
+6-9	380-390	invandring	_	_	_	_	_	_	
+6-10	391-394	har	_	_	_	_	_	_	
+6-11	395-402	Sverige	*	_	_	_	_	_	
+6-12	403-407	haft	_	Target[6]	6-11	false[6]	4[6]	_	
+6-13	408-410	en	_	Target[6]	6-11	false[6]	4[6]	_	
+6-14	411-417	mycket	_	Target[6]	6-11	false[6]	4[6]	_	
+6-15	418-424	bättre	_	Target[6]	6-11	false[6]	4[6]	_	
+6-16	425-432	ekonomi	_	Target[6]	6-11	false[6]	4[6]	_	
+6-17	433-435	de	_	_	_	_	_	_	
+6-18	436-443	senaste	_	_	_	_	_	_	
+6-19	444-447	tio	_	_	_	_	_	_	
+6-20	448-452	åren	_	_	_	_	_	_	
+6-21	453-456	och	_	_	_	_	_	_	
+6-22	457-468	Helsingfors	*	_	_	_	_	_	
+6-23	469-474	känns	_	Target[7]	6-22	false[7]	2[7]	_	
+6-24	475-478	som	_	Target[7]	6-22	false[7]	2[7]	_	
+6-25	479-481	en	_	Target[7]	6-22	false[7]	2[7]	_	
+6-26	482-488	lummig	_	Target[7]	6-22	false[7]	2[7]	_	
+6-27	489-496	småstad	_	Target[7]	6-22	false[7]	2[7]	_	
+6-28	497-500	mot	_	Target[7]	6-22	false[7]	2[7]	_	
+6-29	501-504	vad	_	Target[7]	6-22	false[7]	2[7]	_	
+6-30	505-514	Stockholm	_	Target[7]	6-22	false[7]	2[7]	_	
+6-31	515-518	har	_	Target[7]	6-22	false[7]	2[7]	_	
+6-32	519-525	blivit	_	Target[7]	6-22	false[7]	2[7]	_	
+6-33	525-526	.	_	_	_	_	_	_	
+
+#Text=Men invandringen ska inte endast vara inriktad på asylinvandring utan likvärdigt balansers till nationens och de som ser sig som Svenska nationalisters fördel.
+7-1	527-530	Men	_	_	_	_	_	_	
+7-2	531-543	invandringen	_	_	_	_	_	_	
+7-3	544-547	ska	_	Target[8]	7-6[28]	false[8]	2[8]	_	
+7-4	548-552	inte	_	Target[8]	7-6[28]	false[8]	2[8]	_	
+7-5	553-559	endast	_	Target[8]	7-6[28]	false[8]	2[8]	_	
+7-6	560-564	vara	*[28]	_	_	_	_	_	
+7-7	565-573	inriktad	*[28]	_	_	_	_	_	
+7-8	574-576	på	*[28]	_	_	_	_	_	
+7-9	577-591	asylinvandring	*[28]	_	_	_	_	_	
+7-10	592-596	utan	_	_	_	_	_	_	
+7-11	597-607	likvärdigt	_	_	_	_	_	_	
+7-12	608-617	balansers	_	_	_	_	_	_	
+7-13	618-622	till	_	_	_	_	_	_	
+7-14	623-632	nationens	_	_	_	_	_	_	
+7-15	633-636	och	_	_	_	_	_	_	
+7-16	637-639	de	_	_	_	_	_	_	
+7-17	640-643	som	_	_	_	_	_	_	
+7-18	644-647	ser	_	_	_	_	_	_	
+7-19	648-651	sig	_	_	_	_	_	_	
+7-20	652-655	som	_	_	_	_	_	_	
+7-21	656-663	Svenska	_	_	_	_	_	_	
+7-22	664-678	nationalisters	_	_	_	_	_	_	
+7-23	679-685	fördel	_	_	_	_	_	_	
+7-24	685-686	.	_	_	_	_	_	_	
+
+#Text=Men det finns ett antal kriterier som är viktiga för att göra om det många ser som en nackdel till en fördel.
+8-1	687-690	Men	_	_	_	_	_	_	
+8-2	691-694	det	_	_	_	_	_	_	
+8-3	695-700	finns	_	_	_	_	_	_	
+8-4	701-704	ett	_	_	_	_	_	_	
+8-5	705-710	antal	_	_	_	_	_	_	
+8-6	711-720	kriterier	_	_	_	_	_	_	
+8-7	721-724	som	_	_	_	_	_	_	
+8-8	725-727	är	_	_	_	_	_	_	
+8-9	728-735	viktiga	_	_	_	_	_	_	
+8-10	736-739	för	_	_	_	_	_	_	
+8-11	740-743	att	_	_	_	_	_	_	
+8-12	744-748	göra	_	_	_	_	_	_	
+8-13	749-751	om	_	_	_	_	_	_	
+8-14	752-755	det	_	_	_	_	_	_	
+8-15	756-761	många	_	_	_	_	_	_	
+8-16	762-765	ser	_	_	_	_	_	_	
+8-17	766-769	som	_	_	_	_	_	_	
+8-18	770-772	en	_	_	_	_	_	_	
+8-19	773-780	nackdel	_	_	_	_	_	_	
+8-20	781-785	till	_	_	_	_	_	_	
+8-21	786-788	en	_	_	_	_	_	_	
+8-22	789-795	fördel	_	_	_	_	_	_	
+8-23	795-796	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	798-799	#	_	_[9]	_	false[9]	3[9]	_	
+9-2	799-800	P	_	_[9]	_	false[9]	3[9]	_	
+9-3	801-804	IMM	_	_[9]	_	false[9]	3[9]	_	
+9-4	804-805	.	_	_	_	_	_	_	
+
+#Text=Nr. 1 Ingen människa kan jobba hela tiden utan det måste finnas tid för sömn, återhämtning och reflektion.
+10-1	807-809	Nr	_	_	_	_	_	_	
+10-2	809-810	.	_	_	_	_	_	_	
+10-3	811-812	1	_	_	_	_	_	_	
+10-4	813-818	Ingen	_	_	_	_	_	_	
+10-5	819-827	människa	_	_	_	_	_	_	
+10-6	828-831	kan	_	_	_	_	_	_	
+10-7	832-837	jobba	_	_	_	_	_	_	
+10-8	838-842	hela	_	_	_	_	_	_	
+10-9	843-848	tiden	_	_	_	_	_	_	
+10-10	849-853	utan	_	_	_	_	_	_	
+10-11	854-857	det	_	_	_	_	_	_	
+10-12	858-863	måste	_	_	_	_	_	_	
+10-13	864-870	finnas	_	_	_	_	_	_	
+10-14	871-874	tid	_	_	_	_	_	_	
+10-15	875-878	för	_	_	_	_	_	_	
+10-16	879-883	sömn	_	_	_	_	_	_	
+10-17	883-884	,	_	_	_	_	_	_	
+10-18	885-897	återhämtning	_	_	_	_	_	_	
+10-19	898-901	och	_	_	_	_	_	_	
+10-20	902-912	reflektion	_	_	_	_	_	_	
+10-21	912-913	.	_	_	_	_	_	_	
+
+#Text=Med andra ord invandringen ska ske i vågor med toppar under vissa perioder och dalar under andra perioder.
+11-1	914-917	Med	_	_	_	_	_	_	
+11-2	918-923	andra	_	_	_	_	_	_	
+11-3	924-927	ord	_	_	_	_	_	_	
+11-4	928-940	invandringen	_	_	_	_	_	_	
+11-5	941-944	ska	_	_	_	_	_	_	
+11-6	945-948	ske	_	_	_	_	_	_	
+11-7	949-950	i	_	_	_	_	_	_	
+11-8	951-956	vågor	_	_	_	_	_	_	
+11-9	957-960	med	_	_	_	_	_	_	
+11-10	961-967	toppar	_	_	_	_	_	_	
+11-11	968-973	under	_	_	_	_	_	_	
+11-12	974-979	vissa	_	_	_	_	_	_	
+11-13	980-988	perioder	_	_	_	_	_	_	
+11-14	989-992	och	_	_	_	_	_	_	
+11-15	993-998	dalar	_	_	_	_	_	_	
+11-16	999-1004	under	_	_	_	_	_	_	
+11-17	1005-1010	andra	_	_	_	_	_	_	
+11-18	1011-1019	perioder	_	_	_	_	_	_	
+11-19	1019-1020	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+12-1	1022-1023	#	_	_[10]	_	false[10]	2[10]	_	
+12-2	1023-1024	P	_	_[10]	_	false[10]	2[10]	_	
+12-3	1025-1028	IMM	_	_[10]	_	false[10]	2[10]	_	
+12-4	1028-1029	.	_	_	_	_	_	_	
+
+#Text=Nr. 2 Ingen grupp av nytillkomna ska ha rätt att bli så stor att den kan påverka Sverige för mycket.
+13-1	1031-1033	Nr	_	_	_	_	_	_	
+13-2	1033-1034	.	_	_	_	_	_	_	
+13-3	1035-1036	2	_	_	_	_	_	_	
+13-4	1037-1042	Ingen	_	_	_	_	_	_	
+13-5	1043-1048	grupp	_	_	_	_	_	_	
+13-6	1049-1051	av	_	_	_	_	_	_	
+13-7	1052-1063	nytillkomna	_	_	_	_	_	_	
+13-8	1064-1067	ska	_	_	_	_	_	_	
+13-9	1068-1070	ha	_	_	_	_	_	_	
+13-10	1071-1075	rätt	_	_	_	_	_	_	
+13-11	1076-1079	att	_	_	_	_	_	_	
+13-12	1080-1083	bli	_	_	_	_	_	_	
+13-13	1084-1086	så	_	_	_	_	_	_	
+13-14	1087-1091	stor	_	_	_	_	_	_	
+13-15	1092-1095	att	_	_	_	_	_	_	
+13-16	1096-1099	den	_	_	_	_	_	_	
+13-17	1100-1103	kan	_	_	_	_	_	_	
+13-18	1104-1111	påverka	_	_	_	_	_	_	
+13-19	1112-1119	Sverige	_	_	_	_	_	_	
+13-20	1120-1123	för	_	_	_	_	_	_	
+13-21	1124-1130	mycket	_	_	_	_	_	_	
+13-22	1130-1131	.	_	_	_	_	_	_	
+
+#Text=Det är rätt att sätta en gräns på mellan 50-100 000.
+14-1	1132-1135	Det	_	_	_	_	_	_	
+14-2	1136-1138	är	_	Target[11]	14-4[29]	false[11]	5[11]	_	
+14-3	1139-1143	rätt	_	Target[11]	14-4[29]	false[11]	5[11]	_	
+14-4	1144-1147	att	*[29]	_	_	_	_	_	
+14-5	1148-1153	sätta	*[29]	_	_	_	_	_	
+14-6	1154-1156	en	*[29]	_	_	_	_	_	
+14-7	1157-1162	gräns	*[29]	_	_	_	_	_	
+14-8	1163-1165	på	*[29]	_	_	_	_	_	
+14-9	1166-1172	mellan	*[29]	_	_	_	_	_	
+14-10	1173-1175	50	*[29]	_	_	_	_	_	
+14-11	1175-1176	-	*[29]	_	_	_	_	_	
+14-12	1176-1179	100	*[29]	_	_	_	_	_	
+14-13	1180-1183	000	*[29]	_	_	_	_	_	
+14-14	1183-1184	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1186-1187	#	_	_[12]	_	false[12]	3[12]	_	
+15-2	1187-1188	P	_	_[12]	_	false[12]	3[12]	_	
+15-3	1189-1192	IMM	_	_[12]	_	false[12]	3[12]	_	
+15-4	1192-1193	.	_	_	_	_	_	_	
+
+#Text=Nr. 3 Invandringen ska alltid vara könsbalanserad så att lika många män som kvinnor får rätt att stanna - detta skapar minst belastning på integration och ger störst vinst för Sverige.
+16-1	1195-1197	Nr	_	_	_	_	_	_	
+16-2	1197-1198	.	_	_	_	_	_	_	
+16-3	1199-1200	3	_	_	_	_	_	_	
+16-4	1201-1213	Invandringen	*[30]|*[31]	_	_	_	_	16-21[32_30]|16-21[33_31]	
+16-5	1214-1217	ska	*[30]|*[31]	_	_	_	_	_	
+16-6	1218-1224	alltid	*[30]|*[31]	_	_	_	_	_	
+16-7	1225-1229	vara	*[30]|*[31]	_	_	_	_	_	
+16-8	1230-1244	könsbalanserad	*[30]|*[31]	_	_	_	_	_	
+16-9	1245-1247	så	*[30]|*[31]	_	_	_	_	_	
+16-10	1248-1251	att	*[30]|*[31]	_	_	_	_	_	
+16-11	1252-1256	lika	*[30]|*[31]	_	_	_	_	_	
+16-12	1257-1262	många	*[30]|*[31]	_	_	_	_	_	
+16-13	1263-1266	män	*[30]|*[31]	_	_	_	_	_	
+16-14	1267-1270	som	*[30]|*[31]	_	_	_	_	_	
+16-15	1271-1278	kvinnor	*[30]|*[31]	_	_	_	_	_	
+16-16	1279-1282	får	*[30]|*[31]	_	_	_	_	_	
+16-17	1283-1287	rätt	*[30]|*[31]	_	_	_	_	_	
+16-18	1288-1291	att	*[30]|*[31]	_	_	_	_	_	
+16-19	1292-1298	stanna	*[30]|*[31]	_	_	_	_	_	
+16-20	1299-1300	-	_	_	_	_	_	_	
+16-21	1301-1306	detta	*[32]|*[33]	_	_	_	_	_	
+16-22	1307-1313	skapar	_	Target[13]	16-21[32]	false[13]	3[13]	_	
+16-23	1314-1319	minst	_	Target[13]	16-21[32]	false[13]	3[13]	_	
+16-24	1320-1330	belastning	_	Target[13]	16-21[32]	false[13]	3[13]	_	
+16-25	1331-1333	på	_	_	_	_	_	_	
+16-26	1334-1345	integration	_	_	_	_	_	_	
+16-27	1346-1349	och	_	_	_	_	_	_	
+16-28	1350-1353	ger	_	Target[14]	16-21[33]	false[14]	4[14]	_	
+16-29	1354-1360	störst	_	Target[14]	16-21[33]	false[14]	4[14]	_	
+16-30	1361-1366	vinst	_	Target[14]	16-21[33]	false[14]	4[14]	_	
+16-31	1367-1370	för	_	_	_	_	_	_	
+16-32	1371-1378	Sverige	_	_	_	_	_	_	
+16-33	1378-1379	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1381-1382	#	_	_[15]	_	false[15]	2[15]	_	
+17-2	1382-1383	P	_	_[15]	_	false[15]	2[15]	_	
+17-3	1384-1387	IMM	_	_[15]	_	false[15]	2[15]	_	
+17-4	1387-1388	.	_	_	_	_	_	_	
+
+#Text=Nr. 4 Invandrare ska få rätt att gratis byta förnamn eller efternamn till ett namn som klingar rätt i Sverige.
+18-1	1390-1392	Nr	_	_	_	_	_	_	
+18-2	1392-1393	.	_	_	_	_	_	_	
+18-3	1394-1395	4	_	_	_	_	_	_	
+18-4	1396-1406	Invandrare	_	_	_	_	_	_	
+18-5	1407-1410	ska	_	_	_	_	_	_	
+18-6	1411-1413	få	_	_	_	_	_	_	
+18-7	1414-1418	rätt	_	_	_	_	_	_	
+18-8	1419-1422	att	*[34]	_	_	_	_	19-1[0_34]	
+18-9	1423-1429	gratis	*[34]	_	_	_	_	_	
+18-10	1430-1434	byta	*[34]	_	_	_	_	_	
+18-11	1435-1442	förnamn	*[34]	_	_	_	_	_	
+18-12	1443-1448	eller	*[34]	_	_	_	_	_	
+18-13	1449-1458	efternamn	*[34]	_	_	_	_	_	
+18-14	1459-1463	till	*[34]	_	_	_	_	_	
+18-15	1464-1467	ett	*[34]	_	_	_	_	_	
+18-16	1468-1472	namn	*[34]	_	_	_	_	_	
+18-17	1473-1476	som	*[34]	_	_	_	_	_	
+18-18	1477-1484	klingar	*[34]	_[16]	_	false[16]	4[16]	_	
+18-19	1485-1489	rätt	*[34]	_[16]	_	false[16]	4[16]	_	
+18-20	1490-1491	i	*[34]	_	_	_	_	_	
+18-21	1492-1499	Sverige	*[34]	_	_	_	_	_	
+18-22	1499-1500	.	_	_	_	_	_	_	
+
+#Text=Det genererar respekt hos svenskar och visar att individen vill integreras och bli en del av Sverige.
+19-1	1501-1504	Det	*	_	_	_	_	_	
+19-2	1505-1514	genererar	_	Target[17]	19-1	false[17]	4[17]	_	
+19-3	1515-1522	respekt	_	Target[17]	19-1	false[17]	4[17]	_	
+19-4	1523-1526	hos	_	_	_	_	_	_	
+19-5	1527-1535	svenskar	_	_	_	_	_	_	
+19-6	1536-1539	och	_	_	_	_	_	_	
+19-7	1540-1545	visar	_	_	_	_	_	_	
+19-8	1546-1549	att	_	_	_	_	_	_	
+19-9	1550-1559	individen	_	_	_	_	_	_	
+19-10	1560-1564	vill	_	_	_	_	_	_	
+19-11	1565-1575	integreras	_	_	_	_	_	_	
+19-12	1576-1579	och	_	_	_	_	_	_	
+19-13	1580-1583	bli	_	_	_	_	_	_	
+19-14	1584-1586	en	_	_	_	_	_	_	
+19-15	1587-1590	del	_	_	_	_	_	_	
+19-16	1591-1593	av	_	_	_	_	_	_	
+19-17	1594-1601	Sverige	_	_	_	_	_	_	
+19-18	1601-1602	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1604-1605	#	_	_[18]	_	false[18]	3[18]	_	
+20-2	1605-1606	P	_	_[18]	_	false[18]	3[18]	_	
+20-3	1607-1610	IMM	_	_[18]	_	false[18]	3[18]	_	
+20-4	1610-1611	.	_	_	_	_	_	_	
+
+#Text=Nr. 5 Jobb driven akademisk invandring från u-länder ska uppmuntras för det täpper igen eventuell kompetensbrist och sätter invandringen i sig i bättre ljus till många svenskar som idag är så kritiska till den.
+21-1	1613-1615	Nr	_	_	_	_	_	_	
+21-2	1615-1616	.	_	_	_	_	_	_	
+21-3	1617-1618	5	_	_	_	_	_	_	
+21-4	1619-1623	Jobb	*[35]|*[36]	_	_	_	_	21-13[0_36]	
+21-5	1624-1630	driven	*[35]|*[36]	_	_	_	_	_	
+21-6	1631-1640	akademisk	*[35]|*[36]	_	_	_	_	_	
+21-7	1641-1651	invandring	*[35]|*[36]	_	_	_	_	_	
+21-8	1652-1656	från	*[35]|*[36]	_	_	_	_	_	
+21-9	1657-1665	u-länder	*[35]|*[36]	_	_	_	_	_	
+21-10	1666-1669	ska	_	Target[19]	21-4[35]	false[19]	4[19]	_	
+21-11	1670-1680	uppmuntras	_	Target[19]	21-4[35]	false[19]	4[19]	_	
+21-12	1681-1684	för	_	_	_	_	_	_	
+21-13	1685-1688	det	*	_	_	_	_	_	
+21-14	1689-1695	täpper	_	Target[20]	21-13	false[20]	4[20]	_	
+21-15	1696-1700	igen	_	Target[20]	21-13	false[20]	4[20]	_	
+21-16	1701-1710	eventuell	_	Target[20]	21-13	false[20]	4[20]	_	
+21-17	1711-1725	kompetensbrist	_	Target[20]	21-13	false[20]	4[20]	_	
+21-18	1726-1729	och	_	_	_	_	_	_	
+21-19	1730-1736	sätter	_	_	_	false	4	_	
+21-20	1737-1749	invandringen	*[37]|*[38]	_	_	_	_	21-35[0_38]	
+21-21	1750-1751	i	_	_	_	_	_	_	
+21-22	1752-1755	sig	_	Target;Source[21]	21-20[37];21-27[39]	false[21]	4[21]	_	
+21-23	1756-1757	i	_	Target;Source[21]	21-20[37];21-27[39]	false[21]	4[21]	_	
+21-24	1758-1764	bättre	_	Target;Source[21]	21-20[37];21-27[39]	false[21]	4[21]	_	
+21-25	1765-1769	ljus	_	Target;Source[21]	21-20[37];21-27[39]	false[21]	4[21]	_	
+21-26	1770-1774	till	_	_	_	_	_	_	
+21-27	1775-1780	många	*[39]|*[40]	_	_	_	_	21-29[0_40]	
+21-28	1781-1789	svenskar	*[39]|*[40]	_	_	_	_	_	
+21-29	1790-1793	som	*	_	_	_	_	_	
+21-30	1794-1798	idag	_	_	_	_	_	_	
+21-31	1799-1801	är	_	Target;Source[22]	21-35;21-29	false[22]	2[22]	_	
+21-32	1802-1804	så	_	Target;Source[22]	21-35;21-29	false[22]	2[22]	_	
+21-33	1805-1813	kritiska	_	Target;Source[22]	21-35;21-29	false[22]	2[22]	_	
+21-34	1814-1818	till	_	_	_	_	_	_	
+21-35	1819-1822	den	*	_	_	_	_	_	
+21-36	1822-1823	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1825-1826	#	_	_	_	_	_	_	
+22-2	1826-1827	P	_	_	_	_	_	_	
+22-3	1828-1831	IMM	_	_	_	_	_	_	
+22-4	1831-1832	.	_	_	_	_	_	_	
+
+#Text=Vad finns det för invändningar?.
+23-1	1834-1837	Vad	_	_	_	_	_	_	
+23-2	1838-1843	finns	_	_	_	_	_	_	
+23-3	1844-1847	det	_	_	_	_	_	_	
+23-4	1848-1851	för	_	_	_	_	_	_	
+23-5	1852-1864	invändningar	_	_	_	_	_	_	
+23-6	1864-1865	?	_	_	_	_	_	_	
+23-7	1865-1866	.	_	_	_	_	_	_	

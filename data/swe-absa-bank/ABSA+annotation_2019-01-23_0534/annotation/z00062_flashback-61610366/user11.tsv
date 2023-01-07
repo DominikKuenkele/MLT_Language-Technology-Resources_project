@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Åsa Lindhagen, MP, ljuger om att servicehus inte stängs till förmån för asylsökande.
+3-1	18-21	Åsa	*[5]	_	_	_	_	
+3-2	22-31	Lindhagen	*[5]	_	_	_	_	
+3-3	31-32	,	_	_	_	_	_	
+3-4	33-35	MP	_	_	_	_	_	
+3-5	35-36	,	_	_	_	_	_	
+3-6	37-43	ljuger	_	Target	3-1[5]	false	1	
+3-7	44-46	om	_	_	_	_	_	
+3-8	47-50	att	_	_	_	_	_	
+3-9	51-61	servicehus	_	_	_	_	_	
+3-10	62-66	inte	_	_	_	_	_	
+3-11	67-73	stängs	_	_	_	_	_	
+3-12	74-78	till	_	_	_	_	_	
+3-13	79-85	förmån	_	_	_	_	_	
+3-14	86-89	för	_	_	_	_	_	
+3-15	90-101	asylsökande	_	_	_	_	_	
+3-16	101-102	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	104-105	#	_	_	_	_	_	
+4-2	105-106	P	_	_	_	_	_	
+4-3	107-110	IMM	_	_	_	_	_	
+4-4	110-111	.	_	_	_	_	_	
+
+#Text=Ytterligare hån från Åsa Lindhagen (MP), socialborgarråd, Stockholms stad.
+5-1	113-124	Ytterligare	_	_	_	_	_	
+5-2	125-128	hån	_	Source	5-4[6]	false	1	
+5-3	129-133	från	_	_	_	_	_	
+5-4	134-137	Åsa	*[6]	_	_	_	_	
+5-5	138-147	Lindhagen	*[6]	_	_	_	_	
+5-6	148-149	(	_	_	_	_	_	
+5-7	149-151	MP	_	_	_	_	_	
+5-8	151-152	)	_	_	_	_	_	
+5-9	152-153	,	_	_	_	_	_	
+5-10	154-169	socialborgarråd	_	_	_	_	_	
+5-11	169-170	,	_	_	_	_	_	
+5-12	171-181	Stockholms	_	_	_	_	_	
+5-13	182-186	stad	_	_	_	_	_	
+5-14	186-187	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	189-190	#	_	_	_	_	_	
+6-2	190-191	P	_	_	_	_	_	
+6-3	192-195	IMM	_	_	_	_	_	
+6-4	195-196	.	_	_	_	_	_	
+
+#Text=Vad säger ni om denna artikel av Åsa Lindhagen?.
+7-1	198-201	Vad	_	_	_	_	_	
+7-2	202-207	säger	_	_	_	_	_	
+7-3	208-210	ni	_	_	_	_	_	
+7-4	211-213	om	_	_	_	_	_	
+7-5	214-219	denna	_	_	_	_	_	
+7-6	220-227	artikel	_	_	_	_	_	
+7-7	228-230	av	_	_	_	_	_	
+7-8	231-234	Åsa	_	_	_	_	_	
+7-9	235-244	Lindhagen	_	_	_	_	_	
+7-10	244-245	?	_	_	_	_	_	
+7-11	245-246	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	248-249	#	_	_	_	_	_	
+8-2	249-250	P	_	_	_	_	_	
+8-3	251-254	IMM	_	_	_	_	_	
+8-4	254-255	.	_	_	_	_	_	
+
+#Text=Fakta är att:.
+9-1	257-262	Fakta	_	_	_	_	_	
+9-2	263-265	är	_	_	_	_	_	
+9-3	266-269	att	_	_	_	_	_	
+9-4	269-270	:	_	_	_	_	_	
+9-5	270-271	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	273-274	#	_	_	_	_	_	
+10-2	274-275	P	_	_[3]	_	false[3]	3[3]	
+10-3	276-279	IMM	_	_[3]	_	false[3]	3[3]	
+10-4	279-280	.	_	_	_	_	_	
+
+#Text=Servicehus som gjorts om till boende för nyanlända:.
+11-1	282-292	Servicehus	_	_	_	_	_	
+11-2	293-296	som	_	_	_	_	_	
+11-3	297-303	gjorts	_	_	_	_	_	
+11-4	304-306	om	_	_	_	_	_	
+11-5	307-311	till	_	_	_	_	_	
+11-6	312-318	boende	_	_	_	_	_	
+11-7	319-322	för	_	_	_	_	_	
+11-8	323-332	nyanlända	_	_	_	_	_	
+11-9	332-333	:	_	_	_	_	_	
+11-10	333-334	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	336-337	#	_	_	_	_	_	
+12-2	337-338	P	_	_[4]	_	false[4]	3[4]	
+12-3	339-342	IMM	_	_[4]	_	false[4]	3[4]	
+12-4	342-343	.	_	_	_	_	_	
+
+#Text=Har vänsterextrema Åsa Lindhagen rätt i sin debattartikel, när hon påstår att asylsökande inte ges bostäder från andra grupper?.
+13-1	345-348	Har	_	_	_	_	_	
+13-2	349-363	vänsterextrema	_	Target	13-3[7]	false	1	
+13-3	364-367	Åsa	*[7]	_	_	_	_	
+13-4	368-377	Lindhagen	*[7]	_	_	_	_	
+13-5	378-382	rätt	_	_	_	_	_	
+13-6	383-384	i	_	_	_	_	_	
+13-7	385-388	sin	_	_	_	_	_	
+13-8	389-402	debattartikel	_	_	_	_	_	
+13-9	402-403	,	_	_	_	_	_	
+13-10	404-407	när	_	_	_	_	_	
+13-11	408-411	hon	*	_	_	_	_	
+13-12	412-418	påstår	_	Target;Source	13-14[8];13-11	false	4	
+13-13	419-422	att	_	_	_	_	_	
+13-14	423-434	asylsökande	*[8]	_	_	_	_	
+13-15	435-439	inte	*[8]	_	_	_	_	
+13-16	440-443	ges	*[8]	_	_	_	_	
+13-17	444-452	bostäder	*[8]	_	_	_	_	
+13-18	453-457	från	*[8]	_	_	_	_	
+13-19	458-463	andra	*[8]	_	_	_	_	
+13-20	464-471	grupper	*[8]	_	_	_	_	
+13-21	471-472	?	_	_	_	_	_	
+13-22	472-473	.	_	_	_	_	_	

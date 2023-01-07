@@ -1,0 +1,1319 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tillåt surrogatmoderskap i Sverige.
+3-1	18-24	Tillåt	_	Target	3-2[18]	false	4	_	_	
+3-2	25-42	surrogatmoderskap	*[18]	_	_	_	_	_	_	
+3-3	43-44	i	*[18]	_	_	_	_	_	_	
+3-4	45-52	Sverige	*[18]	_	_	_	_	_	_	
+3-5	52-53	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	55-56	#	_	_	_	_	_	_	_	
+4-2	56-57	P	_	_	_	_	_	_	_	
+4-3	58-61	IMM	_	_	_	_	_	_	_	
+4-4	61-62	.	_	_	_	_	_	_	_	
+
+#Text=Statens medicinsk-etiska råd uttalar sig enigt för att man bör tillåta donation av befruktade ägg.
+5-1	64-71	Statens	*[19]	_	_	_	_	_	_	
+5-2	72-88	medicinsk-etiska	*[19]	_	_	_	_	_	_	
+5-3	89-92	råd	*[19]	_	_	_	_	_	_	
+5-4	93-100	uttalar	_	_	_	_	_	_	_	
+5-5	101-104	sig	_	_	_	_	_	_	_	
+5-6	105-110	enigt	_	_	_	_	_	_	_	
+5-7	111-114	för	_	_	_	_	_	_	_	
+5-8	115-118	att	_	_	_	_	_	_	_	
+5-9	119-122	man	_	_	_	_	_	_	_	
+5-10	123-126	bör	_	Target;Source[1]	5-12[20];5-1[19]	false[1]	4[1]	_	_	
+5-11	127-134	tillåta	_	Target;Source[1]	5-12[20];5-1[19]	false[1]	4[1]	_	_	
+5-12	135-143	donation	*[20]	_	_	_	_	_	_	
+5-13	144-146	av	*[20]	_	_	_	_	_	_	
+5-14	147-157	befruktade	*[20]	_	_	_	_	_	_	
+5-15	158-161	ägg	*[20]	_	_	_	_	_	_	
+5-16	161-162	.	_	_	_	_	_	_	_	
+
+#Text=En majoritet av rådets ledamöter anser också att surrogatmoderskap kan vara etiskt godtagbart, skriver tre representanter för rådet.
+6-1	163-165	En	*[21]	_	_	_	_	_	_	
+6-2	166-175	majoritet	*[21]	_	_	_	_	_	_	
+6-3	176-178	av	*[21]	_	_	_	_	_	_	
+6-4	179-185	rådets	*[21]	_	_	_	_	_	_	
+6-5	186-195	ledamöter	*[21]	_	_	_	_	_	_	
+6-6	196-201	anser	_	_	_	_	_	_	_	
+6-7	202-207	också	_	_	_	_	_	_	_	
+6-8	208-211	att	_	_	_	_	_	_	_	
+6-9	212-229	surrogatmoderskap	*	_	_	_	_	_	_	
+6-10	230-233	kan	_	Source;Target[2]	6-1[21];6-9	false[2]	3[2]	_	_	
+6-11	234-238	vara	_	Source;Target[2]	6-1[21];6-9	false[2]	3[2]	_	_	
+6-12	239-245	etiskt	_	Source;Target[2]	6-1[21];6-9	false[2]	3[2]	_	_	
+6-13	246-256	godtagbart	_	Source;Target[2]	6-1[21];6-9	false[2]	3[2]	_	_	
+6-14	256-257	,	_	_	_	_	_	_	_	
+6-15	258-265	skriver	_	_	_	_	_	_	_	
+6-16	266-269	tre	_	_	_	_	_	_	_	
+6-17	270-284	representanter	_	_	_	_	_	_	_	
+6-18	285-288	för	_	_	_	_	_	_	_	
+6-19	289-294	rådet	_	_	_	_	_	_	_	
+6-20	294-295	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	297-298	#	_	_	_	_	_	_	_	
+7-2	298-299	P	_	_	_	_	_	_	_	
+7-3	300-303	IMM	_	_	_	_	_	_	_	
+7-4	303-304	.	_	_	_	_	_	_	_	
+
+#Text=Etiska ställningstaganden inom hälso- och sjukvården behöver då och då ses över.
+8-1	306-312	Etiska	_	_	_	_	_	_	_	
+8-2	313-331	ställningstaganden	_	_	_	_	_	_	_	
+8-3	332-336	inom	_	_	_	_	_	_	_	
+8-4	337-342	hälso	_	_	_	_	_	_	_	
+8-5	342-343	-	_	_	_	_	_	_	_	
+8-6	344-347	och	_	_	_	_	_	_	_	
+8-7	348-358	sjukvården	_	_	_	_	_	_	_	
+8-8	359-366	behöver	_	_	_	_	_	_	_	
+8-9	367-369	då	_	_	_	_	_	_	_	
+8-10	370-373	och	_	_	_	_	_	_	_	
+8-11	374-376	då	_	_	_	_	_	_	_	
+8-12	377-380	ses	_	_	_	_	_	_	_	
+8-13	381-385	över	_	_	_	_	_	_	_	
+8-14	385-386	.	_	_	_	_	_	_	_	
+
+#Text=Man behöver ta ställning till de nya medicinska metoder som utvecklas, men också till de värdeförskjutningar som sker i samhället.
+9-1	387-390	Man	_	_	_	_	_	_	_	
+9-2	391-398	behöver	_	_	_	_	_	_	_	
+9-3	399-401	ta	_	_	_	_	_	_	_	
+9-4	402-411	ställning	_	_	_	_	_	_	_	
+9-5	412-416	till	_	_	_	_	_	_	_	
+9-6	417-419	de	_	_	_	_	_	_	_	
+9-7	420-423	nya	_	_	_	_	_	_	_	
+9-8	424-434	medicinska	_	_	_	_	_	_	_	
+9-9	435-442	metoder	_	_	_	_	_	_	_	
+9-10	443-446	som	_	_	_	_	_	_	_	
+9-11	447-456	utvecklas	_	_	_	_	_	_	_	
+9-12	456-457	,	_	_	_	_	_	_	_	
+9-13	458-461	men	_	_	_	_	_	_	_	
+9-14	462-467	också	_	_	_	_	_	_	_	
+9-15	468-472	till	_	_	_	_	_	_	_	
+9-16	473-475	de	_	_	_	_	_	_	_	
+9-17	476-495	värdeförskjutningar	_	_	_	_	_	_	_	
+9-18	496-499	som	_	_	_	_	_	_	_	
+9-19	500-504	sker	_	_	_	_	_	_	_	
+9-20	505-506	i	_	_	_	_	_	_	_	
+9-21	507-516	samhället	_	_	_	_	_	_	_	
+9-22	516-517	.	_	_	_	_	_	_	_	
+
+#Text=Ny kunskap kan göra att tidigare ställningstaganden kan behöva omprövas.
+10-1	518-520	Ny	_	_	_	_	_	_	_	
+10-2	521-528	kunskap	_	_	_	_	_	_	_	
+10-3	529-532	kan	_	_	_	_	_	_	_	
+10-4	533-537	göra	_	_	_	_	_	_	_	
+10-5	538-541	att	_	_	_	_	_	_	_	
+10-6	542-550	tidigare	_	_	_	_	_	_	_	
+10-7	551-569	ställningstaganden	_	_	_	_	_	_	_	
+10-8	570-573	kan	_	_	_	_	_	_	_	
+10-9	574-580	behöva	_	_	_	_	_	_	_	
+10-10	581-589	omprövas	_	_	_	_	_	_	_	
+10-11	589-590	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	592-593	#	_	_	_	_	_	_	_	
+11-2	593-594	P	_	_	_	_	_	_	_	
+11-3	595-598	IMM	_	_	_	_	_	_	_	
+11-4	598-599	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	601-604	Det	_	_	_	_	_	_	_	
+12-2	605-608	här	_	_	_	_	_	_	_	
+12-3	609-611	är	_	_	_	_	_	_	_	
+12-4	612-614	en	_	_	_	_	_	_	_	
+12-5	615-629	argumenterande	_	_	_	_	_	_	_	
+12-6	630-634	text	_	_	_	_	_	_	_	
+12-7	635-638	med	_	_	_	_	_	_	_	
+12-8	639-644	syfte	_	_	_	_	_	_	_	
+12-9	645-648	att	_	_	_	_	_	_	_	
+12-10	649-656	påverka	_	_	_	_	_	_	_	
+12-11	656-657	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	658-667	Åsikterna	_	_	_	_	_	_	_	
+13-2	668-671	som	_	_	_	_	_	_	_	
+13-3	672-680	uttrycks	_	_	_	_	_	_	_	
+13-4	681-683	är	_	_	_	_	_	_	_	
+13-5	684-695	skribentens	_	_	_	_	_	_	_	
+13-6	696-700	egna	_	_	_	_	_	_	_	
+13-7	700-701	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	703-704	#	_	_	_	_	_	_	_	
+14-2	704-705	P	_	_	_	_	_	_	_	
+14-3	706-709	IMM	_	_	_	_	_	_	_	
+14-4	709-710	.	_	_	_	_	_	_	_	
+
+#Text=Statens medicinsk-etiska råd (Smer) är rådgivande till regering och riksdag och består av representanter för samtliga riksdagspartier utom SD (som valt att avstå).
+15-1	712-719	Statens	_	_	_	_	_	_	_	
+15-2	720-736	medicinsk-etiska	_	_	_	_	_	_	_	
+15-3	737-740	råd	_	_	_	_	_	_	_	
+15-4	741-742	(	_	_	_	_	_	_	_	
+15-5	742-746	Smer	_	_	_	_	_	_	_	
+15-6	746-747	)	_	_	_	_	_	_	_	
+15-7	748-750	är	_	_	_	_	_	_	_	
+15-8	751-761	rådgivande	_	_	_	_	_	_	_	
+15-9	762-766	till	_	_	_	_	_	_	_	
+15-10	767-775	regering	_	_	_	_	_	_	_	
+15-11	776-779	och	_	_	_	_	_	_	_	
+15-12	780-787	riksdag	_	_	_	_	_	_	_	
+15-13	788-791	och	_	_	_	_	_	_	_	
+15-14	792-798	består	_	_	_	_	_	_	_	
+15-15	799-801	av	_	_	_	_	_	_	_	
+15-16	802-816	representanter	_	_	_	_	_	_	_	
+15-17	817-820	för	_	_	_	_	_	_	_	
+15-18	821-829	samtliga	_	_	_	_	_	_	_	
+15-19	830-845	riksdagspartier	_	_	_	_	_	_	_	
+15-20	846-850	utom	_	_	_	_	_	_	_	
+15-21	851-853	SD	_	_	_	_	_	_	_	
+15-22	854-855	(	_	_	_	_	_	_	_	
+15-23	855-858	som	_	_	_	_	_	_	_	
+15-24	859-863	valt	_	_	_	_	_	_	_	
+15-25	864-867	att	_	_	_	_	_	_	_	
+15-26	868-873	avstå	_	_	_	_	_	_	_	
+15-27	873-874	)	_	_	_	_	_	_	_	
+15-28	874-875	.	_	_	_	_	_	_	_	
+
+#Text=Experter med bred kompetens inom medicinsk etik är knutna till rådet. 1995 kom Smer med en rapport om behandling av ofrivillig barnlöshet som kom att få stor betydelse för lagstiftningen.
+16-1	876-884	Experter	_	_	_	_	_	_	_	
+16-2	885-888	med	_	_	_	_	_	_	_	
+16-3	889-893	bred	_	_	_	_	_	_	_	
+16-4	894-903	kompetens	_	_	_	_	_	_	_	
+16-5	904-908	inom	_	_	_	_	_	_	_	
+16-6	909-918	medicinsk	_	_	_	_	_	_	_	
+16-7	919-923	etik	_	_	_	_	_	_	_	
+16-8	924-926	är	_	_	_	_	_	_	_	
+16-9	927-933	knutna	_	_	_	_	_	_	_	
+16-10	934-938	till	_	_	_	_	_	_	_	
+16-11	939-944	rådet	_	_	_	_	_	_	_	
+16-12	944-945	.	_	_	_	_	_	_	_	
+16-13	946-950	1995	_	_	_	_	_	_	_	
+16-14	951-954	kom	_	_	_	_	_	_	_	
+16-15	955-959	Smer	_	_	_	_	_	_	_	
+16-16	960-963	med	_	_	_	_	_	_	_	
+16-17	964-966	en	_	_	_	_	_	_	_	
+16-18	967-974	rapport	_	_	_	_	_	_	_	
+16-19	975-977	om	_	_	_	_	_	_	_	
+16-20	978-988	behandling	_	_	_	_	_	_	_	
+16-21	989-991	av	_	_	_	_	_	_	_	
+16-22	992-1002	ofrivillig	*[22]	Source;Target	16-32;16-22[22]	false	2	_	_	
+16-23	1003-1013	barnlöshet	*[22]	_	_	_	_	_	_	
+16-24	1014-1017	som	_	_	_	_	_	_	_	
+16-25	1018-1021	kom	_	_	_	_	_	_	_	
+16-26	1022-1025	att	_	_	_	_	_	_	_	
+16-27	1026-1028	få	_	_	_	_	_	_	_	
+16-28	1029-1033	stor	_	_	_	_	_	_	_	
+16-29	1034-1043	betydelse	_	_	_	_	_	_	_	
+16-30	1044-1047	för	_	_	_	_	_	_	_	
+16-31	1048-1062	lagstiftningen	_	_	_	_	_	_	_	
+16-32	1062-1063	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1065-1066	#	_	_	_	_	_	_	_	
+17-2	1066-1067	P	_	_	_	_	_	_	_	
+17-3	1068-1071	IMM	_	_	_	_	_	_	_	
+17-4	1071-1072	.	_	_	_	_	_	_	_	
+
+#Text=Nu, 18 år senare, presenterar Smer en ny rapport om assisterad befruktning, där rådet tar ställning till hur man etiskt bör bedöma de nya metoder som kommit och tar hänsyn till senare års värdeförskjutningar.
+18-1	1074-1076	Nu	_	_	_	_	_	_	_	
+18-2	1076-1077	,	_	_	_	_	_	_	_	
+18-3	1078-1080	18	_	_	_	_	_	_	_	
+18-4	1081-1083	år	_	_	_	_	_	_	_	
+18-5	1084-1090	senare	_	_	_	_	_	_	_	
+18-6	1090-1091	,	_	_	_	_	_	_	_	
+18-7	1092-1103	presenterar	_	_	_	_	_	_	_	
+18-8	1104-1108	Smer	_	_	_	_	_	_	_	
+18-9	1109-1111	en	_	_	_	_	_	_	_	
+18-10	1112-1114	ny	_	_	_	_	_	_	_	
+18-11	1115-1122	rapport	_	_	_	_	_	_	_	
+18-12	1123-1125	om	_	_	_	_	_	_	_	
+18-13	1126-1136	assisterad	_	_	_	_	_	_	_	
+18-14	1137-1148	befruktning	_	_	_	_	_	_	_	
+18-15	1148-1149	,	_	_	_	_	_	_	_	
+18-16	1150-1153	där	_	_	_	_	_	_	_	
+18-17	1154-1159	rådet	_	_	_	_	_	_	_	
+18-18	1160-1163	tar	_	_	_	_	_	_	_	
+18-19	1164-1173	ställning	_	_	_	_	_	_	_	
+18-20	1174-1178	till	_	_	_	_	_	_	_	
+18-21	1179-1182	hur	_	_	_	_	_	_	_	
+18-22	1183-1186	man	_	_	_	_	_	_	_	
+18-23	1187-1193	etiskt	_	_	_	_	_	_	_	
+18-24	1194-1197	bör	_	_	_	_	_	_	_	
+18-25	1198-1204	bedöma	_	_	_	_	_	_	_	
+18-26	1205-1207	de	_	_	_	_	_	_	_	
+18-27	1208-1211	nya	_	_	_	_	_	_	_	
+18-28	1212-1219	metoder	_	_	_	_	_	_	_	
+18-29	1220-1223	som	_	_	_	_	_	_	_	
+18-30	1224-1230	kommit	_	_	_	_	_	_	_	
+18-31	1231-1234	och	_	_	_	_	_	_	_	
+18-32	1235-1238	tar	_	_	_	_	_	_	_	
+18-33	1239-1245	hänsyn	_	_	_	_	_	_	_	
+18-34	1246-1250	till	_	_	_	_	_	_	_	
+18-35	1251-1257	senare	_	_	_	_	_	_	_	
+18-36	1258-1261	års	_	_	_	_	_	_	_	
+18-37	1262-1281	värdeförskjutningar	_	_	_	_	_	_	_	
+18-38	1281-1282	.	_	_	_	_	_	_	_	
+
+#Text=Den nya rapporten, "Assisterad befruktning – etiska aspekter", publiceras i dag.
+19-1	1283-1286	Den	_	_	_	_	_	_	_	
+19-2	1287-1290	nya	_	_	_	_	_	_	_	
+19-3	1291-1300	rapporten	_	_	_	_	_	_	_	
+19-4	1300-1301	,	_	_	_	_	_	_	_	
+19-5	1302-1303	"	_	_	_	_	_	_	_	
+19-6	1303-1313	Assisterad	_	_	_	_	_	_	_	
+19-7	1314-1325	befruktning	_	_	_	_	_	_	_	
+19-8	1326-1327	–	_	_	_	_	_	_	_	
+19-9	1328-1334	etiska	_	_	_	_	_	_	_	
+19-10	1335-1343	aspekter	_	_	_	_	_	_	_	
+19-11	1343-1344	"	_	_	_	_	_	_	_	
+19-12	1344-1345	,	_	_	_	_	_	_	_	
+19-13	1346-1356	publiceras	_	_	_	_	_	_	_	
+19-14	1357-1358	i	_	_	_	_	_	_	_	
+19-15	1359-1362	dag	_	_	_	_	_	_	_	
+19-16	1362-1363	.	_	_	_	_	_	_	_	
+
+#Text=Rapporten ger underlag inför framtida reglering och praxis.
+20-1	1364-1373	Rapporten	_	_	_	_	_	_	_	
+20-2	1374-1377	ger	_	_	_	_	_	_	_	
+20-3	1378-1386	underlag	_	_	_	_	_	_	_	
+20-4	1387-1392	inför	_	_	_	_	_	_	_	
+20-5	1393-1401	framtida	_	_	_	_	_	_	_	
+20-6	1402-1411	reglering	_	_	_	_	_	_	_	
+20-7	1412-1415	och	_	_	_	_	_	_	_	
+20-8	1416-1422	praxis	_	_	_	_	_	_	_	
+20-9	1422-1423	.	_	_	_	_	_	_	_	
+
+#Text=Smer vill också stimulera till samhällelig debatt i dessa viktiga frågor.
+21-1	1424-1428	Smer	*	_	_	_	_	_	_	
+21-2	1429-1433	vill	_	Source;Target	21-1;21-4[23]	false	4	_	_	
+21-3	1434-1439	också	_	_	_	_	_	_	_	
+21-4	1440-1449	stimulera	*[23]	_	_	_	_	_	_	
+21-5	1450-1454	till	*[23]	_	_	_	_	_	_	
+21-6	1455-1466	samhällelig	*[23]	_	_	_	_	_	_	
+21-7	1467-1473	debatt	*[23]	_	_	_	_	_	_	
+21-8	1474-1475	i	*[23]	_	_	_	_	_	_	
+21-9	1476-1481	dessa	*[23]	_	_	_	_	_	_	
+21-10	1482-1489	viktiga	*[23]	_	_	_	_	_	_	
+21-11	1490-1496	frågor	*[23]	_	_	_	_	_	_	
+21-12	1496-1497	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1499-1500	#	_	_	_	_	_	_	_	
+22-2	1500-1501	P	_	_	_	_	_	_	_	
+22-3	1502-1505	IMM	_	_	_	_	_	_	_	
+22-4	1505-1506	.	_	_	_	_	_	_	_	
+
+#Text=Vi presenterar här några av de viktigaste ställningstagandena :.
+23-1	1508-1510	Vi	_	_	_	_	_	_	_	
+23-2	1511-1522	presenterar	_	_	_	_	_	_	_	
+23-3	1523-1526	här	_	_	_	_	_	_	_	
+23-4	1527-1532	några	_	Target[3]	23-8	false[3]	5[3]	_	_	
+23-5	1533-1535	av	_	Target[3]	23-8	false[3]	5[3]	_	_	
+23-6	1536-1538	de	_	Target[3]	23-8	false[3]	5[3]	_	_	
+23-7	1539-1549	viktigaste	_	Target[3]	23-8	false[3]	5[3]	_	_	
+23-8	1550-1569	ställningstagandena	*	_	_	_	_	_	_	
+23-9	1570-1571	:	_	_	_	_	_	_	_	
+23-10	1571-1572	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+24-1	1574-1575	#	_	_	_	_	_	_	_	
+24-2	1575-1576	P	_	_	_	_	_	_	_	
+24-3	1577-1580	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+25-1	1580-1581	.	_	_	_	_	_	_	_	
+
+#Text=• Surrogatmoderskap.
+26-1	1583-1584	•	_	_	_	_	_	_	_	
+26-2	1585-1602	Surrogatmoderskap	_	_	_	_	_	_	_	
+26-3	1602-1603	.	_	_	_	_	_	_	_	
+
+#Text=Surrogatmoderskap innebär att en kvinna föder ett barn för någon annans räkning.
+27-1	1604-1621	Surrogatmoderskap	_	_	_	_	_	_	_	
+27-2	1622-1629	innebär	_	_	_	_	_	_	_	
+27-3	1630-1633	att	_	_	_	_	_	_	_	
+27-4	1634-1636	en	_	_	_	_	_	_	_	
+27-5	1637-1643	kvinna	_	_	_	_	_	_	_	
+27-6	1644-1649	föder	_	_	_	_	_	_	_	
+27-7	1650-1653	ett	_	_	_	_	_	_	_	
+27-8	1654-1658	barn	_	_	_	_	_	_	_	
+27-9	1659-1662	för	_	_	_	_	_	_	_	
+27-10	1663-1668	någon	_	_	_	_	_	_	_	
+27-11	1669-1675	annans	_	_	_	_	_	_	_	
+27-12	1676-1683	räkning	_	_	_	_	_	_	_	
+27-13	1683-1684	.	_	_	_	_	_	_	_	
+
+#Text=Det är i dag inte ovanligt att svenskar som inte själva kan få barn betalar kvinnor i länder som Ukraina eller Indien för att vara surrogatmödrar.
+28-1	1685-1688	Det	_	_	_	_	_	_	_	
+28-2	1689-1691	är	_	_	_	_	_	_	_	
+28-3	1692-1693	i	_	_	_	_	_	_	_	
+28-4	1694-1697	dag	_	_	_	_	_	_	_	
+28-5	1698-1702	inte	_	_	_	_	_	_	_	
+28-6	1703-1711	ovanligt	_	_	_	_	_	_	_	
+28-7	1712-1715	att	_	_	_	_	_	_	_	
+28-8	1716-1724	svenskar	_	_	_	_	_	_	_	
+28-9	1725-1728	som	_	_	_	_	_	_	_	
+28-10	1729-1733	inte	_	_	_	_	_	_	_	
+28-11	1734-1740	själva	_	_	_	_	_	_	_	
+28-12	1741-1744	kan	_	_	_	_	_	_	_	
+28-13	1745-1747	få	_	_	_	_	_	_	_	
+28-14	1748-1752	barn	_	_	_	_	_	_	_	
+28-15	1753-1760	betalar	_	_	_	_	_	_	_	
+28-16	1761-1768	kvinnor	_	_	_	_	_	_	_	
+28-17	1769-1770	i	_	_	_	_	_	_	_	
+28-18	1771-1777	länder	_	_	_	_	_	_	_	
+28-19	1778-1781	som	_	_	_	_	_	_	_	
+28-20	1782-1789	Ukraina	_	_	_	_	_	_	_	
+28-21	1790-1795	eller	_	_	_	_	_	_	_	
+28-22	1796-1802	Indien	_	_	_	_	_	_	_	
+28-23	1803-1806	för	_	_	_	_	_	_	_	
+28-24	1807-1810	att	_	_	_	_	_	_	_	
+28-25	1811-1815	vara	_	_	_	_	_	_	_	
+28-26	1816-1830	surrogatmödrar	_	_	_	_	_	_	_	
+28-27	1830-1831	.	_	_	_	_	_	_	_	
+
+#Text=I andra länder, till exempel Storbritannien, är altruistiskt (icke-kommersiellt) surrogatmoderskap tillåtet medan kommersiellt surrogatmoderskap är förbjudet.
+29-1	1832-1833	I	_	_	_	_	_	_	_	
+29-2	1834-1839	andra	_	_	_	_	_	_	_	
+29-3	1840-1846	länder	_	_	_	_	_	_	_	
+29-4	1846-1847	,	_	_	_	_	_	_	_	
+29-5	1848-1852	till	_	_	_	_	_	_	_	
+29-6	1853-1860	exempel	_	_	_	_	_	_	_	
+29-7	1861-1875	Storbritannien	_	_	_	_	_	_	_	
+29-8	1875-1876	,	_	_	_	_	_	_	_	
+29-9	1877-1879	är	_	_	_	_	_	_	_	
+29-10	1880-1892	altruistiskt	_	_	_	_	_	_	_	
+29-11	1893-1894	(	_	_	_	_	_	_	_	
+29-12	1894-1911	icke-kommersiellt	_	_	_	_	_	_	_	
+29-13	1911-1912	)	_	_	_	_	_	_	_	
+29-14	1913-1930	surrogatmoderskap	_	_	_	_	_	_	_	
+29-15	1931-1939	tillåtet	_	_	_	_	_	_	_	
+29-16	1940-1945	medan	_	_	_	_	_	_	_	
+29-17	1946-1958	kommersiellt	_	_	_	_	_	_	_	
+29-18	1959-1976	surrogatmoderskap	_	_	_	_	_	_	_	
+29-19	1977-1979	är	_	_	_	_	_	_	_	
+29-20	1980-1989	förbjudet	_	_	_	_	_	_	_	
+29-21	1989-1990	.	_	_	_	_	_	_	_	
+
+#Text=I Sverige är inte surrogatmoderskap tillåtet i någon form.
+30-1	1991-1992	I	_	_	_	_	_	_	_	
+30-2	1993-2000	Sverige	_	_	_	_	_	_	_	
+30-3	2001-2003	är	_	_	_	_	_	_	_	
+30-4	2004-2008	inte	_	_	_	_	_	_	_	
+30-5	2009-2026	surrogatmoderskap	_	_	_	_	_	_	_	
+30-6	2027-2035	tillåtet	_	_	_	_	_	_	_	
+30-7	2036-2037	i	_	_	_	_	_	_	_	
+30-8	2038-2043	någon	_	_	_	_	_	_	_	
+30-9	2044-2048	form	_	_	_	_	_	_	_	
+30-10	2048-2049	.	_	_	_	_	_	_	_	
+
+#Text=Riksdagen har dock nyligen beslutat att surrogatmoderskap i Sverige ska utredas.
+31-1	2050-2059	Riksdagen	_	_	_	_	_	_	_	
+31-2	2060-2063	har	_	_	_	_	_	_	_	
+31-3	2064-2068	dock	_	_	_	_	_	_	_	
+31-4	2069-2076	nyligen	_	_	_	_	_	_	_	
+31-5	2077-2085	beslutat	_	_	_	_	_	_	_	
+31-6	2086-2089	att	_	_	_	_	_	_	_	
+31-7	2090-2107	surrogatmoderskap	_	_	_	_	_	_	_	
+31-8	2108-2109	i	_	_	_	_	_	_	_	
+31-9	2110-2117	Sverige	_	_	_	_	_	_	_	
+31-10	2118-2121	ska	_	_	_	_	_	_	_	
+31-11	2122-2129	utredas	_	_	_	_	_	_	_	
+31-12	2129-2130	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2132-2133	#	_	_	_	_	_	_	_	
+32-2	2133-2134	P	_	_	_	_	_	_	_	
+32-3	2135-2138	IMM	_	_	_	_	_	_	_	
+32-4	2138-2139	.	_	_	_	_	_	_	_	
+
+#Text=Smer har ingående diskuterat etiska problem kring olika former av surrogatmoderskap.
+33-1	2141-2145	Smer	*	_	_	_	_	_	_	
+33-2	2146-2149	har	_	_	_	_	_	_	_	
+33-3	2150-2158	ingående	_	_	_	_	_	_	_	
+33-4	2159-2169	diskuterat	_	_	_	_	_	_	_	
+33-5	2170-2176	etiska	_	Source;Target[4]	33-1;33-7[24]	false[4]	2[4]	_	_	
+33-6	2177-2184	problem	_	Source;Target[4]	33-1;33-7[24]	false[4]	2[4]	_	_	
+33-7	2185-2190	kring	*[24]	_	_	_	_	_	_	
+33-8	2191-2196	olika	*[24]	_	_	_	_	_	_	
+33-9	2197-2203	former	*[24]	_	_	_	_	_	_	
+33-10	2204-2206	av	*[24]	_	_	_	_	_	_	
+33-11	2207-2224	surrogatmoderskap	*[24]	_	_	_	_	_	_	
+33-12	2224-2225	.	_	_	_	_	_	_	_	
+
+#Text=En majoritet av rådet anser att altruistiskt surrogatmoderskap – under särskilda förutsättningar – kan vara en etiskt godtagbar metod att hjälpa ofrivilligt barnlösa.
+34-1	2226-2228	En	*[25]	_	_	_	_	_	_	
+34-2	2229-2238	majoritet	*[25]	_	_	_	_	_	_	
+34-3	2239-2241	av	*[25]	_	_	_	_	_	_	
+34-4	2242-2247	rådet	*[25]	_	_	_	_	_	_	
+34-5	2248-2253	anser	_	_	_	_	_	_	_	
+34-6	2254-2257	att	_	_	_	_	_	_	_	
+34-7	2258-2270	altruistiskt	*[26]	_	_	_	_	_	_	
+34-8	2271-2288	surrogatmoderskap	*[26]	_	_	_	_	_	_	
+34-9	2289-2290	–	*[26]	_	_	_	_	_	_	
+34-10	2291-2296	under	*[26]	_	_	_	_	_	_	
+34-11	2297-2306	särskilda	*[26]	_	_	_	_	_	_	
+34-12	2307-2322	förutsättningar	*[26]	_	_	_	_	_	_	
+34-13	2323-2324	–	_	_	_	_	_	_	_	
+34-14	2325-2328	kan	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-15	2329-2333	vara	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-16	2334-2336	en	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-17	2337-2343	etiskt	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-18	2344-2353	godtagbar	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-19	2354-2359	metod	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-20	2360-2363	att	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-21	2364-2370	hjälpa	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-22	2371-2382	ofrivilligt	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-23	2383-2391	barnlösa	_	Source;Target[5]	34-1[25];34-7[26]	false[5]	3[5]	_	_	
+34-24	2391-2392	.	_	_	_	_	_	_	_	
+
+#Text=En viktig utgångspunkt har varit principen om självbestämmande; kvinnor som vill vara surrogatmödrar åt anhöriga bör ha möjlighet att själva råda över sina kroppar.
+35-1	2393-2395	En	_	_	_	_	_	_	_	
+35-2	2396-2402	viktig	_	Target[6]	35-6[27]	false[6]	4[6]	_	_	
+35-3	2403-2415	utgångspunkt	_	Target[6]	35-6[27]	false[6]	4[6]	_	_	
+35-4	2416-2419	har	_	_	_	_	_	_	_	
+35-5	2420-2425	varit	_	_	_	_	_	_	_	
+35-6	2426-2435	principen	*[27]	_	_	_	_	_	_	
+35-7	2436-2438	om	*[27]	_	_	_	_	_	_	
+35-8	2439-2455	självbestämmande	*[27]	_	_	_	_	_	_	
+35-9	2455-2456	;	_	_	_	_	_	_	_	
+35-10	2457-2464	kvinnor	_	_	_	_	_	_	_	
+35-11	2465-2468	som	_	_	_	_	_	_	_	
+35-12	2469-2473	vill	_	_	_	_	_	_	_	
+35-13	2474-2478	vara	_	_	_	_	_	_	_	
+35-14	2479-2493	surrogatmödrar	_	_	_	_	_	_	_	
+35-15	2494-2496	åt	_	_	_	_	_	_	_	
+35-16	2497-2505	anhöriga	_	_	_	_	_	_	_	
+35-17	2506-2509	bör	_	_	_	_	_	_	_	
+35-18	2510-2512	ha	_	_	_	_	_	_	_	
+35-19	2513-2522	möjlighet	_	_	_	_	_	_	_	
+35-20	2523-2526	att	_	_	_	_	_	_	_	
+35-21	2527-2533	själva	_	_	_	_	_	_	_	
+35-22	2534-2538	råda	_	_	_	_	_	_	_	
+35-23	2539-2543	över	_	_	_	_	_	_	_	
+35-24	2544-2548	sina	_	_	_	_	_	_	_	
+35-25	2549-2556	kroppar	_	_	_	_	_	_	_	
+35-26	2556-2557	.	_	_	_	_	_	_	_	
+
+#Text=Däremot bör kommersiella former av surrogatmoderskap inte införas i Sverige.
+36-1	2558-2565	Däremot	_	_	_	_	_	_	_	
+36-2	2566-2569	bör	_	Target	36-3[28]	false	2	_	_	
+36-3	2570-2582	kommersiella	*[28]|*[29]	_	_	_	_	_	_	
+36-4	2583-2589	former	*[28]|*[29]	_	_	_	_	_	_	
+36-5	2590-2592	av	*[28]|*[29]	_	_	_	_	_	_	
+36-6	2593-2610	surrogatmoderskap	*[28]|*[29]	_	_	_	_	_	_	
+36-7	2611-2615	inte	_	Target[7]	36-3[29]	false[7]	2[7]	36-2[0_7]	_	
+36-8	2616-2623	införas	_	Target[7]	36-3[29]	false[7]	2[7]	_	_	
+36-9	2624-2625	i	_	Target[7]	36-3[29]	false[7]	2[7]	_	_	
+36-10	2626-2633	Sverige	_	Target[7]	36-3[29]	false[7]	2[7]	_	_	
+36-11	2633-2634	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2636-2637	#	_	_	_	_	_	_	_	
+37-2	2637-2638	P	_	_	_	_	_	_	_	
+37-3	2639-2642	IMM	_	_	_	_	_	_	_	
+37-4	2642-2643	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2645-2658	Skräddarsydda	_	_	_	_	_	_	_	
+38-2	2659-2665	kurser	_	_	_	_	_	_	_	
+38-3	2666-2667	i	_	_	_	_	_	_	_	
+38-4	2668-2673	ämnen	_	_	_	_	_	_	_	
+38-5	2674-2677	som	_	_	_	_	_	_	_	
+38-6	2678-2689	intresserar	_	_	_	_	_	_	_	
+38-7	2690-2693	och	_	_	_	_	_	_	_	
+38-8	2694-2703	engagerar	_	_	_	_	_	_	_	
+38-9	2704-2708	både	_	_	_	_	_	_	_	
+38-10	2709-2714	kropp	_	_	_	_	_	_	_	
+38-11	2715-2718	och	_	_	_	_	_	_	_	
+38-12	2719-2723	själ	_	_	_	_	_	_	_	
+38-13	2723-2724	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2726-2727	#	_	_	_	_	_	_	_	
+39-2	2727-2728	P	_	_	_	_	_	_	_	
+39-3	2729-2732	IMM	_	_	_	_	_	_	_	
+39-4	2732-2733	.	_	_	_	_	_	_	_	
+
+#Text=En förutsättning för altruistiskt surrogatmoderskap bör vara att det finns en nära relation – oftast nära släktskap – mellan surrogatmodern och de potentiella föräldrarna.
+40-1	2735-2737	En	_	_	_	_	_	_	_	
+40-2	2738-2751	förutsättning	_	_	_	_	_	_	_	
+40-3	2752-2755	för	_	_	_	_	_	_	_	
+40-4	2756-2768	altruistiskt	_	_	_	_	_	_	_	
+40-5	2769-2786	surrogatmoderskap	_	_	_	_	_	_	_	
+40-6	2787-2790	bör	_	_	_	_	_	_	_	
+40-7	2791-2795	vara	_	_	_	_	_	_	_	
+40-8	2796-2799	att	_	_	_	_	_	_	_	
+40-9	2800-2803	det	_	_	_	_	_	_	_	
+40-10	2804-2809	finns	_	_	_	_	_	_	_	
+40-11	2810-2812	en	_	_	_	_	_	_	_	
+40-12	2813-2817	nära	_	_	_	_	_	_	_	
+40-13	2818-2826	relation	_	_	_	_	_	_	_	
+40-14	2827-2828	–	_	_	_	_	_	_	_	
+40-15	2829-2835	oftast	_	_	_	_	_	_	_	
+40-16	2836-2840	nära	_	_	_	_	_	_	_	
+40-17	2841-2850	släktskap	_	_	_	_	_	_	_	
+40-18	2851-2852	–	_	_	_	_	_	_	_	
+40-19	2853-2859	mellan	_	_	_	_	_	_	_	
+40-20	2860-2874	surrogatmodern	_	_	_	_	_	_	_	
+40-21	2875-2878	och	_	_	_	_	_	_	_	
+40-22	2879-2881	de	_	_	_	_	_	_	_	
+40-23	2882-2893	potentiella	_	_	_	_	_	_	_	
+40-24	2894-2905	föräldrarna	_	_	_	_	_	_	_	
+40-25	2905-2906	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2908-2909	#	_	_	_	_	_	_	_	
+41-2	2909-2910	P	_	_	_	_	_	_	_	
+41-3	2911-2914	IMM	_	_	_	_	_	_	_	
+41-4	2914-2915	.	_	_	_	_	_	_	_	
+
+#Text=Surrogatmodern och de tilltänkta föräldrarna bör också genomgå en lämplighetsprövning och få tillgång till rådgivning och stöd.
+42-1	2917-2931	Surrogatmodern	_	_	_	_	_	_	_	
+42-2	2932-2935	och	_	_	_	_	_	_	_	
+42-3	2936-2938	de	_	_	_	_	_	_	_	
+42-4	2939-2949	tilltänkta	_	_	_	_	_	_	_	
+42-5	2950-2961	föräldrarna	_	_	_	_	_	_	_	
+42-6	2962-2965	bör	_	_	_	_	_	_	_	
+42-7	2966-2971	också	_	_	_	_	_	_	_	
+42-8	2972-2979	genomgå	_	_	_	_	_	_	_	
+42-9	2980-2982	en	_	_	_	_	_	_	_	
+42-10	2983-3002	lämplighetsprövning	_	_	_	_	_	_	_	
+42-11	3003-3006	och	_	_	_	_	_	_	_	
+42-12	3007-3009	få	_	_	_	_	_	_	_	
+42-13	3010-3018	tillgång	_	_	_	_	_	_	_	
+42-14	3019-3023	till	_	_	_	_	_	_	_	
+42-15	3024-3034	rådgivning	_	_	_	_	_	_	_	
+42-16	3035-3038	och	_	_	_	_	_	_	_	
+42-17	3039-3043	stöd	_	_	_	_	_	_	_	
+42-18	3043-3044	.	_	_	_	_	_	_	_	
+
+#Text=De särskilda villkoren ska skydda surrogatmodern från eventuella påtryckningar och negativa upplevelser.
+43-1	3045-3047	De	_	_	_	_	_	_	_	
+43-2	3048-3057	särskilda	_	_	_	_	_	_	_	
+43-3	3058-3067	villkoren	_	_	_	_	_	_	_	
+43-4	3068-3071	ska	_	_	_	_	_	_	_	
+43-5	3072-3078	skydda	_	_	_	_	_	_	_	
+43-6	3079-3093	surrogatmodern	_	_	_	_	_	_	_	
+43-7	3094-3098	från	_	_	_	_	_	_	_	
+43-8	3099-3109	eventuella	_	_	_	_	_	_	_	
+43-9	3110-3123	påtryckningar	_	_	_	_	_	_	_	
+43-10	3124-3127	och	_	_	_	_	_	_	_	
+43-11	3128-3136	negativa	*[30]	Target	43-11[30]	false	2	_	_	
+43-12	3137-3148	upplevelser	*[30]	_	_	_	_	_	_	
+43-13	3148-3149	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3151-3152	#	_	_	_	_	_	_	_	
+44-2	3152-3153	P	_	_	_	_	_	_	_	
+44-3	3154-3157	IMM	_	_	_	_	_	_	_	
+44-4	3157-3158	.	_	_	_	_	_	_	_	
+
+#Text=En minoritet av rådet anser att surrogatmoderskap inte ska tillåtas i någon form.
+45-1	3160-3162	En	*[31]	_	_	_	_	_	46-1[0_31]	
+45-2	3163-3172	minoritet	*[31]	_	_	_	_	_	_	
+45-3	3173-3175	av	*[31]	_	_	_	_	_	_	
+45-4	3176-3181	rådet	*[31]	_	_	_	_	_	_	
+45-5	3182-3187	anser	_	_	_	_	_	_	_	
+45-6	3188-3191	att	_	_	_	_	_	_	_	
+45-7	3192-3209	surrogatmoderskap	*	_	_	_	_	_	_	
+45-8	3210-3214	inte	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-9	3215-3218	ska	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-10	3219-3227	tillåtas	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-11	3228-3229	i	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-12	3230-3235	någon	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-13	3236-3240	form	_	Source;Target[8]	45-1[31];45-7	false[8]	1[8]	_	_	
+45-14	3240-3241	.	_	_	_	_	_	_	_	
+
+#Text=Man anser att det strider mot människovärdesprincipen att använda en annan människa som medel för sina egna mål.
+46-1	3242-3245	Man	*	_	_	_	_	_	_	
+46-2	3246-3251	anser	_	_	_	_	_	_	_	
+46-3	3252-3255	att	_	_	_	_	_	_	_	
+46-4	3256-3259	det	_	_	_	_	_	_	_	
+46-5	3260-3267	strider	_	Source;Target[9]	46-1;46-8[32]	false[9]	2[9]	_	_	
+46-6	3268-3271	mot	_	Source;Target[9]	46-1;46-8[32]	false[9]	2[9]	_	_	
+46-7	3272-3295	människovärdesprincipen	_	Source;Target[9]	46-1;46-8[32]	false[9]	2[9]	_	_	
+46-8	3296-3299	att	*[32]	_	_	_	_	_	_	
+46-9	3300-3307	använda	*[32]	_	_	_	_	_	_	
+46-10	3308-3310	en	*[32]	_	_	_	_	_	_	
+46-11	3311-3316	annan	*[32]	_	_	_	_	_	_	
+46-12	3317-3325	människa	*[32]	_	_	_	_	_	_	
+46-13	3326-3329	som	*[32]	_	_	_	_	_	_	
+46-14	3330-3335	medel	*[32]	_	_	_	_	_	_	
+46-15	3336-3339	för	*[32]	_	_	_	_	_	_	
+46-16	3340-3344	sina	*[32]	_	_	_	_	_	_	
+46-17	3345-3349	egna	*[32]	_	_	_	_	_	_	
+46-18	3350-3353	mål	*[32]	_	_	_	_	_	_	
+46-19	3353-3354	.	_	_	_	_	_	_	_	
+
+#Text=Man påpekar också att det finns kunskapsluckor när det gäller de psykologiska konsekvenserna för surrogatmödrar och de barn som blivit till genom olika typer av surrogatöverenskommelser.
+47-1	3355-3358	Man	_	_	_	_	_	_	_	
+47-2	3359-3366	påpekar	_	_	_	_	_	_	_	
+47-3	3367-3372	också	_	_	_	_	_	_	_	
+47-4	3373-3376	att	_	_	_	_	_	_	_	
+47-5	3377-3380	det	_	_	_	_	_	_	_	
+47-6	3381-3386	finns	_	_	_	_	_	_	_	
+47-7	3387-3401	kunskapsluckor	_	_	_	_	_	_	_	
+47-8	3402-3405	när	_	_	_	_	_	_	_	
+47-9	3406-3409	det	_	_	_	_	_	_	_	
+47-10	3410-3416	gäller	_	_	_	_	_	_	_	
+47-11	3417-3419	de	_	_	_	_	_	_	_	
+47-12	3420-3432	psykologiska	_	_	_	_	_	_	_	
+47-13	3433-3447	konsekvenserna	_	_	_	_	_	_	_	
+47-14	3448-3451	för	_	_	_	_	_	_	_	
+47-15	3452-3466	surrogatmödrar	_	_	_	_	_	_	_	
+47-16	3467-3470	och	_	_	_	_	_	_	_	
+47-17	3471-3473	de	_	_	_	_	_	_	_	
+47-18	3474-3478	barn	_	_	_	_	_	_	_	
+47-19	3479-3482	som	_	_	_	_	_	_	_	
+47-20	3483-3489	blivit	_	_	_	_	_	_	_	
+47-21	3490-3494	till	_	_	_	_	_	_	_	
+47-22	3495-3500	genom	_	_	_	_	_	_	_	
+47-23	3501-3506	olika	_	_	_	_	_	_	_	
+47-24	3507-3512	typer	_	_	_	_	_	_	_	
+47-25	3513-3515	av	_	_	_	_	_	_	_	
+47-26	3516-3540	surrogatöverenskommelser	_	_	_	_	_	_	_	
+47-27	3540-3541	.	_	_	_	_	_	_	_	
+
+#Text=Om altruistiskt surrogatmoderskap tillåts är risken stor att det i förlängningen glider över i kommersiella former, anser minoriteten.
+48-1	3542-3544	Om	_	_	_	_	_	_	_	
+48-2	3545-3557	altruistiskt	_	_	_	_	_	_	_	
+48-3	3558-3575	surrogatmoderskap	_	_	_	_	_	_	_	
+48-4	3576-3583	tillåts	_	_	_	_	_	_	_	
+48-5	3584-3586	är	_	_	_	_	_	_	_	
+48-6	3587-3593	risken	_	Source;Target[10]	48-19;48-8[33]	false[10]	2[10]	_	_	
+48-7	3594-3598	stor	_	Source;Target[10]	48-19;48-8[33]	false[10]	2[10]	_	_	
+48-8	3599-3602	att	*[33]	_	_	_	_	_	_	
+48-9	3603-3606	det	*[33]	_	_	_	_	_	_	
+48-10	3607-3608	i	*[33]	_	_	_	_	_	_	
+48-11	3609-3622	förlängningen	*[33]	_	_	_	_	_	_	
+48-12	3623-3629	glider	*[33]	_	_	_	_	_	_	
+48-13	3630-3634	över	*[33]	_	_	_	_	_	_	
+48-14	3635-3636	i	*[33]	_	_	_	_	_	_	
+48-15	3637-3649	kommersiella	*[33]	_	_	_	_	_	_	
+48-16	3650-3656	former	*[33]	_	_	_	_	_	_	
+48-17	3656-3657	,	_	_	_	_	_	_	_	
+48-18	3658-3663	anser	_	_	_	_	_	_	_	
+48-19	3664-3675	minoriteten	*	_	_	_	_	_	_	
+48-20	3675-3676	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+49-1	3678-3679	#	_	_	_	_	_	_	_	
+49-2	3679-3680	P	_	_	_	_	_	_	_	
+49-3	3681-3684	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+50-1	3684-3685	.	_	_	_	_	_	_	_	
+
+#Text=• Donation av befruktade ägg.
+51-1	3687-3688	•	_	_	_	_	_	_	_	
+51-2	3689-3697	Donation	_	_	_	_	_	_	_	
+51-3	3698-3700	av	_	_	_	_	_	_	_	
+51-4	3701-3711	befruktade	_	_	_	_	_	_	_	
+51-5	3712-3715	ägg	_	_	_	_	_	_	_	
+51-6	3715-3716	.	_	_	_	_	_	_	_	
+
+#Text=En fråga där värderingarna i rådet ändrats sedan 1990-talet gäller kravet på ett genetiskt samband mellan åtminstone en av föräldrarna och barnet vid assisterad befruktning.
+52-1	3717-3719	En	_	_	_	_	_	_	_	
+52-2	3720-3725	fråga	_	_	_	_	_	_	_	
+52-3	3726-3729	där	_	_	_	_	_	_	_	
+52-4	3730-3743	värderingarna	_	_	_	_	_	_	_	
+52-5	3744-3745	i	_	_	_	_	_	_	_	
+52-6	3746-3751	rådet	_	_	_	_	_	_	_	
+52-7	3752-3759	ändrats	_	_	_	_	_	_	_	
+52-8	3760-3765	sedan	_	_	_	_	_	_	_	
+52-9	3766-3770	1990	_	_	_	_	_	_	_	
+52-10	3770-3771	-	_	_	_	_	_	_	_	
+52-11	3771-3776	talet	_	_	_	_	_	_	_	
+52-12	3777-3783	gäller	_	_	_	_	_	_	_	
+52-13	3784-3790	kravet	_	_	_	_	_	_	_	
+52-14	3791-3793	på	_	_	_	_	_	_	_	
+52-15	3794-3797	ett	_	_	_	_	_	_	_	
+52-16	3798-3807	genetiskt	_	_	_	_	_	_	_	
+52-17	3808-3815	samband	_	_	_	_	_	_	_	
+52-18	3816-3822	mellan	_	_	_	_	_	_	_	
+52-19	3823-3833	åtminstone	_	_	_	_	_	_	_	
+52-20	3834-3836	en	_	_	_	_	_	_	_	
+52-21	3837-3839	av	_	_	_	_	_	_	_	
+52-22	3840-3851	föräldrarna	_	_	_	_	_	_	_	
+52-23	3852-3855	och	_	_	_	_	_	_	_	
+52-24	3856-3862	barnet	_	_	_	_	_	_	_	
+52-25	3863-3866	vid	_	_	_	_	_	_	_	
+52-26	3867-3877	assisterad	_	_	_	_	_	_	_	
+52-27	3878-3889	befruktning	_	_	_	_	_	_	_	
+52-28	3889-3890	.	_	_	_	_	_	_	_	
+
+#Text=Ett genetiskt samband kan visserligen vara viktigt, men sociala samband mellan föräldrar och barn väger betydligt tyngre.
+53-1	3891-3894	Ett	*[34]	_	_	_	_	_	_	
+53-2	3895-3904	genetiskt	*[34]	_	_	_	_	_	_	
+53-3	3905-3912	samband	*[34]	_	_	_	_	_	_	
+53-4	3913-3916	kan	_	_	_	_	_	_	_	
+53-5	3917-3928	visserligen	_	_	_	_	_	_	_	
+53-6	3929-3933	vara	_	_	_	_	_	_	_	
+53-7	3934-3941	viktigt	_	Target	53-1[34]	false	4	_	_	
+53-8	3941-3942	,	_	_	_	_	_	_	_	
+53-9	3943-3946	men	_	_	_	_	_	_	_	
+53-10	3947-3954	sociala	*[35]	_	_	_	_	_	_	
+53-11	3955-3962	samband	*[35]	_	_	_	_	_	_	
+53-12	3963-3969	mellan	*[35]	_	_	_	_	_	_	
+53-13	3970-3979	föräldrar	*[35]	_	_	_	_	_	_	
+53-14	3980-3983	och	*[35]	_	_	_	_	_	_	
+53-15	3984-3988	barn	*[35]	_	_	_	_	_	_	
+53-16	3989-3994	väger	_	Target[11]	53-10[35]	false[11]	5[11]	_	_	
+53-17	3995-4004	betydligt	_	Target[11]	53-10[35]	false[11]	5[11]	_	_	
+53-18	4005-4011	tyngre	_	Target[11]	53-10[35]	false[11]	5[11]	_	_	
+53-19	4011-4012	.	_	_	_	_	_	_	_	
+
+#Text=När befruktning sker med donerade befruktade ägg (ibland kallad embryodonation) kommer ett genetiskt samband mellan föräldrar och barn att saknas, liksom vid adoption.
+54-1	4013-4016	När	_	_	_	_	_	_	_	
+54-2	4017-4028	befruktning	_	_	_	_	_	_	_	
+54-3	4029-4033	sker	_	_	_	_	_	_	_	
+54-4	4034-4037	med	_	_	_	_	_	_	_	
+54-5	4038-4046	donerade	_	_	_	_	_	_	_	
+54-6	4047-4057	befruktade	_	_	_	_	_	_	_	
+54-7	4058-4061	ägg	_	_	_	_	_	_	_	
+54-8	4062-4063	(	_	_	_	_	_	_	_	
+54-9	4063-4069	ibland	_	_	_	_	_	_	_	
+54-10	4070-4076	kallad	_	_	_	_	_	_	_	
+54-11	4077-4091	embryodonation	_	_	_	_	_	_	_	
+54-12	4091-4092	)	_	_	_	_	_	_	_	
+54-13	4093-4099	kommer	_	_	_	_	_	_	_	
+54-14	4100-4103	ett	_	_	_	_	_	_	_	
+54-15	4104-4113	genetiskt	_	_	_	_	_	_	_	
+54-16	4114-4121	samband	_	_	_	_	_	_	_	
+54-17	4122-4128	mellan	_	_	_	_	_	_	_	
+54-18	4129-4138	föräldrar	_	_	_	_	_	_	_	
+54-19	4139-4142	och	_	_	_	_	_	_	_	
+54-20	4143-4147	barn	_	_	_	_	_	_	_	
+54-21	4148-4151	att	_	_	_	_	_	_	_	
+54-22	4152-4158	saknas	_	_	_	_	_	_	_	
+54-23	4158-4159	,	_	_	_	_	_	_	_	
+54-24	4160-4166	liksom	_	_	_	_	_	_	_	
+54-25	4167-4170	vid	_	_	_	_	_	_	_	
+54-26	4171-4179	adoption	_	_	_	_	_	_	_	
+54-27	4179-4180	.	_	_	_	_	_	_	_	
+
+#Text=Vid IVF (provrörsbefruktning) lagras befruktade ägg för att senare kanske användas om paret önskar fler barn.
+55-1	4181-4184	Vid	_	_	_	_	_	_	_	
+55-2	4185-4188	IVF	_	_	_	_	_	_	_	
+55-3	4189-4190	(	_	_	_	_	_	_	_	
+55-4	4190-4209	provrörsbefruktning	_	_	_	_	_	_	_	
+55-5	4209-4210	)	_	_	_	_	_	_	_	
+55-6	4211-4217	lagras	_	_	_	_	_	_	_	
+55-7	4218-4228	befruktade	_	_	_	_	_	_	_	
+55-8	4229-4232	ägg	_	_	_	_	_	_	_	
+55-9	4233-4236	för	_	_	_	_	_	_	_	
+55-10	4237-4240	att	_	_	_	_	_	_	_	
+55-11	4241-4247	senare	_	_	_	_	_	_	_	
+55-12	4248-4254	kanske	_	_	_	_	_	_	_	
+55-13	4255-4263	användas	_	_	_	_	_	_	_	
+55-14	4264-4266	om	_	_	_	_	_	_	_	
+55-15	4267-4272	paret	_	_	_	_	_	_	_	
+55-16	4273-4279	önskar	_	_	_	_	_	_	_	
+55-17	4280-4284	fler	_	_	_	_	_	_	_	
+55-18	4285-4289	barn	_	_	_	_	_	_	_	
+55-19	4289-4290	.	_	_	_	_	_	_	_	
+
+#Text=Smer anser att det är etiskt godtagbart att dessa befruktade ägg, om de förblir oanvända, kan doneras till andra par med ofrivillig barnlöshet och föreslår att metoden tillåts i Sverige – i dag är den förbjuden.
+56-1	4291-4295	Smer	*[36]|*[37]	_	_	_	_	_	_	
+56-2	4296-4301	anser	_	_	_	_	_	_	_	
+56-3	4302-4305	att	_	_	_	_	_	_	_	
+56-4	4306-4309	det	_	_	_	_	_	_	_	
+56-5	4310-4312	är	_	_	_	_	_	_	_	
+56-6	4313-4319	etiskt	_	Target;Source[12]	56-8[38];56-1[36]	false[12]	3[12]	_	_	
+56-7	4320-4330	godtagbart	_	Target;Source[12]	56-8[38];56-1[36]	false[12]	3[12]	_	_	
+56-8	4331-4334	att	*[38]	_	_	_	_	_	_	
+56-9	4335-4340	dessa	*[38]	_	_	_	_	_	_	
+56-10	4341-4351	befruktade	*[38]	_	_	_	_	_	_	
+56-11	4352-4355	ägg	*[38]	_	_	_	_	_	_	
+56-12	4355-4356	,	*[38]	_	_	_	_	_	_	
+56-13	4357-4359	om	*[38]	_	_	_	_	_	_	
+56-14	4360-4362	de	*[38]	_	_	_	_	_	_	
+56-15	4363-4370	förblir	*[38]	_	_	_	_	_	_	
+56-16	4371-4379	oanvända	*[38]	_	_	_	_	_	_	
+56-17	4379-4380	,	*[38]	_	_	_	_	_	_	
+56-18	4381-4384	kan	*[38]	_	_	_	_	_	_	
+56-19	4385-4392	doneras	*[38]	_	_	_	_	_	_	
+56-20	4393-4397	till	*[38]	_	_	_	_	_	_	
+56-21	4398-4403	andra	*[38]	_	_	_	_	_	_	
+56-22	4404-4407	par	*[38]	_	_	_	_	_	_	
+56-23	4408-4411	med	*[38]	_	_	_	_	_	_	
+56-24	4412-4422	ofrivillig	*[38]	_	_	_	_	_	_	
+56-25	4423-4433	barnlöshet	*[38]	_	_	_	_	_	_	
+56-26	4434-4437	och	_	_	_	_	_	_	_	
+56-27	4438-4446	föreslår	_	Target;Source	56-28[39];56-1[37]	false	4	_	_	
+56-28	4447-4450	att	*[39]	_	_	_	_	_	_	
+56-29	4451-4458	metoden	*[39]	_	_	_	_	_	_	
+56-30	4459-4466	tillåts	*[39]	_	_	_	_	_	_	
+56-31	4467-4468	i	*[39]	_	_	_	_	_	_	
+56-32	4469-4476	Sverige	*[39]	_	_	_	_	_	_	
+56-33	4477-4478	–	_	_	_	_	_	_	_	
+56-34	4479-4480	i	_	_	_	_	_	_	_	
+56-35	4481-4484	dag	_	_	_	_	_	_	_	
+56-36	4485-4487	är	_	_	_	_	_	_	_	
+56-37	4488-4491	den	_	_	_	_	_	_	_	
+56-38	4492-4501	förbjuden	_	_	_	_	_	_	_	
+56-39	4501-4502	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+57-1	4504-4505	#	_	_	_	_	_	_	_	
+57-2	4505-4506	P	_	_	_	_	_	_	_	
+57-3	4507-4510	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+58-1	4510-4511	.	_	_	_	_	_	_	_	
+
+#Text=• Nedfrysning av ägg av sociala skäl.
+59-1	4513-4514	•	_	_	_	_	_	_	_	
+59-2	4515-4526	Nedfrysning	_	_	_	_	_	_	_	
+59-3	4527-4529	av	_	_	_	_	_	_	_	
+59-4	4530-4533	ägg	_	_	_	_	_	_	_	
+59-5	4534-4536	av	_	_	_	_	_	_	_	
+59-6	4537-4544	sociala	_	_	_	_	_	_	_	
+59-7	4545-4549	skäl	_	_	_	_	_	_	_	
+59-8	4549-4550	.	_	_	_	_	_	_	_	
+
+#Text=Med åldern avtar äggens förmåga att befruktas.
+60-1	4551-4554	Med	_	_	_	_	_	_	_	
+60-2	4555-4561	åldern	_	_	_	_	_	_	_	
+60-3	4562-4567	avtar	_	_	_	_	_	_	_	
+60-4	4568-4574	äggens	_	_	_	_	_	_	_	
+60-5	4575-4582	förmåga	_	_	_	_	_	_	_	
+60-6	4583-4586	att	_	_	_	_	_	_	_	
+60-7	4587-4596	befruktas	_	_	_	_	_	_	_	
+60-8	4596-4597	.	_	_	_	_	_	_	_	
+
+#Text=Om man inte hittat en lämplig partner, ska man då kunna frysa ner ägg att användas senare i livet och på så vis förbättra möjligheterna att bli gravid?
+61-1	4598-4600	Om	_	_	_	_	_	_	_	
+61-2	4601-4604	man	*	_	_	_	_	_	_	
+61-3	4605-4609	inte	_	_	_	_	_	_	_	
+61-4	4610-4616	hittat	_	_	_	_	_	_	_	
+61-5	4617-4619	en	_	_	_	_	_	_	_	
+61-6	4620-4627	lämplig	_	Target;Source	61-7;61-2	false	4	_	_	
+61-7	4628-4635	partner	*	_	_	_	_	_	_	
+61-8	4635-4636	,	_	_	_	_	_	_	_	
+61-9	4637-4640	ska	_	_	_	_	_	_	_	
+61-10	4641-4644	man	_	_	_	_	_	_	_	
+61-11	4645-4647	då	_	_	_	_	_	_	_	
+61-12	4648-4653	kunna	_	_	_	_	_	_	_	
+61-13	4654-4659	frysa	_	_	_	_	_	_	_	
+61-14	4660-4663	ner	_	_	_	_	_	_	_	
+61-15	4664-4667	ägg	_	_	_	_	_	_	_	
+61-16	4668-4671	att	_	_	_	_	_	_	_	
+61-17	4672-4680	användas	_	_	_	_	_	_	_	
+61-18	4681-4687	senare	_	_	_	_	_	_	_	
+61-19	4688-4689	i	_	_	_	_	_	_	_	
+61-20	4690-4695	livet	_	_	_	_	_	_	_	
+61-21	4696-4699	och	_	_	_	_	_	_	_	
+61-22	4700-4702	på	_	_	_	_	_	_	_	
+61-23	4703-4705	så	_	_	_	_	_	_	_	
+61-24	4706-4709	vis	_	_	_	_	_	_	_	
+61-25	4710-4719	förbättra	_	_	_	_	_	_	_	
+61-26	4720-4733	möjligheterna	_	_	_	_	_	_	_	
+61-27	4734-4737	att	_	_	_	_	_	_	_	
+61-28	4738-4741	bli	_	_	_	_	_	_	_	
+61-29	4742-4748	gravid	_	_	_	_	_	_	_	
+61-30	4748-4749	?	_	_	_	_	_	_	_	
+
+#Text=I dag är detta möjligt till exempel inför en cancerbehandling.
+62-1	4750-4751	I	_	_	_	_	_	_	_	
+62-2	4752-4755	dag	_	_	_	_	_	_	_	
+62-3	4756-4758	är	_	_	_	_	_	_	_	
+62-4	4759-4764	detta	_	_	_	_	_	_	_	
+62-5	4765-4772	möjligt	_	_	_	_	_	_	_	
+62-6	4773-4777	till	_	_	_	_	_	_	_	
+62-7	4778-4785	exempel	_	_	_	_	_	_	_	
+62-8	4786-4791	inför	_	_	_	_	_	_	_	
+62-9	4792-4794	en	_	_	_	_	_	_	_	
+62-10	4795-4811	cancerbehandling	_	_	_	_	_	_	_	
+62-11	4811-4812	.	_	_	_	_	_	_	_	
+
+#Text=Smer anser att det inte finns några allvarliga etiska invändningar mot att frysa ner ägg för framtida bruk även av sociala skäl.
+63-1	4813-4817	Smer	*	_	_	_	_	_	_	
+63-2	4818-4823	anser	_	_	_	_	_	_	_	
+63-3	4824-4827	att	_	_	_	_	_	_	_	
+63-4	4828-4831	det	_	_	_	_	_	_	_	
+63-5	4832-4836	inte	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-6	4837-4842	finns	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-7	4843-4848	några	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-8	4849-4859	allvarliga	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-9	4860-4866	etiska	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-10	4867-4879	invändningar	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-11	4880-4883	mot	_	Source;Target[13]	63-1;63-12[40]	false[13]	3[13]	_	_	
+63-12	4884-4887	att	*[40]	_	_	_	_	_	_	
+63-13	4888-4893	frysa	*[40]	_	_	_	_	_	_	
+63-14	4894-4897	ner	*[40]	_	_	_	_	_	_	
+63-15	4898-4901	ägg	*[40]	_	_	_	_	_	_	
+63-16	4902-4905	för	*[40]	_	_	_	_	_	_	
+63-17	4906-4914	framtida	*[40]	_	_	_	_	_	_	
+63-18	4915-4919	bruk	*[40]	_	_	_	_	_	_	
+63-19	4920-4924	även	*[40]	_	_	_	_	_	_	
+63-20	4925-4927	av	*[40]	_	_	_	_	_	_	
+63-21	4928-4935	sociala	*[40]	_	_	_	_	_	_	
+63-22	4936-4940	skäl	*[40]	_	_	_	_	_	_	
+63-23	4940-4941	.	_	_	_	_	_	_	_	
+
+#Text=Men det är då rimligt att individen själv står för kostnaderna.
+64-1	4942-4945	Men	_	_	_	_	_	_	_	
+64-2	4946-4949	det	_	_	_	_	_	_	_	
+64-3	4950-4952	är	_	_	_	_	_	_	_	
+64-4	4953-4955	då	_	_	_	_	_	_	_	
+64-5	4956-4963	rimligt	_	Target	64-6[41]	false	4	_	_	
+64-6	4964-4967	att	*[41]	_	_	_	_	_	_	
+64-7	4968-4977	individen	*[41]	_	_	_	_	_	_	
+64-8	4978-4983	själv	*[41]	_	_	_	_	_	_	
+64-9	4984-4988	står	*[41]	_	_	_	_	_	_	
+64-10	4989-4992	för	*[41]	_	_	_	_	_	_	
+64-11	4993-5004	kostnaderna	*[41]	_	_	_	_	_	_	
+64-12	5004-5005	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+65-1	5007-5008	#	_	_	_	_	_	_	_	
+65-2	5008-5009	P	_	_	_	_	_	_	_	
+65-3	5010-5013	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+66-1	5013-5014	.	_	_	_	_	_	_	_	
+
+#Text=• Åldersgränser för assisterad befruktning.
+67-1	5016-5017	•	_	_	_	_	_	_	_	
+67-2	5018-5031	Åldersgränser	_	_	_	_	_	_	_	
+67-3	5032-5035	för	_	_	_	_	_	_	_	
+67-4	5036-5046	assisterad	_	_	_	_	_	_	_	
+67-5	5047-5058	befruktning	_	_	_	_	_	_	_	
+67-6	5058-5059	.	_	_	_	_	_	_	_	
+
+#Text=Landstingen har övre åldersgränser för assisterad befruktning, varierande mellan 37 och 41 år.
+68-1	5060-5071	Landstingen	_	_	_	_	_	_	_	
+68-2	5072-5075	har	_	_	_	_	_	_	_	
+68-3	5076-5080	övre	_	_	_	_	_	_	_	
+68-4	5081-5094	åldersgränser	_	_	_	_	_	_	_	
+68-5	5095-5098	för	_	_	_	_	_	_	_	
+68-6	5099-5109	assisterad	_	_	_	_	_	_	_	
+68-7	5110-5121	befruktning	_	_	_	_	_	_	_	
+68-8	5121-5122	,	_	_	_	_	_	_	_	
+68-9	5123-5133	varierande	_	_	_	_	_	_	_	
+68-10	5134-5140	mellan	_	_	_	_	_	_	_	
+68-11	5141-5143	37	_	_	_	_	_	_	_	
+68-12	5144-5147	och	_	_	_	_	_	_	_	
+68-13	5148-5150	41	_	_	_	_	_	_	_	
+68-14	5151-5153	år	_	_	_	_	_	_	_	
+68-15	5153-5154	.	_	_	_	_	_	_	_	
+
+#Text=Människor åldras individuellt och Smer anser att det ur etisk synpunkt inte är motiverat med exakta åldersgränser vid assisterad befruktning.
+69-1	5155-5164	Människor	_	_	_	_	_	_	_	
+69-2	5165-5171	åldras	_	_	_	_	_	_	_	
+69-3	5172-5184	individuellt	_	_	_	_	_	_	_	
+69-4	5185-5188	och	_	_	_	_	_	_	_	
+69-5	5189-5193	Smer	*	_	_	_	_	_	_	
+69-6	5194-5199	anser	_	_	_	_	_	_	_	
+69-7	5200-5203	att	_	_	_	_	_	_	_	
+69-8	5204-5207	det	_	_	_	_	_	_	_	
+69-9	5208-5210	ur	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-10	5211-5216	etisk	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-11	5217-5225	synpunkt	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-12	5226-5230	inte	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-13	5231-5233	är	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-14	5234-5243	motiverat	_	Source;Target[14]	69-5;69-15[42]	false[14]	2[14]	_	_	
+69-15	5244-5247	med	*[42]	_	_	_	_	_	_	
+69-16	5248-5254	exakta	*[42]	_	_	_	_	_	_	
+69-17	5255-5268	åldersgränser	*[42]	_	_	_	_	_	_	
+69-18	5269-5272	vid	*[42]	_	_	_	_	_	_	
+69-19	5273-5283	assisterad	*[42]	_	_	_	_	_	_	
+69-20	5284-5295	befruktning	*[42]	_	_	_	_	_	_	
+69-21	5295-5296	.	_	_	_	_	_	_	_	
+
+#Text=Utgångspunkten bör i stället vara en individuell bedömning med utgångspunkt i principen om barnets bästa.
+70-1	5297-5311	Utgångspunkten	_	Target[15]	70-6[43]	false[15]	4[15]	70-5[0_15]	_	
+70-2	5312-5315	bör	_	Target[15]	70-6[43]	false[15]	4[15]	_	_	
+70-3	5316-5317	i	_	_	_	_	_	_	_	
+70-4	5318-5325	stället	_	_	_	_	_	_	_	
+70-5	5326-5330	vara	_	Target	70-6[44]	false	4	_	_	
+70-6	5331-5333	en	*[43]|*[44]	_	_	_	_	_	_	
+70-7	5334-5345	individuell	*[43]|*[44]	_	_	_	_	_	_	
+70-8	5346-5355	bedömning	*[43]|*[44]	_	_	_	_	_	_	
+70-9	5356-5359	med	*[43]|*[44]	_	_	_	_	_	_	
+70-10	5360-5372	utgångspunkt	*[43]|*[44]	_	_	_	_	_	_	
+70-11	5373-5374	i	*[43]|*[44]	_	_	_	_	_	_	
+70-12	5375-5384	principen	*[43]|*[44]	_	_	_	_	_	_	
+70-13	5385-5387	om	*[43]|*[44]	_	_	_	_	_	_	
+70-14	5388-5395	barnets	*[43]|*[44]	_	_	_	_	_	_	
+70-15	5396-5401	bästa	*[43]|*[44]	_	_	_	_	_	_	
+70-16	5401-5402	.	_	_	_	_	_	_	_	
+
+#Text=En av föräldrarna bör vara tillräckligt ung för att kunna ta ansvar för barnet tills det blivit vuxet.
+71-1	5403-5405	En	_	_	_	_	_	_	_	
+71-2	5406-5408	av	_	_	_	_	_	_	_	
+71-3	5409-5420	föräldrarna	_	_	_	_	_	_	_	
+71-4	5421-5424	bör	_	_	_	_	_	_	_	
+71-5	5425-5429	vara	_	_	_	_	_	_	_	
+71-6	5430-5442	tillräckligt	_	_	_	_	_	_	_	
+71-7	5443-5446	ung	_	_	_	_	_	_	_	
+71-8	5447-5450	för	_	_	_	_	_	_	_	
+71-9	5451-5454	att	_	_	_	_	_	_	_	
+71-10	5455-5460	kunna	_	_	_	_	_	_	_	
+71-11	5461-5463	ta	_	_	_	_	_	_	_	
+71-12	5464-5470	ansvar	_	_	_	_	_	_	_	
+71-13	5471-5474	för	_	_	_	_	_	_	_	
+71-14	5475-5481	barnet	_	_	_	_	_	_	_	
+71-15	5482-5487	tills	_	_	_	_	_	_	_	
+71-16	5488-5491	det	_	_	_	_	_	_	_	
+71-17	5492-5498	blivit	_	_	_	_	_	_	_	
+71-18	5499-5504	vuxet	_	_	_	_	_	_	_	
+71-19	5504-5505	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+72-1	5507-5508	#	_	_	_	_	_	_	_	
+72-2	5508-5509	P	_	_	_	_	_	_	_	
+72-3	5510-5513	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+73-1	5513-5514	.	_	_	_	_	_	_	_	
+
+#Text=• Bedömning inför assisterad befruktning.
+74-1	5516-5517	•	_	_	_	_	_	_	_	
+74-2	5518-5527	Bedömning	_	_	_	_	_	_	_	
+74-3	5528-5533	inför	_	_	_	_	_	_	_	
+74-4	5534-5544	assisterad	_	_	_	_	_	_	_	
+74-5	5545-5556	befruktning	_	_	_	_	_	_	_	
+74-6	5556-5557	.	_	_	_	_	_	_	_	
+
+#Text=Mer övergripande anser Smer att en allmän bedömning bör göras vid alla former av assisterad befruktning, detta utifrån principen om barnets bästa.
+75-1	5558-5561	Mer	_	_	_	_	_	_	_	
+75-2	5562-5574	övergripande	_	_	_	_	_	_	_	
+75-3	5575-5580	anser	_	_	_	_	_	_	_	
+75-4	5581-5585	Smer	*	_	_	_	_	_	_	
+75-5	5586-5589	att	_	_	_	_	_	_	_	
+75-6	5590-5592	en	*[45]	_	_	_	_	_	_	
+75-7	5593-5599	allmän	*[45]	_	_	_	_	_	_	
+75-8	5600-5609	bedömning	*[45]	_	_	_	_	_	_	
+75-9	5610-5613	bör	_	Target;Target;Source[16]	75-6[45];75-11[46];75-4	false[16]	4[16]	_	_	
+75-10	5614-5619	göras	_	Target;Target;Source[16]	75-6[45];75-11[46];75-4	false[16]	4[16]	_	_	
+75-11	5620-5623	vid	*[46]	_	_	_	_	_	_	
+75-12	5624-5628	alla	*[46]	_	_	_	_	_	_	
+75-13	5629-5635	former	*[46]	_	_	_	_	_	_	
+75-14	5636-5638	av	*[46]	_	_	_	_	_	_	
+75-15	5639-5649	assisterad	*[46]	_	_	_	_	_	_	
+75-16	5650-5661	befruktning	*[46]	_	_	_	_	_	_	
+75-17	5661-5662	,	_	_	_	_	_	_	_	
+75-18	5663-5668	detta	_	_	_	_	_	_	_	
+75-19	5669-5676	utifrån	_	_	_	_	_	_	_	
+75-20	5677-5686	principen	*[47]	_	_	_	_	_	_	
+75-21	5687-5689	om	*[47]	_	_	_	_	_	_	
+75-22	5690-5697	barnets	*[47]	_	_	_	_	_	_	
+75-23	5698-5703	bästa	*[47]	Target	75-20[47]	false	5	_	_	
+75-24	5703-5704	.	_	_	_	_	_	_	_	
+
+#Text=I dag krävs en omfattande särskild prövning vid användning av donerade könsceller men inte vid andra former av assisterad befruktning.
+76-1	5705-5706	I	_	_	_	_	_	_	_	
+76-2	5707-5710	dag	_	_	_	_	_	_	_	
+76-3	5711-5716	krävs	_	_	_	_	_	_	_	
+76-4	5717-5719	en	_	_	_	_	_	_	_	
+76-5	5720-5730	omfattande	_	_	_	_	_	_	_	
+76-6	5731-5739	särskild	_	_	_	_	_	_	_	
+76-7	5740-5748	prövning	_	_	_	_	_	_	_	
+76-8	5749-5752	vid	_	_	_	_	_	_	_	
+76-9	5753-5763	användning	_	_	_	_	_	_	_	
+76-10	5764-5766	av	_	_	_	_	_	_	_	
+76-11	5767-5775	donerade	_	_	_	_	_	_	_	
+76-12	5776-5786	könsceller	_	_	_	_	_	_	_	
+76-13	5787-5790	men	_	_	_	_	_	_	_	
+76-14	5791-5795	inte	_	_	_	_	_	_	_	
+76-15	5796-5799	vid	_	_	_	_	_	_	_	
+76-16	5800-5805	andra	_	_	_	_	_	_	_	
+76-17	5806-5812	former	_	_	_	_	_	_	_	
+76-18	5813-5815	av	_	_	_	_	_	_	_	
+76-19	5816-5826	assisterad	_	_	_	_	_	_	_	
+76-20	5827-5838	befruktning	_	_	_	_	_	_	_	
+76-21	5838-5839	.	_	_	_	_	_	_	_	
+
+#Text=Det är ur etisk synpunkt fel att särskilja gruppen med donerade spermier och ägg från övriga.
+77-1	5840-5843	Det	_	_	_	_	_	_	_	
+77-2	5844-5846	är	_	_	_	_	_	_	_	
+77-3	5847-5849	ur	_	Target[17]	77-7[48]	false[17]	2[17]	_	_	
+77-4	5850-5855	etisk	_	Target[17]	77-7[48]	false[17]	2[17]	_	_	
+77-5	5856-5864	synpunkt	_	Target[17]	77-7[48]	false[17]	2[17]	_	_	
+77-6	5865-5868	fel	_	Target[17]	77-7[48]	false[17]	2[17]	_	_	
+77-7	5869-5872	att	*[48]	_	_	_	_	_	_	
+77-8	5873-5882	särskilja	*[48]	_	_	_	_	_	_	
+77-9	5883-5890	gruppen	*[48]	_	_	_	_	_	_	
+77-10	5891-5894	med	*[48]	_	_	_	_	_	_	
+77-11	5895-5903	donerade	*[48]	_	_	_	_	_	_	
+77-12	5904-5912	spermier	*[48]	_	_	_	_	_	_	
+77-13	5913-5916	och	*[48]	_	_	_	_	_	_	
+77-14	5917-5920	ägg	*[48]	_	_	_	_	_	_	
+77-15	5921-5925	från	*[48]	_	_	_	_	_	_	
+77-16	5926-5932	övriga	*[48]	_	_	_	_	_	_	
+77-17	5932-5933	.	_	_	_	_	_	_	_	
+
+#Text=I stället bör det göras en mindre omfattande bedömning vid alla former av assisterad befruktning, där man tar hänsyn till parets/personens individuella förutsättningar att fungera som förälder under barnets hela uppväxt.
+78-1	5934-5935	I	_	_	_	_	_	_	_	
+78-2	5936-5943	stället	_	_	_	_	_	_	_	
+78-3	5944-5947	bör	_	Target	78-6[49]	false	4	_	_	
+78-4	5948-5951	det	_	_	_	_	_	_	_	
+78-5	5952-5957	göras	_	Target	78-6[50]	false	4	78-3	_	
+78-6	5958-5960	en	*[49]|*[50]	_	_	_	_	_	_	
+78-7	5961-5967	mindre	*[49]|*[50]	_	_	_	_	_	_	
+78-8	5968-5978	omfattande	*[49]|*[50]	_	_	_	_	_	_	
+78-9	5979-5988	bedömning	*[49]|*[50]	_	_	_	_	_	_	
+78-10	5989-5992	vid	*[49]|*[50]	_	_	_	_	_	_	
+78-11	5993-5997	alla	*[49]|*[50]	_	_	_	_	_	_	
+78-12	5998-6004	former	*[49]|*[50]	_	_	_	_	_	_	
+78-13	6005-6007	av	*[49]|*[50]	_	_	_	_	_	_	
+78-14	6008-6018	assisterad	*[49]|*[50]	_	_	_	_	_	_	
+78-15	6019-6030	befruktning	*[49]|*[50]	_	_	_	_	_	_	
+78-16	6030-6031	,	*[49]|*[50]	_	_	_	_	_	_	
+78-17	6032-6035	där	*[49]|*[50]	_	_	_	_	_	_	
+78-18	6036-6039	man	*[49]|*[50]	_	_	_	_	_	_	
+78-19	6040-6043	tar	*[49]|*[50]	_	_	_	_	_	_	
+78-20	6044-6050	hänsyn	*[49]|*[50]	_	_	_	_	_	_	
+78-21	6051-6055	till	*[49]|*[50]	_	_	_	_	_	_	
+78-22	6056-6062	parets	*[49]|*[50]	_	_	_	_	_	_	
+78-23	6062-6063	/	*[49]|*[50]	_	_	_	_	_	_	
+78-24	6063-6072	personens	*[49]|*[50]	_	_	_	_	_	_	
+78-25	6073-6085	individuella	*[49]|*[50]	_	_	_	_	_	_	
+78-26	6086-6101	förutsättningar	*[49]|*[50]	_	_	_	_	_	_	
+78-27	6102-6105	att	*[49]|*[50]	_	_	_	_	_	_	
+78-28	6106-6113	fungera	*[49]|*[50]	_	_	_	_	_	_	
+78-29	6114-6117	som	*[49]|*[50]	_	_	_	_	_	_	
+78-30	6118-6126	förälder	*[49]|*[50]	_	_	_	_	_	_	
+78-31	6127-6132	under	*[49]|*[50]	_	_	_	_	_	_	
+78-32	6133-6140	barnets	*[49]|*[50]	_	_	_	_	_	_	
+78-33	6141-6145	hela	*[49]|*[50]	_	_	_	_	_	_	
+78-34	6146-6153	uppväxt	*[49]|*[50]	_	_	_	_	_	_	
+78-35	6153-6154	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	6156-6157	#	_	_	_	_	_	_	_	
+79-2	6157-6158	P	_	_	_	_	_	_	_	
+79-3	6159-6162	IMM	_	_	_	_	_	_	_	
+79-4	6162-6163	.	_	_	_	_	_	_	_	
+
+#Text=KJELL ASPLUND.
+80-1	6165-6170	KJELL	_	_	_	_	_	_	_	
+80-2	6171-6178	ASPLUND	_	_	_	_	_	_	_	
+80-3	6178-6179	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+81-1	6181-6182	#	_	_	_	_	_	_	_	
+81-2	6182-6183	P	_	_	_	_	_	_	_	
+81-3	6184-6187	IMM	_	_	_	_	_	_	_	
+81-4	6187-6188	.	_	_	_	_	_	_	_	
+
+#Text=professor, ordförande Smer.
+82-1	6190-6199	professor	_	_	_	_	_	_	_	
+82-2	6199-6200	,	_	_	_	_	_	_	_	
+82-3	6201-6211	ordförande	_	_	_	_	_	_	_	
+82-4	6212-6216	Smer	_	_	_	_	_	_	_	
+82-5	6216-6217	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	6219-6220	#	_	_	_	_	_	_	_	
+83-2	6220-6221	P	_	_	_	_	_	_	_	
+83-3	6222-6225	IMM	_	_	_	_	_	_	_	
+83-4	6225-6226	.	_	_	_	_	_	_	_	
+
+#Text=LOTTA ERIKSSON.
+84-1	6228-6233	LOTTA	_	_	_	_	_	_	_	
+84-2	6234-6242	ERIKSSON	_	_	_	_	_	_	_	
+84-3	6242-6243	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+85-1	6245-6246	#	_	_	_	_	_	_	_	
+85-2	6246-6247	P	_	_	_	_	_	_	_	
+85-3	6248-6251	IMM	_	_	_	_	_	_	_	
+85-4	6251-6252	.	_	_	_	_	_	_	_	
+
+#Text=gruppledare Smers sekretariat.
+86-1	6254-6265	gruppledare	_	_	_	_	_	_	_	
+86-2	6266-6271	Smers	_	_	_	_	_	_	_	
+86-3	6272-6283	sekretariat	_	_	_	_	_	_	_	
+86-4	6283-6284	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+87-1	6286-6287	#	_	_	_	_	_	_	_	
+87-2	6287-6288	P	_	_	_	_	_	_	_	
+87-3	6289-6292	IMM	_	_	_	_	_	_	_	
+87-4	6292-6293	.	_	_	_	_	_	_	_	
+
+#Text=GÖRAN HERMERÉN.
+88-1	6295-6300	GÖRAN	_	_	_	_	_	_	_	
+88-2	6301-6309	HERMERÉN	_	_	_	_	_	_	_	
+88-3	6309-6310	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	6312-6313	#	_	_	_	_	_	_	_	
+89-2	6313-6314	P	_	_	_	_	_	_	_	
+89-3	6315-6318	IMM	_	_	_	_	_	_	_	
+89-4	6318-6319	.	_	_	_	_	_	_	_	
+
+#Text=professor i medicinsk etik, sakkunnig i Smer.
+90-1	6321-6330	professor	_	_	_	_	_	_	_	
+90-2	6331-6332	i	_	_	_	_	_	_	_	
+90-3	6333-6342	medicinsk	_	_	_	_	_	_	_	
+90-4	6343-6347	etik	_	_	_	_	_	_	_	
+90-5	6347-6348	,	_	_	_	_	_	_	_	
+90-6	6349-6358	sakkunnig	_	_	_	_	_	_	_	
+90-7	6359-6360	i	_	_	_	_	_	_	_	
+90-8	6361-6365	Smer	_	_	_	_	_	_	_	
+90-9	6365-6366	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	6368-6369	#	_	_	_	_	_	_	_	
+91-2	6369-6370	P	_	_	_	_	_	_	_	
+91-3	6371-6374	IMM	_	_	_	_	_	_	_	
+91-4	6374-6375	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+92-1	6377-6385	Redaktör	_	_	_	_	_	_	_	
+92-2	6385-6386	:	_	_	_	_	_	_	_	
+92-3	6387-6393	Carina	_	_	_	_	_	_	_	
+92-4	6394-6402	Stensson	_	_	_	_	_	_	_	
+92-5	6402-6403	,	_	_	_	_	_	_	_	
+92-6	6404-6414	Biträdande	_	_	_	_	_	_	_	
+92-7	6415-6423	redaktör	_	_	_	_	_	_	_	
+92-8	6423-6424	:	_	_	_	_	_	_	_	
+92-9	6425-6430	Björn	_	_	_	_	_	_	_	
+92-10	6431-6437	Jorner	_	_	_	_	_	_	_	
+92-11	6437-6438	,	_	_	_	_	_	_	_	
+92-12	6439-6443	Mejl	_	_	_	_	_	_	_	
+92-13	6443-6444	:	_	_	_	_	_	_	_	
+92-14	6445-6451	debatt	_	_	_	_	_	_	_	
+92-15	6451-6452	@	_	_	_	_	_	_	_	
+92-16	6452-6458	svd.se	_	_	_	_	_	_	_	
+92-17	6458-6459	,	_	_	_	_	_	_	_	
+92-18	6460-6473	Telefonnummer	_	_	_	_	_	_	_	
+92-19	6473-6474	:	_	_	_	_	_	_	_	
+92-20	6475-6477	08	_	_	_	_	_	_	_	
+92-21	6477-6478	-	_	_	_	_	_	_	_	
+92-22	6478-6484	135149	_	_	_	_	_	_	_	
+92-23	6484-6485	,	_	_	_	_	_	_	_	
+92-24	6486-6493	Twitter	_	_	_	_	_	_	_	
+92-25	6493-6494	:	_	_	_	_	_	_	_	
+92-26	6495-6496	@	_	_	_	_	_	_	_	
+92-27	6496-6505	SvDDebatt	_	_	_	_	_	_	_	
+92-28	6505-6506	,	_	_	_	_	_	_	_	
+92-29	6507-6515	Facebook	_	_	_	_	_	_	_	
+92-30	6515-6516	:	_	_	_	_	_	_	_	
+92-31	6517-6520	SvD	_	_	_	_	_	_	_	
+92-32	6521-6527	Debatt	_	_	_	_	_	_	_	
+92-33	6527-6528	.	_	_	_	_	_	_	_	

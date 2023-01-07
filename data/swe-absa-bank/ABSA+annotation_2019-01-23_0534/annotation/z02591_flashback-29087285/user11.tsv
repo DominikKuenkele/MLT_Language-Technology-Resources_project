@@ -1,0 +1,80 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Samisk rasist i tidningen Fokus.
+3-1	18-24	Samisk	*	_	_	_	_	
+3-2	25-31	rasist	_	Target	3-1	false	1	
+3-3	32-33	i	_	_	_	_	_	
+3-4	34-43	tidningen	_	_	_	_	_	
+3-5	44-49	Fokus	_	_	_	_	_	
+3-6	49-50	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	
+
+#Text=När haglar angreppen från Expo, Nätverket mot rasism och dylika organisationer?
+5-1	61-64	När	_	_	_	_	_	
+5-2	65-71	haglar	_	Target[1]	5-5[3]	false[1]	2[1]	
+5-3	72-81	angreppen	_	Target[1]	5-5[3]	false[1]	2[1]	
+5-4	82-86	från	_	_	_	_	_	
+5-5	87-91	Expo	*[3]	_	_	_	_	
+5-6	91-92	,	*[3]	_	_	_	_	
+5-7	93-102	Nätverket	*[3]	_	_	_	_	
+5-8	103-106	mot	*[3]	_	_	_	_	
+5-9	107-113	rasism	*[3]	_	_	_	_	
+5-10	114-117	och	_	_	_	_	_	
+5-11	118-124	dylika	_	_	_	_	_	
+5-12	125-139	organisationer	_	_	_	_	_	
+5-13	139-140	?	_	_	_	_	_	
+
+#Text=Är inte sånt här blodsbandstänkande genomrasistiskt?
+6-1	141-143	Är	_	_	_	_	_	
+6-2	144-148	inte	_	_	_	_	_	
+6-3	149-153	sånt	*[4]	_	_	_	_	
+6-4	154-157	här	*[4]	_	_	_	_	
+6-5	158-176	blodsbandstänkande	_	Target[2]	6-3[4]	false[2]	1[2]	
+6-6	177-192	genomrasistiskt	_	Target[2]	6-3[4]	false[2]	1[2]	
+6-7	192-193	?	_	_	_	_	_	
+
+#Text=Eller är det bara samer, judar och andra icke-europeiska etniska grupper som får definiera sig själva på det här sättet öppet?.
+7-1	194-199	Eller	_	_	_	_	_	
+7-2	200-202	är	_	_	_	_	_	
+7-3	203-206	det	_	_	_	_	_	
+7-4	207-211	bara	_	_	_	_	_	
+7-5	212-217	samer	*[5]	_	_	_	_	
+7-6	217-218	,	*[5]	_	_	_	_	
+7-7	219-224	judar	*[5]	_	_	_	_	
+7-8	225-228	och	*[5]	_	_	_	_	
+7-9	229-234	andra	*[5]	_	_	_	_	
+7-10	235-250	icke-europeiska	*[5]	_	_	_	_	
+7-11	251-258	etniska	*[5]	_	_	_	_	
+7-12	259-266	grupper	*[5]	_	_	_	_	
+7-13	267-270	som	_	_	_	_	_	
+7-14	271-274	får	_	_	_	_	_	
+7-15	275-284	definiera	_	_	_	_	_	
+7-16	285-288	sig	_	_	_	_	_	
+7-17	289-295	själva	_	_	_	_	_	
+7-18	296-298	på	_	_	_	_	_	
+7-19	299-302	det	_	_	_	_	_	
+7-20	303-306	här	_	_	_	_	_	
+7-21	307-313	sättet	_	_	_	_	_	
+7-22	314-319	öppet	_	_	_	_	_	
+7-23	319-320	?	_	_	_	_	_	
+7-24	320-321	.	_	Target	7-5[5]	false	2	

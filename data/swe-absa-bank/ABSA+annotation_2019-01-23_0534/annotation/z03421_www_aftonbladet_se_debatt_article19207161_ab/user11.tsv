@@ -1,0 +1,810 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Hur blev det brottsligt att  hjälpa tiggare?
+3-1	18-21	Hur	_	_	_	_	_	_	
+3-2	22-26	blev	_	_	_	_	_	_	
+3-3	27-30	det	_	_	_	_	_	_	
+3-4	31-41	brottsligt	_	_	_	_	_	_	
+3-5	42-45	att	_	_	_	_	_	_	
+3-6	47-53	hjälpa	_	_	_	_	_	_	
+3-7	54-61	tiggare	_	_	_	_	_	_	
+3-8	61-62	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	
+
+#Text=Älskade Danmark.
+5-1	73-80	Älskade	_	Target	5-2	false	5	_	
+5-2	81-88	Danmark	*	_	_	_	_	_	
+5-3	88-89	.	_	_	_	_	_	_	
+
+#Text=Jag var en gång en del av dig.
+6-1	90-93	Jag	_	_	_	_	_	_	
+6-2	94-97	var	_	_	_	_	_	_	
+6-3	98-100	en	_	_	_	_	_	_	
+6-4	101-105	gång	_	_	_	_	_	_	
+6-5	106-108	en	_	_	_	_	_	_	
+6-6	109-112	del	_	_	_	_	_	_	
+6-7	113-115	av	_	_	_	_	_	_	
+6-8	116-119	dig	_	_	_	_	_	_	
+6-9	119-120	.	_	_	_	_	_	_	
+
+#Text=Ditt landskap av horisont – himmel och hav – finns för evigt inom mig.
+7-1	121-125	Ditt	*[30]	_	_	_	_	_	
+7-2	126-134	landskap	*[30]	_	_	_	_	_	
+7-3	135-137	av	*[30]	_	_	_	_	_	
+7-4	138-146	horisont	*[30]	_	_	_	_	_	
+7-5	147-148	–	*[30]	_	_	_	_	_	
+7-6	149-155	himmel	*[30]	_	_	_	_	_	
+7-7	156-159	och	*[30]	_	_	_	_	_	
+7-8	160-163	hav	*[30]	_	_	_	_	_	
+7-9	164-165	–	_	_	_	_	_	_	
+7-10	166-171	finns	_	Target[1]	7-1[30]	false[1]	5[1]	_	
+7-11	172-175	för	_	Target[1]	7-1[30]	false[1]	5[1]	_	
+7-12	176-181	evigt	_	Target[1]	7-1[30]	false[1]	5[1]	_	
+7-13	182-186	inom	_	Target[1]	7-1[30]	false[1]	5[1]	_	
+7-14	187-190	mig	_	Target[1]	7-1[30]	false[1]	5[1]	_	
+7-15	190-191	.	_	_	_	_	_	_	
+
+#Text=Hos dig har jag känt mig hemma.
+8-1	192-195	Hos	*[31]	_	_	_	_	_	
+8-2	196-199	dig	*[31]	_	_	_	_	_	
+8-3	200-203	har	_	_	_	_	_	_	
+8-4	204-207	jag	*	_	_	_	_	_	
+8-5	208-212	känt	_	Source;Target[2]	8-4;8-1[31]	false[2]	5[2]	_	
+8-6	213-216	mig	_	Source;Target[2]	8-4;8-1[31]	false[2]	5[2]	_	
+8-7	217-222	hemma	_	Source;Target[2]	8-4;8-1[31]	false[2]	5[2]	_	
+8-8	222-223	.	_	_	_	_	_	_	
+
+#Text=Mina mjukaste ord om tröst och kärlek och mina hetaste svordomar kan bara sägas på danska.
+9-1	224-228	Mina	_	_	_	_	_	_	
+9-2	229-237	mjukaste	_	Target[3]	9-5[32]	false[3]	4[3]	_	
+9-3	238-241	ord	_	Target[3]	9-5[32]	false[3]	4[3]	_	
+9-4	242-244	om	_	Target[3]	9-5[32]	false[3]	4[3]	_	
+9-5	245-250	tröst	*[32]	_	_	_	_	_	
+9-6	251-254	och	*[32]	_	_	_	_	_	
+9-7	255-261	kärlek	*[32]	_	_	_	_	_	
+9-8	262-265	och	_	_	_	_	_	_	
+9-9	266-270	mina	_	_	_	_	_	_	
+9-10	271-278	hetaste	_	Target	9-11	false	2	_	
+9-11	279-288	svordomar	*	_	_	_	_	_	
+9-12	289-292	kan	_	_	_	_	_	_	
+9-13	293-297	bara	_	_	_	_	_	_	
+9-14	298-303	sägas	_	_	_	_	_	_	
+9-15	304-306	på	_	_	_	_	_	_	
+9-16	307-313	danska	_	_	_	_	_	_	
+9-17	313-314	.	_	_	_	_	_	_	
+
+#Text=Jag har älskat ditt raka antiauktoritära sätt och din ovilja att vara polerad.
+10-1	315-318	Jag	*	_	_	_	_	_	
+10-2	319-322	har	_	Target;Source[4]	10-4[33];10-1	false[4]	5[4]	_	
+10-3	323-329	älskat	_	Target;Source[4]	10-4[33];10-1	false[4]	5[4]	_	
+10-4	330-334	ditt	*[33]	_	_	_	_	_	
+10-5	335-339	raka	*[33]	_	_	_	_	_	
+10-6	340-355	antiauktoritära	*[33]	_	_	_	_	_	
+10-7	356-360	sätt	*[33]	_	_	_	_	_	
+10-8	361-364	och	*[33]	_	_	_	_	_	
+10-9	365-368	din	*[33]	_	_	_	_	_	
+10-10	369-375	ovilja	*[33]	_	_	_	_	_	
+10-11	376-379	att	*[33]	_	_	_	_	_	
+10-12	380-384	vara	*[33]	_	_	_	_	_	
+10-13	385-392	polerad	*[33]	_	_	_	_	_	
+10-14	392-393	.	_	_	_	_	_	_	
+
+#Text=Men jag känner inte igen dig längre.
+11-1	394-397	Men	_	_	_	_	_	_	
+11-2	398-401	jag	*	_	_	_	_	_	
+11-3	402-408	känner	_	Source;Target[5]	11-2;11-6	false[5]	2[5]	_	
+11-4	409-413	inte	_	Source;Target[5]	11-2;11-6	false[5]	2[5]	_	
+11-5	414-418	igen	_	Source;Target[5]	11-2;11-6	false[5]	2[5]	_	
+11-6	419-422	dig	*	_	_	_	_	_	
+11-7	423-429	längre	_	_	_	false	2	11-3[5_0]	
+11-8	429-430	.	_	_	_	_	_	_	
+
+#Text=Vad har hänt, gamle vän?.
+12-1	431-434	Vad	_	_	_	_	_	_	
+12-2	435-438	har	_	_	_	_	_	_	
+12-3	439-443	hänt	_	_	_	_	_	_	
+12-4	443-444	,	_	_	_	_	_	_	
+12-5	445-450	gamle	_	_	_	_	_	_	
+12-6	451-454	vän	_	_	_	_	_	_	
+12-7	454-455	?	_	_	_	_	_	_	
+12-8	455-456	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	458-459	#	_	_	_	_	_	_	
+13-2	459-460	P	_	_	_	_	_	_	
+13-3	461-464	IMM	_	_	_	_	_	_	
+13-4	464-465	.	_	_	_	_	_	_	
+
+#Text=För det är ett land, där synen på människovärdet skadats i grunden, som nu väljer att jaga bort Europas fattigaste och mest utsatta från parkbänkar och trappuppgångar i Köpenhamn.
+14-1	467-470	För	_	_	_	_	_	_	
+14-2	471-474	det	_	_	_	_	_	_	
+14-3	475-477	är	_	_	_	_	_	_	
+14-4	478-481	ett	*[34]	_	_	_	_	_	
+14-5	482-486	land	*[34]	_	_	_	_	_	
+14-6	486-487	,	_	_	_	_	_	_	
+14-7	488-491	där	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-8	492-497	synen	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-9	498-500	på	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-10	501-515	människovärdet	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-11	516-523	skadats	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-12	524-525	i	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-13	526-533	grunden	_	Target[6]	14-4[34]	false[6]	2[6]	_	
+14-14	533-534	,	_	_	_	_	_	_	
+14-15	535-538	som	_	_	_	_	_	_	
+14-16	539-541	nu	_	Target[7]	14-4[34]	false[7]	2[7]	_	
+14-17	542-548	väljer	_	Target[7]	14-4[34]	false[7]	2[7]	_	
+14-18	549-552	att	_	Target[7]	14-4[34]	false[7]	2[7]	_	
+14-19	553-557	jaga	_	Target[7]	14-4[34]	false[7]	2[7]	_	
+14-20	558-562	bort	_	Target[7]	14-4[34]	false[7]	2[7]	_	
+14-21	563-570	Europas	_	_	_	_	_	_	
+14-22	571-581	fattigaste	_	_	_	_	_	_	
+14-23	582-585	och	_	_	_	_	_	_	
+14-24	586-590	mest	_	_	_	_	_	_	
+14-25	591-598	utsatta	_	_	_	_	_	_	
+14-26	599-603	från	_	_	_	_	_	_	
+14-27	604-614	parkbänkar	_	_	_	_	_	_	
+14-28	615-618	och	_	_	_	_	_	_	
+14-29	619-633	trappuppgångar	_	_	_	_	_	_	
+14-30	634-635	i	_	_	_	_	_	_	
+14-31	636-645	Köpenhamn	_	_	_	_	_	_	
+14-32	645-646	.	_	_	_	_	_	_	
+
+#Text=Polisen patrullerar gator och parker och utfärdar varningar eller böter till hemlösa som är EU-medborgare, människor som inte är europeiska medborgare kan utvisas direkt.
+15-1	647-654	Polisen	*	_	_	_	_	_	
+15-2	655-666	patrullerar	_	_	_	_	_	_	
+15-3	667-672	gator	_	_	_	_	_	_	
+15-4	673-676	och	_	_	_	_	_	_	
+15-5	677-683	parker	_	_	_	_	_	_	
+15-6	684-687	och	_	_	_	_	_	_	
+15-7	688-696	utfärdar	_	Source;Target[8]	15-1;15-12[35]	false[8]	2[8]	_	
+15-8	697-706	varningar	_	Source;Target[8]	15-1;15-12[35]	false[8]	2[8]	_	
+15-9	707-712	eller	_	_	_	_	_	_	
+15-10	713-718	böter	_	_	_	_	_	_	
+15-11	719-723	till	_	_	_	_	_	_	
+15-12	724-731	hemlösa	*[35]	_	_	_	_	_	
+15-13	732-735	som	*[35]	_	_	_	_	_	
+15-14	736-738	är	*[35]	_	_	_	_	_	
+15-15	739-752	EU-medborgare	*[35]	_	_	_	_	_	
+15-16	752-753	,	_	_	_	_	_	_	
+15-17	754-763	människor	_	_	_	_	_	_	
+15-18	764-767	som	_	_	_	_	_	_	
+15-19	768-772	inte	_	_	_	_	_	_	
+15-20	773-775	är	_	_	_	_	_	_	
+15-21	776-786	europeiska	_	_	_	_	_	_	
+15-22	787-797	medborgare	_	_	_	_	_	_	
+15-23	798-801	kan	_	_	_	_	_	_	
+15-24	802-809	utvisas	_	_	_	_	_	_	
+15-25	810-816	direkt	_	_	_	_	_	_	
+15-26	816-817	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	819-820	#	_	_	_	_	_	_	
+16-2	820-821	P	_	_	_	_	_	_	
+16-3	822-825	IMM	_	_	_	_	_	_	
+16-4	825-826	.	_	_	_	_	_	_	
+
+#Text=I Ekot hör jag socialdemokraternas rättspolitiska talesperson Trine Bramsen försvara beslutet att förbjuda tiggeri och låta polisen systematiskt förfölja de utländska hemlösa på stadens gator.
+17-1	828-829	I	_	_	_	_	_	_	
+17-2	830-834	Ekot	_	_	_	_	_	_	
+17-3	835-838	hör	_	_	_	_	_	_	
+17-4	839-842	jag	_	_	_	_	_	_	
+17-5	843-862	socialdemokraternas	_	_	_	_	_	_	
+17-6	863-877	rättspolitiska	_	_	_	_	_	_	
+17-7	878-889	talesperson	_	_	_	_	_	_	
+17-8	890-895	Trine	*[36]	_	_	_	_	_	
+17-9	896-903	Bramsen	*[36]	_	_	_	_	_	
+17-10	904-912	försvara	_	Target;Source	17-11[37];17-8[36]	false	4	_	
+17-11	913-921	beslutet	*[37]	_	_	_	_	_	
+17-12	922-925	att	*[37]	_	_	_	_	_	
+17-13	926-934	förbjuda	*[37]	_	_	_	_	_	
+17-14	935-942	tiggeri	*[37]	_	_	_	_	_	
+17-15	943-946	och	_	_	_	_	_	_	
+17-16	947-951	låta	_	_	_	_	_	_	
+17-17	952-959	polisen	*	_	_	_	_	_	
+17-18	960-972	systematiskt	_	Target[9]	17-17	false[9]	1[9]	_	
+17-19	973-981	förfölja	_	Target[9]	17-17	false[9]	1[9]	_	
+17-20	982-984	de	_	_	_	_	_	_	
+17-21	985-994	utländska	_	_	_	_	_	_	
+17-22	995-1002	hemlösa	_	_	_	_	_	_	
+17-23	1003-1005	på	_	_	_	_	_	_	
+17-24	1006-1013	stadens	_	_	_	_	_	_	
+17-25	1014-1019	gator	_	_	_	_	_	_	
+17-26	1019-1020	.	_	_	_	_	_	_	
+
+#Text=För att ytterligare förvärra situationen förbjuder dansk sociallag kommuner och frivilligorganisationer att erbjuda hjälp till utsatta som saknar danskt personnummer.
+18-1	1021-1024	För	_	_	_	_	_	_	
+18-2	1025-1028	att	_	_	_	_	_	_	
+18-3	1029-1040	ytterligare	_	Target[10]	18-5	false[10]	2[10]	_	
+18-4	1041-1049	förvärra	_	Target[10]	18-5	false[10]	2[10]	_	
+18-5	1050-1061	situationen	*	_	_	_	_	_	
+18-6	1062-1071	förbjuder	_	_	_	_	_	_	
+18-7	1072-1077	dansk	_	_	_	_	_	_	
+18-8	1078-1087	sociallag	_	_	_	_	_	_	
+18-9	1088-1096	kommuner	_	_	_	_	_	_	
+18-10	1097-1100	och	_	_	_	_	_	_	
+18-11	1101-1124	frivilligorganisationer	_	_	_	_	_	_	
+18-12	1125-1128	att	_	_	_	_	_	_	
+18-13	1129-1136	erbjuda	_	_	_	_	_	_	
+18-14	1137-1142	hjälp	_	_	_	_	_	_	
+18-15	1143-1147	till	_	_	_	_	_	_	
+18-16	1148-1155	utsatta	_	_	_	_	_	_	
+18-17	1156-1159	som	_	_	_	_	_	_	
+18-18	1160-1166	saknar	_	_	_	_	_	_	
+18-19	1167-1173	danskt	_	_	_	_	_	_	
+18-20	1174-1186	personnummer	_	_	_	_	_	_	
+18-21	1186-1187	.	_	_	_	_	_	_	
+
+#Text=Medmänsklighet är brottslig i det Danmark jag inte längre känner igen.
+19-1	1188-1202	Medmänsklighet	_	Target[11]	19-6	false[11]	2[11]	_	
+19-2	1203-1205	är	_	Target[11]	19-6	false[11]	2[11]	_	
+19-3	1206-1215	brottslig	_	Target[11]	19-6	false[11]	2[11]	_	
+19-4	1216-1217	i	_	_	_	_	_	_	
+19-5	1218-1221	det	_	_	_	_	_	_	
+19-6	1222-1229	Danmark	*	_	_	_	_	_	
+19-7	1230-1233	jag	*	_	_	_	_	_	
+19-8	1234-1238	inte	_	Target;Source[12]	19-6;19-7	false[12]	2[12]	_	
+19-9	1239-1245	längre	_	Target;Source[12]	19-6;19-7	false[12]	2[12]	_	
+19-10	1246-1252	känner	_	Target;Source[12]	19-6;19-7	false[12]	2[12]	_	
+19-11	1253-1257	igen	_	Target;Source[12]	19-6;19-7	false[12]	2[12]	_	
+19-12	1257-1258	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1260-1261	#	_	_	_	_	_	_	
+20-2	1261-1262	P	_	_	_	_	_	_	
+20-3	1263-1266	IMM	_	_	_	_	_	_	
+20-4	1266-1267	.	_	_	_	_	_	_	
+
+#Text=Runt 500 utländska hemlösa rör sig i Köpenhamn med nästan 1,2 miljoner invånare.
+21-1	1269-1273	Runt	_	_	_	_	_	_	
+21-2	1274-1277	500	_	_	_	_	_	_	
+21-3	1278-1287	utländska	_	_	_	_	_	_	
+21-4	1288-1295	hemlösa	_	_	_	_	_	_	
+21-5	1296-1299	rör	_	_	_	_	_	_	
+21-6	1300-1303	sig	_	_	_	_	_	_	
+21-7	1304-1305	i	_	_	_	_	_	_	
+21-8	1306-1315	Köpenhamn	_	_	_	_	_	_	
+21-9	1316-1319	med	_	_	_	_	_	_	
+21-10	1320-1326	nästan	_	_	_	_	_	_	
+21-11	1327-1330	1,2	_	_	_	_	_	_	
+21-12	1331-1339	miljoner	_	_	_	_	_	_	
+21-13	1340-1348	invånare	_	_	_	_	_	_	
+21-14	1348-1349	.	_	_	_	_	_	_	
+
+#Text=EU-migranternas omöjliga situation i hemländerna är inte sällan ett resultat av samma assimileringspolitik som rasistiska partier som Dansk Folkeparti, Sverigedemokraterna och deras europeiska gelikar förespråkar.
+22-1	1350-1365	EU-migranternas	_	_	_	_	_	_	
+22-2	1366-1374	omöjliga	_	Target	22-3	false	1	_	
+22-3	1375-1384	situation	*	_	_	_	_	_	
+22-4	1385-1386	i	_	_	_	_	_	_	
+22-5	1387-1398	hemländerna	_	_	_	_	_	_	
+22-6	1399-1401	är	_	_[13]	_	false[13]	2[13]	_	
+22-7	1402-1406	inte	_	_[13]	_	false[13]	2[13]	_	
+22-8	1407-1413	sällan	_	_[13]	_	false[13]	2[13]	_	
+22-9	1414-1417	ett	_	_[13]	_	false[13]	2[13]	_	
+22-10	1418-1426	resultat	_	_[13]	_	false[13]	2[13]	_	
+22-11	1427-1429	av	_	_[13]	_	false[13]	2[13]	_	
+22-12	1430-1435	samma	_	_[14]	_	false[14]	2[14]	_	
+22-13	1436-1456	assimileringspolitik	_	_[14]	_	false[14]	2[14]	_	
+22-14	1457-1460	som	_	_[14]	_	false[14]	2[14]	_	
+22-15	1461-1471	rasistiska	_	_[14]	_	false[14]	2[14]	_	
+22-16	1472-1479	partier	_	_[14]	_	false[14]	2[14]	_	
+22-17	1480-1483	som	_	_[14]	_	false[14]	2[14]	_	
+22-18	1484-1489	Dansk	_	_[14]	_	false[14]	2[14]	_	
+22-19	1490-1500	Folkeparti	_	_[14]	_	false[14]	2[14]	_	
+22-20	1500-1501	,	_	_[14]	_	false[14]	2[14]	_	
+22-21	1502-1521	Sverigedemokraterna	_	_[14]	_	false[14]	2[14]	_	
+22-22	1522-1525	och	_	_[14]	_	false[14]	2[14]	_	
+22-23	1526-1531	deras	_	_[14]	_	false[14]	2[14]	_	
+22-24	1532-1542	europeiska	_	_[14]	_	false[14]	2[14]	_	
+22-25	1543-1550	gelikar	_	_[14]	_	false[14]	2[14]	_	
+22-26	1551-1562	förespråkar	_	_[14]	_	false[14]	2[14]	_	
+22-27	1562-1563	.	_	_	_	_	_	_	
+
+#Text=Konsekvent diskriminering av romer och resande i hemländerna samt en ekonomisk politik i EU som prioriterar banker framför välfärd skapar en fattigdom som även syns på Europas gator.
+23-1	1564-1574	Konsekvent	_	Target;Source[15]	23-4[38];23-8	false[15]	1[15]	_	
+23-2	1575-1589	diskriminering	_	Target;Source[15]	23-4[38];23-8	false[15]	1[15]	_	
+23-3	1590-1592	av	_	_	_	_	_	_	
+23-4	1593-1598	romer	*[38]	_	_	_	_	_	
+23-5	1599-1602	och	*[38]	_	_	_	_	_	
+23-6	1603-1610	resande	*[38]	_	_	_	_	_	
+23-7	1611-1612	i	_	_	_	_	_	_	
+23-8	1613-1624	hemländerna	*	_	_	_	_	_	
+23-9	1625-1629	samt	_	_	_	_	_	_	
+23-10	1630-1632	en	_	_	_	_	_	_	
+23-11	1633-1642	ekonomisk	_	_	_	_	_	_	
+23-12	1643-1650	politik	_	_	_	_	_	_	
+23-13	1651-1652	i	_	_	_	_	_	_	
+23-14	1653-1655	EU	_	_	_	_	_	_	
+23-15	1656-1659	som	_	_	_	_	_	_	
+23-16	1660-1671	prioriterar	_	_	_	_	_	_	
+23-17	1672-1678	banker	_	_	_	_	_	_	
+23-18	1679-1686	framför	_	_	_	_	_	_	
+23-19	1687-1694	välfärd	_	_	_	_	_	_	
+23-20	1695-1701	skapar	_	_	_	_	_	_	
+23-21	1702-1704	en	_	_	_	_	_	_	
+23-22	1705-1714	fattigdom	_	_	_	_	_	_	
+23-23	1715-1718	som	_	_	_	_	_	_	
+23-24	1719-1723	även	_	_	_	_	_	_	
+23-25	1724-1728	syns	_	_	_	_	_	_	
+23-26	1729-1731	på	_	_	_	_	_	_	
+23-27	1732-1739	Europas	_	_	_	_	_	_	
+23-28	1740-1745	gator	_	_	_	_	_	_	
+23-29	1745-1746	.	_	_	_	_	_	_	
+
+#Text=Tiggarens utsträckta hand är en akut påminnelse om dagens ojämlika Europa.
+24-1	1747-1756	Tiggarens	*[39]	_	_	_	_	_	
+24-2	1757-1767	utsträckta	*[39]	_	_	_	_	_	
+24-3	1768-1772	hand	*[39]	_	_	_	_	_	
+24-4	1773-1775	är	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-5	1776-1778	en	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-6	1779-1783	akut	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-7	1784-1794	påminnelse	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-8	1795-1797	om	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-9	1798-1804	dagens	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-10	1805-1813	ojämlika	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-11	1814-1820	Europa	_	Target[16]	24-1[39]	false[16]	2[16]	_	
+24-12	1820-1821	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1823-1824	#	_	_	_	_	_	_	
+25-2	1824-1825	P	_	_	_	_	_	_	
+25-3	1826-1829	IMM	_	_	_	_	_	_	
+25-4	1829-1830	.	_	_	_	_	_	_	
+
+#Text=Jag lyssnar till Trine Bramsen som talar med varm röst.
+26-1	1832-1835	Jag	_	_	_	_	_	_	
+26-2	1836-1843	lyssnar	_	_	_	_	_	_	
+26-3	1844-1848	till	_	_	_	_	_	_	
+26-4	1849-1854	Trine	*[40]	_	_	_	_	_	
+26-5	1855-1862	Bramsen	*[40]	_	_	_	_	_	
+26-6	1863-1866	som	_	_	_	_	_	_	
+26-7	1867-1872	talar	_	Source[17]	26-4[40]	false[17]	4[17]	_	
+26-8	1873-1876	med	_	Source[17]	26-4[40]	false[17]	4[17]	_	
+26-9	1877-1881	varm	_	Source[17]	26-4[40]	false[17]	4[17]	_	
+26-10	1882-1886	röst	_	Source[17]	26-4[40]	false[17]	4[17]	_	
+26-11	1886-1887	.	_	_	_	_	_	_	
+
+#Text=Hon säger att socialdemokraterna vill att ryktet sprids i Europa att fattiga hemlösa inte är välkomna i Danmark.
+27-1	1888-1891	Hon	_	_	_	_	_	_	
+27-2	1892-1897	säger	_	_	_	_	_	_	
+27-3	1898-1901	att	_	_	_	_	_	_	
+27-4	1902-1920	socialdemokraterna	*	_	_	_	_	_	
+27-5	1921-1925	vill	_	Source;Target	27-4;27-7[41]	false	4	_	
+27-6	1926-1929	att	_	_	_	_	_	_	
+27-7	1930-1936	ryktet	*[41]	_	_	_	_	_	
+27-8	1937-1943	sprids	*[41]	_	_	_	_	_	
+27-9	1944-1945	i	*[41]	_	_	_	_	_	
+27-10	1946-1952	Europa	*[41]	_	_	_	_	_	
+27-11	1953-1956	att	*[41]	_	_	_	_	_	
+27-12	1957-1964	fattiga	*[41]	_	_	_	_	_	
+27-13	1965-1972	hemlösa	*[41]	_	_	_	_	_	
+27-14	1973-1977	inte	*[41]	_	_	_	_	_	
+27-15	1978-1980	är	*[41]	_	_	_	_	_	
+27-16	1981-1989	välkomna	*[41]	_	_	_	_	_	
+27-17	1990-1991	i	*[41]	_	_	_	_	_	
+27-18	1992-1999	Danmark	*[41]	_	_	_	_	_	
+27-19	1999-2000	.	_	_	_	_	_	_	
+
+#Text=Jag spolar tillbaka och lyssnar igen.
+28-1	2001-2004	Jag	_	_	_	_	_	_	
+28-2	2005-2011	spolar	_	_	_	_	_	_	
+28-3	2012-2020	tillbaka	_	_	_	_	_	_	
+28-4	2021-2024	och	_	_	_	_	_	_	
+28-5	2025-2032	lyssnar	_	_	_	_	_	_	
+28-6	2033-2037	igen	_	_	_	_	_	_	
+28-7	2037-2038	.	_	_	_	_	_	_	
+
+#Text=Så låter en dansk socialdemokrati som helt tappat bort sin historiska roll i kampen för jämlikhet.
+29-1	2039-2041	Så	_	_	_	_	_	_	
+29-2	2042-2047	låter	_	_	_	_	_	_	
+29-3	2048-2050	en	_	_	_	_	_	_	
+29-4	2051-2056	dansk	*[42]	_	_	_	_	_	
+29-5	2057-2072	socialdemokrati	*[42]	_	_	_	_	_	
+29-6	2073-2076	som	_	_	_	_	_	_	
+29-7	2077-2081	helt	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-8	2082-2088	tappat	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-9	2089-2093	bort	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-10	2094-2097	sin	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-11	2098-2108	historiska	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-12	2109-2113	roll	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-13	2114-2115	i	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-14	2116-2122	kampen	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-15	2123-2126	för	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-16	2127-2136	jämlikhet	_	Target[18]	29-4[42]	false[18]	1[18]	_	
+29-17	2136-2137	.	_	_	_	_	_	_	
+
+#Text=I stället för att visionärt och radikalt föreslå reformer för att utrota fattigdom och skapa ett jämlikt Danmark och Europa väljer den danska socialdemokratin en politik som jagar och kriminaliserar de fattiga.
+30-1	2138-2139	I	_	_	_	_	_	_	
+30-2	2140-2147	stället	_	_	_	_	_	_	
+30-3	2148-2151	för	_	_	_	_	_	_	
+30-4	2152-2155	att	_	_	_	_	_	_	
+30-5	2156-2165	visionärt	_	_	_	_	_	_	
+30-6	2166-2169	och	_	_	_	_	_	_	
+30-7	2170-2178	radikalt	_	_	_	_	_	_	
+30-8	2179-2186	föreslå	_	_	_	_	_	_	
+30-9	2187-2195	reformer	_	_	_	_	_	_	
+30-10	2196-2199	för	_	_	_	_	_	_	
+30-11	2200-2203	att	_	_	_	_	_	_	
+30-12	2204-2210	utrota	_	_	_	_	_	_	
+30-13	2211-2220	fattigdom	_	_	_	_	_	_	
+30-14	2221-2224	och	_	_	_	_	_	_	
+30-15	2225-2230	skapa	_	_	_	_	_	_	
+30-16	2231-2234	ett	_	_	_	_	_	_	
+30-17	2235-2242	jämlikt	_	_	_	_	_	_	
+30-18	2243-2250	Danmark	_	_	_	_	_	_	
+30-19	2251-2254	och	_	_	_	_	_	_	
+30-20	2255-2261	Europa	_	_	_	_	_	_	
+30-21	2262-2268	väljer	_	Target;Source	30-26;30-22[43]	false	4	_	
+30-22	2269-2272	den	*[43]	_	_	_	_	_	
+30-23	2273-2279	danska	*[43]	_	_	_	_	_	
+30-24	2280-2296	socialdemokratin	*[43]	_	_	_	_	_	
+30-25	2297-2299	en	_	_	_	_	_	_	
+30-26	2300-2307	politik	*	_	_	_	_	_	
+30-27	2308-2311	som	_	_	_	_	_	_	
+30-28	2312-2317	jagar	_	Target[19]	30-26	false[19]	1[19]	_	
+30-29	2318-2321	och	_	Target[19]	30-26	false[19]	1[19]	_	
+30-30	2322-2336	kriminaliserar	_	Target[19]	30-26	false[19]	1[19]	_	
+30-31	2337-2339	de	_	Target[19]	30-26	false[19]	1[19]	_	
+30-32	2340-2347	fattiga	_	Target[19]	30-26	false[19]	1[19]	_	
+30-33	2347-2348	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2350-2351	#	_	_	_	_	_	_	
+31-2	2351-2352	P	_	_	_	_	_	_	
+31-3	2353-2356	IMM	_	_	_	_	_	_	
+31-4	2356-2357	.	_	_	_	_	_	_	
+
+#Text=Så låter en dansk socialdemokrati som gång på gång, steg för steg, valt att anpassa sin politik till den populistiska rasism som förs fram av Dansk Folkeparti.
+32-1	2359-2361	Så	_	_	_	_	_	_	
+32-2	2362-2367	låter	_	_	_	_	_	_	
+32-3	2368-2370	en	_	_	_	_	_	_	
+32-4	2371-2376	dansk	*[44]	_	_	_	_	_	
+32-5	2377-2392	socialdemokrati	*[44]	_	_	_	_	_	
+32-6	2393-2396	som	_	_	_	_	_	_	
+32-7	2397-2401	gång	_	_	_	_	_	_	
+32-8	2402-2404	på	_	_	_	_	_	_	
+32-9	2405-2409	gång	_	_	_	_	_	_	
+32-10	2409-2410	,	_	_	_	_	_	_	
+32-11	2411-2415	steg	_	_	_	_	_	_	
+32-12	2416-2419	för	_	_	_	_	_	_	
+32-13	2420-2424	steg	_	_	_	_	_	_	
+32-14	2424-2425	,	_	_	_	_	_	_	
+32-15	2426-2430	valt	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-16	2431-2434	att	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-17	2435-2442	anpassa	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-18	2443-2446	sin	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-19	2447-2454	politik	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-20	2455-2459	till	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-21	2460-2463	den	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-22	2464-2476	populistiska	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-23	2477-2483	rasism	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-24	2484-2487	som	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-25	2488-2492	förs	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-26	2493-2497	fram	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-27	2498-2500	av	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-28	2501-2506	Dansk	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-29	2507-2517	Folkeparti	_	Target[20]	32-4[44]	false[20]	1[20]	_	
+32-30	2517-2518	.	_	_	_	_	_	_	
+
+#Text=Att övriga politiska partier i Danmark, med rödgröna Enhedslisten som enda konsekventa undantag, gjort samma resa och anpassat sig till Dansk Folkeparti är minst lika sorgligt.
+33-1	2519-2522	Att	_	_	_	_	_	_	
+33-2	2523-2529	övriga	*[45]	_	_	_	_	_	
+33-3	2530-2539	politiska	*[45]	_	_	_	_	_	
+33-4	2540-2547	partier	*[45]	_	_	_	_	_	
+33-5	2548-2549	i	*[45]	_	_	_	_	_	
+33-6	2550-2557	Danmark	*[45]	_	_	_	_	_	
+33-7	2557-2558	,	*[45]	_	_	_	_	_	
+33-8	2559-2562	med	*[45]	_	_	_	_	_	
+33-9	2563-2571	rödgröna	*[45]	_	_	_	_	_	
+33-10	2572-2584	Enhedslisten	*[45]	_	_	_	_	_	
+33-11	2585-2588	som	*[45]	_	_	_	_	_	
+33-12	2589-2593	enda	*[45]	_	_	_	_	_	
+33-13	2594-2605	konsekventa	*[45]	_	_	_	_	_	
+33-14	2606-2614	undantag	*[45]	_	_	_	_	_	
+33-15	2614-2615	,	*[45]	_	_	_	_	_	
+33-16	2616-2621	gjort	*[45]	_	_	_	_	_	
+33-17	2622-2627	samma	*[45]	_	_	_	_	_	
+33-18	2628-2632	resa	*[45]	_	_	_	_	_	
+33-19	2633-2636	och	*[45]	_	_	_	_	_	
+33-20	2637-2645	anpassat	*[45]	_	_	_	_	_	
+33-21	2646-2649	sig	*[45]	_	_	_	_	_	
+33-22	2650-2654	till	*[45]	_	_	_	_	_	
+33-23	2655-2660	Dansk	*[45]	_	_	_	_	_	
+33-24	2661-2671	Folkeparti	*[45]	_	_	_	_	_	
+33-25	2672-2674	är	_	Target[21]	33-2[45]	false[21]	1[21]	_	
+33-26	2675-2680	minst	_	Target[21]	33-2[45]	false[21]	1[21]	_	
+33-27	2681-2685	lika	_	Target[21]	33-2[45]	false[21]	1[21]	_	
+33-28	2686-2694	sorgligt	_	Target[21]	33-2[45]	false[21]	1[21]	_	
+33-29	2694-2695	.	_	_	_	_	_	_	
+
+#Text=Det är resultatet av en lång tids orientering mot mitten i dansk politik.
+34-1	2696-2699	Det	_	_	_	_	_	_	
+34-2	2700-2702	är	_	_	_	_	_	_	
+34-3	2703-2713	resultatet	_	_	_	_	_	_	
+34-4	2714-2716	av	_	_	_	_	_	_	
+34-5	2717-2719	en	_	_	_	_	_	_	
+34-6	2720-2724	lång	_	_	_	_	_	_	
+34-7	2725-2729	tids	_	_	_	_	_	_	
+34-8	2730-2741	orientering	_	_	_	_	_	_	
+34-9	2742-2745	mot	_	_	_	_	_	_	
+34-10	2746-2752	mitten	_	_	_	_	_	_	
+34-11	2753-2754	i	_	_	_	_	_	_	
+34-12	2755-2760	dansk	_	_	_	_	_	_	
+34-13	2761-2768	politik	_	_	_	_	_	_	
+34-14	2768-2769	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2771-2772	#	_	_	_	_	_	_	
+35-2	2772-2773	P	_	_	_	_	_	_	
+35-3	2774-2777	IMM	_	_	_	_	_	_	
+35-4	2777-2778	.	_	_	_	_	_	_	
+
+#Text=I stället för att debattera ekonomisk fördelning och visioner för framtiden längs en vänster-högerskala har man låtit Dansk Folkeparti sätta dagordningen för det politiska samtalet utifrån en demonisering av muslimer, romer och afrodanskar.
+36-1	2780-2781	I	_	_	_	_	_	_	
+36-2	2782-2789	stället	_	_	_	_	_	_	
+36-3	2790-2793	för	_	_	_	_	_	_	
+36-4	2794-2797	att	_	_	_	_	_	_	
+36-5	2798-2807	debattera	_	_	_	_	_	_	
+36-6	2808-2817	ekonomisk	_	_	_	_	_	_	
+36-7	2818-2828	fördelning	_	_	_	_	_	_	
+36-8	2829-2832	och	_	_	_	_	_	_	
+36-9	2833-2841	visioner	_	_	_	_	_	_	
+36-10	2842-2845	för	_	_	_	_	_	_	
+36-11	2846-2855	framtiden	_	_	_	_	_	_	
+36-12	2856-2861	längs	_	_	_	_	_	_	
+36-13	2862-2864	en	_	_	_	_	_	_	
+36-14	2865-2883	vänster-högerskala	_	_	_	_	_	_	
+36-15	2884-2887	har	_	_	_	_	_	_	
+36-16	2888-2891	man	_	_	_	_	_	_	
+36-17	2892-2897	låtit	_	_	_	_	_	_	
+36-18	2898-2903	Dansk	*[46]	_	_	_	_	_	
+36-19	2904-2914	Folkeparti	*[46]	_	_	_	_	_	
+36-20	2915-2920	sätta	_	_	_	_	_	_	
+36-21	2921-2933	dagordningen	_	_	_	_	_	_	
+36-22	2934-2937	för	_	_	_	_	_	_	
+36-23	2938-2941	det	_	_	_	_	_	_	
+36-24	2942-2951	politiska	_	_	_	_	_	_	
+36-25	2952-2960	samtalet	_	_	_	_	_	_	
+36-26	2961-2968	utifrån	_	_	_	_	_	_	
+36-27	2969-2971	en	_	_	_	_	_	_	
+36-28	2972-2984	demonisering	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-29	2985-2987	av	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-30	2988-2996	muslimer	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-31	2996-2997	,	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-32	2998-3003	romer	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-33	3004-3007	och	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-34	3008-3019	afrodanskar	_	Target[22]	36-18[46]	false[22]	1[22]	_	
+36-35	3019-3020	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3022-3023	#	_	_	_	_	_	_	
+37-2	3023-3024	P	_	_	_	_	_	_	
+37-3	3025-3028	IMM	_	_	_	_	_	_	
+37-4	3028-3029	.	_	_	_	_	_	_	
+
+#Text=När delar ur borgerligheten nu även i Sverige dansar efter Sverigedemokraternas pipa och ropar på förbud mot tiggeri sparkar de på dem som redan ligger.
+38-1	3031-3034	När	_	_	_	_	_	_	
+38-2	3035-3040	delar	*[47]	_	_	_	_	_	
+38-3	3041-3043	ur	*[47]	_	_	_	_	_	
+38-4	3044-3058	borgerligheten	*[47]	_	_	_	_	_	
+38-5	3059-3061	nu	_	_	_	_	_	_	
+38-6	3062-3066	även	_	_	_	_	_	_	
+38-7	3067-3068	i	_	_	_	_	_	_	
+38-8	3069-3076	Sverige	_	_	_	_	_	_	
+38-9	3077-3083	dansar	_	Target[23]	38-2[47]	false[23]	2[23]	_	
+38-10	3084-3089	efter	_	Target[23]	38-2[47]	false[23]	2[23]	_	
+38-11	3090-3110	Sverigedemokraternas	_	Target[23]	38-2[47]	false[23]	2[23]	_	
+38-12	3111-3115	pipa	_	Target[23]	38-2[47]	false[23]	2[23]	_	
+38-13	3116-3119	och	_	_	_	_	_	_	
+38-14	3120-3125	ropar	_	_	_	_	_	_	
+38-15	3126-3128	på	_	_	_	_	_	_	
+38-16	3129-3135	förbud	_	_	_	_	_	_	
+38-17	3136-3139	mot	_	_	_	_	_	_	
+38-18	3140-3147	tiggeri	_	_	_	_	_	_	
+38-19	3148-3155	sparkar	_	Target	38-20	false	2	_	
+38-20	3156-3158	de	*	_	_	_	_	_	
+38-21	3159-3161	på	_	_[24]	_	false[24]	2[24]	38-19[0_24]	
+38-22	3162-3165	dem	_	_[24]	_	false[24]	2[24]	_	
+38-23	3166-3169	som	_	_[24]	_	false[24]	2[24]	_	
+38-24	3170-3175	redan	_	_[24]	_	false[24]	2[24]	_	
+38-25	3176-3182	ligger	_	_[24]	_	false[24]	2[24]	_	
+38-26	3182-3183	.	_	_[24]	_	false[24]	2[24]	_	
+
+#Text=Fattigdom och diskriminering kan endast bekämpas med rättvisa och jämlikhet – inte med förbud.
+39-1	3184-3193	Fattigdom	*[48]	_	_	_	_	_	
+39-2	3194-3197	och	*[48]	_	_	_	_	_	
+39-3	3198-3212	diskriminering	*[48]	_	_	_	_	_	
+39-4	3213-3216	kan	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-5	3217-3223	endast	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-6	3224-3232	bekämpas	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-7	3233-3236	med	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-8	3237-3245	rättvisa	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-9	3246-3249	och	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-10	3250-3259	jämlikhet	_	Target[25]	39-1[48]	false[25]	4[25]	_	
+39-11	3260-3261	–	_	_	_	_	_	_	
+39-12	3262-3266	inte	_	_	_	_	_	_	
+39-13	3267-3270	med	_	_	_	_	_	_	
+39-14	3271-3277	förbud	_	_	_	_	_	_	
+39-15	3277-3278	.	_	_	_	_	_	_	
+
+#Text=EU-migranterna blir inte rikare av att vi jagar bort dem till andra gator i Europa.
+40-1	3279-3293	EU-migranterna	_	_	_	_	_	_	
+40-2	3294-3298	blir	_	_	_	_	_	_	
+40-3	3299-3303	inte	_	_	_	_	_	_	
+40-4	3304-3310	rikare	_	_	_	_	_	_	
+40-5	3311-3313	av	_	_	_	_	_	_	
+40-6	3314-3317	att	_	_	_	_	_	_	
+40-7	3318-3320	vi	_	_	_	_	_	_	
+40-8	3321-3326	jagar	_	_	_	_	_	_	
+40-9	3327-3331	bort	_	_	_	_	_	_	
+40-10	3332-3335	dem	_	_	_	_	_	_	
+40-11	3336-3340	till	_	_	_	_	_	_	
+40-12	3341-3346	andra	_	_	_	_	_	_	
+40-13	3347-3352	gator	_	_	_	_	_	_	
+40-14	3353-3354	i	_	_	_	_	_	_	
+40-15	3355-3361	Europa	_	_	_	_	_	_	
+40-16	3361-3362	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3364-3365	#	_	_	_	_	_	_	
+41-2	3365-3366	P	_	_	_	_	_	_	
+41-3	3367-3370	IMM	_	_	_	_	_	_	
+41-4	3370-3371	.	_	_	_	_	_	_	
+
+#Text=Kära Danmark.
+42-1	3373-3377	Kära	_	_	_	_	_	_	
+42-2	3378-3385	Danmark	*	_	_	_	_	_	
+42-3	3385-3386	.	_	_	_	_	_	_	
+
+#Text=Jag önskar att jag inte skulle behöva använda dig som exempel på vad som händer om man låter rasismen sätta den politiska agendan.
+43-1	3387-3390	Jag	*	_	_	_	_	_	
+43-2	3391-3397	önskar	_	Target;Source	43-4[49];43-1	false	4	_	
+43-3	3398-3401	att	_	_	_	_	_	_	
+43-4	3402-3405	jag	*[49]	_	_	_	_	_	
+43-5	3406-3410	inte	*[49]	_	_	_	_	_	
+43-6	3411-3417	skulle	*[49]	_	_	_	_	_	
+43-7	3418-3424	behöva	*[49]	_	_	_	_	_	
+43-8	3425-3432	använda	*[49]	_	_	_	_	_	
+43-9	3433-3436	dig	*[49]	_	_	_	_	_	
+43-10	3437-3440	som	*[49]	_	_	_	_	_	
+43-11	3441-3448	exempel	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-12	3449-3451	på	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-13	3452-3455	vad	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-14	3456-3459	som	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-15	3460-3466	händer	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-16	3467-3469	om	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-17	3470-3473	man	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-18	3474-3479	låter	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-19	3480-3488	rasismen	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-20	3489-3494	sätta	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-21	3495-3498	den	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-22	3499-3508	politiska	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-23	3509-3516	agendan	*[49]	Target[26]	42-2	false[26]	2[26]	_	
+43-24	3516-3517	.	_	_	_	_	_	_	
+
+#Text=Jag önskar att jag kunde känna mig lika hemma hos dig som förr.
+44-1	3518-3521	Jag	*	_	_	_	_	_	
+44-2	3522-3528	önskar	_	Target;Source	44-4[50];44-1	false	4	_	
+44-3	3529-3532	att	_	_	_	_	_	_	
+44-4	3533-3536	jag	*[50]	_	_	_	_	_	
+44-5	3537-3542	kunde	*[50]	_	_	_	_	_	
+44-6	3543-3548	känna	*[50]	Target[27]	44-10[51]	false[27]	4[27]	_	
+44-7	3549-3552	mig	*[50]	Target[27]	44-10[51]	false[27]	4[27]	_	
+44-8	3553-3557	lika	*[50]	Target[27]	44-10[51]	false[27]	4[27]	_	
+44-9	3558-3563	hemma	*[50]	Target[27]	44-10[51]	false[27]	4[27]	_	
+44-10	3564-3567	hos	*[50]|*[51]	_	_	_	_	_	
+44-11	3568-3571	dig	*[50]|*[51]	_	_	_	_	_	
+44-12	3572-3575	som	*[50]	_	_	_	_	_	
+44-13	3576-3580	förr	*[50]	_	_	_	_	_	
+44-14	3580-3581	.	_	_	_	_	_	_	
+
+#Text=Men du har förändrats.
+45-1	3582-3585	Men	_	_	_	_	_	_	
+45-2	3586-3588	du	_	_	_	_	_	_	
+45-3	3589-3592	har	_	_	_	_	_	_	
+45-4	3593-3603	förändrats	_	_	_	_	_	_	
+45-5	3603-3604	.	_	_	_	_	_	_	
+
+#Text=Och jag ska göra mitt yttersta för att mitt nya hemland aldrig ska gå samma väg.
+46-1	3605-3608	Och	_	_	_	_	_	_	
+46-2	3609-3612	jag	*	_	_	_	_	_	
+46-3	3613-3616	ska	_	Source;Target[28]	46-2;46-9[52]	false[28]	4[28]	_	
+46-4	3617-3621	göra	_	Source;Target[28]	46-2;46-9[52]	false[28]	4[28]	_	
+46-5	3622-3626	mitt	_	Source;Target[28]	46-2;46-9[52]	false[28]	4[28]	_	
+46-6	3627-3635	yttersta	_	Source;Target[28]	46-2;46-9[52]	false[28]	4[28]	_	
+46-7	3636-3639	för	_	Source;Target[28]	46-2;46-9[52]	false[28]	4[28]	_	
+46-8	3640-3643	att	_	_	_	_	_	_	
+46-9	3644-3648	mitt	*[52]	_	_	_	_	_	
+46-10	3649-3652	nya	*[52]	_	_	_	_	_	
+46-11	3653-3660	hemland	*[52]	_	_	_	_	_	
+46-12	3661-3667	aldrig	*[52]	_	_	_	_	_	
+46-13	3668-3671	ska	*[52]	_	_	_	_	_	
+46-14	3672-3674	gå	*[52]	_	_	_	_	_	
+46-15	3675-3680	samma	*[52]	_	_	_	_	_	
+46-16	3681-3684	väg	*[52]	_	_	_	_	_	
+46-17	3684-3685	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3687-3688	#	_	_	_	_	_	_	
+47-2	3688-3689	P	_	_	_	_	_	_	
+47-3	3690-3693	IMM	_	_	_	_	_	_	
+47-4	3693-3694	.	_	_	_	_	_	_	
+
+#Text=I Sverige ska medmänsklighet alltid vara en skyldighet – aldrig ett brott.
+48-1	3696-3697	I	*[53]	_	_	_	_	_	
+48-2	3698-3705	Sverige	*[53]	_	_	_	_	_	
+48-3	3706-3709	ska	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-4	3710-3724	medmänsklighet	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-5	3725-3731	alltid	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-6	3732-3736	vara	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-7	3737-3739	en	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-8	3740-3750	skyldighet	_	Target[29]	48-1[53]	false[29]	5[29]	_	
+48-9	3751-3752	–	_	_	_	_	_	_	
+48-10	3753-3759	aldrig	_	_	_	_	_	_	
+48-11	3760-3763	ett	_	_	_	_	_	_	
+48-12	3764-3769	brott	_	_	_	_	_	_	
+48-13	3769-3770	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3772-3773	#	_	_	_	_	_	_	
+49-2	3773-3774	P	_	_	_	_	_	_	
+49-3	3775-3778	IMM	_	_	_	_	_	_	
+49-4	3778-3779	.	_	_	_	_	_	_	
+
+#Text=Christina Höj Larsen.
+50-1	3781-3790	Christina	_	_	_	_	_	_	
+50-2	3791-3794	Höj	_	_	_	_	_	_	
+50-3	3795-3801	Larsen	_	_	_	_	_	_	
+50-4	3801-3802	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3804-3805	#	_	_	_	_	_	_	
+51-2	3805-3806	P	_	_	_	_	_	_	
+51-3	3807-3810	IMM	_	_	_	_	_	_	
+51-4	3810-3811	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+52-1	3813-3818	FAKTA	_	_	_	_	_	_	
+52-2	3818-3819	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3821-3822	#	_	_	_	_	_	_	
+53-2	3822-3823	P	_	_	_	_	_	_	
+53-3	3824-3827	IMM	_	_	_	_	_	_	
+53-4	3827-3828	.	_	_	_	_	_	_	
+
+#Text=EREN:.
+54-1	3830-3834	EREN	_	_	_	_	_	_	
+54-2	3834-3835	:	_	_	_	_	_	_	
+54-3	3835-3836	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3838-3839	#	_	_	_	_	_	_	
+55-2	3839-3840	P	_	_	_	_	_	_	
+55-3	3841-3844	IMM	_	_	_	_	_	_	
+55-4	3844-3845	.	_	_	_	_	_	_	
+
+#Text=N:.
+56-1	3847-3848	N	_	_	_	_	_	_	
+56-2	3848-3849	:	_	_	_	_	_	_	
+56-3	3849-3850	.	_	_	_	_	_	_	

@@ -1,0 +1,911 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Medborgarna – bättre än ryktet.
+3-1	18-29	Medborgarna	*	_	_	_	_	_	_	
+3-2	30-31	–	_	_	_	_	_	_	_	
+3-3	32-38	bättre	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-4	39-41	än	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-5	42-48	ryktet	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-6	48-49	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	51-52	#	_	_	_	_	_	_	_	
+4-2	52-53	P	_	_	_	_	_	_	_	
+4-3	54-57	IMM	_	_	_	_	_	_	_	
+4-4	57-58	.	_	_	_	_	_	_	_	
+
+#Text=Den pessimistiska för att inte säga anklagande bilden av den samtida medborgaren håller inte.
+5-1	60-63	Den	*[17]	_	_	_	_	_	_	
+5-2	64-77	pessimistiska	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-3	78-81	för	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-4	82-85	att	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-5	86-90	inte	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-6	91-95	säga	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-7	96-106	anklagande	*[17]	Target[2]	5-8[18]	false[2]	2[2]	_	_	
+5-8	107-113	bilden	*[17]|*[18]	_	_	_	_	_	_	
+5-9	114-116	av	*[17]|*[18]	_	_	_	_	_	_	
+5-10	117-120	den	*[17]|*[18]	_	_	_	_	_	_	
+5-11	121-128	samtida	*[17]|*[18]	_	_	_	_	_	_	
+5-12	129-140	medborgaren	*[17]|*[18]	_	_	_	_	_	_	
+5-13	141-147	håller	_	Target[3]	5-1[17]	false[3]	2[3]	_	_	
+5-14	148-152	inte	_	Target[3]	5-1[17]	false[3]	2[3]	_	_	
+5-15	152-153	.	_	_	_	_	_	_	_	
+
+#Text=Medborgarna är inte mestadels obildade, slöa, likgiltiga eller lättmanipulerade.
+6-1	154-165	Medborgarna	*[19]|*[20]	_	_	_	_	_	7-1[0_20]	
+6-2	166-168	är	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-3	169-173	inte	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-4	174-183	mestadels	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-5	184-192	obildade	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-6	192-193	,	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-7	194-198	slöa	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-8	198-199	,	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-9	200-210	likgiltiga	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-10	211-216	eller	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-11	217-233	lättmanipulerade	_	Target[4]	6-1[19]	false[4]	4[4]	_	_	
+6-12	233-234	.	_	_	_	_	_	_	_	
+
+#Text=De sitter inte tillbakalutade i sköna fåtöljer, bedagade betraktande bedrägliga bondfångare som de lojt valt till sina representanter.
+7-1	235-237	De	*	_	_	_	_	_	_	
+7-2	238-244	sitter	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-3	245-249	inte	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-4	250-264	tillbakalutade	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-5	265-266	i	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-6	267-272	sköna	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-7	273-281	fåtöljer	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-8	281-282	,	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-9	283-291	bedagade	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-10	292-303	betraktande	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-11	304-314	bedrägliga	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-12	315-326	bondfångare	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-13	327-330	som	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-14	331-333	de	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-15	334-338	lojt	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-16	339-343	valt	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-17	344-348	till	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-18	349-353	sina	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-19	354-368	representanter	_	Target[5]	7-1	false[5]	4[5]	_	_	
+7-20	368-369	.	_	_	_	_	_	_	_	
+
+#Text=Demokrati är inte politikerstyre i Sverige 2008.
+8-1	370-379	Demokrati	_	_	_	_	_	_	_	
+8-2	380-382	är	_	_	_	_	_	_	_	
+8-3	383-387	inte	_	_	_	_	_	_	_	
+8-4	388-402	politikerstyre	_	_	_	_	_	_	_	
+8-5	403-404	i	_	_	_	_	_	_	_	
+8-6	405-412	Sverige	_	_	_	_	_	_	_	
+8-7	413-417	2008	_	_	_	_	_	_	_	
+8-8	417-418	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	420-421	#	_	_	_	_	_	_	_	
+9-2	421-422	P	_	_	_	_	_	_	_	
+9-3	423-426	IMM	_	_	_	_	_	_	_	
+9-4	426-427	.	_	_	_	_	_	_	_	
+
+#Text=I boken ” Jourhavande medborgare.
+10-1	429-430	I	_	_	_	_	_	_	_	
+10-2	431-436	boken	_	_	_	_	_	_	_	
+10-3	437-438	”	_	_	_	_	_	_	_	
+10-4	439-450	Jourhavande	_	_	_	_	_	_	_	
+10-5	451-461	medborgare	_	_	_	_	_	_	_	
+10-6	461-462	.	_	_	_	_	_	_	_	
+
+#Text=Samhällsengagemang i en folkrörelsestat” (Lund: Studentlitteratur) presenterar jag en bild av samhällsengagemanget som på några punkter avviker från den gängse.
+11-1	463-481	Samhällsengagemang	_	_	_	_	_	_	_	
+11-2	482-483	i	_	_	_	_	_	_	_	
+11-3	484-486	en	_	_	_	_	_	_	_	
+11-4	487-502	folkrörelsestat	_	_	_	_	_	_	_	
+11-5	502-503	”	_	_	_	_	_	_	_	
+11-6	504-505	(	_	_	_	_	_	_	_	
+11-7	505-509	Lund	_	_	_	_	_	_	_	
+11-8	509-510	:	_	_	_	_	_	_	_	
+11-9	511-528	Studentlitteratur	_	_	_	_	_	_	_	
+11-10	528-529	)	_	_	_	_	_	_	_	
+11-11	530-541	presenterar	_	_	_	_	_	_	_	
+11-12	542-545	jag	_	_	_	_	_	_	_	
+11-13	546-548	en	_	_	_	_	_	_	_	
+11-14	549-553	bild	_	_	_	_	_	_	_	
+11-15	554-556	av	_	_	_	_	_	_	_	
+11-16	557-577	samhällsengagemanget	_	_	_	_	_	_	_	
+11-17	578-581	som	_	_	_	_	_	_	_	
+11-18	582-584	på	_	_	_	_	_	_	_	
+11-19	585-590	några	_	_	_	_	_	_	_	
+11-20	591-598	punkter	_	_	_	_	_	_	_	
+11-21	599-606	avviker	_	_	_	_	_	_	_	
+11-22	607-611	från	_	_	_	_	_	_	_	
+11-23	612-615	den	_	_	_	_	_	_	_	
+11-24	616-622	gängse	_	_	_	_	_	_	_	
+11-25	622-623	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	625-626	#	_	_	_	_	_	_	_	
+12-2	626-627	P	_	_	_	_	_	_	_	
+12-3	628-631	IMM	_	_	_	_	_	_	_	
+12-4	631-632	.	_	_	_	_	_	_	_	
+
+#Text=För det första försvagas inte samhällsengagemanget.
+13-1	634-637	För	_	_	_	_	_	_	_	
+13-2	638-641	det	_	_	_	_	_	_	_	
+13-3	642-648	första	_	_	_	_	_	_	_	
+13-4	649-658	försvagas	_	_	_	_	_	_	_	
+13-5	659-663	inte	_	_	_	_	_	_	_	
+13-6	664-684	samhällsengagemanget	_	_	_	_	_	_	_	
+13-7	684-685	.	_	_	_	_	_	_	_	
+
+#Text=Det senaste kvartsseklet har politiken inte marginaliserats i människors samtal.
+14-1	686-689	Det	_	_	_	_	_	_	_	
+14-2	690-697	senaste	_	_	_	_	_	_	_	
+14-3	698-710	kvartsseklet	_	_	_	_	_	_	_	
+14-4	711-714	har	_	_	_	_	_	_	_	
+14-5	715-724	politiken	_	_	_	_	_	_	_	
+14-6	725-729	inte	_	_	_	_	_	_	_	
+14-7	730-745	marginaliserats	_	_	_	_	_	_	_	
+14-8	746-747	i	_	_	_	_	_	_	_	
+14-9	748-758	människors	_	_	_	_	_	_	_	
+14-10	759-765	samtal	_	_	_	_	_	_	_	
+14-11	765-766	.	_	_	_	_	_	_	_	
+
+#Text=Fler kvinnor och män ger sig oftast in i diskussionen när politik kommer på tal.
+15-1	767-771	Fler	_	_	_	_	_	_	_	
+15-2	772-779	kvinnor	_	_	_	_	_	_	_	
+15-3	780-783	och	_	_	_	_	_	_	_	
+15-4	784-787	män	_	_	_	_	_	_	_	
+15-5	788-791	ger	_	_	_	_	_	_	_	
+15-6	792-795	sig	_	_	_	_	_	_	_	
+15-7	796-802	oftast	_	_	_	_	_	_	_	
+15-8	803-805	in	_	_	_	_	_	_	_	
+15-9	806-807	i	_	_	_	_	_	_	_	
+15-10	808-820	diskussionen	_	_	_	_	_	_	_	
+15-11	821-824	när	_	_	_	_	_	_	_	
+15-12	825-832	politik	_	_	_	_	_	_	_	
+15-13	833-839	kommer	_	_	_	_	_	_	_	
+15-14	840-842	på	_	_	_	_	_	_	_	
+15-15	843-846	tal	_	_	_	_	_	_	_	
+15-16	846-847	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte färre nu än tidigare som håller vakt om den politiska allmänningen.
+16-1	848-851	Det	_	_	_	_	_	_	_	
+16-2	852-854	är	_	_	_	_	_	_	_	
+16-3	855-859	inte	_	_	_	_	_	_	_	
+16-4	860-865	färre	_	_	_	_	_	_	_	
+16-5	866-868	nu	_	_	_	_	_	_	_	
+16-6	869-871	än	_	_	_	_	_	_	_	
+16-7	872-880	tidigare	_	_	_	_	_	_	_	
+16-8	881-884	som	_	_	_	_	_	_	_	
+16-9	885-891	håller	_	_	_	_	_	_	_	
+16-10	892-896	vakt	_	_	_	_	_	_	_	
+16-11	897-899	om	_	_	_	_	_	_	_	
+16-12	900-903	den	_	_	_	_	_	_	_	
+16-13	904-913	politiska	_	_	_	_	_	_	_	
+16-14	914-926	allmänningen	_	_	_	_	_	_	_	
+16-15	926-927	.	_	_	_	_	_	_	_	
+
+#Text=Nio av tio är fortfarande medlemmar i åtminstone en förening.
+17-1	928-931	Nio	_	_	_	_	_	_	_	
+17-2	932-934	av	_	_	_	_	_	_	_	
+17-3	935-938	tio	_	_	_	_	_	_	_	
+17-4	939-941	är	_	_	_	_	_	_	_	
+17-5	942-953	fortfarande	_	_	_	_	_	_	_	
+17-6	954-963	medlemmar	_	_	_	_	_	_	_	
+17-7	964-965	i	_	_	_	_	_	_	_	
+17-8	966-976	åtminstone	_	_	_	_	_	_	_	
+17-9	977-979	en	_	_	_	_	_	_	_	
+17-10	980-988	förening	_	_	_	_	_	_	_	
+17-11	988-989	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	991-992	#	_	_	_	_	_	_	_	
+18-2	992-993	P	_	_	_	_	_	_	_	
+18-3	994-997	IMM	_	_	_	_	_	_	_	
+18-4	997-998	.	_	_	_	_	_	_	_	
+
+#Text=Det tycks finnas en uthållig beredskap för ett aktivt politiskt deltagande.
+19-1	1000-1003	Det	_	_	_	_	_	_	_	
+19-2	1004-1009	tycks	_	_	_	_	_	_	_	
+19-3	1010-1016	finnas	_	_	_	_	_	_	_	
+19-4	1017-1019	en	_	_	_	_	_	_	_	
+19-5	1020-1028	uthållig	_	_	_	_	_	_	_	
+19-6	1029-1038	beredskap	_	_	_	_	_	_	_	
+19-7	1039-1042	för	_	_	_	_	_	_	_	
+19-8	1043-1046	ett	_	_	_	_	_	_	_	
+19-9	1047-1053	aktivt	_	_	_	_	_	_	_	
+19-10	1054-1063	politiskt	_	_	_	_	_	_	_	
+19-11	1064-1074	deltagande	_	_	_	_	_	_	_	
+19-12	1074-1075	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller också de till synes apatiska medborgare, som jag mötte i fokusgrupper.
+20-1	1076-1079	Det	_	_	_	_	_	_	_	
+20-2	1080-1086	gäller	_	_	_	_	_	_	_	
+20-3	1087-1092	också	_	_	_	_	_	_	_	
+20-4	1093-1095	de	_	_	_	_	_	_	_	
+20-5	1096-1100	till	_	_	_	_	_	_	_	
+20-6	1101-1106	synes	_	_	_	_	_	_	_	
+20-7	1107-1115	apatiska	_	_	_	_	_	_	_	
+20-8	1116-1126	medborgare	_	_	_	_	_	_	_	
+20-9	1126-1127	,	_	_	_	_	_	_	_	
+20-10	1128-1131	som	_	_	_	_	_	_	_	
+20-11	1132-1135	jag	_	_	_	_	_	_	_	
+20-12	1136-1141	mötte	_	_	_	_	_	_	_	
+20-13	1142-1143	i	_	_	_	_	_	_	_	
+20-14	1144-1156	fokusgrupper	_	_	_	_	_	_	_	
+20-15	1156-1157	.	_	_	_	_	_	_	_	
+
+#Text=Innan de aktiverar sig i någon fråga, ställer de sig emellertid vissa frågor: Bör man?
+21-1	1158-1163	Innan	_	_	_	_	_	_	_	
+21-2	1164-1166	de	_	_	_	_	_	_	_	
+21-3	1167-1176	aktiverar	_	_	_	_	_	_	_	
+21-4	1177-1180	sig	_	_	_	_	_	_	_	
+21-5	1181-1182	i	_	_	_	_	_	_	_	
+21-6	1183-1188	någon	_	_	_	_	_	_	_	
+21-7	1189-1194	fråga	_	_	_	_	_	_	_	
+21-8	1194-1195	,	_	_	_	_	_	_	_	
+21-9	1196-1203	ställer	_	_	_	_	_	_	_	
+21-10	1204-1206	de	_	_	_	_	_	_	_	
+21-11	1207-1210	sig	_	_	_	_	_	_	_	
+21-12	1211-1221	emellertid	_	_	_	_	_	_	_	
+21-13	1222-1227	vissa	_	_	_	_	_	_	_	
+21-14	1228-1234	frågor	_	_	_	_	_	_	_	
+21-15	1234-1235	:	_	_	_	_	_	_	_	
+21-16	1236-1239	Bör	_	_	_	_	_	_	_	
+21-17	1240-1243	man	_	_	_	_	_	_	_	
+21-18	1243-1244	?	_	_	_	_	_	_	_	
+
+#Text=Är det viktigt?
+22-1	1245-1247	Är	_	_	_	_	_	_	_	
+22-2	1248-1251	det	_	_	_	_	_	_	_	
+22-3	1252-1259	viktigt	_	_	_	_	_	_	_	
+22-4	1259-1260	?	_	_	_	_	_	_	_	
+
+#Text=Behövs jag?
+23-1	1261-1267	Behövs	_	_	_	_	_	_	_	
+23-2	1268-1271	jag	_	_	_	_	_	_	_	
+23-3	1271-1272	?	_	_	_	_	_	_	_	
+
+#Text=Kan jag göra någon skillnad?
+24-1	1273-1276	Kan	_	_	_	_	_	_	_	
+24-2	1277-1280	jag	_	_	_	_	_	_	_	
+24-3	1281-1285	göra	_	_	_	_	_	_	_	
+24-4	1286-1291	någon	_	_	_	_	_	_	_	
+24-5	1292-1300	skillnad	_	_	_	_	_	_	_	
+24-6	1300-1301	?	_	_	_	_	_	_	_	
+
+#Text=Kan handlingen ha någon effekt?
+25-1	1302-1305	Kan	_	_	_	_	_	_	_	
+25-2	1306-1316	handlingen	_	_	_	_	_	_	_	
+25-3	1317-1319	ha	_	_	_	_	_	_	_	
+25-4	1320-1325	någon	_	_	_	_	_	_	_	
+25-5	1326-1332	effekt	_	_	_	_	_	_	_	
+25-6	1332-1333	?	_	_	_	_	_	_	_	
+
+#Text=Ger det nåt i retur?.
+26-1	1334-1337	Ger	_	_	_	_	_	_	_	
+26-2	1338-1341	det	_	_	_	_	_	_	_	
+26-3	1342-1345	nåt	_	_	_	_	_	_	_	
+26-4	1346-1347	i	_	_	_	_	_	_	_	
+26-5	1348-1353	retur	_	_	_	_	_	_	_	
+26-6	1353-1354	?	_	_	_	_	_	_	_	
+26-7	1354-1355	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1357-1358	#	_	_	_	_	_	_	_	
+27-2	1358-1359	P	_	_	_	_	_	_	_	
+27-3	1360-1363	IMM	_	_	_	_	_	_	_	
+27-4	1363-1364	.	_	_	_	_	_	_	_	
+
+#Text=Så länge dessa frågor – i alla fall några av dem – inte självklart besvaras med att ”ja”, utövas det jourhavande medborgarskapet; alltså beredd, men inte alltid aktiv.
+28-1	1366-1368	Så	_	_	_	_	_	_	_	
+28-2	1369-1374	länge	_	_	_	_	_	_	_	
+28-3	1375-1380	dessa	_	_	_	_	_	_	_	
+28-4	1381-1387	frågor	_	_	_	_	_	_	_	
+28-5	1388-1389	–	_	_	_	_	_	_	_	
+28-6	1390-1391	i	_	_	_	_	_	_	_	
+28-7	1392-1396	alla	_	_	_	_	_	_	_	
+28-8	1397-1401	fall	_	_	_	_	_	_	_	
+28-9	1402-1407	några	_	_	_	_	_	_	_	
+28-10	1408-1410	av	_	_	_	_	_	_	_	
+28-11	1411-1414	dem	_	_	_	_	_	_	_	
+28-12	1415-1416	–	_	_	_	_	_	_	_	
+28-13	1417-1421	inte	_	_	_	_	_	_	_	
+28-14	1422-1432	självklart	_	_	_	_	_	_	_	
+28-15	1433-1441	besvaras	_	_	_	_	_	_	_	
+28-16	1442-1445	med	_	_	_	_	_	_	_	
+28-17	1446-1449	att	_	_	_	_	_	_	_	
+28-18	1450-1451	”	_	_	_	_	_	_	_	
+28-19	1451-1453	ja	_	_	_	_	_	_	_	
+28-20	1453-1454	”	_	_	_	_	_	_	_	
+28-21	1454-1455	,	_	_	_	_	_	_	_	
+28-22	1456-1462	utövas	_	_	_	_	_	_	_	
+28-23	1463-1466	det	_	_	_	_	_	_	_	
+28-24	1467-1478	jourhavande	_	_	_	_	_	_	_	
+28-25	1479-1494	medborgarskapet	_	_	_	_	_	_	_	
+28-26	1494-1495	;	_	_	_	_	_	_	_	
+28-27	1496-1502	alltså	_	_	_	_	_	_	_	
+28-28	1503-1509	beredd	_	_	_	_	_	_	_	
+28-29	1509-1510	,	_	_	_	_	_	_	_	
+28-30	1511-1514	men	_	_	_	_	_	_	_	
+28-31	1515-1519	inte	_	_	_	_	_	_	_	
+28-32	1520-1526	alltid	_	_	_	_	_	_	_	
+28-33	1527-1532	aktiv	_	_	_	_	_	_	_	
+28-34	1532-1533	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1535-1536	#	_	_	_	_	_	_	_	
+29-2	1536-1537	P	_	_	_	_	_	_	_	
+29-3	1538-1541	IMM	_	_	_	_	_	_	_	
+29-4	1541-1542	.	_	_	_	_	_	_	_	
+
+#Text=För det andra är inte de yngre rörelserna så mycket annorlunda än de gamla.
+30-1	1544-1547	För	_	_	_	_	_	_	_	
+30-2	1548-1551	det	_	_	_	_	_	_	_	
+30-3	1552-1557	andra	_	_	_	_	_	_	_	
+30-4	1558-1560	är	_	_	_	_	_	_	_	
+30-5	1561-1565	inte	_	_	_	_	_	_	_	
+30-6	1566-1568	de	_	_	_	_	_	_	_	
+30-7	1569-1574	yngre	_	_	_	_	_	_	_	
+30-8	1575-1585	rörelserna	_	_	_	_	_	_	_	
+30-9	1586-1588	så	_	_	_	_	_	_	_	
+30-10	1589-1595	mycket	_	_	_	_	_	_	_	
+30-11	1596-1606	annorlunda	_	_	_	_	_	_	_	
+30-12	1607-1609	än	_	_	_	_	_	_	_	
+30-13	1610-1612	de	_	_	_	_	_	_	_	
+30-14	1613-1618	gamla	_	_	_	_	_	_	_	
+30-15	1618-1619	.	_	_	_	_	_	_	_	
+
+#Text=Visst erbjuder de yngre, lokalt och globalt aktionsorienterade organisationerna ofta attraktivare arbetsformer.
+31-1	1620-1625	Visst	_	_	_	_	_	_	_	
+31-2	1626-1634	erbjuder	_	_	_	false	4	_	_	
+31-3	1635-1637	de	*[21]	_	_	_	_	_	_	
+31-4	1638-1643	yngre	*[21]	_	_	_	_	_	_	
+31-5	1643-1644	,	*[21]	_	_	_	_	_	_	
+31-6	1645-1651	lokalt	*[21]	_	_	_	_	_	_	
+31-7	1652-1655	och	*[21]	_	_	_	_	_	_	
+31-8	1656-1663	globalt	*[21]	_	_	_	_	_	_	
+31-9	1664-1682	aktionsorienterade	*[21]	_	_	_	_	_	_	
+31-10	1683-1699	organisationerna	*[21]	_	_	_	_	_	_	
+31-11	1700-1704	ofta	_	Target[6]	31-3[21]	false[6]	4[6]	31-2[0_6]	_	
+31-12	1705-1717	attraktivare	_	Target[6]	31-3[21]	false[6]	4[6]	_	_	
+31-13	1718-1730	arbetsformer	_	Target[6]	31-3[21]	false[6]	4[6]	_	_	
+31-14	1730-1731	.	_	_	_	_	_	_	_	
+
+#Text=Det passar jourhavande medborgare att koncentrera sig på akuta frågor, söka sig till likasinnade och välja när och hur man ska delta.
+32-1	1732-1735	Det	_	Source;Target[7]	32-3[22];32-5[23]	false[7]	4[7]	_	_	
+32-2	1736-1742	passar	_	Source;Target[7]	32-3[22];32-5[23]	false[7]	4[7]	_	_	
+32-3	1743-1754	jourhavande	*[22]	Source;Target[7]	32-3[22];32-5[23]	false[7]	4[7]	_	_	
+32-4	1755-1765	medborgare	*[22]	Source;Target[7]	32-3[22];32-5[23]	false[7]	4[7]	_	_	
+32-5	1766-1769	att	*[23]	_	_	_	_	_	_	
+32-6	1770-1781	koncentrera	*[23]	_	_	_	_	_	_	
+32-7	1782-1785	sig	*[23]	_	_	_	_	_	_	
+32-8	1786-1788	på	*[23]	_	_	_	_	_	_	
+32-9	1789-1794	akuta	*[23]	_	_	_	_	_	_	
+32-10	1795-1801	frågor	*[23]	_	_	_	_	_	_	
+32-11	1801-1802	,	*[23]	_	_	_	_	_	_	
+32-12	1803-1807	söka	*[23]	_	_	_	_	_	_	
+32-13	1808-1811	sig	*[23]	_	_	_	_	_	_	
+32-14	1812-1816	till	*[23]	_	_	_	_	_	_	
+32-15	1817-1828	likasinnade	*[23]	_	_	_	_	_	_	
+32-16	1829-1832	och	*[23]	_	_	_	_	_	_	
+32-17	1833-1838	välja	*[23]	_	_	_	_	_	_	
+32-18	1839-1842	när	*[23]	_	_	_	_	_	_	
+32-19	1843-1846	och	*[23]	_	_	_	_	_	_	
+32-20	1847-1850	hur	*[23]	_	_	_	_	_	_	
+32-21	1851-1854	man	*[23]	_	_	_	_	_	_	
+32-22	1855-1858	ska	*[23]	_	_	_	_	_	_	
+32-23	1859-1864	delta	*[23]	_	_	_	_	_	_	
+32-24	1864-1865	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	1867-1868	#	_	_	_	_	_	_	_	
+33-2	1868-1869	P	_	_	_	_	_	_	_	
+33-3	1870-1873	IMM	_	_	_	_	_	_	_	
+33-4	1873-1874	.	_	_	_	_	_	_	_	
+
+#Text=Men de gamla försöker lära sig av de unga.
+34-1	1876-1879	Men	_	_	_	_	_	_	_	
+34-2	1880-1882	de	_	_	_	_	_	_	_	
+34-3	1883-1888	gamla	_	_	_	_	_	_	_	
+34-4	1889-1897	försöker	_	_	_	_	_	_	_	
+34-5	1898-1902	lära	_	_	_	_	_	_	_	
+34-6	1903-1906	sig	_	_	_	_	_	_	_	
+34-7	1907-1909	av	_	_	_	_	_	_	_	
+34-8	1910-1912	de	_	_	_	_	_	_	_	
+34-9	1913-1917	unga	_	_	_	_	_	_	_	
+34-10	1917-1918	.	_	_	_	_	_	_	_	
+
+#Text=Alla har dock svårt att motivera medlemskap eftersom det inte betyder inflytande; i de nya är maktförhållandena oklara och i de gamla väger medlemmar lättare än kombinationen anställda professionella och frivilligarbetande sympatisörer.
+35-1	1919-1923	Alla	_	_	_	_	_	_	_	
+35-2	1924-1927	har	_	_	_	_	_	_	_	
+35-3	1928-1932	dock	_	_	_	_	_	_	_	
+35-4	1933-1938	svårt	_	_	_	_	_	_	_	
+35-5	1939-1942	att	_	_	_	_	_	_	_	
+35-6	1943-1951	motivera	_	_	_	_	_	_	_	
+35-7	1952-1962	medlemskap	_	_	_	_	_	_	_	
+35-8	1963-1971	eftersom	_	_	_	_	_	_	_	
+35-9	1972-1975	det	_	_	_	_	_	_	_	
+35-10	1976-1980	inte	_	_	_	_	_	_	_	
+35-11	1981-1988	betyder	_	_	_	_	_	_	_	
+35-12	1989-1999	inflytande	_	_	_	_	_	_	_	
+35-13	1999-2000	;	_	_	_	_	_	_	_	
+35-14	2001-2002	i	_	_	_	_	_	_	_	
+35-15	2003-2005	de	_	_	_	_	_	_	_	
+35-16	2006-2009	nya	_	_	_	_	_	_	_	
+35-17	2010-2012	är	_	_	_	_	_	_	_	
+35-18	2013-2030	maktförhållandena	_	_	_	_	_	_	_	
+35-19	2031-2037	oklara	_	_	_	_	_	_	_	
+35-20	2038-2041	och	_	_	_	_	_	_	_	
+35-21	2042-2043	i	_	_	_	_	_	_	_	
+35-22	2044-2046	de	_	_	_	_	_	_	_	
+35-23	2047-2052	gamla	_	_	_	_	_	_	_	
+35-24	2053-2058	väger	_	_	_	_	_	_	_	
+35-25	2059-2068	medlemmar	_	_	_	_	_	_	_	
+35-26	2069-2076	lättare	_	_	_	_	_	_	_	
+35-27	2077-2079	än	_	_	_	_	_	_	_	
+35-28	2080-2093	kombinationen	_	_	_	_	_	_	_	
+35-29	2094-2103	anställda	_	_	_	_	_	_	_	
+35-30	2104-2118	professionella	_	_	_	_	_	_	_	
+35-31	2119-2122	och	_	_	_	_	_	_	_	
+35-32	2123-2141	frivilligarbetande	_	_	_	_	_	_	_	
+35-33	2142-2154	sympatisörer	_	_	_	_	_	_	_	
+35-34	2154-2155	.	_	_	_	_	_	_	_	
+
+#Text=Vi har en medlemsrörelse, som en ordförande råkade säga.
+36-1	2156-2158	Vi	_	_	_	_	_	_	_	
+36-2	2159-2162	har	_	_	_	_	_	_	_	
+36-3	2163-2165	en	_	_	_	_	_	_	_	
+36-4	2166-2180	medlemsrörelse	_	_	_	_	_	_	_	
+36-5	2180-2181	,	_	_	_	_	_	_	_	
+36-6	2182-2185	som	_	_	_	_	_	_	_	
+36-7	2186-2188	en	_	_	_	_	_	_	_	
+36-8	2189-2199	ordförande	_	_	_	_	_	_	_	
+36-9	2200-2206	råkade	_	_	_	_	_	_	_	
+36-10	2207-2211	säga	_	_	_	_	_	_	_	
+36-11	2211-2212	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2214-2215	#	_	_	_	_	_	_	_	
+37-2	2215-2216	P	_	_	_	_	_	_	_	
+37-3	2217-2220	IMM	_	_	_	_	_	_	_	
+37-4	2220-2221	.	_	_	_	_	_	_	_	
+
+#Text=För det tredje tycks de politiska partierna lämna civilsamhället.
+38-1	2223-2226	För	_	_	_	_	_	_	_	
+38-2	2227-2230	det	_	_	_	_	_	_	_	
+38-3	2231-2237	tredje	_	_	_	_	_	_	_	
+38-4	2238-2243	tycks	_	_	_	_	_	_	_	
+38-5	2244-2246	de	*[24]	_	_	_	_	_	_	
+38-6	2247-2256	politiska	*[24]	_	_	_	_	_	_	
+38-7	2257-2266	partierna	*[24]	_	_	_	_	_	_	
+38-8	2267-2272	lämna	_	_	_	_	_	_	_	
+38-9	2273-2287	civilsamhället	_	_	_	_	_	_	_	
+38-10	2287-2288	.	_	_	_	_	_	_	_	
+
+#Text=De ser sig som en del av staten och den offentliga sektorn.
+39-1	2289-2291	De	_	_	_	_	_	_	_	
+39-2	2292-2295	ser	_	_	_	_	_	_	_	
+39-3	2296-2299	sig	_	_	_	_	_	_	_	
+39-4	2300-2303	som	_	_	_	_	_	_	_	
+39-5	2304-2306	en	_	_	_	_	_	_	_	
+39-6	2307-2310	del	_	_	_	_	_	_	_	
+39-7	2311-2313	av	_	_	_	_	_	_	_	
+39-8	2314-2320	staten	_	_	_	_	_	_	_	
+39-9	2321-2324	och	_	_	_	_	_	_	_	
+39-10	2325-2328	den	_	_	_	_	_	_	_	
+39-11	2329-2339	offentliga	_	_	_	_	_	_	_	
+39-12	2340-2347	sektorn	_	_	_	_	_	_	_	
+39-13	2347-2348	.	_	_	_	_	_	_	_	
+
+#Text=Från rådhus, landstingshus och kanslihus tittar de ner på demonstranterna på torget och avundas deras samhällsengagemang.
+40-1	2349-2353	Från	_	_	_	_	_	_	_	
+40-2	2354-2360	rådhus	_	_	_	_	_	_	_	
+40-3	2360-2361	,	_	_	_	_	_	_	_	
+40-4	2362-2375	landstingshus	_	_	_	_	_	_	_	
+40-5	2376-2379	och	_	_	_	_	_	_	_	
+40-6	2380-2389	kanslihus	_	_	_	_	_	_	_	
+40-7	2390-2396	tittar	_	_	_	_	_	_	_	
+40-8	2397-2399	de	_	_	_	_	_	_	_	
+40-9	2400-2403	ner	_	_	_	_	_	_	_	
+40-10	2404-2406	på	_	_	_	_	_	_	_	
+40-11	2407-2422	demonstranterna	_	_	_	_	_	_	_	
+40-12	2423-2425	på	_	_	_	_	_	_	_	
+40-13	2426-2432	torget	_	_	_	_	_	_	_	
+40-14	2433-2436	och	_	_	_	_	_	_	_	
+40-15	2437-2444	avundas	_	Target;Source	40-16[25];38-5[24]	false	4	_	_	
+40-16	2445-2450	deras	*[25]	_	_	_	_	_	_	
+40-17	2451-2469	samhällsengagemang	*[25]	_	_	_	_	_	_	
+40-18	2469-2470	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2472-2473	#	_	_	_	_	_	_	_	
+41-2	2473-2474	P	_	_	_	_	_	_	_	
+41-3	2475-2478	IMM	_	_	_	_	_	_	_	
+41-4	2478-2479	.	_	_	_	_	_	_	_	
+
+#Text=Men de har gett upp hoppet att själva utgöra en mellanvalskanal.
+42-1	2481-2484	Men	_	_	_	_	_	_	_	
+42-2	2485-2487	de	_	_	_	_	_	_	_	
+42-3	2488-2491	har	_	_	_	_	_	_	_	
+42-4	2492-2496	gett	_	_	_	_	_	_	_	
+42-5	2497-2500	upp	_	_	_	_	_	_	_	
+42-6	2501-2507	hoppet	_	_	_	_	_	_	_	
+42-7	2508-2511	att	_	_	_	_	_	_	_	
+42-8	2512-2518	själva	_	_	_	_	_	_	_	
+42-9	2519-2525	utgöra	_	_	_	_	_	_	_	
+42-10	2526-2528	en	_	_	_	_	_	_	_	
+42-11	2529-2544	mellanvalskanal	_	_	_	_	_	_	_	
+42-12	2544-2545	.	_	_	_	_	_	_	_	
+
+#Text=Här och var har jourhavande medborgare fyllt ut det vakuum som uppstår och bildat protest- och aktionsgrupper.
+43-1	2546-2549	Här	_	_	_	_	_	_	_	
+43-2	2550-2553	och	_	_	_	_	_	_	_	
+43-3	2554-2557	var	_	_	_	_	_	_	_	
+43-4	2558-2561	har	_	_	_	_	_	_	_	
+43-5	2562-2573	jourhavande	_	_	_	_	_	_	_	
+43-6	2574-2584	medborgare	_	_	_	_	_	_	_	
+43-7	2585-2590	fyllt	_	_	_	_	_	_	_	
+43-8	2591-2593	ut	_	_	_	_	_	_	_	
+43-9	2594-2597	det	_	_	_	_	_	_	_	
+43-10	2598-2604	vakuum	_	_	_	_	_	_	_	
+43-11	2605-2608	som	_	_	_	_	_	_	_	
+43-12	2609-2616	uppstår	_	_	_	_	_	_	_	
+43-13	2617-2620	och	_	_	_	_	_	_	_	
+43-14	2621-2627	bildat	_	_	_	_	_	_	_	
+43-15	2628-2635	protest	_	_	_	_	_	_	_	
+43-16	2635-2636	-	_	_	_	_	_	_	_	
+43-17	2637-2640	och	_	_	_	_	_	_	_	
+43-18	2641-2655	aktionsgrupper	_	_	_	_	_	_	_	
+43-19	2655-2656	.	_	_	_	_	_	_	_	
+
+#Text=Somliga har övergått till nya lokala partier.
+44-1	2657-2664	Somliga	_	_	_	_	_	_	_	
+44-2	2665-2668	har	_	_	_	_	_	_	_	
+44-3	2669-2677	övergått	_	_	_	_	_	_	_	
+44-4	2678-2682	till	_	_	_	_	_	_	_	
+44-5	2683-2686	nya	_	_	_	_	_	_	_	
+44-6	2687-2693	lokala	_	_	_	_	_	_	_	
+44-7	2694-2701	partier	_	_	_	_	_	_	_	
+44-8	2701-2702	.	_	_	_	_	_	_	_	
+
+#Text=Några har sedan ritat om hela den politiska kartan i kommuner och regioner.
+45-1	2703-2708	Några	_	_	_	_	_	_	_	
+45-2	2709-2712	har	_	_	_	_	_	_	_	
+45-3	2713-2718	sedan	_	_	_	_	_	_	_	
+45-4	2719-2724	ritat	_	_	_	_	_	_	_	
+45-5	2725-2727	om	_	_	_	_	_	_	_	
+45-6	2728-2732	hela	_	_	_	_	_	_	_	
+45-7	2733-2736	den	_	_	_	_	_	_	_	
+45-8	2737-2746	politiska	_	_	_	_	_	_	_	
+45-9	2747-2753	kartan	_	_	_	_	_	_	_	
+45-10	2754-2755	i	_	_	_	_	_	_	_	
+45-11	2756-2764	kommuner	_	_	_	_	_	_	_	
+45-12	2765-2768	och	_	_	_	_	_	_	_	
+45-13	2769-2777	regioner	_	_	_	_	_	_	_	
+45-14	2777-2778	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	2780-2781	#	_	_	_	_	_	_	_	
+46-2	2781-2782	P	_	_	_	_	_	_	_	
+46-3	2783-2786	IMM	_	_	_	_	_	_	_	
+46-4	2786-2787	.	_	_	_	_	_	_	_	
+
+#Text=För det fjärde pågår nu en allmän omförhandling om civilsamhällets relationer till staten som innebär att organisationerna grottar in sig i offentliga sektorn.
+47-1	2789-2792	För	*[26]	_	_	_	_	_	_	
+47-2	2793-2796	det	*[26]	_	_	_	_	_	_	
+47-3	2797-2803	fjärde	*[26]	_	_	_	_	_	_	
+47-4	2804-2809	pågår	*[26]	_	_	_	_	_	_	
+47-5	2810-2812	nu	*[26]	_	_	_	_	_	_	
+47-6	2813-2815	en	*[26]	_	_	_	_	_	_	
+47-7	2816-2822	allmän	*[26]	_	_	_	_	_	_	
+47-8	2823-2836	omförhandling	*[26]	_	_	_	_	_	_	
+47-9	2837-2839	om	*[26]	_	_	_	_	_	_	
+47-10	2840-2855	civilsamhällets	*[26]	_	_	_	_	_	_	
+47-11	2856-2866	relationer	*[26]	_	_	_	_	_	_	
+47-12	2867-2871	till	*[26]	_	_	_	_	_	_	
+47-13	2872-2878	staten	*[26]	_	_	_	_	_	_	
+47-14	2879-2882	som	*[26]	_	_	_	_	_	_	
+47-15	2883-2890	innebär	*[26]	_	_	_	_	_	_	
+47-16	2891-2894	att	*[26]	_	_	_	_	_	_	
+47-17	2895-2911	organisationerna	*[26]	_	_	_	_	_	_	
+47-18	2912-2919	grottar	*[26]	_	_	_	_	_	_	
+47-19	2920-2922	in	*[26]	_	_	_	_	_	_	
+47-20	2923-2926	sig	*[26]	_	_	_	_	_	_	
+47-21	2927-2928	i	*[26]	_	_	_	_	_	_	
+47-22	2929-2939	offentliga	*[26]	_	_	_	_	_	_	
+47-23	2940-2947	sektorn	*[26]	_	_	_	_	_	_	
+47-24	2947-2948	.	_	_	_	_	_	_	_	
+
+#Text=Deras ideologiska och finansiella förmåga, ja kanske också lust att vara en självständig och visionär samhällskraft för integration, frigörelse och pluralism hotas.
+48-1	2949-2954	Deras	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-2	2955-2966	ideologiska	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-3	2967-2970	och	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-4	2971-2982	finansiella	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-5	2983-2990	förmåga	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-6	2990-2991	,	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-7	2992-2994	ja	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-8	2995-3001	kanske	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-9	3002-3007	också	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-10	3008-3012	lust	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-11	3013-3016	att	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-12	3017-3021	vara	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-13	3022-3024	en	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-14	3025-3037	självständig	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-15	3038-3041	och	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-16	3042-3050	visionär	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-17	3051-3064	samhällskraft	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-18	3065-3068	för	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-19	3069-3080	integration	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-20	3080-3081	,	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-21	3082-3092	frigörelse	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-22	3093-3096	och	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-23	3097-3106	pluralism	*[27]	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+48-24	3107-3112	hotas	_	Target[8]|Target[9]	47-1[26]|48-1[27]	false[8]|false[9]	2[8]|4[9]	_	_	
+48-25	3112-3113	.	_	Target[8]	47-1[26]	false[8]	2[8]	_	_	
+
+#Text=#P IMM.
+49-1	3115-3116	#	_	_	_	_	_	_	_	
+49-2	3116-3117	P	_	_	_	_	_	_	_	
+49-3	3118-3121	IMM	_	_	_	_	_	_	_	
+49-4	3121-3122	.	_	_	_	_	_	_	_	
+
+#Text=Det gamla samhällskontraktet mellan en expanderande välfärdsstat och ganska självständiga medlemsorganisationer som ville utveckla alternativa synsätt och lösningar på samhällsproblemen har brutits.
+50-1	3124-3127	Det	_	_	_	_	_	_	_	
+50-2	3128-3133	gamla	_	_	_	_	_	_	_	
+50-3	3134-3152	samhällskontraktet	_	_	_	_	_	_	_	
+50-4	3153-3159	mellan	_	_	_	_	_	_	_	
+50-5	3160-3162	en	_	_	_	_	_	_	_	
+50-6	3163-3175	expanderande	_	_	_	_	_	_	_	
+50-7	3176-3188	välfärdsstat	_	_	_	_	_	_	_	
+50-8	3189-3192	och	_	_	_	_	_	_	_	
+50-9	3193-3199	ganska	_	_	_	_	_	_	_	
+50-10	3200-3213	självständiga	_	_	_	_	_	_	_	
+50-11	3214-3235	medlemsorganisationer	_	_	_	_	_	_	_	
+50-12	3236-3239	som	_	_	_	_	_	_	_	
+50-13	3240-3245	ville	_	_	_	_	_	_	_	
+50-14	3246-3254	utveckla	_	_	_	_	_	_	_	
+50-15	3255-3266	alternativa	_	_	_	_	_	_	_	
+50-16	3267-3274	synsätt	_	_	_	_	_	_	_	
+50-17	3275-3278	och	_	_	_	_	_	_	_	
+50-18	3279-3288	lösningar	_	_	_	_	_	_	_	
+50-19	3289-3291	på	_	_	_	_	_	_	_	
+50-20	3292-3309	samhällsproblemen	_	_	_	_	_	_	_	
+50-21	3310-3313	har	_	_	_	_	_	_	_	
+50-22	3314-3321	brutits	_	_	_	_	_	_	_	
+50-23	3321-3322	.	_	_	_	_	_	_	_	
+
+#Text=Kostnadsjagande myndigheter kontrakterar nu professionaliserade rörelser för temporära leveranser av för politiskt efterfrågade tjänster.
+51-1	3323-3338	Kostnadsjagande	_	_	_	_	_	_	_	
+51-2	3339-3350	myndigheter	_	_	_	_	_	_	_	
+51-3	3351-3363	kontrakterar	_	_	_	_	_	_	_	
+51-4	3364-3366	nu	_	_	_	_	_	_	_	
+51-5	3367-3386	professionaliserade	_	_	_	_	_	_	_	
+51-6	3387-3395	rörelser	_	_	_	_	_	_	_	
+51-7	3396-3399	för	_	_	_	_	_	_	_	
+51-8	3400-3409	temporära	_	_	_	_	_	_	_	
+51-9	3410-3420	leveranser	_	_	_	_	_	_	_	
+51-10	3421-3423	av	_	_	_	_	_	_	_	
+51-11	3424-3427	för	_	_	_	_	_	_	_	
+51-12	3428-3437	politiskt	_	_	_	_	_	_	_	
+51-13	3438-3450	efterfrågade	_	_	_	_	_	_	_	
+51-14	3451-3459	tjänster	_	_	_	_	_	_	_	
+51-15	3459-3460	.	_	_	_	_	_	_	_	
+
+#Text=Projektsjukan får ett godtroget civilsamhälle att rätta sig mer efter statens än medlemmarnas prioriteringar.
+52-1	3461-3474	Projektsjukan	*	_	_	_	_	_	_	
+52-2	3475-3478	får	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-3	3479-3482	ett	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-4	3483-3492	godtroget	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-5	3493-3506	civilsamhälle	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-6	3507-3510	att	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-7	3511-3516	rätta	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-8	3517-3520	sig	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-9	3521-3524	mer	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-10	3525-3530	efter	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-11	3531-3538	statens	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-12	3539-3541	än	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-13	3542-3554	medlemmarnas	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-14	3555-3569	prioriteringar	_	Target[10]	52-1	false[10]	2[10]	_	_	
+52-15	3569-3570	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3572-3573	#	_	_	_	_	_	_	_	
+53-2	3573-3574	P	_	_	_	_	_	_	_	
+53-3	3575-3578	IMM	_	_	_	_	_	_	_	
+53-4	3578-3579	.	_	_	_	_	_	_	_	
+
+#Text=Den svenska demokratin behöver fördjupas.
+54-1	3581-3584	Den	_	_	_	_	_	_	_	
+54-2	3585-3592	svenska	_	_	_	_	_	_	_	
+54-3	3593-3603	demokratin	_	_	_	_	_	_	_	
+54-4	3604-3611	behöver	_	_	_	_	_	_	_	
+54-5	3612-3621	fördjupas	_	_	_	_	_	_	_	
+54-6	3621-3622	.	_	_	_	_	_	_	_	
+
+#Text=För första gången ska vi lösa konflikter med medborgare som inte ser ut som våra spegelbilder.
+55-1	3623-3626	För	_	_	_	_	_	_	_	
+55-2	3627-3633	första	_	_	_	_	_	_	_	
+55-3	3634-3640	gången	_	_	_	_	_	_	_	
+55-4	3641-3644	ska	_	_	_	_	_	_	_	
+55-5	3645-3647	vi	_	_	_	_	_	_	_	
+55-6	3648-3652	lösa	_	_	_	_	_	_	_	
+55-7	3653-3663	konflikter	_	_	_	_	_	_	_	
+55-8	3664-3667	med	_	_	_	_	_	_	_	
+55-9	3668-3678	medborgare	_	_	_	_	_	_	_	
+55-10	3679-3682	som	_	_	_	_	_	_	_	
+55-11	3683-3687	inte	_	_	_	_	_	_	_	
+55-12	3688-3691	ser	_	_	_	_	_	_	_	
+55-13	3692-3694	ut	_	_	_	_	_	_	_	
+55-14	3695-3698	som	_	_	_	_	_	_	_	
+55-15	3699-3703	våra	_	_	_	_	_	_	_	
+55-16	3704-3716	spegelbilder	_	_	_	_	_	_	_	
+55-17	3716-3717	.	_	_	_	_	_	_	_	
+
+#Text=Då behöver vi en verklighetstrogen utgångspunkt.
+56-1	3718-3720	Då	_	_	_	_	_	_	_	
+56-2	3721-3728	behöver	_	Target[11]	56-4[28]	false[11]	4[11]	_	_	
+56-3	3729-3731	vi	_	Target[11]	56-4[28]	false[11]	4[11]	_	_	
+56-4	3732-3734	en	*[28]	_	_	_	_	_	_	
+56-5	3735-3752	verklighetstrogen	*[28]	_	_	_	_	_	_	
+56-6	3753-3765	utgångspunkt	*[28]	_	_	_	_	_	_	
+56-7	3765-3766	.	_	_	_	_	_	_	_	
+
+#Text=Min bild är ingen skönmålning.
+57-1	3767-3770	Min	_	_	_	_	_	_	_	
+57-2	3771-3775	bild	_	_	_	_	_	_	_	
+57-3	3776-3778	är	_	_	_	_	_	_	_	
+57-4	3779-3784	ingen	_	_	_	_	_	_	_	
+57-5	3785-3796	skönmålning	_	_	_	_	_	_	_	
+57-6	3796-3797	.	_	_	_	_	_	_	_	
+
+#Text=På flera punkter inger den bekymmer.
+58-1	3798-3800	På	_	_	_	_	_	_	_	
+58-2	3801-3806	flera	_	_	_	_	_	_	_	
+58-3	3807-3814	punkter	_	_	_	_	_	_	_	
+58-4	3815-3820	inger	_	_	_	_	_	_	_	
+58-5	3821-3824	den	_	_	_	_	_	_	_	
+58-6	3825-3833	bekymmer	_	_	_	_	_	_	_	
+58-7	3833-3834	.	_	_	_	_	_	_	_	
+
+#Text=Men medborgarna är bättre än sitt rykte.
+59-1	3835-3838	Men	_	_	_	_	_	_	_	
+59-2	3839-3850	medborgarna	*	_	_	_	_	_	_	
+59-3	3851-3853	är	_	Target[12]	59-2	false[12]	4[12]	_	_	
+59-4	3854-3860	bättre	_	Target[12]	59-2	false[12]	4[12]	_	_	
+59-5	3861-3863	än	_	Target[12]	59-2	false[12]	4[12]	_	_	
+59-6	3864-3868	sitt	_	Target[12]	59-2	false[12]	4[12]	_	_	
+59-7	3869-3874	rykte	_	Target[12]	59-2	false[12]	4[12]	_	_	
+59-8	3874-3875	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3877-3878	#	_	_	_	_	_	_	_	
+60-2	3878-3879	P	_	_	_	_	_	_	_	
+60-3	3880-3883	IMM	_	_	_	_	_	_	_	
+60-4	3883-3884	.	_	_	_	_	_	_	_	
+
+#Text=Få är genuint passiva och det är detta som kännetecknar skandinavisk demokrati.
+61-1	3886-3888	Få	*[29]	_	_	_	_	_	_	
+61-2	3889-3891	är	*[29]	_	_	_	_	_	_	
+61-3	3892-3899	genuint	*[29]	_	_	_	_	_	_	
+61-4	3900-3907	passiva	*[29]	_	_	_	_	_	_	
+61-5	3908-3911	och	_	_	_	_	_	_	_	
+61-6	3912-3915	det	_	_	_	_	_	_	_	
+61-7	3916-3918	är	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-8	3919-3924	detta	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-9	3925-3928	som	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-10	3929-3941	kännetecknar	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-11	3942-3954	skandinavisk	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-12	3955-3964	demokrati	_	Target[13]	61-1[29]	false[13]	4[13]	_	_	
+61-13	3964-3965	.	_	_	_	_	_	_	_	
+
+#Text=Framåtlutade står de flesta beredda att gripa in och delta aktivt när de behövs; de står stand-by.
+62-1	3966-3978	Framåtlutade	_	_	_	_	_	_	_	
+62-2	3979-3983	står	_	_	_	false	4	_	_	
+62-3	3984-3986	de	*[30]	_	_	_	_	_	_	
+62-4	3987-3993	flesta	*[30]	_	_	_	_	_	_	
+62-5	3994-4001	beredda	_	Target[14]	62-3[30]	false[14]	4[14]	62-2[0_14]	_	
+62-6	4002-4005	att	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-7	4006-4011	gripa	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-8	4012-4014	in	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-9	4015-4018	och	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-10	4019-4024	delta	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-11	4025-4031	aktivt	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-12	4032-4035	när	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-13	4036-4038	de	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-14	4039-4045	behövs	_	Target[14]	62-3[30]	false[14]	4[14]	_	_	
+62-15	4045-4046	;	_	_	_	_	_	_	_	
+62-16	4047-4049	de	_	_	_	_	_	_	_	
+62-17	4050-4054	står	_	_	_	_	_	_	_	
+62-18	4055-4063	stand-by	_	_	_	_	_	_	_	
+62-19	4063-4064	.	_	_	_	_	_	_	_	
+
+#Text=Vid behov öppnar de nya kanaler till de folkvalda genom att utnyttja demokratins, utbildningssamhällets och teknologins framgångar för sina syften.
+63-1	4065-4068	Vid	_	_[15]	_	false[15]	4[15]	_	_	
+63-2	4069-4074	behov	_	_[15]	_	false[15]	4[15]	_	_	
+63-3	4075-4081	öppnar	_	_[15]	_	false[15]	4[15]	_	_	
+63-4	4082-4084	de	*	_	_	_	_	_	_	
+63-5	4085-4088	nya	_	Target[16]	63-4	false[16]	4[16]	63-1[15_16]	_	
+63-6	4089-4096	kanaler	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-7	4097-4101	till	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-8	4102-4104	de	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-9	4105-4114	folkvalda	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-10	4115-4120	genom	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-11	4121-4124	att	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-12	4125-4133	utnyttja	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-13	4134-4145	demokratins	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-14	4145-4146	,	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-15	4147-4168	utbildningssamhällets	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-16	4169-4172	och	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-17	4173-4184	teknologins	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-18	4185-4195	framgångar	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-19	4196-4199	för	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-20	4200-4204	sina	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-21	4205-4211	syften	_	Target[16]	63-4	false[16]	4[16]	_	_	
+63-22	4211-4212	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	4214-4215	#	_	_	_	_	_	_	_	
+64-2	4215-4216	P	_	_	_	_	_	_	_	
+64-3	4217-4220	IMM	_	_	_	_	_	_	_	
+64-4	4220-4221	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+65-1	4223-4228	FAKTA	_	_	_	_	_	_	_	
+65-2	4228-4229	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4231-4232	#	_	_	_	_	_	_	_	
+66-2	4232-4233	P	_	_	_	_	_	_	_	
+66-3	4234-4237	IMM	_	_	_	_	_	_	_	
+66-4	4237-4238	.	_	_	_	_	_	_	_	
+
+#Text=Dagens debattör.
+67-1	4240-4246	Dagens	_	_	_	_	_	_	_	
+67-2	4247-4255	debattör	_	_	_	_	_	_	_	
+67-3	4255-4256	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	4258-4259	#	_	_	_	_	_	_	_	
+68-2	4259-4260	P	_	_	_	_	_	_	_	
+68-3	4261-4264	IMM	_	_	_	_	_	_	_	
+68-4	4264-4265	.	_	_	_	_	_	_	_	
+
+#Text=Erik Amnå.
+69-1	4267-4271	Erik	_	_	_	_	_	_	_	
+69-2	4272-4276	Amnå	_	_	_	_	_	_	_	
+69-3	4276-4277	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=57, Örebro.
+70-1	4279-4280	#	_	_	_	_	_	_	_	
+70-2	4280-4281	P	_	_	_	_	_	_	_	
+70-3	4282-4285	IMM	_	_	_	_	_	_	_	
+70-4	4285-4286	.	_	_	_	_	_	_	_	
+70-5	4288-4290	57	_	_	_	_	_	_	_	
+70-6	4290-4291	,	_	_	_	_	_	_	_	
+70-7	4292-4298	Örebro	_	_	_	_	_	_	_	
+70-8	4298-4299	.	_	_	_	_	_	_	_	
+
+#Text=Professor i statskunskap vid Örebro universitet.
+71-1	4300-4309	Professor	_	_	_	_	_	_	_	
+71-2	4310-4311	i	_	_	_	_	_	_	_	
+71-3	4312-4324	statskunskap	_	_	_	_	_	_	_	
+71-4	4325-4328	vid	_	_	_	_	_	_	_	
+71-5	4329-4335	Örebro	_	_	_	_	_	_	_	
+71-6	4336-4347	universitet	_	_	_	_	_	_	_	
+71-7	4347-4348	.	_	_	_	_	_	_	_	

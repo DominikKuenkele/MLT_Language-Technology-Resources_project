@@ -1,0 +1,723 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Rädda Mellanösterns kristna från förföljelse.
+3-1	18-23	Rädda	_	_	_	_	_	_	
+3-2	24-37	Mellanösterns	_	_	_	_	_	_	
+3-3	38-45	kristna	_	_	_	_	_	_	
+3-4	46-50	från	_	_	_	_	_	_	
+3-5	51-62	förföljelse	_	_	_	_	_	_	
+3-6	62-63	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	_	
+4-2	66-67	P	_	_	_	_	_	_	
+4-3	68-71	IMM	_	_	_	_	_	_	
+4-4	71-72	.	_	_	_	_	_	_	
+
+#Text=Den arabiska våren ger oss hopp om en bättre och fredligare värld.
+5-1	74-77	Den	*[14]	_	_	_	_	_	
+5-2	78-86	arabiska	*[14]	_	_	_	_	_	
+5-3	87-92	våren	*[14]	_	_	_	_	_	
+5-4	93-96	ger	_	Target[1]	5-1[14]	false[1]	4[1]	_	
+5-5	97-100	oss	_	Target[1]	5-1[14]	false[1]	4[1]	_	
+5-6	101-105	hopp	_	Target[1]	5-1[14]	false[1]	4[1]	_	
+5-7	106-108	om	_	_	_	_	_	_	
+5-8	109-111	en	_	_	_	_	_	_	
+5-9	112-118	bättre	_	Target[2]	5-12	false[2]	4[2]	_	
+5-10	119-122	och	_	Target[2]	5-12	false[2]	4[2]	_	
+5-11	123-133	fredligare	_	Target[2]	5-12	false[2]	4[2]	_	
+5-12	134-139	värld	*	_	_	_	_	_	
+5-13	139-140	.	_	_	_	_	_	_	
+
+#Text=Problemet är dock att konflikter och förföljelser inte upphör per automatik när en diktatur försvinner från makten.
+6-1	141-150	Problemet	_	Target	6-5[15]	false	2	_	
+6-2	151-153	är	_	_	_	_	_	_	
+6-3	154-158	dock	_	_	_	_	_	_	
+6-4	159-162	att	_	_	_	_	_	_	
+6-5	163-173	konflikter	*[15]	_	_	_	_	_	
+6-6	174-177	och	*[15]	_	_	_	_	_	
+6-7	178-190	förföljelser	*[15]	_	_	_	_	_	
+6-8	191-195	inte	*[15]	_	_	_	_	_	
+6-9	196-202	upphör	*[15]	_	_	_	_	_	
+6-10	203-206	per	*[15]	_	_	_	_	_	
+6-11	207-216	automatik	*[15]	_	_	_	_	_	
+6-12	217-220	när	*[15]	_	_	_	_	_	
+6-13	221-223	en	*[15]	_	_	_	_	_	
+6-14	224-232	diktatur	*[15]	_	_	_	_	_	
+6-15	233-243	försvinner	*[15]	_	_	_	_	_	
+6-16	244-248	från	*[15]	_	_	_	_	_	
+6-17	249-255	makten	*[15]	_	_	_	_	_	
+6-18	255-256	.	_	_	_	_	_	_	
+
+#Text=Vi har sett det i Irak och vi ser det i Egypten.
+7-1	257-259	Vi	_	_	_	_	_	_	
+7-2	260-263	har	_	_	_	_	_	_	
+7-3	264-268	sett	_	_	_	_	_	_	
+7-4	269-272	det	_	_	_	_	_	_	
+7-5	273-274	i	_	_	_	_	_	_	
+7-6	275-279	Irak	_	_	_	_	_	_	
+7-7	280-283	och	_	_	_	_	_	_	
+7-8	284-286	vi	_	_	_	_	_	_	
+7-9	287-290	ser	_	_	_	_	_	_	
+7-10	291-294	det	_	_	_	_	_	_	
+7-11	295-296	i	_	_	_	_	_	_	
+7-12	297-304	Egypten	_	_	_	_	_	_	
+7-13	304-305	.	_	_	_	_	_	_	
+
+#Text=I Mellanöstern är kristna – särskilt assyrier – förlorare.
+8-1	306-307	I	_	_	_	_	_	_	
+8-2	308-320	Mellanöstern	_	_	_	_	_	_	
+8-3	321-323	är	_	_	_	_	_	_	
+8-4	324-331	kristna	*[16]	_	_	_	_	_	
+8-5	332-333	–	*[16]	_	_	_	_	_	
+8-6	334-342	särskilt	*[16]	_	_	_	_	_	
+8-7	343-351	assyrier	*[16]	_	_	_	_	_	
+8-8	352-353	–	_	_	_	_	_	_	
+8-9	354-363	förlorare	_	Target	8-4[16]	false	2	_	
+8-10	363-364	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	366-367	#	_	_	_	_	_	_	
+9-2	367-368	P	_	_	_	_	_	_	
+9-3	369-372	IMM	_	_	_	_	_	_	
+9-4	372-373	.	_	_	_	_	_	_	
+
+#Text=Assyrier var en av de första folkgrupperna i historien att konvertera till kristendomen.
+10-1	375-383	Assyrier	_	_	_	_	_	_	
+10-2	384-387	var	_	_	_	_	_	_	
+10-3	388-390	en	_	_	_	_	_	_	
+10-4	391-393	av	_	_	_	_	_	_	
+10-5	394-396	de	_	_	_	_	_	_	
+10-6	397-403	första	_	_	_	_	_	_	
+10-7	404-417	folkgrupperna	_	_	_	_	_	_	
+10-8	418-419	i	_	_	_	_	_	_	
+10-9	420-429	historien	_	_	_	_	_	_	
+10-10	430-433	att	_	_	_	_	_	_	
+10-11	434-444	konvertera	_	_	_	_	_	_	
+10-12	445-449	till	_	_	_	_	_	_	
+10-13	450-462	kristendomen	_	_	_	_	_	_	
+10-14	462-463	.	_	_	_	_	_	_	
+
+#Text=För det har de fått betala ett högt pris, inte minst i modern tid, i form av övergrepp, förföljelser och massmord.
+11-1	464-467	För	_	_	_	_	_	_	
+11-2	468-471	det	_	_	_	_	_	_	
+11-3	472-475	har	_	_	_	_	_	_	
+11-4	476-478	de	*	_	_	_	_	_	
+11-5	479-483	fått	_	Target[3]	11-4	false[3]	2[3]	_	
+11-6	484-490	betala	_	Target[3]	11-4	false[3]	2[3]	_	
+11-7	491-494	ett	_	Target[3]	11-4	false[3]	2[3]	_	
+11-8	495-499	högt	_	Target[3]	11-4	false[3]	2[3]	_	
+11-9	500-504	pris	_	Target[3]	11-4	false[3]	2[3]	_	
+11-10	504-505	,	_	_	_	_	_	_	
+11-11	506-510	inte	_	_	_	_	_	_	
+11-12	511-516	minst	_	_	_	_	_	_	
+11-13	517-518	i	_	_	_	_	_	_	
+11-14	519-525	modern	_	_	_	_	_	_	
+11-15	526-529	tid	_	_	_	_	_	_	
+11-16	529-530	,	_	_	_	_	_	_	
+11-17	531-532	i	_	_	_	_	_	_	
+11-18	533-537	form	_	_	_	_	_	_	
+11-19	538-540	av	_	_	_	_	_	_	
+11-20	541-550	övergrepp	*[17]	Target[4]	11-20[17]	false[4]	1[4]	_	
+11-21	550-551	,	*[17]	Target[4]	11-20[17]	false[4]	1[4]	_	
+11-22	552-564	förföljelser	*[17]	Target[4]	11-20[17]	false[4]	1[4]	_	
+11-23	565-568	och	*[17]	Target[4]	11-20[17]	false[4]	1[4]	_	
+11-24	569-577	massmord	*[17]	Target[4]	11-20[17]	false[4]	1[4]	_	
+11-25	577-578	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	580-581	#	_	_	_	_	_	_	
+12-2	581-582	P	_	_	_	_	_	_	
+12-3	583-586	IMM	_	_	_	_	_	_	
+12-4	586-587	.	_	_	_	_	_	_	
+
+#Text=Kulmen nåddes 1915 när flera hundratusen dödades i folkmordet Seyfo, i skuggan av Ottomanska rikets sönderfall. 90 år senare utsattes folkgruppen för en ny etnisk rensning.
+13-1	589-595	Kulmen	_	_	_	_	_	_	
+13-2	596-602	nåddes	_	_	_	_	_	_	
+13-3	603-607	1915	_	_	_	_	_	_	
+13-4	608-611	när	_	_	_	_	_	_	
+13-5	612-617	flera	_	_	_	_	_	_	
+13-6	618-629	hundratusen	_	_	_	_	_	_	
+13-7	630-637	dödades	_	_	_	_	_	_	
+13-8	638-639	i	_	_	_	_	_	_	
+13-9	640-650	folkmordet	_	_	_	_	_	_	
+13-10	651-656	Seyfo	_	_	_	_	_	_	
+13-11	656-657	,	_	_	_	_	_	_	
+13-12	658-659	i	_	_	_	_	_	_	
+13-13	660-667	skuggan	_	_	_	_	_	_	
+13-14	668-670	av	_	_	_	_	_	_	
+13-15	671-681	Ottomanska	_	_	_	_	_	_	
+13-16	682-688	rikets	_	_	_	_	_	_	
+13-17	689-699	sönderfall	_	_	_	_	_	_	
+13-18	699-700	.	_	_	_	_	_	_	
+13-19	701-703	90	_	_	_	_	_	_	
+13-20	704-706	år	_	_	_	_	_	_	
+13-21	707-713	senare	_	_	_	_	_	_	
+13-22	714-722	utsattes	_	Target[5]	13-25[18]	false[5]	2[5]	_	
+13-23	723-734	folkgruppen	_	Target[5]	13-25[18]	false[5]	2[5]	_	
+13-24	735-738	för	_	_	_	_	_	_	
+13-25	739-741	en	*[18]	_	_	_	_	_	
+13-26	742-744	ny	*[18]	_	_	_	_	_	
+13-27	745-751	etnisk	*[18]	_	_	_	_	_	
+13-28	752-760	rensning	*[18]	_	_	_	_	_	
+13-29	760-761	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	763-764	#	_	_	_	_	_	_	
+14-2	764-765	P	_	_	_	_	_	_	
+14-3	766-769	IMM	_	_	_	_	_	_	
+14-4	769-770	.	_	_	_	_	_	_	
+
+#Text=Efter Saddams fall 2003 inledde jihadister en terrorkampanj mot Iraks kristna.
+15-1	772-777	Efter	_	_	_	_	_	_	
+15-2	778-785	Saddams	_	_	_	_	_	_	
+15-3	786-790	fall	_	_	_	_	_	_	
+15-4	791-795	2003	_	_	_	_	_	_	
+15-5	796-803	inledde	_	_	_	_	_	_	
+15-6	804-814	jihadister	*	Target	15-6	false	1	_	
+15-7	815-817	en	_	_	_	_	_	_	
+15-8	818-831	terrorkampanj	*	Target	15-8	false	1	_	
+15-9	832-835	mot	_	_	_	_	_	_	
+15-10	836-841	Iraks	_	_	_	_	_	_	
+15-11	842-849	kristna	_	_	_	_	_	_	
+15-12	849-850	.	_	_	_	_	_	_	
+
+#Text=Kyrkor bombades, kvinnor kidnappades, våldtogs och tvingades bära slöja, och familjer slogs i spillror och tvingades lämna sina hem, marker och ägodelar – utan möjlighet till någon ersättning.
+16-1	851-857	Kyrkor	_	_	_	_	_	_	
+16-2	858-866	bombades	_	_	_	_	_	_	
+16-3	866-867	,	_	_	_	_	_	_	
+16-4	868-875	kvinnor	_	_	_	_	_	_	
+16-5	876-887	kidnappades	_	_	_	_	_	_	
+16-6	887-888	,	_	_	_	_	_	_	
+16-7	889-897	våldtogs	_	_	_	_	_	_	
+16-8	898-901	och	_	_	_	_	_	_	
+16-9	902-911	tvingades	_	_	_	_	_	_	
+16-10	912-916	bära	_	_	_	_	_	_	
+16-11	917-922	slöja	_	_	_	_	_	_	
+16-12	922-923	,	_	_	_	_	_	_	
+16-13	924-927	och	_	_	_	_	_	_	
+16-14	928-936	familjer	_	_	_	_	_	_	
+16-15	937-942	slogs	_	_	_	_	_	_	
+16-16	943-944	i	_	_	_	_	_	_	
+16-17	945-953	spillror	_	_	_	_	_	_	
+16-18	954-957	och	_	_	_	_	_	_	
+16-19	958-967	tvingades	_	_	_	_	_	_	
+16-20	968-973	lämna	_	_	_	_	_	_	
+16-21	974-978	sina	_	_	_	_	_	_	
+16-22	979-982	hem	_	_	_	_	_	_	
+16-23	982-983	,	_	_	_	_	_	_	
+16-24	984-990	marker	_	_	_	_	_	_	
+16-25	991-994	och	_	_	_	_	_	_	
+16-26	995-1003	ägodelar	_	_	_	_	_	_	
+16-27	1004-1005	–	_	_	_	_	_	_	
+16-28	1006-1010	utan	_	_	_	_	_	_	
+16-29	1011-1020	möjlighet	_	_	_	_	_	_	
+16-30	1021-1025	till	_	_	_	_	_	_	
+16-31	1026-1031	någon	_	_	_	_	_	_	
+16-32	1032-1042	ersättning	_	_	_	_	_	_	
+16-33	1042-1043	.	_	_	_	false	1	_	
+
+#Text=Över en halv miljon assyrier tvingades fly.
+17-1	1044-1048	Över	_	_	_	_	_	_	
+17-2	1049-1051	en	_	_	_	_	_	_	
+17-3	1052-1056	halv	_	_	_	_	_	_	
+17-4	1057-1063	miljon	_	_	_	_	_	_	
+17-5	1064-1072	assyrier	_	_	_	_	_	_	
+17-6	1073-1082	tvingades	_	_	_	_	_	_	
+17-7	1083-1086	fly	_	_	_	_	_	_	
+17-8	1086-1087	.	_	_	_	_	_	_	
+
+#Text=De allra flesta hamnade i Syrien, men de som hade råd flydde till Europa och Sverige.
+18-1	1088-1090	De	_	_	_	_	_	_	
+18-2	1091-1096	allra	_	_	_	_	_	_	
+18-3	1097-1103	flesta	_	_	_	_	_	_	
+18-4	1104-1111	hamnade	_	_	_	_	_	_	
+18-5	1112-1113	i	_	_	_	_	_	_	
+18-6	1114-1120	Syrien	_	_	_	_	_	_	
+18-7	1120-1121	,	_	_	_	_	_	_	
+18-8	1122-1125	men	_	_	_	_	_	_	
+18-9	1126-1128	de	_	_	_	_	_	_	
+18-10	1129-1132	som	_	_	_	_	_	_	
+18-11	1133-1137	hade	_	_	_	_	_	_	
+18-12	1138-1141	råd	_	_	_	_	_	_	
+18-13	1142-1148	flydde	_	_	_	_	_	_	
+18-14	1149-1153	till	_	_	_	_	_	_	
+18-15	1154-1160	Europa	_	_	_	_	_	_	
+18-16	1161-1164	och	_	_	_	_	_	_	
+18-17	1165-1172	Sverige	_	_	_	_	_	_	
+18-18	1172-1173	.	_	_	_	_	_	_	
+
+#Text=Lite perspektiv: Södertälje har tagit emot fler irakiska flyktingar än USA under 2000-talet.
+19-1	1174-1178	Lite	_	_	_	_	_	_	
+19-2	1179-1189	perspektiv	_	_	_	_	_	_	
+19-3	1189-1190	:	_	_	_	_	_	_	
+19-4	1191-1201	Södertälje	_	_	_	_	_	_	
+19-5	1202-1205	har	_	_	_	_	_	_	
+19-6	1206-1211	tagit	_	_	_	_	_	_	
+19-7	1212-1216	emot	_	_	_	_	_	_	
+19-8	1217-1221	fler	_	_	_	_	_	_	
+19-9	1222-1230	irakiska	_	_	_	_	_	_	
+19-10	1231-1241	flyktingar	_	_	_	_	_	_	
+19-11	1242-1244	än	_	_	_	_	_	_	
+19-12	1245-1248	USA	_	_	_	_	_	_	
+19-13	1249-1254	under	_	_	_	_	_	_	
+19-14	1255-1259	2000	_	_	_	_	_	_	
+19-15	1259-1260	-	_	_	_	_	_	_	
+19-16	1260-1265	talet	_	_	_	_	_	_	
+19-17	1265-1266	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1268-1269	#	_	_	_	_	_	_	
+20-2	1269-1270	P	_	_	_	_	_	_	
+20-3	1271-1274	IMM	_	_	_	_	_	_	
+20-4	1274-1275	.	_	_	_	_	_	_	
+
+#Text=I Sverige finns numera omkring 100 000 assyrier/syrianer/kaldéer, i Södertälje uppåt 25 000.
+21-1	1277-1278	I	_	_	_	_	_	_	
+21-2	1279-1286	Sverige	_	_	_	_	_	_	
+21-3	1287-1292	finns	_	_	_	_	_	_	
+21-4	1293-1299	numera	_	_	_	_	_	_	
+21-5	1300-1307	omkring	_	_	_	_	_	_	
+21-6	1308-1311	100	_	_	_	_	_	_	
+21-7	1312-1315	000	_	_	_	_	_	_	
+21-8	1316-1324	assyrier	_	_	_	_	_	_	
+21-9	1324-1325	/	_	_	_	_	_	_	
+21-10	1325-1333	syrianer	_	_	_	_	_	_	
+21-11	1333-1334	/	_	_	_	_	_	_	
+21-12	1334-1341	kaldéer	_	_	_	_	_	_	
+21-13	1341-1342	,	_	_	_	_	_	_	
+21-14	1343-1344	i	_	_	_	_	_	_	
+21-15	1345-1355	Södertälje	_	_	_	_	_	_	
+21-16	1356-1361	uppåt	_	_	_	_	_	_	
+21-17	1362-1364	25	_	_	_	_	_	_	
+21-18	1365-1368	000	_	_	_	_	_	_	
+21-19	1368-1369	.	_	_	_	_	_	_	
+
+#Text=De första assyriska flyktingarna kom i slutet på 1960-talet, sedan har det uppstått stora flyktingströmmar i samband med olika kriser i Mellanöstern, till exempel Cypernkrisen, inbördeskrig i Libanon, Gulfkriget och Iraks kollaps.
+22-1	1370-1372	De	_	_	_	_	_	_	
+22-2	1373-1379	första	_	_	_	_	_	_	
+22-3	1380-1389	assyriska	_	_	_	_	_	_	
+22-4	1390-1402	flyktingarna	_	_	_	_	_	_	
+22-5	1403-1406	kom	_	_	_	_	_	_	
+22-6	1407-1408	i	_	_	_	_	_	_	
+22-7	1409-1415	slutet	_	_	_	_	_	_	
+22-8	1416-1418	på	_	_	_	_	_	_	
+22-9	1419-1423	1960	_	_	_	_	_	_	
+22-10	1423-1424	-	_	_	_	_	_	_	
+22-11	1424-1429	talet	_	_	_	_	_	_	
+22-12	1429-1430	,	_	_	_	_	_	_	
+22-13	1431-1436	sedan	_	_	_	_	_	_	
+22-14	1437-1440	har	_	_	_	_	_	_	
+22-15	1441-1444	det	_	_	_	_	_	_	
+22-16	1445-1453	uppstått	_	_	_	_	_	_	
+22-17	1454-1459	stora	_	_	_	_	_	_	
+22-18	1460-1476	flyktingströmmar	_	_	_	_	_	_	
+22-19	1477-1478	i	_	_	_	_	_	_	
+22-20	1479-1486	samband	_	_	_	_	_	_	
+22-21	1487-1490	med	_	_	_	_	_	_	
+22-22	1491-1496	olika	_	_	_	_	_	_	
+22-23	1497-1503	kriser	_	_	_	_	_	_	
+22-24	1504-1505	i	_	_	_	_	_	_	
+22-25	1506-1518	Mellanöstern	_	_	_	_	_	_	
+22-26	1518-1519	,	_	_	_	_	_	_	
+22-27	1520-1524	till	_	_	_	_	_	_	
+22-28	1525-1532	exempel	_	_	_	_	_	_	
+22-29	1533-1545	Cypernkrisen	_	_	_	_	_	_	
+22-30	1545-1546	,	_	_	_	_	_	_	
+22-31	1547-1559	inbördeskrig	_	_	_	_	_	_	
+22-32	1560-1561	i	_	_	_	_	_	_	
+22-33	1562-1569	Libanon	_	_	_	_	_	_	
+22-34	1569-1570	,	_	_	_	_	_	_	
+22-35	1571-1581	Gulfkriget	_	_	_	_	_	_	
+22-36	1582-1585	och	_	_	_	_	_	_	
+22-37	1586-1591	Iraks	_	_	_	_	_	_	
+22-38	1592-1599	kollaps	_	_	_	_	_	_	
+22-39	1599-1600	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1602-1603	#	_	_	_	_	_	_	
+23-2	1603-1604	P	_	_	_	_	_	_	
+23-3	1605-1608	IMM	_	_	_	_	_	_	
+23-4	1608-1609	.	_	_	_	_	_	_	
+
+#Text=Trots att det bor så många assyrier i vårt land är det få som känner till varför så många assyrier flytt från Irak, och ännu färre som ser ett samband mellan folkmordet i Seyfo 1915 och den pågående etniska rensningen i Irak.
+24-1	1611-1616	Trots	_	_	_	_	_	_	
+24-2	1617-1620	att	_	_	_	_	_	_	
+24-3	1621-1624	det	_	_	_	_	_	_	
+24-4	1625-1628	bor	_	_	_	_	_	_	
+24-5	1629-1631	så	_	_	_	_	_	_	
+24-6	1632-1637	många	_	_	_	_	_	_	
+24-7	1638-1646	assyrier	_	_	_	_	_	_	
+24-8	1647-1648	i	_	_	_	_	_	_	
+24-9	1649-1653	vårt	_	_	_	_	_	_	
+24-10	1654-1658	land	_	_	_	_	_	_	
+24-11	1659-1661	är	_	_	_	_	_	_	
+24-12	1662-1665	det	_	_	_	_	_	_	
+24-13	1666-1668	få	_	_	_	_	_	_	
+24-14	1669-1672	som	_	_	_	_	_	_	
+24-15	1673-1679	känner	_	_	_	_	_	_	
+24-16	1680-1684	till	_	_	_	_	_	_	
+24-17	1685-1691	varför	_	_	_	_	_	_	
+24-18	1692-1694	så	_	_	_	_	_	_	
+24-19	1695-1700	många	_	_	_	_	_	_	
+24-20	1701-1709	assyrier	_	_	_	_	_	_	
+24-21	1710-1715	flytt	_	_	_	_	_	_	
+24-22	1716-1720	från	_	_	_	_	_	_	
+24-23	1721-1725	Irak	_	_	_	_	_	_	
+24-24	1725-1726	,	_	_	_	_	_	_	
+24-25	1727-1730	och	_	_	_	_	_	_	
+24-26	1731-1735	ännu	_	_	_	_	_	_	
+24-27	1736-1741	färre	_	_	_	_	_	_	
+24-28	1742-1745	som	_	_	_	_	_	_	
+24-29	1746-1749	ser	_	_	_	_	_	_	
+24-30	1750-1753	ett	_	_	_	_	_	_	
+24-31	1754-1761	samband	_	_	_	_	_	_	
+24-32	1762-1768	mellan	_	_	_	_	_	_	
+24-33	1769-1779	folkmordet	_	_	_	_	_	_	
+24-34	1780-1781	i	_	_	_	_	_	_	
+24-35	1782-1787	Seyfo	_	_	_	_	_	_	
+24-36	1788-1792	1915	_	_	_	_	_	_	
+24-37	1793-1796	och	_	_	_	_	_	_	
+24-38	1797-1800	den	_	_	_	_	_	_	
+24-39	1801-1809	pågående	_	_	_	_	_	_	
+24-40	1810-1817	etniska	_	_	_	_	_	_	
+24-41	1818-1828	rensningen	_	_	_	_	_	_	
+24-42	1829-1830	i	_	_	_	_	_	_	
+24-43	1831-1835	Irak	_	_	_	_	_	_	
+24-44	1835-1836	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+25-1	1838-1839	#	_	_	_	_	_	_	
+25-2	1839-1840	P	_	_	_	_	_	_	
+25-3	1841-1844	IMM	_	_	_	_	_	_	
+25-4	1844-1845	.	_	_	_	_	_	_	
+
+#Text=Som kristna och som ursprungsbefolkning har assyrier drabbats mycket hårt i Irak.
+26-1	1847-1850	Som	_	_	_	_	_	_	
+26-2	1851-1858	kristna	_	_	_	_	_	_	
+26-3	1859-1862	och	_	_	_	_	_	_	
+26-4	1863-1866	som	_	_	_	_	_	_	
+26-5	1867-1886	ursprungsbefolkning	_	_	_	_	_	_	
+26-6	1887-1890	har	_	_	_	_	_	_	
+26-7	1891-1899	assyrier	*	_	_	_	_	_	
+26-8	1900-1908	drabbats	_	Target[6]	26-7	false[6]	2[6]	_	
+26-9	1909-1915	mycket	_	Target[6]	26-7	false[6]	2[6]	_	
+26-10	1916-1920	hårt	_	Target[6]	26-7	false[6]	2[6]	_	
+26-11	1921-1922	i	_	Target[6]	26-7	false[6]	2[6]	_	
+26-12	1923-1927	Irak	_	Target[6]	26-7	false[6]	2[6]	_	
+26-13	1927-1928	.	_	_	_	_	_	_	
+
+#Text=Övergreppen har varit såväl politiska, ekonomiska som revanschistiska.
+27-1	1929-1940	Övergreppen	*	Target	27-1	false	1	_	
+27-2	1941-1944	har	_	_	_	_	_	_	
+27-3	1945-1950	varit	_	_	_	_	_	_	
+27-4	1951-1956	såväl	_	_	_	_	_	_	
+27-5	1957-1966	politiska	_	_	_	_	_	_	
+27-6	1966-1967	,	_	_	_	_	_	_	
+27-7	1968-1978	ekonomiska	_	_	_	_	_	_	
+27-8	1979-1982	som	_	_	_	_	_	_	
+27-9	1983-1998	revanschistiska	_	Target	27-1	false	2	_	
+27-10	1998-1999	.	_	_	_	_	_	_	
+
+#Text=Som kristna betraktas de som USA:s och västvärldens förlängda arm.
+28-1	2000-2003	Som	_	_	_	_	_	_	
+28-2	2004-2011	kristna	_	_	_	_	_	_	
+28-3	2012-2021	betraktas	_	_	_	_	_	_	
+28-4	2022-2024	de	_	_	_	_	_	_	
+28-5	2025-2028	som	_	_	_	_	_	_	
+28-6	2029-2032	USA	_	_	_	_	_	_	
+28-7	2032-2033	:	_	_	_	_	_	_	
+28-8	2033-2034	s	_	_	_	_	_	_	
+28-9	2035-2038	och	_	_	_	_	_	_	
+28-10	2039-2051	västvärldens	_	_	_	_	_	_	
+28-11	2052-2061	förlängda	_	_	_	_	_	_	
+28-12	2062-2065	arm	_	_	_	_	_	_	
+28-13	2065-2066	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2068-2069	#	_	_	_	_	_	_	
+29-2	2069-2070	P	_	_	_	_	_	_	
+29-3	2071-2074	IMM	_	_	_	_	_	_	
+29-4	2074-2075	.	_	_	_	_	_	_	
+
+#Text=Den systematiska förföljelsen har som mål att tömma Irak på dess kristna ursprungsbefolkning.
+30-1	2077-2080	Den	_	_	_	_	_	_	
+30-2	2081-2093	systematiska	*[19]	Target[7]	30-2[19]	false[7]	2[7]	_	
+30-3	2094-2106	förföljelsen	*[19]	Target[7]	30-2[19]	false[7]	2[7]	_	
+30-4	2107-2110	har	_	_	_	_	_	_	
+30-5	2111-2114	som	_	_	_	_	_	_	
+30-6	2115-2118	mål	_	_	_	_	_	_	
+30-7	2119-2122	att	_	_	_	_	_	_	
+30-8	2123-2128	tömma	_	_	_	_	_	_	
+30-9	2129-2133	Irak	_	_	_	_	_	_	
+30-10	2134-2136	på	_	_	_	_	_	_	
+30-11	2137-2141	dess	_	_	_	_	_	_	
+30-12	2142-2149	kristna	_	_	_	_	_	_	
+30-13	2150-2169	ursprungsbefolkning	_	_	_	_	_	_	
+30-14	2169-2170	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2172-2173	#	_	_	_	_	_	_	
+31-2	2173-2174	P	_	_	_	_	_	_	
+31-3	2175-2178	IMM	_	_	_	_	_	_	
+31-4	2178-2179	.	_	_	_	_	_	_	
+
+#Text=Genom att inrätta ett lokalt självstyre på Nineveslätten kan denna plågade och sargade befolkning få nya möjligheter att bygga upp ett samhälle och värna sin kultur, identitet och religion.
+32-1	2181-2186	Genom	_	_	_	_	_	_	
+32-2	2187-2190	att	_	_	_	_	_	_	
+32-3	2191-2198	inrätta	*[20]	_	_	_	_	_	
+32-4	2199-2202	ett	*[20]	_	_	_	_	_	
+32-5	2203-2209	lokalt	*[20]	_	_	_	_	_	
+32-6	2210-2220	självstyre	*[20]	_	_	_	_	_	
+32-7	2221-2223	på	*[20]	_	_	_	_	_	
+32-8	2224-2237	Nineveslätten	*[20]	_	_	_	_	_	
+32-9	2238-2241	kan	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-10	2242-2247	denna	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-11	2248-2255	plågade	_	Target[8]|Target[9]	32-3[20]|32-14	false[8]|false[9]	4[8]|1[9]	_	
+32-12	2256-2259	och	_	Target[8]|Target[9]	32-3[20]|32-14	false[8]|false[9]	4[8]|1[9]	_	
+32-13	2260-2267	sargade	_	Target[8]|Target[9]	32-3[20]|32-14	false[8]|false[9]	4[8]|1[9]	_	
+32-14	2268-2278	befolkning	*	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-15	2279-2281	få	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-16	2282-2285	nya	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-17	2286-2297	möjligheter	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-18	2298-2301	att	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-19	2302-2307	bygga	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-20	2308-2311	upp	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-21	2312-2315	ett	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-22	2316-2324	samhälle	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-23	2325-2328	och	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-24	2329-2334	värna	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-25	2335-2338	sin	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-26	2339-2345	kultur	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-27	2345-2346	,	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-28	2347-2356	identitet	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-29	2357-2360	och	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-30	2361-2369	religion	_	Target[8]	32-3[20]	false[8]	4[8]	_	
+32-31	2369-2370	.	_	_	_	_	_	_	
+
+#Text=Men då krävs handlingskraft från såväl Sverige, EU som FN.
+33-1	2371-2374	Men	_	_	_	_	_	_	
+33-2	2375-2377	då	_	_	_	_	_	_	
+33-3	2378-2383	krävs	_	Target[10]	33-7[21]	false[10]	4[10]	_	
+33-4	2384-2398	handlingskraft	_	Target[10]	33-7[21]	false[10]	4[10]	_	
+33-5	2399-2403	från	_	_	_	_	_	_	
+33-6	2404-2409	såväl	_	_	_	_	_	_	
+33-7	2410-2417	Sverige	*[21]	_	_	_	_	_	
+33-8	2417-2418	,	*[21]	_	_	_	_	_	
+33-9	2419-2421	EU	*[21]	_	_	_	_	_	
+33-10	2422-2425	som	*[21]	_	_	_	_	_	
+33-11	2426-2428	FN	*[21]	_	_	_	_	_	
+33-12	2428-2429	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2431-2432	#	_	_	_	_	_	_	
+34-2	2432-2433	P	_	_	_	_	_	_	
+34-3	2434-2437	IMM	_	_	_	_	_	_	
+34-4	2437-2438	.	_	_	_	_	_	_	
+
+#Text=Som ursprungsbefolkning har assyrier nämligen rätt att upprätta ett lokalt självstyre på Nineveslätten, utanför Mosul i norra Irak.
+35-1	2440-2443	Som	_	_	_	_	_	_	
+35-2	2444-2463	ursprungsbefolkning	_	_	_	_	_	_	
+35-3	2464-2467	har	_	_	_	false	4	_	
+35-4	2468-2476	assyrier	_	_	_	_	_	_	
+35-5	2477-2485	nämligen	_	_	_	_	_	_	
+35-6	2486-2490	rätt	_	Target	35-8[22]	false	4	35-3	
+35-7	2491-2494	att	_	_	_	_	_	_	
+35-8	2495-2503	upprätta	*[22]	_	_	_	_	_	
+35-9	2504-2507	ett	*[22]	_	_	_	_	_	
+35-10	2508-2514	lokalt	*[22]	_	_	_	_	_	
+35-11	2515-2525	självstyre	*[22]	_	_	_	_	_	
+35-12	2526-2528	på	*[22]	_	_	_	_	_	
+35-13	2529-2542	Nineveslätten	*[22]	_	_	_	_	_	
+35-14	2542-2543	,	_	_	_	_	_	_	
+35-15	2544-2551	utanför	_	_	_	_	_	_	
+35-16	2552-2557	Mosul	_	_	_	_	_	_	
+35-17	2558-2559	i	_	_	_	_	_	_	
+35-18	2560-2565	norra	_	_	_	_	_	_	
+35-19	2566-2570	Irak	_	_	_	_	_	_	
+35-20	2570-2571	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2573-2574	#	_	_	_	_	_	_	
+36-2	2574-2575	P	_	_	_	_	_	_	
+36-3	2576-2579	IMM	_	_	_	_	_	_	
+36-4	2579-2580	.	_	_	_	_	_	_	
+
+#Text=Det är en rättighet som är inskriven i Iraks konstitution, men något som Iraks ledare försöker ignorera.
+37-1	2582-2585	Det	_	_	_	_	_	_	
+37-2	2586-2588	är	_	_	_	_	_	_	
+37-3	2589-2591	en	_	_	_	_	_	_	
+37-4	2592-2601	rättighet	_	_	_	_	_	_	
+37-5	2602-2605	som	_	_	_	_	_	_	
+37-6	2606-2608	är	_	_	_	_	_	_	
+37-7	2609-2618	inskriven	_	_	_	_	_	_	
+37-8	2619-2620	i	_	_	_	_	_	_	
+37-9	2621-2626	Iraks	_	_	_	_	_	_	
+37-10	2627-2639	konstitution	_	_	_	_	_	_	
+37-11	2639-2640	,	_	_	_	_	_	_	
+37-12	2641-2644	men	_	_	_	_	_	_	
+37-13	2645-2650	något	_	_	_	_	_	_	
+37-14	2651-2654	som	_	_	_	_	_	_	
+37-15	2655-2660	Iraks	*[23]	_	_	_	_	_	
+37-16	2661-2667	ledare	*[23]	_	_	_	_	_	
+37-17	2668-2676	försöker	_	Target[11]	37-15[23]	false[11]	2[11]	_	
+37-18	2677-2685	ignorera	_	Target[11]	37-15[23]	false[11]	2[11]	_	
+37-19	2685-2686	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2688-2689	#	_	_	_	_	_	_	
+38-2	2689-2690	P	_	_	_	_	_	_	
+38-3	2691-2694	IMM	_	_	_	_	_	_	
+38-4	2694-2695	.	_	_	_	_	_	_	
+
+#Text=Faktum är att Mellanösterns alla kristna grupper lever farligt.
+39-1	2697-2703	Faktum	_	_	_	_	_	_	
+39-2	2704-2706	är	_	_	_	_	_	_	
+39-3	2707-2710	att	_	_	_	_	_	_	
+39-4	2711-2724	Mellanösterns	*[24]	_	_	_	_	_	
+39-5	2725-2729	alla	*[24]	_	_	_	_	_	
+39-6	2730-2737	kristna	*[24]	_	_	_	_	_	
+39-7	2738-2745	grupper	*[24]	_	_	_	_	_	
+39-8	2746-2751	lever	_	Target[12]	39-4[24]	false[12]	2[12]	_	
+39-9	2752-2759	farligt	_	Target[12]	39-4[24]	false[12]	2[12]	_	
+39-10	2759-2760	.	_	_	_	_	_	_	
+
+#Text=Vi har sett det i Irak och vi ser det i Egypten, vars tio miljoner stora kristna befolkning har fått det sämre efter demokratiframgångarna på Tahrirtorget.
+40-1	2761-2763	Vi	_	_	_	_	_	_	
+40-2	2764-2767	har	_	_	_	_	_	_	
+40-3	2768-2772	sett	_	_	_	_	_	_	
+40-4	2773-2776	det	_	_	_	_	_	_	
+40-5	2777-2778	i	_	_	_	_	_	_	
+40-6	2779-2783	Irak	_	_	_	_	_	_	
+40-7	2784-2787	och	_	_	_	_	_	_	
+40-8	2788-2790	vi	_	_	_	_	_	_	
+40-9	2791-2794	ser	_	_	_	_	_	_	
+40-10	2795-2798	det	_	_	_	_	_	_	
+40-11	2799-2800	i	_	_	_	_	_	_	
+40-12	2801-2808	Egypten	_	_	_	_	_	_	
+40-13	2808-2809	,	_	_	_	_	_	_	
+40-14	2810-2814	vars	_	_	_	_	_	_	
+40-15	2815-2818	tio	_	_	_	_	_	_	
+40-16	2819-2827	miljoner	_	_	_	_	_	_	
+40-17	2828-2833	stora	_	_	_	_	_	_	
+40-18	2834-2841	kristna	*[25]	_	_	_	_	_	
+40-19	2842-2852	befolkning	*[25]	_	_	_	_	_	
+40-20	2853-2856	har	_	Target[13]	40-18[25]	false[13]	2[13]	_	
+40-21	2857-2861	fått	_	Target[13]	40-18[25]	false[13]	2[13]	_	
+40-22	2862-2865	det	_	Target[13]	40-18[25]	false[13]	2[13]	_	
+40-23	2866-2871	sämre	_	Target[13]	40-18[25]	false[13]	2[13]	_	
+40-24	2872-2877	efter	_	_	_	_	_	_	
+40-25	2878-2899	demokratiframgångarna	_	_	_	_	_	_	
+40-26	2900-2902	på	_	_	_	_	_	_	
+40-27	2903-2915	Tahrirtorget	_	_	_	_	_	_	
+40-28	2915-2916	.	_	_	_	_	_	_	
+
+#Text=Därför är det angeläget att ta hoten mot Mellanösterns assyrier och andra kristna grupper på största allvar.
+41-1	2917-2923	Därför	_	_	_	_	_	_	
+41-2	2924-2926	är	_	_	_	_	_	_	
+41-3	2927-2930	det	_	_	_	_	_	_	
+41-4	2931-2940	angeläget	_	Target	41-6[26]	false	2	_	
+41-5	2941-2944	att	_	_	_	_	_	_	
+41-6	2945-2947	ta	*[26]	_	_	_	_	_	
+41-7	2948-2953	hoten	*[26]	_	_	_	_	_	
+41-8	2954-2957	mot	*[26]	_	_	_	_	_	
+41-9	2958-2971	Mellanösterns	*[26]	_	_	_	_	_	
+41-10	2972-2980	assyrier	*[26]	_	_	_	_	_	
+41-11	2981-2984	och	*[26]	_	_	_	_	_	
+41-12	2985-2990	andra	*[26]	_	_	_	_	_	
+41-13	2991-2998	kristna	*[26]	_	_	_	_	_	
+41-14	2999-3006	grupper	*[26]	_	_	_	_	_	
+41-15	3007-3009	på	*[26]	_	_	_	_	_	
+41-16	3010-3017	största	*[26]	_	_	_	_	_	
+41-17	3018-3024	allvar	*[26]	_	_	_	_	_	
+41-18	3024-3025	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3027-3028	#	_	_	_	_	_	_	
+42-2	3028-3029	P	_	_	_	_	_	_	
+42-3	3030-3033	IMM	_	_	_	_	_	_	
+42-4	3033-3034	.	_	_	_	_	_	_	
+
+#Text=Olle Wästberg.
+43-1	3036-3040	Olle	_	_	_	_	_	_	
+43-2	3041-3049	Wästberg	_	_	_	_	_	_	
+43-3	3049-3050	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3052-3053	#	_	_	_	_	_	_	
+44-2	3053-3054	P	_	_	_	_	_	_	
+44-3	3055-3058	IMM	_	_	_	_	_	_	
+44-4	3058-3059	.	_	_	_	_	_	_	
+
+#Text=Cecilia Wikström.
+45-1	3061-3068	Cecilia	_	_	_	_	_	_	
+45-2	3069-3077	Wikström	_	_	_	_	_	_	
+45-3	3077-3078	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3080-3081	#	_	_	_	_	_	_	
+46-2	3081-3082	P	_	_	_	_	_	_	
+46-3	3083-3086	IMM	_	_	_	_	_	_	
+46-4	3086-3087	.	_	_	_	_	_	_	
+
+#Text=Fredrik Malm.
+47-1	3089-3096	Fredrik	_	_	_	_	_	_	
+47-2	3097-3101	Malm	_	_	_	_	_	_	
+47-3	3101-3102	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3104-3105	#	_	_	_	_	_	_	
+48-2	3105-3106	P	_	_	_	_	_	_	
+48-3	3107-3110	IMM	_	_	_	_	_	_	
+48-4	3110-3111	.	_	_	_	_	_	_	
+
+#Text=Ninos Maraha.
+49-1	3113-3118	Ninos	_	_	_	_	_	_	
+49-2	3119-3125	Maraha	_	_	_	_	_	_	
+49-3	3125-3126	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3128-3129	#	_	_	_	_	_	_	
+50-2	3129-3130	P	_	_	_	_	_	_	
+50-3	3131-3134	IMM	_	_	_	_	_	_	
+50-4	3134-3135	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+51-1	3137-3142	FAKTA	_	_	_	_	_	_	
+51-2	3142-3143	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3145-3146	#	_	_	_	_	_	_	
+52-2	3146-3147	P	_	_	_	_	_	_	
+52-3	3148-3151	IMM	_	_	_	_	_	_	
+52-4	3151-3152	.	_	_	_	_	_	_	
+
+#Text=RERNA.
+53-1	3154-3159	RERNA	_	_	_	_	_	_	
+53-2	3159-3160	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3162-3163	#	_	_	_	_	_	_	
+54-2	3163-3164	P	_	_	_	_	_	_	
+54-3	3165-3168	IMM	_	_	_	_	_	_	
+54-4	3168-3169	.	_	_	_	_	_	_	
+
+#Text=N.
+55-1	3171-3172	N	_	_	_	_	_	_	
+55-2	3172-3173	.	_	_	_	_	_	_	

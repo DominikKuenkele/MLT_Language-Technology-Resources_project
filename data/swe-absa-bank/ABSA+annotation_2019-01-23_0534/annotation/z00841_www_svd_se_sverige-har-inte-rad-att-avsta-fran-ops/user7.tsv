@@ -1,0 +1,1282 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Sverige har inte råd att avstå från OPS.
+3-1	18-25	Sverige	*	_	_	_	_	_	
+3-2	26-29	har	_	Target[1]	3-1	false[1]	2[1]	_	
+3-3	30-34	inte	_	Target[1]	3-1	false[1]	2[1]	_	
+3-4	35-38	råd	_	Target[1]	3-1	false[1]	2[1]	_	
+3-5	39-42	att	_	Target[1]	3-1	false[1]	2[1]	_	
+3-6	43-48	avstå	_	Target[1]	3-1	false[1]	2[1]	_	
+3-7	49-53	från	_	_	_	_	_	_	
+3-8	54-57	OPS	_	_	_	_	_	_	
+3-9	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=Alternativ finansiering kan utgöra ett viktigt komplement till traditionell anslagsfinansiering och upphandling.
+5-1	69-79	Alternativ	*[25]	_	_	_	_	_	
+5-2	80-92	finansiering	*[25]	_	_	_	_	_	
+5-3	93-96	kan	_	Target[2]	5-1[25]	false[2]	4[2]	_	
+5-4	97-103	utgöra	_	Target[2]	5-1[25]	false[2]	4[2]	_	
+5-5	104-107	ett	_	Target[2]	5-1[25]	false[2]	4[2]	_	
+5-6	108-115	viktigt	_	Target[2]|Target[3]	5-1[25]|5-7	false[2]|false[3]	4[2]|4[3]	_	
+5-7	116-126	komplement	*	Target[2]	5-1[25]	false[2]	4[2]	_	
+5-8	127-131	till	_	_	_	_	_	_	
+5-9	132-144	traditionell	_	_	_	_	_	_	
+5-10	145-164	anslagsfinansiering	_	_	_	_	_	_	
+5-11	165-168	och	_	_	_	_	_	_	
+5-12	169-180	upphandling	_	_	_	_	_	_	
+5-13	180-181	.	_	_	_	_	_	_	
+
+#Text=Sverige inte råd att stänga dörren till nytänkande, OPS och alternativ finansiering, skriver David Erixon, Kreab.
+6-1	182-189	Sverige	*	_	_	_	_	_	
+6-2	190-194	inte	_	Target[4]	6-1	false[4]	2[4]	_	
+6-3	195-198	råd	_	Target[4]	6-1	false[4]	2[4]	_	
+6-4	199-202	att	_	Target[4]	6-1	false[4]	2[4]	_	
+6-5	203-209	stänga	_	Target[4]	6-1	false[4]	2[4]	_	
+6-6	210-216	dörren	_	Target[4]	6-1	false[4]	2[4]	_	
+6-7	217-221	till	_	_	_	_	_	_	
+6-8	222-232	nytänkande	_	_	_	_	_	_	
+6-9	232-233	,	_	_	_	_	_	_	
+6-10	234-237	OPS	_	_	_	_	_	_	
+6-11	238-241	och	_	_	_	_	_	_	
+6-12	242-252	alternativ	_	_	_	_	_	_	
+6-13	253-265	finansiering	_	_	_	_	_	_	
+6-14	265-266	,	_	_	_	_	_	_	
+6-15	267-274	skriver	_	_	_	_	_	_	
+6-16	275-280	David	_	_	_	_	_	_	
+6-17	281-287	Erixon	_	_	_	_	_	_	
+6-18	287-288	,	_	_	_	_	_	_	
+6-19	289-294	Kreab	_	_	_	_	_	_	
+6-20	294-295	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	297-298	#	_	_	_	_	_	_	
+7-2	298-299	P	_	_	_	_	_	_	
+7-3	300-303	IMM	_	_	_	_	_	_	
+7-4	303-304	.	_	_	_	_	_	_	
+
+#Text=Vi ska inte vara naiva – det finns i dag stora brister i hur staten genom Trafikverket upphandlar, bygger, underhåller och följer kostnader i infrastrukturprojekt.
+8-1	306-308	Vi	_	_	_	_	_	_	
+8-2	309-312	ska	_	_	_	_	_	_	
+8-3	313-317	inte	_	_	_	_	_	_	
+8-4	318-322	vara	*[26]	Target[5]	8-4[26]	false[5]	2[5]	_	
+8-5	323-328	naiva	*[26]	Target[5]	8-4[26]	false[5]	2[5]	_	
+8-6	329-330	–	_	_	_	_	_	_	
+8-7	331-334	det	_	_[6]	_	false[6]	1[6]	_	
+8-8	335-340	finns	_	_[6]	_	false[6]	1[6]	_	
+8-9	341-342	i	_	_	_	_	_	_	
+8-10	343-346	dag	_	_	_	_	_	_	
+8-11	347-352	stora	_	Target[7]	8-14[27]	false[7]	1[7]	8-7[6_7]	
+8-12	353-360	brister	_	Target[7]	8-14[27]	false[7]	1[7]	_	
+8-13	361-362	i	_	Target[7]	8-14[27]	false[7]	1[7]	_	
+8-14	363-366	hur	*[27]	_	_	_	_	_	
+8-15	367-373	staten	*[27]	_	_	_	_	_	
+8-16	374-379	genom	*[27]	_	_	_	_	_	
+8-17	380-392	Trafikverket	*[27]	_	_	_	_	_	
+8-18	393-403	upphandlar	*[27]	_	_	_	_	_	
+8-19	403-404	,	*[27]	_	_	_	_	_	
+8-20	405-411	bygger	*[27]	_	_	_	_	_	
+8-21	411-412	,	*[27]	_	_	_	_	_	
+8-22	413-424	underhåller	*[27]	_	_	_	_	_	
+8-23	425-428	och	*[27]	_	_	_	_	_	
+8-24	429-435	följer	*[27]	_	_	_	_	_	
+8-25	436-445	kostnader	*[27]	_	_	_	_	_	
+8-26	446-447	i	*[27]	_	_	_	_	_	
+8-27	448-468	infrastrukturprojekt	*[27]	_	_	_	_	_	
+8-28	468-469	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	471-472	#	_	_	_	_	_	_	
+9-2	472-473	P	_	_	_	_	_	_	
+9-3	474-477	IMM	_	_	_	_	_	_	
+9-4	477-478	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+10-1	480-483	Det	_	_	_	_	_	_	
+10-2	484-487	här	_	_	_	_	_	_	
+10-3	488-490	är	_	_	_	_	_	_	
+10-4	491-493	en	_	_	_	_	_	_	
+10-5	494-508	argumenterande	_	_	_	_	_	_	
+10-6	509-513	text	_	_	_	_	_	_	
+10-7	514-517	med	_	_	_	_	_	_	
+10-8	518-523	syfte	_	_	_	_	_	_	
+10-9	524-527	att	_	_	_	_	_	_	
+10-10	528-535	påverka	_	_	_	_	_	_	
+10-11	535-536	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+11-1	537-546	Åsikterna	_	_	_	_	_	_	
+11-2	547-550	som	_	_	_	_	_	_	
+11-3	551-559	uttrycks	_	_	_	_	_	_	
+11-4	560-562	är	_	_	_	_	_	_	
+11-5	563-574	skribentens	_	_	_	_	_	_	
+11-6	575-579	egna	_	_	_	_	_	_	
+11-7	579-580	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	582-583	#	_	_	_	_	_	_	
+12-2	583-584	P	_	_	_	_	_	_	
+12-3	585-588	IMM	_	_	_	_	_	_	
+12-4	588-589	.	_	_	_	_	_	_	
+
+#Text=Riksgäldsdirektör Hans Lindblad skriver på SvD Debatt (17/8) att infrastrukturinvesteringarnas omfattning i första hand bör "vägledas av den samlade samhällsnyttan i förhållande till kostnaden.
+13-1	591-608	Riksgäldsdirektör	_	_	_	_	_	_	
+13-2	609-613	Hans	_	_	_	_	_	_	
+13-3	614-622	Lindblad	_	_	_	_	_	_	
+13-4	623-630	skriver	_	_	_	_	_	_	
+13-5	631-633	på	_	_	_	_	_	_	
+13-6	634-637	SvD	_	_	_	_	_	_	
+13-7	638-644	Debatt	_	_	_	_	_	_	
+13-8	645-646	(	_	_	_	_	_	_	
+13-9	646-648	17	_	_	_	_	_	_	
+13-10	648-649	/	_	_	_	_	_	_	
+13-11	649-650	8	_	_	_	_	_	_	
+13-12	650-651	)	_	_	_	_	_	_	
+13-13	652-655	att	_	_	_	_	_	_	
+13-14	656-685	infrastrukturinvesteringarnas	_	_	_	_	_	_	
+13-15	686-696	omfattning	_	_	_	_	_	_	
+13-16	697-698	i	_	_	_	_	_	_	
+13-17	699-705	första	_	_	_	_	_	_	
+13-18	706-710	hand	_	_	_	_	_	_	
+13-19	711-714	bör	_	_	_	_	_	_	
+13-20	715-716	"	_	_	_	_	_	_	
+13-21	716-724	vägledas	_	_	_	_	_	_	
+13-22	725-727	av	_	_	_	_	_	_	
+13-23	728-731	den	_	_	_	_	_	_	
+13-24	732-739	samlade	_	_	_	_	_	_	
+13-25	740-754	samhällsnyttan	_	_	_	_	_	_	
+13-26	755-756	i	_	_	_	_	_	_	
+13-27	757-768	förhållande	_	_	_	_	_	_	
+13-28	769-773	till	_	_	_	_	_	_	
+13-29	774-783	kostnaden	_	_	_	_	_	_	
+13-30	783-784	.	_	_	_	_	_	_	
+
+#Text=Om nyttan överstiger kostnaden bör investeringen genomföras."
+14-1	785-787	Om	_	_	_	_	_	_	
+14-2	788-794	nyttan	*	Target	14-2	false	4	_	
+14-3	795-805	överstiger	_	_	_	_	_	_	
+14-4	806-815	kostnaden	_	_	_	_	_	_	
+14-5	816-819	bör	_	Target	14-6[28]	false	4	_	
+14-6	820-833	investeringen	*[28]	_	_	_	_	_	
+14-7	834-844	genomföras	*[28]	_	_	_	_	_	
+14-8	844-845	.	_	_	_	_	_	_	
+14-9	845-846	"	_	_	_	_	_	_	
+
+#Text=Denna teoretiska och förenklade, men helt korrekta bild stämmer tyvärr ofta dåligt med den politiska verkligheten och flertalet beslutade infrastruktursatsningar.
+15-1	847-852	Denna	_	_	_	_	_	_	
+15-2	853-863	teoretiska	_	_	_	_	_	_	
+15-3	864-867	och	_	_	_	_	_	_	
+15-4	868-878	förenklade	_	_	_	_	_	_	
+15-5	878-879	,	_	_	_	_	_	_	
+15-6	880-883	men	_	_	_	_	_	_	
+15-7	884-888	helt	_	Target[8]	15-9	false[8]	5[8]	_	
+15-8	889-897	korrekta	_	Target[8]	15-9	false[8]	5[8]	_	
+15-9	898-902	bild	*	_	_	_	_	_	
+15-10	903-910	stämmer	_	_	_	_	_	_	
+15-11	911-917	tyvärr	_	_	_	_	_	_	
+15-12	918-922	ofta	_	_	_	_	_	_	
+15-13	923-929	dåligt	_	_	_	_	_	_	
+15-14	930-933	med	_	_	_	_	_	_	
+15-15	934-937	den	_	_	_	_	_	_	
+15-16	938-947	politiska	_	_	_	_	_	_	
+15-17	948-960	verkligheten	_	_	_	_	_	_	
+15-18	961-964	och	_	_	_	_	_	_	
+15-19	965-974	flertalet	_	_	_	_	_	_	
+15-20	975-984	beslutade	_	_	_	_	_	_	
+15-21	985-1008	infrastruktursatsningar	_	_	_	_	_	_	
+15-22	1008-1009	.	_	_	_	_	_	_	
+
+#Text=Något som Finanspolitiska rådet konstaterade så sent som 2015.
+16-1	1010-1015	Något	_	_	_	_	_	_	
+16-2	1016-1019	som	_	_	_	_	_	_	
+16-3	1020-1035	Finanspolitiska	_	_	_	_	_	_	
+16-4	1036-1041	rådet	_	_	_	_	_	_	
+16-5	1042-1054	konstaterade	_	_	_	_	_	_	
+16-6	1055-1057	så	_	_	_	_	_	_	
+16-7	1058-1062	sent	_	_	_	_	_	_	
+16-8	1063-1066	som	_	_	_	_	_	_	
+16-9	1067-1071	2015	_	_	_	_	_	_	
+16-10	1071-1072	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1074-1075	#	_	_	_	_	_	_	
+17-2	1075-1076	P	_	_	_	_	_	_	
+17-3	1077-1080	IMM	_	_	_	_	_	_	
+17-4	1080-1081	.	_	_	_	_	_	_	
+
+#Text=OPS eller alternativ finansiering utgör naturligtvis ingen garant mot samhällsekonomiskt tvivelaktiga eller ineffektiva investeringar.
+18-1	1083-1086	OPS	_	_	_	_	_	_	
+18-2	1087-1092	eller	_	_	_	_	_	_	
+18-3	1093-1103	alternativ	_	_	_	_	_	_	
+18-4	1104-1116	finansiering	_	_	_	_	_	_	
+18-5	1117-1122	utgör	_	_	_	_	_	_	
+18-6	1123-1135	naturligtvis	_	_	_	_	_	_	
+18-7	1136-1141	ingen	_	_	_	_	_	_	
+18-8	1142-1148	garant	_	_	_	_	_	_	
+18-9	1149-1152	mot	_	_	_	_	_	_	
+18-10	1153-1171	samhällsekonomiskt	_	_	_	_	_	_	
+18-11	1172-1184	tvivelaktiga	_	Target[9]	18-14	false[9]	2[9]	_	
+18-12	1185-1190	eller	_	Target[9]	18-14	false[9]	2[9]	_	
+18-13	1191-1202	ineffektiva	_	Target[9]	18-14	false[9]	2[9]	_	
+18-14	1203-1216	investeringar	*	_	_	_	_	_	
+18-15	1216-1217	.	_	_	_	_	_	_	
+
+#Text=Men privata investeringar tenderar oftare att vila på sunda finansiella bedömningar snarare än politiska hänsyn och ansvarsutkrävandet vid fördyringar eller förseningar är ofta strikt.
+19-1	1218-1221	Men	_	_	_	_	_	_	
+19-2	1222-1229	privata	_	_	_	_	_	_	
+19-3	1230-1243	investeringar	_	_	_	_	_	_	
+19-4	1244-1252	tenderar	_	_	_	_	_	_	
+19-5	1253-1259	oftare	_	_	_	_	_	_	
+19-6	1260-1263	att	_	_	_	_	_	_	
+19-7	1264-1268	vila	_	_	_	_	_	_	
+19-8	1269-1271	på	_	_	_	_	_	_	
+19-9	1272-1277	sunda	_	Target	19-10[29]	false	4	_	
+19-10	1278-1289	finansiella	*[29]	_	_	_	_	_	
+19-11	1290-1301	bedömningar	*[29]	_	_	_	_	_	
+19-12	1302-1309	snarare	_	_	_	_	_	_	
+19-13	1310-1312	än	_	_	_	_	_	_	
+19-14	1313-1322	politiska	_	_	_	_	_	_	
+19-15	1323-1329	hänsyn	_	_	_	_	_	_	
+19-16	1330-1333	och	_	_	_	_	_	_	
+19-17	1334-1352	ansvarsutkrävandet	_	_	_	_	_	_	
+19-18	1353-1356	vid	_	_	_	_	_	_	
+19-19	1357-1368	fördyringar	_	_	_	_	_	_	
+19-20	1369-1374	eller	_	_	_	_	_	_	
+19-21	1375-1386	förseningar	_	_	_	_	_	_	
+19-22	1387-1389	är	_	_	_	_	_	_	
+19-23	1390-1394	ofta	_	_	_	_	_	_	
+19-24	1395-1401	strikt	_	_	_	_	_	_	
+19-25	1401-1402	.	_	_	_	_	_	_	
+
+#Text=Mycket av nyttan med OPS handlar om att fördela risker.
+20-1	1403-1409	Mycket	_	_	_	_	_	_	
+20-2	1410-1412	av	_	_	_	_	_	_	
+20-3	1413-1419	nyttan	*	Target	20-3	false	4	_	
+20-4	1420-1423	med	_	_	_	_	_	_	
+20-5	1424-1427	OPS	_	_	_	_	_	_	
+20-6	1428-1435	handlar	_	_	_	_	_	_	
+20-7	1436-1438	om	_	_	_	_	_	_	
+20-8	1439-1442	att	_	_	_	_	_	_	
+20-9	1443-1450	fördela	_	_	_	_	_	_	
+20-10	1451-1457	risker	_	_	_	_	_	_	
+20-11	1457-1458	.	_	_	_	_	_	_	
+
+#Text=Att riskera de egna eller ägarnas pengar gagnar en aktiv selektering och borgar för ett projekts kvalitet eller nytta, på liknande sätt som de samhällsekonomiska kalkylerna är tänkta att fungera som skattebetalarnas revisor mot ineffektivt nyttjande av våra gemensamma resurser.
+21-1	1459-1462	Att	_	_	_	_	_	_	
+21-2	1463-1470	riskera	_	_	_	_	_	_	
+21-3	1471-1473	de	_	_	_	_	_	_	
+21-4	1474-1478	egna	_	_	_	_	_	_	
+21-5	1479-1484	eller	_	_	_	_	_	_	
+21-6	1485-1492	ägarnas	_	_	_	_	_	_	
+21-7	1493-1499	pengar	_	_	_	_	_	_	
+21-8	1500-1506	gagnar	_	_	_	_	_	_	
+21-9	1507-1509	en	_	_	_	_	_	_	
+21-10	1510-1515	aktiv	_	_	_	_	_	_	
+21-11	1516-1527	selektering	_	_	_	_	_	_	
+21-12	1528-1531	och	_	_	_	_	_	_	
+21-13	1532-1538	borgar	_	_	_	_	_	_	
+21-14	1539-1542	för	_	_	_	_	_	_	
+21-15	1543-1546	ett	_	_	_	_	_	_	
+21-16	1547-1555	projekts	_	_	_	_	_	_	
+21-17	1556-1564	kvalitet	_	_	_	_	_	_	
+21-18	1565-1570	eller	_	_	_	_	_	_	
+21-19	1571-1576	nytta	_	_	_	_	_	_	
+21-20	1576-1577	,	_	_	_	_	_	_	
+21-21	1578-1580	på	_	_	_	_	_	_	
+21-22	1581-1589	liknande	_	_	_	_	_	_	
+21-23	1590-1594	sätt	_	_	_	_	_	_	
+21-24	1595-1598	som	_	_	_	_	_	_	
+21-25	1599-1601	de	_	_	_	_	_	_	
+21-26	1602-1620	samhällsekonomiska	_	_	_	_	_	_	
+21-27	1621-1631	kalkylerna	_	_	_	_	_	_	
+21-28	1632-1634	är	_	_	_	_	_	_	
+21-29	1635-1641	tänkta	_	_	_	_	_	_	
+21-30	1642-1645	att	_	_	_	_	_	_	
+21-31	1646-1653	fungera	_	_	_	_	_	_	
+21-32	1654-1657	som	_	_	_	_	_	_	
+21-33	1658-1674	skattebetalarnas	_	_	_	_	_	_	
+21-34	1675-1682	revisor	_	_	_	_	_	_	
+21-35	1683-1686	mot	_	_	_	_	_	_	
+21-36	1687-1698	ineffektivt	_	Target	21-37	false	2	_	
+21-37	1699-1708	nyttjande	*	_	_	_	_	_	
+21-38	1709-1711	av	_	_	_	_	_	_	
+21-39	1712-1716	våra	_	_	_	_	_	_	
+21-40	1717-1727	gemensamma	_	_	_	_	_	_	
+21-41	1728-1736	resurser	_	_	_	_	_	_	
+21-42	1736-1737	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1739-1740	#	_	_	_	_	_	_	
+22-2	1740-1741	P	_	_	_	_	_	_	
+22-3	1742-1745	IMM	_	_	_	_	_	_	
+22-4	1745-1746	.	_	_	_	_	_	_	
+
+#Text=Tyvärr förminskar Lindblad argumentationen i en i övrigt  välformulerad och väl underbyggd artikel till att OPS på något vis skulle handla om gratis pengar och att staten lånar billigare.
+23-1	1748-1754	Tyvärr	_	Target[10]	23-3	false[10]	2[10]	_	
+23-2	1755-1765	förminskar	_	Target[10]	23-3	false[10]	2[10]	_	
+23-3	1766-1774	Lindblad	*	_	_	_	_	_	
+23-4	1775-1790	argumentationen	_	_	_	_	_	_	
+23-5	1791-1792	i	_	_	_	_	_	_	
+23-6	1793-1795	en	_	_	_	_	_	_	
+23-7	1796-1797	i	_	_	_	_	_	_	
+23-8	1798-1804	övrigt	_	_	_	_	_	_	
+23-9	1806-1819	välformulerad	_	Target[11]	23-13	false[11]	2[11]	_	
+23-10	1820-1823	och	_	Target[11]	23-13	false[11]	2[11]	_	
+23-11	1824-1827	väl	_	Target[11]	23-13	false[11]	2[11]	_	
+23-12	1828-1838	underbyggd	_	Target[11]	23-13	false[11]	2[11]	_	
+23-13	1839-1846	artikel	*	_	_	_	_	_	
+23-14	1847-1851	till	_	_	_	_	_	_	
+23-15	1852-1855	att	_	_	_	_	_	_	
+23-16	1856-1859	OPS	_	_	_	_	_	_	
+23-17	1860-1862	på	_	_	_	_	_	_	
+23-18	1863-1868	något	_	_	_	_	_	_	
+23-19	1869-1872	vis	_	_	_	_	_	_	
+23-20	1873-1879	skulle	_	_	_	_	_	_	
+23-21	1880-1886	handla	_	_	_	_	_	_	
+23-22	1887-1889	om	_	_	_	_	_	_	
+23-23	1890-1896	gratis	_	_	_	_	_	_	
+23-24	1897-1903	pengar	_	_	_	_	_	_	
+23-25	1904-1907	och	_	_	_	_	_	_	
+23-26	1908-1911	att	_	_	_	_	_	_	
+23-27	1912-1918	staten	_	_	_	_	_	_	
+23-28	1919-1924	lånar	_	_	_	_	_	_	
+23-29	1925-1934	billigare	_	_	_	_	_	_	
+23-30	1934-1935	.	_	_	_	_	_	_	
+
+#Text=Samtidigt undviker Lindblad att bemöta de tillkortakommanden som stat och myndigheter ofta uppvisar i upphandlingar eller de sakliga argument som flertalet aktörer lyft.
+24-1	1936-1945	Samtidigt	_	_	_	_	_	_	
+24-2	1946-1954	undviker	_	_	_	_	_	_	
+24-3	1955-1963	Lindblad	_	_	_	_	_	_	
+24-4	1964-1967	att	_	_	_	_	_	_	
+24-5	1968-1974	bemöta	_	_	_	_	_	_	
+24-6	1975-1977	de	_	_	_	_	_	_	
+24-7	1978-1996	tillkortakommanden	_	Target	24-9[30]	false	2	24-12[12_0]	
+24-8	1997-2000	som	_	_	_	_	_	_	
+24-9	2001-2005	stat	*[30]	_	_	_	_	_	
+24-10	2006-2009	och	*[30]	_	_	_	_	_	
+24-11	2010-2021	myndigheter	*[30]	_	_	_	_	_	
+24-12	2022-2026	ofta	_	_[12]	_	false[12]	2[12]	_	
+24-13	2027-2035	uppvisar	_	_[12]	_	false[12]	2[12]	_	
+24-14	2036-2037	i	_	_	_	_	_	_	
+24-15	2038-2051	upphandlingar	_	_	_	_	_	_	
+24-16	2052-2057	eller	_	_	_	_	_	_	
+24-17	2058-2060	de	_	_	_	_	_	_	
+24-18	2061-2068	sakliga	_	_	_	_	_	_	
+24-19	2069-2077	argument	_	_	_	_	_	_	
+24-20	2078-2081	som	_	_	_	_	_	_	
+24-21	2082-2091	flertalet	_	_	_	_	_	_	
+24-22	2092-2099	aktörer	_	_	_	_	_	_	
+24-23	2100-2104	lyft	_	_	_	_	_	_	
+24-24	2104-2105	.	_	_	_	_	_	_	
+
+#Text=Eller för den delen många av de utvärderingar och exempel som finns internationellt på olika former av OPS-lösningar.
+25-1	2106-2111	Eller	_	_	_	_	_	_	
+25-2	2112-2115	för	_	_	_	_	_	_	
+25-3	2116-2119	den	_	_	_	_	_	_	
+25-4	2120-2125	delen	_	_	_	_	_	_	
+25-5	2126-2131	många	_	_	_	_	_	_	
+25-6	2132-2134	av	_	_	_	_	_	_	
+25-7	2135-2137	de	_	_	_	_	_	_	
+25-8	2138-2151	utvärderingar	_	_	_	_	_	_	
+25-9	2152-2155	och	_	_	_	_	_	_	
+25-10	2156-2163	exempel	_	_	_	_	_	_	
+25-11	2164-2167	som	_	_	_	_	_	_	
+25-12	2168-2173	finns	_	_	_	_	_	_	
+25-13	2174-2189	internationellt	_	_	_	_	_	_	
+25-14	2190-2192	på	_	_	_	_	_	_	
+25-15	2193-2198	olika	_	_	_	_	_	_	
+25-16	2199-2205	former	_	_	_	_	_	_	
+25-17	2206-2208	av	_	_	_	_	_	_	
+25-18	2209-2222	OPS-lösningar	_	_	_	_	_	_	
+25-19	2222-2223	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2225-2226	#	_	_	_	_	_	_	
+26-2	2226-2227	P	_	_	_	_	_	_	
+26-3	2228-2231	IMM	_	_	_	_	_	_	
+26-4	2231-2232	.	_	_	_	_	_	_	
+
+#Text=Under kommande tolvårsperiod kommer närmare 522 miljarder kronor att satsas på infrastrukturen.
+27-1	2234-2239	Under	_	_	_	_	_	_	
+27-2	2240-2248	kommande	_	_	_	_	_	_	
+27-3	2249-2262	tolvårsperiod	_	_	_	_	_	_	
+27-4	2263-2269	kommer	_	_	_	_	_	_	
+27-5	2270-2277	närmare	_	_	_	_	_	_	
+27-6	2278-2281	522	_	_	_	_	_	_	
+27-7	2282-2291	miljarder	_	_	_	_	_	_	
+27-8	2292-2298	kronor	_	_	_	_	_	_	
+27-9	2299-2302	att	_	_	_	_	_	_	
+27-10	2303-2309	satsas	_	_	_	_	_	_	
+27-11	2310-2312	på	_	_	_	_	_	_	
+27-12	2313-2328	infrastrukturen	_	_	_	_	_	_	
+27-13	2328-2329	.	_	_	_	_	_	_	
+
+#Text=Till det ska den så kallade Sverigeförhandlingen läggas – en investering på närmare 500 miljarder kronor i höghastighetståg, kollektivtrafik och nya bostäder.
+28-1	2330-2334	Till	_	_	_	_	_	_	
+28-2	2335-2338	det	_	_	_	_	_	_	
+28-3	2339-2342	ska	_	_	_	_	_	_	
+28-4	2343-2346	den	_	_	_	_	_	_	
+28-5	2347-2349	så	_	_	_	_	_	_	
+28-6	2350-2357	kallade	_	_	_	_	_	_	
+28-7	2358-2378	Sverigeförhandlingen	_	_	_	_	_	_	
+28-8	2379-2385	läggas	_	_	_	_	_	_	
+28-9	2386-2387	–	_	_	_	_	_	_	
+28-10	2388-2390	en	_	_	_	_	_	_	
+28-11	2391-2402	investering	_	_	_	_	_	_	
+28-12	2403-2405	på	_	_	_	_	_	_	
+28-13	2406-2413	närmare	_	_	_	_	_	_	
+28-14	2414-2417	500	_	_	_	_	_	_	
+28-15	2418-2427	miljarder	_	_	_	_	_	_	
+28-16	2428-2434	kronor	_	_	_	_	_	_	
+28-17	2435-2436	i	_	_	_	_	_	_	
+28-18	2437-2453	höghastighetståg	_	_	_	_	_	_	
+28-19	2453-2454	,	_	_	_	_	_	_	
+28-20	2455-2470	kollektivtrafik	_	_	_	_	_	_	
+28-21	2471-2474	och	_	_	_	_	_	_	
+28-22	2475-2478	nya	_	_	_	_	_	_	
+28-23	2479-2487	bostäder	_	_	_	_	_	_	
+28-24	2487-2488	.	_	_	_	_	_	_	
+
+#Text=Eller för att ytterligare beskriva samhällets efterfrågan på mer och bättre infrastruktur: bara under remitteringen av rådande infrastrukturplan framfördes "behov" eller önskningar på över 1 500 miljarder kronor.
+29-1	2489-2494	Eller	_	_	_	_	_	_	
+29-2	2495-2498	för	_	_	_	_	_	_	
+29-3	2499-2502	att	_	_	_	_	_	_	
+29-4	2503-2514	ytterligare	_	_	_	_	_	_	
+29-5	2515-2523	beskriva	_	_	_	_	_	_	
+29-6	2524-2534	samhällets	_	_	_	_	_	_	
+29-7	2535-2546	efterfrågan	_	_	_	_	_	_	
+29-8	2547-2549	på	_	_	_	_	_	_	
+29-9	2550-2553	mer	_	_	_	_	_	_	
+29-10	2554-2557	och	_	_	_	_	_	_	
+29-11	2558-2564	bättre	_	_	_	_	_	_	
+29-12	2565-2578	infrastruktur	_	_	_	_	_	_	
+29-13	2578-2579	:	_	_	_	_	_	_	
+29-14	2580-2584	bara	_	_	_	_	_	_	
+29-15	2585-2590	under	_	_	_	_	_	_	
+29-16	2591-2604	remitteringen	_	_	_	_	_	_	
+29-17	2605-2607	av	_	_	_	_	_	_	
+29-18	2608-2615	rådande	_	_	_	_	_	_	
+29-19	2616-2633	infrastrukturplan	_	_	_	_	_	_	
+29-20	2634-2644	framfördes	_	_	_	_	_	_	
+29-21	2645-2646	"	_	_	_	_	_	_	
+29-22	2646-2651	behov	_	_	_	_	_	_	
+29-23	2651-2652	"	_	_	_	_	_	_	
+29-24	2653-2658	eller	_	_	_	_	_	_	
+29-25	2659-2669	önskningar	_	_	_	_	_	_	
+29-26	2670-2672	på	_	_	_	_	_	_	
+29-27	2673-2677	över	_	_	_	_	_	_	
+29-28	2678-2679	1	_	_	_	_	_	_	
+29-29	2680-2683	500	_	_	_	_	_	_	
+29-30	2684-2693	miljarder	_	_	_	_	_	_	
+29-31	2694-2700	kronor	_	_	_	_	_	_	
+29-32	2700-2701	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2703-2704	#	_	_	_	_	_	_	
+30-2	2704-2705	P	_	_	_	_	_	_	
+30-3	2706-2709	IMM	_	_	_	_	_	_	
+30-4	2709-2710	.	_	_	_	_	_	_	
+
+#Text=Att i ljuset av detta och baserat på blott två svenska exempel (NKS och Arlandabanan) försöka avfärda och stänga dörren för OPS och alternativ finansiering vore mycket olyckligt.
+31-1	2712-2715	Att	*[31]	_	_	_	_	_	
+31-2	2716-2717	i	*[31]	_	_	_	_	_	
+31-3	2718-2724	ljuset	*[31]	_	_	_	_	_	
+31-4	2725-2727	av	*[31]	_	_	_	_	_	
+31-5	2728-2733	detta	*[31]	_	_	_	_	_	
+31-6	2734-2737	och	*[31]	_	_	_	_	_	
+31-7	2738-2745	baserat	*[31]	_	_	_	_	_	
+31-8	2746-2748	på	*[31]	_	_	_	_	_	
+31-9	2749-2754	blott	*[31]	_	_	_	_	_	
+31-10	2755-2758	två	*[31]	_	_	_	_	_	
+31-11	2759-2766	svenska	*[31]	_	_	_	_	_	
+31-12	2767-2774	exempel	*[31]	_	_	_	_	_	
+31-13	2775-2776	(	*[31]	_	_	_	_	_	
+31-14	2776-2779	NKS	*[31]	_	_	_	_	_	
+31-15	2780-2783	och	*[31]	_	_	_	_	_	
+31-16	2784-2796	Arlandabanan	*[31]	_	_	_	_	_	
+31-17	2796-2797	)	*[31]	_	_	_	_	_	
+31-18	2798-2805	försöka	*[31]	_	_	_	_	_	
+31-19	2806-2813	avfärda	*[31]	_	_	_	_	_	
+31-20	2814-2817	och	*[31]	_	_	_	_	_	
+31-21	2818-2824	stänga	*[31]	_	_	_	_	_	
+31-22	2825-2831	dörren	*[31]	_	_	_	_	_	
+31-23	2832-2835	för	*[31]	_	_	_	_	_	
+31-24	2836-2839	OPS	*[31]	_	_	_	_	_	
+31-25	2840-2843	och	*[31]	_	_	_	_	_	
+31-26	2844-2854	alternativ	*[31]	_	_	_	_	_	
+31-27	2855-2867	finansiering	*[31]	_	_	_	_	_	
+31-28	2868-2872	vore	_	Target[13]	31-1[31]	false[13]	1[13]	_	
+31-29	2873-2879	mycket	_	Target[13]	31-1[31]	false[13]	1[13]	_	
+31-30	2880-2889	olyckligt	_	Target[13]	31-1[31]	false[13]	1[13]	_	
+31-31	2889-2890	.	_	_	_	_	_	_	
+
+#Text=Låt oss i stället öppna dörren för en konstruktiv dialog som skapar förutsättningar för ett regelverk och en planeringsprocess som möjliggör för alternativ finansiering (men framför allt organisation av infrastrukturprojekt/investeringar) och möter de behov och utmaningar som samhället och politiken står inför.
+32-1	2891-2894	Låt	_	_	_	_	_	_	
+32-2	2895-2898	oss	_	_	_	_	_	_	
+32-3	2899-2900	i	_	_	_	_	_	_	
+32-4	2901-2908	stället	_	_	_	_	_	_	
+32-5	2909-2914	öppna	_	_	_	_	_	_	
+32-6	2915-2921	dörren	_	_	_	_	_	_	
+32-7	2922-2925	för	_	_	_	_	_	_	
+32-8	2926-2928	en	_	_	_	_	_	_	
+32-9	2929-2940	konstruktiv	_	Target	32-10	false	4	_	
+32-10	2941-2947	dialog	*	_	_	_	_	_	
+32-11	2948-2951	som	_	_	_	_	_	_	
+32-12	2952-2958	skapar	_	_	_	_	_	_	
+32-13	2959-2974	förutsättningar	_	_	_	_	_	_	
+32-14	2975-2978	för	_	_	_	_	_	_	
+32-15	2979-2982	ett	_	_	_	_	_	_	
+32-16	2983-2992	regelverk	_	_	_	_	_	_	
+32-17	2993-2996	och	_	_	_	_	_	_	
+32-18	2997-2999	en	_	_	_	_	_	_	
+32-19	3000-3017	planeringsprocess	_	_	_	_	_	_	
+32-20	3018-3021	som	_	_	_	_	_	_	
+32-21	3022-3031	möjliggör	_	_	_	_	_	_	
+32-22	3032-3035	för	_	_	_	_	_	_	
+32-23	3036-3046	alternativ	_	_	_	_	_	_	
+32-24	3047-3059	finansiering	_	_	_	_	_	_	
+32-25	3060-3061	(	_	_	_	_	_	_	
+32-26	3061-3064	men	_	_	_	_	_	_	
+32-27	3065-3072	framför	_	_	_	_	_	_	
+32-28	3073-3077	allt	_	_	_	_	_	_	
+32-29	3078-3090	organisation	_	_	_	_	_	_	
+32-30	3091-3093	av	_	_	_	_	_	_	
+32-31	3094-3114	infrastrukturprojekt	_	_	_	_	_	_	
+32-32	3114-3115	/	_	_	_	_	_	_	
+32-33	3115-3128	investeringar	_	_	_	_	_	_	
+32-34	3128-3129	)	_	_	_	_	_	_	
+32-35	3130-3133	och	_	_	_	_	_	_	
+32-36	3134-3139	möter	_	_	_	_	_	_	
+32-37	3140-3142	de	_	_	_	_	_	_	
+32-38	3143-3148	behov	_	_	_	_	_	_	
+32-39	3149-3152	och	_	_	_	_	_	_	
+32-40	3153-3163	utmaningar	_	_	_	_	_	_	
+32-41	3164-3167	som	_	_	_	_	_	_	
+32-42	3168-3177	samhället	_	_	_	_	_	_	
+32-43	3178-3181	och	_	_	_	_	_	_	
+32-44	3182-3191	politiken	_	_	_	_	_	_	
+32-45	3192-3196	står	_	_	_	_	_	_	
+32-46	3197-3202	inför	_	_	_	_	_	_	
+32-47	3202-3203	.	_	_	_	_	_	_	
+
+#Text=Det vore även i linje med de förslag och regelverk som EU genom Junckerplanen jobbar för.
+33-1	3204-3207	Det	_	_	_	_	_	_	
+33-2	3208-3212	vore	_	_	_	_	_	_	
+33-3	3213-3217	även	_	_	_	_	_	_	
+33-4	3218-3219	i	_	_	_	_	_	_	
+33-5	3220-3225	linje	_	_	_	_	_	_	
+33-6	3226-3229	med	_	_	_	_	_	_	
+33-7	3230-3232	de	_	_	_	_	_	_	
+33-8	3233-3240	förslag	_	_	_	_	_	_	
+33-9	3241-3244	och	_	_	_	_	_	_	
+33-10	3245-3254	regelverk	_	_	_	_	_	_	
+33-11	3255-3258	som	_	_	_	_	_	_	
+33-12	3259-3261	EU	_	_	_	_	_	_	
+33-13	3262-3267	genom	_	_	_	_	_	_	
+33-14	3268-3281	Junckerplanen	_	_	_	_	_	_	
+33-15	3282-3288	jobbar	_	_	_	_	_	_	
+33-16	3289-3292	för	_	_	_	_	_	_	
+33-17	3292-3293	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3295-3296	#	_	_	_	_	_	_	
+34-2	3296-3297	P	_	_	_	_	_	_	
+34-3	3298-3301	IMM	_	_	_	_	_	_	
+34-4	3301-3302	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+35-1	3304-3317	Skräddarsydda	_	_	_	_	_	_	
+35-2	3318-3324	kurser	_	_	_	_	_	_	
+35-3	3325-3326	i	_	_	_	_	_	_	
+35-4	3327-3332	ämnen	*[32]	_	_	_	_	_	
+35-5	3333-3336	som	*[32]	_	_	_	_	_	
+35-6	3337-3348	intresserar	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-7	3349-3352	och	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-8	3353-3362	engagerar	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-9	3363-3367	både	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-10	3368-3373	kropp	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-11	3374-3377	och	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-12	3378-3382	själ	_	Target;Source[14]	35-4[32];35-13	false[14]	4[14]	_	
+35-13	3382-3383	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3385-3386	#	_	_	_	_	_	_	
+36-2	3386-3387	P	_	_	_	_	_	_	
+36-3	3388-3391	IMM	_	_	_	_	_	_	
+36-4	3391-3392	.	_	_	_	_	_	_	
+
+#Text=Primärt handlar det om tre stora samhällsutmaningar där OPS kan utgöra ett viktigt komplement till traditionell anslagsfinansiering och upphandling.
+37-1	3394-3401	Primärt	_	_	_	_	_	_	
+37-2	3402-3409	handlar	_	_	_	_	_	_	
+37-3	3410-3413	det	_	_	_	_	_	_	
+37-4	3414-3416	om	_	_	_	_	_	_	
+37-5	3417-3420	tre	_	_	_	_	_	_	
+37-6	3421-3426	stora	_	_	_	_	_	_	
+37-7	3427-3445	samhällsutmaningar	_	_	_	_	_	_	
+37-8	3446-3449	där	_	_	_	_	_	_	
+37-9	3450-3453	OPS	*	_	_	_	_	_	
+37-10	3454-3457	kan	_	Target[15]	37-9	false[15]	4[15]	_	
+37-11	3458-3464	utgöra	_	Target[15]	37-9	false[15]	4[15]	_	
+37-12	3465-3468	ett	_	Target[15]	37-9	false[15]	4[15]	_	
+37-13	3469-3476	viktigt	_	Target[15]|Target[16]	37-9|37-14	false[15]|false[16]	4[15]|4[16]	_	
+37-14	3477-3487	komplement	*	Target[15]	37-9	false[15]	4[15]	_	
+37-15	3488-3492	till	_	_	_	_	_	_	
+37-16	3493-3505	traditionell	_	_	_	_	_	_	
+37-17	3506-3525	anslagsfinansiering	_	_	_	_	_	_	
+37-18	3526-3529	och	_	_	_	_	_	_	
+37-19	3530-3541	upphandling	_	_	_	_	_	_	
+37-20	3541-3542	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**• Ökad produktivitet.
+38-1	3544-3545	#	_	_	_	_	_	_	
+38-2	3545-3546	P	_	_	_	_	_	_	
+38-3	3547-3550	IMM	_	_	_	_	_	_	
+38-4	3550-3551	.	_	_	_	_	_	_	
+38-5	3553-3554	*	_	_	_	_	_	_	
+38-6	3554-3555	*	_	_	_	_	_	_	
+38-7	3555-3556	•	_	_	_	_	_	_	
+38-8	3557-3561	Ökad	_	_	_	_	_	_	
+38-9	3562-3575	produktivitet	_	_	_	_	_	_	
+38-10	3575-3576	.	_	_	_	_	_	_	
+
+#Text=**Bristande produktivitet har länge varit ett problem inom såväl anläggningsbranschen som Trafikverket.
+39-1	3577-3578	*	_	_	_	_	_	_	
+39-2	3578-3579	*	_	_	_	_	_	_	
+39-3	3579-3588	Bristande	*[33]	Target	39-4[34]	false	2	_	
+39-4	3589-3602	produktivitet	*[33]|*[34]	_	_	_	_	_	
+39-5	3603-3606	har	_	Target[17]	39-3[33]	false[17]	2[17]	_	
+39-6	3607-3612	länge	_	Target[17]	39-3[33]	false[17]	2[17]	_	
+39-7	3613-3618	varit	_	Target[17]	39-3[33]	false[17]	2[17]	_	
+39-8	3619-3622	ett	_	Target[17]	39-3[33]	false[17]	2[17]	_	
+39-9	3623-3630	problem	_	Target[17]	39-3[33]	false[17]	2[17]	_	
+39-10	3631-3635	inom	_	_	_	_	_	_	
+39-11	3636-3641	såväl	_	_	_	_	_	_	
+39-12	3642-3662	anläggningsbranschen	_	_	_	_	_	_	
+39-13	3663-3666	som	_	_	_	_	_	_	
+39-14	3667-3679	Trafikverket	_	_	_	_	_	_	
+39-15	3679-3680	.	_	_	_	_	_	_	
+
+#Text=En produktivitetsutveckling som varit i det närmaste försumbar och lett till mindre järnväg eller väg för pengarna.
+40-1	3681-3683	En	_	_	_	_	_	_	
+40-2	3684-3708	produktivitetsutveckling	_	_	_	_	_	_	
+40-3	3709-3712	som	_	_	_	_	_	_	
+40-4	3713-3718	varit	_	_	_	_	_	_	
+40-5	3719-3720	i	_	_	_	_	_	_	
+40-6	3721-3724	det	_	_	_	_	_	_	
+40-7	3725-3733	närmaste	_	_	_	_	_	_	
+40-8	3734-3743	försumbar	_	_	_	_	_	_	
+40-9	3744-3747	och	_	_	_	_	_	_	
+40-10	3748-3752	lett	_	_	_	_	_	_	
+40-11	3753-3757	till	_	_	_	_	_	_	
+40-12	3758-3764	mindre	_	_	_	_	_	_	
+40-13	3765-3772	järnväg	_	_	_	_	_	_	
+40-14	3773-3778	eller	_	_	_	_	_	_	
+40-15	3779-3782	väg	_	_	_	_	_	_	
+40-16	3783-3786	för	_	_	_	_	_	_	
+40-17	3787-3795	pengarna	_	_	_	_	_	_	
+40-18	3795-3796	.	_	_	_	_	_	_	
+
+#Text=Genom OPS med ökad samverkan mellan parterna och att finans- och byggkompetens involveras tidigare kan ny teknik, material och innovationer som sänker kostnader och kortar byggprocessen främjas.
+41-1	3797-3802	Genom	_	_	_	_	_	_	
+41-2	3803-3806	OPS	_	_	_	_	_	_	
+41-3	3807-3810	med	_	_	_	_	_	_	
+41-4	3811-3815	ökad	_	_	_	_	_	_	
+41-5	3816-3825	samverkan	_	_	_	_	_	_	
+41-6	3826-3832	mellan	_	_	_	_	_	_	
+41-7	3833-3841	parterna	_	_	_	_	_	_	
+41-8	3842-3845	och	_	_	_	_	_	_	
+41-9	3846-3849	att	_	_	_	_	_	_	
+41-10	3850-3856	finans	_	_	_	_	_	_	
+41-11	3856-3857	-	_	_	_	_	_	_	
+41-12	3858-3861	och	_	_	_	_	_	_	
+41-13	3862-3875	byggkompetens	_	_	_	_	_	_	
+41-14	3876-3886	involveras	_	_	_	_	_	_	
+41-15	3887-3895	tidigare	_	_	_	_	_	_	
+41-16	3896-3899	kan	_	_	_	_	_	_	
+41-17	3900-3902	ny	_	_	_	_	_	_	
+41-18	3903-3909	teknik	_	_	_	_	_	_	
+41-19	3909-3910	,	_	_	_	_	_	_	
+41-20	3911-3919	material	_	_	_	_	_	_	
+41-21	3920-3923	och	_	_	_	_	_	_	
+41-22	3924-3936	innovationer	_	_	_	_	_	_	
+41-23	3937-3940	som	_	_	_	_	_	_	
+41-24	3941-3947	sänker	_	_	_	_	_	_	
+41-25	3948-3957	kostnader	_	_	_	_	_	_	
+41-26	3958-3961	och	_	_	_	_	_	_	
+41-27	3962-3968	kortar	_	_	_	_	_	_	
+41-28	3969-3982	byggprocessen	_	_	_	_	_	_	
+41-29	3983-3990	främjas	_	_	_	_	_	_	
+41-30	3990-3991	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**• Minskad risk.
+42-1	3993-3994	#	_	_	_	_	_	_	
+42-2	3994-3995	P	_	_	_	_	_	_	
+42-3	3996-3999	IMM	_	_	_	_	_	_	
+42-4	3999-4000	.	_	_	_	_	_	_	
+42-5	4002-4003	*	_	_	_	_	_	_	
+42-6	4003-4004	*	_	_	_	_	_	_	
+42-7	4004-4005	•	_	_	_	_	_	_	
+42-8	4006-4013	Minskad	_	_	_	_	_	_	
+42-9	4014-4018	risk	_	_	_	_	_	_	
+42-10	4018-4019	.	_	_	_	_	_	_	
+
+#Text=**Infrastrukturinvesteringar är komplexa och en central del i nyttan av OPS handlar om att hantera, dela och minimera risker.
+43-1	4020-4021	*	_	_	_	_	_	_	
+43-2	4021-4022	*	_	_	_	_	_	_	
+43-3	4022-4048	Infrastrukturinvesteringar	_	_	_	_	_	_	
+43-4	4049-4051	är	_	_	_	_	_	_	
+43-5	4052-4060	komplexa	_	_	_	_	_	_	
+43-6	4061-4064	och	_	_	_	_	_	_	
+43-7	4065-4067	en	_	_	_	_	_	_	
+43-8	4068-4075	central	_	_	_	_	_	_	
+43-9	4076-4079	del	_	_	_	_	_	_	
+43-10	4080-4081	i	_	_	_	_	_	_	
+43-11	4082-4088	nyttan	_	_	_	_	_	_	
+43-12	4089-4091	av	_	_	_	_	_	_	
+43-13	4092-4095	OPS	_	_	_	_	_	_	
+43-14	4096-4103	handlar	_	_	_	_	_	_	
+43-15	4104-4106	om	_	_	_	_	_	_	
+43-16	4107-4110	att	_	_	_	_	_	_	
+43-17	4111-4118	hantera	_	_	_	_	_	_	
+43-18	4118-4119	,	_	_	_	_	_	_	
+43-19	4120-4124	dela	_	_	_	_	_	_	
+43-20	4125-4128	och	_	_	_	_	_	_	
+43-21	4129-4137	minimera	_	_	_	_	_	_	
+43-22	4138-4144	risker	_	_	_	_	_	_	
+43-23	4144-4145	.	_	_	_	_	_	_	
+
+#Text=I dag bärs hela risken av staten eller i förlängningen skattebetalarna, när en tunnel blir för dyr eller när resandet och nyttan vida understiger tidigare beräkningar.
+44-1	4146-4147	I	_	_	_	_	_	_	
+44-2	4148-4151	dag	_	_	_	_	_	_	
+44-3	4152-4156	bärs	_	_	_	_	_	_	
+44-4	4157-4161	hela	_	_	_	_	_	_	
+44-5	4162-4168	risken	_	_	_	_	_	_	
+44-6	4169-4171	av	_	_	_	_	_	_	
+44-7	4172-4178	staten	_	_	_	_	_	_	
+44-8	4179-4184	eller	_	_	_	_	_	_	
+44-9	4185-4186	i	_	_	_	_	_	_	
+44-10	4187-4200	förlängningen	_	_	_	_	_	_	
+44-11	4201-4216	skattebetalarna	_	_	_	_	_	_	
+44-12	4216-4217	,	_	_	_	_	_	_	
+44-13	4218-4221	när	_	_	_	_	_	_	
+44-14	4222-4224	en	_	_	_	_	_	_	
+44-15	4225-4231	tunnel	_	_	_	_	_	_	
+44-16	4232-4236	blir	_	_	_	_	_	_	
+44-17	4237-4240	för	_	_	_	_	_	_	
+44-18	4241-4244	dyr	_	_	_	_	_	_	
+44-19	4245-4250	eller	_	_	_	_	_	_	
+44-20	4251-4254	när	_	_	_	_	_	_	
+44-21	4255-4263	resandet	_	_	_	_	_	_	
+44-22	4264-4267	och	_	_	_	_	_	_	
+44-23	4268-4274	nyttan	*	Source;Target	44-28;44-23	false	4	_	
+44-24	4275-4279	vida	_	_	_	_	_	_	
+44-25	4280-4291	understiger	_	_	_	_	_	_	
+44-26	4292-4300	tidigare	_	_	_	_	_	_	
+44-27	4301-4312	beräkningar	_	_	_	_	_	_	
+44-28	4312-4313	.	*	_	_	_	_	_	
+
+#Text=Nyttan eller vinsten av minskad risk har självklart en kostnad men lyfts enbart av kritiker i efterhand och aldrig som ett skydd för oss skattebetalare när ett projekts kostnader kraftigt överskridits.
+45-1	4315-4321	Nyttan	*	Source;Target	45-32;45-1	false	4	_	
+45-2	4322-4327	eller	_	_	_	_	_	_	
+45-3	4328-4335	vinsten	_	_	_	_	_	_	
+45-4	4336-4338	av	_	_	_	_	_	_	
+45-5	4339-4346	minskad	_	_	_	_	_	_	
+45-6	4347-4351	risk	_	_	_	_	_	_	
+45-7	4352-4355	har	_	_	_	_	_	_	
+45-8	4356-4366	självklart	_	_	_	_	_	_	
+45-9	4367-4369	en	_	_	_	_	_	_	
+45-10	4370-4377	kostnad	_	_	_	_	_	_	
+45-11	4378-4381	men	_	_	_	_	_	_	
+45-12	4382-4387	lyfts	_	_	_	_	_	_	
+45-13	4388-4394	enbart	_	_	_	_	_	_	
+45-14	4395-4397	av	_	_	_	_	_	_	
+45-15	4398-4406	kritiker	_	_	_	_	_	_	
+45-16	4407-4408	i	_	_	_	_	_	_	
+45-17	4409-4418	efterhand	_	_	_	_	_	_	
+45-18	4419-4422	och	_	_	_	_	_	_	
+45-19	4423-4429	aldrig	_	_	_	_	_	_	
+45-20	4430-4433	som	_	_	_	_	_	_	
+45-21	4434-4437	ett	_	_	_	_	_	_	
+45-22	4438-4443	skydd	_	_	_	_	_	_	
+45-23	4444-4447	för	_	_	_	_	_	_	
+45-24	4448-4451	oss	_	_	_	_	_	_	
+45-25	4452-4466	skattebetalare	_	_	_	_	_	_	
+45-26	4467-4470	när	_	_	_	_	_	_	
+45-27	4471-4474	ett	_	_	_	_	_	_	
+45-28	4475-4483	projekts	_	_	_	_	_	_	
+45-29	4484-4493	kostnader	_	_	_	_	_	_	
+45-30	4494-4502	kraftigt	_	_	_	_	_	_	
+45-31	4503-4515	överskridits	_	_	_	_	_	_	
+45-32	4515-4516	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=**• Bättre drift och underhåll – tydligare livscykelperspektiv.
+46-1	4518-4519	#	_	_	_	_	_	_	
+46-2	4519-4520	P	_	_	_	_	_	_	
+46-3	4521-4524	IMM	_	_	_	_	_	_	
+46-4	4524-4525	.	_	_	_	_	_	_	
+46-5	4527-4528	*	_	_	_	_	_	_	
+46-6	4528-4529	*	_	_	_	_	_	_	
+46-7	4529-4530	•	_	_	_	_	_	_	
+46-8	4531-4537	Bättre	_	Target	46-9[35]	false	4	_	
+46-9	4538-4543	drift	*[35]	_	_	_	_	_	
+46-10	4544-4547	och	*[35]	_	_	_	_	_	
+46-11	4548-4557	underhåll	*[35]	_	_	_	_	_	
+46-12	4558-4559	–	_	_	_	_	_	_	
+46-13	4560-4569	tydligare	_	_	_	_	_	_	
+46-14	4570-4589	livscykelperspektiv	_	_	_	_	_	_	
+46-15	4589-4590	.	_	_	_	_	_	_	
+
+#Text=**Länge ansågs den enda lösningen på bristande underhåll vara mer pengar, även om allt fler experter nu tycks eniga i att utmaningarna är strukturella och att det behövs mer kunskap.
+47-1	4591-4592	*	_	_	_	_	_	_	
+47-2	4592-4593	*	_	_	_	_	_	_	
+47-3	4593-4598	Länge	_	_	_	_	_	_	
+47-4	4599-4605	ansågs	_	_	_	_	_	_	
+47-5	4606-4609	den	_	_	_	_	_	_	
+47-6	4610-4614	enda	_	_	_	_	_	_	
+47-7	4615-4624	lösningen	_	_	_	_	_	_	
+47-8	4625-4627	på	_	_	_	_	_	_	
+47-9	4628-4637	bristande	_	Target;Source	47-10;47-34	false	2	_	
+47-10	4638-4647	underhåll	*	_	_	_	_	_	
+47-11	4648-4652	vara	_	_	_	_	_	_	
+47-12	4653-4656	mer	_	_	_	_	_	_	
+47-13	4657-4663	pengar	_	_	_	_	_	_	
+47-14	4663-4664	,	_	_	_	_	_	_	
+47-15	4665-4669	även	_	_	_	_	_	_	
+47-16	4670-4672	om	_	_	_	_	_	_	
+47-17	4673-4677	allt	_	_	_	_	_	_	
+47-18	4678-4682	fler	_	_	_	_	_	_	
+47-19	4683-4691	experter	_	_	_	_	_	_	
+47-20	4692-4694	nu	_	_	_	_	_	_	
+47-21	4695-4700	tycks	_	_	_	_	_	_	
+47-22	4701-4706	eniga	_	_	_	_	_	_	
+47-23	4707-4708	i	_	_	_	_	_	_	
+47-24	4709-4712	att	_	_	_	_	_	_	
+47-25	4713-4725	utmaningarna	_	_	_	_	_	_	
+47-26	4726-4728	är	_	_	_	_	_	_	
+47-27	4729-4741	strukturella	_	_	_	_	_	_	
+47-28	4742-4745	och	_	_	_	_	_	_	
+47-29	4746-4749	att	_	_	_	_	_	_	
+47-30	4750-4753	det	_	_	_	_	_	_	
+47-31	4754-4760	behövs	_	_	_	_	_	_	
+47-32	4761-4764	mer	_	_	_	_	_	_	
+47-33	4765-4772	kunskap	_	_	_	_	_	_	
+47-34	4772-4773	.	*	_	_	_	_	_	
+
+#Text=Underhållskostnaden som ofta är större än den initiala investeringen lyfts dock inte i beräkningarna.
+48-1	4774-4793	Underhållskostnaden	_	_	_	_	_	_	
+48-2	4794-4797	som	_	_	_	_	_	_	
+48-3	4798-4802	ofta	_	_	_	_	_	_	
+48-4	4803-4805	är	_	_	_	_	_	_	
+48-5	4806-4812	större	_	_	_	_	_	_	
+48-6	4813-4815	än	_	_	_	_	_	_	
+48-7	4816-4819	den	_	_	_	_	_	_	
+48-8	4820-4828	initiala	_	_	_	_	_	_	
+48-9	4829-4842	investeringen	_	_	_	_	_	_	
+48-10	4843-4848	lyfts	_	_	_	_	_	_	
+48-11	4849-4853	dock	_	_	_	_	_	_	
+48-12	4854-4858	inte	_	_	_	_	_	_	
+48-13	4859-4860	i	_	_	_	_	_	_	
+48-14	4861-4874	beräkningarna	_	_	_	_	_	_	
+48-15	4874-4875	.	_	_	_	_	_	_	
+
+#Text=Det helhetsåtagande som OPS ofta innebär, skapar i stället incitament för att välja effektiva metoder och material.
+49-1	4876-4879	Det	_	_	_	_	_	_	
+49-2	4880-4895	helhetsåtagande	_	_	_	_	_	_	
+49-3	4896-4899	som	_	_	_	_	_	_	
+49-4	4900-4903	OPS	_	_	_	_	_	_	
+49-5	4904-4908	ofta	_	_	_	_	_	_	
+49-6	4909-4916	innebär	_	_	_	_	_	_	
+49-7	4916-4917	,	_	_	_	_	_	_	
+49-8	4918-4924	skapar	_	_	_	_	_	_	
+49-9	4925-4926	i	_	_	_	_	_	_	
+49-10	4927-4934	stället	_	_	_	_	_	_	
+49-11	4935-4945	incitament	_	_	_	_	_	_	
+49-12	4946-4949	för	_	_	_	_	_	_	
+49-13	4950-4953	att	_	_	_	_	_	_	
+49-14	4954-4959	välja	_	_	_	_	_	_	
+49-15	4960-4969	effektiva	_	Target;Source	49-16[36];49-19	false	4	_	
+49-16	4970-4977	metoder	*[36]	_	_	_	_	_	
+49-17	4978-4981	och	*[36]	_	_	_	_	_	
+49-18	4982-4990	material	*[36]	_	_	_	_	_	
+49-19	4990-4991	.	*	_	_	_	_	_	
+
+#Text=Från bättre beläggning som minskar underhållbehovet till en effektivare organisation.
+50-1	4992-4996	Från	_	_	_	_	_	_	
+50-2	4997-5003	bättre	_	Target;Source	50-3;50-11	false	4	_	
+50-3	5004-5014	beläggning	*	_	_	_	_	_	
+50-4	5015-5018	som	_	_	_	_	_	_	
+50-5	5019-5026	minskar	_	_	_	_	_	_	
+50-6	5027-5043	underhållbehovet	_	_	_	_	_	_	
+50-7	5044-5048	till	_	_	_	_	_	_	
+50-8	5049-5051	en	_	_	_	_	_	_	
+50-9	5052-5063	effektivare	_	Target;Source	50-10;50-11	false	4	_	
+50-10	5064-5076	organisation	*	_	_	_	_	_	
+50-11	5076-5077	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	5079-5080	#	_	_	_	_	_	_	
+51-2	5080-5081	P	_	_	_	_	_	_	
+51-3	5082-5085	IMM	_	_	_	_	_	_	
+51-4	5085-5086	.	_	_	_	_	_	_	
+
+#Text=Utöver dessa nyttor av OPS ska vi inte utesluta alternativa finansieringsformer som sträcker sig utanför traditionell anslagsfinansiering eller brukaravgifter.
+52-1	5088-5094	Utöver	_	_	_	_	_	_	
+52-2	5095-5100	dessa	_	_	_	_	_	_	
+52-3	5101-5107	nyttor	*	Target	52-3	false	4	_	
+52-4	5108-5110	av	_	_	_	_	_	_	
+52-5	5111-5114	OPS	_	_	_	_	_	_	
+52-6	5115-5118	ska	_	_	_	_	_	_	
+52-7	5119-5121	vi	_	_	_	_	_	_	
+52-8	5122-5126	inte	_	_	_	_	_	_	
+52-9	5127-5135	utesluta	_	_	_	_	_	_	
+52-10	5136-5147	alternativa	_	_	_	_	_	_	
+52-11	5148-5167	finansieringsformer	_	_	_	_	_	_	
+52-12	5168-5171	som	_	_	_	_	_	_	
+52-13	5172-5180	sträcker	_	_	_	_	_	_	
+52-14	5181-5184	sig	_	_	_	_	_	_	
+52-15	5185-5192	utanför	_	_	_	_	_	_	
+52-16	5193-5205	traditionell	_	_	_	_	_	_	
+52-17	5206-5225	anslagsfinansiering	_	_	_	_	_	_	
+52-18	5226-5231	eller	_	_	_	_	_	_	
+52-19	5232-5246	brukaravgifter	_	_	_	_	_	_	
+52-20	5246-5247	.	_	_	_	_	_	_	
+
+#Text=Attraktiva miljöer med väl fungerande infrastruktur och kommunikationer höjer markvärdet men skapar också nya byggklara områden med stort värde.
+53-1	5248-5258	Attraktiva	_	_	_	_	_	_	
+53-2	5259-5266	miljöer	_	_	_	_	_	_	
+53-3	5267-5270	med	_	_	_	_	_	_	
+53-4	5271-5274	väl	_	Target;Source[18]	53-6[37];53-20	false[18]	4[18]	_	
+53-5	5275-5285	fungerande	_	Target;Source[18]	53-6[37];53-20	false[18]	4[18]	_	
+53-6	5286-5299	infrastruktur	*[37]	_	_	_	_	_	
+53-7	5300-5303	och	*[37]	_	_	_	_	_	
+53-8	5304-5319	kommunikationer	*[37]	_	_	_	_	_	
+53-9	5320-5325	höjer	_	_	_	_	_	_	
+53-10	5326-5336	markvärdet	_	_	_	_	_	_	
+53-11	5337-5340	men	_	_	_	_	_	_	
+53-12	5341-5347	skapar	_	_	_	_	_	_	
+53-13	5348-5353	också	_	_	_	_	_	_	
+53-14	5354-5357	nya	*[38]	_	_	_	_	_	
+53-15	5358-5367	byggklara	*[38]	_	_	_	_	_	
+53-16	5368-5375	områden	*[38]	_	_	_	_	_	
+53-17	5376-5379	med	_	Target;Source[19]	53-14[38];53-20	false[19]	4[19]	_	
+53-18	5380-5385	stort	_	Target;Source[19]	53-14[38];53-20	false[19]	4[19]	_	
+53-19	5386-5391	värde	_	Target;Source[19]	53-14[38];53-20	false[19]	4[19]	_	
+53-20	5391-5392	.	*	_	_	_	_	_	
+
+#Text=Genom att låta långsiktiga aktörer utveckla nya fastigheter (exempelvis bostäder) kan detta finansiera ny infrastruktur utanför statens budget och samtidigt frigöra resurser till ytterligare investeringar i infrastruktur.
+54-1	5393-5398	Genom	_	_	_	_	_	_	
+54-2	5399-5402	att	_	_	_	_	_	_	
+54-3	5403-5407	låta	_	_	_	_	_	_	
+54-4	5408-5419	långsiktiga	_	_	_	_	_	_	
+54-5	5420-5427	aktörer	_	_	_	_	_	_	
+54-6	5428-5436	utveckla	_	_	_	_	_	_	
+54-7	5437-5440	nya	_	_	_	_	_	_	
+54-8	5441-5452	fastigheter	_	_	_	_	_	_	
+54-9	5453-5454	(	_	_	_	_	_	_	
+54-10	5454-5464	exempelvis	_	_	_	_	_	_	
+54-11	5465-5473	bostäder	_	_	_	_	_	_	
+54-12	5473-5474	)	_	_	_	_	_	_	
+54-13	5475-5478	kan	_	_	_	_	_	_	
+54-14	5479-5484	detta	_	_	_	_	_	_	
+54-15	5485-5495	finansiera	_	_	_	_	_	_	
+54-16	5496-5498	ny	_	_	_	_	_	_	
+54-17	5499-5512	infrastruktur	_	_	_	_	_	_	
+54-18	5513-5520	utanför	_	_	_	_	_	_	
+54-19	5521-5528	statens	_	_	_	_	_	_	
+54-20	5529-5535	budget	_	_	_	_	_	_	
+54-21	5536-5539	och	_	_	_	_	_	_	
+54-22	5540-5549	samtidigt	_	_	_	_	_	_	
+54-23	5550-5557	frigöra	_	_	_	_	_	_	
+54-24	5558-5566	resurser	_	_	_	_	_	_	
+54-25	5567-5571	till	_	_	_	_	_	_	
+54-26	5572-5583	ytterligare	_	_	_	_	_	_	
+54-27	5584-5597	investeringar	_	_	_	_	_	_	
+54-28	5598-5599	i	_	_	_	_	_	_	
+54-29	5600-5613	infrastruktur	_	_	_	_	_	_	
+54-30	5613-5614	.	_	_	_	_	_	_	
+
+#Text=Egentligen en alternativ form till det förslag om värdestegringsersättning som föreslagits av Sverigeförhandlingen.
+55-1	5615-5625	Egentligen	_	_	_	_	_	_	
+55-2	5626-5628	en	_	_	_	_	_	_	
+55-3	5629-5639	alternativ	_	_	_	_	_	_	
+55-4	5640-5644	form	_	_	_	_	_	_	
+55-5	5645-5649	till	_	_	_	_	_	_	
+55-6	5650-5653	det	_	_	_	_	_	_	
+55-7	5654-5661	förslag	_	_	_	_	_	_	
+55-8	5662-5664	om	_	_	_	_	_	_	
+55-9	5665-5689	värdestegringsersättning	_	_	_	_	_	_	
+55-10	5690-5693	som	_	_	_	_	_	_	
+55-11	5694-5705	föreslagits	_	_	_	_	_	_	
+55-12	5706-5708	av	_	_	_	_	_	_	
+55-13	5709-5729	Sverigeförhandlingen	_	_	_	_	_	_	
+55-14	5729-5730	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	5732-5733	#	_	_	_	_	_	_	
+56-2	5733-5734	P	_	_	_	_	_	_	
+56-3	5735-5738	IMM	_	_	_	_	_	_	
+56-4	5738-5739	.	_	_	_	_	_	_	
+
+#Text=Vi ska inte vara naiva – det finns i dag stora brister i hur staten genom Trafikverket upphandlar, bygger, underhåller och följer kostnader i infrastrukturprojekt.
+57-1	5741-5743	Vi	_	_	_	_	_	_	
+57-2	5744-5747	ska	_	_	_	_	_	_	
+57-3	5748-5752	inte	_	_	_	_	_	_	
+57-4	5753-5757	vara	*[39]	Target[20]	57-4[39]	false[20]	2[20]	_	
+57-5	5758-5763	naiva	*[39]	Target[20]	57-4[39]	false[20]	2[20]	_	
+57-6	5764-5765	–	_	_	_	_	_	_	
+57-7	5766-5769	det	_	_[21]	_	false[21]	1[21]	_	
+57-8	5770-5775	finns	_	_[21]	_	false[21]	1[21]	_	
+57-9	5776-5777	i	_	_	_	_	_	_	
+57-10	5778-5781	dag	_	_	_	_	_	_	
+57-11	5782-5787	stora	_	Target[22]	57-14[40]	false[22]	1[22]	57-7[21_22]	
+57-12	5788-5795	brister	_	Target[22]	57-14[40]	false[22]	1[22]	_	
+57-13	5796-5797	i	_	Target[22]	57-14[40]	false[22]	1[22]	_	
+57-14	5798-5801	hur	*[40]	_	_	_	_	_	
+57-15	5802-5808	staten	*[40]	_	_	_	_	_	
+57-16	5809-5814	genom	*[40]	_	_	_	_	_	
+57-17	5815-5827	Trafikverket	*[40]	_	_	_	_	_	
+57-18	5828-5838	upphandlar	*[40]	_	_	_	_	_	
+57-19	5838-5839	,	*[40]	_	_	_	_	_	
+57-20	5840-5846	bygger	*[40]	_	_	_	_	_	
+57-21	5846-5847	,	*[40]	_	_	_	_	_	
+57-22	5848-5859	underhåller	*[40]	_	_	_	_	_	
+57-23	5860-5863	och	*[40]	_	_	_	_	_	
+57-24	5864-5870	följer	*[40]	_	_	_	_	_	
+57-25	5871-5880	kostnader	*[40]	_	_	_	_	_	
+57-26	5881-5882	i	*[40]	_	_	_	_	_	
+57-27	5883-5903	infrastrukturprojekt	*[40]	_	_	_	_	_	
+57-28	5903-5904	.	_	_	_	_	_	_	
+
+#Text=Samtidigt som OPS inte utgör någon mirakelkur på alla de regionala önskningar om infrastruktur som av bristande lönsamhet eller resurser inte byggts.
+58-1	5905-5914	Samtidigt	_	_	_	_	_	_	
+58-2	5915-5918	som	_	_	_	_	_	_	
+58-3	5919-5922	OPS	*	_	_	_	_	_	
+58-4	5923-5927	inte	_	Target[23]	58-3	false[23]	3[23]	_	
+58-5	5928-5933	utgör	_	Target[23]	58-3	false[23]	3[23]	_	
+58-6	5934-5939	någon	_	Target[23]	58-3	false[23]	3[23]	_	
+58-7	5940-5950	mirakelkur	_	Target[23]	58-3	false[23]	3[23]	_	
+58-8	5951-5953	på	_	_	_	_	_	_	
+58-9	5954-5958	alla	_	_	_	_	_	_	
+58-10	5959-5961	de	_	_	_	_	_	_	
+58-11	5962-5971	regionala	_	_	_	_	_	_	
+58-12	5972-5982	önskningar	_	_	_	_	_	_	
+58-13	5983-5985	om	_	_	_	_	_	_	
+58-14	5986-5999	infrastruktur	_	_	_	_	_	_	
+58-15	6000-6003	som	_	_	_	_	_	_	
+58-16	6004-6006	av	_	_	_	_	_	_	
+58-17	6007-6016	bristande	_	Target;Source	58-18[41];58-23	false	2	_	
+58-18	6017-6026	lönsamhet	*[41]	_	_	_	_	_	
+58-19	6027-6032	eller	*[41]	_	_	_	_	_	
+58-20	6033-6041	resurser	*[41]	_	_	_	_	_	
+58-21	6042-6046	inte	_	_	_	_	_	_	
+58-22	6047-6053	byggts	_	_	_	_	_	_	
+58-23	6053-6054	.	*	_	_	_	_	_	
+
+#Text=Det handlar heller inte bara – eller främst – om pengar, utan också om organisation, effektivitet och livscykelperspektiv.
+59-1	6055-6058	Det	_	_	_	_	_	_	
+59-2	6059-6066	handlar	_	_	_	_	_	_	
+59-3	6067-6073	heller	_	_	_	_	_	_	
+59-4	6074-6078	inte	_	_	_	_	_	_	
+59-5	6079-6083	bara	_	_	_	_	_	_	
+59-6	6084-6085	–	_	_	_	_	_	_	
+59-7	6086-6091	eller	_	_	_	_	_	_	
+59-8	6092-6098	främst	_	_	_	_	_	_	
+59-9	6099-6100	–	_	_	_	_	_	_	
+59-10	6101-6103	om	_	_	_	_	_	_	
+59-11	6104-6110	pengar	_	_	_	_	_	_	
+59-12	6110-6111	,	_	_	_	_	_	_	
+59-13	6112-6116	utan	_	_	_	_	_	_	
+59-14	6117-6122	också	_	_	_	_	_	_	
+59-15	6123-6125	om	_	_	_	_	_	_	
+59-16	6126-6138	organisation	_	_	_	_	_	_	
+59-17	6138-6139	,	_	_	_	_	_	_	
+59-18	6140-6152	effektivitet	_	_	_	_	_	_	
+59-19	6153-6156	och	_	_	_	_	_	_	
+59-20	6157-6176	livscykelperspektiv	_	_	_	_	_	_	
+59-21	6176-6177	.	_	_	_	_	_	_	
+
+#Text=Det saknas i dag och det kommer fortsätta att saknas i nuvarande modell.
+60-1	6178-6181	Det	_	_	_	_	_	_	
+60-2	6182-6188	saknas	_	_	_	_	_	_	
+60-3	6189-6190	i	_	_	_	_	_	_	
+60-4	6191-6194	dag	_	_	_	_	_	_	
+60-5	6195-6198	och	_	_	_	_	_	_	
+60-6	6199-6202	det	_	_	_	_	_	_	
+60-7	6203-6209	kommer	_	_	_	_	_	_	
+60-8	6210-6219	fortsätta	_	_	_	_	_	_	
+60-9	6220-6223	att	_	_	_	_	_	_	
+60-10	6224-6230	saknas	_	_	_	_	_	_	
+60-11	6231-6232	i	_	_	_	_	_	_	
+60-12	6233-6242	nuvarande	_	_	_	_	_	_	
+60-13	6243-6249	modell	_	_	_	_	_	_	
+60-14	6249-6250	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	6252-6253	#	_	_	_	_	_	_	
+61-2	6253-6254	P	_	_	_	_	_	_	
+61-3	6255-6258	IMM	_	_	_	_	_	_	
+61-4	6258-6259	.	_	_	_	_	_	_	
+
+#Text=I stället för att debattera OPS genom förenklade modeller och teorier borde vi diskutera hur vi kan skapa regelverk, myndighetsstrukturer och en planeringsprocess som möjliggör för alternativt kapital och kompetens att komma in tidigare infrastrukturplaneringen.
+62-1	6261-6262	I	_	_	_	_	_	_	
+62-2	6263-6270	stället	_	_	_	_	_	_	
+62-3	6271-6274	för	_	_	_	_	_	_	
+62-4	6275-6278	att	_	_	_	_	_	_	
+62-5	6279-6288	debattera	_	_	_	_	_	_	
+62-6	6289-6292	OPS	_	_	_	_	_	_	
+62-7	6293-6298	genom	_	_	_	_	_	_	
+62-8	6299-6309	förenklade	_	_	_	_	_	_	
+62-9	6310-6318	modeller	_	_	_	_	_	_	
+62-10	6319-6322	och	_	_	_	_	_	_	
+62-11	6323-6330	teorier	_	_	_	_	_	_	
+62-12	6331-6336	borde	_	_	_	_	_	_	
+62-13	6337-6339	vi	_	_	_	_	_	_	
+62-14	6340-6349	diskutera	_	_	_	_	_	_	
+62-15	6350-6353	hur	_	_	_	_	_	_	
+62-16	6354-6356	vi	_	_	_	_	_	_	
+62-17	6357-6360	kan	_	_	_	_	_	_	
+62-18	6361-6366	skapa	_	_	_	_	_	_	
+62-19	6367-6376	regelverk	*[42]	_	_	_	_	_	
+62-20	6376-6377	,	*[42]	_	_	_	_	_	
+62-21	6378-6398	myndighetsstrukturer	*[42]	_	_	_	_	_	
+62-22	6399-6402	och	*[42]	_	_	_	_	_	
+62-23	6403-6405	en	*[42]	_	_	_	_	_	
+62-24	6406-6423	planeringsprocess	*[42]	_	_	_	_	_	
+62-25	6424-6427	som	*[42]	_	_	_	_	_	
+62-26	6428-6437	möjliggör	_	Target	62-19[42]	false	4	_	
+62-27	6438-6441	för	_	_	_	_	_	_	
+62-28	6442-6453	alternativt	_	_	_	_	_	_	
+62-29	6454-6461	kapital	_	_	_	_	_	_	
+62-30	6462-6465	och	_	_	_	_	_	_	
+62-31	6466-6475	kompetens	_	_	_	_	_	_	
+62-32	6476-6479	att	_	_	_	_	_	_	
+62-33	6480-6485	komma	_	_	_	_	_	_	
+62-34	6486-6488	in	_	_	_	_	_	_	
+62-35	6489-6497	tidigare	_	_	_	_	_	_	
+62-36	6498-6522	infrastrukturplaneringen	_	_	_	_	_	_	
+62-37	6522-6523	.	_	_	_	_	_	_	
+
+#Text=Sverige har inte råd att stänga dörren till nytänkande, OPS och alternativ finansiering.
+63-1	6524-6531	Sverige	*	_	_	_	_	_	
+63-2	6532-6535	har	_	Target[24]	63-1	false[24]	2[24]	_	
+63-3	6536-6540	inte	_	Target[24]	63-1	false[24]	2[24]	_	
+63-4	6541-6544	råd	_	Target[24]	63-1	false[24]	2[24]	_	
+63-5	6545-6548	att	_	Target[24]	63-1	false[24]	2[24]	_	
+63-6	6549-6555	stänga	_	Target[24]	63-1	false[24]	2[24]	_	
+63-7	6556-6562	dörren	_	Target[24]	63-1	false[24]	2[24]	_	
+63-8	6563-6567	till	_	_	_	_	_	_	
+63-9	6568-6578	nytänkande	_	_	_	_	_	_	
+63-10	6578-6579	,	_	_	_	_	_	_	
+63-11	6580-6583	OPS	_	_	_	_	_	_	
+63-12	6584-6587	och	_	_	_	_	_	_	
+63-13	6588-6598	alternativ	_	_	_	_	_	_	
+63-14	6599-6611	finansiering	_	_	_	_	_	_	
+63-15	6611-6612	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	6614-6615	#	_	_	_	_	_	_	
+64-2	6615-6616	P	_	_	_	_	_	_	
+64-3	6617-6620	IMM	_	_	_	_	_	_	
+64-4	6620-6621	.	_	_	_	_	_	_	
+
+#Text=David Erixon.
+65-1	6623-6628	David	_	_	_	_	_	_	
+65-2	6629-6635	Erixon	_	_	_	_	_	_	
+65-3	6635-6636	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	6638-6639	#	_	_	_	_	_	_	
+66-2	6639-6640	P	_	_	_	_	_	_	
+66-3	6641-6644	IMM	_	_	_	_	_	_	
+66-4	6644-6645	.	_	_	_	_	_	_	
+
+#Text=seniorkonsult, Kreab.
+67-1	6647-6660	seniorkonsult	_	_	_	_	_	_	
+67-2	6660-6661	,	_	_	_	_	_	_	
+67-3	6662-6667	Kreab	_	_	_	_	_	_	
+67-4	6667-6668	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	6670-6671	#	_	_	_	_	_	_	
+68-2	6671-6672	P	_	_	_	_	_	_	
+68-3	6673-6676	IMM	_	_	_	_	_	_	
+68-4	6676-6677	.	_	_	_	_	_	_	
+
+#Text=tidigare politiskt sakkunnig till fd infrastrukturminister Catharina Elmsäter-Svärd.
+69-1	6679-6687	tidigare	_	_	_	_	_	_	
+69-2	6688-6697	politiskt	_	_	_	_	_	_	
+69-3	6698-6707	sakkunnig	_	_	_	_	_	_	
+69-4	6708-6712	till	_	_	_	_	_	_	
+69-5	6713-6715	fd	_	_	_	_	_	_	
+69-6	6716-6737	infrastrukturminister	_	_	_	_	_	_	
+69-7	6738-6747	Catharina	_	_	_	_	_	_	
+69-8	6748-6762	Elmsäter-Svärd	_	_	_	_	_	_	
+69-9	6762-6763	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	6765-6766	#	_	_	_	_	_	_	
+70-2	6766-6767	P	_	_	_	_	_	_	
+70-3	6768-6771	IMM	_	_	_	_	_	_	
+70-4	6771-6772	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+71-1	6774-6782	Redaktör	_	_	_	_	_	_	
+71-2	6782-6783	:	_	_	_	_	_	_	
+71-3	6784-6790	Carina	_	_	_	_	_	_	
+71-4	6791-6799	Stensson	_	_	_	_	_	_	
+71-5	6799-6800	,	_	_	_	_	_	_	
+71-6	6801-6811	Biträdande	_	_	_	_	_	_	
+71-7	6812-6820	redaktör	_	_	_	_	_	_	
+71-8	6820-6821	:	_	_	_	_	_	_	
+71-9	6822-6827	Björn	_	_	_	_	_	_	
+71-10	6828-6834	Jorner	_	_	_	_	_	_	
+71-11	6834-6835	,	_	_	_	_	_	_	
+71-12	6836-6840	Mejl	_	_	_	_	_	_	
+71-13	6840-6841	:	_	_	_	_	_	_	
+71-14	6842-6848	debatt	_	_	_	_	_	_	
+71-15	6848-6849	@	_	_	_	_	_	_	
+71-16	6849-6855	svd.se	_	_	_	_	_	_	
+71-17	6855-6856	,	_	_	_	_	_	_	
+71-18	6857-6870	Telefonnummer	_	_	_	_	_	_	
+71-19	6870-6871	:	_	_	_	_	_	_	
+71-20	6872-6874	08	_	_	_	_	_	_	
+71-21	6874-6875	-	_	_	_	_	_	_	
+71-22	6875-6881	135149	_	_	_	_	_	_	
+71-23	6881-6882	,	_	_	_	_	_	_	
+71-24	6883-6890	Twitter	_	_	_	_	_	_	
+71-25	6890-6891	:	_	_	_	_	_	_	
+71-26	6892-6893	@	_	_	_	_	_	_	
+71-27	6893-6902	SvDDebatt	_	_	_	_	_	_	
+71-28	6902-6903	,	_	_	_	_	_	_	
+71-29	6904-6912	Facebook	_	_	_	_	_	_	
+71-30	6912-6913	:	_	_	_	_	_	_	
+71-31	6914-6917	SvD	_	_	_	_	_	_	
+71-32	6918-6924	Debatt	_	_	_	_	_	_	
+71-33	6924-6925	.	_	_	_	_	_	_	

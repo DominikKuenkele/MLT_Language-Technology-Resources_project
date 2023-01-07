@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hur häller vi rasistisk bensin på elden i kampen mot massinvandringen?
+3-1	18-21	Hur	_	_	_	_	_	_	_	
+3-2	22-28	häller	_	Target	3-11[10]	false	1	_	_	
+3-3	29-31	vi	_	_	_	_	_	_	_	
+3-4	32-41	rasistisk	_	Target[1]	3-11[9]	false[1]	1[1]	3-2[0_1]	_	
+3-5	42-48	bensin	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-6	49-51	på	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-7	52-57	elden	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-8	58-59	i	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-9	60-66	kampen	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-10	67-70	mot	_	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-11	71-87	massinvandringen	*[9]|*[10]	Target[1]	3-11[9]	false[1]	1[1]	_	_	
+3-12	87-88	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	90-91	#	_	_	_	_	_	_	_	
+4-2	91-92	P	_	_	_	_	_	_	_	
+4-3	93-96	IMM	_	_	_	_	_	_	_	
+4-4	96-97	.	_	_	_	_	_	_	_	
+
+#Text=Mitt förslag är att ingå i en ny fas i motståndet.
+5-1	99-103	Mitt	*	_	_	_	_	_	_	
+5-2	104-111	förslag	_	Source;Target[2]	5-1;5-4[11]	false[2]	4[2]	_	_	
+5-3	112-114	är	_	Source;Target[2]	5-1;5-4[11]	false[2]	4[2]	_	_	
+5-4	115-118	att	*[11]	_	_	_	_	_	_	
+5-5	119-123	ingå	*[11]	_	_	_	_	_	_	
+5-6	124-125	i	*[11]	_	_	_	_	_	_	
+5-7	126-128	en	*[11]	_	_	_	_	_	_	
+5-8	129-131	ny	*[11]	_	_	_	_	_	_	
+5-9	132-135	fas	*[11]	_	_	_	_	_	_	
+5-10	136-137	i	*[11]	_	_	_	_	_	_	
+5-11	138-148	motståndet	*[11]	_	_	false	2	_	_	
+5-12	148-149	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	151-152	#	_	_	_	_	_	_	_	
+6-2	152-153	P	_	_	_	_	_	_	_	
+6-3	154-157	IMM	_	_	_	_	_	_	_	
+6-4	157-158	.	_	_	_	_	_	_	_	
+
+#Text=Att alla internetkrigare som aldrig skulle göra motstånd fysiskt BOMBAR politikerna med mail tills ni får svar och sedan postar svaret i den här tråden som vi då kan diskutera.
+7-1	160-163	Att	_	_	_	_	_	_	_	
+7-2	164-168	alla	*[12]	_	_	_	_	_	_	
+7-3	169-184	internetkrigare	*[12]	_	_	_	_	_	_	
+7-4	185-188	som	*[12]	_	_	_	_	_	_	
+7-5	189-195	aldrig	*[12]	Target[3]	7-2[12]	false[3]	3[3]	_	_	
+7-6	196-202	skulle	*[12]	Target[3]	7-2[12]	false[3]	3[3]	_	_	
+7-7	203-207	göra	*[12]	Target[3]	7-2[12]	false[3]	3[3]	_	_	
+7-8	208-216	motstånd	*[12]	Target[3]	7-2[12]	false[3]	3[3]	_	_	
+7-9	217-224	fysiskt	*[12]	Target[3]	7-2[12]	false[3]	3[3]	_	_	
+7-10	225-231	BOMBAR	_	_	_	_	_	_	_	
+7-11	232-243	politikerna	_	_	_	_	_	_	_	
+7-12	244-247	med	_	_	_	_	_	_	_	
+7-13	248-252	mail	_	_	_	_	_	_	_	
+7-14	253-258	tills	_	_	_	_	_	_	_	
+7-15	259-261	ni	_	_	_	_	_	_	_	
+7-16	262-265	får	_	_	_	_	_	_	_	
+7-17	266-270	svar	_	_	_	_	_	_	_	
+7-18	271-274	och	_	_	_	_	_	_	_	
+7-19	275-280	sedan	_	_	_	_	_	_	_	
+7-20	281-287	postar	_	_	_	_	_	_	_	
+7-21	288-294	svaret	_	_	_	_	_	_	_	
+7-22	295-296	i	_	_	_	_	_	_	_	
+7-23	297-300	den	_	_	_	_	_	_	_	
+7-24	301-304	här	_	_	_	_	_	_	_	
+7-25	305-311	tråden	_	_	_	_	_	_	_	
+7-26	312-315	som	_	_	_	_	_	_	_	
+7-27	316-318	vi	_	_	_	_	_	_	_	
+7-28	319-321	då	_	_	_	_	_	_	_	
+7-29	322-325	kan	_	_	_	_	_	_	_	
+7-30	326-335	diskutera	_	_	_	_	_	_	_	
+7-31	335-336	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	338-339	#	_	_	_	_	_	_	_	
+8-2	339-340	P	_	_	_	_	_	_	_	
+8-3	341-344	IMM	_	_	_	_	_	_	_	
+8-4	344-345	.	_	_	_	_	_	_	_	
+
+#Text=Verkligen är en irriterande fluga som sätter sig på deras ögonlock precis när dom är påväg att somna.
+9-1	347-356	Verkligen	_	_	_	_	_	_	_	
+9-2	357-359	är	_	_[4]	_	false[4]	2[4]	_	_	
+9-3	360-362	en	_	_[4]	_	false[4]	2[4]	_	_	
+9-4	363-374	irriterande	_	_[4]	_	false[4]	2[4]	_	_	
+9-5	375-380	fluga	_	_[4]	_	false[4]	2[4]	_	_	
+9-6	381-384	som	_	_[4]	_	false[4]	2[4]	_	_	
+9-7	385-391	sätter	_	_[4]	_	false[4]	2[4]	_	_	
+9-8	392-395	sig	_	_[4]	_	false[4]	2[4]	_	_	
+9-9	396-398	på	_	_[4]	_	false[4]	2[4]	_	_	
+9-10	399-404	deras	_	_[4]	_	false[4]	2[4]	_	_	
+9-11	405-413	ögonlock	_	_[4]	_	false[4]	2[4]	_	_	
+9-12	414-420	precis	_	_[4]	_	false[4]	2[4]	_	_	
+9-13	421-424	när	_	_[4]	_	false[4]	2[4]	_	_	
+9-14	425-428	dom	_	_[4]	_	false[4]	2[4]	_	_	
+9-15	429-431	är	_	_[4]	_	false[4]	2[4]	_	_	
+9-16	432-437	påväg	_	_[4]	_	false[4]	2[4]	_	_	
+9-17	438-441	att	_	_[4]	_	false[4]	2[4]	_	_	
+9-18	442-447	somna	_	_[4]	_	false[4]	2[4]	_	_	
+9-19	447-448	.	_	_	_	_	_	_	_	
+
+#Text=Om och om igen tills dom är schack mattade.
+10-1	449-451	Om	_	_	_	_	_	_	_	
+10-2	452-455	och	_	_	_	_	_	_	_	
+10-3	456-458	om	_	_	_	_	_	_	_	
+10-4	459-463	igen	_	_	_	_	_	_	_	
+10-5	464-469	tills	_	_	_	_	_	_	_	
+10-6	470-473	dom	_	_	_	_	_	_	_	
+10-7	474-476	är	_	_	_	_	_	_	_	
+10-8	477-483	schack	_	_	_	_	_	_	_	
+10-9	484-491	mattade	_	_	_	_	_	_	_	
+10-10	491-492	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	494-495	#	_	_	_	_	_	_	_	
+11-2	495-496	P	_	_	_	_	_	_	_	
+11-3	497-500	IMM	_	_	_	_	_	_	_	
+11-4	500-501	.	_	_	_	_	_	_	_	
+
+#Text=Detta kan väl ni som inte kommer ta till vapen göra redan idag?
+12-1	503-508	Detta	_	_	_	_	_	_	_	
+12-2	509-512	kan	_	_	_	_	_	_	_	
+12-3	513-516	väl	_	_	_	_	_	_	_	
+12-4	517-519	ni	*[13]	_	_	_	_	_	_	
+12-5	520-523	som	*[13]	_	_	_	_	_	_	
+12-6	524-528	inte	*[13]	Target[5]	12-4[13]	false[5]	3[5]	_	_	
+12-7	529-535	kommer	*[13]	Target[5]	12-4[13]	false[5]	3[5]	_	_	
+12-8	536-538	ta	*[13]	Target[5]	12-4[13]	false[5]	3[5]	_	_	
+12-9	539-543	till	*[13]	Target[5]	12-4[13]	false[5]	3[5]	_	_	
+12-10	544-549	vapen	*[13]	Target[5]	12-4[13]	false[5]	3[5]	_	_	
+12-11	550-554	göra	_	_	_	_	_	_	_	
+12-12	555-560	redan	_	_	_	_	_	_	_	
+12-13	561-565	idag	_	_	_	_	_	_	_	
+12-14	565-566	?	_	_	_	_	_	_	_	
+
+#Text=BOMBA dom med mail med hård retorik?.
+13-1	567-572	BOMBA	_	_	_	_	_	_	_	
+13-2	573-576	dom	_	_	_	_	_	_	_	
+13-3	577-580	med	_	_	_	_	_	_	_	
+13-4	581-585	mail	_	_	_	_	_	_	_	
+13-5	586-589	med	_	_	_	_	_	_	_	
+13-6	590-594	hård	_	_	_	_	_	_	_	
+13-7	595-602	retorik	_	_	_	_	_	_	_	
+13-8	602-603	?	_	_	_	_	_	_	_	
+13-9	603-604	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	606-607	#	_	_	_	_	_	_	_	
+14-2	607-608	P	_	_	_	_	_	_	_	
+14-3	609-612	IMM	_	_	_	false	1	_	_	
+14-4	612-613	.	_	_	_	_	_	_	_	
+
+#Text=Det är så invandrarna gör dom skriker högst därför får dom allt och är nu första klassens medborgare.
+15-1	615-618	Det	_	_	_	_	_	_	_	
+15-2	619-621	är	_	_	_	_	_	_	_	
+15-3	622-624	så	_	_	_	_	_	_	_	
+15-4	625-636	invandrarna	*[14]|*[15]|*[16]	_	_	_	_	_	_	
+15-5	637-640	gör	_	_	_	_	_	_	_	
+15-6	641-644	dom	_	_	_	_	_	_	_	
+15-7	645-652	skriker	_	Target[6]	15-4[14]	false[6]	2[6]	_	_	
+15-8	653-658	högst	_	Target[6]	15-4[14]	false[6]	2[6]	_	_	
+15-9	659-665	därför	_	_	_	_	_	_	_	
+15-10	666-669	får	_	Source;Target	15-19[17];15-4[15]	false	5	_	_	
+15-11	670-673	dom	_	_	_	_	_	_	_	
+15-12	674-678	allt	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	15-10[0_7]	_	
+15-13	679-682	och	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-14	683-685	är	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-15	686-688	nu	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-16	689-695	första	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-17	696-704	klassens	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-18	705-715	medborgare	_	Source;Target[7]	15-19[18];15-4[16]	false[7]	5[7]	_	_	
+15-19	715-716	.	*[17]|*[18]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	718-719	#	_	_	_	_	_	_	_	
+16-2	719-720	P	_	_	_	_	_	_	_	
+16-3	721-724	IMM	_	_	_	_	_	_	_	
+16-4	724-725	.	_	_	_	_	_	_	_	
+
+#Text=Vi ska göra likadant!!.
+17-1	727-729	Vi	_	_	_	_	_	_	_	
+17-2	730-733	ska	_	_	_	_	_	_	_	
+17-3	734-738	göra	_	_	_	_	_	_	_	
+17-4	739-747	likadant	_	_	_	_	_	_	_	
+17-5	747-748	!	_	_	_	_	_	_	_	
+17-6	748-749	!	_	_	_	_	_	_	_	
+17-7	749-750	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	752-753	#	_	_	_	_	_	_	_	
+18-2	753-754	P	_	_	_	_	_	_	_	
+18-3	755-758	IMM	_	_	_	_	_	_	_	
+18-4	758-759	.	_	_	_	_	_	_	_	
+
+#Text=Några andra förslag på vad internetkrigare kan göra?
+19-1	761-766	Några	_	_	_	_	_	_	_	
+19-2	767-772	andra	_	_	_	_	_	_	_	
+19-3	773-780	förslag	_	_	_	_	_	_	_	
+19-4	781-783	på	_	_	_	_	_	_	_	
+19-5	784-787	vad	_	_	_	_	_	_	_	
+19-6	788-803	internetkrigare	*	_	_	_	_	_	20-2	
+19-7	804-807	kan	_	_	_	_	_	_	_	
+19-8	808-812	göra	_	_	_	_	_	_	_	
+19-9	812-813	?	_	_	_	_	_	_	_	
+
+#Text=(Som inte kommer slåss på gatorna).
+20-1	814-815	(	_	_	_	_	_	_	_	
+20-2	815-818	Som	*	_	_	_	_	_	_	
+20-3	819-823	inte	_	Target[8]	20-2	false[8]	3[8]	_	_	
+20-4	824-830	kommer	_	Target[8]	20-2	false[8]	3[8]	_	_	
+20-5	831-836	slåss	_	Target[8]	20-2	false[8]	3[8]	_	_	
+20-6	837-839	på	_	Target[8]	20-2	false[8]	3[8]	_	_	
+20-7	840-847	gatorna	_	Target[8]	20-2	false[8]	3[8]	_	_	
+20-8	847-848	)	_	_	_	_	_	_	_	
+20-9	848-849	.	_	_	_	_	_	_	_	

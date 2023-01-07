@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vänsterledaren når inte över rampen.
+3-1	18-32	Vänsterledaren	_	_	_	_	_	_	
+3-2	33-36	når	_	_	_	_	_	_	
+3-3	37-41	inte	_	_	_	_	_	_	
+3-4	42-46	över	_	_	_	_	_	_	
+3-5	47-53	rampen	_	_	_	_	_	_	
+3-6	53-54	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Nu har det hänt igen!
+5-1	65-67	Nu	_	_	_	_	_	_	
+5-2	68-71	har	_	_	_	_	_	_	
+5-3	72-75	det	_	_	_	_	_	_	
+5-4	76-80	hänt	_	_	_	_	_	_	
+5-5	81-85	igen	_	_	_	_	_	_	
+5-6	85-86	!	_	_	_	_	_	_	
+
+#Text=Lars Ohly fick sämst betyg av alla i partiledardebatten.
+6-1	87-91	Lars	*[6]|*[7]	_	_	_	_	8-1[0_7]	
+6-2	92-96	Ohly	*[6]|*[7]	_	_	_	_	_	
+6-3	97-101	fick	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-4	102-107	sämst	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-5	108-113	betyg	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-6	114-116	av	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-7	117-121	alla	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-8	122-123	i	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-9	124-142	partiledardebatten	_	Source;Target[1]	6-10;6-1[6]	false[1]	1[1]	_	
+6-10	142-143	.	*	_	_	_	_	_	
+
+#Text=Det är inte första gången.
+7-1	144-147	Det	_	_	_	_	_	_	
+7-2	148-150	är	_	_	_	_	_	_	
+7-3	151-155	inte	_	_	_	_	_	_	
+7-4	156-162	första	_	_	_	_	_	_	
+7-5	163-169	gången	_	_	_	_	_	_	
+7-6	169-170	.	_	_	_	_	_	_	
+
+#Text=Han har alltid fått sämst betyg, ända sedan han tillträdde som partiledare för vänstern.
+8-1	171-174	Han	*	_	_	_	_	_	
+8-2	175-178	har	_	Source;Target[2]	8-16;8-1	false[2]	1[2]	_	
+8-3	179-185	alltid	_	Source;Target[2]	8-16;8-1	false[2]	1[2]	_	
+8-4	186-190	fått	_	Source;Target[2]	8-16;8-1	false[2]	1[2]	_	
+8-5	191-196	sämst	_	Source;Target[2]	8-16;8-1	false[2]	1[2]	_	
+8-6	197-202	betyg	_	Source;Target[2]	8-16;8-1	false[2]	1[2]	_	
+8-7	202-203	,	_	_	_	_	_	_	
+8-8	204-208	ända	_	_	_	_	_	_	
+8-9	209-214	sedan	_	_	_	_	_	_	
+8-10	215-218	han	_	_	_	_	_	_	
+8-11	219-229	tillträdde	_	_	_	_	_	_	
+8-12	230-233	som	_	_	_	_	_	_	
+8-13	234-245	partiledare	_	_	_	_	_	_	
+8-14	246-249	för	_	_	_	_	_	_	
+8-15	250-258	vänstern	_	_	_	_	_	_	
+8-16	258-259	.	*	_	_	_	_	_	
+
+#Text=Det måste vara knäckande.
+9-1	260-263	Det	_	_	_	_	_	_	
+9-2	264-269	måste	_	_	_	_	_	_	
+9-3	270-274	vara	_	_	_	_	_	_	
+9-4	275-284	knäckande	_	_	_	_	_	_	
+9-5	284-285	.	_	_	_	_	_	_	
+
+#Text=Själv säger Ohly att han inte är bekymrad.
+10-1	286-291	Själv	_	_	_	_	_	_	
+10-2	292-297	säger	_	_	_	_	_	_	
+10-3	298-302	Ohly	*	_	_	_	_	_	
+10-4	303-306	att	*[8]	Target;Source[3]	10-4[8];10-3	false[3]	5[3]	_	
+10-5	307-310	han	*[8]	Target;Source[3]	10-4[8];10-3	false[3]	5[3]	_	
+10-6	311-315	inte	*[8]	Target;Source[3]	10-4[8];10-3	false[3]	5[3]	_	
+10-7	316-318	är	*[8]	Target;Source[3]	10-4[8];10-3	false[3]	5[3]	_	
+10-8	319-327	bekymrad	*[8]	Target;Source[3]	10-4[8];10-3	false[3]	5[3]	_	
+10-9	327-328	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+11-1	330-331	#	_	_	_	_	_	_	
+11-2	331-332	P	_	_	_	_	_	_	
+11-3	333-336	IMM	_	_	_	_	_	_	
+
+#Text=.
+12-1	336-337	.	_	_	_	_	_	_	
+
+#Text=– Sticker man ut väcker man både sympati och antipati.
+13-1	339-340	–	_	_	_	_	_	_	
+13-2	341-348	Sticker	_	_	_	_	_	_	
+13-3	349-352	man	_	_	_	_	_	_	
+13-4	353-355	ut	_	_	_	_	_	_	
+13-5	356-362	väcker	_	_	_	_	_	_	
+13-6	363-366	man	_	_	_	_	_	_	
+13-7	367-371	både	_	_	_	_	_	_	
+13-8	372-379	sympati	*	Target	13-8	false	5	_	
+13-9	380-383	och	_	_	_	_	_	_	
+13-10	384-392	antipati	*	Target	13-10	false	1	_	
+13-11	392-393	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	395-396	#	_	_	_	_	_	_	
+14-2	396-397	P	_	_	_	_	_	_	
+14-3	398-401	IMM	_	_	_	_	_	_	
+14-4	401-402	.	_	_	_	_	_	_	
+
+#Text=Men det är inte så enkelt som Lars Ohly vill göra gällande.
+15-1	404-407	Men	_	_	_	_	_	_	
+15-2	408-411	det	_	_	_	_	_	_	
+15-3	412-414	är	_	_	_	_	_	_	
+15-4	415-419	inte	_	_	_	_	_	_	
+15-5	420-422	så	_	_	_	_	_	_	
+15-6	423-429	enkelt	_	_	_	_	_	_	
+15-7	430-433	som	_	_	_	_	_	_	
+15-8	434-438	Lars	_	_	_	_	_	_	
+15-9	439-443	Ohly	_	_	_	_	_	_	
+15-10	444-448	vill	_	_	_	_	_	_	
+15-11	449-453	göra	_	_	_	_	_	_	
+15-12	454-462	gällande	_	_	_	_	_	_	
+15-13	462-463	.	_	_	_	_	_	_	
+
+#Text=Vänsterledaren når inte över rampen.
+16-1	464-478	Vänsterledaren	_	_	_	_	_	_	
+16-2	479-482	når	_	_	_	_	_	_	
+16-3	483-487	inte	_	_	_	_	_	_	
+16-4	488-492	över	_	_	_	_	_	_	
+16-5	493-499	rampen	_	_	_	_	_	_	
+16-6	499-500	.	_	_	_	false	2	_	
+
+#Text=Det krävs mer för att blidka väljarna och framför allt konkurrera ut självlysande politiker som Göran Persson och Fredrik Reinfeldt.
+17-1	501-504	Det	_	_	_	_	_	_	
+17-2	505-510	krävs	_	_	_	_	_	_	
+17-3	511-514	mer	_	_	_	_	_	_	
+17-4	515-518	för	_	_	_	_	_	_	
+17-5	519-522	att	_	_	_	_	_	_	
+17-6	523-529	blidka	*	Target;Source	17-6;17-7	false	3	_	
+17-7	530-538	väljarna	*	_	_	_	_	_	
+17-8	539-542	och	_	_	_	_	_	_	
+17-9	543-550	framför	_	_	_	_	_	_	
+17-10	551-555	allt	_	_	_	_	_	_	
+17-11	556-566	konkurrera	_	_	_	_	_	_	
+17-12	567-569	ut	_	_	_	_	_	_	
+17-13	570-582	självlysande	_	_	_	_	_	_	
+17-14	583-592	politiker	_	_	_	_	_	_	
+17-15	593-596	som	_	_	_	_	_	_	
+17-16	597-602	Göran	_	_	_	_	_	_	
+17-17	603-610	Persson	_	_	_	_	_	_	
+17-18	611-614	och	_	_	_	_	_	_	
+17-19	615-622	Fredrik	_	_	_	_	_	_	
+17-20	623-632	Reinfeldt	_	_	_	_	_	_	
+17-21	632-633	.	_	_	_	_	_	_	
+
+#Text=Det är några faktorer som Ohly måste jobba med.
+18-1	634-637	Det	_	_	_	_	_	_	
+18-2	638-640	är	_	_	_	_	_	_	
+18-3	641-646	några	_	_	_	_	_	_	
+18-4	647-655	faktorer	_	_	_	_	_	_	
+18-5	656-659	som	_	_	_	_	_	_	
+18-6	660-664	Ohly	_	_	_	_	_	_	
+18-7	665-670	måste	_	_	_	_	_	_	
+18-8	671-676	jobba	_	_	_	_	_	_	
+18-9	677-680	med	_	_	_	_	_	_	
+18-10	680-681	.	_	_	_	_	_	_	
+
+#Text=Det första är självförtroendet och trovärdigheten.
+19-1	682-685	Det	_	_	_	_	_	_	
+19-2	686-692	första	_	_	_	_	_	_	
+19-3	693-695	är	_	_	_	_	_	_	
+19-4	696-712	självförtroendet	_	_	_	_	_	_	
+19-5	713-716	och	_	_	_	_	_	_	
+19-6	717-731	trovärdigheten	_	_	_	_	_	_	
+19-7	731-732	.	_	_	_	_	_	_	
+
+#Text=Det är mycket gammal retorik och lite nya tankar.
+20-1	733-736	Det	_	_	_	_	_	_	
+20-2	737-739	är	_	_	_	_	_	_	
+20-3	740-746	mycket	_	_	_	_	_	_	
+20-4	747-753	gammal	_	_	_	_	_	_	
+20-5	754-761	retorik	_	_	_	_	_	_	
+20-6	762-765	och	_	_	_	_	_	_	
+20-7	766-770	lite	_	_	_	_	_	_	
+20-8	771-774	nya	_	_	_	_	_	_	
+20-9	775-781	tankar	_	_	_	_	_	_	
+20-10	781-782	.	_	_	_	_	_	_	
+
+#Text=Varför inte göra som folkpartiledaren och ta hjälp av en stylist som kan lyfta fram personligheten.
+21-1	783-789	Varför	_	_	_	_	_	_	
+21-2	790-794	inte	_	_	_	_	_	_	
+21-3	795-799	göra	_	_	_	_	_	_	
+21-4	800-803	som	_	_	_	_	_	_	
+21-5	804-820	folkpartiledaren	_	_	_	_	_	_	
+21-6	821-824	och	_	_	_	_	_	_	
+21-7	825-827	ta	_	_	_	_	_	_	
+21-8	828-833	hjälp	_	_	_	_	_	_	
+21-9	834-836	av	_	_	_	_	_	_	
+21-10	837-839	en	_	_	_	_	_	_	
+21-11	840-847	stylist	_	_	_	_	_	_	
+21-12	848-851	som	_	_	_	_	_	_	
+21-13	852-855	kan	_	_	_	_	_	_	
+21-14	856-861	lyfta	_	_	_	_	_	_	
+21-15	862-866	fram	_	_	_	_	_	_	
+21-16	867-881	personligheten	_	_	_	_	_	_	
+21-17	881-882	.	_	_	_	_	_	_	
+
+#Text=Efter Gudryn Schymans utstrålning och röda klackar behövs det något extra.
+22-1	883-888	Efter	_	_	_	_	_	_	
+22-2	889-895	Gudryn	_	_	_	_	_	_	
+22-3	896-904	Schymans	_	_	_	_	_	_	
+22-4	905-916	utstrålning	_	_	_	_	_	_	
+22-5	917-920	och	_	_	_	_	_	_	
+22-6	921-925	röda	_	_	_	_	_	_	
+22-7	926-933	klackar	_	_	_	_	_	_	
+22-8	934-940	behövs	_	_	_	_	_	_	
+22-9	941-944	det	_	_	_	_	_	_	
+22-10	945-950	något	_	_	_	_	_	_	
+22-11	951-956	extra	_	_	_	_	_	_	
+22-12	956-957	.	_	_	_	_	_	_	
+
+#Text=Det räcker inte med ett klämkäckt utrop att han gillar Djurgården.
+23-1	958-961	Det	_	Target[4]	23-5[9]	false[4]	2[4]	_	
+23-2	962-968	räcker	_	Target[4]	23-5[9]	false[4]	2[4]	_	
+23-3	969-973	inte	_	Target[4]	23-5[9]	false[4]	2[4]	_	
+23-4	974-977	med	_	Target[4]	23-5[9]	false[4]	2[4]	_	
+23-5	978-981	ett	*[9]	_	_	_	_	_	
+23-6	982-991	klämkäckt	*[9]	_	_	_	_	_	
+23-7	992-997	utrop	*[9]	_	_	_	_	_	
+23-8	998-1001	att	*[9]	_	_	_	_	_	
+23-9	1002-1005	han	*[9]	_	_	_	_	_	
+23-10	1006-1012	gillar	*[9]	_	_	_	_	_	
+23-11	1013-1023	Djurgården	*[9]	_	_	_	_	_	
+23-12	1023-1024	.	_	_	_	_	_	_	
+
+#Text=Kanske har ni läsare några bra råd till Lars Ohly.
+24-1	1025-1031	Kanske	_	_	_	_	_	_	
+24-2	1032-1035	har	_	_	_	_	_	_	
+24-3	1036-1038	ni	_	_	_	_	_	_	
+24-4	1039-1045	läsare	_	_	_	_	_	_	
+24-5	1046-1051	några	*[10]	Target[5]	24-5[10]	false[5]	4[5]	_	
+24-6	1052-1055	bra	*[10]	Target[5]	24-5[10]	false[5]	4[5]	_	
+24-7	1056-1059	råd	*[10]	Target[5]	24-5[10]	false[5]	4[5]	_	
+24-8	1060-1064	till	_	_	_	_	_	_	
+24-9	1065-1069	Lars	_	_	_	_	_	_	
+24-10	1070-1074	Ohly	_	_	_	_	_	_	
+24-11	1074-1075	.	_	_	_	_	_	_	
+
+#Text=Mejla dem till oss på [email protected].
+25-1	1076-1081	Mejla	_	_	_	_	_	_	
+25-2	1082-1085	dem	_	_	_	_	_	_	
+25-3	1086-1090	till	_	_	_	_	_	_	
+25-4	1091-1094	oss	_	_	_	_	_	_	
+25-5	1095-1097	på	_	_	_	_	_	_	
+25-6	1098-1099	[	_	_	_	_	_	_	
+25-7	1099-1104	email	_	_	_	_	_	_	
+25-8	1105-1114	protected	_	_	_	_	_	_	
+25-9	1114-1115	]	_	_	_	_	_	_	
+25-10	1115-1116	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1118-1119	#	_	_	_	_	_	_	
+26-2	1119-1120	P	_	_	_	_	_	_	
+26-3	1121-1124	IMM	_	_	_	_	_	_	
+26-4	1124-1125	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+27-1	1127-1132	Lotta	_	_	_	_	_	_	
+27-2	1133-1140	Gröning	_	_	_	_	_	_	
+27-3	1140-1141	.	_	_	_	_	_	_	

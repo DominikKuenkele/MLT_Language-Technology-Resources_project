@@ -1,0 +1,1062 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Bonus ingen hjälp för akademiker.
+3-1	18-23	Bonus	*	_	_	_	_	_	_	
+3-2	24-29	ingen	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	30-35	hjälp	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	36-39	för	_	_	_	_	_	_	_	
+3-5	40-50	akademiker	_	_	_	_	_	_	_	
+3-6	50-51	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	_	_	_	_	
+4-4	59-60	.	_	_	_	_	_	_	_	
+
+#Text=Om invandrade samhällsvetare ska kunna framgångsrikt integreras och få jobb efter kompetens krävs en undervisning i svenska på en helt annan nivå än vad som erbjuds i dag.
+5-1	62-64	Om	_	_	_	_	_	_	_	
+5-2	65-75	invandrade	_	_	_	_	_	_	_	
+5-3	76-90	samhällsvetare	_	_	_	_	_	_	_	
+5-4	91-94	ska	_	_	_	_	_	_	_	
+5-5	95-100	kunna	_	_	_	_	_	_	_	
+5-6	101-114	framgångsrikt	_	Target[2]	5-9[21]	false[2]	4[2]	_	_	
+5-7	115-125	integreras	_	Target[2]	5-9[21]	false[2]	4[2]	_	_	
+5-8	126-129	och	_	_	_	_	_	_	_	
+5-9	130-132	få	*[21]	_	_	_	_	_	_	
+5-10	133-137	jobb	*[21]	_	_	_	_	_	_	
+5-11	138-143	efter	*[21]	_	_	_	_	_	_	
+5-12	144-153	kompetens	*[21]	_	_	_	_	_	_	
+5-13	154-159	krävs	_	_	_	_	_	_	_	
+5-14	160-162	en	_	_	_	_	_	_	_	
+5-15	163-175	undervisning	_	_	_	_	_	_	_	
+5-16	176-177	i	_	_	_	_	_	_	_	
+5-17	178-185	svenska	_	_	_	_	_	_	_	
+5-18	186-188	på	_	_	_	_	_	_	_	
+5-19	189-191	en	_	_	_	_	_	_	_	
+5-20	192-196	helt	_	_	_	_	_	_	_	
+5-21	197-202	annan	_	_	_	_	_	_	_	
+5-22	203-207	nivå	_	_	_	_	_	_	_	
+5-23	208-210	än	_	_	_	_	_	_	_	
+5-24	211-214	vad	_	_	_	_	_	_	_	
+5-25	215-218	som	_	_	_	_	_	_	_	
+5-26	219-226	erbjuds	_	_	_	_	_	_	_	
+5-27	227-228	i	_	_	_	_	_	_	_	
+5-28	229-232	dag	_	_	_	_	_	_	_	
+5-29	232-233	.	_	_	_	_	_	_	_	
+
+#Text=Den bonus som regeringen väntas föreslå hjälper inte dessa personer, skriver Göran Arrius, ordförande i Jusek.
+6-1	234-237	Den	*[22]	_	_	_	_	_	_	
+6-2	238-243	bonus	*[22]	_	_	_	_	_	_	
+6-3	244-247	som	*[22]	_	_	_	_	_	_	
+6-4	248-258	regeringen	*[22]	_	_	_	_	_	_	
+6-5	259-265	väntas	*[22]	_	_	_	_	_	_	
+6-6	266-273	föreslå	*[22]	_	_	_	_	_	_	
+6-7	274-281	hjälper	_	Target[3]	6-1[22]	false[3]	2[3]	_	_	
+6-8	282-286	inte	_	Target[3]	6-1[22]	false[3]	2[3]	_	_	
+6-9	287-292	dessa	_	_	_	_	_	_	_	
+6-10	293-301	personer	_	_	_	_	_	_	_	
+6-11	301-302	,	_	_	_	_	_	_	_	
+6-12	303-310	skriver	_	_	_	_	_	_	_	
+6-13	311-316	Göran	_	_	_	_	_	_	_	
+6-14	317-323	Arrius	_	_	_	_	_	_	_	
+6-15	323-324	,	_	_	_	_	_	_	_	
+6-16	325-335	ordförande	_	_	_	_	_	_	_	
+6-17	336-337	i	_	_	_	_	_	_	_	
+6-18	338-343	Jusek	_	_	_	_	_	_	_	
+6-19	343-344	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	346-347	#	_	_	_	_	_	_	_	
+7-2	347-348	P	_	_	_	_	_	_	_	
+7-3	349-352	IMM	_	_	_	_	_	_	_	
+7-4	352-353	.	_	_	_	_	_	_	_	
+
+#Text=Inom kort kommer regeringen att föreslå att invandrare som klarar svenskundervisning för invandrare, sfi, inom en viss tid ska få en bonus.
+8-1	355-359	Inom	_	_	_	_	_	_	_	
+8-2	360-364	kort	_	_	_	_	_	_	_	
+8-3	365-371	kommer	_	_	_	_	_	_	_	
+8-4	372-382	regeringen	_	_	_	_	_	_	_	
+8-5	383-386	att	_	_	_	_	_	_	_	
+8-6	387-394	föreslå	_	_	_	_	_	_	_	
+8-7	395-398	att	_	_	_	_	_	_	_	
+8-8	399-409	invandrare	_	_	_	_	_	_	_	
+8-9	410-413	som	_	_	_	_	_	_	_	
+8-10	414-420	klarar	_	_	_	_	_	_	_	
+8-11	421-439	svenskundervisning	_	_	_	_	_	_	_	
+8-12	440-443	för	_	_	_	_	_	_	_	
+8-13	444-454	invandrare	_	_	_	_	_	_	_	
+8-14	454-455	,	_	_	_	_	_	_	_	
+8-15	456-459	sfi	_	_	_	_	_	_	_	
+8-16	459-460	,	_	_	_	_	_	_	_	
+8-17	461-465	inom	_	_	_	_	_	_	_	
+8-18	466-468	en	_	_	_	_	_	_	_	
+8-19	469-473	viss	_	_	_	_	_	_	_	
+8-20	474-477	tid	_	_	_	_	_	_	_	
+8-21	478-481	ska	_	_	_	_	_	_	_	
+8-22	482-484	få	_	_	_	_	_	_	_	
+8-23	485-487	en	_	_	_	_	_	_	_	
+8-24	488-493	bonus	_	_	_	_	_	_	_	
+8-25	493-494	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett förslag som missar själva målet med integrationspolitiken, i vart fall för våra medlemsgrupper.
+9-1	495-498	Det	_	_	_	_	_	_	_	
+9-2	499-501	är	_	_	_	_	_	_	_	
+9-3	502-505	ett	*[23]	_	_	_	_	_	_	
+9-4	506-513	förslag	*[23]	_	_	_	_	_	_	
+9-5	514-517	som	_	_	_	_	_	_	_	
+9-6	518-524	missar	_	Target[4]	9-3[23]	false[4]	2[4]	_	_	
+9-7	525-531	själva	_	Target[4]	9-3[23]	false[4]	2[4]	_	_	
+9-8	532-537	målet	_	Target[4]	9-3[23]	false[4]	2[4]	_	_	
+9-9	538-541	med	_	_	_	_	_	_	_	
+9-10	542-563	integrationspolitiken	_	_	_	_	_	_	_	
+9-11	563-564	,	_	_	_	_	_	_	_	
+9-12	565-566	i	_	_	_	_	_	_	_	
+9-13	567-571	vart	_	_	_	_	_	_	_	
+9-14	572-576	fall	_	_	_	_	_	_	_	
+9-15	577-580	för	_	_	_	_	_	_	_	
+9-16	581-585	våra	_	_	_	_	_	_	_	
+9-17	586-600	medlemsgrupper	_	_	_	_	_	_	_	
+9-18	600-601	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	603-604	#	_	_	_	_	_	_	_	
+10-2	604-605	P	_	_	_	_	_	_	_	
+10-3	606-609	IMM	_	_	_	_	_	_	_	
+10-4	609-610	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	612-615	Det	_	_	_	_	_	_	_	
+11-2	616-619	här	_	_	_	_	_	_	_	
+11-3	620-622	är	_	_	_	_	_	_	_	
+11-4	623-625	en	_	_	_	_	_	_	_	
+11-5	626-640	argumenterande	_	_	_	_	_	_	_	
+11-6	641-645	text	_	_	_	_	_	_	_	
+11-7	646-649	med	_	_	_	_	_	_	_	
+11-8	650-655	syfte	_	_	_	_	_	_	_	
+11-9	656-659	att	_	_	_	_	_	_	_	
+11-10	660-667	påverka	_	_	_	_	_	_	_	
+11-11	667-668	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	669-678	Åsikterna	_	_	_	_	_	_	_	
+12-2	679-682	som	_	_	_	_	_	_	_	
+12-3	683-691	uttrycks	_	_	_	_	_	_	_	
+12-4	692-694	är	_	_	_	_	_	_	_	
+12-5	695-706	skribentens	_	_	_	_	_	_	_	
+12-6	707-711	egna	_	_	_	_	_	_	_	
+12-7	711-712	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	714-715	#	_	_	_	_	_	_	_	
+13-2	715-716	P	_	_	_	_	_	_	_	
+13-3	717-720	IMM	_	_	_	_	_	_	_	
+13-4	720-721	.	_	_	_	_	_	_	_	
+
+#Text=Bakgrunden är att en bra svenskundervisning är central för att invandrare ska komma in på arbetsmarknaden.
+14-1	723-733	Bakgrunden	_	_	_	_	_	_	_	
+14-2	734-736	är	_	_	_	_	_	_	_	
+14-3	737-740	att	_	_	_	_	_	_	_	
+14-4	741-743	en	*[24]	_	_	_	_	_	_	
+14-5	744-747	bra	*[24]	Target	14-6[25]	false	4	_	_	
+14-6	748-766	svenskundervisning	*[24]|*[25]	_	_	_	_	_	_	
+14-7	767-769	är	_	Target[5]	14-4[24]	false[5]	4[5]	_	_	
+14-8	770-777	central	_	Target[5]	14-4[24]	false[5]	4[5]	_	_	
+14-9	778-781	för	_	_	_	_	_	_	_	
+14-10	782-785	att	_	_	_	_	_	_	_	
+14-11	786-796	invandrare	_	_	_	_	_	_	_	
+14-12	797-800	ska	_	_	_	_	_	_	_	
+14-13	801-806	komma	_	_	_	_	_	_	_	
+14-14	807-809	in	_	_	_	_	_	_	_	
+14-15	810-812	på	_	_	_	_	_	_	_	
+14-16	813-828	arbetsmarknaden	_	_	_	_	_	_	_	
+14-17	828-829	.	_	_	_	_	_	_	_	
+
+#Text=Men med förslaget görs hela frågan om integration och svenskkunskaper till en fråga om individuellt ansvar och förmåga.
+15-1	830-833	Men	_	_	_	_	_	_	_	
+15-2	834-837	med	_	_	_	_	_	_	_	
+15-3	838-847	förslaget	_	_	_	_	_	_	_	
+15-4	848-852	görs	_	_	_	_	_	_	_	
+15-5	853-857	hela	_	_	_	_	_	_	_	
+15-6	858-864	frågan	_	_	_	_	_	_	_	
+15-7	865-867	om	_	_	_	_	_	_	_	
+15-8	868-879	integration	_	_	_	_	_	_	_	
+15-9	880-883	och	_	_	_	_	_	_	_	
+15-10	884-899	svenskkunskaper	_	_	_	_	_	_	_	
+15-11	900-904	till	_	_	_	_	_	_	_	
+15-12	905-907	en	_	_	_	_	_	_	_	
+15-13	908-913	fråga	_	_	_	_	_	_	_	
+15-14	914-916	om	_	_	_	_	_	_	_	
+15-15	917-929	individuellt	_	_	_	_	_	_	_	
+15-16	930-936	ansvar	_	_	_	_	_	_	_	
+15-17	937-940	och	_	_	_	_	_	_	_	
+15-18	941-948	förmåga	_	_	_	_	_	_	_	
+15-19	948-949	.	_	_	_	_	_	_	_	
+
+#Text=Problemet i dag är vilken utbildning som erbjuds och hur väl den är avpassad till den enskildes behov.
+16-1	950-959	Problemet	_	Target	16-5[26]	false	2	_	_	
+16-2	960-961	i	_	_	_	_	_	_	_	
+16-3	962-965	dag	_	_	_	_	_	_	_	
+16-4	966-968	är	_	_	_	_	_	_	_	
+16-5	969-975	vilken	*[26]	_	_	_	_	_	_	
+16-6	976-986	utbildning	*[26]	_	_	_	_	_	_	
+16-7	987-990	som	*[26]	_	_	_	_	_	_	
+16-8	991-998	erbjuds	*[26]	_	_	_	_	_	_	
+16-9	999-1002	och	*[26]	_	_	_	_	_	_	
+16-10	1003-1006	hur	*[26]	_	_	_	_	_	_	
+16-11	1007-1010	väl	*[26]	_	_	_	_	_	_	
+16-12	1011-1014	den	*[26]	_	_	_	_	_	_	
+16-13	1015-1017	är	*[26]	_	_	_	_	_	_	
+16-14	1018-1026	avpassad	*[26]	_	_	_	_	_	_	
+16-15	1027-1031	till	*[26]	_	_	_	_	_	_	
+16-16	1032-1035	den	*[26]	_	_	_	_	_	_	
+16-17	1036-1045	enskildes	*[26]	_	_	_	_	_	_	
+16-18	1046-1051	behov	*[26]	_	_	_	_	_	_	
+16-19	1051-1052	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1054-1055	#	_	_	_	_	_	_	_	
+17-2	1055-1056	P	_	_	_	_	_	_	_	
+17-3	1057-1060	IMM	_	_	_	_	_	_	_	
+17-4	1060-1061	.	_	_	_	_	_	_	_	
+
+#Text=Många nyligen invandrade akademiker, med studier i samhällsvetenskapliga ämnen som juridik, ekonomi och statskunskap, kommer att kvalificera sig för sfi-bonusen.
+18-1	1063-1068	Många	_	_	_	_	_	_	_	
+18-2	1069-1076	nyligen	_	_	_	_	_	_	_	
+18-3	1077-1087	invandrade	_	_	_	_	_	_	_	
+18-4	1088-1098	akademiker	_	_	_	_	_	_	_	
+18-5	1098-1099	,	_	_	_	_	_	_	_	
+18-6	1100-1103	med	_	_	_	_	_	_	_	
+18-7	1104-1111	studier	_	_	_	_	_	_	_	
+18-8	1112-1113	i	_	_	_	_	_	_	_	
+18-9	1114-1135	samhällsvetenskapliga	_	_	_	_	_	_	_	
+18-10	1136-1141	ämnen	_	_	_	_	_	_	_	
+18-11	1142-1145	som	_	_	_	_	_	_	_	
+18-12	1146-1153	juridik	_	_	_	_	_	_	_	
+18-13	1153-1154	,	_	_	_	_	_	_	_	
+18-14	1155-1162	ekonomi	_	_	_	_	_	_	_	
+18-15	1163-1166	och	_	_	_	_	_	_	_	
+18-16	1167-1179	statskunskap	_	_	_	_	_	_	_	
+18-17	1179-1180	,	_	_	_	_	_	_	_	
+18-18	1181-1187	kommer	_	_	_	_	_	_	_	
+18-19	1188-1191	att	_	_	_	_	_	_	_	
+18-20	1192-1203	kvalificera	_	_	_	_	_	_	_	
+18-21	1204-1207	sig	_	_	_	_	_	_	_	
+18-22	1208-1211	för	_	_	_	_	_	_	_	
+18-23	1212-1223	sfi-bonusen	_	_	_	_	_	_	_	
+18-24	1223-1224	.	_	_	_	_	_	_	_	
+
+#Text=Men detta tar dem inte närmare målet: ett kvalificerat jobb i Sverige.
+19-1	1225-1228	Men	_	_	_	_	_	_	_	
+19-2	1229-1234	detta	_	_	_	_	_	_	_	
+19-3	1235-1238	tar	_	_	_	_	_	_	_	
+19-4	1239-1242	dem	_	_	_	_	_	_	_	
+19-5	1243-1247	inte	_	_	_	_	_	_	_	
+19-6	1248-1255	närmare	_	_	_	_	_	_	_	
+19-7	1256-1261	målet	_	Target	19-9[27]	false	4	_	_	
+19-8	1261-1262	:	_	_	_	_	_	_	_	
+19-9	1263-1266	ett	*[27]	_	_	_	_	_	_	
+19-10	1267-1279	kvalificerat	*[27]	_	_	_	_	_	_	
+19-11	1280-1284	jobb	*[27]	_	_	_	_	_	_	
+19-12	1285-1286	i	*[27]	_	_	_	_	_	_	
+19-13	1287-1294	Sverige	*[27]	_	_	_	_	_	_	
+19-14	1294-1295	.	_	_	_	_	_	_	_	
+
+#Text=Kunskapsnivån och den undervisning som erbjuds är på en för låg nivå.
+20-1	1296-1309	Kunskapsnivån	*[28]	_	_	_	_	_	_	
+20-2	1310-1313	och	*[28]	_	_	_	_	_	_	
+20-3	1314-1317	den	*[28]	_	_	_	_	_	_	
+20-4	1318-1330	undervisning	*[28]	_	_	_	_	_	_	
+20-5	1331-1334	som	*[28]	_	_	_	_	_	_	
+20-6	1335-1342	erbjuds	*[28]	_	_	_	_	_	_	
+20-7	1343-1345	är	_	_	_	_	_	_	_	
+20-8	1346-1348	på	_	_	_	_	_	_	_	
+20-9	1349-1351	en	_	_	_	_	_	_	_	
+20-10	1352-1355	för	_	Target[6]	20-1[28]	false[6]	2[6]	_	_	
+20-11	1356-1359	låg	_	Target[6]|Target[7]	20-1[28]|20-12	false[6]|false[7]	2[6]|2[7]	_	_	
+20-12	1360-1364	nivå	*	Target[6]	20-1[28]	false[6]	2[6]	_	_	
+20-13	1364-1365	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1367-1368	#	_	_[8]	_	false[8]	3[8]	_	_	
+21-2	1368-1369	P	_	_[8]	_	false[8]	3[8]	_	_	
+21-3	1370-1373	IMM	_	_[8]	_	false[8]	3[8]	_	_	
+21-4	1373-1374	.	_	_	_	_	_	_	_	
+
+#Text=Samhället har satsat allt för lite tid och kraft för att samhällsvetare ska få en bra integration.
+22-1	1376-1385	Samhället	_	_	_	_	_	_	_	
+22-2	1386-1389	har	_	_	_	_	_	_	_	
+22-3	1390-1396	satsat	_	_	_	_	_	_	_	
+22-4	1397-1401	allt	_	Target[9]	22-7[29]	false[9]	2[9]	_	_	
+22-5	1402-1405	för	_	Target[9]	22-7[29]	false[9]	2[9]	_	_	
+22-6	1406-1410	lite	_	Target[9]	22-7[29]	false[9]	2[9]	_	_	
+22-7	1411-1414	tid	*[29]	_	_	_	_	_	_	
+22-8	1415-1418	och	*[29]	_	_	_	_	_	_	
+22-9	1419-1424	kraft	*[29]	_	_	_	_	_	_	
+22-10	1425-1428	för	_	_	_	_	_	_	_	
+22-11	1429-1432	att	_	_	_	_	_	_	_	
+22-12	1433-1447	samhällsvetare	_	_	_	_	_	_	_	
+22-13	1448-1451	ska	_	_	_	_	_	_	_	
+22-14	1452-1454	få	_	_	_	_	_	_	_	
+22-15	1455-1457	en	_	_	_	_	_	_	_	
+22-16	1458-1461	bra	_	_	_	_	_	_	_	
+22-17	1462-1473	integration	_	_	_	_	_	_	_	
+22-18	1473-1474	.	_	_	_	_	_	_	_	
+
+#Text=Därmed förlorar Sverige värdefull kunskap.
+23-1	1475-1481	Därmed	_	_	_	_	_	_	_	
+23-2	1482-1490	förlorar	_	_	_	_	_	_	_	
+23-3	1491-1498	Sverige	_	_	_	_	_	_	_	
+23-4	1499-1508	värdefull	_	Target	23-5	false	4	_	_	
+23-5	1509-1516	kunskap	*	_	_	_	_	_	_	
+23-6	1516-1517	.	_	_	_	_	_	_	_	
+
+#Text=Om regeringen håller kvar vid sitt remissförslag kommer ansvaret för att klara studierna att läggas på den enskilda individen.
+24-1	1518-1520	Om	_	_	_	_	_	_	_	
+24-2	1521-1531	regeringen	_	_	_	_	_	_	_	
+24-3	1532-1538	håller	_	_	_	_	_	_	_	
+24-4	1539-1543	kvar	_	_	_	_	_	_	_	
+24-5	1544-1547	vid	_	_	_	_	_	_	_	
+24-6	1548-1552	sitt	_	_	_	_	_	_	_	
+24-7	1553-1566	remissförslag	_	_	_	_	_	_	_	
+24-8	1567-1573	kommer	_	_	_	_	_	_	_	
+24-9	1574-1582	ansvaret	*[30]	_	_	_	_	_	25-2[0_30]	
+24-10	1583-1586	för	*[30]	_	_	_	_	_	_	
+24-11	1587-1590	att	*[30]	_	_	_	_	_	_	
+24-12	1591-1596	klara	*[30]	_	_	_	_	_	_	
+24-13	1597-1606	studierna	*[30]	_	_	_	_	_	_	
+24-14	1607-1610	att	*[30]	_	_	_	_	_	_	
+24-15	1611-1617	läggas	*[30]	_	_	_	_	_	_	
+24-16	1618-1620	på	*[30]	_	_	_	_	_	_	
+24-17	1621-1624	den	*[30]	_	_	_	_	_	_	
+24-18	1625-1633	enskilda	*[30]	_	_	_	_	_	_	
+24-19	1634-1643	individen	*[30]	_	_	_	_	_	_	
+24-20	1643-1644	.	_	_	_	_	_	_	_	
+
+#Text=Men det kommer inte att förbättra undervisningskvalitén.
+25-1	1645-1648	Men	_	_	_	_	_	_	_	
+25-2	1649-1652	det	*	_	_	_	_	_	_	
+25-3	1653-1659	kommer	_	Target[10]	25-2	false[10]	2[10]	_	_	
+25-4	1660-1664	inte	_	Target[10]	25-2	false[10]	2[10]	_	_	
+25-5	1665-1668	att	_	Target[10]	25-2	false[10]	2[10]	_	_	
+25-6	1669-1678	förbättra	_	Target[10]	25-2	false[10]	2[10]	_	_	
+25-7	1679-1700	undervisningskvalitén	_	_	_	_	_	_	_	
+25-8	1700-1701	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1703-1704	#	_	_[11]	_	false[11]	3[11]	_	_	
+26-2	1704-1705	P	_	_[11]	_	false[11]	3[11]	_	_	
+26-3	1706-1709	IMM	_	_[11]	_	false[11]	3[11]	_	_	
+26-4	1709-1710	.	_	_	_	_	_	_	_	
+
+#Text=Invandrarakademiker har svårare att få arbete än svenskfödda akademiker.
+27-1	1712-1731	Invandrarakademiker	_	_	_	_	_	_	_	
+27-2	1732-1735	har	_	_	_	_	_	_	_	
+27-3	1736-1743	svårare	_	_	_	_	_	_	_	
+27-4	1744-1747	att	_	_	_	_	_	_	_	
+27-5	1748-1750	få	_	_	_	_	_	_	_	
+27-6	1751-1757	arbete	_	_	_	_	_	_	_	
+27-7	1758-1760	än	_	_	_	_	_	_	_	
+27-8	1761-1772	svenskfödda	_	_	_	_	_	_	_	
+27-9	1773-1783	akademiker	_	_	_	_	_	_	_	
+27-10	1783-1784	.	_	_	_	_	_	_	_	
+
+#Text=Invandrare med samhällsvetenskaplig utbildning har ännu svårare än andra akademiker med utländsk bakgrund.
+28-1	1785-1795	Invandrare	_	_	_	_	_	_	_	
+28-2	1796-1799	med	_	_	_	_	_	_	_	
+28-3	1800-1820	samhällsvetenskaplig	_	_	_	_	_	_	_	
+28-4	1821-1831	utbildning	_	_	_	_	_	_	_	
+28-5	1832-1835	har	_	_	_	_	_	_	_	
+28-6	1836-1840	ännu	_	Target	28-7	false	2	_	_	
+28-7	1841-1848	svårare	*	_	_	_	_	_	_	
+28-8	1849-1851	än	_	_	_	_	_	_	_	
+28-9	1852-1857	andra	_	_	_	_	_	_	_	
+28-10	1858-1868	akademiker	_	_	_	_	_	_	_	
+28-11	1869-1872	med	_	_	_	_	_	_	_	
+28-12	1873-1881	utländsk	_	_	_	_	_	_	_	
+28-13	1882-1890	bakgrund	_	_	_	_	_	_	_	
+28-14	1890-1891	.	_	_	_	_	_	_	_	
+
+#Text=Enligt en SCB-undersökning för några år sedan hade bara 31 procent av de invandrade samhällsvetarna ett jobb i linje med sin utbildning, mot 70 procent av samhällsvetarna med svensk bakgrund.
+29-1	1892-1898	Enligt	_	_	_	_	_	_	_	
+29-2	1899-1901	en	_	_	_	_	_	_	_	
+29-3	1902-1918	SCB-undersökning	_	_	_	_	_	_	_	
+29-4	1919-1922	för	_	_	_	_	_	_	_	
+29-5	1923-1928	några	_	_	_	_	_	_	_	
+29-6	1929-1931	år	_	_	_	_	_	_	_	
+29-7	1932-1937	sedan	_	_	_	_	_	_	_	
+29-8	1938-1942	hade	_	_	_	_	_	_	_	
+29-9	1943-1947	bara	_	_	_	_	_	_	_	
+29-10	1948-1950	31	_	_	_	_	_	_	_	
+29-11	1951-1958	procent	_	_	_	_	_	_	_	
+29-12	1959-1961	av	_	_	_	_	_	_	_	
+29-13	1962-1964	de	_	_	_	_	_	_	_	
+29-14	1965-1975	invandrade	_	_	_	_	_	_	_	
+29-15	1976-1991	samhällsvetarna	_	_	_	_	_	_	_	
+29-16	1992-1995	ett	_	_	_	_	_	_	_	
+29-17	1996-2000	jobb	_	_	_	_	_	_	_	
+29-18	2001-2002	i	_	_	_	_	_	_	_	
+29-19	2003-2008	linje	_	_	_	_	_	_	_	
+29-20	2009-2012	med	_	_	_	_	_	_	_	
+29-21	2013-2016	sin	_	_	_	_	_	_	_	
+29-22	2017-2027	utbildning	_	_	_	_	_	_	_	
+29-23	2027-2028	,	_	_	_	_	_	_	_	
+29-24	2029-2032	mot	_	_	_	_	_	_	_	
+29-25	2033-2035	70	_	_	_	_	_	_	_	
+29-26	2036-2043	procent	_	_	_	_	_	_	_	
+29-27	2044-2046	av	_	_	_	_	_	_	_	
+29-28	2047-2062	samhällsvetarna	_	_	_	_	_	_	_	
+29-29	2063-2066	med	_	_	_	_	_	_	_	
+29-30	2067-2073	svensk	_	_	_	_	_	_	_	
+29-31	2074-2082	bakgrund	_	_	_	_	_	_	_	
+29-32	2082-2083	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2085-2086	#	_	_[12]	_	false[12]	3[12]	_	_	
+30-2	2086-2087	P	_	_[12]	_	false[12]	3[12]	_	_	
+30-3	2088-2091	IMM	_	_[12]	_	false[12]	3[12]	_	_	
+30-4	2091-2092	.	_	_	_	_	_	_	_	
+
+#Text=Ingenting tyder på att det har blivit bättre.
+31-1	2094-2103	Ingenting	_	_	_	_	_	_	_	
+31-2	2104-2109	tyder	_	_	_	_	_	_	_	
+31-3	2110-2112	på	_	_	_	_	_	_	_	
+31-4	2113-2116	att	_	_	_	_	_	_	_	
+31-5	2117-2120	det	_	_	_	_	_	_	_	
+31-6	2121-2124	har	_	_	_	_	_	_	_	
+31-7	2125-2131	blivit	_	_	_	_	_	_	_	
+31-8	2132-2138	bättre	_	_	_	_	_	_	_	
+31-9	2138-2139	.	_	_	_	false	2	_	_	
+
+#Text=Siffror som Jusek tagit fram visar att 2006 – senaste året det finns uppgifter från – hade 36 procent av de invandrade samhällsvetarna ett arbete som krävde högskoleutbildning.
+32-1	2140-2147	Siffror	_	_	_	_	_	_	_	
+32-2	2148-2151	som	_	_	_	_	_	_	_	
+32-3	2152-2157	Jusek	_	_	_	_	_	_	_	
+32-4	2158-2163	tagit	_	_	_	_	_	_	_	
+32-5	2164-2168	fram	_	_	_	_	_	_	_	
+32-6	2169-2174	visar	_	_	_	_	_	_	_	
+32-7	2175-2178	att	_	_	_	_	_	_	_	
+32-8	2179-2183	2006	_	_	_	_	_	_	_	
+32-9	2184-2185	–	_	_	_	_	_	_	_	
+32-10	2186-2193	senaste	_	_	_	_	_	_	_	
+32-11	2194-2198	året	_	_	_	_	_	_	_	
+32-12	2199-2202	det	_	_	_	_	_	_	_	
+32-13	2203-2208	finns	_	_	_	_	_	_	_	
+32-14	2209-2218	uppgifter	_	_	_	_	_	_	_	
+32-15	2219-2223	från	_	_	_	_	_	_	_	
+32-16	2224-2225	–	_	_	_	_	_	_	_	
+32-17	2226-2230	hade	_	_	_	_	_	_	_	
+32-18	2231-2233	36	_	_	_	_	_	_	_	
+32-19	2234-2241	procent	_	_	_	_	_	_	_	
+32-20	2242-2244	av	_	_	_	_	_	_	_	
+32-21	2245-2247	de	_	_	_	_	_	_	_	
+32-22	2248-2258	invandrade	_	_	_	_	_	_	_	
+32-23	2259-2274	samhällsvetarna	_	_	_	_	_	_	_	
+32-24	2275-2278	ett	_	_	_	_	_	_	_	
+32-25	2279-2285	arbete	_	_	_	_	_	_	_	
+32-26	2286-2289	som	_	_	_	_	_	_	_	
+32-27	2290-2296	krävde	_	_	_	_	_	_	_	
+32-28	2297-2315	högskoleutbildning	_	_	_	_	_	_	_	
+32-29	2315-2316	.	_	_	_	_	_	_	_	
+
+#Text=Siffran ska jämföras med 78 procent av dem med svensk bakgrund.
+33-1	2317-2324	Siffran	_	_	_	_	_	_	_	
+33-2	2325-2328	ska	_	_	_	_	_	_	_	
+33-3	2329-2337	jämföras	_	_	_	_	_	_	_	
+33-4	2338-2341	med	_	_	_	_	_	_	_	
+33-5	2342-2344	78	_	_	_	_	_	_	_	
+33-6	2345-2352	procent	_	_	_	_	_	_	_	
+33-7	2353-2355	av	_	_	_	_	_	_	_	
+33-8	2356-2359	dem	_	_	_	_	_	_	_	
+33-9	2360-2363	med	_	_	_	_	_	_	_	
+33-10	2364-2370	svensk	_	_	_	_	_	_	_	
+33-11	2371-2379	bakgrund	_	_	_	_	_	_	_	
+33-12	2379-2380	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2382-2383	#	_	_	_	_	_	_	_	
+34-2	2383-2384	P	_	_	_	_	_	_	_	
+34-3	2385-2388	IMM	_	_	_	_	_	_	_	
+34-4	2388-2389	.	_	_	_	_	_	_	_	
+
+#Text=Samma år var även inkomsten betydligt sämre för akademiker födda utomlands jämfört med svenskfödda.
+35-1	2391-2396	Samma	_	_	_	_	_	_	_	
+35-2	2397-2399	år	_	_	_	_	_	_	_	
+35-3	2400-2403	var	_	_	_	false	2	_	_	
+35-4	2404-2408	även	_	_	_	_	_	_	_	
+35-5	2409-2418	inkomsten	*	_	_	_	_	_	_	
+35-6	2419-2428	betydligt	_	Target[13]	35-5	false[13]	2[13]	35-3[0_13]	_	
+35-7	2429-2434	sämre	_	Target[13]	35-5	false[13]	2[13]	_	_	
+35-8	2435-2438	för	_	_	_	_	_	_	_	
+35-9	2439-2449	akademiker	_	_	_	_	_	_	_	
+35-10	2450-2455	födda	_	_	_	_	_	_	_	
+35-11	2456-2465	utomlands	_	_	_	_	_	_	_	
+35-12	2466-2473	jämfört	_	_	_	_	_	_	_	
+35-13	2474-2477	med	_	_	_	_	_	_	_	
+35-14	2478-2489	svenskfödda	_	_	_	_	_	_	_	
+35-15	2489-2490	.	_	_	_	_	_	_	_	
+
+#Text=Ungefär 70 procent av de invandrade samhällsvetarna hade en deklarerad årsinkomst på högst 240 000 kronor, jämfört med 40 procent av dem med svensk bakgrund.
+36-1	2491-2498	Ungefär	_	_	_	_	_	_	_	
+36-2	2499-2501	70	_	_	_	_	_	_	_	
+36-3	2502-2509	procent	_	_	_	_	_	_	_	
+36-4	2510-2512	av	_	_	_	_	_	_	_	
+36-5	2513-2515	de	_	_	_	_	_	_	_	
+36-6	2516-2526	invandrade	_	_	_	_	_	_	_	
+36-7	2527-2542	samhällsvetarna	_	_	_	_	_	_	_	
+36-8	2543-2547	hade	_	_	_	_	_	_	_	
+36-9	2548-2550	en	_	_	_	_	_	_	_	
+36-10	2551-2561	deklarerad	_	_	_	_	_	_	_	
+36-11	2562-2572	årsinkomst	_	_	_	_	_	_	_	
+36-12	2573-2575	på	_	_	_	_	_	_	_	
+36-13	2576-2581	högst	_	_	_	_	_	_	_	
+36-14	2582-2585	240	_	_	_	_	_	_	_	
+36-15	2586-2589	000	_	_	_	_	_	_	_	
+36-16	2590-2596	kronor	_	_	_	_	_	_	_	
+36-17	2596-2597	,	_	_	_	_	_	_	_	
+36-18	2598-2605	jämfört	_	_	_	_	_	_	_	
+36-19	2606-2609	med	_	_	_	_	_	_	_	
+36-20	2610-2612	40	_	_	_	_	_	_	_	
+36-21	2613-2620	procent	_	_	_	_	_	_	_	
+36-22	2621-2623	av	_	_	_	_	_	_	_	
+36-23	2624-2627	dem	_	_	_	_	_	_	_	
+36-24	2628-2631	med	_	_	_	_	_	_	_	
+36-25	2632-2638	svensk	_	_	_	_	_	_	_	
+36-26	2639-2647	bakgrund	_	_	_	_	_	_	_	
+36-27	2647-2648	.	_	_	_	_	_	_	_	
+
+#Text=Omvänt hade bara var tionde av de invandrade en inkomst högre än 400 000 kronor, medan mer än var fjärde av övriga hade det.
+37-1	2649-2655	Omvänt	_	_	_	_	_	_	_	
+37-2	2656-2660	hade	_	_	_	_	_	_	_	
+37-3	2661-2665	bara	_	Target	37-4[31]	false	2	_	_	
+37-4	2666-2669	var	*[31]	_	_	_	_	_	_	
+37-5	2670-2676	tionde	*[31]	_	_	_	_	_	_	
+37-6	2677-2679	av	_	_	_	_	_	_	_	
+37-7	2680-2682	de	_	_	_	_	_	_	_	
+37-8	2683-2693	invandrade	_	_	_	_	_	_	_	
+37-9	2694-2696	en	_	_	_	_	_	_	_	
+37-10	2697-2704	inkomst	_	_	_	_	_	_	_	
+37-11	2705-2710	högre	_	_	_	_	_	_	_	
+37-12	2711-2713	än	_	_	_	_	_	_	_	
+37-13	2714-2717	400	_	_	_	_	_	_	_	
+37-14	2718-2721	000	_	_	_	_	_	_	_	
+37-15	2722-2728	kronor	_	_	_	_	_	_	_	
+37-16	2728-2729	,	_	_	_	_	_	_	_	
+37-17	2730-2735	medan	_	_	_	_	_	_	_	
+37-18	2736-2739	mer	_	_	_	_	_	_	_	
+37-19	2740-2742	än	_	_	_	_	_	_	_	
+37-20	2743-2746	var	_	_	_	_	_	_	_	
+37-21	2747-2753	fjärde	_	_	_	_	_	_	_	
+37-22	2754-2756	av	_	_	_	_	_	_	_	
+37-23	2757-2763	övriga	_	_	_	_	_	_	_	
+37-24	2764-2768	hade	_	_	_	_	_	_	_	
+37-25	2769-2772	det	_	_	_	_	_	_	_	
+37-26	2772-2773	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2775-2776	#	_	_	_	_	_	_	_	
+38-2	2776-2777	P	_	_	_	_	_	_	_	
+38-3	2778-2781	IMM	_	_	_	_	_	_	_	
+38-4	2781-2782	.	_	_	_	_	_	_	_	
+
+#Text=Vi anser att det finns flera viktiga områden där politiken måste förändras.
+39-1	2784-2786	Vi	_	_	_	_	_	_	_	
+39-2	2787-2792	anser	_	_	_	_	_	_	_	
+39-3	2793-2796	att	_	_	_	_	_	_	_	
+39-4	2797-2800	det	_	_	_	_	_	_	_	
+39-5	2801-2806	finns	_	_	_	_	_	_	_	
+39-6	2807-2812	flera	_	_	_	_	_	_	_	
+39-7	2813-2820	viktiga	_	Target[14]|Target[15]	40-6[32]|39-8	false[14]|false[15]	4[14]|4[15]	_	_	
+39-8	2821-2828	områden	*	Target[14]	40-6[32]	false[14]	4[14]	_	_	
+39-9	2829-2832	där	_	_	_	_	_	_	_	
+39-10	2833-2842	politiken	_	_	_	_	_	_	_	
+39-11	2843-2848	måste	_	_	_	_	_	_	_	
+39-12	2849-2858	förändras	_	_	_	_	_	_	_	
+39-13	2858-2859	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar bland annat om utbildningen i svenska, bedömning och validering av utbildning och att erbjuda kompletterande utbildningar.
+40-1	2860-2863	Det	_	_	_	_	_	_	_	
+40-2	2864-2871	handlar	_	_	_	_	_	_	_	
+40-3	2872-2877	bland	_	_	_	_	_	_	_	
+40-4	2878-2883	annat	_	_	_	_	_	_	_	
+40-5	2884-2886	om	_	_	_	_	_	_	_	
+40-6	2887-2899	utbildningen	*[32]	_	_	_	_	_	_	
+40-7	2900-2901	i	*[32]	_	_	_	_	_	_	
+40-8	2902-2909	svenska	*[32]	_	_	_	_	_	_	
+40-9	2909-2910	,	*[32]	_	_	_	_	_	_	
+40-10	2911-2920	bedömning	*[32]	_	_	_	_	_	_	
+40-11	2921-2924	och	*[32]	_	_	_	_	_	_	
+40-12	2925-2935	validering	*[32]	_	_	_	_	_	_	
+40-13	2936-2938	av	*[32]	_	_	_	_	_	_	
+40-14	2939-2949	utbildning	*[32]	_	_	_	_	_	_	
+40-15	2950-2953	och	*[32]	_	_	_	_	_	_	
+40-16	2954-2957	att	*[32]	_	_	_	_	_	_	
+40-17	2958-2965	erbjuda	*[32]	_	_	_	_	_	_	
+40-18	2966-2980	kompletterande	*[32]	_	_	_	_	_	_	
+40-19	2981-2993	utbildningar	*[32]	_	_	_	_	_	_	
+40-20	2993-2994	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2996-2997	#	_	_[16]	_	false[16]	3[16]	_	_	
+41-2	2997-2998	P	_	_[16]	_	false[16]	3[16]	_	_	
+41-3	2999-3002	IMM	_	_[16]	_	false[16]	3[16]	_	_	
+41-4	3002-3003	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens integrationspolitik syftar till att alla så fort som möjligt ska få ett arbete.
+42-1	3005-3016	Regeringens	_	_	_	_	_	_	_	
+42-2	3017-3036	integrationspolitik	_	_	_	_	_	_	_	
+42-3	3037-3043	syftar	_	_	_	_	_	_	_	
+42-4	3044-3048	till	_	_	_	_	_	_	_	
+42-5	3049-3052	att	_	_	_	_	_	_	_	
+42-6	3053-3057	alla	_	_	_	_	_	_	_	
+42-7	3058-3060	så	_	Target[17]	42-12[33]	false[17]	4[17]	_	_	
+42-8	3061-3065	fort	_	Target[17]	42-12[33]	false[17]	4[17]	_	_	
+42-9	3066-3069	som	_	Target[17]	42-12[33]	false[17]	4[17]	_	_	
+42-10	3070-3077	möjligt	_	Target[17]	42-12[33]	false[17]	4[17]	_	_	
+42-11	3078-3081	ska	_	_	_	_	_	_	_	
+42-12	3082-3084	få	*[33]	_	_	_	_	_	_	
+42-13	3085-3088	ett	*[33]	_	_	_	_	_	_	
+42-14	3089-3095	arbete	*[33]	_	_	_	_	_	_	
+42-15	3095-3096	.	_	_	_	_	_	_	_	
+
+#Text=Det är en vällovlig ambition, men fungerar inte för alla.
+43-1	3097-3100	Det	_	_	_	_	_	_	_	
+43-2	3101-3103	är	_	_	_	_	_	_	_	
+43-3	3104-3106	en	_	_	_	_	_	_	_	
+43-4	3107-3116	vällovlig	_	Target	43-5	false	4	_	_	
+43-5	3117-3125	ambition	*	_	_	_	_	_	_	
+43-6	3125-3126	,	_	_	_	_	_	_	_	
+43-7	3127-3130	men	_	_	_	_	_	_	_	
+43-8	3131-3139	fungerar	_	_	_	_	_	_	_	
+43-9	3140-3144	inte	_	_	_	_	_	_	_	
+43-10	3145-3148	för	_	_	_	_	_	_	_	
+43-11	3149-3153	alla	_	_	_	_	_	_	_	
+43-12	3153-3154	.	_	_	_	_	_	_	_	
+
+#Text=Ska en samhällsvetare med invandrarbakgrund få ett arbete som motsvarar sin utbildning krävs i många fall goda kunskaper i svenska.
+44-1	3155-3158	Ska	_	_	_	_	_	_	_	
+44-2	3159-3161	en	_	_	_	_	_	_	_	
+44-3	3162-3176	samhällsvetare	_	_	_	_	_	_	_	
+44-4	3177-3180	med	_	_	_	_	_	_	_	
+44-5	3181-3198	invandrarbakgrund	_	_	_	_	_	_	_	
+44-6	3199-3201	få	_	_	_	_	_	_	_	
+44-7	3202-3205	ett	_	_	_	_	_	_	_	
+44-8	3206-3212	arbete	_	_	_	_	_	_	_	
+44-9	3213-3216	som	_	_	_	_	_	_	_	
+44-10	3217-3226	motsvarar	_	_	_	_	_	_	_	
+44-11	3227-3230	sin	_	_	_	_	_	_	_	
+44-12	3231-3241	utbildning	_	_	_	_	_	_	_	
+44-13	3242-3247	krävs	_	_	_	_	_	_	_	
+44-14	3248-3249	i	_	_	_	_	_	_	_	
+44-15	3250-3255	många	_	_	_	_	_	_	_	
+44-16	3256-3260	fall	_	_	_	_	_	_	_	
+44-17	3261-3265	goda	_	Target	44-18[34]	false	4	_	_	
+44-18	3266-3275	kunskaper	*[34]	_	_	_	_	_	_	
+44-19	3276-3277	i	*[34]	_	_	_	_	_	_	
+44-20	3278-3285	svenska	*[34]	_	_	_	_	_	_	
+44-21	3285-3286	.	_	_	_	_	_	_	_	
+
+#Text=Den precision som en jurist eller handläggare behöver i sin språkbehandling är på en helt annan nivå än för många andra yrkesgrupper.
+45-1	3287-3290	Den	_	_	_	_	_	_	_	
+45-2	3291-3300	precision	_	_	_	_	_	_	_	
+45-3	3301-3304	som	_	_	_	_	_	_	_	
+45-4	3305-3307	en	_	_	_	_	_	_	_	
+45-5	3308-3314	jurist	_	_	_	_	_	_	_	
+45-6	3315-3320	eller	_	_	_	_	_	_	_	
+45-7	3321-3332	handläggare	_	_	_	_	_	_	_	
+45-8	3333-3340	behöver	_	_	_	_	_	_	_	
+45-9	3341-3342	i	_	_	_	_	_	_	_	
+45-10	3343-3346	sin	_	_	_	_	_	_	_	
+45-11	3347-3362	språkbehandling	_	_	_	_	_	_	_	
+45-12	3363-3365	är	_	_	_	_	_	_	_	
+45-13	3366-3368	på	_	_	_	_	_	_	_	
+45-14	3369-3371	en	_	_	_	_	_	_	_	
+45-15	3372-3376	helt	_	_	_	_	_	_	_	
+45-16	3377-3382	annan	_	_	_	_	_	_	_	
+45-17	3383-3387	nivå	_	_	_	_	_	_	_	
+45-18	3388-3390	än	_	_	_	_	_	_	_	
+45-19	3391-3394	för	_	_	_	_	_	_	_	
+45-20	3395-3400	många	_	_	_	_	_	_	_	
+45-21	3401-3406	andra	_	_	_	_	_	_	_	
+45-22	3407-3419	yrkesgrupper	_	_	_	_	_	_	_	
+45-23	3419-3420	.	_	_	_	_	_	_	_	
+
+#Text=Ett snabbt inträde på arbetsmarknaden kan därför bli ett hinder för akademiker att få kvalificerade jobb, genom att de inte ges möjlighet att nå tillräckligt goda språkkunskaper.
+46-1	3421-3424	Ett	*[35]	_	_	_	_	_	_	
+46-2	3425-3431	snabbt	*[35]	_	_	_	_	_	_	
+46-3	3432-3439	inträde	*[35]	_	_	_	_	_	_	
+46-4	3440-3442	på	*[35]	_	_	_	_	_	_	
+46-5	3443-3458	arbetsmarknaden	*[35]	_	_	_	_	_	_	
+46-6	3459-3462	kan	_	_	_	_	_	_	_	
+46-7	3463-3469	därför	_	_	_	_	_	_	_	
+46-8	3470-3473	bli	_	_	_	_	_	_	_	
+46-9	3474-3477	ett	_	_	_	_	_	_	_	
+46-10	3478-3484	hinder	_	Target	46-1[35]	false	2	_	_	
+46-11	3485-3488	för	_	_	_	_	_	_	_	
+46-12	3489-3499	akademiker	_	_	_	_	_	_	_	
+46-13	3500-3503	att	_	_	_	_	_	_	_	
+46-14	3504-3506	få	_	_	_	_	_	_	_	
+46-15	3507-3520	kvalificerade	_	_	_	_	_	_	_	
+46-16	3521-3525	jobb	_	_	_	_	_	_	_	
+46-17	3525-3526	,	_	_	_	_	_	_	_	
+46-18	3527-3532	genom	_	_	_	_	_	_	_	
+46-19	3533-3536	att	_	_	_	_	_	_	_	
+46-20	3537-3539	de	_	_	_	_	_	_	_	
+46-21	3540-3544	inte	_	_	_	_	_	_	_	
+46-22	3545-3548	ges	_	_	_	_	_	_	_	
+46-23	3549-3558	möjlighet	_	_	_	_	_	_	_	
+46-24	3559-3562	att	_	_	_	_	_	_	_	
+46-25	3563-3565	nå	_	_	_	_	_	_	_	
+46-26	3566-3578	tillräckligt	_	_	_	_	_	_	_	
+46-27	3579-3583	goda	_	_	_	_	_	_	_	
+46-28	3584-3598	språkkunskaper	_	_	_	_	_	_	_	
+46-29	3598-3599	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3601-3602	#	_	_	_	_	_	_	_	
+47-2	3602-3603	P	_	_	_	_	_	_	_	
+47-3	3604-3607	IMM	_	_	_	_	_	_	_	
+47-4	3607-3608	.	_	_	_	_	_	_	_	
+
+#Text=Satsningar på svenskundervisning är därför centrala.
+48-1	3610-3620	Satsningar	*[36]	_	_	_	_	_	_	
+48-2	3621-3623	på	*[36]	_	_	_	_	_	_	
+48-3	3624-3642	svenskundervisning	*[36]	_	_	_	_	_	_	
+48-4	3643-3645	är	_	_	_	_	_	_	_	
+48-5	3646-3652	därför	_	_	_	_	_	_	_	
+48-6	3653-3661	centrala	_	Target	48-1[36]	false	4	_	_	
+48-7	3661-3662	.	_	_	_	_	_	_	_	
+
+#Text=De studier som erbjuds i dag är vare sig tillräckligt strukturerade eller syftande till en framtid inom det yrke man är utbildad för.
+49-1	3663-3665	De	*[37]	_	_	_	_	_	_	
+49-2	3666-3673	studier	*[37]	_	_	_	_	_	_	
+49-3	3674-3677	som	*[37]	_	_	_	_	_	_	
+49-4	3678-3685	erbjuds	*[37]	_	_	_	_	_	_	
+49-5	3686-3687	i	*[37]	_	_	_	_	_	_	
+49-6	3688-3691	dag	*[37]	_	_	_	_	_	_	
+49-7	3692-3694	är	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-8	3695-3699	vare	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-9	3700-3703	sig	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-10	3704-3716	tillräckligt	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-11	3717-3730	strukturerade	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-12	3731-3736	eller	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-13	3737-3745	syftande	_	Target[18]	49-1[37]	false[18]	2[18]	_	_	
+49-14	3746-3750	till	_	_	_	_	_	_	_	
+49-15	3751-3753	en	_	_	_	_	_	_	_	
+49-16	3754-3761	framtid	_	_	_	_	_	_	_	
+49-17	3762-3766	inom	_	_	_	_	_	_	_	
+49-18	3767-3770	det	_	_	_	_	_	_	_	
+49-19	3771-3775	yrke	_	_	_	_	_	_	_	
+49-20	3776-3779	man	_	_	_	_	_	_	_	
+49-21	3780-3782	är	_	_	_	_	_	_	_	
+49-22	3783-3791	utbildad	_	_	_	_	_	_	_	
+49-23	3792-3795	för	_	_	_	_	_	_	_	
+49-24	3795-3796	.	_	_	_	_	_	_	_	
+
+#Text=Samhällsvetare måste få en chans att lära sig språket på en betydlig högre nivå än idag.
+50-1	3797-3811	Samhällsvetare	_	_	_	_	_	_	_	
+50-2	3812-3817	måste	_	_	_	_	_	_	_	
+50-3	3818-3820	få	_	_	_	_	_	_	_	
+50-4	3821-3823	en	_	_	_	_	_	_	_	
+50-5	3824-3829	chans	_	_	_	_	_	_	_	
+50-6	3830-3833	att	_	_	_	_	_	_	_	
+50-7	3834-3838	lära	_	_	_	_	_	_	_	
+50-8	3839-3842	sig	_	_	_	_	_	_	_	
+50-9	3843-3850	språket	_	_	_	_	_	_	_	
+50-10	3851-3853	på	_	_	_	_	_	_	_	
+50-11	3854-3856	en	_	_	_	_	_	_	_	
+50-12	3857-3865	betydlig	_	_	_	_	_	_	_	
+50-13	3866-3871	högre	_	_	_	_	_	_	_	
+50-14	3872-3876	nivå	_	_	_	_	_	_	_	
+50-15	3877-3879	än	_	_	_	_	_	_	_	
+50-16	3880-3884	idag	_	_	_	_	_	_	_	
+50-17	3884-3885	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3887-3888	#	_	_	_	_	_	_	_	
+51-2	3888-3889	P	_	_	_	_	_	_	_	
+51-3	3890-3893	IMM	_	_	_	_	_	_	_	
+51-4	3893-3894	.	_	_	_	_	_	_	_	
+
+#Text=De invandrare som läst sin examen i annat land behöver få sin utbildning bedömd i Sverige, så att arbetsgivare kan få veta vad personen har läst och vilka kunskaper han eller hon har.
+52-1	3896-3898	De	_	_	_	_	_	_	_	
+52-2	3899-3909	invandrare	_	_	_	_	_	_	_	
+52-3	3910-3913	som	_	_	_	_	_	_	_	
+52-4	3914-3918	läst	_	_	_	_	_	_	_	
+52-5	3919-3922	sin	_	_	_	_	_	_	_	
+52-6	3923-3929	examen	_	_	_	_	_	_	_	
+52-7	3930-3931	i	_	_	_	_	_	_	_	
+52-8	3932-3937	annat	_	_	_	_	_	_	_	
+52-9	3938-3942	land	_	_	_	_	_	_	_	
+52-10	3943-3950	behöver	_	_	_	_	_	_	_	
+52-11	3951-3953	få	_	_	_	_	_	_	_	
+52-12	3954-3957	sin	_	_	_	_	_	_	_	
+52-13	3958-3968	utbildning	_	_	_	_	_	_	_	
+52-14	3969-3975	bedömd	_	_	_	_	_	_	_	
+52-15	3976-3977	i	_	_	_	_	_	_	_	
+52-16	3978-3985	Sverige	_	_	_	_	_	_	_	
+52-17	3985-3986	,	_	_	_	_	_	_	_	
+52-18	3987-3989	så	_	_	_	_	_	_	_	
+52-19	3990-3993	att	_	_	_	_	_	_	_	
+52-20	3994-4006	arbetsgivare	_	_	_	_	_	_	_	
+52-21	4007-4010	kan	_	_	_	_	_	_	_	
+52-22	4011-4013	få	_	_	_	_	_	_	_	
+52-23	4014-4018	veta	_	_	_	_	_	_	_	
+52-24	4019-4022	vad	_	_	_	_	_	_	_	
+52-25	4023-4031	personen	_	_	_	_	_	_	_	
+52-26	4032-4035	har	_	_	_	_	_	_	_	
+52-27	4036-4040	läst	_	_	_	_	_	_	_	
+52-28	4041-4044	och	_	_	_	_	_	_	_	
+52-29	4045-4050	vilka	_	_	_	_	_	_	_	
+52-30	4051-4060	kunskaper	_	_	_	_	_	_	_	
+52-31	4061-4064	han	_	_	_	_	_	_	_	
+52-32	4065-4070	eller	_	_	_	_	_	_	_	
+52-33	4071-4074	hon	_	_	_	_	_	_	_	
+52-34	4075-4078	har	_	_	_	_	_	_	_	
+52-35	4078-4079	.	_	_	_	_	_	_	_	
+
+#Text=Idag tar det ofta lång tid mellan själva invandringen och att bedömningen, om över huvud taget, blir gjord.
+53-1	4080-4084	Idag	_	_	_	_	_	_	_	
+53-2	4085-4088	tar	_	_	_	_	_	_	_	
+53-3	4089-4092	det	_	_	_	_	_	_	_	
+53-4	4093-4097	ofta	_	_	_	_	_	_	_	
+53-5	4098-4102	lång	_	Target	53-6	false	2	_	_	
+53-6	4103-4106	tid	*	_	_	_	_	_	_	
+53-7	4107-4113	mellan	_	_	_	_	_	_	_	
+53-8	4114-4120	själva	_	_	_	_	_	_	_	
+53-9	4121-4133	invandringen	_	_	_	_	_	_	_	
+53-10	4134-4137	och	_	_	_	_	_	_	_	
+53-11	4138-4141	att	_	_	_	_	_	_	_	
+53-12	4142-4153	bedömningen	_	_	_	_	_	_	_	
+53-13	4153-4154	,	_	_	_	_	_	_	_	
+53-14	4155-4157	om	_	_	_	_	_	_	_	
+53-15	4158-4162	över	_	_	_	_	_	_	_	
+53-16	4163-4168	huvud	_	_	_	_	_	_	_	
+53-17	4169-4174	taget	_	_	_	_	_	_	_	
+53-18	4174-4175	,	_	_	_	_	_	_	_	
+53-19	4176-4180	blir	_	_	_	_	_	_	_	
+53-20	4181-4186	gjord	_	_	_	_	_	_	_	
+53-21	4186-4187	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+54-1	4189-4190	#	_	_	_	_	_	_	_	
+54-2	4190-4191	P	_	_	_	_	_	_	_	
+54-3	4192-4195	IMM	_	_	_	_	_	_	_	
+54-4	4195-4196	.	_	_	_	_	_	_	_	
+
+#Text=För den enskilda individen är det oerhört viktigt att detta sker snabbt.
+55-1	4198-4201	För	_	_	_	_	_	_	_	
+55-2	4202-4205	den	_	_	_	_	_	_	_	
+55-3	4206-4214	enskilda	_	_	_	_	_	_	_	
+55-4	4215-4224	individen	_	_	_	_	_	_	_	
+55-5	4225-4227	är	_	_	_	_	_	_	_	
+55-6	4228-4231	det	_	_	_	_	_	_	_	
+55-7	4232-4239	oerhört	_	_	_	_	_	_	_	
+55-8	4240-4247	viktigt	_	_	_	_	_	_	_	
+55-9	4248-4251	att	_	_	_	_	_	_	_	
+55-10	4252-4257	detta	_	_	_	_	_	_	_	
+55-11	4258-4262	sker	_	_	_	_	_	_	_	
+55-12	4263-4269	snabbt	_	_	_	_	_	_	_	
+55-13	4269-4270	.	_	_	_	_	_	_	_	
+
+#Text=Invandraren behöver också få ett snabbt besked om vilka kompletterande utbildningar han eller hon behöver.
+56-1	4271-4282	Invandraren	_	_	_	_	_	_	_	
+56-2	4283-4290	behöver	_	_	_	_	_	_	_	
+56-3	4291-4296	också	_	_	_	_	_	_	_	
+56-4	4297-4299	få	_	_	_	_	_	_	_	
+56-5	4300-4303	ett	_	_	_	_	_	_	_	
+56-6	4304-4310	snabbt	_	_	_	_	_	_	_	
+56-7	4311-4317	besked	_	_	_	_	_	_	_	
+56-8	4318-4320	om	_	_	_	_	_	_	_	
+56-9	4321-4326	vilka	_	_	_	_	_	_	_	
+56-10	4327-4341	kompletterande	_	_	_	_	_	_	_	
+56-11	4342-4354	utbildningar	_	_	_	_	_	_	_	
+56-12	4355-4358	han	_	_	_	_	_	_	_	
+56-13	4359-4364	eller	_	_	_	_	_	_	_	
+56-14	4365-4368	hon	_	_	_	_	_	_	_	
+56-15	4369-4376	behöver	_	_	_	_	_	_	_	
+56-16	4376-4377	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4379-4380	#	_	_	_	_	_	_	_	
+57-2	4380-4381	P	_	_	_	_	_	_	_	
+57-3	4382-4385	IMM	_	_	_	_	_	_	_	
+57-4	4385-4386	.	_	_	_	_	_	_	_	
+
+#Text=Akademiker måste också få en reell möjlighet att få sina utbildningar och andra kompetenser validerade.
+58-1	4388-4398	Akademiker	*[38]	_	_	_	_	_	59-1[0_38]	
+58-2	4399-4404	måste	*[38]	_	_	_	_	_	_	
+58-3	4405-4410	också	*[38]	_	_	_	_	_	_	
+58-4	4411-4413	få	*[38]	_	_	_	_	_	_	
+58-5	4414-4416	en	*[38]	_	_	_	_	_	_	
+58-6	4417-4422	reell	*[38]	Target	58-7[39]	false	4	_	_	
+58-7	4423-4432	möjlighet	*[38]|*[39]	_	_	_	_	_	_	
+58-8	4433-4436	att	*[38]	_	_	_	_	_	_	
+58-9	4437-4439	få	*[38]	_	_	_	_	_	_	
+58-10	4440-4444	sina	*[38]	_	_	_	_	_	_	
+58-11	4445-4457	utbildningar	*[38]	_	_	_	_	_	_	
+58-12	4458-4461	och	*[38]	_	_	_	_	_	_	
+58-13	4462-4467	andra	*[38]	_	_	_	_	_	_	
+58-14	4468-4479	kompetenser	*[38]	_	_	_	_	_	_	
+58-15	4480-4490	validerade	*[38]	_	_	_	_	_	_	
+58-16	4490-4491	.	_	_	_	_	_	_	_	
+
+#Text=Det sker väldigt sällan idag, eftersom validering sker utifrån arbetsmarknadens – inte den enskildes – behov.
+59-1	4492-4495	Det	*	_	_	_	_	_	_	
+59-2	4496-4500	sker	_	Target[19]	59-1	false[19]	2[19]	_	_	
+59-3	4501-4508	väldigt	_	Target[19]	59-1	false[19]	2[19]	_	_	
+59-4	4509-4515	sällan	_	Target[19]	59-1	false[19]	2[19]	_	_	
+59-5	4516-4520	idag	_	_	_	_	_	_	_	
+59-6	4520-4521	,	_	_	_	_	_	_	_	
+59-7	4522-4530	eftersom	_	_	_	_	_	_	_	
+59-8	4531-4541	validering	_	_	_	_	_	_	_	
+59-9	4542-4546	sker	_	_	_	_	_	_	_	
+59-10	4547-4554	utifrån	_	_	_	_	_	_	_	
+59-11	4555-4571	arbetsmarknadens	_	_	_	_	_	_	_	
+59-12	4572-4573	–	_	_	_	_	_	_	_	
+59-13	4574-4578	inte	_	_	_	_	_	_	_	
+59-14	4579-4582	den	_	_	_	_	_	_	_	
+59-15	4583-4592	enskildes	_	_	_	_	_	_	_	
+59-16	4593-4594	–	_	_	_	_	_	_	_	
+59-17	4595-4600	behov	_	_	_	_	_	_	_	
+59-18	4600-4601	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	4603-4604	#	_	_	_	_	_	_	_	
+60-2	4604-4605	P	_	_	_	_	_	_	_	
+60-3	4606-4609	IMM	_	_	_	_	_	_	_	
+60-4	4609-4610	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte en sfi-bonus som behövs för att förbättra integrationen för invandrade akademiker.
+61-1	4612-4615	Det	_	_	_	_	_	_	_	
+61-2	4616-4618	är	_	_	_	_	_	_	_	
+61-3	4619-4623	inte	_	_	_	_	_	_	_	
+61-4	4624-4626	en	_	_	_	_	_	_	_	
+61-5	4627-4636	sfi-bonus	_	_	_	_	_	_	_	
+61-6	4637-4640	som	_	_	_	_	_	_	_	
+61-7	4641-4647	behövs	_	_	_	_	_	_	_	
+61-8	4648-4651	för	_	_	_	_	_	_	_	
+61-9	4652-4655	att	_	_	_	_	_	_	_	
+61-10	4656-4665	förbättra	_	_	_	_	_	_	_	
+61-11	4666-4679	integrationen	_	_	_	_	_	_	_	
+61-12	4680-4683	för	_	_	_	_	_	_	_	
+61-13	4684-4694	invandrade	_	_	_	_	_	_	_	
+61-14	4695-4705	akademiker	_	_	_	_	_	_	_	
+61-15	4705-4706	.	_	_	_	_	_	_	_	
+
+#Text=I stället behövs en mera strukturerad politik, med en möjlighet till goda kunskaper i svenska, bättre system för erkännande och validering av utländska utbildningar samt goda möjligheter till kompletterande utbildningar på högskolenivå.
+62-1	4707-4708	I	_	_	_	_	_	_	_	
+62-2	4709-4716	stället	_	_	_	_	_	_	_	
+62-3	4717-4723	behövs	_	_	_	_	_	_	_	
+62-4	4724-4726	en	_	_	_	_	_	_	_	
+62-5	4727-4731	mera	_	Target[20]	62-7	false[20]	4[20]	_	_	
+62-6	4732-4744	strukturerad	_	Target[20]	62-7	false[20]	4[20]	_	_	
+62-7	4745-4752	politik	*	_	_	_	_	_	_	
+62-8	4752-4753	,	_	_	_	_	_	_	_	
+62-9	4754-4757	med	_	_	_	_	_	_	_	
+62-10	4758-4760	en	_	_	_	_	_	_	_	
+62-11	4761-4770	möjlighet	_	Target	62-13[40]	false	4	_	_	
+62-12	4771-4775	till	_	_	_	_	_	_	_	
+62-13	4776-4780	goda	*[40]	Target	62-14[41]	false	4	_	_	
+62-14	4781-4790	kunskaper	*[40]|*[41]	_	_	_	_	_	_	
+62-15	4791-4792	i	*[40]|*[41]	_	_	_	_	_	_	
+62-16	4793-4800	svenska	*[40]|*[41]	_	_	_	_	_	_	
+62-17	4800-4801	,	_	_	_	_	_	_	_	
+62-18	4802-4808	bättre	_	_	_	_	_	_	_	
+62-19	4809-4815	system	_	_	_	_	_	_	_	
+62-20	4816-4819	för	_	_	_	_	_	_	_	
+62-21	4820-4830	erkännande	_	_	_	_	_	_	_	
+62-22	4831-4834	och	_	_	_	_	_	_	_	
+62-23	4835-4845	validering	_	_	_	_	_	_	_	
+62-24	4846-4848	av	_	_	_	_	_	_	_	
+62-25	4849-4858	utländska	_	_	_	_	_	_	_	
+62-26	4859-4871	utbildningar	_	_	_	_	_	_	_	
+62-27	4872-4876	samt	_	_	_	_	_	_	_	
+62-28	4877-4881	goda	_	_	_	_	_	_	_	
+62-29	4882-4893	möjligheter	_	_	_	_	_	_	_	
+62-30	4894-4898	till	_	_	_	_	_	_	_	
+62-31	4899-4913	kompletterande	_	_	_	_	_	_	_	
+62-32	4914-4926	utbildningar	_	_	_	_	_	_	_	
+62-33	4927-4929	på	_	_	_	_	_	_	_	
+62-34	4930-4942	högskolenivå	_	_	_	_	_	_	_	
+62-35	4942-4943	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4945-4946	#	_	_	_	_	_	_	_	
+63-2	4946-4947	P	_	_	_	_	_	_	_	
+63-3	4948-4951	IMM	_	_	_	_	_	_	_	
+63-4	4951-4952	.	_	_	_	_	_	_	_	
+
+#Text=Göran Arrius.
+64-1	4954-4959	Göran	_	_	_	_	_	_	_	
+64-2	4960-4966	Arrius	_	_	_	_	_	_	_	
+64-3	4966-4967	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4969-4970	#	_	_	_	_	_	_	_	
+65-2	4970-4971	P	_	_	_	_	_	_	_	
+65-3	4972-4975	IMM	_	_	_	_	_	_	_	
+65-4	4975-4976	.	_	_	_	_	_	_	_	
+
+#Text=Ordförande Jusek.
+66-1	4978-4988	Ordförande	_	_	_	_	_	_	_	
+66-2	4989-4994	Jusek	_	_	_	_	_	_	_	
+66-3	4994-4995	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	4997-4998	#	_	_	_	_	_	_	_	
+67-2	4998-4999	P	_	_	_	_	_	_	_	
+67-3	5000-5003	IMM	_	_	_	_	_	_	_	
+67-4	5003-5004	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+68-1	5006-5014	Redaktör	_	_	_	_	_	_	_	
+68-2	5014-5015	:	_	_	_	_	_	_	_	
+68-3	5016-5022	Carina	_	_	_	_	_	_	_	
+68-4	5023-5031	Stensson	_	_	_	_	_	_	_	
+68-5	5031-5032	,	_	_	_	_	_	_	_	
+68-6	5033-5043	Biträdande	_	_	_	_	_	_	_	
+68-7	5044-5052	redaktör	_	_	_	_	_	_	_	
+68-8	5052-5053	:	_	_	_	_	_	_	_	
+68-9	5054-5059	Björn	_	_	_	_	_	_	_	
+68-10	5060-5066	Jorner	_	_	_	_	_	_	_	
+68-11	5066-5067	,	_	_	_	_	_	_	_	
+68-12	5068-5072	Mejl	_	_	_	_	_	_	_	
+68-13	5072-5073	:	_	_	_	_	_	_	_	
+68-14	5074-5080	debatt	_	_	_	_	_	_	_	
+68-15	5080-5081	@	_	_	_	_	_	_	_	
+68-16	5081-5087	svd.se	_	_	_	_	_	_	_	
+68-17	5087-5088	,	_	_	_	_	_	_	_	
+68-18	5089-5102	Telefonnummer	_	_	_	_	_	_	_	
+68-19	5102-5103	:	_	_	_	_	_	_	_	
+68-20	5104-5106	08	_	_	_	_	_	_	_	
+68-21	5106-5107	-	_	_	_	_	_	_	_	
+68-22	5107-5113	135149	_	_	_	_	_	_	_	
+68-23	5113-5114	,	_	_	_	_	_	_	_	
+68-24	5115-5122	Twitter	_	_	_	_	_	_	_	
+68-25	5122-5123	:	_	_	_	_	_	_	_	
+68-26	5124-5125	@	_	_	_	_	_	_	_	
+68-27	5125-5134	SvDDebatt	_	_	_	_	_	_	_	
+68-28	5134-5135	,	_	_	_	_	_	_	_	
+68-29	5136-5144	Facebook	_	_	_	_	_	_	_	
+68-30	5144-5145	:	_	_	_	_	_	_	_	
+68-31	5146-5149	SvD	_	_	_	_	_	_	_	
+68-32	5150-5156	Debatt	_	_	_	_	_	_	_	
+68-33	5156-5157	.	_	_	_	_	_	_	_	

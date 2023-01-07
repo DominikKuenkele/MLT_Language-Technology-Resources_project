@@ -1,0 +1,313 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vi är inte fascister.
+3-1	18-20	Vi	_	_	_	_	_	_	_	
+3-2	21-23	är	_	_	_	_	_	_	_	
+3-3	24-28	inte	_	_	_	_	_	_	_	
+3-4	29-38	fascister	_	_	_	_	_	_	_	
+3-5	38-39	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	41-42	#	_	_	_	_	_	_	_	
+4-2	42-43	P	_	_	_	_	_	_	_	
+4-3	44-47	IMM	_	_	_	_	_	_	_	
+4-4	47-48	.	_	_	_	_	_	_	_	
+
+#Text=Vänstern har alltid drivits av en önskan att kunna stämpla ”fascism” på alla de ogillar.
+5-1	50-58	Vänstern	*	_	_	_	_	_	_	
+5-2	59-62	har	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-3	63-69	alltid	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-4	70-77	drivits	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-5	78-80	av	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-6	81-83	en	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-7	84-90	önskan	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-8	91-94	att	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-9	95-100	kunna	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-10	101-108	stämpla	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-11	109-110	”	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-12	110-117	fascism	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-13	117-118	”	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-14	119-121	på	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-15	122-126	alla	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-16	127-129	de	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-17	130-137	ogillar	_	Target[1]	5-1	false[1]	2[1]	_	_	
+5-18	137-138	.	_	_	_	_	_	_	_	
+
+#Text=Vänsterjournalisten Henrik Arnstad drivs av samma agenda när han ihärdigt försöker stämpla ”fascism” på alla former av nationalism.
+6-1	139-158	Vänsterjournalisten	*[8]	_	_	_	_	_	_	
+6-2	159-165	Henrik	*[8]	_	_	_	_	_	_	
+6-3	166-173	Arnstad	*[8]	_	_	_	_	_	_	
+6-4	174-179	drivs	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-5	180-182	av	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-6	183-188	samma	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-7	189-195	agenda	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-8	196-199	när	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-9	200-203	han	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-10	204-212	ihärdigt	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-11	213-221	försöker	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-12	222-229	stämpla	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-13	230-231	”	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-14	231-238	fascism	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-15	238-239	”	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-16	240-242	på	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-17	243-247	alla	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-18	248-254	former	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-19	255-257	av	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-20	258-269	nationalism	_	Target[2]	6-1[8]	false[2]	2[2]	_	_	
+6-21	269-270	.	*	_	_	_	_	_	7-1	
+
+#Text=Det är inte seriöst och det enda Arnstad lyckas med är egentligen att ytterligare urvattna begrepp som nazism, rasism och fascism.
+7-1	271-274	Det	*	_	_	_	_	_	_	
+7-2	275-277	är	_	Target[3]	7-1	false[3]	2[3]	_	_	
+7-3	278-282	inte	_	Target[3]	7-1	false[3]	2[3]	_	_	
+7-4	283-290	seriöst	_	Target[3]	7-1	false[3]	2[3]	_	_	
+7-5	291-294	och	_	_	_	_	_	_	_	
+7-6	295-298	det	_	Target[4]	7-8[9]	false[4]	2[4]	_	_	
+7-7	299-303	enda	_	Target[4]	7-8[9]	false[4]	2[4]	_	_	
+7-8	304-311	Arnstad	*[9]|*[10]	_	_	_	_	_	_	
+7-9	312-318	lyckas	_	Target[5]	7-8[10]	false[5]	2[5]	7-6[4_5]	_	
+7-10	319-322	med	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-11	323-325	är	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-12	326-336	egentligen	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-13	337-340	att	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-14	341-352	ytterligare	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-15	353-361	urvattna	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-16	362-369	begrepp	_	Target[5]	7-8[10]	false[5]	2[5]	_	_	
+7-17	370-373	som	_	_	_	_	_	_	_	
+7-18	374-380	nazism	_	_	_	_	_	_	_	
+7-19	380-381	,	_	_	_	_	_	_	_	
+7-20	382-388	rasism	_	_	_	_	_	_	_	
+7-21	389-392	och	_	_	_	_	_	_	_	
+7-22	393-400	fascism	_	_	_	_	_	_	_	
+7-23	400-401	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	403-404	#	_	_	_	_	_	_	_	
+8-2	404-405	P	_	_	_	_	_	_	_	
+8-3	406-409	IMM	_	_	_	_	_	_	_	
+8-4	409-410	.	_	_	_	_	_	_	_	
+
+#Text=Sverigedemokraternas principprogram slår tydligt fast att vi ställer oss bakom en öppen svenskhet med assimilationsprincipen som grund.
+9-1	412-432	Sverigedemokraternas	_	_	_	_	_	_	_	
+9-2	433-447	principprogram	_	_	_	_	_	_	_	
+9-3	448-452	slår	_	_	_	_	_	_	_	
+9-4	453-460	tydligt	_	_	_	_	_	_	_	
+9-5	461-465	fast	_	_	_	_	_	_	_	
+9-6	466-469	att	_	_	_	_	_	_	_	
+9-7	470-472	vi	*	_	_	_	_	_	_	
+9-8	473-480	ställer	_	Source;Target[6]	9-7;9-11[11]	false[6]	4[6]	_	_	
+9-9	481-484	oss	_	Source;Target[6]	9-7;9-11[11]	false[6]	4[6]	_	_	
+9-10	485-490	bakom	_	Source;Target[6]	9-7;9-11[11]	false[6]	4[6]	_	_	
+9-11	491-493	en	*[11]	_	_	_	_	_	_	
+9-12	494-499	öppen	*[11]	_	_	_	_	_	_	
+9-13	500-509	svenskhet	*[11]	_	_	_	_	_	_	
+9-14	510-513	med	*[11]	_	_	_	_	_	_	
+9-15	514-536	assimilationsprincipen	*[11]	_	_	_	_	_	_	
+9-16	537-540	som	*[11]	_	_	_	_	_	_	
+9-17	541-546	grund	*[11]	_	_	_	_	_	_	
+9-18	546-547	.	_	_	_	_	_	_	_	
+
+#Text=Sverigedemokraternas nationalism är således inkluderande och inte exkluderande.
+10-1	548-568	Sverigedemokraternas	*[12]	_	_	_	_	_	_	
+10-2	569-580	nationalism	*[12]	_	_	_	_	_	_	
+10-3	581-583	är	_	_	_	_	_	_	_	
+10-4	584-591	således	_	_	_	_	_	_	_	
+10-5	592-604	inkluderande	_	Target[7]	10-1[12]	false[7]	4[7]	_	_	
+10-6	605-608	och	_	Target[7]	10-1[12]	false[7]	4[7]	_	_	
+10-7	609-613	inte	_	Target[7]	10-1[12]	false[7]	4[7]	_	_	
+10-8	614-626	exkluderande	_	Target[7]	10-1[12]	false[7]	4[7]	_	_	
+10-9	626-627	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	629-630	#	_	_	_	_	_	_	_	
+11-2	630-631	P	_	_	_	_	_	_	_	
+11-3	632-635	IMM	_	_	_	_	_	_	_	
+11-4	635-636	.	_	_	_	_	_	_	_	
+
+#Text=Fascismen bygger på ett anti-demokratiskt synsätt.
+12-1	638-647	Fascismen	_	_	_	_	_	_	_	
+12-2	648-654	bygger	_	_	_	_	_	_	_	
+12-3	655-657	på	_	_	_	_	_	_	_	
+12-4	658-661	ett	_	_	_	_	_	_	_	
+12-5	662-679	anti-demokratiskt	_	_	_	_	_	_	_	
+12-6	680-687	synsätt	_	_	_	_	_	_	_	
+12-7	687-688	.	_	_	_	_	_	_	_	
+
+#Text=Vi är ett demokratiskt parti.
+13-1	689-691	Vi	_	_	_	_	_	_	_	
+13-2	692-694	är	_	_	_	_	_	_	_	
+13-3	695-698	ett	_	_	_	_	_	_	_	
+13-4	699-711	demokratiskt	_	_	_	_	_	_	_	
+13-5	712-717	parti	_	_	_	_	_	_	_	
+13-6	717-718	.	_	_	_	_	_	_	_	
+
+#Text=Fascismen ekonomiska modell utgår från korporatism eller nationalsyndikalism.
+14-1	719-728	Fascismen	_	_	_	_	_	_	_	
+14-2	729-739	ekonomiska	_	_	_	_	_	_	_	
+14-3	740-746	modell	_	_	_	_	_	_	_	
+14-4	747-752	utgår	_	_	_	_	_	_	_	
+14-5	753-757	från	_	_	_	_	_	_	_	
+14-6	758-769	korporatism	_	_	_	_	_	_	_	
+14-7	770-775	eller	_	_	_	_	_	_	_	
+14-8	776-795	nationalsyndikalism	_	_	_	_	_	_	_	
+14-9	795-796	.	_	_	_	_	_	_	_	
+
+#Text=Sverigedemokraternas ekonomiska grund är marknadsekonomin.
+15-1	797-817	Sverigedemokraternas	_	_	_	_	_	_	_	
+15-2	818-828	ekonomiska	_	_	_	_	_	_	_	
+15-3	829-834	grund	_	_	_	_	_	_	_	
+15-4	835-837	är	_	_	_	_	_	_	_	
+15-5	838-854	marknadsekonomin	_	_	_	_	_	_	_	
+15-6	854-855	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	857-858	#	_	_	_	_	_	_	_	
+16-2	858-859	P	_	_	_	_	_	_	_	
+16-3	860-863	IMM	_	_	_	_	_	_	_	
+16-4	863-864	.	_	_	_	_	_	_	_	
+
+#Text=Fascismens utgångsläge är att samhället ska förändras utefter revolutionära och radikala förändringar.
+17-1	866-876	Fascismens	_	_	_	_	_	_	_	
+17-2	877-888	utgångsläge	_	_	_	_	_	_	_	
+17-3	889-891	är	_	_	_	_	_	_	_	
+17-4	892-895	att	_	_	_	_	_	_	_	
+17-5	896-905	samhället	_	_	_	_	_	_	_	
+17-6	906-909	ska	_	_	_	_	_	_	_	
+17-7	910-919	förändras	_	_	_	_	_	_	_	
+17-8	920-927	utefter	_	_	_	_	_	_	_	
+17-9	928-941	revolutionära	_	_	_	_	_	_	_	
+17-10	942-945	och	_	_	_	_	_	_	_	
+17-11	946-954	radikala	_	_	_	_	_	_	_	
+17-12	955-967	förändringar	_	_	_	_	_	_	_	
+17-13	967-968	.	_	_	_	_	_	_	_	
+
+#Text=Vi är ett socialkonservativt och reformistiskt parti som förespråkar förändringar i små steg.
+18-1	969-971	Vi	*	_	_	_	_	_	_	
+18-2	972-974	är	_	_	_	_	_	_	_	
+18-3	975-978	ett	_	_	_	_	_	_	_	
+18-4	979-997	socialkonservativt	_	_	_	_	_	_	_	
+18-5	998-1001	och	_	_	_	_	_	_	_	
+18-6	1002-1015	reformistiskt	_	_	_	_	_	_	_	
+18-7	1016-1021	parti	_	_	_	_	_	_	_	
+18-8	1022-1025	som	_	_	_	_	_	_	_	
+18-9	1026-1037	förespråkar	_	Source;Target	18-1;18-10[13]	false	4	_	_	
+18-10	1038-1050	förändringar	*[13]	_	_	_	_	_	_	
+18-11	1051-1052	i	*[13]	_	_	_	_	_	_	
+18-12	1053-1056	små	*[13]	_	_	_	_	_	_	
+18-13	1057-1061	steg	*[13]	_	_	_	_	_	_	
+18-14	1061-1062	.	_	_	_	_	_	_	_	
+
+#Text=Fascism är en icke-traditionalistisk och modernistisk ideologi.
+19-1	1063-1070	Fascism	_	_	_	_	_	_	_	
+19-2	1071-1073	är	_	_	_	_	_	_	_	
+19-3	1074-1076	en	_	_	_	_	_	_	_	
+19-4	1077-1099	icke-traditionalistisk	_	_	_	_	_	_	_	
+19-5	1100-1103	och	_	_	_	_	_	_	_	
+19-6	1104-1116	modernistisk	_	_	_	_	_	_	_	
+19-7	1117-1125	ideologi	_	_	_	_	_	_	_	
+19-8	1125-1126	.	_	_	_	_	_	_	_	
+
+#Text=Vi är ett traditionalistiskt parti.
+20-1	1127-1129	Vi	_	_	_	_	_	_	_	
+20-2	1130-1132	är	_	_	_	_	_	_	_	
+20-3	1133-1136	ett	_	_	_	_	_	_	_	
+20-4	1137-1155	traditionalistiskt	_	_	_	_	_	_	_	
+20-5	1156-1161	parti	_	_	_	_	_	_	_	
+20-6	1161-1162	.	_	_	_	_	_	_	_	
+
+#Text=Fascism står för centralisering och tron på en stark ledare.
+21-1	1163-1170	Fascism	_	_	_	_	_	_	_	
+21-2	1171-1175	står	_	_	_	_	_	_	_	
+21-3	1176-1179	för	_	_	_	_	_	_	_	
+21-4	1180-1194	centralisering	_	_	_	_	_	_	_	
+21-5	1195-1198	och	_	_	_	_	_	_	_	
+21-6	1199-1203	tron	_	_	_	_	_	_	_	
+21-7	1204-1206	på	_	_	_	_	_	_	_	
+21-8	1207-1209	en	_	_	_	_	_	_	_	
+21-9	1210-1215	stark	_	_	_	_	_	_	_	
+21-10	1216-1222	ledare	_	_	_	_	_	_	_	
+21-11	1222-1223	.	_	_	_	_	_	_	_	
+
+#Text=Vi är för decentralisering och förespråkar större folkinflytande med fler folkomröstningar och större inslag av direktdemokrati.
+22-1	1224-1226	Vi	_	_	_	_	_	_	_	
+22-2	1227-1229	är	_	_	_	_	_	_	_	
+22-3	1230-1233	för	_	_	_	_	_	_	_	
+22-4	1234-1250	decentralisering	_	_	_	_	_	_	_	
+22-5	1251-1254	och	_	_	_	_	_	_	_	
+22-6	1255-1266	förespråkar	_	_	_	_	_	_	_	
+22-7	1267-1273	större	_	_	_	_	_	_	_	
+22-8	1274-1288	folkinflytande	_	_	_	_	_	_	_	
+22-9	1289-1292	med	_	_	_	_	_	_	_	
+22-10	1293-1297	fler	_	_	_	_	_	_	_	
+22-11	1298-1314	folkomröstningar	_	_	_	_	_	_	_	
+22-12	1315-1318	och	_	_	_	_	_	_	_	
+22-13	1319-1325	större	_	_	_	_	_	_	_	
+22-14	1326-1332	inslag	_	_	_	_	_	_	_	
+22-15	1333-1335	av	_	_	_	_	_	_	_	
+22-16	1336-1351	direktdemokrati	_	_	_	_	_	_	_	
+22-17	1351-1352	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1354-1355	#	_	_	_	_	_	_	_	
+23-2	1355-1356	P	_	_	_	_	_	_	_	
+23-3	1357-1360	IMM	_	_	_	_	_	_	_	
+23-4	1360-1361	.	_	_	_	_	_	_	_	
+
+#Text=Henrik Arnstad har inte satt sig in i Sverigedemokraternas politik och ingenting tyder på att han är det minsta intresserad av att göra detta.
+24-1	1363-1369	Henrik	*[14]	_	_	_	_	_	_	
+24-2	1370-1377	Arnstad	*[14]	_	_	_	_	_	_	
+24-3	1378-1381	har	_	_	_	_	_	_	_	
+24-4	1382-1386	inte	_	_	_	_	_	_	_	
+24-5	1387-1391	satt	_	_	_	_	_	_	_	
+24-6	1392-1395	sig	_	_	_	_	_	_	_	
+24-7	1396-1398	in	_	_	_	_	_	_	_	
+24-8	1399-1400	i	_	_	_	_	_	_	_	
+24-9	1401-1421	Sverigedemokraternas	_	_	_	_	_	_	_	
+24-10	1422-1429	politik	_	_	_	_	_	_	_	
+24-11	1430-1433	och	_	_	_	_	_	_	_	
+24-12	1434-1443	ingenting	_	_	_	_	_	_	_	
+24-13	1444-1449	tyder	_	_	_	_	_	_	_	
+24-14	1450-1452	på	_	_	_	_	_	_	_	
+24-15	1453-1456	att	_	_	_	_	_	_	_	
+24-16	1457-1460	han	_	_	_	_	_	_	_	
+24-17	1461-1463	är	_	_	_	_	_	_	_	
+24-18	1464-1467	det	_	_	_	_	_	_	_	
+24-19	1468-1474	minsta	_	_	_	_	_	_	_	
+24-20	1475-1486	intresserad	_	_	_	_	_	_	_	
+24-21	1487-1489	av	_	_	_	_	_	_	_	
+24-22	1490-1493	att	_	_	_	_	_	_	_	
+24-23	1494-1498	göra	_	_	_	_	_	_	_	
+24-24	1499-1504	detta	_	_	_	_	_	_	_	
+24-25	1504-1505	.	_	Target	24-1[14]	false	2	_	_	
+
+#Text=Mattias Karlsson (SD), riksdagsledamot och huvudförfattare till Sverigedemokraternas principprogram.
+25-1	1506-1513	Mattias	_	_	_	_	_	_	_	
+25-2	1514-1522	Karlsson	_	_	_	_	_	_	_	
+25-3	1523-1524	(	_	_	_	_	_	_	_	
+25-4	1524-1526	SD	_	_	_	_	_	_	_	
+25-5	1526-1527	)	_	_	_	_	_	_	_	
+25-6	1527-1528	,	_	_	_	_	_	_	_	
+25-7	1529-1544	riksdagsledamot	_	_	_	_	_	_	_	
+25-8	1545-1548	och	_	_	_	_	_	_	_	
+25-9	1549-1564	huvudförfattare	_	_	_	_	_	_	_	
+25-10	1565-1569	till	_	_	_	_	_	_	_	
+25-11	1570-1590	Sverigedemokraternas	_	_	_	_	_	_	_	
+25-12	1591-1605	principprogram	_	_	_	_	_	_	_	
+25-13	1605-1606	.	_	_	_	_	_	_	_	

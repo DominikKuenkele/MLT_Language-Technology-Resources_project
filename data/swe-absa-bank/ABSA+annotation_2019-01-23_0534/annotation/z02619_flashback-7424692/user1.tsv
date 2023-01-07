@@ -1,0 +1,187 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Burlövspolitiker dömd för hets mot folkgrupp.
+3-1	18-34	Burlövspolitiker	_	_	_	_	_	
+3-2	35-39	dömd	_	_	_	_	_	
+3-3	40-43	för	_	_	_	_	_	
+3-4	44-48	hets	_	_	_	_	_	
+3-5	49-52	mot	_	_	_	_	_	
+3-6	53-62	folkgrupp	_	_	_	_	_	
+3-7	62-63	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	
+4-2	66-67	P	_	_	_	_	_	
+4-3	68-71	IMM	_	_	_	_	_	
+4-4	71-72	.	_	_	_	_	_	
+
+#Text=Dahn Petterson hävdar i en motion att med antalet ökande Kosovoalbaner så ökar heroinsmugglingen och bostadsbristen.
+5-1	74-78	Dahn	*[3]	_	_	_	_	
+5-2	79-88	Petterson	*[3]	_	_	_	_	
+5-3	89-95	hävdar	*[3]	_	_	_	_	
+5-4	96-97	i	*[3]	_	_	_	_	
+5-5	98-100	en	*[3]	_	_	_	_	
+5-6	101-107	motion	*[3]	_	_	_	_	
+5-7	108-111	att	*[3]	_	_	_	_	
+5-8	112-115	med	*[3]	_	_	_	_	
+5-9	116-123	antalet	*[3]|*[4]	_	_	_	_	
+5-10	124-130	ökande	*[3]|*[4]	_	_	_	_	
+5-11	131-144	Kosovoalbaner	*[3]|*[4]	_	_	_	_	
+5-12	145-147	så	*[3]	Target[1]	5-9[4]	false[1]	2[1]	
+5-13	148-152	ökar	*[3]	Target[1]	5-9[4]	false[1]	2[1]	
+5-14	153-170	heroinsmugglingen	*[3]	Target[1]	5-9[4]	false[1]	2[1]	
+5-15	171-174	och	*[3]	Target[1]	5-9[4]	false[1]	2[1]	
+5-16	175-189	bostadsbristen	*[3]	Target[1]	5-9[4]	false[1]	2[1]	
+5-17	189-190	.	_	_	_	_	_	
+
+#Text=Rättsväsendet dömer detta som hets mot folkgrupp eftersom bara ett fåtal bland kosovoalbanerna sysslar med detta och att motionen stäcker sig över alla.
+6-1	191-204	Rättsväsendet	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-2	205-210	dömer	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-3	211-216	detta	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-4	217-220	som	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-5	221-225	hets	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-6	226-229	mot	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-7	230-239	folkgrupp	_	Target[2]	5-1[3]	false[2]	1[2]	
+6-8	240-248	eftersom	_	_	_	_	_	
+6-9	249-253	bara	_	_	_	_	_	
+6-10	254-257	ett	_	_	_	_	_	
+6-11	258-263	fåtal	_	_	_	_	_	
+6-12	264-269	bland	_	_	_	_	_	
+6-13	270-285	kosovoalbanerna	_	_	_	_	_	
+6-14	286-293	sysslar	_	_	_	_	_	
+6-15	294-297	med	_	_	_	_	_	
+6-16	298-303	detta	_	_	_	_	_	
+6-17	304-307	och	_	_	_	_	_	
+6-18	308-311	att	_	_	_	_	_	
+6-19	312-320	motionen	_	_	_	_	_	
+6-20	321-328	stäcker	_	_	_	_	_	
+6-21	329-332	sig	_	_	_	_	_	
+6-22	333-337	över	_	_	_	_	_	
+6-23	338-342	alla	_	_	_	_	_	
+6-24	342-343	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	345-346	#	_	_	_	_	_	
+7-2	346-347	P	_	_	_	_	_	
+7-3	348-351	IMM	_	_	_	_	_	
+7-4	351-352	.	_	_	_	_	_	
+
+#Text=Men om det finns sura äpplen bland gruppen så att säga, ökar inte då heroinsmugglingen om vi tar in dom som smugglar heroin tillsammans med dom som inte gör det (även om det är en liten procent) och ökar inte bostadsbristen eftersom vi får in fler personer som behöver bostad i en redan lång bostadskö?.
+8-1	354-357	Men	_	_	_	_	_	
+8-2	358-360	om	_	_	_	_	_	
+8-3	361-364	det	_	_	_	_	_	
+8-4	365-370	finns	_	_	_	_	_	
+8-5	371-375	sura	_	_	_	_	_	
+8-6	376-382	äpplen	_	_	_	_	_	
+8-7	383-388	bland	_	_	_	_	_	
+8-8	389-396	gruppen	_	_	_	_	_	
+8-9	397-399	så	_	_	_	_	_	
+8-10	400-403	att	_	_	_	_	_	
+8-11	404-408	säga	_	_	_	_	_	
+8-12	408-409	,	_	_	_	_	_	
+8-13	410-414	ökar	_	_	_	_	_	
+8-14	415-419	inte	_	_	_	_	_	
+8-15	420-422	då	_	_	_	_	_	
+8-16	423-440	heroinsmugglingen	_	_	_	_	_	
+8-17	441-443	om	_	_	_	_	_	
+8-18	444-446	vi	_	_	_	_	_	
+8-19	447-450	tar	_	_	_	_	_	
+8-20	451-453	in	_	_	_	_	_	
+8-21	454-457	dom	_	_	_	_	_	
+8-22	458-461	som	_	_	_	_	_	
+8-23	462-470	smugglar	_	_	_	_	_	
+8-24	471-477	heroin	_	_	_	_	_	
+8-25	478-489	tillsammans	_	_	_	_	_	
+8-26	490-493	med	_	_	_	_	_	
+8-27	494-497	dom	_	_	_	_	_	
+8-28	498-501	som	_	_	_	_	_	
+8-29	502-506	inte	_	_	_	_	_	
+8-30	507-510	gör	_	_	_	_	_	
+8-31	511-514	det	_	_	_	_	_	
+8-32	515-516	(	_	_	_	_	_	
+8-33	516-520	även	_	_	_	_	_	
+8-34	521-523	om	_	_	_	_	_	
+8-35	524-527	det	_	_	_	_	_	
+8-36	528-530	är	_	_	_	_	_	
+8-37	531-533	en	_	_	_	_	_	
+8-38	534-539	liten	_	_	_	_	_	
+8-39	540-547	procent	_	_	_	_	_	
+8-40	547-548	)	_	_	_	_	_	
+8-41	549-552	och	_	_	_	_	_	
+8-42	553-557	ökar	_	_	_	_	_	
+8-43	558-562	inte	_	_	_	_	_	
+8-44	563-577	bostadsbristen	_	_	_	_	_	
+8-45	578-586	eftersom	_	_	_	_	_	
+8-46	587-589	vi	_	_	_	_	_	
+8-47	590-593	får	_	_	_	_	_	
+8-48	594-596	in	_	_	_	_	_	
+8-49	597-601	fler	_	_	_	_	_	
+8-50	602-610	personer	_	_	_	_	_	
+8-51	611-614	som	_	_	_	_	_	
+8-52	615-622	behöver	_	_	_	_	_	
+8-53	623-629	bostad	_	_	_	_	_	
+8-54	630-631	i	_	_	_	_	_	
+8-55	632-634	en	_	_	_	_	_	
+8-56	635-640	redan	_	_	_	_	_	
+8-57	641-645	lång	_	_	_	_	_	
+8-58	646-655	bostadskö	_	_	_	_	_	
+8-59	655-656	?	_	_	_	_	_	
+8-60	656-657	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	659-660	#	_	_	_	_	_	
+9-2	660-661	P	_	_	_	_	_	
+9-3	662-665	IMM	_	_	_	_	_	
+9-4	665-666	.	_	_	_	_	_	
+
+#Text=Bara min tanke, är det hets mot folkgrupp även om man har underlag?
+10-1	668-672	Bara	_	_	_	_	_	
+10-2	673-676	min	_	_	_	_	_	
+10-3	677-682	tanke	_	_	_	_	_	
+10-4	682-683	,	_	_	_	_	_	
+10-5	684-686	är	_	_	_	_	_	
+10-6	687-690	det	_	_	_	_	_	
+10-7	691-695	hets	_	_	_	_	_	
+10-8	696-699	mot	_	_	_	_	_	
+10-9	700-709	folkgrupp	_	_	_	_	_	
+10-10	710-714	även	_	_	_	_	_	
+10-11	715-717	om	_	_	_	_	_	
+10-12	718-721	man	_	_	_	_	_	
+10-13	722-725	har	_	_	_	_	_	
+10-14	726-734	underlag	_	_	_	_	_	
+10-15	734-735	?	_	_	_	_	_	
+
+#Text=Vad tror ni?.
+11-1	736-739	Vad	_	_	_	_	_	
+11-2	740-744	tror	_	_	_	_	_	
+11-3	745-747	ni	_	_	_	_	_	
+11-4	747-748	?	_	_	_	_	_	
+11-5	748-749	.	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	751-752	#	_	_	_	_	_	
+12-2	752-753	P	_	_	_	_	_	
+12-3	754-757	IMM	_	_	_	_	_	
+12-4	757-758	.	_	_	_	_	_	
+
+#Text=Historien finns på:.
+13-1	760-769	Historien	_	_	_	_	_	
+13-2	770-775	finns	_	_	_	_	_	
+13-3	776-778	på	_	_	_	_	_	
+13-4	778-779	:	_	_	_	_	_	
+13-5	779-780	.	_	_	_	_	_	

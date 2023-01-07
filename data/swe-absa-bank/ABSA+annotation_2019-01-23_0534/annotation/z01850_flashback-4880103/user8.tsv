@@ -1,0 +1,183 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=brittisk minister kritiserar öppet multikultur.
+3-1	18-26	brittisk	*[3]	_	_	_	_	_	
+3-2	27-35	minister	*[3]	_	_	_	_	_	
+3-3	36-46	kritiserar	_	Source;Target	3-1[3];3-5	false	2	_	
+3-4	47-52	öppet	_	_	_	_	_	_	
+3-5	53-64	multikultur	*	_	_	_	_	_	
+3-6	64-65	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	67-68	#	_	_	_	_	_	_	
+4-2	68-69	P	_	_	_	_	_	_	
+4-3	70-73	IMM	_	_	_	false	2	_	
+4-4	73-74	.	_	_	_	_	_	_	
+
+#Text=Ett väldigt intressant tal av brittiska kommunministern där hon ifrågasätter den multikulturella strategin, och är rädd att den skapat islolerade samhällen utan sammanhang inom landet.
+5-1	76-79	Ett	_	_	_	_	_	_	
+5-2	80-87	väldigt	_	Target[1]	5-4[4]	false[1]	4[1]	_	
+5-3	88-98	intressant	_	Target[1]	5-4[4]	false[1]	4[1]	_	
+5-4	99-102	tal	*[4]	_	_	_	_	_	
+5-5	103-105	av	*[4]	_	_	_	_	_	
+5-6	106-115	brittiska	*[4]|*[5]|*[6]	_	_	_	_	5-9[0_5]	
+5-7	116-131	kommunministern	*[4]|*[5]|*[6]	_	_	_	_	_	
+5-8	132-135	där	_	_	_	_	_	_	
+5-9	136-139	hon	*	_	_	_	_	_	
+5-10	140-152	ifrågasätter	_	Source;Target	5-9;5-11[7]	false	2	_	
+5-11	153-156	den	*[7]	_	_	_	_	_	
+5-12	157-172	multikulturella	*[7]	_	_	_	_	_	
+5-13	173-182	strategin	*[7]	_	_	_	_	_	
+5-14	182-183	,	_	_	_	_	_	_	
+5-15	184-187	och	_	_	_	_	_	_	
+5-16	188-190	är	_	Source;Target[2]	5-6[6];5-18[8]	false[2]	2[2]	_	
+5-17	191-195	rädd	_	Source;Target[2]	5-6[6];5-18[8]	false[2]	2[2]	_	
+5-18	196-199	att	*[8]	_	_	_	_	_	
+5-19	200-203	den	*[8]	_	_	_	_	_	
+5-20	204-210	skapat	*[8]	_	_	_	_	_	
+5-21	211-221	islolerade	*[8]	_	_	_	_	_	
+5-22	222-231	samhällen	*[8]	_	_	_	_	_	
+5-23	232-236	utan	*[8]	_	_	_	_	_	
+5-24	237-247	sammanhang	*[8]	_	_	_	_	_	
+5-25	248-252	inom	*[8]	_	_	_	_	_	
+5-26	253-259	landet	*[8]	_	_	_	_	_	
+5-27	259-260	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	262-263	#	_	_	_	_	_	_	
+6-2	263-264	P	_	_	_	_	_	_	
+6-3	265-268	IMM	_	_	_	_	_	_	
+6-4	268-269	.	_	_	_	_	_	_	
+
+#Text=Hon menar att man nu måste ställa krav på vissa grupper  att anpassa sig till vissa normer och värderingar, och att man ska tala öppet om vilka dessa grupper är och hur man bör agera mot dem.
+7-1	271-274	Hon	_	_	_	_	_	_	
+7-2	275-280	menar	_	_	_	_	_	_	
+7-3	281-284	att	_	_	_	_	_	_	
+7-4	285-288	man	_	_	_	_	_	_	
+7-5	289-291	nu	_	_	_	_	_	_	
+7-6	292-297	måste	_	_	_	_	_	_	
+7-7	298-304	ställa	_	_	_	_	_	_	
+7-8	305-309	krav	_	_	_	_	_	_	
+7-9	310-312	på	_	_	_	_	_	_	
+7-10	313-318	vissa	_	_	_	_	_	_	
+7-11	319-326	grupper	_	_	_	_	_	_	
+7-12	328-331	att	_	_	_	_	_	_	
+7-13	332-339	anpassa	_	_	_	_	_	_	
+7-14	340-343	sig	_	_	_	_	_	_	
+7-15	344-348	till	_	_	_	_	_	_	
+7-16	349-354	vissa	_	_	_	_	_	_	
+7-17	355-361	normer	_	_	_	_	_	_	
+7-18	362-365	och	_	_	_	_	_	_	
+7-19	366-377	värderingar	_	_	_	_	_	_	
+7-20	377-378	,	_	_	_	_	_	_	
+7-21	379-382	och	_	_	_	_	_	_	
+7-22	383-386	att	_	_	_	_	_	_	
+7-23	387-390	man	_	_	_	_	_	_	
+7-24	391-394	ska	_	_	_	_	_	_	
+7-25	395-399	tala	_	_	_	_	_	_	
+7-26	400-405	öppet	_	_	_	_	_	_	
+7-27	406-408	om	_	_	_	_	_	_	
+7-28	409-414	vilka	_	_	_	_	_	_	
+7-29	415-420	dessa	_	_	_	_	_	_	
+7-30	421-428	grupper	_	_	_	_	_	_	
+7-31	429-431	är	_	_	_	_	_	_	
+7-32	432-435	och	_	_	_	_	_	_	
+7-33	436-439	hur	_	_	_	_	_	_	
+7-34	440-443	man	_	_	_	_	_	_	
+7-35	444-447	bör	_	_	_	_	_	_	
+7-36	448-453	agera	_	_	_	_	_	_	
+7-37	454-457	mot	_	_	_	_	_	_	
+7-38	458-461	dem	_	_	_	_	_	_	
+7-39	461-462	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	464-465	#	_	_	_	_	_	_	
+8-2	465-466	P	_	_	_	_	_	_	
+8-3	467-470	IMM	_	_	_	false	3	_	
+8-4	470-471	.	_	_	_	_	_	_	
+
+#Text=En kommission ska nu utreda hur man bäst ska tackla problemet.
+9-1	473-475	En	_	_	_	_	_	_	
+9-2	476-486	kommission	_	_	_	_	_	_	
+9-3	487-490	ska	_	_	_	_	_	_	
+9-4	491-493	nu	_	_	_	_	_	_	
+9-5	494-500	utreda	_	_	_	_	_	_	
+9-6	501-504	hur	_	_	_	_	_	_	
+9-7	505-508	man	_	_	_	_	_	_	
+9-8	509-513	bäst	_	_	_	_	_	_	
+9-9	514-517	ska	_	_	_	_	_	_	
+9-10	518-524	tackla	_	_	_	_	_	_	
+9-11	525-534	problemet	*	Target;Source	9-11;9-12	false	2	_	
+9-12	534-535	.	*	_	_	_	_	_	
+
+#Text=Värt att notera är att ordet "integration" i den brittiska debatten nu fått sällskap av det mer tvingande ordet "cohesion" - som betyder sammanhang - dvs raka motsatsen till "mångfald".
+10-1	536-540	Värt	_	_	_	_	_	_	
+10-2	541-544	att	_	_	_	_	_	_	
+10-3	545-551	notera	_	_	_	_	_	_	
+10-4	552-554	är	_	_	_	_	_	_	
+10-5	555-558	att	_	_	_	_	_	_	
+10-6	559-564	ordet	_	_	_	_	_	_	
+10-7	565-566	"	_	_	_	_	_	_	
+10-8	566-577	integration	_	_	_	_	_	_	
+10-9	577-578	"	_	_	_	_	_	_	
+10-10	579-580	i	_	_	_	_	_	_	
+10-11	581-584	den	_	_	_	_	_	_	
+10-12	585-594	brittiska	_	_	_	_	_	_	
+10-13	595-603	debatten	_	_	_	_	_	_	
+10-14	604-606	nu	_	_	_	_	_	_	
+10-15	607-611	fått	_	_	_	_	_	_	
+10-16	612-620	sällskap	_	_	_	_	_	_	
+10-17	621-623	av	_	_	_	_	_	_	
+10-18	624-627	det	_	_	_	_	_	_	
+10-19	628-631	mer	_	_	_	_	_	_	
+10-20	632-641	tvingande	_	_	_	_	_	_	
+10-21	642-647	ordet	_	_	_	_	_	_	
+10-22	648-649	"	_	_	_	_	_	_	
+10-23	649-657	cohesion	_	_	_	_	_	_	
+10-24	657-658	"	_	_	_	_	_	_	
+10-25	659-660	-	_	_	_	_	_	_	
+10-26	661-664	som	_	_	_	_	_	_	
+10-27	665-672	betyder	_	_	_	_	_	_	
+10-28	673-683	sammanhang	_	_	_	_	_	_	
+10-29	684-685	-	_	_	_	_	_	_	
+10-30	686-689	dvs	_	_	_	_	_	_	
+10-31	690-694	raka	_	_	_	_	_	_	
+10-32	695-704	motsatsen	_	_	_	_	_	_	
+10-33	705-709	till	_	_	_	_	_	_	
+10-34	710-711	"	_	_	_	_	_	_	
+10-35	711-719	mångfald	_	_	_	_	_	_	
+10-36	719-720	"	_	_	_	_	_	_	
+10-37	720-721	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	723-724	#	_	_	_	_	_	_	
+11-2	724-725	P	_	_	_	_	_	_	
+11-3	726-729	IMM	_	_	_	_	_	_	
+11-4	729-730	.	_	_	_	_	_	_	
+
+#Text=protofascism eller tillnyktring i verkligheten - comments!.
+12-1	732-744	protofascism	_	_	_	_	_	_	
+12-2	745-750	eller	_	_	_	_	_	_	
+12-3	751-763	tillnyktring	_	_	_	_	_	_	
+12-4	764-765	i	_	_	_	_	_	_	
+12-5	766-778	verkligheten	_	_	_	_	_	_	
+12-6	779-780	-	_	_	_	_	_	_	
+12-7	781-789	comments	_	_	_	_	_	_	
+12-8	789-790	!	_	_	_	_	_	_	
+12-9	790-791	.	_	_	_	_	_	_	

@@ -1,0 +1,880 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Edholm måste be Stockholms lärare om ursäkt.
+3-1	18-24	Edholm	_	_	_	_	_	_	
+3-2	25-30	måste	_	Target[1]	3-4[21]	false[1]	4[1]	_	
+3-3	31-33	be	_	Target[1]	3-4[21]	false[1]	4[1]	_	
+3-4	34-44	Stockholms	*[21]	_	_	_	_	_	
+3-5	45-51	lärare	*[21]	_	_	_	_	_	
+3-6	52-54	om	_	_[2]	_	false[2]	4[2]	3-2[1_2]	
+3-7	55-61	ursäkt	_	_[2]	_	false[2]	4[2]	_	
+3-8	61-62	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	
+
+#Text=Stockholms skolborgarråd bör stå för sin politik och ta debatten om konsekvenserna av den förda politiken.
+5-1	73-83	Stockholms	_	_	_	_	_	_	
+5-2	84-97	skolborgarråd	_	_	_	_	_	_	
+5-3	98-101	bör	_	_	_	_	_	_	
+5-4	102-105	stå	_	_	_	_	_	_	
+5-5	106-109	för	_	_	_	_	_	_	
+5-6	110-113	sin	_	_	_	_	_	_	
+5-7	114-121	politik	_	_	_	_	_	_	
+5-8	122-125	och	_	_	_	_	_	_	
+5-9	126-128	ta	_	_	_	_	_	_	
+5-10	129-137	debatten	_	_	_	_	_	_	
+5-11	138-140	om	_	_	_	_	_	_	
+5-12	141-155	konsekvenserna	_	Target	5-14[22]	false	2	_	
+5-13	156-158	av	_	_	_	_	_	_	
+5-14	159-162	den	*[22]	_	_	_	_	_	
+5-15	163-168	förda	*[22]	_	_	_	_	_	
+5-16	169-178	politiken	*[22]	_	_	_	_	_	
+5-17	178-179	.	_	_	_	_	_	_	
+
+#Text=De lärare på sju skolor som pekas ut som lågpresterande behöver en förklaring.
+6-1	180-182	De	*[23]	_	_	_	_	_	
+6-2	183-189	lärare	*[23]	_	_	_	_	_	
+6-3	190-192	på	_	_	_	_	_	_	
+6-4	193-196	sju	_	_	_	_	_	_	
+6-5	197-203	skolor	_	_	_	_	_	_	
+6-6	204-207	som	_	_	_	_	_	_	
+6-7	208-213	pekas	_	Source;Target[3]	6-14;6-1[23]	false[3]	2[3]	_	
+6-8	214-216	ut	_	Source;Target[3]	6-14;6-1[23]	false[3]	2[3]	_	
+6-9	217-220	som	_	Source;Target[3]	6-14;6-1[23]	false[3]	2[3]	_	
+6-10	221-235	lågpresterande	_	Source;Target[3]	6-14;6-1[23]	false[3]	2[3]	_	
+6-11	236-243	behöver	_	_	_	_	_	_	
+6-12	244-246	en	_	_	_	_	_	_	
+6-13	247-257	förklaring	_	_	_	_	_	_	
+6-14	257-258	.	*	_	_	_	_	_	
+
+#Text=Om de inte kan få det bör Lotta Edholm be dem om ursäkt, skriver oppositionsborgarrådet Roger Mogert (S).
+7-1	259-261	Om	_	_	_	_	_	_	
+7-2	262-264	de	_	_	_	_	_	_	
+7-3	265-269	inte	_	_	_	_	_	_	
+7-4	270-273	kan	_	_	_	_	_	_	
+7-5	274-276	få	_	_	_	_	_	_	
+7-6	277-280	det	_	_	_	_	_	_	
+7-7	281-284	bör	_	Target;Source[4]	7-10[24];7-17[25]	false[4]	4[4]	_	
+7-8	285-290	Lotta	_	Target;Source[4]	7-10[24];7-17[25]	false[4]	4[4]	_	
+7-9	291-297	Edholm	_	Target;Source[4]	7-10[24];7-17[25]	false[4]	4[4]	_	
+7-10	298-300	be	*[24]	_	_	_	_	_	
+7-11	301-304	dem	*[24]	_	_	_	_	_	
+7-12	305-307	om	*[24]	_	_	_	_	_	
+7-13	308-314	ursäkt	*[24]	_	_	_	_	_	
+7-14	314-315	,	_	_	_	_	_	_	
+7-15	316-323	skriver	_	_	_	_	_	_	
+7-16	324-346	oppositionsborgarrådet	_	_	_	_	_	_	
+7-17	347-352	Roger	*[25]	_	_	_	_	_	
+7-18	353-359	Mogert	*[25]	_	_	_	_	_	
+7-19	360-361	(	_	_	_	_	_	_	
+7-20	361-362	S	_	_	_	_	_	_	
+7-21	362-363	)	_	_	_	_	_	_	
+7-22	363-364	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	366-367	#	_	_	_	_	_	_	
+8-2	367-368	P	_	_	_	_	_	_	
+8-3	369-372	IMM	_	_	_	_	_	_	
+8-4	372-373	.	_	_	_	_	_	_	
+
+#Text=Lotta Edholm har skapat modellen, och skrutit om den i medierna.Roger Mogert.
+9-1	375-380	Lotta	*[26]	_	_	_	_	_	
+9-2	381-387	Edholm	*[26]	_	_	_	_	_	
+9-3	388-391	har	_	_	_	_	_	_	
+9-4	392-398	skapat	_	_	_	_	_	_	
+9-5	399-407	modellen	_	_	_	_	_	_	
+9-6	407-408	,	_	_	_	_	_	_	
+9-7	409-412	och	_	_	_	_	_	_	
+9-8	413-420	skrutit	_	Source;Target	9-12[27];9-1[26]	false	2	_	
+9-9	421-423	om	_	_	_	_	_	_	
+9-10	424-427	den	_	_	_	_	_	_	
+9-11	428-429	i	_	_	_	_	_	_	
+9-12	430-444	medierna.Roger	*[27]	_	_	_	_	_	
+9-13	445-451	Mogert	*[27]	_	_	_	_	_	
+9-14	451-452	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	454-455	#	_	_	_	_	_	_	
+10-2	455-456	P	_	_	_	_	_	_	
+10-3	457-460	IMM	_	_	_	_	_	_	
+10-4	460-461	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	463-466	Det	_	_	_	_	_	_	
+11-2	467-470	här	_	_	_	_	_	_	
+11-3	471-473	är	_	_	_	_	_	_	
+11-4	474-476	en	_	_	_	_	_	_	
+11-5	477-491	argumenterande	_	_	_	_	_	_	
+11-6	492-496	text	_	_	_	_	_	_	
+11-7	497-500	med	_	_	_	_	_	_	
+11-8	501-506	syfte	_	_	_	_	_	_	
+11-9	507-510	att	_	_	_	_	_	_	
+11-10	511-518	påverka	_	_	_	_	_	_	
+11-11	518-519	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	520-529	Åsikterna	_	_	_	_	_	_	
+12-2	530-533	som	_	_	_	_	_	_	
+12-3	534-542	uttrycks	_	_	_	_	_	_	
+12-4	543-545	är	_	_	_	_	_	_	
+12-5	546-557	skribentens	_	_	_	_	_	_	
+12-6	558-562	egna	_	_	_	_	_	_	
+12-7	562-563	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	565-566	#	_	_	_	_	_	_	
+13-2	566-567	P	_	_	_	_	_	_	
+13-3	568-571	IMM	_	_	_	_	_	_	
+13-4	571-572	.	_	_	_	_	_	_	
+
+#Text=Nyligen presenterade alliansen i Stockholm genom sin utbildningsförvaltning hur lärarnas nya löneavtal ska tillämpas i Stockholm.
+14-1	574-581	Nyligen	_	_	_	_	_	_	
+14-2	582-594	presenterade	_	_	_	_	_	_	
+14-3	595-604	alliansen	_	_	_	_	_	_	
+14-4	605-606	i	_	_	_	_	_	_	
+14-5	607-616	Stockholm	_	_	_	_	_	_	
+14-6	617-622	genom	_	_	_	_	_	_	
+14-7	623-626	sin	_	_	_	_	_	_	
+14-8	627-649	utbildningsförvaltning	_	_	_	_	_	_	
+14-9	650-653	hur	_	_	_	_	_	_	
+14-10	654-662	lärarnas	_	_	_	_	_	_	
+14-11	663-666	nya	_	_	_	_	_	_	
+14-12	667-676	löneavtal	_	_	_	_	_	_	
+14-13	677-680	ska	_	_	_	_	_	_	
+14-14	681-690	tillämpas	_	_	_	_	_	_	
+14-15	691-692	i	_	_	_	_	_	_	
+14-16	693-702	Stockholm	_	_	_	_	_	_	
+14-17	702-703	.	_	_	_	_	_	_	
+
+#Text=De 4,2 procent som är tänkt som golv blir istället ett tak.
+15-1	704-706	De	_	_	_	_	_	_	
+15-2	707-710	4,2	_	_	_	_	_	_	
+15-3	711-718	procent	_	_	_	_	_	_	
+15-4	719-722	som	_	_	_	_	_	_	
+15-5	723-725	är	_	_	_	_	_	_	
+15-6	726-731	tänkt	_	_	_	_	_	_	
+15-7	732-735	som	_	_	_	_	_	_	
+15-8	736-740	golv	_	_	_	_	_	_	
+15-9	741-745	blir	_	_	_	_	_	_	
+15-10	746-754	istället	_	_	_	_	_	_	
+15-11	755-758	ett	_	_	_	_	_	_	
+15-12	759-762	tak	_	_	_	_	_	_	
+15-13	762-763	.	_	_	_	_	_	_	
+
+#Text=Därutöver pekas 15 skolor ut.
+16-1	764-773	Därutöver	_	_	_	_	_	_	
+16-2	774-779	pekas	_	_	_	_	_	_	
+16-3	780-782	15	_	_	_	_	_	_	
+16-4	783-789	skolor	_	_	_	_	_	_	
+16-5	790-792	ut	_	_	_	_	_	_	
+16-6	792-793	.	_	_	_	_	_	_	
+
+#Text=På åtta av dem menar staden att resultatet är bättre än väntat.
+17-1	794-796	På	_	_	_	_	_	_	
+17-2	797-801	åtta	_	_	_	_	_	_	
+17-3	802-804	av	_	_	_	_	_	_	
+17-4	805-808	dem	_	_	_	_	_	_	
+17-5	809-814	menar	_	_	_	_	_	_	
+17-6	815-821	staden	*	_	_	_	_	_	
+17-7	822-825	att	_	_	_	_	_	_	
+17-8	826-836	resultatet	*	_	_	_	_	_	
+17-9	837-839	är	_	Source;Target[5]	17-6;17-8	false[5]	4[5]	_	
+17-10	840-846	bättre	_	Source;Target[5]	17-6;17-8	false[5]	4[5]	_	
+17-11	847-849	än	_	Source;Target[5]	17-6;17-8	false[5]	4[5]	_	
+17-12	850-856	väntat	_	Source;Target[5]	17-6;17-8	false[5]	4[5]	_	
+17-13	856-857	.	_	_	_	_	_	_	
+
+#Text=Eftersom de styrande i Stockholm uppenbarligen inte har någon vilja att satsa på lärarna i staden måste detta finansieras genom att andra lärare på andra skolor får sämre lön.
+18-1	858-866	Eftersom	_	_	_	_	_	_	
+18-2	867-869	de	*[28]	_	_	_	_	_	
+18-3	870-878	styrande	*[28]	_	_	_	_	_	
+18-4	879-880	i	*[28]	_	_	_	_	_	
+18-5	881-890	Stockholm	*[28]	_	_	_	_	_	
+18-6	891-904	uppenbarligen	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-7	905-909	inte	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-8	910-913	har	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-9	914-919	någon	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-10	920-925	vilja	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-11	926-929	att	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-12	930-935	satsa	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-13	936-938	på	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-14	939-946	lärarna	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-15	947-948	i	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-16	949-955	staden	_	Target[6]	18-2[28]	false[6]	2[6]	_	
+18-17	956-961	måste	_	_	_	_	_	_	
+18-18	962-967	detta	_	_	_	_	_	_	
+18-19	968-979	finansieras	_	_	_	_	_	_	
+18-20	980-985	genom	_	_	_	_	_	_	
+18-21	986-989	att	_	_	_	_	_	_	
+18-22	990-995	andra	_	_	_	_	_	_	
+18-23	996-1002	lärare	_	_	_	_	_	_	
+18-24	1003-1005	på	_	_	_	_	_	_	
+18-25	1006-1011	andra	_	_	_	_	_	_	
+18-26	1012-1018	skolor	_	_	_	_	_	_	
+18-27	1019-1022	får	_	_	_	_	_	_	
+18-28	1023-1028	sämre	_	Target	18-29	false	2	_	
+18-29	1029-1032	lön	*	_	_	_	_	_	
+18-30	1032-1033	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1035-1036	#	_	_	_	_	_	_	
+19-2	1036-1037	P	_	_	_	_	_	_	
+19-3	1038-1041	IMM	_	_	_	_	_	_	
+19-4	1041-1042	.	_	_	_	_	_	_	
+
+#Text=Lärarna på sju skolor pekas därför kollektivt ut som lågpresterande och rektorerna på dessa har fått order om att inte låta genomsnittet på skolan nå upp till avtalet, utan ges lägre lönepåslag.
+20-1	1044-1051	Lärarna	*[29]	_	_	_	_	_	
+20-2	1052-1054	på	*[29]	_	_	_	_	_	
+20-3	1055-1058	sju	*[29]	_	_	_	_	_	
+20-4	1059-1065	skolor	*[29]	_	_	_	_	_	
+20-5	1066-1071	pekas	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-6	1072-1078	därför	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-7	1079-1089	kollektivt	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-8	1090-1092	ut	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-9	1093-1096	som	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-10	1097-1111	lågpresterande	_	Target;Source[7]	20-1[29];20-34	false[7]	2[7]	_	
+20-11	1112-1115	och	_	_	_	_	_	_	
+20-12	1116-1126	rektorerna	_	_	_	_	_	_	
+20-13	1127-1129	på	_	_	_	_	_	_	
+20-14	1130-1135	dessa	_	_	_	_	_	_	
+20-15	1136-1139	har	_	_	_	_	_	_	
+20-16	1140-1144	fått	_	_	_	_	_	_	
+20-17	1145-1150	order	_	_	_	_	_	_	
+20-18	1151-1153	om	_	_	_	_	_	_	
+20-19	1154-1157	att	_	_	_	_	_	_	
+20-20	1158-1162	inte	_	_	_	_	_	_	
+20-21	1163-1167	låta	_	_	_	_	_	_	
+20-22	1168-1180	genomsnittet	_	_	_	_	_	_	
+20-23	1181-1183	på	_	_	_	_	_	_	
+20-24	1184-1190	skolan	_	_	_	_	_	_	
+20-25	1191-1193	nå	_	_	_	_	_	_	
+20-26	1194-1197	upp	_	_	_	_	_	_	
+20-27	1198-1202	till	_	_	_	_	_	_	
+20-28	1203-1210	avtalet	_	_	_	_	_	_	
+20-29	1210-1211	,	_	_	_	_	_	_	
+20-30	1212-1216	utan	_	_	_	_	_	_	
+20-31	1217-1220	ges	_	_	_	_	_	_	
+20-32	1221-1226	lägre	_	_	_	_	_	_	
+20-33	1227-1237	lönepåslag	_	_	_	_	_	_	
+20-34	1237-1238	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1240-1241	#	_	_	_	_	_	_	
+21-2	1241-1242	P	_	_	_	_	_	_	
+21-3	1243-1246	IMM	_	_	_	_	_	_	
+21-4	1246-1247	.	_	_	_	_	_	_	
+
+#Text=Signalen är tydlig och föga överraskande skapade beslutet stor upprördhet.
+22-1	1249-1257	Signalen	_	_	_	_	_	_	
+22-2	1258-1260	är	_	_	_	_	_	_	
+22-3	1261-1267	tydlig	_	_	_	_	_	_	
+22-4	1268-1271	och	_	_	_	_	_	_	
+22-5	1272-1276	föga	_	Target[8]	22-7[30]	false[8]	2[8]	_	
+22-6	1277-1289	överraskande	_	Target[8]	22-7[30]	false[8]	2[8]	_	
+22-7	1290-1297	skapade	*[30]	_	_	_	_	_	
+22-8	1298-1306	beslutet	*[30]	_	_	_	_	_	
+22-9	1307-1311	stor	*[30]	_	_	_	_	_	
+22-10	1312-1322	upprördhet	*[30]	_	_	_	_	_	
+22-11	1322-1323	.	_	_	_	_	_	_	
+
+#Text=Inte bara ifrågasattes om detta var förenligt med avtalets utformning, utan framför allt: Hur motiverade tror man lärarna på de utpekade skolorna känner sig för att gå till jobbet nästa måndagsmorgon, när staden, dessutom ensidigt och till synes godtyckligt, slagit fast att de gör ett dåligt jobb och ska straffas för detta?.
+23-1	1324-1328	Inte	_	_	_	_	_	_	
+23-2	1329-1333	bara	_	_	_	_	_	_	
+23-3	1334-1346	ifrågasattes	_	Source;Target	23-59;23-5[31]	false	2	_	
+23-4	1347-1349	om	_	_	_	_	_	_	
+23-5	1350-1355	detta	*[31]	_	_	_	_	_	
+23-6	1356-1359	var	*[31]	_	_	_	_	_	
+23-7	1360-1369	förenligt	*[31]	_	_	_	_	_	
+23-8	1370-1373	med	*[31]	_	_	_	_	_	
+23-9	1374-1382	avtalets	*[31]	_	_	_	_	_	
+23-10	1383-1393	utformning	*[31]	_	_	_	_	_	
+23-11	1393-1394	,	_	_	_	_	_	_	
+23-12	1395-1399	utan	_	_	_	_	_	_	
+23-13	1400-1407	framför	_	_	_	_	_	_	
+23-14	1408-1412	allt	_	_	_	_	_	_	
+23-15	1412-1413	:	_	_	_	_	_	_	
+23-16	1414-1417	Hur	_	Source[9]	23-20[32]	false[9]	3[9]	_	
+23-17	1418-1428	motiverade	_	Source[9]	23-20[32]	false[9]	3[9]	_	
+23-18	1429-1433	tror	_	_	_	_	_	_	
+23-19	1434-1437	man	_	_	_	_	_	_	
+23-20	1438-1445	lärarna	*[32]	_	_	_	_	_	
+23-21	1446-1448	på	*[32]	_	_	_	_	_	
+23-22	1449-1451	de	*[32]	_	_	_	_	_	
+23-23	1452-1460	utpekade	*[32]	_	_	_	_	_	
+23-24	1461-1469	skolorna	*[32]	_	_	_	_	_	
+23-25	1470-1476	känner	_	_[10]	_	false[10]	3[10]	23-16[9_10]	
+23-26	1477-1480	sig	_	_[10]	_	false[10]	3[10]	_	
+23-27	1481-1484	för	_	_	_	_	_	_	
+23-28	1485-1488	att	_	_	_	_	_	_	
+23-29	1489-1491	gå	_	_	_	_	_	_	
+23-30	1492-1496	till	_	_	_	_	_	_	
+23-31	1497-1503	jobbet	_	_	_	_	_	_	
+23-32	1504-1509	nästa	_	_	_	_	_	_	
+23-33	1510-1523	måndagsmorgon	_	_	_	_	_	_	
+23-34	1523-1524	,	_	_	_	_	_	_	
+23-35	1525-1528	när	_	_	_	_	_	_	
+23-36	1529-1535	staden	*	_	_	_	_	_	
+23-37	1535-1536	,	_	_	_	_	_	_	
+23-38	1537-1545	dessutom	_	_	_	_	_	_	
+23-39	1546-1554	ensidigt	_	_	_	_	_	_	
+23-40	1555-1558	och	_	_	_	_	_	_	
+23-41	1559-1563	till	_	Target[11]	23-36	false[11]	2[11]	_	
+23-42	1564-1569	synes	_	Target[11]	23-36	false[11]	2[11]	_	
+23-43	1570-1581	godtyckligt	_	Target[11]	23-36	false[11]	2[11]	_	
+23-44	1581-1582	,	_	Target[11]	23-36	false[11]	2[11]	_	
+23-45	1583-1589	slagit	_	Target[11]	23-36	false[11]	2[11]	_	
+23-46	1590-1594	fast	_	Target[11]	23-36	false[11]	2[11]	_	
+23-47	1595-1598	att	_	_	_	_	_	_	
+23-48	1599-1601	de	_	_	_	_	_	_	
+23-49	1602-1605	gör	_	Source;Target[12]	23-36;23-20[32]	false[12]	2[12]	_	
+23-50	1606-1609	ett	_	Source;Target[12]	23-36;23-20[32]	false[12]	2[12]	_	
+23-51	1610-1616	dåligt	_	Source;Target[12]	23-36;23-20[32]	false[12]	2[12]	_	
+23-52	1617-1621	jobb	_	Source;Target[12]	23-36;23-20[32]	false[12]	2[12]	_	
+23-53	1622-1625	och	_	_	_	_	_	_	
+23-54	1626-1629	ska	_	_	_	_	_	_	
+23-55	1630-1638	straffas	_	_	_	_	_	_	
+23-56	1639-1642	för	_	_	_	_	_	_	
+23-57	1643-1648	detta	_	_	_	_	_	_	
+23-58	1648-1649	?	_	_	_	_	_	_	
+23-59	1649-1650	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1652-1653	#	_	_	_	_	_	_	
+24-2	1653-1654	P	_	_	_	_	_	_	
+24-3	1655-1658	IMM	_	_	_	_	_	_	
+24-4	1658-1659	.	_	_	_	_	_	_	
+
+#Text=Är detta då en politisk fråga?
+25-1	1661-1663	Är	_	_	_	_	_	_	
+25-2	1664-1669	detta	_	_	_	_	_	_	
+25-3	1670-1672	då	_	_	_	_	_	_	
+25-4	1673-1675	en	_	_	_	_	_	_	
+25-5	1676-1684	politisk	_	_	_	_	_	_	
+25-6	1685-1690	fråga	_	_	_	_	_	_	
+25-7	1690-1691	?	_	_	_	_	_	_	
+
+#Text=Mitt svar är: Ja.
+26-1	1692-1696	Mitt	_	_	_	_	_	_	
+26-2	1697-1701	svar	_	_	_	_	_	_	
+26-3	1702-1704	är	_	_	_	_	_	_	
+26-4	1704-1705	:	_	_	_	_	_	_	
+26-5	1706-1708	Ja	_	_	_	_	_	_	
+26-6	1708-1709	.	_	_	_	_	_	_	
+
+#Text=I vanliga fall undviker ju politiska företrädare, på ganska goda grunder, att lägga sig i lönebildningen.
+27-1	1710-1711	I	_	_	_	_	_	_	
+27-2	1712-1719	vanliga	_	_	_	_	_	_	
+27-3	1720-1724	fall	_	_	_	_	_	_	
+27-4	1725-1733	undviker	_	_	_	_	_	_	
+27-5	1734-1736	ju	_	_	_	_	_	_	
+27-6	1737-1746	politiska	_	_	_	_	_	_	
+27-7	1747-1758	företrädare	_	_	_	_	_	_	
+27-8	1758-1759	,	_	_	_	_	_	_	
+27-9	1760-1762	på	_	_	_	_	_	_	
+27-10	1763-1769	ganska	_	Target[13]	27-12	false[13]	4[13]	_	
+27-11	1770-1774	goda	_	Target[13]	27-12	false[13]	4[13]	_	
+27-12	1775-1782	grunder	*	_	_	_	_	_	
+27-13	1782-1783	,	_	_	_	_	_	_	
+27-14	1784-1787	att	_	_	_	_	_	_	
+27-15	1788-1793	lägga	_	_	_	_	_	_	
+27-16	1794-1797	sig	_	_	_	_	_	_	
+27-17	1798-1799	i	_	_	_	_	_	_	
+27-18	1800-1814	lönebildningen	_	_	_	_	_	_	
+27-19	1814-1815	.	_	_	_	_	_	_	
+
+#Text=Det betyder dock inte att man inte har ansvaret.
+28-1	1816-1819	Det	_	_	_	_	_	_	
+28-2	1820-1827	betyder	_	_	_	_	_	_	
+28-3	1828-1832	dock	_	_	_	_	_	_	
+28-4	1833-1837	inte	_	_	_	_	_	_	
+28-5	1838-1841	att	_	_	_	_	_	_	
+28-6	1842-1845	man	_	_	_	_	_	_	
+28-7	1846-1850	inte	_	_	_	_	_	_	
+28-8	1851-1854	har	_	_	_	_	_	_	
+28-9	1855-1863	ansvaret	_	_	_	_	_	_	
+28-10	1863-1864	.	_	_	_	_	_	_	
+
+#Text=Man kan delegera ett beslut, men man kan inte delegera bort sitt ansvar.
+29-1	1865-1868	Man	_	_	_	_	_	_	
+29-2	1869-1872	kan	_	_	_	_	_	_	
+29-3	1873-1881	delegera	_	_	_	_	_	_	
+29-4	1882-1885	ett	_	_	_	_	_	_	
+29-5	1886-1892	beslut	_	_	_	_	_	_	
+29-6	1892-1893	,	_	_	_	_	_	_	
+29-7	1894-1897	men	_	_	_	_	_	_	
+29-8	1898-1901	man	_	_	_	_	_	_	
+29-9	1902-1905	kan	_	_	_	_	_	_	
+29-10	1906-1910	inte	_	_	_	_	_	_	
+29-11	1911-1919	delegera	_	_	_	_	_	_	
+29-12	1920-1924	bort	_	_	_	_	_	_	
+29-13	1925-1929	sitt	_	_	_	_	_	_	
+29-14	1930-1936	ansvar	_	_	_	_	_	_	
+29-15	1936-1937	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1939-1940	#	_	_	_	_	_	_	
+30-2	1940-1941	P	_	_	_	_	_	_	
+30-3	1942-1945	IMM	_	_	_	_	_	_	
+30-4	1945-1946	.	_	_	_	_	_	_	
+
+#Text=Nyligen ansåg skolborgarrådet Lotta Edholm (FP) dessutom själv att lönebildningen är en politisk fråga.
+31-1	1948-1955	Nyligen	_	_	_	_	_	_	
+31-2	1956-1961	ansåg	_	_	_	_	_	_	
+31-3	1962-1977	skolborgarrådet	_	_	_	_	_	_	
+31-4	1978-1983	Lotta	_	_	_	_	_	_	
+31-5	1984-1990	Edholm	_	_	_	_	_	_	
+31-6	1991-1992	(	_	_	_	_	_	_	
+31-7	1992-1994	FP	_	_	_	_	_	_	
+31-8	1994-1995	)	_	_	_	_	_	_	
+31-9	1996-2004	dessutom	_	_	_	_	_	_	
+31-10	2005-2010	själv	_	_	_	_	_	_	
+31-11	2011-2014	att	_	_	_	_	_	_	
+31-12	2015-2029	lönebildningen	_	_	_	_	_	_	
+31-13	2030-2032	är	_	_	_	_	_	_	
+31-14	2033-2035	en	_	_	_	_	_	_	
+31-15	2036-2044	politisk	_	_	_	_	_	_	
+31-16	2045-2050	fråga	_	_	_	_	_	_	
+31-17	2050-2051	.	_	_	_	_	_	_	
+
+#Text=För bara några veckor sedan skrev hon tillsammans med bland annat finansborgarrådet Sten Nordin (M) en debattartikel som publiceradespå SvD Brännpunkt 1/10.
+32-1	2052-2055	För	_	_	_	_	_	_	
+32-2	2056-2060	bara	_	_	_	_	_	_	
+32-3	2061-2066	några	_	_	_	_	_	_	
+32-4	2067-2073	veckor	_	_	_	_	_	_	
+32-5	2074-2079	sedan	_	_	_	_	_	_	
+32-6	2080-2085	skrev	_	_	_	_	_	_	
+32-7	2086-2089	hon	_	_	_	_	_	_	
+32-8	2090-2101	tillsammans	_	_	_	_	_	_	
+32-9	2102-2105	med	_	_	_	_	_	_	
+32-10	2106-2111	bland	_	_	_	_	_	_	
+32-11	2112-2117	annat	_	_	_	_	_	_	
+32-12	2118-2135	finansborgarrådet	_	_	_	_	_	_	
+32-13	2136-2140	Sten	_	_	_	_	_	_	
+32-14	2141-2147	Nordin	_	_	_	_	_	_	
+32-15	2148-2149	(	_	_	_	_	_	_	
+32-16	2149-2150	M	_	_	_	_	_	_	
+32-17	2150-2151	)	_	_	_	_	_	_	
+32-18	2152-2154	en	_	_	_	_	_	_	
+32-19	2155-2168	debattartikel	_	_	_	_	_	_	
+32-20	2169-2172	som	_	_	_	_	_	_	
+32-21	2173-2187	publiceradespå	_	_	_	_	_	_	
+32-22	2188-2191	SvD	_	_	_	_	_	_	
+32-23	2192-2202	Brännpunkt	_	_	_	_	_	_	
+32-24	2203-2204	1	_	_	_	_	_	_	
+32-25	2204-2205	/	_	_	_	_	_	_	
+32-26	2205-2207	10	_	_	_	_	_	_	
+32-27	2207-2208	.	_	_	_	_	_	_	
+
+#Text="Nu höjer vi lärarlönerna i Stockholm", var rubriken.
+33-1	2209-2210	"	_	_	_	_	_	_	
+33-2	2210-2212	Nu	_	_	_	_	_	_	
+33-3	2213-2218	höjer	_	_	_	_	_	_	
+33-4	2219-2221	vi	_	_	_	_	_	_	
+33-5	2222-2234	lärarlönerna	_	_	_	_	_	_	
+33-6	2235-2236	i	_	_	_	_	_	_	
+33-7	2237-2246	Stockholm	_	_	_	_	_	_	
+33-8	2246-2247	"	_	_	_	_	_	_	
+33-9	2247-2248	,	_	_	_	_	_	_	
+33-10	2249-2252	var	_	_	_	_	_	_	
+33-11	2253-2261	rubriken	_	_	_	_	_	_	
+33-12	2261-2262	.	_	_	_	_	_	_	
+
+#Text=Hon lovar att "hedra avtalet" och påstår sig satsa stora pengar på att ge stadens lärare rejäla löneökningar.
+34-1	2263-2266	Hon	*	_	_	_	_	_	
+34-2	2267-2272	lovar	_	_	_	_	_	_	
+34-3	2273-2276	att	_	_	_	_	_	_	
+34-4	2277-2278	"	_	_	_	_	_	_	
+34-5	2278-2283	hedra	_	Source;Target	34-1;34-6	false	5	_	
+34-6	2284-2291	avtalet	*	_	_	_	_	_	
+34-7	2291-2292	"	_	_	_	_	_	_	
+34-8	2293-2296	och	_	_	_	_	_	_	
+34-9	2297-2303	påstår	_	_	_	_	_	_	
+34-10	2304-2307	sig	_	_	_	_	_	_	
+34-11	2308-2313	satsa	_	_	_	_	_	_	
+34-12	2314-2319	stora	_	_	_	_	_	_	
+34-13	2320-2326	pengar	_	_	_	_	_	_	
+34-14	2327-2329	på	_	_	_	_	_	_	
+34-15	2330-2333	att	_	_	_	_	_	_	
+34-16	2334-2336	ge	_	_	_	_	_	_	
+34-17	2337-2344	stadens	_	_	_	_	_	_	
+34-18	2345-2351	lärare	_	_	_	_	_	_	
+34-19	2352-2358	rejäla	_	_	_	_	_	_	
+34-20	2359-2371	löneökningar	_	_	_	_	_	_	
+34-21	2371-2372	.	_	_	_	_	_	_	
+
+#Text=Edholm argumenterar till och med för det som senare ska kritiseras: "Löneskillnaderna bland lärarna minskar över tid.
+35-1	2373-2379	Edholm	*	_	_	_	_	_	
+35-2	2380-2392	argumenterar	_	_	_	_	_	_	
+35-3	2393-2397	till	_	_	_	_	_	_	
+35-4	2398-2401	och	_	_	_	_	_	_	
+35-5	2402-2405	med	_	_	_	_	_	_	
+35-6	2406-2409	för	_	_	_	_	_	_	
+35-7	2410-2413	det	_	_	_	_	_	_	
+35-8	2414-2417	som	_	_	_	_	_	_	
+35-9	2418-2424	senare	_	_	_	_	_	_	
+35-10	2425-2428	ska	_	_	_	_	_	_	
+35-11	2429-2439	kritiseras	_	Target	35-14[33]	false	2	_	
+35-12	2439-2440	:	_	_	_	_	_	_	
+35-13	2441-2442	"	_	_	_	_	_	_	
+35-14	2442-2458	Löneskillnaderna	*[33]	_	_	_	_	_	
+35-15	2459-2464	bland	*[33]	_	_	_	_	_	
+35-16	2465-2472	lärarna	*[33]	_	_	_	_	_	
+35-17	2473-2480	minskar	*[33]	_	_	_	_	_	
+35-18	2481-2485	över	*[33]	_	_	_	_	_	
+35-19	2486-2489	tid	*[33]	_	_	_	_	_	
+35-20	2489-2490	.	_	_	_	_	_	_	
+
+#Text=Det går inte att försvara när man förstår vikten av bra lärare och tror att lön är en viktig drivkraft", lät det då.
+36-1	2491-2494	Det	_	_	_	_	_	_	
+36-2	2495-2498	går	_	_	_	_	_	_	
+36-3	2499-2503	inte	_	_	_	_	_	_	
+36-4	2504-2507	att	_	_	_	_	_	_	
+36-5	2508-2516	försvara	_	_	_	_	_	_	
+36-6	2517-2520	när	_	_	_	_	_	_	
+36-7	2521-2524	man	_	_	_	_	_	_	
+36-8	2525-2532	förstår	_	_	_	_	_	_	
+36-9	2533-2539	vikten	_	_	_	_	_	_	
+36-10	2540-2542	av	_	_	_	_	_	_	
+36-11	2543-2546	bra	_	Target;Source	36-12;35-1	false	4	_	
+36-12	2547-2553	lärare	*	_	_	_	_	_	
+36-13	2554-2557	och	_	_	_	_	_	_	
+36-14	2558-2562	tror	_	_	_	_	_	_	
+36-15	2563-2566	att	_	_	_	_	_	_	
+36-16	2567-2570	lön	_	_	_	_	_	_	
+36-17	2571-2573	är	_	_	_	_	_	_	
+36-18	2574-2576	en	_	_	_	_	_	_	
+36-19	2577-2583	viktig	_	_	_	_	_	_	
+36-20	2584-2593	drivkraft	_	_	_	_	_	_	
+36-21	2593-2594	"	_	_	_	_	_	_	
+36-22	2594-2595	,	_	_	_	_	_	_	
+36-23	2596-2599	lät	_	_	_	_	_	_	
+36-24	2600-2603	det	_	_	_	_	_	_	
+36-25	2604-2606	då	_	_	_	_	_	_	
+36-26	2606-2607	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2609-2610	#	_	_	_	_	_	_	
+37-2	2610-2611	P	_	_	_	_	_	_	
+37-3	2612-2615	IMM	_	_	_	_	_	_	
+37-4	2615-2616	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	2618-2631	Skräddarsydda	_	_	_	_	_	_	
+38-2	2632-2638	kurser	_	_	_	_	_	_	
+38-3	2639-2640	i	_	_	_	_	_	_	
+38-4	2641-2646	ämnen	_	_	_	_	_	_	
+38-5	2647-2650	som	_	_	_	_	_	_	
+38-6	2651-2662	intresserar	_	_	_	_	_	_	
+38-7	2663-2666	och	_	_	_	_	_	_	
+38-8	2667-2676	engagerar	_	_	_	_	_	_	
+38-9	2677-2681	både	_	_	_	_	_	_	
+38-10	2682-2687	kropp	_	_	_	_	_	_	
+38-11	2688-2691	och	_	_	_	_	_	_	
+38-12	2692-2696	själ	_	_	_	_	_	_	
+38-13	2696-2697	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2699-2700	#	_	_	_	_	_	_	
+39-2	2700-2701	P	_	_	_	_	_	_	
+39-3	2702-2705	IMM	_	_	_	_	_	_	
+39-4	2705-2706	.	_	_	_	_	_	_	
+
+#Text=Nu när kritiska röster höjs mot resultatet av den politik hon förespråkat, tycker skolborgarrådet uppenbarligen att det är obehagligt att vara ansvarig.
+40-1	2708-2710	Nu	_	_	_	_	_	_	
+40-2	2711-2714	när	_	_	_	_	_	_	
+40-3	2715-2723	kritiska	_	Target;Source[14]	40-6[34];40-24	false[14]	2[14]	_	
+40-4	2724-2730	röster	_	Target;Source[14]	40-6[34];40-24	false[14]	2[14]	_	
+40-5	2731-2735	höjs	_	Target;Source[14]	40-6[34];40-24	false[14]	2[14]	_	
+40-6	2736-2739	mot	*[34]	_	_	_	_	_	
+40-7	2740-2750	resultatet	*[34]	_	_	_	_	_	
+40-8	2751-2753	av	*[34]	_	_	_	_	_	
+40-9	2754-2757	den	*[34]	_	_	_	_	_	
+40-10	2758-2765	politik	*[34]	_	_	_	_	_	
+40-11	2766-2769	hon	*[34]	_	_	_	_	_	
+40-12	2770-2781	förespråkat	*[34]	_	_	_	_	_	
+40-13	2781-2782	,	_	_	_	_	_	_	
+40-14	2783-2789	tycker	_	Target	40-15	false	2	_	
+40-15	2790-2805	skolborgarrådet	*	_	_	_	_	_	
+40-16	2806-2819	uppenbarligen	_	_[15]	_	false[15]	2[15]	40-14[0_15]	
+40-17	2820-2823	att	_	_[15]	_	false[15]	2[15]	_	
+40-18	2824-2827	det	_	_[15]	_	false[15]	2[15]	_	
+40-19	2828-2830	är	_	_[15]	_	false[15]	2[15]	_	
+40-20	2831-2841	obehagligt	_	_[15]	_	false[15]	2[15]	_	
+40-21	2842-2845	att	_	_[15]	_	false[15]	2[15]	_	
+40-22	2846-2850	vara	_	_[15]	_	false[15]	2[15]	_	
+40-23	2851-2859	ansvarig	_	_[15]	_	false[15]	2[15]	_	
+40-24	2859-2860	.	*	_	_	_	_	_	
+
+#Text=Då gör sig Lotta Edholm oåtkomlig.
+41-1	2861-2863	Då	_	_	_	_	_	_	
+41-2	2864-2867	gör	_	_	_	_	_	_	
+41-3	2868-2871	sig	_	_	_	_	_	_	
+41-4	2872-2877	Lotta	_	_	_	_	_	_	
+41-5	2878-2884	Edholm	_	_	_	_	_	_	
+41-6	2885-2894	oåtkomlig	_	_	_	_	_	_	
+41-7	2894-2895	.	_	_	_	_	_	_	
+
+#Text=Hon framställer sig som långt borta från verksamheten och skjuter ansvaret nedåt i organisationen.
+42-1	2896-2899	Hon	*	_	_	_	_	_	
+42-2	2900-2911	framställer	_	_	_	_	_	_	
+42-3	2912-2915	sig	_	_	_	_	_	_	
+42-4	2916-2919	som	_	_	_	_	_	_	
+42-5	2920-2925	långt	_	_	_	_	_	_	
+42-6	2926-2931	borta	_	_	_	_	_	_	
+42-7	2932-2936	från	_	_	_	_	_	_	
+42-8	2937-2949	verksamheten	_	_	_	_	_	_	
+42-9	2950-2953	och	_	_	_	_	_	_	
+42-10	2954-2961	skjuter	_	_	_	_	_	_	
+42-11	2962-2970	ansvaret	_	_	_	_	_	_	
+42-12	2971-2976	nedåt	_	_	_	_	_	_	
+42-13	2977-2978	i	_	_	_	_	_	_	
+42-14	2979-2993	organisationen	_	_	_	_	_	_	
+42-15	2993-2994	.	_	Target	42-1	false	2	_	
+
+#Text=#P IMM.
+43-1	2996-2997	#	_	_	_	_	_	_	
+43-2	2997-2998	P	_	_	_	_	_	_	
+43-3	2999-3002	IMM	_	_	_	_	_	_	
+43-4	3002-3003	.	_	_	_	_	_	_	
+
+#Text=Det duger naturligtvis inte.
+44-1	3005-3008	Det	*	_	_	_	_	_	
+44-2	3009-3014	duger	_	Target[16]	44-1	false[16]	2[16]	_	
+44-3	3015-3027	naturligtvis	_	Target[16]	44-1	false[16]	2[16]	_	
+44-4	3028-3032	inte	_	Target[16]	44-1	false[16]	2[16]	_	
+44-5	3032-3033	.	_	_	_	_	_	_	
+
+#Text=Lotta Edholm har skapat modellen.
+45-1	3034-3039	Lotta	_	_	_	_	_	_	
+45-2	3040-3046	Edholm	_	_	_	_	_	_	
+45-3	3047-3050	har	_	_	_	_	_	_	
+45-4	3051-3057	skapat	_	_	_	_	_	_	
+45-5	3058-3066	modellen	_	_	_	_	_	_	
+45-6	3066-3067	.	_	_	_	_	_	_	
+
+#Text=Hon har skrutit om den i medierna.
+46-1	3068-3071	Hon	*	_	_	_	_	_	
+46-2	3072-3075	har	_	_	_	_	_	_	
+46-3	3076-3083	skrutit	_	Target	46-1	false	2	_	
+46-4	3084-3086	om	_	_	_	_	_	_	
+46-5	3087-3090	den	_	_	_	_	_	_	
+46-6	3091-3092	i	_	_	_	_	_	_	
+46-7	3093-3101	medierna	_	_	_	_	_	_	
+46-8	3101-3102	.	_	_	_	_	_	_	
+
+#Text=Hennes jobb som skolborgarråd kan rimligen inte bara bestå av att klippa band vid invigningar.
+47-1	3103-3109	Hennes	_	_	_	_	_	_	
+47-2	3110-3114	jobb	_	_	_	_	_	_	
+47-3	3115-3118	som	_	_	_	_	_	_	
+47-4	3119-3132	skolborgarråd	_	_	_	_	_	_	
+47-5	3133-3136	kan	_	_	_	_	_	_	
+47-6	3137-3145	rimligen	_	_	_	_	_	_	
+47-7	3146-3150	inte	_	_	_	_	_	_	
+47-8	3151-3155	bara	_	_	_	_	_	_	
+47-9	3156-3161	bestå	_	_	_	_	_	_	
+47-10	3162-3164	av	_	_	_	_	_	_	
+47-11	3165-3168	att	_	_	_	_	_	_	
+47-12	3169-3175	klippa	_	_	_	_	_	_	
+47-13	3176-3180	band	_	_	_	_	_	_	
+47-14	3181-3184	vid	_	_	_	_	_	_	
+47-15	3185-3196	invigningar	_	_	_	_	_	_	
+47-16	3196-3197	.	_	_	_	_	_	_	
+
+#Text=Den som fattat ett beslut är givetvis ansvarig också för de problem som uppstår som konsekvens av beslutet.
+48-1	3198-3201	Den	_	_	_	_	_	_	
+48-2	3202-3205	som	_	_	_	_	_	_	
+48-3	3206-3212	fattat	_	_	_	_	_	_	
+48-4	3213-3216	ett	_	_	_	_	_	_	
+48-5	3217-3223	beslut	_	_	_	_	_	_	
+48-6	3224-3226	är	_	_	_	_	_	_	
+48-7	3227-3235	givetvis	_	_	_	_	_	_	
+48-8	3236-3244	ansvarig	_	_	_	_	_	_	
+48-9	3245-3250	också	_	_	_	_	_	_	
+48-10	3251-3254	för	_	_	_	_	_	_	
+48-11	3255-3257	de	_	_	_	_	_	_	
+48-12	3258-3265	problem	_	Target[17]	48-18	false[17]	2[17]	_	
+48-13	3266-3269	som	_	Target[17]	48-18	false[17]	2[17]	_	
+48-14	3270-3277	uppstår	_	Target[17]	48-18	false[17]	2[17]	_	
+48-15	3278-3281	som	_	Target[17]	48-18	false[17]	2[17]	_	
+48-16	3282-3292	konsekvens	_	Target[17]	48-18	false[17]	2[17]	_	
+48-17	3293-3295	av	_	_	_	_	_	_	
+48-18	3296-3304	beslutet	*	_	_	_	_	_	
+48-19	3304-3305	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3307-3308	#	_	_	_	_	_	_	
+49-2	3308-3309	P	_	_	_	_	_	_	
+49-3	3310-3313	IMM	_	_	_	_	_	_	
+49-4	3313-3314	.	_	_	_	_	_	_	
+
+#Text=Som jag ser det har skolborgarrådet nu två valmöjligheter: Antingen kan hon stå för det hon gjort och ta debatten om konsekvenserna av den förda politiken.
+50-1	3316-3319	Som	_	_	_	_	_	_	
+50-2	3320-3323	jag	_	_	_	_	_	_	
+50-3	3324-3327	ser	_	_	_	_	_	_	
+50-4	3328-3331	det	_	_	_	_	_	_	
+50-5	3332-3335	har	_	_	_	_	_	_	
+50-6	3336-3351	skolborgarrådet	_	_	_	_	_	_	
+50-7	3352-3354	nu	_	_	_	_	_	_	
+50-8	3355-3358	två	_	_	_	_	_	_	
+50-9	3359-3373	valmöjligheter	_	_	_	_	_	_	
+50-10	3373-3374	:	_	_	_	_	_	_	
+50-11	3375-3383	Antingen	_	_	_	_	_	_	
+50-12	3384-3387	kan	_	_	_	_	_	_	
+50-13	3388-3391	hon	_	_	_	_	_	_	
+50-14	3392-3395	stå	_	_	_	_	_	_	
+50-15	3396-3399	för	_	_	_	_	_	_	
+50-16	3400-3403	det	_	_	_	_	_	_	
+50-17	3404-3407	hon	_	_	_	_	_	_	
+50-18	3408-3413	gjort	_	_	_	_	_	_	
+50-19	3414-3417	och	_	_	_	_	_	_	
+50-20	3418-3420	ta	_	_	_	_	_	_	
+50-21	3421-3429	debatten	_	_	_	_	_	_	
+50-22	3430-3432	om	_	_	_	_	_	_	
+50-23	3433-3447	konsekvenserna	_	_	_	_	_	_	
+50-24	3448-3450	av	_	_	_	_	_	_	
+50-25	3451-3454	den	_	_	_	_	_	_	
+50-26	3455-3460	förda	_	_	_	_	_	_	
+50-27	3461-3470	politiken	_	_	_	_	_	_	
+50-28	3470-3471	.	_	_	_	_	_	_	
+
+#Text=Eller så kan hon be lärarkåren i Stockholm om ursäkt, medge att det inte blev som hon tänkt sig och dra tillbaka förslaget om att kollektivt peka ut lärarna på sju av stadens skolor som dåliga lärare.
+51-1	3472-3477	Eller	_	_	_	_	_	_	
+51-2	3478-3480	så	_	_	_	_	_	_	
+51-3	3481-3484	kan	_	_	_	_	_	_	
+51-4	3485-3488	hon	*	_	_	_	_	_	
+51-5	3489-3491	be	_	_	_	_	_	_	
+51-6	3492-3502	lärarkåren	_	_	_	_	_	_	
+51-7	3503-3504	i	_	_	_	_	_	_	
+51-8	3505-3514	Stockholm	_	_	_	_	_	_	
+51-9	3515-3517	om	_	_	_	_	_	_	
+51-10	3518-3524	ursäkt	_	_	_	_	_	_	
+51-11	3524-3525	,	_	_	_	_	_	_	
+51-12	3526-3531	medge	_	Target	51-14[35]	false	2	_	
+51-13	3532-3535	att	_	_	_	_	_	_	
+51-14	3536-3539	det	*[35]	_	_	_	_	_	
+51-15	3540-3544	inte	*[35]	_	_	_	_	_	
+51-16	3545-3549	blev	*[35]	_	_	_	_	_	
+51-17	3550-3553	som	*[35]	_	_	_	_	_	
+51-18	3554-3557	hon	*[35]	_	_	_	_	_	
+51-19	3558-3563	tänkt	*[35]	_	_	_	_	_	
+51-20	3564-3567	sig	*[35]	_	_	_	_	_	
+51-21	3568-3571	och	_	_	_	_	_	_	
+51-22	3572-3575	dra	_	_	_	_	_	_	
+51-23	3576-3584	tillbaka	_	_	_	_	_	_	
+51-24	3585-3594	förslaget	_	_	_	_	_	_	
+51-25	3595-3597	om	_	_	_	_	_	_	
+51-26	3598-3601	att	_	_	_	_	_	_	
+51-27	3602-3612	kollektivt	_	_	_	_	_	_	
+51-28	3613-3617	peka	_	_[18]	_	false[18]	2[18]	_	
+51-29	3618-3620	ut	_	_[18]	_	false[18]	2[18]	_	
+51-30	3621-3628	lärarna	*[36]	_	_	_	_	_	
+51-31	3629-3631	på	*[36]	_	_	_	_	_	
+51-32	3632-3635	sju	*[36]	_	_	_	_	_	
+51-33	3636-3638	av	*[36]	_	_	_	_	_	
+51-34	3639-3646	stadens	*[36]	_	_	_	_	_	
+51-35	3647-3653	skolor	*[36]	_	_	_	_	_	
+51-36	3654-3657	som	_	_	_	_	_	_	
+51-37	3658-3664	dåliga	_	Source;Target[19]	51-4;51-30[36]	false[19]	2[19]	51-28[18_19]	
+51-38	3665-3671	lärare	_	Source;Target[19]	51-4;51-30[36]	false[19]	2[19]	_	
+51-39	3671-3672	.	_	_	_	_	_	_	
+
+#Text=I längden kan inte ett borgarråd i Stockholm gömma sig bakom sina tjänstemän.
+52-1	3673-3674	I	_	_	_	_	_	_	
+52-2	3675-3682	längden	_	_	_	_	_	_	
+52-3	3683-3686	kan	_	_	_	_	_	_	
+52-4	3687-3691	inte	_	_	_	_	_	_	
+52-5	3692-3695	ett	_	_	_	_	_	_	
+52-6	3696-3705	borgarråd	*	_	_	_	_	_	
+52-7	3706-3707	i	_	_	_	_	_	_	
+52-8	3708-3717	Stockholm	_	_	_	_	_	_	
+52-9	3718-3723	gömma	_	Target[20]	52-6	false[20]	2[20]	_	
+52-10	3724-3727	sig	_	Target[20]	52-6	false[20]	2[20]	_	
+52-11	3728-3733	bakom	_	Target[20]	52-6	false[20]	2[20]	_	
+52-12	3734-3738	sina	_	Target[20]	52-6	false[20]	2[20]	_	
+52-13	3739-3749	tjänstemän	_	Target[20]	52-6	false[20]	2[20]	_	
+52-14	3749-3750	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3752-3753	#	_	_	_	_	_	_	
+53-2	3753-3754	P	_	_	_	_	_	_	
+53-3	3755-3758	IMM	_	_	_	_	_	_	
+53-4	3758-3759	.	_	_	_	_	_	_	
+
+#Text=ROGER MOGERT (S).
+54-1	3761-3766	ROGER	_	_	_	_	_	_	
+54-2	3767-3773	MOGERT	_	_	_	_	_	_	
+54-3	3774-3775	(	_	_	_	_	_	_	
+54-4	3775-3776	S	_	_	_	_	_	_	
+54-5	3776-3777	)	_	_	_	_	_	_	
+54-6	3777-3778	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3780-3781	#	_	_	_	_	_	_	
+55-2	3781-3782	P	_	_	_	_	_	_	
+55-3	3783-3786	IMM	_	_	_	_	_	_	
+55-4	3786-3787	.	_	_	_	_	_	_	
+
+#Text=oppositionsborgarråd.
+56-1	3789-3809	oppositionsborgarråd	_	_	_	_	_	_	
+56-2	3809-3810	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	3812-3813	#	_	_	_	_	_	_	
+57-2	3813-3814	P	_	_	_	_	_	_	
+57-3	3815-3818	IMM	_	_	_	_	_	_	
+57-4	3818-3819	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+58-1	3821-3829	Redaktör	_	_	_	_	_	_	
+58-2	3829-3830	:	_	_	_	_	_	_	
+58-3	3831-3837	Carina	_	_	_	_	_	_	
+58-4	3838-3846	Stensson	_	_	_	_	_	_	
+58-5	3846-3847	,	_	_	_	_	_	_	
+58-6	3848-3858	Biträdande	_	_	_	_	_	_	
+58-7	3859-3867	redaktör	_	_	_	_	_	_	
+58-8	3867-3868	:	_	_	_	_	_	_	
+58-9	3869-3874	Björn	_	_	_	_	_	_	
+58-10	3875-3881	Jorner	_	_	_	_	_	_	
+58-11	3881-3882	,	_	_	_	_	_	_	
+58-12	3883-3887	Mejl	_	_	_	_	_	_	
+58-13	3887-3888	:	_	_	_	_	_	_	
+58-14	3889-3895	debatt	_	_	_	_	_	_	
+58-15	3895-3896	@	_	_	_	_	_	_	
+58-16	3896-3902	svd.se	_	_	_	_	_	_	
+58-17	3902-3903	,	_	_	_	_	_	_	
+58-18	3904-3917	Telefonnummer	_	_	_	_	_	_	
+58-19	3917-3918	:	_	_	_	_	_	_	
+58-20	3919-3921	08	_	_	_	_	_	_	
+58-21	3921-3922	-	_	_	_	_	_	_	
+58-22	3922-3928	135149	_	_	_	_	_	_	
+58-23	3928-3929	,	_	_	_	_	_	_	
+58-24	3930-3937	Twitter	_	_	_	_	_	_	
+58-25	3937-3938	:	_	_	_	_	_	_	
+58-26	3939-3940	@	_	_	_	_	_	_	
+58-27	3940-3949	SvDDebatt	_	_	_	_	_	_	
+58-28	3949-3950	,	_	_	_	_	_	_	
+58-29	3951-3959	Facebook	_	_	_	_	_	_	
+58-30	3959-3960	:	_	_	_	_	_	_	
+58-31	3961-3964	SvD	_	_	_	_	_	_	
+58-32	3965-3971	Debatt	_	_	_	_	_	_	
+58-33	3971-3972	.	_	_	_	_	_	_	

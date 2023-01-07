@@ -1,0 +1,436 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	4[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	4[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vi är redo att skapa enklare vägar till jobb.
+3-1	18-20	Vi	*	_	_	_	_	
+3-2	21-23	är	_	Source;Target[2]	3-1;3-5[14]	false[2]	4[2]	
+3-3	24-28	redo	_	Source;Target[2]	3-1;3-5[14]	false[2]	4[2]	
+3-4	29-32	att	_	_	_	_	_	
+3-5	33-38	skapa	*[14]	_	_	_	_	
+3-6	39-46	enklare	*[14]	_	_	_	_	
+3-7	47-52	vägar	*[14]	_	_	_	_	
+3-8	53-57	till	*[14]	_	_	_	_	
+3-9	58-62	jobb	*[14]	_	_	_	_	
+3-10	62-63	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	
+4-2	66-67	P	_	_[3]	_	false[3]	4[3]	
+4-3	68-71	IMM	_	_[3]	_	false[3]	4[3]	
+4-4	71-72	.	_	_	_	_	_	
+
+#Text=REPLIK.
+5-1	74-80	REPLIK	_	_	_	_	_	
+5-2	80-81	.	_	_	_	_	_	
+
+#Text=Vi är precis som Svenskt Näringsliv medvetna om att en stor del av de nyanlända saknar de kunskaper och färdigheter som krävs på den kunskapsintensiva arbetsmarknaden.
+6-1	82-84	Vi	_	_	_	_	_	
+6-2	85-87	är	_	_	_	_	_	
+6-3	88-94	precis	_	_	_	_	_	
+6-4	95-98	som	_	_	_	_	_	
+6-5	99-106	Svenskt	_	_	_	_	_	
+6-6	107-117	Näringsliv	_	_	_	_	_	
+6-7	118-126	medvetna	_	_	_	_	_	
+6-8	127-129	om	_	_	_	_	_	
+6-9	130-133	att	_	_	_	_	_	
+6-10	134-136	en	_	_	_	_	_	
+6-11	137-141	stor	_	_	_	_	_	
+6-12	142-145	del	_	_	_	_	_	
+6-13	146-148	av	_	_	_	_	_	
+6-14	149-151	de	_	_	_	_	_	
+6-15	152-161	nyanlända	_	_	_	_	_	
+6-16	162-168	saknar	_	_	_	_	_	
+6-17	169-171	de	_	_	_	_	_	
+6-18	172-181	kunskaper	_	_	_	_	_	
+6-19	182-185	och	_	_	_	_	_	
+6-20	186-197	färdigheter	_	_	_	_	_	
+6-21	198-201	som	_	_	_	_	_	
+6-22	202-207	krävs	_	_	_	_	_	
+6-23	208-210	på	_	_	_	_	_	
+6-24	211-214	den	_	_	_	_	_	
+6-25	215-232	kunskapsintensiva	_	_	_	_	_	
+6-26	233-248	arbetsmarknaden	_	_	_	_	_	
+6-27	248-249	.	_	_	_	_	_	
+
+#Text=Det behövs därför nya enklare vägar till jobb och utbildning så att dessa människor inte riskerar att ställas utanför.
+7-1	250-253	Det	_	_	_	_	_	
+7-2	254-260	behövs	_	Target	7-4[15]	false	4	
+7-3	261-267	därför	_	_	_	_	_	
+7-4	268-271	nya	*[15]	_	_	_	_	
+7-5	272-279	enklare	*[15]	_	_	_	_	
+7-6	280-285	vägar	*[15]	_	_	_	_	
+7-7	286-290	till	*[15]	_	_	_	_	
+7-8	291-295	jobb	*[15]	_	_	_	_	
+7-9	296-299	och	*[15]	_	_	_	_	
+7-10	300-310	utbildning	*[15]	_	_	_	_	
+7-11	311-313	så	_	_	_	_	_	
+7-12	314-317	att	_	_	_	_	_	
+7-13	318-323	dessa	_	Target[4]	7-18[16]	false[4]	2[4]	
+7-14	324-333	människor	_	Target[4]	7-18[16]	false[4]	2[4]	
+7-15	334-338	inte	_	Target[4]	7-18[16]	false[4]	2[4]	
+7-16	339-347	riskerar	_	Target[4]	7-18[16]	false[4]	2[4]	
+7-17	348-351	att	_	_	_	_	_	
+7-18	352-359	ställas	*[16]	_	_	_	_	
+7-19	360-367	utanför	*[16]	_	_	_	_	
+7-20	367-368	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	370-371	#	_	_	_	_	_	
+8-2	371-372	P	_	_[5]	_	false[5]	4[5]	
+8-3	373-376	IMM	_	_[5]	_	false[5]	4[5]	
+8-4	376-377	.	_	_[5]	_	false[5]	4[5]	
+
+#Text=Att vi från LO inte skulle vara villiga att diskutera verkningsfulla åtgärder för fler jobb för dem med allra lägst utbildning, som Svenskt Näringslivs vd Carola Lemne vill påskina, är falskt.
+9-1	379-382	Att	_	_	_	_	_	
+9-2	383-385	vi	_	_	_	_	_	
+9-3	386-390	från	_	_	_	_	_	
+9-4	391-393	LO	*[17]	_	_	_	_	
+9-5	394-398	inte	*[17]	_	_	_	_	
+9-6	399-405	skulle	*[17]	_	_	_	_	
+9-7	406-410	vara	*[17]	_	_	_	_	
+9-8	411-418	villiga	*[17]	_	_	_	_	
+9-9	419-422	att	*[17]	_	_	_	_	
+9-10	423-432	diskutera	*[17]	_	_	_	_	
+9-11	433-447	verkningsfulla	*[17]	_	_	_	_	
+9-12	448-456	åtgärder	*[17]	_	_	_	_	
+9-13	457-460	för	*[17]	_	_	_	_	
+9-14	461-465	fler	*[17]	_	_	_	_	
+9-15	466-470	jobb	*[17]	_	_	_	_	
+9-16	471-474	för	*[17]	_	_	_	_	
+9-17	475-478	dem	*[17]	_	_	_	_	
+9-18	479-482	med	*[17]	_	_	_	_	
+9-19	483-488	allra	*[17]	_	_	_	_	
+9-20	489-494	lägst	*[17]	_	_	_	_	
+9-21	495-505	utbildning	*[17]	_	_	_	_	
+9-22	505-506	,	_	_	_	_	_	
+9-23	507-510	som	_	_	_	_	_	
+9-24	511-518	Svenskt	_	_	_	_	_	
+9-25	519-530	Näringslivs	_	_	_	_	_	
+9-26	531-533	vd	_	_	_	_	_	
+9-27	534-540	Carola	_	_	_	_	_	
+9-28	541-546	Lemne	_	_	_	_	_	
+9-29	547-551	vill	_	_	_	_	_	
+9-30	552-559	påskina	_	_	_	_	_	
+9-31	559-560	,	_	_	_	_	_	
+9-32	561-563	är	_	Target[6]	9-4[17]	false[6]	2[6]	
+9-33	564-570	falskt	_	Target[6]	9-4[17]	false[6]	2[6]	
+9-34	570-571	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	573-574	#	_	_	_	_	_	
+10-2	574-575	P	_	_	_	_	_	
+10-3	576-579	IMM	_	_	_	_	_	
+10-4	579-580	.	_	_	_	_	_	
+
+#Text=LO:s styrelse har sagt ja till att inleda diskussioner med Svenskt Näringsliv för att hitta nya vägar in på arbetsmarknaden, inte minst för nyanlända.
+11-1	582-584	LO	_	_	_	_	_	
+11-2	584-585	:	_	_	_	_	_	
+11-3	585-586	s	_	_	_	_	_	
+11-4	587-595	styrelse	_	_	_	_	_	
+11-5	596-599	har	_	_	_	_	_	
+11-6	600-604	sagt	_	_	_	_	_	
+11-7	605-607	ja	_	_	_	_	_	
+11-8	608-612	till	_	_	_	_	_	
+11-9	613-616	att	_	_	_	_	_	
+11-10	617-623	inleda	_	_	_	_	_	
+11-11	624-636	diskussioner	_	_	_	_	_	
+11-12	637-640	med	_	_	_	_	_	
+11-13	641-648	Svenskt	_	_	_	_	_	
+11-14	649-659	Näringsliv	_	_	_	_	_	
+11-15	660-663	för	_	_	_	_	_	
+11-16	664-667	att	_	_	_	_	_	
+11-17	668-673	hitta	_	_	_	_	_	
+11-18	674-677	nya	_	_	_	_	_	
+11-19	678-683	vägar	_	_	_	_	_	
+11-20	684-686	in	_	_	_	_	_	
+11-21	687-689	på	_	_	_	_	_	
+11-22	690-705	arbetsmarknaden	_	_	_	_	_	
+11-23	705-706	,	_	_	_	_	_	
+11-24	707-711	inte	_	_	_	_	_	
+11-25	712-717	minst	_	_	_	_	_	
+11-26	718-721	för	_	_	_	_	_	
+11-27	722-731	nyanlända	_	_	_	_	_	
+11-28	731-732	.	_	_	_	_	_	
+
+#Text=Vi har varit tydliga med att vi är beredda att vända på alla stenar.
+12-1	733-735	Vi	_	_	_	_	_	
+12-2	736-739	har	_	_	_	_	_	
+12-3	740-745	varit	_	_	_	_	_	
+12-4	746-753	tydliga	_	_	_	_	_	
+12-5	754-757	med	_	_	_	_	_	
+12-6	758-761	att	_	_	_	_	_	
+12-7	762-764	vi	*	_	_	_	_	
+12-8	765-767	är	_	Source;Target[7]	12-7;12-11[18]	false[7]	4[7]	
+12-9	768-775	beredda	_	Source;Target[7]	12-7;12-11[18]	false[7]	4[7]	
+12-10	776-779	att	_	_	_	_	_	
+12-11	780-785	vända	*[18]	_	_	_	_	
+12-12	786-788	på	*[18]	_	_	_	_	
+12-13	789-793	alla	*[18]	_	_	_	_	
+12-14	794-800	stenar	*[18]	_	_	_	_	
+12-15	800-801	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	803-804	#	_	_	_	_	_	
+13-2	804-805	P	_	_	_	_	_	
+13-3	806-809	IMM	_	_	_	_	_	
+13-4	809-810	.	_	_	_	_	_	
+
+#Text=Jag är mycket förvånad över att Carola Lemne kräver att politikerna ska börja reglera löner och villkor på svensk arbetsmarknad.
+14-1	812-815	Jag	*	_	_	_	_	
+14-2	816-818	är	_	_	_	_	_	
+14-3	819-825	mycket	_	Target;Source[8]	14-7[19];14-1	false[8]	2[8]	
+14-4	826-834	förvånad	_	Target;Source[8]	14-7[19];14-1	false[8]	2[8]	
+14-5	835-839	över	_	Target;Source[8]	14-7[19];14-1	false[8]	2[8]	
+14-6	840-843	att	_	_	_	_	_	
+14-7	844-850	Carola	*[19]	_	_	_	_	
+14-8	851-856	Lemne	*[19]	_	_	_	_	
+14-9	857-863	kräver	*[19]	_	_	_	_	
+14-10	864-867	att	*[19]	_	_	_	_	
+14-11	868-879	politikerna	*[19]	_	_	_	_	
+14-12	880-883	ska	*[19]	_	_	_	_	
+14-13	884-889	börja	*[19]	_	_	_	_	
+14-14	890-897	reglera	*[19]	_	_	_	_	
+14-15	898-903	löner	*[19]	_	_	_	_	
+14-16	904-907	och	*[19]	_	_	_	_	
+14-17	908-915	villkor	*[19]	_	_	_	_	
+14-18	916-918	på	*[19]	_	_	_	_	
+14-19	919-925	svensk	*[19]	_	_	_	_	
+14-20	926-939	arbetsmarknad	*[19]	_	_	_	_	
+14-21	939-940	.	_	_	_	_	_	
+
+#Text=Vår bestämda uppfattning är att det är arbetsmarknadens parter, inte politikerna som ska bestämma löner i Sverige.
+15-1	941-944	Vår	*	_	_	_	_	
+15-2	945-953	bestämda	_	Source;Target[9]	15-1;15-6[20]	false[9]	4[9]	
+15-3	954-965	uppfattning	_	Source;Target[9]	15-1;15-6[20]	false[9]	4[9]	
+15-4	966-968	är	_	Source;Target[9]	15-1;15-6[20]	false[9]	4[9]	
+15-5	969-972	att	_	_	_	_	_	
+15-6	973-976	det	*[20]	_	_	_	_	
+15-7	977-979	är	*[20]	_	_	_	_	
+15-8	980-996	arbetsmarknadens	*[20]	_	_	_	_	
+15-9	997-1003	parter	*[20]	_	_	_	_	
+15-10	1003-1004	,	*[20]	_	_	_	_	
+15-11	1005-1009	inte	*[20]	_	_	_	_	
+15-12	1010-1021	politikerna	*[20]	_	_	_	_	
+15-13	1022-1025	som	*[20]	_	_	_	_	
+15-14	1026-1029	ska	*[20]	_	_	_	_	
+15-15	1030-1038	bestämma	*[20]	_	_	_	_	
+15-16	1039-1044	löner	*[20]	_	_	_	_	
+15-17	1045-1046	i	*[20]	_	_	_	_	
+15-18	1047-1054	Sverige	*[20]	_	_	_	_	
+15-19	1054-1055	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1057-1058	#	_	_	_	_	_	
+16-2	1058-1059	P	_	_	_	_	_	
+16-3	1060-1063	IMM	_	_	_	_	_	
+16-4	1063-1064	.	_	_	_	_	_	
+
+#Text=Sverige har växande kompetensbrist.
+17-1	1066-1073	Sverige	_	_	_	_	_	
+17-2	1074-1077	har	_	_	_	_	_	
+17-3	1078-1085	växande	_	_	_	_	_	
+17-4	1086-1100	kompetensbrist	_	_	_	_	_	
+17-5	1100-1101	.	_	_	_	_	_	
+
+#Text=Trots relativt hög arbetslöshet så har företag allt svårare att hitta rätt folk.
+18-1	1102-1107	Trots	_	_	_	_	_	
+18-2	1108-1116	relativt	_	_	_	_	_	
+18-3	1117-1120	hög	_	_	_	_	_	
+18-4	1121-1133	arbetslöshet	_	_	_	_	_	
+18-5	1134-1136	så	_	_	_	_	_	
+18-6	1137-1140	har	_	_	_	_	_	
+18-7	1141-1148	företag	_	_	_	_	_	
+18-8	1149-1153	allt	_	Target[10]	18-11[21]	false[10]	2[10]	
+18-9	1154-1161	svårare	_	Target[10]	18-11[21]	false[10]	2[10]	
+18-10	1162-1165	att	_	_	_	_	_	
+18-11	1166-1171	hitta	*[21]	_	_	_	_	
+18-12	1172-1176	rätt	*[21]	_	_	_	_	
+18-13	1177-1181	folk	*[21]	_	_	_	_	
+18-14	1181-1182	.	_	_	_	_	_	
+
+#Text=Detta gäller inte minst inom många LO-yrken, såsom undersköterskor och inom byggsektorn.
+19-1	1183-1188	Detta	_	_	_	_	_	
+19-2	1189-1195	gäller	_	_	_	_	_	
+19-3	1196-1200	inte	_	_	_	_	_	
+19-4	1201-1206	minst	_	_	_	_	_	
+19-5	1207-1211	inom	_	_	_	_	_	
+19-6	1212-1217	många	_	_	_	_	_	
+19-7	1218-1226	LO-yrken	_	_	_	_	_	
+19-8	1226-1227	,	_	_	_	_	_	
+19-9	1228-1233	såsom	_	_	_	_	_	
+19-10	1234-1249	undersköterskor	_	_	_	_	_	
+19-11	1250-1253	och	_	_	_	_	_	
+19-12	1254-1258	inom	_	_	_	_	_	
+19-13	1259-1270	byggsektorn	_	_	_	_	_	
+19-14	1270-1271	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1273-1274	#	_	_	_	_	_	
+20-2	1274-1275	P	_	_[11]	_	false[11]	4[11]	
+20-3	1276-1279	IMM	_	_[11]	_	false[11]	4[11]	
+20-4	1279-1280	.	_	_	_	_	_	
+
+#Text=Jag är därför oerhört besviken på att Svenskt Näringsliv har valt att säga nej till att förhandla med LO om detta.
+21-1	1282-1285	Jag	*	_	_	_	_	
+21-2	1286-1288	är	_	_	_	_	_	
+21-3	1289-1295	därför	_	_	_	_	_	
+21-4	1296-1303	oerhört	_	Target;Source[12]	21-8[22];21-1	false[12]	1[12]	
+21-5	1304-1312	besviken	_	Target;Source[12]	21-8[22];21-1	false[12]	1[12]	
+21-6	1313-1315	på	_	_	_	_	_	
+21-7	1316-1319	att	_	_	_	_	_	
+21-8	1320-1327	Svenskt	*[22]	_	_	_	_	
+21-9	1328-1338	Näringsliv	*[22]	_	_	_	_	
+21-10	1339-1342	har	*[22]	_	_	_	_	
+21-11	1343-1347	valt	*[22]	_	_	_	_	
+21-12	1348-1351	att	*[22]	_	_	_	_	
+21-13	1352-1356	säga	*[22]	_	_	_	_	
+21-14	1357-1360	nej	*[22]	_	_	_	_	
+21-15	1361-1365	till	*[22]	_	_	_	_	
+21-16	1366-1369	att	*[22]	_	_	_	_	
+21-17	1370-1379	förhandla	*[22]	_	_	_	_	
+21-18	1380-1383	med	*[22]	_	_	_	_	
+21-19	1384-1386	LO	*[22]	_	_	_	_	
+21-20	1387-1389	om	*[22]	_	_	_	_	
+21-21	1390-1395	detta	*[22]	_	_	_	_	
+21-22	1395-1396	.	_	_	_	_	_	
+
+#Text=Trots det vill jag vara tydlig: LO:s dörr står fortsatt öppen för förhandlingar med Svenskt Näringsliv för att skapa enklare vägar till jobb och utbildning för nyanlända.
+22-1	1397-1402	Trots	_	_	_	_	_	
+22-2	1403-1406	det	_	_	_	_	_	
+22-3	1407-1411	vill	_	_	_	_	_	
+22-4	1412-1415	jag	_	_	_	_	_	
+22-5	1416-1420	vara	_	_	_	_	_	
+22-6	1421-1427	tydlig	_	_	_	_	_	
+22-7	1427-1428	:	_	_	_	_	_	
+22-8	1429-1431	LO	_	_	_	_	_	
+22-9	1431-1432	:	_	_	_	_	_	
+22-10	1432-1433	s	_	_	_	_	_	
+22-11	1434-1438	dörr	_	_	_	_	_	
+22-12	1439-1443	står	_	_	_	_	_	
+22-13	1444-1452	fortsatt	_	_	_	_	_	
+22-14	1453-1458	öppen	_	_	_	_	_	
+22-15	1459-1462	för	_	_	_	_	_	
+22-16	1463-1476	förhandlingar	_	_	_	_	_	
+22-17	1477-1480	med	_	_	_	_	_	
+22-18	1481-1488	Svenskt	_	_	_	_	_	
+22-19	1489-1499	Näringsliv	_	_	_	_	_	
+22-20	1500-1503	för	_	_	_	_	_	
+22-21	1504-1507	att	_	_	_	_	_	
+22-22	1508-1513	skapa	_	_	_	_	_	
+22-23	1514-1521	enklare	_	_	_	_	_	
+22-24	1522-1527	vägar	_	_	_	_	_	
+22-25	1528-1532	till	_	_	_	_	_	
+22-26	1533-1537	jobb	_	_	_	_	_	
+22-27	1538-1541	och	_	_	_	_	_	
+22-28	1542-1552	utbildning	_	_	_	_	_	
+22-29	1553-1556	för	_	_	_	_	_	
+22-30	1557-1566	nyanlända	_	_	_	_	_	
+22-31	1566-1567	.	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1569-1570	#	_	_	_	_	_	
+23-2	1570-1571	P	_	_	_	_	_	
+23-3	1572-1575	IMM	_	_	_	_	_	
+23-4	1575-1576	.	_	_	_	_	_	
+
+#Text=Vi är beredda att ta ansvar.
+24-1	1578-1580	Vi	*	_	_	_	_	
+24-2	1581-1583	är	_	Target;Source[13]	24-5[23];24-1	false[13]	4[13]	
+24-3	1584-1591	beredda	_	Target;Source[13]	24-5[23];24-1	false[13]	4[13]	
+24-4	1592-1595	att	_	_	_	_	_	
+24-5	1596-1598	ta	*[23]	_	_	_	_	
+24-6	1599-1605	ansvar	*[23]	_	_	_	_	
+24-7	1605-1606	.	_	_	_	_	_	
+
+#Text=Men frågan är om Svenskt Näringsliv är det?.
+25-1	1607-1610	Men	_	_	_	_	_	
+25-2	1611-1617	frågan	_	_	_	_	_	
+25-3	1618-1620	är	_	_	_	_	_	
+25-4	1621-1623	om	_	_	_	_	_	
+25-5	1624-1631	Svenskt	_	_	_	_	_	
+25-6	1632-1642	Näringsliv	_	_	_	_	_	
+25-7	1643-1645	är	_	_	_	_	_	
+25-8	1646-1649	det	_	_	_	_	_	
+25-9	1649-1650	?	_	_	_	_	_	
+25-10	1650-1651	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1653-1654	#	_	_	_	_	_	
+26-2	1654-1655	P	_	_	_	_	_	
+26-3	1656-1659	IMM	_	_	_	_	_	
+26-4	1659-1660	.	_	_	_	_	_	
+
+#Text=Karl-Petter Thorwaldsson, ordförande LO.
+27-1	1662-1673	Karl-Petter	_	_	_	_	_	
+27-2	1674-1686	Thorwaldsson	_	_	_	_	_	
+27-3	1686-1687	,	_	_	_	_	_	
+27-4	1688-1698	ordförande	_	_	_	_	_	
+27-5	1699-1701	LO	_	_	_	_	_	
+27-6	1701-1702	.	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1704-1705	#	_	_	_	_	_	
+28-2	1705-1706	P	_	_	_	_	_	
+28-3	1707-1710	IMM	_	_	_	_	_	
+28-4	1710-1711	.	_	_	_	_	_	
+
+#Text=Häng med i debatten – följ  Debatt på Facebook.
+29-1	1713-1717	Häng	_	_	_	_	_	
+29-2	1718-1721	med	_	_	_	_	_	
+29-3	1722-1723	i	_	_	_	_	_	
+29-4	1724-1732	debatten	_	_	_	_	_	
+29-5	1733-1734	–	_	_	_	_	_	
+29-6	1735-1739	följ	_	_	_	_	_	
+29-7	1741-1747	Debatt	_	_	_	_	_	
+29-8	1748-1750	på	_	_	_	_	_	
+29-9	1751-1759	Facebook	_	_	_	_	_	
+29-10	1759-1760	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1762-1763	#	_	_	_	_	_	
+30-2	1763-1764	P	_	_	_	_	_	
+30-3	1765-1768	IMM	_	_	_	_	_	
+30-4	1768-1769	.	_	_	_	_	_	
+
+#Text=LÄS OCKSÅ:.
+31-1	1771-1774	LÄS	_	_	_	_	_	
+31-2	1775-1780	OCKSÅ	_	_	_	_	_	
+31-3	1780-1781	:	_	_	_	_	_	
+31-4	1781-1782	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	1784-1785	#	_	_	_	_	_	
+32-2	1785-1786	P	_	_	_	_	_	
+32-3	1787-1790	IMM	_	_	_	_	_	
+32-4	1790-1791	.	_	_	_	_	_	
+
+#Text=FAKTA: Härifrån kommer flyktingarna nu – och så många får stanna i Sverige.
+33-1	1793-1798	FAKTA	_	_	_	_	_	
+33-2	1798-1799	:	_	_	_	_	_	
+33-3	1800-1808	Härifrån	_	_	_	_	_	
+33-4	1809-1815	kommer	_	_	_	_	_	
+33-5	1816-1828	flyktingarna	_	_	_	_	_	
+33-6	1829-1831	nu	_	_	_	_	_	
+33-7	1832-1833	–	_	_	_	_	_	
+33-8	1834-1837	och	_	_	_	_	_	
+33-9	1838-1840	så	_	_	_	_	_	
+33-10	1841-1846	många	_	_	_	_	_	
+33-11	1847-1850	får	_	_	_	_	_	
+33-12	1851-1857	stanna	_	_	_	_	_	
+33-13	1858-1859	i	_	_	_	_	_	
+33-14	1860-1867	Sverige	_	_	_	_	_	
+33-15	1867-1868	.	_	_	_	_	_	

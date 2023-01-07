@@ -1,0 +1,841 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	4	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Marknadshyror bra för invandrare.
+3-1	18-31	Marknadshyror	*	_	_	_	_	_	_	
+3-2	32-35	bra	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-3	36-39	för	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-4	40-50	invandrare	_	Target[1]	3-1	false[1]	4[1]	_	_	
+3-5	50-51	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	false	4	_	_	
+4-4	59-60	.	_	_	_	_	_	_	_	
+
+#Text=MÅNGA beskriver invandrarnas situation i Sverige som hopplös, där bostadssegregation och bidragsberoende breder ut sig.
+5-1	62-67	MÅNGA	*	_	_	_	_	_	_	
+5-2	68-77	beskriver	_	_	_	false	1	_	_	
+5-3	78-90	invandrarnas	*[18]	_	_	_	_	_	_	
+5-4	91-100	situation	*[18]	_	_	_	_	_	_	
+5-5	101-102	i	*[18]	_	_	_	_	_	_	
+5-6	103-110	Sverige	*[18]	_	_	_	_	_	_	
+5-7	111-114	som	_	Target;Source[2]	5-3[18];5-1	false[2]	1[2]	5-2[0_2]	_	
+5-8	115-122	hopplös	_	Target;Source[2]	5-3[18];5-1	false[2]	1[2]	_	_	
+5-9	122-123	,	_	_	_	_	_	_	_	
+5-10	124-127	där	_	_	_	_	_	_	_	
+5-11	128-146	bostadssegregation	_	_	_	_	_	_	_	
+5-12	147-150	och	_	_	_	_	_	_	_	
+5-13	151-166	bidragsberoende	_	_	_	_	_	_	_	
+5-14	167-173	breder	_	_	_	_	_	_	_	
+5-15	174-176	ut	_	_	_	_	_	_	_	
+5-16	177-180	sig	_	_	_	_	_	_	_	
+5-17	180-181	.	_	_	_	_	_	_	_	
+
+#Text=Vi hävdar tvärtom att invandrarna utgör en positiv kraft i samhället och att de bidrar till tillväxt och utveckling.
+6-1	182-184	Vi	*	_	_	_	_	_	_	
+6-2	185-191	hävdar	_	_	_	_	_	_	_	
+6-3	192-199	tvärtom	_	_	_	_	_	_	_	
+6-4	200-203	att	_	_	_	_	_	_	_	
+6-5	204-215	invandrarna	*	_	_	_	_	_	_	
+6-6	216-221	utgör	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-7	222-224	en	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-8	225-232	positiv	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-9	233-238	kraft	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-10	239-240	i	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-11	241-250	samhället	_	Source;Target[3]	6-1;6-5	false[3]	4[3]	_	_	
+6-12	251-254	och	_	_	_	_	_	_	_	
+6-13	255-258	att	_	_	_	_	_	_	_	
+6-14	259-261	de	_	_	_	_	_	_	_	
+6-15	262-268	bidrar	_	_	_	_	_	_	_	
+6-16	269-273	till	_	_	_	_	_	_	_	
+6-17	274-282	tillväxt	_	_	_	_	_	_	_	
+6-18	283-286	och	_	_	_	_	_	_	_	
+6-19	287-297	utveckling	_	_	_	_	_	_	_	
+6-20	297-298	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	300-301	#	_	_	_	_	_	_	_	
+7-2	301-302	P	_	_	_	_	_	_	_	
+7-3	303-306	IMM	_	_	_	_	_	_	_	
+7-4	306-307	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser två förklaringar till att den etniska segregationen ökat under senare år.
+8-1	309-311	Vi	_	_	_	_	_	_	_	
+8-2	312-315	ser	_	_	_	_	_	_	_	
+8-3	316-319	två	_	_	_	_	_	_	_	
+8-4	320-332	förklaringar	_	_	_	_	_	_	_	
+8-5	333-337	till	_	_	_	_	_	_	_	
+8-6	338-341	att	_	_	_	_	_	_	_	
+8-7	342-345	den	_	_	_	_	_	_	_	
+8-8	346-353	etniska	_	_	_	_	_	_	_	
+8-9	354-367	segregationen	_	_	_	_	_	_	_	
+8-10	368-372	ökat	_	_	_	_	_	_	_	
+8-11	373-378	under	_	_	_	_	_	_	_	
+8-12	379-385	senare	_	_	_	_	_	_	_	
+8-13	386-388	år	_	_	_	_	_	_	_	
+8-14	388-389	.	_	_	_	_	_	_	_	
+
+#Text=För det första den reglerade bostadsmarknaden.
+9-1	390-393	För	_	_	_	_	_	_	_	
+9-2	394-397	det	_	_	_	_	_	_	_	
+9-3	398-404	första	_	_	_	_	_	_	_	
+9-4	405-408	den	_	_	_	_	_	_	_	
+9-5	409-418	reglerade	_	_	_	_	_	_	_	
+9-6	419-435	bostadsmarknaden	_	_	_	_	_	_	_	
+9-7	435-436	.	_	_	_	_	_	_	_	
+
+#Text=För det andra en arbetsmarknad som stänger ute driftiga människor och förpassar kreativiteten till bidragsansökningarna.
+10-1	437-440	För	_	_	_	_	_	_	_	
+10-2	441-444	det	_	_	_	_	_	_	_	
+10-3	445-450	andra	_	_	_	_	_	_	_	
+10-4	451-453	en	_	_	_	_	_	_	_	
+10-5	454-467	arbetsmarknad	_	_	_	_	_	_	_	
+10-6	468-471	som	_	_	_	_	_	_	_	
+10-7	472-479	stänger	_	_	_	_	_	_	_	
+10-8	480-483	ute	_	_	_	_	_	_	_	
+10-9	484-492	driftiga	_	Target	10-10	false	4	_	_	
+10-10	493-502	människor	*	_	_	_	_	_	_	
+10-11	503-506	och	_	_	_	_	_	_	_	
+10-12	507-516	förpassar	_	_	_	_	_	_	_	
+10-13	517-530	kreativiteten	_	_	_	_	_	_	_	
+10-14	531-535	till	_	_	_	_	_	_	_	
+10-15	536-556	bidragsansökningarna	_	_	_	_	_	_	_	
+10-16	556-557	.	_	_	_	_	_	_	_	
+
+#Text=Båda problemen går att lösa.
+11-1	558-562	Båda	_	_	_	_	_	_	_	
+11-2	563-572	problemen	_	_	_	false	2	_	_	
+11-3	573-576	går	_	_	_	_	_	_	_	
+11-4	577-580	att	_	_	_	_	_	_	_	
+11-5	581-585	lösa	_	_	_	_	_	_	_	
+11-6	585-586	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	588-589	#	_	_	_	_	_	_	_	
+12-2	589-590	P	_	_	_	_	_	_	_	
+12-3	591-594	IMM	_	_	_	_	_	_	_	
+12-4	594-595	.	_	_	_	_	_	_	_	
+
+#Text=Dagens prisreglerade hyresmarknad är inte öppen för nya svenskar som vill flytta till de städer där jobben och den ekonomiska dynamiken finns.
+13-1	597-603	Dagens	_	_	_	_	_	_	_	
+13-2	604-617	prisreglerade	_	_	_	_	_	_	_	
+13-3	618-630	hyresmarknad	_	_	_	_	_	_	_	
+13-4	631-633	är	_	_	_	_	_	_	_	
+13-5	634-638	inte	_	_	_	_	_	_	_	
+13-6	639-644	öppen	_	_	_	_	_	_	_	
+13-7	645-648	för	_	_	_	_	_	_	_	
+13-8	649-652	nya	_	_	_	_	_	_	_	
+13-9	653-661	svenskar	_	_	_	_	_	_	_	
+13-10	662-665	som	_	_	_	_	_	_	_	
+13-11	666-670	vill	_	_	_	_	_	_	_	
+13-12	671-677	flytta	_	_	_	_	_	_	_	
+13-13	678-682	till	_	_	_	_	_	_	_	
+13-14	683-685	de	_	_	_	_	_	_	_	
+13-15	686-692	städer	_	_	_	_	_	_	_	
+13-16	693-696	där	_	_	_	_	_	_	_	
+13-17	697-703	jobben	_	_	_	_	_	_	_	
+13-18	704-707	och	_	_	_	_	_	_	_	
+13-19	708-711	den	_	_	_	_	_	_	_	
+13-20	712-722	ekonomiska	_	_	_	_	_	_	_	
+13-21	723-732	dynamiken	_	_	_	_	_	_	_	
+13-22	733-738	finns	_	_	_	_	_	_	_	
+13-23	738-739	.	_	_	_	_	_	_	_	
+
+#Text=Att få en plats på bostadsmarknaden är lika viktigt som en plats på arbetsmarknaden.
+14-1	740-743	Att	_	_	_	_	_	_	_	
+14-2	744-746	få	_	_	_	_	_	_	_	
+14-3	747-749	en	_	_	_	_	_	_	_	
+14-4	750-755	plats	_	_	_	_	_	_	_	
+14-5	756-758	på	_	_	_	_	_	_	_	
+14-6	759-775	bostadsmarknaden	_	_	_	_	_	_	_	
+14-7	776-778	är	_	_	_	_	_	_	_	
+14-8	779-783	lika	_	_	_	_	_	_	_	
+14-9	784-791	viktigt	_	_	_	_	_	_	_	
+14-10	792-795	som	_	_	_	_	_	_	_	
+14-11	796-798	en	_	_	_	_	_	_	_	
+14-12	799-804	plats	_	_	_	_	_	_	_	
+14-13	805-807	på	_	_	_	_	_	_	_	
+14-14	808-823	arbetsmarknaden	_	_	_	_	_	_	_	
+14-15	823-824	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	826-827	#	_	_	_	_	_	_	_	
+15-2	827-828	P	_	_	_	_	_	_	_	
+15-3	829-832	IMM	_	_	_	false	4	_	_	
+15-4	832-833	.	_	_	_	_	_	_	_	
+
+#Text=Det öppnar för möten med nya människor, intryck och nätverk.
+16-1	835-838	Det	_	_	_	_	_	_	_	
+16-2	839-845	öppnar	_	_	_	_	_	_	_	
+16-3	846-849	för	_	_	_	_	_	_	_	
+16-4	850-855	möten	_	_	_	_	_	_	_	
+16-5	856-859	med	_	_	_	_	_	_	_	
+16-6	860-863	nya	_	_	_	_	_	_	_	
+16-7	864-873	människor	_	_	_	_	_	_	_	
+16-8	873-874	,	_	_	_	_	_	_	_	
+16-9	875-882	intryck	_	_	_	_	_	_	_	
+16-10	883-886	och	_	_	_	_	_	_	_	
+16-11	887-894	nätverk	_	_	_	_	_	_	_	
+16-12	894-895	.	_	_	_	_	_	_	_	
+
+#Text=Men den politiskt styrda bostadsmarknaden cementerar också den etniska segregationen.
+17-1	896-899	Men	_	_	_	_	_	_	_	
+17-2	900-903	den	_	_	_	_	_	_	_	
+17-3	904-913	politiskt	_	_	_	_	_	_	_	
+17-4	914-920	styrda	_	_	_	_	_	_	_	
+17-5	921-937	bostadsmarknaden	_	_	_	_	_	_	_	
+17-6	938-948	cementerar	_	_	_	_	_	_	_	
+17-7	949-954	också	_	_	_	_	_	_	_	
+17-8	955-958	den	_	_	_	_	_	_	_	
+17-9	959-966	etniska	_	_	_	_	_	_	_	
+17-10	967-980	segregationen	_	_	_	_	_	_	_	
+17-11	980-981	.	_	_	_	_	_	_	_	
+
+#Text=Den som söker bostad hänvisas i dag till andra orter, kvar i de större städerna blir de redan etablerade, som alltid bott där.
+18-1	982-985	Den	_	_	_	_	_	_	_	
+18-2	986-989	som	_	_	_	_	_	_	_	
+18-3	990-995	söker	_	_	_	_	_	_	_	
+18-4	996-1002	bostad	_	_	_	_	_	_	_	
+18-5	1003-1011	hänvisas	_	_	_	_	_	_	_	
+18-6	1012-1013	i	_	_	_	_	_	_	_	
+18-7	1014-1017	dag	_	_	_	_	_	_	_	
+18-8	1018-1022	till	_	_	_	_	_	_	_	
+18-9	1023-1028	andra	_	_	_	_	_	_	_	
+18-10	1029-1034	orter	_	_	_	_	_	_	_	
+18-11	1034-1035	,	_	_	_	_	_	_	_	
+18-12	1036-1040	kvar	_	_	_	_	_	_	_	
+18-13	1041-1042	i	_	_	_	_	_	_	_	
+18-14	1043-1045	de	_	_	_	_	_	_	_	
+18-15	1046-1052	större	_	_	_	_	_	_	_	
+18-16	1053-1061	städerna	_	_	_	_	_	_	_	
+18-17	1062-1066	blir	_	_	_	_	_	_	_	
+18-18	1067-1069	de	_	_	_	_	_	_	_	
+18-19	1070-1075	redan	_	_	_	_	_	_	_	
+18-20	1076-1086	etablerade	_	_	_	_	_	_	_	
+18-21	1086-1087	,	_	_	_	_	_	_	_	
+18-22	1088-1091	som	_	_	_	_	_	_	_	
+18-23	1092-1098	alltid	_	_	_	_	_	_	_	
+18-24	1099-1103	bott	_	_	_	_	_	_	_	
+18-25	1104-1107	där	_	_	_	_	_	_	_	
+18-26	1107-1108	.	_	_	_	_	_	_	_	
+
+#Text=De som inte vågar lämna sin lägenhet i rädsla för att aldrig få komma tillbaka.
+19-1	1109-1111	De	*[19]	_	_	_	_	_	_	
+19-2	1112-1115	som	*[19]	_	_	_	_	_	_	
+19-3	1116-1120	inte	*[19]	_	_	_	_	_	_	
+19-4	1121-1126	vågar	*[19]	_	_	_	_	_	_	
+19-5	1127-1132	lämna	*[19]	_	_	_	_	_	_	
+19-6	1133-1136	sin	*[19]	_	_	_	_	_	_	
+19-7	1137-1145	lägenhet	*[19]	_	_	_	_	_	_	
+19-8	1146-1147	i	_	_	_	_	_	_	_	
+19-9	1148-1154	rädsla	_	Source;Target[4]	19-1[19];19-11[20]	false[4]	2[4]	_	_	
+19-10	1155-1158	för	_	Source;Target[4]	19-1[19];19-11[20]	false[4]	2[4]	_	_	
+19-11	1159-1162	att	*[20]	_	_	_	_	_	_	
+19-12	1163-1169	aldrig	*[20]	_	_	_	_	_	_	
+19-13	1170-1172	få	*[20]	_	_	_	_	_	_	
+19-14	1173-1178	komma	*[20]	_	_	_	_	_	_	
+19-15	1179-1187	tillbaka	*[20]	_	_	_	_	_	_	
+19-16	1187-1188	.	_	_	_	_	_	_	_	
+
+#Text=Detta ökar inte integrationen, inte heller mångfalden utan bygger murar mot omvärlden och gör många av våra större städer tristare att leva i.
+20-1	1189-1194	Detta	*	_	_	_	_	_	_	
+20-2	1195-1199	ökar	_	_	_	_	_	_	_	
+20-3	1200-1204	inte	_	_	_	_	_	_	_	
+20-4	1205-1218	integrationen	_	_	_	_	_	_	_	
+20-5	1218-1219	,	_	_	_	_	_	_	_	
+20-6	1220-1224	inte	_	_	_	_	_	_	_	
+20-7	1225-1231	heller	_	_	_	_	_	_	_	
+20-8	1232-1242	mångfalden	_	_	_	_	_	_	_	
+20-9	1243-1247	utan	_	_	_	_	_	_	_	
+20-10	1248-1254	bygger	_	_	_	_	_	_	_	
+20-11	1255-1260	murar	_	_	_	_	_	_	_	
+20-12	1261-1264	mot	_	_	_	_	_	_	_	
+20-13	1265-1274	omvärlden	_	_	_	_	_	_	_	
+20-14	1275-1278	och	_	_	_	_	_	_	_	
+20-15	1279-1282	gör	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-16	1283-1288	många	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-17	1289-1291	av	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-18	1292-1296	våra	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-19	1297-1303	större	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-20	1304-1310	städer	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-21	1311-1319	tristare	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-22	1320-1323	att	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-23	1324-1328	leva	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-24	1329-1330	i	_	Target[5]	20-1	false[5]	2[5]	_	_	
+20-25	1330-1331	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1333-1334	#	_	_	_	_	_	_	_	
+21-2	1334-1335	P	_	_	_	_	_	_	_	
+21-3	1336-1339	IMM	_	_	_	_	_	_	_	
+21-4	1339-1340	.	_	_	_	_	_	_	_	
+
+#Text=EN FRIARE, avreglerad, marknad är därför rättvisare eftersom utbud och efterfrågan då tillåts mötas på ett öppet sätt.
+22-1	1342-1344	EN	*[21]	_	_	_	_	_	_	
+22-2	1345-1351	FRIARE	*[21]	_	_	_	_	_	_	
+22-3	1351-1352	,	*[21]	_	_	_	_	_	_	
+22-4	1353-1363	avreglerad	*[21]	_	_	_	_	_	_	
+22-5	1363-1364	,	*[21]	_	_	_	_	_	_	
+22-6	1365-1372	marknad	*[21]	_	_	_	_	_	_	
+22-7	1373-1375	är	_	Target[6]	22-1[21]	false[6]	4[6]	_	_	
+22-8	1376-1382	därför	_	Target[6]	22-1[21]	false[6]	4[6]	_	_	
+22-9	1383-1393	rättvisare	_	Target[6]	22-1[21]	false[6]	4[6]	_	_	
+22-10	1394-1402	eftersom	_	_	_	_	_	_	_	
+22-11	1403-1408	utbud	_	_	_	_	_	_	_	
+22-12	1409-1412	och	_	_	_	_	_	_	_	
+22-13	1413-1424	efterfrågan	_	_	_	_	_	_	_	
+22-14	1425-1427	då	_	_	_	_	_	_	_	
+22-15	1428-1435	tillåts	_	_	_	_	_	_	_	
+22-16	1436-1441	mötas	_	_	_	_	_	_	_	
+22-17	1442-1444	på	_	_	_	_	_	_	_	
+22-18	1445-1448	ett	_	_	_	_	_	_	_	
+22-19	1449-1454	öppet	_	_	_	_	_	_	_	
+22-20	1455-1459	sätt	_	_	_	_	_	_	_	
+22-21	1459-1460	.	_	_	_	_	_	_	_	
+
+#Text=Människor kan jämföra, värdera betydelsen av att bo på ett visst ställe jämfört med tryggheten eller närheten till dagis på ett annat.
+23-1	1461-1470	Människor	_	_	_	_	_	_	_	
+23-2	1471-1474	kan	_	_	_	_	_	_	_	
+23-3	1475-1482	jämföra	_	_	_	_	_	_	_	
+23-4	1482-1483	,	_	_	_	_	_	_	_	
+23-5	1484-1491	värdera	_	_	_	_	_	_	_	
+23-6	1492-1502	betydelsen	_	_	_	_	_	_	_	
+23-7	1503-1505	av	_	_	_	_	_	_	_	
+23-8	1506-1509	att	_	_	_	_	_	_	_	
+23-9	1510-1512	bo	_	_	_	_	_	_	_	
+23-10	1513-1515	på	_	_	_	_	_	_	_	
+23-11	1516-1519	ett	_	_	_	_	_	_	_	
+23-12	1520-1525	visst	_	_	_	_	_	_	_	
+23-13	1526-1532	ställe	_	_	_	_	_	_	_	
+23-14	1533-1540	jämfört	_	_	_	_	_	_	_	
+23-15	1541-1544	med	_	_	_	_	_	_	_	
+23-16	1545-1555	tryggheten	_	_	_	_	_	_	_	
+23-17	1556-1561	eller	_	_	_	_	_	_	_	
+23-18	1562-1570	närheten	_	_	_	_	_	_	_	
+23-19	1571-1575	till	_	_	_	_	_	_	_	
+23-20	1576-1581	dagis	_	_	_	_	_	_	_	
+23-21	1582-1584	på	_	_	_	_	_	_	_	
+23-22	1585-1588	ett	_	_	_	_	_	_	_	
+23-23	1589-1594	annat	_	_	_	_	_	_	_	
+23-24	1594-1595	.	_	_	_	_	_	_	_	
+
+#Text=Olika människor kommer alltid att välja att bo i olika bostadsområden.
+24-1	1596-1601	Olika	*[22]	_	_	_	_	_	25-1[0_22]	
+24-2	1602-1611	människor	*[22]	_	_	_	_	_	_	
+24-3	1612-1618	kommer	*[22]	_	_	_	_	_	_	
+24-4	1619-1625	alltid	*[22]	_	_	_	_	_	_	
+24-5	1626-1629	att	*[22]	_	_	_	_	_	_	
+24-6	1630-1635	välja	*[22]	_	_	_	_	_	_	
+24-7	1636-1639	att	*[22]	_	_	_	_	_	_	
+24-8	1640-1642	bo	*[22]	_	_	_	_	_	_	
+24-9	1643-1644	i	*[22]	_	_	_	_	_	_	
+24-10	1645-1650	olika	*[22]	_	_	_	_	_	_	
+24-11	1651-1665	bostadsområden	*[22]	_	_	_	_	_	_	
+24-12	1665-1666	.	_	_	_	_	_	_	_	
+
+#Text=Det är i sig inte ett problem, bara det finns en fungerande bostadsmarknad som gör att människor kan flytta när viljan finns och ekonomin tillåter, alldeles oavsett om de har rätt kontakter eller inte.
+25-1	1667-1670	Det	*	_	_	_	_	_	_	
+25-2	1671-1673	är	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-3	1674-1675	i	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-4	1676-1679	sig	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-5	1680-1684	inte	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-6	1685-1688	ett	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-7	1689-1696	problem	_	Target[7]	25-1	false[7]	3[7]	_	_	
+25-8	1696-1697	,	_	_	_	_	_	_	_	
+25-9	1698-1702	bara	_	_	_	_	_	_	_	
+25-10	1703-1706	det	_	_	_	_	_	_	_	
+25-11	1707-1712	finns	_	_	_	_	_	_	_	
+25-12	1713-1715	en	_	_	_	_	_	_	_	
+25-13	1716-1726	fungerande	_	_	_	_	_	_	_	
+25-14	1727-1741	bostadsmarknad	_	_	_	_	_	_	_	
+25-15	1742-1745	som	_	_	_	_	_	_	_	
+25-16	1746-1749	gör	_	_	_	_	_	_	_	
+25-17	1750-1753	att	_	_	_	_	_	_	_	
+25-18	1754-1763	människor	_	_	_	_	_	_	_	
+25-19	1764-1767	kan	_	_	_	_	_	_	_	
+25-20	1768-1774	flytta	_	_	_	_	_	_	_	
+25-21	1775-1778	när	_	_	_	_	_	_	_	
+25-22	1779-1785	viljan	_	_	_	_	_	_	_	
+25-23	1786-1791	finns	_	_	_	_	_	_	_	
+25-24	1792-1795	och	_	_	_	_	_	_	_	
+25-25	1796-1804	ekonomin	_	_	_	_	_	_	_	
+25-26	1805-1813	tillåter	_	_	_	_	_	_	_	
+25-27	1813-1814	,	_	_	_	_	_	_	_	
+25-28	1815-1823	alldeles	_	_	_	_	_	_	_	
+25-29	1824-1831	oavsett	_	_	_	_	_	_	_	
+25-30	1832-1834	om	_	_	_	_	_	_	_	
+25-31	1835-1837	de	_	_	_	_	_	_	_	
+25-32	1838-1841	har	_	_	_	_	_	_	_	
+25-33	1842-1846	rätt	_	_	_	_	_	_	_	
+25-34	1847-1856	kontakter	_	_	_	_	_	_	_	
+25-35	1857-1862	eller	_	_	_	_	_	_	_	
+25-36	1863-1867	inte	_	_	_	_	_	_	_	
+25-37	1867-1868	.	_	_	_	_	_	_	_	
+
+#Text=Denna centrala uppgift att möjliggöra social rörlighet leder oss till det andra problemet, nämligen arbetsmarknaden.
+26-1	1869-1874	Denna	_	_	_	_	_	_	_	
+26-2	1875-1883	centrala	_	_	_	_	_	_	_	
+26-3	1884-1891	uppgift	_	_	_	_	_	_	_	
+26-4	1892-1895	att	_	_	_	_	_	_	_	
+26-5	1896-1906	möjliggöra	_	_	_	_	_	_	_	
+26-6	1907-1913	social	_	_	_	_	_	_	_	
+26-7	1914-1923	rörlighet	_	_	_	_	_	_	_	
+26-8	1924-1929	leder	_	_	_	_	_	_	_	
+26-9	1930-1933	oss	_	_	_	_	_	_	_	
+26-10	1934-1938	till	_	_	_	_	_	_	_	
+26-11	1939-1942	det	_	Target[8]	26-16	false[8]	2[8]	_	_	
+26-12	1943-1948	andra	_	Target[8]	26-16	false[8]	2[8]	_	_	
+26-13	1949-1958	problemet	_	Target[8]	26-16	false[8]	2[8]	_	_	
+26-14	1958-1959	,	_	_	_	_	_	_	_	
+26-15	1960-1968	nämligen	_	_	_	_	_	_	_	
+26-16	1969-1984	arbetsmarknaden	*	_	_	_	_	_	_	
+26-17	1984-1985	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1987-1988	#	_	_	_	_	_	_	_	
+27-2	1988-1989	P	_	_	_	_	_	_	_	
+27-3	1990-1993	IMM	_	_	_	false	4	_	_	
+27-4	1993-1994	.	_	_	_	_	_	_	_	
+
+#Text=Sverige måste se invandrare som en resurs för tillväxt och välstånd, inte som ett problem.
+28-1	1996-2003	Sverige	_	_	_	_	_	_	_	
+28-2	2004-2009	måste	_	_[9]	_	false[9]	4[9]	_	_	
+28-3	2010-2012	se	_	_[9]	_	false[9]	4[9]	_	_	
+28-4	2013-2023	invandrare	*	_	_	_	_	_	_	
+28-5	2024-2027	som	_	Target[10]	28-4	false[10]	4[10]	28-2[9_10]	_	
+28-6	2028-2030	en	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-7	2031-2037	resurs	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-8	2038-2041	för	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-9	2042-2050	tillväxt	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-10	2051-2054	och	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-11	2055-2063	välstånd	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-12	2063-2064	,	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-13	2065-2069	inte	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-14	2070-2073	som	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-15	2074-2077	ett	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-16	2078-2085	problem	_	Target[10]	28-4	false[10]	4[10]	_	_	
+28-17	2085-2086	.	_	_	_	_	_	_	_	
+
+#Text=Den svenska integrationspolitiken har i många avseenden varit ett misslyckande.
+29-1	2087-2090	Den	*[23]	_	_	_	_	_	_	
+29-2	2091-2098	svenska	*[23]	_	_	_	_	_	_	
+29-3	2099-2120	integrationspolitiken	*[23]	_	_	_	_	_	_	
+29-4	2121-2124	har	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-5	2125-2126	i	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-6	2127-2132	många	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-7	2133-2142	avseenden	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-8	2143-2148	varit	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-9	2149-2152	ett	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-10	2153-2165	misslyckande	_	Target[11]	29-1[23]	false[11]	2[11]	_	_	
+29-11	2165-2166	.	_	_	_	_	_	_	_	
+
+#Text=Den har ägnat sig åt försök till omhändertagande som passiviserat, i stället för att ta till vara människors kreativitet och vilja ?.
+30-1	2167-2170	Den	_	_	_	_	_	_	_	
+30-2	2171-2174	har	_	_	_	_	_	_	_	
+30-3	2175-2180	ägnat	_	_	_	_	_	_	_	
+30-4	2181-2184	sig	_	_	_	_	_	_	_	
+30-5	2185-2187	åt	_	_	_	_	_	_	_	
+30-6	2188-2194	försök	_	_	_	_	_	_	_	
+30-7	2195-2199	till	_	_	_	_	_	_	_	
+30-8	2200-2215	omhändertagande	_	_	_	_	_	_	_	
+30-9	2216-2219	som	_	_	_	_	_	_	_	
+30-10	2220-2232	passiviserat	_	_	_	_	_	_	_	
+30-11	2232-2233	,	_	_	_	_	_	_	_	
+30-12	2234-2235	i	_	_	_	_	_	_	_	
+30-13	2236-2243	stället	_	_	_	_	_	_	_	
+30-14	2244-2247	för	_	_	_	_	_	_	_	
+30-15	2248-2251	att	_	_	_	_	_	_	_	
+30-16	2252-2254	ta	_	_	_	_	_	_	_	
+30-17	2255-2259	till	_	_	_	_	_	_	_	
+30-18	2260-2264	vara	_	_	_	_	_	_	_	
+30-19	2265-2275	människors	_	_	_	_	_	_	_	
+30-20	2276-2287	kreativitet	_	_	_	_	_	_	_	
+30-21	2288-2291	och	_	_	_	_	_	_	_	
+30-22	2292-2297	vilja	_	_	_	_	_	_	_	
+30-23	2298-2299	?	_	_	_	_	_	_	_	
+30-24	2299-2300	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2302-2303	#	_	_	_	_	_	_	_	
+31-2	2303-2304	P	_	_	_	_	_	_	_	
+31-3	2305-2308	IMM	_	_	_	false	3	_	_	
+31-4	2308-2309	.	_	_	_	_	_	_	_	
+
+#Text=Vi tror att integration i hög grad handlar om företagande.
+32-1	2311-2313	Vi	_	_	_	_	_	_	_	
+32-2	2314-2318	tror	_	_	_	_	_	_	_	
+32-3	2319-2322	att	_	_	_	_	_	_	_	
+32-4	2323-2334	integration	_	_	_	_	_	_	_	
+32-5	2335-2336	i	_	_	_	_	_	_	_	
+32-6	2337-2340	hög	_	_	_	_	_	_	_	
+32-7	2341-2345	grad	_	_	_	_	_	_	_	
+32-8	2346-2353	handlar	_	_	_	_	_	_	_	
+32-9	2354-2356	om	_	_	_	_	_	_	_	
+32-10	2357-2368	företagande	_	_	_	_	_	_	_	
+32-11	2368-2369	.	_	_	_	_	_	_	_	
+
+#Text=Om människors initiativkraft inte hämmades av regleringar skulle vi få en starkare ekonomi och ett bättre samhällsklimat.
+33-1	2370-2372	Om	_	_	_	_	_	_	_	
+33-2	2373-2383	människors	*[24]	_	_	_	_	_	_	
+33-3	2384-2398	initiativkraft	*[24]	_	_	_	_	_	_	
+33-4	2399-2403	inte	*[24]	_	_	_	_	_	_	
+33-5	2404-2412	hämmades	*[24]	Target[12]	33-7[25]	false[12]	2[12]	_	_	
+33-6	2413-2415	av	*[24]	Target[12]	33-7[25]	false[12]	2[12]	_	_	
+33-7	2416-2427	regleringar	*[24]|*[25]	_	_	_	_	_	_	
+33-8	2428-2434	skulle	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-9	2435-2437	vi	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-10	2438-2440	få	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-11	2441-2443	en	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-12	2444-2452	starkare	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-13	2453-2460	ekonomi	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-14	2461-2464	och	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-15	2465-2468	ett	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-16	2469-2475	bättre	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-17	2476-2490	samhällsklimat	_	Target[13]	33-2[24]	false[13]	4[13]	_	_	
+33-18	2490-2491	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2493-2494	#	_	_	_	_	_	_	_	
+34-2	2494-2495	P	_	_	_	_	_	_	_	
+34-3	2496-2499	IMM	_	_	_	_	_	_	_	
+34-4	2499-2500	.	_	_	_	_	_	_	_	
+
+#Text=Olika enkäter som gjorts bland företag visar att tiotusentals arbetstillfällen i näringslivet gått om intet då företagen haft svårt att rekrytera.
+35-1	2502-2507	Olika	_	_	_	_	_	_	_	
+35-2	2508-2515	enkäter	_	_	_	_	_	_	_	
+35-3	2516-2519	som	_	_	_	_	_	_	_	
+35-4	2520-2526	gjorts	_	_	_	_	_	_	_	
+35-5	2527-2532	bland	_	_	_	_	_	_	_	
+35-6	2533-2540	företag	_	_	_	_	_	_	_	
+35-7	2541-2546	visar	_	_	_	_	_	_	_	
+35-8	2547-2550	att	_	_	_	_	_	_	_	
+35-9	2551-2563	tiotusentals	_	_	_	_	_	_	_	
+35-10	2564-2580	arbetstillfällen	_	_	_	_	_	_	_	
+35-11	2581-2582	i	_	_	_	_	_	_	_	
+35-12	2583-2595	näringslivet	_	_	_	_	_	_	_	
+35-13	2596-2600	gått	_	_	_	_	_	_	_	
+35-14	2601-2603	om	_	_	_	_	_	_	_	
+35-15	2604-2609	intet	_	_	_	_	_	_	_	
+35-16	2610-2612	då	_	_	_	_	_	_	_	
+35-17	2613-2622	företagen	_	_	_	_	_	_	_	
+35-18	2623-2627	haft	_	_	_	_	_	_	_	
+35-19	2628-2633	svårt	_	_	_	_	_	_	_	
+35-20	2634-2637	att	_	_	_	_	_	_	_	
+35-21	2638-2647	rekrytera	_	_	_	_	_	_	_	
+35-22	2647-2648	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2650-2651	#	_	_	_	_	_	_	_	
+36-2	2651-2652	P	_	_	_	_	_	_	_	
+36-3	2653-2656	IMM	_	_	_	false	3	_	_	
+36-4	2656-2657	.	_	_	_	_	_	_	_	
+
+#Text=Dagens system med karantän för flyktingar måste ändras.
+37-1	2659-2665	Dagens	*[26]	_	_	_	_	_	_	
+37-2	2666-2672	system	*[26]	_	_	_	_	_	_	
+37-3	2673-2676	med	*[26]	_	_	_	_	_	_	
+37-4	2677-2685	karantän	*[26]	_	_	_	_	_	_	
+37-5	2686-2689	för	*[26]	_	_	_	_	_	_	
+37-6	2690-2700	flyktingar	*[26]	_	_	_	_	_	_	
+37-7	2701-2706	måste	_	Target[14]	37-1[26]	false[14]	2[14]	_	_	
+37-8	2707-2713	ändras	_	Target[14]	37-1[26]	false[14]	2[14]	_	_	
+37-9	2713-2714	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste göra det möjligt för människor som kommer till Sverige att börja arbeta redan från dag ett.
+38-1	2715-2717	Vi	_	_	_	_	_	_	_	
+38-2	2718-2723	måste	_	_	_	_	_	_	_	
+38-3	2724-2728	göra	_	_	_	_	_	_	_	
+38-4	2729-2732	det	_	_	_	_	_	_	_	
+38-5	2733-2740	möjligt	_	_	_	_	_	_	_	
+38-6	2741-2744	för	_	_	_	_	_	_	_	
+38-7	2745-2754	människor	_	_	_	_	_	_	_	
+38-8	2755-2758	som	_	_	_	_	_	_	_	
+38-9	2759-2765	kommer	_	_	_	_	_	_	_	
+38-10	2766-2770	till	_	_	_	_	_	_	_	
+38-11	2771-2778	Sverige	_	_	_	_	_	_	_	
+38-12	2779-2782	att	_	_	_	_	_	_	_	
+38-13	2783-2788	börja	_	_	_	_	_	_	_	
+38-14	2789-2795	arbeta	_	_	_	_	_	_	_	
+38-15	2796-2801	redan	_	_	_	_	_	_	_	
+38-16	2802-2806	från	_	_	_	_	_	_	_	
+38-17	2807-2810	dag	_	_	_	_	_	_	_	
+38-18	2811-2814	ett	_	_	_	_	_	_	_	
+38-19	2814-2815	.	_	_	_	_	_	_	_	
+
+#Text=Den effektivaste integrationen sker på arbetsplatsen, bland människor i samarbete.
+39-1	2816-2819	Den	_	_	_	_	_	_	_	
+39-2	2820-2832	effektivaste	_	_	_	_	_	_	_	
+39-3	2833-2846	integrationen	_	_	_	_	_	_	_	
+39-4	2847-2851	sker	_	_	_	_	_	_	_	
+39-5	2852-2854	på	_	_	_	_	_	_	_	
+39-6	2855-2868	arbetsplatsen	_	_	_	_	_	_	_	
+39-7	2868-2869	,	_	_	_	_	_	_	_	
+39-8	2870-2875	bland	_	_	_	_	_	_	_	
+39-9	2876-2885	människor	_	_	_	_	_	_	_	
+39-10	2886-2887	i	_	_	_	_	_	_	_	
+39-11	2888-2897	samarbete	_	_	_	_	_	_	_	
+39-12	2897-2898	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2900-2901	#	_	_	_	_	_	_	_	
+40-2	2901-2902	P	_	_	_	_	_	_	_	
+40-3	2903-2906	IMM	_	_	_	false	4	_	_	
+40-4	2906-2907	.	_	_	_	_	_	_	_	
+
+#Text=Ett mer tillåtande regelverk, höjda grundavdrag och sänkta arbetsgivaravgifter skulle ge jobb åt många fler.
+41-1	2909-2912	Ett	_	_	_	_	_	_	_	
+41-2	2913-2916	mer	_	_	_	_	_	_	_	
+41-3	2917-2927	tillåtande	_	_	_	_	_	_	_	
+41-4	2928-2937	regelverk	_	_	_	_	_	_	_	
+41-5	2937-2938	,	_	_	_	_	_	_	_	
+41-6	2939-2944	höjda	_	_	_	_	_	_	_	
+41-7	2945-2956	grundavdrag	_	_	_	_	_	_	_	
+41-8	2957-2960	och	_	_	_	_	_	_	_	
+41-9	2961-2967	sänkta	_	_	_	_	_	_	_	
+41-10	2968-2987	arbetsgivaravgifter	_	_	_	_	_	_	_	
+41-11	2988-2994	skulle	_	_	_	_	_	_	_	
+41-12	2995-2997	ge	_	_	_	_	_	_	_	
+41-13	2998-3002	jobb	_	_	_	_	_	_	_	
+41-14	3003-3005	åt	_	_	_	_	_	_	_	
+41-15	3006-3011	många	_	_	_	_	_	_	_	
+41-16	3012-3016	fler	_	_	_	_	_	_	_	
+41-17	3016-3017	.	_	_	_	_	_	_	_	
+
+#Text=Invandrare är ingen enhetlig grupp utan kommer från många olika kulturer och har skilda erfarenheter och kompetenser.
+42-1	3018-3028	Invandrare	_	_	_	_	_	_	_	
+42-2	3029-3031	är	_	_	_	_	_	_	_	
+42-3	3032-3037	ingen	_	_	_	_	_	_	_	
+42-4	3038-3046	enhetlig	_	_	_	_	_	_	_	
+42-5	3047-3052	grupp	_	_	_	_	_	_	_	
+42-6	3053-3057	utan	_	_	_	_	_	_	_	
+42-7	3058-3064	kommer	_	_	_	_	_	_	_	
+42-8	3065-3069	från	_	_	_	_	_	_	_	
+42-9	3070-3075	många	_	_	_	_	_	_	_	
+42-10	3076-3081	olika	_	_	_	_	_	_	_	
+42-11	3082-3090	kulturer	_	_	_	_	_	_	_	
+42-12	3091-3094	och	_	_	_	_	_	_	_	
+42-13	3095-3098	har	_	_	_	_	_	_	_	
+42-14	3099-3105	skilda	_	_	_	_	_	_	_	
+42-15	3106-3118	erfarenheter	_	_	_	_	_	_	_	
+42-16	3119-3122	och	_	_	_	_	_	_	_	
+42-17	3123-3134	kompetenser	_	_	_	_	_	_	_	
+42-18	3134-3135	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste klara av att fånga upp enskilda individers kompetens men också skräddarsy lösningar för behoven.
+43-1	3136-3138	Vi	_	_	_	_	_	_	_	
+43-2	3139-3144	måste	_	_	_	_	_	_	_	
+43-3	3145-3150	klara	_	_	_	_	_	_	_	
+43-4	3151-3153	av	_	_	_	_	_	_	_	
+43-5	3154-3157	att	_	_	_	_	_	_	_	
+43-6	3158-3163	fånga	_	_	_	_	_	_	_	
+43-7	3164-3167	upp	_	_	_	_	_	_	_	
+43-8	3168-3176	enskilda	_	_	_	_	_	_	_	
+43-9	3177-3187	individers	_	_	_	_	_	_	_	
+43-10	3188-3197	kompetens	_	_	_	_	_	_	_	
+43-11	3198-3201	men	_	_	_	_	_	_	_	
+43-12	3202-3207	också	_	_	_	_	_	_	_	
+43-13	3208-3218	skräddarsy	_	_	_	_	_	_	_	
+43-14	3219-3228	lösningar	_	_	_	_	_	_	_	
+43-15	3229-3232	för	_	_	_	_	_	_	_	
+43-16	3233-3240	behoven	_	_	_	_	_	_	_	
+43-17	3240-3241	.	_	_	_	_	_	_	_	
+
+#Text=Ett starkt näringsliv i Sverige med många och diversifierade företag som får möjlighet att växa är den säkraste vägen för ökad integration.
+44-1	3242-3245	Ett	_	_	_	_	_	_	_	
+44-2	3246-3252	starkt	_	_	_	_	_	_	_	
+44-3	3253-3263	näringsliv	_	_	_	_	_	_	_	
+44-4	3264-3265	i	_	_	_	_	_	_	_	
+44-5	3266-3273	Sverige	_	_	_	_	_	_	_	
+44-6	3274-3277	med	_	_	_	_	_	_	_	
+44-7	3278-3283	många	_	_	_	_	_	_	_	
+44-8	3284-3287	och	_	_	_	_	_	_	_	
+44-9	3288-3302	diversifierade	_	_	_	_	_	_	_	
+44-10	3303-3310	företag	_	_	_	_	_	_	_	
+44-11	3311-3314	som	_	_	_	_	_	_	_	
+44-12	3315-3318	får	_	_	_	_	_	_	_	
+44-13	3319-3328	möjlighet	_	_	_	_	_	_	_	
+44-14	3329-3332	att	_	_	_	_	_	_	_	
+44-15	3333-3337	växa	_	_	_	_	_	_	_	
+44-16	3338-3340	är	_	_	_	_	_	_	_	
+44-17	3341-3344	den	_	_	_	_	_	_	_	
+44-18	3345-3353	säkraste	_	_	_	_	_	_	_	
+44-19	3354-3359	vägen	_	_	_	_	_	_	_	
+44-20	3360-3363	för	_	_	_	_	_	_	_	
+44-21	3364-3368	ökad	_	_	_	_	_	_	_	
+44-22	3369-3380	integration	_	_	_	_	_	_	_	
+44-23	3380-3381	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3383-3384	#	_	_	_	_	_	_	_	
+45-2	3384-3385	P	_	_	_	_	_	_	_	
+45-3	3386-3389	IMM	_	_	_	_	_	_	_	
+45-4	3389-3390	.	_	_	_	_	_	_	_	
+
+#Text=I DAG 30 november kommer vi att hålla en rad manifestationer för Ett Öppet Sverige.
+46-1	3392-3393	I	_	_	_	_	_	_	_	
+46-2	3394-3397	DAG	_	_	_	_	_	_	_	
+46-3	3398-3400	30	_	_	_	_	_	_	_	
+46-4	3401-3409	november	_	_	_	_	_	_	_	
+46-5	3410-3416	kommer	_	_	_	false	4	_	_	
+46-6	3417-3419	vi	*	_	_	_	_	_	_	
+46-7	3420-3423	att	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	46-5[0_15]	_	
+46-8	3424-3429	hålla	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	_	_	
+46-9	3430-3432	en	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	_	_	
+46-10	3433-3436	rad	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	_	_	
+46-11	3437-3452	manifestationer	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	_	_	
+46-12	3453-3456	för	_	Source;Target[15]	46-6;46-13[27]	false[15]	4[15]	_	_	
+46-13	3457-3460	Ett	*[27]	_	_	_	_	_	_	
+46-14	3461-3466	Öppet	*[27]	_	_	_	_	_	_	
+46-15	3467-3474	Sverige	*[27]	_	_	_	_	_	_	
+46-16	3474-3475	.	_	_	_	_	_	_	_	
+
+#Text=Alla 22 regionkontor i Svenskt Näringsliv kommer att anordna manifestationer i sina regioner.
+47-1	3476-3480	Alla	_	_	_	_	_	_	_	
+47-2	3481-3483	22	_	_	_	_	_	_	_	
+47-3	3484-3496	regionkontor	_	_	_	_	_	_	_	
+47-4	3497-3498	i	_	_	_	_	_	_	_	
+47-5	3499-3506	Svenskt	_	_	_	_	_	_	_	
+47-6	3507-3517	Näringsliv	_	_	_	_	_	_	_	
+47-7	3518-3524	kommer	_	_	_	_	_	_	_	
+47-8	3525-3528	att	_	_	_	_	_	_	_	
+47-9	3529-3536	anordna	_	_	_	_	_	_	_	
+47-10	3537-3552	manifestationer	_	_	_	_	_	_	_	
+47-11	3553-3554	i	_	_	_	_	_	_	_	
+47-12	3555-3559	sina	_	_	_	_	_	_	_	
+47-13	3560-3568	regioner	_	_	_	_	_	_	_	
+47-14	3568-3569	.	_	_	_	_	_	_	_	
+
+#Text=Manifestationerna är viktiga i en tid då det finns krafter som talar för ökad isolering mellan människor och då främlingsfientligheten i Sverige riskerar att bli alltmer högljudd.
+48-1	3570-3587	Manifestationerna	_	_	_	_	_	_	_	
+48-2	3588-3590	är	_	_	_	_	_	_	_	
+48-3	3591-3598	viktiga	_	_	_	_	_	_	_	
+48-4	3599-3600	i	_	_	_	_	_	_	_	
+48-5	3601-3603	en	_	_	_	_	_	_	_	
+48-6	3604-3607	tid	_	_	_	_	_	_	_	
+48-7	3608-3610	då	_	_	_	_	_	_	_	
+48-8	3611-3614	det	_	_	_	_	_	_	_	
+48-9	3615-3620	finns	_	_	_	_	_	_	_	
+48-10	3621-3628	krafter	_	_	_	_	_	_	_	
+48-11	3629-3632	som	_	_	_	_	_	_	_	
+48-12	3633-3638	talar	_	_	_	_	_	_	_	
+48-13	3639-3642	för	_	_	_	_	_	_	_	
+48-14	3643-3647	ökad	_	_	_	_	_	_	_	
+48-15	3648-3657	isolering	_	_	_	_	_	_	_	
+48-16	3658-3664	mellan	_	_	_	_	_	_	_	
+48-17	3665-3674	människor	_	_	_	_	_	_	_	
+48-18	3675-3678	och	_	_	_	_	_	_	_	
+48-19	3679-3681	då	_	_	_	_	_	_	_	
+48-20	3682-3704	främlingsfientligheten	*[28]	_	_	_	_	_	_	
+48-21	3705-3706	i	*[28]	_	_	_	_	_	_	
+48-22	3707-3714	Sverige	*[28]	_	_	_	_	_	_	
+48-23	3715-3723	riskerar	*[28]	Target	48-20[28]	false	2	_	_	
+48-24	3724-3727	att	*[28]	_	_	_	_	_	_	
+48-25	3728-3731	bli	*[28]	_	_	_	_	_	_	
+48-26	3732-3739	alltmer	*[28]	_	_	_	_	_	_	
+48-27	3740-3748	högljudd	*[28]	_	_	_	_	_	_	
+48-28	3748-3749	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3751-3752	#	_	_	_	_	_	_	_	
+49-2	3752-3753	P	_	_	_	_	_	_	_	
+49-3	3754-3757	IMM	_	_	_	false	4	_	_	
+49-4	3757-3758	.	_	_	_	_	_	_	_	
+
+#Text=Politiska och byråkratiska konstruktioner som sätter upp hinder för integrationen måste undanröjas.
+50-1	3760-3769	Politiska	*[29]	_	_	_	_	_	_	
+50-2	3770-3773	och	*[29]	_	_	_	_	_	_	
+50-3	3774-3786	byråkratiska	*[29]	_	_	_	_	_	_	
+50-4	3787-3801	konstruktioner	*[29]	_	_	_	_	_	_	
+50-5	3802-3805	som	*[29]	_	_	_	_	_	_	
+50-6	3806-3812	sätter	*[29]	_	_	_	_	_	_	
+50-7	3813-3816	upp	*[29]	_	_	_	_	_	_	
+50-8	3817-3823	hinder	*[29]	_	_	_	_	_	_	
+50-9	3824-3827	för	*[29]	_	_	_	_	_	_	
+50-10	3828-3841	integrationen	*[29]	_	_	_	_	_	_	
+50-11	3842-3847	måste	_	Target[16]	50-1[29]	false[16]	2[16]	_	_	
+50-12	3848-3858	undanröjas	_	Target[16]	50-1[29]	false[16]	2[16]	_	_	
+50-13	3858-3859	.	_	_	_	_	_	_	_	
+
+#Text=Börja gärna på de två områden som är viktigast: bostadsmarknaden och arbetsmarknaden.
+51-1	3860-3865	Börja	*[30]	_	_	_	_	_	_	
+51-2	3866-3871	gärna	*[30]	Target	51-1[30]	false	4	_	_	
+51-3	3872-3874	på	*[30]	_	_	_	_	_	_	
+51-4	3875-3877	de	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-5	3878-3881	två	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-6	3882-3889	områden	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-7	3890-3893	som	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-8	3894-3896	är	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-9	3897-3906	viktigast	*[30]	Target[17]	51-11[31]	false[17]	4[17]	_	_	
+51-10	3906-3907	:	*[30]	_	_	_	_	_	_	
+51-11	3908-3924	bostadsmarknaden	*[30]|*[31]	_	_	_	_	_	_	
+51-12	3925-3928	och	*[30]|*[31]	_	_	_	_	_	_	
+51-13	3929-3944	arbetsmarknaden	*[30]|*[31]	_	_	_	_	_	_	
+51-14	3944-3945	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3947-3948	#	_	_	_	_	_	_	_	
+52-2	3948-3949	P	_	_	_	_	_	_	_	
+52-3	3950-3953	IMM	_	_	_	_	_	_	_	
+52-4	3953-3954	.	_	_	_	_	_	_	_	
+
+#Text=Tyck till.
+53-1	3956-3960	Tyck	_	_	_	_	_	_	_	
+53-2	3961-3965	till	_	_	_	_	_	_	_	
+53-3	3965-3966	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	3968-3969	#	_	_	_	_	_	_	_	
+54-2	3969-3970	P	_	_	_	_	_	_	_	
+54-3	3971-3974	IMM	_	_	_	_	_	_	_	
+54-4	3974-3975	.	_	_	_	_	_	_	_	
+
+#Text=Politiker : våga se verkligheten.
+55-1	3977-3986	Politiker	_	_	_	_	_	_	_	
+55-2	3987-3988	:	_	_	_	_	_	_	_	
+55-3	3989-3993	våga	_	_	_	_	_	_	_	
+55-4	3994-3996	se	_	_	_	_	_	_	_	
+55-5	3997-4009	verkligheten	_	_	_	_	_	_	_	
+55-6	4009-4010	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	4012-4013	#	_	_	_	_	_	_	_	
+56-2	4013-4014	P	_	_	_	_	_	_	_	
+56-3	4015-4018	IMM	_	_	_	_	_	_	_	
+56-4	4018-4019	.	_	_	_	_	_	_	_	
+
+#Text=Lars Jilmstad (Regionchef Svenskt Näringsliv Stockholm), Christer Jansson (vd Stockholms Fastighetsägareförening).
+57-1	4021-4025	Lars	_	_	_	_	_	_	_	
+57-2	4026-4034	Jilmstad	_	_	_	_	_	_	_	
+57-3	4035-4036	(	_	_	_	_	_	_	_	
+57-4	4036-4046	Regionchef	_	_	_	_	_	_	_	
+57-5	4047-4054	Svenskt	_	_	_	_	_	_	_	
+57-6	4055-4065	Näringsliv	_	_	_	_	_	_	_	
+57-7	4066-4075	Stockholm	_	_	_	_	_	_	_	
+57-8	4075-4076	)	_	_	_	_	_	_	_	
+57-9	4076-4077	,	_	_	_	_	_	_	_	
+57-10	4078-4086	Christer	_	_	_	_	_	_	_	
+57-11	4087-4094	Jansson	_	_	_	_	_	_	_	
+57-12	4095-4096	(	_	_	_	_	_	_	_	
+57-13	4096-4098	vd	_	_	_	_	_	_	_	
+57-14	4099-4109	Stockholms	_	_	_	_	_	_	_	
+57-15	4110-4133	Fastighetsägareförening	_	_	_	_	_	_	_	
+57-16	4133-4134	)	_	_	_	_	_	_	_	
+57-17	4134-4135	.	_	_	_	_	_	_	_	

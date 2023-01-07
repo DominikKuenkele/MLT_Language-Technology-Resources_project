@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Muslim skriver öppet att han hatar rasism, men privat hyllar han terrorism.
+3-1	18-24	Muslim	*	_	_	_	_	
+3-2	25-32	skriver	_	_	_	_	_	
+3-3	33-38	öppet	_	_	_	_	_	
+3-4	39-42	att	_	_	_	_	_	
+3-5	43-46	han	_	_	_	_	_	
+3-6	47-52	hatar	_	Target;Source	3-7;3-1	false	1	
+3-7	53-59	rasism	*	_	_	_	_	
+3-8	59-60	,	_	_	_	_	_	
+3-9	61-64	men	_	_	_	_	_	
+3-10	65-71	privat	_	_	_	_	_	
+3-11	72-78	hyllar	_	Target;Source	3-13;3-1	false	5	
+3-12	79-82	han	_	_	_	_	_	
+3-13	83-92	terrorism	*	_	_	_	_	
+3-14	92-93	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	95-96	#	_	_	_	_	_	
+4-2	96-97	P	_	_	_	_	_	
+4-3	98-101	IMM	_	_	_	_	_	
+4-4	101-102	.	_	_	_	_	_	
+
+#Text=Hade en liten märklig upplevelse idag.
+5-1	104-108	Hade	_	_	_	_	_	
+5-2	109-111	en	_	_	_	_	_	
+5-3	112-117	liten	_	_	_	_	_	
+5-4	118-125	märklig	_	_	_	_	_	
+5-5	126-136	upplevelse	_	_	_	_	_	
+5-6	137-141	idag	_	_	_	_	_	
+5-7	141-142	.	_	_	_	_	_	
+
+#Text=Vi diskuterade Bosse Hanssons uttalande om Svartingar på gnagarforum och allt var som vanligt.
+6-1	143-145	Vi	_	_	_	_	_	
+6-2	146-157	diskuterade	_	_	_	_	_	
+6-3	158-163	Bosse	_	_	_	_	_	
+6-4	164-172	Hanssons	_	_	_	_	_	
+6-5	173-182	uttalande	_	_	_	_	_	
+6-6	183-185	om	_	_	_	_	_	
+6-7	186-196	Svartingar	*	Target	6-7	false	2	
+6-8	197-199	på	_	_	_	_	_	
+6-9	200-211	gnagarforum	_	_	_	_	_	
+6-10	212-215	och	_	_	_	_	_	
+6-11	216-220	allt	_	_	_	_	_	
+6-12	221-224	var	_	_	_	_	_	
+6-13	225-228	som	_	_	_	_	_	
+6-14	229-236	vanligt	_	_	_	_	_	
+6-15	236-237	.	_	_	_	_	_	
+
+#Text=De flesta tog avstånd från Bosse Hanssons uttalande och den här snubben var nog den som tog mest avstånd.
+7-1	238-240	De	*[4]	_	_	_	_	
+7-2	241-247	flesta	*[4]	_	_	_	_	
+7-3	248-251	tog	_	Source;Target[1]	7-1[4];7-6[5]	false[1]	2[1]	
+7-4	252-259	avstånd	_	Source;Target[1]	7-1[4];7-6[5]	false[1]	2[1]	
+7-5	260-264	från	_	Source;Target[1]	7-1[4];7-6[5]	false[1]	2[1]	
+7-6	265-270	Bosse	*[5]	_	_	_	_	
+7-7	271-279	Hanssons	*[5]	_	_	_	_	
+7-8	280-289	uttalande	*[5]	_	_	_	_	
+7-9	290-293	och	_	_	_	_	_	
+7-10	294-297	den	*[6]	_	_	_	_	
+7-11	298-301	här	*[6]	_	_	_	_	
+7-12	302-309	snubben	*[6]	_	_	_	_	
+7-13	310-313	var	_	_	_	_	_	
+7-14	314-317	nog	_	_	_	_	_	
+7-15	318-321	den	_	_	_	_	_	
+7-16	322-325	som	_	_	_	_	_	
+7-17	326-329	tog	_	Source[2]	7-10[6]	false[2]	2[2]	
+7-18	330-334	mest	_	Source[2]	7-10[6]	false[2]	2[2]	
+7-19	335-342	avstånd	_	Source[2]	7-10[6]	false[2]	2[2]	
+7-20	342-343	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	345-346	#	_	_	_	_	_	
+8-2	346-347	P	_	_	_	_	_	
+8-3	348-351	IMM	_	_	_	_	_	
+8-4	351-352	.	_	_	_	_	_	
+
+#Text=Kolla på spoilern;.
+9-1	354-359	Kolla	_	_	_	_	_	
+9-2	360-362	på	_	_	_	_	_	
+9-3	363-371	spoilern	_	_	_	_	_	
+9-4	371-372	;	_	_	_	_	_	
+9-5	372-373	.	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	375-376	#	_	_	_	_	_	
+10-2	376-377	P	_	_	_	_	_	
+10-3	378-381	IMM	_	_	_	_	_	
+10-4	381-382	.	_	_	_	_	_	
+
+#Text=Allt väl sålänge.
+11-1	384-388	Allt	_	_	_	_	_	
+11-2	389-392	väl	_	_	_	_	_	
+11-3	393-400	sålänge	_	_	_	_	_	
+11-4	400-401	.	_	_	_	_	_	
+
+#Text=Jag snackar lite med honom i PM han kallar mig gris som jag vet är ett skällsord för muslimer.
+12-1	402-405	Jag	_	_	_	_	_	
+12-2	406-413	snackar	_	_	_	_	_	
+12-3	414-418	lite	_	_	_	_	_	
+12-4	419-422	med	_	_	_	_	_	
+12-5	423-428	honom	_	_	_	_	_	
+12-6	429-430	i	_	_	_	_	_	
+12-7	431-433	PM	_	_	_	_	_	
+12-8	434-437	han	_	_	_	_	_	
+12-9	438-444	kallar	_	_	_	_	_	
+12-10	445-448	mig	_	_	_	_	_	
+12-11	449-453	gris	_	_	_	_	_	
+12-12	454-457	som	_	_	_	_	_	
+12-13	458-461	jag	_	_	_	_	_	
+12-14	462-465	vet	_	_	_	_	_	
+12-15	466-468	är	_	_	_	_	_	
+12-16	469-472	ett	_	_	_	_	_	
+12-17	473-482	skällsord	_	_	_	_	_	
+12-18	483-486	för	_	_	_	_	_	
+12-19	487-495	muslimer	_	_	_	_	_	
+12-20	495-496	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	498-499	#	_	_	_	_	_	
+13-2	499-500	P	_	_	_	_	_	
+13-3	501-504	IMM	_	_	_	_	_	
+13-4	504-505	.	_	_	_	_	_	
+
+#Text=Jag tar då tillfället i akt att kalla honom terrorist som är den största förolämpningen jag vet när det gäller muslimer.
+14-1	507-510	Jag	_	_	_	_	_	
+14-2	511-514	tar	_	_	_	_	_	
+14-3	515-517	då	_	_	_	_	_	
+14-4	518-528	tillfället	_	_	_	_	_	
+14-5	529-530	i	_	_	_	_	_	
+14-6	531-534	akt	_	_	_	_	_	
+14-7	535-538	att	_	_	_	_	_	
+14-8	539-544	kalla	_	_	_	_	_	
+14-9	545-550	honom	_	_	_	_	_	
+14-10	551-560	terrorist	_	_	_	_	_	
+14-11	561-564	som	_	_	_	_	_	
+14-12	565-567	är	_	_	_	_	_	
+14-13	568-571	den	_	_	_	_	_	
+14-14	572-579	största	_	_	_	_	_	
+14-15	580-594	förolämpningen	_	_	_	_	_	
+14-16	595-598	jag	_	_	_	_	_	
+14-17	599-602	vet	_	_	_	_	_	
+14-18	603-606	när	_	_	_	_	_	
+14-19	607-610	det	_	_	_	_	_	
+14-20	611-617	gäller	_	_	_	_	_	
+14-21	618-626	muslimer	_	_	_	_	_	
+14-22	626-627	.	_	_	_	_	_	
+
+#Text=Då skickar han detta till mig;.
+15-1	628-630	Då	_	_	_	_	_	
+15-2	631-638	skickar	_	_	_	_	_	
+15-3	639-642	han	_	_	_	_	_	
+15-4	643-648	detta	_	_	_	_	_	
+15-5	649-653	till	_	_	_	_	_	
+15-6	654-657	mig	_	_	_	_	_	
+15-7	657-658	;	_	_	_	_	_	
+15-8	658-659	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	661-662	#	_	_	_	_	_	
+16-2	662-663	P	_	_	_	_	_	
+16-3	664-667	IMM	_	_	_	_	_	
+16-4	667-668	.	_	_	_	_	_	
+
+#Text=Edit; Efter detta erkänner han öppet att han stödjer terrorismen i kaukasien;.
+17-1	670-674	Edit	_	_	_	_	_	
+17-2	674-675	;	_	_	_	_	_	
+17-3	676-681	Efter	_	_	_	_	_	
+17-4	682-687	detta	_	_	_	_	_	
+17-5	688-696	erkänner	_	_	_	_	_	
+17-6	697-700	han	_	_	_	_	_	
+17-7	701-706	öppet	_	_	_	_	_	
+17-8	707-710	att	_	_	_	_	_	
+17-9	711-714	han	_	_	_	_	_	
+17-10	715-722	stödjer	_	_	_	_	_	
+17-11	723-734	terrorismen	_	_	_	_	_	
+17-12	735-736	i	_	_	_	_	_	
+17-13	737-746	kaukasien	_	_	_	_	_	
+17-14	746-747	;	_	_	_	_	_	
+17-15	747-748	.	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	750-751	#	_	_	_	_	_	
+18-2	751-752	P	_	_	_	_	_	
+18-3	753-756	IMM	_	_	_	_	_	
+18-4	756-757	.	_	_	_	_	_	
+
+#Text=Frågeställning;.
+19-1	759-773	Frågeställning	_	_	_	_	_	
+19-2	773-774	;	_	_	_	_	_	
+19-3	774-775	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	777-778	#	_	_	_	_	_	
+20-2	778-779	P	_	_	_	_	_	
+20-3	780-783	IMM	_	_	_	_	_	
+20-4	783-784	.	_	_	_	_	_	
+
+#Text=Är det vanligt att Muslimer tar avstånd från Rasism öppet men bakom stängda dörrar flödar rasismen, samtidigt som man hyllar terrorism?.
+21-1	786-788	Är	_	_	_	_	_	
+21-2	789-792	det	_	_	_	_	_	
+21-3	793-800	vanligt	_	_	_	_	_	
+21-4	801-804	att	_	_	_	_	_	
+21-5	805-813	Muslimer	_	_	_	_	_	
+21-6	814-817	tar	_	_	_	_	_	
+21-7	818-825	avstånd	_	_	_	_	_	
+21-8	826-830	från	_	_	_	_	_	
+21-9	831-837	Rasism	_	_	_	_	_	
+21-10	838-843	öppet	_	_	_	_	_	
+21-11	844-847	men	_	_	_	_	_	
+21-12	848-853	bakom	_	_	_	_	_	
+21-13	854-861	stängda	_	_	_	_	_	
+21-14	862-868	dörrar	_	_	_	_	_	
+21-15	869-875	flödar	_	_	_	_	_	
+21-16	876-884	rasismen	_	_	_	_	_	
+21-17	884-885	,	_	_	_	_	_	
+21-18	886-895	samtidigt	_	_	_	_	_	
+21-19	896-899	som	_	_	_	_	_	
+21-20	900-903	man	_	_	_	_	_	
+21-21	904-910	hyllar	_	_	_	_	_	
+21-22	911-920	terrorism	_	_	_	_	_	
+21-23	920-921	?	_	_	_	_	_	
+21-24	921-922	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	924-925	#	_	_	_	_	_	
+22-2	925-926	P	_	_	_	_	_	
+22-3	927-930	IMM	_	_	_	_	_	
+22-4	930-931	.	_	_	_	_	_	
+
+#Text=Jag mår riktigt illa av att sådana människor bor i Sverige.
+23-1	933-936	Jag	_	_	_	_	_	
+23-2	937-940	mår	_	Target[3]	23-6[7]	false[3]	1[3]	
+23-3	941-948	riktigt	_	Target[3]	23-6[7]	false[3]	1[3]	
+23-4	949-953	illa	_	Target[3]	23-6[7]	false[3]	1[3]	
+23-5	954-956	av	_	Target[3]	23-6[7]	false[3]	1[3]	
+23-6	957-960	att	*[7]	_	_	_	_	
+23-7	961-967	sådana	*[7]	_	_	_	_	
+23-8	968-977	människor	*[7]	_	_	_	_	
+23-9	978-981	bor	*[7]	_	_	_	_	
+23-10	982-983	i	*[7]	_	_	_	_	
+23-11	984-991	Sverige	*[7]	_	_	_	_	
+23-12	991-992	.	_	_	_	_	_	

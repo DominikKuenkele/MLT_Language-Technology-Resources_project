@@ -1,0 +1,327 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	4[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	4[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	4[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	4[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Allas lika värde måste gälla på den svenska arbetsmarknaden.
+3-1	18-23	Allas	*[21]	_	_	_	_	_	
+3-2	24-28	lika	*[21]	_	_	_	_	_	
+3-3	29-34	värde	*[21]	_	_	_	_	_	
+3-4	35-40	måste	_	Target[3]	3-1[21]	false[3]	4[3]	_	
+3-5	41-46	gälla	_	Target[3]	3-1[21]	false[3]	4[3]	_	
+3-6	47-49	på	_	_	_	_	_	_	
+3-7	50-53	den	_	_	_	_	_	_	
+3-8	54-61	svenska	_	_	_	_	_	_	
+3-9	62-77	arbetsmarknaden	_	_	_	_	_	_	
+3-10	77-78	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	80-81	#	_	_	_	_	_	_	
+4-2	81-82	P	_	_[4]	_	false[4]	4[4]	_	
+4-3	83-86	IMM	_	_[4]	_	false[4]	4[4]	_	
+4-4	86-87	.	_	_	_	_	_	_	
+
+#Text=Vi kan inte ha politiker, som påstår att invandrare ska ha en lägre lön på den svenska arbetsmarknaden.
+5-1	89-91	Vi	_	_	_	_	_	_	
+5-2	92-95	kan	_	Target[5]	5-5[22]	false[5]	2[5]	_	
+5-3	96-100	inte	_	Target[5]	5-5[22]	false[5]	2[5]	_	
+5-4	101-103	ha	_	Target[5]	5-5[22]	false[5]	2[5]	_	
+5-5	104-113	politiker	*[22]	_	_	_	_	_	
+5-6	113-114	,	*[22]	_	_	_	_	_	
+5-7	115-118	som	*[22]	_	_	_	_	_	
+5-8	119-125	påstår	*[22]	_	_	_	_	_	
+5-9	126-129	att	*[22]	_	_	_	_	_	
+5-10	130-140	invandrare	*[22]	_	_	_	_	_	
+5-11	141-144	ska	*[22]	_	_	_	_	_	
+5-12	145-147	ha	*[22]	_	_	_	_	_	
+5-13	148-150	en	*[22]	_	_	_	_	_	
+5-14	151-156	lägre	*[22]	_	_	_	_	_	
+5-15	157-160	lön	*[22]	_	_	_	_	_	
+5-16	161-163	på	*[22]	_	_	_	_	_	
+5-17	164-167	den	*[22]	_	_	_	_	_	
+5-18	168-175	svenska	*[22]	_	_	_	_	_	
+5-19	176-191	arbetsmarknaden	*[22]	_	_	_	_	_	
+5-20	191-192	.	_	_	_	_	_	_	
+
+#Text=Många av dessa invandrare är svenska medborgare.
+6-1	193-198	Många	_	_	_	_	_	_	
+6-2	199-201	av	_	_	_	_	_	_	
+6-3	202-207	dessa	_	_	_	_	_	_	
+6-4	208-218	invandrare	_	_	_	_	_	_	
+6-5	219-221	är	_	_	_	_	_	_	
+6-6	222-229	svenska	_	_	_	_	_	_	
+6-7	230-240	medborgare	_	_	_	_	_	_	
+6-8	240-241	.	_	_	_	_	_	_	
+
+#Text=Ska deras svenska medborgarskap gälla över allt, utom på den svenska arbetsmarknaden ?.
+7-1	242-245	Ska	_	_	_	_	_	_	
+7-2	246-251	deras	_	_	_	_	_	_	
+7-3	252-259	svenska	_	_	_	_	_	_	
+7-4	260-273	medborgarskap	_	_	_	_	_	_	
+7-5	274-279	gälla	_	_	_	_	_	_	
+7-6	280-284	över	_	_	_	_	_	_	
+7-7	285-289	allt	_	_	_	_	_	_	
+7-8	289-290	,	_	_	_	_	_	_	
+7-9	291-295	utom	_	_	_	_	_	_	
+7-10	296-298	på	_	_	_	_	_	_	
+7-11	299-302	den	_	_	_	_	_	_	
+7-12	303-310	svenska	_	_	_	_	_	_	
+7-13	311-326	arbetsmarknaden	_	_	_	_	_	_	
+7-14	327-328	?	_	_	_	_	_	_	
+7-15	328-329	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	331-332	#	_	_	_	_	_	_	
+8-2	332-333	P	_	_[6]	_	false[6]	4[6]	_	
+8-3	334-337	IMM	_	_[6]	_	false[6]	4[6]	_	
+8-4	337-338	.	_	_	_	_	_	_	
+
+#Text=Politiker som påstår sig, vara för en invandring, påstår nu att dom vill ha tvådelad arbetsmarknad, vi kan inte ha ett A-lag och ett B-lag på den svenska arbetsmarknaden.
+9-1	340-349	Politiker	*	_	_	_	_	_	
+9-2	350-353	som	_	_	_	_	_	_	
+9-3	354-360	påstår	_	_	_	_	_	_	
+9-4	361-364	sig	_	_	_	_	_	_	
+9-5	364-365	,	_	_	_	_	_	_	
+9-6	366-370	vara	_	_	_	_	_	_	
+9-7	371-374	för	_	_	_	_	_	_	
+9-8	375-377	en	_	_	_	_	_	_	
+9-9	378-388	invandring	_	_	_	_	_	_	
+9-10	388-389	,	_	_	_	_	_	_	
+9-11	390-396	påstår	_	_	_	_	_	_	
+9-12	397-399	nu	_	_	_	_	_	_	
+9-13	400-403	att	_	_	_	_	_	_	
+9-14	404-407	dom	_	_	_	_	_	_	
+9-15	408-412	vill	_	Source;Target[7]	9-1;9-17[23]	false[7]	4[7]	_	
+9-16	413-415	ha	_	Source;Target[7]	9-1;9-17[23]	false[7]	4[7]	_	
+9-17	416-424	tvådelad	*[23]	_	_	_	_	_	
+9-18	425-438	arbetsmarknad	*[23]	_	_	_	_	_	
+9-19	438-439	,	_	_	_	_	_	_	
+9-20	440-442	vi	_	_	_	_	_	_	
+9-21	443-446	kan	_	Target[8]	9-25[24]	false[8]	2[8]	_	
+9-22	447-451	inte	_	Target[8]	9-25[24]	false[8]	2[8]	_	
+9-23	452-454	ha	_	Target[8]	9-25[24]	false[8]	2[8]	_	
+9-24	455-458	ett	_	_	_	_	_	_	
+9-25	459-464	A-lag	*[24]	_	_	_	_	_	
+9-26	465-468	och	*[24]	_	_	_	_	_	
+9-27	469-472	ett	*[24]	_	_	_	_	_	
+9-28	473-478	B-lag	*[24]	_	_	_	_	_	
+9-29	479-481	på	*[24]	_	_	_	_	_	
+9-30	482-485	den	*[24]	_	_	_	_	_	
+9-31	486-493	svenska	*[24]	_	_	_	_	_	
+9-32	494-509	arbetsmarknaden	*[24]	_	_	_	_	_	
+9-33	509-510	.	_	_	_	_	_	_	
+
+#Text=Politiker påstår sig vilja ha in invandrarna i arbete, det är svårt att locka någon i arbete, med en lägre lön.
+10-1	511-520	Politiker	*	_	_	_	_	_	
+10-2	521-527	påstår	_	Target[9]	10-1	false[9]	2[9]	_	
+10-3	528-531	sig	_	Target[9]	10-1	false[9]	2[9]	_	
+10-4	532-537	vilja	_	Target[9]	10-1	false[9]	2[9]	_	
+10-5	538-540	ha	_	Target[9]	10-1	false[9]	2[9]	_	
+10-6	541-543	in	_	Target[9]	10-1	false[9]	2[9]	_	
+10-7	544-555	invandrarna	_	Target[9]	10-1	false[9]	2[9]	_	
+10-8	556-557	i	_	Target[9]	10-1	false[9]	2[9]	_	
+10-9	558-564	arbete	_	Target[9]	10-1	false[9]	2[9]	_	
+10-10	564-565	,	_	_	_	_	_	_	
+10-11	566-569	det	_	_	_	_	_	_	
+10-12	570-572	är	_	Target[10]	10-15[25]	false[10]	2[10]	_	
+10-13	573-578	svårt	_	Target[10]	10-15[25]	false[10]	2[10]	_	
+10-14	579-582	att	_	_	_	_	_	_	
+10-15	583-588	locka	*[25]	_	_	_	_	_	
+10-16	589-594	någon	*[25]	_	_	_	_	_	
+10-17	595-596	i	*[25]	_	_	_	_	_	
+10-18	597-603	arbete	*[25]	_	_	_	_	_	
+10-19	603-604	,	*[25]	_	_	_	_	_	
+10-20	605-608	med	*[25]	_	_	_	_	_	
+10-21	609-611	en	*[25]	_	_	_	_	_	
+10-22	612-617	lägre	*[25]	_	_	_	_	_	
+10-23	618-621	lön	*[25]	_	_	_	_	_	
+10-24	621-622	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	624-625	#	_	_	_	_	_	_	
+11-2	625-626	P	_	_[11]	_	false[11]	4[11]	_	
+11-3	627-630	IMM	_	_[11]	_	false[11]	4[11]	_	
+11-4	630-631	.	_	_	_	_	_	_	
+
+#Text=Tidigare sa dessa politiker att invandringen var en utmaning, nu tycks dessa politiker, ha gett upp om invandringen.
+12-1	633-641	Tidigare	_	_	_	_	_	_	
+12-2	642-644	sa	_	_	_	_	_	_	
+12-3	645-650	dessa	_	_	_	_	_	_	
+12-4	651-660	politiker	*	_	_	_	_	_	
+12-5	661-664	att	_	_	_	_	_	_	
+12-6	665-677	invandringen	*	_	_	_	_	_	
+12-7	678-681	var	_	Source;Target[12]	12-4;12-6	false[12]	2[12]	_	
+12-8	682-684	en	_	Source;Target[12]	12-4;12-6	false[12]	2[12]	_	
+12-9	685-693	utmaning	_	Source;Target[12]	12-4;12-6	false[12]	2[12]	_	
+12-10	693-694	,	_	_	_	_	_	_	
+12-11	695-697	nu	_	_	_	_	_	_	
+12-12	698-703	tycks	_	_	_	false	2	_	
+12-13	704-709	dessa	_	_	_	_	_	_	
+12-14	710-719	politiker	*	_	_	_	_	_	
+12-15	719-720	,	_	_	_	_	_	_	
+12-16	721-723	ha	_	Target[13]	12-14	false[13]	2[13]	12-12[0_13]	
+12-17	724-728	gett	_	Target[13]	12-14	false[13]	2[13]	_	
+12-18	729-732	upp	_	Target[13]	12-14	false[13]	2[13]	_	
+12-19	733-735	om	_	Target[13]	12-14	false[13]	2[13]	_	
+12-20	736-748	invandringen	_	Target[13]	12-14	false[13]	2[13]	_	
+12-21	748-749	.	_	_	_	_	_	_	
+
+#Text=Givetvis måste allas lika värde gälla på den svenska arbetsmarknaden.
+13-1	750-758	Givetvis	_	_[14]	_	false[14]	4[14]	_	
+13-2	759-764	måste	_	_[14]	_	false[14]	4[14]	_	
+13-3	765-770	allas	*[26]	_	_	_	_	_	
+13-4	771-775	lika	*[26]	_	_	_	_	_	
+13-5	776-781	värde	*[26]	_	_	_	_	_	
+13-6	782-787	gälla	_	Target	13-3[26]	false	4	13-1[14_0]	
+13-7	788-790	på	_	_	_	_	_	_	
+13-8	791-794	den	_	_	_	_	_	_	
+13-9	795-802	svenska	_	_	_	_	_	_	
+13-10	803-818	arbetsmarknaden	_	_	_	_	_	_	
+13-11	818-819	.	_	_	_	_	_	_	
+
+#Text=Det är kunskap och kompetens, som ska avgöra vem som får ett arbete, inte hudfärg och etnicitet.
+14-1	820-823	Det	_	_	_	_	_	_	
+14-2	824-826	är	_	_	_	_	_	_	
+14-3	827-834	kunskap	*[27]	_	_	_	_	_	
+14-4	835-838	och	*[27]	_	_	_	_	_	
+14-5	839-848	kompetens	*[27]	_	_	_	_	_	
+14-6	848-849	,	_	_	_	_	_	_	
+14-7	850-853	som	_	_	_	_	_	_	
+14-8	854-857	ska	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-9	858-864	avgöra	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-10	865-868	vem	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-11	869-872	som	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-12	873-876	får	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-13	877-880	ett	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-14	881-887	arbete	_	Target[15]	14-3[27]	false[15]	4[15]	_	
+14-15	887-888	,	_	_	_	_	_	_	
+14-16	889-893	inte	_	_	_	_	_	_	
+14-17	894-901	hudfärg	_	_	_	_	_	_	
+14-18	902-905	och	_	_	_	_	_	_	
+14-19	906-915	etnicitet	_	_	_	_	_	_	
+14-20	915-916	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	918-919	#	_	_	_	_	_	_	
+15-2	919-920	P	_	_[16]	_	false[16]	4[16]	_	
+15-3	921-924	IMM	_	_[16]	_	false[16]	4[16]	_	
+15-4	924-925	.	_	_	_	_	_	_	
+
+#Text=Det vore bra om dom olika politiska partierna, sätter sig ner och diskuterar, hur vi håller ihop den svenska arbetsmarknaden, hur vi ger alla en chans att få ett arbete med en avtalsenlig lön.
+16-1	927-930	Det	_	_	_	_	_	_	
+16-2	931-935	vore	_	Target[17]	16-5[28]	false[17]	4[17]	_	
+16-3	936-939	bra	_	Target[17]	16-5[28]	false[17]	4[17]	_	
+16-4	940-942	om	_	_	_	_	_	_	
+16-5	943-946	dom	*[28]	_	_	_	_	_	
+16-6	947-952	olika	*[28]	_	_	_	_	_	
+16-7	953-962	politiska	*[28]	_	_	_	_	_	
+16-8	963-972	partierna	*[28]	_	_	_	_	_	
+16-9	972-973	,	*[28]	_	_	_	_	_	
+16-10	974-980	sätter	*[28]	_	_	_	_	_	
+16-11	981-984	sig	*[28]	_	_	_	_	_	
+16-12	985-988	ner	*[28]	_	_	_	_	_	
+16-13	989-992	och	*[28]	_	_	_	_	_	
+16-14	993-1003	diskuterar	*[28]	_	_	_	_	_	
+16-15	1003-1004	,	_	_	_	_	_	_	
+16-16	1005-1008	hur	_	_	_	_	_	_	
+16-17	1009-1011	vi	_	_	_	_	_	_	
+16-18	1012-1018	håller	_	_	_	_	_	_	
+16-19	1019-1023	ihop	_	_	_	_	_	_	
+16-20	1024-1027	den	_	_	_	_	_	_	
+16-21	1028-1035	svenska	_	_	_	_	_	_	
+16-22	1036-1051	arbetsmarknaden	_	_	_	_	_	_	
+16-23	1051-1052	,	_	_	_	_	_	_	
+16-24	1053-1056	hur	_	_	_	_	_	_	
+16-25	1057-1059	vi	_	_	_	_	_	_	
+16-26	1060-1063	ger	_	_	_	_	_	_	
+16-27	1064-1068	alla	_	_	_	_	_	_	
+16-28	1069-1071	en	_	_	_	_	_	_	
+16-29	1072-1077	chans	_	_	_	_	_	_	
+16-30	1078-1081	att	_	_	_	_	_	_	
+16-31	1082-1084	få	_	_	_	_	_	_	
+16-32	1085-1088	ett	_	_	_	_	_	_	
+16-33	1089-1095	arbete	_	_	_	_	_	_	
+16-34	1096-1099	med	_	_	_	_	_	_	
+16-35	1100-1102	en	_	_	_	_	_	_	
+16-36	1103-1114	avtalsenlig	_	_	_	_	_	_	
+16-37	1115-1118	lön	_	_	_	_	_	_	
+16-38	1118-1119	.	_	_	_	_	_	_	
+
+#Text=Enkla arbeten med låga löner, det är sånt vi ser i låglöneländer, det är inget Sverige ska ta efter.
+17-1	1120-1125	Enkla	*[29]	_	_	_	_	_	
+17-2	1126-1133	arbeten	*[29]	_	_	_	_	_	
+17-3	1134-1137	med	*[29]	_	_	_	_	_	
+17-4	1138-1142	låga	*[29]	_	_	_	_	_	
+17-5	1143-1148	löner	*[29]	_	_	_	_	_	
+17-6	1148-1149	,	_	_	_	_	_	_	
+17-7	1150-1153	det	_	_	_	_	_	_	
+17-8	1154-1156	är	_	_	_	_	_	_	
+17-9	1157-1161	sånt	_	_	_	_	_	_	
+17-10	1162-1164	vi	_	_	_	_	_	_	
+17-11	1165-1168	ser	_	_	_	_	_	_	
+17-12	1169-1170	i	_	_	_	_	_	_	
+17-13	1171-1184	låglöneländer	_	_	_	_	_	_	
+17-14	1184-1185	,	_	_	_	_	_	_	
+17-15	1186-1189	det	_	_	_	_	_	_	
+17-16	1190-1192	är	_	_	_	_	_	_	
+17-17	1193-1198	inget	_	Target[18]	17-1[29]	false[18]	2[18]	_	
+17-18	1199-1206	Sverige	_	Target[18]	17-1[29]	false[18]	2[18]	_	
+17-19	1207-1210	ska	_	Target[18]	17-1[29]	false[18]	2[18]	_	
+17-20	1211-1213	ta	_	Target[18]	17-1[29]	false[18]	2[18]	_	
+17-21	1214-1219	efter	_	Target[18]	17-1[29]	false[18]	2[18]	_	
+17-22	1219-1220	.	_	_	_	_	_	_	
+
+#Text=Sverige ska vara ett ledande land, där vi satsar på kunskap och kompetens.
+18-1	1221-1228	Sverige	*	_	_	_	_	_	
+18-2	1229-1232	ska	_	Target[19]	18-1	false[19]	4[19]	_	
+18-3	1233-1237	vara	_	Target[19]	18-1	false[19]	4[19]	_	
+18-4	1238-1241	ett	_	Target[19]	18-1	false[19]	4[19]	_	
+18-5	1242-1249	ledande	_	Target[19]	18-1	false[19]	4[19]	_	
+18-6	1250-1254	land	_	Target[19]	18-1	false[19]	4[19]	_	
+18-7	1254-1255	,	_	_	_	_	_	_	
+18-8	1256-1259	där	_	_	_	_	_	_	
+18-9	1260-1262	vi	_	_	_	_	_	_	
+18-10	1263-1269	satsar	_	_	_	_	_	_	
+18-11	1270-1272	på	_	_	_	_	_	_	
+18-12	1273-1280	kunskap	_	_	_	_	_	_	
+18-13	1281-1284	och	_	_	_	_	_	_	
+18-14	1285-1294	kompetens	_	_	_	_	_	_	
+18-15	1294-1295	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1297-1298	#	_	_	_	_	_	_	
+19-2	1298-1299	P	_	_	_	_	_	_	
+19-3	1300-1303	IMM	_	_	_	_	_	_	
+19-4	1303-1304	.	_	_	_	_	_	_	
+
+#Text=I Sverige ska det löna sig att arbeta, det är så vi skapar framgångsrika företag.
+20-1	1306-1307	I	_	_	_	_	_	_	
+20-2	1308-1315	Sverige	_	_	_	_	_	_	
+20-3	1316-1319	ska	_	Target[20]	20-8	false[20]	4[20]	_	
+20-4	1320-1323	det	_	Target[20]	20-8	false[20]	4[20]	_	
+20-5	1324-1328	löna	_	Target[20]	20-8	false[20]	4[20]	_	
+20-6	1329-1332	sig	_	Target[20]	20-8	false[20]	4[20]	_	
+20-7	1333-1336	att	_	_	_	_	_	_	
+20-8	1337-1343	arbeta	*	_	_	_	_	_	
+20-9	1343-1344	,	_	_	_	_	_	_	
+20-10	1345-1348	det	_	_	_	_	_	_	
+20-11	1349-1351	är	_	_	_	_	_	_	
+20-12	1352-1354	så	_	_	_	_	_	_	
+20-13	1355-1357	vi	_	_	_	_	_	_	
+20-14	1358-1364	skapar	_	_	_	_	_	_	
+20-15	1365-1378	framgångsrika	_	Target	20-16	false	4	_	
+20-16	1379-1386	företag	*	_	_	_	_	_	
+20-17	1386-1387	.	_	_	_	_	_	_	

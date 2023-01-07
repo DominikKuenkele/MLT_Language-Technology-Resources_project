@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Magdalena Ribbing, Så bemöter du en rasist.
+3-1	18-27	Magdalena	_	_	_	_	_	
+3-2	28-35	Ribbing	_	_	_	_	_	
+3-3	35-36	,	_	_	_	_	_	
+3-4	37-39	Så	_	_	_	_	_	
+3-5	40-47	bemöter	_	_	_	_	_	
+3-6	48-50	du	_	_	_	_	_	
+3-7	51-53	en	_	_	_	_	_	
+3-8	54-60	rasist	_	_	_	_	_	
+3-9	60-61	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	
+4-2	64-65	P	_	_	_	_	_	
+4-3	66-69	IMM	_	_	_	_	_	
+4-4	69-70	.	_	_	_	_	_	
+
+#Text=Vett och Etiketts-experten Magdalena Ribbing besvara på sin blogg en fråga hur man hanterar en kompis kompis som uttrycker sig rasistiskt.
+5-1	72-76	Vett	_	_	_	_	_	
+5-2	77-80	och	_	_	_	_	_	
+5-3	81-98	Etiketts-experten	_	_	_	_	_	
+5-4	99-108	Magdalena	*[3]	_	_	_	_	
+5-5	109-116	Ribbing	*[3]	_	_	_	_	
+5-6	117-124	besvara	_	_	_	_	_	
+5-7	125-127	på	_	_	_	_	_	
+5-8	128-131	sin	_	_	_	_	_	
+5-9	132-137	blogg	_	_	_	_	_	
+5-10	138-140	en	_	_	_	_	_	
+5-11	141-146	fråga	_	_	_	_	_	
+5-12	147-150	hur	_	_	_	_	_	
+5-13	151-154	man	_	_	_	_	_	
+5-14	155-163	hanterar	_	_	_	_	_	
+5-15	164-166	en	_	_	_	_	_	
+5-16	167-173	kompis	*[4]	_	_	_	_	
+5-17	174-180	kompis	*[4]	_	_	_	_	
+5-18	181-184	som	*[4]	_	_	_	_	
+5-19	185-194	uttrycker	_	Source;Target[1]	5-22;5-16[4]	false[1]	2[1]	
+5-20	195-198	sig	_	Source;Target[1]	5-22;5-16[4]	false[1]	2[1]	
+5-21	199-209	rasistiskt	_	Source;Target[1]	5-22;5-16[4]	false[1]	2[1]	
+5-22	209-210	.	*	_	_	_	_	
+
+#Text=#P IMM
+6-1	212-213	#	_	_	_	_	_	
+6-2	213-214	P	_	_	_	_	_	
+6-3	215-218	IMM	_	_	_	_	_	
+
+#Text=.
+7-1	218-219	.	_	_	_	_	_	
+
+#Text=" Usch!
+8-1	221-222	"	_	_	_	_	_	
+8-2	223-227	Usch	_	Source	5-4[3]	false	2	
+8-3	227-228	!	_	_	_	_	_	
+
+#Text=Man ska säga ifrån!
+9-1	229-232	Man	_	_	_	_	_	
+9-2	233-236	ska	_	_	_	_	_	
+9-3	237-241	säga	_	_	_	_	_	
+9-4	242-247	ifrån	_	_	_	_	_	
+9-5	247-248	!	_	_	_	_	_	
+
+#Text=Man ska vända sig direkt till den bedrövliga person som yttrar sig på det sätt som du beskriver, och tydligt säga ungefär det där du säger är inte okej, det är fel och odemokratiskt och det vill vi inte höra.
+10-1	249-252	Man	_	_	_	_	_	
+10-2	253-256	ska	_	_	_	_	_	
+10-3	257-262	vända	_	_	_	_	_	
+10-4	263-266	sig	_	_	_	_	_	
+10-5	267-273	direkt	_	_	_	_	_	
+10-6	274-278	till	_	_	_	_	_	
+10-7	279-282	den	_	_	_	_	_	
+10-8	283-293	bedrövliga	_	Target;Source	10-9;5-4[3]	false	1	
+10-9	294-300	person	*	_	_	_	_	
+10-10	301-304	som	_	_	_	_	_	
+10-11	305-311	yttrar	_	_	_	_	_	
+10-12	312-315	sig	_	_	_	_	_	
+10-13	316-318	på	_	_	_	_	_	
+10-14	319-322	det	_	_	_	_	_	
+10-15	323-327	sätt	_	_	_	_	_	
+10-16	328-331	som	_	_	_	_	_	
+10-17	332-334	du	_	_	_	_	_	
+10-18	335-344	beskriver	_	_	_	_	_	
+10-19	344-345	,	_	_	_	_	_	
+10-20	346-349	och	_	_	_	_	_	
+10-21	350-357	tydligt	_	_	_	_	_	
+10-22	358-362	säga	_	_	_	_	_	
+10-23	363-370	ungefär	_	_	_	_	_	
+10-24	371-372		_	_	_	_	_	
+10-25	372-375	det	_	_	_	_	_	
+10-26	376-379	där	_	_	_	_	_	
+10-27	380-382	du	_	_	_	_	_	
+10-28	383-388	säger	_	_	_	_	_	
+10-29	389-391	är	_	_	_	_	_	
+10-30	392-396	inte	_	_	_	_	_	
+10-31	397-401	okej	_	_	_	_	_	
+10-32	401-402	,	_	_	_	_	_	
+10-33	403-406	det	_	_	_	_	_	
+10-34	407-409	är	_	_	_	_	_	
+10-35	410-413	fel	_	_	_	_	_	
+10-36	414-417	och	_	_	_	_	_	
+10-37	418-431	odemokratiskt	_	_	_	_	_	
+10-38	432-435	och	_	_	_	_	_	
+10-39	436-439	det	_	_	_	_	_	
+10-40	440-444	vill	_	_	_	_	_	
+10-41	445-447	vi	_	_	_	_	_	
+10-42	448-452	inte	_	_	_	_	_	
+10-43	453-457	höra	_	_	_	_	_	
+10-44	457-458		_	_	_	_	_	
+10-45	458-459	.	_	_	_	_	_	
+
+#Text=Personen kommer att bli arg, er och hans kompis kommer att stå tyst, men det kommer att få effekt åtminstone på kort sikt.
+11-1	460-468	Personen	_	_	_	_	_	
+11-2	469-475	kommer	_	_	_	_	_	
+11-3	476-479	att	_	_	_	_	_	
+11-4	480-483	bli	_	_	_	_	_	
+11-5	484-487	arg	_	_	_	_	_	
+11-6	487-488	,	_	_	_	_	_	
+11-7	489-491	er	_	_	_	_	_	
+11-8	492-495	och	_	_	_	_	_	
+11-9	496-500	hans	_	_	_	_	_	
+11-10	501-507	kompis	_	_	_	_	_	
+11-11	508-514	kommer	_	_	_	_	_	
+11-12	515-518	att	_	_	_	_	_	
+11-13	519-522	stå	_	_	_	_	_	
+11-14	523-527	tyst	_	_	_	_	_	
+11-15	527-528	,	_	_	_	_	_	
+11-16	529-532	men	_	_	_	_	_	
+11-17	533-536	det	_	_	_	_	_	
+11-18	537-543	kommer	_	_	_	_	_	
+11-19	544-547	att	_	_	_	_	_	
+11-20	548-550	få	_	_	_	_	_	
+11-21	551-557	effekt	_	_	_	_	_	
+11-22	558-568	åtminstone	_	_	_	_	_	
+11-23	569-571	på	_	_	_	_	_	
+11-24	572-576	kort	_	_	_	_	_	
+11-25	577-581	sikt	_	_	_	_	_	
+11-26	581-582	.	_	_	_	_	_	
+
+#Text=Kanske säger den bedrövliga personen något om att man lever väl i ett fritt land och säger vad man vill och då måste andra säga ifrån än en gång men det är inte okej med rasistiska yttranden som det du just har sagt, så sluta, tack.
+12-1	583-589	Kanske	_	_	_	_	_	
+12-2	590-595	säger	_	_	_	_	_	
+12-3	596-599	den	_	_	_	_	_	
+12-4	600-610	bedrövliga	_	Source;Target	5-4[3];12-5	false	1	
+12-5	611-619	personen	*	_	_	_	_	
+12-6	620-625	något	_	_	_	_	_	
+12-7	626-628	om	_	_	_	_	_	
+12-8	629-632	att	_	_	_	_	_	
+12-9	633-634		_	_	_	_	_	
+12-10	634-637	man	_	_	_	_	_	
+12-11	638-643	lever	_	_	_	_	_	
+12-12	644-647	väl	_	_	_	_	_	
+12-13	648-649	i	_	_	_	_	_	
+12-14	650-653	ett	_	_	_	_	_	
+12-15	654-659	fritt	_	_	_	_	_	
+12-16	660-664	land	_	_	_	_	_	
+12-17	665-668	och	_	_	_	_	_	
+12-18	669-674	säger	_	_	_	_	_	
+12-19	675-678	vad	_	_	_	_	_	
+12-20	679-682	man	_	_	_	_	_	
+12-21	683-687	vill	_	_	_	_	_	
+12-22	687-688		_	_	_	_	_	
+12-23	689-692	och	_	_	_	_	_	
+12-24	693-695	då	_	_	_	_	_	
+12-25	696-701	måste	_	_	_	_	_	
+12-26	702-707	andra	_	_	_	_	_	
+12-27	708-712	säga	_	_	_	_	_	
+12-28	713-718	ifrån	_	_	_	_	_	
+12-29	719-721	än	_	_	_	_	_	
+12-30	722-724	en	_	_	_	_	_	
+12-31	725-729	gång	_	_	_	_	_	
+12-32	730-731		_	_	_	_	_	
+12-33	731-734	men	_	_	_	_	_	
+12-34	735-738	det	_	_	_	_	_	
+12-35	739-741	är	_	_	_	_	_	
+12-36	742-746	inte	_	_	_	_	_	
+12-37	747-751	okej	_	_	_	_	_	
+12-38	752-755	med	_	_	_	_	_	
+12-39	756-766	rasistiska	_	_	_	_	_	
+12-40	767-776	yttranden	_	_	_	_	_	
+12-41	777-780	som	_	_	_	_	_	
+12-42	781-784	det	_	_	_	_	_	
+12-43	785-787	du	_	_	_	_	_	
+12-44	788-792	just	_	_	_	_	_	
+12-45	793-796	har	_	_	_	_	_	
+12-46	797-801	sagt	_	_	_	_	_	
+12-47	801-802	,	_	_	_	_	_	
+12-48	803-805	så	_	_	_	_	_	
+12-49	806-811	sluta	_	_	_	_	_	
+12-50	811-812	,	_	_	_	_	_	
+12-51	813-817	tack	_	_	_	_	_	
+12-52	817-818		_	_	_	_	_	
+12-53	818-819	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	821-822	#	_	_	_	_	_	
+13-2	822-823	P	_	_	_	_	_	
+13-3	824-827	IMM	_	_	_	_	_	
+13-4	827-828	.	_	_	_	_	_	
+
+#Text=Det som gäller är klartext i så flagranta fall som det du beskriver.
+14-1	830-833	Det	_	_	_	_	_	
+14-2	834-837	som	_	_	_	_	_	
+14-3	838-844	gäller	_	_	_	_	_	
+14-4	845-847	är	_	_	_	_	_	
+14-5	848-856	klartext	_	_	_	_	_	
+14-6	857-858	i	_	_	_	_	_	
+14-7	859-861	så	_	_	_	_	_	
+14-8	862-871	flagranta	_	_	_	_	_	
+14-9	872-876	fall	_	_	_	_	_	
+14-10	877-880	som	_	_	_	_	_	
+14-11	881-884	det	_	_	_	_	_	
+14-12	885-887	du	_	_	_	_	_	
+14-13	888-897	beskriver	_	_	_	_	_	
+14-14	897-898	.	_	_	_	_	_	
+
+#Text=Att någon yttrar sig på det sättet är helt oacceptabelt och det har ingenting med god etikett att göra om man håller tyst.".
+15-1	899-902	Att	*[5]	_	_	_	_	
+15-2	903-908	någon	*[5]	_	_	_	_	
+15-3	909-915	yttrar	*[5]	_	_	_	_	
+15-4	916-919	sig	*[5]	_	_	_	_	
+15-5	920-922	på	*[5]	_	_	_	_	
+15-6	923-926	det	*[5]	_	_	_	_	
+15-7	927-933	sättet	*[5]	_	_	_	_	
+15-8	934-936	är	_	Target;Source[2]	15-1[5];5-4[3]	false[2]	1[2]	
+15-9	937-941	helt	_	Target;Source[2]	15-1[5];5-4[3]	false[2]	1[2]	
+15-10	942-954	oacceptabelt	_	Target;Source[2]	15-1[5];5-4[3]	false[2]	1[2]	
+15-11	955-958	och	_	_	_	_	_	
+15-12	959-962	det	_	_	_	_	_	
+15-13	963-966	har	_	_	_	_	_	
+15-14	967-976	ingenting	_	_	_	_	_	
+15-15	977-980	med	_	_	_	_	_	
+15-16	981-984	god	_	_	_	_	_	
+15-17	985-992	etikett	_	_	_	_	_	
+15-18	993-996	att	_	_	_	_	_	
+15-19	997-1001	göra	_	_	_	_	_	
+15-20	1002-1004	om	_	_	_	_	_	
+15-21	1005-1008	man	_	_	_	_	_	
+15-22	1009-1015	håller	_	_	_	_	_	
+15-23	1016-1020	tyst	_	_	_	_	_	
+15-24	1020-1021	.	_	_	_	_	_	
+15-25	1021-1022	"	_	_	_	_	_	
+15-26	1022-1023	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1025-1026	#	_	_	_	_	_	
+16-2	1026-1027	P	_	_	_	_	_	
+16-3	1028-1031	IMM	_	_	_	_	_	
+16-4	1031-1032	.	_	_	_	_	_	
+
+#Text=Har Ribbing rätt?.
+17-1	1034-1037	Har	_	_	_	_	_	
+17-2	1038-1045	Ribbing	_	_	_	_	_	
+17-3	1046-1050	rätt	_	_	_	_	_	
+17-4	1050-1051	?	_	_	_	_	_	
+17-5	1051-1052	.	_	_	_	_	_	

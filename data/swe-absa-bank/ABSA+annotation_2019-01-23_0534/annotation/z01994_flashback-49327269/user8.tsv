@@ -1,0 +1,82 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	2	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=SOM-institutet 2014: 61 % oroade över flyktinginvandringen.
+3-1	18-32	SOM-institutet	_	_	_	_	_	
+3-2	33-37	2014	_	_	_	_	_	
+3-3	37-38	:	_	_	_	_	_	
+3-4	39-41	61	*[2]	_	_	_	_	
+3-5	42-43	%	*[2]	_	_	_	_	
+3-6	44-50	oroade	_	Target;Source[1]	3-8;3-4[2]	false[1]	2[1]	
+3-7	51-55	över	_	Target;Source[1]	3-8;3-4[2]	false[1]	2[1]	
+3-8	56-76	flyktinginvandringen	*	_	_	_	_	
+3-9	76-77	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	79-80	#	_	_	_	_	_	
+4-2	80-81	P	_	_	_	_	_	
+4-3	82-85	IMM	_	_	_	false	2	
+4-4	85-86	.	_	_	_	_	_	
+
+#Text=Tänker SOM-institutet släppa den f-cking undersökningen i sin helhet idag eller är spinndoktor Demkers rökridåer det enda som den otäcka allmänheten kan anförtros med?
+5-1	88-94	Tänker	_	_	_	_	_	
+5-2	95-109	SOM-institutet	*	_	_	_	_	
+5-3	110-116	släppa	_	_	_	_	_	
+5-4	117-120	den	_	_	_	_	_	
+5-5	121-128	f-cking	_	Target;Target	5-2;5-6	false	2	
+5-6	129-143	undersökningen	*	_	_	_	_	
+5-7	144-145	i	_	_	_	_	_	
+5-8	146-149	sin	_	_	_	_	_	
+5-9	150-156	helhet	_	_	_	_	_	
+5-10	157-161	idag	_	_	_	_	_	
+5-11	162-167	eller	_	_	_	_	_	
+5-12	168-170	är	_	_	_	_	_	
+5-13	171-182	spinndoktor	*[3]	_	_	_	_	
+5-14	183-190	Demkers	*[3]	_	_	_	_	
+5-15	191-200	rökridåer	*[3]	Target	5-13[3]	false	2	
+5-16	201-204	det	_	_	_	_	_	
+5-17	205-209	enda	_	_	_	_	_	
+5-18	210-213	som	_	_	_	_	_	
+5-19	214-217	den	*[4]	_	_	_	_	
+5-20	218-224	otäcka	*[4]	Target;Source	5-19[4];5-25	true	1	
+5-21	225-236	allmänheten	*[4]	_	_	_	_	
+5-22	237-240	kan	_	_	_	_	_	
+5-23	241-250	anförtros	_	_	_	_	_	
+5-24	251-254	med	_	_	_	_	_	
+5-25	254-255	?	*	_	_	_	_	
+
+#Text=Hur har flyktingmotståndet utvecklats, eller blev resultatet så obekvämt att man bytte till en helt annan fråga?.
+6-1	256-259	Hur	_	_	_	_	_	
+6-2	260-263	har	_	_	_	_	_	
+6-3	264-282	flyktingmotståndet	_	_	_	false	2	
+6-4	283-293	utvecklats	_	_	_	_	_	
+6-5	293-294	,	_	_	_	_	_	
+6-6	295-300	eller	_	_	_	_	_	
+6-7	301-305	blev	_	_	_	_	_	
+6-8	306-316	resultatet	_	_	_	_	_	
+6-9	317-319	så	_	_	_	_	_	
+6-10	320-328	obekvämt	_	_	_	_	_	
+6-11	329-332	att	_	_	_	_	_	
+6-12	333-336	man	_	_	_	_	_	
+6-13	337-342	bytte	_	_	_	_	_	
+6-14	343-347	till	_	_	_	_	_	
+6-15	348-350	en	_	_	_	_	_	
+6-16	351-355	helt	_	_	_	_	_	
+6-17	356-361	annan	_	_	_	_	_	
+6-18	362-367	fråga	_	_	_	_	_	
+6-19	367-368	?	_	_	_	_	_	
+6-20	368-369	.	_	_	_	_	_	

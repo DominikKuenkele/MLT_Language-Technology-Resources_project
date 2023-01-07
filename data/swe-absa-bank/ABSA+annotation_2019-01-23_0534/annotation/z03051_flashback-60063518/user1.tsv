@@ -1,0 +1,81 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Tvångskvotering av nyanlända till samtliga skolor !
+3-1	18-33	Tvångskvotering	*	Target	3-1	false	2	_	
+3-2	34-36	av	_	_	_	_	_	_	
+3-3	37-46	nyanlända	_	_	_	_	_	_	
+3-4	47-51	till	_	_	_	_	_	_	
+3-5	52-60	samtliga	_	_	_	_	_	_	
+3-6	61-67	skolor	_	_	_	_	_	_	
+3-7	68-69	!	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	
+
+#Text=Skolministern har enligt TV4 för avsikt att alla skolor i Sverige måste avsätta 5% av sina platser till nyanlända.
+5-1	80-93	Skolministern	*[2]|*[3]	_	_	_	_	_	
+5-2	94-97	har	*[2]	_	_	false	4	_	
+5-3	98-104	enligt	*[2]	_	_	_	_	_	
+5-4	105-108	TV4	*[2]	_	_	_	_	_	
+5-5	109-112	för	*[2]	Source;Target[1]	5-1[3];5-7[4]	false[1]	4[1]	5-2[0_1]	
+5-6	113-119	avsikt	*[2]	Source;Target[1]	5-1[3];5-7[4]	false[1]	4[1]	_	
+5-7	120-123	att	*[2]|*[4]	_	_	_	_	_	
+5-8	124-128	alla	*[2]|*[4]	_	_	_	_	_	
+5-9	129-135	skolor	*[2]|*[4]	_	_	_	_	_	
+5-10	136-137	i	*[2]|*[4]	_	_	_	_	_	
+5-11	138-145	Sverige	*[2]|*[4]	_	_	_	_	_	
+5-12	146-151	måste	*[2]|*[4]	_	_	_	_	_	
+5-13	152-159	avsätta	*[2]|*[4]	_	_	_	_	_	
+5-14	160-162	5%	*[2]|*[4]	_	_	_	_	_	
+5-15	163-165	av	*[2]|*[4]	_	_	_	_	_	
+5-16	166-170	sina	*[2]|*[4]	_	_	_	_	_	
+5-17	171-178	platser	*[2]|*[4]	_	_	_	_	_	
+5-18	179-183	till	*[2]|*[4]	_	_	_	_	_	
+5-19	184-193	nyanlända	*[2]|*[4]	_	_	_	_	_	
+5-20	193-194	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	196-197	#	_	_	_	_	_	_	
+6-2	197-198	P	_	_	_	_	_	_	
+6-3	199-202	IMM	_	_	_	_	_	_	
+6-4	202-203	.	_	_	_	_	_	_	
+
+#Text=Innebär det att Sverige ytterligare totalt sett kommer att tappa i kunskapsnivå mot resten av jämförbara länder ?.
+7-1	205-212	Innebär	_	_	_	_	_	_	
+7-2	213-216	det	_	_	_	_	_	_	
+7-3	217-220	att	_	_	_	_	_	_	
+7-4	221-228	Sverige	_	_	_	_	_	_	
+7-5	229-240	ytterligare	_	_	_	_	_	_	
+7-6	241-247	totalt	_	_	_	_	_	_	
+7-7	248-252	sett	_	_	_	_	_	_	
+7-8	253-259	kommer	_	_	_	_	_	_	
+7-9	260-263	att	_	_	_	_	_	_	
+7-10	264-269	tappa	_	_	_	_	_	_	
+7-11	270-271	i	_	_	_	_	_	_	
+7-12	272-284	kunskapsnivå	_	_	_	_	_	_	
+7-13	285-288	mot	_	_	_	_	_	_	
+7-14	289-295	resten	_	_	_	_	_	_	
+7-15	296-298	av	_	_	_	_	_	_	
+7-16	299-309	jämförbara	_	_	_	_	_	_	
+7-17	310-316	länder	_	_	_	_	_	_	
+7-18	317-318	?	_	Target	5-1[2]	false	2	_	
+7-19	318-319	.	_	_	_	_	_	_	

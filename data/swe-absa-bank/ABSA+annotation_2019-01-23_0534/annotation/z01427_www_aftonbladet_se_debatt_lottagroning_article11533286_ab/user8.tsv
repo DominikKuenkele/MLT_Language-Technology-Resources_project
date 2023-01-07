@@ -1,0 +1,315 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Dags att börja tänka positivt.
+3-1	18-22	Dags	_	Target	3-2[18]	false	4	_	_	
+3-2	23-26	att	*[18]	_	_	_	_	_	_	
+3-3	27-32	börja	*[18]	_	_	_	_	_	_	
+3-4	33-38	tänka	*[18]	_	_	_	_	_	_	
+3-5	39-47	positivt	*[18]	_	_	_	_	_	_	
+3-6	47-48	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	50-51	#	_	_	_	_	_	_	_	
+4-2	51-52	P	_	_	_	_	_	_	_	
+4-3	53-56	IMM	_	_	_	_	_	_	_	
+4-4	56-57	.	_	_	_	_	_	_	_	
+
+#Text=Finns det några ljuspunkter i eländet?
+5-1	59-64	Finns	_	Source[1]	5-7	false[1]	4[1]	_	_	
+5-2	65-68	det	_	Source[1]	5-7	false[1]	4[1]	_	_	
+5-3	69-74	några	_	Source[1]	5-7	false[1]	4[1]	_	_	
+5-4	75-86	ljuspunkter	_	Source[1]	5-7	false[1]	4[1]	_	_	
+5-5	87-88	i	_	_	_	_	_	_	_	
+5-6	89-96	eländet	*	Target	5-6	false	1	_	_	
+5-7	96-97	?	*	_	_	_	_	_	_	
+
+#Text=Allt målas så oerhört mörkt just nu, ordet kris är stämplat i svart så att ingen ska undgå att förstå hur allvarligt läget är.
+6-1	98-102	Allt	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-2	103-108	målas	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-3	109-111	så	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-4	112-119	oerhört	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-5	120-125	mörkt	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-6	126-130	just	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-7	131-133	nu	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-8	133-134	,	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-9	135-140	ordet	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-10	141-145	kris	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-11	146-148	är	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-12	149-157	stämplat	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-13	158-159	i	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-14	160-165	svart	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-15	166-168	så	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-16	169-172	att	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-17	173-178	ingen	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-18	179-182	ska	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-19	183-188	undgå	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-20	189-192	att	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-21	193-199	förstå	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-22	200-203	hur	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-23	204-214	allvarligt	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-24	215-220	läget	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-25	221-223	är	_	Source[2]	6-26	false[2]	1[2]	_	_	
+6-26	223-224	.	*	_	_	_	_	_	_	
+
+#Text=Kanske ska vi börja tänka positivt.
+7-1	225-231	Kanske	_	Target[3]	7-3[19]	false[3]	4[3]	7-4[4_3]	_	
+7-2	232-235	ska	_	Target[3]	7-3[19]	false[3]	4[3]	_	_	
+7-3	236-238	vi	*[19]|*[20]	_	_	_	_	_	_	
+7-4	239-244	börja	_	Target[4]	7-3[20]	false[4]	4[4]	_	_	
+7-5	245-250	tänka	_	Target[4]	7-3[20]	false[4]	4[4]	_	_	
+7-6	251-259	positivt	_	Target[4]	7-3[20]	false[4]	4[4]	_	_	
+7-7	259-260	.	_	_	_	_	_	_	_	
+
+#Text=Att det ordnar sig.
+8-1	261-264	Att	_	_	_	_	_	_	_	
+8-2	265-268	det	_	_[5]	_	false[5]	4[5]	_	_	
+8-3	269-275	ordnar	_	_[5]	_	false[5]	4[5]	_	_	
+8-4	276-279	sig	_	_[5]	_	false[5]	4[5]	_	_	
+8-5	279-280	.	_	_	_	_	_	_	_	
+
+#Text=Finansmarknaden styrs ju i högsta grad av psykologi.
+9-1	281-296	Finansmarknaden	_	_	_	_	_	_	_	
+9-2	297-302	styrs	_	_	_	_	_	_	_	
+9-3	303-305	ju	_	_	_	_	_	_	_	
+9-4	306-307	i	_	_	_	_	_	_	_	
+9-5	308-314	högsta	_	_	_	_	_	_	_	
+9-6	315-319	grad	_	_	_	_	_	_	_	
+9-7	320-322	av	_	_	_	_	_	_	_	
+9-8	323-332	psykologi	_	_	_	_	_	_	_	
+9-9	332-333	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	335-336	#	_	_	_	_	_	_	_	
+10-2	336-337	P	_	_	_	_	_	_	_	
+10-3	338-341	IMM	_	_	_	_	_	_	_	
+10-4	341-342	.	_	_	_	_	_	_	_	
+
+#Text=Några ljuspunkter har i alla fall jag hittat.
+11-1	344-349	Några	*[21]	_	_	_	_	_	_	
+11-2	350-361	ljuspunkter	*[21]	Target;Source	11-1[21];11-7	false	4	_	_	
+11-3	362-365	har	_	_	_	_	_	_	_	
+11-4	366-367	i	_	_	_	_	_	_	_	
+11-5	368-372	alla	_	_	_	_	_	_	_	
+11-6	373-377	fall	_	_	_	_	_	_	_	
+11-7	378-381	jag	*	_	_	_	_	_	_	
+11-8	382-388	hittat	_	_	_	_	_	_	_	
+11-9	388-389	.	_	_	_	_	_	_	_	
+
+#Text=Islands statsminister som häromdagen förutspådde att landet kunde gå i konkurs säger att läget är ”lite bättre”.
+12-1	390-397	Islands	*[22]|*[23]	_	_	_	_	_	_	
+12-2	398-411	statsminister	*[22]|*[23]	_	_	_	_	_	_	
+12-3	412-415	som	_	_	_	_	_	_	_	
+12-4	416-426	häromdagen	_	_	_	_	_	_	_	
+12-5	427-438	förutspådde	_	_	_	_	_	_	_	
+12-6	439-442	att	_	_	_	_	_	_	_	
+12-7	443-449	landet	*	_	_	_	_	_	_	
+12-8	450-455	kunde	_	Source;Target[6]	12-1[22];12-7	false[6]	2[6]	_	_	
+12-9	456-458	gå	_	Source;Target[6]	12-1[22];12-7	false[6]	2[6]	_	_	
+12-10	459-460	i	_	Source;Target[6]	12-1[22];12-7	false[6]	2[6]	_	_	
+12-11	461-468	konkurs	_	Source;Target[6]	12-1[22];12-7	false[6]	2[6]	_	_	
+12-12	469-474	säger	_	_	_	_	_	_	_	
+12-13	475-478	att	_	_	_	_	_	_	_	
+12-14	479-484	läget	*	_	_	_	_	_	_	
+12-15	485-487	är	_	_	_	_	_	_	_	
+12-16	488-489	”	_	Target;Source[7]	12-14;12-1[23]	false[7]	4[7]	_	_	
+12-17	489-493	lite	_	Target;Source[7]	12-14;12-1[23]	false[7]	4[7]	_	_	
+12-18	494-500	bättre	_	Target;Source[7]	12-14;12-1[23]	false[7]	4[7]	_	_	
+12-19	500-501	”	_	Target;Source[7]	12-14;12-1[23]	false[7]	4[7]	_	_	
+12-20	501-502	.	_	_	_	_	_	_	_	
+
+#Text=Den gemensamma sänkningen av reporäntan som EU:s riksbanker vidtog bådar ju gott.
+13-1	503-506	Den	*[24]|*[25]	_	_	_	_	_	_	
+13-2	507-517	gemensamma	*[24]|*[25]	_	_	_	_	_	_	
+13-3	518-528	sänkningen	*[24]|*[25]	_	_	_	_	_	_	
+13-4	529-531	av	*[24]|*[25]	_	_	_	_	_	_	
+13-5	532-542	reporäntan	*[24]|*[25]	_	_	_	_	_	_	
+13-6	543-546	som	*[24]|*[25]	_	_	_	_	_	_	
+13-7	547-549	EU	*[24]|*[25]	_	_	_	_	_	_	
+13-8	549-550	:	*[24]|*[25]	_	_	_	_	_	_	
+13-9	550-551	s	*[24]|*[25]	_	_	_	_	_	_	
+13-10	552-562	riksbanker	*[24]|*[25]	_	_	_	_	_	_	
+13-11	563-569	vidtog	*[24]|*[25]	_	_	_	_	_	_	
+13-12	570-575	bådar	_	Target	13-1[24]	false	4	13-14	_	
+13-13	576-578	ju	_	_	_	_	_	_	_	
+13-14	579-583	gott	_	Target	13-1[25]	false	4	_	_	
+13-15	583-584	.	_	_	_	_	_	_	_	
+
+#Text=Det är bara att kräva att bankerna som direkt hakar på räntehöjningar nu också tar sitt ansvar och sänker den.
+14-1	585-588	Det	_	_	_	_	_	_	_	
+14-2	589-591	är	_	_	_	_	_	_	_	
+14-3	592-596	bara	_	_	_	_	_	_	_	
+14-4	597-600	att	_	_	_	_	_	_	_	
+14-5	601-606	kräva	_	_	_	_	_	_	_	
+14-6	607-610	att	_	_	_	_	_	_	_	
+14-7	611-619	bankerna	_	_	_	_	_	_	_	
+14-8	620-623	som	_	_	_	_	_	_	_	
+14-9	624-630	direkt	_	_	_	_	_	_	_	
+14-10	631-636	hakar	_	_	_	_	_	_	_	
+14-11	637-639	på	_	_	_	_	_	_	_	
+14-12	640-654	räntehöjningar	_	_	_	_	_	_	_	
+14-13	655-657	nu	_	_	_	_	_	_	_	
+14-14	658-663	också	_	_	_	_	_	_	_	
+14-15	664-667	tar	_	_	_	_	_	_	_	
+14-16	668-672	sitt	_	_	_	_	_	_	_	
+14-17	673-679	ansvar	_	_	_	_	_	_	_	
+14-18	680-683	och	_	_	_	_	_	_	_	
+14-19	684-690	sänker	_	_	_	_	_	_	_	
+14-20	691-694	den	_	_	_	_	_	_	_	
+14-21	694-695	.	_	_	_	_	_	_	_	
+
+#Text=En sänkning gynnar konjunkturen och många människors framtidstro.
+15-1	696-698	En	*[26]	_	_	_	_	_	_	
+15-2	699-707	sänkning	*[26]	_	_	_	_	_	_	
+15-3	708-714	gynnar	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-4	715-727	konjunkturen	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-5	728-731	och	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-6	732-737	många	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-7	738-748	människors	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-8	749-760	framtidstro	_	Target[8]	15-1[26]	false[8]	4[8]	_	_	
+15-9	760-761	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	763-764	#	*[27]	_	_	_	_	_	21-1[0_27]	
+16-2	764-765	P	*[27]	_	_	_	_	_	_	
+16-3	766-769	IMM	_	_	_	_	_	_	_	
+16-4	769-770	.	_	_	_	_	_	_	_	
+
+#Text=Detta enormt stora och katastrofala varsel på Volvo har fått ansvariga i regeringen att inte bara tala om arbetslösa som slöa fuskare.
+17-1	772-777	Detta	*[28]	_	_	_	_	_	_	
+17-2	778-784	enormt	*[28]	Target[9]	17-1[28]	false[9]	1[9]	_	_	
+17-3	785-790	stora	*[28]	Target[9]	17-1[28]	false[9]	1[9]	_	_	
+17-4	791-794	och	*[28]	Target[9]	17-1[28]	false[9]	1[9]	_	_	
+17-5	795-807	katastrofala	*[28]	Target[9]	17-1[28]	false[9]	1[9]	_	_	
+17-6	808-814	varsel	*[28]	Target[9]	17-1[28]	false[9]	1[9]	_	_	
+17-7	815-817	på	*[28]	_	_	_	_	_	_	
+17-8	818-823	Volvo	*[28]	_	_	_	_	_	_	
+17-9	824-827	har	_	_	_	_	_	_	_	
+17-10	828-832	fått	_	_	_	_	_	_	_	
+17-11	833-842	ansvariga	_	_	_	_	_	_	_	
+17-12	843-844	i	_	_	_	_	_	_	_	
+17-13	845-855	regeringen	_	_	_	_	_	_	_	
+17-14	856-859	att	_	_	_	_	_	_	_	
+17-15	860-864	inte	_	_	_	_	_	_	_	
+17-16	865-869	bara	_	_	_	_	_	_	_	
+17-17	870-874	tala	_	_	_	_	_	_	_	
+17-18	875-877	om	_	_	_	_	_	_	_	
+17-19	878-888	arbetslösa	*	_	_	_	_	_	_	
+17-20	889-892	som	_	_	_	_	_	_	_	
+17-21	893-897	slöa	_	Target;Source[10]	17-19;17-23	false[10]	1[10]	_	_	
+17-22	898-905	fuskare	_	Target;Source[10]	17-19;17-23	false[10]	1[10]	_	_	
+17-23	905-906	.	*	_	_	_	_	_	_	
+
+#Text=Nu ska det tas krafttag och pengar finns, lovar Sven Otto Littorin.
+18-1	907-909	Nu	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-2	910-913	ska	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-3	914-917	det	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-4	918-921	tas	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-5	922-930	krafttag	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-6	931-934	och	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-7	935-941	pengar	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-8	942-947	finns	_	Source;Target[11]	18-11[30];18-11[29]	false[11]	4[11]	_	_	
+18-9	947-948	,	_	_	_	_	_	_	_	
+18-10	949-954	lovar	_	_	_	_	_	_	_	
+18-11	955-959	Sven	*[29]|*[30]	_	_	_	_	_	_	
+18-12	960-964	Otto	*[29]|*[30]	_	_	_	_	_	_	
+18-13	965-973	Littorin	*[29]|*[30]	_	_	_	_	_	_	
+18-14	973-974	.	_	_	_	_	_	_	_	
+
+#Text=Det var länge sedan som ansvariga politiker tog arbetslösa på allvar.
+19-1	975-978	Det	_	_	_	_	_	_	_	
+19-2	979-982	var	_	_	_	_	_	_	_	
+19-3	983-988	länge	_	_	_	_	_	_	_	
+19-4	989-994	sedan	_	_	_	_	_	_	_	
+19-5	995-998	som	_	_	_	_	_	_	_	
+19-6	999-1008	ansvariga	_	_	_	_	_	_	_	
+19-7	1009-1018	politiker	_	_	_	_	_	_	_	
+19-8	1019-1022	tog	_	_	_	_	_	_	_	
+19-9	1023-1033	arbetslösa	_	_	_	_	_	_	_	
+19-10	1034-1036	på	_	_	_	_	_	_	_	
+19-11	1037-1043	allvar	_	_	_	_	_	_	_	
+19-12	1043-1044	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1046-1047	#	_	_	_	_	_	_	_	
+20-2	1047-1048	P	_	_	_	_	_	_	_	
+20-3	1049-1052	IMM	_	_	_	_	_	_	_	
+20-4	1052-1053	.	_	_	_	_	_	_	_	
+
+#Text=Det är givetvis inte tillräckligt.
+21-1	1055-1058	Det	*	_	_	_	_	_	_	
+21-2	1059-1061	är	_	Target[12]	21-1	false[12]	2[12]	_	_	
+21-3	1062-1070	givetvis	_	Target[12]	21-1	false[12]	2[12]	_	_	
+21-4	1071-1075	inte	_	Target[12]	21-1	false[12]	2[12]	_	_	
+21-5	1076-1088	tillräckligt	_	Target[12]	21-1	false[12]	2[12]	_	_	
+21-6	1088-1089	.	_	_	_	_	_	_	_	
+
+#Text=Det behövs betydligt mer för människor som ser hela sin tillvaro i gungning.
+22-1	1090-1093	Det	_	_	_	_	_	_	_	
+22-2	1094-1100	behövs	_	_	_	_	_	_	_	
+22-3	1101-1110	betydligt	_	_	_	_	_	_	_	
+22-4	1111-1114	mer	_	_	_	_	_	_	_	
+22-5	1115-1118	för	_	_	_	_	_	_	_	
+22-6	1119-1128	människor	_	_	_	_	_	_	_	
+22-7	1129-1132	som	_	_	_	_	_	_	_	
+22-8	1133-1136	ser	_	_	_	_	_	_	_	
+22-9	1137-1141	hela	_	_	_	_	_	_	_	
+22-10	1142-1145	sin	_	_	_	_	_	_	_	
+22-11	1146-1154	tillvaro	_	_[13]	_	false[13]	1[13]	_	_	
+22-12	1155-1156	i	_	_[13]	_	false[13]	1[13]	_	_	
+22-13	1157-1165	gungning	_	_[13]	_	false[13]	1[13]	_	_	
+22-14	1165-1166	.	_	_	_	_	_	_	_	
+
+#Text=Kanske kan denna världsomfattande kris öka solidariteten människor emellan och framför allt öka förståelsen från staten som bara ser människor som minusposter i budgeten.
+23-1	1167-1173	Kanske	*[31]	Target;Source[14]	23-3[33];23-25[37]	false[14]	4[14]	_	_	
+23-2	1174-1177	kan	*[31]	Target;Source[14]	23-3[33];23-25[37]	false[14]	4[14]	_	_	
+23-3	1178-1183	denna	*[31]|*[32]|*[33]	_	_	_	_	_	_	
+23-4	1184-1200	världsomfattande	*[31]|*[32]|*[33]	_	_	_	_	_	_	
+23-5	1201-1205	kris	*[31]|*[32]|*[33]	_	_	_	_	_	_	
+23-6	1206-1209	öka	_	Target;Source[15]	23-3[32];23-25[36]	false[15]	4[15]	23-1[14_15]	_	
+23-7	1210-1223	solidariteten	_	Target;Source[15]	23-3[32];23-25[36]	false[15]	4[15]	_	_	
+23-8	1224-1233	människor	_	Target;Source[15]	23-3[32];23-25[36]	false[15]	4[15]	_	_	
+23-9	1234-1241	emellan	_	Target;Source[15]	23-3[32];23-25[36]	false[15]	4[15]	_	_	
+23-10	1242-1245	och	_	_	_	_	_	_	_	
+23-11	1246-1253	framför	_	_	_	_	_	_	_	
+23-12	1254-1258	allt	_	_	_	_	_	_	_	
+23-13	1259-1262	öka	*[34]	Target;Target[16]	23-13[34];23-1[31]	false[16]	4[16]	_	_	
+23-14	1263-1274	förståelsen	*[34]	Target;Target[16]	23-13[34];23-1[31]	false[16]	4[16]	_	_	
+23-15	1275-1279	från	*[34]	_	_	_	_	_	_	
+23-16	1280-1286	staten	*[34]|*[35]	_	_	_	_	_	_	
+23-17	1287-1290	som	_	_	_	_	_	_	_	
+23-18	1291-1295	bara	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-19	1296-1299	ser	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-20	1300-1309	människor	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-21	1310-1313	som	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-22	1314-1325	minusposter	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-23	1326-1327	i	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-24	1328-1336	budgeten	_	Target[17]	23-16[35]	false[17]	1[17]	_	_	
+23-25	1336-1337	.	*[36]|*[37]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1339-1340	#	_	_	_	_	_	_	_	
+24-2	1340-1341	P	_	_	_	_	_	_	_	
+24-3	1342-1345	IMM	_	_	_	_	_	_	_	
+24-4	1345-1346	.	_	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+25-1	1348-1353	Lotta	_	_	_	_	_	_	_	
+25-2	1354-1361	Gröning	_	_	_	_	_	_	_	
+25-3	1361-1362	.	_	_	_	_	_	_	_	

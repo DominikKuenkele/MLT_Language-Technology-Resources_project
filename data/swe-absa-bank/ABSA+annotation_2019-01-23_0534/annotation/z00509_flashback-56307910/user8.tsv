@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Kvinnor från Mellanöstern är mycket vackra - varför blir ni inte ihop med dem?
+3-1	18-25	Kvinnor	*[4]	_	_	_	_	
+3-2	26-30	från	*[4]	_	_	_	_	
+3-3	31-43	Mellanöstern	*[4]	_	_	_	_	
+3-4	44-46	är	_	Target[1]	3-1[4]	false[1]	5[1]	
+3-5	47-53	mycket	_	Target[1]	3-1[4]	false[1]	5[1]	
+3-6	54-60	vackra	_	Target[1]	3-1[4]	false[1]	5[1]	
+3-7	61-62	-	_	_	_	_	_	
+3-8	63-69	varför	_	_	_	_	_	
+3-9	70-74	blir	_	_	_	_	_	
+3-10	75-77	ni	_	_	_	_	_	
+3-11	78-82	inte	_	_	_	_	_	
+3-12	83-87	ihop	_	_	_	_	_	
+3-13	88-91	med	_	_	_	_	_	
+3-14	92-95	dem	_	_	_	_	_	
+3-15	95-96	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	98-99	#	_	_	_	_	_	
+4-2	99-100	P	_	_	_	_	_	
+4-3	101-104	IMM	_	_	_	_	_	
+4-4	104-105	.	_	_	_	_	_	
+
+#Text=Västerländska skönhetsnormer åsido.
+5-1	107-120	Västerländska	_	_	_	_	_	
+5-2	121-135	skönhetsnormer	_	_	_	_	_	
+5-3	136-141	åsido	_	_	_	_	_	
+5-4	141-142	.	_	_	_	_	_	
+
+#Text=Visst är arabiska, kurdiska och syrianska kvinnor vackra?
+6-1	143-148	Visst	_	_	_	_	_	
+6-2	149-151	är	_	_	_	_	_	
+6-3	152-160	arabiska	*[5]	_	_	_	_	
+6-4	160-161	,	*[5]	_	_	_	_	
+6-5	162-170	kurdiska	*[5]	_	_	_	_	
+6-6	171-174	och	*[5]	_	_	_	_	
+6-7	175-184	syrianska	*[5]	_	_	_	_	
+6-8	185-192	kvinnor	*[5]	_	_	_	_	
+6-9	193-199	vackra	_	Target	6-3[5]	false	4	
+6-10	199-200	?	_	_	_	_	_	
+
+#Text=Nästan alltid är de små och nätta.
+7-1	201-207	Nästan	_	_	_	_	_	
+7-2	208-214	alltid	_	_	_	_	_	
+7-3	215-217	är	_	_	_	_	_	
+7-4	218-220	de	_	_	_	_	_	
+7-5	221-224	små	_	_	_	_	_	
+7-6	225-228	och	_	_	_	_	_	
+7-7	229-234	nätta	_	_	_	_	_	
+7-8	234-235	.	_	_	_	_	_	
+
+#Text=Har vackert vågigt hår, fylliga läppar och markerande ögonbryn.
+8-1	236-239	Har	_	_	_	_	_	
+8-2	240-247	vackert	*[6]	Target	8-2[6]	false	4	
+8-3	248-254	vågigt	*[6]	_	_	_	_	
+8-4	255-258	hår	*[6]	_	_	_	_	
+8-5	258-259	,	_	_	_	_	_	
+8-6	260-267	fylliga	_	_	_	_	_	
+8-7	268-274	läppar	_	_	_	_	_	
+8-8	275-278	och	_	_	_	_	_	
+8-9	279-289	markerande	_	_	_	_	_	
+8-10	290-298	ögonbryn	_	_	_	_	_	
+8-11	298-299	.	_	_	_	_	_	
+
+#Text=Ofta är de glada och busiga som små kattungar.
+9-1	300-304	Ofta	_	_	_	_	_	
+9-2	305-307	är	_	_	_	_	_	
+9-3	308-310	de	_	_	_	_	_	
+9-4	311-316	glada	_	_	_	_	_	
+9-5	317-320	och	_	_	_	_	_	
+9-6	321-327	busiga	_	_	_	_	_	
+9-7	328-331	som	_	_	_	_	_	
+9-8	332-335	små	_	_	_	_	_	
+9-9	336-345	kattungar	_	_	_	_	_	
+9-10	345-346	.	_	_	_	_	_	
+
+#Text=Jag har glädjen att bo granne med min stads katolska församling.
+10-1	347-350	Jag	*	_	_	_	_	
+10-2	351-354	har	_	Source;Target[2]	10-1;10-4[7]	false[2]	4[2]	
+10-3	355-362	glädjen	_	Source;Target[2]	10-1;10-4[7]	false[2]	4[2]	
+10-4	363-366	att	*[7]	_	_	_	_	
+10-5	367-369	bo	*[7]	_	_	_	_	
+10-6	370-376	granne	*[7]	_	_	_	_	
+10-7	377-380	med	*[7]	_	_	_	_	
+10-8	381-384	min	*[7]	_	_	_	_	
+10-9	385-390	stads	*[7]	_	_	_	_	
+10-10	391-399	katolska	*[7]	_	_	_	_	
+10-11	400-410	församling	*[7]	_	_	_	_	
+10-12	410-411	.	_	_	_	_	_	
+
+#Text=Oj oj.
+11-1	412-414	Oj	_	_	_	_	_	
+11-2	415-417	oj	_	_	_	_	_	
+11-3	417-418	.	_	_	_	_	_	
+
+#Text=Ofta får jag ståfräs på söndagar, när jag ser dessa vackra kvinnor anlända fint och propert klädda.
+12-1	419-423	Ofta	_	_	_	_	_	
+12-2	424-427	får	_	_	_	_	_	
+12-3	428-431	jag	_	_	_	_	_	
+12-4	432-439	ståfräs	_	_	_	_	_	
+12-5	440-442	på	_	_	_	_	_	
+12-6	443-451	söndagar	_	_	_	_	_	
+12-7	451-452	,	_	_	_	_	_	
+12-8	453-456	när	_	_	_	_	_	
+12-9	457-460	jag	_	_	_	_	_	
+12-10	461-464	ser	_	_	_	_	_	
+12-11	465-470	dessa	*[8]|*[9]	_	_	_	_	
+12-12	471-477	vackra	*[8]|*[9]	Target	12-11[8]	false	4	
+12-13	478-485	kvinnor	*[8]|*[9]	_	_	_	_	
+12-14	486-493	anlända	_	_	_	_	_	
+12-15	494-498	fint	*[10]	Target;Target[3]	12-11[9];12-15[10]	false[3]	4[3]	
+12-16	499-502	och	*[10]	Target;Target[3]	12-11[9];12-15[10]	false[3]	4[3]	
+12-17	503-510	propert	*[10]	Target;Target[3]	12-11[9];12-15[10]	false[3]	4[3]	
+12-18	511-517	klädda	*[10]	_	_	_	_	
+12-19	517-518	.	_	_	_	_	_	
+
+#Text=Då får jag stånd och tänker tillbaka på en mysig kurdisk tjej jag hsdr i min ungdom.
+13-1	519-521	Då	_	_	_	_	_	
+13-2	522-525	får	_	_	_	_	_	
+13-3	526-529	jag	_	_	_	_	_	
+13-4	530-535	stånd	_	_	_	_	_	
+13-5	536-539	och	_	_	_	_	_	
+13-6	540-546	tänker	_	_	_	_	_	
+13-7	547-555	tillbaka	_	_	_	_	_	
+13-8	556-558	på	_	_	_	_	_	
+13-9	559-561	en	*[11]	_	_	_	_	
+13-10	562-567	mysig	*[11]	Target	13-9[11]	false	4	
+13-11	568-575	kurdisk	*[11]	_	_	_	_	
+13-12	576-580	tjej	*[11]	_	_	_	_	
+13-13	581-584	jag	_	_	_	_	_	
+13-14	585-589	hsdr	_	_	_	_	_	
+13-15	590-591	i	_	_	_	_	_	
+13-16	592-595	min	_	_	_	_	_	
+13-17	596-602	ungdom	_	_	_	_	_	
+13-18	602-603	.	_	_	_	_	_	
+
+#Text=Första analen.
+14-1	604-610	Första	_	_	_	_	_	
+14-2	611-617	analen	_	_	_	_	_	
+14-3	617-618	.	_	_	_	_	_	
+
+#Text=Mycket första med den tjejen.
+15-1	619-625	Mycket	_	_	_	_	_	
+15-2	626-632	första	_	_	_	_	_	
+15-3	633-636	med	_	_	_	_	_	
+15-4	637-640	den	_	_	_	_	_	
+15-5	641-647	tjejen	_	_	_	_	_	
+15-6	647-648	.	_	_	_	_	_	
+
+#Text=Varför sitter män svenskar som invandrare och snackar skit om svenska kvinnor?
+16-1	649-655	Varför	_	_	_	_	_	
+16-2	656-662	sitter	_	_	_	_	_	
+16-3	663-666	män	_	_	_	_	_	
+16-4	667-675	svenskar	_	_	_	_	_	
+16-5	676-679	som	_	_	_	_	_	
+16-6	680-690	invandrare	_	_	_	_	_	
+16-7	691-694	och	_	_	_	_	_	
+16-8	695-702	snackar	_	_	_	_	_	
+16-9	703-707	skit	_	_	_	_	_	
+16-10	708-710	om	_	_	_	_	_	
+16-11	711-718	svenska	_	_	_	_	_	
+16-12	719-726	kvinnor	_	_	_	_	_	
+16-13	726-727	?	_	_	_	_	_	
+
+#Text=Ni har ju fantastiska alternativ.
+17-1	728-730	Ni	_	_	_	_	_	
+17-2	731-734	har	_	_	_	_	_	
+17-3	735-737	ju	_	_	_	_	_	
+17-4	738-749	fantastiska	_	_	_	_	_	
+17-5	750-760	alternativ	_	_	_	_	_	
+17-6	760-761	.	_	_	_	_	_	
+
+#Text=Livet är kort.
+18-1	762-767	Livet	_	_	_	_	_	
+18-2	768-770	är	_	_	_	_	_	
+18-3	771-775	kort	_	_	_	_	_	
+18-4	775-776	.	_	_	_	_	_	
+
+#Text=Kärleken väntar er alla som vågar.
+19-1	777-785	Kärleken	_	_	_	_	_	
+19-2	786-792	väntar	_	_	_	_	_	
+19-3	793-795	er	_	_	_	_	_	
+19-4	796-800	alla	_	_	_	_	_	
+19-5	801-804	som	_	_	_	_	_	
+19-6	805-810	vågar	_	_	_	_	_	
+19-7	810-811	.	_	_	_	_	_	
+
+#Text=Vad tycker ni om dessa orientens skönheter?
+20-1	812-815	Vad	_	_	_	_	_	
+20-2	816-822	tycker	_	_	_	_	_	
+20-3	823-825	ni	_	_	_	_	_	
+20-4	826-828	om	_	_	_	_	_	
+20-5	829-834	dessa	*[12]	_	_	_	_	
+20-6	835-844	orientens	*[12]	_	_	_	_	
+20-7	845-854	skönheter	*[12]	Target	20-5[12]	false	4	
+20-8	854-855	?	_	_	_	_	_	
+
+#Text=Civilisationens döttrar?.
+21-1	856-871	Civilisationens	_	_	_	_	_	
+21-2	872-879	döttrar	_	_	_	_	_	
+21-3	879-880	?	_	_	_	_	_	
+21-4	880-881	.	_	_	_	_	_	

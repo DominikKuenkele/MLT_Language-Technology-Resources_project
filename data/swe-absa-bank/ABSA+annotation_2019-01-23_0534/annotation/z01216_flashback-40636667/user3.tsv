@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Ny ''Rasist-Skandal'' inom SD.
+3-1	18-20	Ny	_	_	_	_	_	
+3-2	21-22	'	_	_	_	_	_	
+3-3	22-23	'	_	_	_	_	_	
+3-4	23-37	Rasist-Skandal	*	Target	3-4	false	2	
+3-5	37-38	'	_	_	_	_	_	
+3-6	38-39	'	_	_	_	_	_	
+3-7	40-44	inom	_	_	_	_	_	
+3-8	45-47	SD	_	_	_	_	_	
+3-9	47-48	.	_	_	_	_	_	
+
+#Text=Dennis Ek: "Kriminalisera den muslimska tron".
+4-1	49-55	Dennis	_	_	_	_	_	
+4-2	56-58	Ek	_	_	_	_	_	
+4-3	58-59	:	_	_	_	_	_	
+4-4	60-61	"	_	_	_	_	_	
+4-5	61-74	Kriminalisera	_	_	_	_	_	
+4-6	75-78	den	_	_	_	_	_	
+4-7	79-88	muslimska	_	_	_	_	_	
+4-8	89-93	tron	_	_	_	_	_	
+4-9	93-94	"	_	_	_	_	_	
+4-10	94-95	.	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	97-98	#	_	_	_	_	_	
+5-2	98-99	P	_	_	_	_	_	
+5-3	100-103	IMM	_	_	_	_	_	
+5-4	103-104	.	_	_	_	_	_	
+
+#Text=Känns verkligen som att media greppar efter halmstrå, men i allfall.
+6-1	106-111	Känns	_	_	_	_	_	
+6-2	112-121	verkligen	_	_	_	_	_	
+6-3	122-125	som	_	_	_	_	_	
+6-4	126-129	att	_	_	_	_	_	
+6-5	130-135	media	*	_	_	_	_	
+6-6	136-143	greppar	_	Target[1]	6-5	false[1]	2[1]	
+6-7	144-149	efter	_	Target[1]	6-5	false[1]	2[1]	
+6-8	150-158	halmstrå	_	Target[1]	6-5	false[1]	2[1]	
+6-9	158-159	,	_	_	_	_	_	
+6-10	160-163	men	_	_	_	_	_	
+6-11	164-165	i	_	_	_	_	_	
+6-12	166-173	allfall	_	_	_	_	_	
+6-13	173-174	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	176-177	#	_	_	_	_	_	
+7-2	177-178	P	_	_	_	_	_	
+7-3	179-182	IMM	_	_	_	_	_	
+7-4	182-183	.	_	_	_	_	_	
+
+#Text=Vem är denna Dennis Ek?
+8-1	185-188	Vem	_	_	_	_	_	
+8-2	189-191	är	_	_	_	_	_	
+8-3	192-197	denna	_	_	_	_	_	
+8-4	198-204	Dennis	_	_	_	_	_	
+8-5	205-207	Ek	_	_	_	_	_	
+8-6	207-208	?	_	_	_	_	_	
+
+#Text=Kommer nolltolerans slå till mot honom också?
+9-1	209-215	Kommer	_	_	_	_	_	
+9-2	216-228	nolltolerans	_	_	_	_	_	
+9-3	229-232	slå	_	_	_	_	_	
+9-4	233-237	till	_	_	_	_	_	
+9-5	238-241	mot	_	_	_	_	_	
+9-6	242-247	honom	_	_	_	_	_	
+9-7	248-253	också	_	_	_	_	_	
+9-8	253-254	?	_	_	_	_	_	
+
+#Text=Måste Dennis Ek avgå?.
+10-1	255-260	Måste	_	_	_	_	_	
+10-2	261-267	Dennis	_	_	_	_	_	
+10-3	268-270	Ek	_	_	_	_	_	
+10-4	271-275	avgå	_	_	_	_	_	
+10-5	275-276	?	_	_	_	_	_	
+10-6	276-277	.	_	_	_	_	_	

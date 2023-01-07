@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Är främlingsfientlighet mot norrmän ok?
+3-1	18-20	Är	_	_	_	_	_	_	
+3-2	21-41	främlingsfientlighet	_	Target	3-4	false	2	_	
+3-3	42-45	mot	_	_	_	_	_	_	
+3-4	46-53	norrmän	*	_	_	_	_	_	
+3-5	54-56	ok	_	_	_	_	_	_	
+3-6	56-57	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=Läste denna insändare som publicerats i NSD, som alltså är en stor svensk lokaltidning:.
+5-1	68-73	Läste	_	_	_	_	_	_	
+5-2	74-79	denna	_	_	_	_	_	_	
+5-3	80-89	insändare	_	_	_	_	_	_	
+5-4	90-93	som	_	_	_	_	_	_	
+5-5	94-105	publicerats	_	_	_	_	_	_	
+5-6	106-107	i	_	_	_	_	_	_	
+5-7	108-111	NSD	_	_	_	_	_	_	
+5-8	111-112	,	_	_	_	_	_	_	
+5-9	113-116	som	_	_	_	_	_	_	
+5-10	117-123	alltså	_	_	_	_	_	_	
+5-11	124-126	är	_	_	_	_	_	_	
+5-12	127-129	en	_	_	_	_	_	_	
+5-13	130-134	stor	_	_	_	_	_	_	
+5-14	135-141	svensk	_	_	_	_	_	_	
+5-15	142-154	lokaltidning	_	_	_	_	_	_	
+5-16	154-155	:	_	_	_	_	_	_	
+5-17	155-156	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	158-159	#	_	_	_	_	_	_	
+6-2	159-160	P	_	_	_	_	_	_	
+6-3	161-164	IMM	_	_	_	_	_	_	
+6-4	164-165	.	_	_	_	_	_	_	
+
+#Text=Tog mig friheten att skriva om den marginellt.
+7-1	167-170	Tog	_	_	_	_	_	_	
+7-2	171-174	mig	_	_	_	_	_	_	
+7-3	175-183	friheten	_	_	_	_	_	_	
+7-4	184-187	att	_	_	_	_	_	_	
+7-5	188-194	skriva	_	_	_	_	_	_	
+7-6	195-197	om	_	_	_	_	_	_	
+7-7	198-201	den	_	_	_	_	_	_	
+7-8	202-212	marginellt	_	_	_	_	_	_	
+7-9	212-213	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	215-216	#	_	_	_	_	_	_	
+8-2	216-217	P	_	_	_	_	_	_	
+8-3	218-221	IMM	_	_	_	_	_	_	
+8-4	221-222	.	_	_	_	_	_	_	
+
+#Text=Mitt exempel är givetvis draget direkt ur arslet.
+9-1	224-228	Mitt	*[15]	_	_	_	_	_	
+9-2	229-236	exempel	*[15]	_	_	_	_	_	
+9-3	237-239	är	_	_	_	_	_	_	
+9-4	240-248	givetvis	_	_	_	_	_	_	
+9-5	249-255	draget	_	Target[2]	9-1[15]	false[2]	2[2]	_	
+9-6	256-262	direkt	_	Target[2]	9-1[15]	false[2]	2[2]	_	
+9-7	263-265	ur	_	Target[2]	9-1[15]	false[2]	2[2]	_	
+9-8	266-272	arslet	_	Target[2]	9-1[15]	false[2]	2[2]	_	
+9-9	272-273	.	_	_	_	_	_	_	
+
+#Text=Det finns säkert mer relevanta liknelser, så ni får gärna tänka lite out of the box och se om ni hittar något mer relevant för sammanhanget.
+10-1	274-277	Det	_	_	_	_	_	_	
+10-2	278-283	finns	_	_	_	_	_	_	
+10-3	284-290	säkert	_	_	_	_	_	_	
+10-4	291-294	mer	_	Target[3]	10-6	false[3]	4[3]	_	
+10-5	295-304	relevanta	_	Target[3]	10-6	false[3]	4[3]	_	
+10-6	305-314	liknelser	*	_	_	_	_	_	
+10-7	314-315	,	_	_	_	_	_	_	
+10-8	316-318	så	_	_	_	_	_	_	
+10-9	319-321	ni	*	_	_	_	_	_	
+10-10	322-325	får	_	Target[4]	10-9	false[4]	4[4]	_	
+10-11	326-331	gärna	_	Target[4]	10-9	false[4]	4[4]	_	
+10-12	332-337	tänka	_	Target[4]	10-9	false[4]	4[4]	_	
+10-13	338-342	lite	_	Target[4]	10-9	false[4]	4[4]	_	
+10-14	343-346	out	_	Target[4]	10-9	false[4]	4[4]	_	
+10-15	347-349	of	_	Target[4]	10-9	false[4]	4[4]	_	
+10-16	350-353	the	_	Target[4]	10-9	false[4]	4[4]	_	
+10-17	354-357	box	_	Target[4]	10-9	false[4]	4[4]	_	
+10-18	358-361	och	_	_	_	_	_	_	
+10-19	362-364	se	_	_	_	_	_	_	
+10-20	365-367	om	_	_	_	_	_	_	
+10-21	368-370	ni	_	_	_	_	_	_	
+10-22	371-377	hittar	_	_	_	_	_	_	
+10-23	378-383	något	_	Target[5]	10-27	false[5]	4[5]	_	
+10-24	384-387	mer	_	Target[5]	10-27	false[5]	4[5]	_	
+10-25	388-396	relevant	_	Target[5]	10-27	false[5]	4[5]	_	
+10-26	397-400	för	_	_	_	_	_	_	
+10-27	401-413	sammanhanget	*	_	_	_	_	_	
+10-28	413-414	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	416-417	#	_	_	_	_	_	_	
+11-2	417-418	P	_	_[6]	_	false[6]	3[6]	_	
+11-3	419-422	IMM	_	_[6]	_	false[6]	3[6]	_	
+11-4	422-423	.	_	_	_	_	_	_	
+
+#Text=I vilket fall, är det mer okej att ge sig på norrmännen och utmåla dem som snyltare som kannibaliserar på Sverige?.
+12-1	425-426	I	_	_	_	_	_	_	
+12-2	427-433	vilket	_	_	_	_	_	_	
+12-3	434-438	fall	_	_	_	_	_	_	
+12-4	438-439	,	_	_	_	_	_	_	
+12-5	440-442	är	_	_	_	_	_	_	
+12-6	443-446	det	_	_	_	_	_	_	
+12-7	447-450	mer	_	_	_	_	_	_	
+12-8	451-455	okej	_	_	_	_	_	_	
+12-9	456-459	att	_	_	_	_	_	_	
+12-10	460-462	ge	_	_[7]	_	false[7]	2[7]	_	
+12-11	463-466	sig	_	_[7]	_	false[7]	2[7]	_	
+12-12	467-469	på	_	_[7]	_	false[7]	2[7]	_	
+12-13	470-480	norrmännen	*	_	_	_	_	_	
+12-14	481-484	och	_	_	_	_	_	_	
+12-15	485-491	utmåla	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	12-10[7_8]	
+12-16	492-495	dem	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-17	496-499	som	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-18	500-508	snyltare	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-19	509-512	som	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-20	513-527	kannibaliserar	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-21	528-530	på	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-22	531-538	Sverige	_	Target;Source[8]	12-13;12-24	false[8]	2[8]	_	
+12-23	538-539	?	_	_	_	_	_	_	
+12-24	539-540	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	542-543	#	_	_	_	_	_	_	
+13-2	543-544	P	_	_	_	_	_	_	
+13-3	545-548	IMM	_	_	_	_	_	_	
+13-4	548-549	.	_	_	_	_	_	_	
+
+#Text=Det rör sig som sagt var om jakt av djur.
+14-1	551-554	Det	_	_	_	_	_	_	
+14-2	555-558	rör	_	_	_	_	_	_	
+14-3	559-562	sig	_	_	_	_	_	_	
+14-4	563-566	som	_	_	_	_	_	_	
+14-5	567-571	sagt	_	_	_	_	_	_	
+14-6	572-575	var	_	_	_	_	_	_	
+14-7	576-578	om	_	_	_	_	_	_	
+14-8	579-583	jakt	_	_	_	_	_	_	
+14-9	584-586	av	_	_	_	_	_	_	
+14-10	587-591	djur	_	_	_	_	_	_	
+14-11	591-592	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	594-595	#	_	_	_	_	_	_	
+15-2	595-596	P	_	_[9]	_	false[9]	1[9]	_	
+15-3	597-600	IMM	_	_[9]	_	false[9]	1[9]	_	
+15-4	600-601	.	_	_	_	_	_	_	
+
+#Text=Somalierna kannibaliserar på precis allt.
+16-1	603-613	Somalierna	*	_	_	_	_	_	
+16-2	614-628	kannibaliserar	_	Target[10]	16-1	false[10]	1[10]	_	
+16-3	629-631	på	_	Target[10]	16-1	false[10]	1[10]	_	
+16-4	632-638	precis	_	Target[10]	16-1	false[10]	1[10]	_	
+16-5	639-643	allt	_	Target[10]	16-1	false[10]	1[10]	_	
+16-6	643-644	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	646-647	#	_	_	_	_	_	_	
+17-2	647-648	P	_	_[11]	_	false[11]	1[11]	_	
+17-3	649-652	IMM	_	_[11]	_	false[11]	1[11]	_	
+17-4	652-653	.	_	_	_	_	_	_	
+
+#Text=Norrmännen bjuder ju åtminstone på anställningar till svenska ungdomar som inte får arbeta i Sverige på grund av att niggers pressas in på alla arbetsplatser med grova subventioneringar.
+18-1	655-665	Norrmännen	*	_	_	_	_	_	
+18-2	666-672	bjuder	_	Target[12]	18-1	false[12]	4[12]	_	
+18-3	673-675	ju	_	Target[12]	18-1	false[12]	4[12]	_	
+18-4	676-686	åtminstone	_	Target[12]	18-1	false[12]	4[12]	_	
+18-5	687-689	på	_	Target[12]	18-1	false[12]	4[12]	_	
+18-6	690-703	anställningar	_	Target[12]	18-1	false[12]	4[12]	_	
+18-7	704-708	till	_	Target[12]	18-1	false[12]	4[12]	_	
+18-8	709-716	svenska	_	Target[12]	18-1	false[12]	4[12]	_	
+18-9	717-725	ungdomar	_	Target[12]	18-1	false[12]	4[12]	_	
+18-10	726-729	som	_	_	_	_	_	_	
+18-11	730-734	inte	_	_	_	_	_	_	
+18-12	735-738	får	_	_	_	_	_	_	
+18-13	739-745	arbeta	_	_	_	_	_	_	
+18-14	746-747	i	_	_	_	_	_	_	
+18-15	748-755	Sverige	_	_	_	_	_	_	
+18-16	756-758	på	_	_	_	_	_	_	
+18-17	759-764	grund	_	_	_	_	_	_	
+18-18	765-767	av	_	_	_	_	_	_	
+18-19	768-771	att	_	_	_	_	_	_	
+18-20	772-779	niggers	*[16]|*[17]	Target	18-20[16]	false	1	_	
+18-21	780-787	pressas	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-22	788-790	in	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-23	791-793	på	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-24	794-798	alla	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-25	799-812	arbetsplatser	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-26	813-816	med	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-27	817-822	grova	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-28	823-840	subventioneringar	_	Target[13]	18-20[17]	false[13]	1[13]	_	
+18-29	840-841	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	843-844	#	_	_	_	_	_	_	
+19-2	844-845	P	_	_	_	_	_	_	
+19-3	846-849	IMM	_	_	_	_	_	_	
+19-4	849-850	.	_	_	_	_	_	_	
+
+#Text=Blir inte norrmännen kränkta av detta hemska påhopp?.
+20-1	852-856	Blir	_	_	_	_	_	_	
+20-2	857-861	inte	_	_	_	_	_	_	
+20-3	862-872	norrmännen	*	_	_	_	_	_	
+20-4	873-880	kränkta	_	Source	20-3	false	2	_	
+20-5	881-883	av	_	_	_	_	_	_	
+20-6	884-889	detta	*	_	_	_	_	_	
+20-7	890-896	hemska	_	Target[14]	20-6	false[14]	2[14]	_	
+20-8	897-903	påhopp	_	Target[14]	20-6	false[14]	2[14]	_	
+20-9	903-904	?	_	_	_	_	_	_	
+20-10	904-905	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	907-908	#	_	_	_	_	_	_	
+21-2	908-909	P	_	_	_	_	_	_	
+21-3	910-913	IMM	_	_	_	_	_	_	
+21-4	913-914	.	_	_	_	_	_	_	
+
+#Text=Kan norsken kontakta DO?.
+22-1	916-919	Kan	_	_	_	_	_	_	
+22-2	920-927	norsken	_	_	_	_	_	_	
+22-3	928-936	kontakta	_	_	_	_	_	_	
+22-4	937-939	DO	_	_	_	_	_	_	
+22-5	939-940	?	_	_	_	_	_	_	
+22-6	940-941	.	_	_	_	_	_	_	

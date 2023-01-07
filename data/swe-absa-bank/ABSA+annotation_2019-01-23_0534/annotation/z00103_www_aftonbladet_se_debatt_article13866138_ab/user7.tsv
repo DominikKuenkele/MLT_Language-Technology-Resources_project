@@ -1,0 +1,377 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Feminister – håll er borta från våra familjeliv!.
+3-1	18-28	Feminister	*	_	_	_	_	_	_	
+3-2	29-30	–	_	_	_	_	_	_	_	
+3-3	31-35	håll	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	36-38	er	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-5	39-44	borta	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-6	45-49	från	_	_	_	_	_	_	_	
+3-7	50-54	våra	_	_	_	_	_	_	_	
+3-8	55-65	familjeliv	_	_	_	_	_	_	_	
+3-9	65-66	!	_	_	_	_	_	_	_	
+3-10	66-67	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Pappamånader, jämställdhetsbonus och kvoterad föräldraledighet är politik för män som vill ha ett liv”, skrev jag i min artikel om det feministiska Sverige som i det tysta håller på att bli ett drömland – för män (AB 10/10).
+4-1	69-70	#	_	_	_	_	_	_	_	
+4-2	70-71	P	_	_	_	_	_	_	_	
+4-3	72-75	IMM	_	_	_	_	_	_	_	
+4-4	75-76	.	_	_	_	_	_	_	_	
+4-5	78-79	”	_	_	_	_	_	_	_	
+4-6	79-91	Pappamånader	_	_	_	_	_	_	_	
+4-7	91-92	,	_	_	_	_	_	_	_	
+4-8	93-111	jämställdhetsbonus	_	_	_	_	_	_	_	
+4-9	112-115	och	_	_	_	_	_	_	_	
+4-10	116-124	kvoterad	_	_	_	_	_	_	_	
+4-11	125-141	föräldraledighet	_	_	_	_	_	_	_	
+4-12	142-144	är	_	_	_	_	_	_	_	
+4-13	145-152	politik	_	_	_	_	_	_	_	
+4-14	153-156	för	_	_	_	_	_	_	_	
+4-15	157-160	män	*[5]	_	_	_	_	_	_	
+4-16	161-164	som	*[5]	_	_	_	_	_	_	
+4-17	165-169	vill	_	Target;Source[2]	4-19[6];4-15[5]	false[2]	4[2]	_	_	
+4-18	170-172	ha	_	Target;Source[2]	4-19[6];4-15[5]	false[2]	4[2]	_	_	
+4-19	173-176	ett	*[6]	_	_	_	_	_	_	
+4-20	177-180	liv	*[6]	_	_	_	_	_	_	
+4-21	180-181	”	_	_	_	_	_	_	_	
+4-22	181-182	,	_	_	_	_	_	_	_	
+4-23	183-188	skrev	_	_	_	_	_	_	_	
+4-24	189-192	jag	_	_	_	_	_	_	_	
+4-25	193-194	i	_	_	_	_	_	_	_	
+4-26	195-198	min	_	_	_	_	_	_	_	
+4-27	199-206	artikel	_	_	_	_	_	_	_	
+4-28	207-209	om	_	_	_	_	_	_	_	
+4-29	210-213	det	_	_	_	_	_	_	_	
+4-30	214-226	feministiska	_	_	_	_	_	_	_	
+4-31	227-234	Sverige	_	_	_	_	_	_	_	
+4-32	235-238	som	_	_	_	_	_	_	_	
+4-33	239-240	i	_	_	_	_	_	_	_	
+4-34	241-244	det	_	_	_	_	_	_	_	
+4-35	245-250	tysta	_	_	_	_	_	_	_	
+4-36	251-257	håller	_	_	_	_	_	_	_	
+4-37	258-260	på	_	_	_	_	_	_	_	
+4-38	261-264	att	_	_	_	_	_	_	_	
+4-39	265-268	bli	_	_	_	_	_	_	_	
+4-40	269-272	ett	_	_	_	_	_	_	_	
+4-41	273-281	drömland	*	Target	4-41	false	5	_	_	
+4-42	282-283	–	_	_	_	_	_	_	_	
+4-43	284-287	för	_	_	_	_	_	_	_	
+4-44	288-291	män	_	_	_	_	_	_	_	
+4-45	292-293	(	_	_	_	_	_	_	_	
+4-46	293-295	AB	_	_	_	_	_	_	_	
+4-47	296-298	10	_	_	_	_	_	_	_	
+4-48	298-299	/	_	_	_	_	_	_	_	
+4-49	299-301	10	_	_	_	_	_	_	_	
+4-50	301-302	)	_	_	_	_	_	_	_	
+4-51	302-303	.	_	_	_	_	_	_	_	
+
+#Text=Vi borde prata mer om varför medellivslängden för män ökar mer än medellivslängden för kvinnor, tyckte jag.
+5-1	304-306	Vi	_	_	_	_	_	_	_	
+5-2	307-312	borde	_	_	_	_	_	_	_	
+5-3	313-318	prata	_	_	_	_	_	_	_	
+5-4	319-322	mer	_	_	_	_	_	_	_	
+5-5	323-325	om	_	_	_	_	_	_	_	
+5-6	326-332	varför	_	_	_	_	_	_	_	
+5-7	333-349	medellivslängden	_	_	_	_	_	_	_	
+5-8	350-353	för	_	_	_	_	_	_	_	
+5-9	354-357	män	_	_	_	_	_	_	_	
+5-10	358-362	ökar	_	_	_	_	_	_	_	
+5-11	363-366	mer	_	_	_	_	_	_	_	
+5-12	367-369	än	_	_	_	_	_	_	_	
+5-13	370-386	medellivslängden	_	_	_	_	_	_	_	
+5-14	387-390	för	_	_	_	_	_	_	_	
+5-15	391-398	kvinnor	_	_	_	_	_	_	_	
+5-16	398-399	,	_	_	_	_	_	_	_	
+5-17	400-406	tyckte	_	_	_	_	_	_	_	
+5-18	407-410	jag	_	_	_	_	_	_	_	
+5-19	410-411	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	413-414	#	_	_	_	_	_	_	_	
+6-2	414-415	P	_	_	_	_	_	_	_	
+6-3	416-419	IMM	_	_	_	_	_	_	_	
+6-4	419-420	.	_	_	_	_	_	_	_	
+
+#Text=Sverige säljs ju med jämställdhet, men vi visar hellre upp coola pappalediga män med barnvagnar än stressade småbarnsmammor med bettskenor.
+7-1	422-429	Sverige	_	_	_	_	_	_	_	
+7-2	430-435	säljs	_	_	_	_	_	_	_	
+7-3	436-438	ju	_	_	_	_	_	_	_	
+7-4	439-442	med	_	_	_	_	_	_	_	
+7-5	443-455	jämställdhet	_	_	_	_	_	_	_	
+7-6	455-456	,	_	_	_	_	_	_	_	
+7-7	457-460	men	_	_	_	_	_	_	_	
+7-8	461-463	vi	_	_	_	_	_	_	_	
+7-9	464-469	visar	_	_	_	_	_	_	_	
+7-10	470-476	hellre	_	_	_	_	_	_	_	
+7-11	477-480	upp	_	_	_	_	_	_	_	
+7-12	481-486	coola	_	Target;Source	7-13[7];7-22	false	4	_	_	
+7-13	487-498	pappalediga	*[7]	_	_	_	_	_	_	
+7-14	499-502	män	*[7]	_	_	_	_	_	_	
+7-15	503-506	med	*[7]	_	_	_	_	_	_	
+7-16	507-517	barnvagnar	*[7]	_	_	_	_	_	_	
+7-17	518-520	än	_	_	_	_	_	_	_	
+7-18	521-530	stressade	_	_	_	_	_	_	_	
+7-19	531-545	småbarnsmammor	_	_	_	_	_	_	_	
+7-20	546-549	med	_	_	_	_	_	_	_	
+7-21	550-560	bettskenor	_	_	_	_	_	_	_	
+7-22	560-561	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	563-564	#	_	_	_	_	_	_	_	
+8-2	564-565	P	_	_	_	_	_	_	_	
+8-3	566-569	IMM	_	_	_	_	_	_	_	
+8-4	569-570	.	_	_	_	_	_	_	_	
+
+#Text=Naturligtvis blev landets elitfeminister provocerade.
+9-1	572-584	Naturligtvis	_	_	_	_	_	_	_	
+9-2	585-589	blev	_	_	_	false	2	_	_	
+9-3	590-597	landets	*[8]	_	_	_	_	_	_	
+9-4	598-612	elitfeminister	*[8]|*[9]	Target	9-4[9]	true	4	_	_	
+9-5	613-624	provocerade	_	Source	9-3[8]	false	2	9-2	_	
+9-6	624-625	.	_	_	_	_	_	_	_	
+
+#Text=Va, skulle vi ha gynnat patriarkatet?.
+10-1	626-628	Va	_	_	_	_	_	_	_	
+10-2	628-629	,	_	_	_	_	_	_	_	
+10-3	630-636	skulle	_	_	_	_	_	_	_	
+10-4	637-639	vi	_	_	_	_	_	_	_	
+10-5	640-642	ha	_	_	_	_	_	_	_	
+10-6	643-649	gynnat	_	_	_	_	_	_	_	
+10-7	650-662	patriarkatet	_	_	_	_	_	_	_	
+10-8	662-663	?	_	_	_	_	_	_	_	
+10-9	663-664	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	666-667	#	_	_	_	_	_	_	_	
+11-2	667-668	P	_	_	_	_	_	_	_	
+11-3	669-672	IMM	_	_	_	_	_	_	_	
+11-4	672-673	.	_	_	_	_	_	_	_	
+
+#Text=Vänsterfeministen Schyman tror att politiken är kvinnornas räddning – hon vill kvotera föräldraförsäkringen och säger som vänstern alltid har sagt: Du har inte förstått, du lider av ett falskt medvetande.
+12-1	675-692	Vänsterfeministen	*[10]	_	_	_	_	_	17-1[0_10]	
+12-2	693-700	Schyman	*[10]	_	_	_	_	_	_	
+12-3	701-705	tror	_	_	_	_	_	_	_	
+12-4	706-709	att	_	_	_	_	_	_	_	
+12-5	710-719	politiken	_	_	_	_	_	_	_	
+12-6	720-722	är	_	_	_	_	_	_	_	
+12-7	723-733	kvinnornas	_	_	_	_	_	_	_	
+12-8	734-742	räddning	_	_	_	_	_	_	_	
+12-9	743-744	–	_	_	_	_	_	_	_	
+12-10	745-748	hon	_	_	_	_	_	_	_	
+12-11	749-753	vill	_	_	_	_	_	_	_	
+12-12	754-761	kvotera	_	_	_	_	_	_	_	
+12-13	762-782	föräldraförsäkringen	_	_	_	_	_	_	_	
+12-14	783-786	och	_	_	_	_	_	_	_	
+12-15	787-792	säger	_	_	_	_	_	_	_	
+12-16	793-796	som	_	_	_	_	_	_	_	
+12-17	797-805	vänstern	_	_	_	_	_	_	_	
+12-18	806-812	alltid	_	_	_	_	_	_	_	
+12-19	813-816	har	_	_	_	_	_	_	_	
+12-20	817-821	sagt	_	_	_	_	_	_	_	
+12-21	821-822	:	_	_	_	_	_	_	_	
+12-22	823-825	Du	_	_	_	_	_	_	_	
+12-23	826-829	har	_	_	_	_	_	_	_	
+12-24	830-834	inte	_	_	_	_	_	_	_	
+12-25	835-843	förstått	_	_	_	_	_	_	_	
+12-26	843-844	,	_	_	_	_	_	_	_	
+12-27	845-847	du	_	_	_	_	_	_	_	
+12-28	848-853	lider	_	_	_	_	_	_	_	
+12-29	854-856	av	_	_	_	_	_	_	_	
+12-30	857-860	ett	_	_	_	_	_	_	_	
+12-31	861-867	falskt	_	_	_	_	_	_	_	
+12-32	868-878	medvetande	_	_	_	_	_	_	_	
+12-33	878-879	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	881-882	#	_	_	_	_	_	_	_	
+13-2	882-883	P	_	_	_	_	_	_	_	
+13-3	884-887	IMM	_	_	_	_	_	_	_	
+13-4	887-888	.	_	_	_	_	_	_	_	
+
+#Text=Liberalfeministen Magnusson tror att marknaden  är kvinnornas räddning: Rut-avdraget ”möjliggör för oss att i stor skala professionalisera de återstående traditionellt kvinnliga hemmasysslorna”.
+14-1	890-907	Liberalfeministen	*[11]	_	_	_	_	_	17-1[0_11]	
+14-2	908-917	Magnusson	*[11]	_	_	_	_	_	_	
+14-3	918-922	tror	_	_	_	_	_	_	_	
+14-4	923-926	att	_	_	_	_	_	_	_	
+14-5	927-936	marknaden	_	_	_	_	_	_	_	
+14-6	938-940	är	_	_	_	_	_	_	_	
+14-7	941-951	kvinnornas	_	_	_	_	_	_	_	
+14-8	952-960	räddning	_	_	_	_	_	_	_	
+14-9	960-961	:	_	_	_	_	_	_	_	
+14-10	962-974	Rut-avdraget	*	_	_	_	_	_	_	
+14-11	975-976	”	_	_	_	_	_	_	_	
+14-12	976-985	möjliggör	_	Source;Target	14-1[11];14-10	false	4	_	_	
+14-13	986-989	för	_	_	_	_	_	_	_	
+14-14	990-993	oss	_	_	_	_	_	_	_	
+14-15	994-997	att	_	_	_	_	_	_	_	
+14-16	998-999	i	_	_	_	_	_	_	_	
+14-17	1000-1004	stor	_	_	_	_	_	_	_	
+14-18	1005-1010	skala	_	_	_	_	_	_	_	
+14-19	1011-1028	professionalisera	_	_	_	_	_	_	_	
+14-20	1029-1031	de	_	_	_	_	_	_	_	
+14-21	1032-1043	återstående	_	_	_	_	_	_	_	
+14-22	1044-1057	traditionellt	_	_	_	_	_	_	_	
+14-23	1058-1067	kvinnliga	_	_	_	_	_	_	_	
+14-24	1068-1082	hemmasysslorna	_	_	_	_	_	_	_	
+14-25	1082-1083	”	_	_	_	_	_	_	_	
+14-26	1083-1084	.	_	_	_	_	_	_	_	
+
+#Text=Anställ en Rut-mamma!.
+15-1	1085-1092	Anställ	_	_	_	_	_	_	_	
+15-2	1093-1095	en	_	_	_	_	_	_	_	
+15-3	1096-1105	Rut-mamma	_	_	_	_	_	_	_	
+15-4	1105-1106	!	_	_	_	_	_	_	_	
+15-5	1106-1107	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1109-1110	#	_	_	_	_	_	_	_	
+16-2	1110-1111	P	_	_	_	_	_	_	_	
+16-3	1112-1115	IMM	_	_	_	_	_	_	_	
+16-4	1115-1116	.	_	_	_	_	_	_	_	
+
+#Text=Båda har blivit paternalister som vill styra våra familjeliv.
+17-1	1118-1122	Båda	*	_	_	_	_	_	_	
+17-2	1123-1126	har	_	_	_	_	_	_	_	
+17-3	1127-1133	blivit	_	_	_	_	_	_	_	
+17-4	1134-1147	paternalister	_	_	_	_	_	_	_	
+17-5	1148-1151	som	_	_	_	_	_	_	_	
+17-6	1152-1156	vill	_	_	_	_	_	_	_	
+17-7	1157-1162	styra	_	_	_	_	_	_	_	
+17-8	1163-1167	våra	_	_	_	_	_	_	_	
+17-9	1168-1178	familjeliv	_	_	_	_	_	_	_	
+17-10	1178-1179	.	_	Target	17-1	false	2	_	_	
+
+#Text=Men politikerna lyssnar allt mindre på feminismens besserwissrar.
+18-1	1180-1183	Men	_	_	_	_	_	_	_	
+18-2	1184-1195	politikerna	_	_	_	_	_	_	_	
+18-3	1196-1203	lyssnar	_	_	_	_	_	_	_	
+18-4	1204-1208	allt	_	_	_	_	_	_	_	
+18-5	1209-1215	mindre	_	_	_	_	_	_	_	
+18-6	1216-1218	på	_	_	_	_	_	_	_	
+18-7	1219-1230	feminismens	_	_	_	_	_	_	_	
+18-8	1231-1244	besserwissrar	*	Target	18-8	false	2	_	_	
+18-9	1244-1245	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1247-1248	#	_	_	_	_	_	_	_	
+19-2	1248-1249	P	_	_	_	_	_	_	_	
+19-3	1250-1253	IMM	_	_	_	_	_	_	_	
+19-4	1253-1254	.	_	_	_	_	_	_	_	
+
+#Text=Vid FP:s landsmöte röstades partistyrelsens förslag om fler pappamånader ner.
+20-1	1256-1259	Vid	_	_	_	_	_	_	_	
+20-2	1260-1262	FP	_	_	_	_	_	_	_	
+20-3	1262-1263	:	_	_	_	_	_	_	_	
+20-4	1263-1264	s	_	_	_	_	_	_	_	
+20-5	1265-1274	landsmöte	_	_	_	_	_	_	_	
+20-6	1275-1283	röstades	_	_	_	_	_	_	_	
+20-7	1284-1299	partistyrelsens	_	_	_	_	_	_	_	
+20-8	1300-1307	förslag	_	_	_	_	_	_	_	
+20-9	1308-1310	om	_	_	_	_	_	_	_	
+20-10	1311-1315	fler	_	_	_	_	_	_	_	
+20-11	1316-1328	pappamånader	_	_	_	_	_	_	_	
+20-12	1329-1332	ner	_	_	_	_	_	_	_	
+20-13	1332-1333	.	_	_	_	_	_	_	_	
+
+#Text=M:s partistämma  strök skrivningar i idéprogrammet om ”jämn fördelning av oavlönat hushållsarbete”.
+21-1	1334-1335	M	_	_	_	_	_	_	_	
+21-2	1335-1336	:	_	_	_	_	_	_	_	
+21-3	1336-1337	s	_	_	_	_	_	_	_	
+21-4	1338-1349	partistämma	_	_	_	_	_	_	_	
+21-5	1351-1356	strök	_	_	_	_	_	_	_	
+21-6	1357-1368	skrivningar	_	_	_	_	_	_	_	
+21-7	1369-1370	i	_	_	_	_	_	_	_	
+21-8	1371-1384	idéprogrammet	_	_	_	_	_	_	_	
+21-9	1385-1387	om	_	_	_	_	_	_	_	
+21-10	1388-1389	”	_	_	_	_	_	_	_	
+21-11	1389-1393	jämn	_	_	_	_	_	_	_	
+21-12	1394-1404	fördelning	_	_	_	_	_	_	_	
+21-13	1405-1407	av	_	_	_	_	_	_	_	
+21-14	1408-1416	oavlönat	_	_	_	_	_	_	_	
+21-15	1417-1431	hushållsarbete	_	_	_	_	_	_	_	
+21-16	1431-1432	”	_	_	_	_	_	_	_	
+21-17	1432-1433	.	_	_	_	_	_	_	_	
+
+#Text=Sajten familjeliv.se ropar: nästan hälften av medlemsmammorna vill bli hemmafruar.
+22-1	1434-1440	Sajten	_	_	_	_	_	_	_	
+22-2	1441-1454	familjeliv.se	_	_	_	_	_	_	_	
+22-3	1455-1460	ropar	_	_	_	_	_	_	_	
+22-4	1460-1461	:	_	_	_	_	_	_	_	
+22-5	1462-1468	nästan	_	_	_	_	_	_	_	
+22-6	1469-1476	hälften	_	_	_	_	_	_	_	
+22-7	1477-1479	av	_	_	_	_	_	_	_	
+22-8	1480-1495	medlemsmammorna	_	_	_	_	_	_	_	
+22-9	1496-1500	vill	_	_	_	_	_	_	_	
+22-10	1501-1504	bli	_	_	_	_	_	_	_	
+22-11	1505-1515	hemmafruar	_	_	_	_	_	_	_	
+22-12	1515-1516	.	_	_	_	_	_	_	_	
+
+#Text=De tror inte på 50/50-jämställdhet i hemmet.
+23-1	1517-1519	De	*	_	_	_	_	_	_	
+23-2	1520-1524	tror	_	Target;Source[3]	23-7[12];23-1	false[3]	2[3]	_	_	
+23-3	1525-1529	inte	_	Target;Source[3]	23-7[12];23-1	false[3]	2[3]	_	_	
+23-4	1530-1532	på	_	Target;Source[3]	23-7[12];23-1	false[3]	2[3]	_	_	
+23-5	1533-1535	50	_	_	_	_	_	_	_	
+23-6	1535-1536	/	_	_	_	_	_	_	_	
+23-7	1536-1538	50	*[12]	_	_	_	_	_	_	
+23-8	1538-1539	-	*[12]	_	_	_	_	_	_	
+23-9	1539-1551	jämställdhet	*[12]	_	_	_	_	_	_	
+23-10	1552-1553	i	*[12]	_	_	_	_	_	_	
+23-11	1554-1560	hemmet	*[12]	_	_	_	_	_	_	
+23-12	1560-1561	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1563-1564	#	_	_	_	_	_	_	_	
+24-2	1564-1565	P	_	_	_	_	_	_	_	
+24-3	1566-1569	IMM	_	_	_	_	_	_	_	
+24-4	1569-1570	.	_	_	_	_	_	_	_	
+
+#Text=Politiker och feminister, lyssna på mammorna!
+25-1	1572-1581	Politiker	*[13]	_	_	_	_	_	_	
+25-2	1582-1585	och	*[13]	_	_	_	_	_	_	
+25-3	1586-1596	feminister	*[13]	_	_	_	_	_	_	
+25-4	1596-1597	,	_	_	_	_	_	_	_	
+25-5	1598-1604	lyssna	_	_	_	_	_	_	_	
+25-6	1605-1607	på	_	_	_	_	_	_	_	
+25-7	1608-1616	mammorna	_	_	_	_	_	_	_	
+25-8	1616-1617	!	_	_	_	_	_	_	_	
+
+#Text=Ut ur våra hem och familjeliv!.
+26-1	1618-1620	Ut	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-2	1621-1623	ur	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-3	1624-1628	våra	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-4	1629-1632	hem	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-5	1633-1636	och	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-6	1637-1647	familjeliv	_	Target[4]	25-1[13]	false[4]	2[4]	_	_	
+26-7	1647-1648	!	_	_	_	_	_	_	_	
+26-8	1648-1649	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1651-1652	#	_	_	_	_	_	_	_	
+27-2	1652-1653	P	_	_	_	_	_	_	_	
+27-3	1654-1657	IMM	_	_	_	_	_	_	_	
+27-4	1657-1658	.	_	_	_	_	_	_	_	
+
+#Text=Elise Claeson.
+28-1	1660-1665	Elise	_	_	_	_	_	_	_	
+28-2	1666-1673	Claeson	_	_	_	_	_	_	_	
+28-3	1673-1674	.	_	_	_	_	_	_	_	

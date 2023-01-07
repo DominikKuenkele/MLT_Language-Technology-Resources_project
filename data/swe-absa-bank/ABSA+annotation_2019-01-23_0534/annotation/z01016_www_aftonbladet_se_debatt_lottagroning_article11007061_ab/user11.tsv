@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vad är det du döljer, Lars Danielsson?
+3-1	18-21	Vad	_	_	_	_	_	_	
+3-2	22-24	är	_	_	_	_	_	_	
+3-3	25-28	det	_	_	_	_	_	_	
+3-4	29-31	du	_	_	_	_	_	_	
+3-5	32-38	döljer	_	_	_	_	_	_	
+3-6	38-39	,	_	_	_	_	_	_	
+3-7	40-44	Lars	_	_	_	_	_	_	
+3-8	45-55	Danielsson	_	_	_	_	_	_	
+3-9	55-56	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	
+
+#Text=Lars Danielsson är utfryst på UD.
+5-1	67-71	Lars	_	_	_	_	_	_	
+5-2	72-82	Danielsson	_	_	_	_	_	_	
+5-3	83-85	är	_	_	_	_	_	_	
+5-4	86-93	utfryst	_	_	_	_	_	_	
+5-5	94-96	på	_	_	_	_	_	_	
+5-6	97-99	UD	_	_	_	_	_	_	
+5-7	99-100	.	_	_	_	_	_	_	
+
+#Text=Anledningen är förstås att han inte säger någonting om vad han gjorde under tsunamin och självklart att han var Göran Perssons närmaste man.
+6-1	101-112	Anledningen	_	_	_	_	_	_	
+6-2	113-115	är	_	_	_	_	_	_	
+6-3	116-123	förstås	_	_	_	_	_	_	
+6-4	124-127	att	_	_	_	_	_	_	
+6-5	128-131	han	_	_	_	_	_	_	
+6-6	132-136	inte	_	_	_	_	_	_	
+6-7	137-142	säger	_	_	_	_	_	_	
+6-8	143-152	någonting	_	_	_	_	_	_	
+6-9	153-155	om	_	_	_	_	_	_	
+6-10	156-159	vad	_	_	_	_	_	_	
+6-11	160-163	han	_	_	_	_	_	_	
+6-12	164-170	gjorde	_	_	_	_	_	_	
+6-13	171-176	under	_	_	_	_	_	_	
+6-14	177-185	tsunamin	_	_	_	_	_	_	
+6-15	186-189	och	_	_	_	_	_	_	
+6-16	190-200	självklart	_	_	_	_	_	_	
+6-17	201-204	att	_	_	_	_	_	_	
+6-18	205-208	han	_	_	_	_	_	_	
+6-19	209-212	var	_	_	_	_	_	_	
+6-20	213-218	Göran	_	_	_	_	_	_	
+6-21	219-227	Perssons	_	_	_	_	_	_	
+6-22	228-236	närmaste	_	_	_	_	_	_	
+6-23	237-240	man	_	_	_	_	_	_	
+6-24	240-241	.	_	_	_	_	_	_	
+
+#Text=Jag tycker också att Lars Danielssons agerande är märkligt.
+7-1	242-245	Jag	*	_	_	_	_	_	
+7-2	246-252	tycker	_	_	_	false	2	_	
+7-3	253-258	också	_	_	_	_	_	_	
+7-4	259-262	att	_	_	_	_	_	_	
+7-5	263-267	Lars	*[6]	_	_	_	_	_	
+7-6	268-279	Danielssons	*[6]	_	_	_	_	_	
+7-7	280-288	agerande	*[6]	_	_	_	_	_	
+7-8	289-291	är	_	Target;Source[1]	7-5[6];7-1	false[1]	2[1]	7-2[0_1]	
+7-9	292-300	märkligt	_	Target;Source[1]	7-5[6];7-1	false[1]	2[1]	_	
+7-10	300-301	.	_	_	_	_	_	_	
+
+#Text=Givetvis funderar jag som många andra över vad det är han döljer, eller vem han skyddar.
+8-1	302-310	Givetvis	_	_	_	_	_	_	
+8-2	311-319	funderar	_	_	_	_	_	_	
+8-3	320-323	jag	_	_	_	_	_	_	
+8-4	324-327	som	_	_	_	_	_	_	
+8-5	328-333	många	_	_	_	_	_	_	
+8-6	334-339	andra	_	_	_	_	_	_	
+8-7	340-344	över	_	_	_	_	_	_	
+8-8	345-348	vad	_	_	_	_	_	_	
+8-9	349-352	det	_	_	_	_	_	_	
+8-10	353-355	är	_	_	_	_	_	_	
+8-11	356-359	han	_	_	_	_	_	_	
+8-12	360-366	döljer	_	_	_	_	_	_	
+8-13	366-367	,	_	_	_	_	_	_	
+8-14	368-373	eller	_	_	_	_	_	_	
+8-15	374-377	vem	_	_	_	_	_	_	
+8-16	378-381	han	_	_	_	_	_	_	
+8-17	382-389	skyddar	_	_	_	_	_	_	
+8-18	389-390	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	392-393	#	_	_	_	_	_	_	
+9-2	393-394	P	_	_	_	_	_	_	
+9-3	395-398	IMM	_	_	_	_	_	_	
+9-4	398-399	.	_	_	_	_	_	_	
+
+#Text=Men att frysa ut honom på arbetsplatsen är väl magstarkt.
+10-1	401-404	Men	_	_	_	_	_	_	
+10-2	405-408	att	_	_	_	_	_	_	
+10-3	409-414	frysa	*[7]	_	_	_	_	_	
+10-4	415-417	ut	*[7]	_	_	_	_	_	
+10-5	418-423	honom	*[7]	_	_	_	_	_	
+10-6	424-426	på	*[7]	_	_	_	_	_	
+10-7	427-440	arbetsplatsen	*[7]	_	_	_	_	_	
+10-8	441-443	är	_	Target[2]	10-3[7]	false[2]	2[2]	_	
+10-9	444-447	väl	_	Target[2]	10-3[7]	false[2]	2[2]	_	
+10-10	448-457	magstarkt	_	Target[2]	10-3[7]	false[2]	2[2]	_	
+10-11	457-458	.	_	_	_	_	_	_	
+
+#Text=Ett riktigt oprofessionellt beteende som landets utrikesminister Carl Bildt inte borde ägna sig åt.
+11-1	459-462	Ett	_	_	_	_	_	_	
+11-2	463-470	riktigt	_	_	_	_	_	_	
+11-3	471-486	oprofessionellt	_	Target	11-4	false	2	_	
+11-4	487-495	beteende	*	_	_	_	_	_	
+11-5	496-499	som	_	_	_	_	_	_	
+11-6	500-507	landets	_	_	_	_	_	_	
+11-7	508-523	utrikesminister	_	_	_	_	_	_	
+11-8	524-528	Carl	*[8]	_	_	_	_	_	
+11-9	529-534	Bildt	*[8]	_	_	_	_	_	
+11-10	535-539	inte	_	Target[3]	11-8[8]	false[3]	2[3]	_	
+11-11	540-545	borde	_	Target[3]	11-8[8]	false[3]	2[3]	_	
+11-12	546-550	ägna	_	Target[3]	11-8[8]	false[3]	2[3]	_	
+11-13	551-554	sig	_	Target[3]	11-8[8]	false[3]	2[3]	_	
+11-14	555-557	åt	_	Target[3]	11-8[8]	false[3]	2[3]	_	
+11-15	557-558	.	_	_	_	_	_	_	
+
+#Text=Det är också en form av mobbning när dugliga och kunniga personer inte får några arbetsuppgifter därför att de i en helt annan roll agerat på ett sätt som inte fallit arbetsgivaren på läppen.
+12-1	559-562	Det	_	_	_	_	_	_	
+12-2	563-565	är	_	_	_	_	_	_	
+12-3	566-571	också	_	_	_	_	_	_	
+12-4	572-574	en	_	_	_	_	_	_	
+12-5	575-579	form	_	_	_	_	_	_	
+12-6	580-582	av	_	_	_	_	_	_	
+12-7	583-591	mobbning	_	Target	12-8[9]	false	2	_	
+12-8	592-595	när	*[9]	_	_	_	_	_	
+12-9	596-603	dugliga	*[9]	_	_	_	_	_	
+12-10	604-607	och	*[9]	_	_	_	_	_	
+12-11	608-615	kunniga	*[9]	_	_	_	_	_	
+12-12	616-624	personer	*[9]	_	_	_	_	_	
+12-13	625-629	inte	*[9]	_	_	_	_	_	
+12-14	630-633	får	*[9]	_	_	_	_	_	
+12-15	634-639	några	*[9]	_	_	_	_	_	
+12-16	640-655	arbetsuppgifter	*[9]	_	_	_	_	_	
+12-17	656-662	därför	*[9]	_	_	_	_	_	
+12-18	663-666	att	*[9]	_	_	_	_	_	
+12-19	667-669	de	*[9]	_	_	_	_	_	
+12-20	670-671	i	*[9]	_	_	_	_	_	
+12-21	672-674	en	*[9]	_	_	_	_	_	
+12-22	675-679	helt	*[9]	_	_	_	_	_	
+12-23	680-685	annan	*[9]	_	_	_	_	_	
+12-24	686-690	roll	*[9]	_	_	_	_	_	
+12-25	691-697	agerat	*[9]	_	_	_	_	_	
+12-26	698-700	på	*[9]	_	_	_	_	_	
+12-27	701-704	ett	*[9]	_	_	_	_	_	
+12-28	705-709	sätt	*[9]	_	_	_	_	_	
+12-29	710-713	som	*[9]	_	_	_	_	_	
+12-30	714-718	inte	*[9]	_	_	_	_	_	
+12-31	719-725	fallit	*[9]	_	_	_	_	_	
+12-32	726-739	arbetsgivaren	*[9]	_	_	_	_	_	
+12-33	740-742	på	*[9]	_	_	_	_	_	
+12-34	743-749	läppen	*[9]	_	_	_	_	_	
+12-35	749-750	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	752-753	#	_	_	_	_	_	_	
+13-2	753-754	P	_	_	_	_	_	_	
+13-3	755-758	IMM	_	_	_	_	_	_	
+13-4	758-759	.	_	_	_	_	_	_	
+
+#Text=Är UD:s nya personalpolitik öga för öga och tand för tand?
+14-1	761-763	Är	_	_	_	_	_	_	
+14-2	764-766	UD	_	_	_	_	_	_	
+14-3	766-767	:	_	_	_	_	_	_	
+14-4	767-768	s	_	_	_	_	_	_	
+14-5	769-772	nya	_	_	_	_	_	_	
+14-6	773-788	personalpolitik	_	_	_	_	_	_	
+14-7	789-792	öga	_	_	_	_	_	_	
+14-8	793-796	för	_	_	_	_	_	_	
+14-9	797-800	öga	_	_	_	_	_	_	
+14-10	801-804	och	_	_	_	_	_	_	
+14-11	805-809	tand	_	_	_	_	_	_	
+14-12	810-813	för	_	_	_	_	_	_	
+14-13	814-818	tand	_	_	_	_	_	_	
+14-14	818-819	?	_	_	_	_	_	_	
+
+#Text=Hur trovärdigt blir det när departementet i dagligt tal framhåller samförstånd och fred?.
+15-1	820-823	Hur	_	_	_	_	_	_	
+15-2	824-834	trovärdigt	_	_	_	_	_	_	
+15-3	835-839	blir	_	_	_	_	_	_	
+15-4	840-843	det	_	_	_	_	_	_	
+15-5	844-847	när	_	_	_	_	_	_	
+15-6	848-861	departementet	*	_	_	_	_	_	
+15-7	862-863	i	_	_	_	_	_	_	
+15-8	864-871	dagligt	_	_	_	_	_	_	
+15-9	872-875	tal	_	_	_	_	_	_	
+15-10	876-886	framhåller	_	Target;Source	15-11[10];15-6	false	4	_	
+15-11	887-898	samförstånd	*[10]	_	_	_	_	_	
+15-12	899-902	och	*[10]	_	_	_	_	_	
+15-13	903-907	fred	*[10]	_	_	_	_	_	
+15-14	907-908	?	_	_	_	_	_	_	
+15-15	908-909	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	911-912	#	_	_	_	_	_	_	
+16-2	912-913	P	_	_	_	_	_	_	
+16-3	914-917	IMM	_	_	_	_	_	_	
+16-4	917-918	.	_	_	_	_	_	_	
+
+#Text=Vad Lars Danielsson beträffar måste han rimligen fundera över om det är värt priset, att fortsätta vara tyst?
+17-1	920-923	Vad	_	_	_	_	_	_	
+17-2	924-928	Lars	*[11]	_	_	_	_	_	
+17-3	929-939	Danielsson	*[11]	_	_	_	_	_	
+17-4	940-949	beträffar	_	_	_	_	_	_	
+17-5	950-955	måste	_	Target	17-2[11]	false	3	_	
+17-6	956-959	han	_	_	_	_	_	_	
+17-7	960-968	rimligen	_	_[4]	_	false[4]	3[4]	17-5[0_4]	
+17-8	969-976	fundera	_	_[4]	_	false[4]	3[4]	_	
+17-9	977-981	över	_	_[4]	_	false[4]	3[4]	_	
+17-10	982-984	om	_	_	_	_	_	_	
+17-11	985-988	det	_	_	_	_	_	_	
+17-12	989-991	är	_	_	_	_	_	_	
+17-13	992-996	värt	_	_	_	_	_	_	
+17-14	997-1003	priset	_	_	_	_	_	_	
+17-15	1003-1004	,	_	_	_	_	_	_	
+17-16	1005-1008	att	_	_	_	_	_	_	
+17-17	1009-1018	fortsätta	_	_	_	_	_	_	
+17-18	1019-1023	vara	_	_	_	_	_	_	
+17-19	1024-1028	tyst	_	_	_	_	_	_	
+17-20	1028-1029	?	_	_	_	_	_	_	
+
+#Text=Han har förlorat sin trovärdighet och sin status.
+18-1	1030-1033	Han	*	_	_	_	_	_	
+18-2	1034-1037	har	_	_	_	_	_	_	
+18-3	1038-1046	förlorat	_	Target[5]	18-1	false[5]	2[5]	_	
+18-4	1047-1050	sin	_	Target[5]	18-1	false[5]	2[5]	_	
+18-5	1051-1063	trovärdighet	_	Target[5]	18-1	false[5]	2[5]	_	
+18-6	1064-1067	och	_	Target[5]	18-1	false[5]	2[5]	_	
+18-7	1068-1071	sin	_	Target[5]	18-1	false[5]	2[5]	_	
+18-8	1072-1078	status	_	Target[5]	18-1	false[5]	2[5]	_	
+18-9	1078-1079	.	_	_	_	_	_	_	
+
+#Text=Nu riskerar han också att förlora sitt jobb.
+19-1	1080-1082	Nu	_	_	_	_	_	_	
+19-2	1083-1091	riskerar	_	_	_	_	_	_	
+19-3	1092-1095	han	_	_	_	_	_	_	
+19-4	1096-1101	också	_	_	_	_	_	_	
+19-5	1102-1105	att	_	_	_	_	_	_	
+19-6	1106-1113	förlora	_	_	_	_	_	_	
+19-7	1114-1118	sitt	_	_	_	_	_	_	
+19-8	1119-1123	jobb	_	_	_	_	_	_	
+19-9	1123-1124	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1126-1127	#	_	_	_	_	_	_	
+20-2	1127-1128	P	_	_	_	_	_	_	
+20-3	1129-1132	IMM	_	_	_	_	_	_	
+20-4	1132-1133	.	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+21-1	1135-1140	Lotta	_	_	_	_	_	_	
+21-2	1141-1148	Gröning	_	_	_	_	_	_	
+21-3	1148-1149	.	_	_	_	_	_	_	

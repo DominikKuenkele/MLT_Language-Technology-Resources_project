@@ -1,0 +1,739 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Inte anständigt att fortsätta diskriminera.
+3-1	18-22	Inte	_	Target[1]	3-4[19]	false[1]	2[1]	
+3-2	23-33	anständigt	_	Target[1]	3-4[19]	false[1]	2[1]	
+3-3	34-37	att	_	_	_	_	_	
+3-4	38-47	fortsätta	*[19]	_	_	_	_	
+3-5	48-60	diskriminera	*[19]	_	_	_	_	
+3-6	60-61	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	63-64	#	_	_	_	_	_	
+4-2	64-65	P	_	_[2]	_	false[2]	4[2]	
+4-3	66-69	IMM	_	_[2]	_	false[2]	4[2]	
+4-4	69-70	.	_	_	_	_	_	
+
+#Text=Sverige är ett av de länder i EU som erbjuder sämst vård till papperslösa, en grupp som redan befinner sig i en mycket utsatt situation.
+5-1	72-79	Sverige	*	_	_	_	_	
+5-2	80-82	är	_	_	_	_	_	
+5-3	83-86	ett	_	_	_	_	_	
+5-4	87-89	av	_	_	_	_	_	
+5-5	90-92	de	_	_	_	_	_	
+5-6	93-99	länder	_	_	_	_	_	
+5-7	100-101	i	_	_	_	_	_	
+5-8	102-104	EU	_	_	_	_	_	
+5-9	105-108	som	_	_	_	_	_	
+5-10	109-117	erbjuder	_	Target[3]	5-1	false[3]	2[3]	
+5-11	118-123	sämst	_	Target[3]	5-1	false[3]	2[3]	
+5-12	124-128	vård	_	Target[3]	5-1	false[3]	2[3]	
+5-13	129-133	till	_	Target[3]	5-1	false[3]	2[3]	
+5-14	134-145	papperslösa	_	Target[3]	5-1	false[3]	2[3]	
+5-15	145-146	,	_	_	_	_	_	
+5-16	147-149	en	*[20]	_	_	_	_	
+5-17	150-155	grupp	*[20]	_	_	_	_	
+5-18	156-159	som	_	_	_	_	_	
+5-19	160-165	redan	_	_	_	_	_	
+5-20	166-174	befinner	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-21	175-178	sig	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-22	179-180	i	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-23	181-183	en	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-24	184-190	mycket	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-25	191-197	utsatt	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-26	198-207	situation	_	Target[4]	5-16[20]	false[4]	2[4]	
+5-27	207-208	.	_	_	_	_	_	
+
+#Text=När vi som medmänniskor och politiker ser glapp som detta i lagen måste vi ingripa.
+6-1	209-212	När	_	_	_	_	_	
+6-2	213-215	vi	_	_	_	_	_	
+6-3	216-219	som	_	_	_	_	_	
+6-4	220-232	medmänniskor	_	_	_	_	_	
+6-5	233-236	och	_	_	_	_	_	
+6-6	237-246	politiker	_	_	_	_	_	
+6-7	247-250	ser	_	_	_	_	_	
+6-8	251-256	glapp	_	Target	6-10	false	2	
+6-9	257-260	som	_	_	_	_	_	
+6-10	261-266	detta	*	_	_	_	_	
+6-11	267-268	i	_	_	_	_	_	
+6-12	269-274	lagen	_	_	_	_	_	
+6-13	275-280	måste	_	_	_	_	_	
+6-14	281-283	vi	_	_	_	_	_	
+6-15	284-291	ingripa	_	_	_	_	_	
+6-16	291-292	.	_	_	_	_	_	
+
+#Text=Utredningen SOU 2011:48 "Vård efter behov och på lika villkor – en mänsklig rättighet" som kom i maj 2011 innehåller förslag på hur Sverige kan erbjuda papperslösa vård, men den har ännu inte gått på remiss.
+7-1	293-304	Utredningen	_	_	_	_	_	
+7-2	305-308	SOU	_	_	_	_	_	
+7-3	309-313	2011	_	_	_	_	_	
+7-4	313-314	:	_	_	_	_	_	
+7-5	314-316	48	_	_	_	_	_	
+7-6	317-318	"	_	_	_	_	_	
+7-7	318-322	Vård	_	_	_	_	_	
+7-8	323-328	efter	_	_	_	_	_	
+7-9	329-334	behov	_	_	_	_	_	
+7-10	335-338	och	_	_	_	_	_	
+7-11	339-341	på	_	_	_	_	_	
+7-12	342-346	lika	_	_	_	_	_	
+7-13	347-354	villkor	_	_	_	_	_	
+7-14	355-356	–	_	_	_	_	_	
+7-15	357-359	en	_	_	_	_	_	
+7-16	360-368	mänsklig	_	_	_	_	_	
+7-17	369-378	rättighet	_	_	_	_	_	
+7-18	378-379	"	_	_	_	_	_	
+7-19	380-383	som	_	_	_	_	_	
+7-20	384-387	kom	_	_	_	_	_	
+7-21	388-389	i	_	_	_	_	_	
+7-22	390-393	maj	_	_	_	_	_	
+7-23	394-398	2011	_	_	_	_	_	
+7-24	399-409	innehåller	_	_	_	_	_	
+7-25	410-417	förslag	_	_	_	_	_	
+7-26	418-420	på	_	_	_	_	_	
+7-27	421-424	hur	_	_	_	_	_	
+7-28	425-432	Sverige	_	_	_	_	_	
+7-29	433-436	kan	_	_	_	_	_	
+7-30	437-444	erbjuda	_	_	_	_	_	
+7-31	445-456	papperslösa	_	_	_	_	_	
+7-32	457-461	vård	_	_	_	_	_	
+7-33	461-462	,	_	_	_	_	_	
+7-34	463-466	men	_	_	_	_	_	
+7-35	467-470	den	_	_	_	_	_	
+7-36	471-474	har	_	_	_	_	_	
+7-37	475-479	ännu	_	_	_	_	_	
+7-38	480-484	inte	_	_	_	_	_	
+7-39	485-489	gått	_	_	_	_	_	
+7-40	490-492	på	_	_	_	_	_	
+7-41	493-499	remiss	_	_	_	_	_	
+7-42	499-500	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	502-503	#	_	_	_	_	_	
+8-2	503-504	P	_	_	_	_	_	
+8-3	505-508	IMM	_	_	_	_	_	
+8-4	508-509	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	511-514	Det	_	_	_	_	_	
+9-2	515-518	här	_	_	_	_	_	
+9-3	519-521	är	_	_	_	_	_	
+9-4	522-524	en	_	_	_	_	_	
+9-5	525-539	argumenterande	_	_	_	_	_	
+9-6	540-544	text	_	_	_	_	_	
+9-7	545-548	med	_	_	_	_	_	
+9-8	549-554	syfte	_	_	_	_	_	
+9-9	555-558	att	_	_	_	_	_	
+9-10	559-566	påverka	_	_	_	_	_	
+9-11	566-567	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	568-577	Åsikterna	_	_	_	_	_	
+10-2	578-581	som	_	_	_	_	_	
+10-3	582-590	uttrycks	_	_	_	_	_	
+10-4	591-593	är	_	_	_	_	_	
+10-5	594-605	skribentens	_	_	_	_	_	
+10-6	606-610	egna	_	_	_	_	_	
+10-7	610-611	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	613-614	#	_	_	_	_	_	
+11-2	614-615	P	_	_[5]	_	false[5]	4[5]	
+11-3	616-619	IMM	_	_[5]	_	false[5]	4[5]	
+11-4	619-620	.	_	_	_	_	_	
+
+#Text=Sverige har förbundit sig att alla människor har lika rätt till sjukvård i internationella konventioner och mänskliga rättighetsdeklarationer.
+12-1	622-629	Sverige	_	_	_	_	_	
+12-2	630-633	har	_	_	_	_	_	
+12-3	634-643	förbundit	_	_	_	_	_	
+12-4	644-647	sig	_	_	_	_	_	
+12-5	648-651	att	_	_	_	_	_	
+12-6	652-656	alla	_	_	_	_	_	
+12-7	657-666	människor	_	_	_	_	_	
+12-8	667-670	har	_	_	_	_	_	
+12-9	671-675	lika	_	_	_	_	_	
+12-10	676-680	rätt	_	_	_	_	_	
+12-11	681-685	till	_	_	_	_	_	
+12-12	686-694	sjukvård	_	_	_	_	_	
+12-13	695-696	i	_	_	_	_	_	
+12-14	697-712	internationella	_	_	_	_	_	
+12-15	713-725	konventioner	_	_	_	_	_	
+12-16	726-729	och	_	_	_	_	_	
+12-17	730-739	mänskliga	_	_	_	_	_	
+12-18	740-763	rättighetsdeklarationer	_	_	_	_	_	
+12-19	763-764	.	_	_	_	_	_	
+
+#Text=FN har starkt kritiserat Sverige för att vi inte uppfyller våra förpliktelser.
+13-1	765-767	FN	*	_	_	_	_	
+13-2	768-771	har	_	_	_	_	_	
+13-3	772-778	starkt	_	Source;Target[6]	13-1;13-5	false[6]	2[6]	
+13-4	779-789	kritiserat	_	Source;Target[6]	13-1;13-5	false[6]	2[6]	
+13-5	790-797	Sverige	*	_	_	_	_	
+13-6	798-801	för	_	_	_	_	_	
+13-7	802-805	att	_	_	_	_	_	
+13-8	806-808	vi	_	_	_	_	_	
+13-9	809-813	inte	_	_	_	_	_	
+13-10	814-823	uppfyller	_	_	_	_	_	
+13-11	824-828	våra	_	_	_	_	_	
+13-12	829-842	förpliktelser	_	_	_	_	_	
+13-13	842-843	.	_	_	_	_	_	
+
+#Text=Även den statliga utredaren Erna Zelmin slog fast att det är en mänsklig rättighet att papperslösa och asylsökande ska få tillgång till vård.
+14-1	844-848	Även	_	_	_	_	_	
+14-2	849-852	den	_	_	_	_	_	
+14-3	853-861	statliga	_	_	_	_	_	
+14-4	862-871	utredaren	_	_	_	_	_	
+14-5	872-876	Erna	*[21]	_	_	_	_	
+14-6	877-883	Zelmin	*[21]	_	_	_	_	
+14-7	884-888	slog	_	_	_	_	_	
+14-8	889-893	fast	_	_	_	_	_	
+14-9	894-897	att	_	_	_	_	_	
+14-10	898-901	det	_	_	_	_	_	
+14-11	902-904	är	_	_	_	_	_	
+14-12	905-907	en	_	_	_	_	_	
+14-13	908-916	mänsklig	_	Target;Source[7]	14-16[22];14-5[21]	false[7]	5[7]	
+14-14	917-926	rättighet	_	Target;Source[7]	14-16[22];14-5[21]	false[7]	5[7]	
+14-15	927-930	att	_	_	_	_	_	
+14-16	931-942	papperslösa	*[22]	_	_	_	_	
+14-17	943-946	och	*[22]	_	_	_	_	
+14-18	947-958	asylsökande	*[22]	_	_	_	_	
+14-19	959-962	ska	*[22]	_	_	_	_	
+14-20	963-965	få	*[22]	_	_	_	_	
+14-21	966-974	tillgång	*[22]	_	_	_	_	
+14-22	975-979	till	*[22]	_	_	_	_	
+14-23	980-984	vård	*[22]	_	_	_	_	
+14-24	984-985	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	987-988	#	_	_	_	_	_	
+15-2	988-989	P	_	_[8]	_	false[8]	4[8]	
+15-3	990-993	IMM	_	_[8]	_	false[8]	4[8]	
+15-4	993-994	.	_	_	_	_	_	
+
+#Text=I svensk sjukvårdslag får papperslösa i dag endast vård för "akutfall och vård som inte kan anstå", det vill säga endast i sena och kostnadskrävande skeden av ett sjukdomstillstånd.
+16-1	996-997	I	_	_	_	_	_	
+16-2	998-1004	svensk	_	_	_	_	_	
+16-3	1005-1017	sjukvårdslag	_	_	_	_	_	
+16-4	1018-1021	får	_	_	_	_	_	
+16-5	1022-1033	papperslösa	_	_	_	_	_	
+16-6	1034-1035	i	_	_	_	_	_	
+16-7	1036-1039	dag	_	_	_	_	_	
+16-8	1040-1046	endast	_	_	_	_	_	
+16-9	1047-1051	vård	_	_	_	_	_	
+16-10	1052-1055	för	_	_	_	_	_	
+16-11	1056-1057	"	_	_	_	_	_	
+16-12	1057-1065	akutfall	_	_	_	_	_	
+16-13	1066-1069	och	_	_	_	_	_	
+16-14	1070-1074	vård	_	_	_	_	_	
+16-15	1075-1078	som	_	_	_	_	_	
+16-16	1079-1083	inte	_	_	_	_	_	
+16-17	1084-1087	kan	_	_	_	_	_	
+16-18	1088-1093	anstå	_	_	_	_	_	
+16-19	1093-1094	"	_	_	_	_	_	
+16-20	1094-1095	,	_	_	_	_	_	
+16-21	1096-1099	det	_	_	_	_	_	
+16-22	1100-1104	vill	_	_	_	_	_	
+16-23	1105-1109	säga	_	_	_	_	_	
+16-24	1110-1116	endast	_	_	_	_	_	
+16-25	1117-1118	i	_	_	_	_	_	
+16-26	1119-1123	sena	_	_	_	_	_	
+16-27	1124-1127	och	_	_	_	_	_	
+16-28	1128-1144	kostnadskrävande	_	_	_	_	_	
+16-29	1145-1151	skeden	_	_	_	_	_	
+16-30	1152-1154	av	_	_	_	_	_	
+16-31	1155-1158	ett	_	_	_	_	_	
+16-32	1159-1176	sjukdomstillstånd	_	_	_	_	_	
+16-33	1176-1177	.	_	_	_	_	_	
+
+#Text=Papperslösa får också, om de ens vågar besöka vården, betala hela notan själv.
+17-1	1178-1189	Papperslösa	*	_	_	_	_	
+17-2	1190-1193	får	_	_	_	_	_	
+17-3	1194-1199	också	_	_	_	_	_	
+17-4	1199-1200	,	_	_	_	_	_	
+17-5	1201-1203	om	_	_	_	_	_	
+17-6	1204-1206	de	_	_	_	_	_	
+17-7	1207-1210	ens	_	Target;Source[9]	17-9[23];17-1	false[9]	2[9]	
+17-8	1211-1216	vågar	_	Target;Source[9]	17-9[23];17-1	false[9]	2[9]	
+17-9	1217-1223	besöka	*[23]	_	_	_	_	
+17-10	1224-1230	vården	*[23]	_	_	_	_	
+17-11	1230-1231	,	_	_	_	_	_	
+17-12	1232-1238	betala	_	_	_	_	_	
+17-13	1239-1243	hela	_	_	_	_	_	
+17-14	1244-1249	notan	_	_	_	_	_	
+17-15	1250-1255	själv	_	_	_	_	_	
+17-16	1255-1256	.	_	_	_	_	_	
+
+#Text=De flesta papperslösa har överhuvudtaget inte en ekonomi att klara av att betala till exempel för en förlossning på 30000 kronor.
+18-1	1257-1259	De	_	_	_	_	_	
+18-2	1260-1266	flesta	_	_	_	_	_	
+18-3	1267-1278	papperslösa	_	_	_	_	_	
+18-4	1279-1282	har	_	_	_	_	_	
+18-5	1283-1297	överhuvudtaget	_	_	_	_	_	
+18-6	1298-1302	inte	_	_	_	_	_	
+18-7	1303-1305	en	_	_	_	_	_	
+18-8	1306-1313	ekonomi	_	_	_	_	_	
+18-9	1314-1317	att	_	_	_	_	_	
+18-10	1318-1323	klara	_	_	_	_	_	
+18-11	1324-1326	av	_	_	_	_	_	
+18-12	1327-1330	att	_	_	_	_	_	
+18-13	1331-1337	betala	_	_	_	_	_	
+18-14	1338-1342	till	_	_	_	_	_	
+18-15	1343-1350	exempel	_	_	_	_	_	
+18-16	1351-1354	för	_	_	_	_	_	
+18-17	1355-1357	en	_	_	_	_	_	
+18-18	1358-1369	förlossning	_	_	_	_	_	
+18-19	1370-1372	på	_	_	_	_	_	
+18-20	1373-1378	30000	_	_	_	_	_	
+18-21	1379-1385	kronor	_	_	_	_	_	
+18-22	1385-1386	.	_	_	_	_	_	
+
+#Text=Detta är inte anständigt och inte värdigt en rik välfärdsstat.
+19-1	1387-1392	Detta	*	_	_	_	_	
+19-2	1393-1395	är	_	Target[10]	19-1	false[10]	2[10]	
+19-3	1396-1400	inte	_	Target[10]	19-1	false[10]	2[10]	
+19-4	1401-1411	anständigt	_	Target[10]	19-1	false[10]	2[10]	
+19-5	1412-1415	och	_	_	_	_	_	
+19-6	1416-1420	inte	_	Target[11]	19-8[24]	false[11]	2[11]	
+19-7	1421-1428	värdigt	_	Target[11]	19-8[24]	false[11]	2[11]	
+19-8	1429-1431	en	*[24]	_	_	_	_	
+19-9	1432-1435	rik	*[24]	_	_	_	_	
+19-10	1436-1448	välfärdsstat	*[24]	_	_	_	_	
+19-11	1448-1449	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1451-1452	#	_	_	_	_	_	
+20-2	1452-1453	P	_	_[12]	_	false[12]	4[12]	
+20-3	1454-1457	IMM	_	_[12]	_	false[12]	4[12]	
+20-4	1457-1458	.	_	_	_	_	_	
+
+#Text=Men innan ett lagförslag kan läggas i frågan måste utredningenVård på lika villkor sändas på remiss.
+21-1	1460-1463	Men	_	_	_	_	_	
+21-2	1464-1469	innan	_	_	_	_	_	
+21-3	1470-1473	ett	_	_	_	_	_	
+21-4	1474-1484	lagförslag	_	_	_	_	_	
+21-5	1485-1488	kan	_	_	_	_	_	
+21-6	1489-1495	läggas	_	_	_	_	_	
+21-7	1496-1497	i	_	_	_	_	_	
+21-8	1498-1504	frågan	_	_	_	_	_	
+21-9	1505-1510	måste	_	_	_	_	_	
+21-10	1511-1526	utredningenVård	_	_	_	_	_	
+21-11	1527-1529	på	_	_	_	_	_	
+21-12	1530-1534	lika	_	_	_	_	_	
+21-13	1535-1542	villkor	_	_	_	_	_	
+21-14	1543-1549	sändas	_	_	_	_	_	
+21-15	1550-1552	på	_	_	_	_	_	
+21-16	1553-1559	remiss	_	_	_	_	_	
+21-17	1559-1560	.	_	_	_	_	_	
+
+#Text=Snart tio månader efter att utredningen lagts fram har så fortfarande inte skett.
+22-1	1561-1566	Snart	_	_	_	_	_	
+22-2	1567-1570	tio	_	_	_	_	_	
+22-3	1571-1578	månader	_	_	_	_	_	
+22-4	1579-1584	efter	_	_	_	_	_	
+22-5	1585-1588	att	_	_	_	_	_	
+22-6	1589-1600	utredningen	_	_	_	_	_	
+22-7	1601-1606	lagts	_	_	_	_	_	
+22-8	1607-1611	fram	_	_	_	_	_	
+22-9	1612-1615	har	_	_	_	_	_	
+22-10	1616-1618	så	_	_	_	_	_	
+22-11	1619-1630	fortfarande	_	_	_	_	_	
+22-12	1631-1635	inte	_	_	_	_	_	
+22-13	1636-1641	skett	_	_	_	_	_	
+22-14	1641-1642	.	_	_	_	_	_	
+
+#Text=Under tiden lider tusentals människor av den inhumana diskriminering som begränsningarna i vården innebär.
+23-1	1643-1648	Under	_	_	_	_	_	
+23-2	1649-1654	tiden	_	_	_	_	_	
+23-3	1655-1660	lider	_	_	_	_	_	
+23-4	1661-1670	tusentals	_	_	_	_	_	
+23-5	1671-1680	människor	_	_	_	_	_	
+23-6	1681-1683	av	_	_	_	_	_	
+23-7	1684-1687	den	_	_	_	_	_	
+23-8	1688-1696	inhumana	_	Target[13]	23-11[25]	false[13]	1[13]	
+23-9	1697-1711	diskriminering	_	Target[13]	23-11[25]	false[13]	1[13]	
+23-10	1712-1715	som	_	_	_	_	_	
+23-11	1716-1731	begränsningarna	*[25]	_	_	_	_	
+23-12	1732-1733	i	*[25]	_	_	_	_	
+23-13	1734-1740	vården	*[25]	_	_	_	_	
+23-14	1741-1748	innebär	_	_	_	_	_	
+23-15	1748-1749	.	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1751-1752	#	_	_	_	_	_	
+24-2	1752-1753	P	_	_	_	_	_	
+24-3	1754-1757	IMM	_	_	_	_	_	
+24-4	1757-1758	.	_	_	_	_	_	
+
+#Text=I november 2011 startade därför vårduppropet som kräver att regeringen snarast skickar utredningen "Vård på lika villkor" på remiss.
+25-1	1760-1761	I	_	_	_	_	_	
+25-2	1762-1770	november	_	_	_	_	_	
+25-3	1771-1775	2011	_	_	_	_	_	
+25-4	1776-1784	startade	_	_	_	_	_	
+25-5	1785-1791	därför	_	_	_	_	_	
+25-6	1792-1804	vårduppropet	*	_	_	_	_	
+25-7	1805-1808	som	_	_	_	_	_	
+25-8	1809-1815	kräver	_	Source;Target	25-6;25-10[26]	false	2	
+25-9	1816-1819	att	_	_	_	_	_	
+25-10	1820-1830	regeringen	*[26]	_	_	_	_	
+25-11	1831-1838	snarast	*[26]	_	_	_	_	
+25-12	1839-1846	skickar	*[26]	_	_	_	_	
+25-13	1847-1858	utredningen	*[26]	_	_	_	_	
+25-14	1859-1860	"	*[26]	_	_	_	_	
+25-15	1860-1864	Vård	*[26]	_	_	_	_	
+25-16	1865-1867	på	*[26]	_	_	_	_	
+25-17	1868-1872	lika	*[26]	_	_	_	_	
+25-18	1873-1880	villkor	*[26]	_	_	_	_	
+25-19	1880-1881	"	*[26]	_	_	_	_	
+25-20	1882-1884	på	*[26]	_	_	_	_	
+25-21	1885-1891	remiss	*[26]	_	_	_	_	
+25-22	1891-1892	.	_	_	_	_	_	
+
+#Text=Cirka 10000 privatpersoner samt drygt 50 organisationer, som bland andra Vårdförbundet, Röda korset, TCO och Rädda barnen, ställer sig bakom kravet.
+26-1	1893-1898	Cirka	_	_	_	_	_	
+26-2	1899-1904	10000	_	_	_	_	_	
+26-3	1905-1919	privatpersoner	_	_	_	_	_	
+26-4	1920-1924	samt	_	_	_	_	_	
+26-5	1925-1930	drygt	_	_	_	_	_	
+26-6	1931-1933	50	_	_	_	_	_	
+26-7	1934-1948	organisationer	_	_	_	_	_	
+26-8	1948-1949	,	_	_	_	_	_	
+26-9	1950-1953	som	_	_	_	_	_	
+26-10	1954-1959	bland	_	_	_	_	_	
+26-11	1960-1965	andra	_	_	_	_	_	
+26-12	1966-1979	Vårdförbundet	_	_	_	_	_	
+26-13	1979-1980	,	_	_	_	_	_	
+26-14	1981-1985	Röda	_	_	_	_	_	
+26-15	1986-1992	korset	_	_	_	_	_	
+26-16	1992-1993	,	_	_	_	_	_	
+26-17	1994-1997	TCO	_	_	_	_	_	
+26-18	1998-2001	och	_	_	_	_	_	
+26-19	2002-2007	Rädda	_	_	_	_	_	
+26-20	2008-2014	barnen	_	_	_	_	_	
+26-21	2014-2015	,	_	_	_	_	_	
+26-22	2016-2023	ställer	_	_	_	_	_	
+26-23	2024-2027	sig	_	_	_	_	_	
+26-24	2028-2033	bakom	_	_	_	_	_	
+26-25	2034-2040	kravet	_	_	_	_	_	
+26-26	2040-2041	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2043-2044	#	_	_	_	_	_	
+27-2	2044-2045	P	_	_[14]	_	false[14]	4[14]	
+27-3	2046-2049	IMM	_	_[14]	_	false[14]	4[14]	
+27-4	2049-2050	.	_	_	_	_	_	
+
+#Text=Även de cirka 30 000 papperslösa barn och vuxna som lever i Sverige ska behandlas som människor med samma rättigheter som oss andra.
+28-1	2052-2056	Även	_	_	_	_	_	
+28-2	2057-2059	de	_	_	_	_	_	
+28-3	2060-2065	cirka	_	_	_	_	_	
+28-4	2066-2068	30	_	_	_	_	_	
+28-5	2069-2072	000	_	_	_	_	_	
+28-6	2073-2084	papperslösa	_	_	_	_	_	
+28-7	2085-2089	barn	_	_	_	_	_	
+28-8	2090-2093	och	_	_	_	_	_	
+28-9	2094-2099	vuxna	_	_	_	_	_	
+28-10	2100-2103	som	_	_	_	_	_	
+28-11	2104-2109	lever	_	_	_	_	_	
+28-12	2110-2111	i	_	_	_	_	_	
+28-13	2112-2119	Sverige	_	_	_	_	_	
+28-14	2120-2123	ska	_	_	_	_	_	
+28-15	2124-2133	behandlas	_	_	_	_	_	
+28-16	2134-2137	som	_	_	_	_	_	
+28-17	2138-2147	människor	_	_	_	_	_	
+28-18	2148-2151	med	_	_	_	_	_	
+28-19	2152-2157	samma	_	_	_	_	_	
+28-20	2158-2169	rättigheter	_	_	_	_	_	
+28-21	2170-2173	som	_	_	_	_	_	
+28-22	2174-2177	oss	_	_	_	_	_	
+28-23	2178-2183	andra	_	_	_	_	_	
+28-24	2183-2184	.	_	_	_	_	_	
+
+#Text=Det är dags att sluta diskriminera och börja vårda alla människor lika oavsett migrationspolitisk status – även i Sverige!.
+29-1	2185-2188	Det	_	_	_	_	_	
+29-2	2189-2191	är	_	_	_	_	_	
+29-3	2192-2196	dags	_	_	_	_	_	
+29-4	2197-2200	att	_	_	_	_	_	
+29-5	2201-2206	sluta	_	_[15]	_	false[15]	2[15]	
+29-6	2207-2219	diskriminera	_	_[15]	_	false[15]	2[15]	
+29-7	2220-2223	och	_	_	_	_	_	
+29-8	2224-2229	börja	_	_	_	_	_	
+29-9	2230-2235	vårda	_	_	_	_	_	
+29-10	2236-2240	alla	_	_	_	_	_	
+29-11	2241-2250	människor	_	_	_	_	_	
+29-12	2251-2255	lika	_	_	_	_	_	
+29-13	2256-2263	oavsett	_	_	_	_	_	
+29-14	2264-2282	migrationspolitisk	_	_	_	_	_	
+29-15	2283-2289	status	_	_	_	_	_	
+29-16	2290-2291	–	_	_	_	_	_	
+29-17	2292-2296	även	_	_	_	_	_	
+29-18	2297-2298	i	_	_	_	_	_	
+29-19	2299-2306	Sverige	_	_	_	_	_	
+29-20	2306-2307	!	_	_	_	_	_	
+29-21	2307-2308	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2310-2311	#	_	_	_	_	_	
+30-2	2311-2312	P	_	_[16]	_	false[16]	4[16]	
+30-3	2313-2316	IMM	_	_[16]	_	false[16]	4[16]	
+30-4	2316-2317	.	_	_	_	_	_	
+
+#Text=Den demokratiska processen i Sverige måste ha sin gång så att alla i Sverige kan åtnjuta sin mänskliga rättighet till vård.
+31-1	2319-2322	Den	_	_	_	_	_	
+31-2	2323-2335	demokratiska	_	_	_	_	_	
+31-3	2336-2345	processen	_	_	_	_	_	
+31-4	2346-2347	i	_	_	_	_	_	
+31-5	2348-2355	Sverige	_	_	_	_	_	
+31-6	2356-2361	måste	_	_	_	_	_	
+31-7	2362-2364	ha	_	_	_	_	_	
+31-8	2365-2368	sin	_	_	_	_	_	
+31-9	2369-2373	gång	_	_	_	_	_	
+31-10	2374-2376	så	_	_	_	_	_	
+31-11	2377-2380	att	_	_	_	_	_	
+31-12	2381-2385	alla	*[27]	_	_	_	_	
+31-13	2386-2387	i	*[27]	_	_	_	_	
+31-14	2388-2395	Sverige	*[27]	_	_	_	_	
+31-15	2396-2399	kan	_	_	_	_	_	
+31-16	2400-2407	åtnjuta	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-17	2408-2411	sin	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-18	2412-2421	mänskliga	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-19	2422-2431	rättighet	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-20	2432-2436	till	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-21	2437-2441	vård	_	Target[17]	31-12[27]	false[17]	4[17]	
+31-22	2441-2442	.	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2444-2445	#	_	_	_	_	_	
+32-2	2445-2446	P	_	_	_	_	_	
+32-3	2447-2450	IMM	_	_	_	_	_	
+32-4	2450-2451	.	_	_	_	_	_	
+
+#Text=Vi uppmanar därför regeringen att se till så att denna skamfläck i Sverige förpassas till historien!.
+33-1	2453-2455	Vi	_	_	_	_	_	
+33-2	2456-2464	uppmanar	_	_	_	_	_	
+33-3	2465-2471	därför	_	_	_	_	_	
+33-4	2472-2482	regeringen	_	_	_	_	_	
+33-5	2483-2486	att	_	_	_	_	_	
+33-6	2487-2489	se	_	_	_	_	_	
+33-7	2490-2494	till	_	_	_	_	_	
+33-8	2495-2497	så	_	_	_	_	_	
+33-9	2498-2501	att	_	_	_	_	_	
+33-10	2502-2507	denna	_	Target[18]	33-13	false[18]	2[18]	
+33-11	2508-2517	skamfläck	_	Target[18]	33-13	false[18]	2[18]	
+33-12	2518-2519	i	_	_	_	_	_	
+33-13	2520-2527	Sverige	*	_	_	_	_	
+33-14	2528-2537	förpassas	_	_	_	_	_	
+33-15	2538-2542	till	_	_	_	_	_	
+33-16	2543-2552	historien	_	_	_	_	_	
+33-17	2552-2553	!	_	_	_	_	_	
+33-18	2553-2554	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2556-2557	#	_	_	_	_	_	
+34-2	2557-2558	P	_	_	_	_	_	
+34-3	2559-2562	IMM	_	_	_	_	_	
+34-4	2562-2563	.	_	_	_	_	_	
+
+#Text=BJÖRN LINDGREN.
+35-1	2565-2570	BJÖRN	_	_	_	_	_	
+35-2	2571-2579	LINDGREN	_	_	_	_	_	
+35-3	2579-2580	.	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2582-2583	#	_	_	_	_	_	
+36-2	2583-2584	P	_	_	_	_	_	
+36-3	2585-2588	IMM	_	_	_	_	_	
+36-4	2588-2589	.	_	_	_	_	_	
+
+#Text=språkrör Grön Ungdom.
+37-1	2591-2599	språkrör	_	_	_	_	_	
+37-2	2600-2604	Grön	_	_	_	_	_	
+37-3	2605-2611	Ungdom	_	_	_	_	_	
+37-4	2611-2612	.	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2614-2615	#	_	_	_	_	_	
+38-2	2615-2616	P	_	_	_	_	_	
+38-3	2617-2620	IMM	_	_	_	_	_	
+38-4	2620-2621	.	_	_	_	_	_	
+
+#Text=ADAM CWEJMAN.
+39-1	2623-2627	ADAM	_	_	_	_	_	
+39-2	2628-2635	CWEJMAN	_	_	_	_	_	
+39-3	2635-2636	.	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2638-2639	#	_	_	_	_	_	
+40-2	2639-2640	P	_	_	_	_	_	
+40-3	2641-2644	IMM	_	_	_	_	_	
+40-4	2644-2645	.	_	_	_	_	_	
+
+#Text=förbundsordförande Liberala ungdomsförbundet.
+41-1	2647-2665	förbundsordförande	_	_	_	_	_	
+41-2	2666-2674	Liberala	_	_	_	_	_	
+41-3	2675-2691	ungdomsförbundet	_	_	_	_	_	
+41-4	2691-2692	.	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	2694-2695	#	_	_	_	_	_	
+42-2	2695-2696	P	_	_	_	_	_	
+42-3	2697-2700	IMM	_	_	_	_	_	
+42-4	2700-2701	.	_	_	_	_	_	
+
+#Text=STEFAN LINDBORG.
+43-1	2703-2709	STEFAN	_	_	_	_	_	
+43-2	2710-2718	LINDBORG	_	_	_	_	_	
+43-3	2718-2719	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	2721-2722	#	_	_	_	_	_	
+44-2	2722-2723	P	_	_	_	_	_	
+44-3	2724-2727	IMM	_	_	_	_	_	
+44-4	2727-2728	.	_	_	_	_	_	
+
+#Text=förbundsordförande Ung Vänster.
+45-1	2730-2748	förbundsordförande	_	_	_	_	_	
+45-2	2749-2752	Ung	_	_	_	_	_	
+45-3	2753-2760	Vänster	_	_	_	_	_	
+45-4	2760-2761	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	2763-2764	#	_	_	_	_	_	
+46-2	2764-2765	P	_	_	_	_	_	
+46-3	2766-2769	IMM	_	_	_	_	_	
+46-4	2769-2770	.	_	_	_	_	_	
+
+#Text=GABRIEL WIKSTRÖM.
+47-1	2772-2779	GABRIEL	_	_	_	_	_	
+47-2	2780-2788	WIKSTRÖM	_	_	_	_	_	
+47-3	2788-2789	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	2791-2792	#	_	_	_	_	_	
+48-2	2792-2793	P	_	_	_	_	_	
+48-3	2794-2797	IMM	_	_	_	_	_	
+48-4	2797-2798	.	_	_	_	_	_	
+
+#Text=förbundsordförande SSU.
+49-1	2800-2818	förbundsordförande	_	_	_	_	_	
+49-2	2819-2822	SSU	_	_	_	_	_	
+49-3	2822-2823	.	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	2825-2826	#	_	_	_	_	_	
+50-2	2826-2827	P	_	_	_	_	_	
+50-3	2828-2831	IMM	_	_	_	_	_	
+50-4	2831-2832	.	_	_	_	_	_	
+
+#Text=HANNA WAGENIUS.
+51-1	2834-2839	HANNA	_	_	_	_	_	
+51-2	2840-2848	WAGENIUS	_	_	_	_	_	
+51-3	2848-2849	.	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	2851-2852	#	_	_	_	_	_	
+52-2	2852-2853	P	_	_	_	_	_	
+52-3	2854-2857	IMM	_	_	_	_	_	
+52-4	2857-2858	.	_	_	_	_	_	
+
+#Text=förbundsordförande CUF.
+53-1	2860-2878	förbundsordförande	_	_	_	_	_	
+53-2	2879-2882	CUF	_	_	_	_	_	
+53-3	2882-2883	.	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	2885-2886	#	_	_	_	_	_	
+54-2	2886-2887	P	_	_	_	_	_	
+54-3	2888-2891	IMM	_	_	_	_	_	
+54-4	2891-2892	.	_	_	_	_	_	
+
+#Text=På grund av alltför många kommentarer som inte följer de regler som SvD har, är kommenteringen nu avstängd på den här artikeln.
+55-1	2894-2896	På	_	_	_	_	_	
+55-2	2897-2902	grund	_	_	_	_	_	
+55-3	2903-2905	av	_	_	_	_	_	
+55-4	2906-2913	alltför	_	_	_	_	_	
+55-5	2914-2919	många	_	_	_	_	_	
+55-6	2920-2931	kommentarer	_	_	_	_	_	
+55-7	2932-2935	som	_	_	_	_	_	
+55-8	2936-2940	inte	_	_	_	_	_	
+55-9	2941-2947	följer	_	_	_	_	_	
+55-10	2948-2950	de	_	_	_	_	_	
+55-11	2951-2957	regler	_	_	_	_	_	
+55-12	2958-2961	som	_	_	_	_	_	
+55-13	2962-2965	SvD	_	_	_	_	_	
+55-14	2966-2969	har	_	_	_	_	_	
+55-15	2969-2970	,	_	_	_	_	_	
+55-16	2971-2973	är	_	_	_	_	_	
+55-17	2974-2988	kommenteringen	_	_	_	_	_	
+55-18	2989-2991	nu	_	_	_	_	_	
+55-19	2992-3000	avstängd	_	_	_	_	_	
+55-20	3001-3003	på	_	_	_	_	_	
+55-21	3004-3007	den	_	_	_	_	_	
+55-22	3008-3011	här	_	_	_	_	_	
+55-23	3012-3020	artikeln	_	_	_	_	_	
+55-24	3020-3021	.	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	3023-3024	#	_	_	_	_	_	
+56-2	3024-3025	P	_	_	_	_	_	
+56-3	3026-3029	IMM	_	_	_	_	_	
+56-4	3029-3030	.	_	_	_	_	_	
+
+#Text=/redaktionen, Brännpunkt.
+57-1	3032-3033	/	_	_	_	_	_	
+57-2	3033-3044	redaktionen	_	_	_	_	_	
+57-3	3044-3045	,	_	_	_	_	_	
+57-4	3046-3056	Brännpunkt	_	_	_	_	_	
+57-5	3056-3057	.	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3059-3060	#	_	_	_	_	_	
+58-2	3060-3061	P	_	_	_	_	_	
+58-3	3062-3065	IMM	_	_	_	_	_	
+58-4	3065-3066	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+59-1	3068-3076	Redaktör	_	_	_	_	_	
+59-2	3076-3077	:	_	_	_	_	_	
+59-3	3078-3084	Carina	_	_	_	_	_	
+59-4	3085-3093	Stensson	_	_	_	_	_	
+59-5	3093-3094	,	_	_	_	_	_	
+59-6	3095-3105	Biträdande	_	_	_	_	_	
+59-7	3106-3114	redaktör	_	_	_	_	_	
+59-8	3114-3115	:	_	_	_	_	_	
+59-9	3116-3121	Björn	_	_	_	_	_	
+59-10	3122-3128	Jorner	_	_	_	_	_	
+59-11	3128-3129	,	_	_	_	_	_	
+59-12	3130-3134	Mejl	_	_	_	_	_	
+59-13	3134-3135	:	_	_	_	_	_	
+59-14	3136-3142	debatt	_	_	_	_	_	
+59-15	3142-3143	@	_	_	_	_	_	
+59-16	3143-3149	svd.se	_	_	_	_	_	
+59-17	3149-3150	,	_	_	_	_	_	
+59-18	3151-3164	Telefonnummer	_	_	_	_	_	
+59-19	3164-3165	:	_	_	_	_	_	
+59-20	3166-3168	08	_	_	_	_	_	
+59-21	3168-3169	-	_	_	_	_	_	
+59-22	3169-3175	135149	_	_	_	_	_	
+59-23	3175-3176	,	_	_	_	_	_	
+59-24	3177-3184	Twitter	_	_	_	_	_	
+59-25	3184-3185	:	_	_	_	_	_	
+59-26	3186-3187	@	_	_	_	_	_	
+59-27	3187-3196	SvDDebatt	_	_	_	_	_	
+59-28	3196-3197	,	_	_	_	_	_	
+59-29	3198-3206	Facebook	_	_	_	_	_	
+59-30	3206-3207	:	_	_	_	_	_	
+59-31	3208-3211	SvD	_	_	_	_	_	
+59-32	3212-3218	Debatt	_	_	_	_	_	
+59-33	3218-3219	.	_	_	_	_	_	

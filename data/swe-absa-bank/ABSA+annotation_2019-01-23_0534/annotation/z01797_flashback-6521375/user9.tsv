@@ -1,0 +1,191 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=skillnad på främlingsfientlig och rasist?
+3-1	18-26	skillnad	_	_	_	_	_	_	_	
+3-2	27-29	på	_	_	_	_	_	_	_	
+3-3	30-47	främlingsfientlig	*	Source;Target	3-6;3-3	false	2	_	_	
+3-4	48-51	och	_	_	_	_	_	_	_	
+3-5	52-58	rasist	_	_	_	_	_	_	_	
+3-6	58-59	?	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	61-62	#	_	_	_	_	_	_	_	
+4-2	62-63	P	_	_	_	_	_	_	_	
+4-3	64-67	IMM	_	_	_	_	_	_	_	
+4-4	67-68	.	_	_	_	_	_	_	_	
+
+#Text="rasism" och "rasister" hör man nästan aldrig numera i medierna, inte sen VAMs dagar, istället är det "främlingsfientlig" eller det exakt likadana "invandrarfientlig" som gäller.
+5-1	70-71	"	_	_	_	_	_	_	_	
+5-2	71-77	rasism	_	_	_	_	_	_	_	
+5-3	77-78	"	_	_	_	_	_	_	_	
+5-4	79-82	och	_	_	_	_	_	_	_	
+5-5	83-84	"	_	_	_	_	_	_	_	
+5-6	84-92	rasister	_	_	_	_	_	_	_	
+5-7	92-93	"	_	_	_	_	_	_	_	
+5-8	94-97	hör	_	_	_	_	_	_	_	
+5-9	98-101	man	_	_	_	_	_	_	_	
+5-10	102-108	nästan	_	_	_	_	_	_	_	
+5-11	109-115	aldrig	_	_	_	_	_	_	_	
+5-12	116-122	numera	_	_	_	_	_	_	_	
+5-13	123-124	i	_	_	_	_	_	_	_	
+5-14	125-133	medierna	_	_	_	_	_	_	_	
+5-15	133-134	,	_	_	_	_	_	_	_	
+5-16	135-139	inte	_	_	_	_	_	_	_	
+5-17	140-143	sen	_	_	_	_	_	_	_	
+5-18	144-148	VAMs	_	_	_	_	_	_	_	
+5-19	149-154	dagar	_	_	_	_	_	_	_	
+5-20	154-155	,	_	_	_	_	_	_	_	
+5-21	156-164	istället	_	_	_	_	_	_	_	
+5-22	165-167	är	_	_	_	_	_	_	_	
+5-23	168-171	det	_	_	_	_	_	_	_	
+5-24	172-173	"	_	_	_	_	_	_	_	
+5-25	173-190	främlingsfientlig	*	Source;Target	5-36;5-25	false	2	_	_	
+5-26	190-191	"	_	_	_	_	_	_	_	
+5-27	192-197	eller	_	_	_	_	_	_	_	
+5-28	198-201	det	_	_	_	_	_	_	_	
+5-29	202-207	exakt	_	_	_	_	_	_	_	
+5-30	208-216	likadana	_	_	_	_	_	_	_	
+5-31	217-218	"	_	_	_	_	_	_	_	
+5-32	218-235	invandrarfientlig	*	Target	5-32	false	2	_	_	
+5-33	235-236	"	_	_	_	_	_	_	_	
+5-34	237-240	som	_	_	_	_	_	_	_	
+5-35	241-247	gäller	_	_	_	_	_	_	_	
+5-36	247-248	.	*	_	_	false	2	_	_	
+
+#Text=Varför då?
+6-1	249-255	Varför	_	_	_	_	_	_	_	
+6-2	256-258	då	_	_	_	_	_	_	_	
+6-3	258-259	?	_	_	_	_	_	_	_	
+
+#Text=Vad är skillnad mellan främlingsfientlig och rasist?
+7-1	260-263	Vad	_	_	_	_	_	_	_	
+7-2	264-266	är	_	_	_	_	_	_	_	
+7-3	267-275	skillnad	_	_	_	_	_	_	_	
+7-4	276-282	mellan	_	_	_	_	_	_	_	
+7-5	283-300	främlingsfientlig	*	Target	7-5	false	2	_	_	
+7-6	301-304	och	_	_	_	_	_	_	_	
+7-7	305-311	rasist	_	_	_	_	_	_	_	
+7-8	311-312	?	_	_	_	false	2	_	_	
+
+#Text=Om jag t.ex. har svårt för mellanöstingar (naturligtvis känner till jag många undantag!)
+8-1	313-315	Om	_	_	_	_	_	_	_	
+8-2	316-319	jag	*[5]|*[6]	_	_	_	_	_	_	
+8-3	320-324	t.ex	_	_	_	_	_	_	_	
+8-4	324-325	.	_	_	_	_	_	_	_	
+8-5	326-329	har	_	Target;Source[1]	8-8;8-2[5]	false[1]	2[1]	_	_	
+8-6	330-335	svårt	_	Target;Source[1]	8-8;8-2[5]	false[1]	2[1]	_	_	
+8-7	336-339	för	_	Target;Source[1]	8-8;8-2[5]	false[1]	2[1]	_	_	
+8-8	340-354	mellanöstingar	*	_	_	_	_	_	_	
+8-9	355-356	(	_	_	_	_	_	_	_	
+8-10	356-368	naturligtvis	_	_	_	_	_	_	_	
+8-11	369-375	känner	_	_	_	_	_	_	_	
+8-12	376-380	till	_	_	_	_	_	_	_	
+8-13	381-384	jag	_	_	_	_	_	_	_	
+8-14	385-390	många	_	_	_	_	_	_	_	
+8-15	391-399	undantag	_	_	_	_	_	_	_	
+8-16	399-400	!	_	_	_	_	_	_	_	
+8-17	400-401	)	_	_	_	_	_	_	_	
+
+#Text=, men inte har samma ovilja mot japaner eller mexikaner, är jag då inte rasist?
+9-1	401-402	,	_	_	_	_	_	_	_	
+9-2	403-406	men	_	_	_	_	_	_	_	
+9-3	407-411	inte	_	Target;Source[2]	9-8[7];8-2[6]	false[2]	3[2]	_	_	
+9-4	412-415	har	_	Target;Source[2]	9-8[7];8-2[6]	false[2]	3[2]	_	_	
+9-5	416-421	samma	_	Target;Source[2]	9-8[7];8-2[6]	false[2]	3[2]	_	_	
+9-6	422-428	ovilja	_	Target;Source[2]	9-8[7];8-2[6]	false[2]	3[2]	_	_	
+9-7	429-432	mot	_	Target;Source[2]	9-8[7];8-2[6]	false[2]	3[2]	_	_	
+9-8	433-440	japaner	*[7]	_	_	_	_	_	_	
+9-9	441-446	eller	*[7]	_	_	_	_	_	_	
+9-10	447-456	mexikaner	*[7]	_	_	_	_	_	_	
+9-11	456-457	,	_	_	_	_	_	_	_	
+9-12	458-460	är	_	_	_	_	_	_	_	
+9-13	461-464	jag	_	_	_	_	_	_	_	
+9-14	465-467	då	_	_	_	_	_	_	_	
+9-15	468-472	inte	_	_	_	_	_	_	_	
+9-16	473-479	rasist	_	_	_	_	_	_	_	
+9-17	479-480	?	_	_	_	_	_	_	_	
+
+#Text=Jag är ju rasist mot araber men inte mot latinos?
+10-1	481-484	Jag	_	_	_	_	_	_	_	
+10-2	485-487	är	_	_	_	_	_	_	_	
+10-3	488-490	ju	_	_	_	_	_	_	_	
+10-4	491-497	rasist	_	_	_	_	_	_	_	
+10-5	498-501	mot	_	_	_	_	_	_	_	
+10-6	502-508	araber	_	_	_	_	_	_	_	
+10-7	509-512	men	_	_	_	_	_	_	_	
+10-8	513-517	inte	_	_	_	_	_	_	_	
+10-9	518-521	mot	_	_	_	_	_	_	_	
+10-10	522-529	latinos	_	_	_	_	_	_	_	
+10-11	529-530	?	_	_	_	_	_	_	_	
+
+#Text=Det samma gäller alla mina kompisar.
+11-1	531-534	Det	_	_	_	_	_	_	_	
+11-2	535-540	samma	_	_	_	_	_	_	_	
+11-3	541-547	gäller	_	_	_	_	_	_	_	
+11-4	548-552	alla	_	_	_	_	_	_	_	
+11-5	553-557	mina	_	_	_	_	_	_	_	
+11-6	558-566	kompisar	_	_	_	_	_	_	_	
+11-7	566-567	.	_	_	_	_	_	_	_	
+
+#Text=Jag har aldrig träffat nån som är fientlig eller rasist mot kineser eller asiater, en främlingsfientlig är väl enligt defnitionen fientlig mot.
+12-1	568-571	Jag	_	_	_	_	_	_	_	
+12-2	572-575	har	_	_	_	_	_	_	_	
+12-3	576-582	aldrig	_	_	_	_	_	_	_	
+12-4	583-590	träffat	_	_	_	_	_	_	_	
+12-5	591-594	nån	*	_	_	_	_	_	12-6	
+12-6	595-598	som	*	_	_	_	_	_	_	
+12-7	599-601	är	_	Target;Source[3]	12-12[8];12-6	false[3]	2[3]	_	_	
+12-8	602-610	fientlig	_	Target;Source[3]	12-12[8];12-6	false[3]	2[3]	_	_	
+12-9	611-616	eller	_	Target;Source[3]	12-12[8];12-6	false[3]	2[3]	_	_	
+12-10	617-623	rasist	_	Target;Source[3]	12-12[8];12-6	false[3]	2[3]	_	_	
+12-11	624-627	mot	_	Target;Source[3]	12-12[8];12-6	false[3]	2[3]	_	_	
+12-12	628-635	kineser	*[8]	_	_	_	_	_	_	
+12-13	636-641	eller	*[8]	_	_	_	_	_	_	
+12-14	642-649	asiater	*[8]	_	_	_	_	_	_	
+12-15	649-650	,	_	_	_	_	_	_	_	
+12-16	651-653	en	*[9]|*[10]	_	_	_	_	_	_	
+12-17	654-671	främlingsfientlig	*[9]|*[10]|*[11]	Source;Target	12-16[10];12-17[11]	false	2	_	_	
+12-18	672-674	är	_	_	_	false	2	_	_	
+12-19	675-678	väl	_	_	_	_	_	_	_	
+12-20	679-685	enligt	_	_	_	_	_	_	_	
+12-21	686-697	defnitionen	_	_	_	_	_	_	_	
+12-22	698-706	fientlig	_	Target;Source[4]	14-1;12-16[9]	false[4]	2[4]	12-18[0_4]	_	
+12-23	707-710	mot	_	Target;Source[4]	14-1;12-16[9]	false[4]	2[4]	_	_	
+12-24	710-711	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	713-714	#	_	_	_	_	_	_	_	
+13-2	714-715	P	_	_	_	_	_	_	_	
+13-3	716-719	IMM	_	_	_	_	_	_	_	
+13-4	719-720	.	_	_	_	_	_	_	_	
+
+#Text=främlingar, oavsett om dom är från Grekland eller Hawaii?.
+14-1	722-732	främlingar	*	_	_	_	_	_	_	
+14-2	732-733	,	_	_	_	_	_	_	_	
+14-3	734-741	oavsett	_	_	_	_	_	_	_	
+14-4	742-744	om	_	_	_	_	_	_	_	
+14-5	745-748	dom	_	_	_	_	_	_	_	
+14-6	749-751	är	_	_	_	_	_	_	_	
+14-7	752-756	från	_	_	_	_	_	_	_	
+14-8	757-765	Grekland	_	_	_	_	_	_	_	
+14-9	766-771	eller	_	_	_	_	_	_	_	
+14-10	772-778	Hawaii	_	_	_	_	_	_	_	
+14-11	778-779	?	_	_	_	_	_	_	_	
+14-12	779-780	.	_	_	_	_	_	_	_	

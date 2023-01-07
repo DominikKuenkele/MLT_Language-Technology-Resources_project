@@ -1,0 +1,98 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	1	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Cecilia Malmström vill kulturberika Estland och Polen.
+3-1	18-25	Cecilia	_	_	_	_	_	
+3-2	26-35	Malmström	_	_	_	_	_	
+3-3	36-40	vill	_	_	_	_	_	
+3-4	41-53	kulturberika	*	Target	3-4	true	4	
+3-5	54-61	Estland	_	_	_	_	_	
+3-6	62-65	och	_	_	_	_	_	
+3-7	66-71	Polen	_	_	_	_	_	
+3-8	71-72	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	74-75	#	_	_	_	_	_	
+4-2	75-76	P	_	_	_	_	_	
+4-3	77-80	IMM	_	_	_	false	1	
+4-4	80-81	.	_	_	_	_	_	
+
+#Text=Polackerna, estländarna och övriga östeuropéer är ännu ovetande(?)
+5-1	83-93	Polackerna	*[2]	_	_	_	_	
+5-2	93-94	,	*[2]	_	_	_	_	
+5-3	95-106	estländarna	*[2]	_	_	_	_	
+5-4	107-110	och	*[2]	_	_	_	_	
+5-5	111-117	övriga	*[2]	_	_	_	_	
+5-6	118-129	östeuropéer	*[2]	_	_	_	_	
+5-7	130-132	är	_	_	_	_	_	
+5-8	133-137	ännu	_	_	_	_	_	
+5-9	138-146	ovetande	_	_	_	_	_	
+5-10	146-147	(	_	_	_	_	_	
+5-11	147-148	?	_	_	_	_	_	
+5-12	148-149	)	_	_	_	_	_	
+
+#Text=om vad Cecilia Malmström har för planer för dem.
+6-1	150-152	om	_	_	_	_	_	
+6-2	153-156	vad	_	_	_	_	_	
+6-3	157-164	Cecilia	_	_	_	_	_	
+6-4	165-174	Malmström	_	_	_	_	_	
+6-5	175-178	har	_	_	_	_	_	
+6-6	179-182	för	_	_	_	_	_	
+6-7	183-189	planer	_	_	_	_	_	
+6-8	190-193	för	_	_	_	_	_	
+6-9	194-197	dem	_	_	_	_	_	
+6-10	197-198	.	_	_	_	_	_	
+
+#Text=Stackars satar.
+7-1	199-207	Stackars	_	Target[1]	5-1[2]	false[1]	4[1]	
+7-2	208-213	satar	_	Target[1]	5-1[2]	false[1]	4[1]	
+7-3	213-214	.	_	_	_	_	_	
+
+#Text=Hur tror ni asylpaketet tas emot i östeuropa?
+8-1	215-218	Hur	_	_	_	_	_	
+8-2	219-223	tror	_	_	_	_	_	
+8-3	224-226	ni	_	_	_	_	_	
+8-4	227-238	asylpaketet	_	_	_	_	_	
+8-5	239-242	tas	_	_	_	_	_	
+8-6	243-247	emot	_	_	_	_	_	
+8-7	248-249	i	_	_	_	_	_	
+8-8	250-259	östeuropa	_	_	_	_	_	
+8-9	259-260	?	_	_	_	_	_	
+
+#Text=Kommer deras media ge hela sanningen?
+9-1	261-267	Kommer	_	_	_	_	_	
+9-2	268-273	deras	_	_	_	_	_	
+9-3	274-279	media	_	_	_	_	_	
+9-4	280-282	ge	_	_	_	_	_	
+9-5	283-287	hela	_	_	_	_	_	
+9-6	288-297	sanningen	_	_	_	_	_	
+9-7	297-298	?	_	_	_	_	_	
+
+#Text=Det är ju fruktansvärt att det finns så få mörkhåriga i Tallinn.
+10-1	299-302	Det	_	_	_	_	_	
+10-2	303-305	är	_	_	_	_	_	
+10-3	306-308	ju	_	_	_	_	_	
+10-4	309-321	fruktansvärt	_	Target	10-5[3]	false	1	
+10-5	322-325	att	*[3]	_	_	_	_	
+10-6	326-329	det	*[3]	_	_	_	_	
+10-7	330-335	finns	*[3]	_	_	_	_	
+10-8	336-338	så	*[3]	_	_	_	_	
+10-9	339-341	få	*[3]	_	_	_	_	
+10-10	342-352	mörkhåriga	*[3]	_	_	_	_	
+10-11	353-354	i	*[3]	_	_	_	_	
+10-12	355-362	Tallinn	*[3]	_	_	_	_	
+10-13	362-363	.	_	_	_	_	_	

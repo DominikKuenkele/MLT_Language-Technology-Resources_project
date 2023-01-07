@@ -1,0 +1,1130 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Väljarnas oro för invandring måste tas på allvar.
+3-1	18-27	Väljarnas	*	_	_	_	_	_	_	
+3-2	28-31	oro	_	Source;Target[1]	3-1;3-4	false[1]	2[1]	_	_	
+3-3	32-35	för	_	Source;Target[1]	3-1;3-4	false[1]	2[1]	_	_	
+3-4	36-46	invandring	*	_	_	_	_	_	_	
+3-5	47-52	måste	_	_	_	_	_	_	_	
+3-6	53-56	tas	_	_	_	_	_	_	_	
+3-7	57-59	på	_	_	_	_	_	_	_	
+3-8	60-66	allvar	_	_	_	_	_	_	_	
+3-9	66-67	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	69-70	#	_	_	_	_	_	_	_	
+4-2	70-71	P	_	_	_	_	_	_	_	
+4-3	72-75	IMM	_	_	_	_	_	_	_	
+4-4	75-76	.	_	_	_	_	_	_	_	
+
+#Text=Synen på invandring har på kort tid blivit mer negativ.
+5-1	78-83	Synen	_	_[2]	_	false[2]	2[2]	_	_	
+5-2	84-86	på	_	_[2]	_	false[2]	2[2]	_	_	
+5-3	87-97	invandring	*[28]|*[29]	_	_	_	_	_	6-8[0_29]	
+5-4	98-101	har	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	5-1[2_3]	_	
+5-5	102-104	på	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-6	105-109	kort	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-7	110-113	tid	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-8	114-120	blivit	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-9	121-124	mer	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-10	125-132	negativ	_	Source;Target[3]	5-11;5-3[28]	false[3]	2[3]	_	_	
+5-11	132-133	.	*	_	_	_	_	_	_	
+
+#Text=Hela 58 procent av svenskarna anser att det är för stor.
+6-1	134-138	Hela	*[30]	_	_	_	_	_	_	
+6-2	139-141	58	*[30]	_	_	_	_	_	_	
+6-3	142-149	procent	*[30]	_	_	_	_	_	_	
+6-4	150-152	av	*[30]	_	_	_	_	_	_	
+6-5	153-163	svenskarna	*[30]	_	_	_	_	_	_	
+6-6	164-169	anser	_	_	_	false	2	_	_	
+6-7	170-173	att	_	_	_	_	_	_	_	
+6-8	174-177	det	*	_	_	_	_	_	_	
+6-9	178-180	är	_	Target;Source[4]	6-8;6-1[30]	false[4]	2[4]	6-6[0_4]	_	
+6-10	181-184	för	_	Target;Source[4]	6-8;6-1[30]	false[4]	2[4]	_	_	
+6-11	185-189	stor	_	Target;Source[4]	6-8;6-1[30]	false[4]	2[4]	_	_	
+6-12	189-190	.	_	_	_	_	_	_	_	
+
+#Text=Ändå väljer både S och M att blunda för denna förskjutning i opinionen, skriver Mattias Holmström, Den Nya Välfärden.
+7-1	191-195	Ändå	_	_	_	_	_	_	_	
+7-2	196-202	väljer	_	_	_	_	_	_	_	
+7-3	203-207	både	_	_	_	_	_	_	_	
+7-4	208-209	S	_	_	_	_	_	_	_	
+7-5	210-213	och	_	_	_	_	_	_	_	
+7-6	214-215	M	_	_	_	_	_	_	_	
+7-7	216-219	att	_	_	_	_	_	_	_	
+7-8	220-226	blunda	_	_	_	_	_	_	_	
+7-9	227-230	för	_	_	_	_	_	_	_	
+7-10	231-236	denna	_	_	_	_	_	_	_	
+7-11	237-249	förskjutning	_	_	_	_	_	_	_	
+7-12	250-251	i	_	_	_	_	_	_	_	
+7-13	252-261	opinionen	_	_	_	_	_	_	_	
+7-14	261-262	,	_	_	_	_	_	_	_	
+7-15	263-270	skriver	_	_	_	_	_	_	_	
+7-16	271-278	Mattias	_	_	_	_	_	_	_	
+7-17	279-288	Holmström	_	_	_	_	_	_	_	
+7-18	288-289	,	_	_	_	_	_	_	_	
+7-19	290-293	Den	_	_	_	_	_	_	_	
+7-20	294-297	Nya	_	_	_	_	_	_	_	
+7-21	298-307	Välfärden	_	_	_	_	_	_	_	
+7-22	307-308	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	310-311	#	_	_	_	_	_	_	_	
+8-2	311-312	P	_	_	_	_	_	_	_	
+8-3	313-316	IMM	_	_	_	_	_	_	_	
+8-4	316-317	.	_	_	_	_	_	_	_	
+
+#Text=Att skjuta upp analysen till efter nästa val är ingen vidare smart strategi.
+9-1	319-322	Att	*[31]	_	_	_	_	_	_	
+9-2	323-329	skjuta	*[31]	_	_	_	_	_	_	
+9-3	330-333	upp	*[31]	_	_	_	_	_	_	
+9-4	334-342	analysen	*[31]	_	_	_	_	_	_	
+9-5	343-347	till	*[31]	_	_	_	_	_	_	
+9-6	348-353	efter	*[31]	_	_	_	_	_	_	
+9-7	354-359	nästa	*[31]	_	_	_	_	_	_	
+9-8	360-363	val	*[31]	_	_	_	_	_	_	
+9-9	364-366	är	_	Target[5]	9-1[31]	false[5]	2[5]	_	_	
+9-10	367-372	ingen	_	Target[5]|Target[6]	9-1[31]|9-13	false[5]|false[6]	2[5]|2[6]	_	_	
+9-11	373-379	vidare	_	Target[5]|Target[6]	9-1[31]|9-13	false[5]|false[6]	2[5]|2[6]	_	_	
+9-12	380-385	smart	_	Target[5]|Target[6]	9-1[31]|9-13	false[5]|false[6]	2[5]|2[6]	_	_	
+9-13	386-394	strategi	*	Target[5]	9-1[31]	false[5]	2[5]	_	_	
+9-14	394-395	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	397-398	#	_	_	_	_	_	_	_	
+10-2	398-399	P	_	_	_	_	_	_	_	
+10-3	400-403	IMM	_	_	_	_	_	_	_	
+10-4	403-404	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	406-409	Det	_	_	_	_	_	_	_	
+11-2	410-413	här	_	_	_	_	_	_	_	
+11-3	414-416	är	_	_	_	_	_	_	_	
+11-4	417-419	en	_	_	_	_	_	_	_	
+11-5	420-434	argumenterande	_	_	_	_	_	_	_	
+11-6	435-439	text	_	_	_	_	_	_	_	
+11-7	440-443	med	_	_	_	_	_	_	_	
+11-8	444-449	syfte	_	_	_	_	_	_	_	
+11-9	450-453	att	_	_	_	_	_	_	_	
+11-10	454-461	påverka	_	_	_	_	_	_	_	
+11-11	461-462	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	463-472	Åsikterna	_	_	_	_	_	_	_	
+12-2	473-476	som	_	_	_	_	_	_	_	
+12-3	477-485	uttrycks	_	_	_	_	_	_	_	
+12-4	486-488	är	_	_	_	_	_	_	_	
+12-5	489-500	skribentens	_	_	_	_	_	_	_	
+12-6	501-505	egna	_	_	_	_	_	_	_	
+12-7	505-506	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	508-509	#	_	_	_	_	_	_	_	
+13-2	509-510	P	_	_	_	_	_	_	_	
+13-3	511-514	IMM	_	_	_	_	_	_	_	
+13-4	514-515	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har av tradition varit ett tolerant land vad gäller synen på invandring.
+14-1	517-524	Sverige	*	_	_	_	_	_	_	
+14-2	525-528	har	_	Source;Target	14-1;14-13	false	4	14-5[7_0]	_	
+14-3	529-531	av	_	_	_	_	_	_	_	
+14-4	532-541	tradition	_	_	_	_	_	_	_	
+14-5	542-547	varit	_	_[7]	_	false[7]	4[7]	_	_	
+14-6	548-551	ett	_	_[7]	_	false[7]	4[7]	_	_	
+14-7	552-560	tolerant	_	_[7]	_	false[7]	4[7]	_	_	
+14-8	561-565	land	_	_[7]	_	false[7]	4[7]	_	_	
+14-9	566-569	vad	_	_[7]	_	false[7]	4[7]	_	_	
+14-10	570-576	gäller	_	_[7]	_	false[7]	4[7]	_	_	
+14-11	577-582	synen	_	_[7]	_	false[7]	4[7]	_	_	
+14-12	583-585	på	_	_[7]	_	false[7]	4[7]	_	_	
+14-13	586-596	invandring	*	_	_	_	_	_	_	
+14-14	596-597	.	_	_	_	_	_	_	_	
+
+#Text=Detta slogs inte minst fast av Göteborgs universitets SOM-undersökning som genomfördes under tidig höst 2014 och presenterades i april 2015, vilken inte visade på någon markant ökning av den invandringskritiska opinionen.
+15-1	598-603	Detta	_	_	_	_	_	_	_	
+15-2	604-609	slogs	_	_	_	_	_	_	_	
+15-3	610-614	inte	_	_	_	_	_	_	_	
+15-4	615-620	minst	_	_	_	_	_	_	_	
+15-5	621-625	fast	_	_	_	_	_	_	_	
+15-6	626-628	av	_	_	_	_	_	_	_	
+15-7	629-638	Göteborgs	_	_	_	_	_	_	_	
+15-8	639-651	universitets	_	_	_	_	_	_	_	
+15-9	652-668	SOM-undersökning	_	_	_	_	_	_	_	
+15-10	669-672	som	_	_	_	_	_	_	_	
+15-11	673-684	genomfördes	_	_	_	_	_	_	_	
+15-12	685-690	under	_	_	_	_	_	_	_	
+15-13	691-696	tidig	_	_	_	_	_	_	_	
+15-14	697-701	höst	_	_	_	_	_	_	_	
+15-15	702-706	2014	_	_	_	_	_	_	_	
+15-16	707-710	och	_	_	_	_	_	_	_	
+15-17	711-724	presenterades	_	_	_	_	_	_	_	
+15-18	725-726	i	_	_	_	_	_	_	_	
+15-19	727-732	april	_	_	_	_	_	_	_	
+15-20	733-737	2015	_	_	_	_	_	_	_	
+15-21	737-738	,	_	_	_	_	_	_	_	
+15-22	739-745	vilken	_	_	_	_	_	_	_	
+15-23	746-750	inte	_	_	_	_	_	_	_	
+15-24	751-757	visade	_	_	_	_	_	_	_	
+15-25	758-760	på	_	_	_	_	_	_	_	
+15-26	761-766	någon	_	_	_	_	_	_	_	
+15-27	767-774	markant	_	_	_	_	_	_	_	
+15-28	775-781	ökning	_	_	_	_	_	_	_	
+15-29	782-784	av	_	_	_	_	_	_	_	
+15-30	785-788	den	_	_	_	_	_	_	_	
+15-31	789-808	invandringskritiska	*	Target;Source	15-31;15-32	false	2	_	_	
+15-32	809-818	opinionen	*	_	_	_	_	_	_	
+15-33	818-819	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	821-822	#	_	_	_	_	_	_	_	
+16-2	822-823	P	_	_	_	_	_	_	_	
+16-3	824-827	IMM	_	_	_	_	_	_	_	
+16-4	827-828	.	_	_	_	_	_	_	_	
+
+#Text=Trots detta var Sverigedemokraterna det enda parti som ansågs vara en vinnare i det senaste riksdagsvalet.
+17-1	830-835	Trots	_	_	_	_	_	_	_	
+17-2	836-841	detta	_	_	_	_	_	_	_	
+17-3	842-845	var	_	_	_	_	_	_	_	
+17-4	846-865	Sverigedemokraterna	_	_	_	_	_	_	_	
+17-5	866-869	det	_	_	_	_	_	_	_	
+17-6	870-874	enda	_	_	_	_	_	_	_	
+17-7	875-880	parti	_	_	_	_	_	_	_	
+17-8	881-884	som	_	_	_	_	_	_	_	
+17-9	885-891	ansågs	_	_	_	_	_	_	_	
+17-10	892-896	vara	_	_	_	_	_	_	_	
+17-11	897-899	en	_	_	_	_	_	_	_	
+17-12	900-907	vinnare	_	_	_	_	_	_	_	
+17-13	908-909	i	_	_	_	_	_	_	_	
+17-14	910-913	det	_	_	_	_	_	_	_	
+17-15	914-921	senaste	_	_	_	_	_	_	_	
+17-16	922-935	riksdagsvalet	_	_	_	_	_	_	_	
+17-17	935-936	.	_	_	_	_	_	_	_	
+
+#Text=Sedan valet har utvecklingen gått åt samma håll – SD är i princip det enda politiska alternativ som alltjämt växer sig starkare.
+18-1	937-942	Sedan	_	_	_	_	_	_	_	
+18-2	943-948	valet	_	_	_	_	_	_	_	
+18-3	949-952	har	_	_	_	_	_	_	_	
+18-4	953-965	utvecklingen	_	_	_	_	_	_	_	
+18-5	966-970	gått	_	_	_	_	_	_	_	
+18-6	971-973	åt	_	_	_	_	_	_	_	
+18-7	974-979	samma	_	_	_	_	_	_	_	
+18-8	980-984	håll	_	_	_	_	_	_	_	
+18-9	985-986	–	_	_	_	_	_	_	_	
+18-10	987-989	SD	_	_	_	_	_	_	_	
+18-11	990-992	är	_	_	_	_	_	_	_	
+18-12	993-994	i	_	_	_	_	_	_	_	
+18-13	995-1002	princip	_	_	_	_	_	_	_	
+18-14	1003-1006	det	_	_	_	_	_	_	_	
+18-15	1007-1011	enda	_	_	_	_	_	_	_	
+18-16	1012-1021	politiska	_	_	_	_	_	_	_	
+18-17	1022-1032	alternativ	_	_	_	_	_	_	_	
+18-18	1033-1036	som	_	_	_	_	_	_	_	
+18-19	1037-1045	alltjämt	_	_	_	_	_	_	_	
+18-20	1046-1051	växer	_	_	_	_	_	_	_	
+18-21	1052-1055	sig	_	_	_	_	_	_	_	
+18-22	1056-1064	starkare	_	_	_	_	_	_	_	
+18-23	1064-1065	.	_	_	_	_	_	_	_	
+
+#Text=De övriga partierna verkar dessutom bry sig föga om att deras väljarstöd minskar till följd av SD:s framgångar.
+19-1	1066-1068	De	_	_	_	_	_	_	_	
+19-2	1069-1075	övriga	_	_	_	_	_	_	_	
+19-3	1076-1085	partierna	_	_	_	_	_	_	_	
+19-4	1086-1092	verkar	_	_	_	_	_	_	_	
+19-5	1093-1101	dessutom	_	_	_	_	_	_	_	
+19-6	1102-1105	bry	_	_	_	_	_	_	_	
+19-7	1106-1109	sig	_	_	_	_	_	_	_	
+19-8	1110-1114	föga	_	_	_	_	_	_	_	
+19-9	1115-1117	om	_	_	_	_	_	_	_	
+19-10	1118-1121	att	_	_	_	_	_	_	_	
+19-11	1122-1127	deras	_	_	_	_	_	_	_	
+19-12	1128-1138	väljarstöd	_	_	_	_	_	_	_	
+19-13	1139-1146	minskar	_	_	_	_	_	_	_	
+19-14	1147-1151	till	_	_	_	_	_	_	_	
+19-15	1152-1157	följd	_	_	_	_	_	_	_	
+19-16	1158-1160	av	_	_	_	_	_	_	_	
+19-17	1161-1163	SD	_	_	_	_	_	_	_	
+19-18	1163-1164	:	_	_	_	_	_	_	_	
+19-19	1164-1165	s	_	_	_	_	_	_	_	
+19-20	1166-1176	framgångar	_	_	_	_	_	_	_	
+19-21	1176-1177	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1179-1180	#	_	_	_	_	_	_	_	
+20-2	1180-1181	P	_	_	_	_	_	_	_	
+20-3	1182-1185	IMM	_	_	_	_	_	_	_	
+20-4	1185-1186	.	_	_	_	_	_	_	_	
+
+#Text=Tanke- och handlingssmedjan Den Nya Välfärden har tillsammans med Demoskop undersökt hur synen på invandringen till Sverige har förändrats mellan åren 2010-2015.
+21-1	1188-1193	Tanke	_	_	_	_	_	_	_	
+21-2	1193-1194	-	_	_	_	_	_	_	_	
+21-3	1195-1198	och	_	_	_	_	_	_	_	
+21-4	1199-1215	handlingssmedjan	_	_	_	_	_	_	_	
+21-5	1216-1219	Den	_	_	_	_	_	_	_	
+21-6	1220-1223	Nya	_	_	_	_	_	_	_	
+21-7	1224-1233	Välfärden	_	_	_	_	_	_	_	
+21-8	1234-1237	har	_	_	_	_	_	_	_	
+21-9	1238-1249	tillsammans	_	_	_	_	_	_	_	
+21-10	1250-1253	med	_	_	_	_	_	_	_	
+21-11	1254-1262	Demoskop	_	_	_	_	_	_	_	
+21-12	1263-1272	undersökt	_	_	_	_	_	_	_	
+21-13	1273-1276	hur	_	_	_	_	_	_	_	
+21-14	1277-1282	synen	_	_	_	_	_	_	_	
+21-15	1283-1285	på	_	_	_	_	_	_	_	
+21-16	1286-1298	invandringen	_	_	_	_	_	_	_	
+21-17	1299-1303	till	_	_	_	_	_	_	_	
+21-18	1304-1311	Sverige	_	_	_	_	_	_	_	
+21-19	1312-1315	har	_	_	_	_	_	_	_	
+21-20	1316-1326	förändrats	_	_	_	_	_	_	_	
+21-21	1327-1333	mellan	_	_	_	_	_	_	_	
+21-22	1334-1338	åren	_	_	_	_	_	_	_	
+21-23	1339-1343	2010	_	_	_	_	_	_	_	
+21-24	1343-1344	-	_	_	_	_	_	_	_	
+21-25	1344-1348	2015	_	_	_	_	_	_	_	
+21-26	1348-1349	.	_	_	_	_	_	_	_	
+
+#Text=Vår undersökning påvisar att medborgarnas syn på invandringen på kort tid har blivit alltmer negativ.
+22-1	1350-1353	Vår	_	_	_	_	_	_	_	
+22-2	1354-1366	undersökning	_	_	_	_	_	_	_	
+22-3	1367-1374	påvisar	_	_	_	_	_	_	_	
+22-4	1375-1378	att	_	_	_	_	_	_	_	
+22-5	1379-1391	medborgarnas	*	_	_	_	_	_	_	
+22-6	1392-1395	syn	_	_[8]	_	false[8]	2[8]	_	_	
+22-7	1396-1398	på	_	_[8]	_	false[8]	2[8]	_	_	
+22-8	1399-1411	invandringen	*	_	_	_	_	_	_	
+22-9	1412-1414	på	_	_	_	_	_	_	_	
+22-10	1415-1419	kort	_	_	_	_	_	_	_	
+22-11	1420-1423	tid	_	_	_	_	_	_	_	
+22-12	1424-1427	har	_	Source;Target[9]	22-5;22-8	false[9]	2[9]	22-6[8_9]	_	
+22-13	1428-1434	blivit	_	Source;Target[9]	22-5;22-8	false[9]	2[9]	_	_	
+22-14	1435-1442	alltmer	_	Source;Target[9]	22-5;22-8	false[9]	2[9]	_	_	
+22-15	1443-1450	negativ	_	Source;Target[9]	22-5;22-8	false[9]	2[9]	_	_	
+22-16	1450-1451	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1453-1454	#	_	_	_	_	_	_	_	
+23-2	1454-1455	P	_	_	_	_	_	_	_	
+23-3	1456-1459	IMM	_	_	_	_	_	_	_	
+23-4	1459-1460	.	_	_	_	_	_	_	_	
+
+#Text=Till skillnad från SOM-institutets mätning genomfördes Demoskops undersökning i år, närmare bestämt månadsskiftet januari-februari 2015.
+24-1	1462-1466	Till	_	_	_	_	_	_	_	
+24-2	1467-1475	skillnad	_	_	_	_	_	_	_	
+24-3	1476-1480	från	_	_	_	_	_	_	_	
+24-4	1481-1496	SOM-institutets	_	_	_	_	_	_	_	
+24-5	1497-1504	mätning	_	_	_	_	_	_	_	
+24-6	1505-1516	genomfördes	_	_	_	_	_	_	_	
+24-7	1517-1526	Demoskops	_	_	_	_	_	_	_	
+24-8	1527-1539	undersökning	_	_	_	_	_	_	_	
+24-9	1540-1541	i	_	_	_	_	_	_	_	
+24-10	1542-1544	år	_	_	_	_	_	_	_	
+24-11	1544-1545	,	_	_	_	_	_	_	_	
+24-12	1546-1553	närmare	_	_	_	_	_	_	_	
+24-13	1554-1561	bestämt	_	_	_	_	_	_	_	
+24-14	1562-1575	månadsskiftet	_	_	_	_	_	_	_	
+24-15	1576-1592	januari-februari	_	_	_	_	_	_	_	
+24-16	1593-1597	2015	_	_	_	_	_	_	_	
+24-17	1597-1598	.	_	_	_	_	_	_	_	
+
+#Text=SOM-institutets genomfördes under tidig höst 2014.
+25-1	1599-1614	SOM-institutets	_	_	_	_	_	_	_	
+25-2	1615-1626	genomfördes	_	_	_	_	_	_	_	
+25-3	1627-1632	under	_	_	_	_	_	_	_	
+25-4	1633-1638	tidig	_	_	_	_	_	_	_	
+25-5	1639-1643	höst	_	_	_	_	_	_	_	
+25-6	1644-1648	2014	_	_	_	_	_	_	_	
+25-7	1648-1649	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1651-1652	#	_	_	_	_	_	_	_	
+26-2	1652-1653	P	_	_	_	_	_	_	_	
+26-3	1654-1657	IMM	_	_	_	_	_	_	_	
+26-4	1657-1658	.	_	_	_	_	_	_	_	
+
+#Text=Enligt vår mätning anser hela 58 procent av svenskarna att invandringen är för stor, endast 8 procent att den är för liten.
+27-1	1660-1666	Enligt	_	_	_	_	_	_	_	
+27-2	1667-1670	vår	_	_	_	_	_	_	_	
+27-3	1671-1678	mätning	_	_	_	_	_	_	_	
+27-4	1679-1684	anser	_	_	_	_	_	_	_	
+27-5	1685-1689	hela	*[32]	_	_	_	_	_	_	
+27-6	1690-1692	58	*[32]	_	_	_	_	_	_	
+27-7	1693-1700	procent	*[32]	_	_	_	_	_	_	
+27-8	1701-1703	av	*[32]	_	_	_	_	_	_	
+27-9	1704-1714	svenskarna	*[32]	_	_	_	_	_	_	
+27-10	1715-1718	att	_	_	_	_	_	_	_	
+27-11	1719-1731	invandringen	*[33]|*[34]	_	_	_	_	_	28-8[0_34]	
+27-12	1732-1734	är	_	Target;Source[10]	27-11[33];27-5[32]	false[10]	2[10]	_	_	
+27-13	1735-1738	för	_	Target;Source[10]	27-11[33];27-5[32]	false[10]	2[10]	_	_	
+27-14	1739-1743	stor	_	Target;Source[10]	27-11[33];27-5[32]	false[10]	2[10]	_	_	
+27-15	1743-1744	,	_	_	_	_	_	_	_	
+27-16	1745-1751	endast	_	_	_	_	_	_	_	
+27-17	1752-1753	8	_	_	_	_	_	_	_	
+27-18	1754-1761	procent	_	_	_	_	_	_	_	
+27-19	1762-1765	att	_	_	_	_	_	_	_	
+27-20	1766-1769	den	_	_	_	_	_	_	_	
+27-21	1770-1772	är	_	_	_	_	_	_	_	
+27-22	1773-1776	för	_	_	_	_	_	_	_	
+27-23	1777-1782	liten	_	_	_	_	_	_	_	
+27-24	1782-1783	.	_	_	_	_	_	_	_	
+
+#Text=Bland regeringspartiernas väljare anser 40 procent att den är för stor, bland alliansväljarna utgör gruppen hela 60 procent.
+28-1	1784-1789	Bland	*[35]	_	_	_	_	_	_	
+28-2	1790-1809	regeringspartiernas	*[35]	_	_	_	_	_	_	
+28-3	1810-1817	väljare	*[35]	_	_	_	_	_	_	
+28-4	1818-1823	anser	*[35]	_	_	_	_	_	_	
+28-5	1824-1826	40	*[35]	_	_	_	_	_	_	
+28-6	1827-1834	procent	*[35]	_	_	_	_	_	_	
+28-7	1835-1838	att	_	_	_	_	_	_	_	
+28-8	1839-1842	den	*	_	_	_	_	_	_	
+28-9	1843-1845	är	_	Source;Target[11]	28-1[35];28-8	false[11]	2[11]	_	_	
+28-10	1846-1849	för	_	Source;Target[11]	28-1[35];28-8	false[11]	2[11]	_	_	
+28-11	1850-1854	stor	_	Source;Target[11]	28-1[35];28-8	false[11]	2[11]	_	_	
+28-12	1854-1855	,	_	_	_	_	_	_	_	
+28-13	1856-1861	bland	_	_	_	_	_	_	_	
+28-14	1862-1877	alliansväljarna	_	_	_	_	_	_	_	
+28-15	1878-1883	utgör	_	_	_	_	_	_	_	
+28-16	1884-1891	gruppen	_	_	_	_	_	_	_	
+28-17	1892-1896	hela	_	_	_	_	_	_	_	
+28-18	1897-1899	60	_	_	_	_	_	_	_	
+28-19	1900-1907	procent	_	_	_	_	_	_	_	
+28-20	1907-1908	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1910-1911	#	_	_	_	_	_	_	_	
+29-2	1911-1912	P	_	_	_	_	_	_	_	
+29-3	1913-1916	IMM	_	_	_	_	_	_	_	
+29-4	1916-1917	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+30-1	1919-1932	Skräddarsydda	_	_	_	_	_	_	_	
+30-2	1933-1939	kurser	_	_	_	_	_	_	_	
+30-3	1940-1941	i	_	_	_	_	_	_	_	
+30-4	1942-1947	ämnen	_	_	_	_	_	_	_	
+30-5	1948-1951	som	_	_	_	_	_	_	_	
+30-6	1952-1963	intresserar	_	_	_	_	_	_	_	
+30-7	1964-1967	och	_	_	_	_	_	_	_	
+30-8	1968-1977	engagerar	_	_	_	_	_	_	_	
+30-9	1978-1982	både	_	_	_	_	_	_	_	
+30-10	1983-1988	kropp	_	_	_	_	_	_	_	
+30-11	1989-1992	och	_	_	_	_	_	_	_	
+30-12	1993-1997	själ	_	_	_	_	_	_	_	
+30-13	1997-1998	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2000-2001	#	_	_	_	_	_	_	_	
+31-2	2001-2002	P	_	_	_	_	_	_	_	
+31-3	2003-2006	IMM	_	_	_	_	_	_	_	
+31-4	2006-2007	.	_	_	_	_	_	_	_	
+
+#Text=Det är tydligt att opinionen har förändrats markant sedan i höstas.
+32-1	2009-2012	Det	_	_	_	_	_	_	_	
+32-2	2013-2015	är	_	_	_	_	_	_	_	
+32-3	2016-2023	tydligt	_	_	_	_	_	_	_	
+32-4	2024-2027	att	_	_	_	_	_	_	_	
+32-5	2028-2037	opinionen	_	_	_	_	_	_	_	
+32-6	2038-2041	har	_	_	_	_	_	_	_	
+32-7	2042-2052	förändrats	_	_	_	_	_	_	_	
+32-8	2053-2060	markant	_	_	_	_	_	_	_	
+32-9	2061-2066	sedan	_	_	_	_	_	_	_	
+32-10	2067-2068	i	_	_	_	_	_	_	_	
+32-11	2069-2075	höstas	_	_	_	_	_	_	_	
+32-12	2075-2076	.	_	_	_	_	_	_	_	
+
+#Text=Decemberöverenskommelsen, det allvarliga problemet med svenska medborgare som beger sig till Irak och Syrien för att strida med Islamiska staten och den rekordstora invandringen, med de sociala och ekonomiska utmaningar det medför, torde vara tre viktiga delförklaringar.
+33-1	2077-2101	Decemberöverenskommelsen	_	_	_	_	_	_	_	
+33-2	2101-2102	,	_	_	_	_	_	_	_	
+33-3	2103-2106	det	_	Target[12]	33-7[36]	false[12]	2[12]	_	_	
+33-4	2107-2117	allvarliga	_	Target[12]	33-7[36]	false[12]	2[12]	_	_	
+33-5	2118-2127	problemet	_	Target[12]	33-7[36]	false[12]	2[12]	_	_	
+33-6	2128-2131	med	_	Target[12]	33-7[36]	false[12]	2[12]	_	_	
+33-7	2132-2139	svenska	*[36]	_	_	_	_	_	_	
+33-8	2140-2150	medborgare	*[36]	_	_	_	_	_	_	
+33-9	2151-2154	som	*[36]	_	_	_	_	_	_	
+33-10	2155-2160	beger	*[36]	_	_	_	_	_	_	
+33-11	2161-2164	sig	*[36]	_	_	_	_	_	_	
+33-12	2165-2169	till	*[36]	_	_	_	_	_	_	
+33-13	2170-2174	Irak	*[36]	_	_	_	_	_	_	
+33-14	2175-2178	och	*[36]	_	_	_	_	_	_	
+33-15	2179-2185	Syrien	*[36]	_	_	_	_	_	_	
+33-16	2186-2189	för	*[36]	_	_	_	_	_	_	
+33-17	2190-2193	att	*[36]	_	_	_	_	_	_	
+33-18	2194-2200	strida	*[36]	_	_	_	_	_	_	
+33-19	2201-2204	med	*[36]	_	_	_	_	_	_	
+33-20	2205-2214	Islamiska	*[36]	_	_	_	_	_	_	
+33-21	2215-2221	staten	*[36]	_	_	_	_	_	_	
+33-22	2222-2225	och	_	_	_	_	_	_	_	
+33-23	2226-2229	den	_	_	_	_	_	_	_	
+33-24	2230-2241	rekordstora	_	_	_	_	_	_	_	
+33-25	2242-2254	invandringen	_	_	_	_	_	_	_	
+33-26	2254-2255	,	_	_	_	_	_	_	_	
+33-27	2256-2259	med	_	_	_	_	_	_	_	
+33-28	2260-2262	de	_	_	_	_	_	_	_	
+33-29	2263-2270	sociala	_	_	_	_	_	_	_	
+33-30	2271-2274	och	_	_	_	_	_	_	_	
+33-31	2275-2285	ekonomiska	_	_	_	_	_	_	_	
+33-32	2286-2296	utmaningar	_	_	_	_	_	_	_	
+33-33	2297-2300	det	_	_	_	_	_	_	_	
+33-34	2301-2307	medför	_	_	_	_	_	_	_	
+33-35	2307-2308	,	_	_	_	_	_	_	_	
+33-36	2309-2314	torde	_	_	_	_	_	_	_	
+33-37	2315-2319	vara	_	_	_	_	_	_	_	
+33-38	2320-2323	tre	_	_	_	_	_	_	_	
+33-39	2324-2331	viktiga	_	_	_	_	_	_	_	
+33-40	2332-2347	delförklaringar	_	_	_	_	_	_	_	
+33-41	2347-2348	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2350-2351	#	_	_	_	_	_	_	_	
+34-2	2351-2352	P	_	_	_	_	_	_	_	
+34-3	2353-2356	IMM	_	_	_	_	_	_	_	
+34-4	2356-2357	.	_	_	_	_	_	_	_	
+
+#Text=När Demoskop frågade väljarna om vilka som var de största samhällsproblemen hamnade invandringen på första plats följt av integrationen på andra plats.
+35-1	2359-2362	När	_	Source;Target[13]|_[14]	35-4[37];35-13|_	false[13]|false[14]	2[13]|2[14]	35-5[15_14]|35-5[16_13]	_	
+35-2	2363-2371	Demoskop	_	Source;Target[13]|_[14]	35-4[37];35-13|_	false[13]|false[14]	2[13]|2[14]	_	_	
+35-3	2372-2379	frågade	_	Source;Target[13]|_[14]	35-4[37];35-13|_	false[13]|false[14]	2[13]|2[14]	_	_	
+35-4	2380-2388	väljarna	*[37]|*[38]	_	_	_	_	_	_	
+35-5	2389-2391	om	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	35-20[18_15]|35-14[17_16]	_	
+35-6	2392-2397	vilka	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-7	2398-2401	som	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-8	2402-2405	var	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-9	2406-2408	de	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-10	2409-2416	största	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-11	2417-2434	samhällsproblemen	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-12	2435-2442	hamnade	_	_[15]|_[16]	_|_	false[15]|false[16]	2[15]|2[16]	_	_	
+35-13	2443-2455	invandringen	*	_[15]	_	false[15]	2[15]	_	_	
+35-14	2456-2458	på	_	_[15]|_[17]	_|_	false[15]|false[17]	2[15]|2[17]	_	_	
+35-15	2459-2465	första	_	_[15]|_[17]	_|_	false[15]|false[17]	2[15]|2[17]	_	_	
+35-16	2466-2471	plats	_	_[15]|_[17]	_|_	false[15]|false[17]	2[15]|2[17]	_	_	
+35-17	2472-2477	följt	_	_[15]	_	false[15]	2[15]	_	_	
+35-18	2478-2480	av	_	_[15]	_	false[15]	2[15]	_	_	
+35-19	2481-2494	integrationen	*	_	_	_	_	_	_	
+35-20	2495-2497	på	_	Source;Target[18]	35-4[38];35-19	false[18]	2[18]	_	_	
+35-21	2498-2503	andra	_	Source;Target[18]	35-4[38];35-19	false[18]	2[18]	_	_	
+35-22	2504-2509	plats	_	Source;Target[18]	35-4[38];35-19	false[18]	2[18]	_	_	
+35-23	2509-2510	.	_	_	_	_	_	_	_	
+
+#Text=Det är en förskjutning av opinionen som inte går att blunda för.Trots att många väljare valde att rösta på Sverigedemokraterna i riksdagsvalet i höstas växer fortfarande den invandringskritiska opinionen bland de övriga partiernas sympatisörer.
+36-1	2511-2514	Det	_	_	_	_	_	_	_	
+36-2	2515-2517	är	_	_	_	_	_	_	_	
+36-3	2518-2520	en	_	_	_	_	_	_	_	
+36-4	2521-2533	förskjutning	_	_	_	_	_	_	_	
+36-5	2534-2536	av	_	_	_	_	_	_	_	
+36-6	2537-2546	opinionen	_	_	_	_	_	_	_	
+36-7	2547-2550	som	_	_	_	_	_	_	_	
+36-8	2551-2555	inte	_	_	_	_	_	_	_	
+36-9	2556-2559	går	_	_	_	_	_	_	_	
+36-10	2560-2563	att	_	_	_	_	_	_	_	
+36-11	2564-2570	blunda	_	_	_	_	_	_	_	
+36-12	2571-2580	för.Trots	_	_	_	_	_	_	_	
+36-13	2581-2584	att	_	_	_	_	_	_	_	
+36-14	2585-2590	många	_	_	_	_	_	_	_	
+36-15	2591-2598	väljare	_	_	_	_	_	_	_	
+36-16	2599-2604	valde	_	_	_	_	_	_	_	
+36-17	2605-2608	att	_	_	_	_	_	_	_	
+36-18	2609-2614	rösta	_	_	_	_	_	_	_	
+36-19	2615-2617	på	_	_	_	_	_	_	_	
+36-20	2618-2637	Sverigedemokraterna	_	_	_	_	_	_	_	
+36-21	2638-2639	i	_	_	_	_	_	_	_	
+36-22	2640-2653	riksdagsvalet	_	_	_	_	_	_	_	
+36-23	2654-2655	i	_	_	_	_	_	_	_	
+36-24	2656-2662	höstas	_	_	_	_	_	_	_	
+36-25	2663-2668	växer	_	_	_	_	_	_	_	
+36-26	2669-2680	fortfarande	_	_	_	_	_	_	_	
+36-27	2681-2684	den	_	_	_	_	_	_	_	
+36-28	2685-2704	invandringskritiska	*	Target;Source	36-28;36-29	false	2	_	_	
+36-29	2705-2714	opinionen	*	_	_	_	_	_	_	
+36-30	2715-2720	bland	_	_	_	_	_	_	_	
+36-31	2721-2723	de	_	_	_	_	_	_	_	
+36-32	2724-2730	övriga	_	_	_	_	_	_	_	
+36-33	2731-2741	partiernas	_	_	_	_	_	_	_	
+36-34	2742-2754	sympatisörer	_	_	_	_	_	_	_	
+36-35	2754-2755	.	_	_	_	_	_	_	_	
+
+#Text=Om de respektive partiledningarna inte tror att också dessa väljare skulle kunna tänka sig att lägga sin röst på SD finns det goda skäl att bli orolig över hur det står till med politikernas verklighetsförankring.
+37-1	2756-2758	Om	_	_	_	_	_	_	_	
+37-2	2759-2761	de	_	_	_	_	_	_	_	
+37-3	2762-2772	respektive	_	_	_	_	_	_	_	
+37-4	2773-2789	partiledningarna	_	_	_	_	_	_	_	
+37-5	2790-2794	inte	_	_	_	_	_	_	_	
+37-6	2795-2799	tror	_	_	_	_	_	_	_	
+37-7	2800-2803	att	_	_	_	_	_	_	_	
+37-8	2804-2809	också	_	_	_	_	_	_	_	
+37-9	2810-2815	dessa	_	_	_	_	_	_	_	
+37-10	2816-2823	väljare	_	_	_	_	_	_	_	
+37-11	2824-2830	skulle	_	_	_	_	_	_	_	
+37-12	2831-2836	kunna	_	_	_	_	_	_	_	
+37-13	2837-2842	tänka	_	_	_	_	_	_	_	
+37-14	2843-2846	sig	_	_	_	_	_	_	_	
+37-15	2847-2850	att	_	_	_	_	_	_	_	
+37-16	2851-2856	lägga	_	_	_	_	_	_	_	
+37-17	2857-2860	sin	_	_	_	_	_	_	_	
+37-18	2861-2865	röst	_	_	_	_	_	_	_	
+37-19	2866-2868	på	_	_	_	_	_	_	_	
+37-20	2869-2871	SD	_	_	_	_	_	_	_	
+37-21	2872-2877	finns	_	_	_	_	_	_	_	
+37-22	2878-2881	det	_	_	_	_	_	_	_	
+37-23	2882-2886	goda	_	_	_	_	_	_	_	
+37-24	2887-2891	skäl	_	_	_	_	_	_	_	
+37-25	2892-2895	att	_	_	_	_	_	_	_	
+37-26	2896-2899	bli	_	_	_	_	_	_	_	
+37-27	2900-2906	orolig	_	_	_	_	_	_	_	
+37-28	2907-2911	över	_	_	_	_	_	_	_	
+37-29	2912-2915	hur	_	_	_	_	_	_	_	
+37-30	2916-2919	det	_	_	_	_	_	_	_	
+37-31	2920-2924	står	_	_	_	_	_	_	_	
+37-32	2925-2929	till	_	_	_	_	_	_	_	
+37-33	2930-2933	med	_	_	_	_	_	_	_	
+37-34	2934-2946	politikernas	_	_	_	_	_	_	_	
+37-35	2947-2968	verklighetsförankring	_	_	_	_	_	_	_	
+37-36	2968-2969	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2971-2972	#	_	_	_	_	_	_	_	
+38-2	2972-2973	P	_	_	_	_	_	_	_	
+38-3	2974-2977	IMM	_	_	_	_	_	_	_	
+38-4	2977-2978	.	_	_	_	_	_	_	_	
+
+#Text=Hur länge regerings- respektive allianspartierna kommer att ignorera den förändrade opinionen hos väljarna återstår att se.
+39-1	2980-2983	Hur	_	_	_	_	_	_	_	
+39-2	2984-2989	länge	_	_	_	_	_	_	_	
+39-3	2990-2999	regerings	_	_	_	_	_	_	_	
+39-4	2999-3000	-	_	_	_	_	_	_	_	
+39-5	3001-3011	respektive	_	_	_	_	_	_	_	
+39-6	3012-3028	allianspartierna	_	_	_	_	_	_	_	
+39-7	3029-3035	kommer	_	_	_	_	_	_	_	
+39-8	3036-3039	att	_	_	_	_	_	_	_	
+39-9	3040-3048	ignorera	_	_	_	_	_	_	_	
+39-10	3049-3052	den	_	_	_	_	_	_	_	
+39-11	3053-3063	förändrade	_	_	_	_	_	_	_	
+39-12	3064-3073	opinionen	_	_	_	_	_	_	_	
+39-13	3074-3077	hos	_	_	_	_	_	_	_	
+39-14	3078-3086	väljarna	_	_	_	_	_	_	_	
+39-15	3087-3095	återstår	_	_	_	_	_	_	_	
+39-16	3096-3099	att	_	_	_	_	_	_	_	
+39-17	3100-3102	se	_	_	_	_	_	_	_	
+39-18	3102-3103	.	_	_	_	_	_	_	_	
+
+#Text=Det är dock oroväckande att de inte vågar ta tag i den fråga som väljarna anser vara det största samhällsproblemet.
+40-1	3104-3107	Det	_	_	_	_	_	_	_	
+40-2	3108-3110	är	_	Target[19]	40-5[39]	false[19]	2[19]	_	_	
+40-3	3111-3115	dock	_	Target[19]	40-5[39]	false[19]	2[19]	_	_	
+40-4	3116-3127	oroväckande	_	Target[19]	40-5[39]	false[19]	2[19]	_	_	
+40-5	3128-3131	att	*[39]	_	_	_	_	_	_	
+40-6	3132-3134	de	*[39]	_	_	_	_	_	_	
+40-7	3135-3139	inte	*[39]	_	_	_	_	_	_	
+40-8	3140-3145	vågar	*[39]	_	_	_	_	_	_	
+40-9	3146-3148	ta	*[39]	_	_	_	_	_	_	
+40-10	3149-3152	tag	*[39]	_	_	_	_	_	_	
+40-11	3153-3154	i	*[39]	_	_	_	_	_	_	
+40-12	3155-3158	den	*[39]|*[40]	_	_	_	_	_	40-15[42_40]	
+40-13	3159-3164	fråga	*[39]|*[40]	_	_	_	_	_	_	
+40-14	3165-3168	som	*[39]|*[41]	_	_	_	_	_	_	
+40-15	3169-3177	väljarna	*[39]|*[42]	_	_	_	_	_	_	
+40-16	3178-3183	anser	*[39]	Target;Source[20]	40-14[41];40-15[42]	false[20]	2[20]	_	_	
+40-17	3184-3188	vara	*[39]	Target;Source[20]	40-14[41];40-15[42]	false[20]	2[20]	_	_	
+40-18	3189-3192	det	*[39]	Target;Source[20]	40-14[41];40-15[42]	false[20]	2[20]	_	_	
+40-19	3193-3200	största	*[39]	Target;Source[20]	40-14[41];40-15[42]	false[20]	2[20]	_	_	
+40-20	3201-3218	samhällsproblemet	*[39]	Target;Source[20]	40-14[41];40-15[42]	false[20]	2[20]	_	_	
+40-21	3218-3219	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3221-3222	#	_	_	_	_	_	_	_	
+41-2	3222-3223	P	_	_	_	_	_	_	_	
+41-3	3224-3227	IMM	_	_	_	_	_	_	_	
+41-4	3227-3228	.	_	_	_	_	_	_	_	
+
+#Text=Socialdemokraterna valde signifikant nog att under sin nyss genomförda partistämma skjuta alla motioner om invandringspolitiken på framtiden.
+42-1	3230-3248	Socialdemokraterna	_	_	_	_	_	_	_	
+42-2	3249-3254	valde	_	_	_	_	_	_	_	
+42-3	3255-3266	signifikant	_	_	_	_	_	_	_	
+42-4	3267-3270	nog	_	_	_	_	_	_	_	
+42-5	3271-3274	att	_	_	_	_	_	_	_	
+42-6	3275-3280	under	_	_	_	_	_	_	_	
+42-7	3281-3284	sin	_	_	_	_	_	_	_	
+42-8	3285-3289	nyss	_	_	_	_	_	_	_	
+42-9	3290-3300	genomförda	_	_	_	_	_	_	_	
+42-10	3301-3312	partistämma	_	_	_	_	_	_	_	
+42-11	3313-3319	skjuta	_	_	_	_	_	_	_	
+42-12	3320-3324	alla	_	_	_	_	_	_	_	
+42-13	3325-3333	motioner	_	_	_	_	_	_	_	
+42-14	3334-3336	om	_	_	_	_	_	_	_	
+42-15	3337-3357	invandringspolitiken	_	_	_	_	_	_	_	
+42-16	3358-3360	på	_	_	_	_	_	_	_	
+42-17	3361-3370	framtiden	_	_	_	_	_	_	_	
+42-18	3370-3371	.	_	_	_	_	_	_	_	
+
+#Text=Istället låter de etablerade partierna SD att monopolisera på den allt större väljargruppen samtidigt som de verkar helt frågande inför varför partiet fortsätter att växa sig större i var och varannan opinionsmätning.
+43-1	3372-3380	Istället	_	_	_	_	_	_	_	
+43-2	3381-3386	låter	_	_	_	_	_	_	_	
+43-3	3387-3389	de	_	_	_	_	_	_	_	
+43-4	3390-3400	etablerade	_	_	_	_	_	_	_	
+43-5	3401-3410	partierna	_	_	_	_	_	_	_	
+43-6	3411-3413	SD	_	_	_	_	_	_	_	
+43-7	3414-3417	att	_	_	_	_	_	_	_	
+43-8	3418-3430	monopolisera	_	_	_	_	_	_	_	
+43-9	3431-3433	på	_	_	_	_	_	_	_	
+43-10	3434-3437	den	_	_	_	_	_	_	_	
+43-11	3438-3442	allt	_	_	_	_	_	_	_	
+43-12	3443-3449	större	_	_	_	_	_	_	_	
+43-13	3450-3463	väljargruppen	_	_	_	_	_	_	_	
+43-14	3464-3473	samtidigt	_	_	_	_	_	_	_	
+43-15	3474-3477	som	_	_	_	_	_	_	_	
+43-16	3478-3480	de	_	_	_	_	_	_	_	
+43-17	3481-3487	verkar	_	_	_	_	_	_	_	
+43-18	3488-3492	helt	_	_	_	_	_	_	_	
+43-19	3493-3501	frågande	_	_	_	_	_	_	_	
+43-20	3502-3507	inför	_	_	_	_	_	_	_	
+43-21	3508-3514	varför	_	_	_	_	_	_	_	
+43-22	3515-3522	partiet	_	_	_	_	_	_	_	
+43-23	3523-3533	fortsätter	_	_	_	_	_	_	_	
+43-24	3534-3537	att	_	_	_	_	_	_	_	
+43-25	3538-3542	växa	_	_	_	_	_	_	_	
+43-26	3543-3546	sig	_	_	_	_	_	_	_	
+43-27	3547-3553	större	_	_	_	_	_	_	_	
+43-28	3554-3555	i	_	_	_	_	_	_	_	
+43-29	3556-3559	var	_	_	_	_	_	_	_	
+43-30	3560-3563	och	_	_	_	_	_	_	_	
+43-31	3564-3572	varannan	_	_	_	_	_	_	_	
+43-32	3573-3588	opinionsmätning	_	_	_	_	_	_	_	
+43-33	3588-3589	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3591-3592	#	_	_	_	_	_	_	_	
+44-2	3592-3593	P	_	_	_	_	_	_	_	
+44-3	3594-3597	IMM	_	_	_	_	_	_	_	
+44-4	3597-3598	.	_	_	_	_	_	_	_	
+
+#Text=Om den politiska låsningen fortsätter är det inte omöjligt att Sverigedemokraterna blir näst största parti i valet 2018.
+45-1	3600-3602	Om	_	_	_	_	_	_	_	
+45-2	3603-3606	den	_	_	_	_	_	_	_	
+45-3	3607-3616	politiska	_	_	_	_	_	_	_	
+45-4	3617-3626	låsningen	_	_	_	_	_	_	_	
+45-5	3627-3637	fortsätter	_	_	_	_	_	_	_	
+45-6	3638-3640	är	_	_	_	_	_	_	_	
+45-7	3641-3644	det	_	_	_	_	_	_	_	
+45-8	3645-3649	inte	_	_	_	_	_	_	_	
+45-9	3650-3658	omöjligt	_	_	_	_	_	_	_	
+45-10	3659-3662	att	_	_	_	_	_	_	_	
+45-11	3663-3682	Sverigedemokraterna	_	_	_	_	_	_	_	
+45-12	3683-3687	blir	_	_	_	_	_	_	_	
+45-13	3688-3692	näst	_	_	_	_	_	_	_	
+45-14	3693-3700	största	_	_	_	_	_	_	_	
+45-15	3701-3706	parti	_	_	_	_	_	_	_	
+45-16	3707-3708	i	_	_	_	_	_	_	_	
+45-17	3709-3714	valet	_	_	_	_	_	_	_	
+45-18	3715-3719	2018	_	_	_	_	_	_	_	
+45-19	3719-3720	.	_	_	_	_	_	_	_	
+
+#Text=Och som situationen ser ut verkar det vara vad som krävs för att de etablerade partierna ska göra en självrannsakan om vad som har gått snett.
+46-1	3721-3724	Och	_	_	_	_	_	_	_	
+46-2	3725-3728	som	_	_	_	_	_	_	_	
+46-3	3729-3740	situationen	_	_	_	_	_	_	_	
+46-4	3741-3744	ser	_	_	_	_	_	_	_	
+46-5	3745-3747	ut	_	_	_	_	_	_	_	
+46-6	3748-3754	verkar	_	_	_	_	_	_	_	
+46-7	3755-3758	det	_	_	_	_	_	_	_	
+46-8	3759-3763	vara	_	_	_	_	_	_	_	
+46-9	3764-3767	vad	_	_	_	_	_	_	_	
+46-10	3768-3771	som	_	_	_	_	_	_	_	
+46-11	3772-3777	krävs	_	_	_	_	_	_	_	
+46-12	3778-3781	för	_	_	_	_	_	_	_	
+46-13	3782-3785	att	_	_	_	_	_	_	_	
+46-14	3786-3788	de	_	_	_	_	_	_	_	
+46-15	3789-3799	etablerade	_	_	_	_	_	_	_	
+46-16	3800-3809	partierna	_	_	_	_	_	_	_	
+46-17	3810-3813	ska	_	_	_	_	_	_	_	
+46-18	3814-3818	göra	_	_	_	_	_	_	_	
+46-19	3819-3821	en	_	_	_	_	_	_	_	
+46-20	3822-3836	självrannsakan	_	_	_	_	_	_	_	
+46-21	3837-3839	om	_	_	_	_	_	_	_	
+46-22	3840-3843	vad	_	_	_	_	_	_	_	
+46-23	3844-3847	som	_	_	_	_	_	_	_	
+46-24	3848-3851	har	_	_	_	_	_	_	_	
+46-25	3852-3856	gått	_	_	_	_	_	_	_	
+46-26	3857-3862	snett	_	_	_	_	_	_	_	
+46-27	3862-3863	.	_	_	_	_	_	_	_	
+
+#Text=Men att skjuta upp analysen till efter nästa val är ingen vidare smart strategi.
+47-1	3864-3867	Men	_	_	_	_	_	_	_	
+47-2	3868-3871	att	*[43]	_	_	_	_	_	_	
+47-3	3872-3878	skjuta	*[43]	_	_	_	_	_	_	
+47-4	3879-3882	upp	*[43]	_	_	_	_	_	_	
+47-5	3883-3891	analysen	*[43]	_	_	_	_	_	_	
+47-6	3892-3896	till	*[43]	_	_	_	_	_	_	
+47-7	3897-3902	efter	*[43]	_	_	_	_	_	_	
+47-8	3903-3908	nästa	*[43]	_	_	_	_	_	_	
+47-9	3909-3912	val	*[43]	_	_	_	_	_	_	
+47-10	3913-3915	är	_	Target[21]	47-2[43]	false[21]	2[21]	_	_	
+47-11	3916-3921	ingen	_	Target[21]|Target[22]	47-2[43]|47-14	false[21]|false[22]	2[21]|2[22]	_	_	
+47-12	3922-3928	vidare	_	Target[21]|Target[22]	47-2[43]|47-14	false[21]|false[22]	2[21]|2[22]	_	_	
+47-13	3929-3934	smart	_	Target[21]|Target[22]	47-2[43]|47-14	false[21]|false[22]	2[21]|2[22]	_	_	
+47-14	3935-3943	strategi	*	Target[21]	47-2[43]	false[21]	2[21]	_	_	
+47-15	3943-3944	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3946-3947	#	_	_	_	_	_	_	_	
+48-2	3947-3948	P	_	_	_	_	_	_	_	
+48-3	3949-3952	IMM	_	_	_	_	_	_	_	
+48-4	3952-3953	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom är det väl naivt att hoppas att en sen omvändelse skulle vända opinionstrenden med detsamma.
+49-1	3955-3963	Dessutom	_	_	_	_	_	_	_	
+49-2	3964-3966	är	_	Target[23]	49-6[44]	false[23]	2[23]	_	_	
+49-3	3967-3970	det	_	Target[23]	49-6[44]	false[23]	2[23]	_	_	
+49-4	3971-3974	väl	_	Target[23]	49-6[44]	false[23]	2[23]	_	_	
+49-5	3975-3980	naivt	_	Target[23]	49-6[44]	false[23]	2[23]	_	_	
+49-6	3981-3984	att	*[44]	_	_	_	_	_	_	
+49-7	3985-3991	hoppas	*[44]	_	_	_	_	_	_	
+49-8	3992-3995	att	*[44]	_	_	_	_	_	_	
+49-9	3996-3998	en	*[44]	_	_	_	_	_	_	
+49-10	3999-4002	sen	*[44]	_	_	_	_	_	_	
+49-11	4003-4013	omvändelse	*[44]	_	_	_	_	_	_	
+49-12	4014-4020	skulle	*[44]	_	_	_	_	_	_	
+49-13	4021-4026	vända	*[44]	_	_	_	_	_	_	
+49-14	4027-4042	opinionstrenden	*[44]	_	_	_	_	_	_	
+49-15	4043-4046	med	*[44]	_	_	_	_	_	_	
+49-16	4047-4055	detsamma	*[44]	_	_	_	_	_	_	
+49-17	4055-4056	.	_	_	_	_	_	_	_	
+
+#Text=Sverigedemokraterna har under sin tid i riksdagen börjat etablera sig inom alltfler politikområden, för vilka de också vinner väljarstöd.
+50-1	4057-4076	Sverigedemokraterna	*	_	_	_	_	_	50-17	
+50-2	4077-4080	har	_	_	_	_	_	_	_	
+50-3	4081-4086	under	_	_	_	_	_	_	_	
+50-4	4087-4090	sin	_	_	_	_	_	_	_	
+50-5	4091-4094	tid	_	_	_	_	_	_	_	
+50-6	4095-4096	i	_	_	_	_	_	_	_	
+50-7	4097-4106	riksdagen	_	_	_	_	_	_	_	
+50-8	4107-4113	börjat	_	_	_	_	_	_	_	
+50-9	4114-4122	etablera	_	_	_	_	_	_	_	
+50-10	4123-4126	sig	_	_	_	_	_	_	_	
+50-11	4127-4131	inom	_	_	_	_	_	_	_	
+50-12	4132-4140	alltfler	_	_	_	_	_	_	_	
+50-13	4141-4155	politikområden	_	_	_	_	_	_	_	
+50-14	4155-4156	,	_	_	_	_	_	_	_	
+50-15	4157-4160	för	_	_	_	_	_	_	_	
+50-16	4161-4166	vilka	_	_	_	_	_	_	_	
+50-17	4167-4169	de	*	_	_	_	_	_	_	
+50-18	4170-4175	också	_	_	_	_	_	_	_	
+50-19	4176-4182	vinner	_	Source;Target[24]	50-20;50-17	false[24]	4[24]	_	_	
+50-20	4183-4193	väljarstöd	*	Source;Target[24]	50-20;50-17	false[24]	4[24]	_	_	
+50-21	4193-4194	.	_	_	_	_	_	_	_	
+
+#Text=Att Sverigedemokraternas väljare dessutom kommer från både det röda och blå blocket gör heller inte saken enklare.
+51-1	4195-4198	Att	_	_	_	_	_	_	_	
+51-2	4199-4219	Sverigedemokraternas	_	_	_	_	_	_	_	
+51-3	4220-4227	väljare	_	_	_	_	_	_	_	
+51-4	4228-4236	dessutom	_	_	_	_	_	_	_	
+51-5	4237-4243	kommer	_	_	_	_	_	_	_	
+51-6	4244-4248	från	_	_	_	_	_	_	_	
+51-7	4249-4253	både	_	_	_	_	_	_	_	
+51-8	4254-4257	det	_	_	_	_	_	_	_	
+51-9	4258-4262	röda	_	_	_	_	_	_	_	
+51-10	4263-4266	och	_	_	_	_	_	_	_	
+51-11	4267-4270	blå	_	_	_	_	_	_	_	
+51-12	4271-4278	blocket	_	_	_	_	_	_	_	
+51-13	4279-4282	gör	_	_	_	_	_	_	_	
+51-14	4283-4289	heller	_	_	_	_	_	_	_	
+51-15	4290-4294	inte	_	_	_	_	_	_	_	
+51-16	4295-4300	saken	_	_	_	_	_	_	_	
+51-17	4301-4308	enklare	_	_	_	_	_	_	_	
+51-18	4308-4309	.	_	_	_	_	_	_	_	
+
+#Text=I politiken är förtroende väldigt lätt att förbruka men desto svårare att återvinna.
+52-1	4310-4311	I	_	_	_	_	_	_	_	
+52-2	4312-4321	politiken	_	_	_	_	_	_	_	
+52-3	4322-4324	är	_	_	_	_	_	_	_	
+52-4	4325-4335	förtroende	_	_	_	_	_	_	_	
+52-5	4336-4343	väldigt	_	_	_	_	_	_	_	
+52-6	4344-4348	lätt	_	_	_	_	_	_	_	
+52-7	4349-4352	att	_	_	_	_	_	_	_	
+52-8	4353-4361	förbruka	_	_	_	_	_	_	_	
+52-9	4362-4365	men	_	_	_	_	_	_	_	
+52-10	4366-4371	desto	_	_	_	_	_	_	_	
+52-11	4372-4379	svårare	_	_	_	_	_	_	_	
+52-12	4380-4383	att	_	_	_	_	_	_	_	
+52-13	4384-4393	återvinna	_	_	_	_	_	_	_	
+52-14	4393-4394	.	_	_	_	_	_	_	_	
+
+#Text=Om SD dessutom lyckas erhålla ett större förtroende i stället för att endast vara ett missnöjesalternativ lär det bli ännu svårare.
+53-1	4395-4397	Om	_	_	_	_	_	_	_	
+53-2	4398-4400	SD	_	_	_	_	_	_	_	
+53-3	4401-4409	dessutom	_	_	_	_	_	_	_	
+53-4	4410-4416	lyckas	_	_	_	_	_	_	_	
+53-5	4417-4424	erhålla	_	_	_	_	_	_	_	
+53-6	4425-4428	ett	_	_	_	_	_	_	_	
+53-7	4429-4435	större	_	_	_	_	_	_	_	
+53-8	4436-4446	förtroende	_	_	_	_	_	_	_	
+53-9	4447-4448	i	_	_	_	_	_	_	_	
+53-10	4449-4456	stället	_	_	_	_	_	_	_	
+53-11	4457-4460	för	_	_	_	_	_	_	_	
+53-12	4461-4464	att	_	_	_	_	_	_	_	
+53-13	4465-4471	endast	_	_	_	_	_	_	_	
+53-14	4472-4476	vara	_	_	_	_	_	_	_	
+53-15	4477-4480	ett	_	_	_	_	_	_	_	
+53-16	4481-4500	missnöjesalternativ	_	_	_	_	_	_	_	
+53-17	4501-4504	lär	_	_	_	_	_	_	_	
+53-18	4505-4508	det	_	_	_	_	_	_	_	
+53-19	4509-4512	bli	_	_	_	_	_	_	_	
+53-20	4513-4517	ännu	_	_	_	_	_	_	_	
+53-21	4518-4525	svårare	_	_	_	_	_	_	_	
+53-22	4525-4526	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4528-4529	#	_	_	_	_	_	_	_	
+54-2	4529-4530	P	_	_	_	_	_	_	_	
+54-3	4531-4534	IMM	_	_	_	_	_	_	_	
+54-4	4534-4535	.	_	_	_	_	_	_	_	
+
+#Text=**Partierna borde, **både för sin egen och väljarnas skull, släppa prestigen och bemöta väljarnas oro över den förda migrationspolitiken.
+55-1	4537-4538	*	_	_	_	_	_	_	_	
+55-2	4538-4539	*	_	_	_	_	_	_	_	
+55-3	4539-4548	Partierna	_	_	_	_	_	_	_	
+55-4	4549-4554	borde	_	_	_	_	_	_	_	
+55-5	4554-4555	,	_	_	_	_	_	_	_	
+55-6	4556-4557	*	_	_	_	_	_	_	_	
+55-7	4557-4558	*	_	_	_	_	_	_	_	
+55-8	4558-4562	både	_	_	_	_	_	_	_	
+55-9	4563-4566	för	_	_	_	_	_	_	_	
+55-10	4567-4570	sin	_	_	_	_	_	_	_	
+55-11	4571-4575	egen	_	_	_	_	_	_	_	
+55-12	4576-4579	och	_	_	_	_	_	_	_	
+55-13	4580-4589	väljarnas	_	_	_	_	_	_	_	
+55-14	4590-4595	skull	_	_	_	_	_	_	_	
+55-15	4595-4596	,	_	_	_	_	_	_	_	
+55-16	4597-4603	släppa	_	_	_	_	_	_	_	
+55-17	4604-4613	prestigen	_	_	_	_	_	_	_	
+55-18	4614-4617	och	_	_	_	_	_	_	_	
+55-19	4618-4624	bemöta	_	_	_	_	_	_	_	
+55-20	4625-4634	väljarnas	*	_	_	_	_	_	_	
+55-21	4635-4638	oro	_	Target;Source[25]	55-23[45];55-20	false[25]	2[25]	_	_	
+55-22	4639-4643	över	_	Target;Source[25]	55-23[45];55-20	false[25]	2[25]	_	_	
+55-23	4644-4647	den	*[45]	_	_	_	_	_	_	
+55-24	4648-4653	förda	*[45]	_	_	_	_	_	_	
+55-25	4654-4673	migrationspolitiken	*[45]	_	_	_	_	_	_	
+55-26	4673-4674	.	_	_	_	_	_	_	_	
+
+#Text=Tron på att Socialdemokraterna och Moderaterna alltid kommer att vara de två största partierna kan måhända vara en önskedröm i partihögkvarteren, men imponerar föga på en alltmer oroad väljarskara.
+56-1	4675-4679	Tron	*[46]|*[47]	_	_	_	_	_	_	
+56-2	4680-4682	på	*[46]|*[47]	_	_	_	_	_	_	
+56-3	4683-4686	att	*[46]|*[47]	_	_	_	_	_	_	
+56-4	4687-4705	Socialdemokraterna	*[46]|*[47]	_	_	_	_	_	_	
+56-5	4706-4709	och	*[46]|*[47]	_	_	_	_	_	_	
+56-6	4710-4721	Moderaterna	*[46]|*[47]	_	_	_	_	_	_	
+56-7	4722-4728	alltid	*[46]|*[47]	_	_	_	_	_	_	
+56-8	4729-4735	kommer	*[46]|*[47]	_	_	_	_	_	_	
+56-9	4736-4739	att	*[46]|*[47]	_	_	_	_	_	_	
+56-10	4740-4744	vara	*[46]|*[47]	_	_	_	_	_	_	
+56-11	4745-4747	de	*[46]|*[47]	_	_	_	_	_	_	
+56-12	4748-4751	två	*[46]|*[47]	_	_	_	_	_	_	
+56-13	4752-4759	största	*[46]|*[47]	_	_	_	_	_	_	
+56-14	4760-4769	partierna	*[46]|*[47]	_	_	_	_	_	_	
+56-15	4770-4773	kan	_	Source;Target[26]	56-20[48];56-1[46]	false[26]	4[26]	_	_	
+56-16	4774-4781	måhända	_	Source;Target[26]	56-20[48];56-1[46]	false[26]	4[26]	_	_	
+56-17	4782-4786	vara	_	Source;Target[26]	56-20[48];56-1[46]	false[26]	4[26]	_	_	
+56-18	4787-4789	en	_	Source;Target[26]	56-20[48];56-1[46]	false[26]	4[26]	_	_	
+56-19	4790-4799	önskedröm	_	Source;Target[26]	56-20[48];56-1[46]	false[26]	4[26]	_	_	
+56-20	4800-4801	i	*[48]	_	_	_	_	_	_	
+56-21	4802-4819	partihögkvarteren	*[48]	_	_	_	_	_	_	
+56-22	4819-4820	,	_	_	_	_	_	_	_	
+56-23	4821-4824	men	_	_	_	_	_	_	_	
+56-24	4825-4834	imponerar	_	Source;Target[27]	56-27[49];56-1[47]	false[27]	2[27]	_	_	
+56-25	4835-4839	föga	_	Source;Target[27]	56-27[49];56-1[47]	false[27]	2[27]	_	_	
+56-26	4840-4842	på	_	Source;Target[27]	56-27[49];56-1[47]	false[27]	2[27]	_	_	
+56-27	4843-4845	en	*[49]	_	_	_	_	_	_	
+56-28	4846-4853	alltmer	*[49]	_	_	_	_	_	_	
+56-29	4854-4859	oroad	*[49]	_	_	_	_	_	_	
+56-30	4860-4871	väljarskara	*[49]	_	_	_	_	_	_	
+56-31	4871-4872	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4874-4875	#	_	_	_	_	_	_	_	
+57-2	4875-4876	P	_	_	_	_	_	_	_	
+57-3	4877-4880	IMM	_	_	_	_	_	_	_	
+57-4	4880-4881	.	_	_	_	_	_	_	_	
+
+#Text=**Mattias Holmström **.
+58-1	4883-4884	*	_	_	_	_	_	_	_	
+58-2	4884-4885	*	_	_	_	_	_	_	_	
+58-3	4885-4892	Mattias	_	_	_	_	_	_	_	
+58-4	4893-4902	Holmström	_	_	_	_	_	_	_	
+58-5	4903-4904	*	_	_	_	_	_	_	_	
+58-6	4904-4905	*	_	_	_	_	_	_	_	
+58-7	4905-4906	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4908-4909	#	_	_	_	_	_	_	_	
+59-2	4909-4910	P	_	_	_	_	_	_	_	
+59-3	4911-4914	IMM	_	_	_	_	_	_	_	
+59-4	4914-4915	.	_	_	_	_	_	_	_	
+
+#Text=kommunikationsansvarig, Den Nya Välfärden.
+60-1	4917-4939	kommunikationsansvarig	_	_	_	_	_	_	_	
+60-2	4939-4940	,	_	_	_	_	_	_	_	
+60-3	4941-4944	Den	_	_	_	_	_	_	_	
+60-4	4945-4948	Nya	_	_	_	_	_	_	_	
+60-5	4949-4958	Välfärden	_	_	_	_	_	_	_	
+60-6	4958-4959	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4961-4962	#	_	_	_	_	_	_	_	
+61-2	4962-4963	P	_	_	_	_	_	_	_	
+61-3	4964-4967	IMM	_	_	_	_	_	_	_	
+61-4	4967-4968	.	_	_	_	_	_	_	_	
+
+#Text=Den Nya Välfärden är en opinionsbildande tanke- och handlingsmedja som arbetar för demokrati, välfärd och företagande.
+62-1	4970-4973	Den	_	_	_	_	_	_	_	
+62-2	4974-4977	Nya	_	_	_	_	_	_	_	
+62-3	4978-4987	Välfärden	_	_	_	_	_	_	_	
+62-4	4988-4990	är	_	_	_	_	_	_	_	
+62-5	4991-4993	en	_	_	_	_	_	_	_	
+62-6	4994-5010	opinionsbildande	_	_	_	_	_	_	_	
+62-7	5011-5016	tanke	_	_	_	_	_	_	_	
+62-8	5016-5017	-	_	_	_	_	_	_	_	
+62-9	5018-5021	och	_	_	_	_	_	_	_	
+62-10	5022-5036	handlingsmedja	_	_	_	_	_	_	_	
+62-11	5037-5040	som	_	_	_	_	_	_	_	
+62-12	5041-5048	arbetar	_	_	_	_	_	_	_	
+62-13	5049-5052	för	_	_	_	_	_	_	_	
+62-14	5053-5062	demokrati	_	_	_	_	_	_	_	
+62-15	5062-5063	,	_	_	_	_	_	_	_	
+62-16	5064-5071	välfärd	_	_	_	_	_	_	_	
+62-17	5072-5075	och	_	_	_	_	_	_	_	
+62-18	5076-5087	företagande	_	_	_	_	_	_	_	
+62-19	5087-5088	.	_	_	_	_	_	_	_	
+
+#Text=Vi är partipolitiskt oberoende.
+63-1	5089-5091	Vi	_	_	_	_	_	_	_	
+63-2	5092-5094	är	_	_	_	_	_	_	_	
+63-3	5095-5109	partipolitiskt	_	_	_	_	_	_	_	
+63-4	5110-5119	oberoende	_	_	_	_	_	_	_	
+63-5	5119-5120	.	_	_	_	_	_	_	_	
+
+#Text=Historiskt har våra förslag blivit till verklighet under såväl socialdemokratiska regeringar som under borgerliga regeringar.
+64-1	5121-5131	Historiskt	_	_	_	_	_	_	_	
+64-2	5132-5135	har	_	_	_	_	_	_	_	
+64-3	5136-5140	våra	_	_	_	_	_	_	_	
+64-4	5141-5148	förslag	_	_	_	_	_	_	_	
+64-5	5149-5155	blivit	_	_	_	_	_	_	_	
+64-6	5156-5160	till	_	_	_	_	_	_	_	
+64-7	5161-5171	verklighet	_	_	_	_	_	_	_	
+64-8	5172-5177	under	_	_	_	_	_	_	_	
+64-9	5178-5183	såväl	_	_	_	_	_	_	_	
+64-10	5184-5202	socialdemokratiska	_	_	_	_	_	_	_	
+64-11	5203-5213	regeringar	_	_	_	_	_	_	_	
+64-12	5214-5217	som	_	_	_	_	_	_	_	
+64-13	5218-5223	under	_	_	_	_	_	_	_	
+64-14	5224-5234	borgerliga	_	_	_	_	_	_	_	
+64-15	5235-5245	regeringar	_	_	_	_	_	_	_	
+64-16	5245-5246	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5248-5249	#	_	_	_	_	_	_	_	
+65-2	5249-5250	P	_	_	_	_	_	_	_	
+65-3	5251-5254	IMM	_	_	_	_	_	_	_	
+65-4	5254-5255	.	_	_	_	_	_	_	_	
+
+#Text=Den Nya Välfärden finansieras av runt 18 000 företagare som med sitt stöd hjälper oss att bland annat skapa ett bättre företagarklimat i Sverige.
+66-1	5257-5260	Den	_	_	_	_	_	_	_	
+66-2	5261-5264	Nya	_	_	_	_	_	_	_	
+66-3	5265-5274	Välfärden	_	_	_	_	_	_	_	
+66-4	5275-5286	finansieras	_	_	_	_	_	_	_	
+66-5	5287-5289	av	_	_	_	_	_	_	_	
+66-6	5290-5294	runt	_	_	_	_	_	_	_	
+66-7	5295-5297	18	_	_	_	_	_	_	_	
+66-8	5298-5301	000	_	_	_	_	_	_	_	
+66-9	5302-5312	företagare	_	_	_	_	_	_	_	
+66-10	5313-5316	som	_	_	_	_	_	_	_	
+66-11	5317-5320	med	_	_	_	_	_	_	_	
+66-12	5321-5325	sitt	_	_	_	_	_	_	_	
+66-13	5326-5330	stöd	_	_	_	_	_	_	_	
+66-14	5331-5338	hjälper	_	_	_	_	_	_	_	
+66-15	5339-5342	oss	_	_	_	_	_	_	_	
+66-16	5343-5346	att	_	_	_	_	_	_	_	
+66-17	5347-5352	bland	_	_	_	_	_	_	_	
+66-18	5353-5358	annat	_	_	_	_	_	_	_	
+66-19	5359-5364	skapa	_	_	_	_	_	_	_	
+66-20	5365-5368	ett	_	_	_	_	_	_	_	
+66-21	5369-5375	bättre	_	_	_	_	_	_	_	
+66-22	5376-5391	företagarklimat	_	_	_	_	_	_	_	
+66-23	5392-5393	i	_	_	_	_	_	_	_	
+66-24	5394-5401	Sverige	_	_	_	_	_	_	_	
+66-25	5401-5402	.	_	_	_	_	_	_	_	
+
+#Text=Den Nya Välfärdens har bland annat bidragit till att skolpengen blev verklighet och att vissa offentliga monopol upphävts.
+67-1	5403-5406	Den	_	_	_	_	_	_	_	
+67-2	5407-5410	Nya	_	_	_	_	_	_	_	
+67-3	5411-5421	Välfärdens	_	_	_	_	_	_	_	
+67-4	5422-5425	har	_	_	_	_	_	_	_	
+67-5	5426-5431	bland	_	_	_	_	_	_	_	
+67-6	5432-5437	annat	_	_	_	_	_	_	_	
+67-7	5438-5446	bidragit	_	_	_	_	_	_	_	
+67-8	5447-5451	till	_	_	_	_	_	_	_	
+67-9	5452-5455	att	_	_	_	_	_	_	_	
+67-10	5456-5466	skolpengen	_	_	_	_	_	_	_	
+67-11	5467-5471	blev	_	_	_	_	_	_	_	
+67-12	5472-5482	verklighet	_	_	_	_	_	_	_	
+67-13	5483-5486	och	_	_	_	_	_	_	_	
+67-14	5487-5490	att	_	_	_	_	_	_	_	
+67-15	5491-5496	vissa	_	_	_	_	_	_	_	
+67-16	5497-5507	offentliga	_	_	_	_	_	_	_	
+67-17	5508-5515	monopol	_	_	_	_	_	_	_	
+67-18	5516-5524	upphävts	_	_	_	_	_	_	_	
+67-19	5524-5525	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	5527-5528	#	_	_	_	_	_	_	_	
+68-2	5528-5529	P	_	_	_	_	_	_	_	
+68-3	5530-5533	IMM	_	_	_	_	_	_	_	
+68-4	5533-5534	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+69-1	5536-5544	Redaktör	_	_	_	_	_	_	_	
+69-2	5544-5545	:	_	_	_	_	_	_	_	
+69-3	5546-5552	Carina	_	_	_	_	_	_	_	
+69-4	5553-5561	Stensson	_	_	_	_	_	_	_	
+69-5	5561-5562	,	_	_	_	_	_	_	_	
+69-6	5563-5573	Biträdande	_	_	_	_	_	_	_	
+69-7	5574-5582	redaktör	_	_	_	_	_	_	_	
+69-8	5582-5583	:	_	_	_	_	_	_	_	
+69-9	5584-5589	Björn	_	_	_	_	_	_	_	
+69-10	5590-5596	Jorner	_	_	_	_	_	_	_	
+69-11	5596-5597	,	_	_	_	_	_	_	_	
+69-12	5598-5602	Mejl	_	_	_	_	_	_	_	
+69-13	5602-5603	:	_	_	_	_	_	_	_	
+69-14	5604-5610	debatt	_	_	_	_	_	_	_	
+69-15	5610-5611	@	_	_	_	_	_	_	_	
+69-16	5611-5617	svd.se	_	_	_	_	_	_	_	
+69-17	5617-5618	,	_	_	_	_	_	_	_	
+69-18	5619-5632	Telefonnummer	_	_	_	_	_	_	_	
+69-19	5632-5633	:	_	_	_	_	_	_	_	
+69-20	5634-5636	08	_	_	_	_	_	_	_	
+69-21	5636-5637	-	_	_	_	_	_	_	_	
+69-22	5637-5643	135149	_	_	_	_	_	_	_	
+69-23	5643-5644	,	_	_	_	_	_	_	_	
+69-24	5645-5652	Twitter	_	_	_	_	_	_	_	
+69-25	5652-5653	:	_	_	_	_	_	_	_	
+69-26	5654-5655	@	_	_	_	_	_	_	_	
+69-27	5655-5664	SvDDebatt	_	_	_	_	_	_	_	
+69-28	5664-5665	,	_	_	_	_	_	_	_	
+69-29	5666-5674	Facebook	_	_	_	_	_	_	_	
+69-30	5674-5675	:	_	_	_	_	_	_	_	
+69-31	5676-5679	SvD	_	_	_	_	_	_	_	
+69-32	5680-5686	Debatt	_	_	_	_	_	_	_	
+69-33	5686-5687	.	_	_	_	_	_	_	_	

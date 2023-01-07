@@ -1,0 +1,377 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Det är bra att vi blir arga på julkalendern.
+3-1	18-21	Det	_	_	_	_	_	_	_	
+3-2	22-24	är	_	Target[1]	3-4[14]	false[1]	4[1]	_	_	
+3-3	25-28	bra	_	Target[1]	3-4[14]	false[1]	4[1]	_	_	
+3-4	29-32	att	*[14]|*[15]	_	_	_	_	_	10-6[0_15]	
+3-5	33-35	vi	*[14]|*[15]	_	_	_	_	_	_	
+3-6	36-40	blir	*[14]|*[15]	Target;Source[2]	3-9[16];3-10	false[2]	1[2]	_	_	
+3-7	41-45	arga	*[14]|*[15]	Target;Source[2]	3-9[16];3-10	false[2]	1[2]	_	_	
+3-8	46-48	på	*[14]|*[15]	Target;Source[2]	3-9[16];3-10	false[2]	1[2]	_	_	
+3-9	49-61	julkalendern	*[14]|*[15]|*[16]	_	_	_	_	_	_	
+3-10	61-62	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=LÄSAR Rasande publik efter premiäravsnittet är väl en lika befäst tradition som julkalendern i sig.
+5-1	73-78	LÄSAR	_	_	_	_	_	_	_	
+5-2	79-86	Rasande	_	Target;Source	5-5;5-3	false	1	_	_	
+5-3	87-93	publik	*	_	_	_	_	_	_	
+5-4	94-99	efter	_	_	_	_	_	_	_	
+5-5	100-116	premiäravsnittet	*	_	_	_	_	_	_	
+5-6	117-119	är	_	_	_	_	_	_	_	
+5-7	120-123	väl	_	_	_	_	_	_	_	
+5-8	124-126	en	_	_	_	_	_	_	_	
+5-9	127-131	lika	_	_	_	_	_	_	_	
+5-10	132-138	befäst	_	_	_	_	_	_	_	
+5-11	139-148	tradition	_	_	_	_	_	_	_	
+5-12	149-152	som	_	_	_	_	_	_	_	
+5-13	153-165	julkalendern	_	_	_	_	_	_	_	
+5-14	166-167	i	_	_	_	_	_	_	_	
+5-15	168-171	sig	_	_	_	_	_	_	_	
+5-16	171-172	.	_	_	_	_	_	_	_	
+
+#Text=Och vi som lyckas hålla oss lugna står bredvid och skakar på huvudet.
+6-1	173-176	Och	_	_	_	_	_	_	_	
+6-2	177-179	vi	*[17]	_	_	_	_	_	_	
+6-3	180-183	som	*[17]	_	_	_	_	_	_	
+6-4	184-190	lyckas	*[17]	_	_	_	_	_	_	
+6-5	191-196	hålla	*[17]	_	_	_	_	_	_	
+6-6	197-200	oss	*[17]	_	_	_	_	_	_	
+6-7	201-206	lugna	*[17]	_	_	_	_	_	_	
+6-8	207-211	står	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-9	212-219	bredvid	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-10	220-223	och	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-11	224-230	skakar	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-12	231-233	på	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-13	234-241	huvudet	_	Source[3]	6-2[17]	false[3]	2[3]	_	_	
+6-14	241-242	.	_	_	_	_	_	_	_	
+
+#Text=Har dessa indignerade föräldrar verkligen inget vettigare att klaga på, tänker den förnuftige.
+7-1	243-246	Har	*[18]|*[19]	_	_	_	_	_	8-4[0_19]	
+7-2	247-252	dessa	*[18]|*[19]	_	_	_	_	_	_	
+7-3	253-264	indignerade	*[18]|*[19]	Source	7-4[20]	false	2	_	_	
+7-4	265-274	föräldrar	*[18]|*[19]|*[20]	_	_	_	_	_	_	
+7-5	275-284	verkligen	*[18]|*[19]	_	_	_	_	_	_	
+7-6	285-290	inget	*[18]|*[19]	_	_	_	_	_	_	
+7-7	291-300	vettigare	*[18]|*[19]	_	_	_	_	_	_	
+7-8	301-304	att	*[18]|*[19]	_	_	_	_	_	_	
+7-9	305-310	klaga	*[18]|*[19]	_	_	_	_	_	_	
+7-10	311-313	på	*[18]|*[19]	_	_	_	_	_	_	
+7-11	313-314	,	_	_	_	_	_	_	_	
+7-12	315-321	tänker	_	Target[4]	7-1[18]	false[4]	4[4]	_	_	
+7-13	322-325	den	_	Target[4]	7-1[18]	false[4]	4[4]	_	_	
+7-14	326-336	förnuftige	_	Target[4]	7-1[18]	false[4]	4[4]	_	_	
+7-15	336-337	.	_	_	_	_	_	_	_	
+
+#Text=Och visst är frågan berättigad.
+8-1	338-341	Och	_	_	_	_	_	_	_	
+8-2	342-347	visst	_	_	_	_	_	_	_	
+8-3	348-350	är	_	_	_	false	4	_	_	
+8-4	351-357	frågan	*	_	_	_	_	_	_	
+8-5	358-368	berättigad	_	Target	8-4	false	4	8-3	_	
+8-6	368-369	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	371-372	#	_	_	_	_	_	_	_	
+9-2	372-373	P	_	_	_	_	_	_	_	
+9-3	374-377	IMM	_	_	_	_	_	_	_	
+9-4	377-378	.	_	_	_	_	_	_	_	
+
+#Text=Men å andra sidan, det är kanske ett gott tecken?
+10-1	380-383	Men	_	_	_	_	_	_	_	
+10-2	384-385	å	_	_	_	_	_	_	_	
+10-3	386-391	andra	_	_	_	_	_	_	_	
+10-4	392-397	sidan	_	_	_	_	_	_	_	
+10-5	397-398	,	_	_	_	_	_	_	_	
+10-6	399-402	det	*	_	_	_	_	_	_	
+10-7	403-405	är	_	Target[5]	10-6	false[5]	4[5]	_	_	
+10-8	406-412	kanske	_	Target[5]	10-6	false[5]	4[5]	_	_	
+10-9	413-416	ett	_	Target[5]	10-6	false[5]	4[5]	_	_	
+10-10	417-421	gott	_	Target[5]	10-6	false[5]	4[5]	_	_	
+10-11	422-428	tecken	_	Target[5]	10-6	false[5]	4[5]	_	_	
+10-12	428-429	?	_	_	_	_	_	_	_	
+
+#Text=Att folk orkar.
+11-1	430-433	Att	_	_	_	_	_	_	_	
+11-2	434-438	folk	_	_	_	_	_	_	_	
+11-3	439-444	orkar	_	_	_	_	_	_	_	
+11-4	444-445	.	_	_	_	_	_	_	_	
+
+#Text=Det torde vara ett friskhetstecken när en ansenlig del av befolkningen har tillräckligt med krafter över att kanalisera på detta.
+12-1	446-449	Det	_	_	_	_	_	_	_	
+12-2	450-455	torde	_	Target[6]	12-6[21]	false[6]	4[6]	_	_	
+12-3	456-460	vara	_	Target[6]	12-6[21]	false[6]	4[6]	_	_	
+12-4	461-464	ett	_	Target[6]	12-6[21]	false[6]	4[6]	_	_	
+12-5	465-480	friskhetstecken	_	Target[6]	12-6[21]	false[6]	4[6]	_	_	
+12-6	481-484	när	*[21]	_	_	_	_	_	_	
+12-7	485-487	en	*[21]	_	_	_	_	_	_	
+12-8	488-496	ansenlig	*[21]	_	_	_	_	_	_	
+12-9	497-500	del	*[21]	_	_	_	_	_	_	
+12-10	501-503	av	*[21]	_	_	_	_	_	_	
+12-11	504-516	befolkningen	*[21]	_	_	_	_	_	_	
+12-12	517-520	har	*[21]	_	_	_	_	_	_	
+12-13	521-533	tillräckligt	*[21]	_	_	_	_	_	_	
+12-14	534-537	med	*[21]	_	_	_	_	_	_	
+12-15	538-545	krafter	*[21]	_	_	_	_	_	_	
+12-16	546-550	över	*[21]	_	_	_	_	_	_	
+12-17	551-554	att	*[21]	_	_	_	_	_	_	
+12-18	555-565	kanalisera	*[21]	_	_	_	_	_	_	
+12-19	566-568	på	*[21]	_	_	_	_	_	_	
+12-20	569-574	detta	*[21]	_	_	_	_	_	_	
+12-21	574-575	.	_	_	_	_	_	_	_	
+
+#Text=Denna typ av traditionsenliga lyxutbrott mot folkhemssjälens innersta borde vara förunnat enbart det samhälle där medborgarna är befriade från de värsta plågorna.
+13-1	576-581	Denna	_	_	_	_	_	_	_	
+13-2	582-585	typ	_	_	_	_	_	_	_	
+13-3	586-588	av	_	_	_	_	_	_	_	
+13-4	589-605	traditionsenliga	_	_	_	_	_	_	_	
+13-5	606-616	lyxutbrott	*	Target	13-5	true	2	_	_	
+13-6	617-620	mot	_	_	_	_	_	_	_	
+13-7	621-636	folkhemssjälens	_	_	_	_	_	_	_	
+13-8	637-645	innersta	_	_	_	_	_	_	_	
+13-9	646-651	borde	_	_	_	_	_	_	_	
+13-10	652-656	vara	_	_	_	_	_	_	_	
+13-11	657-665	förunnat	_	_	_	_	_	_	_	
+13-12	666-672	enbart	_	_	_	_	_	_	_	
+13-13	673-676	det	_	_	_	_	_	_	_	
+13-14	677-685	samhälle	_	_	_	_	_	_	_	
+13-15	686-689	där	_	_	_	_	_	_	_	
+13-16	690-701	medborgarna	_	_	_	_	_	_	_	
+13-17	702-704	är	_	_	_	_	_	_	_	
+13-18	705-713	befriade	_	_	_	_	_	_	_	
+13-19	714-718	från	_	_	_	_	_	_	_	
+13-20	719-721	de	_	_	_	_	_	_	_	
+13-21	722-728	värsta	_	_	_	_	_	_	_	
+13-22	729-737	plågorna	_	_	_	_	_	_	_	
+13-23	737-738	.	_	_	_	false	4	_	_	
+
+#Text=Och vad är det egentligen de indignerade föräldrarna gör?.
+14-1	739-742	Och	_	_	_	_	_	_	_	
+14-2	743-746	vad	_	_	_	_	_	_	_	
+14-3	747-749	är	_	_	_	_	_	_	_	
+14-4	750-753	det	_	_	_	_	_	_	_	
+14-5	754-764	egentligen	_	_	_	_	_	_	_	
+14-6	765-767	de	*[22]	_	_	_	_	_	17-1[0_22]	
+14-7	768-779	indignerade	*[22]	Source	14-8[23]	false	2	_	_	
+14-8	780-791	föräldrarna	*[22]|*[23]	_	_	_	_	_	_	
+14-9	792-795	gör	_	_	_	_	_	_	_	
+14-10	795-796	?	_	_	_	_	_	_	_	
+14-11	796-797	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	799-800	#	_	_	_	_	_	_	_	
+15-2	800-801	P	_	_	_	_	_	_	_	
+15-3	802-805	IMM	_	_	_	_	_	_	_	
+15-4	805-806	.	_	_	_	_	_	_	_	
+
+#Text=Jo, de riktar fokus mot barnens arenor.
+16-1	808-810	Jo	_	_	_	_	_	_	_	
+16-2	810-811	,	_	_	_	_	_	_	_	
+16-3	812-814	de	_	_	_	_	_	_	_	
+16-4	815-821	riktar	_	_	_	_	_	_	_	
+16-5	822-827	fokus	_	_	_	_	_	_	_	
+16-6	828-831	mot	_	_	_	_	_	_	_	
+16-7	832-839	barnens	_	_	_	_	_	_	_	
+16-8	840-846	arenor	_	_	_	_	_	_	_	
+16-9	846-847	.	_	_	_	_	_	_	_	
+
+#Text=De befäster värdet av en gemensam kultur där barnen får vara i centrum.
+17-1	848-850	De	*	_	_	_	_	_	_	
+17-2	851-859	befäster	_	Source;Target[7]	17-1;17-5[24]	false[7]	4[7]	_	_	
+17-3	860-866	värdet	_	Source;Target[7]	17-1;17-5[24]	false[7]	4[7]	_	_	
+17-4	867-869	av	_	Source;Target[7]	17-1;17-5[24]	false[7]	4[7]	_	_	
+17-5	870-872	en	*[24]	_	_	_	_	_	_	
+17-6	873-881	gemensam	*[24]	_	_	_	_	_	_	
+17-7	882-888	kultur	*[24]	_	_	_	_	_	_	
+17-8	889-892	där	*[24]	_	_	_	_	_	_	
+17-9	893-899	barnen	*[24]	_	_	_	_	_	_	
+17-10	900-903	får	*[24]	_	_	_	_	_	_	
+17-11	904-908	vara	*[24]	_	_	_	_	_	_	
+17-12	909-910	i	*[24]	_	_	_	_	_	_	
+17-13	911-918	centrum	*[24]	_	_	_	_	_	_	
+17-14	918-919	.	_	_	_	_	_	_	_	
+
+#Text=Vissa hävdar att Sverige är ett splittrat samhälle, men detta är väl ändå tecken på motsatsen?
+18-1	920-925	Vissa	_	_	_	_	_	_	_	
+18-2	926-932	hävdar	_	_	_	_	_	_	_	
+18-3	933-936	att	_	_	_	_	_	_	_	
+18-4	937-944	Sverige	_	_	_	_	_	_	_	
+18-5	945-947	är	_	_	_	_	_	_	_	
+18-6	948-951	ett	_	_	_	_	_	_	_	
+18-7	952-961	splittrat	_	_	_	_	_	_	_	
+18-8	962-970	samhälle	_	_	_	_	_	_	_	
+18-9	970-971	,	_	_	_	_	_	_	_	
+18-10	972-975	men	_	_	_	_	_	_	_	
+18-11	976-981	detta	_	_	_	_	_	_	_	
+18-12	982-984	är	_	_	_	_	_	_	_	
+18-13	985-988	väl	_	_	_	_	_	_	_	
+18-14	989-993	ändå	_	_	_	_	_	_	_	
+18-15	994-1000	tecken	_	_	_	_	_	_	_	
+18-16	1001-1003	på	_	_	_	_	_	_	_	
+18-17	1004-1013	motsatsen	_	_	_	_	_	_	_	
+18-18	1013-1014	?	_	_	_	false	4	_	_	
+
+#Text=Rör inte Kalle Anka och gör för allt i världen inte julkalendern till ett faktaprogram för då jävlar blir vi gemensamt folkhemsförbannade!.
+19-1	1015-1018	Rör	_	Source;Target[8]	19-24[28];19-3[25]	false[8]	5[8]	_	_	
+19-2	1019-1023	inte	_	Source;Target[8]	19-24[28];19-3[25]	false[8]	5[8]	_	_	
+19-3	1024-1029	Kalle	*[25]	_	_	_	_	_	_	
+19-4	1030-1034	Anka	*[25]	_	_	_	_	_	_	
+19-5	1035-1038	och	_	_	_	_	_	_	_	
+19-6	1039-1042	gör	*[26]	_	_	_	_	_	_	
+19-7	1043-1046	för	*[26]	_	_	_	_	_	_	
+19-8	1047-1051	allt	*[26]	_	_	_	_	_	_	
+19-9	1052-1053	i	*[26]	_	_	_	_	_	_	
+19-10	1054-1061	världen	*[26]	_	_	_	_	_	_	
+19-11	1062-1066	inte	*[26]	_	_	_	_	_	_	
+19-12	1067-1079	julkalendern	*[26]	_	_	_	_	_	_	
+19-13	1080-1084	till	*[26]	_	_	_	_	_	_	
+19-14	1085-1088	ett	*[26]	_	_	_	_	_	_	
+19-15	1089-1101	faktaprogram	*[26]	_	_	_	_	_	_	
+19-16	1102-1105	för	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-17	1106-1108	då	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-18	1109-1115	jävlar	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-19	1116-1120	blir	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-20	1121-1123	vi	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-21	1124-1133	gemensamt	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-22	1134-1152	folkhemsförbannade	_	Target;Source[9]	19-6[26];19-24[27]	false[9]	1[9]	_	_	
+19-23	1152-1153	!	_	_	_	_	_	_	_	
+19-24	1153-1154	.	*[27]|*[28]	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1156-1157	#	_	_[10]	_	false[10]	4[10]	_	_	
+20-2	1157-1158	P	_	_[10]	_	false[10]	4[10]	_	_	
+20-3	1159-1162	IMM	_	_[10]	_	false[10]	4[10]	_	_	
+20-4	1162-1163	.	_	_	_	_	_	_	_	
+
+#Text=Visserligen kan vi som står bredvid invända att den frustation som kastas på Lotta Lundgren och alla getter från vikingatiden är symptom på ett djupare problem.
+21-1	1165-1176	Visserligen	_	_	_	_	_	_	_	
+21-2	1177-1180	kan	_	_	_	_	_	_	_	
+21-3	1181-1183	vi	_	_	_	_	_	_	_	
+21-4	1184-1187	som	_	_	_	_	_	_	_	
+21-5	1188-1192	står	_	_	_	_	_	_	_	
+21-6	1193-1200	bredvid	_	_	_	_	_	_	_	
+21-7	1201-1208	invända	_	_	_	_	_	_	_	
+21-8	1209-1212	att	_	_	_	_	_	_	_	
+21-9	1213-1216	den	_	_	_	_	_	_	_	
+21-10	1217-1227	frustation	_	Target;Source[11]	21-14[29];21-27	false[11]	2[11]	_	_	
+21-11	1228-1231	som	_	Target;Source[11]	21-14[29];21-27	false[11]	2[11]	_	_	
+21-12	1232-1238	kastas	_	Target;Source[11]	21-14[29];21-27	false[11]	2[11]	_	_	
+21-13	1239-1241	på	_	Target;Source[11]	21-14[29];21-27	false[11]	2[11]	_	_	
+21-14	1242-1247	Lotta	*[29]	_	_	_	_	_	_	
+21-15	1248-1256	Lundgren	*[29]	_	_	_	_	_	_	
+21-16	1257-1260	och	*[29]	_	_	_	_	_	_	
+21-17	1261-1265	alla	*[29]	_	_	_	_	_	_	
+21-18	1266-1272	getter	*[29]	_	_	_	_	_	_	
+21-19	1273-1277	från	*[29]	_	_	_	_	_	_	
+21-20	1278-1290	vikingatiden	*[29]	_	_	_	_	_	_	
+21-21	1291-1293	är	_	_	_	_	_	_	_	
+21-22	1294-1301	symptom	_	_	_	_	_	_	_	
+21-23	1302-1304	på	_	_	_	_	_	_	_	
+21-24	1305-1308	ett	_	_	_	_	_	_	_	
+21-25	1309-1316	djupare	_	_	_	_	_	_	_	
+21-26	1317-1324	problem	_	_	_	_	_	_	_	
+21-27	1324-1325	.	*	_	_	_	_	_	_	
+
+#Text=Men – i så fall är det väl alldeles utmärkt att SVT i sitt forum kan tillhandahålla denna nationella terapistation och katharsiskälla där stukade svenskar kan vräka ur sig.
+22-1	1326-1329	Men	_	_	_	_	_	_	_	
+22-2	1330-1331	–	_	_	_	_	_	_	_	
+22-3	1332-1333	i	_	_	_	_	_	_	_	
+22-4	1334-1336	så	_	_	_	_	_	_	_	
+22-5	1337-1341	fall	_	_	_	_	_	_	_	
+22-6	1342-1344	är	_	_	_	false	5	_	_	
+22-7	1345-1348	det	_	_	_	_	_	_	_	
+22-8	1349-1352	väl	_	_	_	_	_	_	_	
+22-9	1353-1361	alldeles	_	Target[12]	22-11[30]	false[12]	5[12]	22-6[0_12]	_	
+22-10	1362-1369	utmärkt	_	Target[12]	22-11[30]	false[12]	5[12]	_	_	
+22-11	1370-1373	att	*[30]	_	_	_	_	_	_	
+22-12	1374-1377	SVT	*[30]	_	_	_	_	_	_	
+22-13	1378-1379	i	*[30]	_	_	_	_	_	_	
+22-14	1380-1384	sitt	*[30]	_	_	_	_	_	_	
+22-15	1385-1390	forum	*[30]	_	_	_	_	_	_	
+22-16	1391-1394	kan	*[30]	_	_	_	_	_	_	
+22-17	1395-1409	tillhandahålla	*[30]	_	_	_	_	_	_	
+22-18	1410-1415	denna	*[30]	_	_	_	_	_	_	
+22-19	1416-1426	nationella	*[30]	_	_	_	_	_	_	
+22-20	1427-1440	terapistation	*[30]	_	_	_	_	_	_	
+22-21	1441-1444	och	*[30]	_	_	_	_	_	_	
+22-22	1445-1459	katharsiskälla	*[30]	_	_	_	_	_	_	
+22-23	1460-1463	där	*[30]	_	_	_	_	_	_	
+22-24	1464-1471	stukade	*[30]|*[31]	_	_	_	_	_	_	
+22-25	1472-1480	svenskar	*[30]|*[31]	_	_	_	_	_	_	
+22-26	1481-1484	kan	*[30]	Target[13]	22-24[31]	false[13]	2[13]	_	_	
+22-27	1485-1490	vräka	*[30]	Target[13]	22-24[31]	false[13]	2[13]	_	_	
+22-28	1491-1493	ur	*[30]	Target[13]	22-24[31]	false[13]	2[13]	_	_	
+22-29	1494-1497	sig	*[30]	Target[13]	22-24[31]	false[13]	2[13]	_	_	
+22-30	1497-1498	.	_	_	_	_	_	_	_	
+
+#Text=Det är trots allt bättre att rasa mot julkalendern än mot att vissa nya svenskar har annan hårfärg än vi är vana vid.
+23-1	1499-1502	Det	_	_	_	_	_	_	_	
+23-2	1503-1505	är	_	_	_	false	4	_	_	
+23-3	1506-1511	trots	_	_	_	_	_	_	_	
+23-4	1512-1516	allt	_	_	_	_	_	_	_	
+23-5	1517-1523	bättre	_	Target	23-6[32]	false	4	23-2	_	
+23-6	1524-1527	att	*[32]	_	_	_	_	_	_	
+23-7	1528-1532	rasa	*[32]	_	_	_	_	_	_	
+23-8	1533-1536	mot	*[32]	_	_	_	_	_	_	
+23-9	1537-1549	julkalendern	*[32]	_	_	_	_	_	_	
+23-10	1550-1552	än	*[32]	_	_	_	_	_	_	
+23-11	1553-1556	mot	*[32]	_	_	_	_	_	_	
+23-12	1557-1560	att	*[32]	_	_	_	_	_	_	
+23-13	1561-1566	vissa	*[32]	_	_	_	_	_	_	
+23-14	1567-1570	nya	*[32]	_	_	_	_	_	_	
+23-15	1571-1579	svenskar	*[32]	_	_	_	_	_	_	
+23-16	1580-1583	har	*[32]	_	_	_	_	_	_	
+23-17	1584-1589	annan	*[32]	_	_	_	_	_	_	
+23-18	1590-1597	hårfärg	*[32]	_	_	_	_	_	_	
+23-19	1598-1600	än	*[32]	_	_	_	_	_	_	
+23-20	1601-1603	vi	*[32]	_	_	_	_	_	_	
+23-21	1604-1606	är	*[32]	_	_	_	_	_	_	
+23-22	1607-1611	vana	*[32]	_	_	_	_	_	_	
+23-23	1612-1615	vid	*[32]	_	_	_	_	_	_	
+23-24	1615-1616	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1618-1619	#	_	_	_	_	_	_	_	
+24-2	1619-1620	P	_	_	_	_	_	_	_	
+24-3	1621-1624	IMM	_	_	_	_	_	_	_	
+24-4	1624-1625	.	_	_	_	_	_	_	_	
+
+#Text=Mikael Högman.
+25-1	1627-1633	Mikael	_	_	_	_	_	_	_	
+25-2	1634-1640	Högman	_	_	_	_	_	_	_	
+25-3	1640-1641	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1643-1644	#	_	_	_	_	_	_	_	
+26-2	1644-1645	P	_	_	_	_	_	_	_	
+26-3	1646-1649	IMM	_	_	_	_	_	_	_	
+26-4	1649-1650	.	_	_	_	_	_	_	_	
+
+#Text=Student och skribent.
+27-1	1652-1659	Student	_	_	_	_	_	_	_	
+27-2	1660-1663	och	_	_	_	_	_	_	_	
+27-3	1664-1672	skribent	_	_	_	_	_	_	_	
+27-4	1672-1673	.	_	_	_	_	_	_	_	

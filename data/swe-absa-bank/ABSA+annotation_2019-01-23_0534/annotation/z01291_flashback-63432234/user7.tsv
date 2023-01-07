@@ -1,0 +1,315 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Björn Mellquist (Agape Varberg): Därför behövs de nyanlända.
+3-1	18-23	Björn	*[8]	_	_	_	_	_	
+3-2	24-33	Mellquist	*[8]	_	_	_	_	_	
+3-3	34-35	(	*[8]	_	_	_	_	_	
+3-4	35-40	Agape	*[8]	_	_	_	_	_	
+3-5	41-48	Varberg	*[8]	_	_	_	_	_	
+3-6	48-49	)	*[8]	_	_	_	_	_	
+3-7	49-50	:	_	_	_	_	_	_	
+3-8	51-57	Därför	_	_	_	_	_	_	
+3-9	58-64	behövs	_	Target;Source	3-10[9];3-1[8]	false	4	_	
+3-10	65-67	de	*[9]	_	_	_	_	_	
+3-11	68-77	nyanlända	*[9]	_	_	_	_	_	
+3-12	77-78	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	80-81	#	_	_	_	_	_	_	
+4-2	81-82	P	_	_	_	_	_	_	
+4-3	83-86	IMM	_	_	_	false	2	_	
+4-4	86-87	.	_	_	_	_	_	_	
+
+#Text=Gamla vanliga svamlet..
+5-1	89-94	Gamla	_	_	_	_	_	_	
+5-2	95-102	vanliga	_	_	_	_	_	_	
+5-3	103-110	svamlet	*	Target	5-3	false	2	_	
+5-4	110-111	.	_	_	_	_	_	_	
+5-5	111-112	.	_	_	_	_	_	_	
+
+#Text=För att man inte vill ta emot 25 åriga lyxmigranter från Afghanistan som utger sig för att vara 17.
+6-1	113-116	För	_	_	_	_	_	_	
+6-2	117-120	att	_	_	_	_	_	_	
+6-3	121-124	man	_	_	_	_	_	_	
+6-4	125-129	inte	_	_	_	_	_	_	
+6-5	130-134	vill	_	_	_	_	_	_	
+6-6	135-137	ta	_	_	_	_	_	_	
+6-7	138-142	emot	_	_	_	_	_	_	
+6-8	143-145	25	_	_	_	_	_	_	
+6-9	146-151	åriga	_	_	_	_	_	_	
+6-10	152-164	lyxmigranter	*	Target	6-10	false	2	_	
+6-11	165-169	från	_	_	_	_	_	_	
+6-12	170-181	Afghanistan	_	_	_	_	_	_	
+6-13	182-185	som	_	_	_	_	_	_	
+6-14	186-191	utger	_	_	_	_	_	_	
+6-15	192-195	sig	_	_	_	_	_	_	
+6-16	196-199	för	_	_	_	_	_	_	
+6-17	200-203	att	_	_	_	_	_	_	
+6-18	204-208	vara	_	_	_	_	_	_	
+6-19	209-211	17	_	_	_	_	_	_	
+6-20	211-212	.	_	_	_	_	_	_	
+
+#Text=Dessa är dessutom kraftigt överrepresenterade i våldtäktsstatistiken.
+7-1	213-218	Dessa	_	_	_	_	_	_	
+7-2	219-221	är	_	_	_	_	_	_	
+7-3	222-230	dessutom	_	_	_	_	_	_	
+7-4	231-239	kraftigt	_	_	_	_	_	_	
+7-5	240-258	överrepresenterade	_	_	_	_	_	_	
+7-6	259-260	i	_	_	_	_	_	_	
+7-7	261-281	våldtäktsstatistiken	_	_	_	_	_	_	
+7-8	281-282	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	284-285	#	_	_	_	_	_	_	
+8-2	285-286	P	_	_	_	_	_	_	
+8-3	287-290	IMM	_	_	_	false	1	_	
+8-4	290-291	.	_	_	_	_	_	_	
+
+#Text=Tack för att våra svenska kvinnor inte längre kan gå ut själva på kvällen utan att få smaka på mångkulturen, den skulden kan folk som Björn ta på sig.
+9-1	293-297	Tack	_	_	_	true	4	_	
+9-2	298-301	för	_	_	_	_	_	_	
+9-3	302-305	att	_	_	_	_	_	_	
+9-4	306-310	våra	_	_	_	_	_	_	
+9-5	311-318	svenska	_	_	_	_	_	_	
+9-6	319-326	kvinnor	_	_	_	_	_	_	
+9-7	327-331	inte	_	_	_	_	_	_	
+9-8	332-338	längre	_	_	_	_	_	_	
+9-9	339-342	kan	_	_	_	_	_	_	
+9-10	343-345	gå	_	_	_	_	_	_	
+9-11	346-348	ut	_	_	_	_	_	_	
+9-12	349-355	själva	_	_	_	_	_	_	
+9-13	356-358	på	_	_	_	_	_	_	
+9-14	359-366	kvällen	_	_	_	_	_	_	
+9-15	367-371	utan	_	_	_	_	_	_	
+9-16	372-375	att	_	_	_	_	_	_	
+9-17	376-378	få	_	_	_	_	_	_	
+9-18	379-384	smaka	_	_	_	_	_	_	
+9-19	385-387	på	_	_	_	_	_	_	
+9-20	388-400	mångkulturen	_	_	_	_	_	_	
+9-21	400-401	,	_	_	_	_	_	_	
+9-22	402-405	den	_	Target[1]	9-25[10]	false[1]	1[1]	9-28[2_1]	
+9-23	406-413	skulden	_	Target[1]	9-25[10]	false[1]	1[1]	_	
+9-24	414-417	kan	_	Target[1]	9-25[10]	false[1]	1[1]	_	
+9-25	418-422	folk	*[10]	_	_	_	_	_	
+9-26	423-426	som	*[10]	_	_	_	_	_	
+9-27	427-432	Björn	*[10]	_	_	_	_	_	
+9-28	433-435	ta	_	_[2]	_	false[2]	1[2]	_	
+9-29	436-438	på	_	_[2]	_	false[2]	1[2]	_	
+9-30	439-442	sig	_	_[2]	_	false[2]	1[2]	_	
+9-31	442-443	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	445-446	#	_	_	_	_	_	_	
+10-2	446-447	P	_	_	_	_	_	_	
+10-3	448-451	IMM	_	_	_	false	1	_	
+10-4	451-452	.	_	_	_	_	_	_	
+
+#Text=Kan bero på att era påhittade lögner om "ett Sverige som tar emot invandrare blomstrar" är bevisade sen längesen när det i själva verket är tvärtom.
+11-1	454-457	Kan	_	_	_	_	_	_	
+11-2	458-462	bero	_	_	_	_	_	_	
+11-3	463-465	på	_	_	_	_	_	_	
+11-4	466-469	att	_	_	_	_	_	_	
+11-5	470-473	era	_	_	_	_	_	_	
+11-6	474-483	påhittade	_	_	_	_	_	_	
+11-7	484-490	lögner	_	_	_	_	_	_	
+11-8	491-493	om	_	_	_	_	_	_	
+11-9	494-495	"	_	_	_	_	_	_	
+11-10	495-498	ett	_	_	_	_	_	_	
+11-11	499-506	Sverige	_	_	_	_	_	_	
+11-12	507-510	som	_	_	_	_	_	_	
+11-13	511-514	tar	_	_	_	_	_	_	
+11-14	515-519	emot	_	_	_	_	_	_	
+11-15	520-530	invandrare	_	_	_	_	_	_	
+11-16	531-540	blomstrar	_	_	_	_	_	_	
+11-17	540-541	"	_	_	_	_	_	_	
+11-18	542-544	är	_	_	_	_	_	_	
+11-19	545-553	bevisade	_	_	_	_	_	_	
+11-20	554-557	sen	_	_	_	_	_	_	
+11-21	558-566	längesen	_	_	_	_	_	_	
+11-22	567-570	när	_	_	_	_	_	_	
+11-23	571-574	det	_	_	_	_	_	_	
+11-24	575-576	i	_	_	_	_	_	_	
+11-25	577-583	själva	_	_	_	_	_	_	
+11-26	584-590	verket	_	_	_	_	_	_	
+11-27	591-593	är	_	_	_	_	_	_	
+11-28	594-601	tvärtom	_	_	_	_	_	_	
+11-29	601-602	.	_	_	_	_	_	_	
+
+#Text=Kolla Malmö & Södertälje, eller vilken annan kommun som helst som tagit emot många flyktingar.
+12-1	603-608	Kolla	_	_	_	_	_	_	
+12-2	609-614	Malmö	_	_	_	_	_	_	
+12-3	615-616	&	_	_	_	_	_	_	
+12-4	617-627	Södertälje	_	_	_	_	_	_	
+12-5	627-628	,	_	_	_	_	_	_	
+12-6	629-634	eller	_	_	_	_	_	_	
+12-7	635-641	vilken	_	_	_	_	_	_	
+12-8	642-647	annan	_	_	_	_	_	_	
+12-9	648-654	kommun	_	_	_	_	_	_	
+12-10	655-658	som	_	_	_	_	_	_	
+12-11	659-664	helst	_	_	_	_	_	_	
+12-12	665-668	som	_	_	_	_	_	_	
+12-13	669-674	tagit	_	_	_	_	_	_	
+12-14	675-679	emot	_	_	_	_	_	_	
+12-15	680-685	många	_	_	_	_	_	_	
+12-16	686-696	flyktingar	_	_	_	_	_	_	
+12-17	696-697	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	699-700	#	_	_	_	_	_	_	
+13-2	700-701	P	_	_	_	_	_	_	
+13-3	702-705	IMM	_	_	_	false	1	_	
+13-4	705-706	.	_	_	_	_	_	_	
+
+#Text=Lägg där till kostnaden för rättsväsendet & sjukvården för att era "flyktingbarn" inte kan hålla händerna i styr.
+14-1	708-712	Lägg	_	_	_	_	_	_	
+14-2	713-716	där	_	_	_	_	_	_	
+14-3	717-721	till	_	_	_	_	_	_	
+14-4	722-731	kostnaden	_	_	_	_	_	_	
+14-5	732-735	för	_	_	_	_	_	_	
+14-6	736-749	rättsväsendet	_	_	_	_	_	_	
+14-7	750-751	&	_	_	_	_	_	_	
+14-8	752-762	sjukvården	_	_	_	_	_	_	
+14-9	763-766	för	_	_	_	_	_	_	
+14-10	767-770	att	_	_	_	_	_	_	
+14-11	771-774	era	*[11]	_	_	_	_	_	
+14-12	775-776	"	*[11]	_	_	_	_	_	
+14-13	776-788	flyktingbarn	*[11]	_	_	_	_	_	
+14-14	788-789	"	*[11]	_	_	_	_	_	
+14-15	790-794	inte	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-16	795-798	kan	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-17	799-804	hålla	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-18	805-813	händerna	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-19	814-815	i	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-20	816-820	styr	_	Target[3]	14-11[11]	false[3]	2[3]	_	
+14-21	820-821	.	_	_	_	_	_	_	
+
+#Text=Våldtäkter, skjutningar & handgranater har blivit vardag, tack för det, verkligen!.
+15-1	822-832	Våldtäkter	_	_	_	_	_	_	
+15-2	832-833	,	_	_	_	_	_	_	
+15-3	834-845	skjutningar	_	_	_	_	_	_	
+15-4	846-847	&	_	_	_	_	_	_	
+15-5	848-860	handgranater	_	_	_	_	_	_	
+15-6	861-864	har	_	_	_	_	_	_	
+15-7	865-871	blivit	_	_	_	_	_	_	
+15-8	872-878	vardag	_	_	_	_	_	_	
+15-9	878-879	,	_	_	_	_	_	_	
+15-10	880-884	tack	_	_[4]	_	true[4]	5[4]	_	
+15-11	885-888	för	_	_[4]	_	true[4]	5[4]	_	
+15-12	889-892	det	_	_[4]	_	true[4]	5[4]	_	
+15-13	892-893	,	_	_[4]	_	true[4]	5[4]	_	
+15-14	894-903	verkligen	_	_[4]	_	true[4]	5[4]	_	
+15-15	903-904	!	_	_	_	_	_	_	
+15-16	904-905	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	907-908	#	_	_	_	_	_	_	
+16-2	908-909	P	_	_	_	_	_	_	
+16-3	910-913	IMM	_	_	_	false	2	_	
+16-4	913-914	.	_	_	_	_	_	_	
+
+#Text=Hur löser du det med att ta emot åldersfuskande "flyktingbarn" från Syrien & Afghanistan utan utbildning?.
+17-1	916-919	Hur	_	_	_	_	_	_	
+17-2	920-925	löser	_	_	_	_	_	_	
+17-3	926-928	du	_	_	_	_	_	_	
+17-4	929-932	det	_	_	_	_	_	_	
+17-5	933-936	med	_	_	_	_	_	_	
+17-6	937-940	att	_	_	_	_	_	_	
+17-7	941-943	ta	_	_	_	_	_	_	
+17-8	944-948	emot	_	_	_	_	_	_	
+17-9	949-963	åldersfuskande	_	Target	17-10[12]	false	2	_	
+17-10	964-965	"	*[12]	Target[5]	17-10[12]	false[5]	2[5]	_	
+17-11	965-977	flyktingbarn	*[12]	Target[5]	17-10[12]	false[5]	2[5]	_	
+17-12	977-978	"	*[12]	Target[5]	17-10[12]	false[5]	2[5]	_	
+17-13	979-983	från	_	_	_	_	_	_	
+17-14	984-990	Syrien	_	_	_	_	_	_	
+17-15	991-992	&	_	_	_	_	_	_	
+17-16	993-1004	Afghanistan	_	_	_	_	_	_	
+17-17	1005-1009	utan	_	_	_	_	_	_	
+17-18	1010-1020	utbildning	_	_	_	_	_	_	
+17-19	1020-1021	?	_	_	_	_	_	_	
+17-20	1021-1022	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1024-1025	#	_	_	_	_	_	_	
+18-2	1025-1026	P	_	_	_	_	_	_	
+18-3	1027-1030	IMM	_	_	_	false	2	_	
+18-4	1030-1031	.	_	_	_	_	_	_	
+
+#Text=Jag undrar hur många "flyktingbarn" Björn Mellquist har öppnat sitt hem för?.
+19-1	1033-1036	Jag	_	_	_	_	_	_	
+19-2	1037-1043	undrar	_	_	_	_	_	_	
+19-3	1044-1047	hur	_	_	_	_	_	_	
+19-4	1048-1053	många	_	_	_	_	_	_	
+19-5	1054-1055	"	*[13]	Target[6]	19-5[13]	false[6]	2[6]	_	
+19-6	1055-1067	flyktingbarn	*[13]	Target[6]	19-5[13]	false[6]	2[6]	_	
+19-7	1067-1068	"	*[13]	Target[6]	19-5[13]	false[6]	2[6]	_	
+19-8	1069-1074	Björn	_	_	_	_	_	_	
+19-9	1075-1084	Mellquist	_	_	_	_	_	_	
+19-10	1085-1088	har	_	_	_	_	_	_	
+19-11	1089-1095	öppnat	_	_	_	_	_	_	
+19-12	1096-1100	sitt	_	_	_	_	_	_	
+19-13	1101-1104	hem	_	_	_	_	_	_	
+19-14	1105-1108	för	_	_	_	_	_	_	
+19-15	1108-1109	?	_	_	_	_	_	_	
+19-16	1109-1110	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1112-1113	#	_	_	_	_	_	_	
+20-2	1113-1114	P	_	_	_	_	_	_	
+20-3	1115-1118	IMM	_	_	_	_	_	_	
+20-4	1118-1119	.	_	_	_	_	_	_	
+
+#Text=Era åsikter?.
+21-1	1121-1124	Era	_	_	_	_	_	_	
+21-2	1125-1132	åsikter	_	_	_	_	_	_	
+21-3	1132-1133	?	_	_	_	_	_	_	
+21-4	1133-1134	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1136-1137	#	_	_	_	_	_	_	
+22-2	1137-1138	P	_	_	_	_	_	_	
+22-3	1139-1142	IMM	_	_	_	false	1	_	
+22-4	1142-1143	.	_	_	_	_	_	_	
+
+#Text=Ska ni öppna era hem för ett stackars flyktingbarn?.
+23-1	1145-1148	Ska	_	_	_	_	_	_	
+23-2	1149-1151	ni	_	_	_	_	_	_	
+23-3	1152-1157	öppna	_	_	_	_	_	_	
+23-4	1158-1161	era	_	_	_	_	_	_	
+23-5	1162-1165	hem	_	_	_	_	_	_	
+23-6	1166-1169	för	_	_	_	_	_	_	
+23-7	1170-1173	ett	_	Target[7]	23-9	true[7]	4[7]	_	
+23-8	1174-1182	stackars	_	Target[7]	23-9	true[7]	4[7]	_	
+23-9	1183-1195	flyktingbarn	*	_	_	_	_	_	
+23-10	1195-1196	?	_	_	_	_	_	_	
+23-11	1196-1197	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1199-1200	#	_	_	_	_	_	_	
+24-2	1200-1201	P	_	_	_	_	_	_	
+24-3	1202-1205	IMM	_	_	_	_	_	_	
+24-4	1205-1206	.	_	_	_	_	_	_	
+
+#Text=Håller ni med Björn?.
+25-1	1208-1214	Håller	_	_	_	_	_	_	
+25-2	1215-1217	ni	_	_	_	_	_	_	
+25-3	1218-1221	med	_	_	_	_	_	_	
+25-4	1222-1227	Björn	_	_	_	_	_	_	
+25-5	1227-1228	?	_	_	_	_	_	_	
+25-6	1228-1229	.	_	_	_	_	_	_	

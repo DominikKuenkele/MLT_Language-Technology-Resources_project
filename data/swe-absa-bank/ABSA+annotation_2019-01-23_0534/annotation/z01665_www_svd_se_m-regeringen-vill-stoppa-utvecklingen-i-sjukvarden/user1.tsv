@@ -1,0 +1,1082 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=M: Regeringen vill stoppa utvecklingen i sjukvården.
+3-1	18-19	M	_	_	_	_	_	_	_	
+3-2	19-20	:	_	_	_	_	_	_	_	
+3-3	21-31	Regeringen	*	_	_	_	_	_	_	
+3-4	32-36	vill	_	Target;Source[1]	3-6[18];3-3	false[1]	2[1]	_	_	
+3-5	37-43	stoppa	_	Target;Source[1]	3-6[18];3-3	false[1]	2[1]	_	_	
+3-6	44-56	utvecklingen	*[18]	_	_	_	_	_	_	
+3-7	57-58	i	*[18]	_	_	_	_	_	_	
+3-8	59-69	sjukvården	*[18]	_	_	_	_	_	_	
+3-9	69-70	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	72-73	#	_	_	_	_	_	_	_	
+4-2	73-74	P	_	_	_	_	_	_	_	
+4-3	75-78	IMM	_	_	_	_	_	_	_	
+4-4	78-79	.	_	_	_	_	_	_	_	
+
+#Text=Genom en lag vill regeringen låsa svensk sjukvård till året 2007.
+5-1	81-86	Genom	_	_	_	_	_	_	_	
+5-2	87-89	en	_	_	_	_	_	_	_	
+5-3	90-93	lag	_	_	_	_	_	_	_	
+5-4	94-98	vill	_	_	_	_	_	_	_	
+5-5	99-109	regeringen	_	_	_	_	_	_	_	
+5-6	110-114	låsa	_	_	_	_	_	_	_	
+5-7	115-121	svensk	_	_	_	_	_	_	_	
+5-8	122-130	sjukvård	_	_	_	_	_	_	_	
+5-9	131-135	till	_	_	_	_	_	_	_	
+5-10	136-140	året	_	_	_	_	_	_	_	
+5-11	141-145	2007	_	_	_	_	_	_	_	
+5-12	145-146	.	_	_	_	_	_	_	_	
+
+#Text=Den verksamhet som bedrevs vid våra universitetssjukhus just då ska för evigt finnas kvar.
+6-1	147-150	Den	_	_	_	_	_	_	_	
+6-2	151-161	verksamhet	_	_	_	_	_	_	_	
+6-3	162-165	som	_	_	_	_	_	_	_	
+6-4	166-173	bedrevs	_	_	_	_	_	_	_	
+6-5	174-177	vid	_	_	_	_	_	_	_	
+6-6	178-182	våra	_	_	_	_	_	_	_	
+6-7	183-202	universitetssjukhus	_	_	_	_	_	_	_	
+6-8	203-207	just	_	_	_	_	_	_	_	
+6-9	208-210	då	_	_	_	_	_	_	_	
+6-10	211-214	ska	_	_	_	_	_	_	_	
+6-11	215-218	för	_	_	_	_	_	_	_	
+6-12	219-224	evigt	_	_	_	_	_	_	_	
+6-13	225-231	finnas	_	_	_	_	_	_	_	
+6-14	232-236	kvar	_	_	_	_	_	_	_	
+6-15	236-237	.	_	_	_	_	_	_	_	
+
+#Text=Inget ska bort – men då kan heller inget nytt få plats, skriver Torbjörn Rosdahl (M) och Marie Ljungberg Schött (M).
+7-1	238-243	Inget	_	_	_	_	_	_	_	
+7-2	244-247	ska	_	_	_	_	_	_	_	
+7-3	248-252	bort	_	_	_	_	_	_	_	
+7-4	253-254	–	_	_	_	_	_	_	_	
+7-5	255-258	men	_	_	_	_	_	_	_	
+7-6	259-261	då	_	_	_	_	_	_	_	
+7-7	262-265	kan	_	_	_	_	_	_	_	
+7-8	266-272	heller	_	_	_	_	_	_	_	
+7-9	273-278	inget	_	_	_	_	_	_	_	
+7-10	279-283	nytt	_	_	_	_	_	_	_	
+7-11	284-286	få	_	_	_	_	_	_	_	
+7-12	287-292	plats	_	_	_	_	_	_	_	
+7-13	292-293	,	_	_	_	_	_	_	_	
+7-14	294-301	skriver	_	_	_	_	_	_	_	
+7-15	302-310	Torbjörn	_	_	_	_	_	_	_	
+7-16	311-318	Rosdahl	_	_	_	_	_	_	_	
+7-17	319-320	(	_	_	_	_	_	_	_	
+7-18	320-321	M	_	_	_	_	_	_	_	
+7-19	321-322	)	_	_	_	_	_	_	_	
+7-20	323-326	och	_	_	_	_	_	_	_	
+7-21	327-332	Marie	_	_	_	_	_	_	_	
+7-22	333-342	Ljungberg	_	_	_	_	_	_	_	
+7-23	343-349	Schött	_	_	_	_	_	_	_	
+7-24	350-351	(	_	_	_	_	_	_	_	
+7-25	351-352	M	_	_	_	_	_	_	_	
+7-26	352-353	)	_	_	_	_	_	_	_	
+7-27	353-354	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	356-357	#	_	_	_	_	_	_	_	
+8-2	357-358	P	_	_	_	_	_	_	_	
+8-3	359-362	IMM	_	_	_	_	_	_	_	
+8-4	362-363	.	_	_	_	_	_	_	_	
+
+#Text=Förutom att retroaktivt verkande lagstiftning i sig är principiellt tveksamt, visar det också hur bakvänt och bakåtsträvande regeringen resonerar i sjukvårdsfrågor.
+9-1	365-372	Förutom	_	_	_	_	_	_	_	
+9-2	373-376	att	*[19]	_	_	_	_	_	_	
+9-3	377-388	retroaktivt	*[19]	_	_	_	_	_	_	
+9-4	389-397	verkande	*[19]	_	_	_	_	_	_	
+9-5	398-410	lagstiftning	*[19]	_	_	_	_	_	_	
+9-6	411-412	i	_	_	_	_	_	_	_	
+9-7	413-416	sig	_	_	_	_	_	_	_	
+9-8	417-419	är	_	Target[2]	9-2[19]	false[2]	2[2]	_	_	
+9-9	420-432	principiellt	_	Target[2]	9-2[19]	false[2]	2[2]	_	_	
+9-10	433-441	tveksamt	_	Target[2]	9-2[19]	false[2]	2[2]	_	_	
+9-11	441-442	,	_	_	_	_	_	_	_	
+9-12	443-448	visar	_	_	_	_	_	_	_	
+9-13	449-452	det	_	_	_	_	_	_	_	
+9-14	453-458	också	_	_	_	_	_	_	_	
+9-15	459-462	hur	_	_	_	_	_	_	_	
+9-16	463-470	bakvänt	_	Target[3]	9-19	false[3]	2[3]	_	_	
+9-17	471-474	och	_	Target[3]	9-19	false[3]	2[3]	_	_	
+9-18	475-489	bakåtsträvande	_	Target[3]	9-19	false[3]	2[3]	_	_	
+9-19	490-500	regeringen	*	_	_	_	_	_	_	
+9-20	501-510	resonerar	_	_	_	_	_	_	_	
+9-21	511-512	i	_	_	_	_	_	_	_	
+9-22	513-528	sjukvårdsfrågor	_	_	_	_	_	_	_	
+9-23	528-529	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	531-532	#	_	_	_	_	_	_	_	
+10-2	532-533	P	_	_	_	_	_	_	_	
+10-3	534-537	IMM	_	_	_	_	_	_	_	
+10-4	537-538	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	540-543	Det	_	_	_	_	_	_	_	
+11-2	544-547	här	_	_	_	_	_	_	_	
+11-3	548-550	är	_	_	_	_	_	_	_	
+11-4	551-553	en	_	_	_	_	_	_	_	
+11-5	554-568	argumenterande	_	_	_	_	_	_	_	
+11-6	569-573	text	_	_	_	_	_	_	_	
+11-7	574-577	med	_	_	_	_	_	_	_	
+11-8	578-583	syfte	_	_	_	_	_	_	_	
+11-9	584-587	att	_	_	_	_	_	_	_	
+11-10	588-595	påverka	_	_	_	_	_	_	_	
+11-11	595-596	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	597-606	Åsikterna	_	_	_	_	_	_	_	
+12-2	607-610	som	_	_	_	_	_	_	_	
+12-3	611-619	uttrycks	_	_	_	_	_	_	_	
+12-4	620-622	är	_	_	_	_	_	_	_	
+12-5	623-634	skribentens	_	_	_	_	_	_	_	
+12-6	635-639	egna	_	_	_	_	_	_	_	
+12-7	639-640	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	642-643	#	_	_	_	_	_	_	_	
+13-2	643-644	P	_	_	_	_	_	_	_	
+13-3	645-648	IMM	_	_	_	_	_	_	_	
+13-4	648-649	.	_	_	_	_	_	_	_	
+
+#Text=I helgen tog Nya Karolinska i Solna emot sina första patienter.
+14-1	651-652	I	*[20]	_	_	_	_	_	15-1[0_20]	
+14-2	653-659	helgen	*[20]	_	_	_	_	_	_	
+14-3	660-663	tog	*[20]	_	_	_	_	_	_	
+14-4	664-667	Nya	*[20]	_	_	_	_	_	_	
+14-5	668-678	Karolinska	*[20]	_	_	_	_	_	_	
+14-6	679-680	i	*[20]	_	_	_	_	_	_	
+14-7	681-686	Solna	*[20]	_	_	_	_	_	_	
+14-8	687-691	emot	*[20]	_	_	_	_	_	_	
+14-9	692-696	sina	*[20]	_	_	_	_	_	_	
+14-10	697-703	första	*[20]	_	_	_	_	_	_	
+14-11	704-713	patienter	*[20]	_	_	_	_	_	_	
+14-12	713-714	.	_	_	_	_	_	_	_	
+
+#Text=Det var ett viktigt steg på vägen mot en utbyggd och moderniserad vård i Stockholmsregionen och även resten av landet.
+15-1	715-718	Det	*	_	_	_	_	_	_	
+15-2	719-722	var	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-3	723-726	ett	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-4	727-734	viktigt	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-5	735-739	steg	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-6	740-742	på	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-7	743-748	vägen	_	Target[4]|Target[5]	15-9[21]|15-1	false[4]|false[5]	4[4]|4[5]	_	_	
+15-8	749-752	mot	_	Target[4]	15-9[21]	false[4]	4[4]	_	_	
+15-9	753-755	en	*[21]	_	_	_	_	_	_	
+15-10	756-763	utbyggd	*[21]	_	_	_	_	_	_	
+15-11	764-767	och	*[21]	_	_	_	_	_	_	
+15-12	768-780	moderniserad	*[21]	_	_	_	_	_	_	
+15-13	781-785	vård	*[21]	_	_	_	_	_	_	
+15-14	786-787	i	*[21]	_	_	_	_	_	_	
+15-15	788-806	Stockholmsregionen	*[21]	_	_	_	_	_	_	
+15-16	807-810	och	*[21]	_	_	_	_	_	_	
+15-17	811-815	även	*[21]	_	_	_	_	_	_	
+15-18	816-822	resten	*[21]	_	_	_	_	_	_	
+15-19	823-825	av	*[21]	_	_	_	_	_	_	
+15-20	826-832	landet	*[21]	_	_	_	_	_	_	
+15-21	832-833	.	_	_	_	_	_	_	_	
+
+#Text=Nya Karolinska har byggts för att ta emot de allra svårast sjuka patienterna som kräver de mest avancerade behandlingarna.
+16-1	834-837	Nya	_	_	_	_	_	_	_	
+16-2	838-848	Karolinska	_	_	_	_	_	_	_	
+16-3	849-852	har	_	_	_	_	_	_	_	
+16-4	853-859	byggts	_	_	_	_	_	_	_	
+16-5	860-863	för	_	_	_	_	_	_	_	
+16-6	864-867	att	_	_	_	_	_	_	_	
+16-7	868-870	ta	_	_	_	_	_	_	_	
+16-8	871-875	emot	_	_	_	_	_	_	_	
+16-9	876-878	de	_	_	_	_	_	_	_	
+16-10	879-884	allra	_	_	_	_	_	_	_	
+16-11	885-892	svårast	_	_	_	_	_	_	_	
+16-12	893-898	sjuka	_	_	_	_	_	_	_	
+16-13	899-910	patienterna	_	_	_	_	_	_	_	
+16-14	911-914	som	_	_	_	_	_	_	_	
+16-15	915-921	kräver	_	_	_	_	_	_	_	
+16-16	922-924	de	_	_	_	_	_	_	_	
+16-17	925-929	mest	_	_	_	_	_	_	_	
+16-18	930-940	avancerade	_	_	_	_	_	_	_	
+16-19	941-955	behandlingarna	_	_	_	_	_	_	_	
+16-20	955-956	.	_	_	_	_	_	_	_	
+
+#Text=Sjukhuset är tänkt att vara i framkant när det gäller både utrustning, behandlingar och arbetssätt; när beslutet om upphandling av det nya sjukhuset togs av ett enigt landstingsfullmäktige för sex år sedan var mycket av den högteknologiska utrustningen i sjukhuset inte ens uppfunnen.
+17-1	957-966	Sjukhuset	_	_	_	_	_	_	_	
+17-2	967-969	är	_	_	_	_	_	_	_	
+17-3	970-975	tänkt	_	_	_	_	_	_	_	
+17-4	976-979	att	_	_	_	_	_	_	_	
+17-5	980-984	vara	_	_	_	_	_	_	_	
+17-6	985-986	i	_	_	_	_	_	_	_	
+17-7	987-995	framkant	_	_	_	_	_	_	_	
+17-8	996-999	när	_	_	_	_	_	_	_	
+17-9	1000-1003	det	_	_	_	_	_	_	_	
+17-10	1004-1010	gäller	_	_	_	_	_	_	_	
+17-11	1011-1015	både	_	_	_	_	_	_	_	
+17-12	1016-1026	utrustning	_	_	_	_	_	_	_	
+17-13	1026-1027	,	_	_	_	_	_	_	_	
+17-14	1028-1040	behandlingar	_	_	_	_	_	_	_	
+17-15	1041-1044	och	_	_	_	_	_	_	_	
+17-16	1045-1055	arbetssätt	_	_	_	_	_	_	_	
+17-17	1055-1056	;	_	_	_	_	_	_	_	
+17-18	1057-1060	när	_	_	_	_	_	_	_	
+17-19	1061-1069	beslutet	_	_	_	_	_	_	_	
+17-20	1070-1072	om	_	_	_	_	_	_	_	
+17-21	1073-1084	upphandling	_	_	_	_	_	_	_	
+17-22	1085-1087	av	_	_	_	_	_	_	_	
+17-23	1088-1091	det	_	_	_	_	_	_	_	
+17-24	1092-1095	nya	_	_	_	_	_	_	_	
+17-25	1096-1105	sjukhuset	_	_	_	_	_	_	_	
+17-26	1106-1110	togs	_	_	_	_	_	_	_	
+17-27	1111-1113	av	_	_	_	_	_	_	_	
+17-28	1114-1117	ett	_	_	_	_	_	_	_	
+17-29	1118-1123	enigt	_	_	_	_	_	_	_	
+17-30	1124-1145	landstingsfullmäktige	_	_	_	_	_	_	_	
+17-31	1146-1149	för	_	_	_	_	_	_	_	
+17-32	1150-1153	sex	_	_	_	_	_	_	_	
+17-33	1154-1156	år	_	_	_	_	_	_	_	
+17-34	1157-1162	sedan	_	_	_	_	_	_	_	
+17-35	1163-1166	var	_	_	_	_	_	_	_	
+17-36	1167-1173	mycket	_	_	_	_	_	_	_	
+17-37	1174-1176	av	_	_	_	_	_	_	_	
+17-38	1177-1180	den	_	_	_	_	_	_	_	
+17-39	1181-1196	högteknologiska	_	_	_	_	_	_	_	
+17-40	1197-1209	utrustningen	_	_	_	_	_	_	_	
+17-41	1210-1211	i	_	_	_	_	_	_	_	
+17-42	1212-1221	sjukhuset	_	_	_	_	_	_	_	
+17-43	1222-1226	inte	_	_	_	_	_	_	_	
+17-44	1227-1230	ens	_	_	_	_	_	_	_	
+17-45	1231-1240	uppfunnen	_	_	_	_	_	_	_	
+17-46	1240-1241	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1243-1244	#	_	_	_	_	_	_	_	
+18-2	1244-1245	P	_	_	_	_	_	_	_	
+18-3	1246-1249	IMM	_	_	_	_	_	_	_	
+18-4	1249-1250	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt är NKS bara en del i utvecklingen av sjukvården.
+19-1	1252-1261	Samtidigt	_	_	_	_	_	_	_	
+19-2	1262-1264	är	_	_	_	_	_	_	_	
+19-3	1265-1268	NKS	_	_	_	_	_	_	_	
+19-4	1269-1273	bara	_	_	_	_	_	_	_	
+19-5	1274-1276	en	_	_	_	_	_	_	_	
+19-6	1277-1280	del	_	_	_	_	_	_	_	
+19-7	1281-1282	i	_	_	_	_	_	_	_	
+19-8	1283-1295	utvecklingen	_	_	_	_	_	_	_	
+19-9	1296-1298	av	_	_	_	_	_	_	_	
+19-10	1299-1309	sjukvården	_	_	_	_	_	_	_	
+19-11	1309-1310	.	_	_	_	_	_	_	_	
+
+#Text=Vård som tidigare fanns på Karolinska universitetssjukhuset kan i morgon bedrivas på andra akutsjukhus.
+20-1	1311-1315	Vård	_	_	_	_	_	_	_	
+20-2	1316-1319	som	_	_	_	_	_	_	_	
+20-3	1320-1328	tidigare	_	_	_	_	_	_	_	
+20-4	1329-1334	fanns	_	_	_	_	_	_	_	
+20-5	1335-1337	på	_	_	_	_	_	_	_	
+20-6	1338-1348	Karolinska	_	_	_	_	_	_	_	
+20-7	1349-1370	universitetssjukhuset	_	_	_	_	_	_	_	
+20-8	1371-1374	kan	_	_	_	_	_	_	_	
+20-9	1375-1376	i	_	_	_	_	_	_	_	
+20-10	1377-1383	morgon	_	_	_	_	_	_	_	
+20-11	1384-1392	bedrivas	_	_	_	_	_	_	_	
+20-12	1393-1395	på	_	_	_	_	_	_	_	
+20-13	1396-1401	andra	_	_	_	_	_	_	_	
+20-14	1402-1413	akutsjukhus	_	_	_	_	_	_	_	
+20-15	1413-1414	.	_	_	_	_	_	_	_	
+
+#Text=Annan vård flyttar från akutsjukhusen till specialistmottagningar utanför sjukhusen eller i vissa fall i primärvården.
+21-1	1415-1420	Annan	_	_	_	_	_	_	_	
+21-2	1421-1425	vård	_	_	_	_	_	_	_	
+21-3	1426-1433	flyttar	_	_	_	_	_	_	_	
+21-4	1434-1438	från	_	_	_	_	_	_	_	
+21-5	1439-1452	akutsjukhusen	_	_	_	_	_	_	_	
+21-6	1453-1457	till	_	_	_	_	_	_	_	
+21-7	1458-1480	specialistmottagningar	_	_	_	_	_	_	_	
+21-8	1481-1488	utanför	_	_	_	_	_	_	_	
+21-9	1489-1498	sjukhusen	_	_	_	_	_	_	_	
+21-10	1499-1504	eller	_	_	_	_	_	_	_	
+21-11	1505-1506	i	_	_	_	_	_	_	_	
+21-12	1507-1512	vissa	_	_	_	_	_	_	_	
+21-13	1513-1517	fall	_	_	_	_	_	_	_	
+21-14	1518-1519	i	_	_	_	_	_	_	_	
+21-15	1520-1532	primärvården	_	_	_	_	_	_	_	
+21-16	1532-1533	.	_	_	_	_	_	_	_	
+
+#Text=Det som är spjutspetsteknologi i dag kan vara rutin i morgon.
+22-1	1534-1537	Det	_	_	_	_	_	_	_	
+22-2	1538-1541	som	_	_	_	_	_	_	_	
+22-3	1542-1544	är	_	_	_	_	_	_	_	
+22-4	1545-1564	spjutspetsteknologi	_	_	_	_	_	_	_	
+22-5	1565-1566	i	_	_	_	_	_	_	_	
+22-6	1567-1570	dag	_	_	_	_	_	_	_	
+22-7	1571-1574	kan	_	_	_	_	_	_	_	
+22-8	1575-1579	vara	_	_	_	_	_	_	_	
+22-9	1580-1585	rutin	_	_	_	_	_	_	_	
+22-10	1586-1587	i	_	_	_	_	_	_	_	
+22-11	1588-1594	morgon	_	_	_	_	_	_	_	
+22-12	1594-1595	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1597-1598	#	_	_	_	_	_	_	_	
+23-2	1598-1599	P	_	_	_	_	_	_	_	
+23-3	1600-1603	IMM	_	_	_	_	_	_	_	
+23-4	1603-1604	.	_	_	_	_	_	_	_	
+
+#Text=Mitt i denna utveckling av sjukvården har regeringen hastat fram ett förslag som av ideologiska skäl hindrar landsting och regioner att följa med i den medicinska utvecklingen.
+24-1	1606-1610	Mitt	_	_	_	_	_	_	_	
+24-2	1611-1612	i	_	_	_	_	_	_	_	
+24-3	1613-1618	denna	_	_	_	_	_	_	_	
+24-4	1619-1629	utveckling	_	_	_	_	_	_	_	
+24-5	1630-1632	av	_	_	_	_	_	_	_	
+24-6	1633-1643	sjukvården	_	_	_	_	_	_	_	
+24-7	1644-1647	har	_	_	_	false	2	_	_	
+24-8	1648-1658	regeringen	*	_	_	_	_	_	_	
+24-9	1659-1665	hastat	_	Target;Target[6]	24-8;24-11[22]	false[6]	2[6]	24-7[0_6]	_	
+24-10	1666-1670	fram	_	Target;Target[6]	24-8;24-11[22]	false[6]	2[6]	_	_	
+24-11	1671-1674	ett	*[22]	Target;Target[6]	24-8;24-11[22]	false[6]	2[6]	_	_	
+24-12	1675-1682	förslag	*[22]	Target;Target[6]	24-8;24-11[22]	false[6]	2[6]	_	_	
+24-13	1683-1686	som	_	_	_	_	_	_	_	
+24-14	1687-1689	av	_	_	_	_	_	_	_	
+24-15	1690-1701	ideologiska	_	_	_	_	_	_	_	
+24-16	1702-1706	skäl	_	_	_	_	_	_	_	
+24-17	1707-1714	hindrar	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-18	1715-1724	landsting	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-19	1725-1728	och	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-20	1729-1737	regioner	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-21	1738-1741	att	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-22	1742-1747	följa	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-23	1748-1751	med	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-24	1752-1753	i	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-25	1754-1757	den	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-26	1758-1768	medicinska	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-27	1769-1781	utvecklingen	_	Target[7]	24-11[22]	false[7]	2[7]	_	_	
+24-28	1781-1782	.	_	_	_	_	_	_	_	
+
+#Text=I sin iver att stoppa all vård som inte drivs av det offentliga, har sjukvårdsminister Gabriel Wikström föreslagit ett förbud för vårdverksamheter att flyttas ut från universitetssjukhus.
+25-1	1783-1784	I	_	_	_	_	_	_	_	
+25-2	1785-1788	sin	_	_	_	_	_	_	_	
+25-3	1789-1793	iver	_	_	_	_	_	_	_	
+25-4	1794-1797	att	_	_	_	_	_	_	_	
+25-5	1798-1804	stoppa	_	_	_	_	_	_	_	
+25-6	1805-1808	all	_	_	_	_	_	_	_	
+25-7	1809-1813	vård	_	_	_	_	_	_	_	
+25-8	1814-1817	som	_	_	_	_	_	_	_	
+25-9	1818-1822	inte	_	_	_	_	_	_	_	
+25-10	1823-1828	drivs	_	_	_	_	_	_	_	
+25-11	1829-1831	av	_	_	_	_	_	_	_	
+25-12	1832-1835	det	_	_	_	_	_	_	_	
+25-13	1836-1846	offentliga	_	_	_	_	_	_	_	
+25-14	1846-1847	,	_	_	_	_	_	_	_	
+25-15	1848-1851	har	_	_	_	_	_	_	_	
+25-16	1852-1869	sjukvårdsminister	_	_	_	_	_	_	_	
+25-17	1870-1877	Gabriel	_	_	_	_	_	_	_	
+25-18	1878-1886	Wikström	_	_	_	_	_	_	_	
+25-19	1887-1897	föreslagit	_	_	_	_	_	_	_	
+25-20	1898-1901	ett	_	_	_	_	_	_	_	
+25-21	1902-1908	förbud	_	_	_	_	_	_	_	
+25-22	1909-1912	för	_	_	_	_	_	_	_	
+25-23	1913-1929	vårdverksamheter	_	_	_	_	_	_	_	
+25-24	1930-1933	att	_	_	_	_	_	_	_	
+25-25	1934-1941	flyttas	_	_	_	_	_	_	_	
+25-26	1942-1944	ut	_	_	_	_	_	_	_	
+25-27	1945-1949	från	_	_	_	_	_	_	_	
+25-28	1950-1969	universitetssjukhus	_	_	_	_	_	_	_	
+25-29	1969-1970	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1972-1973	#	_	_	_	_	_	_	_	
+26-2	1973-1974	P	_	_	_	_	_	_	_	
+26-3	1975-1978	IMM	_	_	_	_	_	_	_	
+26-4	1978-1979	.	_	_	_	_	_	_	_	
+
+#Text=Sveriges Kommuner och Landsting, SKL, har granskat förslaget, och har allvarliga invändningar: “Det skulle få betydande negativa konsekvenser för landsting och regioner om de inte skulle kunna organisera och styra över innehållet i den hälso- och sjukvård som finns på universitetssjukhuset".
+27-1	1981-1989	Sveriges	*[23]	_	_	_	_	_	_	
+27-2	1990-1998	Kommuner	*[23]	_	_	_	_	_	_	
+27-3	1999-2002	och	*[23]	_	_	_	_	_	_	
+27-4	2003-2012	Landsting	*[23]	_	_	_	_	_	_	
+27-5	2012-2013	,	*[23]	_	_	_	_	_	_	
+27-6	2014-2017	SKL	*[23]	_	_	_	_	_	_	
+27-7	2017-2018	,	_	_	_	_	_	_	_	
+27-8	2019-2022	har	_	_	_	_	_	_	_	
+27-9	2023-2031	granskat	_	_	_	_	_	_	_	
+27-10	2032-2041	förslaget	*	_	_	_	_	_	_	
+27-11	2041-2042	,	_	_	_	_	_	_	_	
+27-12	2043-2046	och	_	_	_	_	_	_	_	
+27-13	2047-2050	har	_	Source;Target[8]	27-1[23];27-10	false[8]	2[8]	_	_	
+27-14	2051-2061	allvarliga	_	Source;Target[8]	27-1[23];27-10	false[8]	2[8]	_	_	
+27-15	2062-2074	invändningar	_	Source;Target[8]	27-1[23];27-10	false[8]	2[8]	_	_	
+27-16	2074-2075	:	_	_	_	_	_	_	_	
+27-17	2076-2077	“	_	_	_	_	_	_	_	
+27-18	2077-2080	Det	_	_	_	_	_	_	_	
+27-19	2081-2087	skulle	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-20	2088-2090	få	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-21	2091-2100	betydande	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-22	2101-2109	negativa	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-23	2110-2122	konsekvenser	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-24	2123-2126	för	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-25	2127-2136	landsting	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-26	2137-2140	och	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-27	2141-2149	regioner	_	Target;Source[9]	27-28[24];27-1[23]	false[9]	2[9]	_	_	
+27-28	2150-2152	om	*[24]	_	_	_	_	_	_	
+27-29	2153-2155	de	*[24]	_	_	_	_	_	_	
+27-30	2156-2160	inte	*[24]	_	_	_	_	_	_	
+27-31	2161-2167	skulle	*[24]	_	_	_	_	_	_	
+27-32	2168-2173	kunna	*[24]	_	_	_	_	_	_	
+27-33	2174-2184	organisera	*[24]	_	_	_	_	_	_	
+27-34	2185-2188	och	*[24]	_	_	_	_	_	_	
+27-35	2189-2194	styra	*[24]	_	_	_	_	_	_	
+27-36	2195-2199	över	*[24]	_	_	_	_	_	_	
+27-37	2200-2210	innehållet	*[24]	_	_	_	_	_	_	
+27-38	2211-2212	i	*[24]	_	_	_	_	_	_	
+27-39	2213-2216	den	*[24]	_	_	_	_	_	_	
+27-40	2217-2222	hälso	*[24]	_	_	_	_	_	_	
+27-41	2222-2223	-	*[24]	_	_	_	_	_	_	
+27-42	2224-2227	och	*[24]	_	_	_	_	_	_	
+27-43	2228-2236	sjukvård	*[24]	_	_	_	_	_	_	
+27-44	2237-2240	som	*[24]	_	_	_	_	_	_	
+27-45	2241-2246	finns	*[24]	_	_	_	_	_	_	
+27-46	2247-2249	på	*[24]	_	_	_	_	_	_	
+27-47	2250-2271	universitetssjukhuset	*[24]	_	_	_	_	_	_	
+27-48	2271-2272	"	_	_	_	_	_	_	_	
+27-49	2272-2273	.	_	_	_	_	_	_	_	
+
+#Text=Även utifrån principen om lokalt självstyre får förslaget kritik från SKL.
+28-1	2274-2278	Även	_	_	_	_	_	_	_	
+28-2	2279-2286	utifrån	_	_	_	_	_	_	_	
+28-3	2287-2296	principen	_	_	_	_	_	_	_	
+28-4	2297-2299	om	_	_	_	_	_	_	_	
+28-5	2300-2306	lokalt	_	_	_	_	_	_	_	
+28-6	2307-2317	självstyre	_	_	_	_	_	_	_	
+28-7	2318-2321	får	_	_	_	false	2	_	_	
+28-8	2322-2331	förslaget	*	_	_	_	_	_	_	
+28-9	2332-2338	kritik	_	Target;Source[10]	28-8;28-11	false[10]	2[10]	28-7[0_10]	_	
+28-10	2339-2343	från	_	Target;Source[10]	28-8;28-11	false[10]	2[10]	_	_	
+28-11	2344-2347	SKL	*	_	_	_	_	_	_	
+28-12	2347-2348	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2350-2351	#	_	_	_	_	_	_	_	
+29-2	2351-2352	P	_	_	_	_	_	_	_	
+29-3	2353-2356	IMM	_	_	_	_	_	_	_	
+29-4	2356-2357	.	_	_	_	_	_	_	_	
+
+#Text=Men det är inte nog med det – förslaget föreslås dessutom få retroaktiv verkan sedan 2007.
+30-1	2359-2362	Men	_	_	_	_	_	_	_	
+30-2	2363-2366	det	_	_	_	_	_	_	_	
+30-3	2367-2369	är	_	_	_	_	_	_	_	
+30-4	2370-2374	inte	_	_	_	_	_	_	_	
+30-5	2375-2378	nog	_	_	_	_	_	_	_	
+30-6	2379-2382	med	_	_	_	_	_	_	_	
+30-7	2383-2386	det	_	_	_	_	_	_	_	
+30-8	2387-2388	–	_	_	_	_	_	_	_	
+30-9	2389-2398	förslaget	_	_	_	_	_	_	_	
+30-10	2399-2407	föreslås	_	_	_	_	_	_	_	
+30-11	2408-2416	dessutom	_	_	_	_	_	_	_	
+30-12	2417-2419	få	_	_	_	_	_	_	_	
+30-13	2420-2430	retroaktiv	_	_	_	_	_	_	_	
+30-14	2431-2437	verkan	_	_	_	_	_	_	_	
+30-15	2438-2443	sedan	_	_	_	_	_	_	_	
+30-16	2444-2448	2007	_	_	_	_	_	_	_	
+30-17	2448-2449	.	_	_	_	_	_	_	_	
+
+#Text=Förutom att retroaktivt verkande lagstiftning i sig är principiellt tveksamt, visar det också hur bakvänt och bakåtsträvande regeringen resonerar i sjukvårdsfrågor.
+31-1	2450-2457	Förutom	_	_	_	_	_	_	_	
+31-2	2458-2461	att	_	_	_	_	_	_	_	
+31-3	2462-2473	retroaktivt	*[25]	_	_	_	_	_	_	
+31-4	2474-2482	verkande	*[25]	_	_	_	_	_	_	
+31-5	2483-2495	lagstiftning	*[25]	_	_	_	_	_	_	
+31-6	2496-2497	i	_	_	_	_	_	_	_	
+31-7	2498-2501	sig	_	_	_	_	_	_	_	
+31-8	2502-2504	är	_	Target[11]	31-3[25]	false[11]	2[11]	_	_	
+31-9	2505-2517	principiellt	_	Target[11]	31-3[25]	false[11]	2[11]	_	_	
+31-10	2518-2526	tveksamt	_	Target[11]	31-3[25]	false[11]	2[11]	_	_	
+31-11	2526-2527	,	_	_	_	_	_	_	_	
+31-12	2528-2533	visar	_	_	_	_	_	_	_	
+31-13	2534-2537	det	_	_	_	_	_	_	_	
+31-14	2538-2543	också	_	_	_	_	_	_	_	
+31-15	2544-2547	hur	_	_	_	_	_	_	_	
+31-16	2548-2555	bakvänt	_	Target;Target[12]	31-19;31-3[25]	false[12]	2[12]	_	_	
+31-17	2556-2559	och	_	Target;Target[12]	31-19;31-3[25]	false[12]	2[12]	_	_	
+31-18	2560-2574	bakåtsträvande	_	Target;Target[12]	31-19;31-3[25]	false[12]	2[12]	_	_	
+31-19	2575-2585	regeringen	*	_	_	_	_	_	_	
+31-20	2586-2595	resonerar	_	_	_	_	_	_	_	
+31-21	2596-2597	i	_	_	_	_	_	_	_	
+31-22	2598-2613	sjukvårdsfrågor	_	_	_	_	_	_	_	
+31-23	2613-2614	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2616-2617	#	_	_	_	_	_	_	_	
+32-2	2617-2618	P	_	_	_	_	_	_	_	
+32-3	2619-2622	IMM	_	_	_	_	_	_	_	
+32-4	2622-2623	.	_	_	_	_	_	_	_	
+
+#Text=Som om ingen medicinteknisk utveckling hade skett på ett decennium, som om all forskning och utbildning av nya generationer läkare och sjuksköterskor vore bortkastad, vill regeringen låsa svensk sjukvård till året 2007.
+33-1	2625-2628	Som	_	_	_	_	_	_	_	
+33-2	2629-2631	om	_	_	_	_	_	_	_	
+33-3	2632-2637	ingen	_	_	_	_	_	_	_	
+33-4	2638-2652	medicinteknisk	_	_	_	_	_	_	_	
+33-5	2653-2663	utveckling	_	_	_	_	_	_	_	
+33-6	2664-2668	hade	_	_	_	_	_	_	_	
+33-7	2669-2674	skett	_	_	_	_	_	_	_	
+33-8	2675-2677	på	_	_	_	_	_	_	_	
+33-9	2678-2681	ett	_	_	_	_	_	_	_	
+33-10	2682-2691	decennium	_	_	_	_	_	_	_	
+33-11	2691-2692	,	_	_	_	_	_	_	_	
+33-12	2693-2696	som	_	_	_	_	_	_	_	
+33-13	2697-2699	om	_	_	_	_	_	_	_	
+33-14	2700-2703	all	_	_	_	_	_	_	_	
+33-15	2704-2713	forskning	_	_	_	_	_	_	_	
+33-16	2714-2717	och	_	_	_	_	_	_	_	
+33-17	2718-2728	utbildning	_	_	_	_	_	_	_	
+33-18	2729-2731	av	_	_	_	_	_	_	_	
+33-19	2732-2735	nya	_	_	_	_	_	_	_	
+33-20	2736-2748	generationer	_	_	_	_	_	_	_	
+33-21	2749-2755	läkare	_	_	_	_	_	_	_	
+33-22	2756-2759	och	_	_	_	_	_	_	_	
+33-23	2760-2774	sjuksköterskor	_	_	_	_	_	_	_	
+33-24	2775-2779	vore	_	_	_	_	_	_	_	
+33-25	2780-2790	bortkastad	_	_	_	_	_	_	_	
+33-26	2790-2791	,	_	_	_	_	_	_	_	
+33-27	2792-2796	vill	_	_	_	_	_	_	_	
+33-28	2797-2807	regeringen	*	_	_	_	_	_	_	
+33-29	2808-2812	låsa	_	_	_	_	_	_	_	
+33-30	2813-2819	svensk	_	_	_	_	_	_	_	
+33-31	2820-2828	sjukvård	_	_	_	_	_	_	_	
+33-32	2829-2833	till	_	_	_	_	_	_	_	
+33-33	2834-2838	året	_	_	_	_	_	_	_	
+33-34	2839-2843	2007	_	_	_	_	_	_	_	
+33-35	2843-2844	.	_	Target	33-28	false	2	_	_	
+
+#Text=Den verksamhet som bedrevs vid våra universitetssjukhus just då, ska för evigt finnas kvar.
+34-1	2845-2848	Den	_	_	_	_	_	_	_	
+34-2	2849-2859	verksamhet	_	_	_	_	_	_	_	
+34-3	2860-2863	som	_	_	_	_	_	_	_	
+34-4	2864-2871	bedrevs	_	_	_	_	_	_	_	
+34-5	2872-2875	vid	_	_	_	_	_	_	_	
+34-6	2876-2880	våra	_	_	_	_	_	_	_	
+34-7	2881-2900	universitetssjukhus	_	_	_	_	_	_	_	
+34-8	2901-2905	just	_	_	_	_	_	_	_	
+34-9	2906-2908	då	_	_	_	_	_	_	_	
+34-10	2908-2909	,	_	_	_	_	_	_	_	
+34-11	2910-2913	ska	_	_	_	_	_	_	_	
+34-12	2914-2917	för	_	_	_	_	_	_	_	
+34-13	2918-2923	evigt	_	_	_	_	_	_	_	
+34-14	2924-2930	finnas	_	_	_	_	_	_	_	
+34-15	2931-2935	kvar	_	_	_	_	_	_	_	
+34-16	2935-2936	.	_	_	_	_	_	_	_	
+
+#Text=Inget ska bort – men då kan heller inget nytt få plats.
+35-1	2937-2942	Inget	_	_	_	_	_	_	_	
+35-2	2943-2946	ska	_	_	_	_	_	_	_	
+35-3	2947-2951	bort	_	_	_	_	_	_	_	
+35-4	2952-2953	–	_	_	_	_	_	_	_	
+35-5	2954-2957	men	_	_	_	_	_	_	_	
+35-6	2958-2960	då	_	_	_	_	_	_	_	
+35-7	2961-2964	kan	_	_	_	_	_	_	_	
+35-8	2965-2971	heller	_	_	_	_	_	_	_	
+35-9	2972-2977	inget	_	_	_	_	_	_	_	
+35-10	2978-2982	nytt	_	_	_	_	_	_	_	
+35-11	2983-2985	få	_	_	_	_	_	_	_	
+35-12	2986-2991	plats	_	_	_	_	_	_	_	
+35-13	2991-2992	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2994-2995	#	_	_	_	_	_	_	_	
+36-2	2995-2996	P	_	_	_	_	_	_	_	
+36-3	2997-3000	IMM	_	_	_	_	_	_	_	
+36-4	3000-3001	.	_	_	_	_	_	_	_	
+
+#Text=Sverige ligger i framkant i medicinsk forskning, medicinteknik och arbetssätt inom vården – ofta genom framsteg som gjorts vid universitetssjukhus.
+37-1	3003-3010	Sverige	_	_	_	_	_	_	_	
+37-2	3011-3017	ligger	_	_	_	_	_	_	_	
+37-3	3018-3019	i	_	_	_	_	_	_	_	
+37-4	3020-3028	framkant	_	_	_	_	_	_	_	
+37-5	3029-3030	i	_	_	_	_	_	_	_	
+37-6	3031-3040	medicinsk	_	_	_	_	_	_	_	
+37-7	3041-3050	forskning	_	_	_	_	_	_	_	
+37-8	3050-3051	,	_	_	_	_	_	_	_	
+37-9	3052-3065	medicinteknik	_	_	_	_	_	_	_	
+37-10	3066-3069	och	_	_	_	_	_	_	_	
+37-11	3070-3080	arbetssätt	_	_	_	_	_	_	_	
+37-12	3081-3085	inom	_	_	_	_	_	_	_	
+37-13	3086-3092	vården	_	_	_	_	_	_	_	
+37-14	3093-3094	–	_	_	_	_	_	_	_	
+37-15	3095-3099	ofta	_	_	_	_	_	_	_	
+37-16	3100-3105	genom	_	_	_	_	_	_	_	
+37-17	3106-3114	framsteg	_	_	_	_	_	_	_	
+37-18	3115-3118	som	_	_	_	_	_	_	_	
+37-19	3119-3125	gjorts	_	_	_	_	_	_	_	
+37-20	3126-3129	vid	_	_	_	_	_	_	_	
+37-21	3130-3149	universitetssjukhus	_	_	_	_	_	_	_	
+37-22	3149-3150	.	_	_	_	_	_	_	_	
+
+#Text=Men om utvecklingen ska kunna komma patienterna och befolkningen till godo så måste den spridas.
+38-1	3151-3154	Men	_	_	_	_	_	_	_	
+38-2	3155-3157	om	_	_	_	_	_	_	_	
+38-3	3158-3170	utvecklingen	_	_	_	_	_	_	_	
+38-4	3171-3174	ska	_	_	_	_	_	_	_	
+38-5	3175-3180	kunna	_	_	_	_	_	_	_	
+38-6	3181-3186	komma	_	_	_	_	_	_	_	
+38-7	3187-3198	patienterna	_	_	_	_	_	_	_	
+38-8	3199-3202	och	_	_	_	_	_	_	_	
+38-9	3203-3215	befolkningen	_	_	_	_	_	_	_	
+38-10	3216-3220	till	_	_	_	_	_	_	_	
+38-11	3221-3225	godo	_	_	_	_	_	_	_	
+38-12	3226-3228	så	_	_	_	_	_	_	_	
+38-13	3229-3234	måste	_	_	_	_	_	_	_	
+38-14	3235-3238	den	_	_	_	_	_	_	_	
+38-15	3239-3246	spridas	_	_	_	_	_	_	_	
+38-16	3246-3247	.	_	_	_	_	_	_	_	
+
+#Text=Metoder som utvecklas och förfinas på våra universitetssjukhus måste rimligen vara avsedda att spridas till bredare lager.
+39-1	3248-3255	Metoder	_	_	_	_	_	_	_	
+39-2	3256-3259	som	_	_	_	_	_	_	_	
+39-3	3260-3269	utvecklas	_	_	_	_	_	_	_	
+39-4	3270-3273	och	_	_	_	_	_	_	_	
+39-5	3274-3282	förfinas	_	_	_	_	_	_	_	
+39-6	3283-3285	på	_	_	_	_	_	_	_	
+39-7	3286-3290	våra	_	_	_	_	_	_	_	
+39-8	3291-3310	universitetssjukhus	_	_	_	_	_	_	_	
+39-9	3311-3316	måste	_	_	_	_	_	_	_	
+39-10	3317-3325	rimligen	_	_	_	_	_	_	_	
+39-11	3326-3330	vara	_	_	_	_	_	_	_	
+39-12	3331-3338	avsedda	_	_	_	_	_	_	_	
+39-13	3339-3342	att	_	_	_	_	_	_	_	
+39-14	3343-3350	spridas	_	_	_	_	_	_	_	
+39-15	3351-3355	till	_	_	_	_	_	_	_	
+39-16	3356-3363	bredare	_	_	_	_	_	_	_	
+39-17	3364-3369	lager	_	_	_	_	_	_	_	
+39-18	3369-3370	.	_	_	_	_	_	_	_	
+
+#Text=Och när metoderna väl är etablerade och vedertagna finns inte längre samma motiv till att bedriva just den vården vid de mest specialiserade sjukhusen.
+40-1	3371-3374	Och	_	_	_	_	_	_	_	
+40-2	3375-3378	när	_	_	_	_	_	_	_	
+40-3	3379-3388	metoderna	_	_	_	_	_	_	_	
+40-4	3389-3392	väl	_	_	_	_	_	_	_	
+40-5	3393-3395	är	_	_	_	_	_	_	_	
+40-6	3396-3406	etablerade	_	_	_	_	_	_	_	
+40-7	3407-3410	och	_	_	_	_	_	_	_	
+40-8	3411-3421	vedertagna	_	_	_	_	_	_	_	
+40-9	3422-3427	finns	_	_	_	_	_	_	_	
+40-10	3428-3432	inte	_	_	_	_	_	_	_	
+40-11	3433-3439	längre	_	_	_	_	_	_	_	
+40-12	3440-3445	samma	_	_	_	_	_	_	_	
+40-13	3446-3451	motiv	_	_	_	_	_	_	_	
+40-14	3452-3456	till	_	_	_	_	_	_	_	
+40-15	3457-3460	att	_	_	_	_	_	_	_	
+40-16	3461-3468	bedriva	_	_	_	_	_	_	_	
+40-17	3469-3473	just	_	_	_	_	_	_	_	
+40-18	3474-3477	den	_	_	_	_	_	_	_	
+40-19	3478-3484	vården	_	_	_	_	_	_	_	
+40-20	3485-3488	vid	_	_	_	_	_	_	_	
+40-21	3489-3491	de	_	_	_	_	_	_	_	
+40-22	3492-3496	mest	_	_	_	_	_	_	_	
+40-23	3497-3511	specialiserade	_	_	_	_	_	_	_	
+40-24	3512-3521	sjukhusen	_	_	_	_	_	_	_	
+40-25	3521-3522	.	_	_	_	_	_	_	_	
+
+#Text=Då är det istället dags att ta nya steg och utveckla vården vidare.
+41-1	3523-3525	Då	_	_	_	_	_	_	_	
+41-2	3526-3528	är	_	_	_	_	_	_	_	
+41-3	3529-3532	det	_	_	_	_	_	_	_	
+41-4	3533-3541	istället	_	_	_	_	_	_	_	
+41-5	3542-3546	dags	_	_	_	_	_	_	_	
+41-6	3547-3550	att	_	_	_	_	_	_	_	
+41-7	3551-3553	ta	_	_	_	_	_	_	_	
+41-8	3554-3557	nya	_	_	_	_	_	_	_	
+41-9	3558-3562	steg	_	_	_	_	_	_	_	
+41-10	3563-3566	och	_	_	_	_	_	_	_	
+41-11	3567-3575	utveckla	_	_	_	_	_	_	_	
+41-12	3576-3582	vården	_	_	_	_	_	_	_	
+41-13	3583-3589	vidare	_	_	_	_	_	_	_	
+41-14	3589-3590	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3592-3593	#	_	_	_	_	_	_	_	
+42-2	3593-3594	P	_	_	_	_	_	_	_	
+42-3	3595-3598	IMM	_	_	_	_	_	_	_	
+42-4	3598-3599	.	_	_	_	_	_	_	_	
+
+#Text=Vi driver i Stockholms läns landsting Sveriges mest ambitiösa arbete för att modernisera sjukvården i projektet Framtidsplan för hälso- och sjukvården.
+43-1	3601-3603	Vi	_	_	_	_	_	_	_	
+43-2	3604-3610	driver	_	_	_	_	_	_	_	
+43-3	3611-3612	i	_	_	_	_	_	_	_	
+43-4	3613-3623	Stockholms	_	_	_	_	_	_	_	
+43-5	3624-3628	läns	_	_	_	_	_	_	_	
+43-6	3629-3638	landsting	_	_	_	_	_	_	_	
+43-7	3639-3647	Sveriges	_	_	_	_	_	_	_	
+43-8	3648-3652	mest	_	_	_	_	_	_	_	
+43-9	3653-3662	ambitiösa	_	_	_	_	_	_	_	
+43-10	3663-3669	arbete	_	_	_	_	_	_	_	
+43-11	3670-3673	för	_	_	_	_	_	_	_	
+43-12	3674-3677	att	_	_	_	_	_	_	_	
+43-13	3678-3689	modernisera	_	_	_	_	_	_	_	
+43-14	3690-3700	sjukvården	_	_	_	_	_	_	_	
+43-15	3701-3702	i	_	_	_	_	_	_	_	
+43-16	3703-3712	projektet	_	_	_	_	_	_	_	
+43-17	3713-3725	Framtidsplan	_	_	_	_	_	_	_	
+43-18	3726-3729	för	_	_	_	_	_	_	_	
+43-19	3730-3735	hälso	_	_	_	_	_	_	_	
+43-20	3735-3736	-	_	_	_	_	_	_	_	
+43-21	3737-3740	och	_	_	_	_	_	_	_	
+43-22	3741-3751	sjukvården	_	_	_	_	_	_	_	
+43-23	3751-3752	.	_	_	_	_	_	_	_	
+
+#Text=Det innebär att e-hälsoarbetet utvecklas, primärvården stärks och att i princip varje akutsjukhus i länet moderniseras och byggs ut.
+44-1	3753-3756	Det	_	_	_	_	_	_	_	
+44-2	3757-3764	innebär	_	_	_	_	_	_	_	
+44-3	3765-3768	att	_	_	_	_	_	_	_	
+44-4	3769-3783	e-hälsoarbetet	_	_	_	_	_	_	_	
+44-5	3784-3793	utvecklas	_	_	_	_	_	_	_	
+44-6	3793-3794	,	_	_	_	_	_	_	_	
+44-7	3795-3807	primärvården	_	_	_	_	_	_	_	
+44-8	3808-3814	stärks	_	_	_	_	_	_	_	
+44-9	3815-3818	och	_	_	_	_	_	_	_	
+44-10	3819-3822	att	_	_	_	_	_	_	_	
+44-11	3823-3824	i	_	_	_	_	_	_	_	
+44-12	3825-3832	princip	_	_	_	_	_	_	_	
+44-13	3833-3838	varje	_	_	_	_	_	_	_	
+44-14	3839-3850	akutsjukhus	_	_	_	_	_	_	_	
+44-15	3851-3852	i	_	_	_	_	_	_	_	
+44-16	3853-3858	länet	_	_	_	_	_	_	_	
+44-17	3859-3871	moderniseras	_	_	_	_	_	_	_	
+44-18	3872-3875	och	_	_	_	_	_	_	_	
+44-19	3876-3881	byggs	_	_	_	_	_	_	_	
+44-20	3882-3884	ut	_	_	_	_	_	_	_	
+44-21	3884-3885	.	_	_	_	_	_	_	_	
+
+#Text=Allt handlar om att patienterna ska behandlas på den nivå som är bäst för dem och deras behov.
+45-1	3886-3890	Allt	_	_	_	_	_	_	_	
+45-2	3891-3898	handlar	_	_	_	_	_	_	_	
+45-3	3899-3901	om	_	_	_	_	_	_	_	
+45-4	3902-3905	att	_	_	_	_	_	_	_	
+45-5	3906-3917	patienterna	_	_	_	_	_	_	_	
+45-6	3918-3921	ska	_	_	_	_	_	_	_	
+45-7	3922-3931	behandlas	_	_	_	_	_	_	_	
+45-8	3932-3934	på	_	_	_	_	_	_	_	
+45-9	3935-3938	den	_	_	_	_	_	_	_	
+45-10	3939-3943	nivå	_	_	_	_	_	_	_	
+45-11	3944-3947	som	_	_	_	_	_	_	_	
+45-12	3948-3950	är	_	_	_	_	_	_	_	
+45-13	3951-3955	bäst	_	_	_	_	_	_	_	
+45-14	3956-3959	för	_	_	_	_	_	_	_	
+45-15	3960-3963	dem	_	_	_	_	_	_	_	
+45-16	3964-3967	och	_	_	_	_	_	_	_	
+45-17	3968-3973	deras	_	_	_	_	_	_	_	
+45-18	3974-3979	behov	_	_	_	_	_	_	_	
+45-19	3979-3980	.	_	_	_	_	_	_	_	
+
+#Text=En av delarna är att vård som kan bedrivas nära patienten och inte behöver de stora sjukhusens resurser, också ska bedrivas nära patienten.
+46-1	3981-3983	En	_	_	_	_	_	_	_	
+46-2	3984-3986	av	_	_	_	_	_	_	_	
+46-3	3987-3994	delarna	_	_	_	_	_	_	_	
+46-4	3995-3997	är	_	_	_	_	_	_	_	
+46-5	3998-4001	att	_	_	_	_	_	_	_	
+46-6	4002-4006	vård	_	_	_	_	_	_	_	
+46-7	4007-4010	som	_	_	_	_	_	_	_	
+46-8	4011-4014	kan	_	_	_	_	_	_	_	
+46-9	4015-4023	bedrivas	_	_	_	_	_	_	_	
+46-10	4024-4028	nära	_	_	_	_	_	_	_	
+46-11	4029-4038	patienten	_	_	_	_	_	_	_	
+46-12	4039-4042	och	_	_	_	_	_	_	_	
+46-13	4043-4047	inte	_	_	_	_	_	_	_	
+46-14	4048-4055	behöver	_	_	_	_	_	_	_	
+46-15	4056-4058	de	_	_	_	_	_	_	_	
+46-16	4059-4064	stora	_	_	_	_	_	_	_	
+46-17	4065-4075	sjukhusens	_	_	_	_	_	_	_	
+46-18	4076-4084	resurser	_	_	_	_	_	_	_	
+46-19	4084-4085	,	_	_	_	_	_	_	_	
+46-20	4086-4091	också	_	_	_	_	_	_	_	
+46-21	4092-4095	ska	_	_	_	_	_	_	_	
+46-22	4096-4104	bedrivas	_	_	_	_	_	_	_	
+46-23	4105-4109	nära	_	_	_	_	_	_	_	
+46-24	4110-4119	patienten	_	_	_	_	_	_	_	
+46-25	4119-4120	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	4122-4123	#	_	_	_	_	_	_	_	
+47-2	4123-4124	P	_	_	_	_	_	_	_	
+47-3	4125-4128	IMM	_	_	_	_	_	_	_	
+47-4	4128-4129	.	_	_	_	_	_	_	_	
+
+#Text=Allt detta arbete riskerar att raseras.
+48-1	4131-4135	Allt	*[26]	_	_	_	_	_	_	
+48-2	4136-4141	detta	*[26]	_	_	_	_	_	_	
+48-3	4142-4148	arbete	*[26]	_	_	_	_	_	_	
+48-4	4149-4157	riskerar	_	Target[13]|Target[14]	48-1[26]|48-5[27]	false[13]|false[14]	4[13]|2[14]	_	_	
+48-5	4158-4161	att	*[27]	Target[13]	48-1[26]	false[13]	4[13]	_	_	
+48-6	4162-4169	raseras	*[27]	Target[13]	48-1[26]	false[13]	4[13]	_	_	
+48-7	4169-4170	.	_	_	_	_	_	_	_	
+
+#Text=Om vård som sedan länge har lämnat universitetssjukhusen och blivit etablerade metoder i vård närmare patienten måste flytta tillbaks, kommer hela sjukvårdsutvecklingen inte bara avstanna, utan rullas tillbaka.
+49-1	4171-4173	Om	*[28]	_	_	_	_	_	_	
+49-2	4174-4178	vård	*[28]	_	_	_	_	_	_	
+49-3	4179-4182	som	*[28]	_	_	_	_	_	_	
+49-4	4183-4188	sedan	*[28]	_	_	_	_	_	_	
+49-5	4189-4194	länge	*[28]	_	_	_	_	_	_	
+49-6	4195-4198	har	*[28]	_	_	_	_	_	_	
+49-7	4199-4205	lämnat	*[28]	_	_	_	_	_	_	
+49-8	4206-4227	universitetssjukhusen	*[28]	_	_	_	_	_	_	
+49-9	4228-4231	och	*[28]	_	_	_	_	_	_	
+49-10	4232-4238	blivit	*[28]	_	_	_	_	_	_	
+49-11	4239-4249	etablerade	*[28]	_	_	_	_	_	_	
+49-12	4250-4257	metoder	*[28]	_	_	_	_	_	_	
+49-13	4258-4259	i	*[28]	_	_	_	_	_	_	
+49-14	4260-4264	vård	*[28]	_	_	_	_	_	_	
+49-15	4265-4272	närmare	*[28]	_	_	_	_	_	_	
+49-16	4273-4282	patienten	*[28]	_	_	_	_	_	_	
+49-17	4283-4288	måste	*[28]	_	_	_	_	_	_	
+49-18	4289-4295	flytta	*[28]	_	_	_	_	_	_	
+49-19	4296-4304	tillbaks	*[28]	_	_	_	_	_	_	
+49-20	4304-4305	,	_	_	_	_	_	_	_	
+49-21	4306-4312	kommer	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-22	4313-4317	hela	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-23	4318-4339	sjukvårdsutvecklingen	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-24	4340-4344	inte	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-25	4345-4349	bara	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-26	4350-4358	avstanna	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-27	4358-4359	,	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-28	4360-4364	utan	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-29	4365-4371	rullas	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-30	4372-4380	tillbaka	_	Target[15]	49-1[28]	false[15]	2[15]	_	_	
+49-31	4380-4381	.	_	_	_	_	_	_	_	
+
+#Text=Gabriel Wikströms förslag är bokstavligen reaktionärt.
+50-1	4382-4389	Gabriel	*[29]	_	_	_	_	_	_	
+50-2	4390-4399	Wikströms	*[29]	_	_	_	_	_	_	
+50-3	4400-4407	förslag	*[29]	_	_	_	_	_	_	
+50-4	4408-4410	är	_	_	_	_	_	_	_	
+50-5	4411-4423	bokstavligen	_	Target[16]	50-1[29]	false[16]	2[16]	_	_	
+50-6	4424-4435	reaktionärt	_	Target[16]	50-1[29]	false[16]	2[16]	_	_	
+50-7	4435-4436	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4438-4439	#	_	_	_	_	_	_	_	
+51-2	4439-4440	P	_	_	_	_	_	_	_	
+51-3	4441-4444	IMM	_	_	_	_	_	_	_	
+51-4	4444-4445	.	_	_	_	_	_	_	_	
+
+#Text=Vad som är högspecialiserad vård, specialiserad vård och även universitetssjukvård är inte statiskt utan ändras i takt med den medicinska och den teknologiska utvecklingen.
+52-1	4447-4450	Vad	_	_	_	_	_	_	_	
+52-2	4451-4454	som	_	_	_	_	_	_	_	
+52-3	4455-4457	är	_	_	_	_	_	_	_	
+52-4	4458-4474	högspecialiserad	_	_	_	_	_	_	_	
+52-5	4475-4479	vård	_	_	_	_	_	_	_	
+52-6	4479-4480	,	_	_	_	_	_	_	_	
+52-7	4481-4494	specialiserad	_	_	_	_	_	_	_	
+52-8	4495-4499	vård	_	_	_	_	_	_	_	
+52-9	4500-4503	och	_	_	_	_	_	_	_	
+52-10	4504-4508	även	_	_	_	_	_	_	_	
+52-11	4509-4529	universitetssjukvård	_	_	_	_	_	_	_	
+52-12	4530-4532	är	_	_	_	_	_	_	_	
+52-13	4533-4537	inte	_	_	_	_	_	_	_	
+52-14	4538-4546	statiskt	_	_	_	_	_	_	_	
+52-15	4547-4551	utan	_	_	_	_	_	_	_	
+52-16	4552-4558	ändras	_	_	_	_	_	_	_	
+52-17	4559-4560	i	_	_	_	_	_	_	_	
+52-18	4561-4565	takt	_	_	_	_	_	_	_	
+52-19	4566-4569	med	_	_	_	_	_	_	_	
+52-20	4570-4573	den	_	_	_	_	_	_	_	
+52-21	4574-4584	medicinska	_	_	_	_	_	_	_	
+52-22	4585-4588	och	_	_	_	_	_	_	_	
+52-23	4589-4592	den	_	_	_	_	_	_	_	
+52-24	4593-4605	teknologiska	_	_	_	_	_	_	_	
+52-25	4606-4618	utvecklingen	_	_	_	_	_	_	_	
+52-26	4618-4619	.	_	_	_	_	_	_	_	
+
+#Text=Ingrepp som förr kunde medföra flera dygns sjukhusvistelse görs numera allt oftare i öppenvården.
+53-1	4620-4627	Ingrepp	_	_	_	_	_	_	_	
+53-2	4628-4631	som	_	_	_	_	_	_	_	
+53-3	4632-4636	förr	_	_	_	_	_	_	_	
+53-4	4637-4642	kunde	_	_	_	_	_	_	_	
+53-5	4643-4650	medföra	_	_	_	_	_	_	_	
+53-6	4651-4656	flera	_	_	_	_	_	_	_	
+53-7	4657-4662	dygns	_	_	_	_	_	_	_	
+53-8	4663-4678	sjukhusvistelse	_	_	_	_	_	_	_	
+53-9	4679-4683	görs	_	_	_	_	_	_	_	
+53-10	4684-4690	numera	_	_	_	_	_	_	_	
+53-11	4691-4695	allt	_	_	_	_	_	_	_	
+53-12	4696-4702	oftare	_	_	_	_	_	_	_	
+53-13	4703-4704	i	_	_	_	_	_	_	_	
+53-14	4705-4716	öppenvården	_	_	_	_	_	_	_	
+53-15	4716-4717	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4719-4720	#	_	_	_	_	_	_	_	
+54-2	4720-4721	P	_	_	_	_	_	_	_	
+54-3	4722-4725	IMM	_	_	_	_	_	_	_	
+54-4	4725-4726	.	_	_	_	_	_	_	_	
+
+#Text=Om Sverige ska vara ett kunskapssamhälle där vi satsar på medicinsk forskning och life science, måste det finnas utrymme i sjukvården för att både utveckla och sprida nya rön.
+55-1	4728-4730	Om	_	_	_	_	_	_	_	
+55-2	4731-4738	Sverige	_	_	_	_	_	_	_	
+55-3	4739-4742	ska	_	_	_	_	_	_	_	
+55-4	4743-4747	vara	_	_	_	_	_	_	_	
+55-5	4748-4751	ett	_	_	_	_	_	_	_	
+55-6	4752-4768	kunskapssamhälle	_	_	_	_	_	_	_	
+55-7	4769-4772	där	_	_	_	_	_	_	_	
+55-8	4773-4775	vi	_	_	_	_	_	_	_	
+55-9	4776-4782	satsar	_	_	_	_	_	_	_	
+55-10	4783-4785	på	_	_	_	_	_	_	_	
+55-11	4786-4795	medicinsk	_	_	_	_	_	_	_	
+55-12	4796-4805	forskning	_	_	_	_	_	_	_	
+55-13	4806-4809	och	_	_	_	_	_	_	_	
+55-14	4810-4814	life	_	_	_	_	_	_	_	
+55-15	4815-4822	science	_	_	_	_	_	_	_	
+55-16	4822-4823	,	_	_	_	_	_	_	_	
+55-17	4824-4829	måste	_	_	_	false	4	_	_	
+55-18	4830-4833	det	_	_	_	_	_	_	_	
+55-19	4834-4840	finnas	_	Target	55-20[30]	false	4	55-17	_	
+55-20	4841-4848	utrymme	*[30]	_	_	_	_	_	_	
+55-21	4849-4850	i	*[30]	_	_	_	_	_	_	
+55-22	4851-4861	sjukvården	*[30]	_	_	_	_	_	_	
+55-23	4862-4865	för	*[30]	_	_	_	_	_	_	
+55-24	4866-4869	att	*[30]	_	_	_	_	_	_	
+55-25	4870-4874	både	*[30]	_	_	_	_	_	_	
+55-26	4875-4883	utveckla	*[30]	_	_	_	_	_	_	
+55-27	4884-4887	och	*[30]	_	_	_	_	_	_	
+55-28	4888-4894	sprida	*[30]	_	_	_	_	_	_	
+55-29	4895-4898	nya	*[30]	_	_	_	_	_	_	
+55-30	4899-4902	rön	*[30]	_	_	_	_	_	_	
+55-31	4902-4903	.	_	_	_	_	_	_	_	
+
+#Text=Då kan man inte låsa fast verksamhetsinnehållet på universitetssjukhusen.
+56-1	4904-4906	Då	_	_	_	_	_	_	_	
+56-2	4907-4910	kan	_	_	_	false	2	_	_	
+56-3	4911-4914	man	_	_	_	_	_	_	_	
+56-4	4915-4919	inte	_	Target	56-5[31]	false	2	56-2	_	
+56-5	4920-4924	låsa	*[31]	_	_	_	_	_	_	
+56-6	4925-4929	fast	*[31]	_	_	_	_	_	_	
+56-7	4930-4951	verksamhetsinnehållet	*[31]	_	_	_	_	_	_	
+56-8	4952-4954	på	*[31]	_	_	_	_	_	_	
+56-9	4955-4976	universitetssjukhusen	*[31]	_	_	_	_	_	_	
+56-10	4976-4977	.	_	_	_	_	_	_	_	
+
+#Text=För framtidens skull måste Gabriel Wikströms reaktionära förslag kastas i papperskorgen.
+57-1	4978-4981	För	_	_	_	_	_	_	_	
+57-2	4982-4992	framtidens	_	_	_	_	_	_	_	
+57-3	4993-4998	skull	_	_	_	_	_	_	_	
+57-4	4999-5004	måste	_	_	_	false	2	_	_	
+57-5	5005-5012	Gabriel	*[32]	_	_	_	_	_	_	
+57-6	5013-5022	Wikströms	*[32]	_	_	_	_	_	_	
+57-7	5023-5034	reaktionära	*[32]	_	_	_	_	_	_	
+57-8	5035-5042	förslag	*[32]	_	_	_	_	_	_	
+57-9	5043-5049	kastas	_	Target[17]	57-5[32]	false[17]	2[17]	57-4[0_17]	_	
+57-10	5050-5051	i	_	Target[17]	57-5[32]	false[17]	2[17]	_	_	
+57-11	5052-5065	papperskorgen	_	Target[17]	57-5[32]	false[17]	2[17]	_	_	
+57-12	5065-5066	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	5068-5069	#	_	_	_	_	_	_	_	
+58-2	5069-5070	P	_	_	_	_	_	_	_	
+58-3	5071-5074	IMM	_	_	_	_	_	_	_	
+58-4	5074-5075	.	_	_	_	_	_	_	_	
+
+#Text=Torbjörn Rosdahl (M).
+59-1	5077-5085	Torbjörn	_	_	_	_	_	_	_	
+59-2	5086-5093	Rosdahl	_	_	_	_	_	_	_	
+59-3	5094-5095	(	_	_	_	_	_	_	_	
+59-4	5095-5096	M	_	_	_	_	_	_	_	
+59-5	5096-5097	)	_	_	_	_	_	_	_	
+59-6	5097-5098	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	5100-5101	#	_	_	_	_	_	_	_	
+60-2	5101-5102	P	_	_	_	_	_	_	_	
+60-3	5103-5106	IMM	_	_	_	_	_	_	_	
+60-4	5106-5107	.	_	_	_	_	_	_	_	
+
+#Text=finanslandstingsråd Stockholms läns landsting.
+61-1	5109-5128	finanslandstingsråd	_	_	_	_	_	_	_	
+61-2	5129-5139	Stockholms	_	_	_	_	_	_	_	
+61-3	5140-5144	läns	_	_	_	_	_	_	_	
+61-4	5145-5154	landsting	_	_	_	_	_	_	_	
+61-5	5154-5155	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	5157-5158	#	_	_	_	_	_	_	_	
+62-2	5158-5159	P	_	_	_	_	_	_	_	
+62-3	5160-5163	IMM	_	_	_	_	_	_	_	
+62-4	5163-5164	.	_	_	_	_	_	_	_	
+
+#Text=Marie Ljungberg Schött (M).
+63-1	5166-5171	Marie	_	_	_	_	_	_	_	
+63-2	5172-5181	Ljungberg	_	_	_	_	_	_	_	
+63-3	5182-5188	Schött	_	_	_	_	_	_	_	
+63-4	5189-5190	(	_	_	_	_	_	_	_	
+63-5	5190-5191	M	_	_	_	_	_	_	_	
+63-6	5191-5192	)	_	_	_	_	_	_	_	
+63-7	5192-5193	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	5195-5196	#	_	_	_	_	_	_	_	
+64-2	5196-5197	P	_	_	_	_	_	_	_	
+64-3	5198-5201	IMM	_	_	_	_	_	_	_	
+64-4	5201-5202	.	_	_	_	_	_	_	_	
+
+#Text=sjukvårdslandstingsråd, Stockholms läns landsting.
+65-1	5204-5226	sjukvårdslandstingsråd	_	_	_	_	_	_	_	
+65-2	5226-5227	,	_	_	_	_	_	_	_	
+65-3	5228-5238	Stockholms	_	_	_	_	_	_	_	
+65-4	5239-5243	läns	_	_	_	_	_	_	_	
+65-5	5244-5253	landsting	_	_	_	_	_	_	_	
+65-6	5253-5254	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	5256-5257	#	_	_	_	_	_	_	_	
+66-2	5257-5258	P	_	_	_	_	_	_	_	
+66-3	5259-5262	IMM	_	_	_	_	_	_	_	
+66-4	5262-5263	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+67-1	5265-5273	Redaktör	_	_	_	_	_	_	_	
+67-2	5273-5274	:	_	_	_	_	_	_	_	
+67-3	5275-5281	Carina	_	_	_	_	_	_	_	
+67-4	5282-5290	Stensson	_	_	_	_	_	_	_	
+67-5	5290-5291	,	_	_	_	_	_	_	_	
+67-6	5292-5302	Biträdande	_	_	_	_	_	_	_	
+67-7	5303-5311	redaktör	_	_	_	_	_	_	_	
+67-8	5311-5312	:	_	_	_	_	_	_	_	
+67-9	5313-5318	Björn	_	_	_	_	_	_	_	
+67-10	5319-5325	Jorner	_	_	_	_	_	_	_	
+67-11	5325-5326	,	_	_	_	_	_	_	_	
+67-12	5327-5331	Mejl	_	_	_	_	_	_	_	
+67-13	5331-5332	:	_	_	_	_	_	_	_	
+67-14	5333-5339	debatt	_	_	_	_	_	_	_	
+67-15	5339-5340	@	_	_	_	_	_	_	_	
+67-16	5340-5346	svd.se	_	_	_	_	_	_	_	
+67-17	5346-5347	,	_	_	_	_	_	_	_	
+67-18	5348-5361	Telefonnummer	_	_	_	_	_	_	_	
+67-19	5361-5362	:	_	_	_	_	_	_	_	
+67-20	5363-5365	08	_	_	_	_	_	_	_	
+67-21	5365-5366	-	_	_	_	_	_	_	_	
+67-22	5366-5372	135149	_	_	_	_	_	_	_	
+67-23	5372-5373	,	_	_	_	_	_	_	_	
+67-24	5374-5381	Twitter	_	_	_	_	_	_	_	
+67-25	5381-5382	:	_	_	_	_	_	_	_	
+67-26	5383-5384	@	_	_	_	_	_	_	_	
+67-27	5384-5393	SvDDebatt	_	_	_	_	_	_	_	
+67-28	5393-5394	,	_	_	_	_	_	_	_	
+67-29	5395-5403	Facebook	_	_	_	_	_	_	_	
+67-30	5403-5404	:	_	_	_	_	_	_	_	
+67-31	5405-5408	SvD	_	_	_	_	_	_	_	
+67-32	5409-5415	Debatt	_	_	_	_	_	_	_	
+67-33	5415-5416	.	_	_	_	_	_	_	_	

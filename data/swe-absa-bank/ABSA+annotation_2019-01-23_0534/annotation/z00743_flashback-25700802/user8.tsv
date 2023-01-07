@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Professor ger SD rätt!
+3-1	18-27	Professor	_	_	_	_	_	
+3-2	28-31	ger	_	_	_	_	_	
+3-3	32-34	SD	_	_	_	_	_	
+3-4	35-39	rätt	_	_	_	_	_	
+3-5	39-40	!	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	42-43	#	_	_	_	_	_	
+4-2	43-44	P	_	_	_	_	_	
+4-3	45-48	IMM	_	_	_	false	2	
+4-4	48-49	.	_	_	_	_	_	
+
+#Text=En efterbliven Professor ger SD rätt, dock så svamlar idioten runt i artikeln om en massa oväsentligt skit, men summa summarum så ger han SD rätt.
+5-1	51-53	En	_	_	_	_	_	
+5-2	54-65	efterbliven	_	Target	5-3	false	1	
+5-3	66-75	Professor	*	_	_	_	_	
+5-4	76-79	ger	_	_	_	_	_	
+5-5	80-82	SD	_	_	_	_	_	
+5-6	83-87	rätt	_	_	_	_	_	
+5-7	87-88	,	_	_	_	_	_	
+5-8	89-93	dock	_	_	_	_	_	
+5-9	94-96	så	_	_	_	_	_	
+5-10	97-104	svamlar	_	_[1]	_	false[1]	1[1]	
+5-11	105-112	idioten	*	_[1]	_	false[1]	1[1]	
+5-12	113-117	runt	_	_[1]	_	false[1]	1[1]	
+5-13	118-119	i	_	_	_	_	_	
+5-14	120-128	artikeln	_	_	_	_	_	
+5-15	129-131	om	_	_	_	_	_	
+5-16	132-134	en	*[6]	Target[2]	5-16[6]	false[2]	1[2]	
+5-17	135-140	massa	*[6]	Target[2]	5-16[6]	false[2]	1[2]	
+5-18	141-152	oväsentligt	*[6]	Target[2]	5-16[6]	false[2]	1[2]	
+5-19	153-157	skit	*[6]	Target[2]	5-16[6]	false[2]	1[2]	
+5-20	157-158	,	_	_	_	_	_	
+5-21	159-162	men	_	_	_	_	_	
+5-22	163-168	summa	_	_	_	_	_	
+5-23	169-177	summarum	_	_	_	_	_	
+5-24	178-180	så	_	_	_	_	_	
+5-25	181-184	ger	_	_	_	_	_	
+5-26	185-188	han	_	_	_	_	_	
+5-27	189-191	SD	_	_	_	_	_	
+5-28	192-196	rätt	_	_	_	_	_	
+5-29	196-197	.	_	_	_	_	_	
+
+#Text=Invandringen kostar Sverige 2 % av BNP.
+6-1	198-210	Invandringen	_	_	_	_	_	
+6-2	211-217	kostar	_	_	_	_	_	
+6-3	218-225	Sverige	_	_	_	_	_	
+6-4	226-227	2	_	_	_	_	_	
+6-5	228-229	%	_	_	_	_	_	
+6-6	230-232	av	_	_	_	_	_	
+6-7	233-236	BNP	_	_	_	_	_	
+6-8	236-237	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	239-240	#	_	_	_	_	_	
+7-2	240-241	P	_	_	_	_	_	
+7-3	242-245	IMM	_	_	_	_	_	
+7-4	245-246	.	_	_	_	_	_	
+
+#Text=Man kan tycka att åtminstone moderatväljarna borde använda sina feta korvfingrar och stoppa en SD röst i urnan nästa gång.
+8-1	248-251	Man	_	_	_	_	_	
+8-2	252-255	kan	_	_	_	_	_	
+8-3	256-261	tycka	_	_	_	_	_	
+8-4	262-265	att	_	_	_	_	_	
+8-5	266-276	åtminstone	_	_	_	_	_	
+8-6	277-292	moderatväljarna	*	_	_	_	_	
+8-7	293-298	borde	_	_	_	_	_	
+8-8	299-306	använda	_	_	_	_	_	
+8-9	307-311	sina	_	Target[3]	8-6	false[3]	1[3]	
+8-10	312-316	feta	_	Target[3]	8-6	false[3]	1[3]	
+8-11	317-328	korvfingrar	_	Target[3]	8-6	false[3]	1[3]	
+8-12	329-332	och	_	_	_	_	_	
+8-13	333-339	stoppa	_	_	_	_	_	
+8-14	340-342	en	_	_	_	_	_	
+8-15	343-345	SD	_	_	_	_	_	
+8-16	346-350	röst	_	_	_	_	_	
+8-17	351-352	i	_	_	_	_	_	
+8-18	353-358	urnan	_	_	_	_	_	
+8-19	359-364	nästa	_	_	_	_	_	
+8-20	365-369	gång	_	_	_	_	_	
+8-21	369-370	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	372-373	#	_	_	_	_	_	
+9-2	373-374	P	_	_	_	_	_	
+9-3	375-378	IMM	_	_	_	false	2	
+9-4	378-379	.	_	_	_	_	_	
+
+#Text=Vad säger alla dumjävlar till moderater och sossar nu som svammel om det oerhörda bidrag som invandringen ger Sveriges ekonomi.
+10-1	381-384	Vad	_	_	_	_	_	
+10-2	385-390	säger	_	_	_	_	_	
+10-3	391-395	alla	_	_	_	_	_	
+10-4	396-405	dumjävlar	_	Target	10-6[7]	false	1	
+10-5	406-410	till	_	_	_	_	_	
+10-6	411-420	moderater	*[7]	_	_	_	_	
+10-7	421-424	och	*[7]	_	_	_	_	
+10-8	425-431	sossar	*[7]	_	_	_	_	
+10-9	432-434	nu	_	_	_	_	_	
+10-10	435-438	som	_	_	_	_	_	
+10-11	439-446	svammel	*	Target	10-11	false	1	
+10-12	447-449	om	_	_	_	_	_	
+10-13	450-453	det	_	Target[4]	10-17	true[4]	5[4]	
+10-14	454-462	oerhörda	_	Target[4]	10-17	true[4]	5[4]	
+10-15	463-469	bidrag	_	Target[4]	10-17	true[4]	5[4]	
+10-16	470-473	som	_	_	_	_	_	
+10-17	474-486	invandringen	*	_	_	_	_	
+10-18	487-490	ger	_	_	_	_	_	
+10-19	491-499	Sveriges	_	_	_	_	_	
+10-20	500-507	ekonomi	_	_	_	_	_	
+10-21	507-508	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	510-511	#	_	_	_	_	_	
+11-2	511-512	P	_	_	_	_	_	
+11-3	513-516	IMM	_	_	_	_	_	
+11-4	516-517	.	_	_	_	_	_	
+
+#Text=Dumstruten på?.
+12-1	519-529	Dumstruten	_	_[5]	_	false[5]	1[5]	
+12-2	530-532	på	_	_[5]	_	false[5]	1[5]	
+12-3	532-533	?	_	_	_	_	_	
+12-4	533-534	.	_	_	_	_	_	

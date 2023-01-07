@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	3[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	3[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vad ska Sverige ha för invandringspolitik?
+3-1	18-21	Vad	_	_	_	_	_	
+3-2	22-25	ska	_	_	_	_	_	
+3-3	26-33	Sverige	_	_	_	_	_	
+3-4	34-36	ha	_	_	_	_	_	
+3-5	37-40	för	_	_	_	_	_	
+3-6	41-59	invandringspolitik	_	_	_	_	_	
+3-7	59-60	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_[3]	_	false[3]	3[3]	
+4-2	63-64	P	_	_[3]	_	false[3]	3[3]	
+4-3	65-68	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	68-69	.	_	_	_	_	_	
+
+#Text=Det är mycket kritik mot invandringspolitiken och invandrarna på detta forum.
+5-1	71-74	Det	_	_	_	_	_	
+5-2	75-77	är	_	Target;Source[4]	5-6[5];5-12	false[4]	2[4]	
+5-3	78-84	mycket	_	Target;Source[4]	5-6[5];5-12	false[4]	2[4]	
+5-4	85-91	kritik	_	Target;Source[4]	5-6[5];5-12	false[4]	2[4]	
+5-5	92-95	mot	_	Target;Source[4]	5-6[5];5-12	false[4]	2[4]	
+5-6	96-116	invandringspolitiken	*[5]	_	_	_	_	
+5-7	117-120	och	*[5]	_	_	_	_	
+5-8	121-132	invandrarna	*[5]	_	_	_	_	
+5-9	133-135	på	_	_	_	_	_	
+5-10	136-141	detta	_	_	_	_	_	
+5-11	142-147	forum	_	_	_	_	_	
+5-12	147-148	.	*	_	_	_	_	
+
+#Text=Men i den här tråden vill jag skapa en konstruktiv diskussion om hur en förändring kan se ut och vad som i så fall behöver förändras.
+6-1	149-152	Men	_	_	_	_	_	
+6-2	153-154	i	_	_	_	_	_	
+6-3	155-158	den	_	_	_	_	_	
+6-4	159-162	här	_	_	_	_	_	
+6-5	163-169	tråden	_	_	_	_	_	
+6-6	170-174	vill	_	_	_	_	_	
+6-7	175-178	jag	_	_	_	_	_	
+6-8	179-184	skapa	_	_	_	_	_	
+6-9	185-187	en	_	_	_	_	_	
+6-10	188-199	konstruktiv	_	Target	6-11[6]	false	4	
+6-11	200-210	diskussion	*[6]	_	_	_	_	
+6-12	211-213	om	*[6]	_	_	_	_	
+6-13	214-217	hur	*[6]	_	_	_	_	
+6-14	218-220	en	*[6]	_	_	_	_	
+6-15	221-231	förändring	*[6]	_	_	_	_	
+6-16	232-235	kan	*[6]	_	_	_	_	
+6-17	236-238	se	*[6]	_	_	_	_	
+6-18	239-241	ut	*[6]	_	_	_	_	
+6-19	242-245	och	*[6]	_	_	_	_	
+6-20	246-249	vad	*[6]	_	_	_	_	
+6-21	250-253	som	*[6]	_	_	_	_	
+6-22	254-255	i	*[6]	_	_	_	_	
+6-23	256-258	så	*[6]	_	_	_	_	
+6-24	259-263	fall	*[6]	_	_	_	_	
+6-25	264-271	behöver	*[6]	_	_	_	_	
+6-26	272-281	förändras	*[6]	_	_	_	_	
+6-27	281-282	.	_	_	_	_	_	

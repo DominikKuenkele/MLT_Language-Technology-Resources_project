@@ -1,0 +1,550 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Ta bra hand om våra soldater.
+3-1	18-20	Ta	_	Target[1]	3-5[10]	false[1]	5[1]	_	_	
+3-2	21-24	bra	_	Target[1]	3-5[10]	false[1]	5[1]	_	_	
+3-3	25-29	hand	_	Target[1]	3-5[10]	false[1]	5[1]	_	_	
+3-4	30-32	om	_	Target[1]	3-5[10]	false[1]	5[1]	_	_	
+3-5	33-37	våra	*[10]	_	_	_	_	_	_	
+3-6	38-46	soldater	*[10]	_	_	_	_	_	_	
+3-7	46-47	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	49-50	#	_	_	_	_	_	_	_	
+4-2	50-51	P	_	_	_	_	_	_	_	
+4-3	52-55	IMM	_	_	_	_	_	_	_	
+4-4	55-56	.	_	_	_	_	_	_	_	
+
+#Text=När jag läser pressens skildring av den svenska enhetens upplevelser och beteende i Afghanistan känner jag igen reaktioner som gör mig bekymrad.
+5-1	58-61	När	_	_	_	_	_	_	_	
+5-2	62-65	jag	_	_	_	_	_	_	_	
+5-3	66-71	läser	_	_	_	_	_	_	_	
+5-4	72-80	pressens	_	_	_	_	_	_	_	
+5-5	81-90	skildring	_	_	_	_	_	_	_	
+5-6	91-93	av	_	_	_	_	_	_	_	
+5-7	94-97	den	_	_	_	_	_	_	_	
+5-8	98-105	svenska	_	_	_	_	_	_	_	
+5-9	106-114	enhetens	_	_	_	_	_	_	_	
+5-10	115-126	upplevelser	_	_	_	_	_	_	_	
+5-11	127-130	och	_	_	_	_	_	_	_	
+5-12	131-139	beteende	_	_	_	_	_	_	_	
+5-13	140-141	i	_	_	_	_	_	_	_	
+5-14	142-153	Afghanistan	_	_	_	_	_	_	_	
+5-15	154-160	känner	_	_	_	_	_	_	_	
+5-16	161-164	jag	_	_	_	_	_	_	_	
+5-17	165-169	igen	_	_	_	_	_	_	_	
+5-18	170-180	reaktioner	*	_	_	_	_	_	_	
+5-19	181-184	som	_	_	_	_	_	_	_	
+5-20	185-188	gör	_	Target[2]	5-18	false[2]	2[2]	_	_	
+5-21	189-192	mig	_	Target[2]	5-18	false[2]	2[2]	_	_	
+5-22	193-201	bekymrad	_	Target[2]	5-18	false[2]	2[2]	_	_	
+5-23	201-202	.	_	_	_	_	_	_	_	
+
+#Text=Utmattningen efter uppdrag, undertryckandet av tillbakablickar – helt enkelt för att orka vidare – och isolering på det egna rummet som ett sårat djur är typiska överlevnadsstrategier.
+6-1	203-215	Utmattningen	_	_	_	_	_	_	_	
+6-2	216-221	efter	_	_	_	_	_	_	_	
+6-3	222-229	uppdrag	_	_	_	_	_	_	_	
+6-4	229-230	,	_	_	_	_	_	_	_	
+6-5	231-246	undertryckandet	_	_	_	_	_	_	_	
+6-6	247-249	av	_	_	_	_	_	_	_	
+6-7	250-265	tillbakablickar	_	_	_	_	_	_	_	
+6-8	266-267	–	_	_	_	_	_	_	_	
+6-9	268-272	helt	_	_	_	_	_	_	_	
+6-10	273-279	enkelt	_	_	_	_	_	_	_	
+6-11	280-283	för	_	_	_	_	_	_	_	
+6-12	284-287	att	_	_	_	_	_	_	_	
+6-13	288-292	orka	_	_	_	_	_	_	_	
+6-14	293-299	vidare	_	_	_	_	_	_	_	
+6-15	300-301	–	_	_	_	_	_	_	_	
+6-16	302-305	och	_	_	_	_	_	_	_	
+6-17	306-315	isolering	_	_	_	_	_	_	_	
+6-18	316-318	på	_	_	_	_	_	_	_	
+6-19	319-322	det	_	_	_	_	_	_	_	
+6-20	323-327	egna	_	_	_	_	_	_	_	
+6-21	328-334	rummet	_	_	_	_	_	_	_	
+6-22	335-338	som	_	Source[3]	6-29	false[3]	2[3]	_	_	
+6-23	339-342	ett	_	Source[3]	6-29	false[3]	2[3]	_	_	
+6-24	343-348	sårat	_	Source[3]	6-29	false[3]	2[3]	_	_	
+6-25	349-353	djur	_	Source[3]	6-29	false[3]	2[3]	_	_	
+6-26	354-356	är	_	_	_	_	_	_	_	
+6-27	357-364	typiska	_	_	_	_	_	_	_	
+6-28	365-386	överlevnadsstrategier	_	_	_	_	_	_	_	
+6-29	386-387	.	*	_	_	_	_	_	_	
+
+#Text=Så har människan sedan urminnes tider hanterat en smärtsam verklighet.
+7-1	388-390	Så	_	_	_	_	_	_	_	
+7-2	391-394	har	_	_	_	_	_	_	_	
+7-3	395-404	människan	_	_	_	_	_	_	_	
+7-4	405-410	sedan	_	_	_	_	_	_	_	
+7-5	411-419	urminnes	_	_	_	_	_	_	_	
+7-6	420-425	tider	_	_	_	_	_	_	_	
+7-7	426-434	hanterat	_	_	_	_	_	_	_	
+7-8	435-437	en	*[11]	Target[4]	7-8[11]	false[4]	2[4]	_	_	
+7-9	438-446	smärtsam	*[11]	Target[4]	7-8[11]	false[4]	2[4]	_	_	
+7-10	447-457	verklighet	*[11]	Target[4]	7-8[11]	false[4]	2[4]	_	_	
+7-11	457-458	.	_	_	_	_	_	_	_	
+
+#Text=Priset betalar man efteråt.
+8-1	459-465	Priset	_	_	_	_	_	_	_	
+8-2	466-473	betalar	_	_	_	_	_	_	_	
+8-3	474-477	man	_	_	_	_	_	_	_	
+8-4	478-485	efteråt	_	_	_	_	_	_	_	
+8-5	485-486	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller även eliten av svensk ungdom.
+9-1	487-490	Det	_	_	_	_	_	_	_	
+9-2	491-497	gäller	_	_	_	_	_	_	_	
+9-3	498-502	även	_	_	_	_	_	_	_	
+9-4	503-509	eliten	_	_	_	_	_	_	_	
+9-5	510-512	av	_	_	_	_	_	_	_	
+9-6	513-519	svensk	_	_	_	_	_	_	_	
+9-7	520-526	ungdom	_	_	_	_	_	_	_	
+9-8	526-527	.	_	_	_	_	_	_	_	
+
+#Text=Jag har själv som yrkesman deltagit i deras urval och utbildning.
+10-1	528-531	Jag	_	_	_	_	_	_	_	
+10-2	532-535	har	_	_	_	_	_	_	_	
+10-3	536-541	själv	_	_	_	_	_	_	_	
+10-4	542-545	som	_	_	_	_	_	_	_	
+10-5	546-554	yrkesman	_	_	_	_	_	_	_	
+10-6	555-563	deltagit	_	_	_	_	_	_	_	
+10-7	564-565	i	_	_	_	_	_	_	_	
+10-8	566-571	deras	_	_	_	_	_	_	_	
+10-9	572-577	urval	_	_	_	_	_	_	_	
+10-10	578-581	och	_	_	_	_	_	_	_	
+10-11	582-592	utbildning	_	_	_	_	_	_	_	
+10-12	592-593	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	595-596	#	_	_	_	_	_	_	_	
+11-2	596-597	P	_	_	_	_	_	_	_	
+11-3	598-601	IMM	_	_	_	_	_	_	_	
+11-4	601-602	.	_	_	_	_	_	_	_	
+
+#Text=Det är tre faktorer som enligt stressforskning är väsentliga för uppkomsten av posttraumatisk stress.
+12-1	604-607	Det	_	_	_	_	_	_	_	
+12-2	608-610	är	_	_	_	_	_	_	_	
+12-3	611-614	tre	_	_	_	_	_	_	_	
+12-4	615-623	faktorer	_	_	_	_	_	_	_	
+12-5	624-627	som	_	_	_	_	_	_	_	
+12-6	628-634	enligt	_	_	_	_	_	_	_	
+12-7	635-650	stressforskning	_	_	_	_	_	_	_	
+12-8	651-653	är	_	_	_	_	_	_	_	
+12-9	654-664	väsentliga	_	_	_	_	_	_	_	
+12-10	665-668	för	_	_	_	_	_	_	_	
+12-11	669-679	uppkomsten	_	_	_	_	_	_	_	
+12-12	680-682	av	_	_	_	_	_	_	_	
+12-13	683-697	posttraumatisk	_	_	_	_	_	_	_	
+12-14	698-704	stress	_	_	_	_	_	_	_	
+12-15	704-705	.	_	_	_	_	_	_	_	
+
+#Text=Sådan var mycket vanlig hos amerikanerna i Vietnam och numera även i Irak.
+13-1	706-711	Sådan	_	_	_	_	_	_	_	
+13-2	712-715	var	_	_	_	_	_	_	_	
+13-3	716-722	mycket	_	_	_	_	_	_	_	
+13-4	723-729	vanlig	_	_	_	_	_	_	_	
+13-5	730-733	hos	_	_	_	_	_	_	_	
+13-6	734-746	amerikanerna	_	_	_	_	_	_	_	
+13-7	747-748	i	_	_	_	_	_	_	_	
+13-8	749-756	Vietnam	_	_	_	_	_	_	_	
+13-9	757-760	och	_	_	_	_	_	_	_	
+13-10	761-767	numera	_	_	_	_	_	_	_	
+13-11	768-772	även	_	_	_	_	_	_	_	
+13-12	773-774	i	_	_	_	_	_	_	_	
+13-13	775-779	Irak	_	_	_	_	_	_	_	
+13-14	779-780	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	782-783	#	_	_	_	_	_	_	_	
+14-2	783-784	P	_	_	_	_	_	_	_	
+14-3	785-788	IMM	_	_	_	_	_	_	_	
+14-4	788-789	.	_	_	_	_	_	_	_	
+
+#Text=Ett är svårighetsgraden i kraven.
+15-1	791-794	Ett	_	_	_	_	_	_	_	
+15-2	795-797	är	_	_	_	_	_	_	_	
+15-3	798-814	svårighetsgraden	_	_	_	_	_	_	_	
+15-4	815-816	i	_	_	_	_	_	_	_	
+15-5	817-823	kraven	_	_	_	_	_	_	_	
+15-6	823-824	.	_	_	_	_	_	_	_	
+
+#Text=De mål som satts upp för utvecklingen i Afghanistan är utomordentligt höga i förhållande till situationen.
+16-1	825-827	De	_	_	_	_	_	_	_	
+16-2	828-831	mål	_	_	_	_	_	_	_	
+16-3	832-835	som	_	_	_	_	_	_	_	
+16-4	836-841	satts	_	_	_	_	_	_	_	
+16-5	842-845	upp	_	_	_	_	_	_	_	
+16-6	846-849	för	_	_	_	_	_	_	_	
+16-7	850-862	utvecklingen	_	_	_	_	_	_	_	
+16-8	863-864	i	_	_	_	_	_	_	_	
+16-9	865-876	Afghanistan	_	_	_	_	_	_	_	
+16-10	877-879	är	_	_	_	_	_	_	_	
+16-11	880-894	utomordentligt	_	_	_	_	_	_	_	
+16-12	895-899	höga	_	_	_	_	_	_	_	
+16-13	900-901	i	_	_	_	_	_	_	_	
+16-14	902-913	förhållande	_	_	_	_	_	_	_	
+16-15	914-918	till	_	_	_	_	_	_	_	
+16-16	919-930	situationen	_	_	_	_	_	_	_	
+16-17	930-931	.	_	_	_	_	_	_	_	
+
+#Text=Ingen har lyckats tidigare och rakt inte med de metoder som använts gång på gång utan resultat i tusentals år, nämligen väpnad insats.
+17-1	932-937	Ingen	_	_	_	_	_	_	_	
+17-2	938-941	har	_	_	_	_	_	_	_	
+17-3	942-949	lyckats	_	_	_	_	_	_	_	
+17-4	950-958	tidigare	_	_	_	_	_	_	_	
+17-5	959-962	och	_	_	_	_	_	_	_	
+17-6	963-967	rakt	_	_	_	_	_	_	_	
+17-7	968-972	inte	_	_	_	_	_	_	_	
+17-8	973-976	med	_	_	_	_	_	_	_	
+17-9	977-979	de	_	_	_	_	_	_	_	
+17-10	980-987	metoder	_	_	_	_	_	_	_	
+17-11	988-991	som	_	_	_	_	_	_	_	
+17-12	992-999	använts	_	_	_	_	_	_	_	
+17-13	1000-1004	gång	_	_	_	_	_	_	_	
+17-14	1005-1007	på	_	_	_	_	_	_	_	
+17-15	1008-1012	gång	_	_	_	_	_	_	_	
+17-16	1013-1017	utan	_	_	_	_	_	_	_	
+17-17	1018-1026	resultat	_	_	_	_	_	_	_	
+17-18	1027-1028	i	_	_	_	_	_	_	_	
+17-19	1029-1038	tusentals	_	_	_	_	_	_	_	
+17-20	1039-1041	år	_	_	_	_	_	_	_	
+17-21	1041-1042	,	_	_	_	_	_	_	_	
+17-22	1043-1051	nämligen	_	_	_	_	_	_	_	
+17-23	1052-1058	väpnad	_	_	_	_	_	_	_	
+17-24	1059-1065	insats	_	_	_	_	_	_	_	
+17-25	1065-1066	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1068-1069	#	_	_	_	_	_	_	_	
+18-2	1069-1070	P	_	_	_	_	_	_	_	
+18-3	1071-1074	IMM	_	_	_	_	_	_	_	
+18-4	1074-1075	.	_	_	_	_	_	_	_	
+
+#Text=Nästa komponent är graden av kontroll över den egna uppgiften och situationen.
+19-1	1077-1082	Nästa	_	_	_	_	_	_	_	
+19-2	1083-1092	komponent	_	_	_	_	_	_	_	
+19-3	1093-1095	är	_	_	_	_	_	_	_	
+19-4	1096-1102	graden	_	_	_	_	_	_	_	
+19-5	1103-1105	av	_	_	_	_	_	_	_	
+19-6	1106-1114	kontroll	_	_	_	_	_	_	_	
+19-7	1115-1119	över	_	_	_	_	_	_	_	
+19-8	1120-1123	den	_	_	_	_	_	_	_	
+19-9	1124-1128	egna	_	_	_	_	_	_	_	
+19-10	1129-1138	uppgiften	_	_	_	_	_	_	_	
+19-11	1139-1142	och	_	_	_	_	_	_	_	
+19-12	1143-1154	situationen	_	_	_	_	_	_	_	
+19-13	1154-1155	.	_	_	_	_	_	_	_	
+
+#Text=Denna är ringa; man kan inte i förväg räkna ut var och när man angrips eller vem som är vän eller fiende utan drabbas blint.
+20-1	1156-1161	Denna	_	_	_	_	_	_	_	
+20-2	1162-1164	är	_	_	_	_	_	_	_	
+20-3	1165-1170	ringa	_	_	_	_	_	_	_	
+20-4	1170-1171	;	_	_	_	_	_	_	_	
+20-5	1172-1175	man	*[12]|*[13]	_	_	_	_	_	22-1[14_12]	
+20-6	1176-1179	kan	*[12]	_	_	_	_	_	_	
+20-7	1180-1184	inte	*[12]	_	_	_	_	_	_	
+20-8	1185-1186	i	*[12]	_	_	_	_	_	_	
+20-9	1187-1193	förväg	*[12]	_	_	_	_	_	_	
+20-10	1194-1199	räkna	*[12]	_	_	_	_	_	_	
+20-11	1200-1202	ut	*[12]	_	_	_	_	_	_	
+20-12	1203-1206	var	*[12]	_	_	_	_	_	_	
+20-13	1207-1210	och	*[12]	_	_	_	_	_	_	
+20-14	1211-1214	när	*[12]	_	_	_	_	_	_	
+20-15	1215-1218	man	*[12]	_	_	_	_	_	_	
+20-16	1219-1226	angrips	*[12]	_	_	_	_	_	_	
+20-17	1227-1232	eller	*[12]	_	_	_	_	_	_	
+20-18	1233-1236	vem	*[12]	_	_	_	_	_	_	
+20-19	1237-1240	som	*[12]	_	_	_	_	_	_	
+20-20	1241-1243	är	*[12]	_	_	_	_	_	_	
+20-21	1244-1247	vän	*[12]	_	_	_	_	_	_	
+20-22	1248-1253	eller	*[12]	_	_	_	_	_	_	
+20-23	1254-1260	fiende	*[12]	_	_	_	_	_	_	
+20-24	1261-1265	utan	_	_	_	_	_	_	_	
+20-25	1266-1273	drabbas	_	Source[5]	20-5[13]	false[5]	2[5]	_	_	
+20-26	1274-1279	blint	_	Source[5]	20-5[13]	false[5]	2[5]	_	_	
+20-27	1279-1280	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1282-1283	#	_	_	_	_	_	_	_	
+21-2	1283-1284	P	_	_	_	_	_	_	_	
+21-3	1285-1288	IMM	_	_	_	_	_	_	_	
+21-4	1288-1289	.	_	_	_	_	_	_	_	
+
+#Text=Det är en extremt påfrestande situation, som nöter på psyket och efter lång tid kan resultera i livshotande kroppsliga sjukdomar ofta på hjärta och kärl.
+22-1	1291-1294	Det	*[14]|*[15]	_	_	_	_	_	_	
+22-2	1295-1297	är	_	_	_	_	_	_	_	
+22-3	1298-1300	en	_	Target[6]	22-1[14]	false[6]	1[6]	_	_	
+22-4	1301-1308	extremt	_	Target[6]	22-1[14]	false[6]	1[6]	_	_	
+22-5	1309-1320	påfrestande	_	Target[6]	22-1[14]	false[6]	1[6]	_	_	
+22-6	1321-1330	situation	_	Target[6]	22-1[14]	false[6]	1[6]	_	_	
+22-7	1330-1331	,	_	_	_	_	_	_	_	
+22-8	1332-1335	som	_	_	_	_	_	_	_	
+22-9	1336-1341	nöter	_	_[7]	_	false[7]	2[7]	_	_	
+22-10	1342-1344	på	_	_[7]	_	false[7]	2[7]	_	_	
+22-11	1345-1351	psyket	_	_[7]	_	false[7]	2[7]	_	_	
+22-12	1352-1355	och	_	_	_	_	_	_	_	
+22-13	1356-1361	efter	_	_	_	_	_	_	_	
+22-14	1362-1366	lång	_	_	_	_	_	_	_	
+22-15	1367-1370	tid	_	_	_	_	_	_	_	
+22-16	1371-1374	kan	_	_	_	_	_	_	_	
+22-17	1375-1384	resultera	_	_	_	_	_	_	_	
+22-18	1385-1386	i	_	_	_	_	_	_	_	
+22-19	1387-1398	livshotande	_	_	_	_	_	_	_	
+22-20	1399-1409	kroppsliga	_	_	_	_	_	_	_	
+22-21	1410-1419	sjukdomar	_	_	_	_	_	_	_	
+22-22	1420-1424	ofta	_	_	_	_	_	_	_	
+22-23	1425-1427	på	_	_	_	_	_	_	_	
+22-24	1428-1434	hjärta	_	_	_	_	_	_	_	
+22-25	1435-1438	och	_	_	_	_	_	_	_	
+22-26	1439-1443	kärl	_	_	_	_	_	_	_	
+22-27	1443-1444	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1446-1447	#	_	_	_	_	_	_	_	
+23-2	1447-1448	P	_	_	_	_	_	_	_	
+23-3	1449-1452	IMM	_	_	_	_	_	_	_	
+23-4	1452-1453	.	_	_	_	_	_	_	_	
+
+#Text=Somliga plikttrogna soldater med höga ideal kan med yttersta ansträngning skjuta detta åt sidan men får i regel betala priset somatiskt och mentalt när de kommer hem.
+24-1	1455-1462	Somliga	_	_	_	_	_	_	_	
+24-2	1463-1474	plikttrogna	_	Target	24-3	false	4	_	_	
+24-3	1475-1483	soldater	*	_	_	_	_	_	_	
+24-4	1484-1487	med	_	_	_	_	_	_	_	
+24-5	1488-1492	höga	_	_	_	_	_	_	_	
+24-6	1493-1498	ideal	_	_	_	_	_	_	_	
+24-7	1499-1502	kan	_	_	_	_	_	_	_	
+24-8	1503-1506	med	_	_	_	_	_	_	_	
+24-9	1507-1515	yttersta	_	_	_	_	_	_	_	
+24-10	1516-1528	ansträngning	_	_	_	_	_	_	_	
+24-11	1529-1535	skjuta	_	_	_	_	_	_	_	
+24-12	1536-1541	detta	_	_	_	_	_	_	_	
+24-13	1542-1544	åt	_	_	_	_	_	_	_	
+24-14	1545-1550	sidan	_	_	_	_	_	_	_	
+24-15	1551-1554	men	_	_	_	_	_	_	_	
+24-16	1555-1558	får	_	_	_	_	_	_	_	
+24-17	1559-1560	i	_	_	_	_	_	_	_	
+24-18	1561-1566	regel	_	_	_	_	_	_	_	
+24-19	1567-1573	betala	_	_	_	_	_	_	_	
+24-20	1574-1580	priset	_	_	_	_	_	_	_	
+24-21	1581-1590	somatiskt	_	_	_	_	_	_	_	
+24-22	1591-1594	och	_	_	_	_	_	_	_	
+24-23	1595-1602	mentalt	_	_	_	_	_	_	_	
+24-24	1603-1606	när	_	_	_	_	_	_	_	
+24-25	1607-1609	de	_	_	_	_	_	_	_	
+24-26	1610-1616	kommer	_	_	_	_	_	_	_	
+24-27	1617-1620	hem	_	_	_	_	_	_	_	
+24-28	1620-1621	.	_	_	_	_	_	_	_	
+
+#Text=Många år efteråt kommer traumatiska flashbacks, återkommande mardrömmar eller oförmåga att slappna av.
+25-1	1622-1627	Många	_	_	_	_	_	_	_	
+25-2	1628-1630	år	_	_	_	_	_	_	_	
+25-3	1631-1638	efteråt	_	_	_	_	_	_	_	
+25-4	1639-1645	kommer	_	_	_	_	_	_	_	
+25-5	1646-1657	traumatiska	_	Target;Source	25-6;25-15	false	1	_	_	
+25-6	1658-1668	flashbacks	*	_	_	_	_	_	_	
+25-7	1668-1669	,	_	_	_	_	_	_	_	
+25-8	1670-1682	återkommande	_	_	_	_	_	_	_	
+25-9	1683-1693	mardrömmar	_	_	_	_	_	_	_	
+25-10	1694-1699	eller	_	_	_	_	_	_	_	
+25-11	1700-1708	oförmåga	_	_	_	_	_	_	_	
+25-12	1709-1712	att	_	_	_	_	_	_	_	
+25-13	1713-1720	slappna	_	_	_	_	_	_	_	
+25-14	1721-1723	av	_	_	_	_	_	_	_	
+25-15	1723-1724	.	*	_	_	_	_	_	_	
+
+#Text=Till slut kan enda utvägen ur detta bli självmord eller droger.
+26-1	1725-1729	Till	_	_	_	_	_	_	_	
+26-2	1730-1734	slut	_	_	_	_	_	_	_	
+26-3	1735-1738	kan	_	_	_	_	_	_	_	
+26-4	1739-1743	enda	_	_	_	_	_	_	_	
+26-5	1744-1751	utvägen	_	_	_	_	_	_	_	
+26-6	1752-1754	ur	_	_	_	_	_	_	_	
+26-7	1755-1760	detta	_	_	_	_	_	_	_	
+26-8	1761-1764	bli	_	_	_	_	_	_	_	
+26-9	1765-1774	självmord	_	_	_	_	_	_	_	
+26-10	1775-1780	eller	_	_	_	_	_	_	_	
+26-11	1781-1787	droger	_	_	_	_	_	_	_	
+26-12	1787-1788	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1790-1791	#	_	_	_	_	_	_	_	
+27-2	1791-1792	P	_	_	_	_	_	_	_	
+27-3	1793-1796	IMM	_	_	_	_	_	_	_	
+27-4	1796-1797	.	_	_	_	_	_	_	_	
+
+#Text=Det som möjligen kan kompensera någon av dessa komponenter är stöd.
+28-1	1799-1802	Det	_	_	_	_	_	_	_	
+28-2	1803-1806	som	_	_	_	_	_	_	_	
+28-3	1807-1815	möjligen	_	_	_	_	_	_	_	
+28-4	1816-1819	kan	_	_	_	_	_	_	_	
+28-5	1820-1830	kompensera	_	_	_	_	_	_	_	
+28-6	1831-1836	någon	_	_	_	_	_	_	_	
+28-7	1837-1839	av	_	_	_	_	_	_	_	
+28-8	1840-1845	dessa	_	_	_	_	_	_	_	
+28-9	1846-1857	komponenter	_	_	_	_	_	_	_	
+28-10	1858-1860	är	_	_	_	_	_	_	_	
+28-11	1861-1865	stöd	_	_	_	_	_	_	_	
+28-12	1865-1866	.	_	_	_	_	_	_	_	
+
+#Text=Det kan vara från kamrater och/eller överordnade.
+29-1	1867-1870	Det	_	_	_	_	_	_	_	
+29-2	1871-1874	kan	_	_	_	_	_	_	_	
+29-3	1875-1879	vara	_	_	_	_	_	_	_	
+29-4	1880-1884	från	_	_	_	_	_	_	_	
+29-5	1885-1893	kamrater	*	Target	29-5	false	4	_	_	
+29-6	1894-1897	och	_	_	_	_	_	_	_	
+29-7	1897-1898	/	_	_	_	_	_	_	_	
+29-8	1898-1903	eller	_	_	_	_	_	_	_	
+29-9	1904-1915	överordnade	_	_	_	_	_	_	_	
+29-10	1915-1916	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är att dessa i regel sitter i samma båt och mår lika dåligt.
+30-1	1917-1926	Problemet	_	Target[8]	30-3[16]	false[8]	2[8]	_	_	
+30-2	1927-1929	är	_	Target[8]	30-3[16]	false[8]	2[8]	_	_	
+30-3	1930-1933	att	*[16]	_	_	_	_	_	_	
+30-4	1934-1939	dessa	*[16]|*[17]	_	_	_	_	_	_	
+30-5	1940-1941	i	*[16]	_	_	_	_	_	_	
+30-6	1942-1947	regel	*[16]	_	_	_	_	_	_	
+30-7	1948-1954	sitter	*[16]	_	_	_	_	_	_	
+30-8	1955-1956	i	*[16]	_	_	_	_	_	_	
+30-9	1957-1962	samma	*[16]	_	_	_	_	_	_	
+30-10	1963-1966	båt	*[16]	_	_	_	_	_	_	
+30-11	1967-1970	och	*[16]	_	_	_	_	_	_	
+30-12	1971-1974	mår	*[16]	Source[9]	30-4[17]	false[9]	2[9]	_	_	
+30-13	1975-1979	lika	*[16]	Source[9]	30-4[17]	false[9]	2[9]	_	_	
+30-14	1980-1986	dåligt	*[16]	Source[9]	30-4[17]	false[9]	2[9]	_	_	
+30-15	1986-1987	.	_	_	_	_	_	_	_	
+
+#Text=Det är då inte lätt att stödja andra.
+31-1	1988-1991	Det	_	_	_	_	_	_	_	
+31-2	1992-1994	är	_	_	_	_	_	_	_	
+31-3	1995-1997	då	_	_	_	_	_	_	_	
+31-4	1998-2002	inte	_	_	_	_	_	_	_	
+31-5	2003-2007	lätt	_	_	_	_	_	_	_	
+31-6	2008-2011	att	_	_	_	_	_	_	_	
+31-7	2012-2018	stödja	_	_	_	_	_	_	_	
+31-8	2019-2024	andra	_	_	_	_	_	_	_	
+31-9	2024-2025	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+32-1	2027-2028	#	_	_	_	_	_	_	_	
+32-2	2028-2029	P	_	_	_	_	_	_	_	
+32-3	2030-2033	IMM	_	_	_	_	_	_	_	
+32-4	2033-2034	.	_	_	_	_	_	_	_	
+
+#Text=Jag saknar en fördjupad diskussion om dessa konsekvenser bland våra politiska beslutsfattare.
+33-1	2036-2039	Jag	_	_	_	_	_	_	_	
+33-2	2040-2046	saknar	_	_	_	_	_	_	_	
+33-3	2047-2049	en	_	_	_	_	_	_	_	
+33-4	2050-2059	fördjupad	_	_	_	_	_	_	_	
+33-5	2060-2070	diskussion	_	_	_	_	_	_	_	
+33-6	2071-2073	om	_	_	_	_	_	_	_	
+33-7	2074-2079	dessa	_	_	_	_	_	_	_	
+33-8	2080-2092	konsekvenser	_	_	_	_	_	_	_	
+33-9	2093-2098	bland	_	_	_	_	_	_	_	
+33-10	2099-2103	våra	_	_	_	_	_	_	_	
+33-11	2104-2113	politiska	_	_	_	_	_	_	_	
+33-12	2114-2128	beslutsfattare	_	_	_	_	_	_	_	
+33-13	2128-2129	.	_	_	_	_	_	_	_	
+
+#Text=Om svensk trupp ska tjänstgöra under dessa förhållanden måste omhändertagande och professionell uppföljning efter hemkomsten förbättras.
+34-1	2130-2132	Om	_	_	_	_	_	_	_	
+34-2	2133-2139	svensk	_	_	_	_	_	_	_	
+34-3	2140-2145	trupp	_	_	_	_	_	_	_	
+34-4	2146-2149	ska	_	_	_	_	_	_	_	
+34-5	2150-2160	tjänstgöra	_	_	_	_	_	_	_	
+34-6	2161-2166	under	_	_	_	_	_	_	_	
+34-7	2167-2172	dessa	_	_	_	_	_	_	_	
+34-8	2173-2185	förhållanden	_	_	_	_	_	_	_	
+34-9	2186-2191	måste	_	Target	34-10[18]	false	4	_	_	
+34-10	2192-2207	omhändertagande	*[18]	_	_	_	_	_	_	
+34-11	2208-2211	och	*[18]	_	_	_	_	_	_	
+34-12	2212-2225	professionell	*[18]	_	_	_	_	_	_	
+34-13	2226-2237	uppföljning	*[18]	_	_	_	_	_	_	
+34-14	2238-2243	efter	*[18]	_	_	_	_	_	_	
+34-15	2244-2254	hemkomsten	*[18]	_	_	_	_	_	_	
+34-16	2255-2265	förbättras	_	_	_	false	4	34-9	_	
+34-17	2265-2266	.	_	_	_	_	_	_	_	
+
+#Text=Man kan också på svåra tjänstgöringsplatser ha en kvalificerad stödgrupp i stabsfunktion och som även bedriver fältforskning.
+35-1	2267-2270	Man	_	_	_	_	_	_	_	
+35-2	2271-2274	kan	_	_	_	_	_	_	_	
+35-3	2275-2280	också	_	_	_	_	_	_	_	
+35-4	2281-2283	på	_	_	_	_	_	_	_	
+35-5	2284-2289	svåra	_	_	_	_	_	_	_	
+35-6	2290-2310	tjänstgöringsplatser	_	_	_	_	_	_	_	
+35-7	2311-2313	ha	_	_	_	_	_	_	_	
+35-8	2314-2316	en	_	_	_	_	_	_	_	
+35-9	2317-2329	kvalificerad	_	_	_	_	_	_	_	
+35-10	2330-2339	stödgrupp	_	_	_	_	_	_	_	
+35-11	2340-2341	i	_	_	_	_	_	_	_	
+35-12	2342-2355	stabsfunktion	_	_	_	_	_	_	_	
+35-13	2356-2359	och	_	_	_	_	_	_	_	
+35-14	2360-2363	som	_	_	_	_	_	_	_	
+35-15	2364-2368	även	_	_	_	_	_	_	_	
+35-16	2369-2377	bedriver	_	_	_	_	_	_	_	
+35-17	2378-2391	fältforskning	_	_	_	_	_	_	_	
+35-18	2391-2392	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2394-2395	#	_	_	_	_	_	_	_	
+36-2	2395-2396	P	_	_	_	_	_	_	_	
+36-3	2397-2400	IMM	_	_	_	_	_	_	_	
+36-4	2400-2401	.	_	_	_	_	_	_	_	
+
+#Text=Kom inte och säg efteråt att ni ingenting visste.
+37-1	2403-2406	Kom	_	_	_	_	_	_	_	
+37-2	2407-2411	inte	_	_	_	_	_	_	_	
+37-3	2412-2415	och	_	_	_	_	_	_	_	
+37-4	2416-2419	säg	_	_	_	_	_	_	_	
+37-5	2420-2427	efteråt	_	_	_	_	_	_	_	
+37-6	2428-2431	att	_	_	_	_	_	_	_	
+37-7	2432-2434	ni	_	_	_	_	_	_	_	
+37-8	2435-2444	ingenting	_	_	_	_	_	_	_	
+37-9	2445-2451	visste	_	_	_	_	_	_	_	
+37-10	2451-2452	.	_	_	_	false	2	_	_	
+
+#Text=Sätt er in i frågan medan tid är.
+38-1	2453-2457	Sätt	_	_	_	_	_	_	_	
+38-2	2458-2460	er	_	_	_	_	_	_	_	
+38-3	2461-2463	in	_	_	_	_	_	_	_	
+38-4	2464-2465	i	_	_	_	_	_	_	_	
+38-5	2466-2472	frågan	_	_	_	_	_	_	_	
+38-6	2473-2478	medan	_	_	_	_	_	_	_	
+38-7	2479-2482	tid	_	_	_	_	_	_	_	
+38-8	2483-2485	är	_	_	_	_	_	_	_	
+38-9	2485-2486	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2488-2489	#	_	_	_	_	_	_	_	
+39-2	2489-2490	P	_	_	_	_	_	_	_	
+39-3	2491-2494	IMM	_	_	_	_	_	_	_	
+39-4	2494-2495	.	_	_	_	_	_	_	_	
+
+#Text=Karl-Yngve Åkerström, pensionär och f d militärpsykolog.
+40-1	2497-2507	Karl-Yngve	_	_	_	_	_	_	_	
+40-2	2508-2517	Åkerström	_	_	_	_	_	_	_	
+40-3	2517-2518	,	_	_	_	_	_	_	_	
+40-4	2519-2528	pensionär	_	_	_	_	_	_	_	
+40-5	2529-2532	och	_	_	_	_	_	_	_	
+40-6	2533-2534	f	_	_	_	_	_	_	_	
+40-7	2535-2536	d	_	_	_	_	_	_	_	
+40-8	2537-2552	militärpsykolog	_	_	_	_	_	_	_	
+40-9	2552-2553	.	_	_	_	_	_	_	_	

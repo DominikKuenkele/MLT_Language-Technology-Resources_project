@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	4	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	4	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Goda nyheter från professor fastslår slutgiltigt: "Migration sänker inte löner".
+3-1	18-22	Goda	_	Target	3-2	false	4	
+3-2	23-30	nyheter	*	_	_	_	_	
+3-3	31-35	från	_	_	_	_	_	
+3-4	36-45	professor	_	_	_	_	_	
+3-5	46-54	fastslår	_	_	_	_	_	
+3-6	55-66	slutgiltigt	_	_	_	_	_	
+3-7	66-67	:	_	_	_	_	_	
+3-8	68-69	"	_	_	_	_	_	
+3-9	69-78	Migration	_	_	_	_	_	
+3-10	79-85	sänker	_	_	_	_	_	
+3-11	86-90	inte	_	_	_	_	_	
+3-12	91-96	löner	_	_	_	_	_	
+3-13	96-97	"	_	_	_	_	_	
+3-14	97-98	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	100-101	#	_	_	_	_	_	
+4-2	101-102	P	_	_	_	_	_	
+4-3	103-106	IMM	_	_	_	_	_	
+4-4	106-107	.	_	_	_	_	_	
+
+#Text=Den faktaspäckade publikationen arbetet kommer med lite goda nyheter i höstmörkret.
+5-1	109-112	Den	_	_	_	_	_	
+5-2	113-126	faktaspäckade	_	_	_	_	_	
+5-3	127-140	publikationen	_	_	_	_	_	
+5-4	141-148	arbetet	_	_	_	_	_	
+5-5	149-155	kommer	_	_	_	_	_	
+5-6	156-159	med	_	_	_	_	_	
+5-7	160-164	lite	_	_	_	_	_	
+5-8	165-169	goda	_	Target	5-9	false	4	
+5-9	170-177	nyheter	*	_	_	_	_	
+5-10	178-179	i	_	_	_	_	_	
+5-11	180-191	höstmörkret	_	_	_	_	_	
+5-12	191-192	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	194-195	#	_	_	_	_	_	
+6-2	195-196	P	_	_	_	_	_	
+6-3	197-200	IMM	_	_	_	false	4	
+6-4	200-201	.	_	_	_	_	_	
+
+#Text=Innebär dessa i princip oemotsägabara fakta att en stor del invandringskritiska bör byta åsikt?.
+7-1	203-210	Innebär	_	_	_	_	_	
+7-2	211-216	dessa	_	_	_	_	_	
+7-3	217-218	i	_	_	_	_	_	
+7-4	219-226	princip	_	_	_	_	_	
+7-5	227-240	oemotsägabara	_	_	_	_	_	
+7-6	241-246	fakta	_	_	_	_	_	
+7-7	247-250	att	_	_	_	_	_	
+7-8	251-253	en	_	_	_	_	_	
+7-9	254-258	stor	_	_	_	_	_	
+7-10	259-262	del	_	_	_	_	_	
+7-11	263-282	invandringskritiska	*[1]|*[2]	Source;Target	7-11[2];7-11[1]	false	2	
+7-12	283-286	bör	_	_	_	_	_	
+7-13	287-291	byta	_	_	_	_	_	
+7-14	292-297	åsikt	_	_	_	_	_	
+7-15	297-298	?	_	_	_	_	_	
+7-16	298-299	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	301-302	#	_	_	_	_	_	
+8-2	302-303	P	_	_	_	_	_	
+8-3	304-307	IMM	_	_	_	false	4	
+8-4	307-308	.	_	_	_	_	_	
+
+#Text=Dessutom lite nya rön om dom för Sverige positiva effekterna av migration i samma publikation.
+9-1	310-318	Dessutom	_	_	_	_	_	
+9-2	319-323	lite	_	_	_	_	_	
+9-3	324-327	nya	_	_	_	_	_	
+9-4	328-331	rön	_	_	_	_	_	
+9-5	332-334	om	_	_	_	_	_	
+9-6	335-338	dom	_	_	_	_	_	
+9-7	339-342	för	_	_	_	_	_	
+9-8	343-350	Sverige	_	_	_	_	_	
+9-9	351-359	positiva	_	Target	9-10[3]	false	4	
+9-10	360-370	effekterna	*[3]	_	_	_	_	
+9-11	371-373	av	*[3]	_	_	_	_	
+9-12	374-383	migration	*[3]	_	_	_	_	
+9-13	384-385	i	_	_	_	_	_	
+9-14	386-391	samma	_	_	_	_	_	
+9-15	392-403	publikation	_	_	_	_	_	
+9-16	403-404	.	_	_	_	_	_	

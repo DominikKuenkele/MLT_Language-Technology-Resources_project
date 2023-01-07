@@ -1,0 +1,668 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Relationer värda mer än karriären.
+3-1	18-28	Relationer	*	_	_	_	_	_	
+3-2	29-34	värda	_	Target[1]	3-1	false[1]	4[1]	_	
+3-3	35-38	mer	_	Target[1]	3-1	false[1]	4[1]	_	
+3-4	39-41	än	_	Target[1]	3-1	false[1]	4[1]	_	
+3-5	42-51	karriären	_	Target[1]	3-1	false[1]	4[1]	_	
+3-6	51-52	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	54-55	#	_	_	_	_	_	_	
+4-2	55-56	P	_	_	_	_	_	_	
+4-3	57-60	IMM	_	_	_	_	_	_	
+4-4	60-61	.	_	_	_	_	_	_	
+
+#Text=Unga mammor vill vara hemma med sina barn.
+5-1	63-67	Unga	*[18]	_	_	_	_	_	
+5-2	68-74	mammor	*[18]	_	_	_	_	_	
+5-3	75-79	vill	_	Target;Source	5-4[19];5-1[18]	false	4	_	
+5-4	80-84	vara	*[19]	_	_	_	_	_	
+5-5	85-90	hemma	*[19]	_	_	_	_	_	
+5-6	91-94	med	*[19]	_	_	_	_	_	
+5-7	95-99	sina	*[19]	_	_	_	_	_	
+5-8	100-104	barn	*[19]	_	_	_	_	_	
+5-9	104-105	.	_	_	_	_	_	_	
+
+#Text=En ny undersökning visar att nästan hälften av 10 000 tillfrågade mammor skulle vilja vara hemmafru om de fick möjlighet, enligt familjeliv.se.
+6-1	106-108	En	_	_	_	_	_	_	
+6-2	109-111	ny	_	_	_	_	_	_	
+6-3	112-124	undersökning	_	_	_	_	_	_	
+6-4	125-130	visar	_	_	_	_	_	_	
+6-5	131-134	att	_	_	_	_	_	_	
+6-6	135-141	nästan	_	_	_	_	_	_	
+6-7	142-149	hälften	_	_	_	_	_	_	
+6-8	150-152	av	_	_	_	_	_	_	
+6-9	153-155	10	_	_	_	_	_	_	
+6-10	156-159	000	_	_	_	_	_	_	
+6-11	160-171	tillfrågade	_	_	_	_	_	_	
+6-12	172-178	mammor	_	_	_	_	_	_	
+6-13	179-185	skulle	_	_	_	_	_	_	
+6-14	186-191	vilja	_	_	_	_	_	_	
+6-15	192-196	vara	_	_	_	_	_	_	
+6-16	197-205	hemmafru	_	_	_	_	_	_	
+6-17	206-208	om	_	_	_	_	_	_	
+6-18	209-211	de	_	_	_	_	_	_	
+6-19	212-216	fick	_	_	_	_	_	_	
+6-20	217-226	möjlighet	_	_	_	_	_	_	
+6-21	226-227	,	_	_	_	_	_	_	
+6-22	228-234	enligt	_	_	_	_	_	_	
+6-23	235-248	familjeliv.se	_	_	_	_	_	_	
+6-24	248-249	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	251-252	#	_	_	_	_	_	_	
+7-2	252-253	P	_	_	_	_	_	_	
+7-3	254-257	IMM	_	_	_	_	_	_	
+7-4	257-258	.	_	_	_	_	_	_	
+
+#Text=Proffstyckare och sociala ingenjörer förfasas.
+8-1	260-273	Proffstyckare	*[20]	_	_	_	_	_	
+8-2	274-277	och	*[20]	_	_	_	_	_	
+8-3	278-285	sociala	*[20]	_	_	_	_	_	
+8-4	286-296	ingenjörer	*[20]	_	_	_	_	_	
+8-5	297-305	förfasas	_	Target	8-1[20]	false	2	_	
+8-6	305-306	.	_	_	_	_	_	_	
+
+#Text=De har gått på glamouriseringen av hemmafrun, anser genusforskaren Catrin Lundström.
+9-1	307-309	De	*	_	_	_	_	_	
+9-2	310-313	har	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-3	314-318	gått	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-4	319-321	på	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-5	322-338	glamouriseringen	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-6	339-341	av	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-7	342-351	hemmafrun	_	Target;Source[2]	9-1;9-11[21]	false[2]	2[2]	_	
+9-8	351-352	,	_	_	_	_	_	_	
+9-9	353-358	anser	_	_	_	_	_	_	
+9-10	359-373	genusforskaren	_	_	_	_	_	_	
+9-11	374-380	Catrin	*[21]	_	_	_	_	_	
+9-12	381-390	Lundström	*[21]	_	_	_	_	_	
+9-13	390-391	.	_	_	_	_	_	_	
+
+#Text=Mammornas svar avfärdas med att de inte förstår sitt eget bästa.
+10-1	392-401	Mammornas	_	_	_	_	_	_	
+10-2	402-406	svar	_	_	_	_	_	_	
+10-3	407-415	avfärdas	_	_	_	_	_	_	
+10-4	416-419	med	_	_	_	_	_	_	
+10-5	420-423	att	_	_	_	_	_	_	
+10-6	424-426	de	*	_	_	_	_	_	
+10-7	427-431	inte	_	Target;Source[3]	10-6;10-12	false[3]	2[3]	_	
+10-8	432-439	förstår	_	Target;Source[3]	10-6;10-12	false[3]	2[3]	_	
+10-9	440-444	sitt	_	Target;Source[3]	10-6;10-12	false[3]	2[3]	_	
+10-10	445-449	eget	_	Target;Source[3]	10-6;10-12	false[3]	2[3]	_	
+10-11	450-455	bästa	_	Target;Source[3]	10-6;10-12	false[3]	2[3]	_	
+10-12	455-456	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	458-459	#	_	_	_	_	_	_	
+11-2	459-460	P	_	_	_	_	_	_	
+11-3	461-464	IMM	_	_	_	_	_	_	
+11-4	464-465	.	_	_	_	_	_	_	
+
+#Text=Och visst får valet att vara hemma med sina barn konsekvenser, för ekonomin och för karriären.
+12-1	467-470	Och	_	_	_	_	_	_	
+12-2	471-476	visst	_	_	_	_	_	_	
+12-3	477-480	får	_	_	_	false	2	_	
+12-4	481-486	valet	*[22]	_	_	_	_	_	
+12-5	487-490	att	*[22]	_	_	_	_	_	
+12-6	491-495	vara	*[22]	_	_	_	_	_	
+12-7	496-501	hemma	*[22]	_	_	_	_	_	
+12-8	502-505	med	*[22]	_	_	_	_	_	
+12-9	506-510	sina	*[22]	_	_	_	_	_	
+12-10	511-515	barn	*[22]	_	_	_	_	_	
+12-11	516-528	konsekvenser	_	Target	12-4[22]	false	2	12-3	
+12-12	528-529	,	_	_	_	_	_	_	
+12-13	530-533	för	_	_	_	_	_	_	
+12-14	534-542	ekonomin	_	_	_	_	_	_	
+12-15	543-546	och	_	_	_	_	_	_	
+12-16	547-550	för	_	_	_	_	_	_	
+12-17	551-560	karriären	_	_	_	_	_	_	
+12-18	560-561	.	_	_	_	_	_	_	
+
+#Text=Precis som valet att enbart satsa på karriär och arbetsliv också får konsekvenser.
+13-1	562-568	Precis	_	_	_	_	_	_	
+13-2	569-572	som	_	_	_	_	_	_	
+13-3	573-578	valet	*[23]	_	_	_	_	_	
+13-4	579-582	att	*[23]	_	_	_	_	_	
+13-5	583-589	enbart	*[23]	_	_	_	_	_	
+13-6	590-595	satsa	*[23]	_	_	_	_	_	
+13-7	596-598	på	*[23]	_	_	_	_	_	
+13-8	599-606	karriär	*[23]	_	_	_	_	_	
+13-9	607-610	och	*[23]	_	_	_	_	_	
+13-10	611-620	arbetsliv	*[23]	_	_	_	_	_	
+13-11	621-626	också	_	Target[4]	13-3[23]	false[4]	2[4]	_	
+13-12	627-630	får	_	Target[4]	13-3[23]	false[4]	2[4]	_	
+13-13	631-643	konsekvenser	_	Target[4]	13-3[23]	false[4]	2[4]	_	
+13-14	643-644	.	_	_	_	_	_	_	
+
+#Text=För barnen och för familjen – för det som vi värderar allra högst i våra liv.
+14-1	645-648	För	_	_	_	_	_	_	
+14-2	649-655	barnen	*[24]	_	_	_	_	_	
+14-3	656-659	och	*[24]	_	_	_	_	_	
+14-4	660-663	för	*[24]	_	_	_	_	_	
+14-5	664-672	familjen	*[24]	_	_	_	_	_	
+14-6	673-674	–	_	_	_	_	_	_	
+14-7	675-678	för	_	_	_	_	_	_	
+14-8	679-682	det	_	_	_	_	_	_	
+14-9	683-686	som	_	_	_	_	_	_	
+14-10	687-689	vi	*	_	_	_	_	_	
+14-11	690-698	värderar	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-12	699-704	allra	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-13	705-710	högst	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-14	711-712	i	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-15	713-717	våra	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-16	718-721	liv	_	Source;Target[5]	14-10;14-2[24]	false[5]	5[5]	_	
+14-17	721-722	.	_	_	_	_	_	_	
+
+#Text=Jag är övertygad om att dagens mycket medvetna unga kvinnor är fullt medvetna om konsekvenserna.
+15-1	723-726	Jag	*	_	_	_	_	_	
+15-2	727-729	är	_	Target;Source[6]	15-6[25];15-1	false[6]	5[6]	_	
+15-3	730-739	övertygad	_	Target;Source[6]	15-6[25];15-1	false[6]	5[6]	_	
+15-4	740-742	om	_	Target;Source[6]	15-6[25];15-1	false[6]	5[6]	_	
+15-5	743-746	att	_	_	_	_	_	_	
+15-6	747-753	dagens	*[25]	_	_	_	_	_	
+15-7	754-760	mycket	*[25]	_	_	_	_	_	
+15-8	761-769	medvetna	*[25]	_	_	_	_	_	
+15-9	770-774	unga	*[25]	_	_	_	_	_	
+15-10	775-782	kvinnor	*[25]	_	_	_	_	_	
+15-11	783-785	är	*[25]	_	_	_	_	_	
+15-12	786-791	fullt	*[25]	_	_	_	_	_	
+15-13	792-800	medvetna	*[25]	_	_	_	_	_	
+15-14	801-803	om	*[25]	_	_	_	_	_	
+15-15	804-818	konsekvenserna	*[25]	_	_	_	_	_	
+15-16	818-819	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	821-822	#	_	_	_	_	_	_	
+16-2	822-823	P	_	_	_	_	_	_	
+16-3	824-827	IMM	_	_	_	_	_	_	
+16-4	827-828	.	_	_	_	_	_	_	
+
+#Text=Även om undersökningar av denna sort inte ska tas som allmängiltiga sanningar, så visar den ändå att det finns en utbredd längtan efter mer tid för familj och barn.
+17-1	830-834	Även	_	_	_	_	_	_	
+17-2	835-837	om	_	_	_	_	_	_	
+17-3	838-852	undersökningar	_	_	_	_	_	_	
+17-4	853-855	av	_	_	_	_	_	_	
+17-5	856-861	denna	_	_	_	_	_	_	
+17-6	862-866	sort	_	_	_	_	_	_	
+17-7	867-871	inte	_	_	_	_	_	_	
+17-8	872-875	ska	_	_	_	_	_	_	
+17-9	876-879	tas	_	_	_	_	_	_	
+17-10	880-883	som	_	_	_	_	_	_	
+17-11	884-897	allmängiltiga	_	_	_	_	_	_	
+17-12	898-907	sanningar	_	_	_	_	_	_	
+17-13	907-908	,	_	_	_	_	_	_	
+17-14	909-911	så	_	_	_	_	_	_	
+17-15	912-917	visar	_	_	_	_	_	_	
+17-16	918-921	den	_	_	_	_	_	_	
+17-17	922-926	ändå	_	_	_	_	_	_	
+17-18	927-930	att	_	_	_	_	_	_	
+17-19	931-934	det	_	_	_	_	_	_	
+17-20	935-940	finns	_	_	_	_	_	_	
+17-21	941-943	en	_	_	_	_	_	_	
+17-22	944-951	utbredd	_	Source;Target[7]	17-31;17-25[26]	false[7]	4[7]	_	
+17-23	952-959	längtan	_	Source;Target[7]	17-31;17-25[26]	false[7]	4[7]	_	
+17-24	960-965	efter	_	Source;Target[7]	17-31;17-25[26]	false[7]	4[7]	_	
+17-25	966-969	mer	*[26]	_	_	_	_	_	
+17-26	970-973	tid	*[26]	_	_	_	_	_	
+17-27	974-977	för	*[26]	_	_	_	_	_	
+17-28	978-984	familj	*[26]	_	_	_	_	_	
+17-29	985-988	och	*[26]	_	_	_	_	_	
+17-30	989-993	barn	*[26]	_	_	_	_	_	
+17-31	993-994	.	*	_	_	_	_	_	
+
+#Text=Karriär och hög lön är inte det enda som unga människor värderar.
+18-1	995-1002	Karriär	*[27]	_	_	_	_	_	
+18-2	1003-1006	och	*[27]	_	_	_	_	_	
+18-3	1007-1010	hög	*[27]	_	_	_	_	_	
+18-4	1011-1014	lön	*[27]	_	_	_	_	_	
+18-5	1015-1017	är	_	_	_	_	_	_	
+18-6	1018-1022	inte	_	Source;Target[8]	18-10[28];18-1[27]	false[8]	3[8]	_	
+18-7	1023-1026	det	_	Source;Target[8]	18-10[28];18-1[27]	false[8]	3[8]	_	
+18-8	1027-1031	enda	_	Source;Target[8]	18-10[28];18-1[27]	false[8]	3[8]	_	
+18-9	1032-1035	som	_	_	_	_	_	_	
+18-10	1036-1040	unga	*[28]	_	_	_	_	_	
+18-11	1041-1050	människor	*[28]	_	_	_	_	_	
+18-12	1051-1059	värderar	_	_	_	false	3	18-6[8_0]	
+18-13	1059-1060	.	_	_	_	_	_	_	
+
+#Text=Många föräldrar känner en frustration och oro över att inte hinna med livet – sin familj och sina barn.
+19-1	1061-1066	Många	*[29]	_	_	_	_	_	
+19-2	1067-1076	föräldrar	*[29]	_	_	_	_	_	
+19-3	1077-1083	känner	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-4	1084-1086	en	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-5	1087-1098	frustration	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-6	1099-1102	och	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-7	1103-1106	oro	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-8	1107-1111	över	_	Source;Target[9]	19-1[29];19-10[30]	false[9]	2[9]	_	
+19-9	1112-1115	att	_	_	_	_	_	_	
+19-10	1116-1120	inte	*[30]	_	_	_	_	_	
+19-11	1121-1126	hinna	*[30]	_	_	_	_	_	
+19-12	1127-1130	med	*[30]	_	_	_	_	_	
+19-13	1131-1136	livet	*[30]	_	_	_	_	_	
+19-14	1137-1138	–	*[30]	_	_	_	_	_	
+19-15	1139-1142	sin	*[30]	_	_	_	_	_	
+19-16	1143-1149	familj	*[30]	_	_	_	_	_	
+19-17	1150-1153	och	*[30]	_	_	_	_	_	
+19-18	1154-1158	sina	*[30]	_	_	_	_	_	
+19-19	1159-1163	barn	*[30]	_	_	_	_	_	
+19-20	1163-1164	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1166-1167	#	_	_	_	_	_	_	
+20-2	1167-1168	P	_	_	_	_	_	_	
+20-3	1169-1172	IMM	_	_	_	_	_	_	
+20-4	1172-1173	.	_	_	_	_	_	_	
+
+#Text=Det finns inte minst i den yngre generationen en protest mot en alltför materialistisk livsstil.
+21-1	1175-1178	Det	_	_	_	_	_	_	
+21-2	1179-1184	finns	_	_	_	_	_	_	
+21-3	1185-1189	inte	_	_	_	_	_	_	
+21-4	1190-1195	minst	_	_	_	_	_	_	
+21-5	1196-1197	i	_	_	_	_	_	_	
+21-6	1198-1201	den	_	_	_	_	_	_	
+21-7	1202-1207	yngre	*[31]	_	_	_	_	_	
+21-8	1208-1220	generationen	*[31]	_	_	_	_	_	
+21-9	1221-1223	en	_	_	_	_	_	_	
+21-10	1224-1231	protest	_	Source;Target	21-7[31];21-12[32]	false	2	_	
+21-11	1232-1235	mot	_	_	_	_	_	_	
+21-12	1236-1238	en	*[32]	_	_	_	_	_	
+21-13	1239-1246	alltför	*[32]	_	_	_	_	_	
+21-14	1247-1261	materialistisk	*[32]	_	_	_	_	_	
+21-15	1262-1270	livsstil	*[32]	_	_	_	_	_	
+21-16	1270-1271	.	_	_	_	_	_	_	
+
+#Text=Det finns en familjerörelse som vill kunna hoppa av ekorrhjulet och välja ett annat liv.
+22-1	1272-1275	Det	_	_	_	_	_	_	
+22-2	1276-1281	finns	_	_	_	_	_	_	
+22-3	1282-1284	en	_	_	_	_	_	_	
+22-4	1285-1299	familjerörelse	_	_	_	_	_	_	
+22-5	1300-1303	som	_	_	_	_	_	_	
+22-6	1304-1308	vill	_	_	_	_	_	_	
+22-7	1309-1314	kunna	_	_	_	_	_	_	
+22-8	1315-1320	hoppa	_	_	_	_	_	_	
+22-9	1321-1323	av	_	_	_	_	_	_	
+22-10	1324-1335	ekorrhjulet	_	_	_	_	_	_	
+22-11	1336-1339	och	_	_	_	_	_	_	
+22-12	1340-1345	välja	_	_	_	_	_	_	
+22-13	1346-1349	ett	_	_	_	_	_	_	
+22-14	1350-1355	annat	_	_	_	_	_	_	
+22-15	1356-1359	liv	_	_	_	_	_	_	
+22-16	1359-1360	.	_	_	_	_	_	_	
+
+#Text=Som värderar tiden för relationer högre än pengar.
+23-1	1361-1364	Som	_	_	_	_	_	_	
+23-2	1365-1373	värderar	_	Target	23-3[33]	false	4	_	
+23-3	1374-1379	tiden	*[33]	_	_	_	_	_	
+23-4	1380-1383	för	*[33]	_	_	_	_	_	
+23-5	1384-1394	relationer	*[33]	_	_	_	_	_	
+23-6	1395-1400	högre	_	_[10]	_	false[10]	4[10]	23-2[0_10]	
+23-7	1401-1403	än	_	_[10]	_	false[10]	4[10]	_	
+23-8	1404-1410	pengar	_	_[10]	_	false[10]	4[10]	_	
+23-9	1410-1411	.	_	_	_	_	_	_	
+
+#Text=Som är fullt medvetna om att hemmafrulivet i Sverige innebär något helt annat än den glamouriserade Hollywoods idyllen och – kanske just därför – eftersträvar det.
+24-1	1412-1415	Som	_	_	_	_	_	_	
+24-2	1416-1418	är	_	_	_	_	_	_	
+24-3	1419-1424	fullt	_	_	_	_	_	_	
+24-4	1425-1433	medvetna	_	_	_	_	_	_	
+24-5	1434-1436	om	_	_	_	_	_	_	
+24-6	1437-1440	att	_	_	_	_	_	_	
+24-7	1441-1454	hemmafrulivet	_	_	_	_	_	_	
+24-8	1455-1456	i	_	_	_	_	_	_	
+24-9	1457-1464	Sverige	_	_	_	_	_	_	
+24-10	1465-1472	innebär	_	_	_	_	_	_	
+24-11	1473-1478	något	_	_	_	_	_	_	
+24-12	1479-1483	helt	_	_	_	_	_	_	
+24-13	1484-1489	annat	_	_	_	_	_	_	
+24-14	1490-1492	än	_	_	_	_	_	_	
+24-15	1493-1496	den	_	_	_	_	_	_	
+24-16	1497-1511	glamouriserade	_	Target	24-17[34]	false	2	_	
+24-17	1512-1522	Hollywoods	*[34]	_	_	_	_	_	
+24-18	1523-1530	idyllen	*[34]	_	_	_	_	_	
+24-19	1531-1534	och	_	_	_	_	_	_	
+24-20	1535-1536	–	_	_	_	_	_	_	
+24-21	1537-1543	kanske	_	_	_	_	_	_	
+24-22	1544-1548	just	_	_	_	_	_	_	
+24-23	1549-1555	därför	_	_	_	_	_	_	
+24-24	1556-1557	–	_	_	_	_	_	_	
+24-25	1558-1570	eftersträvar	_	_	_	_	_	_	
+24-26	1571-1574	det	_	_	_	_	_	_	
+24-27	1574-1575	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1577-1578	#	_	_	_	_	_	_	
+25-2	1578-1579	P	_	_	_	_	_	_	
+25-3	1580-1583	IMM	_	_	_	_	_	_	
+25-4	1583-1584	.	_	_	_	_	_	_	
+
+#Text=Vi kan idag se vad långvarig vardagsstress leder till i form av psykisk ohälsa hos både barn och föräldrar.
+26-1	1586-1588	Vi	_	_	_	_	_	_	
+26-2	1589-1592	kan	_	_	_	_	_	_	
+26-3	1593-1597	idag	_	_	_	_	_	_	
+26-4	1598-1600	se	_	_	_	_	_	_	
+26-5	1601-1604	vad	_	_	_	_	_	_	
+26-6	1605-1614	långvarig	_	_	_	_	_	_	
+26-7	1615-1628	vardagsstress	_	_	_	_	_	_	
+26-8	1629-1634	leder	_	_	_	_	_	_	
+26-9	1635-1639	till	_	_	_	_	_	_	
+26-10	1640-1641	i	_	_	_	_	_	_	
+26-11	1642-1646	form	_	_	_	_	_	_	
+26-12	1647-1649	av	_	_	_	_	_	_	
+26-13	1650-1657	psykisk	_	_	_	_	_	_	
+26-14	1658-1664	ohälsa	_	_	_	_	_	_	
+26-15	1665-1668	hos	_	_	_	_	_	_	
+26-16	1669-1673	både	_	_	_	_	_	_	
+26-17	1674-1678	barn	_	_	_	_	_	_	
+26-18	1679-1682	och	_	_	_	_	_	_	
+26-19	1683-1692	föräldrar	_	_	_	_	_	_	
+26-20	1692-1693	.	_	_	_	_	_	_	
+
+#Text=Det är något som ökat trendmässigt under flera år.
+27-1	1694-1697	Det	_	_	_	_	_	_	
+27-2	1698-1700	är	_	_	_	_	_	_	
+27-3	1701-1706	något	_	_	_	_	_	_	
+27-4	1707-1710	som	_	_	_	_	_	_	
+27-5	1711-1715	ökat	_	_	_	_	_	_	
+27-6	1716-1728	trendmässigt	_	_	_	_	_	_	
+27-7	1729-1734	under	_	_	_	_	_	_	
+27-8	1735-1740	flera	_	_	_	_	_	_	
+27-9	1741-1743	år	_	_	_	_	_	_	
+27-10	1743-1744	.	_	_	_	_	_	_	
+
+#Text=Är det då så konstigt att alltfler tycker att det är ett pris som är för högt att betala?.
+28-1	1745-1747	Är	_	Target[11]	28-7[35]	false[11]	4[11]	_	
+28-2	1748-1751	det	_	Target[11]	28-7[35]	false[11]	4[11]	_	
+28-3	1752-1754	då	_	Target[11]	28-7[35]	false[11]	4[11]	_	
+28-4	1755-1757	så	_	Target[11]	28-7[35]	false[11]	4[11]	_	
+28-5	1758-1766	konstigt	_	Target[11]	28-7[35]	false[11]	4[11]	_	
+28-6	1767-1770	att	_	_	_	_	_	_	
+28-7	1771-1779	alltfler	*[35]	_	_	_	_	_	
+28-8	1780-1786	tycker	*[35]	_	_	_	_	_	
+28-9	1787-1790	att	*[35]	_	_	_	_	_	
+28-10	1791-1794	det	*[35]	_	_	_	_	_	
+28-11	1795-1797	är	*[35]	_	_	_	_	_	
+28-12	1798-1801	ett	*[35]	_	_	_	_	_	
+28-13	1802-1806	pris	*[35]	_	_	_	_	_	
+28-14	1807-1810	som	*[35]	_	_	_	_	_	
+28-15	1811-1813	är	*[35]	_	_	_	_	_	
+28-16	1814-1817	för	*[35]	_	_	_	_	_	
+28-17	1818-1822	högt	*[35]	_	_	_	_	_	
+28-18	1823-1826	att	*[35]	_	_	_	_	_	
+28-19	1827-1833	betala	*[35]	_	_	_	_	_	
+28-20	1833-1834	?	_	_	_	_	_	_	
+28-21	1834-1835	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1837-1838	#	_	_	_	_	_	_	
+29-2	1838-1839	P	_	_	_	_	_	_	
+29-3	1840-1843	IMM	_	_	_	_	_	_	
+29-4	1843-1844	.	_	_	_	_	_	_	
+
+#Text=Kristdemokraterna vill se ett samhälle där makten över vardagen flyttas till köksborden.
+30-1	1846-1863	Kristdemokraterna	*	_	_	_	_	_	
+30-2	1864-1868	vill	_	Source;Target[12]	30-1;30-5[36]	false[12]	4[12]	_	
+30-3	1869-1871	se	_	Source;Target[12]	30-1;30-5[36]	false[12]	4[12]	_	
+30-4	1872-1875	ett	_	_	_	_	_	_	
+30-5	1876-1884	samhälle	*[36]	_	_	_	_	_	
+30-6	1885-1888	där	*[36]	_	_	_	_	_	
+30-7	1889-1895	makten	*[36]	_	_	_	_	_	
+30-8	1896-1900	över	*[36]	_	_	_	_	_	
+30-9	1901-1909	vardagen	*[36]	_	_	_	_	_	
+30-10	1910-1917	flyttas	*[36]	_	_	_	_	_	
+30-11	1918-1922	till	*[36]	_	_	_	_	_	
+30-12	1923-1933	köksborden	*[36]	_	_	_	_	_	
+30-13	1933-1934	.	_	_	_	_	_	_	
+
+#Text=Där familjerna ges möjligheter att välja den barnomsorg som passar dem bäst i deras situation.
+31-1	1935-1938	Där	_	_	_	_	_	_	
+31-2	1939-1949	familjerna	_	_	_	_	_	_	
+31-3	1950-1953	ges	_	_	_	_	_	_	
+31-4	1954-1965	möjligheter	_	_	_	_	_	_	
+31-5	1966-1969	att	_	_	_	_	_	_	
+31-6	1970-1975	välja	_	_	_	_	_	_	
+31-7	1976-1979	den	_	_	_	_	_	_	
+31-8	1980-1990	barnomsorg	_	_	_	_	_	_	
+31-9	1991-1994	som	_	_	_	_	_	_	
+31-10	1995-2001	passar	_	_	_	_	_	_	
+31-11	2002-2005	dem	_	_	_	_	_	_	
+31-12	2006-2010	bäst	_	_	_	_	_	_	
+31-13	2011-2012	i	_	_	_	_	_	_	
+31-14	2013-2018	deras	_	_	_	_	_	_	
+31-15	2019-2028	situation	_	_	_	_	_	_	
+31-16	2028-2029	.	_	_	_	_	_	_	
+
+#Text=Där det ges utrymme för både mammor och pappor att slå av på takten när barnen är små.
+32-1	2030-2033	Där	_	_	_	_	_	_	
+32-2	2034-2037	det	_	_	_	_	_	_	
+32-3	2038-2041	ges	_	_	_	_	_	_	
+32-4	2042-2049	utrymme	_	_	_	_	_	_	
+32-5	2050-2053	för	_	_	_	_	_	_	
+32-6	2054-2058	både	_	_	_	_	_	_	
+32-7	2059-2065	mammor	_	_	_	_	_	_	
+32-8	2066-2069	och	_	_	_	_	_	_	
+32-9	2070-2076	pappor	_	_	_	_	_	_	
+32-10	2077-2080	att	_	_	_	_	_	_	
+32-11	2081-2084	slå	_	_	_	_	_	_	
+32-12	2085-2087	av	_	_	_	_	_	_	
+32-13	2088-2090	på	_	_	_	_	_	_	
+32-14	2091-2097	takten	_	_	_	_	_	_	
+32-15	2098-2101	när	_	_	_	_	_	_	
+32-16	2102-2108	barnen	_	_	_	_	_	_	
+32-17	2109-2111	är	_	_	_	_	_	_	
+32-18	2112-2115	små	_	_	_	_	_	_	
+32-19	2115-2116	.	_	_	_	_	_	_	
+
+#Text=Där det går att välja bort några pinnar på karriärsstegen för att bygga kojor, läsa sagor och prata med barnen om livets stora frågor.
+33-1	2117-2120	Där	_	_	_	_	_	_	
+33-2	2121-2124	det	_	_	_	_	_	_	
+33-3	2125-2128	går	_	_	_	_	_	_	
+33-4	2129-2132	att	_	_	_	_	_	_	
+33-5	2133-2138	välja	_	_	_	_	_	_	
+33-6	2139-2143	bort	_	_	_	_	_	_	
+33-7	2144-2149	några	_	_	_	_	_	_	
+33-8	2150-2156	pinnar	_	_	_	_	_	_	
+33-9	2157-2159	på	_	_	_	_	_	_	
+33-10	2160-2174	karriärsstegen	_	_	_	_	_	_	
+33-11	2175-2178	för	_	_	_	_	_	_	
+33-12	2179-2182	att	_	_	_	_	_	_	
+33-13	2183-2188	bygga	_	_	_	_	_	_	
+33-14	2189-2194	kojor	_	_	_	_	_	_	
+33-15	2194-2195	,	_	_	_	_	_	_	
+33-16	2196-2200	läsa	_	_	_	_	_	_	
+33-17	2201-2206	sagor	_	_	_	_	_	_	
+33-18	2207-2210	och	_	_	_	_	_	_	
+33-19	2211-2216	prata	_	_	_	_	_	_	
+33-20	2217-2220	med	_	_	_	_	_	_	
+33-21	2221-2227	barnen	_	_	_	_	_	_	
+33-22	2228-2230	om	_	_	_	_	_	_	
+33-23	2231-2237	livets	_	_	_	_	_	_	
+33-24	2238-2243	stora	_	_	_	_	_	_	
+33-25	2244-2250	frågor	_	_	_	_	_	_	
+33-26	2250-2251	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2253-2254	#	_	_	_	_	_	_	
+34-2	2254-2255	P	_	_	_	_	_	_	
+34-3	2256-2259	IMM	_	_	_	_	_	_	
+34-4	2259-2260	.	_	_	_	_	_	_	
+
+#Text=Det är inte långsiktigt hållbart med ett samhälle där vi inte kan ge tid för våra barn.
+35-1	2262-2265	Det	_	_	_	_	_	_	
+35-2	2266-2268	är	_	Target[13]	35-6[37]	false[13]	2[13]	_	
+35-3	2269-2273	inte	_	Target[13]	35-6[37]	false[13]	2[13]	_	
+35-4	2274-2285	långsiktigt	_	Target[13]	35-6[37]	false[13]	2[13]	_	
+35-5	2286-2294	hållbart	_	Target[13]	35-6[37]	false[13]	2[13]	_	
+35-6	2295-2298	med	*[37]	_	_	_	_	_	
+35-7	2299-2302	ett	*[37]	_	_	_	_	_	
+35-8	2303-2311	samhälle	*[37]	_	_	_	_	_	
+35-9	2312-2315	där	*[37]	_	_	_	_	_	
+35-10	2316-2318	vi	*[37]	_	_	_	_	_	
+35-11	2319-2323	inte	*[37]	_	_	_	_	_	
+35-12	2324-2327	kan	*[37]	_	_	_	_	_	
+35-13	2328-2330	ge	*[37]	_	_	_	_	_	
+35-14	2331-2334	tid	*[37]	_	_	_	_	_	
+35-15	2335-2338	för	*[37]	_	_	_	_	_	
+35-16	2339-2343	våra	*[37]	_	_	_	_	_	
+35-17	2344-2348	barn	*[37]	_	_	_	_	_	
+35-18	2348-2349	.	_	_	_	_	_	_	
+
+#Text=Istället för att omyndigförklara och se ner på de mammor som fullt medvetna gör det valet bör vi fråga oss hur vi kan göra valet mer tillgängligt också för papporna.
+36-1	2350-2358	Istället	_	_	_	_	_	_	
+36-2	2359-2362	för	_	_	_	_	_	_	
+36-3	2363-2366	att	_	_	_	_	_	_	
+36-4	2367-2382	omyndigförklara	_	Target;Source	36-31;36-10	false	2	_	
+36-5	2383-2386	och	_	_	_	_	_	_	
+36-6	2387-2389	se	_	Source;Target[14]	36-31;36-10	false[14]	2[14]	_	
+36-7	2390-2393	ner	_	Source;Target[14]	36-31;36-10	false[14]	2[14]	_	
+36-8	2394-2396	på	_	Source;Target[14]	36-31;36-10	false[14]	2[14]	_	
+36-9	2397-2399	de	_	_	_	_	_	_	
+36-10	2400-2406	mammor	*	_	_	_	_	_	
+36-11	2407-2410	som	_	_	_	_	_	_	
+36-12	2411-2416	fullt	_	_	_	_	_	_	
+36-13	2417-2425	medvetna	_	_	_	_	_	_	
+36-14	2426-2429	gör	_	_	_	_	_	_	
+36-15	2430-2433	det	_	_	_	_	_	_	
+36-16	2434-2439	valet	_	_	_	_	_	_	
+36-17	2440-2443	bör	_	_	_	_	_	_	
+36-18	2444-2446	vi	_	_	_	_	_	_	
+36-19	2447-2452	fråga	_	_	_	_	_	_	
+36-20	2453-2456	oss	_	_	_	_	_	_	
+36-21	2457-2460	hur	_	_	_	_	_	_	
+36-22	2461-2463	vi	_	_	_	_	_	_	
+36-23	2464-2467	kan	_	_	_	_	_	_	
+36-24	2468-2472	göra	_	_	_	_	_	_	
+36-25	2473-2478	valet	_	_	_	_	_	_	
+36-26	2479-2482	mer	_	_	_	_	_	_	
+36-27	2483-2495	tillgängligt	_	_	_	_	_	_	
+36-28	2496-2501	också	_	_	_	_	_	_	
+36-29	2502-2505	för	_	_	_	_	_	_	
+36-30	2506-2514	papporna	_	_	_	_	_	_	
+36-31	2514-2515	.	*	_	_	_	_	_	
+
+#Text=För barn behöver båda sina föräldrar och bristerna i jämställdhet uppstår inte enbart i de val kvinnor gör.
+37-1	2516-2519	För	_	_	_	_	_	_	
+37-2	2520-2524	barn	_	_	_	_	_	_	
+37-3	2525-2532	behöver	_	_	_	_	_	_	
+37-4	2533-2537	båda	_	_	_	_	_	_	
+37-5	2538-2542	sina	_	_	_	_	_	_	
+37-6	2543-2552	föräldrar	_	_	_	_	_	_	
+37-7	2553-2556	och	_	_	_	_	_	_	
+37-8	2557-2566	bristerna	_	Target	37-10	false	2	_	
+37-9	2567-2568	i	_	_	_	_	_	_	
+37-10	2569-2581	jämställdhet	*	_	_	_	_	_	
+37-11	2582-2589	uppstår	_	_	_	_	_	_	
+37-12	2590-2594	inte	_	_	_	_	_	_	
+37-13	2595-2601	enbart	_	_	_	_	_	_	
+37-14	2602-2603	i	_	_	_	_	_	_	
+37-15	2604-2606	de	_	_	_	_	_	_	
+37-16	2607-2610	val	_	_	_	_	_	_	
+37-17	2611-2618	kvinnor	_	_	_	_	_	_	
+37-18	2619-2622	gör	_	_	_	_	_	_	
+37-19	2622-2623	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2625-2626	#	_	_	_	_	_	_	
+38-2	2626-2627	P	_	_	_	_	_	_	
+38-3	2628-2631	IMM	_	_	_	_	_	_	
+38-4	2631-2632	.	_	_	_	_	_	_	
+
+#Text=Vi kristdemokrater arbetar nu för att utveckla vår familjepolitik så att vi kan möta föräldrarnas egna önskemål.
+39-1	2634-2636	Vi	_	_	_	_	_	_	
+39-2	2637-2652	kristdemokrater	_	_	_	_	_	_	
+39-3	2653-2660	arbetar	_	_	_	_	_	_	
+39-4	2661-2663	nu	_	_	_	_	_	_	
+39-5	2664-2667	för	_	_	_	_	_	_	
+39-6	2668-2671	att	_	_	_	_	_	_	
+39-7	2672-2680	utveckla	_	_	_	_	_	_	
+39-8	2681-2684	vår	_	_	_	_	_	_	
+39-9	2685-2699	familjepolitik	_	_	_	_	_	_	
+39-10	2700-2702	så	_	_	_	_	_	_	
+39-11	2703-2706	att	_	_	_	_	_	_	
+39-12	2707-2709	vi	_	_	_	_	_	_	
+39-13	2710-2713	kan	_	_	_	_	_	_	
+39-14	2714-2718	möta	_	_	_	_	_	_	
+39-15	2719-2731	föräldrarnas	_	_	_	_	_	_	
+39-16	2732-2736	egna	_	_	_	_	_	_	
+39-17	2737-2745	önskemål	_	_	_	_	_	_	
+39-18	2745-2746	.	_	_	_	_	_	_	
+
+#Text=Det är inte politikens uppgift att styra familjernas inre liv och prioriteringar.
+40-1	2747-2750	Det	_	_	_	_	_	_	
+40-2	2751-2753	är	_	_	_	_	_	_	
+40-3	2754-2758	inte	_	_	_	_	_	_	
+40-4	2759-2769	politikens	_	_	_	_	_	_	
+40-5	2770-2777	uppgift	_	_	_	_	_	_	
+40-6	2778-2781	att	_	_	_	_	_	_	
+40-7	2782-2787	styra	_	_	_	_	_	_	
+40-8	2788-2799	familjernas	_	_	_	_	_	_	
+40-9	2800-2804	inre	_	_	_	_	_	_	
+40-10	2805-2808	liv	_	_	_	_	_	_	
+40-11	2809-2812	och	_	_	_	_	_	_	
+40-12	2813-2827	prioriteringar	_	_	_	_	_	_	
+40-13	2827-2828	.	_	_	_	_	_	_	
+
+#Text=Familjepolitiken ska utformas rättvist så att den ökar svängutrymmet, möter familjernas ddbehov och respekterar deras egna val.
+41-1	2829-2845	Familjepolitiken	*	_	_	_	_	_	
+41-2	2846-2849	ska	_	Target[15]	41-1	false[15]	4[15]	_	
+41-3	2850-2858	utformas	_	Target[15]	41-1	false[15]	4[15]	_	
+41-4	2859-2867	rättvist	_	Target[15]	41-1	false[15]	4[15]	_	
+41-5	2868-2870	så	_	_	_	_	_	_	
+41-6	2871-2874	att	_	_	_	_	_	_	
+41-7	2875-2878	den	_	_	_	_	_	_	
+41-8	2879-2883	ökar	_	_	_	_	_	_	
+41-9	2884-2897	svängutrymmet	_	_	_	_	_	_	
+41-10	2897-2898	,	_	_	_	_	_	_	
+41-11	2899-2904	möter	_	_	_	_	_	_	
+41-12	2905-2916	familjernas	_	_	_	_	_	_	
+41-13	2917-2924	ddbehov	_	_	_	_	_	_	
+41-14	2925-2928	och	_	_	_	_	_	_	
+41-15	2929-2940	respekterar	_	Target	41-16[38]	false	4	_	
+41-16	2941-2946	deras	*[38]	_	_	_	_	_	
+41-17	2947-2951	egna	*[38]	_	_	_	_	_	
+41-18	2952-2955	val	*[38]	_	_	_	_	_	
+41-19	2955-2956	.	_	_	_	_	_	_	
+
+#Text=Även om utfallet inte faller proffstyckarna på läppen.
+42-1	2957-2961	Även	_	_	_	_	_	_	
+42-2	2962-2964	om	_	_	_	_	_	_	
+42-3	2965-2973	utfallet	_	_	_	_	_	_	
+42-4	2974-2978	inte	_	_[16]	_	false[16]	2[16]	_	
+42-5	2979-2985	faller	_	_[16]	_	false[16]	2[16]	_	
+42-6	2986-3000	proffstyckarna	*	_	_	_	_	_	
+42-7	3001-3003	på	_	Target[17]	42-6	false[17]	2[17]	42-4[16_17]	
+42-8	3004-3010	läppen	_	Target[17]	42-6	false[17]	2[17]	_	
+42-9	3010-3011	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3013-3014	#	_	_	_	_	_	_	
+43-2	3014-3015	P	_	_	_	_	_	_	
+43-3	3016-3019	IMM	_	_	_	_	_	_	
+43-4	3019-3020	.	_	_	_	_	_	_	
+
+#Text=Emma Henriksson, familjepolitisk talesperson för Kristdemokraterna.
+44-1	3022-3026	Emma	_	_	_	_	_	_	
+44-2	3027-3037	Henriksson	_	_	_	_	_	_	
+44-3	3037-3038	,	_	_	_	_	_	_	
+44-4	3039-3054	familjepolitisk	_	_	_	_	_	_	
+44-5	3055-3066	talesperson	_	_	_	_	_	_	
+44-6	3067-3070	för	_	_	_	_	_	_	
+44-7	3071-3088	Kristdemokraterna	_	_	_	_	_	_	
+44-8	3088-3089	.	_	_	_	_	_	_	

@@ -1,0 +1,398 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Grön Ungdoms "invandringspolitik".
+3-1	18-22	Grön	_	_	_	_	_	_	
+3-2	23-30	Ungdoms	_	_	_	_	_	_	
+3-3	31-32	"	_	_	_	_	_	_	
+3-4	32-50	invandringspolitik	_	_	_	_	_	_	
+3-5	50-51	"	_	_	_	_	_	_	
+3-6	51-52	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	54-55	#	_	_	_	_	_	_	
+4-2	55-56	P	_	_	_	_	_	_	
+4-3	57-60	IMM	_	_	_	_	_	_	
+4-4	60-61	.	_	_	_	_	_	_	
+
+#Text=Ett gäng "erfarna politiker" (knappt fyllda arton) från Miljöpartiets nordligaste äggkläcknings-och broilerproduktionscentral planerar som bekant en "raid" mot FB, och i synnerhet tycks avsikten vara att "bekämpa främlingsfientligheten" som de av någon outgrundlig anledning.
+5-1	63-66	Ett	*[14]	_	_	_	_	_	
+5-2	67-71	gäng	*[14]	_	_	_	_	_	
+5-3	72-73	"	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-4	73-80	erfarna	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-5	81-90	politiker	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-6	90-91	"	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-7	92-93	(	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-8	93-99	knappt	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-9	100-106	fyllda	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-10	107-112	arton	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-11	112-113	)	*[14]	Target[1]	5-12[15]	true[1]	4[1]	_	
+5-12	114-118	från	*[14]|*[15]	_	_	_	_	_	
+5-13	119-132	Miljöpartiets	*[14]|*[15]|*[16]	Target[2]	5-13[16]	false[2]	1[2]	_	
+5-14	133-144	nordligaste	*[14]|*[15]|*[16]	Target[2]	5-13[16]	false[2]	1[2]	_	
+5-15	145-162	äggkläcknings-och	*[14]|*[15]|*[16]	Target[2]	5-13[16]	false[2]	1[2]	_	
+5-16	163-188	broilerproduktionscentral	*[14]|*[15]|*[16]	Target[2]	5-13[16]	false[2]	1[2]	_	
+5-17	189-197	planerar	_	_	_	_	_	_	
+5-18	198-201	som	_	_	_	_	_	_	
+5-19	202-208	bekant	_	_	_	_	_	_	
+5-20	209-211	en	_	_	_	_	_	_	
+5-21	212-213	"	_	Target[3]	5-33[17]	false[3]	2[3]	_	
+5-22	213-217	raid	_	Target[3]	5-33[17]	false[3]	2[3]	_	
+5-23	217-218	"	_	Target[3]	5-33[17]	false[3]	2[3]	_	
+5-24	219-222	mot	_	_	_	_	_	_	
+5-25	223-225	FB	_	_	_	_	_	_	
+5-26	225-226	,	_	_	_	_	_	_	
+5-27	227-230	och	_	_	_	_	_	_	
+5-28	231-232	i	_	_	_	_	_	_	
+5-29	233-242	synnerhet	_	_	_	_	_	_	
+5-30	243-248	tycks	_	_	_	_	_	_	
+5-31	249-257	avsikten	_	_	_	_	_	_	
+5-32	258-262	vara	_	_	_	_	_	_	
+5-33	263-266	att	*[17]	_	_	_	_	_	
+5-34	267-268	"	*[17]	_	_	_	_	_	
+5-35	268-275	bekämpa	*[17]	_	_	_	_	_	
+5-36	276-298	främlingsfientligheten	*[17]	_	_	_	_	_	
+5-37	298-299	"	*[17]	_	_	_	_	_	
+5-38	300-303	som	_	_	_	_	_	_	
+5-39	304-306	de	_	_	_	_	_	_	
+5-40	307-309	av	_	_	_	_	_	_	
+5-41	310-315	någon	_	_	_	_	_	_	
+5-42	316-327	outgrundlig	_	_	_	_	_	_	
+5-43	328-337	anledning	_	_	_	_	_	_	
+5-44	337-338	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	340-341	#	_	_	_	_	_	_	
+6-2	341-342	P	_	_	_	_	_	_	
+6-3	343-346	IMM	_	_	_	_	_	_	
+6-4	346-347	.	_	_	_	_	_	_	
+
+#Text=fått för sig existerar här.
+7-1	349-353	fått	_	_[4]	_	false[4]	2[4]	_	
+7-2	354-357	för	_	_[4]	_	false[4]	2[4]	_	
+7-3	358-361	sig	_	_[4]	_	false[4]	2[4]	_	
+7-4	362-371	existerar	_	_	_	_	_	_	
+7-5	372-375	här	_	_	_	_	_	_	
+7-6	375-376	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	378-379	#	_	_	_	_	_	_	
+8-2	379-380	P	_	_	_	_	_	_	
+8-3	381-384	IMM	_	_	_	_	_	_	
+8-4	384-385	.	_	_	_	_	_	_	
+
+#Text=Tre låsta trådar om ämnet finns:.
+9-1	387-390	Tre	_	_	_	_	_	_	
+9-2	391-396	låsta	_	_	_	_	_	_	
+9-3	397-403	trådar	_	_	_	_	_	_	
+9-4	404-406	om	_	_	_	_	_	_	
+9-5	407-412	ämnet	_	_	_	_	_	_	
+9-6	413-418	finns	_	_	_	_	_	_	
+9-7	418-419	:	_	_	_	_	_	_	
+9-8	419-420	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	422-423	#	_	_	_	_	_	_	
+10-2	423-424	P	_	_	_	_	_	_	
+10-3	425-428	IMM	_	_	_	_	_	_	
+10-4	428-429	.	_	_	_	_	_	_	
+
+#Text=De små liven som löper och bräker i flock tänker alltså inleda sin propagandaoffensiv nu på söndag kl.21.00, när en normal människa kollar på Fiorentina-Roma eller Montreal Canadiens-Boston Bruins eller kanske över några kalla bärs utbyter muntra misantropiska visdomsord med någon vän.
+11-1	431-433	De	*[18]	Target[5]	5-1[14]	false[5]	2[5]	_	
+11-2	434-437	små	*[18]	Target[5]	5-1[14]	false[5]	2[5]	_	
+11-3	438-443	liven	*[18]	Target[5]	5-1[14]	false[5]	2[5]	_	
+11-4	444-447	som	_	_	_	_	_	_	
+11-5	448-453	löper	_	Target[6]	11-1[18]	false[6]	2[6]	_	
+11-6	454-457	och	_	Target[6]	11-1[18]	false[6]	2[6]	_	
+11-7	458-464	bräker	_	Target[6]	11-1[18]	false[6]	2[6]	_	
+11-8	465-466	i	_	Target[6]	11-1[18]	false[6]	2[6]	_	
+11-9	467-472	flock	_	Target[6]	11-1[18]	false[6]	2[6]	_	
+11-10	473-479	tänker	_	_	_	_	_	_	
+11-11	480-486	alltså	_	_	_	_	_	_	
+11-12	487-493	inleda	_	_	_	_	_	_	
+11-13	494-497	sin	_	_	_	_	_	_	
+11-14	498-516	propagandaoffensiv	_	_	_	_	_	_	
+11-15	517-519	nu	_	_	_	_	_	_	
+11-16	520-522	på	_	_	_	_	_	_	
+11-17	523-529	söndag	_	_	_	_	_	_	
+11-18	530-532	kl	_	_	_	_	_	_	
+11-19	532-538	.21.00	_	_	_	_	_	_	
+11-20	538-539	,	_	_	_	_	_	_	
+11-21	540-543	när	_	_	_	_	_	_	
+11-22	544-546	en	_	_	_	_	_	_	
+11-23	547-553	normal	_	Target[7]|Target[8]	11-25[19]|11-24	false[7]|false[8]	4[7]|4[8]	_	
+11-24	554-562	människa	*	Target[7]	11-25[19]	false[7]	4[7]	_	
+11-25	563-569	kollar	*[19]	_	_	_	_	_	
+11-26	570-572	på	*[19]	_	_	_	_	_	
+11-27	573-588	Fiorentina-Roma	*[19]	_	_	_	_	_	
+11-28	589-594	eller	*[19]	_	_	_	_	_	
+11-29	595-603	Montreal	*[19]	_	_	_	_	_	
+11-30	604-620	Canadiens-Boston	*[19]	_	_	_	_	_	
+11-31	621-627	Bruins	*[19]	_	_	_	_	_	
+11-32	628-633	eller	*[19]	_	_	_	_	_	
+11-33	634-640	kanske	*[19]	_	_	_	_	_	
+11-34	641-645	över	*[19]	_	_	_	_	_	
+11-35	646-651	några	*[19]	_	_	_	_	_	
+11-36	652-657	kalla	*[19]	_	_	_	_	_	
+11-37	658-662	bärs	*[19]	_	_	_	_	_	
+11-38	663-670	utbyter	*[19]	_	_	_	_	_	
+11-39	671-677	muntra	*[19]	_	_	_	_	_	
+11-40	678-691	misantropiska	*[19]	_	_	_	_	_	
+11-41	692-702	visdomsord	*[19]	_	_	_	_	_	
+11-42	703-706	med	*[19]	_	_	_	_	_	
+11-43	707-712	någon	*[19]	_	_	_	_	_	
+11-44	713-716	vän	*[19]	_	_	_	_	_	
+11-45	716-717	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	719-720	#	_	_	_	_	_	_	
+12-2	720-721	P	_	_	_	_	_	_	
+12-3	722-725	IMM	_	_	_	_	_	_	
+12-4	725-726	.	_	_	_	_	_	_	
+
+#Text=Jag tänkte att vi kunde bädda lite för Grön Ungdoms ideologiska fanatiker här genom att läsa på en del om vilken "invandringspolitik" de och deras modertumörparti förespråkar, så hittar de på söndag en tråd att genast bita tag i och bemöta.
+13-1	728-731	Jag	_	_	_	_	_	_	
+13-2	732-738	tänkte	_	_	_	_	_	_	
+13-3	739-742	att	_	_	_	_	_	_	
+13-4	743-745	vi	_	_	_	_	_	_	
+13-5	746-751	kunde	_	_	_	_	_	_	
+13-6	752-757	bädda	_	_	_	_	_	_	
+13-7	758-762	lite	_	_	_	_	_	_	
+13-8	763-766	för	_	_	_	_	_	_	
+13-9	767-771	Grön	_	_	_	_	_	_	
+13-10	772-779	Ungdoms	_	_	_	_	_	_	
+13-11	780-791	ideologiska	_	_	_	_	_	_	
+13-12	792-801	fanatiker	_	_	_	_	_	_	
+13-13	802-805	här	_	_	_	_	_	_	
+13-14	806-811	genom	_	_	_	_	_	_	
+13-15	812-815	att	_	_	_	_	_	_	
+13-16	816-820	läsa	_	_	_	_	_	_	
+13-17	821-823	på	_	_	_	_	_	_	
+13-18	824-826	en	_	_	_	_	_	_	
+13-19	827-830	del	_	_	_	_	_	_	
+13-20	831-833	om	_	_	_	_	_	_	
+13-21	834-840	vilken	_	_	_	_	_	_	
+13-22	841-842	"	_	_	_	_	_	_	
+13-23	842-860	invandringspolitik	_	_	_	_	_	_	
+13-24	860-861	"	_	_	_	_	_	_	
+13-25	862-864	de	_	_	_	_	_	_	
+13-26	865-868	och	_	_	_	_	_	_	
+13-27	869-874	deras	_	_	_	_	_	_	
+13-28	875-890	modertumörparti	*	Target	13-28	false	4	_	
+13-29	891-902	förespråkar	_	_	_	_	_	_	
+13-30	902-903	,	_	_	_	_	_	_	
+13-31	904-906	så	_	_	_	_	_	_	
+13-32	907-913	hittar	_	_	_	_	_	_	
+13-33	914-916	de	_	_	_	_	_	_	
+13-34	917-919	på	_	_	_	_	_	_	
+13-35	920-926	söndag	_	_	_	_	_	_	
+13-36	927-929	en	_	_	_	_	_	_	
+13-37	930-934	tråd	_	_	_	_	_	_	
+13-38	935-938	att	_	_	_	_	_	_	
+13-39	939-945	genast	_	_	_	_	_	_	
+13-40	946-950	bita	_	_	_	_	_	_	
+13-41	951-954	tag	_	_	_	_	_	_	
+13-42	955-956	i	_	_	_	_	_	_	
+13-43	957-960	och	_	_	_	_	_	_	
+13-44	961-967	bemöta	_	_	_	_	_	_	
+13-45	967-968	.	_	_	_	_	_	_	
+
+#Text=Kanske deras "raid" utformats inom ramen för de "webgerillakampanjer" som lanserades som propagandametod i höstas:.
+14-1	969-975	Kanske	_	_	_	_	_	_	
+14-2	976-981	deras	_	_	_	_	_	_	
+14-3	982-983	"	_	_	_	_	_	_	
+14-4	983-987	raid	_	_	_	_	_	_	
+14-5	987-988	"	_	_	_	_	_	_	
+14-6	989-998	utformats	_	_	_	_	_	_	
+14-7	999-1003	inom	_	_	_	_	_	_	
+14-8	1004-1009	ramen	_	_	_	_	_	_	
+14-9	1010-1013	för	_	_	_	_	_	_	
+14-10	1014-1016	de	_	_	_	_	_	_	
+14-11	1017-1018	"	*[20]	_	_	_	_	_	
+14-12	1018-1037	webgerillakampanjer	*[20]	_	_	_	_	_	
+14-13	1037-1038	"	*[20]	_	_	_	_	_	
+14-14	1039-1042	som	_	_	_	_	_	_	
+14-15	1043-1053	lanserades	_	_	_	_	_	_	
+14-16	1054-1057	som	_	_	_	_	_	_	
+14-17	1058-1073	propagandametod	_	Target	14-11[20]	false	2	_	
+14-18	1074-1075	i	_	_	_	_	_	_	
+14-19	1076-1082	höstas	_	_	_	_	_	_	
+14-20	1082-1083	:	_	_	_	_	_	_	
+14-21	1083-1084	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1086-1087	#	_	_	_	_	_	_	
+15-2	1087-1088	P	_	_	_	_	_	_	
+15-3	1089-1092	IMM	_	_	_	_	_	_	
+15-4	1092-1093	.	_	_	_	_	_	_	
+
+#Text="Öppna gränserna", "fri invandring" och "avskaffa nationalstaten" är teser som på fullt allvar framförs av både Miljöpartiet och diverse socialist-och kommunistsekter, dessutom i vissa liberala kretsar.
+16-1	1095-1096	"	_	_	_	_	_	_	
+16-2	1096-1101	Öppna	*[21]	_	_	_	_	_	
+16-3	1102-1111	gränserna	*[21]	_	_	_	_	_	
+16-4	1111-1112	"	*[21]	_	_	_	_	_	
+16-5	1112-1113	,	*[21]	_	_	_	_	_	
+16-6	1114-1115	"	*[21]	_	_	_	_	_	
+16-7	1115-1118	fri	*[21]	_	_	_	_	_	
+16-8	1119-1129	invandring	*[21]	_	_	_	_	_	
+16-9	1129-1130	"	*[21]	_	_	_	_	_	
+16-10	1131-1134	och	*[21]	_	_	_	_	_	
+16-11	1135-1136	"	*[21]	_	_	_	_	_	
+16-12	1136-1144	avskaffa	*[21]	_	_	_	_	_	
+16-13	1145-1159	nationalstaten	*[21]	_	_	_	_	_	
+16-14	1159-1160	"	*[21]	_	_	_	_	_	
+16-15	1161-1163	är	_	_	_	_	_	_	
+16-16	1164-1169	teser	_	_	_	_	_	_	
+16-17	1170-1173	som	_	_	_	_	_	_	
+16-18	1174-1176	på	_	Target[9]	16-2[21]	false[9]	2[9]	_	
+16-19	1177-1182	fullt	_	Target[9]	16-2[21]	false[9]	2[9]	_	
+16-20	1183-1189	allvar	_	Target[9]	16-2[21]	false[9]	2[9]	_	
+16-21	1190-1198	framförs	_	Target[9]	16-2[21]	false[9]	2[9]	_	
+16-22	1199-1201	av	_	_	_	_	_	_	
+16-23	1202-1206	både	_	_	_	_	_	_	
+16-24	1207-1219	Miljöpartiet	_	_	_	_	_	_	
+16-25	1220-1223	och	_	_	_	_	_	_	
+16-26	1224-1231	diverse	_	_	_	_	_	_	
+16-27	1232-1245	socialist-och	_	_	_	_	_	_	
+16-28	1246-1261	kommunistsekter	*	Target	16-28	false	2	_	
+16-29	1261-1262	,	_	_	_	_	_	_	
+16-30	1263-1271	dessutom	_	_	_	_	_	_	
+16-31	1272-1273	i	_	_	_	_	_	_	
+16-32	1274-1279	vissa	_	_	_	_	_	_	
+16-33	1280-1288	liberala	_	_	_	_	_	_	
+16-34	1289-1296	kretsar	_	_	_	_	_	_	
+16-35	1296-1297	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=13,5% av befolkningen i Sverige (tror det var senaste rekordhöga opinionsmätningssiffran) delar knappast MP:s och GU:s övertygelser i den frågan, men är för naiva och okunniga om vad galningarna i partiet vill utsätta det redan hårt ansatta svenska folket för.
+17-1	1299-1300	#	_	_	_	_	_	_	
+17-2	1300-1301	P	_	_	_	_	_	_	
+17-3	1302-1305	IMM	_	_	_	_	_	_	
+17-4	1305-1306	.	_	_	_	_	_	_	
+17-5	1308-1313	13,5%	*[22]	_	_	_	_	_	
+17-6	1314-1316	av	*[22]	_	_	_	_	_	
+17-7	1317-1329	befolkningen	*[22]	_	_	_	_	_	
+17-8	1330-1331	i	_	_	_	_	_	_	
+17-9	1332-1339	Sverige	_	_	_	_	_	_	
+17-10	1340-1341	(	_	_	_	_	_	_	
+17-11	1341-1345	tror	_	_	_	_	_	_	
+17-12	1346-1349	det	_	_	_	_	_	_	
+17-13	1350-1353	var	_	_	_	_	_	_	
+17-14	1354-1361	senaste	_	_	_	_	_	_	
+17-15	1362-1372	rekordhöga	_	_	_	_	_	_	
+17-16	1373-1396	opinionsmätningssiffran	_	_	_	_	_	_	
+17-17	1396-1397	)	_	_	_	_	_	_	
+17-18	1398-1403	delar	_	Target[10]	17-20[23]	false[10]	2[10]	_	
+17-19	1404-1412	knappast	_	Target[10]	17-20[23]	false[10]	2[10]	_	
+17-20	1413-1415	MP	*[23]	_	_	_	_	_	
+17-21	1415-1416	:	*[23]	_	_	_	_	_	
+17-22	1416-1417	s	*[23]	_	_	_	_	_	
+17-23	1418-1421	och	*[23]	_	_	_	_	_	
+17-24	1422-1424	GU	*[23]	_	_	_	_	_	
+17-25	1424-1425	:	*[23]	_	_	_	_	_	
+17-26	1425-1426	s	*[23]	_	_	_	_	_	
+17-27	1427-1439	övertygelser	*[23]	_	_	_	_	_	
+17-28	1440-1441	i	*[23]	_	_	_	_	_	
+17-29	1442-1445	den	*[23]	_	_	_	_	_	
+17-30	1446-1452	frågan	*[23]	_	_	_	_	_	
+17-31	1452-1453	,	_	_	_	_	_	_	
+17-32	1454-1457	men	_	_	_	_	_	_	
+17-33	1458-1460	är	_	Target[11]	17-5[22]	false[11]	2[11]	_	
+17-34	1461-1464	för	_	Target[11]	17-5[22]	false[11]	2[11]	_	
+17-35	1465-1470	naiva	_	Target[11]	17-5[22]	false[11]	2[11]	_	
+17-36	1471-1474	och	_	Target[11]	17-5[22]	false[11]	2[11]	_	
+17-37	1475-1483	okunniga	_	Target[11]	17-5[22]	false[11]	2[11]	_	
+17-38	1484-1486	om	_	_	_	_	_	_	
+17-39	1487-1490	vad	*	_	_	_	_	_	
+17-40	1491-1502	galningarna	*	Target	17-40	false	2	_	
+17-41	1503-1504	i	_	_	_	_	_	_	
+17-42	1505-1512	partiet	_	_	_	_	_	_	
+17-43	1513-1517	vill	_	_	_	_	_	_	
+17-44	1518-1525	utsätta	_	Target	17-39	false	2	_	
+17-45	1526-1529	det	_	_	_	_	_	_	
+17-46	1530-1535	redan	_	_	_	_	_	_	
+17-47	1536-1540	hårt	_	Target	17-48	false	2	_	
+17-48	1541-1548	ansatta	*	_	_	_	_	_	
+17-49	1549-1556	svenska	_	_	_	_	_	_	
+17-50	1557-1563	folket	_	_	_	_	_	_	
+17-51	1564-1567	för	_	_	_	_	_	_	
+17-52	1567-1568	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1570-1571	#	_	_	_	_	_	_	
+18-2	1571-1572	P	_	_	_	_	_	_	
+18-3	1573-1576	IMM	_	_	_	_	_	_	
+18-4	1576-1577	.	_	_	_	_	_	_	
+
+#Text="Språkrören" för GU på riksplanet heter Jacop Dalunde och Maria Ferm.
+19-1	1579-1580	"	_	_	_	_	_	_	
+19-2	1580-1590	Språkrören	_	_	_	_	_	_	
+19-3	1590-1591	"	_	_	_	_	_	_	
+19-4	1592-1595	för	_	_	_	_	_	_	
+19-5	1596-1598	GU	_	_	_	_	_	_	
+19-6	1599-1601	på	_	_	_	_	_	_	
+19-7	1602-1612	riksplanet	_	_	_	_	_	_	
+19-8	1613-1618	heter	_	_	_	_	_	_	
+19-9	1619-1624	Jacop	_	_	_	_	_	_	
+19-10	1625-1632	Dalunde	_	_	_	_	_	_	
+19-11	1633-1636	och	_	_	_	_	_	_	
+19-12	1637-1642	Maria	*[24]|*[25]|*[26]	_	_	_	_	21-5[27_25]	
+19-13	1643-1647	Ferm	*[24]|*[25]|*[26]	_	_	_	_	_	
+19-14	1647-1648	.	_	_	_	_	_	_	
+
+#Text=Maria härstammar från Vellinge och har under sitt unga lesbiska politikerbroilerliv hunnit bli riktigt bedagad.
+20-1	1649-1654	Maria	_	_	_	_	_	_	
+20-2	1655-1665	härstammar	_	_	_	_	_	_	
+20-3	1666-1670	från	_	_	_	_	_	_	
+20-4	1671-1679	Vellinge	_	_	_	_	_	_	
+20-5	1680-1683	och	_	_	_	_	_	_	
+20-6	1684-1687	har	_	_	_	_	_	_	
+20-7	1688-1693	under	_	_	_	_	_	_	
+20-8	1694-1698	sitt	_	_	_	_	_	_	
+20-9	1699-1703	unga	_	Target[12]	19-12[25]	false[12]	1[12]	_	
+20-10	1704-1712	lesbiska	_	Target[12]	19-12[25]	false[12]	1[12]	_	
+20-11	1713-1732	politikerbroilerliv	_	Target[12]	19-12[25]	false[12]	1[12]	_	
+20-12	1733-1739	hunnit	_	_	_	_	_	_	
+20-13	1740-1743	bli	_	_	_	_	_	_	
+20-14	1744-1751	riktigt	_	Target	20-15	false	2	_	
+20-15	1752-1759	bedagad	*	Target	19-12[24]	false	2	_	
+20-16	1759-1760	.	_	_	_	_	_	_	
+
+#Text=Enligt egen utsago har den till Stockholms Söder inflyttade kulturmarxisten levt ett par år helt trollbunden av kokainets lockelse:.
+21-1	1761-1767	Enligt	_	_	_	_	_	_	
+21-2	1768-1772	egen	_	_	_	_	_	_	
+21-3	1773-1779	utsago	_	_	_	_	_	_	
+21-4	1780-1783	har	_	_	_	_	_	_	
+21-5	1784-1787	den	*[27]	_	_	_	_	_	
+21-6	1788-1792	till	*[27]	_	_	_	_	_	
+21-7	1793-1803	Stockholms	*[27]	_	_	_	_	_	
+21-8	1804-1809	Söder	*[27]	_	_	_	_	_	
+21-9	1810-1820	inflyttade	*[27]	_	_	_	_	_	
+21-10	1821-1836	kulturmarxisten	*[27]|*[28]	Target	21-10[28]	false	2	_	
+21-11	1837-1841	levt	_	_	_	_	_	_	
+21-12	1842-1845	ett	_	_	_	_	_	_	
+21-13	1846-1849	par	_	_	_	_	_	_	
+21-14	1850-1852	år	_	_	_	_	_	_	
+21-15	1853-1857	helt	_	Target[13]	21-5[27]	false[13]	1[13]	_	
+21-16	1858-1869	trollbunden	_	Target[13]	21-5[27]	false[13]	1[13]	_	
+21-17	1870-1872	av	_	Target[13]	21-5[27]	false[13]	1[13]	_	
+21-18	1873-1882	kokainets	_	Target[13]	21-5[27]	false[13]	1[13]	_	
+21-19	1883-1891	lockelse	_	Target[13]	21-5[27]	false[13]	1[13]	_	
+21-20	1891-1892	:	_	_	_	_	_	_	
+21-21	1892-1893	.	_	_	_	_	_	_	

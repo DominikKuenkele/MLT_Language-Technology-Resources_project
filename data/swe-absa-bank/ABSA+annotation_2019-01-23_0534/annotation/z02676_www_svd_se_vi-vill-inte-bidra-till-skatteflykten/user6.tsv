@@ -1,0 +1,1110 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill inte bidra till skatteflykten.
+3-1	18-20	Vi	_	_	_	_	_	_	_	
+3-2	21-25	vill	_	Target[1]	3-6	false[1]	2[1]	_	_	
+3-3	26-30	inte	_	Target[1]	3-6	false[1]	2[1]	_	_	
+3-4	31-36	bidra	_	Target[1]	3-6	false[1]	2[1]	_	_	
+3-5	37-41	till	_	Target[1]	3-6	false[1]	2[1]	_	_	
+3-6	42-55	skatteflykten	*	_	_	_	_	_	_	
+3-7	55-56	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	_	
+
+#Text=När kommuner nu på egen hand försöker sätta stopp för skatteflykt, hindras de genom hänvisningar till Lagen om offentlig upphandling.
+5-1	67-70	När	_	_	_	_	_	_	_	
+5-2	71-79	kommuner	*	_	_	_	_	_	_	
+5-3	80-82	nu	_	_	_	_	_	_	_	
+5-4	83-85	på	_	_	_	_	_	_	_	
+5-5	86-90	egen	_	_	_	_	_	_	_	
+5-6	91-95	hand	_	_	_	_	_	_	_	
+5-7	96-104	försöker	_	Target;Source[2]	5-11;5-2	false[2]	2[2]	_	_	
+5-8	105-110	sätta	_	Target;Source[2]	5-11;5-2	false[2]	2[2]	_	_	
+5-9	111-116	stopp	_	Target;Source[2]	5-11;5-2	false[2]	2[2]	_	_	
+5-10	117-120	för	_	Target;Source[2]	5-11;5-2	false[2]	2[2]	_	_	
+5-11	121-132	skatteflykt	*	_	_	_	_	_	_	
+5-12	132-133	,	_	_	_	_	_	_	_	
+5-13	134-141	hindras	_	_	_	_	_	_	_	
+5-14	142-144	de	_	_	_	_	_	_	_	
+5-15	145-150	genom	_	_	_	_	_	_	_	
+5-16	151-163	hänvisningar	_	_	_	_	_	_	_	
+5-17	164-168	till	_	_	_	_	_	_	_	
+5-18	169-174	Lagen	_	_	_	_	_	_	_	
+5-19	175-177	om	_	_	_	_	_	_	_	
+5-20	178-187	offentlig	_	_	_	_	_	_	_	
+5-21	188-199	upphandling	_	_	_	_	_	_	_	
+5-22	199-200	.	_	_	_	_	_	_	_	
+
+#Text=Men problemet är omfattande, och regeringen borde agera mer kraftfullt.
+6-1	201-204	Men	_	_	_	_	_	_	_	
+6-2	205-214	problemet	_	_	_	_	_	_	_	
+6-3	215-217	är	_	_	_	_	_	_	_	
+6-4	218-228	omfattande	_	_	_	_	_	_	_	
+6-5	228-229	,	_	_	_	_	_	_	_	
+6-6	230-233	och	_	_	_	_	_	_	_	
+6-7	234-244	regeringen	_	_	_	_	_	_	_	
+6-8	245-250	borde	_	_	_	_	_	_	_	
+6-9	251-256	agera	_	_	_	_	_	_	_	
+6-10	257-260	mer	_	_	_	_	_	_	_	
+6-11	261-271	kraftfullt	_	_	_	_	_	_	_	
+6-12	271-272	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver kommunalråden i Kalmar och Malmö med flera.
+7-1	273-276	Det	_	_	_	_	_	_	_	
+7-2	277-284	skriver	_	_	_	_	_	_	_	
+7-3	285-298	kommunalråden	_	_	_	_	_	_	_	
+7-4	299-300	i	_	_	_	_	_	_	_	
+7-5	301-307	Kalmar	_	_	_	_	_	_	_	
+7-6	308-311	och	_	_	_	_	_	_	_	
+7-7	312-317	Malmö	_	_	_	_	_	_	_	
+7-8	318-321	med	_	_	_	_	_	_	_	
+7-9	322-327	flera	_	_	_	_	_	_	_	
+7-10	327-328	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	330-331	#	_	_	_	_	_	_	_	
+8-2	331-332	P	_	_	_	_	_	_	_	
+8-3	333-336	IMM	_	_	_	_	_	_	_	
+8-4	336-337	.	_	_	_	_	_	_	_	
+
+#Text=En aktuell rapport från Tax Justice Network visar att en superrik elit har smusslat undan hisnande 140 000 miljarder kronor till världens skatteparadis, den globala ekonomins svarta hål.
+9-1	339-341	En	_	_	_	_	_	_	_	
+9-2	342-349	aktuell	_	_	_	_	_	_	_	
+9-3	350-357	rapport	_	_	_	_	_	_	_	
+9-4	358-362	från	_	_	_	_	_	_	_	
+9-5	363-366	Tax	_	_	_	_	_	_	_	
+9-6	367-374	Justice	_	_	_	_	_	_	_	
+9-7	375-382	Network	_	_	_	_	_	_	_	
+9-8	383-388	visar	_	_	_	_	_	_	_	
+9-9	389-392	att	_	_	_	_	_	_	_	
+9-10	393-395	en	_	_	_	_	_	_	_	
+9-11	396-404	superrik	_	_	_	_	_	_	_	
+9-12	405-409	elit	_	_	_	_	_	_	_	
+9-13	410-413	har	_	_	_	_	_	_	_	
+9-14	414-422	smusslat	*[10]	Target[3]	9-14[10]	false[3]	2[3]	_	_	
+9-15	423-428	undan	*[10]	Target[3]	9-14[10]	false[3]	2[3]	_	_	
+9-16	429-437	hisnande	_	_	_	_	_	_	_	
+9-17	438-441	140	_	_	_	_	_	_	_	
+9-18	442-445	000	_	_	_	_	_	_	_	
+9-19	446-455	miljarder	_	_	_	_	_	_	_	
+9-20	456-462	kronor	_	_	_	_	_	_	_	
+9-21	463-467	till	_	_	_	_	_	_	_	
+9-22	468-476	världens	*[11]	_	_	_	_	_	_	
+9-23	477-490	skatteparadis	*[11]	_	_	_	_	_	_	
+9-24	490-491	,	_	_	_	_	_	_	_	
+9-25	492-495	den	_	Target[4]	9-22[11]	false[4]	2[4]	_	_	
+9-26	496-503	globala	_	Target[4]	9-22[11]	false[4]	2[4]	_	_	
+9-27	504-513	ekonomins	_	Target[4]	9-22[11]	false[4]	2[4]	_	_	
+9-28	514-520	svarta	_	Target[4]	9-22[11]	false[4]	2[4]	_	_	
+9-29	521-524	hål	_	Target[4]	9-22[11]	false[4]	2[4]	_	_	
+9-30	524-525	.	_	_	_	_	_	_	_	
+
+#Text=Det är minst sagt provocerande att denna skatteflykt får fortsätta.
+10-1	526-529	Det	_	_	_	_	_	_	_	
+10-2	530-532	är	_	Target[5]	10-6[12]	false[5]	1[5]	_	_	
+10-3	533-538	minst	_	Target[5]	10-6[12]	false[5]	1[5]	_	_	
+10-4	539-543	sagt	_	Target[5]	10-6[12]	false[5]	1[5]	_	_	
+10-5	544-556	provocerande	_	Target[5]	10-6[12]	false[5]	1[5]	_	_	
+10-6	557-560	att	*[12]	_	_	_	_	_	_	
+10-7	561-566	denna	*[12]	_	_	_	_	_	_	
+10-8	567-578	skatteflykt	*[12]	_	_	_	_	_	_	
+10-9	579-582	får	*[12]	_	_	_	_	_	_	
+10-10	583-592	fortsätta	*[12]	_	_	_	_	_	_	
+10-11	592-593	.	_	_	_	_	_	_	_	
+
+#Text=I synnerhet som vi just nu bevittnar hur skuldsatta länder i Europa pressas att genomföra lönesänkningar och extrema nedskärningar.
+11-1	594-595	I	_	_	_	_	_	_	_	
+11-2	596-605	synnerhet	_	_	_	_	_	_	_	
+11-3	606-609	som	_	_	_	_	_	_	_	
+11-4	610-612	vi	_	_	_	_	_	_	_	
+11-5	613-617	just	_	_	_	_	_	_	_	
+11-6	618-620	nu	_	_	_	_	_	_	_	
+11-7	621-630	bevittnar	_	_	_	_	_	_	_	
+11-8	631-634	hur	_	_	_	_	_	_	_	
+11-9	635-645	skuldsatta	_	_	_	_	_	_	_	
+11-10	646-652	länder	_	_	_	_	_	_	_	
+11-11	653-654	i	_	_	_	_	_	_	_	
+11-12	655-661	Europa	_	_	_	_	_	_	_	
+11-13	662-669	pressas	_	_	_	_	_	_	_	
+11-14	670-673	att	_	_	_	_	_	_	_	
+11-15	674-683	genomföra	_	_	_	_	_	_	_	
+11-16	684-698	lönesänkningar	_	_	_	_	_	_	_	
+11-17	699-702	och	_	_	_	_	_	_	_	
+11-18	703-710	extrema	_	Target	11-19	false	1	_	_	
+11-19	711-724	nedskärningar	*	_	_	_	_	_	_	
+11-20	724-725	.	_	_	_	_	_	_	_	
+
+#Text=I Grekland betalar de rikaste nästintill ingen skatt alls.
+12-1	726-727	I	_	_	_	_	_	_	_	
+12-2	728-736	Grekland	_	_	_	_	_	_	_	
+12-3	737-744	betalar	_	_	_	_	_	_	_	
+12-4	745-747	de	_	_	_	_	_	_	_	
+12-5	748-755	rikaste	_	_	_	_	_	_	_	
+12-6	756-766	nästintill	_	_	_	_	_	_	_	
+12-7	767-772	ingen	_	_	_	_	_	_	_	
+12-8	773-778	skatt	_	_	_	_	_	_	_	
+12-9	779-783	alls	_	_	_	_	_	_	_	
+12-10	783-784	.	_	_	_	_	_	_	_	
+
+#Text=De har fört över cirka 600 miljarder euro till konton i skatteparadis, det vill säga mer än landets totala statssskuld.
+13-1	785-787	De	_	_	_	_	_	_	_	
+13-2	788-791	har	_	_	_	_	_	_	_	
+13-3	792-796	fört	_	_	_	_	_	_	_	
+13-4	797-801	över	_	_	_	_	_	_	_	
+13-5	802-807	cirka	_	_	_	_	_	_	_	
+13-6	808-811	600	_	_	_	_	_	_	_	
+13-7	812-821	miljarder	_	_	_	_	_	_	_	
+13-8	822-826	euro	_	_	_	_	_	_	_	
+13-9	827-831	till	_	_	_	_	_	_	_	
+13-10	832-838	konton	_	_	_	_	_	_	_	
+13-11	839-840	i	_	_	_	_	_	_	_	
+13-12	841-854	skatteparadis	_	_	_	_	_	_	_	
+13-13	854-855	,	_	_	_	_	_	_	_	
+13-14	856-859	det	_	_	_	_	_	_	_	
+13-15	860-864	vill	_	_	_	_	_	_	_	
+13-16	865-869	säga	_	_	_	_	_	_	_	
+13-17	870-873	mer	_	_	_	_	_	_	_	
+13-18	874-876	än	_	_	_	_	_	_	_	
+13-19	877-884	landets	_	_	_	_	_	_	_	
+13-20	885-891	totala	_	_	_	_	_	_	_	
+13-21	892-903	statssskuld	_	_	_	_	_	_	_	
+13-22	903-904	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	906-907	#	_	_	_	_	_	_	_	
+14-2	907-908	P	_	_	_	_	_	_	_	
+14-3	909-912	IMM	_	_	_	_	_	_	_	
+14-4	912-913	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+15-1	915-918	Det	_	_	_	_	_	_	_	
+15-2	919-922	här	_	_	_	_	_	_	_	
+15-3	923-925	är	_	_	_	_	_	_	_	
+15-4	926-928	en	_	_	_	_	_	_	_	
+15-5	929-943	argumenterande	_	_	_	_	_	_	_	
+15-6	944-948	text	_	_	_	_	_	_	_	
+15-7	949-952	med	_	_	_	_	_	_	_	
+15-8	953-958	syfte	_	_	_	_	_	_	_	
+15-9	959-962	att	_	_	_	_	_	_	_	
+15-10	963-970	påverka	_	_	_	_	_	_	_	
+15-11	970-971	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+16-1	972-981	Åsikterna	_	_	_	_	_	_	_	
+16-2	982-985	som	_	_	_	_	_	_	_	
+16-3	986-994	uttrycks	_	_	_	_	_	_	_	
+16-4	995-997	är	_	_	_	_	_	_	_	
+16-5	998-1009	skribentens	_	_	_	_	_	_	_	
+16-6	1010-1014	egna	_	_	_	_	_	_	_	
+16-7	1014-1015	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1017-1018	#	_	_	_	_	_	_	_	
+17-2	1018-1019	P	_	_	_	_	_	_	_	
+17-3	1020-1023	IMM	_	_	_	_	_	_	_	
+17-4	1023-1024	.	_	_	_	_	_	_	_	
+
+#Text=Skattefusket drabbar alla länder, inklusive Sverige.
+18-1	1026-1038	Skattefusket	*	_	_	_	_	_	_	
+18-2	1039-1046	drabbar	_	Target	18-1	false	2	_	_	
+18-3	1047-1051	alla	_	_	_	_	_	_	_	
+18-4	1052-1058	länder	_	_	_	_	_	_	_	
+18-5	1058-1059	,	_	_	_	_	_	_	_	
+18-6	1060-1069	inklusive	_	_	_	_	_	_	_	
+18-7	1070-1077	Sverige	_	_	_	_	_	_	_	
+18-8	1077-1078	.	_	_	_	_	_	_	_	
+
+#Text=Därför har Kalmar kommun infört följande formulering i sin uppförandekod för hållbar upphandling: "Våra leverantörer får ej ha någon koppling till företag baserade i så kallade skatteparadis".
+19-1	1079-1085	Därför	_	_	_	_	_	_	_	
+19-2	1086-1089	har	_	_	_	_	_	_	_	
+19-3	1090-1096	Kalmar	_	_	_	_	_	_	_	
+19-4	1097-1103	kommun	_	_	_	_	_	_	_	
+19-5	1104-1110	infört	_	_	_	_	_	_	_	
+19-6	1111-1119	följande	_	_	_	_	_	_	_	
+19-7	1120-1131	formulering	_	_	_	_	_	_	_	
+19-8	1132-1133	i	_	_	_	_	_	_	_	
+19-9	1134-1137	sin	_	_	_	_	_	_	_	
+19-10	1138-1151	uppförandekod	_	_	_	_	_	_	_	
+19-11	1152-1155	för	_	_	_	_	_	_	_	
+19-12	1156-1163	hållbar	_	_	_	_	_	_	_	
+19-13	1164-1175	upphandling	_	_	_	_	_	_	_	
+19-14	1175-1176	:	_	_	_	_	_	_	_	
+19-15	1177-1178	"	_	_	_	_	_	_	_	
+19-16	1178-1182	Våra	_	_	_	_	_	_	_	
+19-17	1183-1195	leverantörer	_	_	_	_	_	_	_	
+19-18	1196-1199	får	_	_	_	_	_	_	_	
+19-19	1200-1202	ej	_	_	_	_	_	_	_	
+19-20	1203-1205	ha	_	_	_	_	_	_	_	
+19-21	1206-1211	någon	_	_	_	_	_	_	_	
+19-22	1212-1220	koppling	_	_	_	_	_	_	_	
+19-23	1221-1225	till	_	_	_	_	_	_	_	
+19-24	1226-1233	företag	_	_	_	_	_	_	_	
+19-25	1234-1242	baserade	_	_	_	_	_	_	_	
+19-26	1243-1244	i	_	_	_	_	_	_	_	
+19-27	1245-1247	så	_	_	_	_	_	_	_	
+19-28	1248-1255	kallade	_	_	_	_	_	_	_	
+19-29	1256-1269	skatteparadis	_	_	_	_	_	_	_	
+19-30	1269-1270	"	_	_	_	_	_	_	_	
+19-31	1270-1271	.	_	_	_	_	_	_	_	
+
+#Text=Malmös kommunledning har uttalat samma ambition.
+20-1	1272-1278	Malmös	_	_	_	_	_	_	_	
+20-2	1279-1292	kommunledning	_	_	_	_	_	_	_	
+20-3	1293-1296	har	_	_	_	_	_	_	_	
+20-4	1297-1304	uttalat	_	_	_	_	_	_	_	
+20-5	1305-1310	samma	_	_	_	_	_	_	_	
+20-6	1311-1319	ambition	_	_	_	_	_	_	_	
+20-7	1319-1320	.	_	_	_	_	_	_	_	
+
+#Text=Ett rimligt ställningstagande kan man tycka.
+21-1	1321-1324	Ett	_	_	_	_	_	_	_	
+21-2	1325-1332	rimligt	_	Target	21-3	false	4	_	_	
+21-3	1333-1350	ställningstagande	*	_	_	_	_	_	_	
+21-4	1351-1354	kan	_	_	_	_	_	_	_	
+21-5	1355-1358	man	_	_	_	_	_	_	_	
+21-6	1359-1364	tycka	_	_	_	_	_	_	_	
+21-7	1364-1365	.	_	_	_	_	_	_	_	
+
+#Text=Kommunens skattebetalare ska inte göda bolag som lever på skattemedel, men som själva gör allt för att undvika att betala skatt.
+22-1	1366-1375	Kommunens	_	_	_	_	_	_	_	
+22-2	1376-1390	skattebetalare	_	_	_	_	_	_	_	
+22-3	1391-1394	ska	_	_	_	_	_	_	_	
+22-4	1395-1399	inte	_	_	_	_	_	_	_	
+22-5	1400-1404	göda	_	_	_	_	_	_	_	
+22-6	1405-1410	bolag	_	_	_	_	_	_	_	
+22-7	1411-1414	som	_	_	_	_	_	_	_	
+22-8	1415-1420	lever	_	_	_	_	_	_	_	
+22-9	1421-1423	på	_	_	_	_	_	_	_	
+22-10	1424-1435	skattemedel	_	_	_	_	_	_	_	
+22-11	1435-1436	,	_	_	_	_	_	_	_	
+22-12	1437-1440	men	_	_	_	_	_	_	_	
+22-13	1441-1444	som	_	_	_	_	_	_	_	
+22-14	1445-1451	själva	_	_	_	_	_	_	_	
+22-15	1452-1455	gör	_	_	_	_	_	_	_	
+22-16	1456-1460	allt	_	_	_	_	_	_	_	
+22-17	1461-1464	för	_	_	_	_	_	_	_	
+22-18	1465-1468	att	_	_	_	_	_	_	_	
+22-19	1469-1476	undvika	_	_	_	_	_	_	_	
+22-20	1477-1480	att	_	_	_	_	_	_	_	
+22-21	1481-1487	betala	_	_	_	_	_	_	_	
+22-22	1488-1493	skatt	_	_	_	_	_	_	_	
+22-23	1493-1494	.	_	_	_	false	2	_	_	
+
+#Text=Seriösa företag som betalar skatt ska rimligtvis inte konkurreras ut av skattesmitare som kan lägga ett lägre anbud.
+23-1	1495-1502	Seriösa	_	_	_	_	_	_	_	
+23-2	1503-1510	företag	_	_	_	_	_	_	_	
+23-3	1511-1514	som	_	_	_	_	_	_	_	
+23-4	1515-1522	betalar	_	_	_	_	_	_	_	
+23-5	1523-1528	skatt	_	_	_	_	_	_	_	
+23-6	1529-1532	ska	_	_	_	_	_	_	_	
+23-7	1533-1543	rimligtvis	_	_	_	_	_	_	_	
+23-8	1544-1548	inte	_	_	_	_	_	_	_	
+23-9	1549-1560	konkurreras	_	_	_	_	_	_	_	
+23-10	1561-1563	ut	_	_	_	_	_	_	_	
+23-11	1564-1566	av	_	_	_	_	_	_	_	
+23-12	1567-1580	skattesmitare	*	Target	23-12	false	2	_	_	
+23-13	1581-1584	som	_	_	_	_	_	_	_	
+23-14	1585-1588	kan	_	_	_	_	_	_	_	
+23-15	1589-1594	lägga	_	_	_	_	_	_	_	
+23-16	1595-1598	ett	_	_	_	_	_	_	_	
+23-17	1599-1604	lägre	_	_	_	_	_	_	_	
+23-18	1605-1610	anbud	_	_	_	_	_	_	_	
+23-19	1610-1611	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=75 procent av landets kommunstyrelseordförande har i en undersökning av Dagens Samhälle sagt att de inte vill att riskkapitalbolag registrerade i skatteparadis ska få bedriva vård, skola och omsorg.
+24-1	1613-1614	#	_	_	_	_	_	_	_	
+24-2	1614-1615	P	_	_	_	_	_	_	_	
+24-3	1616-1619	IMM	_	_	_	_	_	_	_	
+24-4	1619-1620	.	_	_	_	_	_	_	_	
+24-5	1622-1624	75	_	_	_	_	_	_	_	
+24-6	1625-1632	procent	_	_	_	_	_	_	_	
+24-7	1633-1635	av	_	_	_	_	_	_	_	
+24-8	1636-1643	landets	_	_	_	_	_	_	_	
+24-9	1644-1668	kommunstyrelseordförande	_	_	_	_	_	_	_	
+24-10	1669-1672	har	_	_	_	_	_	_	_	
+24-11	1673-1674	i	_	_	_	_	_	_	_	
+24-12	1675-1677	en	_	_	_	_	_	_	_	
+24-13	1678-1690	undersökning	_	_	_	_	_	_	_	
+24-14	1691-1693	av	_	_	_	_	_	_	_	
+24-15	1694-1700	Dagens	_	_	_	_	_	_	_	
+24-16	1701-1709	Samhälle	_	_	_	_	_	_	_	
+24-17	1710-1714	sagt	_	_	_	_	_	_	_	
+24-18	1715-1718	att	_	_	_	_	_	_	_	
+24-19	1719-1721	de	_	_	_	_	_	_	_	
+24-20	1722-1726	inte	_	_	_	_	_	_	_	
+24-21	1727-1731	vill	_	_	_	_	_	_	_	
+24-22	1732-1735	att	_	_	_	_	_	_	_	
+24-23	1736-1752	riskkapitalbolag	_	_	_	_	_	_	_	
+24-24	1753-1765	registrerade	_	_	_	_	_	_	_	
+24-25	1766-1767	i	_	_	_	_	_	_	_	
+24-26	1768-1781	skatteparadis	_	_	_	_	_	_	_	
+24-27	1782-1785	ska	_	_	_	_	_	_	_	
+24-28	1786-1788	få	_	_	_	_	_	_	_	
+24-29	1789-1796	bedriva	_	_	_	_	_	_	_	
+24-30	1797-1801	vård	_	_	_	_	_	_	_	
+24-31	1801-1802	,	_	_	_	_	_	_	_	
+24-32	1803-1808	skola	_	_	_	_	_	_	_	
+24-33	1809-1812	och	_	_	_	_	_	_	_	
+24-34	1813-1819	omsorg	_	_	_	_	_	_	_	
+24-35	1819-1820	.	_	_	_	_	_	_	_	
+
+#Text=Icke desto mindre ifrågasätts kommunernas beslut med hänvisning till Lagen om offentlig upphandling.
+25-1	1821-1825	Icke	_	_	_	_	_	_	_	
+25-2	1826-1831	desto	_	_	_	_	_	_	_	
+25-3	1832-1838	mindre	_	_	_	_	_	_	_	
+25-4	1839-1850	ifrågasätts	_	_	_	_	_	_	_	
+25-5	1851-1862	kommunernas	_	_	_	_	_	_	_	
+25-6	1863-1869	beslut	_	_	_	_	_	_	_	
+25-7	1870-1873	med	_	_	_	_	_	_	_	
+25-8	1874-1884	hänvisning	_	_	_	_	_	_	_	
+25-9	1885-1889	till	_	_	_	_	_	_	_	
+25-10	1890-1895	Lagen	_	_	_	_	_	_	_	
+25-11	1896-1898	om	_	_	_	_	_	_	_	
+25-12	1899-1908	offentlig	_	_	_	_	_	_	_	
+25-13	1909-1920	upphandling	_	_	_	_	_	_	_	
+25-14	1920-1921	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+26-1	1923-1924	#	_	_	_	_	_	_	_	
+26-2	1924-1925	P	_	_	_	_	_	_	_	
+26-3	1926-1929	IMM	_	_	_	_	_	_	_	
+26-4	1929-1930	.	_	_	_	_	_	_	_	
+
+#Text=Finanskrisen, skuldkrisen och skattekrisen är ett resultat av politiska beslut om avreglering av bankernas kreditgivning och de finansiella marknaderna, av kapitalets fria rörlighet på den globala marknaden.
+27-1	1932-1944	Finanskrisen	_	_	_	_	_	_	_	
+27-2	1944-1945	,	_	_	_	_	_	_	_	
+27-3	1946-1957	skuldkrisen	_	_	_	_	_	_	_	
+27-4	1958-1961	och	_	_	_	_	_	_	_	
+27-5	1962-1974	skattekrisen	_	_	_	_	_	_	_	
+27-6	1975-1977	är	_	_	_	_	_	_	_	
+27-7	1978-1981	ett	_	_	_	_	_	_	_	
+27-8	1982-1990	resultat	_	_	_	_	_	_	_	
+27-9	1991-1993	av	_	_	_	_	_	_	_	
+27-10	1994-2003	politiska	*[13]	_	_	_	_	_	_	
+27-11	2004-2010	beslut	*[13]	_	_	_	_	_	_	
+27-12	2011-2013	om	*[13]	_	_	_	_	_	_	
+27-13	2014-2025	avreglering	*[13]	_	_	_	_	_	_	
+27-14	2026-2028	av	*[13]	_	_	_	_	_	_	
+27-15	2029-2038	bankernas	*[13]	_	_	_	_	_	_	
+27-16	2039-2052	kreditgivning	*[13]	_	_	_	_	_	_	
+27-17	2053-2056	och	*[13]	_	_	_	_	_	_	
+27-18	2057-2059	de	*[13]	_	_	_	_	_	_	
+27-19	2060-2071	finansiella	*[13]	_	_	_	_	_	_	
+27-20	2072-2083	marknaderna	*[13]	_	_	_	_	_	_	
+27-21	2083-2084	,	*[13]	_	_	_	_	_	_	
+27-22	2085-2087	av	*[13]	_	_	_	_	_	_	
+27-23	2088-2098	kapitalets	*[13]	_	_	_	_	_	_	
+27-24	2099-2103	fria	*[13]	_	_	_	_	_	_	
+27-25	2104-2113	rörlighet	*[13]	_	_	_	_	_	_	
+27-26	2114-2116	på	*[13]	_	_	_	_	_	_	
+27-27	2117-2120	den	*[13]	_	_	_	_	_	_	
+27-28	2121-2128	globala	*[13]	_	_	_	_	_	_	
+27-29	2129-2138	marknaden	*[13]	_	_	_	_	_	_	
+27-30	2138-2139	.	_	_	_	_	_	_	_	
+
+#Text=Med nya demokratiska beslut kan den destruktiva utveckling vi nu befinner oss i vändas.
+28-1	2140-2143	Med	_	_	_	_	_	_	_	
+28-2	2144-2147	nya	_	_	_	_	_	_	_	
+28-3	2148-2160	demokratiska	_	_	_	_	_	_	_	
+28-4	2161-2167	beslut	_	_	_	_	_	_	_	
+28-5	2168-2171	kan	_	_	_	_	_	_	_	
+28-6	2172-2175	den	_	_	_	_	_	_	_	
+28-7	2176-2187	destruktiva	_	Target	28-8	false	2	_	_	
+28-8	2188-2198	utveckling	*	_	_	_	_	_	_	
+28-9	2199-2201	vi	_	_	_	_	_	_	_	
+28-10	2202-2204	nu	_	_	_	_	_	_	_	
+28-11	2205-2213	befinner	_	_	_	_	_	_	_	
+28-12	2214-2217	oss	_	_	_	_	_	_	_	
+28-13	2218-2219	i	_	_	_	_	_	_	_	
+28-14	2220-2226	vändas	_	_	_	_	_	_	_	
+28-15	2226-2227	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2229-2230	#	_	_	_	_	_	_	_	
+29-2	2230-2231	P	_	_	_	_	_	_	_	
+29-3	2232-2235	IMM	_	_	_	_	_	_	_	
+29-4	2235-2236	.	_	_	_	_	_	_	_	
+
+#Text=Internationella initiativ till att stävja denna plundring av våra samhällen har tagits, men urvattnats.
+30-1	2238-2253	Internationella	_	_	_	_	_	_	_	
+30-2	2254-2263	initiativ	_	_	_	_	_	_	_	
+30-3	2264-2268	till	_	_	_	_	_	_	_	
+30-4	2269-2272	att	_	_	_	_	_	_	_	
+30-5	2273-2279	stävja	_	Target	30-6[14]	false	2	_	_	
+30-6	2280-2285	denna	*[14]	_	_	_	_	_	_	
+30-7	2286-2295	plundring	*[14]	Target	27-10[13]	false	2	_	_	
+30-8	2296-2298	av	*[14]	_	_	_	_	_	_	
+30-9	2299-2303	våra	*[14]	_	_	_	_	_	_	
+30-10	2304-2313	samhällen	*[14]	_	_	_	_	_	_	
+30-11	2314-2317	har	_	_	_	_	_	_	_	
+30-12	2318-2324	tagits	_	_	_	_	_	_	_	
+30-13	2324-2325	,	_	_	_	_	_	_	_	
+30-14	2326-2329	men	_	_	_	_	_	_	_	
+30-15	2330-2340	urvattnats	_	_	_	_	_	_	_	
+30-16	2340-2341	.	_	_	_	_	_	_	_	
+
+#Text=Skatteparadis som tidigare fanns på OECD:s svarta lista har blivit vitlistade sedan de skrivit på ett antal bilaterala informationsutbytesavtal.
+31-1	2342-2355	Skatteparadis	_	_	_	_	_	_	_	
+31-2	2356-2359	som	_	_	_	_	_	_	_	
+31-3	2360-2368	tidigare	_	_	_	_	_	_	_	
+31-4	2369-2374	fanns	_	_	_	_	_	_	_	
+31-5	2375-2377	på	_	_	_	_	_	_	_	
+31-6	2378-2382	OECD	_	_	_	_	_	_	_	
+31-7	2382-2383	:	_	_	_	_	_	_	_	
+31-8	2383-2384	s	_	_	_	_	_	_	_	
+31-9	2385-2391	svarta	_	_	_	_	_	_	_	
+31-10	2392-2397	lista	_	_	_	_	_	_	_	
+31-11	2398-2401	har	_	_	_	_	_	_	_	
+31-12	2402-2408	blivit	_	_	_	_	_	_	_	
+31-13	2409-2419	vitlistade	_	_	_	_	_	_	_	
+31-14	2420-2425	sedan	_	_	_	_	_	_	_	
+31-15	2426-2428	de	_	_	_	_	_	_	_	
+31-16	2429-2436	skrivit	_	_	_	_	_	_	_	
+31-17	2437-2439	på	_	_	_	_	_	_	_	
+31-18	2440-2443	ett	_	_	_	_	_	_	_	
+31-19	2444-2449	antal	_	_	_	_	_	_	_	
+31-20	2450-2460	bilaterala	_	_	_	_	_	_	_	
+31-21	2461-2485	informationsutbytesavtal	_	_	_	_	_	_	_	
+31-22	2485-2486	.	_	_	_	_	_	_	_	
+
+#Text=Skattemyndigheterna har på så sätt fått en liten chans att tränga igenom skatteparadisens sekretess, men för att kunna få tillgång till information krävs att man kan bevisa misstanke om brott, vilket kan vara svårt – just i brist på information.
+32-1	2487-2506	Skattemyndigheterna	_	_	_	_	_	_	_	
+32-2	2507-2510	har	_	_	_	_	_	_	_	
+32-3	2511-2513	på	_	_	_	_	_	_	_	
+32-4	2514-2516	så	_	_	_	_	_	_	_	
+32-5	2517-2521	sätt	_	_	_	_	_	_	_	
+32-6	2522-2526	fått	_	_	_	_	_	_	_	
+32-7	2527-2529	en	_	_	_	_	_	_	_	
+32-8	2530-2535	liten	_	_	_	_	_	_	_	
+32-9	2536-2541	chans	_	_	_	_	_	_	_	
+32-10	2542-2545	att	_	_	_	_	_	_	_	
+32-11	2546-2552	tränga	_	_	_	_	_	_	_	
+32-12	2553-2559	igenom	_	_	_	_	_	_	_	
+32-13	2560-2576	skatteparadisens	_	_	_	_	_	_	_	
+32-14	2577-2586	sekretess	_	_	_	_	_	_	_	
+32-15	2586-2587	,	_	_	_	_	_	_	_	
+32-16	2588-2591	men	_	_	_	_	_	_	_	
+32-17	2592-2595	för	_	_	_	_	_	_	_	
+32-18	2596-2599	att	_	_	_	_	_	_	_	
+32-19	2600-2605	kunna	_	_	_	_	_	_	_	
+32-20	2606-2608	få	_	_	_	_	_	_	_	
+32-21	2609-2617	tillgång	_	_	_	_	_	_	_	
+32-22	2618-2622	till	_	_	_	_	_	_	_	
+32-23	2623-2634	information	_	_	_	_	_	_	_	
+32-24	2635-2640	krävs	_	_	_	_	_	_	_	
+32-25	2641-2644	att	_	_	_	_	_	_	_	
+32-26	2645-2648	man	_	_	_	_	_	_	_	
+32-27	2649-2652	kan	_	_	_	_	_	_	_	
+32-28	2653-2659	bevisa	_	_	_	_	_	_	_	
+32-29	2660-2669	misstanke	_	_	_	_	_	_	_	
+32-30	2670-2672	om	_	_	_	_	_	_	_	
+32-31	2673-2678	brott	_	_	_	_	_	_	_	
+32-32	2678-2679	,	_	_	_	_	_	_	_	
+32-33	2680-2686	vilket	_	_	_	_	_	_	_	
+32-34	2687-2690	kan	_	_	_	_	_	_	_	
+32-35	2691-2695	vara	_	_	_	_	_	_	_	
+32-36	2696-2701	svårt	_	_	_	_	_	_	_	
+32-37	2702-2703	–	_	_	_	_	_	_	_	
+32-38	2704-2708	just	_	_	_	_	_	_	_	
+32-39	2709-2710	i	_	_	_	_	_	_	_	
+32-40	2711-2716	brist	_	_	_	_	_	_	_	
+32-41	2717-2719	på	_	_	_	_	_	_	_	
+32-42	2720-2731	information	_	_	_	_	_	_	_	
+32-43	2731-2732	.	_	_	_	_	_	_	_	
+
+#Text=Därför behövs ett multilateralt avtal om automatiskt informationsutbyte, så att skatteparadisen verkligen tvingas lägga alla papper på bordet och informationen blir tillgänglig för alla.
+33-1	2733-2739	Därför	_	_	_	_	_	_	_	
+33-2	2740-2746	behövs	_	_	_	_	_	_	_	
+33-3	2747-2750	ett	_	_	_	_	_	_	_	
+33-4	2751-2764	multilateralt	_	_	_	_	_	_	_	
+33-5	2765-2770	avtal	_	_	_	_	_	_	_	
+33-6	2771-2773	om	_	_	_	_	_	_	_	
+33-7	2774-2785	automatiskt	_	_	_	_	_	_	_	
+33-8	2786-2804	informationsutbyte	_	_	_	_	_	_	_	
+33-9	2804-2805	,	_	_	_	_	_	_	_	
+33-10	2806-2808	så	_	_	_	_	_	_	_	
+33-11	2809-2812	att	_	_	_	_	_	_	_	
+33-12	2813-2828	skatteparadisen	*	_	_	_	_	_	_	
+33-13	2829-2838	verkligen	_	_	_	_	_	_	_	
+33-14	2839-2846	tvingas	_	Target;Source	33-15[15];33-12	false	2	_	_	
+33-15	2847-2852	lägga	*[15]	_	_	_	_	_	_	
+33-16	2853-2857	alla	*[15]	_	_	_	_	_	_	
+33-17	2858-2864	papper	*[15]	_	_	_	_	_	_	
+33-18	2865-2867	på	*[15]	_	_	_	_	_	_	
+33-19	2868-2874	bordet	*[15]	_	_	_	_	_	_	
+33-20	2875-2878	och	_	_	_	_	_	_	_	
+33-21	2879-2892	informationen	_	_	_	_	_	_	_	
+33-22	2893-2897	blir	_	_	_	_	_	_	_	
+33-23	2898-2909	tillgänglig	_	_	_	_	_	_	_	
+33-24	2910-2913	för	_	_	_	_	_	_	_	
+33-25	2914-2918	alla	_	_	_	_	_	_	_	
+33-26	2918-2919	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2921-2922	#	_	_	_	_	_	_	_	
+34-2	2922-2923	P	_	_	_	_	_	_	_	
+34-3	2924-2927	IMM	_	_	_	_	_	_	_	
+34-4	2927-2928	.	_	_	_	_	_	_	_	
+
+#Text=Anders Borg har lovat att skärpa reglerna för räntesnurror.
+35-1	2930-2936	Anders	_	_	_	_	_	_	_	
+35-2	2937-2941	Borg	_	_	_	_	_	_	_	
+35-3	2942-2945	har	_	_	_	_	_	_	_	
+35-4	2946-2951	lovat	_	_	_	_	_	_	_	
+35-5	2952-2955	att	_	_	_	_	_	_	_	
+35-6	2956-2962	skärpa	_	_	_	_	_	_	_	
+35-7	2963-2971	reglerna	_	_	_	_	_	_	_	
+35-8	2972-2975	för	_	_	_	_	_	_	_	
+35-9	2976-2988	räntesnurror	_	_	_	_	_	_	_	
+35-10	2988-2989	.	_	_	_	_	_	_	_	
+
+#Text=I gengäld vill han sänka bolagsskatten.
+36-1	2990-2991	I	_	_	_	_	_	_	_	
+36-2	2992-2999	gengäld	_	_	_	_	_	_	_	
+36-3	3000-3004	vill	_	_	_	_	_	_	_	
+36-4	3005-3008	han	_	_	_	_	_	_	_	
+36-5	3009-3014	sänka	_	_	_	_	_	_	_	
+36-6	3015-3028	bolagsskatten	_	_	_	_	_	_	_	
+36-7	3028-3029	.	_	_	_	_	_	_	_	
+
+#Text=Problemet med skatteflykt via skatteparadisen är därmed ingalunda löst.
+37-1	3030-3039	Problemet	_	_	_	_	_	_	_	
+37-2	3040-3043	med	_	_	_	_	_	_	_	
+37-3	3044-3055	skatteflykt	_	_	_	_	_	_	_	
+37-4	3056-3059	via	_	_	_	_	_	_	_	
+37-5	3060-3075	skatteparadisen	_	_	_	_	_	_	_	
+37-6	3076-3078	är	_	_	_	_	_	_	_	
+37-7	3079-3085	därmed	_	_	_	_	_	_	_	
+37-8	3086-3095	ingalunda	_	_	_	_	_	_	_	
+37-9	3096-3100	löst	_	_	_	_	_	_	_	
+37-10	3100-3101	.	_	_	_	false	2	_	_	
+
+#Text=En annan populär metod är att via internprissättning manipulera bokföringen vid internhandel inom samma koncern för att på så sätt föra över vinsten obeskattad till skatteparadis.
+38-1	3102-3104	En	_	_	_	_	_	_	_	
+38-2	3105-3110	annan	_	_	_	_	_	_	_	
+38-3	3111-3118	populär	_	_	_	_	_	_	_	
+38-4	3119-3124	metod	_	_	_	_	_	_	_	
+38-5	3125-3127	är	_	_	_	_	_	_	_	
+38-6	3128-3131	att	_	_	_	_	_	_	_	
+38-7	3132-3135	via	_	_	_	_	_	_	_	
+38-8	3136-3154	internprissättning	_	_	_	_	_	_	_	
+38-9	3155-3165	manipulera	_	_	_	_	_	_	_	
+38-10	3166-3177	bokföringen	_	_	_	_	_	_	_	
+38-11	3178-3181	vid	_	_	_	_	_	_	_	
+38-12	3182-3194	internhandel	_	_	_	_	_	_	_	
+38-13	3195-3199	inom	_	_	_	_	_	_	_	
+38-14	3200-3205	samma	_	_	_	_	_	_	_	
+38-15	3206-3213	koncern	_	_	_	_	_	_	_	
+38-16	3214-3217	för	_	_	_	_	_	_	_	
+38-17	3218-3221	att	_	_	_	_	_	_	_	
+38-18	3222-3224	på	_	_	_	_	_	_	_	
+38-19	3225-3227	så	_	_	_	_	_	_	_	
+38-20	3228-3232	sätt	_	_	_	_	_	_	_	
+38-21	3233-3237	föra	_	_	_	_	_	_	_	
+38-22	3238-3242	över	_	_	_	_	_	_	_	
+38-23	3243-3250	vinsten	_	_	_	_	_	_	_	
+38-24	3251-3261	obeskattad	_	_	_	_	_	_	_	
+38-25	3262-3266	till	_	_	_	_	_	_	_	
+38-26	3267-3280	skatteparadis	_	_	_	_	_	_	_	
+38-27	3280-3281	.	_	_	_	_	_	_	_	
+
+#Text=Detta är ingen detaljfråga.
+39-1	3282-3287	Detta	_	_	_	_	_	_	_	
+39-2	3288-3290	är	_	_	_	_	_	_	_	
+39-3	3291-3296	ingen	_	_	_	_	_	_	_	
+39-4	3297-3308	detaljfråga	_	_	_	_	_	_	_	
+39-5	3308-3309	.	_	_	_	_	_	_	_	
+
+#Text=Enligt OECD utgörs 60 procent av världshandeln av internhandel inom transnationella koncerner.
+40-1	3310-3316	Enligt	_	_	_	_	_	_	_	
+40-2	3317-3321	OECD	_	_	_	_	_	_	_	
+40-3	3322-3328	utgörs	_	_	_	_	_	_	_	
+40-4	3329-3331	60	_	_	_	_	_	_	_	
+40-5	3332-3339	procent	_	_	_	_	_	_	_	
+40-6	3340-3342	av	_	_	_	_	_	_	_	
+40-7	3343-3356	världshandeln	_	_	_	_	_	_	_	
+40-8	3357-3359	av	_	_	_	_	_	_	_	
+40-9	3360-3372	internhandel	_	_	_	_	_	_	_	
+40-10	3373-3377	inom	_	_	_	_	_	_	_	
+40-11	3378-3393	transnationella	_	_	_	_	_	_	_	
+40-12	3394-3403	koncerner	_	_	_	_	_	_	_	
+40-13	3403-3404	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3406-3407	#	_	_	_	_	_	_	_	
+41-2	3407-3408	P	_	_	_	_	_	_	_	
+41-3	3409-3412	IMM	_	_	_	_	_	_	_	
+41-4	3412-3413	.	_	_	_	_	_	_	_	
+
+#Text=Genom att sänka bolagsskatten gör Anders Borg en märklig kullerbytta.
+42-1	3415-3420	Genom	_	_	_	_	_	_	_	
+42-2	3421-3424	att	*[16]	_	_	_	_	_	_	
+42-3	3425-3430	sänka	*[16]	_	_	_	_	_	_	
+42-4	3431-3444	bolagsskatten	*[16]	_	_	_	_	_	_	
+42-5	3445-3448	gör	_	_	_	false	2	_	_	
+42-6	3449-3455	Anders	*[17]	_	_	_	_	_	_	
+42-7	3456-3460	Borg	*[17]	_	_	_	_	_	_	
+42-8	3461-3463	en	_	Target;Target[6]	42-6[17];42-2[16]	false[6]	2[6]	42-5[0_6]	_	
+42-9	3464-3471	märklig	_	Target;Target[6]	42-6[17];42-2[16]	false[6]	2[6]	_	_	
+42-10	3472-3483	kullerbytta	_	Target;Target[6]	42-6[17];42-2[16]	false[6]	2[6]	_	_	
+42-11	3483-3484	.	_	_	_	_	_	_	_	
+
+#Text=De skatteintäkter som hittills förlorats via räntesnurrorna, kommer i stället att förloras via den sänkta bolagsskatten.
+43-1	3485-3487	De	_	_	_	_	_	_	_	
+43-2	3488-3502	skatteintäkter	_	_	_	_	_	_	_	
+43-3	3503-3506	som	_	_	_	_	_	_	_	
+43-4	3507-3515	hittills	_	_	_	_	_	_	_	
+43-5	3516-3525	förlorats	_	_	_	_	_	_	_	
+43-6	3526-3529	via	_	_	_	_	_	_	_	
+43-7	3530-3544	räntesnurrorna	_	_	_	_	_	_	_	
+43-8	3544-3545	,	_	_	_	_	_	_	_	
+43-9	3546-3552	kommer	_	_	_	_	_	_	_	
+43-10	3553-3554	i	_	_	_	_	_	_	_	
+43-11	3555-3562	stället	_	_	_	_	_	_	_	
+43-12	3563-3566	att	_	_	_	_	_	_	_	
+43-13	3567-3575	förloras	_	_	_	_	_	_	_	
+43-14	3576-3579	via	_	_	_	_	_	_	_	
+43-15	3580-3583	den	_	_	_	_	_	_	_	
+43-16	3584-3590	sänkta	_	_	_	_	_	_	_	
+43-17	3591-3604	bolagsskatten	_	_	_	_	_	_	_	
+43-18	3604-3605	.	_	_	_	_	_	_	_	
+
+#Text=Han förstärker detrace to the bottom som pågår idag.
+44-1	3606-3609	Han	_	_	_	_	_	_	_	
+44-2	3610-3620	förstärker	_	_	_	_	_	_	_	
+44-3	3621-3628	detrace	_	_	_	_	_	_	_	
+44-4	3629-3631	to	_	_	_	_	_	_	_	
+44-5	3632-3635	the	_	_	_	_	_	_	_	
+44-6	3636-3642	bottom	_	_	_	_	_	_	_	
+44-7	3643-3646	som	_	_	_	_	_	_	_	
+44-8	3647-3652	pågår	_	_	_	_	_	_	_	
+44-9	3653-3657	idag	_	_	_	_	_	_	_	
+44-10	3657-3658	.	_	_	_	false	2	_	_	
+
+#Text=Världens länder borde samarbeta i stället för att ägna sig åt skattekonkurrens som bara ytterligare underminerar den ekonomiska basen för vår gemensamma välfärd.
+45-1	3659-3667	Världens	_	_	_	_	_	_	_	
+45-2	3668-3674	länder	_	_	_	_	_	_	_	
+45-3	3675-3680	borde	_	_	_	_	_	_	_	
+45-4	3681-3690	samarbeta	_	_	_	_	_	_	_	
+45-5	3691-3692	i	_	_	_	_	_	_	_	
+45-6	3693-3700	stället	_	_	_	_	_	_	_	
+45-7	3701-3704	för	_	_	_	_	_	_	_	
+45-8	3705-3708	att	_	_	_	_	_	_	_	
+45-9	3709-3713	ägna	_	_	_	_	_	_	_	
+45-10	3714-3717	sig	_	_	_	_	_	_	_	
+45-11	3718-3720	åt	_	_	_	_	_	_	_	
+45-12	3721-3737	skattekonkurrens	_	_	_	_	_	_	_	
+45-13	3738-3741	som	_	_	_	_	_	_	_	
+45-14	3742-3746	bara	_	_	_	_	_	_	_	
+45-15	3747-3758	ytterligare	_	_	_	_	_	_	_	
+45-16	3759-3771	underminerar	_	_	_	_	_	_	_	
+45-17	3772-3775	den	_	_	_	_	_	_	_	
+45-18	3776-3786	ekonomiska	_	_	_	_	_	_	_	
+45-19	3787-3792	basen	_	_	_	_	_	_	_	
+45-20	3793-3796	för	_	_	_	_	_	_	_	
+45-21	3797-3800	vår	_	_	_	_	_	_	_	
+45-22	3801-3811	gemensamma	_	_	_	_	_	_	_	
+45-23	3812-3819	välfärd	_	_	_	_	_	_	_	
+45-24	3819-3820	.	_	_	_	_	_	_	_	
+
+#Text=I alla länder.
+46-1	3821-3822	I	_	_	_	_	_	_	_	
+46-2	3823-3827	alla	_	_	_	_	_	_	_	
+46-3	3828-3834	länder	_	_	_	_	_	_	_	
+46-4	3834-3835	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3837-3838	#	_	_	_	_	_	_	_	
+47-2	3838-3839	P	_	_	_	_	_	_	_	
+47-3	3840-3843	IMM	_	_	_	_	_	_	_	
+47-4	3843-3844	.	_	_	_	_	_	_	_	
+
+#Text=Det finns fler anledningar att misstro Anders Borgs ambitioner att sätta stopp för riskkapitalbolagens härjningar.
+48-1	3846-3849	Det	_	_	_	_	_	_	_	
+48-2	3850-3855	finns	_	_	_	false	2	_	_	
+48-3	3856-3860	fler	_	_	_	_	_	_	_	
+48-4	3861-3872	anledningar	_	Target[7]	48-7[18]	false[7]	2[7]	48-2[0_7]	_	
+48-5	3873-3876	att	_	Target[7]	48-7[18]	false[7]	2[7]	_	_	
+48-6	3877-3884	misstro	_	Target[7]	48-7[18]	false[7]	2[7]	_	_	
+48-7	3885-3891	Anders	*[18]	_	_	_	_	_	_	
+48-8	3892-3897	Borgs	*[18]	_	_	_	_	_	_	
+48-9	3898-3908	ambitioner	*[18]	_	_	_	_	_	_	
+48-10	3909-3912	att	*[18]	_	_	_	_	_	_	
+48-11	3913-3918	sätta	*[18]	_	_	_	_	_	_	
+48-12	3919-3924	stopp	*[18]	_	_	_	_	_	_	
+48-13	3925-3928	för	*[18]	_	_	_	_	_	_	
+48-14	3929-3948	riskkapitalbolagens	*[18]	_	_	_	_	_	_	
+48-15	3949-3959	härjningar	*[18]	_	_	_	_	_	_	
+48-16	3959-3960	.	_	_	_	_	_	_	_	
+
+#Text=Henrik Borelius, direktör i Attendo som liksom Carema är känd för skandaler inom äldreomsorgen och för att ha sitt säte i skatteparadis, är regeringens rådgivare i välfärdsfrågor.
+49-1	3961-3967	Henrik	_	_	_	_	_	_	_	
+49-2	3968-3976	Borelius	_	_	_	_	_	_	_	
+49-3	3976-3977	,	_	_	_	_	_	_	_	
+49-4	3978-3986	direktör	_	_	_	_	_	_	_	
+49-5	3987-3988	i	_	_	_	_	_	_	_	
+49-6	3989-3996	Attendo	_	_	_	_	_	_	_	
+49-7	3997-4000	som	_	_	_	_	_	_	_	
+49-8	4001-4007	liksom	_	_	_	_	_	_	_	
+49-9	4008-4014	Carema	_	_	_	_	_	_	_	
+49-10	4015-4017	är	_	_	_	_	_	_	_	
+49-11	4018-4022	känd	_	_	_	_	_	_	_	
+49-12	4023-4026	för	_	_	_	_	_	_	_	
+49-13	4027-4036	skandaler	_	_	_	_	_	_	_	
+49-14	4037-4041	inom	_	_	_	_	_	_	_	
+49-15	4042-4055	äldreomsorgen	_	_	_	_	_	_	_	
+49-16	4056-4059	och	_	_	_	_	_	_	_	
+49-17	4060-4063	för	_	_	_	_	_	_	_	
+49-18	4064-4067	att	_	_	_	_	_	_	_	
+49-19	4068-4070	ha	_	_	_	_	_	_	_	
+49-20	4071-4075	sitt	_	_	_	_	_	_	_	
+49-21	4076-4080	säte	_	_	_	_	_	_	_	
+49-22	4081-4082	i	_	_	_	_	_	_	_	
+49-23	4083-4096	skatteparadis	_	_	_	_	_	_	_	
+49-24	4096-4097	,	_	_	_	_	_	_	_	
+49-25	4098-4100	är	_	_	_	_	_	_	_	
+49-26	4101-4112	regeringens	_	_	_	_	_	_	_	
+49-27	4113-4122	rådgivare	_	_	_	_	_	_	_	
+49-28	4123-4124	i	_	_	_	_	_	_	_	
+49-29	4125-4139	välfärdsfrågor	_	_	_	_	_	_	_	
+49-30	4139-4140	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+50-1	4142-4143	#	_	_	_	_	_	_	_	
+50-2	4143-4144	P	_	_	_	_	_	_	_	
+50-3	4145-4148	IMM	_	_	_	_	_	_	_	
+50-4	4148-4149	.	_	_	_	_	_	_	_	
+
+#Text=I väntan på globala överenskommelser som kan sätta stopp för skatteparadisen och skatteflykten reagerar nu aktiva medborgare och lokalpolitiker i flera länder.
+51-1	4151-4152	I	_	_	_	_	_	_	_	
+51-2	4153-4159	väntan	_	_	_	_	_	_	_	
+51-3	4160-4162	på	_	_	_	_	_	_	_	
+51-4	4163-4170	globala	_	_	_	_	_	_	_	
+51-5	4171-4187	överenskommelser	_	_	_	_	_	_	_	
+51-6	4188-4191	som	_	_	_	_	_	_	_	
+51-7	4192-4195	kan	_	_	_	_	_	_	_	
+51-8	4196-4201	sätta	_	_	_	_	_	_	_	
+51-9	4202-4207	stopp	_	_	_	_	_	_	_	
+51-10	4208-4211	för	_	_	_	_	_	_	_	
+51-11	4212-4227	skatteparadisen	_	_	_	_	_	_	_	
+51-12	4228-4231	och	_	_	_	_	_	_	_	
+51-13	4232-4245	skatteflykten	_	_	_	_	_	_	_	
+51-14	4246-4254	reagerar	_	_	_	_	_	_	_	
+51-15	4255-4257	nu	_	_	_	_	_	_	_	
+51-16	4258-4264	aktiva	_	_	_	_	_	_	_	
+51-17	4265-4275	medborgare	_	_	_	_	_	_	_	
+51-18	4276-4279	och	_	_	_	_	_	_	_	
+51-19	4280-4294	lokalpolitiker	_	_	_	_	_	_	_	
+51-20	4295-4296	i	_	_	_	_	_	_	_	
+51-21	4297-4302	flera	_	_	_	_	_	_	_	
+51-22	4303-4309	länder	_	_	_	_	_	_	_	
+51-23	4309-4310	.	_	_	_	_	_	_	_	
+
+#Text=En enhällig kommunstyrelse i Helsingfors beslöt nyligen att "motverka skatteparadis och att undvika samarbete med företag med kopplingar till skatteparadis".
+52-1	4311-4313	En	_	_	_	_	_	_	_	
+52-2	4314-4322	enhällig	_	_	_	_	_	_	_	
+52-3	4323-4337	kommunstyrelse	_	_	_	_	_	_	_	
+52-4	4338-4339	i	_	_	_	_	_	_	_	
+52-5	4340-4351	Helsingfors	_	_	_	_	_	_	_	
+52-6	4352-4358	beslöt	_	_	_	_	_	_	_	
+52-7	4359-4366	nyligen	_	_	_	_	_	_	_	
+52-8	4367-4370	att	_	_	_	_	_	_	_	
+52-9	4371-4372	"	_	_	_	_	_	_	_	
+52-10	4372-4380	motverka	_	_	_	_	_	_	_	
+52-11	4381-4394	skatteparadis	_	_	_	_	_	_	_	
+52-12	4395-4398	och	_	_	_	_	_	_	_	
+52-13	4399-4402	att	_	_	_	_	_	_	_	
+52-14	4403-4410	undvika	_	_	_	_	_	_	_	
+52-15	4411-4420	samarbete	_	_	_	_	_	_	_	
+52-16	4421-4424	med	_	_	_	_	_	_	_	
+52-17	4425-4432	företag	_	_	_	_	_	_	_	
+52-18	4433-4436	med	_	_	_	_	_	_	_	
+52-19	4437-4447	kopplingar	_	_	_	_	_	_	_	
+52-20	4448-4452	till	_	_	_	_	_	_	_	
+52-21	4453-4466	skatteparadis	_	_	_	_	_	_	_	
+52-22	4466-4467	"	_	_	_	_	_	_	_	
+52-23	4467-4468	.	_	_	_	_	_	_	_	
+
+#Text=I Norge är Ulstein kommun först ut med ett beslut om att inte handla med företag som är registrerade i skatteparadis.
+53-1	4469-4470	I	_	_	_	_	_	_	_	
+53-2	4471-4476	Norge	_	_	_	_	_	_	_	
+53-3	4477-4479	är	_	_	_	_	_	_	_	
+53-4	4480-4487	Ulstein	_	_	_	_	_	_	_	
+53-5	4488-4494	kommun	_	_	_	_	_	_	_	
+53-6	4495-4500	först	_	_	_	_	_	_	_	
+53-7	4501-4503	ut	_	_	_	_	_	_	_	
+53-8	4504-4507	med	_	_	_	_	_	_	_	
+53-9	4508-4511	ett	_	_	_	_	_	_	_	
+53-10	4512-4518	beslut	_	_	_	_	_	_	_	
+53-11	4519-4521	om	_	_	_	_	_	_	_	
+53-12	4522-4525	att	_	_	_	_	_	_	_	
+53-13	4526-4530	inte	_	_	_	_	_	_	_	
+53-14	4531-4537	handla	_	_	_	_	_	_	_	
+53-15	4538-4541	med	_	_	_	_	_	_	_	
+53-16	4542-4549	företag	_	_	_	_	_	_	_	
+53-17	4550-4553	som	_	_	_	_	_	_	_	
+53-18	4554-4556	är	_	_	_	_	_	_	_	
+53-19	4557-4569	registrerade	_	_	_	_	_	_	_	
+53-20	4570-4571	i	_	_	_	_	_	_	_	
+53-21	4572-4585	skatteparadis	_	_	_	_	_	_	_	
+53-22	4585-4586	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	4588-4589	#	_	_	_	_	_	_	_	
+54-2	4589-4590	P	_	_	_	_	_	_	_	
+54-3	4591-4594	IMM	_	_	_	_	_	_	_	
+54-4	4594-4595	.	_	_	_	_	_	_	_	
+
+#Text=Efter en kampanj av aktiva medborgare har nu den norske finansministern lovat att införa krav på land-för-land-rapportering i Norge, det vill säga att företagen ska redovisa omsättning, vinst och hur mycket skatt som betalas i varje land där de har verksamhet, i syfte att stävja skattefiffel.
+55-1	4597-4602	Efter	_	_	_	_	_	_	_	
+55-2	4603-4605	en	_	_	_	_	_	_	_	
+55-3	4606-4613	kampanj	_	_	_	_	_	_	_	
+55-4	4614-4616	av	_	_	_	_	_	_	_	
+55-5	4617-4623	aktiva	_	_	_	_	_	_	_	
+55-6	4624-4634	medborgare	_	_	_	_	_	_	_	
+55-7	4635-4638	har	_	_	_	_	_	_	_	
+55-8	4639-4641	nu	_	_	_	_	_	_	_	
+55-9	4642-4645	den	_	_	_	_	_	_	_	
+55-10	4646-4652	norske	_	_	_	_	_	_	_	
+55-11	4653-4668	finansministern	_	_	_	_	_	_	_	
+55-12	4669-4674	lovat	_	_	_	_	_	_	_	
+55-13	4675-4678	att	_	_	_	_	_	_	_	
+55-14	4679-4685	införa	_	_	_	_	_	_	_	
+55-15	4686-4690	krav	_	_	_	_	_	_	_	
+55-16	4691-4693	på	_	_	_	_	_	_	_	
+55-17	4694-4720	land-för-land-rapportering	_	_	_	_	_	_	_	
+55-18	4721-4722	i	_	_	_	_	_	_	_	
+55-19	4723-4728	Norge	_	_	_	_	_	_	_	
+55-20	4728-4729	,	_	_	_	_	_	_	_	
+55-21	4730-4733	det	_	_	_	_	_	_	_	
+55-22	4734-4738	vill	_	_	_	_	_	_	_	
+55-23	4739-4743	säga	_	_	_	_	_	_	_	
+55-24	4744-4747	att	_	_	_	_	_	_	_	
+55-25	4748-4757	företagen	_	_	_	_	_	_	_	
+55-26	4758-4761	ska	_	_	_	_	_	_	_	
+55-27	4762-4770	redovisa	_	_	_	_	_	_	_	
+55-28	4771-4781	omsättning	_	_	_	_	_	_	_	
+55-29	4781-4782	,	_	_	_	_	_	_	_	
+55-30	4783-4788	vinst	_	_	_	_	_	_	_	
+55-31	4789-4792	och	_	_	_	_	_	_	_	
+55-32	4793-4796	hur	_	_	_	_	_	_	_	
+55-33	4797-4803	mycket	_	_	_	_	_	_	_	
+55-34	4804-4809	skatt	_	_	_	_	_	_	_	
+55-35	4810-4813	som	_	_	_	_	_	_	_	
+55-36	4814-4821	betalas	_	_	_	_	_	_	_	
+55-37	4822-4823	i	_	_	_	_	_	_	_	
+55-38	4824-4829	varje	_	_	_	_	_	_	_	
+55-39	4830-4834	land	_	_	_	_	_	_	_	
+55-40	4835-4838	där	_	_	_	_	_	_	_	
+55-41	4839-4841	de	_	_	_	_	_	_	_	
+55-42	4842-4845	har	_	_	_	_	_	_	_	
+55-43	4846-4856	verksamhet	_	_	_	_	_	_	_	
+55-44	4856-4857	,	_	_	_	_	_	_	_	
+55-45	4858-4859	i	_	_	_	_	_	_	_	
+55-46	4860-4865	syfte	_	_	_	_	_	_	_	
+55-47	4866-4869	att	_	_	_	_	_	_	_	
+55-48	4870-4876	stävja	_	_	_	_	_	_	_	
+55-49	4877-4889	skattefiffel	_	_	_	_	_	_	_	
+55-50	4889-4890	.	_	_	_	_	_	_	_	
+
+#Text=Det kan vi såklart göra även i Sverige, Anders Borg!.
+56-1	4891-4894	Det	_	_	_	_	_	_	_	
+56-2	4895-4898	kan	_	_	_	_	_	_	_	
+56-3	4899-4901	vi	_	_	_	_	_	_	_	
+56-4	4902-4909	såklart	_	_	_	_	_	_	_	
+56-5	4910-4914	göra	_	_	_	_	_	_	_	
+56-6	4915-4919	även	_	_	_	_	_	_	_	
+56-7	4920-4921	i	_	_	_	_	_	_	_	
+56-8	4922-4929	Sverige	_	_	_	_	_	_	_	
+56-9	4929-4930	,	_	_	_	_	_	_	_	
+56-10	4931-4937	Anders	_	_	_	_	_	_	_	
+56-11	4938-4942	Borg	_	_	_	_	_	_	_	
+56-12	4942-4943	!	_	_	_	_	_	_	_	
+56-13	4943-4944	.	_	_	_	false	4	_	_	
+
+#Text=#P IMM.
+57-1	4946-4947	#	_	_	_	_	_	_	_	
+57-2	4947-4948	P	_	_	_	_	_	_	_	
+57-3	4949-4952	IMM	_	_	_	_	_	_	_	
+57-4	4952-4953	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är att skatteparadis utnyttjas för skatteflykt, inte att kommuner försöker sätta stopp för det.
+58-1	4955-4964	Problemet	_	Target[8]	58-3[19]	false[8]	2[8]	_	_	
+58-2	4965-4967	är	_	Target[8]	58-3[19]	false[8]	2[8]	_	_	
+58-3	4968-4971	att	*[19]	_	_	_	_	_	_	
+58-4	4972-4985	skatteparadis	*[19]	_	_	_	_	_	_	
+58-5	4986-4995	utnyttjas	*[19]	_	_	_	_	_	_	
+58-6	4996-4999	för	*[19]	_	_	_	_	_	_	
+58-7	5000-5011	skatteflykt	*[19]|*[20]	_	_	_	_	_	58-16[0_20]	
+58-8	5011-5012	,	_	_	_	_	_	_	_	
+58-9	5013-5017	inte	_	_	_	_	_	_	_	
+58-10	5018-5021	att	_	_	_	_	_	_	_	
+58-11	5022-5030	kommuner	*	_	_	_	_	_	_	
+58-12	5031-5039	försöker	_	_	_	_	_	_	_	
+58-13	5040-5045	sätta	_	Target;Source[9]	58-16;58-11	false[9]	2[9]	_	_	
+58-14	5046-5051	stopp	_	Target;Source[9]	58-16;58-11	false[9]	2[9]	_	_	
+58-15	5052-5055	för	_	Target;Source[9]	58-16;58-11	false[9]	2[9]	_	_	
+58-16	5056-5059	det	*	_	_	_	_	_	_	
+58-17	5059-5060	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	5062-5063	#	_	_	_	_	_	_	_	
+59-2	5063-5064	P	_	_	_	_	_	_	_	
+59-3	5065-5068	IMM	_	_	_	_	_	_	_	
+59-4	5068-5069	.	_	_	_	_	_	_	_	
+
+#Text=GUNILLA ANDERSSON.
+60-1	5071-5078	GUNILLA	_	_	_	_	_	_	_	
+60-2	5079-5088	ANDERSSON	_	_	_	_	_	_	_	
+60-3	5088-5089	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	5091-5092	#	_	_	_	_	_	_	_	
+61-2	5092-5093	P	_	_	_	_	_	_	_	
+61-3	5094-5097	IMM	_	_	_	_	_	_	_	
+61-4	5097-5098	.	_	_	_	_	_	_	_	
+
+#Text=Attac Malmö.
+62-1	5100-5105	Attac	_	_	_	_	_	_	_	
+62-2	5106-5111	Malmö	_	_	_	_	_	_	_	
+62-3	5111-5112	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	5114-5115	#	_	_	_	_	_	_	_	
+63-2	5115-5116	P	_	_	_	_	_	_	_	
+63-3	5117-5120	IMM	_	_	_	_	_	_	_	
+63-4	5120-5121	.	_	_	_	_	_	_	_	
+
+#Text=CARINA NILSSON (S).
+64-1	5123-5129	CARINA	_	_	_	_	_	_	_	
+64-2	5130-5137	NILSSON	_	_	_	_	_	_	_	
+64-3	5138-5139	(	_	_	_	_	_	_	_	
+64-4	5139-5140	S	_	_	_	_	_	_	_	
+64-5	5140-5141	)	_	_	_	_	_	_	_	
+64-6	5141-5142	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5144-5145	#	_	_	_	_	_	_	_	
+65-2	5145-5146	P	_	_	_	_	_	_	_	
+65-3	5147-5150	IMM	_	_	_	_	_	_	_	
+65-4	5150-5151	.	_	_	_	_	_	_	_	
+
+#Text=kommunalråd i Malmö.
+66-1	5153-5164	kommunalråd	_	_	_	_	_	_	_	
+66-2	5165-5166	i	_	_	_	_	_	_	_	
+66-3	5167-5172	Malmö	_	_	_	_	_	_	_	
+66-4	5172-5173	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	5175-5176	#	_	_	_	_	_	_	_	
+67-2	5176-5177	P	_	_	_	_	_	_	_	
+67-3	5178-5181	IMM	_	_	_	_	_	_	_	
+67-4	5181-5182	.	_	_	_	_	_	_	_	
+
+#Text=BERTIL DAHL (V).
+68-1	5184-5190	BERTIL	_	_	_	_	_	_	_	
+68-2	5191-5195	DAHL	_	_	_	_	_	_	_	
+68-3	5196-5197	(	_	_	_	_	_	_	_	
+68-4	5197-5198	V	_	_	_	_	_	_	_	
+68-5	5198-5199	)	_	_	_	_	_	_	_	
+68-6	5199-5200	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	5202-5203	#	_	_	_	_	_	_	_	
+69-2	5203-5204	P	_	_	_	_	_	_	_	
+69-3	5205-5208	IMM	_	_	_	_	_	_	_	
+69-4	5208-5209	.	_	_	_	_	_	_	_	
+
+#Text=kommunalråd i Kalmar.
+70-1	5211-5222	kommunalråd	_	_	_	_	_	_	_	
+70-2	5223-5224	i	_	_	_	_	_	_	_	
+70-3	5225-5231	Kalmar	_	_	_	_	_	_	_	
+70-4	5231-5232	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	5234-5235	#	_	_	_	_	_	_	_	
+71-2	5235-5236	P	_	_	_	_	_	_	_	
+71-3	5237-5240	IMM	_	_	_	_	_	_	_	
+71-4	5240-5241	.	_	_	_	_	_	_	_	
+
+#Text=ANNIKA LILLEMETS (MP).
+72-1	5243-5249	ANNIKA	_	_	_	_	_	_	_	
+72-2	5250-5259	LILLEMETS	_	_	_	_	_	_	_	
+72-3	5260-5261	(	_	_	_	_	_	_	_	
+72-4	5261-5263	MP	_	_	_	_	_	_	_	
+72-5	5263-5264	)	_	_	_	_	_	_	_	
+72-6	5264-5265	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	5267-5268	#	_	_	_	_	_	_	_	
+73-2	5268-5269	P	_	_	_	_	_	_	_	
+73-3	5270-5273	IMM	_	_	_	_	_	_	_	
+73-4	5273-5274	.	_	_	_	_	_	_	_	
+
+#Text=riksdagsledamot.
+74-1	5276-5291	riksdagsledamot	_	_	_	_	_	_	_	
+74-2	5291-5292	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	5294-5295	#	_	_	_	_	_	_	_	
+75-2	5295-5296	P	_	_	_	_	_	_	_	
+75-3	5297-5300	IMM	_	_	_	_	_	_	_	
+75-4	5300-5301	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+76-1	5303-5311	Redaktör	_	_	_	_	_	_	_	
+76-2	5311-5312	:	_	_	_	_	_	_	_	
+76-3	5313-5319	Carina	_	_	_	_	_	_	_	
+76-4	5320-5328	Stensson	_	_	_	_	_	_	_	
+76-5	5328-5329	,	_	_	_	_	_	_	_	
+76-6	5330-5340	Biträdande	_	_	_	_	_	_	_	
+76-7	5341-5349	redaktör	_	_	_	_	_	_	_	
+76-8	5349-5350	:	_	_	_	_	_	_	_	
+76-9	5351-5356	Björn	_	_	_	_	_	_	_	
+76-10	5357-5363	Jorner	_	_	_	_	_	_	_	
+76-11	5363-5364	,	_	_	_	_	_	_	_	
+76-12	5365-5369	Mejl	_	_	_	_	_	_	_	
+76-13	5369-5370	:	_	_	_	_	_	_	_	
+76-14	5371-5377	debatt	_	_	_	_	_	_	_	
+76-15	5377-5378	@	_	_	_	_	_	_	_	
+76-16	5378-5384	svd.se	_	_	_	_	_	_	_	
+76-17	5384-5385	,	_	_	_	_	_	_	_	
+76-18	5386-5399	Telefonnummer	_	_	_	_	_	_	_	
+76-19	5399-5400	:	_	_	_	_	_	_	_	
+76-20	5401-5403	08	_	_	_	_	_	_	_	
+76-21	5403-5404	-	_	_	_	_	_	_	_	
+76-22	5404-5410	135149	_	_	_	_	_	_	_	
+76-23	5410-5411	,	_	_	_	_	_	_	_	
+76-24	5412-5419	Twitter	_	_	_	_	_	_	_	
+76-25	5419-5420	:	_	_	_	_	_	_	_	
+76-26	5421-5422	@	_	_	_	_	_	_	_	
+76-27	5422-5431	SvDDebatt	_	_	_	_	_	_	_	
+76-28	5431-5432	,	_	_	_	_	_	_	_	
+76-29	5433-5441	Facebook	_	_	_	_	_	_	_	
+76-30	5441-5442	:	_	_	_	_	_	_	_	
+76-31	5443-5446	SvD	_	_	_	_	_	_	_	
+76-32	5447-5453	Debatt	_	_	_	_	_	_	_	
+76-33	5453-5454	.	_	_	_	_	_	_	_	

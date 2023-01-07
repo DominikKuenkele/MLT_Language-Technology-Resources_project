@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Satsningen på invandring fortsätter – Sjöstedt vill satsa 44 miljarder till.
+3-1	18-28	Satsningen	_	_	_	_	_	_	
+3-2	29-31	på	_	_	_	_	_	_	
+3-3	32-42	invandring	_	_	_	_	_	_	
+3-4	43-53	fortsätter	_	_	_	_	_	_	
+3-5	54-55	–	_	_	_	_	_	_	
+3-6	56-64	Sjöstedt	*	_	_	_	_	_	
+3-7	65-69	vill	_	Target;Source	3-8[5];3-6	false	4	_	
+3-8	70-75	satsa	*[5]	_	_	_	_	_	
+3-9	76-78	44	*[5]	_	_	_	_	_	
+3-10	79-88	miljarder	*[5]	_	_	_	_	_	
+3-11	89-93	till	*[5]	_	_	_	_	_	
+3-12	93-94	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	96-97	#	_	_	_	_	_	_	
+4-2	97-98	P	_	_	_	_	_	_	
+4-3	99-102	IMM	_	_	_	false	2	_	
+4-4	102-103	.	_	_	_	_	_	_	
+
+#Text=Vänsterpartiets ledare Jonas Sjöstedt tycker inte att tillräckligt av skattebetalarnas pengar har satsats på utanförskapsområden = invandrarområden = svarta hål, så nu föreslår Sjöstedt en ytterligare satsning på 44 miljarder.
+5-1	105-120	Vänsterpartiets	*[6]	_	_	_	_	_	
+5-2	121-127	ledare	*[6]	_	_	_	_	_	
+5-3	128-133	Jonas	*[6]	_	_	_	_	_	
+5-4	134-142	Sjöstedt	*[6]	_	_	_	_	_	
+5-5	143-149	tycker	_	_	_	_	_	_	
+5-6	150-154	inte	_	_	_	_	_	_	
+5-7	155-158	att	_	_	_	_	_	_	
+5-8	159-171	tillräckligt	_	_	_	_	_	_	
+5-9	172-174	av	_	_	_	_	_	_	
+5-10	175-191	skattebetalarnas	_	_	_	_	_	_	
+5-11	192-198	pengar	_	_	_	_	_	_	
+5-12	199-202	har	_	_	_	_	_	_	
+5-13	203-210	satsats	_	_	_	_	_	_	
+5-14	211-213	på	_	_	_	_	_	_	
+5-15	214-233	utanförskapsområden	*[7]	_	_	_	_	_	
+5-16	234-235	=	*[7]	_	_	_	_	_	
+5-17	236-252	invandrarområden	*[7]	_	_	_	_	_	
+5-18	253-254	=	_	_	_	_	_	_	
+5-19	255-261	svarta	_	Source;Target[1]	5-32;5-15[7]	false[1]	1[1]	_	
+5-20	262-265	hål	_	Source;Target[1]	5-32;5-15[7]	false[1]	1[1]	_	
+5-21	265-266	,	_	_	_	_	_	_	
+5-22	267-269	så	_	_	_	_	_	_	
+5-23	270-272	nu	_	_	_	_	_	_	
+5-24	273-281	föreslår	_	Source;Target	5-25;5-26[8]	false	4	_	
+5-25	282-290	Sjöstedt	*	_	_	_	_	_	
+5-26	291-293	en	*[8]	_	_	_	_	_	
+5-27	294-305	ytterligare	*[8]	_	_	_	_	_	
+5-28	306-314	satsning	*[8]	_	_	_	_	_	
+5-29	315-317	på	*[8]	_	_	_	_	_	
+5-30	318-320	44	*[8]	_	_	_	_	_	
+5-31	321-330	miljarder	*[8]	_	_	_	_	_	
+5-32	330-331	.	*	Target	5-1[6]	false	2	_	
+
+#Text=Som vanligt blir det arbetande svenskar (och en del invandrare) som får betala notan.
+6-1	332-335	Som	_	_	_	_	_	_	
+6-2	336-343	vanligt	_	_	_	_	_	_	
+6-3	344-348	blir	_	_	_	_	_	_	
+6-4	349-352	det	_	_	_	_	_	_	
+6-5	353-362	arbetande	_	_	_	_	_	_	
+6-6	363-371	svenskar	_	_	_	_	_	_	
+6-7	372-373	(	_	_	_	_	_	_	
+6-8	373-376	och	_	_	_	_	_	_	
+6-9	377-379	en	_	_	_	_	_	_	
+6-10	380-383	del	_	_	_	_	_	_	
+6-11	384-394	invandrare	_	_	_	_	_	_	
+6-12	394-395	)	_	_	_	_	_	_	
+6-13	396-399	som	_	_	_	_	_	_	
+6-14	400-403	får	_	_	_	_	_	_	
+6-15	404-410	betala	_	_	_	_	_	_	
+6-16	411-416	notan	_	_	_	_	_	_	
+6-17	416-417	.	_	_	_	false	2	_	
+
+#Text=#P IMM.
+7-1	419-420	#	_	_	_	_	_	_	
+7-2	420-421	P	_	_	_	_	_	_	
+7-3	422-425	IMM	_	_	_	_	_	_	
+7-4	425-426	.	_	_	_	_	_	_	
+
+#Text=Är det rätt att fortsätta pumpa in pengar i dessa områden?
+8-1	428-430	Är	_	Target[2]	8-4[9]	false[2]	3[2]	_	
+8-2	431-434	det	_	Target[2]	8-4[9]	false[2]	3[2]	_	
+8-3	435-439	rätt	_	Target[2]	8-4[9]	false[2]	3[2]	_	
+8-4	440-443	att	*[9]	_	_	_	_	_	
+8-5	444-453	fortsätta	*[9]	_	_	_	_	_	
+8-6	454-459	pumpa	*[9]	_	_	_	_	_	
+8-7	460-462	in	*[9]	_	_	_	_	_	
+8-8	463-469	pengar	*[9]	_	_	_	_	_	
+8-9	470-471	i	*[9]	_	_	_	_	_	
+8-10	472-477	dessa	*[9]	_	_	_	_	_	
+8-11	478-485	områden	*[9]	_	_	_	_	_	
+8-12	485-486	?	_	_	_	_	_	_	
+
+#Text=Hur ställer sig svenska skattebetalare till Sjöstedts förslag.
+9-1	487-490	Hur	_	_	_	_	_	_	
+9-2	491-498	ställer	_	_	_	_	_	_	
+9-3	499-502	sig	_	_	_	_	_	_	
+9-4	503-510	svenska	_	_	_	_	_	_	
+9-5	511-525	skattebetalare	_	_	_	_	_	_	
+9-6	526-530	till	_	_	_	_	_	_	
+9-7	531-540	Sjöstedts	_	_	_	_	_	_	
+9-8	541-548	förslag	_	_	_	_	_	_	
+9-9	548-549	.	_	_	_	_	_	_	
+
+#Text=Är det inte på tiden att Sjöstedt och V slutar att slösa på andras pengar?.
+10-1	550-552	Är	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-2	553-556	det	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-3	557-561	inte	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-4	562-564	på	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-5	565-570	tiden	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-6	571-574	att	_	Target[3]	10-7[10]	false[3]	1[3]	_	
+10-7	575-583	Sjöstedt	*[10]|*[11]	_	_	_	_	_	
+10-8	584-587	och	*[10]|*[11]	_	_	_	_	_	
+10-9	588-589	V	*[10]|*[11]	_	_	_	_	_	
+10-10	590-596	slutar	_	Target[4]	10-7[11]	false[4]	1[4]	10-1[3_4]	
+10-11	597-600	att	_	Target[4]	10-7[11]	false[4]	1[4]	_	
+10-12	601-606	slösa	_	Target[4]	10-7[11]	false[4]	1[4]	_	
+10-13	607-609	på	_	Target[4]	10-7[11]	false[4]	1[4]	_	
+10-14	610-616	andras	_	Target[4]	10-7[11]	false[4]	1[4]	_	
+10-15	617-623	pengar	_	Target[4]	10-7[11]	false[4]	1[4]	_	
+10-16	623-624	?	_	_	_	_	_	_	
+10-17	624-625	.	_	_	_	_	_	_	

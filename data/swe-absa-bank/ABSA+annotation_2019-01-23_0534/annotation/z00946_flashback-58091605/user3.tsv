@@ -1,0 +1,190 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Kommunen efterlyser stugor till nyanlända.
+3-1	18-26	Kommunen	*[3]	_	_	_	_	5-3[0_3]	
+3-2	27-37	efterlyser	*[3]	_	_	_	_	_	
+3-3	38-44	stugor	*[3]	_	_	_	_	_	
+3-4	45-49	till	*[3]	_	_	_	_	_	
+3-5	50-59	nyanlända	*[3]	_	_	_	_	_	
+3-6	59-60	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	_	_	_	
+4-4	68-69	.	_	_	_	_	_	_	
+
+#Text=Kan inte detta vara ett bra initiativ?
+5-1	71-74	Kan	_	_	_	_	_	_	
+5-2	75-79	inte	_	_	_	_	_	_	
+5-3	80-85	detta	*	_	_	_	_	_	
+5-4	86-90	vara	_	_	_	_	_	_	
+5-5	91-94	ett	_	_	_	_	_	_	
+5-6	95-98	bra	_	Target[1]	5-3	false[1]	4[1]	_	
+5-7	99-108	initiativ	_	Target[1]	5-3	false[1]	4[1]	_	
+5-8	108-109	?	_	_	_	_	_	_	
+
+#Text=Win win liksom.
+6-1	110-113	Win	_	_	_	_	_	_	
+6-2	114-117	win	_	_	_	_	_	_	
+6-3	118-124	liksom	_	_	_	_	_	_	
+6-4	124-125	.	_	_	_	_	_	_	
+
+#Text=Nyanlända får bo naturnära och integreras samtidigt löses ju boendekrisen i ett svep för nya svenskar.
+7-1	126-135	Nyanlända	*	_	_	_	_	_	
+7-2	136-139	får	_	Target[2]	7-1	false[2]	4[2]	_	
+7-3	140-142	bo	_	Target[2]	7-1	false[2]	4[2]	_	
+7-4	143-152	naturnära	_	Target[2]	7-1	false[2]	4[2]	_	
+7-5	153-156	och	_	Target[2]	7-1	false[2]	4[2]	_	
+7-6	157-167	integreras	_	Target[2]	7-1	false[2]	4[2]	_	
+7-7	168-177	samtidigt	_	_	_	_	_	_	
+7-8	178-183	löses	_	_	_	_	_	_	
+7-9	184-186	ju	_	_	_	_	_	_	
+7-10	187-199	boendekrisen	_	_	_	_	_	_	
+7-11	200-201	i	_	_	_	_	_	_	
+7-12	202-205	ett	_	_	_	_	_	_	
+7-13	206-210	svep	_	_	_	_	_	_	
+7-14	211-214	för	_	_	_	_	_	_	
+7-15	215-218	nya	_	_	_	_	_	_	
+7-16	219-227	svenskar	_	_	_	_	_	_	
+7-17	227-228	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	230-231	#	_	_	_	_	_	_	
+8-2	231-232	P	_	_	_	_	_	_	
+8-3	233-236	IMM	_	_	_	_	_	_	
+8-4	236-237	.	_	_	_	_	_	_	
+
+#Text=Står stugan tom i vinter?
+9-1	239-240		_	_	_	_	_	_	
+9-2	240-244	Står	_	_	_	_	_	_	
+9-3	245-251	stugan	_	_	_	_	_	_	
+9-4	252-255	tom	_	_	_	_	_	_	
+9-5	256-257	i	_	_	_	_	_	_	
+9-6	258-264	vinter	_	_	_	_	_	_	
+9-7	264-265	?	_	_	_	_	_	_	
+
+#Text= Den till synes försynta frågan har i dagarna skickats ut till mängder av innehavare av fritidshus och andra bostäder i Norrtälje.
+10-1	265-266		_	_	_	_	_	_	
+10-2	267-270	Den	_	_	_	_	_	_	
+10-3	271-275	till	_	_	_	_	_	_	
+10-4	276-281	synes	_	_	_	_	_	_	
+10-5	282-290	försynta	_	_	_	_	_	_	
+10-6	291-297	frågan	_	_	_	_	_	_	
+10-7	298-301	har	_	_	_	_	_	_	
+10-8	302-303	i	_	_	_	_	_	_	
+10-9	304-311	dagarna	_	_	_	_	_	_	
+10-10	312-320	skickats	_	_	_	_	_	_	
+10-11	321-323	ut	_	_	_	_	_	_	
+10-12	324-328	till	_	_	_	_	_	_	
+10-13	329-336	mängder	_	_	_	_	_	_	
+10-14	337-339	av	_	_	_	_	_	_	
+10-15	340-350	innehavare	_	_	_	_	_	_	
+10-16	351-353	av	_	_	_	_	_	_	
+10-17	354-364	fritidshus	_	_	_	_	_	_	
+10-18	365-368	och	_	_	_	_	_	_	
+10-19	369-374	andra	_	_	_	_	_	_	
+10-20	375-383	bostäder	_	_	_	_	_	_	
+10-21	384-385	i	_	_	_	_	_	_	
+10-22	386-395	Norrtälje	_	_	_	_	_	_	
+10-23	395-396	.	_	_	_	_	_	_	
+
+#Text=Förklaringen: kommunen måste få fatt i fler bostäder åt bland annat flyktingar och ungdomar. / SVD.
+11-1	397-409	Förklaringen	_	_	_	_	_	_	
+11-2	409-410	:	_	_	_	_	_	_	
+11-3	411-419	kommunen	_	_	_	_	_	_	
+11-4	420-425	måste	_	_	_	_	_	_	
+11-5	426-428	få	_	_	_	_	_	_	
+11-6	429-433	fatt	_	_	_	_	_	_	
+11-7	434-435	i	_	_	_	_	_	_	
+11-8	436-440	fler	_	_	_	_	_	_	
+11-9	441-449	bostäder	_	_	_	_	_	_	
+11-10	450-452	åt	_	_	_	_	_	_	
+11-11	453-458	bland	_	_	_	_	_	_	
+11-12	459-464	annat	_	_	_	_	_	_	
+11-13	465-475	flyktingar	_	_	_	_	_	_	
+11-14	476-479	och	_	_	_	_	_	_	
+11-15	480-488	ungdomar	_	_	_	_	_	_	
+11-16	488-489	.	_	_	_	_	_	_	
+11-17	490-491	/	_	_	_	_	_	_	
+11-18	492-495	SVD	_	_	_	_	_	_	
+11-19	495-496	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	498-499	#	_	_	_	_	_	_	
+12-2	499-500	P	_	_	_	_	_	_	
+12-3	501-504	IMM	_	_	_	_	_	_	
+12-4	504-505	.	_	_	_	_	_	_	
+
+#Text=Vi måste ju hjälpas åt och när stugorna ändå står tomma så är det en bra lösning eller?.
+13-1	507-509	Vi	_	_	_	_	_	_	
+13-2	510-515	måste	_	_	_	_	_	_	
+13-3	516-518	ju	_	_	_	_	_	_	
+13-4	519-526	hjälpas	_	_	_	_	_	_	
+13-5	527-529	åt	_	_	_	_	_	_	
+13-6	530-533	och	_	_	_	_	_	_	
+13-7	534-537	när	_	_	_	_	_	_	
+13-8	538-546	stugorna	_	_	_	_	_	_	
+13-9	547-551	ändå	_	_	_	_	_	_	
+13-10	552-556	står	_	_	_	_	_	_	
+13-11	557-562	tomma	_	_	_	_	_	_	
+13-12	563-565	så	_	_	_	_	_	_	
+13-13	566-568	är	_	_	_	_	_	_	
+13-14	569-572	det	_	_	_	_	_	_	
+13-15	573-575	en	_	_	_	_	_	_	
+13-16	576-579	bra	_	_	_	_	_	_	
+13-17	580-587	lösning	_	_	_	_	_	_	
+13-18	588-593	eller	_	_	_	_	_	_	
+13-19	593-594	?	_	_	_	_	_	_	
+13-20	594-595	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	597-598	#	_	_	_	_	_	_	
+14-2	598-599	P	_	_	_	_	_	_	
+14-3	600-603	IMM	_	_	_	_	_	_	
+14-4	603-604	.	_	_	_	_	_	_	
+
+#Text=Samtidigt som stugägarna inte bor där underhåller dom nyanlända stugorna skicket så inga rör fryser igen.
+15-1	606-615	Samtidigt	_	_	_	_	_	_	
+15-2	616-619	som	_	_	_	_	_	_	
+15-3	620-630	stugägarna	_	_	_	_	_	_	
+15-4	631-635	inte	_	_	_	_	_	_	
+15-5	636-639	bor	_	_	_	_	_	_	
+15-6	640-643	där	_	_	_	_	_	_	
+15-7	644-655	underhåller	_	_	_	_	_	_	
+15-8	656-659	dom	_	_	_	_	_	_	
+15-9	660-669	nyanlända	_	_	_	_	_	_	
+15-10	670-678	stugorna	_	_	_	_	_	_	
+15-11	679-686	skicket	_	_	_	_	_	_	
+15-12	687-689	så	_	_	_	_	_	_	
+15-13	690-694	inga	_	_	_	_	_	_	
+15-14	695-698	rör	_	_	_	_	_	_	
+15-15	699-705	fryser	_	_	_	_	_	_	
+15-16	706-710	igen	_	_	_	_	_	_	
+15-17	710-711	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	713-714	#	_	_	_	_	_	_	
+16-2	714-715	P	_	_	_	_	_	_	
+16-3	716-719	IMM	_	_	_	_	_	_	
+16-4	719-720	.	_	_	_	_	_	_	
+
+#Text=Rymdkram.
+17-1	722-730	Rymdkram	_	_	_	_	_	_	
+17-2	730-731	.	_	_	_	_	_	_	

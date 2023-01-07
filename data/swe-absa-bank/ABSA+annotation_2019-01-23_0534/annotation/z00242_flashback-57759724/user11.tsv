@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	1[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	1[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+#Text=
+#Text=3-åring sprängde ihjäl sig med handgranat - ISIS-familjen tillbaka i Sverige.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	1[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	1[2]	
+2-4	15-16	.	_	_	_	_	_	
+2-5	18-19	3	_	_	_	_	_	
+2-6	19-20	-	_	_	_	_	_	
+2-7	20-25	åring	_	_	_	_	_	
+2-8	26-34	sprängde	_	_	_	_	_	
+2-9	35-40	ihjäl	_	_	_	_	_	
+2-10	41-44	sig	_	_	_	_	_	
+2-11	45-48	med	_	_	_	_	_	
+2-12	49-59	handgranat	_	_	_	_	_	
+2-13	60-61	-	_	_	_	_	_	
+2-14	62-75	ISIS-familjen	*	Target	2-14	false	1	
+2-15	76-84	tillbaka	_	_	_	_	_	
+2-16	85-86	i	_	_	_	_	_	
+2-17	87-94	Sverige	_	_	_	_	_	
+2-18	94-95	.	_	_	_	_	_	
+
+#Text=#P IMM.
+3-1	97-98	#	_	_	_	_	_	
+3-2	98-99	P	_	_	_	_	_	
+3-3	100-103	IMM	_	_	_	_	_	
+3-4	103-104	.	_	_	_	_	_	
+
+#Text=Ett treårigt barn ska ha råkat spränga sig själv när han lekte med en handgranat i Syrien.
+4-1	106-109	Ett	_	_	_	_	_	
+4-2	110-118	treårigt	_	_	_	_	_	
+4-3	119-123	barn	_	_	_	_	_	
+4-4	124-127	ska	_	_	_	_	_	
+4-5	128-130	ha	_	_	_	_	_	
+4-6	131-136	råkat	_	_	_	_	_	
+4-7	137-144	spränga	_	_	_	_	_	
+4-8	145-148	sig	_	_	_	_	_	
+4-9	149-154	själv	_	_	_	_	_	
+4-10	155-158	när	_	_	_	_	_	
+4-11	159-162	han	_	_	_	_	_	
+4-12	163-168	lekte	_	_	_	_	_	
+4-13	169-172	med	_	_	_	_	_	
+4-14	173-175	en	_	_	_	_	_	
+4-15	176-186	handgranat	_	_	_	_	_	
+4-16	187-188	i	_	_	_	_	_	
+4-17	189-195	Syrien	_	_	_	_	_	
+4-18	195-196	.	_	_	_	_	_	
+
+#Text=Som rättrogna hade familjen självklart vapen, kalasjnikovs och handgranater, i sitt hem.
+5-1	197-200	Som	_	_	_	_	_	
+5-2	201-210	rättrogna	_	Target	5-4	true	4	
+5-3	211-215	hade	_	_	_	_	_	
+5-4	216-224	familjen	*	_	_	_	_	
+5-5	225-235	självklart	_	_	_	_	_	
+5-6	236-241	vapen	_	_	_	_	_	
+5-7	241-242	,	_	_	_	_	_	
+5-8	243-255	kalasjnikovs	_	_	_	_	_	
+5-9	256-259	och	_	_	_	_	_	
+5-10	260-272	handgranater	_	_	_	_	_	
+5-11	272-273	,	_	_	_	_	_	
+5-12	274-275	i	_	_	_	_	_	
+5-13	276-280	sitt	_	_	_	_	_	
+5-14	281-284	hem	_	_	_	_	_	
+5-15	284-285	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	287-288	#	_	_	_	_	_	
+6-2	288-289	P	_	_[3]	_	false[3]	1[3]	
+6-3	290-293	IMM	_	_[3]	_	false[3]	1[3]	
+6-4	293-294	.	_	_	_	_	_	
+
+#Text=Nu har jihadist-familjen tröttnat på Syrien och åkt hem till Sverige, enligt SVT Nyheter Väst.
+7-1	296-298	Nu	_	_	_	_	_	
+7-2	299-302	har	_	_	_	_	_	
+7-3	303-320	jihadist-familjen	*[4]|*[5]	Target	7-3[4]	false	1	
+7-4	321-329	tröttnat	_	Source;Target	7-3[5];7-6	false	2	
+7-5	330-332	på	_	_	_	_	_	
+7-6	333-339	Syrien	*	_	_	_	_	
+7-7	340-343	och	_	_	_	_	_	
+7-8	344-347	åkt	_	_	_	_	_	
+7-9	348-351	hem	_	_	_	_	_	
+7-10	352-356	till	_	_	_	_	_	
+7-11	357-364	Sverige	_	_	_	_	_	
+7-12	364-365	,	_	_	_	_	_	
+7-13	366-372	enligt	_	_	_	_	_	
+7-14	373-376	SVT	_	_	_	_	_	
+7-15	377-384	Nyheter	_	_	_	_	_	
+7-16	385-389	Väst	_	_	_	_	_	
+7-17	389-390	.	_	_	_	_	_	

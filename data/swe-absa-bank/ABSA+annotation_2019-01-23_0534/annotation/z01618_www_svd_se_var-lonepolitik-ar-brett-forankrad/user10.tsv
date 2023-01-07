@@ -1,0 +1,850 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vår lönepolitik är brett förankrad.
+3-1	18-21	Vår	_	_	_	_	_	_	_	
+3-2	22-33	lönepolitik	_	_	_	_	_	_	_	
+3-3	34-36	är	_	_	_	_	_	_	_	
+3-4	37-42	brett	_	_	_	_	_	_	_	
+3-5	43-52	förankrad	_	_	_	_	_	_	_	
+3-6	52-53	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	55-56	#	_	_	_	_	_	_	_	
+4-2	56-57	P	_	_	_	_	_	_	_	
+4-3	58-61	IMM	_	_	_	_	_	_	_	
+4-4	61-62	.	_	_	_	_	_	_	_	
+
+#Text=Individuell lönesättning har inte missgynnat medlemskollektivet ekonomiskt.Lenita Granlund.
+5-1	64-75	Individuell	*[21]	_	_	_	_	_	_	
+5-2	76-88	lönesättning	*[21]	_	_	_	_	_	_	
+5-3	89-92	har	_	Source;Target[1]	5-6;5-1[21]	false[1]	3[1]	_	_	
+5-4	93-97	inte	_	Source;Target[1]	5-6;5-1[21]	false[1]	3[1]	_	_	
+5-5	98-108	missgynnat	_	Source;Target[1]	5-6;5-1[21]	false[1]	3[1]	_	_	
+5-6	109-127	medlemskollektivet	*	_	_	_	_	_	_	
+5-7	128-145	ekonomiskt.Lenita	_	_	_	_	_	_	_	
+5-8	146-154	Granlund	_	_	_	_	_	_	_	
+5-9	154-155	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	157-158	#	_	_	_	_	_	_	_	
+6-2	158-159	P	_	_	_	_	_	_	_	
+6-3	160-163	IMM	_	_	_	_	_	_	_	
+6-4	163-164	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	166-169	Det	_	_	_	_	_	_	_	
+7-2	170-173	här	_	_	_	_	_	_	_	
+7-3	174-176	är	_	_	_	_	_	_	_	
+7-4	177-179	en	_	_	_	_	_	_	_	
+7-5	180-194	argumenterande	_	_	_	_	_	_	_	
+7-6	195-199	text	_	_	_	_	_	_	_	
+7-7	200-203	med	_	_	_	_	_	_	_	
+7-8	204-209	syfte	_	_	_	_	_	_	_	
+7-9	210-213	att	_	_	_	_	_	_	_	
+7-10	214-221	påverka	_	_	_	_	_	_	_	
+7-11	221-222	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	223-232	Åsikterna	_	_	_	_	_	_	_	
+8-2	233-236	som	_	_	_	_	_	_	_	
+8-3	237-245	uttrycks	_	_	_	_	_	_	_	
+8-4	246-248	är	_	_	_	_	_	_	_	
+8-5	249-260	skribentens	_	_	_	_	_	_	_	
+8-6	261-265	egna	_	_	_	_	_	_	_	
+8-7	265-266	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	268-269	#	_	_	_	_	_	_	_	
+9-2	269-270	P	_	_	_	_	_	_	_	
+9-3	271-274	IMM	_	_	_	_	_	_	_	
+9-4	274-275	.	_	_	_	_	_	_	_	
+
+#Text=John Lapidus gör en intressant betraktelse över Kommunals lönepolitik (Brännpunkt 22/3).
+10-1	277-281	John	*[22]	_	_	_	_	_	_	
+10-2	282-289	Lapidus	*[22]	_	_	_	_	_	_	
+10-3	290-293	gör	_	Target[2]	10-1[22]	false[2]	3[2]	_	_	
+10-4	294-296	en	_	Target[2]	10-1[22]	false[2]	3[2]	_	_	
+10-5	297-307	intressant	_	Target[2]	10-1[22]	false[2]	3[2]	_	_	
+10-6	308-319	betraktelse	_	Target[2]	10-1[22]	false[2]	3[2]	_	_	
+10-7	320-324	över	_	_	_	_	_	_	_	
+10-8	325-334	Kommunals	_	_	_	_	_	_	_	
+10-9	335-346	lönepolitik	_	_	_	_	_	_	_	
+10-10	347-348	(	_	_	_	_	_	_	_	
+10-11	348-358	Brännpunkt	_	_	_	_	_	_	_	
+10-12	359-361	22	_	_	_	_	_	_	_	
+10-13	361-362	/	_	_	_	_	_	_	_	
+10-14	362-363	3	_	_	_	_	_	_	_	
+10-15	363-364	)	_	_	_	_	_	_	_	
+10-16	364-365	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är bara att grunden för hans kritik mot oss har 20 år på nacken och alltså inte längre är giltig.
+11-1	366-375	Problemet	_	Target[3]	11-4[23]	false[3]	2[3]	_	_	
+11-2	376-378	är	_	Target[3]	11-4[23]	false[3]	2[3]	_	_	
+11-3	379-383	bara	_	Target[3]	11-4[23]	false[3]	2[3]	_	_	
+11-4	384-387	att	*[23]	_	_	_	_	_	_	
+11-5	388-395	grunden	*[23]	_	_	_	_	_	_	
+11-6	396-399	för	*[23]	_	_	_	_	_	_	
+11-7	400-404	hans	*[23]	_	_	_	_	_	_	
+11-8	405-411	kritik	*[23]	_	_	_	_	_	_	
+11-9	412-415	mot	*[23]	_	_	_	_	_	_	
+11-10	416-419	oss	*[23]	_	_	_	_	_	_	
+11-11	420-423	har	*[23]	_	_	_	_	_	_	
+11-12	424-426	20	*[23]	_	_	_	_	_	_	
+11-13	427-429	år	*[23]	_	_	_	_	_	_	
+11-14	430-432	på	*[23]	_	_	_	_	_	_	
+11-15	433-439	nacken	*[23]	_	_	_	_	_	_	
+11-16	440-443	och	*[23]	_	_	_	_	_	_	
+11-17	444-450	alltså	*[23]	_	_	_	_	_	_	
+11-18	451-455	inte	*[23]	_	_	_	_	_	_	
+11-19	456-462	längre	*[23]	_	_	_	_	_	_	
+11-20	463-465	är	*[23]	_	_	_	_	_	_	
+11-21	466-472	giltig	*[23]	_	_	_	_	_	_	
+11-22	472-473	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	475-476	#	_	_	_	_	_	_	_	
+12-2	476-477	P	_	_	_	_	_	_	_	
+12-3	478-481	IMM	_	_	_	_	_	_	_	
+12-4	481-482	.	_	_	_	_	_	_	_	
+
+#Text=Lapidus resonemang utgår från det beslut om individuell lönesättning som Kommunal tog 1993.
+13-1	484-491	Lapidus	_	_	_	_	_	_	_	
+13-2	492-502	resonemang	_	_	_	_	_	_	_	
+13-3	503-508	utgår	_	_	_	_	_	_	_	
+13-4	509-513	från	_	_	_	_	_	_	_	
+13-5	514-517	det	_	_	_	_	_	_	_	
+13-6	518-524	beslut	_	_	_	_	_	_	_	
+13-7	525-527	om	_	_	_	_	_	_	_	
+13-8	528-539	individuell	_	_	_	_	_	_	_	
+13-9	540-552	lönesättning	_	_	_	_	_	_	_	
+13-10	553-556	som	_	_	_	_	_	_	_	
+13-11	557-565	Kommunal	_	_	_	_	_	_	_	
+13-12	566-569	tog	_	_	_	_	_	_	_	
+13-13	570-574	1993	_	_	_	_	_	_	_	
+13-14	574-575	.	_	_	_	_	_	_	_	
+
+#Text=Vår lönepolitik reviderades dock på kongressen 2013 – utifrån en lönepolitisk utredning som gjordes samma år och som Lapidus i sin kritik mot individuella löner verkar väl förtrogen med.
+14-1	576-579	Vår	_	_	_	_	_	_	_	
+14-2	580-591	lönepolitik	_	_	_	_	_	_	_	
+14-3	592-603	reviderades	_	_	_	_	_	_	_	
+14-4	604-608	dock	_	_	_	_	_	_	_	
+14-5	609-611	på	_	_	_	_	_	_	_	
+14-6	612-622	kongressen	_	_	_	_	_	_	_	
+14-7	623-627	2013	_	_	_	_	_	_	_	
+14-8	628-629	–	_	_	_	_	_	_	_	
+14-9	630-637	utifrån	_	_	_	_	_	_	_	
+14-10	638-640	en	_	_	_	_	_	_	_	
+14-11	641-653	lönepolitisk	_	_	_	_	_	_	_	
+14-12	654-663	utredning	_	_	_	_	_	_	_	
+14-13	664-667	som	_	_	_	_	_	_	_	
+14-14	668-675	gjordes	_	_	_	_	_	_	_	
+14-15	676-681	samma	_	_	_	_	_	_	_	
+14-16	682-684	år	_	_	_	_	_	_	_	
+14-17	685-688	och	_	_	_	_	_	_	_	
+14-18	689-692	som	_	_	_	_	_	_	_	
+14-19	693-700	Lapidus	*	_	_	_	_	_	_	
+14-20	701-702	i	_	_	_	_	_	_	_	
+14-21	703-706	sin	_	Source;Target[4]	14-19;14-24[24]	false[4]	1[4]	_	_	
+14-22	707-713	kritik	_	Source;Target[4]	14-19;14-24[24]	false[4]	1[4]	_	_	
+14-23	714-717	mot	_	Source;Target[4]	14-19;14-24[24]	false[4]	1[4]	_	_	
+14-24	718-730	individuella	*[24]	_	_	_	_	_	_	
+14-25	731-736	löner	*[24]	_	_	_	_	_	_	
+14-26	737-743	verkar	_	_	_	_	_	_	_	
+14-27	744-747	väl	_	_	_	_	_	_	_	
+14-28	748-757	förtrogen	_	_	_	_	_	_	_	
+14-29	758-761	med	_	_	_	_	_	_	_	
+14-30	761-762	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	764-765	#	_	_	_	_	_	_	_	
+15-2	765-766	P	_	_	_	_	_	_	_	
+15-3	767-770	IMM	_	_	_	_	_	_	_	
+15-4	770-771	.	_	_	_	_	_	_	_	
+
+#Text=Kommunal är tydliga med att det finns problem med hur individuella löner sätts på arbetsplatsen.
+16-1	773-781	Kommunal	*	_	_	_	_	_	_	
+16-2	782-784	är	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-3	785-792	tydliga	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-4	793-796	med	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-5	797-800	att	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-6	801-804	det	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-7	805-810	finns	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-8	811-818	problem	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-9	819-822	med	_	Target;Source[5]	16-10[25];16-1	false[5]	2[5]	_	_	
+16-10	823-826	hur	*[25]	_	_	_	_	_	_	
+16-11	827-839	individuella	*[25]	_	_	_	_	_	_	
+16-12	840-845	löner	*[25]	_	_	_	_	_	_	
+16-13	846-851	sätts	*[25]	_	_	_	_	_	_	
+16-14	852-854	på	*[25]	_	_	_	_	_	_	
+16-15	855-868	arbetsplatsen	*[25]	_	_	_	_	_	_	
+16-16	868-869	.	_	_	_	_	_	_	_	
+
+#Text=Det vill vi naturligtvis göra något åt.
+17-1	870-873	Det	_	_	_	_	_	_	_	
+17-2	874-878	vill	_	_	_	_	_	_	_	
+17-3	879-881	vi	_	_	_	_	_	_	_	
+17-4	882-894	naturligtvis	_	_	_	_	_	_	_	
+17-5	895-899	göra	_	_	_	_	_	_	_	
+17-6	900-905	något	_	_	_	_	_	_	_	
+17-7	906-908	åt	_	_	_	_	_	_	_	
+17-8	908-909	.	_	_	_	_	_	_	_	
+
+#Text=Därför fokuserar Kommunal på tre möjliga förhandlingsspår, där vi framförallt satsar mycket kraft på att komma överens med arbetsgivare om lokala lönesystem.
+18-1	910-916	Därför	_	_	_	_	_	_	_	
+18-2	917-926	fokuserar	_	_	_	_	_	_	_	
+18-3	927-935	Kommunal	_	_	_	_	_	_	_	
+18-4	936-938	på	_	_	_	_	_	_	_	
+18-5	939-942	tre	_	_	_	_	_	_	_	
+18-6	943-950	möjliga	_	_	_	_	_	_	_	
+18-7	951-967	förhandlingsspår	_	_	_	_	_	_	_	
+18-8	967-968	,	_	_	_	_	_	_	_	
+18-9	969-972	där	_	_	_	_	_	_	_	
+18-10	973-975	vi	_	_	_	_	_	_	_	
+18-11	976-987	framförallt	_	_	_	_	_	_	_	
+18-12	988-994	satsar	_	_	_	_	_	_	_	
+18-13	995-1001	mycket	_	_	_	_	_	_	_	
+18-14	1002-1007	kraft	_	_	_	_	_	_	_	
+18-15	1008-1010	på	_	_	_	_	_	_	_	
+18-16	1011-1014	att	_	_	_	_	_	_	_	
+18-17	1015-1020	komma	*[26]	Target[6]	18-17[26]	false[6]	4[6]	_	_	
+18-18	1021-1028	överens	*[26]	Target[6]	18-17[26]	false[6]	4[6]	_	_	
+18-19	1029-1032	med	_	_	_	_	_	_	_	
+18-20	1033-1045	arbetsgivare	_	_	_	_	_	_	_	
+18-21	1046-1048	om	_	_	_	_	_	_	_	
+18-22	1049-1055	lokala	_	_	_	_	_	_	_	
+18-23	1056-1066	lönesystem	_	_	_	_	_	_	_	
+18-24	1066-1067	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1069-1070	#	_	_	_	_	_	_	_	
+19-2	1070-1071	P	_	_	_	_	_	_	_	
+19-3	1072-1075	IMM	_	_	_	_	_	_	_	
+19-4	1075-1076	.	_	_	_	_	_	_	_	
+
+#Text=Vi menar att yrkesutveckling ska ge högre lön och att detta tydligare ska byggas in i våra kollektivavtal framöver, inte minst i avtalsrörelsen 2016.
+20-1	1078-1080	Vi	_	_	_	_	_	_	_	
+20-2	1081-1086	menar	_	_	_	_	_	_	_	
+20-3	1087-1090	att	_	_	_	_	_	_	_	
+20-4	1091-1106	yrkesutveckling	_	_	_	_	_	_	_	
+20-5	1107-1110	ska	_	_	_	_	_	_	_	
+20-6	1111-1113	ge	_	_	_	_	_	_	_	
+20-7	1114-1119	högre	_	_	_	_	_	_	_	
+20-8	1120-1123	lön	_	_	_	_	_	_	_	
+20-9	1124-1127	och	_	_	_	_	_	_	_	
+20-10	1128-1131	att	_	_	_	_	_	_	_	
+20-11	1132-1137	detta	_	_	_	_	_	_	_	
+20-12	1138-1147	tydligare	_	_	_	_	_	_	_	
+20-13	1148-1151	ska	_	_	_	_	_	_	_	
+20-14	1152-1158	byggas	_	_	_	_	_	_	_	
+20-15	1159-1161	in	_	_	_	_	_	_	_	
+20-16	1162-1163	i	_	_	_	_	_	_	_	
+20-17	1164-1168	våra	_	_	_	_	_	_	_	
+20-18	1169-1183	kollektivavtal	_	_	_	_	_	_	_	
+20-19	1184-1192	framöver	_	_	_	_	_	_	_	
+20-20	1192-1193	,	_	_	_	_	_	_	_	
+20-21	1194-1198	inte	_	_	_	_	_	_	_	
+20-22	1199-1204	minst	_	_	_	_	_	_	_	
+20-23	1205-1206	i	_	_	_	_	_	_	_	
+20-24	1207-1221	avtalsrörelsen	_	_	_	_	_	_	_	
+20-25	1222-1226	2016	_	_	_	_	_	_	_	
+20-26	1226-1227	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1229-1230	#	_	_	_	_	_	_	_	
+21-2	1230-1231	P	_	_	_	_	_	_	_	
+21-3	1232-1235	IMM	_	_	_	_	_	_	_	
+21-4	1235-1236	.	_	_	_	_	_	_	_	
+
+#Text=Kommunal och arbetsgivarorganisationen Almega har gjort ett partsgemensamt arbete där vi som parter är överens om att grunden för lönesättningen ska vara arbetsuppgifternas svårighetsgrad, ansvars- och kompetenskrav samt medarbetarnas sätt att uppfylla dessa krav.
+22-1	1238-1246	Kommunal	_	_	_	_	_	_	_	
+22-2	1247-1250	och	_	_	_	_	_	_	_	
+22-3	1251-1276	arbetsgivarorganisationen	_	_	_	_	_	_	_	
+22-4	1277-1283	Almega	_	_	_	_	_	_	_	
+22-5	1284-1287	har	_	_	_	_	_	_	_	
+22-6	1288-1293	gjort	_	_	_	_	_	_	_	
+22-7	1294-1297	ett	_	_	_	_	_	_	_	
+22-8	1298-1312	partsgemensamt	_	_	_	_	_	_	_	
+22-9	1313-1319	arbete	_	_	_	_	_	_	_	
+22-10	1320-1323	där	_	_	_	_	_	_	_	
+22-11	1324-1326	vi	*[27]	_	_	_	_	_	_	
+22-12	1327-1330	som	*[27]	_	_	_	_	_	_	
+22-13	1331-1337	parter	*[27]	_	_	_	_	_	_	
+22-14	1338-1340	är	_	Target;Source[7]	22-17[28];22-11[27]	false[7]	3[7]	_	_	
+22-15	1341-1348	överens	_	Target;Source[7]	22-17[28];22-11[27]	false[7]	3[7]	_	_	
+22-16	1349-1351	om	_	Target;Source[7]	22-17[28];22-11[27]	false[7]	3[7]	_	_	
+22-17	1352-1355	att	*[28]	_	_	_	_	_	_	
+22-18	1356-1363	grunden	*[28]	_	_	_	_	_	_	
+22-19	1364-1367	för	*[28]	_	_	_	_	_	_	
+22-20	1368-1382	lönesättningen	*[28]	_	_	_	_	_	_	
+22-21	1383-1386	ska	*[28]	_	_	_	_	_	_	
+22-22	1387-1391	vara	*[28]	_	_	_	_	_	_	
+22-23	1392-1410	arbetsuppgifternas	*[28]	_	_	_	_	_	_	
+22-24	1411-1425	svårighetsgrad	*[28]	_	_	_	_	_	_	
+22-25	1425-1426	,	_	_	_	_	_	_	_	
+22-26	1427-1434	ansvars	_	_	_	_	_	_	_	
+22-27	1434-1435	-	_	_	_	_	_	_	_	
+22-28	1436-1439	och	_	_	_	_	_	_	_	
+22-29	1440-1453	kompetenskrav	_	_	_	_	_	_	_	
+22-30	1454-1458	samt	_	_	_	_	_	_	_	
+22-31	1459-1472	medarbetarnas	_	_	_	_	_	_	_	
+22-32	1473-1477	sätt	_	_	_	_	_	_	_	
+22-33	1478-1481	att	_	_	_	_	_	_	_	
+22-34	1482-1490	uppfylla	_	_	_	_	_	_	_	
+22-35	1491-1496	dessa	_	_	_	_	_	_	_	
+22-36	1497-1501	krav	_	_	_	_	_	_	_	
+22-37	1501-1502	.	_	_	_	_	_	_	_	
+
+#Text=Lönesättningen ska vara sakligt motiverad och den enskilda medarbetaren ska veta på vilka grunder lönen sätts och vad medarbetaren kan göra för att höja sin lön.
+23-1	1503-1517	Lönesättningen	_	_	_	_	_	_	_	
+23-2	1518-1521	ska	_	_	_	_	_	_	_	
+23-3	1522-1526	vara	_	_	_	_	_	_	_	
+23-4	1527-1534	sakligt	_	_	_	_	_	_	_	
+23-5	1535-1544	motiverad	_	_	_	_	_	_	_	
+23-6	1545-1548	och	_	_	_	_	_	_	_	
+23-7	1549-1552	den	_	_	_	_	_	_	_	
+23-8	1553-1561	enskilda	_	_	_	_	_	_	_	
+23-9	1562-1574	medarbetaren	_	_	_	_	_	_	_	
+23-10	1575-1578	ska	_	_	_	_	_	_	_	
+23-11	1579-1583	veta	_	_	_	_	_	_	_	
+23-12	1584-1586	på	_	_	_	_	_	_	_	
+23-13	1587-1592	vilka	_	_	_	_	_	_	_	
+23-14	1593-1600	grunder	_	_	_	_	_	_	_	
+23-15	1601-1606	lönen	_	_	_	_	_	_	_	
+23-16	1607-1612	sätts	_	_	_	_	_	_	_	
+23-17	1613-1616	och	_	_	_	_	_	_	_	
+23-18	1617-1620	vad	_	_	_	_	_	_	_	
+23-19	1621-1633	medarbetaren	_	_	_	_	_	_	_	
+23-20	1634-1637	kan	_	_	_	_	_	_	_	
+23-21	1638-1642	göra	_	_	_	_	_	_	_	
+23-22	1643-1646	för	_	_	_	_	_	_	_	
+23-23	1647-1650	att	_	_	_	_	_	_	_	
+23-24	1651-1655	höja	_	_	_	_	_	_	_	
+23-25	1656-1659	sin	_	_	_	_	_	_	_	
+23-26	1660-1663	lön	_	_	_	_	_	_	_	
+23-27	1663-1664	.	_	_	_	_	_	_	_	
+
+#Text=Vi slår även fast att yrkesutveckling ska löna sig och ska synas i lön.
+24-1	1665-1667	Vi	_	_	_	_	_	_	_	
+24-2	1668-1672	slår	_	_	_	_	_	_	_	
+24-3	1673-1677	även	_	_	_	_	_	_	_	
+24-4	1678-1682	fast	_	_	_	_	_	_	_	
+24-5	1683-1686	att	_	_	_	_	_	_	_	
+24-6	1687-1702	yrkesutveckling	*	_	_	_	_	_	_	
+24-7	1703-1706	ska	_	Target[8]	24-6	false[8]	5[8]	_	_	
+24-8	1707-1711	löna	_	Target[8]	24-6	false[8]	5[8]	_	_	
+24-9	1712-1715	sig	_	Target[8]	24-6	false[8]	5[8]	_	_	
+24-10	1716-1719	och	_	_	_	_	_	_	_	
+24-11	1720-1723	ska	_	_	_	_	_	_	_	
+24-12	1724-1729	synas	_	_	_	_	_	_	_	
+24-13	1730-1731	i	_	_	_	_	_	_	_	
+24-14	1732-1735	lön	_	_	_	_	_	_	_	
+24-15	1735-1736	.	_	_	_	_	_	_	_	
+
+#Text=Liknande arbeten pågår med flera arbetsgivarorganisationer.
+25-1	1737-1745	Liknande	_	_	_	_	_	_	_	
+25-2	1746-1753	arbeten	_	_	_	_	_	_	_	
+25-3	1754-1759	pågår	_	_	_	_	_	_	_	
+25-4	1760-1763	med	_	_	_	_	_	_	_	
+25-5	1764-1769	flera	_	_	_	_	_	_	_	
+25-6	1770-1795	arbetsgivarorganisationer	_	_	_	_	_	_	_	
+25-7	1795-1796	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1798-1799	#	_	_	_	_	_	_	_	
+26-2	1799-1800	P	_	_	_	_	_	_	_	
+26-3	1801-1804	IMM	_	_	_	_	_	_	_	
+26-4	1804-1805	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+27-1	1807-1820	Skräddarsydda	_	_	_	_	_	_	_	
+27-2	1821-1827	kurser	_	_	_	_	_	_	_	
+27-3	1828-1829	i	_	_	_	_	_	_	_	
+27-4	1830-1835	ämnen	_	_	_	_	_	_	_	
+27-5	1836-1839	som	_	_	_	_	_	_	_	
+27-6	1840-1851	intresserar	_	_	_	_	_	_	_	
+27-7	1852-1855	och	_	_	_	_	_	_	_	
+27-8	1856-1865	engagerar	_	_	_	_	_	_	_	
+27-9	1866-1870	både	_	_	_	_	_	_	_	
+27-10	1871-1876	kropp	_	_	_	_	_	_	_	
+27-11	1877-1880	och	_	_	_	_	_	_	_	
+27-12	1881-1885	själ	_	_	_	_	_	_	_	
+27-13	1885-1886	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1888-1889	#	_	_	_	_	_	_	_	
+28-2	1889-1890	P	_	_	_	_	_	_	_	
+28-3	1891-1894	IMM	_	_	_	_	_	_	_	
+28-4	1894-1895	.	_	_	_	_	_	_	_	
+
+#Text=Det är uppenbart att John Lapidus tycker att individuell lönesättning är dåligt och därför driver två teser: produktiviteten ökar inte i välfärdssektorn och Kommunals medlemmar vill inte ha individuell lönesättning.
+29-1	1897-1900	Det	_	_	_	_	_	_	_	
+29-2	1901-1903	är	_	_	_	_	_	_	_	
+29-3	1904-1913	uppenbart	_	_	_	_	_	_	_	
+29-4	1914-1917	att	_	_	_	_	_	_	_	
+29-5	1918-1922	John	_	_	_	_	_	_	_	
+29-6	1923-1930	Lapidus	_	_	_	_	_	_	_	
+29-7	1931-1937	tycker	_	_	_	_	_	_	_	
+29-8	1938-1941	att	_	_	_	_	_	_	_	
+29-9	1942-1953	individuell	_	_	_	_	_	_	_	
+29-10	1954-1966	lönesättning	_	_	_	_	_	_	_	
+29-11	1967-1969	är	_	_	_	_	_	_	_	
+29-12	1970-1976	dåligt	_	_	_	_	_	_	_	
+29-13	1977-1980	och	_	_	_	_	_	_	_	
+29-14	1981-1987	därför	_	_	_	_	_	_	_	
+29-15	1988-1994	driver	_	_	_	_	_	_	_	
+29-16	1995-1998	två	_	_	_	_	_	_	_	
+29-17	1999-2004	teser	_	_	_	_	_	_	_	
+29-18	2004-2005	:	_	_	_	_	_	_	_	
+29-19	2006-2021	produktiviteten	_	_	_	_	_	_	_	
+29-20	2022-2026	ökar	_	_	_	_	_	_	_	
+29-21	2027-2031	inte	_	_	_	_	_	_	_	
+29-22	2032-2033	i	_	_	_	_	_	_	_	
+29-23	2034-2049	välfärdssektorn	_	_	_	_	_	_	_	
+29-24	2050-2053	och	_	_	_	_	_	_	_	
+29-25	2054-2063	Kommunals	_	_	_	_	_	_	_	
+29-26	2064-2073	medlemmar	_	_	_	_	_	_	_	
+29-27	2074-2078	vill	_	_	_	_	_	_	_	
+29-28	2079-2083	inte	_	_	_	_	_	_	_	
+29-29	2084-2086	ha	_	_	_	_	_	_	_	
+29-30	2087-2098	individuell	_	_	_	_	_	_	_	
+29-31	2099-2111	lönesättning	_	_	_	_	_	_	_	
+29-32	2111-2112	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2114-2115	#	_	_	_	_	_	_	_	
+30-2	2115-2116	P	_	_	_	_	_	_	_	
+30-3	2117-2120	IMM	_	_	_	_	_	_	_	
+30-4	2120-2121	.	_	_	_	_	_	_	_	
+
+#Text=Individuell lönesättning har inte missgynnat medlemskollektivet ekonomiskt.
+31-1	2123-2134	Individuell	*[29]	_	_	_	_	_	_	
+31-2	2135-2147	lönesättning	*[29]	_	_	_	_	_	_	
+31-3	2148-2151	har	_	Source;Target[9]	31-6[30];31-1[29]	false[9]	3[9]	_	_	
+31-4	2152-2156	inte	_	Source;Target[9]	31-6[30];31-1[29]	false[9]	3[9]	_	_	
+31-5	2157-2167	missgynnat	_	Source;Target[9]	31-6[30];31-1[29]	false[9]	3[9]	_	_	
+31-6	2168-2186	medlemskollektivet	*[30]	_	_	_	_	_	_	
+31-7	2187-2197	ekonomiskt	*[30]	_	_	_	_	_	_	
+31-8	2197-2198	.	_	_	_	_	_	_	_	
+
+#Text=Våra analyser visar att den långsiktiga löneutvecklingen i tariffavtal troligen är likvärdig med avtal som centralt avtalad löneram och individuell lokal fördelning.
+32-1	2199-2203	Våra	_	_	_	_	_	_	_	
+32-2	2204-2212	analyser	_	_	_	_	_	_	_	
+32-3	2213-2218	visar	_	_	_	_	_	_	_	
+32-4	2219-2222	att	_	_	_	_	_	_	_	
+32-5	2223-2226	den	_	_	_	_	_	_	_	
+32-6	2227-2238	långsiktiga	_	_	_	_	_	_	_	
+32-7	2239-2255	löneutvecklingen	_	_	_	_	_	_	_	
+32-8	2256-2257	i	_	_	_	_	_	_	_	
+32-9	2258-2269	tariffavtal	_	_	_	_	_	_	_	
+32-10	2270-2278	troligen	_	_	_	_	_	_	_	
+32-11	2279-2281	är	_	_	_	_	_	_	_	
+32-12	2282-2291	likvärdig	_	_	_	_	_	_	_	
+32-13	2292-2295	med	_	_	_	_	_	_	_	
+32-14	2296-2301	avtal	_	_	_	_	_	_	_	
+32-15	2302-2305	som	_	_	_	_	_	_	_	
+32-16	2306-2314	centralt	_	_	_	_	_	_	_	
+32-17	2315-2322	avtalad	_	_	_	_	_	_	_	
+32-18	2323-2330	löneram	_	_	_	_	_	_	_	
+32-19	2331-2334	och	_	_	_	_	_	_	_	
+32-20	2335-2346	individuell	_	_	_	_	_	_	_	
+32-21	2347-2352	lokal	_	_	_	_	_	_	_	
+32-22	2353-2363	fördelning	_	_	_	_	_	_	_	
+32-23	2363-2364	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	2366-2367	#	_	_	_	_	_	_	_	
+33-2	2367-2368	P	_	_	_	_	_	_	_	
+33-3	2369-2372	IMM	_	_	_	_	_	_	_	
+33-4	2372-2373	.	_	_	_	_	_	_	_	
+
+#Text=Självklart finns det olika åsikter om lönebildningen inom Kommunal.
+34-1	2375-2385	Självklart	_	_	_	_	_	_	_	
+34-2	2386-2391	finns	_	_	_	_	_	_	_	
+34-3	2392-2395	det	_	_	_	_	_	_	_	
+34-4	2396-2401	olika	_	_	_	_	_	_	_	
+34-5	2402-2409	åsikter	_	_	_	_	_	_	_	
+34-6	2410-2412	om	_	_	_	_	_	_	_	
+34-7	2413-2427	lönebildningen	_	_	_	_	_	_	_	
+34-8	2428-2432	inom	_	_	_	_	_	_	_	
+34-9	2433-2441	Kommunal	_	_	_	_	_	_	_	
+34-10	2441-2442	.	_	_	_	_	_	_	_	
+
+#Text=Inom förbundet har vi stor respekt för att medlemmar och förtroendevalda tycker olika och kommer till olika slutsatser om vad som är en bra lönepolitik.
+35-1	2443-2447	Inom	_	_	_	_	_	_	_	
+35-2	2448-2457	förbundet	_	_	_	_	_	_	_	
+35-3	2458-2461	har	_	_	_	false	3	_	_	
+35-4	2462-2464	vi	*	_	_	_	_	_	_	
+35-5	2465-2469	stor	_	Source;Target[10]	35-4;35-8[31]	false[10]	3[10]	35-3[0_10]	_	
+35-6	2470-2477	respekt	_	Source;Target[10]	35-4;35-8[31]	false[10]	3[10]	_	_	
+35-7	2478-2481	för	_	Source;Target[10]	35-4;35-8[31]	false[10]	3[10]	_	_	
+35-8	2482-2485	att	*[31]	_	_	_	_	_	_	
+35-9	2486-2495	medlemmar	*[31]	_	_	_	_	_	_	
+35-10	2496-2499	och	*[31]	_	_	_	_	_	_	
+35-11	2500-2515	förtroendevalda	*[31]	_	_	_	_	_	_	
+35-12	2516-2522	tycker	*[31]	_	_	_	_	_	_	
+35-13	2523-2528	olika	*[31]	_	_	_	_	_	_	
+35-14	2529-2532	och	_	_	_	_	_	_	_	
+35-15	2533-2539	kommer	_	_	_	_	_	_	_	
+35-16	2540-2544	till	_	_	_	_	_	_	_	
+35-17	2545-2550	olika	_	_	_	_	_	_	_	
+35-18	2551-2561	slutsatser	_	_	_	_	_	_	_	
+35-19	2562-2564	om	_	_	_	_	_	_	_	
+35-20	2565-2568	vad	_	_	_	_	_	_	_	
+35-21	2569-2572	som	_	_	_	_	_	_	_	
+35-22	2573-2575	är	_	_	_	_	_	_	_	
+35-23	2576-2578	en	*[32]	Target[11]	35-23[32]	false[11]	4[11]	_	_	
+35-24	2579-2582	bra	*[32]	Target[11]	35-23[32]	false[11]	4[11]	_	_	
+35-25	2583-2594	lönepolitik	*[32]	Target[11]	35-23[32]	false[11]	4[11]	_	_	
+35-26	2594-2595	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt är det ju inte så enkelt som Lapidus ser på saken - att några medlemsenkäter plus ett skäligt antagande om att det finns en viss produktivitetsutveckling i välfärdssektorn skulle varit helt avgörande för Kommunals val av lönepolitik över tid.
+36-1	2596-2605	Samtidigt	_	_	_	_	_	_	_	
+36-2	2606-2608	är	_	_	_	_	_	_	_	
+36-3	2609-2612	det	_	_	_	_	_	_	_	
+36-4	2613-2615	ju	_	_	_	_	_	_	_	
+36-5	2616-2620	inte	_	_	_	_	_	_	_	
+36-6	2621-2623	så	_	_	_	_	_	_	_	
+36-7	2624-2630	enkelt	_	_	_	_	_	_	_	
+36-8	2631-2634	som	_	_	_	_	_	_	_	
+36-9	2635-2642	Lapidus	_	_	_	_	_	_	_	
+36-10	2643-2646	ser	_	_	_	_	_	_	_	
+36-11	2647-2649	på	_	_	_	_	_	_	_	
+36-12	2650-2655	saken	_	_	_	_	_	_	_	
+36-13	2656-2657	-	_	_	_	_	_	_	_	
+36-14	2658-2661	att	_	_	_	_	_	_	_	
+36-15	2662-2667	några	_	_	_	_	_	_	_	
+36-16	2668-2682	medlemsenkäter	_	_	_	_	_	_	_	
+36-17	2683-2687	plus	_	_	_	_	_	_	_	
+36-18	2688-2691	ett	_	_	_	_	_	_	_	
+36-19	2692-2699	skäligt	_	_	_	_	_	_	_	
+36-20	2700-2709	antagande	_	_	_	_	_	_	_	
+36-21	2710-2712	om	_	_	_	_	_	_	_	
+36-22	2713-2716	att	_	_	_	_	_	_	_	
+36-23	2717-2720	det	_	_	_	_	_	_	_	
+36-24	2721-2726	finns	_	_	_	_	_	_	_	
+36-25	2727-2729	en	_	_	_	_	_	_	_	
+36-26	2730-2734	viss	_	_	_	_	_	_	_	
+36-27	2735-2759	produktivitetsutveckling	_	_	_	_	_	_	_	
+36-28	2760-2761	i	_	_	_	_	_	_	_	
+36-29	2762-2777	välfärdssektorn	_	_	_	_	_	_	_	
+36-30	2778-2784	skulle	_	_	_	_	_	_	_	
+36-31	2785-2790	varit	_	_	_	_	_	_	_	
+36-32	2791-2795	helt	_	_	_	_	_	_	_	
+36-33	2796-2805	avgörande	_	_	_	_	_	_	_	
+36-34	2806-2809	för	_	_	_	_	_	_	_	
+36-35	2810-2819	Kommunals	_	_	_	_	_	_	_	
+36-36	2820-2823	val	_	_	_	_	_	_	_	
+36-37	2824-2826	av	_	_	_	_	_	_	_	
+36-38	2827-2838	lönepolitik	_	_	_	_	_	_	_	
+36-39	2839-2843	över	_	_	_	_	_	_	_	
+36-40	2844-2847	tid	_	_	_	_	_	_	_	
+36-41	2847-2848	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2850-2851	#	_	_	_	_	_	_	_	
+37-2	2851-2852	P	_	_	_	_	_	_	_	
+37-3	2853-2856	IMM	_	_	_	_	_	_	_	
+37-4	2856-2857	.	_	_	_	_	_	_	_	
+
+#Text=Det Lapidus inte alls tycks förtrogen med är att Kommunal alltid jobbar med vanligt hederligt fackligt förankringsarbete.
+38-1	2859-2862	Det	_	_	_	_	_	_	_	
+38-2	2863-2870	Lapidus	_	_	_	_	_	_	_	
+38-3	2871-2875	inte	_	_	_	_	_	_	_	
+38-4	2876-2880	alls	_	_	_	_	_	_	_	
+38-5	2881-2886	tycks	_	_	_	_	_	_	_	
+38-6	2887-2896	förtrogen	_	_	_	_	_	_	_	
+38-7	2897-2900	med	_	_	_	_	_	_	_	
+38-8	2901-2903	är	_	_	_	_	_	_	_	
+38-9	2904-2907	att	_	_	_	_	_	_	_	
+38-10	2908-2916	Kommunal	_	_	_	_	_	_	_	
+38-11	2917-2923	alltid	_	_	_	_	_	_	_	
+38-12	2924-2930	jobbar	_	_	_	_	_	_	_	
+38-13	2931-2934	med	_	_	_	_	_	_	_	
+38-14	2935-2942	vanligt	*[33]	Target[12]	38-14[33]	false[12]	4[12]	_	_	
+38-15	2943-2952	hederligt	*[33]	Target[12]	38-14[33]	false[12]	4[12]	_	_	
+38-16	2953-2961	fackligt	_	_	_	_	_	_	_	
+38-17	2962-2979	förankringsarbete	_	_	_	_	_	_	_	
+38-18	2979-2980	.	_	_	_	_	_	_	_	
+
+#Text=Enkäter i all ära.
+39-1	2981-2988	Enkäter	_	_	_	_	_	_	_	
+39-2	2989-2990	i	_	_	_	_	_	_	_	
+39-3	2991-2994	all	_	_	_	_	_	_	_	
+39-4	2995-2998	ära	_	_	_	_	_	_	_	
+39-5	2998-2999	.	_	_	_	_	_	_	_	
+
+#Text=Men betydligt viktigare är utfallet av andra former av kartläggningsarbete som exempelvis direktkontakter och fokusgrupper med medlemmar, dialog med förtroendevalda och lönepolitiska konferenser för olika målgrupper.
+40-1	3000-3003	Men	_	_	_	_	_	_	_	
+40-2	3004-3013	betydligt	_	_	_	_	_	_	_	
+40-3	3014-3023	viktigare	_	_	_	_	_	_	_	
+40-4	3024-3026	är	_	_	_	_	_	_	_	
+40-5	3027-3035	utfallet	_	_	_	_	_	_	_	
+40-6	3036-3038	av	_	_	_	_	_	_	_	
+40-7	3039-3044	andra	_	_	_	_	_	_	_	
+40-8	3045-3051	former	_	_	_	_	_	_	_	
+40-9	3052-3054	av	_	_	_	_	_	_	_	
+40-10	3055-3074	kartläggningsarbete	_	_	_	_	_	_	_	
+40-11	3075-3078	som	_	_	_	_	_	_	_	
+40-12	3079-3089	exempelvis	_	_	_	_	_	_	_	
+40-13	3090-3105	direktkontakter	_	_	_	_	_	_	_	
+40-14	3106-3109	och	_	_	_	_	_	_	_	
+40-15	3110-3122	fokusgrupper	_	_	_	_	_	_	_	
+40-16	3123-3126	med	_	_	_	_	_	_	_	
+40-17	3127-3136	medlemmar	_	_	_	_	_	_	_	
+40-18	3136-3137	,	_	_	_	_	_	_	_	
+40-19	3138-3144	dialog	_	_	_	_	_	_	_	
+40-20	3145-3148	med	_	_	_	_	_	_	_	
+40-21	3149-3164	förtroendevalda	_	_	_	_	_	_	_	
+40-22	3165-3168	och	_	_	_	_	_	_	_	
+40-23	3169-3182	lönepolitiska	_	_	_	_	_	_	_	
+40-24	3183-3194	konferenser	_	_	_	_	_	_	_	
+40-25	3195-3198	för	_	_	_	_	_	_	_	
+40-26	3199-3204	olika	_	_	_	_	_	_	_	
+40-27	3205-3215	målgrupper	_	_	_	_	_	_	_	
+40-28	3215-3216	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3218-3219	#	_	_	_	_	_	_	_	
+41-2	3219-3220	P	_	_	_	_	_	_	_	
+41-3	3221-3224	IMM	_	_	_	_	_	_	_	
+41-4	3224-3225	.	_	_	_	_	_	_	_	
+
+#Text=**De argument för och mot **individuell lönesättning som John Lapidus tar upp är självklart viktiga att fortsätta diskutera.
+42-1	3227-3228	*	_	_	_	_	_	_	_	
+42-2	3228-3229	*	_	_	_	_	_	_	_	
+42-3	3229-3231	De	*[34]	_	_	_	_	_	_	
+42-4	3232-3240	argument	*[34]	_	_	_	_	_	_	
+42-5	3241-3244	för	*[34]	_	_	_	_	_	_	
+42-6	3245-3248	och	*[34]	_	_	_	_	_	_	
+42-7	3249-3252	mot	*[34]	_	_	_	_	_	_	
+42-8	3253-3254	*	*[34]	_	_	_	_	_	_	
+42-9	3254-3255	*	*[34]	_	_	_	_	_	_	
+42-10	3255-3266	individuell	*[34]	_	_	_	_	_	_	
+42-11	3267-3279	lönesättning	*[34]	_	_	_	_	_	_	
+42-12	3280-3283	som	*[34]	_	_	_	_	_	_	
+42-13	3284-3288	John	*[34]	_	_	_	_	_	_	
+42-14	3289-3296	Lapidus	*[34]	_	_	_	_	_	_	
+42-15	3297-3300	tar	*[34]	_	_	_	_	_	_	
+42-16	3301-3304	upp	*[34]	_	_	_	_	_	_	
+42-17	3305-3307	är	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-18	3308-3318	självklart	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-19	3319-3326	viktiga	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-20	3327-3330	att	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-21	3331-3340	fortsätta	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-22	3341-3350	diskutera	_	Target[13]	42-3[34]	false[13]	3[13]	_	_	
+42-23	3350-3351	.	_	_	_	_	_	_	_	
+
+#Text=Löner och lönesättning engagerar.
+43-1	3352-3357	Löner	*[35]|*[36]	_	_	_	_	_	44-1[0_35]	
+43-2	3358-3361	och	*[35]|*[36]	_	_	_	_	_	_	
+43-3	3362-3374	lönesättning	*[35]|*[36]	_	_	_	_	_	_	
+43-4	3375-3384	engagerar	*[35]	Target;Source	43-1[36];43-5	false	3	_	_	
+43-5	3384-3385	.	*	_	_	_	_	_	_	
+
+#Text=Det gillar vi!.
+44-1	3386-3389	Det	*	_	_	_	_	_	_	
+44-2	3390-3396	gillar	_	Source;Target	44-3;44-1	false	4	_	_	
+44-3	3397-3399	vi	*	_	_	_	_	_	_	
+44-4	3399-3400	!	_	_	_	_	_	_	_	
+44-5	3400-3401	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3403-3404	#	_	_	_	_	_	_	_	
+45-2	3404-3405	P	_	_	_	_	_	_	_	
+45-3	3406-3409	IMM	_	_	_	_	_	_	_	
+45-4	3409-3410	.	_	_	_	_	_	_	_	
+
+#Text=Som fackförbund måste vi dock förbättra medlemmarnas löner på många fler sätt än ett.
+46-1	3412-3415	Som	_	_	_	_	_	_	_	
+46-2	3416-3427	fackförbund	_	_	_	_	_	_	_	
+46-3	3428-3433	måste	_	_	_	false	4	_	_	
+46-4	3434-3436	vi	*	_	_	_	_	_	_	
+46-5	3437-3441	dock	_	Target;Source[14]	46-7[37];46-4	false[14]	4[14]	46-3[0_14]	_	
+46-6	3442-3451	förbättra	_	Target;Source[14]	46-7[37];46-4	false[14]	4[14]	_	_	
+46-7	3452-3464	medlemmarnas	*[37]	_	_	_	_	_	_	
+46-8	3465-3470	löner	*[37]	_	_	_	_	_	_	
+46-9	3471-3473	på	_	_	_	_	_	_	_	
+46-10	3474-3479	många	_	_	_	_	_	_	_	
+46-11	3480-3484	fler	_	_	_	_	_	_	_	
+46-12	3485-3489	sätt	_	_	_	_	_	_	_	
+46-13	3490-3492	än	_	_	_	_	_	_	_	
+46-14	3493-3496	ett	_	_	_	_	_	_	_	
+46-15	3496-3497	.	_	_	_	_	_	_	_	
+
+#Text=För Kommunals del handlar det exempelvis om att uppvärdera kvinnodominerade yrken lönemässigt så att värdediskrimineringen upphör, förbättra arbetsvillkoren, införa rätt till heltid, få bort missbruket av visstidsanställningar, avskaffa delade turer och att se till att lägstalönerna är på en anständig nivå.
+47-1	3498-3501	För	_	_	_	_	_	_	_	
+47-2	3502-3511	Kommunals	*	_	_	_	_	_	_	
+47-3	3512-3515	del	_	_	_	_	_	_	_	
+47-4	3516-3523	handlar	_	_	_	_	_	_	_	
+47-5	3524-3527	det	_	_	_	_	_	_	_	
+47-6	3528-3538	exempelvis	_	_	_	_	_	_	_	
+47-7	3539-3541	om	_	_	_	_	_	_	_	
+47-8	3542-3545	att	_	_	_	_	_	_	_	
+47-9	3546-3556	uppvärdera	_	Source;Target	47-2;47-10[38]	false	4	_	_	
+47-10	3557-3573	kvinnodominerade	*[38]	_	_	_	_	_	_	
+47-11	3574-3579	yrken	*[38]	_	_	_	_	_	_	
+47-12	3580-3591	lönemässigt	_	_	_	false	4	47-9	_	
+47-13	3592-3594	så	_	_	_	_	_	_	_	
+47-14	3595-3598	att	_	_	_	_	_	_	_	
+47-15	3599-3620	värdediskrimineringen	_	_	_	_	_	_	_	
+47-16	3621-3627	upphör	_	_	_	_	_	_	_	
+47-17	3627-3628	,	_	_	_	_	_	_	_	
+47-18	3629-3638	förbättra	*[39]	Source;Target[15]	47-2;47-18[39]	false[15]	4[15]	_	_	
+47-19	3639-3654	arbetsvillkoren	*[39]	Source;Target[15]	47-2;47-18[39]	false[15]	4[15]	_	_	
+47-20	3654-3655	,	_	_	_	_	_	_	_	
+47-21	3656-3662	införa	_	_	_	_	_	_	_	
+47-22	3663-3667	rätt	_	_	_	_	_	_	_	
+47-23	3668-3672	till	_	_	_	_	_	_	_	
+47-24	3673-3679	heltid	_	_	_	_	_	_	_	
+47-25	3679-3680	,	_	_	_	_	_	_	_	
+47-26	3681-3683	få	_	_	_	_	_	_	_	
+47-27	3684-3688	bort	_	_	_	_	_	_	_	
+47-28	3689-3699	missbruket	*	Target	47-28	false	1	_	_	
+47-29	3700-3702	av	_	_	_	_	_	_	_	
+47-30	3703-3724	visstidsanställningar	_	_	_	_	_	_	_	
+47-31	3724-3725	,	_	_	_	_	_	_	_	
+47-32	3726-3734	avskaffa	_	_	_	_	_	_	_	
+47-33	3735-3741	delade	_	_	_	_	_	_	_	
+47-34	3742-3747	turer	_	_	_	_	_	_	_	
+47-35	3748-3751	och	_	_	_	_	_	_	_	
+47-36	3752-3755	att	_	_	_	_	_	_	_	
+47-37	3756-3758	se	_	_	_	_	_	_	_	
+47-38	3759-3763	till	_	_	_	_	_	_	_	
+47-39	3764-3767	att	_	_	_	_	_	_	_	
+47-40	3768-3781	lägstalönerna	_	_	_	_	_	_	_	
+47-41	3782-3784	är	_	_	_	_	_	_	_	
+47-42	3785-3787	på	*[40]	Target[16]	47-42[40]	false[16]	3[16]	_	_	
+47-43	3788-3790	en	*[40]	Target[16]	47-42[40]	false[16]	3[16]	_	_	
+47-44	3791-3800	anständig	*[40]	Target[16]	47-42[40]	false[16]	3[16]	_	_	
+47-45	3801-3805	nivå	*[40]	Target[16]	47-42[40]	false[16]	3[16]	_	_	
+47-46	3805-3806	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3808-3809	#	_	_	_	_	_	_	_	
+48-2	3809-3810	P	_	_	_	_	_	_	_	
+48-3	3811-3814	IMM	_	_	_	_	_	_	_	
+48-4	3814-3815	.	_	_	_	_	_	_	_	
+
+#Text=Kommunals mål är kort sagt att medlemmarna ska kunna leva på sin lön, ha bra villkor på jobbet och känna sig rättvist behandlade.
+49-1	3817-3826	Kommunals	_	_	_	_	_	_	_	
+49-2	3827-3830	mål	_	_	_	_	_	_	_	
+49-3	3831-3833	är	_	_	_	_	_	_	_	
+49-4	3834-3838	kort	_	_	_	_	_	_	_	
+49-5	3839-3843	sagt	_	_	_	_	_	_	_	
+49-6	3844-3847	att	_	_	_	_	_	_	_	
+49-7	3848-3859	medlemmarna	*	_	_	_	_	_	_	
+49-8	3860-3863	ska	_	_[17]|_[18]	_|_	false[17]|false[18]	5[17]|5[18]	_	_	
+49-9	3864-3869	kunna	_	_	_	_	_	_	_	
+49-10	3870-3874	leva	_	_	_	_	_	_	_	
+49-11	3875-3877	på	_	_	_	_	_	_	_	
+49-12	3878-3881	sin	_	_	_	_	_	_	_	
+49-13	3882-3885	lön	_	_	_	_	_	_	_	
+49-14	3885-3886	,	_	_	_	_	_	_	_	
+49-15	3887-3889	ha	_	Source;Target[19]	49-7;49-16[41]	false[19]	5[19]	49-8[18_19]	_	
+49-16	3890-3893	bra	*[41]	Source;Target[19]	49-7;49-16[41]	false[19]	5[19]	_	_	
+49-17	3894-3901	villkor	*[41]	Source;Target[19]	49-7;49-16[41]	false[19]	5[19]	_	_	
+49-18	3902-3904	på	*[41]	Source;Target[19]	49-7;49-16[41]	false[19]	5[19]	_	_	
+49-19	3905-3911	jobbet	*[41]	Source;Target[19]	49-7;49-16[41]	false[19]	5[19]	_	_	
+49-20	3912-3915	och	_	_	_	_	_	_	_	
+49-21	3916-3921	känna	*[42]	Target;Source[20]	49-21[42];49-7	false[20]	5[20]	49-8[17_20]	_	
+49-22	3922-3925	sig	*[42]	Target;Source[20]	49-21[42];49-7	false[20]	5[20]	_	_	
+49-23	3926-3934	rättvist	*[42]	Target;Source[20]	49-21[42];49-7	false[20]	5[20]	_	_	
+49-24	3935-3945	behandlade	*[42]	Target;Source[20]	49-21[42];49-7	false[20]	5[20]	_	_	
+49-25	3945-3946	.	_	_	_	_	_	_	_	
+
+#Text=Här är vår kongressbeslutade lönepolitik ett viktigt verktyg, men långt ifrån det enda.
+50-1	3947-3950	Här	_	_	_	_	_	_	_	
+50-2	3951-3953	är	_	_	_	_	_	_	_	
+50-3	3954-3957	vår	_	_	_	_	_	_	_	
+50-4	3958-3975	kongressbeslutade	_	_	_	_	_	_	_	
+50-5	3976-3987	lönepolitik	_	_	_	_	_	_	_	
+50-6	3988-3991	ett	_	_	_	_	_	_	_	
+50-7	3992-3999	viktigt	_	_	_	_	_	_	_	
+50-8	4000-4007	verktyg	_	_	_	_	_	_	_	
+50-9	4007-4008	,	_	_	_	_	_	_	_	
+50-10	4009-4012	men	_	_	_	_	_	_	_	
+50-11	4013-4018	långt	_	_	_	_	_	_	_	
+50-12	4019-4024	ifrån	_	_	_	_	_	_	_	
+50-13	4025-4028	det	_	_	_	_	_	_	_	
+50-14	4029-4033	enda	_	_	_	_	_	_	_	
+50-15	4033-4034	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4036-4037	#	_	_	_	_	_	_	_	
+51-2	4037-4038	P	_	_	_	_	_	_	_	
+51-3	4039-4042	IMM	_	_	_	_	_	_	_	
+51-4	4042-4043	.	_	_	_	_	_	_	_	
+
+#Text=LENITA GRANLUND.
+52-1	4045-4051	LENITA	_	_	_	_	_	_	_	
+52-2	4052-4060	GRANLUND	_	_	_	_	_	_	_	
+52-3	4060-4061	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4063-4064	#	_	_	_	_	_	_	_	
+53-2	4064-4065	P	_	_	_	_	_	_	_	
+53-3	4066-4069	IMM	_	_	_	_	_	_	_	
+53-4	4069-4070	.	_	_	_	_	_	_	_	
+
+#Text=avtalssekreterare Kommunal.
+54-1	4072-4089	avtalssekreterare	_	_	_	_	_	_	_	
+54-2	4090-4098	Kommunal	_	_	_	_	_	_	_	
+54-3	4098-4099	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4101-4102	#	_	_	_	_	_	_	_	
+55-2	4102-4103	P	_	_	_	_	_	_	_	
+55-3	4104-4107	IMM	_	_	_	_	_	_	_	
+55-4	4107-4108	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+56-1	4110-4118	Redaktör	_	_	_	_	_	_	_	
+56-2	4118-4119	:	_	_	_	_	_	_	_	
+56-3	4120-4126	Carina	_	_	_	_	_	_	_	
+56-4	4127-4135	Stensson	_	_	_	_	_	_	_	
+56-5	4135-4136	,	_	_	_	_	_	_	_	
+56-6	4137-4147	Biträdande	_	_	_	_	_	_	_	
+56-7	4148-4156	redaktör	_	_	_	_	_	_	_	
+56-8	4156-4157	:	_	_	_	_	_	_	_	
+56-9	4158-4163	Björn	_	_	_	_	_	_	_	
+56-10	4164-4170	Jorner	_	_	_	_	_	_	_	
+56-11	4170-4171	,	_	_	_	_	_	_	_	
+56-12	4172-4176	Mejl	_	_	_	_	_	_	_	
+56-13	4176-4177	:	_	_	_	_	_	_	_	
+56-14	4178-4184	debatt	_	_	_	_	_	_	_	
+56-15	4184-4185	@	_	_	_	_	_	_	_	
+56-16	4185-4191	svd.se	_	_	_	_	_	_	_	
+56-17	4191-4192	,	_	_	_	_	_	_	_	
+56-18	4193-4206	Telefonnummer	_	_	_	_	_	_	_	
+56-19	4206-4207	:	_	_	_	_	_	_	_	
+56-20	4208-4210	08	_	_	_	_	_	_	_	
+56-21	4210-4211	-	_	_	_	_	_	_	_	
+56-22	4211-4217	135149	_	_	_	_	_	_	_	
+56-23	4217-4218	,	_	_	_	_	_	_	_	
+56-24	4219-4226	Twitter	_	_	_	_	_	_	_	
+56-25	4226-4227	:	_	_	_	_	_	_	_	
+56-26	4228-4229	@	_	_	_	_	_	_	_	
+56-27	4229-4238	SvDDebatt	_	_	_	_	_	_	_	
+56-28	4238-4239	,	_	_	_	_	_	_	_	
+56-29	4240-4248	Facebook	_	_	_	_	_	_	_	
+56-30	4248-4249	:	_	_	_	_	_	_	_	
+56-31	4250-4253	SvD	_	_	_	_	_	_	_	
+56-32	4254-4260	Debatt	_	_	_	_	_	_	_	
+56-33	4260-4261	.	_	_	_	_	_	_	_	

@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+#Text=
+#Text=9:e mars släpper SDU en film om flyktingpolitik.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+2-5	18-19	9	_	_	_	_	_	_	
+2-6	19-20	:	_	_	_	_	_	_	
+2-7	20-21	e	_	_	_	_	_	_	
+2-8	22-26	mars	_	_	_	_	_	_	
+2-9	27-34	släpper	_	_	_	_	_	_	
+2-10	35-38	SDU	_	_	_	_	_	_	
+2-11	39-41	en	_	_	_	_	_	_	
+2-12	42-46	film	_	_	_	_	_	_	
+2-13	47-49	om	_	_	_	_	_	_	
+2-14	50-65	flyktingpolitik	_	_	_	_	_	_	
+2-15	65-66	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+3-1	68-69	#	_	_	_	_	_	_	
+3-2	69-70	P	_	_	_	_	_	_	
+3-3	71-74	IMM	_	_	_	_	_	_	
+3-4	74-75	.	_	_	_	_	_	_	
+
+#Text=En ljummen trailer kan man se här:.
+4-1	77-79	En	_	_	_	_	_	_	
+4-2	80-87	ljummen	_	_	_	_	_	_	
+4-3	88-95	trailer	_	_	_	_	_	_	
+4-4	96-99	kan	_	_	_	_	_	_	
+4-5	100-103	man	_	_	_	_	_	_	
+4-6	104-106	se	_	_	_	_	_	_	
+4-7	107-110	här	_	_	_	_	_	_	
+4-8	110-111	:	_	_	_	_	_	_	
+4-9	111-112	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	114-115	#	_	_	_	_	_	_	
+5-2	115-116	P	_	_[2]	_	false[2]	2[2]	_	
+5-3	117-120	IMM	_	_[2]	_	false[2]	2[2]	_	
+5-4	120-121	.	_	_	_	_	_	_	
+
+#Text=Vad kan effekten bli av den mån tro?
+6-1	123-126	Vad	_	_	_	_	_	_	
+6-2	127-130	kan	_	_	_	_	_	_	
+6-3	131-139	effekten	_	_	_	_	_	_	
+6-4	140-143	bli	_	_	_	_	_	_	
+6-5	144-146	av	_	_	_	_	_	_	
+6-6	147-150	den	_	_	_	_	_	_	
+6-7	151-154	mån	_	_	_	_	_	_	
+6-8	155-158	tro	_	_	_	_	_	_	
+6-9	158-159	?	_	_	_	_	_	_	
+
+#Text=Jag tror de kommer bjuda på sanningar som givetvis media inte kommer skriva om.
+7-1	160-163	Jag	_	_	_	_	_	_	
+7-2	164-168	tror	_	_	_	_	_	_	
+7-3	169-171	de	*	_	_	_	_	_	
+7-4	172-178	kommer	_	Target[3]	7-3	false[3]	4[3]	_	
+7-5	179-184	bjuda	_	Target[3]	7-3	false[3]	4[3]	_	
+7-6	185-187	på	_	Target[3]	7-3	false[3]	4[3]	_	
+7-7	188-197	sanningar	_	Target[3]	7-3	false[3]	4[3]	_	
+7-8	198-201	som	_	_	_	_	_	_	
+7-9	202-210	givetvis	_	_	_	_	_	_	
+7-10	211-216	media	*	_	_	_	_	_	
+7-11	217-221	inte	_	_	_	_	_	_	
+7-12	222-228	kommer	_	_	_	_	_	_	
+7-13	229-235	skriva	_	_	_	_	_	_	
+7-14	236-238	om	_	_	_	_	_	_	
+7-15	238-239	.	_	Target	7-10	false	2	_	
+
+#Text=Förhoppningsvis är filmen såpass bra att den kan spridas på facebook bland folk som ännu inte fått upp ögonen för det kaos som nu råder i Sverige.
+8-1	240-255	Förhoppningsvis	_	_[4]	_	false[4]	4[4]	_	
+8-2	256-258	är	_	_[4]	_	false[4]	4[4]	_	
+8-3	259-265	filmen	*	_	_	_	_	_	
+8-4	266-272	såpass	_	Target[5]	8-3	false[5]	4[5]	8-1[4_5]	
+8-5	273-276	bra	_	Target[5]	8-3	false[5]	4[5]	_	
+8-6	277-280	att	_	_	_	_	_	_	
+8-7	281-284	den	_	_	_	_	_	_	
+8-8	285-288	kan	_	_	_	_	_	_	
+8-9	289-296	spridas	_	_	_	_	_	_	
+8-10	297-299	på	_	_	_	_	_	_	
+8-11	300-308	facebook	_	_	_	_	_	_	
+8-12	309-314	bland	_	_	_	_	_	_	
+8-13	315-319	folk	_	_	_	_	_	_	
+8-14	320-323	som	_	_	_	_	_	_	
+8-15	324-328	ännu	_	_	_	_	_	_	
+8-16	329-333	inte	_	_	_	_	_	_	
+8-17	334-338	fått	_	_	_	_	_	_	
+8-18	339-342	upp	_	_	_	_	_	_	
+8-19	343-349	ögonen	_	_	_	_	_	_	
+8-20	350-353	för	_	_	_	_	_	_	
+8-21	354-357	det	_	_	_	_	_	_	
+8-22	358-362	kaos	_	Target	8-26[7]	false	2	_	
+8-23	363-366	som	_	_	_	_	_	_	
+8-24	367-369	nu	_	_	_	_	_	_	
+8-25	370-375	råder	_	_	_	_	_	_	
+8-26	376-377	i	*[7]	_	_	_	_	_	
+8-27	378-385	Sverige	*[7]	_	_	_	_	_	
+8-28	385-386	.	*[7]	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	388-389	#	_	_	_	_	_	_	
+9-2	389-390	P	_	_	_	_	_	_	
+9-3	391-394	IMM	_	_	_	_	_	_	
+9-4	394-395	.	_	_	_	_	_	_	
+
+#Text=Ser med spänning fram emot den 9:e!.
+10-1	397-400	Ser	_	Target[6]	10-7[8]	false[6]	5[6]	_	
+10-2	401-404	med	_	Target[6]	10-7[8]	false[6]	5[6]	_	
+10-3	405-413	spänning	_	Target[6]	10-7[8]	false[6]	5[6]	_	
+10-4	414-418	fram	_	Target[6]	10-7[8]	false[6]	5[6]	_	
+10-5	419-423	emot	_	Target[6]	10-7[8]	false[6]	5[6]	_	
+10-6	424-427	den	_	_	_	_	_	_	
+10-7	428-429	9	*[8]	_	_	_	_	_	
+10-8	429-430	:	*[8]	_	_	_	_	_	
+10-9	430-431	e	*[8]	_	_	_	_	_	
+10-10	431-432	!	_	_	_	_	_	_	
+10-11	432-433	.	_	_	_	_	_	_	

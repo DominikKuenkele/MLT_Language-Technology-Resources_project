@@ -1,0 +1,804 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vår rädsla för polisen är befogad.
+3-1	18-21	Vår	*[22]	_	_	_	_	
+3-2	22-28	rädsla	*[22]	_	_	_	_	
+3-3	29-32	för	*[22]	_	_	_	_	
+3-4	33-40	polisen	*[22]	_	_	_	_	
+3-5	41-43	är	_	Target[1]	3-1[22]	false[1]	4[1]	
+3-6	44-51	befogad	_	Target[1]	3-1[22]	false[1]	4[1]	
+3-7	51-52	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	54-55	#	_	_	_	_	_	
+4-2	55-56	P	_	_	_	_	_	
+4-3	57-60	IMM	_	_	_	_	_	
+4-4	60-61	.	_	_	_	_	_	
+
+#Text=I går höll nazistiska Svenskarnas Parti ett torgmöte vid Limhamns torg i Malmö.
+5-1	63-64	I	_	_	_	_	_	
+5-2	65-68	går	_	_	_	_	_	
+5-3	69-73	höll	_	_	_	_	_	
+5-4	74-84	nazistiska	_	Target	5-5[23]	false	1	
+5-5	85-96	Svenskarnas	*[23]	_	_	_	_	
+5-6	97-102	Parti	*[23]	_	_	_	_	
+5-7	103-106	ett	_	_	_	_	_	
+5-8	107-115	torgmöte	_	_	_	_	_	
+5-9	116-119	vid	_	_	_	_	_	
+5-10	120-128	Limhamns	_	_	_	_	_	
+5-11	129-133	torg	_	_	_	_	_	
+5-12	134-135	i	_	_	_	_	_	
+5-13	136-141	Malmö	_	_	_	_	_	
+5-14	141-142	.	_	_	_	_	_	
+
+#Text=På grund av detta var torget även fullt med tusentals antirasister, som i en motdemonstration ville markera hur avskyvärda nazistiska åsikter är.
+6-1	143-145	På	_	_	_	_	_	
+6-2	146-151	grund	_	_	_	_	_	
+6-3	152-154	av	_	_	_	_	_	
+6-4	155-160	detta	_	_	_	_	_	
+6-5	161-164	var	_	_	_	_	_	
+6-6	165-171	torget	_	_	_	_	_	
+6-7	172-176	även	_	_	_	_	_	
+6-8	177-182	fullt	_	_	_	_	_	
+6-9	183-186	med	_	_	_	_	_	
+6-10	187-196	tusentals	*[24]	_	_	_	_	
+6-11	197-209	antirasister	*[24]	_	_	_	_	
+6-12	209-210	,	_	_	_	_	_	
+6-13	211-214	som	_	_	_	_	_	
+6-14	215-216	i	_	_	_	_	_	
+6-15	217-219	en	_	_	_	_	_	
+6-16	220-236	motdemonstration	_	_	_	_	_	
+6-17	237-242	ville	_	Target;Source[2]	6-19[25];6-10[24]	false[2]	4[2]	
+6-18	243-250	markera	_	Target;Source[2]	6-19[25];6-10[24]	false[2]	4[2]	
+6-19	251-254	hur	*[25]	_	_	_	_	
+6-20	255-265	avskyvärda	*[25]	Target	6-21[26]	false	1	
+6-21	266-276	nazistiska	*[25]|*[26]	_	_	_	_	
+6-22	277-284	åsikter	*[25]|*[26]	_	_	_	_	
+6-23	285-287	är	*[25]	_	_	_	_	
+6-24	287-288	.	_	_	_	_	_	
+
+#Text=Dessutom fanns där en mängd poliser som skulle motverka att situationen urartade.
+7-1	289-297	Dessutom	_	_	_	_	_	
+7-2	298-303	fanns	_	_	_	_	_	
+7-3	304-307	där	_	_	_	_	_	
+7-4	308-310	en	_	_	_	_	_	
+7-5	311-316	mängd	_	_	_	_	_	
+7-6	317-324	poliser	_	_	_	_	_	
+7-7	325-328	som	_	_	_	_	_	
+7-8	329-335	skulle	_	_	_	_	_	
+7-9	336-344	motverka	_	_	_	_	_	
+7-10	345-348	att	_	_	_	_	_	
+7-11	349-360	situationen	_	_	_	_	_	
+7-12	361-369	urartade	_	_	_	_	_	
+7-13	369-370	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	372-373	#	_	_	_	_	_	
+8-2	373-374	P	_	_	_	_	_	
+8-3	375-378	IMM	_	_	_	_	_	
+8-4	378-379	.	_	_	_	_	_	
+
+#Text=Det gjorde den ändå.
+9-1	381-384	Det	_	_	_	_	_	
+9-2	385-391	gjorde	_	_	_	_	_	
+9-3	392-395	den	_	_	_	_	_	
+9-4	396-400	ändå	_	_	_	_	_	
+9-5	400-401	.	_	_	_	_	_	
+
+#Text=Det som uppmärksammades särskilt i går var det enorma våld som användes av de som ska beskydda oss, folket: polisens.
+10-1	402-405	Det	_	_	_	_	_	
+10-2	406-409	som	_	_	_	_	_	
+10-3	410-425	uppmärksammades	_	_	_	_	_	
+10-4	426-434	särskilt	_	_	_	_	_	
+10-5	435-436	i	_	_	_	_	_	
+10-6	437-440	går	_	_	_	_	_	
+10-7	441-444	var	_	_	_	_	_	
+10-8	445-448	det	_	_	_	_	_	
+10-9	449-455	enorma	_	Target[3]	10-22	false[3]	1[3]	
+10-10	456-460	våld	_	Target[3]	10-22	false[3]	1[3]	
+10-11	461-464	som	_	Target[3]	10-22	false[3]	1[3]	
+10-12	465-473	användes	_	Target[3]	10-22	false[3]	1[3]	
+10-13	474-476	av	_	_	_	_	_	
+10-14	477-479	de	_	_	_	_	_	
+10-15	480-483	som	_	_	_	_	_	
+10-16	484-487	ska	_	_	_	_	_	
+10-17	488-496	beskydda	_	_	_	_	_	
+10-18	497-500	oss	_	_	_	_	_	
+10-19	500-501	,	_	_	_	_	_	
+10-20	502-508	folket	_	_	_	_	_	
+10-21	508-509	:	_	_	_	_	_	
+10-22	510-518	polisens	*	_	_	_	_	
+10-23	518-519	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	521-522	#	_	_	_	_	_	
+11-2	522-523	P	_	_	_	_	_	
+11-3	524-527	IMM	_	_	_	_	_	
+11-4	527-528	.	_	_	_	_	_	
+
+#Text=Personer på plats har bevittnat, berättat, filmat och fotograferat hur poliser kört över en person som fredligt stått stilla med piketbuss.
+12-1	530-538	Personer	_	_	_	_	_	
+12-2	539-541	på	_	_	_	_	_	
+12-3	542-547	plats	_	_	_	_	_	
+12-4	548-551	har	_	_	_	_	_	
+12-5	552-561	bevittnat	_	_	_	_	_	
+12-6	561-562	,	_	_	_	_	_	
+12-7	563-571	berättat	_	_	_	_	_	
+12-8	571-572	,	_	_	_	_	_	
+12-9	573-579	filmat	_	_	_	_	_	
+12-10	580-583	och	_	_	_	_	_	
+12-11	584-596	fotograferat	_	_	_	_	_	
+12-12	597-600	hur	_	_	_	_	_	
+12-13	601-608	poliser	*	_	_	_	_	
+12-14	609-613	kört	_	_	_	_	_	
+12-15	614-618	över	_	_	_	_	_	
+12-16	619-621	en	_	_	_	_	_	
+12-17	622-628	person	_	_	_	_	_	
+12-18	629-632	som	_	_	_	_	_	
+12-19	633-641	fredligt	_	_	_	_	_	
+12-20	642-647	stått	_	_	_	_	_	
+12-21	648-654	stilla	_	_	_	_	_	
+12-22	655-658	med	_	_	_	_	_	
+12-23	659-668	piketbuss	_	_	_	_	_	
+12-24	668-669	.	_	Target	12-13	false	1	
+
+#Text=#P IMM.
+13-1	671-672	#	_	_	_	_	_	
+13-2	672-673	P	_	_	_	_	_	
+13-3	674-677	IMM	_	_	_	_	_	
+13-4	677-678	.	_	_	_	_	_	
+
+#Text=Hur polis ridit rakt in med enorma hästar och struntat i att människor hamnat under hovarna på hästar som vägt uppemot några hundratals kilon.
+14-1	680-683	Hur	_	_	_	_	_	
+14-2	684-689	polis	_	_	_	false	2	
+14-3	690-695	ridit	_	_	_	_	_	
+14-4	696-700	rakt	_	_	_	_	_	
+14-5	701-703	in	_	_	_	_	_	
+14-6	704-707	med	_	_	_	_	_	
+14-7	708-714	enorma	_	_	_	_	_	
+14-8	715-721	hästar	_	_	_	_	_	
+14-9	722-725	och	_	_	_	_	_	
+14-10	726-734	struntat	_	_[4]	_	false[4]	2[4]	
+14-11	735-736	i	_	_[4]	_	false[4]	2[4]	
+14-12	737-740	att	_	_[4]	_	false[4]	2[4]	
+14-13	741-750	människor	_	_[4]	_	false[4]	2[4]	
+14-14	751-757	hamnat	_	_[4]	_	false[4]	2[4]	
+14-15	758-763	under	_	_[4]	_	false[4]	2[4]	
+14-16	764-771	hovarna	_	_[4]	_	false[4]	2[4]	
+14-17	772-774	på	_	_[4]	_	false[4]	2[4]	
+14-18	775-781	hästar	_	_[4]	_	false[4]	2[4]	
+14-19	782-785	som	_	_	_	_	_	
+14-20	786-790	vägt	_	_	_	_	_	
+14-21	791-798	uppemot	_	_	_	_	_	
+14-22	799-804	några	_	_	_	_	_	
+14-23	805-815	hundratals	_	_	_	_	_	
+14-24	816-821	kilon	_	_	_	_	_	
+14-25	821-822	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	824-825	#	_	_	_	_	_	
+15-2	825-826	P	_	_	_	_	_	
+15-3	827-830	IMM	_	_	_	_	_	
+15-4	830-831	.	_	_	_	_	_	
+
+#Text=Hur de slagit motdemonstranter som inte brukat våld men högt skrikit “mördare” mot polisen.
+16-1	833-836	Hur	_	_	_	_	_	
+16-2	837-839	de	_	_	_	_	_	
+16-3	840-846	slagit	_	_	_	_	_	
+16-4	847-863	motdemonstranter	*	_	_	_	_	
+16-5	864-867	som	_	_	_	_	_	
+16-6	868-872	inte	_	_	_	_	_	
+16-7	873-879	brukat	_	_	_	_	_	
+16-8	880-884	våld	_	_	_	_	_	
+16-9	885-888	men	_	_	_	_	_	
+16-10	889-893	högt	_	_	_	_	_	
+16-11	894-901	skrikit	_	_	_	_	_	
+16-12	902-903	“	_	_	_	_	_	
+16-13	903-910	mördare	_	Target;Source	16-16;16-4	false	1	
+16-14	910-911	”	_	_	_	_	_	
+16-15	912-915	mot	_	_	_	_	_	
+16-16	916-923	polisen	*	_	_	_	_	
+16-17	923-924	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	926-927	#	_	_	_	_	_	
+17-2	927-928	P	_	_	_	_	_	
+17-3	929-932	IMM	_	_	_	_	_	
+17-4	932-933	.	_	_	_	_	_	
+
+#Text=Hur polis hindrat ambulanser som försökt ta sig fram för att hjälpa skadade som blivit skadade av just polisen och till och med blockerat en akutmottagning (?!)
+18-1	935-938	Hur	_	_	_	_	_	
+18-2	939-944	polis	_	_	_	_	_	
+18-3	945-952	hindrat	_	_	_	_	_	
+18-4	953-963	ambulanser	_	_	_	_	_	
+18-5	964-967	som	_	_	_	_	_	
+18-6	968-975	försökt	_	_	_	_	_	
+18-7	976-978	ta	_	_	_	_	_	
+18-8	979-982	sig	_	_	_	_	_	
+18-9	983-987	fram	_	_	_	_	_	
+18-10	988-991	för	_	_	_	_	_	
+18-11	992-995	att	_	_	_	_	_	
+18-12	996-1002	hjälpa	_	_	_	_	_	
+18-13	1003-1010	skadade	_	_	_	_	_	
+18-14	1011-1014	som	_	_	_	_	_	
+18-15	1015-1021	blivit	_	_	_	_	_	
+18-16	1022-1029	skadade	_	_	_	_	_	
+18-17	1030-1032	av	_	_	_	_	_	
+18-18	1033-1037	just	_	_	_	_	_	
+18-19	1038-1045	polisen	*	_	_	_	_	
+18-20	1046-1049	och	_	_	_	_	_	
+18-21	1050-1054	till	_	_	_	_	_	
+18-22	1055-1058	och	_	_	_	_	_	
+18-23	1059-1062	med	_	_	_	_	_	
+18-24	1063-1072	blockerat	_	_	_	_	_	
+18-25	1073-1075	en	_	_	_	_	_	
+18-26	1076-1090	akutmottagning	_	_	_	_	_	
+18-27	1091-1092	(	_	_	_	_	_	
+18-28	1092-1093	?	_	_	_	_	_	
+18-29	1093-1094	!	_	_	_	_	_	
+18-30	1094-1095	)	_	Target	18-19	false	1	
+
+#Text=där varje person som ville komma in behövde berätta sitt syfte.
+19-1	1096-1099	där	_	_	_	_	_	
+19-2	1100-1105	varje	_	_	_	_	_	
+19-3	1106-1112	person	_	_	_	_	_	
+19-4	1113-1116	som	_	_	_	_	_	
+19-5	1117-1122	ville	_	_	_	_	_	
+19-6	1123-1128	komma	_	_	_	_	_	
+19-7	1129-1131	in	_	_	_	_	_	
+19-8	1132-1139	behövde	_	_	_	_	_	
+19-9	1140-1147	berätta	_	_	_	_	_	
+19-10	1148-1152	sitt	_	_	_	_	_	
+19-11	1153-1158	syfte	_	_	_	_	_	
+19-12	1158-1159	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1161-1162	#	_	_	_	_	_	
+20-2	1162-1163	P	_	_	_	_	_	
+20-3	1164-1167	IMM	_	_	_	_	_	
+20-4	1167-1168	.	_	_	_	_	_	
+
+#Text=Någon kunde ha dött på plats och det blodet hade varit på polisens händer.
+21-1	1170-1175	Någon	_	_	_	_	_	
+21-2	1176-1181	kunde	_	_	_	_	_	
+21-3	1182-1184	ha	_	_	_	_	_	
+21-4	1185-1189	dött	_	_	_	_	_	
+21-5	1190-1192	på	_	_	_	_	_	
+21-6	1193-1198	plats	_	_	_	_	_	
+21-7	1199-1202	och	_	_	_	_	_	
+21-8	1203-1206	det	_	Target[5]	21-13[27]	false[5]	1[5]	
+21-9	1207-1213	blodet	_	Target[5]	21-13[27]	false[5]	1[5]	
+21-10	1214-1218	hade	_	Target[5]	21-13[27]	false[5]	1[5]	
+21-11	1219-1224	varit	_	Target[5]	21-13[27]	false[5]	1[5]	
+21-12	1225-1227	på	_	Target[5]	21-13[27]	false[5]	1[5]	
+21-13	1228-1236	polisens	*[27]	_	_	_	_	
+21-14	1237-1243	händer	*[27]	_	_	_	_	
+21-15	1243-1244	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1246-1247	#	_	_	_	_	_	
+22-2	1247-1248	P	_	_	_	_	_	
+22-3	1249-1252	IMM	_	_	_	_	_	
+22-4	1252-1253	.	_	_	_	_	_	
+
+#Text=Många uttryckte i medier sorg, ilska och oro över polisens agerande.
+23-1	1255-1260	Många	*	_	_	_	_	
+23-2	1261-1270	uttryckte	_	_	_	_	_	
+23-3	1271-1272	i	_	_	_	_	_	
+23-4	1273-1279	medier	_	_	_	_	_	
+23-5	1280-1284	sorg	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-6	1284-1285	,	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-7	1286-1291	ilska	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-8	1292-1295	och	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-9	1296-1299	oro	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-10	1300-1304	över	_	Source;Target[6]	23-1;23-11[28]	false[6]	1[6]	
+23-11	1305-1313	polisens	*[28]	_	_	_	_	
+23-12	1314-1322	agerande	*[28]	_	_	_	_	
+23-13	1322-1323	.	_	_	_	_	_	
+
+#Text=Vilka ska vi ringa till när det är polisen vi är rädda för?
+24-1	1324-1329	Vilka	_	_	_	_	_	
+24-2	1330-1333	ska	_	_	_	_	_	
+24-3	1334-1336	vi	_	_	_	_	_	
+24-4	1337-1342	ringa	_	_	_	_	_	
+24-5	1343-1347	till	_	_	_	_	_	
+24-6	1348-1351	när	_	_	_	_	_	
+24-7	1352-1355	det	_	_	_	_	_	
+24-8	1356-1358	är	_	_	_	_	_	
+24-9	1359-1366	polisen	*	_	_	_	_	
+24-10	1367-1369	vi	*	_	_	_	_	
+24-11	1370-1372	är	_	Target;Source[7]	24-9;24-10	false[7]	1[7]	
+24-12	1373-1378	rädda	_	Target;Source[7]	24-9;24-10	false[7]	1[7]	
+24-13	1379-1382	för	_	Target;Source[7]	24-9;24-10	false[7]	1[7]	
+24-14	1382-1383	?	_	_	_	_	_	
+
+#Text=Hur underligt är det inte att polisen ska vara de som utreder sina egna handlingar?.
+25-1	1384-1387	Hur	_	_	_	_	_	
+25-2	1388-1397	underligt	_	Target	25-7[29]	false	2	
+25-3	1398-1400	är	_	_	_	_	_	
+25-4	1401-1404	det	_	_	_	_	_	
+25-5	1405-1409	inte	_	_	_	_	_	
+25-6	1410-1413	att	_	_	_	_	_	
+25-7	1414-1421	polisen	*[29]	_	_	_	_	
+25-8	1422-1425	ska	*[29]	_	_	_	_	
+25-9	1426-1430	vara	*[29]	_	_	_	_	
+25-10	1431-1433	de	*[29]	_	_	_	_	
+25-11	1434-1437	som	*[29]	_	_	_	_	
+25-12	1438-1445	utreder	*[29]	_	_	_	_	
+25-13	1446-1450	sina	*[29]	_	_	_	_	
+25-14	1451-1455	egna	*[29]	_	_	_	_	
+25-15	1456-1466	handlingar	*[29]	_	_	_	_	
+25-16	1466-1467	?	_	_	_	_	_	
+25-17	1467-1468	.	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1470-1471	#	_	_	_	_	_	
+26-2	1471-1472	P	_	_	_	_	_	
+26-3	1473-1476	IMM	_	_	_	_	_	
+26-4	1476-1477	.	_	_	_	_	_	
+
+#Text=Jag som aktivist och även rasifierad är redan bekant med ilska och rädsla gentemot polisen.
+27-1	1479-1482	Jag	*	_	_	_	_	
+27-2	1483-1486	som	_	_	_	_	_	
+27-3	1487-1495	aktivist	_	_	_	_	_	
+27-4	1496-1499	och	_	_	_	_	_	
+27-5	1500-1504	även	_	_	_	_	_	
+27-6	1505-1515	rasifierad	_	_	_	_	_	
+27-7	1516-1518	är	_	_	_	_	_	
+27-8	1519-1524	redan	_	_	_	_	_	
+27-9	1525-1531	bekant	_	_	_	_	_	
+27-10	1532-1535	med	_	_	_	_	_	
+27-11	1536-1541	ilska	_	Source;Target[8]	27-1;27-15	false[8]	1[8]	
+27-12	1542-1545	och	_	Source;Target[8]	27-1;27-15	false[8]	1[8]	
+27-13	1546-1552	rädsla	_	Source;Target[8]	27-1;27-15	false[8]	1[8]	
+27-14	1553-1561	gentemot	_	_	_	_	_	
+27-15	1562-1569	polisen	*	_	_	_	_	
+27-16	1569-1570	.	_	_	_	_	_	
+
+#Text=Det är ingenting jag har valt.
+28-1	1571-1574	Det	_	_	_	_	_	
+28-2	1575-1577	är	_	_	_	_	_	
+28-3	1578-1587	ingenting	_	_	_	_	_	
+28-4	1588-1591	jag	_	_	_	_	_	
+28-5	1592-1595	har	_	_	_	_	_	
+28-6	1596-1600	valt	_	_	_	_	_	
+28-7	1600-1601	.	_	_	_	_	_	
+
+#Text=Om valet hade varit mitt hade jag velat lägga all min tillit till dem som ska vara mina beskyddare.
+29-1	1602-1604	Om	_	_	_	_	_	
+29-2	1605-1610	valet	_	_	_	_	_	
+29-3	1611-1615	hade	_	_	_	_	_	
+29-4	1616-1621	varit	_	_	_	_	_	
+29-5	1622-1626	mitt	_	_	_	_	_	
+29-6	1627-1631	hade	_	_	_	_	_	
+29-7	1632-1635	jag	_	_	_	_	_	
+29-8	1636-1641	velat	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-9	1642-1647	lägga	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-10	1648-1651	all	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-11	1652-1655	min	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-12	1656-1662	tillit	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-13	1663-1667	till	_	Target[9]	29-14[30]	false[9]	4[9]	
+29-14	1668-1671	dem	*[30]	_	_	_	_	
+29-15	1672-1675	som	*[30]	_	_	_	_	
+29-16	1676-1679	ska	*[30]	_	_	_	_	
+29-17	1680-1684	vara	*[30]	_	_	_	_	
+29-18	1685-1689	mina	*[30]	_	_	_	_	
+29-19	1690-1700	beskyddare	*[30]	_	_	_	_	
+29-20	1700-1701	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1703-1704	#	_	_	_	_	_	
+30-2	1704-1705	P	_	_	_	_	_	
+30-3	1706-1709	IMM	_	_	_	_	_	
+30-4	1709-1710	.	_	_	_	_	_	
+
+#Text=Men jag minns alla demonstrationer mot nazister och rasister, särskilt motdemonstrationerna, och min och mina medaktivisters rädsla – inte lika mycket för våra fiender med högerextrema åsikter som för ordningsmakten.
+31-1	1712-1715	Men	_	_	_	_	_	
+31-2	1716-1719	jag	_	_	_	_	_	
+31-3	1720-1725	minns	_	_	_	_	_	
+31-4	1726-1730	alla	_	_	_	_	_	
+31-5	1731-1746	demonstrationer	_	_	_	_	_	
+31-6	1747-1750	mot	_	_	_	_	_	
+31-7	1751-1759	nazister	_	_	_	_	_	
+31-8	1760-1763	och	_	_	_	_	_	
+31-9	1764-1772	rasister	_	_	_	_	_	
+31-10	1772-1773	,	_	_	_	_	_	
+31-11	1774-1782	särskilt	_	_	_	_	_	
+31-12	1783-1803	motdemonstrationerna	_	_	_	_	_	
+31-13	1803-1804	,	_	_	_	_	_	
+31-14	1805-1808	och	_	_	_	_	_	
+31-15	1809-1812	min	*[31]	_	_	_	_	
+31-16	1813-1816	och	*[31]	_	_	_	_	
+31-17	1817-1821	mina	*[31]	_	_	_	_	
+31-18	1822-1836	medaktivisters	*[31]	_	_	_	_	
+31-19	1837-1843	rädsla	_	Source;Target	31-15[31];31-32	false	2	
+31-20	1844-1845	–	_	_	_	_	_	
+31-21	1846-1850	inte	_	_	_	_	_	
+31-22	1851-1855	lika	_	_	_	_	_	
+31-23	1856-1862	mycket	_	_	_	_	_	
+31-24	1863-1866	för	_	_	_	_	_	
+31-25	1867-1871	våra	_	_	_	_	_	
+31-26	1872-1879	fiender	_	_	_	_	_	
+31-27	1880-1883	med	_	_	_	_	_	
+31-28	1884-1896	högerextrema	_	_	_	_	_	
+31-29	1897-1904	åsikter	_	_	_	_	_	
+31-30	1905-1908	som	_	_	_	_	_	
+31-31	1909-1912	för	_	_	_	_	_	
+31-32	1913-1927	ordningsmakten	*	_	_	_	_	
+31-33	1927-1928	.	_	_	_	_	_	
+
+#Text=Hur polisen ibland vänt sina batonger mot oss i de antirasistiska tågen, hur de vägrat kalla nazisterna för just nazister, alla gånger de gripit människor rakt ur demonstrationen och använt övervåld utan att ens förklara för oss varför så att vi alla blivit paralyserade av skräck.
+32-1	1929-1932	Hur	_	_	_	_	_	
+32-2	1933-1940	polisen	*	_	_	_	_	
+32-3	1941-1947	ibland	_	_	_	_	_	
+32-4	1948-1952	vänt	_	_	_	_	_	
+32-5	1953-1957	sina	_	_	_	_	_	
+32-6	1958-1966	batonger	_	_	_	_	_	
+32-7	1967-1970	mot	_	_	_	_	_	
+32-8	1971-1974	oss	_	_	_	_	_	
+32-9	1975-1976	i	_	_	_	_	_	
+32-10	1977-1979	de	_	_	_	_	_	
+32-11	1980-1994	antirasistiska	_	_	_	_	_	
+32-12	1995-2000	tågen	_	_	_	_	_	
+32-13	2000-2001	,	_	_	_	_	_	
+32-14	2002-2005	hur	_	_	_	_	_	
+32-15	2006-2008	de	_	_	_	_	_	
+32-16	2009-2015	vägrat	_	Target[10]	32-2	false[10]	2[10]	
+32-17	2016-2021	kalla	_	Target[10]	32-2	false[10]	2[10]	
+32-18	2022-2032	nazisterna	_	Target[10]	32-2	false[10]	2[10]	
+32-19	2033-2036	för	_	Target[10]	32-2	false[10]	2[10]	
+32-20	2037-2041	just	_	Target[10]	32-2	false[10]	2[10]	
+32-21	2042-2050	nazister	_	Target[10]	32-2	false[10]	2[10]	
+32-22	2050-2051	,	_	_	_	_	_	
+32-23	2052-2056	alla	_	_	_	_	_	
+32-24	2057-2063	gånger	_	_	_	_	_	
+32-25	2064-2066	de	_	_	_	_	_	
+32-26	2067-2073	gripit	_	_	_	_	_	
+32-27	2074-2083	människor	_	_	_	_	_	
+32-28	2084-2088	rakt	_	_	_	_	_	
+32-29	2089-2091	ur	_	_	_	_	_	
+32-30	2092-2107	demonstrationen	_	_	_	_	_	
+32-31	2108-2111	och	_	_	_	_	_	
+32-32	2112-2118	använt	_	Target[11]	32-2	false[11]	2[11]	
+32-33	2119-2127	övervåld	_	Target[11]	32-2	false[11]	2[11]	
+32-34	2128-2132	utan	_	_	_	_	_	
+32-35	2133-2136	att	_	_	_	_	_	
+32-36	2137-2140	ens	_	_	_	_	_	
+32-37	2141-2149	förklara	_	_	_	_	_	
+32-38	2150-2153	för	_	_	_	_	_	
+32-39	2154-2157	oss	_	_	_	_	_	
+32-40	2158-2164	varför	_	_	_	_	_	
+32-41	2165-2167	så	_	_	_	_	_	
+32-42	2168-2171	att	_	_	_	_	_	
+32-43	2172-2174	vi	*[32]	_	_	_	_	
+32-44	2175-2179	alla	*[32]	_	_	_	_	
+32-45	2180-2186	blivit	_	_	_	_	_	
+32-46	2187-2199	paralyserade	_	Source[12]	32-43[32]	false[12]	1[12]	
+32-47	2200-2202	av	_	Source[12]	32-43[32]	false[12]	1[12]	
+32-48	2203-2209	skräck	_	Source[12]	32-43[32]	false[12]	1[12]	
+32-49	2209-2210	.	_	_	_	_	_	
+
+#Text=Det här är bara ett axplock av händelser och jag önskade att jag kunde rada upp tusentals fler exempel, men artikeln skulle bli för lång.
+33-1	2211-2214	Det	_	_	_	_	_	
+33-2	2215-2218	här	_	_	_	_	_	
+33-3	2219-2221	är	_	_	_	_	_	
+33-4	2222-2226	bara	_	_	_	_	_	
+33-5	2227-2230	ett	_	_	_	_	_	
+33-6	2231-2238	axplock	_	_	_	_	_	
+33-7	2239-2241	av	_	_	_	_	_	
+33-8	2242-2251	händelser	_	_	_	_	_	
+33-9	2252-2255	och	_	_	_	_	_	
+33-10	2256-2259	jag	*	_	_	_	_	
+33-11	2260-2267	önskade	_	Source;Target	33-10;33-13[33]	false	4	
+33-12	2268-2271	att	_	_	_	_	_	
+33-13	2272-2275	jag	*[33]	_	_	_	_	
+33-14	2276-2281	kunde	*[33]	_	_	_	_	
+33-15	2282-2286	rada	*[33]	_	_	_	_	
+33-16	2287-2290	upp	*[33]	_	_	_	_	
+33-17	2291-2300	tusentals	*[33]	_	_	_	_	
+33-18	2301-2305	fler	*[33]	_	_	_	_	
+33-19	2306-2313	exempel	*[33]	_	_	_	_	
+33-20	2313-2314	,	_	_	_	_	_	
+33-21	2315-2318	men	_	_	_	_	_	
+33-22	2319-2327	artikeln	_	_	_	_	_	
+33-23	2328-2334	skulle	_	_	_	_	_	
+33-24	2335-2338	bli	_	_	_	_	_	
+33-25	2339-2342	för	_	_	_	_	_	
+33-26	2343-2347	lång	_	_	_	_	_	
+33-27	2347-2348	.	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2350-2351	#	_	_	_	_	_	
+34-2	2351-2352	P	_	_	_	_	_	
+34-3	2353-2356	IMM	_	_	_	_	_	
+34-4	2356-2357	.	_	_	_	_	_	
+
+#Text=Jag minns även hur jag genom tiden haft så många anledningar att frukta polisen på grund av min hudfärg, när jag i rollen som ung rasifierad i förorten hörde hur de kallade mina kamrater i Husby för “råttor” och “snorungar”, eller när jag befunnit mig i Stockholms tunnelbana utan ID och därför vetat att de kunnat dra med mig till närmaste polisstation baserat endast på mitt yttre.
+35-1	2359-2362	Jag	_	_	_	_	_	
+35-2	2363-2368	minns	_	_	_	_	_	
+35-3	2369-2373	även	_	_	_	_	_	
+35-4	2374-2377	hur	_	_	_	_	_	
+35-5	2378-2381	jag	*	_	_	_	_	
+35-6	2382-2387	genom	_	_	_	_	_	
+35-7	2388-2393	tiden	_	_	_	_	_	
+35-8	2394-2398	haft	_	_	_	_	_	
+35-9	2399-2401	så	_	_	_	_	_	
+35-10	2402-2407	många	_	_	_	_	_	
+35-11	2408-2419	anledningar	_	_	_	_	_	
+35-12	2420-2423	att	_	_	_	_	_	
+35-13	2424-2430	frukta	_	Target;Source	35-14;35-5	false	1	
+35-14	2431-2438	polisen	*	_	_	_	_	
+35-15	2439-2441	på	_	_	_	_	_	
+35-16	2442-2447	grund	_	_	_	_	_	
+35-17	2448-2450	av	_	_	_	_	_	
+35-18	2451-2454	min	_	_	_	_	_	
+35-19	2455-2462	hudfärg	_	_	_	_	_	
+35-20	2462-2463	,	_	_	_	_	_	
+35-21	2464-2467	när	_	_	_	_	_	
+35-22	2468-2471	jag	_	_	_	_	_	
+35-23	2472-2473	i	_	_	_	_	_	
+35-24	2474-2480	rollen	_	_	_	_	_	
+35-25	2481-2484	som	_	_	_	_	_	
+35-26	2485-2488	ung	_	_	_	_	_	
+35-27	2489-2499	rasifierad	_	_	_	_	_	
+35-28	2500-2501	i	_	_	_	_	_	
+35-29	2502-2510	förorten	_	_	_	_	_	
+35-30	2511-2516	hörde	_	_	_	_	_	
+35-31	2517-2520	hur	_	_	_	_	_	
+35-32	2521-2523	de	*	_	_	_	_	
+35-33	2524-2531	kallade	_	_	_	_	_	
+35-34	2532-2536	mina	*[34]	_	_	_	_	
+35-35	2537-2545	kamrater	*[34]	_	_	_	_	
+35-36	2546-2547	i	*[34]	_	_	_	_	
+35-37	2548-2553	Husby	*[34]	_	_	_	_	
+35-38	2554-2557	för	_	_	_	_	_	
+35-39	2558-2559	“	_	_	_	_	_	
+35-40	2559-2565	råttor	_	Source;Target[13]	35-32;35-34[34]	false[13]	1[13]	
+35-41	2565-2566	”	_	Source;Target[13]	35-32;35-34[34]	false[13]	1[13]	
+35-42	2567-2570	och	_	Source;Target[13]	35-32;35-34[34]	false[13]	1[13]	
+35-43	2571-2572	“	_	Source;Target[13]	35-32;35-34[34]	false[13]	1[13]	
+35-44	2572-2581	snorungar	_	Source;Target[13]	35-32;35-34[34]	false[13]	1[13]	
+35-45	2581-2582	”	_	_	_	_	_	
+35-46	2582-2583	,	_	_	_	_	_	
+35-47	2584-2589	eller	_	_	_	_	_	
+35-48	2590-2593	när	_	_	_	_	_	
+35-49	2594-2597	jag	_	_	_	_	_	
+35-50	2598-2606	befunnit	_	_	_	_	_	
+35-51	2607-2610	mig	_	_	_	_	_	
+35-52	2611-2612	i	_	_	_	_	_	
+35-53	2613-2623	Stockholms	_	_	_	_	_	
+35-54	2624-2634	tunnelbana	_	_	_	_	_	
+35-55	2635-2639	utan	_	_	_	_	_	
+35-56	2640-2642	ID	_	_	_	_	_	
+35-57	2643-2646	och	_	_	_	_	_	
+35-58	2647-2653	därför	_	_	_	_	_	
+35-59	2654-2659	vetat	_	_	_	_	_	
+35-60	2660-2663	att	_	_	_	_	_	
+35-61	2664-2666	de	_	_	_	_	_	
+35-62	2667-2673	kunnat	_	_	_	_	_	
+35-63	2674-2677	dra	_	_	_	_	_	
+35-64	2678-2681	med	_	_	_	_	_	
+35-65	2682-2685	mig	_	_	_	_	_	
+35-66	2686-2690	till	_	_	_	_	_	
+35-67	2691-2699	närmaste	_	_	_	_	_	
+35-68	2700-2712	polisstation	_	_	_	_	_	
+35-69	2713-2720	baserat	_	_	_	_	_	
+35-70	2721-2727	endast	_	_	_	_	_	
+35-71	2728-2730	på	_	_	_	_	_	
+35-72	2731-2735	mitt	_	_	_	_	_	
+35-73	2736-2741	yttre	_	_	_	_	_	
+35-74	2741-2742	.	_	_	_	_	_	
+
+#Text=Trots att jag var aldrig varit skyldig till brott.
+36-1	2743-2748	Trots	_	_	_	_	_	
+36-2	2749-2752	att	_	_	_	_	_	
+36-3	2753-2756	jag	_	_	_	_	_	
+36-4	2757-2760	var	_	_	_	_	_	
+36-5	2761-2767	aldrig	_	_	_	_	_	
+36-6	2768-2773	varit	_	_	_	_	_	
+36-7	2774-2781	skyldig	_	_	_	_	_	
+36-8	2782-2786	till	_	_	_	_	_	
+36-9	2787-2792	brott	_	_	_	_	_	
+36-10	2792-2793	.	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2795-2796	#	_	_	_	_	_	
+37-2	2796-2797	P	_	_	_	_	_	
+37-3	2798-2801	IMM	_	_	_	_	_	
+37-4	2801-2802	.	_	_	_	_	_	
+
+#Text=Många rättfärdigar polisens våld med att antirasisterna var arga och aggressiva.
+38-1	2804-2809	Många	*	_	_	_	_	
+38-2	2810-2822	rättfärdigar	_	Source;Target	38-1;38-3[35]	false	4	
+38-3	2823-2831	polisens	*[35]	_	_	_	_	
+38-4	2832-2836	våld	*[35]	_	_	_	_	
+38-5	2837-2840	med	_	_	_	_	_	
+38-6	2841-2844	att	_	_	_	_	_	
+38-7	2845-2859	antirasisterna	*	_	_	_	_	
+38-8	2860-2863	var	_	Source;Target[14]	38-1;38-7	false[14]	1[14]	
+38-9	2864-2868	arga	_	Source;Target[14]	38-1;38-7	false[14]	1[14]	
+38-10	2869-2872	och	_	Source;Target[14]	38-1;38-7	false[14]	1[14]	
+38-11	2873-2883	aggressiva	_	Source;Target[14]	38-1;38-7	false[14]	1[14]	
+38-12	2883-2884	.	_	_	_	_	_	
+
+#Text=Men vad lever vi i för samhälle om ilska mot nazism och rasism kan motivera att ditt ben bryts av polis?
+39-1	2885-2888	Men	_	_	_	_	_	
+39-2	2889-2892	vad	_	_	_	_	_	
+39-3	2893-2898	lever	_	_	_	_	_	
+39-4	2899-2901	vi	_	_	_	_	_	
+39-5	2902-2903	i	_	_	_	_	_	
+39-6	2904-2907	för	_	_	_	_	_	
+39-7	2908-2916	samhälle	_	_	_	_	_	
+39-8	2917-2919	om	_	_	_	_	_	
+39-9	2920-2925	ilska	_	Target[15]	39-11[36]	false[15]	1[15]	
+39-10	2926-2929	mot	_	Target[15]	39-11[36]	false[15]	1[15]	
+39-11	2930-2936	nazism	*[36]	_	_	_	_	
+39-12	2937-2940	och	*[36]	_	_	_	_	
+39-13	2941-2947	rasism	*[36]	_	_	_	_	
+39-14	2948-2951	kan	_	_	_	_	_	
+39-15	2952-2960	motivera	_	_	_	_	_	
+39-16	2961-2964	att	_	_	_	_	_	
+39-17	2965-2969	ditt	_	_	_	_	_	
+39-18	2970-2973	ben	_	_	_	_	_	
+39-19	2974-2979	bryts	_	_	_	_	_	
+39-20	2980-2982	av	_	_	_	_	_	
+39-21	2983-2988	polis	_	_	_	_	_	
+39-22	2988-2989	?	_	_	_	_	_	
+
+#Text=Att du ska slås blodig av batonger, eller att du ska vara nära på att dödas av enorma hästar?.
+40-1	2990-2993	Att	_	_	_	_	_	
+40-2	2994-2996	du	_	_	_	_	_	
+40-3	2997-3000	ska	_	_	_	_	_	
+40-4	3001-3005	slås	_	_	_	_	_	
+40-5	3006-3012	blodig	_	_	_	_	_	
+40-6	3013-3015	av	_	_	_	_	_	
+40-7	3016-3024	batonger	_	_	_	_	_	
+40-8	3024-3025	,	_	_	_	_	_	
+40-9	3026-3031	eller	_	_	_	_	_	
+40-10	3032-3035	att	_	_	_	_	_	
+40-11	3036-3038	du	_	_	_	_	_	
+40-12	3039-3042	ska	_	_	_	_	_	
+40-13	3043-3047	vara	_	_	_	_	_	
+40-14	3048-3052	nära	_	_	_	_	_	
+40-15	3053-3055	på	_	_	_	_	_	
+40-16	3056-3059	att	_	_	_	_	_	
+40-17	3060-3065	dödas	_	_	_	_	_	
+40-18	3066-3068	av	_	_	_	_	_	
+40-19	3069-3075	enorma	_	_	_	_	_	
+40-20	3076-3082	hästar	_	_	_	_	_	
+40-21	3082-3083	?	_	_	_	_	_	
+40-22	3083-3084	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3086-3087	#	_	_	_	_	_	
+41-2	3087-3088	P	_	_	_	_	_	
+41-3	3089-3092	IMM	_	_	_	_	_	
+41-4	3092-3093	.	_	_	_	_	_	
+
+#Text=Istället måste kritiken riktas mot polisen, som inte ser att demokrati är mer än att bara högerextrema får tala.
+42-1	3095-3103	Istället	_	_	_	_	_	
+42-2	3104-3109	måste	_	Target[16]	42-6	false[16]	2[16]	
+42-3	3110-3118	kritiken	_	Target[16]	42-6	false[16]	2[16]	
+42-4	3119-3125	riktas	_	Target[16]	42-6	false[16]	2[16]	
+42-5	3126-3129	mot	_	Target[16]	42-6	false[16]	2[16]	
+42-6	3130-3137	polisen	*	_	_	_	_	
+42-7	3137-3138	,	_	_	_	_	_	
+42-8	3139-3142	som	_	_	_	_	_	
+42-9	3143-3147	inte	_	_	_	_	_	
+42-10	3148-3151	ser	_	_	_	_	_	
+42-11	3152-3155	att	_	_	_	_	_	
+42-12	3156-3165	demokrati	_	Target[17]	42-17[37]	false[17]	4[17]	
+42-13	3166-3168	är	_	Target[17]	42-17[37]	false[17]	4[17]	
+42-14	3169-3172	mer	_	Target[17]	42-17[37]	false[17]	4[17]	
+42-15	3173-3175	än	_	Target[17]	42-17[37]	false[17]	4[17]	
+42-16	3176-3179	att	_	_	_	_	_	
+42-17	3180-3184	bara	*[37]	_	_	_	_	
+42-18	3185-3197	högerextrema	*[37]	_	_	_	_	
+42-19	3198-3201	får	*[37]	_	_	_	_	
+42-20	3202-3206	tala	*[37]	_	_	_	_	
+42-21	3206-3207	.	_	_	_	_	_	
+
+#Text=För om det är något som är odemokratiskt så är det att skrämma människor från att demonstrera och stå upp för ett samhälle som betonar allas lika värde på grund av just dem.
+43-1	3208-3211	För	_	_	_	_	_	
+43-2	3212-3214	om	_	_	_	_	_	
+43-3	3215-3218	det	_	_	_	_	_	
+43-4	3219-3221	är	_	_	_	_	_	
+43-5	3222-3227	något	_	_	_	_	_	
+43-6	3228-3231	som	_	_	_	_	_	
+43-7	3232-3234	är	_	_[18]	_	false[18]	2[18]	
+43-8	3235-3248	odemokratiskt	_	_[18]	_	false[18]	2[18]	
+43-9	3249-3251	så	_	_	_	_	_	
+43-10	3252-3254	är	_	_	_	_	_	
+43-11	3255-3258	det	_	_	_	_	_	
+43-12	3259-3262	att	_	_	_	_	_	
+43-13	3263-3270	skrämma	_	_[19]	_	false[19]	2[19]	
+43-14	3271-3280	människor	_	_[19]	_	false[19]	2[19]	
+43-15	3281-3285	från	_	_[19]	_	false[19]	2[19]	
+43-16	3286-3289	att	_	_[19]	_	false[19]	2[19]	
+43-17	3290-3301	demonstrera	_	_[19]	_	false[19]	2[19]	
+43-18	3302-3305	och	_	_[19]	_	false[19]	2[19]	
+43-19	3306-3309	stå	_	_[19]	_	false[19]	2[19]	
+43-20	3310-3313	upp	_	_[19]	_	false[19]	2[19]	
+43-21	3314-3317	för	_	_[19]	_	false[19]	2[19]	
+43-22	3318-3321	ett	_	_[19]	_	false[19]	2[19]	
+43-23	3322-3330	samhälle	_	_[19]	_	false[19]	2[19]	
+43-24	3331-3334	som	_	_[19]	_	false[19]	2[19]	
+43-25	3335-3342	betonar	_	_[19]	_	false[19]	2[19]	
+43-26	3343-3348	allas	_	_[19]	_	false[19]	2[19]	
+43-27	3349-3353	lika	_	_[19]	_	false[19]	2[19]	
+43-28	3354-3359	värde	_	_[19]	_	false[19]	2[19]	
+43-29	3360-3362	på	_	_[19]	_	false[19]	2[19]	
+43-30	3363-3368	grund	_	_[19]	_	false[19]	2[19]	
+43-31	3369-3371	av	_	_[19]	_	false[19]	2[19]	
+43-32	3372-3376	just	_	_[19]	_	false[19]	2[19]	
+43-33	3377-3380	dem	_	_[19]	_	false[19]	2[19]	
+43-34	3380-3381	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3383-3384	#	_	_	_	_	_	
+44-2	3384-3385	P	_	_	_	_	_	
+44-3	3386-3389	IMM	_	_	_	_	_	
+44-4	3389-3390	.	_	_	_	_	_	
+
+#Text=Vår rädsla är befogad och att skrämma människor till tystnad med övervåld är motsatsen till den demokrati de flesta av oss förespråkar.
+45-1	3392-3395	Vår	*[38]	_	_	_	_	
+45-2	3396-3402	rädsla	*[38]	_	_	_	_	
+45-3	3403-3405	är	_	Target[20]	45-1[38]	false[20]	4[20]	
+45-4	3406-3413	befogad	_	Target[20]	45-1[38]	false[20]	4[20]	
+45-5	3414-3417	och	_	_	_	_	_	
+45-6	3418-3421	att	_	_	_	_	_	
+45-7	3422-3429	skrämma	*[39]	_	_	_	_	
+45-8	3430-3439	människor	*[39]	_	_	_	_	
+45-9	3440-3444	till	*[39]	_	_	_	_	
+45-10	3445-3452	tystnad	*[39]	_	_	_	_	
+45-11	3453-3456	med	*[39]	_	_	_	_	
+45-12	3457-3465	övervåld	*[39]	_	_	_	_	
+45-13	3466-3468	är	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-14	3469-3478	motsatsen	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-15	3479-3483	till	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-16	3484-3487	den	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-17	3488-3497	demokrati	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-18	3498-3500	de	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-19	3501-3507	flesta	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-20	3508-3510	av	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-21	3511-3514	oss	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-22	3515-3526	förespråkar	_	Target[21]	45-7[39]	false[21]	2[21]	
+45-23	3526-3527	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3529-3530	#	_	_	_	_	_	
+46-2	3530-3531	P	_	_	_	_	_	
+46-3	3532-3535	IMM	_	_	_	_	_	
+46-4	3535-3536	.	_	_	_	_	_	
+
+#Text=Angela Larsson.
+47-1	3538-3544	Angela	_	_	_	_	_	
+47-2	3545-3552	Larsson	_	_	_	_	_	
+47-3	3552-3553	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3555-3556	#	_	_	_	_	_	
+48-2	3556-3557	P	_	_	_	_	_	
+48-3	3558-3561	IMM	_	_	_	_	_	
+48-4	3561-3562	.	_	_	_	_	_	
+
+#Text=Frilansskribent och aktivist.
+49-1	3564-3579	Frilansskribent	_	_	_	_	_	
+49-2	3580-3583	och	_	_	_	_	_	
+49-3	3584-3592	aktivist	_	_	_	_	_	
+49-4	3592-3593	.	_	_	_	_	_	

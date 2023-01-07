@@ -1,0 +1,1045 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tio års internationell kritik   
+#Text=– men inget har hänt.
+3-1	18-21	Tio	_	_	_	_	_	_	_	
+3-2	22-25	års	_	_	_	_	_	_	_	
+3-3	26-40	internationell	*	_	_	_	_	_	_	
+3-4	41-47	kritik	_	Source	3-3	false	2	_	_	
+3-5	51-52	–	_	_	_	_	_	_	_	
+3-6	53-56	men	_	_	_	_	_	_	_	
+3-7	57-62	inget	_	_	_	_	_	_	_	
+3-8	63-66	har	_	_	_	_	_	_	_	
+3-9	67-71	hänt	_	_	_	_	_	_	_	
+3-10	71-72	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	74-75	#	_	_	_	_	_	_	_	
+4-2	75-76	P	_	_	_	_	_	_	_	
+4-3	77-80	IMM	_	_	_	_	_	_	_	
+4-4	80-81	.	_	_	_	_	_	_	_	
+
+#Text=Trots tio års kritik från olika FN-instanser har Sverige fortfarande problem med strukturell rasism, diskriminering och hatbrott.
+5-1	83-88	Trots	_	_	_	_	_	_	_	
+5-2	89-92	tio	_	_	_	_	_	_	_	
+5-3	93-96	års	_	_	_	_	_	_	_	
+5-4	97-103	kritik	_	Source;Target;Target	5-6[26];5-13[27];5-9	false	2	_	_	
+5-5	104-108	från	_	_	_	_	_	_	_	
+5-6	109-114	olika	*[26]	_	_	_	_	_	_	
+5-7	115-127	FN-instanser	*[26]	_	_	_	_	_	_	
+5-8	128-131	har	_	Target	5-9	false	1	_	_	
+5-9	132-139	Sverige	*	_	_	_	_	_	_	
+5-10	140-151	fortfarande	_	Target[1]	5-9	false[1]	1[1]	5-8[0_1]	_	
+5-11	152-159	problem	_	Target[1]	5-9	false[1]	1[1]	_	_	
+5-12	160-163	med	_	Target[1]	5-9	false[1]	1[1]	_	_	
+5-13	164-175	strukturell	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-14	176-182	rasism	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-15	182-183	,	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-16	184-198	diskriminering	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-17	199-202	och	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-18	203-211	hatbrott	*[27]	Target[1]	5-9	false[1]	1[1]	_	_	
+5-19	211-212	.	_	_	_	_	_	_	_	
+
+#Text=Sverige saknar en tydlig strategi för att bekämpa detta.
+6-1	213-220	Sverige	*	_	_	_	_	_	_	
+6-2	221-227	saknar	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-3	228-230	en	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-4	231-237	tydlig	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-5	238-246	strategi	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-6	247-250	för	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-7	251-254	att	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-8	255-262	bekämpa	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-9	263-268	detta	_	Target[2]	6-1	false[2]	2[2]	_	_	
+6-10	268-269	.	_	_	_	_	_	_	_	
+
+#Text=Det hög tid för regeringen att agera, skriver Aleksander Gabelic, ordförande i Svenska FN-förbundet.
+7-1	270-273	Det	_	_	_	_	_	_	_	
+7-2	274-277	hög	_	_	_	_	_	_	_	
+7-3	278-281	tid	_	_	_	_	_	_	_	
+7-4	282-285	för	_	_	_	_	_	_	_	
+7-5	286-296	regeringen	_	_	_	_	_	_	_	
+7-6	297-300	att	_	_	_	_	_	_	_	
+7-7	301-306	agera	_	_	_	_	_	_	_	
+7-8	306-307	,	_	_	_	_	_	_	_	
+7-9	308-315	skriver	_	_	_	_	_	_	_	
+7-10	316-326	Aleksander	_	_	_	_	_	_	_	
+7-11	327-334	Gabelic	_	_	_	_	_	_	_	
+7-12	334-335	,	_	_	_	_	_	_	_	
+7-13	336-346	ordförande	_	_	_	_	_	_	_	
+7-14	347-348	i	_	_	_	_	_	_	_	
+7-15	349-356	Svenska	*[28]	_	_	_	_	_	9-1[0_28]	
+7-16	357-369	FN-förbundet	*[28]	_	_	_	_	_	_	
+7-17	369-370	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	372-373	#	_	_	_	_	_	_	_	
+8-2	373-374	P	_	_	_	_	_	_	_	
+8-3	375-378	IMM	_	_	_	_	_	_	_	
+8-4	378-379	.	_	_	_	_	_	_	_	
+
+#Text=Vi föreslår att regeringen med FN:s stöd inrättar en ny myndighet som placeras direkt under riksdagen.Aleksander Gabelic.
+9-1	381-383	Vi	*	_	_	_	_	_	_	
+9-2	384-392	föreslår	_	Target;Source	9-3[29];9-1	false	4	_	_	
+9-3	393-396	att	*[29]	_	_	_	_	_	_	
+9-4	397-407	regeringen	*[29]	_	_	_	_	_	_	
+9-5	408-411	med	*[29]	_	_	_	_	_	_	
+9-6	412-414	FN	*[29]	_	_	_	_	_	_	
+9-7	414-415	:	*[29]	_	_	_	_	_	_	
+9-8	415-416	s	*[29]	_	_	_	_	_	_	
+9-9	417-421	stöd	*[29]	_	_	_	_	_	_	
+9-10	422-430	inrättar	*[29]	_	_	_	_	_	_	
+9-11	431-433	en	*[29]	_	_	_	_	_	_	
+9-12	434-436	ny	*[29]	_	_	_	_	_	_	
+9-13	437-446	myndighet	*[29]	_	_	_	_	_	_	
+9-14	447-450	som	_	_	_	_	_	_	_	
+9-15	451-459	placeras	_	_	_	_	_	_	_	
+9-16	460-466	direkt	_	_	_	_	_	_	_	
+9-17	467-472	under	_	_	_	_	_	_	_	
+9-18	473-493	riksdagen.Aleksander	_	_	_	_	_	_	_	
+9-19	494-501	Gabelic	_	_	_	_	_	_	_	
+9-20	501-502	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	504-505	#	_	_	_	_	_	_	_	
+10-2	505-506	P	_	_	_	_	_	_	_	
+10-3	507-510	IMM	_	_	_	_	_	_	_	
+10-4	510-511	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	513-516	Det	_	_	_	_	_	_	_	
+11-2	517-520	här	_	_	_	_	_	_	_	
+11-3	521-523	är	_	_	_	_	_	_	_	
+11-4	524-526	en	_	_	_	_	_	_	_	
+11-5	527-541	argumenterande	_	_	_	_	_	_	_	
+11-6	542-546	text	_	_	_	_	_	_	_	
+11-7	547-550	med	_	_	_	_	_	_	_	
+11-8	551-556	syfte	_	_	_	_	_	_	_	
+11-9	557-560	att	_	_	_	_	_	_	_	
+11-10	561-568	påverka	_	_	_	_	_	_	_	
+11-11	568-569	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	570-579	Åsikterna	_	_	_	_	_	_	_	
+12-2	580-583	som	_	_	_	_	_	_	_	
+12-3	584-592	uttrycks	_	_	_	_	_	_	_	
+12-4	593-595	är	_	_	_	_	_	_	_	
+12-5	596-607	skribentens	_	_	_	_	_	_	_	
+12-6	608-612	egna	_	_	_	_	_	_	_	
+12-7	612-613	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	615-616	#	_	_	_	_	_	_	_	
+13-2	616-617	P	_	_	_	_	_	_	_	
+13-3	618-621	IMM	_	_	_	false	3	_	_	
+13-4	621-622	.	_	_	_	_	_	_	_	
+
+#Text=Att akademiker med utländsk bakgrund i Sverige förvägras arbete motsvarande sin kompetens och i stället kör taxi har debatterats i tjugo år.
+14-1	624-627	Att	_	_	_	_	_	_	_	
+14-2	628-638	akademiker	*[30]	_	_	_	_	_	_	
+14-3	639-642	med	*[30]	_	_	_	_	_	_	
+14-4	643-651	utländsk	*[30]	_	_	_	_	_	_	
+14-5	652-660	bakgrund	*[30]	_	_	_	_	_	_	
+14-6	661-662	i	*[30]	_	_	_	_	_	_	
+14-7	663-670	Sverige	*[30]	_	_	_	_	_	_	
+14-8	671-680	förvägras	*[30]	Target[3]	14-2[30]	false[3]	2[3]	_	_	
+14-9	681-687	arbete	*[30]	Target[3]	14-2[30]	false[3]	2[3]	_	_	
+14-10	688-699	motsvarande	*[30]	_	_	_	_	_	_	
+14-11	700-703	sin	*[30]	_	_	_	_	_	_	
+14-12	704-713	kompetens	*[30]	_	_	_	_	_	_	
+14-13	714-717	och	_	_	_	_	_	_	_	
+14-14	718-719	i	_	_	_	_	_	_	_	
+14-15	720-727	stället	_	_	_	_	_	_	_	
+14-16	728-731	kör	_	_	_	_	_	_	_	
+14-17	732-736	taxi	_	_	_	_	_	_	_	
+14-18	737-740	har	_	_	_	_	_	_	_	
+14-19	741-752	debatterats	_	_	_	_	_	_	_	
+14-20	753-754	i	_	_	_	_	_	_	_	
+14-21	755-760	tjugo	_	_	_	_	_	_	_	
+14-22	761-763	år	_	_	_	_	_	_	_	
+14-23	763-764	.	_	_	_	_	_	_	_	
+
+#Text=Trots det drabbas fortfarande tusentals människor i Sverige av diskriminering på arbetsmarknaden.
+15-1	765-770	Trots	_	_	_	_	_	_	_	
+15-2	771-774	det	_	_	_	_	_	_	_	
+15-3	775-782	drabbas	*[31]	Target	15-3[31]	false	2	_	_	
+15-4	783-794	fortfarande	*[31]	_	_	_	_	_	_	
+15-5	795-804	tusentals	*[31]	_	_	_	_	_	_	
+15-6	805-814	människor	*[31]	_	_	_	_	_	_	
+15-7	815-816	i	*[31]	_	_	_	_	_	_	
+15-8	817-824	Sverige	*[31]	_	_	_	_	_	_	
+15-9	825-827	av	*[31]	Target[4]	15-3[31]	false[4]	2[4]	15-3[0_4]	_	
+15-10	828-842	diskriminering	*[31]	Target[4]	15-3[31]	false[4]	2[4]	_	_	
+15-11	843-845	på	*[31]	_	_	_	_	_	_	
+15-12	846-861	arbetsmarknaden	*[31]	_	_	_	_	_	_	
+15-13	861-862	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	864-865	#	_	_	_	_	_	_	_	
+16-2	865-866	P	_	_	_	_	_	_	_	
+16-3	867-870	IMM	_	_	_	false	3	_	_	
+16-4	870-871	.	_	_	_	_	_	_	_	
+
+#Text=Avsaknaden av framsteg i integrationspolitiken präglar det förhör som hålls med Sveriges regering på torsdag och fredag i FN:s rasdiskrimineringskommitté i Genève.
+17-1	873-883	Avsaknaden	_	Source;Target[5]	17-19[32];17-5	false[5]	3[5]	_	_	
+17-2	884-886	av	_	Source;Target[5]	17-19[32];17-5	false[5]	3[5]	_	_	
+17-3	887-895	framsteg	_	Source;Target[5]	17-19[32];17-5	false[5]	3[5]	_	_	
+17-4	896-897	i	_	_	_	_	_	_	_	
+17-5	898-919	integrationspolitiken	*	_	_	_	_	_	_	
+17-6	920-927	präglar	_	_	_	_	_	_	_	
+17-7	928-931	det	_	_	_	_	_	_	_	
+17-8	932-938	förhör	_	_	_	_	_	_	_	
+17-9	939-942	som	_	_	_	_	_	_	_	
+17-10	943-948	hålls	_	_	_	_	_	_	_	
+17-11	949-952	med	_	_	_	_	_	_	_	
+17-12	953-961	Sveriges	_	_	_	_	_	_	_	
+17-13	962-970	regering	_	_	_	_	_	_	_	
+17-14	971-973	på	_	_	_	_	_	_	_	
+17-15	974-981	torsdag	_	_	_	_	_	_	_	
+17-16	982-985	och	_	_	_	_	_	_	_	
+17-17	986-992	fredag	_	_	_	_	_	_	_	
+17-18	993-994	i	_	_	_	_	_	_	_	
+17-19	995-997	FN	*[32]	_	_	_	_	_	_	
+17-20	997-998	:	*[32]	_	_	_	_	_	_	
+17-21	998-999	s	*[32]	_	_	_	_	_	_	
+17-22	1000-1026	rasdiskrimineringskommitté	*[32]	_	_	_	_	_	_	
+17-23	1027-1028	i	_	_	_	_	_	_	_	
+17-24	1029-1035	Genève	_	_	_	_	_	_	_	
+17-25	1035-1036	.	_	_	_	_	_	_	_	
+
+#Text=I en rapport till kommittén framhåller Svenska FN-förbundet att Sverige trots tio års kritik från olika FN-instanser fortfarande har problem med strukturell rasism, diskriminering och hatbrott.
+18-1	1037-1038	I	_	_	_	_	_	_	_	
+18-2	1039-1041	en	_	_	_	_	_	_	_	
+18-3	1042-1049	rapport	_	_	_	_	_	_	_	
+18-4	1050-1054	till	_	_	_	_	_	_	_	
+18-5	1055-1064	kommittén	_	_	_	_	_	_	_	
+18-6	1065-1075	framhåller	_	_	_	_	_	_	_	
+18-7	1076-1083	Svenska	*[33]	_	_	_	_	_	27-1[0_33]|19-1[0_33]	
+18-8	1084-1096	FN-förbundet	*[33]	_	_	_	_	_	_	
+18-9	1097-1100	att	_	_	_	_	_	_	_	
+18-10	1101-1108	Sverige	*	_	_	_	_	_	_	
+18-11	1109-1114	trots	_	_	_	_	_	_	_	
+18-12	1115-1118	tio	_	_	_	_	_	_	_	
+18-13	1119-1122	års	_	_	_	_	_	_	_	
+18-14	1123-1129	kritik	_	Target;Target;Source	18-22[35];18-10;18-16[34]	false	2	_	_	
+18-15	1130-1134	från	_	_	_	_	_	_	_	
+18-16	1135-1140	olika	*[34]	_	_	_	_	_	_	
+18-17	1141-1153	FN-instanser	*[34]	_	_	_	_	_	_	
+18-18	1154-1165	fortfarande	_	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-19	1166-1169	har	_	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-20	1170-1177	problem	_	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-21	1178-1181	med	_	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-22	1182-1193	strukturell	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-23	1194-1200	rasism	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-24	1200-1201	,	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-25	1202-1216	diskriminering	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-26	1217-1220	och	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-27	1221-1229	hatbrott	*[35]	Source;Target[6]	18-7[33];18-10	false[6]	1[6]	_	_	
+18-28	1229-1230	.	_	_	_	_	_	_	_	
+
+#Text=Vi föreslår en rad åtgärder för att få fart på integrationsarbetet i Sverige – från en ny myndighet för mänskliga rättigheter till utbildning i kommunerna för att stoppa diskriminering i vardagen.
+19-1	1231-1233	Vi	*	_	_	_	_	_	_	
+19-2	1234-1242	föreslår	_	Source;Target	19-1;19-3[36]	false	4	_	_	
+19-3	1243-1245	en	*[36]	_	_	_	_	_	_	
+19-4	1246-1249	rad	*[36]	_	_	_	_	_	_	
+19-5	1250-1258	åtgärder	*[36]	_	_	_	_	_	_	
+19-6	1259-1262	för	*[36]	_	_	_	_	_	_	
+19-7	1263-1266	att	*[36]	_	_	_	_	_	_	
+19-8	1267-1269	få	*[36]	_	_	_	_	_	_	
+19-9	1270-1274	fart	*[36]	_	_	_	_	_	_	
+19-10	1275-1277	på	*[36]	_	_	_	_	_	_	
+19-11	1278-1297	integrationsarbetet	*[36]	_	_	_	_	_	_	
+19-12	1298-1299	i	*[36]	_	_	_	_	_	_	
+19-13	1300-1307	Sverige	*[36]	_	_	_	_	_	_	
+19-14	1308-1309	–	*[36]	_	_	_	_	_	_	
+19-15	1310-1314	från	*[36]	_	_	_	_	_	_	
+19-16	1315-1317	en	*[36]	_	_	_	_	_	_	
+19-17	1318-1320	ny	*[36]	_	_	_	_	_	_	
+19-18	1321-1330	myndighet	*[36]	_	_	_	_	_	_	
+19-19	1331-1334	för	*[36]	_	_	_	_	_	_	
+19-20	1335-1344	mänskliga	*[36]	_	_	_	_	_	_	
+19-21	1345-1356	rättigheter	*[36]	_	_	_	_	_	_	
+19-22	1357-1361	till	*[36]	_	_	_	_	_	_	
+19-23	1362-1372	utbildning	*[36]	_	_	_	_	_	_	
+19-24	1373-1374	i	*[36]	_	_	_	_	_	_	
+19-25	1375-1385	kommunerna	*[36]	_	_	_	_	_	_	
+19-26	1386-1389	för	*[36]	_	_	_	_	_	_	
+19-27	1390-1393	att	*[36]	_	_	_	_	_	_	
+19-28	1394-1400	stoppa	*[36]	_	_	_	_	_	_	
+19-29	1401-1415	diskriminering	*[36]	_	_	_	_	_	_	
+19-30	1416-1417	i	*[36]	_	_	_	_	_	_	
+19-31	1418-1426	vardagen	*[36]	_	_	_	_	_	_	
+19-32	1426-1427	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1429-1430	#	_	_	_	_	_	_	_	
+20-2	1430-1431	P	_	_	_	_	_	_	_	
+20-3	1432-1435	IMM	_	_	_	false	3	_	_	
+20-4	1435-1436	.	_	_	_	_	_	_	_	
+
+#Text=Arbetslösheten bland utlandsfödda är två till tre gånger så hög som bland människor födda i Sverige.
+21-1	1438-1452	Arbetslösheten	*[37]	_	_	_	_	_	_	
+21-2	1453-1458	bland	*[37]	_	_	_	_	_	_	
+21-3	1459-1471	utlandsfödda	*[37]	_	_	_	_	_	_	
+21-4	1472-1474	är	_	_	_	_	_	_	_	
+21-5	1475-1478	två	_	_	_	_	_	_	_	
+21-6	1479-1483	till	_	_	_	_	_	_	_	
+21-7	1484-1487	tre	_	_	_	_	_	_	_	
+21-8	1488-1494	gånger	_	_	_	_	_	_	_	
+21-9	1495-1497	så	_	_	_	_	_	_	_	
+21-10	1498-1501	hög	_	_	_	_	_	_	_	
+21-11	1502-1505	som	_	_	_	_	_	_	_	
+21-12	1506-1511	bland	_	_	_	_	_	_	_	
+21-13	1512-1521	människor	_	_	_	_	_	_	_	
+21-14	1522-1527	födda	_	_	_	_	_	_	_	
+21-15	1528-1529	i	_	_	_	_	_	_	_	
+21-16	1530-1537	Sverige	_	_	_	_	_	_	_	
+21-17	1537-1538	.	_	_	_	_	_	_	_	
+
+#Text=Särskilt drabbade är personer från Asien och Afrika.
+22-1	1539-1547	Särskilt	_	Target[7]	21-1[37]	false[7]	2[7]	_	_	
+22-2	1548-1556	drabbade	_	Target[7]	21-1[37]	false[7]	2[7]	_	_	
+22-3	1557-1559	är	_	_	_	_	_	_	_	
+22-4	1560-1568	personer	_	_	_	_	_	_	_	
+22-5	1569-1573	från	_	_	_	_	_	_	_	
+22-6	1574-1579	Asien	_	_	_	_	_	_	_	
+22-7	1580-1583	och	_	_	_	_	_	_	_	
+22-8	1584-1590	Afrika	_	_	_	_	_	_	_	
+22-9	1590-1591	.	_	_	_	_	_	_	_	
+
+#Text=Ett svenskt namn är ofta ett krav för att ens bli kallad till anställningsintervju.
+23-1	1592-1595	Ett	_	_	_	_	_	_	_	
+23-2	1596-1603	svenskt	_	_	_	_	_	_	_	
+23-3	1604-1608	namn	_	_	_	_	_	_	_	
+23-4	1609-1611	är	_	_	_	_	_	_	_	
+23-5	1612-1616	ofta	_	_	_	_	_	_	_	
+23-6	1617-1620	ett	_	_	_	_	_	_	_	
+23-7	1621-1625	krav	_	_	_	_	_	_	_	
+23-8	1626-1629	för	_	_	_	_	_	_	_	
+23-9	1630-1633	att	_	_	_	_	_	_	_	
+23-10	1634-1637	ens	_	_	_	_	_	_	_	
+23-11	1638-1641	bli	_	_	_	_	_	_	_	
+23-12	1642-1648	kallad	_	_	_	_	_	_	_	
+23-13	1649-1653	till	_	_	_	_	_	_	_	
+23-14	1654-1674	anställningsintervju	_	_	_	_	_	_	_	
+23-15	1674-1675	.	_	_	_	_	_	_	_	
+
+#Text=Att högutbildade människor har underkvalificerade eller inga arbeten är ett slöseri med mänskliga och ekonomiska resurser.
+24-1	1676-1679	Att	*[38]	_	_	_	_	_	_	
+24-2	1680-1692	högutbildade	*[38]	_	_	_	_	_	_	
+24-3	1693-1702	människor	*[38]	_	_	_	_	_	_	
+24-4	1703-1706	har	*[38]	_	_	_	_	_	_	
+24-5	1707-1725	underkvalificerade	*[38]	_	_	_	_	_	_	
+24-6	1726-1731	eller	*[38]	_	_	_	_	_	_	
+24-7	1732-1736	inga	*[38]	_	_	_	_	_	_	
+24-8	1737-1744	arbeten	*[38]	_	_	_	_	_	_	
+24-9	1745-1747	är	*[38]	Target[8]	24-1[38]	false[8]	2[8]	_	_	
+24-10	1748-1751	ett	*[38]	Target[8]	24-1[38]	false[8]	2[8]	_	_	
+24-11	1752-1759	slöseri	*[38]	Target[8]	24-1[38]	false[8]	2[8]	_	_	
+24-12	1760-1763	med	*[38]	_	_	_	_	_	_	
+24-13	1764-1773	mänskliga	*[38]	_	_	_	_	_	_	
+24-14	1774-1777	och	*[38]	_	_	_	_	_	_	
+24-15	1778-1788	ekonomiska	*[38]	_	_	_	_	_	_	
+24-16	1789-1797	resurser	*[38]	_	_	_	_	_	_	
+24-17	1797-1798	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1800-1801	#	_	_	_	_	_	_	_	
+25-2	1801-1802	P	_	_	_	_	_	_	_	
+25-3	1803-1806	IMM	_	_	_	false	4	_	_	
+25-4	1806-1807	.	_	_	_	_	_	_	_	
+
+#Text=Positiv särbehandling kan i dag användas för att anställa män med likvärdiga meriter på kvinnodominerade arbetsplatser och vice versa.
+26-1	1809-1816	Positiv	_	_	_	_	_	_	_	
+26-2	1817-1830	särbehandling	_	_	_	_	_	_	_	
+26-3	1831-1834	kan	_	_	_	_	_	_	_	
+26-4	1835-1836	i	_	_	_	_	_	_	_	
+26-5	1837-1840	dag	_	_	_	_	_	_	_	
+26-6	1841-1849	användas	_	_	_	_	_	_	_	
+26-7	1850-1853	för	_	_	_	_	_	_	_	
+26-8	1854-1857	att	_	_	_	_	_	_	_	
+26-9	1858-1866	anställa	_	_	_	_	_	_	_	
+26-10	1867-1870	män	_	_	_	_	_	_	_	
+26-11	1871-1874	med	_	_	_	_	_	_	_	
+26-12	1875-1885	likvärdiga	_	_	_	_	_	_	_	
+26-13	1886-1893	meriter	_	_	_	_	_	_	_	
+26-14	1894-1896	på	_	_	_	_	_	_	_	
+26-15	1897-1913	kvinnodominerade	_	_	_	_	_	_	_	
+26-16	1914-1927	arbetsplatser	_	_	_	_	_	_	_	
+26-17	1928-1931	och	_	_	_	_	_	_	_	
+26-18	1932-1936	vice	_	_	_	_	_	_	_	
+26-19	1937-1942	versa	_	_	_	_	_	_	_	
+26-20	1942-1943	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill att möjligheten ska utvidgas till att omfatta också etnisk tillhörighet.
+27-1	1944-1946	Vi	*	_	_	_	_	_	_	
+27-2	1947-1951	vill	_	Source;Target[9]	27-1;27-8[39]	false[9]	4[9]	_	_	
+27-3	1952-1955	att	_	Source;Target[9]	27-1;27-8[39]	false[9]	4[9]	_	_	
+27-4	1956-1967	möjligheten	_	Source;Target[9]	27-1;27-8[39]	false[9]	4[9]	_	_	
+27-5	1968-1971	ska	_	Source;Target[9]	27-1;27-8[39]	false[9]	4[9]	_	_	
+27-6	1972-1980	utvidgas	_	Source;Target[9]	27-1;27-8[39]	false[9]	4[9]	_	_	
+27-7	1981-1985	till	_	_	_	_	_	_	_	
+27-8	1986-1989	att	*[39]	_	_	_	_	_	_	
+27-9	1990-1997	omfatta	*[39]	_	_	_	_	_	_	
+27-10	1998-2003	också	*[39]	_	_	_	_	_	_	
+27-11	2004-2010	etnisk	*[39]	_	_	_	_	_	_	
+27-12	2011-2023	tillhörighet	*[39]	_	_	_	_	_	_	
+27-13	2023-2024	.	_	_	_	_	_	_	_	
+
+#Text=En arbetsgivare som vill öka mångfalden på arbetsplatsen får i dag inte motivera tillsättandet av en tjänst med den sökandes etniska bakgrund.
+28-1	2025-2027	En	_	_	_	_	_	_	_	
+28-2	2028-2040	arbetsgivare	_	_	_	_	_	_	_	
+28-3	2041-2044	som	_	_	_	_	_	_	_	
+28-4	2045-2049	vill	_	_	_	_	_	_	_	
+28-5	2050-2053	öka	_	_	_	_	_	_	_	
+28-6	2054-2064	mångfalden	_	_	_	_	_	_	_	
+28-7	2065-2067	på	_	_	_	_	_	_	_	
+28-8	2068-2081	arbetsplatsen	_	_	_	_	_	_	_	
+28-9	2082-2085	får	_	_	_	_	_	_	_	
+28-10	2086-2087	i	_	_	_	_	_	_	_	
+28-11	2088-2091	dag	_	_	_	_	_	_	_	
+28-12	2092-2096	inte	_	_	_	_	_	_	_	
+28-13	2097-2105	motivera	_	_	_	_	_	_	_	
+28-14	2106-2119	tillsättandet	_	_	_	_	_	_	_	
+28-15	2120-2122	av	_	_	_	_	_	_	_	
+28-16	2123-2125	en	_	_	_	_	_	_	_	
+28-17	2126-2132	tjänst	_	_	_	_	_	_	_	
+28-18	2133-2136	med	_	_	_	_	_	_	_	
+28-19	2137-2140	den	_	_	_	_	_	_	_	
+28-20	2141-2149	sökandes	_	_	_	_	_	_	_	
+28-21	2150-2157	etniska	_	_	_	_	_	_	_	
+28-22	2158-2166	bakgrund	_	_	_	_	_	_	_	
+28-23	2166-2167	.	_	_	_	_	_	_	_	
+
+#Text=Det är dags att uppmuntra företag och organisationer att se fördelarna med att anställa personer med utländsk bakgrund och samtidigt stärka sin konkurrenskraft.
+29-1	2168-2171	Det	_	Target[10]	29-13[40]	false[10]	4[10]	_	_	
+29-2	2172-2174	är	_	Target[10]	29-13[40]	false[10]	4[10]	_	_	
+29-3	2175-2179	dags	_	Target[10]	29-13[40]	false[10]	4[10]	_	_	
+29-4	2180-2183	att	_	Target[10]	29-13[40]	false[10]	4[10]	_	_	
+29-5	2184-2193	uppmuntra	_	Target[10]	29-13[40]	false[10]	4[10]	_	_	
+29-6	2194-2201	företag	_	_	_	_	_	_	_	
+29-7	2202-2205	och	_	_	_	_	_	_	_	
+29-8	2206-2220	organisationer	_	_	_	_	_	_	_	
+29-9	2221-2224	att	_	Target[11]	29-13[40]	false[11]	4[11]	29-1[10_11]	_	
+29-10	2225-2227	se	_	Target[11]	29-13[40]	false[11]	4[11]	_	_	
+29-11	2228-2238	fördelarna	_	Target[11]	29-13[40]	false[11]	4[11]	_	_	
+29-12	2239-2242	med	_	Target[11]	29-13[40]	false[11]	4[11]	_	_	
+29-13	2243-2246	att	*[40]	_	_	_	_	_	_	
+29-14	2247-2255	anställa	*[40]	_	_	_	_	_	_	
+29-15	2256-2264	personer	*[40]	_	_	_	_	_	_	
+29-16	2265-2268	med	*[40]	_	_	_	_	_	_	
+29-17	2269-2277	utländsk	*[40]	_	_	_	_	_	_	
+29-18	2278-2286	bakgrund	*[40]	_	_	_	_	_	_	
+29-19	2287-2290	och	*[40]	_	_	_	_	_	_	
+29-20	2291-2300	samtidigt	*[40]	_	_	_	_	_	_	
+29-21	2301-2307	stärka	*[40]	_	_	_	_	_	_	
+29-22	2308-2311	sin	*[40]	_	_	_	_	_	_	
+29-23	2312-2327	konkurrenskraft	*[40]	_	_	_	_	_	_	
+29-24	2327-2328	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2330-2331	#	_	_	_	_	_	_	_	
+30-2	2331-2332	P	_	_	_	_	_	_	_	
+30-3	2333-2336	IMM	_	_	_	_	_	_	_	
+30-4	2336-2337	.	_	_	_	_	_	_	_	
+
+#Text=Svenska FN-förbundet lyfter också fram bland annat följande i rapporten till FN:.
+31-1	2339-2346	Svenska	*[41]	_	_	_	_	_	54-1[0_41]|41-1[0_41]	
+31-2	2347-2359	FN-förbundet	*[41]	_	_	_	_	_	_	
+31-3	2360-2366	lyfter	_	_	_	_	_	_	_	
+31-4	2367-2372	också	_	_	_	_	_	_	_	
+31-5	2373-2377	fram	_	_	_	_	_	_	_	
+31-6	2378-2383	bland	_	_	_	_	_	_	_	
+31-7	2384-2389	annat	_	_	_	_	_	_	_	
+31-8	2390-2398	följande	_	_	_	_	_	_	_	
+31-9	2399-2400	i	_	_	_	_	_	_	_	
+31-10	2401-2410	rapporten	_	_	_	_	_	_	_	
+31-11	2411-2415	till	_	_	_	_	_	_	_	
+31-12	2416-2418	FN	_	_	_	_	_	_	_	
+31-13	2418-2419	:	_	_	_	_	_	_	_	
+31-14	2419-2420	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+32-1	2422-2423	#	_	_	_	_	_	_	_	
+32-2	2423-2424	P	_	_	_	_	_	_	_	
+32-3	2425-2428	IMM	_	_	_	false	3	_	_	
+
+#Text=.
+33-1	2428-2429	.	_	_	_	_	_	_	_	
+
+#Text=• Sverige saknar en tydlig strategi för att bekämpa hatbrott.
+34-1	2431-2432	•	_	_	_	_	_	_	_	
+34-2	2433-2440	Sverige	*	_	_	_	_	_	_	
+34-3	2441-2447	saknar	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-4	2448-2450	en	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-5	2451-2457	tydlig	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-6	2458-2466	strategi	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-7	2467-2470	för	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-8	2471-2474	att	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-9	2475-2482	bekämpa	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-10	2483-2491	hatbrott	_	Target;Source[12]	34-2;31-1[41]	false[12]	2[12]	_	_	
+34-11	2491-2492	.	_	_	_	_	_	_	_	
+
+#Text=Antalet hatbrott är fortsatt högt – 5 520 rapporterade brott 2012 varav 74 procent med främlingsfientliga/rasistiska motiv.
+35-1	2493-2500	Antalet	_	_	_	_	_	_	_	
+35-2	2501-2509	hatbrott	_	Source	35-20	false	1	_	_	
+35-3	2510-2512	är	_	_	_	_	_	_	_	
+35-4	2513-2521	fortsatt	_	_	_	_	_	_	_	
+35-5	2522-2526	högt	_	_	_	_	_	_	_	
+35-6	2527-2528	–	_	_	_	_	_	_	_	
+35-7	2529-2530	5	_	_	_	_	_	_	_	
+35-8	2531-2534	520	_	_	_	_	_	_	_	
+35-9	2535-2547	rapporterade	_	_	_	_	_	_	_	
+35-10	2548-2553	brott	_	_	_	_	_	_	_	
+35-11	2554-2558	2012	_	_	_	_	_	_	_	
+35-12	2559-2564	varav	_	_	_	_	_	_	_	
+35-13	2565-2567	74	_	_	_	_	_	_	_	
+35-14	2568-2575	procent	_	_	_	_	_	_	_	
+35-15	2576-2579	med	_	_	_	_	_	_	_	
+35-16	2580-2598	främlingsfientliga	_	Source[13]	35-20	false[13]	1[13]	_	_	
+35-17	2598-2599	/	_	Source[13]	35-20	false[13]	1[13]	_	_	
+35-18	2599-2609	rasistiska	_	Source[13]	35-20	false[13]	1[13]	_	_	
+35-19	2610-2615	motiv	_	_	_	_	_	_	_	
+35-20	2615-2616	.	*	_	_	_	_	_	_	
+
+#Text=Brott med antireligiösa och afrofobiska motiv har ökat.
+36-1	2617-2622	Brott	_	_	_	_	_	_	_	
+36-2	2623-2626	med	_	_	_	_	_	_	_	
+36-3	2627-2640	antireligiösa	_	_	_	_	_	_	_	
+36-4	2641-2644	och	_	_	_	_	_	_	_	
+36-5	2645-2656	afrofobiska	_	Source	36-9	false	1	_	_	
+36-6	2657-2662	motiv	_	_	_	_	_	_	_	
+36-7	2663-2666	har	_	_	_	_	_	_	_	
+36-8	2667-2671	ökat	_	_	_	_	_	_	_	
+36-9	2671-2672	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM
+37-1	2674-2675	#	_	_	_	_	_	_	_	
+37-2	2675-2676	P	_	_	_	_	_	_	_	
+37-3	2677-2680	IMM	_	_	_	false	3	_	_	
+
+#Text=.
+38-1	2680-2681	.	_	_	_	_	_	_	_	
+
+#Text=• Internet har blivit en plattform för rasistiska organisationer som sprider propaganda via bland annat över hundra vit makt-hemsidor.
+39-1	2683-2684	•	_	_	_	_	_	_	_	
+39-2	2685-2693	Internet	_	_	_	_	_	_	_	
+39-3	2694-2697	har	_	_	_	_	_	_	_	
+39-4	2698-2704	blivit	_	_	_	_	_	_	_	
+39-5	2705-2707	en	_	_	_	_	_	_	_	
+39-6	2708-2717	plattform	_	_	_	_	_	_	_	
+39-7	2718-2721	för	_	_	_	_	_	_	_	
+39-8	2722-2732	rasistiska	*[42]	Target	39-8[42]	false	1	_	_	
+39-9	2733-2747	organisationer	*[42]	_	_	_	_	_	_	
+39-10	2748-2751	som	_	_	_	_	_	_	_	
+39-11	2752-2759	sprider	_	_	_	_	_	_	_	
+39-12	2760-2770	propaganda	_	_	_	_	_	_	_	
+39-13	2771-2774	via	_	_	_	_	_	_	_	
+39-14	2775-2780	bland	_	_	_	_	_	_	_	
+39-15	2781-2786	annat	_	_	_	_	_	_	_	
+39-16	2787-2791	över	_	_	_	_	_	_	_	
+39-17	2792-2798	hundra	_	_	_	_	_	_	_	
+39-18	2799-2802	vit	_	_	_	_	_	_	_	
+39-19	2803-2816	makt-hemsidor	_	_	_	_	_	_	_	
+39-20	2816-2817	.	_	_	_	_	_	_	_	
+
+#Text=Också enskilda gömmer sig bakom nätets anonymitet.
+40-1	2818-2823	Också	_	_	_	_	_	_	_	
+40-2	2824-2832	enskilda	_	_	_	_	_	_	_	
+40-3	2833-2839	gömmer	_	_	_	_	_	_	_	
+40-4	2840-2843	sig	_	_	_	_	_	_	_	
+40-5	2844-2849	bakom	_	_	_	_	_	_	_	
+40-6	2850-2856	nätets	_	_	_	_	_	_	_	
+40-7	2857-2867	anonymitet	_	_	_	_	_	_	_	
+40-8	2867-2868	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill skärpa förbudet mot rasistiska aktiviteter och handlingar för att bättre uppfylla rasdiskrimineringskonventionens krav.
+41-1	2869-2871	Vi	*	_	_	_	_	_	_	
+41-2	2872-2876	vill	_	Source;Target	41-1;41-3[43]	false	4	_	_	
+41-3	2877-2883	skärpa	*[43]	_	_	_	_	_	_	
+41-4	2884-2892	förbudet	*[43]	_	_	_	_	_	_	
+41-5	2893-2896	mot	*[43]	_	_	_	_	_	_	
+41-6	2897-2907	rasistiska	*[43]|*[44]	Target;Source	41-6[44];41-16	false	1	_	_	
+41-7	2908-2919	aktiviteter	*[43]|*[44]	_	_	_	_	_	_	
+41-8	2920-2923	och	*[43]|*[44]	_	_	_	_	_	_	
+41-9	2924-2934	handlingar	*[43]|*[44]	_	_	_	_	_	_	
+41-10	2935-2938	för	*[43]	_	_	_	_	_	_	
+41-11	2939-2942	att	*[43]	_	_	_	_	_	_	
+41-12	2943-2949	bättre	*[43]	_	_	_	_	_	_	
+41-13	2950-2958	uppfylla	*[43]	_	_	_	_	_	_	
+41-14	2959-2990	rasdiskrimineringskonventionens	*[43]	_	_	_	_	_	_	
+41-15	2991-2995	krav	*[43]	_	_	_	_	_	_	
+41-16	2995-2996	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM
+42-1	2998-2999	#	_	_	_	_	_	_	_	
+42-2	2999-3000	P	_	_	_	_	_	_	_	
+42-3	3001-3004	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+43-1	3004-3005	.	_	_	_	_	_	_	_	
+
+#Text=• Tydlig lagstiftning och god kompetens hos myndighetsanställda krävs för effektiv lagföring.
+44-1	3007-3008	•	_	_	_	_	_	_	_	
+44-2	3009-3015	Tydlig	_	_	_	_	_	_	_	
+44-3	3016-3028	lagstiftning	_	_	_	_	_	_	_	
+44-4	3029-3032	och	_	_	_	_	_	_	_	
+44-5	3033-3036	god	_	Target;Source[14]	44-8;44-13	false[14]	4[14]	_	_	
+44-6	3037-3046	kompetens	_	Target;Source[14]	44-8;44-13	false[14]	4[14]	_	_	
+44-7	3047-3050	hos	_	_	_	_	_	_	_	
+44-8	3051-3070	myndighetsanställda	*	_	_	_	_	_	_	
+44-9	3071-3076	krävs	_	_	_	_	_	_	_	
+44-10	3077-3080	för	_	_	_	_	_	_	_	
+44-11	3081-3089	effektiv	*[45]	Target;Source	44-11[45];44-13	false	4	_	_	
+44-12	3090-3099	lagföring	*[45]	_	_	_	_	_	_	
+44-13	3099-3100	.	*	_	_	_	_	_	_	
+
+#Text=Stockholmspolisens hatbrottsgrupp är ett föredöme som har fått en efterföljare i Malmö.
+45-1	3101-3119	Stockholmspolisens	*[46]	_	_	_	_	_	_	
+45-2	3120-3134	hatbrottsgrupp	*[46]	_	_	_	_	_	_	
+45-3	3135-3137	är	_	Target[15]	45-1[46]	false[15]	4[15]	_	_	
+45-4	3138-3141	ett	_	Target[15]	45-1[46]	false[15]	4[15]	_	_	
+45-5	3142-3150	föredöme	_	Target[15]	45-1[46]	false[15]	4[15]	_	_	
+45-6	3151-3154	som	_	_	_	_	_	_	_	
+45-7	3155-3158	har	_	_	_	_	_	_	_	
+45-8	3159-3163	fått	_	_	_	_	_	_	_	
+45-9	3164-3166	en	_	_	_	_	_	_	_	
+45-10	3167-3179	efterföljare	_	_	_	_	_	_	_	
+45-11	3180-3181	i	_	_	_	_	_	_	_	
+45-12	3182-3187	Malmö	_	_	_	_	_	_	_	
+45-13	3187-3188	.	_	_	_	_	_	_	_	
+
+#Text=Fler sådana exempel behövs.
+46-1	3189-3193	Fler	_	_	_	_	_	_	_	
+46-2	3194-3200	sådana	_	_	_	_	_	_	_	
+46-3	3201-3208	exempel	_	_	_	_	_	_	_	
+46-4	3209-3215	behövs	_	_	_	_	_	_	_	
+46-5	3215-3216	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+47-1	3218-3219	#	_	_	_	_	_	_	_	
+47-2	3219-3220	P	_	_	_	_	_	_	_	
+47-3	3221-3224	IMM	_	_	_	false	4	_	_	
+
+#Text=.
+48-1	3224-3225	.	_	_	_	_	_	_	_	
+
+#Text=• Polis och domstolsväsende hör fortfarande fortfarande till de myndigheter som har lägst andel anställda med utländsk bakgrund (9,6 procent 2012).
+49-1	3227-3228	•	_	_	_	_	_	_	_	
+49-2	3229-3234	Polis	_	_	_	_	_	_	_	
+49-3	3235-3238	och	_	_	_	_	_	_	_	
+49-4	3239-3254	domstolsväsende	_	_	_	_	_	_	_	
+49-5	3255-3258	hör	_	_	_	_	_	_	_	
+49-6	3259-3270	fortfarande	_	_	_	_	_	_	_	
+49-7	3271-3282	fortfarande	_	_	_	_	_	_	_	
+49-8	3283-3287	till	_	_	_	_	_	_	_	
+49-9	3288-3290	de	_	_	_	_	_	_	_	
+49-10	3291-3302	myndigheter	_	_	_	_	_	_	_	
+49-11	3303-3306	som	_	_	_	_	_	_	_	
+49-12	3307-3310	har	_	_	_	_	_	_	_	
+49-13	3311-3316	lägst	_	_	_	_	_	_	_	
+49-14	3317-3322	andel	*[47]	_	_	_	_	_	50-4[49_47]	
+49-15	3323-3332	anställda	*[47]	_	_	_	_	_	_	
+49-16	3333-3336	med	*[47]	_	_	_	_	_	_	
+49-17	3337-3345	utländsk	*[47]	_	_	_	_	_	_	
+49-18	3346-3354	bakgrund	*[47]	_	_	_	_	_	_	
+49-19	3355-3356	(	_	_	_	_	_	_	_	
+49-20	3356-3359	9,6	_	_	_	_	_	_	_	
+49-21	3360-3367	procent	_	_	_	_	_	_	_	
+49-22	3368-3372	2012	_	_	_	_	_	_	_	
+49-23	3372-3373	)	_	_	_	_	_	_	_	
+49-24	3373-3374	.	_	_	_	_	_	_	_	
+
+#Text=Genom att öka andelen ökar också förtroendet för de rättsvårdande myndigheterna.
+50-1	3375-3380	Genom	*[48]	_	_	_	_	_	_	
+50-2	3381-3384	att	*[48]	_	_	_	_	_	_	
+50-3	3385-3388	öka	*[48]	_	_	_	_	_	_	
+50-4	3389-3396	andelen	*[48]|*[49]	_	_	_	_	_	_	
+50-5	3397-3401	ökar	*[48]	Target	50-1[48]	false	4	_	_	
+50-6	3402-3407	också	*[48]	_	_	_	_	_	_	
+50-7	3408-3419	förtroendet	*[48]	Target	50-1[48]	false	4	50-5	_	
+50-8	3420-3423	för	*[48]	_	_	_	_	_	_	
+50-9	3424-3426	de	*[48]	_	_	_	_	_	_	
+50-10	3427-3440	rättsvårdande	*[48]	_	_	_	_	_	_	
+50-11	3441-3454	myndigheterna	*[48]	_	_	_	_	_	_	
+50-12	3454-3455	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+51-1	3457-3458	#	_	_	_	_	_	_	_	
+51-2	3458-3459	P	_	_	_	_	_	_	_	
+51-3	3460-3463	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+52-1	3463-3464	.	_	_	_	_	_	_	_	
+
+#Text=• Samer och romer möter fortsatt diskriminering.
+53-1	3466-3467	•	_	_	_	_	_	_	_	
+53-2	3468-3473	Samer	*[50]	_	_	_	_	_	_	
+53-3	3474-3477	och	*[50]	_	_	_	_	_	_	
+53-4	3478-3483	romer	*[50]	_	_	_	_	_	_	
+53-5	3484-3489	möter	*[50]	Target[16]	53-2[50]	false[16]	1[16]	_	_	
+53-6	3490-3498	fortsatt	*[50]	Target[16]	53-2[50]	false[16]	1[16]	_	_	
+53-7	3499-3513	diskriminering	*[50]	Target[16]	53-2[50]	false[16]	1[16]	_	_	
+53-8	3513-3514	.	_	_	_	_	_	_	_	
+
+#Text=Vi kräver än en gång att regeringen erkänner samernas landrättigheter genom att ratificera ILO-konventionen 169.
+54-1	3515-3517	Vi	*	_	_	_	_	_	_	
+54-2	3518-3524	kräver	_	Target;Source	54-6[51];54-1	false	4	_	_	
+54-3	3525-3527	än	_	_	_	_	_	_	_	
+54-4	3528-3530	en	_	_	_	_	_	_	_	
+54-5	3531-3535	gång	_	_	_	_	_	_	_	
+54-6	3536-3539	att	*[51]	_	_	_	_	_	_	
+54-7	3540-3550	regeringen	*[51]	_	_	_	_	_	_	
+54-8	3551-3559	erkänner	*[51]	_	_	_	_	_	_	
+54-9	3560-3568	samernas	*[51]	_	_	_	_	_	_	
+54-10	3569-3584	landrättigheter	*[51]	_	_	_	_	_	_	
+54-11	3585-3590	genom	*[51]	_	_	_	_	_	_	
+54-12	3591-3594	att	*[51]	_	_	_	_	_	_	
+54-13	3595-3605	ratificera	*[51]	_	_	_	_	_	_	
+54-14	3606-3622	ILO-konventionen	*[51]	_	_	_	_	_	_	
+54-15	3623-3626	169	*[51]	_	_	_	_	_	_	
+54-16	3626-3627	.	_	_	_	_	_	_	_	
+
+#Text=Romadelegationen och dess slutsatser måste förverkligas.
+55-1	3628-3644	Romadelegationen	*[52]	_	_	_	_	_	_	
+55-2	3645-3648	och	*[52]	_	_	_	_	_	_	
+55-3	3649-3653	dess	*[52]	_	_	_	_	_	_	
+55-4	3654-3664	slutsatser	*[52]	_	_	_	_	_	_	
+55-5	3665-3670	måste	_	Target[17]	55-1[52]	false[17]	4[17]	_	_	
+55-6	3671-3683	förverkligas	_	Target[17]	55-1[52]	false[17]	4[17]	_	_	
+55-7	3683-3684	.	_	_	_	_	_	_	_	
+
+#Text=Rätten för romska barn att gå i skolan måste förverkligas i landets kommuner och marginaliseringen av romer på arbets- och bostadsmarknaden måste upphöra.
+56-1	3685-3691	Rätten	*[53]	_	_	_	_	_	_	
+56-2	3692-3695	för	*[53]	_	_	_	_	_	_	
+56-3	3696-3702	romska	*[53]	_	_	_	_	_	_	
+56-4	3703-3707	barn	*[53]	_	_	_	_	_	_	
+56-5	3708-3711	att	*[53]	_	_	_	_	_	_	
+56-6	3712-3714	gå	*[53]	_	_	_	_	_	_	
+56-7	3715-3716	i	*[53]	_	_	_	_	_	_	
+56-8	3717-3723	skolan	*[53]	_	_	_	_	_	_	
+56-9	3724-3729	måste	_	Target[18]	56-1[53]	false[18]	4[18]	_	_	
+56-10	3730-3742	förverkligas	_	Target[18]	56-1[53]	false[18]	4[18]	_	_	
+56-11	3743-3744	i	_	_	_	_	_	_	_	
+56-12	3745-3752	landets	_	_	_	_	_	_	_	
+56-13	3753-3761	kommuner	_	_	_	_	_	_	_	
+56-14	3762-3765	och	_	_	_	_	_	_	_	
+56-15	3766-3783	marginaliseringen	*[54]	Target	56-15[54]	false	1	_	_	
+56-16	3784-3786	av	*[54]	_	_	_	_	_	_	
+56-17	3787-3792	romer	*[54]	_	_	_	_	_	_	
+56-18	3793-3795	på	*[54]	_	_	_	_	_	_	
+56-19	3796-3802	arbets	*[54]	_	_	_	_	_	_	
+56-20	3802-3803	-	*[54]	_	_	_	_	_	_	
+56-21	3804-3807	och	*[54]	_	_	_	_	_	_	
+56-22	3808-3824	bostadsmarknaden	*[54]	_	_	_	_	_	_	
+56-23	3825-3830	måste	_	Target[19]	56-15[54]	false[19]	1[19]	56-15[0_19]	_	
+56-24	3831-3838	upphöra	_	Target[19]	56-15[54]	false[19]	1[19]	_	_	
+56-25	3838-3839	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	3841-3842	#	_	_	_	_	_	_	_	
+57-2	3842-3843	P	_	_	_	_	_	_	_	
+57-3	3844-3847	IMM	_	_	_	_	_	_	_	
+57-4	3847-3848	.	_	_	_	_	_	_	_	
+
+#Text=När svensk antidiskrimineringspolitik har kört fast krävs nya grepp.
+58-1	3850-3853	När	_	_	_	_	_	_	_	
+58-2	3854-3860	svensk	*[55]	_	_	_	_	_	_	
+58-3	3861-3887	antidiskrimineringspolitik	*[55]	_	_	_	_	_	_	
+58-4	3888-3891	har	_	Target[20]	58-2[55]	false[20]	2[20]	_	_	
+58-5	3892-3896	kört	_	Target[20]	58-2[55]	false[20]	2[20]	_	_	
+58-6	3897-3901	fast	_	Target[20]	58-2[55]	false[20]	2[20]	_	_	
+58-7	3902-3907	krävs	_	_	_	_	_	_	_	
+58-8	3908-3911	nya	_	_	_	_	_	_	_	
+58-9	3912-3917	grepp	_	_	_	_	_	_	_	
+58-10	3917-3918	.	_	_	_	_	_	_	_	
+
+#Text=Sverige saknar en oberoende nationell institution som kan övervaka att lagstiftning och myndighetsutövning står i överensstämmelse med internationella MR-åtaganden.
+59-1	3919-3926	Sverige	_	_	_	_	_	_	_	
+59-2	3927-3933	saknar	_	_	_	_	_	_	_	
+59-3	3934-3936	en	_	_	_	_	_	_	_	
+59-4	3937-3946	oberoende	_	_	_	_	_	_	_	
+59-5	3947-3956	nationell	_	_	_	_	_	_	_	
+59-6	3957-3968	institution	_	_	_	_	_	_	_	
+59-7	3969-3972	som	_	_	_	_	_	_	_	
+59-8	3973-3976	kan	_	_	_	_	_	_	_	
+59-9	3977-3985	övervaka	_	_	_	_	_	_	_	
+59-10	3986-3989	att	_	_	_	_	_	_	_	
+59-11	3990-4002	lagstiftning	_	_	_	_	_	_	_	
+59-12	4003-4006	och	_	_	_	_	_	_	_	
+59-13	4007-4025	myndighetsutövning	_	_	_	_	_	_	_	
+59-14	4026-4030	står	_	_	_	_	_	_	_	
+59-15	4031-4032	i	_	_	_	_	_	_	_	
+59-16	4033-4049	överensstämmelse	_	_	_	_	_	_	_	
+59-17	4050-4053	med	_	_	_	_	_	_	_	
+59-18	4054-4069	internationella	_	_	_	_	_	_	_	
+59-19	4070-4082	MR-åtaganden	_	_	_	_	_	_	_	
+59-20	4082-4083	.	_	_	_	_	_	_	_	
+
+#Text=Vi föreslår att regeringen med FN:s stöd inrättar en ny myndighet som placeras direkt under riksdagen.
+60-1	4084-4086	Vi	*	_	_	_	_	_	_	
+60-2	4087-4095	föreslår	_	Source;Target	60-1;60-3[56]	false	4	_	_	
+60-3	4096-4099	att	*[56]	_	_	_	_	_	_	
+60-4	4100-4110	regeringen	*[56]	_	_	_	_	_	_	
+60-5	4111-4114	med	*[56]	_	_	_	_	_	_	
+60-6	4115-4117	FN	*[56]	_	_	_	_	_	_	
+60-7	4117-4118	:	*[56]	_	_	_	_	_	_	
+60-8	4118-4119	s	*[56]	_	_	_	_	_	_	
+60-9	4120-4124	stöd	*[56]	_	_	_	_	_	_	
+60-10	4125-4133	inrättar	*[56]	_	_	_	_	_	_	
+60-11	4134-4136	en	*[56]	_	_	_	_	_	_	
+60-12	4137-4139	ny	*[56]	_	_	_	_	_	_	
+60-13	4140-4149	myndighet	*[56]	_	_	_	_	_	_	
+60-14	4150-4153	som	*[56]	_	_	_	_	_	_	
+60-15	4154-4162	placeras	*[56]	_	_	_	_	_	_	
+60-16	4163-4169	direkt	*[56]	_	_	_	_	_	_	
+60-17	4170-4175	under	*[56]	_	_	_	_	_	_	
+60-18	4176-4185	riksdagen	*[56]	_	_	_	_	_	_	
+60-19	4185-4186	.	_	_	_	_	_	_	_	
+
+#Text=MR-kommissioner finns i en tredjedel av världens länder och i 17 EU-länder och fungerar bland annat som stöd för lokala myndigheter och deras uttolkning av olika FN-överenskommelser.
+61-1	4187-4202	MR-kommissioner	_	_	_	_	_	_	_	
+61-2	4203-4208	finns	_	_	_	_	_	_	_	
+61-3	4209-4210	i	_	_	_	_	_	_	_	
+61-4	4211-4213	en	_	_	_	_	_	_	_	
+61-5	4214-4223	tredjedel	_	_	_	_	_	_	_	
+61-6	4224-4226	av	_	_	_	_	_	_	_	
+61-7	4227-4235	världens	_	_	_	_	_	_	_	
+61-8	4236-4242	länder	_	_	_	_	_	_	_	
+61-9	4243-4246	och	_	_	_	_	_	_	_	
+61-10	4247-4248	i	_	_	_	_	_	_	_	
+61-11	4249-4251	17	_	_	_	_	_	_	_	
+61-12	4252-4261	EU-länder	_	_	_	_	_	_	_	
+61-13	4262-4265	och	_	_	_	_	_	_	_	
+61-14	4266-4274	fungerar	_	_	_	_	_	_	_	
+61-15	4275-4280	bland	_	_	_	_	_	_	_	
+61-16	4281-4286	annat	_	_	_	_	_	_	_	
+61-17	4287-4290	som	_	_	_	_	_	_	_	
+61-18	4291-4295	stöd	_	_	_	_	_	_	_	
+61-19	4296-4299	för	_	_	_	_	_	_	_	
+61-20	4300-4306	lokala	_	_	_	_	_	_	_	
+61-21	4307-4318	myndigheter	_	_	_	_	_	_	_	
+61-22	4319-4322	och	_	_	_	_	_	_	_	
+61-23	4323-4328	deras	_	_	_	_	_	_	_	
+61-24	4329-4339	uttolkning	_	_	_	_	_	_	_	
+61-25	4340-4342	av	_	_	_	_	_	_	_	
+61-26	4343-4348	olika	_	_	_	_	_	_	_	
+61-27	4349-4368	FN-överenskommelser	_	_	_	_	_	_	_	
+61-28	4368-4369	.	_	_	_	_	_	_	_	
+
+#Text=Också i Sverige behöver anställda i kommuner och landsting stöd i sitt dagliga arbete som ofta rör rättighetsfrågor.
+62-1	4370-4375	Också	_	_	_	_	_	_	_	
+62-2	4376-4377	i	_	_	_	_	_	_	_	
+62-3	4378-4385	Sverige	_	_	_	_	_	_	_	
+62-4	4386-4393	behöver	_	_	_	_	_	_	_	
+62-5	4394-4403	anställda	_	_	_	_	_	_	_	
+62-6	4404-4405	i	_	_	_	_	_	_	_	
+62-7	4406-4414	kommuner	_	_	_	_	_	_	_	
+62-8	4415-4418	och	_	_	_	_	_	_	_	
+62-9	4419-4428	landsting	_	_	_	_	_	_	_	
+62-10	4429-4433	stöd	_	_	_	_	_	_	_	
+62-11	4434-4435	i	_	_	_	_	_	_	_	
+62-12	4436-4440	sitt	_	_	_	_	_	_	_	
+62-13	4441-4448	dagliga	_	_	_	_	_	_	_	
+62-14	4449-4455	arbete	_	_	_	_	_	_	_	
+62-15	4456-4459	som	_	_	_	_	_	_	_	
+62-16	4460-4464	ofta	_	_	_	_	_	_	_	
+62-17	4465-4468	rör	_	_	_	_	_	_	_	
+62-18	4469-4485	rättighetsfrågor	_	_	_	_	_	_	_	
+62-19	4485-4486	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4488-4489	#	_	_	_	_	_	_	_	
+63-2	4489-4490	P	_	_	_	_	_	_	_	
+63-3	4491-4494	IMM	_	_	_	false	3	_	_	
+63-4	4494-4495	.	_	_	_	_	_	_	_	
+
+#Text=Att informera och aktivt motverka de stereotyper som drabbar invandrare och minoriteter är en av flera viktiga uppgifter för regering och myndigheter.
+64-1	4497-4500	Att	*[57]	_	_	_	_	_	_	
+64-2	4501-4510	informera	*[57]	_	_	_	_	_	_	
+64-3	4511-4514	och	*[57]	_	_	_	_	_	_	
+64-4	4515-4521	aktivt	*[57]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-5	4522-4530	motverka	*[57]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-6	4531-4533	de	*[57]|*[58]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-7	4534-4545	stereotyper	*[57]|*[58]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-8	4546-4549	som	*[57]|*[58]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-9	4550-4557	drabbar	*[57]|*[58]	Target[21]	64-6[58]	false[21]	2[21]	_	_	
+64-10	4558-4568	invandrare	*[57]|*[58]	_	_	_	_	_	_	
+64-11	4569-4572	och	*[57]|*[58]	_	_	_	_	_	_	
+64-12	4573-4584	minoriteter	*[57]|*[58]	_	_	_	_	_	_	
+64-13	4585-4587	är	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-14	4588-4590	en	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-15	4591-4593	av	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-16	4594-4599	flera	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-17	4600-4607	viktiga	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-18	4608-4617	uppgifter	*[57]	Target[22]	64-1[57]	false[22]	4[22]	_	_	
+64-19	4618-4621	för	*[57]	_	_	_	_	_	_	
+64-20	4622-4630	regering	*[57]	_	_	_	_	_	_	
+64-21	4631-4634	och	*[57]	_	_	_	_	_	_	
+64-22	4635-4646	myndigheter	*[57]	_	_	_	_	_	_	
+64-23	4646-4647	.	_	_	_	_	_	_	_	
+
+#Text=Rättighetsperspektivet måste genomsyra hela regeringens arbete från integration och arbetsmarknad till rättsväsende och övrig statsförvaltning.
+65-1	4648-4670	Rättighetsperspektivet	_	_	_	_	_	_	_	
+65-2	4671-4676	måste	_	_	_	_	_	_	_	
+65-3	4677-4686	genomsyra	_	_	_	_	_	_	_	
+65-4	4687-4691	hela	_	_	_	_	_	_	_	
+65-5	4692-4703	regeringens	_	_	_	_	_	_	_	
+65-6	4704-4710	arbete	_	_	_	_	_	_	_	
+65-7	4711-4715	från	_	_	_	_	_	_	_	
+65-8	4716-4727	integration	_	_	_	_	_	_	_	
+65-9	4728-4731	och	_	_	_	_	_	_	_	
+65-10	4732-4745	arbetsmarknad	_	_	_	_	_	_	_	
+65-11	4746-4750	till	_	_	_	_	_	_	_	
+65-12	4751-4763	rättsväsende	_	_	_	_	_	_	_	
+65-13	4764-4767	och	_	_	_	_	_	_	_	
+65-14	4768-4773	övrig	_	_	_	_	_	_	_	
+65-15	4774-4790	statsförvaltning	_	_	_	_	_	_	_	
+65-16	4790-4791	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	4793-4794	#	_	_	_	_	_	_	_	
+66-2	4794-4795	P	_	_	_	_	_	_	_	
+66-3	4796-4799	IMM	_	_	_	_	_	_	_	
+66-4	4799-4800	.	_	_	_	_	_	_	_	
+
+#Text=Femtio frivilligorganisationer står bakom Svenska FN-förbundets rapport till FN:s rasdiskrimineringskommitté.
+67-1	4802-4808	Femtio	_	_	_	_	_	_	_	
+67-2	4809-4832	frivilligorganisationer	_	_	_	_	_	_	_	
+67-3	4833-4837	står	_	_	_	_	_	_	_	
+67-4	4838-4843	bakom	_	_	_	_	_	_	_	
+67-5	4844-4851	Svenska	_	_	_	_	_	_	_	
+67-6	4852-4865	FN-förbundets	_	_	_	_	_	_	_	
+67-7	4866-4873	rapport	_	_	_	_	_	_	_	
+67-8	4874-4878	till	_	_	_	_	_	_	_	
+67-9	4879-4881	FN	_	_	_	_	_	_	_	
+67-10	4881-4882	:	_	_	_	_	_	_	_	
+67-11	4882-4883	s	_	_	_	_	_	_	_	
+67-12	4884-4910	rasdiskrimineringskommitté	_	_	_	_	_	_	_	
+67-13	4910-4911	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett uttryck för frustration över att strukturell rasism, diskriminering och hatbrott fortfarande hindrar många människor i Sverige från att förverkliga sina drömmar.
+68-1	4912-4915	Det	_	_	_	_	_	_	_	
+68-2	4916-4918	är	_	_	_	_	_	_	_	
+68-3	4919-4922	ett	_	_	_	_	_	_	_	
+68-4	4923-4930	uttryck	_	_	_	_	_	_	_	
+68-5	4931-4934	för	_	_	_	_	_	_	_	
+68-6	4935-4946	frustration	_	Target[23]	68-8[59]	false[23]	2[23]	_	_	
+68-7	4947-4951	över	_	Target[23]	68-8[59]	false[23]	2[23]	_	_	
+68-8	4952-4955	att	*[59]	_	_	_	_	_	_	
+68-9	4956-4967	strukturell	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-10	4968-4974	rasism	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-11	4974-4975	,	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-12	4976-4990	diskriminering	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-13	4991-4994	och	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-14	4995-5003	hatbrott	*[59]|*[60]	Target[24]|_[25]	68-9[60]|_	false[24]|false[25]	2[24]|1[25]	_	_	
+68-15	5004-5015	fortfarande	*[59]|*[60]	Target[24]	68-9[60]	false[24]	2[24]	_	_	
+68-16	5016-5023	hindrar	*[59]|*[60]	Target[24]	68-9[60]	false[24]	2[24]	_	_	
+68-17	5024-5029	många	*[59]|*[60]	_	_	_	_	_	_	
+68-18	5030-5039	människor	*[59]|*[60]	_	_	_	_	_	_	
+68-19	5040-5041	i	*[59]|*[60]	_	_	_	_	_	_	
+68-20	5042-5049	Sverige	*[59]|*[60]	_	_	_	_	_	_	
+68-21	5050-5054	från	*[59]|*[60]	_	_	_	_	_	_	
+68-22	5055-5058	att	*[59]|*[60]	_	_	_	_	_	_	
+68-23	5059-5070	förverkliga	*[59]|*[60]	_	_	_	_	_	_	
+68-24	5071-5075	sina	*[59]|*[60]	_	_	_	_	_	_	
+68-25	5076-5083	drömmar	*[59]|*[60]	_	_	_	_	_	_	
+68-26	5083-5084	.	_	_	_	_	_	_	_	
+
+#Text=När FN-kommittén återkommer med sina rekommendationer är det hög tid för regeringen att agera.
+69-1	5085-5088	När	_	_	_	_	_	_	_	
+69-2	5089-5101	FN-kommittén	*	_	_	_	_	_	_	
+69-3	5102-5112	återkommer	_	_	_	_	_	_	_	
+69-4	5113-5116	med	_	_	_	_	_	_	_	
+69-5	5117-5121	sina	_	_	_	_	_	_	_	
+69-6	5122-5138	rekommendationer	_	Source	69-2	false	4	_	_	
+69-7	5139-5141	är	_	_	_	_	_	_	_	
+69-8	5142-5145	det	_	_	_	_	_	_	_	
+69-9	5146-5149	hög	_	_	_	_	_	_	_	
+69-10	5150-5153	tid	_	_	_	_	_	_	_	
+69-11	5154-5157	för	_	_	_	_	_	_	_	
+69-12	5158-5168	regeringen	_	_	_	_	_	_	_	
+69-13	5169-5172	att	_	_	_	_	_	_	_	
+69-14	5173-5178	agera	_	_	_	_	_	_	_	
+69-15	5178-5179	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	5181-5182	#	_	_	_	_	_	_	_	
+70-2	5182-5183	P	_	_	_	_	_	_	_	
+70-3	5184-5187	IMM	_	_	_	_	_	_	_	
+70-4	5187-5188	.	_	_	_	_	_	_	_	
+
+#Text=ALEKSANDER GABELIC.
+71-1	5190-5200	ALEKSANDER	_	_	_	_	_	_	_	
+71-2	5201-5208	GABELIC	_	_	_	_	_	_	_	
+71-3	5208-5209	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5211-5212	#	_	_	_	_	_	_	_	
+72-2	5212-5213	P	_	_	_	_	_	_	_	
+72-3	5214-5217	IMM	_	_	_	_	_	_	_	
+72-4	5217-5218	.	_	_	_	_	_	_	_	
+
+#Text=ordförande i Svenska FN-förbundet.
+73-1	5220-5230	ordförande	_	_	_	_	_	_	_	
+73-2	5231-5232	i	_	_	_	_	_	_	_	
+73-3	5233-5240	Svenska	_	_	_	_	_	_	_	
+73-4	5241-5253	FN-förbundet	_	_	_	_	_	_	_	
+73-5	5253-5254	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+74-1	5256-5257	#	_	_	_	_	_	_	_	
+74-2	5257-5258	P	_	_	_	_	_	_	_	
+74-3	5259-5262	IMM	_	_	_	_	_	_	_	
+74-4	5262-5263	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+75-1	5265-5273	Redaktör	_	_	_	_	_	_	_	
+75-2	5273-5274	:	_	_	_	_	_	_	_	
+75-3	5275-5281	Carina	_	_	_	_	_	_	_	
+75-4	5282-5290	Stensson	_	_	_	_	_	_	_	
+75-5	5290-5291	,	_	_	_	_	_	_	_	
+75-6	5292-5302	Biträdande	_	_	_	_	_	_	_	
+75-7	5303-5311	redaktör	_	_	_	_	_	_	_	
+75-8	5311-5312	:	_	_	_	_	_	_	_	
+75-9	5313-5318	Björn	_	_	_	_	_	_	_	
+75-10	5319-5325	Jorner	_	_	_	_	_	_	_	
+75-11	5325-5326	,	_	_	_	_	_	_	_	
+75-12	5327-5331	Mejl	_	_	_	_	_	_	_	
+75-13	5331-5332	:	_	_	_	_	_	_	_	
+75-14	5333-5339	debatt	_	_	_	_	_	_	_	
+75-15	5339-5340	@	_	_	_	_	_	_	_	
+75-16	5340-5346	svd.se	_	_	_	_	_	_	_	
+75-17	5346-5347	,	_	_	_	_	_	_	_	
+75-18	5348-5361	Telefonnummer	_	_	_	_	_	_	_	
+75-19	5361-5362	:	_	_	_	_	_	_	_	
+75-20	5363-5365	08	_	_	_	_	_	_	_	
+75-21	5365-5366	-	_	_	_	_	_	_	_	
+75-22	5366-5372	135149	_	_	_	_	_	_	_	
+75-23	5372-5373	,	_	_	_	_	_	_	_	
+75-24	5374-5381	Twitter	_	_	_	_	_	_	_	
+75-25	5381-5382	:	_	_	_	_	_	_	_	
+75-26	5383-5384	@	_	_	_	_	_	_	_	
+75-27	5384-5393	SvDDebatt	_	_	_	_	_	_	_	
+75-28	5393-5394	,	_	_	_	_	_	_	_	
+75-29	5395-5403	Facebook	_	_	_	_	_	_	_	
+75-30	5403-5404	:	_	_	_	_	_	_	_	
+75-31	5405-5408	SvD	_	_	_	_	_	_	_	
+75-32	5409-5415	Debatt	_	_	_	_	_	_	_	
+75-33	5415-5416	.	_	_	_	_	_	_	_	

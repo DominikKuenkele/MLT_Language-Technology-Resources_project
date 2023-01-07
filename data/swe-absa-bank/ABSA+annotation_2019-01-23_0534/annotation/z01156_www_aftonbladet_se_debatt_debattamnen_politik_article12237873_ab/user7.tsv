@@ -1,0 +1,744 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Samhället har glömt bort nyanlända flyktingkvinnor.
+3-1	18-27	Samhället	*	_	_	_	_	_	_	
+3-2	28-31	har	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	32-37	glömt	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	38-42	bort	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-5	43-52	nyanlända	_	_	_	_	_	_	_	
+3-6	53-68	flyktingkvinnor	_	_	_	_	_	_	_	
+3-7	68-69	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	false	4	_	_	
+4-4	77-78	.	_	_	_	_	_	_	_	
+
+#Text=Det finns många framgångsrika utlandsfödda kvinnor i Sverige.
+5-1	80-83	Det	_	_	_	_	_	_	_	
+5-2	84-89	finns	_	_	_	_	_	_	_	
+5-3	90-95	många	_	_	_	_	_	_	_	
+5-4	96-109	framgångsrika	_	_	_	_	_	_	_	
+5-5	110-122	utlandsfödda	_	_	_	_	_	_	_	
+5-6	123-130	kvinnor	_	_	_	_	_	_	_	
+5-7	131-132	i	_	_	_	_	_	_	_	
+5-8	133-140	Sverige	_	_	_	_	_	_	_	
+5-9	140-141	.	_	_	_	_	_	_	_	
+
+#Text=Inom politiken, universitetsvärlden och näringslivet.
+6-1	142-146	Inom	_	_	_	_	_	_	_	
+6-2	147-156	politiken	_	_	_	_	_	_	_	
+6-3	156-157	,	_	_	_	_	_	_	_	
+6-4	158-177	universitetsvärlden	_	_	_	_	_	_	_	
+6-5	178-181	och	_	_	_	_	_	_	_	
+6-6	182-194	näringslivet	_	_	_	_	_	_	_	
+6-7	194-195	.	_	_	_	_	_	_	_	
+
+#Text=Men det finns också allvarliga brister som gör att utrikes födda kvinnors potential inte tas till vara.
+7-1	196-199	Men	_	_	_	_	_	_	_	
+7-2	200-203	det	_	_	_	_	_	_	_	
+7-3	204-209	finns	_	_	_	false	1	_	_	
+7-4	210-215	också	_	_	_	_	_	_	_	
+7-5	216-226	allvarliga	_	_[2]	_	false[2]	1[2]	7-3[0_2]	_	
+7-6	227-234	brister	_	_[2]	_	false[2]	1[2]	_	_	
+7-7	235-238	som	_	_	_	_	_	_	_	
+7-8	239-242	gör	_	_	_	_	_	_	_	
+7-9	243-246	att	_	_	_	_	_	_	_	
+7-10	247-254	utrikes	_	_	_	_	_	_	_	
+7-11	255-260	födda	_	_	_	_	_	_	_	
+7-12	261-269	kvinnors	_	_	_	_	_	_	_	
+7-13	270-279	potential	_	_	_	_	_	_	_	
+7-14	280-284	inte	_	_	_	_	_	_	_	
+7-15	285-288	tas	_	_	_	_	_	_	_	
+7-16	289-293	till	_	_	_	_	_	_	_	
+7-17	294-298	vara	_	_	_	_	_	_	_	
+7-18	298-299	.	_	_	_	_	_	_	_	
+
+#Text=I dag onsdag debatterar riksdagen mottagandet av nyanlända och jag kommer att lyfta en bortglömd grupp i samhällsdebatten.
+8-1	300-301	I	_	_	_	_	_	_	_	
+8-2	302-305	dag	_	_	_	_	_	_	_	
+8-3	306-312	onsdag	_	_	_	_	_	_	_	
+8-4	313-323	debatterar	_	_	_	_	_	_	_	
+8-5	324-333	riksdagen	_	_	_	_	_	_	_	
+8-6	334-345	mottagandet	_	_	_	_	_	_	_	
+8-7	346-348	av	_	_	_	_	_	_	_	
+8-8	349-358	nyanlända	_	_	_	_	_	_	_	
+8-9	359-362	och	_	_	_	_	_	_	_	
+8-10	363-366	jag	_	_	_	_	_	_	_	
+8-11	367-373	kommer	_	_	_	_	_	_	_	
+8-12	374-377	att	_	_	_	_	_	_	_	
+8-13	378-383	lyfta	_	_	_	_	_	_	_	
+8-14	384-386	en	_	_	_	_	_	_	_	
+8-15	387-396	bortglömd	_	_	_	_	_	_	_	
+8-16	397-402	grupp	_	_	_	_	_	_	_	
+8-17	403-404	i	_	_	_	_	_	_	_	
+8-18	405-421	samhällsdebatten	_	_	_	_	_	_	_	
+8-19	421-422	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	424-425	#	_	_	_	_	_	_	_	
+9-2	425-426	P	_	_	_	_	_	_	_	
+9-3	427-430	IMM	_	_	_	false	4	_	_	
+9-4	430-431	.	_	_	_	_	_	_	_	
+
+#Text=Det handlar om de kvinnor som kommer till Sverige som nyanlända flyktingar.
+10-1	433-436	Det	_	_	_	_	_	_	_	
+10-2	437-444	handlar	_	_	_	_	_	_	_	
+10-3	445-447	om	_	_	_	_	_	_	_	
+10-4	448-450	de	_	_	_	_	_	_	_	
+10-5	451-458	kvinnor	_	_	_	_	_	_	_	
+10-6	459-462	som	_	_	_	_	_	_	_	
+10-7	463-469	kommer	_	_	_	_	_	_	_	
+10-8	470-474	till	_	_	_	_	_	_	_	
+10-9	475-482	Sverige	_	_	_	_	_	_	_	
+10-10	483-486	som	_	_	_	_	_	_	_	
+10-11	487-496	nyanlända	_	_	_	_	_	_	_	
+10-12	497-507	flyktingar	_	_	_	_	_	_	_	
+10-13	507-508	.	_	_	_	_	_	_	_	
+
+#Text=Deras arbetslöshet väcker inga rubriker.
+11-1	509-514	Deras	_	_	_	_	_	_	_	
+11-2	515-527	arbetslöshet	_	_	_	_	_	_	_	
+11-3	528-534	väcker	_	_	_	_	_	_	_	
+11-4	535-539	inga	_	_	_	_	_	_	_	
+11-5	540-548	rubriker	_	_	_	_	_	_	_	
+11-6	548-549	.	_	_	_	_	_	_	_	
+
+#Text=Det står inga kvoteringsivrare på barrikaderna och kräver reformer.
+12-1	550-553	Det	_	_	_	_	_	_	_	
+12-2	554-558	står	_	_	_	_	_	_	_	
+12-3	559-563	inga	_	_	_	_	_	_	_	
+12-4	564-580	kvoteringsivrare	_	_	_	_	_	_	_	
+12-5	581-583	på	_	_	_	_	_	_	_	
+12-6	584-596	barrikaderna	_	_	_	_	_	_	_	
+12-7	597-600	och	_	_	_	_	_	_	_	
+12-8	601-607	kräver	_	_	_	_	_	_	_	
+12-9	608-616	reformer	_	_	_	_	_	_	_	
+12-10	616-617	.	_	_	_	_	_	_	_	
+
+#Text=Men kampen för de nyanlända kvinnornas rättigheter och möjligheter är också en viktig jämställdhetsfråga.
+13-1	618-621	Men	_	_	_	_	_	_	_	
+13-2	622-628	kampen	_	_	_	_	_	_	_	
+13-3	629-632	för	_	_	_	_	_	_	_	
+13-4	633-635	de	_	_	_	_	_	_	_	
+13-5	636-645	nyanlända	_	_	_	_	_	_	_	
+13-6	646-656	kvinnornas	_	_	_	_	_	_	_	
+13-7	657-668	rättigheter	_	_	_	_	_	_	_	
+13-8	669-672	och	_	_	_	_	_	_	_	
+13-9	673-684	möjligheter	_	_	_	_	_	_	_	
+13-10	685-687	är	_	_	_	_	_	_	_	
+13-11	688-693	också	_	_	_	_	_	_	_	
+13-12	694-696	en	_	_	_	_	_	_	_	
+13-13	697-703	viktig	_	Target	13-14	false	4	_	_	
+13-14	704-722	jämställdhetsfråga	*	_	_	_	_	_	_	
+13-15	722-723	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	725-726	#	_	_	_	_	_	_	_	
+14-2	726-727	P	_	_	_	_	_	_	_	
+14-3	728-731	IMM	_	_	_	false	3	_	_	
+14-4	731-732	.	_	_	_	_	_	_	_	
+
+#Text=Statistiken är förbluffande.
+15-1	734-745	Statistiken	_	_	_	_	_	_	_	
+15-2	746-748	är	_	_	_	_	_	_	_	
+15-3	749-761	förbluffande	_	_	_	_	_	_	_	
+15-4	761-762	.	_	_	_	_	_	_	_	
+
+#Text=En mindre grupp nyanlända tar inte del av introduktionsinsatserna som erbjuds – av dem är nära tre fjärdedelar kvinnor, enligt en undersökning.
+16-1	763-765	En	_	_	_	_	_	_	_	
+16-2	766-772	mindre	_	_	_	_	_	_	_	
+16-3	773-778	grupp	_	_	_	_	_	_	_	
+16-4	779-788	nyanlända	_	_	_	_	_	_	_	
+16-5	789-792	tar	_	_	_	_	_	_	_	
+16-6	793-797	inte	_	_	_	_	_	_	_	
+16-7	798-801	del	_	_	_	_	_	_	_	
+16-8	802-804	av	_	_	_	_	_	_	_	
+16-9	805-828	introduktionsinsatserna	_	_	_	_	_	_	_	
+16-10	829-832	som	_	_	_	_	_	_	_	
+16-11	833-840	erbjuds	_	_	_	_	_	_	_	
+16-12	841-842	–	_	_	_	_	_	_	_	
+16-13	843-845	av	_	_	_	_	_	_	_	
+16-14	846-849	dem	_	_	_	_	_	_	_	
+16-15	850-852	är	_	_	_	_	_	_	_	
+16-16	853-857	nära	_	_	_	_	_	_	_	
+16-17	858-861	tre	_	_	_	_	_	_	_	
+16-18	862-873	fjärdedelar	_	_	_	_	_	_	_	
+16-19	874-881	kvinnor	_	_	_	_	_	_	_	
+16-20	881-882	,	_	_	_	_	_	_	_	
+16-21	883-889	enligt	_	_	_	_	_	_	_	
+16-22	890-892	en	_	_	_	_	_	_	_	
+16-23	893-905	undersökning	_	_	_	_	_	_	_	
+16-24	905-906	.	_	_	_	_	_	_	_	
+
+#Text=När kvinnor deltar är det oftare i mindre kvalificerade insatser.
+17-1	907-910	När	_	_	_	_	_	_	_	
+17-2	911-918	kvinnor	_	_	_	_	_	_	_	
+17-3	919-925	deltar	_	_	_	_	_	_	_	
+17-4	926-928	är	_	_	_	_	_	_	_	
+17-5	929-932	det	_	_	_	_	_	_	_	
+17-6	933-939	oftare	_	_	_	_	_	_	_	
+17-7	940-941	i	_	_	_	_	_	_	_	
+17-8	942-948	mindre	_	_	_	_	_	_	_	
+17-9	949-962	kvalificerade	_	_	_	_	_	_	_	
+17-10	963-971	insatser	_	_	_	_	_	_	_	
+17-11	971-972	.	_	_	_	_	_	_	_	
+
+#Text=Den ersättning som nyanlända får utgår ofta från den samlade ekonomiska situationen i hushållet.
+18-1	973-976	Den	_	_	_	_	_	_	_	
+18-2	977-987	ersättning	_	_	_	_	_	_	_	
+18-3	988-991	som	_	_	_	_	_	_	_	
+18-4	992-1001	nyanlända	_	_	_	_	_	_	_	
+18-5	1002-1005	får	_	_	_	_	_	_	_	
+18-6	1006-1011	utgår	_	_	_	_	_	_	_	
+18-7	1012-1016	ofta	_	_	_	_	_	_	_	
+18-8	1017-1021	från	_	_	_	_	_	_	_	
+18-9	1022-1025	den	_	_	_	_	_	_	_	
+18-10	1026-1033	samlade	_	_	_	_	_	_	_	
+18-11	1034-1044	ekonomiska	_	_	_	_	_	_	_	
+18-12	1045-1056	situationen	_	_	_	_	_	_	_	
+18-13	1057-1058	i	_	_	_	_	_	_	_	
+18-14	1059-1068	hushållet	_	_	_	_	_	_	_	
+18-15	1068-1069	.	_	_	_	_	_	_	_	
+
+#Text=Det leder till att kvinnor, vars män börjar arbeta, inte får ersättning utifrån den egna ansträngningen utan blir beroende av sin partner.
+19-1	1070-1073	Det	_	_	_	_	_	_	_	
+19-2	1074-1079	leder	_	_	_	_	_	_	_	
+19-3	1080-1084	till	_	_	_	_	_	_	_	
+19-4	1085-1088	att	_	_	_	_	_	_	_	
+19-5	1089-1096	kvinnor	_	_	_	_	_	_	_	
+19-6	1096-1097	,	_	_	_	_	_	_	_	
+19-7	1098-1102	vars	_	_	_	_	_	_	_	
+19-8	1103-1106	män	_	_	_	_	_	_	_	
+19-9	1107-1113	börjar	_	_	_	_	_	_	_	
+19-10	1114-1120	arbeta	_	_	_	_	_	_	_	
+19-11	1120-1121	,	_	_	_	_	_	_	_	
+19-12	1122-1126	inte	_	_	_	_	_	_	_	
+19-13	1127-1130	får	_	_	_	_	_	_	_	
+19-14	1131-1141	ersättning	_	_	_	_	_	_	_	
+19-15	1142-1149	utifrån	_	_	_	_	_	_	_	
+19-16	1150-1153	den	_	_	_	_	_	_	_	
+19-17	1154-1158	egna	_	_	_	_	_	_	_	
+19-18	1159-1173	ansträngningen	_	_	_	_	_	_	_	
+19-19	1174-1178	utan	_	_	_	_	_	_	_	
+19-20	1179-1183	blir	_	_	_	_	_	_	_	
+19-21	1184-1192	beroende	_	_	_	_	_	_	_	
+19-22	1193-1195	av	_	_	_	_	_	_	_	
+19-23	1196-1199	sin	_	_	_	_	_	_	_	
+19-24	1200-1207	partner	_	_	_	_	_	_	_	
+19-25	1207-1208	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1210-1211	#	_	_	_	_	_	_	_	
+20-2	1211-1212	P	_	_	_	_	_	_	_	
+20-3	1213-1216	IMM	_	_	_	false	4	_	_	
+20-4	1216-1217	.	_	_	_	_	_	_	_	
+
+#Text=Kvinnor med invandrarbakgrund riskerar dubbel diskriminering på arbetsmarknaden, dels på grund av sitt kön men också på grund av sin etnicitet.
+21-1	1219-1226	Kvinnor	_	_	_	_	_	_	_	
+21-2	1227-1230	med	_	_	_	_	_	_	_	
+21-3	1231-1248	invandrarbakgrund	_	_	_	_	_	_	_	
+21-4	1249-1257	riskerar	_	_	_	_	_	_	_	
+21-5	1258-1264	dubbel	_	_	_	_	_	_	_	
+21-6	1265-1279	diskriminering	*	Target	21-6	false	1	_	_	
+21-7	1280-1282	på	_	_	_	_	_	_	_	
+21-8	1283-1298	arbetsmarknaden	_	_	_	_	_	_	_	
+21-9	1298-1299	,	_	_	_	_	_	_	_	
+21-10	1300-1304	dels	_	_	_	_	_	_	_	
+21-11	1305-1307	på	_	_	_	_	_	_	_	
+21-12	1308-1313	grund	_	_	_	_	_	_	_	
+21-13	1314-1316	av	_	_	_	_	_	_	_	
+21-14	1317-1321	sitt	_	_	_	_	_	_	_	
+21-15	1322-1325	kön	_	_	_	_	_	_	_	
+21-16	1326-1329	men	_	_	_	_	_	_	_	
+21-17	1330-1335	också	_	_	_	_	_	_	_	
+21-18	1336-1338	på	_	_	_	_	_	_	_	
+21-19	1339-1344	grund	_	_	_	_	_	_	_	
+21-20	1345-1347	av	_	_	_	_	_	_	_	
+21-21	1348-1351	sin	_	_	_	_	_	_	_	
+21-22	1352-1361	etnicitet	_	_	_	_	_	_	_	
+21-23	1361-1362	.	_	_	_	_	_	_	_	
+
+#Text=Tiden från uppehållstillstånd till arbete är i genomsnitt sju år för en nyanländ invandrare.
+22-1	1363-1368	Tiden	_	_	_	_	_	_	_	
+22-2	1369-1373	från	_	_	_	_	_	_	_	
+22-3	1374-1392	uppehållstillstånd	_	_	_	_	_	_	_	
+22-4	1393-1397	till	_	_	_	_	_	_	_	
+22-5	1398-1404	arbete	_	_	_	_	_	_	_	
+22-6	1405-1407	är	_	_	_	_	_	_	_	
+22-7	1408-1409	i	_	_	_	_	_	_	_	
+22-8	1410-1420	genomsnitt	_	_	_	_	_	_	_	
+22-9	1421-1424	sju	_	_	_	_	_	_	_	
+22-10	1425-1427	år	_	_	_	_	_	_	_	
+22-11	1428-1431	för	_	_	_	_	_	_	_	
+22-12	1432-1434	en	_	_	_	_	_	_	_	
+22-13	1435-1443	nyanländ	_	_	_	_	_	_	_	
+22-14	1444-1454	invandrare	_	_	_	_	_	_	_	
+22-15	1454-1455	.	_	_	_	_	_	_	_	
+
+#Text=För kvinnor handlar det om nio år, jämfört med fem år för män.
+23-1	1456-1459	För	_	_	_	_	_	_	_	
+23-2	1460-1467	kvinnor	_	_	_	_	_	_	_	
+23-3	1468-1475	handlar	_	_	_	_	_	_	_	
+23-4	1476-1479	det	_	_	_	_	_	_	_	
+23-5	1480-1482	om	_	_	_	_	_	_	_	
+23-6	1483-1486	nio	_	_	_	_	_	_	_	
+23-7	1487-1489	år	_	_	_	_	_	_	_	
+23-8	1489-1490	,	_	_	_	_	_	_	_	
+23-9	1491-1498	jämfört	_	_	_	_	_	_	_	
+23-10	1499-1502	med	_	_	_	_	_	_	_	
+23-11	1503-1506	fem	_	_	_	_	_	_	_	
+23-12	1507-1509	år	_	_	_	_	_	_	_	
+23-13	1510-1513	för	_	_	_	_	_	_	_	
+23-14	1514-1517	män	_	_	_	_	_	_	_	
+23-15	1517-1518	.	_	_	_	_	_	_	_	
+
+#Text=Den skillnaden innebär att kvinnor förlorar möjligheten till ekonomisk självständighet.
+24-1	1519-1522	Den	_	_	_	_	_	_	_	
+24-2	1523-1533	skillnaden	_	_	_	_	_	_	_	
+24-3	1534-1541	innebär	_	_	_	_	_	_	_	
+24-4	1542-1545	att	_	_	_	_	_	_	_	
+24-5	1546-1553	kvinnor	_	_	_	_	_	_	_	
+24-6	1554-1562	förlorar	_	_	_	_	_	_	_	
+24-7	1563-1574	möjligheten	_	_	_	_	_	_	_	
+24-8	1575-1579	till	_	_	_	_	_	_	_	
+24-9	1580-1589	ekonomisk	_	_	_	_	_	_	_	
+24-10	1590-1605	självständighet	_	_	_	_	_	_	_	
+24-11	1605-1606	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1608-1609	#	_	_	_	_	_	_	_	
+25-2	1609-1610	P	_	_	_	_	_	_	_	
+25-3	1611-1614	IMM	_	_	_	false	3	_	_	
+25-4	1614-1615	.	_	_	_	_	_	_	_	
+
+#Text=Det som händer första året i Sverige är avgörande för integrationen på arbetsmarknaden och i samhället i övrigt de kommande tio åren.
+26-1	1617-1620	Det	_	_	_	_	_	_	_	
+26-2	1621-1624	som	_	_	_	_	_	_	_	
+26-3	1625-1631	händer	_	_	_	_	_	_	_	
+26-4	1632-1638	första	_	_	_	_	_	_	_	
+26-5	1639-1643	året	_	_	_	_	_	_	_	
+26-6	1644-1645	i	_	_	_	_	_	_	_	
+26-7	1646-1653	Sverige	_	_	_	_	_	_	_	
+26-8	1654-1656	är	_	_	_	_	_	_	_	
+26-9	1657-1666	avgörande	_	_	_	_	_	_	_	
+26-10	1667-1670	för	_	_	_	_	_	_	_	
+26-11	1671-1684	integrationen	_	_	_	_	_	_	_	
+26-12	1685-1687	på	_	_	_	_	_	_	_	
+26-13	1688-1703	arbetsmarknaden	_	_	_	_	_	_	_	
+26-14	1704-1707	och	_	_	_	_	_	_	_	
+26-15	1708-1709	i	_	_	_	_	_	_	_	
+26-16	1710-1719	samhället	_	_	_	_	_	_	_	
+26-17	1720-1721	i	_	_	_	_	_	_	_	
+26-18	1722-1728	övrigt	_	_	_	_	_	_	_	
+26-19	1729-1731	de	_	_	_	_	_	_	_	
+26-20	1732-1740	kommande	_	_	_	_	_	_	_	
+26-21	1741-1744	tio	_	_	_	_	_	_	_	
+26-22	1745-1749	åren	_	_	_	_	_	_	_	
+26-23	1749-1750	.	_	_	_	_	_	_	_	
+
+#Text=Brist på tidiga och rätt utformade insatser gör att många nyanlända kvinnor i ett tidigt skede hamnar i socialbidragsberoende utan aktiva insatser för att komma i arbete.
+27-1	1751-1756	Brist	*[7]	_	_	_	_	_	28-1[9_7]	
+27-2	1757-1759	på	*[7]	_	_	_	_	_	_	
+27-3	1760-1766	tidiga	*[7]	_	_	_	_	_	_	
+27-4	1767-1770	och	*[7]	_	_	_	_	_	_	
+27-5	1771-1775	rätt	*[7]	Target[3]	27-7[8]	false[3]	4[3]	_	_	
+27-6	1776-1785	utformade	*[7]	Target[3]	27-7[8]	false[3]	4[3]	_	_	
+27-7	1786-1794	insatser	*[7]|*[8]	_	_	_	_	_	_	
+27-8	1795-1798	gör	*[7]	_	_	_	_	_	_	
+27-9	1799-1802	att	*[7]	_	_	_	_	_	_	
+27-10	1803-1808	många	*[7]	_	_	_	_	_	_	
+27-11	1809-1818	nyanlända	*[7]	_	_	_	_	_	_	
+27-12	1819-1826	kvinnor	*[7]	_	_	_	_	_	_	
+27-13	1827-1828	i	*[7]	_	_	_	_	_	_	
+27-14	1829-1832	ett	*[7]	_	_	_	_	_	_	
+27-15	1833-1839	tidigt	*[7]	_	_	_	_	_	_	
+27-16	1840-1845	skede	*[7]	_	_	_	_	_	_	
+27-17	1846-1852	hamnar	*[7]	_	_	_	_	_	_	
+27-18	1853-1854	i	*[7]	_	_	_	_	_	_	
+27-19	1855-1876	socialbidragsberoende	*[7]	_	_	_	_	_	_	
+27-20	1877-1881	utan	*[7]	_	_	_	_	_	_	
+27-21	1882-1888	aktiva	*[7]	_	_	_	_	_	_	
+27-22	1889-1897	insatser	*[7]	_	_	_	_	_	_	
+27-23	1898-1901	för	*[7]	_	_	_	_	_	_	
+27-24	1902-1905	att	*[7]	_	_	_	_	_	_	
+27-25	1906-1911	komma	*[7]	_	_	_	_	_	_	
+27-26	1912-1913	i	*[7]	_	_	_	_	_	_	
+27-27	1914-1920	arbete	*[7]	_	_	_	_	_	_	
+27-28	1920-1921	.	_	_	_	_	_	_	_	
+
+#Text=Denna situation är oacceptabel.
+28-1	1922-1927	Denna	*[9]	_	_	_	_	_	_	
+28-2	1928-1937	situation	*[9]	_	_	_	_	_	_	
+28-3	1938-1940	är	_	Target[4]	28-1[9]	false[4]	1[4]	_	_	
+28-4	1941-1952	oacceptabel	_	Target[4]	28-1[9]	false[4]	1[4]	_	_	
+28-5	1952-1953	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	1955-1956	#	_	_	_	_	_	_	_	
+29-2	1956-1957	P	_	_	_	_	_	_	_	
+29-3	1958-1961	IMM	_	_	_	false	3	_	_	
+29-4	1961-1962	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens reform av nyanländas etablering på arbetsmarknaden och i samhället debatteras i riksdagen i dag.
+30-1	1964-1975	Regeringens	_	_	_	_	_	_	_	
+30-2	1976-1982	reform	_	_	_	_	_	_	_	
+30-3	1983-1985	av	_	_	_	_	_	_	_	
+30-4	1986-1996	nyanländas	_	_	_	_	_	_	_	
+30-5	1997-2007	etablering	_	_	_	_	_	_	_	
+30-6	2008-2010	på	_	_	_	_	_	_	_	
+30-7	2011-2026	arbetsmarknaden	_	_	_	_	_	_	_	
+30-8	2027-2030	och	_	_	_	_	_	_	_	
+30-9	2031-2032	i	_	_	_	_	_	_	_	
+30-10	2033-2042	samhället	_	_	_	_	_	_	_	
+30-11	2043-2053	debatteras	_	_	_	_	_	_	_	
+30-12	2054-2055	i	_	_	_	_	_	_	_	
+30-13	2056-2065	riksdagen	_	_	_	_	_	_	_	
+30-14	2066-2067	i	_	_	_	_	_	_	_	
+30-15	2068-2071	dag	_	_	_	_	_	_	_	
+30-16	2071-2072	.	_	_	_	_	_	_	_	
+
+#Text=Tre centrala delar tar sikte på att bryta nyanlända kvinnors utanförskap.
+31-1	2073-2076	Tre	_	_	_	_	_	_	_	
+31-2	2077-2085	centrala	_	_	_	_	_	_	_	
+31-3	2086-2091	delar	_	_	_	_	_	_	_	
+31-4	2092-2095	tar	_	_	_	_	_	_	_	
+31-5	2096-2101	sikte	_	_	_	_	_	_	_	
+31-6	2102-2104	på	_	_	_	_	_	_	_	
+31-7	2105-2108	att	_	_	_	_	_	_	_	
+31-8	2109-2114	bryta	_	_	_	_	_	_	_	
+31-9	2115-2124	nyanlända	_	_	_	_	_	_	_	
+31-10	2125-2133	kvinnors	_	_	_	_	_	_	_	
+31-11	2134-2145	utanförskap	_	_	_	_	_	_	_	
+31-12	2145-2146	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2148-2149	#	_	_	_	_	_	_	_	
+32-2	2149-2150	P	_	_	_	_	_	_	_	
+32-3	2151-2154	IMM	_	_	_	false	3	_	_	
+32-4	2154-2155	.	_	_	_	_	_	_	_	
+
+#Text=Individuell ersättning för jämställdhet: Vi inför en individuell etableringsersättning som kräver deltagande i etableringsinsatser och som inte är beroende av hushållets samlade inkomster.
+33-1	2157-2168	Individuell	_	_	_	_	_	_	_	
+33-2	2169-2179	ersättning	_	_	_	_	_	_	_	
+33-3	2180-2183	för	_	_	_	_	_	_	_	
+33-4	2184-2196	jämställdhet	*	Target	33-4	false	4	_	_	
+33-5	2196-2197	:	_	_	_	_	_	_	_	
+33-6	2198-2200	Vi	_	_	_	_	_	_	_	
+33-7	2201-2206	inför	_	_	_	_	_	_	_	
+33-8	2207-2209	en	_	_	_	_	_	_	_	
+33-9	2210-2221	individuell	_	_	_	_	_	_	_	
+33-10	2222-2243	etableringsersättning	_	_	_	_	_	_	_	
+33-11	2244-2247	som	_	_	_	_	_	_	_	
+33-12	2248-2254	kräver	_	_	_	_	_	_	_	
+33-13	2255-2265	deltagande	_	_	_	_	_	_	_	
+33-14	2266-2267	i	_	_	_	_	_	_	_	
+33-15	2268-2287	etableringsinsatser	_	_	_	_	_	_	_	
+33-16	2288-2291	och	_	_	_	_	_	_	_	
+33-17	2292-2295	som	_	_	_	_	_	_	_	
+33-18	2296-2300	inte	_	_	_	_	_	_	_	
+33-19	2301-2303	är	_	_	_	_	_	_	_	
+33-20	2304-2312	beroende	_	_	_	_	_	_	_	
+33-21	2313-2315	av	_	_	_	_	_	_	_	
+33-22	2316-2326	hushållets	_	_	_	_	_	_	_	
+33-23	2327-2334	samlade	_	_	_	_	_	_	_	
+33-24	2335-2344	inkomster	_	_	_	_	_	_	_	
+33-25	2344-2345	.	_	_	_	_	_	_	_	
+
+#Text=Detta ger kvinnor möjligheter till egen inkomst och skapar drivkrafter för båda makarna att delta.
+34-1	2346-2351	Detta	_	_	_	_	_	_	_	
+34-2	2352-2355	ger	_	_	_	_	_	_	_	
+34-3	2356-2363	kvinnor	_	_	_	_	_	_	_	
+34-4	2364-2375	möjligheter	_	_	_	_	_	_	_	
+34-5	2376-2380	till	_	_	_	_	_	_	_	
+34-6	2381-2385	egen	_	_	_	_	_	_	_	
+34-7	2386-2393	inkomst	_	_	_	_	_	_	_	
+34-8	2394-2397	och	_	_	_	_	_	_	_	
+34-9	2398-2404	skapar	_	_	_	_	_	_	_	
+34-10	2405-2416	drivkrafter	_	_	_	_	_	_	_	
+34-11	2417-2420	för	_	_	_	_	_	_	_	
+34-12	2421-2425	båda	_	_	_	_	_	_	_	
+34-13	2426-2433	makarna	_	_	_	_	_	_	_	
+34-14	2434-2437	att	_	_	_	_	_	_	_	
+34-15	2438-2443	delta	_	_	_	_	_	_	_	
+34-16	2443-2444	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2446-2447	#	_	_	_	_	_	_	_	
+35-2	2447-2448	P	_	_	_	_	_	_	_	
+35-3	2449-2452	IMM	_	_	_	false	3	_	_	
+35-4	2452-2453	.	_	_	_	_	_	_	_	
+
+#Text=Samhällsinformation för bättre jämställdhet: Samhällsorientering blir en obligatorisk del av introduktionen.
+36-1	2455-2474	Samhällsinformation	_	_	_	_	_	_	_	
+36-2	2475-2478	för	_	_	_	_	_	_	_	
+36-3	2479-2485	bättre	_	Target	36-4	false	4	_	_	
+36-4	2486-2498	jämställdhet	*	Target	36-4	false	4	_	_	
+36-5	2498-2499	:	_	_	_	_	_	_	_	
+36-6	2500-2519	Samhällsorientering	_	_	_	_	_	_	_	
+36-7	2520-2524	blir	_	_	_	_	_	_	_	
+36-8	2525-2527	en	_	_	_	_	_	_	_	
+36-9	2528-2540	obligatorisk	_	_	_	_	_	_	_	
+36-10	2541-2544	del	_	_	_	_	_	_	_	
+36-11	2545-2547	av	_	_	_	_	_	_	_	
+36-12	2548-2562	introduktionen	_	_	_	_	_	_	_	
+36-13	2562-2563	.	_	_	_	_	_	_	_	
+
+#Text=Att tidigt ta del av information om rättigheter och skyldigheter, samhällets värdegrund och koder är viktigt, inte minst ur ett jämställdhetsperspektiv.
+37-1	2564-2567	Att	*[10]	_	_	_	_	_	_	
+37-2	2568-2574	tidigt	*[10]	_	_	_	_	_	_	
+37-3	2575-2577	ta	*[10]	_	_	_	_	_	_	
+37-4	2578-2581	del	*[10]	_	_	_	_	_	_	
+37-5	2582-2584	av	*[10]	_	_	_	_	_	_	
+37-6	2585-2596	information	*[10]	_	_	_	_	_	_	
+37-7	2597-2599	om	*[10]	_	_	_	_	_	_	
+37-8	2600-2611	rättigheter	*[10]	_	_	_	_	_	_	
+37-9	2612-2615	och	*[10]	_	_	_	_	_	_	
+37-10	2616-2628	skyldigheter	*[10]	_	_	_	_	_	_	
+37-11	2628-2629	,	*[10]	_	_	_	_	_	_	
+37-12	2630-2640	samhällets	*[10]	_	_	_	_	_	_	
+37-13	2641-2651	värdegrund	*[10]	_	_	_	_	_	_	
+37-14	2652-2655	och	*[10]	_	_	_	_	_	_	
+37-15	2656-2661	koder	*[10]	_	_	_	_	_	_	
+37-16	2662-2664	är	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-17	2665-2672	viktigt	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-18	2672-2673	,	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-19	2674-2678	inte	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-20	2679-2684	minst	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-21	2685-2687	ur	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-22	2688-2691	ett	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-23	2692-2715	jämställdhetsperspektiv	_	Target[5]	37-1[10]	false[5]	4[5]	_	_	
+37-24	2715-2716	.	_	_	_	_	_	_	_	
+
+#Text=Ingen nyanländ kvinna ska behöva vara hänvisad till enbart sin partner för samhällsinformation.
+38-1	2717-2722	Ingen	_	_	_	_	_	_	_	
+38-2	2723-2731	nyanländ	_	_	_	_	_	_	_	
+38-3	2732-2738	kvinna	_	_	_	_	_	_	_	
+38-4	2739-2742	ska	_	_	_	_	_	_	_	
+38-5	2743-2749	behöva	_	_	_	_	_	_	_	
+38-6	2750-2754	vara	_	_	_	_	_	_	_	
+38-7	2755-2763	hänvisad	_	_	_	_	_	_	_	
+38-8	2764-2768	till	_	_	_	_	_	_	_	
+38-9	2769-2775	enbart	_	_	_	_	_	_	_	
+38-10	2776-2779	sin	_	_	_	_	_	_	_	
+38-11	2780-2787	partner	_	_	_	_	_	_	_	
+38-12	2788-2791	för	_	_	_	_	_	_	_	
+38-13	2792-2811	samhällsinformation	_	_	_	_	_	_	_	
+38-14	2811-2812	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2814-2815	#	_	_	_	_	_	_	_	
+39-2	2815-2816	P	_	_	_	_	_	_	_	
+39-3	2817-2820	IMM	_	_	_	false	3	_	_	
+39-4	2820-2821	.	_	_	_	_	_	_	_	
+
+#Text=En lots som länk till samhället: Det är ofta männen som kommer till Sverige först vilket leder till att kvinnorna ofta blir hänvisade till sina män som enda länken till samhället.
+40-1	2823-2825	En	_	_	_	_	_	_	_	
+40-2	2826-2830	lots	_	_	_	_	_	_	_	
+40-3	2831-2834	som	_	_	_	_	_	_	_	
+40-4	2835-2839	länk	_	_	_	_	_	_	_	
+40-5	2840-2844	till	_	_	_	_	_	_	_	
+40-6	2845-2854	samhället	_	_	_	_	_	_	_	
+40-7	2854-2855	:	_	_	_	_	_	_	_	
+40-8	2856-2859	Det	_	_	_	_	_	_	_	
+40-9	2860-2862	är	_	_	_	_	_	_	_	
+40-10	2863-2867	ofta	_	_	_	_	_	_	_	
+40-11	2868-2874	männen	_	_	_	_	_	_	_	
+40-12	2875-2878	som	_	_	_	_	_	_	_	
+40-13	2879-2885	kommer	_	_	_	_	_	_	_	
+40-14	2886-2890	till	_	_	_	_	_	_	_	
+40-15	2891-2898	Sverige	_	_	_	_	_	_	_	
+40-16	2899-2904	först	_	_	_	_	_	_	_	
+40-17	2905-2911	vilket	_	_	_	_	_	_	_	
+40-18	2912-2917	leder	_	_	_	_	_	_	_	
+40-19	2918-2922	till	_	_	_	_	_	_	_	
+40-20	2923-2926	att	_	_	_	_	_	_	_	
+40-21	2927-2936	kvinnorna	_	_	_	_	_	_	_	
+40-22	2937-2941	ofta	_	_	_	_	_	_	_	
+40-23	2942-2946	blir	_	_	_	_	_	_	_	
+40-24	2947-2956	hänvisade	_	_	_	_	_	_	_	
+40-25	2957-2961	till	_	_	_	_	_	_	_	
+40-26	2962-2966	sina	_	_	_	_	_	_	_	
+40-27	2967-2970	män	_	_	_	_	_	_	_	
+40-28	2971-2974	som	_	_	_	_	_	_	_	
+40-29	2975-2979	enda	_	_	_	_	_	_	_	
+40-30	2980-2986	länken	_	_	_	_	_	_	_	
+40-31	2987-2991	till	_	_	_	_	_	_	_	
+40-32	2992-3001	samhället	_	_	_	_	_	_	_	
+40-33	3001-3002	.	_	_	_	_	_	_	_	
+
+#Text=Möjligheten att välja en etableringslots ger också kvinnor tillgång till ett eget nätverk.
+41-1	3003-3014	Möjligheten	_	_	_	_	_	_	_	
+41-2	3015-3018	att	_	_	_	_	_	_	_	
+41-3	3019-3024	välja	_	_	_	_	_	_	_	
+41-4	3025-3027	en	_	_	_	_	_	_	_	
+41-5	3028-3043	etableringslots	_	_	_	_	_	_	_	
+41-6	3044-3047	ger	_	_	_	_	_	_	_	
+41-7	3048-3053	också	_	_	_	_	_	_	_	
+41-8	3054-3061	kvinnor	_	_	_	_	_	_	_	
+41-9	3062-3070	tillgång	_	_	_	_	_	_	_	
+41-10	3071-3075	till	_	_	_	_	_	_	_	
+41-11	3076-3079	ett	_	_	_	_	_	_	_	
+41-12	3080-3084	eget	_	_	_	_	_	_	_	
+41-13	3085-3092	nätverk	_	_	_	_	_	_	_	
+41-14	3092-3093	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3095-3096	#	_	_	_	_	_	_	_	
+42-2	3096-3097	P	_	_	_	_	_	_	_	
+42-3	3098-3101	IMM	_	_	_	false	4	_	_	
+42-4	3101-3102	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste göra rätt från början.
+43-1	3104-3106	Vi	_	_	_	_	_	_	_	
+43-2	3107-3112	måste	_	_	_	_	_	_	_	
+43-3	3113-3117	göra	_	_	_	_	_	_	_	
+43-4	3118-3122	rätt	_	_	_	_	_	_	_	
+43-5	3123-3127	från	_	_	_	_	_	_	_	
+43-6	3128-3134	början	_	_	_	_	_	_	_	
+43-7	3134-3135	.	_	_	_	_	_	_	_	
+
+#Text=En av orsakerna till att introduktionen inte varit effektiv är att den i allt väsentligt präglats av ett omhändertagandeperspektiv.
+44-1	3136-3138	En	_	_	_	_	_	_	_	
+44-2	3139-3141	av	_	_	_	_	_	_	_	
+44-3	3142-3151	orsakerna	_	_	_	_	_	_	_	
+44-4	3152-3156	till	_	_	_	_	_	_	_	
+44-5	3157-3160	att	_	_	_	_	_	_	_	
+44-6	3161-3175	introduktionen	*	_	_	_	_	_	_	
+44-7	3176-3180	inte	_	Target[6]	44-6	false[6]	2[6]	_	_	
+44-8	3181-3186	varit	_	Target[6]	44-6	false[6]	2[6]	_	_	
+44-9	3187-3195	effektiv	_	Target[6]	44-6	false[6]	2[6]	_	_	
+44-10	3196-3198	är	_	_	_	_	_	_	_	
+44-11	3199-3202	att	_	_	_	_	_	_	_	
+44-12	3203-3206	den	_	_	_	_	_	_	_	
+44-13	3207-3208	i	_	_	_	_	_	_	_	
+44-14	3209-3213	allt	_	_	_	_	_	_	_	
+44-15	3214-3224	väsentligt	_	_	_	_	_	_	_	
+44-16	3225-3233	präglats	_	_	_	_	_	_	_	
+44-17	3234-3236	av	_	_	_	_	_	_	_	
+44-18	3237-3240	ett	_	_	_	_	_	_	_	
+44-19	3241-3266	omhändertagandeperspektiv	_	_	_	_	_	_	_	
+44-20	3266-3267	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen ändrar på detta genom att flytta ansvaret för mottagande från socialkontoret till arbetsförmedlingen.
+45-1	3268-3278	Regeringen	_	_	_	_	_	_	_	
+45-2	3279-3285	ändrar	_	_	_	_	_	_	_	
+45-3	3286-3288	på	_	_	_	_	_	_	_	
+45-4	3289-3294	detta	_	_	_	_	_	_	_	
+45-5	3295-3300	genom	_	_	_	_	_	_	_	
+45-6	3301-3304	att	_	_	_	_	_	_	_	
+45-7	3305-3311	flytta	_	_	_	_	_	_	_	
+45-8	3312-3320	ansvaret	_	_	_	_	_	_	_	
+45-9	3321-3324	för	_	_	_	_	_	_	_	
+45-10	3325-3335	mottagande	_	_	_	_	_	_	_	
+45-11	3336-3340	från	_	_	_	_	_	_	_	
+45-12	3341-3355	socialkontoret	_	_	_	_	_	_	_	
+45-13	3356-3360	till	_	_	_	_	_	_	_	
+45-14	3361-3379	arbetsförmedlingen	_	_	_	_	_	_	_	
+45-15	3379-3380	.	_	_	_	_	_	_	_	
+
+#Text=Insatser och aktiviteter ska också utgå från individens behov och förutsättningar.
+46-1	3381-3389	Insatser	_	_	_	_	_	_	_	
+46-2	3390-3393	och	_	_	_	_	_	_	_	
+46-3	3394-3405	aktiviteter	_	_	_	_	_	_	_	
+46-4	3406-3409	ska	_	_	_	_	_	_	_	
+46-5	3410-3415	också	_	_	_	_	_	_	_	
+46-6	3416-3420	utgå	_	_	_	_	_	_	_	
+46-7	3421-3425	från	_	_	_	_	_	_	_	
+46-8	3426-3436	individens	_	_	_	_	_	_	_	
+46-9	3437-3442	behov	_	_	_	_	_	_	_	
+46-10	3443-3446	och	_	_	_	_	_	_	_	
+46-11	3447-3462	förutsättningar	_	_	_	_	_	_	_	
+46-12	3462-3463	.	_	_	_	_	_	_	_	
+
+#Text=Bakom oss lämnar vi ett ersättningssystem som innebär bidrag till hushållet och inför en individuell ersättning som kräver aktivt deltagande från såväl män som kvinnor.
+47-1	3464-3469	Bakom	_	_	_	_	_	_	_	
+47-2	3470-3473	oss	_	_	_	_	_	_	_	
+47-3	3474-3480	lämnar	_	_	_	_	_	_	_	
+47-4	3481-3483	vi	_	_	_	_	_	_	_	
+47-5	3484-3487	ett	_	_	_	_	_	_	_	
+47-6	3488-3505	ersättningssystem	_	_	_	_	_	_	_	
+47-7	3506-3509	som	_	_	_	_	_	_	_	
+47-8	3510-3517	innebär	_	_	_	_	_	_	_	
+47-9	3518-3524	bidrag	_	_	_	_	_	_	_	
+47-10	3525-3529	till	_	_	_	_	_	_	_	
+47-11	3530-3539	hushållet	_	_	_	_	_	_	_	
+47-12	3540-3543	och	_	_	_	_	_	_	_	
+47-13	3544-3549	inför	_	_	_	_	_	_	_	
+47-14	3550-3552	en	_	_	_	_	_	_	_	
+47-15	3553-3564	individuell	_	_	_	_	_	_	_	
+47-16	3565-3575	ersättning	_	_	_	_	_	_	_	
+47-17	3576-3579	som	_	_	_	_	_	_	_	
+47-18	3580-3586	kräver	_	_	_	_	_	_	_	
+47-19	3587-3593	aktivt	_	_	_	_	_	_	_	
+47-20	3594-3604	deltagande	_	_	_	_	_	_	_	
+47-21	3605-3609	från	_	_	_	_	_	_	_	
+47-22	3610-3615	såväl	_	_	_	_	_	_	_	
+47-23	3616-3619	män	_	_	_	_	_	_	_	
+47-24	3620-3623	som	_	_	_	_	_	_	_	
+47-25	3624-3631	kvinnor	_	_	_	_	_	_	_	
+47-26	3631-3632	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver fler kvinnor och män som är med och bygger upp framtidens företag och välfärd.
+48-1	3633-3635	Vi	_	_	_	_	_	_	_	
+48-2	3636-3643	behöver	_	_	_	_	_	_	_	
+48-3	3644-3648	fler	_	_	_	_	_	_	_	
+48-4	3649-3656	kvinnor	_	_	_	_	_	_	_	
+48-5	3657-3660	och	_	_	_	_	_	_	_	
+48-6	3661-3664	män	_	_	_	_	_	_	_	
+48-7	3665-3668	som	_	_	_	_	_	_	_	
+48-8	3669-3671	är	_	_	_	_	_	_	_	
+48-9	3672-3675	med	_	_	_	_	_	_	_	
+48-10	3676-3679	och	_	_	_	_	_	_	_	
+48-11	3680-3686	bygger	_	_	_	_	_	_	_	
+48-12	3687-3690	upp	_	_	_	_	_	_	_	
+48-13	3691-3701	framtidens	_	_	_	_	_	_	_	
+48-14	3702-3709	företag	_	_	_	_	_	_	_	
+48-15	3710-3713	och	_	_	_	_	_	_	_	
+48-16	3714-3721	välfärd	_	_	_	_	_	_	_	
+48-17	3721-3722	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3724-3725	#	_	_	_	_	_	_	_	
+49-2	3725-3726	P	_	_	_	_	_	_	_	
+49-3	3727-3730	IMM	_	_	_	_	_	_	_	
+49-4	3730-3731	.	_	_	_	_	_	_	_	
+
+#Text=Nyamko Sabuni.
+50-1	3733-3739	Nyamko	_	_	_	_	_	_	_	
+50-2	3740-3746	Sabuni	_	_	_	_	_	_	_	
+50-3	3746-3747	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3749-3750	#	_	_	_	_	_	_	_	
+51-2	3750-3751	P	_	_	_	_	_	_	_	
+51-3	3752-3755	IMM	_	_	_	_	_	_	_	
+51-4	3755-3756	.	_	_	_	_	_	_	_	
+
+#Text=Integrations- och jämställdhetsminister (FP).
+52-1	3758-3770	Integrations	_	_	_	_	_	_	_	
+52-2	3770-3771	-	_	_	_	_	_	_	_	
+52-3	3772-3775	och	_	_	_	_	_	_	_	
+52-4	3776-3797	jämställdhetsminister	_	_	_	_	_	_	_	
+52-5	3798-3799	(	_	_	_	_	_	_	_	
+52-6	3799-3801	FP	_	_	_	_	_	_	_	
+52-7	3801-3802	)	_	_	_	_	_	_	_	
+52-8	3802-3803	.	_	_	_	_	_	_	_	

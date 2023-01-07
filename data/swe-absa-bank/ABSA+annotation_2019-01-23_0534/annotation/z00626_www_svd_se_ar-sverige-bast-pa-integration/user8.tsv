@@ -1,0 +1,1139 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Är Sverige verkligen bäst på integration?.
+3-1	18-20	Är	_	_	_	_	_	_	_	
+3-2	21-28	Sverige	*	_	_	_	_	_	_	
+3-3	29-38	verkligen	_	_	_	_	_	_	_	
+3-4	39-43	bäst	_	Source;Target[1]	3-7;3-2	false[1]	5[1]	_	_	
+3-5	44-46	på	_	Source;Target[1]	3-7;3-2	false[1]	5[1]	_	_	
+3-6	47-58	integration	_	Source;Target[1]	3-7;3-2	false[1]	5[1]	_	_	
+3-7	58-59	?	*	_	_	_	_	_	_	
+3-8	59-60	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	62-63	#	_	_	_	_	_	_	_	
+4-2	63-64	P	_	_	_	_	_	_	_	
+4-3	65-68	IMM	_	_	_	false	4	_	_	
+4-4	68-69	.	_	_	_	_	_	_	_	
+
+#Text=Från Folkpartiets sida kommer vi fortsätta vidareutveckla integrationspolitiken och fokusera på att sänka trösklarna in på den svenska arbetsmarknaden, skriver Erik Ullenhag (FP).
+5-1	71-75	Från	*[20]	_	_	_	_	_	_	
+5-2	76-88	Folkpartiets	*[20]	_	_	_	_	_	_	
+5-3	89-93	sida	*[20]	_	_	_	_	_	_	
+5-4	94-100	kommer	_	_	_	_	_	_	_	
+5-5	101-103	vi	_	_	_	_	_	_	_	
+5-6	104-113	fortsätta	_	_	_	_	_	_	_	
+5-7	114-128	vidareutveckla	_	_	_	_	_	_	_	
+5-8	129-150	integrationspolitiken	_	_	_	_	_	_	_	
+5-9	151-154	och	_	_	_	_	_	_	_	
+5-10	155-163	fokusera	_	Target;Source[2]	5-12[21];5-1[20]	false[2]	4[2]	_	_	
+5-11	164-166	på	_	Target;Source[2]	5-12[21];5-1[20]	false[2]	4[2]	_	_	
+5-12	167-170	att	*[21]	_	_	_	_	_	_	
+5-13	171-176	sänka	*[21]	_	_	_	_	_	_	
+5-14	177-187	trösklarna	*[21]	_	_	_	_	_	_	
+5-15	188-190	in	*[21]	_	_	_	_	_	_	
+5-16	191-193	på	*[21]	_	_	_	_	_	_	
+5-17	194-197	den	*[21]	_	_	_	_	_	_	
+5-18	198-205	svenska	*[21]	_	_	_	_	_	_	
+5-19	206-221	arbetsmarknaden	*[21]	_	_	_	_	_	_	
+5-20	221-222	,	_	_	_	_	_	_	_	
+5-21	223-230	skriver	_	_	_	_	_	_	_	
+5-22	231-235	Erik	_	_	_	_	_	_	_	
+5-23	236-244	Ullenhag	_	_	_	_	_	_	_	
+5-24	245-246	(	_	_	_	_	_	_	_	
+5-25	246-248	FP	_	_	_	_	_	_	_	
+5-26	248-249	)	_	_	_	_	_	_	_	
+5-27	249-250	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	252-253	#	_	_	_	_	_	_	_	
+6-2	253-254	P	_	_	_	_	_	_	_	
+6-3	255-258	IMM	_	_	_	_	_	_	_	
+6-4	258-259	.	_	_	_	_	_	_	_	
+
+#Text=Vi lyckades inte övertyga Moderaterna om de liberaliseringar av arbetsmarknaden som borde ha skett.
+7-1	261-263	Vi	_	_	_	_	_	_	_	
+7-2	264-272	lyckades	_	_	_	_	_	_	_	
+7-3	273-277	inte	_	_	_	_	_	_	_	
+7-4	278-286	övertyga	_	_	_	_	_	_	_	
+7-5	287-298	Moderaterna	_	_	_	_	_	_	_	
+7-6	299-301	om	_	_	_	_	_	_	_	
+7-7	302-304	de	_	_	_	_	_	_	_	
+7-8	305-321	liberaliseringar	_	_	_	_	_	_	_	
+7-9	322-324	av	_	_	_	_	_	_	_	
+7-10	325-340	arbetsmarknaden	_	_	_	_	_	_	_	
+7-11	341-344	som	_	_	_	_	_	_	_	
+7-12	345-350	borde	_	_	_	_	_	_	_	
+7-13	351-353	ha	_	_	_	_	_	_	_	
+7-14	354-359	skett	_	_	_	_	_	_	_	
+7-15	359-360	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	362-363	#	_	_	_	_	_	_	_	
+8-2	363-364	P	_	_	_	_	_	_	_	
+8-3	365-368	IMM	_	_	_	_	_	_	_	
+8-4	368-369	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+9-1	371-374	Det	_	_	_	_	_	_	_	
+9-2	375-378	här	_	_	_	_	_	_	_	
+9-3	379-381	är	_	_	_	_	_	_	_	
+9-4	382-384	en	_	_	_	_	_	_	_	
+9-5	385-399	argumenterande	_	_	_	_	_	_	_	
+9-6	400-404	text	_	_	_	_	_	_	_	
+9-7	405-408	med	_	_	_	_	_	_	_	
+9-8	409-414	syfte	_	_	_	_	_	_	_	
+9-9	415-418	att	_	_	_	_	_	_	_	
+9-10	419-426	påverka	_	_	_	_	_	_	_	
+9-11	426-427	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+10-1	428-437	Åsikterna	_	_	_	_	_	_	_	
+10-2	438-441	som	_	_	_	_	_	_	_	
+10-3	442-450	uttrycks	_	_	_	_	_	_	_	
+10-4	451-453	är	_	_	_	_	_	_	_	
+10-5	454-465	skribentens	_	_	_	_	_	_	_	
+10-6	466-470	egna	_	_	_	_	_	_	_	
+10-7	470-471	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	473-474	#	_	_	_	_	_	_	_	
+11-2	474-475	P	_	_	_	_	_	_	_	
+11-3	476-479	IMM	_	_	_	false	3	_	_	
+11-4	479-480	.	_	_	_	_	_	_	_	
+
+#Text="Sverige bäst på integration."
+12-1	482-483	"	_	_	_	_	_	_	_	
+12-2	483-490	Sverige	*	_	_	_	_	_	_	
+12-3	491-495	bäst	_	Source;Target[3]	12-6;12-2	false[3]	5[3]	_	_	
+12-4	496-498	på	_	Source;Target[3]	12-6;12-2	false[3]	5[3]	_	_	
+12-5	499-510	integration	_	Source;Target[3]	12-6;12-2	false[3]	5[3]	_	_	
+12-6	510-511	.	*	_	_	_	_	_	_	
+12-7	511-512	"	_	_	_	_	_	_	_	
+
+#Text=Det var rubriken i SvD (24/6) när Migrant Integration Policy Index (Mipex), en jämförelse av 38 länders integrationspolitik, presenterades.
+13-1	513-516	Det	_	_	_	_	_	_	_	
+13-2	517-520	var	_	_	_	_	_	_	_	
+13-3	521-529	rubriken	_	_	_	_	_	_	_	
+13-4	530-531	i	_	_	_	_	_	_	_	
+13-5	532-535	SvD	_	_	_	_	_	_	_	
+13-6	536-537	(	_	_	_	_	_	_	_	
+13-7	537-539	24	_	_	_	_	_	_	_	
+13-8	539-540	/	_	_	_	_	_	_	_	
+13-9	540-541	6	_	_	_	_	_	_	_	
+13-10	541-542	)	_	_	_	_	_	_	_	
+13-11	543-546	när	_	_	_	_	_	_	_	
+13-12	547-554	Migrant	_	_	_	_	_	_	_	
+13-13	555-566	Integration	_	_	_	_	_	_	_	
+13-14	567-573	Policy	_	_	_	_	_	_	_	
+13-15	574-579	Index	_	_	_	_	_	_	_	
+13-16	580-581	(	_	_	_	_	_	_	_	
+13-17	581-586	Mipex	_	_	_	_	_	_	_	
+13-18	586-587	)	_	_	_	_	_	_	_	
+13-19	587-588	,	_	_	_	_	_	_	_	
+13-20	589-591	en	_	_	_	_	_	_	_	
+13-21	592-602	jämförelse	_	_	_	_	_	_	_	
+13-22	603-605	av	_	_	_	_	_	_	_	
+13-23	606-608	38	_	_	_	_	_	_	_	
+13-24	609-616	länders	_	_	_	_	_	_	_	
+13-25	617-636	integrationspolitik	_	_	_	_	_	_	_	
+13-26	636-637	,	_	_	_	_	_	_	_	
+13-27	638-651	presenterades	_	_	_	_	_	_	_	
+13-28	651-652	.	_	_	_	_	_	_	_	
+
+#Text=Rubriken förvånade nog en del som följt den svenska integrationsdebatten.
+14-1	653-661	Rubriken	_	_	_	_	_	_	_	
+14-2	662-671	förvånade	_	_	_	_	_	_	_	
+14-3	672-675	nog	_	_	_	_	_	_	_	
+14-4	676-678	en	_	_	_	_	_	_	_	
+14-5	679-682	del	_	_	_	_	_	_	_	
+14-6	683-686	som	_	_	_	_	_	_	_	
+14-7	687-692	följt	_	_	_	_	_	_	_	
+14-8	693-696	den	_	_	_	_	_	_	_	
+14-9	697-704	svenska	_	_	_	_	_	_	_	
+14-10	705-725	integrationsdebatten	_	_	_	_	_	_	_	
+14-11	725-726	.	_	_	_	_	_	_	_	
+
+#Text=Är Sverige verkligen bäst på integration?.
+15-1	727-729	Är	_	_	_	_	_	_	_	
+15-2	730-737	Sverige	*	_	_	_	_	_	_	
+15-3	738-747	verkligen	_	_	_	_	_	_	_	
+15-4	748-752	bäst	_	Target;Source[4]	15-2;15-7	false[4]	5[4]	_	_	
+15-5	753-755	på	_	Target;Source[4]	15-2;15-7	false[4]	5[4]	_	_	
+15-6	756-767	integration	_	Target;Source[4]	15-2;15-7	false[4]	5[4]	_	_	
+15-7	767-768	?	*	_	_	_	_	_	_	
+15-8	768-769	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	771-772	#	_	_	_	_	_	_	_	
+16-2	772-773	P	_	_	_	_	_	_	_	
+16-3	774-777	IMM	_	_	_	false	3	_	_	
+16-4	777-778	.	_	_	_	_	_	_	_	
+
+#Text=Sanningen är att Sverige får höga betyg när just integrationspolitiken granskas, men det är inte det samma som att vi saknar problem med integrationen.
+17-1	780-789	Sanningen	_	_	_	_	_	_	_	
+17-2	790-792	är	_	_	_	_	_	_	_	
+17-3	793-796	att	_	_	_	_	_	_	_	
+17-4	797-804	Sverige	_	_	_	_	_	_	_	
+17-5	805-808	får	_	_	_	_	_	_	_	
+17-6	809-813	höga	_	_	_	_	_	_	_	
+17-7	814-819	betyg	_	_	_	_	_	_	_	
+17-8	820-823	när	_	_	_	_	_	_	_	
+17-9	824-828	just	_	_	_	_	_	_	_	
+17-10	829-850	integrationspolitiken	_	_	_	_	_	_	_	
+17-11	851-859	granskas	_	_	_	_	_	_	_	
+17-12	859-860	,	_	_	_	_	_	_	_	
+17-13	861-864	men	_	_	_	_	_	_	_	
+17-14	865-868	det	_	_	_	_	_	_	_	
+17-15	869-871	är	_	_	_	_	_	_	_	
+17-16	872-876	inte	_	_	_	_	_	_	_	
+17-17	877-880	det	_	_	_	_	_	_	_	
+17-18	881-886	samma	_	_	_	_	_	_	_	
+17-19	887-890	som	_	_	_	_	_	_	_	
+17-20	891-894	att	_	_	_	_	_	_	_	
+17-21	895-897	vi	_	_	_	_	_	_	_	
+17-22	898-904	saknar	_	_	_	_	_	_	_	
+17-23	905-912	problem	_	_	_	_	_	_	_	
+17-24	913-916	med	_	_	_	_	_	_	_	
+17-25	917-930	integrationen	_	_	_	_	_	_	_	
+17-26	930-931	.	_	_	_	_	_	_	_	
+
+#Text=Integrationspolitiken är bara en del för en lyckad integration, något som Mipex också understryker.
+18-1	932-953	Integrationspolitiken	_	_	_	_	_	_	_	
+18-2	954-956	är	_	_	_	_	_	_	_	
+18-3	957-961	bara	_	_	_	_	_	_	_	
+18-4	962-964	en	_	_	_	_	_	_	_	
+18-5	965-968	del	_	_	_	_	_	_	_	
+18-6	969-972	för	_	_	_	_	_	_	_	
+18-7	973-975	en	_	_	_	_	_	_	_	
+18-8	976-982	lyckad	_	_	_	_	_	_	_	
+18-9	983-994	integration	_	_	_	_	_	_	_	
+18-10	994-995	,	_	_	_	_	_	_	_	
+18-11	996-1001	något	_	_	_	_	_	_	_	
+18-12	1002-1005	som	_	_	_	_	_	_	_	
+18-13	1006-1011	Mipex	_	_	_	_	_	_	_	
+18-14	1012-1017	också	_	_	_	_	_	_	_	
+18-15	1018-1030	understryker	_	_	_	_	_	_	_	
+18-16	1030-1031	.	_	_	_	_	_	_	_	
+
+#Text=Andra politikområden som arbetsmarknad, skola och bostäder är avgörande för utfallet i verkligheten.
+19-1	1032-1037	Andra	_	_	_	_	_	_	_	
+19-2	1038-1052	politikområden	_	_	_	_	_	_	_	
+19-3	1053-1056	som	_	_	_	_	_	_	_	
+19-4	1057-1070	arbetsmarknad	_	_	_	_	_	_	_	
+19-5	1070-1071	,	_	_	_	_	_	_	_	
+19-6	1072-1077	skola	_	_	_	_	_	_	_	
+19-7	1078-1081	och	_	_	_	_	_	_	_	
+19-8	1082-1090	bostäder	_	_	_	_	_	_	_	
+19-9	1091-1093	är	_	_	_	_	_	_	_	
+19-10	1094-1103	avgörande	_	_	_	_	_	_	_	
+19-11	1104-1107	för	_	_	_	_	_	_	_	
+19-12	1108-1116	utfallet	_	_	_	_	_	_	_	
+19-13	1117-1118	i	_	_	_	_	_	_	_	
+19-14	1119-1131	verkligheten	_	_	_	_	_	_	_	
+19-15	1131-1132	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1134-1135	#	_	_	_	_	_	_	_	
+20-2	1135-1136	P	_	_	_	_	_	_	_	
+20-3	1137-1140	IMM	_	_	_	false	3	_	_	
+20-4	1140-1141	.	_	_	_	_	_	_	_	
+
+#Text=Folkpartiet förbättrade i regeringsställning integrationspolitiken.
+21-1	1143-1154	Folkpartiet	*[22]|*[23]	_	_	_	_	_	22-1[26_22]|22-1[25_23]|22-1[24_23]	
+21-2	1155-1166	förbättrade	_	Target	21-1[22]	false	4	21-5	_	
+21-3	1167-1168	i	_	_	_	_	_	_	_	
+21-4	1169-1187	regeringsställning	_	_	_	_	_	_	_	
+21-5	1188-1209	integrationspolitiken	_	Target	21-1[23]	false	4	_	_	
+21-6	1209-1210	.	_	_	_	_	_	_	_	
+
+#Text=Vi bröt mot en långvarig omhändertagandementalitet och fokuserade tydligt på jobb, inledde omfattande reformer för att förbättra skolgången för nyanlända elever med mer svenskundervisning, höjde kvaliteten i Svenska för invandrare (SFI) samt förbättrade valideringen och satsade på fler kompletterande utbildningar för utrikes födda akademiker.
+22-1	1211-1213	Vi	*[24]|*[25]|*[26]	_	_	_	_	_	_	
+22-2	1214-1218	bröt	_	_	_	_	_	_	_	
+22-3	1219-1222	mot	_	_	_	_	_	_	_	
+22-4	1223-1225	en	_	_	_	_	_	_	_	
+22-5	1226-1235	långvarig	_	_	_	_	_	_	_	
+22-6	1236-1261	omhändertagandementalitet	_	_	_	_	_	_	_	
+22-7	1262-1265	och	_	_	_	_	_	_	_	
+22-8	1266-1276	fokuserade	_	_	_	_	_	_	_	
+22-9	1277-1284	tydligt	_	_	_	_	_	_	_	
+22-10	1285-1287	på	_	_	_	_	_	_	_	
+22-11	1288-1292	jobb	_	_	_	_	_	_	_	
+22-12	1292-1293	,	_	_	_	_	_	_	_	
+22-13	1294-1301	inledde	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-14	1302-1312	omfattande	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-15	1313-1321	reformer	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-16	1322-1325	för	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-17	1326-1329	att	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-18	1330-1339	förbättra	_	Target[5]	22-1[24]	false[5]	4[5]	_	_	
+22-19	1340-1350	skolgången	_	_	_	_	_	_	_	
+22-20	1351-1354	för	_	_	_	_	_	_	_	
+22-21	1355-1364	nyanlända	_	_	_	_	_	_	_	
+22-22	1365-1371	elever	_	_	_	_	_	_	_	
+22-23	1372-1375	med	_	_	_	_	_	_	_	
+22-24	1376-1379	mer	_	_	_	_	_	_	_	
+22-25	1380-1398	svenskundervisning	_	_	_	_	_	_	_	
+22-26	1398-1399	,	_	_	_	_	_	_	_	
+22-27	1400-1405	höjde	_	Target[6]	22-1[25]	false[6]	4[6]	_	_	
+22-28	1406-1416	kvaliteten	_	Target[6]	22-1[25]	false[6]	4[6]	_	_	
+22-29	1417-1418	i	_	_	_	_	_	_	_	
+22-30	1419-1426	Svenska	_	_	_	_	_	_	_	
+22-31	1427-1430	för	_	_	_	_	_	_	_	
+22-32	1431-1441	invandrare	_	_	_	_	_	_	_	
+22-33	1442-1443	(	_	_	_	_	_	_	_	
+22-34	1443-1446	SFI	_	_	_	_	_	_	_	
+22-35	1446-1447	)	_	_	_	_	_	_	_	
+22-36	1448-1452	samt	_	_	_	_	_	_	_	
+22-37	1453-1464	förbättrade	_	Target	22-1[26]	false	4	_	_	
+22-38	1465-1477	valideringen	_	_	_	_	_	_	_	
+22-39	1478-1481	och	_	_	_	_	_	_	_	
+22-40	1482-1489	satsade	_	_	_	_	_	_	_	
+22-41	1490-1492	på	_	_	_	_	_	_	_	
+22-42	1493-1497	fler	_	_	_	_	_	_	_	
+22-43	1498-1512	kompletterande	_	_	_	_	_	_	_	
+22-44	1513-1525	utbildningar	_	_	_	_	_	_	_	
+22-45	1526-1529	för	_	_	_	_	_	_	_	
+22-46	1530-1537	utrikes	_	_	_	_	_	_	_	
+22-47	1538-1543	födda	_	_	_	_	_	_	_	
+22-48	1544-1554	akademiker	_	_	_	_	_	_	_	
+22-49	1554-1555	.	_	_	_	_	_	_	_	
+
+#Text=Insatserna bidrog till att 200 000 fler utrikes födda fick jobb, att sysselsättningsgraden bland utrikes födda ökade och att kompetensen bland dem med högre utbildning i dag tas till vara bättre.
+23-1	1556-1566	Insatserna	*	_	_	_	_	_	_	
+23-2	1567-1573	bidrog	_	_	_	_	_	_	_	
+23-3	1574-1578	till	_	_	_	_	_	_	_	
+23-4	1579-1582	att	_	_	_	_	_	_	_	
+23-5	1583-1586	200	_	_	_	_	_	_	_	
+23-6	1587-1590	000	_	_	_	_	_	_	_	
+23-7	1591-1595	fler	_	_	_	_	_	_	_	
+23-8	1596-1603	utrikes	_	_	_	_	_	_	_	
+23-9	1604-1609	födda	_	_	_	_	_	_	_	
+23-10	1610-1614	fick	_	_	_	_	_	_	_	
+23-11	1615-1619	jobb	_	_	_	_	_	_	_	
+23-12	1619-1620	,	_	_	_	_	_	_	_	
+23-13	1621-1624	att	_	_	_	_	_	_	_	
+23-14	1625-1646	sysselsättningsgraden	_	_	_	_	_	_	_	
+23-15	1647-1652	bland	_	_	_	_	_	_	_	
+23-16	1653-1660	utrikes	_	_	_	_	_	_	_	
+23-17	1661-1666	födda	_	_	_	_	_	_	_	
+23-18	1667-1672	ökade	_	_	_	_	_	_	_	
+23-19	1673-1676	och	_	_	_	_	_	_	_	
+23-20	1677-1680	att	_	_	_	_	_	_	_	
+23-21	1681-1692	kompetensen	_	_	_	_	_	_	_	
+23-22	1693-1698	bland	_	_	_	_	_	_	_	
+23-23	1699-1702	dem	_	_	_	_	_	_	_	
+23-24	1703-1706	med	_	_	_	_	_	_	_	
+23-25	1707-1712	högre	_	_	_	_	_	_	_	
+23-26	1713-1723	utbildning	_	_	_	_	_	_	_	
+23-27	1724-1725	i	_	_	_	_	_	_	_	
+23-28	1726-1729	dag	_	_	_	_	_	_	_	
+23-29	1730-1733	tas	_	_	_	_	_	_	_	
+23-30	1734-1738	till	_	_	_	_	_	_	_	
+23-31	1739-1743	vara	_	_	_	_	_	_	_	
+23-32	1744-1750	bättre	_	_	_	_	_	_	_	
+23-33	1750-1751	.	_	Target	23-1	false	4	_	_	
+
+#Text=#P IMM.
+24-1	1753-1754	#	_	_	_	_	_	_	_	
+24-2	1754-1755	P	_	_	_	_	_	_	_	
+24-3	1756-1759	IMM	_	_	_	false	3	_	_	
+24-4	1759-1760	.	_	_	_	_	_	_	_	
+
+#Text=Men det räcker inte.
+25-1	1762-1765	Men	_	_	_	_	_	_	_	
+25-2	1766-1769	det	_	_	_	_	_	_	_	
+25-3	1770-1776	räcker	_	_	_	_	_	_	_	
+25-4	1777-1781	inte	_	_	_	_	_	_	_	
+25-5	1781-1782	.	_	_	_	_	_	_	_	
+
+#Text=Det tar för lång tid för nyanlända att få jobb och 70 000 av dem som är arbetslösa hos Arbetsförmedlingen är utrikes födda utan gymnasieutbildning.
+26-1	1783-1786	Det	_	_	_	_	_	_	_	
+26-2	1787-1790	tar	_	Target[7]	26-6[27]	false[7]	2[7]	_	_	
+26-3	1791-1794	för	_	Target[7]	26-6[27]	false[7]	2[7]	_	_	
+26-4	1795-1799	lång	_	Target[7]	26-6[27]	false[7]	2[7]	_	_	
+26-5	1800-1803	tid	_	Target[7]	26-6[27]	false[7]	2[7]	_	_	
+26-6	1804-1807	för	*[27]	_	_	_	_	_	_	
+26-7	1808-1817	nyanlända	*[27]	_	_	_	_	_	_	
+26-8	1818-1821	att	*[27]	_	_	_	_	_	_	
+26-9	1822-1824	få	*[27]	_	_	_	_	_	_	
+26-10	1825-1829	jobb	*[27]	_	_	_	_	_	_	
+26-11	1830-1833	och	_	_	_	_	_	_	_	
+26-12	1834-1836	70	_	_	_	_	_	_	_	
+26-13	1837-1840	000	_	_	_	_	_	_	_	
+26-14	1841-1843	av	_	_	_	_	_	_	_	
+26-15	1844-1847	dem	_	_	_	_	_	_	_	
+26-16	1848-1851	som	_	_	_	_	_	_	_	
+26-17	1852-1854	är	_	_	_	_	_	_	_	
+26-18	1855-1865	arbetslösa	_	_	_	_	_	_	_	
+26-19	1866-1869	hos	_	_	_	_	_	_	_	
+26-20	1870-1888	Arbetsförmedlingen	_	_	_	_	_	_	_	
+26-21	1889-1891	är	_	_	_	_	_	_	_	
+26-22	1892-1899	utrikes	_	_	_	_	_	_	_	
+26-23	1900-1905	födda	_	_	_	_	_	_	_	
+26-24	1906-1910	utan	_	_	_	_	_	_	_	
+26-25	1911-1929	gymnasieutbildning	_	_	_	_	_	_	_	
+26-26	1929-1930	.	_	_	_	_	_	_	_	
+
+#Text=Den flyktingkatastrof som nu råder gör att vårt mottagningssystem är ansträngt.
+27-1	1931-1934	Den	_	_	_	_	_	_	_	
+27-2	1935-1952	flyktingkatastrof	*	Target	27-2	false	1	_	_	
+27-3	1953-1956	som	_	_	_	_	_	_	_	
+27-4	1957-1959	nu	_	_	_	_	_	_	_	
+27-5	1960-1965	råder	_	_	_	_	_	_	_	
+27-6	1966-1969	gör	_	_	_	_	_	_	_	
+27-7	1970-1973	att	_	_	_	_	_	_	_	
+27-8	1974-1978	vårt	_	_	_	_	_	_	_	
+27-9	1979-1996	mottagningssystem	_	_	_	_	_	_	_	
+27-10	1997-1999	är	_	_	_	_	_	_	_	
+27-11	2000-2009	ansträngt	_	_	_	_	_	_	_	
+27-12	2009-2010	.	_	_	_	_	_	_	_	
+
+#Text=Etableringsreformen, som trädde i kraft 2010, riggades för maximalt 16 000 personer.
+28-1	2011-2030	Etableringsreformen	_	_	_	_	_	_	_	
+28-2	2030-2031	,	_	_	_	_	_	_	_	
+28-3	2032-2035	som	_	_	_	_	_	_	_	
+28-4	2036-2042	trädde	_	_	_	_	_	_	_	
+28-5	2043-2044	i	_	_	_	_	_	_	_	
+28-6	2045-2050	kraft	_	_	_	_	_	_	_	
+28-7	2051-2055	2010	_	_	_	_	_	_	_	
+28-8	2055-2056	,	_	_	_	_	_	_	_	
+28-9	2057-2065	riggades	_	_	_	_	_	_	_	
+28-10	2066-2069	för	_	_	_	_	_	_	_	
+28-11	2070-2078	maximalt	_	_	_	_	_	_	_	
+28-12	2079-2081	16	_	_	_	_	_	_	_	
+28-13	2082-2085	000	_	_	_	_	_	_	_	
+28-14	2086-2094	personer	_	_	_	_	_	_	_	
+28-15	2094-2095	.	_	_	_	_	_	_	_	
+
+#Text=I slutet av 2014 var antalet deltagare i etableringsuppdraget 42 000.
+29-1	2096-2097	I	_	_	_	_	_	_	_	
+29-2	2098-2104	slutet	_	_	_	_	_	_	_	
+29-3	2105-2107	av	_	_	_	_	_	_	_	
+29-4	2108-2112	2014	_	_	_	_	_	_	_	
+29-5	2113-2116	var	_	_	_	_	_	_	_	
+29-6	2117-2124	antalet	_	_	_	_	_	_	_	
+29-7	2125-2134	deltagare	_	_	_	_	_	_	_	
+29-8	2135-2136	i	_	_	_	_	_	_	_	
+29-9	2137-2157	etableringsuppdraget	_	_	_	_	_	_	_	
+29-10	2158-2160	42	_	_	_	_	_	_	_	
+29-11	2161-2164	000	_	_	_	_	_	_	_	
+29-12	2164-2165	.	_	_	_	_	_	_	_	
+
+#Text=Drygt 10 000 personer som fått uppehållstillstånd och bara väntar på att få starta sitt nya liv är fast på Migrationsverkets boenden eftersom kommunerna inte erbjuder tillräckligt med platser.
+30-1	2166-2171	Drygt	_	_	_	_	_	_	_	
+30-2	2172-2174	10	_	_	_	_	_	_	_	
+30-3	2175-2178	000	_	_	_	_	_	_	_	
+30-4	2179-2187	personer	_	_	_	_	_	_	_	
+30-5	2188-2191	som	_	_	_	_	_	_	_	
+30-6	2192-2196	fått	_	_	_	_	_	_	_	
+30-7	2197-2215	uppehållstillstånd	_	_	_	_	_	_	_	
+30-8	2216-2219	och	_	_	_	_	_	_	_	
+30-9	2220-2224	bara	_	_	_	_	_	_	_	
+30-10	2225-2231	väntar	_	_	_	_	_	_	_	
+30-11	2232-2234	på	_	_	_	_	_	_	_	
+30-12	2235-2238	att	_	_	_	_	_	_	_	
+30-13	2239-2241	få	_	_	_	_	_	_	_	
+30-14	2242-2248	starta	_	_	_	_	_	_	_	
+30-15	2249-2253	sitt	_	_	_	_	_	_	_	
+30-16	2254-2257	nya	_	_	_	_	_	_	_	
+30-17	2258-2261	liv	_	_	_	_	_	_	_	
+30-18	2262-2264	är	_	_	_	_	_	_	_	
+30-19	2265-2269	fast	_	_	_	_	_	_	_	
+30-20	2270-2272	på	_	_	_	_	_	_	_	
+30-21	2273-2290	Migrationsverkets	_	_	_	_	_	_	_	
+30-22	2291-2298	boenden	_	_	_	_	_	_	_	
+30-23	2299-2307	eftersom	_	_	_	_	_	_	_	
+30-24	2308-2318	kommunerna	*	_	_	_	_	_	_	
+30-25	2319-2323	inte	_	Target[8]	30-24	false[8]	2[8]	_	_	
+30-26	2324-2332	erbjuder	_	Target[8]	30-24	false[8]	2[8]	_	_	
+30-27	2333-2345	tillräckligt	_	Target[8]	30-24	false[8]	2[8]	_	_	
+30-28	2346-2349	med	_	Target[8]	30-24	false[8]	2[8]	_	_	
+30-29	2350-2357	platser	_	Target[8]	30-24	false[8]	2[8]	_	_	
+30-30	2357-2358	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2360-2361	#	_	_	_	_	_	_	_	
+31-2	2361-2362	P	_	_	_	_	_	_	_	
+31-3	2363-2366	IMM	_	_	_	false	3	_	_	
+31-4	2366-2367	.	_	_	_	_	_	_	_	
+
+#Text=Slutsatsen av tidningsrubriken "Sverige bäst på integration" är alltså knappast att vi kan slå oss till ro – fortsatta reformer behövs.
+32-1	2369-2379	Slutsatsen	_	_	_	_	_	_	_	
+32-2	2380-2382	av	_	_	_	_	_	_	_	
+32-3	2383-2399	tidningsrubriken	_	_	_	_	_	_	_	
+32-4	2400-2401	"	_	_	_	_	_	_	_	
+32-5	2401-2408	Sverige	*	_	_	_	_	_	_	
+32-6	2409-2413	bäst	_	Source;Target[9]	32-24;32-5	false[9]	5[9]	_	_	
+32-7	2414-2416	på	_	Source;Target[9]	32-24;32-5	false[9]	5[9]	_	_	
+32-8	2417-2428	integration	_	Source;Target[9]	32-24;32-5	false[9]	5[9]	_	_	
+32-9	2428-2429	"	_	_	_	_	_	_	_	
+32-10	2430-2432	är	_	_	_	_	_	_	_	
+32-11	2433-2439	alltså	_	_	_	_	_	_	_	
+32-12	2440-2448	knappast	_	_	_	_	_	_	_	
+32-13	2449-2452	att	_	_	_	_	_	_	_	
+32-14	2453-2455	vi	_	_	_	_	_	_	_	
+32-15	2456-2459	kan	_	_	_	_	_	_	_	
+32-16	2460-2463	slå	_	_	_	_	_	_	_	
+32-17	2464-2467	oss	_	_	_	_	_	_	_	
+32-18	2468-2472	till	_	_	_	_	_	_	_	
+32-19	2473-2475	ro	_	_	_	_	_	_	_	
+32-20	2476-2477	–	_	_	_	_	_	_	_	
+32-21	2478-2487	fortsatta	*[28]	_	_	_	_	_	_	
+32-22	2488-2496	reformer	*[28]	_	_	_	_	_	_	
+32-23	2497-2503	behövs	_	Target	32-21[28]	false	4	_	_	
+32-24	2503-2504	.	*	_	_	_	_	_	_	
+
+#Text=Något som också Riksrevisionen understryker.
+33-1	2505-2510	Något	_	_	_	_	_	_	_	
+33-2	2511-2514	som	_	_	_	_	_	_	_	
+33-3	2515-2520	också	_	_	_	_	_	_	_	
+33-4	2521-2535	Riksrevisionen	_	_	_	_	_	_	_	
+33-5	2536-2548	understryker	_	_	_	_	_	_	_	
+33-6	2548-2549	.	_	_	_	_	_	_	_	
+
+#Text=En av huvudfrågorna är fortsatt att se till att människor som kommer till vårt land snabbare kommer i arbete.
+34-1	2550-2552	En	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-2	2553-2555	av	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-3	2556-2569	huvudfrågorna	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-4	2570-2572	är	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-5	2573-2581	fortsatt	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-6	2582-2585	att	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-7	2586-2588	se	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-8	2589-2593	till	_	Target[10]	34-9[29]	false[10]	4[10]	_	_	
+34-9	2594-2597	att	*[29]	_	_	_	_	_	_	
+34-10	2598-2607	människor	*[29]	_	_	_	_	_	_	
+34-11	2608-2611	som	*[29]	_	_	_	_	_	_	
+34-12	2612-2618	kommer	*[29]	_	_	_	_	_	_	
+34-13	2619-2623	till	*[29]	_	_	_	_	_	_	
+34-14	2624-2628	vårt	*[29]	_	_	_	_	_	_	
+34-15	2629-2633	land	*[29]	_	_	_	_	_	_	
+34-16	2634-2642	snabbare	*[29]	_	_	_	_	_	_	
+34-17	2643-2649	kommer	*[29]	_	_	_	_	_	_	
+34-18	2650-2651	i	*[29]	_	_	_	_	_	_	
+34-19	2652-2658	arbete	*[29]	_	_	_	_	_	_	
+34-20	2658-2659	.	_	_	_	_	_	_	_	
+
+#Text=Ska det lyckas gäller det att politiken ställer rätt frågor och angriper rätt problem.
+35-1	2660-2663	Ska	_	_	_	_	_	_	_	
+35-2	2664-2667	det	_	_	_	_	_	_	_	
+35-3	2668-2674	lyckas	_	_	_	_	_	_	_	
+35-4	2675-2681	gäller	_	_	_	_	_	_	_	
+35-5	2682-2685	det	_	_	_	_	_	_	_	
+35-6	2686-2689	att	_	_	_	_	_	_	_	
+35-7	2690-2699	politiken	_	_	_	_	_	_	_	
+35-8	2700-2707	ställer	_	_	_	_	_	_	_	
+35-9	2708-2712	rätt	_	_	_	_	_	_	_	
+35-10	2713-2719	frågor	_	_	_	_	_	_	_	
+35-11	2720-2723	och	_	_	_	_	_	_	_	
+35-12	2724-2732	angriper	_	_	_	_	_	_	_	
+35-13	2733-2737	rätt	_	_	_	_	_	_	_	
+35-14	2738-2745	problem	_	_	_	_	_	_	_	
+35-15	2745-2746	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2748-2749	#	_	_	_	_	_	_	_	
+36-2	2749-2750	P	_	_	_	_	_	_	_	
+36-3	2751-2754	IMM	_	_	_	false	3	_	_	
+36-4	2754-2755	.	_	_	_	_	_	_	_	
+
+#Text=Den rödgröna regeringen fokuserar på "snabbspår" in på arbetsmarknaden för nyanlända som är väl rustade och på vikten av validering.
+37-1	2757-2760	Den	_	_	_	_	_	_	_	
+37-2	2761-2769	rödgröna	_	_	_	_	_	_	_	
+37-3	2770-2780	regeringen	_	_	_	_	_	_	_	
+37-4	2781-2790	fokuserar	_	_	_	_	_	_	_	
+37-5	2791-2793	på	_	_	_	_	_	_	_	
+37-6	2794-2795	"	*[30]|*[31]	_	_	_	_	_	_	
+37-7	2795-2804	snabbspår	*[30]|*[31]	_	_	_	_	_	_	
+37-8	2804-2805	"	*[30]|*[31]	_	_	_	_	_	_	
+37-9	2806-2808	in	*[30]|*[31]	_	_	_	_	_	_	
+37-10	2809-2811	på	*[30]|*[31]	_	_	_	_	_	_	
+37-11	2812-2827	arbetsmarknaden	*[30]|*[31]	_	_	_	_	_	_	
+37-12	2828-2831	för	*[30]|*[31]	_	_	_	_	_	_	
+37-13	2832-2841	nyanlända	*[30]|*[31]	_	_	_	_	_	_	
+37-14	2842-2845	som	*[30]|*[31]	_	_	_	_	_	_	
+37-15	2846-2848	är	*[30]|*[31]	_	_	_	_	_	_	
+37-16	2849-2852	väl	*[30]|*[31]	_	_	_	_	_	_	
+37-17	2853-2860	rustade	*[30]|*[31]	_	_	_	_	_	_	
+37-18	2861-2864	och	_	_	_	_	_	_	_	
+37-19	2865-2867	på	_	_	_	_	_	_	_	
+37-20	2868-2874	vikten	*[32]|*[33]	_	_	_	_	_	_	
+37-21	2875-2877	av	*[32]|*[33]	_	_	_	_	_	_	
+37-22	2878-2888	validering	*[32]|*[33]	_	_	_	_	_	_	
+37-23	2888-2889	.	_	_	_	_	_	_	_	
+
+#Text=Det är bra och nödvändiga åtgärder, men de löser inte den riktiga utmaningen.
+38-1	2890-2893	Det	_	_	_	_	_	_	_	
+38-2	2894-2896	är	_	_	_	_	_	_	_	
+38-3	2897-2900	bra	_	Target;Target[11]	37-20[32];37-6[30]	false[11]	4[11]	_	_	
+38-4	2901-2904	och	_	Target;Target[11]	37-20[32];37-6[30]	false[11]	4[11]	_	_	
+38-5	2905-2915	nödvändiga	_	Target;Target[11]	37-20[32];37-6[30]	false[11]	4[11]	_	_	
+38-6	2916-2924	åtgärder	_	Target;Target[11]	37-20[32];37-6[30]	false[11]	4[11]	_	_	
+38-7	2924-2925	,	_	_	_	_	_	_	_	
+38-8	2926-2929	men	_	_	_	_	_	_	_	
+38-9	2930-2932	de	_	_	_	_	_	_	_	
+38-10	2933-2938	löser	_	Target;Source[12]	37-6[31];37-20[33]	false[12]	2[12]	_	_	
+38-11	2939-2943	inte	_	Target;Source[12]	37-6[31];37-20[33]	false[12]	2[12]	_	_	
+38-12	2944-2947	den	_	Target;Source[12]	37-6[31];37-20[33]	false[12]	2[12]	_	_	
+38-13	2948-2955	riktiga	_	Target;Source[12]	37-6[31];37-20[33]	false[12]	2[12]	_	_	
+38-14	2956-2966	utmaningen	_	Target;Source[12]	37-6[31];37-20[33]	false[12]	2[12]	_	_	
+38-15	2966-2967	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens politik missar huvudfrågan – hur ska människor som flyr till vårt land och har en lägre utbildning få möjlighet att komma in på svensk arbetsmarknad?.
+39-1	2968-2979	Regeringens	*[34]	_	_	_	_	_	_	
+39-2	2980-2987	politik	*[34]	_	_	_	_	_	_	
+39-3	2988-2994	missar	_	Target[13]	39-1[34]	false[13]	2[13]	_	_	
+39-4	2995-3006	huvudfrågan	_	Target[13]	39-1[34]	false[13]	2[13]	_	_	
+39-5	3007-3008	–	_	_	_	_	_	_	_	
+39-6	3009-3012	hur	_	_	_	_	_	_	_	
+39-7	3013-3016	ska	_	_	_	_	_	_	_	
+39-8	3017-3026	människor	_	_	_	_	_	_	_	
+39-9	3027-3030	som	_	_	_	_	_	_	_	
+39-10	3031-3035	flyr	_	_	_	_	_	_	_	
+39-11	3036-3040	till	_	_	_	_	_	_	_	
+39-12	3041-3045	vårt	_	_	_	_	_	_	_	
+39-13	3046-3050	land	_	_	_	_	_	_	_	
+39-14	3051-3054	och	_	_	_	_	_	_	_	
+39-15	3055-3058	har	_	_	_	_	_	_	_	
+39-16	3059-3061	en	_	_	_	_	_	_	_	
+39-17	3062-3067	lägre	_	_	_	_	_	_	_	
+39-18	3068-3078	utbildning	_	_	_	_	_	_	_	
+39-19	3079-3081	få	_	_	_	_	_	_	_	
+39-20	3082-3091	möjlighet	_	_	_	_	_	_	_	
+39-21	3092-3095	att	_	_	_	_	_	_	_	
+39-22	3096-3101	komma	_	_	_	_	_	_	_	
+39-23	3102-3104	in	_	_	_	_	_	_	_	
+39-24	3105-3107	på	_	_	_	_	_	_	_	
+39-25	3108-3114	svensk	_	_	_	_	_	_	_	
+39-26	3115-3128	arbetsmarknad	_	_	_	_	_	_	_	
+39-27	3128-3129	?	_	_	_	_	_	_	_	
+39-28	3129-3130	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3132-3133	#	_	_	_	_	_	_	_	
+40-2	3133-3134	P	_	_	_	_	_	_	_	
+40-3	3135-3138	IMM	_	_	_	false	3	_	_	
+40-4	3138-3139	.	_	_	_	_	_	_	_	
+
+#Text=En Saco-rapport som nyligen presenterats pekar på att utrikes födda akademikers sysselsättningsgrad ökar och arbetslösheten minskar med tiden i Sverige.
+41-1	3141-3143	En	_	_	_	_	_	_	_	
+41-2	3144-3156	Saco-rapport	_	_	_	_	_	_	_	
+41-3	3157-3160	som	_	_	_	_	_	_	_	
+41-4	3161-3168	nyligen	_	_	_	_	_	_	_	
+41-5	3169-3181	presenterats	_	_	_	_	_	_	_	
+41-6	3182-3187	pekar	_	_	_	_	_	_	_	
+41-7	3188-3190	på	_	_	_	_	_	_	_	
+41-8	3191-3194	att	_	_	_	_	_	_	_	
+41-9	3195-3202	utrikes	_	_	_	_	_	_	_	
+41-10	3203-3208	födda	_	_	_	_	_	_	_	
+41-11	3209-3220	akademikers	_	_	_	_	_	_	_	
+41-12	3221-3240	sysselsättningsgrad	_	_	_	_	_	_	_	
+41-13	3241-3245	ökar	_	_	_	_	_	_	_	
+41-14	3246-3249	och	_	_	_	_	_	_	_	
+41-15	3250-3264	arbetslösheten	_	_	_	_	_	_	_	
+41-16	3265-3272	minskar	_	_	_	_	_	_	_	
+41-17	3273-3276	med	_	_	_	_	_	_	_	
+41-18	3277-3282	tiden	_	_	_	_	_	_	_	
+41-19	3283-3284	i	_	_	_	_	_	_	_	
+41-20	3285-3292	Sverige	_	_	_	_	_	_	_	
+41-21	3292-3293	.	_	_	_	_	_	_	_	
+
+#Text=Efter drygt tio år i Sverige är sysselsättningsgraden endast 0,6 procentenheter lägre för en utrikes född akademiker.
+42-1	3294-3299	Efter	_	_	_	_	_	_	_	
+42-2	3300-3305	drygt	_	_	_	_	_	_	_	
+42-3	3306-3309	tio	_	_	_	_	_	_	_	
+42-4	3310-3312	år	_	_	_	_	_	_	_	
+42-5	3313-3314	i	_	_	_	_	_	_	_	
+42-6	3315-3322	Sverige	_	_	_	_	_	_	_	
+42-7	3323-3325	är	_	_	_	_	_	_	_	
+42-8	3326-3347	sysselsättningsgraden	_	_	_	_	_	_	_	
+42-9	3348-3354	endast	_	_	_	_	_	_	_	
+42-10	3355-3358	0,6	_	_	_	_	_	_	_	
+42-11	3359-3373	procentenheter	_	_	_	_	_	_	_	
+42-12	3374-3379	lägre	_	_	_	_	_	_	_	
+42-13	3380-3383	för	_	_	_	_	_	_	_	
+42-14	3384-3386	en	_	_	_	_	_	_	_	
+42-15	3387-3394	utrikes	_	_	_	_	_	_	_	
+42-16	3395-3399	född	_	_	_	_	_	_	_	
+42-17	3400-3410	akademiker	_	_	_	_	_	_	_	
+42-18	3410-3411	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3413-3414	#	_	_	_	_	_	_	_	
+43-2	3414-3415	P	_	_	_	_	_	_	_	
+43-3	3416-3419	IMM	_	_	_	false	3	_	_	
+43-4	3419-3420	.	_	_	_	_	_	_	_	
+
+#Text=Mipex-studien pekar på att sysselsättningen hos utrikes födda närmar sig den för inrikes födda med samma utbildningsnivå och kön.
+44-1	3422-3435	Mipex-studien	_	_	_	_	_	_	_	
+44-2	3436-3441	pekar	_	_	_	_	_	_	_	
+44-3	3442-3444	på	_	_	_	_	_	_	_	
+44-4	3445-3448	att	_	_	_	_	_	_	_	
+44-5	3449-3465	sysselsättningen	_	_	_	_	_	_	_	
+44-6	3466-3469	hos	_	_	_	_	_	_	_	
+44-7	3470-3477	utrikes	_	_	_	_	_	_	_	
+44-8	3478-3483	födda	_	_	_	_	_	_	_	
+44-9	3484-3490	närmar	_	_	_	_	_	_	_	
+44-10	3491-3494	sig	_	_	_	_	_	_	_	
+44-11	3495-3498	den	_	_	_	_	_	_	_	
+44-12	3499-3502	för	_	_	_	_	_	_	_	
+44-13	3503-3510	inrikes	_	_	_	_	_	_	_	
+44-14	3511-3516	födda	_	_	_	_	_	_	_	
+44-15	3517-3520	med	_	_	_	_	_	_	_	
+44-16	3521-3526	samma	_	_	_	_	_	_	_	
+44-17	3527-3542	utbildningsnivå	_	_	_	_	_	_	_	
+44-18	3543-3546	och	_	_	_	_	_	_	_	
+44-19	3547-3550	kön	_	_	_	_	_	_	_	
+44-20	3550-3551	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt är det väl känt att gapet mellan utrikes födda och inrikes födda när det gäller sysselsättning fortfarande är större i Sverige än i jämförbara länder.
+45-1	3552-3561	Samtidigt	_	_	_	_	_	_	_	
+45-2	3562-3564	är	_	_	_	_	_	_	_	
+45-3	3565-3568	det	_	_	_	_	_	_	_	
+45-4	3569-3572	väl	_	_	_	_	_	_	_	
+45-5	3573-3577	känt	_	_	_	_	_	_	_	
+45-6	3578-3581	att	_	_	_	_	_	_	_	
+45-7	3582-3587	gapet	_	_	_	_	_	_	_	
+45-8	3588-3594	mellan	_	_	_	_	_	_	_	
+45-9	3595-3602	utrikes	_	_	_	_	_	_	_	
+45-10	3603-3608	födda	_	_	_	_	_	_	_	
+45-11	3609-3612	och	_	_	_	_	_	_	_	
+45-12	3613-3620	inrikes	_	_	_	_	_	_	_	
+45-13	3621-3626	födda	_	_	_	_	_	_	_	
+45-14	3627-3630	när	_	_	_	_	_	_	_	
+45-15	3631-3634	det	_	_	_	_	_	_	_	
+45-16	3635-3641	gäller	_	_	_	_	_	_	_	
+45-17	3642-3656	sysselsättning	_	_	_	_	_	_	_	
+45-18	3657-3668	fortfarande	_	_	_	_	_	_	_	
+45-19	3669-3671	är	_	_	_	_	_	_	_	
+45-20	3672-3678	större	_	_	_	_	_	_	_	
+45-21	3679-3680	i	_	_	_	_	_	_	_	
+45-22	3681-3688	Sverige	_	_	_	_	_	_	_	
+45-23	3689-3691	än	_	_	_	_	_	_	_	
+45-24	3692-3693	i	_	_	_	_	_	_	_	
+45-25	3694-3704	jämförbara	_	_	_	_	_	_	_	
+45-26	3705-3711	länder	_	_	_	_	_	_	_	
+45-27	3711-3712	.	_	_	_	_	_	_	_	
+
+#Text=Hur går detta ihop?
+46-1	3713-3716	Hur	_	_	_	_	_	_	_	
+46-2	3717-3720	går	_	_	_	_	_	_	_	
+46-3	3721-3726	detta	_	_	_	_	_	_	_	
+46-4	3727-3731	ihop	_	_	_	_	_	_	_	
+46-5	3731-3732	?	_	_	_	_	_	_	_	
+
+#Text=Förklaringen är sannolikt att en stor andel av dem som under senare år kommit till Sverige har en lägre utbildningsnivå än människor födda i Sverige.
+47-1	3733-3745	Förklaringen	_	_	_	_	_	_	_	
+47-2	3746-3748	är	_	_	_	_	_	_	_	
+47-3	3749-3758	sannolikt	_	_	_	_	_	_	_	
+47-4	3759-3762	att	_	_	_	_	_	_	_	
+47-5	3763-3765	en	_	_	_	_	_	_	_	
+47-6	3766-3770	stor	_	_	_	_	_	_	_	
+47-7	3771-3776	andel	_	_	_	_	_	_	_	
+47-8	3777-3779	av	_	_	_	_	_	_	_	
+47-9	3780-3783	dem	_	_	_	_	_	_	_	
+47-10	3784-3787	som	_	_	_	_	_	_	_	
+47-11	3788-3793	under	_	_	_	_	_	_	_	
+47-12	3794-3800	senare	_	_	_	_	_	_	_	
+47-13	3801-3803	år	_	_	_	_	_	_	_	
+47-14	3804-3810	kommit	_	_	_	_	_	_	_	
+47-15	3811-3815	till	_	_	_	_	_	_	_	
+47-16	3816-3823	Sverige	_	_	_	_	_	_	_	
+47-17	3824-3827	har	_	_	_	_	_	_	_	
+47-18	3828-3830	en	_	_	_	_	_	_	_	
+47-19	3831-3836	lägre	_	_	_	_	_	_	_	
+47-20	3837-3852	utbildningsnivå	_	_	_	_	_	_	_	
+47-21	3853-3855	än	_	_	_	_	_	_	_	
+47-22	3856-3865	människor	_	_	_	_	_	_	_	
+47-23	3866-3871	födda	_	_	_	_	_	_	_	
+47-24	3872-3873	i	_	_	_	_	_	_	_	
+47-25	3874-3881	Sverige	_	_	_	_	_	_	_	
+47-26	3881-3882	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3884-3885	#	_	_	_	_	_	_	_	
+48-2	3885-3886	P	_	_	_	_	_	_	_	
+48-3	3887-3890	IMM	_	_	_	false	3	_	_	
+48-4	3890-3891	.	_	_	_	_	_	_	_	
+
+#Text=Majoriteten av dem som nu flyr till Sverige har en lägre utbildningsnivå och de som hamnat i utanförskap och inte kommit in på arbetsmarknaden är främst de som inte hade en utbildning med sig.
+49-1	3893-3904	Majoriteten	_	_	_	_	_	_	_	
+49-2	3905-3907	av	_	_	_	_	_	_	_	
+49-3	3908-3911	dem	_	_	_	_	_	_	_	
+49-4	3912-3915	som	_	_	_	_	_	_	_	
+49-5	3916-3918	nu	_	_	_	_	_	_	_	
+49-6	3919-3923	flyr	_	_	_	_	_	_	_	
+49-7	3924-3928	till	_	_	_	_	_	_	_	
+49-8	3929-3936	Sverige	_	_	_	_	_	_	_	
+49-9	3937-3940	har	_	_	_	_	_	_	_	
+49-10	3941-3943	en	_	_	_	_	_	_	_	
+49-11	3944-3949	lägre	_	_	_	_	_	_	_	
+49-12	3950-3965	utbildningsnivå	_	_	_	_	_	_	_	
+49-13	3966-3969	och	_	_	_	_	_	_	_	
+49-14	3970-3972	de	_	_	_	_	_	_	_	
+49-15	3973-3976	som	_	_	_	_	_	_	_	
+49-16	3977-3983	hamnat	_	_[14]	_	false[14]	2[14]	_	_	
+49-17	3984-3985	i	_	_[14]	_	false[14]	2[14]	_	_	
+49-18	3986-3997	utanförskap	_	_[14]	_	false[14]	2[14]	_	_	
+49-19	3998-4001	och	_	_	_	_	_	_	_	
+49-20	4002-4006	inte	_	_	_	_	_	_	_	
+49-21	4007-4013	kommit	_	_	_	_	_	_	_	
+49-22	4014-4016	in	_	_	_	_	_	_	_	
+49-23	4017-4019	på	_	_	_	_	_	_	_	
+49-24	4020-4035	arbetsmarknaden	_	_	_	_	_	_	_	
+49-25	4036-4038	är	_	_	_	_	_	_	_	
+49-26	4039-4045	främst	_	_	_	_	_	_	_	
+49-27	4046-4048	de	_	_	_	_	_	_	_	
+49-28	4049-4052	som	_	_	_	_	_	_	_	
+49-29	4053-4057	inte	_	_	_	_	_	_	_	
+49-30	4058-4062	hade	_	_	_	_	_	_	_	
+49-31	4063-4065	en	_	_	_	_	_	_	_	
+49-32	4066-4076	utbildning	_	_	_	_	_	_	_	
+49-33	4077-4080	med	_	_	_	_	_	_	_	
+49-34	4081-4084	sig	_	_	_	_	_	_	_	
+49-35	4084-4085	.	_	_	_	_	_	_	_	
+
+#Text=Dessa människor kommer inte hjälpas av aldrig så bra system för validering.
+50-1	4086-4091	Dessa	_	_	_	_	_	_	_	
+50-2	4092-4101	människor	_	_	_	_	_	_	_	
+50-3	4102-4108	kommer	_	_	_	_	_	_	_	
+50-4	4109-4113	inte	_	_	_	_	_	_	_	
+50-5	4114-4121	hjälpas	_	_	_	_	_	_	_	
+50-6	4122-4124	av	_	_	_	_	_	_	_	
+50-7	4125-4131	aldrig	_	_	_	_	_	_	_	
+50-8	4132-4134	så	_	_	_	_	_	_	_	
+50-9	4135-4138	bra	_	_	_	_	_	_	_	
+50-10	4139-4145	system	_	_	_	_	_	_	_	
+50-11	4146-4149	för	_	_	_	_	_	_	_	
+50-12	4150-4160	validering	_	_	_	_	_	_	_	
+50-13	4160-4161	.	_	_	_	_	_	_	_	
+
+#Text=De behöver en politik som ger dem möjlighet till utbildning men framförallt behövs en politik som sänker trösklarna in på svensk arbetsmarknad.
+51-1	4162-4164	De	_	_	_	_	_	_	_	
+51-2	4165-4172	behöver	_	_	_	_	_	_	_	
+51-3	4173-4175	en	_	_	_	_	_	_	_	
+51-4	4176-4183	politik	_	_	_	_	_	_	_	
+51-5	4184-4187	som	_	_	_	_	_	_	_	
+51-6	4188-4191	ger	_	_	_	_	_	_	_	
+51-7	4192-4195	dem	_	_	_	_	_	_	_	
+51-8	4196-4205	möjlighet	_	_	_	_	_	_	_	
+51-9	4206-4210	till	_	_	_	_	_	_	_	
+51-10	4211-4221	utbildning	_	_	_	_	_	_	_	
+51-11	4222-4225	men	_	_	_	_	_	_	_	
+51-12	4226-4237	framförallt	_	Target[15]	51-14[35]	false[15]	4[15]	_	_	
+51-13	4238-4244	behövs	_	Target[15]	51-14[35]	false[15]	4[15]	_	_	
+51-14	4245-4247	en	*[35]	_	_	_	_	_	_	
+51-15	4248-4255	politik	*[35]	_	_	_	_	_	_	
+51-16	4256-4259	som	*[35]	_	_	_	_	_	_	
+51-17	4260-4266	sänker	*[35]	_	_	_	_	_	_	
+51-18	4267-4277	trösklarna	*[35]	_	_	_	_	_	_	
+51-19	4278-4280	in	*[35]	_	_	_	_	_	_	
+51-20	4281-4283	på	*[35]	_	_	_	_	_	_	
+51-21	4284-4290	svensk	*[35]	_	_	_	_	_	_	
+51-22	4291-4304	arbetsmarknad	*[35]	_	_	_	_	_	_	
+51-23	4304-4305	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	4307-4308	#	_	_	_	_	_	_	_	
+52-2	4308-4309	P	_	_	_	_	_	_	_	
+52-3	4310-4313	IMM	_	_	_	false	3	_	_	
+52-4	4313-4314	.	_	_	_	_	_	_	_	
+
+#Text=Från Folkpartiets sida kommer vi fortsätta vidareutveckla integrationspolitiken och vi kommer att fokusera på att lösa den verkliga samhällsutmaningen som handlar om hur trösklarna in på den svenska arbetsmarknaden ska kunna sänkas.
+53-1	4316-4320	Från	*[36]	_	_	_	_	_	_	
+53-2	4321-4333	Folkpartiets	*[36]	_	_	_	_	_	_	
+53-3	4334-4338	sida	*[36]	_	_	_	_	_	_	
+53-4	4339-4345	kommer	_	_	_	_	_	_	_	
+53-5	4346-4348	vi	_	_	_	_	_	_	_	
+53-6	4349-4358	fortsätta	_	_	_	_	_	_	_	
+53-7	4359-4373	vidareutveckla	_	_	_	_	_	_	_	
+53-8	4374-4395	integrationspolitiken	_	_	_	_	_	_	_	
+53-9	4396-4399	och	_	_	_	_	_	_	_	
+53-10	4400-4402	vi	_	_	_	_	_	_	_	
+53-11	4403-4409	kommer	_	_	_	_	_	_	_	
+53-12	4410-4413	att	_	_	_	_	_	_	_	
+53-13	4414-4422	fokusera	_	Source;Target[16]	53-1[36];53-15[37]	false[16]	4[16]	_	_	
+53-14	4423-4425	på	_	Source;Target[16]	53-1[36];53-15[37]	false[16]	4[16]	_	_	
+53-15	4426-4429	att	*[37]	_	_	_	_	_	_	
+53-16	4430-4434	lösa	*[37]	_	_	_	_	_	_	
+53-17	4435-4438	den	*[37]	_	_	_	_	_	_	
+53-18	4439-4447	verkliga	*[37]	_	_	_	_	_	_	
+53-19	4448-4466	samhällsutmaningen	*[37]	_	_	_	_	_	_	
+53-20	4467-4470	som	*[37]	_	_	_	_	_	_	
+53-21	4471-4478	handlar	*[37]	_	_	_	_	_	_	
+53-22	4479-4481	om	*[37]	_	_	_	_	_	_	
+53-23	4482-4485	hur	*[37]	_	_	_	_	_	_	
+53-24	4486-4496	trösklarna	*[37]	_	_	_	_	_	_	
+53-25	4497-4499	in	*[37]	_	_	_	_	_	_	
+53-26	4500-4502	på	*[37]	_	_	_	_	_	_	
+53-27	4503-4506	den	*[37]	_	_	_	_	_	_	
+53-28	4507-4514	svenska	*[37]	_	_	_	_	_	_	
+53-29	4515-4530	arbetsmarknaden	*[37]	_	_	_	_	_	_	
+53-30	4531-4534	ska	*[37]	_	_	_	_	_	_	
+53-31	4535-4540	kunna	*[37]	_	_	_	_	_	_	
+53-32	4541-4547	sänkas	*[37]	_	_	_	_	_	_	
+53-33	4547-4548	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver göra det billigare – inte dyrare att anställa, arbetsrätten behöver moderniseras så att den inte stänger ute "outsiders".
+54-1	4549-4551	Vi	_	_	_	_	_	_	_	
+54-2	4552-4559	behöver	_	Target	54-3[38]	false	4	_	_	
+54-3	4560-4564	göra	*[38]	_	_	_	_	_	_	
+54-4	4565-4568	det	*[38]	_	_	_	_	_	_	
+54-5	4569-4578	billigare	*[38]	_	_	_	_	_	_	
+54-6	4579-4580	–	*[38]	_	_	_	_	_	_	
+54-7	4581-4585	inte	*[38]	_	_	_	_	_	_	
+54-8	4586-4592	dyrare	*[38]	_	_	_	_	_	_	
+54-9	4593-4596	att	*[38]	_	_	_	_	_	_	
+54-10	4597-4605	anställa	*[38]	_	_	_	_	_	_	
+54-11	4605-4606	,	_	_	_	_	_	_	_	
+54-12	4607-4619	arbetsrätten	_	_	_	_	_	_	_	
+54-13	4620-4627	behöver	_	_	_	_	_	_	_	
+54-14	4628-4640	moderniseras	_	_	_	_	_	_	_	
+54-15	4641-4643	så	_	_	_	_	_	_	_	
+54-16	4644-4647	att	_	_	_	_	_	_	_	
+54-17	4648-4651	den	_	_	_	_	_	_	_	
+54-18	4652-4656	inte	_	_	_	_	_	_	_	
+54-19	4657-4664	stänger	_	_	_	_	_	_	_	
+54-20	4665-4668	ute	_	_	_	_	_	_	_	
+54-21	4669-4670	"	_	_	_	_	_	_	_	
+54-22	4670-4679	outsiders	_	_	_	_	_	_	_	
+54-23	4679-4680	"	_	_	_	_	_	_	_	
+54-24	4680-4681	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver öka möjligheterna för nyanlända att lära sig svenska och samtidigt jobba eller ha praktik.
+55-1	4682-4684	Vi	_	_	_	_	_	_	_	
+55-2	4685-4692	behöver	_	Target	55-3[39]	false	4	_	_	
+55-3	4693-4696	öka	*[39]	_	_	_	_	_	_	
+55-4	4697-4710	möjligheterna	*[39]	_	_	_	_	_	_	
+55-5	4711-4714	för	*[39]	_	_	_	_	_	_	
+55-6	4715-4724	nyanlända	*[39]	_	_	_	_	_	_	
+55-7	4725-4728	att	*[39]	_	_	_	_	_	_	
+55-8	4729-4733	lära	*[39]	_	_	_	_	_	_	
+55-9	4734-4737	sig	*[39]	_	_	_	_	_	_	
+55-10	4738-4745	svenska	*[39]	_	_	_	_	_	_	
+55-11	4746-4749	och	*[39]	_	_	_	_	_	_	
+55-12	4750-4759	samtidigt	*[39]	_	_	_	_	_	_	
+55-13	4760-4765	jobba	*[39]	_	_	_	_	_	_	
+55-14	4766-4771	eller	*[39]	_	_	_	_	_	_	
+55-15	4772-4774	ha	*[39]	_	_	_	_	_	_	
+55-16	4775-4782	praktik	*[39]	_	_	_	_	_	_	
+55-17	4782-4783	.	_	_	_	_	_	_	_	
+
+#Text=Och lönespridningen i Sverige behöver öka.
+56-1	4784-4787	Och	_	_	_	_	_	_	_	
+56-2	4788-4803	lönespridningen	_	_	_	_	_	_	_	
+56-3	4804-4805	i	_	_	_	_	_	_	_	
+56-4	4806-4813	Sverige	_	_	_	_	_	_	_	
+56-5	4814-4821	behöver	_	_	_	_	_	_	_	
+56-6	4822-4825	öka	_	_	_	_	_	_	_	
+56-7	4825-4826	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste öppna upp en arbetsmarknad för fler enkla jobb som kan vara bryggan in till den svenska arbetsmarknaden.
+57-1	4827-4829	Vi	_	_	_	_	_	_	_	
+57-2	4830-4835	måste	_	Target	57-3[40]	false	4	_	_	
+57-3	4836-4841	öppna	*[40]	_	_	_	_	_	_	
+57-4	4842-4845	upp	*[40]	_	_	_	_	_	_	
+57-5	4846-4848	en	*[40]	_	_	_	_	_	_	
+57-6	4849-4862	arbetsmarknad	*[40]	_	_	_	_	_	_	
+57-7	4863-4866	för	*[40]	_	_	_	_	_	_	
+57-8	4867-4871	fler	*[40]	_	_	_	_	_	_	
+57-9	4872-4877	enkla	*[40]	_	_	_	_	_	_	
+57-10	4878-4882	jobb	*[40]	_	_	_	_	_	_	
+57-11	4883-4886	som	*[40]	_	_	_	_	_	_	
+57-12	4887-4890	kan	*[40]	_	_	_	_	_	_	
+57-13	4891-4895	vara	*[40]	_	_	_	_	_	_	
+57-14	4896-4903	bryggan	*[40]	_	_	_	_	_	_	
+57-15	4904-4906	in	*[40]	_	_	_	_	_	_	
+57-16	4907-4911	till	*[40]	_	_	_	_	_	_	
+57-17	4912-4915	den	*[40]	_	_	_	_	_	_	
+57-18	4916-4923	svenska	*[40]	_	_	_	_	_	_	
+57-19	4924-4939	arbetsmarknaden	*[40]	_	_	_	_	_	_	
+57-20	4939-4940	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	4942-4943	#	_	_	_	_	_	_	_	
+58-2	4943-4944	P	_	_	_	_	_	_	_	
+58-3	4945-4948	IMM	_	_	_	false	3	_	_	
+58-4	4948-4949	.	_	_	_	_	_	_	_	
+
+#Text=Vi är ödmjuka inför det faktum att vi gjorde för lite för att sänka trösklar i den tidigare alliansregeringen.
+59-1	4951-4953	Vi	*	_	_	_	_	_	_	
+59-2	4954-4956	är	_	_	_	_	_	_	_	
+59-3	4957-4964	ödmjuka	_	_	_	_	_	_	_	
+59-4	4965-4970	inför	_	_	_	_	_	_	_	
+59-5	4971-4974	det	_	_	_	_	_	_	_	
+59-6	4975-4981	faktum	_	_	_	_	_	_	_	
+59-7	4982-4985	att	_	_	_	_	_	_	_	
+59-8	4986-4988	vi	*	_	_	_	_	_	_	
+59-9	4989-4995	gjorde	_	Target;Source[17]	59-8;59-1	false[17]	2[17]	_	_	
+59-10	4996-4999	för	_	Target;Source[17]	59-8;59-1	false[17]	2[17]	_	_	
+59-11	5000-5004	lite	_	Target;Source[17]	59-8;59-1	false[17]	2[17]	_	_	
+59-12	5005-5008	för	_	_	_	_	_	_	_	
+59-13	5009-5012	att	_	_	_	_	_	_	_	
+59-14	5013-5018	sänka	_	_	_	_	_	_	_	
+59-15	5019-5027	trösklar	_	_	_	_	_	_	_	
+59-16	5028-5029	i	_	_	_	_	_	_	_	
+59-17	5030-5033	den	_	_	_	_	_	_	_	
+59-18	5034-5042	tidigare	_	_	_	_	_	_	_	
+59-19	5043-5060	alliansregeringen	_	_	_	_	_	_	_	
+59-20	5060-5061	.	_	_	_	_	_	_	_	
+
+#Text=Vi lyckades inte övertyga Moderaterna om de liberaliseringar av arbetsmarknaden som borde ha skett.
+60-1	5062-5064	Vi	_	_	_	_	_	_	_	
+60-2	5065-5073	lyckades	_	_	_	_	_	_	_	
+60-3	5074-5078	inte	_	_	_	_	_	_	_	
+60-4	5079-5087	övertyga	_	_	_	_	_	_	_	
+60-5	5088-5099	Moderaterna	_	_	_	_	_	_	_	
+60-6	5100-5102	om	_	_	_	_	_	_	_	
+60-7	5103-5105	de	_	_	_	_	_	_	_	
+60-8	5106-5122	liberaliseringar	_	_	_	_	_	_	_	
+60-9	5123-5125	av	_	_	_	_	_	_	_	
+60-10	5126-5141	arbetsmarknaden	_	_	_	_	_	_	_	
+60-11	5142-5145	som	_	_	_	_	_	_	_	
+60-12	5146-5151	borde	_	_	_	_	_	_	_	
+60-13	5152-5154	ha	_	_	_	_	_	_	_	
+60-14	5155-5160	skett	_	_	_	_	_	_	_	
+60-15	5160-5161	.	_	_	_	_	_	_	_	
+
+#Text=Inför nästa gång vi möter väljarna kommer Folkpartiet därför söka väljarnas mandat för reformer som gör att vi kan angripa det som är huvudorsaken till att svensk integrationspolitik inte fungerar tillräckligt bra.
+61-1	5162-5167	Inför	_	_	_	_	_	_	_	
+61-2	5168-5173	nästa	_	_	_	_	_	_	_	
+61-3	5174-5178	gång	_	_	_	_	_	_	_	
+61-4	5179-5181	vi	_	_	_	_	_	_	_	
+61-5	5182-5187	möter	_	_	_	_	_	_	_	
+61-6	5188-5196	väljarna	_	_	_	_	_	_	_	
+61-7	5197-5203	kommer	_	_	_	_	_	_	_	
+61-8	5204-5215	Folkpartiet	_	_	_	_	_	_	_	
+61-9	5216-5222	därför	_	_	_	_	_	_	_	
+61-10	5223-5227	söka	_	_	_	_	_	_	_	
+61-11	5228-5237	väljarnas	_	_	_	_	_	_	_	
+61-12	5238-5244	mandat	_	_	_	_	_	_	_	
+61-13	5245-5248	för	_	_	_	_	_	_	_	
+61-14	5249-5257	reformer	_	_	_	_	_	_	_	
+61-15	5258-5261	som	_	_	_	_	_	_	_	
+61-16	5262-5265	gör	_	_	_	_	_	_	_	
+61-17	5266-5269	att	_	_	_	_	_	_	_	
+61-18	5270-5272	vi	_	_	_	_	_	_	_	
+61-19	5273-5276	kan	_	_	_	_	_	_	_	
+61-20	5277-5284	angripa	_	_	_	_	_	_	_	
+61-21	5285-5288	det	_	_	_	_	_	_	_	
+61-22	5289-5292	som	_	_	_	_	_	_	_	
+61-23	5293-5295	är	_	_	_	_	_	_	_	
+61-24	5296-5308	huvudorsaken	_	_	_	_	_	_	_	
+61-25	5309-5313	till	_	_	_	_	_	_	_	
+61-26	5314-5317	att	_	_	_	_	_	_	_	
+61-27	5318-5324	svensk	*[41]	_	_	_	_	_	_	
+61-28	5325-5344	integrationspolitik	*[41]	_	_	_	_	_	_	
+61-29	5345-5349	inte	_	Target[18]	61-27[41]	false[18]	2[18]	_	_	
+61-30	5350-5358	fungerar	_	Target[18]	61-27[41]	false[18]	2[18]	_	_	
+61-31	5359-5371	tillräckligt	_	Target[18]	61-27[41]	false[18]	2[18]	_	_	
+61-32	5372-5375	bra	_	Target[18]	61-27[41]	false[18]	2[18]	_	_	
+61-33	5375-5376	.	_	_	_	_	_	_	_	
+
+#Text=För visst är det kul med tidningsrubriken "Sverige bäst på integration", men den beskriver tyvärr inte verkligheten i dagens Sverige.
+62-1	5377-5380	För	_	_	_	_	_	_	_	
+62-2	5381-5386	visst	_	_	_	_	_	_	_	
+62-3	5387-5389	är	_	_	_	_	_	_	_	
+62-4	5390-5393	det	_	_	_	_	_	_	_	
+62-5	5394-5397	kul	_	_	_	_	_	_	_	
+62-6	5398-5401	med	_	_	_	_	_	_	_	
+62-7	5402-5418	tidningsrubriken	*[42]	_	_	_	_	_	62-16[45_42]	
+62-8	5419-5420	"	*[42]	_	_	_	_	_	_	
+62-9	5420-5427	Sverige	*[42]|*[43]	_	_	_	_	_	_	
+62-10	5428-5432	bäst	*[42]	Source;Target[19]	62-24;62-9[43]	false[19]	5[19]	_	_	
+62-11	5433-5435	på	*[42]	Source;Target[19]	62-24;62-9[43]	false[19]	5[19]	_	_	
+62-12	5436-5447	integration	*[42]	Source;Target[19]	62-24;62-9[43]	false[19]	5[19]	_	_	
+62-13	5447-5448	"	*[42]	_	_	_	_	_	_	
+62-14	5448-5449	,	_	_	_	_	_	_	_	
+62-15	5450-5453	men	_	_	_	_	_	_	_	
+62-16	5454-5457	den	*[44]|*[45]	_	_	_	_	_	_	
+62-17	5458-5467	beskriver	*[44]	_	_	_	_	_	_	
+62-18	5468-5474	tyvärr	*[44]	Target	62-16[44]	false	2	_	_	
+62-19	5475-5479	inte	*[44]	_	_	_	_	_	_	
+62-20	5480-5492	verkligheten	*[44]	_	_	_	_	_	_	
+62-21	5493-5494	i	*[44]	_	_	_	_	_	_	
+62-22	5495-5501	dagens	*[44]	_	_	_	_	_	_	
+62-23	5502-5509	Sverige	*[44]	_	_	_	_	_	_	
+62-24	5509-5510	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	5512-5513	#	_	_	_	_	_	_	_	
+63-2	5513-5514	P	_	_	_	_	_	_	_	
+63-3	5515-5518	IMM	_	_	_	_	_	_	_	
+63-4	5518-5519	.	_	_	_	_	_	_	_	
+
+#Text=ERIK ULLENHAG.
+64-1	5521-5525	ERIK	_	_	_	_	_	_	_	
+64-2	5526-5534	ULLENHAG	_	_	_	_	_	_	_	
+64-3	5534-5535	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5537-5538	#	_	_	_	_	_	_	_	
+65-2	5538-5539	P	_	_	_	_	_	_	_	
+65-3	5540-5543	IMM	_	_	_	_	_	_	_	
+65-4	5543-5544	.	_	_	_	_	_	_	_	
+
+#Text=ekonomiskpolitisk talesperson (FP).
+66-1	5546-5563	ekonomiskpolitisk	_	_	_	_	_	_	_	
+66-2	5564-5575	talesperson	_	_	_	_	_	_	_	
+66-3	5576-5577	(	_	_	_	_	_	_	_	
+66-4	5577-5579	FP	_	_	_	_	_	_	_	
+66-5	5579-5580	)	_	_	_	_	_	_	_	
+66-6	5580-5581	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	5583-5584	#	_	_	_	_	_	_	_	
+67-2	5584-5585	P	_	_	_	_	_	_	_	
+67-3	5586-5589	IMM	_	_	_	_	_	_	_	
+67-4	5589-5590	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+68-1	5592-5600	Redaktör	_	_	_	_	_	_	_	
+68-2	5600-5601	:	_	_	_	_	_	_	_	
+68-3	5602-5608	Carina	_	_	_	_	_	_	_	
+68-4	5609-5617	Stensson	_	_	_	_	_	_	_	
+68-5	5617-5618	,	_	_	_	_	_	_	_	
+68-6	5619-5629	Biträdande	_	_	_	_	_	_	_	
+68-7	5630-5638	redaktör	_	_	_	_	_	_	_	
+68-8	5638-5639	:	_	_	_	_	_	_	_	
+68-9	5640-5645	Björn	_	_	_	_	_	_	_	
+68-10	5646-5652	Jorner	_	_	_	_	_	_	_	
+68-11	5652-5653	,	_	_	_	_	_	_	_	
+68-12	5654-5658	Mejl	_	_	_	_	_	_	_	
+68-13	5658-5659	:	_	_	_	_	_	_	_	
+68-14	5660-5666	debatt	_	_	_	_	_	_	_	
+68-15	5666-5667	@	_	_	_	_	_	_	_	
+68-16	5667-5673	svd.se	_	_	_	_	_	_	_	
+68-17	5673-5674	,	_	_	_	_	_	_	_	
+68-18	5675-5688	Telefonnummer	_	_	_	_	_	_	_	
+68-19	5688-5689	:	_	_	_	_	_	_	_	
+68-20	5690-5692	08	_	_	_	_	_	_	_	
+68-21	5692-5693	-	_	_	_	_	_	_	_	
+68-22	5693-5699	135149	_	_	_	_	_	_	_	
+68-23	5699-5700	,	_	_	_	_	_	_	_	
+68-24	5701-5708	Twitter	_	_	_	_	_	_	_	
+68-25	5708-5709	:	_	_	_	_	_	_	_	
+68-26	5710-5711	@	_	_	_	_	_	_	_	
+68-27	5711-5720	SvDDebatt	_	_	_	_	_	_	_	
+68-28	5720-5721	,	_	_	_	_	_	_	_	
+68-29	5722-5730	Facebook	_	_	_	_	_	_	_	
+68-30	5730-5731	:	_	_	_	_	_	_	_	
+68-31	5732-5735	SvD	_	_	_	_	_	_	_	
+68-32	5736-5742	Debatt	_	_	_	_	_	_	_	
+68-33	5742-5743	.	_	_	_	_	_	_	_	

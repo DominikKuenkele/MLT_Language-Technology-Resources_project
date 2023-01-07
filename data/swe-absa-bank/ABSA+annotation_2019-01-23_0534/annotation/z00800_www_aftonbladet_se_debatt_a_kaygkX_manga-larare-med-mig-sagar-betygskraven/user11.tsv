@@ -1,0 +1,374 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Många lärare med mig sågar betygskraven.
+3-1	18-23	Många	*[5]	_	_	_	_	_	
+3-2	24-30	lärare	*[5]	_	_	_	_	_	
+3-3	31-34	med	_	_	_	_	_	_	
+3-4	35-38	mig	_	_	_	_	_	_	
+3-5	39-44	sågar	_	Source;Target	3-1[5];3-6	false	1	_	
+3-6	45-57	betygskraven	*	_	_	_	_	_	
+3-7	57-58	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	
+
+#Text=SLUTREPLIK.
+5-1	69-79	SLUTREPLIK	_	_	_	_	_	_	
+5-2	79-80	.	_	_	_	_	_	_	
+
+#Text=Min debattartikel om problemen med de flummiga och ouppnåeliga kunskapskraven i den svenska skolan har väckt enorm uppmärksamhet.
+6-1	81-84	Min	_	_	_	_	_	_	
+6-2	85-98	debattartikel	*	_	_	_	_	_	
+6-3	99-101	om	_	_	_	_	_	_	
+6-4	102-111	problemen	_	Target	6-7[6]	false	2	_	
+6-5	112-115	med	_	_	_	_	_	_	
+6-6	116-118	de	_	_	_	_	_	_	
+6-7	119-127	flummiga	*[6]	_	_	_	_	_	
+6-8	128-131	och	*[6]	_	_	_	_	_	
+6-9	132-143	ouppnåeliga	*[6]	_	_	_	_	_	
+6-10	144-158	kunskapskraven	*[6]	_	_	_	_	_	
+6-11	159-160	i	*[6]	_	_	_	_	_	
+6-12	161-164	den	*[6]	_	_	_	_	_	
+6-13	165-172	svenska	*[6]	_	_	_	_	_	
+6-14	173-179	skolan	*[6]	_	_	_	_	_	
+6-15	180-183	har	_	_	_	_	_	_	
+6-16	184-189	väckt	_	_	_	_	_	_	
+6-17	190-195	enorm	_	_	_	_	_	_	
+6-18	196-209	uppmärksamhet	_	_	_	_	_	_	
+6-19	209-210	.	_	_	_	_	_	_	
+
+#Text=Jag har skrivit över hundra artiklar om skolan, men ingen har genererat ett lika omfattande och positivt gensvar.
+7-1	211-214	Jag	_	_	_	_	_	_	
+7-2	215-218	har	_	_	_	_	_	_	
+7-3	219-226	skrivit	_	_	_	_	_	_	
+7-4	227-231	över	_	_	_	_	_	_	
+7-5	232-238	hundra	_	_	_	_	_	_	
+7-6	239-247	artiklar	_	_	_	_	_	_	
+7-7	248-250	om	_	_	_	_	_	_	
+7-8	251-257	skolan	_	_	_	_	_	_	
+7-9	257-258	,	_	_	_	_	_	_	
+7-10	259-262	men	_	_	_	_	_	_	
+7-11	263-268	ingen	_	_	_	_	_	_	
+7-12	269-272	har	_	_	_	_	_	_	
+7-13	273-282	genererat	_	_	_	_	_	_	
+7-14	283-286	ett	_	_	_	_	_	_	
+7-15	287-291	lika	_	_	_	_	_	_	
+7-16	292-302	omfattande	_	Source;Target[1]	7-20;6-2	false[1]	4[1]	_	
+7-17	303-306	och	_	Source;Target[1]	7-20;6-2	false[1]	4[1]	_	
+7-18	307-315	positivt	_	Source;Target[1]	7-20;6-2	false[1]	4[1]	_	
+7-19	316-323	gensvar	_	Source;Target[1]	7-20;6-2	false[1]	4[1]	_	
+7-20	323-324	.	*	_	_	_	_	_	
+
+#Text=Medhållet har huvudsakligen kommit från yrkesverksamma lärare, men en hel del förtvivlade föräldrar som inte förstår hur de ska hjälpa sina barn har även hört av sig.
+8-1	325-334	Medhållet	_	Source	8-6[7]	false	4	_	
+8-2	335-338	har	_	_	_	_	_	_	
+8-3	339-352	huvudsakligen	_	_	_	_	_	_	
+8-4	353-359	kommit	_	_	_	_	_	_	
+8-5	360-364	från	_	_	_	_	_	_	
+8-6	365-379	yrkesverksamma	*[7]	_	_	_	_	_	
+8-7	380-386	lärare	*[7]	_	_	_	_	_	
+8-8	386-387	,	_	_	_	_	_	_	
+8-9	388-391	men	_	_	_	_	_	_	
+8-10	392-394	en	_	_	_	_	_	_	
+8-11	395-398	hel	_	_	_	_	_	_	
+8-12	399-402	del	_	_	_	_	_	_	
+8-13	403-414	förtvivlade	_	Source	8-14	false	2	_	
+8-14	415-424	föräldrar	*	_	_	_	_	_	
+8-15	425-428	som	_	_	_	_	_	_	
+8-16	429-433	inte	_	_	_	_	_	_	
+8-17	434-441	förstår	_	_	_	_	_	_	
+8-18	442-445	hur	_	_	_	_	_	_	
+8-19	446-448	de	_	_	_	_	_	_	
+8-20	449-452	ska	_	_	_	_	_	_	
+8-21	453-459	hjälpa	_	_	_	_	_	_	
+8-22	460-464	sina	_	_	_	_	_	_	
+8-23	465-469	barn	_	_	_	_	_	_	
+8-24	470-473	har	_	_	_	_	_	_	
+8-25	474-478	även	_	_	_	_	_	_	
+8-26	479-483	hört	_	_	_	_	_	_	
+8-27	484-486	av	_	_	_	_	_	_	
+8-28	487-490	sig	_	_	_	_	_	_	
+8-29	490-491	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	493-494	#	_	_	_	_	_	_	
+9-2	494-495	P	_	_	_	_	_	_	
+9-3	496-499	IMM	_	_	_	_	_	_	
+9-4	499-500	.	_	_	_	_	_	_	
+
+#Text=En replik med kritik mot mig har däremot inkommit från Pernilla Andersson Varga, som är lektor i pedagogik och utvecklingsledare på Center för Skolutveckling i Göteborg.
+10-1	502-504	En	_	_	_	_	_	_	
+10-2	505-511	replik	_	_	_	_	_	_	
+10-3	512-515	med	_	_	_	_	_	_	
+10-4	516-522	kritik	_	Source;Target	10-11[8];10-6	false	2	_	
+10-5	523-526	mot	_	_	_	_	_	_	
+10-6	527-530	mig	*	_	_	_	_	_	
+10-7	531-534	har	_	_	_	_	_	_	
+10-8	535-542	däremot	_	_	_	_	_	_	
+10-9	543-551	inkommit	_	_	_	_	_	_	
+10-10	552-556	från	_	_	_	_	_	_	
+10-11	557-565	Pernilla	*[8]	_	_	_	_	_	
+10-12	566-575	Andersson	*[8]	_	_	_	_	_	
+10-13	576-581	Varga	*[8]	_	_	_	_	_	
+10-14	581-582	,	_	_	_	_	_	_	
+10-15	583-586	som	_	_	_	_	_	_	
+10-16	587-589	är	_	_	_	_	_	_	
+10-17	590-596	lektor	_	_	_	_	_	_	
+10-18	597-598	i	_	_	_	_	_	_	
+10-19	599-608	pedagogik	_	_	_	_	_	_	
+10-20	609-612	och	_	_	_	_	_	_	
+10-21	613-630	utvecklingsledare	_	_	_	_	_	_	
+10-22	631-633	på	_	_	_	_	_	_	
+10-23	634-640	Center	_	_	_	_	_	_	
+10-24	641-644	för	_	_	_	_	_	_	
+10-25	645-659	Skolutveckling	_	_	_	_	_	_	
+10-26	660-661	i	_	_	_	_	_	_	
+10-27	662-670	Göteborg	_	_	_	_	_	_	
+10-28	670-671	.	_	_	_	_	_	_	
+
+#Text=Hon kritiserar mig på flera punkter som jag bemöter här:.
+11-1	672-675	Hon	*	_	_	_	_	_	
+11-2	676-686	kritiserar	_	Source;Target	11-1;11-3	false	2	_	
+11-3	687-690	mig	*	_	_	_	_	_	
+11-4	691-693	på	_	_	_	_	_	_	
+11-5	694-699	flera	_	_	_	_	_	_	
+11-6	700-707	punkter	_	_	_	_	_	_	
+11-7	708-711	som	_	_	_	_	_	_	
+11-8	712-715	jag	_	_	_	_	_	_	
+11-9	716-723	bemöter	_	_	_	_	_	_	
+11-10	724-727	här	_	_	_	_	_	_	
+11-11	727-728	:	_	_	_	_	_	_	
+11-12	728-729	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	731-732	#	_	_	_	_	_	_	
+12-2	732-733	P	_	_	_	_	_	_	
+12-3	734-737	IMM	_	_	_	_	_	_	
+12-4	737-738	.	_	_	_	_	_	_	
+
+#Text=Därtill visar undersökningen att mindre än hälften av lärarna i grund- och gymnasieskolan upplever att kunskapskraven är otydliga.
+13-1	740-747	Därtill	_	_	_	_	_	_	
+13-2	748-753	visar	_	_	_	_	_	_	
+13-3	754-768	undersökningen	_	_	_	_	_	_	
+13-4	769-772	att	_	_	_	_	_	_	
+13-5	773-779	mindre	_	_	_	_	_	_	
+13-6	780-782	än	_	_	_	_	_	_	
+13-7	783-790	hälften	*[9]	_	_	_	_	_	
+13-8	791-793	av	*[9]	_	_	_	_	_	
+13-9	794-801	lärarna	*[9]	_	_	_	_	_	
+13-10	802-803	i	*[9]	_	_	_	_	_	
+13-11	804-809	grund	*[9]	_	_	_	_	_	
+13-12	809-810	-	*[9]	_	_	_	_	_	
+13-13	811-814	och	*[9]	_	_	_	_	_	
+13-14	815-829	gymnasieskolan	*[9]	_	_	_	_	_	
+13-15	830-838	upplever	_	Source;Target	13-7[9];13-17[10]	false	2	_	
+13-16	839-842	att	_	_	_	_	_	_	
+13-17	843-857	kunskapskraven	*[10]	_	_	_	_	_	
+13-18	858-860	är	*[10]	_	_	_	_	_	
+13-19	861-869	otydliga	*[10]	_	_	_	_	_	
+13-20	869-870	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	872-873	#	_	_	_	_	_	_	
+14-2	873-874	P	_	_	_	_	_	_	
+14-3	875-878	IMM	_	_	_	_	_	_	
+14-4	878-879	.	_	_	_	_	_	_	
+
+#Text=De tillfrågade lärarna menar att det är svårt att tolka och konkretisera de ord som beskriver vad som skiljer betygsstegen åt.
+15-1	881-883	De	_	_	_	_	_	_	
+15-2	884-895	tillfrågade	_	_	_	_	_	_	
+15-3	896-903	lärarna	*	_	_	_	_	_	
+15-4	904-909	menar	_	Target;Source	15-8[11];15-3	false	2	_	
+15-5	910-913	att	_	_	_	_	_	_	
+15-6	914-917	det	_	_	_	_	_	_	
+15-7	918-920	är	_	_	_	_	_	_	
+15-8	921-926	svårt	*[11]	_	_	_	_	_	
+15-9	927-930	att	*[11]	_	_	_	_	_	
+15-10	931-936	tolka	*[11]	_	_	_	_	_	
+15-11	937-940	och	*[11]	_	_	_	_	_	
+15-12	941-953	konkretisera	*[11]	_	_	_	_	_	
+15-13	954-956	de	*[11]	_	_	_	_	_	
+15-14	957-960	ord	*[11]	_	_	_	_	_	
+15-15	961-964	som	*[11]	_	_	_	_	_	
+15-16	965-974	beskriver	*[11]	_	_	_	_	_	
+15-17	975-978	vad	*[11]	_	_	_	_	_	
+15-18	979-982	som	*[11]	_	_	_	_	_	
+15-19	983-990	skiljer	*[11]	_	_	_	_	_	
+15-20	991-1003	betygsstegen	*[11]	_	_	_	_	_	
+15-21	1004-1006	åt	*[11]	_	_	_	_	_	
+15-22	1006-1007	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1009-1010	#	_	_	_	_	_	_	
+16-2	1010-1011	P	_	_	_	_	_	_	
+16-3	1012-1015	IMM	_	_	_	_	_	_	
+16-4	1015-1016	.	_	_	_	_	_	_	
+
+#Text=Det är ju exakt dessa problem som jag adresserar i min artikel.
+17-1	1018-1021	Det	_	_	_	_	_	_	
+17-2	1022-1024	är	_	_	_	_	_	_	
+17-3	1025-1027	ju	_	_	_	_	_	_	
+17-4	1028-1033	exakt	_	_	_	_	_	_	
+17-5	1034-1039	dessa	*	_	_	_	_	_	
+17-6	1040-1047	problem	_	Target	17-5	false	2	_	
+17-7	1048-1051	som	_	_	_	_	_	_	
+17-8	1052-1055	jag	_	_	_	_	_	_	
+17-9	1056-1066	adresserar	_	_	_	_	_	_	
+17-10	1067-1068	i	_	_	_	_	_	_	
+17-11	1069-1072	min	_	_	_	_	_	_	
+17-12	1073-1080	artikel	_	_	_	_	_	_	
+17-13	1080-1081	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1083-1084	#	_	_	_	_	_	_	
+18-2	1084-1085	P	_	_	_	_	_	_	
+18-3	1086-1089	IMM	_	_	_	_	_	_	
+18-4	1089-1090	.	_	_	_	_	_	_	
+
+#Text=Avslutningsvis insinuerar Andersson Varga att jag inte riktigt litar på att lärarkårens ”didaktiska förmågor” och att en anledning till min kritik är min ”ringa erfarenhet av läraryrket”.
+19-1	1092-1106	Avslutningsvis	_	_	_	_	_	_	
+19-2	1107-1117	insinuerar	_	Target;Source	19-6[13];19-3[12]	false	2	_	
+19-3	1118-1127	Andersson	*[12]	_	_	_	_	_	
+19-4	1128-1133	Varga	*[12]	_	_	_	_	_	
+19-5	1134-1137	att	_	_	_	_	_	_	
+19-6	1138-1141	jag	*[13]	_	_	_	_	_	
+19-7	1142-1146	inte	*[13]	_	_	_	_	_	
+19-8	1147-1154	riktigt	*[13]	_	_	_	_	_	
+19-9	1155-1160	litar	*[13]	_	_	_	_	_	
+19-10	1161-1163	på	*[13]	_	_	_	_	_	
+19-11	1164-1167	att	*[13]	_	_	_	_	_	
+19-12	1168-1179	lärarkårens	*[13]	_	_	_	_	_	
+19-13	1180-1181	”	*[13]	_	_	_	_	_	
+19-14	1181-1191	didaktiska	*[13]	_	_	_	_	_	
+19-15	1192-1200	förmågor	*[13]	_	_	_	_	_	
+19-16	1200-1201	”	_	_	_	_	_	_	
+19-17	1202-1205	och	_	_	_	_	_	_	
+19-18	1206-1209	att	_	_	_	_	_	_	
+19-19	1210-1212	en	_	_	_	_	_	_	
+19-20	1213-1222	anledning	_	_	_	_	_	_	
+19-21	1223-1227	till	_	_	_	_	_	_	
+19-22	1228-1231	min	*	_	_	_	_	_	
+19-23	1232-1238	kritik	_	Source	19-22	false	2	_	
+19-24	1239-1241	är	_	_	_	_	_	_	
+19-25	1242-1245	min	*	_	_	_	_	_	
+19-26	1246-1247	”	_	_	_	_	_	_	
+19-27	1247-1252	ringa	_	Source;Target[2]	19-3[12];19-25	false[2]	2[2]	_	
+19-28	1253-1263	erfarenhet	_	Source;Target[2]	19-3[12];19-25	false[2]	2[2]	_	
+19-29	1264-1266	av	_	Source;Target[2]	19-3[12];19-25	false[2]	2[2]	_	
+19-30	1267-1277	läraryrket	_	Source;Target[2]	19-3[12];19-25	false[2]	2[2]	_	
+19-31	1277-1278	”	_	_	_	_	_	_	
+19-32	1278-1279	.	_	_	_	_	_	_	
+
+#Text=Jag avböjer att bemöta dessa ad hominem-argument och väljer istället att fokusera på sakfrågan: Att styrdokumenten som den svenska skolan vilar på är otydliga och bygger på felaktiga uppfatntingar om hur inlärning i den mänskliga hjärnan fungerar.
+20-1	1280-1283	Jag	_	_	_	_	_	_	
+20-2	1284-1291	avböjer	_	_	_	false	2	_	
+20-3	1292-1295	att	_	_	_	_	_	_	
+20-4	1296-1302	bemöta	_	Target	20-6[14]	false	2	20-2	
+20-5	1303-1308	dessa	_	_	_	_	_	_	
+20-6	1309-1311	ad	*[14]	_	_	_	_	_	
+20-7	1312-1328	hominem-argument	*[14]	_	_	_	_	_	
+20-8	1329-1332	och	_	_	_	_	_	_	
+20-9	1333-1339	väljer	_	_	_	_	_	_	
+20-10	1340-1348	istället	_	_	_	_	_	_	
+20-11	1349-1352	att	_	_	_	_	_	_	
+20-12	1353-1361	fokusera	_	_	_	_	_	_	
+20-13	1362-1364	på	_	_	_	_	_	_	
+20-14	1365-1374	sakfrågan	_	_	_	_	_	_	
+20-15	1374-1375	:	_	_	_	_	_	_	
+20-16	1376-1379	Att	_	_	_	_	_	_	
+20-17	1380-1394	styrdokumenten	*	_	_	_	_	_	
+20-18	1395-1398	som	_	_	_	_	_	_	
+20-19	1399-1402	den	_	_	_	_	_	_	
+20-20	1403-1410	svenska	_	_	_	_	_	_	
+20-21	1411-1417	skolan	_	_	_	_	_	_	
+20-22	1418-1423	vilar	_	_	_	_	_	_	
+20-23	1424-1426	på	_	_	_	_	_	_	
+20-24	1427-1429	är	_	_	_	_	_	_	
+20-25	1430-1438	otydliga	_	Target	20-17	false	2	_	
+20-26	1439-1442	och	_	_	_	_	_	_	
+20-27	1443-1449	bygger	_	Target[3]	20-17	false[3]	2[3]	_	
+20-28	1450-1452	på	_	Target[3]	20-17	false[3]	2[3]	_	
+20-29	1453-1462	felaktiga	_	Target[3]	20-17	false[3]	2[3]	_	
+20-30	1463-1476	uppfatntingar	_	Target[3]	20-17	false[3]	2[3]	_	
+20-31	1477-1479	om	_	Target[3]	20-17	false[3]	2[3]	_	
+20-32	1480-1483	hur	_	Target[3]	20-17	false[3]	2[3]	_	
+20-33	1484-1493	inlärning	_	Target[3]	20-17	false[3]	2[3]	_	
+20-34	1494-1495	i	_	Target[3]	20-17	false[3]	2[3]	_	
+20-35	1496-1499	den	_	Target[3]	20-17	false[3]	2[3]	_	
+20-36	1500-1509	mänskliga	_	Target[3]	20-17	false[3]	2[3]	_	
+20-37	1510-1517	hjärnan	_	Target[3]	20-17	false[3]	2[3]	_	
+20-38	1518-1526	fungerar	_	Target[3]	20-17	false[3]	2[3]	_	
+20-39	1526-1527	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1529-1530	#	_	_	_	_	_	_	
+21-2	1530-1531	P	_	_	_	_	_	_	
+21-3	1532-1535	IMM	_	_	_	_	_	_	
+21-4	1535-1536	.	_	_	_	_	_	_	
+
+#Text=Det är ett problem som vi måste adressera, inte ignorera.
+22-1	1538-1541	Det	_	_	_	_	_	_	
+22-2	1542-1544	är	_	_	_	_	_	_	
+22-3	1545-1548	ett	_	_	_	_	_	_	
+22-4	1549-1556	problem	*	_	_	_	_	_	
+22-5	1557-1560	som	_	_	_	_	_	_	
+22-6	1561-1563	vi	_	_	_	_	_	_	
+22-7	1564-1569	måste	_	Target[4]	22-4	false[4]	2[4]	_	
+22-8	1570-1579	adressera	_	Target[4]	22-4	false[4]	2[4]	_	
+22-9	1579-1580	,	_	Target[4]	22-4	false[4]	2[4]	_	
+22-10	1581-1585	inte	_	Target[4]	22-4	false[4]	2[4]	_	
+22-11	1586-1594	ignorera	_	Target[4]	22-4	false[4]	2[4]	_	
+22-12	1594-1595	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1597-1598	#	_	_	_	_	_	_	
+23-2	1598-1599	P	_	_	_	_	_	_	
+23-3	1600-1603	IMM	_	_	_	_	_	_	
+23-4	1603-1604	.	_	_	_	_	_	_	
+
+#Text=Isak Skogstad, högstadielärare.
+24-1	1606-1610	Isak	_	_	_	_	_	_	
+24-2	1611-1619	Skogstad	_	_	_	_	_	_	
+24-3	1619-1620	,	_	_	_	_	_	_	
+24-4	1621-1636	högstadielärare	_	_	_	_	_	_	
+24-5	1636-1637	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1639-1640	#	_	_	_	_	_	_	
+25-2	1640-1641	P	_	_	_	_	_	_	
+25-3	1642-1645	IMM	_	_	_	_	_	_	
+25-4	1645-1646	.	_	_	_	_	_	_	
+
+#Text=Häng med i debatten och kommentera artikeln – gilla  Debatt på Facebook.
+26-1	1648-1652	Häng	_	_	_	_	_	_	
+26-2	1653-1656	med	_	_	_	_	_	_	
+26-3	1657-1658	i	_	_	_	_	_	_	
+26-4	1659-1667	debatten	_	_	_	_	_	_	
+26-5	1668-1671	och	_	_	_	_	_	_	
+26-6	1672-1682	kommentera	_	_	_	_	_	_	
+26-7	1683-1691	artikeln	_	_	_	_	_	_	
+26-8	1692-1693	–	_	_	_	_	_	_	
+26-9	1694-1699	gilla	_	_	_	_	_	_	
+26-10	1701-1707	Debatt	_	_	_	_	_	_	
+26-11	1708-1710	på	_	_	_	_	_	_	
+26-12	1711-1719	Facebook	_	_	_	_	_	_	
+26-13	1719-1720	.	_	_	_	_	_	_	

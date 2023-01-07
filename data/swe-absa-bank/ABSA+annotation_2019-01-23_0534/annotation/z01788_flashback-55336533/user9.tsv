@@ -1,0 +1,516 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Tre miljoner syriska barn utan skola och framtid - Migrationsverket får pengarna.
+3-1	18-21	Tre	_	_	_	_	_	_	_	
+3-2	22-30	miljoner	_	_	_	_	_	_	_	
+3-3	31-38	syriska	_	_	_	_	_	_	_	
+3-4	39-43	barn	_	_	_	_	_	_	_	
+3-5	44-48	utan	_	_	_	_	_	_	_	
+3-6	49-54	skola	_	_	_	_	_	_	_	
+3-7	55-58	och	_	_	_	_	_	_	_	
+3-8	59-66	framtid	_	_	_	_	_	_	_	
+3-9	67-68	-	_	_	_	_	_	_	_	
+3-10	69-85	Migrationsverket	_	_	_	_	_	_	_	
+3-11	86-89	får	_	_	_	_	_	_	_	
+3-12	90-98	pengarna	_	_	_	_	_	_	_	
+3-13	98-99	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	101-102	#	_	_	_	_	_	_	_	
+4-2	102-103	P	_	_	_	_	_	_	_	
+4-3	104-107	IMM	_	_	_	_	_	_	_	
+4-4	107-108	.	_	_	_	_	_	_	_	
+
+#Text=Syrien har innan år 2011 varit ett förhållandevis ekonomiskt välutvecklat land i MENA-regionen där barnen åtminstone har fått grundskola - till skillnad från länder i fullständigt kaos, som Afghanistan eller Somalia.
+5-1	110-116	Syrien	*	_	_	_	_	_	_	
+5-2	117-120	har	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-3	121-126	innan	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-4	127-129	år	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-5	130-134	2011	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-6	135-140	varit	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-7	141-144	ett	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-8	145-159	förhållandevis	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-9	160-170	ekonomiskt	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-10	171-183	välutvecklat	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-11	184-188	land	_	Target[1]	5-1	false[1]	4[1]	_	_	
+5-12	189-190	i	_	_	_	_	_	_	_	
+5-13	191-204	MENA-regionen	_	_	_	_	_	_	_	
+5-14	205-208	där	_	_	_	_	_	_	_	
+5-15	209-215	barnen	_	_	_	_	_	_	_	
+5-16	216-226	åtminstone	_	_	_	_	_	_	_	
+5-17	227-230	har	_	_	_	_	_	_	_	
+5-18	231-235	fått	_	_	_	_	_	_	_	
+5-19	236-246	grundskola	_	_	_	_	_	_	_	
+5-20	247-248	-	_	_	_	_	_	_	_	
+5-21	249-253	till	_	_	_	_	_	_	_	
+5-22	254-262	skillnad	_	_	_	_	_	_	_	
+5-23	263-267	från	_	_	_	_	_	_	_	
+5-24	268-274	länder	*	Target[2]	5-29[10]	false[2]	2[2]	_	_	
+5-25	275-276	i	_	Target[2]|Target[3]	5-29[10]|5-24	false[2]|false[3]	2[2]|2[3]	_	_	
+5-26	277-289	fullständigt	_	Target[2]|Target[3]	5-29[10]|5-24	false[2]|false[3]	2[2]|2[3]	_	_	
+5-27	290-294	kaos	_	Target[2]|Target[3]	5-29[10]|5-24	false[2]|false[3]	2[2]|2[3]	_	_	
+5-28	294-295	,	_	_	_	_	_	_	_	
+5-29	296-299	som	*[10]	_	_	_	_	_	_	
+5-30	300-311	Afghanistan	*[10]	_	_	_	_	_	_	
+5-31	312-317	eller	*[10]	_	_	_	_	_	_	
+5-32	318-325	Somalia	*[10]	_	_	_	_	_	_	
+5-33	325-326	.	_	_	_	_	_	_	_	
+
+#Text=Utbildning är livsviktigt för ett land, en analfabetisk befolkning kommer att ha sämre framtidsutsikter, begå fler brott, vara mindre produktiv och det kommer i sin tur göra det extremt svårt att bygga ett fungerande land.
+6-1	327-337	Utbildning	*	_	_	_	_	_	_	
+6-2	338-340	är	_	Target[4]	6-1	false[4]	4[4]	_	_	
+6-3	341-352	livsviktigt	_	Target[4]	6-1	false[4]	4[4]	_	_	
+6-4	353-356	för	_	Target[4]	6-1	false[4]	4[4]	_	_	
+6-5	357-360	ett	_	Target[4]	6-1	false[4]	4[4]	_	_	
+6-6	361-365	land	_	Target[4]	6-1	false[4]	4[4]	_	_	
+6-7	365-366	,	_	_	_	_	_	_	_	
+6-8	367-369	en	_	_	_	_	_	_	_	
+6-9	370-382	analfabetisk	_	_	_	_	_	_	_	
+6-10	383-393	befolkning	_	_	_	_	_	_	_	
+6-11	394-400	kommer	_	_	_	_	_	_	_	
+6-12	401-404	att	_	_	_	_	_	_	_	
+6-13	405-407	ha	_	_	_	_	_	_	_	
+6-14	408-413	sämre	_	_	_	_	_	_	_	
+6-15	414-430	framtidsutsikter	_	_	_	_	_	_	_	
+6-16	430-431	,	_	_	_	_	_	_	_	
+6-17	432-436	begå	_	_	_	_	_	_	_	
+6-18	437-441	fler	_	_	_	_	_	_	_	
+6-19	442-447	brott	_	_	_	_	_	_	_	
+6-20	447-448	,	_	_	_	_	_	_	_	
+6-21	449-453	vara	_	_	_	_	_	_	_	
+6-22	454-460	mindre	_	_	_	_	_	_	_	
+6-23	461-470	produktiv	_	_	_	_	_	_	_	
+6-24	471-474	och	_	_	_	_	_	_	_	
+6-25	475-478	det	_	_	_	_	_	_	_	
+6-26	479-485	kommer	_	_	_	_	_	_	_	
+6-27	486-487	i	_	_	_	_	_	_	_	
+6-28	488-491	sin	_	_	_	_	_	_	_	
+6-29	492-495	tur	_	_	_	_	_	_	_	
+6-30	496-500	göra	_	_	_	_	_	_	_	
+6-31	501-504	det	_	_	_	_	_	_	_	
+6-32	505-512	extremt	_	_	_	_	_	_	_	
+6-33	513-518	svårt	_	_	_	_	_	_	_	
+6-34	519-522	att	_	_	_	_	_	_	_	
+6-35	523-528	bygga	_	_	_	_	_	_	_	
+6-36	529-532	ett	_	_	_	_	_	_	_	
+6-37	533-543	fungerande	_	_	_	_	_	_	_	
+6-38	544-548	land	_	_	_	_	_	_	_	
+6-39	548-549	.	_	_	_	_	_	_	_	
+
+#Text=Nu håller detta på att hända Syrien.
+7-1	550-552	Nu	_	_	_	_	_	_	_	
+7-2	553-559	håller	_	_	_	_	_	_	_	
+7-3	560-565	detta	_	_	_	_	_	_	_	
+7-4	566-568	på	_	_	_	_	_	_	_	
+7-5	569-572	att	_	_	_	_	_	_	_	
+7-6	573-578	hända	_	_	_	_	_	_	_	
+7-7	579-585	Syrien	_	_	_	_	_	_	_	
+7-8	585-586	.	_	_	_	_	_	_	_	
+
+#Text=Om vi blickar framåt tio år i tiden så kanske det mesta av kriget har slutat, fred kanske råder i en majoriteten av provinserna - men om den nya generationen inte har fått skola, vad ska hända då?.
+8-1	587-589	Om	_	_	_	_	_	_	_	
+8-2	590-592	vi	_	_	_	_	_	_	_	
+8-3	593-600	blickar	_	_	_	_	_	_	_	
+8-4	601-607	framåt	_	_	_	_	_	_	_	
+8-5	608-611	tio	_	_	_	_	_	_	_	
+8-6	612-614	år	_	_	_	_	_	_	_	
+8-7	615-616	i	_	_	_	_	_	_	_	
+8-8	617-622	tiden	_	_	_	_	_	_	_	
+8-9	623-625	så	_	_	_	_	_	_	_	
+8-10	626-632	kanske	_	_	_	_	_	_	_	
+8-11	633-636	det	_	_	_	_	_	_	_	
+8-12	637-642	mesta	_	_	_	_	_	_	_	
+8-13	643-645	av	_	_	_	_	_	_	_	
+8-14	646-652	kriget	_	_	_	_	_	_	_	
+8-15	653-656	har	_	_	_	_	_	_	_	
+8-16	657-663	slutat	_	_	_	_	_	_	_	
+8-17	663-664	,	_	_	_	_	_	_	_	
+8-18	665-669	fred	_	_	_	_	_	_	_	
+8-19	670-676	kanske	_	_	_	_	_	_	_	
+8-20	677-682	råder	_	_	_	_	_	_	_	
+8-21	683-684	i	_	_	_	_	_	_	_	
+8-22	685-687	en	_	_	_	_	_	_	_	
+8-23	688-699	majoriteten	_	_	_	_	_	_	_	
+8-24	700-702	av	_	_	_	_	_	_	_	
+8-25	703-714	provinserna	_	_	_	_	_	_	_	
+8-26	715-716	-	_	_	_	_	_	_	_	
+8-27	717-720	men	_	_	_	_	_	_	_	
+8-28	721-723	om	_	_	_	_	_	_	_	
+8-29	724-727	den	_	_	_	_	_	_	_	
+8-30	728-731	nya	_	_	_	_	_	_	_	
+8-31	732-744	generationen	_	_	_	_	_	_	_	
+8-32	745-749	inte	_	_	_	_	_	_	_	
+8-33	750-753	har	_	_	_	_	_	_	_	
+8-34	754-758	fått	_	_	_	_	_	_	_	
+8-35	759-764	skola	_	_	_	_	_	_	_	
+8-36	764-765	,	_	_	_	_	_	_	_	
+8-37	766-769	vad	_	_	_	_	_	_	_	
+8-38	770-773	ska	_	_	_	_	_	_	_	
+8-39	774-779	hända	_	_	_	_	_	_	_	
+8-40	780-782	då	_	_	_	_	_	_	_	
+8-41	782-783	?	_	_	_	_	_	_	_	
+8-42	783-784	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	786-787	#	_	_	_	_	_	_	_	
+9-2	787-788	P	_	_	_	_	_	_	_	
+9-3	789-792	IMM	_	_	_	_	_	_	_	
+9-4	792-793	.	_	_	_	_	_	_	_	
+
+#Text=Tre miljoner syriska barn är nu utan skola:.
+10-1	795-798	Tre	_	_	_	_	_	_	_	
+10-2	799-807	miljoner	_	_	_	_	_	_	_	
+10-3	808-815	syriska	_	_	_	_	_	_	_	
+10-4	816-820	barn	_	_	_	_	_	_	_	
+10-5	821-823	är	_	_	_	_	_	_	_	
+10-6	824-826	nu	_	_	_	_	_	_	_	
+10-7	827-831	utan	_	_	_	_	_	_	_	
+10-8	832-837	skola	_	_	_	_	_	_	_	
+10-9	837-838	:	_	_	_	_	_	_	_	
+10-10	838-839	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	841-842	#	_	_	_	_	_	_	_	
+11-2	842-843	P	_	_	_	_	_	_	_	
+11-3	844-847	IMM	_	_	_	_	_	_	_	
+11-4	847-848	.	_	_	_	_	_	_	_	
+
+#Text=Skurkarna är dels merparten av världens länder, som helt enkelt är snåla och egoistiska.
+12-1	850-859	Skurkarna	_	Target[5]	12-3[11]	false[5]	2[5]	_	_	
+12-2	860-862	är	_	Target[5]	12-3[11]	false[5]	2[5]	_	_	
+12-3	863-867	dels	*[11]|*[12]	_	_	_	_	_	12-9[0_12]	
+12-4	868-877	merparten	*[11]|*[12]	_	_	_	_	_	_	
+12-5	878-880	av	*[11]|*[12]	_	_	_	_	_	_	
+12-6	881-889	världens	*[11]|*[12]	_	_	_	_	_	_	
+12-7	890-896	länder	*[11]|*[12]	_	_	_	_	_	_	
+12-8	896-897	,	_	_	_	_	_	_	_	
+12-9	898-901	som	*	_	_	_	_	_	_	
+12-10	902-906	helt	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-11	907-913	enkelt	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-12	914-916	är	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-13	917-922	snåla	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-14	923-926	och	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-15	927-937	egoistiska	_	Target[6]	12-9	false[6]	2[6]	_	_	
+12-16	937-938	.	_	_	_	_	_	_	_	
+
+#Text=Men också världens generösaste länder som Sverige som gör en katastrofal ekonomisk felprioritering och bidrar därmed indirekt till denna fruktansvärda situation.
+13-1	939-942	Men	_	_	_	_	_	_	_	
+13-2	943-948	också	_	_	_	_	_	_	_	
+13-3	949-957	världens	_	Target[7]|Target[8]	13-6[13]|13-5	false[7]|false[8]	4[7]|4[8]	_	_	
+13-4	958-969	generösaste	_	Target[7]|Target[8]	13-6[13]|13-5	false[7]|false[8]	4[7]|4[8]	_	_	
+13-5	970-976	länder	*	Target[7]	13-6[13]	false[7]	4[7]	_	_	
+13-6	977-980	som	*[13]	_	_	_	_	_	_	
+13-7	981-988	Sverige	*[13]	_	_	_	_	_	_	
+13-8	989-992	som	_	_	_	_	_	_	_	
+13-9	993-996	gör	_	_	_	_	_	_	_	
+13-10	997-999	en	_	_	_	_	_	_	_	
+13-11	1000-1011	katastrofal	_	Target	13-12[14]	false	1	_	_	
+13-12	1012-1021	ekonomisk	*[14]	_	_	_	_	_	_	
+13-13	1022-1037	felprioritering	*[14]|*[15]	Target	13-13[15]	false	2	_	_	
+13-14	1038-1041	och	_	_	_	_	_	_	_	
+13-15	1042-1048	bidrar	_	_	_	_	_	_	_	
+13-16	1049-1055	därmed	_	_	_	_	_	_	_	
+13-17	1056-1064	indirekt	_	_	_	_	_	_	_	
+13-18	1065-1069	till	_	_	_	_	_	_	_	
+13-19	1070-1075	denna	_	_	_	_	_	_	_	
+13-20	1076-1089	fruktansvärda	_	Target	13-21	false	2	_	_	
+13-21	1090-1099	situation	*	_	_	_	_	_	_	
+13-22	1099-1100	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket har aviserat att det behöver 35 miljarder per år.
+14-1	1101-1117	Migrationsverket	_	_	_	_	_	_	_	
+14-2	1118-1121	har	_	_	_	_	_	_	_	
+14-3	1122-1130	aviserat	_	_	_	_	_	_	_	
+14-4	1131-1134	att	_	_	_	_	_	_	_	
+14-5	1135-1138	det	_	_	_	_	_	_	_	
+14-6	1139-1146	behöver	_	_	_	_	_	_	_	
+14-7	1147-1149	35	_	_	_	_	_	_	_	
+14-8	1150-1159	miljarder	_	_	_	_	_	_	_	
+14-9	1160-1163	per	_	_	_	_	_	_	_	
+14-10	1164-1166	år	_	_	_	_	_	_	_	
+14-11	1166-1167	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1169-1170	#	_	_	_	_	_	_	_	
+15-2	1170-1171	P	_	_	_	_	_	_	_	
+15-3	1172-1175	IMM	_	_	_	_	_	_	_	
+15-4	1175-1176	.	_	_	_	_	_	_	_	
+
+#Text=för ett hundratusental asylsökande, samtidigt som UNHCR endast behöver 9.000 kr per år och barn eller cirka 27 miljarder kronor för att ge rejäl hjälp till 3 miljoner barn.
+16-1	1178-1181	för	_	_	_	_	_	_	_	
+16-2	1182-1185	ett	_	_	_	_	_	_	_	
+16-3	1186-1200	hundratusental	_	_	_	_	_	_	_	
+16-4	1201-1212	asylsökande	_	_	_	_	_	_	_	
+16-5	1212-1213	,	_	_	_	_	_	_	_	
+16-6	1214-1223	samtidigt	_	_	_	_	_	_	_	
+16-7	1224-1227	som	_	_	_	_	_	_	_	
+16-8	1228-1233	UNHCR	_	_	_	_	_	_	_	
+16-9	1234-1240	endast	_	_	_	_	_	_	_	
+16-10	1241-1248	behöver	_	_	_	_	_	_	_	
+16-11	1249-1254	9.000	_	_	_	_	_	_	_	
+16-12	1255-1257	kr	_	_	_	_	_	_	_	
+16-13	1258-1261	per	_	_	_	_	_	_	_	
+16-14	1262-1264	år	_	_	_	_	_	_	_	
+16-15	1265-1268	och	_	_	_	_	_	_	_	
+16-16	1269-1273	barn	_	_	_	_	_	_	_	
+16-17	1274-1279	eller	_	_	_	_	_	_	_	
+16-18	1280-1285	cirka	_	_	_	_	_	_	_	
+16-19	1286-1288	27	_	_	_	_	_	_	_	
+16-20	1289-1298	miljarder	_	_	_	_	_	_	_	
+16-21	1299-1305	kronor	_	_	_	_	_	_	_	
+16-22	1306-1309	för	_	_	_	_	_	_	_	
+16-23	1310-1313	att	_	_	_	_	_	_	_	
+16-24	1314-1316	ge	_	_	_	_	_	_	_	
+16-25	1317-1322	rejäl	_	_	_	_	_	_	_	
+16-26	1323-1328	hjälp	_	_	_	_	_	_	_	
+16-27	1329-1333	till	_	_	_	_	_	_	_	
+16-28	1334-1335	3	_	_	_	_	_	_	_	
+16-29	1336-1344	miljoner	_	_	_	_	_	_	_	
+16-30	1345-1349	barn	_	_	_	_	_	_	_	
+16-31	1349-1350	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1352-1353	#	_	_	_	_	_	_	_	
+17-2	1353-1354	P	_	_	_	_	_	_	_	
+17-3	1355-1358	IMM	_	_	_	false	2	_	_	
+17-4	1358-1359	.	_	_	_	_	_	_	_	
+
+#Text=Dessa 3 miljoner barn skulle få mat, vatten, skola, medicin, tak över huvud, trygghet och säkerhet till en kostnad av flera miljarder mindre än Migrationsverkets begärda utgiftsökningar för ett hundratusental asylsökande i Sverige - där en majoriteten inte ens kommer från Syrien och många är ekonomiska migranter samt vuxna män.
+18-1	1361-1366	Dessa	_	_	_	_	_	_	_	
+18-2	1367-1368	3	_	_	_	_	_	_	_	
+18-3	1369-1377	miljoner	_	_	_	_	_	_	_	
+18-4	1378-1382	barn	_	_	_	_	_	_	_	
+18-5	1383-1389	skulle	_	_	_	_	_	_	_	
+18-6	1390-1392	få	_	_	_	_	_	_	_	
+18-7	1393-1396	mat	_	_	_	_	_	_	_	
+18-8	1396-1397	,	_	_	_	_	_	_	_	
+18-9	1398-1404	vatten	_	_	_	_	_	_	_	
+18-10	1404-1405	,	_	_	_	_	_	_	_	
+18-11	1406-1411	skola	_	_	_	_	_	_	_	
+18-12	1411-1412	,	_	_	_	_	_	_	_	
+18-13	1413-1420	medicin	_	_	_	_	_	_	_	
+18-14	1420-1421	,	_	_	_	_	_	_	_	
+18-15	1422-1425	tak	_	_	_	_	_	_	_	
+18-16	1426-1430	över	_	_	_	_	_	_	_	
+18-17	1431-1436	huvud	_	_	_	_	_	_	_	
+18-18	1436-1437	,	_	_	_	_	_	_	_	
+18-19	1438-1446	trygghet	_	_	_	_	_	_	_	
+18-20	1447-1450	och	_	_	_	_	_	_	_	
+18-21	1451-1459	säkerhet	_	_	_	_	_	_	_	
+18-22	1460-1464	till	_	_	_	_	_	_	_	
+18-23	1465-1467	en	_	_	_	_	_	_	_	
+18-24	1468-1475	kostnad	_	_	_	_	_	_	_	
+18-25	1476-1478	av	_	_	_	_	_	_	_	
+18-26	1479-1484	flera	_	_	_	_	_	_	_	
+18-27	1485-1494	miljarder	_	_	_	_	_	_	_	
+18-28	1495-1501	mindre	_	_	_	_	_	_	_	
+18-29	1502-1504	än	_	_	_	_	_	_	_	
+18-30	1505-1522	Migrationsverkets	_	_	_	_	_	_	_	
+18-31	1523-1530	begärda	_	_	_	_	_	_	_	
+18-32	1531-1546	utgiftsökningar	_	_	_	_	_	_	_	
+18-33	1547-1550	för	_	_	_	_	_	_	_	
+18-34	1551-1554	ett	_	_	_	_	_	_	_	
+18-35	1555-1569	hundratusental	_	_	_	_	_	_	_	
+18-36	1570-1581	asylsökande	_	_	_	_	_	_	_	
+18-37	1582-1583	i	_	_	_	_	_	_	_	
+18-38	1584-1591	Sverige	_	_	_	_	_	_	_	
+18-39	1592-1593	-	_	_	_	_	_	_	_	
+18-40	1594-1597	där	_	_	_	_	_	_	_	
+18-41	1598-1600	en	_	_	_	_	_	_	_	
+18-42	1601-1612	majoriteten	_	_	_	_	_	_	_	
+18-43	1613-1617	inte	_	_	_	_	_	_	_	
+18-44	1618-1621	ens	_	_	_	_	_	_	_	
+18-45	1622-1628	kommer	_	_	_	_	_	_	_	
+18-46	1629-1633	från	_	_	_	_	_	_	_	
+18-47	1634-1640	Syrien	_	_	_	_	_	_	_	
+18-48	1641-1644	och	_	_	_	_	_	_	_	
+18-49	1645-1650	många	_	_	_	_	_	_	_	
+18-50	1651-1653	är	_	_	_	_	_	_	_	
+18-51	1654-1664	ekonomiska	_	_	_	_	_	_	_	
+18-52	1665-1674	migranter	_	_	_	_	_	_	_	
+18-53	1675-1679	samt	_	_	_	_	_	_	_	
+18-54	1680-1685	vuxna	_	_	_	_	_	_	_	
+18-55	1686-1689	män	_	_	_	_	_	_	_	
+18-56	1689-1690	.	_	_	_	_	_	_	_	
+
+#Text=Sverige hade istället kunnat lägga 27 miljarder på UNHCR för att hjälpa miljontals barn och familjer - vilket hade bidragit till att färre behövde ta sin flykt till Europa.
+19-1	1691-1698	Sverige	_	_	_	_	_	_	_	
+19-2	1699-1703	hade	_	_	_	_	_	_	_	
+19-3	1704-1712	istället	_	_	_	_	_	_	_	
+19-4	1713-1719	kunnat	_	_	_	_	_	_	_	
+19-5	1720-1725	lägga	_	_	_	_	_	_	_	
+19-6	1726-1728	27	_	_	_	_	_	_	_	
+19-7	1729-1738	miljarder	_	_	_	_	_	_	_	
+19-8	1739-1741	på	_	_	_	_	_	_	_	
+19-9	1742-1747	UNHCR	_	_	_	_	_	_	_	
+19-10	1748-1751	för	_	_	_	_	_	_	_	
+19-11	1752-1755	att	_	_	_	_	_	_	_	
+19-12	1756-1762	hjälpa	_	_	_	_	_	_	_	
+19-13	1763-1773	miljontals	_	_	_	_	_	_	_	
+19-14	1774-1778	barn	_	_	_	_	_	_	_	
+19-15	1779-1782	och	_	_	_	_	_	_	_	
+19-16	1783-1791	familjer	_	_	_	_	_	_	_	
+19-17	1792-1793	-	_	_	_	_	_	_	_	
+19-18	1794-1800	vilket	_	_	_	_	_	_	_	
+19-19	1801-1805	hade	_	_	_	_	_	_	_	
+19-20	1806-1814	bidragit	_	_	_	_	_	_	_	
+19-21	1815-1819	till	_	_	_	_	_	_	_	
+19-22	1820-1823	att	_	_	_	_	_	_	_	
+19-23	1824-1829	färre	_	_	_	_	_	_	_	
+19-24	1830-1837	behövde	_	_	_	_	_	_	_	
+19-25	1838-1840	ta	_	_	_	_	_	_	_	
+19-26	1841-1844	sin	_	_	_	_	_	_	_	
+19-27	1845-1850	flykt	_	_	_	_	_	_	_	
+19-28	1851-1855	till	_	_	_	_	_	_	_	
+19-29	1856-1862	Europa	_	_	_	_	_	_	_	
+19-30	1862-1863	.	_	_	_	_	_	_	_	
+
+#Text=Migrationsverket hade då kunnat få kvarvarande 8 miljarder och tvingats till att effektivisera, tält, matpaket och vatten som regel - inte undantag för exempelvis alla vuxna män som kommer.
+20-1	1864-1880	Migrationsverket	_	_	_	_	_	_	_	
+20-2	1881-1885	hade	_	_	_	_	_	_	_	
+20-3	1886-1888	då	_	_	_	_	_	_	_	
+20-4	1889-1895	kunnat	_	_	_	_	_	_	_	
+20-5	1896-1898	få	_	_	_	_	_	_	_	
+20-6	1899-1910	kvarvarande	_	_	_	_	_	_	_	
+20-7	1911-1912	8	_	_	_	_	_	_	_	
+20-8	1913-1922	miljarder	_	_	_	_	_	_	_	
+20-9	1923-1926	och	_	_	_	_	_	_	_	
+20-10	1927-1935	tvingats	_	_	_	_	_	_	_	
+20-11	1936-1940	till	_	_	_	_	_	_	_	
+20-12	1941-1944	att	_	_	_	_	_	_	_	
+20-13	1945-1958	effektivisera	_	_	_	_	_	_	_	
+20-14	1958-1959	,	_	_	_	_	_	_	_	
+20-15	1960-1964	tält	_	_	_	_	_	_	_	
+20-16	1964-1965	,	_	_	_	_	_	_	_	
+20-17	1966-1974	matpaket	_	_	_	_	_	_	_	
+20-18	1975-1978	och	_	_	_	_	_	_	_	
+20-19	1979-1985	vatten	_	_	_	_	_	_	_	
+20-20	1986-1989	som	_	_	_	_	_	_	_	
+20-21	1990-1995	regel	_	_	_	_	_	_	_	
+20-22	1996-1997	-	_	_	_	_	_	_	_	
+20-23	1998-2002	inte	_	_	_	_	_	_	_	
+20-24	2003-2011	undantag	_	_	_	_	_	_	_	
+20-25	2012-2015	för	_	_	_	_	_	_	_	
+20-26	2016-2026	exempelvis	_	_	_	_	_	_	_	
+20-27	2027-2031	alla	_	_	_	_	_	_	_	
+20-28	2032-2037	vuxna	_	_	_	_	_	_	_	
+20-29	2038-2041	män	_	_	_	_	_	_	_	
+20-30	2042-2045	som	_	_	_	_	_	_	_	
+20-31	2046-2052	kommer	_	_	_	_	_	_	_	
+20-32	2052-2053	.	_	_	_	_	_	_	_	
+
+#Text=Snabbare handläggningstider av folk som inte kommer från Syrien, exempelvis besked om utvisning för afghanska migranter som har levt och kommit från Pakistan, Iran eller säkra provinser i Afghanistan.
+21-1	2054-2062	Snabbare	_	_	_	_	_	_	_	
+21-2	2063-2081	handläggningstider	_	_	_	_	_	_	_	
+21-3	2082-2084	av	_	_	_	_	_	_	_	
+21-4	2085-2089	folk	_	_	_	_	_	_	_	
+21-5	2090-2093	som	_	_	_	_	_	_	_	
+21-6	2094-2098	inte	_	_	_	_	_	_	_	
+21-7	2099-2105	kommer	_	_	_	_	_	_	_	
+21-8	2106-2110	från	_	_	_	_	_	_	_	
+21-9	2111-2117	Syrien	_	_	_	_	_	_	_	
+21-10	2117-2118	,	_	_	_	_	_	_	_	
+21-11	2119-2129	exempelvis	_	_	_	_	_	_	_	
+21-12	2130-2136	besked	_	_	_	_	_	_	_	
+21-13	2137-2139	om	_	_	_	_	_	_	_	
+21-14	2140-2149	utvisning	_	_	_	_	_	_	_	
+21-15	2150-2153	för	_	_	_	_	_	_	_	
+21-16	2154-2163	afghanska	_	_	_	_	_	_	_	
+21-17	2164-2173	migranter	_	_	_	_	_	_	_	
+21-18	2174-2177	som	_	_	_	_	_	_	_	
+21-19	2178-2181	har	_	_	_	_	_	_	_	
+21-20	2182-2186	levt	_	_	_	_	_	_	_	
+21-21	2187-2190	och	_	_	_	_	_	_	_	
+21-22	2191-2197	kommit	_	_	_	_	_	_	_	
+21-23	2198-2202	från	_	_	_	_	_	_	_	
+21-24	2203-2211	Pakistan	_	_	_	_	_	_	_	
+21-25	2211-2212	,	_	_	_	_	_	_	_	
+21-26	2213-2217	Iran	_	_	_	_	_	_	_	
+21-27	2218-2223	eller	_	_	_	_	_	_	_	
+21-28	2224-2229	säkra	_	_	_	_	_	_	_	
+21-29	2230-2239	provinser	_	_	_	_	_	_	_	
+21-30	2240-2241	i	_	_	_	_	_	_	_	
+21-31	2242-2253	Afghanistan	_	_	_	_	_	_	_	
+21-32	2253-2254	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	2256-2257	#	_	_	_	_	_	_	_	
+22-2	2257-2258	P	_	_	_	_	_	_	_	
+22-3	2259-2262	IMM	_	_	_	_	_	_	_	
+22-4	2262-2263	.	_	_	_	_	_	_	_	
+
+#Text=Gör Sverige bra prioriteringar?
+23-1	2265-2268	Gör	_	_	_	false	4	_	_	
+23-2	2269-2276	Sverige	*	_	_	_	_	_	_	
+23-3	2277-2280	bra	_	Target[9]	23-2	false[9]	4[9]	23-1[0_9]	_	
+23-4	2281-2295	prioriteringar	_	Target[9]	23-2	false[9]	4[9]	_	_	
+23-5	2295-2296	?	_	_	_	_	_	_	_	
+
+#Text=Tycker verkligen någon att det är bra att Sverige indirekt dödar folk (slaktar biståndet och avstår satsningar på UNHCR till förmån för Migrationsverket, Bert Karlsson med fler)?
+24-1	2297-2303	Tycker	_	_	_	_	_	_	_	
+24-2	2304-2313	verkligen	_	_	_	_	_	_	_	
+24-3	2314-2319	någon	_	_	_	_	_	_	_	
+24-4	2320-2323	att	_	_	_	_	_	_	_	
+24-5	2324-2327	det	_	_	_	_	_	_	_	
+24-6	2328-2330	är	_	_	_	_	_	_	_	
+24-7	2331-2334	bra	_	_	_	_	_	_	_	
+24-8	2335-2338	att	_	_	_	_	_	_	_	
+24-9	2339-2346	Sverige	_	_	_	_	_	_	_	
+24-10	2347-2355	indirekt	_	_	_	_	_	_	_	
+24-11	2356-2361	dödar	_	_	_	_	_	_	_	
+24-12	2362-2366	folk	_	_	_	_	_	_	_	
+24-13	2367-2368	(	_	_	_	_	_	_	_	
+24-14	2368-2375	slaktar	_	_	_	_	_	_	_	
+24-15	2376-2385	biståndet	_	_	_	_	_	_	_	
+24-16	2386-2389	och	_	_	_	_	_	_	_	
+24-17	2390-2396	avstår	_	_	_	_	_	_	_	
+24-18	2397-2407	satsningar	_	_	_	_	_	_	_	
+24-19	2408-2410	på	_	_	_	_	_	_	_	
+24-20	2411-2416	UNHCR	_	_	_	_	_	_	_	
+24-21	2417-2421	till	_	_	_	_	_	_	_	
+24-22	2422-2428	förmån	_	_	_	_	_	_	_	
+24-23	2429-2432	för	_	_	_	_	_	_	_	
+24-24	2433-2449	Migrationsverket	_	_	_	_	_	_	_	
+24-25	2449-2450	,	_	_	_	_	_	_	_	
+24-26	2451-2455	Bert	_	_	_	_	_	_	_	
+24-27	2456-2464	Karlsson	_	_	_	_	_	_	_	
+24-28	2465-2468	med	_	_	_	_	_	_	_	
+24-29	2469-2473	fler	_	_	_	_	_	_	_	
+24-30	2473-2474	)	_	_	_	_	_	_	_	
+24-31	2474-2475	?	_	_	_	_	_	_	_	
+
+#Text=Hur kan inte media ställa hela den svenska regeringen till svars för dessa katastrofala prioriteringar?.
+25-1	2476-2479	Hur	_	_	_	_	_	_	_	
+25-2	2480-2483	kan	_	_	_	_	_	_	_	
+25-3	2484-2488	inte	_	_	_	_	_	_	_	
+25-4	2489-2494	media	_	_	_	_	_	_	_	
+25-5	2495-2501	ställa	_	_	_	_	_	_	_	
+25-6	2502-2506	hela	_	_	_	_	_	_	_	
+25-7	2507-2510	den	_	_	_	_	_	_	_	
+25-8	2511-2518	svenska	_	_	_	_	_	_	_	
+25-9	2519-2529	regeringen	_	_	_	_	_	_	_	
+25-10	2530-2534	till	_	_	_	_	_	_	_	
+25-11	2535-2540	svars	_	_	_	_	_	_	_	
+25-12	2541-2544	för	_	_	_	_	_	_	_	
+25-13	2545-2550	dessa	_	_	_	_	_	_	_	
+25-14	2551-2563	katastrofala	_	Target	25-15	false	1	_	_	
+25-15	2564-2578	prioriteringar	*	_	_	_	_	_	_	
+25-16	2578-2579	?	_	_	_	_	_	_	_	
+25-17	2579-2580	.	_	_	_	_	_	_	_	

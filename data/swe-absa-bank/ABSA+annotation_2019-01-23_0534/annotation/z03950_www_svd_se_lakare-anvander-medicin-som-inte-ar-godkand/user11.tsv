@@ -1,0 +1,784 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Läkare använder medicin som inte är godkänd.
+3-1	18-24	Läkare	_	_	_	_	_	
+3-2	25-33	använder	_	_	_	_	_	
+3-3	34-41	medicin	*	_	_	_	_	
+3-4	42-45	som	_	_	_	_	_	
+3-5	46-50	inte	_	Target;Source[1]	3-3;3-8	false[1]	2[1]	
+3-6	51-53	är	_	Target;Source[1]	3-3;3-8	false[1]	2[1]	
+3-7	54-61	godkänd	_	Target;Source[1]	3-3;3-8	false[1]	2[1]	
+3-8	61-62	.	*	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	
+
+#Text=Kritiken mot läkemedelsbranschen är osaklig.
+5-1	73-81	Kritiken	*	Source;Target	5-6;5-3	false	2	
+5-2	82-85	mot	_	_	_	_	_	
+5-3	86-105	läkemedelsbranschen	*	_	_	_	_	
+5-4	106-108	är	_	Target[2]	5-1	false[2]	2[2]	
+5-5	109-116	osaklig	_	Target[2]	5-1	false[2]	2[2]	
+5-6	116-117	.	*	_	_	_	_	
+
+#Text=MS-läkare undviker frågan om patientsäkerhet, skriver Anders Blanck, vd LIF – de forskande läkemedelsföretagen, i en replik.
+6-1	118-127	MS-läkare	_	_	_	_	_	
+6-2	128-136	undviker	_	_	_	_	_	
+6-3	137-143	frågan	_	_	_	_	_	
+6-4	144-146	om	_	_	_	_	_	
+6-5	147-162	patientsäkerhet	_	_	_	_	_	
+6-6	162-163	,	_	_	_	_	_	
+6-7	164-171	skriver	_	_	_	_	_	
+6-8	172-178	Anders	_	_	_	_	_	
+6-9	179-185	Blanck	_	_	_	_	_	
+6-10	185-186	,	_	_	_	_	_	
+6-11	187-189	vd	_	_	_	_	_	
+6-12	190-193	LIF	_	_	_	_	_	
+6-13	194-195	–	_	_	_	_	_	
+6-14	196-198	de	_	_	_	_	_	
+6-15	199-208	forskande	_	_	_	_	_	
+6-16	209-228	läkemedelsföretagen	_	_	_	_	_	
+6-17	228-229	,	_	_	_	_	_	
+6-18	230-231	i	_	_	_	_	_	
+6-19	232-234	en	_	_	_	_	_	
+6-20	235-241	replik	_	_	_	_	_	
+6-21	241-242	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	244-245	#	_	_	_	_	_	
+7-2	245-246	P	_	_	_	_	_	
+7-3	247-250	IMM	_	_	_	_	_	
+7-4	250-251	.	_	_	_	_	_	
+
+#Text=Flera neurologer från Norrlands universitetssjukhus skriver om behandling av sjukdomen MS (SvD Debatt 25/5).
+8-1	253-258	Flera	_	_	_	_	_	
+8-2	259-269	neurologer	_	_	_	_	_	
+8-3	270-274	från	_	_	_	_	_	
+8-4	275-284	Norrlands	_	_	_	_	_	
+8-5	285-304	universitetssjukhus	_	_	_	_	_	
+8-6	305-312	skriver	_	_	_	_	_	
+8-7	313-315	om	_	_	_	_	_	
+8-8	316-326	behandling	_	_	_	_	_	
+8-9	327-329	av	_	_	_	_	_	
+8-10	330-339	sjukdomen	_	_	_	_	_	
+8-11	340-342	MS	_	_	_	_	_	
+8-12	343-344	(	_	_	_	_	_	
+8-13	344-347	SvD	_	_	_	_	_	
+8-14	348-354	Debatt	_	_	_	_	_	
+8-15	355-357	25	_	_	_	_	_	
+8-16	357-358	/	_	_	_	_	_	
+8-17	358-359	5	_	_	_	_	_	
+8-18	359-360	)	_	_	_	_	_	
+8-19	360-361	.	_	_	_	_	_	
+
+#Text=Artikeln innehåller svepande och grovt osaklig kritik mot läkemedelsbranschen, och saknar helt det viktigaste perspektivet: patientsäkerheten.
+9-1	362-370	Artikeln	_	_	_	_	_	
+9-2	371-381	innehåller	_	_	_	_	_	
+9-3	382-390	svepande	_	Target[3]	9-7	false[3]	1[3]	
+9-4	391-394	och	_	Target[3]	9-7	false[3]	1[3]	
+9-5	395-400	grovt	_	Target[3]	9-7	false[3]	1[3]	
+9-6	401-408	osaklig	_	Target[3]	9-7	false[3]	1[3]	
+9-7	409-415	kritik	*	Target;Source	9-9;9-19	false	2	
+9-8	416-419	mot	_	_	_	_	_	
+9-9	420-439	läkemedelsbranschen	*	_	_	_	_	
+9-10	439-440	,	_	_	_	_	_	
+9-11	441-444	och	_	_	_	_	_	
+9-12	445-451	saknar	_	_	_	_	_	
+9-13	452-456	helt	_	_	_	_	_	
+9-14	457-460	det	_	_	_	_	_	
+9-15	461-471	viktigaste	_	_	_	_	_	
+9-16	472-484	perspektivet	_	_	_	_	_	
+9-17	484-485	:	_	_	_	_	_	
+9-18	486-503	patientsäkerheten	_	_	_	_	_	
+9-19	503-504	.	*	_	_	_	_	
+
+#Text=Vi vill fokusera på sakfrågan, som har stor principiell betydelse.
+10-1	505-507	Vi	_	_	_	_	_	
+10-2	508-512	vill	_	_	_	_	_	
+10-3	513-521	fokusera	_	_	_	_	_	
+10-4	522-524	på	_	_	_	_	_	
+10-5	525-534	sakfrågan	_	_	_	_	_	
+10-6	534-535	,	_	_	_	_	_	
+10-7	536-539	som	_	_	_	_	_	
+10-8	540-543	har	_	_	_	_	_	
+10-9	544-548	stor	_	Target[4]	10-11	false[4]	4[4]	
+10-10	549-560	principiell	_	Target[4]	10-11	false[4]	4[4]	
+10-11	561-570	betydelse	*	_	_	_	_	
+10-12	570-571	.	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	573-574	#	_	_	_	_	_	
+11-2	574-575	P	_	_	_	_	_	
+11-3	576-579	IMM	_	_	_	_	_	
+11-4	579-580	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+12-1	582-585	Det	_	_	_	_	_	
+12-2	586-589	här	_	_	_	_	_	
+12-3	590-592	är	_	_	_	_	_	
+12-4	593-595	en	_	_	_	_	_	
+12-5	596-610	argumenterande	_	_	_	_	_	
+12-6	611-615	text	_	_	_	_	_	
+12-7	616-619	med	_	_	_	_	_	
+12-8	620-625	syfte	_	_	_	_	_	
+12-9	626-629	att	_	_	_	_	_	
+12-10	630-637	påverka	_	_	_	_	_	
+12-11	637-638	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+13-1	639-648	Åsikterna	_	_	_	_	_	
+13-2	649-652	som	_	_	_	_	_	
+13-3	653-661	uttrycks	_	_	_	_	_	
+13-4	662-664	är	_	_	_	_	_	
+13-5	665-676	skribentens	_	_	_	_	_	
+13-6	677-681	egna	_	_	_	_	_	
+13-7	681-682	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	684-685	#	_	_	_	_	_	
+14-2	685-686	P	_	_	_	_	_	
+14-3	687-690	IMM	_	_	_	_	_	
+14-4	690-691	.	_	_	_	_	_	
+
+#Text=Inga andra produkter i vårt samhälle är i lika hög grad granskade och prövade som läkemedel innan de får börja användas.
+15-1	693-697	Inga	_	_	_	_	_	
+15-2	698-703	andra	_	_	_	_	_	
+15-3	704-713	produkter	_	_	_	_	_	
+15-4	714-715	i	_	_	_	_	_	
+15-5	716-720	vårt	_	_	_	_	_	
+15-6	721-729	samhälle	_	_	_	_	_	
+15-7	730-732	är	_	_	_	_	_	
+15-8	733-734	i	_	_	_	_	_	
+15-9	735-739	lika	_	_	_	_	_	
+15-10	740-743	hög	_	_	_	_	_	
+15-11	744-748	grad	_	_	_	_	_	
+15-12	749-758	granskade	_	_	_	_	_	
+15-13	759-762	och	_	_	_	_	_	
+15-14	763-770	prövade	_	_	_	_	_	
+15-15	771-774	som	_	_	_	_	_	
+15-16	775-784	läkemedel	_	_	_	_	_	
+15-17	785-790	innan	_	_	_	_	_	
+15-18	791-793	de	_	_	_	_	_	
+15-19	794-797	får	_	_	_	_	_	
+15-20	798-803	börja	_	_	_	_	_	
+15-21	804-812	användas	_	_	_	_	_	
+15-22	812-813	.	_	_	_	_	_	
+
+#Text=Regelverket har byggts upp av företag och myndigheter gemensamt i över 50 år, och syftet är glasklart: läkemedel ska vara så säkra som möjligt för patienterna, och ska ge den medicinska effekt som är tänkt.
+16-1	814-825	Regelverket	_	_	_	_	_	
+16-2	826-829	har	_	_	_	_	_	
+16-3	830-836	byggts	_	_	_	_	_	
+16-4	837-840	upp	_	_	_	_	_	
+16-5	841-843	av	_	_	_	_	_	
+16-6	844-851	företag	_	_	_	_	_	
+16-7	852-855	och	_	_	_	_	_	
+16-8	856-867	myndigheter	_	_	_	_	_	
+16-9	868-877	gemensamt	_	_	_	_	_	
+16-10	878-879	i	_	_	_	_	_	
+16-11	880-884	över	_	_	_	_	_	
+16-12	885-887	50	_	_	_	_	_	
+16-13	888-890	år	_	_	_	_	_	
+16-14	890-891	,	_	_	_	_	_	
+16-15	892-895	och	_	_	_	_	_	
+16-16	896-902	syftet	*	_	_	_	_	
+16-17	903-905	är	_	Target[5]	16-16	false[5]	4[5]	
+16-18	906-915	glasklart	_	Target[5]	16-16	false[5]	4[5]	
+16-19	915-916	:	_	_	_	_	_	
+16-20	917-926	läkemedel	_	_	_	_	_	
+16-21	927-930	ska	_	_	_	_	_	
+16-22	931-935	vara	_	_	_	_	_	
+16-23	936-938	så	_	_	_	_	_	
+16-24	939-944	säkra	_	_	_	_	_	
+16-25	945-948	som	_	_	_	_	_	
+16-26	949-956	möjligt	_	_	_	_	_	
+16-27	957-960	för	_	_	_	_	_	
+16-28	961-972	patienterna	_	_	_	_	_	
+16-29	972-973	,	_	_	_	_	_	
+16-30	974-977	och	_	_	_	_	_	
+16-31	978-981	ska	_	_	_	_	_	
+16-32	982-984	ge	_	_	_	_	_	
+16-33	985-988	den	_	_	_	_	_	
+16-34	989-999	medicinska	_	_	_	_	_	
+16-35	1000-1006	effekt	_	_	_	_	_	
+16-36	1007-1010	som	_	_	_	_	_	
+16-37	1011-1013	är	_	_	_	_	_	
+16-38	1014-1019	tänkt	_	_	_	_	_	
+16-39	1019-1020	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1022-1023	#	_	_	_	_	_	
+17-2	1023-1024	P	_	_	_	_	_	
+17-3	1025-1028	IMM	_	_	_	_	_	
+17-4	1028-1029	.	_	_	_	_	_	
+
+#Text=Innan läkemedelsmyndigheterna ger sitt slutliga godkännande till ett läkemedel måste det ha genomgått en eller flera så kallade fas III-prövningar på ett stort antal patienter.
+18-1	1031-1036	Innan	_	_	_	_	_	
+18-2	1037-1060	läkemedelsmyndigheterna	_	_	_	_	_	
+18-3	1061-1064	ger	_	_	_	_	_	
+18-4	1065-1069	sitt	_	_	_	_	_	
+18-5	1070-1078	slutliga	_	_	_	_	_	
+18-6	1079-1090	godkännande	_	_	_	_	_	
+18-7	1091-1095	till	_	_	_	_	_	
+18-8	1096-1099	ett	_	_	_	_	_	
+18-9	1100-1109	läkemedel	_	_	_	_	_	
+18-10	1110-1115	måste	_	_	_	_	_	
+18-11	1116-1119	det	_	_	_	_	_	
+18-12	1120-1122	ha	_	_	_	_	_	
+18-13	1123-1132	genomgått	_	_	_	_	_	
+18-14	1133-1135	en	_	_	_	_	_	
+18-15	1136-1141	eller	_	_	_	_	_	
+18-16	1142-1147	flera	_	_	_	_	_	
+18-17	1148-1150	så	_	_	_	_	_	
+18-18	1151-1158	kallade	_	_	_	_	_	
+18-19	1159-1162	fas	_	_	_	_	_	
+18-20	1163-1177	III-prövningar	_	_	_	_	_	
+18-21	1178-1180	på	_	_	_	_	_	
+18-22	1181-1184	ett	_	_	_	_	_	
+18-23	1185-1190	stort	_	_	_	_	_	
+18-24	1191-1196	antal	_	_	_	_	_	
+18-25	1197-1206	patienter	_	_	_	_	_	
+18-26	1206-1207	.	_	_	_	_	_	
+
+#Text=Ibland visar det sig att ett läkemedel kan ha god effekt mot någon annan sjukdom.
+19-1	1208-1214	Ibland	_	_	_	_	_	
+19-2	1215-1220	visar	_	_	_	_	_	
+19-3	1221-1224	det	_	_	_	_	_	
+19-4	1225-1228	sig	_	_	_	_	_	
+19-5	1229-1232	att	_	_	_	_	_	
+19-6	1233-1236	ett	_	_	_	_	_	
+19-7	1237-1246	läkemedel	*	_	_	_	_	
+19-8	1247-1250	kan	_	Target[6]	19-7	false[6]	4[6]	
+19-9	1251-1253	ha	_	Target[6]	19-7	false[6]	4[6]	
+19-10	1254-1257	god	_	Target[6]	19-7	false[6]	4[6]	
+19-11	1258-1264	effekt	_	Target[6]	19-7	false[6]	4[6]	
+19-12	1265-1268	mot	_	_	_	_	_	
+19-13	1269-1274	någon	_	_	_	_	_	
+19-14	1275-1280	annan	_	_	_	_	_	
+19-15	1281-1288	sjukdom	_	_	_	_	_	
+19-16	1288-1289	.	_	_	_	_	_	
+
+#Text=Läkemedlet måste då genomgå en ny fas III-prövning innan det enligt EU:s regelverk kan godkännas för den nya sjukdomen.
+20-1	1290-1300	Läkemedlet	*	_	_	_	_	
+20-2	1301-1306	måste	_	_	_	_	_	
+20-3	1307-1309	då	_	_	_	_	_	
+20-4	1310-1317	genomgå	_	_	_	_	_	
+20-5	1318-1320	en	_	_	_	_	_	
+20-6	1321-1323	ny	_	_	_	_	_	
+20-7	1324-1327	fas	_	_	_	_	_	
+20-8	1328-1340	III-prövning	_	_	_	_	_	
+20-9	1341-1346	innan	_	_	_	_	_	
+20-10	1347-1350	det	_	_	_	_	_	
+20-11	1351-1357	enligt	_	_	_	_	_	
+20-12	1358-1360	EU	*[14]	_	_	_	_	
+20-13	1360-1361	:	*[14]	_	_	_	_	
+20-14	1361-1362	s	*[14]	_	_	_	_	
+20-15	1363-1372	regelverk	*[14]	_	_	_	_	
+20-16	1373-1376	kan	_	Target;Source[7]	20-1;20-12[14]	false[7]	4[7]	
+20-17	1377-1386	godkännas	_	Target;Source[7]	20-1;20-12[14]	false[7]	4[7]	
+20-18	1387-1390	för	_	_	_	_	_	
+20-19	1391-1394	den	_	_	_	_	_	
+20-20	1395-1398	nya	_	_	_	_	_	
+20-21	1399-1408	sjukdomen	_	_	_	_	_	
+20-22	1408-1409	.	_	_	_	_	_	
+
+#Text=Detta görs framför allt av patientsäkerhetsskäl, eftersom allvarliga biverkningar kan uppstå när ett läkemedel används på ett helt annat område än det togs fram för.
+21-1	1410-1415	Detta	_	_	_	_	_	
+21-2	1416-1420	görs	_	_	_	_	_	
+21-3	1421-1428	framför	_	_	_	_	_	
+21-4	1429-1433	allt	_	_	_	_	_	
+21-5	1434-1436	av	_	_	_	_	_	
+21-6	1437-1457	patientsäkerhetsskäl	_	_	_	_	_	
+21-7	1457-1458	,	_	_	_	_	_	
+21-8	1459-1467	eftersom	_	_	_	_	_	
+21-9	1468-1478	allvarliga	_	Target	21-10	false	2	
+21-10	1479-1491	biverkningar	*	_	_	_	_	
+21-11	1492-1495	kan	_	_	_	_	_	
+21-12	1496-1502	uppstå	_	_	_	_	_	
+21-13	1503-1506	när	_	_	_	_	_	
+21-14	1507-1510	ett	_	_	_	_	_	
+21-15	1511-1520	läkemedel	_	_	_	_	_	
+21-16	1521-1528	används	_	_	_	_	_	
+21-17	1529-1531	på	_	_	_	_	_	
+21-18	1532-1535	ett	_	_	_	_	_	
+21-19	1536-1540	helt	_	_	_	_	_	
+21-20	1541-1546	annat	_	_	_	_	_	
+21-21	1547-1553	område	_	_	_	_	_	
+21-22	1554-1556	än	_	_	_	_	_	
+21-23	1557-1560	det	_	_	_	_	_	
+21-24	1561-1565	togs	_	_	_	_	_	
+21-25	1566-1570	fram	_	_	_	_	_	
+21-26	1571-1574	för	_	_	_	_	_	
+21-27	1574-1575	.	_	_	_	_	_	
+
+#Text=Läkemedlet måste även ha bevisat god effekt på den nya indikationen.
+22-1	1576-1586	Läkemedlet	_	_	_	_	_	
+22-2	1587-1592	måste	_	_	_	_	_	
+22-3	1593-1597	även	_	_	_	_	_	
+22-4	1598-1600	ha	_	_	_	_	_	
+22-5	1601-1608	bevisat	_	_	_	_	_	
+22-6	1609-1612	god	_	_	_	_	_	
+22-7	1613-1619	effekt	_	_	_	_	_	
+22-8	1620-1622	på	_	_	_	_	_	
+22-9	1623-1626	den	_	_	_	_	_	
+22-10	1627-1630	nya	_	_	_	_	_	
+22-11	1631-1643	indikationen	_	_	_	_	_	
+22-12	1643-1644	.	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1646-1647	#	_	_	_	_	_	
+23-2	1647-1648	P	_	_	_	_	_	
+23-3	1649-1652	IMM	_	_	_	_	_	
+23-4	1652-1653	.	_	_	_	_	_	
+
+#Text=Så här ser den tvingande EU-lagstiftningen ut som gäller för alla läkemedel.
+24-1	1655-1657	Så	_	_	_	_	_	
+24-2	1658-1661	här	_	_	_	_	_	
+24-3	1662-1665	ser	_	_	_	_	_	
+24-4	1666-1669	den	_	_	_	_	_	
+24-5	1670-1679	tvingande	_	_	_	_	_	
+24-6	1680-1697	EU-lagstiftningen	_	_	_	_	_	
+24-7	1698-1700	ut	_	_	_	_	_	
+24-8	1701-1704	som	_	_	_	_	_	
+24-9	1705-1711	gäller	_	_	_	_	_	
+24-10	1712-1715	för	_	_	_	_	_	
+24-11	1716-1720	alla	_	_	_	_	_	
+24-12	1721-1730	läkemedel	_	_	_	_	_	
+24-13	1730-1731	.	_	_	_	_	_	
+
+#Text=Det är alltså inga lagar som vare sig företagen eller sjukvården kan välja att åsidosätta efter eget huvud.
+25-1	1732-1735	Det	_	_	_	_	_	
+25-2	1736-1738	är	_	_	_	_	_	
+25-3	1739-1745	alltså	_	_	_	_	_	
+25-4	1746-1750	inga	_	_	_	_	_	
+25-5	1751-1756	lagar	_	_	_	_	_	
+25-6	1757-1760	som	_	_	_	_	_	
+25-7	1761-1765	vare	_	_	_	_	_	
+25-8	1766-1769	sig	_	_	_	_	_	
+25-9	1770-1779	företagen	_	_	_	_	_	
+25-10	1780-1785	eller	_	_	_	_	_	
+25-11	1786-1796	sjukvården	_	_	_	_	_	
+25-12	1797-1800	kan	_	_	_	_	_	
+25-13	1801-1806	välja	_	_	_	_	_	
+25-14	1807-1810	att	_	_	_	_	_	
+25-15	1811-1821	åsidosätta	_	_	_	_	_	
+25-16	1822-1827	efter	_	_	_	_	_	
+25-17	1828-1832	eget	_	_	_	_	_	
+25-18	1833-1838	huvud	_	_	_	_	_	
+25-19	1838-1839	.	_	_	_	_	_	
+
+#Text=Och lagarna har patienternas säkerhet som huvudsyfte.
+26-1	1840-1843	Och	_	_	_	_	_	
+26-2	1844-1851	lagarna	_	_	_	_	_	
+26-3	1852-1855	har	_	_	_	_	_	
+26-4	1856-1868	patienternas	_	_	_	_	_	
+26-5	1869-1877	säkerhet	_	_	_	_	_	
+26-6	1878-1881	som	_	_	_	_	_	
+26-7	1882-1892	huvudsyfte	_	_	_	_	_	
+26-8	1892-1893	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1895-1896	#	_	_	_	_	_	
+27-2	1896-1897	P	_	_	_	_	_	
+27-3	1898-1901	IMM	_	_	_	_	_	
+27-4	1901-1902	.	_	_	_	_	_	
+
+#Text=Inom MS-området har betydande medicinska framsteg gjorts och i dag finns elva godkända läkemedel för behandling av skovvis förlöpande MS.
+28-1	1904-1908	Inom	_	_	_	_	_	
+28-2	1909-1919	MS-området	_	_	_	_	_	
+28-3	1920-1923	har	_	_	_	_	_	
+28-4	1924-1933	betydande	_	_	_	_	_	
+28-5	1934-1944	medicinska	_	_	_	_	_	
+28-6	1945-1953	framsteg	_	_	_	_	_	
+28-7	1954-1960	gjorts	_	_	_	_	_	
+28-8	1961-1964	och	_	_	_	_	_	
+28-9	1965-1966	i	_	_	_	_	_	
+28-10	1967-1970	dag	_	_	_	_	_	
+28-11	1971-1976	finns	_	_	_	_	_	
+28-12	1977-1981	elva	_	_	_	_	_	
+28-13	1982-1990	godkända	_	_	_	_	_	
+28-14	1991-2000	läkemedel	_	_	_	_	_	
+28-15	2001-2004	för	_	_	_	_	_	
+28-16	2005-2015	behandling	_	_	_	_	_	
+28-17	2016-2018	av	_	_	_	_	_	
+28-18	2019-2026	skovvis	_	_	_	_	_	
+28-19	2027-2037	förlöpande	_	_	_	_	_	
+28-20	2038-2040	MS	_	_	_	_	_	
+28-21	2040-2041	.	_	_	_	_	_	
+
+#Text=Men vissa MS-läkare använder i stället i stor och systematisk omfattning ett annat läkemedel, som inte är godkänt av myndigheterna för behandling av MS.
+29-1	2042-2045	Men	_	_	_	_	_	
+29-2	2046-2051	vissa	_	_	_	_	_	
+29-3	2052-2061	MS-läkare	_	_	_	_	_	
+29-4	2062-2070	använder	_	_	_	_	_	
+29-5	2071-2072	i	_	_	_	_	_	
+29-6	2073-2080	stället	_	_	_	_	_	
+29-7	2081-2082	i	_	_	_	_	_	
+29-8	2083-2087	stor	_	_	_	_	_	
+29-9	2088-2091	och	_	_	_	_	_	
+29-10	2092-2103	systematisk	_	_	_	_	_	
+29-11	2104-2114	omfattning	_	_	_	_	_	
+29-12	2115-2118	ett	_	_	_	_	_	
+29-13	2119-2124	annat	_	_	_	_	_	
+29-14	2125-2134	läkemedel	_	_	_	_	_	
+29-15	2134-2135	,	_	_	_	_	_	
+29-16	2136-2139	som	_	_	_	_	_	
+29-17	2140-2144	inte	_	_	_	_	_	
+29-18	2145-2147	är	_	_	_	_	_	
+29-19	2148-2155	godkänt	_	_	_	_	_	
+29-20	2156-2158	av	_	_	_	_	_	
+29-21	2159-2172	myndigheterna	_	_	_	_	_	
+29-22	2173-2176	för	_	_	_	_	_	
+29-23	2177-2187	behandling	_	_	_	_	_	
+29-24	2188-2190	av	_	_	_	_	_	
+29-25	2191-2193	MS	_	_	_	_	_	
+29-26	2193-2194	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2196-2197	#	_	_	_	_	_	
+30-2	2197-2198	P	_	_	_	_	_	
+30-3	2199-2202	IMM	_	_	_	_	_	
+30-4	2202-2203	.	_	_	_	_	_	
+
+#Text=Ibland finns situationer där det saknas en godkänd behandling för en enskild patient.
+31-1	2205-2211	Ibland	_	_	_	_	_	
+31-2	2212-2217	finns	_	_	_	_	_	
+31-3	2218-2229	situationer	_	_	_	_	_	
+31-4	2230-2233	där	_	_	_	_	_	
+31-5	2234-2237	det	_	_	_	_	_	
+31-6	2238-2244	saknas	_	_	_	_	_	
+31-7	2245-2247	en	_	_	_	_	_	
+31-8	2248-2255	godkänd	_	_	_	_	_	
+31-9	2256-2266	behandling	_	_	_	_	_	
+31-10	2267-2270	för	_	_	_	_	_	
+31-11	2271-2273	en	_	_	_	_	_	
+31-12	2274-2281	enskild	_	_	_	_	_	
+31-13	2282-2289	patient	_	_	_	_	_	
+31-14	2289-2290	.	_	_	_	_	_	
+
+#Text=Läkaren kan då grundat på vetenskap och beprövad erfarenhet använda ett läkemedel som inte är godkänt för den aktuella sjukdomen.
+32-1	2291-2298	Läkaren	_	_	_	_	_	
+32-2	2299-2302	kan	_	_	_	_	_	
+32-3	2303-2305	då	_	_	_	_	_	
+32-4	2306-2313	grundat	_	_	_	_	_	
+32-5	2314-2316	på	_	_	_	_	_	
+32-6	2317-2326	vetenskap	_	_	_	_	_	
+32-7	2327-2330	och	_	_	_	_	_	
+32-8	2331-2339	beprövad	*[15]	Target[8]	32-8[15]	false[8]	4[8]	
+32-9	2340-2350	erfarenhet	*[15]	Target[8]	32-8[15]	false[8]	4[8]	
+32-10	2351-2358	använda	_	_	_	_	_	
+32-11	2359-2362	ett	_	_	_	_	_	
+32-12	2363-2372	läkemedel	*	_	_	_	_	
+32-13	2373-2376	som	_	_	_	_	_	
+32-14	2377-2381	inte	_	Source;Target[9]	32-21;32-12	false[9]	2[9]	
+32-15	2382-2384	är	_	Source;Target[9]	32-21;32-12	false[9]	2[9]	
+32-16	2385-2392	godkänt	_	Source;Target[9]	32-21;32-12	false[9]	2[9]	
+32-17	2393-2396	för	_	_	_	_	_	
+32-18	2397-2400	den	_	_	_	_	_	
+32-19	2401-2409	aktuella	_	_	_	_	_	
+32-20	2410-2419	sjukdomen	_	_	_	_	_	
+32-21	2419-2420	.	*	_	_	_	_	
+
+#Text=Sådan användning i det enskilda fallet, som även innebär att läkaren tar ett större ansvar för patientens säkerhet, är ett helt acceptabelt avsteg från regelverket.
+33-1	2421-2426	Sådan	*[16]	_	_	_	_	
+33-2	2427-2437	användning	*[16]	_	_	_	_	
+33-3	2438-2439	i	*[16]	_	_	_	_	
+33-4	2440-2443	det	*[16]	_	_	_	_	
+33-5	2444-2452	enskilda	*[16]	_	_	_	_	
+33-6	2453-2459	fallet	*[16]	_	_	_	_	
+33-7	2459-2460	,	_	_	_	_	_	
+33-8	2461-2464	som	_	_	_	_	_	
+33-9	2465-2469	även	_	_	_	_	_	
+33-10	2470-2477	innebär	_	_	_	_	_	
+33-11	2478-2481	att	_	_	_	_	_	
+33-12	2482-2489	läkaren	_	_	_	_	_	
+33-13	2490-2493	tar	_	_	_	_	_	
+33-14	2494-2497	ett	_	_	_	_	_	
+33-15	2498-2504	större	_	_	_	_	_	
+33-16	2505-2511	ansvar	_	_	_	_	_	
+33-17	2512-2515	för	_	_	_	_	_	
+33-18	2516-2526	patientens	_	_	_	_	_	
+33-19	2527-2535	säkerhet	_	_	_	_	_	
+33-20	2535-2536	,	_	_	_	_	_	
+33-21	2537-2539	är	_	Target[10]	33-1[16]	false[10]	4[10]	
+33-22	2540-2543	ett	_	Target[10]	33-1[16]	false[10]	4[10]	
+33-23	2544-2548	helt	_	Target[10]	33-1[16]	false[10]	4[10]	
+33-24	2549-2560	acceptabelt	_	Target[10]	33-1[16]	false[10]	4[10]	
+33-25	2561-2567	avsteg	_	Target[10]	33-1[16]	false[10]	4[10]	
+33-26	2568-2572	från	_	_	_	_	_	
+33-27	2573-2584	regelverket	_	_	_	_	_	
+33-28	2584-2585	.	_	_	_	_	_	
+
+#Text=Det ger möjlighet till viktig behandling av patienter som annars skulle riskera att stå utan läkemedel mot sin sjukdom.
+34-1	2586-2589	Det	_	_	_	_	_	
+34-2	2590-2593	ger	_	_	_	_	_	
+34-3	2594-2603	möjlighet	_	_	_	_	_	
+34-4	2604-2608	till	_	_	_	_	_	
+34-5	2609-2615	viktig	_	_	_	_	_	
+34-6	2616-2626	behandling	_	_	_	_	_	
+34-7	2627-2629	av	_	_	_	_	_	
+34-8	2630-2639	patienter	_	_	_	_	_	
+34-9	2640-2643	som	_	_	_	_	_	
+34-10	2644-2650	annars	_	_	_	_	_	
+34-11	2651-2657	skulle	_	_	_	_	_	
+34-12	2658-2665	riskera	_	Target	34-14[17]	false	2	
+34-13	2666-2669	att	_	_	_	_	_	
+34-14	2670-2673	stå	*[17]	_	_	_	_	
+34-15	2674-2678	utan	*[17]	_	_	_	_	
+34-16	2679-2688	läkemedel	*[17]	_	_	_	_	
+34-17	2689-2692	mot	*[17]	_	_	_	_	
+34-18	2693-2696	sin	*[17]	_	_	_	_	
+34-19	2697-2704	sjukdom	*[17]	_	_	_	_	
+34-20	2704-2705	.	_	_	_	_	_	
+
+#Text=Men denna situation råder ju dock inte alls inom MS där det finns 11 godkända läkemedel.
+35-1	2706-2709	Men	_	_	_	_	_	
+35-2	2710-2715	denna	*[18]	_	_	_	_	
+35-3	2716-2725	situation	*[18]	_	_	_	_	
+35-4	2726-2731	råder	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-5	2732-2734	ju	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-6	2735-2739	dock	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-7	2740-2744	inte	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-8	2745-2749	alls	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-9	2750-2754	inom	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-10	2755-2757	MS	_	Target[11]	35-2[18]	false[11]	2[11]	
+35-11	2758-2761	där	_	_	_	_	_	
+35-12	2762-2765	det	_	_	_	_	_	
+35-13	2766-2771	finns	_	_	_	_	_	
+35-14	2772-2774	11	_	_	_	_	_	
+35-15	2775-2783	godkända	_	_	_	_	_	
+35-16	2784-2793	läkemedel	_	_	_	_	_	
+35-17	2793-2794	.	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2796-2797	#	_	_	_	_	_	
+36-2	2797-2798	P	_	_	_	_	_	
+36-3	2799-2802	IMM	_	_	_	_	_	
+36-4	2802-2803	.	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+37-1	2805-2818	Skräddarsydda	_	_	_	_	_	
+37-2	2819-2825	kurser	_	_	_	_	_	
+37-3	2826-2827	i	_	_	_	_	_	
+37-4	2828-2833	ämnen	_	_	_	_	_	
+37-5	2834-2837	som	_	_	_	_	_	
+37-6	2838-2849	intresserar	_	_	_	_	_	
+37-7	2850-2853	och	_	_	_	_	_	
+37-8	2854-2863	engagerar	_	_	_	_	_	
+37-9	2864-2868	både	_	_	_	_	_	
+37-10	2869-2874	kropp	_	_	_	_	_	
+37-11	2875-2878	och	_	_	_	_	_	
+37-12	2879-2883	själ	_	_	_	_	_	
+37-13	2883-2884	.	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2886-2887	#	_	_	_	_	_	
+38-2	2887-2888	P	_	_	_	_	_	
+38-3	2889-2892	IMM	_	_	_	_	_	
+38-4	2892-2893	.	_	_	_	_	_	
+
+#Text=Ett antal MS-läkare står nu bakom en systematisk och omfattande användning av ett läkemedel som inte är godkänt för sjukdomen.
+39-1	2895-2898	Ett	_	_	_	_	_	
+39-2	2899-2904	antal	_	_	_	_	_	
+39-3	2905-2914	MS-läkare	_	_	_	_	_	
+39-4	2915-2919	står	_	_	_	_	_	
+39-5	2920-2922	nu	_	_	_	_	_	
+39-6	2923-2928	bakom	_	_	_	_	_	
+39-7	2929-2931	en	_	_	_	_	_	
+39-8	2932-2943	systematisk	_	_	_	_	_	
+39-9	2944-2947	och	_	_	_	_	_	
+39-10	2948-2958	omfattande	_	_	_	_	_	
+39-11	2959-2969	användning	_	_	_	_	_	
+39-12	2970-2972	av	_	_	_	_	_	
+39-13	2973-2976	ett	_	_	_	_	_	
+39-14	2977-2986	läkemedel	*	_	_	_	_	
+39-15	2987-2990	som	_	_	_	_	_	
+39-16	2991-2995	inte	_	Target;Source[12]	39-14;39-21	false[12]	2[12]	
+39-17	2996-2998	är	_	Target;Source[12]	39-14;39-21	false[12]	2[12]	
+39-18	2999-3006	godkänt	_	Target;Source[12]	39-14;39-21	false[12]	2[12]	
+39-19	3007-3010	för	_	_	_	_	_	
+39-20	3011-3020	sjukdomen	_	_	_	_	_	
+39-21	3020-3021	.	*	_	_	_	_	
+
+#Text=Eftersom detta är en extremt ovanlig situation har vi som branschorganisation skrivit till Socialdepartementet med ett önskemål om att departementet låter ansvariga myndigheter, Socialstyrelsen och Läkemedelsverket, utreda frågan.
+40-1	3022-3030	Eftersom	_	_	_	_	_	
+40-2	3031-3036	detta	_	_	_	_	_	
+40-3	3037-3039	är	_	_	_	_	_	
+40-4	3040-3042	en	_	_	_	_	_	
+40-5	3043-3050	extremt	_	Target	40-6	false	2	
+40-6	3051-3058	ovanlig	*	_	_	_	_	
+40-7	3059-3068	situation	_	_	_	_	_	
+40-8	3069-3072	har	_	_	_	_	_	
+40-9	3073-3075	vi	_	_	_	_	_	
+40-10	3076-3079	som	_	_	_	_	_	
+40-11	3080-3099	branschorganisation	_	_	_	_	_	
+40-12	3100-3107	skrivit	_	_	_	_	_	
+40-13	3108-3112	till	_	_	_	_	_	
+40-14	3113-3132	Socialdepartementet	_	_	_	_	_	
+40-15	3133-3136	med	_	_	_	_	_	
+40-16	3137-3140	ett	_	_	_	_	_	
+40-17	3141-3149	önskemål	_	Target	40-20[19]	false	4	
+40-18	3150-3152	om	_	_	_	_	_	
+40-19	3153-3156	att	_	_	_	_	_	
+40-20	3157-3170	departementet	*[19]	_	_	_	_	
+40-21	3171-3176	låter	*[19]	_	_	_	_	
+40-22	3177-3186	ansvariga	*[19]	_	_	_	_	
+40-23	3187-3198	myndigheter	*[19]	_	_	_	_	
+40-24	3198-3199	,	*[19]	_	_	_	_	
+40-25	3200-3215	Socialstyrelsen	*[19]	_	_	_	_	
+40-26	3216-3219	och	*[19]	_	_	_	_	
+40-27	3220-3236	Läkemedelsverket	*[19]	_	_	_	_	
+40-28	3236-3237	,	*[19]	_	_	_	_	
+40-29	3238-3244	utreda	*[19]	_	_	_	_	
+40-30	3245-3251	frågan	*[19]	_	_	_	_	
+40-31	3251-3252	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3254-3255	#	_	_	_	_	_	
+41-2	3255-3256	P	_	_	_	_	_	
+41-3	3257-3260	IMM	_	_	_	_	_	
+41-4	3260-3261	.	_	_	_	_	_	
+
+#Text=Vi ifrågasätter om det är rimligt med systematisk användning av ett läkemedel som inte är godkänt för sjukdomen MS, samtidigt som det finns elva andra läkemedel mot MS som genomgått alla kliniska prövningar och som bedömts vara patientsäkra och ha bevisad effekt.
+42-1	3263-3265	Vi	*	_	_	_	_	
+42-2	3266-3278	ifrågasätter	_	Source;Target	42-1;42-3[20]	false	2	
+42-3	3279-3281	om	*[20]	_	_	_	_	
+42-4	3282-3285	det	*[20]	_	_	_	_	
+42-5	3286-3288	är	*[20]	_	_	_	_	
+42-6	3289-3296	rimligt	*[20]	_	_	_	_	
+42-7	3297-3300	med	*[20]	_	_	_	_	
+42-8	3301-3312	systematisk	*[20]	_	_	_	_	
+42-9	3313-3323	användning	*[20]	_	_	_	_	
+42-10	3324-3326	av	*[20]	_	_	_	_	
+42-11	3327-3330	ett	*[20]	_	_	_	_	
+42-12	3331-3340	läkemedel	*[20]	_	_	_	_	
+42-13	3341-3344	som	*[20]	_	_	_	_	
+42-14	3345-3349	inte	*[20]	_	_	_	_	
+42-15	3350-3352	är	*[20]	_	_	_	_	
+42-16	3353-3360	godkänt	*[20]	_	_	_	_	
+42-17	3361-3364	för	*[20]	_	_	_	_	
+42-18	3365-3374	sjukdomen	*[20]	_	_	_	_	
+42-19	3375-3377	MS	*[20]	_	_	_	_	
+42-20	3377-3378	,	*[20]	_	_	_	_	
+42-21	3379-3388	samtidigt	*[20]	_	_	_	_	
+42-22	3389-3392	som	*[20]	_	_	_	_	
+42-23	3393-3396	det	*[20]	_	_	_	_	
+42-24	3397-3402	finns	*[20]	_	_	_	_	
+42-25	3403-3407	elva	*[20]|*[21]	_	_	_	_	
+42-26	3408-3413	andra	*[20]|*[21]	_	_	_	_	
+42-27	3414-3423	läkemedel	*[20]|*[21]	_	_	_	_	
+42-28	3424-3427	mot	*[20]|*[21]	_	_	_	_	
+42-29	3428-3430	MS	*[20]|*[21]	_	_	_	_	
+42-30	3431-3434	som	*[20]	_	_	_	_	
+42-31	3435-3444	genomgått	*[20]	_	_	_	_	
+42-32	3445-3449	alla	*[20]	_	_	_	_	
+42-33	3450-3458	kliniska	*[20]	_	_	_	_	
+42-34	3459-3469	prövningar	*[20]	_	_	_	_	
+42-35	3470-3473	och	_	_	_	_	_	
+42-36	3474-3477	som	_	_	_	_	_	
+42-37	3478-3485	bedömts	_	Target;Source[13]	42-25[21];42-44	false[13]	4[13]	
+42-38	3486-3490	vara	_	Target;Source[13]	42-25[21];42-44	false[13]	4[13]	
+42-39	3491-3503	patientsäkra	_	Target;Source[13]	42-25[21];42-44	false[13]	4[13]	
+42-40	3504-3507	och	_	_	_	_	_	
+42-41	3508-3510	ha	_	_	_	_	_	
+42-42	3511-3518	bevisad	_	_	_	_	_	
+42-43	3519-3525	effekt	_	_	_	_	_	
+42-44	3525-3526	.	*	_	_	_	_	
+
+#Text=Därför måste myndigheterna ge tydliga besked om vad som ska gälla.
+43-1	3527-3533	Därför	_	_	_	_	_	
+43-2	3534-3539	måste	_	_	_	_	_	
+43-3	3540-3553	myndigheterna	_	_	_	_	_	
+43-4	3554-3556	ge	_	_	_	_	_	
+43-5	3557-3564	tydliga	_	Target	43-6	false	4	
+43-6	3565-3571	besked	*	_	_	_	_	
+43-7	3572-3574	om	_	_	_	_	_	
+43-8	3575-3578	vad	_	_	_	_	_	
+43-9	3579-3582	som	_	_	_	_	_	
+43-10	3583-3586	ska	_	_	_	_	_	
+43-11	3587-3592	gälla	_	_	_	_	_	
+43-12	3592-3593	.	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3595-3596	#	_	_	_	_	_	
+44-2	3596-3597	P	_	_	_	_	_	
+44-3	3598-3601	IMM	_	_	_	_	_	
+44-4	3601-3602	.	_	_	_	_	_	
+
+#Text=Anders Blanck.
+45-1	3604-3610	Anders	_	_	_	_	_	
+45-2	3611-3617	Blanck	_	_	_	_	_	
+45-3	3617-3618	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3620-3621	#	_	_	_	_	_	
+46-2	3621-3622	P	_	_	_	_	_	
+46-3	3623-3626	IMM	_	_	_	_	_	
+46-4	3626-3627	.	_	_	_	_	_	
+
+#Text=vd LIF – de forskande läkemedelsföretagen.
+47-1	3629-3631	vd	_	_	_	_	_	
+47-2	3632-3635	LIF	_	_	_	_	_	
+47-3	3636-3637	–	_	_	_	_	_	
+47-4	3638-3640	de	_	_	_	_	_	
+47-5	3641-3650	forskande	_	_	_	_	_	
+47-6	3651-3670	läkemedelsföretagen	_	_	_	_	_	
+47-7	3670-3671	.	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	3673-3674	#	_	_	_	_	_	
+48-2	3674-3675	P	_	_	_	_	_	
+48-3	3676-3679	IMM	_	_	_	_	_	
+48-4	3679-3680	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+49-1	3682-3690	Redaktör	_	_	_	_	_	
+49-2	3690-3691	:	_	_	_	_	_	
+49-3	3692-3698	Carina	_	_	_	_	_	
+49-4	3699-3707	Stensson	_	_	_	_	_	
+49-5	3707-3708	,	_	_	_	_	_	
+49-6	3709-3719	Biträdande	_	_	_	_	_	
+49-7	3720-3728	redaktör	_	_	_	_	_	
+49-8	3728-3729	:	_	_	_	_	_	
+49-9	3730-3735	Björn	_	_	_	_	_	
+49-10	3736-3742	Jorner	_	_	_	_	_	
+49-11	3742-3743	,	_	_	_	_	_	
+49-12	3744-3748	Mejl	_	_	_	_	_	
+49-13	3748-3749	:	_	_	_	_	_	
+49-14	3750-3756	debatt	_	_	_	_	_	
+49-15	3756-3757	@	_	_	_	_	_	
+49-16	3757-3763	svd.se	_	_	_	_	_	
+49-17	3763-3764	,	_	_	_	_	_	
+49-18	3765-3778	Telefonnummer	_	_	_	_	_	
+49-19	3778-3779	:	_	_	_	_	_	
+49-20	3780-3782	08	_	_	_	_	_	
+49-21	3782-3783	-	_	_	_	_	_	
+49-22	3783-3789	135149	_	_	_	_	_	
+49-23	3789-3790	,	_	_	_	_	_	
+49-24	3791-3798	Twitter	_	_	_	_	_	
+49-25	3798-3799	:	_	_	_	_	_	
+49-26	3800-3801	@	_	_	_	_	_	
+49-27	3801-3810	SvDDebatt	_	_	_	_	_	
+49-28	3810-3811	,	_	_	_	_	_	
+49-29	3812-3820	Facebook	_	_	_	_	_	
+49-30	3820-3821	:	_	_	_	_	_	
+49-31	3822-3825	SvD	_	_	_	_	_	
+49-32	3826-3832	Debatt	_	_	_	_	_	
+49-33	3832-3833	.	_	_	_	_	_	

@@ -1,0 +1,107 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	2[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[2]	_	false[2]	3[2]	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Sverige begär flyktinghjälp av EU !
+3-1	18-25	Sverige	_	_	_	_	_	
+3-2	26-31	begär	_	_	_	_	_	
+3-3	32-45	flyktinghjälp	_	_	_	_	_	
+3-4	46-48	av	_	_	_	_	_	
+3-5	49-51	EU	_	_	_	_	_	
+3-6	52-53	!	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	55-56	#	_	_	_	_	_	
+4-2	56-57	P	_	_	_	_	_	
+4-3	58-61	IMM	_	_	_	_	_	
+4-4	61-62	.	_	_	_	_	_	
+
+#Text=men alltså seriöst.
+5-1	64-67	men	_	_	_	_	_	
+5-2	68-74	alltså	_	_	_	_	_	
+5-3	75-82	seriöst	_	_	_	_	_	
+5-4	82-83	.	_	_	_	false	2	
+
+#Text=#P IMM.
+6-1	85-86	#	_	_[3]	_	false[3]	2[3]	
+6-2	86-87	P	_	_[3]	_	false[3]	2[3]	
+6-3	88-91	IMM	_	_[3]	_	false[3]	2[3]	
+6-4	91-92	.	_	_	_	_	_	
+
+#Text=är det inte fel fel fel av Sverige att ha öppna hjärtan och öppna gränser när till och med statsministern ber om hjälp för att klara av flyktingsituationen.
+7-1	94-96	är	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-2	97-100	det	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-3	101-105	inte	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-4	106-109	fel	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-5	110-113	fel	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-6	114-117	fel	_	Target[4]	7-9[7]	false[4]	1[4]	
+7-7	118-120	av	_	_	_	_	_	
+7-8	121-128	Sverige	_	_	_	_	_	
+7-9	129-132	att	*[7]	_	_	_	_	
+7-10	133-135	ha	*[7]	_	_	_	_	
+7-11	136-141	öppna	*[7]	_	_	_	_	
+7-12	142-149	hjärtan	*[7]	_	_	_	_	
+7-13	150-153	och	*[7]	_	_	_	_	
+7-14	154-159	öppna	*[7]	_	_	_	_	
+7-15	160-167	gränser	*[7]	_	_	_	_	
+7-16	168-171	när	*[7]	_	_	_	_	
+7-17	172-176	till	*[7]	_	_	_	_	
+7-18	177-180	och	*[7]	_	_	_	_	
+7-19	181-184	med	*[7]	_	_	_	_	
+7-20	185-199	statsministern	*[7]	_	_	_	_	
+7-21	200-203	ber	*[7]	_	_	_	_	
+7-22	204-206	om	*[7]	_	_	_	_	
+7-23	207-212	hjälp	*[7]	_	_	_	_	
+7-24	213-216	för	*[7]	_	_	_	_	
+7-25	217-220	att	*[7]	_	_	_	_	
+7-26	221-226	klara	*[7]	_	_	_	_	
+7-27	227-229	av	*[7]	_	_	_	_	
+7-28	230-249	flyktingsituationen	*[7]	_	_	_	_	
+7-29	249-250	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	252-253	#	_	_[5]	_	false[5]	2[5]	
+8-2	253-254	P	_	_[5]	_	false[5]	2[5]	
+8-3	255-258	IMM	_	_[5]	_	false[5]	2[5]	
+8-4	258-259	.	_	_	_	_	_	
+
+#Text=men tanke på hur svalt intresset tidigare har varit från andra länder - tror ni att EU nu kommer att skynda till Sveriges undsättning ?.
+9-1	261-264	men	_	_	_	_	_	
+9-2	265-270	tanke	_	_	_	_	_	
+9-3	271-273	på	_	_	_	_	_	
+9-4	274-277	hur	_	_	_	_	_	
+9-5	278-283	svalt	_	Source[6]	9-11[8]	false[6]	2[6]	
+9-6	284-293	intresset	_	Source[6]	9-11[8]	false[6]	2[6]	
+9-7	294-302	tidigare	_	Source[6]	9-11[8]	false[6]	2[6]	
+9-8	303-306	har	_	Source[6]	9-11[8]	false[6]	2[6]	
+9-9	307-312	varit	_	Source[6]	9-11[8]	false[6]	2[6]	
+9-10	313-317	från	_	_	_	_	_	
+9-11	318-323	andra	*[8]	_	_	_	_	
+9-12	324-330	länder	*[8]	_	_	_	_	
+9-13	331-332	-	_	_	_	_	_	
+9-14	333-337	tror	_	_	_	_	_	
+9-15	338-340	ni	_	_	_	_	_	
+9-16	341-344	att	_	_	_	_	_	
+9-17	345-347	EU	_	_	_	_	_	
+9-18	348-350	nu	_	_	_	_	_	
+9-19	351-357	kommer	_	_	_	_	_	
+9-20	358-361	att	_	_	_	_	_	
+9-21	362-368	skynda	_	_	_	_	_	
+9-22	369-373	till	_	_	_	_	_	
+9-23	374-382	Sveriges	_	_	_	_	_	
+9-24	383-394	undsättning	_	_	_	_	_	
+9-25	395-396	?	_	_	_	_	_	
+9-26	396-397	.	_	_	_	false	2	

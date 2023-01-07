@@ -1,0 +1,624 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Alla partier ska  behandlas lika.
+3-1	18-22	Alla	*[18]	_	_	_	_	_	
+3-2	23-30	partier	*[18]	_	_	_	_	_	
+3-3	31-34	ska	_	Target[1]	3-1[18]	false[1]	4[1]	_	
+3-4	36-45	behandlas	_	Target[1]	3-1[18]	false[1]	4[1]	_	
+3-5	46-50	lika	_	Target[1]	3-1[18]	false[1]	4[1]	_	
+3-6	50-51	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	_	_	_	
+4-4	59-60	.	_	_	_	_	_	_	
+
+#Text=Företrädare för Rädda Barnens Ungdomsförbund skriver tillsammans med två elever att Sverigedemokraternas ungdomsförbund ”förgiftar klimatet” genom de skolbesök vi gör och att vi därför borde förbjudas att genomföra skolbesök.
+5-1	62-73	Företrädare	*[19]	_	_	_	_	_	
+5-2	74-77	för	*[19]	_	_	_	_	_	
+5-3	78-83	Rädda	*[19]	_	_	_	_	_	
+5-4	84-91	Barnens	*[19]	_	_	_	_	_	
+5-5	92-106	Ungdomsförbund	*[19]	_	_	_	_	_	
+5-6	107-114	skriver	_	_	_	_	_	_	
+5-7	115-126	tillsammans	_	_	_	_	_	_	
+5-8	127-130	med	_	_	_	_	_	_	
+5-9	131-134	två	_	_	_	_	_	_	
+5-10	135-141	elever	_	_	_	_	_	_	
+5-11	142-145	att	_	_	_	_	_	_	
+5-12	146-166	Sverigedemokraternas	*[20]	_	_	_	_	_	
+5-13	167-181	ungdomsförbund	*[20]	_	_	_	_	_	
+5-14	182-183	”	_	_	_	_	_	_	
+5-15	183-192	förgiftar	_	Source;Target[2]	5-1[19];5-12[20]	false[2]	1[2]	_	
+5-16	193-201	klimatet	_	Source;Target[2]	5-1[19];5-12[20]	false[2]	1[2]	_	
+5-17	201-202	”	_	_	_	_	_	_	
+5-18	203-208	genom	_	_	_	_	_	_	
+5-19	209-211	de	_	_	_	_	_	_	
+5-20	212-221	skolbesök	_	_	_	_	_	_	
+5-21	222-224	vi	_	_	_	_	_	_	
+5-22	225-228	gör	_	_	_	_	_	_	
+5-23	229-232	och	_	_	_	_	_	_	
+5-24	233-236	att	_	_	_	_	_	_	
+5-25	237-239	vi	_	_	_	_	_	_	
+5-26	240-246	därför	_	_	_	_	_	_	
+5-27	247-252	borde	_	Target;Source[3]	5-30[21];5-1[19]	false[3]	2[3]	_	
+5-28	253-262	förbjudas	_	Target;Source[3]	5-30[21];5-1[19]	false[3]	2[3]	_	
+5-29	263-266	att	_	_	_	_	_	_	
+5-30	267-276	genomföra	*[21]	_	_	_	_	_	
+5-31	277-286	skolbesök	*[21]	_	_	_	_	_	
+5-32	286-287	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	289-290	#	_	_	_	_	_	_	
+6-2	290-291	P	_	_	_	_	_	_	
+6-3	292-295	IMM	_	_	_	_	_	_	
+6-4	295-296	.	_	_	_	_	_	_	
+
+#Text=Det vittnar om en sorglig och intolerant syn på den yttrandefrihet vi gemensamt borde hålla högt, oavsett vilket parti man sympatiserar med.
+7-1	298-301	Det	_	_	_	_	_	_	
+7-2	302-309	vittnar	_	_	_	_	_	_	
+7-3	310-312	om	_	_	_	_	_	_	
+7-4	313-315	en	_	_	_	_	_	_	
+7-5	316-323	sorglig	_	Target[4]	7-8	false[4]	2[4]	_	
+7-6	324-327	och	_	Target[4]	7-8	false[4]	2[4]	_	
+7-7	328-338	intolerant	_	Target[4]	7-8	false[4]	2[4]	_	
+7-8	339-342	syn	*	_	_	_	_	_	
+7-9	343-345	på	_	_	_	_	_	_	
+7-10	346-349	den	_	_	_	_	_	_	
+7-11	350-364	yttrandefrihet	*	_	_	_	_	_	
+7-12	365-367	vi	_	_	_	_	_	_	
+7-13	368-377	gemensamt	_	_	_	_	_	_	
+7-14	378-383	borde	_	Target[5]	7-11	false[5]	4[5]	_	
+7-15	384-389	hålla	_	Target[5]	7-11	false[5]	4[5]	_	
+7-16	390-394	högt	_	Target[5]	7-11	false[5]	4[5]	_	
+7-17	394-395	,	_	_	_	_	_	_	
+7-18	396-403	oavsett	_	_	_	_	_	_	
+7-19	404-410	vilket	_	_	_	_	_	_	
+7-20	411-416	parti	*	_	_	_	_	_	
+7-21	417-420	man	*	_	_	_	_	_	
+7-22	421-433	sympatiserar	_	Source;Target	7-21;7-20	false	4	_	
+7-23	434-437	med	_	_	_	_	_	_	
+7-24	437-438	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	440-441	#	_	_	_	_	_	_	
+8-2	441-442	P	_	_	_	_	_	_	
+8-3	443-446	IMM	_	_	_	_	_	_	
+8-4	446-447	.	_	_	_	_	_	_	
+
+#Text=Det är beklagligt att intoleransen mot andras rätt att uttrycka sina åsikter nu blivit så stark att den torgförs av Rädda Barnens ungdomsförbund, en organisation som kallar sig partipolitiskt obunden och som påstår sig kämpa för att ungas åsikter ska tas på allvar.
+9-1	449-452	Det	_	_	_	_	_	_	
+9-2	453-455	är	_	_	_	_	_	_	
+9-3	456-466	beklagligt	_	Target	9-5[22]	false	2	_	
+9-4	467-470	att	_	_	_	_	_	_	
+9-5	471-483	intoleransen	*[22]	_	_	_	_	_	
+9-6	484-487	mot	*[22]	_	_	_	_	_	
+9-7	488-494	andras	*[22]	_	_	_	_	_	
+9-8	495-499	rätt	*[22]	_	_	_	_	_	
+9-9	500-503	att	*[22]	_	_	_	_	_	
+9-10	504-512	uttrycka	*[22]	_	_	_	_	_	
+9-11	513-517	sina	*[22]	_	_	_	_	_	
+9-12	518-525	åsikter	*[22]	_	_	_	_	_	
+9-13	526-528	nu	*[22]	_	_	_	_	_	
+9-14	529-535	blivit	*[22]	_	_	_	_	_	
+9-15	536-538	så	*[22]	_	_	_	_	_	
+9-16	539-544	stark	*[22]	_	_	_	_	_	
+9-17	545-548	att	_	_	_	_	_	_	
+9-18	549-552	den	_	_	_	_	_	_	
+9-19	553-561	torgförs	_	_	_	_	_	_	
+9-20	562-564	av	_	_	_	_	_	_	
+9-21	565-570	Rädda	_	_	_	_	_	_	
+9-22	571-578	Barnens	_	_	_	_	_	_	
+9-23	579-593	ungdomsförbund	_	_	_	_	_	_	
+9-24	593-594	,	_	_	_	_	_	_	
+9-25	595-597	en	_	_	_	_	_	_	
+9-26	598-610	organisation	_	_	_	_	_	_	
+9-27	611-614	som	_	_	_	_	_	_	
+9-28	615-621	kallar	_	_	_	_	_	_	
+9-29	622-625	sig	_	_	_	_	_	_	
+9-30	626-640	partipolitiskt	_	_	_	_	_	_	
+9-31	641-648	obunden	_	_	_	_	_	_	
+9-32	649-652	och	_	_	_	_	_	_	
+9-33	653-656	som	_	_	_	_	_	_	
+9-34	657-663	påstår	_	_	_	_	_	_	
+9-35	664-667	sig	_	_	_	_	_	_	
+9-36	668-673	kämpa	_	_	_	_	_	_	
+9-37	674-677	för	_	_	_	_	_	_	
+9-38	678-681	att	_	_	_	_	_	_	
+9-39	682-687	ungas	_	_	_	_	_	_	
+9-40	688-695	åsikter	_	_	_	_	_	_	
+9-41	696-699	ska	_	_	_	_	_	_	
+9-42	700-703	tas	_	_	_	_	_	_	
+9-43	704-706	på	_	_	_	_	_	_	
+9-44	707-713	allvar	_	_	_	_	_	_	
+9-45	713-714	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	716-717	#	_	_	_	_	_	_	
+10-2	717-718	P	_	_	_	_	_	_	
+10-3	719-722	IMM	_	_	_	_	_	_	
+10-4	722-723	.	_	_	_	_	_	_	
+
+#Text=Gäller det inte också den stora grupp ungdomar som sympatiserar med SDU?
+11-1	725-731	Gäller	_	_	_	_	_	_	
+11-2	732-735	det	_	_	_	_	_	_	
+11-3	736-740	inte	_	_	_	_	_	_	
+11-4	741-746	också	_	_	_	_	_	_	
+11-5	747-750	den	_	_	_	_	_	_	
+11-6	751-756	stora	_	_	_	_	_	_	
+11-7	757-762	grupp	_	_	_	_	_	_	
+11-8	763-771	ungdomar	*	_	_	_	_	_	
+11-9	772-775	som	_	_	_	_	_	_	
+11-10	776-788	sympatiserar	_	Source;Target	11-8;11-12	false	4	_	
+11-11	789-792	med	_	_	_	_	_	_	
+11-12	793-796	SDU	*	_	_	_	_	_	
+11-13	796-797	?	_	_	_	_	_	_	
+
+#Text=Vi anser att det är självklart att alla ungdomsförbund ska behandlas lika under den valrörelse som nu är igång.
+12-1	797-799	Vi	_	_	_	_	_	_	
+12-2	800-805	anser	_	_	_	_	_	_	
+12-3	806-809	att	_	_	_	_	_	_	
+12-4	810-813	det	_	_	_	_	_	_	
+12-5	814-816	är	_	_	_	_	_	_	
+12-6	817-827	självklart	_	Target	12-8[23]	false	4	_	
+12-7	828-831	att	_	_	_	_	_	_	
+12-8	832-836	alla	*[23]	_	_	_	_	_	
+12-9	837-851	ungdomsförbund	*[23]	_	_	_	_	_	
+12-10	852-855	ska	*[23]	_	_	_	_	_	
+12-11	856-865	behandlas	*[23]	_	_	_	_	_	
+12-12	866-870	lika	*[23]	_	_	_	_	_	
+12-13	871-876	under	_	_	_	_	_	_	
+12-14	877-880	den	_	_	_	_	_	_	
+12-15	881-891	valrörelse	_	_	_	_	_	_	
+12-16	892-895	som	_	_	_	_	_	_	
+12-17	896-898	nu	_	_	_	_	_	_	
+12-18	899-901	är	_	_	_	_	_	_	
+12-19	902-907	igång	_	_	_	_	_	_	
+12-20	907-908	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	910-911	#	_	_	_	_	_	_	
+13-2	911-912	P	_	_	_	_	_	_	
+13-3	913-916	IMM	_	_	_	_	_	_	
+13-4	916-917	.	_	_	_	_	_	_	
+
+#Text=Med vilken rätt ska vi stängas ute från skolor eller se våra företrädare bli sparkade från lärartjänster, samtidigt som andra ungdomsförbund aldrig skulle behöva tolerera något liknande?
+14-1	919-922	Med	_	_	_	_	_	_	
+14-2	923-929	vilken	_	_	_	_	_	_	
+14-3	930-934	rätt	_	_	_	_	_	_	
+14-4	935-938	ska	_	_	_	_	_	_	
+14-5	939-941	vi	_	_	_	_	_	_	
+14-6	942-949	stängas	_	_	_	_	_	_	
+14-7	950-953	ute	_	_	_	_	_	_	
+14-8	954-958	från	_	_	_	_	_	_	
+14-9	959-965	skolor	_	_	_	_	_	_	
+14-10	966-971	eller	_	_	_	_	_	_	
+14-11	972-974	se	_	_	_	_	_	_	
+14-12	975-979	våra	_	_	_	_	_	_	
+14-13	980-991	företrädare	_	_	_	_	_	_	
+14-14	992-995	bli	_	_	_	_	_	_	
+14-15	996-1004	sparkade	_	_	_	_	_	_	
+14-16	1005-1009	från	_	_	_	_	_	_	
+14-17	1010-1023	lärartjänster	_	_	_	_	_	_	
+14-18	1023-1024	,	_	_	_	_	_	_	
+14-19	1025-1034	samtidigt	_	_	_	_	_	_	
+14-20	1035-1038	som	_	_	_	_	_	_	
+14-21	1039-1044	andra	*[24]	_	_	_	_	_	
+14-22	1045-1059	ungdomsförbund	*[24]	_	_	_	_	_	
+14-23	1060-1066	aldrig	_	Target;Source[6]	14-27[25];14-21[24]	false[6]	3[6]	_	
+14-24	1067-1073	skulle	_	Target;Source[6]	14-27[25];14-21[24]	false[6]	3[6]	_	
+14-25	1074-1080	behöva	_	Target;Source[6]	14-27[25];14-21[24]	false[6]	3[6]	_	
+14-26	1081-1089	tolerera	_	Target;Source[6]	14-27[25];14-21[24]	false[6]	3[6]	_	
+14-27	1090-1095	något	*[25]	_	_	_	_	_	
+14-28	1096-1104	liknande	*[25]	_	_	_	_	_	
+14-29	1104-1105	?	_	_	_	_	_	_	
+
+#Text=Självklart har alla elever rätt att känna sig trygga i skolan.
+15-1	1105-1115	Självklart	_	_	_	_	_	_	
+15-2	1116-1119	har	_	_	_	false	4	_	
+15-3	1120-1124	alla	*[26]	_	_	_	_	_	
+15-4	1125-1131	elever	*[26]	_	_	_	_	_	
+15-5	1132-1136	rätt	_	Target;Source	15-7[27];15-3[26]	false	4	15-2	
+15-6	1137-1140	att	_	_	_	_	_	_	
+15-7	1141-1146	känna	*[27]	_	_	_	_	_	
+15-8	1147-1150	sig	*[27]	_	_	_	_	_	
+15-9	1151-1157	trygga	*[27]	_	_	_	_	_	
+15-10	1158-1159	i	*[27]	_	_	_	_	_	
+15-11	1160-1166	skolan	*[27]	_	_	_	_	_	
+15-12	1166-1167	.	_	_	_	_	_	_	
+
+#Text=Den tryggheten gäller även elever som sympatiserar med oss.
+16-1	1168-1171	Den	_	_	_	_	_	_	
+16-2	1172-1182	tryggheten	_	_	_	_	_	_	
+16-3	1183-1189	gäller	_	_	_	_	_	_	
+16-4	1190-1194	även	_	_	_	_	_	_	
+16-5	1195-1201	elever	*	_	_	_	_	_	
+16-6	1202-1205	som	_	_	_	_	_	_	
+16-7	1206-1218	sympatiserar	_	Source;Target	16-5;16-9	false	4	_	
+16-8	1219-1222	med	_	_	_	_	_	_	
+16-9	1223-1226	oss	*	_	_	_	_	_	
+16-10	1226-1227	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1229-1230	#	_	_	_	_	_	_	
+17-2	1230-1231	P	_	_	_	_	_	_	
+17-3	1232-1235	IMM	_	_	_	_	_	_	
+17-4	1235-1236	.	_	_	_	_	_	_	
+
+#Text=Vilken signal sänder ni till dessa elever med ert hätska och avhumaniserande språkbruk om att vi ”förgiftar” tillvaron?.
+18-1	1238-1244	Vilken	_	_	_	_	_	_	
+18-2	1245-1251	signal	_	_	_	_	_	_	
+18-3	1252-1258	sänder	_	_	_	_	_	_	
+18-4	1259-1261	ni	*	_	_	_	_	_	
+18-5	1262-1266	till	_	_	_	_	_	_	
+18-6	1267-1272	dessa	_	_	_	_	_	_	
+18-7	1273-1279	elever	_	_	_	_	_	_	
+18-8	1280-1283	med	_	_	_	_	_	_	
+18-9	1284-1287	ert	_	_	_	_	_	_	
+18-10	1288-1294	hätska	_	Target[7]	18-13	false[7]	1[7]	_	
+18-11	1295-1298	och	_	Target[7]	18-13	false[7]	1[7]	_	
+18-12	1299-1314	avhumaniserande	_	Target[7]	18-13	false[7]	1[7]	_	
+18-13	1315-1324	språkbruk	*	_	_	_	_	_	
+18-14	1325-1327	om	_	_	_	_	_	_	
+18-15	1328-1331	att	_	_	_	_	_	_	
+18-16	1332-1334	vi	*	_	_	_	_	_	
+18-17	1335-1336	”	_	_	_	_	_	_	
+18-18	1336-1345	förgiftar	_	Source;Target	18-4;18-16	false	1	_	
+18-19	1345-1346	”	_	_	_	_	_	_	
+18-20	1347-1356	tillvaron	_	_	_	_	_	_	
+18-21	1356-1357	?	_	_	_	_	_	_	
+18-22	1357-1358	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1360-1361	#	_	_	_	_	_	_	
+19-2	1361-1362	P	_	_	_	_	_	_	
+19-3	1363-1366	IMM	_	_	_	_	_	_	
+19-4	1366-1367	.	_	_	_	_	_	_	
+
+#Text=I förra skolvalet fick vi 13% av rösterna och inför höstens skolval är vårt mål att bli största parti.
+20-1	1369-1370	I	_	_	_	_	_	_	
+20-2	1371-1376	förra	_	_	_	_	_	_	
+20-3	1377-1386	skolvalet	_	_	_	_	_	_	
+20-4	1387-1391	fick	_	_	_	_	_	_	
+20-5	1392-1394	vi	_	_	_	_	_	_	
+20-6	1395-1398	13%	_	_	_	_	_	_	
+20-7	1399-1401	av	_	_	_	_	_	_	
+20-8	1402-1410	rösterna	_	_	_	_	_	_	
+20-9	1411-1414	och	_	_	_	_	_	_	
+20-10	1415-1420	inför	_	_	_	_	_	_	
+20-11	1421-1428	höstens	_	_	_	_	_	_	
+20-12	1429-1436	skolval	_	_	_	_	_	_	
+20-13	1437-1439	är	_	_	_	_	_	_	
+20-14	1440-1444	vårt	_	_	_	_	_	_	
+20-15	1445-1448	mål	_	_	_	_	_	_	
+20-16	1449-1452	att	_	_	_	_	_	_	
+20-17	1453-1456	bli	_	_	_	_	_	_	
+20-18	1457-1464	största	_	_	_	_	_	_	
+20-19	1465-1470	parti	_	_	_	_	_	_	
+20-20	1470-1471	.	_	_	_	_	_	_	
+
+#Text=Vår politik går hem hos allt fler människor, både i skolan och i samhället i stort.
+21-1	1472-1475	Vår	*[28]	_	_	_	_	_	
+21-2	1476-1483	politik	*[28]	_	_	_	_	_	
+21-3	1484-1487	går	_	Target;Source[8]	21-1[28];21-6[29]	false[8]	4[8]	_	
+21-4	1488-1491	hem	_	Target;Source[8]	21-1[28];21-6[29]	false[8]	4[8]	_	
+21-5	1492-1495	hos	_	_	_	_	_	_	
+21-6	1496-1500	allt	*[29]	_	_	_	_	_	
+21-7	1501-1505	fler	*[29]	_	_	_	_	_	
+21-8	1506-1515	människor	*[29]	_	_	_	_	_	
+21-9	1515-1516	,	_	_	_	_	_	_	
+21-10	1517-1521	både	_	_	_	_	_	_	
+21-11	1522-1523	i	_	_	_	_	_	_	
+21-12	1524-1530	skolan	_	_	_	_	_	_	
+21-13	1531-1534	och	_	_	_	_	_	_	
+21-14	1535-1536	i	_	_	_	_	_	_	
+21-15	1537-1546	samhället	_	_	_	_	_	_	
+21-16	1547-1548	i	_	_	_	_	_	_	
+21-17	1549-1554	stort	_	_	_	_	_	_	
+21-18	1554-1555	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1557-1558	#	_	_	_	_	_	_	
+22-2	1558-1559	P	_	_	_	_	_	_	
+22-3	1560-1563	IMM	_	_	_	_	_	_	
+22-4	1563-1564	.	_	_	_	_	_	_	
+
+#Text=Skolan ska givetvis se till att spegla samhället i den mån det är möjligt, och där ingår således att våra åsikter tillåts spridas precis som alla andra partiers.
+23-1	1566-1572	Skolan	_	_	_	_	_	_	
+23-2	1573-1576	ska	_	_	_	_	_	_	
+23-3	1577-1585	givetvis	_	_	_	_	_	_	
+23-4	1586-1588	se	_	_	_	_	_	_	
+23-5	1589-1593	till	_	_	_	_	_	_	
+23-6	1594-1597	att	_	_	_	_	_	_	
+23-7	1598-1604	spegla	_	_	_	_	_	_	
+23-8	1605-1614	samhället	_	_	_	_	_	_	
+23-9	1615-1616	i	_	_	_	_	_	_	
+23-10	1617-1620	den	_	_	_	_	_	_	
+23-11	1621-1624	mån	_	_	_	_	_	_	
+23-12	1625-1628	det	_	_	_	_	_	_	
+23-13	1629-1631	är	_	_	_	_	_	_	
+23-14	1632-1639	möjligt	_	_	_	_	_	_	
+23-15	1639-1640	,	_	_	_	_	_	_	
+23-16	1641-1644	och	_	_	_	_	_	_	
+23-17	1645-1648	där	_	_	_	_	_	_	
+23-18	1649-1654	ingår	_	_	_	_	_	_	
+23-19	1655-1662	således	_	_	_	_	_	_	
+23-20	1663-1666	att	_	_	_	_	_	_	
+23-21	1667-1671	våra	*[30]	_	_	_	_	_	
+23-22	1672-1679	åsikter	*[30]	_	_	_	_	_	
+23-23	1680-1687	tillåts	_	Target[9]	23-21[30]	false[9]	4[9]	_	
+23-24	1688-1695	spridas	_	Target[9]	23-21[30]	false[9]	4[9]	_	
+23-25	1696-1702	precis	_	_	_	_	_	_	
+23-26	1703-1706	som	_	_	_	_	_	_	
+23-27	1707-1711	alla	_	_	_	_	_	_	
+23-28	1712-1717	andra	_	_	_	_	_	_	
+23-29	1718-1726	partiers	_	_	_	_	_	_	
+23-30	1726-1727	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1729-1730	#	_	_	_	_	_	_	
+24-2	1730-1731	P	_	_[10]	_	false[10]	2[10]	_	
+24-3	1732-1735	IMM	_	_[10]	_	false[10]	2[10]	_	
+24-4	1735-1736	.	_	_	_	_	_	_	
+
+#Text=Att som artikelförfattarna grötmyndigt uttala sig om trygghet, skolans sociala klimat och demokrati är bara ett genomskinligt försök att dölja vad det egentligen handlar om: vänsterungdomar som vill tysta en för många människor välkommen debatt om den destruktiva massinvandringen.Lyckligtvis har Skolverket varit tydliga med att skolans demokratiuppdrag är viktigt och att alla partier ska behandlas lika.
+25-1	1738-1741	Att	_	_	_	_	_	_	
+25-2	1742-1745	som	_	_	_	_	_	_	
+25-3	1746-1764	artikelförfattarna	_	_	_	_	_	_	
+25-4	1765-1776	grötmyndigt	*	Target	25-4	false	2	_	
+25-5	1777-1783	uttala	_	_	_	_	_	_	
+25-6	1784-1787	sig	_	_	_	_	_	_	
+25-7	1788-1790	om	_	_	_	_	_	_	
+25-8	1791-1799	trygghet	_	_	_	_	_	_	
+25-9	1799-1800	,	_	_	_	_	_	_	
+25-10	1801-1808	skolans	_	_	_	_	_	_	
+25-11	1809-1816	sociala	_	_	_	_	_	_	
+25-12	1817-1823	klimat	_	_	_	_	_	_	
+25-13	1824-1827	och	_	_	_	_	_	_	
+25-14	1828-1837	demokrati	_	_	_	_	_	_	
+25-15	1838-1840	är	_	_	_	_	_	_	
+25-16	1841-1845	bara	_	_	_	_	_	_	
+25-17	1846-1849	ett	_	_	_	_	_	_	
+25-18	1850-1863	genomskinligt	_	Target[11]	25-21[31]	false[11]	2[11]	_	
+25-19	1864-1870	försök	_	Target[11]	25-21[31]	false[11]	2[11]	_	
+25-20	1871-1874	att	_	_	_	_	_	_	
+25-21	1875-1880	dölja	*[31]	_	_	_	_	_	
+25-22	1881-1884	vad	*[31]	_	_	_	_	_	
+25-23	1885-1888	det	*[31]	_	_	_	_	_	
+25-24	1889-1899	egentligen	*[31]	_	_	_	_	_	
+25-25	1900-1907	handlar	*[31]	_	_	_	_	_	
+25-26	1908-1910	om	*[31]	_	_	_	_	_	
+25-27	1910-1911	:	_	_	_	_	_	_	
+25-28	1912-1927	vänsterungdomar	*	_	_	_	_	_	
+25-29	1928-1931	som	_	_	_	_	_	_	
+25-30	1932-1936	vill	_	Target[12]	25-28	false[12]	2[12]	_	
+25-31	1937-1942	tysta	_	Target[12]	25-28	false[12]	2[12]	_	
+25-32	1943-1945	en	_	_	_	_	_	_	
+25-33	1946-1949	för	_	_	_	_	_	_	
+25-34	1950-1955	många	*[32]	_	_	_	_	_	
+25-35	1956-1965	människor	*[32]	_	_	_	_	_	
+25-36	1966-1975	välkommen	_	Source;Target	25-34[32];25-37	false	4	_	
+25-37	1976-1982	debatt	*	_	_	_	_	_	
+25-38	1983-1985	om	_	_	_	_	_	_	
+25-39	1986-1989	den	_	_	_	_	_	_	
+25-40	1990-2001	destruktiva	_	Target	25-41	false	2	_	
+25-41	2002-2030	massinvandringen.Lyckligtvis	*	_	_	_	_	_	
+25-42	2031-2034	har	_	_	_	_	_	_	
+25-43	2035-2045	Skolverket	*	_	_	_	_	_	
+25-44	2046-2051	varit	_	_	_	_	_	_	
+25-45	2052-2059	tydliga	_	_	_	_	_	_	
+25-46	2060-2063	med	_	_	_	_	_	_	
+25-47	2064-2067	att	_	_	_	_	_	_	
+25-48	2068-2075	skolans	*[33]	_	_	_	_	_	
+25-49	2076-2092	demokratiuppdrag	*[33]	_	_	_	_	_	
+25-50	2093-2095	är	_	Source;Target[13]	25-43;25-48[33]	false[13]	4[13]	_	
+25-51	2096-2103	viktigt	_	Source;Target[13]	25-43;25-48[33]	false[13]	4[13]	_	
+25-52	2104-2107	och	_	_	_	_	_	_	
+25-53	2108-2111	att	_	_	_	_	_	_	
+25-54	2112-2116	alla	_	_	_	_	_	_	
+25-55	2117-2124	partier	_	_	_	_	_	_	
+25-56	2125-2128	ska	_	_	_	_	_	_	
+25-57	2129-2138	behandlas	_	_	_	_	_	_	
+25-58	2139-2143	lika	_	_	_	_	_	_	
+25-59	2143-2144	.	_	_	_	_	_	_	
+
+#Text=Det innebär att vi under de kommande sex månaderna kommer att kunna besöka otaliga skolor över hela landet.
+26-1	2145-2148	Det	_	_	_	_	_	_	
+26-2	2149-2156	innebär	_	_	_	_	_	_	
+26-3	2157-2160	att	_	_	_	_	_	_	
+26-4	2161-2163	vi	_	_	_	_	_	_	
+26-5	2164-2169	under	_	_	_	_	_	_	
+26-6	2170-2172	de	_	_	_	_	_	_	
+26-7	2173-2181	kommande	_	_	_	_	_	_	
+26-8	2182-2185	sex	_	_	_	_	_	_	
+26-9	2186-2195	månaderna	_	_	_	_	_	_	
+26-10	2196-2202	kommer	_	_	_	_	_	_	
+26-11	2203-2206	att	_	_	_	_	_	_	
+26-12	2207-2212	kunna	_	_	_	_	_	_	
+26-13	2213-2219	besöka	_	_	_	_	_	_	
+26-14	2220-2227	otaliga	_	_	_	_	_	_	
+26-15	2228-2234	skolor	_	_	_	_	_	_	
+26-16	2235-2239	över	_	_	_	_	_	_	
+26-17	2240-2244	hela	_	_	_	_	_	_	
+26-18	2245-2251	landet	_	_	_	_	_	_	
+26-19	2251-2252	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2254-2255	#	_	_	_	_	_	_	
+27-2	2255-2256	P	_	_	_	_	_	_	
+27-3	2257-2260	IMM	_	_	_	_	_	_	
+27-4	2260-2261	.	_	_	_	_	_	_	
+
+#Text=Då ges vi också möjlighet att presentera vår politik och våra företrädare direkt till elever.
+28-1	2263-2265	Då	_	_	_	_	_	_	
+28-2	2266-2269	ges	_	_	_	false	4	_	
+28-3	2270-2272	vi	_	_	_	_	_	_	
+28-4	2273-2278	också	_	_	_	_	_	_	
+28-5	2279-2288	möjlighet	_	Target	28-7[34]	false	4	28-2	
+28-6	2289-2292	att	_	_	_	_	_	_	
+28-7	2293-2303	presentera	*[34]	_	_	_	_	_	
+28-8	2304-2307	vår	*[34]	_	_	_	_	_	
+28-9	2308-2315	politik	*[34]	_	_	_	_	_	
+28-10	2316-2319	och	_	_	_	_	_	_	
+28-11	2320-2324	våra	_	_	_	_	_	_	
+28-12	2325-2336	företrädare	_	_	_	_	_	_	
+28-13	2337-2343	direkt	_	_	_	_	_	_	
+28-14	2344-2348	till	_	_	_	_	_	_	
+28-15	2349-2355	elever	_	_	_	_	_	_	
+28-16	2355-2356	.	_	_	_	_	_	_	
+
+#Text=Vi är självklart beredda att ta en saklig debatt med våra politiska motståndare och sedan låta eleverna bedöma vem som har bäst argument.
+29-1	2357-2359	Vi	*	_	_	_	_	_	
+29-2	2360-2362	är	_	_	_	_	_	_	
+29-3	2363-2373	självklart	_	Source;Target[14]	29-1;29-6[35]	false[14]	4[14]	_	
+29-4	2374-2381	beredda	_	Source;Target[14]	29-1;29-6[35]	false[14]	4[14]	_	
+29-5	2382-2385	att	_	_	_	_	_	_	
+29-6	2386-2388	ta	*[35]	_	_	_	_	_	
+29-7	2389-2391	en	*[35]	_	_	_	_	_	
+29-8	2392-2398	saklig	*[35]	_	_	_	_	_	
+29-9	2399-2405	debatt	*[35]	_	_	_	_	_	
+29-10	2406-2409	med	*[35]	_	_	_	_	_	
+29-11	2410-2414	våra	*[35]	_	_	_	_	_	
+29-12	2415-2424	politiska	*[35]	_	_	_	_	_	
+29-13	2425-2436	motståndare	*[35]	_	_	_	_	_	
+29-14	2437-2440	och	_	_	_	_	_	_	
+29-15	2441-2446	sedan	_	_	_	_	_	_	
+29-16	2447-2451	låta	_	_	_	_	_	_	
+29-17	2452-2460	eleverna	*	_	_	_	_	_	
+29-18	2461-2467	bedöma	_	Target;Source	29-19[36];29-17	false	3	_	
+29-19	2468-2471	vem	*[36]	_	_	_	_	_	
+29-20	2472-2475	som	*[36]	_	_	_	_	_	
+29-21	2476-2479	har	*[36]	_	_	_	_	_	
+29-22	2480-2484	bäst	*[36]	_	_	_	_	_	
+29-23	2485-2493	argument	*[36]	_	_	_	_	_	
+29-24	2493-2494	.	_	_	_	_	_	_	
+
+#Text=Vi är övertygade om att elever föredrar öppen och rättvis debatt istället för Rädda Barnens ungdomsförbunds politiska taktik att tillskriva oss åsikter som vi inte har, kasta falska och extrema skällsord på oss, och att därefter kräva att vi totalförbjuds från skolorna.
+30-1	2495-2497	Vi	*	_	_	_	_	_	
+30-2	2498-2500	är	_	Source;Target[15]	30-1;30-6[37]	false[15]	4[15]	_	
+30-3	2501-2511	övertygade	_	Source;Target[15]	30-1;30-6[37]	false[15]	4[15]	_	
+30-4	2512-2514	om	_	_	_	_	_	_	
+30-5	2515-2518	att	_	_	_	_	_	_	
+30-6	2519-2525	elever	*[37]|*[38]	_	_	_	_	_	
+30-7	2526-2534	föredrar	*[37]	Target;Source	30-8[39];30-6[38]	false	4	_	
+30-8	2535-2540	öppen	*[37]|*[39]	_	_	_	_	_	
+30-9	2541-2544	och	*[37]|*[39]	_	_	_	_	_	
+30-10	2545-2552	rättvis	*[37]|*[39]	_	_	_	_	_	
+30-11	2553-2559	debatt	*[37]|*[39]	_	_	_	_	_	
+30-12	2560-2568	istället	_	_	_	_	_	_	
+30-13	2569-2572	för	_	_	_	_	_	_	
+30-14	2573-2578	Rädda	*[40]	_	_	_	_	_	
+30-15	2579-2586	Barnens	*[40]	_	_	_	_	_	
+30-16	2587-2602	ungdomsförbunds	*[40]	_	_	_	_	_	
+30-17	2603-2612	politiska	_	_	_	_	_	_	
+30-18	2613-2619	taktik	_	_	_	_	_	_	
+30-19	2620-2623	att	_	_	_	_	_	_	
+30-20	2624-2634	tillskriva	_	_	_	_	_	_	
+30-21	2635-2638	oss	_	_	_	_	_	_	
+30-22	2639-2646	åsikter	_	_	_	_	_	_	
+30-23	2647-2650	som	_	_	_	_	_	_	
+30-24	2651-2653	vi	_	_	_	_	_	_	
+30-25	2654-2658	inte	_	_	_	_	_	_	
+30-26	2659-2662	har	_	_	_	_	_	_	
+30-27	2662-2663	,	_	_	_	_	_	_	
+30-28	2664-2669	kasta	_	Target[16]	30-14[40]	false[16]	1[16]	_	
+30-29	2670-2676	falska	_	Target[16]	30-14[40]	false[16]	1[16]	_	
+30-30	2677-2680	och	_	Target[16]	30-14[40]	false[16]	1[16]	_	
+30-31	2681-2688	extrema	_	Target[16]	30-14[40]	false[16]	1[16]	_	
+30-32	2689-2698	skällsord	_	Target[16]	30-14[40]	false[16]	1[16]	_	
+30-33	2699-2701	på	_	_	_	_	_	_	
+30-34	2702-2705	oss	_	_	_	_	_	_	
+30-35	2705-2706	,	_	_	_	_	_	_	
+30-36	2707-2710	och	_	_	_	_	_	_	
+30-37	2711-2714	att	_	_	_	_	_	_	
+30-38	2715-2723	därefter	_	_	_	_	_	_	
+30-39	2724-2729	kräva	_	_	_	false	1	_	
+30-40	2730-2733	att	_	_	_	_	_	_	
+30-41	2734-2736	vi	*	_	_	_	_	_	
+30-42	2737-2750	totalförbjuds	_	Source;Target	30-14[40];30-41	false	1	30-39	
+30-43	2751-2755	från	_	_	_	_	_	_	
+30-44	2756-2764	skolorna	_	_	_	_	_	_	
+30-45	2764-2765	.	_	_	_	_	_	_	
+
+#Text=Det är inget annat än ett haveri.
+31-1	2766-2769	Det	*	_	_	_	_	_	
+31-2	2770-2772	är	_	_	_	_	_	_	
+31-3	2773-2778	inget	_	_	_	_	_	_	
+31-4	2779-2784	annat	_	_	_	_	_	_	
+31-5	2785-2787	än	_	_	_	_	_	_	
+31-6	2788-2791	ett	_	Target[17]	31-1	false[17]	2[17]	_	
+31-7	2792-2798	haveri	_	Target[17]	31-1	false[17]	2[17]	_	
+31-8	2798-2799	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2801-2802	#	_	_	_	_	_	_	
+32-2	2802-2803	P	_	_	_	_	_	_	
+32-3	2804-2807	IMM	_	_	_	_	_	_	
+32-4	2807-2808	.	_	_	_	_	_	_	
+
+#Text=Låt oss istället föra en saklig debatt.
+33-1	2810-2813	Låt	_	_	_	_	_	_	
+33-2	2814-2817	oss	_	_	_	_	_	_	
+33-3	2818-2826	istället	_	_	_	_	_	_	
+33-4	2827-2831	föra	_	_	_	_	_	_	
+33-5	2832-2834	en	_	_	_	_	_	_	
+33-6	2835-2841	saklig	_	Target	33-7	false	4	_	
+33-7	2842-2848	debatt	*	_	_	_	_	_	
+33-8	2848-2849	.	_	_	_	_	_	_	
+
+#Text=Vi vill – vill ni?.
+34-1	2850-2852	Vi	_	_	_	_	_	_	
+34-2	2853-2857	vill	_	_	_	_	_	_	
+34-3	2858-2859	–	_	_	_	_	_	_	
+34-4	2860-2864	vill	_	_	_	_	_	_	
+34-5	2865-2867	ni	_	_	_	_	_	_	
+34-6	2867-2868	?	_	_	_	_	_	_	
+34-7	2868-2869	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2871-2872	#	_	_	_	_	_	_	
+35-2	2872-2873	P	_	_	_	_	_	_	
+35-3	2874-2877	IMM	_	_	_	_	_	_	
+35-4	2877-2878	.	_	_	_	_	_	_	
+
+#Text=Gustav KasselstrandAnton Stigermark.
+36-1	2880-2886	Gustav	_	_	_	_	_	_	
+36-2	2887-2904	KasselstrandAnton	_	_	_	_	_	_	
+36-3	2905-2915	Stigermark	_	_	_	_	_	_	
+36-4	2915-2916	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2918-2919	#	_	_	_	_	_	_	
+37-2	2919-2920	P	_	_	_	_	_	_	
+37-3	2921-2924	IMM	_	_	_	_	_	_	
+37-4	2924-2925	.	_	_	_	_	_	_	
+
+#Text=FAKTA.
+38-1	2927-2932	FAKTA	_	_	_	_	_	_	
+38-2	2932-2933	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2935-2936	#	_	_	_	_	_	_	
+39-2	2936-2937	P	_	_	_	_	_	_	
+39-3	2938-2941	IMM	_	_	_	_	_	_	
+39-4	2941-2942	.	_	_	_	_	_	_	
+
+#Text=REN.
+40-1	2944-2947	REN	_	_	_	_	_	_	
+40-2	2947-2948	.	_	_	_	_	_	_	

@@ -1,0 +1,361 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_[1]	_	false[1]	2[1]	_	
+2-2	10-11	T	_	_[1]	_	false[1]	2[1]	_	
+2-3	12-15	IMM	_	_[1]	_	false[1]	2[1]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Varför ser inte vänstern att massimmigrationen är ett kapitalistiskt projekt?
+3-1	18-24	Varför	_	_	_	_	_	_	
+3-2	25-28	ser	_	_	_	_	_	_	
+3-3	29-33	inte	_	_	_	_	_	_	
+3-4	34-42	vänstern	_	_	_	_	_	_	
+3-5	43-46	att	_	_	_	_	_	_	
+3-6	47-64	massimmigrationen	*	Target	3-6	false	2	_	
+3-7	65-67	är	_	_	_	_	_	_	
+3-8	68-71	ett	_	_	_	_	_	_	
+3-9	72-86	kapitalistiskt	_	_	_	_	_	_	
+3-10	87-94	projekt	_	_	_	_	_	_	
+3-11	94-95	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	97-98	#	_	_[2]	_	false[2]	2[2]	_	
+4-2	98-99	P	_	_[2]	_	false[2]	2[2]	_	
+4-3	100-103	IMM	_	_[2]	_	false[2]	2[2]	_	
+4-4	103-104	.	_	_	_	_	_	_	
+
+#Text=Det är ju rätt uppenbart att massimigrationen är ett kapitalistiskt projekt vilket också är förklaringen till varför Reinfeldt var så pigg på att elda på det och också en förklaring till varför M, trots påståenden om motsatsen, inte lyfter ett finger för att få stopp på flödet.
+5-1	106-109	Det	_	_	_	_	_	_	
+5-2	110-112	är	_	_	_	_	_	_	
+5-3	113-115	ju	_	_	_	_	_	_	
+5-4	116-120	rätt	_	Target[3]	5-6[25]	false[3]	2[3]	_	
+5-5	121-130	uppenbart	_	Target[3]	5-6[25]	false[3]	2[3]	_	
+5-6	131-134	att	*[25]	_	_	_	_	_	
+5-7	135-151	massimigrationen	*[25]|*[26]|*[27]	Target	5-7[26]	false	2	5-26[29_27]	
+5-8	152-154	är	*[25]	_	_	_	_	_	
+5-9	155-158	ett	*[25]	_	_	_	_	_	
+5-10	159-173	kapitalistiskt	*[25]	_	_	_	_	_	
+5-11	174-181	projekt	*[25]	_	_	_	_	_	
+5-12	182-188	vilket	_	_	_	_	_	_	
+5-13	189-194	också	_	_	_	_	_	_	
+5-14	195-197	är	_	_	_	_	_	_	
+5-15	198-210	förklaringen	_	_	_	_	_	_	
+5-16	211-215	till	_	_	_	_	_	_	
+5-17	216-222	varför	_	_	_	_	_	_	
+5-18	223-232	Reinfeldt	_	_	_	_	_	_	
+5-19	233-236	var	_	Target[4]	5-23[28]	true[4]	4[4]	_	
+5-20	237-239	så	_	Target[4]	5-23[28]	true[4]	4[4]	_	
+5-21	240-244	pigg	_	Target[4]	5-23[28]	true[4]	4[4]	_	
+5-22	245-247	på	_	Target[4]	5-23[28]	true[4]	4[4]	_	
+5-23	248-251	att	*[28]	_	_	_	_	_	
+5-24	252-256	elda	*[28]	Target[5]	5-26[29]	true[5]	4[5]	_	
+5-25	257-259	på	*[28]	Target[5]	5-26[29]	true[5]	4[5]	_	
+5-26	260-263	det	*[28]|*[29]	_	_	_	_	_	
+5-27	264-267	och	*[28]	_	_	_	_	_	
+5-28	268-273	också	*[28]	_	_	_	_	_	
+5-29	274-276	en	*[28]	_	_	_	_	_	
+5-30	277-287	förklaring	*[28]	_	_	_	_	_	
+5-31	288-292	till	*[28]	_	_	_	_	_	
+5-32	293-299	varför	*[28]	_	_	_	_	_	
+5-33	300-301	M	*[28]	_	_	_	_	_	
+5-34	301-302	,	*[28]	_	_	_	_	_	
+5-35	303-308	trots	*[28]	_	_	_	_	_	
+5-36	309-319	påståenden	*[28]	_	_	_	_	_	
+5-37	320-322	om	*[28]	_	_	_	_	_	
+5-38	323-332	motsatsen	*[28]	_	_	_	_	_	
+5-39	332-333	,	*[28]	_	_	_	_	_	
+5-40	334-338	inte	*[28]	_	_	_	_	_	
+5-41	339-345	lyfter	*[28]	_	_	_	_	_	
+5-42	346-349	ett	*[28]	_	_	_	_	_	
+5-43	350-356	finger	*[28]	_	_	_	_	_	
+5-44	357-360	för	*[28]	_	_	_	_	_	
+5-45	361-364	att	*[28]	_	_	_	_	_	
+5-46	365-367	få	*[28]	Target[6]	5-49[30]	false[6]	2[6]	_	
+5-47	368-373	stopp	*[28]	Target[6]	5-49[30]	false[6]	2[6]	_	
+5-48	374-376	på	*[28]	_	_	_	_	_	
+5-49	377-383	flödet	*[28]|*[30]	_	_	_	_	_	
+5-50	383-384	.	_	_	_	_	_	_	
+
+#Text=De närmaste åren spås vi av bland annat SCB slå alla rekord i immigration.
+6-1	385-387	De	_	_	_	_	_	_	
+6-2	388-396	närmaste	_	_	_	_	_	_	
+6-3	397-401	åren	_	_	_	_	_	_	
+6-4	402-406	spås	_	_	_	_	_	_	
+6-5	407-409	vi	_	_	_	_	_	_	
+6-6	410-412	av	_	_	_	_	_	_	
+6-7	413-418	bland	_	_	_	_	_	_	
+6-8	419-424	annat	_	_	_	_	_	_	
+6-9	425-428	SCB	_	_	_	_	_	_	
+6-10	429-432	slå	*[31]	Target[7]	6-14[32]	true[7]	4[7]	8-1[0_31]	
+6-11	433-437	alla	*[31]	Target[7]	6-14[32]	true[7]	4[7]	_	
+6-12	438-444	rekord	*[31]	Target[7]	6-14[32]	true[7]	4[7]	_	
+6-13	445-446	i	*[31]	_	_	_	_	_	
+6-14	447-458	immigration	*[31]|*[32]	_	_	_	_	_	
+6-15	458-459	.	_	_	_	_	_	_	
+
+#Text=Historiska rekord, det skriver SCB själva till och med.
+7-1	460-470	Historiska	_	_	_	_	_	_	
+7-2	471-477	rekord	_	_	_	_	_	_	
+7-3	477-478	,	_	_	_	_	_	_	
+7-4	479-482	det	_	_	_	_	_	_	
+7-5	483-490	skriver	_	_	_	_	_	_	
+7-6	491-494	SCB	_	_	_	_	_	_	
+7-7	495-501	själva	_	_	_	_	_	_	
+7-8	502-506	till	_	_	_	_	_	_	
+7-9	507-510	och	_	_	_	_	_	_	
+7-10	511-514	med	_	_	_	_	_	_	
+7-11	514-515	.	_	_	_	_	_	_	
+
+#Text=Detta gynnar inte minst M:s mer besuttna väljare.
+8-1	516-521	Detta	*	_	_	_	_	_	
+8-2	522-528	gynnar	_	Target	8-1	false	4	_	
+8-3	529-533	inte	_	_	_	_	_	_	
+8-4	534-539	minst	_	_	_	_	_	_	
+8-5	540-541	M	_	_	_	_	_	_	
+8-6	541-542	:	_	_	_	_	_	_	
+8-7	542-543	s	_	_	_	_	_	_	
+8-8	544-547	mer	_	Target[8]	8-10	false[8]	2[8]	_	
+8-9	548-556	besuttna	_	Target[8]	8-10	false[8]	2[8]	_	
+8-10	557-564	väljare	*	_	_	_	_	_	
+8-11	564-565	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	567-568	#	_	_[9]	_	false[9]	2[9]	_	
+9-2	568-569	P	_	_[9]	_	false[9]	2[9]	_	
+9-3	570-573	IMM	_	_[9]	_	false[9]	2[9]	_	
+9-4	573-574	.	_	_	_	_	_	_	
+
+#Text=Oavsett de långsiktiga konsekvenserna är ju massimmigrationen på kort sikt extremt lönsam för de besuttna i samhället.
+10-1	576-583	Oavsett	_	_	_	_	_	_	
+10-2	584-586	de	_	_	_	_	_	_	
+10-3	587-598	långsiktiga	_	_	_	_	_	_	
+10-4	599-613	konsekvenserna	_	_	_	_	_	_	
+10-5	614-616	är	_	_	_	_	_	_	
+10-6	617-619	ju	_	_	_	_	_	_	
+10-7	620-637	massimmigrationen	*[33]|*[34]	Target	10-7[33]	false	2	_	
+10-8	638-640	på	_	_	_	_	_	_	
+10-9	641-645	kort	_	_	_	_	_	_	
+10-10	646-650	sikt	_	_	_	_	_	_	
+10-11	651-658	extremt	_	Target[10]	10-7[34]	false[10]	5[10]	_	
+10-12	659-665	lönsam	_	Target[10]	10-7[34]	false[10]	5[10]	_	
+10-13	666-669	för	_	_	_	_	_	_	
+10-14	670-672	de	_	_	_	_	_	_	
+10-15	673-681	besuttna	*	Target	10-15	false	2	_	
+10-16	682-683	i	_	_	_	_	_	_	
+10-17	684-693	samhället	_	_	_	_	_	_	
+10-18	693-694	.	_	_	_	_	_	_	
+
+#Text=Ökad befolkning = ökade intäkter från i princip alla marknadssegement: mat, bostäder, bankväsende, kläder, elektronik o.s.v.
+11-1	695-699	Ökad	_	_	_	_	_	_	
+11-2	700-710	befolkning	_	_	_	_	_	_	
+11-3	711-712	=	_	_	_	_	_	_	
+11-4	713-718	ökade	_	_	_	_	_	_	
+11-5	719-727	intäkter	_	_	_	_	_	_	
+11-6	728-732	från	_	_	_	_	_	_	
+11-7	733-734	i	_	_	_	_	_	_	
+11-8	735-742	princip	_	_	_	_	_	_	
+11-9	743-747	alla	_	_	_	_	_	_	
+11-10	748-764	marknadssegement	_	_	_	_	_	_	
+11-11	764-765	:	_	_	_	_	_	_	
+11-12	766-769	mat	_	_	_	_	_	_	
+11-13	769-770	,	_	_	_	_	_	_	
+11-14	771-779	bostäder	_	_	_	_	_	_	
+11-15	779-780	,	_	_	_	_	_	_	
+11-16	781-792	bankväsende	_	_	_	_	_	_	
+11-17	792-793	,	_	_	_	_	_	_	
+11-18	794-800	kläder	_	_	_	_	_	_	
+11-19	800-801	,	_	_	_	_	_	_	
+11-20	802-812	elektronik	_	_	_	_	_	_	
+11-21	813-818	o.s.v	_	_	_	_	_	_	
+11-22	818-819	.	_	_	_	_	_	_	
+
+#Text=Dessutom utgör asylindustrin ett enormt extra tillflöde där enorma belopp flyttas från skattebetalarna till ägarfamiljer och storföretagare.
+12-1	820-828	Dessutom	_	_	_	_	_	_	
+12-2	829-834	utgör	_	_	_	_	_	_	
+12-3	835-848	asylindustrin	*	_	_	_	_	_	
+12-4	849-852	ett	_	_	_	_	_	_	
+12-5	853-859	enormt	_	Target[11]	12-3	false[11]	5[11]	_	
+12-6	860-865	extra	_	Target[11]	12-3	false[11]	5[11]	_	
+12-7	866-875	tillflöde	_	Target[11]	12-3	false[11]	5[11]	_	
+12-8	876-879	där	_	_	_	_	_	_	
+12-9	880-886	enorma	_	Target[12]	12-11[35]	false[12]	1[12]	_	
+12-10	887-893	belopp	_	Target[12]	12-11[35]	false[12]	1[12]	_	
+12-11	894-901	flyttas	*[35]	_	_	_	_	_	
+12-12	902-906	från	*[35]	_	_	_	_	_	
+12-13	907-922	skattebetalarna	*[35]	_	_	_	_	_	
+12-14	923-927	till	*[35]	_	_	_	_	_	
+12-15	928-940	ägarfamiljer	*[35]	_	_	_	_	_	
+12-16	941-944	och	*[35]	_	_	_	_	_	
+12-17	945-959	storföretagare	*[35]	_	_	_	_	_	
+12-18	959-960	.	_	_	_	_	_	_	
+
+#Text=Och som grädde på moset utgör tillskottet av människor att pressen på lönerna kan skärpas i löneförhandlignar, särskilt inom okvalificerade yrken men säkert också inom bristyrken där viss yrkeskunskap finns bland immigranterna.
+13-1	961-964	Och	_	_	_	_	_	_	
+13-2	965-968	som	_	Target[13]	13-6[36]	true[13]	4[13]	_	
+13-3	969-975	grädde	_	Target[13]	13-6[36]	true[13]	4[13]	_	
+13-4	976-978	på	_	Target[13]	13-6[36]	true[13]	4[13]	_	
+13-5	979-984	moset	_	Target[13]	13-6[36]	true[13]	4[13]	_	
+13-6	985-990	utgör	*[36]	_	_	_	_	_	
+13-7	991-1002	tillskottet	*[36]	_	_	_	_	_	
+13-8	1003-1005	av	*[36]	_	_	_	_	_	
+13-9	1006-1015	människor	*[36]	_	_	_	_	_	
+13-10	1016-1019	att	*[36]	_	_	_	_	_	
+13-11	1020-1027	pressen	*[36]	_	_	_	_	_	
+13-12	1028-1030	på	*[36]	_	_	_	_	_	
+13-13	1031-1038	lönerna	*[36]	_	_	_	_	_	
+13-14	1039-1042	kan	*[36]	_	_	_	_	_	
+13-15	1043-1050	skärpas	*[36]	_	_	_	_	_	
+13-16	1051-1052	i	*[36]	_	_	_	_	_	
+13-17	1053-1070	löneförhandlignar	*[36]	_	_	_	_	_	
+13-18	1070-1071	,	_	_	_	_	_	_	
+13-19	1072-1080	särskilt	_	_	_	_	_	_	
+13-20	1081-1085	inom	_	_	_	_	_	_	
+13-21	1086-1100	okvalificerade	_	_	_	_	_	_	
+13-22	1101-1106	yrken	_	_	_	_	_	_	
+13-23	1107-1110	men	_	_	_	_	_	_	
+13-24	1111-1117	säkert	_	_	_	_	_	_	
+13-25	1118-1123	också	_	_	_	_	_	_	
+13-26	1124-1128	inom	_	_	_	_	_	_	
+13-27	1129-1139	bristyrken	_	_	_	_	_	_	
+13-28	1140-1143	där	_	_	_	_	_	_	
+13-29	1144-1148	viss	_	_	_	_	_	_	
+13-30	1149-1161	yrkeskunskap	_	_	_	_	_	_	
+13-31	1162-1167	finns	_	_	_	_	_	_	
+13-32	1168-1173	bland	_	_	_	_	_	_	
+13-33	1174-1187	immigranterna	_	_	_	_	_	_	
+13-34	1187-1188	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	1190-1191	#	_	_	_	_	_	_	
+14-2	1191-1192	P	_	_	_	_	_	_	
+14-3	1193-1196	IMM	_	_	_	_	_	_	
+14-4	1196-1197	.	_	_	_	_	_	_	
+
+#Text=Varför ser inte vänstern detta?.
+15-1	1199-1205	Varför	_	_	_	_	_	_	
+15-2	1206-1209	ser	_	_	_	_	_	_	
+15-3	1210-1214	inte	_	_	_	_	_	_	
+15-4	1215-1223	vänstern	_	_	_	_	_	_	
+15-5	1224-1229	detta	_	_	_	_	_	_	
+15-6	1229-1230	?	_	_	_	_	_	_	
+15-7	1230-1231	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1233-1234	#	_	_	_	_	_	_	
+16-2	1234-1235	P	_	_	_	_	_	_	
+16-3	1236-1239	IMM	_	_	_	_	_	_	
+16-4	1239-1240	.	_	_	_	_	_	_	
+
+#Text=Och nu menar jag inte kulturvänstern utan den riktiga arbetarvänstern.
+17-1	1242-1245	Och	_	_	_	_	_	_	
+17-2	1246-1248	nu	_	_	_	_	_	_	
+17-3	1249-1254	menar	_	_	_	_	_	_	
+17-4	1255-1258	jag	_	_	_	_	_	_	
+17-5	1259-1263	inte	_	_	_	_	_	_	
+17-6	1264-1278	kulturvänstern	*	Target	17-6	false	2	_	
+17-7	1279-1283	utan	_	_	_	_	_	_	
+17-8	1284-1287	den	_	_	_	_	_	_	
+17-9	1288-1295	riktiga	*[37]	Target[14]|Target[15]	17-9[37]|17-10[38]	false[14]|false[15]	5[14]|4[15]	_	
+17-10	1296-1311	arbetarvänstern	*[37]|*[38]|*[39]	Target[14]|Target[16]	17-9[37]|17-10[39]	false[14]|false[16]	5[14]|4[16]	_	
+17-11	1311-1312	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1314-1315	#	_	_[17]	_	false[17]	1[17]	_	
+18-2	1315-1316	P	_	_[17]	_	false[17]	1[17]	_	
+18-3	1317-1320	IMM	_	_[17]	_	false[17]	1[17]	_	
+18-4	1320-1321	.	_	_	_	_	_	_	
+
+#Text=Visserligen finns ju enskilda sossar och vänsterpartister som ser och förstår detta och går över till SD men det verkar ju inte finnas en enda ideolog inom vänstern som inser att massimmigrationen är århundradets hoax.
+19-1	1323-1334	Visserligen	_	_	_	_	_	_	
+19-2	1335-1340	finns	_	_	_	_	_	_	
+19-3	1341-1343	ju	_	_	_	_	_	_	
+19-4	1344-1352	enskilda	*[40]	_	_	_	_	_	
+19-5	1353-1359	sossar	*[40]	_	_	_	_	_	
+19-6	1360-1363	och	*[40]	_	_	_	_	_	
+19-7	1364-1380	vänsterpartister	*[40]	_	_	_	_	_	
+19-8	1381-1384	som	_	_	_	_	_	_	
+19-9	1385-1388	ser	_	_	_	_	_	_	
+19-10	1389-1392	och	_	_	_	_	_	_	
+19-11	1393-1400	förstår	_	_	_	_	_	_	
+19-12	1401-1406	detta	_	_	_	_	_	_	
+19-13	1407-1410	och	_	_	_	_	_	_	
+19-14	1411-1414	går	_	Target[18]	19-4[40]	false[18]	4[18]	_	
+19-15	1415-1419	över	_	Target[18]	19-4[40]	false[18]	4[18]	_	
+19-16	1420-1424	till	_	Target[18]	19-4[40]	false[18]	4[18]	_	
+19-17	1425-1427	SD	_	Target[18]	19-4[40]	false[18]	4[18]	_	
+19-18	1428-1431	men	_	_	_	_	_	_	
+19-19	1432-1435	det	_	_	_	_	_	_	
+19-20	1436-1442	verkar	_	_	_	_	_	_	
+19-21	1443-1445	ju	_	_	_	_	_	_	
+19-22	1446-1450	inte	_	_	_	_	_	_	
+19-23	1451-1457	finnas	_	_	_	_	_	_	
+19-24	1458-1460	en	_	_	_	_	_	_	
+19-25	1461-1465	enda	_	_	_	_	_	_	
+19-26	1466-1473	ideolog	_	_	_	_	_	_	
+19-27	1474-1478	inom	_	_	_	_	_	_	
+19-28	1479-1487	vänstern	_	_	_	_	_	_	
+19-29	1488-1491	som	_	_	_	_	_	_	
+19-30	1492-1497	inser	_	_	_	_	_	_	
+19-31	1498-1501	att	_	_	_	_	_	_	
+19-32	1502-1519	massimmigrationen	*[41]|*[42]|*[43]	Target	19-32[42]	false	2	_	
+19-33	1520-1522	är	_	_	_	_	_	_	
+19-34	1523-1535	århundradets	_	Target[19]	19-32[41]	false[19]	2[19]	_	
+19-35	1536-1540	hoax	_	Target[19]	19-32[41]	false[19]	2[19]	_	
+19-36	1540-1541	.	_	_	_	_	_	_	
+
+#Text=Godhetsvinkeln och heligheten i att släppa in immigranter är ju bara ett spel, välregisserat av högern, för att tjäna goa fina skatteslantar.
+20-1	1542-1556	Godhetsvinkeln	*[44]	_[20]	_	false[20]	2[20]	_	
+20-2	1557-1560	och	*[44]	_[20]	_	false[20]	2[20]	_	
+20-3	1561-1571	heligheten	*[44]	_[20]	_	false[20]	2[20]	_	
+20-4	1572-1573	i	*[44]	_[20]	_	false[20]	2[20]	_	
+20-5	1574-1577	att	*[44]	_[20]	_	false[20]	2[20]	_	
+20-6	1578-1584	släppa	*[44]	_[20]	_	false[20]	2[20]	_	
+20-7	1585-1587	in	*[44]	_[20]	_	false[20]	2[20]	_	
+20-8	1588-1599	immigranter	*[44]	_[20]	_	false[20]	2[20]	_	
+20-9	1600-1602	är	_	Target[21]	20-1[44]	false[21]	2[21]	_	
+20-10	1603-1605	ju	_	Target[21]	20-1[44]	false[21]	2[21]	_	
+20-11	1606-1610	bara	_	Target[21]	20-1[44]	false[21]	2[21]	_	
+20-12	1611-1614	ett	_	Target[21]	20-1[44]	false[21]	2[21]	_	
+20-13	1615-1619	spel	_	Target[21]	20-1[44]	false[21]	2[21]	_	
+20-14	1619-1620	,	_	_	_	_	_	_	
+20-15	1621-1634	välregisserat	_	_	_	_	_	_	
+20-16	1635-1637	av	_	_	_	_	_	_	
+20-17	1638-1644	högern	_	_	_	_	_	_	
+20-18	1644-1645	,	_	_	_	_	_	_	
+20-19	1646-1649	för	_	_	_	_	_	_	
+20-20	1650-1653	att	_	_	_	_	_	_	
+20-21	1654-1659	tjäna	_	_	_	_	_	_	
+20-22	1660-1663	goa	_	Target[22]	20-24	false[22]	4[22]	_	
+20-23	1664-1668	fina	_	Target[22]	20-24	false[22]	4[22]	_	
+20-24	1669-1682	skatteslantar	*	_	_	_	_	_	
+20-25	1682-1683	.	_	_	_	_	_	_	
+
+#Text=Inte helt olikt bankkrisen på 90-talet men avsevärt mycket mer destruktiv på lång sikt.
+21-1	1684-1688	Inte	_	Target[23]	21-4[45]	false[23]	2[23]	_	
+21-2	1689-1693	helt	_	Target[23]	21-4[45]	false[23]	2[23]	_	
+21-3	1694-1699	olikt	_	Target[23]	21-4[45]	false[23]	2[23]	_	
+21-4	1700-1710	bankkrisen	*[45]	_	_	_	_	_	
+21-5	1711-1713	på	*[45]	_	_	_	_	_	
+21-6	1714-1716	90	*[45]	_	_	_	_	_	
+21-7	1716-1717	-	*[45]	_	_	_	_	_	
+21-8	1717-1722	talet	*[45]	_	_	_	_	_	
+21-9	1723-1726	men	_	_	_	_	_	_	
+21-10	1727-1735	avsevärt	_	Target[24]	19-32[43]	false[24]	1[24]	_	
+21-11	1736-1742	mycket	_	Target[24]	19-32[43]	false[24]	1[24]	_	
+21-12	1743-1746	mer	_	Target[24]	19-32[43]	false[24]	1[24]	_	
+21-13	1747-1757	destruktiv	_	Target[24]	19-32[43]	false[24]	1[24]	_	
+21-14	1758-1760	på	_	_	_	_	_	_	
+21-15	1761-1765	lång	_	_	_	_	_	_	
+21-16	1766-1770	sikt	_	_	_	_	_	_	
+21-17	1770-1771	.	_	_	_	_	_	_	

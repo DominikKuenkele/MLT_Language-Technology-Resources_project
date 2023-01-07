@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Starta myndigheter utanför Stockholm.
+3-1	18-24	Starta	_	_	_	_	_	
+3-2	25-36	myndigheter	_	_	_	_	_	
+3-3	37-44	utanför	_	_	_	_	_	
+3-4	45-54	Stockholm	_	_	_	_	_	
+3-5	54-55	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	
+
+#Text=Jag såg att Kriminalvårdens transportjänst sedan myndighetens kontor flyttade från Göteborg till Arvidsjaur har haft problem med att avvisa asylsökande.
+5-1	66-69	Jag	_	_	_	_	_	
+5-2	70-73	såg	_	_	_	_	_	
+5-3	74-77	att	_	_	_	_	_	
+5-4	78-93	Kriminalvårdens	*[10]	_	_	_	_	
+5-5	94-108	transportjänst	*[10]	_	_	_	_	
+5-6	109-114	sedan	_	_	_	_	_	
+5-7	115-127	myndighetens	_	_	_	_	_	
+5-8	128-134	kontor	_	_	_	_	_	
+5-9	135-143	flyttade	_	_	_	_	_	
+5-10	144-148	från	_	_	_	_	_	
+5-11	149-157	Göteborg	_	_	_	_	_	
+5-12	158-162	till	_	_	_	_	_	
+5-13	163-173	Arvidsjaur	_	_	_	_	_	
+5-14	174-177	har	_	Target;Source[1]	5-19[11];5-4[10]	false[1]	2[1]	
+5-15	178-182	haft	_	Target;Source[1]	5-19[11];5-4[10]	false[1]	2[1]	
+5-16	183-190	problem	_	Target;Source[1]	5-19[11];5-4[10]	false[1]	2[1]	
+5-17	191-194	med	_	Target;Source[1]	5-19[11];5-4[10]	false[1]	2[1]	
+5-18	195-198	att	_	_	_	_	_	
+5-19	199-205	avvisa	*[11]	_	_	_	_	
+5-20	206-217	asylsökande	*[11]	_	_	_	_	
+5-21	217-218	.	_	_	_	_	_	
+
+#Text=De som inte får stanna har suttit för länge i förvar eftersom den nyanställda personalen inte klarat av sina uppgifter.
+6-1	219-221	De	_	_	_	_	_	
+6-2	222-225	som	_	_	_	_	_	
+6-3	226-230	inte	_	_	_	_	_	
+6-4	231-234	får	_	_	_	_	_	
+6-5	235-241	stanna	_	_	_	_	_	
+6-6	242-245	har	_	_	_	_	_	
+6-7	246-252	suttit	_	_	_	_	_	
+6-8	253-256	för	_	_	_	_	_	
+6-9	257-262	länge	_	_	_	_	_	
+6-10	263-264	i	_	_	_	_	_	
+6-11	265-271	förvar	_	_	_	_	_	
+6-12	272-280	eftersom	_	_	_	_	_	
+6-13	281-284	den	_	_	_	_	_	
+6-14	285-296	nyanställda	_	_	_	_	_	
+6-15	297-307	personalen	_	_	_	_	_	
+6-16	308-312	inte	_	_	_	_	_	
+6-17	313-319	klarat	_	_	_	_	_	
+6-18	320-322	av	_	_	_	_	_	
+6-19	323-327	sina	_	_	_	_	_	
+6-20	328-337	uppgifter	_	_	_	_	_	
+6-21	337-338	.	_	_	_	_	_	
+
+#Text=Det här är inget unikt problem.
+7-1	339-342	Det	_	_	_	_	_	
+7-2	343-346	här	_	_	_	_	_	
+7-3	347-349	är	_	_	_	_	_	
+7-4	350-355	inget	_	_	_	_	_	
+7-5	356-361	unikt	_	_	_	_	_	
+7-6	362-369	problem	_	_	_	_	_	
+7-7	369-370	.	_	_	_	_	_	
+
+#Text=Myndigheter som utlokaliseras får ofta problem med sin kompetens eftersom de har svårt att få personal att flytta med och dessutom tar det tid att bygga upp verksamheten med ny personal.
+8-1	371-382	Myndigheter	*[12]	_	_	_	_	
+8-2	383-386	som	*[12]	_	_	_	_	
+8-3	387-400	utlokaliseras	*[12]	_	_	_	_	
+8-4	401-404	får	_	Source;Target[2]	8-1[12];8-9	false[2]	2[2]	
+8-5	405-409	ofta	_	Source;Target[2]	8-1[12];8-9	false[2]	2[2]	
+8-6	410-417	problem	_	Source;Target[2]	8-1[12];8-9	false[2]	2[2]	
+8-7	418-421	med	_	Source;Target[2]	8-1[12];8-9	false[2]	2[2]	
+8-8	422-425	sin	_	_	_	_	_	
+8-9	426-435	kompetens	*	_	_	_	_	
+8-10	436-444	eftersom	_	_	_	_	_	
+8-11	445-447	de	_	_	_	_	_	
+8-12	448-451	har	_	Target[3]	8-15[13]	false[3]	2[3]	
+8-13	452-457	svårt	_	Target[3]	8-15[13]	false[3]	2[3]	
+8-14	458-461	att	_	_	_	_	_	
+8-15	462-464	få	*[13]	_	_	_	_	
+8-16	465-473	personal	*[13]	_	_	_	_	
+8-17	474-477	att	_	_	_	_	_	
+8-18	478-484	flytta	_	_	_	_	_	
+8-19	485-488	med	_	_	_	_	_	
+8-20	489-492	och	_	_	_	_	_	
+8-21	493-501	dessutom	_	_	_	_	_	
+8-22	502-505	tar	_	_	_	_	_	
+8-23	506-509	det	_	_	_	_	_	
+8-24	510-513	tid	_	_	_	_	_	
+8-25	514-517	att	_	_	_	_	_	
+8-26	518-523	bygga	_	_	_	_	_	
+8-27	524-527	upp	_	_	_	_	_	
+8-28	528-540	verksamheten	_	_	_	_	_	
+8-29	541-544	med	_	_	_	_	_	
+8-30	545-547	ny	_	_	_	_	_	
+8-31	548-556	personal	_	_	_	_	_	
+8-32	556-557	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	559-560	#	_	_	_	_	_	
+9-2	560-561	P	_	_	_	_	_	
+9-3	562-565	IMM	_	_	_	_	_	
+9-4	565-566	.	_	_	_	_	_	
+
+#Text=Det är idiotiskt att utlokalisera redan etablerade myndigheter.
+10-1	568-571	Det	_	_	_	_	_	
+10-2	572-574	är	_	_	_	_	_	
+10-3	575-584	idiotiskt	_	Target	10-5[14]	false	1	
+10-4	585-588	att	_	_	_	_	_	
+10-5	589-601	utlokalisera	*[14]	_	_	_	_	
+10-6	602-607	redan	*[14]	_	_	_	_	
+10-7	608-618	etablerade	*[14]	_	_	_	_	
+10-8	619-630	myndigheter	*[14]	_	_	_	_	
+10-9	630-631	.	_	_	_	_	_	
+
+#Text=Det är mycket bättre att se till att alla nya myndigheter som bildas, och det är ganska många, placeras utanför Stockholm.
+11-1	632-635	Det	_	_	_	_	_	
+11-2	636-638	är	_	_	_	_	_	
+11-3	639-645	mycket	_	Target[4]	11-6[15]	false[4]	4[4]	
+11-4	646-652	bättre	_	Target[4]	11-6[15]	false[4]	4[4]	
+11-5	653-656	att	_	_	_	_	_	
+11-6	657-659	se	*[15]	_	_	_	_	
+11-7	660-664	till	*[15]	_	_	_	_	
+11-8	665-668	att	*[15]	_	_	_	_	
+11-9	669-673	alla	*[15]	_	_	_	_	
+11-10	674-677	nya	*[15]	_	_	_	_	
+11-11	678-689	myndigheter	*[15]	_	_	_	_	
+11-12	690-693	som	*[15]	_	_	_	_	
+11-13	694-700	bildas	*[15]	_	_	_	_	
+11-14	700-701	,	*[15]	_	_	_	_	
+11-15	702-705	och	*[15]	_	_	_	_	
+11-16	706-709	det	*[15]	_	_	_	_	
+11-17	710-712	är	*[15]	_	_	_	_	
+11-18	713-719	ganska	*[15]	_	_	_	_	
+11-19	720-725	många	*[15]	_	_	_	_	
+11-20	725-726	,	*[15]	_	_	_	_	
+11-21	727-735	placeras	*[15]	_	_	_	_	
+11-22	736-743	utanför	*[15]	_	_	_	_	
+11-23	744-753	Stockholm	*[15]	_	_	_	_	
+11-24	753-754	.	_	_	_	_	_	
+
+#Text=Det är bara onödigt lidande och oerhört kostsamt att slå sönder redan fungerande arbetsplatser och verksamheter.
+12-1	755-758	Det	_	_	_	_	_	
+12-2	759-761	är	_	_	_	_	_	
+12-3	762-766	bara	_	_	_	_	_	
+12-4	767-774	onödigt	_	Target[5]	12-10[16]	false[5]	2[5]	
+12-5	775-782	lidande	_	Target[5]	12-10[16]	false[5]	2[5]	
+12-6	783-786	och	_	_	_	_	_	
+12-7	787-794	oerhört	_	_	_	_	_	
+12-8	795-803	kostsamt	_	_	_	_	_	
+12-9	804-807	att	_	_	_	_	_	
+12-10	808-811	slå	*[16]	_	_	_	_	
+12-11	812-818	sönder	*[16]	_	_	_	_	
+12-12	819-824	redan	*[16]	_	_	_	_	
+12-13	825-835	fungerande	*[16]	_	_	_	_	
+12-14	836-849	arbetsplatser	*[16]	_	_	_	_	
+12-15	850-853	och	*[16]	_	_	_	_	
+12-16	854-866	verksamheter	*[16]	_	_	_	_	
+12-17	866-867	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	869-870	#	_	_	_	_	_	
+13-2	870-871	P	_	_	_	_	_	
+13-3	872-875	IMM	_	_	_	_	_	
+13-4	875-876	.	_	_	_	_	_	
+
+#Text=Det är kanske svårt att ha någon framförhållning och långsiktighet i politiken när partikamrater i drabbade kommuner skriker på hjälp.
+14-1	878-881	Det	_	_	_	_	_	
+14-2	882-884	är	_	_	_	_	_	
+14-3	885-891	kanske	_	Target[6]	14-6[17]	false[6]	2[6]	
+14-4	892-897	svårt	_	Target[6]	14-6[17]	false[6]	2[6]	
+14-5	898-901	att	_	_	_	_	_	
+14-6	902-904	ha	*[17]	_	_	_	_	
+14-7	905-910	någon	*[17]	_	_	_	_	
+14-8	911-926	framförhållning	*[17]	_	_	_	_	
+14-9	927-930	och	*[17]	_	_	_	_	
+14-10	931-944	långsiktighet	*[17]	_	_	_	_	
+14-11	945-946	i	*[17]	_	_	_	_	
+14-12	947-956	politiken	*[17]	_	_	_	_	
+14-13	957-960	när	_	_	_	_	_	
+14-14	961-974	partikamrater	_	_	_	_	_	
+14-15	975-976	i	_	_	_	_	_	
+14-16	977-985	drabbade	_	Target	14-17[18]	false	2	
+14-17	986-994	kommuner	*[18]|*[19]	_	_	_	_	
+14-18	995-1002	skriker	_	Target;Source[7]	14-20;14-17[19]	false[7]	2[7]	
+14-19	1003-1005	på	_	Target;Source[7]	14-20;14-17[19]	false[7]	2[7]	
+14-20	1006-1011	hjälp	*	_	_	_	_	
+14-21	1011-1012	.	_	_	_	_	_	
+
+#Text=Men Sverige drabbas ständigt av nedläggningar och kriser och det vore bättre att satsa på en politik som inte bara är ett lapptäcke utan inbegriper en utvecklingsstrategi för landet som helhet.
+15-1	1013-1016	Men	_	_	_	_	_	
+15-2	1017-1024	Sverige	*	_	_	_	_	
+15-3	1025-1032	drabbas	_	Target;Source[8]	15-6[20];15-2	false[8]	2[8]	
+15-4	1033-1041	ständigt	_	Target;Source[8]	15-6[20];15-2	false[8]	2[8]	
+15-5	1042-1044	av	_	_	_	_	_	
+15-6	1045-1058	nedläggningar	*[20]	_	_	_	_	
+15-7	1059-1062	och	*[20]	_	_	_	_	
+15-8	1063-1069	kriser	*[20]	_	_	_	_	
+15-9	1070-1073	och	_	_	_	_	_	
+15-10	1074-1077	det	_	_	_	_	_	
+15-11	1078-1082	vore	_	Target[9]	15-14[21]	false[9]	4[9]	
+15-12	1083-1089	bättre	_	Target[9]	15-14[21]	false[9]	4[9]	
+15-13	1090-1093	att	_	_	_	_	_	
+15-14	1094-1099	satsa	*[21]	_	_	_	_	
+15-15	1100-1102	på	*[21]	_	_	_	_	
+15-16	1103-1105	en	*[21]	_	_	_	_	
+15-17	1106-1113	politik	*[21]	_	_	_	_	
+15-18	1114-1117	som	*[21]	_	_	_	_	
+15-19	1118-1122	inte	*[21]	_	_	_	_	
+15-20	1123-1127	bara	*[21]	_	_	_	_	
+15-21	1128-1130	är	*[21]	_	_	_	_	
+15-22	1131-1134	ett	*[21]	_	_	_	_	
+15-23	1135-1144	lapptäcke	*[21]	_	_	_	_	
+15-24	1145-1149	utan	_	_	_	_	_	
+15-25	1150-1160	inbegriper	_	_	_	_	_	
+15-26	1161-1163	en	_	_	_	_	_	
+15-27	1164-1183	utvecklingsstrategi	_	_	_	_	_	
+15-28	1184-1187	för	_	_	_	_	_	
+15-29	1188-1194	landet	_	_	_	_	_	
+15-30	1195-1198	som	_	_	_	_	_	
+15-31	1199-1205	helhet	_	_	_	_	_	
+15-32	1205-1206	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1208-1209	#	_	_	_	_	_	
+16-2	1209-1210	P	_	_	_	_	_	
+16-3	1211-1214	IMM	_	_	_	_	_	
+16-4	1214-1215	.	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+17-1	1217-1222	Lotta	_	_	_	_	_	
+17-2	1223-1230	Gröning	_	_	_	_	_	
+17-3	1230-1231	.	_	_	_	_	_	

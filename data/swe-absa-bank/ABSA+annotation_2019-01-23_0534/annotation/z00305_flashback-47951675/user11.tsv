@@ -1,0 +1,447 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	3[1]	_	
+1-3	3-6	IMM	_	_[1]	_	false[1]	3[1]	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	_	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Grundläggande kunskaper för en ansvarsfull invandring.
+3-1	18-31	Grundläggande	_	_	_	_	_	_	
+3-2	32-41	kunskaper	_	_	_	_	_	_	
+3-3	42-45	för	_	_	_	_	_	_	
+3-4	46-48	en	_	_	_	_	_	_	
+3-5	49-60	ansvarsfull	_	Target	3-6	false	4	_	
+3-6	61-71	invandring	*	_	_	_	_	_	
+3-7	71-72	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	74-75	#	_	_	_	_	_	_	
+4-2	75-76	P	_	_[3]	_	false[3]	3[3]	_	
+4-3	77-80	IMM	_	_[3]	_	false[3]	3[3]	_	
+4-4	80-81	.	_	_	_	_	_	_	
+
+#Text=Grundläggande kunskaper för en ansvarsfull invandring.
+5-1	83-96	Grundläggande	_	_	_	_	_	_	
+5-2	97-106	kunskaper	_	_	_	_	_	_	
+5-3	107-110	för	_	_	_	_	_	_	
+5-4	111-113	en	_	_	_	_	_	_	
+5-5	114-125	ansvarsfull	_	Target	5-6	false	4	_	
+5-6	126-136	invandring	*	_	_	_	_	_	
+5-7	136-137	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	139-140	#	_	_	_	_	_	_	
+6-2	140-141	P	_	_[4]	_	false[4]	3[4]	_	
+6-3	142-145	IMM	_	_[4]	_	false[4]	3[4]	_	
+6-4	145-146	.	_	_	_	_	_	_	
+
+#Text=Självklart är det så att man kan tycka att de som sitter i endera position att påverka invandring och integration skall besitta grundläggande kunskaper och god inblick i relevant statistik etc. för att helt enkelt lyckas så bra som möjligt med invandring, flyktingmottagande, integration och/eller assimilation.
+7-1	148-158	Självklart	_	_	_	_	_	_	
+7-2	159-161	är	_	_	_	_	_	_	
+7-3	162-165	det	_	_	_	_	_	_	
+7-4	166-168	så	_	_	_	_	_	_	
+7-5	169-172	att	_	_	_	_	_	_	
+7-6	173-176	man	*	_	_	_	_	_	
+7-7	177-180	kan	_	_[5]	_	false[5]	4[5]	_	
+7-8	181-186	tycka	_	_[5]	_	false[5]	4[5]	_	
+7-9	187-190	att	_	_	_	_	_	_	
+7-10	191-193	de	*[17]	_	_	_	_	_	
+7-11	194-197	som	*[17]	_	_	_	_	_	
+7-12	198-204	sitter	*[17]	_	_	_	_	_	
+7-13	205-206	i	*[17]	_	_	_	_	_	
+7-14	207-213	endera	*[17]	_	_	_	_	_	
+7-15	214-222	position	*[17]	_	_	_	_	_	
+7-16	223-226	att	*[17]	_	_	_	_	_	
+7-17	227-234	påverka	*[17]	_	_	_	_	_	
+7-18	235-245	invandring	*[17]	_	_	_	_	_	
+7-19	246-249	och	*[17]	_	_	_	_	_	
+7-20	250-261	integration	*[17]	_	_	_	_	_	
+7-21	262-267	skall	_	Target;Source[6]	7-10[17];7-6	false[6]	4[6]	7-7[5_6]	
+7-22	268-275	besitta	_	Target;Source[6]	7-10[17];7-6	false[6]	4[6]	_	
+7-23	276-289	grundläggande	_	Target;Source[6]	7-10[17];7-6	false[6]	4[6]	_	
+7-24	290-299	kunskaper	_	Target;Source[6]	7-10[17];7-6	false[6]	4[6]	_	
+7-25	300-303	och	_	_	_	_	_	_	
+7-26	304-307	god	_	Target[7]	7-29[18]	false[7]	4[7]	_	
+7-27	308-315	inblick	_	Target[7]	7-29[18]	false[7]	4[7]	_	
+7-28	316-317	i	_	_	_	_	_	_	
+7-29	318-326	relevant	*[18]	_	_	_	_	_	
+7-30	327-336	statistik	*[18]	_	_	_	_	_	
+7-31	337-340	etc	_	_	_	_	_	_	
+7-32	340-341	.	_	_	_	_	_	_	
+7-33	342-345	för	_	_	_	_	_	_	
+7-34	346-349	att	_	_	_	_	_	_	
+7-35	350-354	helt	_	_	_	_	_	_	
+7-36	355-361	enkelt	_	_	_	_	_	_	
+7-37	362-368	lyckas	_	Target;Target;Target;Target[8]	7-43;7-45;7-47;7-51	false[8]	4[8]	_	
+7-38	369-371	så	_	Target;Target;Target;Target[8]	7-43;7-45;7-47;7-51	false[8]	4[8]	_	
+7-39	372-375	bra	_	Target;Target;Target;Target[8]	7-43;7-45;7-47;7-51	false[8]	4[8]	_	
+7-40	376-379	som	_	Target;Target;Target;Target[8]	7-43;7-45;7-47;7-51	false[8]	4[8]	_	
+7-41	380-387	möjligt	_	Target;Target;Target;Target[8]	7-43;7-45;7-47;7-51	false[8]	4[8]	_	
+7-42	388-391	med	_	_	_	_	_	_	
+7-43	392-402	invandring	*	_	_	_	_	_	
+7-44	402-403	,	_	_	_	_	_	_	
+7-45	404-422	flyktingmottagande	*	_	_	_	_	_	
+7-46	422-423	,	_	_	_	_	_	_	
+7-47	424-435	integration	*	_	_	_	_	_	
+7-48	436-439	och	_	_	_	_	_	_	
+7-49	439-440	/	_	_	_	_	_	_	
+7-50	440-445	eller	_	_	_	_	_	_	
+7-51	446-458	assimilation	*	_	_	_	_	_	
+7-52	458-459	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	461-462	#	_	_	_	_	_	_	
+8-2	462-463	P	_	_	_	_	_	_	
+8-3	464-467	IMM	_	_	_	_	_	_	
+8-4	467-468	.	_	_	_	_	_	_	
+
+#Text=T.ex. så kan man läsa en del i rapporten från BRÅ om brott bland nionde-klassare.
+9-1	470-474	T.ex	_	_	_	_	_	_	
+9-2	474-475	.	_	_	_	_	_	_	
+9-3	476-478	så	_	_	_	_	_	_	
+9-4	479-482	kan	_	_	_	_	_	_	
+9-5	483-486	man	_	_	_	_	_	_	
+9-6	487-491	läsa	_	_	_	_	_	_	
+9-7	492-494	en	_	_	_	_	_	_	
+9-8	495-498	del	_	_	_	_	_	_	
+9-9	499-500	i	_	_	_	_	_	_	
+9-10	501-510	rapporten	_	_	_	_	_	_	
+9-11	511-515	från	_	_	_	_	_	_	
+9-12	516-519	BRÅ	_	_	_	_	_	_	
+9-13	520-522	om	_	_	_	_	_	_	
+9-14	523-528	brott	_	_	_	_	_	_	
+9-15	529-534	bland	_	_	_	_	_	_	
+9-16	535-550	nionde-klassare	_	_	_	_	_	_	
+9-17	550-551	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	553-554	#	_	_	_	_	_	_	
+10-2	554-555	P	_	_	_	_	_	_	
+10-3	556-559	IMM	_	_	_	_	_	_	
+10-4	559-560	.	_	_	_	_	_	_	
+
+#Text=Att ha kunskap om det som skrivs i just denna rapport måste ju ses som en tillgång och något positivt att ha i ryggsäcken om man har för avsikt att bedriva en politik som inte leder till att barn/ungdomar hamnar i utanförskap och kriminalitet.
+11-1	562-565	Att	_	_	_	_	_	_	
+11-2	566-568	ha	*[19]	_	_	_	_	_	
+11-3	569-576	kunskap	*[19]	_	_	_	_	_	
+11-4	577-579	om	*[19]	_	_	_	_	_	
+11-5	580-583	det	*[19]	_	_	_	_	_	
+11-6	584-587	som	*[19]	_	_	_	_	_	
+11-7	588-594	skrivs	*[19]	_	_	_	_	_	
+11-8	595-596	i	*[19]	_	_	_	_	_	
+11-9	597-601	just	*[19]	_	_	_	_	_	
+11-10	602-607	denna	*[19]	_	_	_	_	_	
+11-11	608-615	rapport	*[19]	_	_	_	_	_	
+11-12	616-621	måste	_	_	_	_	_	_	
+11-13	622-624	ju	_	_	_	_	_	_	
+11-14	625-628	ses	_	_	_	_	_	_	
+11-15	629-632	som	_	_	_	_	_	_	
+11-16	633-635	en	_	_	_	_	_	_	
+11-17	636-644	tillgång	_	Target	11-2[19]	false	4	_	
+11-18	645-648	och	_	_	_	_	_	_	
+11-19	649-654	något	_	Target[9]	11-22[20]	false[9]	4[9]	_	
+11-20	655-663	positivt	_	Target[9]	11-22[20]	false[9]	4[9]	_	
+11-21	664-667	att	_	_	_	_	_	_	
+11-22	668-670	ha	*[20]	_	_	_	_	_	
+11-23	671-672	i	*[20]	_	_	_	_	_	
+11-24	673-683	ryggsäcken	*[20]	_	_	_	_	_	
+11-25	684-686	om	_	_	_	_	_	_	
+11-26	687-690	man	_	_	_	_	_	_	
+11-27	691-694	har	_	_	_	_	_	_	
+11-28	695-698	för	_	_	_	_	_	_	
+11-29	699-705	avsikt	_	_	_	_	_	_	
+11-30	706-709	att	_	_	_	_	_	_	
+11-31	710-717	bedriva	_	_	_	_	_	_	
+11-32	718-720	en	_	_	_	_	_	_	
+11-33	721-728	politik	_	_	_	_	_	_	
+11-34	729-732	som	_	_	_	_	_	_	
+11-35	733-737	inte	_	Target[10]	11-39[21]	false[10]	4[10]	_	
+11-36	738-743	leder	_	Target[10]	11-39[21]	false[10]	4[10]	_	
+11-37	744-748	till	_	Target[10]	11-39[21]	false[10]	4[10]	_	
+11-38	749-752	att	_	_	_	_	_	_	
+11-39	753-757	barn	*[21]	_	_	_	_	_	
+11-40	757-758	/	*[21]	_	_	_	_	_	
+11-41	758-766	ungdomar	*[21]	_	_	_	_	_	
+11-42	767-773	hamnar	*[21]	_	_	_	_	_	
+11-43	774-775	i	*[21]	_	_	_	_	_	
+11-44	776-787	utanförskap	*[21]	_	_	_	_	_	
+11-45	788-791	och	*[21]	_	_	_	_	_	
+11-46	792-804	kriminalitet	*[21]	_	_	_	_	_	
+11-47	804-805	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	807-808	#	_	_	_	_	_	_	
+12-2	808-809	P	_	_	_	_	_	_	
+12-3	810-813	IMM	_	_	_	_	_	_	
+12-4	813-814	.	_	_	_	_	_	_	
+
+#Text=Detta är ett av många.
+13-1	816-821	Detta	_	_	_	_	_	_	
+13-2	822-824	är	_	_	_	_	_	_	
+13-3	825-828	ett	_	_	_	_	_	_	
+13-4	829-831	av	_	_	_	_	_	_	
+13-5	832-837	många	_	_	_	_	_	_	
+13-6	837-838	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	840-841	#	_	_	_	_	_	_	
+14-2	841-842	P	_	_[11]	_	false[11]	3[11]	_	
+14-3	843-846	IMM	_	_[11]	_	false[11]	3[11]	_	
+14-4	846-847	.	_	_	_	_	_	_	
+
+#Text=på vad jag menar är viktig kunskap för de som sitter i endera position att påverka invandring och integration:.
+15-1	849-851	på	_	_	_	_	_	_	
+15-2	852-855	vad	_	_	_	_	_	_	
+15-3	856-859	jag	_	_	_	_	_	_	
+15-4	860-865	menar	_	_	_	_	_	_	
+15-5	866-868	är	_	_	_	_	_	_	
+15-6	869-875	viktig	_	Target	15-7	false	4	_	
+15-7	876-883	kunskap	*	_	_	_	_	_	
+15-8	884-887	för	_	_	_	_	_	_	
+15-9	888-890	de	_	_	_	_	_	_	
+15-10	891-894	som	_	_	_	_	_	_	
+15-11	895-901	sitter	_	_	_	_	_	_	
+15-12	902-903	i	_	_	_	_	_	_	
+15-13	904-910	endera	_	_	_	_	_	_	
+15-14	911-919	position	_	_	_	_	_	_	
+15-15	920-923	att	_	_	_	_	_	_	
+15-16	924-931	påverka	_	_	_	_	_	_	
+15-17	932-942	invandring	_	_	_	_	_	_	
+15-18	943-946	och	_	_	_	_	_	_	
+15-19	947-958	integration	_	_	_	_	_	_	
+15-20	958-959	:	_	_	_	_	_	_	
+15-21	959-960	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	962-963	#	_	_	_	_	_	_	
+16-2	963-964	P	_	_	_	_	_	_	
+16-3	965-968	IMM	_	_	_	_	_	_	
+16-4	968-969	.	_	_	_	_	_	_	
+
+#Text=Om ni läser eller egentligen bara skummar igenom sidorna numrerade 27-32 i BRÅ-rapporten ovan så förstår ni snabbt att det finns en större risk att barn/ungdomar lättare riskerar att hamna i klaver med rättvisan och utanför den norm som de flesta av oss vill skall råda om man har dessa grundförutsättningar.
+17-1	971-973	Om	_	_	_	_	_	_	
+17-2	974-976	ni	_	_	_	_	_	_	
+17-3	977-982	läser	_	_	_	_	_	_	
+17-4	983-988	eller	_	_	_	_	_	_	
+17-5	989-999	egentligen	_	_	_	_	_	_	
+17-6	1000-1004	bara	_	_	_	_	_	_	
+17-7	1005-1012	skummar	_	_	_	_	_	_	
+17-8	1013-1019	igenom	_	_	_	_	_	_	
+17-9	1020-1027	sidorna	_	_	_	_	_	_	
+17-10	1028-1037	numrerade	_	_	_	_	_	_	
+17-11	1038-1040	27	_	_	_	_	_	_	
+17-12	1040-1041	-	_	_	_	_	_	_	
+17-13	1041-1043	32	_	_	_	_	_	_	
+17-14	1044-1045	i	_	_	_	_	_	_	
+17-15	1046-1059	BRÅ-rapporten	_	_	_	_	_	_	
+17-16	1060-1064	ovan	_	_	_	_	_	_	
+17-17	1065-1067	så	_	_	_	_	_	_	
+17-18	1068-1075	förstår	_	_	_	_	_	_	
+17-19	1076-1078	ni	_	_	_	_	_	_	
+17-20	1079-1085	snabbt	_	_	_	_	_	_	
+17-21	1086-1089	att	_	_	_	_	_	_	
+17-22	1090-1093	det	_	_	_	_	_	_	
+17-23	1094-1099	finns	_	Target[12]	17-28[22]	false[12]	2[12]	_	
+17-24	1100-1102	en	_	Target[12]	17-28[22]	false[12]	2[12]	_	
+17-25	1103-1109	större	_	Target[12]	17-28[22]	false[12]	2[12]	_	
+17-26	1110-1114	risk	_	Target[12]	17-28[22]	false[12]	2[12]	_	
+17-27	1115-1118	att	_	_	_	_	_	_	
+17-28	1119-1123	barn	*[22]	_	_	_	_	_	
+17-29	1123-1124	/	*[22]	_	_	_	_	_	
+17-30	1124-1132	ungdomar	*[22]	_	_	_	_	_	
+17-31	1133-1140	lättare	*[22]	_	_	_	_	_	
+17-32	1141-1149	riskerar	*[22]	_	_	_	_	_	
+17-33	1150-1153	att	*[22]	_	_	_	_	_	
+17-34	1154-1159	hamna	*[22]	_	_	_	_	_	
+17-35	1160-1161	i	*[22]	_	_	_	_	_	
+17-36	1162-1168	klaver	*[22]	_	_	_	_	_	
+17-37	1169-1172	med	*[22]	_	_	_	_	_	
+17-38	1173-1182	rättvisan	*[22]	_	_	_	_	_	
+17-39	1183-1186	och	_	_	_	_	_	_	
+17-40	1187-1194	utanför	_	_	_	_	_	_	
+17-41	1195-1198	den	_	_	_	_	_	_	
+17-42	1199-1203	norm	_	_	_	_	_	_	
+17-43	1204-1207	som	_	_	_	_	_	_	
+17-44	1208-1210	de	*[23]	_	_	_	_	_	
+17-45	1211-1217	flesta	*[23]	_	_	_	_	_	
+17-46	1218-1220	av	*[23]	_	_	_	_	_	
+17-47	1221-1224	oss	*[23]	_	_	_	_	_	
+17-48	1225-1229	vill	_	Target[13]	17-44[23]	false[13]	4[13]	_	
+17-49	1230-1235	skall	_	Target[13]	17-44[23]	false[13]	4[13]	_	
+17-50	1236-1240	råda	_	Target[13]	17-44[23]	false[13]	4[13]	_	
+17-51	1241-1243	om	_	_	_	_	_	_	
+17-52	1244-1247	man	_	_	_	_	_	_	
+17-53	1248-1251	har	_	_	_	_	_	_	
+17-54	1252-1257	dessa	_	_	_	_	_	_	
+17-55	1258-1278	grundförutsättningar	_	_	_	_	_	_	
+17-56	1278-1279	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1281-1282	#	_	_	_	_	_	_	
+18-2	1282-1283	P	_	_	_	_	_	_	
+18-3	1284-1287	IMM	_	_	_	_	_	_	
+18-4	1287-1288	.	_	_	_	_	_	_	
+
+#Text=Barnet/ungdomen:.
+19-1	1290-1296	Barnet	_	_	_	_	_	_	
+19-2	1296-1297	/	_	_	_	_	_	_	
+19-3	1297-1305	ungdomen	_	_	_	_	_	_	
+19-4	1305-1306	:	_	_	_	_	_	_	
+19-5	1306-1307	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1309-1310	#	_	_	_	_	_	_	
+20-2	1310-1311	P	_	_	_	_	_	_	
+20-3	1312-1315	IMM	_	_	_	_	_	_	
+20-4	1315-1316	.	_	_	_	_	_	_	
+
+#Text=Har arbetslösa föräldrar.
+21-1	1318-1321	Har	_	_	_	_	_	_	
+21-2	1322-1332	arbetslösa	_	_	_	_	_	_	
+21-3	1333-1342	föräldrar	_	_	_	_	_	_	
+21-4	1342-1343	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1345-1346	#	_	_	_	_	_	_	
+22-2	1346-1347	P	_	_	_	_	_	_	
+22-3	1348-1351	IMM	_	_	_	_	_	_	
+22-4	1351-1352	.	_	_	_	_	_	_	
+
+#Text=Bor i en splittrad familj.
+23-1	1354-1357	Bor	_	_	_	_	_	_	
+23-2	1358-1359	i	_	_	_	_	_	_	
+23-3	1360-1362	en	_	_	_	_	_	_	
+23-4	1363-1372	splittrad	_	Target	23-5	false	2	_	
+23-5	1373-1379	familj	*	_	_	_	_	_	
+23-6	1379-1380	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1382-1383	#	_	_	_	_	_	_	
+24-2	1383-1384	P	_	_	_	_	_	_	
+24-3	1385-1388	IMM	_	_	_	_	_	_	
+24-4	1388-1389	.	_	_	_	_	_	_	
+
+#Text=Har utlandsfödda föräldrar.
+25-1	1391-1394	Har	_	_	_	_	_	_	
+25-2	1395-1407	utlandsfödda	_	_	_	_	_	_	
+25-3	1408-1417	föräldrar	_	_	_	_	_	_	
+25-4	1417-1418	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1420-1421	#	_	_	_	_	_	_	
+26-2	1421-1422	P	_	_	_	_	_	_	
+26-3	1423-1426	IMM	_	_	_	_	_	_	
+26-4	1426-1427	.	_	_	_	_	_	_	
+
+#Text=Bor i lägenhet.
+27-1	1429-1432	Bor	_	_	_	_	_	_	
+27-2	1433-1434	i	_	_	_	_	_	_	
+27-3	1435-1443	lägenhet	_	_	_	_	_	_	
+27-4	1443-1444	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1446-1447	#	_	_	_	_	_	_	
+28-2	1447-1448	P	_	_[14]	_	false[14]	3[14]	_	
+28-3	1449-1452	IMM	_	_[14]	_	false[14]	3[14]	_	
+28-4	1452-1453	.	_	_	_	_	_	_	
+
+#Text=Om man nu sitter i endera position att kunna påverka invandring och integration och besitter kunskap om risker och förutsättningar så inbillar jag mej att framtiden skulle kunna se bättre ut för många av de kids i förorten som hamnar på glid.
+29-1	1455-1457	Om	_	_	_	_	_	_	
+29-2	1458-1461	man	_	_	_	_	_	_	
+29-3	1462-1464	nu	_	_	_	_	_	_	
+29-4	1465-1471	sitter	_	_	_	_	_	_	
+29-5	1472-1473	i	_	_	_	_	_	_	
+29-6	1474-1480	endera	_	_	_	_	_	_	
+29-7	1481-1489	position	_	_	_	_	_	_	
+29-8	1490-1493	att	_	_	_	_	_	_	
+29-9	1494-1499	kunna	_	_	_	_	_	_	
+29-10	1500-1507	påverka	_	_	_	_	_	_	
+29-11	1508-1518	invandring	_	_	_	_	_	_	
+29-12	1519-1522	och	_	_	_	_	_	_	
+29-13	1523-1534	integration	_	_	_	_	_	_	
+29-14	1535-1538	och	_	_	_	_	_	_	
+29-15	1539-1547	besitter	_	_	_	_	_	_	
+29-16	1548-1555	kunskap	_	_	_	_	_	_	
+29-17	1556-1558	om	_	_	_	_	_	_	
+29-18	1559-1565	risker	*	Target	29-18	false	2	_	
+29-19	1566-1569	och	_	_	_	_	_	_	
+29-20	1570-1585	förutsättningar	*	Target	29-20	false	4	_	
+29-21	1586-1588	så	_	_	_	_	_	_	
+29-22	1589-1597	inbillar	_	_	_	_	_	_	
+29-23	1598-1601	jag	*	_	_	_	_	_	
+29-24	1602-1605	mej	_	_	_	_	_	_	
+29-25	1606-1609	att	_	_	_	_	_	_	
+29-26	1610-1619	framtiden	*	_	_	_	_	_	
+29-27	1620-1626	skulle	_	Target;Source[15]	29-26;29-23	false[15]	4[15]	_	
+29-28	1627-1632	kunna	_	Target;Source[15]	29-26;29-23	false[15]	4[15]	_	
+29-29	1633-1635	se	_	Target;Source[15]	29-26;29-23	false[15]	4[15]	_	
+29-30	1636-1642	bättre	_	Target;Source[15]	29-26;29-23	false[15]	4[15]	_	
+29-31	1643-1645	ut	_	Target;Source[15]	29-26;29-23	false[15]	4[15]	_	
+29-32	1646-1649	för	_	_	_	_	_	_	
+29-33	1650-1655	många	_	_	_	_	_	_	
+29-34	1656-1658	av	_	_	_	_	_	_	
+29-35	1659-1661	de	_	_	_	_	_	_	
+29-36	1662-1666	kids	_	_	_	_	_	_	
+29-37	1667-1668	i	_	_	_	_	_	_	
+29-38	1669-1677	förorten	_	_	_	_	_	_	
+29-39	1678-1681	som	_	_	_	_	_	_	
+29-40	1682-1688	hamnar	_	_	_	_	_	_	
+29-41	1689-1691	på	_	_	_	_	_	_	
+29-42	1692-1696	glid	_	_	_	_	_	_	
+29-43	1696-1697	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1699-1700	#	_	_	_	_	_	_	
+30-2	1700-1701	P	_	_[16]	_	false[16]	3[16]	_	
+30-3	1702-1705	IMM	_	_[16]	_	false[16]	3[16]	_	
+30-4	1705-1706	.	_	_	_	_	_	_	
+
+#Text=Jag hoppas att ni förstår vad jag vill att vi ska diskutera och framförallt vad är det ni vill att de som sitter i endera positionen att påverka invandring och integration skall besitta grundläggande kunskaper?.
+31-1	1708-1711	Jag	*	_	_	_	_	_	
+31-2	1712-1718	hoppas	_	Target;Source	31-4[24];31-1	false	4	_	
+31-3	1719-1722	att	_	_	_	_	_	_	
+31-4	1723-1725	ni	*[24]	_	_	_	_	_	
+31-5	1726-1733	förstår	*[24]	_	_	_	_	_	
+31-6	1734-1737	vad	_	_	_	_	_	_	
+31-7	1738-1741	jag	_	_	_	_	_	_	
+31-8	1742-1746	vill	_	_	_	_	_	_	
+31-9	1747-1750	att	_	_	_	_	_	_	
+31-10	1751-1753	vi	_	_	_	_	_	_	
+31-11	1754-1757	ska	_	_	_	_	_	_	
+31-12	1758-1767	diskutera	_	_	_	_	_	_	
+31-13	1768-1771	och	_	_	_	_	_	_	
+31-14	1772-1783	framförallt	_	_	_	_	_	_	
+31-15	1784-1787	vad	*	_	_	_	_	_	
+31-16	1788-1790	är	_	_	_	_	_	_	
+31-17	1791-1794	det	_	_	_	_	_	_	
+31-18	1795-1797	ni	*	_	_	_	_	_	
+31-19	1798-1802	vill	_	Target;Source	31-15;31-18	false	3	_	
+31-20	1803-1806	att	_	_	_	_	_	_	
+31-21	1807-1809	de	_	_	_	_	_	_	
+31-22	1810-1813	som	_	_	_	_	_	_	
+31-23	1814-1820	sitter	_	_	_	_	_	_	
+31-24	1821-1822	i	_	_	_	_	_	_	
+31-25	1823-1829	endera	_	_	_	_	_	_	
+31-26	1830-1840	positionen	_	_	_	_	_	_	
+31-27	1841-1844	att	_	_	_	_	_	_	
+31-28	1845-1852	påverka	_	_	_	_	_	_	
+31-29	1853-1863	invandring	_	_	_	_	_	_	
+31-30	1864-1867	och	_	_	_	_	_	_	
+31-31	1868-1879	integration	_	_	_	_	_	_	
+31-32	1880-1885	skall	_	_	_	_	_	_	
+31-33	1886-1893	besitta	_	_	_	_	_	_	
+31-34	1894-1907	grundläggande	_	_	_	_	_	_	
+31-35	1908-1917	kunskaper	_	_	_	_	_	_	
+31-36	1917-1918	?	_	_	_	_	_	_	
+31-37	1918-1919	.	_	_	_	_	_	_	

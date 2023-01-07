@@ -1,0 +1,539 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Replik: Berts anklagelser är skrämmande.
+3-1	18-24	Replik	_	_	_	_	_	_	_	
+3-2	24-25	:	_	_	_	_	_	_	_	
+3-3	26-31	Berts	*[13]	_	_	_	_	_	_	
+3-4	32-43	anklagelser	*[13]	_	_	_	_	_	_	
+3-5	44-46	är	_	Target[1]	3-3[13]	false[1]	2[1]	_	_	
+3-6	47-57	skrämmande	_	Target[1]	3-3[13]	false[1]	2[1]	_	_	
+3-7	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=I fildelningsdebattens kölvatten dyker de upp som svampar ur marken – de misslyckade skivbolagsdirektörerna.
+5-1	69-70	I	_	_	_	_	_	_	_	
+5-2	71-91	fildelningsdebattens	_	_	_	_	_	_	_	
+5-3	92-101	kölvatten	_	_	_	_	_	_	_	
+5-4	102-107	dyker	_	_	_	_	_	_	_	
+5-5	108-110	de	_	_	_	_	_	_	_	
+5-6	111-114	upp	_	_	_	_	_	_	_	
+5-7	115-118	som	_	_	_	_	_	_	_	
+5-8	119-126	svampar	_	_	_	_	_	_	_	
+5-9	127-129	ur	_	_	_	_	_	_	_	
+5-10	130-136	marken	_	_	_	_	_	_	_	
+5-11	137-138	–	_	_	_	_	_	_	_	
+5-12	139-141	de	_	_	_	_	_	_	_	
+5-13	142-153	misslyckade	_	Target	5-14	false	2	_	_	
+5-14	154-176	skivbolagsdirektörerna	*	_	_	_	_	_	_	
+5-15	176-177	.	_	_	_	_	_	_	_	
+
+#Text=Likt zombies vandrar de omkring i ett medielandskap som för länge sedan sprungit förbi dem.
+6-1	178-182	Likt	_	Target[2]	6-4	false[2]	2[2]	_	_	
+6-2	183-190	zombies	_	Target[2]	6-4	false[2]	2[2]	_	_	
+6-3	191-198	vandrar	_	Target[2]	6-4	false[2]	2[2]	_	_	
+6-4	199-201	de	*	_	_	_	_	_	_	
+6-5	202-209	omkring	_	_	_	_	_	_	_	
+6-6	210-211	i	_	_	_	_	_	_	_	
+6-7	212-215	ett	_	_	_	_	_	_	_	
+6-8	216-229	medielandskap	_	_	_	_	_	_	_	
+6-9	230-233	som	_	_	_	_	_	_	_	
+6-10	234-237	för	_	_	_	_	_	_	_	
+6-11	238-243	länge	_	_	_	_	_	_	_	
+6-12	244-249	sedan	_	_	_	_	_	_	_	
+6-13	250-258	sprungit	_	_	_	_	_	_	_	
+6-14	259-264	förbi	_	_	_	_	_	_	_	
+6-15	265-268	dem	_	_	_	_	_	_	_	
+6-16	268-269	.	_	_	_	_	_	_	_	
+
+#Text=Senast i raden är Bert Karlsson.
+7-1	270-276	Senast	_	_	_	_	_	_	_	
+7-2	277-278	i	_	_	_	_	_	_	_	
+7-3	279-284	raden	_	_	_	_	_	_	_	
+7-4	285-287	är	_	_	_	_	_	_	_	
+7-5	288-292	Bert	_	_	_	_	_	_	_	
+7-6	293-301	Karlsson	_	_	_	_	_	_	_	
+7-7	301-302	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	304-305	#	_	_	_	_	_	_	_	
+8-2	305-306	P	_	_	_	_	_	_	_	
+8-3	307-310	IMM	_	_	_	_	_	_	_	
+8-4	310-311	.	_	_	_	_	_	_	_	
+
+#Text=Ny teknik ska smutskastas till varje pris och trots att kalendern visar 2006 skyr de inga medel att få oss att tro att musikkonsumenter fortfarande är passiva mottagare av envägskommunikation.
+9-1	313-315	Ny	*[14]	_	_	_	_	_	_	
+9-2	316-322	teknik	*[14]	_	_	_	_	_	_	
+9-3	323-326	ska	_	Target;Source[3]	9-1[14];9-31	false[3]	2[3]	_	_	
+9-4	327-338	smutskastas	_	Target;Source[3]	9-1[14];9-31	false[3]	2[3]	_	_	
+9-5	339-343	till	_	Target;Source[3]	9-1[14];9-31	false[3]	2[3]	_	_	
+9-6	344-349	varje	_	Target;Source[3]	9-1[14];9-31	false[3]	2[3]	_	_	
+9-7	350-354	pris	_	Target;Source[3]	9-1[14];9-31	false[3]	2[3]	_	_	
+9-8	355-358	och	_	_	_	_	_	_	_	
+9-9	359-364	trots	_	_	_	_	_	_	_	
+9-10	365-368	att	_	_	_	_	_	_	_	
+9-11	369-378	kalendern	_	_	_	_	_	_	_	
+9-12	379-384	visar	_	_	_	_	_	_	_	
+9-13	385-389	2006	_	_	_	_	_	_	_	
+9-14	390-394	skyr	_	_	_	_	_	_	_	
+9-15	395-397	de	_	_	_	_	_	_	_	
+9-16	398-402	inga	_	_	_	_	_	_	_	
+9-17	403-408	medel	_	_	_	_	_	_	_	
+9-18	409-412	att	_	_	_	_	_	_	_	
+9-19	413-415	få	_	_	_	_	_	_	_	
+9-20	416-419	oss	_	_	_	_	_	_	_	
+9-21	420-423	att	_	_	_	_	_	_	_	
+9-22	424-427	tro	_	_	_	_	_	_	_	
+9-23	428-431	att	_	_	_	_	_	_	_	
+9-24	432-448	musikkonsumenter	_	_	_	_	_	_	_	
+9-25	449-460	fortfarande	_	_	_	_	_	_	_	
+9-26	461-463	är	_	_	_	_	_	_	_	
+9-27	464-471	passiva	_	_	_	_	_	_	_	
+9-28	472-481	mottagare	_	_	_	_	_	_	_	
+9-29	482-484	av	_	_	_	_	_	_	_	
+9-30	485-504	envägskommunikation	_	_	_	_	_	_	_	
+9-31	504-505	.	*	_	_	_	_	_	_	
+
+#Text=När argumenten tryter hittar de helt enkelt på nya, allt för sina fem minuter i rampljuset.
+10-1	506-509	När	_	_	_	_	_	_	_	
+10-2	510-520	argumenten	_	_	_	_	_	_	_	
+10-3	521-527	tryter	_	_	_	_	_	_	_	
+10-4	528-534	hittar	_	_	_	_	_	_	_	
+10-5	535-537	de	_	_	_	_	_	_	_	
+10-6	538-542	helt	_	_	_	_	_	_	_	
+10-7	543-549	enkelt	_	_	_	_	_	_	_	
+10-8	550-552	på	_	_	_	_	_	_	_	
+10-9	553-556	nya	_	_	_	_	_	_	_	
+10-10	556-557	,	_	_	_	_	_	_	_	
+10-11	558-562	allt	_	_	_	_	_	_	_	
+10-12	563-566	för	_	_	_	_	_	_	_	
+10-13	567-571	sina	_	_	_	_	_	_	_	
+10-14	572-575	fem	_	_	_	_	_	_	_	
+10-15	576-583	minuter	_	_	_	_	_	_	_	
+10-16	584-585	i	_	_	_	_	_	_	_	
+10-17	586-596	rampljuset	_	_	_	_	_	_	_	
+10-18	596-597	.	_	_	_	_	_	_	_	
+
+#Text=På gårdagens  debatt nästlar Bert in sig ett nät av lögner som skulle få till och med hans irakiske förebild att rodna.
+11-1	598-600	På	_	_	_	_	_	_	_	
+11-2	601-610	gårdagens	_	_	_	_	_	_	_	
+11-3	612-618	debatt	_	_	_	_	_	_	_	
+11-4	619-626	nästlar	_	_	_	false	2	_	_	
+11-5	627-631	Bert	*	_	_	_	_	_	_	
+11-6	632-634	in	_	Target[4]	11-5	false[4]	2[4]	11-4[0_4]	_	
+11-7	635-638	sig	_	Target[4]	11-5	false[4]	2[4]	_	_	
+11-8	639-642	ett	*[15]	Target[4]	11-5	false[4]	2[4]	_	11-12[0_15]	
+11-9	643-646	nät	*[15]	Target[4]	11-5	false[4]	2[4]	_	_	
+11-10	647-649	av	*[15]	Target[4]	11-5	false[4]	2[4]	_	_	
+11-11	650-656	lögner	*[15]	Target[4]	11-5	false[4]	2[4]	_	_	
+11-12	657-660	som	*	_	_	_	_	_	_	
+11-13	661-667	skulle	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-14	668-670	få	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-15	671-675	till	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-16	676-679	och	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-17	680-683	med	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-18	684-688	hans	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-19	689-697	irakiske	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-20	698-706	förebild	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-21	707-710	att	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-22	711-716	rodna	_	Target[5]	11-12	false[5]	2[5]	_	_	
+11-23	716-717	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	719-720	#	_	_	_	_	_	_	_	
+12-2	720-721	P	_	_	_	_	_	_	_	
+12-3	722-725	IMM	_	_	_	_	_	_	_	
+12-4	725-726	.	_	_	_	_	_	_	_	
+
+#Text=Något av vad Bert påstår:.
+13-1	728-733	Något	_	_	_	_	_	_	_	
+13-2	734-736	av	_	_	_	_	_	_	_	
+13-3	737-740	vad	_	_	_	_	_	_	_	
+13-4	741-745	Bert	_	_	_	_	_	_	_	
+13-5	746-752	påstår	_	_	_	_	_	_	_	
+13-6	752-753	:	_	_	_	_	_	_	_	
+13-7	753-754	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Upphovsrättsbrott går att jämföra med tillgreppsbrottet stöld.” – Nej Bert, de som bryter mot ett monopol är inte tjuvar, vare sig det handlar om att sälja Ipren på Ica, ta med sig en extra flaska sprit från semestern eller att ignorera skivbolags ensamrätt att kopiera låtar.
+14-1	756-757	#	_	_	_	_	_	_	_	
+14-2	757-758	P	_	_	_	_	_	_	_	
+14-3	759-762	IMM	_	_	_	_	_	_	_	
+14-4	762-763	.	_	_	_	_	_	_	_	
+14-5	765-766	”	_	_	_	_	_	_	_	
+14-6	766-783	Upphovsrättsbrott	_	_	_	_	_	_	_	
+14-7	784-787	går	_	_	_	_	_	_	_	
+14-8	788-791	att	_	_	_	_	_	_	_	
+14-9	792-799	jämföra	_	_	_	_	_	_	_	
+14-10	800-803	med	_	_	_	_	_	_	_	
+14-11	804-821	tillgreppsbrottet	_	_	_	_	_	_	_	
+14-12	822-827	stöld	_	_	_	_	_	_	_	
+14-13	827-828	.	_	_	_	_	_	_	_	
+14-14	828-829	”	_	_	_	_	_	_	_	
+14-15	830-831	–	_	_	_	_	_	_	_	
+14-16	832-835	Nej	_	_	_	_	_	_	_	
+14-17	836-840	Bert	_	_	_	_	_	_	_	
+14-18	840-841	,	_	_	_	_	_	_	_	
+14-19	842-844	de	*[16]	_	_	_	_	_	_	
+14-20	845-848	som	*[16]	_	_	_	_	_	_	
+14-21	849-855	bryter	*[16]	_	_	_	_	_	_	
+14-22	856-859	mot	*[16]	_	_	_	_	_	_	
+14-23	860-863	ett	*[16]	_	_	_	_	_	_	
+14-24	864-871	monopol	*[16]	_	_	_	_	_	_	
+14-25	872-874	är	_	Target[6]	14-19[16]	false[6]	3[6]	_	_	
+14-26	875-879	inte	_	Target[6]	14-19[16]	false[6]	3[6]	_	_	
+14-27	880-886	tjuvar	_	Target[6]	14-19[16]	false[6]	3[6]	_	_	
+14-28	886-887	,	_	_	_	_	_	_	_	
+14-29	888-892	vare	_	_	_	_	_	_	_	
+14-30	893-896	sig	_	_	_	_	_	_	_	
+14-31	897-900	det	_	_	_	_	_	_	_	
+14-32	901-908	handlar	_	_	_	_	_	_	_	
+14-33	909-911	om	_	_	_	_	_	_	_	
+14-34	912-915	att	_	_	_	_	_	_	_	
+14-35	916-921	sälja	_	_	_	_	_	_	_	
+14-36	922-927	Ipren	_	_	_	_	_	_	_	
+14-37	928-930	på	_	_	_	_	_	_	_	
+14-38	931-934	Ica	_	_	_	_	_	_	_	
+14-39	934-935	,	_	_	_	_	_	_	_	
+14-40	936-938	ta	_	_	_	_	_	_	_	
+14-41	939-942	med	_	_	_	_	_	_	_	
+14-42	943-946	sig	_	_	_	_	_	_	_	
+14-43	947-949	en	_	_	_	_	_	_	_	
+14-44	950-955	extra	_	_	_	_	_	_	_	
+14-45	956-962	flaska	_	_	_	_	_	_	_	
+14-46	963-968	sprit	_	_	_	_	_	_	_	
+14-47	969-973	från	_	_	_	_	_	_	_	
+14-48	974-983	semestern	_	_	_	_	_	_	_	
+14-49	984-989	eller	_	_	_	_	_	_	_	
+14-50	990-993	att	_	_	_	_	_	_	_	
+14-51	994-1002	ignorera	_	_	_	_	_	_	_	
+14-52	1003-1013	skivbolags	_	_	_	_	_	_	_	
+14-53	1014-1023	ensamrätt	_	_	_	_	_	_	_	
+14-54	1024-1027	att	_	_	_	_	_	_	_	
+14-55	1028-1035	kopiera	_	_	_	_	_	_	_	
+14-56	1036-1041	låtar	_	_	_	_	_	_	_	
+14-57	1041-1042	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”The Pirate Bays indexering av torrentfiler är kriminell.” – Nej Bert, det är inte olagligt att länka till upphovsrättsskyddat material, i så fall skulle det inte gå att driva en sökmotor som Google.
+15-1	1044-1045	#	_	_	_	_	_	_	_	
+15-2	1045-1046	P	_	_	_	_	_	_	_	
+15-3	1047-1050	IMM	_	_	_	_	_	_	_	
+15-4	1050-1051	.	_	_	_	_	_	_	_	
+15-5	1053-1054	”	_	_	_	_	_	_	_	
+15-6	1054-1057	The	*[17]	_	_	_	_	_	_	
+15-7	1058-1064	Pirate	*[17]	_	_	_	_	_	_	
+15-8	1065-1069	Bays	*[17]	_	_	_	_	_	_	
+15-9	1070-1080	indexering	*[17]	_	_	_	_	_	_	
+15-10	1081-1083	av	*[17]	_	_	_	_	_	_	
+15-11	1084-1096	torrentfiler	*[17]	_	_	_	_	_	_	
+15-12	1097-1099	är	_	Source;Target[7]	15-43;15-6[17]	false[7]	2[7]	_	_	
+15-13	1100-1109	kriminell	_	Source;Target[7]	15-43;15-6[17]	false[7]	2[7]	_	_	
+15-14	1109-1110	.	_	_	_	_	_	_	_	
+15-15	1110-1111	”	_	_	_	_	_	_	_	
+15-16	1112-1113	–	_	_	_	_	_	_	_	
+15-17	1114-1117	Nej	_	_	_	_	_	_	_	
+15-18	1118-1122	Bert	_	_	_	_	_	_	_	
+15-19	1122-1123	,	_	_	_	_	_	_	_	
+15-20	1124-1127	det	_	_	_	_	_	_	_	
+15-21	1128-1130	är	_	_	_	_	_	_	_	
+15-22	1131-1135	inte	_	_	_	_	_	_	_	
+15-23	1136-1144	olagligt	_	_	_	_	_	_	_	
+15-24	1145-1148	att	_	_	_	_	_	_	_	
+15-25	1149-1154	länka	_	_	_	_	_	_	_	
+15-26	1155-1159	till	_	_	_	_	_	_	_	
+15-27	1160-1179	upphovsrättsskyddat	_	_	_	_	_	_	_	
+15-28	1180-1188	material	_	_	_	_	_	_	_	
+15-29	1188-1189	,	_	_	_	_	_	_	_	
+15-30	1190-1191	i	_	_	_	_	_	_	_	
+15-31	1192-1194	så	_	_	_	_	_	_	_	
+15-32	1195-1199	fall	_	_	_	_	_	_	_	
+15-33	1200-1206	skulle	_	_	_	_	_	_	_	
+15-34	1207-1210	det	_	_	_	_	_	_	_	
+15-35	1211-1215	inte	_	_	_	_	_	_	_	
+15-36	1216-1218	gå	_	_	_	_	_	_	_	
+15-37	1219-1222	att	_	_	_	_	_	_	_	
+15-38	1223-1228	driva	_	_	_	_	_	_	_	
+15-39	1229-1231	en	_	_	_	_	_	_	_	
+15-40	1232-1240	sökmotor	_	_	_	_	_	_	_	
+15-41	1241-1244	som	_	_	_	_	_	_	_	
+15-42	1245-1251	Google	_	_	_	_	_	_	_	
+15-43	1251-1252	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1254-1255	#	_	_	_	_	_	_	_	
+16-2	1255-1256	P	_	_	_	_	_	_	_	
+16-3	1257-1260	IMM	_	_	_	_	_	_	_	
+16-4	1260-1261	.	_	_	_	_	_	_	_	
+
+#Text=Bert fortsätter sen med att anklaga oss bakom Piratbyrån och The Pirate Bay och dessutom en hel ungdomsgeneration för högerextremism.
+17-1	1263-1267	Bert	*	_	_	_	_	_	_	
+17-2	1268-1278	fortsätter	_	_	_	_	_	_	_	
+17-3	1279-1282	sen	_	_	_	_	_	_	_	
+17-4	1283-1286	med	_	_	_	_	_	_	_	
+17-5	1287-1290	att	_	_	_	_	_	_	_	
+17-6	1291-1298	anklaga	_	_	_	false	2	_	_	
+17-7	1299-1302	oss	*[18]	_	_	_	_	_	_	
+17-8	1303-1308	bakom	*[18]	_	_	_	_	_	_	
+17-9	1309-1319	Piratbyrån	*[18]	_	_	_	_	_	_	
+17-10	1320-1323	och	*[18]	_	_	_	_	_	_	
+17-11	1324-1327	The	*[18]	_	_	_	_	_	_	
+17-12	1328-1334	Pirate	*[18]	_	_	_	_	_	_	
+17-13	1335-1338	Bay	*[18]	_	_	_	_	_	_	
+17-14	1339-1342	och	*[18]	_	_	_	_	_	_	
+17-15	1343-1351	dessutom	*[18]	_	_	_	_	_	_	
+17-16	1352-1354	en	*[18]	_	_	_	_	_	_	
+17-17	1355-1358	hel	*[18]	_	_	_	_	_	_	
+17-18	1359-1376	ungdomsgeneration	*[18]	_	_	_	_	_	_	
+17-19	1377-1380	för	_	Target;Source[8]	17-7[18];17-1	false[8]	2[8]	17-6[0_8]	_	
+17-20	1381-1395	högerextremism	_	Target;Source[8]	17-7[18];17-1	false[8]	2[8]	_	_	
+17-21	1395-1396	.	_	_	_	_	_	_	_	
+
+#Text=Det är komik på hög nivå, som baseras på två felaktiga påståenden:.
+18-1	1397-1400	Det	_	_	_	_	_	_	_	
+18-2	1401-1403	är	_	_	_	_	_	_	_	
+18-3	1404-1409	komik	_	_	_	_	_	_	_	
+18-4	1410-1412	på	_	_	_	_	_	_	_	
+18-5	1413-1416	hög	_	_	_	_	_	_	_	
+18-6	1417-1421	nivå	_	_	_	_	_	_	_	
+18-7	1421-1422	,	_	_	_	_	_	_	_	
+18-8	1423-1426	som	_	_	_	_	_	_	_	
+18-9	1427-1434	baseras	_	_	_	_	_	_	_	
+18-10	1435-1437	på	_	_	_	_	_	_	_	
+18-11	1438-1441	två	_	_	_	_	_	_	_	
+18-12	1442-1451	felaktiga	_	_	_	_	_	_	_	
+18-13	1452-1462	påståenden	_	_	_	_	_	_	_	
+18-14	1462-1463	:	_	_	_	_	_	_	_	
+18-15	1463-1464	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Sverigedemokraterna hamnar på tredje plats när ungdomar får rösta.” – Nej Bert, siffran bygger på en oseriös undersökning på ungdomssajten Lunarstorm och har vederlagts av vetenskapliga opinionsmätningar.
+19-1	1466-1467	#	_	_	_	_	_	_	_	
+19-2	1467-1468	P	_	_	_	_	_	_	_	
+19-3	1469-1472	IMM	_	_	_	_	_	_	_	
+19-4	1472-1473	.	_	_	_	_	_	_	_	
+19-5	1475-1476	”	_	_	_	_	_	_	_	
+19-6	1476-1495	Sverigedemokraterna	_	_	_	_	_	_	_	
+19-7	1496-1502	hamnar	_	_	_	_	_	_	_	
+19-8	1503-1505	på	_	_	_	_	_	_	_	
+19-9	1506-1512	tredje	_	_	_	_	_	_	_	
+19-10	1513-1518	plats	_	_	_	_	_	_	_	
+19-11	1519-1522	när	_	_	_	_	_	_	_	
+19-12	1523-1531	ungdomar	_	_	_	_	_	_	_	
+19-13	1532-1535	får	_	_	_	_	_	_	_	
+19-14	1536-1541	rösta	_	_	_	_	_	_	_	
+19-15	1541-1542	.	_	_	_	_	_	_	_	
+19-16	1542-1543	”	_	_	_	_	_	_	_	
+19-17	1544-1545	–	_	_	_	_	_	_	_	
+19-18	1546-1549	Nej	_	_	_	_	_	_	_	
+19-19	1550-1554	Bert	_	_	_	_	_	_	_	
+19-20	1554-1555	,	_	_	_	_	_	_	_	
+19-21	1556-1563	siffran	_	_	_	_	_	_	_	
+19-22	1564-1570	bygger	_	_	_	_	_	_	_	
+19-23	1571-1573	på	_	_	_	_	_	_	_	
+19-24	1574-1576	en	_	_	_	_	_	_	_	
+19-25	1577-1584	oseriös	_	Target	19-26[19]	false	2	_	_	
+19-26	1585-1597	undersökning	*[19]	_	_	_	_	_	_	
+19-27	1598-1600	på	*[19]	_	_	_	_	_	_	
+19-28	1601-1614	ungdomssajten	*[19]	_	_	_	_	_	_	
+19-29	1615-1625	Lunarstorm	*[19]	_	_	_	_	_	_	
+19-30	1626-1629	och	_	_	_	_	_	_	_	
+19-31	1630-1633	har	_	_	_	_	_	_	_	
+19-32	1634-1644	vederlagts	_	_	_	_	_	_	_	
+19-33	1645-1647	av	_	_	_	_	_	_	_	
+19-34	1648-1661	vetenskapliga	_	_	_	_	_	_	_	
+19-35	1662-1679	opinionsmätningar	_	_	_	_	_	_	_	
+19-36	1679-1680	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=”Aktörerna bakom The Pirate Bay är högerextremister.”
+20-1	1682-1683	#	_	_	_	_	_	_	_	
+20-2	1683-1684	P	_	_	_	_	_	_	_	
+20-3	1685-1688	IMM	_	_	_	_	_	_	_	
+20-4	1688-1689	.	_	_	_	_	_	_	_	
+20-5	1691-1692	”	_	_	_	_	_	_	_	
+20-6	1692-1701	Aktörerna	*[20]	_	_	_	_	_	_	
+20-7	1702-1707	bakom	*[20]	_	_	_	_	_	_	
+20-8	1708-1711	The	*[20]	_	_	_	_	_	_	
+20-9	1712-1718	Pirate	*[20]	_	_	_	_	_	_	
+20-10	1719-1722	Bay	*[20]	_	_	_	_	_	_	
+20-11	1723-1725	är	_	Source;Target[9]	20-13;20-6[20]	false[9]	2[9]	_	_	
+20-12	1726-1742	högerextremister	_	Source;Target[9]	20-13;20-6[20]	false[9]	2[9]	_	_	
+20-13	1742-1743	.	*	_	_	_	_	_	_	
+20-14	1743-1744	”	_	_	_	_	_	_	_	
+
+#Text=Har du blivit spritt språngande galen, Bert?
+21-1	1745-1748	Har	_	_	_	false	2	_	_	
+21-2	1749-1751	du	*	_	_	_	_	_	_	
+21-3	1752-1758	blivit	_	Target[10]	21-2	false[10]	2[10]	21-1[0_10]	_	
+21-4	1759-1765	spritt	_	Target[10]	21-2	false[10]	2[10]	_	_	
+21-5	1766-1776	språngande	_	Target[10]	21-2	false[10]	2[10]	_	_	
+21-6	1777-1782	galen	_	Target[10]	21-2	false[10]	2[10]	_	_	
+21-7	1782-1783	,	_	_	_	_	_	_	_	
+21-8	1784-1788	Bert	*	_	_	_	_	_	21-2	
+21-9	1788-1789	?	_	_	_	_	_	_	_	
+
+#Text=Vad den misslyckade skivbolagsdirektören antagligen syftar på är hans kollega Brumarks ”avslöjande” att The Pirate Bay tidigare anlitat internetleverantören Rix Telecom, som drivs av en sverigedemokrat.
+22-1	1790-1793	Vad	_	_	_	_	_	_	_	
+22-2	1794-1797	den	_	_	_	_	_	_	_	
+22-3	1798-1809	misslyckade	_	Target	22-4	false	2	_	_	
+22-4	1810-1830	skivbolagsdirektören	*	_	_	_	_	_	_	
+22-5	1831-1841	antagligen	_	_	_	_	_	_	_	
+22-6	1842-1848	syftar	_	_	_	_	_	_	_	
+22-7	1849-1851	på	_	_	_	_	_	_	_	
+22-8	1852-1854	är	_	_	_	_	_	_	_	
+22-9	1855-1859	hans	_	_	_	_	_	_	_	
+22-10	1860-1867	kollega	_	_	_	_	_	_	_	
+22-11	1868-1876	Brumarks	_	_	_	_	_	_	_	
+22-12	1877-1878	”	_	_	_	_	_	_	_	
+22-13	1878-1888	avslöjande	_	_	_	_	_	_	_	
+22-14	1888-1889	”	_	_	_	_	_	_	_	
+22-15	1890-1893	att	_	_	_	_	_	_	_	
+22-16	1894-1897	The	_	_	_	_	_	_	_	
+22-17	1898-1904	Pirate	_	_	_	_	_	_	_	
+22-18	1905-1908	Bay	_	_	_	_	_	_	_	
+22-19	1909-1917	tidigare	_	_	_	_	_	_	_	
+22-20	1918-1925	anlitat	_	_	_	_	_	_	_	
+22-21	1926-1946	internetleverantören	_	_	_	_	_	_	_	
+22-22	1947-1950	Rix	_	_	_	_	_	_	_	
+22-23	1951-1958	Telecom	_	_	_	_	_	_	_	
+22-24	1958-1959	,	_	_	_	_	_	_	_	
+22-25	1960-1963	som	_	_	_	_	_	_	_	
+22-26	1964-1969	drivs	_	_	_	_	_	_	_	
+22-27	1970-1972	av	_	_	_	_	_	_	_	
+22-28	1973-1975	en	_	_	_	_	_	_	_	
+22-29	1976-1991	sverigedemokrat	_	_	_	_	_	_	_	
+22-30	1991-1992	.	_	_	_	_	_	_	_	
+
+#Text=Enligt samma logik skulle folkpartiet, Sverok liksom alla andra nuvarande och tidigare Rix-kunder vara rasister.
+23-1	1993-1999	Enligt	_	_	_	_	_	_	_	
+23-2	2000-2005	samma	_	_	_	_	_	_	_	
+23-3	2006-2011	logik	_	_	_	_	_	_	_	
+23-4	2012-2018	skulle	_	_	_	_	_	_	_	
+23-5	2019-2030	folkpartiet	_	_	_	_	_	_	_	
+23-6	2030-2031	,	_	_	_	_	_	_	_	
+23-7	2032-2038	Sverok	_	_	_	_	_	_	_	
+23-8	2039-2045	liksom	_	_	_	_	_	_	_	
+23-9	2046-2050	alla	_	_	_	_	_	_	_	
+23-10	2051-2056	andra	_	_	_	_	_	_	_	
+23-11	2057-2066	nuvarande	_	_	_	_	_	_	_	
+23-12	2067-2070	och	_	_	_	_	_	_	_	
+23-13	2071-2079	tidigare	_	_	_	_	_	_	_	
+23-14	2080-2090	Rix-kunder	_	_	_	_	_	_	_	
+23-15	2091-2095	vara	_	_	_	_	_	_	_	
+23-16	2096-2104	rasister	_	_	_	_	_	_	_	
+23-17	2104-2105	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	2107-2108	#	_	_	_	_	_	_	_	
+24-2	2108-2109	P	_	_	_	_	_	_	_	
+24-3	2110-2113	IMM	_	_	_	_	_	_	_	
+24-4	2113-2114	.	_	_	_	_	_	_	_	
+
+#Text=Piratbyrån och The Pirate Bays ideologi stavas ”Copy me” och vår politik är en skön mix av allt mellan nyliberaler och radikal vänster.
+25-1	2116-2126	Piratbyrån	_	_	_	_	_	_	_	
+25-2	2127-2130	och	_	_	_	_	_	_	_	
+25-3	2131-2134	The	_	_	_	_	_	_	_	
+25-4	2135-2141	Pirate	_	_	_	_	_	_	_	
+25-5	2142-2146	Bays	_	_	_	_	_	_	_	
+25-6	2147-2155	ideologi	_	_	_	_	_	_	_	
+25-7	2156-2162	stavas	_	_	_	_	_	_	_	
+25-8	2163-2164	”	_	_	_	_	_	_	_	
+25-9	2164-2168	Copy	_	_	_	_	_	_	_	
+25-10	2169-2171	me	_	_	_	_	_	_	_	
+25-11	2171-2172	”	_	_	_	_	_	_	_	
+25-12	2173-2176	och	_	_	_	_	_	_	_	
+25-13	2177-2180	vår	*[21]	_	_	_	_	_	_	
+25-14	2181-2188	politik	*[21]	_	_	_	_	_	_	
+25-15	2189-2191	är	_	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-16	2192-2194	en	_	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-17	2195-2199	skön	_	Target[11]|Target[12]	25-13[21]|25-18[22]	false[11]|false[12]	4[11]|4[12]	_	_	
+25-18	2200-2203	mix	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-19	2204-2206	av	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-20	2207-2211	allt	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-21	2212-2218	mellan	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-22	2219-2230	nyliberaler	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-23	2231-2234	och	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-24	2235-2242	radikal	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-25	2243-2250	vänster	*[22]	Target[11]	25-13[21]	false[11]	4[11]	_	_	
+25-26	2250-2251	.	_	_	_	_	_	_	_	
+
+#Text=Några högerextremister har vi aldrig sett till och vi har ingen aning om deras inställning i kopieringsfrågor.
+26-1	2252-2257	Några	_	_	_	_	_	_	_	
+26-2	2258-2274	högerextremister	_	_	_	_	_	_	_	
+26-3	2275-2278	har	_	_	_	_	_	_	_	
+26-4	2279-2281	vi	_	_	_	_	_	_	_	
+26-5	2282-2288	aldrig	_	_	_	_	_	_	_	
+26-6	2289-2293	sett	_	_	_	_	_	_	_	
+26-7	2294-2298	till	_	_	_	_	_	_	_	
+26-8	2299-2302	och	_	_	_	_	_	_	_	
+26-9	2303-2305	vi	_	_	_	_	_	_	_	
+26-10	2306-2309	har	_	_	_	_	_	_	_	
+26-11	2310-2315	ingen	_	_	_	_	_	_	_	
+26-12	2316-2321	aning	_	_	_	_	_	_	_	
+26-13	2322-2324	om	_	_	_	_	_	_	_	
+26-14	2325-2330	deras	_	_	_	_	_	_	_	
+26-15	2331-2342	inställning	_	_	_	_	_	_	_	
+26-16	2343-2344	i	_	_	_	_	_	_	_	
+26-17	2345-2361	kopieringsfrågor	_	_	_	_	_	_	_	
+26-18	2361-2362	.	_	_	_	_	_	_	_	
+
+#Text=Vad vi däremot vet är att sist det satt ett högerpopulistiskt parti i riksdagen, så drevs det av en misslyckad skivbolagsdirektör.
+27-1	2363-2366	Vad	_	_	_	_	_	_	_	
+27-2	2367-2369	vi	_	_	_	_	_	_	_	
+27-3	2370-2377	däremot	_	_	_	_	_	_	_	
+27-4	2378-2381	vet	_	_	_	_	_	_	_	
+27-5	2382-2384	är	_	_	_	_	_	_	_	
+27-6	2385-2388	att	_	_	_	_	_	_	_	
+27-7	2389-2393	sist	_	_	_	_	_	_	_	
+27-8	2394-2397	det	_	_	_	_	_	_	_	
+27-9	2398-2402	satt	_	_	_	_	_	_	_	
+27-10	2403-2406	ett	_	_	_	_	_	_	_	
+27-11	2407-2424	högerpopulistiskt	_	Target	27-12	false	2	_	_	
+27-12	2425-2430	parti	*	_	_	_	_	_	_	
+27-13	2431-2432	i	_	_	_	_	_	_	_	
+27-14	2433-2442	riksdagen	_	_	_	_	_	_	_	
+27-15	2442-2443	,	_	_	_	_	_	_	_	
+27-16	2444-2446	så	_	_	_	_	_	_	_	
+27-17	2447-2452	drevs	_	_	_	_	_	_	_	
+27-18	2453-2456	det	_	_	_	_	_	_	_	
+27-19	2457-2459	av	_	_	_	_	_	_	_	
+27-20	2460-2462	en	_	_	_	_	_	_	_	
+27-21	2463-2473	misslyckad	_	Target	27-22	false	2	_	_	
+27-22	2474-2492	skivbolagsdirektör	*	_	_	_	_	_	_	
+27-23	2492-2493	.	_	_	_	_	_	_	_	
+
+#Text=Kasta inte sten i glashus, Bert.
+28-1	2494-2499	Kasta	_	_	_	_	_	_	_	
+28-2	2500-2504	inte	_	_	_	_	_	_	_	
+28-3	2505-2509	sten	_	_	_	_	_	_	_	
+28-4	2510-2511	i	_	_	_	_	_	_	_	
+28-5	2512-2519	glashus	_	_	_	_	_	_	_	
+28-6	2519-2520	,	_	_	_	_	_	_	_	
+28-7	2521-2525	Bert	_	_	_	_	_	_	_	
+28-8	2525-2526	.	_	_	_	_	_	_	_	

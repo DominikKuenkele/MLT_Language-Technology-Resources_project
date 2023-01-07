@@ -1,0 +1,1060 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Militär insats målas upp som syndabock.
+3-1	18-25	Militär	*[14]	_	_	_	_	_	
+3-2	26-32	insats	*[14]	_	_	_	_	_	
+3-3	33-38	målas	_	_	_	_	_	_	
+3-4	39-42	upp	_	_	_	_	_	_	
+3-5	43-46	som	_	_	_	_	_	_	
+3-6	47-56	syndabock	_	Source;Target	3-7;3-1[14]	false	2	_	
+3-7	56-57	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=Militära medel krävs när diplomatin gjorts verkningslös, men detta verkar svårsmält för debattörerna som kritiserar den svenska insatsen i Afghanistan, skriver Callis Amid i en replik.
+5-1	68-76	Militära	_	_	_	_	_	_	
+5-2	77-82	medel	_	_	_	_	_	_	
+5-3	83-88	krävs	_	_	_	_	_	_	
+5-4	89-92	när	_	_	_	_	_	_	
+5-5	93-103	diplomatin	*	_	_	_	_	_	
+5-6	104-110	gjorts	_	Target;Source[1]	5-5;5-24[16]	false[1]	2[1]	_	
+5-7	111-123	verkningslös	_	Target;Source[1]	5-5;5-24[16]	false[1]	2[1]	_	
+5-8	123-124	,	_	_	_	_	_	_	
+5-9	125-128	men	_	_	_	_	_	_	
+5-10	129-134	detta	_	_	_	_	_	_	
+5-11	135-141	verkar	_	Source;Target[2]	5-24[16];5-14	false[2]	2[2]	_	
+5-12	142-151	svårsmält	_	Source;Target[2]	5-24[16];5-14	false[2]	2[2]	_	
+5-13	152-155	för	_	_	_	_	_	_	
+5-14	156-168	debattörerna	*	_	_	_	_	_	
+5-15	169-172	som	_	_	_	_	_	_	
+5-16	173-183	kritiserar	_	Target;Source	5-17[15];5-14	false	2	_	
+5-17	184-187	den	*[15]	_	_	_	_	_	
+5-18	188-195	svenska	*[15]	_	_	_	_	_	
+5-19	196-204	insatsen	*[15]	_	_	_	_	_	
+5-20	205-206	i	*[15]	_	_	_	_	_	
+5-21	207-218	Afghanistan	*[15]	_	_	_	_	_	
+5-22	218-219	,	_	_	_	_	_	_	
+5-23	220-227	skriver	_	_	_	_	_	_	
+5-24	228-234	Callis	*[16]	_	_	_	_	_	
+5-25	235-239	Amid	*[16]	_	_	_	_	_	
+5-26	240-241	i	_	_	_	_	_	_	
+5-27	242-244	en	_	_	_	_	_	_	
+5-28	245-251	replik	_	_	_	_	_	_	
+5-29	251-252	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	254-255	#	_	_	_	_	_	_	
+6-2	255-256	P	_	_	_	_	_	_	
+6-3	257-260	IMM	_	_	_	_	_	_	
+6-4	260-261	.	_	_	_	_	_	_	
+
+#Text=Ferm, Liljestrand och Theorin låter påskina att den försämrade utvecklingen i Afghanistan beror enkom på den militära insatsen i landet (SvD Debatt 30/8).
+7-1	263-267	Ferm	*[17]	_	_	_	_	_	
+7-2	267-268	,	*[17]	_	_	_	_	_	
+7-3	269-280	Liljestrand	*[17]	_	_	_	_	_	
+7-4	281-284	och	*[17]	_	_	_	_	_	
+7-5	285-292	Theorin	*[17]	_	_	_	_	_	
+7-6	293-298	låter	_	Target[3]	7-1[17]	false[3]	2[3]	_	
+7-7	299-306	påskina	_	Target[3]	7-1[17]	false[3]	2[3]	_	
+7-8	307-310	att	_	_	_	_	_	_	
+7-9	311-314	den	_	_	_	_	_	_	
+7-10	315-325	försämrade	_	Target	7-11	false	2	_	
+7-11	326-338	utvecklingen	*	_	_	_	_	_	
+7-12	339-340	i	_	_	_	_	_	_	
+7-13	341-352	Afghanistan	_	_	_	_	_	_	
+7-14	353-358	beror	_	_	_	_	_	_	
+7-15	359-364	enkom	_	_	_	_	_	_	
+7-16	365-367	på	_	_	_	_	_	_	
+7-17	368-371	den	_	_	_	_	_	_	
+7-18	372-380	militära	_	_	_	_	_	_	
+7-19	381-389	insatsen	_	_	_	_	_	_	
+7-20	390-391	i	_	_	_	_	_	_	
+7-21	392-398	landet	_	_	_	_	_	_	
+7-22	399-400	(	_	_	_	_	_	_	
+7-23	400-403	SvD	_	_	_	_	_	_	
+7-24	404-410	Debatt	_	_	_	_	_	_	
+7-25	411-413	30	_	_	_	_	_	_	
+7-26	413-414	/	_	_	_	_	_	_	
+7-27	414-415	8	_	_	_	_	_	_	
+7-28	415-416	)	_	_	_	_	_	_	
+7-29	416-417	.	_	_	_	_	_	_	
+
+#Text=Att fler faktorer har haft betydelse för landets utveckling, såsom etniska låsningar i den politiska ledningen och brist på koordinerg av militära och civila resurser, underlåter debattörerna att nämna.
+8-1	418-421	Att	_	_	_	_	_	_	
+8-2	422-426	fler	_	_	_	_	_	_	
+8-3	427-435	faktorer	_	_	_	_	_	_	
+8-4	436-439	har	_	_	_	_	_	_	
+8-5	440-444	haft	_	_	_	_	_	_	
+8-6	445-454	betydelse	_	_	_	_	_	_	
+8-7	455-458	för	_	_	_	_	_	_	
+8-8	459-466	landets	_	_	_	_	_	_	
+8-9	467-477	utveckling	_	_	_	_	_	_	
+8-10	477-478	,	_	_	_	_	_	_	
+8-11	479-484	såsom	_	_	_	_	_	_	
+8-12	485-492	etniska	_	_	_	_	_	_	
+8-13	493-502	låsningar	_	_	_	_	_	_	
+8-14	503-504	i	_	_	_	_	_	_	
+8-15	505-508	den	_	_	_	_	_	_	
+8-16	509-518	politiska	_	_	_	_	_	_	
+8-17	519-528	ledningen	_	_	_	_	_	_	
+8-18	529-532	och	_	_	_	_	_	_	
+8-19	533-538	brist	_	_	_	_	_	_	
+8-20	539-541	på	_	_	_	_	_	_	
+8-21	542-552	koordinerg	_	_	_	_	_	_	
+8-22	553-555	av	_	_	_	_	_	_	
+8-23	556-564	militära	_	_	_	_	_	_	
+8-24	565-568	och	_	_	_	_	_	_	
+8-25	569-575	civila	_	_	_	_	_	_	
+8-26	576-584	resurser	_	_	_	_	_	_	
+8-27	584-585	,	_	_	_	_	_	_	
+8-28	586-596	underlåter	_	_	_	false	2	_	
+8-29	597-609	debattörerna	*	_	_	_	_	_	
+8-30	610-613	att	_	Target[4]	8-29	false[4]	2[4]	8-28[0_4]	
+8-31	614-619	nämna	_	Target[4]	8-29	false[4]	2[4]	_	
+8-32	619-620	.	_	_	_	_	_	_	
+
+#Text=Det är enfaldigt och ger en onyanserad bild av en komplex händelseutveckling.
+9-1	621-624	Det	_	_	_	_	_	_	
+9-2	625-627	är	_	_	_	_	_	_	
+9-3	628-637	enfaldigt	_	_	_	_	_	_	
+9-4	638-641	och	_	_	_	_	_	_	
+9-5	642-645	ger	_	_	_	_	_	_	
+9-6	646-648	en	_	_	_	_	_	_	
+9-7	649-659	onyanserad	_	_	_	_	_	_	
+9-8	660-664	bild	_	_	_	_	_	_	
+9-9	665-667	av	_	_	_	_	_	_	
+9-10	668-670	en	_	_	_	_	_	_	
+9-11	671-678	komplex	_	_	_	_	_	_	
+9-12	679-697	händelseutveckling	_	_	_	_	_	_	
+9-13	697-698	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	700-701	#	_	_	_	_	_	_	
+10-2	701-702	P	_	_	_	_	_	_	
+10-3	703-706	IMM	_	_	_	_	_	_	
+10-4	706-707	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	709-712	Det	_	_	_	_	_	_	
+11-2	713-716	här	_	_	_	_	_	_	
+11-3	717-719	är	_	_	_	_	_	_	
+11-4	720-722	en	_	_	_	_	_	_	
+11-5	723-737	argumenterande	_	_	_	_	_	_	
+11-6	738-742	text	_	_	_	_	_	_	
+11-7	743-746	med	_	_	_	_	_	_	
+11-8	747-752	syfte	_	_	_	_	_	_	
+11-9	753-756	att	_	_	_	_	_	_	
+11-10	757-764	påverka	_	_	_	_	_	_	
+11-11	764-765	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	766-775	Åsikterna	_	_	_	_	_	_	
+12-2	776-779	som	_	_	_	_	_	_	
+12-3	780-788	uttrycks	_	_	_	_	_	_	
+12-4	789-791	är	_	_	_	_	_	_	
+12-5	792-803	skribentens	_	_	_	_	_	_	
+12-6	804-808	egna	_	_	_	_	_	_	
+12-7	808-809	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	811-812	#	_	_	_	_	_	_	
+13-2	812-813	P	_	_	_	_	_	_	
+13-3	814-817	IMM	_	_	_	_	_	_	
+13-4	817-818	.	_	_	_	_	_	_	
+
+#Text=Debattörerna hänvisar vidare till det ökande antalet skadade och dödade men väljer att bortse från en starkt bidragande faktor; tillbakadragandet av västvärldens militära styrkor.
+14-1	820-832	Debattörerna	*	_	_	_	_	_	
+14-2	833-841	hänvisar	_	_	_	_	_	_	
+14-3	842-848	vidare	_	_	_	_	_	_	
+14-4	849-853	till	_	_	_	_	_	_	
+14-5	854-857	det	_	_	_	_	_	_	
+14-6	858-864	ökande	_	_	_	_	_	_	
+14-7	865-872	antalet	_	_	_	_	_	_	
+14-8	873-880	skadade	_	_	_	_	_	_	
+14-9	881-884	och	_	_	_	_	_	_	
+14-10	885-891	dödade	_	_	_	_	_	_	
+14-11	892-895	men	_	_	_	_	_	_	
+14-12	896-902	väljer	_	Target[5]	14-1	false[5]	2[5]	_	
+14-13	903-906	att	_	Target[5]	14-1	false[5]	2[5]	_	
+14-14	907-913	bortse	_	Target[5]	14-1	false[5]	2[5]	_	
+14-15	914-918	från	_	_	_	_	_	_	
+14-16	919-921	en	_	_	_	_	_	_	
+14-17	922-928	starkt	_	_	_	_	_	_	
+14-18	929-939	bidragande	_	_	_	_	_	_	
+14-19	940-946	faktor	_	_	_	_	_	_	
+14-20	946-947	;	_	_	_	_	_	_	
+14-21	948-965	tillbakadragandet	_	_	_	_	_	_	
+14-22	966-968	av	_	_	_	_	_	_	
+14-23	969-981	västvärldens	_	_	_	_	_	_	
+14-24	982-990	militära	_	_	_	_	_	_	
+14-25	991-998	styrkor	_	_	_	_	_	_	
+14-26	998-999	.	_	_	_	_	_	_	
+
+#Text=Antalet dödade och skadade civila ökade med 22 procent under 2014 – året då lejonparten av världssamfundets militära bidrag avvecklades – jämfört med 2013 enligt en rapport från UNAMA tidigare i år.
+15-1	1000-1007	Antalet	_	_	_	_	_	_	
+15-2	1008-1014	dödade	_	_	_	_	_	_	
+15-3	1015-1018	och	_	_	_	_	_	_	
+15-4	1019-1026	skadade	_	_	_	_	_	_	
+15-5	1027-1033	civila	_	_	_	_	_	_	
+15-6	1034-1039	ökade	_	_	_	_	_	_	
+15-7	1040-1043	med	_	_	_	_	_	_	
+15-8	1044-1046	22	_	_	_	_	_	_	
+15-9	1047-1054	procent	_	_	_	_	_	_	
+15-10	1055-1060	under	_	_	_	_	_	_	
+15-11	1061-1065	2014	_	_	_	_	_	_	
+15-12	1066-1067	–	_	_	_	_	_	_	
+15-13	1068-1072	året	_	_	_	_	_	_	
+15-14	1073-1075	då	_	_	_	_	_	_	
+15-15	1076-1087	lejonparten	_	_	_	_	_	_	
+15-16	1088-1090	av	_	_	_	_	_	_	
+15-17	1091-1107	världssamfundets	_	_	_	_	_	_	
+15-18	1108-1116	militära	_	_	_	_	_	_	
+15-19	1117-1123	bidrag	_	_	_	_	_	_	
+15-20	1124-1135	avvecklades	_	_	_	_	_	_	
+15-21	1136-1137	–	_	_	_	_	_	_	
+15-22	1138-1145	jämfört	_	_	_	_	_	_	
+15-23	1146-1149	med	_	_	_	_	_	_	
+15-24	1150-1154	2013	_	_	_	_	_	_	
+15-25	1155-1161	enligt	_	_	_	_	_	_	
+15-26	1162-1164	en	_	_	_	_	_	_	
+15-27	1165-1172	rapport	_	_	_	_	_	_	
+15-28	1173-1177	från	_	_	_	_	_	_	
+15-29	1178-1183	UNAMA	_	_	_	_	_	_	
+15-30	1184-1192	tidigare	_	_	_	_	_	_	
+15-31	1193-1194	i	_	_	_	_	_	_	
+15-32	1195-1197	år	_	_	_	_	_	_	
+15-33	1197-1198	.	_	_	_	_	_	_	
+
+#Text=Varför redogör inte Ferm, Liljestrand och Theorin för detta samband?.
+16-1	1199-1205	Varför	_	_	_	_	_	_	
+16-2	1206-1213	redogör	_	_	_	_	_	_	
+16-3	1214-1218	inte	_	_	_	_	_	_	
+16-4	1219-1223	Ferm	_	_	_	_	_	_	
+16-5	1223-1224	,	_	_	_	_	_	_	
+16-6	1225-1236	Liljestrand	_	_	_	_	_	_	
+16-7	1237-1240	och	_	_	_	_	_	_	
+16-8	1241-1248	Theorin	_	_	_	_	_	_	
+16-9	1249-1252	för	_	_	_	_	_	_	
+16-10	1253-1258	detta	_	_	_	_	_	_	
+16-11	1259-1266	samband	_	_	_	_	_	_	
+16-12	1266-1267	?	_	_	_	_	_	_	
+16-13	1267-1268	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1270-1271	#	_	_	_	_	_	_	
+17-2	1271-1272	P	_	_	_	_	_	_	
+17-3	1273-1276	IMM	_	_	_	_	_	_	
+17-4	1276-1277	.	_	_	_	_	_	_	
+
+#Text=**Det tycks inte heller finnas **förståelse för att en framgångsrik biståndspolitik är avhängigt säkerhet.
+18-1	1279-1280	*	_	_	_	_	_	_	
+18-2	1280-1281	*	_	_	_	_	_	_	
+18-3	1281-1284	Det	_	_	_	_	_	_	
+18-4	1285-1290	tycks	_	_	_	_	_	_	
+18-5	1291-1295	inte	_	_	_	_	_	_	
+18-6	1296-1302	heller	_	_	_	_	_	_	
+18-7	1303-1309	finnas	_	_	_	_	_	_	
+18-8	1310-1311	*	_	_	_	_	_	_	
+18-9	1311-1312	*	_	_	_	_	_	_	
+18-10	1312-1322	förståelse	_	_	_	_	_	_	
+18-11	1323-1326	för	_	_	_	_	_	_	
+18-12	1327-1330	att	_	_	_	_	_	_	
+18-13	1331-1333	en	_	_	_	_	_	_	
+18-14	1334-1346	framgångsrik	_	Target	18-15	false	4	_	
+18-15	1347-1362	biståndspolitik	*	_	_	_	_	_	
+18-16	1363-1365	är	_	_	_	_	_	_	
+18-17	1366-1375	avhängigt	_	_	_	_	_	_	
+18-18	1376-1384	säkerhet	_	_	_	_	_	_	
+18-19	1384-1385	.	_	_	_	_	_	_	
+
+#Text=Den icke statliga organisationen ACBAR, en nationell organisation som samordnar 128 biståndsorganisationer i Afghanistan, beskriver säkerhet som avgörande för landets ekonomiska utveckling.
+19-1	1386-1389	Den	_	_	_	_	_	_	
+19-2	1390-1394	icke	_	_	_	_	_	_	
+19-3	1395-1403	statliga	_	_	_	_	_	_	
+19-4	1404-1418	organisationen	_	_	_	_	_	_	
+19-5	1419-1424	ACBAR	_	_	_	_	_	_	
+19-6	1424-1425	,	_	_	_	_	_	_	
+19-7	1426-1428	en	_	_	_	_	_	_	
+19-8	1429-1438	nationell	_	_	_	_	_	_	
+19-9	1439-1451	organisation	_	_	_	_	_	_	
+19-10	1452-1455	som	_	_	_	_	_	_	
+19-11	1456-1465	samordnar	_	_	_	_	_	_	
+19-12	1466-1469	128	_	_	_	_	_	_	
+19-13	1470-1492	biståndsorganisationer	_	_	_	_	_	_	
+19-14	1493-1494	i	_	_	_	_	_	_	
+19-15	1495-1506	Afghanistan	_	_	_	_	_	_	
+19-16	1506-1507	,	_	_	_	_	_	_	
+19-17	1508-1517	beskriver	_	_	_	_	_	_	
+19-18	1518-1526	säkerhet	_	_	_	_	_	_	
+19-19	1527-1530	som	_	_	_	_	_	_	
+19-20	1531-1540	avgörande	_	_	_	_	_	_	
+19-21	1541-1544	för	_	_	_	_	_	_	
+19-22	1545-1552	landets	_	_	_	_	_	_	
+19-23	1553-1563	ekonomiska	_	_	_	_	_	_	
+19-24	1564-1574	utveckling	_	_	_	_	_	_	
+19-25	1574-1575	.	_	_	_	_	_	_	
+
+#Text=Svenska Sida uppger att det fortfarande finns en rad "utmaningar" som behöver tillgodoses om investeringsklimatet i landet ska förbättras.
+20-1	1576-1583	Svenska	*[18]	_	_	_	_	_	
+20-2	1584-1588	Sida	*[18]	_	_	_	_	_	
+20-3	1589-1595	uppger	_	_	_	_	_	_	
+20-4	1596-1599	att	_	_	_	_	_	_	
+20-5	1600-1603	det	_	_	_	_	_	_	
+20-6	1604-1615	fortfarande	_	_	_	_	_	_	
+20-7	1616-1621	finns	_	_	_	_	_	_	
+20-8	1622-1624	en	_	_	_	_	_	_	
+20-9	1625-1628	rad	_	_	_	_	_	_	
+20-10	1629-1630	"	_	_	_	_	_	_	
+20-11	1630-1640	utmaningar	_	Source	20-1[18]	false	2	_	
+20-12	1640-1641	"	_	_	_	_	_	_	
+20-13	1642-1645	som	_	_	_	_	_	_	
+20-14	1646-1653	behöver	_	_	_	_	_	_	
+20-15	1654-1665	tillgodoses	_	_	_	_	_	_	
+20-16	1666-1668	om	_	_	_	_	_	_	
+20-17	1669-1689	investeringsklimatet	_	_	_	_	_	_	
+20-18	1690-1691	i	_	_	_	_	_	_	
+20-19	1692-1698	landet	_	_	_	_	_	_	
+20-20	1699-1702	ska	_	_	_	_	_	_	
+20-21	1703-1713	förbättras	_	_	_	_	_	_	
+20-22	1713-1714	.	_	_	_	_	_	_	
+
+#Text=Totalförsvarets forskningsinstitut beskriver landets säkerhetsstyrkor (ANSF) som dåligt samövade (FOI-R--388--SE) och därmed oförmögna att upprätthålla säkerheten, vilket bekräftas av UNAMA:s rapport.
+21-1	1715-1730	Totalförsvarets	*[19]	_	_	_	_	_	
+21-2	1731-1749	forskningsinstitut	*[19]	_	_	_	_	_	
+21-3	1750-1759	beskriver	_	_	_	_	_	_	
+21-4	1760-1767	landets	*[20]	_	_	_	_	_	
+21-5	1768-1784	säkerhetsstyrkor	*[20]	_	_	_	_	_	
+21-6	1785-1786	(	_	_	_	_	_	_	
+21-7	1786-1790	ANSF	_	_	_	_	_	_	
+21-8	1790-1791	)	_	_	_	_	_	_	
+21-9	1792-1795	som	_	_	_	_	_	_	
+21-10	1796-1802	dåligt	_	Source;Target[6]	21-1[19];21-4[20]	false[6]	2[6]	_	
+21-11	1803-1811	samövade	_	Source;Target[6]	21-1[19];21-4[20]	false[6]	2[6]	_	
+21-12	1812-1813	(	_	_	_	_	_	_	
+21-13	1813-1818	FOI-R	_	_	_	_	_	_	
+21-14	1818-1819	-	_	_	_	_	_	_	
+21-15	1819-1820	-	_	_	_	_	_	_	
+21-16	1820-1823	388	_	_	_	_	_	_	
+21-17	1823-1824	-	_	_	_	_	_	_	
+21-18	1824-1825	-	_	_	_	_	_	_	
+21-19	1825-1827	SE	_	_	_	_	_	_	
+21-20	1827-1828	)	_	_	_	_	_	_	
+21-21	1829-1832	och	_	_	_	_	_	_	
+21-22	1833-1839	därmed	_	_	_	_	_	_	
+21-23	1840-1849	oförmögna	_	Source;Target	21-1[19];21-4[20]	false	2	_	
+21-24	1850-1853	att	_	_	_	_	_	_	
+21-25	1854-1866	upprätthålla	_	_	_	_	_	_	
+21-26	1867-1877	säkerheten	_	_	_	_	_	_	
+21-27	1877-1878	,	_	_	_	_	_	_	
+21-28	1879-1885	vilket	_	_	_	_	_	_	
+21-29	1886-1895	bekräftas	_	_	_	_	_	_	
+21-30	1896-1898	av	_	_	_	_	_	_	
+21-31	1899-1904	UNAMA	_	_	_	_	_	_	
+21-32	1904-1905	:	_	_	_	_	_	_	
+21-33	1905-1906	s	_	_	_	_	_	_	
+21-34	1907-1914	rapport	_	_	_	_	_	_	
+21-35	1914-1915	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1917-1918	#	_	_	_	_	_	_	
+22-2	1918-1919	P	_	_	_	_	_	_	
+22-3	1920-1923	IMM	_	_	_	_	_	_	
+22-4	1923-1924	.	_	_	_	_	_	_	
+
+#Text=Varför nämner inte Ferm, Liljestrand och Theorin vilken roll det internationella samfundets militära bidrag har haft i landets säkerhets- och biståndsstrategi?
+23-1	1926-1932	Varför	_	_	_	_	_	_	
+23-2	1933-1939	nämner	_	_	_	_	_	_	
+23-3	1940-1944	inte	_	_	_	_	_	_	
+23-4	1945-1949	Ferm	_	_	_	_	_	_	
+23-5	1949-1950	,	_	_	_	_	_	_	
+23-6	1951-1962	Liljestrand	_	_	_	_	_	_	
+23-7	1963-1966	och	_	_	_	_	_	_	
+23-8	1967-1974	Theorin	_	_	_	_	_	_	
+23-9	1975-1981	vilken	_	_	_	_	_	_	
+23-10	1982-1986	roll	_	_	_	_	_	_	
+23-11	1987-1990	det	_	_	_	_	_	_	
+23-12	1991-2006	internationella	_	_	_	_	_	_	
+23-13	2007-2017	samfundets	_	_	_	_	_	_	
+23-14	2018-2026	militära	_	_	_	_	_	_	
+23-15	2027-2033	bidrag	_	_	_	_	_	_	
+23-16	2034-2037	har	_	_	_	_	_	_	
+23-17	2038-2042	haft	_	_	_	_	_	_	
+23-18	2043-2044	i	_	_	_	_	_	_	
+23-19	2045-2052	landets	_	_	_	_	_	_	
+23-20	2053-2062	säkerhets	_	_	_	_	_	_	
+23-21	2062-2063	-	_	_	_	_	_	_	
+23-22	2064-2067	och	_	_	_	_	_	_	
+23-23	2068-2084	biståndsstrategi	_	_	_	_	_	_	
+23-24	2084-2085	?	_	_	_	_	_	_	
+
+#Text=Den underliggande fientligheten till USA och Nato är en förklaring.
+24-1	2086-2089	Den	_	_	_	_	_	_	
+24-2	2090-2103	underliggande	_	_	_	_	_	_	
+24-3	2104-2117	fientligheten	_	Source;Target	24-11;24-5[21]	false	1	_	
+24-4	2118-2122	till	_	_	_	_	_	_	
+24-5	2123-2126	USA	*[21]	_	_	_	_	_	
+24-6	2127-2130	och	*[21]	_	_	_	_	_	
+24-7	2131-2135	Nato	*[21]	_	_	_	_	_	
+24-8	2136-2138	är	_	_	_	_	_	_	
+24-9	2139-2141	en	_	_	_	_	_	_	
+24-10	2142-2152	förklaring	_	_	_	_	_	_	
+24-11	2152-2153	.	*	_	_	_	_	_	
+
+#Text=Att militära medel har en roll att fylla när diplomatin gjorts verkningslös, verkar svårsmält för debattörerna då det går stick i stäv med övertygelsen om att militär intervention saknar plats i konfliktskalan.
+25-1	2154-2157	Att	_	_	_	_	_	_	
+25-2	2158-2166	militära	_	_	_	_	_	_	
+25-3	2167-2172	medel	_	_	_	_	_	_	
+25-4	2173-2176	har	_	_	_	_	_	_	
+25-5	2177-2179	en	_	_	_	_	_	_	
+25-6	2180-2184	roll	_	_	_	_	_	_	
+25-7	2185-2188	att	_	_	_	_	_	_	
+25-8	2189-2194	fylla	_	_	_	_	_	_	
+25-9	2195-2198	när	_	_	_	_	_	_	
+25-10	2199-2209	diplomatin	*	_	_	_	_	_	
+25-11	2210-2216	gjorts	_	Target[7]	25-10	false[7]	2[7]	_	
+25-12	2217-2229	verkningslös	_	Target[7]	25-10	false[7]	2[7]	_	
+25-13	2229-2230	,	_	_	_	_	_	_	
+25-14	2231-2237	verkar	_	_	_	_	_	_	
+25-15	2238-2247	svårsmält	_	Target	25-17	false	2	_	
+25-16	2248-2251	för	_	_	_	_	_	_	
+25-17	2252-2264	debattörerna	*	_	_	_	_	_	
+25-18	2265-2267	då	_	_	_	_	_	_	
+25-19	2268-2271	det	_	_	_	_	_	_	
+25-20	2272-2275	går	_	_	_	_	_	_	
+25-21	2276-2281	stick	_	_	_	_	_	_	
+25-22	2282-2283	i	_	_	_	_	_	_	
+25-23	2284-2288	stäv	_	_	_	_	_	_	
+25-24	2289-2292	med	_	_	_	_	_	_	
+25-25	2293-2305	övertygelsen	_	_	_	_	_	_	
+25-26	2306-2308	om	_	_	_	_	_	_	
+25-27	2309-2312	att	_	_	_	_	_	_	
+25-28	2313-2320	militär	_	_	_	_	_	_	
+25-29	2321-2333	intervention	_	_	_	_	_	_	
+25-30	2334-2340	saknar	_	_	_	_	_	_	
+25-31	2341-2346	plats	_	_	_	_	_	_	
+25-32	2347-2348	i	_	_	_	_	_	_	
+25-33	2349-2363	konfliktskalan	_	_	_	_	_	_	
+25-34	2363-2364	.	_	_	_	_	_	_	
+
+#Text=Därför torde det vara lägligt att påminna om att det just är den USA-ledda koalitionen och dess "bombkrig" i kombination med handlingskraftiga Peshmergastyrkor som begränsar Islamiska Statens barbari.
+26-1	2365-2371	Därför	_	_	_	_	_	_	
+26-2	2372-2377	torde	_	Target[8]	26-7	false[8]	4[8]	_	
+26-3	2378-2381	det	_	Target[8]	26-7	false[8]	4[8]	_	
+26-4	2382-2386	vara	_	Target[8]	26-7	false[8]	4[8]	_	
+26-5	2387-2394	lägligt	_	Target[8]	26-7	false[8]	4[8]	_	
+26-6	2395-2398	att	_	_	_	_	_	_	
+26-7	2399-2406	påminna	*	_	_	_	_	_	
+26-8	2407-2409	om	_	_	_	_	_	_	
+26-9	2410-2413	att	_	_	_	_	_	_	
+26-10	2414-2417	det	_	_	_	_	_	_	
+26-11	2418-2422	just	_	_	_	_	_	_	
+26-12	2423-2425	är	_	_	_	_	_	_	
+26-13	2426-2429	den	_	_	_	_	_	_	
+26-14	2430-2439	USA-ledda	_	_	_	_	_	_	
+26-15	2440-2451	koalitionen	_	_	_	_	_	_	
+26-16	2452-2455	och	_	_	_	_	_	_	
+26-17	2456-2460	dess	_	_	_	_	_	_	
+26-18	2461-2462	"	_	_	_	_	_	_	
+26-19	2462-2470	bombkrig	_	_	_	_	_	_	
+26-20	2470-2471	"	_	_	_	_	_	_	
+26-21	2472-2473	i	_	_	_	_	_	_	
+26-22	2474-2485	kombination	_	_	_	_	_	_	
+26-23	2486-2489	med	_	_	_	_	_	_	
+26-24	2490-2507	handlingskraftiga	_	_	_	_	_	_	
+26-25	2508-2524	Peshmergastyrkor	_	_	_	_	_	_	
+26-26	2525-2528	som	_	_	_	_	_	_	
+26-27	2529-2538	begränsar	_	_	_	_	_	_	
+26-28	2539-2548	Islamiska	*[22]	_	_	_	_	_	
+26-29	2549-2556	Statens	*[22]	_	_	_	_	_	
+26-30	2557-2564	barbari	_	Target	26-28[22]	false	1	_	
+26-31	2564-2565	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2567-2568	#	_	_	_	_	_	_	
+27-2	2568-2569	P	_	_	_	_	_	_	
+27-3	2570-2573	IMM	_	_	_	_	_	_	
+27-4	2573-2574	.	_	_	_	_	_	_	
+
+#Text=Artikelförfattarna behöver ha i åtanke att konfliktskalan är och förblir högst rörlig till sin natur.
+28-1	2576-2594	Artikelförfattarna	_	_	_	_	_	_	
+28-2	2595-2602	behöver	_	_	_	_	_	_	
+28-3	2603-2605	ha	_	_	_	_	_	_	
+28-4	2606-2607	i	_	_	_	_	_	_	
+28-5	2608-2614	åtanke	_	_	_	_	_	_	
+28-6	2615-2618	att	_	_	_	_	_	_	
+28-7	2619-2633	konfliktskalan	_	_	_	_	_	_	
+28-8	2634-2636	är	_	_	_	_	_	_	
+28-9	2637-2640	och	_	_	_	_	_	_	
+28-10	2641-2648	förblir	_	_	_	_	_	_	
+28-11	2649-2654	högst	_	_	_	_	_	_	
+28-12	2655-2661	rörlig	_	_	_	_	_	_	
+28-13	2662-2666	till	_	_	_	_	_	_	
+28-14	2667-2670	sin	_	_	_	_	_	_	
+28-15	2671-2676	natur	_	_	_	_	_	_	
+28-16	2676-2677	.	_	_	_	_	_	_	
+
+#Text=En insats kan börja som en fredsbevarande för att sedan utvecklas till en fredsframtvingande, eller tvärtom.
+29-1	2678-2680	En	_	_	_	_	_	_	
+29-2	2681-2687	insats	_	_	_	_	_	_	
+29-3	2688-2691	kan	_	_	_	_	_	_	
+29-4	2692-2697	börja	_	_	_	_	_	_	
+29-5	2698-2701	som	_	_	_	_	_	_	
+29-6	2702-2704	en	_	_	_	_	_	_	
+29-7	2705-2719	fredsbevarande	_	_	_	_	_	_	
+29-8	2720-2723	för	_	_	_	_	_	_	
+29-9	2724-2727	att	_	_	_	_	_	_	
+29-10	2728-2733	sedan	_	_	_	_	_	_	
+29-11	2734-2743	utvecklas	_	_	_	_	_	_	
+29-12	2744-2748	till	_	_	_	_	_	_	
+29-13	2749-2751	en	_	_	_	_	_	_	
+29-14	2752-2770	fredsframtvingande	_	_	_	_	_	_	
+29-15	2770-2771	,	_	_	_	_	_	_	
+29-16	2772-2777	eller	_	_	_	_	_	_	
+29-17	2778-2785	tvärtom	_	_	_	_	_	_	
+29-18	2785-2786	.	_	_	_	_	_	_	
+
+#Text=Det går inte heller att förutse vilket nationellt åtagande som är nödvändigt under ett drygt decennium varför anmärkningar på det svenska bidragets storlek är irrelevanta.
+30-1	2787-2790	Det	_	_	_	_	_	_	
+30-2	2791-2794	går	_	_	_	_	_	_	
+30-3	2795-2799	inte	_	_	_	_	_	_	
+30-4	2800-2806	heller	_	_	_	_	_	_	
+30-5	2807-2810	att	_	_	_	_	_	_	
+30-6	2811-2818	förutse	_	_	_	_	_	_	
+30-7	2819-2825	vilket	_	_	_	_	_	_	
+30-8	2826-2836	nationellt	_	_	_	_	_	_	
+30-9	2837-2845	åtagande	_	_	_	_	_	_	
+30-10	2846-2849	som	_	_	_	_	_	_	
+30-11	2850-2852	är	_	_	_	_	_	_	
+30-12	2853-2863	nödvändigt	_	_	_	_	_	_	
+30-13	2864-2869	under	_	_	_	_	_	_	
+30-14	2870-2873	ett	_	_	_	_	_	_	
+30-15	2874-2879	drygt	_	_	_	_	_	_	
+30-16	2880-2889	decennium	_	_	_	_	_	_	
+30-17	2890-2896	varför	_	_	_	_	_	_	
+30-18	2897-2909	anmärkningar	*[23]	_	_	_	_	_	
+30-19	2910-2912	på	*[23]	_	_	_	_	_	
+30-20	2913-2916	det	*[23]	_	_	_	_	_	
+30-21	2917-2924	svenska	*[23]	_	_	_	_	_	
+30-22	2925-2934	bidragets	*[23]	_	_	_	_	_	
+30-23	2935-2942	storlek	*[23]	_	_	_	_	_	
+30-24	2943-2945	är	_	Target[9]	30-18[23]	false[9]	2[9]	_	
+30-25	2946-2957	irrelevanta	_	Target[9]	30-18[23]	false[9]	2[9]	_	
+30-26	2957-2958	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2960-2961	#	_	_	_	_	_	_	
+31-2	2961-2962	P	_	_	_	_	_	_	
+31-3	2963-2966	IMM	_	_	_	_	_	_	
+31-4	2966-2967	.	_	_	_	_	_	_	
+
+#Text=Nato har – debattörerna ihärdiga försök till trots – inte agerat militärt i Afghanistan utan vare sig FN:s eller dåvarande presidentens godkännande.
+32-1	2969-2973	Nato	_	_	_	_	_	_	
+32-2	2974-2977	har	_	_	_	_	_	_	
+32-3	2978-2979	–	_	_	_	_	_	_	
+32-4	2980-2992	debattörerna	_	_	_	_	_	_	
+32-5	2993-3001	ihärdiga	_	_	_	_	_	_	
+32-6	3002-3008	försök	_	_	_	_	_	_	
+32-7	3009-3013	till	_	_	_	_	_	_	
+32-8	3014-3019	trots	_	_	_	_	_	_	
+32-9	3020-3021	–	_	_	_	_	_	_	
+32-10	3022-3026	inte	_	_	_	_	_	_	
+32-11	3027-3033	agerat	_	_	_	_	_	_	
+32-12	3034-3042	militärt	_	_	_	_	_	_	
+32-13	3043-3044	i	_	_	_	_	_	_	
+32-14	3045-3056	Afghanistan	_	_	_	_	_	_	
+32-15	3057-3061	utan	_	_	_	_	_	_	
+32-16	3062-3066	vare	_	_	_	_	_	_	
+32-17	3067-3070	sig	_	_	_	_	_	_	
+32-18	3071-3073	FN	_	_	_	_	_	_	
+32-19	3073-3074	:	_	_	_	_	_	_	
+32-20	3074-3075	s	_	_	_	_	_	_	
+32-21	3076-3081	eller	_	_	_	_	_	_	
+32-22	3082-3091	dåvarande	_	_	_	_	_	_	
+32-23	3092-3104	presidentens	_	_	_	_	_	_	
+32-24	3105-3116	godkännande	_	_	_	_	_	_	
+32-25	3116-3117	.	_	_	_	_	_	_	
+
+#Text=FN:s säkerhetsråd tog beslut om militär intervention i Afghanistan.
+33-1	3118-3120	FN	_	_	_	_	_	_	
+33-2	3120-3121	:	_	_	_	_	_	_	
+33-3	3121-3122	s	_	_	_	_	_	_	
+33-4	3123-3135	säkerhetsråd	_	_	_	_	_	_	
+33-5	3136-3139	tog	_	_	_	_	_	_	
+33-6	3140-3146	beslut	_	_	_	_	_	_	
+33-7	3147-3149	om	_	_	_	_	_	_	
+33-8	3150-3157	militär	_	_	_	_	_	_	
+33-9	3158-3170	intervention	_	_	_	_	_	_	
+33-10	3171-3172	i	_	_	_	_	_	_	
+33-11	3173-3184	Afghanistan	_	_	_	_	_	_	
+33-12	3184-3185	.	_	_	_	_	_	_	
+
+#Text=Nato blev tilldelad uppgiften och det internationella samfundets militära styrkor välkomnades sedermera av den avgångne Hamid Karzai.
+34-1	3186-3190	Nato	_	_	_	_	_	_	
+34-2	3191-3195	blev	_	_	_	_	_	_	
+34-3	3196-3205	tilldelad	_	_	_	_	_	_	
+34-4	3206-3215	uppgiften	_	_	_	_	_	_	
+34-5	3216-3219	och	_	_	_	_	_	_	
+34-6	3220-3223	det	_	_	_	_	_	_	
+34-7	3224-3239	internationella	_	_	_	_	_	_	
+34-8	3240-3250	samfundets	_	_	_	_	_	_	
+34-9	3251-3259	militära	_	_	_	_	_	_	
+34-10	3260-3267	styrkor	_	_	_	_	_	_	
+34-11	3268-3279	välkomnades	_	_	_	_	_	_	
+34-12	3280-3289	sedermera	_	_	_	_	_	_	
+34-13	3290-3292	av	_	_	_	_	_	_	
+34-14	3293-3296	den	_	_	_	_	_	_	
+34-15	3297-3305	avgångne	_	_	_	_	_	_	
+34-16	3306-3311	Hamid	_	_	_	_	_	_	
+34-17	3312-3318	Karzai	_	_	_	_	_	_	
+34-18	3318-3319	.	_	_	_	_	_	_	
+
+#Text=Sverige valde efter riksdagsbeslut att bistå i säkerhetsarbetet.
+35-1	3320-3327	Sverige	_	_	_	_	_	_	
+35-2	3328-3333	valde	_	_	_	_	_	_	
+35-3	3334-3339	efter	_	_	_	_	_	_	
+35-4	3340-3354	riksdagsbeslut	_	_	_	_	_	_	
+35-5	3355-3358	att	_	_	_	_	_	_	
+35-6	3359-3364	bistå	_	_	_	_	_	_	
+35-7	3365-3366	i	_	_	_	_	_	_	
+35-8	3367-3383	säkerhetsarbetet	_	_	_	_	_	_	
+35-9	3383-3384	.	_	_	_	_	_	_	
+
+#Text=Beslutet fattades och vidmakthölls dels för att visa att Sverige är en internationell partner att räkna med och dels för att den åderlåtna svenska försvarsmakten skulle få ett existensberättigande när det huvudlösa beslutet togs att gå från ett invasionsförsvar till ett renodlat insatsförsvar.
+36-1	3385-3393	Beslutet	_	_	_	_	_	_	
+36-2	3394-3402	fattades	_	_	_	_	_	_	
+36-3	3403-3406	och	_	_	_	_	_	_	
+36-4	3407-3419	vidmakthölls	_	_	_	_	_	_	
+36-5	3420-3424	dels	_	_	_	_	_	_	
+36-6	3425-3428	för	_	_	_	_	_	_	
+36-7	3429-3432	att	_	_	_	_	_	_	
+36-8	3433-3437	visa	_	_	_	_	_	_	
+36-9	3438-3441	att	_	_	_	_	_	_	
+36-10	3442-3449	Sverige	_	_	_	_	_	_	
+36-11	3450-3452	är	_	_	_	_	_	_	
+36-12	3453-3455	en	_	_	_	_	_	_	
+36-13	3456-3470	internationell	_	_	_	_	_	_	
+36-14	3471-3478	partner	_	_	_	_	_	_	
+36-15	3479-3482	att	_	_	_	_	_	_	
+36-16	3483-3488	räkna	_	_	_	_	_	_	
+36-17	3489-3492	med	_	_	_	_	_	_	
+36-18	3493-3496	och	_	_	_	_	_	_	
+36-19	3497-3501	dels	_	_	_	_	_	_	
+36-20	3502-3505	för	_	_	_	_	_	_	
+36-21	3506-3509	att	_	_	_	_	_	_	
+36-22	3510-3513	den	_	_	_	_	_	_	
+36-23	3514-3523	åderlåtna	_	Target	36-25	false	2	_	
+36-24	3524-3531	svenska	_	_	_	_	_	_	
+36-25	3532-3546	försvarsmakten	*	_	_	_	_	_	
+36-26	3547-3553	skulle	_	_	_	_	_	_	
+36-27	3554-3556	få	_	_	_	_	_	_	
+36-28	3557-3560	ett	_	_	_	_	_	_	
+36-29	3561-3581	existensberättigande	_	_	_	_	_	_	
+36-30	3582-3585	när	_	_	_	_	_	_	
+36-31	3586-3589	det	_	_	_	_	_	_	
+36-32	3590-3599	huvudlösa	_	Target	36-33	false	2	_	
+36-33	3600-3608	beslutet	*	_	_	_	_	_	
+36-34	3609-3613	togs	_	_	_	_	_	_	
+36-35	3614-3617	att	_	_	_	_	_	_	
+36-36	3618-3620	gå	_	_	_	_	_	_	
+36-37	3621-3625	från	_	_	_	_	_	_	
+36-38	3626-3629	ett	_	_	_	_	_	_	
+36-39	3630-3646	invasionsförsvar	_	_	_	_	_	_	
+36-40	3647-3651	till	_	_	_	_	_	_	
+36-41	3652-3655	ett	_	_	_	_	_	_	
+36-42	3656-3664	renodlat	_	_	_	_	_	_	
+36-43	3665-3678	insatsförsvar	_	_	_	_	_	_	
+36-44	3678-3679	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3681-3682	#	_	_	_	_	_	_	
+37-2	3682-3683	P	_	_	_	_	_	_	
+37-3	3684-3687	IMM	_	_	_	_	_	_	
+37-4	3687-3688	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+38-1	3690-3703	Skräddarsydda	_	_	_	_	_	_	
+38-2	3704-3710	kurser	_	_	_	_	_	_	
+38-3	3711-3712	i	_	_	_	_	_	_	
+38-4	3713-3718	ämnen	_	_	_	_	_	_	
+38-5	3719-3722	som	_	_	_	_	_	_	
+38-6	3723-3734	intresserar	_	_	_	_	_	_	
+38-7	3735-3738	och	_	_	_	_	_	_	
+38-8	3739-3748	engagerar	_	_	_	_	_	_	
+38-9	3749-3753	både	_	_	_	_	_	_	
+38-10	3754-3759	kropp	_	_	_	_	_	_	
+38-11	3760-3763	och	_	_	_	_	_	_	
+38-12	3764-3768	själ	_	_	_	_	_	_	
+38-13	3768-3769	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3771-3772	#	_	_	_	_	_	_	
+39-2	3772-3773	P	_	_	_	_	_	_	
+39-3	3774-3777	IMM	_	_	_	_	_	_	
+39-4	3777-3778	.	_	_	_	_	_	_	
+
+#Text=**Lyckades Nato bringa fred **och säkerhet i Afghanistan?
+40-1	3780-3781	*	_	_	_	_	_	_	
+40-2	3781-3782	*	_	_	_	_	_	_	
+40-3	3782-3790	Lyckades	_	_	_	_	_	_	
+40-4	3791-3795	Nato	_	_	_	_	_	_	
+40-5	3796-3802	bringa	_	_	_	_	_	_	
+40-6	3803-3807	fred	_	_	_	_	_	_	
+40-7	3808-3809	*	_	_	_	_	_	_	
+40-8	3809-3810	*	_	_	_	_	_	_	
+40-9	3810-3813	och	_	_	_	_	_	_	
+40-10	3814-3822	säkerhet	_	_	_	_	_	_	
+40-11	3823-3824	i	_	_	_	_	_	_	
+40-12	3825-3836	Afghanistan	_	_	_	_	_	_	
+40-13	3836-3837	?	_	_	_	_	_	_	
+
+#Text=Vilken skillnad, om någon, gjorde Sverige ur ett säkerhetsperspektiv efter 13 år i landet?
+41-1	3838-3844	Vilken	_	_	_	_	_	_	
+41-2	3845-3853	skillnad	_	_	_	_	_	_	
+41-3	3853-3854	,	_	_	_	_	_	_	
+41-4	3855-3857	om	_	_	_	_	_	_	
+41-5	3858-3863	någon	_	_	_	_	_	_	
+41-6	3863-3864	,	_	_	_	_	_	_	
+41-7	3865-3871	gjorde	_	_	_	_	_	_	
+41-8	3872-3879	Sverige	_	_	_	_	_	_	
+41-9	3880-3882	ur	_	_	_	_	_	_	
+41-10	3883-3886	ett	_	_	_	_	_	_	
+41-11	3887-3906	säkerhetsperspektiv	_	_	_	_	_	_	
+41-12	3907-3912	efter	_	_	_	_	_	_	
+41-13	3913-3915	13	_	_	_	_	_	_	
+41-14	3916-3918	år	_	_	_	_	_	_	
+41-15	3919-3920	i	_	_	_	_	_	_	
+41-16	3921-3927	landet	_	_	_	_	_	_	
+41-17	3927-3928	?	_	_	_	_	_	_	
+
+#Text=Dessa frågor är relevanta och bör givetvis behandlas i den aviserade utredningen.
+42-1	3929-3934	Dessa	*[24]	_	_	_	_	_	
+42-2	3935-3941	frågor	*[24]	_	_	_	_	_	
+42-3	3942-3944	är	_	Target[10]	42-1[24]	false[10]	4[10]	_	
+42-4	3945-3954	relevanta	_	Target[10]	42-1[24]	false[10]	4[10]	_	
+42-5	3955-3958	och	_	_	_	_	_	_	
+42-6	3959-3962	bör	_	_	_	_	_	_	
+42-7	3963-3971	givetvis	_	_	_	_	_	_	
+42-8	3972-3981	behandlas	_	_	_	_	_	_	
+42-9	3982-3983	i	_	_	_	_	_	_	
+42-10	3984-3987	den	_	_	_	_	_	_	
+42-11	3988-3997	aviserade	_	_	_	_	_	_	
+42-12	3998-4009	utredningen	_	_	_	_	_	_	
+42-13	4009-4010	.	_	_	_	_	_	_	
+
+#Text=Lika viktigt är det dock att samma strålkastarljus riktas mot det svenska biståndet och att frågorna ställs även där.
+43-1	4011-4015	Lika	_	_	_	_	_	_	
+43-2	4016-4023	viktigt	_	Target	43-7[25]	false	4	_	
+43-3	4024-4026	är	_	_	_	_	_	_	
+43-4	4027-4030	det	_	_	_	_	_	_	
+43-5	4031-4035	dock	_	_	_	_	_	_	
+43-6	4036-4039	att	_	_	_	_	_	_	
+43-7	4040-4045	samma	*[25]	_	_	_	_	_	
+43-8	4046-4061	strålkastarljus	*[25]	_	_	_	_	_	
+43-9	4062-4068	riktas	*[25]	_	_	_	_	_	
+43-10	4069-4072	mot	*[25]	_	_	_	_	_	
+43-11	4073-4076	det	*[25]	_	_	_	_	_	
+43-12	4077-4084	svenska	*[25]	_	_	_	_	_	
+43-13	4085-4094	biståndet	*[25]	_	_	_	_	_	
+43-14	4095-4098	och	_	_	_	_	_	_	
+43-15	4099-4102	att	_	_	_	_	_	_	
+43-16	4103-4111	frågorna	_	_	_	_	_	_	
+43-17	4112-4118	ställs	_	_	_	_	_	_	
+43-18	4119-4123	även	_	_	_	_	_	_	
+43-19	4124-4127	där	_	_	_	_	_	_	
+43-20	4127-4128	.	_	_	_	_	_	_	
+
+#Text=Vilken skillnad har det svenska humanitära biståndet gjort i landet?
+44-1	4129-4135	Vilken	_	_	_	_	_	_	
+44-2	4136-4144	skillnad	_	_	_	_	_	_	
+44-3	4145-4148	har	_	_	_	_	_	_	
+44-4	4149-4152	det	_	_	_	_	_	_	
+44-5	4153-4160	svenska	_	_	_	_	_	_	
+44-6	4161-4171	humanitära	_	_	_	_	_	_	
+44-7	4172-4181	biståndet	_	_	_	_	_	_	
+44-8	4182-4187	gjort	_	_	_	_	_	_	
+44-9	4188-4189	i	_	_	_	_	_	_	
+44-10	4190-4196	landet	_	_	_	_	_	_	
+44-11	4196-4197	?	_	_	_	_	_	_	
+
+#Text=Vilken mätbar effekt går att skönja av de åtskilliga miljarder som vida överstiger kostnaderna för det militära deltagandet?.
+45-1	4198-4204	Vilken	_	_	_	_	_	_	
+45-2	4205-4211	mätbar	_	_	_	_	_	_	
+45-3	4212-4218	effekt	_	_	_	_	_	_	
+45-4	4219-4222	går	_	_	_	_	_	_	
+45-5	4223-4226	att	_	_	_	_	_	_	
+45-6	4227-4233	skönja	_	_	_	_	_	_	
+45-7	4234-4236	av	_	_	_	_	_	_	
+45-8	4237-4239	de	_	_	_	_	_	_	
+45-9	4240-4250	åtskilliga	_	_	_	_	_	_	
+45-10	4251-4260	miljarder	_	_	_	_	_	_	
+45-11	4261-4264	som	_	_	_	_	_	_	
+45-12	4265-4269	vida	_	_	_	_	_	_	
+45-13	4270-4280	överstiger	_	_	_	_	_	_	
+45-14	4281-4292	kostnaderna	_	_	_	_	_	_	
+45-15	4293-4296	för	_	_	_	_	_	_	
+45-16	4297-4300	det	_	_	_	_	_	_	
+45-17	4301-4309	militära	_	_	_	_	_	_	
+45-18	4310-4321	deltagandet	_	_	_	_	_	_	
+45-19	4321-4322	?	_	_	_	_	_	_	
+45-20	4322-4323	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4325-4326	#	_	_	_	_	_	_	
+46-2	4326-4327	P	_	_	_	_	_	_	
+46-3	4328-4331	IMM	_	_	_	_	_	_	
+46-4	4331-4332	.	_	_	_	_	_	_	
+
+#Text=Ferm, Liljestrand och Theorin försöker måla upp den militära insatsen som syndabock och som den enda förklaringen bakom det försämrade säkerhetsläget i Afghanistan.
+47-1	4334-4338	Ferm	*[26]	_	_	_	_	_	
+47-2	4338-4339	,	*[26]	_	_	_	_	_	
+47-3	4340-4351	Liljestrand	*[26]	_	_	_	_	_	
+47-4	4352-4355	och	*[26]	_	_	_	_	_	
+47-5	4356-4363	Theorin	*[26]	_	_	_	_	_	
+47-6	4364-4372	försöker	_	Target[11]	47-1[26]	false[11]	2[11]	_	
+47-7	4373-4377	måla	_	Target[11]	47-1[26]	false[11]	2[11]	_	
+47-8	4378-4381	upp	_	Target[11]	47-1[26]	false[11]	2[11]	_	
+47-9	4382-4385	den	_	_	_	_	_	_	
+47-10	4386-4394	militära	*[27]	_	_	_	_	_	
+47-11	4395-4403	insatsen	*[27]	_	_	_	_	_	
+47-12	4404-4407	som	_	_	_	_	_	_	
+47-13	4408-4417	syndabock	_	Target;Source	47-10[27];47-1[26]	false	2	_	
+47-14	4418-4421	och	_	_	_	_	_	_	
+47-15	4422-4425	som	_	_	_	_	_	_	
+47-16	4426-4429	den	_	_	_	_	_	_	
+47-17	4430-4434	enda	_	_	_	_	_	_	
+47-18	4435-4447	förklaringen	_	_	_	_	_	_	
+47-19	4448-4453	bakom	_	_	_	_	_	_	
+47-20	4454-4457	det	_	_	_	_	_	_	
+47-21	4458-4468	försämrade	_	_	_	_	_	_	
+47-22	4469-4483	säkerhetsläget	_	_	_	_	_	_	
+47-23	4484-4485	i	_	_	_	_	_	_	
+47-24	4486-4497	Afghanistan	_	_	_	_	_	_	
+47-25	4497-4498	.	_	_	_	_	_	_	
+
+#Text=Denna återgivelse är onyanserad eftersom händelseutvecklingen i landet beror av tre parametrar; den politiska ledningen, det humanitära biståndet och den militära insatsen.
+48-1	4499-4504	Denna	*[28]	_	_	_	_	_	
+48-2	4505-4516	återgivelse	*[28]	_	_	_	_	_	
+48-3	4517-4519	är	_	_	_	_	_	_	
+48-4	4520-4530	onyanserad	_	Target	48-1[28]	false	2	_	
+48-5	4531-4539	eftersom	_	_	_	_	_	_	
+48-6	4540-4560	händelseutvecklingen	_	_	_	_	_	_	
+48-7	4561-4562	i	_	_	_	_	_	_	
+48-8	4563-4569	landet	_	_	_	_	_	_	
+48-9	4570-4575	beror	_	_	_	_	_	_	
+48-10	4576-4578	av	_	_	_	_	_	_	
+48-11	4579-4582	tre	_	_	_	_	_	_	
+48-12	4583-4593	parametrar	_	_	_	_	_	_	
+48-13	4593-4594	;	_	_	_	_	_	_	
+48-14	4595-4598	den	_	_	_	_	_	_	
+48-15	4599-4608	politiska	_	_	_	_	_	_	
+48-16	4609-4618	ledningen	_	_	_	_	_	_	
+48-17	4618-4619	,	_	_	_	_	_	_	
+48-18	4620-4623	det	_	_	_	_	_	_	
+48-19	4624-4634	humanitära	_	_	_	_	_	_	
+48-20	4635-4644	biståndet	_	_	_	_	_	_	
+48-21	4645-4648	och	_	_	_	_	_	_	
+48-22	4649-4652	den	_	_	_	_	_	_	
+48-23	4653-4661	militära	_	_	_	_	_	_	
+48-24	4662-4670	insatsen	_	_	_	_	_	_	
+48-25	4670-4671	.	_	_	_	_	_	_	
+
+#Text=Att enkom hänga ut en av dessa tre är enfaldigt då det finns beroenden parametrarna emellan, beroenden som förklarar uteblivna reformprocesser.
+49-1	4672-4675	Att	_	_	_	_	_	_	
+49-2	4676-4681	enkom	*[29]	_	_	_	_	_	
+49-3	4682-4687	hänga	*[29]	_	_	_	_	_	
+49-4	4688-4690	ut	*[29]	_	_	_	_	_	
+49-5	4691-4693	en	*[29]	_	_	_	_	_	
+49-6	4694-4696	av	*[29]	_	_	_	_	_	
+49-7	4697-4702	dessa	*[29]	_	_	_	_	_	
+49-8	4703-4706	tre	*[29]	_	_	_	_	_	
+49-9	4707-4709	är	_	Target[12]	49-2[29]	false[12]	2[12]	_	
+49-10	4710-4719	enfaldigt	_	Target[12]	49-2[29]	false[12]	2[12]	_	
+49-11	4720-4722	då	_	_	_	_	_	_	
+49-12	4723-4726	det	_	_	_	_	_	_	
+49-13	4727-4732	finns	_	_	_	_	_	_	
+49-14	4733-4742	beroenden	_	_	_	_	_	_	
+49-15	4743-4755	parametrarna	_	_	_	_	_	_	
+49-16	4756-4763	emellan	_	_	_	_	_	_	
+49-17	4763-4764	,	_	_	_	_	_	_	
+49-18	4765-4774	beroenden	_	_	_	_	_	_	
+49-19	4775-4778	som	_	_	_	_	_	_	
+49-20	4779-4788	förklarar	_	_	_	_	_	_	
+49-21	4789-4798	uteblivna	_	_	_	_	_	_	
+49-22	4799-4814	reformprocesser	_	_	_	_	_	_	
+49-23	4814-4815	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4817-4818	#	_	_	_	_	_	_	
+50-2	4818-4819	P	_	_	_	_	_	_	
+50-3	4820-4823	IMM	_	_	_	_	_	_	
+50-4	4823-4824	.	_	_	_	_	_	_	
+
+#Text=**Svenska folket har all rätt att **fråga vad Sverige lyckades uträtta som en del av en stor multinationell styrka efter 13 år i landet.
+51-1	4826-4827	*	_	_	_	_	_	_	
+51-2	4827-4828	*	_	_	_	_	_	_	
+51-3	4828-4835	Svenska	*[30]	_	_	_	_	_	
+51-4	4836-4842	folket	*[30]	_	_	_	_	_	
+51-5	4843-4846	har	_	Target[13]	51-3[30]	false[13]	4[13]	_	
+51-6	4847-4850	all	_	Target[13]	51-3[30]	false[13]	4[13]	_	
+51-7	4851-4855	rätt	_	Target[13]	51-3[30]	false[13]	4[13]	_	
+51-8	4856-4859	att	_	_	_	_	_	_	
+51-9	4860-4861	*	_	_	_	_	_	_	
+51-10	4861-4862	*	_	_	_	_	_	_	
+51-11	4862-4867	fråga	_	_	_	_	_	_	
+51-12	4868-4871	vad	_	_	_	_	_	_	
+51-13	4872-4879	Sverige	_	_	_	_	_	_	
+51-14	4880-4888	lyckades	_	_	_	_	_	_	
+51-15	4889-4896	uträtta	_	_	_	_	_	_	
+51-16	4897-4900	som	_	_	_	_	_	_	
+51-17	4901-4903	en	_	_	_	_	_	_	
+51-18	4904-4907	del	_	_	_	_	_	_	
+51-19	4908-4910	av	_	_	_	_	_	_	
+51-20	4911-4913	en	_	_	_	_	_	_	
+51-21	4914-4918	stor	_	_	_	_	_	_	
+51-22	4919-4933	multinationell	_	_	_	_	_	_	
+51-23	4934-4940	styrka	_	_	_	_	_	_	
+51-24	4941-4946	efter	_	_	_	_	_	_	
+51-25	4947-4949	13	_	_	_	_	_	_	
+51-26	4950-4952	år	_	_	_	_	_	_	
+51-27	4953-4954	i	_	_	_	_	_	_	
+51-28	4955-4961	landet	_	_	_	_	_	_	
+51-29	4961-4962	.	_	_	_	_	_	_	
+
+#Text=Detsamma gäller det svenska humanitära biståndet som vida överstiger de militära kostnaderna Sverige har haft i Afghanistan.
+52-1	4963-4971	Detsamma	_	_	_	_	_	_	
+52-2	4972-4978	gäller	_	_	_	_	_	_	
+52-3	4979-4982	det	_	_	_	_	_	_	
+52-4	4983-4990	svenska	_	_	_	_	_	_	
+52-5	4991-5001	humanitära	_	_	_	_	_	_	
+52-6	5002-5011	biståndet	_	_	_	_	_	_	
+52-7	5012-5015	som	_	_	_	_	_	_	
+52-8	5016-5020	vida	_	_	_	_	_	_	
+52-9	5021-5031	överstiger	_	_	_	_	_	_	
+52-10	5032-5034	de	_	_	_	_	_	_	
+52-11	5035-5043	militära	_	_	_	_	_	_	
+52-12	5044-5055	kostnaderna	_	_	_	_	_	_	
+52-13	5056-5063	Sverige	_	_	_	_	_	_	
+52-14	5064-5067	har	_	_	_	_	_	_	
+52-15	5068-5072	haft	_	_	_	_	_	_	
+52-16	5073-5074	i	_	_	_	_	_	_	
+52-17	5075-5086	Afghanistan	_	_	_	_	_	_	
+52-18	5086-5087	.	_	_	_	_	_	_	
+
+#Text=Svenska folket bör även fråga sig varför utlandsveteraner – i frånvaron av politisk uppbackning - gång för annan behöver tydliggöra den utrikespolitik som legat till grund för insatsen i Afghanistan.
+53-1	5088-5095	Svenska	_	_	_	_	_	_	
+53-2	5096-5102	folket	_	_	_	_	_	_	
+53-3	5103-5106	bör	_	_	_	_	_	_	
+53-4	5107-5111	även	_	_	_	_	_	_	
+53-5	5112-5117	fråga	_	_	_	_	_	_	
+53-6	5118-5121	sig	_	_	_	_	_	_	
+53-7	5122-5128	varför	_	_	_	_	_	_	
+53-8	5129-5145	utlandsveteraner	_	_	_	_	_	_	
+53-9	5146-5147	–	_	_	_	_	_	_	
+53-10	5148-5149	i	_	_	_	_	_	_	
+53-11	5150-5159	frånvaron	_	_	_	_	_	_	
+53-12	5160-5162	av	_	_	_	_	_	_	
+53-13	5163-5171	politisk	_	_	_	_	_	_	
+53-14	5172-5183	uppbackning	_	_	_	_	_	_	
+53-15	5184-5185	-	_	_	_	_	_	_	
+53-16	5186-5190	gång	_	_	_	_	_	_	
+53-17	5191-5194	för	_	_	_	_	_	_	
+53-18	5195-5200	annan	_	_	_	_	_	_	
+53-19	5201-5208	behöver	_	_	_	_	_	_	
+53-20	5209-5219	tydliggöra	_	_	_	_	_	_	
+53-21	5220-5223	den	_	_	_	_	_	_	
+53-22	5224-5238	utrikespolitik	_	_	_	_	_	_	
+53-23	5239-5242	som	_	_	_	_	_	_	
+53-24	5243-5248	legat	_	_	_	_	_	_	
+53-25	5249-5253	till	_	_	_	_	_	_	
+53-26	5254-5259	grund	_	_	_	_	_	_	
+53-27	5260-5263	för	_	_	_	_	_	_	
+53-28	5264-5272	insatsen	_	_	_	_	_	_	
+53-29	5273-5274	i	_	_	_	_	_	_	
+53-30	5275-5286	Afghanistan	_	_	_	_	_	_	
+53-31	5286-5287	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	5289-5290	#	_	_	_	_	_	_	
+54-2	5290-5291	P	_	_	_	_	_	_	
+54-3	5292-5295	IMM	_	_	_	_	_	_	
+54-4	5295-5296	.	_	_	_	_	_	_	
+
+#Text=Callis Amid.
+55-1	5298-5304	Callis	_	_	_	_	_	_	
+55-2	5305-5309	Amid	_	_	_	_	_	_	
+55-3	5309-5310	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	5312-5313	#	_	_	_	_	_	_	
+56-2	5313-5314	P	_	_	_	_	_	_	
+56-3	5315-5318	IMM	_	_	_	_	_	_	
+56-4	5318-5319	.	_	_	_	_	_	_	
+
+#Text=Afghanistanveteran och konsult i systemanalys.
+57-1	5321-5339	Afghanistanveteran	_	_	_	_	_	_	
+57-2	5340-5343	och	_	_	_	_	_	_	
+57-3	5344-5351	konsult	_	_	_	_	_	_	
+57-4	5352-5353	i	_	_	_	_	_	_	
+57-5	5354-5366	systemanalys	_	_	_	_	_	_	
+57-6	5366-5367	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	5369-5370	#	_	_	_	_	_	_	
+58-2	5370-5371	P	_	_	_	_	_	_	
+58-3	5372-5375	IMM	_	_	_	_	_	_	
+58-4	5375-5376	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+59-1	5378-5386	Redaktör	_	_	_	_	_	_	
+59-2	5386-5387	:	_	_	_	_	_	_	
+59-3	5388-5394	Carina	_	_	_	_	_	_	
+59-4	5395-5403	Stensson	_	_	_	_	_	_	
+59-5	5403-5404	,	_	_	_	_	_	_	
+59-6	5405-5415	Biträdande	_	_	_	_	_	_	
+59-7	5416-5424	redaktör	_	_	_	_	_	_	
+59-8	5424-5425	:	_	_	_	_	_	_	
+59-9	5426-5431	Björn	_	_	_	_	_	_	
+59-10	5432-5438	Jorner	_	_	_	_	_	_	
+59-11	5438-5439	,	_	_	_	_	_	_	
+59-12	5440-5444	Mejl	_	_	_	_	_	_	
+59-13	5444-5445	:	_	_	_	_	_	_	
+59-14	5446-5452	debatt	_	_	_	_	_	_	
+59-15	5452-5453	@	_	_	_	_	_	_	
+59-16	5453-5459	svd.se	_	_	_	_	_	_	
+59-17	5459-5460	,	_	_	_	_	_	_	
+59-18	5461-5474	Telefonnummer	_	_	_	_	_	_	
+59-19	5474-5475	:	_	_	_	_	_	_	
+59-20	5476-5478	08	_	_	_	_	_	_	
+59-21	5478-5479	-	_	_	_	_	_	_	
+59-22	5479-5485	135149	_	_	_	_	_	_	
+59-23	5485-5486	,	_	_	_	_	_	_	
+59-24	5487-5494	Twitter	_	_	_	_	_	_	
+59-25	5494-5495	:	_	_	_	_	_	_	
+59-26	5496-5497	@	_	_	_	_	_	_	
+59-27	5497-5506	SvDDebatt	_	_	_	_	_	_	
+59-28	5506-5507	,	_	_	_	_	_	_	
+59-29	5508-5516	Facebook	_	_	_	_	_	_	
+59-30	5516-5517	:	_	_	_	_	_	_	
+59-31	5518-5521	SvD	_	_	_	_	_	_	
+59-32	5522-5528	Debatt	_	_	_	_	_	_	
+59-33	5528-5529	.	_	_	_	_	_	_	

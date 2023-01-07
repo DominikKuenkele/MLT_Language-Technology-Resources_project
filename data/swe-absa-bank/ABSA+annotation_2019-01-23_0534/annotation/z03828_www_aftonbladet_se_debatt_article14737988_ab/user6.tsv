@@ -1,0 +1,849 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Så kan Stefan Löfven ta initiativet i sitt 1 maj-tal.
+3-1	18-20	Så	_	_	_	_	_	
+3-2	21-24	kan	_	_	_	_	_	
+3-3	25-31	Stefan	_	_	_	_	_	
+3-4	32-38	Löfven	_	_	_	_	_	
+3-5	39-41	ta	_	_	_	_	_	
+3-6	42-53	initiativet	_	_	_	_	_	
+3-7	54-55	i	_	_	_	_	_	
+3-8	56-60	sitt	_	_	_	_	_	
+3-9	61-62	1	_	_	_	_	_	
+3-10	63-70	maj-tal	_	_	_	_	_	
+3-11	70-71	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	73-74	#	_	_	_	_	_	
+4-2	74-75	P	_	_	_	_	_	
+4-3	76-79	IMM	_	_	_	_	_	
+4-4	79-80	.	_	_	_	_	_	
+
+#Text=När Stefan Löfven talar sig varm för en aktiv näringspolitik hakar han på en dold revolution som håller på att vända världen ut och in.
+5-1	82-85	När	_	_	_	_	_	
+5-2	86-92	Stefan	*[10]	_	_	_	_	
+5-3	93-99	Löfven	*[10]	_	_	_	_	
+5-4	100-105	talar	_	Target;Source[1]	5-8[11];5-2[10]	false[1]	4[1]	
+5-5	106-109	sig	_	Target;Source[1]	5-8[11];5-2[10]	false[1]	4[1]	
+5-6	110-114	varm	_	Target;Source[1]	5-8[11];5-2[10]	false[1]	4[1]	
+5-7	115-118	för	_	Target;Source[1]	5-8[11];5-2[10]	false[1]	4[1]	
+5-8	119-121	en	*[11]	_	_	_	_	
+5-9	122-127	aktiv	*[11]	_	_	_	_	
+5-10	128-142	näringspolitik	*[11]	_	_	_	_	
+5-11	143-148	hakar	_	_	_	_	_	
+5-12	149-152	han	_	_	_	_	_	
+5-13	153-155	på	_	_	_	_	_	
+5-14	156-158	en	*[12]	_	_	_	_	
+5-15	159-163	dold	*[12]	_	_	_	_	
+5-16	164-174	revolution	*[12]	_	_	_	_	
+5-17	175-178	som	_	_	_	_	_	
+5-18	179-185	håller	_	_	_	_	_	
+5-19	186-188	på	_	_	_	_	_	
+5-20	189-192	att	_	_	_	_	_	
+5-21	193-198	vända	_	Target[2]	5-14[12]	false[2]	2[2]	
+5-22	199-206	världen	_	Target[2]	5-14[12]	false[2]	2[2]	
+5-23	207-209	ut	_	Target[2]	5-14[12]	false[2]	2[2]	
+5-24	210-213	och	_	Target[2]	5-14[12]	false[2]	2[2]	
+5-25	214-216	in	_	Target[2]	5-14[12]	false[2]	2[2]	
+5-26	216-217	.	_	_	_	_	_	
+
+#Text=Den borde han tala om i sitt 1 maj-tal, och följa upp de vackra orden med konkreta förslag.
+6-1	218-221	Den	_	_	_	_	_	
+6-2	222-227	borde	_	_	_	_	_	
+6-3	228-231	han	_	_	_	_	_	
+6-4	232-236	tala	_	_	_	_	_	
+6-5	237-239	om	_	_	_	_	_	
+6-6	240-241	i	_	_	_	_	_	
+6-7	242-246	sitt	_	_	_	_	_	
+6-8	247-248	1	_	_	_	_	_	
+6-9	249-256	maj-tal	_	_	_	_	_	
+6-10	256-257	,	_	_	_	_	_	
+6-11	258-261	och	_	_	_	_	_	
+6-12	262-267	följa	_	_	_	_	_	
+6-13	268-271	upp	_	_	_	_	_	
+6-14	272-274	de	_	_	_	_	_	
+6-15	275-281	vackra	_	Target	6-16	true	5	
+6-16	282-287	orden	*	_	_	_	_	
+6-17	288-291	med	_	_	_	_	_	
+6-18	292-300	konkreta	_	_	_	_	_	
+6-19	301-308	förslag	_	_	_	_	_	
+6-20	308-309	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	311-312	#	_	_	_	_	_	
+7-2	312-313	P	_	_	_	_	_	
+7-3	314-317	IMM	_	_	_	_	_	
+7-4	317-318	.	_	_	_	_	_	
+
+#Text=Varför växer många fattiga länder så det knakar, medan de rika ekonomierna hackar?
+8-1	320-326	Varför	_	_	_	_	_	
+8-2	327-332	växer	_	_	_	_	_	
+8-3	333-338	många	_	_	_	_	_	
+8-4	339-346	fattiga	_	_	_	_	_	
+8-5	347-353	länder	_	_	_	_	_	
+8-6	354-356	så	_	_	_	_	_	
+8-7	357-360	det	_	_	_	_	_	
+8-8	361-367	knakar	_	_	_	_	_	
+8-9	367-368	,	_	_	_	_	_	
+8-10	369-374	medan	_	_	_	_	_	
+8-11	375-377	de	_	_	_	_	_	
+8-12	378-382	rika	_	_	_	_	_	
+8-13	383-394	ekonomierna	_	_	_	_	_	
+8-14	395-401	hackar	_	_	_	_	_	
+8-15	401-402	?	_	_	_	_	_	
+
+#Text=Varför har världsfattigdomen halverats sedan 1990, trots att forskare är ganska eniga om att det statliga biståndet knappt har gjort skillnad?
+9-1	403-409	Varför	_	_	_	_	_	
+9-2	410-413	har	_	_	_	_	_	
+9-3	414-431	världsfattigdomen	_	_	_	_	_	
+9-4	432-441	halverats	_	_	_	_	_	
+9-5	442-447	sedan	_	_	_	_	_	
+9-6	448-452	1990	_	_	_	_	_	
+9-7	452-453	,	_	_	_	_	_	
+9-8	454-459	trots	_	_	_	_	_	
+9-9	460-463	att	_	_	_	_	_	
+9-10	464-472	forskare	_	_	_	_	_	
+9-11	473-475	är	_	_	_	_	_	
+9-12	476-482	ganska	_	_	_	_	_	
+9-13	483-488	eniga	_	_	_	_	_	
+9-14	489-491	om	_	_	_	_	_	
+9-15	492-495	att	_	_	_	_	_	
+9-16	496-499	det	*[13]	_	_	_	_	
+9-17	500-508	statliga	*[13]	_	_	_	_	
+9-18	509-518	biståndet	*[13]	_	_	_	_	
+9-19	519-525	knappt	_	Target[3]	9-16[13]	false[3]	2[3]	
+9-20	526-529	har	_	Target[3]	9-16[13]	false[3]	2[3]	
+9-21	530-535	gjort	_	Target[3]	9-16[13]	false[3]	2[3]	
+9-22	536-544	skillnad	_	Target[3]	9-16[13]	false[3]	2[3]	
+9-23	544-545	?	_	_	_	_	_	
+
+#Text=Och trots att de flesta av snabbväxande länder beskrivs som korrupta, tyngda av ineffektiva byråkratier, och med demokratiska underskott?.
+10-1	546-549	Och	_	_	_	_	_	
+10-2	550-555	trots	_	_	_	_	_	
+10-3	556-559	att	_	_	_	_	_	
+10-4	560-562	de	*[14]	_	_	_	_	
+10-5	563-569	flesta	*[14]	_	_	_	_	
+10-6	570-572	av	*[14]	_	_	_	_	
+10-7	573-585	snabbväxande	*[14]	_	_	_	_	
+10-8	586-592	länder	*[14]	_	_	_	_	
+10-9	593-601	beskrivs	_	Source;Target[4]	10-23;10-4[14]	false[4]	2[4]	
+10-10	602-605	som	_	Source;Target[4]	10-23;10-4[14]	false[4]	2[4]	
+10-11	606-614	korrupta	_	Source;Target[4]	10-23;10-4[14]	false[4]	2[4]	
+10-12	614-615	,	_	_	_	_	_	
+10-13	616-622	tyngda	_	_	_	_	_	
+10-14	623-625	av	_	_	_	_	_	
+10-15	626-637	ineffektiva	_	Target	10-16	false	2	
+10-16	638-649	byråkratier	*	_	_	_	_	
+10-17	649-650	,	_	_	_	_	_	
+10-18	651-654	och	_	_	_	_	_	
+10-19	655-658	med	_	_	_	_	_	
+10-20	659-671	demokratiska	_	_	_	_	_	
+10-21	672-682	underskott	_	_	_	_	_	
+10-22	682-683	?	_	_	_	_	_	
+10-23	683-684	.	*	_	_	_	_	
+
+#Text=#P IMM.
+11-1	686-687	#	_	_	_	_	_	
+11-2	687-688	P	_	_	_	_	_	
+11-3	689-692	IMM	_	_	_	_	_	
+11-4	692-693	.	_	_	_	_	_	
+
+#Text=Nu finns ett tydligt svar, som föga uppmärksammas i väst.
+12-1	695-697	Nu	_	_	_	_	_	
+12-2	698-703	finns	_	_	_	_	_	
+12-3	704-707	ett	_	_	_	_	_	
+12-4	708-715	tydligt	_	_	_	_	_	
+12-5	716-720	svar	_	_	_	_	_	
+12-6	720-721	,	_	_	_	_	_	
+12-7	722-725	som	_	_	_	_	_	
+12-8	726-730	föga	_	_	_	_	_	
+12-9	731-744	uppmärksammas	_	_	_	_	_	
+12-10	745-746	i	_	_	_	_	_	
+12-11	747-751	väst	_	_	_	_	_	
+12-12	751-752	.	_	_	_	false	2	
+
+#Text=Trots bristerna sker en dramatisk förbättring av företagsklimatet i de flesta av världens länder.
+13-1	753-758	Trots	_	_	_	_	_	
+13-2	759-768	bristerna	_	_	_	_	_	
+13-3	769-773	sker	_	_	_	_	_	
+13-4	774-776	en	_	_	_	_	_	
+13-5	777-786	dramatisk	_	_	_	_	_	
+13-6	787-798	förbättring	_	_	_	_	_	
+13-7	799-801	av	_	_	_	_	_	
+13-8	802-818	företagsklimatet	_	_	_	_	_	
+13-9	819-820	i	_	_	_	_	_	
+13-10	821-823	de	_	_	_	_	_	
+13-11	824-830	flesta	_	_	_	_	_	
+13-12	831-833	av	_	_	_	_	_	
+13-13	834-842	världens	_	_	_	_	_	
+13-14	843-849	länder	_	_	_	_	_	
+13-15	849-850	.	_	_	_	_	_	
+
+#Text=Alla länder som beskrivs som ”tigerekonomier”, såsom Kina, Sydkorea eller Indien har först vässat sitt företagsklimat, och därefter belönats med tillväxt.
+14-1	851-855	Alla	_	_	_	_	_	
+14-2	856-862	länder	_	_	_	_	_	
+14-3	863-866	som	_	_	_	_	_	
+14-4	867-875	beskrivs	_	_	_	_	_	
+14-5	876-879	som	_	_	_	_	_	
+14-6	880-881	”	_	_	_	_	_	
+14-7	881-895	tigerekonomier	_	_	_	_	_	
+14-8	895-896	”	_	_	_	_	_	
+14-9	896-897	,	_	_	_	_	_	
+14-10	898-903	såsom	_	_	_	_	_	
+14-11	904-908	Kina	_	_	_	_	_	
+14-12	908-909	,	_	_	_	_	_	
+14-13	910-918	Sydkorea	_	_	_	_	_	
+14-14	919-924	eller	_	_	_	_	_	
+14-15	925-931	Indien	_	_	_	_	_	
+14-16	932-935	har	_	_	_	_	_	
+14-17	936-941	först	_	_	_	_	_	
+14-18	942-948	vässat	_	_	_	_	_	
+14-19	949-953	sitt	_	_	_	_	_	
+14-20	954-968	företagsklimat	_	_	_	_	_	
+14-21	968-969	,	_	_	_	_	_	
+14-22	970-973	och	_	_	_	_	_	
+14-23	974-982	därefter	_	_	_	_	_	
+14-24	983-991	belönats	_	Target[5]	14-26	false[5]	5[5]	
+14-25	992-995	med	_	Target[5]	14-26	false[5]	5[5]	
+14-26	996-1004	tillväxt	*	_	_	_	_	
+14-27	1004-1005	.	_	_	_	_	_	
+
+#Text=Sambandet har övertygande klarlagts i forskningslitteraturen.
+15-1	1006-1015	Sambandet	_	_	_	_	_	
+15-2	1016-1019	har	_	_	_	_	_	
+15-3	1020-1031	övertygande	_	Target	15-4[15]	false	4	
+15-4	1032-1041	klarlagts	*[15]	_	_	_	_	
+15-5	1042-1043	i	*[15]	_	_	_	_	
+15-6	1044-1066	forskningslitteraturen	*[15]	_	_	_	_	
+15-7	1066-1067	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	1069-1070	#	_	_	_	_	_	
+16-2	1070-1071	P	_	_	_	_	_	
+16-3	1072-1075	IMM	_	_	_	_	_	
+16-4	1075-1076	.	_	_	_	_	_	
+
+#Text=Under senare år har förbättringen varit störst i östeuropeiska och centralasiatiska länder, enligt Världsbanken, som mäter företagsklimatet i detalj.
+17-1	1078-1083	Under	_	_	_	_	_	
+17-2	1084-1090	senare	_	_	_	_	_	
+17-3	1091-1093	år	_	_	_	_	_	
+17-4	1094-1097	har	_	_	_	_	_	
+17-5	1098-1111	förbättringen	_	_	_	_	_	
+17-6	1112-1117	varit	_	_	_	_	_	
+17-7	1118-1124	störst	_	_	_	_	_	
+17-8	1125-1126	i	_	_	_	_	_	
+17-9	1127-1140	östeuropeiska	_	_	_	_	_	
+17-10	1141-1144	och	_	_	_	_	_	
+17-11	1145-1161	centralasiatiska	_	_	_	_	_	
+17-12	1162-1168	länder	_	_	_	_	_	
+17-13	1168-1169	,	_	_	_	_	_	
+17-14	1170-1176	enligt	_	_	_	_	_	
+17-15	1177-1189	Världsbanken	_	_	_	_	_	
+17-16	1189-1190	,	_	_	_	_	_	
+17-17	1191-1194	som	_	_	_	_	_	
+17-18	1195-1200	mäter	_	_	_	_	_	
+17-19	1201-1217	företagsklimatet	_	_	_	_	_	
+17-20	1218-1219	i	_	_	_	_	_	
+17-21	1220-1226	detalj	_	_	_	_	_	
+17-22	1226-1227	.	_	_	_	_	_	
+
+#Text=Där ökar också inkomster mest.
+18-1	1228-1231	Där	_	_	_	_	_	
+18-2	1232-1236	ökar	_	_	_	_	_	
+18-3	1237-1242	också	_	_	_	_	_	
+18-4	1243-1252	inkomster	_	_	_	_	_	
+18-5	1253-1257	mest	_	_	_	_	_	
+18-6	1257-1258	.	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1260-1261	#	_	_	_	_	_	
+19-2	1261-1262	P	_	_	_	_	_	
+19-3	1263-1266	IMM	_	_	_	_	_	
+19-4	1266-1267	.	_	_	_	_	_	
+
+#Text=Vi uppmärksammar knappt att företag växer fram i länder som om tio år kommer att vara vassa konkurrenter på världsmarknaden.
+20-1	1269-1271	Vi	_	_	_	_	_	
+20-2	1272-1285	uppmärksammar	_	_	_	_	_	
+20-3	1286-1292	knappt	_	_	_	_	_	
+20-4	1293-1296	att	_	_	_	_	_	
+20-5	1297-1304	företag	_	_	_	_	_	
+20-6	1305-1310	växer	_	_	_	_	_	
+20-7	1311-1315	fram	_	_	_	_	_	
+20-8	1316-1317	i	_	_	_	_	_	
+20-9	1318-1324	länder	_	_	_	_	_	
+20-10	1325-1328	som	_	_	_	_	_	
+20-11	1329-1331	om	_	_	_	_	_	
+20-12	1332-1335	tio	_	_	_	_	_	
+20-13	1336-1338	år	_	_	_	_	_	
+20-14	1339-1345	kommer	_	_	_	_	_	
+20-15	1346-1349	att	_	_	_	_	_	
+20-16	1350-1354	vara	_	_	_	_	_	
+20-17	1355-1360	vassa	_	Target	20-18	false	4	
+20-18	1361-1373	konkurrenter	*	_	_	_	_	
+20-19	1374-1376	på	_	_	_	_	_	
+20-20	1377-1392	världsmarknaden	_	_	_	_	_	
+20-21	1392-1393	.	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1395-1396	#	_	_	_	_	_	
+21-2	1396-1397	P	_	_	_	_	_	
+21-3	1398-1401	IMM	_	_	_	_	_	
+21-4	1401-1402	.	_	_	_	_	_	
+
+#Text=Ett hypermodernt skattesystem är till exempel en viktig anledning till att Azerbajdzjan, som dock i praktiken fortfarande är en diktatur, rankas som ett av världens mest snabbrörliga länder.
+22-1	1404-1407	Ett	_	_	_	_	_	
+22-2	1408-1420	hypermodernt	_	Target	22-3	false	4	
+22-3	1421-1433	skattesystem	*	_	_	_	_	
+22-4	1434-1436	är	_	_	_	_	_	
+22-5	1437-1441	till	_	_	_	_	_	
+22-6	1442-1449	exempel	_	_	_	_	_	
+22-7	1450-1452	en	_	_	_	_	_	
+22-8	1453-1459	viktig	_	_	_	_	_	
+22-9	1460-1469	anledning	_	_	_	_	_	
+22-10	1470-1474	till	_	_	_	_	_	
+22-11	1475-1478	att	_	_	_	_	_	
+22-12	1479-1491	Azerbajdzjan	*	_	_	_	_	
+22-13	1491-1492	,	_	_	_	_	_	
+22-14	1493-1496	som	_	_	_	_	_	
+22-15	1497-1501	dock	_	_	_	_	_	
+22-16	1502-1503	i	_	_	_	_	_	
+22-17	1504-1513	praktiken	_	_	_	_	_	
+22-18	1514-1525	fortfarande	_	_	_	_	_	
+22-19	1526-1528	är	_	_	_	_	_	
+22-20	1529-1531	en	_	_	_	_	_	
+22-21	1532-1540	diktatur	_	_	_	_	_	
+22-22	1540-1541	,	_	_	_	_	_	
+22-23	1542-1548	rankas	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-24	1549-1552	som	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-25	1553-1556	ett	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-26	1557-1559	av	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-27	1560-1568	världens	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-28	1569-1573	mest	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-29	1574-1586	snabbrörliga	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-30	1587-1593	länder	_	Target;Source[6]	22-12;22-31	false[6]	5[6]	
+22-31	1593-1594	.	*	_	_	_	_	
+
+#Text=Företagare kan enkelt deklarera på nätet.
+23-1	1595-1605	Företagare	_	_	_	_	_	
+23-2	1606-1609	kan	_	_	_	_	_	
+23-3	1610-1616	enkelt	_	Target	23-4[16]	false	4	
+23-4	1617-1626	deklarera	*[16]	_	_	_	_	
+23-5	1627-1629	på	*[16]	_	_	_	_	
+23-6	1630-1635	nätet	*[16]	_	_	_	_	
+23-7	1635-1636	.	_	_	_	_	_	
+
+#Text=Korrupta skattehandläggare är bortkopplade.
+24-1	1637-1645	Korrupta	*[17]	_	_	_	_	
+24-2	1646-1663	skattehandläggare	*[17]	_	_	_	_	
+24-3	1664-1666	är	_	Target[7]	24-1[17]	false[7]	2[7]	
+24-4	1667-1679	bortkopplade	_	Target[7]	24-1[17]	false[7]	2[7]	
+24-5	1679-1680	.	_	_	_	_	_	
+
+#Text=Antalet timmar som företagare i Azerbajdzjan behöver spendera på att hantera skattebyråkratin har minskat med två tredjedelar.
+25-1	1681-1688	Antalet	_	_	_	_	_	
+25-2	1689-1695	timmar	_	_	_	_	_	
+25-3	1696-1699	som	_	_	_	_	_	
+25-4	1700-1710	företagare	_	_	_	_	_	
+25-5	1711-1712	i	_	_	_	_	_	
+25-6	1713-1725	Azerbajdzjan	_	_	_	_	_	
+25-7	1726-1733	behöver	_	_	_	_	_	
+25-8	1734-1742	spendera	_	_	_	_	_	
+25-9	1743-1745	på	_	_	_	_	_	
+25-10	1746-1749	att	_	_	_	_	_	
+25-11	1750-1757	hantera	_	_	_	_	_	
+25-12	1758-1774	skattebyråkratin	*	Target	25-12	false	2	
+25-13	1775-1778	har	_	_	_	_	_	
+25-14	1779-1786	minskat	_	_	_	_	_	
+25-15	1787-1790	med	_	_	_	_	_	
+25-16	1791-1794	två	_	_	_	_	_	
+25-17	1795-1806	tredjedelar	_	_	_	_	_	
+25-18	1806-1807	.	_	_	_	_	_	
+
+#Text=För företagare har det rentav blivit enklare att deklarera än i Sverige.
+26-1	1808-1811	För	_	_	_	_	_	
+26-2	1812-1822	företagare	_	_	_	_	_	
+26-3	1823-1826	har	_	_	_	_	_	
+26-4	1827-1830	det	_	_	_	_	_	
+26-5	1831-1837	rentav	_	_	_	_	_	
+26-6	1838-1844	blivit	_	_	_	_	_	
+26-7	1845-1852	enklare	_	_	_	_	_	
+26-8	1853-1856	att	_	_	_	_	_	
+26-9	1857-1866	deklarera	_	_	_	_	_	
+26-10	1867-1869	än	_	_	_	_	_	
+26-11	1870-1871	i	_	_	_	_	_	
+26-12	1872-1879	Sverige	_	_	_	_	_	
+26-13	1879-1880	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1882-1883	#	_	_	_	_	_	
+27-2	1883-1884	P	_	_	_	_	_	
+27-3	1885-1888	IMM	_	_	_	_	_	
+27-4	1888-1889	.	_	_	_	_	_	
+
+#Text=Till och med i Afrika lyckas många länder rycka upp företagsklimatet.
+28-1	1891-1895	Till	_	Target[8]	28-5	false[8]	2[8]	
+28-2	1896-1899	och	_	Target[8]	28-5	false[8]	2[8]	
+28-3	1900-1903	med	_	Target[8]	28-5	false[8]	2[8]	
+28-4	1904-1905	i	_	_	_	_	_	
+28-5	1906-1912	Afrika	*	_	_	_	_	
+28-6	1913-1919	lyckas	_	_	_	_	_	
+28-7	1920-1925	många	_	_	_	_	_	
+28-8	1926-1932	länder	_	_	_	_	_	
+28-9	1933-1938	rycka	_	_	_	_	_	
+28-10	1939-1942	upp	_	_	_	_	_	
+28-11	1943-1959	företagsklimatet	_	_	_	_	_	
+28-12	1959-1960	.	_	_	_	_	_	
+
+#Text=I Rwanda har det blivit lätt att starta företag eller att få förhandsbesked för byggärenden.
+29-1	1961-1962	I	_	_	_	_	_	
+29-2	1963-1969	Rwanda	_	_	_	_	_	
+29-3	1970-1973	har	_	_	_	_	_	
+29-4	1974-1977	det	_	_	_	_	_	
+29-5	1978-1984	blivit	_	_	_	_	_	
+29-6	1985-1989	lätt	_	_	_	_	_	
+29-7	1990-1993	att	_	_	_	_	_	
+29-8	1994-2000	starta	_	_	_	_	_	
+29-9	2001-2008	företag	_	_	_	_	_	
+29-10	2009-2014	eller	_	_	_	_	_	
+29-11	2015-2018	att	_	_	_	_	_	
+29-12	2019-2021	få	_	_	_	_	_	
+29-13	2022-2036	förhandsbesked	_	_	_	_	_	
+29-14	2037-2040	för	_	_	_	_	_	
+29-15	2041-2052	byggärenden	_	_	_	_	_	
+29-16	2052-2053	.	_	_	_	_	_	
+
+#Text=Ur ett svenskt perspektiv är rättssystemet för företag intressant.
+30-1	2054-2056	Ur	_	_	_	_	_	
+30-2	2057-2060	ett	_	_	_	_	_	
+30-3	2061-2068	svenskt	_	_	_	_	_	
+30-4	2069-2079	perspektiv	_	_	_	_	_	
+30-5	2080-2082	är	_	_	_	_	_	
+30-6	2083-2096	rättssystemet	_	_	_	_	_	
+30-7	2097-2100	för	_	_	_	_	_	
+30-8	2101-2108	företag	_	_	_	_	_	
+30-9	2109-2119	intressant	_	_	_	_	_	
+30-10	2119-2120	.	_	_	_	_	_	
+
+#Text=Det har införts medlingskommittéer för enklare mål.
+31-1	2121-2124	Det	_	_	_	_	_	
+31-2	2125-2128	har	_	_	_	_	_	
+31-3	2129-2136	införts	_	_	_	_	_	
+31-4	2137-2155	medlingskommittéer	_	_	_	_	_	
+31-5	2156-2159	för	_	_	_	_	_	
+31-6	2160-2167	enklare	_	_	_	_	_	
+31-7	2168-2171	mål	_	_	_	_	_	
+31-8	2171-2172	.	_	_	_	_	_	
+
+#Text=Näringslivskunniga specialdomstolar har bildats.
+32-1	2173-2191	Näringslivskunniga	_	_	_	_	_	
+32-2	2192-2208	specialdomstolar	_	_	_	_	_	
+32-3	2209-2212	har	_	_	_	_	_	
+32-4	2213-2220	bildats	_	_	_	_	_	
+32-5	2220-2221	.	_	_	_	_	_	
+
+#Text=Alla dokument som företag behöver lämna till myndigheter och domstolar sköts elektroniskt.
+33-1	2222-2226	Alla	_	_	_	_	_	
+33-2	2227-2235	dokument	_	_	_	_	_	
+33-3	2236-2239	som	_	_	_	_	_	
+33-4	2240-2247	företag	_	_	_	_	_	
+33-5	2248-2255	behöver	_	_	_	_	_	
+33-6	2256-2261	lämna	_	_	_	_	_	
+33-7	2262-2266	till	_	_	_	_	_	
+33-8	2267-2278	myndigheter	_	_	_	_	_	
+33-9	2279-2282	och	_	_	_	_	_	
+33-10	2283-2292	domstolar	_	_	_	_	_	
+33-11	2293-2298	sköts	_	_	_	_	_	
+33-12	2299-2311	elektroniskt	_	_	_	_	_	
+33-13	2311-2312	.	_	_	_	_	_	
+
+#Text=Komplicerade rättsfall tar nu två-tre år med bättre kvalitet.
+34-1	2313-2325	Komplicerade	_	_	_	_	_	
+34-2	2326-2335	rättsfall	_	_	_	_	_	
+34-3	2336-2339	tar	_	_	_	_	_	
+34-4	2340-2342	nu	_	_	_	_	_	
+34-5	2343-2350	två-tre	_	_	_	_	_	
+34-6	2351-2353	år	_	_	_	_	_	
+34-7	2354-2357	med	_	_	_	_	_	
+34-8	2358-2364	bättre	_	Target	34-9	false	4	
+34-9	2365-2373	kvalitet	*	_	_	_	_	
+34-10	2373-2374	.	_	_	_	_	_	
+
+#Text=Tidigare tog det ofta fem-tio år att processa genom rättsväsendet, vilket fortfarande är ganska vanligt i Sverige.
+35-1	2375-2383	Tidigare	_	_	_	_	_	
+35-2	2384-2387	tog	_	_	_	_	_	
+35-3	2388-2391	det	_	_	_	_	_	
+35-4	2392-2396	ofta	_	_	_	_	_	
+35-5	2397-2404	fem-tio	_	_	_	_	_	
+35-6	2405-2407	år	_	_	_	_	_	
+35-7	2408-2411	att	_	_	_	_	_	
+35-8	2412-2420	processa	_	_	_	_	_	
+35-9	2421-2426	genom	_	_	_	_	_	
+35-10	2427-2440	rättsväsendet	_	_	_	_	_	
+35-11	2440-2441	,	_	_	_	_	_	
+35-12	2442-2448	vilket	_	_	_	_	_	
+35-13	2449-2460	fortfarande	_	_	_	_	_	
+35-14	2461-2463	är	_	_	_	_	_	
+35-15	2464-2470	ganska	_	_	_	_	_	
+35-16	2471-2478	vanligt	_	_	_	_	_	
+35-17	2479-2480	i	_	_	_	_	_	
+35-18	2481-2488	Sverige	_	_	_	_	_	
+35-19	2488-2489	.	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2491-2492	#	_	_	_	_	_	
+36-2	2492-2493	P	_	_	_	_	_	
+36-3	2494-2497	IMM	_	_	_	_	_	
+36-4	2497-2498	.	_	_	_	_	_	
+
+#Text=Även i den rika världen har många länder förbättrat sitt företagsklimat, men i maka takt och ofta enbart när de tvingats till det.
+37-1	2500-2504	Även	_	_	_	_	_	
+37-2	2505-2506	i	_	_	_	_	_	
+37-3	2507-2510	den	_	_	_	_	_	
+37-4	2511-2515	rika	_	_	_	_	_	
+37-5	2516-2523	världen	_	_	_	_	_	
+37-6	2524-2527	har	_	_	_	_	_	
+37-7	2528-2533	många	_	_	_	_	_	
+37-8	2534-2540	länder	_	_	_	_	_	
+37-9	2541-2551	förbättrat	_	_	_	_	_	
+37-10	2552-2556	sitt	_	_	_	_	_	
+37-11	2557-2571	företagsklimat	_	_	_	_	_	
+37-12	2571-2572	,	_	_	_	_	_	
+37-13	2573-2576	men	_	_	_	_	_	
+37-14	2577-2578	i	_	_	_	_	_	
+37-15	2579-2583	maka	_	_	_	_	_	
+37-16	2584-2588	takt	_	_	_	_	_	
+37-17	2589-2592	och	_	_	_	_	_	
+37-18	2593-2597	ofta	_	_	_	_	_	
+37-19	2598-2604	enbart	_	_	_	_	_	
+37-20	2605-2608	när	_	_	_	_	_	
+37-21	2609-2611	de	_	_	_	_	_	
+37-22	2612-2620	tvingats	_	_	_	_	_	
+37-23	2621-2625	till	_	_	_	_	_	
+37-24	2626-2629	det	_	_	_	_	_	
+37-25	2629-2630	.	_	_	_	_	_	
+
+#Text=Sverige gjorde sina största förbättringar i samband med 1990-talskrisen, och under åren 2006-2008.
+38-1	2631-2638	Sverige	_	_	_	_	_	
+38-2	2639-2645	gjorde	_	_	_	_	_	
+38-3	2646-2650	sina	_	_	_	_	_	
+38-4	2651-2658	största	_	_	_	_	_	
+38-5	2659-2672	förbättringar	_	_	_	_	_	
+38-6	2673-2674	i	_	_	_	_	_	
+38-7	2675-2682	samband	_	_	_	_	_	
+38-8	2683-2686	med	_	_	_	_	_	
+38-9	2687-2691	1990	_	_	_	_	_	
+38-10	2691-2692	-	_	_	_	_	_	
+38-11	2692-2702	talskrisen	_	_	_	_	_	
+38-12	2702-2703	,	_	_	_	_	_	
+38-13	2704-2707	och	_	_	_	_	_	
+38-14	2708-2713	under	_	_	_	_	_	
+38-15	2714-2718	åren	_	_	_	_	_	
+38-16	2719-2723	2006	_	_	_	_	_	
+38-17	2723-2724	-	_	_	_	_	_	
+38-18	2724-2728	2008	_	_	_	_	_	
+38-19	2728-2729	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2731-2732	#	_	_	_	_	_	
+39-2	2732-2733	P	_	_	_	_	_	
+39-3	2734-2737	IMM	_	_	_	_	_	
+39-4	2737-2738	.	_	_	_	_	_	
+
+#Text=När företag väljer var stora investeringar skall ske måste de självklart väga in var företagsklimat och tillväxt utvecklas bäst under investeringens livstid.
+40-1	2740-2743	När	_	_	_	_	_	
+40-2	2744-2751	företag	_	_	_	_	_	
+40-3	2752-2758	väljer	_	_	_	_	_	
+40-4	2759-2762	var	_	_	_	_	_	
+40-5	2763-2768	stora	_	_	_	_	_	
+40-6	2769-2782	investeringar	_	_	_	_	_	
+40-7	2783-2788	skall	_	_	_	_	_	
+40-8	2789-2792	ske	_	_	_	_	_	
+40-9	2793-2798	måste	_	_	_	_	_	
+40-10	2799-2801	de	_	_	_	_	_	
+40-11	2802-2812	självklart	_	_	_	_	_	
+40-12	2813-2817	väga	_	_	_	_	_	
+40-13	2818-2820	in	_	_	_	_	_	
+40-14	2821-2824	var	_	_	_	_	_	
+40-15	2825-2839	företagsklimat	_	_	_	_	_	
+40-16	2840-2843	och	_	_	_	_	_	
+40-17	2844-2852	tillväxt	_	_	_	_	_	
+40-18	2853-2862	utvecklas	_	_	_	_	_	
+40-19	2863-2867	bäst	_	_	_	_	_	
+40-20	2868-2873	under	_	_	_	_	_	
+40-21	2874-2888	investeringens	_	_	_	_	_	
+40-22	2889-2896	livstid	_	_	_	_	_	
+40-23	2896-2897	.	_	_	_	_	_	
+
+#Text=Därför har det varit helt rationellt för många företag att investera allt mer i olika tigerekonomier runt om i världen.
+41-1	2898-2904	Därför	_	_	_	_	_	
+41-2	2905-2908	har	_	_	_	_	_	
+41-3	2909-2912	det	_	_	_	_	_	
+41-4	2913-2918	varit	_	_	_	_	_	
+41-5	2919-2923	helt	_	_	_	_	_	
+41-6	2924-2934	rationellt	_	_	_	_	_	
+41-7	2935-2938	för	_	_	_	_	_	
+41-8	2939-2944	många	_	_	_	_	_	
+41-9	2945-2952	företag	_	_	_	_	_	
+41-10	2953-2956	att	_	_	_	_	_	
+41-11	2957-2966	investera	_	_	_	_	_	
+41-12	2967-2971	allt	_	_	_	_	_	
+41-13	2972-2975	mer	_	_	_	_	_	
+41-14	2976-2977	i	_	_	_	_	_	
+41-15	2978-2983	olika	_	_	_	_	_	
+41-16	2984-2998	tigerekonomier	_	_	_	_	_	
+41-17	2999-3003	runt	_	_	_	_	_	
+41-18	3004-3006	om	_	_	_	_	_	
+41-19	3007-3008	i	_	_	_	_	_	
+41-20	3009-3016	världen	_	_	_	_	_	
+41-21	3016-3017	.	_	_	_	_	_	
+
+#Text=Och så kommer det att fortsätta så länge vi är nöjda med att det går bättre i Sverige än i Grekland och Italien.
+42-1	3018-3021	Och	_	_	_	_	_	
+42-2	3022-3024	så	_	_	_	_	_	
+42-3	3025-3031	kommer	_	_	_	_	_	
+42-4	3032-3035	det	_	_	_	_	_	
+42-5	3036-3039	att	_	_	_	_	_	
+42-6	3040-3049	fortsätta	_	_	_	_	_	
+42-7	3050-3052	så	_	_	_	_	_	
+42-8	3053-3058	länge	_	_	_	_	_	
+42-9	3059-3061	vi	_	_	_	_	_	
+42-10	3062-3064	är	_	_	_	_	_	
+42-11	3065-3070	nöjda	_	_	_	_	_	
+42-12	3071-3074	med	_	_	_	_	_	
+42-13	3075-3078	att	_	_	_	_	_	
+42-14	3079-3082	det	_	_	_	_	_	
+42-15	3083-3086	går	_	_	_	_	_	
+42-16	3087-3093	bättre	_	_	_	_	_	
+42-17	3094-3095	i	_	_	_	_	_	
+42-18	3096-3103	Sverige	_	_	_	_	_	
+42-19	3104-3106	än	_	_	_	_	_	
+42-20	3107-3108	i	_	_	_	_	_	
+42-21	3109-3117	Grekland	_	_	_	_	_	
+42-22	3118-3121	och	_	_	_	_	_	
+42-23	3122-3129	Italien	_	_	_	_	_	
+42-24	3129-3130	.	_	_	_	false	2	
+
+#Text=#P IMM.
+43-1	3132-3133	#	_	_	_	_	_	
+43-2	3133-3134	P	_	_	_	_	_	
+43-3	3135-3138	IMM	_	_	_	_	_	
+43-4	3138-3139	.	_	_	_	_	_	
+
+#Text=Svenska företag väljer inte mellan Sverige och Grekland.
+44-1	3141-3148	Svenska	_	_	_	_	_	
+44-2	3149-3156	företag	_	_	_	_	_	
+44-3	3157-3163	väljer	_	_	_	_	_	
+44-4	3164-3168	inte	_	_	_	_	_	
+44-5	3169-3175	mellan	_	_	_	_	_	
+44-6	3176-3183	Sverige	_	_	_	_	_	
+44-7	3184-3187	och	_	_	_	_	_	
+44-8	3188-3196	Grekland	_	_	_	_	_	
+44-9	3196-3197	.	_	_	_	_	_	
+
+#Text=De ser på Sydkorea som nyss avskaffat 600 onödiga lagar och 3500 regler på ett bräde.
+45-1	3198-3200	De	_	_	_	_	_	
+45-2	3201-3204	ser	_	_	_	_	_	
+45-3	3205-3207	på	_	_	_	_	_	
+45-4	3208-3216	Sydkorea	_	_	_	_	_	
+45-5	3217-3220	som	_	_	_	_	_	
+45-6	3221-3225	nyss	_	_	_	_	_	
+45-7	3226-3235	avskaffat	_	_	_	_	_	
+45-8	3236-3239	600	_	_	_	_	_	
+45-9	3240-3247	onödiga	_	_	_	_	_	
+45-10	3248-3253	lagar	_	_	_	_	_	
+45-11	3254-3257	och	_	_	_	_	_	
+45-12	3258-3262	3500	_	_	_	_	_	
+45-13	3263-3269	regler	_	_	_	_	_	
+45-14	3270-3272	på	_	_	_	_	_	
+45-15	3273-3276	ett	_	_	_	_	_	
+45-16	3277-3282	bräde	_	_	_	_	_	
+45-17	3282-3283	.	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	3285-3286	#	_	_	_	_	_	
+46-2	3286-3287	P	_	_	_	_	_	
+46-3	3288-3291	IMM	_	_	_	_	_	
+46-4	3291-3292	.	_	_	_	_	_	
+
+#Text=Och så jämför de med Sverige där regelförenkling kryper fram i snigelfart.
+47-1	3294-3297	Och	_	_	_	_	_	
+47-2	3298-3300	så	_	_	_	_	_	
+47-3	3301-3307	jämför	_	_	_	_	_	
+47-4	3308-3310	de	_	_	_	_	_	
+47-5	3311-3314	med	_	_	_	_	_	
+47-6	3315-3322	Sverige	_	_	_	_	_	
+47-7	3323-3326	där	_	_	_	_	_	
+47-8	3327-3342	regelförenkling	_	_	_	_	_	
+47-9	3343-3349	kryper	_	_	_	_	_	
+47-10	3350-3354	fram	_	_	_	_	_	
+47-11	3355-3356	i	_	_	_	_	_	
+47-12	3357-3367	snigelfart	*	Target	47-12	false	2	
+47-13	3367-3368	.	_	_	_	_	_	
+
+#Text=Där regeringen inte förmår sig att backa från en framhastad omreglering av fartygsbränsle som kommer att kosta 20 miljarder kronor med försumbara miljövinster.
+48-1	3369-3372	Där	_	_	_	_	_	
+48-2	3373-3383	regeringen	*	_	_	_	_	
+48-3	3384-3388	inte	_	Source;Target[9]	48-6[18];48-2	false[9]	2[9]	
+48-4	3389-3395	förmår	_	Source;Target[9]	48-6[18];48-2	false[9]	2[9]	
+48-5	3396-3399	sig	_	_	_	_	_	
+48-6	3400-3403	att	*[18]	_	_	_	_	
+48-7	3404-3409	backa	*[18]	_	_	_	_	
+48-8	3410-3414	från	*[18]	_	_	_	_	
+48-9	3415-3417	en	*[18]	_	_	_	_	
+48-10	3418-3428	framhastad	*[18]	Target	48-11[19]	false	2	
+48-11	3429-3440	omreglering	*[18]|*[19]	_	_	_	_	
+48-12	3441-3443	av	*[18]|*[19]	_	_	_	_	
+48-13	3444-3458	fartygsbränsle	*[18]|*[19]	_	_	_	_	
+48-14	3459-3462	som	*[18]|*[19]	_	_	_	_	
+48-15	3463-3469	kommer	*[18]|*[19]	_	_	_	_	
+48-16	3470-3473	att	*[18]|*[19]	_	_	_	_	
+48-17	3474-3479	kosta	*[18]|*[19]	_	_	_	_	
+48-18	3480-3482	20	*[18]|*[19]	_	_	_	_	
+48-19	3483-3492	miljarder	*[18]|*[19]	_	_	_	_	
+48-20	3493-3499	kronor	*[18]|*[19]	_	_	_	_	
+48-21	3500-3503	med	*[18]|*[19]	_	_	_	_	
+48-22	3504-3514	försumbara	*[18]|*[19]	Target	48-23[20]	false	2	
+48-23	3515-3527	miljövinster	*[18]|*[19]|*[20]	_	_	_	_	
+48-24	3527-3528	.	_	_	_	_	_	
+
+#Text=Där även investeringar i miljöförbättrande åtgärder får vänta i snitt fyra år på tillstånd.
+49-1	3529-3532	Där	_	_	_	_	_	
+49-2	3533-3537	även	_	_	_	_	_	
+49-3	3538-3551	investeringar	_	_	_	_	_	
+49-4	3552-3553	i	_	_	_	_	_	
+49-5	3554-3571	miljöförbättrande	_	_	_	_	_	
+49-6	3572-3580	åtgärder	_	_	_	_	_	
+49-7	3581-3584	får	_	_	_	_	_	
+49-8	3585-3590	vänta	_	_	_	_	_	
+49-9	3591-3592	i	_	_	_	_	_	
+49-10	3593-3598	snitt	_	_	_	_	_	
+49-11	3599-3603	fyra	_	_	_	_	_	
+49-12	3604-3606	år	_	_	_	_	_	
+49-13	3607-3609	på	_	_	_	_	_	
+49-14	3610-3619	tillstånd	_	_	_	_	_	
+49-15	3619-3620	.	_	_	_	_	_	
+
+#Text=Där teleoperatörer sedan flera år vill investera miljarder men stoppas av att prisregleringsfrågan har gått i stå.
+50-1	3621-3624	Där	_	_	_	_	_	
+50-2	3625-3639	teleoperatörer	_	_	_	_	_	
+50-3	3640-3645	sedan	_	_	_	_	_	
+50-4	3646-3651	flera	_	_	_	_	_	
+50-5	3652-3654	år	_	_	_	_	_	
+50-6	3655-3659	vill	_	_	_	_	_	
+50-7	3660-3669	investera	_	_	_	_	_	
+50-8	3670-3679	miljarder	_	_	_	_	_	
+50-9	3680-3683	men	_	_	_	_	_	
+50-10	3684-3691	stoppas	_	_	_	_	_	
+50-11	3692-3694	av	_	_	_	_	_	
+50-12	3695-3698	att	_	_	_	_	_	
+50-13	3699-3719	prisregleringsfrågan	_	_	_	_	_	
+50-14	3720-3723	har	_	_	_	_	_	
+50-15	3724-3728	gått	_	_	_	_	_	
+50-16	3729-3730	i	_	_	_	_	_	
+50-17	3731-3734	stå	_	_	_	_	_	
+50-18	3734-3735	.	_	_	_	_	_	
+
+#Text=För att nämna bara några exempel.
+51-1	3736-3739	För	_	_	_	_	_	
+51-2	3740-3743	att	_	_	_	_	_	
+51-3	3744-3749	nämna	_	_	_	_	_	
+51-4	3750-3754	bara	_	_	_	_	_	
+51-5	3755-3760	några	_	_	_	_	_	
+51-6	3761-3768	exempel	_	_	_	_	_	
+51-7	3768-3769	.	_	_	_	false	2	
+
+#Text=#P IMM.
+52-1	3771-3772	#	_	_	_	_	_	
+52-2	3772-3773	P	_	_	_	_	_	
+52-3	3774-3777	IMM	_	_	_	_	_	
+52-4	3777-3778	.	_	_	_	_	_	
+
+#Text=I sitt 1 maj-tal har Stefan Löfven chansen att ta initiativet och berätta hur de länder som konkurrerar om svenska investeringar tar rejäla krafttag.
+53-1	3780-3781	I	_	_	_	_	_	
+53-2	3782-3786	sitt	_	_	_	_	_	
+53-3	3787-3788	1	_	_	_	_	_	
+53-4	3789-3796	maj-tal	_	_	_	_	_	
+53-5	3797-3800	har	_	_	_	_	_	
+53-6	3801-3807	Stefan	_	_	_	_	_	
+53-7	3808-3814	Löfven	_	_	_	_	_	
+53-8	3815-3822	chansen	_	_	_	_	_	
+53-9	3823-3826	att	_	_	_	_	_	
+53-10	3827-3829	ta	_	_	_	_	_	
+53-11	3830-3841	initiativet	_	_	_	_	_	
+53-12	3842-3845	och	_	_	_	_	_	
+53-13	3846-3853	berätta	_	_	_	_	_	
+53-14	3854-3857	hur	_	_	_	_	_	
+53-15	3858-3860	de	_	_	_	_	_	
+53-16	3861-3867	länder	_	_	_	_	_	
+53-17	3868-3871	som	_	_	_	_	_	
+53-18	3872-3883	konkurrerar	_	_	_	_	_	
+53-19	3884-3886	om	_	_	_	_	_	
+53-20	3887-3894	svenska	_	_	_	_	_	
+53-21	3895-3908	investeringar	_	_	_	_	_	
+53-22	3909-3912	tar	_	_	_	_	_	
+53-23	3913-3919	rejäla	_	_	_	_	_	
+53-24	3920-3928	krafttag	_	_	_	_	_	
+53-25	3928-3929	.	_	_	_	_	_	
+
+#Text=Om detta följs upp med konkreta förslag om hur företagsklimatet i Sverige kan lyftas, så kan det inleda en ny era för Sverige där "arbete åt alla" inte bara är en majtalsfras.
+54-1	3930-3932	Om	_	_	_	_	_	
+54-2	3933-3938	detta	_	_	_	_	_	
+54-3	3939-3944	följs	_	_	_	_	_	
+54-4	3945-3948	upp	_	_	_	_	_	
+54-5	3949-3952	med	_	_	_	_	_	
+54-6	3953-3961	konkreta	_	_	_	_	_	
+54-7	3962-3969	förslag	_	_	_	_	_	
+54-8	3970-3972	om	_	_	_	_	_	
+54-9	3973-3976	hur	_	_	_	_	_	
+54-10	3977-3993	företagsklimatet	_	_	_	_	_	
+54-11	3994-3995	i	_	_	_	_	_	
+54-12	3996-4003	Sverige	_	_	_	_	_	
+54-13	4004-4007	kan	_	_	_	_	_	
+54-14	4008-4014	lyftas	_	_	_	_	_	
+54-15	4014-4015	,	_	_	_	_	_	
+54-16	4016-4018	så	_	_	_	_	_	
+54-17	4019-4022	kan	_	_	_	_	_	
+54-18	4023-4026	det	_	_	_	_	_	
+54-19	4027-4033	inleda	_	_	_	_	_	
+54-20	4034-4036	en	_	_	_	_	_	
+54-21	4037-4039	ny	_	_	_	_	_	
+54-22	4040-4043	era	_	_	_	_	_	
+54-23	4044-4047	för	_	_	_	_	_	
+54-24	4048-4055	Sverige	_	_	_	_	_	
+54-25	4056-4059	där	_	_	_	_	_	
+54-26	4060-4061	"	_	_	_	_	_	
+54-27	4061-4067	arbete	_	_	_	_	_	
+54-28	4068-4070	åt	_	_	_	_	_	
+54-29	4071-4075	alla	_	_	_	_	_	
+54-30	4075-4076	"	_	_	_	_	_	
+54-31	4077-4081	inte	_	_	_	_	_	
+54-32	4082-4086	bara	_	_	_	_	_	
+54-33	4087-4089	är	_	_	_	_	_	
+54-34	4090-4092	en	_	_	_	_	_	
+54-35	4093-4104	majtalsfras	*	Target	54-35	false	2	
+54-36	4104-4105	.	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4107-4108	#	_	_	_	_	_	
+55-2	4108-4109	P	_	_	_	_	_	
+55-3	4110-4113	IMM	_	_	_	_	_	
+55-4	4113-4114	.	_	_	_	_	_	
+
+#Text=FAKTA.
+56-1	4116-4121	FAKTA	_	_	_	_	_	
+56-2	4121-4122	.	_	_	_	_	_	

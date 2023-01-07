@@ -1,0 +1,811 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=S och M läser mismatch som fan läser bibeln.
+3-1	18-19	S	*[27]	_	_	_	_	_	_	
+3-2	20-23	och	*[27]	_	_	_	_	_	_	
+3-3	24-25	M	*[27]	_	_	_	_	_	_	
+3-4	26-31	läser	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-5	32-40	mismatch	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-6	41-44	som	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-7	45-48	fan	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-8	49-54	läser	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-9	55-61	bibeln	_	Target[1]	3-1[27]	false[1]	1[1]	_	_	
+3-10	61-62	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Sedan vi på Svenskt näringsliv släppte rapporten ”Mismatch” har detta blivit ordet på allas läppar.
+5-1	73-78	Sedan	_	_	_	_	_	_	_	
+5-2	79-81	vi	_	_	_	_	_	_	_	
+5-3	82-84	på	_	_	_	_	_	_	_	
+5-4	85-92	Svenskt	_	_	_	_	_	_	_	
+5-5	93-103	näringsliv	_	_	_	_	_	_	_	
+5-6	104-111	släppte	_	_	_	_	_	_	_	
+5-7	112-121	rapporten	_	_	_	_	_	_	_	
+5-8	122-123	”	_	_	_	_	_	_	_	
+5-9	123-131	Mismatch	_	_	_	_	_	_	_	
+5-10	131-132	”	_	_	_	_	_	_	_	
+5-11	133-136	har	_	_	_	_	_	_	_	
+5-12	137-142	detta	_	_	_	_	_	_	_	
+5-13	143-149	blivit	_	_	_	_	_	_	_	
+5-14	150-155	ordet	_	_	_	_	_	_	_	
+5-15	156-158	på	_	_	_	_	_	_	_	
+5-16	159-164	allas	_	_	_	_	_	_	_	
+5-17	165-171	läppar	_	_	_	_	_	_	_	
+5-18	171-172	.	_	_	_	_	_	_	_	
+
+#Text=Tommy Waidelich uppehöll sig särskilt kring ordet när han presenterade Socialdemokraternas budgetalternativ.
+6-1	173-178	Tommy	_	_	_	_	_	_	_	
+6-2	179-188	Waidelich	_	_	_	_	_	_	_	
+6-3	189-197	uppehöll	_	_	_	_	_	_	_	
+6-4	198-201	sig	_	_	_	_	_	_	_	
+6-5	202-210	särskilt	_	_	_	_	_	_	_	
+6-6	211-216	kring	_	_	_	_	_	_	_	
+6-7	217-222	ordet	_	_	_	_	_	_	_	
+6-8	223-226	när	_	_	_	_	_	_	_	
+6-9	227-230	han	_	_	_	_	_	_	_	
+6-10	231-243	presenterade	_	_	_	_	_	_	_	
+6-11	244-263	Socialdemokraternas	_	_	_	_	_	_	_	
+6-12	264-280	budgetalternativ	_	_	_	_	_	_	_	
+6-13	280-281	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	283-284	#	_	_	_	_	_	_	_	
+7-2	284-285	P	_	_	_	_	_	_	_	
+7-3	286-289	IMM	_	_	_	_	_	_	_	
+7-4	289-290	.	_	_	_	_	_	_	_	
+
+#Text=Det är givetvis bra när ledande politiker plockar upp ord som beskriver aktuella problem i den svenska ekonomin.
+8-1	292-295	Det	_	_	_	_	_	_	_	
+8-2	296-298	är	_	Target[2]	8-6[28]	false[2]	4[2]	_	_	
+8-3	299-307	givetvis	_	Target[2]	8-6[28]	false[2]	4[2]	_	_	
+8-4	308-311	bra	_	Target[2]	8-6[28]	false[2]	4[2]	_	_	
+8-5	312-315	när	_	_	_	_	_	_	_	
+8-6	316-323	ledande	*[28]	_	_	_	_	_	_	
+8-7	324-333	politiker	*[28]	_	_	_	_	_	_	
+8-8	334-341	plockar	*[28]	_	_	_	_	_	_	
+8-9	342-345	upp	*[28]	_	_	_	_	_	_	
+8-10	346-349	ord	*[28]	_	_	_	_	_	_	
+8-11	350-353	som	*[28]	_	_	_	_	_	_	
+8-12	354-363	beskriver	*[28]	_	_	_	_	_	_	
+8-13	364-372	aktuella	*[28]	_	_	_	_	_	_	
+8-14	373-380	problem	*[28]|*[29]	Target	8-14[29]	false	2	_	_	
+8-15	381-382	i	*[28]	_	_	_	_	_	_	
+8-16	383-386	den	*[28]	_	_	_	_	_	_	
+8-17	387-394	svenska	*[28]	_	_	_	_	_	_	
+8-18	395-403	ekonomin	*[28]	_	_	_	_	_	_	
+8-19	403-404	.	_	_	_	_	_	_	_	
+
+#Text=Problemet är att de som nu uttalat sig inte verkar ha läst mer än titeln på vår rapport.
+9-1	405-414	Problemet	_	_	_	_	_	_	_	
+9-2	415-417	är	_	_	_	_	_	_	_	
+9-3	418-421	att	_	_	_	_	_	_	_	
+9-4	422-424	de	*[30]	_	_	_	_	_	_	
+9-5	425-428	som	*[30]	_	_	_	_	_	_	
+9-6	429-431	nu	*[30]	_	_	_	_	_	_	
+9-7	432-439	uttalat	*[30]	_	_	_	_	_	_	
+9-8	440-443	sig	*[30]	_	_	_	_	_	_	
+9-9	444-448	inte	_	_	_	_	_	_	_	
+9-10	449-455	verkar	_	_	_	_	_	_	_	
+9-11	456-458	ha	_	_	_	_	_	_	_	
+9-12	459-463	läst	_	_	_	_	_	_	_	
+9-13	464-467	mer	_	_	_	_	_	_	_	
+9-14	468-470	än	_	_	_	_	_	_	_	
+9-15	471-477	titeln	_	_	_	_	_	_	_	
+9-16	478-480	på	_	_	_	_	_	_	_	
+9-17	481-484	vår	_	_	_	_	_	_	_	
+9-18	485-492	rapport	_	_	_	_	_	_	_	
+9-19	492-493	.	_	Target	9-4[30]	false	2	_	_	
+
+#Text=Och framför allt, att de politiska slutsatser de drar starkt bör ifrågasättas.
+10-1	494-497	Och	_	_	_	_	_	_	_	
+10-2	498-505	framför	_	_	_	_	_	_	_	
+10-3	506-510	allt	_	_	_	_	_	_	_	
+10-4	510-511	,	_	_	_	_	_	_	_	
+10-5	512-515	att	_	_	_	_	_	_	_	
+10-6	516-518	de	*[31]	_	_	_	_	_	_	
+10-7	519-528	politiska	*[31]	_	_	_	_	_	_	
+10-8	529-539	slutsatser	*[31]	_	_	_	_	_	_	
+10-9	540-542	de	*[31]	_	_	_	_	_	_	
+10-10	543-547	drar	*[31]	_	_	_	_	_	_	
+10-11	548-554	starkt	_	Target[3]	10-6[31]	false[3]	1[3]	_	_	
+10-12	555-558	bör	_	Target[3]	10-6[31]	false[3]	1[3]	_	_	
+10-13	559-571	ifrågasättas	_	Target[3]	10-6[31]	false[3]	1[3]	_	_	
+10-14	571-572	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	574-575	#	_	_	_	_	_	_	_	
+11-2	575-576	P	_	_	_	_	_	_	_	
+11-3	577-580	IMM	_	_	_	_	_	_	_	
+11-4	580-581	.	_	_	_	_	_	_	_	
+
+#Text=Det vi menar med mismatch är att arbetslösheten är hög, samtidigt som det finns många obesatta jobb i företagen.
+12-1	583-586	Det	_	_	_	_	_	_	_	
+12-2	587-589	vi	*	_	_	_	_	_	_	
+12-3	590-595	menar	_	_	_	_	_	_	_	
+12-4	596-599	med	_	_	_	_	_	_	_	
+12-5	600-608	mismatch	*	Source;Target	12-2;12-5	false	2	_	_	
+12-6	609-611	är	_	_	_	_	_	_	_	
+12-7	612-615	att	_	_	_	_	_	_	_	
+12-8	616-630	arbetslösheten	*[32]	_	_	_	_	_	13-1[0_32]	
+12-9	631-633	är	*[32]	_	_	_	_	_	_	
+12-10	634-637	hög	*[32]	_	_	_	_	_	_	
+12-11	637-638	,	*[32]	_	_	_	_	_	_	
+12-12	639-648	samtidigt	*[32]	_	_	_	_	_	_	
+12-13	649-652	som	*[32]	_	_	_	_	_	_	
+12-14	653-656	det	*[32]	_	_	_	_	_	_	
+12-15	657-662	finns	*[32]	_	_	_	_	_	_	
+12-16	663-668	många	*[32]	_	_	_	_	_	_	
+12-17	669-677	obesatta	*[32]	_	_	_	_	_	_	
+12-18	678-682	jobb	*[32]	_	_	_	_	_	_	
+12-19	683-684	i	*[32]	_	_	_	_	_	_	
+12-20	685-694	företagen	*[32]	_	_	_	_	_	_	
+12-21	694-695	.	_	_	_	_	_	_	_	
+
+#Text=Detta hindrar företagens expansion när konjunkturen går upp, och gör också att människor fastnar i arbetslöshet, trots att det finns företag som vill anställa.
+13-1	696-701	Detta	*	_	_	_	_	_	_	
+13-2	702-709	hindrar	_	Target	13-1	false	2	_	_	
+13-3	710-720	företagens	_	_	_	_	_	_	_	
+13-4	721-730	expansion	_	_	_	_	_	_	_	
+13-5	731-734	när	_	_	_	_	_	_	_	
+13-6	735-747	konjunkturen	_	_	_	_	_	_	_	
+13-7	748-751	går	_	_	_	_	_	_	_	
+13-8	752-755	upp	_	_	_	_	_	_	_	
+13-9	755-756	,	_	_	_	_	_	_	_	
+13-10	757-760	och	_	_	_	_	_	_	_	
+13-11	761-764	gör	_	_	_	false	2	_	_	
+13-12	765-770	också	_	_	_	_	_	_	_	
+13-13	771-774	att	_	Target[4]	13-1	false[4]	2[4]	13-11[0_4]	_	
+13-14	775-784	människor	_	Target[4]	13-1	false[4]	2[4]	_	_	
+13-15	785-792	fastnar	_	Target[4]	13-1	false[4]	2[4]	_	_	
+13-16	793-794	i	_	Target[4]	13-1	false[4]	2[4]	_	_	
+13-17	795-807	arbetslöshet	_	Target[4]	13-1	false[4]	2[4]	_	_	
+13-18	807-808	,	_	_	_	_	_	_	_	
+13-19	809-814	trots	_	_	_	_	_	_	_	
+13-20	815-818	att	_	_	_	_	_	_	_	
+13-21	819-822	det	_	_	_	_	_	_	_	
+13-22	823-828	finns	_	_	_	_	_	_	_	
+13-23	829-836	företag	*[33]	_	_	_	_	_	_	
+13-24	837-840	som	*[33]	_	_	_	_	_	_	
+13-25	841-845	vill	_	Target;Source	13-26;13-23[33]	false	4	_	_	
+13-26	846-854	anställa	*	_	_	_	_	_	_	
+13-27	854-855	.	_	_	_	_	_	_	_	
+
+#Text=I vår rapport visar vi att denna mismatch aldrig varit större i Sverige än i dag, så långt tillbaka som det finns statistik för detta.
+14-1	856-857	I	_	_	_	_	_	_	_	
+14-2	858-861	vår	_	_	_	_	_	_	_	
+14-3	862-869	rapport	_	_	_	_	_	_	_	
+14-4	870-875	visar	_	_	_	_	_	_	_	
+14-5	876-878	vi	*	_	_	_	_	_	_	
+14-6	879-882	att	_	_	_	_	_	_	_	
+14-7	883-888	denna	_	_	_	_	_	_	_	
+14-8	889-897	mismatch	*	Target;Source	14-8;14-5	false	2	_	_	
+14-9	898-904	aldrig	_	_	_	_	_	_	_	
+14-10	905-910	varit	_	_	_	_	_	_	_	
+14-11	911-917	större	_	_	_	_	_	_	_	
+14-12	918-919	i	_	_	_	_	_	_	_	
+14-13	920-927	Sverige	_	_	_	_	_	_	_	
+14-14	928-930	än	_	_	_	_	_	_	_	
+14-15	931-932	i	_	_	_	_	_	_	_	
+14-16	933-936	dag	_	_	_	_	_	_	_	
+14-17	936-937	,	_	_	_	_	_	_	_	
+14-18	938-940	så	_	_	_	_	_	_	_	
+14-19	941-946	långt	_	_	_	_	_	_	_	
+14-20	947-955	tillbaka	_	_	_	_	_	_	_	
+14-21	956-959	som	_	_	_	_	_	_	_	
+14-22	960-963	det	_	_	_	_	_	_	_	
+14-23	964-969	finns	_	_	_	_	_	_	_	
+14-24	970-979	statistik	_	_	_	_	_	_	_	
+14-25	980-983	för	_	_	_	_	_	_	_	
+14-26	984-989	detta	_	_	_	_	_	_	_	
+14-27	989-990	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	992-993	#	_	_	_	_	_	_	_	
+15-2	993-994	P	_	_	_	_	_	_	_	
+15-3	995-998	IMM	_	_	_	_	_	_	_	
+15-4	998-999	.	_	_	_	_	_	_	_	
+
+#Text=I den undersökning vi gjort som underlag till rapporten framgår att arbetsgivare i första hand besväras av att många sökande inte har de personliga egenskaper som krävs, ofta sådana som man normalt tillägnar sig under arbetslivet.
+16-1	1001-1002	I	_	_	_	_	_	_	_	
+16-2	1003-1006	den	_	_	_	_	_	_	_	
+16-3	1007-1019	undersökning	_	_	_	_	_	_	_	
+16-4	1020-1022	vi	_	_	_	_	_	_	_	
+16-5	1023-1028	gjort	_	_	_	_	_	_	_	
+16-6	1029-1032	som	_	_	_	_	_	_	_	
+16-7	1033-1041	underlag	_	_	_	_	_	_	_	
+16-8	1042-1046	till	_	_	_	_	_	_	_	
+16-9	1047-1056	rapporten	_	_	_	_	_	_	_	
+16-10	1057-1064	framgår	_	_	_	_	_	_	_	
+16-11	1065-1068	att	_	_	_	_	_	_	_	
+16-12	1069-1081	arbetsgivare	*	_	_	_	_	_	_	
+16-13	1082-1083	i	_	_	_	_	_	_	_	
+16-14	1084-1090	första	_	_	_	_	_	_	_	
+16-15	1091-1095	hand	_	_	_	_	_	_	_	
+16-16	1096-1104	besväras	_	Target;Source[5]	16-18[34];16-12	false[5]	2[5]	_	_	
+16-17	1105-1107	av	_	Target;Source[5]	16-18[34];16-12	false[5]	2[5]	_	_	
+16-18	1108-1111	att	*[34]	_	_	_	_	_	_	
+16-19	1112-1117	många	*[34]|*[35]	_	_	_	_	_	_	
+16-20	1118-1125	sökande	*[34]|*[35]	_	_	_	_	_	_	
+16-21	1126-1130	inte	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-22	1131-1134	har	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-23	1135-1137	de	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-24	1138-1148	personliga	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-25	1149-1159	egenskaper	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-26	1160-1163	som	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-27	1164-1169	krävs	*[34]	Source;Target[6]	16-12;16-19[35]	false[6]	2[6]	_	_	
+16-28	1169-1170	,	_	_	_	_	_	_	_	
+16-29	1171-1175	ofta	_	_	_	_	_	_	_	
+16-30	1176-1182	sådana	_	_	_	_	_	_	_	
+16-31	1183-1186	som	_	_	_	_	_	_	_	
+16-32	1187-1190	man	_	_	_	_	_	_	_	
+16-33	1191-1198	normalt	_	_	_	_	_	_	_	
+16-34	1199-1208	tillägnar	_	_	_	_	_	_	_	
+16-35	1209-1212	sig	_	_	_	_	_	_	_	
+16-36	1213-1218	under	_	_	_	_	_	_	_	
+16-37	1219-1230	arbetslivet	_	_	_	_	_	_	_	
+16-38	1230-1231	.	_	_	_	_	_	_	_	
+
+#Text=Många unga lyckas inte skaffa arbetserfarenhet med enklare arbetsuppgifter och förblir därmed icke-anställningsbara för mer avancerade uppgifter.
+17-1	1232-1237	Många	_	_	_	_	_	_	_	
+17-2	1238-1242	unga	_	_	_	_	_	_	_	
+17-3	1243-1249	lyckas	_	_	_	_	_	_	_	
+17-4	1250-1254	inte	_	_	_	_	_	_	_	
+17-5	1255-1261	skaffa	_	_	_	_	_	_	_	
+17-6	1262-1278	arbetserfarenhet	_	_	_	_	_	_	_	
+17-7	1279-1282	med	_	_	_	_	_	_	_	
+17-8	1283-1290	enklare	_	_	_	_	_	_	_	
+17-9	1291-1306	arbetsuppgifter	_	_	_	_	_	_	_	
+17-10	1307-1310	och	_	_	_	_	_	_	_	
+17-11	1311-1318	förblir	_	_	_	_	_	_	_	
+17-12	1319-1325	därmed	_	_	_	_	_	_	_	
+17-13	1326-1347	icke-anställningsbara	_	_	_	_	_	_	_	
+17-14	1348-1351	för	_	_	_	_	_	_	_	
+17-15	1352-1355	mer	_	_	_	_	_	_	_	
+17-16	1356-1366	avancerade	_	_	_	_	_	_	_	
+17-17	1367-1376	uppgifter	_	_	_	_	_	_	_	
+17-18	1376-1377	.	_	_	_	_	_	_	_	
+
+#Text=En annan viktig förklaring är att många sökande har utbildningar som inte efterfrågas av arbetsgivare.
+18-1	1378-1380	En	_	_	_	_	_	_	_	
+18-2	1381-1386	annan	_	_	_	_	_	_	_	
+18-3	1387-1393	viktig	_	_	_	_	_	_	_	
+18-4	1394-1404	förklaring	_	_	_	_	_	_	_	
+18-5	1405-1407	är	_	_	_	_	_	_	_	
+18-6	1408-1411	att	_	_	_	_	_	_	_	
+18-7	1412-1417	många	_	_	_	_	_	_	_	
+18-8	1418-1425	sökande	_	_	_	_	_	_	_	
+18-9	1426-1429	har	_	_	_	_	_	_	_	
+18-10	1430-1442	utbildningar	_	_	_	_	_	_	_	
+18-11	1443-1446	som	_	_	_	_	_	_	_	
+18-12	1447-1451	inte	_	_	_	_	_	_	_	
+18-13	1452-1463	efterfrågas	_	_	_	_	_	_	_	
+18-14	1464-1466	av	_	_	_	_	_	_	_	
+18-15	1467-1479	arbetsgivare	_	_	_	_	_	_	_	
+18-16	1479-1480	.	_	_	_	_	_	_	_	
+
+#Text=Alltför få har valt de utbildningar som faktiskt behövs.
+19-1	1481-1488	Alltför	*[36]	Source;Target[7]	19-10;19-1[36]	false[7]	2[7]	_	_	
+19-2	1489-1491	få	*[36]	Source;Target[7]	19-10;19-1[36]	false[7]	2[7]	_	_	
+19-3	1492-1495	har	_	_	_	_	_	_	_	
+19-4	1496-1500	valt	_	_	_	_	_	_	_	
+19-5	1501-1503	de	_	_	_	_	_	_	_	
+19-6	1504-1516	utbildningar	_	_	_	_	_	_	_	
+19-7	1517-1520	som	_	_	_	_	_	_	_	
+19-8	1521-1529	faktiskt	_	_	_	_	_	_	_	
+19-9	1530-1536	behövs	_	_	_	_	_	_	_	
+19-10	1536-1537	.	*	_	_	_	_	_	_	
+
+#Text=En tredje förklaring är att arbetsförmedlingen inte fungerar särskilt väl.
+20-1	1538-1540	En	_	_	_	_	_	_	_	
+20-2	1541-1547	tredje	_	_	_	_	_	_	_	
+20-3	1548-1558	förklaring	_	_	_	_	_	_	_	
+20-4	1559-1561	är	_	_	_	_	_	_	_	
+20-5	1562-1565	att	_	_	_	_	_	_	_	
+20-6	1566-1584	arbetsförmedlingen	*	_	_	_	_	_	_	
+20-7	1585-1589	inte	_	Target[8]	20-6	false[8]	2[8]	_	_	
+20-8	1590-1598	fungerar	_	Target[8]	20-6	false[8]	2[8]	_	_	
+20-9	1599-1607	särskilt	_	Target[8]	20-6	false[8]	2[8]	_	_	
+20-10	1608-1611	väl	_	Target[8]	20-6	false[8]	2[8]	_	_	
+20-11	1611-1612	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1614-1615	#	_	_	_	_	_	_	_	
+21-2	1615-1616	P	_	_	_	_	_	_	_	
+21-3	1617-1620	IMM	_	_	_	_	_	_	_	
+21-4	1620-1621	.	_	_	_	_	_	_	_	
+
+#Text=Bakgrunden till dagens mismatch står alltså att finna i arbetsmarknadspolitiken, och hur den under lång tid misslyckats med att nå uppsatta mål.
+22-1	1623-1633	Bakgrunden	_	_	_	_	_	_	_	
+22-2	1634-1638	till	_	_	_	_	_	_	_	
+22-3	1639-1645	dagens	_	_	_	_	_	_	_	
+22-4	1646-1654	mismatch	*	Target	22-4	false	2	_	_	
+22-5	1655-1659	står	_	_	_	_	_	_	_	
+22-6	1660-1666	alltså	_	_	_	_	_	_	_	
+22-7	1667-1670	att	_	_	_	_	_	_	_	
+22-8	1671-1676	finna	_	_	_	_	_	_	_	
+22-9	1677-1678	i	_	_	_	_	_	_	_	
+22-10	1679-1702	arbetsmarknadspolitiken	*	_	_	_	_	_	22-14	
+22-11	1702-1703	,	_	_	_	_	_	_	_	
+22-12	1704-1707	och	_	_	_	_	_	_	_	
+22-13	1708-1711	hur	_	_	_	_	_	_	_	
+22-14	1712-1715	den	*	_	_	_	_	_	_	
+22-15	1716-1721	under	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-16	1722-1726	lång	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-17	1727-1730	tid	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-18	1731-1742	misslyckats	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-19	1743-1746	med	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-20	1747-1750	att	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-21	1751-1753	nå	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-22	1754-1762	uppsatta	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-23	1763-1766	mål	_	Target[9]	22-14	false[9]	2[9]	_	_	
+22-24	1766-1767	.	_	_	_	_	_	_	_	
+
+#Text=Inträdeshindren till arbetsmarknaden har fått växa för höga, människor har erbjudits utbildningar de inte har nytta av och Arbetsförmedlingen har blivit allt sämre på att faktiskt förmedla arbeten.
+23-1	1768-1783	Inträdeshindren	_	_	_	_	_	_	_	
+23-2	1784-1788	till	_	_	_	_	_	_	_	
+23-3	1789-1804	arbetsmarknaden	_	_	_	_	_	_	_	
+23-4	1805-1808	har	_	_	_	_	_	_	_	
+23-5	1809-1813	fått	_	_	_	_	_	_	_	
+23-6	1814-1818	växa	_	_	_	_	_	_	_	
+23-7	1819-1822	för	_	_	_	_	_	_	_	
+23-8	1823-1827	höga	_	_	_	_	_	_	_	
+23-9	1827-1828	,	_	_	_	_	_	_	_	
+23-10	1829-1838	människor	_	_	_	_	_	_	_	
+23-11	1839-1842	har	_	_	_	_	_	_	_	
+23-12	1843-1852	erbjudits	_	_	_	_	_	_	_	
+23-13	1853-1865	utbildningar	*	_	_	_	_	_	_	
+23-14	1866-1868	de	_	_	_	_	_	_	_	
+23-15	1869-1873	inte	_	Target[10]	23-13	false[10]	2[10]	_	_	
+23-16	1874-1877	har	_	Target[10]	23-13	false[10]	2[10]	_	_	
+23-17	1878-1883	nytta	_	Target[10]	23-13	false[10]	2[10]	_	_	
+23-18	1884-1886	av	_	Target[10]	23-13	false[10]	2[10]	_	_	
+23-19	1887-1890	och	_	_	_	_	_	_	_	
+23-20	1891-1909	Arbetsförmedlingen	*	_	_	_	_	_	_	
+23-21	1910-1913	har	_	Target[11]	23-20	false[11]	2[11]	_	_	
+23-22	1914-1920	blivit	_	Target[11]	23-20	false[11]	2[11]	_	_	
+23-23	1921-1925	allt	_	Target[11]	23-20	false[11]	2[11]	_	_	
+23-24	1926-1931	sämre	_	Target[11]	23-20	false[11]	2[11]	_	_	
+23-25	1932-1934	på	_	_	_	_	_	_	_	
+23-26	1935-1938	att	_	_	_	_	_	_	_	
+23-27	1939-1947	faktiskt	_	_	_	_	_	_	_	
+23-28	1948-1956	förmedla	_	_	_	_	_	_	_	
+23-29	1957-1964	arbeten	_	_	_	_	_	_	_	
+23-30	1964-1965	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1967-1968	#	_	_	_	_	_	_	_	
+24-2	1968-1969	P	_	_	_	_	_	_	_	
+24-3	1970-1973	IMM	_	_	_	_	_	_	_	
+24-4	1973-1974	.	_	_	_	_	_	_	_	
+
+#Text=Vilka lösningar ser då politikerna?
+25-1	1976-1981	Vilka	_	_	_	_	_	_	_	
+25-2	1982-1991	lösningar	_	_	_	_	_	_	_	
+25-3	1992-1995	ser	_	_	_	_	_	_	_	
+25-4	1996-1998	då	_	_	_	_	_	_	_	
+25-5	1999-2010	politikerna	_	_	_	_	_	_	_	
+25-6	2010-2011	?	_	_	_	_	_	_	_	
+
+#Text=Oppositionen har fört fram högre a-kassa, högre skatter och en återgång till mer AMS-åtgärder.
+26-1	2012-2024	Oppositionen	_	_	_	_	_	_	_	
+26-2	2025-2028	har	_	_	_	_	_	_	_	
+26-3	2029-2033	fört	_	_	_	_	_	_	_	
+26-4	2034-2038	fram	_	_	_	_	_	_	_	
+26-5	2039-2044	högre	*[37]	_	_	_	_	_	27-10[0_37]|27-3[0_37]	
+26-6	2045-2052	a-kassa	*[37]	_	_	_	_	_	_	
+26-7	2052-2053	,	*[37]	_	_	_	_	_	_	
+26-8	2054-2059	högre	*[37]	_	_	_	_	_	_	
+26-9	2060-2067	skatter	*[37]	_	_	_	_	_	_	
+26-10	2068-2071	och	*[37]	_	_	_	_	_	_	
+26-11	2072-2074	en	*[37]	_	_	_	_	_	_	
+26-12	2075-2083	återgång	*[37]	_	_	_	_	_	_	
+26-13	2084-2088	till	*[37]	_	_	_	_	_	_	
+26-14	2089-2092	mer	*[37]	_	_	_	_	_	_	
+26-15	2093-2105	AMS-åtgärder	*[37]	_	_	_	_	_	_	
+26-16	2105-2106	.	_	_	_	_	_	_	_	
+
+#Text=Inget av detta har fungerat tidigare, tvärtom är det exempel på just den typ av misslyckad arbetsmarknadspolitik som tagit oss till situationen i dag.
+27-1	2107-2112	Inget	_	_[12]	_	false[12]	2[12]	_	_	
+27-2	2113-2115	av	_	_[12]	_	false[12]	2[12]	_	_	
+27-3	2116-2121	detta	*	_	_	_	_	_	_	
+27-4	2122-2125	har	_	Target[13]	27-3	false[13]	2[13]	27-1[12_13]	_	
+27-5	2126-2134	fungerat	_	Target[13]	27-3	false[13]	2[13]	_	_	
+27-6	2135-2143	tidigare	_	Target[13]	27-3	false[13]	2[13]	_	_	
+27-7	2143-2144	,	_	_	_	_	_	_	_	
+27-8	2145-2152	tvärtom	_	_	_	_	_	_	_	
+27-9	2153-2155	är	_	_	_	false	1	_	_	
+27-10	2156-2159	det	*	_	_	_	_	_	_	
+27-11	2160-2167	exempel	_	_[14]	_	false[14]	1[14]	_	_	
+27-12	2168-2170	på	_	_[14]	_	false[14]	1[14]	_	_	
+27-13	2171-2175	just	_	_	_	_	_	_	_	
+27-14	2176-2179	den	_	_	_	_	_	_	_	
+27-15	2180-2183	typ	_	_	_	_	_	_	_	
+27-16	2184-2186	av	_	_	_	_	_	_	_	
+27-17	2187-2197	misslyckad	_	Target[15]|Target[16]	27-10|27-18	false[15]|false[16]	1[15]|1[16]	27-9[0_15]|27-11[14_15]	_	
+27-18	2198-2219	arbetsmarknadspolitik	*	Target[15]	27-10	false[15]	1[15]	_	_	
+27-19	2220-2223	som	_	_	_	_	_	_	_	
+27-20	2224-2229	tagit	_	_	_	_	_	_	_	
+27-21	2230-2233	oss	_	_	_	_	_	_	_	
+27-22	2234-2238	till	_	_	_	_	_	_	_	
+27-23	2239-2250	situationen	_	_	_	_	_	_	_	
+27-24	2251-2252	i	_	_	_	_	_	_	_	
+27-25	2253-2256	dag	_	_	_	_	_	_	_	
+27-26	2256-2257	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen å sin sida bollar över frågan till arbetsgivarna när den föreslår att företagen ska ta ansvar för att träna upp fler ungdomar.
+28-1	2258-2268	Regeringen	_	_	_	_	_	_	_	
+28-2	2269-2270	å	_	_	_	_	_	_	_	
+28-3	2271-2274	sin	_	_	_	_	_	_	_	
+28-4	2275-2279	sida	_	_	_	_	_	_	_	
+28-5	2280-2286	bollar	_	_	_	_	_	_	_	
+28-6	2287-2291	över	_	_	_	_	_	_	_	
+28-7	2292-2298	frågan	_	_	_	_	_	_	_	
+28-8	2299-2303	till	_	_	_	_	_	_	_	
+28-9	2304-2317	arbetsgivarna	_	_	_	_	_	_	_	
+28-10	2318-2321	när	_	_	_	_	_	_	_	
+28-11	2322-2325	den	_	_	_	_	_	_	_	
+28-12	2326-2334	föreslår	_	_	_	_	_	_	_	
+28-13	2335-2338	att	_	_	_	_	_	_	_	
+28-14	2339-2348	företagen	_	_	_	_	_	_	_	
+28-15	2349-2352	ska	_	_	_	_	_	_	_	
+28-16	2353-2355	ta	_	_	_	_	_	_	_	
+28-17	2356-2362	ansvar	_	_	_	_	_	_	_	
+28-18	2363-2366	för	_	_	_	_	_	_	_	
+28-19	2367-2370	att	_	_	_	_	_	_	_	
+28-20	2371-2376	träna	_	_	_	_	_	_	_	
+28-21	2377-2380	upp	_	_	_	_	_	_	_	
+28-22	2381-2385	fler	_	_	_	_	_	_	_	
+28-23	2386-2394	ungdomar	_	_	_	_	_	_	_	
+28-24	2394-2395	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+29-1	2397-2398	#	_	_	_	_	_	_	_	
+29-2	2398-2399	P	_	_	_	_	_	_	_	
+29-3	2400-2403	IMM	_	_	_	_	_	_	_	
+29-4	2403-2404	.	_	_	_	_	_	_	_	
+
+#Text=Politikerna läser alltså mismatchen "som fan läser bibeln".
+30-1	2406-2417	Politikerna	*	_	_	_	_	_	_	
+30-2	2418-2423	läser	_	_	_	false	1	_	_	
+30-3	2424-2430	alltså	_	_	_	_	_	_	_	
+30-4	2431-2441	mismatchen	_	Target[17]	30-1	false[17]	1[17]	30-2[0_17]	_	
+30-5	2442-2443	"	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-6	2443-2446	som	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-7	2447-2450	fan	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-8	2451-2456	läser	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-9	2457-2463	bibeln	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-10	2463-2464	"	_	Target[17]	30-1	false[17]	1[17]	_	_	
+30-11	2464-2465	.	_	_	_	_	_	_	_	
+
+#Text=De tolkar in vad som passar dem själva, istället för att ta problemet på allvar och tolka in det som passar de unga arbetslösa och företagen bäst.
+31-1	2466-2468	De	*	_	_	_	_	_	_	
+31-2	2469-2475	tolkar	_	_	_	_	_	_	_	
+31-3	2476-2478	in	_	_	_	_	_	_	_	
+31-4	2479-2482	vad	_	_	_	_	_	_	_	
+31-5	2483-2486	som	_	_	_	_	_	_	_	
+31-6	2487-2493	passar	_	_	_	_	_	_	_	
+31-7	2494-2497	dem	_	_	_	_	_	_	_	
+31-8	2498-2504	själva	_	_	_	_	_	_	_	
+31-9	2504-2505	,	_	_	_	_	_	_	_	
+31-10	2506-2514	istället	_	_	_	_	_	_	_	
+31-11	2515-2518	för	_	_	_	_	_	_	_	
+31-12	2519-2522	att	_	_	_	_	_	_	_	
+31-13	2523-2525	ta	_	_	_	_	_	_	_	
+31-14	2526-2535	problemet	_	_	_	_	_	_	_	
+31-15	2536-2538	på	_	_	_	_	_	_	_	
+31-16	2539-2545	allvar	_	_	_	_	_	_	_	
+31-17	2546-2549	och	_	_	_	_	_	_	_	
+31-18	2550-2555	tolka	_	_	_	_	_	_	_	
+31-19	2556-2558	in	_	_	_	_	_	_	_	
+31-20	2559-2562	det	_	_	_	_	_	_	_	
+31-21	2563-2566	som	_	_	_	_	_	_	_	
+31-22	2567-2573	passar	_	_	_	_	_	_	_	
+31-23	2574-2576	de	_	_	_	_	_	_	_	
+31-24	2577-2581	unga	_	_	_	_	_	_	_	
+31-25	2582-2592	arbetslösa	_	_	_	_	_	_	_	
+31-26	2593-2596	och	_	_	_	_	_	_	_	
+31-27	2597-2606	företagen	_	_	_	_	_	_	_	
+31-28	2607-2611	bäst	_	_	_	_	_	_	_	
+31-29	2611-2612	.	_	Target	31-1	false	2	_	_	
+
+#Text=#P IMM.
+32-1	2614-2615	#	_	_	_	_	_	_	_	
+32-2	2615-2616	P	_	_	_	_	_	_	_	
+32-3	2617-2620	IMM	_	_	_	_	_	_	_	
+32-4	2620-2621	.	_	_	_	_	_	_	_	
+
+#Text=För att minska mismatchen är det arbetsmarknadspolitiken som behöver ändras.
+33-1	2623-2626	För	_	_	_	_	_	_	_	
+33-2	2627-2630	att	_	_	_	_	_	_	_	
+33-3	2631-2637	minska	_	_	_	_	_	_	_	
+33-4	2638-2648	mismatchen	_	_	_	_	_	_	_	
+33-5	2649-2651	är	_	_	_	_	_	_	_	
+33-6	2652-2655	det	_	_	_	_	_	_	_	
+33-7	2656-2679	arbetsmarknadspolitiken	*[38]	_	_	_	_	_	_	
+33-8	2680-2683	som	*[38]	_	_	_	_	_	_	
+33-9	2684-2691	behöver	_	Target[18]	33-7[38]	false[18]	2[18]	_	_	
+33-10	2692-2698	ändras	_	Target[18]	33-7[38]	false[18]	2[18]	_	_	
+33-11	2698-2699	.	_	_	_	_	_	_	_	
+
+#Text=Anställningsskyddets behöver bli mer flexibelt, så att unga som visat sig lämpade för ett arbete kan få stanna även när företag drar ner på personal.
+34-1	2700-2720	Anställningsskyddets	_	_	_	_	_	_	_	
+34-2	2721-2728	behöver	_	_	_	_	_	_	_	
+34-3	2729-2732	bli	_	_	_	_	_	_	_	
+34-4	2733-2736	mer	_	_	_	_	_	_	_	
+34-5	2737-2746	flexibelt	_	_	_	_	_	_	_	
+34-6	2746-2747	,	_	_	_	_	_	_	_	
+34-7	2748-2750	så	_	_	_	_	_	_	_	
+34-8	2751-2754	att	_	_	_	_	_	_	_	
+34-9	2755-2759	unga	_	_	_	_	_	_	_	
+34-10	2760-2763	som	_	_	_	_	_	_	_	
+34-11	2764-2769	visat	_	_	_	_	_	_	_	
+34-12	2770-2773	sig	_	_	_	_	_	_	_	
+34-13	2774-2781	lämpade	_	_	_	_	_	_	_	
+34-14	2782-2785	för	_	_	_	_	_	_	_	
+34-15	2786-2789	ett	_	_	_	_	_	_	_	
+34-16	2790-2796	arbete	_	_	_	_	_	_	_	
+34-17	2797-2800	kan	_	_	_	_	_	_	_	
+34-18	2801-2803	få	_	_	_	_	_	_	_	
+34-19	2804-2810	stanna	_	_	_	_	_	_	_	
+34-20	2811-2815	även	_	_	_	_	_	_	_	
+34-21	2816-2819	när	_	_	_	_	_	_	_	
+34-22	2820-2827	företag	_	_	_	_	_	_	_	
+34-23	2828-2832	drar	_	_	_	_	_	_	_	
+34-24	2833-2836	ner	_	_	_	_	_	_	_	
+34-25	2837-2839	på	_	_	_	_	_	_	_	
+34-26	2840-2848	personal	_	_	_	_	_	_	_	
+34-27	2848-2849	.	_	_	_	_	_	_	_	
+
+#Text=Samarbetet mellan skola och näringsliv behöver bli bättre, så steget in i arbetslivet underlättas.
+35-1	2850-2860	Samarbetet	*[39]	_	_	_	_	_	_	
+35-2	2861-2867	mellan	*[39]	_	_	_	_	_	_	
+35-3	2868-2873	skola	*[39]	_	_	_	_	_	_	
+35-4	2874-2877	och	*[39]	_	_	_	_	_	_	
+35-5	2878-2888	näringsliv	*[39]	_	_	_	_	_	_	
+35-6	2889-2896	behöver	_	Target[19]	35-1[39]	false[19]	2[19]	_	_	
+35-7	2897-2900	bli	_	Target[19]	35-1[39]	false[19]	2[19]	_	_	
+35-8	2901-2907	bättre	_	Target[19]	35-1[39]	false[19]	2[19]	_	_	
+35-9	2907-2908	,	_	_	_	_	_	_	_	
+35-10	2909-2911	så	_	_	_	_	_	_	_	
+35-11	2912-2918	steget	_	_	_	_	_	_	_	
+35-12	2919-2921	in	_	_	_	_	_	_	_	
+35-13	2922-2923	i	_	_	_	_	_	_	_	
+35-14	2924-2935	arbetslivet	_	_	_	_	_	_	_	
+35-15	2936-2947	underlättas	_	_	_	_	_	_	_	
+35-16	2947-2948	.	_	_	_	_	_	_	_	
+
+#Text=Det behöver ske en rejäl upprensning i floran av arbetsmarknadsutbildningar.
+36-1	2949-2952	Det	_	_	_	_	_	_	_	
+36-2	2953-2960	behöver	_	Target[20]	36-7[40]	false[20]	2[20]	_	_	
+36-3	2961-2964	ske	_	Target[20]	36-7[40]	false[20]	2[20]	_	_	
+36-4	2965-2967	en	_	Target[20]	36-7[40]	false[20]	2[20]	_	_	
+36-5	2968-2973	rejäl	_	Target[20]	36-7[40]	false[20]	2[20]	_	_	
+36-6	2974-2985	upprensning	_	Target[20]	36-7[40]	false[20]	2[20]	_	_	
+36-7	2986-2987	i	*[40]	_	_	_	_	_	_	
+36-8	2988-2994	floran	*[40]	_	_	_	_	_	_	
+36-9	2995-2997	av	*[40]	_	_	_	_	_	_	
+36-10	2998-3024	arbetsmarknadsutbildningar	*[40]	_	_	_	_	_	_	
+36-11	3024-3025	.	_	_	_	_	_	_	_	
+
+#Text=Arbetsförmedlingen måste utsättas för konkurrens och fler privata aktörer tillåtas, så att fler krafter och idéer får i uppdrag att lösa arbetslöshetsproblematiken.
+37-1	3026-3044	Arbetsförmedlingen	_	_	_	_	_	_	_	
+37-2	3045-3050	måste	_	_	_	_	_	_	_	
+37-3	3051-3059	utsättas	_	_	_	_	_	_	_	
+37-4	3060-3063	för	_	_	_	_	_	_	_	
+37-5	3064-3074	konkurrens	_	_	_	_	_	_	_	
+37-6	3075-3078	och	_	_	_	_	_	_	_	
+37-7	3079-3083	fler	_	_	_	_	_	_	_	
+37-8	3084-3091	privata	_	_	_	_	_	_	_	
+37-9	3092-3099	aktörer	_	_	_	_	_	_	_	
+37-10	3100-3108	tillåtas	_	_	_	_	_	_	_	
+37-11	3108-3109	,	_	_	_	_	_	_	_	
+37-12	3110-3112	så	_	_	_	_	_	_	_	
+37-13	3113-3116	att	_	_	_	_	_	_	_	
+37-14	3117-3121	fler	_	_	_	_	_	_	_	
+37-15	3122-3129	krafter	_	_	_	_	_	_	_	
+37-16	3130-3133	och	_	_	_	_	_	_	_	
+37-17	3134-3139	idéer	_	_	_	_	_	_	_	
+37-18	3140-3143	får	_	_	_	_	_	_	_	
+37-19	3144-3145	i	_	_	_	_	_	_	_	
+37-20	3146-3153	uppdrag	_	_	_	_	_	_	_	
+37-21	3154-3157	att	_	_	_	_	_	_	_	
+37-22	3158-3162	lösa	_	_	_	_	_	_	_	
+37-23	3163-3189	arbetslöshetsproblematiken	*	Target	37-23	false	2	_	_	
+37-24	3189-3190	.	_	_	_	_	_	_	_	
+
+#Text=Vi behöver startlöner som kan ge unga och nyanlända utan erfarenhet jobb - inte lönemurar som stänger dem ute.
+38-1	3191-3193	Vi	_	_	_	_	_	_	_	
+38-2	3194-3201	behöver	_	_	_	_	_	_	_	
+38-3	3202-3212	startlöner	_	_	_	_	_	_	_	
+38-4	3213-3216	som	_	_	_	_	_	_	_	
+38-5	3217-3220	kan	_	_	_	_	_	_	_	
+38-6	3221-3223	ge	_	_	_	_	_	_	_	
+38-7	3224-3228	unga	_	_	_	_	_	_	_	
+38-8	3229-3232	och	_	_	_	_	_	_	_	
+38-9	3233-3242	nyanlända	_	_	_	_	_	_	_	
+38-10	3243-3247	utan	_	_	_	_	_	_	_	
+38-11	3248-3258	erfarenhet	_	_	_	_	_	_	_	
+38-12	3259-3263	jobb	_	_	_	_	_	_	_	
+38-13	3264-3265	-	_	_	_	_	_	_	_	
+38-14	3266-3270	inte	_	_	_	_	_	_	_	
+38-15	3271-3280	lönemurar	_	_[21]	_	false[21]	2[21]	38-19[0_21]	_	
+38-16	3281-3284	som	_	_[21]	_	false[21]	2[21]	_	_	
+38-17	3285-3292	stänger	_	_[21]	_	false[21]	2[21]	_	_	
+38-18	3293-3296	dem	_	_	_	_	_	_	_	
+38-19	3297-3300	ute	_	_	_	false	2	_	_	
+38-20	3300-3301	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3303-3304	#	_	_	_	_	_	_	_	
+39-2	3304-3305	P	_	_	_	_	_	_	_	
+39-3	3306-3309	IMM	_	_	_	_	_	_	_	
+39-4	3309-3310	.	_	_	_	_	_	_	_	
+
+#Text=Mismatchen har också övergripande samband med det lokala företagsklimatet - de regioner som har ett bättre företagsklimat har också ett mindre glapp mellan arbetslöshet och lediga platser.
+40-1	3312-3322	Mismatchen	*	Target	40-1	false	2	_	_	
+40-2	3323-3326	har	_	_	_	_	_	_	_	
+40-3	3327-3332	också	_	_	_	_	_	_	_	
+40-4	3333-3345	övergripande	_	_	_	_	_	_	_	
+40-5	3346-3353	samband	_	_	_	_	_	_	_	
+40-6	3354-3357	med	_	_	_	_	_	_	_	
+40-7	3358-3361	det	_	_	_	_	_	_	_	
+40-8	3362-3368	lokala	_	_	_	_	_	_	_	
+40-9	3369-3385	företagsklimatet	_	_	_	_	_	_	_	
+40-10	3386-3387	-	_	_	_	_	_	_	_	
+40-11	3388-3390	de	_	_	_	_	_	_	_	
+40-12	3391-3399	regioner	_	_	_	_	_	_	_	
+40-13	3400-3403	som	_	_	_	_	_	_	_	
+40-14	3404-3407	har	_	_	_	_	_	_	_	
+40-15	3408-3411	ett	_	_	_	_	_	_	_	
+40-16	3412-3418	bättre	_	Target	40-17	false	4	_	_	
+40-17	3419-3433	företagsklimat	*	_	_	_	_	_	_	
+40-18	3434-3437	har	_	_	_	_	_	_	_	
+40-19	3438-3443	också	_	_	_	_	_	_	_	
+40-20	3444-3447	ett	_	_	_	_	_	_	_	
+40-21	3448-3454	mindre	_	_	_	_	_	_	_	
+40-22	3455-3460	glapp	_	_	_	_	_	_	_	
+40-23	3461-3467	mellan	_	_	_	_	_	_	_	
+40-24	3468-3480	arbetslöshet	_	_	_	_	_	_	_	
+40-25	3481-3484	och	_	_	_	_	_	_	_	
+40-26	3485-3491	lediga	_	_	_	_	_	_	_	
+40-27	3492-3499	platser	_	_	_	_	_	_	_	
+40-28	3499-3500	.	_	_	_	_	_	_	_	
+
+#Text=Även lokalpolitiker kan alltså göra mycket för att minska mismatch i sin region.
+41-1	3501-3505	Även	_	_	_	_	_	_	_	
+41-2	3506-3520	lokalpolitiker	_	_	_	_	_	_	_	
+41-3	3521-3524	kan	_	_	_	_	_	_	_	
+41-4	3525-3531	alltså	_	_	_	_	_	_	_	
+41-5	3532-3536	göra	_	_	_	_	_	_	_	
+41-6	3537-3543	mycket	_	_	_	_	_	_	_	
+41-7	3544-3547	för	_	_	_	_	_	_	_	
+41-8	3548-3551	att	_	_	_	_	_	_	_	
+41-9	3552-3558	minska	_	_	_	_	_	_	_	
+41-10	3559-3567	mismatch	*	Target	41-10	false	2	_	_	
+41-11	3568-3569	i	_	_	_	_	_	_	_	
+41-12	3570-3573	sin	_	_	_	_	_	_	_	
+41-13	3574-3580	region	_	_	_	_	_	_	_	
+41-14	3580-3581	.	_	_	_	_	_	_	_	
+
+#Text=De kommuner som företagen rankar som bäst på lokalt företagsklimat bör användas som inspiration och goda exempel.
+42-1	3582-3584	De	*[41]	_	_	_	_	_	_	
+42-2	3585-3593	kommuner	*[41]	_	_	_	_	_	_	
+42-3	3594-3597	som	*[41]	_	_	_	_	_	_	
+42-4	3598-3607	företagen	*[41]	_	_	_	_	_	_	
+42-5	3608-3614	rankar	*[41]	_	_	_	_	_	_	
+42-6	3615-3618	som	*[41]	_	_	_	_	_	_	
+42-7	3619-3623	bäst	*[41]	_	_	_	_	_	_	
+42-8	3624-3626	på	*[41]	_	_	_	_	_	_	
+42-9	3627-3633	lokalt	*[41]	_	_	_	_	_	_	
+42-10	3634-3648	företagsklimat	*[41]	_	_	_	_	_	_	
+42-11	3649-3652	bör	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-12	3653-3661	användas	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-13	3662-3665	som	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-14	3666-3677	inspiration	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-15	3678-3681	och	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-16	3682-3686	goda	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-17	3687-3694	exempel	_	Target[22]	42-1[41]	false[22]	2[22]	_	_	
+42-18	3694-3695	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3697-3698	#	_	_	_	_	_	_	_	
+43-2	3698-3699	P	_	_	_	_	_	_	_	
+43-3	3700-3703	IMM	_	_	_	_	_	_	_	
+43-4	3703-3704	.	_	_	_	_	_	_	_	
+
+#Text=Mismatch är ett allvarligt problem, som förtjänar en seriös debatt.
+44-1	3706-3714	Mismatch	*[42]|*[43]	Target	44-1[42]	false	2	_	_	
+44-2	3715-3717	är	_	Target[23]	44-1[43]	false[23]	1[23]	_	_	
+44-3	3718-3721	ett	_	Target[23]	44-1[43]	false[23]	1[23]	_	_	
+44-4	3722-3732	allvarligt	_	Target[23]	44-1[43]	false[23]	1[23]	_	_	
+44-5	3733-3740	problem	_	Target[23]	44-1[43]	false[23]	1[23]	_	_	
+44-6	3740-3741	,	_	_	_	_	_	_	_	
+44-7	3742-3745	som	_	_	_	_	_	_	_	
+44-8	3746-3755	förtjänar	_	Target[24]	44-1[43]	false[24]	4[24]	_	_	
+44-9	3756-3758	en	_	Target[24]	44-1[43]	false[24]	4[24]	_	_	
+44-10	3759-3765	seriös	_	Target[24]	44-1[43]	false[24]	4[24]	_	_	
+44-11	3766-3772	debatt	_	Target[24]	44-1[43]	false[24]	4[24]	_	_	
+44-12	3772-3773	.	_	_	_	_	_	_	_	
+
+#Text=Om det slutar vid ett nytt modeord gynnar det möjligen Svenska akademien.
+45-1	3774-3776	Om	_	_	_	_	_	_	_	
+45-2	3777-3780	det	*[44]	_	_	_	_	_	_	
+45-3	3781-3787	slutar	*[44]	_	_	_	_	_	_	
+45-4	3788-3791	vid	*[44]	_	_	_	_	_	_	
+45-5	3792-3795	ett	*[44]	_	_	_	_	_	_	
+45-6	3796-3800	nytt	*[44]	_	_	_	_	_	_	
+45-7	3801-3808	modeord	*[44]	_	_	_	_	_	_	
+45-8	3809-3815	gynnar	_	_	_	_	_	_	_	
+45-9	3816-3819	det	_	_	_	_	_	_	_	
+45-10	3820-3828	möjligen	_	_	_	_	_	_	_	
+45-11	3829-3836	Svenska	_	_	_	_	_	_	_	
+45-12	3837-3846	akademien	_	_	_	_	_	_	_	
+45-13	3846-3847	.	_	Target	45-2[44]	false	2	_	_	
+
+#Text=Men det är knappast någon hjälp för den som varit arbetslös länge, eller för den som tröstlöst letar efter en kompetent sökande i ansökningar från människor med fel profil.
+46-1	3848-3851	Men	_	_	_	_	_	_	_	
+46-2	3852-3855	det	*	_	_	_	_	_	_	
+46-3	3856-3858	är	_	Target[25]	46-2	false[25]	2[25]	_	_	
+46-4	3859-3867	knappast	_	Target[25]	46-2	false[25]	2[25]	_	_	
+46-5	3868-3873	någon	_	Target[25]	46-2	false[25]	2[25]	_	_	
+46-6	3874-3879	hjälp	_	Target[25]	46-2	false[25]	2[25]	_	_	
+46-7	3880-3883	för	_	_	_	_	_	_	_	
+46-8	3884-3887	den	_	_	_	_	_	_	_	
+46-9	3888-3891	som	_	_	_	_	_	_	_	
+46-10	3892-3897	varit	_	_	_	_	_	_	_	
+46-11	3898-3907	arbetslös	_	_	_	_	_	_	_	
+46-12	3908-3913	länge	_	_	_	_	_	_	_	
+46-13	3913-3914	,	_	_	_	_	_	_	_	
+46-14	3915-3920	eller	_	_	_	_	_	_	_	
+46-15	3921-3924	för	_	_	_	_	_	_	_	
+46-16	3925-3928	den	_	_	_	_	_	_	_	
+46-17	3929-3932	som	_	_	_	_	_	_	_	
+46-18	3933-3942	tröstlöst	_	_	_	_	_	_	_	
+46-19	3943-3948	letar	_	_	_	_	_	_	_	
+46-20	3949-3954	efter	_	_	_	_	_	_	_	
+46-21	3955-3957	en	_	_	_	_	_	_	_	
+46-22	3958-3967	kompetent	_	Target	46-23	false	4	_	_	
+46-23	3968-3975	sökande	*	_	_	_	_	_	_	
+46-24	3976-3977	i	_	_	_	_	_	_	_	
+46-25	3978-3989	ansökningar	_	_	_	_	_	_	_	
+46-26	3990-3994	från	_	_	_	_	_	_	_	
+46-27	3995-4004	människor	*	_	_	_	_	_	_	
+46-28	4005-4008	med	_	Target[26]	46-27	false[26]	2[26]	_	_	
+46-29	4009-4012	fel	_	Target[26]	46-27	false[26]	2[26]	_	_	
+46-30	4013-4019	profil	_	Target[26]	46-27	false[26]	2[26]	_	_	
+46-31	4019-4020	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	4022-4023	#	_	_	_	_	_	_	_	
+47-2	4023-4024	P	_	_	_	_	_	_	_	
+47-3	4025-4028	IMM	_	_	_	_	_	_	_	
+47-4	4028-4029	.	_	_	_	_	_	_	_	
+
+#Text=Stefan FölsterChefekonom Svenskt näringsliv.
+48-1	4031-4037	Stefan	_	_	_	_	_	_	_	
+48-2	4038-4055	FölsterChefekonom	_	_	_	_	_	_	_	
+48-3	4056-4063	Svenskt	_	_	_	_	_	_	_	
+48-4	4064-4074	näringsliv	_	_	_	_	_	_	_	
+48-5	4074-4075	.	_	_	_	_	_	_	_	

@@ -1,0 +1,460 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vems linje gäller i arbetsrätten?
+3-1	18-22	Vems	_	_	_	_	_	_	
+3-2	23-28	linje	_	_	_	_	_	_	
+3-3	29-35	gäller	_	_	_	_	_	_	
+3-4	36-37	i	_	_	_	_	_	_	
+3-5	38-50	arbetsrätten	_	_	_	_	_	_	
+3-6	50-51	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	_	_	_	
+4-4	59-60	.	_	_	_	_	_	_	
+
+#Text=Sverige ligger internationellt i topp avseende produktivitet och har få konfliktdagar på arbetsmarknaden.
+5-1	62-69	Sverige	_	_	_	_	_	_	
+5-2	70-76	ligger	_	_	_	_	_	_	
+5-3	77-92	internationellt	_	_	_	_	_	_	
+5-4	93-94	i	_	_	_	_	_	_	
+5-5	95-99	topp	_	_	_	_	_	_	
+5-6	100-108	avseende	_	_	_	_	_	_	
+5-7	109-122	produktivitet	_	_	_	_	_	_	
+5-8	123-126	och	_	_	_	_	_	_	
+5-9	127-130	har	_	_	_	_	_	_	
+5-10	131-133	få	_	_	_	_	_	_	
+5-11	134-147	konfliktdagar	_	_	_	_	_	_	
+5-12	148-150	på	_	_	_	_	_	_	
+5-13	151-166	arbetsmarknaden	_	_	_	_	_	_	
+5-14	166-167	.	_	_	_	_	_	_	
+
+#Text=Men med det är inte näringsminister Maud Olofsson nöjd.
+6-1	168-171	Men	_	_	_	_	_	_	
+6-2	172-175	med	*[10]	_	_	_	_	_	
+6-3	176-179	det	*[10]	_	_	_	_	_	
+6-4	180-182	är	_	_	_	_	_	_	
+6-5	183-187	inte	_	Target;Source	6-2[10];6-6[11]	false	2	_	
+6-6	188-203	näringsminister	*[11]	_	_	_	_	_	
+6-7	204-208	Maud	*[11]	_	_	_	_	_	
+6-8	209-217	Olofsson	*[11]	_	_	_	_	_	
+6-9	218-222	nöjd	_	_	_	false	2	6-5	
+6-10	222-223	.	_	_	_	_	_	_	
+
+#Text=Hon har en utrycklig önskan att försvaga löntagarnas anställningsskydd och kollektivavtal.
+7-1	224-227	Hon	*	_	_	_	_	_	
+7-2	228-231	har	_	_	_	_	_	_	
+7-3	232-234	en	_	_	_	_	_	_	
+7-4	235-244	utrycklig	_	Source;Target[1]	7-1;7-7[12]	false[1]	4[1]	_	
+7-5	245-251	önskan	_	Source;Target[1]	7-1;7-7[12]	false[1]	4[1]	_	
+7-6	252-255	att	_	_	_	_	_	_	
+7-7	256-264	försvaga	*[12]	_	_	_	_	_	
+7-8	265-276	löntagarnas	*[12]	_	_	_	_	_	
+7-9	277-294	anställningsskydd	*[12]	_	_	_	_	_	
+7-10	295-298	och	*[12]	_	_	_	_	_	
+7-11	299-313	kollektivavtal	*[12]	_	_	_	_	_	
+7-12	313-314	.	_	_	_	_	_	_	
+
+#Text=Detta är Olofsson- linjen.
+8-1	315-320	Detta	_	_	_	_	_	_	
+8-2	321-323	är	_	_	_	_	_	_	
+8-3	324-332	Olofsson	_	_	_	_	_	_	
+8-4	332-333	-	_	_	_	_	_	_	
+8-5	334-340	linjen	_	_	_	_	_	_	
+8-6	340-341	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	343-344	#	_	_	_	_	_	_	
+9-2	344-345	P	_	_	_	_	_	_	
+9-3	346-349	IMM	_	_	_	_	_	_	
+9-4	349-350	.	_	_	_	_	_	_	
+
+#Text=Arbetsmarknadsminister Sven-Otto Littorin har samtidigt mycket hedervärt försvarat den svenska kollektivavtalsmodellen i anslutning till Lavalmålet i Luxemburg som handlar om svenska fack kan kräva att svenska kollektivavtal – i detta fall i byggbranschen – skall gälla för företag och dess anställda när de tillfälligt utför tjänster i vårt land.
+10-1	352-374	Arbetsmarknadsminister	_	_	_	_	_	_	
+10-2	375-384	Sven-Otto	*[13]	_	_	_	_	_	
+10-3	385-393	Littorin	*[13]	_	_	_	_	_	
+10-4	394-397	har	_	_	_	_	_	_	
+10-5	398-407	samtidigt	_	_	_	_	_	_	
+10-6	408-414	mycket	_	Target[2]	10-2[13]	false[2]	5[2]	_	
+10-7	415-424	hedervärt	_	Target[2]	10-2[13]	false[2]	5[2]	_	
+10-8	425-434	försvarat	_	Target[2]	10-2[13]	false[2]	5[2]	_	
+10-9	435-438	den	_	_	_	_	_	_	
+10-10	439-446	svenska	_	_	_	_	_	_	
+10-11	447-470	kollektivavtalsmodellen	_	_	_	_	_	_	
+10-12	471-472	i	_	_	_	_	_	_	
+10-13	473-483	anslutning	_	_	_	_	_	_	
+10-14	484-488	till	_	_	_	_	_	_	
+10-15	489-499	Lavalmålet	_	_	_	_	_	_	
+10-16	500-501	i	_	_	_	_	_	_	
+10-17	502-511	Luxemburg	_	_	_	_	_	_	
+10-18	512-515	som	_	_	_	_	_	_	
+10-19	516-523	handlar	_	_	_	_	_	_	
+10-20	524-526	om	_	_	_	_	_	_	
+10-21	527-534	svenska	_	_	_	_	_	_	
+10-22	535-539	fack	_	_	_	_	_	_	
+10-23	540-543	kan	_	_	_	_	_	_	
+10-24	544-549	kräva	_	_	_	_	_	_	
+10-25	550-553	att	_	_	_	_	_	_	
+10-26	554-561	svenska	_	_	_	_	_	_	
+10-27	562-576	kollektivavtal	_	_	_	_	_	_	
+10-28	577-578	–	_	_	_	_	_	_	
+10-29	579-580	i	_	_	_	_	_	_	
+10-30	581-586	detta	_	_	_	_	_	_	
+10-31	587-591	fall	_	_	_	_	_	_	
+10-32	592-593	i	_	_	_	_	_	_	
+10-33	594-607	byggbranschen	_	_	_	_	_	_	
+10-34	608-609	–	_	_	_	_	_	_	
+10-35	610-615	skall	_	_	_	_	_	_	
+10-36	616-621	gälla	_	_	_	_	_	_	
+10-37	622-625	för	_	_	_	_	_	_	
+10-38	626-633	företag	_	_	_	_	_	_	
+10-39	634-637	och	_	_	_	_	_	_	
+10-40	638-642	dess	_	_	_	_	_	_	
+10-41	643-652	anställda	_	_	_	_	_	_	
+10-42	653-656	när	_	_	_	_	_	_	
+10-43	657-659	de	_	_	_	_	_	_	
+10-44	660-671	tillfälligt	_	_	_	_	_	_	
+10-45	672-677	utför	_	_	_	_	_	_	
+10-46	678-686	tjänster	_	_	_	_	_	_	
+10-47	687-688	i	_	_	_	_	_	_	
+10-48	689-693	vårt	_	_	_	_	_	_	
+10-49	694-698	land	_	_	_	_	_	_	
+10-50	698-699	.	_	_	_	_	_	_	
+
+#Text=Detta har hittills varit Littorin-linjen i svensk arbetsmarknadspolitik.
+11-1	700-705	Detta	_	_	_	_	_	_	
+11-2	706-709	har	_	_	_	_	_	_	
+11-3	710-718	hittills	_	_	_	_	_	_	
+11-4	719-724	varit	_	_	_	_	_	_	
+11-5	725-740	Littorin-linjen	_	_	_	_	_	_	
+11-6	741-742	i	_	_	_	_	_	_	
+11-7	743-749	svensk	_	_	_	_	_	_	
+11-8	750-771	arbetsmarknadspolitik	_	_	_	_	_	_	
+11-9	771-772	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	774-775	#	_	_	_	_	_	_	
+12-2	775-776	P	_	_	_	_	_	_	
+12-3	777-780	IMM	_	_	_	_	_	_	
+12-4	780-781	.	_	_	_	_	_	_	
+
+#Text=Båda statsråden har före och efter valet intresserat sig för den danska arbetsmarknadsmodellen och söker hämta argument från den i den svenska debatten.
+13-1	783-787	Båda	*[14]	_	_	_	_	_	
+13-2	788-798	statsråden	*[14]	_	_	_	_	_	
+13-3	799-802	har	_	_	_	_	_	_	
+13-4	803-807	före	_	_	_	_	_	_	
+13-5	808-811	och	_	_	_	_	_	_	
+13-6	812-817	efter	_	_	_	_	_	_	
+13-7	818-823	valet	_	_	_	_	_	_	
+13-8	824-835	intresserat	_	Source;Target[3]	13-1[14];13-11[15]	false[3]	4[3]	_	
+13-9	836-839	sig	_	Source;Target[3]	13-1[14];13-11[15]	false[3]	4[3]	_	
+13-10	840-843	för	_	Source;Target[3]	13-1[14];13-11[15]	false[3]	4[3]	_	
+13-11	844-847	den	*[15]	_	_	_	_	_	
+13-12	848-854	danska	*[15]	_	_	_	_	_	
+13-13	855-877	arbetsmarknadsmodellen	*[15]	_	_	_	_	_	
+13-14	878-881	och	_	_	_	_	_	_	
+13-15	882-887	söker	_	_	_	_	_	_	
+13-16	888-893	hämta	_	_	_	_	_	_	
+13-17	894-902	argument	_	_	_	_	_	_	
+13-18	903-907	från	_	_	_	_	_	_	
+13-19	908-911	den	_	_	_	_	_	_	
+13-20	912-913	i	_	_	_	_	_	_	
+13-21	914-917	den	_	_	_	_	_	_	
+13-22	918-925	svenska	_	_	_	_	_	_	
+13-23	926-934	debatten	_	_	_	_	_	_	
+13-24	934-935	.	_	_	_	_	_	_	
+
+#Text=Olofsson tycks bortse ifrån att det borgerligt styrda Danmark gav Sverige och Littorin-linjen ett starkt stöd vid den muntliga hearingen i Lavalmålet.
+14-1	936-944	Olofsson	*	_	_	_	_	_	
+14-2	945-950	tycks	_	Target[4]	14-1	false[4]	2[4]	_	
+14-3	951-957	bortse	_	Target[4]	14-1	false[4]	2[4]	_	
+14-4	958-963	ifrån	_	_	_	_	_	_	
+14-5	964-967	att	_	_	_	_	_	_	
+14-6	968-971	det	*[16]	_	_	_	_	_	
+14-7	972-982	borgerligt	*[16]	_	_	_	_	_	
+14-8	983-989	styrda	*[16]	_	_	_	_	_	
+14-9	990-997	Danmark	*[16]	_	_	_	_	_	
+14-10	998-1001	gav	_	_	_	_	_	_	
+14-11	1002-1009	Sverige	*[17]	_	_	_	_	_	
+14-12	1010-1013	och	*[17]	_	_	_	_	_	
+14-13	1014-1029	Littorin-linjen	*[17]	_	_	_	_	_	
+14-14	1030-1033	ett	_	_	_	_	_	_	
+14-15	1034-1040	starkt	_	Target;Source[5]	14-11[17];14-6[16]	false[5]	5[5]	_	
+14-16	1041-1045	stöd	_	Target;Source[5]	14-11[17];14-6[16]	false[5]	5[5]	_	
+14-17	1046-1049	vid	_	_	_	_	_	_	
+14-18	1050-1053	den	_	_	_	_	_	_	
+14-19	1054-1062	muntliga	_	_	_	_	_	_	
+14-20	1063-1072	hearingen	_	_	_	_	_	_	
+14-21	1073-1074	i	_	_	_	_	_	_	
+14-22	1075-1085	Lavalmålet	_	_	_	_	_	_	
+14-23	1085-1086	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1088-1089	#	_	_	_	_	_	_	
+15-2	1089-1090	P	_	_	_	_	_	_	
+15-3	1091-1094	IMM	_	_	_	_	_	_	
+15-4	1094-1095	.	_	_	_	_	_	_	
+
+#Text=Möjlighet för facket att som en sista utväg kunna vidta stridsåtgärder för att garantera arbetstagarna likabehandling och ett bra villkorsskydd för att få tillstånd kollektivavtal är en mycket viktig beståndsdel i den svensk-danska modellen.
+16-1	1097-1106	Möjlighet	_	_	_	_	_	_	
+16-2	1107-1110	för	_	_	_	_	_	_	
+16-3	1111-1117	facket	_	_	_	_	_	_	
+16-4	1118-1121	att	_	_	_	_	_	_	
+16-5	1122-1125	som	_	_	_	_	_	_	
+16-6	1126-1128	en	_	_	_	_	_	_	
+16-7	1129-1134	sista	_	_	_	_	_	_	
+16-8	1135-1140	utväg	_	_	_	_	_	_	
+16-9	1141-1146	kunna	_	_	_	_	_	_	
+16-10	1147-1152	vidta	_	_	_	_	_	_	
+16-11	1153-1167	stridsåtgärder	_	_	_	_	_	_	
+16-12	1168-1171	för	_	_	_	_	_	_	
+16-13	1172-1175	att	_	_	_	_	_	_	
+16-14	1176-1185	garantera	_	_	_	_	_	_	
+16-15	1186-1199	arbetstagarna	_	_	_	_	_	_	
+16-16	1200-1214	likabehandling	_	_	_	_	_	_	
+16-17	1215-1218	och	_	_	_	_	_	_	
+16-18	1219-1222	ett	_	_	_	_	_	_	
+16-19	1223-1226	bra	_	Target	16-20	false	4	_	
+16-20	1227-1240	villkorsskydd	*	_	_	_	_	_	
+16-21	1241-1244	för	_	_	_	_	_	_	
+16-22	1245-1248	att	_	_	_	_	_	_	
+16-23	1249-1251	få	_	_	_	_	_	_	
+16-24	1252-1261	tillstånd	_	_	_	_	_	_	
+16-25	1262-1276	kollektivavtal	_	_	_	_	_	_	
+16-26	1277-1279	är	_	_	_	_	_	_	
+16-27	1280-1282	en	_	_	_	_	_	_	
+16-28	1283-1289	mycket	_	Target[6]	16-30	false[6]	5[6]	_	
+16-29	1290-1296	viktig	_	Target[6]	16-30	false[6]	5[6]	_	
+16-30	1297-1308	beståndsdel	*	_	_	_	_	_	
+16-31	1309-1310	i	_	_	_	_	_	_	
+16-32	1311-1314	den	_	_	_	_	_	_	
+16-33	1315-1328	svensk-danska	_	_	_	_	_	_	
+16-34	1329-1337	modellen	_	_	_	_	_	_	
+16-35	1337-1338	.	_	_	_	_	_	_	
+
+#Text=Kraven får förstås aldrig strida mot någons grundläggande mänskliga rättigheter.
+17-1	1339-1345	Kraven	*	_	_	_	_	_	
+17-2	1346-1349	får	_	Target[7]	17-1	false[7]	2[7]	_	
+17-3	1350-1357	förstås	_	Target[7]	17-1	false[7]	2[7]	_	
+17-4	1358-1364	aldrig	_	Target[7]	17-1	false[7]	2[7]	_	
+17-5	1365-1371	strida	_	_	_	_	_	_	
+17-6	1372-1375	mot	_	_	_	_	_	_	
+17-7	1376-1382	någons	_	_	_	_	_	_	
+17-8	1383-1396	grundläggande	_	_	_	_	_	_	
+17-9	1397-1406	mänskliga	_	_	_	_	_	_	
+17-10	1407-1418	rättigheter	_	_	_	_	_	_	
+17-11	1418-1419	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1421-1422	#	_	_	_	_	_	_	
+18-2	1422-1423	P	_	_[8]	_	false[8]	3[8]	_	
+18-3	1424-1427	IMM	_	_[8]	_	false[8]	3[8]	_	
+18-4	1427-1428	.	_	_	_	_	_	_	
+
+#Text=Praktiken är att löntagarnas otrygghet ökar.
+19-1	1430-1439	Praktiken	_	_	_	_	_	_	
+19-2	1440-1442	är	_	_	_	_	_	_	
+19-3	1443-1446	att	_	_	_	_	_	_	
+19-4	1447-1458	löntagarnas	*	_	_	_	_	_	
+19-5	1459-1468	otrygghet	_	Source	19-4	false	2	_	
+19-6	1469-1473	ökar	_	_	_	_	_	_	
+19-7	1473-1474	.	_	_	_	_	_	_	
+
+#Text=Den nya svenska arbetsmarknadspolitiken med en väsentligt försämrad a-kassa, kraftigt nedskuren arbetsmarknadspolitik och nu risk för ett försämrat anställningsskydd kommer att bidra till det.
+20-1	1475-1478	Den	_	_	_	_	_	_	
+20-2	1479-1482	nya	_	_	_	_	_	_	
+20-3	1483-1490	svenska	_	_	_	_	_	_	
+20-4	1491-1514	arbetsmarknadspolitiken	_	_	_	_	_	_	
+20-5	1515-1518	med	_	_	_	_	_	_	
+20-6	1519-1521	en	_	_	_	_	_	_	
+20-7	1522-1532	väsentligt	_	Target[9]	20-9	false[9]	2[9]	_	
+20-8	1533-1542	försämrad	_	Target[9]	20-9	false[9]	2[9]	_	
+20-9	1543-1550	a-kassa	*	_	_	_	_	_	
+20-10	1550-1551	,	_	_	_	_	_	_	
+20-11	1552-1560	kraftigt	_	_	_	_	_	_	
+20-12	1561-1570	nedskuren	_	_	_	_	_	_	
+20-13	1571-1592	arbetsmarknadspolitik	_	_	_	_	_	_	
+20-14	1593-1596	och	_	_	_	_	_	_	
+20-15	1597-1599	nu	_	_	_	_	_	_	
+20-16	1600-1604	risk	_	Target	20-19[18]	false	2	_	
+20-17	1605-1608	för	_	_	_	_	_	_	
+20-18	1609-1612	ett	_	_	_	_	_	_	
+20-19	1613-1622	försämrat	*[18]	_	_	_	_	_	
+20-20	1623-1640	anställningsskydd	*[18]	_	_	_	_	_	
+20-21	1641-1647	kommer	_	_	_	_	_	_	
+20-22	1648-1651	att	_	_	_	_	_	_	
+20-23	1652-1657	bidra	_	_	_	_	_	_	
+20-24	1658-1662	till	_	_	_	_	_	_	
+20-25	1663-1666	det	_	_	_	_	_	_	
+20-26	1666-1667	.	_	_	_	_	_	_	
+
+#Text=Med de nu föreslagna Las-reglerna kan otrygga visstidsanställningar staplas på varandra under mycket lång tid utan att ge dessa personer – oftast kvinnor, invandrare och ungdomar – ett fast och jämförelsevis tryggt jobb.
+21-1	1668-1671	Med	_	_	_	_	_	_	
+21-2	1672-1674	de	_	_	_	_	_	_	
+21-3	1675-1677	nu	_	_	_	_	_	_	
+21-4	1678-1688	föreslagna	_	_	_	_	_	_	
+21-5	1689-1701	Las-reglerna	_	_	_	_	_	_	
+21-6	1702-1705	kan	_	_	_	_	_	_	
+21-7	1706-1713	otrygga	_	Target	21-8	false	2	_	
+21-8	1714-1735	visstidsanställningar	*	_	_	_	_	_	
+21-9	1736-1743	staplas	_	_	_	_	_	_	
+21-10	1744-1746	på	_	_	_	_	_	_	
+21-11	1747-1755	varandra	_	_	_	_	_	_	
+21-12	1756-1761	under	_	_	_	_	_	_	
+21-13	1762-1768	mycket	_	_	_	_	_	_	
+21-14	1769-1773	lång	_	_	_	_	_	_	
+21-15	1774-1777	tid	_	_	_	_	_	_	
+21-16	1778-1782	utan	_	_	_	_	_	_	
+21-17	1783-1786	att	_	_	_	_	_	_	
+21-18	1787-1789	ge	_	_	_	_	_	_	
+21-19	1790-1795	dessa	_	_	_	_	_	_	
+21-20	1796-1804	personer	_	_	_	_	_	_	
+21-21	1805-1806	–	_	_	_	_	_	_	
+21-22	1807-1813	oftast	_	_	_	_	_	_	
+21-23	1814-1821	kvinnor	_	_	_	_	_	_	
+21-24	1821-1822	,	_	_	_	_	_	_	
+21-25	1823-1833	invandrare	_	_	_	_	_	_	
+21-26	1834-1837	och	_	_	_	_	_	_	
+21-27	1838-1846	ungdomar	_	_	_	_	_	_	
+21-28	1847-1848	–	_	_	_	_	_	_	
+21-29	1849-1852	ett	_	_	_	_	_	_	
+21-30	1853-1857	fast	_	_	_	_	_	_	
+21-31	1858-1861	och	_	_	_	_	_	_	
+21-32	1862-1875	jämförelsevis	_	_	_	_	_	_	
+21-33	1876-1882	tryggt	_	Target	21-34	false	4	_	
+21-34	1883-1887	jobb	*	_	_	_	_	_	
+21-35	1887-1888	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1890-1891	#	_	_	_	_	_	_	
+22-2	1891-1892	P	_	_	_	_	_	_	
+22-3	1893-1896	IMM	_	_	_	_	_	_	
+22-4	1896-1897	.	_	_	_	_	_	_	
+
+#Text=TCO har krävt att det införs en Las-regel som förhindrar att arbetsgivare kan stapla visstidsanställningar på varandra under lång tid.
+23-1	1899-1902	TCO	_	_	_	_	_	_	
+23-2	1903-1906	har	_	_	_	_	_	_	
+23-3	1907-1912	krävt	_	_	_	_	_	_	
+23-4	1913-1916	att	_	_	_	_	_	_	
+23-5	1917-1920	det	_	_	_	_	_	_	
+23-6	1921-1927	införs	_	_	_	_	_	_	
+23-7	1928-1930	en	_	_	_	_	_	_	
+23-8	1931-1940	Las-regel	_	_	_	_	_	_	
+23-9	1941-1944	som	_	_	_	_	_	_	
+23-10	1945-1955	förhindrar	_	_	_	_	_	_	
+23-11	1956-1959	att	_	_	_	_	_	_	
+23-12	1960-1972	arbetsgivare	_	_	_	_	_	_	
+23-13	1973-1976	kan	_	_	_	_	_	_	
+23-14	1977-1983	stapla	_	_	_	_	_	_	
+23-15	1984-2005	visstidsanställningar	_	_	_	_	_	_	
+23-16	2006-2008	på	_	_	_	_	_	_	
+23-17	2009-2017	varandra	_	_	_	_	_	_	
+23-18	2018-2023	under	_	_	_	_	_	_	
+23-19	2024-2028	lång	_	_	_	_	_	_	
+23-20	2029-2032	tid	_	_	_	_	_	_	
+23-21	2032-2033	.	_	_	_	_	_	_	
+
+#Text=Sådana skyddsregler torde även EG rätten kräva om statsmakten väljer ett system med ”fri visstidsanställning”.
+24-1	2034-2040	Sådana	_	_	_	_	_	_	
+24-2	2041-2053	skyddsregler	_	_	_	_	_	_	
+24-3	2054-2059	torde	_	_	_	_	_	_	
+24-4	2060-2064	även	_	_	_	_	_	_	
+24-5	2065-2067	EG	_	_	_	_	_	_	
+24-6	2068-2074	rätten	_	_	_	_	_	_	
+24-7	2075-2080	kräva	_	_	_	_	_	_	
+24-8	2081-2083	om	_	_	_	_	_	_	
+24-9	2084-2095	statsmakten	_	_	_	_	_	_	
+24-10	2096-2102	väljer	_	_	_	_	_	_	
+24-11	2103-2106	ett	_	_	_	_	_	_	
+24-12	2107-2113	system	_	_	_	_	_	_	
+24-13	2114-2117	med	_	_	_	_	_	_	
+24-14	2118-2119	”	_	_	_	_	_	_	
+24-15	2119-2122	fri	_	_	_	_	_	_	
+24-16	2123-2142	visstidsanställning	_	_	_	_	_	_	
+24-17	2142-2143	”	_	_	_	_	_	_	
+24-18	2143-2144	.	_	_	_	_	_	_	
+
+#Text=Efter 3 år i visstidsanställning eller provanställning hos samma arbetsgivare under en femårsperiod skall därför de otrygga jobben automatiskt övergå i ett fast jobb.
+25-1	2145-2150	Efter	_	_	_	_	_	_	
+25-2	2151-2152	3	_	_	_	_	_	_	
+25-3	2153-2155	år	_	_	_	_	_	_	
+25-4	2156-2157	i	_	_	_	_	_	_	
+25-5	2158-2177	visstidsanställning	_	_	_	_	_	_	
+25-6	2178-2183	eller	_	_	_	_	_	_	
+25-7	2184-2199	provanställning	_	_	_	_	_	_	
+25-8	2200-2203	hos	_	_	_	_	_	_	
+25-9	2204-2209	samma	_	_	_	_	_	_	
+25-10	2210-2222	arbetsgivare	_	_	_	_	_	_	
+25-11	2223-2228	under	_	_	_	_	_	_	
+25-12	2229-2231	en	_	_	_	_	_	_	
+25-13	2232-2244	femårsperiod	_	_	_	_	_	_	
+25-14	2245-2250	skall	_	_	_	_	_	_	
+25-15	2251-2257	därför	_	_	_	_	_	_	
+25-16	2258-2260	de	_	_	_	_	_	_	
+25-17	2261-2268	otrygga	_	Target	25-18	false	2	_	
+25-18	2269-2275	jobben	*	_	_	_	_	_	
+25-19	2276-2287	automatiskt	_	_	_	_	_	_	
+25-20	2288-2294	övergå	_	_	_	_	_	_	
+25-21	2295-2296	i	_	_	_	_	_	_	
+25-22	2297-2300	ett	_	_	_	_	_	_	
+25-23	2301-2305	fast	_	_	_	_	_	_	
+25-24	2306-2310	jobb	_	_	_	_	_	_	
+25-25	2310-2311	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2313-2314	#	_	_	_	_	_	_	
+26-2	2314-2315	P	_	_	_	_	_	_	
+26-3	2316-2319	IMM	_	_	_	_	_	_	
+26-4	2319-2320	.	_	_	_	_	_	_	
+
+#Text=Om inte Las- förslaget i den kommande propositionen innefattar en sådan skyddsregel för löntagarna får TCO återigen överväga att be EU-kommissionen rycker ut för att ta den svenska regeringen i örat.
+27-1	2322-2324	Om	_	_	_	_	_	_	
+27-2	2325-2329	inte	_	_	_	_	_	_	
+27-3	2330-2333	Las	_	_	_	_	_	_	
+27-4	2333-2334	-	_	_	_	_	_	_	
+27-5	2335-2344	förslaget	_	_	_	_	_	_	
+27-6	2345-2346	i	_	_	_	_	_	_	
+27-7	2347-2350	den	_	_	_	_	_	_	
+27-8	2351-2359	kommande	_	_	_	_	_	_	
+27-9	2360-2373	propositionen	_	_	_	_	_	_	
+27-10	2374-2384	innefattar	_	_	_	_	_	_	
+27-11	2385-2387	en	_	_	_	_	_	_	
+27-12	2388-2393	sådan	_	_	_	_	_	_	
+27-13	2394-2405	skyddsregel	_	_	_	_	_	_	
+27-14	2406-2409	för	_	_	_	_	_	_	
+27-15	2410-2420	löntagarna	_	_	_	_	_	_	
+27-16	2421-2424	får	_	_	_	_	_	_	
+27-17	2425-2428	TCO	_	_	_	_	_	_	
+27-18	2429-2437	återigen	_	_	_	_	_	_	
+27-19	2438-2446	överväga	_	_	_	_	_	_	
+27-20	2447-2450	att	_	_	_	_	_	_	
+27-21	2451-2453	be	_	_	_	_	_	_	
+27-22	2454-2469	EU-kommissionen	_	_	_	_	_	_	
+27-23	2470-2476	rycker	_	_	_	_	_	_	
+27-24	2477-2479	ut	_	_	_	_	_	_	
+27-25	2480-2483	för	_	_	_	_	_	_	
+27-26	2484-2487	att	_	_	_	_	_	_	
+27-27	2488-2490	ta	_	_	_	_	_	_	
+27-28	2491-2494	den	_	_	_	_	_	_	
+27-29	2495-2502	svenska	_	_	_	_	_	_	
+27-30	2503-2513	regeringen	_	_	_	_	_	_	
+27-31	2514-2515	i	_	_	_	_	_	_	
+27-32	2516-2520	örat	_	_	_	_	_	_	
+27-33	2520-2521	.	_	_	_	_	_	_	

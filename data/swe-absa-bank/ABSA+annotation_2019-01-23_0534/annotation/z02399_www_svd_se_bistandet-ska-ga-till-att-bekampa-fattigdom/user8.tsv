@@ -1,0 +1,1146 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Biståndet ska gå till att bekämpa fattigdom.
+3-1	18-27	Biståndet	_	_	_	_	_	_	_	
+3-2	28-31	ska	_	_	_	_	_	_	_	
+3-3	32-34	gå	_	_	_	_	_	_	_	
+3-4	35-39	till	_	_	_	_	_	_	_	
+3-5	40-43	att	_	_	_	_	_	_	_	
+3-6	44-51	bekämpa	_	_	_	_	_	_	_	
+3-7	52-61	fattigdom	_	_	_	_	_	_	_	
+3-8	61-62	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har länge varit bäst i världen på bistånd.
+5-1	73-80	Sverige	*[24]	_	_	_	_	_	6-1[0_24]	
+5-2	81-84	har	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-3	85-90	länge	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-4	91-96	varit	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-5	97-101	bäst	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-6	102-103	i	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-7	104-111	världen	*[24]	Target[1]	5-1[24]	false[1]	5[1]	_	_	
+5-8	112-114	på	*[24]	_	_	_	_	_	_	
+5-9	115-122	bistånd	*[24]	_	_	_	_	_	_	
+5-10	122-123	.	_	_	_	_	_	_	_	
+
+#Text=Det är något vi ska vara stolta över.
+6-1	124-127	Det	*	_	_	_	_	_	_	
+6-2	128-130	är	_	_	_	_	_	_	_	
+6-3	131-136	något	_	_	_	_	_	_	_	
+6-4	137-139	vi	*	_	_	_	_	_	_	
+6-5	140-143	ska	_	Source;Target[2]	6-4;6-1	false[2]	4[2]	_	_	
+6-6	144-148	vara	_	Source;Target[2]	6-4;6-1	false[2]	4[2]	_	_	
+6-7	149-155	stolta	_	Source;Target[2]	6-4;6-1	false[2]	4[2]	_	_	
+6-8	156-160	över	_	Source;Target[2]	6-4;6-1	false[2]	4[2]	_	_	
+6-9	160-161	.	_	_	_	_	_	_	_	
+
+#Text=Det är dock oroande att se hur det svenska biståndet urholkas.
+7-1	162-165	Det	_	_	_	_	_	_	_	
+7-2	166-168	är	_	Target	7-5[25]	false	2	_	_	
+7-3	169-173	dock	_	_	_	_	_	_	_	
+7-4	174-181	oroande	_	Target	7-5[25]	false	2	7-2	_	
+7-5	182-185	att	*[25]	_	_	_	_	_	_	
+7-6	186-188	se	*[25]	_	_	_	_	_	_	
+7-7	189-192	hur	*[25]	_	_	_	_	_	_	
+7-8	193-196	det	*[25]	_	_	_	_	_	_	
+7-9	197-204	svenska	*[25]	_	_	_	_	_	_	
+7-10	205-214	biståndet	*[25]	_	_	_	_	_	_	
+7-11	215-223	urholkas	*[25]	_	_	false	2	_	_	
+7-12	223-224	.	_	_	_	_	_	_	_	
+
+#Text=Delar av biståndsbudgeten går inte till sådant som bidrar till att uppfylla det övergripande målet med det svenska biståndet: att lyfta människor ur fattigdom.
+8-1	225-230	Delar	_	_	_	_	_	_	_	
+8-2	231-233	av	_	_	_	_	_	_	_	
+8-3	234-250	biståndsbudgeten	_	_	_	_	_	_	_	
+8-4	251-254	går	_	_	_	_	_	_	_	
+8-5	255-259	inte	_	_	_	_	_	_	_	
+8-6	260-264	till	_	_	_	_	_	_	_	
+8-7	265-271	sådant	_	_	_	_	_	_	_	
+8-8	272-275	som	_	_	_	_	_	_	_	
+8-9	276-282	bidrar	_	_	_	_	_	_	_	
+8-10	283-287	till	_	_	_	_	_	_	_	
+8-11	288-291	att	_	_	_	_	_	_	_	
+8-12	292-300	uppfylla	_	_	_	_	_	_	_	
+8-13	301-304	det	_	_	_	_	_	_	_	
+8-14	305-317	övergripande	_	_	_	_	_	_	_	
+8-15	318-323	målet	_	_	_	_	_	_	_	
+8-16	324-327	med	_	_	_	_	_	_	_	
+8-17	328-331	det	_	_	_	_	_	_	_	
+8-18	332-339	svenska	_	_	_	_	_	_	_	
+8-19	340-349	biståndet	_	_	_	_	_	_	_	
+8-20	349-350	:	_	_	_	_	_	_	_	
+8-21	351-354	att	_	_	_	_	_	_	_	
+8-22	355-360	lyfta	_	_[3]	_	false[3]	4[3]	_	_	
+8-23	361-370	människor	_	_[3]	_	false[3]	4[3]	_	_	
+8-24	371-373	ur	_	_[3]	_	false[3]	4[3]	_	_	
+8-25	374-383	fattigdom	_	_[3]	_	false[3]	4[3]	_	_	
+8-26	383-384	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver företrädare för Svenska Kyrkan, Palmecentret, Forum Syd, med flera.
+9-1	385-388	Det	_	_	_	_	_	_	_	
+9-2	389-396	skriver	_	_	_	_	_	_	_	
+9-3	397-408	företrädare	_	_	_	_	_	_	_	
+9-4	409-412	för	_	_	_	_	_	_	_	
+9-5	413-420	Svenska	_	_	_	_	_	_	_	
+9-6	421-427	Kyrkan	_	_	_	_	_	_	_	
+9-7	427-428	,	_	_	_	_	_	_	_	
+9-8	429-441	Palmecentret	_	_	_	_	_	_	_	
+9-9	441-442	,	_	_	_	_	_	_	_	
+9-10	443-448	Forum	_	_	_	_	_	_	_	
+9-11	449-452	Syd	_	_	_	_	_	_	_	
+9-12	452-453	,	_	_	_	_	_	_	_	
+9-13	454-457	med	_	_	_	_	_	_	_	
+9-14	458-463	flera	_	_	_	_	_	_	_	
+9-15	463-464	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	466-467	#	_	_	_	_	_	_	_	
+10-2	467-468	P	_	_	_	_	_	_	_	
+10-3	469-472	IMM	_	_	_	_	_	_	_	
+10-4	472-473	.	_	_	_	_	_	_	_	
+
+#Text=I rapporten "Challenging self-interest – Getting EU aid fit for the fight against poverty" som vi inom ramen för den europeiska samarbetsorganisationen CONCORD publicerar i dag riktas hård kritik mot den trend där medlemsländernas egenintressen sätts före det övergripande målet.
+11-1	475-476	I	*[26]	_	_	_	_	_	_	
+11-2	477-486	rapporten	*[26]	_	_	_	_	_	_	
+11-3	487-488	"	*[26]	_	_	_	_	_	_	
+11-4	488-499	Challenging	*[26]	_	_	_	_	_	_	
+11-5	500-513	self-interest	*[26]	_	_	_	_	_	_	
+11-6	514-515	–	*[26]	_	_	_	_	_	_	
+11-7	516-523	Getting	*[26]	_	_	_	_	_	_	
+11-8	524-526	EU	*[26]	_	_	_	_	_	_	
+11-9	527-530	aid	*[26]	_	_	_	_	_	_	
+11-10	531-534	fit	*[26]	_	_	_	_	_	_	
+11-11	535-538	for	*[26]	_	_	_	_	_	_	
+11-12	539-542	the	*[26]	_	_	_	_	_	_	
+11-13	543-548	fight	*[26]	_	_	_	_	_	_	
+11-14	549-556	against	*[26]	_	_	_	_	_	_	
+11-15	557-564	poverty	*[26]	_	_	_	_	_	_	
+11-16	564-565	"	*[26]	_	_	_	_	_	_	
+11-17	566-569	som	*[26]	_	_	_	_	_	_	
+11-18	570-572	vi	*[26]	_	_	_	_	_	_	
+11-19	573-577	inom	*[26]	_	_	_	_	_	_	
+11-20	578-583	ramen	*[26]	_	_	_	_	_	_	
+11-21	584-587	för	*[26]	_	_	_	_	_	_	
+11-22	588-591	den	*[26]	_	_	_	_	_	_	
+11-23	592-602	europeiska	*[26]	_	_	_	_	_	_	
+11-24	603-626	samarbetsorganisationen	*[26]	_	_	_	_	_	_	
+11-25	627-634	CONCORD	*[26]	_	_	_	_	_	_	
+11-26	635-645	publicerar	*[26]	_	_	_	_	_	_	
+11-27	646-647	i	*[26]	_	_	_	_	_	_	
+11-28	648-651	dag	*[26]	_	_	_	_	_	_	
+11-29	652-658	riktas	_	Source;Target[4]	11-1[26];11-33[27]	false[4]	1[4]	_	_	
+11-30	659-663	hård	_	Source;Target[4]	11-1[26];11-33[27]	false[4]	1[4]	_	_	
+11-31	664-670	kritik	_	Source;Target[4]	11-1[26];11-33[27]	false[4]	1[4]	_	_	
+11-32	671-674	mot	_	Source;Target[4]	11-1[26];11-33[27]	false[4]	1[4]	_	_	
+11-33	675-678	den	*[27]	_	_	_	_	_	_	
+11-34	679-684	trend	*[27]	_	_	_	_	_	_	
+11-35	685-688	där	*[27]	_	_	_	_	_	_	
+11-36	689-705	medlemsländernas	*[27]	_	_	_	_	_	_	
+11-37	706-719	egenintressen	*[27]	_	_	_	_	_	_	
+11-38	720-725	sätts	*[27]	_	_	_	_	_	_	
+11-39	726-730	före	*[27]	_	_	_	_	_	_	
+11-40	731-734	det	*[27]	_	_	_	_	_	_	
+11-41	735-747	övergripande	*[27]	_	_	_	_	_	_	
+11-42	748-753	målet	*[27]	_	_	_	_	_	_	
+11-43	753-754	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	756-757	#	_	_	_	_	_	_	_	
+12-2	757-758	P	_	_	_	_	_	_	_	
+12-3	759-762	IMM	_	_	_	_	_	_	_	
+12-4	762-763	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+13-1	765-768	Det	_	_	_	_	_	_	_	
+13-2	769-772	här	_	_	_	_	_	_	_	
+13-3	773-775	är	_	_	_	_	_	_	_	
+13-4	776-778	en	_	_	_	_	_	_	_	
+13-5	779-793	argumenterande	_	_	_	_	_	_	_	
+13-6	794-798	text	_	_	_	_	_	_	_	
+13-7	799-802	med	_	_	_	_	_	_	_	
+13-8	803-808	syfte	_	_	_	_	_	_	_	
+13-9	809-812	att	_	_	_	_	_	_	_	
+13-10	813-820	påverka	_	_	_	_	_	_	_	
+13-11	820-821	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+14-1	822-831	Åsikterna	_	_	_	_	_	_	_	
+14-2	832-835	som	_	_	_	_	_	_	_	
+14-3	836-844	uttrycks	_	_	_	_	_	_	_	
+14-4	845-847	är	_	_	_	_	_	_	_	
+14-5	848-859	skribentens	_	_	_	_	_	_	_	
+14-6	860-864	egna	_	_	_	_	_	_	_	
+14-7	864-865	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	867-868	#	_	_	_	_	_	_	_	
+15-2	868-869	P	_	_	_	_	_	_	_	
+15-3	870-873	IMM	_	_	_	_	_	_	_	
+15-4	873-874	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill se en ny inriktning på det svenska biståndet där man istället för att försöka föra in så många andra utgiftsområden som möjligt frågar sig – hur kan vi nå bästa möjliga effekt av de 35 miljarderna i biståndsbudgeten för att utrota fattigdomen?.
+16-1	876-878	Vi	*	_	_	_	_	_	_	
+16-2	879-883	vill	_	Source;Target[5]	16-1;16-4[28]	false[5]	4[5]	_	_	
+16-3	884-886	se	_	Source;Target[5]	16-1;16-4[28]	false[5]	4[5]	_	_	
+16-4	887-889	en	*[28]	_	_	_	_	_	_	
+16-5	890-892	ny	*[28]	_	_	_	_	_	_	
+16-6	893-903	inriktning	*[28]	_	_	_	_	_	_	
+16-7	904-906	på	*[28]	_	_	_	_	_	_	
+16-8	907-910	det	*[28]	_	_	_	_	_	_	
+16-9	911-918	svenska	*[28]	_	_	_	_	_	_	
+16-10	919-928	biståndet	*[28]	_	_	_	_	_	_	
+16-11	929-932	där	*[28]	_	_	_	_	_	_	
+16-12	933-936	man	*[28]	_	_	_	_	_	_	
+16-13	937-945	istället	*[28]	_	_	_	_	_	_	
+16-14	946-949	för	*[28]	_	_	_	_	_	_	
+16-15	950-953	att	*[28]	_	_	_	_	_	_	
+16-16	954-961	försöka	*[28]	_	_	_	_	_	_	
+16-17	962-966	föra	*[28]	_	_	_	_	_	_	
+16-18	967-969	in	*[28]	_	_	_	_	_	_	
+16-19	970-972	så	*[28]	_	_	_	_	_	_	
+16-20	973-978	många	*[28]	_	_	_	_	_	_	
+16-21	979-984	andra	*[28]	_	_	_	_	_	_	
+16-22	985-999	utgiftsområden	*[28]	_	_	_	_	_	_	
+16-23	1000-1003	som	*[28]	_	_	_	_	_	_	
+16-24	1004-1011	möjligt	*[28]	_	_	_	_	_	_	
+16-25	1012-1018	frågar	*[28]	_	_	_	_	_	_	
+16-26	1019-1022	sig	*[28]	_	_	_	_	_	_	
+16-27	1023-1024	–	*[28]	_	_	_	_	_	_	
+16-28	1025-1028	hur	*[28]	_	_	_	_	_	_	
+16-29	1029-1032	kan	*[28]	_	_	_	_	_	_	
+16-30	1033-1035	vi	*[28]	_	_	_	_	_	_	
+16-31	1036-1038	nå	*[28]	Source;Target[6]	16-46;16-34[29]	false[6]	4[6]	_	_	
+16-32	1039-1044	bästa	*[28]	Source;Target[6]	16-46;16-34[29]	false[6]	4[6]	_	_	
+16-33	1045-1052	möjliga	*[28]	Source;Target[6]	16-46;16-34[29]	false[6]	4[6]	_	_	
+16-34	1053-1059	effekt	*[28]|*[29]	Source;Target[6]	16-46;16-34[29]	false[6]	4[6]	_	_	
+16-35	1060-1062	av	*[28]|*[29]	_	_	_	_	_	_	
+16-36	1063-1065	de	*[28]|*[29]	_	_	_	_	_	_	
+16-37	1066-1068	35	*[28]|*[29]	_	_	_	_	_	_	
+16-38	1069-1080	miljarderna	*[28]|*[29]	_	_	_	_	_	_	
+16-39	1081-1082	i	*[28]|*[29]	_	_	_	_	_	_	
+16-40	1083-1099	biståndsbudgeten	*[28]|*[29]	_	_	_	_	_	_	
+16-41	1100-1103	för	*[28]|*[29]	_	_	_	_	_	_	
+16-42	1104-1107	att	*[28]|*[29]	_	_	_	_	_	_	
+16-43	1108-1114	utrota	*[28]|*[29]	Source;Target[7]	16-46;16-44[30]	false[7]	1[7]	_	_	
+16-44	1115-1126	fattigdomen	*[28]|*[29]|*[30]	Source;Target[7]	16-46;16-44[30]	false[7]	1[7]	_	_	
+16-45	1126-1127	?	_	_	_	_	_	_	_	
+16-46	1127-1128	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1130-1131	#	_	_	_	_	_	_	_	
+17-2	1131-1132	P	_	_	_	_	_	_	_	
+17-3	1133-1136	IMM	_	_	_	false	3	_	_	
+17-4	1136-1137	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen ligger nära enprocentmålet i svenskt bistånd, det vill säga den princip som säger att en procent av vår BNI skall gå till biståndsbudgeten.
+18-1	1139-1149	Regeringen	_	_	_	_	_	_	_	
+18-2	1150-1156	ligger	_	_	_	_	_	_	_	
+18-3	1157-1161	nära	_	_	_	_	_	_	_	
+18-4	1162-1176	enprocentmålet	_	_	_	_	_	_	_	
+18-5	1177-1178	i	_	_	_	_	_	_	_	
+18-6	1179-1186	svenskt	_	_	_	_	_	_	_	
+18-7	1187-1194	bistånd	_	_	_	_	_	_	_	
+18-8	1194-1195	,	_	_	_	_	_	_	_	
+18-9	1196-1199	det	_	_	_	_	_	_	_	
+18-10	1200-1204	vill	_	_	_	_	_	_	_	
+18-11	1205-1209	säga	_	_	_	_	_	_	_	
+18-12	1210-1213	den	_	_	_	_	_	_	_	
+18-13	1214-1221	princip	_	_	_	_	_	_	_	
+18-14	1222-1225	som	_	_	_	_	_	_	_	
+18-15	1226-1231	säger	_	_	_	_	_	_	_	
+18-16	1232-1235	att	_	_	_	_	_	_	_	
+18-17	1236-1238	en	_	_	_	_	_	_	_	
+18-18	1239-1246	procent	_	_	_	_	_	_	_	
+18-19	1247-1249	av	_	_	_	_	_	_	_	
+18-20	1250-1253	vår	_	_	_	_	_	_	_	
+18-21	1254-1257	BNI	_	_	_	_	_	_	_	
+18-22	1258-1263	skall	_	_	_	_	_	_	_	
+18-23	1264-1266	gå	_	_	_	_	_	_	_	
+18-24	1267-1271	till	_	_	_	_	_	_	_	
+18-25	1272-1288	biståndsbudgeten	_	_	_	_	_	_	_	
+18-26	1288-1289	.	_	_	_	_	_	_	_	
+
+#Text=De gemensamma riktlinjerna kring innehållet i biståndet som OECD har tagit fram tillåter att biståndsbudgeten används för att finansiera bland annat flyktingmottagande och stöd till ambassader.
+19-1	1290-1292	De	_	_	_	_	_	_	_	
+19-2	1293-1303	gemensamma	_	_	_	_	_	_	_	
+19-3	1304-1316	riktlinjerna	_	_	_	_	_	_	_	
+19-4	1317-1322	kring	_	_	_	_	_	_	_	
+19-5	1323-1333	innehållet	_	_	_	_	_	_	_	
+19-6	1334-1335	i	_	_	_	_	_	_	_	
+19-7	1336-1345	biståndet	_	_	_	_	_	_	_	
+19-8	1346-1349	som	_	_	_	_	_	_	_	
+19-9	1350-1354	OECD	_	_	_	_	_	_	_	
+19-10	1355-1358	har	_	_	_	_	_	_	_	
+19-11	1359-1364	tagit	_	_	_	_	_	_	_	
+19-12	1365-1369	fram	_	_	_	_	_	_	_	
+19-13	1370-1378	tillåter	_	_	_	_	_	_	_	
+19-14	1379-1382	att	_	_	_	_	_	_	_	
+19-15	1383-1399	biståndsbudgeten	_	_	_	_	_	_	_	
+19-16	1400-1407	används	_	_	_	_	_	_	_	
+19-17	1408-1411	för	_	_	_	_	_	_	_	
+19-18	1412-1415	att	_	_	_	_	_	_	_	
+19-19	1416-1426	finansiera	_	_	_	_	_	_	_	
+19-20	1427-1432	bland	_	_	_	_	_	_	_	
+19-21	1433-1438	annat	_	_	_	_	_	_	_	
+19-22	1439-1457	flyktingmottagande	_	_	_	_	_	_	_	
+19-23	1458-1461	och	_	_	_	_	_	_	_	
+19-24	1462-1466	stöd	_	_	_	_	_	_	_	
+19-25	1467-1471	till	_	_	_	_	_	_	_	
+19-26	1472-1482	ambassader	_	_	_	_	_	_	_	
+19-27	1482-1483	.	_	_	_	_	_	_	_	
+
+#Text=Vi vänder oss dock mot en politik där finansieringen av andra politikområden, som i sig är viktiga, ska ske på bekostnad av kampen för människors rätt till ett värdigt liv.
+20-1	1484-1486	Vi	*	_	_	_	_	_	_	
+20-2	1487-1493	vänder	_	Target;Source[8]	20-6[31];20-1	false[8]	2[8]	_	_	
+20-3	1494-1497	oss	_	Target;Source[8]	20-6[31];20-1	false[8]	2[8]	_	_	
+20-4	1498-1502	dock	_	_	_	_	_	_	_	
+20-5	1503-1506	mot	_	Target;Source	20-6[31];20-1	false	2	20-2[8_0]	_	
+20-6	1507-1509	en	*[31]	_	_	_	_	_	_	
+20-7	1510-1517	politik	*[31]	_	_	_	_	_	_	
+20-8	1518-1521	där	*[31]	_	_	_	_	_	_	
+20-9	1522-1536	finansieringen	*[31]	_	_	_	_	_	_	
+20-10	1537-1539	av	*[31]	_	_	_	_	_	_	
+20-11	1540-1545	andra	*[31]	_	_	_	_	_	_	
+20-12	1546-1560	politikområden	*[31]	_	_	_	_	_	_	
+20-13	1560-1561	,	*[31]	_	_	_	_	_	_	
+20-14	1562-1565	som	*[31]	_	_	_	_	_	_	
+20-15	1566-1567	i	*[31]	_	_	_	_	_	_	
+20-16	1568-1571	sig	*[31]	_	_	_	_	_	_	
+20-17	1572-1574	är	*[31]	_	_	_	_	_	_	
+20-18	1575-1582	viktiga	*[31]	_	_	_	_	_	_	
+20-19	1582-1583	,	*[31]	_	_	_	_	_	_	
+20-20	1584-1587	ska	*[31]	_	_	_	_	_	_	
+20-21	1588-1591	ske	*[31]	_	_	_	_	_	_	
+20-22	1592-1594	på	*[31]	_	_	_	_	_	_	
+20-23	1595-1604	bekostnad	*[31]	_	_	_	_	_	_	
+20-24	1605-1607	av	*[31]	_	_	_	_	_	_	
+20-25	1608-1614	kampen	*[31]	_	_	_	_	_	_	
+20-26	1615-1618	för	*[31]	_	_	_	_	_	_	
+20-27	1619-1629	människors	*[31]	_	_	_	_	_	_	
+20-28	1630-1634	rätt	*[31]	_	_	_	_	_	_	
+20-29	1635-1639	till	*[31]	_	_	_	_	_	_	
+20-30	1640-1643	ett	*[31]	_	_	_	_	_	_	
+20-31	1644-1651	värdigt	*[31]	_	_	_	_	_	_	
+20-32	1652-1655	liv	*[31]	_	_	_	_	_	_	
+20-33	1655-1656	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1658-1659	#	_	_	_	_	_	_	_	
+21-2	1659-1660	P	_	_	_	_	_	_	_	
+21-3	1661-1664	IMM	_	_	_	_	_	_	_	
+21-4	1664-1665	.	_	_	_	_	_	_	_	
+
+#Text=Vi kan inte acceptera schablonmässig finansiering av ambassader i industriländer som Australien och Japan via biståndsbudgeten.
+22-1	1667-1669	Vi	*	_	_	_	_	_	_	
+22-2	1670-1673	kan	_	Source;Target[9]	22-1;22-5[32]	false[9]	2[9]	_	_	
+22-3	1674-1678	inte	_	Source;Target[9]	22-1;22-5[32]	false[9]	2[9]	_	_	
+22-4	1679-1688	acceptera	_	Source;Target[9]	22-1;22-5[32]	false[9]	2[9]	_	_	
+22-5	1689-1703	schablonmässig	*[32]	_	_	_	_	_	_	
+22-6	1704-1716	finansiering	*[32]	_	_	_	_	_	_	
+22-7	1717-1719	av	*[32]	_	_	_	_	_	_	
+22-8	1720-1730	ambassader	*[32]	_	_	_	_	_	_	
+22-9	1731-1732	i	*[32]	_	_	_	_	_	_	
+22-10	1733-1747	industriländer	*[32]	_	_	_	_	_	_	
+22-11	1748-1751	som	*[32]	_	_	_	_	_	_	
+22-12	1752-1762	Australien	*[32]	_	_	_	_	_	_	
+22-13	1763-1766	och	*[32]	_	_	_	_	_	_	
+22-14	1767-1772	Japan	*[32]	_	_	_	_	_	_	
+22-15	1773-1776	via	*[32]	_	_	_	_	_	_	
+22-16	1777-1793	biståndsbudgeten	*[32]	_	_	_	_	_	_	
+22-17	1793-1794	.	_	_	_	_	_	_	_	
+
+#Text=Det är knappast förenligt med Sveriges politik för global utveckling, PGU, som tydliggör att samtliga politikområden ska främja utveckling genom att stärka fattiga människor och främja respekten för mänskliga rättigheter.
+23-1	1795-1798	Det	_	_	_	_	_	_	_	
+23-2	1799-1801	är	_	_	_	_	_	_	_	
+23-3	1802-1810	knappast	_	_	_	_	_	_	_	
+23-4	1811-1820	förenligt	_	_	_	_	_	_	_	
+23-5	1821-1824	med	_	_	_	_	_	_	_	
+23-6	1825-1833	Sveriges	*[33]	_	_	_	_	_	_	
+23-7	1834-1841	politik	*[33]	_	_	_	_	_	_	
+23-8	1842-1845	för	*[33]	_	_	_	_	_	_	
+23-9	1846-1852	global	*[33]	_	_	_	_	_	_	
+23-10	1853-1863	utveckling	*[33]	_	_	_	_	_	_	
+23-11	1863-1864	,	*[33]	_	_	_	_	_	_	
+23-12	1865-1868	PGU	*[33]	_	_	_	_	_	_	
+23-13	1868-1869	,	_	_	_	_	_	_	_	
+23-14	1870-1873	som	_	_	_	_	_	_	_	
+23-15	1874-1883	tydliggör	_	_	_	_	_	_	_	
+23-16	1884-1887	att	_	_	_	_	_	_	_	
+23-17	1888-1896	samtliga	*[34]	_	_	_	_	_	_	
+23-18	1897-1911	politikområden	*[34]	_	_	_	_	_	_	
+23-19	1912-1915	ska	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-20	1916-1922	främja	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-21	1923-1933	utveckling	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-22	1934-1939	genom	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-23	1940-1943	att	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-24	1944-1950	stärka	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-25	1951-1958	fattiga	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-26	1959-1968	människor	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-27	1969-1972	och	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-28	1973-1979	främja	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-29	1980-1989	respekten	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-30	1990-1993	för	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-31	1994-2003	mänskliga	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-32	2004-2015	rättigheter	_	Source;Target[10]	23-6[33];23-17[34]	false[10]	4[10]	_	_	
+23-33	2015-2016	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	2018-2019	#	_	_	_	_	_	_	_	
+24-2	2019-2020	P	_	_	_	_	_	_	_	
+24-3	2021-2024	IMM	_	_	_	_	_	_	_	
+24-4	2024-2025	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt som vi ser en trend av urholkning av biståndsbudgeten sker en intressant breddning av aktörer inom biståndet.
+25-1	2027-2036	Samtidigt	_	_	_	_	_	_	_	
+25-2	2037-2040	som	_	_	_	_	_	_	_	
+25-3	2041-2043	vi	_	_	_	_	_	_	_	
+25-4	2044-2047	ser	_	_	_	_	_	_	_	
+25-5	2048-2050	en	_	_	_	_	_	_	_	
+25-6	2051-2056	trend	_	_	_	_	_	_	_	
+25-7	2057-2059	av	_	_	_	_	_	_	_	
+25-8	2060-2070	urholkning	_	_	_	false	2	_	_	
+25-9	2071-2073	av	_	_	_	_	_	_	_	
+25-10	2074-2090	biståndsbudgeten	_	_	_	_	_	_	_	
+25-11	2091-2095	sker	_	_	_	_	_	_	_	
+25-12	2096-2098	en	_	_	_	_	_	_	_	
+25-13	2099-2109	intressant	_	_	_	_	_	_	_	
+25-14	2110-2119	breddning	_	_	_	_	_	_	_	
+25-15	2120-2122	av	_	_	_	_	_	_	_	
+25-16	2123-2130	aktörer	_	_	_	_	_	_	_	
+25-17	2131-2135	inom	_	_	_	_	_	_	_	
+25-18	2136-2145	biståndet	_	_	_	_	_	_	_	
+25-19	2145-2146	.	_	_	_	_	_	_	_	
+
+#Text=Sverige för, tillsammans med många andra medlemsländer, en aktiv politik för att uppmuntra näringslivsaktörer inom biståndet.
+26-1	2147-2154	Sverige	*	_	_	_	_	_	_	
+26-2	2155-2158	för	_	Source;Source;Target	26-4[35];26-1;26-16[36]	false	4	_	_	
+26-3	2158-2159	,	_	_	_	_	_	_	_	
+26-4	2160-2171	tillsammans	*[35]	_	_	_	_	_	_	
+26-5	2172-2175	med	*[35]	_	_	_	_	_	_	
+26-6	2176-2181	många	*[35]	_	_	_	_	_	_	
+26-7	2182-2187	andra	*[35]	_	_	_	_	_	_	
+26-8	2188-2201	medlemsländer	*[35]	_	_	_	_	_	_	
+26-9	2201-2202	,	_	_	_	_	_	_	_	
+26-10	2203-2205	en	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	26-2[0_11]	_	
+26-11	2206-2211	aktiv	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	_	_	
+26-12	2212-2219	politik	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	_	_	
+26-13	2220-2223	för	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	_	_	
+26-14	2224-2227	att	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	_	_	
+26-15	2228-2237	uppmuntra	_	Source;Source;Target[11]	26-4[35];26-1;26-16[36]	false[11]	4[11]	_	_	
+26-16	2238-2256	näringslivsaktörer	*[36]	_	_	_	_	_	27-1[0_36]	
+26-17	2257-2261	inom	*[36]	_	_	_	_	_	_	
+26-18	2262-2271	biståndet	*[36]	_	_	_	_	_	_	
+26-19	2271-2272	.	_	_	_	_	_	_	_	
+
+#Text=Detta är något som vi i grunden välkomnar.
+27-1	2273-2278	Detta	*	_	_	_	_	_	_	
+27-2	2279-2281	är	_	_	_	_	_	_	_	
+27-3	2282-2287	något	_	_	_	_	_	_	_	
+27-4	2288-2291	som	_	_	_	_	_	_	_	
+27-5	2292-2294	vi	*	_	_	_	_	_	_	
+27-6	2295-2296	i	_	_	_	_	_	_	_	
+27-7	2297-2304	grunden	_	_	_	_	_	_	_	
+27-8	2305-2314	välkomnar	_	Target;Source	27-1;27-5	false	4	_	_	
+27-9	2314-2315	.	_	_	_	_	_	_	_	
+
+#Text=Ett fungerande näringsliv och förbättringar av den privata sektorn i fattiga länder är en självklar del av arbetet med att lyfta dessa länder ur fattigdom.
+28-1	2316-2319	Ett	_	_	_	_	_	_	_	
+28-2	2320-2330	fungerande	_	_	_	_	_	_	_	
+28-3	2331-2341	näringsliv	_	_	_	_	_	_	_	
+28-4	2342-2345	och	_	_	_	_	_	_	_	
+28-5	2346-2359	förbättringar	_	_	_	false	4	_	_	
+28-6	2360-2362	av	_	_	_	_	_	_	_	
+28-7	2363-2366	den	_	_	_	_	_	_	_	
+28-8	2367-2374	privata	_	_	_	_	_	_	_	
+28-9	2375-2382	sektorn	_	_	_	_	_	_	_	
+28-10	2383-2384	i	_	_	_	_	_	_	_	
+28-11	2385-2392	fattiga	_	_	_	_	_	_	_	
+28-12	2393-2399	länder	_	_	_	_	_	_	_	
+28-13	2400-2402	är	_	_	_	_	_	_	_	
+28-14	2403-2405	en	_	_	_	_	_	_	_	
+28-15	2406-2415	självklar	_	_	_	_	_	_	_	
+28-16	2416-2419	del	_	_	_	_	_	_	_	
+28-17	2420-2422	av	_	_	_	_	_	_	_	
+28-18	2423-2430	arbetet	_	_	_	_	_	_	_	
+28-19	2431-2434	med	_	_	_	_	_	_	_	
+28-20	2435-2438	att	_	_	_	_	_	_	_	
+28-21	2439-2444	lyfta	_	_	_	false	4	_	_	
+28-22	2445-2450	dessa	_	_	_	_	_	_	_	
+28-23	2451-2457	länder	_	_	_	_	_	_	_	
+28-24	2458-2460	ur	_	_[12]	_	false[12]	4[12]	28-21[0_12]	_	
+28-25	2461-2470	fattigdom	_	_[12]	_	false[12]	4[12]	_	_	
+28-26	2470-2471	.	_	_	_	_	_	_	_	
+
+#Text=Att näringslivet kommer närmare biståndet kan betyda att vi får en större samstämmighet inom biståndspolitiken, vilket ligger i linje med PGU.
+29-1	2472-2475	Att	_	_	_	_	_	_	_	
+29-2	2476-2488	näringslivet	_	_	_	_	_	_	_	
+29-3	2489-2495	kommer	_	_	_	_	_	_	_	
+29-4	2496-2503	närmare	_	_	_	_	_	_	_	
+29-5	2504-2513	biståndet	_	_	_	_	_	_	_	
+29-6	2514-2517	kan	_	_	_	_	_	_	_	
+29-7	2518-2524	betyda	_	_	_	_	_	_	_	
+29-8	2525-2528	att	_	_	_	_	_	_	_	
+29-9	2529-2531	vi	_	_	_	_	_	_	_	
+29-10	2532-2535	får	_	_	_	_	_	_	_	
+29-11	2536-2538	en	_	_	_	_	_	_	_	
+29-12	2539-2545	större	_	_	_	_	_	_	_	
+29-13	2546-2559	samstämmighet	_	_	_	_	_	_	_	
+29-14	2560-2564	inom	_	_	_	_	_	_	_	
+29-15	2565-2582	biståndspolitiken	_	_	_	_	_	_	_	
+29-16	2582-2583	,	_	_	_	_	_	_	_	
+29-17	2584-2590	vilket	_	_	_	_	_	_	_	
+29-18	2591-2597	ligger	_	_	_	_	_	_	_	
+29-19	2598-2599	i	_	_	_	_	_	_	_	
+29-20	2600-2605	linje	_	_	_	_	_	_	_	
+29-21	2606-2609	med	_	_	_	_	_	_	_	
+29-22	2610-2613	PGU	_	_	_	_	_	_	_	
+29-23	2613-2614	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2616-2617	#	_	_	_	_	_	_	_	
+30-2	2617-2618	P	_	_	_	_	_	_	_	
+30-3	2619-2622	IMM	_	_	_	_	_	_	_	
+30-4	2622-2623	.	_	_	_	_	_	_	_	
+
+#Text=Samtidigt som det är utmärkt att fler politikområden stärker det gemensamma arbetet för att nå biståndets mål kan vi konstatera att det finns ett stort behov av en diskussion kring hur detta nya bistånd kan göras mer effektivt, mer transparent och att det dessutom håller en hög kvalitet när det gäller att göra skillnad för fattiga kvinnor och män.
+31-1	2625-2634	Samtidigt	_	_	_	_	_	_	_	
+31-2	2635-2638	som	_	_	_	_	_	_	_	
+31-3	2639-2642	det	_	Target[13]	31-6[37]	false[13]	4[13]	_	_	
+31-4	2643-2645	är	_	Target[13]	31-6[37]	false[13]	4[13]	_	_	
+31-5	2646-2653	utmärkt	_	Target[13]	31-6[37]	false[13]	4[13]	_	_	
+31-6	2654-2657	att	*[37]	_	_	_	_	_	_	
+31-7	2658-2662	fler	*[37]	_	_	_	_	_	_	
+31-8	2663-2677	politikområden	*[37]	_	_	_	_	_	_	
+31-9	2678-2685	stärker	*[37]	_	_	_	_	_	_	
+31-10	2686-2689	det	*[37]	_	_	_	_	_	_	
+31-11	2690-2700	gemensamma	*[37]	_	_	_	_	_	_	
+31-12	2701-2708	arbetet	*[37]	_	_	_	_	_	_	
+31-13	2709-2712	för	*[37]	_	_	_	_	_	_	
+31-14	2713-2716	att	*[37]	_	_	_	_	_	_	
+31-15	2717-2719	nå	*[37]	_	_	_	_	_	_	
+31-16	2720-2730	biståndets	*[37]	_	_	_	_	_	_	
+31-17	2731-2734	mål	*[37]	_	_	_	_	_	_	
+31-18	2735-2738	kan	_	_	_	_	_	_	_	
+31-19	2739-2741	vi	_	_	_	_	_	_	_	
+31-20	2742-2752	konstatera	_	_	_	_	_	_	_	
+31-21	2753-2756	att	_	_	_	_	_	_	_	
+31-22	2757-2760	det	_	_	_	_	_	_	_	
+31-23	2761-2766	finns	_	_	_	_	_	_	_	
+31-24	2767-2770	ett	_	_	_	_	_	_	_	
+31-25	2771-2776	stort	_	_	_	_	_	_	_	
+31-26	2777-2782	behov	_	_	_	_	_	_	_	
+31-27	2783-2785	av	_	_	_	_	_	_	_	
+31-28	2786-2788	en	_	_	_	_	_	_	_	
+31-29	2789-2799	diskussion	_	_	_	_	_	_	_	
+31-30	2800-2805	kring	_	_	_	_	_	_	_	
+31-31	2806-2809	hur	_	_	_	_	_	_	_	
+31-32	2810-2815	detta	_	_	_	_	_	_	_	
+31-33	2816-2819	nya	_	_	_	_	_	_	_	
+31-34	2820-2827	bistånd	_	_	_	_	_	_	_	
+31-35	2828-2831	kan	_	_	_	_	_	_	_	
+31-36	2832-2837	göras	_	_	_	_	_	_	_	
+31-37	2838-2841	mer	_	_[14]	_	false[14]	4[14]	_	_	
+31-38	2842-2851	effektivt	_	_[14]	_	false[14]	4[14]	_	_	
+31-39	2851-2852	,	_	_[14]	_	false[14]	4[14]	_	_	
+31-40	2853-2856	mer	_	_[14]	_	false[14]	4[14]	_	_	
+31-41	2857-2868	transparent	_	_[14]	_	false[14]	4[14]	_	_	
+31-42	2869-2872	och	_	_	_	_	_	_	_	
+31-43	2873-2876	att	_	_	_	_	_	_	_	
+31-44	2877-2880	det	_	_	_	_	_	_	_	
+31-45	2881-2889	dessutom	_	_	_	_	_	_	_	
+31-46	2890-2896	håller	_	_[15]	_	false[15]	4[15]	_	_	
+31-47	2897-2899	en	_	_[15]	_	false[15]	4[15]	_	_	
+31-48	2900-2903	hög	_	_[15]	_	false[15]	4[15]	_	_	
+31-49	2904-2912	kvalitet	_	_[15]	_	false[15]	4[15]	_	_	
+31-50	2913-2916	när	_	_	_	_	_	_	_	
+31-51	2917-2920	det	_	_	_	_	_	_	_	
+31-52	2921-2927	gäller	_	_	_	_	_	_	_	
+31-53	2928-2931	att	_	_	_	_	_	_	_	
+31-54	2932-2936	göra	_	_	_	_	_	_	_	
+31-55	2937-2945	skillnad	_	_	_	_	_	_	_	
+31-56	2946-2949	för	_	_	_	_	_	_	_	
+31-57	2950-2957	fattiga	_	_	_	_	_	_	_	
+31-58	2958-2965	kvinnor	_	_	_	_	_	_	_	
+31-59	2966-2969	och	_	_	_	_	_	_	_	
+31-60	2970-2973	män	_	_	_	_	_	_	_	
+31-61	2973-2974	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2976-2977	#	_	_	_	_	_	_	_	
+32-2	2977-2978	P	_	_	_	_	_	_	_	
+32-3	2979-2982	IMM	_	_	_	_	_	_	_	
+32-4	2982-2983	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+33-1	2985-2998	Skräddarsydda	_	_	_	_	_	_	_	
+33-2	2999-3005	kurser	_	_	_	_	_	_	_	
+33-3	3006-3007	i	_	_	_	_	_	_	_	
+33-4	3008-3013	ämnen	_	_	_	_	_	_	_	
+33-5	3014-3017	som	_	_	_	_	_	_	_	
+33-6	3018-3029	intresserar	_	_	_	_	_	_	_	
+33-7	3030-3033	och	_	_	_	_	_	_	_	
+33-8	3034-3043	engagerar	_	_	_	_	_	_	_	
+33-9	3044-3048	både	_	_	_	_	_	_	_	
+33-10	3049-3054	kropp	_	_	_	_	_	_	_	
+33-11	3055-3058	och	_	_	_	_	_	_	_	
+33-12	3059-3063	själ	_	_	_	_	_	_	_	
+33-13	3063-3064	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3066-3067	#	_	_	_	_	_	_	_	
+34-2	3067-3068	P	_	_	_	_	_	_	_	
+34-3	3069-3072	IMM	_	_	_	_	_	_	_	
+34-4	3072-3073	.	_	_	_	_	_	_	_	
+
+#Text=På samma sätt som för andra biståndsaktörer är det viktigt att näringslivets del av biståndet präglas av tydlig planering, mätning och utvärdering.
+35-1	3075-3077	På	_	_	_	_	_	_	_	
+35-2	3078-3083	samma	_	_	_	_	_	_	_	
+35-3	3084-3088	sätt	_	_	_	_	_	_	_	
+35-4	3089-3092	som	_	_	_	_	_	_	_	
+35-5	3093-3096	för	_	_	_	_	_	_	_	
+35-6	3097-3102	andra	_	_	_	_	_	_	_	
+35-7	3103-3118	biståndsaktörer	_	_	_	_	_	_	_	
+35-8	3119-3121	är	_	_	_	_	_	_	_	
+35-9	3122-3125	det	_	_	_	_	_	_	_	
+35-10	3126-3133	viktigt	_	_	_	_	_	_	_	
+35-11	3134-3137	att	_	_	_	_	_	_	_	
+35-12	3138-3151	näringslivets	_	_	_	_	_	_	_	
+35-13	3152-3155	del	_	_	_	_	_	_	_	
+35-14	3156-3158	av	_	_	_	_	_	_	_	
+35-15	3159-3168	biståndet	_	_	_	_	_	_	_	
+35-16	3169-3176	präglas	_	_	_	_	_	_	_	
+35-17	3177-3179	av	_	_	_	_	_	_	_	
+35-18	3180-3186	tydlig	_	_	_	_	_	_	_	
+35-19	3187-3196	planering	_	_	_	_	_	_	_	
+35-20	3196-3197	,	_	_	_	_	_	_	_	
+35-21	3198-3205	mätning	_	_	_	_	_	_	_	
+35-22	3206-3209	och	_	_	_	_	_	_	_	
+35-23	3210-3221	utvärdering	_	_	_	_	_	_	_	
+35-24	3221-3222	.	_	_	_	_	_	_	_	
+
+#Text=Exempelvis visar tidigare granskningar av regeringens satsningar på riskkapitalbolaget Swedfund, vilket under de senaste åren tillförts 1,4 miljarder ur biståndsbudgeten sedan 2007, på ett bristande fokus på fattigdomsbekämpning.
+36-1	3224-3234	Exempelvis	_	_	_	_	_	_	_	
+36-2	3235-3240	visar	_	_	_	_	_	_	_	
+36-3	3241-3249	tidigare	_	_	_	_	_	_	_	
+36-4	3250-3262	granskningar	_	_	_	_	_	_	_	
+36-5	3263-3265	av	_	_	_	_	_	_	_	
+36-6	3266-3277	regeringens	*[38]	_	_	_	_	_	_	
+36-7	3278-3288	satsningar	*[38]	_	_	_	_	_	_	
+36-8	3289-3291	på	*[38]	_	_	_	_	_	_	
+36-9	3292-3310	riskkapitalbolaget	*[38]	_	_	_	_	_	_	
+36-10	3311-3319	Swedfund	*[38]	_	_	_	_	_	_	
+36-11	3319-3320	,	_	_	_	_	_	_	_	
+36-12	3321-3327	vilket	_	_	_	_	_	_	_	
+36-13	3328-3333	under	_	_	_	_	_	_	_	
+36-14	3334-3336	de	_	_	_	_	_	_	_	
+36-15	3337-3344	senaste	_	_	_	_	_	_	_	
+36-16	3345-3349	åren	_	_	_	_	_	_	_	
+36-17	3350-3359	tillförts	_	_	_	_	_	_	_	
+36-18	3360-3363	1,4	_	_	_	_	_	_	_	
+36-19	3364-3373	miljarder	_	_	_	_	_	_	_	
+36-20	3374-3376	ur	_	_	_	_	_	_	_	
+36-21	3377-3393	biståndsbudgeten	_	_	_	_	_	_	_	
+36-22	3394-3399	sedan	_	_	_	_	_	_	_	
+36-23	3400-3404	2007	_	_	_	_	_	_	_	
+36-24	3404-3405	,	_	_	_	_	_	_	_	
+36-25	3406-3408	på	_	_	_	_	_	_	_	
+36-26	3409-3412	ett	_	_	_	_	_	_	_	
+36-27	3413-3422	bristande	_	Target[16]	36-6[38]	false[16]	2[16]	_	_	
+36-28	3423-3428	fokus	_	Target[16]	36-6[38]	false[16]	2[16]	_	_	
+36-29	3429-3431	på	_	Target[16]	36-6[38]	false[16]	2[16]	_	_	
+36-30	3432-3452	fattigdomsbekämpning	_	Target[16]	36-6[38]	false[16]	2[16]	_	_	
+36-31	3452-3453	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	3455-3456	#	_	_	_	_	_	_	_	
+37-2	3456-3457	P	_	_	_	_	_	_	_	
+37-3	3458-3461	IMM	_	_	_	_	_	_	_	
+37-4	3461-3462	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens initiativ kring öppenhet i biståndet med lanseringen avopenaid.se är i detta sammanhang mycket lovvärd.
+38-1	3464-3475	Regeringens	*[39]	_	_	_	_	_	_	
+38-2	3476-3485	initiativ	*[39]	_	_	_	_	_	_	
+38-3	3486-3491	kring	*[39]	_	_	_	_	_	_	
+38-4	3492-3500	öppenhet	*[39]	_	_	_	_	_	_	
+38-5	3501-3502	i	*[39]	_	_	_	_	_	_	
+38-6	3503-3512	biståndet	*[39]	_	_	_	_	_	_	
+38-7	3513-3516	med	*[39]	_	_	_	_	_	_	
+38-8	3517-3528	lanseringen	*[39]	_	_	_	_	_	_	
+38-9	3529-3541	avopenaid.se	*[39]	_	_	_	_	_	_	
+38-10	3542-3544	är	_	Target	38-1[39]	false	4	_	_	
+38-11	3545-3546	i	_	_	_	_	_	_	_	
+38-12	3547-3552	detta	_	_	_	_	_	_	_	
+38-13	3553-3563	sammanhang	_	_	_	_	_	_	_	
+38-14	3564-3570	mycket	_	Target[17]	38-1[39]	false[17]	4[17]	38-10[0_17]	_	
+38-15	3571-3578	lovvärd	_	Target[17]	38-1[39]	false[17]	4[17]	_	_	
+38-16	3578-3579	.	_	_	_	_	_	_	_	
+
+#Text=Det är ett initiativ som gör det lätt att följa biståndets väg från ansökan till beslut, aktiviteter och resultat.
+39-1	3580-3583	Det	_	_	_	_	_	_	_	
+39-2	3584-3586	är	_	_	_	_	_	_	_	
+39-3	3587-3590	ett	_	_	_	_	_	_	_	
+39-4	3591-3600	initiativ	_	_	_	_	_	_	_	
+39-5	3601-3604	som	_	_	_	_	_	_	_	
+39-6	3605-3608	gör	_	_	_	_	_	_	_	
+39-7	3609-3612	det	_	_	_	_	_	_	_	
+39-8	3613-3617	lätt	_	_	_	_	_	_	_	
+39-9	3618-3621	att	_	_	_	_	_	_	_	
+39-10	3622-3627	följa	_	_	_	_	_	_	_	
+39-11	3628-3638	biståndets	_	_	_	_	_	_	_	
+39-12	3639-3642	väg	_	_	_	_	_	_	_	
+39-13	3643-3647	från	_	_	_	_	_	_	_	
+39-14	3648-3655	ansökan	_	_	_	_	_	_	_	
+39-15	3656-3660	till	_	_	_	_	_	_	_	
+39-16	3661-3667	beslut	_	_	_	_	_	_	_	
+39-17	3667-3668	,	_	_	_	_	_	_	_	
+39-18	3669-3680	aktiviteter	_	_	_	_	_	_	_	
+39-19	3681-3684	och	_	_	_	_	_	_	_	
+39-20	3685-3693	resultat	_	_	_	_	_	_	_	
+39-21	3693-3694	.	_	_	_	_	_	_	_	
+
+#Text=Att säkerställa hög kvalitet och maximalt ansvarsutkrävande i biståndet är grundläggande faktorer.
+40-1	3695-3698	Att	_	_	_	_	_	_	_	
+40-2	3699-3710	säkerställa	_	_[18]	_	false[18]	4[18]	_	_	
+40-3	3711-3714	hög	_	_[18]	_	false[18]	4[18]	_	_	
+40-4	3715-3723	kvalitet	_	_[18]	_	false[18]	4[18]	_	_	
+40-5	3724-3727	och	_	_	_	_	_	_	_	
+40-6	3728-3736	maximalt	_	_	_	_	_	_	_	
+40-7	3737-3754	ansvarsutkrävande	_	_	_	_	_	_	_	
+40-8	3755-3756	i	_	_	_	_	_	_	_	
+40-9	3757-3766	biståndet	_	_	_	_	_	_	_	
+40-10	3767-3769	är	_	_	_	_	_	_	_	
+40-11	3770-3783	grundläggande	_	_	_	_	_	_	_	
+40-12	3784-3792	faktorer	_	_	_	_	_	_	_	
+40-13	3792-3793	.	_	_	_	_	_	_	_	
+
+#Text=Därför måste också även den del av biståndsbudgeten som inte går genom Sida, utan som fördelas direkt av UD genomlysas på samma sätt.
+41-1	3794-3800	Därför	_	_	_	_	_	_	_	
+41-2	3801-3806	måste	_	_	_	_	_	_	_	
+41-3	3807-3812	också	_	_	_	_	_	_	_	
+41-4	3813-3817	även	_	_	_	_	_	_	_	
+41-5	3818-3821	den	_	_	_	_	_	_	_	
+41-6	3822-3825	del	_	_	_	_	_	_	_	
+41-7	3826-3828	av	_	_	_	_	_	_	_	
+41-8	3829-3845	biståndsbudgeten	_	_	_	_	_	_	_	
+41-9	3846-3849	som	_	_	_	_	_	_	_	
+41-10	3850-3854	inte	_	_	_	_	_	_	_	
+41-11	3855-3858	går	_	_	_	_	_	_	_	
+41-12	3859-3864	genom	_	_	_	_	_	_	_	
+41-13	3865-3869	Sida	_	_	_	_	_	_	_	
+41-14	3869-3870	,	_	_	_	_	_	_	_	
+41-15	3871-3875	utan	_	_	_	_	_	_	_	
+41-16	3876-3879	som	_	_	_	_	_	_	_	
+41-17	3880-3888	fördelas	_	_	_	_	_	_	_	
+41-18	3889-3895	direkt	_	_	_	_	_	_	_	
+41-19	3896-3898	av	_	_	_	_	_	_	_	
+41-20	3899-3901	UD	_	_	_	_	_	_	_	
+41-21	3902-3912	genomlysas	_	_	_	_	_	_	_	
+41-22	3913-3915	på	_	_	_	_	_	_	_	
+41-23	3916-3921	samma	_	_	_	_	_	_	_	
+41-24	3922-3926	sätt	_	_	_	_	_	_	_	
+41-25	3926-3927	.	_	_	_	_	_	_	_	
+
+#Text=Eventuella konflikter mellan målet att stödja svenskt näringsliv och att bidra till fattigdomsbekämpning måste lyftas upp och granskas.
+42-1	3928-3938	Eventuella	_	_	_	_	_	_	_	
+42-2	3939-3949	konflikter	_	_	_	_	_	_	_	
+42-3	3950-3956	mellan	_	_	_	_	_	_	_	
+42-4	3957-3962	målet	_	_	_	_	_	_	_	
+42-5	3963-3966	att	_	_	_	_	_	_	_	
+42-6	3967-3973	stödja	_	_	_	_	_	_	_	
+42-7	3974-3981	svenskt	_	_	_	_	_	_	_	
+42-8	3982-3992	näringsliv	_	_	_	_	_	_	_	
+42-9	3993-3996	och	_	_	_	_	_	_	_	
+42-10	3997-4000	att	_	_	_	_	_	_	_	
+42-11	4001-4006	bidra	_	_[19]	_	false[19]	4[19]	_	_	
+42-12	4007-4011	till	_	_[19]	_	false[19]	4[19]	_	_	
+42-13	4012-4032	fattigdomsbekämpning	_	_[19]	_	false[19]	4[19]	_	_	
+42-14	4033-4038	måste	_	_	_	_	_	_	_	
+42-15	4039-4045	lyftas	_	_	_	_	_	_	_	
+42-16	4046-4049	upp	_	_	_	_	_	_	_	
+42-17	4050-4053	och	_	_	_	_	_	_	_	
+42-18	4054-4062	granskas	_	_	_	_	_	_	_	
+42-19	4062-4063	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	4065-4066	#	_	_	_	_	_	_	_	
+43-2	4066-4067	P	_	_	_	_	_	_	_	
+43-3	4068-4071	IMM	_	_	_	_	_	_	_	
+43-4	4071-4072	.	_	_	_	_	_	_	_	
+
+#Text=Sverige har ett gott namn som biståndsgivare och en tradition av att ligga i frontlinjen både när det gäller volym och kvalitet i biståndet.
+44-1	4074-4081	Sverige	*[40]	_	_	_	_	_	_	
+44-2	4082-4085	har	*[40]	Target;Source[20]	44-1[40];44-25	false[20]	4[20]	_	_	
+44-3	4086-4089	ett	*[40]	Target;Source[20]	44-1[40];44-25	false[20]	4[20]	_	_	
+44-4	4090-4094	gott	*[40]	Target;Source[20]	44-1[40];44-25	false[20]	4[20]	_	_	
+44-5	4095-4099	namn	*[40]	Target;Source[20]	44-1[40];44-25	false[20]	4[20]	_	_	
+44-6	4100-4103	som	*[40]	_	_	_	_	_	_	
+44-7	4104-4118	biståndsgivare	*[40]	_	_	_	_	_	_	
+44-8	4119-4122	och	_	_	_	_	_	_	_	
+44-9	4123-4125	en	*[41]	_	_	_	_	_	45-4[42_41]	
+44-10	4126-4135	tradition	*[41]	_	_	_	_	_	_	
+44-11	4136-4138	av	*[41]	_	_	_	_	_	_	
+44-12	4139-4142	att	*[41]	_	_	_	_	_	_	
+44-13	4143-4148	ligga	*[41]	_	_	_	_	_	_	
+44-14	4149-4150	i	*[41]	_	_	_	_	_	_	
+44-15	4151-4162	frontlinjen	*[41]	_	_	_	_	_	_	
+44-16	4163-4167	både	*[41]	_	_	_	_	_	_	
+44-17	4168-4171	när	*[41]	_	_	_	_	_	_	
+44-18	4172-4175	det	*[41]	_	_	_	_	_	_	
+44-19	4176-4182	gäller	*[41]	_	_	_	_	_	_	
+44-20	4183-4188	volym	*[41]	_	_	_	_	_	_	
+44-21	4189-4192	och	*[41]	_	_	_	_	_	_	
+44-22	4193-4201	kvalitet	*[41]	_	_	_	_	_	_	
+44-23	4202-4203	i	*[41]	_	_	_	_	_	_	
+44-24	4204-4213	biståndet	*[41]	_	_	_	_	_	_	
+44-25	4213-4214	.	*	_	_	_	_	_	_	
+
+#Text=Vi vill värna denna tradition.
+45-1	4215-4217	Vi	*	_	_	_	_	_	_	
+45-2	4218-4222	vill	_	Source;Target[21]	45-1;45-4[42]	false[21]	4[21]	_	_	
+45-3	4223-4228	värna	_	Source;Target[21]	45-1;45-4[42]	false[21]	4[21]	_	_	
+45-4	4229-4234	denna	*[42]	_	_	_	_	_	_	
+45-5	4235-4244	tradition	*[42]	_	_	_	_	_	_	
+45-6	4244-4245	.	_	_	_	_	_	_	_	
+
+#Text=Därför kommer vi att fortsätta granska det svenska och det europeiska biståndet med syftet att få till stånd en dialog om hur vi tillsammans kan använda våra resurser till att minska fattigdomen.
+46-1	4246-4252	Därför	_	_	_	_	_	_	_	
+46-2	4253-4259	kommer	_	_	_	_	_	_	_	
+46-3	4260-4262	vi	*	_	_	_	_	_	_	
+46-4	4263-4266	att	_	_	_	_	_	_	_	
+46-5	4267-4276	fortsätta	_	_	_	_	_	_	_	
+46-6	4277-4284	granska	_	_	_	_	_	_	_	
+46-7	4285-4288	det	_	_	_	_	_	_	_	
+46-8	4289-4296	svenska	_	_	_	_	_	_	_	
+46-9	4297-4300	och	_	_	_	_	_	_	_	
+46-10	4301-4304	det	_	_	_	_	_	_	_	
+46-11	4305-4315	europeiska	_	_	_	_	_	_	_	
+46-12	4316-4325	biståndet	_	_	_	_	_	_	_	
+46-13	4326-4329	med	_	_	_	_	_	_	_	
+46-14	4330-4336	syftet	_	Source;Target[22]	46-3;46-19[43]	false[22]	4[22]	_	_	
+46-15	4337-4340	att	_	Source;Target[22]	46-3;46-19[43]	false[22]	4[22]	_	_	
+46-16	4341-4343	få	_	Source;Target[22]	46-3;46-19[43]	false[22]	4[22]	_	_	
+46-17	4344-4348	till	_	Source;Target[22]	46-3;46-19[43]	false[22]	4[22]	_	_	
+46-18	4349-4354	stånd	_	Source;Target[22]	46-3;46-19[43]	false[22]	4[22]	_	_	
+46-19	4355-4357	en	*[43]	_	_	_	_	_	_	
+46-20	4358-4364	dialog	*[43]	_	_	_	_	_	_	
+46-21	4365-4367	om	*[43]	_	_	_	_	_	_	
+46-22	4368-4371	hur	*[43]	_	_	_	_	_	_	
+46-23	4372-4374	vi	*[43]	_	_	_	_	_	_	
+46-24	4375-4386	tillsammans	*[43]	_	_	_	_	_	_	
+46-25	4387-4390	kan	*[43]	_	_	_	_	_	_	
+46-26	4391-4398	använda	*[43]	_	_	_	_	_	_	
+46-27	4399-4403	våra	*[43]	_	_	_	_	_	_	
+46-28	4404-4412	resurser	*[43]	_	_	_	_	_	_	
+46-29	4413-4417	till	*[43]	_	_	_	_	_	_	
+46-30	4418-4421	att	*[43]	_	_	_	_	_	_	
+46-31	4422-4428	minska	*[43]	Target[23]	46-32[44]	false[23]	2[23]	_	_	
+46-32	4429-4440	fattigdomen	*[43]|*[44]	Target[23]	46-32[44]	false[23]	2[23]	_	_	
+46-33	4440-4441	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	4443-4444	#	_	_	_	_	_	_	_	
+47-2	4444-4445	P	_	_	_	_	_	_	_	
+47-3	4446-4449	IMM	_	_	_	_	_	_	_	
+47-4	4449-4450	.	_	_	_	_	_	_	_	
+
+#Text=ERIK LYSÉN.
+48-1	4452-4456	ERIK	_	_	_	_	_	_	_	
+48-2	4457-4462	LYSÉN	_	_	_	_	_	_	_	
+48-3	4462-4463	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	4465-4466	#	_	_	_	_	_	_	_	
+49-2	4466-4467	P	_	_	_	_	_	_	_	
+49-3	4468-4471	IMM	_	_	_	_	_	_	_	
+49-4	4471-4472	.	_	_	_	_	_	_	_	
+
+#Text=internationell chef Svenska kyrkan.
+50-1	4474-4488	internationell	_	_	_	_	_	_	_	
+50-2	4489-4493	chef	_	_	_	_	_	_	_	
+50-3	4494-4501	Svenska	_	_	_	_	_	_	_	
+50-4	4502-4508	kyrkan	_	_	_	_	_	_	_	
+50-5	4508-4509	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4511-4512	#	_	_	_	_	_	_	_	
+51-2	4512-4513	P	_	_	_	_	_	_	_	
+51-3	4514-4517	IMM	_	_	_	_	_	_	_	
+51-4	4517-4518	.	_	_	_	_	_	_	_	
+
+#Text=BO FORSBERG.
+52-1	4520-4522	BO	_	_	_	_	_	_	_	
+52-2	4523-4531	FORSBERG	_	_	_	_	_	_	_	
+52-3	4531-4532	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4534-4535	#	_	_	_	_	_	_	_	
+53-2	4535-4536	P	_	_	_	_	_	_	_	
+53-3	4537-4540	IMM	_	_	_	_	_	_	_	
+53-4	4540-4541	.	_	_	_	_	_	_	_	
+
+#Text=generalsekreterare Diakonia.
+54-1	4543-4561	generalsekreterare	_	_	_	_	_	_	_	
+54-2	4562-4570	Diakonia	_	_	_	_	_	_	_	
+54-3	4570-4571	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4573-4574	#	_	_	_	_	_	_	_	
+55-2	4574-4575	P	_	_	_	_	_	_	_	
+55-3	4576-4579	IMM	_	_	_	_	_	_	_	
+55-4	4579-4580	.	_	_	_	_	_	_	_	
+
+#Text=GABI BJÖRSSON.
+56-1	4582-4586	GABI	_	_	_	_	_	_	_	
+56-2	4587-4595	BJÖRSSON	_	_	_	_	_	_	_	
+56-3	4595-4596	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4598-4599	#	_	_	_	_	_	_	_	
+57-2	4599-4600	P	_	_	_	_	_	_	_	
+57-3	4601-4604	IMM	_	_	_	_	_	_	_	
+57-4	4604-4605	.	_	_	_	_	_	_	_	
+
+#Text=generalsekreterare Afrikagrupperna.
+58-1	4607-4625	generalsekreterare	_	_	_	_	_	_	_	
+58-2	4626-4641	Afrikagrupperna	_	_	_	_	_	_	_	
+58-3	4641-4642	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	4644-4645	#	_	_	_	_	_	_	_	
+59-2	4645-4646	P	_	_	_	_	_	_	_	
+59-3	4647-4650	IMM	_	_	_	_	_	_	_	
+59-4	4650-4651	.	_	_	_	_	_	_	_	
+
+#Text=ROLAND HÅKANSSON.
+60-1	4653-4659	ROLAND	_	_	_	_	_	_	_	
+60-2	4660-4669	HÅKANSSON	_	_	_	_	_	_	_	
+60-3	4669-4670	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	4672-4673	#	_	_	_	_	_	_	_	
+61-2	4673-4674	P	_	_	_	_	_	_	_	
+61-3	4675-4678	IMM	_	_	_	_	_	_	_	
+61-4	4678-4679	.	_	_	_	_	_	_	_	
+
+#Text=ordförande Shia.
+62-1	4681-4691	ordförande	_	_	_	_	_	_	_	
+62-2	4692-4696	Shia	_	_	_	_	_	_	_	
+62-3	4696-4697	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+63-1	4699-4700	#	_	_	_	_	_	_	_	
+63-2	4700-4701	P	_	_	_	_	_	_	_	
+63-3	4702-4705	IMM	_	_	_	_	_	_	_	
+63-4	4705-4706	.	_	_	_	_	_	_	_	
+
+#Text=EVA CHRISTINA NILSSON.
+64-1	4708-4711	EVA	_	_	_	_	_	_	_	
+64-2	4712-4721	CHRISTINA	_	_	_	_	_	_	_	
+64-3	4722-4729	NILSSON	_	_	_	_	_	_	_	
+64-4	4729-4730	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	4732-4733	#	_	_	_	_	_	_	_	
+65-2	4733-4734	P	_	_	_	_	_	_	_	
+65-3	4735-4738	IMM	_	_	_	_	_	_	_	
+65-4	4738-4739	.	_	_	_	_	_	_	_	
+
+#Text=generalsekreterare Svenska missionsrådet.
+66-1	4741-4759	generalsekreterare	_	_	_	_	_	_	_	
+66-2	4760-4767	Svenska	_	_	_	_	_	_	_	
+66-3	4768-4781	missionsrådet	_	_	_	_	_	_	_	
+66-4	4781-4782	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+67-1	4784-4785	#	_	_	_	_	_	_	_	
+67-2	4785-4786	P	_	_	_	_	_	_	_	
+67-3	4787-4790	IMM	_	_	_	_	_	_	_	
+67-4	4790-4791	.	_	_	_	_	_	_	_	
+
+#Text=ANNICA SOHLSTRÖM.
+68-1	4793-4799	ANNICA	_	_	_	_	_	_	_	
+68-2	4800-4809	SOHLSTRÖM	_	_	_	_	_	_	_	
+68-3	4809-4810	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	4812-4813	#	_	_	_	_	_	_	_	
+69-2	4813-4814	P	_	_	_	_	_	_	_	
+69-3	4815-4818	IMM	_	_	_	_	_	_	_	
+69-4	4818-4819	.	_	_	_	_	_	_	_	
+
+#Text=generalsekreterare Forum syd.
+70-1	4821-4839	generalsekreterare	_	_	_	_	_	_	_	
+70-2	4840-4845	Forum	_	_	_	_	_	_	_	
+70-3	4846-4849	syd	_	_	_	_	_	_	_	
+70-4	4849-4850	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	4852-4853	#	_	_	_	_	_	_	_	
+71-2	4853-4854	P	_	_	_	_	_	_	_	
+71-3	4855-4858	IMM	_	_	_	_	_	_	_	
+71-4	4858-4859	.	_	_	_	_	_	_	_	
+
+#Text=CHRISTER WÄLIVAARA.
+72-1	4861-4869	CHRISTER	_	_	_	_	_	_	_	
+72-2	4870-4879	WÄLIVAARA	_	_	_	_	_	_	_	
+72-3	4879-4880	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	4882-4883	#	_	_	_	_	_	_	_	
+73-2	4883-4884	P	_	_	_	_	_	_	_	
+73-3	4885-4888	IMM	_	_	_	_	_	_	_	
+73-4	4888-4889	.	_	_	_	_	_	_	_	
+
+#Text=kanslichef LO-TCO Biståndsnämnd.
+74-1	4891-4901	kanslichef	_	_	_	_	_	_	_	
+74-2	4902-4908	LO-TCO	_	_	_	_	_	_	_	
+74-3	4909-4922	Biståndsnämnd	_	_	_	_	_	_	_	
+74-4	4922-4923	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+75-1	4925-4926	#	_	_	_	_	_	_	_	
+75-2	4926-4927	P	_	_	_	_	_	_	_	
+75-3	4928-4931	IMM	_	_	_	_	_	_	_	
+75-4	4931-4932	.	_	_	_	_	_	_	_	
+
+#Text=JENS ORBACK.
+76-1	4934-4938	JENS	_	_	_	_	_	_	_	
+76-2	4939-4945	ORBACK	_	_	_	_	_	_	_	
+76-3	4945-4946	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+77-1	4948-4949	#	_	_	_	_	_	_	_	
+77-2	4949-4950	P	_	_	_	_	_	_	_	
+77-3	4951-4954	IMM	_	_	_	_	_	_	_	
+77-4	4954-4955	.	_	_	_	_	_	_	_	
+
+#Text=generalsekreterare Palmecentret.
+78-1	4957-4975	generalsekreterare	_	_	_	_	_	_	_	
+78-2	4976-4988	Palmecentret	_	_	_	_	_	_	_	
+78-3	4988-4989	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+79-1	4991-4992	#	_	_	_	_	_	_	_	
+79-2	4992-4993	P	_	_	_	_	_	_	_	
+79-3	4994-4997	IMM	_	_	_	_	_	_	_	
+79-4	4997-4998	.	_	_	_	_	_	_	_	
+
+#Text=Fotnot: Rapporten "Challenging Self-Interest – Getting EU aid fit for the fight against poverty" publiceras av CONCORD Europa, en sammanslutning av över 1600 europeiska organisationer.
+80-1	5000-5006	Fotnot	_	_	_	_	_	_	_	
+80-2	5006-5007	:	_	_	_	_	_	_	_	
+80-3	5008-5017	Rapporten	_	_	_	_	_	_	_	
+80-4	5018-5019	"	_	_	_	_	_	_	_	
+80-5	5019-5030	Challenging	_	_	_	_	_	_	_	
+80-6	5031-5044	Self-Interest	_	_	_	_	_	_	_	
+80-7	5045-5046	–	_	_	_	_	_	_	_	
+80-8	5047-5054	Getting	_	_	_	_	_	_	_	
+80-9	5055-5057	EU	_	_	_	_	_	_	_	
+80-10	5058-5061	aid	_	_	_	_	_	_	_	
+80-11	5062-5065	fit	_	_	_	_	_	_	_	
+80-12	5066-5069	for	_	_	_	_	_	_	_	
+80-13	5070-5073	the	_	_	_	_	_	_	_	
+80-14	5074-5079	fight	_	_	_	_	_	_	_	
+80-15	5080-5087	against	_	_	_	_	_	_	_	
+80-16	5088-5095	poverty	_	_	_	_	_	_	_	
+80-17	5095-5096	"	_	_	_	_	_	_	_	
+80-18	5097-5107	publiceras	_	_	_	_	_	_	_	
+80-19	5108-5110	av	_	_	_	_	_	_	_	
+80-20	5111-5118	CONCORD	_	_	_	_	_	_	_	
+80-21	5119-5125	Europa	_	_	_	_	_	_	_	
+80-22	5125-5126	,	_	_	_	_	_	_	_	
+80-23	5127-5129	en	_	_	_	_	_	_	_	
+80-24	5130-5144	sammanslutning	_	_	_	_	_	_	_	
+80-25	5145-5147	av	_	_	_	_	_	_	_	
+80-26	5148-5152	över	_	_	_	_	_	_	_	
+80-27	5153-5157	1600	_	_	_	_	_	_	_	
+80-28	5158-5168	europeiska	_	_	_	_	_	_	_	
+80-29	5169-5183	organisationer	_	_	_	_	_	_	_	
+80-30	5183-5184	.	_	_	_	_	_	_	_	
+
+#Text=Rapporten analyserar årligen alla EU:s medlemsländers och EU-kommissionens bistånd.
+81-1	5185-5194	Rapporten	_	_	_	_	_	_	_	
+81-2	5195-5205	analyserar	_	_	_	_	_	_	_	
+81-3	5206-5213	årligen	_	_	_	_	_	_	_	
+81-4	5214-5218	alla	_	_	_	_	_	_	_	
+81-5	5219-5221	EU	_	_	_	_	_	_	_	
+81-6	5221-5222	:	_	_	_	_	_	_	_	
+81-7	5222-5223	s	_	_	_	_	_	_	_	
+81-8	5224-5238	medlemsländers	_	_	_	_	_	_	_	
+81-9	5239-5242	och	_	_	_	_	_	_	_	
+81-10	5243-5259	EU-kommissionens	_	_	_	_	_	_	_	
+81-11	5260-5267	bistånd	_	_	_	_	_	_	_	
+81-12	5267-5268	.	_	_	_	_	_	_	_	
+
+#Text=Ovan nämnda organisationer är medlemmar i CONCORD Sverige.
+82-1	5269-5273	Ovan	_	_	_	_	_	_	_	
+82-2	5274-5280	nämnda	_	_	_	_	_	_	_	
+82-3	5281-5295	organisationer	_	_	_	_	_	_	_	
+82-4	5296-5298	är	_	_	_	_	_	_	_	
+82-5	5299-5308	medlemmar	_	_	_	_	_	_	_	
+82-6	5309-5310	i	_	_	_	_	_	_	_	
+82-7	5311-5318	CONCORD	_	_	_	_	_	_	_	
+82-8	5319-5326	Sverige	_	_	_	_	_	_	_	
+82-9	5326-5327	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+83-1	5329-5330	#	_	_	_	_	_	_	_	
+83-2	5330-5331	P	_	_	_	_	_	_	_	
+83-3	5332-5335	IMM	_	_	_	_	_	_	_	
+83-4	5335-5336	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+84-1	5338-5346	Redaktör	_	_	_	_	_	_	_	
+84-2	5346-5347	:	_	_	_	_	_	_	_	
+84-3	5348-5354	Carina	_	_	_	_	_	_	_	
+84-4	5355-5363	Stensson	_	_	_	_	_	_	_	
+84-5	5363-5364	,	_	_	_	_	_	_	_	
+84-6	5365-5375	Biträdande	_	_	_	_	_	_	_	
+84-7	5376-5384	redaktör	_	_	_	_	_	_	_	
+84-8	5384-5385	:	_	_	_	_	_	_	_	
+84-9	5386-5391	Björn	_	_	_	_	_	_	_	
+84-10	5392-5398	Jorner	_	_	_	_	_	_	_	
+84-11	5398-5399	,	_	_	_	_	_	_	_	
+84-12	5400-5404	Mejl	_	_	_	_	_	_	_	
+84-13	5404-5405	:	_	_	_	_	_	_	_	
+84-14	5406-5412	debatt	_	_	_	_	_	_	_	
+84-15	5412-5413	@	_	_	_	_	_	_	_	
+84-16	5413-5419	svd.se	_	_	_	_	_	_	_	
+84-17	5419-5420	,	_	_	_	_	_	_	_	
+84-18	5421-5434	Telefonnummer	_	_	_	_	_	_	_	
+84-19	5434-5435	:	_	_	_	_	_	_	_	
+84-20	5436-5438	08	_	_	_	_	_	_	_	
+84-21	5438-5439	-	_	_	_	_	_	_	_	
+84-22	5439-5445	135149	_	_	_	_	_	_	_	
+84-23	5445-5446	,	_	_	_	_	_	_	_	
+84-24	5447-5454	Twitter	_	_	_	_	_	_	_	
+84-25	5454-5455	:	_	_	_	_	_	_	_	
+84-26	5456-5457	@	_	_	_	_	_	_	_	
+84-27	5457-5466	SvDDebatt	_	_	_	_	_	_	_	
+84-28	5466-5467	,	_	_	_	_	_	_	_	
+84-29	5468-5476	Facebook	_	_	_	_	_	_	_	
+84-30	5476-5477	:	_	_	_	_	_	_	_	
+84-31	5478-5481	SvD	_	_	_	_	_	_	_	
+84-32	5482-5488	Debatt	_	_	_	_	_	_	_	
+84-33	5488-5489	.	_	_	_	_	_	_	_	

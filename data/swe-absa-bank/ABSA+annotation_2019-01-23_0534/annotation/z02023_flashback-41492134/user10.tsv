@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+
+#Text=.
+3-1	15-16	.	_	_	_	_	_	_	
+
+#Text=: Judar och muslimer beskyller svenskar för terror och rasism.
+4-1	18-19	:	_	_	_	_	_	_	
+4-2	20-25	Judar	*	_	_	_	_	_	
+4-3	26-29	och	_	_	_	_	_	_	
+4-4	30-38	muslimer	*	_	_	_	_	_	
+4-5	39-48	beskyller	_	Target;Source;Source	4-6;4-4;4-2	false	1	_	
+4-6	49-57	svenskar	*	_	_	_	_	_	
+4-7	58-61	för	_	_[1]	_	false[1]	1[1]	4-5[0_1]	
+4-8	62-68	terror	_	_[1]	_	false[1]	1[1]	_	
+4-9	69-72	och	_	_[1]	_	false[1]	1[1]	_	
+4-10	73-79	rasism	_	_[1]	_	false[1]	1[1]	_	
+4-11	79-80	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	82-83	#	_	_	_	_	_	_	
+5-2	83-84	P	_	_	_	_	_	_	
+5-3	85-88	IMM	_	_	_	_	_	_	
+5-4	88-89	.	_	_	_	_	_	_	
+
+#Text=Då var det dags igen från  (En av storägarna:.
+6-1	91-93	Då	_	_	_	_	_	_	
+6-2	94-97	var	_	_	_	_	_	_	
+6-3	98-101	det	_	_	_	_	_	_	
+6-4	102-106	dags	_	_	_	_	_	_	
+6-5	107-111	igen	_	_	_	_	_	_	
+6-6	112-116	från	_	_	_	_	_	_	
+6-7	118-119	(	_	_	_	_	_	_	
+6-8	119-121	En	_	_	_	_	_	_	
+6-9	122-124	av	_	_	_	_	_	_	
+6-10	125-135	storägarna	_	_	_	_	_	_	
+6-11	135-136	:	_	_	_	_	_	_	
+6-12	136-137	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=), att vinkla artiklar och peka ut Svensson subtilt som den som är skyldig till attacker mot judar och muslimer.
+7-1	139-140	#	_	_	_	_	_	_	
+7-2	140-141	P	_	_	_	_	_	_	
+7-3	142-145	IMM	_	_	_	_	_	_	
+7-4	145-146	.	_	_	_	_	_	_	
+7-5	148-149	)	_	_	_	_	_	_	
+7-6	149-150	,	_	_	_	_	_	_	
+7-7	151-154	att	_	_	_	_	_	_	
+7-8	155-161	vinkla	_	_	_	_	_	_	
+7-9	162-170	artiklar	_	_	_	_	_	_	
+7-10	171-174	och	_	_	_	_	_	_	
+7-11	175-179	peka	_	_	_	_	_	_	
+7-12	180-182	ut	_	_	_	_	_	_	
+7-13	183-191	Svensson	*	_	_	_	_	_	
+7-14	192-199	subtilt	_	_	_	_	_	_	
+7-15	200-203	som	_	_	_	_	_	_	
+7-16	204-207	den	_	_	_	_	_	_	
+7-17	208-211	som	_	_	_	_	_	_	
+7-18	212-214	är	_	_	_	_	_	_	
+7-19	215-222	skyldig	_	Target[2]	7-13	false[2]	1[2]	_	
+7-20	223-227	till	_	Target[2]	7-13	false[2]	1[2]	_	
+7-21	228-236	attacker	_	Target[2]	7-13	false[2]	1[2]	_	
+7-22	237-240	mot	_	Target[2]	7-13	false[2]	1[2]	_	
+7-23	241-246	judar	_	Target[2]	7-13	false[2]	1[2]	_	
+7-24	247-250	och	_	Target[2]	7-13	false[2]	1[2]	_	
+7-25	251-259	muslimer	_	Target[2]	7-13	false[2]	1[2]	_	
+7-26	259-260	.	_	_	_	_	_	_	
+
+#Text=Även den judiska och muslimska respektive representanten pekar ut svensken som skyldig.
+8-1	261-265	Även	_	_	_	_	_	_	
+8-2	266-269	den	_	_	_	_	_	_	
+8-3	270-277	judiska	_	_	_	_	_	_	
+8-4	278-281	och	_	_	_	_	_	_	
+8-5	282-291	muslimska	_	_	_	_	_	_	
+8-6	292-302	respektive	_	_	_	_	_	_	
+8-7	303-317	representanten	_	_	_	_	_	_	
+8-8	318-323	pekar	_	_	_	_	_	_	
+8-9	324-326	ut	_	_	_	_	_	_	
+8-10	327-335	svensken	_	_	_	_	_	_	
+8-11	336-339	som	_	_	_	_	_	_	
+8-12	340-347	skyldig	_	_	_	_	_	_	
+8-13	347-348	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	350-351	#	_	_	_	_	_	_	
+9-2	351-352	P	_	_	_	_	_	_	
+9-3	353-356	IMM	_	_	_	_	_	_	
+9-4	356-357	.	_	_	_	_	_	_	
+
+#Text=Är detta vad ni också tycker?
+10-1	359-361	Är	_	_	_	_	_	_	
+10-2	362-367	detta	_	_	_	_	_	_	
+10-3	368-371	vad	_	_	_	_	_	_	
+10-4	372-374	ni	_	_	_	_	_	_	
+10-5	375-380	också	_	_	_	_	_	_	
+10-6	381-387	tycker	_	_	_	_	_	_	
+10-7	387-388	?	_	_	_	_	_	_	
+
+#Text=Är det Svensson som trakasserar judar i Malmö?
+11-1	389-391	Är	_	_	_	_	_	_	
+11-2	392-395	det	_	_	_	_	_	_	
+11-3	396-404	Svensson	*	_	_	_	_	_	
+11-4	405-408	som	_	_	_	_	_	_	
+11-5	409-420	trakasserar	_	Target;Source	11-6;11-3	false	1	_	
+11-6	421-426	judar	*	_	_	_	_	_	
+11-7	427-428	i	_	_	_	_	_	_	
+11-8	429-434	Malmö	_	_	_	_	_	_	
+11-9	434-435	?	_	_	_	_	_	_	
+
+#Text=Är det Svensson och andra vita kristna som verkligen slänger in grishuvuden i moskén och inte andra muslimer från andra rivaliserande grupper?
+12-1	436-438	Är	_	_	_	_	_	_	
+12-2	439-442	det	_	_	_	_	_	_	
+12-3	443-451	Svensson	_	_	_	_	_	_	
+12-4	452-455	och	_	_	_	_	_	_	
+12-5	456-461	andra	_	_	_	_	_	_	
+12-6	462-466	vita	_	_	_	_	_	_	
+12-7	467-474	kristna	_	_	_	_	_	_	
+12-8	475-478	som	_	_	_	_	_	_	
+12-9	479-488	verkligen	_	_	_	_	_	_	
+12-10	489-496	slänger	_	_	_	_	_	_	
+12-11	497-499	in	_	_	_	_	_	_	
+12-12	500-511	grishuvuden	_	_	_	_	_	_	
+12-13	512-513	i	_	_	_	_	_	_	
+12-14	514-520	moskén	_	_	_	_	_	_	
+12-15	521-524	och	_	_	_	_	_	_	
+12-16	525-529	inte	_	_	_	_	_	_	
+12-17	530-535	andra	_	_	_	_	_	_	
+12-18	536-544	muslimer	_	_	_	_	_	_	
+12-19	545-549	från	_	_	_	_	_	_	
+12-20	550-555	andra	_	_	_	_	_	_	
+12-21	556-569	rivaliserande	*[5]	Target[3]	12-21[5]	false[3]	2[3]	_	
+12-22	570-577	grupper	*[5]	Target[3]	12-21[5]	false[3]	2[3]	_	
+12-23	577-578	?	_	_	_	_	_	_	
+
+#Text=Det är ju ökänt att muslimerna sinsemellan har sina konflikter sett utifrån vilka grupper de kommer ifrån.
+13-1	579-582	Det	_	_	_	_	_	_	
+13-2	583-585	är	_	_	_	_	_	_	
+13-3	586-588	ju	_	_	_	_	_	_	
+13-4	589-594	ökänt	_	_	_	false	1	_	
+13-5	595-598	att	_	_[4]	_	false[4]	1[4]	_	
+13-6	599-609	muslimerna	_	_[4]	_	false[4]	1[4]	_	
+13-7	610-621	sinsemellan	_	_[4]	_	false[4]	1[4]	_	
+13-8	622-625	har	_	_[4]	_	false[4]	1[4]	_	
+13-9	626-630	sina	_	_[4]	_	false[4]	1[4]	_	
+13-10	631-641	konflikter	_	_[4]	_	false[4]	1[4]	_	
+13-11	642-646	sett	_	_[4]	_	false[4]	1[4]	_	
+13-12	647-654	utifrån	_	_[4]	_	false[4]	1[4]	_	
+13-13	655-660	vilka	_	_[4]	_	false[4]	1[4]	_	
+13-14	661-668	grupper	_	_[4]	_	false[4]	1[4]	_	
+13-15	669-671	de	_	_[4]	_	false[4]	1[4]	_	
+13-16	672-678	kommer	_	_[4]	_	false[4]	1[4]	_	
+13-17	679-684	ifrån	_	_[4]	_	false[4]	1[4]	_	
+13-18	684-685	.	_	_	_	_	_	_	

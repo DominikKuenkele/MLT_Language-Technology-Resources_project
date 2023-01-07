@@ -1,0 +1,323 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Peter Springare sågar fokus på svenska mäns attityder som orsak till ofredande mm.
+3-1	18-23	Peter	*[4]	_	_	_	_	_	
+3-2	24-33	Springare	*[4]	_	_	_	_	_	
+3-3	34-39	sågar	_	Target;Source	3-4[5];3-1[4]	false	2	_	
+3-4	40-45	fokus	*[5]	_	_	_	_	_	
+3-5	46-48	på	*[5]	_	_	_	_	_	
+3-6	49-56	svenska	*[5]|*[6]	_	_	_	_	_	
+3-7	57-61	mäns	*[5]|*[6]	_	_	_	_	_	
+3-8	62-71	attityder	*[5]|*[6]	_	_	_	_	_	
+3-9	72-75	som	*[5]	_	_	_	_	_	
+3-10	76-81	orsak	*[5]	Source;Target[1]	3-14;3-6[6]	false[1]	2[1]	_	
+3-11	82-86	till	*[5]	Source;Target[1]	3-14;3-6[6]	false[1]	2[1]	_	
+3-12	87-96	ofredande	*[5]	Source;Target[1]	3-14;3-6[6]	false[1]	2[1]	_	
+3-13	97-99	mm	*[5]	Source;Target[1]	3-14;3-6[6]	false[1]	2[1]	_	
+3-14	99-100	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	102-103	#	_	_	_	_	_	_	
+4-2	103-104	P	_	_	_	_	_	_	
+4-3	105-108	IMM	_	_	_	false	2	_	
+4-4	108-109	.	_	_	_	_	_	_	
+
+#Text=Peter Springare är polisen som tagit bladet från munnen angående kriminalitet och ursprung.
+5-1	111-116	Peter	*[7]	_	_	_	_	8-5[0_7]	
+5-2	117-126	Springare	*[7]	_	_	_	_	_	
+5-3	127-129	är	_	_	_	_	_	_	
+5-4	130-137	polisen	_	_	_	_	_	_	
+5-5	138-141	som	_	_	_	_	_	_	
+5-6	142-147	tagit	_	_	_	_	_	_	
+5-7	148-154	bladet	_	_	_	_	_	_	
+5-8	155-159	från	_	_	_	_	_	_	
+5-9	160-166	munnen	_	_	_	_	_	_	
+5-10	167-175	angående	_	_	_	_	_	_	
+5-11	176-188	kriminalitet	_	_	_	_	_	_	
+5-12	189-192	och	_	_	_	_	_	_	
+5-13	193-201	ursprung	_	_	_	_	_	_	
+5-14	201-202	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	204-205	#	_	_	_	_	_	_	
+6-2	205-206	P	_	_	_	_	_	_	
+6-3	207-210	IMM	_	_	_	false	2	_	
+6-4	210-211	.	_	_	_	_	_	_	
+
+#Text=Han är whistleblowern som sade hur det är egentligen med invandrare och kriminalitet för någon dag sedan i ett uppgivet facebookinlägg.
+7-1	213-216	Han	_	_	_	_	_	_	
+7-2	217-219	är	_	_	_	_	_	_	
+7-3	220-234	whistleblowern	_	_	_	_	_	_	
+7-4	235-238	som	_	_	_	_	_	_	
+7-5	239-243	sade	_	_	_	_	_	_	
+7-6	244-247	hur	_	_	_	_	_	_	
+7-7	248-251	det	_	_	_	_	_	_	
+7-8	252-254	är	_	_	_	_	_	_	
+7-9	255-265	egentligen	_	_	_	_	_	_	
+7-10	266-269	med	_	_	_	_	_	_	
+7-11	270-280	invandrare	_	_	_	_	_	_	
+7-12	281-284	och	_	_	_	_	_	_	
+7-13	285-297	kriminalitet	_	_	_	_	_	_	
+7-14	298-301	för	_	_	_	_	_	_	
+7-15	302-307	någon	_	_	_	_	_	_	
+7-16	308-311	dag	_	_	_	_	_	_	
+7-17	312-317	sedan	_	_	_	_	_	_	
+7-18	318-319	i	_	_	_	_	_	_	
+7-19	320-323	ett	_	_	_	_	_	_	
+7-20	324-332	uppgivet	_	_	_	false	2	_	
+7-21	333-347	facebookinlägg	_	_	_	_	_	_	
+7-22	347-348	.	_	_	_	_	_	_	
+
+#Text=Efter det så är han backad av flera, och är tydligen dränkt i blommor.
+8-1	349-354	Efter	_	_	_	_	_	_	
+8-2	355-358	det	_	_	_	_	_	_	
+8-3	359-361	så	_	_	_	_	_	_	
+8-4	362-364	är	_	_	_	_	_	_	
+8-5	365-368	han	*	_	_	_	_	_	
+8-6	369-375	backad	_	Target;Source[2]	8-5;8-8	false[2]	2[2]	_	
+8-7	376-378	av	_	Target;Source[2]	8-5;8-8	false[2]	2[2]	_	
+8-8	379-384	flera	*	_	_	_	_	_	
+8-9	384-385	,	_	_	_	_	_	_	
+8-10	386-389	och	_	_	_	_	_	_	
+8-11	390-392	är	_	_	_	_	_	_	
+8-12	393-401	tydligen	_	_	_	_	_	_	
+8-13	402-408	dränkt	_	_	_	_	_	_	
+8-14	409-410	i	_	_	_	_	_	_	
+8-15	411-418	blommor	_	_	_	_	_	_	
+8-16	418-419	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	421-422	#	_	_	_	_	_	_	
+9-2	422-423	P	_	_	_	_	_	_	
+9-3	424-427	IMM	_	_	_	_	_	_	
+9-4	427-428	.	_	_	_	_	_	_	
+
+#Text=För att inlägget inte skulle misstas för rasism så gjorde han ett förtydligande.
+10-1	430-433	För	_	_	_	_	_	_	
+10-2	434-437	att	_	_	_	_	_	_	
+10-3	438-446	inlägget	_	_	_	_	_	_	
+10-4	447-451	inte	_	_	_	_	_	_	
+10-5	452-458	skulle	_	_	_	_	_	_	
+10-6	459-466	misstas	_	_	_	_	_	_	
+10-7	467-470	för	_	_	_	_	_	_	
+10-8	471-477	rasism	*	Source;Target	10-14;10-8	false	1	_	
+10-9	478-480	så	_	_	_	_	_	_	
+10-10	481-487	gjorde	_	_	_	_	_	_	
+10-11	488-491	han	_	_	_	_	_	_	
+10-12	492-495	ett	_	_	_	_	_	_	
+10-13	496-509	förtydligande	_	_	_	_	_	_	
+10-14	509-510	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	512-513	#	_	_	_	_	_	_	
+11-2	513-514	P	_	_	_	_	_	_	
+11-3	515-518	IMM	_	_	_	_	_	_	
+11-4	518-519	.	_	_	_	_	_	_	
+
+#Text=men som ändå mynnade ut i detta angående män och våldtäkter och regeringens approach.
+12-1	521-524	men	_	_	_	_	_	_	
+12-2	525-528	som	_	_	_	_	_	_	
+12-3	529-533	ändå	_	_	_	_	_	_	
+12-4	534-541	mynnade	_	_	_	_	_	_	
+12-5	542-544	ut	_	_	_	_	_	_	
+12-6	545-546	i	_	_	_	_	_	_	
+12-7	547-552	detta	_	_	_	_	_	_	
+12-8	553-561	angående	_	_	_	_	_	_	
+12-9	562-565	män	_	_	_	_	_	_	
+12-10	566-569	och	_	_	_	_	_	_	
+12-11	570-580	våldtäkter	*	Target;Source	12-11;12-15	false	1	_	
+12-12	581-584	och	_	_	_	_	_	_	
+12-13	585-596	regeringens	_	_	_	_	_	_	
+12-14	597-605	approach	_	_	_	_	_	_	
+12-15	605-606	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	608-609	#	_	_	_	_	_	_	
+13-2	609-610	P	_	_	_	_	_	_	
+13-3	611-614	IMM	_	_	_	_	_	_	
+13-4	614-615	.	_	_	_	_	_	_	
+
+#Text=Först pratar Tino om patriarkala strukturer hos invandrarmän, nu detta.
+14-1	617-622	Först	_	_	_	_	_	_	
+14-2	623-629	pratar	_	_	_	_	_	_	
+14-3	630-634	Tino	_	_	_	_	_	_	
+14-4	635-637	om	_	_	_	_	_	_	
+14-5	638-649	patriarkala	_	_	_	_	_	_	
+14-6	650-660	strukturer	_	_	_	_	_	_	
+14-7	661-664	hos	_	_	_	_	_	_	
+14-8	665-677	invandrarmän	_	_	_	_	_	_	
+14-9	677-678	,	_	_	_	_	_	_	
+14-10	679-681	nu	_	_	_	_	_	_	
+14-11	682-687	detta	_	_	_	_	_	_	
+14-12	687-688	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	690-691	#	_	_	_	_	_	_	
+15-2	691-692	P	_	_	_	_	_	_	
+15-3	693-696	IMM	_	_	_	_	_	_	
+15-4	696-697	.	_	_	_	_	_	_	
+
+#Text=Är feministernas roll som duktiga idioter och spridande av dimridåerna över nu?
+16-1	699-701	Är	_	_	_	_	_	_	
+16-2	702-715	feministernas	*[8]	_	_	_	_	_	
+16-3	716-720	roll	*[8]	_	_	_	_	_	
+16-4	721-724	som	_	_	_	_	_	_	
+16-5	725-732	duktiga	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-6	733-740	idioter	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-7	741-744	och	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-8	745-754	spridande	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-9	755-757	av	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-10	758-769	dimridåerna	_	Source;Target[3]	16-13;16-2[8]	false[3]	1[3]	_	
+16-11	770-774	över	_	_	_	_	_	_	
+16-12	775-777	nu	_	_	_	_	_	_	
+16-13	777-778	?	*	_	_	_	_	_	
+
+#Text=Jag vill verkligen diskutera ur ett feministiskt perspektiv, för detta handlar ju om att avväpna deras "alla män" och framförallt så framstår ju alla män som hoppat på tåget som de idioter de är.
+17-1	779-782	Jag	_	_	_	_	_	_	
+17-2	783-787	vill	_	_	_	_	_	_	
+17-3	788-797	verkligen	_	_	_	_	_	_	
+17-4	798-807	diskutera	_	_	_	_	_	_	
+17-5	808-810	ur	_	_	_	_	_	_	
+17-6	811-814	ett	_	_	_	_	_	_	
+17-7	815-827	feministiskt	_	_	_	_	_	_	
+17-8	828-838	perspektiv	_	_	_	_	_	_	
+17-9	838-839	,	_	_	_	_	_	_	
+17-10	840-843	för	_	_	_	_	_	_	
+17-11	844-849	detta	_	_	_	_	_	_	
+17-12	850-857	handlar	_	_	_	_	_	_	
+17-13	858-860	ju	_	_	_	_	_	_	
+17-14	861-863	om	_	_	_	_	_	_	
+17-15	864-867	att	_	_	_	_	_	_	
+17-16	868-875	avväpna	_	_	_	_	_	_	
+17-17	876-881	deras	_	_	_	_	_	_	
+17-18	882-883	"	_	_	_	_	_	_	
+17-19	883-887	alla	_	_	_	_	_	_	
+17-20	888-891	män	_	_	_	_	_	_	
+17-21	891-892	"	_	_	_	_	_	_	
+17-22	893-896	och	_	_	_	_	_	_	
+17-23	897-908	framförallt	_	_	_	_	_	_	
+17-24	909-911	så	_	_	_	_	_	_	
+17-25	912-920	framstår	_	_	_	_	_	_	
+17-26	921-923	ju	_	_	_	_	_	_	
+17-27	924-928	alla	*[9]	_	_	_	_	_	
+17-28	929-932	män	*[9]	_	_	_	_	_	
+17-29	933-936	som	*[9]	_	_	_	_	_	
+17-30	937-943	hoppat	*[9]	_	_	_	_	_	
+17-31	944-946	på	*[9]	_	_	_	_	_	
+17-32	947-952	tåget	*[9]	_	_	_	_	_	
+17-33	953-956	som	_	_	_	_	_	_	
+17-34	957-959	de	_	_	_	_	_	_	
+17-35	960-967	idioter	_	Target	17-27[9]	false	1	_	
+17-36	968-970	de	_	_	_	_	_	_	
+17-37	971-973	är	_	_	_	_	_	_	
+17-38	973-974	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	976-977	#	_	_	_	_	_	_	
+18-2	977-978	P	_	_	_	_	_	_	
+18-3	979-982	IMM	_	_	_	_	_	_	
+18-4	982-983	.	_	_	_	_	_	_	
+
+#Text=Det är Melander, Jureskog, en och annan planta till, och en skeppslast med invandrare.
+19-1	985-988	Det	_	_	_	_	_	_	
+19-2	989-991	är	_	_	_	_	_	_	
+19-3	992-1000	Melander	_	_	_	_	_	_	
+19-4	1000-1001	,	_	_	_	_	_	_	
+19-5	1002-1010	Jureskog	_	_	_	_	_	_	
+19-6	1010-1011	,	_	_	_	_	_	_	
+19-7	1012-1014	en	_	_	_	_	_	_	
+19-8	1015-1018	och	_	_	_	_	_	_	
+19-9	1019-1024	annan	_	_	_	_	_	_	
+19-10	1025-1031	planta	_	_	_	_	_	_	
+19-11	1032-1036	till	_	_	_	_	_	_	
+19-12	1036-1037	,	_	_	_	_	_	_	
+19-13	1038-1041	och	_	_	_	_	_	_	
+19-14	1042-1044	en	_	_	_	_	_	_	
+19-15	1045-1055	skeppslast	_	_	_	_	_	_	
+19-16	1056-1059	med	_	_	_	_	_	_	
+19-17	1060-1070	invandrare	_	_	_	_	_	_	
+19-18	1070-1071	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1073-1074	#	_	_	_	_	_	_	
+20-2	1074-1075	P	_	_	_	_	_	_	
+20-3	1076-1079	IMM	_	_	_	_	_	_	
+20-4	1079-1080	.	_	_	_	_	_	_	
+
+#Text=För tydligen så rör det sig inte om en överrepresentation utan om en utklassning med tanke på referensen till container (full med anmälningar).
+21-1	1082-1085	För	_	_	_	_	_	_	
+21-2	1086-1094	tydligen	_	_	_	_	_	_	
+21-3	1095-1097	så	_	_	_	_	_	_	
+21-4	1098-1101	rör	_	_	_	_	_	_	
+21-5	1102-1105	det	_	_	_	_	_	_	
+21-6	1106-1109	sig	_	_	_	_	_	_	
+21-7	1110-1114	inte	_	_	_	_	_	_	
+21-8	1115-1117	om	_	_	_	_	_	_	
+21-9	1118-1120	en	_	_	_	_	_	_	
+21-10	1121-1139	överrepresentation	_	_	_	_	_	_	
+21-11	1140-1144	utan	_	_	_	_	_	_	
+21-12	1145-1147	om	_	_	_	_	_	_	
+21-13	1148-1150	en	_	_	_	_	_	_	
+21-14	1151-1162	utklassning	_	_	_	_	_	_	
+21-15	1163-1166	med	_	_	_	_	_	_	
+21-16	1167-1172	tanke	_	_	_	_	_	_	
+21-17	1173-1175	på	_	_	_	_	_	_	
+21-18	1176-1186	referensen	_	_	_	_	_	_	
+21-19	1187-1191	till	_	_	_	_	_	_	
+21-20	1192-1201	container	_	_	_	_	_	_	
+21-21	1202-1203	(	_	_	_	_	_	_	
+21-22	1203-1207	full	_	_	_	_	_	_	
+21-23	1208-1211	med	_	_	_	_	_	_	
+21-24	1212-1223	anmälningar	_	_	_	_	_	_	
+21-25	1223-1224	)	_	_	_	_	_	_	
+21-26	1224-1225	.	_	_	_	_	_	_	
+
+#Text=Man förstår ju varför BRÅ och Sarnecki tiger som muren.
+22-1	1227-1230	Man	_	_	_	_	_	_	
+22-2	1231-1238	förstår	_	_	_	_	_	_	
+22-3	1239-1241	ju	_	_	_	_	_	_	
+22-4	1242-1248	varför	_	_	_	_	_	_	
+22-5	1249-1252	BRÅ	_	_	_	_	_	_	
+22-6	1253-1256	och	_	_	_	_	_	_	
+22-7	1257-1265	Sarnecki	_	_	_	_	_	_	
+22-8	1266-1271	tiger	_	_	_	_	_	_	
+22-9	1272-1275	som	_	_	_	_	_	_	
+22-10	1276-1281	muren	_	_	_	_	_	_	
+22-11	1281-1282	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+23-1	1284-1285	#	_	_	_	_	_	_	
+23-2	1285-1286	P	_	_	_	_	_	_	
+23-3	1287-1290	IMM	_	_	_	_	_	_	
+23-4	1290-1291	.	_	_	_	_	_	_	
+
+#Text=Är detta slutet på att trakassera  svenska män från feministiskt håll?.
+24-1	1293-1295	Är	_	_	_	_	_	_	
+24-2	1296-1301	detta	_	_	_	_	_	_	
+24-3	1302-1308	slutet	_	_	_	_	_	_	
+24-4	1309-1311	på	_	_	_	_	_	_	
+24-5	1312-1315	att	*[10]	_	_	_	_	_	
+24-6	1316-1326	trakassera	*[10]	Target	24-5[10]	false	1	_	
+24-7	1328-1335	svenska	*[10]	_	_	_	_	_	
+24-8	1336-1339	män	*[10]	_	_	_	_	_	
+24-9	1340-1344	från	*[10]	_	_	_	_	_	
+24-10	1345-1357	feministiskt	*[10]	_	_	_	_	_	
+24-11	1358-1362	håll	*[10]	_	_	_	_	_	
+24-12	1362-1363	?	_	_	_	_	_	_	
+24-13	1363-1364	.	_	_	_	_	_	_	

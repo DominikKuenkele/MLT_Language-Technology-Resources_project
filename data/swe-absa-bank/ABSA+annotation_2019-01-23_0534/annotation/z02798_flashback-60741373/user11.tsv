@@ -1,0 +1,399 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Antifeminister är omanliga.
+3-1	18-32	Antifeminister	*	_	_	_	_	_	
+3-2	33-35	är	_	Target[1]	3-1	false[1]	2[1]	_	
+3-3	36-44	omanliga	_	Target[1]	3-1	false[1]	2[1]	_	
+3-4	44-45	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	47-48	#	_	_	_	_	_	_	
+4-2	48-49	P	_	_	_	_	_	_	
+4-3	50-53	IMM	_	_	_	_	_	_	
+4-4	53-54	.	_	_	_	_	_	_	
+
+#Text=Jag har varit internetkrigare för antifeminismen sedan 2002 då begreppet antifeminist inte ens var påtänkt.
+5-1	56-59	Jag	*	_	_	_	_	_	
+5-2	60-63	har	_	Source;Target[2]	5-1;5-6	false[2]	4[2]	_	
+5-3	64-69	varit	_	Source;Target[2]	5-1;5-6	false[2]	4[2]	_	
+5-4	70-85	internetkrigare	_	Source;Target[2]	5-1;5-6	false[2]	4[2]	_	
+5-5	86-89	för	_	_	_	_	_	_	
+5-6	90-104	antifeminismen	*	_	_	_	_	_	
+5-7	105-110	sedan	_	_	_	_	_	_	
+5-8	111-115	2002	_	_	_	_	_	_	
+5-9	116-118	då	_	_	_	_	_	_	
+5-10	119-128	begreppet	_	_	_	_	_	_	
+5-11	129-141	antifeminist	_	_	_	_	_	_	
+5-12	142-146	inte	_	_	_	_	_	_	
+5-13	147-150	ens	_	_	_	_	_	_	
+5-14	151-154	var	_	_	_	_	_	_	
+5-15	155-162	påtänkt	_	_	_	_	_	_	
+5-16	162-163	.	_	_	_	_	_	_	
+
+#Text=Då var det helt andra tider än det är nu.
+6-1	164-166	Då	_	_	_	_	_	_	
+6-2	167-170	var	_	_	_	_	_	_	
+6-3	171-174	det	_	_	_	_	_	_	
+6-4	175-179	helt	_	_	_	_	_	_	
+6-5	180-185	andra	_	_	_	_	_	_	
+6-6	186-191	tider	_	_	_	_	_	_	
+6-7	192-194	än	_	_	_	_	_	_	
+6-8	195-198	det	_	_	_	_	_	_	
+6-9	199-201	är	_	_	_	_	_	_	
+6-10	202-204	nu	_	_	_	_	_	_	
+6-11	204-205	.	_	_	_	_	_	_	
+
+#Text=Feminismen härskade med järnhand inom media.
+7-1	206-216	Feminismen	*	_	_	_	_	_	
+7-2	217-225	härskade	_	Target[3]	7-1	false[3]	2[3]	_	
+7-3	226-229	med	_	Target[3]	7-1	false[3]	2[3]	_	
+7-4	230-238	järnhand	_	Target[3]	7-1	false[3]	2[3]	_	
+7-5	239-243	inom	_	_	_	_	_	_	
+7-6	244-249	media	_	_	_	_	_	_	
+7-7	249-250	.	_	_	_	_	_	_	
+
+#Text=Nu finns knappt feminismen om man jämför.
+8-1	251-253	Nu	_	_	_	_	_	_	
+8-2	254-259	finns	_	_	_	_	_	_	
+8-3	260-266	knappt	_	_	_	_	_	_	
+8-4	267-277	feminismen	_	_	_	_	_	_	
+8-5	278-280	om	_	_	_	_	_	_	
+8-6	281-284	man	_	_	_	_	_	_	
+8-7	285-291	jämför	_	_	_	_	_	_	
+8-8	291-292	.	_	_	_	_	_	_	
+
+#Text=Man kan alltså säga att jag varit framgångsrik i min kamp.
+9-1	293-296	Man	_	_	_	_	_	_	
+9-2	297-300	kan	_	_	_	_	_	_	
+9-3	301-307	alltså	_	_	_	_	_	_	
+9-4	308-312	säga	_	_	_	_	_	_	
+9-5	313-316	att	_	_	_	_	_	_	
+9-6	317-320	jag	*	_	_	_	_	_	
+9-7	321-326	varit	_	Target[4]	9-6	false[4]	4[4]	_	
+9-8	327-339	framgångsrik	_	Target[4]	9-6	false[4]	4[4]	_	
+9-9	340-341	i	_	_	_	_	_	_	
+9-10	342-345	min	_	_	_	_	_	_	
+9-11	346-350	kamp	_	_	_	_	_	_	
+9-12	350-351	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	353-354	#	_	_	_	_	_	_	
+10-2	354-355	P	_	_	_	_	_	_	
+10-3	356-359	IMM	_	_	_	_	_	_	
+10-4	359-360	.	_	_	_	_	_	_	
+
+#Text=Men jag är inte längre antifeminist.
+11-1	362-365	Men	_	_	_	_	_	_	
+11-2	366-369	jag	_	_	_	_	_	_	
+11-3	370-372	är	_	_	_	_	_	_	
+11-4	373-377	inte	_	_	_	_	_	_	
+11-5	378-384	längre	_	_	_	_	_	_	
+11-6	385-397	antifeminist	_	_	_	_	_	_	
+11-7	397-398	.	_	_	_	_	_	_	
+
+#Text=Jag tycker detta forum präglas mest av kvinnobashing, vilket kan vara kul men det ger en besk eftersmak.
+12-1	399-402	Jag	_	_	_	_	_	_	
+12-2	403-409	tycker	_	_	_	_	_	_	
+12-3	410-415	detta	*[17]	_	_	_	_	_	
+12-4	416-421	forum	*[17]	_	_	_	_	_	
+12-5	422-429	präglas	*[18]	Target[5]	12-3[17]	false[5]	2[5]	_	
+12-6	430-434	mest	*[18]	Target[5]	12-3[17]	false[5]	2[5]	_	
+12-7	435-437	av	*[18]	Target[5]	12-3[17]	false[5]	2[5]	_	
+12-8	438-451	kvinnobashing	*[18]	Target[5]	12-3[17]	false[5]	2[5]	_	
+12-9	451-452	,	_	_	_	_	_	_	
+12-10	453-459	vilket	_	_	_	_	_	_	
+12-11	460-463	kan	_	Target[6]	12-5[18]	false[6]	4[6]	_	
+12-12	464-468	vara	_	Target[6]	12-5[18]	false[6]	4[6]	_	
+12-13	469-472	kul	_	Target[6]	12-5[18]	false[6]	4[6]	_	
+12-14	473-476	men	_	_	_	_	_	_	
+12-15	477-480	det	_	_	_	_	_	_	
+12-16	481-484	ger	_	_	_	_	_	_	
+12-17	485-487	en	_	_	_	_	_	_	
+12-18	488-492	besk	_	_	_	_	_	_	
+12-19	493-502	eftersmak	_	_	_	_	_	_	
+12-20	502-503	.	_	_	_	_	_	_	
+
+#Text=När det kommer till kritan så ingår det i mansrollen att skydda kvinnor, även deras själsliv.
+13-1	504-507	När	_	_	_	_	_	_	
+13-2	508-511	det	_	_	_	_	_	_	
+13-3	512-518	kommer	_	_	_	_	_	_	
+13-4	519-523	till	_	_	_	_	_	_	
+13-5	524-530	kritan	_	_	_	_	_	_	
+13-6	531-533	så	_	_	_	_	_	_	
+13-7	534-539	ingår	_	_	_	_	_	_	
+13-8	540-543	det	_	_	_	_	_	_	
+13-9	544-545	i	_	_	_	_	_	_	
+13-10	546-556	mansrollen	_	_	_	_	_	_	
+13-11	557-560	att	_	_	_	_	_	_	
+13-12	561-567	skydda	_	_	_	_	_	_	
+13-13	568-575	kvinnor	_	_	_	_	_	_	
+13-14	575-576	,	_	_	_	_	_	_	
+13-15	577-581	även	_	_	_	_	_	_	
+13-16	582-587	deras	_	_	_	_	_	_	
+13-17	588-596	själsliv	_	_	_	_	_	_	
+13-18	596-597	.	_	_	_	_	_	_	
+
+#Text=En traditionell man behandlar kvinnans känsloliv ömt.
+14-1	598-600	En	_	_	_	_	_	_	
+14-2	601-613	traditionell	_	_	_	_	_	_	
+14-3	614-617	man	_	_	_	_	_	_	
+14-4	618-627	behandlar	_	_	_	false	4	_	
+14-5	628-636	kvinnans	*[19]	_	_	_	_	_	
+14-6	637-646	känsloliv	*[19]	_	_	_	_	_	
+14-7	647-650	ömt	_	Target	14-5[19]	false	4	14-4	
+14-8	650-651	.	_	_	_	_	_	_	
+
+#Text=Visst, det ser annorlunda ut idag men det är mest för att det spårat ur.
+15-1	652-657	Visst	_	_	_	_	_	_	
+15-2	657-658	,	_	_	_	_	_	_	
+15-3	659-662	det	_	_	_	_	_	_	
+15-4	663-666	ser	_	_	_	_	_	_	
+15-5	667-677	annorlunda	_	_	_	_	_	_	
+15-6	678-680	ut	_	_	_	_	_	_	
+15-7	681-685	idag	_	_	_	_	_	_	
+15-8	686-689	men	_	_	_	_	_	_	
+15-9	690-693	det	_	_	_	_	_	_	
+15-10	694-696	är	_	_	_	_	_	_	
+15-11	697-701	mest	_	_	_	_	_	_	
+15-12	702-705	för	_	_	_	_	_	_	
+15-13	706-709	att	_	_	_	_	_	_	
+15-14	710-713	det	*	_	_	_	_	_	
+15-15	714-720	spårat	_	Target[7]	15-14	false[7]	2[7]	_	
+15-16	721-723	ur	_	Target[7]	15-14	false[7]	2[7]	_	
+15-17	723-724	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	726-727	#	_	_	_	_	_	_	
+16-2	727-728	P	_	_	_	_	_	_	
+16-3	729-732	IMM	_	_	_	_	_	_	
+16-4	732-733	.	_	_	_	_	_	_	
+
+#Text=Det är en okänd sanning att den enda orsaken till feminismen är att män hellre vill kärar ner sig i en jämbördig partner än någon som man ska hunsa runt.
+17-1	735-738	Det	_	_	_	_	_	_	
+17-2	739-741	är	_	_	_	_	_	_	
+17-3	742-744	en	_	_	_	_	_	_	
+17-4	745-750	okänd	_	_	_	_	_	_	
+17-5	751-758	sanning	_	_	_	_	_	_	
+17-6	759-762	att	_	_	_	_	_	_	
+17-7	763-766	den	_	_	_	_	_	_	
+17-8	767-771	enda	_	_	_	_	_	_	
+17-9	772-779	orsaken	_	_	_	_	_	_	
+17-10	780-784	till	_	_	_	_	_	_	
+17-11	785-795	feminismen	_	_	_	_	_	_	
+17-12	796-798	är	_	_	_	_	_	_	
+17-13	799-802	att	_	_	_	_	_	_	
+17-14	803-806	män	*	_	_	_	_	_	
+17-15	807-813	hellre	_	_	_	_	_	_	
+17-16	814-818	vill	_	Target;Source[8]	17-22[20];17-14	false[8]	5[8]	_	
+17-17	819-824	kärar	_	Target;Source[8]	17-22[20];17-14	false[8]	5[8]	_	
+17-18	825-828	ner	_	Target;Source[8]	17-22[20];17-14	false[8]	5[8]	_	
+17-19	829-832	sig	_	Target;Source[8]	17-22[20];17-14	false[8]	5[8]	_	
+17-20	833-834	i	_	Target;Source[8]	17-22[20];17-14	false[8]	5[8]	_	
+17-21	835-837	en	_	_	_	_	_	_	
+17-22	838-847	jämbördig	*[20]	_	_	_	_	_	
+17-23	848-855	partner	*[20]	_	_	_	_	_	
+17-24	856-858	än	_	_	_	_	_	_	
+17-25	859-864	någon	*	_	_	_	_	_	
+17-26	865-868	som	_	_	_	_	_	_	
+17-27	869-872	man	_	_	_	_	_	_	
+17-28	873-876	ska	_	Target[9]	17-25	false[9]	2[9]	_	
+17-29	877-882	hunsa	_	Target[9]	17-25	false[9]	2[9]	_	
+17-30	883-887	runt	_	Target[9]	17-25	false[9]	2[9]	_	
+17-31	887-888	.	_	_	_	_	_	_	
+
+#Text=Hade inte mäns preferenser generellt sett ut så så hade vi inte haft någon feminism och kvinnan hade varit kvar i köket.
+18-1	889-893	Hade	_	_	_	_	_	_	
+18-2	894-898	inte	_	_	_	_	_	_	
+18-3	899-903	mäns	*	_	_	_	_	_	
+18-4	904-915	preferenser	_	Source	18-3	false	4	_	
+18-5	916-925	generellt	_	_	_	_	_	_	
+18-6	926-930	sett	_	_	_	_	_	_	
+18-7	931-933	ut	_	_	_	_	_	_	
+18-8	934-936	så	_	_	_	_	_	_	
+18-9	937-939	så	_	_	_	_	_	_	
+18-10	940-944	hade	_	_	_	_	_	_	
+18-11	945-947	vi	_	_	_	_	_	_	
+18-12	948-952	inte	_	_	_	_	_	_	
+18-13	953-957	haft	_	_	_	_	_	_	
+18-14	958-963	någon	_	_	_	_	_	_	
+18-15	964-972	feminism	_	_	_	_	_	_	
+18-16	973-976	och	_	_	_	_	_	_	
+18-17	977-984	kvinnan	_	_	_	_	_	_	
+18-18	985-989	hade	_	_	_	_	_	_	
+18-19	990-995	varit	_	_	_	_	_	_	
+18-20	996-1000	kvar	_	_	_	_	_	_	
+18-21	1001-1002	i	_	_	_	_	_	_	
+18-22	1003-1008	köket	_	_	_	_	_	_	
+18-23	1008-1009	.	_	_	_	_	_	_	
+
+#Text=Ifall du vill ha en kvinna som kan ge dig motstånd så är du alltså feminist.
+19-1	1010-1015	Ifall	*[21]	_	_	_	_	_	
+19-2	1016-1018	du	*[21]	_	_	_	_	_	
+19-3	1019-1023	vill	*[21]	_	_	_	_	_	
+19-4	1024-1026	ha	*[21]	_	_	_	_	_	
+19-5	1027-1029	en	*[21]	_	_	_	_	_	
+19-6	1030-1036	kvinna	*[21]	_	_	_	_	_	
+19-7	1037-1040	som	*[21]	_	_	_	_	_	
+19-8	1041-1044	kan	*[21]	_	_	_	_	_	
+19-9	1045-1047	ge	*[21]	_	_	_	_	_	
+19-10	1048-1051	dig	*[21]	_	_	_	_	_	
+19-11	1052-1060	motstånd	*[21]	_	_	_	_	_	
+19-12	1061-1063	så	_	_	_	_	_	_	
+19-13	1064-1066	är	_	Target[10]	19-1[21]	false[10]	3[10]	_	
+19-14	1067-1069	du	_	Target[10]	19-1[21]	false[10]	3[10]	_	
+19-15	1070-1076	alltså	_	Target[10]	19-1[21]	false[10]	3[10]	_	
+19-16	1077-1085	feminist	_	Target[10]	19-1[21]	false[10]	3[10]	_	
+19-17	1085-1086	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1088-1089	#	_	_	_	_	_	_	
+20-2	1089-1090	P	_	_	_	_	_	_	
+20-3	1091-1094	IMM	_	_	_	_	_	_	
+20-4	1094-1095	.	_	_	_	_	_	_	
+
+#Text=Jag tror att män och kvinnor fungerar helt olika men kompletterar varann.
+21-1	1097-1100	Jag	_	_	_	_	_	_	
+21-2	1101-1105	tror	_	_	_	_	_	_	
+21-3	1106-1109	att	_	_	_	_	_	_	
+21-4	1110-1113	män	_	_	_	_	_	_	
+21-5	1114-1117	och	_	_	_	_	_	_	
+21-6	1118-1125	kvinnor	_	_	_	_	_	_	
+21-7	1126-1134	fungerar	_	_	_	_	_	_	
+21-8	1135-1139	helt	_	_	_	_	_	_	
+21-9	1140-1145	olika	_	_	_	_	_	_	
+21-10	1146-1149	men	_	_	_	_	_	_	
+21-11	1150-1162	kompletterar	_	_	_	_	_	_	
+21-12	1163-1169	varann	_	_	_	_	_	_	
+21-13	1169-1170	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1172-1173	#	_	_	_	_	_	_	
+22-2	1173-1174	P	_	_	_	_	_	_	
+22-3	1175-1178	IMM	_	_	_	_	_	_	
+22-4	1178-1179	.	_	_	_	_	_	_	
+
+#Text=Antifeminister av idag känns mer som ett steg mot islamism.
+23-1	1181-1195	Antifeminister	*	_	_	_	_	_	
+23-2	1196-1198	av	_	_	_	_	_	_	
+23-3	1199-1203	idag	_	_	_	_	_	_	
+23-4	1204-1209	känns	_	_	_	_	_	_	
+23-5	1210-1213	mer	_	Target[11]	23-1	false[11]	2[11]	_	
+23-6	1214-1217	som	_	Target[11]	23-1	false[11]	2[11]	_	
+23-7	1218-1221	ett	_	Target[11]	23-1	false[11]	2[11]	_	
+23-8	1222-1226	steg	_	Target[11]	23-1	false[11]	2[11]	_	
+23-9	1227-1230	mot	_	Target[11]	23-1	false[11]	2[11]	_	
+23-10	1231-1239	islamism	_	Target[11]	23-1	false[11]	2[11]	_	
+23-11	1239-1240	.	_	_	_	_	_	_	
+
+#Text=Jag tror faktiskt ni begränsar kvinnors frihet genom att ni mobbar dem.
+24-1	1241-1244	Jag	_	_	_	_	_	_	
+24-2	1245-1249	tror	_	_[12]	_	false[12]	2[12]	_	
+24-3	1250-1258	faktiskt	_	_[12]	_	false[12]	2[12]	_	
+24-4	1259-1261	ni	*	_	_	_	_	_	
+24-5	1262-1271	begränsar	_	Target	24-4	false	2	24-2[12_0]	
+24-6	1272-1280	kvinnors	_	_	_	_	_	_	
+24-7	1281-1287	frihet	_	_	_	_	_	_	
+24-8	1288-1293	genom	_	_	_	_	_	_	
+24-9	1294-1297	att	_	_	_	_	_	_	
+24-10	1298-1300	ni	*	_	_	_	_	_	
+24-11	1301-1307	mobbar	_	Target	24-10	false	2	_	
+24-12	1308-1311	dem	_	_	_	_	_	_	
+24-13	1311-1312	.	_	_	_	_	_	_	
+
+#Text=Jag gillar inte när kvinnor inte känner sig fria att säga vad de vill.
+25-1	1313-1316	Jag	_	_	_	_	_	_	
+25-2	1317-1323	gillar	_	Target[13]	25-5[22]	false[13]	2[13]	_	
+25-3	1324-1328	inte	_	Target[13]	25-5[22]	false[13]	2[13]	_	
+25-4	1329-1332	när	_	_	_	_	_	_	
+25-5	1333-1340	kvinnor	*[22]	_	_	_	_	_	
+25-6	1341-1345	inte	*[22]	_	_	_	_	_	
+25-7	1346-1352	känner	*[22]	_	_	_	_	_	
+25-8	1353-1356	sig	*[22]	_	_	_	_	_	
+25-9	1357-1361	fria	*[22]	_	_	_	_	_	
+25-10	1362-1365	att	*[22]	_	_	_	_	_	
+25-11	1366-1370	säga	*[22]	_	_	_	_	_	
+25-12	1371-1374	vad	*[22]	_	_	_	_	_	
+25-13	1375-1377	de	*[22]	_	_	_	_	_	
+25-14	1378-1382	vill	*[22]	_	_	_	_	_	
+25-15	1382-1383	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1385-1386	#	_	_	_	_	_	_	
+26-2	1386-1387	P	_	_	_	_	_	_	
+26-3	1388-1391	IMM	_	_	_	_	_	_	
+26-4	1391-1392	.	_	_	_	_	_	_	
+
+#Text=Visst, kvinnlig frihet kan också gå för långt men det är vi långt ifrån idag.
+27-1	1394-1399	Visst	_	_	_	_	_	_	
+27-2	1399-1400	,	_	_	_	_	_	_	
+27-3	1401-1409	kvinnlig	*[23]	_	_	_	_	_	
+27-4	1410-1416	frihet	*[23]	_	_	_	_	_	
+27-5	1417-1420	kan	_	Target[14]	27-3[23]	false[14]	2[14]	_	
+27-6	1421-1426	också	_	Target[14]	27-3[23]	false[14]	2[14]	_	
+27-7	1427-1429	gå	_	Target[14]	27-3[23]	false[14]	2[14]	_	
+27-8	1430-1433	för	_	Target[14]	27-3[23]	false[14]	2[14]	_	
+27-9	1434-1439	långt	_	Target[14]	27-3[23]	false[14]	2[14]	_	
+27-10	1440-1443	men	_	_	_	_	_	_	
+27-11	1444-1447	det	_	_	_	_	_	_	
+27-12	1448-1450	är	_	_	_	_	_	_	
+27-13	1451-1453	vi	_	_	_	_	_	_	
+27-14	1454-1459	långt	_	_	_	_	_	_	
+27-15	1460-1465	ifrån	_	_	_	_	_	_	
+27-16	1466-1470	idag	_	_	_	_	_	_	
+27-17	1470-1471	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	1473-1474	#	_	_	_	_	_	_	
+28-2	1474-1475	P	_	_	_	_	_	_	
+28-3	1476-1479	IMM	_	_	_	_	_	_	
+28-4	1479-1480	.	_	_	_	_	_	_	
+
+#Text=Vad är mest manligt, att låta kvinnan blomma och vara den hon vill vara eller att tracka henne för att hon inte är man?
+29-1	1482-1485	Vad	_	_	_	_	_	_	
+29-2	1486-1488	är	_	_	_	_	_	_	
+29-3	1489-1493	mest	*[24]	_	_	_	_	_	
+29-4	1494-1501	manligt	*[24]	_	_	_	_	_	
+29-5	1501-1502	,	_	_	_	_	_	_	
+29-6	1503-1506	att	_	_	_	_	_	_	
+29-7	1507-1511	låta	_	Target[15]	29-3[24]	false[15]	4[15]	_	
+29-8	1512-1519	kvinnan	_	Target[15]	29-3[24]	false[15]	4[15]	_	
+29-9	1520-1526	blomma	_	Target[15]	29-3[24]	false[15]	4[15]	_	
+29-10	1527-1530	och	_	_	_	_	_	_	
+29-11	1531-1535	vara	_	_	_	_	_	_	
+29-12	1536-1539	den	_	_	_	_	_	_	
+29-13	1540-1543	hon	_	_	_	_	_	_	
+29-14	1544-1548	vill	_	_	_	_	_	_	
+29-15	1549-1553	vara	_	_	_	_	_	_	
+29-16	1554-1559	eller	_	_	_	_	_	_	
+29-17	1560-1563	att	_	_	_	_	_	_	
+29-18	1564-1570	tracka	_	Source;Target	29-26;29-19	false	2	_	
+29-19	1571-1576	henne	*	_	_	_	_	_	
+29-20	1577-1580	för	_	_	_	_	_	_	
+29-21	1581-1584	att	_	_	_	_	_	_	
+29-22	1585-1588	hon	_	_	_	_	_	_	
+29-23	1589-1593	inte	_	_	_	_	_	_	
+29-24	1594-1596	är	_	_	_	_	_	_	
+29-25	1597-1600	man	_	_	_	_	_	_	
+29-26	1600-1601	?	*	_	_	_	_	_	
+
+#Text=Kvinnobashing är omanligt.
+30-1	1602-1615	Kvinnobashing	*	_	_	_	_	_	
+30-2	1616-1618	är	_	Target[16]	30-1	false[16]	2[16]	_	
+30-3	1619-1627	omanligt	_	Target[16]	30-1	false[16]	2[16]	_	
+30-4	1627-1628	.	_	_	_	_	_	_	

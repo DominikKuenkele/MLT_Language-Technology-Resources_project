@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	1	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Invandringens orättvisor.
+3-1	18-31	Invandringens	*	_	_	_	_	_	_	
+3-2	32-42	orättvisor	_	Target	3-1	false	2	_	_	
+3-3	42-43	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	45-46	#	_	_	_	_	_	_	_	
+4-2	46-47	P	_	_	_	_	_	_	_	
+4-3	48-51	IMM	_	_	_	_	_	_	_	
+4-4	51-52	.	_	_	_	_	_	_	_	
+
+#Text=Min humanitet har miljön runt omkring mig och samhället i stort skalat av mig så länge.
+5-1	54-57	Min	_	_	_	_	_	_	_	
+5-2	58-67	humanitet	*	Target	5-2	false	4	_	_	
+5-3	68-71	har	_	_	_	_	_	_	_	
+5-4	72-78	miljön	_	_	_	_	_	_	_	
+5-5	79-83	runt	_	_	_	_	_	_	_	
+5-6	84-91	omkring	_	_	_	_	_	_	_	
+5-7	92-95	mig	_	_	_	_	_	_	_	
+5-8	96-99	och	_	_	_	_	_	_	_	
+5-9	100-109	samhället	_	_	_	_	_	_	_	
+5-10	110-111	i	_	_	_	_	_	_	_	
+5-11	112-117	stort	_	_	_	_	_	_	_	
+5-12	118-124	skalat	_	_	_	_	_	_	_	
+5-13	125-127	av	_	_	_	_	_	_	_	
+5-14	128-131	mig	_	_	_	_	_	_	_	
+5-15	132-134	så	_	_	_	_	_	_	_	
+5-16	135-140	länge	_	_	_	_	_	_	_	
+5-17	140-141	.	_	_	_	_	_	_	_	
+
+#Text=Jag känner ingen kärlek för någon människa längre förutom dom som ger mig någonting.
+6-1	142-145	Jag	*	_	_	_	_	_	_	
+6-2	146-152	känner	_	Source;Target[1]	6-1;6-6[14]	false[1]	1[1]	_	_	
+6-3	153-158	ingen	_	Source;Target[1]	6-1;6-6[14]	false[1]	1[1]	_	_	
+6-4	159-165	kärlek	_	Source;Target[1]	6-1;6-6[14]	false[1]	1[1]	_	_	
+6-5	166-169	för	_	Source;Target[1]	6-1;6-6[14]	false[1]	1[1]	_	_	
+6-6	170-175	någon	*[14]	_	_	_	_	_	_	
+6-7	176-184	människa	*[14]	_	_	_	_	_	_	
+6-8	185-191	längre	_	_	_	_	_	_	_	
+6-9	192-199	förutom	_	_	_	_	_	_	_	
+6-10	200-203	dom	_	_	_	_	_	_	_	
+6-11	204-207	som	_	_	_	_	_	_	_	
+6-12	208-211	ger	_	_	_	_	_	_	_	
+6-13	212-215	mig	_	_	_	_	_	_	_	
+6-14	216-225	någonting	_	_	_	_	_	_	_	
+6-15	225-226	.	_	_	_	_	_	_	_	
+
+#Text=Samhället talar om för mig att det är jag som är felet.
+7-1	227-236	Samhället	*	_	_	_	_	_	_	
+7-2	237-242	talar	_	_	_	_	_	_	_	
+7-3	243-245	om	_	_	_	_	_	_	_	
+7-4	246-249	för	_	_	_	_	_	_	_	
+7-5	250-253	mig	_	_	_	_	_	_	_	
+7-6	254-257	att	_	_	_	_	_	_	_	
+7-7	258-261	det	_	_[2]	_	false[2]	1[2]	_	_	
+7-8	262-264	är	_	_[2]	_	false[2]	1[2]	_	_	
+7-9	265-268	jag	*	_	_	_	_	_	_	
+7-10	269-272	som	_	Target;Source[3]	7-9;7-1	false[3]	1[3]	7-7[2_3]	_	
+7-11	273-275	är	_	Target;Source[3]	7-9;7-1	false[3]	1[3]	_	_	
+7-12	276-281	felet	_	Target;Source[3]	7-9;7-1	false[3]	1[3]	_	_	
+7-13	281-282	.	_	_	_	_	_	_	_	
+
+#Text=En vit priviligerad hetrosexuell medelålders man.
+8-1	283-285	En	_	_	_	_	_	_	_	
+8-2	286-289	vit	_	_	_	_	_	_	_	
+8-3	290-302	priviligerad	_	_	_	_	_	_	_	
+8-4	303-315	hetrosexuell	_	_	_	_	_	_	_	
+8-5	316-327	medelålders	_	_	_	_	_	_	_	
+8-6	328-331	man	_	_	_	_	_	_	_	
+8-7	331-332	.	_	_	_	_	_	_	_	
+
+#Text=Medans jag ska betala skatt för att folk jag hatar från andra sidan jorden ska leva av min betvingade godhet.
+9-1	333-339	Medans	_	_	_	_	_	_	_	
+9-2	340-343	jag	_	_	_	_	_	_	_	
+9-3	344-347	ska	_	_	_	_	_	_	_	
+9-4	348-354	betala	_	_	_	_	_	_	_	
+9-5	355-360	skatt	_	_	_	_	_	_	_	
+9-6	361-364	för	_	_	_	_	_	_	_	
+9-7	365-368	att	_	_	_	_	_	_	_	
+9-8	369-373	folk	*	_	_	_	_	_	9-11[15_0]	
+9-9	374-377	jag	*	_	_	_	_	_	_	
+9-10	378-383	hatar	_	Source;Target	9-9;9-8	false	1	_	_	
+9-11	384-388	från	*[15]	_	_	_	_	_	_	
+9-12	389-394	andra	*[15]	_	_	_	_	_	_	
+9-13	395-400	sidan	*[15]	_	_	_	_	_	_	
+9-14	401-407	jorden	*[15]	_	_	_	_	_	_	
+9-15	408-411	ska	_	_	_	_	_	_	_	
+9-16	412-416	leva	_	_	_	_	_	_	_	
+9-17	417-419	av	_	_	_	_	_	_	_	
+9-18	420-423	min	_	_	_	_	_	_	_	
+9-19	424-434	betvingade	*[16]	Target[4]	9-19[16]	false[4]	1[4]	_	_	
+9-20	435-441	godhet	*[16]	Target[4]	9-19[16]	false[4]	1[4]	_	_	
+9-21	441-442	.	_	_	_	_	_	_	_	
+
+#Text=Jag blir alltså tvingad att försörja dom jag hatar samtidigt som jag blir bespottad av mitt eget folk.
+10-1	443-446	Jag	_	_	_	_	_	_	_	
+10-2	447-451	blir	_	_	_	_	_	_	_	
+10-3	452-458	alltså	_	_	_	_	_	_	_	
+10-4	459-466	tvingad	_	_	_	_	_	_	_	
+10-5	467-470	att	_	_	_	_	_	_	_	
+10-6	471-479	försörja	_	_	_	_	_	_	_	
+10-7	480-483	dom	*	_	_	_	_	_	_	
+10-8	484-487	jag	*	_	_	_	_	_	_	
+10-9	488-493	hatar	_	Source;Target	10-8;10-7	false	1	_	_	
+10-10	494-503	samtidigt	_	_	_	_	_	_	_	
+10-11	504-507	som	_	_	_	_	_	_	_	
+10-12	508-511	jag	*	_	_	_	_	_	_	
+10-13	512-516	blir	_	Source;Target[5]	10-16[17];10-12	false[5]	1[5]	_	_	
+10-14	517-526	bespottad	_	Source;Target[5]	10-16[17];10-12	false[5]	1[5]	_	_	
+10-15	527-529	av	_	Source;Target[5]	10-16[17];10-12	false[5]	1[5]	_	_	
+10-16	530-534	mitt	*[17]	_	_	_	_	_	_	
+10-17	535-539	eget	*[17]	_	_	_	_	_	_	
+10-18	540-544	folk	*[17]	_	_	_	_	_	_	
+10-19	544-545	.	_	_	_	_	_	_	_	
+
+#Text=Till råga på det utsätter dom jag tvingas hjälpa mig för oprovocerat våld.
+11-1	546-550	Till	*[18]	Target[6]	11-1[18]	false[6]	1[6]	_	_	
+11-2	551-555	råga	*[18]	Target[6]	11-1[18]	false[6]	1[6]	_	_	
+11-3	556-558	på	*[18]	Target[6]	11-1[18]	false[6]	1[6]	_	_	
+11-4	559-562	det	*[18]	Target[6]	11-1[18]	false[6]	1[6]	_	_	
+11-5	563-571	utsätter	_	Target;Source	11-10;11-6[19]	false	1	_	_	
+11-6	572-575	dom	*[19]	_	_	_	_	_	_	
+11-7	576-579	jag	*[19]	_	_	_	_	_	_	
+11-8	580-587	tvingas	*[19]	_	_	_	_	_	_	
+11-9	588-594	hjälpa	*[19]	_	_	_	_	_	_	
+11-10	595-598	mig	*	_	_	_	_	_	_	
+11-11	599-602	för	_	_[7]	_	false[7]	1[7]	11-5[0_7]	_	
+11-12	603-614	oprovocerat	_	_[7]	_	false[7]	1[7]	_	_	
+11-13	615-619	våld	_	_[7]	_	false[7]	1[7]	_	_	
+11-14	619-620	.	_	_	_	_	_	_	_	
+
+#Text=Kaxighet, som ständigt talar om för mig att jag är ett svennesvin som har räddat dom undan bomberna och svält.
+12-1	621-629	Kaxighet	*	Target	12-1	false	2	_	_	
+12-2	629-630	,	_	_	_	_	_	_	_	
+12-3	631-634	som	_	_	_	_	_	_	_	
+12-4	635-643	ständigt	_	_	_	_	_	_	_	
+12-5	644-649	talar	_	_	_	_	_	_	_	
+12-6	650-652	om	_	_	_	_	_	_	_	
+12-7	653-656	för	_	_	_	_	_	_	_	
+12-8	657-660	mig	_	_	_	_	_	_	_	
+12-9	661-664	att	_	_	_	_	_	_	_	
+12-10	665-668	jag	*	_	_	_	_	_	_	
+12-11	669-671	är	_	_	_	_	_	_	_	
+12-12	672-675	ett	_	Source;Target[8]	12-22;12-10	false[8]	1[8]	_	_	
+12-13	676-686	svennesvin	_	Source;Target[8]	12-22;12-10	false[8]	1[8]	_	_	
+12-14	687-690	som	_	_	_	_	_	_	_	
+12-15	691-694	har	_	_	_	_	_	_	_	
+12-16	695-701	räddat	_	Source;Target	12-10;12-17	false	5	_	_	
+12-17	702-705	dom	*	_	_	_	_	_	_	
+12-18	706-711	undan	_	_[9]	_	false[9]	5[9]	12-16[0_9]	_	
+12-19	712-720	bomberna	_	_[9]	_	false[9]	5[9]	_	_	
+12-20	721-724	och	_	_[9]	_	false[9]	5[9]	_	_	
+12-21	725-730	svält	_	_[9]	_	false[9]	5[9]	_	_	
+12-22	730-731	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	733-734	#	_	_	_	_	_	_	_	
+13-2	734-735	P	_	_	_	_	_	_	_	
+13-3	736-739	IMM	_	_	_	false	1	_	_	
+13-4	739-740	.	_	_	_	_	_	_	_	
+
+#Text=Förenklat: Jag ska skatta, betala pengar, mata och ge till folk jag hatar för att dom ska ha det bra, när man tvingas skatta för att inte gå under själv får man (eller samhället i stort) en spark i ansiktet av dom man hjälper undan bomber och svält och en spark i ansiktet av sitt eget psyksjuka och dumnaiva folk som vit heterosexuell medelålders man.
+14-1	742-751	Förenklat	_	_	_	_	_	_	_	
+14-2	751-752	:	_	_	_	_	_	_	_	
+14-3	753-756	Jag	_	_	_	_	_	_	_	
+14-4	757-760	ska	_	_	_	_	_	_	_	
+14-5	761-767	skatta	_	_	_	_	_	_	_	
+14-6	767-768	,	_	_	_	_	_	_	_	
+14-7	769-775	betala	_	_	_	_	_	_	_	
+14-8	776-782	pengar	_	_	_	_	_	_	_	
+14-9	782-783	,	_	_	_	_	_	_	_	
+14-10	784-788	mata	_	_	_	_	_	_	_	
+14-11	789-792	och	_	_	_	_	_	_	_	
+14-12	793-795	ge	_	_	_	_	_	_	_	
+14-13	796-800	till	_	_	_	_	_	_	_	
+14-14	801-805	folk	*	_	_	_	_	_	_	
+14-15	806-809	jag	*	_	_	_	_	_	_	
+14-16	810-815	hatar	_	Source;Target	14-15;14-14	false	1	_	_	
+14-17	816-819	för	_	_	_	_	_	_	_	
+14-18	820-823	att	_	_	_	_	_	_	_	
+14-19	824-827	dom	_	_	_	_	_	_	_	
+14-20	828-831	ska	_	_	_	_	_	_	_	
+14-21	832-834	ha	*[20]	Target[10]	14-21[20]	false[10]	4[10]	_	_	
+14-22	835-838	det	*[20]	Target[10]	14-21[20]	false[10]	4[10]	_	_	
+14-23	839-842	bra	*[20]	Target[10]	14-21[20]	false[10]	4[10]	_	_	
+14-24	842-843	,	_	_	_	_	_	_	_	
+14-25	844-847	när	_	_	_	_	_	_	_	
+14-26	848-851	man	_	_	_	_	_	_	_	
+14-27	852-859	tvingas	_	_	_	_	_	_	_	
+14-28	860-866	skatta	_	_	_	_	_	_	_	
+14-29	867-870	för	_	_	_	_	_	_	_	
+14-30	871-874	att	_	_	_	_	_	_	_	
+14-31	875-879	inte	_	_	_	_	_	_	_	
+14-32	880-882	gå	_	_	_	_	_	_	_	
+14-33	883-888	under	_	_	_	_	_	_	_	
+14-34	889-894	själv	_	_	_	_	_	_	_	
+14-35	895-898	får	_	_	_	_	_	_	_	
+14-36	899-902	man	_	_	_	_	_	_	_	
+14-37	903-904	(	_	_	_	_	_	_	_	
+14-38	904-909	eller	_	_	_	_	_	_	_	
+14-39	910-919	samhället	_	_	_	_	_	_	_	
+14-40	920-921	i	_	_	_	_	_	_	_	
+14-41	922-927	stort	_	_	_	_	_	_	_	
+14-42	927-928	)	_	_	_	_	_	_	_	
+14-43	929-931	en	_	_	_	_	_	_	_	
+14-44	932-937	spark	_	_	_	_	_	_	_	
+14-45	938-939	i	_	_	_	_	_	_	_	
+14-46	940-948	ansiktet	_	_	_	_	_	_	_	
+14-47	949-951	av	_	_	_	_	_	_	_	
+14-48	952-955	dom	*	_	_	_	_	_	_	
+14-49	956-959	man	*	_	_	_	_	_	_	
+14-50	960-967	hjälper	_	Source;Target[11]	14-49;14-48	false[11]	4[11]	_	_	
+14-51	968-973	undan	_	Source;Target[11]	14-49;14-48	false[11]	4[11]	_	_	
+14-52	974-980	bomber	_	Source;Target[11]	14-49;14-48	false[11]	4[11]	_	_	
+14-53	981-984	och	_	Source;Target[11]	14-49;14-48	false[11]	4[11]	_	_	
+14-54	985-990	svält	_	Source;Target[11]	14-49;14-48	false[11]	4[11]	_	_	
+14-55	991-994	och	_	_	_	_	_	_	_	
+14-56	995-997	en	_	_	_	_	_	_	_	
+14-57	998-1003	spark	_	_	_	_	_	_	_	
+14-58	1004-1005	i	_	_	_	_	_	_	_	
+14-59	1006-1014	ansiktet	_	_	_	_	_	_	_	
+14-60	1015-1017	av	_	_	_	_	_	_	_	
+14-61	1018-1022	sitt	*[21]	_	_	_	_	_	14-66[0_21]	
+14-62	1023-1027	eget	*[21]	_	_	_	_	_	_	
+14-63	1028-1037	psyksjuka	_	Target[12]	14-66	false[12]	1[12]	_	_	
+14-64	1038-1041	och	_	Target[12]	14-66	false[12]	1[12]	_	_	
+14-65	1042-1050	dumnaiva	_	Target[12]	14-66	false[12]	1[12]	_	_	
+14-66	1051-1055	folk	*	_	_	_	_	_	_	
+14-67	1056-1059	som	_	_	_	_	_	_	_	
+14-68	1060-1063	vit	_	_	_	_	_	_	_	
+14-69	1064-1077	heterosexuell	_	_	_	_	_	_	_	
+14-70	1078-1089	medelålders	_	_	_	_	_	_	_	
+14-71	1090-1093	man	_	_	_	_	_	_	_	
+14-72	1093-1094	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1096-1097	#	_	_	_	_	_	_	_	
+15-2	1097-1098	P	_	_	_	_	_	_	_	
+15-3	1099-1102	IMM	_	_	_	false	1	_	_	
+15-4	1102-1103	.	_	_	_	_	_	_	_	
+
+#Text=Upplever ni också dom här orättvisorna?.
+16-1	1105-1113	Upplever	_	_	_	_	_	_	_	
+16-2	1114-1116	ni	_	_	_	_	_	_	_	
+16-3	1117-1122	också	_	_	_	_	_	_	_	
+16-4	1123-1126	dom	_	_	_	_	_	_	_	
+16-5	1127-1130	här	_	_	_	_	_	_	_	
+16-6	1131-1143	orättvisorna	_	_	_	_	_	_	_	
+16-7	1143-1144	?	_	_	_	_	_	_	_	
+16-8	1144-1145	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1147-1148	#	_	_	_	_	_	_	_	
+17-2	1148-1149	P	_	_	_	_	_	_	_	
+17-3	1150-1153	IMM	_	_	_	false	1	_	_	
+17-4	1153-1154	.	_	_	_	_	_	_	_	
+
+#Text=Kan ni komma på mer orättvisor med invandringen som jag missat som du upplever?.
+18-1	1156-1159	Kan	_	_	_	_	_	_	_	
+18-2	1160-1162	ni	_	_	_	_	_	_	_	
+18-3	1163-1168	komma	_	_	_	_	_	_	_	
+18-4	1169-1171	på	_	_	_	_	_	_	_	
+18-5	1172-1175	mer	_	_	_	_	_	_	_	
+18-6	1176-1186	orättvisor	_	Target[13]	18-8	false[13]	1[13]	_	_	
+18-7	1187-1190	med	_	Target[13]	18-8	false[13]	1[13]	_	_	
+18-8	1191-1203	invandringen	*	_	_	_	_	_	_	
+18-9	1204-1207	som	_	_	_	_	_	_	_	
+18-10	1208-1211	jag	_	_	_	_	_	_	_	
+18-11	1212-1218	missat	_	_	_	_	_	_	_	
+18-12	1219-1222	som	_	_	_	_	_	_	_	
+18-13	1223-1225	du	_	_	_	_	_	_	_	
+18-14	1226-1234	upplever	_	_	_	_	_	_	_	
+18-15	1234-1235	?	_	_	_	_	_	_	_	
+18-16	1235-1236	.	_	_	_	_	_	_	_	

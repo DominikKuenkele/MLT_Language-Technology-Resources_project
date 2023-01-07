@@ -1,0 +1,678 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Debattörerna: Politiker, dags att öppna plånboken för ridsporten.
+3-1	18-30	Debattörerna	_	_	_	_	_	_	_	
+3-2	30-31	:	_	_	_	_	_	_	_	
+3-3	32-41	Politiker	_	_	_	_	_	_	_	
+3-4	41-42	,	_	_	_	_	_	_	_	
+3-5	43-47	dags	_	Target	3-6[25]	false	4	_	_	
+3-6	48-51	att	*[25]	_	_	_	_	_	_	
+3-7	52-57	öppna	*[25]	_	_	_	_	_	_	
+3-8	58-67	plånboken	*[25]	_	_	_	_	_	_	
+3-9	68-71	för	*[25]	_	_	_	_	_	_	
+3-10	72-82	ridsporten	*[25]	_	_	_	_	_	_	
+3-11	82-83	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	85-86	#	_	_	_	_	_	_	_	
+4-2	86-87	P	_	_	_	_	_	_	_	
+4-3	88-91	IMM	_	_	_	_	_	_	_	
+4-4	91-92	.	_	_	_	_	_	_	_	
+
+#Text=Ända in på 1960-talet betraktade många svenskar ridning som en exklusiv sport.
+5-1	94-98	Ända	_	_	_	_	_	_	_	
+5-2	99-101	in	_	_	_	_	_	_	_	
+5-3	102-104	på	_	_	_	_	_	_	_	
+5-4	105-109	1960	_	_	_	_	_	_	_	
+5-5	109-110	-	_	_	_	_	_	_	_	
+5-6	110-115	talet	_	_	_	_	_	_	_	
+5-7	116-126	betraktade	_	_	_	_	_	_	_	
+5-8	127-132	många	*[26]	_	_	_	_	_	_	
+5-9	133-141	svenskar	*[26]	_	_	_	_	_	_	
+5-10	142-149	ridning	*	_	_	_	_	_	_	
+5-11	150-153	som	_	_	_	_	_	_	_	
+5-12	154-156	en	_	_	_	_	_	_	_	
+5-13	157-165	exklusiv	_	Target;Source[1]|Target[2]	5-10;5-8[26]|5-14	false[1]|false[2]	4[1]|4[2]	_	_	
+5-14	166-171	sport	*	Target;Source[1]	5-10;5-8[26]	false[1]	4[1]	_	_	
+5-15	171-172	.	_	_	_	_	_	_	_	
+
+#Text=Sedan dess har utvecklingen varit närmast explosiv.
+6-1	173-178	Sedan	_	_	_	_	_	_	_	
+6-2	179-183	dess	_	_	_	_	_	_	_	
+6-3	184-187	har	_	_	_	_	_	_	_	
+6-4	188-200	utvecklingen	*	_	_	_	_	_	_	
+6-5	201-206	varit	_	Target[3]	6-4	false[3]	5[3]	_	_	
+6-6	207-214	närmast	_	Target[3]	6-4	false[3]	5[3]	_	_	
+6-7	215-223	explosiv	_	Target[3]	6-4	false[3]	5[3]	_	_	
+6-8	223-224	.	_	_	_	_	_	_	_	
+
+#Text=Idag finns det cirka en halv miljon aktiva ryttare i vårt land.
+7-1	225-229	Idag	_	_	_	_	_	_	_	
+7-2	230-235	finns	_	_	_	_	_	_	_	
+7-3	236-239	det	_	_	_	_	_	_	_	
+7-4	240-245	cirka	_	_	_	_	_	_	_	
+7-5	246-248	en	_	_	_	_	_	_	_	
+7-6	249-253	halv	_	_	_	_	_	_	_	
+7-7	254-260	miljon	_	_	_	_	_	_	_	
+7-8	261-267	aktiva	_	_	_	_	_	_	_	
+7-9	268-275	ryttare	_	_	_	_	_	_	_	
+7-10	276-277	i	_	_	_	_	_	_	_	
+7-11	278-282	vårt	_	_	_	_	_	_	_	
+7-12	283-287	land	_	_	_	_	_	_	_	
+7-13	287-288	.	_	_	_	_	_	_	_	
+
+#Text=Den siffran kan faktiskt bara fotbollen matcha på ungdomsområdet.
+8-1	289-292	Den	_	_	_	_	_	_	_	
+8-2	293-300	siffran	_	_	_	_	_	_	_	
+8-3	301-304	kan	_	_	_	_	_	_	_	
+8-4	305-313	faktiskt	_	_	_	_	_	_	_	
+8-5	314-318	bara	_	_	_	_	_	_	_	
+8-6	319-328	fotbollen	_	_	_	_	_	_	_	
+8-7	329-335	matcha	_	_	_	_	_	_	_	
+8-8	336-338	på	_	_	_	_	_	_	_	
+8-9	339-353	ungdomsområdet	_	_	_	_	_	_	_	
+8-10	353-354	.	_	_	_	false	5	_	_	
+
+#Text=#P IMM.
+9-1	356-357	#	_	_	_	_	_	_	_	
+9-2	357-358	P	_	_	_	_	_	_	_	
+9-3	359-362	IMM	_	_	_	_	_	_	_	
+9-4	362-363	.	_	_	_	_	_	_	_	
+
+#Text=Ridsporten har utvecklats till en genuin folkrörelse, och landets cirka 500 ridskolor är något av dess rotsystem.
+10-1	365-375	Ridsporten	*	_	_	_	_	_	_	
+10-2	376-379	har	_	_	_	_	_	_	_	
+10-3	380-390	utvecklats	_	Target[4]	10-1	false[4]	4[4]	_	_	
+10-4	391-395	till	_	Target[4]	10-1	false[4]	4[4]	_	_	
+10-5	396-398	en	_	Target[4]	10-1	false[4]	4[4]	_	_	
+10-6	399-405	genuin	_	Target[4]|Target[5]	10-1|10-7	false[4]|false[5]	4[4]|4[5]	_	_	
+10-7	406-417	folkrörelse	*	Target[4]	10-1	false[4]	4[4]	_	_	
+10-8	417-418	,	_	_	_	_	_	_	_	
+10-9	419-422	och	_	_	_	_	_	_	_	
+10-10	423-430	landets	_	_	_	_	_	_	_	
+10-11	431-436	cirka	_	_	_	_	_	_	_	
+10-12	437-440	500	_	_	_	_	_	_	_	
+10-13	441-450	ridskolor	_	_	_	_	_	_	_	
+10-14	451-453	är	_	_	_	_	_	_	_	
+10-15	454-459	något	_	_	_	_	_	_	_	
+10-16	460-462	av	_	_	_	_	_	_	_	
+10-17	463-467	dess	_	_	_	_	_	_	_	
+10-18	468-477	rotsystem	_	_	_	_	_	_	_	
+10-19	477-478	.	_	_	_	_	_	_	_	
+
+#Text=Därför är det allvarligt, att många av dem inte klarar av de investeringar som är nödvändiga för att de skall kunna fortsätta att fylla sin viktiga funktion i samhället.
+11-1	479-485	Därför	_	_	_	_	_	_	_	
+11-2	486-488	är	_	_	_	false	2	_	_	
+11-3	489-492	det	_	_	_	_	_	_	_	
+11-4	493-503	allvarligt	_	Target	11-6[27]	false	2	11-2	_	
+11-5	503-504	,	_	_	_	_	_	_	_	
+11-6	505-508	att	*[27]	_	_	_	_	_	_	
+11-7	509-514	många	*[27]	_	_	_	_	_	_	
+11-8	515-517	av	*[27]	_	_	_	_	_	_	
+11-9	518-521	dem	*[27]	_	_	_	_	_	_	
+11-10	522-526	inte	*[27]	_	_	_	_	_	_	
+11-11	527-533	klarar	*[27]	_	_	_	_	_	_	
+11-12	534-536	av	*[27]	_	_	_	_	_	_	
+11-13	537-539	de	*[27]	_	_	_	_	_	_	
+11-14	540-553	investeringar	*[27]	_	_	_	_	_	_	
+11-15	554-557	som	*[27]	_	_	_	_	_	_	
+11-16	558-560	är	*[27]	_	_	_	_	_	_	
+11-17	561-571	nödvändiga	*[27]	_	_	_	_	_	_	
+11-18	572-575	för	*[27]	_	_	_	_	_	_	
+11-19	576-579	att	*[27]	_	_	_	_	_	_	
+11-20	580-582	de	*[27]	_	_	_	_	_	_	
+11-21	583-588	skall	*[27]	_	_	_	_	_	_	
+11-22	589-594	kunna	*[27]	_	_	_	_	_	_	
+11-23	595-604	fortsätta	*[27]	_	_	_	_	_	_	
+11-24	605-608	att	*[27]	_	_	_	_	_	_	
+11-25	609-614	fylla	*[27]	_	_	_	_	_	_	
+11-26	615-618	sin	*[27]	_	_	_	_	_	_	
+11-27	619-626	viktiga	*[27]	Target	11-28[28]	false	4	_	_	
+11-28	627-635	funktion	*[27]|*[28]	_	_	_	_	_	_	
+11-29	636-637	i	*[27]|*[28]	_	_	_	_	_	_	
+11-30	638-647	samhället	*[27]|*[28]	_	_	_	_	_	_	
+11-31	647-648	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	650-651	#	_	_	_	_	_	_	_	
+12-2	651-652	P	_	_	_	_	_	_	_	
+12-3	653-656	IMM	_	_	_	_	_	_	_	
+12-4	656-657	.	_	_	_	_	_	_	_	
+
+#Text=Det kanske låter märkligt, men landets näst största ungdomssport riskerar att snabbt utvecklas till något av en ”krisbransch” om vi inte börjar rusta nu.
+13-1	659-662	Det	_	_	_	_	_	_	_	
+13-2	663-669	kanske	_	Target[6]	13-7[29]	false[6]	2[6]	_	_	
+13-3	670-675	låter	_	Target[6]	13-7[29]	false[6]	2[6]	_	_	
+13-4	676-684	märkligt	_	Target[6]	13-7[29]	false[6]	2[6]	_	_	
+13-5	684-685	,	_	_	_	_	_	_	_	
+13-6	686-689	men	_	_	_	_	_	_	_	
+13-7	690-697	landets	*[29]	Target[7]	13-10[30]	false[7]	4[7]	_	_	
+13-8	698-702	näst	*[29]	Target[7]	13-10[30]	false[7]	4[7]	_	_	
+13-9	703-710	största	*[29]	Target[7]	13-10[30]	false[7]	4[7]	_	_	
+13-10	711-723	ungdomssport	*[29]|*[30]	_	_	_	_	_	_	
+13-11	724-732	riskerar	*[29]	Target	13-12[31]	false	2	_	_	
+13-12	733-736	att	*[29]|*[31]	_	_	_	_	_	_	
+13-13	737-743	snabbt	*[29]|*[31]	_	_	_	_	_	_	
+13-14	744-753	utvecklas	*[29]|*[31]	_	_	_	_	_	_	
+13-15	754-758	till	*[29]|*[31]	_	_	_	_	_	_	
+13-16	759-764	något	*[29]|*[31]	_	_	_	_	_	_	
+13-17	765-767	av	*[29]|*[31]	_	_	_	_	_	_	
+13-18	768-770	en	*[29]|*[31]	_	_	_	_	_	_	
+13-19	771-772	”	*[29]|*[31]|*[32]	Target[8]	13-19[32]	false[8]	2[8]	_	_	
+13-20	772-783	krisbransch	*[29]|*[31]|*[32]	Target[8]	13-19[32]	false[8]	2[8]	_	_	
+13-21	783-784	”	*[29]|*[31]|*[32]	Target[8]	13-19[32]	false[8]	2[8]	_	_	
+13-22	785-787	om	*[29]|*[31]	_	_	_	_	_	_	
+13-23	788-790	vi	*[29]|*[31]	_	_	_	_	_	_	
+13-24	791-795	inte	*[29]|*[31]	_	_	_	_	_	_	
+13-25	796-802	börjar	*[29]|*[31]	_	_	_	_	_	_	
+13-26	803-808	rusta	*[29]|*[31]	_	_	_	_	_	_	
+13-27	809-811	nu	*[29]|*[31]	_	_	_	_	_	_	
+13-28	811-812	.	_	_	_	_	_	_	_	
+
+#Text=Kommunerna har goda skäl att ta ansvar för ridskolornas fortsatta funktion som sociala mötesplatser och friskvårdscentra för alla.
+14-1	813-823	Kommunerna	_	_	_	_	_	_	_	
+14-2	824-827	har	_	Target[9]	14-5[33]	false[9]	4[9]	_	_	
+14-3	828-832	goda	_	Target[9]|Target[10]	14-5[33]|14-4	false[9]|false[10]	4[9]|4[10]	_	_	
+14-4	833-837	skäl	*	Target[9]	14-5[33]	false[9]	4[9]	_	_	
+14-5	838-841	att	*[33]	_	_	_	_	_	_	
+14-6	842-844	ta	*[33]	_	_	_	_	_	_	
+14-7	845-851	ansvar	*[33]	_	_	_	_	_	_	
+14-8	852-855	för	*[33]	_	_	_	_	_	_	
+14-9	856-868	ridskolornas	*[33]|*[34]	_	_	_	_	_	_	
+14-10	869-878	fortsatta	*[33]|*[34]	_	_	_	_	_	_	
+14-11	879-887	funktion	*[33]|*[34]	_	_	_	_	_	_	
+14-12	888-891	som	*[33]	_	_	_	_	_	_	
+14-13	892-899	sociala	*[33]	Target[11]|Target[12]	14-9[34]|14-14[35]	false[11]|false[12]	4[11]|4[12]	_	_	
+14-14	900-912	mötesplatser	*[33]|*[35]	Target[11]	14-9[34]	false[11]	4[11]	_	_	
+14-15	913-916	och	*[33]	Target[11]	14-9[34]	false[11]	4[11]	_	_	
+14-16	917-933	friskvårdscentra	*[33]	Target[11]	14-9[34]	false[11]	4[11]	_	_	
+14-17	934-937	för	*[33]	Target[11]	14-9[34]	false[11]	4[11]	_	_	
+14-18	938-942	alla	*[33]	Target[11]	14-9[34]	false[11]	4[11]	_	_	
+14-19	942-943	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	945-946	#	_	_	_	_	_	_	_	
+15-2	946-947	P	_	_	_	_	_	_	_	
+15-3	948-951	IMM	_	_	_	_	_	_	_	
+15-4	951-952	.	_	_	_	_	_	_	_	
+
+#Text=I dag präglas vårt samhälle av ett antal kraftfulla trender som redan idag påverkar ridskolornas verksamhet – och som inom en nära framtid kommer att ställa dem inför nya, stora utmaningar.
+16-1	954-955	I	_	_	_	_	_	_	_	
+16-2	956-959	dag	_	_	_	_	_	_	_	
+16-3	960-967	präglas	_	_	_	_	_	_	_	
+16-4	968-972	vårt	_	_	_	_	_	_	_	
+16-5	973-981	samhälle	_	_	_	_	_	_	_	
+16-6	982-984	av	_	_	_	_	_	_	_	
+16-7	985-988	ett	_	_	_	_	_	_	_	
+16-8	989-994	antal	_	_	_	_	_	_	_	
+16-9	995-1005	kraftfulla	_	_	_	_	_	_	_	
+16-10	1006-1013	trender	_	_	_	_	_	_	_	
+16-11	1014-1017	som	_	_	_	_	_	_	_	
+16-12	1018-1023	redan	_	_	_	_	_	_	_	
+16-13	1024-1028	idag	_	_	_	_	_	_	_	
+16-14	1029-1037	påverkar	_	_	_	_	_	_	_	
+16-15	1038-1050	ridskolornas	_	_	_	_	_	_	_	
+16-16	1051-1061	verksamhet	_	_	_	_	_	_	_	
+16-17	1062-1063	–	_	_	_	_	_	_	_	
+16-18	1064-1067	och	_	_	_	_	_	_	_	
+16-19	1068-1071	som	_	_	_	_	_	_	_	
+16-20	1072-1076	inom	_	_	_	_	_	_	_	
+16-21	1077-1079	en	_	_	_	_	_	_	_	
+16-22	1080-1084	nära	_	_	_	_	_	_	_	
+16-23	1085-1092	framtid	_	_	_	_	_	_	_	
+16-24	1093-1099	kommer	_	_	_	_	_	_	_	
+16-25	1100-1103	att	_	_	_	_	_	_	_	
+16-26	1104-1110	ställa	_	_	_	_	_	_	_	
+16-27	1111-1114	dem	_	_	_	_	_	_	_	
+16-28	1115-1120	inför	_	_	_	_	_	_	_	
+16-29	1121-1124	nya	_	_	_	_	_	_	_	
+16-30	1124-1125	,	_	_	_	_	_	_	_	
+16-31	1126-1131	stora	_	_	_	_	_	_	_	
+16-32	1132-1142	utmaningar	_	_	_	_	_	_	_	
+16-33	1142-1143	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1145-1146	#	_	_	_	_	_	_	_	
+17-2	1146-1147	P	_	_	_	_	_	_	_	
+17-3	1148-1151	IMM	_	_	_	_	_	_	_	
+17-4	1151-1152	.	_	_	_	_	_	_	_	
+
+#Text=Vi svenskar flyttar till städerna i en takt som aldrig tidigare skådats.
+18-1	1154-1156	Vi	_	_	_	_	_	_	_	
+18-2	1157-1165	svenskar	_	_	_	_	_	_	_	
+18-3	1166-1173	flyttar	_	_	_	_	_	_	_	
+18-4	1174-1178	till	_	_	_	_	_	_	_	
+18-5	1179-1187	städerna	_	_	_	_	_	_	_	
+18-6	1188-1189	i	_	_	_	_	_	_	_	
+18-7	1190-1192	en	_	_	_	_	_	_	_	
+18-8	1193-1197	takt	_	_	_	_	_	_	_	
+18-9	1198-1201	som	_	_	_	_	_	_	_	
+18-10	1202-1208	aldrig	_	_	_	_	_	_	_	
+18-11	1209-1217	tidigare	_	_	_	_	_	_	_	
+18-12	1218-1225	skådats	_	_	_	_	_	_	_	
+18-13	1225-1226	.	_	_	_	_	_	_	_	
+
+#Text=Procentuellt växer våra städer årligen med tre gånger genomsnittet inom EU.
+19-1	1227-1239	Procentuellt	_	_	_	_	_	_	_	
+19-2	1240-1245	växer	_	_	_	_	_	_	_	
+19-3	1246-1250	våra	_	_	_	_	_	_	_	
+19-4	1251-1257	städer	_	_	_	_	_	_	_	
+19-5	1258-1265	årligen	_	_	_	_	_	_	_	
+19-6	1266-1269	med	_	_	_	_	_	_	_	
+19-7	1270-1273	tre	_	_	_	_	_	_	_	
+19-8	1274-1280	gånger	_	_	_	_	_	_	_	
+19-9	1281-1293	genomsnittet	_	_	_	_	_	_	_	
+19-10	1294-1298	inom	_	_	_	_	_	_	_	
+19-11	1299-1301	EU	_	_	_	_	_	_	_	
+19-12	1301-1302	.	_	_	_	_	_	_	_	
+
+#Text=Redan nu behöver många ridskolor i stadsnära lägen bygga ut sina anläggningar och rusta upp dem till den standard som krävs för att attrahera ungdomar.
+20-1	1303-1308	Redan	_	_	_	_	_	_	_	
+20-2	1309-1311	nu	_	_	_	_	_	_	_	
+20-3	1312-1319	behöver	_	_	_	_	_	_	_	
+20-4	1320-1325	många	_	_	_	_	_	_	_	
+20-5	1326-1335	ridskolor	_	_	_	_	_	_	_	
+20-6	1336-1337	i	_	_	_	_	_	_	_	
+20-7	1338-1347	stadsnära	_	_	_	_	_	_	_	
+20-8	1348-1353	lägen	_	_	_	_	_	_	_	
+20-9	1354-1359	bygga	_	_	_	_	_	_	_	
+20-10	1360-1362	ut	_	_	_	_	_	_	_	
+20-11	1363-1367	sina	_	_	_	_	_	_	_	
+20-12	1368-1380	anläggningar	_	_	_	_	_	_	_	
+20-13	1381-1384	och	_	_	_	_	_	_	_	
+20-14	1385-1390	rusta	_	_	_	_	_	_	_	
+20-15	1391-1394	upp	_	_	_	_	_	_	_	
+20-16	1395-1398	dem	_	_	_	_	_	_	_	
+20-17	1399-1403	till	_	_	_	_	_	_	_	
+20-18	1404-1407	den	_	_	_	_	_	_	_	
+20-19	1408-1416	standard	_	_	_	_	_	_	_	
+20-20	1417-1420	som	_	_	_	_	_	_	_	
+20-21	1421-1426	krävs	_	_	_	_	_	_	_	
+20-22	1427-1430	för	_	_	_	_	_	_	_	
+20-23	1431-1434	att	_	_	_	_	_	_	_	
+20-24	1435-1444	attrahera	_	_	_	_	_	_	_	
+20-25	1445-1453	ungdomar	_	_	_	_	_	_	_	
+20-26	1453-1454	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+21-1	1456-1457	#	_	_	_	_	_	_	_	
+21-2	1457-1458	P	_	_	_	_	_	_	_	
+21-3	1459-1462	IMM	_	_	_	_	_	_	_	
+21-4	1462-1463	.	_	_	_	_	_	_	_	
+
+#Text=Utbudet av aktiviteter som konkurrerar om ungdomarnas tid ökar ständigt.
+22-1	1465-1472	Utbudet	_	_	_	_	_	_	_	
+22-2	1473-1475	av	_	_	_	_	_	_	_	
+22-3	1476-1487	aktiviteter	_	_	_	_	_	_	_	
+22-4	1488-1491	som	_	_	_	_	_	_	_	
+22-5	1492-1503	konkurrerar	_	_	_	_	_	_	_	
+22-6	1504-1506	om	_	_	_	_	_	_	_	
+22-7	1507-1518	ungdomarnas	_	_	_	_	_	_	_	
+22-8	1519-1522	tid	_	_	_	_	_	_	_	
+22-9	1523-1527	ökar	_	_	_	_	_	_	_	
+22-10	1528-1536	ständigt	_	_	_	_	_	_	_	
+22-11	1536-1537	.	_	_	_	_	_	_	_	
+
+#Text=Idag är den standard som många ridskolor erbjuder klart undermålig om man jämför med andra anläggningar där ungdomar träffas.
+23-1	1538-1542	Idag	_	_	_	_	_	_	_	
+23-2	1543-1545	är	_	_	_	_	_	_	_	
+23-3	1546-1549	den	*[36]	_	_	_	_	_	_	
+23-4	1550-1558	standard	*[36]	_	_	_	_	_	_	
+23-5	1559-1562	som	*[36]	_	_	_	_	_	_	
+23-6	1563-1568	många	*[36]	_	_	_	_	_	_	
+23-7	1569-1578	ridskolor	*[36]	_	_	_	_	_	_	
+23-8	1579-1587	erbjuder	*[36]	_	_	_	_	_	_	
+23-9	1588-1593	klart	_	Target[13]	23-3[36]	false[13]	2[13]	_	_	
+23-10	1594-1604	undermålig	_	Target[13]	23-3[36]	false[13]	2[13]	_	_	
+23-11	1605-1607	om	_	_	_	_	_	_	_	
+23-12	1608-1611	man	_	_	_	_	_	_	_	
+23-13	1612-1618	jämför	_	_	_	_	_	_	_	
+23-14	1619-1622	med	_	_	_	_	_	_	_	
+23-15	1623-1628	andra	_	_	_	_	_	_	_	
+23-16	1629-1641	anläggningar	_	_	_	_	_	_	_	
+23-17	1642-1645	där	_	_	_	_	_	_	_	
+23-18	1646-1654	ungdomar	_	_	_	_	_	_	_	
+23-19	1655-1662	träffas	_	_	_	_	_	_	_	
+23-20	1662-1663	.	_	_	_	_	_	_	_	
+
+#Text=Mulltoans och de sunkiga duschrummens epok borde tillhöra historien.
+24-1	1664-1673	Mulltoans	*[37]	_	_	_	_	_	_	
+24-2	1674-1677	och	*[37]	_	_	_	_	_	_	
+24-3	1678-1680	de	*[37]	_	_	_	_	_	_	
+24-4	1681-1688	sunkiga	*[37]	Target	24-5[38]	false	2	_	_	
+24-5	1689-1701	duschrummens	*[37]|*[38]	_	_	_	_	_	_	
+24-6	1702-1706	epok	*[37]|*[38]	_	_	_	_	_	_	
+24-7	1707-1712	borde	_	Target[14]	24-1[37]	false[14]	2[14]	_	_	
+24-8	1713-1721	tillhöra	_	Target[14]	24-1[37]	false[14]	2[14]	_	_	
+24-9	1722-1731	historien	_	Target[14]	24-1[37]	false[14]	2[14]	_	_	
+24-10	1731-1732	.	_	_	_	_	_	_	_	
+
+#Text=Många ridskolor är i akut behov av en ”total makeover”.
+25-1	1733-1738	Många	_	_	_	_	_	_	_	
+25-2	1739-1748	ridskolor	_	_	_	_	_	_	_	
+25-3	1749-1751	är	_	_	_	_	_	_	_	
+25-4	1752-1753	i	_	_	_	_	_	_	_	
+25-5	1754-1758	akut	_	Target[15]	25-9[39]	false[15]	4[15]	_	_	
+25-6	1759-1764	behov	_	Target[15]	25-9[39]	false[15]	4[15]	_	_	
+25-7	1765-1767	av	_	_	_	_	_	_	_	
+25-8	1768-1770	en	_	_	_	_	_	_	_	
+25-9	1771-1772	”	*[39]	_	_	_	_	_	_	
+25-10	1772-1777	total	*[39]	_	_	_	_	_	_	
+25-11	1778-1786	makeover	*[39]	_	_	_	_	_	_	
+25-12	1786-1787	”	*[39]	_	_	_	_	_	_	
+25-13	1787-1788	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1790-1791	#	_	_	_	_	_	_	_	
+26-2	1791-1792	P	_	_	_	_	_	_	_	
+26-3	1793-1796	IMM	_	_	_	_	_	_	_	
+26-4	1796-1797	.	_	_	_	_	_	_	_	
+
+#Text=Åtskilliga kommuner visar stor generositet när det gäller stödet till ishockey och fotboll.
+27-1	1799-1809	Åtskilliga	*[40]	_	_	_	_	_	_	
+27-2	1810-1818	kommuner	*[40]	_	_	_	_	_	_	
+27-3	1819-1824	visar	_	Target[16]	27-1[40]	false[16]	4[16]	_	_	
+27-4	1825-1829	stor	_	Target[16]	27-1[40]	false[16]	4[16]	_	_	
+27-5	1830-1841	generositet	_	Target[16]	27-1[40]	false[16]	4[16]	_	_	
+27-6	1842-1845	när	_	_	_	_	_	_	_	
+27-7	1846-1849	det	_	_	_	_	_	_	_	
+27-8	1850-1856	gäller	_	_	_	_	_	_	_	
+27-9	1857-1863	stödet	_	_	_	_	_	_	_	
+27-10	1864-1868	till	_	_	_	_	_	_	_	
+27-11	1869-1877	ishockey	_	_	_	_	_	_	_	
+27-12	1878-1881	och	_	_	_	_	_	_	_	
+27-13	1882-1889	fotboll	_	_	_	_	_	_	_	
+27-14	1889-1890	.	_	_	_	_	_	_	_	
+
+#Text=Lokala klubbar med vacklande ekonomi får miljoner i driftstöd.
+28-1	1891-1897	Lokala	_	_	_	_	_	_	_	
+28-2	1898-1905	klubbar	_	_	_	_	_	_	_	
+28-3	1906-1909	med	_	_	_	_	_	_	_	
+28-4	1910-1919	vacklande	_	Target	28-5	false	2	_	_	
+28-5	1920-1927	ekonomi	*	_	_	_	_	_	_	
+28-6	1928-1931	får	_	_	_	_	_	_	_	
+28-7	1932-1940	miljoner	_	_	_	_	_	_	_	
+28-8	1941-1942	i	_	_	_	_	_	_	_	
+28-9	1943-1952	driftstöd	_	_	_	_	_	_	_	
+28-10	1952-1953	.	_	_	_	_	_	_	_	
+
+#Text=Gigantiska arenaprojekt ges kraftfull finansiell uppbackning.
+29-1	1954-1964	Gigantiska	_	_	_	_	_	_	_	
+29-2	1965-1977	arenaprojekt	_	_	_	_	_	_	_	
+29-3	1978-1981	ges	_	_	_	_	_	_	_	
+29-4	1982-1991	kraftfull	_	_	_	_	_	_	_	
+29-5	1992-2002	finansiell	_	_	_	_	_	_	_	
+29-6	2003-2014	uppbackning	_	_	_	_	_	_	_	
+29-7	2014-2015	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2017-2018	#	_	_	_	_	_	_	_	
+30-2	2018-2019	P	_	_	_	_	_	_	_	
+30-3	2020-2023	IMM	_	_	_	_	_	_	_	
+30-4	2023-2024	.	_	_	_	_	_	_	_	
+
+#Text=Till skillnad från multiarenor och simhallar har ridskolor sällan upphöjts till kommunala profilprojekt.
+31-1	2026-2030	Till	_	_	_	_	_	_	_	
+31-2	2031-2039	skillnad	_	_	_	_	_	_	_	
+31-3	2040-2044	från	_	_	_	_	_	_	_	
+31-4	2045-2056	multiarenor	_	_	_	_	_	_	_	
+31-5	2057-2060	och	_	_	_	_	_	_	_	
+31-6	2061-2070	simhallar	_	_	_	_	_	_	_	
+31-7	2071-2074	har	_	_	_	_	_	_	_	
+31-8	2075-2084	ridskolor	*	_	_	_	_	_	32-4	
+31-9	2085-2091	sällan	_	_	_	_	_	_	_	
+31-10	2092-2100	upphöjts	_	_	_	_	_	_	_	
+31-11	2101-2105	till	_	_	_	_	_	_	_	
+31-12	2106-2115	kommunala	_	_	_	_	_	_	_	
+31-13	2116-2129	profilprojekt	_	_	_	_	_	_	_	
+31-14	2129-2130	.	_	_	_	_	_	_	_	
+
+#Text=Detta trots att de fyller en viktig social funktion för hundratusentals ungdomar i vårt land, trots att ridning är vår näst största ungdomsidrott och trots att ridsporten är unik bland breddsporterna genom sitt stora inslag av kvinnliga utövare.
+32-1	2131-2136	Detta	_	_	_	_	_	_	_	
+32-2	2137-2142	trots	_	_	_	_	_	_	_	
+32-3	2143-2146	att	_	_	_	_	_	_	_	
+32-4	2147-2149	de	*	_	_	_	_	_	_	
+32-5	2150-2156	fyller	_	Target[17]	32-4	false[17]	4[17]	_	_	
+32-6	2157-2159	en	_	Target[17]	32-4	false[17]	4[17]	_	_	
+32-7	2160-2166	viktig	_	Target[17]	32-4	false[17]	4[17]	_	_	
+32-8	2167-2173	social	_	Target[17]	32-4	false[17]	4[17]	_	_	
+32-9	2174-2182	funktion	_	Target[17]	32-4	false[17]	4[17]	_	_	
+32-10	2183-2186	för	_	_	_	_	_	_	_	
+32-11	2187-2202	hundratusentals	_	_	_	_	_	_	_	
+32-12	2203-2211	ungdomar	_	_	_	_	_	_	_	
+32-13	2212-2213	i	_	_	_	_	_	_	_	
+32-14	2214-2218	vårt	_	_	_	_	_	_	_	
+32-15	2219-2223	land	_	_	_	_	_	_	_	
+32-16	2223-2224	,	_	_	_	_	_	_	_	
+32-17	2225-2230	trots	_	_	_	_	_	_	_	
+32-18	2231-2234	att	_	_	_	_	_	_	_	
+32-19	2235-2242	ridning	*	_	_	_	_	_	_	
+32-20	2243-2245	är	_	Target[18]	32-19	false[18]	4[18]	_	_	
+32-21	2246-2249	vår	_	Target[18]	32-19	false[18]	4[18]	_	_	
+32-22	2250-2254	näst	_	Target[18]	32-19	false[18]	4[18]	_	_	
+32-23	2255-2262	största	_	Target[18]	32-19	false[18]	4[18]	_	_	
+32-24	2263-2276	ungdomsidrott	_	Target[18]	32-19	false[18]	4[18]	_	_	
+32-25	2277-2280	och	_	_	_	_	_	_	_	
+32-26	2281-2286	trots	_	_	_	_	_	_	_	
+32-27	2287-2290	att	_	_	_	_	_	_	_	
+32-28	2291-2301	ridsporten	*	_	_	_	_	_	_	
+32-29	2302-2304	är	_	Target[19]	32-28	false[19]	4[19]	_	_	
+32-30	2305-2309	unik	_	Target[19]	32-28	false[19]	4[19]	_	_	
+32-31	2310-2315	bland	_	_	_	_	_	_	_	
+32-32	2316-2330	breddsporterna	_	_	_	_	_	_	_	
+32-33	2331-2336	genom	_	_	_	_	_	_	_	
+32-34	2337-2341	sitt	_	_	_	_	_	_	_	
+32-35	2342-2347	stora	_	_	_	_	_	_	_	
+32-36	2348-2354	inslag	_	_	_	_	_	_	_	
+32-37	2355-2357	av	_	_	_	_	_	_	_	
+32-38	2358-2367	kvinnliga	_	_	_	_	_	_	_	
+32-39	2368-2375	utövare	_	_	_	_	_	_	_	
+32-40	2375-2376	.	_	_	_	_	_	_	_	
+
+#Text=Inom ridsporten tävlar dessutom tjejer och killar mot varandra i alla åldrar!.
+33-1	2377-2381	Inom	_	_	_	_	_	_	_	
+33-2	2382-2392	ridsporten	_	_	_	_	_	_	_	
+33-3	2393-2399	tävlar	_	_	_	_	_	_	_	
+33-4	2400-2408	dessutom	_	_	_	_	_	_	_	
+33-5	2409-2415	tjejer	_	_	_	_	_	_	_	
+33-6	2416-2419	och	_	_	_	_	_	_	_	
+33-7	2420-2426	killar	_	_	_	_	_	_	_	
+33-8	2427-2430	mot	_	_	_	_	_	_	_	
+33-9	2431-2439	varandra	_	_	_	_	_	_	_	
+33-10	2440-2441	i	_	_	_	_	_	_	_	
+33-11	2442-2446	alla	_	_	_	_	_	_	_	
+33-12	2447-2453	åldrar	_	_	_	_	_	_	_	
+33-13	2453-2454	!	_	_	_	_	_	_	_	
+33-14	2454-2455	.	_	_	_	false	4	_	_	
+
+#Text=#P IMM.
+34-1	2457-2458	#	_	_	_	_	_	_	_	
+34-2	2458-2459	P	_	_	_	_	_	_	_	
+34-3	2460-2463	IMM	_	_	_	_	_	_	_	
+34-4	2463-2464	.	_	_	_	_	_	_	_	
+
+#Text=Landets ridskolor arbetar med en gemensam värdegrund vars byggstenar är kompismoral, omsorg om djuren och en sund livsstil.
+35-1	2466-2473	Landets	_	_	_	_	_	_	_	
+35-2	2474-2483	ridskolor	_	_	_	_	_	_	_	
+35-3	2484-2491	arbetar	_	_	_	_	_	_	_	
+35-4	2492-2495	med	_	_	_	_	_	_	_	
+35-5	2496-2498	en	_	_	_	_	_	_	_	
+35-6	2499-2507	gemensam	_	_	_	_	_	_	_	
+35-7	2508-2518	värdegrund	_	_	_	_	_	_	_	
+35-8	2519-2523	vars	_	_	_	_	_	_	_	
+35-9	2524-2534	byggstenar	_	_	_	_	_	_	_	
+35-10	2535-2537	är	_	_	_	_	_	_	_	
+35-11	2538-2549	kompismoral	*	Target	35-11	false	4	_	_	
+35-12	2549-2550	,	_	_	_	_	_	_	_	
+35-13	2551-2557	omsorg	_	_	_	_	_	_	_	
+35-14	2558-2560	om	_	_	_	_	_	_	_	
+35-15	2561-2567	djuren	_	_	_	_	_	_	_	
+35-16	2568-2571	och	_	_	_	_	_	_	_	
+35-17	2572-2574	en	_	_	_	_	_	_	_	
+35-18	2575-2579	sund	_	Target	35-19	false	4	_	_	
+35-19	2580-2588	livsstil	*	_	_	_	_	_	_	
+35-20	2588-2589	.	_	_	_	_	_	_	_	
+
+#Text=För många ungdomar blir gemenskapen på ridskolan ett alternativ till att ”hänga på stan” och en fast punkt i tillvaron.
+36-1	2590-2593	För	_	_	_	_	_	_	_	
+36-2	2594-2599	många	_	_	_	_	_	_	_	
+36-3	2600-2608	ungdomar	_	_	_	_	_	_	_	
+36-4	2609-2613	blir	_	_	_	_	_	_	_	
+36-5	2614-2625	gemenskapen	_	_	_	_	_	_	_	
+36-6	2626-2628	på	_	_	_	_	_	_	_	
+36-7	2629-2638	ridskolan	_	_	_	_	_	_	_	
+36-8	2639-2642	ett	_	_	_	_	_	_	_	
+36-9	2643-2653	alternativ	_	_	_	_	_	_	_	
+36-10	2654-2658	till	_	_	_	_	_	_	_	
+36-11	2659-2662	att	_	_	_	_	_	_	_	
+36-12	2663-2664	”	_	_	_	_	_	_	_	
+36-13	2664-2669	hänga	_	_	_	_	_	_	_	
+36-14	2670-2672	på	_	_	_	_	_	_	_	
+36-15	2673-2677	stan	_	_	_	_	_	_	_	
+36-16	2677-2678	”	_	_	_	_	_	_	_	
+36-17	2679-2682	och	_	_	_	_	_	_	_	
+36-18	2683-2685	en	_	_	_	_	_	_	_	
+36-19	2686-2690	fast	_	_	_	_	_	_	_	
+36-20	2691-2696	punkt	_	_	_	_	_	_	_	
+36-21	2697-2698	i	_	_	_	_	_	_	_	
+36-22	2699-2708	tillvaron	_	_	_	_	_	_	_	
+36-23	2708-2709	.	_	_	_	_	_	_	_	
+
+#Text=Det är dessutom numera vetenskapligt bevisat, att ridskolemiljön utvecklar de egenskaper som krävs för gott ledarskap.
+37-1	2710-2713	Det	_	_	_	_	_	_	_	
+37-2	2714-2716	är	_	_	_	_	_	_	_	
+37-3	2717-2725	dessutom	_	_	_	_	_	_	_	
+37-4	2726-2732	numera	_	_	_	_	_	_	_	
+37-5	2733-2746	vetenskapligt	_	Target[20]	37-8[41]	false[20]	4[20]	_	_	
+37-6	2747-2754	bevisat	_	Target[20]	37-8[41]	false[20]	4[20]	_	_	
+37-7	2754-2755	,	_	_	_	_	_	_	_	
+37-8	2756-2759	att	*[41]	_	_	_	_	_	_	
+37-9	2760-2774	ridskolemiljön	*[41]	_	_	_	_	_	_	
+37-10	2775-2784	utvecklar	*[41]	_	_	_	_	_	_	
+37-11	2785-2787	de	*[41]	_	_	_	_	_	_	
+37-12	2788-2798	egenskaper	*[41]	_	_	_	_	_	_	
+37-13	2799-2802	som	*[41]	_	_	_	_	_	_	
+37-14	2803-2808	krävs	*[41]	_	_	_	_	_	_	
+37-15	2809-2812	för	*[41]	_	_	_	_	_	_	
+37-16	2813-2817	gott	*[41]	_	_	_	_	_	_	
+37-17	2818-2827	ledarskap	*[41]	_	_	_	_	_	_	
+37-18	2827-2828	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2830-2831	#	_	_	_	_	_	_	_	
+38-2	2831-2832	P	_	_	_	_	_	_	_	
+38-3	2833-2836	IMM	_	_	_	_	_	_	_	
+38-4	2836-2837	.	_	_	_	_	_	_	_	
+
+#Text=Landets kommuner har således goda skäl att engagera sig i ridskolornas verksamhet.
+39-1	2839-2846	Landets	_	_	_	_	_	_	_	
+39-2	2847-2855	kommuner	_	_	_	_	_	_	_	
+39-3	2856-2859	har	_	_	_	false	4	_	_	
+39-4	2860-2867	således	_	_	_	_	_	_	_	
+39-5	2868-2872	goda	_	Target[21]	39-7[42]	false[21]	4[21]	39-3[0_21]	_	
+39-6	2873-2877	skäl	_	Target[21]	39-7[42]	false[21]	4[21]	_	_	
+39-7	2878-2881	att	*[42]	_	_	_	_	_	_	
+39-8	2882-2890	engagera	*[42]	_	_	_	_	_	_	
+39-9	2891-2894	sig	*[42]	_	_	_	_	_	_	
+39-10	2895-2896	i	*[42]	_	_	_	_	_	_	
+39-11	2897-2909	ridskolornas	*[42]	_	_	_	_	_	_	
+39-12	2910-2920	verksamhet	*[42]	_	_	_	_	_	_	
+39-13	2920-2921	.	_	_	_	_	_	_	_	
+
+#Text=Vi skulle gärna se, att fler ridklubbar och enskilda ryttare runt om i landet tog kontakt med sina kommunalpolitiker för att berätta om ridskolornas viktiga sociala roll och deras behov under det närmaste året.
+40-1	2922-2924	Vi	_	_	_	_	_	_	_	
+40-2	2925-2931	skulle	_	_	_	_	_	_	_	
+40-3	2932-2937	gärna	_	Target[22]	40-6[43]	false[22]	4[22]	_	_	
+40-4	2938-2940	se	_	Target[22]	40-6[43]	false[22]	4[22]	_	_	
+40-5	2940-2941	,	_	_	_	_	_	_	_	
+40-6	2942-2945	att	*[43]	_	_	_	_	_	_	
+40-7	2946-2950	fler	*[43]	_	_	_	_	_	_	
+40-8	2951-2961	ridklubbar	*[43]	_	_	_	_	_	_	
+40-9	2962-2965	och	*[43]	_	_	_	_	_	_	
+40-10	2966-2974	enskilda	*[43]	_	_	_	_	_	_	
+40-11	2975-2982	ryttare	*[43]	_	_	_	_	_	_	
+40-12	2983-2987	runt	*[43]	_	_	_	_	_	_	
+40-13	2988-2990	om	*[43]	_	_	_	_	_	_	
+40-14	2991-2992	i	*[43]	_	_	_	_	_	_	
+40-15	2993-2999	landet	*[43]	_	_	_	_	_	_	
+40-16	3000-3003	tog	*[43]	_	_	_	_	_	_	
+40-17	3004-3011	kontakt	*[43]	_	_	_	_	_	_	
+40-18	3012-3015	med	*[43]	_	_	_	_	_	_	
+40-19	3016-3020	sina	*[43]	_	_	_	_	_	_	
+40-20	3021-3038	kommunalpolitiker	*[43]	_	_	_	_	_	_	
+40-21	3039-3042	för	*[43]	_	_	_	_	_	_	
+40-22	3043-3046	att	*[43]	_	_	_	_	_	_	
+40-23	3047-3054	berätta	*[43]	_	_	_	_	_	_	
+40-24	3055-3057	om	*[43]	_	_	_	_	_	_	
+40-25	3058-3070	ridskolornas	*[43]|*[44]	_	_	_	_	_	_	
+40-26	3071-3078	viktiga	*[43]	Target[23]|Target[24]	40-25[44]|40-27[45]	false[23]|false[24]	4[23]|4[24]	_	_	
+40-27	3079-3086	sociala	*[43]|*[45]	Target[23]	40-25[44]	false[23]	4[23]	_	_	
+40-28	3087-3091	roll	*[43]|*[45]	Target[23]	40-25[44]	false[23]	4[23]	_	_	
+40-29	3092-3095	och	*[43]	_	_	_	_	_	_	
+40-30	3096-3101	deras	*[43]	_	_	_	_	_	_	
+40-31	3102-3107	behov	*[43]	_	_	_	_	_	_	
+40-32	3108-3113	under	*[43]	_	_	_	_	_	_	
+40-33	3114-3117	det	*[43]	_	_	_	_	_	_	
+40-34	3118-3126	närmaste	*[43]	_	_	_	_	_	_	
+40-35	3127-3131	året	*[43]	_	_	_	_	_	_	
+40-36	3131-3132	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3134-3135	#	_	_	_	_	_	_	_	
+41-2	3135-3136	P	_	_	_	_	_	_	_	
+41-3	3137-3140	IMM	_	_	_	_	_	_	_	
+41-4	3140-3141	.	_	_	_	_	_	_	_	
+
+#Text=Anders Mellberg.
+42-1	3143-3149	Anders	_	_	_	_	_	_	_	
+42-2	3150-3158	Mellberg	_	_	_	_	_	_	_	
+42-3	3158-3159	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3161-3162	#	_	_	_	_	_	_	_	
+43-2	3162-3163	P	_	_	_	_	_	_	_	
+43-3	3164-3167	IMM	_	_	_	_	_	_	_	
+43-4	3167-3168	.	_	_	_	_	_	_	_	
+
+#Text=Helena Carlsson.
+44-1	3170-3176	Helena	_	_	_	_	_	_	_	
+44-2	3177-3185	Carlsson	_	_	_	_	_	_	_	
+44-3	3185-3186	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3188-3189	#	_	_	_	_	_	_	_	
+45-2	3189-3190	P	_	_	_	_	_	_	_	
+45-3	3191-3194	IMM	_	_	_	_	_	_	_	
+45-4	3194-3195	.	_	_	_	_	_	_	_	
+
+#Text=Jens Fredricson.
+46-1	3197-3201	Jens	_	_	_	_	_	_	_	
+46-2	3202-3212	Fredricson	_	_	_	_	_	_	_	
+46-3	3212-3213	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3215-3216	#	_	_	_	_	_	_	_	
+47-2	3216-3217	P	_	_	_	_	_	_	_	
+47-3	3218-3221	IMM	_	_	_	_	_	_	_	
+47-4	3221-3222	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+48-1	3224-3229	FAKTA	_	_	_	_	_	_	_	
+48-2	3229-3230	.	_	_	_	_	_	_	_	

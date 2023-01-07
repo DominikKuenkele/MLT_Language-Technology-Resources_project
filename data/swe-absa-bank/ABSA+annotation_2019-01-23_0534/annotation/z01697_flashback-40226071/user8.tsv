@@ -1,0 +1,52 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Polisbilar får förstärkta rutor efter stenkastning.
+3-1	18-28	Polisbilar	_	_	_	_	_	
+3-2	29-32	får	_	_	_	_	_	
+3-3	33-43	förstärkta	_	_	_	_	_	
+3-4	44-49	rutor	_	_	_	_	_	
+3-5	50-55	efter	_	_	_	_	_	
+3-6	56-68	stenkastning	_	_	_	_	_	
+3-7	68-69	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	
+
+#Text=Är poliserna för stygga när änglarna där aldrig gör något bus, eller vad ska de göra?.
+5-1	80-82	Är	_	_	_	_	_	
+5-2	83-92	poliserna	*	_	_	_	_	
+5-3	93-96	för	_	Target;Source[1]	5-2;5-18	false[1]	2[1]	
+5-4	97-103	stygga	_	Target;Source[1]	5-2;5-18	false[1]	2[1]	
+5-5	104-107	när	_	_	_	_	_	
+5-6	108-116	änglarna	_	_	_	true	5	
+5-7	117-120	där	_	_	_	_	_	
+5-8	121-127	aldrig	_	_	_	_	_	
+5-9	128-131	gör	_	_	_	_	_	
+5-10	132-137	något	_	_	_	_	_	
+5-11	138-141	bus	_	_	_	_	_	
+5-12	141-142	,	_	_	_	_	_	
+5-13	143-148	eller	_	_	_	_	_	
+5-14	149-152	vad	_	_	_	_	_	
+5-15	153-156	ska	_	_	_	_	_	
+5-16	157-159	de	_	_	_	_	_	
+5-17	160-164	göra	_	_	_	_	_	
+5-18	164-165	?	*	_	_	_	_	
+5-19	165-166	.	_	_	_	_	_	

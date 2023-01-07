@@ -1,0 +1,757 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_[1]	_	false[1]	5[1]	
+1-2	1-2	D	_	_[1]	_	false[1]	5[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	5[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	3[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	3[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Jusek: Så får vi invandrade akademiker i jobb.
+3-1	18-23	Jusek	_	_	_	_	_	
+3-2	23-24	:	_	_	_	_	_	
+3-3	25-27	Så	_	_	_	_	_	
+3-4	28-31	får	_	_	_	_	_	
+3-5	32-34	vi	_	_	_	_	_	
+3-6	35-45	invandrade	_	_	_	_	_	
+3-7	46-56	akademiker	_	_	_	_	_	
+3-8	57-58	i	_	_	_	_	_	
+3-9	59-63	jobb	_	_	_	_	_	
+3-10	63-64	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_[3]	_	false[3]	3[3]	
+4-2	67-68	P	_	_[3]	_	false[3]	3[3]	
+4-3	69-72	IMM	_	_[3]	_	false[3]	3[3]	
+4-4	72-73	.	_	_	_	_	_	
+
+#Text=Utrikesfödda svenskar har i samma utsträckning en akademisk utbildning som svenskfödda.
+5-1	75-87	Utrikesfödda	_	_	_	_	_	
+5-2	88-96	svenskar	_	_	_	_	_	
+5-3	97-100	har	_	_	_	_	_	
+5-4	101-102	i	_	_	_	_	_	
+5-5	103-108	samma	_	_	_	_	_	
+5-6	109-121	utsträckning	_	_	_	_	_	
+5-7	122-124	en	_	_	_	_	_	
+5-8	125-134	akademisk	_	_	_	_	_	
+5-9	135-145	utbildning	_	_	_	_	_	
+5-10	146-149	som	_	_	_	_	_	
+5-11	150-161	svenskfödda	_	_	_	_	_	
+5-12	161-162	.	_	_	_	_	_	
+
+#Text=Andelen av den utomeuropeiska befolkningen med lång akademisk utbildning har dessutom ökat med 60 procent sedan 2006.
+6-1	163-170	Andelen	*[20]	_	_	_	_	
+6-2	171-173	av	*[20]	_	_	_	_	
+6-3	174-177	den	*[20]	_	_	_	_	
+6-4	178-192	utomeuropeiska	*[20]	_	_	_	_	
+6-5	193-205	befolkningen	*[20]	_	_	_	_	
+6-6	206-209	med	*[20]	_	_	_	_	
+6-7	210-214	lång	*[20]	_	_	_	_	
+6-8	215-224	akademisk	*[20]	_	_	_	_	
+6-9	225-235	utbildning	*[20]	_	_	_	_	
+6-10	236-239	har	_	_	_	_	_	
+6-11	240-248	dessutom	_	_	_	_	_	
+6-12	249-253	ökat	_	_	_	_	_	
+6-13	254-257	med	_	_	_	_	_	
+6-14	258-260	60	_	_	_	_	_	
+6-15	261-268	procent	_	_	_	_	_	
+6-16	269-274	sedan	_	_	_	_	_	
+6-17	275-279	2006	_	_	_	_	_	
+6-18	279-280	.	_	_	_	_	_	
+
+#Text=Det är en fantastisk resurs för Sverige som till stor del slösas bort.
+7-1	281-284	Det	_	_	_	_	_	
+7-2	285-287	är	_	_	_	_	_	
+7-3	288-290	en	_	Target[4]	6-1[20]	false[4]	5[4]	
+7-4	291-301	fantastisk	_	Target[4]	6-1[20]	false[4]	5[4]	
+7-5	302-308	resurs	_	Target[4]	6-1[20]	false[4]	5[4]	
+7-6	309-312	för	_	Target[4]	6-1[20]	false[4]	5[4]	
+7-7	313-320	Sverige	_	Target[4]	6-1[20]	false[4]	5[4]	
+7-8	321-324	som	_	_	_	_	_	
+7-9	325-329	till	_	_	_	_	_	
+7-10	330-334	stor	_	_	_	_	_	
+7-11	335-338	del	_	_	_	_	_	
+7-12	339-345	slösas	_	Target;Source[5]	6-1[20];7-14	false[5]	2[5]	
+7-13	346-350	bort	_	Target;Source[5]	6-1[20];7-14	false[5]	2[5]	
+7-14	350-351	.	*	_	_	_	_	
+
+#Text=#P IMM.
+8-1	353-354	#	_	_[6]	_	false[6]	5[6]	
+8-2	354-355	P	_	_[6]	_	false[6]	5[6]	
+8-3	356-359	IMM	_	_[6]	_	false[6]	5[6]	
+8-4	359-360	.	_	_	_	_	_	
+
+#Text=Invandringen till Sverige har berikat vårt land.
+9-1	362-374	Invandringen	*[21]	_	_	_	_	
+9-2	375-379	till	*[21]	_	_	_	_	
+9-3	380-387	Sverige	*[21]	_	_	_	_	
+9-4	388-391	har	_	Target[7]	9-1[21]	false[7]	5[7]	
+9-5	392-399	berikat	_	Target[7]	9-1[21]	false[7]	5[7]	
+9-6	400-404	vårt	_	Target[7]	9-1[21]	false[7]	5[7]	
+9-7	405-409	land	_	Target[7]	9-1[21]	false[7]	5[7]	
+9-8	409-410	.	_	_	_	_	_	
+
+#Text=Vi får nya kunskaper, impulser och ett globalt kontaktnät som gynnar oss alla.
+10-1	411-413	Vi	_	_	_	_	_	
+10-2	414-417	får	_	_	_	_	_	
+10-3	418-421	nya	_	_	_	_	_	
+10-4	422-431	kunskaper	_	_	_	_	_	
+10-5	431-432	,	_	_	_	_	_	
+10-6	433-441	impulser	_	_	_	_	_	
+10-7	442-445	och	_	_	_	_	_	
+10-8	446-449	ett	*[22]	_	_	_	_	
+10-9	450-457	globalt	*[22]	_	_	_	_	
+10-10	458-468	kontaktnät	*[22]	_	_	_	_	
+10-11	469-472	som	_	_	_	_	_	
+10-12	473-479	gynnar	_	Source;Target	10-13[23];10-8[22]	false	5	
+10-13	480-483	oss	*[23]	_	_	_	_	
+10-14	484-488	alla	*[23]	_	_	_	_	
+10-15	488-489	.	_	_	_	_	_	
+
+#Text=Men många invandrade akademiker har svårt att få jobb i nivå med sin utbildning.
+11-1	490-493	Men	_	_	_	_	_	
+11-2	494-499	många	*[24]	_	_	_	_	
+11-3	500-510	invandrade	*[24]	_	_	_	_	
+11-4	511-521	akademiker	*[24]	_	_	_	_	
+11-5	522-525	har	*[24]	_	_	_	_	
+11-6	526-531	svårt	*[24]	_	_	_	_	
+11-7	532-535	att	*[24]	_	_	_	_	
+11-8	536-538	få	*[24]	_	_	_	_	
+11-9	539-543	jobb	*[24]	_	_	_	_	
+11-10	544-545	i	*[24]	_	_	_	_	
+11-11	546-550	nivå	*[24]	_	_	_	_	
+11-12	551-554	med	*[24]	_	_	_	_	
+11-13	555-558	sin	*[24]	_	_	_	_	
+11-14	559-569	utbildning	*[24]	_	_	_	_	
+11-15	569-570	.	_	_	_	_	_	
+
+#Text=De som får jobb har lägre löner än sina svenskfödda kollegor.
+12-1	571-573	De	_	_	_	_	_	
+12-2	574-577	som	_	_	_	_	_	
+12-3	578-581	får	_	_	_	_	_	
+12-4	582-586	jobb	_	_	_	_	_	
+12-5	587-590	har	_	_	_	_	_	
+12-6	591-596	lägre	_	_	_	_	_	
+12-7	597-602	löner	_	_	_	_	_	
+12-8	603-605	än	_	_	_	_	_	
+12-9	606-610	sina	_	_	_	_	_	
+12-10	611-622	svenskfödda	_	_	_	_	_	
+12-11	623-631	kollegor	_	_	_	_	_	
+12-12	631-632	.	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	634-635	#	_	_[8]	_	false[8]	5[8]	
+13-2	635-636	P	_	_[8]	_	false[8]	5[8]	
+13-3	637-640	IMM	_	_[8]	_	false[8]	5[8]	
+13-4	640-641	.	_	_	_	_	_	
+
+#Text=Detta är ett enormt slöseri med resurser för såväl samhälle som individ.
+14-1	643-648	Detta	_	_	_	_	_	
+14-2	649-651	är	_	_	_	_	_	
+14-3	652-655	ett	_	Target[9]	11-2[24]	false[9]	1[9]	
+14-4	656-662	enormt	_	Target[9]	11-2[24]	false[9]	1[9]	
+14-5	663-670	slöseri	_	Target[9]	11-2[24]	false[9]	1[9]	
+14-6	671-674	med	_	Target[9]	11-2[24]	false[9]	1[9]	
+14-7	675-683	resurser	_	Target[9]	11-2[24]	false[9]	1[9]	
+14-8	684-687	för	_	_	_	_	_	
+14-9	688-693	såväl	_	_	_	_	_	
+14-10	694-702	samhälle	_	_	_	_	_	
+14-11	703-706	som	_	_	_	_	_	
+14-12	707-714	individ	_	_	_	_	_	
+14-13	714-715	.	_	_	_	_	_	
+
+#Text=Istället för att anamma ljusskygga problemformuleringar borde vi fokusera på potentialen.
+15-1	716-724	Istället	_	_	_	_	_	
+15-2	725-728	för	_	_	_	_	_	
+15-3	729-732	att	_	_	_	_	_	
+15-4	733-739	anamma	_	_	_	_	_	
+15-5	740-750	ljusskygga	_	Target	15-6	false	1	
+15-6	751-771	problemformuleringar	*	_	_	_	_	
+15-7	772-777	borde	_	_	_	_	_	
+15-8	778-780	vi	_	_	_	_	_	
+15-9	781-789	fokusera	_	_	_	_	_	
+15-10	790-792	på	_	_	_	_	_	
+15-11	793-804	potentialen	_	_	_	_	_	
+15-12	804-805	.	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	807-808	#	_	_[10]	_	false[10]	5[10]	
+16-2	808-809	P	_	_[10]	_	false[10]	5[10]	
+16-3	810-813	IMM	_	_[10]	_	false[10]	5[10]	
+16-4	813-814	.	_	_	_	_	_	
+
+#Text=Precis som  visade i sin artikelserie ”Välkommen” så finns det beprövade, relativt billiga och effektiva vägar till kvalificerade jobb för invandrade akademiker.
+17-1	816-822	Precis	_	_	_	_	_	
+17-2	823-826	som	_	_	_	_	_	
+17-3	828-834	visade	_	_	_	_	_	
+17-4	835-836	i	_	_	_	_	_	
+17-5	837-840	sin	_	_	_	_	_	
+17-6	841-853	artikelserie	_	_	_	_	_	
+17-7	854-855	”	_	_	_	_	_	
+17-8	855-864	Välkommen	_	_	_	_	_	
+17-9	864-865	”	_	_	_	_	_	
+17-10	866-868	så	_	_	_	_	_	
+17-11	869-874	finns	_	_	_	_	_	
+17-12	875-878	det	_	_	_	_	_	
+17-13	879-888	beprövade	_	_	_	_	_	
+17-14	888-889	,	_	_	_	_	_	
+17-15	890-898	relativt	_	_	_	_	_	
+17-16	899-906	billiga	_	_	_	_	_	
+17-17	907-910	och	_	_	_	_	_	
+17-18	911-920	effektiva	_	_	_	_	_	
+17-19	921-926	vägar	_	_	_	_	_	
+17-20	927-931	till	_	_	_	_	_	
+17-21	932-945	kvalificerade	_	_	_	_	_	
+17-22	946-950	jobb	_	_	_	_	_	
+17-23	951-954	för	_	_	_	_	_	
+17-24	955-965	invandrade	_	_	_	_	_	
+17-25	966-976	akademiker	_	_	_	_	_	
+17-26	976-977	.	_	_	_	_	_	
+
+#Text=Även Jusek har undersökt detta.
+18-1	978-982	Även	_	_	_	_	_	
+18-2	983-988	Jusek	_	_	_	_	_	
+18-3	989-992	har	_	_	_	_	_	
+18-4	993-1002	undersökt	_	_	_	_	_	
+18-5	1003-1008	detta	_	_	_	_	_	
+18-6	1008-1009	.	_	_	_	_	_	
+
+#Text=Vår slutsats är enkel: det finns ingen anledning för Sverige att prenumerera på bottenplaceringen i den europeiska integrationsligan.
+19-1	1010-1013	Vår	_	_	_	_	_	
+19-2	1014-1022	slutsats	_	_	_	_	_	
+19-3	1023-1025	är	_	_	_	_	_	
+19-4	1026-1031	enkel	_	_	_	_	_	
+19-5	1031-1032	:	_	_	_	_	_	
+19-6	1033-1036	det	_	_	_	_	_	
+19-7	1037-1042	finns	_	_	_	_	_	
+19-8	1043-1048	ingen	_	_	_	_	_	
+19-9	1049-1058	anledning	_	_	_	_	_	
+19-10	1059-1062	för	_	_	_	_	_	
+19-11	1063-1070	Sverige	_	_	_	_	_	
+19-12	1071-1074	att	_	_	_	_	_	
+19-13	1075-1086	prenumerera	_	_	_	_	_	
+19-14	1087-1089	på	_	_	_	_	_	
+19-15	1090-1107	bottenplaceringen	_	_	_	_	_	
+19-16	1108-1109	i	_	_	_	_	_	
+19-17	1110-1113	den	_	_	_	_	_	
+19-18	1114-1124	europeiska	_	_	_	_	_	
+19-19	1125-1142	integrationsligan	_	_	_	_	_	
+19-20	1142-1143	.	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1145-1146	#	_	_	_	_	_	
+20-2	1146-1147	P	_	_	_	_	_	
+20-3	1148-1151	IMM	_	_	_	_	_	
+20-4	1151-1152	.	_	_	_	_	_	
+
+#Text=Så här enkelt skulle det kunna vara:.
+21-1	1154-1156	Så	_	_	_	_	_	
+21-2	1157-1160	här	_	_	_	_	_	
+21-3	1161-1167	enkelt	_	_	_	_	_	
+21-4	1168-1174	skulle	_	_	_	_	_	
+21-5	1175-1178	det	_	_	_	_	_	
+21-6	1179-1184	kunna	_	_	_	_	_	
+21-7	1185-1189	vara	_	_	_	_	_	
+21-8	1189-1190	:	_	_	_	_	_	
+21-9	1190-1191	.	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1193-1194	#	_	_[11]	_	false[11]	4[11]	
+22-2	1194-1195	P	_	_[11]	_	false[11]	4[11]	
+22-3	1196-1199	IMM	_	_[11]	_	false[11]	4[11]	
+22-4	1199-1200	.	_	_	_	_	_	
+
+#Text=Individanpassad och intensiv svenskutbildning.
+23-1	1202-1217	Individanpassad	_	_	_	_	_	
+23-2	1218-1221	och	_	_	_	_	_	
+23-3	1222-1230	intensiv	_	_	_	_	_	
+23-4	1231-1247	svenskutbildning	_	_	_	_	_	
+23-5	1247-1248	.	_	_	_	_	_	
+
+#Text=Jusek har tidigare visat att tidiga och individuellt anpassade insatser som yrkesinriktad svenskundervisning ökar möjligheterna till relevanta jobb.
+24-1	1249-1254	Jusek	_	_	_	_	_	
+24-2	1255-1258	har	_	_	_	_	_	
+24-3	1259-1267	tidigare	_	_	_	_	_	
+24-4	1268-1273	visat	_	_	_	_	_	
+24-5	1274-1277	att	_	_	_	_	_	
+24-6	1278-1284	tidiga	_	_	_	_	_	
+24-7	1285-1288	och	_	_	_	_	_	
+24-8	1289-1301	individuellt	_	_	_	_	_	
+24-9	1302-1311	anpassade	_	_	_	_	_	
+24-10	1312-1320	insatser	_	_	_	_	_	
+24-11	1321-1324	som	_	_	_	_	_	
+24-12	1325-1338	yrkesinriktad	_	_	_	_	_	
+24-13	1339-1357	svenskundervisning	_	_	_	_	_	
+24-14	1358-1362	ökar	_	_	_	_	_	
+24-15	1363-1376	möjligheterna	_	_	_	_	_	
+24-16	1377-1381	till	_	_	_	_	_	
+24-17	1382-1391	relevanta	_	_	_	_	_	
+24-18	1392-1396	jobb	_	_	_	_	_	
+24-19	1396-1397	.	_	_	_	_	_	
+
+#Text=I Stockholm finns därför sedan våren 2010 en intensiv svenskundervisning anpassad speciellt för Juseks medlemsgrupper.
+25-1	1398-1399	I	_	_	_	_	_	
+25-2	1400-1409	Stockholm	_	_	_	_	_	
+25-3	1410-1415	finns	_	_	_	_	_	
+25-4	1416-1422	därför	_	_	_	_	_	
+25-5	1423-1428	sedan	_	_	_	_	_	
+25-6	1429-1434	våren	_	_	_	_	_	
+25-7	1435-1439	2010	_	_	_	_	_	
+25-8	1440-1442	en	_	_	_	_	_	
+25-9	1443-1451	intensiv	_	_	_	_	_	
+25-10	1452-1470	svenskundervisning	_	_	_	_	_	
+25-11	1471-1479	anpassad	_	_	_	_	_	
+25-12	1480-1489	speciellt	_	_	_	_	_	
+25-13	1490-1493	för	_	_	_	_	_	
+25-14	1494-1500	Juseks	_	_	_	_	_	
+25-15	1501-1515	medlemsgrupper	_	_	_	_	_	
+25-16	1515-1516	.	_	_	_	_	_	
+
+#Text=Under 2011 var cirka 200 studenter inskrivna och resultaten har varit mycket goda.
+26-1	1517-1522	Under	_	_	_	_	_	
+26-2	1523-1527	2011	_	_	_	_	_	
+26-3	1528-1531	var	_	_	_	_	_	
+26-4	1532-1537	cirka	_	_	_	_	_	
+26-5	1538-1541	200	_	_	_	_	_	
+26-6	1542-1551	studenter	_	_	_	_	_	
+26-7	1552-1561	inskrivna	_	_	_	_	_	
+26-8	1562-1565	och	_	_	_	_	_	
+26-9	1566-1576	resultaten	*	_	_	_	_	
+26-10	1577-1580	har	_	Target[12]	26-9	false[12]	5[12]	
+26-11	1581-1586	varit	_	Target[12]	26-9	false[12]	5[12]	
+26-12	1587-1593	mycket	_	Target[12]	26-9	false[12]	5[12]	
+26-13	1594-1598	goda	_	Target[12]	26-9	false[12]	5[12]	
+26-14	1598-1599	.	_	_	_	_	_	
+
+#Text=Över 90 procent får minst Godkänt på kurserna.
+27-1	1600-1604	Över	_	_	_	_	_	
+27-2	1605-1607	90	_	_	_	_	_	
+27-3	1608-1615	procent	_	_	_	_	_	
+27-4	1616-1619	får	_	_	_	_	_	
+27-5	1620-1625	minst	_	_	_	_	_	
+27-6	1626-1633	Godkänt	_	_	_	_	_	
+27-7	1634-1636	på	_	_	_	_	_	
+27-8	1637-1645	kurserna	_	_	_	_	_	
+27-9	1645-1646	.	_	_	_	_	_	
+
+#Text=Inom ett till två år har åtta av tio egen försörjning.
+28-1	1647-1651	Inom	_	_	_	_	_	
+28-2	1652-1655	ett	_	_	_	_	_	
+28-3	1656-1660	till	_	_	_	_	_	
+28-4	1661-1664	två	_	_	_	_	_	
+28-5	1665-1667	år	_	_	_	_	_	
+28-6	1668-1671	har	_	_	_	_	_	
+28-7	1672-1676	åtta	_	_	_	_	_	
+28-8	1677-1679	av	_	_	_	_	_	
+28-9	1680-1683	tio	_	_	_	_	_	
+28-10	1684-1688	egen	_	_	_	_	_	
+28-11	1689-1700	försörjning	_	_	_	_	_	
+28-12	1700-1701	.	_	_	_	_	_	
+
+#Text=Detta är ett exempel på en billig och beprövad åtgärd som fler kommuner borde satsa på.
+29-1	1702-1707	Detta	_	_	_	_	_	
+29-2	1708-1710	är	_	_	_	_	_	
+29-3	1711-1714	ett	_	_	_	_	_	
+29-4	1715-1722	exempel	_	_	_	_	_	
+29-5	1723-1725	på	_	_	_	_	_	
+29-6	1726-1728	en	_	_	_	_	_	
+29-7	1729-1735	billig	_	_	_	_	_	
+29-8	1736-1739	och	_	_	_	_	_	
+29-9	1740-1748	beprövad	_	_	_	_	_	
+29-10	1749-1755	åtgärd	_	_	_	_	_	
+29-11	1756-1759	som	_	_	_	_	_	
+29-12	1760-1764	fler	_	_	_	_	_	
+29-13	1765-1773	kommuner	_	_	_	_	_	
+29-14	1774-1779	borde	_	_	_	_	_	
+29-15	1780-1785	satsa	_	_	_	_	_	
+29-16	1786-1788	på	_	_	_	_	_	
+29-17	1788-1789	.	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1791-1792	#	_	_[13]	_	false[13]	4[13]	
+30-2	1792-1793	P	_	_[13]	_	false[13]	4[13]	
+30-3	1794-1797	IMM	_	_[13]	_	false[13]	4[13]	
+30-4	1797-1798	.	_	_	_	_	_	
+
+#Text=Bättre tillgång till professionella nätverk.
+31-1	1800-1806	Bättre	_	_	_	_	_	
+31-2	1807-1815	tillgång	_	_	_	_	_	
+31-3	1816-1820	till	_	_	_	_	_	
+31-4	1821-1835	professionella	_	_	_	_	_	
+31-5	1836-1843	nätverk	_	_	_	_	_	
+31-6	1843-1844	.	_	_	_	_	_	
+
+#Text=Enligt Trygghetsrådet förmedlas omkring 60 procent av jobben via kontakter.
+32-1	1845-1851	Enligt	_	_	_	_	_	
+32-2	1852-1866	Trygghetsrådet	_	_	_	_	_	
+32-3	1867-1876	förmedlas	_	_	_	_	_	
+32-4	1877-1884	omkring	_	_	_	_	_	
+32-5	1885-1887	60	_	_	_	_	_	
+32-6	1888-1895	procent	_	_	_	_	_	
+32-7	1896-1898	av	_	_	_	_	_	
+32-8	1899-1905	jobben	_	_	_	_	_	
+32-9	1906-1909	via	_	_	_	_	_	
+32-10	1910-1919	kontakter	_	_	_	_	_	
+32-11	1919-1920	.	_	_	_	_	_	
+
+#Text=Detta missgynnar invandrare, som ofta helt saknar ett professionellt nätverk i Sverige.
+33-1	1921-1926	Detta	_	_	_	_	_	
+33-2	1927-1937	missgynnar	_	Target;Source	33-3;33-14	false	1	
+33-3	1938-1948	invandrare	*	_	_	_	_	
+33-4	1948-1949	,	_	_	_	_	_	
+33-5	1950-1953	som	_	_	_	_	_	
+33-6	1954-1958	ofta	_	_	_	_	_	
+33-7	1959-1963	helt	_	_	_	_	_	
+33-8	1964-1970	saknar	_	_	_	_	_	
+33-9	1971-1974	ett	_	_	_	_	_	
+33-10	1975-1989	professionellt	_	_	_	_	_	
+33-11	1990-1997	nätverk	_	_	_	_	_	
+33-12	1998-1999	i	_	_	_	_	_	
+33-13	2000-2007	Sverige	_	_	_	_	_	
+33-14	2007-2008	.	*	_	_	_	_	
+
+#Text=Jusek driver sedan hösten 2010 ett mentorskapsprogram.
+34-1	2009-2014	Jusek	_	_	_	_	_	
+34-2	2015-2021	driver	_	_	_	_	_	
+34-3	2022-2027	sedan	_	_	_	_	_	
+34-4	2028-2034	hösten	_	_	_	_	_	
+34-5	2035-2039	2010	_	_	_	_	_	
+34-6	2040-2043	ett	_	_	_	_	_	
+34-7	2044-2062	mentorskapsprogram	_	_	_	_	_	
+34-8	2062-2063	.	_	_	_	_	_	
+
+#Text=Där matchas en invandrad samhällsvetare ihop med en kollega som redan är etablerad på den svenska arbetsmarknaden.
+35-1	2064-2067	Där	_	_	_	_	_	
+35-2	2068-2075	matchas	_	_	_	_	_	
+35-3	2076-2078	en	_	_	_	_	_	
+35-4	2079-2088	invandrad	_	_	_	_	_	
+35-5	2089-2103	samhällsvetare	_	_	_	_	_	
+35-6	2104-2108	ihop	_	_	_	_	_	
+35-7	2109-2112	med	_	_	_	_	_	
+35-8	2113-2115	en	_	_	_	_	_	
+35-9	2116-2123	kollega	_	_	_	_	_	
+35-10	2124-2127	som	_	_	_	_	_	
+35-11	2128-2133	redan	_	_	_	_	_	
+35-12	2134-2136	är	_	_	_	_	_	
+35-13	2137-2146	etablerad	_	_	_	_	_	
+35-14	2147-2149	på	_	_	_	_	_	
+35-15	2150-2153	den	_	_	_	_	_	
+35-16	2154-2161	svenska	_	_	_	_	_	
+35-17	2162-2177	arbetsmarknaden	_	_	_	_	_	
+35-18	2177-2178	.	_	_	_	_	_	
+
+#Text=Hittills har cirka 460 personer deltagit.
+36-1	2179-2187	Hittills	_	_	_	_	_	
+36-2	2188-2191	har	_	_	_	_	_	
+36-3	2192-2197	cirka	_	_	_	_	_	
+36-4	2198-2201	460	_	_	_	_	_	
+36-5	2202-2210	personer	_	_	_	_	_	
+36-6	2211-2219	deltagit	_	_	_	_	_	
+36-7	2219-2220	.	_	_	_	_	_	
+
+#Text=Vi ser tydligt att mentorskap är effektivt.
+37-1	2221-2223	Vi	_	_	_	_	_	
+37-2	2224-2227	ser	_	_	_	_	_	
+37-3	2228-2235	tydligt	_	_	_	_	_	
+37-4	2236-2239	att	_	_	_	_	_	
+37-5	2240-2250	mentorskap	_	_	_	_	_	
+37-6	2251-2253	är	_	_	_	_	_	
+37-7	2254-2263	effektivt	_	_	_	_	_	
+37-8	2263-2264	.	_	_	_	_	_	
+
+#Text=Alla deltagare har fått ett nytt nätverk och värdefulla referenser.
+38-1	2265-2269	Alla	_	_	_	_	_	
+38-2	2270-2279	deltagare	_	_	_	_	_	
+38-3	2280-2283	har	_	_	_	_	_	
+38-4	2284-2288	fått	_	_	_	_	_	
+38-5	2289-2292	ett	_	_	_	_	_	
+38-6	2293-2297	nytt	_	_	_	_	_	
+38-7	2298-2305	nätverk	_	_	_	_	_	
+38-8	2306-2309	och	_	_	_	_	_	
+38-9	2310-2320	värdefulla	*[25]	Target[14]	38-9[25]	false[14]	4[14]	
+38-10	2321-2331	referenser	*[25]	Target[14]	38-9[25]	false[14]	4[14]	
+38-11	2331-2332	.	_	_	_	_	_	
+
+#Text=Ett flertal har fått jobb eller praktik.
+39-1	2333-2336	Ett	_	_	_	_	_	
+39-2	2337-2344	flertal	_	_	_	_	_	
+39-3	2345-2348	har	_	_	_	_	_	
+39-4	2349-2353	fått	_	_	_	_	_	
+39-5	2354-2358	jobb	_	_	_	_	_	
+39-6	2359-2364	eller	_	_	_	_	_	
+39-7	2365-2372	praktik	_	_	_	_	_	
+39-8	2372-2373	.	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	2375-2376	#	_	_[15]	_	false[15]	4[15]	
+40-2	2376-2377	P	_	_[15]	_	false[15]	4[15]	
+40-3	2378-2381	IMM	_	_[15]	_	false[15]	4[15]	
+40-4	2381-2382	.	_	_	_	_	_	
+
+#Text=Ett nationellt system för validering av akademiska kunskaper.
+41-1	2384-2387	Ett	_	_	_	_	_	
+41-2	2388-2398	nationellt	_	_	_	_	_	
+41-3	2399-2405	system	_	_	_	_	_	
+41-4	2406-2409	för	_	_	_	_	_	
+41-5	2410-2420	validering	_	_	_	_	_	
+41-6	2421-2423	av	_	_	_	_	_	
+41-7	2424-2434	akademiska	_	_	_	_	_	
+41-8	2435-2444	kunskaper	_	_	_	_	_	
+41-9	2444-2445	.	_	_	_	_	_	
+
+#Text=Juseks undersökningar visar att de personer som fått sina akademiska kunskaper formellt testade – till exempel genom arbetsprover eller handledd praktik – har ett bättre utfall på den kvalificerade arbetsmarknaden.
+42-1	2446-2452	Juseks	_	_	_	_	_	
+42-2	2453-2467	undersökningar	_	_	_	_	_	
+42-3	2468-2473	visar	_	_	_	_	_	
+42-4	2474-2477	att	_	_	_	_	_	
+42-5	2478-2480	de	_	_	_	_	_	
+42-6	2481-2489	personer	_	_	_	_	_	
+42-7	2490-2493	som	_	_	_	_	_	
+42-8	2494-2498	fått	_	_	_	_	_	
+42-9	2499-2503	sina	_	_	_	_	_	
+42-10	2504-2514	akademiska	_	_	_	_	_	
+42-11	2515-2524	kunskaper	_	_	_	_	_	
+42-12	2525-2533	formellt	_	_	_	_	_	
+42-13	2534-2541	testade	_	_	_	_	_	
+42-14	2542-2543	–	_	_	_	_	_	
+42-15	2544-2548	till	_	_	_	_	_	
+42-16	2549-2556	exempel	_	_	_	_	_	
+42-17	2557-2562	genom	_	_	_	_	_	
+42-18	2563-2575	arbetsprover	_	_	_	_	_	
+42-19	2576-2581	eller	_	_	_	_	_	
+42-20	2582-2590	handledd	_	_	_	_	_	
+42-21	2591-2598	praktik	_	_	_	_	_	
+42-22	2599-2600	–	_	_	_	_	_	
+42-23	2601-2604	har	_	_	_	_	_	
+42-24	2605-2608	ett	_	_	_	_	_	
+42-25	2609-2615	bättre	_	_	_	_	_	
+42-26	2616-2622	utfall	_	_	_	_	_	
+42-27	2623-2625	på	_	_	_	_	_	
+42-28	2626-2629	den	_	_	_	_	_	
+42-29	2630-2643	kvalificerade	_	_	_	_	_	
+42-30	2644-2659	arbetsmarknaden	_	_	_	_	_	
+42-31	2659-2660	.	_	_	_	_	_	
+
+#Text=Jusek vill därför ha ett nationellt system där kunskaper testas, bedöms och dokumenteras.
+43-1	2661-2666	Jusek	_	_	_	_	_	
+43-2	2667-2671	vill	_	_	_	_	_	
+43-3	2672-2678	därför	_	_	_	_	_	
+43-4	2679-2681	ha	_	_	_	_	_	
+43-5	2682-2685	ett	_	_	_	_	_	
+43-6	2686-2696	nationellt	_	_	_	_	_	
+43-7	2697-2703	system	_	_	_	_	_	
+43-8	2704-2707	där	_	_	_	_	_	
+43-9	2708-2717	kunskaper	_	_	_	_	_	
+43-10	2718-2724	testas	_	_	_	_	_	
+43-11	2724-2725	,	_	_	_	_	_	
+43-12	2726-2732	bedöms	_	_	_	_	_	
+43-13	2733-2736	och	_	_	_	_	_	
+43-14	2737-2749	dokumenteras	_	_	_	_	_	
+43-15	2749-2750	.	_	_	_	_	_	
+
+#Text=Detta skulle göra det mer tryggt för arbetsgivaren att anställa.
+44-1	2751-2756	Detta	_	_	_	_	_	
+44-2	2757-2763	skulle	_	_	_	_	_	
+44-3	2764-2768	göra	_	_	_	_	_	
+44-4	2769-2772	det	_	_	_	_	_	
+44-5	2773-2776	mer	_	_	_	_	_	
+44-6	2777-2783	tryggt	_	_	_	_	_	
+44-7	2784-2787	för	_	_	_	_	_	
+44-8	2788-2801	arbetsgivaren	_	_	_	_	_	
+44-9	2802-2805	att	_	_	_	_	_	
+44-10	2806-2814	anställa	_	_	_	_	_	
+44-11	2814-2815	.	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	2817-2818	#	_	_[16]	_	false[16]	4[16]	
+45-2	2818-2819	P	_	_[16]	_	false[16]	4[16]	
+45-3	2820-2823	IMM	_	_[16]	_	false[16]	4[16]	
+45-4	2823-2824	.	_	_	_	_	_	
+
+#Text=Fler kompletterande utbildningar på högskolenivå.
+46-1	2826-2830	Fler	_	_	_	_	_	
+46-2	2831-2845	kompletterande	_	_	_	_	_	
+46-3	2846-2858	utbildningar	_	_	_	_	_	
+46-4	2859-2861	på	_	_	_	_	_	
+46-5	2862-2874	högskolenivå	_	_	_	_	_	
+46-6	2874-2875	.	_	_	_	_	_	
+
+#Text=För att skapa konkurrens på lika villkor behöver ibland personer med utländsk examen komplettera med kunskaper som är specifika för Sverige.
+47-1	2876-2879	För	_	_	_	_	_	
+47-2	2880-2883	att	_	_	_	_	_	
+47-3	2884-2889	skapa	_	_	_	_	_	
+47-4	2890-2900	konkurrens	_	_	_	_	_	
+47-5	2901-2903	på	_	_	_	_	_	
+47-6	2904-2908	lika	_	_	_	_	_	
+47-7	2909-2916	villkor	_	_	_	_	_	
+47-8	2917-2924	behöver	_	_	_	_	_	
+47-9	2925-2931	ibland	_	_	_	_	_	
+47-10	2932-2940	personer	_	_	_	_	_	
+47-11	2941-2944	med	_	_	_	_	_	
+47-12	2945-2953	utländsk	_	_	_	_	_	
+47-13	2954-2960	examen	_	_	_	_	_	
+47-14	2961-2972	komplettera	_	_	_	_	_	
+47-15	2973-2976	med	_	_	_	_	_	
+47-16	2977-2986	kunskaper	_	_	_	_	_	
+47-17	2987-2990	som	_	_	_	_	_	
+47-18	2991-2993	är	_	_	_	_	_	
+47-19	2994-3003	specifika	_	_	_	_	_	
+47-20	3004-3007	för	_	_	_	_	_	
+47-21	3008-3015	Sverige	_	_	_	_	_	
+47-22	3015-3016	.	_	_	_	_	_	
+
+#Text=Det är givetvis inte rimligt att en person som redan har läst till exempel fem år på ett universitet ska läsa ytterligare flera år på en svensk högskola.
+48-1	3017-3020	Det	_	_	_	_	_	
+48-2	3021-3023	är	_	_	_	_	_	
+48-3	3024-3032	givetvis	_	Target[17]	48-6[26]	false[17]	2[17]	
+48-4	3033-3037	inte	_	Target[17]	48-6[26]	false[17]	2[17]	
+48-5	3038-3045	rimligt	_	Target[17]	48-6[26]	false[17]	2[17]	
+48-6	3046-3049	att	*[26]	_	_	_	_	
+48-7	3050-3052	en	*[26]	_	_	_	_	
+48-8	3053-3059	person	*[26]	_	_	_	_	
+48-9	3060-3063	som	*[26]	_	_	_	_	
+48-10	3064-3069	redan	*[26]	_	_	_	_	
+48-11	3070-3073	har	*[26]	_	_	_	_	
+48-12	3074-3078	läst	*[26]	_	_	_	_	
+48-13	3079-3083	till	*[26]	_	_	_	_	
+48-14	3084-3091	exempel	*[26]	_	_	_	_	
+48-15	3092-3095	fem	*[26]	_	_	_	_	
+48-16	3096-3098	år	*[26]	_	_	_	_	
+48-17	3099-3101	på	*[26]	_	_	_	_	
+48-18	3102-3105	ett	*[26]	_	_	_	_	
+48-19	3106-3117	universitet	*[26]	_	_	_	_	
+48-20	3118-3121	ska	*[26]	_	_	_	_	
+48-21	3122-3126	läsa	*[26]	_	_	_	_	
+48-22	3127-3138	ytterligare	*[26]	_	_	_	_	
+48-23	3139-3144	flera	*[26]	_	_	_	_	
+48-24	3145-3147	år	*[26]	_	_	_	_	
+48-25	3148-3150	på	*[26]	_	_	_	_	
+48-26	3151-3153	en	*[26]	_	_	_	_	
+48-27	3154-3160	svensk	*[26]	_	_	_	_	
+48-28	3161-3169	högskola	*[26]	_	_	_	_	
+48-29	3169-3170	.	_	_	_	_	_	
+
+#Text=Därför behövs fler korta kompletterande högskolekurser för utländska akademiker.
+49-1	3171-3177	Därför	_	_	_	_	_	
+49-2	3178-3184	behövs	_	_	_	_	_	
+49-3	3185-3189	fler	_	_	_	_	_	
+49-4	3190-3195	korta	_	_	_	_	_	
+49-5	3196-3210	kompletterande	_	_	_	_	_	
+49-6	3211-3225	högskolekurser	_	_	_	_	_	
+49-7	3226-3229	för	_	_	_	_	_	
+49-8	3230-3239	utländska	_	_	_	_	_	
+49-9	3240-3250	akademiker	_	_	_	_	_	
+49-10	3250-3251	.	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3253-3254	#	_	_[18]	_	false[18]	4[18]	
+50-2	3254-3255	P	_	_[18]	_	false[18]	4[18]	
+50-3	3256-3259	IMM	_	_[18]	_	false[18]	4[18]	
+50-4	3259-3260	.	_	_	_	_	_	
+
+#Text=För att lyckas krävs offensiva och tidiga initiativ.
+51-1	3262-3265	För	_	_	_	_	_	
+51-2	3266-3269	att	_	_	_	_	_	
+51-3	3270-3276	lyckas	_	_	_	_	_	
+51-4	3277-3282	krävs	_	_	_	_	_	
+51-5	3283-3292	offensiva	_	_	_	_	_	
+51-6	3293-3296	och	_	_	_	_	_	
+51-7	3297-3303	tidiga	_	_	_	_	_	
+51-8	3304-3313	initiativ	_	_	_	_	_	
+51-9	3313-3314	.	_	_	_	_	_	
+
+#Text=Genom aktiv samverkan mellan arbetsmarknadens parter, näringslivet och statsmakterna kan vi skapa karriärmöjligheter på lika villkor.
+52-1	3315-3320	Genom	_	_	_	_	_	
+52-2	3321-3326	aktiv	_	_	_	_	_	
+52-3	3327-3336	samverkan	_	_	_	_	_	
+52-4	3337-3343	mellan	_	_	_	_	_	
+52-5	3344-3360	arbetsmarknadens	_	_	_	_	_	
+52-6	3361-3367	parter	_	_	_	_	_	
+52-7	3367-3368	,	_	_	_	_	_	
+52-8	3369-3381	näringslivet	_	_	_	_	_	
+52-9	3382-3385	och	_	_	_	_	_	
+52-10	3386-3399	statsmakterna	_	_	_	_	_	
+52-11	3400-3403	kan	_	_	_	_	_	
+52-12	3404-3406	vi	_	_	_	_	_	
+52-13	3407-3412	skapa	_	_	_	_	_	
+52-14	3413-3431	karriärmöjligheter	_	_	_	_	_	
+52-15	3432-3434	på	_	_	_	_	_	
+52-16	3435-3439	lika	_	_	_	_	_	
+52-17	3440-3447	villkor	_	_	_	_	_	
+52-18	3447-3448	.	_	_	_	_	_	
+
+#Text=Jusek har antagit utmaningen – men vill ha sällskap av fler aktörer.
+53-1	3449-3454	Jusek	_	_	_	_	_	
+53-2	3455-3458	har	_	_	_	_	_	
+53-3	3459-3466	antagit	_	_	_	_	_	
+53-4	3467-3477	utmaningen	_	_	_	_	_	
+53-5	3478-3479	–	_	_	_	_	_	
+53-6	3480-3483	men	_	_	_	_	_	
+53-7	3484-3488	vill	_	_	_	_	_	
+53-8	3489-3491	ha	_	_	_	_	_	
+53-9	3492-3500	sällskap	_	_	_	_	_	
+53-10	3501-3503	av	_	_	_	_	_	
+53-11	3504-3508	fler	_	_	_	_	_	
+53-12	3509-3516	aktörer	_	_	_	_	_	
+53-13	3516-3517	.	_	_	_	_	_	
+
+#Text=Genom handling kan Sveriges fulla potential tas tillvara.
+54-1	3518-3523	Genom	_	_	_	_	_	
+54-2	3524-3532	handling	_	_	_	_	_	
+54-3	3533-3536	kan	_	_	_	_	_	
+54-4	3537-3545	Sveriges	_	_	_	_	_	
+54-5	3546-3551	fulla	_	_	_	_	_	
+54-6	3552-3561	potential	_	_	_	_	_	
+54-7	3562-3565	tas	_	_	_	_	_	
+54-8	3566-3574	tillvara	_	_	_	_	_	
+54-9	3574-3575	.	_	_	_	false	3	
+
+#Text=Vi har inte råd att vänta längre.
+55-1	3576-3578	Vi	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-2	3579-3582	har	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-3	3583-3587	inte	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-4	3588-3591	råd	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-5	3592-3595	att	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-6	3596-3601	vänta	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-7	3602-3608	längre	*[27]	Target[19]	55-1[27]	false[19]	2[19]	
+55-8	3608-3609	.	_	Target[19]	55-1[27]	false[19]	2[19]	
+
+#Text=#P IMM.
+56-1	3611-3612	#	_	_	_	_	_	
+56-2	3612-3613	P	_	_	_	_	_	
+56-3	3614-3617	IMM	_	_	_	_	_	
+56-4	3617-3618	.	_	_	_	_	_	
+
+#Text=Magnus Hedberg.
+57-1	3620-3626	Magnus	_	_	_	_	_	
+57-2	3627-3634	Hedberg	_	_	_	_	_	
+57-3	3634-3635	.	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	3637-3638	#	_	_	_	_	_	
+58-2	3638-3639	P	_	_	_	_	_	
+58-3	3640-3643	IMM	_	_	_	_	_	
+58-4	3643-3644	.	_	_	_	_	_	
+
+#Text=Josefin Claesson.
+59-1	3646-3653	Josefin	_	_	_	_	_	
+59-2	3654-3662	Claesson	_	_	_	_	_	
+59-3	3662-3663	.	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	3665-3666	#	_	_	_	_	_	
+60-2	3666-3667	P	_	_	_	_	_	
+60-3	3668-3671	IMM	_	_	_	_	_	
+60-4	3671-3672	.	_	_	_	_	_	
+
+#Text=FAKTA.
+61-1	3674-3679	FAKTA	_	_	_	_	_	
+61-2	3679-3680	.	_	_	_	_	_	

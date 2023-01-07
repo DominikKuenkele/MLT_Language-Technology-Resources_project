@@ -1,0 +1,573 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Därför är de svenska partierna så tysta.
+3-1	18-24	Därför	_	_	_	_	_	_	_	
+3-2	25-27	är	_	_	_	_	_	_	_	
+3-3	28-30	de	_	_	_	_	_	_	_	
+3-4	31-38	svenska	_	_	_	_	_	_	_	
+3-5	39-48	partierna	_	_	_	_	_	_	_	
+3-6	49-51	så	_	_	_	_	_	_	_	
+3-7	52-57	tysta	_	_	_	_	_	_	_	
+3-8	57-58	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	60-61	#	_	_	_	_	_	_	_	
+4-2	61-62	P	_	_	_	_	_	_	_	
+4-3	63-66	IMM	_	_	_	_	_	_	_	
+4-4	66-67	.	_	_	_	_	_	_	_	
+
+#Text=Den dystra bild Gösta Hulthén målar upp av övervakningssamhället är tyvärr helt sann (Brännpunkt 6/8).
+5-1	69-72	Den	*[9]	_	_	_	_	_	_	
+5-2	73-79	dystra	*[9]	_	_	_	_	_	_	
+5-3	80-84	bild	*[9]	_	_	_	_	_	_	
+5-4	85-90	Gösta	*[9]	_	_	_	_	_	_	
+5-5	91-98	Hulthén	*[9]	_	_	_	_	_	_	
+5-6	99-104	målar	*[9]	_	_	_	_	_	_	
+5-7	105-108	upp	*[9]	_	_	_	_	_	_	
+5-8	109-111	av	*[9]	_	_	_	_	_	_	
+5-9	112-133	övervakningssamhället	*[9]	_	_	_	_	_	_	
+5-10	134-136	är	_	Target[1]	5-1[9]	false[1]	1[1]	_	_	
+5-11	137-143	tyvärr	_	Target[1]	5-1[9]	false[1]	1[1]	_	_	
+5-12	144-148	helt	_	Target[1]	5-1[9]	false[1]	1[1]	_	_	
+5-13	149-153	sann	_	Target[1]	5-1[9]	false[1]	1[1]	_	_	
+5-14	154-155	(	_	_	_	_	_	_	_	
+5-15	155-165	Brännpunkt	_	_	_	_	_	_	_	
+5-16	166-167	6	_	_	_	_	_	_	_	
+5-17	167-168	/	_	_	_	_	_	_	_	
+5-18	168-169	8	_	_	_	_	_	_	_	
+5-19	169-170	)	_	_	_	_	_	_	_	
+5-20	170-171	.	_	_	_	_	_	_	_	
+
+#Text=Det är inte en dystopi vi kanske är på väg mot.
+6-1	172-175	Det	_	_	_	_	_	_	_	
+6-2	176-178	är	_	_	_	_	_	_	_	
+6-3	179-183	inte	_	_	_	_	_	_	_	
+6-4	184-186	en	_	_	_	_	_	_	_	
+6-5	187-194	dystopi	*	Target	6-5	false	1	_	_	
+6-6	195-197	vi	_	_	_	_	_	_	_	
+6-7	198-204	kanske	_	_	_	_	_	_	_	
+6-8	205-207	är	_	_	_	_	_	_	_	
+6-9	208-210	på	_	_	_	_	_	_	_	
+6-10	211-214	väg	_	_	_	_	_	_	_	
+6-11	215-218	mot	_	_	_	_	_	_	_	
+6-12	218-219	.	_	_	_	_	_	_	_	
+
+#Text=Det är en verklighet vi alla befinner oss mitt uppe i, skriver Anna Troberg, Piratpartiet.
+7-1	220-223	Det	_	_	_	_	_	_	_	
+7-2	224-226	är	_	_	_	_	_	_	_	
+7-3	227-229	en	_	_	_	_	_	_	_	
+7-4	230-240	verklighet	_	_	_	_	_	_	_	
+7-5	241-243	vi	_	_	_	_	_	_	_	
+7-6	244-248	alla	_	_	_	_	_	_	_	
+7-7	249-257	befinner	_	_	_	_	_	_	_	
+7-8	258-261	oss	_	_	_	_	_	_	_	
+7-9	262-266	mitt	_	_	_	_	_	_	_	
+7-10	267-271	uppe	_	_	_	_	_	_	_	
+7-11	272-273	i	_	_	_	_	_	_	_	
+7-12	273-274	,	_	_	_	_	_	_	_	
+7-13	275-282	skriver	_	_	_	_	_	_	_	
+7-14	283-287	Anna	_	_	_	_	_	_	_	
+7-15	288-295	Troberg	_	_	_	_	_	_	_	
+7-16	295-296	,	_	_	_	_	_	_	_	
+7-17	297-309	Piratpartiet	_	_	_	_	_	_	_	
+7-18	309-310	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	312-313	#	_	_	_	_	_	_	_	
+8-2	313-314	P	_	_	_	_	_	_	_	
+8-3	315-318	IMM	_	_	_	_	_	_	_	
+8-4	318-319	.	_	_	_	_	_	_	_	
+
+#Text=En ny integritetsdebatt skulle blottlägga det pinsamt bleka motståndet mot övervakningshysterin.Anna Troberg.
+9-1	321-323	En	_	_	_	_	_	_	_	
+9-2	324-326	ny	_	_	_	_	_	_	_	
+9-3	327-344	integritetsdebatt	_	_	_	_	_	_	_	
+9-4	345-351	skulle	_	_	_	_	_	_	_	
+9-5	352-362	blottlägga	_	_	_	_	_	_	_	
+9-6	363-366	det	_	Target[2]	9-9[10]	false[2]	1[2]	_	_	
+9-7	367-374	pinsamt	_	Target[2]	9-9[10]	false[2]	1[2]	_	_	
+9-8	375-380	bleka	_	Target[2]	9-9[10]	false[2]	1[2]	_	_	
+9-9	381-391	motståndet	*[10]	_	_	_	_	_	_	
+9-10	392-395	mot	*[10]	_	_	_	_	_	_	
+9-11	396-421	övervakningshysterin.Anna	*[10]	_	_	_	_	_	_	
+9-12	422-429	Troberg	_	_	_	_	_	_	_	
+9-13	429-430	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	432-433	#	_	_	_	_	_	_	_	
+10-2	433-434	P	_	_	_	_	_	_	_	
+10-3	435-438	IMM	_	_	_	_	_	_	_	
+10-4	438-439	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	441-444	Det	_	_	_	_	_	_	_	
+11-2	445-448	här	_	_	_	_	_	_	_	
+11-3	449-451	är	_	_	_	_	_	_	_	
+11-4	452-454	en	_	_	_	_	_	_	_	
+11-5	455-469	argumenterande	_	_	_	_	_	_	_	
+11-6	470-474	text	_	_	_	_	_	_	_	
+11-7	475-478	med	_	_	_	_	_	_	_	
+11-8	479-484	syfte	_	_	_	_	_	_	_	
+11-9	485-488	att	_	_	_	_	_	_	_	
+11-10	489-496	påverka	_	_	_	_	_	_	_	
+11-11	496-497	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	498-507	Åsikterna	_	_	_	_	_	_	_	
+12-2	508-511	som	_	_	_	_	_	_	_	
+12-3	512-520	uttrycks	_	_	_	_	_	_	_	
+12-4	521-523	är	_	_	_	_	_	_	_	
+12-5	524-535	skribentens	_	_	_	_	_	_	_	
+12-6	536-540	egna	_	_	_	_	_	_	_	
+12-7	540-541	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	543-544	#	_	_	_	_	_	_	_	
+13-2	544-545	P	_	_	_	_	_	_	_	
+13-3	546-549	IMM	_	_	_	_	_	_	_	
+13-4	549-550	.	_	_	_	_	_	_	_	
+
+#Text=Den skamlösa amerikanska övervakningen i NSA:s regi är dock bara en av övervakningssamhällets byggstenar.
+14-1	552-555	Den	_	Target[3]	14-4[11]	false[3]	1[3]	_	_	
+14-2	556-564	skamlösa	_	Target[3]	14-4[11]	false[3]	1[3]	_	_	
+14-3	565-576	amerikanska	_	Target[3]	14-4[11]	false[3]	1[3]	_	_	
+14-4	577-590	övervakningen	*[11]	_	_	_	_	_	_	
+14-5	591-592	i	*[11]	_	_	_	_	_	_	
+14-6	593-596	NSA	*[11]	_	_	_	_	_	_	
+14-7	596-597	:	*[11]	_	_	_	_	_	_	
+14-8	597-598	s	*[11]	_	_	_	_	_	_	
+14-9	599-603	regi	*[11]	_	_	_	_	_	_	
+14-10	604-606	är	_	_	_	_	_	_	_	
+14-11	607-611	dock	_	_	_	_	_	_	_	
+14-12	612-616	bara	_	_	_	_	_	_	_	
+14-13	617-619	en	_	_	_	_	_	_	_	
+14-14	620-622	av	_	_	_	_	_	_	_	
+14-15	623-645	övervakningssamhällets	_	_	_	_	_	_	_	
+14-16	646-656	byggstenar	_	_	_	_	_	_	_	
+14-17	656-657	.	_	_	_	_	_	_	_	
+
+#Text=I detta faktum finner man också förklaringen till de svenska riksdagspartiernas tystnad kring Edward Snowdens avslöjanden om den amerikanska övervakningen.
+15-1	658-659	I	_	_	_	_	_	_	_	
+15-2	660-665	detta	_	_	_	_	_	_	_	
+15-3	666-672	faktum	_	_	_	_	_	_	_	
+15-4	673-679	finner	_	_	_	_	_	_	_	
+15-5	680-683	man	_	_	_	_	_	_	_	
+15-6	684-689	också	_	_	_	_	_	_	_	
+15-7	690-702	förklaringen	_	_	_	_	_	_	_	
+15-8	703-707	till	_	_	_	_	_	_	_	
+15-9	708-710	de	_	_	_	_	_	_	_	
+15-10	711-718	svenska	_	_	_	_	_	_	_	
+15-11	719-737	riksdagspartiernas	_	_	_	_	_	_	_	
+15-12	738-745	tystnad	_	_	_	_	_	_	_	
+15-13	746-751	kring	_	_	_	_	_	_	_	
+15-14	752-758	Edward	_	_	_	_	_	_	_	
+15-15	759-767	Snowdens	_	_	_	_	_	_	_	
+15-16	768-779	avslöjanden	_	_	_	_	_	_	_	
+15-17	780-782	om	_	_	_	_	_	_	_	
+15-18	783-786	den	_	_	_	_	_	_	_	
+15-19	787-798	amerikanska	_	_	_	_	_	_	_	
+15-20	799-812	övervakningen	_	_	_	_	_	_	_	
+15-21	812-813	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	815-816	#	_	_	_	_	_	_	_	
+16-2	816-817	P	_	_	_	_	_	_	_	
+16-3	818-821	IMM	_	_	_	_	_	_	_	
+16-4	821-822	.	_	_	_	_	_	_	_	
+
+#Text=Svenska riksdagspolitiker vet att i samma ögonblick som de går med på att diskutera NSA:s övervakning, så kommer de också att tvingas tala om övervakning i svensk regi.
+17-1	824-831	Svenska	_	_	_	_	_	_	_	
+17-2	832-849	riksdagspolitiker	_	_	_	_	_	_	_	
+17-3	850-853	vet	_	_	_	_	_	_	_	
+17-4	854-857	att	_	_	_	_	_	_	_	
+17-5	858-859	i	_	_	_	_	_	_	_	
+17-6	860-865	samma	_	_	_	_	_	_	_	
+17-7	866-875	ögonblick	_	_	_	_	_	_	_	
+17-8	876-879	som	_	_	_	_	_	_	_	
+17-9	880-882	de	_	_	_	_	_	_	_	
+17-10	883-886	går	_	_	_	_	_	_	_	
+17-11	887-890	med	_	_	_	_	_	_	_	
+17-12	891-893	på	_	_	_	_	_	_	_	
+17-13	894-897	att	_	_	_	_	_	_	_	
+17-14	898-907	diskutera	_	_	_	_	_	_	_	
+17-15	908-911	NSA	_	_	_	_	_	_	_	
+17-16	911-912	:	_	_	_	_	_	_	_	
+17-17	912-913	s	_	_	_	_	_	_	_	
+17-18	914-925	övervakning	_	_	_	_	_	_	_	
+17-19	925-926	,	_	_	_	_	_	_	_	
+17-20	927-929	så	_	_	_	_	_	_	_	
+17-21	930-936	kommer	_	_	_	_	_	_	_	
+17-22	937-939	de	_	_	_	_	_	_	_	
+17-23	940-945	också	_	_	_	_	_	_	_	
+17-24	946-949	att	_	_	_	_	_	_	_	
+17-25	950-957	tvingas	_	_	_	_	_	_	_	
+17-26	958-962	tala	_	_	_	_	_	_	_	
+17-27	963-965	om	_	_	_	_	_	_	_	
+17-28	966-977	övervakning	_	_	_	_	_	_	_	
+17-29	978-979	i	_	_	_	_	_	_	_	
+17-30	980-986	svensk	_	_	_	_	_	_	_	
+17-31	987-991	regi	_	_	_	_	_	_	_	
+17-32	991-992	.	_	_	_	_	_	_	_	
+
+#Text=Det vill säga, sådan övervakning de själva varit med och rullat ut den röda mattan för.
+18-1	993-996	Det	_	_	_	_	_	_	_	
+18-2	997-1001	vill	_	_	_	_	_	_	_	
+18-3	1002-1006	säga	_	_	_	_	_	_	_	
+18-4	1006-1007	,	_	_	_	_	_	_	_	
+18-5	1008-1013	sådan	_	_	_	_	_	_	_	
+18-6	1014-1025	övervakning	_	_	_	_	_	_	_	
+18-7	1026-1028	de	_	_	_	_	_	_	_	
+18-8	1029-1035	själva	_	_	_	_	_	_	_	
+18-9	1036-1041	varit	_	_	_	_	_	_	_	
+18-10	1042-1045	med	_	_	_	_	_	_	_	
+18-11	1046-1049	och	_	_	_	_	_	_	_	
+18-12	1050-1056	rullat	_	_	_	_	_	_	_	
+18-13	1057-1059	ut	_	_	_	_	_	_	_	
+18-14	1060-1063	den	_	_	_	_	_	_	_	
+18-15	1064-1068	röda	_	_	_	_	_	_	_	
+18-16	1069-1075	mattan	_	_	_	_	_	_	_	
+18-17	1076-1079	för	_	_	_	_	_	_	_	
+18-18	1079-1080	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1082-1083	#	_	_	_	_	_	_	_	
+19-2	1083-1084	P	_	_	_	_	_	_	_	
+19-3	1085-1088	IMM	_	_	_	_	_	_	_	
+19-4	1088-1089	.	_	_	_	_	_	_	_	
+
+#Text=Man skulle tvingas att tala om FRA-lagen, implementeringen av EU:s datalagringsdirektiv och uppluckringen av lagen om elektronisk kommunikation (LEK).
+20-1	1091-1094	Man	_	_	_	_	_	_	_	
+20-2	1095-1101	skulle	_	_	_	_	_	_	_	
+20-3	1102-1109	tvingas	_	_	_	_	_	_	_	
+20-4	1110-1113	att	_	_	_	_	_	_	_	
+20-5	1114-1118	tala	_	_	_	_	_	_	_	
+20-6	1119-1121	om	_	_	_	_	_	_	_	
+20-7	1122-1131	FRA-lagen	_	_	_	_	_	_	_	
+20-8	1131-1132	,	_	_	_	_	_	_	_	
+20-9	1133-1149	implementeringen	_	_	_	_	_	_	_	
+20-10	1150-1152	av	_	_	_	_	_	_	_	
+20-11	1153-1155	EU	_	_	_	_	_	_	_	
+20-12	1155-1156	:	_	_	_	_	_	_	_	
+20-13	1156-1157	s	_	_	_	_	_	_	_	
+20-14	1158-1178	datalagringsdirektiv	_	_	_	_	_	_	_	
+20-15	1179-1182	och	_	_	_	_	_	_	_	
+20-16	1183-1196	uppluckringen	*	Target	20-16	false	2	_	_	
+20-17	1197-1199	av	_	_	_	_	_	_	_	
+20-18	1200-1205	lagen	_	_	_	_	_	_	_	
+20-19	1206-1208	om	_	_	_	_	_	_	_	
+20-20	1209-1220	elektronisk	_	_	_	_	_	_	_	
+20-21	1221-1234	kommunikation	_	_	_	_	_	_	_	
+20-22	1235-1236	(	_	_	_	_	_	_	_	
+20-23	1236-1239	LEK	_	_	_	_	_	_	_	
+20-24	1239-1240	)	_	_	_	_	_	_	_	
+20-25	1240-1241	.	_	_	_	_	_	_	_	
+
+#Text=Man skulle också tvingas in i samtal om exakt hur kort USA:s koppel på Sverige egentligen är.
+21-1	1242-1245	Man	_	_	_	_	_	_	_	
+21-2	1246-1252	skulle	_	_	_	_	_	_	_	
+21-3	1253-1258	också	_	_	_	_	_	_	_	
+21-4	1259-1266	tvingas	_	_	_	_	_	_	_	
+21-5	1267-1269	in	_	_	_	_	_	_	_	
+21-6	1270-1271	i	_	_	_	_	_	_	_	
+21-7	1272-1278	samtal	_	_	_	_	_	_	_	
+21-8	1279-1281	om	_	_	_	_	_	_	_	
+21-9	1282-1287	exakt	_	_	_	_	_	_	_	
+21-10	1288-1291	hur	_	_	_	_	_	_	_	
+21-11	1292-1296	kort	_	_	_	_	_	_	_	
+21-12	1297-1300	USA	_	_	_	_	_	_	_	
+21-13	1300-1301	:	_	_	_	_	_	_	_	
+21-14	1301-1302	s	_	_	_	_	_	_	_	
+21-15	1303-1309	koppel	_	_	_	_	_	_	_	
+21-16	1310-1312	på	_	_	_	_	_	_	_	
+21-17	1313-1320	Sverige	_	_	_	_	_	_	_	
+21-18	1321-1331	egentligen	_	_	_	_	_	_	_	
+21-19	1332-1334	är	_	_	_	_	_	_	_	
+21-20	1334-1335	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1337-1338	#	_	_	_	_	_	_	_	
+22-2	1338-1339	P	_	_	_	_	_	_	_	
+22-3	1340-1343	IMM	_	_	_	_	_	_	_	
+22-4	1343-1344	.	_	_	_	_	_	_	_	
+
+#Text=Regeringspartierna vill inte diskutera sin oproportionerliga terrornoja.
+23-1	1346-1364	Regeringspartierna	*	_	_	_	_	_	_	
+23-2	1365-1369	vill	_	Source;Target[4]	23-1;23-4[12]	false[4]	2[4]	_	_	
+23-3	1370-1374	inte	_	Source;Target[4]	23-1;23-4[12]	false[4]	2[4]	_	_	
+23-4	1375-1384	diskutera	*[12]	_	_	_	_	_	_	
+23-5	1385-1388	sin	*[12]	_	_	_	_	_	_	
+23-6	1389-1406	oproportionerliga	*[12]	_	_	_	_	_	_	
+23-7	1407-1417	terrornoja	*[12]	_	_	_	_	_	_	
+23-8	1417-1418	.	_	_	_	_	_	_	_	
+
+#Text=Den noja som bland annat fått Göteborgspolisen att med dragna vapen sparka in dörren hos oskyldiga barnfamiljer.
+24-1	1419-1422	Den	_	_	_	_	_	_	_	
+24-2	1423-1427	noja	_	_	_	_	_	_	_	
+24-3	1428-1431	som	_	_	_	_	_	_	_	
+24-4	1432-1437	bland	_	_	_	_	_	_	_	
+24-5	1438-1443	annat	_	_	_	_	_	_	_	
+24-6	1444-1448	fått	_	_	_	_	_	_	_	
+24-7	1449-1465	Göteborgspolisen	_	_	_	_	_	_	_	
+24-8	1466-1469	att	_	_	_	_	_	_	_	
+24-9	1470-1473	med	_	_	_	_	_	_	_	
+24-10	1474-1480	dragna	_	_	_	_	_	_	_	
+24-11	1481-1486	vapen	_	_	_	_	_	_	_	
+24-12	1487-1493	sparka	_	_	_	_	_	_	_	
+24-13	1494-1496	in	_	_	_	_	_	_	_	
+24-14	1497-1503	dörren	_	_	_	_	_	_	_	
+24-15	1504-1507	hos	_	_	_	_	_	_	_	
+24-16	1508-1517	oskyldiga	_	_	_	_	_	_	_	
+24-17	1518-1530	barnfamiljer	_	_	_	_	_	_	_	
+24-18	1530-1531	.	_	_	_	_	_	_	_	
+
+#Text=Man vill inte dra upp FRA:s systematiska arrogans inför de regler de har att följa.
+25-1	1532-1535	Man	*	_	_	_	_	_	_	
+25-2	1536-1540	vill	_	Target;Source[5]	25-4[13];25-1	false[5]	2[5]	_	_	
+25-3	1541-1545	inte	_	Target;Source[5]	25-4[13];25-1	false[5]	2[5]	_	_	
+25-4	1546-1549	dra	*[13]	_	_	_	_	_	_	
+25-5	1550-1553	upp	*[13]	_	_	_	_	_	_	
+25-6	1554-1557	FRA	*[13]	_	_	_	_	_	_	
+25-7	1557-1558	:	*[13]	_	_	_	_	_	_	
+25-8	1558-1559	s	*[13]	_	_	_	_	_	_	
+25-9	1560-1572	systematiska	*[13]	_	_	_	_	_	_	
+25-10	1573-1581	arrogans	*[13]	_	_	_	_	_	_	
+25-11	1582-1587	inför	*[13]	_	_	_	_	_	_	
+25-12	1588-1590	de	*[13]	_	_	_	_	_	_	
+25-13	1591-1597	regler	*[13]	_	_	_	_	_	_	
+25-14	1598-1600	de	*[13]	_	_	_	_	_	_	
+25-15	1601-1604	har	*[13]	_	_	_	_	_	_	
+25-16	1605-1608	att	*[13]	_	_	_	_	_	_	
+25-17	1609-1614	följa	*[13]	_	_	_	_	_	_	
+25-18	1614-1615	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	1617-1618	#	_	_	_	_	_	_	_	
+26-2	1618-1619	P	_	_	_	_	_	_	_	
+26-3	1620-1623	IMM	_	_	_	_	_	_	_	
+26-4	1623-1624	.	_	_	_	_	_	_	_	
+
+#Text=Inte heller oppositionspartierna är intresserade av en ny integritetsdebatt.
+27-1	1626-1630	Inte	_	_	_	false	2	_	_	
+27-2	1631-1637	heller	_	_	_	_	_	_	_	
+27-3	1638-1658	oppositionspartierna	*	_	_	_	_	_	_	
+27-4	1659-1661	är	_	Source;Target[6]	27-3;27-7[14]	false[6]	2[6]	27-1[0_6]	_	
+27-5	1662-1674	intresserade	_	Source;Target[6]	27-3;27-7[14]	false[6]	2[6]	_	_	
+27-6	1675-1677	av	_	Source;Target[6]	27-3;27-7[14]	false[6]	2[6]	_	_	
+27-7	1678-1680	en	*[14]	_	_	_	_	_	_	
+27-8	1681-1683	ny	*[14]	_	_	_	_	_	_	
+27-9	1684-1701	integritetsdebatt	*[14]	_	_	_	_	_	_	
+27-10	1701-1702	.	_	_	_	_	_	_	_	
+
+#Text=En sådan debatt skulle blottlägga det pinsamt bleka motstånd mot övervakningshysterin som de presterat de senaste åren.
+28-1	1703-1705	En	_	_	_	_	_	_	_	
+28-2	1706-1711	sådan	_	_	_	_	_	_	_	
+28-3	1712-1718	debatt	_	_	_	_	_	_	_	
+28-4	1719-1725	skulle	_	_	_	_	_	_	_	
+28-5	1726-1736	blottlägga	_	_	_	_	_	_	_	
+28-6	1737-1740	det	_	Target[7]	28-9[15]	false[7]	1[7]	_	_	
+28-7	1741-1748	pinsamt	_	Target[7]	28-9[15]	false[7]	1[7]	_	_	
+28-8	1749-1754	bleka	_	Target[7]	28-9[15]	false[7]	1[7]	_	_	
+28-9	1755-1763	motstånd	*[15]	_	_	_	_	_	_	
+28-10	1764-1767	mot	*[15]	_	_	_	_	_	_	
+28-11	1768-1788	övervakningshysterin	*[15]	_	_	_	_	_	_	
+28-12	1789-1792	som	_	_	_	_	_	_	_	
+28-13	1793-1795	de	_	_	_	_	_	_	_	
+28-14	1796-1805	presterat	_	_	_	_	_	_	_	
+28-15	1806-1808	de	_	_	_	_	_	_	_	
+28-16	1809-1816	senaste	_	_	_	_	_	_	_	
+28-17	1817-1821	åren	_	_	_	_	_	_	_	
+28-18	1821-1822	.	_	_	_	_	_	_	_	
+
+#Text=Sporadiska och oengagerade inhopp i elfte timmen är inget som drar röster från de som verkligen bryr sig om sin personliga integritet.
+29-1	1823-1833	Sporadiska	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-2	1834-1837	och	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-3	1838-1849	oengagerade	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-4	1850-1856	inhopp	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-5	1857-1858	i	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-6	1859-1864	elfte	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-7	1865-1871	timmen	*[16]	Target[8]	29-1[16]	false[8]	1[8]	_	_	
+29-8	1872-1874	är	_	_	_	_	_	_	_	
+29-9	1875-1880	inget	_	_	_	_	_	_	_	
+29-10	1881-1884	som	_	_	_	_	_	_	_	
+29-11	1885-1889	drar	_	_	_	_	_	_	_	
+29-12	1890-1896	röster	_	_	_	_	_	_	_	
+29-13	1897-1901	från	_	_	_	_	_	_	_	
+29-14	1902-1904	de	_	_	_	_	_	_	_	
+29-15	1905-1908	som	_	_	_	_	_	_	_	
+29-16	1909-1918	verkligen	_	_	_	_	_	_	_	
+29-17	1919-1923	bryr	_	_	_	_	_	_	_	
+29-18	1924-1927	sig	_	_	_	_	_	_	_	
+29-19	1928-1930	om	_	_	_	_	_	_	_	
+29-20	1931-1934	sin	_	_	_	_	_	_	_	
+29-21	1935-1945	personliga	_	_	_	_	_	_	_	
+29-22	1946-1956	integritet	_	_	_	_	_	_	_	
+29-23	1956-1957	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	1959-1960	#	_	_	_	_	_	_	_	
+30-2	1960-1961	P	_	_	_	_	_	_	_	
+30-3	1962-1965	IMM	_	_	_	_	_	_	_	
+30-4	1965-1966	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+31-1	1968-1981	Skräddarsydda	_	_	_	_	_	_	_	
+31-2	1982-1988	kurser	_	_	_	_	_	_	_	
+31-3	1989-1990	i	_	_	_	_	_	_	_	
+31-4	1991-1996	ämnen	_	_	_	_	_	_	_	
+31-5	1997-2000	som	_	_	_	_	_	_	_	
+31-6	2001-2012	intresserar	_	_	_	_	_	_	_	
+31-7	2013-2016	och	_	_	_	_	_	_	_	
+31-8	2017-2026	engagerar	_	_	_	_	_	_	_	
+31-9	2027-2031	både	_	_	_	_	_	_	_	
+31-10	2032-2037	kropp	_	_	_	_	_	_	_	
+31-11	2038-2041	och	_	_	_	_	_	_	_	
+31-12	2042-2046	själ	_	_	_	_	_	_	_	
+31-13	2046-2047	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2049-2050	#	_	_	_	_	_	_	_	
+32-2	2050-2051	P	_	_	_	_	_	_	_	
+32-3	2052-2055	IMM	_	_	_	_	_	_	_	
+32-4	2055-2056	.	_	_	_	_	_	_	_	
+
+#Text=Regeringen och oppositionspartierna sitter därför lugnt ner tillsammans i båten och undviker nogsamt att ens närma sig detta minerade området inför supervalåret 2014.
+33-1	2058-2068	Regeringen	*[17]	_	_	_	_	_	34-1[0_17]	
+33-2	2069-2072	och	*[17]	_	_	_	_	_	_	
+33-3	2073-2093	oppositionspartierna	*[17]	_	_	_	_	_	_	
+33-4	2094-2100	sitter	_	_	_	_	_	_	_	
+33-5	2101-2107	därför	_	_	_	_	_	_	_	
+33-6	2108-2113	lugnt	_	_	_	_	_	_	_	
+33-7	2114-2117	ner	_	_	_	_	_	_	_	
+33-8	2118-2129	tillsammans	_	_	_	_	_	_	_	
+33-9	2130-2131	i	_	_	_	_	_	_	_	
+33-10	2132-2137	båten	_	_	_	_	_	_	_	
+33-11	2138-2141	och	_	_	_	_	_	_	_	
+33-12	2142-2150	undviker	_	_	_	_	_	_	_	
+33-13	2151-2158	nogsamt	_	_	_	_	_	_	_	
+33-14	2159-2162	att	_	_	_	_	_	_	_	
+33-15	2163-2166	ens	_	_	_	_	_	_	_	
+33-16	2167-2172	närma	_	_	_	_	_	_	_	
+33-17	2173-2176	sig	_	_	_	_	_	_	_	
+33-18	2177-2182	detta	_	_	_	_	_	_	_	
+33-19	2183-2191	minerade	_	_	_	_	_	_	_	
+33-20	2192-2199	området	_	_	_	_	_	_	_	
+33-21	2200-2205	inför	_	_	_	_	_	_	_	
+33-22	2206-2218	supervalåret	_	_	_	_	_	_	_	
+33-23	2219-2223	2014	_	_	_	_	_	_	_	
+33-24	2223-2224	.	_	_	_	_	_	_	_	
+
+#Text=De vill segla in i en ny mandatperiod utan några integritetsstormar.
+34-1	2225-2227	De	*	_	_	_	_	_	_	
+34-2	2228-2232	vill	_	Source;Target	34-1;34-3[18]	false	3	_	_	
+34-3	2233-2238	segla	*[18]	_	_	_	_	_	_	
+34-4	2239-2241	in	*[18]	_	_	_	_	_	_	
+34-5	2242-2243	i	*[18]	_	_	_	_	_	_	
+34-6	2244-2246	en	*[18]	_	_	_	_	_	_	
+34-7	2247-2249	ny	*[18]	_	_	_	_	_	_	
+34-8	2250-2262	mandatperiod	*[18]	_	_	_	_	_	_	
+34-9	2263-2267	utan	*[18]	_	_	_	_	_	_	
+34-10	2268-2273	några	*[18]	_	_	_	_	_	_	
+34-11	2274-2292	integritetsstormar	*[18]	_	_	_	_	_	_	
+34-12	2292-2293	.	_	_	_	_	_	_	_	
+
+#Text=Det kan de glömma.
+35-1	2294-2297	Det	_	_	_	_	_	_	_	
+35-2	2298-2301	kan	_	_	_	_	_	_	_	
+35-3	2302-2304	de	_	_	_	_	_	_	_	
+35-4	2305-2311	glömma	_	_	_	_	_	_	_	
+35-5	2311-2312	.	_	_	_	false	2	_	_	
+
+#Text=De guppar fram i piratvatten och det drar ihop sig till storm.
+36-1	2313-2315	De	_	_	_	_	_	_	_	
+36-2	2316-2322	guppar	_	_	_	_	_	_	_	
+36-3	2323-2327	fram	_	_	_	_	_	_	_	
+36-4	2328-2329	i	_	_	_	_	_	_	_	
+36-5	2330-2341	piratvatten	_	_	_	_	_	_	_	
+36-6	2342-2345	och	_	_	_	_	_	_	_	
+36-7	2346-2349	det	_	_	_	_	_	_	_	
+36-8	2350-2354	drar	_	_	_	_	_	_	_	
+36-9	2355-2359	ihop	_	_	_	_	_	_	_	
+36-10	2360-2363	sig	_	_	_	_	_	_	_	
+36-11	2364-2368	till	_	_	_	_	_	_	_	
+36-12	2369-2374	storm	_	_	_	_	_	_	_	
+36-13	2374-2375	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2377-2378	#	_	_	_	_	_	_	_	
+37-2	2378-2379	P	_	_	_	_	_	_	_	
+37-3	2380-2383	IMM	_	_	_	_	_	_	_	
+37-4	2383-2384	.	_	_	_	_	_	_	_	
+
+#Text=ANNA TROBERG.
+38-1	2386-2390	ANNA	_	_	_	_	_	_	_	
+38-2	2391-2398	TROBERG	_	_	_	_	_	_	_	
+38-3	2398-2399	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2401-2402	#	_	_	_	_	_	_	_	
+39-2	2402-2403	P	_	_	_	_	_	_	_	
+39-3	2404-2407	IMM	_	_	_	_	_	_	_	
+39-4	2407-2408	.	_	_	_	_	_	_	_	
+
+#Text=partiledare Piratpartiet.
+40-1	2410-2421	partiledare	_	_	_	_	_	_	_	
+40-2	2422-2434	Piratpartiet	_	_	_	_	_	_	_	
+40-3	2434-2435	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2437-2438	#	_	_	_	_	_	_	_	
+41-2	2438-2439	P	_	_	_	_	_	_	_	
+41-3	2440-2443	IMM	_	_	_	_	_	_	_	
+41-4	2443-2444	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+42-1	2446-2454	Redaktör	_	_	_	_	_	_	_	
+42-2	2454-2455	:	_	_	_	_	_	_	_	
+42-3	2456-2462	Carina	_	_	_	_	_	_	_	
+42-4	2463-2471	Stensson	_	_	_	_	_	_	_	
+42-5	2471-2472	,	_	_	_	_	_	_	_	
+42-6	2473-2483	Biträdande	_	_	_	_	_	_	_	
+42-7	2484-2492	redaktör	_	_	_	_	_	_	_	
+42-8	2492-2493	:	_	_	_	_	_	_	_	
+42-9	2494-2499	Björn	_	_	_	_	_	_	_	
+42-10	2500-2506	Jorner	_	_	_	_	_	_	_	
+42-11	2506-2507	,	_	_	_	_	_	_	_	
+42-12	2508-2512	Mejl	_	_	_	_	_	_	_	
+42-13	2512-2513	:	_	_	_	_	_	_	_	
+42-14	2514-2520	debatt	_	_	_	_	_	_	_	
+42-15	2520-2521	@	_	_	_	_	_	_	_	
+42-16	2521-2527	svd.se	_	_	_	_	_	_	_	
+42-17	2527-2528	,	_	_	_	_	_	_	_	
+42-18	2529-2542	Telefonnummer	_	_	_	_	_	_	_	
+42-19	2542-2543	:	_	_	_	_	_	_	_	
+42-20	2544-2546	08	_	_	_	_	_	_	_	
+42-21	2546-2547	-	_	_	_	_	_	_	_	
+42-22	2547-2553	135149	_	_	_	_	_	_	_	
+42-23	2553-2554	,	_	_	_	_	_	_	_	
+42-24	2555-2562	Twitter	_	_	_	_	_	_	_	
+42-25	2562-2563	:	_	_	_	_	_	_	_	
+42-26	2564-2565	@	_	_	_	_	_	_	_	
+42-27	2565-2574	SvDDebatt	_	_	_	_	_	_	_	
+42-28	2574-2575	,	_	_	_	_	_	_	_	
+42-29	2576-2584	Facebook	_	_	_	_	_	_	_	
+42-30	2584-2585	:	_	_	_	_	_	_	_	
+42-31	2586-2589	SvD	_	_	_	_	_	_	_	
+42-32	2590-2596	Debatt	_	_	_	_	_	_	_	
+42-33	2596-2597	.	_	_	_	_	_	_	_	

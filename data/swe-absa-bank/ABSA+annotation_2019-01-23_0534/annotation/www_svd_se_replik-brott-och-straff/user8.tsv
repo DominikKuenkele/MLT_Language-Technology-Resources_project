@@ -1,0 +1,569 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=REPLIK Brott och straff.
+3-1	18-24	REPLIK	_	_	_	_	_	_	
+3-2	25-30	Brott	_	_	_	_	_	_	
+3-3	31-34	och	_	_	_	_	_	_	
+3-4	35-41	straff	_	_	_	_	_	_	
+3-5	41-42	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	44-45	#	_	_	_	_	_	_	
+4-2	45-46	P	_	_	_	_	_	_	
+4-3	47-50	IMM	_	_	_	_	_	_	
+4-4	50-51	.	_	_	_	_	_	_	
+
+#Text=Hägglund glömmer nämna hur brotten ska minskas.
+5-1	53-61	Hägglund	*	_	_	_	_	_	
+5-2	62-69	glömmer	_	Target[1]	5-1	false[1]	2[1]	_	
+5-3	70-75	nämna	_	Target[1]	5-1	false[1]	2[1]	_	
+5-4	76-79	hur	_	Target[1]	5-1	false[1]	2[1]	_	
+5-5	80-87	brotten	_	Target[1]	5-1	false[1]	2[1]	_	
+5-6	88-91	ska	_	Target[1]	5-1	false[1]	2[1]	_	
+5-7	92-99	minskas	_	Target[1]	5-1	false[1]	2[1]	_	
+5-8	99-100	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	102-103	#	_	_	_	_	_	_	
+6-2	103-104	P	_	_	_	_	_	_	
+6-3	105-108	IMM	_	_	_	_	_	_	
+6-4	108-109	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	111-114	Det	_	_	_	_	_	_	
+7-2	115-118	här	_	_	_	_	_	_	
+7-3	119-121	är	_	_	_	_	_	_	
+7-4	122-124	en	_	_	_	_	_	_	
+7-5	125-139	argumenterande	_	_	_	_	_	_	
+7-6	140-144	text	_	_	_	_	_	_	
+7-7	145-148	med	_	_	_	_	_	_	
+7-8	149-154	syfte	_	_	_	_	_	_	
+7-9	155-158	att	_	_	_	_	_	_	
+7-10	159-166	påverka	_	_	_	_	_	_	
+7-11	166-167	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	168-177	Åsikterna	_	_	_	_	_	_	
+8-2	178-181	som	_	_	_	_	_	_	
+8-3	182-190	uttrycks	_	_	_	_	_	_	
+8-4	191-193	är	_	_	_	_	_	_	
+8-5	194-205	skribentens	_	_	_	_	_	_	
+8-6	206-210	egna	_	_	_	_	_	_	
+8-7	210-211	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	213-214	#	_	_	_	_	_	_	
+9-2	214-215	P	_	_	_	_	_	_	
+9-3	216-219	IMM	_	_	_	_	_	_	
+9-4	219-220	.	_	_	_	_	_	_	
+
+#Text=Paulina Neuding (25/3) har helt rätt i att dagens kriminalpolitik präglas av en blandning av brist på idéer, plakatpolitik och uppgivenhet.
+10-1	222-229	Paulina	*[13]|*[14]	_	_	_	_	_	
+10-2	230-237	Neuding	*[13]|*[14]	_	_	_	_	_	
+10-3	238-239	(	_	_	_	_	_	_	
+10-4	239-241	25	_	_	_	_	_	_	
+10-5	241-242	/	_	_	_	_	_	_	
+10-6	242-243	3	_	_	_	_	_	_	
+10-7	243-244	)	_	_	_	_	_	_	
+10-8	245-248	har	_	Target[2]	10-1[13]	false[2]	5[2]	_	
+10-9	249-253	helt	_	Target[2]	10-1[13]	false[2]	5[2]	_	
+10-10	254-258	rätt	_	Target[2]	10-1[13]	false[2]	5[2]	_	
+10-11	259-260	i	_	_	_	_	_	_	
+10-12	261-264	att	_	_	_	_	_	_	
+10-13	265-271	dagens	*[15]	_	_	_	_	_	
+10-14	272-287	kriminalpolitik	*[15]	_	_	_	_	_	
+10-15	288-295	präglas	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-16	296-298	av	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-17	299-301	en	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-18	302-311	blandning	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-19	312-314	av	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-20	315-320	brist	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-21	321-323	på	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-22	324-329	idéer	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-23	329-330	,	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-24	331-344	plakatpolitik	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-25	345-348	och	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-26	349-360	uppgivenhet	_	Source;Target[3]	10-1[14];10-13[15]	false[3]	1[3]	_	
+10-27	360-361	.	_	_	_	_	_	_	
+
+#Text=Göran Hägglund illustrerar detta väl (1/4) när han ägnar en hel artikel åt att sjunga straffets lov.
+11-1	362-367	Göran	*[16]	_	_	_	_	_	
+11-2	368-376	Hägglund	*[16]	_	_	_	_	_	
+11-3	377-388	illustrerar	_	_	_	_	_	_	
+11-4	389-394	detta	_	_	_	_	_	_	
+11-5	395-398	väl	_	_	_	_	_	_	
+11-6	399-400	(	_	_	_	_	_	_	
+11-7	400-401	1	_	_	_	_	_	_	
+11-8	401-402	/	_	_	_	_	_	_	
+11-9	402-403	4	_	_	_	_	_	_	
+11-10	403-404	)	_	_	_	_	_	_	
+11-11	405-408	när	_	_	_	_	_	_	
+11-12	409-412	han	_	_	_	_	_	_	
+11-13	413-418	ägnar	_	_	_	_	_	_	
+11-14	419-421	en	_	_	_	_	_	_	
+11-15	422-425	hel	_	_	_	_	_	_	
+11-16	426-433	artikel	_	_	_	_	_	_	
+11-17	434-436	åt	_	_	_	_	_	_	
+11-18	437-440	att	_	_	_	_	_	_	
+11-19	441-447	sjunga	_	Target;Source[4]	11-20;11-1[16]	false[4]	5[4]	_	
+11-20	448-457	straffets	*	Target;Source[4]	11-20;11-1[16]	false[4]	5[4]	_	
+11-21	458-461	lov	_	Target;Source[4]	11-20;11-1[16]	false[4]	5[4]	_	
+11-22	461-462	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	464-465	#	_	_	_	_	_	_	
+12-2	465-466	P	_	_	_	_	_	_	
+12-3	467-470	IMM	_	_	_	_	_	_	
+12-4	470-471	.	_	_	_	_	_	_	
+
+#Text=För det första: Hägglund för en pseudodebatt eftersom ingen har förespråkat ett straffritt samhälle.
+13-1	473-476	För	_	_	_	_	_	_	
+13-2	477-480	det	_	_	_	_	_	_	
+13-3	481-487	första	_	_	_	_	_	_	
+13-4	487-488	:	_	_	_	_	_	_	
+13-5	489-497	Hägglund	_	_	_	_	_	_	
+13-6	498-501	för	_	_	_	_	_	_	
+13-7	502-504	en	_	_	_	_	_	_	
+13-8	505-517	pseudodebatt	_	_	_	_	_	_	
+13-9	518-526	eftersom	_	_	_	_	_	_	
+13-10	527-532	ingen	*	_	_	_	_	_	
+13-11	533-536	har	_	Source;Target[5]	13-10;13-13[17]	false[5]	4[5]	_	
+13-12	537-548	förespråkat	_	Source;Target[5]	13-10;13-13[17]	false[5]	4[5]	_	
+13-13	549-552	ett	*[17]	_	_	_	_	_	
+13-14	553-563	straffritt	*[17]	_	_	_	_	_	
+13-15	564-572	samhälle	*[17]	_	_	_	_	_	
+13-16	572-573	.	_	_	_	_	_	_	
+
+#Text=För det andra: Hur kan en socialminister, tillika ledare för ett kristet parti, skriva en kriminalpolitisk artikel utan att med ett enda ord nämna hur han vill minska brottsligheten?
+14-1	574-577	För	_	_	_	_	_	_	
+14-2	578-581	det	_	_	_	_	_	_	
+14-3	582-587	andra	_	_	_	_	_	_	
+14-4	587-588	:	_	_	_	_	_	_	
+14-5	589-592	Hur	_	_	_	_	_	_	
+14-6	593-596	kan	_	_	_	_	_	_	
+14-7	597-599	en	_	_	_	_	_	_	
+14-8	600-614	socialminister	_	_	_	_	_	_	
+14-9	614-615	,	_	_	_	_	_	_	
+14-10	616-623	tillika	_	_	_	_	_	_	
+14-11	624-630	ledare	_	_	_	_	_	_	
+14-12	631-634	för	_	_	_	_	_	_	
+14-13	635-638	ett	_	_	_	_	_	_	
+14-14	639-646	kristet	_	_	_	_	_	_	
+14-15	647-652	parti	_	_	_	_	_	_	
+14-16	652-653	,	_	_	_	_	_	_	
+14-17	654-660	skriva	_	_	_	_	_	_	
+14-18	661-663	en	_	_	_	_	_	_	
+14-19	664-680	kriminalpolitisk	_	_	_	_	_	_	
+14-20	681-688	artikel	_	_	_	_	_	_	
+14-21	689-693	utan	_	_	_	_	_	_	
+14-22	694-697	att	_	_	_	_	_	_	
+14-23	698-701	med	_	_	_	_	_	_	
+14-24	702-705	ett	_	_	_	_	_	_	
+14-25	706-710	enda	_	_	_	_	_	_	
+14-26	711-714	ord	_	_	_	_	_	_	
+14-27	715-720	nämna	_	_	_	_	_	_	
+14-28	721-724	hur	_	_	_	_	_	_	
+14-29	725-728	han	_	_	_	_	_	_	
+14-30	729-733	vill	_	_	_	_	_	_	
+14-31	734-740	minska	_	_	_	_	_	_	
+14-32	741-755	brottsligheten	_	_	_	_	_	_	
+14-33	755-756	?	_	_	_	_	_	_	
+
+#Text=Många av de förebyggande åtgärder som skulle minska antalet brottsoffer finns ju inom hans ansvarsområde, socialpolitiken.
+15-1	757-762	Många	_	_	_	_	_	_	
+15-2	763-765	av	_	_	_	_	_	_	
+15-3	766-768	de	_	_	_	_	_	_	
+15-4	769-781	förebyggande	_	_	_	_	_	_	
+15-5	782-790	åtgärder	_	_	_	_	_	_	
+15-6	791-794	som	_	_	_	_	_	_	
+15-7	795-801	skulle	_	_	_	_	_	_	
+15-8	802-808	minska	_	_	_	_	_	_	
+15-9	809-816	antalet	_	_	_	_	_	_	
+15-10	817-828	brottsoffer	_	_	_	_	_	_	
+15-11	829-834	finns	_	_	_	_	_	_	
+15-12	835-837	ju	_	_	_	_	_	_	
+15-13	838-842	inom	_	_	_	_	_	_	
+15-14	843-847	hans	_	_	_	_	_	_	
+15-15	848-861	ansvarsområde	_	_	_	_	_	_	
+15-16	861-862	,	_	_	_	_	_	_	
+15-17	863-878	socialpolitiken	_	_	_	_	_	_	
+15-18	878-879	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	881-882	#	_	_	_	_	_	_	
+16-2	882-883	P	_	_	_	_	_	_	
+16-3	884-887	IMM	_	_	_	false	3	_	
+16-4	887-888	.	_	_	_	_	_	_	
+
+#Text=Om Hägglund dessutom verkligen menar att den enskilde normalt oavsett omständigheter är en moralisk person som har i sin makt välja mellan rätt och fel, det vill säga att brott bara beror på bristande moral, så måste han mena att invandrare har 2,5 gånger sämre moral än svenskarna, att lågutbildade har 5,7 gånger sämre moral än högutbildade och att socialhjälpstagarna har 6,1 gånger sämre moral än övriga.
+17-1	890-892	Om	_	_	_	_	_	_	
+17-2	893-901	Hägglund	_	_	_	_	_	_	
+17-3	902-910	dessutom	_	_	_	_	_	_	
+17-4	911-920	verkligen	_	_	_	_	_	_	
+17-5	921-926	menar	_	_	_	_	_	_	
+17-6	927-930	att	_	_	_	_	_	_	
+17-7	931-934	den	_	_	_	_	_	_	
+17-8	935-943	enskilde	_	_	_	_	_	_	
+17-9	944-951	normalt	_	_	_	_	_	_	
+17-10	952-959	oavsett	_	_	_	_	_	_	
+17-11	960-974	omständigheter	_	_	_	_	_	_	
+17-12	975-977	är	_	_	_	_	_	_	
+17-13	978-980	en	_	_	_	_	_	_	
+17-14	981-989	moralisk	_	Source;Target	17-71[19];17-15	false	4	_	
+17-15	990-996	person	*	_	_	_	_	_	
+17-16	997-1000	som	_	_	_	_	_	_	
+17-17	1001-1004	har	_	_	_	_	_	_	
+17-18	1005-1006	i	_	_	_	_	_	_	
+17-19	1007-1010	sin	_	_	_	_	_	_	
+17-20	1011-1015	makt	_	_	_	_	_	_	
+17-21	1016-1021	välja	_	_	_	_	_	_	
+17-22	1022-1028	mellan	_	_	_	_	_	_	
+17-23	1029-1033	rätt	_	_	_	_	_	_	
+17-24	1034-1037	och	_	_	_	_	_	_	
+17-25	1038-1041	fel	_	_	_	_	_	_	
+17-26	1041-1042	,	_	_	_	_	_	_	
+17-27	1043-1046	det	_	_	_	_	_	_	
+17-28	1047-1051	vill	_	_	_	_	_	_	
+17-29	1052-1056	säga	_	_	_	_	_	_	
+17-30	1057-1060	att	_	_	_	_	_	_	
+17-31	1061-1066	brott	_	_	_	_	_	_	
+17-32	1067-1071	bara	_	_	_	_	_	_	
+17-33	1072-1077	beror	_	_	_	_	_	_	
+17-34	1078-1080	på	_	_	_	_	_	_	
+17-35	1081-1090	bristande	_	Source[6]	17-71[18]	false[6]	2[6]	_	
+17-36	1091-1096	moral	_	Source[6]	17-71[18]	false[6]	2[6]	_	
+17-37	1096-1097	,	_	_	_	_	_	_	
+17-38	1098-1100	så	_	_	_	_	_	_	
+17-39	1101-1106	måste	_	_	_	_	_	_	
+17-40	1107-1110	han	_	_	_	_	_	_	
+17-41	1111-1115	mena	_	_	_	_	_	_	
+17-42	1116-1119	att	_	_	_	_	_	_	
+17-43	1120-1130	invandrare	_	_	_	_	_	_	
+17-44	1131-1134	har	_	_	_	_	_	_	
+17-45	1135-1138	2,5	_	_	_	_	_	_	
+17-46	1139-1145	gånger	_	_	_	_	_	_	
+17-47	1146-1151	sämre	_	_	_	_	_	_	
+17-48	1152-1157	moral	_	_	_	_	_	_	
+17-49	1158-1160	än	_	_	_	_	_	_	
+17-50	1161-1171	svenskarna	_	_	_	_	_	_	
+17-51	1171-1172	,	_	_	_	_	_	_	
+17-52	1173-1176	att	_	_	_	_	_	_	
+17-53	1177-1189	lågutbildade	_	_	_	_	_	_	
+17-54	1190-1193	har	_	_	_	_	_	_	
+17-55	1194-1197	5,7	_	_	_	_	_	_	
+17-56	1198-1204	gånger	_	_	_	_	_	_	
+17-57	1205-1210	sämre	_	_	_	_	_	_	
+17-58	1211-1216	moral	_	_	_	_	_	_	
+17-59	1217-1219	än	_	_	_	_	_	_	
+17-60	1220-1232	högutbildade	_	_	_	_	_	_	
+17-61	1233-1236	och	_	_	_	_	_	_	
+17-62	1237-1240	att	_	_	_	_	_	_	
+17-63	1241-1260	socialhjälpstagarna	_	_	_	_	_	_	
+17-64	1261-1264	har	_	_	_	_	_	_	
+17-65	1265-1268	6,1	_	_	_	_	_	_	
+17-66	1269-1275	gånger	_	_	_	_	_	_	
+17-67	1276-1281	sämre	_	_	_	_	_	_	
+17-68	1282-1287	moral	_	_	_	_	_	_	
+17-69	1288-1290	än	_	_	_	_	_	_	
+17-70	1291-1297	övriga	_	_	_	_	_	_	
+17-71	1297-1298	.	*[18]|*[19]	_	_	_	_	_	
+
+#Text=Detta är skillnaderna i registrerad brottslighet mellan dessa grupper.
+18-1	1299-1304	Detta	_	_	_	_	_	_	
+18-2	1305-1307	är	_	_	_	_	_	_	
+18-3	1308-1320	skillnaderna	_	_	_	_	_	_	
+18-4	1321-1322	i	_	_	_	_	_	_	
+18-5	1323-1334	registrerad	_	_	_	_	_	_	
+18-6	1335-1347	brottslighet	_	_	_	_	_	_	
+18-7	1348-1354	mellan	_	_	_	_	_	_	
+18-8	1355-1360	dessa	_	_	_	_	_	_	
+18-9	1361-1368	grupper	_	_	_	_	_	_	
+18-10	1368-1369	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1371-1372	#	_	_	_	_	_	_	
+19-2	1372-1373	P	_	_	_	_	_	_	
+19-3	1374-1377	IMM	_	_	_	_	_	_	
+19-4	1377-1378	.	_	_	_	_	_	_	
+
+#Text=Vi är däremot mycket glada åt att årets pristagare i Stockholm Prize in Criminology, David Weisburd, uppmärksammas.
+20-1	1380-1382	Vi	*	_	_	_	_	_	
+20-2	1383-1385	är	_	_	_	_	_	_	
+20-3	1386-1393	däremot	_	_	_	_	_	_	
+20-4	1394-1400	mycket	_	Source;Target[7]	20-1;20-7[20]	false[7]	5[7]	_	
+20-5	1401-1406	glada	_	Source;Target[7]	20-1;20-7[20]	false[7]	5[7]	_	
+20-6	1407-1409	åt	_	Source;Target[7]	20-1;20-7[20]	false[7]	5[7]	_	
+20-7	1410-1413	att	*[20]	_	_	_	_	_	
+20-8	1414-1419	årets	*[20]	_	_	_	_	_	
+20-9	1420-1430	pristagare	*[20]	_	_	_	_	_	
+20-10	1431-1432	i	*[20]	_	_	_	_	_	
+20-11	1433-1442	Stockholm	*[20]	_	_	_	_	_	
+20-12	1443-1448	Prize	*[20]	_	_	_	_	_	
+20-13	1449-1451	in	*[20]	_	_	_	_	_	
+20-14	1452-1463	Criminology	*[20]	_	_	_	_	_	
+20-15	1463-1464	,	*[20]	_	_	_	_	_	
+20-16	1465-1470	David	*[20]	_	_	_	_	_	
+20-17	1471-1479	Weisburd	*[20]	_	_	_	_	_	
+20-18	1479-1480	,	*[20]	_	_	_	_	_	
+20-19	1481-1494	uppmärksammas	*[20]	_	_	_	_	_	
+20-20	1494-1495	.	_	_	_	_	_	_	
+
+#Text=Hans forskningsfynd visar att kunskapsbaserade polismetoder kan minska brottsligheten.
+21-1	1496-1500	Hans	*[21]	_	_	_	_	_	
+21-2	1501-1515	forskningsfynd	*[21]	_	_	_	_	_	
+21-3	1516-1521	visar	_	_	_	_	_	_	
+21-4	1522-1525	att	_	_	_	_	_	_	
+21-5	1526-1542	kunskapsbaserade	*[22]	_	_	_	_	_	
+21-6	1543-1555	polismetoder	*[22]	_	_	_	_	_	
+21-7	1556-1559	kan	_	Target;Source[8]	21-5[22];21-1[21]	false[8]	4[8]	_	
+21-8	1560-1566	minska	_	Target;Source[8]	21-5[22];21-1[21]	false[8]	4[8]	_	
+21-9	1567-1581	brottsligheten	_	Target;Source[8]	21-5[22];21-1[21]	false[8]	4[8]	_	
+21-10	1581-1582	.	_	_	_	_	_	_	
+
+#Text=Detta betyder naturligtvis inte att riktade polisinsatser mot så kallade hot spots, är de enda effektiva åtgärderna mot brottslighet.
+22-1	1583-1588	Detta	_	_	_	_	_	_	
+22-2	1589-1596	betyder	_	_	_	_	_	_	
+22-3	1597-1609	naturligtvis	_	_	_	_	_	_	
+22-4	1610-1614	inte	_	_	_	_	_	_	
+22-5	1615-1618	att	_	_	_	_	_	_	
+22-6	1619-1626	riktade	_	_	_	_	_	_	
+22-7	1627-1640	polisinsatser	_	_	_	_	_	_	
+22-8	1641-1644	mot	_	_	_	_	_	_	
+22-9	1645-1647	så	_	_	_	_	_	_	
+22-10	1648-1655	kallade	_	_	_	_	_	_	
+22-11	1656-1659	hot	_	_	_	_	_	_	
+22-12	1660-1665	spots	_	_	_	_	_	_	
+22-13	1665-1666	,	_	_	_	_	_	_	
+22-14	1667-1669	är	_	_	_	_	_	_	
+22-15	1670-1672	de	_	_	_	_	_	_	
+22-16	1673-1677	enda	_	_	_	_	_	_	
+22-17	1678-1687	effektiva	_	Target;Source	22-18;22-21	false	4	_	
+22-18	1688-1698	åtgärderna	*	_	_	_	_	_	
+22-19	1699-1702	mot	_	_	_	_	_	_	
+22-20	1703-1715	brottslighet	_	_	_	_	_	_	
+22-21	1715-1716	.	*	_	_	_	_	_	
+
+#Text=Brottsprevention handlar om insatser på flera nivåer.
+23-1	1717-1733	Brottsprevention	_	_	_	_	_	_	
+23-2	1734-1741	handlar	_	_	_	_	_	_	
+23-3	1742-1744	om	_	_	_	_	_	_	
+23-4	1745-1753	insatser	_	_	_	_	_	_	
+23-5	1754-1756	på	_	_	_	_	_	_	
+23-6	1757-1762	flera	_	_	_	_	_	_	
+23-7	1763-1769	nivåer	_	_	_	_	_	_	
+23-8	1769-1770	.	_	_	_	_	_	_	
+
+#Text=Davis Olds, en tidigare pristagare av det ovan nämnda priset, har till exempel visat att insatser i form av stöd till socialt utsatta mammor ger effekter i form av minskad brottslighet både mot och av dessa barn.
+24-1	1771-1776	Davis	*[23]	_	_	_	_	_	
+24-2	1777-1781	Olds	*[23]	_	_	_	_	_	
+24-3	1781-1782	,	_	_	_	_	_	_	
+24-4	1783-1785	en	_	_	_	_	_	_	
+24-5	1786-1794	tidigare	_	_	_	_	_	_	
+24-6	1795-1805	pristagare	_	_	_	_	_	_	
+24-7	1806-1808	av	_	_	_	_	_	_	
+24-8	1809-1812	det	_	_	_	_	_	_	
+24-9	1813-1817	ovan	_	_	_	_	_	_	
+24-10	1818-1824	nämnda	_	_	_	_	_	_	
+24-11	1825-1831	priset	_	_	_	_	_	_	
+24-12	1831-1832	,	_	_	_	_	_	_	
+24-13	1833-1836	har	_	_	_	_	_	_	
+24-14	1837-1841	till	_	_	_	_	_	_	
+24-15	1842-1849	exempel	_	_	_	_	_	_	
+24-16	1850-1855	visat	_	_	_	_	_	_	
+24-17	1856-1859	att	_	_	_	_	_	_	
+24-18	1860-1868	insatser	*[24]	_	_	_	_	_	
+24-19	1869-1870	i	*[24]	_	_	_	_	_	
+24-20	1871-1875	form	*[24]	_	_	_	_	_	
+24-21	1876-1878	av	*[24]	_	_	_	_	_	
+24-22	1879-1883	stöd	*[24]	_	_	_	_	_	
+24-23	1884-1888	till	*[24]	_	_	_	_	_	
+24-24	1889-1896	socialt	*[24]	Source;Target[9]	24-40;24-26[25]	false[9]	2[9]	_	
+24-25	1897-1904	utsatta	*[24]	Source;Target[9]	24-40;24-26[25]	false[9]	2[9]	_	
+24-26	1905-1911	mammor	*[24]|*[25]	_	_	_	_	_	
+24-27	1912-1915	ger	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-28	1916-1924	effekter	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-29	1925-1926	i	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-30	1927-1931	form	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-31	1932-1934	av	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-32	1935-1942	minskad	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-33	1943-1955	brottslighet	_	Target;Source[10]	24-18[24];24-1[23]	false[10]	4[10]	_	
+24-34	1956-1960	både	_	_	_	_	_	_	
+24-35	1961-1964	mot	_	_	_	_	_	_	
+24-36	1965-1968	och	_	_	_	_	_	_	
+24-37	1969-1971	av	_	_	_	_	_	_	
+24-38	1972-1977	dessa	_	_	_	_	_	_	
+24-39	1978-1982	barn	_	_	_	_	_	_	
+24-40	1982-1983	.	*	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1985-1986	#	_	_	_	_	_	_	
+25-2	1986-1987	P	_	_	_	_	_	_	
+25-3	1988-1991	IMM	_	_	_	_	_	_	
+25-4	1991-1992	.	_	_	_	_	_	_	
+
+#Text=Hägglunds teori tycks vara att straffet underlättar för den brottslige att återinträda i samhällsgemenskapen och leva ett laglydigt liv.
+26-1	1994-2003	Hägglunds	*[26]	_	_	_	_	_	
+26-2	2004-2009	teori	*[26]	_	_	_	_	_	
+26-3	2010-2015	tycks	_	_	_	_	_	_	
+26-4	2016-2020	vara	_	_	_	_	_	_	
+26-5	2021-2024	att	_	_	_	_	_	_	
+26-6	2025-2033	straffet	*	_	_	_	_	_	
+26-7	2034-2045	underlättar	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-8	2046-2049	för	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-9	2050-2053	den	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-10	2054-2064	brottslige	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-11	2065-2068	att	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-12	2069-2080	återinträda	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-13	2081-2082	i	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-14	2083-2102	samhällsgemenskapen	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-15	2103-2106	och	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-16	2107-2111	leva	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-17	2112-2115	ett	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-18	2116-2125	laglydigt	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-19	2126-2129	liv	_	Source;Target[11]	26-1[26];26-6	false[11]	4[11]	_	
+26-20	2129-2130	.	_	_	_	_	_	_	
+
+#Text=De flesta vet att i praktiken så innebär ett avtjänat fängelsestraff dels en hög återfallsrisk, dels stora svårigheter att till exempel erhålla ett lagligt arbete.
+27-1	2131-2133	De	*[27]|*[28]	_	_	_	_	_	
+27-2	2134-2140	flesta	*[27]|*[28]	_	_	_	_	_	
+27-3	2141-2144	vet	_	_	_	_	_	_	
+27-4	2145-2148	att	_	_	_	_	_	_	
+27-5	2149-2150	i	_	_	_	_	_	_	
+27-6	2151-2160	praktiken	_	_	_	_	_	_	
+27-7	2161-2163	så	_	_	_	_	_	_	
+27-8	2164-2171	innebär	_	Source;Target	27-1[27];27-9[29]	false	2	_	
+27-9	2172-2175	ett	*[29]|*[30]	_	_	_	_	_	
+27-10	2176-2184	avtjänat	*[29]|*[30]	_	_	_	_	_	
+27-11	2185-2199	fängelsestraff	*[29]|*[30]	_	_	_	_	_	
+27-12	2200-2204	dels	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	27-8[0_12]	
+27-13	2205-2207	en	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-14	2208-2211	hög	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-15	2212-2225	återfallsrisk	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-16	2225-2226	,	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-17	2227-2231	dels	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-18	2232-2237	stora	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-19	2238-2249	svårigheter	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-20	2250-2253	att	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-21	2254-2258	till	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-22	2259-2266	exempel	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-23	2267-2274	erhålla	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-24	2275-2278	ett	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-25	2279-2286	lagligt	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-26	2287-2293	arbete	_	Target;Source[12]	27-9[30];27-1[28]	false[12]	2[12]	_	
+27-27	2293-2294	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	2296-2297	#	_	_	_	_	_	_	
+28-2	2297-2298	P	_	_	_	_	_	_	
+28-3	2299-2302	IMM	_	_	_	_	_	_	
+28-4	2302-2303	.	_	_	_	_	_	_	
+
+#Text=JERZY SARNECKI.
+29-1	2305-2310	JERZY	_	_	_	_	_	_	
+29-2	2311-2319	SARNECKI	_	_	_	_	_	_	
+29-3	2319-2320	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2322-2323	#	_	_	_	_	_	_	
+30-2	2323-2324	P	_	_	_	_	_	_	
+30-3	2325-2328	IMM	_	_	_	_	_	_	
+30-4	2328-2329	.	_	_	_	_	_	_	
+
+#Text=professor i allmän kriminologi och ordförande i juryn för Stockholms Prize in Criminology.
+31-1	2331-2340	professor	_	_	_	_	_	_	
+31-2	2341-2342	i	_	_	_	_	_	_	
+31-3	2343-2349	allmän	_	_	_	_	_	_	
+31-4	2350-2361	kriminologi	_	_	_	_	_	_	
+31-5	2362-2365	och	_	_	_	_	_	_	
+31-6	2366-2376	ordförande	_	_	_	_	_	_	
+31-7	2377-2378	i	_	_	_	_	_	_	
+31-8	2379-2384	juryn	_	_	_	_	_	_	
+31-9	2385-2388	för	_	_	_	_	_	_	
+31-10	2389-2399	Stockholms	_	_	_	_	_	_	
+31-11	2400-2405	Prize	_	_	_	_	_	_	
+31-12	2406-2408	in	_	_	_	_	_	_	
+31-13	2409-2420	Criminology	_	_	_	_	_	_	
+31-14	2420-2421	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2423-2424	#	_	_	_	_	_	_	
+32-2	2424-2425	P	_	_	_	_	_	_	
+32-3	2426-2429	IMM	_	_	_	_	_	_	
+32-4	2429-2430	.	_	_	_	_	_	_	
+
+#Text=Björn Fries.
+33-1	2432-2437	Björn	_	_	_	_	_	_	
+33-2	2438-2443	Fries	_	_	_	_	_	_	
+33-3	2443-2444	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2446-2447	#	_	_	_	_	_	_	
+34-2	2447-2448	P	_	_	_	_	_	_	
+34-3	2449-2452	IMM	_	_	_	_	_	_	
+34-4	2452-2453	.	_	_	_	_	_	_	
+
+#Text=Socialpolitisk rådgivare åt S i Stockholm.
+35-1	2455-2469	Socialpolitisk	_	_	_	_	_	_	
+35-2	2470-2479	rådgivare	_	_	_	_	_	_	
+35-3	2480-2482	åt	_	_	_	_	_	_	
+35-4	2483-2484	S	_	_	_	_	_	_	
+35-5	2485-2486	i	_	_	_	_	_	_	
+35-6	2487-2496	Stockholm	_	_	_	_	_	_	
+35-7	2496-2497	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	2499-2500	#	_	_	_	_	_	_	
+36-2	2500-2501	P	_	_	_	_	_	_	
+36-3	2502-2505	IMM	_	_	_	_	_	_	
+36-4	2505-2506	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+37-1	2508-2516	Redaktör	_	_	_	_	_	_	
+37-2	2516-2517	:	_	_	_	_	_	_	
+37-3	2518-2524	Carina	_	_	_	_	_	_	
+37-4	2525-2533	Stensson	_	_	_	_	_	_	
+37-5	2533-2534	,	_	_	_	_	_	_	
+37-6	2535-2545	Biträdande	_	_	_	_	_	_	
+37-7	2546-2554	redaktör	_	_	_	_	_	_	
+37-8	2554-2555	:	_	_	_	_	_	_	
+37-9	2556-2561	Björn	_	_	_	_	_	_	
+37-10	2562-2568	Jorner	_	_	_	_	_	_	
+37-11	2568-2569	,	_	_	_	_	_	_	
+37-12	2570-2574	Mejl	_	_	_	_	_	_	
+37-13	2574-2575	:	_	_	_	_	_	_	
+37-14	2576-2582	debatt	_	_	_	_	_	_	
+37-15	2582-2583	@	_	_	_	_	_	_	
+37-16	2583-2589	svd.se	_	_	_	_	_	_	
+37-17	2589-2590	,	_	_	_	_	_	_	
+37-18	2591-2604	Telefonnummer	_	_	_	_	_	_	
+37-19	2604-2605	:	_	_	_	_	_	_	
+37-20	2606-2608	08	_	_	_	_	_	_	
+37-21	2608-2609	-	_	_	_	_	_	_	
+37-22	2609-2615	135149	_	_	_	_	_	_	
+37-23	2615-2616	,	_	_	_	_	_	_	
+37-24	2617-2624	Twitter	_	_	_	_	_	_	
+37-25	2624-2625	:	_	_	_	_	_	_	
+37-26	2626-2627	@	_	_	_	_	_	_	
+37-27	2627-2636	SvDDebatt	_	_	_	_	_	_	
+37-28	2636-2637	,	_	_	_	_	_	_	
+37-29	2638-2646	Facebook	_	_	_	_	_	_	
+37-30	2646-2647	:	_	_	_	_	_	_	
+37-31	2648-2651	SvD	_	_	_	_	_	_	
+37-32	2652-2658	Debatt	_	_	_	_	_	_	
+37-33	2658-2659	.	_	_	_	_	_	_	

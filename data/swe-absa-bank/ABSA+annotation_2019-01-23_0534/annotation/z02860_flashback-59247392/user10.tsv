@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Fredrik Strage: Kära SD-väljare, vad sägs om att flytta till Jimmieland i Thailand?
+3-1	18-25	Fredrik	*[5]	_	_	_	_	7-8[0_5]	
+3-2	26-32	Strage	*[5]	_	_	_	_	_	
+3-3	32-33	:	_	_	_	_	_	_	
+3-4	34-38	Kära	_	Target;Source	3-5;3-1[5]	true	4	_	
+3-5	39-49	SD-väljare	*	_	_	_	_	_	
+3-6	49-50	,	_	_	_	_	_	_	
+3-7	51-54	vad	_	_	_	_	_	_	
+3-8	55-59	sägs	_	_	_	_	_	_	
+3-9	60-62	om	_	_	_	_	_	_	
+3-10	63-66	att	_	_	_	_	_	_	
+3-11	67-73	flytta	_	_	_	_	_	_	
+3-12	74-78	till	_	_	_	_	_	_	
+3-13	79-89	Jimmieland	_	_	_	_	_	_	
+3-14	90-91	i	_	_	_	_	_	_	
+3-15	92-100	Thailand	_	_	_	_	_	_	
+3-16	100-101	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	103-104	#	_	_	_	_	_	_	
+4-2	104-105	P	_	_	_	_	_	_	
+4-3	106-109	IMM	_	_	_	_	_	_	
+4-4	109-110	.	_	_	_	_	_	_	
+
+#Text="Om Sverigedemokraterna tar makten blir det i bästa fall omskolningsläger för min del.
+5-1	112-113	"	_	_	_	_	_	_	
+5-2	113-115	Om	_	_	_	_	_	_	
+5-3	116-135	Sverigedemokraterna	_	_	_	_	_	_	
+5-4	136-139	tar	_	_	_	_	_	_	
+5-5	140-146	makten	_	_	_	_	_	_	
+5-6	147-151	blir	_	_	_	_	_	_	
+5-7	152-155	det	_	_	_	_	_	_	
+5-8	156-157	i	_	_	_	_	_	_	
+5-9	158-163	bästa	_	_	_	_	_	_	
+5-10	164-168	fall	_	_	_	_	_	_	
+5-11	169-185	omskolningsläger	_	_	_	_	_	_	
+5-12	186-189	för	_	_	_	_	_	_	
+5-13	190-193	min	_	_	_	_	_	_	
+5-14	194-197	del	_	_	_	_	_	_	
+5-15	197-198	.	_	_	_	_	_	_	
+
+#Text=Därför har jag lekt med tanken på att emigrera till Berlin.
+6-1	199-205	Därför	_	_	_	_	_	_	
+6-2	206-209	har	_	_	_	_	_	_	
+6-3	210-213	jag	_	_	_	_	_	_	
+6-4	214-218	lekt	_	_	_	_	_	_	
+6-5	219-222	med	_	_	_	_	_	_	
+6-6	223-229	tanken	_	_	_	_	_	_	
+6-7	230-232	på	_	_	_	_	_	_	
+6-8	233-236	att	_	_	_	_	_	_	
+6-9	237-245	emigrera	_	_	_	_	_	_	
+6-10	246-250	till	_	_	_	_	_	_	
+6-11	251-257	Berlin	_	_	_	_	_	_	
+6-12	257-258	.	_	_	_	_	_	_	
+
+#Text=Som medlem i den kommunistiska pk-eliten älskar jag stadens dekadenta, kosmopolitiska vibbar.
+7-1	259-262	Som	_	_	_	_	_	_	
+7-2	263-269	medlem	_	_	_	_	_	_	
+7-3	270-271	i	_	_	_	_	_	_	
+7-4	272-275	den	*[6]	Target[1]	7-4[6]	true[1]	2[1]	_	
+7-5	276-289	kommunistiska	*[6]	Target[1]	7-4[6]	true[1]	2[1]	_	
+7-6	290-299	pk-eliten	*[6]	Target[1]	7-4[6]	true[1]	2[1]	_	
+7-7	300-306	älskar	_	Target;Source	7-9[7];7-8	false	5	_	
+7-8	307-310	jag	*	_	_	_	_	_	
+7-9	311-318	stadens	*[7]	_	_	_	_	_	
+7-10	319-328	dekadenta	*[7]	_	_	_	_	_	
+7-11	328-329	,	*[7]	_	_	_	_	_	
+7-12	330-344	kosmopolitiska	*[7]	_	_	_	_	_	
+7-13	345-351	vibbar	*[7]	_	_	_	_	_	
+7-14	351-352	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	354-355	#	_	_	_	_	_	_	
+8-2	355-356	P	_	_	_	_	_	_	
+8-3	357-360	IMM	_	_	_	_	_	_	
+8-4	360-361	.	_	_	_	_	_	_	
+
+#Text=Men innan jag börjar leta lägenhet vill jag komma med ett anspråkslöst förslag.
+9-1	363-366	Men	_	_	_	_	_	_	
+9-2	367-372	innan	_	_	_	_	_	_	
+9-3	373-376	jag	_	_	_	_	_	_	
+9-4	377-383	börjar	_	_	_	_	_	_	
+9-5	384-388	leta	_	_	_	_	_	_	
+9-6	389-397	lägenhet	_	_	_	_	_	_	
+9-7	398-402	vill	_	_	_	_	_	_	
+9-8	403-406	jag	_	_	_	_	_	_	
+9-9	407-412	komma	_	_	_	_	_	_	
+9-10	413-416	med	_	_	_	_	_	_	
+9-11	417-420	ett	_	_	_	_	_	_	
+9-12	421-433	anspråkslöst	_	_	_	_	_	_	
+9-13	434-441	förslag	_	_	_	_	_	_	
+9-14	441-442	.	_	_	_	_	_	_	
+
+#Text=Kära SD-väljare, vore det inte trevligare om ni i stället flyttade till Thailand?".
+10-1	443-447	Kära	_	Target;Source	10-2;3-1[5]	true	4	_	
+10-2	448-458	SD-väljare	*	_	_	_	_	_	
+10-3	458-459	,	_	_	_	_	_	_	
+10-4	460-464	vore	_	Source;Target[2]	3-1[5];10-9[8]	false[2]	4[2]	_	
+10-5	465-468	det	_	Source;Target[2]	3-1[5];10-9[8]	false[2]	4[2]	_	
+10-6	469-473	inte	_	Source;Target[2]	3-1[5];10-9[8]	false[2]	4[2]	_	
+10-7	474-484	trevligare	_	Source;Target[2]	3-1[5];10-9[8]	false[2]	4[2]	_	
+10-8	485-487	om	_	Source;Target[2]	3-1[5];10-9[8]	false[2]	4[2]	_	
+10-9	488-490	ni	*[8]	_	_	_	_	_	
+10-10	491-492	i	*[8]	_	_	_	_	_	
+10-11	493-500	stället	*[8]	_	_	_	_	_	
+10-12	501-509	flyttade	*[8]	_	_	_	_	_	
+10-13	510-514	till	*[8]	_	_	_	_	_	
+10-14	515-523	Thailand	*[8]	_	_	_	_	_	
+10-15	523-524	?	_	_	_	_	_	_	
+10-16	524-525	"	_	_	_	_	_	_	
+10-17	525-526	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	528-529	#	_	_	_	_	_	_	
+11-2	529-530	P	_	_	_	_	_	_	
+11-3	531-534	IMM	_	_	_	_	_	_	
+11-4	534-535	.	_	_	_	_	_	_	
+
+#Text=Det är tydligen dags för lönesättande samtal på DN, Mr Strange gör vad han kan i PK-konkurrensen  för bättra på sin socialliberala image och gör ett modigt utfall mot de farliga SDarna i vårt avlånga land.
+12-1	537-540	Det	_	_	_	_	_	_	
+12-2	541-543	är	_	_	_	_	_	_	
+12-3	544-552	tydligen	_	_	_	_	_	_	
+12-4	553-557	dags	_	_	_	_	_	_	
+12-5	558-561	för	_	_	_	_	_	_	
+12-6	562-574	lönesättande	_	_	_	_	_	_	
+12-7	575-581	samtal	_	_	_	_	_	_	
+12-8	582-584	på	_	_	_	_	_	_	
+12-9	585-587	DN	_	_	_	_	_	_	
+12-10	587-588	,	_	_	_	_	_	_	
+12-11	589-591	Mr	_	_	_	_	_	_	
+12-12	592-599	Strange	_	_	_	_	_	_	
+12-13	600-603	gör	_	_	_	_	_	_	
+12-14	604-607	vad	_	_	_	_	_	_	
+12-15	608-611	han	_	_	_	_	_	_	
+12-16	612-615	kan	_	_	_	_	_	_	
+12-17	616-617	i	_	_	_	_	_	_	
+12-18	618-633	PK-konkurrensen	*	Target	12-18	false	2	_	
+12-19	635-638	för	_	_	_	_	_	_	
+12-20	639-645	bättra	_	_	_	_	_	_	
+12-21	646-648	på	_	_	_	_	_	_	
+12-22	649-652	sin	_	_	_	_	_	_	
+12-23	653-667	socialliberala	_	_	_	_	_	_	
+12-24	668-673	image	_	_	_	_	_	_	
+12-25	674-677	och	_	_	_	_	_	_	
+12-26	678-681	gör	_	_	_	_	_	_	
+12-27	682-685	ett	*[9]	Target[3]	12-27[9]	true[3]	4[3]	_	
+12-28	686-692	modigt	*[9]	Target[3]	12-27[9]	true[3]	4[3]	_	
+12-29	693-699	utfall	*[9]	Target[3]	12-27[9]	true[3]	4[3]	_	
+12-30	700-703	mot	_	_	_	_	_	_	
+12-31	704-706	de	_	Target[4]	12-33	true[4]	2[4]	_	
+12-32	707-714	farliga	_	Target[4]	12-33	true[4]	2[4]	_	
+12-33	715-721	SDarna	*	_	_	_	_	_	
+12-34	722-723	i	_	_	_	_	_	_	
+12-35	724-728	vårt	_	_	_	_	_	_	
+12-36	729-736	avlånga	_	_	_	_	_	_	
+12-37	737-741	land	_	_	_	_	_	_	
+12-38	741-742	.	_	_	_	_	_	_	
+
+#Text=Förståeligt med tanke på att han konkurrerar med fullblodsPKister som Björn Wiman, Niklas Orrenius och Hanna Fahl.
+13-1	743-754	Förståeligt	_	_	_	_	_	_	
+13-2	755-758	med	_	_	_	_	_	_	
+13-3	759-764	tanke	_	_	_	_	_	_	
+13-4	765-767	på	_	_	_	_	_	_	
+13-5	768-771	att	_	_	_	_	_	_	
+13-6	772-775	han	_	_	_	_	_	_	
+13-7	776-787	konkurrerar	_	_	_	_	_	_	
+13-8	788-791	med	_	_	_	_	_	_	
+13-9	792-808	fullblodsPKister	_	Target;Target;Target	13-14[11];13-17[12];13-11[10]	false	1	_	
+13-10	809-812	som	_	_	_	_	_	_	
+13-11	813-818	Björn	*[10]	_	_	_	_	_	
+13-12	819-824	Wiman	*[10]	_	_	_	_	_	
+13-13	824-825	,	_	_	_	_	_	_	
+13-14	826-832	Niklas	*[11]	_	_	_	_	_	
+13-15	833-841	Orrenius	*[11]	_	_	_	_	_	
+13-16	842-845	och	_	_	_	_	_	_	
+13-17	846-851	Hanna	*[12]	_	_	_	_	_	
+13-18	852-856	Fahl	*[12]	_	_	_	_	_	
+13-19	856-857	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	859-860	#	_	_	_	_	_	_	
+14-2	860-861	P	_	_	_	_	_	_	
+14-3	862-865	IMM	_	_	_	false	1	_	
+14-4	865-866	.	_	_	_	_	_	_	
+
+#Text=Chansen att han eller hans familj skulle stöta på sura SD väljare eller för den delen sina skyddslingar som somaliska rånargäng eller marockanska ensamkommande får väl betraktas som minimal i hooden på Kungsholmsgatan ,.
+15-1	868-875	Chansen	_	_	_	_	_	_	
+15-2	876-879	att	_	_	_	_	_	_	
+15-3	880-883	han	_	_	_	_	_	_	
+15-4	884-889	eller	_	_	_	_	_	_	
+15-5	890-894	hans	_	_	_	_	_	_	
+15-6	895-901	familj	_	_	_	_	_	_	
+15-7	902-908	skulle	_	_	_	_	_	_	
+15-8	909-914	stöta	_	_	_	_	_	_	
+15-9	915-917	på	_	_	_	_	_	_	
+15-10	918-922	sura	_	_	_	_	_	_	
+15-11	923-925	SD	_	_	_	_	_	_	
+15-12	926-933	väljare	_	_	_	_	_	_	
+15-13	934-939	eller	_	_	_	_	_	_	
+15-14	940-943	för	_	_	_	_	_	_	
+15-15	944-947	den	_	_	_	_	_	_	
+15-16	948-953	delen	_	_	_	_	_	_	
+15-17	954-958	sina	_	_	_	_	_	_	
+15-18	959-971	skyddslingar	_	_	_	_	_	_	
+15-19	972-975	som	_	_	_	_	_	_	
+15-20	976-985	somaliska	_	_	_	_	_	_	
+15-21	986-995	rånargäng	_	_	_	_	_	_	
+15-22	996-1001	eller	_	_	_	_	_	_	
+15-23	1002-1013	marockanska	_	_	_	_	_	_	
+15-24	1014-1027	ensamkommande	_	_	_	_	_	_	
+15-25	1028-1031	får	_	_	_	_	_	_	
+15-26	1032-1035	väl	_	_	_	_	_	_	
+15-27	1036-1045	betraktas	_	_	_	_	_	_	
+15-28	1046-1049	som	_	_	_	_	_	_	
+15-29	1050-1057	minimal	_	_	_	_	_	_	
+15-30	1058-1059	i	_	_	_	_	_	_	
+15-31	1060-1066	hooden	_	_	_	_	_	_	
+15-32	1067-1069	på	_	_	_	_	_	_	
+15-33	1070-1085	Kungsholmsgatan	_	_	_	_	_	_	
+15-34	1086-1087	,	_	_	_	_	_	_	
+15-35	1087-1088	.	_	_	_	_	_	_	

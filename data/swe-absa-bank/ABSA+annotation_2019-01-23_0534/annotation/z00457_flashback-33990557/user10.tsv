@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	false	3	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=SVD " Afghaner har passerat somalier som den största gruppen asylsökande i Sverige.".
+3-1	18-21	SVD	_	_	_	_	_	_	_	
+3-2	22-23	"	_	_	_	_	_	_	_	
+3-3	24-32	Afghaner	_	_	_	_	_	_	_	
+3-4	33-36	har	_	_	_	_	_	_	_	
+3-5	37-45	passerat	_	_	_	_	_	_	_	
+3-6	46-54	somalier	_	_	_	_	_	_	_	
+3-7	55-58	som	_	_	_	_	_	_	_	
+3-8	59-62	den	_	_	_	_	_	_	_	
+3-9	63-70	största	_	_	_	_	_	_	_	
+3-10	71-78	gruppen	_	_	_	_	_	_	_	
+3-11	79-90	asylsökande	_	_	_	_	_	_	_	
+3-12	91-92	i	_	_	_	_	_	_	_	
+3-13	93-100	Sverige	_	_	_	_	_	_	_	
+3-14	100-101	.	_	_	_	_	_	_	_	
+3-15	101-102	"	_	_	_	_	_	_	_	
+3-16	102-103	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	105-106	#	_	_	_	_	_	_	_	
+4-2	106-107	P	_	_	_	_	_	_	_	
+4-3	108-111	IMM	_	_	_	false	3	_	_	
+4-4	111-112	.	_	_	_	_	_	_	_	
+
+#Text=En fördel eller en nackdel ur svensk integrationssynvinkel?
+5-1	114-116	En	_	_	_	_	_	_	_	
+5-2	117-123	fördel	*	Target	5-2	false	5	_	_	
+5-3	124-129	eller	_	_	_	_	_	_	_	
+5-4	130-132	en	_	_	_	_	_	_	_	
+5-5	133-140	nackdel	*	Target	5-5	false	1	_	_	
+5-6	141-143	ur	_	_	_	_	_	_	_	
+5-7	144-150	svensk	_	_	_	_	_	_	_	
+5-8	151-172	integrationssynvinkel	_	_	_	_	_	_	_	
+5-9	172-173	?	_	_	_	_	_	_	_	
+
+#Text=Dvs goda eller dåliga nyheter?.
+6-1	174-177	Dvs	_	_	_	_	_	_	_	
+6-2	178-182	goda	_	Target	6-5[6]	false	5	_	_	
+6-3	183-188	eller	_	_	_	_	_	_	_	
+6-4	189-195	dåliga	*[5]	Target[1]	6-4[5]	false[1]	1[1]	_	_	
+6-5	196-203	nyheter	*[5]|*[6]	Target[1]|_[2]	6-4[5]|_	false[1]|false[2]	1[1]|5[2]	6-2[0_2]	_	
+6-6	203-204	?	_	_	_	_	_	_	_	
+6-7	204-205	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	207-208	#	_	_	_	_	_	_	_	
+7-2	208-209	P	_	_	_	_	_	_	_	
+7-3	210-213	IMM	_	_	_	_	_	_	_	
+7-4	213-214	.	_	_	_	_	_	_	_	
+
+#Text=Har säkerhetsläget försämrats i Afghanstan?
+8-1	216-219	Har	*[7]	Target[3]	8-1[7]	false[3]	1[3]	_	_	
+8-2	220-234	säkerhetsläget	*[7]|*[8]	Target[3]	8-1[7]	false[3]	1[3]	_	9-5[0_8]	
+8-3	235-245	försämrats	*[7]	Target[3]	8-1[7]	false[3]	1[3]	_	_	
+8-4	246-247	i	_	_	_	_	_	_	_	
+8-5	248-258	Afghanstan	_	_	_	_	_	_	_	
+8-6	258-259	?	_	_	_	_	_	_	_	
+
+#Text=Har för mig att det var så bra att man tar hem trupper.
+9-1	260-263	Har	_	_	_	_	_	_	_	
+9-2	264-267	för	_	_	_	_	_	_	_	
+9-3	268-271	mig	_	_	_	_	_	_	_	
+9-4	272-275	att	_	_	_	_	_	_	_	
+9-5	276-279	det	*	_	_	_	_	_	_	
+9-6	280-283	var	_	_	_	_	_	_	_	
+9-7	284-286	så	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-8	287-290	bra	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-9	291-294	att	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-10	295-298	man	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-11	299-302	tar	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-12	303-306	hem	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-13	307-314	trupper	_	Target[4]	9-5	false[4]	3[4]	_	_	
+9-14	314-315	.	_	_	_	_	_	_	_	

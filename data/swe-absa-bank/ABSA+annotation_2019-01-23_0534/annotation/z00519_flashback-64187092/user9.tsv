@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Är inte kvinnors svaghet jävligt irriterande?
+3-1	18-20	Är	_	_[1]	_	false[1]	2[1]	_	
+3-2	21-25	inte	_	_[1]	_	false[1]	2[1]	_	
+3-3	26-34	kvinnors	*[7]	_	_	_	_	_	
+3-4	35-42	svaghet	*[7]	_	_	_	_	_	
+3-5	43-50	jävligt	_	Target[2]	3-3[7]	false[2]	2[2]	3-1[1_2]	
+3-6	51-62	irriterande	_	Target[2]	3-3[7]	false[2]	2[2]	_	
+3-7	62-63	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	65-66	#	_	_	_	_	_	_	
+4-2	66-67	P	_	_	_	_	_	_	
+4-3	68-71	IMM	_	_	_	_	_	_	
+4-4	71-72	.	_	_	_	_	_	_	
+
+#Text=Läste nyss att kvinnor tjänar mindre pengar i fotbollen än män.
+5-1	74-79	Läste	_	_	_	_	_	_	
+5-2	80-84	nyss	_	_	_	_	_	_	
+5-3	85-88	att	_	_	_	_	_	_	
+5-4	89-96	kvinnor	_	_	_	_	_	_	
+5-5	97-103	tjänar	_	_	_	_	_	_	
+5-6	104-110	mindre	_	_	_	_	_	_	
+5-7	111-117	pengar	_	_	_	_	_	_	
+5-8	118-119	i	_	_	_	_	_	_	
+5-9	120-129	fotbollen	_	_	_	_	_	_	
+5-10	130-132	än	_	_	_	_	_	_	
+5-11	133-136	män	_	_	_	_	_	_	
+5-12	136-137	.	_	_	_	_	_	_	
+
+#Text=Och sedan alla kommentarer till det (på Facebook).
+6-1	138-141	Och	_	_	_	_	_	_	
+6-2	142-147	sedan	_	_	_	_	_	_	
+6-3	148-152	alla	_	_	_	_	_	_	
+6-4	153-164	kommentarer	_	_	_	_	_	_	
+6-5	165-169	till	_	_	_	_	_	_	
+6-6	170-173	det	_	_	_	_	_	_	
+6-7	174-175	(	_	_	_	_	_	_	
+6-8	175-177	på	_	_	_	_	_	_	
+6-9	178-186	Facebook	_	_	_	_	_	_	
+6-10	186-187	)	_	_	_	_	_	_	
+6-11	187-188	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	190-191	#	_	_	_	_	_	_	
+7-2	191-192	P	_	_	_	_	_	_	
+7-3	193-196	IMM	_	_	_	_	_	_	
+7-4	196-197	.	_	_	_	_	_	_	
+
+#Text=Är inte kvinnors svaghet irriterande att ha att göra med?
+8-1	199-201	Är	_	_[3]	_	false[3]	2[3]	8-5[4_3]	
+8-2	202-206	inte	_	_[3]	_	false[3]	2[3]	_	
+8-3	207-215	kvinnors	*[8]	_	_	_	_	_	
+8-4	216-223	svaghet	*[8]	_	_	_	_	_	
+8-5	224-235	irriterande	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-6	236-239	att	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-7	240-242	ha	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-8	243-246	att	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-9	247-251	göra	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-10	252-255	med	_	Target[4]	8-3[8]	false[4]	2[4]	_	
+8-11	255-256	?	_	_	_	_	_	_	
+
+#Text=Alltid ska de gnälla på allt.
+9-1	257-263	Alltid	_	_	_	_	_	_	
+9-2	264-267	ska	_	_	_	false	2	_	
+9-3	268-270	de	*	_	_	_	_	_	
+9-4	271-277	gnälla	_	Target;Source[5]	9-6;9-3	false[5]	2[5]	9-2[0_5]	
+9-5	278-280	på	_	Target;Source[5]	9-6;9-3	false[5]	2[5]	_	
+9-6	281-285	allt	*	_	_	_	_	_	
+9-7	285-286	.	_	_	_	_	_	_	
+
+#Text=Att de tjänar mindre!
+10-1	287-290	Att	_	_	_	_	_	_	
+10-2	291-293	de	_	_	_	_	_	_	
+10-3	294-300	tjänar	_	_	_	_	_	_	
+10-4	301-307	mindre	_	_	_	_	_	_	
+10-5	307-308	!	_	_	_	_	_	_	
+
+#Text=Gör de?
+11-1	309-312	Gör	_	_	_	_	_	_	
+11-2	313-315	de	_	_	_	_	_	_	
+11-3	315-316	?	_	_	_	_	_	_	
+
+#Text=Att de får mindre pengar inom idrotten!
+12-1	317-320	Att	_	_	_	_	_	_	
+12-2	321-323	de	_	_	_	_	_	_	
+12-3	324-327	får	_	_	_	_	_	_	
+12-4	328-334	mindre	_	_	_	_	_	_	
+12-5	335-341	pengar	_	_	_	_	_	_	
+12-6	342-346	inom	_	_	_	_	_	_	
+12-7	347-355	idrotten	_	_	_	_	_	_	
+12-8	355-356	!	_	_	_	_	_	_	
+
+#Text=Kanske har att göra med utbud och efterfrågan?.
+13-1	357-363	Kanske	_	_	_	_	_	_	
+13-2	364-367	har	_	_	_	_	_	_	
+13-3	368-371	att	_	_	_	_	_	_	
+13-4	372-376	göra	_	_	_	_	_	_	
+13-5	377-380	med	_	_	_	_	_	_	
+13-6	381-386	utbud	_	_	_	_	_	_	
+13-7	387-390	och	_	_	_	_	_	_	
+13-8	391-402	efterfrågan	_	_	_	_	_	_	
+13-9	402-403	?	_	_	_	_	_	_	
+13-10	403-404	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	406-407	#	_	_	_	_	_	_	
+14-2	407-408	P	_	_	_	_	_	_	
+14-3	409-412	IMM	_	_	_	_	_	_	
+14-4	412-413	.	_	_	_	_	_	_	
+
+#Text=När var jag 5 år vann jag över pappa i armbrytning.
+15-1	415-418	När	_	_	_	_	_	_	
+15-2	419-422	var	_	_	_	_	_	_	
+15-3	423-426	jag	_	_	_	_	_	_	
+15-4	427-428	5	_	_	_	_	_	_	
+15-5	429-431	år	_	_	_	_	_	_	
+15-6	432-436	vann	_	_	_	_	_	_	
+15-7	437-440	jag	_	_	_	_	_	_	
+15-8	441-445	över	_	_	_	_	_	_	
+15-9	446-451	pappa	_	_	_	_	_	_	
+15-10	452-453	i	_	_	_	_	_	_	
+15-11	454-465	armbrytning	_	_	_	_	_	_	
+15-12	465-466	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+16-1	468-469	#	_	_	_	_	_	_	
+16-2	469-470	P	_	_	_	_	_	_	
+16-3	471-474	IMM	_	_	_	_	_	_	
+16-4	474-475	.	_	_	_	_	_	_	
+
+#Text=När jag var 10 år förstod jag att pappa la sig och att han var mycket starkare än mig.
+17-1	477-480	När	_	_	_	_	_	_	
+17-2	481-484	jag	_	_	_	_	_	_	
+17-3	485-488	var	_	_	_	_	_	_	
+17-4	489-491	10	_	_	_	_	_	_	
+17-5	492-494	år	_	_	_	_	_	_	
+17-6	495-502	förstod	_	_	_	_	_	_	
+17-7	503-506	jag	_	_	_	_	_	_	
+17-8	507-510	att	_	_	_	_	_	_	
+17-9	511-516	pappa	_	_	_	_	_	_	
+17-10	517-519	la	_	_	_	_	_	_	
+17-11	520-523	sig	_	_	_	_	_	_	
+17-12	524-527	och	_	_	_	_	_	_	
+17-13	528-531	att	_	_	_	_	_	_	
+17-14	532-535	han	_	_	_	_	_	_	
+17-15	536-539	var	_	_	_	_	_	_	
+17-16	540-546	mycket	_	_	_	_	_	_	
+17-17	547-555	starkare	_	_	_	_	_	_	
+17-18	556-558	än	_	_	_	_	_	_	
+17-19	559-562	mig	_	_	_	_	_	_	
+17-20	562-563	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	565-566	#	_	_	_	_	_	_	
+18-2	566-567	P	_	_	_	_	_	_	
+18-3	568-571	IMM	_	_	_	_	_	_	
+18-4	571-572	.	_	_	_	_	_	_	
+
+#Text=Hur reagerade jag?
+19-1	574-577	Hur	_	_	_	_	_	_	
+19-2	578-587	reagerade	_	_	_	_	_	_	
+19-3	588-591	jag	_	_	_	_	_	_	
+19-4	591-592	?	_	_	_	_	_	_	
+
+#Text=Började jag lipa?
+20-1	593-600	Började	_	_	_	false	2	_	
+20-2	601-604	jag	*	_	_	_	_	_	
+20-3	605-609	lipa	_	Target	20-2	false	2	20-1	
+20-4	609-610	?	_	_	_	_	_	_	
+
+#Text=Började jag gråta över att det var förtryck att jag inte var lika stark?.
+21-1	611-618	Började	_	_	_	_	_	_	
+21-2	619-622	jag	_	_	_	_	_	_	
+21-3	623-628	gråta	_	_	_	_	_	_	
+21-4	629-633	över	_	_	_	_	_	_	
+21-5	634-637	att	_	_	_	_	_	_	
+21-6	638-641	det	_	_	_	_	_	_	
+21-7	642-645	var	_	_	_	_	_	_	
+21-8	646-654	förtryck	_	_	_	_	_	_	
+21-9	655-658	att	_	_	_	_	_	_	
+21-10	659-662	jag	_	_	_	_	_	_	
+21-11	663-667	inte	_	_	_	_	_	_	
+21-12	668-671	var	_	_	_	_	_	_	
+21-13	672-676	lika	_	_	_	_	_	_	
+21-14	677-682	stark	_	_	_	_	_	_	
+21-15	682-683	?	_	_	_	_	_	_	
+21-16	683-684	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	686-687	#	_	_	_	_	_	_	
+22-2	687-688	P	_	_	_	_	_	_	
+22-3	689-692	IMM	_	_	_	_	_	_	
+22-4	692-693	.	_	_	_	_	_	_	
+
+#Text=Nej, jag insåg det uppenbara.
+23-1	695-698	Nej	_	_	_	_	_	_	
+23-2	698-699	,	_	_	_	_	_	_	
+23-3	700-703	jag	_	_	_	_	_	_	
+23-4	704-709	insåg	_	_	_	_	_	_	
+23-5	710-713	det	_	_	_	_	_	_	
+23-6	714-723	uppenbara	_	_	_	_	_	_	
+23-7	723-724	.	_	_	_	_	_	_	
+
+#Text=Han var starkare, inget mer med det.
+24-1	725-728	Han	_	_	_	_	_	_	
+24-2	729-732	var	_	_	_	_	_	_	
+24-3	733-741	starkare	_	_	_	_	_	_	
+24-4	741-742	,	_	_	_	_	_	_	
+24-5	743-748	inget	_	_	_	_	_	_	
+24-6	749-752	mer	_	_	_	_	_	_	
+24-7	753-756	med	_	_	_	_	_	_	
+24-8	757-760	det	_	_	_	_	_	_	
+24-9	760-761	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	763-764	#	_	_	_	_	_	_	
+25-2	764-765	P	_	_	_	_	_	_	
+25-3	766-769	IMM	_	_	_	_	_	_	
+25-4	769-770	.	_	_	_	_	_	_	
+
+#Text=När ska tjejer sluta lipa över att de är det fysiskt svagare könet och acceptera verkligheten?.
+26-1	772-775	När	_	_	_	_	_	_	
+26-2	776-779	ska	_	_	_	false	2	_	
+26-3	780-786	tjejer	*	_	_	_	_	_	
+26-4	787-792	sluta	_	Target[6]	26-3	false[6]	2[6]	26-2[0_6]	
+26-5	793-797	lipa	_	Target[6]	26-3	false[6]	2[6]	_	
+26-6	798-802	över	_	_	_	_	_	_	
+26-7	803-806	att	_	_	_	_	_	_	
+26-8	807-809	de	_	_	_	_	_	_	
+26-9	810-812	är	_	_	_	_	_	_	
+26-10	813-816	det	_	_	_	_	_	_	
+26-11	817-824	fysiskt	_	_	_	_	_	_	
+26-12	825-832	svagare	_	_	_	_	_	_	
+26-13	833-838	könet	_	_	_	_	_	_	
+26-14	839-842	och	_	_	_	_	_	_	
+26-15	843-852	acceptera	_	_	_	_	_	_	
+26-16	853-865	verkligheten	_	_	_	_	_	_	
+26-17	865-866	?	_	_	_	_	_	_	
+26-18	866-867	.	_	_	_	_	_	_	

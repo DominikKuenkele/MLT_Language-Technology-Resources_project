@@ -1,0 +1,1278 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=EU måste respektera större olikheter.
+3-1	18-20	EU	*	_	_	_	_	_	_	
+3-2	21-26	måste	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	27-37	respektera	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	38-44	större	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-5	45-54	olikheter	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-6	54-55	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	57-58	#	_	_	_	_	_	_	_	
+4-2	58-59	P	_	_	_	_	_	_	_	
+4-3	60-63	IMM	_	_	_	_	_	_	_	
+4-4	63-64	.	_	_	_	_	_	_	_	
+
+#Text=Över hela kontinenten har politiska partier som är emot EU haft stora framgångar de senaste åren – i lokala, nationella och europeiska val.
+5-1	66-70	Över	_	_	_	_	_	_	_	
+5-2	71-75	hela	_	_	_	_	_	_	_	
+5-3	76-87	kontinenten	_	_	_	_	_	_	_	
+5-4	88-91	har	_	_	_	_	_	_	_	
+5-5	92-101	politiska	*[41]	_	_	_	_	_	_	
+5-6	102-109	partier	*[41]	_	_	_	_	_	_	
+5-7	110-113	som	*[41]	_	_	_	_	_	_	
+5-8	114-116	är	_	Source;Target[2]	5-5[41];5-10	false[2]	2[2]	_	_	
+5-9	117-121	emot	_	Source;Target[2]	5-5[41];5-10	false[2]	2[2]	_	_	
+5-10	122-124	EU	*	_	_	_	_	_	_	
+5-11	125-129	haft	_	_	_	_	_	_	_	
+5-12	130-135	stora	_	_	_	_	_	_	_	
+5-13	136-146	framgångar	_	_	_	_	_	_	_	
+5-14	147-149	de	_	_	_	_	_	_	_	
+5-15	150-157	senaste	_	_	_	_	_	_	_	
+5-16	158-162	åren	_	_	_	_	_	_	_	
+5-17	163-164	–	_	_	_	_	_	_	_	
+5-18	165-166	i	_	_	_	_	_	_	_	
+5-19	167-173	lokala	_	_	_	_	_	_	_	
+5-20	173-174	,	_	_	_	_	_	_	_	
+5-21	175-185	nationella	_	_	_	_	_	_	_	
+5-22	186-189	och	_	_	_	_	_	_	_	
+5-23	190-200	europeiska	_	_	_	_	_	_	_	
+5-24	201-204	val	_	_	_	_	_	_	_	
+5-25	204-205	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste bemöta detta genom att göra EU mer demokratiskt och med långt bättre förutsättningar för att bidra till att leverera den tillväxt och de jobb som medborgarna förväntar sig.
+6-1	206-208	Vi	_	_	_	_	_	_	_	
+6-2	209-214	måste	_	_	_	_	_	_	_	
+6-3	215-221	bemöta	_	_	_	_	_	_	_	
+6-4	222-227	detta	_	_	_	_	_	_	_	
+6-5	228-233	genom	_	_	_	_	_	_	_	
+6-6	234-237	att	_	_	_	_	_	_	_	
+6-7	238-242	göra	_	_	_	_	_	_	_	
+6-8	243-245	EU	_	_	_	_	_	_	_	
+6-9	246-249	mer	_	_	_	_	_	_	_	
+6-10	250-262	demokratiskt	_	_	_	_	_	_	_	
+6-11	263-266	och	_	_	_	_	_	_	_	
+6-12	267-270	med	_	_	_	_	_	_	_	
+6-13	271-276	långt	_	_	_	_	_	_	_	
+6-14	277-283	bättre	_	_	_	_	_	_	_	
+6-15	284-299	förutsättningar	_	_	_	_	_	_	_	
+6-16	300-303	för	_	_	_	_	_	_	_	
+6-17	304-307	att	_	_	_	_	_	_	_	
+6-18	308-313	bidra	_	_	_	_	_	_	_	
+6-19	314-318	till	_	_	_	_	_	_	_	
+6-20	319-322	att	_	_	_	_	_	_	_	
+6-21	323-331	leverera	_	_	_	_	_	_	_	
+6-22	332-335	den	_	_	_	_	_	_	_	
+6-23	336-344	tillväxt	_	_	_	_	_	_	_	
+6-24	345-348	och	_	_	_	_	_	_	_	
+6-25	349-351	de	_	_	_	_	_	_	_	
+6-26	352-356	jobb	_	_	_	_	_	_	_	
+6-27	357-360	som	_	_	_	_	_	_	_	
+6-28	361-372	medborgarna	_	_	_	_	_	_	_	
+6-29	373-382	förväntar	_	_	_	_	_	_	_	
+6-30	383-386	sig	_	_	_	_	_	_	_	
+6-31	386-387	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver den brittiske utrikesministern Philip Hammond.
+7-1	388-391	Det	_	_	_	_	_	_	_	
+7-2	392-399	skriver	_	_	_	_	_	_	_	
+7-3	400-403	den	_	_	_	_	_	_	_	
+7-4	404-413	brittiske	_	_	_	_	_	_	_	
+7-5	414-430	utrikesministern	_	_	_	_	_	_	_	
+7-6	431-437	Philip	_	_	_	_	_	_	_	
+7-7	438-445	Hammond	_	_	_	_	_	_	_	
+7-8	445-446	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	448-449	#	_	_	_	_	_	_	_	
+8-2	449-450	P	_	_	_	_	_	_	_	
+8-3	451-454	IMM	_	_	_	_	_	_	_	
+8-4	454-455	.	_	_	_	_	_	_	_	
+
+#Text=Alltför ofta har EU utövat makt på områden där beslutsfattande skulle kunna göras på nationell, regional eller lokal regeringsnivå.
+9-1	457-464	Alltför	_	Target[3]	9-3[42]	false[3]	2[3]	_	_	
+9-2	465-469	ofta	_	Target[3]	9-3[42]	false[3]	2[3]	_	_	
+9-3	470-473	har	*[42]	_	_	_	_	_	_	
+9-4	474-476	EU	*[42]	_	_	_	_	_	_	
+9-5	477-483	utövat	*[42]	_	_	_	_	_	_	
+9-6	484-488	makt	*[42]	_	_	_	_	_	_	
+9-7	489-491	på	*[42]	_	_	_	_	_	_	
+9-8	492-499	områden	*[42]	_	_	_	_	_	_	
+9-9	500-503	där	*[42]	_	_	_	_	_	_	
+9-10	504-519	beslutsfattande	*[42]	_	_	_	_	_	_	
+9-11	520-526	skulle	*[42]	_	_	_	_	_	_	
+9-12	527-532	kunna	*[42]	_	_	_	_	_	_	
+9-13	533-538	göras	*[42]	_	_	_	_	_	_	
+9-14	539-541	på	*[42]	_	_	_	_	_	_	
+9-15	542-551	nationell	*[42]	_	_	_	_	_	_	
+9-16	551-552	,	*[42]	_	_	_	_	_	_	
+9-17	553-561	regional	*[42]	_	_	_	_	_	_	
+9-18	562-567	eller	*[42]	_	_	_	_	_	_	
+9-19	568-573	lokal	*[42]	_	_	_	_	_	_	
+9-20	574-587	regeringsnivå	*[42]	_	_	_	_	_	_	
+9-21	587-588	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	590-591	#	_	_	_	_	_	_	_	
+10-2	591-592	P	_	_	_	_	_	_	_	
+10-3	593-596	IMM	_	_	_	_	_	_	_	
+10-4	596-597	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	599-602	Det	_	_	_	_	_	_	_	
+11-2	603-606	här	_	_	_	_	_	_	_	
+11-3	607-609	är	_	_	_	_	_	_	_	
+11-4	610-612	en	_	_	_	_	_	_	_	
+11-5	613-627	argumenterande	_	_	_	_	_	_	_	
+11-6	628-632	text	_	_	_	_	_	_	_	
+11-7	633-636	med	_	_	_	_	_	_	_	
+11-8	637-642	syfte	_	_	_	_	_	_	_	
+11-9	643-646	att	_	_	_	_	_	_	_	
+11-10	647-654	påverka	_	_	_	_	_	_	_	
+11-11	654-655	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	656-665	Åsikterna	_	_	_	_	_	_	_	
+12-2	666-669	som	_	_	_	_	_	_	_	
+12-3	670-678	uttrycks	_	_	_	_	_	_	_	
+12-4	679-681	är	_	_	_	_	_	_	_	
+12-5	682-693	skribentens	_	_	_	_	_	_	_	
+12-6	694-698	egna	_	_	_	_	_	_	_	
+12-7	698-699	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	701-702	#	_	_	_	_	_	_	_	
+13-2	702-703	P	_	_	_	_	_	_	_	
+13-3	704-707	IMM	_	_	_	_	_	_	_	
+13-4	707-708	.	_	_	_	_	_	_	_	
+
+#Text=Sedan Storbritannien gick med har EU förändrats bortom all igenkännlighet.
+14-1	710-715	Sedan	_	_	_	_	_	_	_	
+14-2	716-730	Storbritannien	_	_	_	_	_	_	_	
+14-3	731-735	gick	_	_	_	_	_	_	_	
+14-4	736-739	med	_	_	_	_	_	_	_	
+14-5	740-743	har	_	_	_	_	_	_	_	
+14-6	744-746	EU	_	_	_	_	_	_	_	
+14-7	747-757	förändrats	_	_	_	_	_	_	_	
+14-8	758-764	bortom	_	_	_	_	_	_	_	
+14-9	765-768	all	_	_	_	_	_	_	_	
+14-10	769-783	igenkännlighet	_	_	_	_	_	_	_	
+14-11	783-784	.	_	_	_	_	_	_	_	
+
+#Text=Järnridåns fall ledde till att EU utökades och 16 nya länder blev medlemmar.
+15-1	785-795	Järnridåns	_	_	_	_	_	_	_	
+15-2	796-800	fall	_	_	_	_	_	_	_	
+15-3	801-806	ledde	_	_	_	_	_	_	_	
+15-4	807-811	till	_	_	_	_	_	_	_	
+15-5	812-815	att	_	_	_	_	_	_	_	
+15-6	816-818	EU	_	_	_	_	_	_	_	
+15-7	819-827	utökades	_	_	_	_	_	_	_	
+15-8	828-831	och	_	_	_	_	_	_	_	
+15-9	832-834	16	_	_	_	_	_	_	_	
+15-10	835-838	nya	_	_	_	_	_	_	_	
+15-11	839-845	länder	_	_	_	_	_	_	_	
+15-12	846-850	blev	_	_	_	_	_	_	_	
+15-13	851-860	medlemmar	_	_	_	_	_	_	_	
+15-14	860-861	.	_	_	_	_	_	_	_	
+
+#Text=Euron skapades och EU-regler reglerar nu våra angelägenheter på ett jättelikt område som sträcker sig från miljö till sociala frågor.
+16-1	862-867	Euron	_	_	_	_	_	_	_	
+16-2	868-876	skapades	_	_	_	_	_	_	_	
+16-3	877-880	och	_	_	_	_	_	_	_	
+16-4	881-890	EU-regler	_	_	_	_	_	_	_	
+16-5	891-899	reglerar	_	_	_	_	_	_	_	
+16-6	900-902	nu	_	_	_	_	_	_	_	
+16-7	903-907	våra	_	_	_	_	_	_	_	
+16-8	908-922	angelägenheter	_	_	_	_	_	_	_	
+16-9	923-925	på	_	_	_	_	_	_	_	
+16-10	926-929	ett	_	_	_	_	_	_	_	
+16-11	930-939	jättelikt	_	_	_	_	_	_	_	
+16-12	940-946	område	_	_	_	_	_	_	_	
+16-13	947-950	som	_	_	_	_	_	_	_	
+16-14	951-959	sträcker	_	_	_	_	_	_	_	
+16-15	960-963	sig	_	_	_	_	_	_	_	
+16-16	964-968	från	_	_	_	_	_	_	_	
+16-17	969-974	miljö	_	_	_	_	_	_	_	
+16-18	975-979	till	_	_	_	_	_	_	_	
+16-19	980-987	sociala	_	_	_	_	_	_	_	
+16-20	988-994	frågor	_	_	_	_	_	_	_	
+16-21	994-995	.	_	_	_	_	_	_	_	
+
+#Text=Det är ingen tvekan om att EU-medlemskapet har fört med sig tydliga fördelar till Storbritannien på några områden.
+17-1	996-999	Det	_	_	_	_	_	_	_	
+17-2	1000-1002	är	_	_	_	_	_	_	_	
+17-3	1003-1008	ingen	_	_	_	_	_	_	_	
+17-4	1009-1015	tvekan	_	_	_	_	_	_	_	
+17-5	1016-1018	om	_	_	_	_	_	_	_	
+17-6	1019-1022	att	_	_	_	_	_	_	_	
+17-7	1023-1038	EU-medlemskapet	*	_	_	_	_	_	_	
+17-8	1039-1042	har	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-9	1043-1047	fört	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-10	1048-1051	med	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-11	1052-1055	sig	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-12	1056-1063	tydliga	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-13	1064-1072	fördelar	_	Target[4]	17-7	false[4]	4[4]	_	_	
+17-14	1073-1077	till	_	_	_	_	_	_	_	
+17-15	1078-1092	Storbritannien	_	_	_	_	_	_	_	
+17-16	1093-1095	på	_	_	_	_	_	_	_	
+17-17	1096-1101	några	_	_	_	_	_	_	_	
+17-18	1102-1109	områden	_	_	_	_	_	_	_	
+17-19	1109-1110	.	_	_	_	_	_	_	_	
+
+#Text=Men på andra områden har det lett till förlusten av nationell suveränitet och en ökning av den byråkratiska bördan för företag vilket har resulterat i att det brittiska folkets samtycke till medlemskap har tunnats ut.
+18-1	1111-1114	Men	_	_	_	_	_	_	_	
+18-2	1115-1117	på	_	_	_	_	_	_	_	
+18-3	1118-1123	andra	_	_	_	_	_	_	_	
+18-4	1124-1131	områden	_	_	_	_	_	_	_	
+18-5	1132-1135	har	_	_	_	false	2	_	_	
+18-6	1136-1139	det	*	_	_	_	_	_	_	
+18-7	1140-1144	lett	_	Target[5]	18-6	false[5]	2[5]	18-5[0_5]	_	
+18-8	1145-1149	till	_	Target[5]	18-6	false[5]	2[5]	_	_	
+18-9	1150-1159	förlusten	_	Target[5]	18-6	false[5]	2[5]	_	_	
+18-10	1160-1162	av	_	Target[5]	18-6	false[5]	2[5]	_	_	
+18-11	1163-1172	nationell	_	Target[5]	18-6	false[5]	2[5]	_	_	
+18-12	1173-1184	suveränitet	_	Target[5]	18-6	false[5]	2[5]	_	_	
+18-13	1185-1188	och	_	_	_	_	_	_	_	
+18-14	1189-1191	en	_	_	_	_	_	_	_	
+18-15	1192-1198	ökning	_	_	_	_	_	_	_	
+18-16	1199-1201	av	_	_	_	_	_	_	_	
+18-17	1202-1205	den	_	_	_	_	_	_	_	
+18-18	1206-1218	byråkratiska	_	_	_	_	_	_	_	
+18-19	1219-1225	bördan	*	Target	18-19	false	2	_	_	
+18-20	1226-1229	för	_	_	_	_	_	_	_	
+18-21	1230-1237	företag	_	_	_	_	_	_	_	
+18-22	1238-1244	vilket	_	_	_	_	_	_	_	
+18-23	1245-1248	har	_	_	_	_	_	_	_	
+18-24	1249-1259	resulterat	_	_	_	_	_	_	_	
+18-25	1260-1261	i	_	_	_	_	_	_	_	
+18-26	1262-1265	att	_	_	_	_	_	_	_	
+18-27	1266-1269	det	*[43]	_	_	_	_	_	_	
+18-28	1270-1279	brittiska	*[43]	_	_	_	_	_	_	
+18-29	1280-1287	folkets	*[43]	_	_	_	_	_	_	
+18-30	1288-1296	samtycke	_	_[6]	_	false[6]	2[6]	_	_	
+18-31	1297-1301	till	_	_[6]	_	false[6]	2[6]	_	_	
+18-32	1302-1312	medlemskap	*	_	_	_	_	_	_	
+18-33	1313-1316	har	_	Source;Target[7]	18-27[43];18-32	false[7]	2[7]	18-30[6_7]	_	
+18-34	1317-1324	tunnats	_	Source;Target[7]	18-27[43];18-32	false[7]	2[7]	_	_	
+18-35	1325-1327	ut	_	Source;Target[7]	18-27[43];18-32	false[7]	2[7]	_	_	
+18-36	1327-1328	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1330-1331	#	_	_	_	_	_	_	_	
+19-2	1331-1332	P	_	_	_	_	_	_	_	
+19-3	1333-1336	IMM	_	_	_	_	_	_	_	
+19-4	1336-1337	.	_	_	_	_	_	_	_	
+
+#Text=**Så vad är det den brittiska **regeringen vill med dessa förhandlingar?
+20-1	1339-1340	*	_	_	_	_	_	_	_	
+20-2	1340-1341	*	_	_	_	_	_	_	_	
+20-3	1341-1343	Så	_	_	_	_	_	_	_	
+20-4	1344-1347	vad	_	_	_	_	_	_	_	
+20-5	1348-1350	är	_	_	_	_	_	_	_	
+20-6	1351-1354	det	_	_	_	_	_	_	_	
+20-7	1355-1358	den	_	_	_	_	_	_	_	
+20-8	1359-1368	brittiska	_	_	_	_	_	_	_	
+20-9	1369-1370	*	_	_	_	_	_	_	_	
+20-10	1370-1371	*	_	_	_	_	_	_	_	
+20-11	1371-1381	regeringen	_	_	_	_	_	_	_	
+20-12	1382-1386	vill	_	_	_	_	_	_	_	
+20-13	1387-1390	med	_	_	_	_	_	_	_	
+20-14	1391-1396	dessa	_	_	_	_	_	_	_	
+20-15	1397-1410	förhandlingar	_	_	_	_	_	_	_	
+20-16	1410-1411	?	_	_	_	_	_	_	_	
+
+#Text=För att återställa det brittiska folkets förtroende för EU behöver vi samarbeta med våra europeiska partners för att komma överens om ett paket med åtgärder som säkerställer att EU är rustat för 2000-talet, reformer som är till nytta inte bara för Storbritannien utan för alla medlemsländer.
+21-1	1412-1415	För	_	_	_	_	_	_	_	
+21-2	1416-1419	att	_	_	_	_	_	_	_	
+21-3	1420-1430	återställa	_	_	_	_	_	_	_	
+21-4	1431-1434	det	_	_	_	_	_	_	_	
+21-5	1435-1444	brittiska	_	_	_	_	_	_	_	
+21-6	1445-1452	folkets	_	_	_	_	_	_	_	
+21-7	1453-1463	förtroende	_	_	_	_	_	_	_	
+21-8	1464-1467	för	_	_	_	_	_	_	_	
+21-9	1468-1470	EU	_	_	_	_	_	_	_	
+21-10	1471-1478	behöver	_	_	_	_	_	_	_	
+21-11	1479-1481	vi	_	_	_	_	_	_	_	
+21-12	1482-1491	samarbeta	_	_	_	_	_	_	_	
+21-13	1492-1495	med	_	_	_	_	_	_	_	
+21-14	1496-1500	våra	_	_	_	_	_	_	_	
+21-15	1501-1511	europeiska	_	_	_	_	_	_	_	
+21-16	1512-1520	partners	_	_	_	_	_	_	_	
+21-17	1521-1524	för	_	_	_	_	_	_	_	
+21-18	1525-1528	att	_	_	_	_	_	_	_	
+21-19	1529-1534	komma	_	_	_	_	_	_	_	
+21-20	1535-1542	överens	_	_	_	_	_	_	_	
+21-21	1543-1545	om	_	_	_	_	_	_	_	
+21-22	1546-1549	ett	_	_	_	_	_	_	_	
+21-23	1550-1555	paket	_	_	_	_	_	_	_	
+21-24	1556-1559	med	_	_	_	_	_	_	_	
+21-25	1560-1568	åtgärder	_	_	_	_	_	_	_	
+21-26	1569-1572	som	_	_	_	_	_	_	_	
+21-27	1573-1585	säkerställer	_	_	_	_	_	_	_	
+21-28	1586-1589	att	_	_	_	_	_	_	_	
+21-29	1590-1592	EU	_	_	_	_	_	_	_	
+21-30	1593-1595	är	_	_	_	_	_	_	_	
+21-31	1596-1602	rustat	_	_	_	_	_	_	_	
+21-32	1603-1606	för	_	_	_	_	_	_	_	
+21-33	1607-1611	2000	_	_	_	_	_	_	_	
+21-34	1611-1612	-	_	_	_	_	_	_	_	
+21-35	1612-1617	talet	_	_	_	_	_	_	_	
+21-36	1617-1618	,	_	_	_	_	_	_	_	
+21-37	1619-1627	reformer	*[44]	_	_	_	_	_	_	
+21-38	1628-1631	som	*[44]	_	_	_	_	_	_	
+21-39	1632-1634	är	_	Target[8]	21-37[44]	false[8]	4[8]	_	_	
+21-40	1635-1639	till	_	Target[8]	21-37[44]	false[8]	4[8]	_	_	
+21-41	1640-1645	nytta	_	Target[8]	21-37[44]	false[8]	4[8]	_	_	
+21-42	1646-1650	inte	_	_	_	_	_	_	_	
+21-43	1651-1655	bara	_	_	_	_	_	_	_	
+21-44	1656-1659	för	_	_	_	_	_	_	_	
+21-45	1660-1674	Storbritannien	_	_	_	_	_	_	_	
+21-46	1675-1679	utan	_	_	_	_	_	_	_	
+21-47	1680-1683	för	_	_	_	_	_	_	_	
+21-48	1684-1688	alla	_	_	_	_	_	_	_	
+21-49	1689-1702	medlemsländer	_	_	_	_	_	_	_	
+21-50	1702-1703	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+22-1	1705-1706	#	_	_	_	_	_	_	_	
+22-2	1706-1707	P	_	_	_	_	_	_	_	
+22-3	1708-1711	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+23-1	1711-1712	.	_	_	_	_	_	_	_	
+
+#Text=• För det första, när det gäller jobben och tillväxten är den obekväma sanningen att EU:s tillväxttakt är mycket lägre än vad som krävs för att minska arbetslösheten till acceptabla nivåer och den utmanas inte bara av Asien utan även av USA.
+24-1	1714-1715	•	_	_	_	_	_	_	_	
+24-2	1716-1719	För	_	_	_	_	_	_	_	
+24-3	1720-1723	det	_	_	_	_	_	_	_	
+24-4	1724-1730	första	_	_	_	_	_	_	_	
+24-5	1730-1731	,	_	_	_	_	_	_	_	
+24-6	1732-1735	när	_	_	_	_	_	_	_	
+24-7	1736-1739	det	_	_	_	_	_	_	_	
+24-8	1740-1746	gäller	_	_	_	_	_	_	_	
+24-9	1747-1753	jobben	_	_	_	_	_	_	_	
+24-10	1754-1757	och	_	_	_	_	_	_	_	
+24-11	1758-1768	tillväxten	_	_	_	_	_	_	_	
+24-12	1769-1771	är	_	Target[9]	24-16[45]	false[9]	2[9]	_	_	
+24-13	1772-1775	den	_	Target[9]	24-16[45]	false[9]	2[9]	_	_	
+24-14	1776-1784	obekväma	_	Target[9]	24-16[45]	false[9]	2[9]	_	_	
+24-15	1785-1794	sanningen	_	Target[9]	24-16[45]	false[9]	2[9]	_	_	
+24-16	1795-1798	att	*[45]	_	_	_	_	_	_	
+24-17	1799-1801	EU	*[45]	_	_	_	_	_	_	
+24-18	1801-1802	:	*[45]	_	_	_	_	_	_	
+24-19	1802-1803	s	*[45]	_	_	_	_	_	_	
+24-20	1804-1816	tillväxttakt	*[45]	_	_	_	_	_	_	
+24-21	1817-1819	är	*[45]	_	_	_	_	_	_	
+24-22	1820-1826	mycket	*[45]	_	_	_	_	_	_	
+24-23	1827-1832	lägre	*[45]	_	_	_	_	_	_	
+24-24	1833-1835	än	*[45]	_	_	_	_	_	_	
+24-25	1836-1839	vad	*[45]	_	_	_	_	_	_	
+24-26	1840-1843	som	*[45]	_	_	_	_	_	_	
+24-27	1844-1849	krävs	*[45]	_	_	_	_	_	_	
+24-28	1850-1853	för	*[45]	_	_	_	_	_	_	
+24-29	1854-1857	att	*[45]	_	_	_	_	_	_	
+24-30	1858-1864	minska	*[45]	_	_	_	_	_	_	
+24-31	1865-1879	arbetslösheten	*[45]	_	_	_	_	_	_	
+24-32	1880-1884	till	*[45]	_	_	_	_	_	_	
+24-33	1885-1895	acceptabla	*[45]	_	_	_	_	_	_	
+24-34	1896-1902	nivåer	*[45]	_	_	_	_	_	_	
+24-35	1903-1906	och	_	_	_	_	_	_	_	
+24-36	1907-1910	den	_	_	_	_	_	_	_	
+24-37	1911-1918	utmanas	_	_	_	_	_	_	_	
+24-38	1919-1923	inte	_	_	_	_	_	_	_	
+24-39	1924-1928	bara	_	_	_	_	_	_	_	
+24-40	1929-1931	av	_	_	_	_	_	_	_	
+24-41	1932-1937	Asien	_	_	_	_	_	_	_	
+24-42	1938-1942	utan	_	_	_	_	_	_	_	
+24-43	1943-1947	även	_	_	_	_	_	_	_	
+24-44	1948-1950	av	_	_	_	_	_	_	_	
+24-45	1951-1954	USA	_	_	_	_	_	_	_	
+24-46	1954-1955	.	_	_	_	_	_	_	_	
+
+#Text=Om vi ska kunna bevara den europeiska levnadsstandarden måste vi göra det möjligt för våra företag att konkurrera effektivare runt om i världen genom att förbättra den gemensamma marknaden, särskilt för tjänster, energi samt det digitala området.
+25-1	1956-1958	Om	_	_	_	_	_	_	_	
+25-2	1959-1961	vi	_	_	_	_	_	_	_	
+25-3	1962-1965	ska	_	_	_	_	_	_	_	
+25-4	1966-1971	kunna	_	_	_	_	_	_	_	
+25-5	1972-1978	bevara	_	_	_	_	_	_	_	
+25-6	1979-1982	den	_	_	_	_	_	_	_	
+25-7	1983-1993	europeiska	_	_	_	_	_	_	_	
+25-8	1994-2011	levnadsstandarden	_	_	_	_	_	_	_	
+25-9	2012-2017	måste	_	_	_	_	_	_	_	
+25-10	2018-2020	vi	_	_	_	_	_	_	_	
+25-11	2021-2025	göra	_	_	_	_	_	_	_	
+25-12	2026-2029	det	_	_	_	_	_	_	_	
+25-13	2030-2037	möjligt	_	_	_	_	_	_	_	
+25-14	2038-2041	för	_	_	_	_	_	_	_	
+25-15	2042-2046	våra	_	_	_	_	_	_	_	
+25-16	2047-2054	företag	_	_	_	_	_	_	_	
+25-17	2055-2058	att	_	_	_	_	_	_	_	
+25-18	2059-2069	konkurrera	_	_	_	_	_	_	_	
+25-19	2070-2081	effektivare	_	_	_	_	_	_	_	
+25-20	2082-2086	runt	_	_	_	_	_	_	_	
+25-21	2087-2089	om	_	_	_	_	_	_	_	
+25-22	2090-2091	i	_	_	_	_	_	_	_	
+25-23	2092-2099	världen	_	_	_	_	_	_	_	
+25-24	2100-2105	genom	_	_	_	_	_	_	_	
+25-25	2106-2109	att	_	_	_	_	_	_	_	
+25-26	2110-2119	förbättra	_	_	_	_	_	_	_	
+25-27	2120-2123	den	_	_	_	_	_	_	_	
+25-28	2124-2134	gemensamma	_	_	_	_	_	_	_	
+25-29	2135-2144	marknaden	_	_	_	_	_	_	_	
+25-30	2144-2145	,	_	_	_	_	_	_	_	
+25-31	2146-2154	särskilt	_	_	_	_	_	_	_	
+25-32	2155-2158	för	_	_	_	_	_	_	_	
+25-33	2159-2167	tjänster	_	_	_	_	_	_	_	
+25-34	2167-2168	,	_	_	_	_	_	_	_	
+25-35	2169-2175	energi	_	_	_	_	_	_	_	
+25-36	2176-2180	samt	_	_	_	_	_	_	_	
+25-37	2181-2184	det	_	_	_	_	_	_	_	
+25-38	2185-2193	digitala	_	_	_	_	_	_	_	
+25-39	2194-2201	området	_	_	_	_	_	_	_	
+25-40	2201-2202	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste vara öppna för världshandeln och slutföra handelsavtal med USA, Japan och andra utvecklade ekonomier såväl som de snabbt växande ekonomierna i Asien och Sydamerika.
+26-1	2203-2205	Vi	_	_	_	_	_	_	_	
+26-2	2206-2211	måste	_	_	_	_	_	_	_	
+26-3	2212-2216	vara	_	_	_	_	_	_	_	
+26-4	2217-2222	öppna	_	_	_	_	_	_	_	
+26-5	2223-2226	för	_	_	_	_	_	_	_	
+26-6	2227-2240	världshandeln	_	_	_	_	_	_	_	
+26-7	2241-2244	och	_	_	_	_	_	_	_	
+26-8	2245-2253	slutföra	_	_	_	_	_	_	_	
+26-9	2254-2266	handelsavtal	_	_	_	_	_	_	_	
+26-10	2267-2270	med	_	_	_	_	_	_	_	
+26-11	2271-2274	USA	_	_	_	_	_	_	_	
+26-12	2274-2275	,	_	_	_	_	_	_	_	
+26-13	2276-2281	Japan	_	_	_	_	_	_	_	
+26-14	2282-2285	och	_	_	_	_	_	_	_	
+26-15	2286-2291	andra	_	_	_	_	_	_	_	
+26-16	2292-2302	utvecklade	_	_	_	_	_	_	_	
+26-17	2303-2312	ekonomier	_	_	_	_	_	_	_	
+26-18	2313-2318	såväl	_	_	_	_	_	_	_	
+26-19	2319-2322	som	_	_	_	_	_	_	_	
+26-20	2323-2325	de	_	_	_	_	_	_	_	
+26-21	2326-2332	snabbt	_	_	_	_	_	_	_	
+26-22	2333-2340	växande	_	_	_	_	_	_	_	
+26-23	2341-2352	ekonomierna	_	_	_	_	_	_	_	
+26-24	2353-2354	i	_	_	_	_	_	_	_	
+26-25	2355-2360	Asien	_	_	_	_	_	_	_	
+26-26	2361-2364	och	_	_	_	_	_	_	_	
+26-27	2365-2375	Sydamerika	_	_	_	_	_	_	_	
+26-28	2375-2376	.	_	_	_	_	_	_	_	
+
+#Text=Och vi måste skapa ett regelverk som stödjer, inte hindrar, företag att skapa den tillväxt och de jobb vi behöver.
+27-1	2377-2380	Och	_	_	_	_	_	_	_	
+27-2	2381-2383	vi	_	_	_	_	_	_	_	
+27-3	2384-2389	måste	_	_	_	_	_	_	_	
+27-4	2390-2395	skapa	_	_	_	_	_	_	_	
+27-5	2396-2399	ett	_	_	_	_	_	_	_	
+27-6	2400-2409	regelverk	*[46]	_	_	_	_	_	_	
+27-7	2410-2413	som	*[46]	_	_	_	_	_	_	
+27-8	2414-2421	stödjer	_	Target	27-6[46]	false	4	_	_	
+27-9	2421-2422	,	_	_	_	_	_	_	_	
+27-10	2423-2427	inte	_	Target[10]	27-6[46]	false[10]	3[10]	_	_	
+27-11	2428-2435	hindrar	_	Target[10]	27-6[46]	false[10]	3[10]	_	_	
+27-12	2435-2436	,	_	_	_	_	_	_	_	
+27-13	2437-2444	företag	_	_	_	_	_	_	_	
+27-14	2445-2448	att	_	_	_	_	_	_	_	
+27-15	2449-2454	skapa	_	_	_	_	_	_	_	
+27-16	2455-2458	den	_	_	_	_	_	_	_	
+27-17	2459-2467	tillväxt	_	_	_	_	_	_	_	
+27-18	2468-2471	och	_	_	_	_	_	_	_	
+27-19	2472-2474	de	_	_	_	_	_	_	_	
+27-20	2475-2479	jobb	_	_	_	_	_	_	_	
+27-21	2480-2482	vi	_	_	_	_	_	_	_	
+27-22	2483-2490	behöver	_	_	_	_	_	_	_	
+27-23	2490-2491	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+28-1	2493-2494	#	_	_	_	_	_	_	_	
+28-2	2494-2495	P	_	_	_	_	_	_	_	
+28-3	2496-2499	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+29-1	2499-2500	.	_	_	_	_	_	_	_	
+
+#Text=• För det andra eftersträvar vi reformer som låter de länder som vill integrera ytterligare att göra detta medan intressena för de som inte vill ha ytterligare integration respekteras.
+30-1	2502-2503	•	_	_	_	_	_	_	_	
+30-2	2504-2507	För	_	_	_	_	_	_	_	
+30-3	2508-2511	det	_	_	_	_	_	_	_	
+30-4	2512-2517	andra	_	_	_	_	_	_	_	
+30-5	2518-2530	eftersträvar	_	Target;Source	30-7[47];30-6	false	4	_	_	
+30-6	2531-2533	vi	*	_	_	_	_	_	_	
+30-7	2534-2542	reformer	*[47]	_	_	_	_	_	_	
+30-8	2543-2546	som	*[47]	_	_	_	_	_	_	
+30-9	2547-2552	låter	*[47]	_	_	_	_	_	_	
+30-10	2553-2555	de	*[47]	_	_	_	_	_	_	
+30-11	2556-2562	länder	*[47]	_	_	_	_	_	_	
+30-12	2563-2566	som	*[47]	_	_	_	_	_	_	
+30-13	2567-2571	vill	*[47]	_	_	_	_	_	_	
+30-14	2572-2581	integrera	*[47]	_	_	_	_	_	_	
+30-15	2582-2593	ytterligare	*[47]	_	_	_	_	_	_	
+30-16	2594-2597	att	*[47]	_	_	_	_	_	_	
+30-17	2598-2602	göra	*[47]	_	_	_	_	_	_	
+30-18	2603-2608	detta	*[47]	_	_	_	_	_	_	
+30-19	2609-2614	medan	*[47]	_	_	_	_	_	_	
+30-20	2615-2625	intressena	*[47]|*[48]	_	_	_	_	_	_	
+30-21	2626-2629	för	*[47]|*[48]	_	_	_	_	_	_	
+30-22	2630-2632	de	*[47]|*[48]	_	_	_	_	_	_	
+30-23	2633-2636	som	*[47]|*[48]	_	_	_	_	_	_	
+30-24	2637-2641	inte	*[47]|*[48]	_	_	_	_	_	_	
+30-25	2642-2646	vill	*[47]|*[48]	_	_	_	_	_	_	
+30-26	2647-2649	ha	*[47]|*[48]	_	_	_	_	_	_	
+30-27	2650-2661	ytterligare	*[47]|*[48]	_	_	_	_	_	_	
+30-28	2662-2673	integration	*[47]|*[48]	_	_	_	_	_	_	
+30-29	2674-2685	respekteras	*[47]	Source;Target	30-30;30-20[48]	false	4	_	_	
+30-30	2685-2686	.	*	_	_	_	_	_	_	
+
+#Text=Detta gäller tydligast för eurozonen där Storbritannien inte strävar efter att förhindra ytterligare integration  – utan faktiskt stöder detta – men det behövs garantier för att intressena hos dem som står utanför eurozonen skyddas.
+31-1	2687-2692	Detta	_	_	_	_	_	_	_	
+31-2	2693-2699	gäller	_	_	_	_	_	_	_	
+31-3	2700-2709	tydligast	_	_	_	_	_	_	_	
+31-4	2710-2713	för	_	_	_	_	_	_	_	
+31-5	2714-2723	eurozonen	_	_	_	_	_	_	_	
+31-6	2724-2727	där	_	_	_	_	_	_	_	
+31-7	2728-2742	Storbritannien	*	_	_	_	_	_	_	
+31-8	2743-2747	inte	_	Source;Target[11]	31-7;31-13[49]	false[11]	3[11]	_	_	
+31-9	2748-2755	strävar	_	Source;Target[11]	31-7;31-13[49]	false[11]	3[11]	_	_	
+31-10	2756-2761	efter	_	Source;Target[11]	31-7;31-13[49]	false[11]	3[11]	_	_	
+31-11	2762-2765	att	_	Source;Target[11]	31-7;31-13[49]	false[11]	3[11]	_	_	
+31-12	2766-2775	förhindra	_	Source;Target[11]	31-7;31-13[49]	false[11]	3[11]	_	_	
+31-13	2776-2787	ytterligare	*[49]	_	_	_	_	_	31-19[0_49]	
+31-14	2788-2799	integration	*[49]	_	_	_	_	_	_	
+31-15	2801-2802	–	_	_	_	_	_	_	_	
+31-16	2803-2807	utan	_	_	_	_	_	_	_	
+31-17	2808-2816	faktiskt	_	_	_	_	_	_	_	
+31-18	2817-2823	stöder	_	Source;Target	31-7;31-19	false	4	_	_	
+31-19	2824-2829	detta	*	_	_	_	_	_	_	
+31-20	2830-2831	–	_	_	_	_	_	_	_	
+31-21	2832-2835	men	_	_	_	_	_	_	_	
+31-22	2836-2839	det	_	_	_	_	_	_	_	
+31-23	2840-2846	behövs	_	Target	31-24[50]	false	4	_	_	
+31-24	2847-2856	garantier	*[50]	_	_	_	_	_	_	
+31-25	2857-2860	för	*[50]	_	_	_	_	_	_	
+31-26	2861-2864	att	*[50]	_	_	_	_	_	_	
+31-27	2865-2875	intressena	*[50]	_	_	_	_	_	_	
+31-28	2876-2879	hos	*[50]	_	_	_	_	_	_	
+31-29	2880-2883	dem	*[50]	_	_	_	_	_	_	
+31-30	2884-2887	som	*[50]	_	_	_	_	_	_	
+31-31	2888-2892	står	*[50]	_	_	_	_	_	_	
+31-32	2893-2900	utanför	*[50]	_	_	_	_	_	_	
+31-33	2901-2910	eurozonen	*[50]	_	_	_	_	_	_	
+31-34	2911-2918	skyddas	*[50]	_	_	_	_	_	_	
+31-35	2918-2919	.	_	_	_	_	_	_	_	
+
+#Text=Detta koncept med ett Europa med två pelare, med ett klart definierat förhållande mellan euroländer och icke-euroländer inom en gemensam marknad som delar samma institutioner som grundar sig på ett existerande system med Schengensamarbetet och bankunionen och som är bra för alla.
+32-1	2920-2925	Detta	*[51]	_	_	_	_	_	33-1[0_51]|32-39[0_51]	
+32-2	2926-2933	koncept	*[51]	_	_	_	_	_	_	
+32-3	2934-2937	med	*[51]	_	_	_	_	_	_	
+32-4	2938-2941	ett	*[51]	_	_	_	_	_	_	
+32-5	2942-2948	Europa	*[51]	_	_	_	_	_	_	
+32-6	2949-2952	med	*[51]	_	_	_	_	_	_	
+32-7	2953-2956	två	*[51]	_	_	_	_	_	_	
+32-8	2957-2963	pelare	*[51]	_	_	_	_	_	_	
+32-9	2963-2964	,	*[51]	_	_	_	_	_	_	
+32-10	2965-2968	med	*[51]	_	_	_	_	_	_	
+32-11	2969-2972	ett	*[51]	_	_	_	_	_	_	
+32-12	2973-2978	klart	*[51]	Target[12]	32-14[52]	false[12]	4[12]	_	_	
+32-13	2979-2989	definierat	*[51]	Target[12]	32-14[52]	false[12]	4[12]	_	_	
+32-14	2990-3001	förhållande	*[51]|*[52]	_	_	_	_	_	_	
+32-15	3002-3008	mellan	*[51]	_	_	_	_	_	_	
+32-16	3009-3019	euroländer	*[51]	_	_	_	_	_	_	
+32-17	3020-3023	och	*[51]	_	_	_	_	_	_	
+32-18	3024-3039	icke-euroländer	*[51]	_	_	_	_	_	_	
+32-19	3040-3044	inom	*[51]	_	_	_	_	_	_	
+32-20	3045-3047	en	*[51]	_	_	_	_	_	_	
+32-21	3048-3056	gemensam	*[51]	_	_	_	_	_	_	
+32-22	3057-3064	marknad	*[51]	_	_	_	_	_	_	
+32-23	3065-3068	som	*[51]	_	_	_	_	_	_	
+32-24	3069-3074	delar	*[51]	_	_	_	_	_	_	
+32-25	3075-3080	samma	*[51]	_	_	_	_	_	_	
+32-26	3081-3094	institutioner	*[51]	_	_	_	_	_	_	
+32-27	3095-3098	som	*[51]	_	_	_	_	_	_	
+32-28	3099-3106	grundar	*[51]	_	_	_	_	_	_	
+32-29	3107-3110	sig	*[51]	_	_	_	_	_	_	
+32-30	3111-3113	på	*[51]	_	_	_	_	_	_	
+32-31	3114-3117	ett	*[51]	_	_	_	_	_	_	
+32-32	3118-3129	existerande	*[51]	_	_	_	_	_	_	
+32-33	3130-3136	system	*[51]	_	_	_	_	_	_	
+32-34	3137-3140	med	*[51]	_	_	_	_	_	_	
+32-35	3141-3159	Schengensamarbetet	*[51]	_	_	_	_	_	_	
+32-36	3160-3163	och	*[51]	_	_	_	_	_	_	
+32-37	3164-3175	bankunionen	*[51]	_	_	_	_	_	_	
+32-38	3176-3179	och	_	_	_	_	_	_	_	
+32-39	3180-3183	som	*	_	_	_	_	_	_	
+32-40	3184-3186	är	_	Target[13]	32-39	false[13]	4[13]	_	_	
+32-41	3187-3190	bra	_	Target[13]	32-39	false[13]	4[13]	_	_	
+32-42	3191-3194	för	_	Target[13]	32-39	false[13]	4[13]	_	_	
+32-43	3195-3199	alla	_	Target[13]	32-39	false[13]	4[13]	_	_	
+32-44	3199-3200	.	_	_	_	_	_	_	_	
+
+#Text=Det låter integrationen på euroområdet gå framåt och respekterar intressena hos icke-euroländer.
+33-1	3201-3204	Det	*	_	_	_	_	_	_	
+33-2	3205-3210	låter	_	Target	33-1	false	4	33-6[14_0]	_	
+33-3	3211-3224	integrationen	_	_	_	_	_	_	_	
+33-4	3225-3227	på	_	_	_	_	_	_	_	
+33-5	3228-3239	euroområdet	_	_	_	_	_	_	_	
+33-6	3240-3242	gå	_	_[14]	_	false[14]	4[14]	_	_	
+33-7	3243-3249	framåt	_	_[14]	_	false[14]	4[14]	_	_	
+33-8	3250-3253	och	_	_	_	_	_	_	_	
+33-9	3254-3265	respekterar	_	Target[15]	33-1	false[15]	4[15]	_	_	
+33-10	3266-3276	intressena	_	Target[15]	33-1	false[15]	4[15]	_	_	
+33-11	3277-3280	hos	_	_	_	_	_	_	_	
+33-12	3281-3296	icke-euroländer	_	_	_	_	_	_	_	
+33-13	3296-3297	.	_	_	_	_	_	_	_	
+
+#Text=Och det medger att medan idén om ett djupare samarbete tilltalar en del medlemsländer så är det inte rätt för alla.
+34-1	3298-3301	Och	_	_	_	_	_	_	_	
+34-2	3302-3305	det	_	_	_	_	_	_	_	
+34-3	3306-3312	medger	_	_	_	_	_	_	_	
+34-4	3313-3316	att	_	_	_	_	_	_	_	
+34-5	3317-3322	medan	_	_	_	_	_	_	_	
+34-6	3323-3327	idén	*[53]	_	_	_	_	_	34-17[0_53]	
+34-7	3328-3330	om	*[53]	_	_	_	_	_	_	
+34-8	3331-3334	ett	*[53]	_	_	_	_	_	_	
+34-9	3335-3342	djupare	*[53]	_	_	_	_	_	_	
+34-10	3343-3352	samarbete	*[53]	_	_	_	_	_	_	
+34-11	3353-3362	tilltalar	_	Target;Source	34-6[53];34-12[54]	false	4	_	_	
+34-12	3363-3365	en	*[54]	_	_	_	_	_	_	
+34-13	3366-3369	del	*[54]	_	_	_	_	_	_	
+34-14	3370-3383	medlemsländer	*[54]	_	_	_	_	_	_	
+34-15	3384-3386	så	_	_	_	_	_	_	_	
+34-16	3387-3389	är	_	_	_	_	_	_	_	
+34-17	3390-3393	det	*	_	_	_	_	_	_	
+34-18	3394-3398	inte	_	Target;Source[16]	34-17;34-22	false[16]	3[16]	_	_	
+34-19	3399-3403	rätt	_	Target;Source[16]	34-17;34-22	false[16]	3[16]	_	_	
+34-20	3404-3407	för	_	Target;Source[16]	34-17;34-22	false[16]	3[16]	_	_	
+34-21	3408-3412	alla	_	Target;Source[16]	34-17;34-22	false[16]	3[16]	_	_	
+34-22	3412-3413	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM
+35-1	3415-3416	#	_	_	_	_	_	_	_	
+35-2	3416-3417	P	_	_	_	_	_	_	_	
+35-3	3418-3421	IMM	_	_	_	_	_	_	_	
+
+#Text=.
+36-1	3421-3422	.	_	_	_	_	_	_	_	
+
+#Text=• För det tredje tycker vi att alla nationella parlament måste ha mer att säga till om, både när det gäller att koppla samman medborgarna med beslut som fattas av EU och när det rör genomförandet av subsidiaritetsprincipen – idén att alla beslut ska fattas så nära som möjligt till de medborgare som påverkas av dem.
+37-1	3424-3425	•	_	_	_	_	_	_	_	
+37-2	3426-3429	För	_	_	_	_	_	_	_	
+37-3	3430-3433	det	_	_	_	_	_	_	_	
+37-4	3434-3440	tredje	_	_	_	_	_	_	_	
+37-5	3441-3447	tycker	_	_	_	_	_	_	_	
+37-6	3448-3450	vi	_	_	_	_	_	_	_	
+37-7	3451-3454	att	_	_	_	_	_	_	_	
+37-8	3455-3459	alla	_	_	_	_	_	_	_	
+37-9	3460-3470	nationella	_	_	_	_	_	_	_	
+37-10	3471-3480	parlament	_	_	_	_	_	_	_	
+37-11	3481-3486	måste	_	_	_	_	_	_	_	
+37-12	3487-3489	ha	_	_	_	_	_	_	_	
+37-13	3490-3493	mer	_	_	_	_	_	_	_	
+37-14	3494-3497	att	_	_	_	_	_	_	_	
+37-15	3498-3502	säga	_	_	_	_	_	_	_	
+37-16	3503-3507	till	_	_	_	_	_	_	_	
+37-17	3508-3510	om	_	_	_	_	_	_	_	
+37-18	3510-3511	,	_	_	_	_	_	_	_	
+37-19	3512-3516	både	_	_	_	_	_	_	_	
+37-20	3517-3520	när	_	_	_	_	_	_	_	
+37-21	3521-3524	det	_	_	_	_	_	_	_	
+37-22	3525-3531	gäller	_	_	_	_	_	_	_	
+37-23	3532-3535	att	_	_	_	_	_	_	_	
+37-24	3536-3542	koppla	_	_	_	_	_	_	_	
+37-25	3543-3549	samman	_	_	_	_	_	_	_	
+37-26	3550-3561	medborgarna	_	_	_	_	_	_	_	
+37-27	3562-3565	med	_	_	_	_	_	_	_	
+37-28	3566-3572	beslut	_	_	_	_	_	_	_	
+37-29	3573-3576	som	_	_	_	_	_	_	_	
+37-30	3577-3583	fattas	_	_	_	_	_	_	_	
+37-31	3584-3586	av	_	_	_	_	_	_	_	
+37-32	3587-3589	EU	_	_	_	_	_	_	_	
+37-33	3590-3593	och	_	_	_	_	_	_	_	
+37-34	3594-3597	när	_	_	_	_	_	_	_	
+37-35	3598-3601	det	_	_	_	_	_	_	_	
+37-36	3602-3605	rör	_	_	_	_	_	_	_	
+37-37	3606-3619	genomförandet	_	_	_	_	_	_	_	
+37-38	3620-3622	av	_	_	_	_	_	_	_	
+37-39	3623-3646	subsidiaritetsprincipen	_	_	_	_	_	_	_	
+37-40	3647-3648	–	_	_	_	_	_	_	_	
+37-41	3649-3653	idén	_	_	_	_	_	_	_	
+37-42	3654-3657	att	_	_	_	_	_	_	_	
+37-43	3658-3662	alla	_	_	_	_	_	_	_	
+37-44	3663-3669	beslut	_	_	_	_	_	_	_	
+37-45	3670-3673	ska	_	_	_	_	_	_	_	
+37-46	3674-3680	fattas	_	_	_	_	_	_	_	
+37-47	3681-3683	så	_	_	_	_	_	_	_	
+37-48	3684-3688	nära	_	_	_	_	_	_	_	
+37-49	3689-3692	som	_	_	_	_	_	_	_	
+37-50	3693-3700	möjligt	_	_	_	_	_	_	_	
+37-51	3701-3705	till	_	_	_	_	_	_	_	
+37-52	3706-3708	de	_	_	_	_	_	_	_	
+37-53	3709-3719	medborgare	_	_	_	_	_	_	_	
+37-54	3720-3723	som	_	_	_	_	_	_	_	
+37-55	3724-3732	påverkas	_	_	_	_	_	_	_	
+37-56	3733-3735	av	_	_	_	_	_	_	_	
+37-57	3736-3739	dem	_	_	_	_	_	_	_	
+37-58	3739-3740	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	3742-3743	#	_	_	_	_	_	_	_	
+38-2	3743-3744	P	_	_	_	_	_	_	_	
+38-3	3745-3748	IMM	_	_	_	_	_	_	_	
+38-4	3748-3749	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+39-1	3751-3764	Skräddarsydda	_	_	_	_	_	_	_	
+39-2	3765-3771	kurser	_	_	_	_	_	_	_	
+39-3	3772-3773	i	_	_	_	_	_	_	_	
+39-4	3774-3779	ämnen	*[55]	_	_	_	_	_	_	
+39-5	3780-3783	som	*[55]	_	_	_	_	_	_	
+39-6	3784-3795	intresserar	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-7	3796-3799	och	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-8	3800-3809	engagerar	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-9	3810-3814	både	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-10	3815-3820	kropp	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-11	3821-3824	och	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-12	3825-3829	själ	_	Source;Target[17]	39-13;39-4[55]	false[17]	4[17]	_	_	
+39-13	3829-3830	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3832-3833	#	_	_	_	_	_	_	_	
+40-2	3833-3834	P	_	_	_	_	_	_	_	
+40-3	3835-3838	IMM	_	_	_	_	_	_	_	
+40-4	3838-3839	.	_	_	_	_	_	_	_	
+
+#Text=Alltför ofta har EU utövat makt på områden där beslutsfattande skulle kunna göras på nationell, regional eller lokal regeringsnivå utan att inkräkta på verksamheten på den inre marknaden eller ett effektivt fungerande EU.
+41-1	3841-3848	Alltför	_	Target[18]	41-3[56]	false[18]	2[18]	_	_	
+41-2	3849-3853	ofta	_	Target[18]	41-3[56]	false[18]	2[18]	_	_	
+41-3	3854-3857	har	*[56]	_	_	_	_	_	_	
+41-4	3858-3860	EU	*[56]	_	_	_	_	_	_	
+41-5	3861-3867	utövat	*[56]	_	_	_	_	_	_	
+41-6	3868-3872	makt	*[56]	_	_	_	_	_	_	
+41-7	3873-3875	på	*[56]	_	_	_	_	_	_	
+41-8	3876-3883	områden	*[56]	_	_	_	_	_	_	
+41-9	3884-3887	där	*[56]	_	_	_	_	_	_	
+41-10	3888-3903	beslutsfattande	*[56]|*[57]	_	_	_	_	_	_	
+41-11	3904-3910	skulle	*[56]	Target[19]	41-10[57]	false[19]	4[19]	_	_	
+41-12	3911-3916	kunna	*[56]	Target[19]	41-10[57]	false[19]	4[19]	_	_	
+41-13	3917-3922	göras	*[56]	Target[19]	41-10[57]	false[19]	4[19]	_	_	
+41-14	3923-3925	på	*[56]	_	_	_	_	_	_	
+41-15	3926-3935	nationell	*[56]	_	_	_	_	_	_	
+41-16	3935-3936	,	*[56]	_	_	_	_	_	_	
+41-17	3937-3945	regional	*[56]	_	_	_	_	_	_	
+41-18	3946-3951	eller	*[56]	_	_	_	_	_	_	
+41-19	3952-3957	lokal	*[56]	_	_	_	_	_	_	
+41-20	3958-3971	regeringsnivå	*[56]	_	_	_	_	_	_	
+41-21	3972-3976	utan	*[56]	_	_	_	_	_	_	
+41-22	3977-3980	att	*[56]	_	_	_	_	_	_	
+41-23	3981-3989	inkräkta	*[56]	_	_	_	_	_	_	
+41-24	3990-3992	på	*[56]	_	_	_	_	_	_	
+41-25	3993-4005	verksamheten	*[56]	_	_	_	_	_	_	
+41-26	4006-4008	på	*[56]	_	_	_	_	_	_	
+41-27	4009-4012	den	*[56]	_	_	_	_	_	_	
+41-28	4013-4017	inre	*[56]	_	_	_	_	_	_	
+41-29	4018-4027	marknaden	*[56]	_	_	_	_	_	_	
+41-30	4028-4033	eller	*[56]	_	_	_	_	_	_	
+41-31	4034-4037	ett	*[56]	_	_	_	_	_	_	
+41-32	4038-4047	effektivt	*[56]	Target[20]	41-34[58]	false[20]	4[20]	_	_	
+41-33	4048-4058	fungerande	*[56]	Target[20]	41-34[58]	false[20]	4[20]	_	_	
+41-34	4059-4061	EU	*[56]|*[58]	_	_	_	_	_	_	
+41-35	4061-4062	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill stärka de nationella parlamentens roll, till exempel genom att tillåta grupperingar av dem att hindra regler i framtiden.
+42-1	4063-4065	Vi	*	_	_	_	_	_	_	
+42-2	4066-4070	vill	_	Target;Source[21]|_[22]	42-4[59];42-1|_	false[21]|false[22]	4[21]|4[22]	_	_	
+42-3	4071-4077	stärka	_	Target;Source[21]	42-4[59];42-1	false[21]	4[21]	_	_	
+42-4	4078-4080	de	*[59]	_	_	_	_	_	_	
+42-5	4081-4091	nationella	*[59]	_	_	_	_	_	_	
+42-6	4092-4104	parlamentens	*[59]	_	_	_	_	_	_	
+42-7	4105-4109	roll	*[59]	_	_	_	_	_	_	
+42-8	4109-4110	,	_	_	_	_	_	_	_	
+42-9	4111-4115	till	_	_	_	_	_	_	_	
+42-10	4116-4123	exempel	_	_	_	_	_	_	_	
+42-11	4124-4129	genom	_	_	_	_	_	_	_	
+42-12	4130-4133	att	_	_	_	_	_	_	_	
+42-13	4134-4141	tillåta	_	Target;Source	42-14[60];42-1	false	4	42-2[22_0]	_	
+42-14	4142-4154	grupperingar	*[60]	_	_	_	_	_	_	
+42-15	4155-4157	av	*[60]	_	_	_	_	_	_	
+42-16	4158-4161	dem	*[60]	_	_	_	_	_	_	
+42-17	4162-4165	att	_	_	_	_	_	_	_	
+42-18	4166-4172	hindra	_	_	_	_	_	_	_	
+42-19	4173-4179	regler	_	_	_	_	_	_	_	
+42-20	4180-4181	i	_	_	_	_	_	_	_	
+42-21	4182-4191	framtiden	_	_	_	_	_	_	_	
+42-22	4191-4192	.	_	_	_	_	_	_	_	
+
+#Text=EU måste respektera de nivåer av regeringsmakten som är närmast och har störst ansvar för europeiska medborgare.
+43-1	4193-4195	EU	_	_	_	_	_	_	_	
+43-2	4196-4201	måste	_	_	_	_	_	_	_	
+43-3	4202-4212	respektera	_	_	_	_	_	_	_	
+43-4	4213-4215	de	_	_	_	_	_	_	_	
+43-5	4216-4222	nivåer	_	_	_	_	_	_	_	
+43-6	4223-4225	av	_	_	_	_	_	_	_	
+43-7	4226-4241	regeringsmakten	_	_	_	_	_	_	_	
+43-8	4242-4245	som	_	_	_	_	_	_	_	
+43-9	4246-4248	är	_	_	_	_	_	_	_	
+43-10	4249-4256	närmast	_	_	_	_	_	_	_	
+43-11	4257-4260	och	_	_	_	_	_	_	_	
+43-12	4261-4264	har	_	_	_	_	_	_	_	
+43-13	4265-4271	störst	_	_	_	_	_	_	_	
+43-14	4272-4278	ansvar	_	_	_	_	_	_	_	
+43-15	4279-4282	för	_	_	_	_	_	_	_	
+43-16	4283-4293	europeiska	_	_	_	_	_	_	_	
+43-17	4294-4304	medborgare	_	_	_	_	_	_	_	
+43-18	4304-4305	.	_	_	_	_	_	_	_	
+
+#Text=Vi instämmer med den nederländska regeringen: "Europa där det är nödvändigt, nationellt där det är möjligt.".
+44-1	4306-4308	Vi	*	_	_	_	_	_	_	
+44-2	4309-4318	instämmer	_	Target;Source[23]	44-4[61];44-1	false[23]	4[23]	_	_	
+44-3	4319-4322	med	_	Target;Source[23]	44-4[61];44-1	false[23]	4[23]	_	_	
+44-4	4323-4326	den	*[61]	_	_	_	_	_	_	
+44-5	4327-4339	nederländska	*[61]	_	_	_	_	_	_	
+44-6	4340-4350	regeringen	*[61]	_	_	_	_	_	_	
+44-7	4350-4351	:	_	_	_	_	_	_	_	
+44-8	4352-4353	"	_	_	_	_	_	_	_	
+44-9	4353-4359	Europa	_	_	_	_	_	_	_	
+44-10	4360-4363	där	_	_	_	_	_	_	_	
+44-11	4364-4367	det	_	_	_	_	_	_	_	
+44-12	4368-4370	är	_	_	_	_	_	_	_	
+44-13	4371-4381	nödvändigt	_	_	_	_	_	_	_	
+44-14	4381-4382	,	_	_	_	_	_	_	_	
+44-15	4383-4393	nationellt	_	_	_	_	_	_	_	
+44-16	4394-4397	där	_	_	_	_	_	_	_	
+44-17	4398-4401	det	_	_	_	_	_	_	_	
+44-18	4402-4404	är	_	_	_	_	_	_	_	
+44-19	4405-4412	möjligt	_	_	_	_	_	_	_	
+44-20	4412-4413	.	_	_	_	_	_	_	_	
+44-21	4413-4414	"	_	_	_	_	_	_	_	
+44-22	4414-4415	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM
+45-1	4417-4418	#	_	_	_	_	_	_	_	
+45-2	4418-4419	P	_	_	_	_	_	_	_	
+45-3	4420-4423	IMM	_	_	_	false	3	_	_	
+
+#Text=.
+46-1	4423-4424	.	_	_	_	_	_	_	_	
+
+#Text=• För det fjärde, vi accepterar att fri rörlighet för människor för arbete är en av EU:s fyra grundläggande friheter och dessa förhandlingar är inte ute efter att inte inskränka denna frihet, men vi vill skydda Storbritanniens välfärdssystem från att utnyttjas och minska sporrarna som uppmuntrar arbetare med högre yrkesutbildning att resa till Storbritannien för arbeten för okvalificerade arbeten.
+47-1	4426-4427	•	_	_	_	_	_	_	_	
+47-2	4428-4431	För	_	_	_	_	_	_	_	
+47-3	4432-4435	det	_	_	_	_	_	_	_	
+47-4	4436-4442	fjärde	_	_	_	_	_	_	_	
+47-5	4442-4443	,	_	_	_	_	_	_	_	
+47-6	4444-4446	vi	*	_	_	_	_	_	_	
+47-7	4447-4457	accepterar	_	Target;Source	47-8[62];47-6	false	4	_	_	
+47-8	4458-4461	att	*[62]	_	_	_	_	_	47-34[63_62]	
+47-9	4462-4465	fri	*[62]	_	_	_	_	_	_	
+47-10	4466-4475	rörlighet	*[62]	_	_	_	_	_	_	
+47-11	4476-4479	för	*[62]	_	_	_	_	_	_	
+47-12	4480-4489	människor	*[62]	_	_	_	_	_	_	
+47-13	4490-4493	för	*[62]	_	_	_	_	_	_	
+47-14	4494-4500	arbete	*[62]	_	_	_	_	_	_	
+47-15	4501-4503	är	*[62]	_	_	_	_	_	_	
+47-16	4504-4506	en	*[62]	_	_	_	_	_	_	
+47-17	4507-4509	av	*[62]	_	_	_	_	_	_	
+47-18	4510-4512	EU	*[62]	_	_	_	_	_	_	
+47-19	4512-4513	:	*[62]	_	_	_	_	_	_	
+47-20	4513-4514	s	*[62]	_	_	_	_	_	_	
+47-21	4515-4519	fyra	*[62]	_	_	_	_	_	_	
+47-22	4520-4533	grundläggande	*[62]	_	_	_	_	_	_	
+47-23	4534-4542	friheter	*[62]	_	_	_	_	_	_	
+47-24	4543-4546	och	_	_	_	_	_	_	_	
+47-25	4547-4552	dessa	_	_	_	_	_	_	_	
+47-26	4553-4566	förhandlingar	_	_	_	_	_	_	_	
+47-27	4567-4569	är	_	_[24]	_	false[24]	3[24]	_	_	
+47-28	4570-4574	inte	_	_[24]	_	false[24]	3[24]	_	_	
+47-29	4575-4578	ute	_	_[24]	_	false[24]	3[24]	_	_	
+47-30	4579-4584	efter	_	_[24]	_	false[24]	3[24]	_	_	
+47-31	4585-4588	att	_	_[24]	_	false[24]	3[24]	_	_	
+47-32	4589-4593	inte	_	_	_	_	_	_	_	
+47-33	4594-4603	inskränka	_	Target;Source	47-34[63];47-6	false	3	47-27[24_0]	_	
+47-34	4604-4609	denna	*[63]	_	_	_	_	_	_	
+47-35	4610-4616	frihet	*[63]	_	_	_	_	_	_	
+47-36	4616-4617	,	_	_	_	_	_	_	_	
+47-37	4618-4621	men	_	_	_	_	_	_	_	
+47-38	4622-4624	vi	*	_	_	_	_	_	_	
+47-39	4625-4629	vill	_	Source;Target[25]|_[26]	47-38;47-41[64]|_	false[25]|false[26]	4[25]|2[26]	_	_	
+47-40	4630-4636	skydda	_	Source;Target[25]	47-38;47-41[64]	false[25]	4[25]	_	_	
+47-41	4637-4652	Storbritanniens	*[64]	_	_	_	_	_	48-1[0_64]	
+47-42	4653-4667	välfärdssystem	*[64]	_	_	_	_	_	_	
+47-43	4668-4672	från	*[64]	_	_	_	_	_	_	
+47-44	4673-4676	att	*[64]	_	_	_	_	_	_	
+47-45	4677-4686	utnyttjas	*[64]	_	_	_	_	_	_	
+47-46	4687-4690	och	_	_	_	_	_	_	_	
+47-47	4691-4697	minska	_	Target;Source	47-48[65];47-38	false	2	47-39[26_0]	_	
+47-48	4698-4707	sporrarna	*[65]	_	_	_	_	_	48-1[0_65]	
+47-49	4708-4711	som	*[65]	_	_	_	_	_	_	
+47-50	4712-4722	uppmuntrar	*[65]	_	_	_	_	_	_	
+47-51	4723-4731	arbetare	*[65]	_	_	_	_	_	_	
+47-52	4732-4735	med	*[65]	_	_	_	_	_	_	
+47-53	4736-4741	högre	*[65]	_	_	_	_	_	_	
+47-54	4742-4757	yrkesutbildning	*[65]	_	_	_	_	_	_	
+47-55	4758-4761	att	*[65]	_	_	_	_	_	_	
+47-56	4762-4766	resa	*[65]	_	_	_	_	_	_	
+47-57	4767-4771	till	*[65]	_	_	_	_	_	_	
+47-58	4772-4786	Storbritannien	*[65]	_	_	_	_	_	_	
+47-59	4787-4790	för	*[65]	_	_	_	_	_	_	
+47-60	4791-4798	arbeten	*[65]	_	_	_	_	_	_	
+47-61	4799-4802	för	*[65]	_	_	_	_	_	_	
+47-62	4803-4817	okvalificerade	*[65]	_	_	_	_	_	_	
+47-63	4818-4825	arbeten	*[65]	_	_	_	_	_	_	
+47-64	4825-4826	.	_	_	_	_	_	_	_	
+
+#Text=Detta underminerar ekonomisk tillväxt i länderna de reser till och tron på rättvisan i fri rörlighet i länderna de reser till.
+48-1	4827-4832	Detta	*	_	_	_	_	_	_	
+48-2	4833-4845	underminerar	_	Target[27]|_[28]	48-1|_	false[27]|false[28]	2[27]|2[28]	_	_	
+48-3	4846-4855	ekonomisk	_	Target[27]	48-1	false[27]	2[27]	_	_	
+48-4	4856-4864	tillväxt	_	Target[27]	48-1	false[27]	2[27]	_	_	
+48-5	4865-4866	i	_	_	_	_	_	_	_	
+48-6	4867-4875	länderna	_	_	_	_	_	_	_	
+48-7	4876-4878	de	_	_	_	_	_	_	_	
+48-8	4879-4884	reser	_	_	_	_	_	_	_	
+48-9	4885-4889	till	_	_	_	_	_	_	_	
+48-10	4890-4893	och	_	_	_	_	_	_	_	
+48-11	4894-4898	tron	_	Target[29]	48-1	false[29]	2[29]	48-2[28_29]	_	
+48-12	4899-4901	på	_	Target[29]	48-1	false[29]	2[29]	_	_	
+48-13	4902-4911	rättvisan	_	Target[29]	48-1	false[29]	2[29]	_	_	
+48-14	4912-4913	i	_	_	_	_	_	_	_	
+48-15	4914-4917	fri	_	_	_	_	_	_	_	
+48-16	4918-4927	rörlighet	_	_	_	_	_	_	_	
+48-17	4928-4929	i	_	_	_	_	_	_	_	
+48-18	4930-4938	länderna	_	_	_	_	_	_	_	
+48-19	4939-4941	de	_	_	_	_	_	_	_	
+48-20	4942-4947	reser	_	_	_	_	_	_	_	
+48-21	4948-4952	till	_	_	_	_	_	_	_	
+48-22	4952-4953	.	_	_	_	_	_	_	_	
+
+#Text=Vi måste även utveckla de andra friheterna, särskilt friheten i rörlighet av tjänster och kapital, för att försäkra att det inte enbart är fri rörlighet av människor som bidrar till konvergensen av levnadsstandard över hela EU.
+49-1	4954-4956	Vi	*	_	_	_	_	_	_	
+49-2	4957-4962	måste	_	_	_	_	_	_	_	
+49-3	4963-4967	även	_	_	_	_	_	_	_	
+49-4	4968-4976	utveckla	_	_	_	_	_	_	_	
+49-5	4977-4979	de	_	_	_	_	_	_	_	
+49-6	4980-4985	andra	_	_	_	_	_	_	_	
+49-7	4986-4996	friheterna	_	_	_	_	_	_	_	
+49-8	4996-4997	,	_	_	_	_	_	_	_	
+49-9	4998-5006	särskilt	_	_	_	_	_	_	_	
+49-10	5007-5015	friheten	_	_	_	_	_	_	_	
+49-11	5016-5017	i	_	_	_	_	_	_	_	
+49-12	5018-5027	rörlighet	_	_	_	_	_	_	_	
+49-13	5028-5030	av	_	_	_	_	_	_	_	
+49-14	5031-5039	tjänster	_	_	_	_	_	_	_	
+49-15	5040-5043	och	_	_	_	_	_	_	_	
+49-16	5044-5051	kapital	_	_	_	_	_	_	_	
+49-17	5051-5052	,	_	_	_	_	_	_	_	
+49-18	5053-5056	för	_	_	_	_	_	_	_	
+49-19	5057-5060	att	_	Source;Target[30]	49-1;49-21[66]	false[30]	4[30]	_	_	
+49-20	5061-5069	försäkra	_	Source;Target[30]	49-1;49-21[66]	false[30]	4[30]	_	_	
+49-21	5070-5073	att	*[66]	_	_	_	_	_	_	
+49-22	5074-5077	det	*[66]	_	_	_	_	_	_	
+49-23	5078-5082	inte	*[66]	_	_	_	_	_	_	
+49-24	5083-5089	enbart	*[66]	_	_	_	_	_	_	
+49-25	5090-5092	är	*[66]	_	_	_	_	_	_	
+49-26	5093-5096	fri	*[66]	_	_	_	_	_	_	
+49-27	5097-5106	rörlighet	*[66]	_	_	_	_	_	_	
+49-28	5107-5109	av	*[66]	_	_	_	_	_	_	
+49-29	5110-5119	människor	*[66]	_	_	_	_	_	_	
+49-30	5120-5123	som	*[66]	_	_	_	_	_	_	
+49-31	5124-5130	bidrar	*[66]	_	_	_	_	_	_	
+49-32	5131-5135	till	*[66]	_	_	_	_	_	_	
+49-33	5136-5148	konvergensen	*[66]	_	_	_	_	_	_	
+49-34	5149-5151	av	*[66]	_	_	_	_	_	_	
+49-35	5152-5167	levnadsstandard	*[66]	_	_	_	_	_	_	
+49-36	5168-5172	över	*[66]	_	_	_	_	_	_	
+49-37	5173-5177	hela	*[66]	_	_	_	_	_	_	
+49-38	5178-5180	EU	*[66]	_	_	_	_	_	_	
+49-39	5180-5181	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	5183-5184	#	_	_	_	_	_	_	_	
+50-2	5184-5185	P	_	_	_	_	_	_	_	
+50-3	5186-5189	IMM	_	_	_	_	_	_	_	
+50-4	5189-5190	.	_	_	_	_	_	_	_	
+
+#Text=Vi närmar oss dessa reformer positivt och engagerat, vi lyssnar på våra partners och har för avsikt att komma överens om reformer som hjälper alla medlemsländer att växa under 2000-talet.
+51-1	5192-5194	Vi	*	_	_	_	_	_	_	
+51-2	5195-5201	närmar	_	_[31]	_	false[31]	4[31]	_	_	
+51-3	5202-5205	oss	_	_[31]	_	false[31]	4[31]	_	_	
+51-4	5206-5211	dessa	*[67]	_	_	_	_	_	_	
+51-5	5212-5220	reformer	*[67]	_	_	_	_	_	_	
+51-6	5221-5229	positivt	_	Source;Target[32]	51-1;51-4[67]	false[32]	4[32]	51-2[31_32]	_	
+51-7	5230-5233	och	_	Source;Target[32]	51-1;51-4[67]	false[32]	4[32]	_	_	
+51-8	5234-5243	engagerat	_	Source;Target[32]	51-1;51-4[67]	false[32]	4[32]	_	_	
+51-9	5243-5244	,	_	_	_	_	_	_	_	
+51-10	5245-5247	vi	*	_	_	_	_	_	_	
+51-11	5248-5255	lyssnar	_	_	_	_	_	_	_	
+51-12	5256-5258	på	_	_	_	_	_	_	_	
+51-13	5259-5263	våra	_	_	_	_	_	_	_	
+51-14	5264-5272	partners	_	_	_	_	_	_	_	
+51-15	5273-5276	och	_	_	_	_	_	_	_	
+51-16	5277-5280	har	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-17	5281-5284	för	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-18	5285-5291	avsikt	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-19	5292-5295	att	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-20	5296-5301	komma	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-21	5302-5309	överens	_	Source[33]	51-10	false[33]	4[33]	_	_	
+51-22	5310-5312	om	_	_	_	_	_	_	_	
+51-23	5313-5321	reformer	_	_	_	_	_	_	_	
+51-24	5322-5325	som	_	_	_	_	_	_	_	
+51-25	5326-5333	hjälper	_	_	_	_	_	_	_	
+51-26	5334-5338	alla	_	_	_	_	_	_	_	
+51-27	5339-5352	medlemsländer	_	_	_	_	_	_	_	
+51-28	5353-5356	att	_	_	_	_	_	_	_	
+51-29	5357-5361	växa	_	_	_	_	_	_	_	
+51-30	5362-5367	under	_	_	_	_	_	_	_	
+51-31	5368-5372	2000	_	_	_	_	_	_	_	
+51-32	5372-5373	-	_	_	_	_	_	_	_	
+51-33	5373-5378	talet	_	_	_	_	_	_	_	
+51-34	5378-5379	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	5381-5382	#	_	_	_	_	_	_	_	
+52-2	5382-5383	P	_	_	_	_	_	_	_	
+52-3	5384-5387	IMM	_	_	_	_	_	_	_	
+52-4	5387-5388	.	_	_	_	_	_	_	_	
+
+#Text=Vi kommer att förhandla fram ett paket av reformer och sedan kommer vi att fråga det brittiska folket om deras åsikt i en direkt "in eller ut"-folkomröstning innan slutet av 2017, tidigare om vi kan.
+53-1	5390-5392	Vi	_	_	_	_	_	_	_	
+53-2	5393-5399	kommer	_	_	_	_	_	_	_	
+53-3	5400-5403	att	_	_	_	_	_	_	_	
+53-4	5404-5413	förhandla	_	_	_	_	_	_	_	
+53-5	5414-5418	fram	_	_	_	_	_	_	_	
+53-6	5419-5422	ett	_	_	_	_	_	_	_	
+53-7	5423-5428	paket	_	_	_	_	_	_	_	
+53-8	5429-5431	av	_	_	_	_	_	_	_	
+53-9	5432-5440	reformer	_	_	_	_	_	_	_	
+53-10	5441-5444	och	_	_	_	_	_	_	_	
+53-11	5445-5450	sedan	_	_	_	_	_	_	_	
+53-12	5451-5457	kommer	_	_	_	_	_	_	_	
+53-13	5458-5460	vi	_	_	_	_	_	_	_	
+53-14	5461-5464	att	_	_	_	_	_	_	_	
+53-15	5465-5470	fråga	_	_	_	_	_	_	_	
+53-16	5471-5474	det	_	_	_	_	_	_	_	
+53-17	5475-5484	brittiska	_	_	_	_	_	_	_	
+53-18	5485-5491	folket	_	_	_	_	_	_	_	
+53-19	5492-5494	om	_	_	_	_	_	_	_	
+53-20	5495-5500	deras	_	_	_	_	_	_	_	
+53-21	5501-5506	åsikt	_	_	_	_	_	_	_	
+53-22	5507-5508	i	_	_	_	_	_	_	_	
+53-23	5509-5511	en	_	_	_	_	_	_	_	
+53-24	5512-5518	direkt	_	_	_	_	_	_	_	
+53-25	5519-5520	"	_	_	_	_	_	_	_	
+53-26	5520-5522	in	_	_	_	_	_	_	_	
+53-27	5523-5528	eller	_	_	_	_	_	_	_	
+53-28	5529-5531	ut	_	_	_	_	_	_	_	
+53-29	5531-5532	"	_	_	_	_	_	_	_	
+53-30	5532-5533	-	_	_	_	_	_	_	_	
+53-31	5533-5547	folkomröstning	_	_	_	_	_	_	_	
+53-32	5548-5553	innan	_	_	_	_	_	_	_	
+53-33	5554-5560	slutet	_	_	_	_	_	_	_	
+53-34	5561-5563	av	_	_	_	_	_	_	_	
+53-35	5564-5568	2017	_	_	_	_	_	_	_	
+53-36	5568-5569	,	_	_	_	_	_	_	_	
+53-37	5570-5578	tidigare	_	_	_	_	_	_	_	
+53-38	5579-5581	om	_	_	_	_	_	_	_	
+53-39	5582-5584	vi	_	_	_	_	_	_	_	
+53-40	5585-5588	kan	_	_	_	_	_	_	_	
+53-41	5588-5589	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	5591-5592	#	_	_	_	_	_	_	_	
+54-2	5592-5593	P	_	_	_	_	_	_	_	
+54-3	5594-5597	IMM	_	_	_	_	_	_	_	
+54-4	5597-5598	.	_	_	_	_	_	_	_	
+
+#Text=Insatserna är höga: Storbritannien är en stor och öppen ekonomi med en lång historia och en betydelsefull roll i världen vilket kan bidra betydande till enormt till Europas framgångar.
+55-1	5600-5610	Insatserna	_	_	_	_	_	_	_	
+55-2	5611-5613	är	_	_	_	_	_	_	_	
+55-3	5614-5618	höga	_	_	_	_	_	_	_	
+55-4	5618-5619	:	_	_	_	_	_	_	_	
+55-5	5620-5634	Storbritannien	*[68]|*[69]	_	_	_	_	_	55-22[0_68]|55-11[70_69]	
+55-6	5635-5637	är	*[68]	_	_	_	_	_	_	
+55-7	5638-5640	en	*[68]	_	_	_	_	_	_	
+55-8	5641-5645	stor	*[68]	_	_	_	_	_	_	
+55-9	5646-5649	och	*[68]	_	_	_	_	_	_	
+55-10	5650-5655	öppen	*[68]	_	_	_	_	_	_	
+55-11	5656-5663	ekonomi	*[68]|*[70]	_	_	_	_	_	_	
+55-12	5664-5667	med	*[68]	_	_	_	_	_	_	
+55-13	5668-5670	en	*[68]	_	_	_	_	_	_	
+55-14	5671-5675	lång	*[68]	_	_	_	_	_	_	
+55-15	5676-5684	historia	*[68]	_	_	_	_	_	_	
+55-16	5685-5688	och	*[68]	_	_	_	_	_	_	
+55-17	5689-5691	en	*[68]	_	_	_	_	_	_	
+55-18	5692-5705	betydelsefull	*[68]	Target[34]	55-11[70]	false[34]	4[34]	_	_	
+55-19	5706-5710	roll	*[68]	Target[34]	55-11[70]	false[34]	4[34]	_	_	
+55-20	5711-5712	i	*[68]	Target[34]	55-11[70]	false[34]	4[34]	_	_	
+55-21	5713-5720	världen	*[68]	Target[34]	55-11[70]	false[34]	4[34]	_	_	
+55-22	5721-5727	vilket	*	_	_	_	_	_	_	
+55-23	5728-5731	kan	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-24	5732-5737	bidra	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-25	5738-5747	betydande	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-26	5748-5752	till	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-27	5753-5759	enormt	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-28	5760-5764	till	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-29	5765-5772	Europas	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-30	5773-5783	framgångar	_	Target[35]	55-22	false[35]	4[35]	_	_	
+55-31	5783-5784	.	_	_	_	_	_	_	_	
+
+#Text=Om vi kan lösa de frågor som bekymrat det brittiska folket så mycket och åstadkomma ett "Ja" i folkomröstningen kommer vi att lösa frågan om Storbritanniens plats i Europa och göra det möjligt för Storbritannien ha en fullständigt engagerad roll i ett mer konkurrenskraftigt, framgångsrikt, utåtriktat och tillitsfullt EU i framtiden.Det är ett resultat som verkligen kommer att vara i det bästa intresset för européer på båda sidorna av den Engelska Kanalen.
+56-1	5785-5787	Om	_	_	_	_	_	_	_	
+56-2	5788-5790	vi	_	_	_	_	_	_	_	
+56-3	5791-5794	kan	_	_	_	_	_	_	_	
+56-4	5795-5799	lösa	_	_	_	_	_	_	_	
+56-5	5800-5802	de	*[71]	_	_	_	_	_	_	
+56-6	5803-5809	frågor	*[71]	_	_	_	_	_	_	
+56-7	5810-5813	som	*[71]	_	_	_	_	_	_	
+56-8	5814-5822	bekymrat	_	Target;Source	56-5[71];56-9[72]	false	2	56-12[36_0]	_	
+56-9	5823-5826	det	*[72]	_	_	_	_	_	_	
+56-10	5827-5836	brittiska	*[72]	_	_	_	_	_	_	
+56-11	5837-5843	folket	*[72]	_	_	_	_	_	_	
+56-12	5844-5846	så	_	_[36]	_	false[36]	2[36]	_	_	
+56-13	5847-5853	mycket	_	_[36]	_	false[36]	2[36]	_	_	
+56-14	5854-5857	och	_	_	_	_	_	_	_	
+56-15	5858-5868	åstadkomma	_	_	_	_	_	_	_	
+56-16	5869-5872	ett	_	_	_	_	_	_	_	
+56-17	5873-5874	"	_	_	_	_	_	_	_	
+56-18	5874-5876	Ja	_	_	_	_	_	_	_	
+56-19	5876-5877	"	_	_	_	_	_	_	_	
+56-20	5878-5879	i	_	_	_	_	_	_	_	
+56-21	5880-5896	folkomröstningen	_	_	_	_	_	_	_	
+56-22	5897-5903	kommer	_	_	_	false	4	_	_	
+56-23	5904-5906	vi	*	_	_	_	_	_	_	
+56-24	5907-5910	att	_	Target;Source[37]	56-23;56-23	false[37]	4[37]	56-22[0_37]	_	
+56-25	5911-5915	lösa	_	Target;Source[37]	56-23;56-23	false[37]	4[37]	_	_	
+56-26	5916-5922	frågan	_	Target;Source[37]	56-23;56-23	false[37]	4[37]	_	_	
+56-27	5923-5925	om	_	_	_	_	_	_	_	
+56-28	5926-5941	Storbritanniens	_	_	_	_	_	_	_	
+56-29	5942-5947	plats	_	_	_	_	_	_	_	
+56-30	5948-5949	i	_	_	_	_	_	_	_	
+56-31	5950-5956	Europa	_	_	_	_	_	_	_	
+56-32	5957-5960	och	_	_	_	_	_	_	_	
+56-33	5961-5965	göra	_	Target;Source[38]	56-23;56-23	false[38]	4[38]	56-22[0_38]	_	
+56-34	5966-5969	det	_	Target;Source[38]	56-23;56-23	false[38]	4[38]	_	_	
+56-35	5970-5977	möjligt	_	Target;Source[38]	56-23;56-23	false[38]	4[38]	_	_	
+56-36	5978-5981	för	_	_	_	_	_	_	_	
+56-37	5982-5996	Storbritannien	_	_	_	_	_	_	_	
+56-38	5997-5999	ha	_	_	_	_	_	_	_	
+56-39	6000-6002	en	_	_	_	_	_	_	_	
+56-40	6003-6015	fullständigt	_	Target[39]	56-42	false[39]	4[39]	_	_	
+56-41	6016-6025	engagerad	_	Target[39]	56-42	false[39]	4[39]	_	_	
+56-42	6026-6030	roll	*	_	_	_	_	_	_	
+56-43	6031-6032	i	_	_	_	_	_	_	_	
+56-44	6033-6036	ett	_	_	_	_	_	_	_	
+56-45	6037-6040	mer	_	_	_	_	_	_	_	
+56-46	6041-6059	konkurrenskraftigt	_	Target	56-53[73]	false	4	_	_	
+56-47	6059-6060	,	_	_	_	_	_	_	_	
+56-48	6061-6074	framgångsrikt	_	Target	56-53[73]	false	4	_	_	
+56-49	6074-6075	,	_	_	_	_	_	_	_	
+56-50	6076-6086	utåtriktat	_	Target	56-53[73]	false	4	_	_	
+56-51	6087-6090	och	_	_	_	_	_	_	_	
+56-52	6091-6103	tillitsfullt	_	Target	56-53[73]	false	4	_	_	
+56-53	6104-6106	EU	*[73]	_	_	_	_	_	_	
+56-54	6107-6108	i	*[73]	_	_	_	_	_	_	
+56-55	6109-6122	framtiden.Det	*[73]	_	_	_	_	_	_	
+56-56	6123-6125	är	_	_	_	_	_	_	_	
+56-57	6126-6129	ett	_	_	_	_	_	_	_	
+56-58	6130-6138	resultat	*[74]	_	_	_	_	_	_	
+56-59	6139-6142	som	*[74]	_	_	_	_	_	_	
+56-60	6143-6152	verkligen	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-61	6153-6159	kommer	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-62	6160-6163	att	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-63	6164-6168	vara	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-64	6169-6170	i	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-65	6171-6174	det	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-66	6175-6180	bästa	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-67	6181-6190	intresset	_	Target[40]	56-58[74]	false[40]	5[40]	_	_	
+56-68	6191-6194	för	_	_	_	_	_	_	_	
+56-69	6195-6203	européer	_	_	_	_	_	_	_	
+56-70	6204-6206	på	_	_	_	_	_	_	_	
+56-71	6207-6211	båda	_	_	_	_	_	_	_	
+56-72	6212-6219	sidorna	_	_	_	_	_	_	_	
+56-73	6220-6222	av	_	_	_	_	_	_	_	
+56-74	6223-6226	den	_	_	_	_	_	_	_	
+56-75	6227-6235	Engelska	_	_	_	_	_	_	_	
+56-76	6236-6243	Kanalen	_	_	_	_	_	_	_	
+56-77	6243-6244	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	6246-6247	#	_	_	_	_	_	_	_	
+57-2	6247-6248	P	_	_	_	_	_	_	_	
+57-3	6249-6252	IMM	_	_	_	_	_	_	_	
+57-4	6252-6253	.	_	_	_	_	_	_	_	
+
+#Text=Philip Hammond.
+58-1	6255-6261	Philip	_	_	_	_	_	_	_	
+58-2	6262-6269	Hammond	_	_	_	_	_	_	_	
+58-3	6269-6270	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+59-1	6272-6273	#	_	_	_	_	_	_	_	
+59-2	6273-6274	P	_	_	_	_	_	_	_	
+59-3	6275-6278	IMM	_	_	_	_	_	_	_	
+59-4	6278-6279	.	_	_	_	_	_	_	_	
+
+#Text=Storbritanniens utrikesminister.
+60-1	6281-6296	Storbritanniens	_	_	_	_	_	_	_	
+60-2	6297-6312	utrikesminister	_	_	_	_	_	_	_	
+60-3	6312-6313	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+61-1	6315-6316	#	_	_	_	_	_	_	_	
+61-2	6316-6317	P	_	_	_	_	_	_	_	
+61-3	6318-6321	IMM	_	_	_	_	_	_	_	
+61-4	6321-6322	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+62-1	6324-6332	Redaktör	_	_	_	_	_	_	_	
+62-2	6332-6333	:	_	_	_	_	_	_	_	
+62-3	6334-6340	Carina	_	_	_	_	_	_	_	
+62-4	6341-6349	Stensson	_	_	_	_	_	_	_	
+62-5	6349-6350	,	_	_	_	_	_	_	_	
+62-6	6351-6361	Biträdande	_	_	_	_	_	_	_	
+62-7	6362-6370	redaktör	_	_	_	_	_	_	_	
+62-8	6370-6371	:	_	_	_	_	_	_	_	
+62-9	6372-6377	Björn	_	_	_	_	_	_	_	
+62-10	6378-6384	Jorner	_	_	_	_	_	_	_	
+62-11	6384-6385	,	_	_	_	_	_	_	_	
+62-12	6386-6390	Mejl	_	_	_	_	_	_	_	
+62-13	6390-6391	:	_	_	_	_	_	_	_	
+62-14	6392-6398	debatt	_	_	_	_	_	_	_	
+62-15	6398-6399	@	_	_	_	_	_	_	_	
+62-16	6399-6405	svd.se	_	_	_	_	_	_	_	
+62-17	6405-6406	,	_	_	_	_	_	_	_	
+62-18	6407-6420	Telefonnummer	_	_	_	_	_	_	_	
+62-19	6420-6421	:	_	_	_	_	_	_	_	
+62-20	6422-6424	08	_	_	_	_	_	_	_	
+62-21	6424-6425	-	_	_	_	_	_	_	_	
+62-22	6425-6431	135149	_	_	_	_	_	_	_	
+62-23	6431-6432	,	_	_	_	_	_	_	_	
+62-24	6433-6440	Twitter	_	_	_	_	_	_	_	
+62-25	6440-6441	:	_	_	_	_	_	_	_	
+62-26	6442-6443	@	_	_	_	_	_	_	_	
+62-27	6443-6452	SvDDebatt	_	_	_	_	_	_	_	
+62-28	6452-6453	,	_	_	_	_	_	_	_	
+62-29	6454-6462	Facebook	_	_	_	_	_	_	_	
+62-30	6462-6463	:	_	_	_	_	_	_	_	
+62-31	6464-6467	SvD	_	_	_	_	_	_	_	
+62-32	6468-6474	Debatt	_	_	_	_	_	_	_	
+62-33	6474-6475	.	_	_	_	_	_	_	_	

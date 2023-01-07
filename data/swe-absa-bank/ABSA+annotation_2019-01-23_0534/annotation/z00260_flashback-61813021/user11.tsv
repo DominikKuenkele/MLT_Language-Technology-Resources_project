@@ -1,0 +1,170 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_[1]	_	false[1]	2[1]	
+1-3	3-6	IMM	_	_[1]	_	false[1]	2[1]	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_[2]	_	false[2]	2[2]	
+2-3	12-15	IMM	_	_[2]	_	false[2]	2[2]	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=EU samt FN kräver att Norge ska ta emot fler "flyktingar" främst från Afrika.
+3-1	18-20	EU	*[9]	_	_	_	_	
+3-2	21-25	samt	*[9]	_	_	_	_	
+3-3	26-28	FN	*[9]	_	_	_	_	
+3-4	29-35	kräver	_	Source;Target	3-1[9];3-6[10]	false	4	
+3-5	36-39	att	_	_	_	_	_	
+3-6	40-45	Norge	*[10]	_	_	_	_	
+3-7	46-49	ska	*[10]	_	_	_	_	
+3-8	50-52	ta	*[10]	_	_	_	_	
+3-9	53-57	emot	*[10]	_	_	_	_	
+3-10	58-62	fler	*[10]	_	_	_	_	
+3-11	63-64	"	*[10]	_	_	_	_	
+3-12	64-74	flyktingar	*[10]	_	_	_	_	
+3-13	74-75	"	*[10]	_	_	_	_	
+3-14	76-82	främst	*[10]	_	_	_	_	
+3-15	83-87	från	*[10]	_	_	_	_	
+3-16	88-94	Afrika	*[10]	_	_	_	_	
+3-17	94-95	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	97-98	#	_	_	_	_	_	
+4-2	98-99	P	_	_	_	_	_	
+4-3	100-103	IMM	_	_	_	_	_	
+4-4	103-104	.	_	_	_	_	_	
+
+#Text=Dags för norrbaggarnas land att bli som Kaoz Sverige..?.
+5-1	106-110	Dags	_	_	_	_	_	
+5-2	111-114	för	_	_	_	_	_	
+5-3	115-128	norrbaggarnas	*	Target	5-3	false	2	
+5-4	129-133	land	_	_	_	_	_	
+5-5	134-137	att	_	_	_	_	_	
+5-6	138-141	bli	_	_	_	_	_	
+5-7	142-145	som	_	_	_	_	_	
+5-8	146-150	Kaoz	*[11]	Target[3]	5-8[11]	false[3]	2[3]	
+5-9	151-158	Sverige	*[11]	Target[3]	5-8[11]	false[3]	2[3]	
+5-10	158-159	.	_	_	_	_	_	
+5-11	159-160	.	_	_	_	_	_	
+5-12	160-161	?	_	_	_	_	_	
+5-13	161-162	.	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	164-165	#	_	_	_	_	_	
+6-2	165-166	P	_	_[4]	_	false[4]	3[4]	
+6-3	167-170	IMM	_	_[4]	_	false[4]	3[4]	
+6-4	170-171	.	_	_	_	_	_	
+
+#Text=I norska dagbladet skriver man att EU migrationskommissionär Dimitris Avramopoulos vill att Norge ska ta emot fler så kallade "flyktingar" främst från Afrika för att avlösa Nordafrikas båtmigranter som fortfarande befinner sig på land redo att korsa havet till bidrags Europa.
+7-1	173-174	I	_	_	_	_	_	
+7-2	175-181	norska	_	_	_	_	_	
+7-3	182-191	dagbladet	_	_	_	_	_	
+7-4	192-199	skriver	_	_	_	_	_	
+7-5	200-203	man	_	_	_	_	_	
+7-6	204-207	att	_	_	_	_	_	
+7-7	208-210	EU	_	_	_	_	_	
+7-8	211-233	migrationskommissionär	_	_	_	_	_	
+7-9	234-242	Dimitris	*[12]	_	_	_	_	
+7-10	243-255	Avramopoulos	*[12]	_	_	_	_	
+7-11	256-260	vill	_	Source;Target	7-9[12];7-13[13]	false	4	
+7-12	261-264	att	_	_	_	_	_	
+7-13	265-270	Norge	*[13]	_	_	_	_	
+7-14	271-274	ska	*[13]	_	_	_	_	
+7-15	275-277	ta	*[13]	_	_	_	_	
+7-16	278-282	emot	*[13]	_	_	_	_	
+7-17	283-287	fler	*[13]	_	_	_	_	
+7-18	288-290	så	*[13]	Target[5]	7-19[14]	false[5]	2[5]	
+7-19	291-298	kallade	*[13]|*[14]	Target[5]	7-19[14]	false[5]	2[5]	
+7-20	299-300	"	*[13]|*[14]	Target[5]	7-19[14]	false[5]	2[5]	
+7-21	300-310	flyktingar	*[13]|*[14]	Target[5]	7-19[14]	false[5]	2[5]	
+7-22	310-311	"	*[13]	_	_	_	_	
+7-23	312-318	främst	_	_	_	_	_	
+7-24	319-323	från	_	_	_	_	_	
+7-25	324-330	Afrika	_	_	_	_	_	
+7-26	331-334	för	_	_	_	_	_	
+7-27	335-338	att	_	_	_	_	_	
+7-28	339-345	avlösa	_	_	_	_	_	
+7-29	346-357	Nordafrikas	_	_	_	_	_	
+7-30	358-370	båtmigranter	_	_	_	_	_	
+7-31	371-374	som	_	_	_	_	_	
+7-32	375-386	fortfarande	_	_	_	_	_	
+7-33	387-395	befinner	_	_	_	_	_	
+7-34	396-399	sig	_	_	_	_	_	
+7-35	400-402	på	_	_	_	_	_	
+7-36	403-407	land	_	_	_	_	_	
+7-37	408-412	redo	_	_	_	_	_	
+7-38	413-416	att	_	_	_	_	_	
+7-39	417-422	korsa	_	_	_	_	_	
+7-40	423-428	havet	_	_	_	_	_	
+7-41	429-433	till	_	_	_	_	_	
+7-42	434-441	bidrags	_	_	_	_	_	
+7-43	442-448	Europa	_	_	_	_	_	
+7-44	448-449	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	451-452	#	_	_	_	_	_	
+8-2	452-453	P	_	_[6]	_	false[6]	1[6]	
+8-3	454-457	IMM	_	_[6]	_	false[6]	1[6]	
+8-4	457-458	.	_	_	_	_	_	
+
+#Text=Hur sugna tror ni Norge är på detta efter att bara sett utvecklingen här i Sverige som Norge förövrigt följer ganska så aktivt med besök i våra no go zoner, senast Rinkeby bara för ett litet tag sedan.
+9-1	460-463	Hur	_	_	_	_	_	
+9-2	464-469	sugna	_	Target;Source	9-8;9-5	false	3	
+9-3	470-474	tror	_	_	_	_	_	
+9-4	475-477	ni	_	_	_	_	_	
+9-5	478-483	Norge	*	_	_	_	_	
+9-6	484-486	är	_	_	_	_	_	
+9-7	487-489	på	_	_	_	_	_	
+9-8	490-495	detta	*	_	_	_	_	
+9-9	496-501	efter	_	_	_	_	_	
+9-10	502-505	att	_	_	_	_	_	
+9-11	506-510	bara	_	_	_	_	_	
+9-12	511-515	sett	_	_	_	_	_	
+9-13	516-528	utvecklingen	_	_	_	_	_	
+9-14	529-532	här	_	_	_	_	_	
+9-15	533-534	i	_	_	_	_	_	
+9-16	535-542	Sverige	_	_	_	_	_	
+9-17	543-546	som	_	_	_	_	_	
+9-18	547-552	Norge	_	_	_	_	_	
+9-19	553-562	förövrigt	_	_	_	_	_	
+9-20	563-569	följer	_	_	_	_	_	
+9-21	570-576	ganska	_	_	_	_	_	
+9-22	577-579	så	_	_	_	_	_	
+9-23	580-586	aktivt	_	_	_	_	_	
+9-24	587-590	med	_	_	_	_	_	
+9-25	591-596	besök	_	_	_	_	_	
+9-26	597-598	i	_	_	_	_	_	
+9-27	599-603	våra	_	_	_	_	_	
+9-28	604-606	no	_	Target[7]	9-33	false[7]	2[7]	
+9-29	607-609	go	_	Target[7]	9-33	false[7]	2[7]	
+9-30	610-615	zoner	_	Target[7]	9-33	false[7]	2[7]	
+9-31	615-616	,	_	_	_	_	_	
+9-32	617-623	senast	_	_	_	_	_	
+9-33	624-631	Rinkeby	*	_	_	_	_	
+9-34	632-636	bara	_	_	_	_	_	
+9-35	637-640	för	_	_	_	_	_	
+9-36	641-644	ett	_	_	_	_	_	
+9-37	645-650	litet	_	_	_	_	_	
+9-38	651-654	tag	_	_	_	_	_	
+9-39	655-660	sedan	_	_	_	_	_	
+9-40	660-661	.	_	_	_	_	_	
+
+#Text=Att EU sätter invandringspress på icke-medlemsstaten Norge är förövrigt helt ologiskt.
+10-1	662-665	Att	_	_	_	_	_	
+10-2	666-668	EU	*[15]	_	_	_	_	
+10-3	669-675	sätter	*[15]	_	_	_	_	
+10-4	676-692	invandringspress	*[15]	_	_	_	_	
+10-5	693-695	på	*[15]	_	_	_	_	
+10-6	696-714	icke-medlemsstaten	*[15]	_	_	_	_	
+10-7	715-720	Norge	*[15]	_	_	_	_	
+10-8	721-723	är	_	_	_	_	_	
+10-9	724-733	förövrigt	_	_	_	_	_	
+10-10	734-738	helt	_	Target[8]	10-2[15]	false[8]	2[8]	
+10-11	739-747	ologiskt	_	Target[8]	10-2[15]	false[8]	2[8]	
+10-12	747-748	.	_	_	_	_	_	

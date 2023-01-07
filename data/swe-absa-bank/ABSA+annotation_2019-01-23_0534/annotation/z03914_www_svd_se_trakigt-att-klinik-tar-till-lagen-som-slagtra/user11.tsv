@@ -1,0 +1,755 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Tråkigt att klinik tar till lagen som slagträ.
+3-1	18-25	Tråkigt	_	Target	3-3[16]	false	2	
+3-2	26-29	att	_	_	_	_	_	
+3-3	30-36	klinik	*[16]	_	_	_	_	
+3-4	37-40	tar	*[16]	_	_	_	_	
+3-5	41-45	till	*[16]	_	_	_	_	
+3-6	46-51	lagen	*[16]	_	_	_	_	
+3-7	52-55	som	*[16]	_	_	_	_	
+3-8	56-63	slagträ	*[16]	_	_	_	_	
+3-9	63-64	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	
+
+#Text=Pengapåsen till förlossningsvården ska vara tillräckligt stor för att klinikerna ska klara av sitt uppdrag.
+5-1	75-85	Pengapåsen	_	_	_	_	_	
+5-2	86-90	till	_	_	_	_	_	
+5-3	91-109	förlossningsvården	_	_	_	_	_	
+5-4	110-113	ska	_	_	_	_	_	
+5-5	114-118	vara	_	_	_	_	_	
+5-6	119-131	tillräckligt	_	_	_	_	_	
+5-7	132-136	stor	_	_	_	_	_	
+5-8	137-140	för	_	_	_	_	_	
+5-9	141-144	att	_	_	_	_	_	
+5-10	145-155	klinikerna	_	_	_	_	_	
+5-11	156-159	ska	_	_	_	_	_	
+5-12	160-165	klara	_	_	_	_	_	
+5-13	166-168	av	_	_	_	_	_	
+5-14	169-173	sitt	_	_	_	_	_	
+5-15	174-181	uppdrag	_	_	_	_	_	
+5-16	181-182	.	_	_	_	_	_	
+
+#Text=Den ambitionen backar vi inte från.
+6-1	183-186	Den	*[17]	_	_	_	_	
+6-2	187-197	ambitionen	*[17]	_	_	_	_	
+6-3	198-204	backar	_	Target[1]	6-1[17]	false[1]	4[1]	
+6-4	205-207	vi	_	Target[1]	6-1[17]	false[1]	4[1]	
+6-5	208-212	inte	_	Target[1]	6-1[17]	false[1]	4[1]	
+6-6	213-217	från	_	Target[1]	6-1[17]	false[1]	4[1]	
+6-7	217-218	.	_	_	_	_	_	
+
+#Text=Samtidigt är mer pengar inte alltid lösningen, skriver företrädare för Alliansen i Stockholms läns landsting.
+7-1	219-228	Samtidigt	_	_	_	_	_	
+7-2	229-231	är	_	_	_	_	_	
+7-3	232-235	mer	*[18]	_	_	_	_	
+7-4	236-242	pengar	*[18]	_	_	_	_	
+7-5	243-247	inte	_	Target;Source[2]	7-3[18];7-10[19]	false[2]	2[2]	
+7-6	248-254	alltid	_	Target;Source[2]	7-3[18];7-10[19]	false[2]	2[2]	
+7-7	255-264	lösningen	_	Target;Source[2]	7-3[18];7-10[19]	false[2]	2[2]	
+7-8	264-265	,	_	_	_	_	_	
+7-9	266-273	skriver	_	_	_	_	_	
+7-10	274-285	företrädare	*[19]	_	_	_	_	
+7-11	286-289	för	*[19]	_	_	_	_	
+7-12	290-299	Alliansen	*[19]	_	_	_	_	
+7-13	300-301	i	*[19]	_	_	_	_	
+7-14	302-312	Stockholms	*[19]	_	_	_	_	
+7-15	313-317	läns	*[19]	_	_	_	_	
+7-16	318-327	landsting	*[19]	_	_	_	_	
+7-17	327-328	.	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	330-331	#	_	_	_	_	_	
+8-2	331-332	P	_	_	_	_	_	
+8-3	333-336	IMM	_	_	_	_	_	
+8-4	336-337	.	_	_	_	_	_	
+
+#Text=Under sommaren är förlossningsvården hårt pressad i stora delar av landet.
+9-1	339-344	Under	_	_	_	_	_	
+9-2	345-353	sommaren	_	_	_	_	_	
+9-3	354-356	är	_	_	_	_	_	
+9-4	357-375	förlossningsvården	*	_	_	_	_	
+9-5	376-380	hårt	_	Source;Target[3]	9-12;9-4	false[3]	2[3]	
+9-6	381-388	pressad	_	Source;Target[3]	9-12;9-4	false[3]	2[3]	
+9-7	389-390	i	_	_	_	_	_	
+9-8	391-396	stora	_	_	_	_	_	
+9-9	397-402	delar	_	_	_	_	_	
+9-10	403-405	av	_	_	_	_	_	
+9-11	406-412	landet	_	_	_	_	_	
+9-12	412-413	.	*	_	_	_	_	
+
+#Text=Precis som företrädare för BB Stockholm skriver i SvD den 8 augusti påverkas även Stockholms län av svårigheterna att rekrytera personal med rätt kompetens.
+10-1	414-420	Precis	_	_	_	_	_	
+10-2	421-424	som	_	_	_	_	_	
+10-3	425-436	företrädare	_	_	_	_	_	
+10-4	437-440	för	_	_	_	_	_	
+10-5	441-443	BB	_	_	_	_	_	
+10-6	444-453	Stockholm	_	_	_	_	_	
+10-7	454-461	skriver	_	_	_	_	_	
+10-8	462-463	i	_	_	_	_	_	
+10-9	464-467	SvD	_	_	_	_	_	
+10-10	468-471	den	_	_	_	_	_	
+10-11	472-473	8	_	_	_	_	_	
+10-12	474-481	augusti	_	_	_	_	_	
+10-13	482-490	påverkas	_	_	_	_	_	
+10-14	491-495	även	_	_	_	_	_	
+10-15	496-506	Stockholms	_	_	_	_	_	
+10-16	507-510	län	_	_	_	_	_	
+10-17	511-513	av	_	_	_	_	_	
+10-18	514-527	svårigheterna	_	Target	10-20[20]	false	2	
+10-19	528-531	att	_	_	_	_	_	
+10-20	532-541	rekrytera	*[20]	_	_	_	_	
+10-21	542-550	personal	*[20]	_	_	_	_	
+10-22	551-554	med	*[20]	_	_	_	_	
+10-23	555-559	rätt	*[20]	_	_	_	_	
+10-24	560-569	kompetens	*[20]	_	_	_	_	
+10-25	569-570	.	_	_	_	_	_	
+
+#Text=Klinikerna själva rapporterar att runt 55 barnmorskor fattas runtom i länet, vilket såklart får konsekvenser.
+11-1	571-581	Klinikerna	_	_	_	_	_	
+11-2	582-588	själva	_	_	_	_	_	
+11-3	589-600	rapporterar	_	_	_	_	_	
+11-4	601-604	att	_	_	_	_	_	
+11-5	605-609	runt	_	_	_	_	_	
+11-6	610-612	55	*[21]	_	_	_	_	
+11-7	613-624	barnmorskor	*[21]	_	_	_	_	
+11-8	625-631	fattas	*[21]	_	_	_	_	
+11-9	632-638	runtom	*[21]	_	_	_	_	
+11-10	639-640	i	*[21]	_	_	_	_	
+11-11	641-646	länet	*[21]	_	_	_	_	
+11-12	646-647	,	_	_	_	_	_	
+11-13	648-654	vilket	_	_	_	_	_	
+11-14	655-662	såklart	_	Target[4]	11-6[21]	false[4]	2[4]	
+11-15	663-666	får	_	Target[4]	11-6[21]	false[4]	2[4]	
+11-16	667-679	konsekvenser	_	Target[4]	11-6[21]	false[4]	2[4]	
+11-17	679-680	.	_	_	_	_	_	
+
+#Text=Trots det höga trycket kan det ändå kännas tryggt för blivande föräldrar att veta att de allra flesta kvinnor får föda på den klinik de har valt.
+12-1	681-686	Trots	_	_	_	_	_	
+12-2	687-690	det	_	_	_	_	_	
+12-3	691-695	höga	_	_	_	_	_	
+12-4	696-703	trycket	_	_	_	_	_	
+12-5	704-707	kan	_	_	_	_	_	
+12-6	708-711	det	_	_	_	_	_	
+12-7	712-716	ändå	_	_	_	_	_	
+12-8	717-723	kännas	_	Source;Target[5]	12-11[22];12-14[23]	false[5]	4[5]	
+12-9	724-730	tryggt	_	Source;Target[5]	12-11[22];12-14[23]	false[5]	4[5]	
+12-10	731-734	för	_	_	_	_	_	
+12-11	735-743	blivande	*[22]	_	_	_	_	
+12-12	744-753	föräldrar	*[22]	_	_	_	_	
+12-13	754-757	att	_	_	_	_	_	
+12-14	758-762	veta	*[23]	_	_	_	_	
+12-15	763-766	att	*[23]	_	_	_	_	
+12-16	767-769	de	*[23]	_	_	_	_	
+12-17	770-775	allra	*[23]	_	_	_	_	
+12-18	776-782	flesta	*[23]	_	_	_	_	
+12-19	783-790	kvinnor	*[23]	_	_	_	_	
+12-20	791-794	får	*[23]	_	_	_	_	
+12-21	795-799	föda	*[23]	_	_	_	_	
+12-22	800-802	på	*[23]	_	_	_	_	
+12-23	803-806	den	*[23]	_	_	_	_	
+12-24	807-813	klinik	*[23]	_	_	_	_	
+12-25	814-816	de	*[23]	_	_	_	_	
+12-26	817-820	har	*[23]	_	_	_	_	
+12-27	821-825	valt	*[23]	_	_	_	_	
+12-28	825-826	.	_	_	_	_	_	
+
+#Text=Tack vare medarbetarna på förlossningsklinikerna har klinikerna samverkat till det bästa för varje enskild familj.
+13-1	827-831	Tack	_	Target[6]	13-3[24]	false[6]	4[6]	
+13-2	832-836	vare	_	Target[6]	13-3[24]	false[6]	4[6]	
+13-3	837-849	medarbetarna	*[24]	_	_	_	_	
+13-4	850-852	på	*[24]	_	_	_	_	
+13-5	853-875	förlossningsklinikerna	*[24]	_	_	_	_	
+13-6	876-879	har	_	_	_	_	_	
+13-7	880-890	klinikerna	*	_	_	_	_	
+13-8	891-900	samverkat	_	Target[7]	13-7	false[7]	4[7]	
+13-9	901-905	till	_	Target[7]	13-7	false[7]	4[7]	
+13-10	906-909	det	_	Target[7]	13-7	false[7]	4[7]	
+13-11	910-915	bästa	_	Target[7]	13-7	false[7]	4[7]	
+13-12	916-919	för	_	_	_	_	_	
+13-13	920-925	varje	_	_	_	_	_	
+13-14	926-933	enskild	_	_	_	_	_	
+13-15	934-940	familj	_	_	_	_	_	
+13-16	940-941	.	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	943-944	#	_	_	_	_	_	
+14-2	944-945	P	_	_	_	_	_	
+14-3	946-949	IMM	_	_	_	_	_	
+14-4	949-950	.	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+15-1	952-955	Det	_	_	_	_	_	
+15-2	956-959	här	_	_	_	_	_	
+15-3	960-962	är	_	_	_	_	_	
+15-4	963-965	en	_	_	_	_	_	
+15-5	966-980	argumenterande	_	_	_	_	_	
+15-6	981-985	text	_	_	_	_	_	
+15-7	986-989	med	_	_	_	_	_	
+15-8	990-995	syfte	_	_	_	_	_	
+15-9	996-999	att	_	_	_	_	_	
+15-10	1000-1007	påverka	_	_	_	_	_	
+15-11	1007-1008	.	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+16-1	1009-1018	Åsikterna	_	_	_	_	_	
+16-2	1019-1022	som	_	_	_	_	_	
+16-3	1023-1031	uttrycks	_	_	_	_	_	
+16-4	1032-1034	är	_	_	_	_	_	
+16-5	1035-1046	skribentens	_	_	_	_	_	
+16-6	1047-1051	egna	_	_	_	_	_	
+16-7	1051-1052	.	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1054-1055	#	_	_	_	_	_	
+17-2	1055-1056	P	_	_	_	_	_	
+17-3	1057-1060	IMM	_	_	_	_	_	
+17-4	1060-1061	.	_	_	_	_	_	
+
+#Text=Det är tråkigt att BB Stockholms företrädare, som vi i landstinget har haft ett gott samarbete med under många år, använder hälso- och sjukvårdslagen som ett slagträ i debatten.
+18-1	1063-1066	Det	_	_	_	_	_	
+18-2	1067-1069	är	_	_	_	_	_	
+18-3	1070-1077	tråkigt	_	Target	18-5[25]	false	2	
+18-4	1078-1081	att	_	_	_	_	_	
+18-5	1082-1084	BB	*[25]	_	_	_	_	
+18-6	1085-1095	Stockholms	*[25]	_	_	_	_	
+18-7	1096-1107	företrädare	*[25]	_	_	_	_	
+18-8	1107-1108	,	*[25]	_	_	_	_	
+18-9	1109-1112	som	*[25]	_	_	_	_	
+18-10	1113-1115	vi	*[25]	_	_	_	_	
+18-11	1116-1117	i	*[25]	_	_	_	_	
+18-12	1118-1129	landstinget	*[25]	_	_	_	_	
+18-13	1130-1133	har	*[25]	_	_	_	_	
+18-14	1134-1138	haft	*[25]	_	_	_	_	
+18-15	1139-1142	ett	*[25]	_	_	_	_	
+18-16	1143-1147	gott	*[25]	_	_	_	_	
+18-17	1148-1157	samarbete	*[25]	_	_	_	_	
+18-18	1158-1161	med	*[25]	_	_	_	_	
+18-19	1162-1167	under	*[25]	_	_	_	_	
+18-20	1168-1173	många	*[25]	_	_	_	_	
+18-21	1174-1176	år	*[25]	_	_	_	_	
+18-22	1176-1177	,	*[25]	_	_	_	_	
+18-23	1178-1186	använder	*[25]	_	_	_	_	
+18-24	1187-1192	hälso	*[25]	_	_	_	_	
+18-25	1192-1193	-	*[25]	_	_	_	_	
+18-26	1194-1197	och	*[25]	_	_	_	_	
+18-27	1198-1212	sjukvårdslagen	*[25]	_	_	_	_	
+18-28	1213-1216	som	*[25]	_	_	_	_	
+18-29	1217-1220	ett	*[25]	_	_	_	_	
+18-30	1221-1228	slagträ	*[25]	_	_	_	_	
+18-31	1229-1230	i	*[25]	_	_	_	_	
+18-32	1231-1239	debatten	*[25]	_	_	_	_	
+18-33	1239-1240	.	_	_	_	_	_	
+
+#Text=Samarbeten mellan landsting och regioner är i dag ett sedan länge etablerat arbetssätt.
+19-1	1241-1251	Samarbeten	_	_	_	_	_	
+19-2	1252-1258	mellan	_	_	_	_	_	
+19-3	1259-1268	landsting	_	_	_	_	_	
+19-4	1269-1272	och	_	_	_	_	_	
+19-5	1273-1281	regioner	_	_	_	_	_	
+19-6	1282-1284	är	_	_	_	_	_	
+19-7	1285-1286	i	_	_	_	_	_	
+19-8	1287-1290	dag	_	_	_	_	_	
+19-9	1291-1294	ett	_	_	_	_	_	
+19-10	1295-1300	sedan	_	_	_	_	_	
+19-11	1301-1306	länge	_	_	_	_	_	
+19-12	1307-1316	etablerat	_	_	_	_	_	
+19-13	1317-1327	arbetssätt	_	_	_	_	_	
+19-14	1327-1328	.	_	_	_	_	_	
+
+#Text=När ett landsting inte kan erbjuda vård på hemmaplan, tar ett annat landsting emot.
+20-1	1329-1332	När	_	_	_	_	_	
+20-2	1333-1336	ett	_	_	_	_	_	
+20-3	1337-1346	landsting	_	_	_	_	_	
+20-4	1347-1351	inte	_	_	_	_	_	
+20-5	1352-1355	kan	_	_	_	_	_	
+20-6	1356-1363	erbjuda	_	_	_	_	_	
+20-7	1364-1368	vård	_	_	_	_	_	
+20-8	1369-1371	på	_	_	_	_	_	
+20-9	1372-1381	hemmaplan	_	_	_	_	_	
+20-10	1381-1382	,	_	_	_	_	_	
+20-11	1383-1386	tar	_	_	_	_	_	
+20-12	1387-1390	ett	_	_	_	_	_	
+20-13	1391-1396	annat	_	_	_	_	_	
+20-14	1397-1406	landsting	_	_	_	_	_	
+20-15	1407-1411	emot	_	_	_	_	_	
+20-16	1411-1412	.	_	_	_	_	_	
+
+#Text=Är det på samma sätt fel att vi i Stockholm tar emot födande kvinnor från andra län?
+21-1	1413-1415	Är	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-2	1416-1419	det	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-3	1420-1422	på	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-4	1423-1428	samma	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-5	1429-1433	sätt	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-6	1434-1437	fel	_	Target[8]	21-8[26]	false[8]	3[8]	
+21-7	1438-1441	att	_	_	_	_	_	
+21-8	1442-1444	vi	*[26]	_	_	_	_	
+21-9	1445-1446	i	*[26]	_	_	_	_	
+21-10	1447-1456	Stockholm	*[26]	_	_	_	_	
+21-11	1457-1460	tar	*[26]	_	_	_	_	
+21-12	1461-1465	emot	*[26]	_	_	_	_	
+21-13	1466-1473	födande	*[26]	_	_	_	_	
+21-14	1474-1481	kvinnor	*[26]	_	_	_	_	
+21-15	1482-1486	från	*[26]	_	_	_	_	
+21-16	1487-1492	andra	*[26]	_	_	_	_	
+21-17	1493-1496	län	*[26]	_	_	_	_	
+21-18	1496-1497	?	*	_	_	_	_	
+
+#Text=Nej, verkligen inte.
+22-1	1498-1501	Nej	_	Target[9]	21-18	false[9]	2[9]	
+22-2	1501-1502	,	_	Target[9]	21-18	false[9]	2[9]	
+22-3	1503-1512	verkligen	_	Target[9]	21-18	false[9]	2[9]	
+22-4	1513-1517	inte	_	Target[9]	21-18	false[9]	2[9]	
+22-5	1517-1518	.	_	_	_	_	_	
+
+#Text=Att anklaga landstinget för lagbrott när vi arbetar efter detta etablerade arbetssätt är ingen god grund för ett fortsatt konstruktivt samarbete.
+23-1	1519-1522	Att	_	_	_	_	_	
+23-2	1523-1530	anklaga	*[27]	_	_	_	_	
+23-3	1531-1542	landstinget	*[27]	_	_	_	_	
+23-4	1543-1546	för	*[27]	_	_	_	_	
+23-5	1547-1555	lagbrott	*[27]	_	_	_	_	
+23-6	1556-1559	när	_	_	_	_	_	
+23-7	1560-1562	vi	_	_	_	_	_	
+23-8	1563-1570	arbetar	_	_	_	_	_	
+23-9	1571-1576	efter	_	_	_	_	_	
+23-10	1577-1582	detta	_	_	_	_	_	
+23-11	1583-1593	etablerade	_	_	_	_	_	
+23-12	1594-1604	arbetssätt	_	_	_	_	_	
+23-13	1605-1607	är	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-14	1608-1613	ingen	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-15	1614-1617	god	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-16	1618-1623	grund	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-17	1624-1627	för	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-18	1628-1631	ett	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-19	1632-1640	fortsatt	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-20	1641-1653	konstruktivt	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-21	1654-1663	samarbete	_	Target[10]	23-2[27]	false[10]	2[10]	
+23-22	1663-1664	.	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1666-1667	#	_	_	_	_	_	
+24-2	1667-1668	P	_	_	_	_	_	
+24-3	1669-1672	IMM	_	_	_	_	_	
+24-4	1672-1673	.	_	_	_	_	_	
+
+#Text=Vi i Alliansen sätter in en rad åtgärder på flera områden för att förbättra förlossningsvården.
+25-1	1675-1677	Vi	_	_	_	_	_	
+25-2	1678-1679	i	_	_	_	_	_	
+25-3	1680-1689	Alliansen	_	_	_	_	_	
+25-4	1690-1696	sätter	_	_	_	_	_	
+25-5	1697-1699	in	_	_	_	_	_	
+25-6	1700-1702	en	_	_	_	_	_	
+25-7	1703-1706	rad	_	_	_	_	_	
+25-8	1707-1715	åtgärder	_	_	_	_	_	
+25-9	1716-1718	på	_	_	_	_	_	
+25-10	1719-1724	flera	_	_	_	_	_	
+25-11	1725-1732	områden	_	_	_	_	_	
+25-12	1733-1736	för	_	_	_	_	_	
+25-13	1737-1740	att	_	_	_	_	_	
+25-14	1741-1750	förbättra	_	Target	25-15	false	4	
+25-15	1751-1769	förlossningsvården	*	_	_	_	_	
+25-16	1769-1770	.	_	_	_	_	_	
+
+#Text=Nya lokaler, ny förlossningsklinik på St Görans sjukhus och ett betalt introduktionsprogram för nya barnmorskor är några exempel.
+26-1	1771-1774	Nya	_	_	_	_	_	
+26-2	1775-1782	lokaler	_	_	_	_	_	
+26-3	1782-1783	,	_	_	_	_	_	
+26-4	1784-1786	ny	_	_	_	_	_	
+26-5	1787-1805	förlossningsklinik	_	_	_	_	_	
+26-6	1806-1808	på	_	_	_	_	_	
+26-7	1809-1811	St	_	_	_	_	_	
+26-8	1812-1818	Görans	_	_	_	_	_	
+26-9	1819-1826	sjukhus	_	_	_	_	_	
+26-10	1827-1830	och	_	_	_	_	_	
+26-11	1831-1834	ett	_	_	_	_	_	
+26-12	1835-1841	betalt	_	_	_	_	_	
+26-13	1842-1862	introduktionsprogram	_	_	_	_	_	
+26-14	1863-1866	för	_	_	_	_	_	
+26-15	1867-1870	nya	_	_	_	_	_	
+26-16	1871-1882	barnmorskor	_	_	_	_	_	
+26-17	1883-1885	är	_	_	_	_	_	
+26-18	1886-1891	några	_	_	_	_	_	
+26-19	1892-1899	exempel	_	_	_	_	_	
+26-20	1899-1900	.	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1902-1903	#	_	_	_	_	_	
+27-2	1903-1904	P	_	_	_	_	_	
+27-3	1905-1908	IMM	_	_	_	_	_	
+27-4	1908-1909	.	_	_	_	_	_	
+
+#Text=Landstinget skjuter också med jämna mellanrum till mer pengar till förlossningsvården under särskilt intensiva perioder på året, som klinikcheferna får använda efter eget omdöme.
+28-1	1911-1922	Landstinget	_	_	_	_	_	
+28-2	1923-1930	skjuter	_	_	_	_	_	
+28-3	1931-1936	också	_	_	_	_	_	
+28-4	1937-1940	med	_	_	_	_	_	
+28-5	1941-1946	jämna	_	_	_	_	_	
+28-6	1947-1956	mellanrum	_	_	_	_	_	
+28-7	1957-1961	till	_	_	_	_	_	
+28-8	1962-1965	mer	_	_	_	_	_	
+28-9	1966-1972	pengar	_	_	_	_	_	
+28-10	1973-1977	till	_	_	_	_	_	
+28-11	1978-1996	förlossningsvården	_	_	_	_	_	
+28-12	1997-2002	under	_	_	_	_	_	
+28-13	2003-2011	särskilt	_	_	_	_	_	
+28-14	2012-2021	intensiva	_	_	_	_	_	
+28-15	2022-2030	perioder	_	_	_	_	_	
+28-16	2031-2033	på	_	_	_	_	_	
+28-17	2034-2038	året	_	_	_	_	_	
+28-18	2038-2039	,	_	_	_	_	_	
+28-19	2040-2043	som	_	_	_	_	_	
+28-20	2044-2058	klinikcheferna	_	_	_	_	_	
+28-21	2059-2062	får	_	_	_	_	_	
+28-22	2063-2070	använda	_	_	_	_	_	
+28-23	2071-2076	efter	_	_	_	_	_	
+28-24	2077-2081	eget	_	_	_	_	_	
+28-25	2082-2088	omdöme	_	_	_	_	_	
+28-26	2088-2089	.	_	_	_	_	_	
+
+#Text=Inför den här sommaren fick klinikerna 12 miljoner extra till förlossningsvården och mödravården, vilket blir 1000 kronor extra per förlossning.
+29-1	2090-2095	Inför	_	_	_	_	_	
+29-2	2096-2099	den	_	_	_	_	_	
+29-3	2100-2103	här	_	_	_	_	_	
+29-4	2104-2112	sommaren	_	_	_	_	_	
+29-5	2113-2117	fick	_	_	_	_	_	
+29-6	2118-2128	klinikerna	_	_	_	_	_	
+29-7	2129-2131	12	_	_	_	_	_	
+29-8	2132-2140	miljoner	_	_	_	_	_	
+29-9	2141-2146	extra	_	_	_	_	_	
+29-10	2147-2151	till	_	_	_	_	_	
+29-11	2152-2170	förlossningsvården	_	_	_	_	_	
+29-12	2171-2174	och	_	_	_	_	_	
+29-13	2175-2186	mödravården	_	_	_	_	_	
+29-14	2186-2187	,	_	_	_	_	_	
+29-15	2188-2194	vilket	_	_	_	_	_	
+29-16	2195-2199	blir	_	_	_	_	_	
+29-17	2200-2204	1000	_	_	_	_	_	
+29-18	2205-2211	kronor	_	_	_	_	_	
+29-19	2212-2217	extra	_	_	_	_	_	
+29-20	2218-2221	per	_	_	_	_	_	
+29-21	2222-2233	förlossning	_	_	_	_	_	
+29-22	2233-2234	.	_	_	_	_	_	
+
+#Text=Ett intensivt arbete pågår också för att se över ersättningsnivåerna till en rad olika vårdval, där förlossningen ingår.
+30-1	2235-2238	Ett	_	_	_	_	_	
+30-2	2239-2248	intensivt	_	_	_	_	_	
+30-3	2249-2255	arbete	_	_	_	_	_	
+30-4	2256-2261	pågår	_	_	_	_	_	
+30-5	2262-2267	också	_	_	_	_	_	
+30-6	2268-2271	för	_	_	_	_	_	
+30-7	2272-2275	att	_	_	_	_	_	
+30-8	2276-2278	se	_	_	_	_	_	
+30-9	2279-2283	över	_	_	_	_	_	
+30-10	2284-2303	ersättningsnivåerna	_	_	_	_	_	
+30-11	2304-2308	till	_	_	_	_	_	
+30-12	2309-2311	en	_	_	_	_	_	
+30-13	2312-2315	rad	_	_	_	_	_	
+30-14	2316-2321	olika	_	_	_	_	_	
+30-15	2322-2329	vårdval	_	_	_	_	_	
+30-16	2329-2330	,	_	_	_	_	_	
+30-17	2331-2334	där	_	_	_	_	_	
+30-18	2335-2348	förlossningen	_	_	_	_	_	
+30-19	2349-2354	ingår	_	_	_	_	_	
+30-20	2354-2355	.	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2357-2358	#	_	_	_	_	_	
+31-2	2358-2359	P	_	_	_	_	_	
+31-3	2360-2363	IMM	_	_	_	_	_	
+31-4	2363-2364	.	_	_	_	_	_	
+
+#Text=Att minska trycket på förlossningsvården är en av landstingets högsta prioriteter.
+32-1	2366-2369	Att	_	_	_	_	_	
+32-2	2370-2376	minska	*[28]	_	_	_	_	
+32-3	2377-2384	trycket	*[28]	_	_	_	_	
+32-4	2385-2387	på	*[28]	_	_	_	_	
+32-5	2388-2406	förlossningsvården	*[28]	_	_	_	_	
+32-6	2407-2409	är	_	_	_	_	_	
+32-7	2410-2412	en	_	_	_	_	_	
+32-8	2413-2415	av	_	_	_	_	_	
+32-9	2416-2428	landstingets	*	_	_	_	_	
+32-10	2429-2435	högsta	_	Target;Source[11]	32-2[28];32-9	false[11]	5[11]	
+32-11	2436-2447	prioriteter	_	Target;Source[11]	32-2[28];32-9	false[11]	5[11]	
+32-12	2447-2448	.	_	_	_	_	_	
+
+#Text=Arbetet kommer att innebära ett fortsatt ansvarstagande från alla parter, även BB Stockholm, för att använda våra gemensamma resurser på bästa möjliga sätt.
+33-1	2449-2456	Arbetet	_	_	_	_	_	
+33-2	2457-2463	kommer	_	_	_	_	_	
+33-3	2464-2467	att	_	_	_	_	_	
+33-4	2468-2476	innebära	_	_	_	_	_	
+33-5	2477-2480	ett	_	_	_	_	_	
+33-6	2481-2489	fortsatt	_	_	_	_	_	
+33-7	2490-2504	ansvarstagande	_	_	_	_	_	
+33-8	2505-2509	från	_	_	_	_	_	
+33-9	2510-2514	alla	_	_	_	_	_	
+33-10	2515-2521	parter	_	_	_	_	_	
+33-11	2521-2522	,	_	_	_	_	_	
+33-12	2523-2527	även	_	_	_	_	_	
+33-13	2528-2530	BB	_	_	_	_	_	
+33-14	2531-2540	Stockholm	_	_	_	_	_	
+33-15	2540-2541	,	_	_	_	_	_	
+33-16	2542-2545	för	_	_	_	_	_	
+33-17	2546-2549	att	_	_	_	_	_	
+33-18	2550-2557	använda	*[29]	_	_	_	_	
+33-19	2558-2562	våra	*[29]	_	_	_	_	
+33-20	2563-2573	gemensamma	*[29]	_	_	_	_	
+33-21	2574-2582	resurser	*[29]	_	_	_	_	
+33-22	2583-2585	på	_	_	_	_	_	
+33-23	2586-2591	bästa	_	Target[12]	33-18[29]	false[12]	5[12]	
+33-24	2592-2599	möjliga	_	Target[12]	33-18[29]	false[12]	5[12]	
+33-25	2600-2604	sätt	_	Target[12]	33-18[29]	false[12]	5[12]	
+33-26	2604-2605	.	_	_	_	_	_	
+
+#Text=Vår politiska linje har hela tiden gått ut på att pengapåsen till förlossningsvården ska vara tillräckligt stor för att klinikerna ska klara av sitt uppdrag.
+34-1	2606-2609	Vår	_	_	_	_	_	
+34-2	2610-2619	politiska	_	_	_	_	_	
+34-3	2620-2625	linje	_	_	_	_	_	
+34-4	2626-2629	har	_	_	_	_	_	
+34-5	2630-2634	hela	_	_	_	_	_	
+34-6	2635-2640	tiden	_	_	_	_	_	
+34-7	2641-2645	gått	_	_	_	_	_	
+34-8	2646-2648	ut	_	_	_	_	_	
+34-9	2649-2651	på	_	_	_	_	_	
+34-10	2652-2655	att	_	_	_	_	_	
+34-11	2656-2666	pengapåsen	_	_	_	_	_	
+34-12	2667-2671	till	_	_	_	_	_	
+34-13	2672-2690	förlossningsvården	_	_	_	_	_	
+34-14	2691-2694	ska	_	_	_	_	_	
+34-15	2695-2699	vara	_	_	_	_	_	
+34-16	2700-2712	tillräckligt	_	_	_	_	_	
+34-17	2713-2717	stor	_	_	_	_	_	
+34-18	2718-2721	för	_	_	_	_	_	
+34-19	2722-2725	att	_	_	_	_	_	
+34-20	2726-2736	klinikerna	_	_	_	_	_	
+34-21	2737-2740	ska	_	_	_	_	_	
+34-22	2741-2746	klara	_	_	_	_	_	
+34-23	2747-2749	av	_	_	_	_	_	
+34-24	2750-2754	sitt	_	_	_	_	_	
+34-25	2755-2762	uppdrag	_	_	_	_	_	
+34-26	2762-2763	.	_	_	_	_	_	
+
+#Text=Den ambitionen backar vi inte från.
+35-1	2764-2767	Den	*[30]	_	_	_	_	
+35-2	2768-2778	ambitionen	*[30]	_	_	_	_	
+35-3	2779-2785	backar	_	Target[13]	35-1[30]	false[13]	4[13]	
+35-4	2786-2788	vi	_	Target[13]	35-1[30]	false[13]	4[13]	
+35-5	2789-2793	inte	_	Target[13]	35-1[30]	false[13]	4[13]	
+35-6	2794-2798	från	_	Target[13]	35-1[30]	false[13]	4[13]	
+35-7	2798-2799	.	_	_	_	_	_	
+
+#Text=Samtidigt är mer pengar inte alltid lösningen; personalbristen är kännbar över hela landet och är ett problem som kräver nationella krafttag från regeringen.
+36-1	2800-2809	Samtidigt	_	_	_	_	_	
+36-2	2810-2812	är	_	_	_	_	_	
+36-3	2813-2816	mer	*[31]	_	_	_	_	
+36-4	2817-2823	pengar	*[31]	_	_	_	_	
+36-5	2824-2828	inte	_	Target[14]	36-3[31]	false[14]	2[14]	
+36-6	2829-2835	alltid	_	Target[14]	36-3[31]	false[14]	2[14]	
+36-7	2836-2845	lösningen	_	Target[14]	36-3[31]	false[14]	2[14]	
+36-8	2845-2846	;	_	_	_	_	_	
+36-9	2847-2862	personalbristen	*	_	_	_	_	
+36-10	2863-2865	är	_	_	_	_	_	
+36-11	2866-2873	kännbar	_	_	_	_	_	
+36-12	2874-2878	över	_	_	_	_	_	
+36-13	2879-2883	hela	_	_	_	_	_	
+36-14	2884-2890	landet	_	_	_	_	_	
+36-15	2891-2894	och	_	_	_	_	_	
+36-16	2895-2897	är	_	Target[15]	36-9	false[15]	2[15]	
+36-17	2898-2901	ett	_	Target[15]	36-9	false[15]	2[15]	
+36-18	2902-2909	problem	_	Target[15]	36-9	false[15]	2[15]	
+36-19	2910-2913	som	_	_	_	_	_	
+36-20	2914-2920	kräver	_	_	_	_	_	
+36-21	2921-2931	nationella	_	_	_	_	_	
+36-22	2932-2940	krafttag	_	_	_	_	_	
+36-23	2941-2945	från	_	_	_	_	_	
+36-24	2946-2956	regeringen	_	_	_	_	_	
+36-25	2956-2957	.	_	_	_	_	_	
+
+#Text=#P IMM.
+37-1	2959-2960	#	_	_	_	_	_	
+37-2	2960-2961	P	_	_	_	_	_	
+37-3	2962-2965	IMM	_	_	_	_	_	
+37-4	2965-2966	.	_	_	_	_	_	
+
+#Text=Ella Bohlin (KD).
+38-1	2968-2972	Ella	_	_	_	_	_	
+38-2	2973-2979	Bohlin	_	_	_	_	_	
+38-3	2980-2981	(	_	_	_	_	_	
+38-4	2981-2983	KD	_	_	_	_	_	
+38-5	2983-2984	)	_	_	_	_	_	
+38-6	2984-2985	.	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2987-2988	#	_	_	_	_	_	
+39-2	2988-2989	P	_	_	_	_	_	
+39-3	2990-2993	IMM	_	_	_	_	_	
+39-4	2993-2994	.	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+40-1	2996-3009	Skräddarsydda	_	_	_	_	_	
+40-2	3010-3016	kurser	_	_	_	_	_	
+40-3	3017-3018	i	_	_	_	_	_	
+40-4	3019-3024	ämnen	_	_	_	_	_	
+40-5	3025-3028	som	_	_	_	_	_	
+40-6	3029-3040	intresserar	_	_	_	_	_	
+40-7	3041-3044	och	_	_	_	_	_	
+40-8	3045-3054	engagerar	_	_	_	_	_	
+40-9	3055-3059	både	_	_	_	_	_	
+40-10	3060-3065	kropp	_	_	_	_	_	
+40-11	3066-3069	och	_	_	_	_	_	
+40-12	3070-3074	själ	_	_	_	_	_	
+40-13	3074-3075	.	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3077-3078	#	_	_	_	_	_	
+41-2	3078-3079	P	_	_	_	_	_	
+41-3	3080-3083	IMM	_	_	_	_	_	
+41-4	3083-3084	.	_	_	_	_	_	
+
+#Text=barn- och äldrelandstingsråd.
+42-1	3086-3090	barn	_	_	_	_	_	
+42-2	3090-3091	-	_	_	_	_	_	
+42-3	3092-3095	och	_	_	_	_	_	
+42-4	3096-3114	äldrelandstingsråd	_	_	_	_	_	
+42-5	3114-3115	.	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3117-3118	#	_	_	_	_	_	
+43-2	3118-3119	P	_	_	_	_	_	
+43-3	3120-3123	IMM	_	_	_	_	_	
+43-4	3123-3124	.	_	_	_	_	_	
+
+#Text=Anna Starbrink (L).
+44-1	3126-3130	Anna	_	_	_	_	_	
+44-2	3131-3140	Starbrink	_	_	_	_	_	
+44-3	3141-3142	(	_	_	_	_	_	
+44-4	3142-3143	L	_	_	_	_	_	
+44-5	3143-3144	)	_	_	_	_	_	
+44-6	3144-3145	.	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3147-3148	#	_	_	_	_	_	
+45-2	3148-3149	P	_	_	_	_	_	
+45-3	3150-3153	IMM	_	_	_	_	_	
+45-4	3153-3154	.	_	_	_	_	_	
+
+#Text=hälso- och sjukvårdslandstingsråd.
+46-1	3156-3161	hälso	_	_	_	_	_	
+46-2	3161-3162	-	_	_	_	_	_	
+46-3	3163-3166	och	_	_	_	_	_	
+46-4	3167-3189	sjukvårdslandstingsråd	_	_	_	_	_	
+46-5	3189-3190	.	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3192-3193	#	_	_	_	_	_	
+47-2	3193-3194	P	_	_	_	_	_	
+47-3	3195-3198	IMM	_	_	_	_	_	
+47-4	3198-3199	.	_	_	_	_	_	
+
+#Text=Marie Ljungberg Schött (M).
+48-1	3201-3206	Marie	_	_	_	_	_	
+48-2	3207-3216	Ljungberg	_	_	_	_	_	
+48-3	3217-3223	Schött	_	_	_	_	_	
+48-4	3224-3225	(	_	_	_	_	_	
+48-5	3225-3226	M	_	_	_	_	_	
+48-6	3226-3227	)	_	_	_	_	_	
+48-7	3227-3228	.	_	_	_	_	_	
+
+#Text=#P IMM.
+49-1	3230-3231	#	_	_	_	_	_	
+49-2	3231-3232	P	_	_	_	_	_	
+49-3	3233-3236	IMM	_	_	_	_	_	
+49-4	3236-3237	.	_	_	_	_	_	
+
+#Text=sjukvårdslandstingsråd.
+50-1	3239-3261	sjukvårdslandstingsråd	_	_	_	_	_	
+50-2	3261-3262	.	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	3264-3265	#	_	_	_	_	_	
+51-2	3265-3266	P	_	_	_	_	_	
+51-3	3267-3270	IMM	_	_	_	_	_	
+51-4	3270-3271	.	_	_	_	_	_	
+
+#Text=Karin Fälldin (C).
+52-1	3273-3278	Karin	_	_	_	_	_	
+52-2	3279-3286	Fälldin	_	_	_	_	_	
+52-3	3287-3288	(	_	_	_	_	_	
+52-4	3288-3289	C	_	_	_	_	_	
+52-5	3289-3290	)	_	_	_	_	_	
+52-6	3290-3291	.	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	3293-3294	#	_	_	_	_	_	
+53-2	3294-3295	P	_	_	_	_	_	
+53-3	3296-3299	IMM	_	_	_	_	_	
+53-4	3299-3300	.	_	_	_	_	_	
+
+#Text=gruppledare i hälso- och sjukvårdsnämnden.
+54-1	3302-3313	gruppledare	_	_	_	_	_	
+54-2	3314-3315	i	_	_	_	_	_	
+54-3	3316-3321	hälso	_	_	_	_	_	
+54-4	3321-3322	-	_	_	_	_	_	
+54-5	3323-3326	och	_	_	_	_	_	
+54-6	3327-3343	sjukvårdsnämnden	_	_	_	_	_	
+54-7	3343-3344	.	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	3346-3347	#	_	_	_	_	_	
+55-2	3347-3348	P	_	_	_	_	_	
+55-3	3349-3352	IMM	_	_	_	_	_	
+55-4	3352-3353	.	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+56-1	3355-3363	Redaktör	_	_	_	_	_	
+56-2	3363-3364	:	_	_	_	_	_	
+56-3	3365-3371	Carina	_	_	_	_	_	
+56-4	3372-3380	Stensson	_	_	_	_	_	
+56-5	3380-3381	,	_	_	_	_	_	
+56-6	3382-3392	Biträdande	_	_	_	_	_	
+56-7	3393-3401	redaktör	_	_	_	_	_	
+56-8	3401-3402	:	_	_	_	_	_	
+56-9	3403-3408	Björn	_	_	_	_	_	
+56-10	3409-3415	Jorner	_	_	_	_	_	
+56-11	3415-3416	,	_	_	_	_	_	
+56-12	3417-3421	Mejl	_	_	_	_	_	
+56-13	3421-3422	:	_	_	_	_	_	
+56-14	3423-3429	debatt	_	_	_	_	_	
+56-15	3429-3430	@	_	_	_	_	_	
+56-16	3430-3436	svd.se	_	_	_	_	_	
+56-17	3436-3437	,	_	_	_	_	_	
+56-18	3438-3451	Telefonnummer	_	_	_	_	_	
+56-19	3451-3452	:	_	_	_	_	_	
+56-20	3453-3455	08	_	_	_	_	_	
+56-21	3455-3456	-	_	_	_	_	_	
+56-22	3456-3462	135149	_	_	_	_	_	
+56-23	3462-3463	,	_	_	_	_	_	
+56-24	3464-3471	Twitter	_	_	_	_	_	
+56-25	3471-3472	:	_	_	_	_	_	
+56-26	3473-3474	@	_	_	_	_	_	
+56-27	3474-3483	SvDDebatt	_	_	_	_	_	
+56-28	3483-3484	,	_	_	_	_	_	
+56-29	3485-3493	Facebook	_	_	_	_	_	
+56-30	3493-3494	:	_	_	_	_	_	
+56-31	3495-3498	SvD	_	_	_	_	_	
+56-32	3499-3505	Debatt	_	_	_	_	_	
+56-33	3505-3506	.	_	_	_	_	_	

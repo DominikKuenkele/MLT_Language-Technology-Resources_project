@@ -1,0 +1,201 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Vänsterpartiets 6 timmars arbetsdag?
+3-1	18-33	Vänsterpartiets	_	_	_	_	_	
+3-2	34-35	6	_	_	_	_	_	
+3-3	36-43	timmars	_	_	_	_	_	
+3-4	44-53	arbetsdag	_	_	_	_	_	
+3-5	53-54	?	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	
+
+#Text=Tycker att vänsterpartiets 6 timmars arbetsdag med bibehållen lön hade varit en skitbra lösning på problemen.
+5-1	65-71	Tycker	_	_	_	_	_	
+5-2	72-75	att	_	_	_	_	_	
+5-3	76-91	vänsterpartiets	_	_	_	_	_	
+5-4	92-93	6	*[4]	_	_	_	_	
+5-5	94-101	timmars	*[4]	_	_	_	_	
+5-6	102-111	arbetsdag	*[4]	_	_	_	_	
+5-7	112-115	med	*[4]	_	_	_	_	
+5-8	116-126	bibehållen	*[4]	_	_	_	_	
+5-9	127-130	lön	*[4]	_	_	_	_	
+5-10	131-135	hade	_	_	_	_	_	
+5-11	136-141	varit	_	_	_	_	_	
+5-12	142-144	en	_	Target[1]	5-4[4]	false[1]	5[1]	
+5-13	145-152	skitbra	_	Target[1]	5-4[4]	false[1]	5[1]	
+5-14	153-160	lösning	_	Target[1]	5-4[4]	false[1]	5[1]	
+5-15	161-163	på	_	_	_	_	_	
+5-16	164-173	problemen	*	Target	5-16	false	2	
+5-17	173-174	.	_	_	_	_	_	
+
+#Text=Inte nog med att jag får mer tid för barnen och göra viktiga saker istället för att slösa bort mitt liv på en arbetsplats, det skapar ju också fler jobb.
+6-1	175-179	Inte	_	_	_	_	_	
+6-2	180-183	nog	_	_	_	_	_	
+6-3	184-187	med	_	_	_	_	_	
+6-4	188-191	att	_	_	_	_	_	
+6-5	192-195	jag	*[5]|*[6]	_	_	_	_	
+6-6	196-199	får	_	_	_	_	_	
+6-7	200-203	mer	_	_	_	_	_	
+6-8	204-207	tid	_	_	_	_	_	
+6-9	208-211	för	_	_	_	_	_	
+6-10	212-218	barnen	_	_	_	_	_	
+6-11	219-222	och	_	_	_	_	_	
+6-12	223-227	göra	_	Source[2]	6-5[5]	false[2]	5[2]	
+6-13	228-235	viktiga	_	Source[2]	6-5[5]	false[2]	5[2]	
+6-14	236-241	saker	_	Source[2]	6-5[5]	false[2]	5[2]	
+6-15	242-250	istället	_	_	_	_	_	
+6-16	251-254	för	_	_	_	_	_	
+6-17	255-258	att	_	_	_	_	_	
+6-18	259-264	slösa	_	Source[3]	6-5[6]	false[3]	1[3]	
+6-19	265-269	bort	_	Source[3]	6-5[6]	false[3]	1[3]	
+6-20	270-274	mitt	_	Source[3]	6-5[6]	false[3]	1[3]	
+6-21	275-278	liv	_	Source[3]	6-5[6]	false[3]	1[3]	
+6-22	279-281	på	_	_	_	_	_	
+6-23	282-284	en	_	_	_	_	_	
+6-24	285-296	arbetsplats	_	_	_	_	_	
+6-25	296-297	,	_	_	_	_	_	
+6-26	298-301	det	_	_	_	_	_	
+6-27	302-308	skapar	_	_	_	_	_	
+6-28	309-311	ju	_	_	_	_	_	
+6-29	312-317	också	_	_	_	_	_	
+6-30	318-322	fler	_	_	_	_	_	
+6-31	323-327	jobb	_	_	_	_	_	
+6-32	327-328	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	330-331	#	_	_	_	_	_	
+7-2	331-332	P	_	_	_	_	_	
+7-3	333-336	IMM	_	_	_	_	_	
+7-4	336-337	.	_	_	_	_	_	
+
+#Text=Partiet har flera förslag hur detta kan gå till:.
+8-1	339-346	Partiet	_	_	_	_	_	
+8-2	347-350	har	_	_	_	_	_	
+8-3	351-356	flera	_	_	_	_	_	
+8-4	357-364	förslag	_	_	_	_	_	
+8-5	365-368	hur	_	_	_	_	_	
+8-6	369-374	detta	_	_	_	_	_	
+8-7	375-378	kan	_	_	_	_	_	
+8-8	379-381	gå	_	_	_	_	_	
+8-9	382-386	till	_	_	_	_	_	
+8-10	386-387	:	_	_	_	_	_	
+8-11	387-388	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=1.
+9-1	390-391	#	_	_	_	_	_	
+9-2	391-392	P	_	_	_	_	_	
+9-3	393-396	IMM	_	_	_	_	_	
+9-4	396-397	.	_	_	_	_	_	
+9-5	399-400	1	_	_	_	_	_	
+9-6	400-401	.	_	_	_	_	_	
+
+#Text=Arbeta 6 timmar per dag i 5 dagar i veckan.
+10-1	402-408	Arbeta	_	_	_	_	_	
+10-2	409-410	6	_	_	_	_	_	
+10-3	411-417	timmar	_	_	_	_	_	
+10-4	418-421	per	_	_	_	_	_	
+10-5	422-425	dag	_	_	_	_	_	
+10-6	426-427	i	_	_	_	_	_	
+10-7	428-429	5	_	_	_	_	_	
+10-8	430-435	dagar	_	_	_	_	_	
+10-9	436-437	i	_	_	_	_	_	
+10-10	438-444	veckan	_	_	_	_	_	
+10-11	444-445	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=2.
+11-1	447-448	#	_	_	_	_	_	
+11-2	448-449	P	_	_	_	_	_	
+11-3	450-453	IMM	_	_	_	_	_	
+11-4	453-454	.	_	_	_	_	_	
+11-5	456-457	2	_	_	_	_	_	
+11-6	457-458	.	_	_	_	_	_	
+
+#Text=Arbeta 8 timmar per dag i 4 dagar i veckan.
+12-1	459-465	Arbeta	_	_	_	_	_	
+12-2	466-467	8	_	_	_	_	_	
+12-3	468-474	timmar	_	_	_	_	_	
+12-4	475-478	per	_	_	_	_	_	
+12-5	479-482	dag	_	_	_	_	_	
+12-6	483-484	i	_	_	_	_	_	
+12-7	485-486	4	_	_	_	_	_	
+12-8	487-492	dagar	_	_	_	_	_	
+12-9	493-494	i	_	_	_	_	_	
+12-10	495-501	veckan	_	_	_	_	_	
+12-11	501-502	.	_	_	_	_	_	
+
+#Text=#P IMM.
+#Text=
+#Text=3.
+13-1	504-505	#	_	_	_	_	_	
+13-2	505-506	P	_	_	_	_	_	
+13-3	507-510	IMM	_	_	_	_	_	
+13-4	510-511	.	_	_	_	_	_	
+13-5	513-514	3	_	_	_	_	_	
+13-6	514-515	.	_	_	_	_	_	
+
+#Text=Arbeta 8 timmar per dag i 5 dagar i veckan i 3 veckor per månad och vara ledig 1 vecka per månad.
+14-1	516-522	Arbeta	_	_	_	_	_	
+14-2	523-524	8	_	_	_	_	_	
+14-3	525-531	timmar	_	_	_	_	_	
+14-4	532-535	per	_	_	_	_	_	
+14-5	536-539	dag	_	_	_	_	_	
+14-6	540-541	i	_	_	_	_	_	
+14-7	542-543	5	_	_	_	_	_	
+14-8	544-549	dagar	_	_	_	_	_	
+14-9	550-551	i	_	_	_	_	_	
+14-10	552-558	veckan	_	_	_	_	_	
+14-11	559-560	i	_	_	_	_	_	
+14-12	561-562	3	_	_	_	_	_	
+14-13	563-569	veckor	_	_	_	_	_	
+14-14	570-573	per	_	_	_	_	_	
+14-15	574-579	månad	_	_	_	_	_	
+14-16	580-583	och	_	_	_	_	_	
+14-17	584-588	vara	_	_	_	_	_	
+14-18	589-594	ledig	_	_	_	_	_	
+14-19	595-596	1	_	_	_	_	_	
+14-20	597-602	vecka	_	_	_	_	_	
+14-21	603-606	per	_	_	_	_	_	
+14-22	607-612	månad	_	_	_	_	_	
+14-23	612-613	.	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	615-616	#	_	_	_	_	_	
+15-2	616-617	P	_	_	_	_	_	
+15-3	618-621	IMM	_	_	_	_	_	
+15-4	621-622	.	_	_	_	_	_	
+
+#Text=Undrar varför inte detta diskuteras mer??!!.
+16-1	624-630	Undrar	_	_	_	_	_	
+16-2	631-637	varför	_	_	_	_	_	
+16-3	638-642	inte	_	_	_	_	_	
+16-4	643-648	detta	_	_	_	_	_	
+16-5	649-659	diskuteras	_	_	_	_	_	
+16-6	660-663	mer	_	_	_	_	_	
+16-7	663-664	?	_	_	_	_	_	
+16-8	664-665	?	_	_	_	_	_	
+16-9	665-666	!	_	_	_	_	_	
+16-10	666-667	!	_	_	_	_	_	
+16-11	667-668	.	_	_	_	_	_	

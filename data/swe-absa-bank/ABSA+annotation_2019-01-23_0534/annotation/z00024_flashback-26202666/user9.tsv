@@ -1,0 +1,72 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	3	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Optimal invandringspolitik för Sverige.
+3-1	18-25	Optimal	_	Target	3-2	false	5	
+3-2	26-44	invandringspolitik	*	_	_	_	_	
+3-3	45-48	för	_	_	_	_	_	
+3-4	49-56	Sverige	_	_	_	_	_	
+3-5	56-57	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	false	3	
+4-4	65-66	.	_	_	_	_	_	
+
+#Text=Om du fick bestämma.
+5-1	68-70	Om	_	_	_	_	_	
+5-2	71-73	du	_	_	_	_	_	
+5-3	74-78	fick	_	_	_	_	_	
+5-4	79-87	bestämma	_	_	_	_	_	
+5-5	87-88	.	_	_	_	_	_	
+
+#Text=Vilken skulle vara optimal invandringspolitik i Sverige.
+6-1	89-95	Vilken	*	_	_	_	_	
+6-2	96-102	skulle	_	Target[1]	6-1	false[1]	5[1]	
+6-3	103-107	vara	_	Target[1]	6-1	false[1]	5[1]	
+6-4	108-115	optimal	_	Target[1]	6-1	false[1]	5[1]	
+6-5	116-134	invandringspolitik	_	Target[1]	6-1	false[1]	5[1]	
+6-6	135-136	i	_	_	_	_	_	
+6-7	137-144	Sverige	_	_	_	_	_	
+6-8	144-145	.	_	_	_	_	_	
+
+#Text=Vilka skulle kunna få bli svenska medborgare och varför?
+7-1	147-152	Vilka	_	_	_	_	_	
+7-2	153-159	skulle	_	_	_	_	_	
+7-3	160-165	kunna	_	_	_	_	_	
+7-4	166-168	få	_	_	_	_	_	
+7-5	169-172	bli	_	_	_	_	_	
+7-6	173-180	svenska	_	_	_	_	_	
+7-7	181-191	medborgare	_	_	_	_	_	
+7-8	192-195	och	_	_	_	_	_	
+7-9	196-202	varför	_	_	_	_	_	
+7-10	202-203	?	_	_	_	_	_	
+
+#Text=Vilka skulle inte få bli det, och varför inte?.
+8-1	204-209	Vilka	_	_	_	_	_	
+8-2	210-216	skulle	_	_	_	_	_	
+8-3	217-221	inte	_	_	_	_	_	
+8-4	222-224	få	_	_	_	_	_	
+8-5	225-228	bli	_	_	_	_	_	
+8-6	229-232	det	_	_	_	_	_	
+8-7	232-233	,	_	_	_	_	_	
+8-8	234-237	och	_	_	_	_	_	
+8-9	238-244	varför	_	_	_	_	_	
+8-10	245-249	inte	_	_	_	_	_	
+8-11	249-250	?	_	_	_	_	_	
+8-12	250-251	.	_	_	_	_	_	

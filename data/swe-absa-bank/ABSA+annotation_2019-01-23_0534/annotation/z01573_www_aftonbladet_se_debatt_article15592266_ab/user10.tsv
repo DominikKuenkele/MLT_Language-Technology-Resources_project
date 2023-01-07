@@ -1,0 +1,724 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=S: Borgs strategi för småpartierna hotar Sveriges ekonomi.
+3-1	18-19	S	_	_	_	_	_	_	_	
+3-2	19-20	:	_	_	_	_	_	_	_	
+3-3	21-26	Borgs	*[21]	_	_	_	_	_	_	
+3-4	27-35	strategi	*[21]	_	_	_	_	_	_	
+3-5	36-39	för	*[21]	_	_	_	_	_	_	
+3-6	40-52	småpartierna	*[21]	_	_	_	_	_	_	
+3-7	53-58	hotar	_	Target[1]	3-3[21]	false[1]	1[1]	_	_	
+3-8	59-67	Sveriges	_	Target[1]	3-3[21]	false[1]	1[1]	_	_	
+3-9	68-75	ekonomi	_	Target[1]	3-3[21]	false[1]	1[1]	_	_	
+3-10	75-76	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	78-79	#	_	_	_	_	_	_	_	
+4-2	79-80	P	_	_	_	_	_	_	_	
+4-3	81-84	IMM	_	_	_	_	_	_	_	
+4-4	84-85	.	_	_	_	_	_	_	_	
+
+#Text=Två av de fyra regeringspartierna har under en längre tid balanserat kring fyraprocentsgränsen till riksdagen.
+5-1	87-90	Två	_	_	_	_	_	_	_	
+5-2	91-93	av	_	_	_	_	_	_	_	
+5-3	94-96	de	_	_	_	_	_	_	_	
+5-4	97-101	fyra	_	_	_	_	_	_	_	
+5-5	102-120	regeringspartierna	_	_	_	_	_	_	_	
+5-6	121-124	har	_	_	_	_	_	_	_	
+5-7	125-130	under	_	_	_	_	_	_	_	
+5-8	131-133	en	_	_	_	_	_	_	_	
+5-9	134-140	längre	_	_	_	_	_	_	_	
+5-10	141-144	tid	_	_	_	_	_	_	_	
+5-11	145-155	balanserat	_	_	_	_	_	_	_	
+5-12	156-161	kring	_	_	_	_	_	_	_	
+5-13	162-181	fyraprocentsgränsen	_	_	_	_	_	_	_	
+5-14	182-186	till	_	_	_	_	_	_	_	
+5-15	187-196	riksdagen	_	_	_	_	_	_	_	
+5-16	196-197	.	_	_	_	_	_	_	_	
+
+#Text=Dagens regeringsunderlag är i gungning, men finansminister Anders Borg är övertygad om att situationen inte blir ett problem i valet 2014.
+6-1	198-204	Dagens	_	_	_	_	_	_	_	
+6-2	205-222	regeringsunderlag	_	_	_	_	_	_	_	
+6-3	223-225	är	_	_	_	_	_	_	_	
+6-4	226-227	i	_	_	_	_	_	_	_	
+6-5	228-236	gungning	_	_	_	_	_	_	_	
+6-6	236-237	,	_	_	_	_	_	_	_	
+6-7	238-241	men	_	_	_	_	_	_	_	
+6-8	242-256	finansminister	*[22]	_	_	_	_	_	_	
+6-9	257-263	Anders	*[22]	_	_	_	_	_	_	
+6-10	264-268	Borg	*[22]	_	_	_	_	_	_	
+6-11	269-271	är	_	Source;Target[2]	6-8[22];6-15	false[2]	3[2]	_	_	
+6-12	272-281	övertygad	_	Source;Target[2]	6-8[22];6-15	false[2]	3[2]	_	_	
+6-13	282-284	om	_	Source;Target[2]	6-8[22];6-15	false[2]	3[2]	_	_	
+6-14	285-288	att	_	Source;Target[2]	6-8[22];6-15	false[2]	3[2]	_	_	
+6-15	289-300	situationen	*	_	_	_	_	_	_	
+6-16	301-305	inte	_	_[3]	_	false[3]	3[3]	6-11[2_3]	_	
+6-17	306-310	blir	_	_[3]	_	false[3]	3[3]	_	_	
+6-18	311-314	ett	_	_[3]	_	false[3]	3[3]	_	_	
+6-19	315-322	problem	_	_[3]	_	false[3]	3[3]	_	_	
+6-20	323-324	i	_	_[3]	_	false[3]	3[3]	_	_	
+6-21	325-330	valet	_	_[3]	_	false[3]	3[3]	_	_	
+6-22	331-335	2014	_	_[3]	_	false[3]	3[3]	_	_	
+6-23	335-336	.	_	_	_	_	_	_	_	
+
+#Text=Småpartierna ska, enligt finansministern, få hjälp att hålla sig kvar i riksdagen.
+7-1	337-349	Småpartierna	*	_	_	_	_	_	_	
+7-2	350-353	ska	_	_	_	false	4	_	_	
+7-3	353-354	,	_	_	_	_	_	_	_	
+7-4	355-361	enligt	_	_	_	_	_	_	_	
+7-5	362-377	finansministern	*	_	_	_	_	_	_	
+7-6	377-378	,	_	_	_	_	_	_	_	
+7-7	379-381	få	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	7-2[0_4]	_	
+7-8	382-387	hjälp	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-9	388-391	att	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-10	392-397	hålla	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-11	398-401	sig	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-12	402-406	kvar	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-13	407-408	i	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-14	409-418	riksdagen	_	Target;Source[4]	7-1;7-5	false[4]	4[4]	_	_	
+7-15	418-419	.	_	_	_	_	_	_	_	
+
+#Text=Hur ska då detta gå till?.
+8-1	420-423	Hur	_	_	_	_	_	_	_	
+8-2	424-427	ska	_	_	_	_	_	_	_	
+8-3	428-430	då	_	_	_	_	_	_	_	
+8-4	431-436	detta	_	_	_	_	_	_	_	
+8-5	437-439	gå	_	_	_	_	_	_	_	
+8-6	440-444	till	_	_	_	_	_	_	_	
+8-7	444-445	?	_	_	_	_	_	_	_	
+8-8	445-446	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	448-449	#	_	_	_	_	_	_	_	
+9-2	449-450	P	_	_	_	_	_	_	_	
+9-3	451-454	IMM	_	_	_	_	_	_	_	
+9-4	454-455	.	_	_	_	_	_	_	_	
+
+#Text=Vi har sett resultatet från den första räddningsaktionen.
+10-1	457-459	Vi	_	_	_	_	_	_	_	
+10-2	460-463	har	_	_	_	_	_	_	_	
+10-3	464-468	sett	_	_	_	_	_	_	_	
+10-4	469-479	resultatet	_	_	_	_	_	_	_	
+10-5	480-484	från	_	_	_	_	_	_	_	
+10-6	485-488	den	_	_	_	_	_	_	_	
+10-7	489-495	första	_	_	_	_	_	_	_	
+10-8	496-513	räddningsaktionen	_	_	_	_	_	_	_	
+10-9	513-514	.	_	_	_	_	_	_	_	
+
+#Text=Under årets budgetförhandlingar fick finansministern överge det finanspolitiska ramverket för att tillgodose småpartiernas kravlistor.
+11-1	515-520	Under	_	_	_	_	_	_	_	
+11-2	521-526	årets	_	_	_	_	_	_	_	
+11-3	527-546	budgetförhandlingar	_	_	_	_	_	_	_	
+11-4	547-551	fick	_	_	_	_	_	_	_	
+11-5	552-567	finansministern	_	_	_	_	_	_	_	
+11-6	568-574	överge	_	_	_	_	_	_	_	
+11-7	575-578	det	_	_	_	_	_	_	_	
+11-8	579-594	finanspolitiska	_	_	_	_	_	_	_	
+11-9	595-604	ramverket	_	_	_	_	_	_	_	
+11-10	605-608	för	_	_	_	_	_	_	_	
+11-11	609-612	att	_	_	_	_	_	_	_	
+11-12	613-623	tillgodose	_	_	_	_	_	_	_	
+11-13	624-637	småpartiernas	_	_	_	_	_	_	_	
+11-14	638-648	kravlistor	_	_	_	_	_	_	_	
+11-15	648-649	.	_	_	_	_	_	_	_	
+
+#Text=Ordning och reda i statens finanser visade sig vara underställt småpartiernas välmående.
+12-1	650-657	Ordning	*[23]	_	_	_	_	_	_	
+12-2	658-661	och	*[23]	_	_	_	_	_	_	
+12-3	662-666	reda	*[23]	_	_	_	_	_	_	
+12-4	667-668	i	*[23]	_	_	_	_	_	_	
+12-5	669-676	statens	*[23]	_	_	_	_	_	_	
+12-6	677-685	finanser	*[23]	_	_	_	_	_	_	
+12-7	686-692	visade	_	_	_	_	_	_	_	
+12-8	693-696	sig	_	_	_	_	_	_	_	
+12-9	697-701	vara	_	_	_	_	_	_	_	
+12-10	702-713	underställt	_	Target;Source[5]	12-1[23];12-13	false[5]	2[5]	_	_	
+12-11	714-727	småpartiernas	_	Target;Source[5]	12-1[23];12-13	false[5]	2[5]	_	_	
+12-12	728-737	välmående	_	Target;Source[5]	12-1[23];12-13	false[5]	2[5]	_	_	
+12-13	737-738	.	*	_	_	_	_	_	_	
+
+#Text=Den politiska strategin vägde tyngre än det ekonomiska ansvaret.
+13-1	739-742	Den	_	_	_	_	_	_	_	
+13-2	743-752	politiska	_	_	_	_	_	_	_	
+13-3	753-762	strategin	_	_	_	_	_	_	_	
+13-4	763-768	vägde	_	_	_	_	_	_	_	
+13-5	769-775	tyngre	_	_	_	_	_	_	_	
+13-6	776-778	än	_	_	_	_	_	_	_	
+13-7	779-782	det	_	_	_	_	_	_	_	
+13-8	783-793	ekonomiska	_	_	_	_	_	_	_	
+13-9	794-802	ansvaret	_	_	_	_	_	_	_	
+13-10	802-803	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	805-806	#	_	_	_	_	_	_	_	
+14-2	806-807	P	_	_	_	_	_	_	_	
+14-3	808-811	IMM	_	_	_	_	_	_	_	
+14-4	811-812	.	_	_	_	_	_	_	_	
+
+#Text=Mönstret känns igen från tidigare borgerliga regeringar.
+15-1	814-822	Mönstret	_	_	_	_	_	_	_	
+15-2	823-828	känns	_	_	_	_	_	_	_	
+15-3	829-833	igen	_	_	_	_	_	_	_	
+15-4	834-838	från	_	_	_	_	_	_	_	
+15-5	839-847	tidigare	_	_	_	_	_	_	_	
+15-6	848-858	borgerliga	_	_	_	_	_	_	_	
+15-7	859-869	regeringar	_	_	_	_	_	_	_	
+15-8	869-870	.	_	_	_	_	_	_	_	
+
+#Text=Bristen på budgetdisciplin under regeringen Bildt ledde till en fördubblad statsskuld, ett fyrdubblat budgetunderskott och en tredubblad arbetslöshet.
+16-1	871-878	Bristen	_	_	_	_	_	_	_	
+16-2	879-881	på	_	_	_	_	_	_	_	
+16-3	882-897	budgetdisciplin	_	_	_	_	_	_	_	
+16-4	898-903	under	_	_	_	_	_	_	_	
+16-5	904-914	regeringen	_	_	_	_	_	_	_	
+16-6	915-920	Bildt	_	_	_	_	_	_	_	
+16-7	921-926	ledde	_	_	_	_	_	_	_	
+16-8	927-931	till	_	_	_	_	_	_	_	
+16-9	932-934	en	_	_	_	_	_	_	_	
+16-10	935-945	fördubblad	_	_	_	_	_	_	_	
+16-11	946-956	statsskuld	_	_	_	_	_	_	_	
+16-12	956-957	,	_	_	_	_	_	_	_	
+16-13	958-961	ett	_	_	_	_	_	_	_	
+16-14	962-972	fyrdubblat	_	_	_	_	_	_	_	
+16-15	973-989	budgetunderskott	_	_	_	_	_	_	_	
+16-16	990-993	och	_	_	_	_	_	_	_	
+16-17	994-996	en	_	_	_	_	_	_	_	
+16-18	997-1007	tredubblad	_	_	_	_	_	_	_	
+16-19	1008-1020	arbetslöshet	_	_	_	_	_	_	_	
+16-20	1020-1021	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1023-1024	#	_	_	_	_	_	_	_	
+17-2	1024-1025	P	_	_	_	_	_	_	_	
+17-3	1026-1029	IMM	_	_	_	_	_	_	_	
+17-4	1029-1030	.	_	_	_	_	_	_	_	
+
+#Text=Det blev ett tungt arbete att återupprätta det ekonomiska förtroendet och återföra Sverige till en robust statsfinansiell ställning.
+18-1	1032-1035	Det	_	_	_	_	_	_	_	
+18-2	1036-1040	blev	_	_	_	_	_	_	_	
+18-3	1041-1044	ett	*[24]	Target[6]	18-3[24]	false[6]	2[6]	_	_	
+18-4	1045-1050	tungt	*[24]	Target[6]	18-3[24]	false[6]	2[6]	_	_	
+18-5	1051-1057	arbete	*[24]	Target[6]	18-3[24]	false[6]	2[6]	_	_	
+18-6	1058-1061	att	_	_	_	_	_	_	_	
+18-7	1062-1074	återupprätta	_	_	_	_	_	_	_	
+18-8	1075-1078	det	_	_	_	_	_	_	_	
+18-9	1079-1089	ekonomiska	_	_	_	_	_	_	_	
+18-10	1090-1101	förtroendet	_	_	_	_	_	_	_	
+18-11	1102-1105	och	_	_	_	_	_	_	_	
+18-12	1106-1114	återföra	_	_	_	_	_	_	_	
+18-13	1115-1122	Sverige	_	_	_	_	_	_	_	
+18-14	1123-1127	till	_	_	_	_	_	_	_	
+18-15	1128-1130	en	_	_	_	_	_	_	_	
+18-16	1131-1137	robust	_	_	_	_	_	_	_	
+18-17	1138-1153	statsfinansiell	_	_	_	_	_	_	_	
+18-18	1154-1163	ställning	_	_	_	_	_	_	_	
+18-19	1163-1164	.	_	_	_	_	_	_	_	
+
+#Text=Det finanspolitiska ramverket som Socialdemokraterna byggde upp under denna tid var avgörande för att ta landet ur krisen då.
+19-1	1165-1168	Det	*[25]	_	_	_	_	_	_	
+19-2	1169-1184	finanspolitiska	*[25]	_	_	_	_	_	_	
+19-3	1185-1194	ramverket	*[25]	_	_	_	_	_	_	
+19-4	1195-1198	som	*[25]	_	_	_	_	_	_	
+19-5	1199-1217	Socialdemokraterna	*[25]	_	_	_	_	_	_	
+19-6	1218-1224	byggde	*[25]	_	_	_	_	_	_	
+19-7	1225-1228	upp	*[25]	_	_	_	_	_	_	
+19-8	1229-1234	under	_	_	_	_	_	_	_	
+19-9	1235-1240	denna	_	_	_	_	_	_	_	
+19-10	1241-1244	tid	_	_	_	_	_	_	_	
+19-11	1245-1248	var	_	_	_	_	_	_	_	
+19-12	1249-1258	avgörande	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-13	1259-1262	för	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-14	1263-1266	att	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-15	1267-1269	ta	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-16	1270-1276	landet	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-17	1277-1279	ur	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-18	1280-1286	krisen	_	Target[7]	19-1[25]	false[7]	4[7]	_	_	
+19-19	1287-1289	då	_	_	_	_	_	_	_	
+19-20	1289-1290	.	_	_	_	_	_	_	_	
+
+#Text=Ramverket har varit lika betydelsefullt för Sveriges motståndskraft i lågkonjunkturen vi upplever nu.
+20-1	1291-1300	Ramverket	*	_	_	_	_	_	_	
+20-2	1301-1304	har	_	_	_	_	_	_	_	
+20-3	1305-1310	varit	_	_	_	_	_	_	_	
+20-4	1311-1315	lika	_	_	_	_	_	_	_	
+20-5	1316-1330	betydelsefullt	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-6	1331-1334	för	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-7	1335-1343	Sveriges	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-8	1344-1358	motståndskraft	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-9	1359-1360	i	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-10	1361-1376	lågkonjunkturen	_	Target[8]	20-1	false[8]	4[8]	_	_	
+20-11	1377-1379	vi	_	_	_	_	_	_	_	
+20-12	1380-1388	upplever	_	_	_	_	_	_	_	
+20-13	1389-1391	nu	_	_	_	_	_	_	_	
+20-14	1391-1392	.	_	_	_	_	_	_	_	
+
+#Text=När dagens borgerliga regering frångår budgetreglerna och driver in Sverige på en oförsiktig bana väcker det oro, då hörs tydligt ekon från förr.
+21-1	1393-1396	När	*[26]	_	_	_	_	_	_	
+21-2	1397-1403	dagens	*[26]	_	_	_	_	_	_	
+21-3	1404-1414	borgerliga	*[26]	_	_	_	_	_	_	
+21-4	1415-1423	regering	*[26]	_	_	_	_	_	_	
+21-5	1424-1431	frångår	*[26]	_	_	_	_	_	_	
+21-6	1432-1446	budgetreglerna	*[26]	_	_	_	_	_	_	
+21-7	1447-1450	och	*[26]	_	_	_	_	_	_	
+21-8	1451-1457	driver	*[26]	_	_	_	_	_	_	
+21-9	1458-1460	in	*[26]	_	_	_	_	_	_	
+21-10	1461-1468	Sverige	*[26]	_	_	_	_	_	_	
+21-11	1469-1471	på	*[26]	_	_	_	_	_	_	
+21-12	1472-1474	en	*[26]	_	_	_	_	_	_	
+21-13	1475-1485	oförsiktig	*[26]	_	_	_	_	_	_	
+21-14	1486-1490	bana	*[26]	_	_	_	_	_	_	
+21-15	1491-1497	väcker	_	_	_	false	2	_	_	
+21-16	1498-1501	det	_	_	_	_	_	_	_	
+21-17	1502-1505	oro	_	Source;Target	21-25;21-1[26]	false	2	21-15	_	
+21-18	1505-1506	,	_	_	_	_	_	_	_	
+21-19	1507-1509	då	_	_	_	_	_	_	_	
+21-20	1510-1514	hörs	_	_	_	_	_	_	_	
+21-21	1515-1522	tydligt	_	_	_	_	_	_	_	
+21-22	1523-1527	ekon	_	_	_	_	_	_	_	
+21-23	1528-1532	från	_	_	_	_	_	_	_	
+21-24	1533-1537	förr	_	_	_	_	_	_	_	
+21-25	1537-1538	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1540-1541	#	_	_	_	_	_	_	_	
+22-2	1541-1542	P	_	_	_	_	_	_	_	
+22-3	1543-1546	IMM	_	_	_	_	_	_	_	
+22-4	1546-1547	.	_	_	_	_	_	_	_	
+
+#Text=En av de allvarligaste efterverkningarna av det borgerliga regeringsinnehavet under 90-talet var konsekvenserna för den generation unga som under lång tid gått arbetslös.
+23-1	1549-1551	En	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-2	1552-1554	av	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-3	1555-1557	de	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-4	1558-1571	allvarligaste	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-5	1572-1589	efterverkningarna	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-6	1590-1592	av	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-7	1593-1596	det	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-8	1597-1607	borgerliga	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-9	1608-1626	regeringsinnehavet	_	Target[9]	23-15[27]	false[9]	1[9]	_	_	
+23-10	1627-1632	under	_	_	_	_	_	_	_	
+23-11	1633-1635	90	_	_	_	_	_	_	_	
+23-12	1635-1636	-	_	_	_	_	_	_	_	
+23-13	1636-1641	talet	_	_	_	_	_	_	_	
+23-14	1642-1645	var	_	_	_	_	_	_	_	
+23-15	1646-1660	konsekvenserna	*[27]	_	_	_	_	_	_	
+23-16	1661-1664	för	*[27]	_	_	_	_	_	_	
+23-17	1665-1668	den	*[27]	_	_	_	_	_	_	
+23-18	1669-1679	generation	*[27]	_	_	_	_	_	_	
+23-19	1680-1684	unga	*[27]	_	_	_	_	_	_	
+23-20	1685-1688	som	*[27]	_	_	_	_	_	_	
+23-21	1689-1694	under	*[27]	_	_	_	_	_	_	
+23-22	1695-1699	lång	*[27]	_	_	_	_	_	_	
+23-23	1700-1703	tid	*[27]	_	_	_	_	_	_	
+23-24	1704-1708	gått	*[27]	_	_	_	_	_	_	
+23-25	1709-1718	arbetslös	*[27]	_	_	_	_	_	_	
+23-26	1718-1719	.	_	_	_	_	_	_	_	
+
+#Text=Den sena etableringen på arbetsmarknaden medförde att de under sitt yrkesliv kom efter både i sin karriärutveckling och lönemässigt.
+24-1	1720-1723	Den	_	_	_	_	_	_	_	
+24-2	1724-1728	sena	_	_	_	_	_	_	_	
+24-3	1729-1741	etableringen	_	_	_	_	_	_	_	
+24-4	1742-1744	på	_	_	_	_	_	_	_	
+24-5	1745-1760	arbetsmarknaden	_	_	_	_	_	_	_	
+24-6	1761-1769	medförde	_	_	_	_	_	_	_	
+24-7	1770-1773	att	_	_	_	_	_	_	_	
+24-8	1774-1776	de	_	_	_	_	_	_	_	
+24-9	1777-1782	under	_	_	_	_	_	_	_	
+24-10	1783-1787	sitt	_	_	_	_	_	_	_	
+24-11	1788-1796	yrkesliv	_	_	_	_	_	_	_	
+24-12	1797-1800	kom	_	_	_	_	_	_	_	
+24-13	1801-1806	efter	_	_	_	_	_	_	_	
+24-14	1807-1811	både	_	_	_	_	_	_	_	
+24-15	1812-1813	i	_	_	_	_	_	_	_	
+24-16	1814-1817	sin	_	_	_	_	_	_	_	
+24-17	1818-1835	karriärutveckling	_	_	_	_	_	_	_	
+24-18	1836-1839	och	_	_	_	_	_	_	_	
+24-19	1840-1851	lönemässigt	_	_	_	_	_	_	_	
+24-20	1851-1852	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1854-1855	#	_	_	_	_	_	_	_	
+25-2	1855-1856	P	_	_	_	_	_	_	_	
+25-3	1857-1860	IMM	_	_	_	_	_	_	_	
+25-4	1860-1861	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser nu hur historien upprepar sig.
+26-1	1863-1865	Vi	_	_	_	_	_	_	_	
+26-2	1866-1869	ser	_	_	_	_	_	_	_	
+26-3	1870-1872	nu	_	_	_	_	_	_	_	
+26-4	1873-1876	hur	_	_	_	_	_	_	_	
+26-5	1877-1886	historien	_	_	_	_	_	_	_	
+26-6	1887-1895	upprepar	_	_	_	_	_	_	_	
+26-7	1896-1899	sig	_	_	_	_	_	_	_	
+26-8	1899-1900	.	_	_	_	_	_	_	_	
+
+#Text=Ungdomsarbetslösheten har bitit sig fast på rekordnivåer och är högre än i jämförbara europeiska länder.
+27-1	1901-1922	Ungdomsarbetslösheten	_	_	_	_	_	_	_	
+27-2	1923-1926	har	_	_	_	_	_	_	_	
+27-3	1927-1932	bitit	_	_	_	_	_	_	_	
+27-4	1933-1936	sig	_	_	_	_	_	_	_	
+27-5	1937-1941	fast	_	_	_	_	_	_	_	
+27-6	1942-1944	på	_	_	_	_	_	_	_	
+27-7	1945-1957	rekordnivåer	_	_	_	_	_	_	_	
+27-8	1958-1961	och	_	_	_	_	_	_	_	
+27-9	1962-1964	är	_	_	_	_	_	_	_	
+27-10	1965-1970	högre	_	_	_	_	_	_	_	
+27-11	1971-1973	än	_	_	_	_	_	_	_	
+27-12	1974-1975	i	_	_	_	_	_	_	_	
+27-13	1976-1986	jämförbara	_	_	_	_	_	_	_	
+27-14	1987-1997	europeiska	_	_	_	_	_	_	_	
+27-15	1998-2004	länder	_	_	_	_	_	_	_	
+27-16	2004-2005	.	_	_	_	_	_	_	_	
+
+#Text=Omkring 35 000 ungdomar i åldern 18-24 har varit arbetslösa i mer än 6 månader.
+28-1	2006-2013	Omkring	_	_	_	_	_	_	_	
+28-2	2014-2016	35	_	_	_	_	_	_	_	
+28-3	2017-2020	000	_	_	_	_	_	_	_	
+28-4	2021-2029	ungdomar	_	_	_	_	_	_	_	
+28-5	2030-2031	i	_	_	_	_	_	_	_	
+28-6	2032-2038	åldern	_	_	_	_	_	_	_	
+28-7	2039-2041	18	_	_	_	_	_	_	_	
+28-8	2041-2042	-	_	_	_	_	_	_	_	
+28-9	2042-2044	24	_	_	_	_	_	_	_	
+28-10	2045-2048	har	_	_	_	_	_	_	_	
+28-11	2049-2054	varit	_	_	_	_	_	_	_	
+28-12	2055-2065	arbetslösa	_	_	_	_	_	_	_	
+28-13	2066-2067	i	_	_	_	_	_	_	_	
+28-14	2068-2071	mer	_	_	_	_	_	_	_	
+28-15	2072-2074	än	_	_	_	_	_	_	_	
+28-16	2075-2076	6	_	_	_	_	_	_	_	
+28-17	2077-2084	månader	_	_	_	_	_	_	_	
+28-18	2084-2085	.	_	_	_	_	_	_	_	
+
+#Text=Det är nästan en tredubbling sedan regeringen tillträdde.
+29-1	2086-2089	Det	_	_	_	_	_	_	_	
+29-2	2090-2092	är	_	_	_	_	_	_	_	
+29-3	2093-2099	nästan	_	_	_	_	_	_	_	
+29-4	2100-2102	en	_	_	_	_	_	_	_	
+29-5	2103-2114	tredubbling	_	_	_	_	_	_	_	
+29-6	2115-2120	sedan	_	_	_	_	_	_	_	
+29-7	2121-2131	regeringen	_	_	_	_	_	_	_	
+29-8	2132-2142	tillträdde	_	_	_	_	_	_	_	
+29-9	2142-2143	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2145-2146	#	_	_	_	_	_	_	_	
+30-2	2146-2147	P	_	_	_	_	_	_	_	
+30-3	2148-2151	IMM	_	_	_	_	_	_	_	
+30-4	2151-2152	.	_	_	_	_	_	_	_	
+
+#Text=Regeringens arbetsmarknadsåtgärder, som döms ut av dess egen expertmyndighet, har visat sig verkningslösa.
+31-1	2154-2165	Regeringens	*[28]	_	_	_	_	_	_	
+31-2	2166-2188	arbetsmarknadsåtgärder	*[28]	_	_	_	_	_	_	
+31-3	2188-2189	,	_	_	_	_	_	_	_	
+31-4	2190-2193	som	_	_	_	_	_	_	_	
+31-5	2194-2198	döms	_	Target;Source[10]	31-1[28];31-8[29]	false[10]	1[10]	_	_	
+31-6	2199-2201	ut	_	Target;Source[10]	31-1[28];31-8[29]	false[10]	1[10]	_	_	
+31-7	2202-2204	av	_	Target;Source[10]	31-1[28];31-8[29]	false[10]	1[10]	_	_	
+31-8	2205-2209	dess	*[29]	_	_	_	_	_	_	
+31-9	2210-2214	egen	*[29]	_	_	_	_	_	_	
+31-10	2215-2230	expertmyndighet	*[29]	_	_	_	_	_	_	
+31-11	2230-2231	,	_	_	_	_	_	_	_	
+31-12	2232-2235	har	_	_	_	_	_	_	_	
+31-13	2236-2241	visat	_	_	_	_	_	_	_	
+31-14	2242-2245	sig	_	_	_	_	_	_	_	
+31-15	2246-2259	verkningslösa	_	_	_	_	_	_	_	
+31-16	2259-2260	.	_	_	_	_	_	_	_	
+
+#Text=Utbildningar kortas ner och blir till återvändsgränder när arbetsmarknaden efterfrågar fler och bättre utbildade unga.
+32-1	2261-2273	Utbildningar	_	_	_	_	_	_	_	
+32-2	2274-2280	kortas	_	_	_	_	_	_	_	
+32-3	2281-2284	ner	_	_	_	_	_	_	_	
+32-4	2285-2288	och	_	_	_	_	_	_	_	
+32-5	2289-2293	blir	_	_	_	_	_	_	_	
+32-6	2294-2298	till	_	_	_	_	_	_	_	
+32-7	2299-2315	återvändsgränder	_	_	_	_	_	_	_	
+32-8	2316-2319	när	_	_	_	_	_	_	_	
+32-9	2320-2335	arbetsmarknaden	_	_	_	_	_	_	_	
+32-10	2336-2347	efterfrågar	_	_	_	_	_	_	_	
+32-11	2348-2352	fler	_	_	_	_	_	_	_	
+32-12	2353-2356	och	_	_	_	_	_	_	_	
+32-13	2357-2363	bättre	_	_	_	_	_	_	_	
+32-14	2364-2373	utbildade	_	_	_	_	_	_	_	
+32-15	2374-2378	unga	_	_	_	_	_	_	_	
+32-16	2378-2379	.	_	_	_	_	_	_	_	
+
+#Text=Högskoleplatserna blir färre.
+33-1	2380-2397	Högskoleplatserna	_	_	_	_	_	_	_	
+33-2	2398-2402	blir	_	_	_	_	_	_	_	
+33-3	2403-2408	färre	_	_	_	_	_	_	_	
+33-4	2408-2409	.	_	_	_	_	_	_	_	
+
+#Text=Ungdomar bereds vägar som inte leder till arbete.
+34-1	2410-2418	Ungdomar	_	_	_	_	_	_	_	
+34-2	2419-2425	bereds	_	_	_	_	_	_	_	
+34-3	2426-2431	vägar	_	_	_	_	_	_	_	
+34-4	2432-2435	som	_	_	_	_	_	_	_	
+34-5	2436-2440	inte	_	_	_	_	_	_	_	
+34-6	2441-2446	leder	_	_	_	_	_	_	_	
+34-7	2447-2451	till	_	_	_	_	_	_	_	
+34-8	2452-2458	arbete	_	_	_	_	_	_	_	
+34-9	2458-2459	.	_	_	_	_	_	_	_	
+
+#Text=Finansministerns glädjekalkyler om en minskad arbetslöshet har återkommande reviderats om.
+35-1	2460-2476	Finansministerns	*	_	_	_	_	_	_	
+35-2	2477-2491	glädjekalkyler	*[30]	Source;Target[11]	35-1;35-2[30]	false[11]	5[11]	_	_	
+35-3	2492-2494	om	*[30]	Source;Target[11]	35-1;35-2[30]	false[11]	5[11]	_	_	
+35-4	2495-2497	en	*[30]	Source;Target[11]	35-1;35-2[30]	false[11]	5[11]	_	_	
+35-5	2498-2505	minskad	*[30]	Source;Target[11]	35-1;35-2[30]	false[11]	5[11]	_	_	
+35-6	2506-2518	arbetslöshet	*[30]	Source;Target[11]	35-1;35-2[30]	false[11]	5[11]	_	_	
+35-7	2519-2522	har	_	_	_	_	_	_	_	
+35-8	2523-2535	återkommande	_	_	_	_	_	_	_	
+35-9	2536-2546	reviderats	_	_	_	_	_	_	_	
+35-10	2547-2549	om	_	_	_	_	_	_	_	
+35-11	2549-2550	.	_	_	_	_	_	_	_	
+
+#Text=Inget tyder på att utvecklingen vänder.
+36-1	2551-2556	Inget	_	_	_	_	_	_	_	
+36-2	2557-2562	tyder	_	_	_	_	_	_	_	
+36-3	2563-2565	på	_	_	_	_	_	_	_	
+36-4	2566-2569	att	_	_	_	_	_	_	_	
+36-5	2570-2582	utvecklingen	_	_	_	_	_	_	_	
+36-6	2583-2589	vänder	_	_	_	_	_	_	_	
+36-7	2589-2590	.	_	_	_	_	_	_	_	
+
+#Text=Arbetslösheten är i dag högre än innan alliansen kom i regeringsställning och sysselsättningen har inte vuxit.
+37-1	2591-2605	Arbetslösheten	_	_	_	_	_	_	_	
+37-2	2606-2608	är	_	_	_	_	_	_	_	
+37-3	2609-2610	i	_	_	_	_	_	_	_	
+37-4	2611-2614	dag	_	_	_	_	_	_	_	
+37-5	2615-2620	högre	_	_	_	_	_	_	_	
+37-6	2621-2623	än	_	_	_	_	_	_	_	
+37-7	2624-2629	innan	_	_	_	_	_	_	_	
+37-8	2630-2639	alliansen	_	_	_	_	_	_	_	
+37-9	2640-2643	kom	_	_	_	_	_	_	_	
+37-10	2644-2645	i	_	_	_	_	_	_	_	
+37-11	2646-2664	regeringsställning	_	_	_	_	_	_	_	
+37-12	2665-2668	och	_	_	_	_	_	_	_	
+37-13	2669-2685	sysselsättningen	_	_	_	_	_	_	_	
+37-14	2686-2689	har	_	_	_	_	_	_	_	
+37-15	2690-2694	inte	_	_	_	_	_	_	_	
+37-16	2695-2700	vuxit	_	_	_	_	_	_	_	
+37-17	2700-2701	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+38-1	2703-2704	#	_	_	_	_	_	_	_	
+38-2	2704-2705	P	_	_	_	_	_	_	_	
+38-3	2706-2709	IMM	_	_	_	_	_	_	_	
+38-4	2709-2710	.	_	_	_	_	_	_	_	
+
+#Text=I veckan fick Sverige beröm av IMF för att vi haft god ordning i de offentliga finanserna.
+39-1	2712-2713	I	_	_	_	_	_	_	_	
+39-2	2714-2720	veckan	_	_	_	_	_	_	_	
+39-3	2721-2725	fick	_	_	_	false	5	_	_	
+39-4	2726-2733	Sverige	*	_	_	_	_	_	_	
+39-5	2734-2739	beröm	_	Target;Source[12]	39-4;39-7	false[12]	5[12]	39-3[0_12]	_	
+39-6	2740-2742	av	_	Target;Source[12]	39-4;39-7	false[12]	5[12]	_	_	
+39-7	2743-2746	IMF	*	_	_	_	_	_	_	
+39-8	2747-2750	för	_	_	_	_	_	_	_	
+39-9	2751-2754	att	_	_	_	_	_	_	_	
+39-10	2755-2757	vi	_	_	_	_	_	_	_	
+39-11	2758-2762	haft	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-12	2763-2766	god	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-13	2767-2774	ordning	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-14	2775-2776	i	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-15	2777-2779	de	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-16	2780-2790	offentliga	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-17	2791-2801	finanserna	*[31]	Target[13]	39-11[31]	false[13]	5[13]	_	_	
+39-18	2801-2802	.	_	_	_	_	_	_	_	
+
+#Text=Jag har också berömt Anders Borg för detta tidigare.
+40-1	2803-2806	Jag	*	_	_	_	_	_	_	
+40-2	2807-2810	har	_	_	_	false	5	_	_	
+40-3	2811-2816	också	_	_	_	_	_	_	_	
+40-4	2817-2823	berömt	_	Target;Source	40-5[32];40-1	false	5	40-2	_	
+40-5	2824-2830	Anders	*[32]	_	_	_	_	_	_	
+40-6	2831-2835	Borg	*[32]	_	_	_	_	_	_	
+40-7	2836-2839	för	_	_	_	_	_	_	_	
+40-8	2840-2845	detta	_	_	_	_	_	_	_	
+40-9	2846-2854	tidigare	_	_	_	_	_	_	_	
+40-10	2854-2855	.	_	_	_	_	_	_	_	
+
+#Text=Anledningen till att Sverige kan stoltsera med starka statsfinanser är att vi hittills följt budgetreglerna.
+41-1	2856-2867	Anledningen	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-2	2868-2872	till	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-3	2873-2876	att	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-4	2877-2884	Sverige	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-5	2885-2888	kan	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-6	2889-2898	stoltsera	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-7	2899-2902	med	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-8	2903-2909	starka	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-9	2910-2923	statsfinanser	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-10	2924-2926	är	_	Target[14]	41-11[33]	false[14]	5[14]	_	_	
+41-11	2927-2930	att	*[33]	_	_	_	_	_	_	
+41-12	2931-2933	vi	*[33]	_	_	_	_	_	_	
+41-13	2934-2942	hittills	*[33]	_	_	_	_	_	_	
+41-14	2943-2948	följt	*[33]	_	_	_	_	_	_	
+41-15	2949-2963	budgetreglerna	*[33]	_	_	_	_	_	_	
+41-16	2963-2964	.	_	_	_	_	_	_	_	
+
+#Text=Därför är det mycket oroväckande att regeringen nu ignorerar vårt ramverk.
+42-1	2965-2971	Därför	_	_	_	_	_	_	_	
+42-2	2972-2974	är	_	_	_	_	_	_	_	
+42-3	2975-2978	det	_	_	_	_	_	_	_	
+42-4	2979-2985	mycket	_	Target[15]	42-6[34]	false[15]	1[15]	_	_	
+42-5	2986-2997	oroväckande	_	Target[15]	42-6[34]	false[15]	1[15]	_	_	
+42-6	2998-3001	att	*[34]|*[35]	_	_	_	_	_	43-1[0_34]	
+42-7	3002-3012	regeringen	*[34]|*[35]	_	_	_	_	_	_	
+42-8	3013-3015	nu	*[34]|*[35]	_	_	_	_	_	_	
+42-9	3016-3025	ignorerar	*[34]|*[35]	_	_	_	_	_	_	
+42-10	3026-3030	vårt	*[34]|*[35]	_	_	_	_	_	_	
+42-11	3031-3038	ramverk	*[34]|*[35]	_	_	_	_	_	_	
+42-12	3038-3039	.	_	_	_	_	_	_	_	
+
+#Text=Detta äventyrar vår goda ordning – och är första steget mot att Sverige blir ett av de länder som IMF kritiserar i framtiden.
+43-1	3040-3045	Detta	*	_	_	_	_	_	_	
+43-2	3046-3055	äventyrar	_	Target[16]	43-1	false[16]	1[16]	_	_	
+43-3	3056-3059	vår	_	Target[16]	43-1	false[16]	1[16]	_	_	
+43-4	3060-3064	goda	_	Target[16]	43-1	false[16]	1[16]	_	_	
+43-5	3065-3072	ordning	_	Target[16]	43-1	false[16]	1[16]	_	_	
+43-6	3073-3074	–	_	_	_	_	_	_	_	
+43-7	3075-3078	och	_	_	_	_	_	_	_	
+43-8	3079-3081	är	_	_	_	_	_	_	_	
+43-9	3082-3088	första	_	_	_	_	_	_	_	
+43-10	3089-3095	steget	_	_	_	_	_	_	_	
+43-11	3096-3099	mot	_	_	_	_	_	_	_	
+43-12	3100-3103	att	_	_	_	_	_	_	_	
+43-13	3104-3111	Sverige	*	_	_	_	_	_	_	
+43-14	3112-3116	blir	_	_	_	_	_	_	_	
+43-15	3117-3120	ett	_	_	_	_	_	_	_	
+43-16	3121-3123	av	_	_	_	_	_	_	_	
+43-17	3124-3126	de	_	_	_	_	_	_	_	
+43-18	3127-3133	länder	_	_	_	_	_	_	_	
+43-19	3134-3137	som	_	_	_	_	_	_	_	
+43-20	3138-3141	IMF	*	_	_	_	_	_	_	
+43-21	3142-3152	kritiserar	_	Source;Target[17]	43-20;43-13	false[17]	1[17]	_	_	
+43-22	3153-3154	i	_	Source;Target[17]	43-20;43-13	false[17]	1[17]	_	_	
+43-23	3155-3164	framtiden	_	Source;Target[17]	43-20;43-13	false[17]	1[17]	_	_	
+43-24	3164-3165	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3167-3168	#	_	_	_	_	_	_	_	
+44-2	3168-3169	P	_	_	_	_	_	_	_	
+44-3	3170-3173	IMM	_	_	_	_	_	_	_	
+44-4	3173-3174	.	_	_	_	_	_	_	_	
+
+#Text=Det står sedan länge klart att regeringen misslyckas med jobben.
+45-1	3176-3179	Det	_	_	_	_	_	_	_	
+45-2	3180-3184	står	_	_	_	_	_	_	_	
+45-3	3185-3190	sedan	_	_	_	_	_	_	_	
+45-4	3191-3196	länge	_	_	_	_	_	_	_	
+45-5	3197-3202	klart	_	_	_	_	_	_	_	
+45-6	3203-3206	att	_	_	_	_	_	_	_	
+45-7	3207-3217	regeringen	*	_	_	_	_	_	_	
+45-8	3218-3228	misslyckas	_	Target[18]	45-7	false[18]	1[18]	_	_	
+45-9	3229-3232	med	_	Target[18]	45-7	false[18]	1[18]	_	_	
+45-10	3233-3239	jobben	_	Target[18]	45-7	false[18]	1[18]	_	_	
+45-11	3239-3240	.	_	_	_	_	_	_	_	
+
+#Text=För småpartiernas överlevnad släpper man nu också taget om den ekonomiska styråran och bryter mot budgetreglerna.
+46-1	3241-3244	För	_	_	_	_	_	_	_	
+46-2	3245-3258	småpartiernas	_	_	_	_	_	_	_	
+46-3	3259-3269	överlevnad	_	_	_	_	_	_	_	
+46-4	3270-3277	släpper	_	_	_	_	_	_	_	
+46-5	3278-3281	man	_	_	_	_	_	_	_	
+46-6	3282-3284	nu	_	_	_	_	_	_	_	
+46-7	3285-3290	också	_	_	_	_	_	_	_	
+46-8	3291-3296	taget	_	_	_	_	_	_	_	
+46-9	3297-3299	om	_	_	_	_	_	_	_	
+46-10	3300-3303	den	_	_	_	_	_	_	_	
+46-11	3304-3314	ekonomiska	_	_	_	_	_	_	_	
+46-12	3315-3323	styråran	_	_	_	_	_	_	_	
+46-13	3324-3327	och	_	_	_	_	_	_	_	
+46-14	3328-3334	bryter	_	_	_	_	_	_	_	
+46-15	3335-3338	mot	_	_	_	_	_	_	_	
+46-16	3339-3353	budgetreglerna	_	_	_	_	_	_	_	
+46-17	3353-3354	.	_	_	_	_	_	_	_	
+
+#Text=Ett återfall till den nonchalans som präglade budgetarbetet under det tidiga 90-talet kommer att då som nu få varaktigt negativa konsekvenser.
+47-1	3355-3358	Ett	*[36]	_	_	_	_	_	_	
+47-2	3359-3367	återfall	*[36]	_	_	_	_	_	_	
+47-3	3368-3372	till	*[36]	_	_	_	_	_	_	
+47-4	3373-3376	den	*[36]	_	_	_	_	_	_	
+47-5	3377-3387	nonchalans	*[36]	_	_	_	_	_	_	
+47-6	3388-3391	som	*[36]	_	_	_	_	_	_	
+47-7	3392-3400	präglade	*[36]	_	_	_	_	_	_	
+47-8	3401-3414	budgetarbetet	*[36]	_	_	_	_	_	_	
+47-9	3415-3420	under	*[36]	_	_	_	_	_	_	
+47-10	3421-3424	det	*[36]	_	_	_	_	_	_	
+47-11	3425-3431	tidiga	*[36]	_	_	_	_	_	_	
+47-12	3432-3434	90	*[36]	_	_	_	_	_	_	
+47-13	3434-3435	-	*[36]	_	_	_	_	_	_	
+47-14	3435-3440	talet	*[36]	_	_	_	_	_	_	
+47-15	3441-3447	kommer	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-16	3448-3451	att	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-17	3452-3454	då	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-18	3455-3458	som	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-19	3459-3461	nu	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-20	3462-3464	få	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-21	3465-3474	varaktigt	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-22	3475-3483	negativa	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-23	3484-3496	konsekvenser	_	Target[19]	47-1[36]	false[19]	1[19]	_	_	
+47-24	3496-3497	.	_	_	_	_	_	_	_	
+
+#Text=Inte minst för landets unga arbetslösa.
+48-1	3498-3502	Inte	_	_	_	_	_	_	_	
+48-2	3503-3508	minst	_	_	_	_	_	_	_	
+48-3	3509-3512	för	_	_	_	_	_	_	_	
+48-4	3513-3520	landets	_	_	_	_	_	_	_	
+48-5	3521-3525	unga	_	_	_	_	_	_	_	
+48-6	3526-3536	arbetslösa	_	_	_	_	_	_	_	
+48-7	3536-3537	.	_	_	_	_	_	_	_	
+
+#Text=Deras framtidsscenario målas nu allt dystrare då borgerliga ränder aldrig tycks gå ur.
+49-1	3538-3543	Deras	*[37]	_	_	_	_	_	_	
+49-2	3544-3560	framtidsscenario	*[37]	_	_	_	_	_	_	
+49-3	3561-3566	målas	_	_	_	_	_	_	_	
+49-4	3567-3569	nu	_	_	_	_	_	_	_	
+49-5	3570-3574	allt	_	Target[20]	49-1[37]	false[20]	1[20]	_	_	
+49-6	3575-3583	dystrare	_	Target[20]	49-1[37]	false[20]	1[20]	_	_	
+49-7	3584-3586	då	_	_	_	_	_	_	_	
+49-8	3587-3597	borgerliga	_	_	_	_	_	_	_	
+49-9	3598-3604	ränder	_	_	_	_	_	_	_	
+49-10	3605-3611	aldrig	_	_	_	_	_	_	_	
+49-11	3612-3617	tycks	_	_	_	_	_	_	_	
+49-12	3618-3620	gå	_	_	_	_	_	_	_	
+49-13	3621-3623	ur	_	_	_	_	_	_	_	
+49-14	3623-3624	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	3626-3627	#	_	_	_	_	_	_	_	
+50-2	3627-3628	P	_	_	_	_	_	_	_	
+50-3	3629-3632	IMM	_	_	_	_	_	_	_	
+50-4	3632-3633	.	_	_	_	_	_	_	_	
+
+#Text=Fredrik Olovsson.
+51-1	3635-3642	Fredrik	_	_	_	_	_	_	_	
+51-2	3643-3651	Olovsson	_	_	_	_	_	_	_	
+51-3	3651-3652	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3654-3655	#	_	_	_	_	_	_	_	
+52-2	3655-3656	P	_	_	_	_	_	_	_	
+52-3	3657-3660	IMM	_	_	_	_	_	_	_	
+52-4	3660-3661	.	_	_	_	_	_	_	_	
+
+#Text=FAKTA.
+53-1	3663-3668	FAKTA	_	_	_	_	_	_	_	
+53-2	3668-3669	.	_	_	_	_	_	_	_	

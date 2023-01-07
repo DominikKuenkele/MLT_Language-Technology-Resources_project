@@ -1,0 +1,309 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Hur kan allt detta djurplågeri få förekomma?
+3-1	18-21	Hur	_	_	_	_	_	_	_	
+3-2	22-25	kan	_	_	_	_	_	_	_	
+3-3	26-30	allt	_	_	_	_	_	_	_	
+3-4	31-36	detta	_	_	_	_	_	_	_	
+3-5	37-48	djurplågeri	_	_	_	_	_	_	_	
+3-6	49-51	få	_	_	_	_	_	_	_	
+3-7	52-61	förekomma	_	_	_	_	_	_	_	
+3-8	61-62	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	64-65	#	_	_	_	_	_	_	_	
+4-2	65-66	P	_	_	_	_	_	_	_	
+4-3	67-70	IMM	_	_	_	_	_	_	_	
+4-4	70-71	.	_	_	_	_	_	_	_	
+
+#Text=Jag lyssnade på "Ring P1" häromdagen.
+5-1	73-76	Jag	_	_	_	_	_	_	_	
+5-2	77-85	lyssnade	_	_	_	_	_	_	_	
+5-3	86-88	på	_	_	_	_	_	_	_	
+5-4	89-90	"	_	_	_	_	_	_	_	
+5-5	90-94	Ring	_	_	_	_	_	_	_	
+5-6	95-97	P1	_	_	_	_	_	_	_	
+5-7	97-98	"	_	_	_	_	_	_	_	
+5-8	99-109	häromdagen	_	_	_	_	_	_	_	
+5-9	109-110	.	_	_	_	_	_	_	_	
+
+#Text=Det var en dam som ringde in och var mycket upprörd över hur fåglarna behandlas som drabbats av influensaviruset.
+6-1	111-114	Det	_	_	_	_	_	_	_	
+6-2	115-118	var	_	_	_	_	_	_	_	
+6-3	119-121	en	*[7]	_	_	_	_	_	_	
+6-4	122-125	dam	*[7]	_	_	_	_	_	_	
+6-5	126-129	som	_	_	_	_	_	_	_	
+6-6	130-136	ringde	_	_	_	_	_	_	_	
+6-7	137-139	in	_	_	_	_	_	_	_	
+6-8	140-143	och	_	_	_	_	_	_	_	
+6-9	144-147	var	_	_	_	_	_	_	_	
+6-10	148-154	mycket	_	Target;Source[1]	6-13[8];6-3[7]	false[1]	1[1]	_	_	
+6-11	155-162	upprörd	_	Target;Source[1]	6-13[8];6-3[7]	false[1]	1[1]	_	_	
+6-12	163-167	över	_	Target;Source[1]	6-13[8];6-3[7]	false[1]	1[1]	_	_	
+6-13	168-171	hur	*[8]	_	_	_	_	_	_	
+6-14	172-180	fåglarna	*[8]	_	_	_	_	_	_	
+6-15	181-190	behandlas	*[8]	_	_	_	_	_	_	
+6-16	191-194	som	*[8]	_	_	_	_	_	_	
+6-17	195-203	drabbats	*[8]	_	_	_	_	_	_	
+6-18	204-206	av	*[8]	_	_	_	_	_	_	
+6-19	207-223	influensaviruset	*[8]	_	_	_	_	_	_	
+6-20	223-224	.	_	_	_	_	_	_	_	
+
+#Text=De läggs levande i massgravar och slängs levande in i brännugnar.
+7-1	225-227	De	*[9]	_	_	_	_	_	9-1[0_9]	
+7-2	228-233	läggs	*[9]	_	_	_	_	_	_	
+7-3	234-241	levande	*[9]	_	_	_	_	_	_	
+7-4	242-243	i	*[9]	_	_	_	_	_	_	
+7-5	244-254	massgravar	*[9]	_	_	_	_	_	_	
+7-6	255-258	och	*[9]	_	_	_	_	_	_	
+7-7	259-265	slängs	*[9]	_	_	_	_	_	_	
+7-8	266-273	levande	*[9]	_	_	_	_	_	_	
+7-9	274-276	in	*[9]	_	_	_	_	_	_	
+7-10	277-278	i	*[9]	_	_	_	_	_	_	
+7-11	279-289	brännugnar	*[9]	_	_	_	_	_	_	
+7-12	289-290	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	292-293	#	_	_	_	_	_	_	_	
+8-2	293-294	P	_	_	_	_	_	_	_	
+8-3	295-298	IMM	_	_	_	_	_	_	_	
+8-4	298-299	.	_	_	_	_	_	_	_	
+
+#Text=Det är rent förskräckligt.
+9-1	301-304	Det	*	_	_	_	_	_	_	
+9-2	305-307	är	_	_	_	_	_	_	_	
+9-3	308-312	rent	_	Target[2]	9-1	false[2]	1[2]	_	_	
+9-4	313-326	förskräckligt	_	Target[2]	9-1	false[2]	1[2]	_	_	
+9-5	326-327	.	_	_	_	_	_	_	_	
+
+#Text=Jag har faktiskt slutat titta på inslagen om fågelinfluensen på grund av allt djurplågeri som ständigt visas i rutan.
+10-1	328-331	Jag	_	_	_	_	_	_	_	
+10-2	332-335	har	_	_	_	_	_	_	_	
+10-3	336-344	faktiskt	_	_	_	_	_	_	_	
+10-4	345-351	slutat	_	_	_	_	_	_	_	
+10-5	352-357	titta	_	_	_	_	_	_	_	
+10-6	358-360	på	_	_	_	_	_	_	_	
+10-7	361-369	inslagen	_	_	_	_	_	_	_	
+10-8	370-372	om	_	_	_	_	_	_	_	
+10-9	373-388	fågelinfluensen	_	_	_	_	_	_	_	
+10-10	389-391	på	_	_	_	_	_	_	_	
+10-11	392-397	grund	_	_	_	_	_	_	_	
+10-12	398-400	av	_	_	_	_	_	_	_	
+10-13	401-405	allt	_	_	_	_	_	_	_	
+10-14	406-417	djurplågeri	_	_	_	_	_	_	_	
+10-15	418-421	som	_	_	_	_	_	_	_	
+10-16	422-430	ständigt	_	_	_	_	_	_	_	
+10-17	431-436	visas	_	_	_	_	_	_	_	
+10-18	437-438	i	_	_	_	_	_	_	_	
+10-19	439-444	rutan	_	_	_	_	_	_	_	
+10-20	444-445	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	447-448	#	_	_	_	_	_	_	_	
+11-2	448-449	P	_	_	_	_	_	_	_	
+11-3	450-453	IMM	_	_	_	_	_	_	_	
+11-4	453-454	.	_	_	_	_	_	_	_	
+
+#Text=Det är märkligt att människan som ändå ska ha förnuftet är så okänslig, grym och brutal mot levande varelser.
+12-1	456-459	Det	_	_	_	_	_	_	_	
+12-2	460-462	är	_	_	_	_	_	_	_	
+12-3	463-471	märkligt	_	_	_	_	_	_	_	
+12-4	472-475	att	_	_	_	_	_	_	_	
+12-5	476-485	människan	*	_	_	_	_	_	_	
+12-6	486-489	som	_	_	_	_	_	_	_	
+12-7	490-494	ändå	_	_	_	_	_	_	_	
+12-8	495-498	ska	_	_	_	_	_	_	_	
+12-9	499-501	ha	_	_	_	_	_	_	_	
+12-10	502-511	förnuftet	_	_	_	_	_	_	_	
+12-11	512-514	är	_	_	_	_	_	_	_	
+12-12	515-517	så	_	_	_	_	_	_	_	
+12-13	518-526	okänslig	_	Target	12-5	false	2	_	_	
+12-14	526-527	,	_	_	_	_	_	_	_	
+12-15	528-532	grym	_	Target	12-5	false	1	_	_	
+12-16	533-536	och	_	_	_	_	_	_	_	
+12-17	537-543	brutal	_	Target	12-5	false	1	_	_	
+12-18	544-547	mot	_	_	_	_	_	_	_	
+12-19	548-555	levande	_	_	_	_	_	_	_	
+12-20	556-564	varelser	_	_	_	_	_	_	_	
+12-21	564-565	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	567-568	#	_	_	_	_	_	_	_	
+13-2	568-569	P	_	_	_	_	_	_	_	
+13-3	570-573	IMM	_	_	_	_	_	_	_	
+13-4	573-574	.	_	_	_	_	_	_	_	
+
+#Text=Jag tycker det tyder på dumhet.
+14-1	576-579	Jag	_	_	_	_	_	_	_	
+14-2	580-586	tycker	_	_	_	_	_	_	_	
+14-3	587-590	det	_	_	_	_	_	_	_	
+14-4	591-596	tyder	_	_	_	_	_	_	_	
+14-5	597-599	på	_	_	_	_	_	_	_	
+14-6	600-606	dumhet	*	Target	14-6	false	2	_	_	
+14-7	606-607	.	_	_	_	_	_	_	_	
+
+#Text=Det ska påpekas att vi är inte är bättre i Sverige.
+15-1	608-611	Det	_	_	_	_	_	_	_	
+15-2	612-615	ska	_	_	_	_	_	_	_	
+15-3	616-623	påpekas	_	_	_	_	_	_	_	
+15-4	624-627	att	_	_	_	_	_	_	_	
+15-5	628-630	vi	*	_	_	_	_	_	15-10[10_0]	
+15-6	631-633	är	_	_	_	_	_	_	_	
+15-7	634-638	inte	_	Target[3]	15-5	false[3]	2[3]	_	_	
+15-8	639-641	är	_	Target[3]	15-5	false[3]	2[3]	_	_	
+15-9	642-648	bättre	_	Target[3]	15-5	false[3]	2[3]	_	_	
+15-10	649-650	i	*[10]	_	_	_	_	_	_	
+15-11	651-658	Sverige	*[10]	_	_	_	_	_	_	
+15-12	658-659	.	_	_	_	_	_	_	_	
+
+#Text=Nyligen kom en larmrapport om att många slakterier skållar grisarna levande.
+16-1	660-667	Nyligen	_	_	_	_	_	_	_	
+16-2	668-671	kom	_	_	_	_	_	_	_	
+16-3	672-674	en	_	_	_	_	_	_	_	
+16-4	675-686	larmrapport	_	_	_	_	_	_	_	
+16-5	687-689	om	_	_	_	_	_	_	_	
+16-6	690-693	att	_	_	_	_	_	_	_	
+16-7	694-699	många	_	_	_	_	_	_	_	
+16-8	700-710	slakterier	_	_	_	_	_	_	_	
+16-9	711-718	skållar	_	_	_	_	_	_	_	
+16-10	719-727	grisarna	_	_	_	_	_	_	_	
+16-11	728-735	levande	_	_	_	_	_	_	_	
+16-12	735-736	.	_	_	_	_	_	_	_	
+
+#Text=Hur kan det få förekomma?.
+17-1	737-740	Hur	_	_	_	_	_	_	_	
+17-2	741-744	kan	_	_	_	_	_	_	_	
+17-3	745-748	det	_	_	_	_	_	_	_	
+17-4	749-751	få	_	_	_	_	_	_	_	
+17-5	752-761	förekomma	_	_	_	_	_	_	_	
+17-6	761-762	?	_	_	_	_	_	_	_	
+17-7	762-763	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	765-766	#	_	_	_	_	_	_	_	
+18-2	766-767	P	_	_	_	_	_	_	_	
+18-3	768-771	IMM	_	_	_	_	_	_	_	
+18-4	771-772	.	_	_	_	_	_	_	_	
+
+#Text=Allt levande bör behandlas med respekt.
+19-1	774-778	Allt	*[11]	_	_	_	_	_	_	
+19-2	779-786	levande	*[11]	_	_	_	_	_	_	
+19-3	787-790	bör	_	Target[4]	19-1[11]	false[4]	4[4]	_	_	
+19-4	791-800	behandlas	_	Target[4]	19-1[11]	false[4]	4[4]	_	_	
+19-5	801-804	med	_	Target[4]	19-1[11]	false[4]	4[4]	_	_	
+19-6	805-812	respekt	_	Target[4]	19-1[11]	false[4]	4[4]	_	_	
+19-7	812-813	.	_	_	_	_	_	_	_	
+
+#Text=Tappar man förståelsen för att även ett djur kan känna både smärta och rädsla då är man nog illa ute.
+20-1	814-820	Tappar	*[12]	_	_	_	_	_	_	
+20-2	821-824	man	*[12]	_	_	_	_	_	_	
+20-3	825-836	förståelsen	*[12]	_	_	_	_	_	_	
+20-4	837-840	för	*[12]	_	_	_	_	_	_	
+20-5	841-844	att	*[12]	_	_	_	_	_	_	
+20-6	845-849	även	*[12]	_	_	_	_	_	_	
+20-7	850-853	ett	*[12]	_	_	_	_	_	_	
+20-8	854-858	djur	*[12]	_	_	_	_	_	_	
+20-9	859-862	kan	*[12]	_	_	_	_	_	_	
+20-10	863-868	känna	*[12]	_	_	_	_	_	_	
+20-11	869-873	både	*[12]	_	_	_	_	_	_	
+20-12	874-880	smärta	*[12]	_	_	_	_	_	_	
+20-13	881-884	och	*[12]	_	_	_	_	_	_	
+20-14	885-891	rädsla	*[12]	_	_	_	_	_	_	
+20-15	892-894	då	_	_	_	_	_	_	_	
+20-16	895-897	är	_	Target[5]	20-1[12]	false[5]	2[5]	_	_	
+20-17	898-901	man	_	Target[5]	20-1[12]	false[5]	2[5]	_	_	
+20-18	902-905	nog	_	_	_	_	_	_	_	
+20-19	906-910	illa	_	_[6]	_	false[6]	2[6]	20-16[5_6]	_	
+20-20	911-914	ute	_	_[6]	_	false[6]	2[6]	_	_	
+20-21	914-915	.	_	_	_	_	_	_	_	
+
+#Text=Då är inte steget långt till att den känslomässiga avtrubbningen också kan infinna sig när det gäller människor.
+21-1	916-918	Då	_	_	_	_	_	_	_	
+21-2	919-921	är	_	_	_	_	_	_	_	
+21-3	922-926	inte	_	_	_	_	_	_	_	
+21-4	927-933	steget	_	_	_	_	_	_	_	
+21-5	934-939	långt	_	_	_	_	_	_	_	
+21-6	940-944	till	_	_	_	_	_	_	_	
+21-7	945-948	att	_	_	_	_	_	_	_	
+21-8	949-952	den	_	_	_	_	_	_	_	
+21-9	953-966	känslomässiga	_	_	_	_	_	_	_	
+21-10	967-980	avtrubbningen	_	_	_	_	_	_	_	
+21-11	981-986	också	_	_	_	_	_	_	_	
+21-12	987-990	kan	_	_	_	_	_	_	_	
+21-13	991-998	infinna	_	_	_	_	_	_	_	
+21-14	999-1002	sig	_	_	_	_	_	_	_	
+21-15	1003-1006	när	_	_	_	_	_	_	_	
+21-16	1007-1010	det	_	_	_	_	_	_	_	
+21-17	1011-1017	gäller	_	_	_	_	_	_	_	
+21-18	1018-1027	människor	_	_	_	_	_	_	_	
+21-19	1027-1028	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1030-1031	#	_	_	_	_	_	_	_	
+22-2	1031-1032	P	_	_	_	_	_	_	_	
+22-3	1033-1036	IMM	_	_	_	_	_	_	_	
+22-4	1036-1037	.	_	_	_	_	_	_	_	
+
+#Text=Respekt bör vara ledord för alla i kontakten med levande varelser.
+23-1	1039-1046	Respekt	_	Target	23-10[13]	false	4	_	_	
+23-2	1047-1050	bör	_	_	_	_	_	_	_	
+23-3	1051-1055	vara	_	_	_	_	_	_	_	
+23-4	1056-1062	ledord	*	Target	23-4	false	4	_	_	
+23-5	1063-1066	för	_	_	_	_	_	_	_	
+23-6	1067-1071	alla	_	_	_	_	_	_	_	
+23-7	1072-1073	i	_	_	_	_	_	_	_	
+23-8	1074-1083	kontakten	_	_	_	_	_	_	_	
+23-9	1084-1087	med	_	_	_	_	_	_	_	
+23-10	1088-1095	levande	*[13]	_	_	_	_	_	_	
+23-11	1096-1104	varelser	*[13]	_	_	_	_	_	_	
+23-12	1104-1105	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1107-1108	#	_	_	_	_	_	_	_	
+24-2	1108-1109	P	_	_	_	_	_	_	_	
+24-3	1110-1113	IMM	_	_	_	_	_	_	_	
+24-4	1113-1114	.	_	_	_	_	_	_	_	
+
+#Text=Vad tycker ni?
+25-1	1116-1119	Vad	_	_	_	_	_	_	_	
+25-2	1120-1126	tycker	_	_	_	_	_	_	_	
+25-3	1127-1129	ni	_	_	_	_	_	_	_	
+25-4	1129-1130	?	_	_	_	_	_	_	_	
+
+#Text=Mejla oss: [email protected].
+26-1	1131-1136	Mejla	_	_	_	_	_	_	_	
+26-2	1137-1140	oss	_	_	_	_	_	_	_	
+26-3	1140-1141	:	_	_	_	_	_	_	_	
+26-4	1142-1143	[	_	_	_	_	_	_	_	
+26-5	1143-1148	email	_	_	_	_	_	_	_	
+26-6	1149-1158	protected	_	_	_	_	_	_	_	
+26-7	1158-1159	]	_	_	_	_	_	_	_	
+26-8	1159-1160	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1162-1163	#	_	_	_	_	_	_	_	
+27-2	1163-1164	P	_	_	_	_	_	_	_	
+27-3	1165-1168	IMM	_	_	_	_	_	_	_	
+27-4	1168-1169	.	_	_	_	_	_	_	_	
+
+#Text=Lotta Gröning.
+28-1	1171-1176	Lotta	_	_	_	_	_	_	_	
+28-2	1177-1184	Gröning	_	_	_	_	_	_	_	
+28-3	1184-1185	.	_	_	_	_	_	_	_	

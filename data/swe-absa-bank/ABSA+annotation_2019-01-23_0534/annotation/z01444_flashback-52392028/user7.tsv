@@ -1,0 +1,73 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Muslim går på stan med dold kamera - utstår rasism.
+3-1	18-24	Muslim	_	_	_	_	_	_	
+3-2	25-28	går	_	_	_	_	_	_	
+3-3	29-31	på	_	_	_	_	_	_	
+3-4	32-36	stan	_	_	_	_	_	_	
+3-5	37-40	med	_	_	_	_	_	_	
+3-6	41-45	dold	_	_	_	_	_	_	
+3-7	46-52	kamera	_	_	_	_	_	_	
+3-8	53-54	-	_	_	_	_	_	_	
+3-9	55-61	utstår	_	_	_	_	_	_	
+3-10	62-68	rasism	*	Target	3-10	false	1	_	
+3-11	68-69	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	71-72	#	_	_	_	_	_	_	
+4-2	72-73	P	_	_	_	_	_	_	
+4-3	74-77	IMM	_	_	_	_	_	_	
+4-4	77-78	.	_	_	_	_	_	_	
+
+#Text=En egyptisk student går runt på stan klädd som imam ett par timmar och utstår rasism.
+5-1	80-82	En	_	_	_	_	_	_	
+5-2	83-91	egyptisk	_	_	_	_	_	_	
+5-3	92-99	student	_	_	_	_	_	_	
+5-4	100-103	går	_	_	_	_	_	_	
+5-5	104-108	runt	_	_	_	_	_	_	
+5-6	109-111	på	_	_	_	_	_	_	
+5-7	112-116	stan	_	_	_	_	_	_	
+5-8	117-122	klädd	_	_	_	_	_	_	
+5-9	123-126	som	_	_	_	_	_	_	
+5-10	127-131	imam	_	_	_	_	_	_	
+5-11	132-135	ett	_	_	_	_	_	_	
+5-12	136-139	par	_	_	_	_	_	_	
+5-13	140-146	timmar	_	_	_	_	_	_	
+5-14	147-150	och	_	_	_	_	_	_	
+5-15	151-157	utstår	_	_	_	_	_	_	
+5-16	158-164	rasism	*	Target	5-16	false	1	_	
+5-17	164-165	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	167-168	#	_	_	_	_	_	_	
+6-2	168-169	P	_	_	_	_	_	_	
+6-3	170-173	IMM	_	_	_	_	_	_	
+6-4	173-174	.	_	_	_	_	_	_	
+
+#Text=Är det rätt att håna muslimer på stan?.
+7-1	176-178	Är	_	_	_	false	4	_	
+7-2	179-182	det	_	_	_	_	_	_	
+7-3	183-187	rätt	_	Target	7-4[1]	false	4	7-1	
+7-4	188-191	att	*[1]	_	_	_	_	_	
+7-5	192-196	håna	*[1]	_	_	_	_	_	
+7-6	197-205	muslimer	*[1]	_	_	_	_	_	
+7-7	206-208	på	*[1]	_	_	_	_	_	
+7-8	209-213	stan	*[1]	_	_	_	_	_	
+7-9	213-214	?	_	_	_	_	_	_	
+7-10	214-215	.	_	_	_	_	_	_	

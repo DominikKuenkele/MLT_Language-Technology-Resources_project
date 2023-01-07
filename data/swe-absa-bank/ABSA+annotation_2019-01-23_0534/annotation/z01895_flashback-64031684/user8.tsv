@@ -1,0 +1,262 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Vad gör vi om SD blir utfrysta i fyra år till?
+3-1	18-21	Vad	_	_	_	_	_	_	_	
+3-2	22-25	gör	_	_	_	_	_	_	_	
+3-3	26-28	vi	_	_	_	_	_	_	_	
+3-4	29-31	om	_	_	_	_	_	_	_	
+3-5	32-34	SD	_	_	_	_	_	_	_	
+3-6	35-39	blir	_	_[1]	_	false[1]	1[1]	_	_	
+3-7	40-48	utfrysta	_	_[1]	_	false[1]	1[1]	_	_	
+3-8	49-50	i	_	_	_	_	_	_	_	
+3-9	51-55	fyra	_	_	_	_	_	_	_	
+3-10	56-58	år	_	_	_	_	_	_	_	
+3-11	59-63	till	_	_	_	_	_	_	_	
+3-12	63-64	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	66-67	#	_	_	_	_	_	_	_	
+4-2	67-68	P	_	_	_	_	_	_	_	
+4-3	69-72	IMM	_	_	_	_	_	_	_	
+4-4	72-73	.	_	_	_	_	_	_	_	
+
+#Text=Ta det som en seriös fråga.
+5-1	75-77	Ta	_	_	_	_	_	_	_	
+5-2	78-81	det	_	_	_	_	_	_	_	
+5-3	82-85	som	_	_	_	_	_	_	_	
+5-4	86-88	en	_	_	_	_	_	_	_	
+5-5	89-95	seriös	_	_	_	_	_	_	_	
+5-6	96-101	fråga	_	_	_	_	_	_	_	
+5-7	101-102	.	_	_	_	_	_	_	_	
+
+#Text=Vi är många som vill ha SDs politik och därför röstar vi på dem.
+6-1	103-105	Vi	*[10]	_	_	_	_	_	_	
+6-2	106-108	är	*[10]	_	_	_	_	_	_	
+6-3	109-114	många	*[10]	_	_	_	_	_	_	
+6-4	115-118	som	_	_	_	_	_	_	_	
+6-5	119-123	vill	_	Source;Target[2]	6-1[10];6-7[11]	false[2]	4[2]	_	_	
+6-6	124-126	ha	_	Source;Target[2]	6-1[10];6-7[11]	false[2]	4[2]	_	_	
+6-7	127-130	SDs	*[11]	_	_	_	_	_	_	
+6-8	131-138	politik	*[11]	_	_	_	_	_	_	
+6-9	139-142	och	_	_	_	_	_	_	_	
+6-10	143-149	därför	_	_	_	_	_	_	_	
+6-11	150-156	röstar	_	_	_	_	_	_	_	
+6-12	157-159	vi	_	_	_	_	_	_	_	
+6-13	160-162	på	_	_	_	_	_	_	_	
+6-14	163-166	dem	_	_	_	_	_	_	_	
+6-15	166-167	.	_	_	_	_	_	_	_	
+
+#Text=Om sedan alla andra riksdagspartier väljer att frysa ut SD så glömmer de att med detta så säger de till oss som faktiskt röstar på sd att våra röster inte ska räknas.
+7-1	168-170	Om	_	_	_	_	_	_	_	
+7-2	171-176	sedan	_	_	_	_	_	_	_	
+7-3	177-181	alla	*[12]	_	_	_	_	_	7-19[0_12]	
+7-4	182-187	andra	*[12]	_	_	_	_	_	_	
+7-5	188-203	riksdagspartier	*[12]	_	_	_	_	_	_	
+7-6	204-210	väljer	_	Source;Target[3]	7-3[12];7-10	false[3]	1[3]	_	_	
+7-7	211-214	att	_	Source;Target[3]	7-3[12];7-10	false[3]	1[3]	_	_	
+7-8	215-220	frysa	_	Source;Target[3]	7-3[12];7-10	false[3]	1[3]	_	_	
+7-9	221-223	ut	_	Source;Target[3]	7-3[12];7-10	false[3]	1[3]	_	_	
+7-10	224-226	SD	*	_	_	_	_	_	_	
+7-11	227-229	så	_	_	_	_	_	_	_	
+7-12	230-237	glömmer	_	_	_	_	_	_	_	
+7-13	238-240	de	_	_	_	_	_	_	_	
+7-14	241-244	att	_	_	_	_	_	_	_	
+7-15	245-248	med	_	_	_	_	_	_	_	
+7-16	249-254	detta	_	_	_	_	_	_	_	
+7-17	255-257	så	_	_	_	_	_	_	_	
+7-18	258-263	säger	_	_	_	_	_	_	_	
+7-19	264-266	de	*	_	_	_	_	_	_	
+7-20	267-271	till	_	_	_	_	_	_	_	
+7-21	272-275	oss	_	_	_	_	_	_	_	
+7-22	276-279	som	_	_	_	_	_	_	_	
+7-23	280-288	faktiskt	_	_	_	_	_	_	_	
+7-24	289-295	röstar	_	_	_	_	_	_	_	
+7-25	296-298	på	_	_	_	_	_	_	_	
+7-26	299-301	sd	_	_	_	_	_	_	_	
+7-27	302-305	att	_	_	_	_	_	_	_	
+7-28	306-310	våra	*[13]	_	_	_	_	_	_	
+7-29	311-317	röster	*[13]	_	_	_	_	_	_	
+7-30	318-322	inte	_	Source;Target[4]	7-19;7-28[13]	false[4]	2[4]	_	_	
+7-31	323-326	ska	_	Source;Target[4]	7-19;7-28[13]	false[4]	2[4]	_	_	
+7-32	327-333	räknas	_	Source;Target[4]	7-19;7-28[13]	false[4]	2[4]	_	_	
+7-33	333-334	.	_	_	_	_	_	_	_	
+
+#Text=Men vad händer med rättigheter att kunna påverka politiskt?
+8-1	335-338	Men	_	_	_	_	_	_	_	
+8-2	339-342	vad	_	_	_	_	_	_	_	
+8-3	343-349	händer	_	_	_	_	_	_	_	
+8-4	350-353	med	_	_	_	_	_	_	_	
+8-5	354-365	rättigheter	_	_	_	_	_	_	_	
+8-6	366-369	att	_	_	_	_	_	_	_	
+8-7	370-375	kunna	_	_	_	_	_	_	_	
+8-8	376-383	påverka	_	_	_	_	_	_	_	
+8-9	384-393	politiskt	_	_	_	_	_	_	_	
+8-10	393-394	?	_	_	_	_	_	_	_	
+
+#Text=För det är väl överenskommelsen i ett demokratiskt samhälle, att vi kan påverka genom fria och demokratiska val.
+9-1	395-398	För	_	_	_	_	_	_	_	
+9-2	399-402	det	_	_	_	_	_	_	_	
+9-3	403-405	är	_	_	_	_	_	_	_	
+9-4	406-409	väl	_	_	_	_	_	_	_	
+9-5	410-426	överenskommelsen	_	_	_	_	_	_	_	
+9-6	427-428	i	_	_	_	_	_	_	_	
+9-7	429-432	ett	_	_	_	_	_	_	_	
+9-8	433-445	demokratiskt	_	_	_	_	_	_	_	
+9-9	446-454	samhälle	_	_	_	_	_	_	_	
+9-10	454-455	,	_	_	_	_	_	_	_	
+9-11	456-459	att	_	_	_	_	_	_	_	
+9-12	460-462	vi	_	_	_	_	_	_	_	
+9-13	463-466	kan	_	_[5]	_	false[5]	4[5]	_	_	
+9-14	467-474	påverka	_	_[5]	_	false[5]	4[5]	_	_	
+9-15	475-480	genom	_	_[5]	_	false[5]	4[5]	_	_	
+9-16	481-485	fria	_	_[5]	_	false[5]	4[5]	_	_	
+9-17	486-489	och	_	_[5]	_	false[5]	4[5]	_	_	
+9-18	490-502	demokratiska	_	_[5]	_	false[5]	4[5]	_	_	
+9-19	503-506	val	_	_[5]	_	false[5]	4[5]	_	_	
+9-20	506-507	.	_	_	_	_	_	_	_	
+
+#Text=Bryter exempelvis sossarna mot den överenskommelsen så gäller inte de andra spelreglerna heller, eller?.
+10-1	508-514	Bryter	_	Source;Target	10-16[16];10-2[14]	false	2	_	_	
+10-2	515-525	exempelvis	*[14]|*[15]	_	_	_	_	_	_	
+10-3	526-534	sossarna	*[14]|*[15]	_	_	_	_	_	_	
+10-4	535-538	mot	_	Target;Source[6]	10-2[15];10-16[17]	false[6]	2[6]	10-1[0_6]	_	
+10-5	539-542	den	_	Target;Source[6]	10-2[15];10-16[17]	false[6]	2[6]	_	_	
+10-6	543-559	överenskommelsen	_	Target;Source[6]	10-2[15];10-16[17]	false[6]	2[6]	_	_	
+10-7	560-562	så	_	_	_	_	_	_	_	
+10-8	563-569	gäller	_	_	_	_	_	_	_	
+10-9	570-574	inte	_	_	_	_	_	_	_	
+10-10	575-577	de	_	_	_	_	_	_	_	
+10-11	578-583	andra	_	_	_	_	_	_	_	
+10-12	584-596	spelreglerna	_	_	_	_	_	_	_	
+10-13	597-603	heller	_	_	_	_	_	_	_	
+10-14	603-604	,	_	_	_	_	_	_	_	
+10-15	605-610	eller	_	_	_	_	_	_	_	
+10-16	610-611	?	*[16]|*[17]	_	_	_	_	_	_	
+10-17	611-612	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	614-615	#	_	_	_	_	_	_	_	
+11-2	615-616	P	_	_	_	_	_	_	_	
+11-3	617-620	IMM	_	_	_	_	_	_	_	
+11-4	620-621	.	_	_	_	_	_	_	_	
+
+#Text=Jag kan förstå att ett parti som har 13-14% inte har supermycket att säga till om.
+12-1	623-626	Jag	_	_	_	_	_	_	_	
+12-2	627-630	kan	_	_	_	_	_	_	_	
+12-3	631-637	förstå	_	_	_	_	_	_	_	
+12-4	638-641	att	_	_	_	_	_	_	_	
+12-5	642-645	ett	_	_	_	_	_	_	_	
+12-6	646-651	parti	_	_	_	_	_	_	_	
+12-7	652-655	som	_	_	_	_	_	_	_	
+12-8	656-659	har	_	_	_	_	_	_	_	
+12-9	660-662	13	_	_	_	_	_	_	_	
+12-10	662-663	-	_	_	_	_	_	_	_	
+12-11	663-666	14%	_	_	_	_	_	_	_	
+12-12	667-671	inte	_	_	_	_	_	_	_	
+12-13	672-675	har	_	_	_	_	_	_	_	
+12-14	676-687	supermycket	_	_	_	_	_	_	_	
+12-15	688-691	att	_	_	_	_	_	_	_	
+12-16	692-696	säga	_	_	_	_	_	_	_	
+12-17	697-701	till	_	_	_	_	_	_	_	
+12-18	702-704	om	_	_	_	_	_	_	_	
+12-19	704-705	.	_	_	_	_	_	_	_	
+
+#Text=Men att gå så långt som att totalt frysa ut våra demokratiska möjligheter att påverka landet som jag bor i och som jag betalar skatt till för att det ska fungera, DET SKAPAR EN FRUSTRATION OCH EN ILSKA HOS MIG.
+13-1	706-709	Men	_	_	_	_	_	_	_	
+13-2	710-713	att	*[18]	_[7]	_	false[7]	1[7]	_	13-33[0_18]	
+13-3	714-716	gå	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-4	717-719	så	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-5	720-725	långt	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-6	726-729	som	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-7	730-733	att	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-8	734-740	totalt	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-9	741-746	frysa	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-10	747-749	ut	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-11	750-754	våra	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-12	755-767	demokratiska	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-13	768-779	möjligheter	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-14	780-783	att	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-15	784-791	påverka	*[18]	_[7]	_	false[7]	1[7]	_	_	
+13-16	792-798	landet	*[18]	_	_	_	_	_	_	
+13-17	799-802	som	*[18]	_	_	_	_	_	_	
+13-18	803-806	jag	*[18]	_	_	_	_	_	_	
+13-19	807-810	bor	*[18]	_	_	_	_	_	_	
+13-20	811-812	i	*[18]	_	_	_	_	_	_	
+13-21	813-816	och	*[18]	_	_	_	_	_	_	
+13-22	817-820	som	*[18]	_	_	_	_	_	_	
+13-23	821-824	jag	*[18]	_	_	_	_	_	_	
+13-24	825-832	betalar	*[18]	_	_	_	_	_	_	
+13-25	833-838	skatt	*[18]	_	_	_	_	_	_	
+13-26	839-843	till	*[18]	_	_	_	_	_	_	
+13-27	844-847	för	*[18]	_	_	_	_	_	_	
+13-28	848-851	att	*[18]	_	_	_	_	_	_	
+13-29	852-855	det	*[18]	_	_	_	_	_	_	
+13-30	856-859	ska	*[18]	_	_	_	_	_	_	
+13-31	860-867	fungera	*[18]	_	_	_	_	_	_	
+13-32	867-868	,	_	_	_	_	_	_	_	
+13-33	869-872	DET	*	_	_	_	_	_	_	
+13-34	873-879	SKAPAR	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-35	880-882	EN	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-36	883-894	FRUSTRATION	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-37	895-898	OCH	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-38	899-901	EN	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-39	902-907	ILSKA	_	Target;Source[8]	13-33;13-40[19]	false[8]	1[8]	_	_	
+13-40	908-911	HOS	*[19]	_	_	_	_	_	_	
+13-41	912-915	MIG	*[19]	_	_	_	_	_	_	
+13-42	915-916	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	918-919	#	_	_	_	_	_	_	_	
+14-2	919-920	P	_	_	_	_	_	_	_	
+14-3	921-924	IMM	_	_	_	_	_	_	_	
+14-4	924-925	.	_	_	_	_	_	_	_	
+
+#Text=Så vad händer i samhället om det blir ytterligare fyra år till där 15-20 % AV SVERIGES BEFOLKNING inte för göra sin röst hörd på demokratisk väg?.
+15-1	927-929	Så	_	_	_	_	_	_	_	
+15-2	930-933	vad	_	_	_	_	_	_	_	
+15-3	934-940	händer	_	_	_	_	_	_	_	
+15-4	941-942	i	_	_	_	_	_	_	_	
+15-5	943-952	samhället	_	_	_	_	_	_	_	
+15-6	953-955	om	_	_	_	_	_	_	_	
+15-7	956-959	det	_	_	_	_	_	_	_	
+15-8	960-964	blir	_	_	_	_	_	_	_	
+15-9	965-976	ytterligare	_	_	_	_	_	_	_	
+15-10	977-981	fyra	_	_	_	_	_	_	_	
+15-11	982-984	år	_	_	_	_	_	_	_	
+15-12	985-989	till	_	_	_	_	_	_	_	
+15-13	990-993	där	_	_	_	_	_	_	_	
+15-14	994-996	15	_	_	_	_	_	_	_	
+15-15	996-997	-	_	_	_	_	_	_	_	
+15-16	997-999	20	_	_	_	_	_	_	_	
+15-17	1000-1001	%	_	_	_	_	_	_	_	
+15-18	1002-1004	AV	_	_	_	_	_	_	_	
+15-19	1005-1013	SVERIGES	_	_	_	_	_	_	_	
+15-20	1014-1024	BEFOLKNING	_	_	_	_	_	_	_	
+15-21	1025-1029	inte	_	_[9]	_	false[9]	2[9]	_	_	
+15-22	1030-1033	för	_	_[9]	_	false[9]	2[9]	_	_	
+15-23	1034-1038	göra	_	_[9]	_	false[9]	2[9]	_	_	
+15-24	1039-1042	sin	_	_[9]	_	false[9]	2[9]	_	_	
+15-25	1043-1047	röst	_	_[9]	_	false[9]	2[9]	_	_	
+15-26	1048-1052	hörd	_	_[9]	_	false[9]	2[9]	_	_	
+15-27	1053-1055	på	_	_[9]	_	false[9]	2[9]	_	_	
+15-28	1056-1067	demokratisk	_	_[9]	_	false[9]	2[9]	_	_	
+15-29	1068-1071	väg	_	_[9]	_	false[9]	2[9]	_	_	
+15-30	1071-1072	?	_	_	_	_	_	_	_	
+15-31	1072-1073	.	_	_	_	_	_	_	_	

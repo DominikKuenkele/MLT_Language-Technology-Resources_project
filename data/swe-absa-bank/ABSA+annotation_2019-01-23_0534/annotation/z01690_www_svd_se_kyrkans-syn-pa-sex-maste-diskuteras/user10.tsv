@@ -1,0 +1,1200 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Kyrkans syn på sex måste diskuteras.
+3-1	18-25	Kyrkans	_	_	_	_	_	_	_	
+3-2	26-29	syn	_	_	_	_	_	_	_	
+3-3	30-32	på	_	_	_	_	_	_	_	
+3-4	33-36	sex	_	_	_	_	_	_	_	
+3-5	37-42	måste	_	_	_	_	_	_	_	
+3-6	43-53	diskuteras	_	_	_	_	_	_	_	
+3-7	53-54	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	_	
+
+#Text=Efter avslöjanden om övergreppen inom katolska kyrkan diskuteras nu celibatet.
+5-1	65-70	Efter	_	_	_	_	_	_	_	
+5-2	71-82	avslöjanden	_	_	_	_	_	_	_	
+5-3	83-85	om	_	_	_	_	_	_	_	
+5-4	86-97	övergreppen	*	Target	5-4	false	1	_	_	
+5-5	98-102	inom	_	_	_	_	_	_	_	
+5-6	103-111	katolska	_	_	_	_	_	_	_	
+5-7	112-118	kyrkan	_	_	_	_	_	_	_	
+5-8	119-129	diskuteras	_	_	_	_	_	_	_	
+5-9	130-132	nu	_	_	_	_	_	_	_	
+5-10	133-142	celibatet	_	_	_	_	_	_	_	
+5-11	142-143	.	_	_	_	_	_	_	_	
+
+#Text=I stället borde debatten handla om det som verkligen bör ifrågasättas: den kristna sexualsynen.
+6-1	144-145	I	_	_	_	_	_	_	_	
+6-2	146-153	stället	_	_	_	_	_	_	_	
+6-3	154-159	borde	_	_	_	_	_	_	_	
+6-4	160-168	debatten	_	_	_	_	_	_	_	
+6-5	169-175	handla	_	_	_	_	_	_	_	
+6-6	176-178	om	_	_	_	_	_	_	_	
+6-7	179-182	det	_	_	_	_	_	_	_	
+6-8	183-186	som	_	_	_	_	_	_	_	
+6-9	187-196	verkligen	_	Target[1]	6-13[20]	false[1]	2[1]	_	_	
+6-10	197-200	bör	_	Target[1]	6-13[20]	false[1]	2[1]	_	_	
+6-11	201-213	ifrågasättas	_	Target[1]	6-13[20]	false[1]	2[1]	_	_	
+6-12	213-214	:	_	_	_	_	_	_	_	
+6-13	215-218	den	*[20]	_	_	_	_	_	_	
+6-14	219-226	kristna	*[20]	_	_	_	_	_	_	
+6-15	227-238	sexualsynen	*[20]	_	_	_	_	_	_	
+6-16	238-239	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver etikprofessorn och före detta prästen Sten Philipson.
+7-1	240-243	Det	_	_	_	_	_	_	_	
+7-2	244-251	skriver	_	_	_	_	_	_	_	
+7-3	252-266	etikprofessorn	_	_	_	_	_	_	_	
+7-4	267-270	och	_	_	_	_	_	_	_	
+7-5	271-275	före	_	_	_	_	_	_	_	
+7-6	276-281	detta	_	_	_	_	_	_	_	
+7-7	282-289	prästen	_	_	_	_	_	_	_	
+7-8	290-294	Sten	_	_	_	_	_	_	_	
+7-9	295-304	Philipson	_	_	_	_	_	_	_	
+7-10	304-305	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	307-308	#	_	_	_	_	_	_	_	
+8-2	308-309	P	_	_	_	_	_	_	_	
+8-3	310-313	IMM	_	_	_	_	_	_	_	
+8-4	313-314	.	_	_	_	_	_	_	_	
+
+#Text=I debatten om pedofilskandalen inom katolska kyrkan har det ofta hävdats att det är kravet på att prästerna ska leva i celibat som är förklaringen till övergreppen.
+9-1	316-317	I	_	_	_	_	_	_	_	
+9-2	318-326	debatten	_	_	_	_	_	_	_	
+9-3	327-329	om	_	_	_	_	_	_	_	
+9-4	330-346	pedofilskandalen	*	Target	9-4	false	1	_	_	
+9-5	347-351	inom	_	_	_	_	_	_	_	
+9-6	352-360	katolska	_	_	_	_	_	_	_	
+9-7	361-367	kyrkan	_	_	_	_	_	_	_	
+9-8	368-371	har	_	_	_	_	_	_	_	
+9-9	372-375	det	_	_	_	_	_	_	_	
+9-10	376-380	ofta	_	_	_	_	_	_	_	
+9-11	381-388	hävdats	_	_	_	_	_	_	_	
+9-12	389-392	att	_	_	_	_	_	_	_	
+9-13	393-396	det	_	_	_	_	_	_	_	
+9-14	397-399	är	_	_	_	_	_	_	_	
+9-15	400-406	kravet	_	_	_	_	_	_	_	
+9-16	407-409	på	_	_	_	_	_	_	_	
+9-17	410-413	att	_	_	_	_	_	_	_	
+9-18	414-423	prästerna	_	_	_	_	_	_	_	
+9-19	424-427	ska	_	_	_	_	_	_	_	
+9-20	428-432	leva	_	_	_	_	_	_	_	
+9-21	433-434	i	_	_	_	_	_	_	_	
+9-22	435-442	celibat	_	_	_	_	_	_	_	
+9-23	443-446	som	_	_	_	_	_	_	_	
+9-24	447-449	är	_	_	_	_	_	_	_	
+9-25	450-462	förklaringen	_	_	_	_	_	_	_	
+9-26	463-467	till	_	_	_	_	_	_	_	
+9-27	468-479	övergreppen	*	Target	9-27	false	1	_	_	
+9-28	479-480	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	482-483	#	_	_	_	_	_	_	_	
+10-2	483-484	P	_	_	_	_	_	_	_	
+10-3	485-488	IMM	_	_	_	_	_	_	_	
+10-4	488-489	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	491-494	Det	_	_	_	_	_	_	_	
+11-2	495-498	här	_	_	_	_	_	_	_	
+11-3	499-501	är	_	_	_	_	_	_	_	
+11-4	502-504	en	_	_	_	_	_	_	_	
+11-5	505-519	argumenterande	_	_	_	_	_	_	_	
+11-6	520-524	text	_	_	_	_	_	_	_	
+11-7	525-528	med	_	_	_	_	_	_	_	
+11-8	529-534	syfte	_	_	_	_	_	_	_	
+11-9	535-538	att	_	_	_	_	_	_	_	
+11-10	539-546	påverka	_	_	_	_	_	_	_	
+11-11	546-547	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	548-557	Åsikterna	_	_	_	_	_	_	_	
+12-2	558-561	som	_	_	_	_	_	_	_	
+12-3	562-570	uttrycks	_	_	_	_	_	_	_	
+12-4	571-573	är	_	_	_	_	_	_	_	
+12-5	574-585	skribentens	_	_	_	_	_	_	_	
+12-6	586-590	egna	_	_	_	_	_	_	_	
+12-7	590-591	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	593-594	#	_	_	_	_	_	_	_	
+13-2	594-595	P	_	_	_	_	_	_	_	
+13-3	596-599	IMM	_	_	_	_	_	_	_	
+13-4	599-600	.	_	_	_	_	_	_	_	
+
+#Text=I stället borde man tala om den verkliga orsaken: den kristna sexualsynen.
+14-1	602-603	I	_	_	_	_	_	_	_	
+14-2	604-611	stället	_	_	_	_	_	_	_	
+14-3	612-617	borde	_	_	_	_	_	_	_	
+14-4	618-621	man	_	_	_	_	_	_	_	
+14-5	622-626	tala	_	_	_	_	_	_	_	
+14-6	627-629	om	_	_	_	_	_	_	_	
+14-7	630-633	den	_	_	_	_	_	_	_	
+14-8	634-642	verkliga	_	_	_	_	_	_	_	
+14-9	643-650	orsaken	_	_	_	_	_	_	_	
+14-10	650-651	:	_	_	_	_	_	_	_	
+14-11	652-655	den	_	_	_	_	_	_	_	
+14-12	656-663	kristna	_	_	_	_	_	_	_	
+14-13	664-675	sexualsynen	_	_	_	_	_	_	_	
+14-14	675-676	.	_	_	_	_	_	_	_	
+
+#Text=Den diskuteras sällan på ett sakligt sätt.
+15-1	677-680	Den	_	_	_	_	_	_	_	
+15-2	681-691	diskuteras	_	_	_	_	_	_	_	
+15-3	692-698	sällan	_	_	_	_	_	_	_	
+15-4	699-701	på	_	_	_	_	_	_	_	
+15-5	702-705	ett	_	_	_	_	_	_	_	
+15-6	706-713	sakligt	_	_	_	_	_	_	_	
+15-7	714-718	sätt	_	_	_	_	_	_	_	
+15-8	718-719	.	_	_	_	_	_	_	_	
+
+#Text=Många talar om kristendomen som sexualfientlig.
+16-1	720-725	Många	_	_	_	_	_	_	_	
+16-2	726-731	talar	_	_	_	_	_	_	_	
+16-3	732-734	om	_	_	_	_	_	_	_	
+16-4	735-747	kristendomen	_	_	_	_	_	_	_	
+16-5	748-751	som	_	_	_	_	_	_	_	
+16-6	752-766	sexualfientlig	*	Target	16-6	false	1	_	_	
+16-7	766-767	.	_	_	_	_	_	_	_	
+
+#Text=Det är allt som sägs.
+17-1	768-771	Det	_	_	_	_	_	_	_	
+17-2	772-774	är	_	_	_	_	_	_	_	
+17-3	775-779	allt	_	_	_	_	_	_	_	
+17-4	780-783	som	_	_	_	_	_	_	_	
+17-5	784-788	sägs	_	_	_	_	_	_	_	
+17-6	788-789	.	_	_	_	_	_	_	_	
+
+#Text=Men det förklarar inget.
+18-1	790-793	Men	_	_	_	_	_	_	_	
+18-2	794-797	det	_	_	_	_	_	_	_	
+18-3	798-807	förklarar	_	_	_	_	_	_	_	
+18-4	808-813	inget	_	_	_	_	_	_	_	
+18-5	813-814	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	816-817	#	_	_	_	_	_	_	_	
+19-2	817-818	P	_	_	_	_	_	_	_	
+19-3	819-822	IMM	_	_	_	_	_	_	_	
+19-4	822-823	.	_	_	_	_	_	_	_	
+
+#Text=Sanningen är att celibatet inte är en uppfinning av vare sig Jesus eller Paulus.
+20-1	825-834	Sanningen	_	_	_	_	_	_	_	
+20-2	835-837	är	_	_	_	_	_	_	_	
+20-3	838-841	att	_	_	_	_	_	_	_	
+20-4	842-851	celibatet	_	_	_	_	_	_	_	
+20-5	852-856	inte	_	_	_	_	_	_	_	
+20-6	857-859	är	_	_	_	_	_	_	_	
+20-7	860-862	en	_	_	_	_	_	_	_	
+20-8	863-873	uppfinning	_	_	_	_	_	_	_	
+20-9	874-876	av	_	_	_	_	_	_	_	
+20-10	877-881	vare	_	_	_	_	_	_	_	
+20-11	882-885	sig	_	_	_	_	_	_	_	
+20-12	886-891	Jesus	_	_	_	_	_	_	_	
+20-13	892-897	eller	_	_	_	_	_	_	_	
+20-14	898-904	Paulus	_	_	_	_	_	_	_	
+20-15	904-905	.	_	_	_	_	_	_	_	
+
+#Text=I den förkristna grekiska och romerska kulturen fanns en föreställning om den rationella självkontrollens betydelse.
+21-1	906-907	I	_	_	_	_	_	_	_	
+21-2	908-911	den	_	_	_	_	_	_	_	
+21-3	912-922	förkristna	_	_	_	_	_	_	_	
+21-4	923-931	grekiska	_	_	_	_	_	_	_	
+21-5	932-935	och	_	_	_	_	_	_	_	
+21-6	936-944	romerska	_	_	_	_	_	_	_	
+21-7	945-953	kulturen	_	_	_	_	_	_	_	
+21-8	954-959	fanns	_	_	_	_	_	_	_	
+21-9	960-962	en	_	_	_	_	_	_	_	
+21-10	963-976	föreställning	_	_	_	_	_	_	_	
+21-11	977-979	om	_	_	_	_	_	_	_	
+21-12	980-983	den	_	_	_	_	_	_	_	
+21-13	984-994	rationella	_	_	_	_	_	_	_	
+21-14	995-1011	självkontrollens	_	_	_	_	_	_	_	
+21-15	1012-1021	betydelse	_	_	_	_	_	_	_	
+21-16	1021-1022	.	_	_	_	_	_	_	_	
+
+#Text=Många icke kristna filosofer och tänkare under antiken menade att om sexualiteten brukades liderligt och utan självdisciplin kunde den komma att dominera personligheten på ett för andelivet förödande sätt.
+22-1	1023-1028	Många	_	_	_	_	_	_	_	
+22-2	1029-1033	icke	*[21]	_	_	_	_	_	_	
+22-3	1034-1041	kristna	*[21]	_	_	_	_	_	_	
+22-4	1042-1051	filosofer	*[21]	_	_	_	_	_	_	
+22-5	1052-1055	och	*[21]	_	_	_	_	_	_	
+22-6	1056-1063	tänkare	*[21]	_	_	_	_	_	_	
+22-7	1064-1069	under	*[21]	_	_	_	_	_	_	
+22-8	1070-1077	antiken	*[21]	_	_	_	_	_	_	
+22-9	1078-1084	menade	_	_	_	_	_	_	_	
+22-10	1085-1088	att	_	_	_	_	_	_	_	
+22-11	1089-1091	om	_	_	_	false	1	_	_	
+22-12	1092-1104	sexualiteten	*[22]	_	_	_	_	_	_	
+22-13	1105-1113	brukades	*[22]	_	_	_	_	_	_	
+22-14	1114-1123	liderligt	*[22]	_	_	_	_	_	_	
+22-15	1124-1127	och	*[22]	_	_	_	_	_	_	
+22-16	1128-1132	utan	*[22]	_	_	_	_	_	_	
+22-17	1133-1147	självdisciplin	*[22]	_	_	_	_	_	_	
+22-18	1148-1153	kunde	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	22-11[0_2]	_	
+22-19	1154-1157	den	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-20	1158-1163	komma	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-21	1164-1167	att	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-22	1168-1176	dominera	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-23	1177-1191	personligheten	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-24	1192-1194	på	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-25	1195-1198	ett	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-26	1199-1202	för	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-27	1203-1212	andelivet	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-28	1213-1222	förödande	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-29	1223-1227	sätt	_	Source;Target[2]	22-2[21];22-12[22]	false[2]	1[2]	_	_	
+22-30	1227-1228	.	_	_	_	_	_	_	_	
+
+#Text=Avhållsamhet var därför en inte ovanlig rekommendation.
+23-1	1229-1241	Avhållsamhet	_	_	_	_	_	_	_	
+23-2	1242-1245	var	_	_	_	_	_	_	_	
+23-3	1246-1252	därför	_	_	_	_	_	_	_	
+23-4	1253-1255	en	_	_	_	_	_	_	_	
+23-5	1256-1260	inte	_	_	_	_	_	_	_	
+23-6	1261-1268	ovanlig	_	_	_	_	_	_	_	
+23-7	1269-1283	rekommendation	_	_	_	_	_	_	_	
+23-8	1283-1284	.	_	_	_	_	_	_	_	
+
+#Text=Intima förhållanden mellan vuxna män och unga pojkar betraktades också som mer andligt högtstående, eftersom kärleken då skulle komma att präglas av hänförelse över skönheten hos den unge älskaren snarare än av den rent fysiska njutningen.
+24-1	1285-1291	Intima	*[23]	_	_	_	_	_	_	
+24-2	1292-1304	förhållanden	*[23]	_	_	_	_	_	_	
+24-3	1305-1311	mellan	*[23]	_	_	_	_	_	_	
+24-4	1312-1317	vuxna	*[23]	_	_	_	_	_	_	
+24-5	1318-1321	män	*[23]	_	_	_	_	_	_	
+24-6	1322-1325	och	*[23]	_	_	_	_	_	_	
+24-7	1326-1330	unga	*[23]	_	_	_	_	_	_	
+24-8	1331-1337	pojkar	*[23]	_	_	_	_	_	_	
+24-9	1338-1349	betraktades	_	_	_	_	_	_	_	
+24-10	1350-1355	också	_	_	_	_	_	_	_	
+24-11	1356-1359	som	_	_	_	_	_	_	_	
+24-12	1360-1363	mer	_	Target;Source[3]	24-1[23];24-38	false[3]	4[3]	_	_	
+24-13	1364-1371	andligt	_	Target;Source[3]	24-1[23];24-38	false[3]	4[3]	_	_	
+24-14	1372-1383	högtstående	_	Target;Source[3]	24-1[23];24-38	false[3]	4[3]	_	_	
+24-15	1383-1384	,	_	_	_	_	_	_	_	
+24-16	1385-1393	eftersom	_	_	_	_	_	_	_	
+24-17	1394-1402	kärleken	_	_	_	_	_	_	_	
+24-18	1403-1405	då	_	_	_	_	_	_	_	
+24-19	1406-1412	skulle	_	_	_	_	_	_	_	
+24-20	1413-1418	komma	_	_	_	_	_	_	_	
+24-21	1419-1422	att	_	_	_	_	_	_	_	
+24-22	1423-1430	präglas	_	_	_	_	_	_	_	
+24-23	1431-1433	av	_	_	_	_	_	_	_	
+24-24	1434-1444	hänförelse	_	Target;Source[4]	24-26[24];24-38	false[4]	5[4]	_	_	
+24-25	1445-1449	över	_	Target;Source[4]	24-26[24];24-38	false[4]	5[4]	_	_	
+24-26	1450-1459	skönheten	*[24]	_	_	_	_	_	_	
+24-27	1460-1463	hos	*[24]	_	_	_	_	_	_	
+24-28	1464-1467	den	*[24]	_	_	_	_	_	_	
+24-29	1468-1472	unge	*[24]	_	_	_	_	_	_	
+24-30	1473-1481	älskaren	*[24]	_	_	_	_	_	_	
+24-31	1482-1489	snarare	_	_	_	_	_	_	_	
+24-32	1490-1492	än	_	_	_	_	_	_	_	
+24-33	1493-1495	av	_	_	_	_	_	_	_	
+24-34	1496-1499	den	_	_	_	_	_	_	_	
+24-35	1500-1504	rent	_	_	_	_	_	_	_	
+24-36	1505-1512	fysiska	_	_	_	_	_	_	_	
+24-37	1513-1523	njutningen	_	_	_	_	_	_	_	
+24-38	1523-1524	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1526-1527	#	_	_	_	_	_	_	_	
+25-2	1527-1528	P	_	_	_	_	_	_	_	
+25-3	1529-1532	IMM	_	_	_	_	_	_	_	
+25-4	1532-1533	.	_	_	_	_	_	_	_	
+
+#Text=Somliga forskare menar att den tidiga kristna sexualetiken har mycket av sina rötter i detta tänkande, det vill säga i synen på avhållsamhet och celibat som vägar till andlig mognad.
+26-1	1535-1542	Somliga	_	_	_	_	_	_	_	
+26-2	1543-1551	forskare	_	_	_	_	_	_	_	
+26-3	1552-1557	menar	_	_	_	_	_	_	_	
+26-4	1558-1561	att	_	_	_	_	_	_	_	
+26-5	1562-1565	den	_	_	_	_	_	_	_	
+26-6	1566-1572	tidiga	_	_	_	_	_	_	_	
+26-7	1573-1580	kristna	_	_	_	_	_	_	_	
+26-8	1581-1593	sexualetiken	_	_	_	_	_	_	_	
+26-9	1594-1597	har	_	_	_	_	_	_	_	
+26-10	1598-1604	mycket	_	_	_	_	_	_	_	
+26-11	1605-1607	av	_	_	_	_	_	_	_	
+26-12	1608-1612	sina	_	_	_	_	_	_	_	
+26-13	1613-1619	rötter	_	_	_	_	_	_	_	
+26-14	1620-1621	i	_	_	_	_	_	_	_	
+26-15	1622-1627	detta	_	_	_	_	_	_	_	
+26-16	1628-1636	tänkande	_	_	_	_	_	_	_	
+26-17	1636-1637	,	_	_	_	_	_	_	_	
+26-18	1638-1641	det	_	_	_	_	_	_	_	
+26-19	1642-1646	vill	_	_	_	_	_	_	_	
+26-20	1647-1651	säga	_	_	_	_	_	_	_	
+26-21	1652-1653	i	_	_	_	_	_	_	_	
+26-22	1654-1659	synen	_	_	_	_	_	_	_	
+26-23	1660-1662	på	_	_	_	_	_	_	_	
+26-24	1663-1675	avhållsamhet	_	_	_	_	_	_	_	
+26-25	1676-1679	och	_	_	_	_	_	_	_	
+26-26	1680-1687	celibat	_	_	_	_	_	_	_	
+26-27	1688-1691	som	_	_	_	_	_	_	_	
+26-28	1692-1697	vägar	_	_	_	_	_	_	_	
+26-29	1698-1702	till	_	_	_	_	_	_	_	
+26-30	1703-1709	andlig	_	_	_	_	_	_	_	
+26-31	1710-1716	mognad	_	_	_	_	_	_	_	
+26-32	1716-1717	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1719-1720	#	_	_	_	_	_	_	_	
+27-2	1720-1721	P	_	_	_	_	_	_	_	
+27-3	1722-1725	IMM	_	_	_	_	_	_	_	
+27-4	1725-1726	.	_	_	_	_	_	_	_	
+
+#Text=Celibatet kom tidigt att omfattas av många kristna, eftersom det medförde en ny frihet för den enskilde, inte minst för unga kvinnor.
+28-1	1728-1737	Celibatet	_	_	_	_	_	_	_	
+28-2	1738-1741	kom	_	_	_	_	_	_	_	
+28-3	1742-1748	tidigt	_	_	_	_	_	_	_	
+28-4	1749-1752	att	_	_	_	_	_	_	_	
+28-5	1753-1761	omfattas	_	_	_	_	_	_	_	
+28-6	1762-1764	av	_	_	_	_	_	_	_	
+28-7	1765-1770	många	_	_	_	_	_	_	_	
+28-8	1771-1778	kristna	_	_	_	_	_	_	_	
+28-9	1778-1779	,	_	_	_	_	_	_	_	
+28-10	1780-1788	eftersom	_	_	_	_	_	_	_	
+28-11	1789-1792	det	_	_	_	_	_	_	_	
+28-12	1793-1801	medförde	_	_	_	_	_	_	_	
+28-13	1802-1804	en	_	_	_	_	_	_	_	
+28-14	1805-1807	ny	_	_	_	_	_	_	_	
+28-15	1808-1814	frihet	_	_	_	_	_	_	_	
+28-16	1815-1818	för	_	_	_	_	_	_	_	
+28-17	1819-1822	den	_	_	_	_	_	_	_	
+28-18	1823-1831	enskilde	_	_	_	_	_	_	_	
+28-19	1831-1832	,	_	_	_	_	_	_	_	
+28-20	1833-1837	inte	_	_	_	_	_	_	_	
+28-21	1838-1843	minst	_	_	_	_	_	_	_	
+28-22	1844-1847	för	_	_	_	_	_	_	_	
+28-23	1848-1852	unga	_	_	_	_	_	_	_	
+28-24	1853-1860	kvinnor	_	_	_	_	_	_	_	
+28-25	1860-1861	.	_	_	_	_	_	_	_	
+
+#Text=Faktum är att de flesta kristna martyrer som miste livet under de första århundradena av vår tideräkning var unga människor, vilka vägrade att anpassa sig till ett system med äktenskap och familj, där föräldrarna avgjorde vem man skulle gifta sig med.
+29-1	1862-1868	Faktum	_	_	_	_	_	_	_	
+29-2	1869-1871	är	_	_	_	_	_	_	_	
+29-3	1872-1875	att	_	_	_	_	_	_	_	
+29-4	1876-1878	de	_	_	_	_	_	_	_	
+29-5	1879-1885	flesta	_	_	_	_	_	_	_	
+29-6	1886-1893	kristna	_	_	_	_	_	_	_	
+29-7	1894-1902	martyrer	_	_	_	_	_	_	_	
+29-8	1903-1906	som	_	_	_	_	_	_	_	
+29-9	1907-1912	miste	_	_	_	_	_	_	_	
+29-10	1913-1918	livet	_	_	_	_	_	_	_	
+29-11	1919-1924	under	_	_	_	_	_	_	_	
+29-12	1925-1927	de	_	_	_	_	_	_	_	
+29-13	1928-1934	första	_	_	_	_	_	_	_	
+29-14	1935-1947	århundradena	_	_	_	_	_	_	_	
+29-15	1948-1950	av	_	_	_	_	_	_	_	
+29-16	1951-1954	vår	_	_	_	_	_	_	_	
+29-17	1955-1966	tideräkning	_	_	_	_	_	_	_	
+29-18	1967-1970	var	_	_	_	_	_	_	_	
+29-19	1971-1975	unga	_	_	_	_	_	_	_	
+29-20	1976-1985	människor	_	_	_	_	_	_	_	
+29-21	1985-1986	,	_	_	_	_	_	_	_	
+29-22	1987-1992	vilka	_	_	_	_	_	_	_	
+29-23	1993-2000	vägrade	_	_	_	_	_	_	_	
+29-24	2001-2004	att	_	_	_	_	_	_	_	
+29-25	2005-2012	anpassa	_	_	_	_	_	_	_	
+29-26	2013-2016	sig	_	_	_	_	_	_	_	
+29-27	2017-2021	till	_	_	_	_	_	_	_	
+29-28	2022-2025	ett	_	_	_	_	_	_	_	
+29-29	2026-2032	system	_	_	_	_	_	_	_	
+29-30	2033-2036	med	_	_	_	_	_	_	_	
+29-31	2037-2046	äktenskap	_	_	_	_	_	_	_	
+29-32	2047-2050	och	_	_	_	_	_	_	_	
+29-33	2051-2057	familj	_	_	_	_	_	_	_	
+29-34	2057-2058	,	_	_	_	_	_	_	_	
+29-35	2059-2062	där	_	_	_	_	_	_	_	
+29-36	2063-2074	föräldrarna	_	_	_	_	_	_	_	
+29-37	2075-2083	avgjorde	_	_	_	_	_	_	_	
+29-38	2084-2087	vem	_	_	_	_	_	_	_	
+29-39	2088-2091	man	_	_	_	_	_	_	_	
+29-40	2092-2098	skulle	_	_	_	_	_	_	_	
+29-41	2099-2104	gifta	_	_	_	_	_	_	_	
+29-42	2105-2108	sig	_	_	_	_	_	_	_	
+29-43	2109-2112	med	_	_	_	_	_	_	_	
+29-44	2112-2113	.	_	_	_	_	_	_	_	
+
+#Text=Att vägra acceptera familje- och äktenskapssystemet uppfattades av dåtidens makthavare som samhällsomstörtande.
+30-1	2114-2117	Att	*[25]	_	_	_	_	_	_	
+30-2	2118-2123	vägra	*[25]	_	_	_	_	_	_	
+30-3	2124-2133	acceptera	*[25]	_	_	_	_	_	_	
+30-4	2134-2141	familje	*[25]	_	_	_	_	_	_	
+30-5	2141-2142	-	*[25]	_	_	_	_	_	_	
+30-6	2143-2146	och	*[25]	_	_	_	_	_	_	
+30-7	2147-2165	äktenskapssystemet	*[25]	_	_	_	_	_	_	
+30-8	2166-2177	uppfattades	_	_	_	_	_	_	_	
+30-9	2178-2180	av	_	_	_	_	_	_	_	
+30-10	2181-2189	dåtidens	*[26]	_	_	_	_	_	_	
+30-11	2190-2200	makthavare	*[26]	_	_	_	_	_	_	
+30-12	2201-2204	som	_	_	_	_	_	_	_	
+30-13	2205-2224	samhällsomstörtande	_	Target;Source	30-1[25];30-10[26]	false	1	_	_	
+30-14	2224-2225	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2227-2228	#	_	_	_	_	_	_	_	
+31-2	2228-2229	P	_	_	_	_	_	_	_	
+31-3	2230-2233	IMM	_	_	_	_	_	_	_	
+31-4	2233-2234	.	_	_	_	_	_	_	_	
+
+#Text=Under slutet av andra århundradet och i början av det tredje, när kristendomen blivit statsreligion i det romerska imperiet, kom äktenskap att accepteras av kyrkan.
+32-1	2236-2241	Under	_	_	_	_	_	_	_	
+32-2	2242-2248	slutet	_	_	_	_	_	_	_	
+32-3	2249-2251	av	_	_	_	_	_	_	_	
+32-4	2252-2257	andra	_	_	_	_	_	_	_	
+32-5	2258-2269	århundradet	_	_	_	_	_	_	_	
+32-6	2270-2273	och	_	_	_	_	_	_	_	
+32-7	2274-2275	i	_	_	_	_	_	_	_	
+32-8	2276-2282	början	_	_	_	_	_	_	_	
+32-9	2283-2285	av	_	_	_	_	_	_	_	
+32-10	2286-2289	det	_	_	_	_	_	_	_	
+32-11	2290-2296	tredje	_	_	_	_	_	_	_	
+32-12	2296-2297	,	_	_	_	_	_	_	_	
+32-13	2298-2301	när	_	_	_	_	_	_	_	
+32-14	2302-2314	kristendomen	_	_	_	_	_	_	_	
+32-15	2315-2321	blivit	_	_	_	_	_	_	_	
+32-16	2322-2335	statsreligion	_	_	_	_	_	_	_	
+32-17	2336-2337	i	_	_	_	_	_	_	_	
+32-18	2338-2341	det	_	_	_	_	_	_	_	
+32-19	2342-2350	romerska	_	_	_	_	_	_	_	
+32-20	2351-2359	imperiet	_	_	_	_	_	_	_	
+32-21	2359-2360	,	_	_	_	_	_	_	_	
+32-22	2361-2364	kom	_	_	_	_	_	_	_	
+32-23	2365-2374	äktenskap	*	_	_	_	_	_	_	
+32-24	2375-2378	att	_	_	_	_	_	_	_	
+32-25	2379-2389	accepteras	_	Source;Target[5]	32-27;32-23	false[5]	3[5]	_	_	
+32-26	2390-2392	av	_	Source;Target[5]	32-27;32-23	false[5]	3[5]	_	_	
+32-27	2393-2399	kyrkan	*	_	_	_	_	_	_	
+32-28	2399-2400	.	_	_	_	_	_	_	_	
+
+#Text=Flertalet kyrkoledare framhöll att sexualiteten hade en given plats i Guds skapelse, som medel för barnalstring.
+33-1	2401-2410	Flertalet	_	_	_	_	_	_	_	
+33-2	2411-2422	kyrkoledare	_	_	_	_	_	_	_	
+33-3	2423-2431	framhöll	_	_	_	_	_	_	_	
+33-4	2432-2435	att	_	_	_	_	_	_	_	
+33-5	2436-2448	sexualiteten	_	_	_	_	_	_	_	
+33-6	2449-2453	hade	_	_	_	_	_	_	_	
+33-7	2454-2456	en	_	_	_	_	_	_	_	
+33-8	2457-2462	given	_	_	_	_	_	_	_	
+33-9	2463-2468	plats	_	_	_	_	_	_	_	
+33-10	2469-2470	i	_	_	_	_	_	_	_	
+33-11	2471-2475	Guds	_	_	_	_	_	_	_	
+33-12	2476-2484	skapelse	_	_	_	_	_	_	_	
+33-13	2484-2485	,	_	_	_	_	_	_	_	
+33-14	2486-2489	som	_	_	_	_	_	_	_	
+33-15	2490-2495	medel	_	_	_	_	_	_	_	
+33-16	2496-2499	för	_	_	_	_	_	_	_	
+33-17	2500-2512	barnalstring	_	_	_	_	_	_	_	
+33-18	2512-2513	.	_	_	_	_	_	_	_	
+
+#Text=De flesta kristna valde därför inte celibatet, utan nöjde sig med en mer modest tolkning av den kristna kallelsetanken.
+34-1	2514-2516	De	*[27]	_	_	_	_	_	_	
+34-2	2517-2523	flesta	*[27]	_	_	_	_	_	_	
+34-3	2524-2531	kristna	*[27]	_	_	_	_	_	_	
+34-4	2532-2537	valde	_	_	_	_	_	_	_	
+34-5	2538-2544	därför	_	_	_	_	_	_	_	
+34-6	2545-2549	inte	_	_	_	_	_	_	_	
+34-7	2550-2559	celibatet	_	_	_	_	_	_	_	
+34-8	2559-2560	,	_	_	_	_	_	_	_	
+34-9	2561-2565	utan	_	_	_	_	_	_	_	
+34-10	2566-2571	nöjde	_	Target;Source[6]	34-13[28];34-1[27]	false[6]	3[6]	_	_	
+34-11	2572-2575	sig	_	Target;Source[6]	34-13[28];34-1[27]	false[6]	3[6]	_	_	
+34-12	2576-2579	med	_	Target;Source[6]	34-13[28];34-1[27]	false[6]	3[6]	_	_	
+34-13	2580-2582	en	*[28]	_	_	_	_	_	_	
+34-14	2583-2586	mer	*[28]	_	_	_	_	_	_	
+34-15	2587-2593	modest	*[28]	_	_	_	_	_	_	
+34-16	2594-2602	tolkning	*[28]	_	_	_	_	_	_	
+34-17	2603-2605	av	*[28]	_	_	_	_	_	_	
+34-18	2606-2609	den	*[28]	_	_	_	_	_	_	
+34-19	2610-2617	kristna	*[28]	_	_	_	_	_	_	
+34-20	2618-2632	kallelsetanken	*[28]	_	_	_	_	_	_	
+34-21	2632-2633	.	_	_	_	_	_	_	_	
+
+#Text=Idealet för dem var inte att avstå från sexualitet, men att lära sig tygla sina lustar.
+35-1	2634-2641	Idealet	_	Target;Source	35-12[29];34-1[27]	false	5	_	_	
+35-2	2642-2645	för	_	_	_	_	_	_	_	
+35-3	2646-2649	dem	_	_	_	_	_	_	_	
+35-4	2650-2653	var	_	_	_	_	_	_	_	
+35-5	2654-2658	inte	_	_	_	_	_	_	_	
+35-6	2659-2662	att	_	_	_	_	_	_	_	
+35-7	2663-2668	avstå	_	_	_	_	_	_	_	
+35-8	2669-2673	från	_	_	_	_	_	_	_	
+35-9	2674-2684	sexualitet	_	_	_	_	_	_	_	
+35-10	2684-2685	,	_	_	_	_	_	_	_	
+35-11	2686-2689	men	_	_	_	_	_	_	_	
+35-12	2690-2693	att	*[29]	_	_	_	_	_	_	
+35-13	2694-2698	lära	*[29]	_	_	_	_	_	_	
+35-14	2699-2702	sig	*[29]	_	_	_	_	_	_	
+35-15	2703-2708	tygla	*[29]	_	_	_	_	_	_	
+35-16	2709-2713	sina	*[29]	_	_	_	_	_	_	
+35-17	2714-2720	lustar	*[29]	_	_	_	_	_	_	
+35-18	2720-2721	.	_	_	_	_	_	_	_	
+
+#Text=Asketism och celibat blev något blott för de extrema.
+36-1	2722-2730	Asketism	*[30]	_	_	_	_	_	_	
+36-2	2731-2734	och	*[30]	_	_	_	_	_	_	
+36-3	2735-2742	celibat	*[30]	_	_	_	_	_	_	
+36-4	2743-2747	blev	_	_	_	_	_	_	_	
+36-5	2748-2753	något	_	_	_	_	_	_	_	
+36-6	2754-2759	blott	_	_	_	_	_	_	_	
+36-7	2760-2763	för	_	_	_	_	_	_	_	
+36-8	2764-2766	de	*[31]	Target[7]	36-8[31]	false[7]	1[7]	_	_	
+36-9	2767-2774	extrema	*[31]	Target[7]	36-8[31]	false[7]	1[7]	_	_	
+36-10	2774-2775	.	_	_	_	_	_	_	_	
+
+#Text=De kom praktiskt taget endast att överleva som livsstil bland präster, munkar och nunnor.
+37-1	2776-2778	De	_	_	_	_	_	_	_	
+37-2	2779-2782	kom	_	_	_	_	_	_	_	
+37-3	2783-2792	praktiskt	_	_	_	_	_	_	_	
+37-4	2793-2798	taget	_	_	_	_	_	_	_	
+37-5	2799-2805	endast	_	_	_	_	_	_	_	
+37-6	2806-2809	att	_	_	_	_	_	_	_	
+37-7	2810-2818	överleva	_	_	_	_	_	_	_	
+37-8	2819-2822	som	_	_	_	_	_	_	_	
+37-9	2823-2831	livsstil	_	_	_	_	_	_	_	
+37-10	2832-2837	bland	_	_	_	_	_	_	_	
+37-11	2838-2845	präster	_	_	_	_	_	_	_	
+37-12	2845-2846	,	_	_	_	_	_	_	_	
+37-13	2847-2853	munkar	_	_	_	_	_	_	_	
+37-14	2854-2857	och	_	_	_	_	_	_	_	
+37-15	2858-2864	nunnor	_	_	_	_	_	_	_	
+37-16	2864-2865	.	_	_	_	_	_	_	_	
+
+#Text=Det är tveksamt hur väl det fungerade.
+38-1	2866-2869	Det	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-2	2870-2872	är	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-3	2873-2881	tveksamt	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-4	2882-2885	hur	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-5	2886-2889	väl	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-6	2890-2893	det	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-7	2894-2903	fungerade	_	Target[8]	36-1[30]	false[8]	2[8]	_	_	
+38-8	2903-2904	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	2906-2907	#	_	_	_	_	_	_	_	
+39-2	2907-2908	P	_	_	_	_	_	_	_	
+39-3	2909-2912	IMM	_	_	_	_	_	_	_	
+39-4	2912-2913	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+40-1	2915-2928	Skräddarsydda	_	_	_	_	_	_	_	
+40-2	2929-2935	kurser	_	_	_	_	_	_	_	
+40-3	2936-2937	i	_	_	_	_	_	_	_	
+40-4	2938-2943	ämnen	_	_	_	_	_	_	_	
+40-5	2944-2947	som	_	_	_	_	_	_	_	
+40-6	2948-2959	intresserar	_	_	_	_	_	_	_	
+40-7	2960-2963	och	_	_	_	_	_	_	_	
+40-8	2964-2973	engagerar	_	_	_	_	_	_	_	
+40-9	2974-2978	både	_	_	_	_	_	_	_	
+40-10	2979-2984	kropp	_	_	_	_	_	_	_	
+40-11	2985-2988	och	_	_	_	_	_	_	_	
+40-12	2989-2993	själ	_	_	_	_	_	_	_	
+40-13	2993-2994	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	2996-2997	#	_	_	_	_	_	_	_	
+41-2	2997-2998	P	_	_	_	_	_	_	_	
+41-3	2999-3002	IMM	_	_	_	_	_	_	_	
+41-4	3002-3003	.	_	_	_	_	_	_	_	
+
+#Text=Under fjärde och femte århundradet utvecklar kyrkan en mer genomtänkt syn på sexualiteten.
+42-1	3005-3010	Under	_	_	_	_	_	_	_	
+42-2	3011-3017	fjärde	_	_	_	_	_	_	_	
+42-3	3018-3021	och	_	_	_	_	_	_	_	
+42-4	3022-3027	femte	_	_	_	_	_	_	_	
+42-5	3028-3039	århundradet	_	_	_	_	_	_	_	
+42-6	3040-3049	utvecklar	_	_	_	_	_	_	_	
+42-7	3050-3056	kyrkan	_	_	_	_	_	_	_	
+42-8	3057-3059	en	_	_	_	_	_	_	_	
+42-9	3060-3063	mer	_	_	_	_	_	_	_	
+42-10	3064-3074	genomtänkt	_	_	_	_	_	_	_	
+42-11	3075-3078	syn	_	_	_	_	_	_	_	
+42-12	3079-3081	på	_	_	_	_	_	_	_	
+42-13	3082-3094	sexualiteten	_	_	_	_	_	_	_	
+42-14	3094-3095	.	_	_	_	_	_	_	_	
+
+#Text=Plikten bjuder oss att föra släktet vidare.
+43-1	3096-3103	Plikten	_	_	_	_	_	_	_	
+43-2	3104-3110	bjuder	_	_	_	_	_	_	_	
+43-3	3111-3114	oss	_	_	_	_	_	_	_	
+43-4	3115-3118	att	_	_	_	_	_	_	_	
+43-5	3119-3123	föra	_	_	_	_	_	_	_	
+43-6	3124-3131	släktet	_	_	_	_	_	_	_	
+43-7	3132-3138	vidare	_	_	_	_	_	_	_	
+43-8	3138-3139	.	_	_	_	_	_	_	_	
+
+#Text=Därför är människan skyldig att ägna sig åt det sexuella, som en del i uppdraget att vara Guds medskapare på jorden.
+44-1	3140-3146	Därför	_	_	_	_	_	_	_	
+44-2	3147-3149	är	_	_	_	_	_	_	_	
+44-3	3150-3159	människan	_	_	_	_	_	_	_	
+44-4	3160-3167	skyldig	_	_	_	_	_	_	_	
+44-5	3168-3171	att	_	_	_	_	_	_	_	
+44-6	3172-3176	ägna	_	_	_	_	_	_	_	
+44-7	3177-3180	sig	_	_	_	_	_	_	_	
+44-8	3181-3183	åt	_	_	_	_	_	_	_	
+44-9	3184-3187	det	_	_	_	_	_	_	_	
+44-10	3188-3196	sexuella	_	_	_	_	_	_	_	
+44-11	3196-3197	,	_	_	_	_	_	_	_	
+44-12	3198-3201	som	_	_	_	_	_	_	_	
+44-13	3202-3204	en	_	_	_	_	_	_	_	
+44-14	3205-3208	del	_	_	_	_	_	_	_	
+44-15	3209-3210	i	_	_	_	_	_	_	_	
+44-16	3211-3220	uppdraget	_	_	_	_	_	_	_	
+44-17	3221-3224	att	_	_	_	_	_	_	_	
+44-18	3225-3229	vara	_	_	_	_	_	_	_	
+44-19	3230-3234	Guds	_	_	_	_	_	_	_	
+44-20	3235-3245	medskapare	_	_	_	_	_	_	_	
+44-21	3246-3248	på	_	_	_	_	_	_	_	
+44-22	3249-3255	jorden	_	_	_	_	_	_	_	
+44-23	3255-3256	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3258-3259	#	_	_	_	_	_	_	_	
+45-2	3259-3260	P	_	_	_	_	_	_	_	
+45-3	3261-3264	IMM	_	_	_	_	_	_	_	
+45-4	3264-3265	.	_	_	_	_	_	_	_	
+
+#Text=Men sexualiteten ska i första hand brukas, inte njutas.
+46-1	3267-3270	Men	_	_	_	_	_	_	_	
+46-2	3271-3283	sexualiteten	*[32]|*[33]	_	_	_	_	_	47-1[0_33]	
+46-3	3284-3287	ska	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-4	3288-3289	i	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-5	3290-3296	första	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-6	3297-3301	hand	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-7	3302-3308	brukas	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-8	3308-3309	,	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-9	3310-3314	inte	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-10	3315-3321	njutas	_	Target;Source[9]	46-2[32];46-11	false[9]	3[9]	_	_	
+46-11	3321-3322	.	*	_	_	_	_	_	_	
+
+#Text=Den är ett nödvändigt ont, något vi är tvingade att gå igenom.
+47-1	3323-3326	Den	*	_	_	_	_	_	_	
+47-2	3327-3329	är	_	Source;Target[10]	47-14;47-1	false[10]	2[10]	_	_	
+47-3	3330-3333	ett	_	Source;Target[10]	47-14;47-1	false[10]	2[10]	_	_	
+47-4	3334-3344	nödvändigt	_	Source;Target[10]	47-14;47-1	false[10]	2[10]	_	_	
+47-5	3345-3348	ont	_	Source;Target[10]	47-14;47-1	false[10]	2[10]	_	_	
+47-6	3348-3349	,	_	_	_	_	_	_	_	
+47-7	3350-3355	något	_	_	_	_	_	_	_	
+47-8	3356-3358	vi	_	_	_	_	_	_	_	
+47-9	3359-3361	är	_	_	_	_	_	_	_	
+47-10	3362-3370	tvingade	_	_	_	_	_	_	_	
+47-11	3371-3374	att	_	_	_	_	_	_	_	
+47-12	3375-3377	gå	_	_	_	_	_	_	_	
+47-13	3378-3384	igenom	_	_	_	_	_	_	_	
+47-14	3384-3385	.	*	_	_	_	_	_	_	
+
+#Text=Augustinus (död 430) ser den sexuella åtrån som ett straff för den ursprungliga synden.
+48-1	3386-3396	Augustinus	_	_	_	_	_	_	_	
+48-2	3397-3398	(	_	_	_	_	_	_	_	
+48-3	3398-3401	död	_	_	_	_	_	_	_	
+48-4	3402-3405	430	_	_	_	_	_	_	_	
+48-5	3405-3406	)	_	_	_	_	_	_	_	
+48-6	3407-3410	ser	_	_	_	_	_	_	_	
+48-7	3411-3414	den	_	_	_	_	_	_	_	
+48-8	3415-3423	sexuella	_	_	_	_	_	_	_	
+48-9	3424-3429	åtrån	_	_	_	_	_	_	_	
+48-10	3430-3433	som	_	_	_	_	_	_	_	
+48-11	3434-3437	ett	_	_	_	_	_	_	_	
+48-12	3438-3444	straff	_	_	_	_	_	_	_	
+48-13	3445-3448	för	_	_	_	_	_	_	_	
+48-14	3449-3452	den	_	_	_	_	_	_	_	
+48-15	3453-3465	ursprungliga	_	_	_	_	_	_	_	
+48-16	3466-3472	synden	_	_	_	_	_	_	_	
+48-17	3472-3473	.	_	_	_	_	_	_	_	
+
+#Text=Därför är lusten förknippad med skam.
+49-1	3474-3480	Därför	_	_	_	_	_	_	_	
+49-2	3481-3483	är	_	_	_	_	_	_	_	
+49-3	3484-3490	lusten	*	_	_	_	_	_	_	
+49-4	3491-3501	förknippad	_	Target[11]	49-3	false[11]	1[11]	_	_	
+49-5	3502-3505	med	_	Target[11]	49-3	false[11]	1[11]	_	_	
+49-6	3506-3510	skam	_	Target[11]	49-3	false[11]	1[11]	_	_	
+49-7	3510-3511	.	_	_	_	_	_	_	_	
+
+#Text=Den kan aldrig samverka med Guds vilja.
+50-1	3512-3515	Den	_	_	_	_	_	_	_	
+50-2	3516-3519	kan	_	_	_	_	_	_	_	
+50-3	3520-3526	aldrig	_	_	_	_	_	_	_	
+50-4	3527-3535	samverka	_	_	_	_	_	_	_	
+50-5	3536-3539	med	_	_	_	_	_	_	_	
+50-6	3540-3544	Guds	_	_	_	_	_	_	_	
+50-7	3545-3550	vilja	_	_	_	_	_	_	_	
+50-8	3550-3551	.	_	_	_	_	_	_	_	
+
+#Text=Lusten och åtrån representerar själva upproret mot Gud.
+51-1	3552-3558	Lusten	_	_	_	_	_	_	_	
+51-2	3559-3562	och	_	_	_	_	_	_	_	
+51-3	3563-3568	åtrån	_	_	_	_	_	_	_	
+51-4	3569-3582	representerar	_	_	_	_	_	_	_	
+51-5	3583-3589	själva	_	_	_	_	_	_	_	
+51-6	3590-3598	upproret	_	Target[12]	51-8	false[12]	2[12]	_	_	
+51-7	3599-3602	mot	_	Target[12]	51-8	false[12]	2[12]	_	_	
+51-8	3603-3606	Gud	*	_	_	_	_	_	_	
+51-9	3606-3607	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+52-1	3609-3610	#	_	_	_	_	_	_	_	
+52-2	3610-3611	P	_	_	_	_	_	_	_	
+52-3	3612-3615	IMM	_	_	_	_	_	_	_	
+52-4	3615-3616	.	_	_	_	_	_	_	_	
+
+#Text=Den glädje och njutning som sex och samlag ofrånkomligen erbjuder ska därför underställas uppdraget att föra släktet vidare.
+53-1	3618-3621	Den	_	_	_	_	_	_	_	
+53-2	3622-3628	glädje	*[34]	Target[13]	53-2[34]	false[13]	5[13]	_	_	
+53-3	3629-3632	och	*[34]	Target[13]	53-2[34]	false[13]	5[13]	_	_	
+53-4	3633-3641	njutning	*[34]	Target[13]	53-2[34]	false[13]	5[13]	_	_	
+53-5	3642-3645	som	_	_	_	_	_	_	_	
+53-6	3646-3649	sex	_	_	_	_	_	_	_	
+53-7	3650-3653	och	_	_	_	_	_	_	_	
+53-8	3654-3660	samlag	_	_	_	_	_	_	_	
+53-9	3661-3674	ofrånkomligen	_	_	_	_	_	_	_	
+53-10	3675-3683	erbjuder	_	_	_	_	_	_	_	
+53-11	3684-3687	ska	_	_	_	_	_	_	_	
+53-12	3688-3694	därför	_	_	_	_	_	_	_	
+53-13	3695-3707	underställas	_	_	_	_	_	_	_	
+53-14	3708-3717	uppdraget	_	_	_	_	_	_	_	
+53-15	3718-3721	att	_	_	_	_	_	_	_	
+53-16	3722-3726	föra	_	_	_	_	_	_	_	
+53-17	3727-3734	släktet	_	_	_	_	_	_	_	
+53-18	3735-3741	vidare	_	_	_	_	_	_	_	
+53-19	3741-3742	.	_	_	_	_	_	_	_	
+
+#Text=Hur effektivt barnalstring och lust skilts åt i kyrkan kan man bland annat upptäcka i en del medeltida biktspeglar där lusten "att gå till sin hustru som till en sköka" (det vill säga ha sex för njutnings skull) ska bekännas som ett brott mot det sjätte av 10 Guds buds: "du skall icke begå äktenskapsbrott".
+54-1	3743-3746	Hur	_	_	_	_	_	_	_	
+54-2	3747-3756	effektivt	_	_	_	_	_	_	_	
+54-3	3757-3769	barnalstring	*	Target	54-3	false	3	_	_	
+54-4	3770-3773	och	_	_	_	_	_	_	_	
+54-5	3774-3778	lust	_	_	_	_	_	_	_	
+54-6	3779-3785	skilts	_	_	_	_	_	_	_	
+54-7	3786-3788	åt	_	_	_	_	_	_	_	
+54-8	3789-3790	i	_	_	_	_	_	_	_	
+54-9	3791-3797	kyrkan	_	_	_	_	_	_	_	
+54-10	3798-3801	kan	_	_	_	_	_	_	_	
+54-11	3802-3805	man	_	_	_	_	_	_	_	
+54-12	3806-3811	bland	_	_	_	_	_	_	_	
+54-13	3812-3817	annat	_	_	_	_	_	_	_	
+54-14	3818-3826	upptäcka	_	_	_	_	_	_	_	
+54-15	3827-3828	i	_	_	_	_	_	_	_	
+54-16	3829-3831	en	_	_	_	_	_	_	_	
+54-17	3832-3835	del	_	_	_	_	_	_	_	
+54-18	3836-3845	medeltida	_	_	_	_	_	_	_	
+54-19	3846-3857	biktspeglar	_	_	_	_	_	_	_	
+54-20	3858-3861	där	_	_	_	_	_	_	_	
+54-21	3862-3868	lusten	_	_	_	_	_	_	_	
+54-22	3869-3870	"	_	_	_	_	_	_	_	
+54-23	3870-3873	att	_	_	_	_	_	_	_	
+54-24	3874-3876	gå	_	_	_	_	_	_	_	
+54-25	3877-3881	till	_	_	_	_	_	_	_	
+54-26	3882-3885	sin	_	_	_	_	_	_	_	
+54-27	3886-3892	hustru	_	_	_	_	_	_	_	
+54-28	3893-3896	som	_	_	_	_	_	_	_	
+54-29	3897-3901	till	_	_	_	_	_	_	_	
+54-30	3902-3904	en	_	_	_	_	_	_	_	
+54-31	3905-3910	sköka	*	Target	54-31	false	1	_	_	
+54-32	3910-3911	"	_	_	_	_	_	_	_	
+54-33	3912-3913	(	_	_	_	_	_	_	_	
+54-34	3913-3916	det	_	_	_	_	_	_	_	
+54-35	3917-3921	vill	_	_	_	_	_	_	_	
+54-36	3922-3926	säga	_	_	_	_	_	_	_	
+54-37	3927-3929	ha	_	_	_	_	_	_	_	
+54-38	3930-3933	sex	_	_	_	_	_	_	_	
+54-39	3934-3937	för	_	_	_	_	_	_	_	
+54-40	3938-3947	njutnings	_	_	_	_	_	_	_	
+54-41	3948-3953	skull	_	_	_	_	_	_	_	
+54-42	3953-3954	)	_	_	_	_	_	_	_	
+54-43	3955-3958	ska	_	_	_	_	_	_	_	
+54-44	3959-3967	bekännas	_	_	_	_	_	_	_	
+54-45	3968-3971	som	_	_	_	_	_	_	_	
+54-46	3972-3975	ett	_	_	_	_	_	_	_	
+54-47	3976-3981	brott	_	_	_	_	_	_	_	
+54-48	3982-3985	mot	_	_	_	_	_	_	_	
+54-49	3986-3989	det	_	_	_	_	_	_	_	
+54-50	3990-3996	sjätte	_	_	_	_	_	_	_	
+54-51	3997-3999	av	_	_	_	_	_	_	_	
+54-52	4000-4002	10	_	_	_	_	_	_	_	
+54-53	4003-4007	Guds	_	_	_	_	_	_	_	
+54-54	4008-4012	buds	_	_	_	_	_	_	_	
+54-55	4012-4013	:	_	_	_	_	_	_	_	
+54-56	4014-4015	"	_	_	_	_	_	_	_	
+54-57	4015-4017	du	_	_	_	_	_	_	_	
+54-58	4018-4023	skall	_	_	_	_	_	_	_	
+54-59	4024-4028	icke	_	_	_	_	_	_	_	
+54-60	4029-4033	begå	_	_	_	_	_	_	_	
+54-61	4034-4049	äktenskapsbrott	_	_	_	_	_	_	_	
+54-62	4049-4050	"	_	_	_	_	_	_	_	
+54-63	4050-4051	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+55-1	4053-4054	#	_	_	_	_	_	_	_	
+55-2	4054-4055	P	_	_	_	_	_	_	_	
+55-3	4056-4059	IMM	_	_	_	_	_	_	_	
+55-4	4059-4060	.	_	_	_	_	_	_	_	
+
+#Text=Regeln tycks ha varit: helt säker på att sex är i enlighet med Guds vilja kan man vara, endast om samlaget inte skänker njutning och inte heller är något som man ser fram mot.
+56-1	4062-4068	Regeln	_	_	_	_	_	_	_	
+56-2	4069-4074	tycks	_	_	_	_	_	_	_	
+56-3	4075-4077	ha	_	_	_	_	_	_	_	
+56-4	4078-4083	varit	_	_	_	_	_	_	_	
+56-5	4083-4084	:	_	_	_	_	_	_	_	
+56-6	4085-4089	helt	_	_	_	_	_	_	_	
+56-7	4090-4095	säker	_	_	_	_	_	_	_	
+56-8	4096-4098	på	_	_	_	_	_	_	_	
+56-9	4099-4102	att	_	_	_	_	_	_	_	
+56-10	4103-4106	sex	_	_	_	_	_	_	_	
+56-11	4107-4109	är	_	_	_	_	_	_	_	
+56-12	4110-4111	i	_	_	_	_	_	_	_	
+56-13	4112-4120	enlighet	_	_	_	_	_	_	_	
+56-14	4121-4124	med	_	_	_	_	_	_	_	
+56-15	4125-4129	Guds	_	_	_	_	_	_	_	
+56-16	4130-4135	vilja	_	_	_	_	_	_	_	
+56-17	4136-4139	kan	_	_	_	_	_	_	_	
+56-18	4140-4143	man	_	_	_	_	_	_	_	
+56-19	4144-4148	vara	_	_	_	_	_	_	_	
+56-20	4148-4149	,	_	_	_	_	_	_	_	
+56-21	4150-4156	endast	_	_	_	_	_	_	_	
+56-22	4157-4159	om	_	_	_	_	_	_	_	
+56-23	4160-4168	samlaget	*	_	_	_	_	_	_	
+56-24	4169-4173	inte	_	Target[14]	56-23	false[14]	3[14]	_	_	
+56-25	4174-4181	skänker	_	Target[14]	56-23	false[14]	3[14]	_	_	
+56-26	4182-4190	njutning	_	Target[14]	56-23	false[14]	3[14]	_	_	
+56-27	4191-4194	och	_	_	_	_	_	_	_	
+56-28	4195-4199	inte	_	_	_	false	3	_	_	
+56-29	4200-4206	heller	_	_	_	_	_	_	_	
+56-30	4207-4209	är	_	Target[15]	56-23	false[15]	3[15]	56-28[0_15]	_	
+56-31	4210-4215	något	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-32	4216-4219	som	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-33	4220-4223	man	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-34	4224-4227	ser	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-35	4228-4232	fram	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-36	4233-4236	mot	_	Target[15]	56-23	false[15]	3[15]	_	_	
+56-37	4236-4237	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4239-4240	#	_	_	_	_	_	_	_	
+57-2	4240-4241	P	_	_	_	_	_	_	_	
+57-3	4242-4245	IMM	_	_	_	_	_	_	_	
+57-4	4245-4246	.	_	_	_	_	_	_	_	
+
+#Text=I korthet kan kyrkans traditionella sexualmoral sammanfattas så: avhållsamhet före äktenskapet, trohet inom äktenskapet och celibat efter äktenskapet, när ens partner avlidit.
+58-1	4248-4249	I	_	_	_	_	_	_	_	
+58-2	4250-4257	korthet	_	_	_	_	_	_	_	
+58-3	4258-4261	kan	_	_	_	_	_	_	_	
+58-4	4262-4269	kyrkans	_	_	_	_	_	_	_	
+58-5	4270-4283	traditionella	_	_	_	_	_	_	_	
+58-6	4284-4295	sexualmoral	_	_	_	_	_	_	_	
+58-7	4296-4308	sammanfattas	_	_	_	_	_	_	_	
+58-8	4309-4311	så	_	_	_	_	_	_	_	
+58-9	4311-4312	:	_	_	_	_	_	_	_	
+58-10	4313-4325	avhållsamhet	_	_	_	_	_	_	_	
+58-11	4326-4330	före	_	_	_	_	_	_	_	
+58-12	4331-4342	äktenskapet	_	_	_	_	_	_	_	
+58-13	4342-4343	,	_	_	_	_	_	_	_	
+58-14	4344-4350	trohet	_	_	_	_	_	_	_	
+58-15	4351-4355	inom	_	_	_	_	_	_	_	
+58-16	4356-4367	äktenskapet	_	_	_	_	_	_	_	
+58-17	4368-4371	och	_	_	_	_	_	_	_	
+58-18	4372-4379	celibat	_	_	_	_	_	_	_	
+58-19	4380-4385	efter	_	_	_	_	_	_	_	
+58-20	4386-4397	äktenskapet	_	_	_	_	_	_	_	
+58-21	4397-4398	,	_	_	_	_	_	_	_	
+58-22	4399-4402	när	_	_	_	_	_	_	_	
+58-23	4403-4406	ens	_	_	_	_	_	_	_	
+58-24	4407-4414	partner	_	_	_	_	_	_	_	
+58-25	4415-4422	avlidit	_	_	_	_	_	_	_	
+58-26	4422-4423	.	_	_	_	_	_	_	_	
+
+#Text=Skilsmässa är inte tillåten, inte heller några avvikelser från den heterosexuella normen.
+59-1	4424-4434	Skilsmässa	_	_	_	_	_	_	_	
+59-2	4435-4437	är	_	_	_	_	_	_	_	
+59-3	4438-4442	inte	_	_	_	_	_	_	_	
+59-4	4443-4451	tillåten	_	_	_	_	_	_	_	
+59-5	4451-4452	,	_	_	_	_	_	_	_	
+59-6	4453-4457	inte	_	_	_	_	_	_	_	
+59-7	4458-4464	heller	_	_	_	_	_	_	_	
+59-8	4465-4470	några	_	_	_	_	_	_	_	
+59-9	4471-4481	avvikelser	_	_	_	_	_	_	_	
+59-10	4482-4486	från	_	_	_	_	_	_	_	
+59-11	4487-4490	den	_	_	_	_	_	_	_	
+59-12	4491-4505	heterosexuella	_	_	_	_	_	_	_	
+59-13	4506-4512	normen	_	_	_	_	_	_	_	
+59-14	4512-4513	.	_	_	_	_	_	_	_	
+
+#Text=Utgångspunkten är att sexualitet har sin enda plats inom äktenskapet mellan man och kvinna.
+60-1	4514-4528	Utgångspunkten	_	_	_	_	_	_	_	
+60-2	4529-4531	är	_	_	_	_	_	_	_	
+60-3	4532-4535	att	_	_	_	_	_	_	_	
+60-4	4536-4546	sexualitet	_	_	_	_	_	_	_	
+60-5	4547-4550	har	_	_	_	_	_	_	_	
+60-6	4551-4554	sin	_	_	_	_	_	_	_	
+60-7	4555-4559	enda	_	_	_	_	_	_	_	
+60-8	4560-4565	plats	_	_	_	_	_	_	_	
+60-9	4566-4570	inom	_	_	_	_	_	_	_	
+60-10	4571-4582	äktenskapet	_	_	_	_	_	_	_	
+60-11	4583-4589	mellan	_	_	_	_	_	_	_	
+60-12	4590-4593	man	_	_	_	_	_	_	_	
+60-13	4594-4597	och	_	_	_	_	_	_	_	
+60-14	4598-4604	kvinna	_	_	_	_	_	_	_	
+60-15	4604-4605	.	_	_	_	_	_	_	_	
+
+#Text=Barnalstring är vad sexualiteten är till för.
+61-1	4606-4618	Barnalstring	_	_	_	_	_	_	_	
+61-2	4619-4621	är	_	_	_	_	_	_	_	
+61-3	4622-4625	vad	_	_	_	_	_	_	_	
+61-4	4626-4638	sexualiteten	_	_	_	_	_	_	_	
+61-5	4639-4641	är	_	_	_	_	_	_	_	
+61-6	4642-4646	till	_	_	_	_	_	_	_	
+61-7	4647-4650	för	_	_	_	_	_	_	_	
+61-8	4650-4651	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	4653-4654	#	_	_	_	_	_	_	_	
+62-2	4654-4655	P	_	_	_	_	_	_	_	
+62-3	4656-4659	IMM	_	_	_	_	_	_	_	
+62-4	4659-4660	.	_	_	_	_	_	_	_	
+
+#Text=Sexuell lust och njutning, som något värdefullt i sig, bottnar i en missuppfattning och är i själva verket uttryck för den synd som bor i människan.
+63-1	4662-4669	Sexuell	*[35]	_	_	_	_	_	_	
+63-2	4670-4674	lust	*[35]	_	_	_	_	_	_	
+63-3	4675-4678	och	*[35]	_	_	_	_	_	_	
+63-4	4679-4687	njutning	*[35]	_	_	_	_	_	_	
+63-5	4687-4688	,	_	_	_	_	_	_	_	
+63-6	4689-4692	som	_	_	_	_	_	_	_	
+63-7	4693-4698	något	_	_	_	_	_	_	_	
+63-8	4699-4709	värdefullt	_	Source;Target[16]	63-29;63-1[35]	false[16]	4[16]	_	_	
+63-9	4710-4711	i	_	Source;Target[16]	63-29;63-1[35]	false[16]	4[16]	_	_	
+63-10	4712-4715	sig	_	Source;Target[16]	63-29;63-1[35]	false[16]	4[16]	_	_	
+63-11	4715-4716	,	_	_	_	_	_	_	_	
+63-12	4717-4724	bottnar	_	_	_	_	_	_	_	
+63-13	4725-4726	i	_	_	_	_	_	_	_	
+63-14	4727-4729	en	_	_	_	_	_	_	_	
+63-15	4730-4745	missuppfattning	_	_	_	_	_	_	_	
+63-16	4746-4749	och	_	_	_	_	_	_	_	
+63-17	4750-4752	är	_	_	_	_	_	_	_	
+63-18	4753-4754	i	_	_	_	_	_	_	_	
+63-19	4755-4761	själva	_	_	_	_	_	_	_	
+63-20	4762-4768	verket	_	_	_	_	_	_	_	
+63-21	4769-4776	uttryck	_	_	_	_	_	_	_	
+63-22	4777-4780	för	_	_	_	_	_	_	_	
+63-23	4781-4784	den	_	_	_	_	_	_	_	
+63-24	4785-4789	synd	_	_	_	_	_	_	_	
+63-25	4790-4793	som	_	_	_	_	_	_	_	
+63-26	4794-4797	bor	_	_	_	_	_	_	_	
+63-27	4798-4799	i	_	_	_	_	_	_	_	
+63-28	4800-4809	människan	_	_	_	_	_	_	_	
+63-29	4809-4810	.	*	_	_	_	_	_	_	
+
+#Text=Det är här man finner incitamentet till framför allt den katolska kyrkans hårdnackade motstånd mot preventivmedel och barnbegränsning, annat än i form av avhållsamhet (vilket egentligen är helt ologiskt) och sex under så kallade säkra perioder.
+64-1	4811-4814	Det	_	_	_	_	_	_	_	
+64-2	4815-4817	är	_	_	_	_	_	_	_	
+64-3	4818-4821	här	_	_	_	_	_	_	_	
+64-4	4822-4825	man	_	_	_	_	_	_	_	
+64-5	4826-4832	finner	_	_	_	_	_	_	_	
+64-6	4833-4845	incitamentet	*	Target	64-6	false	3	_	_	
+64-7	4846-4850	till	_	_	_	_	_	_	_	
+64-8	4851-4858	framför	_	_	_	_	_	_	_	
+64-9	4859-4863	allt	_	_	_	_	_	_	_	
+64-10	4864-4867	den	*[36]	_	_	_	_	_	_	
+64-11	4868-4876	katolska	*[36]	_	_	_	_	_	_	
+64-12	4877-4884	kyrkans	*[36]	_	_	_	_	_	_	
+64-13	4885-4896	hårdnackade	_	Source;Target;Target[17]	64-10[36];64-16;64-18	false[17]	1[17]	_	_	
+64-14	4897-4905	motstånd	_	Source;Target;Target[17]	64-10[36];64-16;64-18	false[17]	1[17]	_	_	
+64-15	4906-4909	mot	_	Source;Target;Target[17]	64-10[36];64-16;64-18	false[17]	1[17]	_	_	
+64-16	4910-4924	preventivmedel	*	_	_	_	_	_	_	
+64-17	4925-4928	och	_	_	_	_	_	_	_	
+64-18	4929-4944	barnbegränsning	*	_	_	_	_	_	_	
+64-19	4944-4945	,	_	_	_	_	_	_	_	
+64-20	4946-4951	annat	_	_	_	_	_	_	_	
+64-21	4952-4954	än	_	_	_	_	_	_	_	
+64-22	4955-4956	i	_	_	_	_	_	_	_	
+64-23	4957-4961	form	_	_	_	_	_	_	_	
+64-24	4962-4964	av	_	_	_	_	_	_	_	
+64-25	4965-4977	avhållsamhet	_	_	_	_	_	_	_	
+64-26	4978-4979	(	_	_	_	_	_	_	_	
+64-27	4979-4985	vilket	_	_	_	_	_	_	_	
+64-28	4986-4996	egentligen	_	_	_	_	_	_	_	
+64-29	4997-4999	är	_	_	_	_	_	_	_	
+64-30	5000-5004	helt	_	_	_	_	_	_	_	
+64-31	5005-5013	ologiskt	_	_	_	_	_	_	_	
+64-32	5013-5014	)	_	_	_	_	_	_	_	
+64-33	5015-5018	och	_	_	_	_	_	_	_	
+64-34	5019-5022	sex	_	_	_	_	_	_	_	
+64-35	5023-5028	under	_	_	_	_	_	_	_	
+64-36	5029-5031	så	_	_	_	_	_	_	_	
+64-37	5032-5039	kallade	_	_	_	_	_	_	_	
+64-38	5040-5045	säkra	_	_	_	_	_	_	_	
+64-39	5046-5054	perioder	_	_	_	_	_	_	_	
+64-40	5054-5055	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+65-1	5057-5058	#	_	_	_	_	_	_	_	
+65-2	5058-5059	P	_	_	_	_	_	_	_	
+65-3	5060-5063	IMM	_	_	_	_	_	_	_	
+65-4	5063-5064	.	_	_	_	_	_	_	_	
+
+#Text=Användningen av antikonceptuella hjälpmedel står i strid med synen på sexualiteten som en del i skapelseverket och ger den ett egenvärde som motverkar Guds syften.
+66-1	5066-5078	Användningen	*[37]	_	_	_	_	_	_	
+66-2	5079-5081	av	*[37]	_	_	_	_	_	_	
+66-3	5082-5098	antikonceptuella	*[37]	_	_	_	_	_	_	
+66-4	5099-5109	hjälpmedel	*[37]	_	_	_	_	_	_	
+66-5	5110-5114	står	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-6	5115-5116	i	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-7	5117-5122	strid	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-8	5123-5126	med	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-9	5127-5132	synen	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-10	5133-5135	på	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-11	5136-5148	sexualiteten	_	Target;Source[18]	66-1[37];64-10[36]	false[18]	1[18]	_	_	
+66-12	5149-5152	som	_	_	_	_	_	_	_	
+66-13	5153-5155	en	_	_	_	_	_	_	_	
+66-14	5156-5159	del	_	_	_	_	_	_	_	
+66-15	5160-5161	i	_	_	_	_	_	_	_	
+66-16	5162-5176	skapelseverket	_	_	_	_	_	_	_	
+66-17	5177-5180	och	_	_	_	_	_	_	_	
+66-18	5181-5184	ger	_	_	_	_	_	_	_	
+66-19	5185-5188	den	_	_	_	_	_	_	_	
+66-20	5189-5192	ett	_	_	_	_	_	_	_	
+66-21	5193-5202	egenvärde	_	_	_	_	_	_	_	
+66-22	5203-5206	som	_	_	_	_	_	_	_	
+66-23	5207-5216	motverkar	_	_	_	_	_	_	_	
+66-24	5217-5221	Guds	_	_	_	_	_	_	_	
+66-25	5222-5228	syften	_	_	_	_	_	_	_	
+66-26	5228-5229	.	_	_	_	_	_	_	_	
+
+#Text=Här finner man också ursprunget till kyrkornas länge omhuldade motstånd mot onani.
+67-1	5230-5233	Här	_	_	_	_	_	_	_	
+67-2	5234-5240	finner	_	_	_	_	_	_	_	
+67-3	5241-5244	man	_	_	_	_	_	_	_	
+67-4	5245-5250	också	_	_	_	_	_	_	_	
+67-5	5251-5261	ursprunget	_	_	_	_	_	_	_	
+67-6	5262-5266	till	_	_	_	_	_	_	_	
+67-7	5267-5276	kyrkornas	*	_	_	_	_	_	_	
+67-8	5277-5282	länge	_	_	_	_	_	_	_	
+67-9	5283-5292	omhuldade	_	Source;Target[19]	67-7;67-12	false[19]	1[19]	_	_	
+67-10	5293-5301	motstånd	_	Source;Target[19]	67-7;67-12	false[19]	1[19]	_	_	
+67-11	5302-5305	mot	_	Source;Target[19]	67-7;67-12	false[19]	1[19]	_	_	
+67-12	5306-5311	onani	*	_	_	_	_	_	_	
+67-13	5311-5312	.	_	_	_	_	_	_	_	
+
+#Text=Onani fyller ingen reproduktiv funktion och strider därför mot Guds vilja.
+68-1	5313-5318	Onani	_	_	_	_	_	_	_	
+68-2	5319-5325	fyller	_	_	_	_	_	_	_	
+68-3	5326-5331	ingen	_	_	_	_	_	_	_	
+68-4	5332-5343	reproduktiv	_	_	_	_	_	_	_	
+68-5	5344-5352	funktion	_	_	_	_	_	_	_	
+68-6	5353-5356	och	_	_	_	_	_	_	_	
+68-7	5357-5364	strider	_	_	_	_	_	_	_	
+68-8	5365-5371	därför	_	_	_	_	_	_	_	
+68-9	5372-5375	mot	_	_	_	_	_	_	_	
+68-10	5376-5380	Guds	_	_	_	_	_	_	_	
+68-11	5381-5386	vilja	_	_	_	_	_	_	_	
+68-12	5386-5387	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+69-1	5389-5390	#	_	_	_	_	_	_	_	
+69-2	5390-5391	P	_	_	_	_	_	_	_	
+69-3	5392-5395	IMM	_	_	_	_	_	_	_	
+69-4	5395-5396	.	_	_	_	_	_	_	_	
+
+#Text=Inte förrän man sätter in pedofilskandaler och celibat i detta sammanhang kan man få en debatt om det som verkligen måste ifrågasättas: kyrkans traditionella syn på sexualiteten.
+70-1	5398-5402	Inte	_	_	_	_	_	_	_	
+70-2	5403-5409	förrän	_	_	_	_	_	_	_	
+70-3	5410-5413	man	_	_	_	_	_	_	_	
+70-4	5414-5420	sätter	_	_	_	_	_	_	_	
+70-5	5421-5423	in	_	_	_	_	_	_	_	
+70-6	5424-5440	pedofilskandaler	*	Target	70-6	false	1	_	_	
+70-7	5441-5444	och	_	_	_	_	_	_	_	
+70-8	5445-5452	celibat	_	_	_	_	_	_	_	
+70-9	5453-5454	i	_	_	_	_	_	_	_	
+70-10	5455-5460	detta	_	_	_	_	_	_	_	
+70-11	5461-5471	sammanhang	_	_	_	_	_	_	_	
+70-12	5472-5475	kan	_	_	_	_	_	_	_	
+70-13	5476-5479	man	_	_	_	_	_	_	_	
+70-14	5480-5482	få	_	_	_	_	_	_	_	
+70-15	5483-5485	en	_	_	_	_	_	_	_	
+70-16	5486-5492	debatt	_	_	_	_	_	_	_	
+70-17	5493-5495	om	_	_	_	_	_	_	_	
+70-18	5496-5499	det	_	_	_	_	_	_	_	
+70-19	5500-5503	som	_	_	_	_	_	_	_	
+70-20	5504-5513	verkligen	_	_	_	_	_	_	_	
+70-21	5514-5519	måste	_	_	_	_	_	_	_	
+70-22	5520-5532	ifrågasättas	_	_	_	_	_	_	_	
+70-23	5532-5533	:	_	_	_	_	_	_	_	
+70-24	5534-5541	kyrkans	_	_	_	_	_	_	_	
+70-25	5542-5555	traditionella	_	_	_	_	_	_	_	
+70-26	5556-5559	syn	_	_	_	_	_	_	_	
+70-27	5560-5562	på	_	_	_	_	_	_	_	
+70-28	5563-5575	sexualiteten	_	_	_	_	_	_	_	
+70-29	5575-5576	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+71-1	5578-5579	#	_	_	_	_	_	_	_	
+71-2	5579-5580	P	_	_	_	_	_	_	_	
+71-3	5581-5584	IMM	_	_	_	_	_	_	_	
+71-4	5584-5585	.	_	_	_	_	_	_	_	
+
+#Text=STEN PHILIPSON.
+72-1	5587-5591	STEN	_	_	_	_	_	_	_	
+72-2	5592-5601	PHILIPSON	_	_	_	_	_	_	_	
+72-3	5601-5602	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+73-1	5604-5605	#	_	_	_	_	_	_	_	
+73-2	5605-5606	P	_	_	_	_	_	_	_	
+73-3	5607-5610	IMM	_	_	_	_	_	_	_	
+73-4	5610-5611	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+74-1	5613-5621	Redaktör	_	_	_	_	_	_	_	
+74-2	5621-5622	:	_	_	_	_	_	_	_	
+74-3	5623-5629	Carina	_	_	_	_	_	_	_	
+74-4	5630-5638	Stensson	_	_	_	_	_	_	_	
+74-5	5638-5639	,	_	_	_	_	_	_	_	
+74-6	5640-5650	Biträdande	_	_	_	_	_	_	_	
+74-7	5651-5659	redaktör	_	_	_	_	_	_	_	
+74-8	5659-5660	:	_	_	_	_	_	_	_	
+74-9	5661-5666	Björn	_	_	_	_	_	_	_	
+74-10	5667-5673	Jorner	_	_	_	_	_	_	_	
+74-11	5673-5674	,	_	_	_	_	_	_	_	
+74-12	5675-5679	Mejl	_	_	_	_	_	_	_	
+74-13	5679-5680	:	_	_	_	_	_	_	_	
+74-14	5681-5687	debatt	_	_	_	_	_	_	_	
+74-15	5687-5688	@	_	_	_	_	_	_	_	
+74-16	5688-5694	svd.se	_	_	_	_	_	_	_	
+74-17	5694-5695	,	_	_	_	_	_	_	_	
+74-18	5696-5709	Telefonnummer	_	_	_	_	_	_	_	
+74-19	5709-5710	:	_	_	_	_	_	_	_	
+74-20	5711-5713	08	_	_	_	_	_	_	_	
+74-21	5713-5714	-	_	_	_	_	_	_	_	
+74-22	5714-5720	135149	_	_	_	_	_	_	_	
+74-23	5720-5721	,	_	_	_	_	_	_	_	
+74-24	5722-5729	Twitter	_	_	_	_	_	_	_	
+74-25	5729-5730	:	_	_	_	_	_	_	_	
+74-26	5731-5732	@	_	_	_	_	_	_	_	
+74-27	5732-5741	SvDDebatt	_	_	_	_	_	_	_	
+74-28	5741-5742	,	_	_	_	_	_	_	_	
+74-29	5743-5751	Facebook	_	_	_	_	_	_	_	
+74-30	5751-5752	:	_	_	_	_	_	_	_	
+74-31	5753-5756	SvD	_	_	_	_	_	_	_	
+74-32	5757-5763	Debatt	_	_	_	_	_	_	_	
+74-33	5763-5764	.	_	_	_	_	_	_	_	

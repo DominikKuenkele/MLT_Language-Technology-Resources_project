@@ -1,0 +1,355 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Skolan blundar för ”bokstavsbarnen”.
+3-1	18-24	Skolan	*	_	_	_	_	_	
+3-2	25-32	blundar	_	Target;Source[1]	3-5;3-1	false[1]	1[1]	_	
+3-3	33-36	för	_	Target;Source[1]	3-5;3-1	false[1]	1[1]	_	
+3-4	37-38	”	_	_	_	_	_	_	
+3-5	38-52	bokstavsbarnen	*	_	_	_	_	_	
+3-6	52-53	”	_	_	_	_	_	_	
+3-7	53-54	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	56-57	#	_	_	_	_	_	_	
+4-2	57-58	P	_	_	_	_	_	_	
+4-3	59-62	IMM	_	_	_	_	_	_	
+4-4	62-63	.	_	_	_	_	_	_	
+
+#Text=Malene Larssen skrev den 10/6 på  Debatt att alla barn med neuropsykiatriska funktionsnedsättningar inte klarar att gå i ”vanliga” klasser.
+5-1	65-71	Malene	*[18]	_	_	_	_	_	
+5-2	72-79	Larssen	*[18]	_	_	_	_	_	
+5-3	80-85	skrev	_	_	_	_	_	_	
+5-4	86-89	den	_	_	_	_	_	_	
+5-5	90-92	10	_	_	_	_	_	_	
+5-6	92-93	/	_	_	_	_	_	_	
+5-7	93-94	6	_	_	_	_	_	_	
+5-8	95-97	på	_	_	_	_	_	_	
+5-9	99-105	Debatt	_	_	_	_	_	_	
+5-10	106-109	att	_	_	_	_	_	_	
+5-11	110-114	alla	_	_	_	_	_	_	
+5-12	115-119	barn	*[19]	_	_	_	_	_	
+5-13	120-123	med	*[19]	_	_	_	_	_	
+5-14	124-141	neuropsykiatriska	*[19]	_	_	_	_	_	
+5-15	142-164	funktionsnedsättningar	*[19]	_	_	_	_	_	
+5-16	165-169	inte	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-17	170-176	klarar	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-18	177-180	att	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-19	181-183	gå	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-20	184-185	i	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-21	186-187	”	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-22	187-194	vanliga	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-23	194-195	”	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-24	196-203	klasser	_	Target;Source[2]	5-12[19];5-1[18]	false[2]	2[2]	_	
+5-25	203-204	.	_	_	_	_	_	_	
+
+#Text=Jag instämmer i allt hon säger.
+6-1	205-208	Jag	*	_	_	_	_	_	
+6-2	209-218	instämmer	*	Target;Source	6-2;6-1	false	5	_	
+6-3	219-220	i	_	_	_	_	_	_	
+6-4	221-225	allt	_	_	_	_	_	_	
+6-5	226-229	hon	_	_	_	_	_	_	
+6-6	230-235	säger	_	_	_	_	_	_	
+6-7	235-236	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	238-239	#	_	_	_	_	_	_	
+7-2	239-240	P	_	_	_	_	_	_	
+7-3	241-244	IMM	_	_	_	_	_	_	
+7-4	244-245	.	_	_	_	_	_	_	
+
+#Text=Det är svårt att få respekt, förståelse och medkänsla för barn med till exempel adhd, add, Aspergers syndrom och Tourettes syndrom.
+8-1	247-250	Det	_	_	_	_	_	_	
+8-2	251-253	är	_	_	_	_	_	_	
+8-3	254-259	svårt	_	Target;Target;Target[3]	8-10[24];8-8[22];8-6[20]	false[3]	2[3]	_	
+8-4	260-263	att	_	Target;Target;Target[3]	8-10[24];8-8[22];8-6[20]	false[3]	2[3]	_	
+8-5	264-266	få	_	Target;Target;Target[3]	8-10[24];8-8[22];8-6[20]	false[3]	2[3]	_	
+8-6	267-274	respekt	*[20]|*[21]	Target	8-6[21]	false	5	_	
+8-7	274-275	,	_	_	_	_	_	_	
+8-8	276-286	förståelse	*[22]|*[23]	Target	8-8[23]	false	5	_	
+8-9	287-290	och	_	_	_	_	_	_	
+8-10	291-300	medkänsla	*[24]|*[25]	Target	8-10[25]	false	5	_	
+8-11	301-304	för	_	_	_	_	_	_	
+8-12	305-309	barn	_	_	_	_	_	_	
+8-13	310-313	med	_	_	_	_	_	_	
+8-14	314-318	till	_	_	_	_	_	_	
+8-15	319-326	exempel	_	_	_	_	_	_	
+8-16	327-331	adhd	_	_	_	_	_	_	
+8-17	331-332	,	_	_	_	_	_	_	
+8-18	333-336	add	_	_	_	_	_	_	
+8-19	336-337	,	_	_	_	_	_	_	
+8-20	338-347	Aspergers	_	_	_	_	_	_	
+8-21	348-355	syndrom	_	_	_	_	_	_	
+8-22	356-359	och	_	_	_	_	_	_	
+8-23	360-369	Tourettes	_	_	_	_	_	_	
+8-24	370-377	syndrom	_	_	_	_	_	_	
+8-25	377-378	.	_	_	_	_	_	_	
+
+#Text=Utan rätt bemötande blir dessa barns självkänsla förstörd.
+9-1	379-383	Utan	_	_	_	_	_	_	
+9-2	384-388	rätt	*[26]	Target[4]	9-2[26]	false[4]	5[4]	_	
+9-3	389-398	bemötande	*[26]	Target[4]	9-2[26]	false[4]	5[4]	_	
+9-4	399-403	blir	_	_	_	false	1	_	
+9-5	404-409	dessa	*[27]	_	_	_	_	_	
+9-6	410-415	barns	*[27]	_	_	_	_	_	
+9-7	416-427	självkänsla	*[27]	_	_	_	_	_	
+9-8	428-436	förstörd	_	Target	9-5[27]	false	1	9-4	
+9-9	436-437	.	_	_	_	_	_	_	
+
+#Text=Ärren i själen kan tiden aldrig läka.
+10-1	438-443	Ärren	_	_	_	_	_	_	
+10-2	444-445	i	_	_	_	_	_	_	
+10-3	446-452	själen	_	_	_	_	_	_	
+10-4	453-456	kan	_	_	_	_	_	_	
+10-5	457-462	tiden	_	_	_	_	_	_	
+10-6	463-469	aldrig	_	_	_	_	_	_	
+10-7	470-474	läka	_	_	_	_	_	_	
+10-8	474-475	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	477-478	#	_	_	_	_	_	_	
+11-2	478-479	P	_	_	_	_	_	_	
+11-3	480-483	IMM	_	_	_	_	_	_	
+11-4	483-484	.	_	_	_	_	_	_	
+
+#Text=Skolhälsovården står som en garant för tidig upptäckt, liksom ett aktivt BVC.
+12-1	486-501	Skolhälsovården	_	_	_	_	_	_	
+12-2	502-506	står	_	_	_	_	_	_	
+12-3	507-510	som	_	_	_	_	_	_	
+12-4	511-513	en	_	_	_	_	_	_	
+12-5	514-520	garant	_	_	_	_	_	_	
+12-6	521-524	för	_	_	_	_	_	_	
+12-7	525-530	tidig	_	_	_	_	_	_	
+12-8	531-539	upptäckt	_	_	_	_	_	_	
+12-9	539-540	,	_	_	_	_	_	_	
+12-10	541-547	liksom	_	_	_	_	_	_	
+12-11	548-551	ett	_	_	_	_	_	_	
+12-12	552-558	aktivt	_	_	_	_	_	_	
+12-13	559-562	BVC	_	_	_	_	_	_	
+12-14	562-563	.	_	_	_	_	_	_	
+
+#Text=När föräldrar förstår att deras ”ouppfostrade” barn, som både är mobbare och blir mobbade, i själva verket har medicinska tillkortakommanden, uppstår en ny generation föräldrar som inte accepterar att deras barns medicinska diagnoser inte behandlas i skolan eller i samhället som det funktionshindrande handikapp det är.
+13-1	564-567	När	_	_	_	_	_	_	
+13-2	568-577	föräldrar	*	_	_	_	_	_	
+13-3	578-585	förstår	_	_	_	_	_	_	
+13-4	586-589	att	_	_	_	_	_	_	
+13-5	590-595	deras	*[28]	_	_	_	_	_	
+13-6	596-597	”	*[28]	_	_	_	_	_	
+13-7	597-609	ouppfostrade	*[28]	Target	13-9[29]	true	1	_	
+13-8	609-610	”	*[28]	_	_	_	_	_	
+13-9	611-615	barn	*[28]|*[29]	_	_	_	_	_	
+13-10	615-616	,	_	_	_	_	_	_	
+13-11	617-620	som	_	_	_	_	_	_	
+13-12	621-625	både	_	_	_	_	_	_	
+13-13	626-628	är	_	_	_	_	_	_	
+13-14	629-636	mobbare	_	_	_	_	_	_	
+13-15	637-640	och	_	_	_	_	_	_	
+13-16	641-645	blir	_	_	_	_	_	_	
+13-17	646-653	mobbade	_	_	_	_	_	_	
+13-18	653-654	,	_	_	_	_	_	_	
+13-19	655-656	i	_	_	_	_	_	_	
+13-20	657-663	själva	_	_	_	_	_	_	
+13-21	664-670	verket	_	_	_	_	_	_	
+13-22	671-674	har	_	Target;Source[5]	13-5[28];13-2	false[5]	2[5]	_	
+13-23	675-685	medicinska	_	Target;Source[5]	13-5[28];13-2	false[5]	2[5]	_	
+13-24	686-704	tillkortakommanden	_	Target;Source[5]	13-5[28];13-2	false[5]	2[5]	_	
+13-25	704-705	,	_	_	_	_	_	_	
+13-26	706-713	uppstår	_	_	_	_	_	_	
+13-27	714-716	en	_	_	_	_	_	_	
+13-28	717-719	ny	_	_	_	_	_	_	
+13-29	720-730	generation	_	_	_	_	_	_	
+13-30	731-740	föräldrar	*	_	_	_	_	_	
+13-31	741-744	som	_	_	_	_	_	_	
+13-32	745-749	inte	_	Source;Target[6]	13-30;13-34[30]	false[6]	1[6]	_	
+13-33	750-760	accepterar	_	Source;Target[6]	13-30;13-34[30]	false[6]	1[6]	_	
+13-34	761-764	att	*[30]	_	_	_	_	_	
+13-35	765-770	deras	*[30]	_	_	_	_	_	
+13-36	771-776	barns	*[30]	_	_	_	_	_	
+13-37	777-787	medicinska	*[30]	_	_	_	_	_	
+13-38	788-797	diagnoser	*[30]	_	_	_	_	_	
+13-39	798-802	inte	*[30]	_	_	_	_	_	
+13-40	803-812	behandlas	*[30]	_	_	_	_	_	
+13-41	813-814	i	*[30]	_	_	_	_	_	
+13-42	815-821	skolan	*[30]	_	_	_	_	_	
+13-43	822-827	eller	*[30]	_	_	_	_	_	
+13-44	828-829	i	*[30]	_	_	_	_	_	
+13-45	830-839	samhället	*[30]	_	_	_	_	_	
+13-46	840-843	som	*[30]	_	_	_	_	_	
+13-47	844-847	det	*[30]	_	_	_	_	_	
+13-48	848-866	funktionshindrande	*[30]	_	_	_	_	_	
+13-49	867-876	handikapp	*[30]	_	_	_	_	_	
+13-50	877-880	det	*[30]	_	_	_	_	_	
+13-51	881-883	är	*[30]	_	_	_	_	_	
+13-52	883-884	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	886-887	#	_	_	_	_	_	_	
+14-2	887-888	P	_	_	_	_	_	_	
+14-3	889-892	IMM	_	_	_	_	_	_	
+14-4	892-893	.	_	_	_	_	_	_	
+
+#Text=Vi vet nu att svårt trötta barn kan lida av sömnsjuka, narkolepsi, som en biverkan av vaccineringen  med svininfluensa.
+15-1	895-897	Vi	_	_	_	_	_	_	
+15-2	898-901	vet	_	_	_	_	_	_	
+15-3	902-904	nu	_	_	_	_	_	_	
+15-4	905-908	att	_	_	_	_	_	_	
+15-5	909-914	svårt	*[31]	_	_	_	_	_	
+15-6	915-921	trötta	*[31]	_	_	_	_	_	
+15-7	922-926	barn	*[31]	_	_	_	_	_	
+15-8	927-930	kan	_	_	_	_	_	_	
+15-9	931-935	lida	_	Target;Target;Source[7]	15-11;15-13;15-5[31]	false[7]	1[7]	_	
+15-10	936-938	av	_	Target;Target;Source[7]	15-11;15-13;15-5[31]	false[7]	1[7]	_	
+15-11	939-948	sömnsjuka	*	_	_	_	_	_	
+15-12	948-949	,	_	_	_	_	_	_	
+15-13	950-960	narkolepsi	*	_	_	_	_	_	
+15-14	960-961	,	_	_	_	_	_	_	
+15-15	962-965	som	_	_	_	_	_	_	
+15-16	966-968	en	_	_	_	_	_	_	
+15-17	969-977	biverkan	_	Target[8]	15-19[32]	false[8]	1[8]	_	
+15-18	978-980	av	_	Target[8]	15-19[32]	false[8]	1[8]	_	
+15-19	981-994	vaccineringen	*[32]	_	_	_	_	_	
+15-20	996-999	med	*[32]	_	_	_	_	_	
+15-21	1000-1013	svininfluensa	*[32]	_	_	_	_	_	
+15-22	1013-1014	.	_	_	_	_	_	_	
+
+#Text=Aktiva föräldrar har lyckats få en opinion att förstå det tragiska som hänt och därmed en acceptans och begynnande hjälp från samhället.
+16-1	1015-1021	Aktiva	*[33]	_	_	_	_	_	
+16-2	1022-1031	föräldrar	*[33]	_	_	_	_	_	
+16-3	1032-1035	har	_	Source;Target[9]	16-1[33];16-6[34]	false[9]	5[9]	_	
+16-4	1036-1043	lyckats	_	Source;Target[9]	16-1[33];16-6[34]	false[9]	5[9]	_	
+16-5	1044-1046	få	_	Source;Target[9]	16-1[33];16-6[34]	false[9]	5[9]	_	
+16-6	1047-1049	en	*[34]	_	_	_	_	_	
+16-7	1050-1057	opinion	*[34]	_	_	_	_	_	
+16-8	1058-1061	att	_	_	_	_	_	_	
+16-9	1062-1068	förstå	_	_	_	_	_	_	
+16-10	1069-1072	det	*[35]	Target[10]	16-10[35]	false[10]	1[10]	_	
+16-11	1073-1081	tragiska	*[35]	Target[10]	16-10[35]	false[10]	1[10]	_	
+16-12	1082-1085	som	*[35]	Target[10]	16-10[35]	false[10]	1[10]	_	
+16-13	1086-1090	hänt	*[35]	Target[10]	16-10[35]	false[10]	1[10]	_	
+16-14	1091-1094	och	_	_	_	_	_	_	
+16-15	1095-1101	därmed	_	_	_	_	_	_	
+16-16	1102-1104	en	_	_	_	_	_	_	
+16-17	1105-1114	acceptans	*	Target	16-17	false	4	_	
+16-18	1115-1118	och	_	_	_	_	_	_	
+16-19	1119-1129	begynnande	*[36]	Target[11]	16-19[36]	false[11]	4[11]	_	
+16-20	1130-1135	hjälp	*[36]	Target[11]	16-19[36]	false[11]	4[11]	_	
+16-21	1136-1140	från	_	_	_	_	_	_	
+16-22	1141-1150	samhället	_	_	_	_	_	_	
+16-23	1150-1151	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1153-1154	#	_	_	_	_	_	_	
+17-2	1154-1155	P	_	_	_	_	_	_	
+17-3	1156-1159	IMM	_	_	_	_	_	_	
+17-4	1159-1160	.	_	_	_	_	_	_	
+
+#Text=På samma sätt måste vi acceptera att det finns barn som har så allvarliga former av koncentrationsstörningar eller problem med socialt samspel att de leder till medicinska diagnoser.
+18-1	1162-1164	På	_	_	_	_	_	_	
+18-2	1165-1170	samma	_	_	_	_	_	_	
+18-3	1171-1175	sätt	_	_	_	_	_	_	
+18-4	1176-1181	måste	_	Target;Source	18-7[39];18-5[38]	false	3	_	
+18-5	1182-1184	vi	*[37]|*[38]	_	_	_	_	_	
+18-6	1185-1194	acceptera	_	_	_	false	3	18-4	
+18-7	1195-1198	att	*[39]	_	_	_	_	_	
+18-8	1199-1202	det	*[39]	_	_	_	_	_	
+18-9	1203-1208	finns	*[39]	_	_	_	_	_	
+18-10	1209-1213	barn	*[39]|*[40]|*[41]	_	_	_	_	_	
+18-11	1214-1217	som	*[39]	_	_	_	_	_	
+18-12	1218-1221	har	*[39]	_[12]|_[13]	_|_	false[12]|false[13]	1[12]|1[13]	_	
+18-13	1222-1224	så	*[39]	_	_	_	_	_	
+18-14	1225-1235	allvarliga	*[39]	Source[14]	18-10[41]	false[14]	1[14]	18-12[12_14]	
+18-15	1236-1242	former	*[39]	Source[14]	18-10[41]	false[14]	1[14]	_	
+18-16	1243-1245	av	*[39]	Source[14]	18-10[41]	false[14]	1[14]	_	
+18-17	1246-1270	koncentrationsstörningar	*[39]|*[42]	_	_	_	_	_	
+18-18	1271-1276	eller	*[39]	_	_	_	_	_	
+18-19	1277-1284	problem	*[39]	Target;Source[15]	18-21[43];18-10[40]	false[15]	1[15]	18-12[13_15]	
+18-20	1285-1288	med	*[39]	Target;Source[15]	18-21[43];18-10[40]	false[15]	1[15]	_	
+18-21	1289-1296	socialt	*[39]|*[43]	_	_	_	_	_	
+18-22	1297-1304	samspel	*[39]|*[43]	_	_	_	_	_	
+18-23	1305-1308	att	*[39]	_	_	_	_	_	
+18-24	1309-1311	de	*[39]	_	_	_	_	_	
+18-25	1312-1317	leder	*[39]	_	_	_	_	_	
+18-26	1318-1322	till	*[39]	_	_	_	_	_	
+18-27	1323-1333	medicinska	*[39]	_	_	_	_	_	
+18-28	1334-1343	diagnoser	*[39]	_	_	_	_	_	
+18-29	1343-1344	.	_	_	_	_	_	_	
+
+#Text=Dessa klassificeras av Socialstyrelsen som sjukdom och hälsoproblem.
+19-1	1345-1350	Dessa	_	_	_	_	_	_	
+19-2	1351-1364	klassificeras	_	_	_	_	_	_	
+19-3	1365-1367	av	_	_	_	_	_	_	
+19-4	1368-1383	Socialstyrelsen	_	_	_	_	_	_	
+19-5	1384-1387	som	_	_	_	_	_	_	
+19-6	1388-1395	sjukdom	_	_	_	_	_	_	
+19-7	1396-1399	och	_	_	_	_	_	_	
+19-8	1400-1412	hälsoproblem	*	Target	19-8	false	1	_	
+19-9	1412-1413	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+20-1	1415-1416	#	_	_	_	_	_	_	
+20-2	1416-1417	P	_	_	_	_	_	_	
+20-3	1418-1421	IMM	_	_	_	_	_	_	
+20-4	1421-1422	.	_	_	_	_	_	_	
+
+#Text=Föräldrarna känner en vanmakt, som jag som skolläkare delar med dem, när vi inte får gehör hos skolan för att skapa små strukturerade enheter med speciellt utbildade lärare och specialpedagoger.
+21-1	1424-1435	Föräldrarna	*	_	_	_	_	_	
+21-2	1436-1442	känner	*[44]	Target;Source[16]	21-2[44];21-1	false[16]	1[16]	_	
+21-3	1443-1445	en	*[44]	Target;Source[16]	21-2[44];21-1	false[16]	1[16]	_	
+21-4	1446-1453	vanmakt	*[44]	Target;Source[16]	21-2[44];21-1	false[16]	1[16]	_	
+21-5	1453-1454	,	_	_	_	_	_	_	
+21-6	1455-1458	som	_	_	_	_	_	_	
+21-7	1459-1462	jag	_	_	_	_	_	_	
+21-8	1463-1466	som	_	_	_	_	_	_	
+21-9	1467-1477	skolläkare	_	_	_	_	_	_	
+21-10	1478-1483	delar	_	_	_	_	_	_	
+21-11	1484-1487	med	_	_	_	_	_	_	
+21-12	1488-1491	dem	_	_	_	_	_	_	
+21-13	1491-1492	,	_	_	_	_	_	_	
+21-14	1493-1496	när	_	_	_	_	_	_	
+21-15	1497-1499	vi	*	_	_	_	_	_	
+21-16	1500-1504	inte	_	Source;Target[17]	21-20;21-15	false[17]	1[17]	_	
+21-17	1505-1508	får	_	Source;Target[17]	21-20;21-15	false[17]	1[17]	_	
+21-18	1509-1514	gehör	_	Source;Target[17]	21-20;21-15	false[17]	1[17]	_	
+21-19	1515-1518	hos	_	Source;Target[17]	21-20;21-15	false[17]	1[17]	_	
+21-20	1519-1525	skolan	*	_	_	_	_	_	
+21-21	1526-1529	för	_	_	_	_	_	_	
+21-22	1530-1533	att	_	_	_	_	_	_	
+21-23	1534-1539	skapa	_	_	_	_	_	_	
+21-24	1540-1543	små	_	_	_	_	_	_	
+21-25	1544-1557	strukturerade	_	_	_	_	_	_	
+21-26	1558-1565	enheter	_	_	_	_	_	_	
+21-27	1566-1569	med	_	_	_	_	_	_	
+21-28	1570-1579	speciellt	_	_	_	_	_	_	
+21-29	1580-1589	utbildade	_	_	_	_	_	_	
+21-30	1590-1596	lärare	_	_	_	_	_	_	
+21-31	1597-1600	och	_	_	_	_	_	_	
+21-32	1601-1617	specialpedagoger	_	_	_	_	_	_	
+21-33	1617-1618	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1620-1621	#	_	_	_	_	_	_	
+22-2	1621-1622	P	_	_	_	_	_	_	
+22-3	1623-1626	IMM	_	_	_	_	_	_	
+22-4	1626-1627	.	_	_	_	_	_	_	
+
+#Text=Sophie Ekman, skolöverläkare.
+23-1	1629-1635	Sophie	_	_	_	_	_	_	
+23-2	1636-1641	Ekman	_	_	_	_	_	_	
+23-3	1641-1642	,	_	_	_	_	_	_	
+23-4	1643-1657	skolöverläkare	_	_	_	_	_	_	
+23-5	1657-1658	.	_	_	_	_	_	_	

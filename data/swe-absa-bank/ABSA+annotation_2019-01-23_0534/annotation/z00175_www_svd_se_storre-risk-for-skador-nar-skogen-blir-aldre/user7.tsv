@@ -1,0 +1,830 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Större risk för skador   
+#Text=när skogen blir äldre.
+3-1	18-24	Större	_	Target[1]	3-6[21]	false[1]	2[1]	_	_	
+3-2	25-29	risk	_	Target[1]	3-6[21]	false[1]	2[1]	_	_	
+3-3	30-33	för	_	Target[1]	3-6[21]	false[1]	2[1]	_	_	
+3-4	34-40	skador	_	Target[1]	3-6[21]	false[1]	2[1]	_	_	
+3-5	44-47	när	_	_	_	_	_	_	_	
+3-6	48-54	skogen	*[21]	_	_	_	_	_	_	
+3-7	55-59	blir	*[21]	_	_	_	_	_	_	
+3-8	60-65	äldre	*[21]	_	_	_	_	_	_	
+3-9	65-66	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	68-69	#	_	_	_	_	_	_	_	
+4-2	69-70	P	_	_	_	_	_	_	_	
+4-3	71-74	IMM	_	_	_	_	_	_	_	
+4-4	74-75	.	_	_	_	_	_	_	_	
+
+#Text=De skogar som används för friluftsliv behöver inte undantas från skogsbruk, men brukandet kan i vissa fall behöva anpassas till friluftslivet.Helena Jonsson och Sven Erik Hammar.
+5-1	77-79	De	_	_	_	_	_	_	_	
+5-2	80-86	skogar	_	_	_	_	_	_	_	
+5-3	87-90	som	_	_	_	_	_	_	_	
+5-4	91-98	används	_	_	_	_	_	_	_	
+5-5	99-102	för	_	_	_	_	_	_	_	
+5-6	103-114	friluftsliv	_	_	_	_	_	_	_	
+5-7	115-122	behöver	_	_	_	_	_	_	_	
+5-8	123-127	inte	_	_	_	_	_	_	_	
+5-9	128-136	undantas	_	_	_	_	_	_	_	
+5-10	137-141	från	_	_	_	_	_	_	_	
+5-11	142-151	skogsbruk	_	_	_	_	_	_	_	
+5-12	151-152	,	_	_	_	_	_	_	_	
+5-13	153-156	men	_	_	_	_	_	_	_	
+5-14	157-166	brukandet	_	_	_	_	_	_	_	
+5-15	167-170	kan	_	_	_	_	_	_	_	
+5-16	171-172	i	_	_	_	_	_	_	_	
+5-17	173-178	vissa	_	_	_	_	_	_	_	
+5-18	179-183	fall	_	_	_	_	_	_	_	
+5-19	184-190	behöva	_	_	_	_	_	_	_	
+5-20	191-199	anpassas	_	_	_	_	_	_	_	
+5-21	200-204	till	_	_	_	_	_	_	_	
+5-22	205-225	friluftslivet.Helena	_	_	_	_	_	_	_	
+5-23	226-233	Jonsson	_	_	_	_	_	_	_	
+5-24	234-237	och	_	_	_	_	_	_	_	
+5-25	238-242	Sven	_	_	_	_	_	_	_	
+5-26	243-247	Erik	_	_	_	_	_	_	_	
+5-27	248-254	Hammar	_	_	_	_	_	_	_	
+5-28	254-255	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+6-1	257-258	#	_	_	_	_	_	_	_	
+6-2	258-259	P	_	_	_	_	_	_	_	
+6-3	260-263	IMM	_	_	_	_	_	_	_	
+6-4	263-264	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+7-1	266-269	Det	_	_	_	_	_	_	_	
+7-2	270-273	här	_	_	_	_	_	_	_	
+7-3	274-276	är	_	_	_	_	_	_	_	
+7-4	277-279	en	_	_	_	_	_	_	_	
+7-5	280-294	argumenterande	_	_	_	_	_	_	_	
+7-6	295-299	text	_	_	_	_	_	_	_	
+7-7	300-303	med	_	_	_	_	_	_	_	
+7-8	304-309	syfte	_	_	_	_	_	_	_	
+7-9	310-313	att	_	_	_	_	_	_	_	
+7-10	314-321	påverka	_	_	_	_	_	_	_	
+7-11	321-322	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+8-1	323-332	Åsikterna	_	_	_	_	_	_	_	
+8-2	333-336	som	_	_	_	_	_	_	_	
+8-3	337-345	uttrycks	_	_	_	_	_	_	_	
+8-4	346-348	är	_	_	_	_	_	_	_	
+8-5	349-360	skribentens	_	_	_	_	_	_	_	
+8-6	361-365	egna	_	_	_	_	_	_	_	
+8-7	365-366	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	368-369	#	_	_	_	_	_	_	_	
+9-2	369-370	P	_	_	_	_	_	_	_	
+9-3	371-374	IMM	_	_	_	_	_	_	_	
+9-4	374-375	.	_	_	_	_	_	_	_	
+
+#Text=Naturskyddsföreningen vill ha en ny skogspolitik och lanserade delar av sitt förslag till en sådan på Brännpunkt 7/4.
+10-1	377-398	Naturskyddsföreningen	*	_	_	_	_	_	11-1	
+10-2	399-403	vill	_	Target;Source[2]	10-4[22];10-1	false[2]	4[2]	_	_	
+10-3	404-406	ha	_	Target;Source[2]	10-4[22];10-1	false[2]	4[2]	_	_	
+10-4	407-409	en	*[22]	_	_	_	_	_	_	
+10-5	410-412	ny	*[22]	_	_	_	_	_	_	
+10-6	413-425	skogspolitik	*[22]	_	_	_	_	_	_	
+10-7	426-429	och	_	_	_	_	_	_	_	
+10-8	430-439	lanserade	_	_	_	_	_	_	_	
+10-9	440-445	delar	_	_	_	_	_	_	_	
+10-10	446-448	av	_	_	_	_	_	_	_	
+10-11	449-453	sitt	_	_	_	_	_	_	_	
+10-12	454-461	förslag	_	_	_	_	_	_	_	
+10-13	462-466	till	_	_	_	_	_	_	_	
+10-14	467-469	en	_	_	_	_	_	_	_	
+10-15	470-475	sådan	_	_	_	_	_	_	_	
+10-16	476-478	på	_	_	_	_	_	_	_	
+10-17	479-489	Brännpunkt	_	_	_	_	_	_	_	
+10-18	490-491	7	_	_	_	_	_	_	_	
+10-19	491-492	/	_	_	_	_	_	_	_	
+10-20	492-493	4	_	_	_	_	_	_	_	
+10-21	493-494	.	_	_	_	_	_	_	_	
+
+#Text=De kallar sitt förslag "Ny vår för skogen".
+11-1	495-497	De	*	_	_	_	_	_	_	
+11-2	498-504	kallar	_	_	_	_	_	_	_	
+11-3	505-509	sitt	_	_	_	_	_	_	_	
+11-4	510-517	förslag	_	_	_	_	_	_	_	
+11-5	518-519	"	_	_	_	_	_	_	_	
+11-6	519-521	Ny	_	Target;Source[3]	11-9;11-1	false[3]	4[3]	_	_	
+11-7	522-525	vår	_	Target;Source[3]	11-9;11-1	false[3]	4[3]	_	_	
+11-8	526-529	för	_	Target;Source[3]	11-9;11-1	false[3]	4[3]	_	_	
+11-9	530-536	skogen	*	_	_	_	_	_	_	
+11-10	536-537	"	_	_	_	_	_	_	_	
+11-11	537-538	.	_	_	_	_	_	_	_	
+
+#Text=Det kommer troligen inte att ge landets 330 000 enskilda skogsägare några vidare vårkänslor.
+12-1	539-542	Det	_	_	_	_	_	_	_	
+12-2	543-549	kommer	_	_	_	_	_	_	_	
+12-3	550-558	troligen	_	_	_	_	_	_	_	
+12-4	559-563	inte	_	_	_	_	_	_	_	
+12-5	564-567	att	_	_	_	_	_	_	_	
+12-6	568-570	ge	_	_	_	_	_	_	_	
+12-7	571-578	landets	_	_	_	_	_	_	_	
+12-8	579-582	330	_	_	_	_	_	_	_	
+12-9	583-586	000	_	_	_	_	_	_	_	
+12-10	587-595	enskilda	_	_	_	_	_	_	_	
+12-11	596-606	skogsägare	_	_	_	_	_	_	_	
+12-12	607-612	några	_	_	_	_	_	_	_	
+12-13	613-619	vidare	_	_	_	_	_	_	_	
+12-14	620-630	vårkänslor	_	_	_	_	_	_	_	
+12-15	630-631	.	_	_	_	_	_	_	_	
+
+#Text=Dock tycker vi oss i texten ana möjligheter till en ny vår i synen på naturskydd.
+13-1	632-636	Dock	_	_	_	_	_	_	_	
+13-2	637-643	tycker	_	_	_	_	_	_	_	
+13-3	644-646	vi	_	_	_	_	_	_	_	
+13-4	647-650	oss	_	_	_	_	_	_	_	
+13-5	651-652	i	_	_	_	_	_	_	_	
+13-6	653-659	texten	_	_	_	_	_	_	_	
+13-7	660-663	ana	_	_	_	_	_	_	_	
+13-8	664-675	möjligheter	_	Source;Target[4]	13-17;13-13[23]	false[4]	4[4]	_	_	
+13-9	676-680	till	_	Source;Target[4]	13-17;13-13[23]	false[4]	4[4]	_	_	
+13-10	681-683	en	_	Source;Target[4]	13-17;13-13[23]	false[4]	4[4]	_	_	
+13-11	684-686	ny	_	Source;Target[4]	13-17;13-13[23]	false[4]	4[4]	_	_	
+13-12	687-690	vår	_	Source;Target[4]	13-17;13-13[23]	false[4]	4[4]	_	_	
+13-13	691-692	i	*[23]	_	_	_	_	_	_	
+13-14	693-698	synen	*[23]	_	_	_	_	_	_	
+13-15	699-701	på	*[23]	_	_	_	_	_	_	
+13-16	702-712	naturskydd	*[23]	_	_	_	_	_	_	
+13-17	712-713	.	*	_	_	_	_	_	_	
+
+#Text=#P IMM.
+14-1	715-716	#	_	_	_	_	_	_	_	
+14-2	716-717	P	_	_	_	_	_	_	_	
+14-3	718-721	IMM	_	_	_	_	_	_	_	
+14-4	721-722	.	_	_	_	_	_	_	_	
+
+#Text=Vi ser det som positivt att Naturskyddsföreningen visar insikt om att den brukade skogen kan rymma stora naturvärden.
+15-1	724-726	Vi	*	_	_	_	_	_	_	
+15-2	727-730	ser	_	Source;Target[5]	15-1;15-6[24]	false[5]	4[5]	_	_	
+15-3	731-734	det	_	Source;Target[5]	15-1;15-6[24]	false[5]	4[5]	_	_	
+15-4	735-738	som	_	Source;Target[5]	15-1;15-6[24]	false[5]	4[5]	_	_	
+15-5	739-747	positivt	_	Source;Target[5]	15-1;15-6[24]	false[5]	4[5]	_	_	
+15-6	748-751	att	*[24]	_	_	_	_	_	_	
+15-7	752-773	Naturskyddsföreningen	*[24]|*[25]	_	_	_	_	_	_	
+15-8	774-779	visar	*[24]	Source;Target[6]	15-1;15-7[25]	false[6]	4[6]	_	_	
+15-9	780-786	insikt	*[24]	Source;Target[6]	15-1;15-7[25]	false[6]	4[6]	_	_	
+15-10	787-789	om	*[24]	_	_	_	_	_	_	
+15-11	790-793	att	*[24]	_	_	_	_	_	_	
+15-12	794-797	den	*[24]	_	_	_	_	_	_	
+15-13	798-805	brukade	*[24]	_	_	_	_	_	_	
+15-14	806-812	skogen	*[24]	_	_	_	_	_	_	
+15-15	813-816	kan	*[24]	_	_	_	_	_	_	
+15-16	817-822	rymma	*[24]	_	_	_	_	_	_	
+15-17	823-828	stora	*[24]	_	_	_	_	_	_	
+15-18	829-840	naturvärden	*[24]	_	_	_	_	_	_	
+15-19	840-841	.	_	_	_	_	_	_	_	
+
+#Text=Man menar att en överhållning av skogen till över 140 år visserligen på kort sikt skulle ge minskade intäkter, men ändå över en längre period vara det ekonomiskt mest fördelaktiga.
+16-1	842-845	Man	_	_	_	_	_	_	_	
+16-2	846-851	menar	_	_	_	_	_	_	_	
+16-3	852-855	att	_	_	_	_	_	_	_	
+16-4	856-858	en	_	_	_	_	_	_	_	
+16-5	859-871	överhållning	_	_	_	_	_	_	_	
+16-6	872-874	av	_	_	_	_	_	_	_	
+16-7	875-881	skogen	_	_	_	_	_	_	_	
+16-8	882-886	till	_	_	_	_	_	_	_	
+16-9	887-891	över	_	_	_	_	_	_	_	
+16-10	892-895	140	_	_	_	_	_	_	_	
+16-11	896-898	år	_	_	_	_	_	_	_	
+16-12	899-910	visserligen	_	_	_	_	_	_	_	
+16-13	911-913	på	_	_	_	_	_	_	_	
+16-14	914-918	kort	_	_	_	_	_	_	_	
+16-15	919-923	sikt	_	_	_	_	_	_	_	
+16-16	924-930	skulle	_	_	_	_	_	_	_	
+16-17	931-933	ge	_	_	_	_	_	_	_	
+16-18	934-942	minskade	_	_	_	_	_	_	_	
+16-19	943-951	intäkter	_	_	_	_	_	_	_	
+16-20	951-952	,	_	_	_	_	_	_	_	
+16-21	953-956	men	_	_	_	_	_	_	_	
+16-22	957-961	ändå	_	_	_	_	_	_	_	
+16-23	962-966	över	_	_	_	_	_	_	_	
+16-24	967-969	en	_	_	_	_	_	_	_	
+16-25	970-976	längre	_	_	_	_	_	_	_	
+16-26	977-983	period	_	_	_	_	_	_	_	
+16-27	984-988	vara	_	_	_	_	_	_	_	
+16-28	989-992	det	_	_	_	_	_	_	_	
+16-29	993-1003	ekonomiskt	_	_	_	_	_	_	_	
+16-30	1004-1008	mest	_	_	_	_	_	_	_	
+16-31	1009-1021	fördelaktiga	_	_	_	_	_	_	_	
+16-32	1021-1022	.	_	_	_	_	_	_	_	
+
+#Text=Även om den ekonomiska slutsatsen är felaktig visar resonemanget på en förståelse för att naturvärden kan byta plats i landskapet och att brukade skogar är viktiga för den biologiska mångfalden på olika sätt under en omloppstid, även om de senare avverkas.
+17-1	1023-1027	Även	_	_	_	_	_	_	_	
+17-2	1028-1030	om	_	_	_	_	_	_	_	
+17-3	1031-1034	den	*[26]	_	_	_	_	_	_	
+17-4	1035-1045	ekonomiska	*[26]	_	_	_	_	_	_	
+17-5	1046-1056	slutsatsen	*[26]	_	_	_	_	_	_	
+17-6	1057-1059	är	_	Target[7]	17-3[26]	false[7]	2[7]	_	_	
+17-7	1060-1068	felaktig	_	Target[7]	17-3[26]	false[7]	2[7]	_	_	
+17-8	1069-1074	visar	_	_	_	false	4	_	_	
+17-9	1075-1087	resonemanget	*	_	_	_	_	_	_	
+17-10	1088-1090	på	_	Target[8]	17-9	false[8]	4[8]	17-8[0_8]	_	
+17-11	1091-1093	en	_	Target[8]	17-9	false[8]	4[8]	_	_	
+17-12	1094-1104	förståelse	_	Target[8]	17-9	false[8]	4[8]	_	_	
+17-13	1105-1108	för	_	Target[8]	17-9	false[8]	4[8]	_	_	
+17-14	1109-1112	att	_	_	_	_	_	_	_	
+17-15	1113-1124	naturvärden	_	_	_	_	_	_	_	
+17-16	1125-1128	kan	_	_	_	_	_	_	_	
+17-17	1129-1133	byta	_	_	_	_	_	_	_	
+17-18	1134-1139	plats	_	_	_	_	_	_	_	
+17-19	1140-1141	i	_	_	_	_	_	_	_	
+17-20	1142-1152	landskapet	_	_	_	_	_	_	_	
+17-21	1153-1156	och	_	_	_	_	_	_	_	
+17-22	1157-1160	att	_	_	_	_	_	_	_	
+17-23	1161-1168	brukade	*[27]	_	_	_	_	_	_	
+17-24	1169-1175	skogar	*[27]	_	_	_	_	_	_	
+17-25	1176-1178	är	_	Target[9]	17-23[27]	false[9]	4[9]	_	_	
+17-26	1179-1186	viktiga	_	Target[9]	17-23[27]	false[9]	4[9]	_	_	
+17-27	1187-1190	för	_	_	_	_	_	_	_	
+17-28	1191-1194	den	_	_	_	_	_	_	_	
+17-29	1195-1205	biologiska	_	_	_	_	_	_	_	
+17-30	1206-1216	mångfalden	_	_	_	_	_	_	_	
+17-31	1217-1219	på	_	_	_	_	_	_	_	
+17-32	1220-1225	olika	_	_	_	_	_	_	_	
+17-33	1226-1230	sätt	_	_	_	_	_	_	_	
+17-34	1231-1236	under	_	_	_	_	_	_	_	
+17-35	1237-1239	en	_	_	_	_	_	_	_	
+17-36	1240-1250	omloppstid	_	_	_	_	_	_	_	
+17-37	1250-1251	,	_	_	_	_	_	_	_	
+17-38	1252-1256	även	_	_	_	_	_	_	_	
+17-39	1257-1259	om	_	_	_	_	_	_	_	
+17-40	1260-1262	de	_	_	_	_	_	_	_	
+17-41	1263-1269	senare	_	_	_	_	_	_	_	
+17-42	1270-1278	avverkas	_	_	_	_	_	_	_	
+17-43	1278-1279	.	_	_	_	_	_	_	_	
+
+#Text=Vi tror att samhällets naturvårdsinsatser i allt större omfattning måste kombineras med brukande för att klara alla de anspråk som ställs på skogen.
+18-1	1280-1282	Vi	_	_	_	_	_	_	_	
+18-2	1283-1287	tror	_	_	_	_	_	_	_	
+18-3	1288-1291	att	_	_	_	_	_	_	_	
+18-4	1292-1302	samhällets	_	_	_	_	_	_	_	
+18-5	1303-1321	naturvårdsinsatser	_	_	_	_	_	_	_	
+18-6	1322-1323	i	_	_	_	_	_	_	_	
+18-7	1324-1328	allt	_	_	_	_	_	_	_	
+18-8	1329-1335	större	_	_	_	_	_	_	_	
+18-9	1336-1346	omfattning	_	_	_	_	_	_	_	
+18-10	1347-1352	måste	_	_	_	_	_	_	_	
+18-11	1353-1363	kombineras	_	_	_	_	_	_	_	
+18-12	1364-1367	med	_	_	_	_	_	_	_	
+18-13	1368-1376	brukande	_	_	_	_	_	_	_	
+18-14	1377-1380	för	_	_	_	_	_	_	_	
+18-15	1381-1384	att	_	_	_	_	_	_	_	
+18-16	1385-1390	klara	_	_	_	_	_	_	_	
+18-17	1391-1395	alla	_	_	_	_	_	_	_	
+18-18	1396-1398	de	_	_	_	_	_	_	_	
+18-19	1399-1406	anspråk	_	_	_	_	_	_	_	
+18-20	1407-1410	som	_	_	_	_	_	_	_	
+18-21	1411-1417	ställs	_	_	_	_	_	_	_	
+18-22	1418-1420	på	_	_	_	_	_	_	_	
+18-23	1421-1427	skogen	_	_	_	_	_	_	_	
+18-24	1427-1428	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1430-1431	#	_	_	_	_	_	_	_	
+19-2	1431-1432	P	_	_	_	_	_	_	_	
+19-3	1433-1436	IMM	_	_	_	_	_	_	_	
+19-4	1436-1437	.	_	_	_	_	_	_	_	
+
+#Text=I Naturskyddsföreningens ekonomiska beräkningar tycks man ha glömt de värdeminskningar som följer med rotröta och andra skaderisker som ökar med stigande ålder.
+20-1	1439-1440	I	_	_	_	_	_	_	_	
+20-2	1441-1463	Naturskyddsföreningens	_	_	_	_	_	_	_	
+20-3	1464-1474	ekonomiska	_	_	_	_	_	_	_	
+20-4	1475-1486	beräkningar	_	_	_	_	_	_	_	
+20-5	1487-1492	tycks	_	_	_	false	2	_	_	
+20-6	1493-1496	man	*	_	_	_	_	_	_	
+20-7	1497-1499	ha	_	Target[10]	20-6	false[10]	2[10]	20-5[0_10]	_	
+20-8	1500-1505	glömt	_	Target[10]	20-6	false[10]	2[10]	_	_	
+20-9	1506-1508	de	_	_	_	_	_	_	_	
+20-10	1509-1525	värdeminskningar	_	_	_	_	_	_	_	
+20-11	1526-1529	som	_	_	_	_	_	_	_	
+20-12	1530-1536	följer	_	_	_	_	_	_	_	
+20-13	1537-1540	med	_	_	_	_	_	_	_	
+20-14	1541-1548	rotröta	_	_	_	_	_	_	_	
+20-15	1549-1552	och	_	_	_	_	_	_	_	
+20-16	1553-1558	andra	_	_	_	_	_	_	_	
+20-17	1559-1570	skaderisker	_	_	_	_	_	_	_	
+20-18	1571-1574	som	_	_	_	_	_	_	_	
+20-19	1575-1579	ökar	_	_	_	_	_	_	_	
+20-20	1580-1583	med	_	_	_	_	_	_	_	
+20-21	1584-1592	stigande	_	_	_	_	_	_	_	
+20-22	1593-1598	ålder	_	_	_	_	_	_	_	
+20-23	1598-1599	.	_	_	_	_	_	_	_	
+
+#Text=För flertalet skogsägare, särskilt i södra Sverige där omloppstiderna är kortare, skulle förslaget om 20 procent skog äldre än 140 år innebära helt uteblivna möjligheter till slutavverkning de kommande decennierna i väntan på att skog ska växa in i åldersklassen över 140 år.
+21-1	1600-1603	För	_	_	_	_	_	_	_	
+21-2	1604-1613	flertalet	_	_	_	_	_	_	_	
+21-3	1614-1624	skogsägare	_	_	_	_	_	_	_	
+21-4	1624-1625	,	_	_	_	_	_	_	_	
+21-5	1626-1634	särskilt	_	_	_	_	_	_	_	
+21-6	1635-1636	i	_	_	_	_	_	_	_	
+21-7	1637-1642	södra	_	_	_	_	_	_	_	
+21-8	1643-1650	Sverige	_	_	_	_	_	_	_	
+21-9	1651-1654	där	_	_	_	_	_	_	_	
+21-10	1655-1669	omloppstiderna	_	_	_	_	_	_	_	
+21-11	1670-1672	är	_	_	_	_	_	_	_	
+21-12	1673-1680	kortare	_	_	_	_	_	_	_	
+21-13	1680-1681	,	_	_	_	_	_	_	_	
+21-14	1682-1688	skulle	_	_	_	_	_	_	_	
+21-15	1689-1698	förslaget	*[28]	_	_	_	_	_	_	
+21-16	1699-1701	om	*[28]	_	_	_	_	_	_	
+21-17	1702-1704	20	*[28]	_	_	_	_	_	_	
+21-18	1705-1712	procent	*[28]	_	_	_	_	_	_	
+21-19	1713-1717	skog	*[28]	_	_	_	_	_	_	
+21-20	1718-1723	äldre	*[28]	_	_	_	_	_	_	
+21-21	1724-1726	än	*[28]	_	_	_	_	_	_	
+21-22	1727-1730	140	*[28]	_	_	_	_	_	_	
+21-23	1731-1733	år	*[28]	_	_	_	_	_	_	
+21-24	1734-1742	innebära	_	Target[11]	21-15[28]	false[11]	2[11]	_	_	
+21-25	1743-1747	helt	_	Target[11]	21-15[28]	false[11]	2[11]	_	_	
+21-26	1748-1757	uteblivna	_	Target[11]	21-15[28]	false[11]	2[11]	_	_	
+21-27	1758-1769	möjligheter	_	Target[11]	21-15[28]	false[11]	2[11]	_	_	
+21-28	1770-1774	till	_	_	_	_	_	_	_	
+21-29	1775-1789	slutavverkning	_	_	_	_	_	_	_	
+21-30	1790-1792	de	_	_	_	_	_	_	_	
+21-31	1793-1801	kommande	_	_	_	_	_	_	_	
+21-32	1802-1813	decennierna	_	_	_	_	_	_	_	
+21-33	1814-1815	i	_	_	_	_	_	_	_	
+21-34	1816-1822	väntan	_	_	_	_	_	_	_	
+21-35	1823-1825	på	_	_	_	_	_	_	_	
+21-36	1826-1829	att	_	_	_	_	_	_	_	
+21-37	1830-1834	skog	_	_	_	_	_	_	_	
+21-38	1835-1838	ska	_	_	_	_	_	_	_	
+21-39	1839-1843	växa	_	_	_	_	_	_	_	
+21-40	1844-1846	in	_	_	_	_	_	_	_	
+21-41	1847-1848	i	_	_	_	_	_	_	_	
+21-42	1849-1862	åldersklassen	_	_	_	_	_	_	_	
+21-43	1863-1867	över	_	_	_	_	_	_	_	
+21-44	1868-1871	140	_	_	_	_	_	_	_	
+21-45	1872-1874	år	_	_	_	_	_	_	_	
+21-46	1874-1875	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1877-1878	#	_	_	_	_	_	_	_	
+22-2	1878-1879	P	_	_	_	_	_	_	_	
+22-3	1880-1883	IMM	_	_	_	_	_	_	_	
+22-4	1883-1884	.	_	_	_	_	_	_	_	
+
+#Text=Förslaget rimmar också illa med att Naturskyddsföreningen anser att det är viktigt att förstärka skogens roll i arbetet med att motverka klimatförändringarna.
+23-1	1886-1895	Förslaget	*	_	_	_	_	_	_	
+23-2	1896-1902	rimmar	_	Target[12]	23-1	false[12]	2[12]	_	_	
+23-3	1903-1908	också	_	Target[12]	23-1	false[12]	2[12]	_	_	
+23-4	1909-1913	illa	_	Target[12]	23-1	false[12]	2[12]	_	_	
+23-5	1914-1917	med	_	_	_	_	_	_	_	
+23-6	1918-1921	att	_	_	_	_	_	_	_	
+23-7	1922-1943	Naturskyddsföreningen	*	_	_	_	_	_	_	
+23-8	1944-1949	anser	_	_	_	_	_	_	_	
+23-9	1950-1953	att	_	_	_	_	_	_	_	
+23-10	1954-1957	det	_	_	_	_	_	_	_	
+23-11	1958-1960	är	_	Target;Source[13]	23-13[29];23-7	false[13]	4[13]	_	_	
+23-12	1961-1968	viktigt	_	Target;Source[13]	23-13[29];23-7	false[13]	4[13]	_	_	
+23-13	1969-1972	att	*[29]	_	_	_	_	_	_	
+23-14	1973-1982	förstärka	*[29]	_	_	_	_	_	_	
+23-15	1983-1990	skogens	*[29]	_	_	_	_	_	_	
+23-16	1991-1995	roll	*[29]	_	_	_	_	_	_	
+23-17	1996-1997	i	*[29]	_	_	_	_	_	_	
+23-18	1998-2005	arbetet	*[29]	_	_	_	_	_	_	
+23-19	2006-2009	med	*[29]	_	_	_	_	_	_	
+23-20	2010-2013	att	*[29]	_	_	_	_	_	_	
+23-21	2014-2022	motverka	*[29]	_	_	_	_	_	_	
+23-22	2023-2043	klimatförändringarna	*[29]	_	_	_	_	_	_	
+23-23	2043-2044	.	_	_	_	_	_	_	_	
+
+#Text=Den gamla skogens avtagande tillväxt innebär nämligen ett lägre koldioxidupptag.
+24-1	2045-2048	Den	_	_	_	_	_	_	_	
+24-2	2049-2054	gamla	_	_	_	_	_	_	_	
+24-3	2055-2062	skogens	_	_	_	_	_	_	_	
+24-4	2063-2072	avtagande	_	_	_	_	_	_	_	
+24-5	2073-2081	tillväxt	_	_	_	_	_	_	_	
+24-6	2082-2089	innebär	_	_	_	_	_	_	_	
+24-7	2090-2098	nämligen	_	_	_	_	_	_	_	
+24-8	2099-2102	ett	_	_	_	_	_	_	_	
+24-9	2103-2108	lägre	_	_	_	_	_	_	_	
+24-10	2109-2124	koldioxidupptag	_	_	_	_	_	_	_	
+24-11	2124-2125	.	_	_	_	_	_	_	_	
+
+#Text=Ny forskning visar att man får största klimatnyttan genom aktivt brukade skogar som ger hög tillväxt och därmed högt koldioxidupptag, kombinerat med användning av träråvara istället för fossila och energikrävande material.
+25-1	2126-2128	Ny	_	_	_	_	_	_	_	
+25-2	2129-2138	forskning	_	_	_	_	_	_	_	
+25-3	2139-2144	visar	_	_	_	_	_	_	_	
+25-4	2145-2148	att	_	_	_	_	_	_	_	
+25-5	2149-2152	man	_	_	_	_	_	_	_	
+25-6	2153-2156	får	_	_	_	_	_	_	_	
+25-7	2157-2164	största	_	_	_	_	_	_	_	
+25-8	2165-2177	klimatnyttan	_	_	_	_	_	_	_	
+25-9	2178-2183	genom	_	_	_	_	_	_	_	
+25-10	2184-2190	aktivt	_	_	_	_	_	_	_	
+25-11	2191-2198	brukade	_	_	_	_	_	_	_	
+25-12	2199-2205	skogar	_	_	_	_	_	_	_	
+25-13	2206-2209	som	_	_	_	_	_	_	_	
+25-14	2210-2213	ger	_	_	_	_	_	_	_	
+25-15	2214-2217	hög	_	_	_	_	_	_	_	
+25-16	2218-2226	tillväxt	_	_	_	_	_	_	_	
+25-17	2227-2230	och	_	_	_	_	_	_	_	
+25-18	2231-2237	därmed	_	_	_	_	_	_	_	
+25-19	2238-2242	högt	_	_	_	_	_	_	_	
+25-20	2243-2258	koldioxidupptag	_	_	_	_	_	_	_	
+25-21	2258-2259	,	_	_	_	_	_	_	_	
+25-22	2260-2270	kombinerat	_	_	_	_	_	_	_	
+25-23	2271-2274	med	_	_	_	_	_	_	_	
+25-24	2275-2285	användning	_	_	_	_	_	_	_	
+25-25	2286-2288	av	_	_	_	_	_	_	_	
+25-26	2289-2298	träråvara	_	_	_	_	_	_	_	
+25-27	2299-2307	istället	_	_	_	_	_	_	_	
+25-28	2308-2311	för	_	_	_	_	_	_	_	
+25-29	2312-2319	fossila	_	_	_	_	_	_	_	
+25-30	2320-2323	och	_	_	_	_	_	_	_	
+25-31	2324-2338	energikrävande	_	_	_	_	_	_	_	
+25-32	2339-2347	material	_	_	_	_	_	_	_	
+25-33	2347-2348	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2350-2351	#	_	_	_	_	_	_	_	
+26-2	2351-2352	P	_	_	_	_	_	_	_	
+26-3	2353-2356	IMM	_	_	_	_	_	_	_	
+26-4	2356-2357	.	_	_	_	_	_	_	_	
+
+#Text=**I debattartikeln **lyfts det faktum att allt fler väljer att bosätta sig i städerna, vilket ökar betydelsen av de tätortsnära skogarna eftersom vi svenskar har en stark känslomässig relation till skogen.
+27-1	2359-2360	*	*[30]	_	_	_	_	_	28-4[0_30]	
+27-2	2360-2361	*	*[30]	_	_	_	_	_	_	
+27-3	2361-2362	I	*[30]	_	_	_	_	_	_	
+27-4	2363-2377	debattartikeln	*[30]	_	_	_	_	_	_	
+27-5	2378-2379	*	*[30]	_	_	_	_	_	_	
+27-6	2379-2380	*	*[30]	_	_	_	_	_	_	
+27-7	2380-2385	lyfts	*[30]	_	_	_	_	_	_	
+27-8	2386-2389	det	*[30]	_	_	_	_	_	_	
+27-9	2390-2396	faktum	*[30]	_	_	_	_	_	_	
+27-10	2397-2400	att	*[30]	_	_	_	_	_	_	
+27-11	2401-2405	allt	*[30]	_	_	_	_	_	_	
+27-12	2406-2410	fler	*[30]	_	_	_	_	_	_	
+27-13	2411-2417	väljer	*[30]	_	_	_	_	_	_	
+27-14	2418-2421	att	*[30]	_	_	_	_	_	_	
+27-15	2422-2429	bosätta	*[30]	_	_	_	_	_	_	
+27-16	2430-2433	sig	*[30]	_	_	_	_	_	_	
+27-17	2434-2435	i	*[30]	_	_	_	_	_	_	
+27-18	2436-2444	städerna	*[30]	_	_	_	_	_	_	
+27-19	2444-2445	,	*[30]	_	_	_	_	_	_	
+27-20	2446-2452	vilket	*[30]	_	_	_	_	_	_	
+27-21	2453-2457	ökar	*[30]	_	_	_	_	_	_	
+27-22	2458-2468	betydelsen	*[30]	_	_	_	_	_	_	
+27-23	2469-2471	av	*[30]	_	_	_	_	_	_	
+27-24	2472-2474	de	*[30]	_	_	_	_	_	_	
+27-25	2475-2486	tätortsnära	*[30]	_	_	_	_	_	_	
+27-26	2487-2495	skogarna	*[30]	_	_	_	_	_	_	
+27-27	2496-2504	eftersom	*[30]	_	_	_	_	_	_	
+27-28	2505-2507	vi	*[30]|*[31]	_	_	_	_	_	_	
+27-29	2508-2516	svenskar	*[30]|*[31]	_	_	_	_	_	_	
+27-30	2517-2520	har	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-31	2521-2523	en	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-32	2524-2529	stark	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-33	2530-2542	känslomässig	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-34	2543-2551	relation	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-35	2552-2556	till	*[30]	Target;Source[14]	27-36[32];27-28[31]	false[14]	4[14]	_	_	
+27-36	2557-2563	skogen	*[30]|*[32]	_	_	_	_	_	_	
+27-37	2563-2564	.	_	_	_	_	_	_	_	
+
+#Text=Vi instämmer i detta och tror att det är viktigt att människans behov sätts i centrum i användningen av skogen.
+28-1	2565-2567	Vi	*	_	_	_	_	_	_	
+28-2	2568-2577	instämmer	_	Target;Source[15]	28-4;28-1	false[15]	4[15]	_	_	
+28-3	2578-2579	i	_	Target;Source[15]	28-4;28-1	false[15]	4[15]	_	_	
+28-4	2580-2585	detta	*	_	_	_	_	_	_	
+28-5	2586-2589	och	_	_	_	_	_	_	_	
+28-6	2590-2594	tror	_	_	_	_	_	_	_	
+28-7	2595-2598	att	_	_	_	_	_	_	_	
+28-8	2599-2602	det	_	_	_	_	_	_	_	
+28-9	2603-2605	är	_	Target;Source[16]	28-11[33];28-1	false[16]	4[16]	_	_	
+28-10	2606-2613	viktigt	_	Target;Source[16]	28-11[33];28-1	false[16]	4[16]	_	_	
+28-11	2614-2617	att	*[33]	_	_	_	_	_	_	
+28-12	2618-2628	människans	*[33]	_	_	_	_	_	_	
+28-13	2629-2634	behov	*[33]	_	_	_	_	_	_	
+28-14	2635-2640	sätts	*[33]	_	_	_	_	_	_	
+28-15	2641-2642	i	*[33]	_	_	_	_	_	_	
+28-16	2643-2650	centrum	*[33]	_	_	_	_	_	_	
+28-17	2651-2652	i	*[33]	_	_	_	_	_	_	
+28-18	2653-2665	användningen	*[33]	_	_	_	_	_	_	
+28-19	2666-2668	av	*[33]	_	_	_	_	_	_	
+28-20	2669-2675	skogen	*[33]	_	_	_	_	_	_	
+28-21	2675-2676	.	_	_	_	_	_	_	_	
+
+#Text=I dagens naturvårdsarbete, som nästan uteslutande fokuserar på rödlistade arter, glöms ofta människan bort.
+29-1	2677-2678	I	_	_	_	_	_	_	_	
+29-2	2679-2685	dagens	_	_	_	_	_	_	_	
+29-3	2686-2702	naturvårdsarbete	_	_	_	_	_	_	_	
+29-4	2702-2703	,	_	_	_	_	_	_	_	
+29-5	2704-2707	som	_	_	_	_	_	_	_	
+29-6	2708-2714	nästan	_	_	_	_	_	_	_	
+29-7	2715-2726	uteslutande	_	_	_	_	_	_	_	
+29-8	2727-2736	fokuserar	_	_	_	_	_	_	_	
+29-9	2737-2739	på	_	_	_	_	_	_	_	
+29-10	2740-2750	rödlistade	_	_	_	_	_	_	_	
+29-11	2751-2756	arter	_	_	_	_	_	_	_	
+29-12	2756-2757	,	_	_	_	_	_	_	_	
+29-13	2758-2763	glöms	_	_	_	_	_	_	_	
+29-14	2764-2768	ofta	_	_	_	_	_	_	_	
+29-15	2769-2778	människan	_	_	_	_	_	_	_	
+29-16	2779-2783	bort	_	_	_	_	_	_	_	
+29-17	2783-2784	.	_	_	_	_	_	_	_	
+
+#Text=De skogar som används för friluftsliv behöver inte undantas från skogsbruk, men brukandet kan i vissa fall behöva anpassas till friluftslivet.
+30-1	2785-2787	De	_	_	_	_	_	_	_	
+30-2	2788-2794	skogar	_	_	_	_	_	_	_	
+30-3	2795-2798	som	_	_	_	_	_	_	_	
+30-4	2799-2806	används	_	_	_	_	_	_	_	
+30-5	2807-2810	för	_	_	_	_	_	_	_	
+30-6	2811-2822	friluftsliv	_	_	_	_	_	_	_	
+30-7	2823-2830	behöver	_	_	_	_	_	_	_	
+30-8	2831-2835	inte	_	_	_	_	_	_	_	
+30-9	2836-2844	undantas	_	_	_	_	_	_	_	
+30-10	2845-2849	från	_	_	_	_	_	_	_	
+30-11	2850-2859	skogsbruk	_	_	_	_	_	_	_	
+30-12	2859-2860	,	_	_	_	_	_	_	_	
+30-13	2861-2864	men	_	_	_	_	_	_	_	
+30-14	2865-2874	brukandet	*[34]	_	_	_	_	_	31-16[35_34]	
+30-15	2875-2878	kan	*[34]	_	_	_	_	_	_	
+30-16	2879-2880	i	*[34]	_	_	_	_	_	_	
+30-17	2881-2886	vissa	*[34]	_	_	_	_	_	_	
+30-18	2887-2891	fall	*[34]	_	_	_	_	_	_	
+30-19	2892-2898	behöva	*[34]	_	_	_	_	_	_	
+30-20	2899-2907	anpassas	*[34]	_	_	_	_	_	_	
+30-21	2908-2912	till	*[34]	_	_	_	_	_	_	
+30-22	2913-2926	friluftslivet	*[34]	_	_	_	_	_	_	
+30-23	2926-2927	.	_	_	_	_	_	_	_	
+
+#Text=För en markägare som har en stor del av sin skog i välbesökta områden kan en sådan anpassning ge mycket kännbara ekonomiska avbräck.
+31-1	2928-2931	För	_	_	_	_	_	_	_	
+31-2	2932-2934	en	_	_	_	_	_	_	_	
+31-3	2935-2944	markägare	_	_	_	_	_	_	_	
+31-4	2945-2948	som	_	_	_	_	_	_	_	
+31-5	2949-2952	har	_	_	_	_	_	_	_	
+31-6	2953-2955	en	_	_	_	_	_	_	_	
+31-7	2956-2960	stor	_	_	_	_	_	_	_	
+31-8	2961-2964	del	_	_	_	_	_	_	_	
+31-9	2965-2967	av	_	_	_	_	_	_	_	
+31-10	2968-2971	sin	_	_	_	_	_	_	_	
+31-11	2972-2976	skog	_	_	_	_	_	_	_	
+31-12	2977-2978	i	_	_	_	_	_	_	_	
+31-13	2979-2989	välbesökta	_	Target	31-14	false	4	_	_	
+31-14	2990-2997	områden	*	_	_	_	_	_	_	
+31-15	2998-3001	kan	_	_	_	false	2	_	_	
+31-16	3002-3004	en	*[35]	_	_	_	_	_	_	
+31-17	3005-3010	sådan	*[35]	_	_	_	_	_	_	
+31-18	3011-3021	anpassning	*[35]	_	_	_	_	_	_	
+31-19	3022-3024	ge	_	Target[17]	31-16[35]	false[17]	2[17]	31-15[0_17]	_	
+31-20	3025-3031	mycket	_	Target[17]	31-16[35]	false[17]	2[17]	_	_	
+31-21	3032-3040	kännbara	_	Target[17]	31-16[35]	false[17]	2[17]	_	_	
+31-22	3041-3051	ekonomiska	_	Target[17]	31-16[35]	false[17]	2[17]	_	_	
+31-23	3052-3059	avbräck	_	Target[17]	31-16[35]	false[17]	2[17]	_	_	
+31-24	3059-3060	.	_	_	_	_	_	_	_	
+
+#Text=För att hantera detta behövs nya verktyg där brukande och bevarande kombineras, till exempel frivilliga avtal där markägare ersätts för sina merkostnader och uteblivna intäkter.
+32-1	3061-3064	För	_	_	_	_	_	_	_	
+32-2	3065-3068	att	_	_	_	_	_	_	_	
+32-3	3069-3076	hantera	_	_	_	_	_	_	_	
+32-4	3077-3082	detta	_	_	_	_	_	_	_	
+32-5	3083-3089	behövs	_	Target	32-6[36]	false	4	_	_	
+32-6	3090-3093	nya	*[36]	_	_	_	_	_	_	
+32-7	3094-3101	verktyg	*[36]	_	_	_	_	_	_	
+32-8	3102-3105	där	*[36]	_	_	_	_	_	_	
+32-9	3106-3114	brukande	*[36]	_	_	_	_	_	_	
+32-10	3115-3118	och	*[36]	_	_	_	_	_	_	
+32-11	3119-3128	bevarande	*[36]	_	_	_	_	_	_	
+32-12	3129-3139	kombineras	*[36]	_	_	_	_	_	_	
+32-13	3139-3140	,	_	_	_	_	_	_	_	
+32-14	3141-3145	till	_	_	_	_	_	_	_	
+32-15	3146-3153	exempel	_	_	_	_	_	_	_	
+32-16	3154-3164	frivilliga	_	_	_	_	_	_	_	
+32-17	3165-3170	avtal	_	_	_	_	_	_	_	
+32-18	3171-3174	där	_	_	_	_	_	_	_	
+32-19	3175-3184	markägare	_	_	_	_	_	_	_	
+32-20	3185-3192	ersätts	_	_	_	_	_	_	_	
+32-21	3193-3196	för	_	_	_	_	_	_	_	
+32-22	3197-3201	sina	_	_	_	_	_	_	_	
+32-23	3202-3214	merkostnader	_	_	_	_	_	_	_	
+32-24	3215-3218	och	_	_	_	_	_	_	_	
+32-25	3219-3228	uteblivna	_	_	_	_	_	_	_	
+32-26	3229-3237	intäkter	_	_	_	_	_	_	_	
+32-27	3237-3238	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+33-1	3240-3241	#	_	_	_	_	_	_	_	
+33-2	3241-3242	P	_	_	_	_	_	_	_	
+33-3	3243-3246	IMM	_	_	_	_	_	_	_	
+33-4	3246-3247	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+34-1	3249-3262	Skräddarsydda	_	_	_	_	_	_	_	
+34-2	3263-3269	kurser	_	_	_	_	_	_	_	
+34-3	3270-3271	i	_	_	_	_	_	_	_	
+34-4	3272-3277	ämnen	_	_	_	_	_	_	_	
+34-5	3278-3281	som	_	_	_	_	_	_	_	
+34-6	3282-3293	intresserar	_	_	_	_	_	_	_	
+34-7	3294-3297	och	_	_	_	_	_	_	_	
+34-8	3298-3307	engagerar	_	_	_	_	_	_	_	
+34-9	3308-3312	både	_	_	_	_	_	_	_	
+34-10	3313-3318	kropp	_	_	_	_	_	_	_	
+34-11	3319-3322	och	_	_	_	_	_	_	_	
+34-12	3323-3327	själ	_	_	_	_	_	_	_	
+34-13	3327-3328	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	3330-3331	#	_	_	_	_	_	_	_	
+35-2	3331-3332	P	_	_	_	_	_	_	_	
+35-3	3333-3336	IMM	_	_	_	_	_	_	_	
+35-4	3336-3337	.	_	_	_	_	_	_	_	
+
+#Text=Vi vill uppmana Naturskyddsföreningen att istället för att ropa på en ny skogspolitisk utredning satsa på att aktivt delta i arbetet med det nationella skogsprogrammet.
+36-1	3339-3341	Vi	*	_	_	_	_	_	_	
+36-2	3342-3346	vill	_	Target;Source[18]	36-4;36-1	false[18]	3[18]	_	_	
+36-3	3347-3354	uppmana	_	Target;Source[18]	36-4;36-1	false[18]	3[18]	_	_	
+36-4	3355-3376	Naturskyddsföreningen	*	_	_	_	_	_	_	
+36-5	3377-3380	att	_	_	_	_	_	_	_	
+36-6	3381-3389	istället	_	_	_	_	_	_	_	
+36-7	3390-3393	för	_	_	_	_	_	_	_	
+36-8	3394-3397	att	_	_	_	_	_	_	_	
+36-9	3398-3402	ropa	_	_	_	_	_	_	_	
+36-10	3403-3405	på	_	_	_	_	_	_	_	
+36-11	3406-3408	en	_	_	_	_	_	_	_	
+36-12	3409-3411	ny	_	_	_	_	_	_	_	
+36-13	3412-3425	skogspolitisk	_	_	_	_	_	_	_	
+36-14	3426-3435	utredning	_	_	_	_	_	_	_	
+36-15	3436-3441	satsa	_	_	_	_	_	_	_	
+36-16	3442-3444	på	_	_	_	_	_	_	_	
+36-17	3445-3448	att	_	_	_	_	_	_	_	
+36-18	3449-3455	aktivt	_	_	_	_	_	_	_	
+36-19	3456-3461	delta	_	_	_	_	_	_	_	
+36-20	3462-3463	i	_	_	_	_	_	_	_	
+36-21	3464-3471	arbetet	_	_	_	_	_	_	_	
+36-22	3472-3475	med	_	_	_	_	_	_	_	
+36-23	3476-3479	det	_	_	_	_	_	_	_	
+36-24	3480-3490	nationella	_	_	_	_	_	_	_	
+36-25	3491-3506	skogsprogrammet	_	_	_	_	_	_	_	
+36-26	3506-3507	.	_	_	_	_	_	_	_	
+
+#Text=Där finns möjlighet att föra en konstruktiv dialog om skogens användning och anlägga en helhetssyn på skogen som resurs för att ställa om Sverige till ett mer biobaserat samhälle.
+37-1	3508-3511	Där	_	_	_	_	_	_	_	
+37-2	3512-3517	finns	_	_	_	_	_	_	_	
+37-3	3518-3527	möjlighet	_	_	_	_	_	_	_	
+37-4	3528-3531	att	_	_	_	_	_	_	_	
+37-5	3532-3536	föra	_	_	_	_	_	_	_	
+37-6	3537-3539	en	_	_	_	_	_	_	_	
+37-7	3540-3551	konstruktiv	_	Target	37-8	false	4	_	_	
+37-8	3552-3558	dialog	*	_	_	_	_	_	_	
+37-9	3559-3561	om	_	_	_	_	_	_	_	
+37-10	3562-3569	skogens	_	_	_	_	_	_	_	
+37-11	3570-3580	användning	_	_	_	_	_	_	_	
+37-12	3581-3584	och	_	_	_	_	_	_	_	
+37-13	3585-3592	anlägga	_	_	_	_	_	_	_	
+37-14	3593-3595	en	_	_	_	_	_	_	_	
+37-15	3596-3606	helhetssyn	_	_	_	_	_	_	_	
+37-16	3607-3609	på	_	_	_	_	_	_	_	
+37-17	3610-3616	skogen	_	_	_	_	_	_	_	
+37-18	3617-3620	som	_	_	_	_	_	_	_	
+37-19	3621-3627	resurs	_	_	_	_	_	_	_	
+37-20	3628-3631	för	_	_	_	_	_	_	_	
+37-21	3632-3635	att	_	_	_	_	_	_	_	
+37-22	3636-3642	ställa	_	_	_	_	_	_	_	
+37-23	3643-3645	om	_	_	_	_	_	_	_	
+37-24	3646-3653	Sverige	_	_	_	_	_	_	_	
+37-25	3654-3658	till	_	_	_	_	_	_	_	
+37-26	3659-3662	ett	_	_	_	_	_	_	_	
+37-27	3663-3666	mer	_	_	_	_	_	_	_	
+37-28	3667-3677	biobaserat	_	_	_	_	_	_	_	
+37-29	3678-3686	samhälle	_	_	_	_	_	_	_	
+37-30	3686-3687	.	_	_	_	_	_	_	_	
+
+#Text=Det nationella skogsprogrammet kan, om vi alla gör vårt bästa, leda till en ny vår för både skogen, skogsägaren och samhället.
+38-1	3688-3691	Det	*[37]	_	_	_	_	_	_	
+38-2	3692-3702	nationella	*[37]	_	_	_	_	_	_	
+38-3	3703-3718	skogsprogrammet	*[37]	_	_	_	_	_	_	
+38-4	3719-3722	kan	_	_	_	false	4	_	_	
+38-5	3722-3723	,	_	_	_	_	_	_	_	
+38-6	3724-3726	om	_	_	_	_	_	_	_	
+38-7	3727-3729	vi	*[38]	_	_	_	_	_	_	
+38-8	3730-3734	alla	*[38]	_	_	_	_	_	_	
+38-9	3735-3738	gör	_	Target[19]	38-7[38]	false[19]	4[19]	_	_	
+38-10	3739-3743	vårt	_	Target[19]	38-7[38]	false[19]	4[19]	_	_	
+38-11	3744-3749	bästa	_	Target[19]	38-7[38]	false[19]	4[19]	_	_	
+38-12	3749-3750	,	_	_	_	_	_	_	_	
+38-13	3751-3755	leda	_	Target[20]	38-1[37]	false[20]	4[20]	38-4[0_20]	_	
+38-14	3756-3760	till	_	Target[20]	38-1[37]	false[20]	4[20]	_	_	
+38-15	3761-3763	en	_	Target[20]	38-1[37]	false[20]	4[20]	_	_	
+38-16	3764-3766	ny	_	Target[20]	38-1[37]	false[20]	4[20]	_	_	
+38-17	3767-3770	vår	_	Target[20]	38-1[37]	false[20]	4[20]	_	_	
+38-18	3771-3774	för	_	Target[20]	38-1[37]	false[20]	4[20]	_	_	
+38-19	3775-3779	både	_	_	_	_	_	_	_	
+38-20	3780-3786	skogen	_	_	_	_	_	_	_	
+38-21	3786-3787	,	_	_	_	_	_	_	_	
+38-22	3788-3799	skogsägaren	_	_	_	_	_	_	_	
+38-23	3800-3803	och	_	_	_	_	_	_	_	
+38-24	3804-3813	samhället	_	_	_	_	_	_	_	
+38-25	3813-3814	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3816-3817	#	_	_	_	_	_	_	_	
+39-2	3817-3818	P	_	_	_	_	_	_	_	
+39-3	3819-3822	IMM	_	_	_	_	_	_	_	
+39-4	3822-3823	.	_	_	_	_	_	_	_	
+
+#Text=HELENA JONSSON.
+40-1	3825-3831	HELENA	_	_	_	_	_	_	_	
+40-2	3832-3839	JONSSON	_	_	_	_	_	_	_	
+40-3	3839-3840	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3842-3843	#	_	_	_	_	_	_	_	
+41-2	3843-3844	P	_	_	_	_	_	_	_	
+41-3	3845-3848	IMM	_	_	_	_	_	_	_	
+41-4	3848-3849	.	_	_	_	_	_	_	_	
+
+#Text=förbundsordförande LRF.
+42-1	3851-3869	förbundsordförande	_	_	_	_	_	_	_	
+42-2	3870-3873	LRF	_	_	_	_	_	_	_	
+42-3	3873-3874	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3876-3877	#	_	_	_	_	_	_	_	
+43-2	3877-3878	P	_	_	_	_	_	_	_	
+43-3	3879-3882	IMM	_	_	_	_	_	_	_	
+43-4	3882-3883	.	_	_	_	_	_	_	_	
+
+#Text=SVEN ERIK HAMMAR.
+44-1	3885-3889	SVEN	_	_	_	_	_	_	_	
+44-2	3890-3894	ERIK	_	_	_	_	_	_	_	
+44-3	3895-3901	HAMMAR	_	_	_	_	_	_	_	
+44-4	3901-3902	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	3904-3905	#	_	_	_	_	_	_	_	
+45-2	3905-3906	P	_	_	_	_	_	_	_	
+45-3	3907-3910	IMM	_	_	_	_	_	_	_	
+45-4	3910-3911	.	_	_	_	_	_	_	_	
+
+#Text=ordförande LRF Skogsägarna.
+46-1	3913-3923	ordförande	_	_	_	_	_	_	_	
+46-2	3924-3927	LRF	_	_	_	_	_	_	_	
+46-3	3928-3939	Skogsägarna	_	_	_	_	_	_	_	
+46-4	3939-3940	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+47-1	3942-3943	#	_	_	_	_	_	_	_	
+47-2	3943-3944	P	_	_	_	_	_	_	_	
+47-3	3945-3948	IMM	_	_	_	_	_	_	_	
+47-4	3948-3949	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+48-1	3951-3959	Redaktör	_	_	_	_	_	_	_	
+48-2	3959-3960	:	_	_	_	_	_	_	_	
+48-3	3961-3967	Carina	_	_	_	_	_	_	_	
+48-4	3968-3976	Stensson	_	_	_	_	_	_	_	
+48-5	3976-3977	,	_	_	_	_	_	_	_	
+48-6	3978-3988	Biträdande	_	_	_	_	_	_	_	
+48-7	3989-3997	redaktör	_	_	_	_	_	_	_	
+48-8	3997-3998	:	_	_	_	_	_	_	_	
+48-9	3999-4004	Björn	_	_	_	_	_	_	_	
+48-10	4005-4011	Jorner	_	_	_	_	_	_	_	
+48-11	4011-4012	,	_	_	_	_	_	_	_	
+48-12	4013-4017	Mejl	_	_	_	_	_	_	_	
+48-13	4017-4018	:	_	_	_	_	_	_	_	
+48-14	4019-4025	debatt	_	_	_	_	_	_	_	
+48-15	4025-4026	@	_	_	_	_	_	_	_	
+48-16	4026-4032	svd.se	_	_	_	_	_	_	_	
+48-17	4032-4033	,	_	_	_	_	_	_	_	
+48-18	4034-4047	Telefonnummer	_	_	_	_	_	_	_	
+48-19	4047-4048	:	_	_	_	_	_	_	_	
+48-20	4049-4051	08	_	_	_	_	_	_	_	
+48-21	4051-4052	-	_	_	_	_	_	_	_	
+48-22	4052-4058	135149	_	_	_	_	_	_	_	
+48-23	4058-4059	,	_	_	_	_	_	_	_	
+48-24	4060-4067	Twitter	_	_	_	_	_	_	_	
+48-25	4067-4068	:	_	_	_	_	_	_	_	
+48-26	4069-4070	@	_	_	_	_	_	_	_	
+48-27	4070-4079	SvDDebatt	_	_	_	_	_	_	_	
+48-28	4079-4080	,	_	_	_	_	_	_	_	
+48-29	4081-4089	Facebook	_	_	_	_	_	_	_	
+48-30	4089-4090	:	_	_	_	_	_	_	_	
+48-31	4091-4094	SvD	_	_	_	_	_	_	_	
+48-32	4095-4101	Debatt	_	_	_	_	_	_	_	
+48-33	4101-4102	.	_	_	_	_	_	_	_	

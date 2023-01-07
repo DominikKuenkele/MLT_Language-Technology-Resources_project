@@ -1,0 +1,195 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	false	2	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Har du blivit utsatt för omvänd rasism!
+3-1	18-21	Har	_	_	_	_	_	_	
+3-2	22-24	du	_	_	_	_	_	_	
+3-3	25-31	blivit	_	_	_	_	_	_	
+3-4	32-38	utsatt	_	Source[1]	3-8	false[1]	2[1]	_	
+3-5	39-42	för	_	Source[1]	3-8	false[1]	2[1]	_	
+3-6	43-49	omvänd	_	Source[1]	3-8	false[1]	2[1]	_	
+3-7	50-56	rasism	_	Source[1]	3-8	false[1]	2[1]	_	
+3-8	56-57	!	*	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	59-60	#	_	_	_	_	_	_	
+4-2	60-61	P	_	_	_	_	_	_	
+4-3	62-65	IMM	_	_	_	_	_	_	
+4-4	65-66	.	_	_	_	_	_	_	
+
+#Text=Jag hittade inte en liknande tråd trots många om ämnet.
+5-1	68-71	Jag	_	_	_	_	_	_	
+5-2	72-79	hittade	_	_	_	_	_	_	
+5-3	80-84	inte	_	_	_	_	_	_	
+5-4	85-87	en	_	_	_	_	_	_	
+5-5	88-96	liknande	_	_	_	_	_	_	
+5-6	97-101	tråd	_	_	_	_	_	_	
+5-7	102-107	trots	_	_	_	_	_	_	
+5-8	108-113	många	_	_	_	_	_	_	
+5-9	114-116	om	_	_	_	_	_	_	
+5-10	117-122	ämnet	_	_	_	_	_	_	
+5-11	122-123	.	_	_	_	_	_	_	
+
+#Text=Så jag ber om ursäkt att jag missat den tråden.
+6-1	124-126	Så	_	_	_	_	_	_	
+6-2	127-130	jag	*	_	_	_	_	_	
+6-3	131-134	ber	_	Target;Source[2]	6-6[14];6-2	false[2]	2[2]	_	
+6-4	135-137	om	_	Target;Source[2]	6-6[14];6-2	false[2]	2[2]	_	
+6-5	138-144	ursäkt	_	Target;Source[2]	6-6[14];6-2	false[2]	2[2]	_	
+6-6	145-148	att	*[14]	_	_	_	_	_	
+6-7	149-152	jag	*[14]	_	_	_	_	_	
+6-8	153-159	missat	*[14]	_	_	_	_	_	
+6-9	160-163	den	*[14]	_	_	_	_	_	
+6-10	164-170	tråden	*[14]	_	_	_	_	_	
+6-11	170-171	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	173-174	#	_	_	_	_	_	_	
+7-2	174-175	P	_	_	_	_	_	_	
+7-3	176-179	IMM	_	_	_	false	2	_	
+7-4	179-180	.	_	_	_	_	_	_	
+
+#Text=Har du blivit utsatt eller sett omvänd rasism!
+8-1	182-185	Har	_	_	_	_	_	_	
+8-2	186-188	du	_	_	_	_	_	_	
+8-3	189-195	blivit	_	Source[3]	8-9	false[3]	2[3]	_	
+8-4	196-202	utsatt	_	Source[3]	8-9	false[3]	2[3]	_	
+8-5	203-208	eller	_	_	_	_	_	_	
+8-6	209-213	sett	_	_	_	_	_	_	
+8-7	214-220	omvänd	*[15]	Target[4]	8-7[15]	false[4]	2[4]	_	
+8-8	221-227	rasism	*[15]	Target[4]	8-7[15]	false[4]	2[4]	_	
+8-9	227-228	!	*	_	_	_	_	_	
+
+#Text=Då snackar jag alltså om invandrare som diskriminerar Svensken.
+9-1	229-231	Då	_	_	_	_	_	_	
+9-2	232-239	snackar	_	_	_	_	_	_	
+9-3	240-243	jag	*	_	_	_	_	_	
+9-4	244-250	alltså	_	_	_	_	_	_	
+9-5	251-253	om	_	_	_	_	_	_	
+9-6	254-264	invandrare	*[16]	_	_	_	_	_	
+9-7	265-268	som	*[16]	_	_	_	_	_	
+9-8	269-282	diskriminerar	*[16]	Target;Source	9-6[16];9-3	false	1	_	
+9-9	283-291	Svensken	*[16]	_	_	_	_	_	
+9-10	291-292	.	_	_	_	_	_	_	
+
+#Text=Jag har själv blivit drabbad av omvänd rasism av både svenskar och invandrare.
+10-1	293-296	Jag	*	_	_	_	_	_	
+10-2	297-300	har	_	_	_	_	_	_	
+10-3	301-306	själv	_	_	_	_	_	_	
+10-4	307-313	blivit	_	Target;Source[5]	10-10[17];10-1	false[5]	2[5]	_	
+10-5	314-321	drabbad	_	Target;Source[5]	10-10[17];10-1	false[5]	2[5]	_	
+10-6	322-324	av	_	Target;Source[5]	10-10[17];10-1	false[5]	2[5]	_	
+10-7	325-331	omvänd	_	Target;Source[5]	10-10[17];10-1	false[5]	2[5]	_	
+10-8	332-338	rasism	_	Target;Source[5]	10-10[17];10-1	false[5]	2[5]	_	
+10-9	339-341	av	_	_	_	_	_	_	
+10-10	342-346	både	*[17]	_	_	_	_	_	
+10-11	347-355	svenskar	*[17]	_	_	_	_	_	
+10-12	356-359	och	*[17]	_	_	_	_	_	
+10-13	360-370	invandrare	*[17]	_	_	_	_	_	
+10-14	370-371	.	_	_	_	_	_	_	
+
+#Text=Det var då svennejävel, jävla rasist etc.
+11-1	372-375	Det	_	_	_	_	_	_	
+11-2	376-379	var	_	_	_	_	_	_	
+11-3	380-382	då	_	_	_	_	_	_	
+11-4	383-394	svennejävel	_	Source[6]	11-9	false[6]	1[6]	_	
+11-5	394-395	,	_	Source[6]	11-9	false[6]	1[6]	_	
+11-6	396-401	jävla	_	Source[6]	11-9	false[6]	1[6]	_	
+11-7	402-408	rasist	_	Source[6]	11-9	false[6]	1[6]	_	
+11-8	409-412	etc	_	_	_	_	_	_	
+11-9	412-413	.	*	_	_	_	_	_	
+
+#Text=Jävla rasist var med anledning att folk i min omgivning fick reda på att jag var kritisk till svenska invandringen, och "dumma svensken" förstod aldrig vad jag menade när jag förklarade mig.
+12-1	414-419	Jävla	_	Source;Target[7]	12-36;12-15[18]	false[7]	1[7]	_	
+12-2	420-426	rasist	_	Source;Target[7]	12-36;12-15[18]	false[7]	1[7]	_	
+12-3	427-430	var	_	_	_	_	_	_	
+12-4	431-434	med	_	_	_	_	_	_	
+12-5	435-444	anledning	_	_	_	_	_	_	
+12-6	445-448	att	_	_	_	_	_	_	
+12-7	449-453	folk	_	_	_	_	_	_	
+12-8	454-455	i	_	_	_	_	_	_	
+12-9	456-459	min	_	_	_	_	_	_	
+12-10	460-469	omgivning	_	_	_	_	_	_	
+12-11	470-474	fick	_	_	_	_	_	_	
+12-12	475-479	reda	_	_	_	_	_	_	
+12-13	480-482	på	_	_	_	_	_	_	
+12-14	483-486	att	_	_	_	_	_	_	
+12-15	487-490	jag	*[18]|*[19]	_	_	_	_	_	
+12-16	491-494	var	_	_	_	_	_	_	
+12-17	495-502	kritisk	_	Source;Target[8]	12-15[19];12-19[20]	false[8]	2[8]	_	
+12-18	503-507	till	_	Source;Target[8]	12-15[19];12-19[20]	false[8]	2[8]	_	
+12-19	508-515	svenska	*[20]	_	_	_	_	_	
+12-20	516-528	invandringen	*[20]	_	_	_	_	_	
+12-21	528-529	,	_	_	_	_	_	_	
+12-22	530-533	och	_	_	_	_	_	_	
+12-23	534-535	"	_	_[9]	_	false[9]	2[9]	_	
+12-24	535-540	dumma	_	_[9]	_	false[9]	2[9]	_	
+12-25	541-549	svensken	_	_[9]	_	false[9]	2[9]	_	
+12-26	549-550	"	_	_[9]	_	false[9]	2[9]	_	
+12-27	551-558	förstod	_	_	_	_	_	_	
+12-28	559-565	aldrig	_	_	_	_	_	_	
+12-29	566-569	vad	_	_	_	_	_	_	
+12-30	570-573	jag	_	_	_	_	_	_	
+12-31	574-580	menade	_	_	_	_	_	_	
+12-32	581-584	när	_	_	_	_	_	_	
+12-33	585-588	jag	_	_	_	_	_	_	
+12-34	589-599	förklarade	_	_	_	_	_	_	
+12-35	600-603	mig	_	_	_	_	_	_	
+12-36	603-604	.	*	_	_	_	_	_	
+
+#Text=Jag har också bevittnat omvänd rasism, där invandrare diskriminerar och då kastar slagord och blickar mot funktionshindrade.
+13-1	605-608	Jag	_	_	_	_	_	_	
+13-2	609-612	har	_	_	_	_	_	_	
+13-3	613-618	också	_	_	_	_	_	_	
+13-4	619-628	bevittnat	_	_	_	_	_	_	
+13-5	629-635	omvänd	_	_[10]	_	false[10]	2[10]	_	
+13-6	636-642	rasism	_	_[10]	_	false[10]	2[10]	_	
+13-7	642-643	,	_	_	_	_	_	_	
+13-8	644-647	där	_	_	_	_	_	_	
+13-9	648-658	invandrare	*[21]|*[22]	_	_	_	_	_	
+13-10	659-672	diskriminerar	*[21]	_[11]	_	false[11]	1[11]	13-13[13_11]	
+13-11	673-676	och	*[21]	_[11]	_	false[11]	1[11]	_	
+13-12	677-679	då	*[21]	_	_	_	_	_	
+13-13	680-686	kastar	*[21]	Source;Target[12]|Target[13]	13-9[22];13-18[23]|13-9[21]	false[12]|false[13]	1[12]|1[13]	_	
+13-14	687-694	slagord	*[21]	Source;Target[12]|Target[13]	13-9[22];13-18[23]|13-9[21]	false[12]|false[13]	1[12]|1[13]	_	
+13-15	695-698	och	*[21]	Source;Target[12]	13-9[22];13-18[23]	false[12]	1[12]	_	
+13-16	699-706	blickar	*[21]	Source;Target[12]	13-9[22];13-18[23]	false[12]	1[12]	_	
+13-17	707-710	mot	*[21]	_	_	_	_	_	
+13-18	711-728	funktionshindrade	*[21]|*[23]	_	_	_	_	_	
+13-19	728-729	.	_	_	_	_	_	_	
+
+#Text=Men det sker.
+14-1	730-733	Men	_	_	_	_	_	_	
+14-2	734-737	det	_	_	_	_	_	_	
+14-3	738-742	sker	_	_	_	_	_	_	
+14-4	742-743	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	745-746	#	_	_	_	_	_	_	
+15-2	746-747	P	_	_	_	_	_	_	
+15-3	748-751	IMM	_	_	_	_	_	_	
+15-4	751-752	.	_	_	_	_	_	_	
+
+#Text=Vad har ni för historier?.
+16-1	754-757	Vad	_	_	_	_	_	_	
+16-2	758-761	har	_	_	_	_	_	_	
+16-3	762-764	ni	_	_	_	_	_	_	
+16-4	765-768	för	_	_	_	_	_	_	
+16-5	769-778	historier	_	_	_	_	_	_	
+16-6	778-779	?	_	_	_	_	_	_	
+16-7	779-780	.	_	_	_	_	_	_	

@@ -1,0 +1,1074 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Burkaförbud lika illa som plikt.
+3-1	18-29	Burkaförbud	*	_	_	_	_	_	_	
+3-2	30-34	lika	_	Target;Source[1]	3-1;3-5	false[1]	2[1]	_	_	
+3-3	35-39	illa	_	Target;Source[1]	3-1;3-5	false[1]	2[1]	_	_	
+3-4	40-43	som	_	_	_	_	_	_	_	
+3-5	44-49	plikt	*	_	_	_	_	_	_	
+3-6	49-50	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	_	_	
+
+#Text=SLÖJFÖRBUD Burkaförbudstanken sprider sig som en löpeld över Europa.
+5-1	61-71	SLÖJFÖRBUD	_	_	_	_	_	_	_	
+5-2	72-90	Burkaförbudstanken	_	_	_	_	_	_	_	
+5-3	91-98	sprider	_	_	_	_	_	_	_	
+5-4	99-102	sig	_	_	_	_	_	_	_	
+5-5	103-106	som	_	_	_	_	_	_	_	
+5-6	107-109	en	_	_	_	_	_	_	_	
+5-7	110-116	löpeld	_	_	_	_	_	_	_	
+5-8	117-121	över	_	_	_	_	_	_	_	
+5-9	122-128	Europa	_	_	_	_	_	_	_	
+5-10	128-129	.	_	_	_	_	_	_	_	
+
+#Text=I åtskilliga länder har lagstiftaren antingen vidtagit åtgärder med udden mot användande av heltäckande slöja eller så överväger man att göra det.
+6-1	130-131	I	_	_	_	_	_	_	_	
+6-2	132-142	åtskilliga	*[23]	_	_	_	_	_	_	
+6-3	143-149	länder	*[23]	_	_	_	_	_	_	
+6-4	150-153	har	_	_	_	_	_	_	_	
+6-5	154-166	lagstiftaren	_	_	_	_	_	_	_	
+6-6	167-175	antingen	_	_	_	_	_	_	_	
+6-7	176-184	vidtagit	_	_	_	_	_	_	_	
+6-8	185-193	åtgärder	_	_	_	_	_	_	_	
+6-9	194-197	med	_	Target;Source[2]	6-12[24];6-2[23]	false[2]	2[2]	_	_	
+6-10	198-203	udden	_	Target;Source[2]	6-12[24];6-2[23]	false[2]	2[2]	_	_	
+6-11	204-207	mot	_	Target;Source[2]	6-12[24];6-2[23]	false[2]	2[2]	_	_	
+6-12	208-218	användande	*[24]	_	_	_	_	_	_	
+6-13	219-221	av	*[24]	_	_	_	_	_	_	
+6-14	222-233	heltäckande	*[24]	_	_	_	_	_	_	
+6-15	234-239	slöja	*[24]	_	_	_	_	_	_	
+6-16	240-245	eller	_	_	_	_	_	_	_	
+6-17	246-248	så	_	_	_	_	_	_	_	
+6-18	249-258	överväger	_	_	_	_	_	_	_	
+6-19	259-262	man	_	_	_	_	_	_	_	
+6-20	263-266	att	_	_	_	_	_	_	_	
+6-21	267-271	göra	_	_	_	_	_	_	_	
+6-22	272-275	det	_	_	_	_	_	_	_	
+6-23	275-276	.	_	_	_	_	_	_	_	
+
+#Text=I Sverige har dock statsministern Fredrik Reinfeldt i debatten tagit bestämt avstånd från ett burkaförbud, skriver Mårten Schultz, docent i civilrätt.
+7-1	277-278	I	_	_	_	_	_	_	_	
+7-2	279-286	Sverige	_	_	_	_	_	_	_	
+7-3	287-290	har	_	_	_	_	_	_	_	
+7-4	291-295	dock	_	_	_	_	_	_	_	
+7-5	296-310	statsministern	_	_	_	_	_	_	_	
+7-6	311-318	Fredrik	_	_	_	_	_	_	_	
+7-7	319-328	Reinfeldt	_	_	_	_	_	_	_	
+7-8	329-330	i	_	_	_	_	_	_	_	
+7-9	331-339	debatten	_	_	_	_	_	_	_	
+7-10	340-345	tagit	_	Target[3]	7-14[25]	false[3]	2[3]	_	_	
+7-11	346-353	bestämt	_	Target[3]	7-14[25]	false[3]	2[3]	_	_	
+7-12	354-361	avstånd	_	Target[3]	7-14[25]	false[3]	2[3]	_	_	
+7-13	362-366	från	_	Target[3]	7-14[25]	false[3]	2[3]	_	_	
+7-14	367-370	ett	*[25]	_	_	_	_	_	_	
+7-15	371-382	burkaförbud	*[25]	_	_	_	_	_	_	
+7-16	382-383	,	_	_	_	_	_	_	_	
+7-17	384-391	skriver	_	_	_	_	_	_	_	
+7-18	392-398	Mårten	_	_	_	_	_	_	_	
+7-19	399-406	Schultz	_	_	_	_	_	_	_	
+7-20	406-407	,	_	_	_	_	_	_	_	
+7-21	408-414	docent	_	_	_	_	_	_	_	
+7-22	415-416	i	_	_	_	_	_	_	_	
+7-23	417-426	civilrätt	_	_	_	_	_	_	_	
+7-24	426-427	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	429-430	#	_	_	_	_	_	_	_	
+8-2	430-431	P	_	_	_	_	_	_	_	
+8-3	432-435	IMM	_	_	_	_	_	_	_	
+8-4	435-436	.	_	_	_	_	_	_	_	
+
+#Text=Det finns flera motiveringar till varför burka/niqab borde förbjudas.
+9-1	438-441	Det	_	_	_	_	_	_	_	
+9-2	442-447	finns	_	_	_	_	_	_	_	
+9-3	448-453	flera	*[26]	_	_	_	_	_	10-1[27_26]	
+9-4	454-466	motiveringar	*[26]	_	_	_	_	_	_	
+9-5	467-471	till	*[26]	_	_	_	_	_	_	
+9-6	472-478	varför	*[26]	_	_	_	_	_	_	
+9-7	479-484	burka	*[26]	_	_	_	_	_	_	
+9-8	484-485	/	*[26]	_	_	_	_	_	_	
+9-9	485-490	niqab	*[26]	_	_	_	_	_	_	
+9-10	491-496	borde	*[26]	_	_	_	_	_	_	
+9-11	497-506	förbjudas	*[26]	_	_	_	_	_	_	
+9-12	506-507	.	_	_	_	_	_	_	_	
+
+#Text=En del är uppenbara svepskäl, som bara syftar till att skymma det egentliga syftet att burkan ogillas.
+10-1	508-510	En	*[27]	_	_	_	_	_	_	
+10-2	511-514	del	*[27]	_	_	_	_	_	_	
+10-3	515-517	är	_	Target[4]	10-1[27]	false[4]	2[4]	_	_	
+10-4	518-527	uppenbara	_	Target[4]	10-1[27]	false[4]	2[4]	_	_	
+10-5	528-536	svepskäl	_	Target[4]	10-1[27]	false[4]	2[4]	_	_	
+10-6	536-537	,	_	_	_	_	_	_	_	
+10-7	538-541	som	_	_	_	_	_	_	_	
+10-8	542-546	bara	_	_	_	_	_	_	_	
+10-9	547-553	syftar	_	_	_	_	_	_	_	
+10-10	554-558	till	_	_	_	_	_	_	_	
+10-11	559-562	att	_	_	_	_	_	_	_	
+10-12	563-569	skymma	_	_	_	_	_	_	_	
+10-13	570-573	det	_	_	_	_	_	_	_	
+10-14	574-583	egentliga	_	_	_	_	_	_	_	
+10-15	584-590	syftet	_	_	_	_	_	_	_	
+10-16	591-594	att	_	_	_	_	_	_	_	
+10-17	595-601	burkan	*	_	_	_	_	_	_	
+10-18	602-609	ogillas	_	Target;Source	10-17;10-19	false	2	_	_	
+10-19	609-610	.	*	_	_	_	_	_	_	
+
+#Text=Det belgiska förbudet motiverades med argumentet att klädesplagget förhindrade identifikation och därmed kunde användas för att dölja användare som begår brott.
+11-1	611-614	Det	_	_	_	_	_	_	_	
+11-2	615-623	belgiska	_	_	_	_	_	_	_	
+11-3	624-632	förbudet	_	_	_	_	_	_	_	
+11-4	633-644	motiverades	_	_	_	_	_	_	_	
+11-5	645-648	med	_	_	_	_	_	_	_	
+11-6	649-659	argumentet	_	_	_	_	_	_	_	
+11-7	660-663	att	_	_	_	_	_	_	_	
+11-8	664-677	klädesplagget	*	_	_	_	_	_	_	
+11-9	678-689	förhindrade	_	Source;Target	11-22[29];11-8	false	2	_	_	
+11-10	690-704	identifikation	_	_	_	_	_	_	_	
+11-11	705-708	och	_	_	_	_	_	_	_	
+11-12	709-715	därmed	_	_	_	_	_	_	_	
+11-13	716-721	kunde	_	_	_	_	_	_	_	
+11-14	722-730	användas	_	_	_	_	_	_	_	
+11-15	731-734	för	_	_	_	_	_	_	_	
+11-16	735-738	att	_	_	_	_	_	_	_	
+11-17	739-744	dölja	_	Source;Target	11-22[30];11-18[28]	false	2	_	_	
+11-18	745-754	användare	*[28]	_	_	_	_	_	_	
+11-19	755-758	som	*[28]	_	_	_	_	_	_	
+11-20	759-764	begår	*[28]	_	_	_	_	_	_	
+11-21	765-770	brott	*[28]	_	_	_	_	_	_	
+11-22	770-771	.	*[29]|*[30]	_	_	_	_	_	_	
+
+#Text=En del motiveringar är kulturellt hållna, inte sällan av närmast rasistiskt slag.
+12-1	772-774	En	_	_	_	_	_	_	_	
+12-2	775-778	del	_	_	_	_	_	_	_	
+12-3	779-791	motiveringar	_	_	_	_	_	_	_	
+12-4	792-794	är	_	_	_	_	_	_	_	
+12-5	795-805	kulturellt	_	_	_	_	_	_	_	
+12-6	806-812	hållna	_	_	_	_	_	_	_	
+12-7	812-813	,	_	_	_	_	_	_	_	
+12-8	814-818	inte	_	_	_	_	_	_	_	
+12-9	819-825	sällan	_	_	_	_	_	_	_	
+12-10	826-828	av	_	_	_	_	_	_	_	
+12-11	829-836	närmast	_	_	_	_	_	_	_	
+12-12	837-847	rasistiskt	_	Target	12-13	false	1	_	_	
+12-13	848-852	slag	*	_	_	_	_	_	_	
+12-14	852-853	.	_	_	_	_	_	_	_	
+
+#Text=Det sägs således ibland att burkan inte hör hemma i en viss kultur.
+13-1	854-857	Det	_	_	_	_	_	_	_	
+13-2	858-862	sägs	_	_	_	_	_	_	_	
+13-3	863-870	således	_	_	_	_	_	_	_	
+13-4	871-877	ibland	_	_	_	_	_	_	_	
+13-5	878-881	att	_	_	_	_	_	_	_	
+13-6	882-888	burkan	*	_	_	_	_	_	_	
+13-7	889-893	inte	_	Target;Source[5]	13-6;13-14	false[5]	2[5]	_	_	
+13-8	894-897	hör	_	Target;Source[5]	13-6;13-14	false[5]	2[5]	_	_	
+13-9	898-903	hemma	_	Target;Source[5]	13-6;13-14	false[5]	2[5]	_	_	
+13-10	904-905	i	_	_	_	_	_	_	_	
+13-11	906-908	en	_	_	_	_	_	_	_	
+13-12	909-913	viss	_	_	_	_	_	_	_	
+13-13	914-920	kultur	_	_	_	_	_	_	_	
+13-14	920-921	.	*	_	_	_	_	_	_	
+
+#Text=Den typen av kriminaliseringar hör inte hemma i en rättsstat.
+14-1	922-925	Den	*[31]	_	_	_	_	_	_	
+14-2	926-931	typen	*[31]	_	_	_	_	_	_	
+14-3	932-934	av	*[31]	_	_	_	_	_	_	
+14-4	935-952	kriminaliseringar	*[31]	_	_	_	_	_	_	
+14-5	953-956	hör	_	Target[6]	14-1[31]	false[6]	2[6]	_	_	
+14-6	957-961	inte	_	Target[6]	14-1[31]	false[6]	2[6]	_	_	
+14-7	962-967	hemma	_	Target[6]	14-1[31]	false[6]	2[6]	_	_	
+14-8	968-969	i	_	_	_	_	_	_	_	
+14-9	970-972	en	_	_	_	_	_	_	_	
+14-10	973-982	rättsstat	_	_	_	_	_	_	_	
+14-11	982-983	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	985-986	#	_	_	_	_	_	_	_	
+15-2	986-987	P	_	_	_	_	_	_	_	
+15-3	988-991	IMM	_	_	_	_	_	_	_	
+15-4	991-992	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+16-1	994-997	Det	_	_	_	_	_	_	_	
+16-2	998-1001	här	_	_	_	_	_	_	_	
+16-3	1002-1004	är	_	_	_	_	_	_	_	
+16-4	1005-1007	en	_	_	_	_	_	_	_	
+16-5	1008-1022	argumenterande	_	_	_	_	_	_	_	
+16-6	1023-1027	text	_	_	_	_	_	_	_	
+16-7	1028-1031	med	_	_	_	_	_	_	_	
+16-8	1032-1037	syfte	_	_	_	_	_	_	_	
+16-9	1038-1041	att	_	_	_	_	_	_	_	
+16-10	1042-1049	påverka	_	_	_	_	_	_	_	
+16-11	1049-1050	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+17-1	1051-1060	Åsikterna	_	_	_	_	_	_	_	
+17-2	1061-1064	som	_	_	_	_	_	_	_	
+17-3	1065-1073	uttrycks	_	_	_	_	_	_	_	
+17-4	1074-1076	är	_	_	_	_	_	_	_	
+17-5	1077-1088	skribentens	_	_	_	_	_	_	_	
+17-6	1089-1093	egna	_	_	_	_	_	_	_	
+17-7	1093-1094	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1096-1097	#	_	_	_	_	_	_	_	
+18-2	1097-1098	P	_	_	_	_	_	_	_	
+18-3	1099-1102	IMM	_	_	_	_	_	_	_	
+18-4	1102-1103	.	_	_	_	_	_	_	_	
+
+#Text=Det vanligaste är dock paternalistiska argument: Burkan ska förbjudas för att hjälpa de kvinnor som blir förtryckta bakom slöjan.
+19-1	1105-1108	Det	_	_	_	_	_	_	_	
+19-2	1109-1119	vanligaste	_	_	_	_	_	_	_	
+19-3	1120-1122	är	_	_	_	_	_	_	_	
+19-4	1123-1127	dock	_	_	_	_	_	_	_	
+19-5	1128-1143	paternalistiska	_	Target	19-6	false	2	_	_	
+19-6	1144-1152	argument	*	_	_	_	_	_	_	
+19-7	1152-1153	:	_	_	_	_	_	_	_	
+19-8	1154-1160	Burkan	_	_	_	_	_	_	_	
+19-9	1161-1164	ska	_	_	_	_	_	_	_	
+19-10	1165-1174	förbjudas	_	_	_	_	_	_	_	
+19-11	1175-1178	för	_	_	_	_	_	_	_	
+19-12	1179-1182	att	_	_	_	_	_	_	_	
+19-13	1183-1189	hjälpa	_	_	_	_	_	_	_	
+19-14	1190-1192	de	_	_	_	_	_	_	_	
+19-15	1193-1200	kvinnor	_	_	_	_	_	_	_	
+19-16	1201-1204	som	_	_	_	_	_	_	_	
+19-17	1205-1209	blir	_	Target;Source[7]	19-20;19-21	false[7]	2[7]	_	_	
+19-18	1210-1220	förtryckta	_	Target;Source[7]	19-20;19-21	false[7]	2[7]	_	_	
+19-19	1221-1226	bakom	_	_	_	_	_	_	_	
+19-20	1227-1233	slöjan	*	_	_	_	_	_	_	
+19-21	1233-1234	.	*	_	_	_	_	_	_	
+
+#Text=I Frankrike är argumentet att burkan håller kvinnor fångna och att de därmed förhindras att ha ett socialt liv och en egen identitet.
+20-1	1235-1236	I	_	_	_	_	_	_	_	
+20-2	1237-1246	Frankrike	*	_	_	_	_	_	_	
+20-3	1247-1249	är	_	_	_	_	_	_	_	
+20-4	1250-1260	argumentet	_	_	_	_	_	_	_	
+20-5	1261-1264	att	_	_	_	_	_	_	_	
+20-6	1265-1271	burkan	*	_	_	_	_	_	_	
+20-7	1272-1278	håller	_	Target;Source[8]	20-6;20-2	false[8]	1[8]	_	_	
+20-8	1279-1286	kvinnor	_	Target;Source[8]	20-6;20-2	false[8]	1[8]	_	_	
+20-9	1287-1293	fångna	_	Target;Source[8]	20-6;20-2	false[8]	1[8]	_	_	
+20-10	1294-1297	och	_	_	_	_	_	_	_	
+20-11	1298-1301	att	_	_	_	_	_	_	_	
+20-12	1302-1304	de	_	_	_	_	_	_	_	
+20-13	1305-1311	därmed	_	_	_	_	_	_	_	
+20-14	1312-1322	förhindras	_	_	_	_	_	_	_	
+20-15	1323-1326	att	_	_	_	_	_	_	_	
+20-16	1327-1329	ha	_	_	_	_	_	_	_	
+20-17	1330-1333	ett	_	_	_	_	_	_	_	
+20-18	1334-1341	socialt	_	_	_	_	_	_	_	
+20-19	1342-1345	liv	_	_	_	_	_	_	_	
+20-20	1346-1349	och	_	_	_	_	_	_	_	
+20-21	1350-1352	en	_	_	_	_	_	_	_	
+20-22	1353-1357	egen	_	_	_	_	_	_	_	
+20-23	1358-1367	identitet	_	_	_	_	_	_	_	
+20-24	1367-1368	.	_	_	_	_	_	_	_	
+
+#Text=Även denna motivering är ohållbar.
+21-1	1369-1373	Även	_	_	_	_	_	_	_	
+21-2	1374-1379	denna	*[32]	_	_	_	_	_	_	
+21-3	1380-1390	motivering	*[32]	_	_	_	_	_	_	
+21-4	1391-1393	är	_	Target[9]	21-2[32]	false[9]	2[9]	_	_	
+21-5	1394-1402	ohållbar	_	Target[9]	21-2[32]	false[9]	2[9]	_	_	
+21-6	1402-1403	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1405-1406	#	_	_	_	_	_	_	_	
+22-2	1406-1407	P	_	_	_	_	_	_	_	
+22-3	1408-1411	IMM	_	_	_	_	_	_	_	
+22-4	1411-1412	.	_	_	_	_	_	_	_	
+
+#Text=Ogillar man burkan för att den ger uttryck för ett förtryck vilket den kan göra ibland, ibland inte – så bör man naturligtvis ta fram en strategi för hur man skall komma till rätta med just förtrycket, inte dess symtom.
+23-1	1414-1421	Ogillar	_	Source;Target	23-2;23-3	false	2	_	_	
+23-2	1422-1425	man	*	_	_	_	_	_	_	
+23-3	1426-1432	burkan	*	_	_	_	_	_	_	
+23-4	1433-1436	för	_	_	_	_	_	_	_	
+23-5	1437-1440	att	_	_	_	_	_	_	_	
+23-6	1441-1444	den	_	_	_	_	_	_	_	
+23-7	1445-1448	ger	_	_	_	_	_	_	_	
+23-8	1449-1456	uttryck	_	_	_	_	_	_	_	
+23-9	1457-1460	för	_	_	_	_	_	_	_	
+23-10	1461-1464	ett	_	_	_	_	_	_	_	
+23-11	1465-1473	förtryck	_	_	_	_	_	_	_	
+23-12	1474-1480	vilket	_	_	_	_	_	_	_	
+23-13	1481-1484	den	_	_	_	_	_	_	_	
+23-14	1485-1488	kan	_	_	_	_	_	_	_	
+23-15	1489-1493	göra	_	_	_	_	_	_	_	
+23-16	1494-1500	ibland	_	_	_	_	_	_	_	
+23-17	1500-1501	,	_	_	_	_	_	_	_	
+23-18	1502-1508	ibland	_	_	_	_	_	_	_	
+23-19	1509-1513	inte	_	_	_	_	_	_	_	
+23-20	1514-1515	–	_	_	_	_	_	_	_	
+23-21	1516-1518	så	_	_	_	_	_	_	_	
+23-22	1519-1522	bör	_	Target[10]	23-25[33]	false[10]	4[10]	_	_	
+23-23	1523-1526	man	_	Target[10]	23-25[33]	false[10]	4[10]	_	_	
+23-24	1527-1539	naturligtvis	_	Target[10]	23-25[33]	false[10]	4[10]	_	_	
+23-25	1540-1542	ta	*[33]	_	_	_	_	_	_	
+23-26	1543-1547	fram	*[33]	_	_	_	_	_	_	
+23-27	1548-1550	en	*[33]	_	_	_	_	_	_	
+23-28	1551-1559	strategi	*[33]	_	_	_	_	_	_	
+23-29	1560-1563	för	*[33]	_	_	_	_	_	_	
+23-30	1564-1567	hur	*[33]	_	_	_	_	_	_	
+23-31	1568-1571	man	*[33]	_	_	_	_	_	_	
+23-32	1572-1577	skall	*[33]	_	_	_	_	_	_	
+23-33	1578-1583	komma	*[33]	_	_	_	_	_	_	
+23-34	1584-1588	till	*[33]	_	_	_	_	_	_	
+23-35	1589-1594	rätta	*[33]	_	_	_	_	_	_	
+23-36	1595-1598	med	*[33]	_	_	_	_	_	_	
+23-37	1599-1603	just	*[33]	_	_	_	_	_	_	
+23-38	1604-1614	förtrycket	*[33]	_	_	_	_	_	_	
+23-39	1614-1615	,	_	_	_	_	_	_	_	
+23-40	1616-1620	inte	_	_	_	_	_	_	_	
+23-41	1621-1625	dess	_	_	_	_	_	_	_	
+23-42	1626-1632	symtom	_	_	_	_	_	_	_	
+23-43	1632-1633	.	_	_	_	_	_	_	_	
+
+#Text=Att förbjuda burka för att motverka förtryck av kvinnor är som att bekämpa kvinnomisshandel genom att tvinga slagna kvinnor att sminka över sina blåmärken.
+24-1	1634-1637	Att	*[34]	_	_	_	_	_	_	
+24-2	1638-1646	förbjuda	*[34]	_	_	_	_	_	_	
+24-3	1647-1652	burka	*[34]	_	_	_	_	_	_	
+24-4	1653-1656	för	*[34]	_	_	_	_	_	_	
+24-5	1657-1660	att	*[34]	_	_	_	_	_	_	
+24-6	1661-1669	motverka	*[34]	_	_	_	_	_	_	
+24-7	1670-1678	förtryck	*[34]	_	_	_	_	_	_	
+24-8	1679-1681	av	*[34]	_	_	_	_	_	_	
+24-9	1682-1689	kvinnor	*[34]	_	_	_	_	_	_	
+24-10	1690-1692	är	_	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-11	1693-1696	som	_	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-12	1697-1700	att	_	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-13	1701-1708	bekämpa	_	Target[11]|Target[12]	24-1[34]|24-14	false[11]|false[12]	2[11]|2[12]	_	_	
+24-14	1709-1725	kvinnomisshandel	*	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-15	1726-1731	genom	_	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-16	1732-1735	att	_	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-17	1736-1742	tvinga	_	Target[11]|Target[13]	24-1[34]|24-18[35]	false[11]|false[13]	2[11]|2[13]	_	_	
+24-18	1743-1749	slagna	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-19	1750-1757	kvinnor	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-20	1758-1761	att	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-21	1762-1768	sminka	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-22	1769-1773	över	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-23	1774-1778	sina	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-24	1779-1788	blåmärken	*[35]	Target[11]	24-1[34]	false[11]	2[11]	_	_	
+24-25	1788-1789	.	_	_	_	_	_	_	_	
+
+#Text=Tvingar man misshandlade kvinnor att dölja sina blåmärken så slipper omgivningen se resultaten av förtrycket.
+25-1	1790-1797	Tvingar	_	_	_	_	_	_	_	
+25-2	1798-1801	man	_	_	_	_	_	_	_	
+25-3	1802-1814	misshandlade	_	_	_	_	_	_	_	
+25-4	1815-1822	kvinnor	_	_	_	_	_	_	_	
+25-5	1823-1826	att	_	_	_	_	_	_	_	
+25-6	1827-1832	dölja	_	Target	25-8	false	2	_	_	
+25-7	1833-1837	sina	_	_	_	_	_	_	_	
+25-8	1838-1847	blåmärken	*	_	_	_	_	_	_	
+25-9	1848-1850	så	_	_	_	_	_	_	_	
+25-10	1851-1858	slipper	_	Target	25-13[36]	false	2	_	_	
+25-11	1859-1870	omgivningen	_	_	_	_	_	_	_	
+25-12	1871-1873	se	_	_	_	false	2	25-10	_	
+25-13	1874-1884	resultaten	*[36]	_	_	_	_	_	_	
+25-14	1885-1887	av	*[36]	_	_	_	_	_	_	
+25-15	1888-1898	förtrycket	*[36]	_	_	_	_	_	_	
+25-16	1898-1899	.	_	_	_	_	_	_	_	
+
+#Text=Det hjälper knappast offren.
+26-1	1900-1903	Det	_	_	_	_	_	_	_	
+26-2	1904-1911	hjälper	_	_	_	_	_	_	_	
+26-3	1912-1920	knappast	_	_	_	false	2	_	_	
+26-4	1921-1927	offren	_	_	_	_	_	_	_	
+26-5	1927-1928	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	1930-1931	#	_	_	_	_	_	_	_	
+27-2	1931-1932	P	_	_	_	_	_	_	_	
+27-3	1933-1936	IMM	_	_	_	_	_	_	_	
+27-4	1936-1937	.	_	_	_	_	_	_	_	
+
+#Text=Tvärtom så innebär en kriminalisering av burka i de fall där burkan faktiskt är en effekt av ett förtryck att lagstiftaren bidrar till ett dubbelt övergrepp: Först tvingas kvinnan att dölja sig och därefter bestraffas hon av samhället för att hon blivit förtryckt.Ett burkaförbud hör således lika lite som en burkaplikt hemma i en rättsstat.
+28-1	1939-1946	Tvärtom	_	_	_	_	_	_	_	
+28-2	1947-1949	så	_	_	_	_	_	_	_	
+28-3	1950-1957	innebär	_	_	_	_	_	_	_	
+28-4	1958-1960	en	_	_	_	_	_	_	_	
+28-5	1961-1976	kriminalisering	_	_	_	_	_	_	_	
+28-6	1977-1979	av	_	_	_	_	_	_	_	
+28-7	1980-1985	burka	_	_	_	_	_	_	_	
+28-8	1986-1987	i	_	_	_	_	_	_	_	
+28-9	1988-1990	de	_	_	_	_	_	_	_	
+28-10	1991-1995	fall	_	_	_	_	_	_	_	
+28-11	1996-1999	där	_	_	_	_	_	_	_	
+28-12	2000-2006	burkan	_	_	_	_	_	_	_	
+28-13	2007-2015	faktiskt	_	_	_	_	_	_	_	
+28-14	2016-2018	är	_	_	_	_	_	_	_	
+28-15	2019-2021	en	_	_	_	_	_	_	_	
+28-16	2022-2028	effekt	_	_	_	_	_	_	_	
+28-17	2029-2031	av	_	_	_	_	_	_	_	
+28-18	2032-2035	ett	_	_	_	_	_	_	_	
+28-19	2036-2044	förtryck	_	_	_	_	_	_	_	
+28-20	2045-2048	att	_	_	_	_	_	_	_	
+28-21	2049-2061	lagstiftaren	_	_	_	_	_	_	_	
+28-22	2062-2068	bidrar	_	_	_	_	_	_	_	
+28-23	2069-2073	till	_	_	_	_	_	_	_	
+28-24	2074-2077	ett	_	_	_	_	_	_	_	
+28-25	2078-2085	dubbelt	_	_	_	_	_	_	_	
+28-26	2086-2095	övergrepp	_	_	_	_	_	_	_	
+28-27	2095-2096	:	_	_	_	_	_	_	_	
+28-28	2097-2102	Först	_	_	_	_	_	_	_	
+28-29	2103-2110	tvingas	_	_	_	_	_	_	_	
+28-30	2111-2118	kvinnan	_	_	_	_	_	_	_	
+28-31	2119-2122	att	_	_	_	_	_	_	_	
+28-32	2123-2128	dölja	_	_	_	_	_	_	_	
+28-33	2129-2132	sig	_	_	_	_	_	_	_	
+28-34	2133-2136	och	_	_	_	_	_	_	_	
+28-35	2137-2145	därefter	_	_	_	_	_	_	_	
+28-36	2146-2156	bestraffas	_	Source;Target	28-39;28-37	false	2	_	_	
+28-37	2157-2160	hon	*	_	_	_	_	_	_	
+28-38	2161-2163	av	_	_	_	_	_	_	_	
+28-39	2164-2173	samhället	*	_	_	_	_	_	_	
+28-40	2174-2177	för	_	_	_	_	_	_	_	
+28-41	2178-2181	att	_	_	_	_	_	_	_	
+28-42	2182-2185	hon	_	_	_	_	_	_	_	
+28-43	2186-2192	blivit	_	_	_	_	_	_	_	
+28-44	2193-2206	förtryckt.Ett	_	_	_	_	_	_	_	
+28-45	2207-2218	burkaförbud	*	_	_	_	_	_	_	
+28-46	2219-2222	hör	_	_	_	false	2	_	_	
+28-47	2223-2230	således	_	_	_	_	_	_	_	
+28-48	2231-2235	lika	_	Target;Target[14]	28-45;28-52	false[14]	2[14]	28-46[0_14]	_	
+28-49	2236-2240	lite	_	Target;Target[14]	28-45;28-52	false[14]	2[14]	_	_	
+28-50	2241-2244	som	_	_	_	_	_	_	_	
+28-51	2245-2247	en	_	_	_	_	_	_	_	
+28-52	2248-2258	burkaplikt	*	_	_	_	_	_	_	
+28-53	2259-2264	hemma	_	_	_	false	2	28-48[14_0]	_	
+28-54	2265-2266	i	_	_	_	_	_	_	_	
+28-55	2267-2269	en	_	_	_	_	_	_	_	
+28-56	2270-2279	rättsstat	_	_	_	_	_	_	_	
+28-57	2279-2280	.	_	_	_	_	_	_	_	
+
+#Text=Däremot så är det rimligt att lagstiftningen är lyhörd för att det i vissa fall kan förekomma ett faktiskt och konkret tvång bakom användandet av burka.
+29-1	2281-2288	Däremot	_	_	_	_	_	_	_	
+29-2	2289-2291	så	_	_	_	_	_	_	_	
+29-3	2292-2294	är	_	_	_	false	4	_	_	
+29-4	2295-2298	det	_	_	_	_	_	_	_	
+29-5	2299-2306	rimligt	_	Target	29-6[37]	false	4	29-3	_	
+29-6	2307-2310	att	*[37]	_	_	_	_	_	_	
+29-7	2311-2325	lagstiftningen	*[37]	_	_	_	_	_	_	
+29-8	2326-2328	är	*[37]	_	_	_	_	_	_	
+29-9	2329-2335	lyhörd	*[37]	_	_	_	_	_	_	
+29-10	2336-2339	för	*[37]	_	_	_	_	_	_	
+29-11	2340-2343	att	*[37]	_	_	_	_	_	_	
+29-12	2344-2347	det	*[37]	_	_	_	_	_	_	
+29-13	2348-2349	i	*[37]	_	_	_	_	_	_	
+29-14	2350-2355	vissa	*[37]	_	_	_	_	_	_	
+29-15	2356-2360	fall	*[37]	_	_	_	_	_	_	
+29-16	2361-2364	kan	*[37]	_	_	_	_	_	_	
+29-17	2365-2374	förekomma	*[37]	_	_	_	_	_	_	
+29-18	2375-2378	ett	*[37]	_	_	_	_	_	_	
+29-19	2379-2387	faktiskt	*[37]	_	_	_	_	_	_	
+29-20	2388-2391	och	*[37]	_	_	_	_	_	_	
+29-21	2392-2399	konkret	*[37]	_	_	_	_	_	_	
+29-22	2400-2405	tvång	*[37]	_	_	_	_	_	_	
+29-23	2406-2411	bakom	*[37]	_	_	_	_	_	_	
+29-24	2412-2423	användandet	*[37]	_	_	_	_	_	_	
+29-25	2424-2426	av	*[37]	_	_	_	_	_	_	
+29-26	2427-2432	burka	*[37]	_	_	_	_	_	_	
+29-27	2432-2433	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	2435-2436	#	_	_	_	_	_	_	_	
+30-2	2436-2437	P	_	_	_	_	_	_	_	
+30-3	2438-2441	IMM	_	_	_	_	_	_	_	
+30-4	2441-2442	.	_	_	_	_	_	_	_	
+
+#Text=Vissa använder burka för att de själva vill det.
+31-1	2444-2449	Vissa	_	_	_	_	_	_	_	
+31-2	2450-2458	använder	_	_	_	_	_	_	_	
+31-3	2459-2464	burka	_	_	_	_	_	_	_	
+31-4	2465-2468	för	_	_	_	_	_	_	_	
+31-5	2469-2472	att	_	_	_	_	_	_	_	
+31-6	2473-2475	de	_	_	_	_	_	_	_	
+31-7	2476-2482	själva	_	_	_	_	_	_	_	
+31-8	2483-2487	vill	_	_	_	_	_	_	_	
+31-9	2488-2491	det	_	_	_	_	_	_	_	
+31-10	2491-2492	.	_	_	_	_	_	_	_	
+
+#Text=Vissa använder burka för att de upplever att traditionen kräver det, på samma sätt som traditionen påbjuder andra klädesplagg för andra kulturer i vissa situationer.
+32-1	2493-2498	Vissa	_	_	_	_	_	_	_	
+32-2	2499-2507	använder	_	_	_	_	_	_	_	
+32-3	2508-2513	burka	_	_	_	_	_	_	_	
+32-4	2514-2517	för	_	_	_	_	_	_	_	
+32-5	2518-2521	att	_	_	_	_	_	_	_	
+32-6	2522-2524	de	_	_	_	_	_	_	_	
+32-7	2525-2533	upplever	_	_	_	_	_	_	_	
+32-8	2534-2537	att	_	_	_	_	_	_	_	
+32-9	2538-2549	traditionen	_	_	_	_	_	_	_	
+32-10	2550-2556	kräver	_	_	_	_	_	_	_	
+32-11	2557-2560	det	_	_	_	_	_	_	_	
+32-12	2560-2561	,	_	_	_	_	_	_	_	
+32-13	2562-2564	på	_	_	_	_	_	_	_	
+32-14	2565-2570	samma	_	_	_	_	_	_	_	
+32-15	2571-2575	sätt	_	_	_	_	_	_	_	
+32-16	2576-2579	som	_	_	_	_	_	_	_	
+32-17	2580-2591	traditionen	_	_	_	_	_	_	_	
+32-18	2592-2600	påbjuder	_	_	_	_	_	_	_	
+32-19	2601-2606	andra	_	_	_	_	_	_	_	
+32-20	2607-2618	klädesplagg	_	_	_	_	_	_	_	
+32-21	2619-2622	för	_	_	_	_	_	_	_	
+32-22	2623-2628	andra	_	_	_	_	_	_	_	
+32-23	2629-2637	kulturer	_	_	_	_	_	_	_	
+32-24	2638-2639	i	_	_	_	_	_	_	_	
+32-25	2640-2645	vissa	_	_	_	_	_	_	_	
+32-26	2646-2657	situationer	_	_	_	_	_	_	_	
+32-27	2657-2658	.	_	_	_	_	_	_	_	
+
+#Text=Men vissa använder burka för att de mer handfast är tvingade att bära plagget genom hot eller våld.
+33-1	2659-2662	Men	_	_	_	_	_	_	_	
+33-2	2663-2668	vissa	_	_	_	_	_	_	_	
+33-3	2669-2677	använder	_	_	_	_	_	_	_	
+33-4	2678-2683	burka	_	_	_	_	_	_	_	
+33-5	2684-2687	för	_	_	_	_	_	_	_	
+33-6	2688-2691	att	_	_	_	_	_	_	_	
+33-7	2692-2694	de	_	_	_	_	_	_	_	
+33-8	2695-2698	mer	_	_	_	_	_	_	_	
+33-9	2699-2707	handfast	_	_	_	_	_	_	_	
+33-10	2708-2710	är	_	Target[15]	33-12[38]	false[15]	2[15]	_	_	
+33-11	2711-2719	tvingade	_	Target[15]	33-12[38]	false[15]	2[15]	_	_	
+33-12	2720-2723	att	*[38]	_	_	_	_	_	_	
+33-13	2724-2728	bära	*[38]	_	_	_	_	_	_	
+33-14	2729-2736	plagget	*[38]	_	_	_	_	_	_	
+33-15	2737-2742	genom	*[38]	_	_	_	_	_	_	
+33-16	2743-2746	hot	*[38]	_	_	_	_	_	_	
+33-17	2747-2752	eller	*[38]	_	_	_	_	_	_	
+33-18	2753-2757	våld	*[38]	_	_	_	_	_	_	
+33-19	2757-2758	.	_	_	_	_	_	_	_	
+
+#Text=Och när sådant tvång föreligger måste rättsordningen tillhandahålla effektiva instrument för att bestraffa den eller dem som ger upphov till tvånget.
+34-1	2759-2762	Och	_	_	_	_	_	_	_	
+34-2	2763-2766	när	_	_	_	_	_	_	_	
+34-3	2767-2773	sådant	_	_	_	_	_	_	_	
+34-4	2774-2779	tvång	_	_	_	_	_	_	_	
+34-5	2780-2790	föreligger	_	_	_	_	_	_	_	
+34-6	2791-2796	måste	_	_	_	_	_	_	_	
+34-7	2797-2811	rättsordningen	_	_	_	_	_	_	_	
+34-8	2812-2826	tillhandahålla	_	_	_	_	_	_	_	
+34-9	2827-2836	effektiva	_	_	_	_	_	_	_	
+34-10	2837-2847	instrument	_	_	_	_	_	_	_	
+34-11	2848-2851	för	_	_	_	_	_	_	_	
+34-12	2852-2855	att	_	_	_	_	_	_	_	
+34-13	2856-2865	bestraffa	_	Target	34-14[39]	false	2	_	_	
+34-14	2866-2869	den	*[39]	_	_	_	_	_	_	
+34-15	2870-2875	eller	*[39]	_	_	_	_	_	_	
+34-16	2876-2879	dem	*[39]	_	_	_	_	_	_	
+34-17	2880-2883	som	*[39]	_	_	_	_	_	_	
+34-18	2884-2887	ger	*[39]	_	_	_	_	_	_	
+34-19	2888-2894	upphov	*[39]	_	_	_	_	_	_	
+34-20	2895-2899	till	*[39]	_	_	_	_	_	_	
+34-21	2900-2907	tvånget	*[39]	_	_	_	_	_	_	
+34-22	2907-2908	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+35-1	2910-2911	#	_	_	_	_	_	_	_	
+35-2	2911-2912	P	_	_	_	_	_	_	_	
+35-3	2913-2916	IMM	_	_	_	_	_	_	_	
+35-4	2916-2917	.	_	_	_	_	_	_	_	
+
+#Text=Det är redan idag förbjudet att tvinga någon att använda speciella plagg under hot om bestraffning.
+36-1	2919-2922	Det	_	_	_	_	_	_	_	
+36-2	2923-2925	är	_	_	_	_	_	_	_	
+36-3	2926-2931	redan	_	_	_	_	_	_	_	
+36-4	2932-2936	idag	_	_	_	_	_	_	_	
+36-5	2937-2946	förbjudet	_	_	_	_	_	_	_	
+36-6	2947-2950	att	_	_	_	_	_	_	_	
+36-7	2951-2957	tvinga	_	_	_	_	_	_	_	
+36-8	2958-2963	någon	_	_	_	_	_	_	_	
+36-9	2964-2967	att	_	_	_	_	_	_	_	
+36-10	2968-2975	använda	_	_	_	_	_	_	_	
+36-11	2976-2985	speciella	_	_	_	_	_	_	_	
+36-12	2986-2991	plagg	_	_	_	_	_	_	_	
+36-13	2992-2997	under	_	_	_	_	_	_	_	
+36-14	2998-3001	hot	_	_	_	_	_	_	_	
+36-15	3002-3004	om	_	_	_	_	_	_	_	
+36-16	3005-3017	bestraffning	_	_	_	_	_	_	_	
+36-17	3017-3018	.	_	_	_	_	_	_	_	
+
+#Text=Om jag tvingar min hustru att ha på sig en viss klänning under hot så begår jag brott.
+37-1	3019-3021	Om	_	_	_	_	_	_	_	
+37-2	3022-3025	jag	_	_	_	_	_	_	_	
+37-3	3026-3033	tvingar	_	_	_	_	_	_	_	
+37-4	3034-3037	min	_	_	_	_	_	_	_	
+37-5	3038-3044	hustru	_	_	_	_	_	_	_	
+37-6	3045-3048	att	_	_	_	_	_	_	_	
+37-7	3049-3051	ha	_	_	_	_	_	_	_	
+37-8	3052-3054	på	_	_	_	_	_	_	_	
+37-9	3055-3058	sig	_	_	_	_	_	_	_	
+37-10	3059-3061	en	_	_	_	_	_	_	_	
+37-11	3062-3066	viss	_	_	_	_	_	_	_	
+37-12	3067-3075	klänning	_	_	_	_	_	_	_	
+37-13	3076-3081	under	_	_	_	_	_	_	_	
+37-14	3082-3085	hot	_	_	_	_	_	_	_	
+37-15	3086-3088	så	_	_	_	_	_	_	_	
+37-16	3089-3094	begår	_	_	_	_	_	_	_	
+37-17	3095-3098	jag	_	_	_	_	_	_	_	
+37-18	3099-3104	brott	_	_	_	_	_	_	_	
+37-19	3104-3105	.	_	_	_	_	_	_	_	
+
+#Text=Men i vissa fall kan tvånget ha en annan och mer genomgripande karaktär som lagstiftningen idag inte ger tillräckliga verktyg för att hantera.
+38-1	3106-3109	Men	_	_	_	_	_	_	_	
+38-2	3110-3111	i	_	_	_	_	_	_	_	
+38-3	3112-3117	vissa	_	_	_	_	_	_	_	
+38-4	3118-3122	fall	_	_	_	_	_	_	_	
+38-5	3123-3126	kan	_	_	_	_	_	_	_	
+38-6	3127-3134	tvånget	_	_	_	_	_	_	_	
+38-7	3135-3137	ha	_	_	_	_	_	_	_	
+38-8	3138-3140	en	_	_	_	_	_	_	_	
+38-9	3141-3146	annan	_	_	_	_	_	_	_	
+38-10	3147-3150	och	_	_	_	_	_	_	_	
+38-11	3151-3154	mer	_	_	_	_	_	_	_	
+38-12	3155-3168	genomgripande	_	_	_	_	_	_	_	
+38-13	3169-3177	karaktär	_	_	_	_	_	_	_	
+38-14	3178-3181	som	_	_	_	_	_	_	_	
+38-15	3182-3196	lagstiftningen	_	_	_	_	_	_	_	
+38-16	3197-3201	idag	_	_	_	_	_	_	_	
+38-17	3202-3206	inte	_	_	_	_	_	_	_	
+38-18	3207-3210	ger	_	_	_	_	_	_	_	
+38-19	3211-3223	tillräckliga	_	_	_	_	_	_	_	
+38-20	3224-3231	verktyg	_	_	_	_	_	_	_	
+38-21	3232-3235	för	_	_	_	_	_	_	_	
+38-22	3236-3239	att	_	_	_	_	_	_	_	
+38-23	3240-3247	hantera	_	_	_	_	_	_	_	
+38-24	3247-3248	.	_	_	_	_	_	_	_	
+
+#Text=I vissa fall är tvånget av en sådan systematiskt nedbrytande karaktär att de juridiska verktyg som siktar in sig på momentana (enskilda) kränkningar inte alltid är tillräckliga.
+39-1	3249-3250	I	_	_	_	_	_	_	_	
+39-2	3251-3256	vissa	_	_	_	_	_	_	_	
+39-3	3257-3261	fall	_	_	_	_	_	_	_	
+39-4	3262-3264	är	_	_	_	_	_	_	_	
+39-5	3265-3272	tvånget	_	_	_	_	_	_	_	
+39-6	3273-3275	av	_	_	_	_	_	_	_	
+39-7	3276-3278	en	_	_	_	_	_	_	_	
+39-8	3279-3284	sådan	_	_	_	_	_	_	_	
+39-9	3285-3297	systematiskt	_	_	_	_	_	_	_	
+39-10	3298-3309	nedbrytande	_	_	_	_	_	_	_	
+39-11	3310-3318	karaktär	_	_	_	_	_	_	_	
+39-12	3319-3322	att	_	_	_	_	_	_	_	
+39-13	3323-3325	de	*[40]	_	_	_	_	_	_	
+39-14	3326-3335	juridiska	*[40]	_	_	_	_	_	_	
+39-15	3336-3343	verktyg	*[40]	_	_	_	_	_	_	
+39-16	3344-3347	som	*[40]	_	_	_	_	_	_	
+39-17	3348-3354	siktar	*[40]	_	_	_	_	_	_	
+39-18	3355-3357	in	*[40]	_	_	_	_	_	_	
+39-19	3358-3361	sig	*[40]	_	_	_	_	_	_	
+39-20	3362-3364	på	*[40]	_	_	_	_	_	_	
+39-21	3365-3374	momentana	*[40]	_	_	_	_	_	_	
+39-22	3375-3376	(	*[40]	_	_	_	_	_	_	
+39-23	3376-3384	enskilda	*[40]	_	_	_	_	_	_	
+39-24	3384-3385	)	*[40]	_	_	_	_	_	_	
+39-25	3386-3397	kränkningar	*[40]	_	_	_	_	_	_	
+39-26	3398-3402	inte	_	_	_	false	2	_	_	
+39-27	3403-3409	alltid	_	_	_	_	_	_	_	
+39-28	3410-3412	är	_	Target[16]	39-13[40]	false[16]	2[16]	_	_	
+39-29	3413-3425	tillräckliga	_	Target[16]	39-13[40]	false[16]	2[16]	_	_	
+39-30	3425-3426	.	_	_	_	_	_	_	_	
+
+#Text=När burkabärandet är resultatet av att bäraren under lång tid fått sin självkänsla nedbruten med våld och hot är de sanktioner som svensk rätt idag tillhandahåller, och som i stort fokuserar på det momentana brottet (ett enskilt fall av hot eller våld) inte tillräckliga.
+40-1	3427-3430	När	_	_	_	_	_	_	_	
+40-2	3431-3444	burkabärandet	_	_	_	_	_	_	_	
+40-3	3445-3447	är	_	_	_	_	_	_	_	
+40-4	3448-3458	resultatet	_	_	_	_	_	_	_	
+40-5	3459-3461	av	_	_	_	_	_	_	_	
+40-6	3462-3465	att	_	_	_	_	_	_	_	
+40-7	3466-3473	bäraren	_	_	_	_	_	_	_	
+40-8	3474-3479	under	_	_	_	_	_	_	_	
+40-9	3480-3484	lång	_	_	_	_	_	_	_	
+40-10	3485-3488	tid	_	_	_	_	_	_	_	
+40-11	3489-3493	fått	_	_	_	_	_	_	_	
+40-12	3494-3497	sin	_	_	_	_	_	_	_	
+40-13	3498-3509	självkänsla	_	_	_	_	_	_	_	
+40-14	3510-3519	nedbruten	_	_	_	_	_	_	_	
+40-15	3520-3523	med	_	_	_	_	_	_	_	
+40-16	3524-3528	våld	_	_	_	_	_	_	_	
+40-17	3529-3532	och	_	_	_	_	_	_	_	
+40-18	3533-3536	hot	_	_	_	_	_	_	_	
+40-19	3537-3539	är	_	_	_	false	2	_	_	
+40-20	3540-3542	de	*[41]	_	_	_	_	_	_	
+40-21	3543-3553	sanktioner	*[41]	_	_	_	_	_	_	
+40-22	3554-3557	som	*[41]	_	_	_	_	_	_	
+40-23	3558-3564	svensk	*[41]	_	_	_	_	_	_	
+40-24	3565-3569	rätt	*[41]	_	_	_	_	_	_	
+40-25	3570-3574	idag	*[41]	_	_	_	_	_	_	
+40-26	3575-3590	tillhandahåller	*[41]	_	_	_	_	_	_	
+40-27	3590-3591	,	_	_	_	_	_	_	_	
+40-28	3592-3595	och	_	_	_	_	_	_	_	
+40-29	3596-3599	som	_	_	_	_	_	_	_	
+40-30	3600-3601	i	_	_	_	_	_	_	_	
+40-31	3602-3607	stort	_	_	_	_	_	_	_	
+40-32	3608-3617	fokuserar	_	_	_	_	_	_	_	
+40-33	3618-3620	på	_	_	_	_	_	_	_	
+40-34	3621-3624	det	_	_	_	_	_	_	_	
+40-35	3625-3634	momentana	_	_	_	_	_	_	_	
+40-36	3635-3642	brottet	_	_	_	_	_	_	_	
+40-37	3643-3644	(	_	_	_	_	_	_	_	
+40-38	3644-3647	ett	_	_	_	_	_	_	_	
+40-39	3648-3655	enskilt	_	_	_	_	_	_	_	
+40-40	3656-3660	fall	_	_	_	_	_	_	_	
+40-41	3661-3663	av	_	_	_	_	_	_	_	
+40-42	3664-3667	hot	_	_	_	_	_	_	_	
+40-43	3668-3673	eller	_	_	_	_	_	_	_	
+40-44	3674-3678	våld	_	_	_	_	_	_	_	
+40-45	3678-3679	)	_	_	_	_	_	_	_	
+40-46	3680-3684	inte	_	Target[17]	40-20[41]	false[17]	2[17]	40-19[0_17]	_	
+40-47	3685-3697	tillräckliga	_	Target[17]	40-20[41]	false[17]	2[17]	_	_	
+40-48	3697-3698	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3700-3701	#	_	_	_	_	_	_	_	
+41-2	3701-3702	P	_	_	_	_	_	_	_	
+41-3	3703-3706	IMM	_	_	_	_	_	_	_	
+41-4	3706-3707	.	_	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+42-1	3709-3722	Skräddarsydda	_	_	_	_	_	_	_	
+42-2	3723-3729	kurser	_	_	_	_	_	_	_	
+42-3	3730-3731	i	_	_	_	_	_	_	_	
+42-4	3732-3737	ämnen	_	_	_	_	_	_	_	
+42-5	3738-3741	som	_	_	_	_	_	_	_	
+42-6	3742-3753	intresserar	_	_	_	_	_	_	_	
+42-7	3754-3757	och	_	_	_	_	_	_	_	
+42-8	3758-3767	engagerar	_	_	_	_	_	_	_	
+42-9	3768-3772	både	_	_	_	_	_	_	_	
+42-10	3773-3778	kropp	_	_	_	_	_	_	_	
+42-11	3779-3782	och	_	_	_	_	_	_	_	
+42-12	3783-3787	själ	_	_	_	_	_	_	_	
+42-13	3787-3788	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+43-1	3790-3791	#	_	_	_	_	_	_	_	
+43-2	3791-3792	P	_	_	_	_	_	_	_	
+43-3	3793-3796	IMM	_	_	_	_	_	_	_	
+43-4	3796-3797	.	_	_	_	_	_	_	_	
+
+#Text=Fyra fall av misshandel kan för en otursförföljd vara bara fyra fall av misshandel, men det kan för den som misshandlas av samma person inom en relation vara förödande för självkänslan och egenvärdet.
+44-1	3799-3803	Fyra	*[42]	_	_	_	_	_	44-17[0_42]	
+44-2	3804-3808	fall	*[42]	_	_	_	_	_	_	
+44-3	3809-3811	av	*[42]	_	_	_	_	_	_	
+44-4	3812-3822	misshandel	*[42]	_	_	_	_	_	_	
+44-5	3823-3826	kan	_	_	_	_	_	_	_	
+44-6	3827-3830	för	_	_	_	_	_	_	_	
+44-7	3831-3833	en	_	_	_	_	_	_	_	
+44-8	3834-3847	otursförföljd	_	_	_	_	_	_	_	
+44-9	3848-3852	vara	_	_	_	_	_	_	_	
+44-10	3853-3857	bara	_	_	_	_	_	_	_	
+44-11	3858-3862	fyra	_	_	_	_	_	_	_	
+44-12	3863-3867	fall	_	_	_	_	_	_	_	
+44-13	3868-3870	av	_	_	_	_	_	_	_	
+44-14	3871-3881	misshandel	_	_	_	_	_	_	_	
+44-15	3881-3882	,	_	_	_	_	_	_	_	
+44-16	3883-3886	men	_	_	_	_	_	_	_	
+44-17	3887-3890	det	*	_	_	_	_	_	_	
+44-18	3891-3894	kan	_	_	_	_	_	_	_	
+44-19	3895-3898	för	_	_	_	_	_	_	_	
+44-20	3899-3902	den	_	_	_	_	_	_	_	
+44-21	3903-3906	som	_	_	_	_	_	_	_	
+44-22	3907-3918	misshandlas	_	_	_	_	_	_	_	
+44-23	3919-3921	av	_	_	_	_	_	_	_	
+44-24	3922-3927	samma	_	_	_	_	_	_	_	
+44-25	3928-3934	person	_	_	_	_	_	_	_	
+44-26	3935-3939	inom	_	_	_	_	_	_	_	
+44-27	3940-3942	en	_	_	_	_	_	_	_	
+44-28	3943-3951	relation	_	_	_	_	_	_	_	
+44-29	3952-3956	vara	_	Target[18]	44-17	false[18]	1[18]	_	_	
+44-30	3957-3966	förödande	_	Target[18]	44-17	false[18]	1[18]	_	_	
+44-31	3967-3970	för	_	_	_	_	_	_	_	
+44-32	3971-3983	självkänslan	_	_	_	_	_	_	_	
+44-33	3984-3987	och	_	_	_	_	_	_	_	
+44-34	3988-3998	egenvärdet	_	_	_	_	_	_	_	
+44-35	3998-3999	.	_	_	_	_	_	_	_	
+
+#Text=Svensk lagstiftning har tidigt varit lyhörd för detta.
+45-1	4000-4006	Svensk	*[43]	_	_	_	_	_	_	
+45-2	4007-4019	lagstiftning	*[43]	_	_	_	_	_	_	
+45-3	4020-4023	har	_	_	_	_	_	_	_	
+45-4	4024-4030	tidigt	_	_	_	_	_	_	_	
+45-5	4031-4036	varit	_	Target[19]	45-1[43]	false[19]	4[19]	_	_	
+45-6	4037-4043	lyhörd	_	Target[19]	45-1[43]	false[19]	4[19]	_	_	
+45-7	4044-4047	för	_	_	_	_	_	_	_	
+45-8	4048-4053	detta	_	_	_	_	_	_	_	
+45-9	4053-4054	.	_	_	_	_	_	_	_	
+
+#Text=Därför infördes för över tio år sedan brottet kvinnofridsbrott, för att återspegla allvaret i det systematiska nedbrytandet av en människa genom hot och våld.
+46-1	4055-4061	Därför	_	_	_	_	_	_	_	
+46-2	4062-4070	infördes	_	_	_	_	_	_	_	
+46-3	4071-4074	för	_	_	_	_	_	_	_	
+46-4	4075-4079	över	_	_	_	_	_	_	_	
+46-5	4080-4083	tio	_	_	_	_	_	_	_	
+46-6	4084-4086	år	_	_	_	_	_	_	_	
+46-7	4087-4092	sedan	_	_	_	_	_	_	_	
+46-8	4093-4100	brottet	_	_	_	_	_	_	_	
+46-9	4101-4117	kvinnofridsbrott	_	_	_	_	_	_	_	
+46-10	4117-4118	,	_	_	_	_	_	_	_	
+46-11	4119-4122	för	_	_	_	_	_	_	_	
+46-12	4123-4126	att	_	_	_	_	_	_	_	
+46-13	4127-4137	återspegla	_	_	_	_	_	_	_	
+46-14	4138-4146	allvaret	_	_	_	_	_	_	_	
+46-15	4147-4148	i	_	_	_	_	_	_	_	
+46-16	4149-4152	det	_	_	_	_	_	_	_	
+46-17	4153-4165	systematiska	_	_	_	_	_	_	_	
+46-18	4166-4178	nedbrytandet	_	_	_	_	_	_	_	
+46-19	4179-4181	av	_	_	_	_	_	_	_	
+46-20	4182-4184	en	_	_	_	_	_	_	_	
+46-21	4185-4193	människa	_	_	_	_	_	_	_	
+46-22	4194-4199	genom	_	_	_	_	_	_	_	
+46-23	4200-4203	hot	_	_	_	_	_	_	_	
+46-24	4204-4207	och	_	_	_	_	_	_	_	
+46-25	4208-4212	våld	_	_	_	_	_	_	_	
+46-26	4212-4213	.	_	_	_	_	_	_	_	
+
+#Text=Den svenska lagstiftaren var framsynt.
+47-1	4214-4217	Den	*[44]	_	_	_	_	_	_	
+47-2	4218-4225	svenska	*[44]	_	_	_	_	_	_	
+47-3	4226-4238	lagstiftaren	*[44]	_	_	_	_	_	_	
+47-4	4239-4242	var	_	Target[20]	47-1[44]	false[20]	4[20]	_	_	
+47-5	4243-4251	framsynt	_	Target[20]	47-1[44]	false[20]	4[20]	_	_	
+47-6	4251-4252	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4254-4255	#	_	_	_	_	_	_	_	
+48-2	4255-4256	P	_	_	_	_	_	_	_	
+48-3	4257-4260	IMM	_	_	_	_	_	_	_	
+48-4	4260-4261	.	_	_	_	_	_	_	_	
+
+#Text=Kvinnofridsbrottet tar sikte på de allvarligaste fallen av relationsvåld.
+49-1	4263-4281	Kvinnofridsbrottet	*	_	_	_	_	_	_	
+49-2	4282-4285	tar	_	_	_	_	_	_	_	
+49-3	4286-4291	sikte	_	_	_	_	_	_	_	
+49-4	4292-4294	på	_	_	_	_	_	_	_	
+49-5	4295-4297	de	_	Target[21]	49-1	false[21]	2[21]	_	_	
+49-6	4298-4311	allvarligaste	_	Target[21]	49-1	false[21]	2[21]	_	_	
+49-7	4312-4318	fallen	_	Target[21]	49-1	false[21]	2[21]	_	_	
+49-8	4319-4321	av	_	_	_	_	_	_	_	
+49-9	4322-4335	relationsvåld	_	_	_	_	_	_	_	
+49-10	4335-4336	.	_	_	_	_	_	_	_	
+
+#Text=Det finns dock anledning att reflektera över om inte synsättet kan överföras även till situationer av mer subtilt men icke desto mindre systematiskt nedbrytande tvång mot kvinnor som förmås att klä sig på ett visst sätt, att inte umgås med människor av motsatt kön, att inte kommunicera med sin omgivning.
+50-1	4337-4340	Det	_	_	_	_	_	_	_	
+50-2	4341-4346	finns	_	_	_	_	_	_	_	
+50-3	4347-4351	dock	_	_	_	_	_	_	_	
+50-4	4352-4361	anledning	_	_	_	_	_	_	_	
+50-5	4362-4365	att	_	_	_	_	_	_	_	
+50-6	4366-4376	reflektera	_	_	_	_	_	_	_	
+50-7	4377-4381	över	_	_	_	_	_	_	_	
+50-8	4382-4384	om	_	_	_	_	_	_	_	
+50-9	4385-4389	inte	_	_	_	_	_	_	_	
+50-10	4390-4399	synsättet	_	_	_	_	_	_	_	
+50-11	4400-4403	kan	_	_	_	_	_	_	_	
+50-12	4404-4413	överföras	_	_	_	_	_	_	_	
+50-13	4414-4418	även	_	_	_	_	_	_	_	
+50-14	4419-4423	till	_	_	_	_	_	_	_	
+50-15	4424-4435	situationer	_	_	_	_	_	_	_	
+50-16	4436-4438	av	_	_	_	_	_	_	_	
+50-17	4439-4442	mer	_	_	_	_	_	_	_	
+50-18	4443-4450	subtilt	_	_	_	_	_	_	_	
+50-19	4451-4454	men	_	_	_	_	_	_	_	
+50-20	4455-4459	icke	_	_	_	_	_	_	_	
+50-21	4460-4465	desto	_	_	_	_	_	_	_	
+50-22	4466-4472	mindre	_	_	_	_	_	_	_	
+50-23	4473-4485	systematiskt	_	_	_	_	_	_	_	
+50-24	4486-4497	nedbrytande	_	_	_	_	_	_	_	
+50-25	4498-4503	tvång	_	_	_	_	_	_	_	
+50-26	4504-4507	mot	_	_	_	_	_	_	_	
+50-27	4508-4515	kvinnor	_	_	_	_	_	_	_	
+50-28	4516-4519	som	_	_	_	_	_	_	_	
+50-29	4520-4526	förmås	_	_	_	_	_	_	_	
+50-30	4527-4530	att	_	_	_	_	_	_	_	
+50-31	4531-4534	klä	_	_	_	_	_	_	_	
+50-32	4535-4538	sig	_	_	_	_	_	_	_	
+50-33	4539-4541	på	_	_	_	_	_	_	_	
+50-34	4542-4545	ett	_	_	_	_	_	_	_	
+50-35	4546-4551	visst	_	_	_	_	_	_	_	
+50-36	4552-4556	sätt	_	_	_	_	_	_	_	
+50-37	4556-4557	,	_	_	_	_	_	_	_	
+50-38	4558-4561	att	_	_	_	_	_	_	_	
+50-39	4562-4566	inte	_	_	_	_	_	_	_	
+50-40	4567-4572	umgås	_	_	_	_	_	_	_	
+50-41	4573-4576	med	_	_	_	_	_	_	_	
+50-42	4577-4586	människor	_	_	_	_	_	_	_	
+50-43	4587-4589	av	_	_	_	_	_	_	_	
+50-44	4590-4597	motsatt	_	_	_	_	_	_	_	
+50-45	4598-4601	kön	_	_	_	_	_	_	_	
+50-46	4601-4602	,	_	_	_	_	_	_	_	
+50-47	4603-4606	att	_	_	_	_	_	_	_	
+50-48	4607-4611	inte	_	_	_	_	_	_	_	
+50-49	4612-4623	kommunicera	_	_	_	_	_	_	_	
+50-50	4624-4627	med	_	_	_	_	_	_	_	
+50-51	4628-4631	sin	_	_	_	_	_	_	_	
+50-52	4632-4641	omgivning	_	_	_	_	_	_	_	
+50-53	4641-4642	.	_	_	_	_	_	_	_	
+
+#Text=Vi vet att den typen av systematiskt underordnande förekommer.
+51-1	4643-4645	Vi	_	_	_	_	_	_	_	
+51-2	4646-4649	vet	_	_	_	_	_	_	_	
+51-3	4650-4653	att	_	_	_	_	_	_	_	
+51-4	4654-4657	den	_	_	_	_	_	_	_	
+51-5	4658-4663	typen	_	_	_	_	_	_	_	
+51-6	4664-4666	av	_	_	_	_	_	_	_	
+51-7	4667-4679	systematiskt	_	_	_	_	_	_	_	
+51-8	4680-4693	underordnande	_	_	_	_	_	_	_	
+51-9	4694-4704	förekommer	_	_	_	_	_	_	_	
+51-10	4704-4705	.	_	_	_	_	_	_	_	
+
+#Text=En lagstiftning som betraktar ett sådant systematiskt underordnande som en serie fall av enskilda brott missar allvaret i nedbrytningen.
+52-1	4706-4708	En	_	_	_	_	_	_	_	
+52-2	4709-4721	lagstiftning	_	_	_	_	_	_	_	
+52-3	4722-4725	som	_	_	_	_	_	_	_	
+52-4	4726-4735	betraktar	_	_	_	_	_	_	_	
+52-5	4736-4739	ett	_	_	_	_	_	_	_	
+52-6	4740-4746	sådant	_	_	_	_	_	_	_	
+52-7	4747-4759	systematiskt	_	_	_	_	_	_	_	
+52-8	4760-4773	underordnande	_	_	_	_	_	_	_	
+52-9	4774-4777	som	_	_	_	_	_	_	_	
+52-10	4778-4780	en	_	_	_	_	_	_	_	
+52-11	4781-4786	serie	_	_	_	_	_	_	_	
+52-12	4787-4791	fall	_	_	_	_	_	_	_	
+52-13	4792-4794	av	_	_	_	_	_	_	_	
+52-14	4795-4803	enskilda	_	_	_	_	_	_	_	
+52-15	4804-4809	brott	_	_	_	_	_	_	_	
+52-16	4810-4816	missar	_	_	_	_	_	_	_	
+52-17	4817-4825	allvaret	_	_	_	_	_	_	_	
+52-18	4826-4827	i	_	_	_	_	_	_	_	
+52-19	4828-4841	nedbrytningen	_	_	_	_	_	_	_	
+52-20	4841-4842	.	_	_	_	_	_	_	_	
+
+#Text=Dessutom så reagerar rättsväsendet sällan över huvud taget på sådana brott.
+53-1	4843-4851	Dessutom	_	_	_	_	_	_	_	
+53-2	4852-4854	så	_	_	_	_	_	_	_	
+53-3	4855-4863	reagerar	_	_	_	_	_	_	_	
+53-4	4864-4877	rättsväsendet	_	_	_	_	_	_	_	
+53-5	4878-4884	sällan	_	_	_	_	_	_	_	
+53-6	4885-4889	över	_	_	_	_	_	_	_	
+53-7	4890-4895	huvud	_	_	_	_	_	_	_	
+53-8	4896-4901	taget	_	_	_	_	_	_	_	
+53-9	4902-4904	på	_	_	_	_	_	_	_	
+53-10	4905-4911	sådana	_	_	_	_	_	_	_	
+53-11	4912-4917	brott	_	_	_	_	_	_	_	
+53-12	4917-4918	.	_	_	_	false	2	_	_	
+
+#Text=#P IMM.
+54-1	4920-4921	#	_	_	_	_	_	_	_	
+54-2	4921-4922	P	_	_	_	_	_	_	_	
+54-3	4923-4926	IMM	_	_	_	_	_	_	_	
+54-4	4926-4927	.	_	_	_	_	_	_	_	
+
+#Text=Det finns anledning att fundera över om det inte är dags att se över detta.
+55-1	4929-4932	Det	_	_	_	_	_	_	_	
+55-2	4933-4938	finns	_	_	_	_	_	_	_	
+55-3	4939-4948	anledning	_	_	_	_	_	_	_	
+55-4	4949-4952	att	_	_	_	_	_	_	_	
+55-5	4953-4960	fundera	_	_	_	_	_	_	_	
+55-6	4961-4965	över	_	_	_	_	_	_	_	
+55-7	4966-4968	om	_	_	_	_	_	_	_	
+55-8	4969-4972	det	_	_	_	_	_	_	_	
+55-9	4973-4977	inte	_	_	_	_	_	_	_	
+55-10	4978-4980	är	_	Target[22]	55-12[45]	false[22]	4[22]	_	_	
+55-11	4981-4985	dags	_	Target[22]	55-12[45]	false[22]	4[22]	_	_	
+55-12	4986-4989	att	*[45]	_	_	_	_	_	_	
+55-13	4990-4992	se	*[45]	_	_	_	_	_	_	
+55-14	4993-4997	över	*[45]	_	_	_	_	_	_	
+55-15	4998-5003	detta	*[45]	_	_	_	_	_	_	
+55-16	5003-5004	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	5006-5007	#	_	_	_	_	_	_	_	
+56-2	5007-5008	P	_	_	_	_	_	_	_	
+56-3	5009-5012	IMM	_	_	_	_	_	_	_	
+56-4	5012-5013	.	_	_	_	_	_	_	_	
+
+#Text=MÅRTEN SCHULTZ.
+57-1	5015-5021	MÅRTEN	_	_	_	_	_	_	_	
+57-2	5022-5029	SCHULTZ	_	_	_	_	_	_	_	
+57-3	5029-5030	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	5032-5033	#	_	_	_	_	_	_	_	
+58-2	5033-5034	P	_	_	_	_	_	_	_	
+58-3	5035-5038	IMM	_	_	_	_	_	_	_	
+58-4	5038-5039	.	_	_	_	_	_	_	_	
+
+#Text=Docent i civilrätt, Uppsala universitet.
+59-1	5041-5047	Docent	_	_	_	_	_	_	_	
+59-2	5048-5049	i	_	_	_	_	_	_	_	
+59-3	5050-5059	civilrätt	_	_	_	_	_	_	_	
+59-4	5059-5060	,	_	_	_	_	_	_	_	
+59-5	5061-5068	Uppsala	_	_	_	_	_	_	_	
+59-6	5069-5080	universitet	_	_	_	_	_	_	_	
+59-7	5080-5081	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	5083-5084	#	_	_	_	_	_	_	_	
+60-2	5084-5085	P	_	_	_	_	_	_	_	
+60-3	5086-5089	IMM	_	_	_	_	_	_	_	
+60-4	5089-5090	.	_	_	_	_	_	_	_	
+
+#Text=Initiativtagare till juridikbloggen.com.
+61-1	5092-5107	Initiativtagare	_	_	_	_	_	_	_	
+61-2	5108-5112	till	_	_	_	_	_	_	_	
+61-3	5113-5131	juridikbloggen.com	_	_	_	_	_	_	_	
+61-4	5131-5132	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	5134-5135	#	_	_	_	_	_	_	_	
+62-2	5135-5136	P	_	_	_	_	_	_	_	
+62-3	5137-5140	IMM	_	_	_	_	_	_	_	
+62-4	5140-5141	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+63-1	5143-5151	Redaktör	_	_	_	_	_	_	_	
+63-2	5151-5152	:	_	_	_	_	_	_	_	
+63-3	5153-5159	Carina	_	_	_	_	_	_	_	
+63-4	5160-5168	Stensson	_	_	_	_	_	_	_	
+63-5	5168-5169	,	_	_	_	_	_	_	_	
+63-6	5170-5180	Biträdande	_	_	_	_	_	_	_	
+63-7	5181-5189	redaktör	_	_	_	_	_	_	_	
+63-8	5189-5190	:	_	_	_	_	_	_	_	
+63-9	5191-5196	Björn	_	_	_	_	_	_	_	
+63-10	5197-5203	Jorner	_	_	_	_	_	_	_	
+63-11	5203-5204	,	_	_	_	_	_	_	_	
+63-12	5205-5209	Mejl	_	_	_	_	_	_	_	
+63-13	5209-5210	:	_	_	_	_	_	_	_	
+63-14	5211-5217	debatt	_	_	_	_	_	_	_	
+63-15	5217-5218	@	_	_	_	_	_	_	_	
+63-16	5218-5224	svd.se	_	_	_	_	_	_	_	
+63-17	5224-5225	,	_	_	_	_	_	_	_	
+63-18	5226-5239	Telefonnummer	_	_	_	_	_	_	_	
+63-19	5239-5240	:	_	_	_	_	_	_	_	
+63-20	5241-5243	08	_	_	_	_	_	_	_	
+63-21	5243-5244	-	_	_	_	_	_	_	_	
+63-22	5244-5250	135149	_	_	_	_	_	_	_	
+63-23	5250-5251	,	_	_	_	_	_	_	_	
+63-24	5252-5259	Twitter	_	_	_	_	_	_	_	
+63-25	5259-5260	:	_	_	_	_	_	_	_	
+63-26	5261-5262	@	_	_	_	_	_	_	_	
+63-27	5262-5271	SvDDebatt	_	_	_	_	_	_	_	
+63-28	5271-5272	,	_	_	_	_	_	_	_	
+63-29	5273-5281	Facebook	_	_	_	_	_	_	_	
+63-30	5281-5282	:	_	_	_	_	_	_	_	
+63-31	5283-5286	SvD	_	_	_	_	_	_	_	
+63-32	5287-5293	Debatt	_	_	_	_	_	_	_	
+63-33	5293-5294	.	_	_	_	_	_	_	_	

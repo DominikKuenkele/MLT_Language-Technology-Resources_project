@@ -1,0 +1,108 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	
+
+#Text=Äldre kvinnor köper sex av marockanska gatubarn Dokumentär i P1.
+3-1	18-23	Äldre	_	_	_	_	_	
+3-2	24-31	kvinnor	_	_	_	_	_	
+3-3	32-37	köper	_	_	_	_	_	
+3-4	38-41	sex	_	_	_	_	_	
+3-5	42-44	av	_	_	_	_	_	
+3-6	45-56	marockanska	_	_	_	_	_	
+3-7	57-65	gatubarn	_	_	_	_	_	
+3-8	66-76	Dokumentär	_	_	_	_	_	
+3-9	77-78	i	_	_	_	_	_	
+3-10	79-81	P1	_	_	_	_	_	
+3-11	81-82	.	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	84-85	#	_	_	_	_	_	
+4-2	85-86	P	_	_	_	_	_	
+4-3	87-90	IMM	_	_	_	_	_	
+4-4	90-91	.	_	_	_	_	_	
+
+#Text=Jag har ofta undrat varför marockanerna får gå ifred för batikhäxorna.
+5-1	93-96	Jag	_	_	_	_	_	
+5-2	97-100	har	_	_	_	_	_	
+5-3	101-105	ofta	_	_	_	_	_	
+5-4	106-112	undrat	_	_	_	_	_	
+5-5	113-119	varför	_	_	_	_	_	
+5-6	120-132	marockanerna	_	_	_	_	_	
+5-7	133-136	får	_	_	_	_	_	
+5-8	137-139	gå	_	_	_	_	_	
+5-9	140-145	ifred	_	_	_	_	_	
+5-10	146-149	för	_	_	_	_	_	
+5-11	150-162	batikhäxorna	*	Target	5-11	false	2	
+5-12	162-163	.	_	_	_	_	_	
+
+#Text=Det får dom inte.
+6-1	164-167	Det	_	_	_	_	_	
+6-2	168-171	får	_	_	_	_	_	
+6-3	172-175	dom	_	_	_	_	_	
+6-4	176-180	inte	_	_	_	_	_	
+6-5	180-181	.	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	183-184	#	_	_	_	_	_	
+7-2	184-185	P	_	_	_	_	_	
+7-3	186-189	IMM	_	_	_	_	_	
+7-4	189-190	.	_	_	_	_	_	
+
+#Text=Tendens : kortdokumentärer.
+8-1	192-199	Tendens	_	_	_	_	_	
+8-2	200-201	:	_	_	_	_	_	
+8-3	202-218	kortdokumentärer	_	_	_	_	_	
+8-4	218-219	.	_	_	_	_	_	
+
+#Text=#P IMM.
+9-1	221-222	#	_	_	_	_	_	
+9-2	222-223	P	_	_	_	_	_	
+9-3	224-227	IMM	_	_	_	_	_	
+9-4	227-228	.	_	_	_	_	_	
+
+#Text=Jag borde lyssnat med öronproppar.
+10-1	230-233	Jag	_	_	_	_	_	
+10-2	234-239	borde	_	_	_	_	_	
+10-3	240-247	lyssnat	_	_	_	_	_	
+10-4	248-251	med	_	_	_	_	_	
+10-5	252-263	öronproppar	_	_	_	_	_	
+10-6	263-264	.	_	_	_	_	_	
+
+#Text=Nu är jag väl skadad för livet.
+11-1	265-267	Nu	_	_	_	_	_	
+11-2	268-270	är	_	_	_	_	_	
+11-3	271-274	jag	_	_	_	_	_	
+11-4	275-278	väl	_	_	_	_	_	
+11-5	279-285	skadad	_	_	_	_	_	
+11-6	286-289	för	_	_	_	_	_	
+11-7	290-295	livet	_	_	_	_	_	
+11-8	295-296	.	_	_	_	_	_	
+
+#Text=Även om jag vet hur dom stjäl, säljer droger och prostituerar sej.
+12-1	297-301	Även	_	_	_	_	_	
+12-2	302-304	om	_	_	_	_	_	
+12-3	305-308	jag	*	_	_	_	_	
+12-4	309-312	vet	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-5	313-316	hur	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-6	317-320	dom	*	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-7	321-326	stjäl	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-8	326-327	,	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-9	328-334	säljer	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-10	335-341	droger	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-11	342-345	och	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-12	346-358	prostituerar	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-13	359-362	sej	_	Target;Source[1]	12-6;12-3	false[1]	2[1]	
+12-14	362-363	.	_	_	_	_	_	

@@ -1,0 +1,1371 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Vården av äldre måste bli bättre.
+3-1	18-24	Vården	*[21]	_	_	_	_	_	
+3-2	25-27	av	*[21]	_	_	_	_	_	
+3-3	28-33	äldre	*[21]	_	_	_	_	_	
+3-4	34-39	måste	_	Target[1]	3-1[21]	false[1]	2[1]	_	
+3-5	40-43	bli	_	Target[1]	3-1[21]	false[1]	2[1]	_	
+3-6	44-50	bättre	_	Target[1]	3-1[21]	false[1]	2[1]	_	
+3-7	50-51	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	53-54	#	_	_	_	_	_	_	
+4-2	54-55	P	_	_	_	_	_	_	
+4-3	56-59	IMM	_	_	_	_	_	_	
+4-4	59-60	.	_	_	_	_	_	_	
+
+#Text=SCB beräknar att antalet 85-åringar nästan fördubblas fram till 2035.
+5-1	62-65	SCB	_	_	_	_	_	_	
+5-2	66-74	beräknar	_	_	_	_	_	_	
+5-3	75-78	att	_	_	_	_	_	_	
+5-4	79-86	antalet	_	_	_	_	_	_	
+5-5	87-89	85	_	_	_	_	_	_	
+5-6	89-90	-	_	_	_	_	_	_	
+5-7	90-97	åringar	_	_	_	_	_	_	
+5-8	98-104	nästan	_	_	_	_	_	_	
+5-9	105-115	fördubblas	_	_	_	_	_	_	
+5-10	116-120	fram	_	_	_	_	_	_	
+5-11	121-125	till	_	_	_	_	_	_	
+5-12	126-130	2035	_	_	_	_	_	_	
+5-13	130-131	.	_	_	_	_	_	_	
+
+#Text=Vi har alla sett många äldre fara illa i det nuvarande vård- och omsorgssystemet, och dagens omfattande problem är därför bara en föraning av vad som kommer, skriver sex professorer.
+6-1	132-134	Vi	_	_	_	_	_	_	
+6-2	135-138	har	_	_	_	_	_	_	
+6-3	139-143	alla	_	_	_	_	_	_	
+6-4	144-148	sett	_	_	_	_	_	_	
+6-5	149-154	många	_	Target;Source[2]	6-10[22];6-32[23]	false[2]	2[2]	_	
+6-6	155-160	äldre	_	Target;Source[2]	6-10[22];6-32[23]	false[2]	2[2]	_	
+6-7	161-165	fara	_	Target;Source[2]	6-10[22];6-32[23]	false[2]	2[2]	_	
+6-8	166-170	illa	_	Target;Source[2]	6-10[22];6-32[23]	false[2]	2[2]	_	
+6-9	171-172	i	_	Target;Source[2]	6-10[22];6-32[23]	false[2]	2[2]	_	
+6-10	173-176	det	*[22]	_	_	_	_	_	
+6-11	177-186	nuvarande	*[22]	_	_	_	_	_	
+6-12	187-191	vård	*[22]	_	_	_	_	_	
+6-13	191-192	-	*[22]	_	_	_	_	_	
+6-14	193-196	och	*[22]	_	_	_	_	_	
+6-15	197-212	omsorgssystemet	*[22]	_	_	_	_	_	
+6-16	212-213	,	_	_	_	_	_	_	
+6-17	214-217	och	_	_	_	_	_	_	
+6-18	218-224	dagens	_	_	_	_	_	_	
+6-19	225-235	omfattande	_	_	_	_	_	_	
+6-20	236-243	problem	_	_	_	_	_	_	
+6-21	244-246	är	_	_	_	_	_	_	
+6-22	247-253	därför	_	_	_	_	_	_	
+6-23	254-258	bara	_	_	_	_	_	_	
+6-24	259-261	en	_	_	_	_	_	_	
+6-25	262-270	föraning	_	_	_	_	_	_	
+6-26	271-273	av	_	_	_	_	_	_	
+6-27	274-277	vad	_	_	_	_	_	_	
+6-28	278-281	som	_	_	_	_	_	_	
+6-29	282-288	kommer	_	_	_	_	_	_	
+6-30	288-289	,	_	_	_	_	_	_	
+6-31	290-297	skriver	_	_	_	_	_	_	
+6-32	298-301	sex	*[23]	_	_	_	_	_	
+6-33	302-313	professorer	*[23]	_	_	_	_	_	
+6-34	313-314	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	316-317	#	_	_	_	_	_	_	
+7-2	317-318	P	_	_	_	_	_	_	
+7-3	319-322	IMM	_	_	_	_	_	_	
+7-4	322-323	.	_	_	_	_	_	_	
+
+#Text=Vi som skriver denna artikel är alla professorer och läkare med lång erfarenhet av sjukvård, undervisning och forskning.
+8-1	325-327	Vi	_	_	_	_	_	_	
+8-2	328-331	som	_	_	_	_	_	_	
+8-3	332-339	skriver	_	_	_	_	_	_	
+8-4	340-345	denna	_	_	_	_	_	_	
+8-5	346-353	artikel	_	_	_	_	_	_	
+8-6	354-356	är	_	_	_	_	_	_	
+8-7	357-361	alla	_	_	_	_	_	_	
+8-8	362-373	professorer	_	_	_	_	_	_	
+8-9	374-377	och	_	_	_	_	_	_	
+8-10	378-384	läkare	_	_	_	_	_	_	
+8-11	385-388	med	_	_	_	_	_	_	
+8-12	389-393	lång	_	_	_	_	_	_	
+8-13	394-404	erfarenhet	_	_	_	_	_	_	
+8-14	405-407	av	_	_	_	_	_	_	
+8-15	408-416	sjukvård	_	_	_	_	_	_	
+8-16	416-417	,	_	_	_	_	_	_	
+8-17	418-430	undervisning	_	_	_	_	_	_	
+8-18	431-434	och	_	_	_	_	_	_	
+8-19	435-444	forskning	_	_	_	_	_	_	
+8-20	444-445	.	_	_	_	_	_	_	
+
+#Text=Nu skriver vi dock i första hand som medmänniskor.
+9-1	446-448	Nu	_	_	_	_	_	_	
+9-2	449-456	skriver	_	_	_	_	_	_	
+9-3	457-459	vi	_	_	_	_	_	_	
+9-4	460-464	dock	_	_	_	_	_	_	
+9-5	465-466	i	_	_	_	_	_	_	
+9-6	467-473	första	_	_	_	_	_	_	
+9-7	474-478	hand	_	_	_	_	_	_	
+9-8	479-482	som	_	_	_	_	_	_	
+9-9	483-495	medmänniskor	_	_	_	_	_	_	
+9-10	495-496	.	_	_	_	_	_	_	
+
+#Text=Vi har alla sett många äldre patienter, och även egna närstående och vänner, som farit och far illa i det nuvarande vård- och omsorgssystemet.
+10-1	497-499	Vi	_	_	_	_	_	_	
+10-2	500-503	har	_	_[3]	_	false[3]	2[3]	_	
+10-3	504-508	alla	_	_[3]	_	false[3]	2[3]	_	
+10-4	509-513	sett	_	_[3]	_	false[3]	2[3]	_	
+10-5	514-519	många	_	_[3]	_	false[3]	2[3]	_	
+10-6	520-525	äldre	_	_[3]	_	false[3]	2[3]	_	
+10-7	526-535	patienter	_	_[3]	_	false[3]	2[3]	_	
+10-8	535-536	,	_	_	_	_	_	_	
+10-9	537-540	och	_	_	_	_	_	_	
+10-10	541-545	även	_	_	_	_	_	_	
+10-11	546-550	egna	_	_	_	_	_	_	
+10-12	551-561	närstående	_	_	_	_	_	_	
+10-13	562-565	och	_	_	_	_	_	_	
+10-14	566-572	vänner	_	_	_	_	_	_	
+10-15	572-573	,	_	_	_	_	_	_	
+10-16	574-577	som	_	Target[4]	10-22[24]	false[4]	2[4]	10-2[3_4]	
+10-17	578-583	farit	_	Target[4]	10-22[24]	false[4]	2[4]	_	
+10-18	584-587	och	_	Target[4]	10-22[24]	false[4]	2[4]	_	
+10-19	588-591	far	_	Target[4]	10-22[24]	false[4]	2[4]	_	
+10-20	592-596	illa	_	Target[4]	10-22[24]	false[4]	2[4]	_	
+10-21	597-598	i	_	Target[4]	10-22[24]	false[4]	2[4]	_	
+10-22	599-602	det	*[24]	_	_	_	_	_	
+10-23	603-612	nuvarande	*[24]	_	_	_	_	_	
+10-24	613-617	vård	*[24]	_	_	_	_	_	
+10-25	617-618	-	*[24]	_	_	_	_	_	
+10-26	619-622	och	*[24]	_	_	_	_	_	
+10-27	623-638	omsorgssystemet	*[24]	_	_	_	_	_	
+10-28	638-639	.	_	_	_	_	_	_	
+
+#Text=Hur har det kunna bli så?.
+11-1	640-643	Hur	_	Target[5]	11-3	false[5]	2[5]	_	
+11-2	644-647	har	_	Target[5]	11-3	false[5]	2[5]	_	
+11-3	648-651	det	*	Target[5]	11-3	false[5]	2[5]	_	
+11-4	652-657	kunna	_	Target[5]	11-3	false[5]	2[5]	_	
+11-5	658-661	bli	_	Target[5]	11-3	false[5]	2[5]	_	
+11-6	662-664	så	_	Target[5]	11-3	false[5]	2[5]	_	
+11-7	664-665	?	_	Target[5]	11-3	false[5]	2[5]	_	
+11-8	665-666	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+12-1	668-669	#	_	_	_	_	_	_	
+12-2	669-670	P	_	_	_	_	_	_	
+12-3	671-674	IMM	_	_	_	_	_	_	
+12-4	674-675	.	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+13-1	677-680	Det	_	_	_	_	_	_	
+13-2	681-684	här	_	_	_	_	_	_	
+13-3	685-687	är	_	_	_	_	_	_	
+13-4	688-690	en	_	_	_	_	_	_	
+13-5	691-705	argumenterande	_	_	_	_	_	_	
+13-6	706-710	text	_	_	_	_	_	_	
+13-7	711-714	med	_	_	_	_	_	_	
+13-8	715-720	syfte	_	_	_	_	_	_	
+13-9	721-724	att	_	_	_	_	_	_	
+13-10	725-732	påverka	_	_	_	_	_	_	
+13-11	732-733	.	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+14-1	734-743	Åsikterna	_	_	_	_	_	_	
+14-2	744-747	som	_	_	_	_	_	_	
+14-3	748-756	uttrycks	_	_	_	_	_	_	
+14-4	757-759	är	_	_	_	_	_	_	
+14-5	760-771	skribentens	_	_	_	_	_	_	
+14-6	772-776	egna	_	_	_	_	_	_	
+14-7	776-777	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	779-780	#	_	_	_	_	_	_	
+15-2	780-781	P	_	_	_	_	_	_	
+15-3	782-785	IMM	_	_	_	_	_	_	
+15-4	785-786	.	_	_	_	_	_	_	
+
+#Text=Sjukvården i Sverige håller världsklass när det gäller akuta avgränsade hälsoproblem, men är inte alls anpassad för att hantera komplex kronisk sjuklighet och komplexa behandlingar, vilka är särskilt vanliga hos äldre personer.
+16-1	788-798	Sjukvården	*[25]	_	_	_	_	_	
+16-2	799-800	i	*[25]	_	_	_	_	_	
+16-3	801-808	Sverige	*[25]	_	_	_	_	_	
+16-4	809-815	håller	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-5	816-827	världsklass	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-6	828-831	när	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-7	832-835	det	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-8	836-842	gäller	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-9	843-848	akuta	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-10	849-859	avgränsade	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-11	860-872	hälsoproblem	_	Target[6]	16-1[25]	false[6]	5[6]	_	
+16-12	872-873	,	_	_	_	_	_	_	
+16-13	874-877	men	_	_	_	_	_	_	
+16-14	878-880	är	_	_[7]	_	false[7]	2[7]	_	
+16-15	881-885	inte	_	_[7]	_	false[7]	2[7]	_	
+16-16	886-890	alls	_	_[7]	_	false[7]	2[7]	_	
+16-17	891-899	anpassad	_	_[7]	_	false[7]	2[7]	_	
+16-18	900-903	för	_	_[7]	_	false[7]	2[7]	_	
+16-19	904-907	att	_	_[7]	_	false[7]	2[7]	_	
+16-20	908-915	hantera	_	_[7]	_	false[7]	2[7]	_	
+16-21	916-923	komplex	_	_[7]	_	false[7]	2[7]	_	
+16-22	924-931	kronisk	_	_[7]	_	false[7]	2[7]	_	
+16-23	932-942	sjuklighet	_	_[7]	_	false[7]	2[7]	_	
+16-24	943-946	och	_	_[7]	_	false[7]	2[7]	_	
+16-25	947-955	komplexa	_	_[7]	_	false[7]	2[7]	_	
+16-26	956-968	behandlingar	_	_[7]	_	false[7]	2[7]	_	
+16-27	968-969	,	_	_	_	_	_	_	
+16-28	970-975	vilka	_	_	_	_	_	_	
+16-29	976-978	är	_	_	_	_	_	_	
+16-30	979-987	särskilt	_	_	_	_	_	_	
+16-31	988-995	vanliga	_	_	_	_	_	_	
+16-32	996-999	hos	_	_	_	_	_	_	
+16-33	1000-1005	äldre	_	_	_	_	_	_	
+16-34	1006-1014	personer	_	_	_	_	_	_	
+16-35	1014-1015	.	_	_	_	_	_	_	
+
+#Text=Här är några exempel på denna bristande anpassning:.
+17-1	1016-1019	Här	_	_	_	_	_	_	
+17-2	1020-1022	är	_	_	_	_	_	_	
+17-3	1023-1028	några	_	_	_	_	_	_	
+17-4	1029-1036	exempel	_	Target;Target;Target;Target[8]	23-2[27];19-2[26];33-2[33];26-2[29]	false[8]	2[8]	_	
+17-5	1037-1039	på	_	Target;Target;Target;Target[8]	23-2[27];19-2[26];33-2[33];26-2[29]	false[8]	2[8]	_	
+17-6	1040-1045	denna	_	Target;Target;Target;Target[8]	23-2[27];19-2[26];33-2[33];26-2[29]	false[8]	2[8]	_	
+17-7	1046-1055	bristande	_	Target;Target;Target;Target[8]	23-2[27];19-2[26];33-2[33];26-2[29]	false[8]	2[8]	_	
+17-8	1056-1066	anpassning	_	Target;Target;Target;Target[8]	23-2[27];19-2[26];33-2[33];26-2[29]	false[8]	2[8]	_	
+17-9	1066-1067	:	_	_	_	_	_	_	
+17-10	1067-1068	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+18-1	1070-1071	#	_	_	_	_	_	_	
+18-2	1071-1072	P	_	_	_	_	_	_	
+18-3	1073-1076	IMM	_	_	_	_	_	_	
+18-4	1076-1077	.	_	_	_	_	_	_	
+
+#Text=•Tiden är otillräcklig för samlad hälsoanalys och diskussion av det samlade behandlingsprogrammet.
+19-1	1079-1080	•	_	_	_	_	_	_	
+19-2	1080-1085	Tiden	*[26]	_	_	_	_	_	
+19-3	1086-1088	är	*[26]	_	_	_	_	_	
+19-4	1089-1101	otillräcklig	*[26]	_	_	_	_	_	
+19-5	1102-1105	för	*[26]	_	_	_	_	_	
+19-6	1106-1112	samlad	*[26]	_	_	_	_	_	
+19-7	1113-1124	hälsoanalys	*[26]	_	_	_	_	_	
+19-8	1125-1128	och	*[26]	_	_	_	_	_	
+19-9	1129-1139	diskussion	*[26]	_	_	_	_	_	
+19-10	1140-1142	av	*[26]	_	_	_	_	_	
+19-11	1143-1146	det	*[26]	_	_	_	_	_	
+19-12	1147-1154	samlade	*[26]	_	_	_	_	_	
+19-13	1155-1176	behandlingsprogrammet	*[26]	_	_	_	_	_	
+19-14	1176-1177	.	_	_	_	_	_	_	
+
+#Text=Inom primärvården är tiden vid läkarbesöken ofta bara 15–30 minuter och inom slutenvården är det i regel ett eller några få akuta problem som dominerar.
+20-1	1178-1182	Inom	_	_	_	_	_	_	
+20-2	1183-1195	primärvården	_	_	_	_	_	_	
+20-3	1196-1198	är	_	_	_	_	_	_	
+20-4	1199-1204	tiden	_	_	_	_	_	_	
+20-5	1205-1208	vid	_	_	_	_	_	_	
+20-6	1209-1221	läkarbesöken	_	_	_	_	_	_	
+20-7	1222-1226	ofta	_	_	_	_	_	_	
+20-8	1227-1231	bara	_	_	_	_	_	_	
+20-9	1232-1234	15	_	_	_	_	_	_	
+20-10	1234-1235	–	_	_	_	_	_	_	
+20-11	1235-1237	30	_	_	_	_	_	_	
+20-12	1238-1245	minuter	_	_	_	_	_	_	
+20-13	1246-1249	och	_	_	_	_	_	_	
+20-14	1250-1254	inom	_	_	_	_	_	_	
+20-15	1255-1267	slutenvården	_	_	_	_	_	_	
+20-16	1268-1270	är	_	_	_	_	_	_	
+20-17	1271-1274	det	_	_	_	_	_	_	
+20-18	1275-1276	i	_	_	_	_	_	_	
+20-19	1277-1282	regel	_	_	_	_	_	_	
+20-20	1283-1286	ett	_	_	_	_	_	_	
+20-21	1287-1292	eller	_	_	_	_	_	_	
+20-22	1293-1298	några	_	_	_	_	_	_	
+20-23	1299-1301	få	_	_	_	_	_	_	
+20-24	1302-1307	akuta	_	_	_	_	_	_	
+20-25	1308-1315	problem	_	_	_	_	_	_	
+20-26	1316-1319	som	_	_	_	_	_	_	
+20-27	1320-1329	dominerar	_	_	_	_	_	_	
+20-28	1329-1330	.	_	_	_	_	_	_	
+
+#Text=Det finns helt enkelt ingen plats för regelbundet återkommande bedömning av hälsoutvecklingen.
+21-1	1331-1334	Det	_	_	_	_	_	_	
+21-2	1335-1340	finns	_	_	_	_	_	_	
+21-3	1341-1345	helt	_	_	_	_	_	_	
+21-4	1346-1352	enkelt	_	_	_	_	_	_	
+21-5	1353-1358	ingen	_	_	_	_	_	_	
+21-6	1359-1364	plats	_	_	_	_	_	_	
+21-7	1365-1368	för	_	_	_	_	_	_	
+21-8	1369-1380	regelbundet	_	_	_	_	_	_	
+21-9	1381-1393	återkommande	_	_	_	_	_	_	
+21-10	1394-1403	bedömning	_	_	_	_	_	_	
+21-11	1404-1406	av	_	_	_	_	_	_	
+21-12	1407-1424	hälsoutvecklingen	_	_	_	_	_	_	
+21-13	1424-1425	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1427-1428	#	_	_	_	_	_	_	
+22-2	1428-1429	P	_	_	_	_	_	_	
+22-3	1430-1433	IMM	_	_	_	_	_	_	
+22-4	1433-1434	.	_	_	_	_	_	_	
+
+#Text=•Journalerna är inte utformade för att ge överblick över hälsotillståndet hos de enskilda patienterna och vilken effekt olika typer av behandling har över tid.
+23-1	1436-1437	•	_	_	_	_	_	_	
+23-2	1437-1448	Journalerna	*[27]	_	_	_	_	_	
+23-3	1449-1451	är	*[27]	_	_	_	_	_	
+23-4	1452-1456	inte	*[27]	_	_	_	_	_	
+23-5	1457-1466	utformade	*[27]	_	_	_	_	_	
+23-6	1467-1470	för	*[27]	_	_	_	_	_	
+23-7	1471-1474	att	*[27]	_	_	_	_	_	
+23-8	1475-1477	ge	*[27]	_	_	_	_	_	
+23-9	1478-1487	överblick	*[27]	_	_	_	_	_	
+23-10	1488-1492	över	*[27]	_	_	_	_	_	
+23-11	1493-1509	hälsotillståndet	*[27]	_	_	_	_	_	
+23-12	1510-1513	hos	*[27]	_	_	_	_	_	
+23-13	1514-1516	de	*[27]	_	_	_	_	_	
+23-14	1517-1525	enskilda	*[27]	_	_	_	_	_	
+23-15	1526-1537	patienterna	*[27]	_	_	_	_	_	
+23-16	1538-1541	och	*[27]	_	_	_	_	_	
+23-17	1542-1548	vilken	*[27]	_	_	_	_	_	
+23-18	1549-1555	effekt	*[27]	_	_	_	_	_	
+23-19	1556-1561	olika	*[27]	_	_	_	_	_	
+23-20	1562-1567	typer	*[27]	_	_	_	_	_	
+23-21	1568-1570	av	*[27]	_	_	_	_	_	
+23-22	1571-1581	behandling	*[27]	_	_	_	_	_	
+23-23	1582-1585	har	*[27]	_	_	_	_	_	
+23-24	1586-1590	över	*[27]	_	_	_	_	_	
+23-25	1591-1594	tid	*[27]	_	_	_	_	_	
+23-26	1594-1595	.	*[27]	_	_	_	_	_	
+
+#Text=Faktum är att dagens journaler är en av de viktigaste riskfaktorerna för skador och fel i sjukvården.
+24-1	1596-1602	Faktum	_	_	_	_	_	_	
+24-2	1603-1605	är	_	_	_	_	_	_	
+24-3	1606-1609	att	_	_	_	_	_	_	
+24-4	1610-1616	dagens	*[28]	_	_	_	_	_	
+24-5	1617-1626	journaler	*[28]	_	_	_	_	_	
+24-6	1627-1629	är	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-7	1630-1632	en	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-8	1633-1635	av	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-9	1636-1638	de	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-10	1639-1649	viktigaste	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-11	1650-1664	riskfaktorerna	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-12	1665-1668	för	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-13	1669-1675	skador	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-14	1676-1679	och	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-15	1680-1683	fel	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-16	1684-1685	i	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-17	1686-1696	sjukvården	_	Target[9]	24-4[28]	false[9]	2[9]	_	
+24-18	1696-1697	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+25-1	1699-1700	#	_	_	_	_	_	_	
+25-2	1700-1701	P	_	_	_	_	_	_	
+25-3	1702-1705	IMM	_	_	_	_	_	_	
+25-4	1705-1706	.	_	_	_	_	_	_	
+
+#Text=•Utbildningen i geriatrik är helt otillräcklig för både läkare och övriga vårdyrkesgrupper.
+26-1	1708-1709	•	_	_	_	_	_	_	
+26-2	1709-1721	Utbildningen	*[29]|*[30]	_	_	_	_	_	
+26-3	1722-1723	i	*[29]|*[30]	_	_	_	_	_	
+26-4	1724-1733	geriatrik	*[29]|*[30]	_	_	_	_	_	
+26-5	1734-1736	är	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-6	1737-1741	helt	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-7	1742-1754	otillräcklig	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-8	1755-1758	för	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-9	1759-1763	både	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-10	1764-1770	läkare	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-11	1771-1774	och	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-12	1775-1781	övriga	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-13	1782-1798	vårdyrkesgrupper	*[29]	Target[10]	26-2[30]	false[10]	2[10]	_	
+26-14	1798-1799	.	_	_	_	_	_	_	
+
+#Text=En svensk läkare får bara drygt en veckas undervisning i geriatrik under grundutbildningens elva terminer.
+27-1	1800-1802	En	_	_	_	_	_	_	
+27-2	1803-1809	svensk	_	_	_	_	_	_	
+27-3	1810-1816	läkare	_	_	_	_	_	_	
+27-4	1817-1820	får	_	_	_	_	_	_	
+27-5	1821-1825	bara	_	_	_	_	_	_	
+27-6	1826-1831	drygt	_	_	_	_	_	_	
+27-7	1832-1834	en	_	_	_	_	_	_	
+27-8	1835-1841	veckas	_	_	_	_	_	_	
+27-9	1842-1854	undervisning	_	_	_	_	_	_	
+27-10	1855-1856	i	_	_	_	_	_	_	
+27-11	1857-1866	geriatrik	_	_	_	_	_	_	
+27-12	1867-1872	under	_	_	_	_	_	_	
+27-13	1873-1891	grundutbildningens	_	_	_	_	_	_	
+27-14	1892-1896	elva	_	_	_	_	_	_	
+27-15	1897-1905	terminer	_	_	_	_	_	_	
+27-16	1905-1906	.	_	_	_	_	_	_	
+
+#Text=Av landets cirka 12000 kommunalt anställda sjuksköterskor – som bara arbetar med äldre personer – har bara 1,6 procent någon specialiserad utbildning i geriatrik/äldrevård.
+28-1	1907-1909	Av	_	_	_	_	_	_	
+28-2	1910-1917	landets	_	_	_	_	_	_	
+28-3	1918-1923	cirka	_	_	_	_	_	_	
+28-4	1924-1929	12000	_	_	_	_	_	_	
+28-5	1930-1939	kommunalt	_	_	_	_	_	_	
+28-6	1940-1949	anställda	_	_	_	_	_	_	
+28-7	1950-1964	sjuksköterskor	_	_	_	_	_	_	
+28-8	1965-1966	–	_	_	_	_	_	_	
+28-9	1967-1970	som	_	_	_	_	_	_	
+28-10	1971-1975	bara	_	_	_	_	_	_	
+28-11	1976-1983	arbetar	_	_	_	_	_	_	
+28-12	1984-1987	med	_	_	_	_	_	_	
+28-13	1988-1993	äldre	_	_	_	_	_	_	
+28-14	1994-2002	personer	_	_	_	_	_	_	
+28-15	2003-2004	–	_	_	_	_	_	_	
+28-16	2005-2008	har	_	_	_	_	_	_	
+28-17	2009-2013	bara	_	_	_	_	_	_	
+28-18	2014-2017	1,6	_	_	_	_	_	_	
+28-19	2018-2025	procent	_	_	_	_	_	_	
+28-20	2026-2031	någon	_	_	_	_	_	_	
+28-21	2032-2045	specialiserad	_	_	_	_	_	_	
+28-22	2046-2056	utbildning	_	_	_	_	_	_	
+28-23	2057-2058	i	_	_	_	_	_	_	
+28-24	2059-2068	geriatrik	_	_	_	_	_	_	
+28-25	2068-2069	/	_	_	_	_	_	_	
+28-26	2069-2078	äldrevård	_	_	_	_	_	_	
+28-27	2078-2079	.	_	_	_	_	_	_	
+
+#Text=Det talas visserligen mycket om behovet av "geriatrisk kompetens", men det diskuteras intehur utbildning, fortbildning och praktisk träning i geriatrik bör ske anpassat för olika yrkesgrupper ellerhur den bör kopplas till forskning/utveckling.
+29-1	2080-2083	Det	_	_	_	_	_	_	
+29-2	2084-2089	talas	_	_	_	_	_	_	
+29-3	2090-2101	visserligen	_	_	_	_	_	_	
+29-4	2102-2108	mycket	_	_	_	_	_	_	
+29-5	2109-2111	om	_	_	_	_	_	_	
+29-6	2112-2119	behovet	_	_	_	_	_	_	
+29-7	2120-2122	av	_	_	_	_	_	_	
+29-8	2123-2124	"	_	_	_	_	_	_	
+29-9	2124-2134	geriatrisk	_	_	_	_	_	_	
+29-10	2135-2144	kompetens	_	_	_	_	_	_	
+29-11	2144-2145	"	_	_	_	_	_	_	
+29-12	2145-2146	,	_	_	_	_	_	_	
+29-13	2147-2150	men	_	_	_	_	_	_	
+29-14	2151-2154	det	_	_	_	_	_	_	
+29-15	2155-2165	diskuteras	_	_	_	_	_	_	
+29-16	2166-2173	intehur	_	_	_	_	_	_	
+29-17	2174-2184	utbildning	_	_	_	_	_	_	
+29-18	2184-2185	,	_	_	_	_	_	_	
+29-19	2186-2198	fortbildning	_	_	_	_	_	_	
+29-20	2199-2202	och	_	_	_	_	_	_	
+29-21	2203-2211	praktisk	_	_	_	_	_	_	
+29-22	2212-2219	träning	_	_	_	_	_	_	
+29-23	2220-2221	i	_	_	_	_	_	_	
+29-24	2222-2231	geriatrik	_	_	_	_	_	_	
+29-25	2232-2235	bör	_	_	_	_	_	_	
+29-26	2236-2239	ske	_	_	_	_	_	_	
+29-27	2240-2248	anpassat	_	_	_	_	_	_	
+29-28	2249-2252	för	_	_	_	_	_	_	
+29-29	2253-2258	olika	_	_	_	_	_	_	
+29-30	2259-2271	yrkesgrupper	_	_	_	_	_	_	
+29-31	2272-2280	ellerhur	_	_	_	_	_	_	
+29-32	2281-2284	den	_	_	_	_	_	_	
+29-33	2285-2288	bör	_	_	_	_	_	_	
+29-34	2289-2296	kopplas	_	_	_	_	_	_	
+29-35	2297-2301	till	_	_	_	_	_	_	
+29-36	2302-2311	forskning	_	_	_	_	_	_	
+29-37	2311-2312	/	_	_	_	_	_	_	
+29-38	2312-2322	utveckling	_	_	_	_	_	_	
+29-39	2322-2323	.	_	_	_	_	_	_	
+
+#Text=Bristen på geriatrisk kompetens gäller även landstingens och kommunernas ledningar, liksom statliga myndigheter.
+30-1	2324-2331	Bristen	_	Target[11]|Target[12]	30-7[32]|30-3[31]	false[11]|false[12]	2[11]|4[12]	_	
+30-2	2332-2334	på	_	Target[11]|Target[12]	30-7[32]|30-3[31]	false[11]|false[12]	2[11]|4[12]	_	
+30-3	2335-2345	geriatrisk	*[31]	Target[11]	30-7[32]	false[11]	2[11]	_	
+30-4	2346-2355	kompetens	*[31]	Target[11]	30-7[32]	false[11]	2[11]	_	
+30-5	2356-2362	gäller	_	Target[11]	30-7[32]	false[11]	2[11]	_	
+30-6	2363-2367	även	_	Target[11]	30-7[32]	false[11]	2[11]	_	
+30-7	2368-2380	landstingens	*[32]	_	_	_	_	_	
+30-8	2381-2384	och	*[32]	_	_	_	_	_	
+30-9	2385-2396	kommunernas	*[32]	_	_	_	_	_	
+30-10	2397-2406	ledningar	*[32]	_	_	_	_	_	
+30-11	2406-2407	,	_	_	_	_	_	_	
+30-12	2408-2414	liksom	_	_	_	_	_	_	
+30-13	2415-2423	statliga	_	_	_	_	_	_	
+30-14	2424-2435	myndigheter	_	_	_	_	_	_	
+30-15	2435-2436	.	_	_	_	_	_	_	
+
+#Text=Kan man tala om evidensbaserad och kunskapsbaserad medicin/vård utan kunskaper?.
+31-1	2437-2440	Kan	_	_	_	_	_	_	
+31-2	2441-2444	man	_	_	_	_	_	_	
+31-3	2445-2449	tala	_	_	_	_	_	_	
+31-4	2450-2452	om	_	_	_	_	_	_	
+31-5	2453-2467	evidensbaserad	_	_	_	_	_	_	
+31-6	2468-2471	och	_	_	_	_	_	_	
+31-7	2472-2487	kunskapsbaserad	_	_	_	_	_	_	
+31-8	2488-2495	medicin	_	_	_	_	_	_	
+31-9	2495-2496	/	_	_	_	_	_	_	
+31-10	2496-2500	vård	_	_	_	_	_	_	
+31-11	2501-2505	utan	_	_	_	_	_	_	
+31-12	2506-2515	kunskaper	_	_	_	_	_	_	
+31-13	2515-2516	?	_	_	_	_	_	_	
+31-14	2516-2517	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2519-2520	#	_	_	_	_	_	_	
+32-2	2520-2521	P	_	_	_	_	_	_	
+32-3	2522-2525	IMM	_	_	_	_	_	_	
+32-4	2525-2526	.	_	_	_	_	_	_	
+
+#Text=•Vårdorganisationen är enligt lag uppdelad på kommuner och landsting, vilket innebär att alla äldre personer med kommunala biståndsbeslut hamnar i en farlig gråzon mellan dessa huvudmän.
+33-1	2528-2529	•	_	_	_	_	_	_	
+33-2	2529-2547	Vårdorganisationen	*[33]	_	_	_	_	_	
+33-3	2548-2550	är	*[33]	_	_	_	_	_	
+33-4	2551-2557	enligt	*[33]	_	_	_	_	_	
+33-5	2558-2561	lag	*[33]	_	_	_	_	_	
+33-6	2562-2570	uppdelad	*[33]	_	_	_	_	_	
+33-7	2571-2573	på	*[33]	_	_	_	_	_	
+33-8	2574-2582	kommuner	*[33]	_	_	_	_	_	
+33-9	2583-2586	och	*[33]	_	_	_	_	_	
+33-10	2587-2596	landsting	*[33]	_	_	_	_	_	
+33-11	2596-2597	,	*[33]	_	_	_	_	_	
+33-12	2598-2604	vilket	*[33]	_	_	_	_	_	
+33-13	2605-2612	innebär	*[33]	_	_	_	_	_	
+33-14	2613-2616	att	*[33]	_	_	_	_	_	
+33-15	2617-2621	alla	*[33]	_	_	_	_	_	
+33-16	2622-2627	äldre	*[33]	_	_	_	_	_	
+33-17	2628-2636	personer	*[33]	_	_	_	_	_	
+33-18	2637-2640	med	*[33]	_	_	_	_	_	
+33-19	2641-2650	kommunala	*[33]	_	_	_	_	_	
+33-20	2651-2665	biståndsbeslut	*[33]	_	_	_	_	_	
+33-21	2666-2672	hamnar	*[33]	_	_	_	_	_	
+33-22	2673-2674	i	*[33]	_	_	_	_	_	
+33-23	2675-2677	en	*[33]	_	_	_	_	_	
+33-24	2678-2684	farlig	*[33]	_	_	_	_	_	
+33-25	2685-2691	gråzon	*[33]	_	_	_	_	_	
+33-26	2692-2698	mellan	*[33]	_	_	_	_	_	
+33-27	2699-2704	dessa	*[33]	_	_	_	_	_	
+33-28	2705-2713	huvudmän	*[33]	_	_	_	_	_	
+33-29	2713-2714	.	_	_	_	_	_	_	
+
+#Text=De senaste 25 åren har antalet vårdplatser inom geriatrik i Sverige minskat med 95 procent.
+34-1	2715-2717	De	_	_	_	_	_	_	
+34-2	2718-2725	senaste	_	_	_	_	_	_	
+34-3	2726-2728	25	_	_	_	_	_	_	
+34-4	2729-2733	åren	_	_	_	_	_	_	
+34-5	2734-2737	har	_	_	_	_	_	_	
+34-6	2738-2745	antalet	_	_	_	_	_	_	
+34-7	2746-2757	vårdplatser	_	_	_	_	_	_	
+34-8	2758-2762	inom	_	_	_	_	_	_	
+34-9	2763-2772	geriatrik	_	_	_	_	_	_	
+34-10	2773-2774	i	_	_	_	_	_	_	
+34-11	2775-2782	Sverige	_	_	_	_	_	_	
+34-12	2783-2790	minskat	_	_	_	_	_	_	
+34-13	2791-2794	med	_	_	_	_	_	_	
+34-14	2795-2797	95	_	_	_	_	_	_	
+34-15	2798-2805	procent	_	_	_	_	_	_	
+34-16	2805-2806	.	_	_	_	_	_	_	
+
+#Text=Minskningen har fortsatt under de senaste fem åren, parallellt med statens satsning på äldre-vård/omsorg: tidigare via mångmiljardsatsningen på "statliga stimulansmedel" och sedan 2011 via "prestationsbaserade ersättningar" till "de mest sjuka äldre".
+35-1	2807-2818	Minskningen	_	_	_	_	_	_	
+35-2	2819-2822	har	_	_	_	_	_	_	
+35-3	2823-2831	fortsatt	_	_	_	_	_	_	
+35-4	2832-2837	under	_	_	_	_	_	_	
+35-5	2838-2840	de	_	_	_	_	_	_	
+35-6	2841-2848	senaste	_	_	_	_	_	_	
+35-7	2849-2852	fem	_	_	_	_	_	_	
+35-8	2853-2857	åren	_	_	_	_	_	_	
+35-9	2857-2858	,	_	_	_	_	_	_	
+35-10	2859-2869	parallellt	_	_	_	_	_	_	
+35-11	2870-2873	med	_	_	_	_	_	_	
+35-12	2874-2881	statens	_	_	_	_	_	_	
+35-13	2882-2890	satsning	_	_	_	_	_	_	
+35-14	2891-2893	på	_	_	_	_	_	_	
+35-15	2894-2904	äldre-vård	_	_	_	_	_	_	
+35-16	2904-2905	/	_	_	_	_	_	_	
+35-17	2905-2911	omsorg	_	_	_	_	_	_	
+35-18	2911-2912	:	_	_	_	_	_	_	
+35-19	2913-2921	tidigare	_	_	_	_	_	_	
+35-20	2922-2925	via	_	_	_	_	_	_	
+35-21	2926-2947	mångmiljardsatsningen	_	_	_	_	_	_	
+35-22	2948-2950	på	_	_	_	_	_	_	
+35-23	2951-2952	"	_	_	_	_	_	_	
+35-24	2952-2960	statliga	_	_	_	_	_	_	
+35-25	2961-2975	stimulansmedel	_	_	_	_	_	_	
+35-26	2975-2976	"	_	_	_	_	_	_	
+35-27	2977-2980	och	_	_	_	_	_	_	
+35-28	2981-2986	sedan	_	_	_	_	_	_	
+35-29	2987-2991	2011	_	_	_	_	_	_	
+35-30	2992-2995	via	_	_	_	_	_	_	
+35-31	2996-2997	"	_	_	_	_	_	_	
+35-32	2997-3016	prestationsbaserade	_	_	_	_	_	_	
+35-33	3017-3029	ersättningar	_	_	_	_	_	_	
+35-34	3029-3030	"	_	_	_	_	_	_	
+35-35	3031-3035	till	_	_	_	_	_	_	
+35-36	3036-3037	"	_	_	_	_	_	_	
+35-37	3037-3039	de	_	_	_	_	_	_	
+35-38	3040-3044	mest	_	_	_	_	_	_	
+35-39	3045-3050	sjuka	_	_	_	_	_	_	
+35-40	3051-3056	äldre	_	_	_	_	_	_	
+35-41	3056-3057	"	_	_	_	_	_	_	
+35-42	3057-3058	.	_	_	_	_	_	_	
+
+#Text=Detta innebär att geriatrik som vårdverksamhet på sjukhus är på väg att försvinna i Sverige.
+36-1	3059-3064	Detta	_	_	_	_	_	_	
+36-2	3065-3072	innebär	_	_	_	_	_	_	
+36-3	3073-3076	att	_	_	_	_	_	_	
+36-4	3077-3086	geriatrik	_	_	_	_	_	_	
+36-5	3087-3090	som	_	_	_	_	_	_	
+36-6	3091-3105	vårdverksamhet	_	_	_	_	_	_	
+36-7	3106-3108	på	_	_	_	_	_	_	
+36-8	3109-3116	sjukhus	_	_	_	_	_	_	
+36-9	3117-3119	är	_	_	_	_	_	_	
+36-10	3120-3122	på	_	_	_	_	_	_	
+36-11	3123-3126	väg	_	_	_	_	_	_	
+36-12	3127-3130	att	_	_	_	_	_	_	
+36-13	3131-3140	försvinna	_	_	_	_	_	_	
+36-14	3141-3142	i	_	_	_	_	_	_	
+36-15	3143-3150	Sverige	_	_	_	_	_	_	
+36-16	3150-3151	.	_	_	_	_	_	_	
+
+#Text=Utöver detta saknas nästan helt geriatriska verksamheter inom både primärvården och de 290 kommunerna.
+37-1	3152-3158	Utöver	_	_	_	_	_	_	
+37-2	3159-3164	detta	_	_	_	_	_	_	
+37-3	3165-3171	saknas	_	_	_	_	_	_	
+37-4	3172-3178	nästan	_	_	_	_	_	_	
+37-5	3179-3183	helt	_	_	_	_	_	_	
+37-6	3184-3195	geriatriska	_	_	_	_	_	_	
+37-7	3196-3208	verksamheter	_	_	_	_	_	_	
+37-8	3209-3213	inom	_	_	_	_	_	_	
+37-9	3214-3218	både	_	_	_	_	_	_	
+37-10	3219-3231	primärvården	_	_	_	_	_	_	
+37-11	3232-3235	och	_	_	_	_	_	_	
+37-12	3236-3238	de	_	_	_	_	_	_	
+37-13	3239-3242	290	_	_	_	_	_	_	
+37-14	3243-3253	kommunerna	_	_	_	_	_	_	
+37-15	3253-3254	.	_	_	_	_	_	_	
+
+#Text=Gör tankeexperimentet att man behandlat barnen på ett motsvarande sätt.
+38-1	3255-3258	Gör	_	_	_	_	_	_	
+38-2	3259-3276	tankeexperimentet	_	_	_	_	_	_	
+38-3	3277-3280	att	_	_	_	_	_	_	
+38-4	3281-3284	man	_	_	_	_	_	_	
+38-5	3285-3294	behandlat	_	_	_	_	_	_	
+38-6	3295-3301	barnen	_	_	_	_	_	_	
+38-7	3302-3304	på	_	_	_	_	_	_	
+38-8	3305-3308	ett	_	_	_	_	_	_	
+38-9	3309-3320	motsvarande	_	_	_	_	_	_	
+38-10	3321-3325	sätt	_	_	_	_	_	_	
+38-11	3325-3326	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3328-3329	#	_	_	_	_	_	_	
+39-2	3329-3330	P	_	_	_	_	_	_	
+39-3	3331-3334	IMM	_	_	_	_	_	_	
+39-4	3334-3335	.	_	_	_	_	_	_	
+
+#Text=Skräddarsydda kurser i ämnen som intresserar och engagerar både kropp och själ.
+40-1	3337-3350	Skräddarsydda	_	_	_	_	_	_	
+40-2	3351-3357	kurser	_	_	_	_	_	_	
+40-3	3358-3359	i	_	_	_	_	_	_	
+40-4	3360-3365	ämnen	_	_	_	_	_	_	
+40-5	3366-3369	som	_	_	_	_	_	_	
+40-6	3370-3381	intresserar	_	_	_	_	_	_	
+40-7	3382-3385	och	_	_	_	_	_	_	
+40-8	3386-3395	engagerar	_	_	_	_	_	_	
+40-9	3396-3400	både	_	_	_	_	_	_	
+40-10	3401-3406	kropp	_	_	_	_	_	_	
+40-11	3407-3410	och	_	_	_	_	_	_	
+40-12	3411-3415	själ	_	_	_	_	_	_	
+40-13	3415-3416	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+41-1	3418-3419	#	_	_	_	_	_	_	
+41-2	3419-3420	P	_	_	_	_	_	_	
+41-3	3421-3424	IMM	_	_	_	_	_	_	
+41-4	3424-3425	.	_	_	_	_	_	_	
+
+#Text=En av många allvarliga konsekvenser av ovanstående är negativa effekter av läkemedelsbehandling.
+42-1	3427-3429	En	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-2	3430-3432	av	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-3	3433-3438	många	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-4	3439-3449	allvarliga	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-5	3450-3462	konsekvenser	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-6	3463-3465	av	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-7	3466-3477	ovanstående	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-8	3478-3480	är	_	Target[13]	42-9[34]	false[13]	1[13]	_	
+42-9	3481-3489	negativa	*[34]	_	_	_	_	_	
+42-10	3490-3498	effekter	*[34]	_	_	_	_	_	
+42-11	3499-3501	av	*[34]	_	_	_	_	_	
+42-12	3502-3522	läkemedelsbehandling	*[34]	_	_	_	_	_	
+42-13	3522-3523	.	_	_	_	_	_	_	
+
+#Text=Omkring var fjärde äldre person som läggs in på medicinsk klinik har läkemedelsrelaterade problem, vilket i dag tyvärr blivit en av de vanligaste orsakerna till inläggning av äldre personer på sjukhus.
+43-1	3524-3531	Omkring	_	_	_	_	_	_	
+43-2	3532-3535	var	_	_	_	_	_	_	
+43-3	3536-3542	fjärde	_	_	_	_	_	_	
+43-4	3543-3548	äldre	_	_	_	_	_	_	
+43-5	3549-3555	person	_	_	_	_	_	_	
+43-6	3556-3559	som	_	_	_	_	_	_	
+43-7	3560-3565	läggs	_	_	_	_	_	_	
+43-8	3566-3568	in	_	_	_	_	_	_	
+43-9	3569-3571	på	_	_	_	_	_	_	
+43-10	3572-3581	medicinsk	_	_	_	_	_	_	
+43-11	3582-3588	klinik	_	_	_	_	_	_	
+43-12	3589-3592	har	_	_	_	_	_	_	
+43-13	3593-3613	läkemedelsrelaterade	_	_	_	_	_	_	
+43-14	3614-3621	problem	_	_	_	_	_	_	
+43-15	3621-3622	,	_	_	_	_	_	_	
+43-16	3623-3629	vilket	_	_	_	_	_	_	
+43-17	3630-3631	i	_	_	_	_	_	_	
+43-18	3632-3635	dag	_	_	_	_	_	_	
+43-19	3636-3642	tyvärr	_	Target	43-20[35]	false	2	_	
+43-20	3643-3649	blivit	*[35]	_	_	_	_	_	
+43-21	3650-3652	en	*[35]	_	_	_	_	_	
+43-22	3653-3655	av	*[35]	_	_	_	_	_	
+43-23	3656-3658	de	*[35]	_	_	_	_	_	
+43-24	3659-3669	vanligaste	*[35]	_	_	_	_	_	
+43-25	3670-3679	orsakerna	*[35]	_	_	_	_	_	
+43-26	3680-3684	till	*[35]	_	_	_	_	_	
+43-27	3685-3695	inläggning	*[35]	_	_	_	_	_	
+43-28	3696-3698	av	*[35]	_	_	_	_	_	
+43-29	3699-3704	äldre	*[35]	_	_	_	_	_	
+43-30	3705-3713	personer	*[35]	_	_	_	_	_	
+43-31	3714-3716	på	*[35]	_	_	_	_	_	
+43-32	3717-3724	sjukhus	*[35]	_	_	_	_	_	
+43-33	3724-3725	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+44-1	3727-3728	#	_	_	_	_	_	_	
+44-2	3728-3729	P	_	_	_	_	_	_	
+44-3	3730-3733	IMM	_	_	_	_	_	_	
+44-4	3733-3734	.	_	_	_	_	_	_	
+
+#Text=Mycket talar för att ännu många fler äldre personer har besvärande biverkningar, som begränsar deras vitalitet och självständighet, utan att de behöver läggas in på sjukhus.
+45-1	3736-3742	Mycket	_	_	_	_	_	_	
+45-2	3743-3748	talar	_	_	_	_	_	_	
+45-3	3749-3752	för	_	_	_	_	_	_	
+45-4	3753-3756	att	_	_	_	_	_	_	
+45-5	3757-3761	ännu	_	_	_	_	_	_	
+45-6	3762-3767	många	_	_	_	_	_	_	
+45-7	3768-3772	fler	_	_	_	_	_	_	
+45-8	3773-3778	äldre	_	_	_	_	_	_	
+45-9	3779-3787	personer	_	_	_	_	_	_	
+45-10	3788-3791	har	_	_	_	_	_	_	
+45-11	3792-3802	besvärande	_	_	_	_	_	_	
+45-12	3803-3815	biverkningar	_	_	_	_	_	_	
+45-13	3815-3816	,	_	_	_	_	_	_	
+45-14	3817-3820	som	_	_	_	_	_	_	
+45-15	3821-3830	begränsar	_	_	_	_	_	_	
+45-16	3831-3836	deras	_	_	_	_	_	_	
+45-17	3837-3846	vitalitet	_	_	_	_	_	_	
+45-18	3847-3850	och	_	_	_	_	_	_	
+45-19	3851-3866	självständighet	_	_	_	_	_	_	
+45-20	3866-3867	,	_	_	_	_	_	_	
+45-21	3868-3872	utan	_	_	_	_	_	_	
+45-22	3873-3876	att	_	_	_	_	_	_	
+45-23	3877-3879	de	_	_	_	_	_	_	
+45-24	3880-3887	behöver	_	_	_	_	_	_	
+45-25	3888-3894	läggas	_	_	_	_	_	_	
+45-26	3895-3897	in	_	_	_	_	_	_	
+45-27	3898-3900	på	_	_	_	_	_	_	
+45-28	3901-3908	sjukhus	_	_	_	_	_	_	
+45-29	3908-3909	.	_	_	_	_	_	_	
+
+#Text=Detta innebär att dagens sjukvård skapar många hälsoproblem, vilket står i strid med Hippokrates första princip: Att aldrig skada.
+46-1	3910-3915	Detta	_	_	_	_	_	_	
+46-2	3916-3923	innebär	_	_	_	_	_	_	
+46-3	3924-3927	att	_	_	_	_	_	_	
+46-4	3928-3934	dagens	*[36]	_	_	_	_	_	
+46-5	3935-3943	sjukvård	*[36]	_	_	_	_	_	
+46-6	3944-3950	skapar	*[37]	Target[14]	46-4[36]	false[14]	2[14]	_	
+46-7	3951-3956	många	*[37]	Target[14]	46-4[36]	false[14]	2[14]	_	
+46-8	3957-3969	hälsoproblem	*[37]	Target[14]	46-4[36]	false[14]	2[14]	_	
+46-9	3969-3970	,	_	_	_	_	_	_	
+46-10	3971-3977	vilket	_	_	_	_	_	_	
+46-11	3978-3982	står	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-12	3983-3984	i	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-13	3985-3990	strid	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-14	3991-3994	med	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-15	3995-4006	Hippokrates	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-16	4007-4013	första	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-17	4014-4021	princip	_	Target[15]	46-6[37]	false[15]	2[15]	_	
+46-18	4021-4022	:	_	_	_	_	_	_	
+46-19	4023-4026	Att	_	_	_	_	_	_	
+46-20	4027-4033	aldrig	_	_	_	_	_	_	
+46-21	4034-4039	skada	_	_	_	_	_	_	
+46-22	4039-4040	.	_	_	_	_	_	_	
+
+#Text=Utvecklingen är tyvärr lätt förutsägbar utifrån bristen på regelbundet återkommande, samlad uppföljning de äldre personernas hälsotillstånd över tid.
+47-1	4041-4053	Utvecklingen	_	_	_	_	_	_	
+47-2	4054-4056	är	_	_	_	_	_	_	
+47-3	4057-4063	tyvärr	_	_	_	_	_	_	
+47-4	4064-4068	lätt	_	_	_	_	_	_	
+47-5	4069-4080	förutsägbar	_	_	_	_	_	_	
+47-6	4081-4088	utifrån	_	_	_	_	_	_	
+47-7	4089-4096	bristen	_	_	_	_	_	_	
+47-8	4097-4099	på	_	_	_	_	_	_	
+47-9	4100-4111	regelbundet	_	_	_	_	_	_	
+47-10	4112-4124	återkommande	_	_	_	_	_	_	
+47-11	4124-4125	,	_	_	_	_	_	_	
+47-12	4126-4132	samlad	_	_	_	_	_	_	
+47-13	4133-4144	uppföljning	_	_	_	_	_	_	
+47-14	4145-4147	de	_	_	_	_	_	_	
+47-15	4148-4153	äldre	_	_	_	_	_	_	
+47-16	4154-4165	personernas	_	_	_	_	_	_	
+47-17	4166-4180	hälsotillstånd	_	_	_	_	_	_	
+47-18	4181-4185	över	_	_	_	_	_	_	
+47-19	4186-4189	tid	_	_	_	_	_	_	
+47-20	4189-4190	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4192-4193	#	_	_	_	_	_	_	
+48-2	4193-4194	P	_	_	_	_	_	_	
+48-3	4195-4198	IMM	_	_	_	_	_	_	
+48-4	4198-4199	.	_	_	_	_	_	_	
+
+#Text=Fram till 2035 beräknar SCB att antalet 85-åringar nästan fördubblas.
+49-1	4201-4205	Fram	_	_	_	_	_	_	
+49-2	4206-4210	till	_	_	_	_	_	_	
+49-3	4211-4215	2035	_	_	_	_	_	_	
+49-4	4216-4224	beräknar	_	_	_	_	_	_	
+49-5	4225-4228	SCB	_	_	_	_	_	_	
+49-6	4229-4232	att	_	_	_	_	_	_	
+49-7	4233-4240	antalet	_	_	_	_	_	_	
+49-8	4241-4243	85	_	_	_	_	_	_	
+49-9	4243-4244	-	_	_	_	_	_	_	
+49-10	4244-4251	åringar	_	_	_	_	_	_	
+49-11	4252-4258	nästan	_	_	_	_	_	_	
+49-12	4259-4269	fördubblas	_	_	_	_	_	_	
+49-13	4269-4270	.	_	_	_	_	_	_	
+
+#Text=De omfattande problem som förekommer i dagens äldrevård/omsorg är därför bara en föraning av vad som kommer.
+50-1	4271-4273	De	_	_	_	_	_	_	
+50-2	4274-4284	omfattande	_	Target[16]	50-7[38]	false[16]	2[16]	_	
+50-3	4285-4292	problem	_	Target[16]	50-7[38]	false[16]	2[16]	_	
+50-4	4293-4296	som	_	Target[16]	50-7[38]	false[16]	2[16]	_	
+50-5	4297-4307	förekommer	_	Target[16]	50-7[38]	false[16]	2[16]	_	
+50-6	4308-4309	i	_	Target[16]	50-7[38]	false[16]	2[16]	_	
+50-7	4310-4316	dagens	*[38]	_	_	_	_	_	
+50-8	4317-4326	äldrevård	*[38]	_	_	_	_	_	
+50-9	4326-4327	/	*[38]	_	_	_	_	_	
+50-10	4327-4333	omsorg	*[38]	_	_	_	_	_	
+50-11	4334-4336	är	_	_	_	_	_	_	
+50-12	4337-4343	därför	_	_	_	_	_	_	
+50-13	4344-4348	bara	_	_	_	_	_	_	
+50-14	4349-4351	en	_	_	_	_	_	_	
+50-15	4352-4360	föraning	_	_	_	_	_	_	
+50-16	4361-4363	av	_	_	_	_	_	_	
+50-17	4364-4367	vad	_	_	_	_	_	_	
+50-18	4368-4371	som	_	_	_	_	_	_	
+50-19	4372-4378	kommer	_	_	_	_	_	_	
+50-20	4378-4379	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+51-1	4381-4382	#	_	_	_	_	_	_	
+51-2	4382-4383	P	_	_	_	_	_	_	
+51-3	4384-4387	IMM	_	_	_	_	_	_	
+51-4	4387-4388	.	_	_	_	_	_	_	
+
+#Text=Vad bör göras?.
+52-1	4390-4393	Vad	_	_	_	_	_	_	
+52-2	4394-4397	bör	_	_	_	_	_	_	
+52-3	4398-4403	göras	_	_	_	_	_	_	
+52-4	4403-4404	?	_	_	_	_	_	_	
+52-5	4404-4405	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+53-1	4407-4408	#	_	_	_	_	_	_	
+53-2	4408-4409	P	_	_	_	_	_	_	
+53-3	4410-4413	IMM	_	_	_	_	_	_	
+53-4	4413-4414	.	_	_	_	_	_	_	
+
+#Text=För att förbättra kvaliteten på äldrevården/omsorgen föreslår vi en kraftfull satsning baserad på kunskapsområdet geriatrik.
+54-1	4416-4419	För	_	_	_	_	_	_	
+54-2	4420-4423	att	_	_	_	_	_	_	
+54-3	4424-4433	förbättra	_	_	_	_	_	_	
+54-4	4434-4444	kvaliteten	_	_	_	_	_	_	
+54-5	4445-4447	på	_	_	_	_	_	_	
+54-6	4448-4459	äldrevården	_	_	_	_	_	_	
+54-7	4459-4460	/	_	_	_	_	_	_	
+54-8	4460-4468	omsorgen	_	_	_	_	_	_	
+54-9	4469-4477	föreslår	_	Target	54-11[39]	false	4	_	
+54-10	4478-4480	vi	_	_	_	_	_	_	
+54-11	4481-4483	en	*[39]	_	_	_	_	_	
+54-12	4484-4493	kraftfull	*[39]	_	_	_	_	_	
+54-13	4494-4502	satsning	*[39]	_	_	_	_	_	
+54-14	4503-4510	baserad	*[39]	_	_	_	_	_	
+54-15	4511-4513	på	*[39]	_	_	_	_	_	
+54-16	4514-4529	kunskapsområdet	*[39]	_	_	_	_	_	
+54-17	4530-4539	geriatrik	*[39]	_	_	_	_	_	
+54-18	4539-4540	.	_	_	_	_	_	_	
+
+#Text=Läkare och vårdpersonal som arbetar inom äldrevård/omsorg behöver känna att de arbetar inom ett definierat kunskapsområde med en egen identitet.
+55-1	4541-4547	Läkare	_	_	_	_	_	_	
+55-2	4548-4551	och	_	_	_	_	_	_	
+55-3	4552-4564	vårdpersonal	_	_	_	_	_	_	
+55-4	4565-4568	som	_	_	_	_	_	_	
+55-5	4569-4576	arbetar	_	_	_	_	_	_	
+55-6	4577-4581	inom	_	_	_	_	_	_	
+55-7	4582-4591	äldrevård	_	_	_	_	_	_	
+55-8	4591-4592	/	_	_	_	_	_	_	
+55-9	4592-4598	omsorg	_	_	_	_	_	_	
+55-10	4599-4606	behöver	_	_	_	_	_	_	
+55-11	4607-4612	känna	_	_	_	_	_	_	
+55-12	4613-4616	att	_	_	_	_	_	_	
+55-13	4617-4619	de	_	_	_	_	_	_	
+55-14	4620-4627	arbetar	_	_	_	_	_	_	
+55-15	4628-4632	inom	_	_	_	_	_	_	
+55-16	4633-4636	ett	_	_	_	_	_	_	
+55-17	4637-4647	definierat	_	_	_	_	_	_	
+55-18	4648-4662	kunskapsområde	_	_	_	_	_	_	
+55-19	4663-4666	med	_	_	_	_	_	_	
+55-20	4667-4669	en	_	_	_	_	_	_	
+55-21	4670-4674	egen	_	_	_	_	_	_	
+55-22	4675-4684	identitet	_	_	_	_	_	_	
+55-23	4684-4685	.	_	_	_	_	_	_	
+
+#Text=Det är därför viktigt att lyfta "varumärket" geriatrik i hälso/sjukvården och den kommunala äldreomsorgen som uttryck och garant för hög kompetens och kvalitet för bedömning och behandling/vård/omsorg om äldre personer med komplexa hälsoproblem.
+56-1	4686-4689	Det	_	_	_	_	_	_	
+56-2	4690-4692	är	_	Target[17]	56-6[40]	false[17]	4[17]	_	
+56-3	4693-4699	därför	_	Target[17]	56-6[40]	false[17]	4[17]	_	
+56-4	4700-4707	viktigt	_	Target[17]	56-6[40]	false[17]	4[17]	_	
+56-5	4708-4711	att	_	Target[17]	56-6[40]	false[17]	4[17]	_	
+56-6	4712-4717	lyfta	*[40]	_	_	_	_	_	
+56-7	4718-4719	"	*[40]	_	_	_	_	_	
+56-8	4719-4729	varumärket	*[40]	_	_	_	_	_	
+56-9	4729-4730	"	*[40]	_	_	_	_	_	
+56-10	4731-4740	geriatrik	*[40]	_	_	_	_	_	
+56-11	4741-4742	i	*[40]	_	_	_	_	_	
+56-12	4743-4748	hälso	*[40]	_	_	_	_	_	
+56-13	4748-4749	/	*[40]	_	_	_	_	_	
+56-14	4749-4759	sjukvården	*[40]	_	_	_	_	_	
+56-15	4760-4763	och	*[40]	_	_	_	_	_	
+56-16	4764-4767	den	*[40]	_	_	_	_	_	
+56-17	4768-4777	kommunala	*[40]	_	_	_	_	_	
+56-18	4778-4791	äldreomsorgen	*[40]	_	_	_	_	_	
+56-19	4792-4795	som	*[40]	_	_	_	_	_	
+56-20	4796-4803	uttryck	*[40]	_	_	_	_	_	
+56-21	4804-4807	och	*[40]	_	_	_	_	_	
+56-22	4808-4814	garant	*[40]	_	_	_	_	_	
+56-23	4815-4818	för	*[40]	_	_	_	_	_	
+56-24	4819-4822	hög	*[40]	_	_	_	_	_	
+56-25	4823-4832	kompetens	*[40]	_	_	_	_	_	
+56-26	4833-4836	och	*[40]	_	_	_	_	_	
+56-27	4837-4845	kvalitet	*[40]	_	_	_	_	_	
+56-28	4846-4849	för	*[40]	_	_	_	_	_	
+56-29	4850-4859	bedömning	*[40]	_	_	_	_	_	
+56-30	4860-4863	och	*[40]	_	_	_	_	_	
+56-31	4864-4874	behandling	*[40]	_	_	_	_	_	
+56-32	4874-4875	/	*[40]	_	_	_	_	_	
+56-33	4875-4879	vård	*[40]	_	_	_	_	_	
+56-34	4879-4880	/	*[40]	_	_	_	_	_	
+56-35	4880-4886	omsorg	*[40]	_	_	_	_	_	
+56-36	4887-4889	om	*[40]	_	_	_	_	_	
+56-37	4890-4895	äldre	*[40]	_	_	_	_	_	
+56-38	4896-4904	personer	*[40]	_	_	_	_	_	
+56-39	4905-4908	med	*[40]	_	_	_	_	_	
+56-40	4909-4917	komplexa	*[40]	_	_	_	_	_	
+56-41	4918-4930	hälsoproblem	*[40]	_	_	_	_	_	
+56-42	4930-4931	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+57-1	4933-4934	#	_	_	_	_	_	_	
+57-2	4934-4935	P	_	_	_	_	_	_	
+57-3	4936-4939	IMM	_	_	_	_	_	_	
+57-4	4939-4940	.	_	_	_	_	_	_	
+
+#Text=Satsningen på geriatrik bör inkludera geriatriska centra med uppdrag att utveckla arbetsmetoder inom vård/omsorg, utbildning och forskning, med särskild inriktning på primärvård och hemsjukvård, i nära samarbete med akutvården.
+58-1	4942-4952	Satsningen	_	_	_	_	_	_	
+58-2	4953-4955	på	_	_	_	_	_	_	
+58-3	4956-4965	geriatrik	_	_	_	_	_	_	
+58-4	4966-4969	bör	_	_	_	_	_	_	
+58-5	4970-4979	inkludera	_	_	_	_	_	_	
+58-6	4980-4991	geriatriska	_	_	_	_	_	_	
+58-7	4992-4998	centra	_	_	_	_	_	_	
+58-8	4999-5002	med	_	_	_	_	_	_	
+58-9	5003-5010	uppdrag	_	_	_	_	_	_	
+58-10	5011-5014	att	_	_	_	_	_	_	
+58-11	5015-5023	utveckla	_	_	_	_	_	_	
+58-12	5024-5037	arbetsmetoder	_	_	_	_	_	_	
+58-13	5038-5042	inom	_	_	_	_	_	_	
+58-14	5043-5047	vård	_	_	_	_	_	_	
+58-15	5047-5048	/	_	_	_	_	_	_	
+58-16	5048-5054	omsorg	_	_	_	_	_	_	
+58-17	5054-5055	,	_	_	_	_	_	_	
+58-18	5056-5066	utbildning	_	_	_	_	_	_	
+58-19	5067-5070	och	_	_	_	_	_	_	
+58-20	5071-5080	forskning	_	_	_	_	_	_	
+58-21	5080-5081	,	_	_	_	_	_	_	
+58-22	5082-5085	med	_	_	_	_	_	_	
+58-23	5086-5094	särskild	_	_	_	_	_	_	
+58-24	5095-5105	inriktning	_	_	_	_	_	_	
+58-25	5106-5108	på	_	_	_	_	_	_	
+58-26	5109-5119	primärvård	_	_	_	_	_	_	
+58-27	5120-5123	och	_	_	_	_	_	_	
+58-28	5124-5135	hemsjukvård	_	_	_	_	_	_	
+58-29	5135-5136	,	_	_	_	_	_	_	
+58-30	5137-5138	i	_	_	_	_	_	_	
+58-31	5139-5143	nära	_	_	_	_	_	_	
+58-32	5144-5153	samarbete	_	_	_	_	_	_	
+58-33	5154-5157	med	_	_	_	_	_	_	
+58-34	5158-5168	akutvården	_	_	_	_	_	_	
+58-35	5168-5169	.	_	_	_	_	_	_	
+
+#Text=Fokus bör ligga på integration mellan handläggning av riskfaktorer (prevention) och aktuella manifesta sjukdomar och skador hos enskilda äldre personer.
+59-1	5170-5175	Fokus	_	Target[18]	59-5[41]	false[18]	4[18]	_	
+59-2	5176-5179	bör	_	Target[18]	59-5[41]	false[18]	4[18]	_	
+59-3	5180-5185	ligga	_	Target[18]	59-5[41]	false[18]	4[18]	_	
+59-4	5186-5188	på	_	Target[18]	59-5[41]	false[18]	4[18]	_	
+59-5	5189-5200	integration	*[41]	_	_	_	_	_	
+59-6	5201-5207	mellan	*[41]	_	_	_	_	_	
+59-7	5208-5220	handläggning	*[41]	_	_	_	_	_	
+59-8	5221-5223	av	*[41]	_	_	_	_	_	
+59-9	5224-5236	riskfaktorer	*[41]	_	_	_	_	_	
+59-10	5237-5238	(	*[41]	_	_	_	_	_	
+59-11	5238-5248	prevention	*[41]	_	_	_	_	_	
+59-12	5248-5249	)	*[41]	_	_	_	_	_	
+59-13	5250-5253	och	*[41]	_	_	_	_	_	
+59-14	5254-5262	aktuella	*[41]	_	_	_	_	_	
+59-15	5263-5272	manifesta	*[41]	_	_	_	_	_	
+59-16	5273-5282	sjukdomar	*[41]	_	_	_	_	_	
+59-17	5283-5286	och	*[41]	_	_	_	_	_	
+59-18	5287-5293	skador	*[41]	_	_	_	_	_	
+59-19	5294-5297	hos	*[41]	_	_	_	_	_	
+59-20	5298-5306	enskilda	*[41]	_	_	_	_	_	
+59-21	5307-5312	äldre	*[41]	_	_	_	_	_	
+59-22	5313-5321	personer	*[41]	_	_	_	_	_	
+59-23	5321-5322	.	*[41]	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	5324-5325	#	_	_	_	_	_	_	
+60-2	5325-5326	P	_	_	_	_	_	_	
+60-3	5327-5330	IMM	_	_	_	_	_	_	
+60-4	5330-5331	.	_	_	_	_	_	_	
+
+#Text=En sådan utveckling skulle bidra till ökat intresse, respekt och yrkesstolthet och därigenom till en nödvändig ökning av rekryteringen av läkare och vårdpersonal till verksamhetsområdet geriatrik, vilket är en förutsättning för ökad kvalitet inom äldrevården/omsorgen.
+61-1	5333-5335	En	*[42]	_	_	_	_	_	
+61-2	5336-5341	sådan	*[42]	_	_	_	_	_	
+61-3	5342-5352	utveckling	*[42]	_	_	_	_	_	
+61-4	5353-5359	skulle	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-5	5360-5365	bidra	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-6	5366-5370	till	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-7	5371-5375	ökat	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-8	5376-5384	intresse	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-9	5384-5385	,	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-10	5386-5393	respekt	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-11	5394-5397	och	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-12	5398-5411	yrkesstolthet	_	Target[19]	61-1[42]	false[19]	4[19]	_	
+61-13	5412-5415	och	_	_	_	_	_	_	
+61-14	5416-5425	därigenom	_	_	_	_	_	_	
+61-15	5426-5430	till	_	_	_	_	_	_	
+61-16	5431-5433	en	_	_	_	_	_	_	
+61-17	5434-5443	nödvändig	_	Target	61-18[43]	false	4	_	
+61-18	5444-5450	ökning	*[43]	_	_	_	_	_	
+61-19	5451-5453	av	*[43]	_	_	_	_	_	
+61-20	5454-5467	rekryteringen	*[43]	_	_	_	_	_	
+61-21	5468-5470	av	*[43]	_	_	_	_	_	
+61-22	5471-5477	läkare	*[43]	_	_	_	_	_	
+61-23	5478-5481	och	*[43]	_	_	_	_	_	
+61-24	5482-5494	vårdpersonal	*[43]	_	_	_	_	_	
+61-25	5495-5499	till	*[43]	_	_	_	_	_	
+61-26	5500-5518	verksamhetsområdet	*[43]	_	_	_	_	_	
+61-27	5519-5528	geriatrik	*[43]	_	_	_	_	_	
+61-28	5528-5529	,	_	_	_	_	_	_	
+61-29	5530-5536	vilket	_	_	_	_	_	_	
+61-30	5537-5539	är	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-31	5540-5542	en	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-32	5543-5556	förutsättning	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-33	5557-5560	för	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-34	5561-5565	ökad	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-35	5566-5574	kvalitet	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-36	5575-5579	inom	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-37	5580-5591	äldrevården	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-38	5591-5592	/	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-39	5592-5600	omsorgen	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+61-40	5600-5601	.	_	Target[20]	61-18[43]	false[20]	4[20]	_	
+
+#Text=#P IMM.
+62-1	5603-5604	#	_	_	_	_	_	_	
+62-2	5604-5605	P	_	_	_	_	_	_	
+62-3	5606-5609	IMM	_	_	_	_	_	_	
+62-4	5609-5610	.	_	_	_	_	_	_	
+
+#Text=GUNNAR AKNER.
+63-1	5612-5618	GUNNAR	_	_	_	_	_	_	
+63-2	5619-5624	AKNER	_	_	_	_	_	_	
+63-3	5624-5625	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+64-1	5627-5628	#	_	_	_	_	_	_	
+64-2	5628-5629	P	_	_	_	_	_	_	
+64-3	5630-5633	IMM	_	_	_	_	_	_	
+64-4	5633-5634	.	_	_	_	_	_	_	
+
+#Text=professor i geriatrik, överläkare, Örebro universitet.
+65-1	5636-5645	professor	_	_	_	_	_	_	
+65-2	5646-5647	i	_	_	_	_	_	_	
+65-3	5648-5657	geriatrik	_	_	_	_	_	_	
+65-4	5657-5658	,	_	_	_	_	_	_	
+65-5	5659-5669	överläkare	_	_	_	_	_	_	
+65-6	5669-5670	,	_	_	_	_	_	_	
+65-7	5671-5677	Örebro	_	_	_	_	_	_	
+65-8	5678-5689	universitet	_	_	_	_	_	_	
+65-9	5689-5690	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+66-1	5692-5693	#	_	_	_	_	_	_	
+66-2	5693-5694	P	_	_	_	_	_	_	
+66-3	5695-5698	IMM	_	_	_	_	_	_	
+66-4	5698-5699	.	_	_	_	_	_	_	
+
+#Text=YNGVE GUSTAFSON.
+67-1	5701-5706	YNGVE	_	_	_	_	_	_	
+67-2	5707-5716	GUSTAFSON	_	_	_	_	_	_	
+67-3	5716-5717	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+68-1	5719-5720	#	_	_	_	_	_	_	
+68-2	5720-5721	P	_	_	_	_	_	_	
+68-3	5722-5725	IMM	_	_	_	_	_	_	
+68-4	5725-5726	.	_	_	_	_	_	_	
+
+#Text=professor i geriatrik, överläkare, Umeå universitet.
+69-1	5728-5737	professor	_	_	_	_	_	_	
+69-2	5738-5739	i	_	_	_	_	_	_	
+69-3	5740-5749	geriatrik	_	_	_	_	_	_	
+69-4	5749-5750	,	_	_	_	_	_	_	
+69-5	5751-5761	överläkare	_	_	_	_	_	_	
+69-6	5761-5762	,	_	_	_	_	_	_	
+69-7	5763-5767	Umeå	_	_	_	_	_	_	
+69-8	5768-5779	universitet	_	_	_	_	_	_	
+69-9	5779-5780	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+70-1	5782-5783	#	_	_	_	_	_	_	
+70-2	5783-5784	P	_	_	_	_	_	_	
+70-3	5785-5788	IMM	_	_	_	_	_	_	
+70-4	5788-5789	.	_	_	_	_	_	_	
+
+#Text=ÅKE RUNDGREN.
+71-1	5791-5794	ÅKE	_	_	_	_	_	_	
+71-2	5795-5803	RUNDGREN	_	_	_	_	_	_	
+71-3	5803-5804	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+72-1	5806-5807	#	_	_	_	_	_	_	
+72-2	5807-5808	P	_	_	_	_	_	_	
+72-3	5809-5812	IMM	_	_	_	_	_	_	
+72-4	5812-5813	.	_	_	_	_	_	_	
+
+#Text=t f professor i geriatrik, överläkare, Göteborgs universitet.
+73-1	5815-5816	t	_	_	_	_	_	_	
+73-2	5817-5818	f	_	_	_	_	_	_	
+73-3	5819-5828	professor	_	_	_	_	_	_	
+73-4	5829-5830	i	_	_	_	_	_	_	
+73-5	5831-5840	geriatrik	_	_	_	_	_	_	
+73-6	5840-5841	,	_	_	_	_	_	_	
+73-7	5842-5852	överläkare	_	_	_	_	_	_	
+73-8	5852-5853	,	_	_	_	_	_	_	
+73-9	5854-5863	Göteborgs	_	_	_	_	_	_	
+73-10	5864-5875	universitet	_	_	_	_	_	_	
+73-11	5875-5876	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+74-1	5878-5879	#	_	_	_	_	_	_	
+74-2	5879-5880	P	_	_	_	_	_	_	
+74-3	5881-5884	IMM	_	_	_	_	_	_	
+74-4	5884-5885	.	_	_	_	_	_	_	
+
+#Text=BARBRO BECK-FRIIS.
+75-1	5887-5893	BARBRO	_	_	_	_	_	_	
+75-2	5894-5904	BECK-FRIIS	_	_	_	_	_	_	
+75-3	5904-5905	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+76-1	5907-5908	#	_	_	_	_	_	_	
+76-2	5908-5909	P	_	_	_	_	_	_	
+76-3	5910-5913	IMM	_	_	_	_	_	_	
+76-4	5913-5914	.	_	_	_	_	_	_	
+
+#Text=professor emerita i geriatrik, Borensberg.
+77-1	5916-5925	professor	_	_	_	_	_	_	
+77-2	5926-5933	emerita	_	_	_	_	_	_	
+77-3	5934-5935	i	_	_	_	_	_	_	
+77-4	5936-5945	geriatrik	_	_	_	_	_	_	
+77-5	5945-5946	,	_	_	_	_	_	_	
+77-6	5947-5957	Borensberg	_	_	_	_	_	_	
+77-7	5957-5958	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+78-1	5960-5961	#	_	_	_	_	_	_	
+78-2	5961-5962	P	_	_	_	_	_	_	
+78-3	5963-5966	IMM	_	_	_	_	_	_	
+78-4	5966-5967	.	_	_	_	_	_	_	
+
+#Text=LENNART LEVI.
+79-1	5969-5976	LENNART	_	_	_	_	_	_	
+79-2	5977-5981	LEVI	_	_	_	_	_	_	
+79-3	5981-5982	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+80-1	5984-5985	#	_	_	_	_	_	_	
+80-2	5985-5986	P	_	_	_	_	_	_	
+80-3	5987-5990	IMM	_	_	_	_	_	_	
+80-4	5990-5991	.	_	_	_	_	_	_	
+
+#Text=professor emeritus i psykosocial miljömedicin vid Karolinska institutet, riksdagsledamot 2006–2010.
+81-1	5993-6002	professor	_	_	_	_	_	_	
+81-2	6003-6011	emeritus	_	_	_	_	_	_	
+81-3	6012-6013	i	_	_	_	_	_	_	
+81-4	6014-6025	psykosocial	_	_	_	_	_	_	
+81-5	6026-6038	miljömedicin	_	_	_	_	_	_	
+81-6	6039-6042	vid	_	_	_	_	_	_	
+81-7	6043-6053	Karolinska	_	_	_	_	_	_	
+81-8	6054-6064	institutet	_	_	_	_	_	_	
+81-9	6064-6065	,	_	_	_	_	_	_	
+81-10	6066-6081	riksdagsledamot	_	_	_	_	_	_	
+81-11	6082-6086	2006	_	_	_	_	_	_	
+81-12	6086-6087	–	_	_	_	_	_	_	
+81-13	6087-6091	2010	_	_	_	_	_	_	
+81-14	6091-6092	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+82-1	6094-6095	#	_	_	_	_	_	_	
+82-2	6095-6096	P	_	_	_	_	_	_	
+82-3	6097-6100	IMM	_	_	_	_	_	_	
+82-4	6100-6101	.	_	_	_	_	_	_	
+
+#Text=BARBRO WESTERHOLM.
+83-1	6103-6109	BARBRO	_	_	_	_	_	_	
+83-2	6110-6120	WESTERHOLM	_	_	_	_	_	_	
+83-3	6120-6121	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+84-1	6123-6124	#	_	_	_	_	_	_	
+84-2	6124-6125	P	_	_	_	_	_	_	
+84-3	6126-6129	IMM	_	_	_	_	_	_	
+84-4	6129-6130	.	_	_	_	_	_	_	
+
+#Text=professor i läkemedelsepidemiologi, riksdagsledamot.
+85-1	6132-6141	professor	_	_	_	_	_	_	
+85-2	6142-6143	i	_	_	_	_	_	_	
+85-3	6144-6166	läkemedelsepidemiologi	_	_	_	_	_	_	
+85-4	6166-6167	,	_	_	_	_	_	_	
+85-5	6168-6183	riksdagsledamot	_	_	_	_	_	_	
+85-6	6183-6184	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+86-1	6186-6187	#	_	_	_	_	_	_	
+86-2	6187-6188	P	_	_	_	_	_	_	
+86-3	6189-6192	IMM	_	_	_	_	_	_	
+86-4	6192-6193	.	_	_	_	_	_	_	
+
+#Text=Geriatrik är kunskapsområdt angående hälsoproblem i samband med åldrandet.
+87-1	6195-6204	Geriatrik	_	_	_	_	_	_	
+87-2	6205-6207	är	_	_	_	_	_	_	
+87-3	6208-6222	kunskapsområdt	_	_	_	_	_	_	
+87-4	6223-6231	angående	_	_	_	_	_	_	
+87-5	6232-6244	hälsoproblem	_	_	_	_	_	_	
+87-6	6245-6246	i	_	_	_	_	_	_	
+87-7	6247-6254	samband	_	_	_	_	_	_	
+87-8	6255-6258	med	_	_	_	_	_	_	
+87-9	6259-6268	åldrandet	_	_	_	_	_	_	
+87-10	6268-6269	.	_	_	_	_	_	_	
+
+#Text=I yngre år dominerar handläggning av riskfaktorer.
+88-1	6270-6271	I	_	_	_	_	_	_	
+88-2	6272-6277	yngre	_	_	_	_	_	_	
+88-3	6278-6280	år	_	_	_	_	_	_	
+88-4	6281-6290	dominerar	_	_	_	_	_	_	
+88-5	6291-6303	handläggning	_	_	_	_	_	_	
+88-6	6304-6306	av	_	_	_	_	_	_	
+88-7	6307-6319	riskfaktorer	_	_	_	_	_	_	
+88-8	6319-6320	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+89-1	6322-6323	#	_	_	_	_	_	_	
+89-2	6323-6324	P	_	_	_	_	_	_	
+89-3	6325-6328	IMM	_	_	_	_	_	_	
+89-4	6328-6329	.	_	_	_	_	_	_	
+
+#Text=Eftersom tilltagande ålder är den starkaste av alla riskfaktorer kommer äldre personer att drabbas av allt fler manifesta hälsoproblem, vilka måste handläggas parallellt med aktuella riskfaktorer utifrån den enskilda äldre personens situation, önskemål/motivation och prognos.
+90-1	6331-6339	Eftersom	_	_	_	_	_	_	
+90-2	6340-6351	tilltagande	_	_	_	_	_	_	
+90-3	6352-6357	ålder	_	_	_	_	_	_	
+90-4	6358-6360	är	_	_	_	_	_	_	
+90-5	6361-6364	den	_	_	_	_	_	_	
+90-6	6365-6374	starkaste	_	_	_	_	_	_	
+90-7	6375-6377	av	_	_	_	_	_	_	
+90-8	6378-6382	alla	_	_	_	_	_	_	
+90-9	6383-6395	riskfaktorer	_	_	_	_	_	_	
+90-10	6396-6402	kommer	_	_	_	_	_	_	
+90-11	6403-6408	äldre	_	_	_	_	_	_	
+90-12	6409-6417	personer	_	_	_	_	_	_	
+90-13	6418-6421	att	_	_	_	_	_	_	
+90-14	6422-6429	drabbas	_	_	_	_	_	_	
+90-15	6430-6432	av	_	_	_	_	_	_	
+90-16	6433-6437	allt	_	_	_	_	_	_	
+90-17	6438-6442	fler	_	_	_	_	_	_	
+90-18	6443-6452	manifesta	_	_	_	_	_	_	
+90-19	6453-6465	hälsoproblem	_	_	_	_	_	_	
+90-20	6465-6466	,	_	_	_	_	_	_	
+90-21	6467-6472	vilka	_	_	_	_	_	_	
+90-22	6473-6478	måste	_	_	_	_	_	_	
+90-23	6479-6489	handläggas	_	_	_	_	_	_	
+90-24	6490-6500	parallellt	_	_	_	_	_	_	
+90-25	6501-6504	med	_	_	_	_	_	_	
+90-26	6505-6513	aktuella	_	_	_	_	_	_	
+90-27	6514-6526	riskfaktorer	_	_	_	_	_	_	
+90-28	6527-6534	utifrån	_	_	_	_	_	_	
+90-29	6535-6538	den	_	_	_	_	_	_	
+90-30	6539-6547	enskilda	_	_	_	_	_	_	
+90-31	6548-6553	äldre	_	_	_	_	_	_	
+90-32	6554-6563	personens	_	_	_	_	_	_	
+90-33	6564-6573	situation	_	_	_	_	_	_	
+90-34	6573-6574	,	_	_	_	_	_	_	
+90-35	6575-6583	önskemål	_	_	_	_	_	_	
+90-36	6583-6584	/	_	_	_	_	_	_	
+90-37	6584-6594	motivation	_	_	_	_	_	_	
+90-38	6595-6598	och	_	_	_	_	_	_	
+90-39	6599-6606	prognos	_	_	_	_	_	_	
+90-40	6606-6607	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+91-1	6609-6610	#	_	_	_	_	_	_	
+91-2	6610-6611	P	_	_	_	_	_	_	
+91-3	6612-6615	IMM	_	_	_	_	_	_	
+91-4	6615-6616	.	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+92-1	6618-6626	Redaktör	_	_	_	_	_	_	
+92-2	6626-6627	:	_	_	_	_	_	_	
+92-3	6628-6634	Carina	_	_	_	_	_	_	
+92-4	6635-6643	Stensson	_	_	_	_	_	_	
+92-5	6643-6644	,	_	_	_	_	_	_	
+92-6	6645-6655	Biträdande	_	_	_	_	_	_	
+92-7	6656-6664	redaktör	_	_	_	_	_	_	
+92-8	6664-6665	:	_	_	_	_	_	_	
+92-9	6666-6671	Björn	_	_	_	_	_	_	
+92-10	6672-6678	Jorner	_	_	_	_	_	_	
+92-11	6678-6679	,	_	_	_	_	_	_	
+92-12	6680-6684	Mejl	_	_	_	_	_	_	
+92-13	6684-6685	:	_	_	_	_	_	_	
+92-14	6686-6692	debatt	_	_	_	_	_	_	
+92-15	6692-6693	@	_	_	_	_	_	_	
+92-16	6693-6699	svd.se	_	_	_	_	_	_	
+92-17	6699-6700	,	_	_	_	_	_	_	
+92-18	6701-6714	Telefonnummer	_	_	_	_	_	_	
+92-19	6714-6715	:	_	_	_	_	_	_	
+92-20	6716-6718	08	_	_	_	_	_	_	
+92-21	6718-6719	-	_	_	_	_	_	_	
+92-22	6719-6725	135149	_	_	_	_	_	_	
+92-23	6725-6726	,	_	_	_	_	_	_	
+92-24	6727-6734	Twitter	_	_	_	_	_	_	
+92-25	6734-6735	:	_	_	_	_	_	_	
+92-26	6736-6737	@	_	_	_	_	_	_	
+92-27	6737-6746	SvDDebatt	_	_	_	_	_	_	
+92-28	6746-6747	,	_	_	_	_	_	_	
+92-29	6748-6756	Facebook	_	_	_	_	_	_	
+92-30	6756-6757	:	_	_	_	_	_	_	
+92-31	6758-6761	SvD	_	_	_	_	_	_	
+92-32	6762-6768	Debatt	_	_	_	_	_	_	
+92-33	6768-6769	.	_	_	_	_	_	_	

@@ -1,0 +1,287 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	
+
+#Text=Allt krisar samtidigt.
+3-1	18-22	Allt	*	_	_	_	_	_	
+3-2	23-29	krisar	_	Target	3-1	false	2	_	
+3-3	30-39	samtidigt	_	_	_	_	_	_	
+3-4	39-40	.	_	_	_	_	_	_	
+
+#Text=Befinner vi oss mitt i det svenska samhällets undergång?
+4-1	41-49	Befinner	_	_	_	_	_	_	
+4-2	50-52	vi	_	_	_	_	_	_	
+4-3	53-56	oss	_	_	_	_	_	_	
+4-4	57-61	mitt	_	_	_	_	_	_	
+4-5	62-63	i	_	_	_	_	_	_	
+4-6	64-67	det	_	_	_	_	_	_	
+4-7	68-75	svenska	_	_	_	_	_	_	
+4-8	76-86	samhällets	_	_	_	_	_	_	
+4-9	87-96	undergång	_	_	_	_	_	_	
+4-10	96-97	?	_	_	_	_	_	_	
+
+#Text=#P IMM.
+5-1	99-100	#	_	_	_	_	_	_	
+5-2	100-101	P	_	_	_	_	_	_	
+5-3	102-105	IMM	_	_	_	_	_	_	
+5-4	105-106	.	_	_	_	_	_	_	
+
+#Text=Var man än riktar blicken i det svenska samhället möts man av akut kris.
+6-1	108-111	Var	_	_	_	_	_	_	
+6-2	112-115	man	_	_	_	_	_	_	
+6-3	116-118	än	_	_	_	_	_	_	
+6-4	119-125	riktar	_	_	_	_	_	_	
+6-5	126-133	blicken	_	_	_	_	_	_	
+6-6	134-135	i	_	_	_	_	_	_	
+6-7	136-139	det	_	_	_	_	_	_	
+6-8	140-147	svenska	_	_	_	_	_	_	
+6-9	148-157	samhället	_	_	_	_	_	_	
+6-10	158-162	möts	_	_	_	_	_	_	
+6-11	163-166	man	_	_	_	_	_	_	
+6-12	167-169	av	_	_	_	_	_	_	
+6-13	170-174	akut	_	Target[1]	6-14	false[1]	1[1]	_	
+6-14	175-179	kris	*	Target[1]	6-14	false[1]	1[1]	_	
+6-15	179-180	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+7-1	182-183	#	_	_	_	_	_	_	
+7-2	183-184	P	_	_	_	_	_	_	
+7-3	185-188	IMM	_	_	_	_	_	_	
+
+#Text=.
+8-1	188-189	.	_	_	_	_	_	_	
+
+#Text=- landet är fullt, kåkstäder byggs, bostadsmarknaden är överhettad.
+9-1	191-192	-	_	_	_	_	_	_	
+9-2	193-199	landet	_	_	_	_	_	_	
+9-3	200-202	är	_	_	_	_	_	_	
+9-4	203-208	fullt	_	_	_	_	_	_	
+9-5	208-209	,	_	_	_	_	_	_	
+9-6	210-219	kåkstäder	_	_	_	_	_	_	
+9-7	220-225	byggs	_	_	_	_	_	_	
+9-8	225-226	,	_	_	_	_	_	_	
+9-9	227-243	bostadsmarknaden	*	_	_	_	_	_	
+9-10	244-246	är	_	Target[2]	9-9	false[2]	2[2]	_	
+9-11	247-257	överhettad	_	Target[2]	9-9	false[2]	2[2]	_	
+9-12	257-258	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+10-1	260-261	#	_	_	_	_	_	_	
+10-2	261-262	P	_	_	_	_	_	_	
+10-3	263-266	IMM	_	_	_	_	_	_	
+
+#Text=.
+11-1	266-267	.	_	_	_	_	_	_	
+
+#Text=- stora grupper i permanent arbetslöshet, arbetsförmedlingen mäktar inte med.
+12-1	269-270	-	_	_	_	_	_	_	
+12-2	271-276	stora	_	_	_	_	_	_	
+12-3	277-284	grupper	_	_	_	_	_	_	
+12-4	285-286	i	_	_	_	_	_	_	
+12-5	287-296	permanent	_	_	_	_	_	_	
+12-6	297-309	arbetslöshet	_	_	_	_	_	_	
+12-7	309-310	,	_	_	_	_	_	_	
+12-8	311-329	arbetsförmedlingen	_	_	_	_	_	_	
+12-9	330-336	mäktar	_	_	_	_	_	_	
+12-10	337-341	inte	_	_	_	_	_	_	
+12-11	342-345	med	_	_	_	_	_	_	
+12-12	345-346	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+13-1	348-349	#	_	_	_	_	_	_	
+13-2	349-350	P	_	_	_	_	_	_	
+13-3	351-354	IMM	_	_	_	_	_	_	
+
+#Text=.
+14-1	354-355	.	_	_	_	_	_	_	
+
+#Text=- personalen flyr, PISA störtdyker, skolor får stänga pga kaos.
+15-1	357-358	-	_	_	_	_	_	_	
+15-2	359-369	personalen	_	_	_	_	_	_	
+15-3	370-374	flyr	_	_	_	_	_	_	
+15-4	374-375	,	_	_	_	_	_	_	
+15-5	376-380	PISA	_	_	_	_	_	_	
+15-6	381-391	störtdyker	_	_	_	_	_	_	
+15-7	391-392	,	_	_	_	_	_	_	
+15-8	393-399	skolor	_	_	_	_	_	_	
+15-9	400-403	får	_	_	_	_	_	_	
+15-10	404-410	stänga	_	_	_	_	_	_	
+15-11	411-414	pga	_	_	_	_	_	_	
+15-12	415-419	kaos	*	Target	15-12	false	2	_	
+15-13	419-420	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+16-1	422-423	#	_	_	_	_	_	_	
+16-2	423-424	P	_	_	_	_	_	_	
+16-3	425-428	IMM	_	_	_	_	_	_	
+
+#Text=.
+17-1	428-429	.	_	_	_	_	_	_	
+
+#Text=- personalen flyr, grova brott som att barn säljs som sexslavar utreds inte.
+18-1	431-432	-	_	_	_	_	_	_	
+18-2	433-443	personalen	_	_	_	_	_	_	
+18-3	444-448	flyr	_	_	_	_	_	_	
+18-4	448-449	,	_	_	_	_	_	_	
+18-5	450-455	grova	_	_	_	_	_	_	
+18-6	456-461	brott	_	_	_	_	_	_	
+18-7	462-465	som	_	_	_	_	_	_	
+18-8	466-469	att	_	_	_	_	_	_	
+18-9	470-474	barn	_	_	_	_	_	_	
+18-10	475-480	säljs	_	_	_	_	_	_	
+18-11	481-484	som	_	_	_	_	_	_	
+18-12	485-494	sexslavar	_	_	_	_	_	_	
+18-13	495-501	utreds	_	_	_	_	_	_	
+18-14	502-506	inte	_	_	_	_	_	_	
+18-15	506-507	.	_	_	_	_	_	_	
+
+#Text=#P IMM
+19-1	509-510	#	_	_	_	_	_	_	
+19-2	510-511	P	_	_	_	_	_	_	
+19-3	512-515	IMM	_	_	_	_	_	_	
+
+#Text=.
+20-1	515-516	.	_	_	_	_	_	_	
+
+#Text=- personalen flyr, cancer och strokepatienter lämnas åt sitt öde.
+21-1	518-519	-	_	_	_	_	_	_	
+21-2	520-530	personalen	_	_	_	_	_	_	
+21-3	531-535	flyr	_	_	_	_	_	_	
+21-4	535-536	,	_	_	_	_	_	_	
+21-5	537-543	cancer	_	_	_	_	_	_	
+21-6	544-547	och	_	_	_	_	_	_	
+21-7	548-563	strokepatienter	_	_	_	_	_	_	
+21-8	564-570	lämnas	_	_	_	_	_	_	
+21-9	571-573	åt	_	_	_	_	_	_	
+21-10	574-578	sitt	_	_	_	_	_	_	
+21-11	579-582	öde	_	_	_	_	_	_	
+21-12	582-583	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	585-586	#	_	_	_	_	_	_	
+22-2	586-587	P	_	_	_	_	_	_	
+22-3	588-591	IMM	_	_	_	_	_	_	
+22-4	591-592	.	_	_	_	_	_	_	
+
+#Text=Frågeställningar:.
+23-1	594-610	Frågeställningar	_	_	_	_	_	_	
+23-2	610-611	:	_	_	_	_	_	_	
+23-3	611-612	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	614-615	#	_	_	_	_	_	_	
+24-2	615-616	P	_	_	_	_	_	_	
+24-3	617-620	IMM	_	_	_	_	_	_	
+24-4	620-621	.	_	_	_	_	_	_	
+
+#Text=Har vi någonsin haft kris i landets samtliga grundfunktioner samtidigt i modern tid?.
+25-1	623-626	Har	_	_	_	_	_	_	
+25-2	627-629	vi	_	_	_	_	_	_	
+25-3	630-638	någonsin	_	_	_	_	_	_	
+25-4	639-643	haft	_	_	_	_	_	_	
+25-5	644-648	kris	*	Target	25-5	false	2	_	
+25-6	649-650	i	_	_	_	_	_	_	
+25-7	651-658	landets	_	_	_	_	_	_	
+25-8	659-667	samtliga	_	_	_	_	_	_	
+25-9	668-683	grundfunktioner	_	_	_	_	_	_	
+25-10	684-693	samtidigt	_	_	_	_	_	_	
+25-11	694-695	i	_	_	_	_	_	_	
+25-12	696-702	modern	_	_	_	_	_	_	
+25-13	703-706	tid	_	_	_	_	_	_	
+25-14	706-707	?	_	_	_	_	_	_	
+25-15	707-708	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	710-711	#	_	_	_	_	_	_	
+26-2	711-712	P	_	_	_	_	_	_	
+26-3	713-716	IMM	_	_	_	_	_	_	
+26-4	716-717	.	_	_	_	_	_	_	
+
+#Text=Finns det någon trovärdig politisk plan för hur någon av kriserna ovan kan lösas inom det närmsta årtiondet?.
+27-1	719-724	Finns	_	_	_	_	_	_	
+27-2	725-728	det	_	_	_	_	_	_	
+27-3	729-734	någon	_	_	_	_	_	_	
+27-4	735-744	trovärdig	_	_	_	_	_	_	
+27-5	745-753	politisk	_	_	_	_	_	_	
+27-6	754-758	plan	_	_	_	_	_	_	
+27-7	759-762	för	_	_	_	_	_	_	
+27-8	763-766	hur	_	_	_	_	_	_	
+27-9	767-772	någon	_	_	_	_	_	_	
+27-10	773-775	av	_	_	_	_	_	_	
+27-11	776-784	kriserna	_	_	_	_	_	_	
+27-12	785-789	ovan	_	_	_	_	_	_	
+27-13	790-793	kan	_	_	_	_	_	_	
+27-14	794-799	lösas	_	_	_	_	_	_	
+27-15	800-804	inom	_	_	_	_	_	_	
+27-16	805-808	det	_	_	_	_	_	_	
+27-17	809-816	närmsta	_	_	_	_	_	_	
+27-18	817-826	årtiondet	_	_	_	_	_	_	
+27-19	826-827	?	_	_	_	_	_	_	
+27-20	827-828	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+28-1	830-831	#	_	_	_	_	_	_	
+28-2	831-832	P	_	_	_	_	_	_	
+28-3	833-836	IMM	_	_	_	_	_	_	
+28-4	836-837	.	_	_	_	_	_	_	
+
+#Text=Hur kommer det sig att ett rikt och historiskt välfungerande land som Sverige har hamnat här?.
+29-1	839-842	Hur	_	_	_	_	_	_	
+29-2	843-849	kommer	_	_	_	_	_	_	
+29-3	850-853	det	_	_	_	_	_	_	
+29-4	854-857	sig	_	_	_	_	_	_	
+29-5	858-861	att	_	_	_	_	_	_	
+29-6	862-865	ett	_	_	_	_	_	_	
+29-7	866-870	rikt	_	Target[3]	29-11	false[3]	4[3]	_	
+29-8	871-874	och	_	Target[3]	29-11	false[3]	4[3]	_	
+29-9	875-885	historiskt	_	Target[3]	29-11	false[3]	4[3]	_	
+29-10	886-899	välfungerande	_	Target[3]	29-11	false[3]	4[3]	_	
+29-11	900-904	land	*	_	_	_	_	_	
+29-12	905-908	som	_	_	_	_	_	_	
+29-13	909-916	Sverige	_	_	_	_	_	_	
+29-14	917-920	har	_	_	_	_	_	_	
+29-15	921-927	hamnat	_	_	_	_	_	_	
+29-16	928-931	här	_	_	_	_	_	_	
+29-17	931-932	?	_	_	_	_	_	_	
+29-18	932-933	.	_	_	_	_	_	_	
+
+#Text=#P IMM.
+30-1	935-936	#	_	_	_	_	_	_	
+30-2	936-937	P	_	_	_	_	_	_	
+30-3	938-941	IMM	_	_	_	_	_	_	
+30-4	941-942	.	_	_	_	_	_	_	
+
+#Text=Verkar läget värre än det är?
+31-1	944-950	Verkar	_	_	_	_	_	_	
+31-2	951-956	läget	_	_	_	_	_	_	
+31-3	957-962	värre	_	_	_	_	_	_	
+31-4	963-965	än	_	_	_	_	_	_	
+31-5	966-969	det	_	_	_	_	_	_	
+31-6	970-972	är	_	_	_	_	_	_	
+31-7	972-973	?	_	_	_	_	_	_	
+
+#Text=Kanske är situationen inte så illa trots allt?.
+32-1	974-980	Kanske	_	_	_	_	_	_	
+32-2	981-983	är	_	_	_	false	4	32-4[4_0]	
+32-3	984-995	situationen	*	_	_	_	_	_	
+32-4	996-1000	inte	_	Target[4]	32-3	false[4]	4[4]	_	
+32-5	1001-1003	så	_	Target[4]	32-3	false[4]	4[4]	_	
+32-6	1004-1008	illa	_	Target[4]	32-3	false[4]	4[4]	_	
+32-7	1009-1014	trots	_	_	_	_	_	_	
+32-8	1015-1019	allt	_	_	_	_	_	_	
+32-9	1019-1020	?	_	_	_	_	_	_	
+32-10	1020-1021	.	_	_	_	_	_	_	

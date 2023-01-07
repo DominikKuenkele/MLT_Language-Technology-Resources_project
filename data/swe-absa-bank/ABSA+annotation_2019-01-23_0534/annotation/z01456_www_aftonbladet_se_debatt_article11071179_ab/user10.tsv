@@ -1,0 +1,878 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Slöjan – ett svek mot kvinnorna?
+3-1	18-24	Slöjan	*	_	_	_	_	_	_	
+3-2	25-26	–	_	_	_	_	_	_	_	
+3-3	27-30	ett	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-4	31-35	svek	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-5	36-39	mot	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-6	40-49	kvinnorna	_	Target[1]	3-1	false[1]	1[1]	_	_	
+3-7	49-50	?	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	52-53	#	_	_	_	_	_	_	_	
+4-2	53-54	P	_	_	_	_	_	_	_	
+4-3	55-58	IMM	_	_	_	_	_	_	_	
+4-4	58-59	.	_	_	_	_	_	_	_	
+
+#Text=I tidningarna läser vi att en bussförare i Malmö som nekat en kvinna med heltäckande slöja tillträde till bussen blir av med jobbet.
+5-1	61-62	I	_	_	_	_	_	_	_	
+5-2	63-74	tidningarna	_	_	_	_	_	_	_	
+5-3	75-80	läser	_	_	_	_	_	_	_	
+5-4	81-83	vi	_	_	_	_	_	_	_	
+5-5	84-87	att	_	_	_	_	_	_	_	
+5-6	88-90	en	*[25]	_	_	_	_	_	6-1[0_25]	
+5-7	91-101	bussförare	*[25]	_	_	_	_	_	_	
+5-8	102-103	i	*[25]	_	_	_	_	_	_	
+5-9	104-109	Malmö	*[25]	_	_	_	_	_	_	
+5-10	110-113	som	*[25]	_	_	_	_	_	_	
+5-11	114-119	nekat	*[25]	_	_	_	_	_	_	
+5-12	120-122	en	*[25]	_	_	_	_	_	_	
+5-13	123-129	kvinna	*[25]	_	_	_	_	_	_	
+5-14	130-133	med	*[25]	_	_	_	_	_	_	
+5-15	134-145	heltäckande	*[25]	_	_	_	_	_	_	
+5-16	146-151	slöja	*[25]	_	_	_	_	_	_	
+5-17	152-161	tillträde	*[25]	_	_	_	_	_	_	
+5-18	162-166	till	*[25]	_	_	_	_	_	_	
+5-19	167-173	bussen	*[25]	_	_	_	_	_	_	
+5-20	174-178	blir	_	_	_	_	_	_	_	
+5-21	179-181	av	_	_	_	_	_	_	_	
+5-22	182-185	med	_	_	_	_	_	_	_	
+5-23	186-192	jobbet	_	_	_	_	_	_	_	
+5-24	192-193	.	_	_	_	_	_	_	_	
+
+#Text=Han har diskriminerat kvinnan får vi veta.
+6-1	194-197	Han	*	_	_	_	_	_	_	
+6-2	198-201	har	_	Target;Source[2]	6-4;6-1	false[2]	1[2]	_	_	
+6-3	202-215	diskriminerat	_	Target;Source[2]	6-4;6-1	false[2]	1[2]	_	_	
+6-4	216-223	kvinnan	*	_	_	_	_	_	_	
+6-5	224-227	får	_	_	_	_	_	_	_	
+6-6	228-230	vi	_	_	_	_	_	_	_	
+6-7	231-235	veta	_	_	_	_	_	_	_	
+6-8	235-236	.	_	_	_	_	_	_	_	
+
+#Text=Föraren menar att slöjan gjorde honom illa till mods, att den försvårade identifiering och kontroll av färdbevis och att det råder maskeringsförbud på allmän plats.
+7-1	237-244	Föraren	*[26]|*[27]	_	_	_	_	_	_	
+7-2	245-250	menar	_	_	_	_	_	_	_	
+7-3	251-254	att	_	_	_	_	_	_	_	
+7-4	255-261	slöjan	*	Source	7-1[26]	false	1	_	_	
+7-5	262-268	gjorde	_	_[3]	_	false[3]	1[3]	_	_	
+7-6	269-274	honom	_	_[3]	_	false[3]	1[3]	_	_	
+7-7	275-279	illa	_	_[3]	_	false[3]	1[3]	_	_	
+7-8	280-284	till	_	_[3]	_	false[3]	1[3]	_	_	
+7-9	285-289	mods	_	_[3]	_	false[3]	1[3]	_	_	
+7-10	289-290	,	_	_	_	_	_	_	_	
+7-11	291-294	att	_	_	_	_	_	_	_	
+7-12	295-298	den	_	_	_	_	_	_	_	
+7-13	299-309	försvårade	_	Target;Source[4]	7-4;7-1[27]	false[4]	2[4]	_	_	
+7-14	310-323	identifiering	_	Target;Source[4]	7-4;7-1[27]	false[4]	2[4]	_	_	
+7-15	324-327	och	_	_	_	_	_	_	_	
+7-16	328-336	kontroll	_	_	_	_	_	_	_	
+7-17	337-339	av	_	_	_	_	_	_	_	
+7-18	340-349	färdbevis	_	_	_	_	_	_	_	
+7-19	350-353	och	_	_	_	_	_	_	_	
+7-20	354-357	att	_	_	_	_	_	_	_	
+7-21	358-361	det	_	_	_	_	_	_	_	
+7-22	362-367	råder	_	_	_	_	_	_	_	
+7-23	368-384	maskeringsförbud	_	_	_	_	_	_	_	
+7-24	385-387	på	_	_	_	_	_	_	_	
+7-25	388-394	allmän	_	_	_	_	_	_	_	
+7-26	395-400	plats	_	_	_	_	_	_	_	
+7-27	400-401	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+8-1	403-404	#	_	_	_	_	_	_	_	
+8-2	404-405	P	_	_	_	_	_	_	_	
+8-3	406-409	IMM	_	_	_	_	_	_	_	
+8-4	409-410	.	_	_	_	_	_	_	_	
+
+#Text=Historien reser ett antal frågor.
+9-1	412-421	Historien	_	_	_	_	_	_	_	
+9-2	422-427	reser	_	_	_	_	_	_	_	
+9-3	428-431	ett	_	_	_	_	_	_	_	
+9-4	432-437	antal	_	_	_	_	_	_	_	
+9-5	438-444	frågor	_	_	_	_	_	_	_	
+9-6	444-445	.	_	_	_	_	_	_	_	
+
+#Text=Vem diskriminerar kvinnan mer – den medborgare som inte vill befatta sig med vad han eller hon uppfattar som jämställdhetsundergrävande attribut och sedvänjor, eller det institutionella samhället som i religionsfrihetens namn sanktionerar samma attribut och sedvänjor?.
+10-1	446-449	Vem	*	_	_	_	_	_	_	
+10-2	450-463	diskriminerar	_	Target;Source	10-3;10-1	false	1	_	_	
+10-3	464-471	kvinnan	*	_	_	_	_	_	_	
+10-4	472-475	mer	_	_	_	_	_	_	_	
+10-5	476-477	–	_	_	_	_	_	_	_	
+10-6	478-481	den	*[28]	_	_	_	_	_	_	
+10-7	482-492	medborgare	*[28]	_	_	_	_	_	_	
+10-8	493-496	som	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-9	497-501	inte	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-10	502-506	vill	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-11	507-514	befatta	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-12	515-518	sig	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-13	519-522	med	_	Source;Target[5]	10-6[28];10-14[29]	false[5]	1[5]	_	_	
+10-14	523-526	vad	*[29]	_	_	_	_	_	_	
+10-15	527-530	han	*[29]	_	_	_	_	_	_	
+10-16	531-536	eller	*[29]	_	_	_	_	_	_	
+10-17	537-540	hon	*[29]	_	_	_	_	_	_	
+10-18	541-550	uppfattar	*[29]	_	_	_	_	_	_	
+10-19	551-554	som	*[29]	_	_	_	_	_	_	
+10-20	555-581	jämställdhetsundergrävande	*[29]|*[30]	Target[6]	10-20[30]	false[6]	1[6]	_	_	
+10-21	582-590	attribut	*[29]|*[30]	Target[6]	10-20[30]	false[6]	1[6]	_	_	
+10-22	591-594	och	*[29]|*[30]	Target[6]	10-20[30]	false[6]	1[6]	_	_	
+10-23	595-604	sedvänjor	*[29]|*[30]	Target[6]	10-20[30]	false[6]	1[6]	_	_	
+10-24	604-605	,	_	_	_	_	_	_	_	
+10-25	606-611	eller	_	_	_	_	_	_	_	
+10-26	612-615	det	_	_	_	_	_	_	_	
+10-27	616-631	institutionella	_	_	_	_	_	_	_	
+10-28	632-641	samhället	_	_	_	_	_	_	_	
+10-29	642-645	som	_	_	_	_	_	_	_	
+10-30	646-647	i	_	_	_	_	_	_	_	
+10-31	648-666	religionsfrihetens	_	_	_	_	_	_	_	
+10-32	667-671	namn	_	_	_	_	_	_	_	
+10-33	672-684	sanktionerar	_	_	_	_	_	_	_	
+10-34	685-690	samma	_	_	_	_	_	_	_	
+10-35	691-699	attribut	_	_	_	_	_	_	_	
+10-36	700-703	och	_	_	_	_	_	_	_	
+10-37	704-713	sedvänjor	_	_	_	_	_	_	_	
+10-38	713-714	?	_	_	_	_	_	_	_	
+10-39	714-715	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+11-1	717-718	#	_	_	_	_	_	_	_	
+11-2	718-719	P	_	_	_	_	_	_	_	
+11-3	720-723	IMM	_	_	_	_	_	_	_	
+11-4	723-724	.	_	_	_	_	_	_	_	
+
+#Text=Är en burka eller nikab bara ett harmlöst tygstycke och gör sig den som hävdar något annat skyldig till intolerans och främlingsfientlighet?
+12-1	726-728	Är	_	_	_	_	_	_	_	
+12-2	729-731	en	_	_	_	_	_	_	_	
+12-3	732-737	burka	*	_	_	_	_	_	_	
+12-4	738-743	eller	_	_	_	_	_	_	_	
+12-5	744-749	nikab	*	_	_	_	_	_	_	
+12-6	750-754	bara	_	_	_	_	_	_	_	
+12-7	755-758	ett	_	Target;Target[7]	12-5;12-3	false[7]	3[7]	_	_	
+12-8	759-767	harmlöst	_	Target;Target[7]	12-5;12-3	false[7]	3[7]	_	_	
+12-9	768-777	tygstycke	_	Target;Target[7]	12-5;12-3	false[7]	3[7]	_	_	
+12-10	778-781	och	_	_	_	_	_	_	_	
+12-11	782-785	gör	_	Target[8]	12-13[31]	false[8]	1[8]	_	_	
+12-12	786-789	sig	_	Target[8]	12-13[31]	false[8]	1[8]	_	_	
+12-13	790-793	den	*[31]	_	_	_	_	_	_	
+12-14	794-797	som	*[31]	_	_	_	_	_	_	
+12-15	798-804	hävdar	*[31]	_	_	_	_	_	_	
+12-16	805-810	något	*[31]	_	_	_	_	_	_	
+12-17	811-816	annat	*[31]	_	_	_	_	_	_	
+12-18	817-824	skyldig	_	_[9]	_	false[9]	1[9]	12-11[8_9]	_	
+12-19	825-829	till	_	_[9]	_	false[9]	1[9]	_	_	
+12-20	830-840	intolerans	_	_[9]	_	false[9]	1[9]	_	_	
+12-21	841-844	och	_	_[9]	_	false[9]	1[9]	_	_	
+12-22	845-865	främlingsfientlighet	_	_[9]	_	false[9]	1[9]	_	_	
+12-23	865-866	?	_	_	_	_	_	_	_	
+
+#Text=Eller bör vi som tar ställning för jämställdheten också ta avstånd från klädesplagg som vi anser anonymiserar kvinnan i det offentliga rummet?
+13-1	867-872	Eller	_	_	_	_	_	_	_	
+13-2	873-876	bör	_	_	_	_	_	_	_	
+13-3	877-879	vi	*[32]	Target[10]	13-8[33]	false[10]	4[10]	_	_	
+13-4	880-883	som	*[32]	Target[10]	13-8[33]	false[10]	4[10]	_	_	
+13-5	884-887	tar	*[32]	Target[10]	13-8[33]	false[10]	4[10]	_	_	
+13-6	888-897	ställning	*[32]	Target[10]	13-8[33]	false[10]	4[10]	_	_	
+13-7	898-901	för	*[32]	Target[10]	13-8[33]	false[10]	4[10]	_	_	
+13-8	902-916	jämställdheten	*[32]|*[33]	_	_	_	_	_	_	
+13-9	917-922	också	_	_	_	_	_	_	_	
+13-10	923-925	ta	_	Source;Target[11]	13-3[32];13-13[34]	false[11]	2[11]	_	_	
+13-11	926-933	avstånd	_	Source;Target[11]	13-3[32];13-13[34]	false[11]	2[11]	_	_	
+13-12	934-938	från	_	Source;Target[11]	13-3[32];13-13[34]	false[11]	2[11]	_	_	
+13-13	939-950	klädesplagg	*[34]	_	_	_	_	_	_	
+13-14	951-954	som	*[34]	_	_	_	_	_	_	
+13-15	955-957	vi	*[34]	_	_	_	_	_	_	
+13-16	958-963	anser	*[34]	_	_	_	_	_	_	
+13-17	964-976	anonymiserar	*[34]	_	_	_	_	_	_	
+13-18	977-984	kvinnan	*[34]	_	_	_	_	_	_	
+13-19	985-986	i	*[34]	_	_	_	_	_	_	
+13-20	987-990	det	*[34]	_	_	_	_	_	_	
+13-21	991-1001	offentliga	*[34]	_	_	_	_	_	_	
+13-22	1002-1008	rummet	*[34]	_	_	_	_	_	_	
+13-23	1008-1009	?	_	_	_	_	_	_	_	
+
+#Text=Döljer sig bakom slöjan blott en from gudstro eller finns där också, i skuggan av det jämställda samhälle vi andra lever i, en subkultur med kvinnoförtryck och hedersvåld?.
+14-1	1010-1016	Döljer	_	_	_	_	_	_	_	
+14-2	1017-1020	sig	_	_	_	_	_	_	_	
+14-3	1021-1026	bakom	*[35]	_	_	_	_	_	_	
+14-4	1027-1033	slöjan	*[35]	_	_	_	_	_	_	
+14-5	1034-1039	blott	_	_	_	_	_	_	_	
+14-6	1040-1042	en	_	Target[12]	14-3[35]	false[12]	4[12]	_	_	
+14-7	1043-1047	from	_	Target[12]	14-3[35]	false[12]	4[12]	_	_	
+14-8	1048-1055	gudstro	_	Target[12]	14-3[35]	false[12]	4[12]	_	_	
+14-9	1056-1061	eller	_	_	_	_	_	_	_	
+14-10	1062-1067	finns	_	_	_	_	_	_	_	
+14-11	1068-1071	där	_	_	_	_	_	_	_	
+14-12	1072-1077	också	_	_	_	_	_	_	_	
+14-13	1077-1078	,	_	_	_	_	_	_	_	
+14-14	1079-1080	i	_	_	_	_	_	_	_	
+14-15	1081-1088	skuggan	_	_	_	_	_	_	_	
+14-16	1089-1091	av	_	_	_	_	_	_	_	
+14-17	1092-1095	det	_	_	_	_	_	_	_	
+14-18	1096-1106	jämställda	_	_	_	_	_	_	_	
+14-19	1107-1115	samhälle	_	_	_	_	_	_	_	
+14-20	1116-1118	vi	_	_	_	_	_	_	_	
+14-21	1119-1124	andra	_	_	_	_	_	_	_	
+14-22	1125-1130	lever	_	_	_	_	_	_	_	
+14-23	1131-1132	i	_	_	_	_	_	_	_	
+14-24	1132-1133	,	_	_	_	_	_	_	_	
+14-25	1134-1136	en	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-26	1137-1146	subkultur	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-27	1147-1150	med	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-28	1151-1165	kvinnoförtryck	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-29	1166-1169	och	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-30	1170-1180	hedersvåld	_	Target[13]	14-3[35]	false[13]	1[13]	_	_	
+14-31	1180-1181	?	_	_	_	_	_	_	_	
+14-32	1181-1182	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+15-1	1184-1185	#	_	_	_	_	_	_	_	
+15-2	1185-1186	P	_	_	_	_	_	_	_	
+15-3	1187-1190	IMM	_	_	_	_	_	_	_	
+15-4	1190-1191	.	_	_	_	_	_	_	_	
+
+#Text=En liberal syn på heltäckande slöja som religiöst/kulturellt attribut försvaras ofta med att många muslimska kvinnor bär plagget frivilligt.
+16-1	1193-1195	En	_	_	_	_	_	_	_	
+16-2	1196-1203	liberal	_	_	_	_	_	_	_	
+16-3	1204-1207	syn	_	_	_	_	_	_	_	
+16-4	1208-1210	på	_	_	_	_	_	_	_	
+16-5	1211-1222	heltäckande	_	_	_	_	_	_	_	
+16-6	1223-1228	slöja	_	_	_	_	_	_	_	
+16-7	1229-1232	som	_	_	_	_	_	_	_	
+16-8	1233-1242	religiöst	_	_	_	_	_	_	_	
+16-9	1242-1243	/	_	_	_	_	_	_	_	
+16-10	1243-1253	kulturellt	_	_	_	_	_	_	_	
+16-11	1254-1262	attribut	_	_	_	_	_	_	_	
+16-12	1263-1272	försvaras	_	_	_	_	_	_	_	
+16-13	1273-1277	ofta	_	_	_	_	_	_	_	
+16-14	1278-1281	med	_	_	_	_	_	_	_	
+16-15	1282-1285	att	_	_	_	_	_	_	_	
+16-16	1286-1291	många	_	_	_	_	_	_	_	
+16-17	1292-1301	muslimska	_	_	_	_	_	_	_	
+16-18	1302-1309	kvinnor	_	_	_	_	_	_	_	
+16-19	1310-1313	bär	_	_	_	_	_	_	_	
+16-20	1314-1321	plagget	_	_	_	_	_	_	_	
+16-21	1322-1332	frivilligt	_	_	_	_	_	_	_	
+16-22	1332-1333	.	_	_	_	_	_	_	_	
+
+#Text=Men är det ett relevant argument?
+17-1	1334-1337	Men	_	_	_	_	_	_	_	
+17-2	1338-1340	är	_	_	_	_	_	_	_	
+17-3	1341-1344	det	_	_	_	_	_	_	_	
+17-4	1345-1348	ett	_	_	_	_	_	_	_	
+17-5	1349-1357	relevant	_	_	_	_	_	_	_	
+17-6	1358-1366	argument	_	_	_	_	_	_	_	
+17-7	1366-1367	?	_	_	_	_	_	_	_	
+
+#Text=Med samma logik kan vi även tillåta kvinnlig omskärelse och stening av otrogna kvinnor – det är också sedvänjor som kvinnor från vissa muslimska länder själva sanktionerar.
+18-1	1368-1371	Med	_	_	_	_	_	_	_	
+18-2	1372-1377	samma	_	_	_	_	_	_	_	
+18-3	1378-1383	logik	_	_	_	_	_	_	_	
+18-4	1384-1387	kan	_	_	_	_	_	_	_	
+18-5	1388-1390	vi	_	_	_	_	_	_	_	
+18-6	1391-1395	även	_	_	_	_	_	_	_	
+18-7	1396-1403	tillåta	_	_	_	_	_	_	_	
+18-8	1404-1412	kvinnlig	_	_	_	_	_	_	_	
+18-9	1413-1423	omskärelse	_	_	_	_	_	_	_	
+18-10	1424-1427	och	_	_	_	_	_	_	_	
+18-11	1428-1435	stening	_	_	_	_	_	_	_	
+18-12	1436-1438	av	_	_	_	_	_	_	_	
+18-13	1439-1446	otrogna	_	_	_	_	_	_	_	
+18-14	1447-1454	kvinnor	_	_	_	_	_	_	_	
+18-15	1455-1456	–	_	_	_	_	_	_	_	
+18-16	1457-1460	det	_	_	_	_	_	_	_	
+18-17	1461-1463	är	_	_	_	_	_	_	_	
+18-18	1464-1469	också	_	_	_	_	_	_	_	
+18-19	1470-1479	sedvänjor	_	_	_	_	_	_	_	
+18-20	1480-1483	som	_	_	_	_	_	_	_	
+18-21	1484-1491	kvinnor	_	_	_	_	_	_	_	
+18-22	1492-1496	från	_	_	_	_	_	_	_	
+18-23	1497-1502	vissa	_	_	_	_	_	_	_	
+18-24	1503-1512	muslimska	_	_	_	_	_	_	_	
+18-25	1513-1519	länder	_	_	_	_	_	_	_	
+18-26	1520-1526	själva	_	_	_	_	_	_	_	
+18-27	1527-1539	sanktionerar	_	_	_	_	_	_	_	
+18-28	1539-1540	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+19-1	1542-1543	#	_	_	_	_	_	_	_	
+19-2	1543-1544	P	_	_	_	_	_	_	_	
+19-3	1545-1548	IMM	_	_	_	_	_	_	_	
+19-4	1548-1549	.	_	_	_	_	_	_	_	
+
+#Text=För den som fostras i en miljö där kvinnans underordning instiftad av Gud utgör normen, där internaliseras den föreställningen och blir till individens egen åsikt.
+20-1	1551-1554	För	_	_	_	_	_	_	_	
+20-2	1555-1558	den	_	_	_	_	_	_	_	
+20-3	1559-1562	som	_	_	_	_	_	_	_	
+20-4	1563-1570	fostras	_	_	_	_	_	_	_	
+20-5	1571-1572	i	_	_	_	_	_	_	_	
+20-6	1573-1575	en	_	_	_	_	_	_	_	
+20-7	1576-1581	miljö	_	_	_	_	_	_	_	
+20-8	1582-1585	där	_	_	_	_	_	_	_	
+20-9	1586-1594	kvinnans	_	_	_	_	_	_	_	
+20-10	1595-1607	underordning	_	_	_	_	_	_	_	
+20-11	1608-1617	instiftad	_	_	_	_	_	_	_	
+20-12	1618-1620	av	_	_	_	_	_	_	_	
+20-13	1621-1624	Gud	_	_	_	_	_	_	_	
+20-14	1625-1630	utgör	_	_	_	_	_	_	_	
+20-15	1631-1637	normen	_	_	_	_	_	_	_	
+20-16	1637-1638	,	_	_	_	_	_	_	_	
+20-17	1639-1642	där	_	_	_	_	_	_	_	
+20-18	1643-1657	internaliseras	_	_	_	_	_	_	_	
+20-19	1658-1661	den	_	_	_	_	_	_	_	
+20-20	1662-1677	föreställningen	_	_	_	_	_	_	_	
+20-21	1678-1681	och	_	_	_	_	_	_	_	
+20-22	1682-1686	blir	_	_	_	_	_	_	_	
+20-23	1687-1691	till	_	_	_	_	_	_	_	
+20-24	1692-1702	individens	_	_	_	_	_	_	_	
+20-25	1703-1707	egen	_	_	_	_	_	_	_	
+20-26	1708-1713	åsikt	_	_	_	_	_	_	_	
+20-27	1713-1714	.	_	_	_	_	_	_	_	
+
+#Text=Att ingå i en social gemenskap är viktigare än att ifrågasätta sin plats i den.
+21-1	1715-1718	Att	_	_	_	_	_	_	_	
+21-2	1719-1723	ingå	_	_	_	_	_	_	_	
+21-3	1724-1725	i	_	_	_	_	_	_	_	
+21-4	1726-1728	en	_	_	_	_	_	_	_	
+21-5	1729-1735	social	_	_	_	_	_	_	_	
+21-6	1736-1745	gemenskap	_	_	_	_	_	_	_	
+21-7	1746-1748	är	_	_	_	_	_	_	_	
+21-8	1749-1758	viktigare	_	_	_	_	_	_	_	
+21-9	1759-1761	än	_	_	_	_	_	_	_	
+21-10	1762-1765	att	_	_	_	_	_	_	_	
+21-11	1766-1777	ifrågasätta	_	_	_	_	_	_	_	
+21-12	1778-1781	sin	_	_	_	_	_	_	_	
+21-13	1782-1787	plats	_	_	_	_	_	_	_	
+21-14	1788-1789	i	_	_	_	_	_	_	_	
+21-15	1790-1793	den	_	_	_	_	_	_	_	
+21-16	1793-1794	.	_	_	_	_	_	_	_	
+
+#Text=Detta är elementär sociologi.
+22-1	1795-1800	Detta	_	_	_	_	_	_	_	
+22-2	1801-1803	är	_	_	_	_	_	_	_	
+22-3	1804-1813	elementär	_	_	_	_	_	_	_	
+22-4	1814-1823	sociologi	_	_	_	_	_	_	_	
+22-5	1823-1824	.	_	_	_	_	_	_	_	
+
+#Text=När kvinnorörelsen i Europa och USA under det sena 1800-talet och tidiga 1900-talet stred för kvinnlig rösträtt motsatte sig många kvinnor detta.
+23-1	1825-1828	När	*[36]	_	_	_	_	_	_	
+23-2	1829-1843	kvinnorörelsen	*[36]	_	_	_	_	_	_	
+23-3	1844-1845	i	*[36]	_	_	_	_	_	_	
+23-4	1846-1852	Europa	*[36]	_	_	_	_	_	_	
+23-5	1853-1856	och	*[36]	_	_	_	_	_	_	
+23-6	1857-1860	USA	*[36]	_	_	_	_	_	_	
+23-7	1861-1866	under	*[36]	_	_	_	_	_	_	
+23-8	1867-1870	det	*[36]	_	_	_	_	_	_	
+23-9	1871-1875	sena	*[36]	_	_	_	_	_	_	
+23-10	1876-1880	1800	*[36]	_	_	_	_	_	_	
+23-11	1880-1881	-	*[36]	_	_	_	_	_	_	
+23-12	1881-1886	talet	*[36]	_	_	_	_	_	_	
+23-13	1887-1890	och	*[36]	_	_	_	_	_	_	
+23-14	1891-1897	tidiga	*[36]	_	_	_	_	_	_	
+23-15	1898-1902	1900	*[36]	_	_	_	_	_	_	
+23-16	1902-1903	-	*[36]	_	_	_	_	_	_	
+23-17	1903-1908	talet	*[36]	_	_	_	_	_	_	
+23-18	1909-1914	stred	*[36]	_	_	_	_	_	_	
+23-19	1915-1918	för	*[36]	_	_	_	_	_	_	
+23-20	1919-1927	kvinnlig	*[36]	_	_	_	_	_	_	
+23-21	1928-1936	rösträtt	*[36]	_	_	_	_	_	_	
+23-22	1937-1945	motsatte	_	Source;Target[14]	23-24[37];23-1[36]	false[14]	2[14]	_	_	
+23-23	1946-1949	sig	_	Source;Target[14]	23-24[37];23-1[36]	false[14]	2[14]	_	_	
+23-24	1950-1955	många	*[37]	_	_	_	_	_	_	
+23-25	1956-1963	kvinnor	*[37]	_	_	_	_	_	_	
+23-26	1964-1969	detta	_	_	_	_	_	_	_	
+23-27	1969-1970	.	_	_	_	_	_	_	_	
+
+#Text=Om slöjliberalernas logik fått råda för 100 år sedan kan man fråga sig om vi hade haft kvinnlig rösträtt i Sverige i dag.
+24-1	1971-1973	Om	_	_	_	_	_	_	_	
+24-2	1974-1990	slöjliberalernas	_	_	_	_	_	_	_	
+24-3	1991-1996	logik	_	_	_	_	_	_	_	
+24-4	1997-2001	fått	_	_	_	_	_	_	_	
+24-5	2002-2006	råda	_	_	_	_	_	_	_	
+24-6	2007-2010	för	_	_	_	_	_	_	_	
+24-7	2011-2014	100	_	_	_	_	_	_	_	
+24-8	2015-2017	år	_	_	_	_	_	_	_	
+24-9	2018-2023	sedan	_	_	_	_	_	_	_	
+24-10	2024-2027	kan	_	_	_	_	_	_	_	
+24-11	2028-2031	man	_	_	_	_	_	_	_	
+24-12	2032-2037	fråga	_	_	_	_	_	_	_	
+24-13	2038-2041	sig	_	_	_	_	_	_	_	
+24-14	2042-2044	om	_	_	_	_	_	_	_	
+24-15	2045-2047	vi	_	_	_	_	_	_	_	
+24-16	2048-2052	hade	_	_	_	_	_	_	_	
+24-17	2053-2057	haft	_	_	_	_	_	_	_	
+24-18	2058-2066	kvinnlig	_	_	_	_	_	_	_	
+24-19	2067-2075	rösträtt	_	_	_	_	_	_	_	
+24-20	2076-2077	i	_	_	_	_	_	_	_	
+24-21	2078-2085	Sverige	_	_	_	_	_	_	_	
+24-22	2086-2087	i	_	_	_	_	_	_	_	
+24-23	2088-2091	dag	_	_	_	_	_	_	_	
+24-24	2091-2092	.	_	_	_	_	_	_	_	
+
+#Text=Slöjan är ett verktyg för social och sexuell kontroll från gamla patriarkala system där kvinnan sågs som mannens ägodel.
+25-1	2093-2099	Slöjan	*	_	_	_	_	_	_	
+25-2	2100-2102	är	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-3	2103-2106	ett	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-4	2107-2114	verktyg	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-5	2115-2118	för	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-6	2119-2125	social	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-7	2126-2129	och	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-8	2130-2137	sexuell	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-9	2138-2146	kontroll	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-10	2147-2151	från	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-11	2152-2157	gamla	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-12	2158-2169	patriarkala	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-13	2170-2176	system	_	Target[15]	25-1	false[15]	1[15]	_	_	
+25-14	2177-2180	där	_	_	_	_	_	_	_	
+25-15	2181-2188	kvinnan	_	_	_	_	_	_	_	
+25-16	2189-2193	sågs	_	_	_	_	_	_	_	
+25-17	2194-2197	som	_	_	_	_	_	_	_	
+25-18	2198-2205	mannens	_	_	_	_	_	_	_	
+25-19	2206-2212	ägodel	_	_	_	_	_	_	_	
+25-20	2212-2213	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+26-1	2215-2216	#	_	_	_	_	_	_	_	
+26-2	2216-2217	P	_	_	_	_	_	_	_	
+26-3	2218-2221	IMM	_	_	_	_	_	_	_	
+26-4	2221-2222	.	_	_	_	_	_	_	_	
+
+#Text=Slöjan är ett verktyg för social och sexuell kontroll från gamla patriarkala system där kvinnan sågs som mannens ägodel.
+27-1	2224-2230	Slöjan	*	_	_	_	_	_	_	
+27-2	2231-2233	är	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-3	2234-2237	ett	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-4	2238-2245	verktyg	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-5	2246-2249	för	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-6	2250-2256	social	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-7	2257-2260	och	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-8	2261-2268	sexuell	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-9	2269-2277	kontroll	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-10	2278-2282	från	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-11	2283-2288	gamla	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-12	2289-2300	patriarkala	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-13	2301-2307	system	_	Target[16]	27-1	false[16]	1[16]	_	_	
+27-14	2308-2311	där	_	_	_	_	_	_	_	
+27-15	2312-2319	kvinnan	_	_	_	_	_	_	_	
+27-16	2320-2324	sågs	_	_	_	_	_	_	_	
+27-17	2325-2328	som	_	_	_	_	_	_	_	
+27-18	2329-2336	mannens	_	_	_	_	_	_	_	
+27-19	2337-2343	ägodel	_	_	_	_	_	_	_	
+27-20	2343-2344	.	_	_	_	_	_	_	_	
+
+#Text=Den vuxna kvinnan fick endast visa sig för sin make och den unga flickan endast för sin familj, innan hon för en hemgift såldes till den som utan flickans samtycke valts ut till hennes livskamrat.
+28-1	2345-2348	Den	_	_	_	_	_	_	_	
+28-2	2349-2354	vuxna	_	_	_	_	_	_	_	
+28-3	2355-2362	kvinnan	_	_	_	_	_	_	_	
+28-4	2363-2367	fick	_	_	_	_	_	_	_	
+28-5	2368-2374	endast	_	_	_	_	_	_	_	
+28-6	2375-2379	visa	_	_	_	_	_	_	_	
+28-7	2380-2383	sig	_	_	_	_	_	_	_	
+28-8	2384-2387	för	_	_	_	_	_	_	_	
+28-9	2388-2391	sin	_	_	_	_	_	_	_	
+28-10	2392-2396	make	_	_	_	_	_	_	_	
+28-11	2397-2400	och	_	_	_	_	_	_	_	
+28-12	2401-2404	den	_	_	_	_	_	_	_	
+28-13	2405-2409	unga	_	_	_	_	_	_	_	
+28-14	2410-2417	flickan	_	_	_	_	_	_	_	
+28-15	2418-2424	endast	_	_	_	_	_	_	_	
+28-16	2425-2428	för	_	_	_	_	_	_	_	
+28-17	2429-2432	sin	_	_	_	_	_	_	_	
+28-18	2433-2439	familj	_	_	_	_	_	_	_	
+28-19	2439-2440	,	_	_	_	_	_	_	_	
+28-20	2441-2446	innan	_	_	_	_	_	_	_	
+28-21	2447-2450	hon	_	_	_	_	_	_	_	
+28-22	2451-2454	för	_	_	_	_	_	_	_	
+28-23	2455-2457	en	_	_	_	_	_	_	_	
+28-24	2458-2465	hemgift	_	_	_	_	_	_	_	
+28-25	2466-2472	såldes	_	_	_	_	_	_	_	
+28-26	2473-2477	till	_	_	_	_	_	_	_	
+28-27	2478-2481	den	_	_	_	_	_	_	_	
+28-28	2482-2485	som	_	_	_	_	_	_	_	
+28-29	2486-2490	utan	_	_	_	_	_	_	_	
+28-30	2491-2499	flickans	_	_	_	_	_	_	_	
+28-31	2500-2508	samtycke	_	_	_	_	_	_	_	
+28-32	2509-2514	valts	_	_	_	_	_	_	_	
+28-33	2515-2517	ut	_	_	_	_	_	_	_	
+28-34	2518-2522	till	_	_	_	_	_	_	_	
+28-35	2523-2529	hennes	_	_	_	_	_	_	_	
+28-36	2530-2540	livskamrat	_	_	_	_	_	_	_	
+28-37	2540-2541	.	_	_	_	_	_	_	_	
+
+#Text=Kvinnors medborgerliga rättigheter och möjlighet till utbildning och yrkesarbete var starkt begränsade.
+29-1	2542-2550	Kvinnors	_	_	_	_	_	_	_	
+29-2	2551-2564	medborgerliga	_	_	_	_	_	_	_	
+29-3	2565-2576	rättigheter	_	_	_	_	_	_	_	
+29-4	2577-2580	och	_	_	_	_	_	_	_	
+29-5	2581-2590	möjlighet	_	_	_	_	_	_	_	
+29-6	2591-2595	till	_	_	_	_	_	_	_	
+29-7	2596-2606	utbildning	_	_	_	_	_	_	_	
+29-8	2607-2610	och	_	_	_	_	_	_	_	
+29-9	2611-2622	yrkesarbete	_	_	_	_	_	_	_	
+29-10	2623-2626	var	_	_	_	_	_	_	_	
+29-11	2627-2633	starkt	_	_	_	_	_	_	_	
+29-12	2634-2644	begränsade	_	_	_	_	_	_	_	
+29-13	2644-2645	.	_	_	_	_	_	_	_	
+
+#Text=Kvinnans värld reducerades till det hem som hennes familj och sedan hennes make erbjöd henne.
+30-1	2646-2654	Kvinnans	_	_	_	_	_	_	_	
+30-2	2655-2660	värld	_	_	_	_	_	_	_	
+30-3	2661-2672	reducerades	_	_	_	_	_	_	_	
+30-4	2673-2677	till	_	_	_	_	_	_	_	
+30-5	2678-2681	det	_	_	_	_	_	_	_	
+30-6	2682-2685	hem	_	_	_	_	_	_	_	
+30-7	2686-2689	som	_	_	_	_	_	_	_	
+30-8	2690-2696	hennes	_	_	_	_	_	_	_	
+30-9	2697-2703	familj	_	_	_	_	_	_	_	
+30-10	2704-2707	och	_	_	_	_	_	_	_	
+30-11	2708-2713	sedan	_	_	_	_	_	_	_	
+30-12	2714-2720	hennes	_	_	_	_	_	_	_	
+30-13	2721-2725	make	_	_	_	_	_	_	_	
+30-14	2726-2732	erbjöd	_	_	_	_	_	_	_	
+30-15	2733-2738	henne	_	_	_	_	_	_	_	
+30-16	2738-2739	.	_	_	_	_	_	_	_	
+
+#Text=För det offentliga samhället.
+31-1	2740-2743	För	_	_	_	_	_	_	_	
+31-2	2744-2747	det	_	_	_	_	_	_	_	
+31-3	2748-2758	offentliga	_	_	_	_	_	_	_	
+31-4	2759-2768	samhället	_	_	_	_	_	_	_	
+31-5	2768-2769	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+32-1	2771-2772	#	_	_	_	_	_	_	_	
+32-2	2772-2773	P	_	_	_	_	_	_	_	
+32-3	2774-2777	IMM	_	_	_	_	_	_	_	
+32-4	2777-2778	.	_	_	_	_	_	_	_	
+
+#Text=skulle hon vara dold och identitetslös.
+33-1	2780-2786	skulle	_	_	_	_	_	_	_	
+33-2	2787-2790	hon	_	_	_	_	_	_	_	
+33-3	2791-2795	vara	_	_	_	_	_	_	_	
+33-4	2796-2800	dold	_	_	_	_	_	_	_	
+33-5	2801-2804	och	_	_	_	_	_	_	_	
+33-6	2805-2818	identitetslös	_	_	_	_	_	_	_	
+33-7	2818-2819	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	2821-2822	#	_	_	_	_	_	_	_	
+34-2	2822-2823	P	_	_	_	_	_	_	_	
+34-3	2824-2827	IMM	_	_	_	_	_	_	_	
+34-4	2827-2828	.	_	_	_	_	_	_	_	
+
+#Text=Sådana könsroller och sociala mönster återfinns ännu i dag i många muslimska länder.
+35-1	2830-2836	Sådana	_	_	_	_	_	_	_	
+35-2	2837-2847	könsroller	_	_	_	_	_	_	_	
+35-3	2848-2851	och	_	_	_	_	_	_	_	
+35-4	2852-2859	sociala	_	_	_	_	_	_	_	
+35-5	2860-2867	mönster	_	_	_	_	_	_	_	
+35-6	2868-2877	återfinns	_	_	_	_	_	_	_	
+35-7	2878-2882	ännu	_	_	_	_	_	_	_	
+35-8	2883-2884	i	_	_	_	_	_	_	_	
+35-9	2885-2888	dag	_	_	_	_	_	_	_	
+35-10	2889-2890	i	_	_	_	_	_	_	_	
+35-11	2891-2896	många	_	_	_	_	_	_	_	
+35-12	2897-2906	muslimska	_	_	_	_	_	_	_	
+35-13	2907-2913	länder	_	_	_	_	_	_	_	
+35-14	2913-2914	.	_	_	_	_	_	_	_	
+
+#Text=Det är rentav så att antalet länder i världen med regimer där fundamentalistisk islam och sharialagar tillämpas har ökat på senare tid.
+36-1	2915-2918	Det	_	_	_	_	_	_	_	
+36-2	2919-2921	är	_	_	_	_	_	_	_	
+36-3	2922-2928	rentav	_	_	_	_	_	_	_	
+36-4	2929-2931	så	_	_	_	_	_	_	_	
+36-5	2932-2935	att	_	_	_	_	_	_	_	
+36-6	2936-2943	antalet	_	_	_	_	_	_	_	
+36-7	2944-2950	länder	_	_	_	_	_	_	_	
+36-8	2951-2952	i	_	_	_	_	_	_	_	
+36-9	2953-2960	världen	_	_	_	_	_	_	_	
+36-10	2961-2964	med	_	_	_	_	_	_	_	
+36-11	2965-2972	regimer	_	_	_	_	_	_	_	
+36-12	2973-2976	där	_	_	_	_	_	_	_	
+36-13	2977-2994	fundamentalistisk	*[38]	Target[17]	36-13[38]	false[17]	1[17]	_	_	
+36-14	2995-3000	islam	*[38]	Target[17]	36-13[38]	false[17]	1[17]	_	_	
+36-15	3001-3004	och	_	_	_	_	_	_	_	
+36-16	3005-3016	sharialagar	_	_	_	_	_	_	_	
+36-17	3017-3026	tillämpas	_	_	_	_	_	_	_	
+36-18	3027-3030	har	_	_	_	_	_	_	_	
+36-19	3031-3035	ökat	_	_	_	_	_	_	_	
+36-20	3036-3038	på	_	_	_	_	_	_	_	
+36-21	3039-3045	senare	_	_	_	_	_	_	_	
+36-22	3046-3049	tid	_	_	_	_	_	_	_	
+36-23	3049-3050	.	_	_	_	_	_	_	_	
+
+#Text=Där vrids klockan tillbaka tusen år för kvinnan.
+37-1	3051-3054	Där	_	_	_	_	_	_	_	
+37-2	3055-3060	vrids	_	_	_	_	_	_	_	
+37-3	3061-3068	klockan	_	_	_	_	_	_	_	
+37-4	3069-3077	tillbaka	_	_	_	_	_	_	_	
+37-5	3078-3083	tusen	_	_	_	_	_	_	_	
+37-6	3084-3086	år	_	_	_	_	_	_	_	
+37-7	3087-3090	för	_	_	_	_	_	_	_	
+37-8	3091-3098	kvinnan	_	_	_	_	_	_	_	
+37-9	3098-3099	.	_	_	_	_	_	_	_	
+
+#Text=Invandrarkvinnor i Sverige som bär heltäckande slöja kommer ofta från sådana länder.
+38-1	3100-3116	Invandrarkvinnor	_	_	_	_	_	_	_	
+38-2	3117-3118	i	_	_	_	_	_	_	_	
+38-3	3119-3126	Sverige	_	_	_	_	_	_	_	
+38-4	3127-3130	som	_	_	_	_	_	_	_	
+38-5	3131-3134	bär	_	_	_	_	_	_	_	
+38-6	3135-3146	heltäckande	_	_	_	_	_	_	_	
+38-7	3147-3152	slöja	_	_	_	_	_	_	_	
+38-8	3153-3159	kommer	_	_	_	_	_	_	_	
+38-9	3160-3164	ofta	_	_	_	_	_	_	_	
+38-10	3165-3169	från	_	_	_	_	_	_	_	
+38-11	3170-3176	sådana	_	_	_	_	_	_	_	
+38-12	3177-3183	länder	_	_	_	_	_	_	_	
+38-13	3183-3184	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+39-1	3186-3187	#	_	_	_	_	_	_	_	
+39-2	3187-3188	P	_	_	_	_	_	_	_	
+39-3	3189-3192	IMM	_	_	_	_	_	_	_	
+39-4	3192-3193	.	_	_	_	_	_	_	_	
+
+#Text=Är man trångsynt eller vidsynt om man är skeptisk till att en meningsfull och jämbördig interaktion i vardag och yrkesliv kan äga rum där några människor måste maskera sig som bankrånare, Darth Vader i Stjärnornas Krig eller Walt Disneys Spökplumpen?
+40-1	3195-3197	Är	_	_	_	_	_	_	_	
+40-2	3198-3201	man	_	_	_	_	_	_	_	
+40-3	3202-3211	trångsynt	_	Target	40-7	false	1	_	_	
+40-4	3212-3217	eller	_	_	_	_	_	_	_	
+40-5	3218-3225	vidsynt	_	Target	40-7	false	4	_	_	
+40-6	3226-3228	om	_	_	_	_	_	_	_	
+40-7	3229-3232	man	*	_	_	_	_	_	_	
+40-8	3233-3235	är	_	Target;Source[18]	40-11[39];40-7	false[18]	1[18]	_	_	
+40-9	3236-3244	skeptisk	_	Target;Source[18]	40-11[39];40-7	false[18]	1[18]	_	_	
+40-10	3245-3249	till	_	Target;Source[18]	40-11[39];40-7	false[18]	1[18]	_	_	
+40-11	3250-3253	att	*[39]	_	_	_	_	_	_	
+40-12	3254-3256	en	*[39]	_	_	_	_	_	_	
+40-13	3257-3268	meningsfull	*[39]	_	_	_	_	_	_	
+40-14	3269-3272	och	*[39]	_	_	_	_	_	_	
+40-15	3273-3282	jämbördig	*[39]	_	_	_	_	_	_	
+40-16	3283-3294	interaktion	*[39]	_	_	_	_	_	_	
+40-17	3295-3296	i	*[39]	_	_	_	_	_	_	
+40-18	3297-3303	vardag	*[39]	_	_	_	_	_	_	
+40-19	3304-3307	och	*[39]	_	_	_	_	_	_	
+40-20	3308-3316	yrkesliv	*[39]	_	_	_	_	_	_	
+40-21	3317-3320	kan	*[39]	_	_	_	_	_	_	
+40-22	3321-3324	äga	*[39]	_	_	_	_	_	_	
+40-23	3325-3328	rum	*[39]	_	_	_	_	_	_	
+40-24	3329-3332	där	*[39]	_	_	_	_	_	_	
+40-25	3333-3338	några	*[39]	_	_	_	_	_	_	
+40-26	3339-3348	människor	*[39]	_	_	_	_	_	_	
+40-27	3349-3354	måste	*[39]	_	_	_	_	_	_	
+40-28	3355-3362	maskera	*[39]	_	_	_	_	_	_	
+40-29	3363-3366	sig	*[39]	_	_	_	_	_	_	
+40-30	3367-3370	som	*[39]	_	_	_	_	_	_	
+40-31	3371-3381	bankrånare	*[39]	_	_	_	_	_	_	
+40-32	3381-3382	,	*[39]	_	_	_	_	_	_	
+40-33	3383-3388	Darth	*[39]	_	_	_	_	_	_	
+40-34	3389-3394	Vader	*[39]	_	_	_	_	_	_	
+40-35	3395-3396	i	*[39]	_	_	_	_	_	_	
+40-36	3397-3408	Stjärnornas	*[39]	_	_	_	_	_	_	
+40-37	3409-3413	Krig	*[39]	_	_	_	_	_	_	
+40-38	3414-3419	eller	*[39]	_	_	_	_	_	_	
+40-39	3420-3424	Walt	*[39]	_	_	_	_	_	_	
+40-40	3425-3432	Disneys	*[39]	_	_	_	_	_	_	
+40-41	3433-3444	Spökplumpen	*[39]	_	_	_	_	_	_	
+40-42	3444-3445	?	_	_	_	_	_	_	_	
+
+#Text=Är det samvetets eller intoleransens röst som talar inom den som inte förmår undertrycka misstanken om att slöjan även här används för att kontrollera och skärma av kvinnan från samhället?.
+41-1	3446-3448	Är	_	_	_	_	_	_	_	
+41-2	3449-3452	det	_	_	_	_	_	_	_	
+41-3	3453-3462	samvetets	_	_	_	_	_	_	_	
+41-4	3463-3468	eller	_	_	_	_	_	_	_	
+41-5	3469-3482	intoleransens	*	Target	41-5	false	1	_	_	
+41-6	3483-3487	röst	_	_	_	_	_	_	_	
+41-7	3488-3491	som	_	_	_	_	_	_	_	
+41-8	3492-3497	talar	_	_	_	_	_	_	_	
+41-9	3498-3502	inom	_	_	_	_	_	_	_	
+41-10	3503-3506	den	_	_	_	_	_	_	_	
+41-11	3507-3510	som	_	_	_	_	_	_	_	
+41-12	3511-3515	inte	_	_	_	_	_	_	_	
+41-13	3516-3522	förmår	_	_	_	_	_	_	_	
+41-14	3523-3534	undertrycka	_	_	_	_	_	_	_	
+41-15	3535-3545	misstanken	_	_	_	_	_	_	_	
+41-16	3546-3548	om	_	_	_	_	_	_	_	
+41-17	3549-3552	att	_	_	_	_	_	_	_	
+41-18	3553-3559	slöjan	*	_	_	_	_	_	_	
+41-19	3560-3564	även	_	_	_	_	_	_	_	
+41-20	3565-3568	här	_	_	_	_	_	_	_	
+41-21	3569-3576	används	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-22	3577-3580	för	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-23	3581-3584	att	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-24	3585-3596	kontrollera	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-25	3597-3600	och	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-26	3601-3607	skärma	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-27	3608-3610	av	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-28	3611-3618	kvinnan	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-29	3619-3623	från	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-30	3624-3633	samhället	_	Target[19]	41-18	false[19]	1[19]	_	_	
+41-31	3633-3634	?	_	_	_	_	_	_	_	
+41-32	3634-3635	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+42-1	3637-3638	#	_	_	_	_	_	_	_	
+42-2	3638-3639	P	_	_	_	_	_	_	_	
+42-3	3640-3643	IMM	_	_	_	false	3	_	_	
+42-4	3643-3644	.	_	_	_	_	_	_	_	
+
+#Text=Berikar slöjan vår kultur eller skvallrar den om ett svek mot invandrarflickor, sanktionerat av ansvariga politiker som inte vågar dra en gräns för hur långt religionsfriheten tillåts inkräkta på det sekulära civila samhället?
+43-1	3646-3653	Berikar	_	_	_	false	5	_	_	
+43-2	3654-3660	slöjan	*	_	_	_	_	_	_	
+43-3	3661-3664	vår	_	Target[20]	43-2	false[20]	5[20]	43-1[0_20]	_	
+43-4	3665-3671	kultur	_	Target[20]	43-2	false[20]	5[20]	_	_	
+43-5	3672-3677	eller	_	_	_	_	_	_	_	
+43-6	3678-3687	skvallrar	_	_	_	_	_	_	_	
+43-7	3688-3691	den	_	_	_	_	_	_	_	
+43-8	3692-3694	om	_	_	_	_	_	_	_	
+43-9	3695-3698	ett	_	Target[21]	43-2	false[21]	2[21]	_	_	
+43-10	3699-3703	svek	_	Target[21]	43-2	false[21]	2[21]	_	_	
+43-11	3704-3707	mot	_	Target[21]	43-2	false[21]	2[21]	_	_	
+43-12	3708-3724	invandrarflickor	_	Target[21]	43-2	false[21]	2[21]	_	_	
+43-13	3724-3725	,	_	_	_	_	_	_	_	
+43-14	3726-3738	sanktionerat	_	_	_	_	_	_	_	
+43-15	3739-3741	av	_	_	_	_	_	_	_	
+43-16	3742-3751	ansvariga	_	_	_	_	_	_	_	
+43-17	3752-3761	politiker	_	_	_	_	_	_	_	
+43-18	3762-3765	som	_	_	_	_	_	_	_	
+43-19	3766-3770	inte	_	_	_	_	_	_	_	
+43-20	3771-3776	vågar	_	_	_	_	_	_	_	
+43-21	3777-3780	dra	_	_	_	_	_	_	_	
+43-22	3781-3783	en	_	_	_	_	_	_	_	
+43-23	3784-3789	gräns	_	_	_	_	_	_	_	
+43-24	3790-3793	för	_	_	_	_	_	_	_	
+43-25	3794-3797	hur	_	_	_	_	_	_	_	
+43-26	3798-3803	långt	_	_	_	_	_	_	_	
+43-27	3804-3821	religionsfriheten	_	_	_	_	_	_	_	
+43-28	3822-3829	tillåts	_	_	_	_	_	_	_	
+43-29	3830-3838	inkräkta	*	Target	43-29	false	1	_	_	
+43-30	3839-3841	på	_	_	_	_	_	_	_	
+43-31	3842-3845	det	_	_	_	_	_	_	_	
+43-32	3846-3854	sekulära	_	_	_	_	_	_	_	
+43-33	3855-3861	civila	_	_	_	_	_	_	_	
+43-34	3862-3871	samhället	_	_	_	_	_	_	_	
+43-35	3871-3872	?	_	_	_	_	_	_	_	
+
+#Text=Bör den skämmas som också ser ett försonande drag hos bussföraren vars agerande föranledde denna artikel?
+44-1	3873-3876	Bör	_	_	_	false	1	_	_	
+44-2	3877-3880	den	*	_	_	_	_	_	44-4[40_0]	
+44-3	3881-3888	skämmas	_	Target	44-2	false	1	44-1	_	
+44-4	3889-3892	som	*[40]	_	_	_	_	_	_	
+44-5	3893-3898	också	*[40]	_	_	_	_	_	_	
+44-6	3899-3902	ser	*[40]	_	_	_	_	_	_	
+44-7	3903-3906	ett	*[40]	_	_	_	_	_	_	
+44-8	3907-3917	försonande	*[40]	_	_	_	_	_	_	
+44-9	3918-3922	drag	*[40]	_	_	_	_	_	_	
+44-10	3923-3926	hos	*[40]	_	_	_	_	_	_	
+44-11	3927-3938	bussföraren	*[40]	_	_	_	_	_	_	
+44-12	3939-3943	vars	*[40]	_	_	_	_	_	_	
+44-13	3944-3952	agerande	*[40]	_	_	_	_	_	_	
+44-14	3953-3963	föranledde	*[40]	_	_	_	_	_	_	
+44-15	3964-3969	denna	*[40]	_	_	_	_	_	_	
+44-16	3970-3977	artikel	*[40]	_	_	_	_	_	_	
+44-17	3977-3978	?	_	_	_	_	_	_	_	
+
+#Text=Det är frågor som tål att diskuteras.
+45-1	3979-3982	Det	_	_	_	_	_	_	_	
+45-2	3983-3985	är	_	_	_	_	_	_	_	
+45-3	3986-3992	frågor	_	_	_	_	_	_	_	
+45-4	3993-3996	som	_	_	_	_	_	_	_	
+45-5	3997-4000	tål	_	_	_	_	_	_	_	
+45-6	4001-4004	att	_	_	_	_	_	_	_	
+45-7	4005-4015	diskuteras	_	_	_	_	_	_	_	
+45-8	4015-4016	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+46-1	4018-4019	#	_	_	_	_	_	_	_	
+46-2	4019-4020	P	_	_	_	_	_	_	_	
+46-3	4021-4024	IMM	_	_	_	_	_	_	_	
+46-4	4024-4025	.	_	_	_	_	_	_	_	
+
+#Text=Dagens debattör.
+47-1	4027-4033	Dagens	_	_	_	_	_	_	_	
+47-2	4034-4042	debattör	_	_	_	_	_	_	_	
+47-3	4042-4043	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+48-1	4045-4046	#	_	_	_	_	_	_	_	
+48-2	4046-4047	P	_	_	_	_	_	_	_	
+48-3	4048-4051	IMM	_	_	_	_	_	_	_	
+48-4	4051-4052	.	_	_	_	_	_	_	_	
+
+#Text=Är slöjor harmlösa tygstycken eller sanktionerad diskriminering?
+49-1	4054-4056	Är	_	_	_	_	_	_	_	
+49-2	4057-4063	slöjor	*	_	_	_	_	_	_	
+49-3	4064-4072	harmlösa	_	Target[22]	49-2	false[22]	3[22]	_	_	
+49-4	4073-4083	tygstycken	_	Target[22]	49-2	false[22]	3[22]	_	_	
+49-5	4084-4089	eller	_	_	_	_	_	_	_	
+49-6	4090-4102	sanktionerad	_	Target[23]	49-2	false[23]	1[23]	_	_	
+49-7	4103-4117	diskriminering	_	Target[23]	49-2	false[23]	1[23]	_	_	
+49-8	4117-4118	?	_	_	_	_	_	_	_	
+
+#Text=Berikar slöjan vår kultur eller sviker vi invandrarflickor när vi inte vågar sätta upp en gräns för religionsfriheten?
+50-1	4119-4126	Berikar	_	_	_	false	5	_	_	
+50-2	4127-4133	slöjan	*	_	_	_	_	_	_	
+50-3	4134-4137	vår	_	Target[24]	50-2	false[24]	5[24]	50-1[0_24]	_	
+50-4	4138-4144	kultur	_	Target[24]	50-2	false[24]	5[24]	_	_	
+50-5	4145-4150	eller	_	_	_	_	_	_	_	
+50-6	4151-4157	sviker	_	Target;Source	50-8;50-7	false	2	_	_	
+50-7	4158-4160	vi	*	_	_	_	_	_	_	
+50-8	4161-4177	invandrarflickor	*	_	_	_	_	_	_	
+50-9	4178-4181	när	_	_	_	_	_	_	_	
+50-10	4182-4184	vi	_	_	_	_	_	_	_	
+50-11	4185-4189	inte	_	_	_	_	_	_	_	
+50-12	4190-4195	vågar	_	_	_	_	_	_	_	
+50-13	4196-4201	sätta	_	_	_	_	_	_	_	
+50-14	4202-4205	upp	_	_	_	_	_	_	_	
+50-15	4206-4208	en	_	_	_	_	_	_	_	
+50-16	4209-4214	gräns	_	_	_	_	_	_	_	
+50-17	4215-4218	för	_	_	_	_	_	_	_	
+50-18	4219-4236	religionsfriheten	_	_	_	_	_	_	_	
+50-19	4236-4237	?	_	_	_	_	_	_	_	
+
+#Text=Om slöjliberalernas logik fått råda för 100 år sedan kan man fråga sig om vi hade haft kvinnlig rösträtt i Sverige i dag, skriver Mats Dagerlind.
+51-1	4239-4241	Om	_	_	_	_	_	_	_	
+51-2	4242-4258	slöjliberalernas	_	_	_	_	_	_	_	
+51-3	4259-4264	logik	_	_	_	_	_	_	_	
+51-4	4265-4269	fått	_	_	_	_	_	_	_	
+51-5	4270-4274	råda	_	_	_	_	_	_	_	
+51-6	4275-4278	för	_	_	_	_	_	_	_	
+51-7	4279-4282	100	_	_	_	_	_	_	_	
+51-8	4283-4285	år	_	_	_	_	_	_	_	
+51-9	4286-4291	sedan	_	_	_	_	_	_	_	
+51-10	4292-4295	kan	_	_	_	_	_	_	_	
+51-11	4296-4299	man	_	_	_	_	_	_	_	
+51-12	4300-4305	fråga	_	_	_	_	_	_	_	
+51-13	4306-4309	sig	_	_	_	_	_	_	_	
+51-14	4310-4312	om	_	_	_	_	_	_	_	
+51-15	4313-4315	vi	_	_	_	_	_	_	_	
+51-16	4316-4320	hade	_	_	_	_	_	_	_	
+51-17	4321-4325	haft	_	_	_	_	_	_	_	
+51-18	4326-4334	kvinnlig	_	_	_	_	_	_	_	
+51-19	4335-4343	rösträtt	_	_	_	_	_	_	_	
+51-20	4344-4345	i	_	_	_	_	_	_	_	
+51-21	4346-4353	Sverige	_	_	_	_	_	_	_	
+51-22	4354-4355	i	_	_	_	_	_	_	_	
+51-23	4356-4359	dag	_	_	_	_	_	_	_	
+51-24	4359-4360	,	_	_	_	_	_	_	_	
+51-25	4361-4368	skriver	_	_	_	_	_	_	_	
+51-26	4369-4373	Mats	_	_	_	_	_	_	_	
+51-27	4374-4383	Dagerlind	_	_	_	_	_	_	_	
+51-28	4383-4384	.	_	_	_	_	_	_	_	

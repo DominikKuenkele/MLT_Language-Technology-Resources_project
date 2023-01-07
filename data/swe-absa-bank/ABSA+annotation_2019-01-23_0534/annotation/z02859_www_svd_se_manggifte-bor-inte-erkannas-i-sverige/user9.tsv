@@ -1,0 +1,1114 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Something|
+#T_SP=webanno.custom.SentimentTerm|ROLE_webanno.custom.SentimentTerm:arguments_webanno.custom.SentimentTermArgumentsLink|webanno.custom.Something|irony|sentiment
+#T_RL=webanno.custom.PartOf|BT_webanno.custom.SentimentTerm
+#T_RL=webanno.custom.RefersTo|BT_webanno.custom.Something
+
+
+#Text=#D IMM.
+1-1	0-1	#	_	_	_	_	_	_	_	
+1-2	1-2	D	_	_	_	_	_	_	_	
+1-3	3-6	IMM	_	_	_	_	_	_	_	
+1-4	6-7	.	_	_	_	_	_	_	_	
+
+#Text=#T IMM.
+2-1	9-10	#	_	_	_	_	_	_	_	
+2-2	10-11	T	_	_	_	_	_	_	_	
+2-3	12-15	IMM	_	_	_	_	_	_	_	
+2-4	15-16	.	_	_	_	_	_	_	_	
+
+#Text=Månggifte bör inte erkännas i Sverige.
+3-1	18-27	Månggifte	*	_	_	_	_	_	_	
+3-2	28-31	bör	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-3	32-36	inte	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-4	37-45	erkännas	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-5	46-47	i	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-6	48-55	Sverige	_	Target[1]	3-1	false[1]	2[1]	_	_	
+3-7	55-56	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+4-1	58-59	#	_	_	_	_	_	_	_	
+4-2	59-60	P	_	_	_	_	_	_	_	
+4-3	61-64	IMM	_	_	_	_	_	_	_	
+4-4	64-65	.	_	_	_	_	_	_	_	
+
+#Text=Polygama äktenskap (månggifte) som ingåtts utomlands av personer utan anknytning till Sverige bör inte erkännas av svenska domstolar och myndigheter.
+5-1	67-75	Polygama	*[10]	_	_	_	_	_	_	
+5-2	76-85	äktenskap	*[10]	_	_	_	_	_	_	
+5-3	86-87	(	*[10]	_	_	_	_	_	_	
+5-4	87-96	månggifte	*[10]	_	_	_	_	_	_	
+5-5	96-97	)	*[10]	_	_	_	_	_	_	
+5-6	98-101	som	*[10]	_	_	_	_	_	_	
+5-7	102-109	ingåtts	*[10]	_	_	_	_	_	_	
+5-8	110-119	utomlands	*[10]	_	_	_	_	_	_	
+5-9	120-122	av	*[10]	_	_	_	_	_	_	
+5-10	123-131	personer	*[10]	_	_	_	_	_	_	
+5-11	132-136	utan	*[10]	_	_	_	_	_	_	
+5-12	137-147	anknytning	*[10]	_	_	_	_	_	_	
+5-13	148-152	till	*[10]	_	_	_	_	_	_	
+5-14	153-160	Sverige	*[10]	_	_	_	_	_	_	
+5-15	161-164	bör	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-16	165-169	inte	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-17	170-178	erkännas	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-18	179-181	av	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-19	182-189	svenska	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-20	190-199	domstolar	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-21	200-203	och	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-22	204-215	myndigheter	_	Target[2]	5-1[10]	false[2]	2[2]	_	_	
+5-23	215-216	.	_	_	_	_	_	_	_	
+
+#Text=Det skriver professor Göran Lind, Örebro universitet.
+6-1	217-220	Det	_	_	_	_	_	_	_	
+6-2	221-228	skriver	_	_	_	_	_	_	_	
+6-3	229-238	professor	_	_	_	_	_	_	_	
+6-4	239-244	Göran	_	_	_	_	_	_	_	
+6-5	245-249	Lind	_	_	_	_	_	_	_	
+6-6	249-250	,	_	_	_	_	_	_	_	
+6-7	251-257	Örebro	_	_	_	_	_	_	_	
+6-8	258-269	universitet	_	_	_	_	_	_	_	
+6-9	269-270	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+7-1	272-273	#	_	_	_	_	_	_	_	
+7-2	273-274	P	_	_	_	_	_	_	_	
+7-3	275-278	IMM	_	_	_	_	_	_	_	
+7-4	278-279	.	_	_	_	_	_	_	_	
+
+#Text=I en jubileumsbok som kommit ut i dagarna "Svensk Juristtidning 100 år" (Iustus förlag) har ett antal rättsvetenskapliga författare fått i uppdrag att spekulera om juridikens framtida utveckling.
+8-1	281-282	I	_	_	_	_	_	_	_	
+8-2	283-285	en	_	_	_	_	_	_	_	
+8-3	286-298	jubileumsbok	_	_	_	_	_	_	_	
+8-4	299-302	som	_	_	_	_	_	_	_	
+8-5	303-309	kommit	_	_	_	_	_	_	_	
+8-6	310-312	ut	_	_	_	_	_	_	_	
+8-7	313-314	i	_	_	_	_	_	_	_	
+8-8	315-322	dagarna	_	_	_	_	_	_	_	
+8-9	323-324	"	_	_	_	_	_	_	_	
+8-10	324-330	Svensk	_	_	_	_	_	_	_	
+8-11	331-344	Juristtidning	_	_	_	_	_	_	_	
+8-12	345-348	100	_	_	_	_	_	_	_	
+8-13	349-351	år	_	_	_	_	_	_	_	
+8-14	351-352	"	_	_	_	_	_	_	_	
+8-15	353-354	(	_	_	_	_	_	_	_	
+8-16	354-360	Iustus	_	_	_	_	_	_	_	
+8-17	361-367	förlag	_	_	_	_	_	_	_	
+8-18	367-368	)	_	_	_	_	_	_	_	
+8-19	369-372	har	_	_	_	_	_	_	_	
+8-20	373-376	ett	_	_	_	_	_	_	_	
+8-21	377-382	antal	_	_	_	_	_	_	_	
+8-22	383-401	rättsvetenskapliga	_	_	_	_	_	_	_	
+8-23	402-412	författare	_	_	_	_	_	_	_	
+8-24	413-417	fått	_	_	_	_	_	_	_	
+8-25	418-419	i	_	_	_	_	_	_	_	
+8-26	420-427	uppdrag	_	_	_	_	_	_	_	
+8-27	428-431	att	_	_	_	_	_	_	_	
+8-28	432-441	spekulera	_	_	_	_	_	_	_	
+8-29	442-444	om	_	_	_	_	_	_	_	
+8-30	445-455	juridikens	_	_	_	_	_	_	_	
+8-31	456-464	framtida	_	_	_	_	_	_	_	
+8-32	465-475	utveckling	_	_	_	_	_	_	_	
+8-33	475-476	.	_	_	_	_	_	_	_	
+
+#Text=I mitt bidrag "Utmaningar inom familjerätten", tar jag bland annat upp frågan om polygama äktenskap och de problem dessa medför.
+9-1	477-478	I	_	_	_	_	_	_	_	
+9-2	479-483	mitt	_	_	_	_	_	_	_	
+9-3	484-490	bidrag	_	_	_	_	_	_	_	
+9-4	491-492	"	_	_	_	_	_	_	_	
+9-5	492-502	Utmaningar	_	_	_	_	_	_	_	
+9-6	503-507	inom	_	_	_	_	_	_	_	
+9-7	508-521	familjerätten	_	_	_	_	_	_	_	
+9-8	521-522	"	_	_	_	_	_	_	_	
+9-9	522-523	,	_	_	_	_	_	_	_	
+9-10	524-527	tar	_	_	_	_	_	_	_	
+9-11	528-531	jag	_	_	_	_	_	_	_	
+9-12	532-537	bland	_	_	_	_	_	_	_	
+9-13	538-543	annat	_	_	_	_	_	_	_	
+9-14	544-547	upp	_	_	_	_	_	_	_	
+9-15	548-554	frågan	_	_	_	_	_	_	_	
+9-16	555-557	om	_	_	_	_	_	_	_	
+9-17	558-566	polygama	*[11]	_	_	_	_	_	9-22[0_11]	
+9-18	567-576	äktenskap	*[11]	_	_	_	_	_	_	
+9-19	577-580	och	_	_	_	_	_	_	_	
+9-20	581-583	de	_	_[3]	_	false[3]	2[3]	_	_	
+9-21	584-591	problem	_	_[3]	_	false[3]	2[3]	_	_	
+9-22	592-597	dessa	*	_	_	_	_	_	_	
+9-23	598-604	medför	_	Target	9-22	false	2	9-20[3_0]	_	
+9-24	604-605	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+10-1	607-608	#	_	_	_	_	_	_	_	
+10-2	608-609	P	_	_	_	_	_	_	_	
+10-3	610-613	IMM	_	_	_	_	_	_	_	
+10-4	613-614	.	_	_	_	_	_	_	_	
+
+#Text=Det här är en argumenterande text med syfte att påverka.
+11-1	616-619	Det	_	_	_	_	_	_	_	
+11-2	620-623	här	_	_	_	_	_	_	_	
+11-3	624-626	är	_	_	_	_	_	_	_	
+11-4	627-629	en	_	_	_	_	_	_	_	
+11-5	630-644	argumenterande	_	_	_	_	_	_	_	
+11-6	645-649	text	_	_	_	_	_	_	_	
+11-7	650-653	med	_	_	_	_	_	_	_	
+11-8	654-659	syfte	_	_	_	_	_	_	_	
+11-9	660-663	att	_	_	_	_	_	_	_	
+11-10	664-671	påverka	_	_	_	_	_	_	_	
+11-11	671-672	.	_	_	_	_	_	_	_	
+
+#Text=Åsikterna som uttrycks är skribentens egna.
+12-1	673-682	Åsikterna	_	_	_	_	_	_	_	
+12-2	683-686	som	_	_	_	_	_	_	_	
+12-3	687-695	uttrycks	_	_	_	_	_	_	_	
+12-4	696-698	är	_	_	_	_	_	_	_	
+12-5	699-710	skribentens	_	_	_	_	_	_	_	
+12-6	711-715	egna	_	_	_	_	_	_	_	
+12-7	715-716	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+13-1	718-719	#	_	_	_	_	_	_	_	
+13-2	719-720	P	_	_	_	_	_	_	_	
+13-3	721-724	IMM	_	_	_	_	_	_	_	
+13-4	724-725	.	_	_	_	_	_	_	_	
+
+#Text=Svensk lag erkänner i dag i princip utländska polygama äktenskap om de ingåtts i enlighet med de regler som gäller i det främmande landet och makarna vid äktenskapets ingående saknade anknytning till Sverige genom hemvist eller medborgarskap.
+14-1	727-733	Svensk	_	_	_	_	_	_	_	
+14-2	734-737	lag	_	_	_	_	_	_	_	
+14-3	738-746	erkänner	_	_	_	_	_	_	_	
+14-4	747-748	i	_	_	_	_	_	_	_	
+14-5	749-752	dag	_	_	_	_	_	_	_	
+14-6	753-754	i	_	_	_	_	_	_	_	
+14-7	755-762	princip	_	_	_	_	_	_	_	
+14-8	763-772	utländska	_	_	_	_	_	_	_	
+14-9	773-781	polygama	_	_	_	_	_	_	_	
+14-10	782-791	äktenskap	_	_	_	_	_	_	_	
+14-11	792-794	om	_	_	_	_	_	_	_	
+14-12	795-797	de	_	_	_	_	_	_	_	
+14-13	798-805	ingåtts	_	_	_	_	_	_	_	
+14-14	806-807	i	_	_	_	_	_	_	_	
+14-15	808-816	enlighet	_	_	_	_	_	_	_	
+14-16	817-820	med	_	_	_	_	_	_	_	
+14-17	821-823	de	_	_	_	_	_	_	_	
+14-18	824-830	regler	_	_	_	_	_	_	_	
+14-19	831-834	som	_	_	_	_	_	_	_	
+14-20	835-841	gäller	_	_	_	_	_	_	_	
+14-21	842-843	i	_	_	_	_	_	_	_	
+14-22	844-847	det	_	_	_	_	_	_	_	
+14-23	848-857	främmande	_	_	_	_	_	_	_	
+14-24	858-864	landet	_	_	_	_	_	_	_	
+14-25	865-868	och	_	_	_	_	_	_	_	
+14-26	869-876	makarna	_	_	_	_	_	_	_	
+14-27	877-880	vid	_	_	_	_	_	_	_	
+14-28	881-893	äktenskapets	_	_	_	_	_	_	_	
+14-29	894-902	ingående	_	_	_	_	_	_	_	
+14-30	903-910	saknade	_	_	_	_	_	_	_	
+14-31	911-921	anknytning	_	_	_	_	_	_	_	
+14-32	922-926	till	_	_	_	_	_	_	_	
+14-33	927-934	Sverige	_	_	_	_	_	_	_	
+14-34	935-940	genom	_	_	_	_	_	_	_	
+14-35	941-948	hemvist	_	_	_	_	_	_	_	
+14-36	949-954	eller	_	_	_	_	_	_	_	
+14-37	955-968	medborgarskap	_	_	_	_	_	_	_	
+14-38	968-969	.	_	_	_	_	_	_	_	
+
+#Text=Erkännande förutsätter vidare att det inte är sannolikt att äktenskapet tillkommit genom tvång.
+15-1	970-980	Erkännande	_	_	_	_	_	_	_	
+15-2	981-992	förutsätter	_	_	_	_	_	_	_	
+15-3	993-999	vidare	_	_	_	_	_	_	_	
+15-4	1000-1003	att	_	_	_	_	_	_	_	
+15-5	1004-1007	det	_	_	_	_	_	_	_	
+15-6	1008-1012	inte	_	_	_	_	_	_	_	
+15-7	1013-1015	är	_	_	_	_	_	_	_	
+15-8	1016-1025	sannolikt	_	_	_	_	_	_	_	
+15-9	1026-1029	att	_	_	_	_	_	_	_	
+15-10	1030-1041	äktenskapet	_	_	_	_	_	_	_	
+15-11	1042-1052	tillkommit	_	_	_	_	_	_	_	
+15-12	1053-1058	genom	_	_	_	_	_	_	_	
+15-13	1059-1064	tvång	_	_	_	_	_	_	_	
+15-14	1064-1065	.	_	_	_	_	_	_	_	
+
+#Text=Skatteverket som handhar folkbokföringen har som en följd härav erkänt och registrerat hundratals polygama äktenskap.
+16-1	1066-1078	Skatteverket	_	_	_	_	_	_	_	
+16-2	1079-1082	som	_	_	_	_	_	_	_	
+16-3	1083-1090	handhar	_	_	_	_	_	_	_	
+16-4	1091-1106	folkbokföringen	_	_	_	_	_	_	_	
+16-5	1107-1110	har	_	_	_	_	_	_	_	
+16-6	1111-1114	som	_	_	_	_	_	_	_	
+16-7	1115-1117	en	_	_	_	_	_	_	_	
+16-8	1118-1123	följd	_	_	_	_	_	_	_	
+16-9	1124-1129	härav	_	_	_	_	_	_	_	
+16-10	1130-1136	erkänt	_	_	_	_	_	_	_	
+16-11	1137-1140	och	_	_	_	_	_	_	_	
+16-12	1141-1152	registrerat	_	_	_	_	_	_	_	
+16-13	1153-1163	hundratals	_	_	_	_	_	_	_	
+16-14	1164-1172	polygama	_	_	_	_	_	_	_	
+16-15	1173-1182	äktenskap	_	_	_	_	_	_	_	
+16-16	1182-1183	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+17-1	1185-1186	#	_	_	_	_	_	_	_	
+17-2	1186-1187	P	_	_	_	_	_	_	_	
+17-3	1188-1191	IMM	_	_	_	_	_	_	_	
+17-4	1191-1192	.	_	_	_	_	_	_	_	
+
+#Text=Erkännande av polygama äktenskap skapar komplicerade tillämpningsproblem när en sådan familj bosätter sig i vårt land.
+18-1	1194-1204	Erkännande	*[12]	_	_	_	_	_	_	
+18-2	1205-1207	av	*[12]	_	_	_	_	_	_	
+18-3	1208-1216	polygama	*[12]	_	_	_	_	_	_	
+18-4	1217-1226	äktenskap	*[12]	_	_	_	_	_	_	
+18-5	1227-1233	skapar	_	Target[4]	18-1[12]	false[4]	2[4]	_	_	
+18-6	1234-1246	komplicerade	_	Target[4]	18-1[12]	false[4]	2[4]	_	_	
+18-7	1247-1266	tillämpningsproblem	_	Target[4]	18-1[12]	false[4]	2[4]	_	_	
+18-8	1267-1270	när	_	_	_	_	_	_	_	
+18-9	1271-1273	en	_	_	_	_	_	_	_	
+18-10	1274-1279	sådan	_	_	_	_	_	_	_	
+18-11	1280-1286	familj	_	_	_	_	_	_	_	
+18-12	1287-1295	bosätter	_	_	_	_	_	_	_	
+18-13	1296-1299	sig	_	_	_	_	_	_	_	
+18-14	1300-1301	i	_	_	_	_	_	_	_	
+18-15	1302-1306	vårt	_	_	_	_	_	_	_	
+18-16	1307-1311	land	_	_	_	_	_	_	_	
+18-17	1311-1312	.	_	_	_	_	_	_	_	
+
+#Text=Om exempelvis en irakisk man med tre hustrur avlider uppkommer frågan om alla hans fruar skall tillerkännas giftorätt och arvsrätt i boet och om de i så fall ska tillerkännas endast en tredjedel av vad en monogam hustru får.
+19-1	1313-1315	Om	_	_	_	_	_	_	_	
+19-2	1316-1326	exempelvis	_	_	_	_	_	_	_	
+19-3	1327-1329	en	_	_	_	_	_	_	_	
+19-4	1330-1337	irakisk	_	_	_	_	_	_	_	
+19-5	1338-1341	man	_	_	_	_	_	_	_	
+19-6	1342-1345	med	_	_	_	_	_	_	_	
+19-7	1346-1349	tre	_	_	_	_	_	_	_	
+19-8	1350-1357	hustrur	_	_	_	_	_	_	_	
+19-9	1358-1365	avlider	_	_	_	_	_	_	_	
+19-10	1366-1375	uppkommer	_	_	_	_	_	_	_	
+19-11	1376-1382	frågan	_	_	_	_	_	_	_	
+19-12	1383-1385	om	_	_	_	_	_	_	_	
+19-13	1386-1390	alla	_	_	_	_	_	_	_	
+19-14	1391-1395	hans	_	_	_	_	_	_	_	
+19-15	1396-1401	fruar	_	_	_	_	_	_	_	
+19-16	1402-1407	skall	_	_	_	_	_	_	_	
+19-17	1408-1420	tillerkännas	_	_	_	_	_	_	_	
+19-18	1421-1430	giftorätt	_	_	_	_	_	_	_	
+19-19	1431-1434	och	_	_	_	_	_	_	_	
+19-20	1435-1443	arvsrätt	_	_	_	_	_	_	_	
+19-21	1444-1445	i	_	_	_	_	_	_	_	
+19-22	1446-1450	boet	_	_	_	_	_	_	_	
+19-23	1451-1454	och	_	_	_	_	_	_	_	
+19-24	1455-1457	om	_	_	_	_	_	_	_	
+19-25	1458-1460	de	_	_	_	_	_	_	_	
+19-26	1461-1462	i	_	_	_	_	_	_	_	
+19-27	1463-1465	så	_	_	_	_	_	_	_	
+19-28	1466-1470	fall	_	_	_	_	_	_	_	
+19-29	1471-1474	ska	_	_	_	_	_	_	_	
+19-30	1475-1487	tillerkännas	_	_	_	_	_	_	_	
+19-31	1488-1494	endast	_	_	_	_	_	_	_	
+19-32	1495-1497	en	_	_	_	_	_	_	_	
+19-33	1498-1507	tredjedel	_	_	_	_	_	_	_	
+19-34	1508-1510	av	_	_	_	_	_	_	_	
+19-35	1511-1514	vad	_	_	_	_	_	_	_	
+19-36	1515-1517	en	_	_	_	_	_	_	_	
+19-37	1518-1525	monogam	_	_	_	_	_	_	_	
+19-38	1526-1532	hustru	_	_	_	_	_	_	_	
+19-39	1533-1536	får	_	_	_	_	_	_	_	
+19-40	1536-1537	.	_	_	_	_	_	_	_	
+
+#Text=Frågan inställer sig vidare hur fruarnas anspråk och rättigheter förhåller sig till varandra och till utomstående.
+20-1	1538-1544	Frågan	_	_	_	_	_	_	_	
+20-2	1545-1554	inställer	_	_	_	_	_	_	_	
+20-3	1555-1558	sig	_	_	_	_	_	_	_	
+20-4	1559-1565	vidare	_	_	_	_	_	_	_	
+20-5	1566-1569	hur	_	_	_	_	_	_	_	
+20-6	1570-1578	fruarnas	_	_	_	_	_	_	_	
+20-7	1579-1586	anspråk	_	_	_	_	_	_	_	
+20-8	1587-1590	och	_	_	_	_	_	_	_	
+20-9	1591-1602	rättigheter	_	_	_	_	_	_	_	
+20-10	1603-1612	förhåller	_	_	_	_	_	_	_	
+20-11	1613-1616	sig	_	_	_	_	_	_	_	
+20-12	1617-1621	till	_	_	_	_	_	_	_	
+20-13	1622-1630	varandra	_	_	_	_	_	_	_	
+20-14	1631-1634	och	_	_	_	_	_	_	_	
+20-15	1635-1639	till	_	_	_	_	_	_	_	
+20-16	1640-1651	utomstående	_	_	_	_	_	_	_	
+20-17	1651-1652	.	_	_	_	_	_	_	_	
+
+#Text=Ska den avlidnes barn anses som gemensamma barn eller särkullbarn i de olika relationerna.
+21-1	1653-1656	Ska	_	_	_	_	_	_	_	
+21-2	1657-1660	den	_	_	_	_	_	_	_	
+21-3	1661-1669	avlidnes	_	_	_	_	_	_	_	
+21-4	1670-1674	barn	_	_	_	_	_	_	_	
+21-5	1675-1680	anses	_	_	_	_	_	_	_	
+21-6	1681-1684	som	_	_	_	_	_	_	_	
+21-7	1685-1695	gemensamma	_	_	_	_	_	_	_	
+21-8	1696-1700	barn	_	_	_	_	_	_	_	
+21-9	1701-1706	eller	_	_	_	_	_	_	_	
+21-10	1707-1718	särkullbarn	_	_	_	_	_	_	_	
+21-11	1719-1720	i	_	_	_	_	_	_	_	
+21-12	1721-1723	de	_	_	_	_	_	_	_	
+21-13	1724-1729	olika	_	_	_	_	_	_	_	
+21-14	1730-1742	relationerna	_	_	_	_	_	_	_	
+21-15	1742-1743	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+22-1	1745-1746	#	_	_	_	_	_	_	_	
+22-2	1746-1747	P	_	_	_	_	_	_	_	
+22-3	1748-1751	IMM	_	_	_	_	_	_	_	
+22-4	1751-1752	.	_	_	_	_	_	_	_	
+
+#Text=Liknande tillämpningsfrågor uppkommer vid äktenskapsskillnad mellan mannen och någon eller några av fruarna.
+23-1	1754-1762	Liknande	_	_	_	_	_	_	_	
+23-2	1763-1781	tillämpningsfrågor	_	_	_	_	_	_	_	
+23-3	1782-1791	uppkommer	_	_	_	_	_	_	_	
+23-4	1792-1795	vid	_	_	_	_	_	_	_	
+23-5	1796-1814	äktenskapsskillnad	_	_	_	_	_	_	_	
+23-6	1815-1821	mellan	_	_	_	_	_	_	_	
+23-7	1822-1828	mannen	_	_	_	_	_	_	_	
+23-8	1829-1832	och	_	_	_	_	_	_	_	
+23-9	1833-1838	någon	_	_	_	_	_	_	_	
+23-10	1839-1844	eller	_	_	_	_	_	_	_	
+23-11	1845-1850	några	_	_	_	_	_	_	_	
+23-12	1851-1853	av	_	_	_	_	_	_	_	
+23-13	1854-1861	fruarna	_	_	_	_	_	_	_	
+23-14	1861-1862	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+24-1	1864-1865	#	_	_	_	_	_	_	_	
+24-2	1865-1866	P	_	_	_	_	_	_	_	
+24-3	1867-1870	IMM	_	_	_	_	_	_	_	
+24-4	1870-1871	.	_	_	_	_	_	_	_	
+
+#Text=För dessa och andra fall finns ingen vägledning i lagen.
+25-1	1873-1876	För	_	_	_	_	_	_	_	
+25-2	1877-1882	dessa	_	_	_	_	_	_	_	
+25-3	1883-1886	och	_	_	_	_	_	_	_	
+25-4	1887-1892	andra	_	_	_	_	_	_	_	
+25-5	1893-1897	fall	_	_	_	_	_	_	_	
+25-6	1898-1903	finns	_	_	_	_	_	_	_	
+25-7	1904-1909	ingen	_	_	_	_	_	_	_	
+25-8	1910-1920	vägledning	_	_	_	_	_	_	_	
+25-9	1921-1922	i	_	_	_	_	_	_	_	
+25-10	1923-1928	lagen	_	_	_	_	_	_	_	
+25-11	1928-1929	.	_	_	_	_	_	_	_	
+
+#Text=Lagstiftaren har lämnat åt domstolarna att lösa problemen, vilket framstår som oansvarigt, särskilt som tillämpningen kräver ställningstaganden till en rad principiella frågor.
+26-1	1930-1942	Lagstiftaren	*[13]	_	_	_	_	_	26-10[0_13]	
+26-2	1943-1946	har	*[13]	_	_	_	_	_	_	
+26-3	1947-1953	lämnat	*[13]	_	_	_	_	_	_	
+26-4	1954-1956	åt	*[13]	_	_	_	_	_	_	
+26-5	1957-1968	domstolarna	*[13]	_	_	_	_	_	_	
+26-6	1969-1972	att	*[13]	_	_	_	_	_	_	
+26-7	1973-1977	lösa	*[13]	_	_	_	_	_	_	
+26-8	1978-1987	problemen	*[13]	_	_	_	_	_	_	
+26-9	1987-1988	,	_	_	_	_	_	_	_	
+26-10	1989-1995	vilket	*	_	_	_	_	_	_	
+26-11	1996-2004	framstår	_	Target[5]	26-10	false[5]	2[5]	_	_	
+26-12	2005-2008	som	_	Target[5]	26-10	false[5]	2[5]	_	_	
+26-13	2009-2019	oansvarigt	_	Target[5]	26-10	false[5]	2[5]	_	_	
+26-14	2019-2020	,	_	_	_	_	_	_	_	
+26-15	2021-2029	särskilt	_	_	_	_	_	_	_	
+26-16	2030-2033	som	_	_	_	_	_	_	_	
+26-17	2034-2047	tillämpningen	_	_	_	_	_	_	_	
+26-18	2048-2054	kräver	_	_	_	_	_	_	_	
+26-19	2055-2073	ställningstaganden	_	_	_	_	_	_	_	
+26-20	2074-2078	till	_	_	_	_	_	_	_	
+26-21	2079-2081	en	_	_	_	_	_	_	_	
+26-22	2082-2085	rad	_	_	_	_	_	_	_	
+26-23	2086-2098	principiella	_	_	_	_	_	_	_	
+26-24	2099-2105	frågor	_	_	_	_	_	_	_	
+26-25	2105-2106	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+27-1	2108-2109	#	_	_	_	_	_	_	_	
+27-2	2109-2110	P	_	_	_	_	_	_	_	
+27-3	2111-2114	IMM	_	_	_	_	_	_	_	
+27-4	2114-2115	.	_	_	_	_	_	_	_	
+
+#Text=Det finns dock en yttersta möjlighet att, på samma sätt som när det gäller äktenskap med barn under 15 år, göra undantag från lagens regler om erkännande, nämligen genom att hävda att polygama äktenskap strider mot svensk ordre public, det vill säga grunderna för den svenska rättsordningen.
+28-1	2117-2120	Det	_	_	_	_	_	_	_	
+28-2	2121-2126	finns	_	_	_	_	_	_	_	
+28-3	2127-2131	dock	_	_	_	_	_	_	_	
+28-4	2132-2134	en	_	_	_	_	_	_	_	
+28-5	2135-2143	yttersta	_	_	_	_	_	_	_	
+28-6	2144-2153	möjlighet	_	_	_	_	_	_	_	
+28-7	2154-2157	att	_	_	_	_	_	_	_	
+28-8	2157-2158	,	_	_	_	_	_	_	_	
+28-9	2159-2161	på	_	_	_	_	_	_	_	
+28-10	2162-2167	samma	_	_	_	_	_	_	_	
+28-11	2168-2172	sätt	_	_	_	_	_	_	_	
+28-12	2173-2176	som	_	_	_	_	_	_	_	
+28-13	2177-2180	när	_	_	_	_	_	_	_	
+28-14	2181-2184	det	_	_	_	_	_	_	_	
+28-15	2185-2191	gäller	_	_	_	_	_	_	_	
+28-16	2192-2201	äktenskap	_	_	_	_	_	_	_	
+28-17	2202-2205	med	_	_	_	_	_	_	_	
+28-18	2206-2210	barn	_	_	_	_	_	_	_	
+28-19	2211-2216	under	_	_	_	_	_	_	_	
+28-20	2217-2219	15	_	_	_	_	_	_	_	
+28-21	2220-2222	år	_	_	_	_	_	_	_	
+28-22	2222-2223	,	_	_	_	_	_	_	_	
+28-23	2224-2228	göra	_	_	_	_	_	_	_	
+28-24	2229-2237	undantag	_	_	_	_	_	_	_	
+28-25	2238-2242	från	_	_	_	_	_	_	_	
+28-26	2243-2249	lagens	_	_	_	_	_	_	_	
+28-27	2250-2256	regler	_	_	_	_	_	_	_	
+28-28	2257-2259	om	_	_	_	_	_	_	_	
+28-29	2260-2270	erkännande	_	_	_	_	_	_	_	
+28-30	2270-2271	,	_	_	_	_	_	_	_	
+28-31	2272-2280	nämligen	_	_	_	_	_	_	_	
+28-32	2281-2286	genom	_	_	_	_	_	_	_	
+28-33	2287-2290	att	_	_	_	_	_	_	_	
+28-34	2291-2296	hävda	_	_	_	_	_	_	_	
+28-35	2297-2300	att	_	_	_	_	_	_	_	
+28-36	2301-2309	polygama	_	_	_	_	_	_	_	
+28-37	2310-2319	äktenskap	_	_	_	_	_	_	_	
+28-38	2320-2327	strider	_	_	_	_	_	_	_	
+28-39	2328-2331	mot	_	_	_	_	_	_	_	
+28-40	2332-2338	svensk	_	_	_	_	_	_	_	
+28-41	2339-2344	ordre	_	_	_	_	_	_	_	
+28-42	2345-2351	public	_	_	_	_	_	_	_	
+28-43	2351-2352	,	_	_	_	_	_	_	_	
+28-44	2353-2356	det	_	_	_	_	_	_	_	
+28-45	2357-2361	vill	_	_	_	_	_	_	_	
+28-46	2362-2366	säga	_	_	_	_	_	_	_	
+28-47	2367-2376	grunderna	_	_	_	_	_	_	_	
+28-48	2377-2380	för	_	_	_	_	_	_	_	
+28-49	2381-2384	den	_	_	_	_	_	_	_	
+28-50	2385-2392	svenska	_	_	_	_	_	_	_	
+28-51	2393-2407	rättsordningen	_	_	_	_	_	_	_	
+28-52	2407-2408	.	_	_	_	_	_	_	_	
+
+#Text=Till dessa hör principen om likabehandling av makar, en princip som i snart hundra år legat till grund för svensk äktenskapsrätt.
+29-1	2409-2413	Till	_	_	_	_	_	_	_	
+29-2	2414-2419	dessa	_	_	_	_	_	_	_	
+29-3	2420-2423	hör	_	_	_	_	_	_	_	
+29-4	2424-2433	principen	_	_	_	_	_	_	_	
+29-5	2434-2436	om	_	_	_	_	_	_	_	
+29-6	2437-2451	likabehandling	_	_	_	_	_	_	_	
+29-7	2452-2454	av	_	_	_	_	_	_	_	
+29-8	2455-2460	makar	_	_	_	_	_	_	_	
+29-9	2460-2461	,	_	_	_	_	_	_	_	
+29-10	2462-2464	en	_	_	_	_	_	_	_	
+29-11	2465-2472	princip	_	_	_	_	_	_	_	
+29-12	2473-2476	som	_	_	_	_	_	_	_	
+29-13	2477-2478	i	_	_	_	_	_	_	_	
+29-14	2479-2484	snart	_	_	_	_	_	_	_	
+29-15	2485-2491	hundra	_	_	_	_	_	_	_	
+29-16	2492-2494	år	_	_	_	_	_	_	_	
+29-17	2495-2500	legat	_	_	_	_	_	_	_	
+29-18	2501-2505	till	_	_	_	_	_	_	_	
+29-19	2506-2511	grund	_	_	_	_	_	_	_	
+29-20	2512-2515	för	_	_	_	_	_	_	_	
+29-21	2516-2522	svensk	_	_	_	_	_	_	_	
+29-22	2523-2537	äktenskapsrätt	_	_	_	_	_	_	_	
+29-23	2537-2538	.	_	_	_	_	_	_	_	
+
+#Text=Tre kvinnor som nödgas dela på det som tillkommer en kvinna kan inte anses vara jämställda med mannen.
+30-1	2539-2542	Tre	_	_	_	_	_	_	_	
+30-2	2543-2550	kvinnor	_	_	_	_	_	_	_	
+30-3	2551-2554	som	_	_	_	_	_	_	_	
+30-4	2555-2561	nödgas	_	Target	30-5[14]	false	2	_	_	
+30-5	2562-2566	dela	*[14]	_	_	_	_	_	_	
+30-6	2567-2569	på	*[14]	_	_	_	_	_	_	
+30-7	2570-2573	det	*[14]	_	_	_	_	_	_	
+30-8	2574-2577	som	*[14]	_	_	_	_	_	_	
+30-9	2578-2588	tillkommer	*[14]	_	_	_	_	_	_	
+30-10	2589-2591	en	*[14]	_	_	_	_	_	_	
+30-11	2592-2598	kvinna	*[14]	_	_	_	_	_	_	
+30-12	2599-2602	kan	_	_	_	_	_	_	_	
+30-13	2603-2607	inte	_	_	_	_	_	_	_	
+30-14	2608-2613	anses	_	_	_	_	_	_	_	
+30-15	2614-2618	vara	_	_	_	_	_	_	_	
+30-16	2619-2629	jämställda	_	_	_	_	_	_	_	
+30-17	2630-2633	med	_	_	_	_	_	_	_	
+30-18	2634-2640	mannen	_	_	_	_	_	_	_	
+30-19	2640-2641	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+31-1	2643-2644	#	_	_	_	_	_	_	_	
+31-2	2644-2645	P	_	_	_	_	_	_	_	
+31-3	2646-2649	IMM	_	_	_	_	_	_	_	
+31-4	2649-2650	.	_	_	_	_	_	_	_	
+
+#Text=Till stöd för en svensk ordre public kan även åberopas regeringsformens krav på respekt för alla människors lika värde, kravet att ingen får missgynnas på grund av sitt kön och grundlagens stöd för jämställdhet mellan kvinnor och män, vilket även kommer till uttryck i Europakonventionen om de mänskliga rättigheterna.
+32-1	2652-2656	Till	_	_	_	_	_	_	_	
+32-2	2657-2661	stöd	_	_	_	_	_	_	_	
+32-3	2662-2665	för	_	_	_	_	_	_	_	
+32-4	2666-2668	en	_	_	_	_	_	_	_	
+32-5	2669-2675	svensk	_	_	_	_	_	_	_	
+32-6	2676-2681	ordre	_	_	_	_	_	_	_	
+32-7	2682-2688	public	_	_	_	_	_	_	_	
+32-8	2689-2692	kan	_	_	_	_	_	_	_	
+32-9	2693-2697	även	_	_	_	_	_	_	_	
+32-10	2698-2706	åberopas	_	_	_	_	_	_	_	
+32-11	2707-2723	regeringsformens	_	_	_	_	_	_	_	
+32-12	2724-2728	krav	_	_	_	_	_	_	_	
+32-13	2729-2731	på	_	_	_	_	_	_	_	
+32-14	2732-2739	respekt	_	_	_	_	_	_	_	
+32-15	2740-2743	för	_	_	_	_	_	_	_	
+32-16	2744-2748	alla	_	_	_	_	_	_	_	
+32-17	2749-2759	människors	_	_	_	_	_	_	_	
+32-18	2760-2764	lika	_	_	_	_	_	_	_	
+32-19	2765-2770	värde	_	_	_	_	_	_	_	
+32-20	2770-2771	,	_	_	_	_	_	_	_	
+32-21	2772-2778	kravet	_	_	_	_	_	_	_	
+32-22	2779-2782	att	_	_	_	_	_	_	_	
+32-23	2783-2788	ingen	_	_	_	_	_	_	_	
+32-24	2789-2792	får	_	_	_	_	_	_	_	
+32-25	2793-2803	missgynnas	_	_	_	_	_	_	_	
+32-26	2804-2806	på	_	_	_	_	_	_	_	
+32-27	2807-2812	grund	_	_	_	_	_	_	_	
+32-28	2813-2815	av	_	_	_	_	_	_	_	
+32-29	2816-2820	sitt	_	_	_	_	_	_	_	
+32-30	2821-2824	kön	_	_	_	_	_	_	_	
+32-31	2825-2828	och	_	_	_	_	_	_	_	
+32-32	2829-2840	grundlagens	_	_	_	_	_	_	_	
+32-33	2841-2845	stöd	_	_	_	_	_	_	_	
+32-34	2846-2849	för	_	_	_	_	_	_	_	
+32-35	2850-2862	jämställdhet	_	_	_	_	_	_	_	
+32-36	2863-2869	mellan	_	_	_	_	_	_	_	
+32-37	2870-2877	kvinnor	_	_	_	_	_	_	_	
+32-38	2878-2881	och	_	_	_	_	_	_	_	
+32-39	2882-2885	män	_	_	_	_	_	_	_	
+32-40	2885-2886	,	_	_	_	_	_	_	_	
+32-41	2887-2893	vilket	_	_	_	_	_	_	_	
+32-42	2894-2898	även	_	_	_	_	_	_	_	
+32-43	2899-2905	kommer	_	_	_	_	_	_	_	
+32-44	2906-2910	till	_	_	_	_	_	_	_	
+32-45	2911-2918	uttryck	_	_	_	_	_	_	_	
+32-46	2919-2920	i	_	_	_	_	_	_	_	
+32-47	2921-2939	Europakonventionen	_	_	_	_	_	_	_	
+32-48	2940-2942	om	_	_	_	_	_	_	_	
+32-49	2943-2945	de	_	_	_	_	_	_	_	
+32-50	2946-2955	mänskliga	_	_	_	_	_	_	_	
+32-51	2956-2969	rättigheterna	_	_	_	_	_	_	_	
+32-52	2969-2970	.	_	_	_	_	_	_	_	
+
+#Text=Utlänningslagen har även implementerat ett EU-direktiv som i viss mån vänder sig mot polygama äktenskap.
+33-1	2971-2986	Utlänningslagen	_	_	_	_	_	_	_	
+33-2	2987-2990	har	_	_	_	_	_	_	_	
+33-3	2991-2995	även	_	_	_	_	_	_	_	
+33-4	2996-3009	implementerat	_	_	_	_	_	_	_	
+33-5	3010-3013	ett	*[15]	_	_	_	_	_	33-7[0_15]	
+33-6	3014-3025	EU-direktiv	*[15]	_	_	_	_	_	_	
+33-7	3026-3029	som	*	_	_	_	_	_	_	
+33-8	3030-3031	i	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-9	3032-3036	viss	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-10	3037-3040	mån	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-11	3041-3047	vänder	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-12	3048-3051	sig	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-13	3052-3055	mot	_	Target;Source[6]	33-14[16];33-7	false[6]	2[6]	_	_	
+33-14	3056-3064	polygama	*[16]	_	_	_	_	_	_	
+33-15	3065-3074	äktenskap	*[16]	_	_	_	_	_	_	
+33-16	3074-3075	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+34-1	3077-3078	#	_	_	_	_	_	_	_	
+34-2	3078-3079	P	_	_	_	_	_	_	_	
+34-3	3080-3083	IMM	_	_	_	_	_	_	_	
+34-4	3083-3084	.	_	_	_	_	_	_	_	
+
+#Text=Svenska domstolar och myndigheter rekommenderas därför att inte erkänna utländska polygama äktenskap.
+35-1	3086-3093	Svenska	_	_	_	_	_	_	_	
+35-2	3094-3103	domstolar	_	_	_	_	_	_	_	
+35-3	3104-3107	och	_	_	_	_	_	_	_	
+35-4	3108-3119	myndigheter	_	_	_	_	_	_	_	
+35-5	3120-3133	rekommenderas	_	_	_	_	_	_	_	
+35-6	3134-3140	därför	_	_	_	_	_	_	_	
+35-7	3141-3144	att	_	_	_	_	_	_	_	
+35-8	3145-3149	inte	_	_	_	_	_	_	_	
+35-9	3150-3157	erkänna	_	_	_	_	_	_	_	
+35-10	3158-3167	utländska	_	_	_	_	_	_	_	
+35-11	3168-3176	polygama	_	_	_	_	_	_	_	
+35-12	3177-3186	äktenskap	_	_	_	_	_	_	_	
+35-13	3186-3187	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+36-1	3189-3190	#	_	_	_	_	_	_	_	
+36-2	3190-3191	P	_	_	_	_	_	_	_	
+36-3	3192-3195	IMM	_	_	_	_	_	_	_	
+36-4	3195-3196	.	_	_	_	_	_	_	_	
+
+#Text=Polygama äktenskap kan i dag inte formellt ingås i Sverige.
+37-1	3198-3206	Polygama	_	_	_	_	_	_	_	
+37-2	3207-3216	äktenskap	_	_	_	_	_	_	_	
+37-3	3217-3220	kan	_	_	_	_	_	_	_	
+37-4	3221-3222	i	_	_	_	_	_	_	_	
+37-5	3223-3226	dag	_	_	_	_	_	_	_	
+37-6	3227-3231	inte	_	_	_	_	_	_	_	
+37-7	3232-3240	formellt	_	_	_	_	_	_	_	
+37-8	3241-3246	ingås	_	_	_	_	_	_	_	
+37-9	3247-3248	i	_	_	_	_	_	_	_	
+37-10	3249-3256	Sverige	_	_	_	_	_	_	_	
+37-11	3256-3257	.	_	_	_	_	_	_	_	
+
+#Text=Däremot möter det inga rättsliga hinder att flera personer rent faktiskt lever i en polygam familj, vari parterna har polyamorösa förhållanden.
+38-1	3258-3265	Däremot	_	_	_	_	_	_	_	
+38-2	3266-3271	möter	_	_	_	_	_	_	_	
+38-3	3272-3275	det	_	_	_	_	_	_	_	
+38-4	3276-3280	inga	_	_	_	_	_	_	_	
+38-5	3281-3290	rättsliga	_	_	_	_	_	_	_	
+38-6	3291-3297	hinder	_	_	_	_	_	_	_	
+38-7	3298-3301	att	_	_	_	_	_	_	_	
+38-8	3302-3307	flera	_	_	_	_	_	_	_	
+38-9	3308-3316	personer	_	_	_	_	_	_	_	
+38-10	3317-3321	rent	_	_	_	_	_	_	_	
+38-11	3322-3330	faktiskt	_	_	_	_	_	_	_	
+38-12	3331-3336	lever	_	_	_	_	_	_	_	
+38-13	3337-3338	i	_	_	_	_	_	_	_	
+38-14	3339-3341	en	_	_	_	_	_	_	_	
+38-15	3342-3349	polygam	_	_	_	_	_	_	_	
+38-16	3350-3356	familj	_	_	_	_	_	_	_	
+38-17	3356-3357	,	_	_	_	_	_	_	_	
+38-18	3358-3362	vari	_	_	_	_	_	_	_	
+38-19	3363-3371	parterna	_	_	_	_	_	_	_	
+38-20	3372-3375	har	_	_	_	_	_	_	_	
+38-21	3376-3387	polyamorösa	_	_	_	_	_	_	_	
+38-22	3388-3400	förhållanden	_	_	_	_	_	_	_	
+38-23	3400-3401	.	_	_	_	_	_	_	_	
+
+#Text=Det lär även förekomma att muslimska samfund genomför privata vigslar avseende polygama äktenskap med rättsverkningar, som visserligen inte kan genomdrivas med hjälp av svenska myndigheter, men som parterna likväl känner sig bundna av.
+39-1	3402-3405	Det	_	_	_	_	_	_	_	
+39-2	3406-3409	lär	_	_	_	_	_	_	_	
+39-3	3410-3414	även	_	_	_	_	_	_	_	
+39-4	3415-3424	förekomma	_	_	_	_	_	_	_	
+39-5	3425-3428	att	_	_	_	_	_	_	_	
+39-6	3429-3438	muslimska	_	_	_	_	_	_	_	
+39-7	3439-3446	samfund	_	_	_	_	_	_	_	
+39-8	3447-3455	genomför	_	_	_	_	_	_	_	
+39-9	3456-3463	privata	_	_	_	_	_	_	_	
+39-10	3464-3471	vigslar	_	_	_	_	_	_	_	
+39-11	3472-3480	avseende	_	_	_	_	_	_	_	
+39-12	3481-3489	polygama	_	_	_	_	_	_	_	
+39-13	3490-3499	äktenskap	_	_	_	_	_	_	_	
+39-14	3500-3503	med	_	_	_	_	_	_	_	
+39-15	3504-3519	rättsverkningar	_	_	_	_	_	_	_	
+39-16	3519-3520	,	_	_	_	_	_	_	_	
+39-17	3521-3524	som	_	_	_	_	_	_	_	
+39-18	3525-3536	visserligen	_	_	_	_	_	_	_	
+39-19	3537-3541	inte	_	_	_	_	_	_	_	
+39-20	3542-3545	kan	_	_	_	_	_	_	_	
+39-21	3546-3557	genomdrivas	_	_	_	_	_	_	_	
+39-22	3558-3561	med	_	_	_	_	_	_	_	
+39-23	3562-3567	hjälp	_	_	_	_	_	_	_	
+39-24	3568-3570	av	_	_	_	_	_	_	_	
+39-25	3571-3578	svenska	_	_	_	_	_	_	_	
+39-26	3579-3590	myndigheter	_	_	_	_	_	_	_	
+39-27	3590-3591	,	_	_	_	_	_	_	_	
+39-28	3592-3595	men	_	_	_	_	_	_	_	
+39-29	3596-3599	som	_	_	_	_	_	_	_	
+39-30	3600-3608	parterna	_	_	_	_	_	_	_	
+39-31	3609-3615	likväl	_	_	_	_	_	_	_	
+39-32	3616-3622	känner	_	_	_	_	_	_	_	
+39-33	3623-3626	sig	_	_	_	_	_	_	_	
+39-34	3627-3633	bundna	_	_	_	_	_	_	_	
+39-35	3634-3636	av	_	_	_	_	_	_	_	
+39-36	3636-3637	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+40-1	3639-3640	#	_	_	_	_	_	_	_	
+40-2	3640-3641	P	_	_	_	_	_	_	_	
+40-3	3642-3645	IMM	_	_	_	_	_	_	_	
+40-4	3645-3646	.	_	_	_	_	_	_	_	
+
+#Text=Frågan om polygama äktenskap bör kunna ingås i Sverige har blivit alltmer aktuell i anledning av den ökande invandringen från muslimska länder och det liberala intresset av att värna om ett mångkulturellt samhälle.
+41-1	3648-3654	Frågan	_	_	_	_	_	_	_	
+41-2	3655-3657	om	_	_	_	_	_	_	_	
+41-3	3658-3666	polygama	_	_	_	_	_	_	_	
+41-4	3667-3676	äktenskap	_	_	_	_	_	_	_	
+41-5	3677-3680	bör	_	_	_	_	_	_	_	
+41-6	3681-3686	kunna	_	_	_	_	_	_	_	
+41-7	3687-3692	ingås	_	_	_	_	_	_	_	
+41-8	3693-3694	i	_	_	_	_	_	_	_	
+41-9	3695-3702	Sverige	_	_	_	_	_	_	_	
+41-10	3703-3706	har	_	_	_	_	_	_	_	
+41-11	3707-3713	blivit	_	_	_	_	_	_	_	
+41-12	3714-3721	alltmer	_	_	_	_	_	_	_	
+41-13	3722-3729	aktuell	_	_	_	_	_	_	_	
+41-14	3730-3731	i	_	_	_	_	_	_	_	
+41-15	3732-3741	anledning	_	_	_	_	_	_	_	
+41-16	3742-3744	av	_	_	_	_	_	_	_	
+41-17	3745-3748	den	_	_	_	_	_	_	_	
+41-18	3749-3755	ökande	_	_	_	_	_	_	_	
+41-19	3756-3768	invandringen	_	_	_	_	_	_	_	
+41-20	3769-3773	från	_	_	_	_	_	_	_	
+41-21	3774-3783	muslimska	_	_	_	_	_	_	_	
+41-22	3784-3790	länder	_	_	_	_	_	_	_	
+41-23	3791-3794	och	_	_	_	_	_	_	_	
+41-24	3795-3798	det	_	_	_	_	_	_	_	
+41-25	3799-3807	liberala	_	_	_	_	_	_	_	
+41-26	3808-3817	intresset	_	Source;Target[7]	41-34;41-31[17]	false[7]	4[7]	_	_	
+41-27	3818-3820	av	_	Source;Target[7]	41-34;41-31[17]	false[7]	4[7]	_	_	
+41-28	3821-3824	att	_	Source;Target[7]	41-34;41-31[17]	false[7]	4[7]	_	_	
+41-29	3825-3830	värna	_	Source;Target[7]	41-34;41-31[17]	false[7]	4[7]	_	_	
+41-30	3831-3833	om	_	Source;Target[7]	41-34;41-31[17]	false[7]	4[7]	_	_	
+41-31	3834-3837	ett	*[17]	_	_	_	_	_	_	
+41-32	3838-3852	mångkulturellt	*[17]	_	_	_	_	_	_	
+41-33	3853-3861	samhälle	*[17]	_	_	_	_	_	_	
+41-34	3861-3862	.	*	_	_	_	_	_	_	
+
+#Text=Lagstiftarens neutralitet i förhållande till olika samlevnadsformer och moraluppfattningar har berett marken för reformer i denna riktning.
+42-1	3863-3876	Lagstiftarens	_	_	_	_	_	_	_	
+42-2	3877-3888	neutralitet	_	_	_	_	_	_	_	
+42-3	3889-3890	i	_	_	_	_	_	_	_	
+42-4	3891-3902	förhållande	_	_	_	_	_	_	_	
+42-5	3903-3907	till	_	_	_	_	_	_	_	
+42-6	3908-3913	olika	_	_	_	_	_	_	_	
+42-7	3914-3930	samlevnadsformer	_	_	_	_	_	_	_	
+42-8	3931-3934	och	_	_	_	_	_	_	_	
+42-9	3935-3953	moraluppfattningar	_	_	_	_	_	_	_	
+42-10	3954-3957	har	_	_	_	_	_	_	_	
+42-11	3958-3964	berett	_	_	_	_	_	_	_	
+42-12	3965-3971	marken	_	_	_	_	_	_	_	
+42-13	3972-3975	för	_	_	_	_	_	_	_	
+42-14	3976-3984	reformer	_	_	_	_	_	_	_	
+42-15	3985-3986	i	_	_	_	_	_	_	_	
+42-16	3987-3992	denna	_	_	_	_	_	_	_	
+42-17	3993-4001	riktning	_	_	_	_	_	_	_	
+42-18	4001-4002	.	_	_	_	_	_	_	_	
+
+#Text=Kristna värderingar om det monogama äktenskapets särställning har i vårt sekularisera samhälle fått allt svårare att hävda sig.
+43-1	4003-4010	Kristna	_	_	_	_	_	_	_	
+43-2	4011-4022	värderingar	_	_	_	_	_	_	_	
+43-3	4023-4025	om	_	_	_	_	_	_	_	
+43-4	4026-4029	det	_	_	_	_	_	_	_	
+43-5	4030-4038	monogama	_	_	_	_	_	_	_	
+43-6	4039-4051	äktenskapets	_	_	_	_	_	_	_	
+43-7	4052-4064	särställning	_	_	_	_	_	_	_	
+43-8	4065-4068	har	_	_	_	_	_	_	_	
+43-9	4069-4070	i	_	_	_	_	_	_	_	
+43-10	4071-4075	vårt	_	_	_	_	_	_	_	
+43-11	4076-4088	sekularisera	_	_	_	_	_	_	_	
+43-12	4089-4097	samhälle	_	_	_	_	_	_	_	
+43-13	4098-4102	fått	_	_	_	_	_	_	_	
+43-14	4103-4107	allt	_	_	_	_	_	_	_	
+43-15	4108-4115	svårare	_	_	_	_	_	_	_	
+43-16	4116-4119	att	_	_	_	_	_	_	_	
+43-17	4120-4125	hävda	_	_	_	_	_	_	_	
+43-18	4126-4129	sig	_	_	_	_	_	_	_	
+43-19	4129-4130	.	_	_	_	_	_	_	_	
+
+#Text=Det är förvisso ett tidens tecken att en arbetsgrupp inom Centerpartiet för en tid sedan föreslog att polygama äktenskap borde kunna ingås i vårt land.
+44-1	4131-4134	Det	_	_	_	_	_	_	_	
+44-2	4135-4137	är	_	_	_	_	_	_	_	
+44-3	4138-4146	förvisso	_	_	_	_	_	_	_	
+44-4	4147-4150	ett	_	_	_	_	_	_	_	
+44-5	4151-4157	tidens	_	_	_	_	_	_	_	
+44-6	4158-4164	tecken	_	_	_	_	_	_	_	
+44-7	4165-4168	att	_	_	_	_	_	_	_	
+44-8	4169-4171	en	_	_	_	_	_	_	_	
+44-9	4172-4183	arbetsgrupp	_	_	_	_	_	_	_	
+44-10	4184-4188	inom	_	_	_	_	_	_	_	
+44-11	4189-4202	Centerpartiet	_	_	_	_	_	_	_	
+44-12	4203-4206	för	_	_	_	_	_	_	_	
+44-13	4207-4209	en	_	_	_	_	_	_	_	
+44-14	4210-4213	tid	_	_	_	_	_	_	_	
+44-15	4214-4219	sedan	_	_	_	_	_	_	_	
+44-16	4220-4228	föreslog	_	_	_	_	_	_	_	
+44-17	4229-4232	att	_	_	_	_	_	_	_	
+44-18	4233-4241	polygama	_	_	_	_	_	_	_	
+44-19	4242-4251	äktenskap	_	_	_	_	_	_	_	
+44-20	4252-4257	borde	_	_	_	_	_	_	_	
+44-21	4258-4263	kunna	_	_	_	_	_	_	_	
+44-22	4264-4269	ingås	_	_	_	_	_	_	_	
+44-23	4270-4271	i	_	_	_	_	_	_	_	
+44-24	4272-4276	vårt	_	_	_	_	_	_	_	
+44-25	4277-4281	land	_	_	_	_	_	_	_	
+44-26	4281-4282	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+45-1	4284-4285	#	_	_	_	_	_	_	_	
+45-2	4285-4286	P	_	_	_	_	_	_	_	
+45-3	4287-4290	IMM	_	_	_	_	_	_	_	
+45-4	4290-4291	.	_	_	_	_	_	_	_	
+
+#Text=Införandet av en rätt att ingå polygama äktenskap i Sverige kommer att kräva omfattande omarbetningar av den svenska familjerätten.
+46-1	4293-4303	Införandet	_	_	_	_	_	_	_	
+46-2	4304-4306	av	_	_	_	_	_	_	_	
+46-3	4307-4309	en	_	_	_	_	_	_	_	
+46-4	4310-4314	rätt	_	_	_	_	_	_	_	
+46-5	4315-4318	att	_	_	_	_	_	_	_	
+46-6	4319-4323	ingå	_	_	_	_	_	_	_	
+46-7	4324-4332	polygama	_	_	_	_	_	_	_	
+46-8	4333-4342	äktenskap	_	_	_	_	_	_	_	
+46-9	4343-4344	i	_	_	_	_	_	_	_	
+46-10	4345-4352	Sverige	_	_	_	_	_	_	_	
+46-11	4353-4359	kommer	_	_	_	_	_	_	_	
+46-12	4360-4363	att	_	_	_	_	_	_	_	
+46-13	4364-4369	kräva	_	_	_	_	_	_	_	
+46-14	4370-4380	omfattande	_	_	_	_	_	_	_	
+46-15	4381-4394	omarbetningar	_	_	_	_	_	_	_	
+46-16	4395-4397	av	_	_	_	_	_	_	_	
+46-17	4398-4401	den	_	_	_	_	_	_	_	
+46-18	4402-4409	svenska	_	_	_	_	_	_	_	
+46-19	4410-4423	familjerätten	_	_	_	_	_	_	_	
+46-20	4423-4424	.	_	_	_	_	_	_	_	
+
+#Text=Behovet av beteendevetenskaplig forskning rörande makars och barns välbefinnande i polygama relationer är påtagligt.
+47-1	4425-4432	Behovet	_	_	_	_	_	_	_	
+47-2	4433-4435	av	_	_	_	_	_	_	_	
+47-3	4436-4456	beteendevetenskaplig	_	_	_	_	_	_	_	
+47-4	4457-4466	forskning	_	_	_	_	_	_	_	
+47-5	4467-4474	rörande	_	_	_	_	_	_	_	
+47-6	4475-4481	makars	_	_	_	_	_	_	_	
+47-7	4482-4485	och	_	_	_	_	_	_	_	
+47-8	4486-4491	barns	_	_	_	_	_	_	_	
+47-9	4492-4505	välbefinnande	_	_	_	_	_	_	_	
+47-10	4506-4507	i	_	_	_	_	_	_	_	
+47-11	4508-4516	polygama	_	_	_	_	_	_	_	
+47-12	4517-4527	relationer	_	_	_	_	_	_	_	
+47-13	4528-4530	är	_	_	_	_	_	_	_	
+47-14	4531-4540	påtagligt	_	_	_	_	_	_	_	
+47-15	4540-4541	.	_	_	_	_	_	_	_	
+
+#Text=Det gäller inte minst identitetsfrågor och riskerna för sociala och psykologiska konflikter inom familjen.
+48-1	4542-4545	Det	_	_	_	_	_	_	_	
+48-2	4546-4552	gäller	_	_	_	_	_	_	_	
+48-3	4553-4557	inte	_	_	_	_	_	_	_	
+48-4	4558-4563	minst	_	_	_	_	_	_	_	
+48-5	4564-4580	identitetsfrågor	_	_	_	_	_	_	_	
+48-6	4581-4584	och	_	_	_	_	_	_	_	
+48-7	4585-4593	riskerna	_	_	_	_	_	_	_	
+48-8	4594-4597	för	_	_	_	_	_	_	_	
+48-9	4598-4605	sociala	_	_	_	_	_	_	_	
+48-10	4606-4609	och	_	_	_	_	_	_	_	
+48-11	4610-4622	psykologiska	_	_	_	_	_	_	_	
+48-12	4623-4633	konflikter	_	_	_	_	_	_	_	
+48-13	4634-4638	inom	_	_	_	_	_	_	_	
+48-14	4639-4647	familjen	_	_	_	_	_	_	_	
+48-15	4647-4648	.	_	_	_	_	_	_	_	
+
+#Text=Innan frågan om ingående av polygama äktenskap i Sverige på allvar aktualiseras framstår det som nödvändigt att sådan forskning genomförs.
+49-1	4649-4654	Innan	_	_	_	_	_	_	_	
+49-2	4655-4661	frågan	_	_	_	_	_	_	_	
+49-3	4662-4664	om	_	_	_	_	_	_	_	
+49-4	4665-4673	ingående	_	_	_	_	_	_	_	
+49-5	4674-4676	av	_	_	_	_	_	_	_	
+49-6	4677-4685	polygama	_	_	_	_	_	_	_	
+49-7	4686-4695	äktenskap	_	_	_	_	_	_	_	
+49-8	4696-4697	i	_	_	_	_	_	_	_	
+49-9	4698-4705	Sverige	_	_	_	_	_	_	_	
+49-10	4706-4708	på	_	_	_	_	_	_	_	
+49-11	4709-4715	allvar	_	_	_	_	_	_	_	
+49-12	4716-4728	aktualiseras	_	_	_	_	_	_	_	
+49-13	4729-4737	framstår	_	_	_	_	_	_	_	
+49-14	4738-4741	det	_	_	_	_	_	_	_	
+49-15	4742-4745	som	_	_	_	_	_	_	_	
+49-16	4746-4756	nödvändigt	_	_	_	_	_	_	_	
+49-17	4757-4760	att	_	_	_	_	_	_	_	
+49-18	4761-4766	sådan	_	_	_	_	_	_	_	
+49-19	4767-4776	forskning	_	_	_	_	_	_	_	
+49-20	4777-4786	genomförs	_	_	_	_	_	_	_	
+49-21	4786-4787	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+50-1	4789-4790	#	_	_	_	_	_	_	_	
+50-2	4790-4791	P	_	_	_	_	_	_	_	
+50-3	4792-4795	IMM	_	_	_	_	_	_	_	
+50-4	4795-4796	.	_	_	_	_	_	_	_	
+
+#Text=Skulle möjlighet skapas att i Sverige formellt ingå polygama äktenskap är steget inte långt till en upplösning av äktenskapet som rättsinstitut.
+51-1	4798-4804	Skulle	_	_	_	_	_	_	_	
+51-2	4805-4814	möjlighet	_	_	_	_	_	_	_	
+51-3	4815-4821	skapas	_	_	_	_	_	_	_	
+51-4	4822-4825	att	_	_	_	_	_	_	_	
+51-5	4826-4827	i	_	_	_	_	_	_	_	
+51-6	4828-4835	Sverige	_	_	_	_	_	_	_	
+51-7	4836-4844	formellt	_	_	_	_	_	_	_	
+51-8	4845-4849	ingå	_	_	_	_	_	_	_	
+51-9	4850-4858	polygama	_	_	_	_	_	_	_	
+51-10	4859-4868	äktenskap	_	_	_	_	_	_	_	
+51-11	4869-4871	är	_	_	_	_	_	_	_	
+51-12	4872-4878	steget	_	_	_	_	_	_	_	
+51-13	4879-4883	inte	_	_	_	_	_	_	_	
+51-14	4884-4889	långt	_	_	_	_	_	_	_	
+51-15	4890-4894	till	_	_	_	_	_	_	_	
+51-16	4895-4897	en	_	_	_	_	_	_	_	
+51-17	4898-4908	upplösning	_	_	_	_	_	_	_	
+51-18	4909-4911	av	_	_	_	_	_	_	_	
+51-19	4912-4923	äktenskapet	_	_	_	_	_	_	_	
+51-20	4924-4927	som	_	_	_	_	_	_	_	
+51-21	4928-4941	rättsinstitut	_	_	_	_	_	_	_	
+51-22	4941-4942	.	_	_	_	_	_	_	_	
+
+#Text=Tänkbart är då att detta ersätts av någon form av familjebolag med olika antal delägare och avsedda för olika typer av familjebildningar.
+52-1	4943-4951	Tänkbart	_	_	_	_	_	_	_	
+52-2	4952-4954	är	_	_	_	_	_	_	_	
+52-3	4955-4957	då	_	_	_	_	_	_	_	
+52-4	4958-4961	att	_	_	_	_	_	_	_	
+52-5	4962-4967	detta	_	_	_	_	_	_	_	
+52-6	4968-4975	ersätts	_	_	_	_	_	_	_	
+52-7	4976-4978	av	_	_	_	_	_	_	_	
+52-8	4979-4984	någon	_	_	_	_	_	_	_	
+52-9	4985-4989	form	_	_	_	_	_	_	_	
+52-10	4990-4992	av	_	_	_	_	_	_	_	
+52-11	4993-5005	familjebolag	_	_	_	_	_	_	_	
+52-12	5006-5009	med	_	_	_	_	_	_	_	
+52-13	5010-5015	olika	_	_	_	_	_	_	_	
+52-14	5016-5021	antal	_	_	_	_	_	_	_	
+52-15	5022-5030	delägare	_	_	_	_	_	_	_	
+52-16	5031-5034	och	_	_	_	_	_	_	_	
+52-17	5035-5042	avsedda	_	_	_	_	_	_	_	
+52-18	5043-5046	för	_	_	_	_	_	_	_	
+52-19	5047-5052	olika	_	_	_	_	_	_	_	
+52-20	5053-5058	typer	_	_	_	_	_	_	_	
+52-21	5059-5061	av	_	_	_	_	_	_	_	
+52-22	5062-5079	familjebildningar	_	_	_	_	_	_	_	
+52-23	5079-5080	.	_	_	_	_	_	_	_	
+
+#Text=Lagstiftningen skulle då vara neutral i förhållande till olika moraliska och religiösa värderingar, men innehålla vissa skyddsregler för en svagare part och för utomstående tredje personer.
+53-1	5081-5095	Lagstiftningen	*	_	_	_	_	_	_	
+53-2	5096-5102	skulle	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-3	5103-5105	då	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-4	5106-5110	vara	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-5	5111-5118	neutral	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-6	5119-5120	i	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-7	5121-5132	förhållande	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-8	5133-5137	till	_	Target;Source[8]	53-9[18];53-1	false[8]	3[8]	_	_	
+53-9	5138-5143	olika	*[18]	_	_	_	_	_	_	
+53-10	5144-5153	moraliska	*[18]	_	_	_	_	_	_	
+53-11	5154-5157	och	*[18]	_	_	_	_	_	_	
+53-12	5158-5167	religiösa	*[18]	_	_	_	_	_	_	
+53-13	5168-5179	värderingar	*[18]	_	_	_	_	_	_	
+53-14	5179-5180	,	_	_	_	_	_	_	_	
+53-15	5181-5184	men	_	_	_	_	_	_	_	
+53-16	5185-5194	innehålla	_	_	_	_	_	_	_	
+53-17	5195-5200	vissa	_	_	_	_	_	_	_	
+53-18	5201-5213	skyddsregler	_	_	_	_	_	_	_	
+53-19	5214-5217	för	_	_	_	_	_	_	_	
+53-20	5218-5220	en	_	_	_	_	_	_	_	
+53-21	5221-5228	svagare	_	_	_	_	_	_	_	
+53-22	5229-5233	part	_	_	_	_	_	_	_	
+53-23	5234-5237	och	_	_	_	_	_	_	_	
+53-24	5238-5241	för	_	_	_	_	_	_	_	
+53-25	5242-5253	utomstående	_	_	_	_	_	_	_	
+53-26	5254-5260	tredje	_	_	_	_	_	_	_	
+53-27	5261-5269	personer	_	_	_	_	_	_	_	
+53-28	5269-5270	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+54-1	5272-5273	#	_	_	_	_	_	_	_	
+54-2	5273-5274	P	_	_	_	_	_	_	_	
+54-3	5275-5278	IMM	_	_	_	_	_	_	_	
+54-4	5278-5279	.	_	_	_	_	_	_	_	
+
+#Text=Även om den nu skisserade utvecklingen inte kan anses önskvärd och inte heller särskilt sannolik på kort sikt, så är den fullt tänkbar i ett framtidsperspektiv.
+55-1	5281-5285	Även	_	_	_	_	_	_	_	
+55-2	5286-5288	om	_	_	_	_	_	_	_	
+55-3	5289-5292	den	*[19]	_	_	_	_	_	_	
+55-4	5293-5295	nu	*[19]	_	_	_	_	_	_	
+55-5	5296-5306	skisserade	*[19]	_	_	_	_	_	_	
+55-6	5307-5319	utvecklingen	*[19]	_	_	_	_	_	_	
+55-7	5320-5324	inte	_	Target[9]	55-3[19]	false[9]	2[9]	_	_	
+55-8	5325-5328	kan	_	Target[9]	55-3[19]	false[9]	2[9]	_	_	
+55-9	5329-5334	anses	_	Target[9]	55-3[19]	false[9]	2[9]	_	_	
+55-10	5335-5343	önskvärd	_	Target[9]	55-3[19]	false[9]	2[9]	_	_	
+55-11	5344-5347	och	_	_	_	_	_	_	_	
+55-12	5348-5352	inte	_	_	_	_	_	_	_	
+55-13	5353-5359	heller	_	_	_	_	_	_	_	
+55-14	5360-5368	särskilt	_	_	_	_	_	_	_	
+55-15	5369-5377	sannolik	_	_	_	_	_	_	_	
+55-16	5378-5380	på	_	_	_	_	_	_	_	
+55-17	5381-5385	kort	_	_	_	_	_	_	_	
+55-18	5386-5390	sikt	_	_	_	_	_	_	_	
+55-19	5390-5391	,	_	_	_	_	_	_	_	
+55-20	5392-5394	så	_	_	_	_	_	_	_	
+55-21	5395-5397	är	_	_	_	_	_	_	_	
+55-22	5398-5401	den	_	_	_	_	_	_	_	
+55-23	5402-5407	fullt	_	_	_	_	_	_	_	
+55-24	5408-5415	tänkbar	_	_	_	_	_	_	_	
+55-25	5416-5417	i	_	_	_	_	_	_	_	
+55-26	5418-5421	ett	_	_	_	_	_	_	_	
+55-27	5422-5440	framtidsperspektiv	_	_	_	_	_	_	_	
+55-28	5440-5441	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+56-1	5443-5444	#	_	_	_	_	_	_	_	
+56-2	5444-5445	P	_	_	_	_	_	_	_	
+56-3	5446-5449	IMM	_	_	_	_	_	_	_	
+56-4	5449-5450	.	_	_	_	_	_	_	_	
+
+#Text=Göran Lind.
+57-1	5452-5457	Göran	_	_	_	_	_	_	_	
+57-2	5458-5462	Lind	_	_	_	_	_	_	_	
+57-3	5462-5463	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+58-1	5465-5466	#	_	_	_	_	_	_	_	
+58-2	5466-5467	P	_	_	_	_	_	_	_	
+58-3	5468-5471	IMM	_	_	_	_	_	_	_	
+58-4	5471-5472	.	_	_	_	_	_	_	_	
+
+#Text=professor i familjerätt.
+59-1	5474-5483	professor	_	_	_	_	_	_	_	
+59-2	5484-5485	i	_	_	_	_	_	_	_	
+59-3	5486-5497	familjerätt	_	_	_	_	_	_	_	
+59-4	5497-5498	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+60-1	5500-5501	#	_	_	_	_	_	_	_	
+60-2	5501-5502	P	_	_	_	_	_	_	_	
+60-3	5503-5506	IMM	_	_	_	_	_	_	_	
+60-4	5506-5507	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina StenssonBiträdande redaktör: Carl-Johan BilkenrothMejl: debatt@svd.seTelefonnummer: 08-135149Twitter: @SvDDebattFacebook: SvD Debatt.
+61-1	5509-5517	Redaktör	_	_	_	_	_	_	_	
+61-2	5517-5518	:	_	_	_	_	_	_	_	
+61-3	5519-5525	Carina	_	_	_	_	_	_	_	
+61-4	5526-5544	StenssonBiträdande	_	_	_	_	_	_	_	
+61-5	5545-5553	redaktör	_	_	_	_	_	_	_	
+61-6	5553-5554	:	_	_	_	_	_	_	_	
+61-7	5555-5565	Carl-Johan	_	_	_	_	_	_	_	
+61-8	5566-5580	BilkenrothMejl	_	_	_	_	_	_	_	
+61-9	5580-5581	:	_	_	_	_	_	_	_	
+61-10	5582-5588	debatt	_	_	_	_	_	_	_	
+61-11	5588-5589	@	_	_	_	_	_	_	_	
+61-12	5589-5608	svd.seTelefonnummer	_	_	_	_	_	_	_	
+61-13	5608-5609	:	_	_	_	_	_	_	_	
+61-14	5610-5612	08	_	_	_	_	_	_	_	
+61-15	5612-5613	-	_	_	_	_	_	_	_	
+61-16	5613-5626	135149Twitter	_	_	_	_	_	_	_	
+61-17	5626-5627	:	_	_	_	_	_	_	_	
+61-18	5628-5629	@	_	_	_	_	_	_	_	
+61-19	5629-5646	SvDDebattFacebook	_	_	_	_	_	_	_	
+61-20	5646-5647	:	_	_	_	_	_	_	_	
+61-21	5648-5651	SvD	_	_	_	_	_	_	_	
+61-22	5652-5658	Debatt	_	_	_	_	_	_	_	
+61-23	5658-5659	.	_	_	_	_	_	_	_	
+
+#Text=#P IMM.
+62-1	5661-5662	#	_	_	_	_	_	_	_	
+62-2	5662-5663	P	_	_	_	_	_	_	_	
+62-3	5664-5667	IMM	_	_	_	_	_	_	_	
+62-4	5667-5668	.	_	_	_	_	_	_	_	
+
+#Text=Redaktör: Carina Stensson, Biträdande redaktör: Björn Jorner, Mejl: debatt@svd.se, Telefonnummer: 08-135149, Twitter: @SvDDebatt, Facebook: SvD Debatt.
+63-1	5670-5678	Redaktör	_	_	_	_	_	_	_	
+63-2	5678-5679	:	_	_	_	_	_	_	_	
+63-3	5680-5686	Carina	_	_	_	_	_	_	_	
+63-4	5687-5695	Stensson	_	_	_	_	_	_	_	
+63-5	5695-5696	,	_	_	_	_	_	_	_	
+63-6	5697-5707	Biträdande	_	_	_	_	_	_	_	
+63-7	5708-5716	redaktör	_	_	_	_	_	_	_	
+63-8	5716-5717	:	_	_	_	_	_	_	_	
+63-9	5718-5723	Björn	_	_	_	_	_	_	_	
+63-10	5724-5730	Jorner	_	_	_	_	_	_	_	
+63-11	5730-5731	,	_	_	_	_	_	_	_	
+63-12	5732-5736	Mejl	_	_	_	_	_	_	_	
+63-13	5736-5737	:	_	_	_	_	_	_	_	
+63-14	5738-5744	debatt	_	_	_	_	_	_	_	
+63-15	5744-5745	@	_	_	_	_	_	_	_	
+63-16	5745-5751	svd.se	_	_	_	_	_	_	_	
+63-17	5751-5752	,	_	_	_	_	_	_	_	
+63-18	5753-5766	Telefonnummer	_	_	_	_	_	_	_	
+63-19	5766-5767	:	_	_	_	_	_	_	_	
+63-20	5768-5770	08	_	_	_	_	_	_	_	
+63-21	5770-5771	-	_	_	_	_	_	_	_	
+63-22	5771-5777	135149	_	_	_	_	_	_	_	
+63-23	5777-5778	,	_	_	_	_	_	_	_	
+63-24	5779-5786	Twitter	_	_	_	_	_	_	_	
+63-25	5786-5787	:	_	_	_	_	_	_	_	
+63-26	5788-5789	@	_	_	_	_	_	_	_	
+63-27	5789-5798	SvDDebatt	_	_	_	_	_	_	_	
+63-28	5798-5799	,	_	_	_	_	_	_	_	
+63-29	5800-5808	Facebook	_	_	_	_	_	_	_	
+63-30	5808-5809	:	_	_	_	_	_	_	_	
+63-31	5810-5813	SvD	_	_	_	_	_	_	_	
+63-32	5814-5820	Debatt	_	_	_	_	_	_	_	
+63-33	5820-5821	.	_	_	_	_	_	_	_	
