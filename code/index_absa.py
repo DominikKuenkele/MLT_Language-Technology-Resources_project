@@ -12,5 +12,6 @@ if __name__ == '__main__':
     print(total_number)
     print(filenames[:10])
     print(len(filenames))
-    with open('index_absa.pickle', 'wb') as f:
-        pickle.dump(filenames, f)
+    with open('data/saved/index_absa.txt', 'w', encoding='utf-8') as f:
+        for filename in filenames:
+            f.write(filename + '\n')

@@ -2,7 +2,7 @@ from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
-from process import Post
+from flashback_data import Post
 
 
 class ForumLoader:
@@ -25,7 +25,8 @@ class ForumLoader:
             self.posts.append(Post(
                 post_id=post_id,
                 date=date,
-                author_id=author
+                author_id=author,
+                forum=''
             ))
         except (AttributeError, ConnectionRefusedError) as error:
             print(url)

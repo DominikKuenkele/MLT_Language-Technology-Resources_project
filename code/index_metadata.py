@@ -1,7 +1,8 @@
 import pickle
 from time import sleep
 
-from loader import DocumentLoader
+from flashback_data import load_posts, save_posts
+from imm_loader import DocumentLoader
 from web_scraper import ForumLoader
 
 
@@ -22,13 +23,12 @@ def load_absa():
 
 def save(all_posts):
     print('indexed:', len(all_posts))
-    with open('saved_posts.pickle', 'wb') as f:
-        pickle.dump(all_posts, f)
+
+    save_posts(all_posts, 'index_absa_metadata.json')
 
 
 if __name__ == '__main__':
-    with open('saved_posts.pickle', 'rb') as f:
-        saved = pickle.load(f)
+    saved = load_posts('index_absa_metadata.json')
 
     all_posts = set(saved)
     print('saved_posts:', len(all_posts))
