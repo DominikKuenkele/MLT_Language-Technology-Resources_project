@@ -3,7 +3,10 @@ from dataclasses import dataclass, field
 import nltk
 
 
-@dataclass(kw_only=True, slots=True,)
+@dataclass(
+    kw_only=True,
+    slots=True,
+)
 class DocumentSample:
     file_name: str
     n_opinions: int
@@ -17,16 +20,18 @@ class DocumentSample:
     document_id: str = field(init=False)
 
     def __post_init__(self):
-        self.document_id = self.file_name.split('flashback-')[-1]
+        self.document_id = self.file_name.split("flashback-")[-1]
 
 
-@dataclass(kw_only=True, slots=True,)
+@dataclass(
+    kw_only=True,
+    slots=True,
+)
 class ParagraphSample(DocumentSample):
     paragraph_id: int
     title: bool
     text: str
     tokenized_text: list[str] = field(init=False)
-
 
     def __post_init__(self):
         super(ParagraphSample, self).__post_init__()
@@ -42,72 +47,82 @@ class ParagraphSample(DocumentSample):
 
 
 class DocumentLoader:
-    def __init__(self, path, source='flashback') -> None:
+    def __init__(self, path, source="flashback") -> None:
         self.samples: list[DocumentSample] = []
 
-        with open(path, 'r', encoding='utf-8') as annotations:
+        with open(path, "r", encoding="utf-8") as annotations:
             lines = annotations.readlines()
         for line in lines[1:]:
-            (file_name,
-             n_opinions,
-             minimum,
-             maximum,
-             average,
-             standard_deviation,
-             simplified,
-             *annotator_labels,
-             sign_conflict) = line.rstrip('\n').split('\t')
+            (
+                file_name,
+                n_opinions,
+                minimum,
+                maximum,
+                average,
+                standard_deviation,
+                simplified,
+                *annotator_labels,
+                sign_conflict,
+            ) = line.rstrip("\n").split("\t")
 
             if source in file_name:
-                self.samples.append(DocumentSample(
-                    file_name=file_name,
-                    n_opinions=int(n_opinions),
-                    minimum=int(minimum),
-                    maximum=int(maximum),
-                    average=float(average),
-                    standard_deviation=float(standard_deviation),
-                    simplified=int(simplified),
-                    annotator_labels=[int(label)
-                                      if label != '' else -1
-                                      for label in annotator_labels],
-                    sign_conflict=bool(sign_conflict)
-                ))
+                self.samples.append(
+                    DocumentSample(
+                        file_name=file_name,
+                        n_opinions=int(n_opinions),
+                        minimum=int(minimum),
+                        maximum=int(maximum),
+                        average=float(average),
+                        standard_deviation=float(standard_deviation),
+                        simplified=int(simplified),
+                        annotator_labels=[
+                            int(label) if label != "" else -1
+                            for label in annotator_labels
+                        ],
+                        sign_conflict=bool(sign_conflict),
+                    )
+                )
 
 
 class ParagraphLoader:
-    def __init__(self, path, source='flashback') -> None:
+    def __init__(self, path, source="flashback") -> None:
         self.samples: list[ParagraphSample] = []
 
-        with open(path, 'r', encoding='utf-8') as annotations:
+        with open(path, "r", encoding="utf-8") as annotations:
             lines = annotations.readlines()
         for line in lines[1:]:
-            (file_name,
-             paragraph_id,
-             n_opinions,
-             minimum,
-             maximum,
-             average,
-             standard_deviation,
-             simplified,
-             *annotator_labels,
-             sign_conflict,
-             title,
-             text) = line.rstrip('\n').split('\t')
+            (
+                file_name,
+                paragraph_id,
+                n_opinions,
+                minimum,
+                maximum,
+                average,
+                standard_deviation,
+                simplified,
+                *annotator_labels,
+                sign_conflict,
+                title,
+                text,
+            ) = line.rstrip("\n").split("\t")
 
             if source in file_name:
-                self.samples.append(ParagraphSample(
-                    file_name=file_name,
-                    paragraph_id=int(paragraph_id),
-                    n_opinions=int(n_opinions),
-                    minimum=int(minimum),
-                    maximum=int(maximum),
-                    average=float(average),
-                    standard_deviation=float(standard_deviation),
-                    simplified=int(simplified),
-                    annotator_labels=[int(label)
-                                      if label != '' else -1
-                                      for label in annotator_labels],
-                    sign_conflict=bool(sign_conflict),
-                    title=bool(title),
-                    text=text
-                ))
+                self.samples.append(
+                    ParagraphSample(
+                        file_name=file_name,
+                        paragraph_id=int(paragraph_id),
+                        n_opinions=int(n_opinions),
+                        minimum=int(minimum),
+                        maximum=int(maximum),
+                        average=float(average),
+                        standard_deviation=float(standard_deviation),
+                        simplified=int(simplified),
+                        annotator_labels=[
+                            int(label) if label != "" else -1
+                            for label in annotator_labels
+                        ],
+                        sign_conflict=bool(sign_conflict),
+                        title=bool(title),
+                        text=text,
+                    )
+                )

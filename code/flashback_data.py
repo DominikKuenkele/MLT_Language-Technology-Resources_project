@@ -10,7 +10,7 @@ class Post:
     post_id: str
     date: datetime
     author_id: str
-    forum: str = ''
+    forum: str = ""
 
     def __hash__(self) -> int:
         return hash((self.post_id))
@@ -34,7 +34,11 @@ class Sentence:
 
     def __eq__(self, __o: object) -> bool:
         if isinstance(__o, Sentence):
-            return self.post == __o.post and self.paragraph == __o.paragraph and self.sentence == __o.sentence
+            return (
+                self.post == __o.post
+                and self.paragraph == __o.paragraph
+                and self.sentence == __o.sentence
+            )
         return False
 
 
@@ -54,48 +58,52 @@ def obj_dict(obj):
 
 
 def load_posts(file: str):
-    with open(file, 'r', encoding='utf-8') as f:
+    with open(file, "r", encoding="utf-8") as f:
         json_dict = json.load(f)
 
     posts = []
     for item in json_dict:
-        posts.append(Post(
-            post_id=item['post_id'],
-            date=datetime.datetime.fromisoformat(item['date']),
-            author_id=item['author_id'],
-            forum=item['forum']
-        ))
+        posts.append(
+            Post(
+                post_id=item["post_id"],
+                date=datetime.datetime.fromisoformat(item["date"]),
+                author_id=item["author_id"],
+                forum=item["forum"],
+            )
+        )
     return posts
 
 
 def save_posts(posts: list[Post], file: str):
-    with open(file, 'w', encoding='utf-8') as f:
+    with open(file, "w", encoding="utf-8") as f:
         json.dump(posts, f, default=obj_dict, ensure_ascii=False)
 
 
 def load_sentences(file: str):
-    with open(file, 'r', encoding='utf-8') as f:
+    with open(file, "r", encoding="utf-8") as f:
         json_dict = json.load(f)
 
     sentences = []
     for item in json_dict:
         post = Post(
-            post_id=item['post']['post_id'],
-            date=datetime.datetime.fromisoformat(item['post']['date']),
-            author_id=item['post']['author_id'],
-            forum=item['post']['forum']
+            post_id=item["post"]["post_id"],
+            date=datetime.datetime.fromisoformat(item["post"]["date"]),
+            author_id=item["post"]["author_id"],
+            forum=item["post"]["forum"],
         )
-        sentences.append(Sentence(
-            post=post,
-            paragraph=item['paragraph'],
-            sentence=item['sentence'],
-            tokens=item['tokens'],
-            pos=item['pos']
-        ))
+        sentences.append(
+            Sentence(
+                post=post,
+                paragraph=item["paragraph"],
+                sentence=item["sentence"],
+                tokens=item["tokens"],
+                pos=item["pos"],
+            )
+        )
 
     return sentences
 
 
 def save_sentences(sentences, file):
-    with open(file, 'w', encoding='utf-8') as f:
+    with open(file, "w", encoding="utf-8") as f:
         json.dump(sentences, f, default=obj_dict, ensure_ascii=False)
